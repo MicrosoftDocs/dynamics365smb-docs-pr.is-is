@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Setja upp almennar birgðaupplýsingar | Microsoft Docs"
-description: "Lýsir því hvernig á að skilgreina almennar birgðaupplýsingar svo sem númeraraðir og hvernig á að nota birgðir."
+title: "Skilgreina almenna birgðauppsetningu| Microsoft Docs"
+description: "Lýsir því hvernig á að skilgreina almennar birgðaupplýsingar svo sem númeraraðir og birgðir svo til dæmis sé hægt að stjórna vöruhúsi og birgðum."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f4075d3ec4eea1241eeca204a9e800c0dba9f5c6
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 328b522107b58029687dd9e3263ff53b10ede9a9
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Almennar birgðaupplýsingar eru tilgreindar í glugganum **Birgðagrunnur**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Til að setja upp almennar birgðaupplýsingar
-1. Efst í hægra horni skal velja táknið fyrir **Leit að síðu eða skýrslu** táknið fyrir ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "táknið fyrir Leit að síðu eða skýrslu táknið"), slá inn **Uppsetning birgða**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning birgða** og velja svo viðeigandi tengil.
 2. Í glugganum **Birgðagrunnur** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Sjá einnig
@@ -32,6 +32,6 @@ Almennar birgðaupplýsingar eru tilgreindar í glugganum **Birgðagrunnur**.
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Aðfangakeðja](madeira-supply-chain.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Sérsníða [!INCLUDE[d365fin](includes/d365fin_md.md)] reynslu þína] (ui-experiences.md)  
+[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 

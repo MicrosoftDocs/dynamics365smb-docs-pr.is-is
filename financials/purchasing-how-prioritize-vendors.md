@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Forgangsraða lánardrottnum| Microsoft Docs"
-description: "Hvernig á að forgangsraða Lánardrottnum"
+title: "Úthluta forgangsstigi til lánardrottins | Microsoft Docs"
+description: "Þú getur úthlutað númerum til lánardrottins eða birgja til að forgangsraða þeim og auðvelda greiðslutillögur í Financials."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier, payment priority
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ae80ae9ecc15838b59999ded775c7fa0063c8a54
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2c91b28daf27ddd2b698ffe4338bbf92fd1f9adf
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/04/2017
 Fyrst verður að forgangsraða lánardrottnum með því að úthluta númerum á þá.
 
 ## <a name="to-prioritize-vendors"></a>Lánardrottnum forgangsraðað
-1. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Lánardrottnar** og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **lánardrottnar** og velja svo viðeigandi tengil.
 2. Veljið viðeigandi lánardrottin og veljið því næst **Breyta**.
 3. Í reitinn **Forgangur** skal færa inn númer.
 

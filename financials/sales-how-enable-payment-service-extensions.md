@@ -1,5 +1,5 @@
 ---
-title: "Hvernig á að: Virkja greiðslur viðskiptamanna gegnum greiðsluþjónustu.| Microsoft Docs"
+title: "Virkja greiðslur viðskiptamanna gegnum greiðsluþjónustu| Microsoft Docs"
 description: "Gerðu það auðveldara fyrir viðskiptavini að greiða reikninga sína með því að virkja greiðsluþjónustu."
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 04/24/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 769fd885e5c6070f8a4f6c9082900ea7f5f6ab8d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 49e75c5f43b495bfc053c58b27e06feace62971c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Eftir að þú hefur virkjað greiðsluþjónustu í [!INCLUDE[d365fin](includes
 PayPal-greiðslustaðalls- og WorldPay-greiðslustaðalsviðbætur eru settar upp í [!INCLUDE[d365fin](includes/d365fin_md.md)], og eru tilbúin fyrir þig til að virkja.  
 
 ## <a name="to-enable-a-payment-service-in-included365finincludesd365finmdmd"></a>Til að virkja greiðsluþjónustu í [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Greiðsluþjónusta**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Greiðsluþjónusta** og velja svo viðeigandi tengil.  
 2. Í glugganum **Greiðsluþjónustur** skal velja aðgerðina **Nýtt**.  
 3. Veljið greiðsluþjónustu og lokið glugganum.  
 4. Í glugganum **Greiðsluþjónustur** skal velja aðgerðina **uppsetning**.  
@@ -40,11 +40,12 @@ PayPal-greiðslustaðalls- og WorldPay-greiðslustaðalsviðbætur eru settar up
 2. Opnaðu sölureikninginn sem þú vilt greiða með því að nota greiðsluþjónustuna.  
 3. Í reitnum **Greiðsluþjónusta** er greiðsluþjónustan valin.  
   
-    **Athugapu**: **Greiðsluþjónustu** reiturinn er aðeins tiltækur greiðsluþjónustan hefur verið virkjuð.  
+    > [!NOTE]  
+>   **Greiðsluþjónustu** reiturinn er aðeins tiltækur greiðsluþjónustan hefur verið virkjuð.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  
-[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] Notkun viðbóta] (ui-extensions.md)  
+[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

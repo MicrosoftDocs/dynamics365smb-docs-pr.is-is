@@ -1,6 +1,6 @@
 ---
-title: Snjalltilkynningar | Microsoft Docs
-description: "Snjallar tilkynningar gefa ráð og tillögur."
+title: "Vinna með snjall tilkynningar og tilgreina hvenær þær eiga að birtast | Microsoft Docs"
+description: "Þú getur fengið tilkynningar sem upplýsa þig um stöðubreytingar eða atburði, t.d. gjaldfallna stöðu eða lága birgðastöðu."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2016
+ms.date: 10/24/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 96fd7894545855dd2572e100d674415ca19104db
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ Tilkynningar geta hjálpað óreyndum notendum við að ljúka við verkefni þa
 Að auki gera sumar tilkynningar notendum kleift að tiltaka skilyrðin fyrir sendingu þeirra. Ef það á til dæmis að birtast tilkynning þegar litlar birgðir eru til staðar, en aðeins fyrir hluti sem eru keyptir frá tilteknum lánardrottni.  
 Kveikt eða slökkt á tilkynningum og skilyrði gilda aðeins um þig.  
 
-1. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Mínar tilkynningar**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Mínar tilkynningar** og velja svo viðeigandi tengil.
 2. Til að kveikja eða slökkva á tilkynningu skaltu velja eða hreinsa reitinn **Kveikt**.
 3. Til að tilgreina skilyrði þess að tilkynning sé send skal velja tengilinn **Skoða upplýsingar afmörkunar** og fylla síðan inn reitina.  
 

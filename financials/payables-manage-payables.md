@@ -1,6 +1,6 @@
 ---
-title: "Stjórnun viðskiptaskulda | Microsoft Docs"
-description: "Stjórna skuldum"
+title: "Yfirlit yfir umsjónarverkhluta viðskiptaskulda| Microsoft Docs"
+description: "Útskýrir verkhluta sem felur í sér stjórnun viðskiptaskulda, til dæmis að borga skuldareiganda eða úthluta greiðslum á útleið á fjárhagsfærslur til að loka reikningum eða kreditreikningum."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 92b16c52589a07661d9ff080e9ef8a0f6be633f7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9684a91268927a4f1f4d249fef019c8f6ac00325
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,10 +34,12 @@ Einnig er hægt að jafna greiðslur á útleið handvirkt í glugganum **greið
 | Mynda gjaldfallnar greiðslur lánardrottna með forgangsröðun samkvæmt greiðsluafslætti og vanræksluálags. Valkvæt er að flytja út greiðslur í bankaskrá við bókun. |[Framkvæma greiðslur](payables-make-payments.md) |
 | Jafna greiðslur lánardrottna sjálfkrafa við ógreidda innkaupareikninga með því að flytja inn bankayfirlitsskrá. |[Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Jafna greiðslur lánardrottna handvirkt við ógreidda innkaupareikninga. |[Hvernig á að: Afstemma greiðslur á lánardrottna handvirkt](payables-how-apply-purchase-transactions-manually.md) |
+|Tryggðu rétt birgðamat með því að úthluta viðbótar vörukostnaði, eins og farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér.|[Hvernig skal: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
+[Hvernig skal: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

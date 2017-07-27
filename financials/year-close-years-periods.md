@@ -1,6 +1,6 @@
 ---
-title: "Lokaár og tímabil | Microsoft Docs"
-description: "Útskýrir hvernig á að loka reikningsári og tímabilum."
+title: "Yfirlit yfir verkhluta lokun fjárhagsárs og fjárhagstímabila | Microsoft Docs"
+description: "Útskýrir verkhlutana sem felast í því að loka fjárhagsári og fjárhagstímabili, til dæmis að ganga úr skugga um að skjöl og færslubækur séu bókuð og staðfesta bankareikningsstöðu."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 03/29/2017
+ms.date: 06/07/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 211bebe03d270a0efabe87d131ae45f1617feaa7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,6 +31,7 @@ Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir 
 | Fá yfirlit yfir aðgerðir sem yfirleitt þarf að inna af hendi við lok tímabils, eins og að bóka öll skjöl og færslubækur, eða keyra fjárhagsskemu. |[Lokunartímabil](year-how-complete-period-end-processes.md) |
 | Uppfæra gengi gjaldmiðla og breyta gengi bókaðra viðskiptamanna, lánardrottna og færslna á bankareikningi. |[Hvernig á að: Uppfæra gengi](finance-how-update-currencies.md) |
 | Raða kostnaði og tekjum á milli reikninga og vídda. |[Úthluta kostnaði og tekjum](year-allocate-costs-income.md) |
+| Búa sig undir að skila skýrslu um VSK upphæðir, sem fengnar eru fyrir sölu, inn til skattayfirvalda. |[Hvernig á að: Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)|
 | Prenta út skýrslur til að votta fjárhag, viðskiptamann, lánardrottinn og innistæður á bankareikningum áður en tímabili er lokað. |[Undirbúningur skýrslna fyrir lokun](year-prepare-preclose-reports.md) |
 | Loka fjárhagstímabili og reikningsári, færa jöfnuð rekstrareiknings í efnahagsreikning og bóka lokunarfærslu ársloka. |[Bókum lokað](year-close-books.md) |
 | Prenta út skýrslur sem eru gagnlegar við gerð fjárhagsskýrslna. |[Undirbúningur lokunaryfirlits](year-prepare-close-statement.md) |

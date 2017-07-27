@@ -1,6 +1,6 @@
 ---
-title: Innkaup | Microsoft Docs
-description: "Lýsir hvernig á að stjórna innkaupastarfsemi."
+title: "Yfirlit yfir umsjónarverkhluta innkaupa | Microsoft Docs"
+description: "Útskýrir verkhluta sem felur í sér umsjón innkaupa þinna og innkaupaferla, þar með talið hvernig innkaupareikningar og innkaupapantanir virka."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ba8ea773fa4024cfcaccd00b80bdbbfe81be8b7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Til | Sjá |
 | --- | --- |
 | Stofna innkaupareikning til að skrá samkomulag við lánardrottinn um að kaupa vörur með tilteknum afhendingar- og greiðsluskilmálum. |[Hvernig á að skrá kaup](purchasing-how-record-purchases.md) |
-| Stofna innkaupareikning fyrir allar eða valdar línur á sölureikningi. |[Hvernig á að: kaupa vörur til endursölu](purchasing-how-purchase-products-sale.md) |
+| Stofna innkaupareikning fyrir allar eða valdar línur á sölureikningi. |[Hvernig á að: Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md) |
 | Notið aðgerð á ógreiddum bókuðum innkaupareikningi til að stofna sjálfvirkt kreditreikningsferli og annaðhvort afturkalla innkaupareikninginn eða endurskapa hann til að gera leiðréttingar. |[Ógreiddir sölureikningar leiðréttir eða afturkallaðir](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Stofna innkaupakreiditreikning til þess að bakfæra tiltekinn bókaðan innkaupareikning til að endurspegla hvaða vörum er skilað til lánardrottins og hvað greiðsluupphæð fæst. |[Hvernig á að: Meðhöndla innkaupaskila eða afturkallana](purchasing-how-register-new-vendors.md) |
 | Stofna lánardrottnaspjald fyrir alla lánardrottna keypt er af. |[Hvernig á að Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md) |

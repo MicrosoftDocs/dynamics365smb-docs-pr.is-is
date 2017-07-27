@@ -1,6 +1,6 @@
 ---
-title: "Sérstillingar notanda | Microsoft Docs"
-description: "Lýsir því hvernig notendur geta breytt því hvernig viðmótseiningar birtast."
+title: "Sérstilla hvernig upplýsingar birtast á notandareikningi Dynamics 365 for Financials"
+description: "Lýsir því hvernig skal sérstilla útlit og stemningu í Financials fyrir þinn notandareikning."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,17 +13,18 @@ ms.search.keywords: customize, personalize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c1b4fe89265f551810aebc0a874ac84e645128e1
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 754ce16624db4d939da98baf2da74f14bd383920
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="user-personalization"></a>Sérstillingar notanda
 Hægt er að breyta því hvernig tilteknar viðmótseiningar birtast í [!INCLUDE[d365fin](includes/d365fin_md.md)] útgáfunni þinni.
 
-**Athugið**: Sérstillingar eiga aðeins við um notandareikninginn þinn. Aðrir notendur sjá það ekki.
+> [!NOTE]  
+>   Sérstillingar eiga aðeins við um notandareikninginn þinn. Aðrir notendur sjá það ekki.
 
 ## <a name="to-add-or-remove-a-column"></a>Til að bæta við eða fjarlægja dálk
 Ekki er sjálfgefið að allar dálkaupplýsingar birtist í listum og skjalalínum. Hægt er að bæta við eða fjarlægja dálka með valkostinum **Velja dálka**.

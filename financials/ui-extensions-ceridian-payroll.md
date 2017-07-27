@@ -1,6 +1,6 @@
 ---
-title: Ceridian Payroll| Microsoft Docs
-description: "Veitir upplýsingar um viðbótina Ceridian Payroll"
+title: "Flytja inn launagögn með Ceridian Payroll-viðbótinni | Microsoft Docs"
+description: "Nota skal þessa viðbót til að flytja inn launafærslur frá Ceridian HR/Payroll (BNA) og Ceridian PowerPay (Kanada) þjónustunum."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b3e5786788f9d5bc88ac6d6b170ebe8a6f03d89e
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 18b1dcd66b6816adc9fcb8b86d4f55834f51fd02
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Fyrir þetta þarf fyrst að flytja inn skrá úr launaveitu yfir í gluggann **
 Eftirlitsgreiðslan um Ceridian Payroll gerir þér kleift að flytja inn launatölvur frá þjónustu Ceridian Power / Payroll (US) og Ceridian PowerPay (Kanada).
 
 ## <a name="see-also"></a>Sjá einnig
-[Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md)    
-[Fjármál] (finance.md)    
+[Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum ](ui-extensions.md)    
+[Fjármál](finance.md)    
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

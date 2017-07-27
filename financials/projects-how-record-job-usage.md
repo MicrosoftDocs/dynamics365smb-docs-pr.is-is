@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Skrá notkun vegna verka | Microsoft Docs"
-description: "Lýsir því hvernig á að skrá notkun á vöru eða forða í verk."
+title: "Skrá reikningshæfa og áætlaða notkun verkforða| Microsoft Docs"
+description: "Lýsir því hvernig á að skrá neyslu eða notkun á vöru eða forða í verkum til að greiða fyrir verkefnastjórnun."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, consumption
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 896b26e11042155860d6c933d937066f9c9aec73
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2b42abaed502c49a595a35656570548e48321b46
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Til dæmis fyrir áætlunarlínurnar af tegundinni **Áætlun** er hægt að set
 Eftirfarandi leiðbeiningar lýsa því hvernig á að skrá raunverulegt (reikningshæft) eða áætlað verð og kostnað við verk. Upplýsingar um hvernig skal áætla virði við áætlun er að finna í [Hvernig skal: Vinna með verkáætlanir](projects-how-manage-budgets.md).
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Til að skrá notkun fyrir verkáætlunarlínu af gerðinni Áætlun
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Verk**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
 2. Veljið viðeigandi verð og veljið svo aðgerðina **Verkáætlunarlínur**.
 3. Veljið verkáætlunarlínu af gerðinni **Áætlun** eða **Bæði fjárhagsáætlun og reikningshæft** sem á að skrá notkun fyrir.
 4. Í reitinn **Magn til flutnings í færslubók** skal skrá fjöldann sem á að flytja. Sjálfgefna gildið er sama magn og það sem er í reitnum **Magn**.
@@ -44,7 +44,7 @@ Eftirfarandi leiðbeiningar lýsa því hvernig á að skrá raunverulegt (reikn
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Til að skrá notkun fyrir verkáætlunarlínu af gerðinni Reikningshæft
 Í næsta verkefni skal einnig skrá notkun, en fyrir verkáætlunarlínu af gerðinni **Reikningshæft**. Í þessu tilfelli er notkunin yfirleitt reikningsfærð, en einnig er hægt að flytja hana í bók. Þegar það er gert er stofnuð verkáætlunarlína af gerðinni **Áætlun** sem samsvarar reikningshæfu línunni. Nánari upplýsingar eru í [Hvernig á að: Vinna með verkáætlanir](projects-how-manage-budgets.md).
 
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Verk**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.
 2. Veljið viðeigandi verð og veljið svo aðgerðina **Verkáætlunarlínur**.  
 3. Veljið verkáætlunarlínu af gerðinni **Reikningshæft** sem á að skrá notkun fyrir.
 4. Í reitinn **Magn til flutnings á reikning** skal skrá fjöldann sem á að flytja. Sjálfgefna gildið er sama magn og það sem er í reitnum **Magn**.
@@ -61,7 +61,7 @@ Eftirfarandi leiðbeiningar lýsa því hvernig á að skrá raunverulegt (reikn
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Til að stofna verkbókarlínur úr áætlunarlínum verks
 Þegar notandi er tilbúinn að bóka fjárhagslegar upplýsingar fyrir verk, þarf að stofna verkbókarlínur sem hægt er að bóka.
 
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Verk**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
 2. Veljið viðeigandi opið verk og veljið svo aðgerðina **Verkáætlunarlínur**.  
 3. Í glugganum **Verkáætlunarlínur** skal slá inn magnið sem flytja skal í verkbók í reitinn **Magn til flutnings í færslubók** í viðeigandi verkáætlunarlínu.  
 4. Velja skal aðgerðina **Stofna verkbókarlínur**.
@@ -71,7 +71,7 @@ Eftirfarandi leiðbeiningar lýsa því hvernig á að skrá raunverulegt (reikn
 8. Þegar verkbókarlínurnar eru tilbúnar skal velja aðgerðina **Bóka**.  
 
 ## <a name="to-create-job-journal-lines-manually"></a>Til að búa til verkbókarlínur handvirkt
-1. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Verk - færslubækur**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkbækur** og velja svo viðeigandi tengil.  
 2. Í reitnum **Heiti keyrslu** skal velja viðeigandi verkbókarkeyrslu.  
 3. Sláið inn skjalanúmer, verknúmer, verkhlutanúmer, tegund og magn tegundarinnar sem verið er að nota í nýja línu.  
 4. Þegar verkbókarlínurnar eru tilbúnar skal velja aðgerðina **Bóka**.  
@@ -79,9 +79,10 @@ Eftirfarandi leiðbeiningar lýsa því hvernig á að skrá raunverulegt (reikn
 ## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Til að fara yfir áætlunarlínur verkfærslu
 Þegar verkbókarlínur hafa verið bókaðar er hægt að sjá þær áætlunarlínur sem tengjast þeim verkbókarfærslum sem hafa verið bókaðar.
 
-**Til athugunar**: Þetta krefst þess að hakað hafi verið í gátreitinn **Beita notkunartengli** eða að það sé sjálfgefin stilling fyrir öll verk í fyrirtækinu. Frekari upplýsingar eru í [Hvernig á að: Setja upp verk](projects-how-setup-jobs.md).  
+> [!NOTE]  
+>   Þetta krefst þess að gátreiturinn **Nota notkunartengil** sé valinn fyrir verkið eða sé sjálfgefin stilling fyrir öll verk í fyrirtækinu. Frekari upplýsingar eru í [Hvernig á að: Setja upp verk](projects-how-setup-jobs.md).  
 
-1. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Verk - færslubækur**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkbækur** og velja svo viðeigandi tengil.  
 2. Veljið viðeigandi verkbók og veljið svo aðgerðina **Færslur**.  
 3. Í glugganum **Verkfærslur** er aðgerðin **Sýna áætlunarlínur verks** valin.
 

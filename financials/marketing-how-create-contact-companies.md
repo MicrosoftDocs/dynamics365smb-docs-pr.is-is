@@ -1,6 +1,6 @@
 ---
-title: "Búa til tengiliðarfyrirtæki | Microsoft Docs"
-description: "Lýsir því Hvernig á að stofna tengiliðafyrirtæki í Financials"
+title: "Stofna fyrirtækjatengiliði| Microsoft Docs"
+description: "Lýsir því hvernig skal stofna tengilið fyrir hvert nýtt fyrirtæki eða tilvonandi fyrirtæki sem þú átt samskipti við eða ert í sambandi við."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bd8dfb8abc9387ad6b9c500f25feb181878b6cfe
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a1141c352dd93657d32bb83067ce32077901a47
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="create-contact-companies"></a>Stofna fyrirtækjatengilið
+# <a name="how-to-create-contact-companies"></a>Hvernig á að stofna Fyrirtækjatengilið
 Hægt er að stofna tengilið fyrir hvert nýtt fyrirtæki sem notandinn á í samskiptum við, til dæmis viðskiptamann, lánardrottinn, tilvonandi viðskiptamann, banka, lögfræðistofu, ráðgjafa og svo framvegis.
 
 Tvær leiðir eru til að stofna tengilið: frá upphafi eða úr fyrirliggjandi viðskiptamanni, lánadrottni bankareikningi..
@@ -28,7 +28,7 @@ Tvær leiðir eru til að stofna tengilið: frá upphafi eða úr fyrirliggjandi
 Áður en tengiliður er stofnaður er ráðlegt að athuga stillingarnar í glugganum  **Tengslastjórnunargrunnur**. Nánari upplýsingar er að finna í [Uppsetning tengslastjórnunar](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Stofna nýtt tengiliðarfyrirtæki frá upphafi
-1. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **tengiliðir**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Tengiliðir** og velja svo viðeigandi tengil.
 2. Valið er **Nýtt** aðgerð.
 3. Í **reitinn Nr.** er fært inn númer fyrir tengiliðinn.
 
@@ -36,21 +36,23 @@ Tvær leiðir eru til að stofna tengilið: frá upphafi eða úr fyrirliggjandi
 4. Setja **Tegund** á **Fyrirtæki**.
 5. Hinir reitirnir eru fylltir út eins krafist er.
 
-## <a name="create-a-company-contact-from-a-customer-vendor-or-bank-account"></a>Stofna fyrirtækistengilið úr viðskiptamanni, lánadrottni eða bankareikning:
+## <a name="to-create-a-company-contact-from-a-customer-vendor-or-bank-account"></a>Stofna fyrirtækistengilið úr viðskiptamanni, lánadrottni eða bankareikning
 Hafi þegar verið settur upp fjöldi viðskiptamanna, lánardrottna og bankareikninga er hægt að stofna tengiliði á grunni gagna sem til eru. Þegar tengilið er stofnað á þennan hátt er tengiliðaupplýsingarnar samstillt við upplýsingar um  viðskiptamann, lánadrottinn eða bankareikning.
 
-**Bent er á**: áður en þú getur stofnað tengiliðafyrirtæki á þennan hátt, verðurðu að tilgreina viðskiptatengslakóða fyrir viðskiptavini, lánardrottna, og bankareikninga í glugganum **uppsetning markaðssetningar** Ef þú munt stofna tengiliði úr bankareikningi verður einnig að tilgreina númeraraðir fyrir bankareikninga í glugganum **Fjárhagsgrunnur**.
+> [!NOTE]  
+>   Áður en þú getur stofnað tengiliðafyrirtæki á þennan hátt, verðurðu að tilgreina viðskiptatengslakóða fyrir viðskiptavini, lánardrottna, og bankareikninga í glugganum **uppsetning markaðssetningar** Ef þú munt stofna tengiliði úr bankareikningi verður einnig að tilgreina númeraraðir fyrir bankareikninga í glugganum **Fjárhagsgrunnur**.
 
-1. Í efra hægra horni skal velja **Leit að síðu eða skýrslu** táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu"), færa inn eitt af eftirtöldu, allt eftir því hvaðan stofna á tengiliði og veljið svo viðkomandi tengil.
+1. Veljið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, færa inn eitt af eftirtöldu, allt eftir því hvaðan stofna á tengiliði og veljið svo viðkomandi tengil.
    * **Stofna tengiliði útfrá viðskiptamönnum**
    * **Stofna tengiliði útfrá lánardottnum**
    * **Stofna tengiliði útfrá bankareikningum**
 2. Á glugganum runuvinnsla sem opnast í hlutanum **Viðskiptamaður**, **Lánadrottin** eða **Bankareikningur** skal setja upp afmarkanir ef stofna á tengiliði úr ákveðnum viðskiptamönnum, lánadrottnum eða bankareikningum.
 3. Veldu hnappinn **Í lagi** til að hefja stofnun tengiliða.
 
-    Kerfið úthlutar nýju tengiliðunum næstu tengiliðanúmerunum í númeraröðinni. Viðskiptatengsl fyrir lánardrottna sem er tilgreint í **uppsetning markaðssetningar ** glugganum er úthlutað á nýlega stofnuðu tengiliðina..
+    Kerfið úthlutar nýju tengiliðunum næstu tengiliðanúmerunum í númeraröðinni. Viðskiptatengsl fyrir lánardrottna sem er tilgreint í **uppsetning markaðssetningar** glugganum er úthlutað á nýlega stofnuðu tengiliðina..
 
-**Ábending**: þú getur einnig stofnað viðskiptamann, lánadrottinn eða bankareikning út frá tengilið. Fyrir frekar upplýsingar, sjá sjá [stofna Viðskiptamann, Lánadrottinn eða Bankareikning út frá tengilið](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+> [!TIP]  
+>   Þú getur einnig stofnað viðskiptamann, lánadrottinn eða bankareikning út frá tengilið. Fyrir frekar upplýsingar, sjá sjá [stofna Viðskiptamann, Lánadrottinn eða Bankareikning út frá tengilið](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Samstilla tengiliði við viðskiptavini, seljendur og bankareikninga](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  

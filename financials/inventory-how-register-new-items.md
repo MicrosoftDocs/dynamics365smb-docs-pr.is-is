@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Skráð nýjar vörur | Microsoft Docs"
-description: "Búðu til spjöld fyrir nýjar vörur sem þú selur úr birgðum í t.d. stykki eða þjónustu sem þú selur sem klukkutíma."
+title: "Stofna birgðaspjald fyrir vörur eða þjónustu| Microsoft Docs"
+description: "Þú býrð til spjöld fyrir þjónustu sem þú selur sem klukkutíma og fyrir efnislegar vörur eins og t.d. samsetningaríhlutir, fullunnar vörur eða hráefni sem þú selur úr birgðum."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,18 +9,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 582e006291e51e19d80304d24ae055ce6ac8d698
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-register-new-items"></a>Hvernig á að Skrá nýjar vörur
-Atriði, meðal annars vara, eru grundvöllur fyrirtækis þíns, vöru eða þjónustu sem þú viðskipti með. Hver vara verður að vera skráð sem birgðaspjald.
+Vörur, ásamt öðrum framleiðsluvörum, eru grundvöllur fyrirtækisins, vörurnar eða þjónustan sem þú stundar viðskipti með. Hver vara verður að vera skráð sem birgðaspjald.
 
 Birgðaspjald inniheldur upplýsingarnar sem þarf til að kaupa, selja, geyma og tilkynna vörur.
 
@@ -28,10 +28,11 @@ Birgðaspjaldið getur verið af gerðinni **Birgðir** eða **Þjónusta** til 
 
 Hlutur getur verið uppbyggður sem yfireining með undirliggjandi undireiningu í uppskrift. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er uppskrift vísað til sem samsetningaruppskrift. Þú notar samsetningaruppskrift til að byggja upp yfireiningu sem þú selur sem undireiningar sem samanstanda af yfiríhlutnum eða sem þú setja saman í pöntun eða í birgðir. Nánari upplýsingar er að finna í [Hvernig á að: Vinna með uppskrift.](inventory-how-work-BOMs.md)
 
-**Athugasemd**: Ef vörusniðmát er til fyrir mismunandi tegundir vara, þá birtist gluggi þar sem búið er til nýtt birgðaspjald og hægt er að velja viðeigandi vörusniðmát. Ef aðeins eitt vörusniðmát er fyrir hendi, nota ný birgðaspjöld alltaf það sniðmát.
+> [!NOTE]  
+>   Ef vörusniðmát er til fyrir mismunandi vörutegundir, þá birtist gluggi þar sem búið er til nýtt birgðaspjald og hægt er að velja viðeigandi vörusniðmát. Ef aðeins eitt vörusniðmát er fyrir hendi, nota ný birgðaspjöld alltaf það sniðmát.
 
 ## <a name="to-create-a-new-item-card"></a>Að búa til nýtt vöruspjald
-1. Á heimasíðunni skal velja aðgerðina **vörur ** til að opna listann yfir núverandi vörur.  
+1. Á heimasíðunni skal velja aðgerðina **vörur** til að opna listann yfir núverandi vörur.  
 2. Í glugganum **Vörur** skal velja aðgerðina **Nýtt**.
 
     Ef aðeins eitt vörusniðmát er fyrir hendi, opnast nýtt birgðaspjald með suma af reitunum útfyllta með upplýsingum úr sniðmátinu.

@@ -1,6 +1,6 @@
 ---
-title: "Hvernig skal stemma handvirkt af greiðslur viðskiptamanns úr lista yfir ógreidd söluskjöl| Microsoft Docs"
-description: "hvernig skal stemma handvirkt af greiðslur viðskiptamanns úr lista yfir ógreidda söluskjöl."
+title: "Jafna greiðslur við ógreidd söluskjöl | Microsoft Docs"
+description: "Þú jafna upphæðir greiddar af viðskiptamönnum við tengt söluskjal og bóka svo greiðsluna til að uppfæra viðskiptamann, fjárhag og bankafærslur."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,20 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 03/29/2017
+ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c60b4fd5ef58740e4ac518a2538873353554fd87
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 8ea27f21b2e4acc25b4acc6b5ba15580ca5a1997
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>hvernig skal stemma handvirkt af greiðslur viðskiptamanns úr lista yfir ógreidda söluskjöl.
 Þegar viðskiptamenn hafa greitt inn á rafrænan bankareikning, verður að jafna hverja greidda upphæð við tengt söluskjal og bóka svo greiðsluna til að uppfæra viðskiptamann, fjárhag og bankafærslur.
 
-**Athugasemd**: Þú getur framkvæmd sömu verk, þar á meðal greiðslur viðskiptamanns og greiðsla lánardrottins, í **greiðsluafstemmingarbók** glugganum með því að nota virkni fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
+> [!NOTE]  
+>   Þú getur framkvæmt sömu verk, þar á meðal greiðslur lánardrottins í **greiðsluafstemmingarbók** glugganum með því að nota aðgerð fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
 Glugganum **Skráning greiðslna** er ætlað að veita aðstoð í verkum sem tengjast afstemmingu innanhúsreikninga með því að nota raunverulegar sjóðstölur til að tryggja að innheimta sé skilvirk frá viðskiptamönnum. Þetta greiðsluvinnsluverkfæri gerir þér kleift að staðfesta og bóka á skjótan hátt stakar- eða fastagreiðslur, meðhöndla greiðsluafslætti við mismunandi aðstæður og að finna ákveðin ógreidd fylgiskjöl sem greiðslur eru gerðar til.
 
@@ -31,13 +32,13 @@ Greiðslur fyrir mismunandi viðskiptamenn, sem hafa mismunandi borgunardagsetni
 ## <a name="to-set-up-the-payment-registration-journal"></a>Uppsetning greiðsluskráningarbókar
 Þar sem hægt er að bóka nokkrar greiðslutegundir á nokkra mótreikninga verður að velja mótreikning í glugganum **Uppsetning skráningar greiðslna** áður en greiðslur viðskiptamanns eru unnar. Ef alltaf er bókað á sama mótreikninginn, er hægt að stilla þann reikning sem sjálfgefinn og forðast þetta skref í hvert sinn sem glugginn **Skráning greiðslna** er opnaður.  
 
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Uppsetning greiðsluskráningar**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning fyrir greiðsluskráningu** og velja svo viðeigandi tengil.
 
     Einnig, í glugganum **skráning greiðslna**, veldu aðgerðina **uppsetning**.    
 2. Reitirnir í glugganum **Uppsetning skráningar greiðslna** eru fylltir út. Velja reit til að lesa inn stutta lýsingu á reitunum eða tengja við tengdar upplýsingar.  
 
 ## <a name="to-reconcile-payments-individually"></a>Afstemma greiðslur handvirkt
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Skráning greiðslna**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Greiðsluskráning** og velja svo viðeigandi tengil.  
 2. Veljið gátreitinn **greiðsla framkvæmd** á línunni sem stendur fyrir bókaða fylgiskjalið sem borgun hefur verið gerð fyrir.
 
     Ef gátreiturinn **sjálfvirk útfylling dagsetningar móttöku** er valinn í glugganum **uppsetning skráning greiðslna**, fyllist vinnudagsetningin út í reitnum **dagsetning móttöku**.  
@@ -53,18 +54,21 @@ Greiðsluupplýsingarnar eru bókaðar í fylgiskjölum og sýndar sem línur þ
 Greiðslufærslur eru bókaðar í fjárhags-, banka- og viðskipta- eða viðskiptamannareikningum. Hver greiðsla er jöfnuð við tengt bókað söluskjal.  
 
 ## <a name="to-reconcile-lump-payments"></a>Stemma af fastagreiðslur
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Skráning greiðslna**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Greiðsluskráning** og velja svo viðeigandi tengil.
 2. Veljið gátreitinn **greiðsla framkvæmd** á línunum sem standa fyrir bókuðu fylgiskjölin fyrir sama viðskiptamanninn sem fastagreiðsla hefur verið gerð fyrir.  
 
-    **Athugasemd**: Viðskiptamaðurinn í reitnum **Nafn** verður að vera eins í öllum línum sem verða bókaðar sem fastagreiðsla.  
+    > [!NOTE]  
+>   Viðskiptamaðurinn í reitnum **Nafn** verður að vera eins í öllum línum sem verða bókaðar sem fastagreiðsla.  
 
     Ef gátreiturinn **sjálfvirk útfylling dagsetningar móttöku** er valinn í glugganum **uppsetning skráning greiðslna** , fyllist vinnudagsetningin út í reitnum **dagsetning móttöku**.  
 3. Í reitnum **dagsetning móttöku**, færið inn dagsetninguna sem greiðslan var gerð á. Þessi dagsetning má vera önnur en vinnudagsetningin.  
 
-    **Athugasemd**: Þessi dagsetning verður að vera sú sama á öllum línum sem verða bókaðar sem fastagreiðslur.  
+    > [!NOTE]  
+>   Þessi dagsetning verður að vera sú sama á öllum línum sem verða bókaðar sem fastagreiðslur.  
 4. Í reitnum **móttekin greiðsla**, færið inn upphæðir á margar línur sem ná samanlagt upp í fastagreiðsluupphæðina.  
 
-    **Ábending**: Reynið að bóka eins margar fullnaðargreiðslur og mögulegt er í fastagreiðslunni. Færa inn upphæðir sem eru þær sömu og upphæðin í reitnum **Eftirstandandi upphæð** á eins margar línur og mögulegt er.  
+    > [!TIP]  
+>   Reynið að bóka eins margar fullnaðargreiðslur og mögulegt er í fastagreiðslunni. Færa inn upphæðir sem eru þær sömu og upphæðin í reitnum **Eftirstandandi upphæð** á eins margar línur og mögulegt er.  
 5. Endurtakið skref 2-4 fyrir aðrar línur sem standa fyrir bókuð skjöl fyrir sama viðskiptamanninn og fastagreiðsla hefur verið gerð fyrir.  
 6. Valið er **bóka sem fastgreiðslu** aðgerð. Innfærðar Greiðsluupplýsingarnar eru bókaðar í fylgiskjölum og sýndar sem línur þar sem gátreiturinn **Greiðsla framkvæmd** er valinn.  
 
@@ -85,7 +89,7 @@ Ef samið hefur verið um greiðsluafslátt við viðskiptamanninn, getur greið
 * Greiðsluupphæðin er hærri en hin eftirstandandi afsláttarupphæð. Greiðslan er bókuð eins og hún er. Aðeins eftirstandandi upphæð er bókuð. Viðbótarupphæðin er færð á viðskiptamanninn.  
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Meðhöndlun greiðsluupphæðar sem er jöfn afsláttarupphæðinni og dagsetning greiðslunnar er fyrir afsláttardagsetninguna.
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Skráning greiðslna**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Greiðsluskráning** og velja svo viðeigandi tengil.  
 2. Færa inn reikningsupphæðina í reitinn **Móttekin upphæð**. Upphæðin er jöfn upphæðinni í reitnum **Eftirstöðvar eftir afslátt**.
 
     Gátreiturinn **Greiðsla framkvæmd** er valinn sjálfvirkt og reiturinn **Dagsetning móttöku** fyllist út með vinnudagsetningunni.    
@@ -94,13 +98,14 @@ Ef samið hefur verið um greiðsluafslátt við viðskiptamanninn, getur greið
 5. Veldu **bóka greiðslur** aðgerðina til að bóka alla greiðsluna í fjárhag, banka og viðskiptavinalykla.
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Meðhöndlun greiðsluupphæðar sem er jöfn afsláttarupphæðinni og dagsetning greiðslunnar er fyrir afsláttardagsetninguna
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Skráning greiðslna**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Greiðsluskráning** og velja svo viðeigandi tengil.  
 2. Færa inn reikningsupphæðina í reitinn **Móttekin upphæð**. Upphæðin er jöfn upphæðinni í reitnum **Eftirstöðvar eftir afslátt**.
 
     Gátreiturinn **Greiðsla framkvæmd** er valinn sjálfvirkt og reiturinn **Dagsetning móttöku** fyllist út með vinnudagsetningunni.
 3. Í reitnum **dagsetning móttöku**, færið inn dagsetningu greiðslu sem ber upp eftir dagsetningunni í reitnum **dagsetning greiðsluafsláttar**. Dagsetningareitum breytt í rauða leturgerð og villuboð birtast neðst í glugganum.
 
-    **Ábending**: Ef veita á undanþágu og gefa afslátt jafnvel þó greiðslan berist seint, fylgið þessum skrefum:
+    > [!TIP]  
+>   Ef veita á undanþágu og gefa afslátt jafnvel þótt greiðslan berist seint, fylgið þessum skrefum:
 4. Valið er **Sundurliðun** aðgerð.  
 5. Í glugganum **upplýsingar um skráning greiðslna** í reitnum **dagsetning greiðsluafsláttar** á Flýtiflipanum **Greiðsluafsláttur**, setjið inn dagsetningu sem ber upp á eftir dagsetninguna í reitnum **dagsetning móttöku** í glugganum **skráning greiðslna**.  
 
@@ -111,7 +116,7 @@ Ef samið hefur verið um greiðsluafslátt við viðskiptamanninn, getur greið
 Viðkomandi fylgiskjal er enn opið.
 
 ### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Meðhöndlun greiðsluupphæðar sem er lægri en hin eftirstandandi afsláttarupphæð
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Skráning greiðslna**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Greiðsluskráning** og velja svo viðeigandi tengil.  
 2. Færa inn reikningsupphæðina í reitinn **Móttekin upphæð**. Upphæðin er lægri en upphæðin í reitnum **Eftirstöðvar eftir afslátt**.
 
     Gátreiturinn **Greiðsla framkvæmd** er valinn sjálfvirkt og reiturinn **Dagsetning móttöku** fyllist út með vinnudagsetningunni.  
@@ -122,7 +127,7 @@ Viðkomandi fylgiskjal er enn opið.
 Viðkomandi fylgiskjal er enn opið.
 
 ### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Meðhöndlun greiðsluupphæðar sem er hærri en hin eftirstandandi afsláttarupphæð
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Skráning greiðslna**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Greiðsluskráning** og velja svo viðeigandi tengil.  
 2. Færa inn reikningsupphæðina í reitinn **Móttekin upphæð**. Upphæðin er hærri en upphæðin í reitnum **Eftirstöðvar eftir afslátt**.  
 
     Gátreiturinn **Greiðsla framkvæmd** er valinn sjálfvirkt og reiturinn **Dagsetning móttöku** fyllist út með vinnudagsetningunni.    
@@ -144,11 +149,12 @@ Venjulega, ef greiðsla hefur verið gerð, skráð í bankanum eða á annan h�
 
 Eftirfarandi aðgerð útskýrir hvernig skal finna tiltekið fylgiskjal með því að nota bæði leitarskilyrðin.  
 
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Skráning greiðslna**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Greiðsluskráning** og velja svo viðeigandi tengil.
 2. Með bendilinn á hvaða línu sem er, veldu aðgerðina **Leita í fylgiskjölum**.
 3. Í glugganum **Leit í Skjölum**, færið inn leitargildi í reitinn **númer fylgiskjals**. .  
 
-    **Athugasemd**: Faldir algildisstafir eru meðfylgjandi í gildinu sem fært er í þennan reit. Þetta þýðir að aðgerðin leitar eftir öllum fylgiskjalsnúmerum sem innihalda gildið sem fært var inn.    
+    > [!NOTE]  
+>   Faldir algildisstafir eru meðfylgjandi í gildinu sem fært er í þennan reit. Þetta þýðir að aðgerðin leitar eftir öllum fylgiskjalsnúmerum sem innihalda gildið sem fært var inn.    
 4. Í reitnum **Upphæð**, tilgreinið ákveðna upphæð sem er til á fylgiskjalinu sem finna skal.  
 5. Í reitnum **Upphæð vikmarka %**, færið inn prósentugildi til að skilgreina svið upphæða sem leita á eftir til að finna opna fylgiskjalið.  
 
@@ -164,14 +170,14 @@ Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[d365fin
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Greiðslur skráðar eða bókaðar án tengdra fylgiskjala
 Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að opna fyrirfram útfyllta færslubókarlínu úr glugganum **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið skýrður.  
 
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Skráning greiðslna**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Greiðsluskráning** og velja svo viðeigandi tengil.  
 
 Skráið svo óskjalaða greiðslu.  
 
 1. Valið er **Færslubók** aðgerð.  
 
     Glugginn **almenn færslubók** opnast með eina línu fyrirfram útfyllta með mótreikningi bókarkeyrslunnar sem er sett upp í glugganum **uppsetning skráningar greiðslna**.  
-2. Fylla skall inn í eftirstandandi reiti á færslubókarlínu, eins og upphæðina og viðskiptamannanúmer eða aðrar upplýsingar af bankayfirlitinu. Frekari upplýsingar eru í [hvernig á að: vinna með almenn færslubók](ui-work-general-journals.md).  
+2. Fylla skall inn í eftirstandandi reiti á færslubókarlínu, eins og upphæðina og viðskiptamannanúmer eða aðrar upplýsingar af bankayfirlitinu. Frekari upplýsingar, sjá [Hvernig skal: Bóka færslu beint yfir í Fjárhag](finance-how-post-transactions-directly.md)  
 
 Hægt er að annað hvort bóka færslubókarlínuna til að uppfæra heildarupphæðina á mótreikningnum. Að öðrum kosti er hægt að skilja færslubókarlínuna eftir óbókaða og ef til vill bæta við athugasemd um að greiðslan þarfnist frekari skoðunar.  
 

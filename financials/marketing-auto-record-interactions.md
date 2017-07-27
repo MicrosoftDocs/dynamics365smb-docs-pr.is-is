@@ -1,6 +1,6 @@
 ---
-title: "Skrá samskipti við tengiliði sjálfkrafa | Microsoft Docs"
-description: "Lýsir því hvernig á að skrá samskipti við tengiliði sjálfkrafa í Financials"
+title: "Setja upp sjálfvirka skráningu af samskiptum| Microsoft Docs"
+description: "Hægt er að setja forritið upp til að skrá sjálfkrafa samskipti við viðskiptavini eða biðlara, t.d. dæmis vegna sölu, innkaupa- og þjónustuskjöl og símtöl."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ce084c48edbff26e5d358ae1c00db08a7716b093
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 8226961d467dee7b03c22632c6dab008ceecad44
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="automatically-record-interactions-with-contacts"></a>Skrá samskipti við tengiliði sjálfkrafa
+# <a name="recording-interactions-with-contacts-automatically"></a>Skrá sjálfvirkt samskipti við tengiliði
 Hægt er að setja forritið upp til að skrá sjálfkrafa samskipti vegna sölu, innkaupa- og þjónustuskjöl, forsíður, tölvupóst og símtöl, eins og:
 
 * Prenta sölu- eða innkaupatilboð, pantanir, reikninga, kreditreikninga, forsíður.
@@ -30,7 +30,7 @@ Hægt er að setja forritið upp til að skrá sjálfkrafa samskipti vegna sölu
 * Hringja í tengiliði, að því gefnu að TAPI-samhæfur símabúnaður og rétt uppsetning séu fyrir hendi.
 
 Til að setja upp sjálfvirka skráningu þessara samskipta þarf að tilgreina samskiptasniðmát fyrir þau skjöl og aðgerðir með því að nota gluggann **Uppsetning samskiptasniðmáts**.  
-Til að opna gluggann **Uppsetning samskiptasniðmáts** skal, í efra hægra horni, velja táknið **Leita að síðu eða skýrslu** táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Search for Page or Report icon"), slá inn **Uppsetning samskiptasniðmáts** og velja síðan viðeigandi tengil.
+Til að opna gluggann **Uppsetning samskiptasniðmáts** skal velja ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Search for Page or Report icon") táknið, slá inn **Uppsetning samskiptasniðmáts** og velja síðan viðeigandi tengil.
 
 ## <a name="see-also"></a>Sjá einnig
 [Skrá samskipti við tengiliði](marketing-interactions.md)  

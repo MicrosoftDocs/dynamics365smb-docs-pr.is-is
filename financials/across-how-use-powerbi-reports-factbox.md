@@ -1,6 +1,6 @@
 ---
-title: "Notkun Power BI-skýrslna í listayfirlitum í Dynamics 365 for Financials | Microsoft Docs"
-description: "Hægt er að bæta við Power BI-skýrslum sem veita frekari innsýn í gögnin í listum í Financials."
+title: "Birta venjulegar Power BI skýrslur| Microsoft Docs"
+description: "Hægt er að nota Power BI skýrslur til að öðlast frekari innsýn í gögnin í listum í Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 02/02/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3c58c71a9ebc3df4e55202f50e856a715d64854f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-power-bi-reports-in-your-list-views-in-dynamics-365-for-financials"></a>Notkun Power BI-skýrslna í listayfirlitum í Dynamics 365 for Financials
+# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Skoða listagögn í Power BI skýrslum í Dynamics 365 for Financials.
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur stjórneiningu fyrir upplýsingakassa á mörgum veigamiklum listasíðum sem veita frekari innsýn í gögnin í listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Notandi getur stofnað sérsniðnar skýrslur til að birta í þessum stjórntakka en hér eru nokkrar grunnreglur sem fylgja skal við stofnun skýrslnanna til að tryggja að þær virki sem skyldi.  
 
-**Athugið**: Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin](includes/d365fin_md.md)] og hjá Power BI. Einnig þarf að sækja [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Frekari upplýsingar er að finna á [Notkun [!INCLUDE[d365fin](includes/d365fin_md.md)] sem gagnaveitu í Power BI](across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin](includes/d365fin_md.md)] og hjá Power BI. Einnig þarf að sækja [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Frekari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem gagnaveitu í Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Gagnamengi skýrslu
 Þegar skýrslan er stofnuð í Afl BI Skjáborðið tilgreina gögn uppruna veftengingar eða þjónustu sem inniheldur gögn sem tengjast sem á að tengja skýrslu með lista. Til dæmis ef notandi vill stofna skýrslu fyrir sölulista skal tryggja að gagnamengið innihaldi upplýsingar sem tengjast sölu.  
@@ -49,7 +50,8 @@ Sömuleiðis, ef óskað er að bakgrunnur skýrslunnar renni saman við bakgrun
 ## <a name="reports-with-multiple-pages"></a>Skýrslur með mörgum síðum
 Með Power BI er hægt að stofna eina skýrslu með mörgum síðum. Myndrænir þættir sem notandi vill sjá í listasíðum [!INCLUDE[d365fin](includes/d365fin_md.md)] verða að vera á fyrstu síðu skýrslunnar í Power BI.  
 
-**Athugið:** Upplýsingakassi fyrir Power BI getur aðeins sýnt fyrstu síðuna í skýrslunni. Ef notandi vill sjá fleiri síður verður að víkka skýrsluna og nota flipana neðst í skýrslunni til að fletta á aðrar síður.  
+> [!NOTE]  
+>  Upplýsingakassi fyrir Power BI getur aðeins sýnt fyrstu síðuna í skýrslunni. Ef notandi vill sjá fleiri síður verður að víkka skýrsluna og nota flipana neðst í skýrslunni til að fletta á aðrar síður.  
 
 ## <a name="saving-your-report"></a>Vistar skýrsluna
 
@@ -71,8 +73,8 @@ Með Power BI er hægt að stofna eina skýrslu með mörgum síðum. Myndrænir
 Staðfestið að stærð skýrslu sé stillt á 325 x 310 pixla. Vista skal skýrsluna og síðan endurnýja listasíðuna.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Notkun [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI-gagnaveita](across-how-use-financials-data-source-powerbi.md)  
-[Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)    
+[Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
+[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)    
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Fjármál](finance.md)  
 

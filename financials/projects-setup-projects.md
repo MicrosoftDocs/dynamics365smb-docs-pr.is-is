@@ -1,6 +1,6 @@
 ---
-title: "Setja upp verkefnastjórnun| Microsoft Docs"
-description: "Lýsir hvernig á að setja upp forða, vinnuskýrslur og störf til að stjórna verkefnum."
+title: "Setja upp forða, vinnuskýrslur og verk| Microsoft Docs"
+description: "Lýsir hvernig á að setja upp forða, vinnuskýrslur og verk til að stjórna verkefnum."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d1141df5600062da2dd4278668a1594efc4899d8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a01f90d93c12cf429264f525df3a7e42e01d7e33
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,7 +34,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Að stofna verkspjöld og undirbúa verkhluta. Að setja upp verð fyrir vörur verks og verkforða og skilgreina bókunarflokka verks. |[Hvernig á að: setja upp verk](projects-how-setup-jobs.md) |
 
 ## <a name="see-also"></a>Sjá einnig
-[Stjórna verkum](projects-manage-projects.md)  
+[Stjórna verkefnum](projects-manage-projects.md)  
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)         
 [Sala](sales-manage-sales.md)     

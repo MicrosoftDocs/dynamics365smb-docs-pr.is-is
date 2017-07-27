@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Búa til sérsniðið skýrsluútlit eða skjalaútlit | Microsoft Docs"
-description: "Lærðu hvernig þú getur hannað hvernig skýrslur líta út."
+title: "Stofna sérsniðið útlit fyrir skýrslur og skjöl | Microsoft Docs"
+description: "Kynntu þér hvernig skal stofna þitt eigið útlitssnið til að sérsníða útlit skýrslu þegar hún er skoðuð, prentuð eða vistuð."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,22 +13,23 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 79c1e5c1ea01077e2e5012ba07618760ccf2a4af
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 551e838c2896470f9ee620f4ca09a6af3377b458
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-create-a-custom-report-or-document-layout"></a>Hvernig á að: Búa til sérsniðið skýrsluútlit eða skjalaútlit
 Sjálfgefið er að skýrsla hafa innbyggt skýrsluútlit, sem getur verið RDLC-skýrsluútlit, Word-skýrsluútlit eða bæði. Ekki er hægt að breyta innbyggðu útliti. Þú getur einnig búið til þitt eigið sérsniðið útlit sem gerir þér kleift að breyta útliti skýrslu þegar hún er skoðuð, prentuð eða vistuð. Hægt er að búa til mörg sérsniðin skýrsluútlit fyrir sömu skýrsluna, og skipta svo á milli útlita fyrir skýrsluna eftir þörfum.
 
-**Athugasemd**: Í [!INCLUDE[d365fin](includes/d365fin_md.md)] táknar hugtakið "skýrsla" einnig utanaðkomandi skjöl, s.s. sölureikninga og pöntunarniðurstöður sem þú sendir til viðskiptavina sem PDF skjöl.
+> [!NOTE]  
+>   Í [!INCLUDE[d365fin](includes/d365fin_md.md)] táknar hugtakið "skýrsla" einnig utanaðkomandi skjöl, s.s. sölureikninga og pöntunarstaðfestingar sem þú sendir til viðskiptavina sem PDF skjöl.
 
 Til að búa til sérsniðið útlit geturðu búið til afrit af öðru sérsniðið útliti, eða bætt við nýju sérsniðnu útliti, sem í flestum tilfellum er byggt á innbyggða útlitinu. Þegar þú bætir við nýju sérsniðnu útliti geturðu valið að bæta við RDLC-skýrsluútliti, Word-skýrsluútliti eða bæði. Nýja sérsniðna útlitið verður sjálfkrafa byggt á innbyggða útlitinu fyrir skýrsluna ef það er til staðar. Ef ekkert innbyggt útlit fyrir gerðina er til þá er stofnað nýtt autt útlit, sem verður að breyta og hanna frá grunni. Frekari upplýsingar um RDLC- og Word-skýrsluútlit, innbyggð útlit, sérsniðið útlit og fleira eru í [stjórna skýrsluútliti](ui-manage-report-layouts.md).  
 
 ## <a name="to-create-a-custom-layout"></a>Til að búa til sérsniðið útlit
-1. Í efra hægra horni skal velja **Leit að síðu eða skýrslu** táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Search for Page or Report icon") slá inn **Val á útliti skýrslu** og velja svo tengdan tengil.  
+1. Velja skal ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Search for Page or Report icon"), slá inn **Val á útliti skýrslu**, og velja síðan viðeigandi tengil.  
    Valmyndin ** Skýrslusnið val** birtir allar skýrslur sem eru í boði í fyrirtækinu sem er tilgreint í reitnum Fyrirtæki efst í glugganum.
 2. Stilltu reitinn **Fyrirtæki** á fyrirtækið sem búa á til skýrsluútliti fyrir.
 3. Veldu röðina fyrir skýrsluna sem þú vilt stofna útlitið fyrir, og veldu svo **Sérsniðið útlit**.  
@@ -36,7 +37,7 @@ Til að búa til sérsniðið útlit geturðu búið til afrit af öðru sérsni
 4. Ef þú vilt búa til afrit af sérsniðnu útliti sem þegar er til velurðu sérsniðið útlitið af listanum og velur svo **Afrita**.  
    Afrit af sérsniðna útlitinu birtist í glugganum **Sérsniðið skýrsluútlit** með orðunum Afrit í reitnum Lýsing.
 5. Ef þú vilt bæta við nýju sérsniðnu útliti sem byggir á innbyggðu útliti skaltu gera eftirfarandi:  
-   1. Velja **Nýtt**. Glugginn **Setja inn innbyggt útlit fyrir skýrslu** birtist. Reitirnir **Auðkenni** og **Heiti ** eru fylltir inn sjálfkrafa.
+   1. Velja **Nýtt**. Glugginn **Setja inn innbyggt útlit fyrir skýrslu** birtist. Reitirnir **Auðkenni** og **Heiti** eru fylltir inn sjálfkrafa.
    2. Til að bæta við sérsniðnu Word-skýrsluútliti fyrir skýrsluna skaltu velja **Setja inn Word-útlit** gátreitinn.
    3. Til að bæta við sérsniðnu RDLC-skýrsluútliti skaltu velja **Setja inn RDLC-útlit** gátreitinn.
    4. Velja hnappinn **Í lagi**.  

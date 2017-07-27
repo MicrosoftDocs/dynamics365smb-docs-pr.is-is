@@ -1,6 +1,6 @@
 ---
 title: Velkomin(n) | Microsoft Docs
-description: "Undirbúðu þig fyrir að gera viðskipti."
+description: "Útskýrir uppsetningarleiðbeiningar með aðstoð, myndbönd, hjálparefni og síður og glugga sem skal nota til undirbúnings fyrir viðskipti í Dynamics 365 for Financials."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fe2a7eb24acf0830a8ebaadafa695e7a34023198
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Undirbúðu þig fyrir að gera viðskipti
@@ -25,7 +25,8 @@ Til þess að hjálpa þér við að verða tilbúinn til að gera viðskipti ge
 
 Á heimasíðu neðst á yfirlitssvæðinu er að finna **Uppsetningu og Viðbætur** valmyndina. Stækka **Heim** hnappinn til að sjá yfirlitssvæðið. Hér má sjá lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa. Þegar þú hefur yfirfært gögn eins og lánardrottinn, viðskiptamenn, og vörur úr núverandi fjármálakerfi þínu, ertu tilbúinn að byrja. Einnig er gott að íhuga hvort þörf sé á að nota frekari hjálp við uppsetningu. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetning gluggum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-**Athugið:** Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunnatriði** upplifunin veitir aðgang að færri en **Pakki** upplifunin gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilli þína [!INCLUDE[d365fin](includes/d365fin_md.md)]upplifun](ui-experiences.md).
+> [!NOTE]  
+>   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunnatriði** upplifunin veitir aðgang að færri en **Pakki** upplifunin gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 Í glugganum **Uppsetning með hjálp**, er að finna eftirfarandi með **Grunnatriði** upplifun:
 
@@ -58,7 +59,7 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð O
 Á grundvelli yfirfærðra gagna, geturðu nú farið í að stofna nýjar sölur eða innkaupaskjöl. Nota hlutann **Mitt fyrirtæki** á þinni **heimasíðu** til að stofna á fljótlegan hátt nýjar sölutilboð, sölureikningur, sölupöntun, innkaupareikningur eða skráning greiðslna.
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin í [!INCLUDE[d365fin](includes/d365fin_md.md)]] (index.md)  
+[Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Hvernig á að: vinna Með Notendum Heimildir | Vöruhúsaskjölum Microsoft](ui-how-users-permissions.md)
+[Hvernig á að: vinna með notendur og heimildir](ui-how-users-permissions.md)
 

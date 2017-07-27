@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Stjórna verkáætlunum | Microsoft Docs"
-description: "Lýsir hvernig á að stofna fjárhagsáætlun fyrir verk."
+title: "Setja upp og stjórna fjárhagsáætlun fyrir verk| Microsoft Docs"
+description: "Lýsir því hvernig skal áætla tilföng og spá fyrir um og stjórna kostnaði verks með því að setja upp fjárhagsáætlun fyrir hvert verk."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project budget, forecast
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9a351b581e0312d21b04db43a85243b8a5afb0e3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0e480c67ddb2acd5e98799c98cb1cd9d972889df
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Eftirfarandi aðferð lýsir því hvernig á að meta áætlaðan kostnað við
 ## <a name="JobBudgetCosts"></a> Til að áætlað kostnað verks
 Þegar viðskiptavinur vill vita verð verks sem verður reikningsfært samkvæmt notkun þarf að ákvarða áætlaðan kostnað verksins. Glugginn **Verkhlutalínur** er notaður til þess.
 
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Verk**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
 2. Opnið viðeigandi verk.
 3. Veljið verkhlutalínu af gerðinni Bókun og veljið svo aðgerðina **Verkáætlunarlínur**.
 4. Fyllið í reitina eftir þörfum í nýrri línu. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
@@ -41,9 +41,11 @@ Fyrir reitinn **Línugerð** skal vísa til eftirfarandi upplýsinga.
 | **Fjárhagsáætlun** |Viðskiptavinurinn er ekki rukkaður um notkun. notkunina er aldrei hægt að flytja á reikning en hún verður samt notuð í útreikningum VÍV. |
 | **Reikningshæft** |Viðskiptavinurinn er rukkaður um notkun. Notkun er færð á reikninginn samkvæmt magninu sem tilgreint er í reitnum Magn til flutnings á reikning. |
 
-**Til athugunar**: Reiturinn**Áætlunardagsetning** fyrir áætlunarlínuna inniheldur dagsetninguna þegar búist er við að notkun sem tengist áætlunarlínunni ljúki. Það er líka dagsetningin þegar hægt er að flytja áætlunarlínuna á sölureikning og bóka hana.  
+> [!NOTE]  
+>   Reiturinn **Áætlunardagsetning** fyrir áætlunarlínuna inniheldur dagsetninguna þegar áætlað er að notkun tengd áætlunarlínunni verði lokið. Það er líka dagsetningin þegar hægt er að flytja áætlunarlínuna á sölureikning og bóka hana.  
 
-**Til athugunar**: Þegar reiturinn **Magn** er fylltur út eru upplýsingar um heildarverð og heildarkostnað reiknaðar út og fylltar inn fyrir viðeigandi áætlunarlínu. Hægt er að breyta þeim hvenær sem er.
+> [!NOTE]  
+>   Þegar þú fyllir í reitinn **Magn**, verða allar upplýsingar um heildarverð og heildarkostnað reiknaðar út og settar í áætlunarlínuna. Hægt er að breyta þeim hvenær sem er.
 
 Í glugganum **Verkspjald** er nú hægt að sjá yfirlit yfir samanlagðan áætlaðan kostnað, áætlað verð, reikningshæfan kostnað og reikningshæft verð fyrir hvert verk.
 

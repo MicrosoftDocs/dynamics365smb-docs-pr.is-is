@@ -1,6 +1,6 @@
 ---
-title: "Stjórna mannauði | Microsoft Docs"
-description: "Lýsir því hvernig á að skrá starfsmenn og skrá og sundurliða fjarvistir."
+title: "Nota virkni mannauðs| Microsoft Docs"
+description: "Hægt er að skrá nýja Starfsmenn eða breyta upplýsingum um núverandi starfsmenn, og skrá og greina fjarveru."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 03/28/2017
+ms.date: 06/27/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a0549521892c1ecd34ff62ed45a2e10d6f276508
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b5bb86fe4f76d5ebd12aba9279b1c1b6ef9e9d9b
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="manage-human-resources"></a>Hafa umsjón með mannauði
+# <a name="human-resources"></a>Starfsmannahald
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að halda nákvæma skráningu starfsmanna. Hægt er að skrá og viðhalda upplýsingum um starfsmann, t.d. starfssamninga, trúnaðarupplýsingar, hæfi og tengiliðaupplýsingar starfsmanns.
 
-**Athugið**: Þessi virkni krefst að upplifun þín er stilltur á **Pakki**. Nánari upplýsingar, sjá [Sérstilli þína [!INCLUDE[d365fin](includes/d365fin_md.md)]upplifun](ui-experiences.md).
+> [!NOTE]  
+>   Þessi virkni krefst þess að upplifun þín sé stillt á **Pakki**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 Setja þarf upp starfsmenn og aðrar grunnupplýsingar til að hefjast handa við að nota Starfsmannahald. Síðan er hægt að tengja mismunandi kóða við starfsmann sem býður upp á að afmarka upplýsingar og skoða sérstaka starfsmenn.
 
@@ -36,5 +37,5 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Sérsníða [!INCLUDE[d365fin](includes/d365fin_md.md)] reynslu þína] (ui-experiences.md)        
+[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).        
 

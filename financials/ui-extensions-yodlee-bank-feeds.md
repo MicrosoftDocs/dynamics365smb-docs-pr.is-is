@@ -1,6 +1,6 @@
 ---
-title: Envestnet Yodlee Bank Feeds| Microsoft Docs
-description: "Veitir upplýsingar um Envestnet Yodlee bankastreymi-viðbótina."
+title: "Greiðsluafstemming með Envestnet Yodlee bankastreymisviðbót | Microsoft Docs"
+description: "Lýsir Envestnet Yodlee bankastreymisviðbótinni, sem tengist bankareikningum svo þú getir afstemmt greiðslur á fljótlegan máta."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7c900b87a5b0fd703ff0bdbaa5e2ac41f2939c3d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 060eec95e12800d048c41c142478c2a18e27b3fb
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension-to-dynamics-365-for-financials"></a>Envestnet Yodlee bankastreymisviðbót fyrir Dynamics 365 for Financials
+# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Envestnet Yodlee bankastreymisviðbótin
 Til að stemma af á skjótan hátt greiðslur gerðar inn á bankareikninga þína, þá leyfir Envestnet Yodlee bankastreymiskerfið þér að tengja bankareikning kerfis þíns við netbankareikninginn þinn. Þetta þýðir að síðustu bankayfirlitinu er sjálfkrafa eða handvirkt streymt inn í afstemmingarbók þína, og tryggir að þú ert alltaf að vinna úr síðustu greiðslunum með lágmarks hættu á villum.
 
 Envestnet Yodlee bankastreymisþjónusta veitir eftirfarandi kosti:
@@ -35,7 +35,7 @@ Envestnet Yodlee bankastreymisþjónusta veitir eftirfarandi kosti:
 Frekari upplýsingar sjá [Hvernig: Setja á Upp Envestnet Yodlee bankastreymisþjónustu](bank-how-setup-bank-statement-service.md).
 
 ## <a name="see-also"></a>Sjá einnig
-[Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md)    
-[Jafna Greiðslur Sjálfkrafa og Afstemma Bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+[Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum ](ui-extensions.md)    
+[Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

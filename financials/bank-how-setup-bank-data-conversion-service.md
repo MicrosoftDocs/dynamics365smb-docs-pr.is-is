@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Setja upp umreikningsþjónustu fyrir bankagögn| Microsoft Docs"
-description: "Hvernig á að: Setja upp umreikningsþjónustu fyrir bankagögn"
+title: "Setja upp umskráningu bankagagna| Microsoft Docs"
+description: "Hægt er að setja upp bankareikninga til að fylgjast með viðskiptum og flytja bankastreymi inn eða út, eins og t.d. Yodlee."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 84834fab38217fb161ed16e3215a34978a4c6137
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6c7dd8051467b044b7fd569367c5af802d30e5c3
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,19 +25,21 @@ Altæk þjónustuveita til að umreikna greiðsluupplýsingar í hvaða gagnaskr
 
 Hægt er að flytja út greiðslulínur úr **Greiðslubók** glugganum í skrá eða gagnastreymi sem þú síðan hleður upp í bankann þinn fyrir sjálfvirka vinnslu svo að þú þarft ekki að gera rafræn greiðsla í sitthvoru lagi. Nánari upplýsingar sjá [Hvernig: Flytja Greiðslur í bankaskrá](payables-how-export-payments-bank-file.md).
 
-Þú getur flutt inn bankareikningsskrár í gluggann ** Greiðsluafstemmingarbók** með því að nota umskráningarþjónusta fyrir bankagögn til að umbreyta skrá sem þú færð frá bankanum í gagnastraum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] getur flutt inn. Nánari upplýsingar er að finna í [hvernig á að: Jafna greiðslur sjálfkrafa og stemma af bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Þú getur flutt inn bankareikningsskrár í gluggann **Greiðsluafstemmingarbók** með því að nota umskráningarþjónusta fyrir bankagögn til að umbreyta skrá sem þú færð frá bankanum í gagnastraum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] getur flutt inn. Nánari upplýsingar er að finna í [hvernig á að: Jafna greiðslur sjálfkrafa og stemma af bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Í staðinn fyrir að flytja inn bankayfirlit með gagnagrunnþjónustu bankans geturðu notað Envestnet Yodlee Bank Feeds þjónustuna. Frekari upplýsingar sjá [Hvernig: Setja á Upp Envestnet Yodlee bankastreymisþjónustu](bank-how-setup-bank-statement-service.md).
 
 Til að flytja inn eða flytja út bankaskrár verður þú að setja upp eigin bankareikning og bankareikninga lánardrottna þinna. Frekari upplýsingar sjá [hvernig skal: setja upp bankareikninga](bank-how-setup-bank-accounts.md)
 
-**Athugasemd** Umskráningarþjónusta fyrir bankagögn kann að setja hámark á það hversu margar línur má flytja út í einni skrá. Ef farið er yfir hámarkið munu koma upp villuboð. Mælt er með því að bankayfirlitsskrár fari ekki yfir 1.000 línur þar sem vinnslutími umreikningsþjónusta bankagagna kann þá að aukast til muna.
+> [!NOTE]  
+>   Umskráningarþjónusta fyrir bankagögn kann að setja hámark á það hversu margar línur má flytja út í einni skrá. Ef farið er yfir hámarkið munu koma upp villuboð. Mælt er með því að bankayfirlitsskrár fari ekki yfir 1.000 línur þar sem vinnslutími umreikningsþjónusta bankagagna kann þá að aukast til muna.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Að skrá fyrirtækið fyrir umreikningsþjónustu bankagagna
-1. Efst í hægra horni skal velja táknið fyrir **Leit að síðu eða skýrslu** táknið fyrir ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "táknið fyrir Leit að síðu eða skýrslu táknið"), slá inn **Þjónustugrunnur bankagagnaumreiknings**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning umreikningsþjónustu fyrir bankagögn** og velja svo viðeigandi tengil.  
 2. **Uppsetning Umreikningsþjónusta fyrir bankagögn** Glugginn opnast með þremur reitum útfylltum með viðeigandi vefslóðir frá veitanda umreikningsþjónustu fyrir bankagögn.
 
-    **Athugasemd**: Í CRONUS International Ltd. sýnigagnagrunnui, eru notandanafn og lykilorð reitirnir fylltar með sýnidæmum um innskráningarupplýsingar sem þú verður að skipta út með raunverulegum upplýsingum fyrirtækis þíns þegar þú skráir þig fyrir umreikningsþjónustu bankagagna.
+    > [!NOTE]  
+>   Í CRONUS International Ltd. sýnigagnagrunnui, eru notandanafn og lykilorð reitirnir fylltar með sýnidæmum um innskráningarupplýsingar sem þú verður að skipta út með raunverulegum upplýsingum fyrirtækis þíns þegar þú skráir þig fyrir umreikningsþjónustu bankagagna.
 3. Í **innskráningarvefslóð** reitnum, veldu vafrahnappinn til að opna innskráningarsíðu þjónustuveitunnar.  
 4. Á skráningarsíðu þjónustuveitu bankagagna skal slá inn notandanafn og aðgangsorð fyrir áskrift fyrirtækisins að þjónustunni og ljúka svo skráningarferlinu samkvæmt leiðbeiningum þjónustuveitunnar.
 
@@ -48,17 +50,18 @@ Til að flytja inn eða flytja út bankaskrár verður þú að setja upp eigin 
 ## <a name="to-encrypt-your-login-information"></a>Til að dulrita innskráningarupplýsingar
 Mælt er með því að vernda innskráningarupplýsingar sem slegnar eru inn í **uppsetning umreikningsþjónustu fyrir bankagögn** gluggann. Hægt er að dulrita gögn á [!INCLUDE[d365fin](includes/d365fin_md.md)] netþjóninum með því að stofna nýjan dulritunarlykil eða flytja inn fyrirliggjandi lykla sem eru virkjaðir er á [!INCLUDE[d365fin](includes/d365fin_md.md)] netþjónstilviki sem tengist við gagnagrunninn.
 
-1. Í **uppsetning umreikningsþjónustu fyrir bankagögn ** glugganum, veldu **stjórnun dulritunar**.
+1. Í **uppsetning umreikningsþjónustu fyrir bankagögn** glugganum, veldu **stjórnun dulritunar**.
 2.  Í glugganum **gagnadulritun**, virkja dulritun gagnanna.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Til að skoða eða uppfæra listann yfir studd bankagagnasnið
-1. Efst í hægra horni skal velja táknið fyrir **Leit að síðu eða skýrslu** táknið fyrir ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "táknið fyrir Leit að síðu eða skýrslu táknið"), slá inn **Þjónustugrunnur bankagagnaumreiknings**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning umreikningsþjónustu fyrir bankagögn** og velja svo viðeigandi tengil.
 2. Á glugganum **uppsetning umreikningsþjónustu fyrir bankagögn** , skal velja **Nafn banka – umskráningarlisti gagna** til að opna lista yfir nöfn banka sem standa fyrir bankagagnasnið sem eru studd af umskráningarþjónustunni.
 3. Á síðunni **Nafn banka – gagnaumreikningslisti**, veldu **uppfæra nafnalista banka**
 
 Listi yfir bankagagnasnið sem eru studd af umreikningsþjónustunni fyrir bankagögn er nú uppfærður. Þetta er listinn yfir nöfn banka, afmörkuð eftir landi/svæði, sem hægt er að velja úr í reitnum **Nafn banka - gagnaumreikningur** í glugganum **Bankareikningsspjald**.
 
-**Athugasemd**: Uppfærsla studdra bankagagnasniða á sér einnig stað þegar gildi er valið eða slegið inn í reitinn **Nafn banka - gagnaumreikningur** á bankareikningnum.
+> [!NOTE]  
+>   Uppfærsla studdra bankagagnasniða á sér einnig stað þegar gildi er valið eða slegið inn í reitinn **Nafn banka - gagnaumreikningur** á bankareikningnum.
 
 Þú hefur nú skráð þig fyrir umreikningsþjónustu bankagagna. Halda áfram að endurspegla skráningarupplýsingar í öllum bankareikningum sem nota þjónustuna.
 

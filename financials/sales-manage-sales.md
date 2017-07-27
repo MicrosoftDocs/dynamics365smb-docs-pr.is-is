@@ -1,5 +1,5 @@
 ---
-title: Sala | Microsoft Docs
+title: "Yfirlit yfir umsjónarverkhluta sölu | Microsoft Docs"
 description: "Lýsir því hvernig sölurverkþættir er stjórnað."
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/27/2017
+ms.date: 06/30/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d8b73dcf1ee000bd13aec200c82275eb3c0f9d1d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ebdcfc8c2be94398c1ebd7d5268a94b568e3b23b
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -46,9 +46,10 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Stofna sölutilboð þar sem boðið er upp á vörur með umsemjanlegum skilmálum áður en tilboðinu er breytt í sölureikning. |[Hvernig á að: Gera tilboð](sales-how-make-offers.md) |
 | Stofna sölureikning til að skrá samkomulag við viðskiptamann um að selja vörur með tilteknum afhendingar- og greiðsluskilmálum. |[Hvernig er reikningsfært](sales-how-invoice-sales.md) |
 | Vinna sölupöntun sem felur í sér sendingu eða beina sendingu. |[Hvernig á að: Selja vörur](sales-how-sell-products.md) |
+|Setja upp staðlaðar innkaupa- og sölulínur sem þú getur fært á fljótlegan hátt inn í skjöl, til dæmis fyrir endurteknar áfyllingapantanir.|[Hvernig á að: Stofna ítrekaðar sölu og innkaup](sales-how-work-standard-lines.md)|  
 | Tengja sölupöntun við innkaupapöntun til að selja vöru beinnar afhendingar vara sem verður afhent beint frá lánardrottni til viðskiptamanns þíns. |[Hvernig á að: Gera beinar afhendingar](sales-how-drop-shipment.md) |
 | Notið aðgerð á ógreiddum bókuðum sölureikningi til að stofna sjálfvirkt kreditreikningsferli og annaðhvort afturkalla sölureikninginn eða endurskapa hann til að gera leiðréttingar. |[Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md) |
-| Stofna sölukreditreikning til þess að bakfæra tiltekinn bókaðan sölureikning til að endurspegla hvaða vörur viðskiptamaðurinn skilar og hvað upphæð þarf að endurgreiða. |[Meðhöndlun söluvöruskila eða afturkallana](sales-how-process-sales-returns-cancellations.md) |
+| Stofna sölukreditreikning til þess að bakfæra tiltekinn bókaðan sölureikning til að endurspegla hvaða vörur viðskiptamaðurinn skilar og hvað upphæð þarf að endurgreiða. |[Hvernig skal: Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md) |
 | Stofna viðskiptamannaspjald fyrir alla viðskiptamenn sem selt er til. |[Hvernig á að Skrá nýja viðskiptamenn](sales-how-register-new-customers.md) |
 
 ## <a name="see-also"></a>Sjá einnig
@@ -61,3 +62,4 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

@@ -1,6 +1,6 @@
 ---
-title: "Hætt í Dynamics 365 for Financials | Microsoft Docs"
-description: "Lýsir hvernig á að hætta að nota Dynamics 365 for Financials."
+title: "Hætt við Dynamics 365 for Financials| Microsoft Docs"
+description: "Lýsir hvernig á að fjarlægja eða eyða Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,18 +10,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7cac3c42b47358e35b35891f42300b209bf37ec3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 4dc1a0d643aa9b1a2e1fe5b870881dc43c1ed2a1
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="canceling-dynamics-365-for-financials"></a>Hætt við Dynamics 365 for Financials
-Þegar þú hefur skráð þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] getur þú valið að hætta við áskrift þína hvenær sem er. Á sama hátt getur þú valið að endurstilla fyrirtækið sem þú getur verið að nota í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til að fá fljótlega yfirsýn [the [!INCLUDE[d365fin](includes/d365fin_md.md)] blog](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
+# <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Segja upp áskrift að, fjarlægja eða endurstilla [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Þegar þú hefur skráð þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] getur þú valið að hætta við áskrift þína hvenær sem er. Á sama hátt getur þú valið að endurstilla fyrirtækið sem þú getur verið að nota í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til að fá fljótlega yfirsýn, sjá[ [!INCLUDE[d365fin](includes/d365fin_md.md)] blog](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Ljúka skal áskrift með því að fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] úr Office 365
 Hafirðu skráð þig í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að nota fyrirliggjandi Office 365 fyrirtækisreikning, verður að biðja kerfisstjóra Office 365 að fjarlægja leyfi [!INCLUDE[d365fin](includes/d365fin_md.md)] úr notandareikningi þínum.  
@@ -32,13 +32,14 @@ Ef þú skráðir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] án þe
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Endurstilling [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Ef þú hefur bætt gögnum við [!INCLUDE[d365fin](includes/d365fin_md.md)] forskoðunina þína og þú vilt byrja að nýju með nýja upplifun getur þú búið til nýtt fyrirtæki og síðan endurstillt fyrsta fyrirtækið. Ef þú opnar síðuna **fyrirtæki**, geturðu stofnað afrit af núverandi fyrirtæki, skráð út og síðan skráð inn í þitt eigið fyrirtæki, og síðan endurstilla upprunalega fyrirtækið.  
-**Athuga skal að**: þegar þú endurstillir fyrirtæki sem þú deilir með öðru fólki úr þinni stofnun þá verðurðu að vera viss um að annað fólk sé ekki skráð inn þegar þú endurræsir fyrirtækið.  
+> [!NOTE]  
+>   Þegar þú endurstillir fyrirtæki sem þú deilir með öðru fólki úr þinni stofnun þá verðurðu að vera viss um að annað fólk sé ekki skráð inn þegar þú endurræsir fyrirtækið.  
 
 ## <a name="removing-included365finincludesd365finmdmd-from-your-app-launcher"></a>Fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] úr forritavalmynd þinni
 Viljirðu fela [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir forritavalmynd þinni, geturðu einfaldlega tekið það burt. Þetta fjarlægir engin gögn, og hættir ekki við áskriftina þína.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
+[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Office Portal](https://portal.office.com)  
 [Hve lengi er prufutímabilið og hvernig hætti ég við?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
 

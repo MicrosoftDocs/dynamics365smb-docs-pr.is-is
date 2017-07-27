@@ -1,6 +1,6 @@
 ---
-title: "Stjórnun viðskiptaskulda | Microsoft Docs"
-description: "Kynning á að greiða seljendur og aðrar greiðslur."
+title: "Stjórnun viðskiptaskulda| Microsoft Docs"
+description: "Yfirlit yfir það hvernig Financials hjálpar þér að stjórna viðskiptaskuldum (AP), þar á meðal greiðslum lánardrottna, lánardrottnar, skuldir og gjaldfallin staða."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -12,13 +12,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 03b872f9507e4c96dd55e8cf0f3d1ec7417501f2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 859647435fe3a418761f67c9067314939c734519
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -45,7 +45,7 @@ Ef þú vilt ekki bóka greiðslubókarlínu fyrir útflutta greiðslu, t.d. veg
 
 Ef þú bíður eftir að bóka greiðslur þar til bankinn þinn staðfestir að hann hafi meðhöndlað viðskipti, þá eru tvær leiðir til að koma í veg fyrir að greiðslur sé fluttar út aftur fyrir opin skjöl óvart:  
 
-* Í greiðslubók með tillögum að greiðslulínum geturðu flokkað með annað hvort dálkinum **Flutt út í greiðsluskrá ** eða **Heildarupphæð flutt út** dálkunum og svo eytt greiðslutillögum fyrir opna reikninga þar sem greiðslur hafa þegar átt sér stað og þú vilt ekki greiða.
+* Í greiðslubók með tillögum að greiðslulínum geturðu flokkað með annað hvort dálkinum **Flutt út í greiðsluskrá** eða **Heildarupphæð flutt út** dálkunum og svo eytt greiðslutillögum fyrir opna reikninga þar sem greiðslur hafa þegar átt sér stað og þú vilt ekki greiða.
 
     **Athugaðu** Þú gætir þurft að bæta þessum dálkum við listann. Nánari upplýsingar er að finna í [Sérstillingar notanda](ui-user-personalization.md).  
 * Einnig, á **Greiðslutillögur til lánardrottna** runuvinnslunni þar sem hægt er að tilgreina greiðslur sem á að taka með í greiðslubókinni er hægt að tilgreina að setja ekki inn greiðslulínur fyrir greiðslur sem hafa þegar verið fluttar út með því að velja **Sleppa útfluttum greiðslum** gátreitinn.

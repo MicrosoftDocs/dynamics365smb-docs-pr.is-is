@@ -1,6 +1,6 @@
 ---
 title: "Notkun Dynamics 365 for Financials án Outlook | Microsoft Docs"
-description: "Notkun Dynamics 365 for Financials án Outlook"
+description: "Þú getur notað Dynamics 365 for Financials sem viðstkiptainnhólf þitt í Outlook því það er samþætt við Office 365. Þú getur líka unnið án Outlook í vafra eða á fartækinu þínu."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,17 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/28/2017
+ms.date: 0602/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 43ef56ed29c25ccd3cea53b9332cbf73f04c8e1f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 29b204502281b728889098ae8d88f928e4f46e20
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-
 # <a name="using-dynamics-365-for-financials-without-outlook"></a>Notkun Dynamics 365 for Financials án Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur mikla samþættingu við Office 365 og þú getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)] sem fyrirtækisinnhólf í Outlook. En ef þú ert ekki með Outlook, geturðu unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)] í vafra eða á fartækinu þínu.  
 

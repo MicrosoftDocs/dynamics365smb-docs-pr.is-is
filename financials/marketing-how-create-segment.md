@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Búa til hluta | Microsoft Docs"
-description: "Lýsir því hvernig á að stofna hluta fyrir tengiliði í Financials"
+title: Stofna hluta| Microsoft Docs
+description: "Lýsir því hvernig skal stofna hluta fyrir hóp tengiliða í Financials, t.d. til að ná í nokkra tengiliði með beinum tölvupóstsendingum."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2b251406c07881f8df502d67c0184a21d3e1f241
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0175eb12f30ce2e509b743c93b711ef8197549c6
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,11 +24,11 @@ ms.lasthandoff: 05/04/2017
 Hægt er að stofna hluta til að velja saman flokk tengiliða til dæmis ef stofna á samskipti sem varða marga tengiliði eins og póstsendingar.
 
 ## <a name="to-create-a-segment"></a>Hlutar stofnaðir:
-1. Á upphafssíðunni skal velja **Virkir hlutar**. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Hlutar**, og velja síðan viðeigandi tengil.
+1. Á upphafssíðunni skal velja **Virkir hlutar**. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Hutar** og velja svo viðeigandi tengil.
 2. Valið er **Nýtt** aðgerð.
 3. Í hlutanum **Almennt** , í á reitnum **númer** er fært inn númer fyrir hlutann.
 
-    Hafi númeraröð verið sett upp fyrir hluta í glugganum **  uppsetning markaðssetningar** er hægt að ýta á Færslulykilinn til að velja næsta tiltæka hlutanúmer.
+    Hafi númeraröð verið sett upp fyrir hluta í glugganum **uppsetning markaðssetningar** er hægt að ýta á Færslulykilinn til að velja næsta tiltæka hlutanúmer.
 4. Aðrir reitir á hausnum eru fylltir út.
 
 Nú er hægt að bæta tenglum við hlutann. Sjá frekari upplýsingar hér [Hvernig á að bæta tengiliðum við hluta:](marketing-add-contact-segment.md)

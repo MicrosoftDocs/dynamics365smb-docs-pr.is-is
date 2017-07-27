@@ -1,6 +1,6 @@
 ---
-title: "Meðhöndlun söluvöruskila eða afturkallana | Microsoft Docs"
-description: "Meðhöndlun söluvöruskila eða afturkallana"
+title: "Nota sölukreditreikning til að vinna söluskil eða afturkallanir | Microsoft Docs"
+description: "Lýsir því hvernig skal stofna kreditreikning til að vinna skil, afturköllun eða endurgreiðslu fyrir vöru eða þjónustu sem þú hefur fengið greiðslu fyrir."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,29 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/29/2016
+ms.date: 06/21/2016
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cf471e0c3a13a954ab7604a8b1d0f715f664722d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f08526054e99f742cedfefe036d8903304e54a56
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Meðhöndlun söluvöruskila eða afturkallana
 Ef viðskiptavinur vill skila eða endurgreiða fyrir vörur eða þjónustu sem þú hefur selt og fengið greiðslu fyrir verður þú að búa til og senda inn söluskuldbindingar sem tilgreinir umbeðnar breytingar. Til að geta tekið upp réttar upplýsingar um sölureikninga geturðu búið til söluskuldbindinguna frá uppgefnu sölureikningi eða notað afritaaðgerð.  
 
-**Til athugunar:** Ef staða sölureiknings hefur ekki verið greiddur þá geturðu notað **Rétt** eða **Hætta við** störf á staða sölureikning til að snúa við viðskiptum. Þessar aðgerðir virka aðeins fyrir ógreiddar reikningar og styðja ekki hluta skilar eða afpöntunar. Nánari upplýsingar er að finna [hvernig á að: Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md)
+> [!NOTE]  
+>   Ef sölureikningur hefur ekki verið greiddur þá geturðu notað **Rétt** eða **Hætta við** aðgerðirnar á bókaða sölureikningnum til að snúa við viðskiptum. Þessar aðgerðir virka aðeins fyrir ógreiddar reikningar og styðja ekki hluta skilar eða afpöntunar. Nánari upplýsingar er að finna [hvernig á að: Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md)
 
 Auk upprunalega bókaðs sölureiknings, er hægt að jafna sölukreditreikning öðrum söluskjölum, t.d. aðra bókað sölureikninga, þar sem viðskiptamaðurinn er einnig að skila vörum sem voru afhentar með viðkomandi reikningi.
 
 Skil eða endurgreiðsla getur átt við um aðeins hluta af vörum eða þjónustum á upprunalega sölureikningnum. Í því tilviki þarf að breyta upplýsingum í línunum á sölukreditreikningnum. Við bókun sölukreditreiknings eru þau söluskjöl sem eru breytingin hefur áhrif á bakfærð og hægt er að stofna endurgreiðslu til viðskiptamannsins.  
 
-Hægt er að senda bókaða sölukreditreikninga til viðskiptamannsins til að staðfesta vöruskil eða afturköllun og miðla því að virðið verði endurgreitt, til dæmis þegar vörum er skilað.  
+Hægt er að senda bókaða sölukreditreikninga til viðskiptamannsins til að staðfesta vöruskil eða afturköllun og miðla því að virðið verði endurgreitt, til dæmis þegar vörum er skilað.
+
+Bókun innkaupareiknings mun einnig snúa við öllum kostnaðarauka sem var úthlutað á bókaða skjalið, þannig að vöruvirðisfærslurnar eru þær sömu og áður en kostnaðaraukanum var úthlutað.
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Að stofna nýjan sölukreditreikning úr bókuðum sölureikningi.
-1. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið") færa **Bókaðir sölureikningar**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Bókaðir sölureikningar** og velja svo viðeigandi tengil.  
 2. Í glugganum **Bókaðir sölureikningar** skal velja þá bókuðu sölureikninga sem á að bakfæra og veljið síðan aðgerðina **Stofna leiðréttan kreditreikning**.
 
     Minnispunktur fyrir sölureikninginn inniheldur nokkrar upplýsingar frá staða sölureikningsins. Hægt er að breyta þessu, til dæmis með nýjar upplýsingar sem endurspegla endursenda samkomulagið.  
@@ -54,7 +57,7 @@ Hægt er að senda bókaða sölukreditreikninga til viðskiptamannsins til að 
 Bókuðu söluskjölin sem jafnað var við kreditreikninginn eru nú bakfærðir og endurgreiðslu má nú búa til fyrir viðskiptamanninn. Sölukreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal á lista bókaðra sölukreditreikninga.
 
 ## <a name="to-create-a-sales-credit-memo-from-scratch"></a>Að búa til sölukreditreikning frá grunni
-1. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Bókaðir sölureikningar**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölukreditreikningar** og velja svo viðeigandi tengil.
 2. Veljið aðgerðina **Nýtt** til að opna nýjan auðan sölukreditreikning.
 3. Í reitnum **Viðskiptamaður** er fært inn nafn núverandi viðskiptamanns.
 4. Valið er **Afrita fylgiskjal** aðgerð.

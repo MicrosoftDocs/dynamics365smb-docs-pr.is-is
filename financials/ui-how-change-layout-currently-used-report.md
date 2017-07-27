@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að breyta því hvaða útlit er notað á skýrslum  | Microsoft Docs"
-description: "Lærðu hvernig þú getur ákveðið hvernig skýrsla lítur út."
+title: "Breyta því hvernig skýrsla lítur út með því að velja annað útlit | Microsoft Docs"
+description: "Þú getur notað mismunandi útlit fyrir skýrslu, og skipt á milli útlits til að breyta því hvernig skýrsla lítur út."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c35611a74e981367170bc487a107777d2ba240f2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: de0c429e8a5e03124c5a20977a9723570879952a
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,15 +26,16 @@ Skýrsla getur verið sett upp með fleiri en eitt skýrsluútliti, sem þú get
 Með hliðsjón af útlitinu sem er í boði fyrir skýrslu er hægt að velja að nota innbyggt RDLC-skýrsluútlit, innbyggt Word-skýrsluútlit eða sérsniðið útlit. Frekari upplýsingar um RDLC- og Word-skýrsluútlit, innbyggð útlit, sérsniðið útlit og fleira eru í [stjórna skýrsluútliti](ui-manage-report-layouts.md).
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Til að breyta útlitinu sem er notað í skýrslu
-1. Í efra hægra horni skal velja **Leit að síðu eða skýrslu** táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Search for Page or Report icon") slá inn **Val á útliti skýrslu** og velja svo tengdan tengil.  
+1. Velja skal ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Search for Page or Report icon"), slá inn **Val á útliti skýrslu**, og velja síðan viðeigandi tengil.  
    Glugginn **Val á útliti skýrslu** sýnir allar skýrslur sem eru í boði fyrir fyrirtæki sem er tiltekið í reitnum Fyrirtæki efst í glugganum.  Reiturinn valið útlit tilgreinir útlitið sem er verið að nota á skýrsluna.
 2. Stilltu reitinn **Fyrirtæki** efst í glugganum á fyrirtækið með skýrsluna.
-3. Til að breyta útliti sem er notað í skýrslu skal velja röðina fyrir skýrsluna í listanum og stilla svo **valið útlit ** reitinn á einn af eftirfarandi valkostum:
+3. Til að breyta útliti sem er notað í skýrslu skal velja röðina fyrir skýrsluna í listanum og stilla svo **valið útlit** reitinn á einn af eftirfarandi valkostum:
    * RDLC (innbyggt Notar) innbyggt RDLC skýrsluútlit í skýrslunni.
    * Word (innbyggt) Notar innbyggt Word skýrsluútlit í skýrslunni.
    * Sérsniðið, Notar sérsniðið útlit í skýrslu.  
      Hægt er að sjá hvaða sérsniðin útlit eru í boði fyrir skýrsluna í  upplýsingareitnum skýrsluútlit hluti. Ef engin sérsniðin útlit eru til fyrir skýrsluna þarf að búa það til. Ef þú velur þennan valkost skaltu fara í næsta ferli til að tilgreina sérsniðið útlit´ sem þú vilt nota.
-     **Athugasemd**: Ef þú velur **RDLC (innbyggt)** eða **Word (innbyggt)** og færð villuboð um að skýrslan vilji ekki útlit af sérstakri gerð, verðurðu að velja annað útlit eða búa til sérsniðin skýrsla af þeirri gerð sem þú vilt nota.
+     > [!NOTE]  
+>   Ef þú velur **RDLC (innbyggt)** eða **Word (innbyggt)** og færð villuboð um að skýrslan vilji ekki útlit af sérstakri gerð, verðurðu að velja annað útlit eða búa til sérsniðin skýrsla af þeirri gerð sem þú vilt nota.
 
 Ef þú velur innbyggt RDLC skýrsluútlit, þá þarf ekkert að gera og útlitið er notað næst þegar skýrslan er keyrð.
 

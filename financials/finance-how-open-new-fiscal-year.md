@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að opna Nýtt reikningsár | Microsoft Docs"
-description: "Lýsir hvernig á að opna fjárhagstímabil."
+title: "Opna nýtt reikningsár| Microsoft Docs"
+description: "Áður en hægt er að bóka á reikningsár þarf að opna reikningsárið og tilgreina reikningstímabil þess."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 02bd101bca987d30730766531687738f8e5f7d81
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c653a43329f95c817560c5888fb282e64b57ba24
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,14 +24,14 @@ ms.lasthandoff: 05/04/2017
 Áður en hægt er að bóka á reikningsár þarf að opna reikningsárið og tilgreina fjárhagstímabil þess.
 
 ## <a name="to-open-a-new-fiscal-year"></a>Nýtt reikningsár opnað
-1. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Fjárhagstímabil**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Reikningstímabil** og velja svo viðeigandi tengil.
 2. Í **Reikningstímabil** velurðu aðgerðina **Búa til ár**.
 3. Fyllið inn í reitina til að skilgreina uppbyggingu almanaksársins.
 
     Reikningsárið er venjulega 12 mánaðartímabil en einnig má skipta því á annan hátt.
 4. Velja hnappinn **Í lagi**.
 
-Reikningstímabilunum er bætt við síðuna. Reitirnir **Upphafsdagsetning** og **Heiti ** eru fylltir inn. Reiturinn **heiti ** notar heiti mánaðar úr upphafsdagsetningu Eftir síðasta tímabilið á reikningsárinu, er reikningstímabil sett inn og reiturinn **Nýtt reikningsár** er valið.
+Reikningstímabilunum er bætt við síðuna. Reitirnir **Upphafsdagsetning** og **Heiti** eru fylltir inn. Reiturinn **heiti** notar heiti mánaðar úr upphafsdagsetningu Eftir síðasta tímabilið á reikningsárinu, er reikningstímabil sett inn og reiturinn **Nýtt reikningsár** er valið.
 
 ## <a name="see-also"></a>Sjá einnig
 [Hvernig á að tilgreina Bókunartímabil](finance-how-specify-posting-periods.md)  

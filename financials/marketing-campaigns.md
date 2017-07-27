@@ -3,32 +3,32 @@ title: "Setja upp markaðsherferðir í fjármálum | Microsoft Docs"
 description: "Lýsir hvernig hægt er að setja upp og stunda markaðssetninguherferðir í Dynamics 365 for Financials"
 services: project-madeira
 documentationcenter: 
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 03/08/2017
-ms.author: edupont
+ms.date: 05/20/2017
+ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8f616382e28e29aab1ce7d9b45b8efb4ad374b96
+ms.sourcegitcommit: 92c5fb75f4f3d3180ba67b89481beed2e58c3dbe
+ms.openlocfilehash: 68359d2dd2c2e07463babda91d86d47998f0912a
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 05/31/2017
 
 
 ---
 # <a name="managing-marketing-campaigns"></a>Stjórnun markaðsherferða
 Öflug markaðsáætlun gerir fyrirtækinu kleift að finna, vinna og halda viðskiptamönnum. Markaðsáætlun samanstendur af ýmsum söluherferðum og öðrum samskiptum í tengslum við sölur og markaðssetningaraðgerðir. Þegar söluherferð er skipulögð þarf að ákveða hvaða tengiliði skal miða á, hvaða gerð söluherferðar (t.d. vörusýningu eða beinan auglýsingapóst) skal nota og hvaða sölumen munu framkvæma hvert verk.
 
-<!-- Each campaign consists of various activities or to-dos. Activities are large tasks that can be broken down into several smaller tasks or to-dos. To-dos are individual or team tasks that can be created within activities or individually and then be assigned to individual salespeople or groups of salespeople.-->
+Hver söluherferð samanstendur af ýmsum aðgerðum eða verkefnum. Þú getur sameinað marga verkhluta í aðgerðum, t.d. verkhluta sem hver og einn fela í sér eitt skref. Aðgerðaverkhlutar tengjast hverjum öðrum í gegnum dagsetningarformúlu. Einstökum verkhlutum er aðeins hægt að úthluta til sölufólks. Aðgerðum er hægt að úthluta til tækifæra, sölufólks, hóp sölufólks og tengiliða. Nánari upplýsingar, sjá [Hvernig á að: Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Skilgreina stakar söluherferðir
 Áður en herferð er stofnuð þarf að setja upp *stöðukóða herferðar*. Notkun þessara kóta hjálpar til við stjórnun herferða með því að úthluta herferðum stöðu. Þegar unnið er gegnum þrep herferðar er hægt að sjá á hvaða þrepi herferðin er og hvaða þrep kemur næst. Þú setur upp stöðuherferðarkóða í glugganum **Staða herferðar**.
 
-Þú getur búið til *herferðarkort* fyrir hvern herferð sem þú vilt halda utan um. Einnig er hægt að skoða þessi herferðarspjöld til að fá almennar upplýsingar um herferðirnar.
+Þú getur búið til herferðarkort fyrir hvern herferð sem þú vilt halda utan um. Einnig er hægt að skoða þessi herferðarspjöld til að fá almennar upplýsingar um herferðirnar.
 Þú getur eytt herferðarpósta, svo sem ef færslan skráir aðgerð sem hefur verið lokað. Aðeins er hægt að eyða ógiltum söluherferðarfærslum.
 
 ### <a name="selecting-the-target-audience"></a>Val á markhópi
@@ -39,14 +39,13 @@ ms.lasthandoff: 05/04/2017
 
  Þegar söluverð/línuafsláttur og hlutarnir á söluherferðarspjaldinu hafa verið settir upp þarf að virkja þá til þess að verð/afsláttur í söluherferð komi fram í línunum.
 
-> [!NOTE]  
->  Til þess að virkja söluverð / lína afslætti verður þú að tilgreina hvort allt hlutinn eða aðeins nokkrir tengiliðir eru markmið herferðarinnar. Ef söluverðið/línuafslátturinn nær yfir alla tengiliðina í hlutanum reiturinn **Markhópur söluherferðar** valinn á flýtiflipanum **Söluherferð** á spjaldinu **Hluti**.
+**Athugið**: Til þess að virkja söluverð / lína afslætti verður þú að tilgreina hvort allt hlutinn eða aðeins nokkrir tengiliðir eru markmið herferðarinnar. Ef söluverðið/línuafslátturinn nær yfir alla tengiliðina í hlutanum reiturinn **Markhópur söluherferðar** valinn á flýtiflipanum **Söluherferð** á spjaldinu **Hluti**.
 Ef ekki er boðið upp á söluverð / lína afslátt fyrir alla tengiliðina í hlutanum geturðu hreinsað **herferðarmarkið** fyrir viðkomandi tengiliði. Ef þú getur ekki séð þetta reit geturðu bætt því við skoðunina þína. Nánari upplýsingar er að finna í [Sérstillingar notanda](ui-user-personalization.md).
 
-<!-- ## Conducting campaigns
-As a campaign runs, all interactions with your contacts, or segment, are recorded so that you can get statistics and other information about the costs and success rates of the campaign.
+## <a name="conducting-campaigns"></a>Framkvæma herferðir
+Meðan herferð stendur yfir eru öll samskipti við tengiliði eða hluta skráð. Þetta gerir notanda kleift að fá tölfræði og aðrar upplýsingar um kostnað og árangur herferðarinnar.
 
-Campaigns are conducted by salespeople, and you must create activities to represent each task and assign them to the relevant salespeople.  -->
+Herferðir eru framkvæmdar ef sölufólki, og þú þarft að skapa aðgerðir til sem standa fyrir hvern verkhluta og úthluta þeim til viðeigandi sölufólks. Nánari upplýsingar, sjá [Hvernig á að: Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  

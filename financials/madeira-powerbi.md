@@ -1,6 +1,6 @@
 ---
-title: Nota efnispakka Dynamics 365 fyrir Financials fyrir Power BI | Microsoft Docs
-description: "Það er auðvelt að fá innsýn í Financials gögnin þín með Power BI og Financials efnispökkunum."
+title: Efnispakkar Dynamics 365 for Financials og Power BI| Microsoft Docs
+description: "Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Financials gögnin þín með Power BI og Financials efnispökkunum."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70e3e166f344d373750c969bd5816a8e67589e53
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 537effab2f406d619c5000efad12754db678e8b8
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,7 +30,8 @@ Efnispakkinn er forstilltur til að vinna með sölugögnum og fjárhagsgögnum 
 * Festu þetta sérsniðna yfirlit á yfirlitið til að halda áfram rakning á.  
   Yfirlitið og skýrslunum endurnýja undirliggjandi eru uppfærð daglega. Hægt er að stjórna uppfærsluáætlun og breyta tiíðninni á gagnamengi.  
 
-**Athugið**: Einnig er hægt að búa til eigin skýrslur og yfirlit í Power BI á grundvelli þinna [!INCLUDE[d365fin](includes/d365fin_md.md)] gögn. Nánari upplýsingar, sjá [Með Dynamics 365 fyrir Financials sem gagnaveitu fyrir Power BI](across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   Einnig er hægt að búa til eigin skýrslur og yfirlit í Power BI á grundvelli þinna [!INCLUDE[d365fin](includes/d365fin_md.md)] gagna. Nánari upplýsingar eru í [Tengja viðskiptagögn þín við Power BI](across-how-use-financials-data-source-powerbi.md), .  
 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Aðgangur að [!INCLUDE[d365fin](includes/d365fin_md.md)] í Power BI
 Til að skoða þitt [!INCLUDE[d365fin](includes/d365fin_md.md)] gögn í Power BI, verður þú að hafa eftirfarandi:  
@@ -74,7 +75,8 @@ Til að finna þessar upplýsingar í [!INCLUDE[d365fin](includes/d365fin_md.md)
 * SalesOrdersBySalesPerson  
 * TopCustomerOverview  
 
-**Athuga skal að**: Ef þú breytir heiti einhverra þessara vefþjónusta munu gögnin ekki birtast í Power BI.  
+> [!NOTE]  
+>   Ef þú breytir heiti einhverra þessara vefþjónusta munu gögnin ekki birtast í Power BI.  
 Ef þú vilt bæta við nota önnur gögn í Power BI, verður þú að finna töflurnar í [!INCLUDE[d365fin](includes/d365fin_md.md)], sýna þær sem vefþjónustur og síðan bæta þeim við efnispakkann. Þetta eru aðstæður fyrir lengra komna, og við mælum með að þú byrjar með gögn sem er nú þegar í boði í Power BI.  
 
 ## <a name="troubleshooting"></a>Úrræðaleit
@@ -98,7 +100,8 @@ Ef þú færð „innskráning mistókst“ villu þegar þú skráir þig inn �
     Staðfesta notandareikning í [!INCLUDE[d365fin](includes/d365fin_md.md)], og ganga úr skugga um að notaðar hafa verið rétt aðgangslykill vefþjónustu sem aðgangsorð og reyndu síðan aftur.  
 * [!INCLUDE[d365fin](includes/d365fin_md.md)] Tilvikið sem verið er að reyna að tengjast er ekki með gilt SLL vottorð. Í þessu tilviki sérðu nákvæmari villuboð ("ekki er hægt að stofna traust SSL samband").
 
-    **Athuga skal að**: sjálfárituð vottorð eru ekki studd.  
+    > [!NOTE]  
+>   Sjálfárituð vottorð eru ekki studd.  
 
 **"Úps"**  
 Ef þú sérð "Úps" villuglugga þegar þú ert kominn framhjá sannvottunarglugganum, er þetta oftast vegna vandamáls við að tengjast gögnum fyrir efnispakkann.
@@ -114,10 +117,10 @@ Ef þú sérð "Úps" villuglugga þegar þú ert kominn framhjá sannvottunargl
     https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/  
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
+[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Yfirfæra viðskiptagögn úr öðrum fjárhagskerfum](upload-data.md)  
-[Nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] sem Power BI Gögn] (across-how-use-financials-data-source-powerbi.md)  
-[Nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] sem PowerApps gagnagjafa] (across-how-use-financials-data-source-powerapps.md)  
-[Nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] í Microsoft verkflæði] (across-how-use-financials-data-source-flow.md)  
+[Nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
+[Nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] sem PowerApps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
+[Nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] í Microsoft verkflæði](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

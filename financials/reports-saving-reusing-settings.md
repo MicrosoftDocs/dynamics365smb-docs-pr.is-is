@@ -1,6 +1,6 @@
 ---
-title: "Vistuð Stillingar á Skýrslur"
-description: "Lýsir hvernig á að nota vistunarstillingar á skýrslu."
+title: "Jafna og leiðrétta vistaðar stillingar í skýrslum | Microsoft Docs"
+description: "Lýsir því hvernig not skal fyrirfram skilgreinda valmöguleika og afmarkanir til að sérstilla skýrslu, og ná fram réttum upplýsingum."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 12/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7afbd31e77a4f53ee99fbb192dd8a32a660f87eb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e5f7417579a5ba0629032cf9fa664e0060b9cbf
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ Hægt er að skoða vistuð stillingar sem völ er á með í skýrslunni í **V
 ## <a name="administer-saved-report-settings-for-users"></a>Séð um vistuðu skýrslu stillingar fyrir notendur
 Ef rétta heimildir, hægt er að skoða, stofna og breyta vistuð stillingar fyrir allar skýrslur fyrir alla notendur í fyrirtækinu. Hægt er að úthluta vistuð stillingar skýrslu fyrir einstaka notendur eða alla notendur í fyrirtækinu.
 
-Stjórna er vistuð stillingar úr page 1506 **Skýrslum Stillingar**. Til að opna þessa síðu, efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Skýrslustillingar**, og velja síðan viðeigandi tengil.
+Stjórna er vistuð stillingar úr page 1506 **Skýrslum Stillingar**. Til að opna þessa síðu, skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skýrslustillingar** og velja svo viðeigandi tengil.
 
 Úr á **Skýrslu Stillingar** er hægt að búa til nýja stillingar í scratch eða er hægt að afrita og breyta þeim stillingar. Til að breyta valkostum og síum fyrir stillingar skal velja aðgerðina **Breyta**.
 

@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Keyra runuvinnslur | Microsoft Docs"
-description: "Fræðast um það hvernig runuvinnslur virka í Dynamics 365 for Financials."
+title: Stofna og keyra runuvinnslu | Microsoft Docs
+description: "Þú keyrir runuvinnslu til að vinna gögn og uppfæra upplýsingar, til dæmis að framkvæma tímabundnar bókhaldsaðgerðir eða útreikninga."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: task, process
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1f4678ce0cfb18a746374226bb33020f70bf874d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6844d5fe3efba5349eef166161c5956116bc7fc0
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ Keyrsla er forritabútur sem vinnur úr gögnum í einni keyrslu líkt og keyrsl
 Keyrslu svipar til skýrslu fyrir utan það að keyrslan nýtir útkomuna til að uppfæra upplýsingar beint, án þess að prenta niðurstöðurnar.
 
 ## <a name="to-run-a-batch-job"></a>Til að keyra keyrslu
-1. Til að opna beiðnigluggann fyrir viðeigandi runuvinnslu, skal, í efra hægra horni, velja **Leit að síðu eða skýrslu** táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið"), slá inn heiti runuvinnslunnar og velja svo tengdan tengil.
+1. Til að opna beiðnigluggann fyrir viðeigandi runuvinnslu, skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið ") tákn, slá inn heiti runuvinnslunnar og velja svo tengdan tengil.
 2. Ef flýtiflipinn **Valkostir** er í boði fyrir runuvinnsluna er fyllt í reitina til að tilgreina hvað runuvinnslan á að gera.
 3. Í glugganum kann að vera einn eða fleiri flýtiflipar með afmörkunum sem hægt er að nota til að takmarka hvaða gögn eru innifalin í keyrslunni. Skilyrði eru sett á ráðlagðar afmarkanir eða fleiri afmörkunum bætt við.
 4. Veldu hnappinn **Í lagi** til að hefja keyrsluna.

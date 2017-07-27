@@ -1,6 +1,6 @@
 ---
-title: "Vinna með fjármál | Microsoft Docs"
-description: "Vinna með Dynamics 365 for Financials"
+title: "Vinna með almenna virkni í Dynamics 365 for Financials | Microsoft Docs"
+description: "Lýsir þeirri almennu virkni sem þú notar til að vinna með gögn í Financials, eins og t.d. að færa inn gildi, raða gögnum og breyta yfirliti."
 services: 
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/12/2017
+ms.date: 05/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9593131a1c0a18f5599ebbe8a253f007e4fc6c4b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0a50b92a952c0d4be2b68dc4278cedd9362348f0
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,14 +32,16 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða glugga sem er, ví
 | Sjá hvaða reiti verður að fylla út. |[Áskildir reitir](ui-mandatory-fields.md) |
 | Nota Leit til að leita að tiltekinni síðu eða skýrslu. |[Notkun Leit að síðu eða skýrslu](ui-search.md) |
 | Fræðast um hvernig á að flokka gögn. |[Röðun](ui-sorting.md) |
-| Breyta hvernig listar yfir, t.d. viðskiptamenn, lánardrottna eða vörur eru skoðaðir. |[Birting mismunandi yfirlits yfir lista](across-display-lists-different-views.md) |
+| Breyta hvernig listar yfir, t.d. viðskiptamenn, lánardrottna eða vörur eru skoðaðir. |[Birting lista á mismunandi hátt](across-display-lists-different-views.md) |
 | Breyta litavísinum á bunkum. |[Hvernig á að setja upp litaðan vísi á bunka](ui-how-setup-colored-indicator-cues.md) |
 | Breyta grundvallarstillingum eins og fyrirtæki eða vinnudagsetningu. |[Breyta grunnstillingum](ui-change-basic-settings.md) |
 | Breyttu hlutverkamiðstöðinni og tengdu heimasíðunni til að passa við hlutverk þitt. |[Hvernig á að: Breyta Hlutverkamiðstöð](change-role.md) |
-| Breyta hvaða reiti og aðgerðir eru sýndar í notendaviðmótinu til að passa viðskiptaferli fyrirtækisins. |[Sérsníða [!INCLUDE[d365fin](includes/d365fin_md.md)] reynslu þína] (ui-experiences.md) |
+| Breyta hvaða reiti og aðgerðir eru sýndar í notendaviðmótinu til að passa viðskiptaferli fyrirtækisins. |[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md). |
+| Fá skýrslur til að sýna gögn frá ákveðnum tímabilum. |[Færa inn dagsetningartímabil í Dynamics 365 for Financials](ui-enter-date-ranges.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
-[Sérsníða [!INCLUDE[d365fin](includes/d365fin_md.md)] reynslu þína] (ui-experiences.md)  
+[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

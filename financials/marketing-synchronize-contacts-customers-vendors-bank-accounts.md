@@ -1,6 +1,6 @@
 ---
-title: "Samstilla tengiliði við viðskiptamenn, lánardrottna og bankareikninga | Microsoft Docs"
-description: "Lýsir samstillingu tengiliða við viðskiptavini, seljendur og bankareikninga í fjármálum"
+title: "Tengiliðir samstilltir við viðskiptamenn og lánardrottnar| Microsoft Docs"
+description: "Hægt er að tengja eða samstilla tengiliðaupplýsingar frá tengiliðum sem líka eru viðskiptamenn, lánardrottnar eða bankareikningar, þannig að þú uppfærir upplýsingarnar aðeins á einum stað."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b28cd00659b077403e3174ac69c32ad5d9a8bf83
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: dbb29d9d53618eec69817455d4304da2a6bfe466
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -42,7 +42,8 @@ Meðan tengiliður er samstillt viðskiptavini, lánardrottni eða bankareikning
 * Ef tengilið er eytt sem tengdur er viðskiptamanni, lánardrottni eða bankareikningi, er tengiliður eingöngu fjarlægðu. viðskiptamann, lánardrottin eða bankareikning verður áfram eftir.
 * Ef eytt er viðskiptamanni, lánardrottni eða bankareikningi sem tengist tengilið er eingöngu tengiliður eftir.
 
-**Athugasemd**: Sumar upplýsingar, s.s. um reikningsfærslur og bókunarupplýsingar, koma ekki fram á tengiliðarspjaldinu. Því gæti verið ráðlegt að bæta þeim handvirkt í viðskiptamannaspjaldið, lánardrottnaspjaldið eða bankareikningsspjaldið þegar tengiliðir eru stofnaðir sem viðskiptamenn, lánardrottnar eða bankareikningar.
+> [!NOTE]  
+>   Sumar upplýsingar, s.s. um reikningsfærslur og bókunarupplýsingar, koma ekki fram á tengiliðarspjaldinu. Því gæti verið ráðlegt að bæta þeim handvirkt í viðskiptamannaspjaldið, lánardrottnaspjaldið eða bankareikningsspjaldið þegar tengiliðir eru stofnaðir sem viðskiptamenn, lánardrottnar eða bankareikningar.
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  

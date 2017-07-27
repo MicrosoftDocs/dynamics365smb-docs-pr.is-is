@@ -1,6 +1,6 @@
 ---
-title: "Tengiliðum bætt við hluta | Microsoft Docs"
-description: "Lýsir hvernig á að bæta við tengiliðum í hluti í Financials"
+title: "Skilgreina tengiliði í Hluta| Microsoft Docs"
+description: "Eftir að hafa stofnað hluta, geturðu bætt tengiliðum við hlutann, t.d. sem hluta af markaðsherferð sem beint er að tilteknum viðskiptavinum eða biðlara."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d9e72fc4f6f83534cabd36cfc66cfcf856a8b0d2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,13 +24,13 @@ ms.lasthandoff: 05/04/2017
 Þegar hluti hefur verið stofnaður og gunnupplýsingar um hann færðar inn er tengiliðum gjarnan bætt við hlutann. Það er hægt að gera það handvirkt í glugganum **Hluti** en það er auðveldara og fljótlegra að nota aðgerðina **Bæta við tengiliðum**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Til að bæta tengilið við hluta
-1. Á upphafssíðunni skal velja **Virkir hlutar**. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Hlutar**, og velja síðan viðeigandi tengil.  
+1. Á upphafssíðunni skal velja **Virkir hlutar**. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Hutar** og velja svo viðeigandi tengil.  
 2. Veljið hlutann og veljið svo aðgerðina **Bæta við tengiliðum**. Runuvinnsluglugginn **Bæta við tengiliðum** opnast.
 3. Í hlutanum **Tengiliður** skal setja upp afmarkanir til að tilgreina þær upplýsingar sem á að nota til að velja tengiliði.
 
 Til að setja inn fleiri afmarkanir, endurtakið þessa aðgerð í hverjum hluta sem eftir er og veljið svo hnappinn **Í lagi**.
 
-Veljið aðgerðina ** Fara til baka** hafi tengiliðum verið bætt við fyrir misgáning og fara á til baka um eitt þrep.
+Veljið aðgerðina **Fara til baka** hafi tengiliðum verið bætt við fyrir misgáning og fara á til baka um eitt þrep.
 
 ## <a name="to-refine-the-number-of-contacts"></a>Til að fínstilla fjölda tengiliða
 Þegar tengiliðir hafa verið valdir í hluta gæti þurft að fjarlægja einhverja af þeim en halda öðrum. Hægt er að fjarlægja tengiliði handvirkt úr línunum í glugganum **Hluti** en það er auðveldara og fljótlegra að nota aðgerðina **Fínstilla tengiliði**.

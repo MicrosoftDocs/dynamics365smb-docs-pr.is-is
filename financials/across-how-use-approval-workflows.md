@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að nota Samþykkisverkflæði | Microsoft Docs"
-description: "Hvernig á að: Nota samþykktarverkflæði"
+title: "Samþykkja eða hafna skjölum í verkflæði| Microsoft Docs"
+description: "Fara fram á, hafna eða framselja samþykkt á, til dæmis, innkaupa- eða söluskjali, sem hluta af verkflæði."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: reject, delegate, request
 ms.date: 04/25/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ed08fdb7f78c9f6c338e287cd4ef42d7ce0cb72c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,13 +26,14 @@ Setja upp samþykktarverkflæði í **Verkflæði** glugganum.
 
 Kjarna samþykkisverkflæði fyrir innkaupaskjöl, söluskjöl, greiðslubækur, viðskiptamannaspjöld og birgðaspjöldum eru tilbúin til að byrja sem aðstoð við uppsetningu. Nánari upplýsingar sjá í [Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
-**Athugið**: Þessi virkni krefst að upplifun þín er stilltur á **Pakki**. Nánari upplýsingar, sjá [Sérstilli þína [!INCLUDE[d365fin](includes/d365fin_md.md)]upplifun](ui-experiences.md).
+> [!NOTE]  
+>   Þessi virkni krefst þess að upplifun þín sé stillt á **Pakki**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Til að biðja um samþykki færslu
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda.
 
 1. Í glugganum sem táknar færsluna er valið **Senda samþykktarbeiðni** aðgerðin.
-2. Til að sjá allar samþykktarbeiðnir skal velja **Leit að síðu eða skýrslu** táknið efst í hægra horni ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið"), slá inn **Beiðnifærslur samþykktar** og velja síðan viðkomandi tengil.
+2. Til að sjá allar samþykktarbeiðnir skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") táknið, færa inn **Beiðnifærslur samþykktar** og velja síðan viðkomandi tengil.  
 
 Staða samþykktarfærslunnar er uppfærð úr **Stofnað** í **Opið**. Staða færslunnar, til dæmis innkaupareikningur, er uppfærð úr **Opin** í **Bíður samþykkis** og er áfram lokuð fyrir breytngar þar til allir samþykkjendur hafa samþykkt færsluna.
 
@@ -56,14 +57,14 @@ Ef gera á smávægilega breytinga á færslu eftir að hún hefur verið samþy
 2. Nauðsynlegar breytingar eru gerðar á færslunni, svo sem heimilisfang lánardrottins.
 3. Valið er **Losa** aðgerð.
 
-Þegar frumfærslan er opnuð aftur er staða tengdrar samþykktarfærslu áfram Samþykkt í glugganum **Samþykktarfærslur **.
+Þegar frumfærslan er opnuð aftur er staða tengdrar samþykktarfærslu áfram Samþykkt í glugganum **Samþykktarfærslur**.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Samþykkja eða hafna samþykktum
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
 
 Hægt er að vinna samþykktarbeiðnum í glugganum **Beiðnir til að samþykkja** , til dæmis til að samþykkja margar beiðnum í einu. Einnig er hægt er að vinna hvern beiðni á tengdar færslu, eins og í **Innkaupareikningur** glugganum, með því að velja tengillinn í tilkynningin sem þú tekur á móti.
 
-1. Efst í hægra horninu skal velja **Leit að síðu eða skýrslu** táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið"), slá inn **Beiðnir til að samþykkja** og velja svo tengdan tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Beiðnir til að samþykkja** og velja svo viðeigandi tengil.
 2. Velja eina eða fleiri línur fyrir færslu eða færslur sem á að samþykkja eða hafna.
 3. Valið er **Samþykkja**, **Hafna**, eða **Framselja** aðgerðir.
 
@@ -78,7 +79,7 @@ Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimild
 
 Til að koma í veg fyrir að skjöl safnist upp með öðru móti stífla verkflæði getur sá sem bað um samþykktina eða samþykkjandinn úthlutað samþykktarbeiðni til staðgengilssamþykkjanda. Staðgengil getur annað hvort verið tilgreindur staðgengill, beinn samþykkjandi eða stjórnandi samþykkis, í þeirri forgangsröð. Þessi aðgerð er yfirleitt notuð ef samþykkjandi er ekki við og getur ekki samþykkt beiðnir fyrir lokadaginn.
 
-1. Efst í hægra horninu skal velja **Leit að síðu eða skýrslu** táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið"), slá inn **Beiðnir til að samþykkja** og velja svo tengdan tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Beiðnir til að samþykkja** og velja svo viðeigandi tengil.
 2. Velja eina eða fleiri línur fyrir samþykktarbeiðni sem á að úthluta á staðgengil til samþykktar, og veldu síðan aðgerðina **framselja**.
 
 Tilkynning um að samþykkja beiðnina er send til staðgengilssamþykkjanda.
@@ -90,12 +91,12 @@ Með reglulegu millibili kann að þurfa að minna notendur samþykktarverkflæ�
 
 Aðgerðin **Senda samþykkistilkynningar sem komnar eru fram yfir á tíma** kannar allar opnar samþykktar færslur sem eru fallnar á tíma. Allir samþykkjendur með a.m.k. eina samþykkt fram yfir á tíma fá tilkynningu með lista yfir þær samþykktarfærslur sem fallnar eru á tíma. Afrit af tilkynningu er sent til samþykkjenda þeirra og allra sendenda samþykkta sem fallnar eru á tíma. Þetta er gagnlegt ef nauðsynlegt er að framselja samþykktarfærslu sem fallin er á tíma til staðgengils.
 
-1. Efst í hægra horninu skal velja **Leit að síðu eða skýrslu** táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið"), slá inn **Gjaldfallnar samþykktarbeiðnir** og velja svo tengdan tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Samþykktarbeiðnir komnar fram yfir á tíma** og velja svo viðeigandi tengil.
 2. Í **Samþykktarbeiðnir komin fram yfir á tíma** glugganum er valið á **Samþykktarbeiðnir komin fram yfir á tíma Tilkynningar** aðgerð.
 
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)    
 [Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
 

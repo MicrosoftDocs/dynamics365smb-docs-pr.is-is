@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að setja upp litaðan vísi á bunka | Microsoft Docs"
-description: "Lærðu hvernig á að nota litaðar vísbendingar um bendingar í hlutverki þínu."
+title: "Tilgreina litaða vísa til að sérstilla sjónræn merki um virkni bendingar | Microsoft Docs"
+description: "Setja upp litaðan vísi á ramma bendingar til að útvega sérsniðið sjónrænt merki um virkni bendingar."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: personalize, customize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3c5aff53c522729a95763485eb79d13c0f051831
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0cb10770954f485d9c0a3474615e6c69411de321
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ Til að setja upp vísi tilgreinirðu allt að tvö þröskuldsgildi sem tilgrei
 
 ## <a name="to-set-up-colored-indicators-on-cues"></a>Til að setja upp litaða vísa í bendingum
 1. Undir **Aðgerðir** í notanda **Heimasíðu** , velja **Setja Upp bunka**.  
-   Glugginn **uppsetning bunka ** birtist. Glugginn birtir vísana sem nú eru uppsettir í bunkum.
+   Glugginn **uppsetning bunka** birtist. Glugginn birtir vísana sem nú eru uppsettir í bunkum.
 2. Til að breyta vísi, breyta reitunum og breyta, t.d. gildi fyrir mismunandi þröskulda.  
 
 Eftirfarandi tafla sýnir liti sem samsvara valkostir af sem **lágsviðsstíll**, **millisviðsstíll**, og **hásviðsstíll** reiti.

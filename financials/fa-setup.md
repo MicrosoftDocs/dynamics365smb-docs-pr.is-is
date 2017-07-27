@@ -1,6 +1,6 @@
 ---
-title: Uppsetning eigna | Microsoft Docs
-description: "Lýsir hvernig á að setja upp virkni eigna."
+title: Uppsetning eigna| Microsoft Docs
+description: "Kynntu þér röð verkhluta sem þú þarft að framkvæma til að setja upp eignir, eins og t.d. þá sem tengjast vélum eða byggingum."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8cf5df0cb9e555f700e2f578a25e102cefe8baff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,8 @@ ms.lasthandoff: 05/04/2017
 
 Taflan hér að neðan inniheldur tengla í frekari upplýsingar. Eftir að þú hefur sett þessi atriði upp geturðu byrjað á ýmsum verkefnum. Frekari upplýsingar eru í [Eignir](fa-manage.md).  
 
-**Athugið**: Hægt er að skrá eignafærslur í **Fjárhagsbók eigna** eða í **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á **fjárhagsbók eigna** glugginn.  
+> [!NOTE]  
+>   Hægt er að skrá eignafærslur í **Fjárhagsbók eigna** eða í **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á **fjárhagsbók eigna** glugginn.  
 
 Þegar þú virkjar aðgerð eignar í **Fjárhagsheildun** hlutanum í á **Afskriftabókarspjald** glugganum verður glugginn **Fjárhagsbók eigna** notaður til að bóka færslur á aðgerðinni.
 
@@ -45,6 +46,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## <a name="see-also"></a>Sjá einnig
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
-[Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
+[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

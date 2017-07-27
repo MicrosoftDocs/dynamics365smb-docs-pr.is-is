@@ -1,6 +1,6 @@
 ---
-title: "Söluskattur og skattflokkar í Bandaríkjunum og Kanada | Microsoft Docs"
-description: "Fræðast um hvernig söluskattur er sett upp og hvernig skattflokka, skattsvæði, skattlögsögur og skattasundurliðanir vinna."
+title: "Setja upp skattflokka, svæði og lögsögur í Bandaríkjunum og Kanada | Microsoft Docs"
+description: "Fræðast um hvernig söluskattur er sett upp og hvernig skattflokkar, skattsvæði (fylki, sýslur, borgir og staðir), skattlögsögur og skattasundurliðanir virka."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ff1981a428a2cd3b3864b7f0cc795a1abeab7a10
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 763bb1b954b30734b0f81f121a6534c83442321a
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-tax-groups-in-the-us-and-canada"></a>Söluskattur og skattflokkar í Bandaríkjunum og Kanada
+# <a name="reporting-sales-tax-in-the-us-and-canada"></a>Skráning söluskatts í Bandaríkjunum og Kanada
 Þegar fyrst er byrjað að nota [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að keyra hjálparuppsetningu til að setja fljótt og einfalt upp söluskattsupplýsingar fyrir fyrirtæki þitt , viðskiptamenn og lánardrottna. Á nokkrum mínútur, er hægt að stofna söluskjöl og innkaupaskjölum með rétt reiknaðan söluskatt. Þetta er útskýrt [í okkar bloggpóstum](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 Ef þú færir yfir í tóma mitt fyrirtæki, mælum við með að þú byrjir að nota hvern og einn hjálparuppsetningarleiðbeiningar, þar á meðan einn fyrir VSK. Ef kosið er að setja upp söluskattur sjálfur, útskýrir þessi grein hvað þarf að taka tillit til.  
 
@@ -36,7 +36,7 @@ Ef sett er upp ný skattsvæði og skattlögsögur þarf að ganga úr skugga um
 ## <a name="tax-details"></a>Skattsundurliðun
 Í **Skattasundurliðanir** glugginn sýnir mismunandi samsetningar söluskattlögsagaa og söluskatthópa til að finna gengi söluskatts. Fyrir hverja skatta lögsögu, mælum við með að þú stillir upp einn skatt hóp fyrir venjulega söluskattur, annar skatthópur fyrir vörur eða þjónustu sem ekki eru skattlagðar, og til viðbótar skatthóp fyrir hverja tegund af hlut eða þjónustu sem er stjórnað með mismunandi söluskatthlutfalli í þeirri lögsögu.  
 
-Í Bandaríkjunum, þegar þú selur til viðskiptavina á stað þar sem þú þarft ekki að hafa *situs* - eða löglega staðsetningu í því ríki - innheimtirðu ekki VSK. Að stöðum þar sem þú ert ekki með situs, skal tryggja að bæði **skattur undir lágmarki ** og **skattur yfir hámarki ** reitir eru 0.00.  
+Í Bandaríkjunum, þegar þú selur til viðskiptavina á stað þar sem þú þarft ekki að hafa *situs* - eða löglega staðsetningu í því ríki - innheimtirðu ekki VSK. Að stöðum þar sem þú ert ekki með situs, skal tryggja að bæði **skattur undir lágmarki** og **skattur yfir hámarki** reitir eru 0.00.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  

@@ -1,6 +1,6 @@
 ---
-title: "Stjórna viðskiptasamböndum þínum með Dynamics 365 for Financials innan úr Dynamics 365 for Financials | Microsoft Docs"
-description: "Ef þú notar Dynamics 365 til sölu fyrir viðskiptavinaþátttöku geturðu notað Dynamics 365 til fjármála fyrir vinnslu og fjármál og hefur óaðfinnanlegur samþætting í leiðslu til reiðufé"
+title: "Vinna með viðskiptamenn með því nota Dynamics 365 for Sales| Microsoft Docs"
+description: "Hægt er að nota Dynamics 365 for Sales innan Dynamics 365 for Financials til að varpa gögnum og hafa óaðfinnanlegur samþætting og samstillingu í heildarferlinu."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 03/05/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c0291cc316b49e1f1f4f2196745914daca158f61
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2f182d48a3d2c083507564b553fbe22ad7a2e661
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Stjórna viðskiptasamböndum þínum með því að nota Dynamics 365 til sölu innan Dynamics 365 for Financials
@@ -23,16 +23,19 @@ Ef þú notar Dynamics 365 til sölu til að taka þátt í viðskiptum, getur �
 
 Þegar umsóknin þín er sett upp til að samþætta við Dynamics 365 til sölu, hefur þú aðgang að söluupplýsingum frá [!INCLUDE[d365fin](includes/d365fin_md.md)] og öfugt í sumum tilfellum. Þessi samþætting gerir þér kleift að vinna með og samstilla gagnategundir sem eru algengar fyrir bæði þjónustu, svo sem viðskiptavini, tengiliði og söluupplýsingar og halda gögnunum uppfærðar á báðum stöðum.  
 
-**Athugaðu**: Í núverandi útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)], er vísað til Dynamics 365 for Sales sem Dynamics CRM. Til einföldunar, afgangur þessarar greinar mun nota hugtökin sem notuð eru í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+>   Í núverandi útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)], er vísað til Dynamics 365 for Sales sem Dynamics CRM. Til einföldunar, afgangur þessarar greinar mun nota hugtökin sem notuð eru í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Til dæmis getur sölumaðurinn í Dynamics CRM notað verðlista frá [!INCLUDE[d365fin](includes/d365fin_md.md)] því að þeir búa til sölufyrirmæli. Þegar þeir bæta hlutnum við sölulínuna í Dynamics CRM, geta þeir einnig séð birgðahæð (framboð) hlutarins frá [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þessar upplýsingar eru gefin út sem hluti af hjálpargögnum um uppsetningu, **Uppsetning Dynamics CRM-tengingar**.  
 
-**Athugið**: Þessi virkni krefst að upplifun þín er stilltur á **Pakki**. Nánari upplýsingar, sjá [Sérstilli þína [!INCLUDE[d365fin](includes/d365fin_md.md)]upplifun](ui-experiences.md).  
+> [!NOTE]  
+>   Þessi virkni krefst þess að upplifun þín sé stillt á **Pakki**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>Uppsetning tengingarinnar
 Frá Heimili geturðu nálgast uppsetningarleiðbeiningar um **Uppsetning Dynamics CRM-tengingar** sem hjálpar þér að setja upp tengingu. Þegar það er gert verður þú að hafa óaðfinnanlega tengingu við Dynamics CRM færslur með [!INCLUDE[d365fin](includes/d365fin_md.md)] skrám.  
 
-**Athugaðu**: Eftirfarandi skýrir frá aðstoðarsamsetningu, en þú getur framkvæmt sömu verkefni handvirkt í glugganum **Uppsetning CRM-tengingar**.
+> [!NOTE]  
+>   Eftirfarandi útskýrir uppsetningu með aðstoð, en þú getur framkvæmt sömu verkhluta handvirkt í glugganum **Uppsetning CRM-tengingar**.
 
 Í aðstoðarsamskipunarleiðbeiningunni geturðu valið hvaða gögn eru samstillt á milli tveggja þjónustunnar. Þú getur einnig tilgreint að þú viljir flytja inn núverandi Dynamics CRM lausnina þína. Í því tilviki verður þú að tilgreina stjórnsýslu notendareikning.
 
@@ -67,7 +70,8 @@ Til dæmis, ef þú vilt sjá Dynamics CRM reikninga sem viðskiptavini í [!INC
 * Vörur og forðaverð  
   * Einföld verðlag viðskiptavina með Dynamics CRM verð fyrst  
 
-**Athugaðu**: Ef þú ert að nota verð í erlendum gjaldmiðlum skaltu ganga úr skugga um að þú tengir gjaldmiðla við Dynamics CRM viðskipta gjaldmiðla.
+> [!NOTE]  
+>   Ef þú ert að nota verð í erlendum gjaldmiðlum skaltu ganga úr skugga um að þú tengir gjaldmiðla við Dynamics CRM viðskipta gjaldmiðla.
 
 Dynamics CRM sölutilboð veltur á viðbótarupplýsingum eins og viðskiptavinum, mælieiningum, gjaldmiðlum, viðskiptavinahópum, hlutum og / eða auðlindum. Í því skyni að Dynamics CRM sölufyrirmæli virka óaðfinnanlega verður þú að tengja viðskiptavini, mælieiningar, gjaldmiðla, verðlagshópa viðskiptavina, atriði og / eða auðlindir fyrst.
 
@@ -81,7 +85,7 @@ Frá gluggann í **Uppsetning CRM-tengingar** er hægt að fá upplýsingar um f
 ## <a name="see-also"></a>Sjá einnig
 [Tengslastjórnun](marketing-relationship-management.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Sérsníða [!INCLUDE[d365fin](includes/d365fin_md.md)] reynslu þína] (ui-experiences.md)  
+[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
 [Hvernig á að: Vinna með notendur og heimildir](ui-how-users-permissions.md)    
 [Um borð stofnunina þína og notendur til Dynamics 365 (á netinu)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
 

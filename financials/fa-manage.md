@@ -1,6 +1,6 @@
 ---
-title: Eignir | Microsoft Docs
-description: "Lýsir því hvernig eignum er stjórnað."
+title: "Eignastjórnun| Microsoft Docs "
+description: "Kynntu þér virkni eigna í Financials og fáðu yfirsýn yfir það hvernig skal vinna með eignir."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d57603202d9e2e5304c899eaf764dde8cfa6369d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,9 +31,11 @@ Hægt er að skrá viðhaldskostnað fyrir hverja eign og næstu þjónustudagse
 
 Tengja má hverja eign einum eða fleiri vátryggingarskilmálum. Auðvelt er því að sannprófa að upphæðir í vátryggingarskilmálum séu í samræmi við verðmæti eignanna sem þeir eiga við. Það auðveldar því eftirlit með árlegum iðgjöldum af vátryggingum.
 
-**Athugasemd**: hægt er Að skrá eignafærslur í **Fjárhagsbók eigna** glugga eða í **færslubók eigna** glugga, allt eftir því hvort færslur eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á **fjárhagsbók eigna** glugginn. Nánari upplýsingar er að finna í [Hvernig á að setja upp afskriftir eigna](fa-how-setup-depreciation.md).
+> [!NOTE]  
+>   Hægt er að skrá eignafærslur í **Fjárhagsbók eigna** gluggann eða í **færslubók eigna** gluggann, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á **fjárhagsbók eigna** glugginn. Nánari upplýsingar er að finna í [Hvernig á að setja upp afskriftir eigna](fa-how-setup-depreciation.md).
 
-**Athugið**: Þessi virkni krefst að upplifun þín er stilltur á **Pakki**. Nánari upplýsingar, sjá [Sérstilli þína [!INCLUDE[d365fin](includes/d365fin_md.md)]upplifun](ui-experiences.md).
+> [!NOTE]  
+>   Þessi virkni krefst þess að upplifun þín sé stillt á **Pakki**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 Áður en þú getur byrjað að stjórna eignum, verður þú að setja upp sjálfgefið gildi, eignabókhald, bókunarflokka, úthlutunarlykla, færslubækur og bókunargerðir. Nánari upplýsingar eru í [Uppsetning eigna](fa-setup.md).
 
@@ -52,9 +54,9 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning eigna](fa-setup.md)  
-[Sérsníða [!INCLUDE[d365fin](includes/d365fin_md.md)] reynslu þína] (ui-experiences.md)  
-[Fjármál] (finance.md)  
-[Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
+[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
+[Fjármál](finance.md)  
+[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

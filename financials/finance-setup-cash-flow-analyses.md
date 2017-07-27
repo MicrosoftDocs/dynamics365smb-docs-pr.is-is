@@ -1,6 +1,6 @@
 ---
 title: "Setja upp sjóðstreymisgreiningu | Microsoft Docs"
-description: "Lýsir hvernig á að setja upp feril bundins reiðufés, tekjur og útgjöld, sjóðstreymi og sjóðstreymisspá töflur til að greina fortíð og framtíð reiðufé inn og út úr fyrirtækinu þínu."
+description: "Setja upp myndritin á Reikningar Mitt hlutverk til að hjálpa til við að greina sjóðstreymi í fyrirtækinu, þar á meðal útgjöld og tekjur, greiðslugetu og inngreiðslur mínus staðgreiðslur."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e07f32dcc3a50e07c5dea48600f7e3dbcd6088a9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -61,7 +61,8 @@ Til að setja þetta upp skaltu leita að **sjóðstreymisreikningum**, velja te
 
 Sjóðstreymisspár geta notað Cortana Intelligence til að innihalda skjöl með gjalddaga í framtíðinni. Niðurstaðan er ítarlegri spá. Tengingin við Cortana Intelligence er þegar sett upp fyrir þig. Þú þarft bara að kveikja á því. Þegar þú skráir þig inn á [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] birtist tilkynning á bláum reit og veitir hlekkur til sjálfgefna sjóðstreymisuppsetningar. Tilkynningin birtist aðeins einu sinni. Ef þú lokar því, en ákveður að kveikja á Cortana Intelligence, getur þú notað uppsetningu með hjálp eða handvirkt ferli.  
 
-**Ath .:** Einnig er hægt að nota eigin fyrirsjáanlega vefþjónustu. Nánari upplýsingar er að finna í [Búa til og nota eigin fyrirsjáanlega vefþjónustu fyrir sjóðstreymisspár](#AnchorText).  
+> [!NOTE]  
+>   Að öðrum kosti er hægt að nota eigin fyrirsjáanlega vefþjónustu. Nánari upplýsingar er að finna í [Búa til og nota eigin fyrirsjáanlega vefþjónustu fyrir sjóðstreymisspár](#AnchorText).  
 
 Uppsetning assisted leiðbeiningum nota til:  
 
@@ -75,7 +76,8 @@ Nota handvirkt ferli:
 2. Stækkaðu **Cortana Intelligence** flýtiflipann, og veldu **Cortana Intelligence virkjað** gátreitinn.  
 3. Á heimasíðunni velurðu **Sjóðstreymisspá** fyrir ofan töfluna og síðan **Endurreikna spá**..  
 
-**Tip:** Lítur lengd tímabila sem þjónustan er notaður í útreikningum hennar. Frekari gögn sem veita verður því nákvæmari á predictions. Líka watch út fyrir mikið frávik í tímabil. Þeir eru einnig hefur predictions. Ef Cortana Intelligence finnur ekki nægt gögnum eða gögnin breytist við lotu, gera á ekki við prediction.  
+> [!TIP]  
+>   Íhugaðu lengd tímabila sem þjónustan er notaður í útreikningum hennar. Frekari gögn sem veita verður því nákvæmari á predictions. Líka watch út fyrir mikið frávik í tímabil. Þeir eru einnig hefur predictions. Ef Cortana Intelligence finnur ekki nægt gögnum eða gögnin breytist við lotu, gera á ekki við prediction.  
 
 ## <a name="AnchorText"> </a>Búa til og nota eigin fyrirsjáanlega vefþjónustu fyrir sjóðstreymisspár
 Þú getur einnig búið til þína eigin fyrirsjáanlega vefþjónustu byggt á opinberu fyrirmynd sem heitir **Forspármódel fyrir Microsoft Dynamics 365 for Financials**. Þetta líkan er aðgengilegt á netinu í Cortana Intelligence Gallery. Fylgið eftirfarandi skrefum til að fá aðgang að reitunum:  
@@ -85,7 +87,7 @@ Nota handvirkt ferli:
 3. Nota á reikninginn í Microsoft að undirrita fyrir workspace er og afrita síðan líkaninu sem.  
 4. Keyrslan líkaninu og út og þjónustu veftengingar.  
 5. Gera API URL og API lykillinn athugasemd. Þú munt nota þessi skilríki fyrir sjóðstreymisuppsetningu.  
-6. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Uppsetning sjóðstreymis**, og velja síðan viðeigandi tengil.  
+6. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning sjóðstreymis** og velja svo viðeigandi tengil.  
 7. Stækkaðu **Cortana Intelligence** flýtiflipann, og fylltu síðan inn reitina.  
 
 ## <a name="see-also"></a>Sjá einnig

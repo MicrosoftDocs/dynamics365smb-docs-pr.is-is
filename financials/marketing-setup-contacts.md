@@ -1,6 +1,6 @@
 ---
-title: "Undirbúningur uppsetningar tengiliða | Microsoft Docs"
-description: "Lýsir hvernig á að undirbúa sig fyrir að setja upp tengiliði í fjármálum"
+title: "Setja upp upplýsingar fyrir tengiliði| Microsoft Docs"
+description: "Útskýrir hvernig skal tilgreina upplýsingar og kóða, t.d. um starfsgreinahópa og viðskiptasambönd, áður en þú setur upp tengiliði."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 399fc41da9ff8168eea8aabd593ffd6123d8d501
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="preparing-for-setting-up-contacts"></a>Undirbúningur fyrir uppsetningu tengiliða
+# <a name="preparing-to-set-up-contacts"></a>Undirbýr Setja upp Tengiliðir
 Þegar tengiliðir eru stofnaðir má færa inn nákvæmar upplýsingar, eins og þær starfsgreinar sem fyrirtækjatengiliðirnir tilheyra og viðskiptatengsl við tengiliðina.
 
 Áður en tengiliðir eru stofnaðir og upplýsingar skráðar um viðskiptatengsl þarf að setja upp kótana sem notaðir verða til að úthluta þessum upplýsingum til fyrirtækjatengiliða og einstaklinga. Hægt er að setja upp kóta fyrir pósthópa, starfsgreinahópa, viðskiptatengsl, veftengingar, stjórnunarstig og starfsábyrgð.
@@ -32,11 +32,11 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Til | Sjá |
 | --- | --- |
 | Setja upp þau viðskiptatengsl sem eiga við um tengiliðina, til dæmis væntanlegur viðskiptamaður, banki, ráðgjafi eða þjónustuveitandi. |[Uppsetning viðskiptatengsla á fyrirtækjum fyrirtækja](marketing-business-relations.md) |
-| Setja upp starfsgreinar sem tengiliðir tilheyra, til dæmis smásala eða bifreiðaiðnaður. |[Uppsetning starfsgreinahópa á fyrirtækjum tengiliðs](marketing-industry-groups.md) |
-| Setja upp pósthópana sem nota má til að auðkenna tengiliðahópa sem eiga að fá sömu upplýsingar. |[Setja upp pósthópa á fyrirtækjum tengiliðs](marketing-mailing-groups.md) |
+| Setja upp starfsgreinar sem tengiliðir tilheyra, til dæmis smásala eða bifreiðaiðnaður. |[Hvernig skal: Setja upp Starfsgreinahópar á fyrirtækjatengiliði](marketing-industry-groups.md) |
+| Setja upp pósthópana sem nota má til að auðkenna tengiliðahópa sem eiga að fá sömu upplýsingar. |[Hvernig skal: Setja upp pósthópa á fyrirtækjatengilið](marketing-mailing-groups.md) |
 | Setja upp starfsábyrgð tengiliða. |[Setja upp starfsábyrgðir á tengiliði](marketing-job-responsibilities.md) |
-| Setja upp stjórnunarstigið sem nota á um tengiliðina. |[Uppsetning stjórnunarstiga fyrir tengiliði](marketing-organizational-levels.md) |
-| Settu upp vefur heimildir (leitarvélar og vefsíður) sem þú getur notað þegar þú skoðar upplýsingar um tengiliði þína á Netinu. |[Setja upp veftengingar á tengiliði](marketing-web-sources.md) |
+| Setja upp stjórnunarstigið sem nota á um tengiliðina. |[Hvernig skal: setja upp stjórnunarstig á tengiliði](marketing-organizational-levels.md) |
+| Settu upp vefur heimildir (leitarvélar og vefsíður) sem þú getur notað þegar þú skoðar upplýsingar um tengiliði þína á Netinu. |[Hvernig skal: Setja upp veftengingar á tengilið](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  

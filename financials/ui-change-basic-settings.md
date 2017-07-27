@@ -1,6 +1,6 @@
 ---
-title: Breyting grunnstillinga | Microsoft Docs
-description: "Lærðu hvernig þú getur breytt sumum grunnstillingum í fjármálum."
+title: "Skoða og breyta grunnstillingum í Financials | Microsoft Docs"
+description: "Lærðu hvernig þú getur breytt sumum grunnstillingum í Financials, til dæmis Mitt hlutverk, fyrirtæki eða vinnudagsetning."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cf910084523c51cd2966335bf3a7c8f81d3d0670
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,14 +37,17 @@ Fyrirtæki virkar sem geymsluhólf fyrir gögn í [!INCLUDE[d365fin](includes/d3
 
 Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn.
 
-**Ábending**: Ef þú vilt birta annað nafn fyrirtækisins þíns í umsókninni (eins og á heimasíðu), veldu **Nafn** reitinn á síðunni **Upplýsingar um fyrirtæki** eða á skjánum **Nafn** á síðunni **Fyrirtæki**.  
+> [!TIP]  
+>   Ef þú vilt birta annað nafn fyrirtækisins þíns í umsókninni (eins og á heimasíðu), veldu **Nafn** reitinn á **Upplýsingar um fyrirtæki** síðunni eða reitinn **Birta nafn** á síðunni **Fyrirtæki**.  
 
 ## <a name="work-date"></a>Vinnudagsetning
 Sjálfgefin vinnudagsetning er yfirleitt dagurinn í dag. Þú gætir þúrft að breyta tímabundið vinnudagsetningu til að framkvæma verk, eins og að klára færslur fyrir dagsetningu sem er ekki núverandi dagsetning.
 
-**Ábending**: skrifaðu inn **w ** til að færa hratt inn vinnudagsetningi í dagsetningarreit. Til að færa hratt inn núverandi dagsetningu í dagsetningarreit, færðu inn **t**
+> [!TIP]  
+>   Skrifaðu **w** til að færa hratt inn vinnudagsetningu í dagsetningarreit. Til að færa hratt inn núverandi dagsetningu í dagsetningarreit, færðu inn **t**
 
-**Mikilvægt**: Vinnudagsetningunni er aðeins breytt þar til fyrirtækinu er lokað eða dagsetningin breytist. Ef annað fyrirtæki er opnað, eða þegar sama fyrirtækið er opnað aftur næsta dag og enn er þörf á að nota aðra dagsetningu en kerfisdagsetninguna þá verður að stilla vinnudagsetninguna aftur.
+> [!IMPORTANT]  
+>   Vinnudagsetningunni er aðeins breytt þar til fyrirtækinu er lokað eða dagsetningin breytist. Ef annað fyrirtæki er opnað, eða þegar sama fyrirtækið er opnað aftur næsta dag og enn er þörf á að nota aðra dagsetningu en kerfisdagsetninguna þá verður að stilla vinnudagsetninguna aftur.
 
 ## <a name="confirmation-dialogs"></a>Staðfestingargluggar
 Nota valkostina í þessum kafla eigi að tilgreina einhverjar aðrar athuganir fyrir bókun skjala. Þessir valkostir eru athugaðir að staðaldri, en þú getur hreinsað gátreitina, til að forðast að fá tilteknar viðvaranir eða skilaboð.
@@ -52,5 +55,5 @@ Nota valkostina í þessum kafla eigi að tilgreina einhverjar aðrar athuganir 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Hvernig á að: Breyta Hlutverkamiðstöð](change-role.md)  
-[Sérsníða [!INCLUDE[d365fin](includes/d365fin_md.md)] reynslu þína] (ui-experiences.md)  
+[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
 

@@ -1,6 +1,6 @@
 ---
-title: "Aðfangakeðja | Microsoft Docs"
-description: "Fræðast um helstu hugtök aðfangakeðju og vinnslur"
+title: "Eiginleikar aðfangakeðju studdir af Financials| Microsoft Docs"
+description: "Fáðu yfirsýn yfir vöruna og lærðu um helstu hugtök aðfangakeðju og ferli sem eru hluti af ERP lausninni."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ed8437f5d1b7628f256bb435de8ba13bd64a8f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3bae84075dc505aa9318590b1fac06e4844ffafe
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="supply-chain"></a>Aðfangakeðja
+# <a name="overview-of-supply-chain-functionality"></a>Yfirlit yfir virki aðfangakeðju
 [!INCLUDE[d365fin](includes/d365fin_md.md)] styður algeng ferli fyrir aðfangakeðju, það takmarkast þó við þarfir heildsala og dreifingarfyrirtækja sem eru ekki með stýrt vöruhúsaferli.
 
 Til viðbótar við sölureikninga er hægt að stýra uppfyllingu pöntunar með sölupöntunum sem gerir kleift að flytja t.d. hluta pöntunarmagns, ef allt magnið er ekki tiltækt strax. Hægt er að flytja vörur beint frá lánardrottni til viðskiptavinar með því að tengja sölupöntun við viðkomandi innkaupapöntun.

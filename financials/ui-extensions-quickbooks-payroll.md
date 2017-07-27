@@ -1,6 +1,6 @@
 ---
-title: "Quickbooks launagreiðslur | Microsoft Docs"
-description: "Veitir upplýsingar um viðbótina QuickBooks Payroll"
+title: "Notkun á QuickBooks innflutningsviðbót fyrir launaskrár | Microsoft Docs"
+description: "Lýsir því hvernig skal nota viðbótina til að flytja inn laun og launafærslur frá Quickbooks Payroll þjónustunni."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dd934265607e4073ab13b089c3dd98ceb4ead9c3
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b719a7d2b6b5590ae63920b63aaba8c2313a8661
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Fyrir þetta þarf fyrst að flytja inn skrá úr launaveitu yfir í gluggann **
 Með QuickBooks-viðbótinni fyrir innflutning á launaskrá er hægt að flytja inn launafærslu úr QuickBooks-launabókhaldinu.
 
 ## <a name="see-also"></a>Sjá einnig
-[Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md)    
-[Fjármál] (finance.md)    
+[Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum ](ui-extensions.md)    
+[Fjármál](finance.md)    
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

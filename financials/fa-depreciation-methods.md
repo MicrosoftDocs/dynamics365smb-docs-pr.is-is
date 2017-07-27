@@ -1,6 +1,6 @@
 ---
 title: "Afskriftaaðferðir | Microsoft Docs"
-description: "Lýsir sjö aðferðum sem hægt er að nota til að afskrifa eignir"
+description: "Kynntu þér mismunandi aðferðir til afskrifta og niðurfærslu eigna."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a5a43c6d53bdff7c30133d88c66e33996476f580
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,10 +31,12 @@ Tiltækar eru átta afskriftaaðferðir:
 * Notendaskilgreind  
 * Handvirkt  
 
-  **Athugasemd:** Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land. Færa þarf afskriftir eigna í eignafjárhagsfærslubók. Runuvinnslan **Reikna afskriftir** sleppir eignum sem þessi afskriftaaðferð er notuð á.  
+  > [!NOTE]  
+>   Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land. Færa þarf afskriftir eigna í eignafjárhagsfærslubók. Runuvinnslan **Reikna afskriftir** sleppir eignum sem þessi afskriftaaðferð er notuð á.  
 * Tvisvar ári  
 
-  **Athugasemd:**  Þegar þessi aðferð er notuð er eignin afskrifuð um sömu upphæð á hverju ári.  
+  > [!NOTE]  
+>    Þegar þessi aðferð er notuð er eignin afskrifuð um sömu upphæð á hverju ári.  
 
 ## <a name="straight-line-depreciation"></a>Beinlínuafskrift
 Þegar beinlínuaðferðin er notuð verður að tilgreina einn af eftirfarandi valkostum í eignaafskriftabókinni:  
@@ -51,7 +53,7 @@ Ef afskriftatímabilið (fjöldi afskriftaára, fjöldi afskriftamánaða eða l
 
 Afskriftadagar sem eftir eru reiknaðir sem fjöldi afskriftadaga mínus fjöldi daga milli upphafsdags afskrifta og dagsetningu síðustu eignafærslu.  
 
-Lækka má bókvirði með upphæðum í bókaðri uppfærslu, niðurfærslu, sérsniðin upphæð 1 eða 2, eftir því hvort reiturinn **Taka með í afskriftaútreikn.** er óvirkur og hvort reiturinn **Hluti bókfærðs virðis ** í glugganum: **uppsetning Eignabókunartegundar**. Þessi útreikningur tryggir að eignin sé að fullu afskrifuð á lokadegi afskrifta.  
+Lækka má bókvirði með upphæðum í bókaðri uppfærslu, niðurfærslu, sérsniðin upphæð 1 eða 2, eftir því hvort reiturinn **Taka með í afskriftaútreikn.** er óvirkur og hvort reiturinn **Hluti bókfærðs virðis** í glugganum: **uppsetning Eignabókunartegundar**. Þessi útreikningur tryggir að eignin sé að fullu afskrifuð á lokadegi afskrifta.  
 
 ### <a name="fixed-yearly-percentage"></a>Föst árleg prósenta
 Ef færð er föst árleg prósenta notar forritið eftirfarandi reiknireglu til að reikna upphæð afskrifta:  
@@ -203,7 +205,7 @@ Reikningsaðferð:
 
 *Hlutfallsleg upphæð: 25% af 100.000 =  25.000 = 12.500 + 12.500*  
 
-*Línuleg upphæð = 100,000 / 8 = 12.500 = 6.250 + 6.250*  
+*Línuleg upphæð = 100,000 / 8 = 12,500 = 6,250 + 6,250*  
 
 Hlutfallsleg upphæð er notuð vegna þess að hún er hærri.  
 
@@ -230,7 +232,7 @@ Notandaskilgreindu aðferðina má einnig nota til að afskrifa eftir fjölda ei
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Uppsetning afskriftaaðferða sem notandi skilgreinir
 Í glugganum **Afskriftatöfluspjald** er hægt að setja upp notendaskilgreinda afskriftaaðferðir. Til dæmis er hægt að setja upp afskriftir sem byggjast á fjölda eininga.  
 
-1. Í efra hægra horni skal velja reitinn **Leita að Síðu eða Skýrslu** táknið ![Leita að Síðu eða Skýrslu](media/ui-search/search_small.png "Leita að Síðu eða Skýrslu táknið"), færa **Afskriftatöflur**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afskriftatöflur** og velja svo viðeigandi tengil.  
 2. Í glugganum **listi yfir afskriftartöflur** skal velja aðgerðina **Nýtt**.  
 3. Í glugganum **kort afskriftartöflu** skal fylla inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -272,7 +274,7 @@ Ef notuð er notandaskilgreind aðferð er notuð þarf að fylla út reitina **
 * Upphafsdags. afskrifta  
 
 ## <a name="half-year-convention-depreciation"></a>Hálfsársafskrift
-Afskriftir tvisvar á ári eru aðeins notaðar ef sett var gátmerki í reitinn **Nota hálfsársaðferð ** í fasta glugganum **eignaafskriftabók**.  
+Afskriftir tvisvar á ári eru aðeins notaðar ef sett var gátmerki í reitinn **Nota hálfsársaðferð** í fasta glugganum **eignaafskriftabók**.  
 
 Þessa afskriftaaðferð má nota ásamt eftirfarandi afskriftaaðferðum í forritinu:  
 
@@ -282,7 +284,8 @@ Afskriftir tvisvar á ári eru aðeins notaðar ef sett var gátmerki í reitinn
 
 Þegar afskrifað er tvisvar á ári fær eign sex mánaða afskrift á fyrsta reikningsári án tillits til þess sem tilgreint er í reitnum **Upphafsdags. afskriftar**.  
 
-**Athugasemd:** Áætlaðar eftirstöðvar af líftíma eignar eftir fyrsta reikningsárið verður alltaf hálft ár ef hálfsársaðferðin er notuð. Ef hálfsársaðferðinni er rétt beitt verður því ávallt í reitnum **Lokadags. afskriftar** í **eignaafskriftabókinni** dagsetning sem er nákvæmlega sex mánuðum á undan lokadagsetningu reikningsársins þegar eignin er að fullu afskrifuð.  
+> [!NOTE]  
+>   Áætlaðar eftirstöðvar af líftíma eignar eftir fyrsta reikningsárið verður alltaf hálft ár ef hálfsársaðferðin er notuð. Ef hálfsársaðferðinni er rétt beitt verður því ávallt í reitnum **Lokadags. afskriftar** í **eignaafskriftabókinni** dagsetning sem er nákvæmlega sex mánuðum á undan lokadagsetningu reikningsársins þegar eignin er að fullu afskrifuð.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Dæmi - Hálfsársafskriftir
 Eign hefur stofnkostnaðinn SGM 100.000. **Upphafsdags. afskriftar** er 01/03/10. Áætlaður líftími er fimm ár, þannig að **Lokadags. afskriftar** verður að vera 30/06/15. Keyrslan **Reikna afskriftir** er keyrð einu sinni á ári. Í þessu dæmi miðast fjárhagsárið við almanaksárið.  
@@ -343,14 +346,16 @@ Ef um er að ræða þrjár afskriftabækur B1, B2 og B3 og afrita á færslur �
 
 Þegar fært er í B1 í eignafjárhagsbókinni og gátmerki sett í reitinn **Nota afritalista** afritar forritið færsluna í bókina B2 og B3 í eignabókina þegar færslan er bókuð.  
 
-**Athugasemd**: Ekki er hægt að afrita í sömu færslubók og færslubókarkeyrslu og verið er að afrita úr. Ef bókaðar eru færslur í fjárhagseignabók er hægt að afrita þær í eignabókina eða í fjárhagseignabókina með því að nota aðra keyrslu.  
+> [!NOTE]  
+>   Ekki er hægt að afrita í sömu færslubók og færslubókarkeyrslu og verið er að afrita úr. Ef bókaðar eru færslur í fjárhagseignabók er hægt að afrita þær í eignabókina eða í fjárhagseignabókina með því að nota aðra keyrslu.  
 
-**Athugasemd**: Ekki er hægt að nota sömu númeraröð í eignafjárhagsbók og í eignabók. Þegar færslur eru bókaðar í eignafjárhagsbók verður reiturinn **Númer fylgiskjals** að vera auður. Ef númer er fært í reitinn afritar kerfið númerið í eignabókina. Þú verður að breyta skjalnúmerinu handvirkt áður en þú getur sent inn dagbókina.  
+> [!NOTE]  
+>   Ekki er hægt að nota sömu númeraröð í eignafjárhagsbók og í eignabók. Þegar færslur eru bókaðar í eignafjárhagsbók verður reiturinn **Númer fylgiskjals** að vera auður. Ef númer er fært í reitinn afritar kerfið númerið í eignabókina. Þú verður að breyta skjalnúmerinu handvirkt áður en þú getur sent inn dagbókina.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Eignir](fa-manage.md)  
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
-[Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
+[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

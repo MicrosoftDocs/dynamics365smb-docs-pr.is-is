@@ -1,6 +1,6 @@
 ---
 title: "Uppsetning bókhaldslykla | Microsoft Docs"
-description: "Lýsir því hvernig hægt er að breyta bókhaldslyklinum."
+description: "Þú breytir sjálfgefnum lyklum og í bókhaldslyklum og hægt er að bæta við nýjum lyklum."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 48202a9e9a763dcb22bed9975aa9c4a39d2dc4ae
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ceb01999525139cabc7c31e2304f738dcc9267f8
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Hins vegar er hægt að breyta sjálfgefnum lyklum og hægt er að bæta við n�
 ## <a name="adding-or-changing-accounts"></a>Bæta við eða breyta lyklum
 Fyrir hvern bókhaldslykil er hægt að opna hvern einstakan fjárhagslykil og bæta við eða breyta stillingum.
 
-**Athugasemd**: Hægt er að eyða fjárhagsreikningi. Áðu en honum er eytt þarf hins vegar eftirfarandi að vera rétt:  
+> [!NOTE]  
+>   Hægt er að eyða fjárhagsreikningur. Áðu en honum er eytt þarf hins vegar eftirfarandi að vera rétt:  
 
 * Staða reikningsins verður að vera núll.  
 * Reiturinn **Leyfa eyðingu fjárhagsr.fyrir** verður að vera stilltur í glugganum **Uppsetning fjárhags** og ekki mega vera fjárhagsfærslur í lyklinum frá og með þeim degi.  
@@ -38,7 +39,7 @@ Fyrir hvern bókhaldslykil er hægt að opna hvern einstakan fjárhagslykil og b
 ## <a name="see-also"></a>Sjá einnig
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
 [Stjórna bankareikningum](bank-manage-bank-accounts.md)  
-[Víddir](finance-dimensions.md)  
+[Unnið með víddir](finance-dimensions.md)  
 [Flytja inn úr öðrum fjárhagskerfum](upload-data.md)  
 [Hvernig á að: Vinna með GIFI kóða í Kanada](ca-finance-work-gifi-codes.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

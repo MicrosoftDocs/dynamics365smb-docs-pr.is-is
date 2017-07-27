@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Tilgreina færslutímabil | Microsoft Docs"
-description: "Útskýrir hvernig á að stilla upphafs- og lokadagsetningar fyrir bókun."
+title: "Tilgreina bókunartímabil| Microsoft Docs"
+description: "Tilgreindar eru upphafs- og endadagsetningar bókunartímabils til að setja upp hvenær notendur geta bókað í fjárhag."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -12,13 +12,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1645f21504a84e589f9b8e8343e29930fce33e92
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6cabfc7f514f44b64331761e90d900deadc6116c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,10 +26,11 @@ ms.lasthandoff: 05/04/2017
 Notaðu staðartímabil til að tilgreina hvenær notendur geta sent í aðalbókina.  
 
 ## <a name="to-specify-posting-periods"></a>Bókunartímabil tilgreind
-1. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Uppsetning fjárhags**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning fjárhags** og velja svo viðeigandi tengil.  
 2. Í **Uppsetning fjárhags** glugganum er tilgreint tímabilið með því að slá inn dagsetningar í **Leyfa bókun frá** og **Leyfa bókun til**.  
 
-**Athugið**: Þessar færslutímabil eiga við um fyrirtækið og alla notendur. Til að leyfa undantekningum er hægt að skilgreina mismunandi pósttímabil fyrir tiltekna notendur í glugganum **Uppsetning notanda**. Þessar færslutímar eru umfram þau sem tilgreind eru í glugganum **Uppsetning aðalbókar**.  
+> [!NOTE]  
+>   Þessi bókunartímabil eiga við um fyrirtækið og alla notendur. Til að leyfa undantekningum er hægt að skilgreina mismunandi pósttímabil fyrir tiltekna notendur í glugganum **Uppsetning notanda**. Þessar færslutímar eru umfram þau sem tilgreind eru í glugganum **Uppsetning aðalbókar**. Nánari upplýsingar eru í „að setja upp tímatakmarkanir fyrir notendur“ hlutanum í [Hvernig á að: Vinna með notendur og heimildir](ui-how-users-permissions.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  

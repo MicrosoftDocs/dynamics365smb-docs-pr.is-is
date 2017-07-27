@@ -1,6 +1,6 @@
 ---
-title: "Uppsetning fjármála | Microsoft Docs"
-description: Uppsetning Financials
+title: Yfirlit yfir verkhluta uppsetningu Dynamics 365 for Financials| Microsoft Docs
+description: "Útskýrir hvernig skal setja upp, forsníða og frumstilla Dynamics 365 for Financials| eftir þínum þörfum."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5be24b9017b105adc6c857655c8de63d67b6aa29
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,12 +40,13 @@ Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilte
 | Stilla hvernig á að tryggja, viðhalda og afskrifa eignir og hvernig þú skráir kostnað eigna í bókum fyrirtækisins. |[Uppsetning eigna](fa-setup.md) |
 | Setjið upp einstaka kennitölu fyrir skrár, svo sem kort, skjöl og dagbókarlínur, til að fylgjast með þeim í kerfinu. |[Stofnun númeraraða](ui-create-number-series.md) |
 | Settu upp **Uppsetning SMTP-pósts** gluggann til að senda og taka á móti tölvupósti úr skjölum innan [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Hvernig á að: Setja upp tölvupóst](madeira-how-setup-email.md) |
+| Setjið upp einkvæman auðkenniskóða. |[Hvernig á að: Stofnun númeraraða](ui-create-number-series.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Velkomin á [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
+[Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

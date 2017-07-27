@@ -1,6 +1,6 @@
 ---
-title: Uppsetning innkaupa | Microsoft Docs
-description: Uppsetning innkaupa
+title: Yfirlit yfir verkhluta uppsetningu innkaupa | Microsoft Docs
+description: "Lýsir verkhlutanum sem felur í sér skilgreiningu á innkaupastefnu fyrirtækisins og uppsetningu innkaupaferla."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dbefd446d58395ce6aeb85bbb0e29be343acba0b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,6 @@ Farið er nánar yfir uppsetningu kaupa sem tengjast fjármunum, svo sem greiðs
 | --- | --- |
 | Stofna lánardrottnaspjald fyrir alla lánardrottna keypt er af. |[Hvernig á að Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md) |
 | Skráið inn mismunandi afslætti og sérverð sem lánardrottinn veitir, sem fer eftir vörum, magni og/eða dagsetningum. |[Hvernig á að: Skrá innkaupaverð, afslátt og greiðslusamkomulag](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-|Fræðast um hvernig  á að [!INCLUDE[d365fin](includes/d365fin_md.md)]hámarka framlegð sjálfkrafa á viðskiptum þegar verð/afsláttarsamningur er skráður.|[Ítarlegt: Útreikningur besta verðs](advanced-best-price-calculation.md) |
 | Lánardrottnum forgangsraðað. |[Hvernig á að: Forgangsraða lánardrottnum](purchasing-how-prioritize-vendors.md) |
 | Kaupendur settir upp. |[Hvernig á að: Setja upp innkaupaaðila](purchasing-how-setup-purchasers.md) |
 

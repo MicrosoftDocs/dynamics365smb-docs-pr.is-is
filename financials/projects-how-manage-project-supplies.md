@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Stjórna verkbirgðum | Microsoft Docs"
-description: "Lýsir hvernig á að úthluta efni og þjónustu við á verk."
+title: "Innkaup á vörum og þjónustu fyrir verk og stjórnun verkbirgða| Microsoft Docs"
+description: "Lýsir því hvernig á að hafa umsjón með verkbirgðum og innkaupum á efni og þjónustu í verkum."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f52fa9545b50038c1d28daa164add07915ef2656
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 46cae53022ba5d65a370694c9818f52a7bf45525
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,15 +28,15 @@ Ef innkaupavinnslan krefst þess ekki að efnislegu viðskiptin séu skráð sé
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Að kaupa vörur eða þjónustu fyrir verk
 Eftirfarandi ferli sýnir hvernig á að nota innkaupareikning til að kaupa vörur fyrir verk. Sömu skref eiga við þegar innkaupapöntun er notuð.  
 
-1. Efst í hægra horninu skal velja táknið fyrir **Leit að síðu eða skýrslu** táknið fyrir ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "táknið fyrir Leit að síðu eða skýrslu"), slá inn **Innkaupareikningar** og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.  
 2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur. Nánari upplýsingar eru í [Hvernig á að: Skrá innkaup](purchasing-how-record-purchases.md).
 3. Í reitina **Verknr.** og **Verkhlutanr.** skal velja þær upplýsingar um verkið sem kaupa skal vörur eða þjónustu vegna. Notaðu **Dálkaval** ef svæðið er ekki sýnilegt. Nánari upplýsingar er að finna í [Sérstillingar notanda](ui-user-personalization.md).
 
     Gildið sem valið er í reitnum **Verklínutegund** skilgreinir hvort búin sé til áætlunarlína þegar notkun vörunnar er bókuð. Ef reiturinn inniheldur **Reikningshæft** eru stofnaðar áætlunarlínur sem eru tilbúnar til að vera reikningsfærðar til viðskiptavinar. Nánari upplýsingar eru í [Hvernig á að: Reikningsfæra verk](projects-how-invoice-jobs.md).
-4. Valið er **bóka ** aðgerð.
+4. Valið er **bóka** aðgerð.
 
 ## <a name="to-view-the-value-of-purchases-for-a-job"></a>Til að skoða virði innkaupa fyrir verk
-1. Efst í hægra horni skal velja reitinn **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Verk**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.
 2. Opnið viðeigandi verkspjald.
 
     Á flýtiflipanum **Verkhlutar** sýnir reiturinn **Óafgreiddar pantanir** útistandandi upphæð í staðbundnum gjaldmiðli fyrir vörur í birgðaskrá og þjónustu á innkaupaskjöl fyrir verkhlutalínuna.  
@@ -47,7 +47,7 @@ Eftirfarandi ferli sýnir hvernig á að nota innkaupareikning til að kaupa vö
 ## <a name="to-post-a-job-related-expense"></a>Til að bóka verktengdan kostnað
 Ef um óeðlileg útgjöld eða einstök útgjöld er að ræða vegna verks er hægt að nota gluggann **Fjárhagsbók verks** til að bóka slíkt beint á reikning viðeigandi verks.
 
-1. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Fjárhagsbækur verks**, og velja síðan viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsbækur verks** og velja svo viðeigandi tengil.  
 2. Búa skal til nýja línu og slá inn upplýsingar um útgjöldin, þ.m.t. upplýsingar í reitina **Verknr.** og **Verkhlutanr.**  
 3. Þegar færslubókin er tilbúin skal velja aðgerðina **Bóka**.
 

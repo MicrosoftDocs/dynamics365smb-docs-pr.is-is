@@ -1,6 +1,6 @@
 ---
-title: "Umsjón hluta | Microsoft Docs"
-description: "Lýsir hlutum fyrir tengiliði í Financials"
+title: "Umsjón hluta og val á tilteknum tengiliðum| Microsoft Docs"
+description: "Útskýrir hvernig skal stofna hluta til að velja tiltekinn hóp tengiliða út frá sérstökum forsendum, t.d. tengiliðir sem tilheyra tilteknum iðnaði sem þú vilt ná sambandi við."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 430199404ebab6d72f2f7748bb90e5ed3cd223c4
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,7 +34,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | --- | --- |
 | Stofna hluta sem leyfa val á hópi tengiliða. Til dæmis póstsendingar. |[Hvernig á að stofna hluta](marketing-how-create-segment.md) |
 | Stjórna tengiliðunum sem er úthlutað á hlutana. |[Hvernig á að: bæta tengiliðum við hluta](marketing-add-contact-segment.md) |
-| Lærið að nota samskipti og hluta, þ.m.t. skráningu í annál. |[Samskipti og hlutar](marketing-interaction-segments.md) |
+| Lærið að nota samskipti og hluta, þ.m.t. skráningu í annál. |[umsjón samskipta og hluta](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  

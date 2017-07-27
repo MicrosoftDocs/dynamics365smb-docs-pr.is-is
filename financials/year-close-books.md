@@ -1,6 +1,6 @@
 ---
-title: "Bókum lokað | Microsoft Docs"
-description: "Útskýrir ferli sem tengjast því þegar bókum er lokað fyrir reikningsárið eða tímabilið."
+title: "Yfirlit yfir verkhluta lokun bóka | Microsoft Docs"
+description: "Kynntu þér ferlið þegar bókum er lokað fyrir fjárhagsárið eða tímabilið og hvað gerist eftir að þú lokar við enda árs."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,14 +13,14 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a8d379c971d9b21b0eac552f8c7f68926090f037
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="closing-books"></a>Bókum lokað
+# <a name="closing-the-books"></a>Bókum lokað
 Þegar búið er að ganga úr skugga um að allir reikningar séu uppfærðir og búið er að úthluta kostnaði og tekjum, má loka bókunum fyrir reikningsárið eða tímabilið.
 
 Það er ekki nauðsynlegt að loka ári en sé það gert verður auðveldara að nota þær hentugu afmarkanir sem eru í boði. Ekki þarf að óttast að missa færslugögn þegar lokað er því allar upplýsingar eru geymdar, einnig eftir að árinu hefur verið lokað.

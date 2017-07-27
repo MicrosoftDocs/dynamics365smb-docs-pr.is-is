@@ -1,8 +1,6 @@
 ---
-title: "Notkun Dynamics 365 for Financials sem gagnaveitu í Power BI | Microsoft Docs"
+title: "Búa til Power BI gagnaveitu með Financials | Microsoft Docs"
 description: "Notandi getur gert Financials-gögnin sín aðgengileg sem gagnaveitu í Power BI og byggt upp öflugar skýrslur um stöðu síns reksturs."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 12/02/2016
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5213b515dfdf1f0e538a6d003cf921781ca6b3ff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 53fb2ae7bbbaf3215ca2549e207512f7c06838b4
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-dynamics-365-for-financials-as-a-power-bi-data-source"></a>Notkun Dynamics 365 for Financials sem gagnaveitu í Power BI
+# <a name="using-included365finincludesd365finmdmd-as-a-power-bi-data-source"></a>Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu
 Notandi getur gert [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín aðgengileg sem gagnaveitu í Power BI og byggt upp öflugar skýrslur um stöðu síns reksturs.  
 
-**Athugið**: Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin](includes/d365fin_md.md)] og hjá Power BI. Einnig þarf að sækja [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
+> [!NOTE]  
+>   Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin](includes/d365fin_md.md)] og hjá Power BI. Einnig þarf að sækja [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-power-bi-desktop"></a>Til að bæta [!INCLUDE[d365fin](includes/d365fin_md.md)] við sem gagnaveitu í Power BI Desktop
 1. Í Power BI Desktop, á vinstra yfirlitssvæðinu, skal velja **Sækja gögn**.
@@ -36,7 +35,8 @@ Notandi getur gert [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín aðg
    Fyrir *Fyrirtækisheiti* skal nota heitið sem birtist í reitnum **Heiti** í glugganum **Stofngögn** í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] notanda inniheldur mörg fyrirtæki skal velja viðeigandi heiti fyrirtækis af listanum í glugganum **Fyrirtæki**. Í báðum tilvikum skal ganga úr skugga um að heiti sem tilgreind eru í leiðsagnarforriti fyrir Power BI samsvari nákvæmlega textanum í [!INCLUDE[d365fin](includes/d365fin_md.md)], svo sem `My Company`.
 3. Þegar búið er að færa inn upplýsingarnar er valinn hnappurinn Í lagi. Næsta skrefið í leiðsagnarforritinu verður að færa inn notandanafn og aðgangsorð.
 
-   **Athugið**: Ef aðrir sannvottunarkostir eru í boði á vinstra yfirlitssvæði skal velja *Grunnur*.
+   > [!NOTE]  
+>    Ef aðrir sannvottunarkostir eru í boði á vinstra yfirlitssvæði skal velja *Grunnur*.
 4. Slá inn notendanafn og aðgangsorð. Þessar upplýsingar má finna í glugganum **Notendur** í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Notið **Aðgangslykil fyrir vefþjónustu** sem aðgangsorðið þitt.
 
    Til dæmis, notandanafnið þitt er *ADMIN*, og aðgangslykill vefþjónustu sem virkar sem aðgangsorð er *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU=*.
@@ -46,13 +46,14 @@ Notandi getur gert [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín aðg
 6. Tilgreinið gögnin sem notandi vill bæta við gagnalíkanið þitt og veljið svo hnappinn **Hlaða**.
 7. Endurtaktu fyrri skref til að bæta fleiri [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnum við Power Bi-gagnalíkanið þitt.
 
-   **Athugið**:  Þegar notanda hefur tekist að tengjast [!INCLUDE[d365fin](includes/d365fin_md.md)] verður hann ekki beðinn aftur um OData-vefslóð, notandanafn eða aðgangsorð.
+   > [!NOTE]  
+>    Þegar notanda hefur tekist að tengjast [!INCLUDE[d365fin](includes/d365fin_md.md)] verður hann ekki beðinn aftur um OData-vefslóð, notandanafn eða aðgangsorð.
 
 Þegar gögnum hefur verið hlaðið birtast þau á hægra yfirlitssvæði síðunnar. Nú hefur notanda tekist að tengjast gögnum sínum í Dynamics 365 og getur byrjað að byggja upp Power BI-skýrsluna sína. Frekari upplýsingar eru í [Power BI skjöl](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
-[Yfirfæra viðskiptagögn úr öðrum fjárhagskerfum](upload-data.md)  
+[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](upload-data.md)  
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Fjármál](finance.md)  
 

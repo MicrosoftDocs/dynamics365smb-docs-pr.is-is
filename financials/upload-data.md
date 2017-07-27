@@ -1,6 +1,6 @@
 ---
 title: "Flytja eldri viðskiptagögn þín inn í Financials | Microsoft Docs"
-description: "Lýsir því hvernig flytja má eigin gögn yfir í Dynamics 365 for Financials"
+description: "Hægt er að flytja gögn fyrir viðskiptamenn, lánardrottna og birgðir, til dæmis frá Excel, QuickBooks, eða Dynamics GP inn í Financials."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migrate, initialize, implement
-ms.date: 04/27/2017
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 001dccf7935f38dd2f409e4fea31598a279472d4
+ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
+ms.openlocfilehash: dd6eb5a6b19bf4c8fd92674a48e8cd29ce912eee
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,16 +31,21 @@ Ef IFF-skráin inniheldur til dæmis viðskiptamenn og lánardrottna er hægt a�
 
 Uppsetning með hjálp hefur valkost um að breyta sjálfgefnum grunnstillingum yfirfærslunnar, en mælt með því að nota aðeins þessa ítaruppsetningu ef notandi er vanur að vinna með gagnagrunnstöflur. Í langflestum fyrirtækjum mun sjálfgefin vörpun frá QuickBook eða Dynamics GP í [!INCLUDE[d365fin](includes/d365fin_md.md)] flytja þær upplýsingar sem notandi þarf á að halda.  
 
+Nánari upplýsingar, sjá [QuickBooks gagnafærsla](ui-extensions-quickbooks-data-migration.md) eða [Dynamics GP gagnafærsla](ui-extensions-dynamicsgp-data-migration.md).
+
 ## <a name="importing-data-from-configuration-packages"></a>Innflutningur gagna úr grunnstillingarpakka
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur stillingarpakka sem þú getur flutt út í Excel og sett upp gögnin þín þar. Síðan er hægt að flytja aftur inn gögnin úr Excel. Pakkinn samanstendur af 27 töflum, þar með talið aðalgögnum, svo sem viðskiptavinum, söluaðilum, hlutum og reikningum, öðrum grunnuppsetningartöflum eins og sendingarkostnaði og viðskiptatöflum eins og söluhaus og línum.  
 
 > [!NOTE]  
->  Vinna með stillingarpakka er ítarleg virkni og við mælum með að þú hafir samband við kerfisstjórann þinn. Nánari upplýsingar eru í [Gögn flutt inn úr eldri bókhaldshugbúnaði með því að nota grunnstillingarpakka](across-import-data-configuration-packages.md).  
+>   Vinna með stillingarpakka er ítarleg virkni og við mælum með að þú hafir samband við kerfisstjórann þinn. Nánari upplýsingar eru í [Gögn flutt inn úr eldri bókhaldshugbúnaði með því að nota grunnstillingarpakka](across-import-data-configuration-packages.md).  
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  
 [Gögn flutt inn úr eldri bókhaldshugbúnaði með því að nota grunnstillingarpakka](across-import-data-configuration-packages.md)  
-[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] Notkun viðbóta] (ui-extensions.md)   
+[QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)  
+[Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md)  
+[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)   
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

@@ -1,6 +1,6 @@
 ---
-title: "Fræðist um hvernig hægt er að framlengja Dynamics 365 for Financials | Microsoft Docs"
-description: "Setjið saman, sýnið og kynnið ykkur ykkar viðbætur í Dynamics 365 for Financials"
+title: "Sérstilla Dynamics 365 fyrir Financials| Microsoft Docs"
+description: "Setjið saman, sýna og kynna forrit og viðbætur fyrir Dynamics 365 for Financials"
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 110216a4466733b5e5b9f31eb5b73e428c74da91
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="extend-included365finlongincludesd365finlongmdmd"></a>Lengja [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="extending-included365finlongincludesd365finlongmdmd"></a>Stækka [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Það eru fjölmargir kostir við að nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] sem vettvang fyrir forritasmiði:
 
 * Enrich [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], Microsoft lausn á netinu sem hefur sannað sig, með sérþekkingu notanda  
@@ -68,13 +68,13 @@ Ef notanda finnst að hann ætti að vera á listanum fyrir þjónustusamstarfsa
 
 ## <a name="further-resources"></a>Önnur tilföng
 Finnið frekari heimildir um þróun forrita á síðunni okkar fyrir [Síða fyrir DLP efnisatriði](https://mbspartner.microsoft.com/BFI/Topic/76) Síða fyrir DLP efnisatriði. Nokkur sérvalin efnisatriði eru aðgengileg hér á eftir:
--    [Skráning notandi og Innheimta í kjölfarið ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-   [Skráning notandi og Innheimta í kjölfarið ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
 
 
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
-[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] Notkun viðbóta] (ui-extensions.md)  
+[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

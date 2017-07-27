@@ -1,6 +1,6 @@
 ---
 title: "Nýjungar í Dynamics 365 fyrir Financials| Microsoft Docs"
-description: "Nýjungar í Dynamics 365 fyrir Financials"
+description: "Lýsir nýjustu uppfærslum og fréttum af Dynamics 365 for Financials"
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 26fe803ea4d4b503b8123f4a06e3017c1d5f077f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
+
 
 ---
-
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Nýjungar í Dynamics 365 fyrir Financials
 Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_md.md)]! Ef þú hefur ekki þegar gert það skaltu skrá þig í forskoðunina, leyfa okkur að fylgja þér í gegnum grunnatriði þess sem þú getur gert með [!INCLUDE[d365fin](includes/d365fin_md.md)], og eftir það prófarðu þig áfram á eigin spýtur. Þegar þér hentar getur þú opnað autt fyrirtæki og sett upp hluti eins og þú vilt hafa það.  
 
@@ -98,16 +98,16 @@ Hægt er að bæta eigindum við vörur í birgðaskrá sem gera þér virkilega
 
 ### <a name="new-extensions-made-available"></a>Nýjar viðbætur gerðar tiltækar
 Með þessari uppfærslu er hægt að velja milli jafnvel fleiri viðbætur í glugganum **Viðbótastjórnun**.
-Nánari upplýsingar, sjá [[!INCLUDE[d365fin](includes/d365fin_md.md)] Viðbætur frá öðrum veitum](ui-extensions-other.md).  
+Nánari upplýsingar, sjá [[!INCLUDE[d365fin](includes/d365fin_md.md)] viðbætur af hálfu annarra veita](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Stjórna tengsl við viðskiptamenn með því að nota Microsoft Dynamics CRM innan úr [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Við höfum bætt við nýrri uppsetningarleiðsögn með hjálp á heimasíðu Yfirmaður Fyrirtækis sem leiðir þig í gegnum uppsetningarferlið sem tengir þig við Dynamics CRM. Þegar það er komið, verður þú með hnökralausa tengingu Dynamics CRM skráa við [!INCLUDE[d365fin](includes/d365fin_md.md)] skrár. Nánari upplýsingar, sjá [Stjórna tengsl við viðskiptamenn með því að nota Microsoft Dynamics CRM innan úr [!INCLUDE[d365fin](includes/d365fin_md.md)] ] (marketing-integrate-dynamicscrm.md).
+Við höfum bætt við nýrri uppsetningarleiðsögn með hjálp á heimasíðu Yfirmaður Fyrirtækis sem leiðir þig í gegnum uppsetningarferlið sem tengir þig við Dynamics CRM. Þegar það er komið, verður þú með hnökralausa tengingu Dynamics CRM skráa við [!INCLUDE[d365fin](includes/d365fin_md.md)] skrár. Nánari upplýsingar, sjá [Stjórna tengsl við viðskiptamenn með því að nota Microsoft Dynamics CRM innan úr [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Maí 2016 uppfærsla
 Þessi uppfærsla af [!INCLUDE[d365fin](includes/d365fin_md.md)] bætti við nýrri færni eins og [tilkynnt var á blogginu](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
 
 ### <a name="new-extensions-made-available"></a>Nýjar viðbætur gerðar tiltækar
-Kanna **Viðbótastjórnun** gluggann: uppfærsla bætir við nýjum viðbætur, þar á meðal með Sana Commerce fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem veitir B2B Commerce færni, og ChargeLogic greiðslur sem býður upp á greiðslu og kreditreikningi vinnslufærni. Viðbæturnar eru ekki settar upp sjálfkrafa fyrir þig, en **Viðbótastjórnun** glugganum mun hjálpar þér að setja upp viðbæturnar sem á að nota. Nánari upplýsingar, sjá [[!INCLUDE[d365fin](includes/d365fin_md.md)] Viðbætur frá öðrum veitum](ui-extensions-other.md).  
+Kanna **Viðbótastjórnun** gluggann: uppfærsla bætir við nýjum viðbætur, þar á meðal með Sana Commerce fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem veitir B2B Commerce færni, og ChargeLogic greiðslur sem býður upp á greiðslu og kreditreikningi vinnslufærni. Viðbæturnar eru ekki settar upp sjálfkrafa fyrir þig, en **Viðbótastjórnun** glugganum mun hjálpar þér að setja upp viðbæturnar sem á að nota. Nánari upplýsingar, sjá [[!INCLUDE[d365fin](includes/d365fin_md.md)] viðbætur af hálfu annarra veita](ui-extensions-other.md).  
 
 ### <a name="filter-on-unprocessed-incoming-documents"></a>Afmörkun á óunnin skjöl á innleið.
 Einnig hefur verið breytt sumri grunnvirkni uppfærslu þennan mánuð: Listinn yfir innsendra skjala er nú afmarkað til að sýna aðeins færslur sem ekki hefur verið notað til að stofna bókuðu skjöl með. Nánari upplýsingar, sjá [Vinna með skjöl á innleið](across-income-documents.md).  
@@ -116,19 +116,19 @@ Einnig hefur verið breytt sumri grunnvirkni uppfærslu þennan mánuð: Listinn
 Efst í hægra horninu, næst valmyndinni Stillingar, má sjá bjöllu táknið sem líklega þú þekkir þegar vel úr aðrar vörur Office: það er Tilkynningar valmyndin. Hér færðu sendar tilkynningar eins og nýja póst og dagatal áminningar beint þegar unnið er í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="april-2016-preview"></a>Forskoðun apríl 2016
-Í apríl 2016 buðum við upp á forskoðun á [!INCLUDE[d365fin](includes/d365fin_md.md)]. Allt var nýtt og við hvöttum þig til að ræsa leiðarvísinn Hafist handa í sýnifyrirtækinu sem þú færð aðgang að þegar þú skráir þig fyrst. Leiðarvísirinn Hafist handa leiðir þig í gegnum helstu aðstæður. Nánari upplýsingar eru í [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).  
+Í apríl 2016 buðum við upp á forskoðun á [!INCLUDE[d365fin](includes/d365fin_md.md)]. Allt var nýtt og við hvöttum þig til að ræsa leiðarvísinn Hafist handa í sýnifyrirtækinu sem þú færð aðgang að þegar þú skráir þig fyrst. Leiðarvísirinn Hafist handa leiðir þig í gegnum helstu aðstæður. Nánari upplýsingar, sjá [Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).  
 
 Helstu aðstæður sem þú ættir að kynna þér upp á eigin spýtur:  
 
-- [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnhólf þitt í Outlook] (madeira-no-outlook.md)  
-- [Sækja [!INCLUDE[d365fin](includes/d365fin_md.md)] í fartækið þitt] (install-mobile-app.md)  
+- [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnhólf þitt í Outlook](madeira-no-outlook.md)  
+- [Fáðu [!INCLUDE[d365fin](includes/d365fin_md.md)] í farsímann þinn](install-mobile-app.md)  
 - [Gera viðskiptagögn þín virk fyrir BI](madeira-powerbi.md)  
 - [Breyta Mitt hlutverk](change-role.md)  
 
 
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
+[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Dynamics 365 Vegakort](https://roadmap.dynamics.com/)  
 

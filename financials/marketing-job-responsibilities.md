@@ -1,6 +1,6 @@
 ---
-title: "Setja upp starfssvið fyrir tengiliði | Microsoft Docs"
-description: "Lýsir starfsskyldur fyrir tengiliði í fjármálum"
+title: "Setja upp starfsábyrgð fyrir tengiliði| Microsoft Docs"
+description: "Hægt er að skilgreina starfsábyrgðarkóða og úthluta honum til tengiliðs til að gefa til kynna hvaða verkhluta tengiliður þinn ber ábyrgð á í sínu fyrirtæki, t.d. upplýsingatækni eða framleiðslu."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 610ae314502e60b959f0e2ff705a48b936d79d68
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-job-responsibilities-for-contact-persons"></a>Uppsetning starfsábyrgða fyrir tengiliði
+# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Hvernig skal: Setja upp starfsábyrgðir fyrir tengilið
 Þú getur bætt við upplýsingum um starfsábygð tengiliðar til að gefa til kynna hvað tengiliðurinn er ábyrgur fyrir innan síns fyrirtækistil dæmis upplýsingatækni, stjórnun eða framleiðsla. Þessar upplýsingar er hægt að nota þegar færðar eru inn upplýsingar um tengiliði.
 
 Notkun starfsábyrgðir á tengiliði er tveggja þrepa ferli. Fyrst skilgreinirðu starfsábyrgðarkóða. Aðeins þarf að framkvæma þetta skref í eitt skipti fyrir hver starfsábyrgð. Þegar kominn er starfsábyrgðarkóði er hægt að byrja að úthluta kóðanum til tengiliða.
 
-## <a name="tp-define-a-job-responsibility-code"></a>skilgreina starfsábyrgðarkóða.
+## <a name="to-define-a-job-responsibility-code"></a>Að skilgreina starfsábyrgðarkóða
 Starfsábyrgðarkóði skilgreinir tegund eða flokk verks, eins og markaðssetning eða innkaup. Hægt er að hafa nokkra starfsábyrgðarkóða. Til að skilgreina starfsábyrgð á að nota í **starfsábyrgð** gluggann.
 
-1. Efst í hægra horni skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Starfsábyrgð**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Starfsábyrgðir** og velja svo viðeigandi tengil.
 2. Valið er **Nýtt** aðgerð og fyllt er inn kóði og lýsing. Kóðinn má vera mest 11 stafir, og getur verið hvaða samasetning sem er af tölustafir og bókstafir.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>að úthluta starfsskyldu við tengiliðsaðila

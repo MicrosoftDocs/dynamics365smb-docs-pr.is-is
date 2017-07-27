@@ -1,6 +1,6 @@
 ---
-title: "Búa til og stjórna tengiliðum | Microsoft Docs"
-description: "Lýsir hvernig á að búa til og stjórna samskiptum í fjármálum"
+title: "Stofna og viðhalda tengiliðum fyrirtækis| Microsoft Docs"
+description: "Settir eru upp sem tengiliðir allir ytri aðilar sem fyrirtækið hefur viðskiptatengsl við (til dæmis viðföng, viðskiptamenn, lánadrottnar og ráðgjafar)."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4042cf76b6be433ad0a9934d0d1651d1df7ee433
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,9 +31,9 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 | Til | Sjá |
 | --- | --- |
-| Setja upp umsjón með tengiliðum áður en tengiliðum er bætt við. |[Undirbúa að Setja Upp Tengiliði](marketing-setup-contacts.md) |
-| Stofna tengiliðaspjald fyrir hvert nýtt fyrirtæki sem notandi á samskipti við, t.d. viðskiptamann eða lánadrottinn. |[Stofna fyrirtækjatengilið](marketing-create-contact-companies.md) |
-| Stofna tengiliðaspjald fyrir hvern tengilið sem vinnur hjá fyrirtækjum sem notandinn á í samskiptum við. |[Stofna einstaklingstengilið](marketing-create-contact-persons.md) |
+| Setja upp umsjón með tengiliðum áður en tengiliðum er bætt við. |[Undirbýr Setja upp Tengiliðir](marketing-setup-contacts.md) |
+| Stofna tengiliðaspjald fyrir hvert nýtt fyrirtæki sem notandi á samskipti við, t.d. viðskiptamann eða lánadrottinn. |[Fyrirtækjatengiliðir stofnaðir](marketing-create-contact-companies.md) |
+| Stofna tengiliðaspjald fyrir hvern tengilið sem vinnur hjá fyrirtækjum sem notandinn á í samskiptum við. |[Einstaklingstengiliðir stofnaðir](marketing-create-contact-persons.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  

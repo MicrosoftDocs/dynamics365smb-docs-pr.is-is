@@ -1,6 +1,6 @@
 ---
-title: Algengar spurningar | Microsoft Docs
-description: "Algengar spurningar um nýskráningu og notkun Dynamics 365 for Financials."
+title: Algengar spurningar um notkun Financials | Microsoft Docs
+description: "Svarar algengum spurningum um innskráningu í Financials og hvernig skal hefjast handa."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 58ba70311a035afd08bc5b4d0193fc34b132a39f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,10 +32,10 @@ Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gef
 Nei. Ef notandi vill upplifa [!INCLUDE[d365fin](includes/d365fin_md.md)] sem að fullu samþætt við Office 365 er hægt að skrá sig í 1 mánaðar ókeypis prufutímabil fyrir Office 365 [hér](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Hvað er Samþættingin við Office 365 um?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er fullsamþætt Office 365 svo notandi getur flett frjálslega á milli Office 365 og [!INCLUDE[d365fin](includes/d365fin_md.md)] með forritavalmynd. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að opna gögn í Excel, prenta skýrslur með Word, og notandi getur unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögn í Outlook, til dæmis. Frekari upplýsingar eru í [Að nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] sem fyrirtækispósthólf í Outlook](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er fullsamþætt Office 365 svo notandi getur flett frjálslega á milli Office 365 og [!INCLUDE[d365fin](includes/d365fin_md.md)] með forritavalmynd. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að opna gögn í Excel, prenta skýrslur með Word, og notandi getur unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögn í Outlook, til dæmis. Nánari upplýsingar, sjá [Nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] sem viðskiptainnboxið þitt í Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Get ég hætt við áskriftina?
-Já, en gögnum getur verið eytt eða þau varðveitt, allt eftir því hvernig notandi skráði sig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar eru í [Hætta við [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
+Já, en gögnum getur verið eytt eða þau varðveitt, allt eftir því hvernig notandi skráði sig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar, sjá [Hætta við [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Hvert leita ég ef ég er með spurningar?
 Ef spurningar vakna um [!INCLUDE[d365fin](includes/d365fin_md.md)] sem ekki er hægt að finna svar við í þessu skjali er hægt að spyrja Dynamics 365 fyrir Financials-samfélagið Nánari upplýsingar eru í [Samfélag fyrir Dynamics 365, Business edition](https://community.dynamics.com/business). Notendaþjónustan okkar birtir einnig hollráð og ábendingar. Nánari upplýsingar eru í [Stuðningsbloggi fyrir Dynamics 365 for Financials](https://blogs.msdn.microsoft.com/dyn365finsupport).  
@@ -47,9 +47,9 @@ Já. Ef notandi vill framlengja prufutímabilið skal hafa samband við Microsof
 Þetta er svolítið flókið, en svo virðist sem kerfisstjórinn þinn hafi ekki breytt Hlutverkamiðstöðinni þinni og úthlutað notendaflokkum sem passa við nýja leyfið. Í hnotskurn, aðgangur notanda að [!INCLUDE[d365fin](includes/d365fin_md.md)] ræðst af þeirri gerð áskriftar (leyfis) sem notandi er með - sú gerð ræður heimildum og sjálfgefinni upphafssíðu. Notandi getur breytt Hlutverkamiðstöðinni þinni handvirkt í Mínar stillingar en ef notandi er fluttur í aðra áskrift, til dæmis úr Fyrirtækjaáskrift í Áskrift fyrir hópmeðlimi, sér hann hugsanlega eldri upphafssíðu af því að heimildunum var ekki breytt.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
-[Notkun [!INCLUDE[d365fin](includes/d365fin_md.md)] sem fyrirtækispósthólf í Outlook](madeira-outlook.md)  
-[Notkun [!INCLUDE[d365fin](includes/d365fin_md.md)] án Outlook](madeira-no-outlook.md)  
+[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnhólf þitt í Outlook](madeira-outlook.md)  
+[Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] án Outlook](madeira-no-outlook.md)  
 [Hvernig á að: Breyta Hlutverkamiðstöð](change-role.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

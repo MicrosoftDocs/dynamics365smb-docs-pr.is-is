@@ -1,6 +1,6 @@
 ---
-title: "Undirbúningur forlokunaryfirlits | Microsoft Docs"
-description: "Veitir yfirlit yfir skúrslur sem geta komið að gagn þegar árinu er lokað."
+title: "Yfirlit yfir skýrslur fyrir lokun til að sannreyna nákvæmni reikninga | Microsoft Docs"
+description: "Veitir yfirsýn yfir skýrslurnar sem þú getur notað til að sannreyna nákvæmni reikninga áður en bókum er lokað við lok árs eða tímabils."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -9,18 +9,18 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3673b32320f2fc2b092afff7d0e8ba2c48edb0f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="preparing-pre-closing-reports"></a>Undirbúningur skýrslna fyrir lokun
-Margar staðlaðar skýrslur eru í boði til að sannreyna nákvæmni reikninganna áður en bókum er lokað í lok ársins eða í lok tímabils. Til dæmis má nota skýrsluna **Viðskiptamaður - Prófjöfnuður  ** til að votta að upphæð bókunarflokks viðskiptamanna sé jöfn upphæð á samsvarandi reikningi færslubókar á tilteknu tímabili.
+# <a name="using-pre-closing-reports"></a>Nota skýrslur fyrir lokun
+Margar staðlaðar skýrslur eru í boði til að sannreyna nákvæmni reikninganna áður en bókum er lokað í lok ársins eða í lok tímabils. Til dæmis má nota skýrsluna **Viðskiptamaður - Prófjöfnuður** til að votta að upphæð bókunarflokks viðskiptamanna sé jöfn upphæð á samsvarandi reikningi færslubókar á tilteknu tímabili.
 
 Eftirfarandi tafla lýsir fjölda skýrslna sem kunna að vera gagnlegar í þessu ferli.
 
@@ -36,7 +36,7 @@ Eftirfarandi tafla lýsir fjölda skýrslna sem kunna að vera gagnlegar í þes
 | Prenta prófjöfnunarskýrslu með stöðum og hreyfingum helstu fjárhagsreikninga. |Prófjöfnuður |
 | Prenta út prófjöfnunarskýrslu fyrir samsteypufyrirtæki. |Samstæða - Prófjöfnuður |
 
-Til að sjá skýrslu skal velja **Leit að síðu eða skýrslu** tákni ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu"), slá inn nafnið eins og það birtist í töflunni, og velja síðan viðeigandi tengil.
+Til að sjá skýrslu skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn nafnið eins og það birtist í töflunni, og velja síðan viðeigandi tengil.
 
 ## <a name="see-also"></a>Sjá einnig
 [Lokaár og Tímabil](year-close-years-periods.md)  

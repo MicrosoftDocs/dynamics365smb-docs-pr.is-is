@@ -1,6 +1,6 @@
 ---
-title: "Tengiliðir | Microsoft Docs"
-description: "Þú getur búið til tengiliði frá núverandi fyrirtækjum, eða þú getur búið til sjálfstæða tengiliði í fjármálum."
+title: "Stofna einstaklingstengiliði| Microsoft Docs"
+description: "Útskýrir hvað felst í verkhlutanum að setja upp tengiliðaspjald fyrir einstakling, til dæmis viðfang eða birgja, og hjálpar til við að skilgreina sambandið og móta samskiptin."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bfc992a09bfe3b93d682dd5c38cdab6c7dc1617b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="contact-persons"></a>Tengiliðir
+# <a name="creating-contact-persons"></a>Einstaklingstengiliðir stofnaðir
 Tengiliður er stofnaður með því að setja upp tengiliðaspjald fyrir einstaklinginn. Hægt er að stofna einstaklingstengiliði úr fyrirtækjatengiliðum sem þegar eru til, eða stofna sjálfstæða einstaklingstengiliði.
 
 Til dæmis hittir notandinn kaupandann eftir fund með væntanlegu viðskiptafyrirtæki. Þá er hægt að stofna tengliðaspjald fyrir kaupandann svo hægt sé að sérsníða samskiptin betur.
@@ -35,8 +35,8 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | --- | --- |
 | Veita upplýsingar um einstaklingstengilið. |[Hvernig á að stofna Einstaklingstengilið](marketing-how-create-contact-persons.md) |
 | Setja upp annað heimilisfang fyrir tengilið. |[Hvernig á að úthluta önnur aðsetur](marketing-how-assign-alternate-address.md) |
-| Lýsa viðskiptatengslum við fyrirtækjatengilið. |[Uppsetning starfsábyrgðiar á tengiliði](marketing-job-responsibilities.md) |
-| Lýsa stjórnunarstigi tengiliða. |[Uppsetning stjórnunarstiga fyrir tengiliði](marketing-organizational-levels.md) |
+| Lýsa viðskiptatengslum við fyrirtækjatengilið. |[Hvernig skal: Setja upp starfsábyrgðir á tengiliði](marketing-job-responsibilities.md) |
+| Lýsa stjórnunarstigi tengiliða. |[Hvernig skal: Setja upp stjórnunarstig fyrir einstaklingstengiliði](marketing-organizational-levels.md) |
 | Úthluta pósthópum á tengiliði. |[Pósthópum úthlutað á tengilið](marketing-mailing-groups.md) |
 
 ## <a name="see-also"></a>Sjá einnig

@@ -15,7 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: a4a110fec7f656fd2132daaf6ddda492e9a4ab67
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,6 +26,6 @@ Ef viðbótin er virkjuð, og sölureikningar eða sölupantanir eru sendar í t
 Það er ókeypis að virkja viðbætur greiðsluþjónustu í [!INCLUDE[d365fin](includes/d365fin_md.md)] en hafa þarf samband við greiðsluþjónustuna til að stofna reikning. Nánari upplýsingar eru í [Hvernig á að: Virkja greiðslur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Sjá einnig
-[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] Notkun viðbóta] (ui-extensions.md)  
-[Uppsetning sölu] (sales-setup-sales.md)  
+[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
+[Uppsetning sölu](sales-setup-sales.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

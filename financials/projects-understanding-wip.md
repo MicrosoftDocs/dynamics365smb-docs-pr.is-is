@@ -1,6 +1,6 @@
 ---
-title: "Skilningur á VÍG-aðferðm | Microsoft Docs"
-description: "Lýsir mismunandi WIP-aðferðum sem hægt er að nota til að birta og fylgjast með fjárhagsupplýsingum fyrir störf sem eru í vinnslu."
+title: "VÍV aðferðir til að reikna út og skrá framvindu verks| Microsoft Docs"
+description: "Lýsir mismunandi Verk í vinnslu (VÍV)-aðferðum sem hægt er að nota til að bóka, fylgjast með og reikna út fjárhagsupplýsingar fyrir verk sem eru í vinnslu."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d6f82b3eb086b53be8a091e7a805c745a74ac10f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 78758a6876595c7dea94d9e5c707dc5a717947a3
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

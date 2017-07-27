@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Skilgreina útlit tékka| Microsoft Docs"
-description: "Frekari upplýsingar um útlitið sem eru í boði í fjármálum."
+title: "Tiltaka útlit ávísunar| Microsoft Docs"
+description: "Þú getur hannað og prentað þínar ávísanir á mismunandi sniði til að vera í samræmi við staðla."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 03/24/2017
+ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6081b6d09fa75b868138817442d6df4d9a8d0d7f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,8 +26,8 @@ Hægt er að hanna tékka til þess að uppfylla staðla sem staðaryfirvöld se
 Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadískum tékkamyndsniðum annað á sniðinu tékki-svunta-tékki  eða á sniðinu svunta-svunta-tékki.
 
 ## <a name="to-define-check-layouts"></a>Skilgreina útlit ávísana
-1. Í hægra horni efst skal velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa **Skýrsluval - bankareikningur**, og velja síðan viðeigandi tengil.
-2. Í glugganum **Skýrsluval - Bankareikn.** í  **notkun ** reitnum, veljið **tékka**.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skýrsluval Bankareikningur** og velja svo viðeigandi tengil.
+2. Í glugganum **Skýrsluval - Bankareikn.** í  **notkun** reitnum, veljið **tékka**.
 3. Eitt af eftirfarandi skýrslukennum er valið:
 
 | Kenni skýrslu | Skýrsluheiti | Lýsing |
@@ -36,7 +36,7 @@ Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadísk
 | 10401 |Tékki (Svunta/Svunta/tékki) |þessari skýrslu er hannaðar til að prenta tékka á sniðinu svunta/svunta/tékki. |
 | 10411 |Tékki (Svunta/tékki/svunta) |Þessari skýrslu er hannaðar til að prenta tékka á sniðinu tékki/svunta/tékki. |
 
-Þegar settar hafa verið upp útlit tékka er hægt að prenta tékka úr glugganum **greiðslubók** . Nánari upplýsingar eru í [vinna með tékka](payables-how-work-checks.md).
+Þegar settar hafa verið upp útlit tékka er hægt að prenta tékka úr glugganum **greiðslubók** . Frekari upplýsingar, sjá [Hvernig á að: vinna með ávísanir](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórna skuldum](payables-manage-payables.md)  

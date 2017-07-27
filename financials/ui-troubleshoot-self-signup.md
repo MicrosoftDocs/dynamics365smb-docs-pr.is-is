@@ -1,6 +1,6 @@
 ---
-title: "Úrræðaleit innskráning í sjálfsafgreiðslu | Microsoft Docs"
-description: "Leita úrræða vegna Azure AD vandamála við innskráningu."
+title: "Finna úrræðaleiðir eða vinna í kringum vandamál með innskráningu í sjálfsafgreiðslu | Microsoft Docs"
+description: "Kynntu þér algengustu ástæðurnar fyrir því af hverju þú getur hugsanlega ekki klárað innskráningu í Dynamics 365 for Financials, og hvernig hægt er að vinna í kringum þær."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9bd980c6c6172d736915119806c0ba154b22bc8a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -39,7 +39,7 @@ Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gef
 | Tölvupóstfang er ekki Office 365 kenni. Þú færð skilaboð eins og þessi við innskráningu:<br /><br />**Við getum ekki fundið þig á contoso.com. Notarðu annað auðkenni í vinnunni eða skólanum? Prófaðu að skrá þig inn og ef það virkar ekki skaltu hafa samband við tæknideildina þína.** |Fyrirtæki þitt notar kenni til að skrá sig inn í Office 365 og aðrar Microsoft þjónustur, sem eru aðrar en tölvupóstfang þitt. Til dæmis gæti netfangið þitt verið Nancy.Smith@contoso.com en auðkenni þitt nancys@contoso.com. Til að ljúka við innskráningu, notaðu kenni sem fyrirtæki þitt hefur úthlutað til að skrá sig inn í Office 365 eða aðrar Microsoft þjónustur. Ef þú veist ekki hvað það er, hafðu samband við tæknistjórann þinn. Ef þú getur enn ekki skrá sig og getur lokið ítarlegra uppsetningarferli, getur þú skrá sig fyrir nýjum Office 365 prufuáskrift og nota það netfang til að skrá þig inn. |
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin á [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
+[Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Skoða prófunarskýrslur fyrir bókun | Microsoft Docs"
-description: "Lærið að fá prófunarskýrslu áður en eitthvað er bókað."
+title: "Endurskoða prófunarskýrslu áður sölu- eða innkaupaskjal er bókað | Microsoft Docs"
+description: "Áður en þú bókar skjal, til dæmis pöntun eða kreditreikning, geturðu prófað og endurskoðað það til að leita að villum sem gætu hindrað bókun."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,23 +9,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c54a790dd2abfda88471733e37d93dbfe9634342
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bf6d659eacf12903af128f77956de5c47ba038c2
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-view-test-reports-before-posting"></a>Hvernig á að: Skoða prófunarskýrslur fyrir bókun
 Þegar á að bóka skjal, t.d. pöntun, reikning eða kreditreikning, er hægt að prófa skjalið til að tryggja að engin vandamál sem geta stöðvað bókunina séu til staðar.
 
-**Athugasemd**: Eftirfarandi ferli byggir á prófun fyrir bókun innkaupaskjals. Þetta virkar á sama hátt fyrir söluskjöl.
+> [!NOTE]  
+>   Eftirfarandi ferli byggir á prófun fyrir bókun innkaupaskjals. Þetta virkar á sama hátt fyrir söluskjöl.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Prófunarskýrslur prentaðar áður en innkaupareikningar eru bókaðir
-1. Í efra hægra horni skal velja reitinn **Leita að Síðu eða Skýrslu** táknið ![Leita að Síðu eða Skýrslu](media/ui-search/search_small.png "Leita að Síðu eða Skýrslu táknið"), færa **Innkaupareikningar**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.
 2. Opna skal innkaupareikninginn sem á að prófa.
 3. Veljið aðgerðina **Prófunarskýrsla**.  
 

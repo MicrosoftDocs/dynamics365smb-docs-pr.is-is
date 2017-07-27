@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Stjórna notendur og heimildir | Microsoft Docs"
-description: "Stjórna heimildir söfn fyrir notendum þegar notendur hafa verið stofnaðir í 365."
+title: "Úthluta notandaheimild og stofna eða breyta heimildarsamstæðum | Microsoft Docs"
+description: "Lýsir því hvernig skal bæta Office 365 notendum við Financials, og svo úthluta heimildum, aðgangsréttindum og öryggisstillingum."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/29/2017
+ms.date: 06/27/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d1a973b864a654e2047c5a89271519da04f55c08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,16 +27,17 @@ Til að bæta notendum í [!INCLUDE[d365fin](includes/d365fin_md.md)], verður k
 
 Má því næst úthluta notendum heimildarsöfnum til að skilgreina hvaða hluti úr gagnagrunni, og þar með hvaða einingar Viðmótsins, þeir hafa aðgang að og í hvaða fyrirtækjum.
 
-**Mikilvægur**: Ef gagnagrunninum hefur mörg fyrirtæki þá a.m.k. einn notandi verður að vera hluti hópsins yfirnotandi í öllum fyrirtækjum.
-
 Heimildasafn er safn heimildir fyrir tiltekna hluti í gagnagrunninum. Öllum notendum verða að hafa verið úthlutað eitt eða fleiri heimildasöfn áður en þeir geta opnað [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nokkur fyrirfram skilgreind heimildasöfn eru veitt sjálfvirkt. Hægt er að nota þessi heimildasöfn eins og þau eru nú þegar, breyta sjálfgefnum heimildasöfnum eða búa til önnur söfn.
 
 Þú getur bætt notendum við notendahópa. Þannig er auðveldara að úthluta sama heimildarsöfn á mörgum notendum.
 
-**Athugið**: Þessi aðgerðareiginleiki krefst þess að upplifun þín er stilltur á Pakki. Nánari upplýsingar, sjá [Sérstilli þína [!INCLUDE[d365fin](includes/d365fin_md.md)]upplifun](ui-experiences.md).
+Stjórnendur geta notað **Notandauppsetningu** gluggann til að skilgreina tímabil þegar tilgreindir notendur geta bókað, og geta einnig tilgreint hvort kerfið skrái tímann sem notandinn er skráður inn.
+
+> [!NOTE]  
+>   Þessi virkni krefst þess að upplifun þín sé stillt á Pakki. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Að úthluta notanda heimild
-1. Efst í hægri horni skal velja táknið Leita að síðu eða skýrslu, færa **Notendur**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Notendur** og velja svo viðeigandi tengil.
 2. Veldu notandann sem á að úthluta á þessum viðskiptamanni til.
 Öll heimildasöfn sem er nú þegar úthlutuð til notandans eru birtar í upplýsingakassanum **Heimildasöfn**.
 3. Veldu **breyta** aðgerðina til að opna gluggann **Notandapjald** .
@@ -45,7 +46,7 @@ Heimildasafn er safn heimildir fyrir tiltekna hluti í gagnagrunninum. Öllum no
 ## <a name="to-group-users-in-user-groups"></a>Til hópnotenda í notandaflokkum
 Þú getur sett upp notendahópa til að hjálpa þér að stjórna heimildasamstæðum fyrir hópa notenda í fyrirtæki þínu. Hægt er að nota aðgerð til að afrita öll heimildasöfn úr núverandi notandaflokki yfir í nýja notandaflokkinn þinn. Meðlimir úr notandaflokki eru ekki afritaðar.
 
-1. Efst í hægri horni skal velja táknið Leita að síðu eða skýrslu, færa **Notandaflokkar**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Notandaflokkar** og velja svo viðeigandi tengil.
 2. Einnig, í glugganum **Notendur**, veldu aðgerðina **Notandaflokkar**.
 3. Í glugganum **Notandahópar** er valinn er fyrirliggjandi notandahópurinn sem á að afrita og veljið svo **Afrita notandahóp** aðgerðina.
 4. Í reitnum **Kóðar fyrir nýja notandahópa** er tilgreint nafn þess notanda hópinn og síðan valið **Í lagi** hnappinn.
@@ -60,7 +61,7 @@ Heimildasafn er safn heimildir fyrir tiltekna hluti í gagnagrunninum. Öllum no
 Ef sjálfgefin heimildasöfn sem fylgja með [!INCLUDE[d365fin](includes/d365fin_md.md)] eru ekki fullnægjandi eða henta ekki fyrirtækinu er hægt að búa til ný heimildarsöfn. Og ef hinar einstöku heimildir fyrir hluti sem skilgreina heimildasafn nægja ekki er hægt að breyta heimildasafninu. Hægt er að búa til heimildasöfn handvirkt, eða hægt er að nota aðgerðina skráningu sem skráir aðgerðir þínar um leið og þú ferðast í gegnum sviðsmynd og býr til nauðsynlegar heimildasöfn.
 
 ### <a name="to-create-or-modify-permission-sets-manually"></a>Til að stofna eða breyta heimildarsöfnum handvirkt
-1. Efst í hægri horni skal velja táknið Leita að síðu eða skýrslu, færa **Notendur**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Notendur** og velja svo viðeigandi tengil.
 2. Einnig, í glugganum **Notendur**, veldu aðgerðina **Heimildarsöfn**.
 3. Í glugganum **Heimildarsöfn**, veldu aðgerðina **Nýtt**.
 4. Fyllið í reitina eftir þörfum í nýrri línu.
@@ -82,7 +83,7 @@ Ef sjálfgefin heimildasöfn sem fylgja með [!INCLUDE[d365fin](includes/d365fin
 9. Endurtaka skal þrep 7 og 8 til að bæta heimildum fyrir öðrum hluti í heimildir safn.
 
 ### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Að stofna eða breyta heimildasöfn með skráning við aðgerðir þínar
-1. Efst í hægri horni skal velja táknið Leita að síðu eða skýrslu, færa **Notendur**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Notendur** og velja svo viðeigandi tengil.
 2. Einnig, í glugganum **Notendur**, veldu aðgerðina **Heimildarsöfn**.
 3. Í glugganum **Heimildarsöfn**, veldu aðgerðina **Nýtt**.
 4. Fyllið í reitina eftir þörfum í nýrri línu.
@@ -101,8 +102,16 @@ Til dæmis getur notandi haft heimild til að keyra kóðaeiningu 80, **Sölur-b
 
 Hins vegar þarf notandi ekki að hafa ótakmarkaðan aðgang að töflunni **Sölulína** til að keyra kótaeininguna. Ef notandinn hefur óbeina heimild fyrir töfluna **Sölulína** þá keyrir kóðaeiningin **Sölubókun** rétt. Þegar notandi hefur óbeina heimild, getur sá notandi aðeins breytt töflunni **Sölulína** með því að keyra **Sölubókun** kóðaeiningunni eða annan hlut sem hefur heimild til að breyta töflunni **Sölulína**. Notandinn getur aðeins breytt töflunni **Sölulína** frá studdum forritssvæðum. Notandinn getur ekki keyrt eiginleikann óvart eða í sviksamlegum tilgangi á annan hátt.
 
+## <a name="to-set-up-user-time-constraints"></a>Til að setja upp tímaskorður notanda
+Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað, og geta einnig tilgreint hvort kerfið skrái tímann sem notandinn er skráður inn. Stjórnendur geta einnig úthlutað ábyrgðarstöðvum á notendur.
+
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Notandauppsetning** og velja svo viðeigandi tengil.
+2. Í glugganum **Notandauppsetning** opnast, skal velja **Nýtt** aðgerð.
+3. Í reitnum **Kenni notanda**, skal færa inn kenni notanda, eða velja reitinn til að sjá alla núverandi Windows notendur innan kerfisins.
+4. Fyllið inn í reitina eftir þörfum.
+
 ## <a name="see-also"></a>Sjá einnig
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Velkomin í [!INCLUDE[d365fin](includes/d365fin_md.md)]] (index.md)  
+[Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

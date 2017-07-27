@@ -1,6 +1,6 @@
 ---
-title: "Röðun | Microsoft Docs"
-description: "Læra hvernig röðun virkar."
+title: "Skipuleggja gögn með því að nota aðgerðina Röðun | Microsoft Docs"
+description: "Hægt er að nota aðgerðina Röðun til þess að fá yfirlit yfir gögnin þín. Þú getur t.d. raðað viðskiptamönnum eftir gjaldmiðilskóða til að fá sérvalið úrtak af viðskiptamönnum."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 02/07/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 284d03333af17e8c9bcf94cc20e40f87ee063e24
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 4f63d34f4dffc0a6e8c6aa7f8e3fe72710d9bce5
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,8 @@ Með aðgerðinni Röðun er auðvelt og fljótlegt að fá yfirsýn yfir gögni
 
 Velja skal dálkahaus og litlu örina til að raða hækkandi eða lækkandi.  
 
-**Athugasemd**: röðun er ekki studd myndir , BLOB-reitir, FlowFilters og reitir sem tilheyra ekki töflu.
+> [!NOTE]  
+>   Röðun er ekki studd myndir, BLOB-reitir, FlowFilters og reitir sem tilheyra ekki töflu.
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -1,6 +1,6 @@
 ---
-title: Birting mismunandi yfirlits yfir lista| Microsoft Docs
-description: Birting mismunandi yfirlits yfir lista
+title: "Stilltu fjölda smáatriða sem birtast á listum | Microsoft Docs"
+description: "Hægt er að birta listana sundurliðaða og fá þannig fram frekari upplýsingar, eða sem reiti sem auðvelt er að skanna sjónrænt."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 09/08/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0b5ce8ff631061dd2fafb685efb638947f8b6752
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a93843c39c38692fb6a7703b5befedfbc78007a7
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="displaying-lists-in-different-views"></a>Birting mismunandi yfirlits yfir lista
+# <a name="displaying-lists-in-different-ways"></a>Birting lista á mismunandi hátt
 Í efra hægra horni hvaða lista sem er í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tákn sem breyta því hvernig listinn er sýndur. Hægt er að skoða lista sem sundurliðaðan lista sem er stöðluð sýn. Einnig er hægt að skipta yfir í reitasýn, þar sem færri smáatriði eru birt fyrir viðkomandi skrá og færslum er raðað eins og reitum. Þessi sýn er mjög gagnleg til að fá yfirlit yfir margar færslur og er sérlega gagnleg í smærri tækjum þar sem auðvelt er að pikka á hverja færslu.
 
 ## <a name="items-list"></a>Vörulisti

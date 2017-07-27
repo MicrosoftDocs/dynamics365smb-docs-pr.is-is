@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Stofna færslur skjala á innleið| Microsoft Docs"
-description: "Hvernig á að stofna skjöl á innleið"
+title: "Stofna færslu yfir Skjöl á innleið| Microsoft Docs"
+description: "Hægt er að stofna færslur yfir skjöl á innleið, eins og t.d. rafræna reikninga, og stjórna OCR-verkum, netviðskiptum og skjalaskiptum."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 38ea48e8a948df0fc3894e91d8393d2d14b2fd5a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,13 +30,14 @@ Til að skrá ytra skjal í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður 
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Til að samþykkja eða hafna fylgiskjali á innleið
 Ef notendur eiga að geta stofnað reikninga eða færslubókarlínur úr færslum skjala á innleið nema skjöl séu fyrst samþykkt er hægt að setja upp samþykkjendur sem verða að samþykkja færslur áður en þær má vinna.
 
-1. Efst í hægra horni skal velja táknið fyrir **Leit að síðu eða skýrslu** táknið fyrir ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "táknið fyrir Leit að síðu eða skýrslu táknið"), slá inn **Skjöl á innleið**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **skjöl á innleið** og velja svo viðeigandi tengil.
 2. Valin er línan með skjalinu sem á að samþykkja eða hafna og síðan valið á **Samþykkja** eða **Hafna** aðgerðir.
 
 Ef færsla skjals á innleið er samþykkt er gátreiturinn **Losað** á línu skjal á innleið valinn. Notandi sem stjórnar t.d. stofnun innkaupareikninga getur haldið áfram að vinna úr færslunni.
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Til að stofna færslur skjala á innleið með því að taka mynd
-**Athugið**: Eftirfarandi ferli á aðeins við um biðlara fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] á spjaldtölvum og símum.
+> [!NOTE]  
+>   Eftirfarandi ferli á aðeins við um [!INCLUDE[d365fin](includes/d365fin_md.md)] biðlara spjaldtölva og síma.
 
 1. Á forritastikunni skal velja **Stofna skjal á innleið úr myndavél** reitinn og fara svo í skref 4..
 2. Að öðrum kosti skal á forritastikunni velja valkostahnappinn, velja **Skjöl á innleið** og velja svo **Öll**.
@@ -46,7 +47,8 @@ Ef færsla skjals á innleið er samþykkt er gátreiturinn **Losað** á línu 
 Ný færsla skjals á innleið er stofnað með mynd í viðhengi.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Til að hengja mynd við skjal á innleið færsla með því að taka mynd
-**Athugið**: Eftirfarandi ferli á aðeins við um biðlara fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] á spjaldtölvum og símum.
+> [!NOTE]  
+>   Eftirfarandi ferli á aðeins við um [!INCLUDE[d365fin](includes/d365fin_md.md)] biðlara spjaldtölva og síma.
 
 1. Á forritastikunni velja valkostahnappinn, velja **Skjöl á innleið** og velja svo **Öll**.
 2. Opnið kort fyrir fyrirliggjandi færsla skjal á innleið.
@@ -56,7 +58,7 @@ Ný færsla skjals á innleið er stofnað með mynd í viðhengi.
 Myndin er hengja við færsla skjal á innleið.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Tila ð búa til færslu skjals á innleið handvirkt
-1. Efst í hægra horni skal velja táknið fyrir **Leit að síðu eða skýrslu** táknið fyrir ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "táknið fyrir Leit að síðu eða skýrslu táknið"), slá inn **Skjöl á innleið**, og velja síðan viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **skjöl á innleið** og velja svo viðeigandi tengil.
 2. Aðgerðin **Stofna úr Skrá** er valin.  
 3. Í glugganum **Setja inn skrá** skal velja skrána sem táknar skjalið á innleið og svo hnappinn **Opna**.
 
