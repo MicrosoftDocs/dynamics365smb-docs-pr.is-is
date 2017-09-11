@@ -15,63 +15,63 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
 ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Aðlaga Dynamics 365 for Financials með því að nota eftirnafn
-Þú getur breytt [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að setja viðbætur sem bæta við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis.
-Þegar þú fyrst ræsir [!INCLUDE[d365fin](includes/d365fin_md.md)], eru nokkrar viðbætur þegar settar upp fyrir þig. Með tímanum verða fleiri viðbætur tiltækar fyrir þig, og þú getur síðan valið hvort þú viljir nota viðbótina eða ekki.
+# <a name="customizing-dynamics-365-for-financials-using-extensions"></a><span data-ttu-id="59304-103">Aðlaga Dynamics 365 for Financials með því að nota eftirnafn</span><span class="sxs-lookup"><span data-stu-id="59304-103">Customizing Dynamics 365 for Financials Using Extensions</span></span>
+<span data-ttu-id="59304-104">Þú getur breytt [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að setja viðbætur sem bæta við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis.</span><span class="sxs-lookup"><span data-stu-id="59304-104">You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.</span></span>
+<span data-ttu-id="59304-105">Þegar þú fyrst ræsir [!INCLUDE[d365fin](includes/d365fin_md.md)], eru nokkrar viðbætur þegar settar upp fyrir þig.</span><span class="sxs-lookup"><span data-stu-id="59304-105">When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensions are already installed for you.</span></span> <span data-ttu-id="59304-106">Með tímanum verða fleiri viðbætur tiltækar fyrir þig, og þú getur síðan valið hvort þú viljir nota viðbótina eða ekki.</span><span class="sxs-lookup"><span data-stu-id="59304-106">Over time, more extensions will be made available to you, and you can then choose if you want to use the extension or not.</span></span>
 
-Til dæmis veitir Microsoft viðbót sem veitir samþættingu við PayPal Payments Standard. Þessi viðbót er uppsett sjálfgefið
-En ef önnur viðbót er gerð sem veitir samþættingu við aðra greiðsluþjónusta, geturðu sett inn nýja viðbót og síðan valið hvaða af þessum tveimur þjónustum þú notar.  
+<span data-ttu-id="59304-107">Til dæmis veitir Microsoft viðbót sem veitir samþættingu við PayPal Payments Standard.</span><span class="sxs-lookup"><span data-stu-id="59304-107">For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.</span></span> <span data-ttu-id="59304-108">Þessi viðbót er uppsett sjálfgefið</span><span class="sxs-lookup"><span data-stu-id="59304-108">This extension is installed by default.</span></span>
+<span data-ttu-id="59304-109">En ef önnur viðbót er gerð sem veitir samþættingu við aðra greiðsluþjónusta, geturðu sett inn nýja viðbót og síðan valið hvaða af þessum tveimur þjónustum þú notar.</span><span class="sxs-lookup"><span data-stu-id="59304-109">But if another extension is made available that offers integration with another payment service, you can install the new extension and then choose which of the two services to use.</span></span>  
 
-Þú stjórnar viðbótum í **viðbótastjórnun** glugganum. Hægt er að opna þennan glugga úr heimasvæðinu. Einnig er hægt að velja **Leit að síðu eða skýrslu** táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu") efst í hægra horninu, slá inn **Viðbót** og velja svo tengdan tengil.  
-
-> [!NOTE]  
->   Ef þú telur að þú ættir að hafa aðgang að viðbót en finnur ekki virknina sem í henni felst, skaltu athuga gluggann **Viðbótarstjórnun** - ef viðbótin er ekki skráð þar getur þú sett hana upp eins og lýst er í eftirfarandi kafla.  
-
-## <a name="installing-an-extension"></a>Uppsetning viðbótar
-Hægt er að fá nýja viðbætur úr markaðstorginu á [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Hér getur þú séð allar tiltækar viðbætur fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)], og þú getur fengið forrit, viðbætur og innihaldsefni fyrir aðrar Microsoft vörur. Stilltu viðeigandi síur, skoðaðu upplýsingar um hverja viðbót og fáðu viðbót fyrir þinn [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-> [!NOTE]  
->   Skráðu þig inn á [AppSource.microsoft.com](https://appsource.microsoft.com/) með því að nota netfangið sem þú notar fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nota sama tölvupóstreikning fyrir aðra þjónustu og vörur fyrir er hnökralausa upplifun.  
-
-Einnig er hægt að fá að markaðstorgið úr [!INCLUDE[d365fin](includes/d365fin_md.md)]. Í **framlengingarstjórnun** geturðu séð eftirnafnin sem eru í uppsettri röð og þú getur opnað **Framlengingarmarkað** síðu sem sýnir [!INCLUDE[d365fin](includes/d365fin_md.md)] viðbætur sem eru í boði í AppSource. Ef valið er *Fleiri öpp* tengilinn, er farið með þig á [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
-
-Ef þú velur viðbót geturðu lesið um hvað viðbótin gerir, og þú getur fengið aðgang að hjálp fyrir viðbótinni til að læra meira. Þegar valið er að fá viðbót, verðurðu að samþykkja skilmála um notkun. Ef þú færð framlengingu frá AppSource vefsíðu verður þú skráð (ur) inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] til að ljúka uppsetningunni.  
-
-Þegar þú setur upp viðbót gætirðu þurft að setja það upp, svo sem að tilgreina reikning til notkunar með **PayPal-greiðslustaðall fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]** framlengingu.
-Aðrar viðbætur bæta einfaldlega reitum við fyrirliggjandi síðu, eða þeir bæta við nýjum síðum, til dæmis.   
-
-Ef þú fjarlægir viðbót og skiptir um skoðun geturðu sett hana inn aftur. Þegar þú fjarlægir viðbót sem þú hefur verið að nota, eru gögnin geymd svo að ef þú setur þau upp aftur, eru gögnin þínn enn tiltæk.  
-
-Sumar viðbætur eru veittar af Microsoft, og aðrar viðbætur eru veittar af [öðrum fyrirtækjum.](ui-extensions-other.md) Allar viðbætur eru prófaðar áður en þær eru gerðar tiltækar til þin, en við mælum með að þú farir í gegnum tenglana sem eru veittir með hverri viðbót til að læra meira um viðbótina áður en þú setur hana upp.  
-
-Microsoft veitir eftirfarandi viðbætur:  
-
-* [Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee bankastreymi](ui-extensions-yodlee-bank-feeds.md)  
-* [PayPal-greiðslustaðall](ui-extensions-paypal-payments-standard.md)  
-* [QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)  
-* [Spá um sölu og birgðir](ui-extensions-sales-forecast.md)  
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
-* [Quickbooks-viðbótin fyrir innflutning á launaskrá](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay-greiðslustaðall](ui-extensions-worldpay-payments-standard.md)
-* [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
-* [QuickBooks gagnaflutningur á netinu](ui-extensions-quickbooks-online-data-migration.md)
-* [Endurskoðandagátt](ui-extensions-accountant-portal.md)  
-* [Myndgreinandi](ui-extensions-image-analyzer.md)
+<span data-ttu-id="59304-110">Þú stjórnar viðbótum í **viðbótastjórnun** glugganum.</span><span class="sxs-lookup"><span data-stu-id="59304-110">You manage the extensions in the **Extension Management** window.</span></span> <span data-ttu-id="59304-111">Hægt er að opna þennan glugga úr heimasvæðinu.</span><span class="sxs-lookup"><span data-stu-id="59304-111">You can access this window from Home.</span></span> <span data-ttu-id="59304-112">Einnig er hægt að velja **Leit að síðu eða skýrslu** táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu") efst í hægra horninu, slá inn **Viðbót** og velja svo tengdan tengil.</span><span class="sxs-lookup"><span data-stu-id="59304-112">Alternatively, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") in the top right corner, enter **Extension**, and then choose the related link.</span></span>  
 
 > [!NOTE]  
->  Nýjar viðbætur eru ekki tiltækar í AppSource strax eftir að við tilkynnum um uppfærslu. Þú getur fylgst með viðbótum á [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
+>   <span data-ttu-id="59304-113">Ef þú telur að þú ættir að hafa aðgang að viðbót en finnur ekki virknina sem í henni felst, skaltu athuga gluggann **Viðbótarstjórnun** - ef viðbótin er ekki skráð þar getur þú sett hana upp eins og lýst er í eftirfarandi kafla.</span><span class="sxs-lookup"><span data-stu-id="59304-113">If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** window - if the extension is not listed there, you can install it as described in the following section.</span></span>  
 
-## <a name="see-also"></a>Sjá einnig
-[Hvernig á að: Setja upp Envestnet Yodlee bankastreymisþjónustu](bank-how-setup-bank-statement-service.md)  
-[Hvernig á að: Virkja greiðslur viðskiptamanna gegnum PayPal](sales-how-enable-payment-service-extensions.md)  
-[Yfirfæra viðskiptagögn úr öðrum fjárhagskerfum](upload-data.md)  
-[Setja upp GetAddress.io UK Postal Code viðbótina](uk-setup-postal-code-service.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] Viðbætur frá öðrum veitum](ui-extensions-other.md)  
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+## <a name="installing-an-extension"></a><span data-ttu-id="59304-114">Uppsetning viðbótar</span><span class="sxs-lookup"><span data-stu-id="59304-114">Installing an Extension</span></span>
+<span data-ttu-id="59304-115">Hægt er að fá nýja viðbætur úr markaðstorginu á [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span><span class="sxs-lookup"><span data-stu-id="59304-115">You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span></span> <span data-ttu-id="59304-116">Hér getur þú séð allar tiltækar viðbætur fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)], og þú getur fengið forrit, viðbætur og innihaldsefni fyrir aðrar Microsoft vörur.</span><span class="sxs-lookup"><span data-stu-id="59304-116">Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products.</span></span> <span data-ttu-id="59304-117">Stilltu viðeigandi síur, skoðaðu upplýsingar um hverja viðbót og fáðu viðbót fyrir þinn [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="59304-117">Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+> [!NOTE]  
+>   <span data-ttu-id="59304-118">Skráðu þig inn á [AppSource.microsoft.com](https://appsource.microsoft.com/) með því að nota netfangið sem þú notar fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="59304-118">Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="59304-119">Nota sama tölvupóstreikning fyrir aðra þjónustu og vörur fyrir er hnökralausa upplifun.</span><span class="sxs-lookup"><span data-stu-id="59304-119">Use the same email account for other services and products for a smooth experience.</span></span>  
+
+<span data-ttu-id="59304-120">Einnig er hægt að fá að markaðstorgið úr [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="59304-120">You can also get to the marketplace from inside [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="59304-121">Í **framlengingarstjórnun** geturðu séð eftirnafnin sem eru í uppsettri röð og þú getur opnað **Framlengingarmarkað** síðu sem sýnir [!INCLUDE[d365fin](includes/d365fin_md.md)] viðbætur sem eru í boði í AppSource.</span><span class="sxs-lookup"><span data-stu-id="59304-121">In the **Extension Management** window, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[d365fin](includes/d365fin_md.md)] extensions that are currently available in AppSource.</span></span> <span data-ttu-id="59304-122">Ef valið er *Fleiri öpp* tengilinn, er farið með þig á [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span><span class="sxs-lookup"><span data-stu-id="59304-122">If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span></span>  
+
+<span data-ttu-id="59304-123">Ef þú velur viðbót geturðu lesið um hvað viðbótin gerir, og þú getur fengið aðgang að hjálp fyrir viðbótinni til að læra meira.</span><span class="sxs-lookup"><span data-stu-id="59304-123">If you choose an extension, you can read about what the extension does, and you can access Help for the extension to learn more.</span></span> <span data-ttu-id="59304-124">Þegar valið er að fá viðbót, verðurðu að samþykkja skilmála um notkun.</span><span class="sxs-lookup"><span data-stu-id="59304-124">When you choose to get an extension, you must agree to the terms of use.</span></span> <span data-ttu-id="59304-125">Ef þú færð framlengingu frá AppSource vefsíðu verður þú skráð (ur) inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] til að ljúka uppsetningunni.</span><span class="sxs-lookup"><span data-stu-id="59304-125">If you get the extension from the AppSource website, you will be signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)] to complete the installation.</span></span>  
+
+<span data-ttu-id="59304-126">Þegar þú setur upp viðbót gætirðu þurft að setja það upp, svo sem að tilgreina reikning til notkunar með **PayPal-greiðslustaðall fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]** framlengingu.</span><span class="sxs-lookup"><span data-stu-id="59304-126">When you install an extension, you might have to set it up, such as specifying an account for use with the **PayPal Payments Standard for [!INCLUDE[d365fin](includes/d365fin_md.md)]** extension.</span></span>
+<span data-ttu-id="59304-127">Aðrar viðbætur bæta einfaldlega reitum við fyrirliggjandi síðu, eða þeir bæta við nýjum síðum, til dæmis.</span><span class="sxs-lookup"><span data-stu-id="59304-127">Other extensions simply add fields to an existing page, or they add a new page, for example.</span></span>   
+
+<span data-ttu-id="59304-128">Ef þú fjarlægir viðbót og skiptir um skoðun geturðu sett hana inn aftur.</span><span class="sxs-lookup"><span data-stu-id="59304-128">If you uninstall an extension, and you then change your mind, you can install it again.</span></span> <span data-ttu-id="59304-129">Þegar þú fjarlægir viðbót sem þú hefur verið að nota, eru gögnin geymd svo að ef þú setur þau upp aftur, eru gögnin þínn enn tiltæk.</span><span class="sxs-lookup"><span data-stu-id="59304-129">When you uninstall an extension that you have been using, the data is preserved so that if you install the extension again, your data is still available.</span></span>  
+
+<span data-ttu-id="59304-130">Sumar viðbætur eru veittar af Microsoft, og aðrar viðbætur eru veittar af [öðrum fyrirtækjum.](ui-extensions-other.md)</span><span class="sxs-lookup"><span data-stu-id="59304-130">Some extensions are provided by Microsoft, and other extensions are provided by [other companies](ui-extensions-other.md).</span></span> <span data-ttu-id="59304-131">Allar viðbætur eru prófaðar áður en þær eru gerðar tiltækar til þin, en við mælum með að þú farir í gegnum tenglana sem eru veittir með hverri viðbót til að læra meira um viðbótina áður en þú setur hana upp.</span><span class="sxs-lookup"><span data-stu-id="59304-131">All extensions are tested before they are made available to you, but we recommend that you access the links that are provided with each extension to learn more about the extension before you choose to install it.</span></span>  
+
+<span data-ttu-id="59304-132">Microsoft veitir eftirfarandi viðbætur:</span><span class="sxs-lookup"><span data-stu-id="59304-132">Microsoft provides the following extensions:</span></span>  
+
+* [<span data-ttu-id="59304-133">Dynamics GP Gagnafærsla</span><span class="sxs-lookup"><span data-stu-id="59304-133">Dynamics GP Data Migration</span></span>](ui-extensions-dynamicsgp-data-migration.md)  
+* [<span data-ttu-id="59304-134">Envestnet Yodlee bankastreymi</span><span class="sxs-lookup"><span data-stu-id="59304-134">Envestnet Yodlee Bank Feeds</span></span>](ui-extensions-yodlee-bank-feeds.md)  
+* [<span data-ttu-id="59304-135">PayPal-greiðslustaðall</span><span class="sxs-lookup"><span data-stu-id="59304-135">PayPal Payments Standard</span></span>](ui-extensions-paypal-payments-standard.md)  
+* [<span data-ttu-id="59304-136">QuickBooks gagnaflutningur</span><span class="sxs-lookup"><span data-stu-id="59304-136">QuickBooks Data Migration</span></span>](ui-extensions-quickbooks-data-migration.md)  
+* [<span data-ttu-id="59304-137">Spá um sölu og birgðir</span><span class="sxs-lookup"><span data-stu-id="59304-137">Sales and Inventory Forecast</span></span>](ui-extensions-sales-forecast.md)  
+* [<span data-ttu-id="59304-138">Ceridian Payroll</span><span class="sxs-lookup"><span data-stu-id="59304-138">Ceridian Payroll</span></span>](ui-extensions-ceridian-payroll.md)  
+* [<span data-ttu-id="59304-139">Quickbooks-viðbótin fyrir innflutning á launaskrá</span><span class="sxs-lookup"><span data-stu-id="59304-139">Quickbooks Payroll File Import</span></span>](ui-extensions-quickbooks-payroll.md)  
+* [<span data-ttu-id="59304-140">WorldPay-greiðslustaðall</span><span class="sxs-lookup"><span data-stu-id="59304-140">WorldPay Payments Standard</span></span>](ui-extensions-worldpay-payments-standard.md)
+* [<span data-ttu-id="59304-141">GetAddress.io UK Postcodes</span><span class="sxs-lookup"><span data-stu-id="59304-141">GetAddress.io UK Postcodes</span></span>](ui-extensions-getaddressio.md)
+* [<span data-ttu-id="59304-142">QuickBooks gagnaflutningur á netinu</span><span class="sxs-lookup"><span data-stu-id="59304-142">QuickBooks Online Data Migration</span></span>](ui-extensions-quickbooks-online-data-migration.md)
+* [<span data-ttu-id="59304-143">Endurskoðandagátt</span><span class="sxs-lookup"><span data-stu-id="59304-143">Accountant Portal</span></span>](ui-extensions-accountant-portal.md)  
+* [<span data-ttu-id="59304-144">Myndgreinandi</span><span class="sxs-lookup"><span data-stu-id="59304-144">Image Analyzer</span></span>](ui-extensions-image-analyzer.md)
+
+> [!NOTE]  
+>  <span data-ttu-id="59304-145">Nýjar viðbætur eru ekki tiltækar í AppSource strax eftir að við tilkynnum um uppfærslu.</span><span class="sxs-lookup"><span data-stu-id="59304-145">New extensions are not available in AppSource immediately after we announce an update.</span></span> <span data-ttu-id="59304-146">Þú getur fylgst með viðbótum á [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span><span class="sxs-lookup"><span data-stu-id="59304-146">You can keep an eye out for the extensions at  [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="59304-147">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="59304-147">See Also</span></span>
+[<span data-ttu-id="59304-148">Hvernig á að: Setja upp Envestnet Yodlee bankastreymisþjónustu</span><span class="sxs-lookup"><span data-stu-id="59304-148">How to: Set Up the Envestnet Yodlee Bank Feeds Service</span></span>](bank-how-setup-bank-statement-service.md)  
+[<span data-ttu-id="59304-149">Hvernig á að: Virkja greiðslur viðskiptamanna gegnum PayPal</span><span class="sxs-lookup"><span data-stu-id="59304-149">How to: Enable Customer Payment Through PayPal</span></span>](sales-how-enable-payment-service-extensions.md)  
+[<span data-ttu-id="59304-150">Yfirfæra viðskiptagögn úr öðrum fjárhagskerfum</span><span class="sxs-lookup"><span data-stu-id="59304-150">Migrate Business Data from Other Finance Systems</span></span>](upload-data.md)  
+[<span data-ttu-id="59304-151">Setja upp GetAddress.io UK Postal Code viðbótina</span><span class="sxs-lookup"><span data-stu-id="59304-151">Set up the GetAddress.io UK Postal Code extension</span></span>](uk-setup-postal-code-service.md)  
+<span data-ttu-id="59304-152">[[!INCLUDE[d365fin](includes/d365fin_md.md)] Viðbætur frá öðrum veitum](ui-extensions-other.md)</span><span class="sxs-lookup"><span data-stu-id="59304-152">[[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)</span></span>  
+<span data-ttu-id="59304-153">[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="59304-153">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

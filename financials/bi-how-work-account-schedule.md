@@ -16,72 +16,71 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0284e419280be2d1faba4ac2bf40dac6f78823ed
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-work-with-account-schedules"></a>Hvernig skal: Vinna með fjárhagsskemu
-Notaðu reikningsáætlanir til að fá innsýn í fjárhagsupplýsingar sem eru geymdar í bókhaldslyklum. Fjárhagsskemu eru notuð til að greina upphæðir í fjárhagsreikningi og bera saman fjárhagsfærslur og færslur í fjárhagsáætlunarskýrslu. Niðurstöðurnar birtast í töflum á heimasíðunni þinni, svo sem sjóðstreymi.  
+# <a name="how-to-work-with-account-schedules"></a><span data-ttu-id="3c0d1-103">Hvernig skal: Vinna með fjárhagsskemu</span><span class="sxs-lookup"><span data-stu-id="3c0d1-103">How to: Work with Account Schedules</span></span>
+<span data-ttu-id="3c0d1-104">Notaðu reikningsáætlanir til að fá innsýn í fjárhagsupplýsingar sem eru geymdar í bókhaldslyklum.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-104">Use account schedules to get insight into the financial data stored in your chart of accounts.</span></span> <span data-ttu-id="3c0d1-105">Fjárhagsskemu eru notuð til að greina upphæðir í fjárhagsreikningi og bera saman fjárhagsfærslur og færslur í fjárhagsáætlunarskýrslu.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-105">Account schedules analyze figures in G/L accounts, and compare general ledger entries with general ledger budget entries.</span></span> <span data-ttu-id="3c0d1-106">Niðurstöðurnar birtast í töflum á heimasíðunni þinni, svo sem sjóðstreymi.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-106">The results display in charts on your Home page, such as the Cash Flow chart.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] veitir nokkrar sýnishornareikninga sem hægt er að nota strax eða þú getur sett upp eigin línur og dálka til að tilgreina tölurnar sem þú vilt bera saman. Notendur getur þú búið til fjárhagskema til að reikna út framlegð fyrir víddir eins og deildir eða hópa viðskiptamanna. Hægt er að búa til eins margar sérsniðnar fjárhagsskýrslur og óskað er.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="3c0d1-107"> veitir nokkrar sýnishornareikninga sem hægt er að nota strax eða þú getur sett upp eigin línur og dálka til að tilgreina tölurnar sem þú vilt bera saman.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-107"> provides a few sample account schedules that you can use right away, or you can set up your own rows and columns to specify the figures to compare.</span></span> <span data-ttu-id="3c0d1-108">Notendur getur þú búið til fjárhagskema til að reikna út framlegð fyrir víddir eins og deildir eða hópa viðskiptamanna.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-108">For example, you can create account schedules to calculate profit margins on dimensions like departments or customer groups.</span></span> <span data-ttu-id="3c0d1-109">Hægt er að búa til eins margar sérsniðnar fjárhagsskýrslur og óskað er.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-109">You can create as many customized financial statements as you want.</span></span>  
 
-Uppsetning fjárhagsskema krefst skilnings á fjárhagsgögnum í bókhaldslyklinum. Hægt er til dæmis að skoða fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum. Þetta krefst þess að fjárhagsáætlanir séu búnar til. Nánari upplýsingar eru í [Hvernig á að: Búa til fjárhagsáætlanir](finance-how-create-budgets.md).
-
-> [!NOTE]  
->   Þessi virkni krefst þess að upplifun þín sé stillt á **Pakki**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
-
-## <a name="account-categories-and-account-schedules"></a>Lykiltegundir og fjárhagsskemu
-Hægt er að nota lykiltegundir til að breyta sniði fjárhagsskýrslna. Þegar lykiltegundir hafa verið settar upp í glugganum **Flokkar fjárhagsreikninga** og aðgerðin **Mynda fjárhagsskemu** er valin, eru undirliggjandi fjárhagsskemu fyrir kjarnaviðskiptaskýrslur uppfærð. Næst þegar einhver af þessum skýrslum er keyrð, eins og stöðuyfirlit, er nýjum samtölum og undirfærslum bætt við, samkvæmt þeim breytingum sem gerðar voru. Frekari upplýsingar er að finna í [Fjárhagur og bókhaldslyklar](finance-general-ledger.md).  
-
-## <a name="to-create-new-account-schedules"></a>Nýtt fjárhagsskema búið til:  
- Fjárhagsskemu eru notuð til að greina upphæðir í fjárhagsreikningi eða bera saman fjárhagsfærslur og fjárhagsáætlunarfærslur. Hægt er til dæmis að skoða fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum.
-
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsskemu** og velja svo viðeigandi tengil.  
-2. Í glugganum **Heiti fjárhagsskema** skal velja aðgerðina **Nýtt** til að búa til nýtt heiti á fjárhagsskema.
-3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Veljið aðgerðina **Breyta fjárhagsskema**.
-5. Í glugganum **Fjárhagsskema** skal fylla reitina út eftir þörfum.  
-
-    Þegar nýtt fjárhagsskema hefur verið stofnað og línurnar hafa verið settar upp, þarf að setja upp dálka. Annaðhvort er hægt að setja þær upp handvirkt eða úthluta forskilgreindri dálkauppsetningu á viðkomandi fjárhagsskema.
-6. Veljið aðgerðina **Breyta uppsetningu dálkaútlits**.
-7. Í glugganum **Dálkaútlit** skal fylla reitina út eftir þörfum.
+<span data-ttu-id="3c0d1-110">Uppsetning fjárhagsskema krefst skilnings á fjárhagsgögnum í bókhaldslyklinum.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-110">Setting up account schedules requires an understanding of the financial data in the chart of accounts.</span></span> <span data-ttu-id="3c0d1-111">Hægt er til dæmis að skoða fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-111">For example, you can view general ledger entries as percentages of budget entries.</span></span> <span data-ttu-id="3c0d1-112">Þetta krefst þess að fjárhagsáætlanir séu búnar til.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-112">This requires that budgets are created.</span></span> <span data-ttu-id="3c0d1-113">Nánari upplýsingar eru í [Hvernig á að: Búa til fjárhagsáætlanir](finance-how-create-budgets.md).</span><span class="sxs-lookup"><span data-stu-id="3c0d1-113">For more information, see [How to: Create Budgets](finance-how-create-budgets.md).</span></span>
 
 > [!NOTE]  
->   Ef ekki var tilgreint sjálfgefið dálkaútlit fyrir fjárhagsskemað verður að setja dálkana upp handvirkt.   
+>   <span data-ttu-id="3c0d1-114">Þessi virkni krefst þess að upplifun þín sé stillt á **Pakki**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-114">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="3c0d1-115">Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="3c0d1-115">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-### <a name="to-create-a-column-that-calculates-percentages"></a>Stofnun dálks sem reiknar prósentur:  
-Stundum getur verið þörf á dálkum í fjárhagsskema til að reikna prósentur heilda. Til dæmis, ef nokkrar línur skipta sölu eftir vídd kann að vera þörf á dálki sem birtir prósentu heildarsölu sem hver lína stendur fyrir.
+## <a name="account-categories-and-account-schedules"></a><span data-ttu-id="3c0d1-116">Lykiltegundir og fjárhagsskemu</span><span class="sxs-lookup"><span data-stu-id="3c0d1-116">Account Categories and Account Schedules</span></span>
+<span data-ttu-id="3c0d1-117">Hægt er að nota lykiltegundir til að breyta sniði fjárhagsskýrslna.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-117">You can use account categories to change the layout of your financial statements.</span></span> <span data-ttu-id="3c0d1-118">Þegar lykiltegundir hafa verið settar upp í glugganum **Flokkar fjárhagsreikninga** og aðgerðin **Mynda fjárhagsskemu** er valin, eru undirliggjandi fjárhagsskemu fyrir kjarnaviðskiptaskýrslur uppfærð.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-118">After you set up your account categories in the **G/L Account Categories** window, and you choose the **Generate Account Schedules** action, the underlying account schedules for the core financial reports are updated.</span></span> <span data-ttu-id="3c0d1-119">Næst þegar einhver af þessum skýrslum er keyrð, eins og stöðuyfirlit, er nýjum samtölum og undirfærslum bætt við, samkvæmt þeim breytingum sem gerðar voru.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-119">The next time you run one of these reports, such as the balance statement, new totals and subentries are added, based on your changes.</span></span> <span data-ttu-id="3c0d1-120">Frekari upplýsingar er að finna í [Fjárhagur og bókhaldslyklar](finance-general-ledger.md).</span><span class="sxs-lookup"><span data-stu-id="3c0d1-120">For more information, see [The General Ledger and the Chart of Accounts](finance-general-ledger.md).</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsskemu** og velja svo viðeigandi tengil.
-2. Í glugganum **Heiti fjárhagsskema** veljið fjárhagsskema.  
-3. Veljið aðgerðina **Breyta fjárhagsskema** til að setja upp fjárhagsskemalínu til að reikna heildina sem prósenturnar munu byggjast á.  
-4. Setjið inn línu beint fyrir ofan fyrstu línuna sem birta á prósentur fyrir.  
-5. Fyllið inn í reitina í línunni sem hér segir: Í **Tegund samantektar** reitnum er færður inn **Valinn stofn fyrir prósentur**. Í reitnum **Samantekt** er færð inn reikniregla fyrir heildina sem prósentan verður byggð á. T. d. ef lína 11 inniheldur heildarsölu, skal færa inn **11**.  
-6. Veljið aðgerðina **Breyta uppsetningu dálkaútlits** til að setja upp dálk.  
-7. Fyllið inn í reitina í línunni sem hér segir: Í **Tegund dálks** reitnum er færður inn **Formúla**. Í reitnum **Reikniregla** er færð inn reikniregla fyrir upphæðina sem reikna á prósentur fyrir, með % fyrir aftan. Til dæmis ef dálkur N inniheldur hreyfingu, er fært inn **N%**.  
-8. Skref 4 til 7 eru endurtekin fyrir hvern flokk línu sem skipta á niður eftir prósentum.
+## <a name="to-create-new-account-schedules"></a><span data-ttu-id="3c0d1-121">Nýtt fjárhagsskema búið til:</span><span class="sxs-lookup"><span data-stu-id="3c0d1-121">To create new account schedules</span></span>  
+ <span data-ttu-id="3c0d1-122">Fjárhagsskemu eru notuð til að greina upphæðir í fjárhagsreikningi eða bera saman fjárhagsfærslur og fjárhagsáætlunarfærslur.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-122">You use account schedules to analyze figures in general ledger accounts or to compare general ledger entries with general ledger budget entries.</span></span> <span data-ttu-id="3c0d1-123">Hægt er til dæmis að skoða fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-123">For example, you can view the general ledger entries as percentages of the budget entries.</span></span>
 
-## <a name="to-set-up-account-schedules-with-overviews"></a>Uppsetning fjárhagsskema með yfirlitum  
-Hægt er að nota fjárhagsskema til að búa til reikning sem ber saman upphæðir fjárhagsreiknings og fjárhagsáætlunar.
+1. <span data-ttu-id="3c0d1-124">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsskemu** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="3c0d1-125">Í glugganum **Heiti fjárhagsskema** skal velja aðgerðina **Nýtt** til að búa til nýtt heiti á fjárhagsskema.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-125">In the **Account Schedule Names** window, choose the **New** action to create a new account schedule name.</span></span>
+3. <span data-ttu-id="3c0d1-126">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-126">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="3c0d1-127">Veljið aðgerðina **Breyta fjárhagsskema**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-127">Choose the **Edit Account Schedule** action.</span></span>
+5. <span data-ttu-id="3c0d1-128">Í glugganum **Fjárhagsskema** skal fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-128">In the **Account Schedule** window, fill in the fields as necessary.</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsskemu** og velja svo viðeigandi tengil.
-2. Í glugganum **Heiti fjárhagsskema** veljið fjárhagsskema.  
-3. Veljið aðgerðina **Breyta fjárhagsskema**.  
-4. Í glugganum **Fjárhagsskema** skal velja heiti sjálfgefins fjárhagsskema í reitnum **Heiti**.
-5. Veljið aðgerðina **Setja inn reikning**.  
-6. Reikningarnir sem eiga að vera í yfirlitinu eru valdir og smellt á **Í lagi**.
+    <span data-ttu-id="3c0d1-129">Þegar nýtt fjárhagsskema hefur verið stofnað og línurnar hafa verið settar upp, þarf að setja upp dálka.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-129">When you have created a new account schedule and set up the rows, you must set up columns.</span></span> <span data-ttu-id="3c0d1-130">Annaðhvort er hægt að setja þær upp handvirkt eða úthluta forskilgreindri dálkauppsetningu á viðkomandi fjárhagsskema.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-130">You can either set them up manually or assign a predefined column layout to your account schedule.</span></span>
+6. <span data-ttu-id="3c0d1-131">Veljið aðgerðina **Breyta uppsetningu dálkaútlits**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-131">Choose the **Edit Column Layout Setup** action.</span></span>
+7. <span data-ttu-id="3c0d1-132">Í glugganum **Dálkaútlit** skal fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-132">In the **Column Layout** window, fill in the fields as necessary.</span></span>
 
-    Reikningarnir eru ekki settir inn í fjárhagsskemað. Einnig er hægt að breyta dálkauppsetningunni.  
-7. Veljið aðgerðina **Yfirlit**.  
-8. Í flýtiflipanum **Víddarafmarkanir** skal stilla afmörkunarheitið sem á að nota á áætlunarafmörkun.  
-9. Velja hnappinn **Í lagi**.  
+> [!NOTE]  
+>   <span data-ttu-id="3c0d1-133">Ef ekki var tilgreint sjálfgefið dálkaútlit fyrir fjárhagsskemað verður að setja dálkana upp handvirkt.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-133">If you did not assign a default column layout to the account schedule, you must set the columns up manually.</span></span>   
 
-Nú er hægt að afrita áætlunaryfirlitið og líma það inn í töflureikni.
+### <a name="to-create-a-column-that-calculates-percentages"></a><span data-ttu-id="3c0d1-134">Stofnun dálks sem reiknar prósentur:</span><span class="sxs-lookup"><span data-stu-id="3c0d1-134">To create a column that calculates percentages</span></span>  
+<span data-ttu-id="3c0d1-135">Stundum getur verið þörf á dálkum í fjárhagsskema til að reikna prósentur heilda.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-135">Sometimes you may want to include a column in an account schedule to calculate percentages of a total.</span></span> <span data-ttu-id="3c0d1-136">Til dæmis, ef nokkrar línur skipta sölu eftir vídd kann að vera þörf á dálki sem birtir prósentu heildarsölu sem hver lína stendur fyrir.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-136">For example, if you have a number of rows that break down sales by dimension, you may want a column to indicate the percentage of total sales that each row represents.</span></span>
 
-## <a name="see-also"></a>Sjá einnig
-[Viðskiptaupplýsingar](bi.md)  
-[Fjármál](finance.md)  
-[Uppsetning Fjármála](finance-setup-finance.md)  
-[Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+1. <span data-ttu-id="3c0d1-137">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsskemu** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-137">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.</span></span>
+2. <span data-ttu-id="3c0d1-138">Í glugganum **Heiti fjárhagsskema** veljið fjárhagsskema.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-138">In the **Account Schedule Names** window, select an account schedule.</span></span>  
+3. <span data-ttu-id="3c0d1-139">Veljið aðgerðina **Breyta fjárhagsskema** til að setja upp fjárhagsskemalínu til að reikna heildina sem prósenturnar munu byggjast á.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-139">Choose the **Edit Account Schedule** action to set up an account schedule row to calculate the total on which the percentages will be based.</span></span>  
+4. <span data-ttu-id="3c0d1-140">Setjið inn línu beint fyrir ofan fyrstu línuna sem birta á prósentur fyrir.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-140">Insert a line immediately above the first row for which you want to display a percentage.</span></span>  
+5. <span data-ttu-id="3c0d1-141">Fyllið inn í reitina í línunni sem hér segir: Í **Tegund samantektar** reitnum er færður inn **Valinn stofn fyrir prósentur**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-141">Fill in the fields on the line as follows: In the **Totaling Type** field, enter **Set Base for Percent**.</span></span> <span data-ttu-id="3c0d1-142">Í reitnum **Samantekt** er færð inn reikniregla fyrir heildina sem prósentan verður byggð á.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-142">In the **Totaling** field, enter a formula for the total that the percentage will be based on.</span></span> <span data-ttu-id="3c0d1-143">T. d. ef lína 11 inniheldur heildarsölu, skal færa inn **11**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-143">For example, if row 11 contains the total sales, enter **11**.</span></span>  
+6. <span data-ttu-id="3c0d1-144">Veljið aðgerðina **Breyta uppsetningu dálkaútlits** til að setja upp dálk.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-144">Choose the **Edit Column Layout Setup** action to set up a column.</span></span>  
+7. <span data-ttu-id="3c0d1-145">Fyllið inn í reitina í línunni sem hér segir: Í **Tegund dálks** reitnum er færður inn **Formúla**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-145">Fill in the fields on the line as follows: In the **Column Type** field, select **Formula**.</span></span> <span data-ttu-id="3c0d1-146">Í reitnum **Reikniregla** er færð inn reikniregla fyrir upphæðina sem reikna á prósentur fyrir, með % fyrir aftan.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-146">In the **Formula** field, enter a formula for the amount that you want to calculate a percentage for, followed by %.</span></span> <span data-ttu-id="3c0d1-147">Til dæmis ef dálkur N inniheldur hreyfingu, er fært inn **N%**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-147">For example, if column number N contains the net change, enter **N%**.</span></span>  
+8. <span data-ttu-id="3c0d1-148">Skref 4 til 7 eru endurtekin fyrir hvern flokk línu sem skipta á niður eftir prósentum.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-148">Repeat steps 4 through 7 for each group of rows that you want to break down by percentage.</span></span>
+
+## <a name="to-set-up-account-schedules-with-overviews"></a><span data-ttu-id="3c0d1-149">Uppsetning fjárhagsskema með yfirlitum</span><span class="sxs-lookup"><span data-stu-id="3c0d1-149">To set up account schedules with overviews</span></span>  
+<span data-ttu-id="3c0d1-150">Hægt er að nota fjárhagsskema til að búa til reikning sem ber saman upphæðir fjárhagsreiknings og fjárhagsáætlunar.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-150">You can use an account schedule to create a statement comparing general ledger figures and general leger budget figures.</span></span>
+
+1. <span data-ttu-id="3c0d1-151">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsskemu** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-151">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Account Schedules**, and then choose the related link.</span></span>
+2. <span data-ttu-id="3c0d1-152">Í glugganum **Heiti fjárhagsskema** veljið fjárhagsskema.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-152">In the **Account Schedule Names** window, select an account schedule.</span></span>  
+3. <span data-ttu-id="3c0d1-153">Veljið aðgerðina **Breyta fjárhagsskema**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-153">Choose the **Edit Account Schedule** action</span></span>  
+4. <span data-ttu-id="3c0d1-154">Í glugganum **Fjárhagsskema** skal velja heiti sjálfgefins fjárhagsskema í reitnum **Heiti**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-154">In the **Account Schedule** window, in the **Name** field, select the default account schedule name.</span></span>
+5. <span data-ttu-id="3c0d1-155">Veljið aðgerðina **Setja inn reikning**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-155">Choose the **Insert Accounts** action.</span></span>  
+6. <span data-ttu-id="3c0d1-156">Reikningarnir sem eiga að vera í yfirlitinu eru valdir og smellt á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-156">Select the accounts that you want to include in your statement, and then choose the **OK** button.</span></span>
+
+    <span data-ttu-id="3c0d1-157">Reikningarnir eru ekki settir inn í fjárhagsskemað.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-157">The accounts are now inserted into your account schedule.</span></span> <span data-ttu-id="3c0d1-158">Einnig er hægt að breyta dálkauppsetningunni.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-158">If you want you can also change the column layout.</span></span>  
+7. <span data-ttu-id="3c0d1-159">Veljið aðgerðina **Yfirlit**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-159">Choose the **Overview** action.</span></span>  
+8. <span data-ttu-id="3c0d1-160">Í flýtiflipanum **Víddarafmarkanir** skal stilla afmörkunarheitið sem á að nota á áætlunarafmörkun.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-160">On the **Dimension Filters** FastTab, set the budget filter to the desired filter name.</span></span>  
+9. <span data-ttu-id="3c0d1-161">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-161">Choose the **OK** button.</span></span>  
+
+<span data-ttu-id="3c0d1-162">Nú er hægt að afrita áætlunaryfirlitið og líma það inn í töflureikni.</span><span class="sxs-lookup"><span data-stu-id="3c0d1-162">Now you can copy and paste your budget statement into a spreadsheet.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="3c0d1-163">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="3c0d1-163">See Also</span></span>
+[<span data-ttu-id="3c0d1-164">Viðskiptaupplýsingar</span><span class="sxs-lookup"><span data-stu-id="3c0d1-164">Business Intelligence</span></span>](bi.md)  
+[<span data-ttu-id="3c0d1-165">Fjármál</span><span class="sxs-lookup"><span data-stu-id="3c0d1-165">Finance</span></span>](finance.md)  
+[<span data-ttu-id="3c0d1-166">Uppsetning Fjármála</span><span class="sxs-lookup"><span data-stu-id="3c0d1-166">Setting Up Finance</span></span>](finance-setup-finance.md)  
+[<span data-ttu-id="3c0d1-167">Fjárhagur og bókhaldslyklar</span><span class="sxs-lookup"><span data-stu-id="3c0d1-167">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
+<span data-ttu-id="3c0d1-168">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="3c0d1-168">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

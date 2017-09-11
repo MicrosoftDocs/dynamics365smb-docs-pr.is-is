@@ -16,106 +16,106 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ef5c6f4b9106b1b289cc5ed060fc28426fde0ae2
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Hvernig á að: Setja upp Envestnet Yodlee bankastreymisþjónustu
-Hægt er að flytja inn rafræn bankayfirlit frá bankanum til að fylla fljótlega út gluggann **Greiðsluafstemmingarbók** þannig að hægt sé að jafna greiðslur og stemma af bankareikninginn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og stemma af bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a><span data-ttu-id="1b82a-103">Hvernig á að: Setja upp Envestnet Yodlee bankastreymisþjónustu</span><span class="sxs-lookup"><span data-stu-id="1b82a-103">How to: Set Up the Envestnet Yodlee Bank Feeds Service</span></span>
+<span data-ttu-id="1b82a-104">Hægt er að flytja inn rafræn bankayfirlit frá bankanum til að fylla fljótlega út gluggann **Greiðsluafstemmingarbók** þannig að hægt sé að jafna greiðslur og stemma af bankareikninginn.</span><span class="sxs-lookup"><span data-stu-id="1b82a-104">You can import electronic bank statements from your bank to quickly fill in the **Payment Reconciliation Journal** window so you can apply payments and reconcile the bank account.</span></span> <span data-ttu-id="1b82a-105">Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og stemma af bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="1b82a-105">For more information, see [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).</span></span>
 
-Envestnet Yodlee bankastreymisþjónusta er uppsett sem viðbót við [!INCLUDE[d365fin](includes/d365fin_md.md)] og tilbúin til að láta virkja sig. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).
+<span data-ttu-id="1b82a-106">Envestnet Yodlee bankastreymisþjónusta er uppsett sem viðbót við [!INCLUDE[d365fin](includes/d365fin_md.md)] og tilbúin til að láta virkja sig.</span><span class="sxs-lookup"><span data-stu-id="1b82a-106">The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and is ready to be enabled.</span></span> <span data-ttu-id="1b82a-107">Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="1b82a-107">For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).</span></span>
 
-Þegar búið að virkja bankastreymisþjónustu, verður að tengja bankareikning við netbankareikning sem streymið kemur úr. Þú býrð til tengla frá bankareikningum í netbankareikninga í mismunandi eftirfarandi aðstæður:
+<span data-ttu-id="1b82a-108">Þegar búið að virkja bankastreymisþjónustu, verður að tengja bankareikning við netbankareikning sem streymið kemur úr.</span><span class="sxs-lookup"><span data-stu-id="1b82a-108">After you enable the bank feed service, you must link a bank account to the online bank account that the feed will come from.</span></span> <span data-ttu-id="1b82a-109">Þú býrð til tengla frá bankareikningum í netbankareikninga í mismunandi eftirfarandi aðstæður:</span><span class="sxs-lookup"><span data-stu-id="1b82a-109">You link bank accounts to online bank accounts in the following different scenarios:</span></span>
 
-* Bankareikning er ekki til í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir netbankareikning þinn. Því er stofnarðu bankareikning með því að búa til tengil úr netbankareikningi.
-* Bankareikningur er til staðar í [!INCLUDE[d365fin](includes/d365fin_md.md)], sem þú vilt tengja við netbankareikning.
-* Tengdar bankareikning þarf að aftengja af því þú vilt hætta að nota bankastreymisþjónustuna fyrir reikninginn..
-* Netbankareikningar hafa breyst og þú vilt uppfæra upplýsingarnar um bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+* <span data-ttu-id="1b82a-110">Bankareikning er ekki til í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir netbankareikning þinn.</span><span class="sxs-lookup"><span data-stu-id="1b82a-110">A bank account does not exist in [!INCLUDE[d365fin](includes/d365fin_md.md)] for your online bank account.</span></span> <span data-ttu-id="1b82a-111">Því er stofnarðu bankareikning með því að búa til tengil úr netbankareikningi.</span><span class="sxs-lookup"><span data-stu-id="1b82a-111">Therefore, you create the bank account by linking from the online bank account.</span></span>
+* <span data-ttu-id="1b82a-112">Bankareikningur er til staðar í [!INCLUDE[d365fin](includes/d365fin_md.md)], sem þú vilt tengja við netbankareikning.</span><span class="sxs-lookup"><span data-stu-id="1b82a-112">A bank account exists in [!INCLUDE[d365fin](includes/d365fin_md.md)], which you want to link to an online bank account.</span></span>
+* <span data-ttu-id="1b82a-113">Tengdar bankareikning þarf að aftengja af því þú vilt hætta að nota bankastreymisþjónustuna fyrir reikninginn..</span><span class="sxs-lookup"><span data-stu-id="1b82a-113">A linked bank account must be unlinked because you want to stop using the bank feed service for the account.</span></span>
+* <span data-ttu-id="1b82a-114">Netbankareikningar hafa breyst og þú vilt uppfæra upplýsingarnar um bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="1b82a-114">Online bank accounts have changed and you want to update the information on bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-Þegar bankastreymisþjónustan er virkjuð, geturðu sett upp bankareikning til að flytja sjálfvirkt inn nýja bankayfirlitin í **Greiðsluafstemmingarbók** gluggann á tveggja tíma fresti. Færslur fyrir greiðslur sem þegar hafa verið bókaðar sem jöfnuð og/eða stemmt af í **Greiðsluafstemmingarbók** glugganum verða ekki fluttar inn. Sjá frekari upplýsingar í “Til að virkja sjálfvirkan innflutning bankayfirlits” hlutann.
-
-> [!NOTE]  
->   Ef þú notar uppsetningaraðstoðina í Setja upp fyrirtæki, þá geta sum skrefin í ferlunum sem fylgja þar á eftir gerst sjálfvirkt þegar þú ert kominn í uppsetninguna fyrir bankareikning fyrirtækis. Nánari upplýsingar, sjá [Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
-
-## <a name="to-enable-the-bank-feed-service"></a>Til að virkja bankastreymisþjónustu
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.
-2. Opnið bankareikning sem á að nota fyrir bankastreymisþjónustuna.
-3. Í á **Bankareiknings** glugganum í á **infflutningssnið BankaYfirlits** er valinn YODLEEBANKFEED .  
-
-Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við tendan netbankareikning. Sjá næsta ferli..  
-
-## <a name="to-create-a-new-linked-bank-account"></a>Stofna nýjan tengdan bankareikning
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.
-2. Valinn er viðeigandi bankareikningur og síðan valið **stofna nýjan tengdan bankareikning**. **Stofnun tengla fyrir Bankareiknings** opnast eftir smá stund.
-
-    > [!NOTE]  
->   Þessi gluggi sýnir raunverulega vefsíðu fyrir Bankastreymisþjónustu Envestnet Yodlee. Hugtök og virkni í glugganum mega ekki vera þau sömu og í þessu efnisatriði.  
-3. Í á **Stofnun tengla fyrir netbankareikninga** glugga í á **Tengja Reikning** flipanum, skal nota leitaraðgerðina til að finna banka þar sem þú ert með einn eða fleiri netbankareikninga.
-4. Veljið nafn banka. **Skrá inn** svæðinu opnast.
-5. Sláðu inn notandanafn og aðgangsorð sem er notuð til að skrá inn í netbanka og velja síðan **Næst** hnapp.  
-6. Bankastreymisþjónusta undirbýr að tengja fyrsta netbankareikning á tilgreindum banka í nýja bankareikninginn í [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-    > [!NOTE]  
->   Ef þú ert með fleiri en einn netbankareikning í bankanum, verður að stofna fleiri bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir þá. Sjá skref 8 til 10.  
-
-    Þegar vinnslunni er lokið, birtist bankaheitið í **Mínir reikningar** svæðinu á **Tengt** flipanum. Númerið í svigunum gefur til kynna hversu margar netbankareikningar voru tengd við.  
-7. Velja hnappinn **Í lagi**.
-
-    Ef aðeins er verið að tengja einn netbankareikning, mun **Bankareikningsspjald** glugginn opnast og birta heiti netbankareikningsins. Í þessu tilfelli er tenging bankareiknings lokið. Allt sem er eftir er að setja upp bankareikninginn. Frekari upplýsingar sjá [hvernig skal: setja upp bankareikninga](bank-how-setup-bank-accounts.md)
-
-    Ef fleiri en einn netbankareikningur eru tengdir, mun **Tenglar fyrir bankareikning** glugginn opnast og sýna skrár yfir netbankareikninga sem eru enn ekki tengdir við bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Í því tilviki, fylgið næsta skrefi.  
-8. Í á **Stofnun tengla fyrir bankareikning** glugganum, velja línuna fyrir netbankareikning, og velja síðan **tengja í Nýr Bankareikningur** aðgerð.  
-
-    **Bankareikningsspjald** glugginn fyrir nýr bankareikningur opnast og sýnir nafn netbankareikningsins.
-
-    Ef bankareikningur er til í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem á að tengja annan netbankareikning við, skal fylgja næsta skrefi.  
-9. Í á **Stofnun tengla fyrir bankareikning** glugganum, velja línuna fyrir netbankareikning, og velja síðan **tengja í fyrirliggjandi Bankareikningur** aðgerð.
-10. Í glugganum **Listi yfir bankareikninga** er valið bankareikningur sem á að tengja í og smellt á **Í lagi**.
-
-## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Til að tengja bankareikning í netbankareikning
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.
-2. velja línuna fyrir bankareikning sem er ekki tengdur við netbankareikningur, og velja síðan **tengja í netbankareikning** aðgerð. **Stofnun tengla fyrir netbankareikning** glugginn opnast með heiti bankans sem var forútfylltur í svæðinu **Tengja reikning**
-3. Veljið nafn banka. **Skrá inn** svæðinu opnast.
-4. Sláðu inn notandanafn og aðgangsorð sem er notuð til að skrá inn í netbanka og velja síðan **Næst** hnapp.  
-
-    Bankastreymisþjónusta undirbýr að tengja bankareikning í [!INCLUDE[d365fin](includes/d365fin_md.md)] við viðkomandi netbankareikning.  
-
-    Þegar vinnslunni er lokið á árangursríkan hátt, birtist bankaheiti í á **Mínar Reikninga** svæðinu í á **Tengt** flipanum. Ef bankinn er með fleiri en einn bankareikning, aðeins bankareikningurinn sem þú valdir í skrefi 2 er tengdur.  
-5. Velja hnappinn **Í lagi**.
-
-Í glugganum **Bankareikningayfirlit** er valinn  **tengt** gátreiturinn .
-
-## <a name="to-unlink-a-bank-account"></a>Að Aftengja bankareikningi
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.  
-2. Velja línuna fyrir tengdar bankareikning sem á að aftengja frá sínum tengda netbankareikningi, og velja síðan **aftengja frá netbankareikning** aðgerð.
+<span data-ttu-id="1b82a-115">Þegar bankastreymisþjónustan er virkjuð, geturðu sett upp bankareikning til að flytja sjálfvirkt inn nýja bankayfirlitin í **Greiðsluafstemmingarbók** gluggann á tveggja tíma fresti.</span><span class="sxs-lookup"><span data-stu-id="1b82a-115">When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** window every two hour.</span></span> <span data-ttu-id="1b82a-116">Færslur fyrir greiðslur sem þegar hafa verið bókaðar sem jöfnuð og/eða stemmt af í **Greiðsluafstemmingarbók** glugganum verða ekki fluttar inn.</span><span class="sxs-lookup"><span data-stu-id="1b82a-116">Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.</span></span> <span data-ttu-id="1b82a-117">Sjá frekari upplýsingar í “Til að virkja sjálfvirkan innflutning bankayfirlits” hlutann.</span><span class="sxs-lookup"><span data-stu-id="1b82a-117">For more information, see the “To enable automatic import of bank statements” section.</span></span>
 
 > [!NOTE]  
->   Ef þú velur **Já** í staðfestingarglugganum, er tengillinn í netbankareikninginn fjarlægður, og innskráningarupplýsingar eru þurrkaðar út. Til að tengja bankareikning við netbankareikning aftur verðurðu að skrá þig inn í bankann aftur. Nánari upplýsingar er að finna í “Til að tengja bankareikning í netbankareikning“ hlutanum.
+>   <span data-ttu-id="1b82a-118">Ef þú notar uppsetningaraðstoðina í Setja upp fyrirtæki, þá geta sum skrefin í ferlunum sem fylgja þar á eftir gerst sjálfvirkt þegar þú ert kominn í uppsetninguna fyrir bankareikning fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="1b82a-118">If you use the Set Up Company assisted setup, some of the steps in the following procedures happen automatically when you get to the company bank account setup.</span></span> <span data-ttu-id="1b82a-119">Nánari upplýsingar, sjá [Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).</span><span class="sxs-lookup"><span data-stu-id="1b82a-119">For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).</span></span>
 
-## <a name="to-update-bank-account-linking"></a>Uppfæra tengla bankareikninga
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.
-2. Valinn er viðeigandi bankareikningur og síðan valið **uppfæra tengla bankareiknings** aðgerðina.
+## <a name="to-enable-the-bank-feed-service"></a><span data-ttu-id="1b82a-120">Til að virkja bankastreymisþjónustu</span><span class="sxs-lookup"><span data-stu-id="1b82a-120">To enable the bank feed service</span></span>
+1. <span data-ttu-id="1b82a-121">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="1b82a-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1b82a-122">Opnið bankareikning sem á að nota fyrir bankastreymisþjónustuna.</span><span class="sxs-lookup"><span data-stu-id="1b82a-122">Open the bank account that you will use for the bank feed service.</span></span>
+3. <span data-ttu-id="1b82a-123">Í á **Bankareiknings** glugganum í á **infflutningssnið BankaYfirlits** er valinn YODLEEBANKFEED .</span><span class="sxs-lookup"><span data-stu-id="1b82a-123">In the **Bank Account** window, in the **Bank Statement Import Format** field, select YODLEEBANKFEED.</span></span>  
 
-Ef vandamál eru til staðar fyrir tengdu bankareikninga í glugganum **Bankareikningayfirlit** opnast **Stofnun tengla fyrir bankareikninga** og tilgreinir hvaða bankareikningar hafa verið vandamál. Vandamál má besta leyst með því að aftengja netbankareikninginn og síðan endurstofna tengilinn. Nánari upplýsingar er að finna í “Til að tengja bankareikning í netbankareikning“ hlutanum.
+<span data-ttu-id="1b82a-124">Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við tendan netbankareikning.</span><span class="sxs-lookup"><span data-stu-id="1b82a-124">The bank feed service will be enabled when you link a bank account to its related online bank account.</span></span> <span data-ttu-id="1b82a-125">Sjá næsta ferli..</span><span class="sxs-lookup"><span data-stu-id="1b82a-125">See the next procedure.</span></span>  
 
-## <a name="to-enable-automatic-import-of-bank-statements"></a>Til að virkja sjálfvirkan innflutning bankayfirlits
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.
-2. Veldu línuna fyrir tengdu bankareikningur og síðan valið **uppsetning sjálfvirks innflutnings bankayfirlits** aðgerð.
-3. Í glugganum **uppsetning sjálfvirks innflutnings bankayfirlits** glugga í á **Fjöldi daga innifalið** reitnum, er tilgreint hversu langt aftur í tíma á að fá nýjar bankafærslur fyrir.
+## <a name="to-create-a-new-linked-bank-account"></a><span data-ttu-id="1b82a-126">Stofna nýjan tengdan bankareikning</span><span class="sxs-lookup"><span data-stu-id="1b82a-126">To create a new linked bank account</span></span>
+1. <span data-ttu-id="1b82a-127">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="1b82a-127">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1b82a-128">Valinn er viðeigandi bankareikningur og síðan valið **stofna nýjan tengdan bankareikning**.</span><span class="sxs-lookup"><span data-stu-id="1b82a-128">Select the relevant bank account, and then choose the **Create New Linked Bank Account**.</span></span> <span data-ttu-id="1b82a-129">**Stofnun tengla fyrir Bankareiknings** opnast eftir smá stund.</span><span class="sxs-lookup"><span data-stu-id="1b82a-129">The **Bank Account Linking** window opens after a few moments.</span></span>
 
     > [!NOTE]  
->   Mælt er með því að setja þetta gildi á 7 daga eða fleiri.  
-4. Veldu **virkjað** gátreitinn.  
+>   <span data-ttu-id="1b82a-130">Þessi gluggi sýnir raunverulega vefsíðu fyrir Bankastreymisþjónustu Envestnet Yodlee.</span><span class="sxs-lookup"><span data-stu-id="1b82a-130">This window shows the actual web page of the Envestnet Yodlee Bank Feeds service.</span></span> <span data-ttu-id="1b82a-131">Hugtök og virkni í glugganum mega ekki vera þau sömu og í þessu efnisatriði.</span><span class="sxs-lookup"><span data-stu-id="1b82a-131">Terminology and functionality in the window may not match instructions provided in this topic.</span></span>  
+3. <span data-ttu-id="1b82a-132">Í á **Stofnun tengla fyrir netbankareikninga** glugga í á **Tengja Reikning** flipanum, skal nota leitaraðgerðina til að finna banka þar sem þú ert með einn eða fleiri netbankareikninga.</span><span class="sxs-lookup"><span data-stu-id="1b82a-132">In the **Online Bank Account Linking** window, in the **Link Account** pane, use the Search function to find the bank where you have one or more online bank accounts.</span></span>
+4. <span data-ttu-id="1b82a-133">Veljið nafn banka.</span><span class="sxs-lookup"><span data-stu-id="1b82a-133">Choose the bank name.</span></span> <span data-ttu-id="1b82a-134">**Skrá inn** svæðinu opnast.</span><span class="sxs-lookup"><span data-stu-id="1b82a-134">The **Log In** pane opens.</span></span>
+5. <span data-ttu-id="1b82a-135">Sláðu inn notandanafn og aðgangsorð sem er notuð til að skrá inn í netbanka og velja síðan **Næst** hnapp.</span><span class="sxs-lookup"><span data-stu-id="1b82a-135">Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.</span></span>  
+6. <span data-ttu-id="1b82a-136">Bankastreymisþjónusta undirbýr að tengja fyrsta netbankareikning á tilgreindum banka í nýja bankareikninginn í [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="1b82a-136">The bank feed service prepares to link the first online bank account at the specified bank to a new bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-Á hverri klukkustund mun **Greiðsluafstemmingarbók** glugginn sýna nýjar greiðslur sem eru framkvæmdar á netbankareikningi.
+    > [!NOTE]  
+>   <span data-ttu-id="1b82a-137">Ef þú ert með fleiri en einn netbankareikning í bankanum, verður að stofna fleiri bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir þá.</span><span class="sxs-lookup"><span data-stu-id="1b82a-137">If you have more than one online bank account at the bank, you must create additional bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] for them.</span></span> <span data-ttu-id="1b82a-138">Sjá skref 8 til 10.</span><span class="sxs-lookup"><span data-stu-id="1b82a-138">See steps 8 through 10.</span></span>  
+
+    <span data-ttu-id="1b82a-139">Þegar vinnslunni er lokið, birtist bankaheitið í **Mínir reikningar** svæðinu á **Tengt** flipanum.</span><span class="sxs-lookup"><span data-stu-id="1b82a-139">After the process completes, the bank name will appear in the **My Accounts** pane on the **Linked** tab.</span></span> <span data-ttu-id="1b82a-140">Númerið í svigunum gefur til kynna hversu margar netbankareikningar voru tengd við.</span><span class="sxs-lookup"><span data-stu-id="1b82a-140">The number in brackets indicates how many online bank accounts were linked.</span></span>  
+7. <span data-ttu-id="1b82a-141">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="1b82a-141">Choose the **OK** button.</span></span>
+
+    <span data-ttu-id="1b82a-142">Ef aðeins er verið að tengja einn netbankareikning, mun **Bankareikningsspjald** glugginn opnast og birta heiti netbankareikningsins.</span><span class="sxs-lookup"><span data-stu-id="1b82a-142">If you're only linking one online bank account, the **Bank Account Card** window opens and displays the name of the online bank account.</span></span> <span data-ttu-id="1b82a-143">Í þessu tilfelli er tenging bankareiknings lokið.</span><span class="sxs-lookup"><span data-stu-id="1b82a-143">In this case, the bank account linking task is completed.</span></span> <span data-ttu-id="1b82a-144">Allt sem er eftir er að setja upp bankareikninginn.</span><span class="sxs-lookup"><span data-stu-id="1b82a-144">All that's left to do is to set up the bank account.</span></span> <span data-ttu-id="1b82a-145">Frekari upplýsingar sjá [hvernig skal: setja upp bankareikninga](bank-how-setup-bank-accounts.md)</span><span class="sxs-lookup"><span data-stu-id="1b82a-145">For more information, see [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md).</span></span>
+
+    <span data-ttu-id="1b82a-146">Ef fleiri en einn netbankareikningur eru tengdir, mun **Tenglar fyrir bankareikning** glugginn opnast og sýna skrár yfir netbankareikninga sem eru enn ekki tengdir við bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="1b82a-146">If you're linking more than one online bank accounts, the **Bank Account Linking** window opens and lists the online bank accounts that are not yet linked to bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="1b82a-147">Í því tilviki, fylgið næsta skrefi.</span><span class="sxs-lookup"><span data-stu-id="1b82a-147">In that case, follow the next step.</span></span>  
+8. <span data-ttu-id="1b82a-148">Í á **Stofnun tengla fyrir bankareikning** glugganum, velja línuna fyrir netbankareikning, og velja síðan **tengja í Nýr Bankareikningur** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="1b82a-148">In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to New Bank Account** action.</span></span>  
+
+    <span data-ttu-id="1b82a-149">**Bankareikningsspjald** glugginn fyrir nýr bankareikningur opnast og sýnir nafn netbankareikningsins.</span><span class="sxs-lookup"><span data-stu-id="1b82a-149">The **Bank Account Card** window for a new bank account opens and displays the name of the online bank account.</span></span>
+
+    <span data-ttu-id="1b82a-150">Ef bankareikningur er til í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem á að tengja annan netbankareikning við, skal fylgja næsta skrefi.</span><span class="sxs-lookup"><span data-stu-id="1b82a-150">If a bank account already exists in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want to link the additional online bank account to, follow the next step.</span></span>  
+9. <span data-ttu-id="1b82a-151">Í á **Stofnun tengla fyrir bankareikning** glugganum, velja línuna fyrir netbankareikning, og velja síðan **tengja í fyrirliggjandi Bankareikningur** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="1b82a-151">In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to Existing Bank Account** action.</span></span>
+10. <span data-ttu-id="1b82a-152">Í glugganum **Listi yfir bankareikninga** er valið bankareikningur sem á að tengja í og smellt á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="1b82a-152">In the **Bank Account List** window, select the bank account that you want to link to, and then choose the **OK** button.</span></span>
+
+## <a name="to-link-a-bank-account-to-an-online-bank-account"></a><span data-ttu-id="1b82a-153">Til að tengja bankareikning í netbankareikning</span><span class="sxs-lookup"><span data-stu-id="1b82a-153">To link a bank account to an online bank account</span></span>
+1. <span data-ttu-id="1b82a-154">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="1b82a-154">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1b82a-155">velja línuna fyrir bankareikning sem er ekki tengdur við netbankareikningur, og velja síðan **tengja í netbankareikning** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="1b82a-155">Select the line for a bank account that is not linked to an online bank account, and then choose the **Link to Online Bank Account** action.</span></span> <span data-ttu-id="1b82a-156">**Stofnun tengla fyrir netbankareikning** glugginn opnast með heiti bankans sem var forútfylltur í svæðinu **Tengja reikning**</span><span class="sxs-lookup"><span data-stu-id="1b82a-156">The **Online Bank Account Linking** window opens with the name of the bank prefilled in the **Link Account** pane.</span></span>
+3. <span data-ttu-id="1b82a-157">Veljið nafn banka.</span><span class="sxs-lookup"><span data-stu-id="1b82a-157">Choose the bank name.</span></span> <span data-ttu-id="1b82a-158">**Skrá inn** svæðinu opnast.</span><span class="sxs-lookup"><span data-stu-id="1b82a-158">The **Log In** pane opens.</span></span>
+4. <span data-ttu-id="1b82a-159">Sláðu inn notandanafn og aðgangsorð sem er notuð til að skrá inn í netbanka og velja síðan **Næst** hnapp.</span><span class="sxs-lookup"><span data-stu-id="1b82a-159">Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.</span></span>  
+
+    <span data-ttu-id="1b82a-160">Bankastreymisþjónusta undirbýr að tengja bankareikning í [!INCLUDE[d365fin](includes/d365fin_md.md)] við viðkomandi netbankareikning.</span><span class="sxs-lookup"><span data-stu-id="1b82a-160">The bank feed service prepares to link your bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)] to the related online bank account.</span></span>  
+
+    <span data-ttu-id="1b82a-161">Þegar vinnslunni er lokið á árangursríkan hátt, birtist bankaheiti í á **Mínar Reikninga** svæðinu í á **Tengt** flipanum.</span><span class="sxs-lookup"><span data-stu-id="1b82a-161">When the process has completed successfully, the bank name will appear in the **My Accounts** pane on the **Linked** tab.</span></span> <span data-ttu-id="1b82a-162">Ef bankinn er með fleiri en einn bankareikning, aðeins bankareikningurinn sem þú valdir í skrefi 2 er tengdur.</span><span class="sxs-lookup"><span data-stu-id="1b82a-162">If the bank has more than one bank account, only the bank account that you selected in step 2 is linked.</span></span>  
+5. <span data-ttu-id="1b82a-163">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="1b82a-163">Choose the **OK** button.</span></span>
+
+<span data-ttu-id="1b82a-164">Í glugganum **Bankareikningayfirlit** er valinn  **tengt** gátreiturinn .</span><span class="sxs-lookup"><span data-stu-id="1b82a-164">In the **Bank Account List** window, the **Linked** check box is selected.</span></span>
+
+## <a name="to-unlink-a-bank-account"></a><span data-ttu-id="1b82a-165">Að Aftengja bankareikningi</span><span class="sxs-lookup"><span data-stu-id="1b82a-165">To unlink a bank account</span></span>
+1. <span data-ttu-id="1b82a-166">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="1b82a-166">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="1b82a-167">Velja línuna fyrir tengdar bankareikning sem á að aftengja frá sínum tengda netbankareikningi, og velja síðan **aftengja frá netbankareikning** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="1b82a-167">Select the line for a linked bank account that you want to unlink from its related online bank account, and the choose the **Unlink Online Bank Account** action.</span></span>
 
 > [!NOTE]  
->   Færslur fyrir greiðslur sem þegar hafa verið bókaðar sem jöfnuð og/eða stemmt af í **Greiðsluafstemmingarbók** glugganum verða ekki fluttar inn.
+>   <span data-ttu-id="1b82a-168">Ef þú velur **Já** í staðfestingarglugganum, er tengillinn í netbankareikninginn fjarlægður, og innskráningarupplýsingar eru þurrkaðar út.</span><span class="sxs-lookup"><span data-stu-id="1b82a-168">If you choose **Yes** on the confirmation dialog, the link to the online bank account is removed, and the log-in details are cleared.</span></span> <span data-ttu-id="1b82a-169">Til að tengja bankareikning við netbankareikning aftur verðurðu að skrá þig inn í bankann aftur.</span><span class="sxs-lookup"><span data-stu-id="1b82a-169">To link the bank account to the online bank account again, you must log on to the bank again.</span></span> <span data-ttu-id="1b82a-170">Nánari upplýsingar er að finna í “Til að tengja bankareikning í netbankareikning“ hlutanum.</span><span class="sxs-lookup"><span data-stu-id="1b82a-170">For more information, see the “To link a bank account to an online bank account“ section.</span></span>
 
-## <a name="see-also"></a>Sjá einnig
-[Uppsetning bankaþjónustu](bank-setup-banking.md)  
-[Stjórna bankareikningum](bank-manage-bank-accounts.md)  
-[Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum ](ui-extensions.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="to-update-bank-account-linking"></a><span data-ttu-id="1b82a-171">Uppfæra tengla bankareikninga</span><span class="sxs-lookup"><span data-stu-id="1b82a-171">To update bank account linking</span></span>
+1. <span data-ttu-id="1b82a-172">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="1b82a-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1b82a-173">Valinn er viðeigandi bankareikningur og síðan valið **uppfæra tengla bankareiknings** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="1b82a-173">Select the relevant bank account, and then choose the **Update Bank Account Linking** action.</span></span>
+
+<span data-ttu-id="1b82a-174">Ef vandamál eru til staðar fyrir tengdu bankareikninga í glugganum **Bankareikningayfirlit** opnast **Stofnun tengla fyrir bankareikninga** og tilgreinir hvaða bankareikningar hafa verið vandamál.</span><span class="sxs-lookup"><span data-stu-id="1b82a-174">If issues exist for any of the linked bank accounts in the **Bank Account List** window, the **Bank Account Linking** window opens specifying which bank accounts have issues.</span></span> <span data-ttu-id="1b82a-175">Vandamál má besta leyst með því að aftengja netbankareikninginn og síðan endurstofna tengilinn.</span><span class="sxs-lookup"><span data-stu-id="1b82a-175">Issues can best be resolved by unlinking the online bank account and then re-creating the link.</span></span> <span data-ttu-id="1b82a-176">Nánari upplýsingar er að finna í “Til að tengja bankareikning í netbankareikning“ hlutanum.</span><span class="sxs-lookup"><span data-stu-id="1b82a-176">For more information, see the “To link a bank account to an online bank account“ section.</span></span>
+
+## <a name="to-enable-automatic-import-of-bank-statements"></a><span data-ttu-id="1b82a-177">Til að virkja sjálfvirkan innflutning bankayfirlits</span><span class="sxs-lookup"><span data-stu-id="1b82a-177">To enable automatic import of bank statements</span></span>
+1. <span data-ttu-id="1b82a-178">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="1b82a-178">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1b82a-179">Veldu línuna fyrir tengdu bankareikningur og síðan valið **uppsetning sjálfvirks innflutnings bankayfirlits** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="1b82a-179">Select the line for a linked bank account, and then choose the **Automatic Bank Statement Import Setup** action.</span></span>
+3. <span data-ttu-id="1b82a-180">Í glugganum **uppsetning sjálfvirks innflutnings bankayfirlits** glugga í á **Fjöldi daga innifalið** reitnum, er tilgreint hversu langt aftur í tíma á að fá nýjar bankafærslur fyrir.</span><span class="sxs-lookup"><span data-stu-id="1b82a-180">In the **Automatic Bank Statement Import Setup** window, in the **Number of Days Included** field, specify how far back in time to get new bank transactions for.</span></span>
+
+    > [!NOTE]  
+>   <span data-ttu-id="1b82a-181">Mælt er með því að setja þetta gildi á 7 daga eða fleiri.</span><span class="sxs-lookup"><span data-stu-id="1b82a-181">It is recommended that you set this value to 7 days or more.</span></span>  
+4. <span data-ttu-id="1b82a-182">Veldu **virkjað** gátreitinn.</span><span class="sxs-lookup"><span data-stu-id="1b82a-182">Select the **Enabled** check box.</span></span>  
+
+<span data-ttu-id="1b82a-183">Á hverri klukkustund mun **Greiðsluafstemmingarbók** glugginn sýna nýjar greiðslur sem eru framkvæmdar á netbankareikningi.</span><span class="sxs-lookup"><span data-stu-id="1b82a-183">Every hour, the **Payment Reconciliation Journal** window will display new payments that are made on the online bank account.</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="1b82a-184">Færslur fyrir greiðslur sem þegar hafa verið bókaðar sem jöfnuð og/eða stemmt af í **Greiðsluafstemmingarbók** glugganum verða ekki fluttar inn.</span><span class="sxs-lookup"><span data-stu-id="1b82a-184">Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="1b82a-185">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="1b82a-185">See Also</span></span>
+[<span data-ttu-id="1b82a-186">Uppsetning bankaþjónustu</span><span class="sxs-lookup"><span data-stu-id="1b82a-186">Setting Up Banking</span></span>](bank-setup-banking.md)  
+[<span data-ttu-id="1b82a-187">Stjórna bankareikningum</span><span class="sxs-lookup"><span data-stu-id="1b82a-187">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="1b82a-188">Jafna greiðslur sjálfkrafa og afstemma bankareikninga</span><span class="sxs-lookup"><span data-stu-id="1b82a-188">Apply Payments Automatically and Reconcile Bank Accounts</span></span>](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+<span data-ttu-id="1b82a-189">[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum ](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="1b82a-189">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)</span></span>  
+<span data-ttu-id="1b82a-190">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1b82a-190">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

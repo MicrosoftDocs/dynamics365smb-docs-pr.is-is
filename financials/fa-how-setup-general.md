@@ -19,109 +19,109 @@ ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="how-to-set-up-general-fixed-assets-information"></a>Hvernig á að setja upp upplýsingar fyrir almennar eignir
-Áður en hægt er að vinna með eignir, þarf að setja upp sjálfgefna fjárhagsreikninga, úthlutunarlykla, færslubókarsniðmát og keyrslur fyrir bókun á eign og endurflokkun og hægt er að flokka eignir í eignaflokka, til dæmis Áþreifanlegar og Óáþreifanlegar.
+# <a name="how-to-set-up-general-fixed-assets-information"></a><span data-ttu-id="ddd2b-103">Hvernig á að setja upp upplýsingar fyrir almennar eignir</span><span class="sxs-lookup"><span data-stu-id="ddd2b-103">How to: Set Up General Fixed Assets Information</span></span>
+<span data-ttu-id="ddd2b-104">Áður en hægt er að vinna með eignir, þarf að setja upp sjálfgefna fjárhagsreikninga, úthlutunarlykla, færslubókarsniðmát og keyrslur fyrir bókun á eign og endurflokkun og hægt er að flokka eignir í eignaflokka, til dæmis Áþreifanlegar og Óáþreifanlegar.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-104">Before you can manage fixed assets, you must set up default G/L accounts, allocation keys, journal templates and batches for fixed asset posting and reclassification, and you can classify fixed assets in classes, such as Tangible and Intangible.</span></span>
 
-## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Uppsetning almennra sjálfgilda fyrir eignir
-Skilgreina almenna virkni eða aðgerðina eign og setja upp númeraröð skjala í **Uppsetning Eigna** glugganum.
+## <a name="to-set-up-general-default-values-for-fixed-assets"></a><span data-ttu-id="ddd2b-105">Uppsetning almennra sjálfgilda fyrir eignir</span><span class="sxs-lookup"><span data-stu-id="ddd2b-105">To set up general default values for fixed assets</span></span>
+<span data-ttu-id="ddd2b-106">Skilgreina almenna virkni eða aðgerðina eign og setja upp númeraröð skjala í **Uppsetning Eigna** glugganum.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-106">You define the general behavior or the fixed asset functionality and set up document number series in the  in the **Fixed Assets Setup** window.</span></span>
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning eigna** og velja svo viðeigandi tengil.  
-2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. <span data-ttu-id="ddd2b-107">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning eigna** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets Setup**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="ddd2b-108">Fyllið inn í svæðin eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-108">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-fixed-asset-posting-groups"></a>Setja upp bókunarflokka eigna
-Bókunarflokkar eru notaðir til að skilgreina flokka eigna. Færslur í þessum bókunarflokkum eru bókaðar á sömu fjárhagsreikninga.
+## <a name="to-set-up-fixed-asset-posting-groups"></a><span data-ttu-id="ddd2b-109">Setja upp bókunarflokka eigna</span><span class="sxs-lookup"><span data-stu-id="ddd2b-109">To set up fixed asset posting groups</span></span>
+<span data-ttu-id="ddd2b-110">Bókunarflokkar eru notaðir til að skilgreina flokka eigna.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-110">You use posting groups to define groups of fixed assets.</span></span> <span data-ttu-id="ddd2b-111">Færslur í þessum bókunarflokkum eru bókaðar á sömu fjárhagsreikninga.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-111">Entries for these posting groups are posted to the same general ledger accounts.</span></span>
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **FA bókunarflokkar** og velja svo viðeigandi tengil.  
-2. Valið er **Nýtt** aðgerð.
-3. Í glugganum **eignabókunarflokkaspjald** þarf að fylla reitina út eftir þörfum.
+1. <span data-ttu-id="ddd2b-112">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **FA bókunarflokkar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-112">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Posting Groups**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="ddd2b-113">Valið er **Nýtt** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-113">Choose the **New** action.</span></span>
+3. <span data-ttu-id="ddd2b-114">Í glugganum **eignabókunarflokkaspjald** þarf að fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-114">In the **FA Posting Group Card** window, fill in the fields as necessary.</span></span>
 
     > [!NOTE]  
->   Til að ganga úr skugga um að mótreikningar fyrir mismunandi eignabókanir eru sjálfkrafa settir inn þegar þú velur **Setja inn mótreikning eigna** aðgerð í færslubókarlínum, fylgja skal næsta skref, í samræmi við uppfærslubókun.
-4. Á flýtiflipi **Mótreikningur** í reitnum **mótreikningur uppfærslu** er valinn fjárhagsreikningurinn sem þú vilt bóka mótfærslur í fyrir uppfærslu.
+>   <span data-ttu-id="ddd2b-115">Til að ganga úr skugga um að mótreikningar fyrir mismunandi eignabókanir eru sjálfkrafa settir inn þegar þú velur **Setja inn mótreikning eigna** aðgerð í færslubókarlínum, fylgja skal næsta skref, í samræmi við uppfærslubókun.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-115">To make sure that balancing accounts for different fixed assets postings are automatically inserted when you choose the **Insert FA Bal. Account** action on journal lines, follow the next step, based on appreciation posting.</span></span>
+4. <span data-ttu-id="ddd2b-116">Á flýtiflipi **Mótreikningur** í reitnum **mótreikningur uppfærslu** er valinn fjárhagsreikningurinn sem þú vilt bóka mótfærslur í fyrir uppfærslu.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-116">On the **Balancing Account** FastTab, in the **Appreciation Bal. Account** field, select the general ledger account to which you want to post balancing entries for appreciation.</span></span>
 
-Nánari upplýsingar um notkun **Setja inn mótreikning eigna** aðgerð á eignafjárhagslínur skal skoða, til dæmis, [Hvernigá að: Endurmeta Eignir](fa-how-revalue.md).
+<span data-ttu-id="ddd2b-117">Nánari upplýsingar um notkun **Setja inn mótreikning eigna** aðgerð á eignafjárhagslínur skal skoða, til dæmis, [Hvernigá að: Endurmeta Eignir](fa-how-revalue.md).</span><span class="sxs-lookup"><span data-stu-id="ddd2b-117">For more information about using the **Insert FA Bal. Account** action on fixed asset G/L journal lines, see, for example, [How to: Revalue Fixed Assets](fa-how-revalue.md).</span></span>
 
-## <a name="to-set-up-fixed-asset-allocation-keys"></a>Úthlutunarlyklar eigna eru settir þannig upp:
-Hægt er að úthluta færslum á ýmsar deildir og/eða verkefni samkvæmt úthlutunarlyklum sem notandi skilgreinir. Setja má upp úthlutunarlykil sem skiptir til dæmis hlutdeild í afskriftakostnaði af bílum í 35 prósent á stjórnunardeild og 65 prósent á söludeild. Frekari upplýsingar, sjá [Hvernig á að: Úthluta kostnaði og tekjum](year-allocate-costs-income.md).
+## <a name="to-set-up-fixed-asset-allocation-keys"></a><span data-ttu-id="ddd2b-118">Úthlutunarlyklar eigna eru settir þannig upp:</span><span class="sxs-lookup"><span data-stu-id="ddd2b-118">To set up fixed asset allocation keys</span></span>
+<span data-ttu-id="ddd2b-119">Hægt er að úthluta færslum á ýmsar deildir og/eða verkefni samkvæmt úthlutunarlyklum sem notandi skilgreinir.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-119">Transactions can be allocated to various departments or projects, according to user-defined allocation keys.</span></span> <span data-ttu-id="ddd2b-120">Setja má upp úthlutunarlykil sem skiptir til dæmis hlutdeild í afskriftakostnaði af bílum í 35 prósent á stjórnunardeild og 65 prósent á söludeild.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-120">For example, you could set up an allocation key to allocate depreciation costs on cars with 35 percent to the administration department and 65 percent to the sales department.</span></span> <span data-ttu-id="ddd2b-121">Frekari upplýsingar, sjá [Hvernig á að: Úthluta kostnaði og tekjum](year-allocate-costs-income.md).</span><span class="sxs-lookup"><span data-stu-id="ddd2b-121">For more information, see [How to: Allocate Costs and Income](year-allocate-costs-income.md).</span></span>
 
-Úthlutunarlyklar gilda um eignaflokka en ekki um stakar eignir.
+<span data-ttu-id="ddd2b-122">Úthlutunarlyklar gilda um eignaflokka en ekki um stakar eignir.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-122">Allocation keys apply to fixed asset classes, not to individual assets.</span></span>
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **FA bókunarflokkar** og velja svo viðeigandi tengil.  
-2. Í glugganum **Eignabókunarflokkar** skal velja aðgerðina **úthlutanir** og velja síðan bókunarflokk.
-3. Í glugganum **eignaúthlutanir** þarf að fylla reitina út eftir þörfum.
-4. Endurtaktu skref 2 og 3 fyrir hverja bókunargerð sem ætlunin er að skilgreina úthlutunarlykla fyrir.
+1. <span data-ttu-id="ddd2b-123">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **FA bókunarflokkar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-123">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Posting Groups**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="ddd2b-124">Í glugganum **Eignabókunarflokkar** skal velja aðgerðina **úthlutanir** og velja síðan bókunarflokk.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-124">In the **FA Posting Groups** window, choose the **Allocations** action, and then choose a posting type.</span></span>
+3. <span data-ttu-id="ddd2b-125">Í glugganum **eignaúthlutanir** þarf að fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-125">In the **FA Allocations** window, fill in the fields as necessary.</span></span>
+4. <span data-ttu-id="ddd2b-126">Endurtaktu skref 2 og 3 fyrir hverja bókunargerð sem ætlunin er að skilgreina úthlutunarlykla fyrir.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-126">Repeat steps 2 and 3 for each posting type that you want to define allocation keys for.</span></span>
 
-## <a name="to-set-up-fixed-asset-journal-templates"></a>Setja upp sniðmát eignabóka
-Sniðmát er fyrirfram skilgreind uppsetning á færslubók. Í sniðmáti eru upplýsingar um ferilskóta, skýrslur og númeraraðir. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
+## <a name="to-set-up-fixed-asset-journal-templates"></a><span data-ttu-id="ddd2b-127">Setja upp sniðmát eignabóka</span><span class="sxs-lookup"><span data-stu-id="ddd2b-127">To set up fixed asset journal templates</span></span>
+<span data-ttu-id="ddd2b-128">Sniðmát er fyrirfram skilgreind uppsetning á færslubók.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-128">A template is a predefined layout for a journal.</span></span> <span data-ttu-id="ddd2b-129">Í sniðmáti eru upplýsingar um ferilskóta, skýrslur og númeraraðir.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-129">The template contains information about trace codes, reports, and number series.</span></span> <span data-ttu-id="ddd2b-130">Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="ddd2b-130">For more information, see [Working with General Journals](ui-work-general-journals.md).</span></span>
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] býr sjálfkrafa til sniðmát færslubókar eignar í fyrsta sinn sem glugginn**Færslubók eignar** er opnaður, en hægt er að setja upp önnur sniðmát færslubókar.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="ddd2b-131"> býr sjálfkrafa til sniðmát færslubókar eignar í fyrsta sinn sem glugginn**Færslubók eignar** er opnaður, en hægt er að setja upp önnur sniðmát færslubókar.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-131"> automatically creates a fixed asset journal template the first time that you open the **Fixed Asset Journal** window, but you can set up additional journal templates.</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **sniðmát færslubókar eignar** og velja svo viðeigandi tengil.  
-2. Fyllið inn í svæðin eftir þörfum.
+1. <span data-ttu-id="ddd2b-132">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **sniðmát færslubókar eignar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Journal Templates**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="ddd2b-133">Fyllið inn í svæðin eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-133">Fill in the fields as necessary.</span></span>
 
-## <a name="to-set-up-fixed-asset-journal-batches"></a>Setja upp keyrslur eignabóka
-Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fyrir hvert færslubókarsniðmát. Starfsmenn geta til dæmis verið með eigin bókarkeyrslur sem nota upphafsstafi starfsmannsins sem heiti bókarkeyrslu. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
+## <a name="to-set-up-fixed-asset-journal-batches"></a><span data-ttu-id="ddd2b-134">Setja upp keyrslur eignabóka</span><span class="sxs-lookup"><span data-stu-id="ddd2b-134">To set up fixed asset journal batches</span></span>
+<span data-ttu-id="ddd2b-135">Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fyrir hvert færslubókarsniðmát.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-135">You can set up multiple journal batches, which are individual journals for each journal template.</span></span> <span data-ttu-id="ddd2b-136">Starfsmenn geta til dæmis verið með eigin bókarkeyrslur sem nota upphafsstafi starfsmannsins sem heiti bókarkeyrslu.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-136">For example, employees can have their own journal batch that uses the employee’s initials as the journal batch name.</span></span> <span data-ttu-id="ddd2b-137">Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="ddd2b-137">For more information, see [Work with General Journals](ui-work-general-journals.md).</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **sniðmát færslubókar eignar** og velja svo viðeigandi tengil.  
-2. Valin er viðeigandi sniðmát færslubókar og veldu svo **keyrslur** aðgerðina.
-3. Í glugganum **eignabókarkeyrslur** þarf að fylla reitina út eftir þörfum.
+1. <span data-ttu-id="ddd2b-138">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **sniðmát færslubókar eignar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-138">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Journal Templates**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="ddd2b-139">Valin er viðeigandi sniðmát færslubókar og veldu svo **keyrslur** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-139">Select the relevant journal template, and then choose the **Batches** action.</span></span>
+3. <span data-ttu-id="ddd2b-140">Í glugganum **eignabókarkeyrslur** þarf að fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-140">In the **FA Journal Batches** window, fill in the fields as necessary.</span></span>
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Setja upp keyrslur endurflokkunarsniðmáta
-Hægt er að nota eignaendurflokkunarbókina til að flytja eignir, skipta þeim upp eða sameina þær. [!INCLUDE[d365fin](includes/d365fin_md.md)] býr sjálfkrafa til sniðmát endurflokkunarbókar eignar í fyrsta sinn sem glugginn **Endurflokkunarbók eignar** er opnaður, en hægt er að setja upp önnur sniðmát endurflokkunarbókar. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
+## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a><span data-ttu-id="ddd2b-141">Setja upp keyrslur endurflokkunarsniðmáta</span><span class="sxs-lookup"><span data-stu-id="ddd2b-141">To set up fixed asset reclassification journal templates</span></span>
+<span data-ttu-id="ddd2b-142">Hægt er að nota eignaendurflokkunarbókina til að flytja eignir, skipta þeim upp eða sameina þær.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-142">You use dedicated reclassification journals when you need to transfer, split, or combine fixed assets.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="ddd2b-143"> býr sjálfkrafa til sniðmát endurflokkunarbókar eignar í fyrsta sinn sem glugginn **Endurflokkunarbók eignar** er opnaður, en hægt er að setja upp önnur sniðmát endurflokkunarbókar.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-143"> automatically creates a fixed asset reclassification journal template the first time that you open the **FA Reclass. Journal** window, but you can set up additional reclassification journal templates.</span></span> <span data-ttu-id="ddd2b-144">Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="ddd2b-144">For more information, see [Work with General Journals](ui-work-general-journals.md).</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **sniðmát endurflokkunarbókar eignar** og velja svo viðeigandi tengil.  
-2. Fyllið inn í svæðin eftir þörfum.
+1. <span data-ttu-id="ddd2b-145">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **sniðmát endurflokkunarbókar eignar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-145">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Reclass. Journal Templates**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="ddd2b-146">Fyllið inn í svæðin eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-146">Fill in the fields as necessary.</span></span>
 
-## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Setja upp endurflokkunarkeyrslur eignabóka
-Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fyrir hvert sniðmát endurflokkunarbókar. Starfsmenn geta til dæmis verið með eigin endurflokkunarbókarkeyrslur sem nota upphafsstafi starfsmannsins sem heiti bókarkeyrslu. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
+## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a><span data-ttu-id="ddd2b-147">Setja upp endurflokkunarkeyrslur eignabóka</span><span class="sxs-lookup"><span data-stu-id="ddd2b-147">To set up fixed asset reclassification journal batches</span></span>
+<span data-ttu-id="ddd2b-148">Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fyrir hvert sniðmát endurflokkunarbókar.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-148">You can set up multiple journal batches, which are individual journals for each reclassification journal template.</span></span> <span data-ttu-id="ddd2b-149">Starfsmenn geta til dæmis verið með eigin endurflokkunarbókarkeyrslur sem nota upphafsstafi starfsmannsins sem heiti bókarkeyrslu.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-149">For example, employees can have their own reclassification journal batch that uses the employee’s initials as the reclassification journal batch name.</span></span> <span data-ttu-id="ddd2b-150">Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="ddd2b-150">For more information, see [Work with General Journals](ui-work-general-journals.md).</span></span>
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **sniðmát endurflokkunarbókar eignar** og velja svo viðeigandi tengil.  
-2. Valin er viðeigandi sniðmát færslubókar og veldu svo **keyrslur** aðgerðina.
-3. Í glugganum **keyrslur eignaendurflokkunarbókar** þarf að fylla reitina út eftir þörfum.
+1. <span data-ttu-id="ddd2b-151">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **sniðmát endurflokkunarbókar eignar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-151">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Reclass. Journal Templates**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="ddd2b-152">Valin er viðeigandi sniðmát færslubókar og veldu svo **keyrslur** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-152">Select the relevant journal template, and then choose the **Batches** action.</span></span>
+3. <span data-ttu-id="ddd2b-153">Í glugganum **keyrslur eignaendurflokkunarbókar** þarf að fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-153">In the **FA Reclass. Journal Batches** window, fill in the fields as necessary.</span></span>
 
-## <a name="to-set-up-fixed-asset-class-codes"></a>Uppsetning eignaflokkskóða
-Flokkskóðana er hægt að nota við aðalflokkun eigna, eins og til dæmis í áþreifanlegar og óáþreifanlegar eignir.
+## <a name="to-set-up-fixed-asset-class-codes"></a><span data-ttu-id="ddd2b-154">Uppsetning eignaflokkskóða</span><span class="sxs-lookup"><span data-stu-id="ddd2b-154">To set up fixed asset class codes</span></span>
+<span data-ttu-id="ddd2b-155">Flokkskóðana er hægt að nota við aðalflokkun eigna, eins og til dæmis í áþreifanlegar og óáþreifanlegar eignir.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-155">Fixed asset class codes can be used to group fixed assets, for example, in tangible and intangible assets.</span></span>
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Eignaflokkar** og velja svo viðeigandi tengil.
-2. Færðir eru inn kótar og heiti á flokkunum sem búa á til.
+1. <span data-ttu-id="ddd2b-156">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Eignaflokkar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-156">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Classes**, and then choose the related link.</span></span>
+2. <span data-ttu-id="ddd2b-157">Færðir eru inn kótar og heiti á flokkunum sem búa á til.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-157">Enter codes and names for the classes that you want to create.</span></span>
 
-## <a name="to-set-up-fixed-asset-subclass-codes"></a>Uppsetning eignaundirflokkskóða
-Kóðar eignaundirflokks eru notaðir til að flokka eignir, s.s. í byggingar, ökutæki, húsbúnað eða vélbúnað.  
+## <a name="to-set-up-fixed-asset-subclass-codes"></a><span data-ttu-id="ddd2b-158">Uppsetning eignaundirflokkskóða</span><span class="sxs-lookup"><span data-stu-id="ddd2b-158">To set up fixed asset subclass codes</span></span>
+<span data-ttu-id="ddd2b-159">Kóðar eignaundirflokks eru notaðir til að flokka eignir, s.s. í byggingar, ökutæki, húsbúnað eða vélbúnað.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-159">You use fixed asset subclass codes to group your fixed assets into categories, such as buildings, vehicles, furniture, or machinery.</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Eignaundirflokkar** og velja svo viðeigandi tengil.
-2. Færðir eru inn kótar og heiti á flokkunum sem búa á til.
+1. <span data-ttu-id="ddd2b-160">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Eignaundirflokkar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-160">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Subclasses**, and then choose the related link.</span></span>
+2. <span data-ttu-id="ddd2b-161">Færðir eru inn kótar og heiti á flokkunum sem búa á til.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-161">Enter codes and names for the classes that you want to create.</span></span>
 
-## <a name="to-set-up-fixed-asset-location-codes"></a>Staðsetningarkóðar eigna eru settir þannig upp:
-Eignastaðsetningarkóta eru notaðir til að skrá staðsetningu eignarinnar, s.s. í söludeild, móttöku, stjórnunardeild, framleiðsludeild eða vöruhúsi. Þessar upplýsingar koma að gagni við vátryggingar og birgðir.
+## <a name="to-set-up-fixed-asset-location-codes"></a><span data-ttu-id="ddd2b-162">Staðsetningarkóðar eigna eru settir þannig upp:</span><span class="sxs-lookup"><span data-stu-id="ddd2b-162">To set up fixed asset location codes</span></span>
+<span data-ttu-id="ddd2b-163">Eignastaðsetningarkóta eru notaðir til að skrá staðsetningu eignarinnar, s.s. í söludeild, móttöku, stjórnunardeild, framleiðsludeild eða vöruhúsi.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-163">You use fixed asset location codes to register the location of the fixed asset, such as sales department, reception, administration, production, or warehouse.</span></span> <span data-ttu-id="ddd2b-164">Þessar upplýsingar koma að gagni við vátryggingar og birgðir.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-164">This information is useful for insurance and inventory purposes.</span></span>
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetning eigna** og velja svo viðeigandi tengil.
-2. Færðir eru inn kóðar og heiti á staðsetningum eigna sem búa á til.
+1. <span data-ttu-id="ddd2b-165">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetning eigna** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-165">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA locations**, and then choose the related link.</span></span>
+2. <span data-ttu-id="ddd2b-166">Færðir eru inn kóðar og heiti á staðsetningum eigna sem búa á til.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-166">Enter codes and names for the fixed asset locations that you want to create.</span></span>
 
-## <a name="to-register-opening-entries"></a>Skráning opnunarfærslna
-Ef verið er að nota eignirnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] í fyrsta sinn, verður að setja upp fjárhagskerfishlutann áður en eignir eru settar upp. Hvernig þetta er gert fer eftir því hvort eignir séu hluti af fjárhag.  
+## <a name="to-register-opening-entries"></a><span data-ttu-id="ddd2b-167">Skráning opnunarfærslna</span><span class="sxs-lookup"><span data-stu-id="ddd2b-167">To register opening entries</span></span>
+<span data-ttu-id="ddd2b-168">Ef verið er að nota eignirnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] í fyrsta sinn, verður að setja upp fjárhagskerfishlutann áður en eignir eru settar upp.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-168">If you are using the fixed assets in [!INCLUDE[d365fin](includes/d365fin_md.md)] for the first time, you must set up the general ledger application area before you set up fixed assets.</span></span> <span data-ttu-id="ddd2b-169">Hvernig þetta er gert fer eftir því hvort eignir séu hluti af fjárhag.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-169">How you do this depends on whether fixed assets is integrated with general ledger.</span></span>  
 
- Eftirfarandi aðferð er notuð ef bóka á eignafærslur í fjárhag.  
+ <span data-ttu-id="ddd2b-170">Eftirfarandi aðferð er notuð ef bóka á eignafærslur í fjárhag.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-170">The following procedure is used if fixed asset transactions are to be posted to the general ledger.</span></span>  
 
-1. Gæta skal þess að lokið sé við grunnuppsetningu eigna.  
-2. Búið er til eignaspjald fyrir hverja eign sem til er.  
-3. Uppsetning afskriftabóka eigna.  
-4. Virkja fjárhagssamþættingu með því að fylgja næstu skrefum.
-5. Í reitnum **Leit** skal færa inn **Afskriftabækur** og velja síðan viðkomandi tengil.  
-6. Velja skal viðeigandi afskriftabók. Á flipanum **Heim** í flokknum **Stjórna** veljið **Breyta lista** til að opna gluggann **Afskriftabókarspjald**.
-7. Ganga skal úr skugga um að á flýtiflipanum **Heildun** séu allir reitir auðir með því að hreinsa öll gátmerki. Ef um er að ræða fleiri en eina afskriftabók skal virkja fjárhagssamþættingu fyrir hverja þeirra.  
-8. Í eignabókinni eru færðar eftirfarandi línur fyrir hverja eign:
-   * Færð er inn lína með stofnkostnaðinum.
-   * Lína með uppsafnaðar afskriftir til loka fyrra fjárhagsárs.
-   * Lína með uppsafnaðar afskriftir frá upphafi yfirstandandi reikningsárs til dagsetningarinnar sem [!INCLUDE[d365fin](includes/d365fin_md.md)] er stillt á og setur af stað útreikning á afskriftunum.
+1. <span data-ttu-id="ddd2b-171">Gæta skal þess að lokið sé við grunnuppsetningu eigna.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-171">Make sure that you have completed the basic setup procedures for fixed assets.</span></span>  
+2. <span data-ttu-id="ddd2b-172">Búið er til eignaspjald fyrir hverja eign sem til er.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-172">Create a fixed asset card for each existing asset.</span></span>  
+3. <span data-ttu-id="ddd2b-173">Uppsetning afskriftabóka eigna.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-173">Set up fixed asset depreciation books.</span></span>  
+4. <span data-ttu-id="ddd2b-174">Virkja fjárhagssamþættingu með því að fylgja næstu skrefum.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-174">Enable general ledger integration by following the next steps.</span></span>
+5. <span data-ttu-id="ddd2b-175">Í reitnum **Leit** skal færa inn **Afskriftabækur** og velja síðan viðkomandi tengil.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-175">In the **Search** box, enter **Depreciation Books**, and then choose the related link.</span></span>  
+6. <span data-ttu-id="ddd2b-176">Velja skal viðeigandi afskriftabók.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-176">Select the relevant depreciation book.</span></span> <span data-ttu-id="ddd2b-177">Á flipanum **Heim** í flokknum **Stjórna** veljið **Breyta lista** til að opna gluggann **Afskriftabókarspjald**.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-177">On the **Home** tab, in the **Manage** group, choose **Edit** to open the **Depreciation Book Card** window.</span></span>
+7. <span data-ttu-id="ddd2b-178">Ganga skal úr skugga um að á flýtiflipanum **Heildun** séu allir reitir auðir með því að hreinsa öll gátmerki.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-178">On the **Integration** FastTab, make sure all fields are blank by clearing all check marks.</span></span> <span data-ttu-id="ddd2b-179">Ef um er að ræða fleiri en eina afskriftabók skal virkja fjárhagssamþættingu fyrir hverja þeirra.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-179">If you have more than one depreciation book, turn on general ledger integration for each one.</span></span>  
+8. <span data-ttu-id="ddd2b-180">Í eignabókinni eru færðar eftirfarandi línur fyrir hverja eign:</span><span class="sxs-lookup"><span data-stu-id="ddd2b-180">In the fixd asset journal, enter the following lines for each asset:</span></span>
+   * <span data-ttu-id="ddd2b-181">Færð er inn lína með stofnkostnaðinum.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-181">A line with the acquisition cost.</span></span>
+   * <span data-ttu-id="ddd2b-182">Lína með uppsafnaðar afskriftir til loka fyrra fjárhagsárs.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-182">A line with the accumulated depreciation to the end of the previous fiscal year.</span></span>
+   * <span data-ttu-id="ddd2b-183">Lína með uppsafnaðar afskriftir frá upphafi yfirstandandi reikningsárs til dagsetningarinnar sem [!INCLUDE[d365fin](includes/d365fin_md.md)] er stillt á og setur af stað útreikning á afskriftunum.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-183">A line with the accumulated depreciation from the start of the current fiscal year to the date that [!INCLUDE[d365fin](includes/d365fin_md.md)] is set to start calculating the depreciation.</span></span>
 
-Ef þú ert með aðrar opnunarstöður geturðu einnig fært þær inn núna, eins og niður\-færsla og uppfærsla.  
+<span data-ttu-id="ddd2b-184">Ef þú ert með aðrar opnunarstöður geturðu einnig fært þær inn núna, eins og niður\-færsla og uppfærsla.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-184">If you have other opening balances you can also enter them now, such as write\-down and appreciation.</span></span>  
 
-Ef eignirnar eru ekki samþættar fjárhag er sleppt skrefum 4 til og með 7.
+<span data-ttu-id="ddd2b-185">Ef eignirnar eru ekki samþættar fjárhag er sleppt skrefum 4 til og með 7.</span><span class="sxs-lookup"><span data-stu-id="ddd2b-185">If the fixed assets are not integrated with the general ledger, skip steps 4 through 7.</span></span>
 
-## <a name="see-also"></a>Sjá einnig
-[Uppsetning eigna](fa-setup.md)  
-[Eignir](fa-manage.md)  
-[Fjármál](finance.md)  
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="ddd2b-186">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="ddd2b-186">See Also</span></span>
+[<span data-ttu-id="ddd2b-187">Uppsetning eigna</span><span class="sxs-lookup"><span data-stu-id="ddd2b-187">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="ddd2b-188">Eignir</span><span class="sxs-lookup"><span data-stu-id="ddd2b-188">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="ddd2b-189">Fjármál</span><span class="sxs-lookup"><span data-stu-id="ddd2b-189">Finance</span></span>](finance.md)  
+<span data-ttu-id="ddd2b-190">[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="ddd2b-190">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="ddd2b-191">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ddd2b-191">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

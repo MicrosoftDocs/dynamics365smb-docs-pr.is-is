@@ -15,47 +15,47 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1620e69ce8018256780dcba108c31312c02166cb
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-allocate-costs-and-income"></a>Hvernig á að: úthluta kostnaði og tekjum
-Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. Framkvæma má úthlutunina miðað við þrjú atriði:
+# <a name="how-to-allocate-costs-and-income"></a><span data-ttu-id="67b70-103">Hvernig á að: úthluta kostnaði og tekjum</span><span class="sxs-lookup"><span data-stu-id="67b70-103">How to: Allocate Costs and Income</span></span>
+<span data-ttu-id="67b70-104">Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð.</span><span class="sxs-lookup"><span data-stu-id="67b70-104">You can allocate an entry in a general journal to several different accounts when you post the journal.</span></span> <span data-ttu-id="67b70-105">Framkvæma má úthlutunina miðað við þrjú atriði:</span><span class="sxs-lookup"><span data-stu-id="67b70-105">The allocation can be made by three different methods:</span></span>
 
-* Magn
-* Prósentuhlutfall (%)
-* Upphæð
+* <span data-ttu-id="67b70-106">Magn</span><span class="sxs-lookup"><span data-stu-id="67b70-106">Quantity</span></span>
+* <span data-ttu-id="67b70-107">Prósentuhlutfall (%)</span><span class="sxs-lookup"><span data-stu-id="67b70-107">Percentage (%)</span></span>
+* <span data-ttu-id="67b70-108">Upphæð</span><span class="sxs-lookup"><span data-stu-id="67b70-108">Amount</span></span>
 
-Nota má úthlutunareiginleika með ítrekunarfærslubókum og eignabókum.
+<span data-ttu-id="67b70-109">Nota má úthlutunareiginleika með ítrekunarfærslubókum og eignabókum.</span><span class="sxs-lookup"><span data-stu-id="67b70-109">The allocation features can be used with recurring general journals and in fixed assets journals.</span></span>
 <!--You can also distribute the cost or revenue of a line to an intercompany partner when you post a sales or purchase document. When you post the document, a line will be posted in your general journal, and a corresponding line will be created in the intercompany outbox.-->
 
-Eftirfarandi ferli lýsa því hvernig skal búa sig undir það að úthluta kostnaði í ítrekunarfærslubók með því að skilgreina úthlutunarlykla. Þegar úthlutunarlyklar eru skilgreindir, er færslubókin kláruð og bókuð eins og hver önnur ítrekunarfærslubók. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
+<span data-ttu-id="67b70-110">Eftirfarandi ferli lýsa því hvernig skal búa sig undir það að úthluta kostnaði í ítrekunarfærslubók með því að skilgreina úthlutunarlykla.</span><span class="sxs-lookup"><span data-stu-id="67b70-110">The following procedures describe how to prepare to allocate costs in a recurring general journal by defining allocation keys.</span></span> <span data-ttu-id="67b70-111">Þegar úthlutunarlyklar eru skilgreindir, er færslubókin kláruð og bókuð eins og hver önnur ítrekunarfærslubók.</span><span class="sxs-lookup"><span data-stu-id="67b70-111">When allocation keys are defined, you complete and post the journal like any other recurring general journal.</span></span> <span data-ttu-id="67b70-112">Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="67b70-112">For more information, see [Working with General Journals](ui-work-general-journals.md).</span></span>
 
-## <a name="to-set-up-allocation-keys"></a>setja upp úthlutunarlykla
-Hægt er að úthluta færslu úr ítrekunarfærslubók til nokkurra reikninga þegar færslubókin er bókuð. Úthlutunin getur verið í magni, prósentu eða upphæð.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Ítrekunarfærslubók** og velja svo viðeigandi tengil.
-2. Veldu **runuheiti** reitinn til að opna **færslubókarkeyrslu** gluggann.
-3. Þú getur annað hvort breytt úthlutunum á fyrirliggjandi runu í listanum eða stofna nýja runu með úthlutunum.
-   * Til að stofna nýja runu, velja **Nýtt** aðgerð og farið á næsta skref.
-   * Til að breyta úthlutunum fyrir núverandi færslubók, veldu færslubók og farðu í skref 7.    
-4. Í reitnum **Heiti** er fært inn heiti fyrir keyrsluna, eins og Þrif. Í reitnum **Lýsing** færið inn lýsingu, eins og Hreinsa kostnaðarbók.
-5. Lokið glugganum þegar þessu er lokið. Ný, auð ítrekunarbók opnast.
-6. Reitirnir í línunni eru fylltir út.
-7. Valið er **úthluta** aðgerð.
-8. Lína er bætt við fyrir hverja úthlutun. Annaðhvort þarf að fylla út reitinn **Úthlutun %**, **Úthlutunarmagn** eða **Upphæð**. Þú verður einnig að fylla inn í **reikningsnúmer**,  reitinn, og í reitina í altækum víddum ef færslan á að fara í altækar víddir.
-9. Þegar prósenta er færð í línu reiknast upphæðin í reitnum **Upphæð** sjálfkrafa. Þessar upphæðir verða að hafa andstætt merki við það sem heildarupphæðin í reitnum **Upphæð** er með í ítrekunarbókinni.
-10. Eftir að hafa fært inn úthlutunarlínurnar skal velja **Í lagi** til að fara aftur í gluggann **endurteknar færslubækur**. Svæðið **Úthlutuð upphæð (USD)** er fyllt út og er eins og svæðið **Upphæð**.
-11. Bóka skal færslubókina.
+## <a name="to-set-up-allocation-keys"></a><span data-ttu-id="67b70-113">setja upp úthlutunarlykla</span><span class="sxs-lookup"><span data-stu-id="67b70-113">To set up allocation keys</span></span>
+<span data-ttu-id="67b70-114">Hægt er að úthluta færslu úr ítrekunarfærslubók til nokkurra reikninga þegar færslubókin er bókuð.</span><span class="sxs-lookup"><span data-stu-id="67b70-114">You can allocate an entry in a recurring general journal to several different accounts when you post the journal.</span></span> <span data-ttu-id="67b70-115">Úthlutunin getur verið í magni, prósentu eða upphæð.</span><span class="sxs-lookup"><span data-stu-id="67b70-115">The allocation can be made by quantity, percentage, or amount.</span></span>
+1. <span data-ttu-id="67b70-116">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Ítrekunarfærslubók** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="67b70-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="67b70-117">Veldu **runuheiti** reitinn til að opna **færslubókarkeyrslu** gluggann.</span><span class="sxs-lookup"><span data-stu-id="67b70-117">Choose the **Batch Name** field to open the **General Journal Batches** window.</span></span>
+3. <span data-ttu-id="67b70-118">Þú getur annað hvort breytt úthlutunum á fyrirliggjandi runu í listanum eða stofna nýja runu með úthlutunum.</span><span class="sxs-lookup"><span data-stu-id="67b70-118">You can either modify allocations on an existing batch in the list or create a new batch with allocations.</span></span>
+   * <span data-ttu-id="67b70-119">Til að stofna nýja runu, velja **Nýtt** aðgerð og farið á næsta skref.</span><span class="sxs-lookup"><span data-stu-id="67b70-119">To create a new batch, choose the **New** action, and go to the next step.</span></span>
+   * <span data-ttu-id="67b70-120">Til að breyta úthlutunum fyrir núverandi færslubók, veldu færslubók og farðu í skref 7.</span><span class="sxs-lookup"><span data-stu-id="67b70-120">To change the allocations of an existing journal, select the journal and go to step 7.</span></span>    
+4. <span data-ttu-id="67b70-121">Í reitnum **Heiti** er fært inn heiti fyrir keyrsluna, eins og Þrif.</span><span class="sxs-lookup"><span data-stu-id="67b70-121">In the **Name** field, enter a name for the batch, such as CLEANING.</span></span> <span data-ttu-id="67b70-122">Í reitnum **Lýsing** færið inn lýsingu, eins og Hreinsa kostnaðarbók.</span><span class="sxs-lookup"><span data-stu-id="67b70-122">In the **Description** field, enter a description, such as Cleaning Expenses Journal.</span></span>
+5. <span data-ttu-id="67b70-123">Lokið glugganum þegar þessu er lokið.</span><span class="sxs-lookup"><span data-stu-id="67b70-123">When you are done, close the window.</span></span> <span data-ttu-id="67b70-124">Ný, auð ítrekunarbók opnast.</span><span class="sxs-lookup"><span data-stu-id="67b70-124">A new, empty recurring journal opens.</span></span>
+6. <span data-ttu-id="67b70-125">Reitirnir í línunni eru fylltir út.</span><span class="sxs-lookup"><span data-stu-id="67b70-125">Fill in the fields on the line.</span></span>
+7. <span data-ttu-id="67b70-126">Valið er **úthluta** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="67b70-126">Choose the **Allocations** action.</span></span>
+8. <span data-ttu-id="67b70-127">Lína er bætt við fyrir hverja úthlutun.</span><span class="sxs-lookup"><span data-stu-id="67b70-127">Add a line for each allocation.</span></span> <span data-ttu-id="67b70-128">Annaðhvort þarf að fylla út reitinn **Úthlutun %**, **Úthlutunarmagn** eða **Upphæð**.</span><span class="sxs-lookup"><span data-stu-id="67b70-128">You must fill in either the **Allocation %**, **Allocation Quantity**, or **Amount** field.</span></span> <span data-ttu-id="67b70-129">Þú verður einnig að fylla inn í **reikningsnúmer**, </span><span class="sxs-lookup"><span data-stu-id="67b70-129">You must also fill in the **Account No.**</span></span> <span data-ttu-id="67b70-130">reitinn, og í reitina í altækum víddum ef færslan á að fara í altækar víddir.</span><span class="sxs-lookup"><span data-stu-id="67b70-130">field and, if you are allocating the transaction among global dimensions, the global dimension fields.</span></span>
+9. <span data-ttu-id="67b70-131">Þegar prósenta er færð í línu reiknast upphæðin í reitnum **Upphæð** sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="67b70-131">If you enter a percentage on a line, the amount in the **Amount** field is calculated automatically.</span></span> <span data-ttu-id="67b70-132">Þessar upphæðir verða að hafa andstætt merki við það sem heildarupphæðin í reitnum **Upphæð** er með í ítrekunarbókinni.</span><span class="sxs-lookup"><span data-stu-id="67b70-132">These amounts have the opposite sign from the total amount in the **Amount** field in the recurring journal.</span></span>
+10. <span data-ttu-id="67b70-133">Eftir að hafa fært inn úthlutunarlínurnar skal velja **Í lagi** til að fara aftur í gluggann **endurteknar færslubækur**.</span><span class="sxs-lookup"><span data-stu-id="67b70-133">After entering the allocations lines, choose **OK** to return to the **Recurring General Journal** window.</span></span> <span data-ttu-id="67b70-134">Svæðið **Úthlutuð upphæð (USD)** er fyllt út og er eins og svæðið **Upphæð**.</span><span class="sxs-lookup"><span data-stu-id="67b70-134">The **Allocated Amt. (USD)** field is filled in and matches the **Amount** field.</span></span>
+11. <span data-ttu-id="67b70-135">Bóka skal færslubókina.</span><span class="sxs-lookup"><span data-stu-id="67b70-135">Post the journal.</span></span>
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Breyta uppsettum úthlutunarlykli.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Ítrekunarfærslubók** og velja svo viðeigandi tengil.
-2. Í glugganum**Ítrekunarfærslubók** er færslubók með úthlutun valin.
-3. Velja línu með úthlutuninni og velja síðan **úthlutanir**.
-4. Breyta viðeigandi reitum, og velja svo hnappinn **Í lagi**.
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a><span data-ttu-id="67b70-136">Breyta uppsettum úthlutunarlykli.</span><span class="sxs-lookup"><span data-stu-id="67b70-136">To change an allocation key that has already been set up</span></span>
+1. <span data-ttu-id="67b70-137">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Ítrekunarfærslubók** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="67b70-137">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Recurring General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="67b70-138">Í glugganum**Ítrekunarfærslubók** er færslubók með úthlutun valin.</span><span class="sxs-lookup"><span data-stu-id="67b70-138">In the **Recurring General Journal** window, select the journal with the allocation.</span></span>
+3. <span data-ttu-id="67b70-139">Velja línu með úthlutuninni og velja síðan **úthlutanir**.</span><span class="sxs-lookup"><span data-stu-id="67b70-139">Choose the line with the allocation, and then choose **Allocations** action.</span></span>
+4. <span data-ttu-id="67b70-140">Breyta viðeigandi reitum, og velja svo hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="67b70-140">Change the relevant fields, and then choose the **OK** button.</span></span>
 
-## <a name="see-also"></a>Sjá einnig
-[Lokaár og Tímabil](year-close-years-periods.md)  
-[Vinna í færslubókum](ui-work-general-journals.md)    
-[Að bóka skjöl og færslubækur](ui-post-documents-journals.md)    
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="67b70-141">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="67b70-141">See Also</span></span>
+[<span data-ttu-id="67b70-142">Lokaár og Tímabil</span><span class="sxs-lookup"><span data-stu-id="67b70-142">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+<span data-ttu-id="67b70-143">[Vinna í færslubókum](ui-work-general-journals.md)  </span><span class="sxs-lookup"><span data-stu-id="67b70-143">[Working with General Journals](ui-work-general-journals.md)  </span></span>  
+<span data-ttu-id="67b70-144">[Að bóka skjöl og færslubækur](ui-post-documents-journals.md)  </span><span class="sxs-lookup"><span data-stu-id="67b70-144">[Posting Documents and Journals](ui-post-documents-journals.md)  </span></span>  
+<span data-ttu-id="67b70-145">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="67b70-145">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

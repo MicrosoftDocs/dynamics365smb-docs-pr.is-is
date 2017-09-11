@@ -15,20 +15,19 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 29b204502281b728889098ae8d88f928e4f46e20
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="using-dynamics-365-for-financials-without-outlook"></a>Notkun Dynamics 365 for Financials án Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] hefur mikla samþættingu við Office 365 og þú getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)] sem fyrirtækisinnhólf í Outlook. En ef þú ert ekki með Outlook, geturðu unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)] í vafra eða á fartækinu þínu.  
+# <a name="using-dynamics-365-for-financials-without-outlook"></a><span data-ttu-id="e1899-103">Notkun Dynamics 365 for Financials án Outlook</span><span class="sxs-lookup"><span data-stu-id="e1899-103">Using Dynamics 365 for Financials without Outlook</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="e1899-104"> hefur mikla samþættingu við Office 365 og þú getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)] sem fyrirtækisinnhólf í Outlook.</span><span class="sxs-lookup"><span data-stu-id="e1899-104"> has deep integration with Office 365, and you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook.</span></span> <span data-ttu-id="e1899-105">En ef þú ert ekki með Outlook, geturðu unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)] í vafra eða á fartækinu þínu.</span><span class="sxs-lookup"><span data-stu-id="e1899-105">But if you do not have Outlook, you can work with [!INCLUDE[d365fin](includes/d365fin_md.md)] in the browser or on your mobile device.</span></span>  
 
-## <a name="sending-email"></a>Senda Tölvupóst
-Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfangi fyrirtækis. Úr á heimasíðu fæst aðgangur uppsetningarleiðbeiningum með hjálp sem hjálpa þer að setja upp tölvupóst. Ef þú notar ekki office 365 tölvupóstreikning, verður þú að tilgreina tæknilegar upplýsingar um tölvupóstþjóninn þinn. Ef þú ert ekki með þessar upplýsingar tiltækar, hafðu samband við starfsfólk þitt sem veitir tækniþjónustu.  
+## <a name="sending-email"></a><span data-ttu-id="e1899-106">Senda Tölvupóst</span><span class="sxs-lookup"><span data-stu-id="e1899-106">Sending Email</span></span>
+<span data-ttu-id="e1899-107">Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfangi fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="e1899-107">You can send documents such as invoices as email using your business email address.</span></span> <span data-ttu-id="e1899-108">Úr á heimasíðu fæst aðgangur uppsetningarleiðbeiningum með hjálp sem hjálpa þer að setja upp tölvupóst.</span><span class="sxs-lookup"><span data-stu-id="e1899-108">From your Home page, you can access an assisted setup guide that helps you set up email.</span></span> <span data-ttu-id="e1899-109">Ef þú notar ekki office 365 tölvupóstreikning, verður þú að tilgreina tæknilegar upplýsingar um tölvupóstþjóninn þinn.</span><span class="sxs-lookup"><span data-stu-id="e1899-109">If you do not use an Office 365 email account, you must specify technical information about your mail server.</span></span> <span data-ttu-id="e1899-110">Ef þú ert ekki með þessar upplýsingar tiltækar, hafðu samband við starfsfólk þitt sem veitir tækniþjónustu.</span><span class="sxs-lookup"><span data-stu-id="e1899-110">If you do not have this information available, please contact your IT support staff.</span></span>  
 
 
-## <a name="see-also"></a>Sjá einnig
-[Velkomin(n) í Dynamics 365 for Financials](index.md)  
-[Notkun Financials sem fyrirtækjainnhólf í Outlook](madeira-outlook.md)  
-[Sækja Financials í fartækinu](install-mobile-app.md)  
-[Hvernig á að: Senda skjöl í tölvupósti](ui-how-send-documents-email.md)
+## <a name="see-also"></a><span data-ttu-id="e1899-111">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="e1899-111">See Also</span></span>
+[<span data-ttu-id="e1899-112">Velkomin(n) í Dynamics 365 for Financials</span><span class="sxs-lookup"><span data-stu-id="e1899-112">Welcome to Dynamics 365 for Financials</span></span>](index.md)  
+[<span data-ttu-id="e1899-113">Notkun Financials sem fyrirtækjainnhólf í Outlook</span><span class="sxs-lookup"><span data-stu-id="e1899-113">Using Financials as your Business Inbox in Outlook</span></span>](madeira-outlook.md)  
+[<span data-ttu-id="e1899-114">Sækja Financials í fartækinu</span><span class="sxs-lookup"><span data-stu-id="e1899-114">Getting Financials on my Mobile Device</span></span>](install-mobile-app.md)  
+[<span data-ttu-id="e1899-115">Hvernig á að: Senda skjöl í tölvupósti</span><span class="sxs-lookup"><span data-stu-id="e1899-115">How to: Send Documents by Email</span></span>](ui-how-send-documents-email.md)
 

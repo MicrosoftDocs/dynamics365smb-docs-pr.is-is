@@ -16,79 +16,78 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 71210a9acbd196581aa4397264b462728007e5e8
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-maintain-fixed-assets"></a>Hvernig á að: Viðhalda Eignir
-Viðhaldskostnaður er reglubundinn kostnaður sem varið er til þess að viðhalda virði eigna. Ólíkt viðbótarfjárfestingum eykur hann ekki verðgildi.
+# <a name="how-to-maintain-fixed-assets"></a><span data-ttu-id="16ed1-103">Hvernig á að: Viðhalda Eignir</span><span class="sxs-lookup"><span data-stu-id="16ed1-103">How to: Maintain Fixed Assets</span></span>
+<span data-ttu-id="16ed1-104">Viðhaldskostnaður er reglubundinn kostnaður sem varið er til þess að viðhalda virði eigna.</span><span class="sxs-lookup"><span data-stu-id="16ed1-104">Maintenance expenses are routine periodic costs undertaken to preserve the value of fixed assets.</span></span> <span data-ttu-id="16ed1-105">Ólíkt viðbótarfjárfestingum eykur hann ekki verðgildi.</span><span class="sxs-lookup"><span data-stu-id="16ed1-105">Unlike capital improvements, they do not increase values.</span></span>
 
-Hægt er að skrá og viðhalda dagréttri skrá um viðhald og þjónustu við eignir og hafa þannig fullkomnar viðhaldsskrár um eignir aðgengilegar. Í hvert sinn sem eign fær þjónustu skráir notandi allar viðeigandi upplýsingar eins og dagsetningu, númer lánardrottins og símanúmer þjónustuaðila. Skráning viðhalds er færð vegna allra eigna á viðeigandi eignaspjaldi.
+<span data-ttu-id="16ed1-106">Hægt er að skrá og viðhalda dagréttri skrá um viðhald og þjónustu við eignir og hafa þannig fullkomnar viðhaldsskrár um eignir aðgengilegar.</span><span class="sxs-lookup"><span data-stu-id="16ed1-106">You can record and maintain an up-to-date file on maintenance and service of your fixed assets to have complete maintenance records on a fixed asset easily accessible.</span></span> <span data-ttu-id="16ed1-107">Í hvert sinn sem eign fær þjónustu skráir notandi allar viðeigandi upplýsingar eins og dagsetningu, númer lánardrottins og símanúmer þjónustuaðila.</span><span class="sxs-lookup"><span data-stu-id="16ed1-107">Each time a fixed asset is sent to service, you record all relevant information such as date of service, vendor number and service agent's phone number.</span></span> <span data-ttu-id="16ed1-108">Skráning viðhalds er færð vegna allra eigna á viðeigandi eignaspjaldi.</span><span class="sxs-lookup"><span data-stu-id="16ed1-108">Maintenance registration is recorded for each fixed asset from the relevant fixed asset card.</span></span>
 
-Endurmat er notað til að laga virði að almennum verðbreytingum. Hægt er að nota keyrsluna **Endurmat eigna** til að endurreikna viðhaldskostnað.
+<span data-ttu-id="16ed1-109">Endurmat er notað til að laga virði að almennum verðbreytingum.</span><span class="sxs-lookup"><span data-stu-id="16ed1-109">Indexation is used to adjust values for general price-level changes.</span></span> <span data-ttu-id="16ed1-110">Hægt er að nota keyrsluna **Endurmat eigna** til að endurreikna viðhaldskostnað.</span><span class="sxs-lookup"><span data-stu-id="16ed1-110">The **Index Fixed Assets** batch job can be used to recalculate the maintenance costs.</span></span>
 
-## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>Skrá viðhaldsvinna á eign
-Í hvert sinn sem viðhaldi hefur verið framkvæmt, eins og þjónustuheimsókn, er hægt að skrá það á viðeigandi eign í glugganum **Skráning viðhalds**.  
+## <a name="to-record-maintenance-work-on-a-fixed-asset"></a><span data-ttu-id="16ed1-111">Skrá viðhaldsvinna á eign</span><span class="sxs-lookup"><span data-stu-id="16ed1-111">To record maintenance work on a fixed asset</span></span>
+<span data-ttu-id="16ed1-112">Í hvert sinn sem viðhaldi hefur verið framkvæmt, eins og þjónustuheimsókn, er hægt að skrá það á viðeigandi eign í glugganum **Skráning viðhalds**.</span><span class="sxs-lookup"><span data-stu-id="16ed1-112">Every time maintenance has been performed, such as a service visit, you can record it for the relevant fixed asset in the **Maintenance Registrations** window.</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignir** og velja svo viðeigandi tengil.  
-2. Valin er eignin sem á að skrá viðhald fyrir og veldu síðan aðgerðina **skráning viðhalds**.
-3. Í glugganum **skráning viðhalds** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="16ed1-113">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignir** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="16ed1-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="16ed1-114">Valin er eignin sem á að skrá viðhald fyrir og veldu síðan aðgerðina **skráning viðhalds**.</span><span class="sxs-lookup"><span data-stu-id="16ed1-114">Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.</span></span>
+3. <span data-ttu-id="16ed1-115">Í glugganum **skráning viðhalds** þarf að fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="16ed1-115">In the **Maintenance Registration** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Bóka viðhaldskostnað úr fjárhagsbók eigna
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afskriftabókalisti** og velja svo viðeigandi tengil.  
-2. Veljið afskriftabókina sem er tengd eigninni og veljið síðan aðgerðina **breyta**.
-3. Í glugganum **Afskriftabókarspjald** skal ganga úr skugga um að gátreiturinn **Viðhald** er ekki valinn. Þetta tryggir að viðhaldskostnaðar eru ekki bókaðar í fjárhag.
-4. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsbók eigna** og velja svo viðeigandi tengil.  
-5. Stofnaður er upprunaleg Færslubókarlína og reitirnir fylltir út eftir þörfum.
-6. Í reitnum **Eignabókunartegund** er valinn **viðhald**.
-7. Valið er **Setja inn mótreikn. eigna** aðgerð. Seinni færslubókarlína er búin til fyrir mótreiknings sem er sett upp fyrir bókun viðhalds.
+## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a><span data-ttu-id="16ed1-116">Bóka viðhaldskostnað úr fjárhagsbók eigna</span><span class="sxs-lookup"><span data-stu-id="16ed1-116">To post maintenance costs from a fixed asset G/L journal</span></span>
+1. <span data-ttu-id="16ed1-117">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afskriftabókalisti** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="16ed1-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Book List**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="16ed1-118">Veljið afskriftabókina sem er tengd eigninni og veljið síðan aðgerðina **breyta**.</span><span class="sxs-lookup"><span data-stu-id="16ed1-118">Select the depreciation book that is assigned to the fixed asset, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="16ed1-119">Í glugganum **Afskriftabókarspjald** skal ganga úr skugga um að gátreiturinn **Viðhald** er ekki valinn.</span><span class="sxs-lookup"><span data-stu-id="16ed1-119">In the **Depreciation Book Card** window, make sure the **Maintenance** check box is not selected.</span></span> <span data-ttu-id="16ed1-120">Þetta tryggir að viðhaldskostnaðar eru ekki bókaðar í fjárhag.</span><span class="sxs-lookup"><span data-stu-id="16ed1-120">This ensures that maintenance costs are not posted to the general ledger.</span></span>
+4. <span data-ttu-id="16ed1-121">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsbók eigna** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="16ed1-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA G/L Journals**, and then choose the related link.</span></span>  
+5. <span data-ttu-id="16ed1-122">Stofnaður er upprunaleg Færslubókarlína og reitirnir fylltir út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="16ed1-122">Create an initial journal line and fill in the fields as necessary.</span></span>
+6. <span data-ttu-id="16ed1-123">Í reitnum **Eignabókunartegund** er valinn **viðhald**.</span><span class="sxs-lookup"><span data-stu-id="16ed1-123">In the **FA Posting Type** field, select **Maintenance**.</span></span>
+7. <span data-ttu-id="16ed1-124">Valið er **Setja inn mótreikn. eigna** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="16ed1-124">Choose the **Insert FA Bal. Account** action.</span></span> <span data-ttu-id="16ed1-125">Seinni færslubókarlína er búin til fyrir mótreiknings sem er sett upp fyrir bókun viðhalds.</span><span class="sxs-lookup"><span data-stu-id="16ed1-125">A second journal line is created for the balancing account that is set up for maintenance posting.</span></span>
 
     > [!NOTE]  
->   Skref 7 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** glugganum fyrir bókunarflokkur eigna, inniheldur reiturinn **Viðhaldsreikningur** debetreikning fjárhags og reiturinn **Mótreikningur viðhalds** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir uppfærslu. Nánari upplýsingar eru í "setja upp bókunarflokka eigna" hlutanum í [Hvernig: Setja Upp almennar upplýsingar um eignir](fa-how-setup-general.md).
-8. Valið er **bóka** aðgerð.
+>   <span data-ttu-id="16ed1-126">Skref 7 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** glugganum fyrir bókunarflokkur eigna, inniheldur reiturinn **Viðhaldsreikningur** debetreikning fjárhags og reiturinn **Mótreikningur viðhalds** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir uppfærslu.</span><span class="sxs-lookup"><span data-stu-id="16ed1-126">Step 7 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation.</span></span> <span data-ttu-id="16ed1-127">Nánari upplýsingar eru í "setja upp bókunarflokka eigna" hlutanum í [Hvernig: Setja Upp almennar upplýsingar um eignir](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="16ed1-127">For more information, see the "To set up fixed asset posting groups" section in [How to: Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>
+8. <span data-ttu-id="16ed1-128">Valið er **bóka** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="16ed1-128">Choose the **Post** action.</span></span>
 
-## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Til að fylgja eftir þjónustuheimsóknum eigna:
-Þú getur Prenta skýrsluna **Viðhald - Næsta þjónusta** til að skoða fyrir hvaða eignir er búið að áætla þjónustuheimsóknir. Einnig er hægt að nota þessa skýrslu þegar reiturinn **Næsta þjónustudags.** á eignspjöldunum er uppfærður.  
+## <a name="to-follow-up-on-fixed-assets-service-visits"></a><span data-ttu-id="16ed1-129">Til að fylgja eftir þjónustuheimsóknum eigna:</span><span class="sxs-lookup"><span data-stu-id="16ed1-129">To follow up on fixed assets service visits</span></span>
+<span data-ttu-id="16ed1-130">Þú getur Prenta skýrsluna **Viðhald - Næsta þjónusta** til að skoða fyrir hvaða eignir er búið að áætla þjónustuheimsóknir.</span><span class="sxs-lookup"><span data-stu-id="16ed1-130">You can print the **Maintenance - Next Service** report to see which assets you have scheduled a service visit for.</span></span> <span data-ttu-id="16ed1-131">Einnig er hægt að nota þessa skýrslu þegar reiturinn **Næsta þjónustudags.** á eignspjöldunum er uppfærður.</span><span class="sxs-lookup"><span data-stu-id="16ed1-131">You can also use this report when you are updating the **Next Service Date** field on fixed asset cards.</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Næsta viðhaldsþjónusta** og velja svo viðeigandi tengil.  
-2. Reitirnir **Upphafsdagsetning** og **Lokadagsetning** eru fylltir út.  
-3. Veljið hnappinn **Prenta** eða **Forskoðun**.
+1. <span data-ttu-id="16ed1-132">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Næsta viðhaldsþjónusta** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="16ed1-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Maintenance Next Service**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="16ed1-133">Reitirnir **Upphafsdagsetning** og **Lokadagsetning** eru fylltir út.</span><span class="sxs-lookup"><span data-stu-id="16ed1-133">Fill in the **Starting Date** and **Ending Date** fields.</span></span>  
+3. <span data-ttu-id="16ed1-134">Veljið hnappinn **Prenta** eða **Forskoðun**.</span><span class="sxs-lookup"><span data-stu-id="16ed1-134">Choose the **Print** or **Preview** button.</span></span>
 
-## <a name="to-monitor-maintenance-costs"></a>Fylgst með viðhaldskostnaði
-Hægt er að skoða viðhaldskostnaðinn þegar skoðaðar eru upplýsingar um eign.  
+## <a name="to-monitor-maintenance-costs"></a><span data-ttu-id="16ed1-135">Fylgst með viðhaldskostnaði</span><span class="sxs-lookup"><span data-stu-id="16ed1-135">To monitor maintenance costs</span></span>
+<span data-ttu-id="16ed1-136">Hægt er að skoða viðhaldskostnaðinn þegar skoðaðar eru upplýsingar um eign.</span><span class="sxs-lookup"><span data-stu-id="16ed1-136">You can view the maintenance costs when you look at the statistics of a fixed asset.</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignir** og velja svo viðeigandi tengil.
-2. Valin er eignin sem á að skoða viðhaldskostnað fyrir og veldu síðan aðgerðina **afskriftabækur**.
-3. Í reitnum **Eignaafskriftabækur** er valin viðeigandi eignaafskriftabók og síðan valið **upplýsingar** aðgerð.
-4. Í glugganum **Eignaupplýsingar** er valið **viðhald** .
+1. <span data-ttu-id="16ed1-137">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignir** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="16ed1-137">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="16ed1-138">Valin er eignin sem á að skoða viðhaldskostnað fyrir og veldu síðan aðgerðina **afskriftabækur**.</span><span class="sxs-lookup"><span data-stu-id="16ed1-138">Select the fixed asset you want to view maintenance costs for, and then choose the **Depreciation Books** action.</span></span>
+3. <span data-ttu-id="16ed1-139">Í reitnum **Eignaafskriftabækur** er valin viðeigandi eignaafskriftabók og síðan valið **upplýsingar** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="16ed1-139">In the **FA Depreciation Books** window, select the relevant fixed asset depreciation book, and then choose the **Statistics** action.</span></span>
+4. <span data-ttu-id="16ed1-140">Í glugganum **Eignaupplýsingar** er valið **viðhald** .</span><span class="sxs-lookup"><span data-stu-id="16ed1-140">In the **Fixed Asset Statistics** window, choose the **Maintenance** field.</span></span>
 
-Glugginn **viðhaldsbókarfærslur** opnast og sýnir færslur sem mynda upphæðina í reitnum **viðhald**.
+<span data-ttu-id="16ed1-141">Glugginn **viðhaldsbókarfærslur** opnast og sýnir færslur sem mynda upphæðina í reitnum **viðhald**.</span><span class="sxs-lookup"><span data-stu-id="16ed1-141">The **Maintenance Ledger Entries** window opens showing the entries that make up the amount in the **Maintenance** field.</span></span>
 
-## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Skoða eða prenta viðhaldskostnað fyrir margar eignir
-Í skýrslunni **Viðhald - Greining** er hægt er að velja að sjá viðhalds byggt á einn, tvo eða þrjá viðhaldskóta á tilgreindri dagsetningu eða tímabili. Einnig er hægt að sjá samtölu allra valinna eigna eða samtölu hverrar eignar fyrir sig.
+## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a><span data-ttu-id="16ed1-142">Skoða eða prenta viðhaldskostnað fyrir margar eignir</span><span class="sxs-lookup"><span data-stu-id="16ed1-142">To view or print maintenance costs for multiple fixed assets</span></span>
+<span data-ttu-id="16ed1-143">Í skýrslunni **Viðhald - Greining** er hægt er að velja að sjá viðhalds byggt á einn, tvo eða þrjá viðhaldskóta á tilgreindri dagsetningu eða tímabili.</span><span class="sxs-lookup"><span data-stu-id="16ed1-143">In the **Maintenance - Analysis** report, you can select to see maintenance based on one, two, or three maintenance codes for a specified date or period.</span></span> <span data-ttu-id="16ed1-144">Einnig er hægt að sjá samtölu allra valinna eigna eða samtölu hverrar eignar fyrir sig.</span><span class="sxs-lookup"><span data-stu-id="16ed1-144">You can see the total of all selected assets or a total for each asset.</span></span>
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greining um viðhald** og velja svo viðeigandi tengil.
-2. Fyllið inn í svæðin eftir þörfum.
-3. Veljið hnappinn **Prenta** eða **Forskoðun**.
+1. <span data-ttu-id="16ed1-145">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greining um viðhald** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="16ed1-145">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Maintenance Analysis**, and then choose the related link.</span></span>
+2. <span data-ttu-id="16ed1-146">Fyllið inn í svæðin eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="16ed1-146">Fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="16ed1-147">Veljið hnappinn **Prenta** eða **Forskoðun**.</span><span class="sxs-lookup"><span data-stu-id="16ed1-147">Choose the **Print** or **Preview** button.</span></span>
 
-## <a name="to-view-maintenance-ledger-entries"></a>Skoðun viðhaldsfærslna:
-Hægt er einnig að sjá viðhaldskostnaðinn með því að skoða viðhaldsbókarfærslurnar.  
+## <a name="to-view-maintenance-ledger-entries"></a><span data-ttu-id="16ed1-148">Skoðun viðhaldsfærslna:</span><span class="sxs-lookup"><span data-stu-id="16ed1-148">To view maintenance ledger entries</span></span>
+<span data-ttu-id="16ed1-149">Hægt er einnig að sjá viðhaldskostnaðinn með því að skoða viðhaldsbókarfærslurnar.</span><span class="sxs-lookup"><span data-stu-id="16ed1-149">You can also study maintenance costs by viewing the maintenance ledger entries.</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignir** og velja svo viðeigandi tengil.
-2. Valin er eignin sem á að skoða fjárhagsfærslur fyrir og veldu síðan aðgerðina **afskriftabækur**.
-3. Í reitnum **Eignaafskriftabækur** er valin viðeigandi eignaafskriftabók og síðan valið **viðhaldsbókarfærslur** aðgerð.
+1. <span data-ttu-id="16ed1-150">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignir** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="16ed1-150">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="16ed1-151">Valin er eignin sem á að skoða fjárhagsfærslur fyrir og veldu síðan aðgerðina **afskriftabækur**.</span><span class="sxs-lookup"><span data-stu-id="16ed1-151">Select the fixed asset that you want to view ledger entries for, and then choose the **Depreciation Books** action.</span></span>
+3. <span data-ttu-id="16ed1-152">Í reitnum **Eignaafskriftabækur** er valin viðeigandi eignaafskriftabók og síðan valið **viðhaldsbókarfærslur** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="16ed1-152">In the **FA Depreciation Books** window, select the relevant fixed asset depreciation book, and then choose the **Maintenance Ledger Entries** action.</span></span>
 
-## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Skoða eða prenta viðhaldsbókarfærslur fyrir margar eignir
-Í **Viðhald - Sundurliðun** skýrslu er hægt að skoða eða prenta viðhaldsbókarfærslur fyrir eina eða margar eignir.  
+## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a><span data-ttu-id="16ed1-153">Skoða eða prenta viðhaldsbókarfærslur fyrir margar eignir</span><span class="sxs-lookup"><span data-stu-id="16ed1-153">To view or print maintenance ledger entries for multiple fixed assets</span></span>
+<span data-ttu-id="16ed1-154">Í **Viðhald - Sundurliðun** skýrslu er hægt að skoða eða prenta viðhaldsbókarfærslur fyrir eina eða margar eignir.</span><span class="sxs-lookup"><span data-stu-id="16ed1-154">In the **Maintenance - Details** report, you can view or print maintenance ledger entries for one or many fixed assets.</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Upplýsingar um viðhald** og velja svo viðeigandi tengil.
-2. Fyllið inn í svæðin eftir þörfum.
-3. Veljið hnappinn **Prenta** eða **Forskoðun**.
+1. <span data-ttu-id="16ed1-155">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Upplýsingar um viðhald** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="16ed1-155">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Maintenance Details**, and then choose the related link.</span></span>
+2. <span data-ttu-id="16ed1-156">Fyllið inn í svæðin eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="16ed1-156">Fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="16ed1-157">Veljið hnappinn **Prenta** eða **Forskoðun**.</span><span class="sxs-lookup"><span data-stu-id="16ed1-157">Choose the **Print** or **Preview** button.</span></span>
 
-## <a name="see-also"></a>Sjá einnig
-[Eignir](fa-manage.md)  
-[Uppsetning eigna](fa-setup.md)  
-[Fjármál](finance.md)  
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="16ed1-158">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="16ed1-158">See Also</span></span>
+[<span data-ttu-id="16ed1-159">Eignir</span><span class="sxs-lookup"><span data-stu-id="16ed1-159">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="16ed1-160">Uppsetning eigna</span><span class="sxs-lookup"><span data-stu-id="16ed1-160">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="16ed1-161">Fjármál</span><span class="sxs-lookup"><span data-stu-id="16ed1-161">Finance</span></span>](finance.md)  
+<span data-ttu-id="16ed1-162">[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="16ed1-162">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="16ed1-163">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="16ed1-163">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

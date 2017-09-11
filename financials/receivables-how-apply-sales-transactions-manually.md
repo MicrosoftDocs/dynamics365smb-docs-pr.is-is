@@ -13,152 +13,152 @@ ms.search.keywords: payment process, cash receipt
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 2c3173aed0ea6c788592383f15cbada0e3fc3a0e
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually"></a>Hvernig á að: Afstemma greiðslur viðskiptamanns handvirkt
-Þegar þú færð kvittun kvittunar frá viðskiptavini eða þú ert með endurgreiðslu í reiðufé þarftu að ákveða hvort þú skulir greiða eða endurgreiða til að loka einum eða fleiri opnum skuldfærslum eða kreditfærslum. Hægt er að tilgreina upphæð sem á að nota. Til dæmis er hægt að færa hlutagreiðslur í færslur í viðskiptamannabók. Ef færslum í viðskiptamannabók er lokað er gengið úr skugga um að upplýsingar á við tölfræði viðskiptamanns, reikningsyfirlit og fjárhagsfærslur séu réttar.
+# <a name="how-to-reconcile-customer-payments-manually"></a><span data-ttu-id="4ed52-103">Hvernig á að: Afstemma greiðslur viðskiptamanns handvirkt</span><span class="sxs-lookup"><span data-stu-id="4ed52-103">How to: Reconcile Customer Payments Manually</span></span>
+<span data-ttu-id="4ed52-104">Þegar þú færð kvittun kvittunar frá viðskiptavini eða þú ert með endurgreiðslu í reiðufé þarftu að ákveða hvort þú skulir greiða eða endurgreiða til að loka einum eða fleiri opnum skuldfærslum eða kreditfærslum.</span><span class="sxs-lookup"><span data-stu-id="4ed52-104">When you receive a cash receipt from a customer, or you make a cash refund, you must decide whether to apply the payment or refund to close one or more open debit or credit entries.</span></span> <span data-ttu-id="4ed52-105">Hægt er að tilgreina upphæð sem á að nota.</span><span class="sxs-lookup"><span data-stu-id="4ed52-105">You can specify the amount you want to apply.</span></span> <span data-ttu-id="4ed52-106">Til dæmis er hægt að færa hlutagreiðslur í færslur í viðskiptamannabók.</span><span class="sxs-lookup"><span data-stu-id="4ed52-106">For example, you can apply partial payments to customer ledger entries.</span></span> <span data-ttu-id="4ed52-107">Ef færslum í viðskiptamannabók er lokað er gengið úr skugga um að upplýsingar á við tölfræði viðskiptamanns, reikningsyfirlit og fjárhagsfærslur séu réttar.</span><span class="sxs-lookup"><span data-stu-id="4ed52-107">Closing customer ledger entries makes sure that information such as customer statistics, account statements, and finance charges are correct.</span></span>
 
 > [!NOTE]  
->   Í glugganum **Færslur í viðskiptamannabók** merkir rautt letur að tengd greiðsla er komin yfir gjalddaga.
+>   <span data-ttu-id="4ed52-108">Í glugganum **Færslur í viðskiptamannabók** merkir rautt letur að tengd greiðsla er komin yfir gjalddaga.</span><span class="sxs-lookup"><span data-stu-id="4ed52-108">In the **Customer Ledger Entries** window, red font means that the related payment is past its due date.</span></span>
 
-Hægt er að jafna færslur í viðskiptamannabók á ýmsa vegu:
+<span data-ttu-id="4ed52-109">Hægt er að jafna færslur í viðskiptamannabók á ýmsa vegu:</span><span class="sxs-lookup"><span data-stu-id="4ed52-109">You can apply customer ledger entries in several ways:</span></span>
 
-* Með því að færa inn upplýsingar í þar til gerða glugga, eins og **inngreiðslubók** og **greiðsluafstemmingarbók**.
-* Kreditreikningur frá sölu skjöl
-* Frá færslur í viðskiptamannabók eftir að söluskjöl eru bókaðar en ekki jafnaðar.
-
-> [!NOTE]  
->   Ef reiturinn **Jöfnunaraðferð** á viðskiptamannaspjaldinu er með **Jafna við elstu** þá munu greiðslur sjálfkrafa vera jöfnuð við elstu opnu kreditfærsluna ef ekki er tilgreint handvirkt hvaða færslu eigi að jafna við. Ef jöfnunaraðferðin er **Handvirkt** verður að jafna færslur handvirkt.
-
-Þú getur jafnað viðskiptamannagreiðslur handvirkt í glugganum **inngreiðslubók** Inngreiðslubók er ein tegund færslubóka og því er hægt að nota hana til að bóka hreyfingar í fjárhags-, banka-, viðskiptamanna-, lánardrottna- og eignabækur. Hægt að jafna greiðsluna við eina eða fleiri debetfærslur þegar greiðsla er bókuð eða nota bókaðar færslur síðar.
-
-Þú getur einnig jafnað greiðslur viðskiptamanns og lánardrottins, í **greiðsluafstemmingarbók** glugganum með því að nota virkni fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md) Einnig er hægt að stemma greiðslur viðskiptamanns byggðar á lista yfir ógreidda söluskjöl í gluganum **skráning greiðslna**. Nánari upplýsingar sjá [hvernig skal: stemma af greiðslur viðskiptamanns úr lista yfir ógreidda söluskjöl](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
-
-## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Til að fylla út og bóka inngreiðslubók:
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **inngreiðslubók** og velja svo viðeigandi tengil.
-2. Velja skal aðgerðina **Breyta færslubók**.
-3. Velja skal viðeigandi keyrslu í reitnum **Heiti keyrslu**.
-4. Fylla skal út reitinn **Dagsetning bókunar**.  
-5. Í reitnum **Tegund fylgiskjals** er valið **Greiðsla**.
-
-    **Númer fylgiskjals** reiturinn er fylltur út með númeraröðinni sem úthlutað er á rununa.  
-6. Nota skal reitinn **Númer utanaðk. skjals** til að geyma kenni, til dæmis tékkanúmer viðskiptamanns.
-7. Í reitnum **Tegund reiknings** er valið **Viðskiptamaður**.
-8. Í svæðinu **Bankareikningsnúmer**,  reit, veldu viðkomandi fjárhagsreikningsnúmer.
-9. Ef bóka á jöfnunina á sama tíma og bóka skal línur í færslubókinni þarf að gera eftirfarandi.
-10. Í reitnum **Tegund mótreiknings** er **fjárhagsreikningur** valinn fyrir greiðslu í reiðufé og **bankareikningur** fyrir aðrar greiðslur.
-11. Í reitnum **Mótreikning.** er sjóðsreikningur valinn fyrir greiðslu í reiðufé eða viðeigandi bankareikningur fyrir aðrar greiðslur.
-12. Bóka skal færslubókina.
-
-## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Greiðsla jöfnuð við eina viðskiptamannsfærslu
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **inngreiðslubók** og velja svo viðeigandi tengil.
-2. Velja skal aðgerðina **Breyta færslubók**.
-3. Í fyrstu bókarlínunni eru ritaðar viðeigandi upplýsingar um færsluna sem á að jafna.
-4. Í reitnum **Tegund fylgiskjals** er valið **Greiðsla**.
-5. Í reitnum **Tegund reiknings** er valið **Viðskiptamaður**.
-6. Í reitnum **Tegund mótreiknings** er **Bankareikningur** valinn.
-7. Í reitnum **jöfnunarskjalsnúmer** er valið í reit til að opna **Jafna viðskm.færslur** gluggann.
-8. Í glugganum **Jafna lánardr.færslur** eru línurnar með færslunum til að jafna greiðsluna við valdar.
-9. í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna. Ef engin færsla er rituð jafnar forritið við hámarksupphæðina.
-
-    Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð** og einnig hvort jöfnunin stemmir.  
-10. Velja hnappinn **Í lagi**. Glugginn **inngreiðslubók** sýnir nú færsluna sem færð hefur verið inn valin í reitunum **jöfnunarskjalsgerð** og **jöfnunarskjalsnúmer**. Reitir
-11. Inngreiðslubókin er bókuð
-
-## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Greiðsla jöfnuð við margar viðskiptamannafærslu:
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **inngreiðslubók** og velja svo viðeigandi tengil.
-2. Velja skal aðgerðina **Breyta færslubók**.
-3. Í fyrstu bókarlínunni eru ritaðar viðeigandi upplýsingar um færsluna sem á að jafna.
-4. Í reitnum **Tegund fylgiskjals** er valið **Greiðsla**.
-5. Í reitnum **Tegund reiknings** er valið **Viðskiptamaður**.
-6. Í reitnum **Tegund mótreiknings** er **Bankareikningur** valinn.
-7. Í reitnum **Upphæð** skal færa inn fulla greiðslu sem neikvæða upphæð.
-8. Til að jafna greiðslu við margar viðskiptamannafærslur í bókun er veldu aðgerðina **Jafna færslur**.
-9. Valdar eru línurnar með færslunum sem á að jafna færsluna við og síðan velja síðan **Setja kenni jöfnunar**.
-10. Í hverri línu í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna. Ef engin færsla er rituð jafnar forritið við hámarksupphæðina.
-
-    Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð** og einnig hvort jöfnunin stemmir.  
-11. Velja hnappinn **Í lagi**.
-12. Inngreiðslubókin er bókuð
-
-## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Kreditreikningur jafnaður við eina viðskiptamannsfærslu:
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölukreditreikningar** og velja svo viðeigandi tengil.
-2. Opna skal viðeigandi sölukreditreikning.
-3. Til að jafna kreditreikninginn við viðskiptamannsfærslu við bókun, í reitnum **jöfnunarskjalsnúmer.** er Valin færslan til að jafna greiðsluna.
-4. Á línunni í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna.  
-
-    Ef engin færsla er rituð jafnar forritið sjálfkrafa við hámarksupphæðina. Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð** og einnig hvort jöfnunin stemmir.    
-5. Velja hnappinn **Í lagi**. Glugginn **Sölukreditreikningur** sýnir nú færsluna sem færð hefur verið inn valin í reitunum **jöfnunarskjalsgerð** og **jöfnunarskjalsnúmer**. Reitir Og upphæð kreditreikningsins sem á að bóka, leiðrétta fyrir hugsanlegan greiðsluafslátt.
-6. Kreditreikningurinn er bókaður.
-
-## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Kreditreikningur jafnaður við margar viðskiptamannafærslur:
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölukreditreikningar** og velja svo viðeigandi tengil.
-2. Opna skal viðeigandi sölukreditreikning.
-3. Til að jafna greiðslu kreditreikning við margar viðskiptamannafærslur í bókun er veldu aðgerðina **Jafna færslur**.
-4. Valdar eru línurnar með færslunum sem á að jafna færsluna við og síðan velja síðan **Setja kenni jöfnunar**.
-5. Í hverri línu í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna. Ef engin færsla er rituð jafnar forritið við hámarksupphæðina.  
-
-    Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð** og einnig hvort jöfnunin stemmir.  
-6. Velja hnappinn **Í lagi**. Glugginn  **sölukreditreikningur** sýnir núna upphæð kreditreikningsins sem á að bóka, leiðréttan fyrir hugsanlegan greiðsluafslátt.
-7. Kreditreikningurinn er bókaður.
-
-## <a name="to-apply-posted-customer-ledger-entries"></a>Bókaðar viðskiptamannafærslur jafnaðar:
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil.
-2. Opna skal viðskiptamannsspjald fyrir viðskiptamann með færslur sem á að jafna.
-3. Veldu **fjárhagsfærslur** aðgerðina, og Velja síðan línuna með viðkomandi færslu sem verður jöfnunarfærslan.
-4. Valið er **Jafna Færslur** aðgerð. **Jafna Viðskm.færslur** glugginn opnast og sýnir opnar færslur fyrir viðskiptamanninn.
-5. Valdar eru línurnar með færslunum sem á að jafna færsluna við og síðan velja síðan **Setja kenni jöfnunar**. Aðgerð
-6. Í hverri línu í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna. Ef engin færsla er rituð jafnar forritið við hámarksupphæðina.  
-
-    Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð**.  
-7. Valið er **bóka jöfnun** aðgerð. Glugginn **Bóka jöfnun** birtist með fylgiskjalsnúmeri jöfnunarfærslunnar og nýjustu bókunardagsetningunni.  
-8. Velja hnappinn **Í lagi** til að bóka forritið.
-
-    Hafi bókaðar færslur leitt til lokaðra viðskiptamannafærslna þá eru þessar færslur hreinsaðar í reitnum **Opin**.    
-9. Til að sjá fjárhagsfærslurnar skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil. Fletta að spjaldi fyrir viðeigandi viðskiptamann til að skoða fjárhagsfærslurnar.  
-
-Á færslulistanum sést að ekkert gátmerki er í reitnum **Opin** í línunni sem inniheldur færsluna sem jafnað var við að fullu.  
+* <span data-ttu-id="4ed52-110">Með því að færa inn upplýsingar í þar til gerða glugga, eins og **inngreiðslubók** og **greiðsluafstemmingarbók**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-110">By entering information in dedicated windows, such as the **Cash Receipt Journal** and **Payment Reconciliation Journal** windows.</span></span>
+* <span data-ttu-id="4ed52-111">Kreditreikningur frá sölu skjöl</span><span class="sxs-lookup"><span data-stu-id="4ed52-111">From sales credit memo documents.</span></span>
+* <span data-ttu-id="4ed52-112">Frá færslur í viðskiptamannabók eftir að söluskjöl eru bókaðar en ekki jafnaðar.</span><span class="sxs-lookup"><span data-stu-id="4ed52-112">From customer ledger entries after sales documents are posted but not applied.</span></span>
 
 > [!NOTE]  
->   Eftir að færslan var valin úr glugganum **Jafna viðskm.færslur** eða nokkrar færslur með því að setja **Kenni jöfnunar**, inniheldur reiturinn **Jöfnuð upphæð** í bókarlínunni samantekt eftirstandandi upphæða í bókuðu færslunum sem voru valdar - nema reiturinn sé þegar útfylltur. Ef **Jafna elstu** er valið í reitnum **J** á viðskiptamannaspjaldinu verður greiðslan jöfnuð sjálfkrafa.
+>   <span data-ttu-id="4ed52-113">Ef reiturinn **Jöfnunaraðferð** á viðskiptamannaspjaldinu er með **Jafna við elstu** þá munu greiðslur sjálfkrafa vera jöfnuð við elstu opnu kreditfærsluna ef ekki er tilgreint handvirkt hvaða færslu eigi að jafna við.</span><span class="sxs-lookup"><span data-stu-id="4ed52-113">If the **Application Method** field on the customer card contains **Apply to Oldest**, payments are applied to the oldest open credit entry, unless you manually specify an entry.</span></span> <span data-ttu-id="4ed52-114">Ef jöfnunaraðferðin er **Handvirkt** verður að jafna færslur handvirkt.</span><span class="sxs-lookup"><span data-stu-id="4ed52-114">If the application method is **Manual**, you always apply entries manually.</span></span>
 
-## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Viðskiptamannafærslur jafnaðar hver við aðra í mismunandi gjaldmiðlum:
-Ef viðskiptamaður kaupir í einum gjaldmiðli og greiðir í öðrum er enn hægt að jafna reikninginn við greiðsluna.  
+<span data-ttu-id="4ed52-115">Þú getur jafnað viðskiptamannagreiðslur handvirkt í glugganum **inngreiðslubók**</span><span class="sxs-lookup"><span data-stu-id="4ed52-115">You can apply customer payments manually in the **Cash Receipt Journal** window.</span></span> <span data-ttu-id="4ed52-116">Inngreiðslubók er ein tegund færslubóka og því er hægt að nota hana til að bóka hreyfingar í fjárhags-, banka-, viðskiptamanna-, lánardrottna- og eignabækur.</span><span class="sxs-lookup"><span data-stu-id="4ed52-116">A cash receipt journal is a type of general journal, so you can use it to post transactions to general ledger, bank, customer, vendor, and fixed assets accounts.</span></span> <span data-ttu-id="4ed52-117">Hægt að jafna greiðsluna við eina eða fleiri debetfærslur þegar greiðsla er bókuð eða nota bókaðar færslur síðar.</span><span class="sxs-lookup"><span data-stu-id="4ed52-117">You can apply the payment to one or more debit entries when you post the payment, or you can apply from the posted entries later.</span></span>
 
-Ef færsla (Færsla 1) í einum gjaldmiðli er jöfnuð við færslu (Færsla 2) í öðrum gjaldmiðli notar forritið bókunardagsetninguna í Færslu 1 til að finna viðeigandi gengi til að breyta upphæðunum í Færslu 2. viðeigandi gengi er að finna í glugganum  **Gengi gjaldmiðla**.  
+<span data-ttu-id="4ed52-118">Þú getur einnig jafnað greiðslur viðskiptamanns og lánardrottins, í **greiðsluafstemmingarbók** glugganum með því að nota virkni fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings.</span><span class="sxs-lookup"><span data-stu-id="4ed52-118">You can also apply customer and vendor payments in the **Payment Reconciliation Journal** window, by using functions for bank statement import, automatic application, and bank account reconciliation.</span></span> <span data-ttu-id="4ed52-119">Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)</span><span class="sxs-lookup"><span data-stu-id="4ed52-119">For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).</span></span> <span data-ttu-id="4ed52-120">Einnig er hægt að stemma greiðslur viðskiptamanns byggðar á lista yfir ógreidda söluskjöl í gluganum **skráning greiðslna**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-120">Alternatively, you can reconcile customer payments based on a list of unpaid sales documents in the **Payment Registration** window.</span></span> <span data-ttu-id="4ed52-121">Nánari upplýsingar sjá [hvernig skal: stemma af greiðslur viðskiptamanns úr lista yfir ógreidda söluskjöl](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).</span><span class="sxs-lookup"><span data-stu-id="4ed52-121">For more information, see [How to: Reconcile Customer Payments From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)</span></span>
 
-Jafna viðskiptavinarfærslur í mismunandi gjaldmiðlum verður að vera virkt. Fyrir frekar upplýsingar, sjá: [Hvernig á að leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)  
+## <a name="to-fill-and-post-a-cash-receipt-journal"></a><span data-ttu-id="4ed52-122">Til að fylla út og bóka inngreiðslubók:</span><span class="sxs-lookup"><span data-stu-id="4ed52-122">To fill and post a cash receipt journal</span></span>
+1. <span data-ttu-id="4ed52-123">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **inngreiðslubók** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="4ed52-123">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="4ed52-124">Velja skal aðgerðina **Breyta færslubók**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-124">Choose the **Edit Journal** action.</span></span>
+3. <span data-ttu-id="4ed52-125">Velja skal viðeigandi keyrslu í reitnum **Heiti keyrslu**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-125">Select the relevant batch in the **Batch Name** field.</span></span>
+4. <span data-ttu-id="4ed52-126">Fylla skal út reitinn **Dagsetning bókunar**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-126">Fill in the **Posting Date** field.</span></span>  
+5. <span data-ttu-id="4ed52-127">Í reitnum **Tegund fylgiskjals** er valið **Greiðsla**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-127">In the **Document Type** field, select **Payment**.</span></span>
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **inngreiðslubók** og velja svo viðeigandi tengil.
-2. Opna færslubókina sem óskað er eftir og fylla inn í fyrstu auðu bókarlínuna með gjaldmiðilskóta.
-3. Valið er **Jafna Færslur** aðgerð.
-4. Vveldu línuna með færslunni sem á að jafna við færsluna í inngreiðslubók. veldu **Setja kenni jöfnunar** aðgerðina, og síðan valin færslan sem á að nota til að jafna.
-5. Velja hnappinn **Í lagi** til að snúa aftur í inngreiðslubók.
-6. Bóka skal sölubókina.  
+    <span data-ttu-id="4ed52-128">**Númer fylgiskjals**</span><span class="sxs-lookup"><span data-stu-id="4ed52-128">The **Document No.**</span></span> <span data-ttu-id="4ed52-129">reiturinn er fylltur út með númeraröðinni sem úthlutað er á rununa.</span><span class="sxs-lookup"><span data-stu-id="4ed52-129">field is filled by the number series assigned to the batch.</span></span>  
+6. <span data-ttu-id="4ed52-130">Nota skal reitinn **Númer utanaðk. skjals**</span><span class="sxs-lookup"><span data-stu-id="4ed52-130">Use the **External Document No.**</span></span> <span data-ttu-id="4ed52-131">til að geyma kenni, til dæmis tékkanúmer viðskiptamanns.</span><span class="sxs-lookup"><span data-stu-id="4ed52-131">field to store an identifier, such as the customer's check number.</span></span>
+7. <span data-ttu-id="4ed52-132">Í reitnum **Tegund reiknings** er valið **Viðskiptamaður**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-132">In the **Account Type** field, select **Customer**.</span></span>
+8. <span data-ttu-id="4ed52-133">Í svæðinu **Bankareikningsnúmer**, </span><span class="sxs-lookup"><span data-stu-id="4ed52-133">In the **Account No.**</span></span> <span data-ttu-id="4ed52-134">reit, veldu viðkomandi fjárhagsreikningsnúmer.</span><span class="sxs-lookup"><span data-stu-id="4ed52-134">field, select the relevant G/L account.</span></span>
+9. <span data-ttu-id="4ed52-135">Ef bóka á jöfnunina á sama tíma og bóka skal línur í færslubókinni þarf að gera eftirfarandi.</span><span class="sxs-lookup"><span data-stu-id="4ed52-135">If you want to post the application at the same time as you post the journal, do one of the following.</span></span>
+10. <span data-ttu-id="4ed52-136">Í reitnum **Tegund mótreiknings** er **fjárhagsreikningur** valinn fyrir greiðslu í reiðufé og **bankareikningur** fyrir aðrar greiðslur.</span><span class="sxs-lookup"><span data-stu-id="4ed52-136">In the **Balancing Account Type** field, select **G/L Account** for cash payments, and **Bank Account** for other payments.</span></span>
+11. <span data-ttu-id="4ed52-137">Í reitnum **Mótreikning.**</span><span class="sxs-lookup"><span data-stu-id="4ed52-137">In the **Balancing Account No.**</span></span> <span data-ttu-id="4ed52-138">er sjóðsreikningur valinn fyrir greiðslu í reiðufé eða viðeigandi bankareikningur fyrir aðrar greiðslur.</span><span class="sxs-lookup"><span data-stu-id="4ed52-138">field, select the cash account for cash payments, or the relevant bank account for other payments.</span></span>
+12. <span data-ttu-id="4ed52-139">Bóka skal færslubókina.</span><span class="sxs-lookup"><span data-stu-id="4ed52-139">Post the journal.</span></span>
+
+## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a><span data-ttu-id="4ed52-140">Greiðsla jöfnuð við eina viðskiptamannsfærslu</span><span class="sxs-lookup"><span data-stu-id="4ed52-140">To apply a payment to a single customer ledger entry</span></span>
+1. <span data-ttu-id="4ed52-141">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **inngreiðslubók** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="4ed52-141">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journal** and choose the related link.</span></span>
+2. <span data-ttu-id="4ed52-142">Velja skal aðgerðina **Breyta færslubók**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-142">Choose the **Edit Journal** action.</span></span>
+3. <span data-ttu-id="4ed52-143">Í fyrstu bókarlínunni eru ritaðar viðeigandi upplýsingar um færsluna sem á að jafna.</span><span class="sxs-lookup"><span data-stu-id="4ed52-143">On the first journal line, enter the relevant information about the entry to be applied.</span></span>
+4. <span data-ttu-id="4ed52-144">Í reitnum **Tegund fylgiskjals** er valið **Greiðsla**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-144">In the **Document Type** field, enter **Payment**.</span></span>
+5. <span data-ttu-id="4ed52-145">Í reitnum **Tegund reiknings** er valið **Viðskiptamaður**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-145">In the **Account Type** field, enter **Customer**.</span></span>
+6. <span data-ttu-id="4ed52-146">Í reitnum **Tegund mótreiknings** er **Bankareikningur** valinn.</span><span class="sxs-lookup"><span data-stu-id="4ed52-146">In the **Bal. Account Type** field, enter **Bank Account**.</span></span>
+7. <span data-ttu-id="4ed52-147">Í reitnum **jöfnunarskjalsnúmer**</span><span class="sxs-lookup"><span data-stu-id="4ed52-147">In the **Applies-to Doc. No.**</span></span> <span data-ttu-id="4ed52-148">er valið í reit til að opna **Jafna viðskm.færslur** gluggann.</span><span class="sxs-lookup"><span data-stu-id="4ed52-148">field, choose the field to open the **Apply Customer Entries** window.</span></span>
+8. <span data-ttu-id="4ed52-149">Í glugganum **Jafna lánardr.færslur** eru línurnar með færslunum til að jafna greiðsluna við valdar.</span><span class="sxs-lookup"><span data-stu-id="4ed52-149">In the **Apply Customer Entries** window, select the entry to apply the payment to.</span></span>
+9. <span data-ttu-id="4ed52-150">í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna.</span><span class="sxs-lookup"><span data-stu-id="4ed52-150">In the **Amount to Apply** field, enter the amount you want to apply to the entry.</span></span> <span data-ttu-id="4ed52-151">Ef engin færsla er rituð jafnar forritið við hámarksupphæðina.</span><span class="sxs-lookup"><span data-stu-id="4ed52-151">If you do not enter an amount, the maximum amount is applied.</span></span>
+
+    <span data-ttu-id="4ed52-152">Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð** og einnig hvort jöfnunin stemmir.</span><span class="sxs-lookup"><span data-stu-id="4ed52-152">At the bottom of the **Apply Customer Entries** window, you can see the specific amount in the **Applied Amount** field and also whether the application balances.</span></span>  
+10. <span data-ttu-id="4ed52-153">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-153">Choose the **OK** button.</span></span> <span data-ttu-id="4ed52-154">Glugginn **inngreiðslubók** sýnir nú færsluna sem færð hefur verið inn valin í reitunum **jöfnunarskjalsgerð** og **jöfnunarskjalsnúmer**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-154">The **Cash Receipt Journal** window now shows the entry you have selected entered in the **Applies-to Doc. Type** and **Applies-to Doc. No.**</span></span> <span data-ttu-id="4ed52-155">Reitir</span><span class="sxs-lookup"><span data-stu-id="4ed52-155">fields.</span></span>
+11. <span data-ttu-id="4ed52-156">Inngreiðslubókin er bókuð</span><span class="sxs-lookup"><span data-stu-id="4ed52-156">Post the cash receipt journal.</span></span>
+
+## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a><span data-ttu-id="4ed52-157">Greiðsla jöfnuð við margar viðskiptamannafærslu:</span><span class="sxs-lookup"><span data-stu-id="4ed52-157">To apply a payment to multiple customer ledger entries</span></span>
+1. <span data-ttu-id="4ed52-158">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **inngreiðslubók** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="4ed52-158">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="4ed52-159">Velja skal aðgerðina **Breyta færslubók**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-159">Choose the **Edit Journal** action.</span></span>
+3. <span data-ttu-id="4ed52-160">Í fyrstu bókarlínunni eru ritaðar viðeigandi upplýsingar um færsluna sem á að jafna.</span><span class="sxs-lookup"><span data-stu-id="4ed52-160">On the first journal line, enter the relevant information about the entry to be applied.</span></span>
+4. <span data-ttu-id="4ed52-161">Í reitnum **Tegund fylgiskjals** er valið **Greiðsla**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-161">In the **Document Type** field, enter **Payment**.</span></span>
+5. <span data-ttu-id="4ed52-162">Í reitnum **Tegund reiknings** er valið **Viðskiptamaður**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-162">In the **Account Type** field, enter **Customer**.</span></span>
+6. <span data-ttu-id="4ed52-163">Í reitnum **Tegund mótreiknings** er **Bankareikningur** valinn.</span><span class="sxs-lookup"><span data-stu-id="4ed52-163">In the **Bal. Account Type** field, enter **Bank Account**.</span></span>
+7. <span data-ttu-id="4ed52-164">Í reitnum **Upphæð** skal færa inn fulla greiðslu sem neikvæða upphæð.</span><span class="sxs-lookup"><span data-stu-id="4ed52-164">In the **Amount** field, enter the full payment as a negative amount.</span></span>
+8. <span data-ttu-id="4ed52-165">Til að jafna greiðslu við margar viðskiptamannafærslur í bókun er veldu aðgerðina **Jafna færslur**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-165">To apply the payment to multiple customer ledger entries when posting, choose the **Apply Entries** action.</span></span>
+9. <span data-ttu-id="4ed52-166">Valdar eru línurnar með færslunum sem á að jafna færsluna við og síðan velja síðan **Setja kenni jöfnunar**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-166">Select the lines with the entries that you want the applying entry to be applied to, and then choose the **Set Applies-to ID** action.</span></span>
+10. <span data-ttu-id="4ed52-167">Í hverri línu í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna.</span><span class="sxs-lookup"><span data-stu-id="4ed52-167">On each line, in the **Amount to Apply** field, enter the amount you want to apply to the individual entry.</span></span> <span data-ttu-id="4ed52-168">Ef engin færsla er rituð jafnar forritið við hámarksupphæðina.</span><span class="sxs-lookup"><span data-stu-id="4ed52-168">If you do not enter an amount, the maximum amount is applied.</span></span>
+
+    <span data-ttu-id="4ed52-169">Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð** og einnig hvort jöfnunin stemmir.</span><span class="sxs-lookup"><span data-stu-id="4ed52-169">At the bottom of the **Apply Customer Entries** window, you can see the specific amount in the **Applied Amount** field and also whether the application balances.</span></span>  
+11. <span data-ttu-id="4ed52-170">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-170">Choose the **OK** button.</span></span>
+12. <span data-ttu-id="4ed52-171">Inngreiðslubókin er bókuð</span><span class="sxs-lookup"><span data-stu-id="4ed52-171">Post the cash receipt journal.</span></span>
+
+## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a><span data-ttu-id="4ed52-172">Kreditreikningur jafnaður við eina viðskiptamannsfærslu:</span><span class="sxs-lookup"><span data-stu-id="4ed52-172">To apply a credit memo to a single customer ledger entry</span></span>
+1. <span data-ttu-id="4ed52-173">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölukreditreikningar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="4ed52-173">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Credit Memos**, and then choose the related link.</span></span>
+2. <span data-ttu-id="4ed52-174">Opna skal viðeigandi sölukreditreikning.</span><span class="sxs-lookup"><span data-stu-id="4ed52-174">Open the relevant sales credit memo.</span></span>
+3. <span data-ttu-id="4ed52-175">Til að jafna kreditreikninginn við viðskiptamannsfærslu við bókun, í reitnum **jöfnunarskjalsnúmer.**</span><span class="sxs-lookup"><span data-stu-id="4ed52-175">To apply the credit memo to a single customer ledger entry when posting, in the **Applies-to Doc. No.**</span></span> <span data-ttu-id="4ed52-176">er Valin færslan til að jafna greiðsluna.</span><span class="sxs-lookup"><span data-stu-id="4ed52-176">field, select the entry to which you want to apply the payment.</span></span>
+4. <span data-ttu-id="4ed52-177">Á línunni í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna.</span><span class="sxs-lookup"><span data-stu-id="4ed52-177">On the line in the **Amount to Apply** field, enter the amount you want to apply to the entry.</span></span>  
+
+    <span data-ttu-id="4ed52-178">Ef engin færsla er rituð jafnar forritið sjálfkrafa við hámarksupphæðina.</span><span class="sxs-lookup"><span data-stu-id="4ed52-178">If you do not enter an amount, the program automatically applies the maximum amount.</span></span> <span data-ttu-id="4ed52-179">Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð** og einnig hvort jöfnunin stemmir.</span><span class="sxs-lookup"><span data-stu-id="4ed52-179">At the bottom of the **Apply Customer Entries** window, you can see the specific amount in the **Applied Amount** field and also whether the application balances.</span></span>    
+5. <span data-ttu-id="4ed52-180">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-180">Choose the **OK** button.</span></span> <span data-ttu-id="4ed52-181">Glugginn **Sölukreditreikningur** sýnir nú færsluna sem færð hefur verið inn valin í reitunum **jöfnunarskjalsgerð** og **jöfnunarskjalsnúmer**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-181">The **Sales Credit Memo** window now shows the entry you have selected entered in the **Applies-to Doc. Type** and **Applies-to Doc. No.**</span></span> <span data-ttu-id="4ed52-182">Reitir</span><span class="sxs-lookup"><span data-stu-id="4ed52-182">fields.</span></span> <span data-ttu-id="4ed52-183">Og upphæð kreditreikningsins sem á að bóka, leiðrétta fyrir hugsanlegan greiðsluafslátt.</span><span class="sxs-lookup"><span data-stu-id="4ed52-183">And the amount of the credit memo to be posted, adjusted for any possible payment discounts.</span></span>
+6. <span data-ttu-id="4ed52-184">Kreditreikningurinn er bókaður.</span><span class="sxs-lookup"><span data-stu-id="4ed52-184">Post the credit memo.</span></span>
+
+## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a><span data-ttu-id="4ed52-185">Kreditreikningur jafnaður við margar viðskiptamannafærslur:</span><span class="sxs-lookup"><span data-stu-id="4ed52-185">To apply a credit memo to multiple customer ledger entries</span></span>
+1. <span data-ttu-id="4ed52-186">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölukreditreikningar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="4ed52-186">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Credit Memos**, and then choose the related link.</span></span>
+2. <span data-ttu-id="4ed52-187">Opna skal viðeigandi sölukreditreikning.</span><span class="sxs-lookup"><span data-stu-id="4ed52-187">Open the relevant sales credit memo.</span></span>
+3. <span data-ttu-id="4ed52-188">Til að jafna greiðslu kreditreikning við margar viðskiptamannafærslur í bókun er veldu aðgerðina **Jafna færslur**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-188">To apply the credit memo to multiple customer ledger entries when posting, choose the **Apply Entries** action.</span></span>
+4. <span data-ttu-id="4ed52-189">Valdar eru línurnar með færslunum sem á að jafna færsluna við og síðan velja síðan **Setja kenni jöfnunar**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-189">Select the lines with the entries that you want the applying entry to be applied to, and then choose the **Set Applies-to ID** action.</span></span>
+5. <span data-ttu-id="4ed52-190">Í hverri línu í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna.</span><span class="sxs-lookup"><span data-stu-id="4ed52-190">On each line, in the **Amount to Apply** field, enter the amount you want to apply to the individual entry.</span></span> <span data-ttu-id="4ed52-191">Ef engin færsla er rituð jafnar forritið við hámarksupphæðina.</span><span class="sxs-lookup"><span data-stu-id="4ed52-191">If you do not enter an amount, the maximum amount is applied.</span></span>  
+
+    <span data-ttu-id="4ed52-192">Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð** og einnig hvort jöfnunin stemmir.</span><span class="sxs-lookup"><span data-stu-id="4ed52-192">At the bottom of the **Apply Customer Entries** window, you can see the specific amount in the **Applied Amount** field and also whether the application balances.</span></span>  
+6. <span data-ttu-id="4ed52-193">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-193">Choose the **OK** button.</span></span> <span data-ttu-id="4ed52-194">Glugginn  **sölukreditreikningur** sýnir núna upphæð kreditreikningsins sem á að bóka, leiðréttan fyrir hugsanlegan greiðsluafslátt.</span><span class="sxs-lookup"><span data-stu-id="4ed52-194">The **Sales Credit Memo** window now shows the amount of the credit memo to be posted, adjusted for any possible payment discounts.</span></span>
+7. <span data-ttu-id="4ed52-195">Kreditreikningurinn er bókaður.</span><span class="sxs-lookup"><span data-stu-id="4ed52-195">Post the credit memo.</span></span>
+
+## <a name="to-apply-posted-customer-ledger-entries"></a><span data-ttu-id="4ed52-196">Bókaðar viðskiptamannafærslur jafnaðar:</span><span class="sxs-lookup"><span data-stu-id="4ed52-196">To apply posted customer ledger entries</span></span>
+1. <span data-ttu-id="4ed52-197">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="4ed52-197">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="4ed52-198">Opna skal viðskiptamannsspjald fyrir viðskiptamann með færslur sem á að jafna.</span><span class="sxs-lookup"><span data-stu-id="4ed52-198">Open the customer card for the customer with entries that you want to apply.</span></span>
+3. <span data-ttu-id="4ed52-199">Veldu **fjárhagsfærslur** aðgerðina, og Velja síðan línuna með viðkomandi færslu sem verður jöfnunarfærslan.</span><span class="sxs-lookup"><span data-stu-id="4ed52-199">Choose the **Ledger Entries** action, and then select the line with the entry that will be the applying entry.</span></span>
+4. <span data-ttu-id="4ed52-200">Valið er **Jafna Færslur** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="4ed52-200">Choose the **Apply Entries** action.</span></span> <span data-ttu-id="4ed52-201">**Jafna Viðskm.færslur** glugginn opnast og sýnir opnar færslur fyrir viðskiptamanninn.</span><span class="sxs-lookup"><span data-stu-id="4ed52-201">The **Apply Customer Entries** window opens showing the open entries for the customer.</span></span>
+5. <span data-ttu-id="4ed52-202">Valdar eru línurnar með færslunum sem á að jafna færsluna við og síðan velja síðan **Setja kenni jöfnunar**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-202">Select the lines with the entries that you want the applying entry to be applied to, and then choose the **Set Applies-to ID.**</span></span> <span data-ttu-id="4ed52-203">Aðgerð</span><span class="sxs-lookup"><span data-stu-id="4ed52-203">action.</span></span>
+6. <span data-ttu-id="4ed52-204">Í hverri línu í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna.</span><span class="sxs-lookup"><span data-stu-id="4ed52-204">For each line in the **Amount to Apply** field, enter the amount you want to apply to the individual entry.</span></span> <span data-ttu-id="4ed52-205">Ef engin færsla er rituð jafnar forritið við hámarksupphæðina.</span><span class="sxs-lookup"><span data-stu-id="4ed52-205">If you do not enter an amount, the maximum amount is applied.</span></span>  
+
+    <span data-ttu-id="4ed52-206">Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-206">At the bottom of the **Apply Customer Entries** window, you can see the specific amount in the **Applied Amount** field.</span></span>  
+7. <span data-ttu-id="4ed52-207">Valið er **bóka jöfnun** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="4ed52-207">Choose the **Post Application** action.</span></span> <span data-ttu-id="4ed52-208">Glugginn **Bóka jöfnun** birtist með fylgiskjalsnúmeri jöfnunarfærslunnar og nýjustu bókunardagsetningunni.</span><span class="sxs-lookup"><span data-stu-id="4ed52-208">The **Post Application** window appears with the document number of the applying entry and the posting date of the entry with the most recent posting date.</span></span>  
+8. <span data-ttu-id="4ed52-209">Velja hnappinn **Í lagi** til að bóka forritið.</span><span class="sxs-lookup"><span data-stu-id="4ed52-209">Choose the **OK** button to post the application.</span></span>
+
+    <span data-ttu-id="4ed52-210">Hafi bókaðar færslur leitt til lokaðra viðskiptamannafærslna þá eru þessar færslur hreinsaðar í reitnum **Opin**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-210">If the posted application has resulted in closed customer ledger entries, the **Open** field is cleared for these ledger entries.</span></span>    
+9. <span data-ttu-id="4ed52-211">Til að sjá fjárhagsfærslurnar skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="4ed52-211">To see the ledger entries, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.</span></span> <span data-ttu-id="4ed52-212">Fletta að spjaldi fyrir viðeigandi viðskiptamann til að skoða fjárhagsfærslurnar.</span><span class="sxs-lookup"><span data-stu-id="4ed52-212">Browse to the card for the relevant customer to see the ledger entries.</span></span>  
+
+<span data-ttu-id="4ed52-213">Á færslulistanum sést að ekkert gátmerki er í reitnum **Opin** í línunni sem inniheldur færsluna sem jafnað var við að fullu.</span><span class="sxs-lookup"><span data-stu-id="4ed52-213">On the ledger entry list, on the line that contains the ledger entry that was fully applied to, you can see that the **Open** check box is not selected.</span></span>  
+
+> [!NOTE]  
+>   <span data-ttu-id="4ed52-214">Eftir að færslan var valin úr glugganum **Jafna viðskm.færslur** eða nokkrar færslur með því að setja **Kenni jöfnunar**, inniheldur reiturinn **Jöfnuð upphæð** í bókarlínunni samantekt eftirstandandi upphæða í bókuðu færslunum sem voru valdar - nema reiturinn sé þegar útfylltur.</span><span class="sxs-lookup"><span data-stu-id="4ed52-214">After you select an entry in the **Apply Customer Entries** window, or several entries by setting the **Applies-to ID**, the **Applied Amount** field on the journal line will contain the sum of the remaining amounts for the posted entries you have selected, unless the field contains something already.</span></span> <span data-ttu-id="4ed52-215">Ef **Jafna elstu** er valið í reitnum **J** á viðskiptamannaspjaldinu verður greiðslan jöfnuð sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="4ed52-215">If you select **Apply to Oldest** in the **Application Method** field on the customer card, the application occurs automatically.</span></span>
+
+## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a><span data-ttu-id="4ed52-216">Viðskiptamannafærslur jafnaðar hver við aðra í mismunandi gjaldmiðlum:</span><span class="sxs-lookup"><span data-stu-id="4ed52-216">To apply customer ledger entries in different currencies to one another</span></span>
+<span data-ttu-id="4ed52-217">Ef viðskiptamaður kaupir í einum gjaldmiðli og greiðir í öðrum er enn hægt að jafna reikninginn við greiðsluna.</span><span class="sxs-lookup"><span data-stu-id="4ed52-217">If you sell to a customer in one currency and receive payment in another currency, you can still apply the invoice to the payment.</span></span>  
+
+<span data-ttu-id="4ed52-218">Ef færsla (Færsla 1) í einum gjaldmiðli er jöfnuð við færslu (Færsla 2) í öðrum gjaldmiðli notar forritið bókunardagsetninguna í Færslu 1 til að finna viðeigandi gengi til að breyta upphæðunum í Færslu 2.</span><span class="sxs-lookup"><span data-stu-id="4ed52-218">If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2.</span></span> <span data-ttu-id="4ed52-219">viðeigandi gengi er að finna í glugganum  **Gengi gjaldmiðla**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-219">The relevant exchange rate is found in the **Currency Exchange Rates** window.</span></span>  
+
+<span data-ttu-id="4ed52-220">Jafna viðskiptavinarfærslur í mismunandi gjaldmiðlum verður að vera virkt.</span><span class="sxs-lookup"><span data-stu-id="4ed52-220">Applying customer ledger entries in different currencies must be enabled.</span></span> <span data-ttu-id="4ed52-221">Fyrir frekar upplýsingar, sjá: [Hvernig á að leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)</span><span class="sxs-lookup"><span data-stu-id="4ed52-221">For more information, see [How to: Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md).</span></span>  
+
+1. <span data-ttu-id="4ed52-222">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **inngreiðslubók** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="4ed52-222">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipts Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="4ed52-223">Opna færslubókina sem óskað er eftir og fylla inn í fyrstu auðu bókarlínuna með gjaldmiðilskóta.</span><span class="sxs-lookup"><span data-stu-id="4ed52-223">Open the journal you want, and fill in the first empty journal line using a currency code.</span></span>
+3. <span data-ttu-id="4ed52-224">Valið er **Jafna Færslur** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="4ed52-224">Choose the **Apply Entries** action.</span></span>
+4. <span data-ttu-id="4ed52-225">Vveldu línuna með færslunni sem á að jafna við færsluna í inngreiðslubók. veldu **Setja kenni jöfnunar** aðgerðina, og síðan valin færslan sem á að nota til að jafna.</span><span class="sxs-lookup"><span data-stu-id="4ed52-225">Select the line with the entry you want to apply to the entry in the cash receipt journal, choose the **Set Applies-to ID** action, and then select the entry you want to apply to.</span></span>
+5. <span data-ttu-id="4ed52-226">Velja hnappinn **Í lagi** til að snúa aftur í inngreiðslubók.</span><span class="sxs-lookup"><span data-stu-id="4ed52-226">Choose the **OK** button to return to the cash receipt journal.</span></span>
+6. <span data-ttu-id="4ed52-227">Bóka skal sölubókina.</span><span class="sxs-lookup"><span data-stu-id="4ed52-227">Post the sales journal.</span></span>  
 
 > [!IMPORTANT]  
->   Þegar færslur í mismunandi gjaldmiðlum eru jafnaðar er færslum breytt í USD. Jafnvel þó gengið fyrir þessa tvo gjaldmiðla sé fast, t.d. milli USD og EUR, kann að vera einhver afgangur þegar þessum upphæðum er breytt í USD. Þessar litlu afgangsupphæðir eru bókaðar sem hagnaður eða tap á þann reikning sem er tilgreindur í reitunum **Reikningur orðins hagnaðar** eða **Reikningur orðins taps** í glugganum **Gjaldmiðlar**. Reiturinn **Upphæð (USD)** er einnig stilltur á lánardrottnafærslur.  
+>   <span data-ttu-id="4ed52-228">Þegar færslur í mismunandi gjaldmiðlum eru jafnaðar er færslum breytt í USD.</span><span class="sxs-lookup"><span data-stu-id="4ed52-228">When you apply entries in different currencies, the entries are converted to USD.</span></span> <span data-ttu-id="4ed52-229">Jafnvel þó gengið fyrir þessa tvo gjaldmiðla sé fast, t.d. milli USD og EUR, kann að vera einhver afgangur þegar þessum upphæðum er breytt í USD.</span><span class="sxs-lookup"><span data-stu-id="4ed52-229">Although the exchange rates for the two currencies are fixed, for example between USD and EUR, there may be a small residual amount when they are converted to USD.</span></span> <span data-ttu-id="4ed52-230">Þessar litlu afgangsupphæðir eru bókaðar sem hagnaður eða tap á þann reikning sem er tilgreindur í reitunum **Reikningur orðins hagnaðar** eða **Reikningur orðins taps** í glugganum **Gjaldmiðlar**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-230">These small residual amounts are posted as gains and losses to the account specified in the **Realized Gains Account** or **Realized Losses Account** fields in the **Currencies** window.</span></span> <span data-ttu-id="4ed52-231">Reiturinn **Upphæð (USD)** er einnig stilltur á lánardrottnafærslur.</span><span class="sxs-lookup"><span data-stu-id="4ed52-231">The **Amount (USD)** field is also adjusted on the vendor ledger entries.</span></span>  
 
-## <a name="to-correct-an-application-of-customer-entries"></a>Til að leiðrétta jöfnun á færslum viðskiptamanns
-Þegar jöfnun er leiðrétt eru leiðréttingarfærslur sem eru sambærilegar upphaflegu færslunni en með andstæðu formerki í reit upphæðar stofnaðar og bókaðar á öllum færslum með öllum almennum fjárhagsbókunum sem runnar eru frá jöfnuninni, svo sem greiðsluafslætti og gjaldmiðilshagnaði/-tapi. Færslurnar sem forritið lokaði eru enduropnaðar.  
+## <a name="to-correct-an-application-of-customer-entries"></a><span data-ttu-id="4ed52-232">Til að leiðrétta jöfnun á færslum viðskiptamanns</span><span class="sxs-lookup"><span data-stu-id="4ed52-232">To correct an application of customer entries</span></span>
+<span data-ttu-id="4ed52-233">Þegar jöfnun er leiðrétt eru leiðréttingarfærslur sem eru sambærilegar upphaflegu færslunni en með andstæðu formerki í reit upphæðar stofnaðar og bókaðar á öllum færslum með öllum almennum fjárhagsbókunum sem runnar eru frá jöfnuninni, svo sem greiðsluafslætti og gjaldmiðilshagnaði/-tapi.</span><span class="sxs-lookup"><span data-stu-id="4ed52-233">When you correct an application, correcting entries that are identical to the original entry but with opposite sign in the amount field are created and posted for all entries, including all general ledger posting derived from the application, such as payment discount and currency gains/losses.</span></span> <span data-ttu-id="4ed52-234">Færslurnar sem forritið lokaði eru enduropnaðar.</span><span class="sxs-lookup"><span data-stu-id="4ed52-234">The entries that were closed by the application are reopened.</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil.
-2. Viðeigandi viðskiptamannaspjald er opnað.
-3. Valið er **fjárhagsfærslur** aðgerð.
-4. Valin er viðeigandi fjárhagsfærsla og veldu svo **Ógilda færslujöfnun** aðgerðina.
-5. Einnig er hægt að velja reitinn **Sundurliðuð fjárhagsfærsla** aðgerð.
-6. Valin er færslujöfnun og veldu svo **Ógilda færslujöfnun** aðgerðina.
-7. Fylla inn í reitina í hausnum og velja svo aðgerðina **Ógilda**.  
+1. <span data-ttu-id="4ed52-235">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="4ed52-235">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="4ed52-236">Viðeigandi viðskiptamannaspjald er opnað.</span><span class="sxs-lookup"><span data-stu-id="4ed52-236">Open the relevant customer card.</span></span>
+3. <span data-ttu-id="4ed52-237">Valið er **fjárhagsfærslur** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="4ed52-237">Choose the **Ledger Entries** action.</span></span>
+4. <span data-ttu-id="4ed52-238">Valin er viðeigandi fjárhagsfærsla og veldu svo **Ógilda færslujöfnun** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="4ed52-238">Select the relevant ledger entry, and then choose the **Unapply Entries** action.</span></span>
+5. <span data-ttu-id="4ed52-239">Einnig er hægt að velja reitinn **Sundurliðuð fjárhagsfærsla** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="4ed52-239">Alternatively, choose the **Detailed Ledger Entry** action.</span></span>
+6. <span data-ttu-id="4ed52-240">Valin er færslujöfnun og veldu svo **Ógilda færslujöfnun** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="4ed52-240">Select the application entry, and then choose the **Unapply Entries** action.</span></span>
+7. <span data-ttu-id="4ed52-241">Fylla inn í reitina í hausnum og velja svo aðgerðina **Ógilda**.</span><span class="sxs-lookup"><span data-stu-id="4ed52-241">Fill in the fields in the header, and then choose the **Unapply** action.</span></span>  
 
 > [!IMPORTANT]  
->   Ef færsla hefur verið jöfnuð með fleiri en einni jöfnunarfærslu verður að ógilda þá nýjustu fyrst.  
+>   <span data-ttu-id="4ed52-242">Ef færsla hefur verið jöfnuð með fleiri en einni jöfnunarfærslu verður að ógilda þá nýjustu fyrst.</span><span class="sxs-lookup"><span data-stu-id="4ed52-242">If an entry has been applied by more than one application entry, you must unapply the latest application entry first.</span></span>  
 
-## <a name="see-also"></a>Sjá einnig
-[Stjórnun skulda](receivables-manage-receivables.md)  
-[Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="4ed52-243">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="4ed52-243">See Also</span></span>
+[<span data-ttu-id="4ed52-244">Stjórnun skulda</span><span class="sxs-lookup"><span data-stu-id="4ed52-244">Managing Receivables</span></span>](receivables-manage-receivables.md)  
+[<span data-ttu-id="4ed52-245">Sala</span><span class="sxs-lookup"><span data-stu-id="4ed52-245">Sales</span></span>](sales-manage-sales.md)  
+<span data-ttu-id="4ed52-246">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="4ed52-246">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

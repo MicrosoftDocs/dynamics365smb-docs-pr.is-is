@@ -16,68 +16,67 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 50ea98d45875fa418d12c5ba378f26208d739126
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-create-jobs"></a>Hvernig á að: Stofna verk
-Þegar nýtt verk er stofnað verður að stofna verkspjald með samþættum verkhlutum og áætlunarlínum, sem skipt er upp í tvö lög.  
+# <a name="how-to-create-jobs"></a><span data-ttu-id="114e1-103">Hvernig á að: Stofna verk</span><span class="sxs-lookup"><span data-stu-id="114e1-103">How to: Create Jobs</span></span>
+<span data-ttu-id="114e1-104">Þegar nýtt verk er stofnað verður að stofna verkspjald með samþættum verkhlutum og áætlunarlínum, sem skipt er upp í tvö lög.</span><span class="sxs-lookup"><span data-stu-id="114e1-104">When you start a new project, you must create a job card with integrated job tasks and job planning lines, structured in two layers.</span></span>  
 
-Fyrsta lagið samanstendur af verkhlutum. Það verður að stofna að minnsta kosti einn verkhluta fyrir hvert verk vegna þess að allar bókanir vísa til verkhluta. Ef a.m.k. einn verkhluti er í verkinu er hægt að setja upp áætlunarlínur og bóka notkun fyrir verkið.
+<span data-ttu-id="114e1-105">Fyrsta lagið samanstendur af verkhlutum.</span><span class="sxs-lookup"><span data-stu-id="114e1-105">The first layer consists of job tasks.</span></span> <span data-ttu-id="114e1-106">Það verður að stofna að minnsta kosti einn verkhluta fyrir hvert verk vegna þess að allar bókanir vísa til verkhluta.</span><span class="sxs-lookup"><span data-stu-id="114e1-106">You must create at least one job task per job because all posting refers to a job task.</span></span> <span data-ttu-id="114e1-107">Ef a.m.k. einn verkhluti er í verkinu er hægt að setja upp áætlunarlínur og bóka notkun fyrir verkið.</span><span class="sxs-lookup"><span data-stu-id="114e1-107">Having at least one job task in your job enables you to set up job planning lines and to post consumption to the job.</span></span>
 
-Hitt lagið samanstendur af áætlunarlínum sem tilgreina ítarlega notkun forða, vara og ýmis fjárhagsleg útgjöld.
+<span data-ttu-id="114e1-108">Hitt lagið samanstendur af áætlunarlínum sem tilgreina ítarlega notkun forða, vara og ýmis fjárhagsleg útgjöld.</span><span class="sxs-lookup"><span data-stu-id="114e1-108">The second layer consists of job planning lines, which specify the detailed use of resources, items and various general ledger expenses.</span></span>
 
-Lagskiptingin gerir kleift að skipta verkinu í smærri verk og notast við ítarlegri upplýsingar við fjárhagsáætlun, tilboð og skráningu. Auk þess veitir það innsýn í framvindu verksins. Til dæmis er hægt að rekja hvort notandinn nái tilskildum áföngum, eða hvort hann sé á réttri leið til að ná væntingum áætlunar.
-
-> [!NOTE]  
->   Aðgerðin **Nýtt Verk** í hlutverkinu **Verkefnastjóri** setur af stað uppsetningarleiðsögn sem leiðir notandann í gegnum skrefin við að stofna verk með samþættum verkhlutum og áætlunarlínum. Eftirfarandi ferli sýnir hvernig á að framkvæma skrefin handvirkt.
+<span data-ttu-id="114e1-109">Lagskiptingin gerir kleift að skipta verkinu í smærri verk og notast við ítarlegri upplýsingar við fjárhagsáætlun, tilboð og skráningu.</span><span class="sxs-lookup"><span data-stu-id="114e1-109">The layer structure enables you to divide the job into smaller tasks, and therefore use more specific details in budgeting, quotes, and registration.</span></span> <span data-ttu-id="114e1-110">Auk þess veitir það innsýn í framvindu verksins.</span><span class="sxs-lookup"><span data-stu-id="114e1-110">In addition, it gives you insight into how a job is progressing.</span></span> <span data-ttu-id="114e1-111">Til dæmis er hægt að rekja hvort notandinn nái tilskildum áföngum, eða hvort hann sé á réttri leið til að ná væntingum áætlunar.</span><span class="sxs-lookup"><span data-stu-id="114e1-111">For example, you can track whether you are meeting designated milestones or if you are on target to meet budget expectations.</span></span>
 
 > [!NOTE]  
->   Þessi virkni krefst þess að upplifun þín sé stillt á **Pakki**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
-
-## <a name="to-create-a-job-card"></a>Til að stofna verkspjald
-Stofnað er verkspjald og svo eru stofnaðar verkhlutalínur og áætlunarlínur fyrir það.
-
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
-2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Til að tilgreina verkið með upplýsingum um önnur verk skal velja aðgerðina **Afrita verk** og fylla svo út reitina eins og þörf krefur og velja hnappinn **Í lagi**.
+>   <span data-ttu-id="114e1-112">Aðgerðin **Nýtt Verk** í hlutverkinu **Verkefnastjóri** setur af stað uppsetningarleiðsögn sem leiðir notandann í gegnum skrefin við að stofna verk með samþættum verkhlutum og áætlunarlínum.</span><span class="sxs-lookup"><span data-stu-id="114e1-112">The **New Job** action on the **Project Manager** Role Center launches an assisted setup that guides you through the steps of creating a job with integrated tasks and planning lines.</span></span> <span data-ttu-id="114e1-113">Eftirfarandi ferli sýnir hvernig á að framkvæma skrefin handvirkt.</span><span class="sxs-lookup"><span data-stu-id="114e1-113">The following procedure describes how to perform the steps manually.</span></span>
 
 > [!NOTE]  
->   Ef vinnuskýrslur eru notaðar í verkinu þarf einnig að tilnefna ábyrgan aðila. Einstaklingurinn getur samþykkt vinnuskýrslur fyrir starfsmannaverkefni sem tengjast verkinu. Frekari upplýsingar eru í [Hvernig á að: Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md).
+>   <span data-ttu-id="114e1-114">Þessi virkni krefst þess að upplifun þín sé stillt á **Pakki**.</span><span class="sxs-lookup"><span data-stu-id="114e1-114">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="114e1-115">Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="114e1-115">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-## <a name="to-create-tasks-for-a-job"></a>Til að búa til verkhluta fyrir verk
-Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur í sér. Þetta er gert með því að bæta við nýjum línum á flýtiflipanum **Verkhlutar** í glugganum **Verkspjald**, eitt verk í hverri línu. Hvert verk verður að hafa að minnsta kosti einn verkhluta.
+## <a name="to-create-a-job-card"></a><span data-ttu-id="114e1-116">Til að stofna verkspjald</span><span class="sxs-lookup"><span data-stu-id="114e1-116">To create a job card</span></span>
+<span data-ttu-id="114e1-117">Stofnað er verkspjald og svo eru stofnaðar verkhlutalínur og áætlunarlínur fyrir það.</span><span class="sxs-lookup"><span data-stu-id="114e1-117">You create a job card and then create job task lines and job planning lines for it.</span></span>
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.
-2. Opnið verkspjaldið fyrir viðeigandi verk.
-3. Á flýtiflipanum **Verkhlutar** skal fylla út reitina eins og þörf krefur í nýrri línu.
-4. Til að draga inn verkhluta og búa til stigveldi skal velja aðgerðina **Verkhlutar** og svo aðgerðina **Draga inn verkhluta**.
-5. Endurtakið skref 3 og 4 fyrir alla verkhluta sem þarf fyrir verkið.
-6. Til að tilgreina verkhluta með upplýsingum um aðra verkhluta skal velja aðgerðina **Afrita verkhluta frá** og fylla svo út reitina eins og þörf krefur og velja hnappinn **Í lagi**.
+1. <span data-ttu-id="114e1-118">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="114e1-118">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="114e1-119">Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="114e1-119">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="114e1-120">Til að tilgreina verkið með upplýsingum um önnur verk skal velja aðgerðina **Afrita verk** og fylla svo út reitina eins og þörf krefur og velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="114e1-120">To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.</span></span>
 
-## <a name="to-create-planning-lines-for-a-job"></a>Til að stofna verkáætlunarlínu fyrir verk
-Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Áætlunarlínu er hægt að nota til að halda utan um hvers kyns upplýsingar sem rekja þarf í verki. Nota má áætlunarlínur til að bæta við upplýsingum líkt og hvaða forði þurfi að vera til staðar og til að gera grein fyrir hvaða vörur séu nauðsynlegar til að inna verkið af hendi. Ef verkhluti felst til dæmis í því að fá samþykki viðskiptamanns fyrir verki er hægt að tengja verkið við áætlunarlínur fyrir atriði eins og fundi með viðskiptamanninum og úthlutun forða.  
+> [!NOTE]  
+>   <span data-ttu-id="114e1-121">Ef vinnuskýrslur eru notaðar í verkinu þarf einnig að tilnefna ábyrgan aðila.</span><span class="sxs-lookup"><span data-stu-id="114e1-121">If you are using time sheets with your job, you must also designate a person responsible.</span></span> <span data-ttu-id="114e1-122">Einstaklingurinn getur samþykkt vinnuskýrslur fyrir starfsmannaverkefni sem tengjast verkinu.</span><span class="sxs-lookup"><span data-stu-id="114e1-122">This person can approve time sheets for the employee tasks associated with the job.</span></span> <span data-ttu-id="114e1-123">Frekari upplýsingar eru í [Hvernig á að: Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md).</span><span class="sxs-lookup"><span data-stu-id="114e1-123">For more information, see [How to: Set Up Timesheets](projects-how-setup-time-sheets.md).</span></span>
 
-Áætlunarlína getur verið ein af eftirfarandi tegundum.  
+## <a name="to-create-tasks-for-a-job"></a><span data-ttu-id="114e1-124">Til að búa til verkhluta fyrir verk</span><span class="sxs-lookup"><span data-stu-id="114e1-124">To create tasks for a job</span></span>
+<span data-ttu-id="114e1-125">Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur í sér.</span><span class="sxs-lookup"><span data-stu-id="114e1-125">A key part of creating a job is to specify the various tasks involved in the job.</span></span> <span data-ttu-id="114e1-126">Þetta er gert með því að bæta við nýjum línum á flýtiflipanum **Verkhlutar** í glugganum **Verkspjald**, eitt verk í hverri línu.</span><span class="sxs-lookup"><span data-stu-id="114e1-126">You do this by adding new lines on the **Tasks** FastTab in the **Job Card** window, one task per line.</span></span> <span data-ttu-id="114e1-127">Hvert verk verður að hafa að minnsta kosti einn verkhluta.</span><span class="sxs-lookup"><span data-stu-id="114e1-127">Every job must have at least one task.</span></span>
 
-| Gerð | Lýsing |
+1. <span data-ttu-id="114e1-128">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="114e1-128">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="114e1-129">Opnið verkspjaldið fyrir viðeigandi verk.</span><span class="sxs-lookup"><span data-stu-id="114e1-129">Open the job card for a relevant job.</span></span>
+3. <span data-ttu-id="114e1-130">Á flýtiflipanum **Verkhlutar** skal fylla út reitina eins og þörf krefur í nýrri línu.</span><span class="sxs-lookup"><span data-stu-id="114e1-130">On the **Tasks** FastTab, fill in the fields as necessary on a new line.</span></span>
+4. <span data-ttu-id="114e1-131">Til að draga inn verkhluta og búa til stigveldi skal velja aðgerðina **Verkhlutar** og svo aðgerðina **Draga inn verkhluta**.</span><span class="sxs-lookup"><span data-stu-id="114e1-131">To indent tasks and create a hierarchy, Choose the **Tasks** action, the then choose **Indent Job Tasks** action.</span></span>
+5. <span data-ttu-id="114e1-132">Endurtakið skref 3 og 4 fyrir alla verkhluta sem þarf fyrir verkið.</span><span class="sxs-lookup"><span data-stu-id="114e1-132">Repeat steps 3 and 4 for all the tasks that you need for the job.</span></span>
+6. <span data-ttu-id="114e1-133">Til að tilgreina verkhluta með upplýsingum um aðra verkhluta skal velja aðgerðina **Afrita verkhluta frá** og fylla svo út reitina eins og þörf krefur og velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="114e1-133">To specify the job tasks with information on other job tasks, choose the **Copy Job Tasks from** action, fill in the fields as necessary, and then choose the **OK** button.</span></span>
+
+## <a name="to-create-planning-lines-for-a-job"></a><span data-ttu-id="114e1-134">Til að stofna verkáætlunarlínu fyrir verk</span><span class="sxs-lookup"><span data-stu-id="114e1-134">To create planning lines for a job</span></span>
+<span data-ttu-id="114e1-135">Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins.</span><span class="sxs-lookup"><span data-stu-id="114e1-135">You can refine your new job tasks on job planning lines.</span></span> <span data-ttu-id="114e1-136">Áætlunarlínu er hægt að nota til að halda utan um hvers kyns upplýsingar sem rekja þarf í verki.</span><span class="sxs-lookup"><span data-stu-id="114e1-136">A planning line can be used to capture any information that you want to track for a job.</span></span> <span data-ttu-id="114e1-137">Nota má áætlunarlínur til að bæta við upplýsingum líkt og hvaða forði þurfi að vera til staðar og til að gera grein fyrir hvaða vörur séu nauðsynlegar til að inna verkið af hendi.</span><span class="sxs-lookup"><span data-stu-id="114e1-137">You can use planning lines to add information such as what resources are required or to capture what items are needed to perform the job.</span></span> <span data-ttu-id="114e1-138">Ef verkhluti felst til dæmis í því að fá samþykki viðskiptamanns fyrir verki er hægt að tengja verkið við áætlunarlínur fyrir atriði eins og fundi með viðskiptamanninum og úthlutun forða.</span><span class="sxs-lookup"><span data-stu-id="114e1-138">For example, if you have a task to obtain customer approval of a job, you can associate that task with planning lines for items such as meeting with the customer and assigning a resource.</span></span>  
+
+<span data-ttu-id="114e1-139">Áætlunarlína getur verið ein af eftirfarandi tegundum.</span><span class="sxs-lookup"><span data-stu-id="114e1-139">A job planning line can have one of the following types.</span></span>  
+
+| <span data-ttu-id="114e1-140">Gerð</span><span class="sxs-lookup"><span data-stu-id="114e1-140">Type</span></span> | <span data-ttu-id="114e1-141">Lýsing</span><span class="sxs-lookup"><span data-stu-id="114e1-141">Description</span></span> |
 | --- | --- |
-| **Fjárhagsáætlun** |Sýnir áætlaða notkun og kostnað við verkið, yfirleitt í verkefni af tíma- og efnisgerð. Áætlunarlínur af þessari gerð er ekki hægt að reikningsfæra. |
-| **Reikningshæft** |Sýnir áætlaða reikningsfærslu til viðskiptamanns, yfirleitt í verkefni með fast verð. |
-| **Bæði fjárhagsáætlun og reikningshæft** |Sýnir áætlaða notkun sem jafngildir því sem á að reikningsfæra. |
+| <span data-ttu-id="114e1-142">**Fjárhagsáætlun**</span><span class="sxs-lookup"><span data-stu-id="114e1-142">**Budget**</span></span> |<span data-ttu-id="114e1-143">Sýnir áætlaða notkun og kostnað við verkið, yfirleitt í verkefni af tíma- og efnisgerð.</span><span class="sxs-lookup"><span data-stu-id="114e1-143">Provides estimated usage and costs for the job, typically in a time and materials type project.</span></span> <span data-ttu-id="114e1-144">Áætlunarlínur af þessari gerð er ekki hægt að reikningsfæra.</span><span class="sxs-lookup"><span data-stu-id="114e1-144">Planning lines of this type cannot be invoiced.</span></span> |
+| <span data-ttu-id="114e1-145">**Reikningshæft**</span><span class="sxs-lookup"><span data-stu-id="114e1-145">**Billable**</span></span> |<span data-ttu-id="114e1-146">Sýnir áætlaða reikningsfærslu til viðskiptamanns, yfirleitt í verkefni með fast verð.</span><span class="sxs-lookup"><span data-stu-id="114e1-146">Provides estimated invoicing to the customer, typically in a fixed price project.</span></span> |
+| <span data-ttu-id="114e1-147">**Bæði fjárhagsáætlun og reikningshæft**</span><span class="sxs-lookup"><span data-stu-id="114e1-147">**Both Budget and Billable**</span></span> |<span data-ttu-id="114e1-148">Sýnir áætlaða notkun sem jafngildir því sem á að reikningsfæra.</span><span class="sxs-lookup"><span data-stu-id="114e1-148">Provides budgeted usage equal to what you want to invoice.</span></span> |
 
-**Athugasemd** Þegar upplýsingar um verkáætlunarlínur eru færðar inn eru kostnaðarupplýsingar fylltar út sjálfkrafa. Sem dæmi má taka að kostnaður, verð og afsláttur forða og vara byggist í upphafi á upplýsingum sem eru tilgreindar á forðaspjaldi og birgðaspjaldi.
+<span data-ttu-id="114e1-149">**Athugasemd**</span><span class="sxs-lookup"><span data-stu-id="114e1-149">**Note**.</span></span> <span data-ttu-id="114e1-150">Þegar upplýsingar um verkáætlunarlínur eru færðar inn eru kostnaðarupplýsingar fylltar út sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="114e1-150">As you enter information on job planning lines, cost information is automatically filled in.</span></span> <span data-ttu-id="114e1-151">Sem dæmi má taka að kostnaður, verð og afsláttur forða og vara byggist í upphafi á upplýsingum sem eru tilgreindar á forðaspjaldi og birgðaspjaldi.</span><span class="sxs-lookup"><span data-stu-id="114e1-151">For example, the cost, price, and discount for resources and items are initially based on the information that is defined on the resource and item cards.</span></span>
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.
-2. Opnið viðeigandi verkspjald.
-3. Valinn er verkhluti þar sem reiturinn **Verkhlutagerð** inniheldur **Bókuð** og svo er aðgerðin **Verkhlutalínur** valin.  
-4. Í glugganum **Verkáætlunarlínur** skal fylla út reitina eins og þörf krefur í nýrri línu.
-5. Endurtakið skref 3 og 4 fyrir allar verkhlutalínur sem þarf fyrir verkhlutann.
+1. <span data-ttu-id="114e1-152">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="114e1-152">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="114e1-153">Opnið viðeigandi verkspjald.</span><span class="sxs-lookup"><span data-stu-id="114e1-153">Open a relevant job card.</span></span>
+3. <span data-ttu-id="114e1-154">Valinn er verkhluti þar sem reiturinn **Verkhlutagerð** inniheldur **Bókuð** og svo er aðgerðin **Verkhlutalínur** valin.</span><span class="sxs-lookup"><span data-stu-id="114e1-154">Select a job task for which the **Job Task Type** field contains **Posting**, and then choose the **Job Planning Lines** action.</span></span>  
+4. <span data-ttu-id="114e1-155">Í glugganum **Verkáætlunarlínur** skal fylla út reitina eins og þörf krefur í nýrri línu.</span><span class="sxs-lookup"><span data-stu-id="114e1-155">In the **Job Planning Lines** window, on a new line, fill in the fields as necessary.</span></span>
+5. <span data-ttu-id="114e1-156">Endurtakið skref 3 og 4 fyrir allar verkhlutalínur sem þarf fyrir verkhlutann.</span><span class="sxs-lookup"><span data-stu-id="114e1-156">Repeat steps 3 and 4 for all planning lines that you need for the job task.</span></span>
 
-## <a name="see-also"></a>Sjá einnig
-[Verkefnastjórnun](projects-manage-projects.md)  
-[Fjármál](finance.md)  
-[Innkaup](purchasing-manage-purchasing.md)         
-[Sala](sales-manage-sales.md)      
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="114e1-157">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="114e1-157">See Also</span></span>
+[<span data-ttu-id="114e1-158">Verkefnastjórnun</span><span class="sxs-lookup"><span data-stu-id="114e1-158">Project Management</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="114e1-159">Fjármál</span><span class="sxs-lookup"><span data-stu-id="114e1-159">Finance</span></span>](finance.md)  
+<span data-ttu-id="114e1-160">[Innkaup](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="114e1-160">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="114e1-161">[Sala](sales-manage-sales.md)    </span><span class="sxs-lookup"><span data-stu-id="114e1-161">[Sales](sales-manage-sales.md)    </span></span>  
+<span data-ttu-id="114e1-162">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="114e1-162">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

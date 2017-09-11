@@ -16,125 +16,125 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: db79c257585fe89237ef4e8d61fa49ce46ec682f
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-count-adjust-and-reclassify-inventory"></a>Hvernig skal: Telja, breyta og endurflokka birgðir.
-Minnst einu sinni á hverju fjárhagsári þarf að telja raunbirgðir (það er, telja allar vörur á lager) til að athuga hvort magnið sem skráð er í kerfinu sé það sama og raunbirgðir á lager. Þegar búið er að finna út úr raunbirgðum þarf að bóka þær í fjárhag þegar fram fer mat á birgðum við lok tímabils.
+# <a name="how-to-count-adjust-and-reclassify-inventory"></a><span data-ttu-id="42e56-103">Hvernig skal: Telja, breyta og endurflokka birgðir.</span><span class="sxs-lookup"><span data-stu-id="42e56-103">How to: Count, Adjust, and Reclassify Inventory</span></span>
+<span data-ttu-id="42e56-104">Minnst einu sinni á hverju fjárhagsári þarf að telja raunbirgðir (það er, telja allar vörur á lager) til að athuga hvort magnið sem skráð er í kerfinu sé það sama og raunbirgðir á lager.</span><span class="sxs-lookup"><span data-stu-id="42e56-104">At least once every fiscal year you must take a physical inventory, that is, count all the items on inventory, to see if the quantity registered in the database is the same as the actual physical quantity in the warehouses.</span></span> <span data-ttu-id="42e56-105">Þegar búið er að finna út úr raunbirgðum þarf að bóka þær í fjárhag þegar fram fer mat á birgðum við lok tímabils.</span><span class="sxs-lookup"><span data-stu-id="42e56-105">When the actual physical quantity is known, it must be posted to the general ledger as a part of period-end valuation of inventory.</span></span>
 
-Þó að allar vörur í birgðum séu taldar minnst einu sinni á ári gæti þurft að telja sumar vörur oftar, kannski vegna þess hve verðmætar þær eru eða vegna þess að mikil hreyfing er á þeim og þær eru stór hluti af rekstrinum. Í þessum tilgangi geturðu úthlutað sérstökum talningatímabilum á þessar vörur. Sjá frekari upplýsingar í „Að framkvæma reglulega talningu" liðnum.
+<span data-ttu-id="42e56-106">Þó að allar vörur í birgðum séu taldar minnst einu sinni á ári gæti þurft að telja sumar vörur oftar, kannski vegna þess hve verðmætar þær eru eða vegna þess að mikil hreyfing er á þeim og þær eru stór hluti af rekstrinum.</span><span class="sxs-lookup"><span data-stu-id="42e56-106">Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business.</span></span> <span data-ttu-id="42e56-107">Í þessum tilgangi geturðu úthlutað sérstökum talningatímabilum á þessar vörur.</span><span class="sxs-lookup"><span data-stu-id="42e56-107">For this purpose, you can assign special counting periods to those items.</span></span> <span data-ttu-id="42e56-108">Sjá frekari upplýsingar í „Að framkvæma reglulega talningu" liðnum.</span><span class="sxs-lookup"><span data-stu-id="42e56-108">For more information, see the "To perform cycle counting" section.</span></span>
 
-Ef nauðsynlegt er að leiðrétta skráð birgðamagn í tengslum við talningu eða í öðrum tilgangi er hægt að nota birgðabók til þess að breyta færslum í birgðum beint án þess að bóka viðskipti. Að öðrum kosti er hægt að leiðrétta einstaka vöru á birgðaspjaldinu.
+<span data-ttu-id="42e56-109">Ef nauðsynlegt er að leiðrétta skráð birgðamagn í tengslum við talningu eða í öðrum tilgangi er hægt að nota birgðabók til þess að breyta færslum í birgðum beint án þess að bóka viðskipti.</span><span class="sxs-lookup"><span data-stu-id="42e56-109">If you need to adjust recorded inventory quantities, in connection with counting or for other purposes, you can use an item journal to change the inventory ledger entries directly without posting business transactions.</span></span> <span data-ttu-id="42e56-110">Að öðrum kosti er hægt að leiðrétta einstaka vöru á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="42e56-110">Alternatively, you can adjust for a single item on the item card.</span></span>
 
-Ef nauðsynlegt er að breyta eigindum fyrir birgðafærslur auk magns er hægt að nota endurflokkunarbók vöru. Dæmigerðar eigindir til að endurflokka eru til dæmis rað/lotu númer, gildistími og víddir.
+<span data-ttu-id="42e56-111">Ef nauðsynlegt er að breyta eigindum fyrir birgðafærslur auk magns er hægt að nota endurflokkunarbók vöru.</span><span class="sxs-lookup"><span data-stu-id="42e56-111">If you need to change attributes on item ledger entries as well as the quantities, you can use the item reclassification journal.</span></span> <span data-ttu-id="42e56-112">Dæmigerðar eigindir til að endurflokka eru til dæmis rað/lotu númer, gildistími og víddir.</span><span class="sxs-lookup"><span data-stu-id="42e56-112">Typical attributes to reclassify include serial/lot numbers, expiration dates, and dimensions.</span></span>
 
-## <a name="to-perform-a-physical-inventory"></a>Að framkvæma Raunbirgðatalningu
-Gera verður úttekt á raunbirgðum, það er að telja hvað mikið er til í raun og veru af hverri vöru, til að sjá hvort magnið sem er skráð í kerfinu er í samræmi við vörutalningu í lok hvers reikningsárs, eða oftar. Ef munur er á þessu tvennu verður að bóka hann á birgðareikninginn áður en birgðir eru verðmetnar.
+## <a name="to-perform-a-physical-inventory"></a><span data-ttu-id="42e56-113">Að framkvæma Raunbirgðatalningu</span><span class="sxs-lookup"><span data-stu-id="42e56-113">To perform a physical inventory</span></span>
+<span data-ttu-id="42e56-114">Gera verður úttekt á raunbirgðum, það er að telja hvað mikið er til í raun og veru af hverri vöru, til að sjá hvort magnið sem er skráð í kerfinu er í samræmi við vörutalningu í lok hvers reikningsárs, eða oftar.</span><span class="sxs-lookup"><span data-stu-id="42e56-114">You must take a physical inventory, that is, count the actual items on hand, to check if the quantity registered is the same as the physical quantity in stock at the end of a fiscal year, if not more often.</span></span> <span data-ttu-id="42e56-115">Ef munur er á þessu tvennu verður að bóka hann á birgðareikninginn áður en birgðir eru verðmetnar.</span><span class="sxs-lookup"><span data-stu-id="42e56-115">If there are differences, you must post them to the item accounts before you do the inventory valuation.</span></span>
 
-Að frátöldum efnislegu talningarverki felur heildarferlið í sér eftirfarandi þrjú verkefni:
+<span data-ttu-id="42e56-116">Að frátöldum efnislegu talningarverki felur heildarferlið í sér eftirfarandi þrjú verkefni:</span><span class="sxs-lookup"><span data-stu-id="42e56-116">Apart from the physical counting task, the complete process involves the following three tasks:</span></span>
 
-- Reikna væntanlegar birgðir.
-- Prenta skýrsluna sem verður notuð við talningu.
-- Færa inn og bóka raunveruleg taldar birgðir.
+- <span data-ttu-id="42e56-117">Reikna væntanlegar birgðir.</span><span class="sxs-lookup"><span data-stu-id="42e56-117">Calculate the expected inventory.</span></span>
+- <span data-ttu-id="42e56-118">Prenta skýrsluna sem verður notuð við talningu.</span><span class="sxs-lookup"><span data-stu-id="42e56-118">Print the report to be used when counting.</span></span>
+- <span data-ttu-id="42e56-119">Færa inn og bóka raunveruleg taldar birgðir.</span><span class="sxs-lookup"><span data-stu-id="42e56-119">Enter and post the actual counted inventory.</span></span>
 
-### <a name="to-calculate-the-expected-inventory"></a>Til að reikna væntanlegar birgðir
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Raunbirgðabók** og velja svo viðeigandi tengil.
-2. Veljið aðgerðina **Reikna Birgðir**.
-3. Í glugganum **Reikna birgðir** tilgreinið skilyrði sem nota á til að stofna færslubókarlínur, t.d. hvort þær eigi að innihalda vörur sem hafa engar birgðir skráðar.
-4. Stilla afmarkanir ef aðeins á að reikna birgðir fyrir ákveðnar vörur, hólf, birgðageymslur eða víddir.
-5. Velja hnappinn **Í lagi**.
+### <a name="to-calculate-the-expected-inventory"></a><span data-ttu-id="42e56-120">Til að reikna væntanlegar birgðir</span><span class="sxs-lookup"><span data-stu-id="42e56-120">To calculate the expected inventory</span></span>
+1. <span data-ttu-id="42e56-121">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Raunbirgðabók** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="42e56-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Journals**, and then choose the related link.</span></span>
+2. <span data-ttu-id="42e56-122">Veljið aðgerðina **Reikna Birgðir**.</span><span class="sxs-lookup"><span data-stu-id="42e56-122">Choose the **Calculate Inventory** action.</span></span>
+3. <span data-ttu-id="42e56-123">Í glugganum **Reikna birgðir** tilgreinið skilyrði sem nota á til að stofna færslubókarlínur, t.d. hvort þær eigi að innihalda vörur sem hafa engar birgðir skráðar.</span><span class="sxs-lookup"><span data-stu-id="42e56-123">In the **Calculate Inventory** window, specify the conditions to use to create the journal lines, such as whether to include items that have zero recorded inventory.</span></span>
+4. <span data-ttu-id="42e56-124">Stilla afmarkanir ef aðeins á að reikna birgðir fyrir ákveðnar vörur, hólf, birgðageymslur eða víddir.</span><span class="sxs-lookup"><span data-stu-id="42e56-124">Set filters if you only want to calculate inventory for certain items, bins, locations, or dimensions.</span></span>
+5. <span data-ttu-id="42e56-125">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="42e56-125">Choose the **OK** button.</span></span>
 
 > [!NOTE]  
->   Birgðafærslurnar eru unnar í samræmi við þær upplýsingar sem tilgreindar voru, og línur eru stofnaðar í raunbirgðabókinni. Takið eftir að reiturinn **Magn (raunbirgðir)** færir sjálfkrafa inn sama magn og reiturinn **Magn (reiknað)**. Með þessum eiginleika er ekki nauðsynlegt að færa inn taldar lagerbirgðir fyrir vörur sem er hafa sama magn og reiknað magn. Ef talið magn er annað en það sem skráð er í reitnum **Magn (reiknað)** þarf að skrifa yfir það með magninu sem talið var.
+>   <span data-ttu-id="42e56-126">Birgðafærslurnar eru unnar í samræmi við þær upplýsingar sem tilgreindar voru, og línur eru stofnaðar í raunbirgðabókinni.</span><span class="sxs-lookup"><span data-stu-id="42e56-126">The item entries are processed according to the information that you specified, and lines are created in the physical inventory journal.</span></span> <span data-ttu-id="42e56-127">Takið eftir að reiturinn **Magn (raunbirgðir)** færir sjálfkrafa inn sama magn og reiturinn **Magn (reiknað)**.</span><span class="sxs-lookup"><span data-stu-id="42e56-127">Notice that the **Qty. (Phys. Inventory)** field is automatically filled in with the same quantity as the **Qty. (Calculated)** field.</span></span> <span data-ttu-id="42e56-128">Með þessum eiginleika er ekki nauðsynlegt að færa inn taldar lagerbirgðir fyrir vörur sem er hafa sama magn og reiknað magn.</span><span class="sxs-lookup"><span data-stu-id="42e56-128">With this feature, it is not necessary for you to enter the counted inventory on hand for items that are the same as the calculated quantity.</span></span> <span data-ttu-id="42e56-129">Ef talið magn er annað en það sem skráð er í reitnum **Magn (reiknað)** þarf að skrifa yfir það með magninu sem talið var.</span><span class="sxs-lookup"><span data-stu-id="42e56-129">However, if the quantity counted differs from what is entered in the **Qty. (Calculated)** field, you must overwrite it with the quantity actually counted.</span></span>
 
-### <a name="to-print-the-report-used-when-counting"></a>Til að prenta skýrsluna sem er notuð við talningu
-1. Í glugganum **Raunbirgðabók** sem inniheldur útreikning áætlaðra birgða skal velja **Prenta** aðgerðina.
-2. Í glugganum **Raunbirgðalisti** tilgreinið hvort skýrslan skuli sýna reiknað magn og hvort skýrslan eigi að birta birgðavörur eftir rað-/lotunúmerum.
-3. Setjið upp afmarkanir ef aðeins á að prenta skýrsluna fyrir ákveðnar vörur, hólf, birgðageymslur eða víddir.
-4. Velja hnappinn **Prenta**.
+### <a name="to-print-the-report-used-when-counting"></a><span data-ttu-id="42e56-130">Til að prenta skýrsluna sem er notuð við talningu</span><span class="sxs-lookup"><span data-stu-id="42e56-130">To print the report used when counting</span></span>
+1. <span data-ttu-id="42e56-131">Í glugganum **Raunbirgðabók** sem inniheldur útreikning áætlaðra birgða skal velja **Prenta** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="42e56-131">In the **Phys. Inventory Journal** window containing the calculated expected inventory, Choose the **Print** action.</span></span>
+2. <span data-ttu-id="42e56-132">Í glugganum **Raunbirgðalisti** tilgreinið hvort skýrslan skuli sýna reiknað magn og hvort skýrslan eigi að birta birgðavörur eftir rað-/lotunúmerum.</span><span class="sxs-lookup"><span data-stu-id="42e56-132">In the **Phys. Inventory List** window, specify if the report should show the calculated quantity and if the report should list inventory items by serial/lot numbers.</span></span>
+3. <span data-ttu-id="42e56-133">Setjið upp afmarkanir ef aðeins á að prenta skýrsluna fyrir ákveðnar vörur, hólf, birgðageymslur eða víddir.</span><span class="sxs-lookup"><span data-stu-id="42e56-133">Set filters if you only want to print the report for certain items, bins, locations, or dimensions.</span></span>
+4. <span data-ttu-id="42e56-134">Velja hnappinn **Prenta**.</span><span class="sxs-lookup"><span data-stu-id="42e56-134">Choose the **Print** button.</span></span>
 
-Starfsmenn geta nú haldið áfram að telja birgðir og skrá hugsanlegt misræmi þegar skýrslan er prentuð.
+<span data-ttu-id="42e56-135">Starfsmenn geta nú haldið áfram að telja birgðir og skrá hugsanlegt misræmi þegar skýrslan er prentuð.</span><span class="sxs-lookup"><span data-stu-id="42e56-135">Employees can now proceed to count inventory and record any discrepancies on the printed report.</span></span>
 
-### <a name="to-enter-and-post-the-actual-counted-inventory"></a>Til að færa inn og bóka raunverulegar taldar birgðir.
-1. Í hverri línu í **Raunbirgðabók** glugganum, þar sem tiltækt raunbirgðamagn, samkvæmt rauntalningu, er annað en reiknað magn, er fært inn raunbirgðamagn í reitinn **Magn raunbirgðir**.
+### <a name="to-enter-and-post-the-actual-counted-inventory"></a><span data-ttu-id="42e56-136">Til að færa inn og bóka raunverulegar taldar birgðir.</span><span class="sxs-lookup"><span data-stu-id="42e56-136">To enter and post the actual counted inventory</span></span>
+1. <span data-ttu-id="42e56-137">Í hverri línu í **Raunbirgðabók** glugganum, þar sem tiltækt raunbirgðamagn, samkvæmt rauntalningu, er annað en reiknað magn, er fært inn raunbirgðamagn í reitinn **Magn raunbirgðir**.</span><span class="sxs-lookup"><span data-stu-id="42e56-137">On each line in the **Phys. Inventory Journal** window where the actual inventory on hand, as determined by the physical count, differs from the calculated quantity, enter the actual inventory on hand in the **Qty. (Phys. Inventory)** field.</span></span>
 
-    Viðeigandi reitir eru uppfærðir í samræmi við það.
+    <span data-ttu-id="42e56-138">Viðeigandi reitir eru uppfærðir í samræmi við það.</span><span class="sxs-lookup"><span data-stu-id="42e56-138">The related fields are updated accordingly.</span></span>
 
     > [!NOTE]  
->   Ef við raunbirgðatalningu kemur í ljós munur vegna vara hafi verið bókaðar með röngum birgðageymslukótum er munurinn ekki færður inn í raunbirgðabókina. Í staðinn skal nota endurflokkunarbók eða millifærslupöntun til að beina vörunum á rétta staði. Frekari upplýsingar, sjá Vöruendurflokkunarbók Eða hvernig á að stofna Millifærslupantanir
+>   <span data-ttu-id="42e56-139">Ef við raunbirgðatalningu kemur í ljós munur vegna vara hafi verið bókaðar með röngum birgðageymslukótum er munurinn ekki færður inn í raunbirgðabókina.</span><span class="sxs-lookup"><span data-stu-id="42e56-139">If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal.</span></span> <span data-ttu-id="42e56-140">Í staðinn skal nota endurflokkunarbók eða millifærslupöntun til að beina vörunum á rétta staði.</span><span class="sxs-lookup"><span data-stu-id="42e56-140">Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations.</span></span> <span data-ttu-id="42e56-141">Frekari upplýsingar, sjá Vöruendurflokkunarbók</span><span class="sxs-lookup"><span data-stu-id="42e56-141">For more information, see Item Reclass.</span></span> <span data-ttu-id="42e56-142">Eða hvernig á að stofna Millifærslupantanir</span><span class="sxs-lookup"><span data-stu-id="42e56-142">Journal or How to: Create Transfer Orders.</span></span>
 
-2. Til að leiðrétta reiknað magn í raunverulegt talið magn skal velja aðgerðina **Bóka**.
+2. <span data-ttu-id="42e56-143">Til að leiðrétta reiknað magn í raunverulegt talið magn skal velja aðgerðina **Bóka**.</span><span class="sxs-lookup"><span data-stu-id="42e56-143">To adjust the calculated quantities to the actual counted quantities, choose the **Post** action.</span></span>
 
-    Bæði birgðafærslur og raunbirgðabókarfærslur eru stofnaðar. Opna birgðaspjaldið til að skoða raunbirgðafærslur sem leiða af því.
+    <span data-ttu-id="42e56-144">Bæði birgðafærslur og raunbirgðabókarfærslur eru stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="42e56-144">Both item ledger entries and physical inventory ledger entries are created.</span></span> <span data-ttu-id="42e56-145">Opna birgðaspjaldið til að skoða raunbirgðafærslur sem leiða af því.</span><span class="sxs-lookup"><span data-stu-id="42e56-145">Open the item card to view the resulting physical inventory ledger entries.</span></span>
 
-3. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
-4. Til að staðfesta birgðatalningu skal opna það birgðaspjald sem um ræðir, og veljið síðan aðgerðina **Raunbirgðafjárhagsfærslur**.
+3. <span data-ttu-id="42e56-146">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="42e56-146">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>
+4. <span data-ttu-id="42e56-147">Til að staðfesta birgðatalningu skal opna það birgðaspjald sem um ræðir, og veljið síðan aðgerðina **Raunbirgðafjárhagsfærslur**.</span><span class="sxs-lookup"><span data-stu-id="42e56-147">To verify the inventory counting, open the item card in question, and then, choose the **Phys. Inventory ledger Entries** action.</span></span>
 
-# <a name="to-perform-cycle-counting"></a>Að framkvæma reglulega talningu
-Þó að allar vörur í birgðum séu taldar minnst einu sinni á ári gæti þurft að telja sumar vörur oftar, kannski vegna þess hve verðmætar þær eru eða vegna þess að mikil hreyfing er á þeim og þær eru stór hluti af rekstrinum. Í þessum tilgangi geturðu úthlutað sérstökum talningatímabilum á þessar vörur.
-
-> [!NOTE]  
->   Ef birgðageymslan notar beinan frágang og tínslu þarf fyrst að nota gluggann **Vöruh.- Raunbirgðabók** og síðan aðgerðina **Reikna vöruhúsaleiðréttingu** í glugganum **Birgðabók**.
-
-## <a name="to-set-up-counting-periods"></a>Talningatímabil sett upp
-Raunbirgðir eru vanalega taldar með jöfnu millibili, til dæmis mánaðarlega, ársfjórðungslega eða árlega. Hægt er að setja upp þau talningatímabil sem þarf.
-
-Birgðatalningatímabilin sem á að nota eru sett upp og síðan er einu slíku úthlutað á hverja vöru. Þegar raunbirgðir eru taldar og aðgerðin **Reikna talningatímabil** er notuð í raunbirgðabók eru línur fyrir vörurnar búnar til sjálfkrafa.
-
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Talningartímabil raunbirgða** og velja svo viðeigandi tengil.  
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-## <a name="to-assign-a-counting-period-to-an-item"></a>Talningatímabili úthlutað á vöru  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
-2. Varan sem úthluta á talningartímabili er valin.  
-3. Á reitnum **Kóti talningartímabils raunbirgða** skal velja viðkomandi talningartímabil.  
-4. Velja **Já** til að breyta kótanum og reikna út fyrsta talningartímabilið fyrir vöruna. Næst þegar valið er að reikna út talningatímabil í raunbirgðabók vöruhúss, birtist varan sem lína í glugganum **Vöruval raunbirgða**. Nú er hægt að byrja telja vöruna með reglulegu millibili.
-
-## <a name="to-initiate-a-count-based-on-counting-periods"></a>Að hefja talningu byggða á talningartímabilum
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Raunbirgðabók** og velja svo viðeigandi tengil.
-2. Veljið **Reikna talningartímabil** aðgerðina.
-
-    Glugginn **Vöruval raunbirgða** opnast þar sem vörurnar sem talningatímabil hafa verið sett upp fyrir sem þarf að telja eru samkvæmt talningartímabilum þeirra.
-3. Framkvæma raunbirgðatalningu. Frekari upplýsingar, sjá „Framkvæma raunbirgðatalningu“ hlutann.
-
-## <a name="to-adjust-the-inventory-of-one-item"></a>Leiðrétta birgðastöðu einnar vöru
-Eftir að búið er að telja vöru á birgðasvæði er hægt að nota eiginleikann **Leiðrétta birgðir** til að skrá raunverulegt magn í birgðum.
-
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
-2. Veljið þá vöru sem leiðrétta birgðir fyrir og veldu svo **leiðrétta birgðir** aðgerðina.
-3. Í reitnum **nýjar birgðir** skaltu slá inn birgðamagn sem þú vilt skrá fyrir vöruna.
-4. Velja hnappinn **Í lagi**.
-
-Birgðir vörunnar hafa nú verið leiðréttar. Nýja magni er birt í reitnum **Núverandi birgðir** í glugganum **leiðrétta birgðir** og í reitnum **birgðir** í glugganum **vöruspjald**.
-
-Einnig er hægt að nota aðgerðina **Leiðrétta birgðir** sem einfalda leið til að staðsetja keypta vöru í birgðum ef þú ætlar ekki að nota gluggann innkaupareikningur til að skrá innkaupin. Nánari upplýsingar eru í [Hvernig á að: Skrá innkaup](purchasing-how-record-purchases.md).
+# <a name="to-perform-cycle-counting"></a><span data-ttu-id="42e56-148">Að framkvæma reglulega talningu</span><span class="sxs-lookup"><span data-stu-id="42e56-148">To perform cycle counting</span></span>
+<span data-ttu-id="42e56-149">Þó að allar vörur í birgðum séu taldar minnst einu sinni á ári gæti þurft að telja sumar vörur oftar, kannski vegna þess hve verðmætar þær eru eða vegna þess að mikil hreyfing er á þeim og þær eru stór hluti af rekstrinum.</span><span class="sxs-lookup"><span data-stu-id="42e56-149">Although you count all items in inventory at least once a year, you may have decided to count some items more often, perhaps because they are more valuable, or because they are very fast movers and a large part of your business.</span></span> <span data-ttu-id="42e56-150">Í þessum tilgangi geturðu úthlutað sérstökum talningatímabilum á þessar vörur.</span><span class="sxs-lookup"><span data-stu-id="42e56-150">For this purpose, you can assign special counting periods to those items.</span></span>
 
 > [!NOTE]  
->   Eftir að þú hefur leiðrétt birgðir þarftu að uppfæra þær með núverandi útreiknuðu virði. Frekari upplýsingar eru í [Hvernig á að: Endurmeta birgðir](inventory-how-revalue-inventory.md).
+>   <span data-ttu-id="42e56-151">Ef birgðageymslan notar beinan frágang og tínslu þarf fyrst að nota gluggann **Vöruh.- Raunbirgðabók** og síðan aðgerðina **Reikna vöruhúsaleiðréttingu** í glugganum **Birgðabók**.</span><span class="sxs-lookup"><span data-stu-id="42e56-151">If your location is set up for directed put-away and pick, then you first use the **Whse. Phys. Invt. Journal** window, and then you use the **Calculate Whse. Adjustment** function in the **Item Journal** window.</span></span>
 
-## <a name="to-adjust-the-inventory-quantity-of-one-or-more-items"></a>Leiðrétta birgðamagn einnar eða fleiri vöru
-Í glugganum **Birgðabók** er hægt að bóka birgðafærslu beint til að leiðrétta birgðaskrá í tengslum við innkaup, sölu og jákvæða eða neikvæða leiðréttingu án þess að nota fylgiskjöl.
+## <a name="to-set-up-counting-periods"></a><span data-ttu-id="42e56-152">Talningatímabil sett upp</span><span class="sxs-lookup"><span data-stu-id="42e56-152">To set up counting periods</span></span>
+<span data-ttu-id="42e56-153">Raunbirgðir eru vanalega taldar með jöfnu millibili, til dæmis mánaðarlega, ársfjórðungslega eða árlega.</span><span class="sxs-lookup"><span data-stu-id="42e56-153">A physical inventory is typically taken at some recurring interval, for example monthly, quarterly, or annually.</span></span> <span data-ttu-id="42e56-154">Hægt er að setja upp þau talningatímabil sem þarf.</span><span class="sxs-lookup"><span data-stu-id="42e56-154">You can set up whatever inventory counting periods necessary.</span></span>
 
-Ef birgðabókin er oft notuð til að bóka sömu eða svipaðar færslubókarlínur, til dæmis í tengslum við efnisnotkun, er hægt að nota **Stöðluðu birgðabókina** til að auðvelda þessa endurteknu vinnu. Frekari upplýsingar, sjá hlutann „Staðlaðar færslubækur“ [Unnið með almennar færslubækur](ui-work-general-journals.md).
+<span data-ttu-id="42e56-155">Birgðatalningatímabilin sem á að nota eru sett upp og síðan er einu slíku úthlutað á hverja vöru.</span><span class="sxs-lookup"><span data-stu-id="42e56-155">You set up the inventory counting periods that you want to use and then assign one to each item.</span></span> <span data-ttu-id="42e56-156">Þegar raunbirgðir eru taldar og aðgerðin **Reikna talningatímabil** er notuð í raunbirgðabók eru línur fyrir vörurnar búnar til sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="42e56-156">When you perform a physical inventory and use the **Calculate Counting Period** in the physical inventory journal, lines for the items are created automatically.</span></span>
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðafærslubækur** og velja svo viðeigandi tengil.
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Veljið aðgerðina **bóka** til að gera birgðaleiðréttingarnar.
+1. <span data-ttu-id="42e56-157">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Talningartímabil raunbirgða** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="42e56-157">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Invt. Counting Periods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="42e56-158">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="42e56-158">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-assign-a-counting-period-to-an-item"></a><span data-ttu-id="42e56-159">Talningatímabili úthlutað á vöru</span><span class="sxs-lookup"><span data-stu-id="42e56-159">To assign a counting period to an item</span></span>  
+1. <span data-ttu-id="42e56-160">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="42e56-160">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="42e56-161">Varan sem úthluta á talningartímabili er valin.</span><span class="sxs-lookup"><span data-stu-id="42e56-161">Select the item to which you want to assign a counting period.</span></span>  
+3. <span data-ttu-id="42e56-162">Á reitnum **Kóti talningartímabils raunbirgða** skal velja viðkomandi talningartímabil.</span><span class="sxs-lookup"><span data-stu-id="42e56-162">In the **Phys Invt Counting Period Code** field, select the appropriate counting period.</span></span>  
+4. <span data-ttu-id="42e56-163">Velja **Já** til að breyta kótanum og reikna út fyrsta talningartímabilið fyrir vöruna.</span><span class="sxs-lookup"><span data-stu-id="42e56-163">Choose the **Yes** button to change the code and calculate the first counting period for the item.</span></span> <span data-ttu-id="42e56-164">Næst þegar valið er að reikna út talningatímabil í raunbirgðabók vöruhúss, birtist varan sem lína í glugganum **Vöruval raunbirgða**.</span><span class="sxs-lookup"><span data-stu-id="42e56-164">The next time you choose to calculate a counting period in the physical inventory journal, the item appears as a line in the **Phys. Invt. Item Selection** window.</span></span> <span data-ttu-id="42e56-165">Nú er hægt að byrja telja vöruna með reglulegu millibili.</span><span class="sxs-lookup"><span data-stu-id="42e56-165">You can then begin to count the item on a periodic basis.</span></span>
+
+## <a name="to-initiate-a-count-based-on-counting-periods"></a><span data-ttu-id="42e56-166">Að hefja talningu byggða á talningartímabilum</span><span class="sxs-lookup"><span data-stu-id="42e56-166">To initiate a count based on counting periods</span></span>
+1. <span data-ttu-id="42e56-167">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Raunbirgðabók** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="42e56-167">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Inventory Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="42e56-168">Veljið **Reikna talningartímabil** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="42e56-168">Choose the **Calculate Counting Period** action.</span></span>
+
+    <span data-ttu-id="42e56-169">Glugginn **Vöruval raunbirgða** opnast þar sem vörurnar sem talningatímabil hafa verið sett upp fyrir sem þarf að telja eru samkvæmt talningartímabilum þeirra.</span><span class="sxs-lookup"><span data-stu-id="42e56-169">The **Phys. Invt. Item Selection** window opens showing the items that have counting periods assigned and need to be counted according to their counting periods.</span></span>
+3. <span data-ttu-id="42e56-170">Framkvæma raunbirgðatalningu.</span><span class="sxs-lookup"><span data-stu-id="42e56-170">Perform the physical inventory.</span></span> <span data-ttu-id="42e56-171">Frekari upplýsingar, sjá „Framkvæma raunbirgðatalningu“ hlutann.</span><span class="sxs-lookup"><span data-stu-id="42e56-171">For more information, see the "To perform a physical inventory" section.</span></span>
+
+## <a name="to-adjust-the-inventory-of-one-item"></a><span data-ttu-id="42e56-172">Leiðrétta birgðastöðu einnar vöru</span><span class="sxs-lookup"><span data-stu-id="42e56-172">To adjust the inventory of one item</span></span>
+<span data-ttu-id="42e56-173">Eftir að búið er að telja vöru á birgðasvæði er hægt að nota eiginleikann **Leiðrétta birgðir** til að skrá raunverulegt magn í birgðum.</span><span class="sxs-lookup"><span data-stu-id="42e56-173">After you have made a physical count of an item in your inventory area, you can use the **Adjust Inventory** function to record the actual inventory quantity.</span></span>
+
+1. <span data-ttu-id="42e56-174">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="42e56-174">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>
+2. <span data-ttu-id="42e56-175">Veljið þá vöru sem leiðrétta birgðir fyrir og veldu svo **leiðrétta birgðir** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="42e56-175">Select the item for which you want to adjust inventory, and then choose the **Adjust Inventory** action.</span></span>
+3. <span data-ttu-id="42e56-176">Í reitnum **nýjar birgðir** skaltu slá inn birgðamagn sem þú vilt skrá fyrir vöruna.</span><span class="sxs-lookup"><span data-stu-id="42e56-176">In the **New Inventory** field, enter the inventory quantity that you want to record for the item.</span></span>
+4. <span data-ttu-id="42e56-177">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="42e56-177">Choose the **OK** button.</span></span>
+
+<span data-ttu-id="42e56-178">Birgðir vörunnar hafa nú verið leiðréttar.</span><span class="sxs-lookup"><span data-stu-id="42e56-178">The item’s inventory is now adjusted.</span></span> <span data-ttu-id="42e56-179">Nýja magni er birt í reitnum **Núverandi birgðir** í glugganum **leiðrétta birgðir** og í reitnum **birgðir** í glugganum **vöruspjald**.</span><span class="sxs-lookup"><span data-stu-id="42e56-179">The new quantity is shown in the **Current Inventory** field in the **Adjust Inventory** window and in the **Inventory** field in the **Item Card** window.</span></span>
+
+<span data-ttu-id="42e56-180">Einnig er hægt að nota aðgerðina **Leiðrétta birgðir** sem einfalda leið til að staðsetja keypta vöru í birgðum ef þú ætlar ekki að nota gluggann innkaupareikningur til að skrá innkaupin.</span><span class="sxs-lookup"><span data-stu-id="42e56-180">You can also use the **Adjust Inventory** function as a simple way to place purchased items on inventory if you do not use purchase invoices or orders to record your purchases.</span></span> <span data-ttu-id="42e56-181">Nánari upplýsingar eru í [Hvernig á að: Skrá innkaup](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="42e56-181">For more information, [How to: Record Purchases](purchasing-how-record-purchases.md).</span></span>
 
 > [!NOTE]  
->   Eftir að þú hefur leiðrétt birgðir þarftu að uppfæra þær með núverandi útreiknuðu virði. Frekari upplýsingar eru í [Hvernig á að: Endurmeta birgðir](inventory-how-revalue-inventory.md).
+>   <span data-ttu-id="42e56-182">Eftir að þú hefur leiðrétt birgðir þarftu að uppfæra þær með núverandi útreiknuðu virði.</span><span class="sxs-lookup"><span data-stu-id="42e56-182">After you have adjusted inventory, you must update it with the current, calculated value.</span></span> <span data-ttu-id="42e56-183">Frekari upplýsingar eru í [Hvernig á að: Endurmeta birgðir](inventory-how-revalue-inventory.md).</span><span class="sxs-lookup"><span data-stu-id="42e56-183">For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).</span></span>
 
-## <a name="to-reclassify-an-items-lot-number"></a>Að endurflokka lotunúmer vöru
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðaendurflokkunarbækur** og velja svo viðeigandi tengil.
-2. Í glugganum **Birgðaendurflokkunarbók** skal fylla út reitina eins og þörf krefur.
-3. Að í **Lotunúmer** reitinn, færið inn núverandi lotunúmer vörunnar.
-4. Í reitinn **nýtt lotunr.** færið inn nýja lotunúmer vörunnar.
-5. Valið er **bóka** aðgerð.
+## <a name="to-adjust-the-inventory-quantity-of-one-or-more-items"></a><span data-ttu-id="42e56-184">Leiðrétta birgðamagn einnar eða fleiri vöru</span><span class="sxs-lookup"><span data-stu-id="42e56-184">To adjust the inventory quantity of one or more items</span></span>
+<span data-ttu-id="42e56-185">Í glugganum **Birgðabók** er hægt að bóka birgðafærslu beint til að leiðrétta birgðaskrá í tengslum við innkaup, sölu og jákvæða eða neikvæða leiðréttingu án þess að nota fylgiskjöl.</span><span class="sxs-lookup"><span data-stu-id="42e56-185">In the **Item Journal** window, you can post item transaction directly to adjust inventory in connection with purchases, sales, and positive or negative adjustments without using documents.</span></span>
 
-## <a name="see-also"></a>Sjá einnig
-[Birgðir](inventory-manage-inventory.md)  
-[Sala](sales-manage-sales.md)  
-[Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+<span data-ttu-id="42e56-186">Ef birgðabókin er oft notuð til að bóka sömu eða svipaðar færslubókarlínur, til dæmis í tengslum við efnisnotkun, er hægt að nota **Stöðluðu birgðabókina** til að auðvelda þessa endurteknu vinnu.</span><span class="sxs-lookup"><span data-stu-id="42e56-186">If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** window to make this recurring work easier.</span></span> <span data-ttu-id="42e56-187">Frekari upplýsingar, sjá hlutann „Staðlaðar færslubækur“ [Unnið með almennar færslubækur](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="42e56-187">For more information, see the "Standard Journals" section in [Working with General Journals](ui-work-general-journals.md).</span></span>
+
+1. <span data-ttu-id="42e56-188">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðafærslubækur** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="42e56-188">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journals**, and then choose the related link.</span></span>
+2. <span data-ttu-id="42e56-189">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="42e56-189">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="42e56-190">Veljið aðgerðina **bóka** til að gera birgðaleiðréttingarnar.</span><span class="sxs-lookup"><span data-stu-id="42e56-190">Choose the **Post** action to make the inventory adjustments.</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="42e56-191">Eftir að þú hefur leiðrétt birgðir þarftu að uppfæra þær með núverandi útreiknuðu virði.</span><span class="sxs-lookup"><span data-stu-id="42e56-191">After you have adjusted inventory, you must update it with the current, calculated value.</span></span> <span data-ttu-id="42e56-192">Frekari upplýsingar eru í [Hvernig á að: Endurmeta birgðir](inventory-how-revalue-inventory.md).</span><span class="sxs-lookup"><span data-stu-id="42e56-192">For more information, see [How to: Revalue Inventory](inventory-how-revalue-inventory.md).</span></span>
+
+## <a name="to-reclassify-an-items-lot-number"></a><span data-ttu-id="42e56-193">Að endurflokka lotunúmer vöru</span><span class="sxs-lookup"><span data-stu-id="42e56-193">To reclassify an item's lot number</span></span>
+1. <span data-ttu-id="42e56-194">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðaendurflokkunarbækur** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="42e56-194">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journals**, and then choose the related link.</span></span>
+2. <span data-ttu-id="42e56-195">Í glugganum **Birgðaendurflokkunarbók** skal fylla út reitina eins og þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="42e56-195">In the **Item Reclass. Journal** window, fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="42e56-196">Að í **Lotunúmer**</span><span class="sxs-lookup"><span data-stu-id="42e56-196">To In the **Lot No.**</span></span> <span data-ttu-id="42e56-197">reitinn, færið inn núverandi lotunúmer vörunnar.</span><span class="sxs-lookup"><span data-stu-id="42e56-197">field, enter the items current lot number.</span></span>
+4. <span data-ttu-id="42e56-198">Í reitinn **nýtt lotunr.**</span><span class="sxs-lookup"><span data-stu-id="42e56-198">In the **New Lot No.**</span></span> <span data-ttu-id="42e56-199">færið inn nýja lotunúmer vörunnar.</span><span class="sxs-lookup"><span data-stu-id="42e56-199">field, enter the item's new lot number.</span></span>
+5. <span data-ttu-id="42e56-200">Valið er **bóka** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="42e56-200">Choose the **Post** action.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="42e56-201">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="42e56-201">See Also</span></span>
+[<span data-ttu-id="42e56-202">Birgðir</span><span class="sxs-lookup"><span data-stu-id="42e56-202">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="42e56-203">Sala</span><span class="sxs-lookup"><span data-stu-id="42e56-203">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="42e56-204">Innkaup</span><span class="sxs-lookup"><span data-stu-id="42e56-204">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="42e56-205">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="42e56-205">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

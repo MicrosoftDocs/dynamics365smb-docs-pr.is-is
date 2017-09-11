@@ -16,71 +16,70 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: f071cca7df5bb1d3eac6f013784c0ca13e36477c
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-work-with-item-attributes"></a>Hvernig á að: Vinna með vörueigindir
-Þegar viðskiptamaður gerir fyrirspurn um vöru, annað hvort í beinum samskiptum eða í innbyggðri vefverslun getur hann spurt um vöruna eða leitað samkvæmt eiginleikum, t.d. hæð og árgerð. Til að veita þessa þjónustu við viðskiptamanninn er hægt að úthluta vörum mismunandi eigindargildum sem er svo hægt að nota við leit að vörum.
+# <a name="how-to-work-with-item-attributes"></a><span data-ttu-id="1c73a-103">Hvernig á að: Vinna með vörueigindir</span><span class="sxs-lookup"><span data-stu-id="1c73a-103">How to: Work with Item Attributes</span></span>
+<span data-ttu-id="1c73a-104">Þegar viðskiptamaður gerir fyrirspurn um vöru, annað hvort í beinum samskiptum eða í innbyggðri vefverslun getur hann spurt um vöruna eða leitað samkvæmt eiginleikum, t.d. hæð og árgerð.</span><span class="sxs-lookup"><span data-stu-id="1c73a-104">When customers inquire about an item, either in correspondence or in an integrated web shop, they may ask or search according to characteristics, such as height and model year.</span></span> <span data-ttu-id="1c73a-105">Til að veita þessa þjónustu við viðskiptamanninn er hægt að úthluta vörum mismunandi eigindargildum sem er svo hægt að nota við leit að vörum.</span><span class="sxs-lookup"><span data-stu-id="1c73a-105">To provide this customer service, you can assign item attribute values of different types to your items, which can then be used when searching for items.</span></span>
 
-Einnig er hægt að úthluta vörueigindum á vöruflokka, sem síðan eiga við um vörur sem nota vöruflokka. Nánari upplýsingar eru í [Hvernig á að flokka vöru](inventory-how-categorize-items.md).
+<span data-ttu-id="1c73a-106">Einnig er hægt að úthluta vörueigindum á vöruflokka, sem síðan eiga við um vörur sem nota vöruflokka.</span><span class="sxs-lookup"><span data-stu-id="1c73a-106">You can also assign item attributes to item categories, which then apply to the items that use the item categories.</span></span> <span data-ttu-id="1c73a-107">Nánari upplýsingar eru í [Hvernig á að flokka vöru](inventory-how-categorize-items.md).</span><span class="sxs-lookup"><span data-stu-id="1c73a-107">For more information, see [How to: Categorize Item](inventory-how-categorize-items.md).</span></span>
 
 > [!Tip]  
-> Ef þú setur myndir í viðhengi vöru, getur Myndgreiningaviðbótin greint eigindir á myndinni og lagt til eigindirnar svo þú getir ákveðið hvort eigi að úthluta þeim eður ei. Viðbótin er tilbúin til notkunar. Þú þarft bara að virkja hana. Nánari upplýsingar eru í [Myndgreiningarviðbót fyrir Dynamics 365 for Financials](ui-extensions-image-analyzer.md).
+> <span data-ttu-id="1c73a-108">Ef þú setur myndir í viðhengi vöru, getur Myndgreiningaviðbótin greint eigindir á myndinni og lagt til eigindirnar svo þú getir ákveðið hvort eigi að úthluta þeim eður ei.</span><span class="sxs-lookup"><span data-stu-id="1c73a-108">If you attach pictures to items, the Image Analyzer extension can detect attributes in the image, and suggest the attributes so you can decide whether to assign them.</span></span> <span data-ttu-id="1c73a-109">Viðbótin er tilbúin til notkunar.</span><span class="sxs-lookup"><span data-stu-id="1c73a-109">The extension is ready to go.</span></span> <span data-ttu-id="1c73a-110">Þú þarft bara að virkja hana.</span><span class="sxs-lookup"><span data-stu-id="1c73a-110">You just need to enable it.</span></span> <span data-ttu-id="1c73a-111">Nánari upplýsingar eru í [Myndgreiningarviðbót fyrir Dynamics 365 for Financials](ui-extensions-image-analyzer.md).</span><span class="sxs-lookup"><span data-stu-id="1c73a-111">For more information, see [The Image Analyzer Extension for Microsoft Dynamics 365 for Financials](ui-extensions-image-analyzer.md).</span></span>
 
-## <a name="to-create-item-attributes"></a>Að búa til vörueigind
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörueigindir** og velja svo viðeigandi tengil.
-2. Í glugganum **Vörueigindir** skal velja **Nýtt**.
-3. Í glugganum **vörueigind** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!NOTE]  
->   Athugasemd: Ef valið er **Kostur** á svæðinu **Tegund** er hægt að velja aðgerðina **Eigindargildi vöru** til að stofna gildi fyrir vörueigindina. Nánari upplýsingar eru í hlutanum "Stofna gildi fyrir vörueigindir af gerðinni valkostur".  
-
-## <a name="to-create-values-for-item-attributes-of-type-option"></a>Stofna gildi fyrir vörueigindir af gerðinni valkostur.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörueigindir** og velja svo viðeigandi tengil.
-2. Í **Vörueigindir** glugganum er valin vörueigind af gerðinni **Valkostir** sem þú vilt búa til gildi fyrir og svo velja **Eigindargildi** aðgerðina.
-3. Í glugganum **vörueigindagildi** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-## <a name="to-assign-item-attributes-to-items"></a>Að úthluta vörueigindum á vörur
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
-2. Í glugganum **Vörur** skal velja vöruna sem á að úthluta vörueigindum á og velja síðan aðgerðina **Eigindir**.
-3. Í glugganum **vörueigindagildi** skal velja aðgerðina **Nýtt**.
-4. Veldu leitarhnappinn í reitnum **Eigind** og veldu fyrirliggjandi vörueigind. Einnig má velja **Nýtt** aðgerðina til að stofna fyrst nýjan vörueigind eins og útskýrt er í "Stofna vörueigind" hlutanum.
-5. Í reitnum **Gildi** er fært inn vörueigindagildi, s.s. „2010“ fyrir gildið **Árgerð**.
-6. Fyrir vörueigind af gerðinni **Valkostur**, veldu hnappinn uppfletting í reitnum **Gildi** og veldu vörueigindargildi. Einnig má velja á **Nýtt** aðgerð til að stofna fyrst nýjan vörueigindargildi eins og útskýrt er í "Stofna gildi fyrir vörueigindir af gerðinni valkostur" hlutanum.
-7. Liðir 4-6 eru endurteknir fyrir allar vörueigindir sem á að úthluta á vöru.
-
-## <a name="to-assign-item-attributes-to-item-categories"></a>Að úthluta vörueigindum á vöruflokka
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörurflokkar** og velja svo viðeigandi tengil.
-2. Í glugganum **vöruflokkar** skal velja vöruflokk sem á að úthluta vörueigindum á og velja síðan aðgerðina **breyta**.
-3. Í glugganum **vöruflokkaspjald** á flýtiflipanum **eigind** skal velja aðgerðina **Nýtt**.
-4. Veldu leitarhnappinn í reitnum **Eigind** og veldu fyrirliggjandi vörueigind. Einnig má velja á **Nýtt** aðgerð til að stofna fyrst nýjan vörueigind eins og útskýrt er í "Stofna vörueigind" hlutanum.
-5. Í reitnum **Sjálfgefið gildi** skal velja hnappinn uppfletting og velja vörueigindargildi.
-6. Liðir 4-5 eru endurteknir fyrir allar vörueigindir sem á að úthluta á vöruflokk.
+## <a name="to-create-item-attributes"></a><span data-ttu-id="1c73a-112">Að búa til vörueigind</span><span class="sxs-lookup"><span data-stu-id="1c73a-112">To create item attributes</span></span>
+1. <span data-ttu-id="1c73a-113">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörueigindir** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="1c73a-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Attributes**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1c73a-114">Í glugganum **Vörueigindir** skal velja **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="1c73a-114">In the **Item Attributes** window, choose the **New** action.</span></span>
+3. <span data-ttu-id="1c73a-115">Í glugganum **vörueigind** þarf að fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="1c73a-115">In the **Item Attribute** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Vörueigindum fyrir vöruflokka yfirvöru verður afritaður á vöruflokka undireiningar. Þetta er tilgreint með reitnum **afritað Úr** í **Eigindum** Flýtiflipa. Nánari upplýsingar má finna í [Hvernig á að: Flokka vöru](inventory-how-categorize-items.md).
+>   <span data-ttu-id="1c73a-116">Athugasemd: Ef valið er **Kostur** á svæðinu **Tegund** er hægt að velja aðgerðina **Eigindargildi vöru** til að stofna gildi fyrir vörueigindina.</span><span class="sxs-lookup"><span data-stu-id="1c73a-116">If you select **Option** in the **Type** field, then you can choose the **Item Attribute Values** action to create values for the item attribute.</span></span> <span data-ttu-id="1c73a-117">Nánari upplýsingar eru í hlutanum "Stofna gildi fyrir vörueigindir af gerðinni valkostur".</span><span class="sxs-lookup"><span data-stu-id="1c73a-117">For more information, see the "To create values for item attributes of type Option" section.</span></span>  
 
-## <a name="to-filter-by-item-attributes"></a>Afmarka eftir vörueigind
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
-2. Í glugganum **Vörur** skal velja aðgerðina **Afmarka eftir eigindum**.
-3. Í glugganum **Afmarka vöru eftir eigind** skal velja uppflettihnappinn á svæðinu **Eigind** og velja síðan vörueigind.
-4. Í reitnum **Gildi** skal velja hnappinn uppfletting og velja eigindargildi til að afmarka vörur eftir.
+## <a name="to-create-values-for-item-attributes-of-type-option"></a><span data-ttu-id="1c73a-118">Stofna gildi fyrir vörueigindir af gerðinni valkostur.</span><span class="sxs-lookup"><span data-stu-id="1c73a-118">To create values for item attributes of type Option</span></span>
+1. <span data-ttu-id="1c73a-119">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörueigindir** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="1c73a-119">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Attributes**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1c73a-120">Í **Vörueigindir** glugganum er valin vörueigind af gerðinni **Valkostir** sem þú vilt búa til gildi fyrir og svo velja **Eigindargildi** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="1c73a-120">In the **Item Attributes** window, select an item attribute of type **Option** that you want to create values for, and then choose the **Item Attribute Values** action.</span></span>
+3. <span data-ttu-id="1c73a-121">Í glugganum **vörueigindagildi** þarf að fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="1c73a-121">In the **Item Attribute Values** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-assign-item-attributes-to-items"></a><span data-ttu-id="1c73a-122">Að úthluta vörueigindum á vörur</span><span class="sxs-lookup"><span data-stu-id="1c73a-122">To assign item attributes to items</span></span>
+1. <span data-ttu-id="1c73a-123">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="1c73a-123">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1c73a-124">Í glugganum **Vörur** skal velja vöruna sem á að úthluta vörueigindum á og velja síðan aðgerðina **Eigindir**.</span><span class="sxs-lookup"><span data-stu-id="1c73a-124">In the **Items** window, select the item that you want to assign item attributes to, and then choose the **Attributes** action.</span></span>
+3. <span data-ttu-id="1c73a-125">Í glugganum **vörueigindagildi** skal velja aðgerðina **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="1c73a-125">In the **Item Attribute Values** window, choose the **New** action.</span></span>
+4. <span data-ttu-id="1c73a-126">Veldu leitarhnappinn í reitnum **Eigind** og veldu fyrirliggjandi vörueigind.</span><span class="sxs-lookup"><span data-stu-id="1c73a-126">Choose the lookup button in the **Attribute** field and select an existing item attribute.</span></span> <span data-ttu-id="1c73a-127">Einnig má velja **Nýtt** aðgerðina til að stofna fyrst nýjan vörueigind eins og útskýrt er í "Stofna vörueigind" hlutanum.</span><span class="sxs-lookup"><span data-stu-id="1c73a-127">Alternatively, choose the **New** action to first create a new item attribute as explained in the "To create item attributes" section.</span></span>
+5. <span data-ttu-id="1c73a-128">Í reitnum **Gildi** er fært inn vörueigindagildi, s.s. „2010“ fyrir gildið **Árgerð**.</span><span class="sxs-lookup"><span data-stu-id="1c73a-128">In the **Value** field, enter the item attribute value, such as "2010" for the **Model Year** attribute.</span></span>
+6. <span data-ttu-id="1c73a-129">Fyrir vörueigind af gerðinni **Valkostur**, veldu hnappinn uppfletting í reitnum **Gildi** og veldu vörueigindargildi.</span><span class="sxs-lookup"><span data-stu-id="1c73a-129">For item attributes of type **Option**, choose the lookup button in the **Value** field and select an item attribute value.</span></span> <span data-ttu-id="1c73a-130">Einnig má velja á **Nýtt** aðgerð til að stofna fyrst nýjan vörueigindargildi eins og útskýrt er í "Stofna gildi fyrir vörueigindir af gerðinni valkostur" hlutanum.</span><span class="sxs-lookup"><span data-stu-id="1c73a-130">Alternatively, choose the **New** action to first create a new item attribute value as explained in the "To create values for item attributes of type Option" section.</span></span>
+7. <span data-ttu-id="1c73a-131">Liðir 4-6 eru endurteknir fyrir allar vörueigindir sem á að úthluta á vöru.</span><span class="sxs-lookup"><span data-stu-id="1c73a-131">Repeat steps 4 through 6 for all item attributes that you want to assign to the item.</span></span>
+
+## <a name="to-assign-item-attributes-to-item-categories"></a><span data-ttu-id="1c73a-132">Að úthluta vörueigindum á vöruflokka</span><span class="sxs-lookup"><span data-stu-id="1c73a-132">To assign item attributes to item categories</span></span>
+1. <span data-ttu-id="1c73a-133">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörurflokkar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="1c73a-133">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Categories**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1c73a-134">Í glugganum **vöruflokkar** skal velja vöruflokk sem á að úthluta vörueigindum á og velja síðan aðgerðina **breyta**.</span><span class="sxs-lookup"><span data-stu-id="1c73a-134">In the **Item Categories** window, select the item category that you want to assign item attributes to, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="1c73a-135">Í glugganum **vöruflokkaspjald** á flýtiflipanum **eigind** skal velja aðgerðina **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="1c73a-135">In the **Item Category Card** window, on the **Attributes** FastTab, choose the **New** action.</span></span>
+4. <span data-ttu-id="1c73a-136">Veldu leitarhnappinn í reitnum **Eigind** og veldu fyrirliggjandi vörueigind.</span><span class="sxs-lookup"><span data-stu-id="1c73a-136">Choose the lookup button in the **Attribute** field and select an existing item attribute.</span></span> <span data-ttu-id="1c73a-137">Einnig má velja á **Nýtt** aðgerð til að stofna fyrst nýjan vörueigind eins og útskýrt er í "Stofna vörueigind" hlutanum.</span><span class="sxs-lookup"><span data-stu-id="1c73a-137">Alternatively, choose the **New** action to first create a new item attribute as explained in the "To create an item attribute" section.</span></span>
+5. <span data-ttu-id="1c73a-138">Í reitnum **Sjálfgefið gildi** skal velja hnappinn uppfletting og velja vörueigindargildi.</span><span class="sxs-lookup"><span data-stu-id="1c73a-138">In the **Default Value** field, choose the lookup button and select an item attribute value.</span></span>
+6. <span data-ttu-id="1c73a-139">Liðir 4-5 eru endurteknir fyrir allar vörueigindir sem á að úthluta á vöruflokk.</span><span class="sxs-lookup"><span data-stu-id="1c73a-139">Repeat steps 4 and 5 for all item attributes that you want to assign to the item category.</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="1c73a-140">Vörueigindum fyrir vöruflokka yfirvöru verður afritaður á vöruflokka undireiningar.</span><span class="sxs-lookup"><span data-stu-id="1c73a-140">Item attributes for parent item categories will be inherited to child item categories.</span></span> <span data-ttu-id="1c73a-141">Þetta er tilgreint með reitnum **afritað Úr** í **Eigindum** Flýtiflipa.</span><span class="sxs-lookup"><span data-stu-id="1c73a-141">This is indicated by the **Inherited From** field on the **Attributes** FastTab.</span></span> <span data-ttu-id="1c73a-142">Nánari upplýsingar má finna í [Hvernig á að: Flokka vöru](inventory-how-categorize-items.md).</span><span class="sxs-lookup"><span data-stu-id="1c73a-142">For more information, see [How to: Categorize Items](inventory-how-categorize-items.md).</span></span>
+
+## <a name="to-filter-by-item-attributes"></a><span data-ttu-id="1c73a-143">Afmarka eftir vörueigind</span><span class="sxs-lookup"><span data-stu-id="1c73a-143">To filter by item attributes</span></span>
+1. <span data-ttu-id="1c73a-144">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="1c73a-144">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>
+2. <span data-ttu-id="1c73a-145">Í glugganum **Vörur** skal velja aðgerðina **Afmarka eftir eigindum**.</span><span class="sxs-lookup"><span data-stu-id="1c73a-145">In the **Items** window, choose the **Filter by Attributes** action.</span></span>
+3. <span data-ttu-id="1c73a-146">Í glugganum **Afmarka vöru eftir eigind** skal velja uppflettihnappinn á svæðinu **Eigind** og velja síðan vörueigind.</span><span class="sxs-lookup"><span data-stu-id="1c73a-146">In the **Filter Items by Attribute** window, choose the lookup button in the **Attribute** field and select an item attribute.</span></span>
+4. <span data-ttu-id="1c73a-147">Í reitnum **Gildi** skal velja hnappinn uppfletting og velja eigindargildi til að afmarka vörur eftir.</span><span class="sxs-lookup"><span data-stu-id="1c73a-147">In the **Value** field, choose the lookup button and select an attribute value to filter items by.</span></span>
 
     > [!NOTE]  
->   Aðeins er hægt að velja gildi beint fyrir vörueigindir sem hafa föst gildi, til dæmis lit. Fyrir vörueigindir sem hafa breytileg gildi, til dæmis breidd, verður að tilgreina eigindargildi vöru eftir fyrsta val á skilyrði. Sjá skref 5.
-5. Í reitnum **Gildi** fyrir breytilega vörueigind skal velja hnappinn uppfletting.
-6. Í glugganum **Tilgreina afmörkunargildi** á svæðinu **Skilyrði** skal velja felliörina og velja skilyrði.
-7. Í reitnum **Virði** skal færa eigindargildi til að afmarka vörur með.
+>   <span data-ttu-id="1c73a-148">Aðeins er hægt að velja gildi beint fyrir vörueigindir sem hafa föst gildi, til dæmis lit.</span><span class="sxs-lookup"><span data-stu-id="1c73a-148">You can only select values directly for item attributes that have fixed values, such as Color.</span></span> <span data-ttu-id="1c73a-149">Fyrir vörueigindir sem hafa breytileg gildi, til dæmis breidd, verður að tilgreina eigindargildi vöru eftir fyrsta val á skilyrði.</span><span class="sxs-lookup"><span data-stu-id="1c73a-149">For item attributes that have variable values, such as Width, you must specify the item attribute value by first selecting a condition.</span></span> <span data-ttu-id="1c73a-150">Sjá skref 5.</span><span class="sxs-lookup"><span data-stu-id="1c73a-150">See step 5.</span></span>
+5. <span data-ttu-id="1c73a-151">Í reitnum **Gildi** fyrir breytilega vörueigind skal velja hnappinn uppfletting.</span><span class="sxs-lookup"><span data-stu-id="1c73a-151">In the **Value** field for a variable item attribute, choose the lookup button.</span></span>
+6. <span data-ttu-id="1c73a-152">Í glugganum **Tilgreina afmörkunargildi** á svæðinu **Skilyrði** skal velja felliörina og velja skilyrði.</span><span class="sxs-lookup"><span data-stu-id="1c73a-152">In the **Specify Filter Value** window, in the **Condition** field, choose the drop-down arrow and select a condition.</span></span>
+7. <span data-ttu-id="1c73a-153">Í reitnum **Virði** skal færa eigindargildi til að afmarka vörur með.</span><span class="sxs-lookup"><span data-stu-id="1c73a-153">In the **Value** field, enter an attribute value to filter items by.</span></span>
 
-    **Dæmi**: Til að afmarka vörur þar sem efnislýsing hefst með "blátt", skal fylla inn í reitina sem hér segir: Reiturinn **Eigind**: Efnislýsing, reiturinn **Skilyrði**: Hefst með, reiturinn **Virði**: Blátt.
-8. Velja hnappinn **Í lagi**.   
+    <span data-ttu-id="1c73a-154">**Dæmi**: Til að afmarka vörur þar sem efnislýsing hefst með "blátt", skal fylla inn í reitina sem hér segir: Reiturinn **Eigind**: Efnislýsing, reiturinn **Skilyrði**: Hefst með, reiturinn **Virði**: Blátt.</span><span class="sxs-lookup"><span data-stu-id="1c73a-154">**Example**: To filter on items where the material description begins with "blue", fill in the fields as follows: **Attribute** field: Material Description, **Condition** field: Begins With, **Value** field: blue.</span></span>
+8. <span data-ttu-id="1c73a-155">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="1c73a-155">Choose the **OK** button.</span></span>   
 
-Vörur í glugganum **Vörur** eru afmarkaðar eftir tilgreindum eigindagildum vörunnar.
+<span data-ttu-id="1c73a-156">Vörur í glugganum **Vörur** eru afmarkaðar eftir tilgreindum eigindagildum vörunnar.</span><span class="sxs-lookup"><span data-stu-id="1c73a-156">The items in the **Items** window are filtered by the specified item attribute values.</span></span>
 
-## <a name="see-also"></a>Sjá einnig
-[Hvernig á að: Flokka vörur](inventory-how-categorize-items.md)    
-[Hvernig á að Skrá nýjar vörur](inventory-how-register-new-items.md)  
-[Birgðir](inventory-manage-inventory.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="1c73a-157">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="1c73a-157">See Also</span></span>
+<span data-ttu-id="1c73a-158">[Hvernig á að: Flokka vörur](inventory-how-categorize-items.md)  </span><span class="sxs-lookup"><span data-stu-id="1c73a-158">[How to: Categorize Items](inventory-how-categorize-items.md)  </span></span>  
+[<span data-ttu-id="1c73a-159">Hvernig á að Skrá nýjar vörur</span><span class="sxs-lookup"><span data-stu-id="1c73a-159">How to: Register New Items</span></span>](inventory-how-register-new-items.md)  
+[<span data-ttu-id="1c73a-160">Birgðir</span><span class="sxs-lookup"><span data-stu-id="1c73a-160">Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="1c73a-161">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1c73a-161">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

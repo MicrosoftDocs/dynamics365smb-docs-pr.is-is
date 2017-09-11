@@ -16,19 +16,18 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a93843c39c38692fb6a7703b5befedfbc78007a7
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="displaying-lists-in-different-ways"></a>Birting lista á mismunandi hátt
-Í efra hægra horni hvaða lista sem er í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tákn sem breyta því hvernig listinn er sýndur. Hægt er að skoða lista sem sundurliðaðan lista sem er stöðluð sýn. Einnig er hægt að skipta yfir í reitasýn, þar sem færri smáatriði eru birt fyrir viðkomandi skrá og færslum er raðað eins og reitum. Þessi sýn er mjög gagnleg til að fá yfirlit yfir margar færslur og er sérlega gagnleg í smærri tækjum þar sem auðvelt er að pikka á hverja færslu.
+# <a name="displaying-lists-in-different-ways"></a><span data-ttu-id="91936-103">Birting lista á mismunandi hátt</span><span class="sxs-lookup"><span data-stu-id="91936-103">Displaying Lists in Different Ways</span></span>
+<span data-ttu-id="91936-104">Í efra hægra horni hvaða lista sem er í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tákn sem breyta því hvernig listinn er sýndur.</span><span class="sxs-lookup"><span data-stu-id="91936-104">In the right corner of any list in [!INCLUDE[d365fin](includes/d365fin_md.md)] you will find icons that let you switch view on the list.</span></span> <span data-ttu-id="91936-105">Hægt er að skoða lista sem sundurliðaðan lista sem er stöðluð sýn.</span><span class="sxs-lookup"><span data-stu-id="91936-105">A list can be viewed as a detailed list, which is the standard view.</span></span> <span data-ttu-id="91936-106">Einnig er hægt að skipta yfir í reitasýn, þar sem færri smáatriði eru birt fyrir viðkomandi skrá og færslum er raðað eins og reitum.</span><span class="sxs-lookup"><span data-stu-id="91936-106">But you can also switch to view as tiles, which will show less detail on the specific record and stack the entries as tiles.</span></span> <span data-ttu-id="91936-107">Þessi sýn er mjög gagnleg til að fá yfirlit yfir margar færslur og er sérlega gagnleg í smærri tækjum þar sem auðvelt er að pikka á hverja færslu.</span><span class="sxs-lookup"><span data-stu-id="91936-107">This view is very useful to gain an overview of several entries and is in particular useful on smaller devices, because it makes each entry easier to tap.</span></span>
 
-## <a name="items-list"></a>Vörulisti
-Á listanum Vörur er hjálplegt að hafa myndir til að fá auðveldlega snögga yfirsýn yfir hvað er selt og sé síðan skipt yfir í reitasýnina fæst vörulisti sem hægt er að fletta í gegnum. Ef mynd er skilgreind fyrir tiltekna vöru er þriðji valkosturinn, til viðbótar við sundurliðaðan lista og reitasýn, stórir reitir. Þessi sýn birtir stórar myndir fyrir hverja færslu.
+## <a name="items-list"></a><span data-ttu-id="91936-108">Vörulisti</span><span class="sxs-lookup"><span data-stu-id="91936-108">Items list</span></span>
+<span data-ttu-id="91936-109">Á listanum Vörur er hjálplegt að hafa myndir til að fá auðveldlega snögga yfirsýn yfir hvað er selt og sé síðan skipt yfir í reitasýnina fæst vörulisti sem hægt er að fletta í gegnum.</span><span class="sxs-lookup"><span data-stu-id="91936-109">On the Items list, having pictures helps you get a quick overview of what you sell and switching to the tiles gives you an item catalogue to browse through.</span></span> <span data-ttu-id="91936-110">Ef mynd er skilgreind fyrir tiltekna vöru er þriðji valkosturinn, til viðbótar við sundurliðaðan lista og reitasýn, stórir reitir.</span><span class="sxs-lookup"><span data-stu-id="91936-110">If a picture is defined for the specific item, you have a third option besides the detailed list and the tiles; the large tiles view.</span></span> <span data-ttu-id="91936-111">Þessi sýn birtir stórar myndir fyrir hverja færslu.</span><span class="sxs-lookup"><span data-stu-id="91936-111">This view displays large pictures for each entry.</span></span>
 
-Hægt er að flytja inn mynd fyrir tiltekna vöru með því að fara í spjaldið **Vara** og velja hægra megin **Mynd** og velja síðan **Flytja inn**. Á sama hátt er hægt að flytja út mynd yfir í skrá eða eyða mynd fyrir vöruna.  
+<span data-ttu-id="91936-112">Hægt er að flytja inn mynd fyrir tiltekna vöru með því að fara í spjaldið **Vara** og velja hægra megin **Mynd** og velja síðan **Flytja inn**.</span><span class="sxs-lookup"><span data-stu-id="91936-112">You can import a picture for a specific item by going to the **Item** card and to the right select **Picture** and then choose **Import**.</span></span> <span data-ttu-id="91936-113">Á sama hátt er hægt að flytja út mynd yfir í skrá eða eyða mynd fyrir vöruna.</span><span class="sxs-lookup"><span data-stu-id="91936-113">Likewise you can export a picture to a file or delete the picture for the item.</span></span>  
 
-## <a name="see-also"></a>Sjá einnig
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Hvernig á að Skrá nýjar vörur](inventory-how-register-new-items.md)  
+## <a name="see-also"></a><span data-ttu-id="91936-114">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="91936-114">See Also</span></span>
+<span data-ttu-id="91936-115">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="91936-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="91936-116">Hvernig á að Skrá nýjar vörur</span><span class="sxs-lookup"><span data-stu-id="91936-116">How to: Register New Items</span></span>](inventory-how-register-new-items.md)  
 

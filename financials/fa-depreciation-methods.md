@@ -16,346 +16,346 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="depreciation-methods"></a>Afskriftaaðferðir
-Tiltækar eru átta afskriftaaðferðir:  
+# <a name="depreciation-methods"></a><span data-ttu-id="139e5-103">Afskriftaaðferðir</span><span class="sxs-lookup"><span data-stu-id="139e5-103">Depreciation Methods</span></span>
+<span data-ttu-id="139e5-104">Tiltækar eru átta afskriftaaðferðir:</span><span class="sxs-lookup"><span data-stu-id="139e5-104">There are eight methods of depreciation available:</span></span>  
 
-* Línulegar  
-* Hlutfallsleg afskrift 1  
-* Hlutfallsleg afskrift 2  
-* HA1/LL  
-* HA2/LL  
-* Notendaskilgreind  
-* Handvirkt  
-
-  > [!NOTE]  
->   Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land. Færa þarf afskriftir eigna í eignafjárhagsfærslubók. Runuvinnslan **Reikna afskriftir** sleppir eignum sem þessi afskriftaaðferð er notuð á.  
-* Tvisvar ári  
+* <span data-ttu-id="139e5-105">Línulegar</span><span class="sxs-lookup"><span data-stu-id="139e5-105">Straight-Line</span></span>  
+* <span data-ttu-id="139e5-106">Hlutfallsleg afskrift 1</span><span class="sxs-lookup"><span data-stu-id="139e5-106">Declining-Balance 1</span></span>  
+* <span data-ttu-id="139e5-107">Hlutfallsleg afskrift 2</span><span class="sxs-lookup"><span data-stu-id="139e5-107">Declining-Balance 2</span></span>  
+* <span data-ttu-id="139e5-108">HA1/LL</span><span class="sxs-lookup"><span data-stu-id="139e5-108">DB1/SL</span></span>  
+* <span data-ttu-id="139e5-109">HA2/LL</span><span class="sxs-lookup"><span data-stu-id="139e5-109">DB2/SL</span></span>  
+* <span data-ttu-id="139e5-110">Notendaskilgreind</span><span class="sxs-lookup"><span data-stu-id="139e5-110">User-defined</span></span>  
+* <span data-ttu-id="139e5-111">Handvirkt</span><span class="sxs-lookup"><span data-stu-id="139e5-111">Manual</span></span>  
 
   > [!NOTE]  
->    Þegar þessi aðferð er notuð er eignin afskrifuð um sömu upphæð á hverju ári.  
+>   <span data-ttu-id="139e5-112">Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land.</span><span class="sxs-lookup"><span data-stu-id="139e5-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="139e5-113">Færa þarf afskriftir eigna í eignafjárhagsfærslubók.</span><span class="sxs-lookup"><span data-stu-id="139e5-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="139e5-114">Runuvinnslan **Reikna afskriftir** sleppir eignum sem þessi afskriftaaðferð er notuð á.</span><span class="sxs-lookup"><span data-stu-id="139e5-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
+* <span data-ttu-id="139e5-115">Tvisvar ári</span><span class="sxs-lookup"><span data-stu-id="139e5-115">Half-Year Convention</span></span>  
 
-## <a name="straight-line-depreciation"></a>Beinlínuafskrift
-Þegar beinlínuaðferðin er notuð verður að tilgreina einn af eftirfarandi valkostum í eignaafskriftabókinni:  
+  > [!NOTE]  
+>    <span data-ttu-id="139e5-116">Þegar þessi aðferð er notuð er eignin afskrifuð um sömu upphæð á hverju ári.</span><span class="sxs-lookup"><span data-stu-id="139e5-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
 
-* Afskriftatímabilið (ár eða mánuðir) eða lokadagsetningu afskrifta  
-* Fasta árlega prósentu  
-* Fasta árlega upphæð  
-* Afskriftatímabil  
+## <a name="straight-line-depreciation"></a><span data-ttu-id="139e5-117">Beinlínuafskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-117">Straight-Line Depreciation</span></span>
+<span data-ttu-id="139e5-118">Þegar beinlínuaðferðin er notuð verður að tilgreina einn af eftirfarandi valkostum í eignaafskriftabókinni:</span><span class="sxs-lookup"><span data-stu-id="139e5-118">When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:</span></span>  
 
-### <a name="depreciation-period"></a>Afskriftatímabil
-Ef afskriftatímabilið (fjöldi afskriftaára, fjöldi afskriftamánaða eða lokadagsetning afskrifta) er fært inn reiknar eftirfarandi reikniregla upphæð afskrifta:  
+* <span data-ttu-id="139e5-119">Afskriftatímabilið (ár eða mánuðir) eða lokadagsetningu afskrifta</span><span class="sxs-lookup"><span data-stu-id="139e5-119">The depreciation period (years or months) or a depreciation ending date</span></span>  
+* <span data-ttu-id="139e5-120">Fasta árlega prósentu</span><span class="sxs-lookup"><span data-stu-id="139e5-120">A fixed yearly percentage</span></span>  
+* <span data-ttu-id="139e5-121">Fasta árlega upphæð</span><span class="sxs-lookup"><span data-stu-id="139e5-121">A fixed yearly amount</span></span>  
+* <span data-ttu-id="139e5-122">Afskriftatímabil</span><span class="sxs-lookup"><span data-stu-id="139e5-122">Depreciation period</span></span>  
 
-*Afskriftaupphæð = ((Bókvirði - Hrakvirði) x Fjöldi afskriftadaga) / Afskriftadagar sem eftir*  
+### <a name="depreciation-period"></a><span data-ttu-id="139e5-123">Afskriftatímabil</span><span class="sxs-lookup"><span data-stu-id="139e5-123">Depreciation Period</span></span>
+<span data-ttu-id="139e5-124">Ef afskriftatímabilið (fjöldi afskriftaára, fjöldi afskriftamánaða eða lokadagsetning afskrifta) er fært inn reiknar eftirfarandi reikniregla upphæð afskrifta:</span><span class="sxs-lookup"><span data-stu-id="139e5-124">If you enter the depreciation period (the number of depreciation years, the number of depreciation months, or the depreciation ending date), the following formula calculates the depreciation amount:</span></span>  
 
-Afskriftadagar sem eftir eru reiknaðir sem fjöldi afskriftadaga mínus fjöldi daga milli upphafsdags afskrifta og dagsetningu síðustu eignafærslu.  
+<span data-ttu-id="139e5-125">*Afskriftaupphæð = ((Bókvirði - Hrakvirði) x Fjöldi afskriftadaga) / Afskriftadagar sem eftir*</span><span class="sxs-lookup"><span data-stu-id="139e5-125">*Depreciation Amount = ((Book value - Salvage Value) x Number of Depreciation Days) / Remaining Depreciation Days*</span></span>  
 
-Lækka má bókvirði með upphæðum í bókaðri uppfærslu, niðurfærslu, sérsniðin upphæð 1 eða 2, eftir því hvort reiturinn **Taka með í afskriftaútreikn.** er óvirkur og hvort reiturinn **Hluti bókfærðs virðis** í glugganum: **uppsetning Eignabókunartegundar**. Þessi útreikningur tryggir að eignin sé að fullu afskrifuð á lokadegi afskrifta.  
+<span data-ttu-id="139e5-126">Afskriftadagar sem eftir eru reiknaðir sem fjöldi afskriftadaga mínus fjöldi daga milli upphafsdags afskrifta og dagsetningu síðustu eignafærslu.</span><span class="sxs-lookup"><span data-stu-id="139e5-126">Remaining depreciation days are calculated as the number of depreciation days minus the number of days between the depreciation starting date and the last fixed asset entry date.</span></span>  
 
-### <a name="fixed-yearly-percentage"></a>Föst árleg prósenta
-Ef færð er föst árleg prósenta notar forritið eftirfarandi reiknireglu til að reikna upphæð afskrifta:  
+<span data-ttu-id="139e5-127">Lækka má bókvirði með upphæðum í bókaðri uppfærslu, niðurfærslu, sérsniðin upphæð 1 eða 2, eftir því hvort reiturinn **Taka með í afskriftaútreikn.** er óvirkur og hvort reiturinn **Hluti bókfærðs virðis** í glugganum: **uppsetning Eignabókunartegundar**.</span><span class="sxs-lookup"><span data-stu-id="139e5-127">Book value may be reduced by posted appreciation, write-down, custom 1 or custom 2 amounts, depending on whether the **Include in Depr. Calculation** field is deactivated and whether the **Part of Book Value** field is activated in the **FA Posting Type Setup** window.</span></span> <span data-ttu-id="139e5-128">Þessi útreikningur tryggir að eignin sé að fullu afskrifuð á lokadegi afskrifta.</span><span class="sxs-lookup"><span data-stu-id="139e5-128">This calculation ensures that the fixed asset is fully depreciated at the depreciation ending date.</span></span>  
 
-Afskriftaupphæð = (Beinlínu% x Afskriftagrunnur x Fjöldi afskr. Daga) / (100 x 360)  
+### <a name="fixed-yearly-percentage"></a><span data-ttu-id="139e5-129">Föst árleg prósenta</span><span class="sxs-lookup"><span data-stu-id="139e5-129">Fixed Yearly Percentage</span></span>
+<span data-ttu-id="139e5-130">Ef færð er föst árleg prósenta notar forritið eftirfarandi reiknireglu til að reikna upphæð afskrifta:</span><span class="sxs-lookup"><span data-stu-id="139e5-130">If you enter a fixed yearly percentage, the program uses the following formula to calculate the depreciation amount:</span></span>  
 
-### <a name="fixed-yearly-amount"></a>Föst árleg upphæð
-Ef færð er föst árleg upphæð notar forritið þessa reiknireglu til að reikna upphæð afskrifta:  
+<span data-ttu-id="139e5-131">Afskriftaupphæð = (Beinlínu% x Afskriftagrunnur x Fjöldi afskr.</span><span class="sxs-lookup"><span data-stu-id="139e5-131">Depreciation Amount = (Straight-Line % x Depreciable Basis x Number of Depr.</span></span> <span data-ttu-id="139e5-132">Daga) / (100 x 360)</span><span class="sxs-lookup"><span data-stu-id="139e5-132">Days) / (100 x 360)</span></span>  
 
-Afskriftaupphæð = (Föst afskriftaupphæð x Fjöldi afskriftadaga) /360  
+### <a name="fixed-yearly-amount"></a><span data-ttu-id="139e5-133">Föst árleg upphæð</span><span class="sxs-lookup"><span data-stu-id="139e5-133">Fixed Yearly Amount</span></span>
+<span data-ttu-id="139e5-134">Ef færð er föst árleg upphæð notar forritið þessa reiknireglu til að reikna upphæð afskrifta:</span><span class="sxs-lookup"><span data-stu-id="139e5-134">If you enter a fixed yearly amount, the program uses this formula to calculate the depreciation amount:</span></span>  
 
-### <a name="example---straight-line-depreciation"></a>Dæmi - línuleg afskrift
-Eign hefur stofnkostnaðinn SGM 100.000. Áætluð ending er átta ár. Keyrslan **Reikna afskrift** er keyrð annað hvert ár.  
+<span data-ttu-id="139e5-135">Afskriftaupphæð = (Föst afskriftaupphæð x Fjöldi afskriftadaga) /360</span><span class="sxs-lookup"><span data-stu-id="139e5-135">Depreciation Amount = (Fixed Depreciation Amount x Number of Depreciation Days) / 360</span></span>  
 
-Í þessu dæmi lítur færslan í eignabókinni svona út:  
+### <a name="example---straight-line-depreciation"></a><span data-ttu-id="139e5-136">Dæmi - línuleg afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-136">Example - Straight-Line Depreciation</span></span>
+<span data-ttu-id="139e5-137">Eign hefur stofnkostnaðinn SGM 100.000.</span><span class="sxs-lookup"><span data-stu-id="139e5-137">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="139e5-138">Áætluð ending er átta ár.</span><span class="sxs-lookup"><span data-stu-id="139e5-138">The estimated life is eight years.</span></span> <span data-ttu-id="139e5-139">Keyrslan **Reikna afskrift** er keyrð annað hvert ár.</span><span class="sxs-lookup"><span data-stu-id="139e5-139">The **Calculate Depreciation** batch job is run biannually.</span></span>  
 
-| Dagsetning | Eignabókunartegund | Dagar | Upphæð | Bókfært virði |
+<span data-ttu-id="139e5-140">Í þessu dæmi lítur færslan í eignabókinni svona út:</span><span class="sxs-lookup"><span data-stu-id="139e5-140">For this example, the fixed asset ledger entry looks like this:</span></span>  
+
+| <span data-ttu-id="139e5-141">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="139e5-141">Date</span></span> | <span data-ttu-id="139e5-142">Eignabókunartegund</span><span class="sxs-lookup"><span data-stu-id="139e5-142">FA Posting Type</span></span> | <span data-ttu-id="139e5-143">Dagar</span><span class="sxs-lookup"><span data-stu-id="139e5-143">Days</span></span> | <span data-ttu-id="139e5-144">Upphæð</span><span class="sxs-lookup"><span data-stu-id="139e5-144">Amount</span></span> | <span data-ttu-id="139e5-145">Bókfært virði</span><span class="sxs-lookup"><span data-stu-id="139e5-145">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Stofnkostnaður |* |100,000.00 |100,000.00 |
-| 06/30/10 |Afskrift |180 |-6.250,00 |93,750.00 |
-| 12/31/10 |Afskrift |180 |-6.250,00 |87,500.00 |
-| 06/30/11 |Afskrift |180 |-6.250,00 |81,250.00 |
-| 12/31/11 |Afskrift |180 |-6.250,00 |75,000.00 |
-| 06/30/17 |Afskrift |180 |-6.250,00 |6,250.00 |
-| 12/31/17 |Afskrift |180 |-6.250,00 |0 |
+| <span data-ttu-id="139e5-146">01/01/10</span><span class="sxs-lookup"><span data-stu-id="139e5-146">01/01/10</span></span> |<span data-ttu-id="139e5-147">Stofnkostnaður</span><span class="sxs-lookup"><span data-stu-id="139e5-147">Acquisition Cost</span></span> |* |<span data-ttu-id="139e5-148">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-148">100,000.00</span></span> |<span data-ttu-id="139e5-149">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-149">100,000.00</span></span> |
+| <span data-ttu-id="139e5-150">06/30/10</span><span class="sxs-lookup"><span data-stu-id="139e5-150">06/30/10</span></span> |<span data-ttu-id="139e5-151">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-151">Depreciation</span></span> |<span data-ttu-id="139e5-152">180</span><span class="sxs-lookup"><span data-stu-id="139e5-152">180</span></span> |<span data-ttu-id="139e5-153">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="139e5-153">-6,250.00</span></span> |<span data-ttu-id="139e5-154">93,750.00</span><span class="sxs-lookup"><span data-stu-id="139e5-154">93,750.00</span></span> |
+| <span data-ttu-id="139e5-155">12/31/10</span><span class="sxs-lookup"><span data-stu-id="139e5-155">12/31/10</span></span> |<span data-ttu-id="139e5-156">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-156">Depreciation</span></span> |<span data-ttu-id="139e5-157">180</span><span class="sxs-lookup"><span data-stu-id="139e5-157">180</span></span> |<span data-ttu-id="139e5-158">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="139e5-158">-6,250.00</span></span> |<span data-ttu-id="139e5-159">87,500.00</span><span class="sxs-lookup"><span data-stu-id="139e5-159">87,500.00</span></span> |
+| <span data-ttu-id="139e5-160">06/30/11</span><span class="sxs-lookup"><span data-stu-id="139e5-160">06/30/11</span></span> |<span data-ttu-id="139e5-161">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-161">Depreciation</span></span> |<span data-ttu-id="139e5-162">180</span><span class="sxs-lookup"><span data-stu-id="139e5-162">180</span></span> |<span data-ttu-id="139e5-163">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="139e5-163">-6,250.00</span></span> |<span data-ttu-id="139e5-164">81,250.00</span><span class="sxs-lookup"><span data-stu-id="139e5-164">81,250.00</span></span> |
+| <span data-ttu-id="139e5-165">12/31/11</span><span class="sxs-lookup"><span data-stu-id="139e5-165">12/31/11</span></span> |<span data-ttu-id="139e5-166">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-166">Depreciation</span></span> |<span data-ttu-id="139e5-167">180</span><span class="sxs-lookup"><span data-stu-id="139e5-167">180</span></span> |<span data-ttu-id="139e5-168">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="139e5-168">-6,250.00</span></span> |<span data-ttu-id="139e5-169">75,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-169">75,000.00</span></span> |
+| <span data-ttu-id="139e5-170">06/30/17</span><span class="sxs-lookup"><span data-stu-id="139e5-170">06/30/17</span></span> |<span data-ttu-id="139e5-171">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-171">Depreciation</span></span> |<span data-ttu-id="139e5-172">180</span><span class="sxs-lookup"><span data-stu-id="139e5-172">180</span></span> |<span data-ttu-id="139e5-173">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="139e5-173">-6,250.00</span></span> |<span data-ttu-id="139e5-174">6,250.00</span><span class="sxs-lookup"><span data-stu-id="139e5-174">6,250.00</span></span> |
+| <span data-ttu-id="139e5-175">12/31/17</span><span class="sxs-lookup"><span data-stu-id="139e5-175">12/31/17</span></span> |<span data-ttu-id="139e5-176">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-176">Depreciation</span></span> |<span data-ttu-id="139e5-177">180</span><span class="sxs-lookup"><span data-stu-id="139e5-177">180</span></span> |<span data-ttu-id="139e5-178">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="139e5-178">-6,250.00</span></span> |<span data-ttu-id="139e5-179">0</span><span class="sxs-lookup"><span data-stu-id="139e5-179">0</span></span> |
 
-* Upphafsdags. afskrifta  
+* <span data-ttu-id="139e5-180">Upphafsdags. afskrifta</span><span class="sxs-lookup"><span data-stu-id="139e5-180">Depreciation starting date</span></span>  
 
-## <a name="declining-balance-1-depreciation"></a>Hlutfallsleg afskrift 1 Afskrift
-Þetta er hröðunaraðferð þar sem stærstum hluta kostnaðar vegna eignar er úthlutað á fyrstu ár líftíma hennar. Nauðsynlegt er að tilgreina fasta árlega prósentu ef nota á þessa aðferð.  
+## <a name="declining-balance-1-depreciation"></a><span data-ttu-id="139e5-181">Hlutfallsleg afskrift 1 Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-181">Declining-Balance 1 Depreciation</span></span>
+<span data-ttu-id="139e5-182">Þetta er hröðunaraðferð þar sem stærstum hluta kostnaðar vegna eignar er úthlutað á fyrstu ár líftíma hennar.</span><span class="sxs-lookup"><span data-stu-id="139e5-182">This accelerated depreciation method allocates the largest portion of the cost of an asset to the early years of its useful lifetime.</span></span> <span data-ttu-id="139e5-183">Nauðsynlegt er að tilgreina fasta árlega prósentu ef nota á þessa aðferð.</span><span class="sxs-lookup"><span data-stu-id="139e5-183">If you use this method, you must enter a fixed yearly percentage.</span></span>  
 
-Eftirfarandi formúla reiknar afskriftarupphæð:  
+<span data-ttu-id="139e5-184">Eftirfarandi formúla reiknar afskriftarupphæð:</span><span class="sxs-lookup"><span data-stu-id="139e5-184">The following formula calculates depreciation amounts:</span></span>  
 
-*Afskriftaupphæð = (Beinlínu% x Fjöldi afskr.daga x Afskriftagrunnur) / (100 x 360)*  
+<span data-ttu-id="139e5-185">*Afskriftaupphæð = (Beinlínu% x Fjöldi afskr.daga x Afskriftagrunnur) / (100 x 360)*</span><span class="sxs-lookup"><span data-stu-id="139e5-185">*Depreciation Amount = (Declining-Bal. % x Number of Depreciation Days x Depr. Basis) / (100 x 360)*</span></span>  
 
-Afskriftagrunnurinn er reiknaður sem bókvirðið að frádregnum bókuðum afskriftum frá upphafsdagsetningu líðandi reikningsárs.  
+<span data-ttu-id="139e5-186">Afskriftagrunnurinn er reiknaður sem bókvirðið að frádregnum bókuðum afskriftum frá upphafsdagsetningu líðandi reikningsárs.</span><span class="sxs-lookup"><span data-stu-id="139e5-186">The depreciable basis is calculated as the book value less posted depreciation since the starting date of the current fiscal year.</span></span>  
 
-Í upphæð bókaðra afskrifta geta verið færslur með ýmsum bókunartegundum (niðurfærslu, venju1 og venju2), bókaðar frá upphafsdagsetningu líðandi reikningsárs. Þessar bókunartegundir eru teknar með í bókaðri afskriftaupphæð ef gátmerki eru í reitunum **Afskriftategund** og **Hluti bókvirðis** í glugganum **uppsetning eignabókunartegundar**.  
+<span data-ttu-id="139e5-187">Í upphæð bókaðra afskrifta geta verið færslur með ýmsum bókunartegundum (niðurfærslu, venju1 og venju2), bókaðar frá upphafsdagsetningu líðandi reikningsárs.</span><span class="sxs-lookup"><span data-stu-id="139e5-187">The posted depreciation amount can contain entries with various posting types (write-down, custom1, and custom2) posted since the starting date of the current fiscal year.</span></span> <span data-ttu-id="139e5-188">Þessar bókunartegundir eru teknar með í bókaðri afskriftaupphæð ef gátmerki eru í reitunum **Afskriftategund** og **Hluti bókvirðis** í glugganum **uppsetning eignabókunartegundar**.</span><span class="sxs-lookup"><span data-stu-id="139e5-188">These posting types are included in the posted depreciation amount if there are check marks in the **Depreciation Type** and the **Part of Book Value** fields in the **FA Posting Type Setup** window.</span></span>  
 
-### <a name="example---declining-balance-1-depreciation"></a>Dæmi - Hlutfallsleg afskrift 1 Afskrift
-Eign hefur stofnkostnaðinn SGM 100.000. Reiturinn **Hlutfallsleg afskrift %** er 25. Keyrslan **Reikna afskrift** er keyrð annað hvert ár.  
+### <a name="example---declining-balance-1-depreciation"></a><span data-ttu-id="139e5-189">Dæmi - Hlutfallsleg afskrift 1 Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-189">Example - Declining-Balance 1 Depreciation</span></span>
+<span data-ttu-id="139e5-190">Eign hefur stofnkostnaðinn SGM 100.000.</span><span class="sxs-lookup"><span data-stu-id="139e5-190">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="139e5-191">Reiturinn **Hlutfallsleg afskrift %** er 25.</span><span class="sxs-lookup"><span data-stu-id="139e5-191">The **Declining-Balance %** field is 25.</span></span> <span data-ttu-id="139e5-192">Keyrslan **Reikna afskrift** er keyrð annað hvert ár.</span><span class="sxs-lookup"><span data-stu-id="139e5-192">The **Calculate Depreciation** batch job is run biannually.</span></span>  
 
-Eftirfarandi tafla sýnir hvernig færslurnar í eignabókinni líta út.  
+<span data-ttu-id="139e5-193">Eftirfarandi tafla sýnir hvernig færslurnar í eignabókinni líta út.</span><span class="sxs-lookup"><span data-stu-id="139e5-193">The following table shows how the fixed asset ledger entries look.</span></span>  
 
-| Dagsetning | Eignabókunartegund | Dagar | Upphæð | Bókfært virði |
+| <span data-ttu-id="139e5-194">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="139e5-194">Date</span></span> | <span data-ttu-id="139e5-195">Eignabókunartegund</span><span class="sxs-lookup"><span data-stu-id="139e5-195">FA Posting Type</span></span> | <span data-ttu-id="139e5-196">Dagar</span><span class="sxs-lookup"><span data-stu-id="139e5-196">Days</span></span> | <span data-ttu-id="139e5-197">Upphæð</span><span class="sxs-lookup"><span data-stu-id="139e5-197">Amount</span></span> | <span data-ttu-id="139e5-198">Bókfært virði</span><span class="sxs-lookup"><span data-stu-id="139e5-198">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Stofnkostnaður |* |100,000.00 |100,000.00 |
-| 06/30/10 |Afskrift |180 |-12.500,00 |87,500.00 |
-| 12/31/10 |Afskrift |180 |-12.500,00 |75,000.00 |
-| 06/30/11 |Afskrift |180 |-9.375,00 |65,625.00 |
-| 12/31/11 |Afskrift |180 |-9.375,00 |56,250.00 |
-| 06/30/12 |Afskrift |180 |-7.031,25 |49,218.75 |
-| 12/31/12 |Afskrift |180 |-7.031,25 |42,187.50 |
-| 06/30/13 |Afskrift |180 |-5.273,44 |36,914.06 |
-| 12/31/13 |Afskrift |180 |-5.273,44 |31,640.62 |
-| 06/30/14 |Afskrift |180 |-3.955,08 |27,685.54 |
-| 12/31/14 |Afskrift |180 |-3.955,08 |23,730.46 |
+| <span data-ttu-id="139e5-199">01/01/10</span><span class="sxs-lookup"><span data-stu-id="139e5-199">01/01/10</span></span> |<span data-ttu-id="139e5-200">Stofnkostnaður</span><span class="sxs-lookup"><span data-stu-id="139e5-200">Acquisition Costs</span></span> |* |<span data-ttu-id="139e5-201">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-201">100,000.00</span></span> |<span data-ttu-id="139e5-202">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-202">100,000.00</span></span> |
+| <span data-ttu-id="139e5-203">06/30/10</span><span class="sxs-lookup"><span data-stu-id="139e5-203">06/30/10</span></span> |<span data-ttu-id="139e5-204">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-204">Depreciation</span></span> |<span data-ttu-id="139e5-205">180</span><span class="sxs-lookup"><span data-stu-id="139e5-205">180</span></span> |<span data-ttu-id="139e5-206">-12.500,00</span><span class="sxs-lookup"><span data-stu-id="139e5-206">-12,500.00</span></span> |<span data-ttu-id="139e5-207">87,500.00</span><span class="sxs-lookup"><span data-stu-id="139e5-207">87,500.00</span></span> |
+| <span data-ttu-id="139e5-208">12/31/10</span><span class="sxs-lookup"><span data-stu-id="139e5-208">12/31/10</span></span> |<span data-ttu-id="139e5-209">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-209">Depreciation</span></span> |<span data-ttu-id="139e5-210">180</span><span class="sxs-lookup"><span data-stu-id="139e5-210">180</span></span> |<span data-ttu-id="139e5-211">-12.500,00</span><span class="sxs-lookup"><span data-stu-id="139e5-211">-12,500.00</span></span> |<span data-ttu-id="139e5-212">75,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-212">75,000.00</span></span> |
+| <span data-ttu-id="139e5-213">06/30/11</span><span class="sxs-lookup"><span data-stu-id="139e5-213">06/30/11</span></span> |<span data-ttu-id="139e5-214">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-214">Depreciation</span></span> |<span data-ttu-id="139e5-215">180</span><span class="sxs-lookup"><span data-stu-id="139e5-215">180</span></span> |<span data-ttu-id="139e5-216">-9.375,00</span><span class="sxs-lookup"><span data-stu-id="139e5-216">-9,375.00</span></span> |<span data-ttu-id="139e5-217">65,625.00</span><span class="sxs-lookup"><span data-stu-id="139e5-217">65,625.00</span></span> |
+| <span data-ttu-id="139e5-218">12/31/11</span><span class="sxs-lookup"><span data-stu-id="139e5-218">12/31/11</span></span> |<span data-ttu-id="139e5-219">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-219">Depreciation</span></span> |<span data-ttu-id="139e5-220">180</span><span class="sxs-lookup"><span data-stu-id="139e5-220">180</span></span> |<span data-ttu-id="139e5-221">-9.375,00</span><span class="sxs-lookup"><span data-stu-id="139e5-221">-9,375.00</span></span> |<span data-ttu-id="139e5-222">56,250.00</span><span class="sxs-lookup"><span data-stu-id="139e5-222">56,250.00</span></span> |
+| <span data-ttu-id="139e5-223">06/30/12</span><span class="sxs-lookup"><span data-stu-id="139e5-223">06/30/12</span></span> |<span data-ttu-id="139e5-224">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-224">Depreciation</span></span> |<span data-ttu-id="139e5-225">180</span><span class="sxs-lookup"><span data-stu-id="139e5-225">180</span></span> |<span data-ttu-id="139e5-226">-7.031,25</span><span class="sxs-lookup"><span data-stu-id="139e5-226">-7,031.25</span></span> |<span data-ttu-id="139e5-227">49,218.75</span><span class="sxs-lookup"><span data-stu-id="139e5-227">49,218.75</span></span> |
+| <span data-ttu-id="139e5-228">12/31/12</span><span class="sxs-lookup"><span data-stu-id="139e5-228">12/31/12</span></span> |<span data-ttu-id="139e5-229">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-229">Depreciation</span></span> |<span data-ttu-id="139e5-230">180</span><span class="sxs-lookup"><span data-stu-id="139e5-230">180</span></span> |<span data-ttu-id="139e5-231">-7.031,25</span><span class="sxs-lookup"><span data-stu-id="139e5-231">-7,031.25</span></span> |<span data-ttu-id="139e5-232">42,187.50</span><span class="sxs-lookup"><span data-stu-id="139e5-232">42,187.50</span></span> |
+| <span data-ttu-id="139e5-233">06/30/13</span><span class="sxs-lookup"><span data-stu-id="139e5-233">06/30/13</span></span> |<span data-ttu-id="139e5-234">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-234">Depreciation</span></span> |<span data-ttu-id="139e5-235">180</span><span class="sxs-lookup"><span data-stu-id="139e5-235">180</span></span> |<span data-ttu-id="139e5-236">-5.273,44</span><span class="sxs-lookup"><span data-stu-id="139e5-236">-5,273.44</span></span> |<span data-ttu-id="139e5-237">36,914.06</span><span class="sxs-lookup"><span data-stu-id="139e5-237">36,914.06</span></span> |
+| <span data-ttu-id="139e5-238">12/31/13</span><span class="sxs-lookup"><span data-stu-id="139e5-238">12/31/13</span></span> |<span data-ttu-id="139e5-239">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-239">Depreciation</span></span> |<span data-ttu-id="139e5-240">180</span><span class="sxs-lookup"><span data-stu-id="139e5-240">180</span></span> |<span data-ttu-id="139e5-241">-5.273,44</span><span class="sxs-lookup"><span data-stu-id="139e5-241">-5,273.44</span></span> |<span data-ttu-id="139e5-242">31,640.62</span><span class="sxs-lookup"><span data-stu-id="139e5-242">31,640.62</span></span> |
+| <span data-ttu-id="139e5-243">06/30/14</span><span class="sxs-lookup"><span data-stu-id="139e5-243">06/30/14</span></span> |<span data-ttu-id="139e5-244">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-244">Depreciation</span></span> |<span data-ttu-id="139e5-245">180</span><span class="sxs-lookup"><span data-stu-id="139e5-245">180</span></span> |<span data-ttu-id="139e5-246">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="139e5-246">-3,955.08</span></span> |<span data-ttu-id="139e5-247">27,685.54</span><span class="sxs-lookup"><span data-stu-id="139e5-247">27,685.54</span></span> |
+| <span data-ttu-id="139e5-248">12/31/14</span><span class="sxs-lookup"><span data-stu-id="139e5-248">12/31/14</span></span> |<span data-ttu-id="139e5-249">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-249">Depreciation</span></span> |<span data-ttu-id="139e5-250">180</span><span class="sxs-lookup"><span data-stu-id="139e5-250">180</span></span> |<span data-ttu-id="139e5-251">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="139e5-251">-3,955.08</span></span> |<span data-ttu-id="139e5-252">23,730.46</span><span class="sxs-lookup"><span data-stu-id="139e5-252">23,730.46</span></span> |
 
-* Upphafsdags. afskrifta  
+* <span data-ttu-id="139e5-253">Upphafsdags. afskrifta</span><span class="sxs-lookup"><span data-stu-id="139e5-253">Depreciation starting date</span></span>  
 
-    Reikningsaðferð:  
+    <span data-ttu-id="139e5-254">Reikningsaðferð:</span><span class="sxs-lookup"><span data-stu-id="139e5-254">Calculation Method:</span></span>  
 
-    *1. árið: 25% af 100.000 = 25.000 = 12.500 + 12.500*
+    <span data-ttu-id="139e5-255">*1. árið: 25% af 100.000 = 25.000 = 12.500 + 12.500*</span><span class="sxs-lookup"><span data-stu-id="139e5-255">*1st Year: 25% of 100,000 = 25,000 = 12,500 + 12,500*</span></span>
 
-    *2. árið: 25% af 75.000 = 18.750 = 9.375 + 9.375*
+    <span data-ttu-id="139e5-256">*2. árið: 25% af 75.000 = 18.750 = 9.375 + 9.375*</span><span class="sxs-lookup"><span data-stu-id="139e5-256">*2nd Year: 25% of 75,000 = 18,750 = 9,375 + 9,375*</span></span>
 
-    *3. árið: 25% af 56.250 = 14.062,50 = 7.031,25 +7.031,25*
+    <span data-ttu-id="139e5-257">*3. árið: 25% af 56.250 = 14.062,50 = 7.031,25 +7.031,25*</span><span class="sxs-lookup"><span data-stu-id="139e5-257">*3rd Year: 25% of 56,250 = 14,062.50 = 7,031.25 + 7,031.25*</span></span>
 
-    Útreikningurinn heldur áfram þar til bókað virði er jafnt sléttaðri lokaupphæð eða hrakvirðinu sem var fært inn.   
+    <span data-ttu-id="139e5-258">Útreikningurinn heldur áfram þar til bókað virði er jafnt sléttaðri lokaupphæð eða hrakvirðinu sem var fært inn.</span><span class="sxs-lookup"><span data-stu-id="139e5-258">The calculation continues until the book value equals the final rounding amount or the salvage value that you entered.</span></span>   
 
-## <a name="declining-balance-2-depreciation"></a>Hlutfallsleg afskrift 2 Afskrift
-Með aðferðunum Hlutfallsleg afskrift 1 og Hlutfallsleg afskrift 2 er reiknuð sama afskriftaupphæð fyrir hvert ár. Ef keyrslan **Reikna afskriftir** er keyrð oftar en einu sinni á ári leiðir aðferðin Hlutfallsleg afskrift 1 til þess að jafnar afskriftaupphæðir verða í hverju afskriftatímabili. Aðferðin Hlutfallsleg afskrift 2 leiðir á hinn bóginn til afskriftaupphæða sem lækka hlutfallslega fyrir hvert tímabil.  
+## <a name="declining-balance-2-depreciation"></a><span data-ttu-id="139e5-259">Hlutfallsleg afskrift 2 Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-259">Declining-Balance 2 Depreciation</span></span>
+<span data-ttu-id="139e5-260">Með aðferðunum Hlutfallsleg afskrift 1 og Hlutfallsleg afskrift 2 er reiknuð sama afskriftaupphæð fyrir hvert ár.</span><span class="sxs-lookup"><span data-stu-id="139e5-260">The Declining-Balance 1 and Declining-Balance 2 methods calculate the same total depreciation amount for each year.</span></span> <span data-ttu-id="139e5-261">Ef keyrslan **Reikna afskriftir** er keyrð oftar en einu sinni á ári leiðir aðferðin Hlutfallsleg afskrift 1 til þess að jafnar afskriftaupphæðir verða í hverju afskriftatímabili.</span><span class="sxs-lookup"><span data-stu-id="139e5-261">However, if you run the **Calculate Depreciation** batch job more than once a year, the Declining-Balance 1 method will result in equal depreciation amounts for each depreciation period.</span></span> <span data-ttu-id="139e5-262">Aðferðin Hlutfallsleg afskrift 2 leiðir á hinn bóginn til afskriftaupphæða sem lækka hlutfallslega fyrir hvert tímabil.</span><span class="sxs-lookup"><span data-stu-id="139e5-262">The Declining-Balance 2 method, on the other hand, will result in depreciation amounts that decline for each period.</span></span>  
 
-### <a name="example---declining-balance-2-depreciation"></a>Dæmi - Hlutfallsleg afskrift 2 Afskrift
-Eign hefur stofnkostnaðinn SGM 100.000. Reiturinn **Hlutfallsleg afskrift %** er 25. Keyrslan **Reikna afskrift** er keyrð annað hvert ár. Færslurnar í eignabókinni líta þannig:  
+### <a name="example---declining-balance-2-depreciation"></a><span data-ttu-id="139e5-263">Dæmi - Hlutfallsleg afskrift 2 Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-263">Example - Declining-Balance 2 Depreciation</span></span>
+<span data-ttu-id="139e5-264">Eign hefur stofnkostnaðinn SGM 100.000.</span><span class="sxs-lookup"><span data-stu-id="139e5-264">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="139e5-265">Reiturinn **Hlutfallsleg afskrift %** er 25.</span><span class="sxs-lookup"><span data-stu-id="139e5-265">The **Declining-Balance %** field is 25.</span></span> <span data-ttu-id="139e5-266">Keyrslan **Reikna afskrift** er keyrð annað hvert ár.</span><span class="sxs-lookup"><span data-stu-id="139e5-266">The **Calculate Depreciation** batch job is run biannually.</span></span> <span data-ttu-id="139e5-267">Færslurnar í eignabókinni líta þannig:</span><span class="sxs-lookup"><span data-stu-id="139e5-267">The fixed asset ledger entries look like this:</span></span>  
 
-| Dagsetning | Eignabókunartegund | Dagar | Upphæð | Bókfært virði |
+| <span data-ttu-id="139e5-268">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="139e5-268">Date</span></span> | <span data-ttu-id="139e5-269">Eignabókunartegund</span><span class="sxs-lookup"><span data-stu-id="139e5-269">FA Posting Type</span></span> | <span data-ttu-id="139e5-270">Dagar</span><span class="sxs-lookup"><span data-stu-id="139e5-270">Days</span></span> | <span data-ttu-id="139e5-271">Upphæð</span><span class="sxs-lookup"><span data-stu-id="139e5-271">Amount</span></span> | <span data-ttu-id="139e5-272">Bókfært virði</span><span class="sxs-lookup"><span data-stu-id="139e5-272">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Stofnkostnaður |* |100,000.00 |100,000.00 |
-| 06/30/10 |Afskrift |180 |-13.397,46 |86,602.54 |
-| 12/31/10 |Afskrift |180 |-11.602,54 |75,000.00 |
-| 06/30/11 |Afskrift |180 |-10.048,09 |64,951.91 |
-| 12/31/11 |Afskrift |180 |-8,701.91 |56,250.00 |
+| <span data-ttu-id="139e5-273">01/01/10</span><span class="sxs-lookup"><span data-stu-id="139e5-273">01/01/10</span></span> |<span data-ttu-id="139e5-274">Stofnkostnaður</span><span class="sxs-lookup"><span data-stu-id="139e5-274">Acquisition Costs</span></span> |* |<span data-ttu-id="139e5-275">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-275">100,000.00</span></span> |<span data-ttu-id="139e5-276">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-276">100,000.00</span></span> |
+| <span data-ttu-id="139e5-277">06/30/10</span><span class="sxs-lookup"><span data-stu-id="139e5-277">06/30/10</span></span> |<span data-ttu-id="139e5-278">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-278">Depreciation</span></span> |<span data-ttu-id="139e5-279">180</span><span class="sxs-lookup"><span data-stu-id="139e5-279">180</span></span> |<span data-ttu-id="139e5-280">-13.397,46</span><span class="sxs-lookup"><span data-stu-id="139e5-280">-13,397.46</span></span> |<span data-ttu-id="139e5-281">86,602.54</span><span class="sxs-lookup"><span data-stu-id="139e5-281">86,602.54</span></span> |
+| <span data-ttu-id="139e5-282">12/31/10</span><span class="sxs-lookup"><span data-stu-id="139e5-282">12/31/10</span></span> |<span data-ttu-id="139e5-283">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-283">Depreciation</span></span> |<span data-ttu-id="139e5-284">180</span><span class="sxs-lookup"><span data-stu-id="139e5-284">180</span></span> |<span data-ttu-id="139e5-285">-11.602,54</span><span class="sxs-lookup"><span data-stu-id="139e5-285">-11,602.54</span></span> |<span data-ttu-id="139e5-286">75,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-286">75,000.00</span></span> |
+| <span data-ttu-id="139e5-287">06/30/11</span><span class="sxs-lookup"><span data-stu-id="139e5-287">06/30/11</span></span> |<span data-ttu-id="139e5-288">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-288">Depreciation</span></span> |<span data-ttu-id="139e5-289">180</span><span class="sxs-lookup"><span data-stu-id="139e5-289">180</span></span> |<span data-ttu-id="139e5-290">-10.048,09</span><span class="sxs-lookup"><span data-stu-id="139e5-290">-10,048.09</span></span> |<span data-ttu-id="139e5-291">64,951.91</span><span class="sxs-lookup"><span data-stu-id="139e5-291">64,951.91</span></span> |
+| <span data-ttu-id="139e5-292">12/31/11</span><span class="sxs-lookup"><span data-stu-id="139e5-292">12/31/11</span></span> |<span data-ttu-id="139e5-293">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-293">Depreciation</span></span> |<span data-ttu-id="139e5-294">180</span><span class="sxs-lookup"><span data-stu-id="139e5-294">180</span></span> |<span data-ttu-id="139e5-295">-8,701.91</span><span class="sxs-lookup"><span data-stu-id="139e5-295">-8,701.91</span></span> |<span data-ttu-id="139e5-296">56,250.00</span><span class="sxs-lookup"><span data-stu-id="139e5-296">56,250.00</span></span> |
 
-* Upphafsdags. afskrifta  
+* <span data-ttu-id="139e5-297">Upphafsdags. afskrifta</span><span class="sxs-lookup"><span data-stu-id="139e5-297">Depreciation starting date</span></span>  
 
-Reikningsaðferð:  
+<span data-ttu-id="139e5-298">Reikningsaðferð:</span><span class="sxs-lookup"><span data-stu-id="139e5-298">Calculation Method:</span></span>  
 
-* BV = Bókfært virði  
-* Fd = fjöldi afskriftadaga  
-* HLFP = Hlutfallsleg afskriftaprósenta  
-* P = HLFP/100  
-* D = FD/360  
+* <span data-ttu-id="139e5-299">BV = Bókfært virði</span><span class="sxs-lookup"><span data-stu-id="139e5-299">BV = Book value</span></span>  
+* <span data-ttu-id="139e5-300">Fd = fjöldi afskriftadaga</span><span class="sxs-lookup"><span data-stu-id="139e5-300">ND = Number of depreciation days</span></span>  
+* <span data-ttu-id="139e5-301">HLFP = Hlutfallsleg afskriftaprósenta</span><span class="sxs-lookup"><span data-stu-id="139e5-301">DBP = Declining-balance percent</span></span>  
+* <span data-ttu-id="139e5-302">P = HLFP/100</span><span class="sxs-lookup"><span data-stu-id="139e5-302">P = DBP/100</span></span>  
+* <span data-ttu-id="139e5-303">D = FD/360</span><span class="sxs-lookup"><span data-stu-id="139e5-303">D = ND/360</span></span>  
 
-Reiknireglan fyrir útreikning á afskriftaupphæðum er:  
+<span data-ttu-id="139e5-304">Reiknireglan fyrir útreikning á afskriftaupphæðum er:</span><span class="sxs-lookup"><span data-stu-id="139e5-304">The formula for calculating the depreciation amounts is:</span></span>  
 
-*AU = BV x (1 – (1 –P)<sup>D<sup>*  
+<span data-ttu-id="139e5-305">*AU = BV x (1 – (1 –P)<sup>D<sup>*</span><span class="sxs-lookup"><span data-stu-id="139e5-305">*DA = BV x (1 – (1 –P)<sup>D<sup>*</span></span>  
 
-Afskriftargildi eru:  
+<span data-ttu-id="139e5-306">Afskriftargildi eru:</span><span class="sxs-lookup"><span data-stu-id="139e5-306">The depreciation values are:</span></span>  
 
-| Dagsetning | Útreikningur |
+| <span data-ttu-id="139e5-307">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="139e5-307">Date</span></span> | <span data-ttu-id="139e5-308">Útreikningur</span><span class="sxs-lookup"><span data-stu-id="139e5-308">Calculation</span></span> |
 | --- | --- |
-| 06/30/10 |AU = 100.000,00 x (1-(1-0,25)<sup>0,5<sup>) = 13.397,46 |
-| 12/31/10 |AU = 86.602,54 x (1-(1-0,25)<sup>0,5<sup>) = 11.602,54 |
-| 06/30/11 |AU = 75.000,00 x (1-(1-0,25)<sup>0,5<sup>) = 10.048,09 |
-| 12/31/11 |AU = 64.951,91 x (1-(1-0,25)<sup>0,5<sup>) = 8.701,91 |
+| <span data-ttu-id="139e5-309">06/30/10</span><span class="sxs-lookup"><span data-stu-id="139e5-309">06/30/10</span></span> |<span data-ttu-id="139e5-310">AU = 100.000,00 x (1-(1-0,25)<sup>0,5<sup>) = 13.397,46</span><span class="sxs-lookup"><span data-stu-id="139e5-310">DA = 100,000.00 x (1 -(1 - 0.25)<sup>0.5<sup>) = 13,397.46</span></span> |
+| <span data-ttu-id="139e5-311">12/31/10</span><span class="sxs-lookup"><span data-stu-id="139e5-311">12/31/10</span></span> |<span data-ttu-id="139e5-312">AU = 86.602,54 x (1-(1-0,25)<sup>0,5<sup>) = 11.602,54</span><span class="sxs-lookup"><span data-stu-id="139e5-312">DA = 86,602.54 x (1 - (1 - 0.25)<sup>0.5<sup>) = 11,602.54</span></span> |
+| <span data-ttu-id="139e5-313">06/30/11</span><span class="sxs-lookup"><span data-stu-id="139e5-313">06/30/11</span></span> |<span data-ttu-id="139e5-314">AU = 75.000,00 x (1-(1-0,25)<sup>0,5<sup>) = 10.048,09</span><span class="sxs-lookup"><span data-stu-id="139e5-314">DA = 75,000.00 x (1 - (1 - 0.25)<sup>0.5<sup>) = 10,048.09</span></span> |
+| <span data-ttu-id="139e5-315">12/31/11</span><span class="sxs-lookup"><span data-stu-id="139e5-315">12/31/11</span></span> |<span data-ttu-id="139e5-316">AU = 64.951,91 x (1-(1-0,25)<sup>0,5<sup>) = 8.701,91</span><span class="sxs-lookup"><span data-stu-id="139e5-316">DA = 64,951.91 x (1 - (1 - 0.25)<sup>0.5<sup>) = 8,701.91</span></span> |
 
-## <a name="db1sl-depreciation"></a>DB1/SL Afskrift
-HLF1/LL – Þessi aðferð er blanda af hlutfallslegri afskrift 1 og línulegri. Útreikningurinn heldur áfram þar til bókfært virði er jafnt og frádráttarmagn eða hrakvirði sem þú slóst inn.  
+## <a name="db1sl-depreciation"></a><span data-ttu-id="139e5-317">DB1/SL Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-317">DB1/SL Depreciation</span></span>
+<span data-ttu-id="139e5-318">HLF1/LL – Þessi aðferð er blanda af hlutfallslegri afskrift 1 og línulegri.</span><span class="sxs-lookup"><span data-stu-id="139e5-318">DB1/SL is an abbreviated combination of Declining-Balance 1 and Straight-Line.</span></span> <span data-ttu-id="139e5-319">Útreikningurinn heldur áfram þar til bókfært virði er jafnt og frádráttarmagn eða hrakvirði sem þú slóst inn.</span><span class="sxs-lookup"><span data-stu-id="139e5-319">The calculation continues until the book value equals the final rounding amount, or the salvage value that you entered.</span></span>  
 
-Keyrslan **Reikna afskriftir** reiknar beinlínuupphæð og hlutfallslega upphæð, en aðeins stærri upphæðin er flutt í færslubókina.  
+<span data-ttu-id="139e5-320">Keyrslan **Reikna afskriftir** reiknar beinlínuupphæð og hlutfallslega upphæð, en aðeins stærri upphæðin er flutt í færslubókina.</span><span class="sxs-lookup"><span data-stu-id="139e5-320">The **Calculate Depreciation** batch job calculates a straight-line amount and a declining balance amount, but only the greater of the two amounts is transferred to the journal.</span></span>  
 
-Þú getur notað ýmsar prósentur til að reikna minnkandi stöðu.  
+<span data-ttu-id="139e5-321">Þú getur notað ýmsar prósentur til að reikna minnkandi stöðu.</span><span class="sxs-lookup"><span data-stu-id="139e5-321">You can use various percentages to calculate declining-balance.</span></span>  
 
-Ef þessi aðferð er notuð verður að færa inn áætlaðan gagnlegan líftíma og prósentutölu hlutfallslegra afskrifta í glugganum **Eignaafskriftabækur**.  
+<span data-ttu-id="139e5-322">Ef þessi aðferð er notuð verður að færa inn áætlaðan gagnlegan líftíma og prósentutölu hlutfallslegra afskrifta í glugganum **Eignaafskriftabækur**.</span><span class="sxs-lookup"><span data-stu-id="139e5-322">If you use this method, you must enter the estimated useful lifetime and a declining balance percentage in the **FA Depreciation Books** window.</span></span>  
 
-### <a name="example---db1-sl-depreciation"></a>Dæmi - DB1-SL afskrift
-Eign hefur stofnkostnaðinn SGM 100.000. Í glugganum **Eignaafskriftabækur** er 25 í reitnum  **Hlutfallsleg afskrifta%** og í reitnum **Fjöldi afskriftaára** er talan 8. Keyrslan **Reikna afskrift** er keyrð annað hvert ár.  
+### <a name="example---db1-sl-depreciation"></a><span data-ttu-id="139e5-323">Dæmi - DB1-SL afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-323">Example - DB1-SL Depreciation</span></span>
+<span data-ttu-id="139e5-324">Eign hefur stofnkostnaðinn SGM 100.000.</span><span class="sxs-lookup"><span data-stu-id="139e5-324">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="139e5-325">Í glugganum **Eignaafskriftabækur** er 25 í reitnum  **Hlutfallsleg afskrifta%** og í reitnum **Fjöldi afskriftaára** er talan 8.</span><span class="sxs-lookup"><span data-stu-id="139e5-325">In the **FA Depreciation Books** window, the **Declining-Balance %** field contains 25 and the **No. of Depreciation Years** field contains 8.</span></span> <span data-ttu-id="139e5-326">Keyrslan **Reikna afskrift** er keyrð annað hvert ár.</span><span class="sxs-lookup"><span data-stu-id="139e5-326">The **Calculate Depreciation** batch job is run biannually.</span></span>  
 
-Færslurnar í eignabókinni líta þannig:  
+<span data-ttu-id="139e5-327">Færslurnar í eignabókinni líta þannig:</span><span class="sxs-lookup"><span data-stu-id="139e5-327">The fixed asset ledger entries look like this:</span></span>  
 
-| Dagsetning | Eignabókunartegund | Dagar | Upphæð | Bókfært virði |
+| <span data-ttu-id="139e5-328">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="139e5-328">Date</span></span> | <span data-ttu-id="139e5-329">Eignabókunartegund</span><span class="sxs-lookup"><span data-stu-id="139e5-329">FA Posting Type</span></span> | <span data-ttu-id="139e5-330">Dagar</span><span class="sxs-lookup"><span data-stu-id="139e5-330">Days</span></span> | <span data-ttu-id="139e5-331">Upphæð</span><span class="sxs-lookup"><span data-stu-id="139e5-331">Amount</span></span> | <span data-ttu-id="139e5-332">Bókfært virði</span><span class="sxs-lookup"><span data-stu-id="139e5-332">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Stofnkostnaður |* |100,000.00 |100,000.00 |
-| 06/30/10 |Afskrift |180 |-12.500,00 |87,500.00 |
-| 12/31/10 |Afskrift |180 |-12.500,00 |75,000.00 |
-| 06/30/11 |Afskrift |180 |-9.375,00 |65,625.00 |
-| 12/31/11 |Afskrift |180 |-9.375,00 |56,250.00 |
-| 06/30/12 |Afskrift |180 |-7.031,25 |49,218.75 |
-| 12/31/12 |Afskrift |180 |-7.031,25 |42,187.50 |
-| 06/30/13 |Afskrift |180 |-5.273,44 |36,914.06 |
-| 12/31/13 |Afskrift |180 |-5.273,44 |31,640.62 |
-| 06/30/14 |Afskrift |180 |-3.955,08 |27,685.54 |
-| 12/31/14 |Afskrift |180 |-3.955,08 |23,730.46 |
-| 06/30/15 |Afskrift |180 |-3.955,08 |19.775,38 LL |
-| 12/31/15 |Afskrift |180 |-3.955,08 |15.820,30 LL |
-| 06/30/16 |Afskrift |180 |-3.955,08 |11.865,22 LL |
-| 12/31/16 |Afskrift |180 |-3.955,07 |7.910,15 LL |
-| 06/30/17 |Afskrift |180 |-3.955,08 |3.955,07 LL |
-| 12/31/17 |Afskrift |180 |-3.955,07 |0,00 LL |
+| <span data-ttu-id="139e5-333">01/01/10</span><span class="sxs-lookup"><span data-stu-id="139e5-333">01/01/10</span></span> |<span data-ttu-id="139e5-334">Stofnkostnaður</span><span class="sxs-lookup"><span data-stu-id="139e5-334">Acquisition Costs</span></span> |* |<span data-ttu-id="139e5-335">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-335">100,000.00</span></span> |<span data-ttu-id="139e5-336">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-336">100,000.00</span></span> |
+| <span data-ttu-id="139e5-337">06/30/10</span><span class="sxs-lookup"><span data-stu-id="139e5-337">06/30/10</span></span> |<span data-ttu-id="139e5-338">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-338">Depreciation</span></span> |<span data-ttu-id="139e5-339">180</span><span class="sxs-lookup"><span data-stu-id="139e5-339">180</span></span> |<span data-ttu-id="139e5-340">-12.500,00</span><span class="sxs-lookup"><span data-stu-id="139e5-340">-12,500.00</span></span> |<span data-ttu-id="139e5-341">87,500.00</span><span class="sxs-lookup"><span data-stu-id="139e5-341">87,500.00</span></span> |
+| <span data-ttu-id="139e5-342">12/31/10</span><span class="sxs-lookup"><span data-stu-id="139e5-342">12/31/10</span></span> |<span data-ttu-id="139e5-343">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-343">Depreciation</span></span> |<span data-ttu-id="139e5-344">180</span><span class="sxs-lookup"><span data-stu-id="139e5-344">180</span></span> |<span data-ttu-id="139e5-345">-12.500,00</span><span class="sxs-lookup"><span data-stu-id="139e5-345">-12,500.00</span></span> |<span data-ttu-id="139e5-346">75,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-346">75,000.00</span></span> |
+| <span data-ttu-id="139e5-347">06/30/11</span><span class="sxs-lookup"><span data-stu-id="139e5-347">06/30/11</span></span> |<span data-ttu-id="139e5-348">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-348">Depreciation</span></span> |<span data-ttu-id="139e5-349">180</span><span class="sxs-lookup"><span data-stu-id="139e5-349">180</span></span> |<span data-ttu-id="139e5-350">-9.375,00</span><span class="sxs-lookup"><span data-stu-id="139e5-350">-9,375.00</span></span> |<span data-ttu-id="139e5-351">65,625.00</span><span class="sxs-lookup"><span data-stu-id="139e5-351">65,625.00</span></span> |
+| <span data-ttu-id="139e5-352">12/31/11</span><span class="sxs-lookup"><span data-stu-id="139e5-352">12/31/11</span></span> |<span data-ttu-id="139e5-353">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-353">Depreciation</span></span> |<span data-ttu-id="139e5-354">180</span><span class="sxs-lookup"><span data-stu-id="139e5-354">180</span></span> |<span data-ttu-id="139e5-355">-9.375,00</span><span class="sxs-lookup"><span data-stu-id="139e5-355">-9,375.00</span></span> |<span data-ttu-id="139e5-356">56,250.00</span><span class="sxs-lookup"><span data-stu-id="139e5-356">56,250.00</span></span> |
+| <span data-ttu-id="139e5-357">06/30/12</span><span class="sxs-lookup"><span data-stu-id="139e5-357">06/30/12</span></span> |<span data-ttu-id="139e5-358">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-358">Depreciation</span></span> |<span data-ttu-id="139e5-359">180</span><span class="sxs-lookup"><span data-stu-id="139e5-359">180</span></span> |<span data-ttu-id="139e5-360">-7.031,25</span><span class="sxs-lookup"><span data-stu-id="139e5-360">-7,031.25</span></span> |<span data-ttu-id="139e5-361">49,218.75</span><span class="sxs-lookup"><span data-stu-id="139e5-361">49,218.75</span></span> |
+| <span data-ttu-id="139e5-362">12/31/12</span><span class="sxs-lookup"><span data-stu-id="139e5-362">12/31/12</span></span> |<span data-ttu-id="139e5-363">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-363">Depreciation</span></span> |<span data-ttu-id="139e5-364">180</span><span class="sxs-lookup"><span data-stu-id="139e5-364">180</span></span> |<span data-ttu-id="139e5-365">-7.031,25</span><span class="sxs-lookup"><span data-stu-id="139e5-365">-7,031.25</span></span> |<span data-ttu-id="139e5-366">42,187.50</span><span class="sxs-lookup"><span data-stu-id="139e5-366">42,187.50</span></span> |
+| <span data-ttu-id="139e5-367">06/30/13</span><span class="sxs-lookup"><span data-stu-id="139e5-367">06/30/13</span></span> |<span data-ttu-id="139e5-368">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-368">Depreciation</span></span> |<span data-ttu-id="139e5-369">180</span><span class="sxs-lookup"><span data-stu-id="139e5-369">180</span></span> |<span data-ttu-id="139e5-370">-5.273,44</span><span class="sxs-lookup"><span data-stu-id="139e5-370">-5,273.44</span></span> |<span data-ttu-id="139e5-371">36,914.06</span><span class="sxs-lookup"><span data-stu-id="139e5-371">36,914.06</span></span> |
+| <span data-ttu-id="139e5-372">12/31/13</span><span class="sxs-lookup"><span data-stu-id="139e5-372">12/31/13</span></span> |<span data-ttu-id="139e5-373">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-373">Depreciation</span></span> |<span data-ttu-id="139e5-374">180</span><span class="sxs-lookup"><span data-stu-id="139e5-374">180</span></span> |<span data-ttu-id="139e5-375">-5.273,44</span><span class="sxs-lookup"><span data-stu-id="139e5-375">-5,273.44</span></span> |<span data-ttu-id="139e5-376">31,640.62</span><span class="sxs-lookup"><span data-stu-id="139e5-376">31,640.62</span></span> |
+| <span data-ttu-id="139e5-377">06/30/14</span><span class="sxs-lookup"><span data-stu-id="139e5-377">06/30/14</span></span> |<span data-ttu-id="139e5-378">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-378">Depreciation</span></span> |<span data-ttu-id="139e5-379">180</span><span class="sxs-lookup"><span data-stu-id="139e5-379">180</span></span> |<span data-ttu-id="139e5-380">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="139e5-380">-3,955.08</span></span> |<span data-ttu-id="139e5-381">27,685.54</span><span class="sxs-lookup"><span data-stu-id="139e5-381">27,685.54</span></span> |
+| <span data-ttu-id="139e5-382">12/31/14</span><span class="sxs-lookup"><span data-stu-id="139e5-382">12/31/14</span></span> |<span data-ttu-id="139e5-383">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-383">Depreciation</span></span> |<span data-ttu-id="139e5-384">180</span><span class="sxs-lookup"><span data-stu-id="139e5-384">180</span></span> |<span data-ttu-id="139e5-385">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="139e5-385">-3,955.08</span></span> |<span data-ttu-id="139e5-386">23,730.46</span><span class="sxs-lookup"><span data-stu-id="139e5-386">23,730.46</span></span> |
+| <span data-ttu-id="139e5-387">06/30/15</span><span class="sxs-lookup"><span data-stu-id="139e5-387">06/30/15</span></span> |<span data-ttu-id="139e5-388">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-388">Depreciation</span></span> |<span data-ttu-id="139e5-389">180</span><span class="sxs-lookup"><span data-stu-id="139e5-389">180</span></span> |<span data-ttu-id="139e5-390">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="139e5-390">-3,955.08</span></span> |<span data-ttu-id="139e5-391">19.775,38 LL</span><span class="sxs-lookup"><span data-stu-id="139e5-391">19,775.38 SL</span></span> |
+| <span data-ttu-id="139e5-392">12/31/15</span><span class="sxs-lookup"><span data-stu-id="139e5-392">12/31/15</span></span> |<span data-ttu-id="139e5-393">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-393">Depreciation</span></span> |<span data-ttu-id="139e5-394">180</span><span class="sxs-lookup"><span data-stu-id="139e5-394">180</span></span> |<span data-ttu-id="139e5-395">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="139e5-395">-3,955.08</span></span> |<span data-ttu-id="139e5-396">15.820,30 LL</span><span class="sxs-lookup"><span data-stu-id="139e5-396">15,820.30 SL</span></span> |
+| <span data-ttu-id="139e5-397">06/30/16</span><span class="sxs-lookup"><span data-stu-id="139e5-397">06/30/16</span></span> |<span data-ttu-id="139e5-398">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-398">Depreciation</span></span> |<span data-ttu-id="139e5-399">180</span><span class="sxs-lookup"><span data-stu-id="139e5-399">180</span></span> |<span data-ttu-id="139e5-400">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="139e5-400">-3,955.08</span></span> |<span data-ttu-id="139e5-401">11.865,22 LL</span><span class="sxs-lookup"><span data-stu-id="139e5-401">11,865.22 SL</span></span> |
+| <span data-ttu-id="139e5-402">12/31/16</span><span class="sxs-lookup"><span data-stu-id="139e5-402">12/31/16</span></span> |<span data-ttu-id="139e5-403">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-403">Depreciation</span></span> |<span data-ttu-id="139e5-404">180</span><span class="sxs-lookup"><span data-stu-id="139e5-404">180</span></span> |<span data-ttu-id="139e5-405">-3.955,07</span><span class="sxs-lookup"><span data-stu-id="139e5-405">-3,955.07</span></span> |<span data-ttu-id="139e5-406">7.910,15 LL</span><span class="sxs-lookup"><span data-stu-id="139e5-406">7,910.15 SL</span></span> |
+| <span data-ttu-id="139e5-407">06/30/17</span><span class="sxs-lookup"><span data-stu-id="139e5-407">06/30/17</span></span> |<span data-ttu-id="139e5-408">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-408">Depreciation</span></span> |<span data-ttu-id="139e5-409">180</span><span class="sxs-lookup"><span data-stu-id="139e5-409">180</span></span> |<span data-ttu-id="139e5-410">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="139e5-410">-3,955.08</span></span> |<span data-ttu-id="139e5-411">3.955,07 LL</span><span class="sxs-lookup"><span data-stu-id="139e5-411">3,955.07 SL</span></span> |
+| <span data-ttu-id="139e5-412">12/31/17</span><span class="sxs-lookup"><span data-stu-id="139e5-412">12/31/17</span></span> |<span data-ttu-id="139e5-413">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-413">Depreciation</span></span> |<span data-ttu-id="139e5-414">180</span><span class="sxs-lookup"><span data-stu-id="139e5-414">180</span></span> |<span data-ttu-id="139e5-415">-3.955,07</span><span class="sxs-lookup"><span data-stu-id="139e5-415">-3,955.07</span></span> |<span data-ttu-id="139e5-416">0,00 LL</span><span class="sxs-lookup"><span data-stu-id="139e5-416">0.00 SL</span></span> |
 
-* Upphafsdags. afskrifta  
+* <span data-ttu-id="139e5-417">Upphafsdags. afskrifta</span><span class="sxs-lookup"><span data-stu-id="139e5-417">Depreciation starting date</span></span>  
 
-"BL" á eftir bókfærðu virði merkir að beinlínuaðferð hafi verið notuð.  
+<span data-ttu-id="139e5-418">"BL" á eftir bókfærðu virði merkir að beinlínuaðferð hafi verið notuð.</span><span class="sxs-lookup"><span data-stu-id="139e5-418">"SL" after the book value means that the straight-line method has been used.</span></span>  
 
-Reikningsaðferð:  
+<span data-ttu-id="139e5-419">Reikningsaðferð:</span><span class="sxs-lookup"><span data-stu-id="139e5-419">Calculation method:</span></span>  
 
-árið:  
+<span data-ttu-id="139e5-420">árið:</span><span class="sxs-lookup"><span data-stu-id="139e5-420">1st year:</span></span>  
 
-*Hlutfallsleg upphæð: 25% af 100.000 =  25.000 = 12.500 + 12.500*  
+<span data-ttu-id="139e5-421">*Hlutfallsleg upphæð: 25% af 100.000 =  25.000 = 12.500 + 12.500*</span><span class="sxs-lookup"><span data-stu-id="139e5-421">*Declining-balance amount: 25% of 100,000 = 25,000 = 12,500 + 12,500*</span></span>  
 
-*Línuleg upphæð = 100,000 / 8 = 12,500 = 6,250 + 6,250*  
+<span data-ttu-id="139e5-422">*Línuleg upphæð = 100,000 / 8 = 12,500 = 6,250 + 6,250*</span><span class="sxs-lookup"><span data-stu-id="139e5-422">*Straight-line amount = 100,000 / 8 = 12,500 = 6,250 + 6,250*</span></span>  
 
-Hlutfallsleg upphæð er notuð vegna þess að hún er hærri.  
+<span data-ttu-id="139e5-423">Hlutfallsleg upphæð er notuð vegna þess að hún er hærri.</span><span class="sxs-lookup"><span data-stu-id="139e5-423">The declining-balance amount is used because it is the greater amount.</span></span>  
 
-árið (2015):  
+<span data-ttu-id="139e5-424">árið (2015):</span><span class="sxs-lookup"><span data-stu-id="139e5-424">6th year (2015):</span></span>  
 
-*Hlutfallsleg upphæð: 25% af 23.730,46 = 4.943,85= 2.471,92 + 2.471,92*  
+<span data-ttu-id="139e5-425">*Hlutfallsleg upphæð: 25% af 23.730,46 = 4.943,85= 2.471,92 + 2.471,92*</span><span class="sxs-lookup"><span data-stu-id="139e5-425">*Declining-balance amount: 25% of 23,730.46 = 4,943.85= 2,471.92 + 2,471.92*</span></span>  
 
-*Línuleg upphæð = 23.730,46/3 = 7.910,15 = 3.995,07 + 3.995,08*  
+<span data-ttu-id="139e5-426">*Línuleg upphæð = 23.730,46/3 = 7.910,15 = 3.995,07 + 3.995,08*</span><span class="sxs-lookup"><span data-stu-id="139e5-426">*Straight-line amount = 23,730.46/3 = 7,910.15 = 3,995.07 + 3,995.08*</span></span>  
 
-Línulega upphæðin er notuð vegna þess að hún er hærri.  
+<span data-ttu-id="139e5-427">Línulega upphæðin er notuð vegna þess að hún er hærri.</span><span class="sxs-lookup"><span data-stu-id="139e5-427">The straight-line amount is used because it is the greater amount.</span></span>  
 
-## <a name="user-defined-depreciation"></a>Notandaskilgreindar afskriftir
-Forritið hefur eiginleika sem gerir notanda kleift að skilgreina eigin afskriftaaðferðir.  
+## <a name="user-defined-depreciation"></a><span data-ttu-id="139e5-428">Notandaskilgreindar afskriftir</span><span class="sxs-lookup"><span data-stu-id="139e5-428">User-defined Depreciation</span></span>
+<span data-ttu-id="139e5-429">Forritið hefur eiginleika sem gerir notanda kleift að skilgreina eigin afskriftaaðferðir.</span><span class="sxs-lookup"><span data-stu-id="139e5-429">The program has a facility that allows you to set up user-defined depreciation methods.</span></span>  
 
-Í aðferðinni sem notandi skilgreinir sjálfur eru færðar inn afskriftaprósentur fyrir hvert tímabil (mánuð, ársfjórðung, ár eða reikningstímabil) í glugganum **Afskriftatöflur**.  
+<span data-ttu-id="139e5-430">Í aðferðinni sem notandi skilgreinir sjálfur eru færðar inn afskriftaprósentur fyrir hvert tímabil (mánuð, ársfjórðung, ár eða reikningstímabil) í glugganum **Afskriftatöflur**.</span><span class="sxs-lookup"><span data-stu-id="139e5-430">With a user-defined method, you use the **Depreciation Tables** window, where you must enter a depreciation percentage for each period (month, quarter, year, or accounting period).</span></span>  
 
-Reiknireglan fyrir útreikning á afskriftaupphæðum er:  
+<span data-ttu-id="139e5-431">Reiknireglan fyrir útreikning á afskriftaupphæðum er:</span><span class="sxs-lookup"><span data-stu-id="139e5-431">The formula for calculating the depreciation amounts is:</span></span>  
 
-Afskriftaupphæð = (afskrift % x Fjöldi afskriftadaga) x afskrift Grunnur) / (100 * 360)  
+<span data-ttu-id="139e5-432">Afskriftaupphæð = (afskrift % x Fjöldi afskriftadaga) x afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-432">Depreciation Amount = (Depreciation % x Number of Depreciation Days x Depr.</span></span> <span data-ttu-id="139e5-433">Grunnur) / (100 * 360)</span><span class="sxs-lookup"><span data-stu-id="139e5-433">Basis) / (100 x 360)</span></span>  
 
-### <a name="depreciation-based-on-number-of-units"></a>Afskriftir miðaðar við fjölda eininga
-Notandaskilgreindu aðferðina má einnig nota til að afskrifa eftir fjölda eininga, til dæmis vélar sem hafa þekkta framleiðslugetu. Í glugganum **Afskriftatöflu** er hægt að færa inn fjölda eininga sem hægt er að framleiða á hverju tímabili (mánuði, ársfjórðungi, ári eða reikningstímabili).  
+### <a name="depreciation-based-on-number-of-units"></a><span data-ttu-id="139e5-434">Afskriftir miðaðar við fjölda eininga</span><span class="sxs-lookup"><span data-stu-id="139e5-434">Depreciation Based on Number of Units</span></span>
+<span data-ttu-id="139e5-435">Notandaskilgreindu aðferðina má einnig nota til að afskrifa eftir fjölda eininga, til dæmis vélar sem hafa þekkta framleiðslugetu.</span><span class="sxs-lookup"><span data-stu-id="139e5-435">This user-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity.</span></span> <span data-ttu-id="139e5-436">Í glugganum **Afskriftatöflu** er hægt að færa inn fjölda eininga sem hægt er að framleiða á hverju tímabili (mánuði, ársfjórðungi, ári eða reikningstímabili).</span><span class="sxs-lookup"><span data-stu-id="139e5-436">In the **Depreciation Tables** window, you can enter the number of units that can be produced in each period (month, quarter, year,or accounting period).</span></span>  
 
-### <a name="to-set-up-user-defined-depreciation-methods"></a>Uppsetning afskriftaaðferða sem notandi skilgreinir
-Í glugganum **Afskriftatöfluspjald** er hægt að setja upp notendaskilgreinda afskriftaaðferðir. Til dæmis er hægt að setja upp afskriftir sem byggjast á fjölda eininga.  
+### <a name="to-set-up-user-defined-depreciation-methods"></a><span data-ttu-id="139e5-437">Uppsetning afskriftaaðferða sem notandi skilgreinir</span><span class="sxs-lookup"><span data-stu-id="139e5-437">To set up user-defined depreciation methods</span></span>
+<span data-ttu-id="139e5-438">Í glugganum **Afskriftatöfluspjald** er hægt að setja upp notendaskilgreinda afskriftaaðferðir.</span><span class="sxs-lookup"><span data-stu-id="139e5-438">In the **Depreciation Table** window, you can set up user-defined depreciation methods.</span></span> <span data-ttu-id="139e5-439">Til dæmis er hægt að setja upp afskriftir sem byggjast á fjölda eininga.</span><span class="sxs-lookup"><span data-stu-id="139e5-439">For example, you can set up depreciation based on number of units.</span></span>  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afskriftatöflur** og velja svo viðeigandi tengil.  
-2. Í glugganum **listi yfir afskriftartöflur** skal velja aðgerðina **Nýtt**.  
-3. Í glugganum **kort afskriftartöflu** skal fylla inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="139e5-440">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afskriftatöflur** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="139e5-440">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="139e5-441">Í glugganum **listi yfir afskriftartöflur** skal velja aðgerðina **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="139e5-441">In the **Depreciation Table List** window, choose the **New** action.</span></span>  
+3. <span data-ttu-id="139e5-442">Í glugganum **kort afskriftartöflu** skal fylla inn í svæðin eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="139e5-442">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="example---user-defined-depreciation"></a>Dæmi - Notandaskilgreindar afskriftaraðferð
-Notuð er afskriftaaðferð sem gerir kleift að afskrifa eignir hraðar vegna tekjuskatts.  
+### <a name="example---user-defined-depreciation"></a><span data-ttu-id="139e5-443">Dæmi - Notandaskilgreindar afskriftaraðferð</span><span class="sxs-lookup"><span data-stu-id="139e5-443">Example - User-defined Depreciation</span></span>
+<span data-ttu-id="139e5-444">Notuð er afskriftaaðferð sem gerir kleift að afskrifa eignir hraðar vegna tekjuskatts.</span><span class="sxs-lookup"><span data-stu-id="139e5-444">You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.</span></span>  
 
-Eftirfarandi afskriftaaðferð er notuð á eign með þriggja ára líftíma vegna skatta.  
+<span data-ttu-id="139e5-445">Eftirfarandi afskriftaaðferð er notuð á eign með þriggja ára líftíma vegna skatta.</span><span class="sxs-lookup"><span data-stu-id="139e5-445">You would use the following depreciation rates for a fixed asset with a three-year lifetime for tax purposes:</span></span>  
 
-* 1. ár: 25%  
-* 2. ár: 38%  
-* 3. ár: 37%  
+* <span data-ttu-id="139e5-446">1. ár: 25%</span><span class="sxs-lookup"><span data-stu-id="139e5-446">year 1: 25%</span></span>  
+* <span data-ttu-id="139e5-447">2. ár: 38%</span><span class="sxs-lookup"><span data-stu-id="139e5-447">year 2: 38%</span></span>  
+* <span data-ttu-id="139e5-448">3. ár: 37%</span><span class="sxs-lookup"><span data-stu-id="139e5-448">year 3: 37%</span></span>  
 
-Stofnkostnaðurinn er SGM 100.000 og afskrifanlegur líftími er fimm ár. Afskriftir eru reiknaðar árlega.  
+<span data-ttu-id="139e5-449">Stofnkostnaðurinn er SGM 100.000 og afskrifanlegur líftími er fimm ár.</span><span class="sxs-lookup"><span data-stu-id="139e5-449">The acquisition cost is LCY 100,000, and the depreciable lifetime is five years.</span></span> <span data-ttu-id="139e5-450">Afskriftir eru reiknaðar árlega.</span><span class="sxs-lookup"><span data-stu-id="139e5-450">Depreciation is calculated annually.</span></span>  
 
-| Dagsetning | Eignabókunartegund | Dagar | Upphæð | Bókfært virði |
+| <span data-ttu-id="139e5-451">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="139e5-451">Date</span></span> | <span data-ttu-id="139e5-452">Eignabókunartegund</span><span class="sxs-lookup"><span data-stu-id="139e5-452">FA Posting Type</span></span> | <span data-ttu-id="139e5-453">Dagar</span><span class="sxs-lookup"><span data-stu-id="139e5-453">Days</span></span> | <span data-ttu-id="139e5-454">Upphæð</span><span class="sxs-lookup"><span data-stu-id="139e5-454">Amount</span></span> | <span data-ttu-id="139e5-455">Bókfært virði</span><span class="sxs-lookup"><span data-stu-id="139e5-455">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Stofnkostnaður |* |100,000.00 |100,000.00 |
-| 12/31/10 |Afskrift |360 |-25.000,00 |75,000.00 |
-| 12/31/11 |Afskrift |360 |-38.000,00 |37,000.00 |
-| 12/31/12 |Afskrift |360 |-37.000,00 |0 |
-| 12/31/13 |Afskrift |Engin |Engin |0 |
-| 12/31/14 |Afskrift |Engin |Engin |0 |
+| <span data-ttu-id="139e5-456">01/01/10</span><span class="sxs-lookup"><span data-stu-id="139e5-456">01/01/10</span></span> |<span data-ttu-id="139e5-457">Stofnkostnaður</span><span class="sxs-lookup"><span data-stu-id="139e5-457">Acquisition Cost</span></span> |* |<span data-ttu-id="139e5-458">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-458">100,000.00</span></span> |<span data-ttu-id="139e5-459">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-459">100,000.00</span></span> |
+| <span data-ttu-id="139e5-460">12/31/10</span><span class="sxs-lookup"><span data-stu-id="139e5-460">12/31/10</span></span> |<span data-ttu-id="139e5-461">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-461">Depreciation</span></span> |<span data-ttu-id="139e5-462">360</span><span class="sxs-lookup"><span data-stu-id="139e5-462">360</span></span> |<span data-ttu-id="139e5-463">-25.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-463">-25,000.00</span></span> |<span data-ttu-id="139e5-464">75,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-464">75,000.00</span></span> |
+| <span data-ttu-id="139e5-465">12/31/11</span><span class="sxs-lookup"><span data-stu-id="139e5-465">12/31/11</span></span> |<span data-ttu-id="139e5-466">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-466">Depreciation</span></span> |<span data-ttu-id="139e5-467">360</span><span class="sxs-lookup"><span data-stu-id="139e5-467">360</span></span> |<span data-ttu-id="139e5-468">-38.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-468">-38,000.00</span></span> |<span data-ttu-id="139e5-469">37,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-469">37,000.00</span></span> |
+| <span data-ttu-id="139e5-470">12/31/12</span><span class="sxs-lookup"><span data-stu-id="139e5-470">12/31/12</span></span> |<span data-ttu-id="139e5-471">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-471">Depreciation</span></span> |<span data-ttu-id="139e5-472">360</span><span class="sxs-lookup"><span data-stu-id="139e5-472">360</span></span> |<span data-ttu-id="139e5-473">-37.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-473">-37,000.00</span></span> |<span data-ttu-id="139e5-474">0</span><span class="sxs-lookup"><span data-stu-id="139e5-474">0</span></span> |
+| <span data-ttu-id="139e5-475">12/31/13</span><span class="sxs-lookup"><span data-stu-id="139e5-475">12/31/13</span></span> |<span data-ttu-id="139e5-476">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-476">Depreciation</span></span> |<span data-ttu-id="139e5-477">Engin</span><span class="sxs-lookup"><span data-stu-id="139e5-477">None</span></span> |<span data-ttu-id="139e5-478">Engin</span><span class="sxs-lookup"><span data-stu-id="139e5-478">None</span></span> |<span data-ttu-id="139e5-479">0</span><span class="sxs-lookup"><span data-stu-id="139e5-479">0</span></span> |
+| <span data-ttu-id="139e5-480">12/31/14</span><span class="sxs-lookup"><span data-stu-id="139e5-480">12/31/14</span></span> |<span data-ttu-id="139e5-481">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-481">Depreciation</span></span> |<span data-ttu-id="139e5-482">Engin</span><span class="sxs-lookup"><span data-stu-id="139e5-482">None</span></span> |<span data-ttu-id="139e5-483">Engin</span><span class="sxs-lookup"><span data-stu-id="139e5-483">None</span></span> |<span data-ttu-id="139e5-484">0</span><span class="sxs-lookup"><span data-stu-id="139e5-484">0</span></span> |
 
-* Upphafsdags. afskrifta  
+* <span data-ttu-id="139e5-485">Upphafsdags. afskrifta</span><span class="sxs-lookup"><span data-stu-id="139e5-485">Depreciation starting date</span></span>  
 
-Ef notuð er notandaskilgreind aðferð er notuð þarf að fylla út reitina **Fyrsta not.skilgr. afskr.dags.** og **Upphafsdags. afskrifta** í **Eignaafskriftabækur**. Reiturinn **Fyrsta not.skilgr. afskr.dags.** og innihald reitsins **Lengd tímabils** í glugganum **Afskriftatöflur** er notað til að ákvarða tímabilin sem á að nota í útreikningum á afskriftum. Þetta tryggir að forritið byrji að nota tilgreinda prósentutölu sama dag fyrir allar eignir. Reiturinn **Upphafsdags. afskrifta** er notaður til að reikna fjölda afskriftardaga.  
+<span data-ttu-id="139e5-486">Ef notuð er notandaskilgreind aðferð er notuð þarf að fylla út reitina **Fyrsta not.skilgr. afskr.dags.** og **Upphafsdags. afskrifta** í **Eignaafskriftabækur**.</span><span class="sxs-lookup"><span data-stu-id="139e5-486">If you use a user-defined method, the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields must be filled in in the **FA Depreciation Books** window.</span></span> <span data-ttu-id="139e5-487">Reiturinn **Fyrsta not.skilgr. afskr.dags.** og innihald reitsins **Lengd tímabils** í glugganum **Afskriftatöflur** er notað til að ákvarða tímabilin sem á að nota í útreikningum á afskriftum.</span><span class="sxs-lookup"><span data-stu-id="139e5-487">The **First User-Defined Depr. Date** field and the contents in the **Period Length** field in the **Depreciation Tables** window are used to determine the time intervals to be used for depreciation calculations.</span></span> <span data-ttu-id="139e5-488">Þetta tryggir að forritið byrji að nota tilgreinda prósentutölu sama dag fyrir allar eignir.</span><span class="sxs-lookup"><span data-stu-id="139e5-488">This ensures that the program will start using the specified percentage on the same day for all assets.</span></span> <span data-ttu-id="139e5-489">Reiturinn **Upphafsdags. afskrifta** er notaður til að reikna fjölda afskriftardaga.</span><span class="sxs-lookup"><span data-stu-id="139e5-489">The **Depreciation Starting Date** field is used to calculate the number of depreciation days.</span></span>  
 
-Í fyrra dæmi er í báðum reitunum **Fyrsta not.skilgr. afskr.dags.** og **Upphafsdags. afskriftar** 01/01/01. Ef í reitnum **Fyrsta not.skilgr. afskr.dags.** er þó 01/01/10 og í reitnum **Upphafsdags. afskriftar** er 01/04/11 yrði útkoman:  
+<span data-ttu-id="139e5-490">Í fyrra dæmi er í báðum reitunum **Fyrsta not.skilgr. afskr.dags.** og **Upphafsdags. afskriftar** 01/01/01.</span><span class="sxs-lookup"><span data-stu-id="139e5-490">In the previous example, both the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields contain 01/01/01.</span></span> <span data-ttu-id="139e5-491">Ef í reitnum **Fyrsta not.skilgr. afskr.dags.** er þó 01/01/10 og í reitnum **Upphafsdags. afskriftar** er 01/04/11 yrði útkoman:</span><span class="sxs-lookup"><span data-stu-id="139e5-491">If, however, the **First User-Defined Depr. Date** field contained 01/01/10 and the **Depreciation Starting Date** field contained 04/01/11, the result would be:</span></span>  
 
-| Dagsetning | Eignabókunartegund | Dagar | Upphæð | Bókfært virði |
+| <span data-ttu-id="139e5-492">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="139e5-492">Date</span></span> | <span data-ttu-id="139e5-493">Eignabókunartegund</span><span class="sxs-lookup"><span data-stu-id="139e5-493">FA Posting Type</span></span> | <span data-ttu-id="139e5-494">Dagar</span><span class="sxs-lookup"><span data-stu-id="139e5-494">Days</span></span> | <span data-ttu-id="139e5-495">Upphæð</span><span class="sxs-lookup"><span data-stu-id="139e5-495">Amount</span></span> | <span data-ttu-id="139e5-496">Bókfært virði</span><span class="sxs-lookup"><span data-stu-id="139e5-496">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01/01/10 |Stofnkostnaður |* |100,000.00 |100,000.00 |
-| 12/31/10 |Afskrift |270 |-18.750,00 |81,250.00 |
-| 12/31/11 |Afskrift |360 |-38.000,00 |42,250.00 |
-| 12/31/12 |Afskrift |360 |-37.000,00 |6,250.00 |
-| 12/31/13 |Afskrift |90 |-6.250,00 |0 |
-| 12/31/14 |Afskrift |Engin |Engin |0 |
+| <span data-ttu-id="139e5-497">01/01/10</span><span class="sxs-lookup"><span data-stu-id="139e5-497">01/01/10</span></span> |<span data-ttu-id="139e5-498">Stofnkostnaður</span><span class="sxs-lookup"><span data-stu-id="139e5-498">Acquisition Cost</span></span> |* |<span data-ttu-id="139e5-499">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-499">100,000.00</span></span> |<span data-ttu-id="139e5-500">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-500">100,000.00</span></span> |
+| <span data-ttu-id="139e5-501">12/31/10</span><span class="sxs-lookup"><span data-stu-id="139e5-501">12/31/10</span></span> |<span data-ttu-id="139e5-502">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-502">Depreciation</span></span> |<span data-ttu-id="139e5-503">270</span><span class="sxs-lookup"><span data-stu-id="139e5-503">270</span></span> |<span data-ttu-id="139e5-504">-18.750,00</span><span class="sxs-lookup"><span data-stu-id="139e5-504">-18,750.00</span></span> |<span data-ttu-id="139e5-505">81,250.00</span><span class="sxs-lookup"><span data-stu-id="139e5-505">81,250.00</span></span> |
+| <span data-ttu-id="139e5-506">12/31/11</span><span class="sxs-lookup"><span data-stu-id="139e5-506">12/31/11</span></span> |<span data-ttu-id="139e5-507">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-507">Depreciation</span></span> |<span data-ttu-id="139e5-508">360</span><span class="sxs-lookup"><span data-stu-id="139e5-508">360</span></span> |<span data-ttu-id="139e5-509">-38.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-509">-38,000.00</span></span> |<span data-ttu-id="139e5-510">42,250.00</span><span class="sxs-lookup"><span data-stu-id="139e5-510">42,250.00</span></span> |
+| <span data-ttu-id="139e5-511">12/31/12</span><span class="sxs-lookup"><span data-stu-id="139e5-511">12/31/12</span></span> |<span data-ttu-id="139e5-512">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-512">Depreciation</span></span> |<span data-ttu-id="139e5-513">360</span><span class="sxs-lookup"><span data-stu-id="139e5-513">360</span></span> |<span data-ttu-id="139e5-514">-37.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-514">-37,000.00</span></span> |<span data-ttu-id="139e5-515">6,250.00</span><span class="sxs-lookup"><span data-stu-id="139e5-515">6,250.00</span></span> |
+| <span data-ttu-id="139e5-516">12/31/13</span><span class="sxs-lookup"><span data-stu-id="139e5-516">12/31/13</span></span> |<span data-ttu-id="139e5-517">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-517">Depreciation</span></span> |<span data-ttu-id="139e5-518">90</span><span class="sxs-lookup"><span data-stu-id="139e5-518">90</span></span> |<span data-ttu-id="139e5-519">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="139e5-519">-6,250.00</span></span> |<span data-ttu-id="139e5-520">0</span><span class="sxs-lookup"><span data-stu-id="139e5-520">0</span></span> |
+| <span data-ttu-id="139e5-521">12/31/14</span><span class="sxs-lookup"><span data-stu-id="139e5-521">12/31/14</span></span> |<span data-ttu-id="139e5-522">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-522">Depreciation</span></span> |<span data-ttu-id="139e5-523">Engin</span><span class="sxs-lookup"><span data-stu-id="139e5-523">None</span></span> |<span data-ttu-id="139e5-524">Engin</span><span class="sxs-lookup"><span data-stu-id="139e5-524">None</span></span> |<span data-ttu-id="139e5-525">0</span><span class="sxs-lookup"><span data-stu-id="139e5-525">0</span></span> |
 
-* Upphafsdags. afskrifta  
+* <span data-ttu-id="139e5-526">Upphafsdags. afskrifta</span><span class="sxs-lookup"><span data-stu-id="139e5-526">Depreciation starting date</span></span>  
 
-## <a name="half-year-convention-depreciation"></a>Hálfsársafskrift
-Afskriftir tvisvar á ári eru aðeins notaðar ef sett var gátmerki í reitinn **Nota hálfsársaðferð** í fasta glugganum **eignaafskriftabók**.  
+## <a name="half-year-convention-depreciation"></a><span data-ttu-id="139e5-527">Hálfsársafskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-527">Half-Year Convention Depreciation</span></span>
+<span data-ttu-id="139e5-528">Afskriftir tvisvar á ári eru aðeins notaðar ef sett var gátmerki í reitinn **Nota hálfsársaðferð** í fasta glugganum **eignaafskriftabók**.</span><span class="sxs-lookup"><span data-stu-id="139e5-528">The Half-Year Convention method will only be applied if you have placed a check mark in the **Use Half-Year Convention** field in the fixed **FA Depreciation Book** window.</span></span>  
 
-Þessa afskriftaaðferð má nota ásamt eftirfarandi afskriftaaðferðum í forritinu:  
+<span data-ttu-id="139e5-529">Þessa afskriftaaðferð má nota ásamt eftirfarandi afskriftaaðferðum í forritinu:</span><span class="sxs-lookup"><span data-stu-id="139e5-529">This depreciation method can be used in conjunction with the following depreciation methods in the program:</span></span>  
 
-* Línulegar  
-* Hlutfallsleg afskrift 1  
-* HA1/LL  
+* <span data-ttu-id="139e5-530">Línulegar</span><span class="sxs-lookup"><span data-stu-id="139e5-530">Straight-Line</span></span>  
+* <span data-ttu-id="139e5-531">Hlutfallsleg afskrift 1</span><span class="sxs-lookup"><span data-stu-id="139e5-531">Declining-Balance 1</span></span>  
+* <span data-ttu-id="139e5-532">HA1/LL</span><span class="sxs-lookup"><span data-stu-id="139e5-532">DB1/SL</span></span>  
 
-Þegar afskrifað er tvisvar á ári fær eign sex mánaða afskrift á fyrsta reikningsári án tillits til þess sem tilgreint er í reitnum **Upphafsdags. afskriftar**.  
+<span data-ttu-id="139e5-533">Þegar afskrifað er tvisvar á ári fær eign sex mánaða afskrift á fyrsta reikningsári án tillits til þess sem tilgreint er í reitnum **Upphafsdags. afskriftar**.</span><span class="sxs-lookup"><span data-stu-id="139e5-533">When you apply the Half-Year Convention, a fixed asset has six months of depreciation in the first fiscal year, regardless of the contents of the **Depreciation Starting Date** field.</span></span>  
 
 > [!NOTE]  
->   Áætlaðar eftirstöðvar af líftíma eignar eftir fyrsta reikningsárið verður alltaf hálft ár ef hálfsársaðferðin er notuð. Ef hálfsársaðferðinni er rétt beitt verður því ávallt í reitnum **Lokadags. afskriftar** í **eignaafskriftabókinni** dagsetning sem er nákvæmlega sex mánuðum á undan lokadagsetningu reikningsársins þegar eignin er að fullu afskrifuð.  
+>   <span data-ttu-id="139e5-534">Áætlaðar eftirstöðvar af líftíma eignar eftir fyrsta reikningsárið verður alltaf hálft ár ef hálfsársaðferðin er notuð.</span><span class="sxs-lookup"><span data-stu-id="139e5-534">The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method.</span></span> <span data-ttu-id="139e5-535">Ef hálfsársaðferðinni er rétt beitt verður því ávallt í reitnum **Lokadags. afskriftar** í **eignaafskriftabókinni** dagsetning sem er nákvæmlega sex mánuðum á undan lokadagsetningu reikningsársins þegar eignin er að fullu afskrifuð.</span><span class="sxs-lookup"><span data-stu-id="139e5-535">Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field in the **FA Depreciation Book** window must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset will fully depreciate.</span></span>  
 
-### <a name="example---half-year-convention-depreciation"></a>Dæmi - Hálfsársafskriftir
-Eign hefur stofnkostnaðinn SGM 100.000. **Upphafsdags. afskriftar** er 01/03/10. Áætlaður líftími er fimm ár, þannig að **Lokadags. afskriftar** verður að vera 30/06/15. Keyrslan **Reikna afskriftir** er keyrð einu sinni á ári. Í þessu dæmi miðast fjárhagsárið við almanaksárið.  
+### <a name="example---half-year-convention-depreciation"></a><span data-ttu-id="139e5-536">Dæmi - Hálfsársafskriftir</span><span class="sxs-lookup"><span data-stu-id="139e5-536">Example - Half-Year Convention Depreciation</span></span>
+<span data-ttu-id="139e5-537">Eign hefur stofnkostnaðinn SGM 100.000.</span><span class="sxs-lookup"><span data-stu-id="139e5-537">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="139e5-538">**Upphafsdags. afskriftar** er 01/03/10.</span><span class="sxs-lookup"><span data-stu-id="139e5-538">The **Depreciation Starting Date** is 03/01/10.</span></span> <span data-ttu-id="139e5-539">Áætlaður líftími er fimm ár, þannig að **Lokadags. afskriftar** verður að vera 30/06/15.</span><span class="sxs-lookup"><span data-stu-id="139e5-539">The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15.</span></span> <span data-ttu-id="139e5-540">Keyrslan **Reikna afskriftir** er keyrð einu sinni á ári.</span><span class="sxs-lookup"><span data-stu-id="139e5-540">The **Calculate Depreciation** batch job is run annually.</span></span> <span data-ttu-id="139e5-541">Í þessu dæmi miðast fjárhagsárið við almanaksárið.</span><span class="sxs-lookup"><span data-stu-id="139e5-541">This example is based on a calendar fiscal year.</span></span>  
 
-Færslurnar í eignabókinni líta þannig:  
+<span data-ttu-id="139e5-542">Færslurnar í eignabókinni líta þannig:</span><span class="sxs-lookup"><span data-stu-id="139e5-542">The fixed asset ledger entries look like this:</span></span>  
 
-| Dagsetning | Eignabókunartegund | Dagar | Upphæð | Bókfært virði |
+| <span data-ttu-id="139e5-543">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="139e5-543">Date</span></span> | <span data-ttu-id="139e5-544">Eignabókunartegund</span><span class="sxs-lookup"><span data-stu-id="139e5-544">FA Posting Type</span></span> | <span data-ttu-id="139e5-545">Dagar</span><span class="sxs-lookup"><span data-stu-id="139e5-545">Days</span></span> | <span data-ttu-id="139e5-546">Upphæð</span><span class="sxs-lookup"><span data-stu-id="139e5-546">Amount</span></span> | <span data-ttu-id="139e5-547">Bókfært virði</span><span class="sxs-lookup"><span data-stu-id="139e5-547">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 03/01/10 |Stofnkostnaður |* |100,000.00 |100,000.00 |
-| 12/31/10 |Afskrift |270 |-10.000,00 |90,000.00 |
-| 12/31/11 |Afskrift |360 |-20.000,00 |70,000.00 |
-| 12/31/12 |Afskrift |360 |-20.000,00 |50,000.00 |
-| 12/31/13 |Afskrift |360 |-20.000,00 |30,000.00 |
-| 12/31/14 |Afskrift |360 |-20.000,00 |10,000.00 |
-| 12/31/15 |Afskrift |180 |-10.000,00 |0.00 |
+| <span data-ttu-id="139e5-548">03/01/10</span><span class="sxs-lookup"><span data-stu-id="139e5-548">03/01/10</span></span> |<span data-ttu-id="139e5-549">Stofnkostnaður</span><span class="sxs-lookup"><span data-stu-id="139e5-549">Acquisition Cost</span></span> |* |<span data-ttu-id="139e5-550">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-550">100,000.00</span></span> |<span data-ttu-id="139e5-551">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-551">100,000.00</span></span> |
+| <span data-ttu-id="139e5-552">12/31/10</span><span class="sxs-lookup"><span data-stu-id="139e5-552">12/31/10</span></span> |<span data-ttu-id="139e5-553">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-553">Depreciation</span></span> |<span data-ttu-id="139e5-554">270</span><span class="sxs-lookup"><span data-stu-id="139e5-554">270</span></span> |<span data-ttu-id="139e5-555">-10.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-555">-10,000.00</span></span> |<span data-ttu-id="139e5-556">90,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-556">90,000.00</span></span> |
+| <span data-ttu-id="139e5-557">12/31/11</span><span class="sxs-lookup"><span data-stu-id="139e5-557">12/31/11</span></span> |<span data-ttu-id="139e5-558">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-558">Depreciation</span></span> |<span data-ttu-id="139e5-559">360</span><span class="sxs-lookup"><span data-stu-id="139e5-559">360</span></span> |<span data-ttu-id="139e5-560">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-560">-20,000.00</span></span> |<span data-ttu-id="139e5-561">70,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-561">70,000.00</span></span> |
+| <span data-ttu-id="139e5-562">12/31/12</span><span class="sxs-lookup"><span data-stu-id="139e5-562">12/31/12</span></span> |<span data-ttu-id="139e5-563">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-563">Depreciation</span></span> |<span data-ttu-id="139e5-564">360</span><span class="sxs-lookup"><span data-stu-id="139e5-564">360</span></span> |<span data-ttu-id="139e5-565">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-565">-20,000.00</span></span> |<span data-ttu-id="139e5-566">50,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-566">50,000.00</span></span> |
+| <span data-ttu-id="139e5-567">12/31/13</span><span class="sxs-lookup"><span data-stu-id="139e5-567">12/31/13</span></span> |<span data-ttu-id="139e5-568">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-568">Depreciation</span></span> |<span data-ttu-id="139e5-569">360</span><span class="sxs-lookup"><span data-stu-id="139e5-569">360</span></span> |<span data-ttu-id="139e5-570">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-570">-20,000.00</span></span> |<span data-ttu-id="139e5-571">30,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-571">30,000.00</span></span> |
+| <span data-ttu-id="139e5-572">12/31/14</span><span class="sxs-lookup"><span data-stu-id="139e5-572">12/31/14</span></span> |<span data-ttu-id="139e5-573">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-573">Depreciation</span></span> |<span data-ttu-id="139e5-574">360</span><span class="sxs-lookup"><span data-stu-id="139e5-574">360</span></span> |<span data-ttu-id="139e5-575">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-575">-20,000.00</span></span> |<span data-ttu-id="139e5-576">10,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-576">10,000.00</span></span> |
+| <span data-ttu-id="139e5-577">12/31/15</span><span class="sxs-lookup"><span data-stu-id="139e5-577">12/31/15</span></span> |<span data-ttu-id="139e5-578">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-578">Depreciation</span></span> |<span data-ttu-id="139e5-579">180</span><span class="sxs-lookup"><span data-stu-id="139e5-579">180</span></span> |<span data-ttu-id="139e5-580">-10.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-580">-10,000.00</span></span> |<span data-ttu-id="139e5-581">0.00</span><span class="sxs-lookup"><span data-stu-id="139e5-581">0.00</span></span> |
 
-* Upphafsdags. afskrifta  
+* <span data-ttu-id="139e5-582">Upphafsdags. afskrifta</span><span class="sxs-lookup"><span data-stu-id="139e5-582">Depreciation starting date</span></span>  
 
-## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Dæmi - HLF1/LL tvisvar á ári
-Eign hefur stofnkostnaðinn SGM 100.000. **Upphafsdags. afskriftar** er 01/11/10. Áætlaður líftími er fimm ár, þannig að **Lokadags. afskriftar** verður að vera 30/06/15. Í glugganum **Eignaafskriftabækur** inniheldur reiturinn **Hlutfallsleg afskrifta%** 40. Keyrslan **Reikna afskriftir** er keyrð einu sinni á ári. Í þessu dæmi miðast fjárhagsárið við almanaksárið.  
+## <a name="example---db1sl-depreciation-using-half-year-convention"></a><span data-ttu-id="139e5-583">Dæmi - HLF1/LL tvisvar á ári</span><span class="sxs-lookup"><span data-stu-id="139e5-583">Example - DB1/SL Depreciation Using Half-Year Convention</span></span>
+<span data-ttu-id="139e5-584">Eign hefur stofnkostnaðinn SGM 100.000.</span><span class="sxs-lookup"><span data-stu-id="139e5-584">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="139e5-585">**Upphafsdags. afskriftar** er 01/11/10.</span><span class="sxs-lookup"><span data-stu-id="139e5-585">The **Depreciation Starting Date** is 11/01/10.</span></span> <span data-ttu-id="139e5-586">Áætlaður líftími er fimm ár, þannig að **Lokadags. afskriftar** verður að vera 30/06/15.</span><span class="sxs-lookup"><span data-stu-id="139e5-586">The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15.</span></span> <span data-ttu-id="139e5-587">Í glugganum **Eignaafskriftabækur** inniheldur reiturinn **Hlutfallsleg afskrifta%** 40.</span><span class="sxs-lookup"><span data-stu-id="139e5-587">In the **FA Depreciation Books** window, the **Declining-Balance %** field contains 40.</span></span> <span data-ttu-id="139e5-588">Keyrslan **Reikna afskriftir** er keyrð einu sinni á ári.</span><span class="sxs-lookup"><span data-stu-id="139e5-588">The **Calculate Depreciation** batch job is run annually.</span></span> <span data-ttu-id="139e5-589">Í þessu dæmi miðast fjárhagsárið við almanaksárið.</span><span class="sxs-lookup"><span data-stu-id="139e5-589">This example is based on a calendar fiscal year.</span></span>  
 
-Færslurnar í eignabókinni líta þannig:  
+<span data-ttu-id="139e5-590">Færslurnar í eignabókinni líta þannig:</span><span class="sxs-lookup"><span data-stu-id="139e5-590">The fixed asset ledger entries look like this:</span></span>  
 
-| Dagsetning | Eignabókunartegund | Dagar | Upphæð | Bókfært virði |
+| <span data-ttu-id="139e5-591">Dagsetning</span><span class="sxs-lookup"><span data-stu-id="139e5-591">Date</span></span> | <span data-ttu-id="139e5-592">Eignabókunartegund</span><span class="sxs-lookup"><span data-stu-id="139e5-592">FA Posting Type</span></span> | <span data-ttu-id="139e5-593">Dagar</span><span class="sxs-lookup"><span data-stu-id="139e5-593">Days</span></span> | <span data-ttu-id="139e5-594">Upphæð</span><span class="sxs-lookup"><span data-stu-id="139e5-594">Amount</span></span> | <span data-ttu-id="139e5-595">Bókfært virði</span><span class="sxs-lookup"><span data-stu-id="139e5-595">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 11/01/10 |Stofnkostnaður |* |100,000.00 |100,000.00 |
-| 12/31/10 |Afskrift |60 |-20.000,00 |80,000.00 |
-| 12/31/11 |Afskrift |360 |-32.000,00 |48,000.00 |
-| 12/31/12 |Afskrift |360 |-19.200,00 |28,800.00 |
-| 12/31/13 |Afskrift |360 |-11.520,00 |17,280.00 |
-| 12/31/14 |Afskrift |360 |-11.520,00 |5.760,00 LL |
-| 12/31/15 |Afskrift |180 |  -5,760.00 |0,00 LL |
+| <span data-ttu-id="139e5-596">11/01/10</span><span class="sxs-lookup"><span data-stu-id="139e5-596">11/01/10</span></span> |<span data-ttu-id="139e5-597">Stofnkostnaður</span><span class="sxs-lookup"><span data-stu-id="139e5-597">Acquisition Cost</span></span> |* |<span data-ttu-id="139e5-598">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-598">100,000.00</span></span> |<span data-ttu-id="139e5-599">100,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-599">100,000.00</span></span> |
+| <span data-ttu-id="139e5-600">12/31/10</span><span class="sxs-lookup"><span data-stu-id="139e5-600">12/31/10</span></span> |<span data-ttu-id="139e5-601">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-601">Depreciation</span></span> |<span data-ttu-id="139e5-602">60</span><span class="sxs-lookup"><span data-stu-id="139e5-602">60</span></span> |<span data-ttu-id="139e5-603">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-603">-20,000.00</span></span> |<span data-ttu-id="139e5-604">80,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-604">80,000.00</span></span> |
+| <span data-ttu-id="139e5-605">12/31/11</span><span class="sxs-lookup"><span data-stu-id="139e5-605">12/31/11</span></span> |<span data-ttu-id="139e5-606">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-606">Depreciation</span></span> |<span data-ttu-id="139e5-607">360</span><span class="sxs-lookup"><span data-stu-id="139e5-607">360</span></span> |<span data-ttu-id="139e5-608">-32.000,00</span><span class="sxs-lookup"><span data-stu-id="139e5-608">-32,000.00</span></span> |<span data-ttu-id="139e5-609">48,000.00</span><span class="sxs-lookup"><span data-stu-id="139e5-609">48,000.00</span></span> |
+| <span data-ttu-id="139e5-610">12/31/12</span><span class="sxs-lookup"><span data-stu-id="139e5-610">12/31/12</span></span> |<span data-ttu-id="139e5-611">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-611">Depreciation</span></span> |<span data-ttu-id="139e5-612">360</span><span class="sxs-lookup"><span data-stu-id="139e5-612">360</span></span> |<span data-ttu-id="139e5-613">-19.200,00</span><span class="sxs-lookup"><span data-stu-id="139e5-613">-19,200.00</span></span> |<span data-ttu-id="139e5-614">28,800.00</span><span class="sxs-lookup"><span data-stu-id="139e5-614">28,800.00</span></span> |
+| <span data-ttu-id="139e5-615">12/31/13</span><span class="sxs-lookup"><span data-stu-id="139e5-615">12/31/13</span></span> |<span data-ttu-id="139e5-616">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-616">Depreciation</span></span> |<span data-ttu-id="139e5-617">360</span><span class="sxs-lookup"><span data-stu-id="139e5-617">360</span></span> |<span data-ttu-id="139e5-618">-11.520,00</span><span class="sxs-lookup"><span data-stu-id="139e5-618">-11,520.00</span></span> |<span data-ttu-id="139e5-619">17,280.00</span><span class="sxs-lookup"><span data-stu-id="139e5-619">17,280.00</span></span> |
+| <span data-ttu-id="139e5-620">12/31/14</span><span class="sxs-lookup"><span data-stu-id="139e5-620">12/31/14</span></span> |<span data-ttu-id="139e5-621">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-621">Depreciation</span></span> |<span data-ttu-id="139e5-622">360</span><span class="sxs-lookup"><span data-stu-id="139e5-622">360</span></span> |<span data-ttu-id="139e5-623">-11.520,00</span><span class="sxs-lookup"><span data-stu-id="139e5-623">-11,520.00</span></span> |<span data-ttu-id="139e5-624">5.760,00 LL</span><span class="sxs-lookup"><span data-stu-id="139e5-624">5,760.00 SL</span></span> |
+| <span data-ttu-id="139e5-625">12/31/15</span><span class="sxs-lookup"><span data-stu-id="139e5-625">12/31/15</span></span> |<span data-ttu-id="139e5-626">Afskrift</span><span class="sxs-lookup"><span data-stu-id="139e5-626">Depreciation</span></span> |<span data-ttu-id="139e5-627">180</span><span class="sxs-lookup"><span data-stu-id="139e5-627">180</span></span> |<span data-ttu-id="139e5-628">  -5,760.00</span><span class="sxs-lookup"><span data-stu-id="139e5-628">-5,760.00</span></span> |<span data-ttu-id="139e5-629">0,00 LL</span><span class="sxs-lookup"><span data-stu-id="139e5-629">0.00 SL</span></span> |
 
-* Upphafsdags. afskrifta  
+* <span data-ttu-id="139e5-630">Upphafsdags. afskrifta</span><span class="sxs-lookup"><span data-stu-id="139e5-630">Depreciation starting date</span></span>  
 
-"BL" á eftir bókfærðu virði merkir að beinlínuaðferð hafi verið notuð.  
+<span data-ttu-id="139e5-631">"BL" á eftir bókfærðu virði merkir að beinlínuaðferð hafi verið notuð.</span><span class="sxs-lookup"><span data-stu-id="139e5-631">"SL" after the book value means that the straight-line method has been used.</span></span>  
 
-Reikningsaðferð:  
+<span data-ttu-id="139e5-632">Reikningsaðferð:</span><span class="sxs-lookup"><span data-stu-id="139e5-632">Calculation method:</span></span>  
 
-árið:  
+<span data-ttu-id="139e5-633">árið:</span><span class="sxs-lookup"><span data-stu-id="139e5-633">1st year:</span></span>  
 
-*Hlutfallsleg upphæð = Upphæðin fyrir allt árið = 40% af 100.000 = 40.000. Fyrir hálft ár þá 40.000 / 2 = 20.000*  
+<span data-ttu-id="139e5-634">*Hlutfallsleg upphæð = Upphæðin fyrir allt árið = 40% af 100.000 = 40.000. Fyrir hálft ár þá 40.000 / 2 = 20.000*</span><span class="sxs-lookup"><span data-stu-id="139e5-634">*Declining-balance amount = Full year amount = 40% of 100,000 = 40,000. Thus, for half a year 40,000 / 2 = 20,000*</span></span>  
 
-*Beinlínuupphæð = upphæðin fyrir Allt árið = 100.000 / 5 = 20.000. Fyrir hálft ár þá = 20.000 / 2 = 10.000*  
+<span data-ttu-id="139e5-635">*Beinlínuupphæð = upphæðin fyrir Allt árið = 100.000 / 5 = 20.000. Fyrir hálft ár þá = 20.000 / 2 = 10.000*</span><span class="sxs-lookup"><span data-stu-id="139e5-635">*Straight-line amount = Full year amount = 100,000 / 5 = 20,000. Thus, for half a year = 20,000 / 2 = 10,000*</span></span>  
 
-Hlutfallsleg upphæð er notuð vegna þess að hún er hærri.  
+<span data-ttu-id="139e5-636">Hlutfallsleg upphæð er notuð vegna þess að hún er hærri.</span><span class="sxs-lookup"><span data-stu-id="139e5-636">The declining-balance amount is used because it is the greater amount.</span></span>  
 
-árið (2004):  
+<span data-ttu-id="139e5-637">árið (2004):</span><span class="sxs-lookup"><span data-stu-id="139e5-637">5th year (2004):</span></span>  
 
-*Hlutfallsleg upphæð: 40% af 17.280,00 = 6.912,00*  
+<span data-ttu-id="139e5-638">*Hlutfallsleg upphæð: 40% af 17.280,00 = 6.912,00*</span><span class="sxs-lookup"><span data-stu-id="139e5-638">*Declining-balance amount = 40% of 17,280.00 = 6,912.00*</span></span>  
 
-*Línuleg upphæð = 28.800 / 1,5 = 11.520,00*  
+<span data-ttu-id="139e5-639">*Línuleg upphæð = 28.800 / 1,5 = 11.520,00*</span><span class="sxs-lookup"><span data-stu-id="139e5-639">*Straight-line amount = 28,800 / 1.5 = 11,520.00*</span></span>  
 
-Línulega upphæðin er notuð vegna þess að hún er hærri.  
+<span data-ttu-id="139e5-640">Línulega upphæðin er notuð vegna þess að hún er hærri.</span><span class="sxs-lookup"><span data-stu-id="139e5-640">The straight-line amount is used because it is the greater amount.</span></span>  
 
-## <a name="duplicating-entries-to-more-depreciation-books"></a>Afritun færslna í fleiri afskriftabækur
-Ef um er að ræða þrjár afskriftabækur B1, B2 og B3 og afrita á færslur úr B1 í B2 og B3 er hægt að setja gátmerki í reitinn **Hluti afritalista** á afskriftabókaspjöldunum fyrir B2 og B3. Þetta getur komið að gagni ef afskriftabókin B1 er samþætt fjárhag og notar eignafjárhagsbókina og afskriftabækurnar B2 og B3 eru ekki samþættar fjárhag og nota eignabókina.  
+## <a name="duplicating-entries-to-more-depreciation-books"></a><span data-ttu-id="139e5-641">Afritun færslna í fleiri afskriftabækur</span><span class="sxs-lookup"><span data-stu-id="139e5-641">Duplicating Entries to More Depreciation Books</span></span>
+<span data-ttu-id="139e5-642">Ef um er að ræða þrjár afskriftabækur B1, B2 og B3 og afrita á færslur úr B1 í B2 og B3 er hægt að setja gátmerki í reitinn **Hluti afritalista** á afskriftabókaspjöldunum fyrir B2 og B3.</span><span class="sxs-lookup"><span data-stu-id="139e5-642">If you have three depreciation books, B1, B2 and B3, and you want to duplicate entries from B1 to B2 and B3, you can place a check mark in the **Part of Duplication List** field on the depreciation book cards for B2 and B3.</span></span> <span data-ttu-id="139e5-643">Þetta getur komið að gagni ef afskriftabókin B1 er samþætt fjárhag og notar eignafjárhagsbókina og afskriftabækurnar B2 og B3 eru ekki samþættar fjárhag og nota eignabókina.</span><span class="sxs-lookup"><span data-stu-id="139e5-643">This can be useful if depreciation book B1 is integrated with the general ledger and uses the fixed asset G/L journal, and depreciation books B2 and B3 are not integrated with the general ledger and use the fixed asset journal.</span></span>  
 
-Þegar fært er í B1 í eignafjárhagsbókinni og gátmerki sett í reitinn **Nota afritalista** afritar forritið færsluna í bókina B2 og B3 í eignabókina þegar færslan er bókuð.  
+<span data-ttu-id="139e5-644">Þegar fært er í B1 í eignafjárhagsbókinni og gátmerki sett í reitinn **Nota afritalista** afritar forritið færsluna í bókina B2 og B3 í eignabókina þegar færslan er bókuð.</span><span class="sxs-lookup"><span data-stu-id="139e5-644">When you enter an entry in B1 in the fixed asset G/L journal and place a check mark in the **Use Duplication List** field, the program will duplicate the entry in book B2 and B3 in the fixed asset journal when the entry is posted.</span></span>  
 
 > [!NOTE]  
->   Ekki er hægt að afrita í sömu færslubók og færslubókarkeyrslu og verið er að afrita úr. Ef bókaðar eru færslur í fjárhagseignabók er hægt að afrita þær í eignabókina eða í fjárhagseignabókina með því að nota aðra keyrslu.  
+>   <span data-ttu-id="139e5-645">Ekki er hægt að afrita í sömu færslubók og færslubókarkeyrslu og verið er að afrita úr.</span><span class="sxs-lookup"><span data-stu-id="139e5-645">You cannot duplicate in the same journal and journal batch as you are duplicating from.</span></span> <span data-ttu-id="139e5-646">Ef bókaðar eru færslur í fjárhagseignabók er hægt að afrita þær í eignabókina eða í fjárhagseignabókina með því að nota aðra keyrslu.</span><span class="sxs-lookup"><span data-stu-id="139e5-646">If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.</span></span>  
 
 > [!NOTE]  
->   Ekki er hægt að nota sömu númeraröð í eignafjárhagsbók og í eignabók. Þegar færslur eru bókaðar í eignafjárhagsbók verður reiturinn **Númer fylgiskjals** að vera auður. Ef númer er fært í reitinn afritar kerfið númerið í eignabókina. Þú verður að breyta skjalnúmerinu handvirkt áður en þú getur sent inn dagbókina.  
+>   <span data-ttu-id="139e5-647">Ekki er hægt að nota sömu númeraröð í eignafjárhagsbók og í eignabók.</span><span class="sxs-lookup"><span data-stu-id="139e5-647">You cannot use the same number series in the fixed asset G/L journal and the fixed asset journal.</span></span> <span data-ttu-id="139e5-648">Þegar færslur eru bókaðar í eignafjárhagsbók verður reiturinn **Númer fylgiskjals**</span><span class="sxs-lookup"><span data-stu-id="139e5-648">When you post entries in the fixed asset G/L journal, you must leave the **Document No.**</span></span> <span data-ttu-id="139e5-649">að vera auður.</span><span class="sxs-lookup"><span data-stu-id="139e5-649">field empty.</span></span> <span data-ttu-id="139e5-650">Ef númer er fært í reitinn afritar kerfið númerið í eignabókina.</span><span class="sxs-lookup"><span data-stu-id="139e5-650">If you enter a number in the field, the the number is duplicated in the fixed asset journal.</span></span> <span data-ttu-id="139e5-651">Þú verður að breyta skjalnúmerinu handvirkt áður en þú getur sent inn dagbókina.</span><span class="sxs-lookup"><span data-stu-id="139e5-651">You'll have to manually change the document number before you can post the journal.</span></span>  
 
-## <a name="see-also"></a>Sjá einnig
-[Eignir](fa-manage.md)  
-[Uppsetning eigna](fa-setup.md)  
-[Fjármál](finance.md)  
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="139e5-652">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="139e5-652">See Also</span></span>
+[<span data-ttu-id="139e5-653">Eignir</span><span class="sxs-lookup"><span data-stu-id="139e5-653">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="139e5-654">Uppsetning eigna</span><span class="sxs-lookup"><span data-stu-id="139e5-654">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="139e5-655">Fjármál</span><span class="sxs-lookup"><span data-stu-id="139e5-655">Finance</span></span>](finance.md)  
+<span data-ttu-id="139e5-656">[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="139e5-656">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="139e5-657">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="139e5-657">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

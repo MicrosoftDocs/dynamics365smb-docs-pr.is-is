@@ -16,14 +16,13 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 106ad2acf2703e8182033a43a39c693a8b060d8f
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="specify-printer-selection-for-reports"></a>Tilgreina prentaraval fyrir skýrslur
-Þessi síða er auð vegna þess að ekki er hægt að setja upp ákveðnar prentara fyrir tilteknar skýrslur. Við erum að vinna að því að leysa þetta.
+# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="5e12d-103">Tilgreina prentaraval fyrir skýrslur</span><span class="sxs-lookup"><span data-stu-id="5e12d-103">Specify Printer Selection for Reports</span></span>
+<span data-ttu-id="5e12d-104">Þessi síða er auð vegna þess að ekki er hægt að setja upp ákveðnar prentara fyrir tilteknar skýrslur.</span><span class="sxs-lookup"><span data-stu-id="5e12d-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="5e12d-105">Við erum að vinna að því að leysa þetta.</span><span class="sxs-lookup"><span data-stu-id="5e12d-105">We are working on solving this.</span></span>
 
-Í millitíðinni þarf að hlaða niður skýrslu sem á að prenta sem PDF-skjali fyrst með því að velja **Senda til** hnappinn. Þá er tegund skráar valin til að hlaða niður skýrslunni eins og **PDF-skjal** valið. Nú er hægt að opna PDF-skjalið strax og prenta það, eða vista það og prentað það síðar.
+<span data-ttu-id="5e12d-106">Í millitíðinni þarf að hlaða niður skýrslu sem á að prenta sem PDF-skjali fyrst með því að velja **Senda til** hnappinn.</span><span class="sxs-lookup"><span data-stu-id="5e12d-106">In the meantime, when you want to print a report you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="5e12d-107">Þá er tegund skráar valin til að hlaða niður skýrslunni eins og **PDF-skjal** valið.</span><span class="sxs-lookup"><span data-stu-id="5e12d-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="5e12d-108">Nú er hægt að opna PDF-skjalið strax og prenta það, eða vista það og prentað það síðar.</span><span class="sxs-lookup"><span data-stu-id="5e12d-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
 
 <!--
 
@@ -46,8 +45,8 @@ The following table describes the combination of values to specify when you set 
 |Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
 -->
 
-## <a name="see-also"></a>Sjá einnig
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Hvernig á að: Keyra runuvinnslur](ui-how-run-batch-jobs.md)  
-[Hvernig á að: Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
+## <a name="see-also"></a><span data-ttu-id="5e12d-109">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="5e12d-109">See Also</span></span>
+<span data-ttu-id="5e12d-110">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="5e12d-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="5e12d-111">Hvernig á að: Keyra runuvinnslur</span><span class="sxs-lookup"><span data-stu-id="5e12d-111">How to: Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
+[<span data-ttu-id="5e12d-112">Hvernig á að: Senda skjöl í tölvupósti</span><span class="sxs-lookup"><span data-stu-id="5e12d-112">How to: Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
 

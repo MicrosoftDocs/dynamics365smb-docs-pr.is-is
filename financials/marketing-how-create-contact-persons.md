@@ -16,33 +16,32 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a4558787532b1e4713a2a0681bb8acf910519504
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-create-contact-persons"></a>Hvernig á að stofna Einstaklingstengilið
-Hægt er að stofna tengiliðaspjald fyrir hvern tengilið sem vinnur hjá fyrirtækjum sem notandinn á í samskiptum við. Fyrir hvern fyrirtækjatengilið er hægt að færa inn eins marga einstaklingstengiliði og hver vill. Einnig er hægt að stofna tengiliðaspjöld fyrir einstaklinga sem á að skrá sem óháða.
+# <a name="how-to-create-contact-persons"></a><span data-ttu-id="f7c26-103">Hvernig á að stofna Einstaklingstengilið</span><span class="sxs-lookup"><span data-stu-id="f7c26-103">How to: Create Contact Persons</span></span>
+<span data-ttu-id="f7c26-104">Hægt er að stofna tengiliðaspjald fyrir hvern tengilið sem vinnur hjá fyrirtækjum sem notandinn á í samskiptum við.</span><span class="sxs-lookup"><span data-stu-id="f7c26-104">You can create a contact card for each contact who works for the companies you interact with.</span></span> <span data-ttu-id="f7c26-105">Fyrir hvern fyrirtækjatengilið er hægt að færa inn eins marga einstaklingstengiliði og hver vill.</span><span class="sxs-lookup"><span data-stu-id="f7c26-105">For each contact company you can enter as many contact persons as you want.</span></span> <span data-ttu-id="f7c26-106">Einnig er hægt að stofna tengiliðaspjöld fyrir einstaklinga sem á að skrá sem óháða.</span><span class="sxs-lookup"><span data-stu-id="f7c26-106">You can also create contact cards for the persons that you want to record as independent.</span></span>
 
 > [!TIP]  
->   Áður en tengiliður er stofnaður er ráðlegt að athuga stillingarnar fyrir **Erfðir** í glugganum **Tengslastjórnunargrunnur**. Uppsetning erfða virkjar að upplýsingar um tengiliðafyrirtæki sem eru sameiginlegar tengiliðum, eins og upplýsingar um aðsetur, til að vera afritaðar sjálfkrafa af tengiliðafyrirtæki  á tengilið í hvert sinn sem  stofnaður er tengiliður fyrir skráð tengiliðarfyrirtæki.
+>   <span data-ttu-id="f7c26-107">Áður en tengiliður er stofnaður er ráðlegt að athuga stillingarnar fyrir **Erfðir** í glugganum **Tengslastjórnunargrunnur**.</span><span class="sxs-lookup"><span data-stu-id="f7c26-107">Before creating a contact, you may want to check the **Inheritance** settings in the **Marketing Setup** window.</span></span> <span data-ttu-id="f7c26-108">Uppsetning erfða virkjar að upplýsingar um tengiliðafyrirtæki sem eru sameiginlegar tengiliðum, eins og upplýsingar um aðsetur, til að vera afritaðar sjálfkrafa af tengiliðafyrirtæki  á tengilið í hvert sinn sem  stofnaður er tengiliður fyrir skráð tengiliðarfyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="f7c26-108">Setting up inheritance enables information about contact companies that is common to contact persons, such as address details, to be automatically copied from the contact company to the contact person each time you create a contact person for a recorded contact company.</span></span>
 
-## <a name="to-create-a-contact-card-for-a-person"></a>Til að setja upp tengiliðaspjald fyrir einstakling
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Tengiliðir** og velja svo viðeigandi tengil.
-2. Valið er **Nýtt** aðgerð.
-3. Í reitnum **númer** er fært inn númer fyrir tengiliðinn.
+## <a name="to-create-a-contact-card-for-a-person"></a><span data-ttu-id="f7c26-109">Til að setja upp tengiliðaspjald fyrir einstakling</span><span class="sxs-lookup"><span data-stu-id="f7c26-109">To create a contact card for a person</span></span>
+1. <span data-ttu-id="f7c26-110">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Tengiliðir** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="f7c26-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contacts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="f7c26-111">Valið er **Nýtt** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="f7c26-111">Choose the **New** action.</span></span>
+3. <span data-ttu-id="f7c26-112">Í reitnum **númer**</span><span class="sxs-lookup"><span data-stu-id="f7c26-112">In the **No.**</span></span> <span data-ttu-id="f7c26-113">er fært inn númer fyrir tengiliðinn.</span><span class="sxs-lookup"><span data-stu-id="f7c26-113">field, enter a number for the contact.</span></span>
 
-    Hafi númeraröð fyrir tengiliði verið sett upp í glugganum **Tengslastjórnunargrunnur** er hægt að styðja á Færslulykilinn til að velja næsta lausa tengiliðanúmer. Nánari upplýsingar er að finna í [Búa til númeraröð](ui-create-number-series.md).
-4. Í reitnum **Tegund** er **Einstaklingur** valinn.
-5. Fyllt er í aðra reiti á tengiliðaspjaldinu.
+    <span data-ttu-id="f7c26-114">Hafi númeraröð fyrir tengiliði verið sett upp í glugganum **Tengslastjórnunargrunnur** er hægt að styðja á Færslulykilinn til að velja næsta lausa tengiliðanúmer.</span><span class="sxs-lookup"><span data-stu-id="f7c26-114">Alternatively, if you have set up a number series for contacts in the **Marketing Setup** window, you can press the Enter key to select the next available contact number.</span></span> <span data-ttu-id="f7c26-115">Nánari upplýsingar er að finna í [Búa til númeraröð](ui-create-number-series.md).</span><span class="sxs-lookup"><span data-stu-id="f7c26-115">For more information, see [Creating Number Series](ui-create-number-series.md).</span></span>
+4. <span data-ttu-id="f7c26-116">Í reitnum **Tegund** er **Einstaklingur** valinn.</span><span class="sxs-lookup"><span data-stu-id="f7c26-116">In the **Type** field, select **Person**.</span></span>
+5. <span data-ttu-id="f7c26-117">Fyllt er í aðra reiti á tengiliðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="f7c26-117">Fill in the other fields on the contact card.</span></span>
 
 > [!NOTE]  
->   Efni reitanna sem voru valdir á hlutanum **erfðir** í glugganum **uppsetning markaðssetningar** er afritað úr fyrirtæki til einstaklinga innan þess fyrirtækis.
+>   <span data-ttu-id="f7c26-118">Efni reitanna sem voru valdir á hlutanum **erfðir** í glugganum **uppsetning markaðssetningar** er afritað úr fyrirtæki til einstaklinga innan þess fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="f7c26-118">The contents of the fields that you have selected in the **Inheritance** section of the **Marketing Setup** window are copied from the company to the persons within that company.</span></span>
 
-## <a name="see-also"></a>Sjá einnig
-[Uppsetning tengslastjórnunar](marketing-setup-marketing.md)  
-[Pósthópum úthlutað á tengilið](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Hvernig skal: Setja upp starfsábyrgðir á tengiliði](marketing-job-responsibilities.md)  
-[Hvernig skal: Setja upp stjórnunarstig fyrir einstaklingstengiliði](marketing-organizational-levels.md)  
-[Samstilla tengiliði við viðskiptavini, seljendur og bankareikninga](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Unnið með Financials](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="f7c26-119">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="f7c26-119">See Also</span></span>
+[<span data-ttu-id="f7c26-120">Uppsetning tengslastjórnunar</span><span class="sxs-lookup"><span data-stu-id="f7c26-120">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)  
+[<span data-ttu-id="f7c26-121">Pósthópum úthlutað á tengilið</span><span class="sxs-lookup"><span data-stu-id="f7c26-121">Assigning Mailing Groups to a Contact</span></span>](marketing-mailing-groups.md#AssignMailGroupContact)  
+[<span data-ttu-id="f7c26-122">Hvernig skal: Setja upp starfsábyrgðir á tengiliði</span><span class="sxs-lookup"><span data-stu-id="f7c26-122">How to: Set Up Job Responsibilities on Contacts</span></span>](marketing-job-responsibilities.md)  
+[<span data-ttu-id="f7c26-123">Hvernig skal: Setja upp stjórnunarstig fyrir einstaklingstengiliði</span><span class="sxs-lookup"><span data-stu-id="f7c26-123">How to: Set Up Organizational Levels for Contact Persons</span></span>](marketing-organizational-levels.md)  
+[<span data-ttu-id="f7c26-124">Samstilla tengiliði við viðskiptavini, seljendur og bankareikninga</span><span class="sxs-lookup"><span data-stu-id="f7c26-124">Synchronizing Contacts With Customers, Vendors, and Bank Accounts</span></span>](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
+[<span data-ttu-id="f7c26-125">Unnið með Financials</span><span class="sxs-lookup"><span data-stu-id="f7c26-125">Working with Financials</span></span>](ui-work-product.md)  
 

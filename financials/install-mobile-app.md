@@ -15,23 +15,24 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 ---
 
-# <a name="getting-dynamics-365-for-financials-on-your-mobile-device"></a>Sækja Dynamics 365 for Financials í fartæki
-Fá aðgang að gögnum [!INCLUDE[d365fin](includes/d365fin_md.md)] úr fartæki. Hægt er að skoða viðskiptagögn, nota eiginleika eins og senda í Excel eða Office 365, skoða nýjustu myndrit og afkastavísa (KPI), sölutilboð og reikninga í tölvupósti, og taka myndir með eigin myndavél og tengja þær. Fylgið skrefunum hér að neðan til að sækja smáforritið og hefjist handa.
+# <a name="getting-dynamics-365-for-financials-on-your-mobile-device"></a><span data-ttu-id="b58b9-103">Sækja Dynamics 365 for Financials í fartæki</span><span class="sxs-lookup"><span data-stu-id="b58b9-103">Getting Dynamics 365 for Financials on Your Mobile Device</span></span>
+<span data-ttu-id="b58b9-104">Fá aðgang að gögnum [!INCLUDE[d365fin](includes/d365fin_md.md)] úr fartæki.</span><span class="sxs-lookup"><span data-stu-id="b58b9-104">Access your [!INCLUDE[d365fin](includes/d365fin_md.md)] data from your mobile device.</span></span> <span data-ttu-id="b58b9-105">Hægt er að skoða viðskiptagögn, nota eiginleika eins og senda í Excel eða Office 365, skoða nýjustu myndrit og afkastavísa (KPI), sölutilboð og reikninga í tölvupósti, og taka myndir með eigin myndavél og tengja þær.</span><span class="sxs-lookup"><span data-stu-id="b58b9-105">You can navigate through your business data, use features such as send to Excel or Office 365, view up-to-date charts and KPIs, email sales quotes and invoices, and shoot and attach pictures with your camera.</span></span> <span data-ttu-id="b58b9-106">Fylgið skrefunum hér að neðan til að sækja smáforritið og hefjist handa.</span><span class="sxs-lookup"><span data-stu-id="b58b9-106">Follow the steps below to download the app and get started.</span></span>
 
-## <a name="to-get-the-app-on-my-mobile-device"></a>Að sækja smáforritið í fartæki
-1. Setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] forritið í fartækið með því að hlaða því niður úr Windows Store, App Store eða Google Play.  
-[![Windows Store](./media/install-mobile-app/windowsstore.png)](http://go.microsoft.com/fwlink/?LinkId=734848)
-[![App Store](./media/install-mobile-app/appstore.png)](http://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](http://go.microsoft.com/fwlink/?LinkId=734849)  
-2. Ræsið smáforritið úr fartækinu.
-3. Færið inn notendanafn og lykilorð sem var búið til þegar notandi skráði sig í [!INCLUDE[d365fin](includes/d365fin_md.md)] og farið eftir leiðbeiningum á skjánum.
+## <a name="to-get-the-app-on-my-mobile-device"></a><span data-ttu-id="b58b9-107">Að sækja smáforritið í fartæki</span><span class="sxs-lookup"><span data-stu-id="b58b9-107">To get the app on my mobile device</span></span>
+1. <span data-ttu-id="b58b9-108">Setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] forritið í fartækið með því að hlaða því niður úr Windows Store, App Store eða Google Play.</span><span class="sxs-lookup"><span data-stu-id="b58b9-108">Install the [!INCLUDE[d365fin](includes/d365fin_md.md)] app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.</span></span>  
+<span data-ttu-id="b58b9-109">[![Windows Store](./media/install-mobile-app/windowsstore.png)](http://go.microsoft.com/fwlink/?LinkId=734848)
+[![App Store](./media/install-mobile-app/appstore.png)](http://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](http://go.microsoft.com/fwlink/?LinkId=734849)</span><span class="sxs-lookup"><span data-stu-id="b58b9-109">[![Windows Store](./media/install-mobile-app/windowsstore.png)](http://go.microsoft.com/fwlink/?LinkId=734848)
+[![App Store](./media/install-mobile-app/appstore.png)](http://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](http://go.microsoft.com/fwlink/?LinkId=734849)</span></span>  
+2. <span data-ttu-id="b58b9-110">Ræsið smáforritið úr fartækinu.</span><span class="sxs-lookup"><span data-stu-id="b58b9-110">Launch the app from your mobile device.</span></span>
+3. <span data-ttu-id="b58b9-111">Færið inn notendanafn og lykilorð sem var búið til þegar notandi skráði sig í [!INCLUDE[d365fin](includes/d365fin_md.md)] og farið eftir leiðbeiningum á skjánum.</span><span class="sxs-lookup"><span data-stu-id="b58b9-111">Enter your user name and password that you created during sign-up for [!INCLUDE[d365fin](includes/d365fin_md.md)] and follow the instructions on the screen.</span></span>
 
-Nú ætti notandi að hafa aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)] og geta skoðað og breytt gögnum.
+<span data-ttu-id="b58b9-112">Nú ætti notandi að hafa aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)] og geta skoðað og breytt gögnum.</span><span class="sxs-lookup"><span data-stu-id="b58b9-112">You should now have access to [!INCLUDE[d365fin](includes/d365fin_md.md)] and be able to view and edit data.</span></span>
 
-## <a name="see-also"></a>Sjá einnig
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="b58b9-113">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="b58b9-113">See Also</span></span>
+<span data-ttu-id="b58b9-114">[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="b58b9-114">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="b58b9-115">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b58b9-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

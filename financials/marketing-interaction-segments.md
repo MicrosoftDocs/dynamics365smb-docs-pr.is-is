@@ -16,41 +16,40 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 899bdda7448810b029216c66402b739004193a61
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="managing-interactions-for-segments"></a>Vinna með samskipti fyrir hluta
-Glugginn **Hluti** er eins konar vinnublað þar sem hægt er að:
+# <a name="managing-interactions-for-segments"></a><span data-ttu-id="ecffd-103">Vinna með samskipti fyrir hluta</span><span class="sxs-lookup"><span data-stu-id="ecffd-103">Managing Interactions for Segments</span></span>
+<span data-ttu-id="ecffd-104">Glugginn **Hluti** er eins konar vinnublað þar sem hægt er að:</span><span class="sxs-lookup"><span data-stu-id="ecffd-104">The **Segment** window is a type of worksheet where you can:</span></span>
 
-* stofna hluta.
-* Vista hlutunarviðmið sem notuð eru til að velja tengiliði.
-* Skrá hlutann og skrá tengsl sem varða tengiliðina í hlutanum.
+* <span data-ttu-id="ecffd-105">stofna hluta.</span><span class="sxs-lookup"><span data-stu-id="ecffd-105">Create segments.</span></span>
+* <span data-ttu-id="ecffd-106">Vista hlutunarviðmið sem notuð eru til að velja tengiliði.</span><span class="sxs-lookup"><span data-stu-id="ecffd-106">Save the segmentation criteria you have used to select contacts.</span></span>
+* <span data-ttu-id="ecffd-107">Skrá hlutann og skrá tengsl sem varða tengiliðina í hlutanum.</span><span class="sxs-lookup"><span data-stu-id="ecffd-107">Log the segment and record interactions involving the contacts within the segment.</span></span>
 
-## <a name="segmenting"></a>Hlutun
-Hægt er að stofna hluta með nokkrum leiðum:
+## <a name="segmenting"></a><span data-ttu-id="ecffd-108">Hlutun</span><span class="sxs-lookup"><span data-stu-id="ecffd-108">Segmenting</span></span>
+<span data-ttu-id="ecffd-109">Hægt er að stofna hluta með nokkrum leiðum:</span><span class="sxs-lookup"><span data-stu-id="ecffd-109">There are several ways to create segments:</span></span>
 
-* Hægt er að færa inn tengiliðina sem á að hafa með í hlutanum handvirkt í hlutalínurnar
-* Hægt er að velja tengiliði.
-* Hægt er að endurnota skráðan hluta sem grundvöll til skráningar á nýjum
-* Hægt er að endurnota vistuð hlutunarviðmið
+* <span data-ttu-id="ecffd-110">Hægt er að færa inn tengiliðina sem á að hafa með í hlutanum handvirkt í hlutalínurnar</span><span class="sxs-lookup"><span data-stu-id="ecffd-110">You can manually enter the contacts you want to include in the segment in the segment lines.</span></span>
+* <span data-ttu-id="ecffd-111">Hægt er að velja tengiliði.</span><span class="sxs-lookup"><span data-stu-id="ecffd-111">You can select contacts.</span></span>
+* <span data-ttu-id="ecffd-112">Hægt er að endurnota skráðan hluta sem grundvöll til skráningar á nýjum</span><span class="sxs-lookup"><span data-stu-id="ecffd-112">You can reuse a logged segment as the basis to create a new one.</span></span>
+* <span data-ttu-id="ecffd-113">Hægt er að endurnota vistuð hlutunarviðmið</span><span class="sxs-lookup"><span data-stu-id="ecffd-113">You can reuse saved segmentation criteria.</span></span>
 
-## <a name="interactions"></a>Samskipti
-Í glugganum **hluti** er hægt að stofna samskipti fyrir marga tengiliði samtímis. Til dæmis er hægt að blanda hluta við Microsoft Word skjal þannig að hægt sé að senda öllum tengiliðum í hlutanum bréf.
+## <a name="interactions"></a><span data-ttu-id="ecffd-114">Samskipti</span><span class="sxs-lookup"><span data-stu-id="ecffd-114">Interactions</span></span>
+<span data-ttu-id="ecffd-115">Í glugganum **hluti** er hægt að stofna samskipti fyrir marga tengiliði samtímis.</span><span class="sxs-lookup"><span data-stu-id="ecffd-115">In the **Segment** window, you can create interactions for several contacts simultaneously.</span></span> <span data-ttu-id="ecffd-116">Til dæmis er hægt að blanda hluta við Microsoft Word skjal þannig að hægt sé að senda öllum tengiliðum í hlutanum bréf.</span><span class="sxs-lookup"><span data-stu-id="ecffd-116">For example, you can merge a segment with a Microsoft Word document, so that you can send a letter to all the contacts in the segment.</span></span>
 
-Upplýsingar um samskiptin sem varða hlutann geta birst á **hlutahausnum**. Til dæmis má ákveða hvaða samskiptasniðmát eigi að nota fyrir alla tengiliði, tilgreina lýsingu, tegund samskipta, og svo framvegis. Þó er hægt að breyta þessum upplýsingum í hlutalínu einstakra tengiliða, til dæmis með því að tilgreina aðra lýsingu fyrir ákveðin tengilið. Ef verið er að blanda hluta við Microsoft Word skjal er hægt að sérsníða skjalið fyrir einn eða fleiri tengiliði í hlutanum með því, til dæmis, að bæta sérsniðnum athugasemdum við skjalið.
+<span data-ttu-id="ecffd-117">Upplýsingar um samskiptin sem varða hlutann geta birst á **hlutahausnum**.</span><span class="sxs-lookup"><span data-stu-id="ecffd-117">You can specify information about the interaction for the segment on the **Segment** header.</span></span> <span data-ttu-id="ecffd-118">Til dæmis má ákveða hvaða samskiptasniðmát eigi að nota fyrir alla tengiliði, tilgreina lýsingu, tegund samskipta, og svo framvegis.</span><span class="sxs-lookup"><span data-stu-id="ecffd-118">For example, you can decide which interaction template you want to use for all the contacts, specify a description, a correspondence type, and so on.</span></span> <span data-ttu-id="ecffd-119">Þó er hægt að breyta þessum upplýsingum í hlutalínu einstakra tengiliða, til dæmis með því að tilgreina aðra lýsingu fyrir ákveðin tengilið.</span><span class="sxs-lookup"><span data-stu-id="ecffd-119">However, you can modify this information in the segment line for each particular contact, for example, by specifying another description for one contact.</span></span> <span data-ttu-id="ecffd-120">Ef verið er að blanda hluta við Microsoft Word skjal er hægt að sérsníða skjalið fyrir einn eða fleiri tengiliði í hlutanum með því, til dæmis, að bæta sérsniðnum athugasemdum við skjalið.</span><span class="sxs-lookup"><span data-stu-id="ecffd-120">If you are merging a segment with a Microsoft Word document, you can personalize the document to be sent for one or several of the contacts within the segment, for example, by adding individualized comments to the document.</span></span>
 
-## <a name="logging"></a>Skráning
-Þegar smellt er á **Skrá** í glugganum **hluti** skráir forritið samskiptin í gluggann **Samskiptaskráningarfærsla** og skráir hlutann. Þegar hlutinn hefur verið skráður er aðeins hægt að nálgast hann í glugganum **Skráðir hlutar**.
+## <a name="logging"></a><span data-ttu-id="ecffd-121">Skráning</span><span class="sxs-lookup"><span data-stu-id="ecffd-121">Logging</span></span>
+<span data-ttu-id="ecffd-122">Þegar smellt er á **Skrá** í glugganum **hluti** skráir forritið samskiptin í gluggann **Samskiptaskráningarfærsla** og skráir hlutann.</span><span class="sxs-lookup"><span data-stu-id="ecffd-122">In the **Segment** window, when you choose **Log**, the application records the interactions in the **Interaction Log Entry** window, and logs the segment.</span></span> <span data-ttu-id="ecffd-123">Þegar hlutinn hefur verið skráður er aðeins hægt að nálgast hann í glugganum **Skráðir hlutar**.</span><span class="sxs-lookup"><span data-stu-id="ecffd-123">After you have logged the segment, you can only find it in the **Logged Segments** window.</span></span>
 
-Í glugganum **Skráðir hlutar** er hægt ákveða að stofna eftirfylgnihluta með sömu tengiliðum og í skráða hlutanum.
+<span data-ttu-id="ecffd-124">Í glugganum **Skráðir hlutar** er hægt ákveða að stofna eftirfylgnihluta með sömu tengiliðum og í skráða hlutanum.</span><span class="sxs-lookup"><span data-stu-id="ecffd-124">In the **Logged Segments** window, you can decide to create a follow-up segment containing the same contacts as the segment you have logged.</span></span>
 
-## <a name="see-also"></a>Sjá einnig
-[Hvernig á að stofna hluta](marketing-how-create-segment.md)  
-[Hvernig á að stofna Samskipti fyrir hluta](marketing-how-create-interactions.md)  
-[Umsjón hluta](marketing-segments.md)  
-[Skrá samskipti við tengiliði](marketing-interactions.md)  
-[Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
-[Stofnun og stjórnun tengiliða](marketing-contacts.md)  
-[Unnið með Financials](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="ecffd-125">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="ecffd-125">See Also</span></span>
+[<span data-ttu-id="ecffd-126">Hvernig á að stofna hluta</span><span class="sxs-lookup"><span data-stu-id="ecffd-126">How to: Create Segments</span></span>](marketing-how-create-segment.md)  
+[<span data-ttu-id="ecffd-127">Hvernig á að stofna Samskipti fyrir hluta</span><span class="sxs-lookup"><span data-stu-id="ecffd-127">How to: Create Interactions for Segments</span></span>](marketing-how-create-interactions.md)  
+[<span data-ttu-id="ecffd-128">Umsjón hluta</span><span class="sxs-lookup"><span data-stu-id="ecffd-128">Managing Segments</span></span>](marketing-segments.md)  
+[<span data-ttu-id="ecffd-129">Skrá samskipti við tengiliði</span><span class="sxs-lookup"><span data-stu-id="ecffd-129">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
+[<span data-ttu-id="ecffd-130">Umsjón sölutækifæra</span><span class="sxs-lookup"><span data-stu-id="ecffd-130">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+[<span data-ttu-id="ecffd-131">Stofnun og stjórnun tengiliða</span><span class="sxs-lookup"><span data-stu-id="ecffd-131">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="ecffd-132">Unnið með Financials</span><span class="sxs-lookup"><span data-stu-id="ecffd-132">Working with Financials</span></span>](ui-work-product.md)
 
