@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 06/02/2017
+ms.date: 08/11/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c58592f4e32b5bb35ba6e9036b786b4d5ffe9820
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ceea5fba1b2daeab3c517d87e3e31e29d53441c3
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-register-employees"></a>Hvernig á að: Skrá starfsmenn
@@ -26,6 +25,9 @@ Til að nota eiginleikann Mannauður þarf fyrst að skrá hvern starfsmann með
 Hægt er að virkja upplýsingar hvenær sem er. Með því að halda skráningum um starfsmenn uppfærðum verða starfsmannaverkefni einfaldari. Til dæmis, ef aðsetur starfsmanna breytast er hægt að skrá það á starfsmannaspjaldið.
 
 Eftirfarandi aðferðir lýsa því hvernig á að búa til fyrsta starfsmannaspjaldið og hvernig á að úthluta tveimur gerðum af upplýsingum um starfsmanninn á viðkomandi starfsmann. Einnig er hægt að úthluta ýmsum öðrum tengdum upplýsingum, svo sem hæfi og orsökum aðgerðaleysis. Upplýsingum um starfsmann er úthlutað annað hvort með því að velja reit eða aðgerð í glugganum **Starfsmannaspjald**.
+
+> [!NOTE]  
+> Hægt er að endurgreiða starfsmönnum fyrir útgjöld þeirra í viðskiptaerindum. Til þess þarf að fylla inn í reitina á flýtiflipanum **Greiðslur** í glugganum **starfsmannaspjald**. Nánari upplýsingar eru í [Hvernig á að: Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Uppsetning starfsmanns
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **starfsmenn** og velja svo viðeigandi tengil.
@@ -43,7 +45,9 @@ Ef þú ert með mynd af starfsmanni í .bmp sniði, getur þú sett það á st
 
 Myndin er sett inn í **Starfsmannamynd**.
 
-## <a name="to-register-an-alternate-address-for-an-employee"></a>Til að skrá annað aðsetur starfsmanns
+## <a name="to-register-various-information-about-an-employee"></a>Skrá ýmsar upplýsingar um starfsmann
+Á starfsmannaspjaldinu getur sett upp upplýsingar eins og aðild að stéttarfélagi, skyldmenni, og samningar starfsmanns. Eftirfarandi lýsir hvernig skal setja upp vara aðsetur. Skrefin eru svipuð fyrir allar aðrar upplýsingar sem þú setur upp frá starfsmannaspjaldi.
+
 Hægt er að nota önnur aðsetur til að halda utan um aðsetur starfsmanns, til dæmis ef hann er staðsettur í útlöndum, í langri viðskiptaferð eða er á sumardvalarstað.
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **starfsmenn** og velja svo viðeigandi tengil.
@@ -53,6 +57,7 @@ Hægt er að nota önnur aðsetur til að halda utan um aðsetur starfsmanns, ti
 5. Skref 4 er endurtekið fyrir hvert aðsetur.
 
 ## <a name="see-also"></a>Sjá einnig
+[Hvernig á að: Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).

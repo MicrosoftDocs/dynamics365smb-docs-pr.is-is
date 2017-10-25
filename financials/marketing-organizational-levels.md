@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d101076c8a51b1c7a79606d207f79a826c89bf29
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Hvernig skal: Setja upp stjórnunarstig fyrir tengiliði
@@ -25,13 +24,13 @@ Hægt er að úthluta stjórnunarstigum á tengiliði til að tilgreina hvaða s
 
 Notkun viðskiptatengsla á tengiliði er tveggja þrepa ferli. Fyrst að skilgreina viðskiptatengslakóðann. Aðeins þarf að framkvæma þetta skref í eitt skipti fyrir hver viðskiptatengsl. Þegar kominn er viðskiptatengslakóði er hægt að byrja að úthluta kóðanum til tengiliða.
 
-## <a name="to-define-an-organizational-level-code"></a>skilgreining viðskiptatengslakóða
+## <a name="to-define-an-organizational-level-code"></a>Skilgreining viðskiptatengslakóða
 Viðskiptatengslakóði skilgreinir tegund eða flokk stjórnunarstigs, eins og framkvæmdastjóri eða fjármálastjóri. Hægt er að hafa nokkra viðskiptatengslakóða. Glugginn **Stjórnunarstig** er notaður til að skilgreina stjórnunarstigið.
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Stjórnunarstig** og velja svo viðeigandi tengil.
 2. Valið er **Nýtt** aðgerð og fyllt er inn kóði og lýsing. Kóðinn má vera mest 11 stafir, og getur verið hvaða samasetning sem er af tölustafir og bókstafir.
 
-## <a name="to-assign-organizational-levels-to-a-contact-person"></a>að úthluta skipulagsstigum til tengiliðs
+## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Að úthluta skipulagsstigum til tengiliðs
 Aðeins er hægt að úthluta stjórnunarstigum á einstaklinga, ekki á fyrirtæki. Aðeins er hægt að úthluta einu stjórnunarstigi á hvern tengilið.
 
 1. Tengiliðurinn er opnaður.

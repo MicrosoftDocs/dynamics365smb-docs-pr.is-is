@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="changing-basic-settings"></a>Breyta grundvallarstillingum
@@ -49,8 +48,11 @@ Sjálfgefin vinnudagsetning er yfirleitt dagurinn í dag. Þú gætir þúrft a�
 > [!IMPORTANT]  
 >   Vinnudagsetningunni er aðeins breytt þar til fyrirtækinu er lokað eða dagsetningin breytist. Ef annað fyrirtæki er opnað, eða þegar sama fyrirtækið er opnað aftur næsta dag og enn er þörf á að nota aðra dagsetningu en kerfisdagsetninguna þá verður að stilla vinnudagsetninguna aftur.
 
-## <a name="confirmation-dialogs"></a>Staðfestingargluggar
-Nota valkostina í þessum kafla eigi að tilgreina einhverjar aðrar athuganir fyrir bókun skjala. Þessir valkostir eru athugaðir að staðaldri, en þú getur hreinsað gátreitina, til að forðast að fá tilteknar viðvaranir eða skilaboð.
+## <a name="region"></a>Svæði
+**Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir.   
+
+## <a name="change-when-i-receive-notifications"></a>Breyta þegar ég fæ tilkynningar.
+Velja þennan hlekk til að skoða eða breyta tilkynningum um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu, eða þegar tiltækar birgðir eru lægri en magnið sem þú ert að fara að selja. Frekari upplýsingar, sjá [Snjall-tilkynningar](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

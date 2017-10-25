@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 60906dde627216903b5ef82e34ce4bc918f3c988
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-purchases"></a>Hvernig á að skrá kaup
@@ -25,7 +24,7 @@ Innkaupareikningur eða innkaupapöntun er stofnaður til að skrá kostnaðarve
 > [!NOTE]  
 >   Verður Að nota innkaupapantanir ef innkaupaferlið krefst þess að hægt sé að skrá hlutamóttökur pöntunarmagns , til dæmis þar sem allt magnið var ekki tiltæk í hjá lánardrottinn. Ef vara er seld með því að afhenda beint frá lánardrottni til viðskiptamanns, sem bein sending þarf að einnig nota innkaupapantanir. Nánari upplýsingar eru í [Hvernig á að gera bein sending](sales-how-drop-shipment.md). Frá öllum sjónarhornum séð virka innkaupapantanir á sama hátt og innkaupareikningar. Eftirfarandi ferli byggist á innkaupareikningur. Skrefin eru svipuð fyrir innkaupapöntun.
 
-Þegar þú tekur við birgðavörum eða þegar innkaupaaðgerð er lokið bókarðu innkaupareikninginn eða -pöntun til að uppfæra birgðir og fjármálaskrár og til að virkja greiðslu til lánardrottins, samkvæmt greiðsluskilmálum. Frekari upplýsingar er að finna á [framkvæma greiðslu](payables-make-payments.md)
+Þegar þú tekur við birgðavörum eða þegar innkaupaaðgerð er lokið bókarðu innkaupareikninginn eða -pöntun til að uppfæra birgðir og fjármálaskrár og til að virkja greiðslu til lánardrottins, samkvæmt greiðsluskilmálum. Frekari upplýsingar eru í [Greiðslur framkvæmdar](payables-make-payments.md).
 
 > [!CAUTION]  
 >   Ekki bóka innkaupareikning fyrr en vörur eru mótteknar og lokakostnaður er vitaður, þ.m.t. öll viðbótargjöld. Annars kunna birgðagildi og hagnaðartölur er vera röng.
@@ -35,7 +34,7 @@ Hægt er að leiðrétta eða afturkalla bókaðan innkaupareikning áður en l�
 Vörurnar geta verið tegund **Birgðir** eða **Þjónustu**. Nánari upplýsingar eru í [Hvernig á að: Skrá nýjar vörur](inventory-how-register-new-items.md). Innkaupareikningaferlið er það sama fyrir báðar vörutegundir.
 
 > [!NOTE]  
->   Virkni innkaupapöntunar krefst að upplifun þín er stilltur á **Pakki**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
+>   Virkni innkaupapöntunar krefst að upplifun þín er stilltur á **Suite**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 Hægt er að fylla út  lánardrottnareitina í innkaupareikningunum með tveimur leiðum, eftir því hvort lánardrottinninn hefur þegar verið skráður.
 
@@ -58,7 +57,7 @@ Hægt er að fylla út  lánardrottnareitina í innkaupareikningunum með tveimu
 
     > [!NOTE]  
 >   Ef endurteknar innkaupalínur hafa verið settar upp fyrir lánardrottinn, svo sem mánaðarlegar áfyllingarpantanir, er hægt að færa línurnar inn í reikninginn með því að velja aðgerðina **Ítrekaðar innkaupalínur**.
-10. Á flýtiflipanum **Línur** í reitnum **vörunúmer** sleginn inn fjöldi birgðavöru eða þjónustu.
+10. Í flýtiflipanum **Línur** í reitnum **Vörunúmer** er sleginn inn fjöldi birgðavöru eða þjónustu.
 11. Í reitinn **Magn** er fært fjöldi vara sem á að kaupa.
 
     > [!NOTE]  
@@ -78,6 +77,7 @@ Innkaupin eru nú skráð í birgðafærslum og fjármálafærslum og greiðsla 
 ## <a name="see-also"></a>Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
+[Hvernig á að: Biðja um tilboð](purchasing-how-request-quotes.md)  
 [Hvernig á að: Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md)  
 [Hvernig á að skrá nýja lánardrottna](purchasing-how-register-new-vendors.md)  
 [Hvernig á að: Undirbúa Beina sendingu](sales-how-drop-shipment.md)  

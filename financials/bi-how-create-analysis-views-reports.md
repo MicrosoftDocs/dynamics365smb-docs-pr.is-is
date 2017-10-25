@@ -12,11 +12,11 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ec1f03555db4e370bf19da41bcb33e9b1d286f82
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: b96ff2d1f4339b137a6f7d2c2c1266185e2dc69c
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 #  <a name="how-to-create-analysis-reports"></a>Hvernig skal: Stofna greiningarskýrslur
@@ -40,10 +40,10 @@ Síðan er hægt að setja upp dálka eins og þessa:
 
 - Sala gildandi mánaðar  
 - Sala síðasta mánaðar  
-- Sala í prósentum síðasti mánuður  
+- Sala síðasta mánaðar í prósentum  
 
 > [!NOTE]  
->   Þessi virkni krefst þess að upplifun þín sé stillt á **Pakki**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
+>   Þessi virkni krefst þess að upplifun þín sé stillt á **Suite**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Uppsetning á útliti lína og dálka  
  Í glugganum **Greiningarskýrsla** er hægt að skoða mismunandi útlit lína og dálka eftir því hvernig uppsetningin er. Línur eða línusniðmát eru sett upp í glugganum **Greiningarlínusniðmát**. Þar er hægt að skilgreina heiti skýrslunnar og hlutanna sem á að sýna í línum hennar. Dálkarnir eru settir upp í glugganum **Greiningardálkssniðmát**. Þar er hægt að tilgreina heiti dálkssniðmátsins og greiningarfæribreytanna sem á að sýna í skýrslunni sem dálka. Í glugganum **Greiningardálkssniðmát** sýnir hver lína dálk í skýrslunni. Athuga skal að greiningarlínur og greiningardálkar eru óháð hvort öðru.  

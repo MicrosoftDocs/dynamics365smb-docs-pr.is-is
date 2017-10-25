@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bac6c541a07f5da6c42fa076627e174249f708b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-relationship-management"></a>Uppsetning tengslastjórnar
@@ -54,13 +53,10 @@ Fyrir frekar upplýsingar, sjá [Tengiliðir samstilltir við viðskiptamenn, l�
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Úthluta Númeraraðir á tengiliði og tækifæri
 Hægt er að setja upp númeraraðir fyrir tengiliði og tækifæri. Hafi númeraröð verið sett upp fyrir tengiliði færir kerfið sjálfkrafa inn  næsta tiltæka tengiliðanúmer þegar nýr tengiliður er stofnaður og stutt á færslulykilinn í reitnum Nr. á tengiliðaspjaldinu.
 
-Nánari upplýsingar um númeraröð, sjá [Búa til númeraröð](ui-create-number-series.md).
+Frekari upplýsingar um númeraraðir er að finna á [Hvernig skal: stofna númeraraðir](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Leita að tvíteknum tengiliðum þegar tengiliðir eru stofnaðir
 Hægt er að láta kerfið leita sjálfkrafa leita að tvítekningum í hvert sinn þegar stofnað er tengiliðafyrirtæki eða leita handvirkt eftir að tengiliðirnir hafa verið stofnaðir. Einnig er hægt að láta kerfið uppfæra leitarstrengi sjálfkrafa í hvert sinn sem tengiliðaupplýsingum er breytt eða tengiliður stofnaður. Notandinn ákveður sjálfur hver endurtekningarprósentan er, það er hlutfall strengja sem verða að vera eins hjá tveimur tengiliðum til þess að kerfið líti á þá sem tvítekningar.
-
-## <a name="setting-up-email-logging"></a>Setja upp tölvupóstsskráningu
-Hægt er að senda tölvupóst á tengiliði, viðskiptavini, lánardrottna o.s.frv. Hægt er að senda og taka á móti tölvupóstskilaboðum annaðhvort úr forritinu eða úr Outlook. Áður en hægt er að skiptast á skilaboðum á þennan hátt og láta kerfið vista þau og setja í biðröð, þarf að setja upp nokkrar færibreytur, svo sem tímabil þar sem kerfið athugar hvort einhver tölvupóstur bíði afgreiðslu, heiti forstillingar tölvupóstskráningar.
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  

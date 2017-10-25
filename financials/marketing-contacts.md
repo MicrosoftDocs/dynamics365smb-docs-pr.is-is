@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Stofnun og stjórnun tengiliða
@@ -27,7 +26,7 @@ Alla ytri aðila sem fyrirtækið hefur viðskiptatengsl við (til dæmis viðsk
 
 Hægt er að skrá upplýsingar sem byggjast á fyrirtæki eða einstaklingi innan þess fyrirtækis. Einnig er hægt að stofna sjálfstæðan tengilið fyrir fólk sem vinnur ekki hjá neinu fyrirtæki, en eru sjálfstætt starfandi eða í lausamennsku.
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst. Verkin eru talin upp í sömu röð og þau eru yfirleitt framkvæmd.
+Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst. 
 
 | Til | Sjá |
 | --- | --- |

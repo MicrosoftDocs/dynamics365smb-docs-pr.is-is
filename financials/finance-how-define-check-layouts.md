@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-define-check-layouts"></a>Hvernig á að: Skilgreina útlit ávísana
@@ -27,7 +26,7 @@ Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadísk
 
 ## <a name="to-define-check-layouts"></a>Skilgreina útlit ávísana
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skýrsluval Bankareikningur** og velja svo viðeigandi tengil.
-2. Í glugganum **Skýrsluval - Bankareikn.** í  **notkun** reitnum, veljið **tékka**.
+2. Í glugganum **Skýrsluval - Bankareikningur** í reitnum **Notkun** skal velja **Reikningur**.
 3. Eitt af eftirfarandi skýrslukennum er valið:
 
 | Kenni skýrslu | Skýrsluheiti | Lýsing |

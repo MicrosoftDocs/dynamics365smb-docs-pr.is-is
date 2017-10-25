@@ -1,6 +1,6 @@
 ---
-title: "Setja upp markaðsherferðir í fjármálum | Microsoft Docs"
-description: "Lýsir hvernig hægt er að setja upp og stunda markaðssetninguherferðir í Dynamics 365 for Financials"
+title: "Setja upp markaðsherferðir í Financials | Microsoft Docs"
+description: "Lýsir hvernig hægt er að setja upp og stunda markaðssetningarherferðir í Dynamics 365 for Financials til að hjálpa þér að koma auga á og laða að viðföng og varðveita viðskiptamenn."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 05/20/2017
-ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 92c5fb75f4f3d3180ba67b89481beed2e58c3dbe
-ms.openlocfilehash: 68359d2dd2c2e07463babda91d86d47998f0912a
+ms.date: 06/06/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
 ms.contentlocale: is-is
-ms.lasthandoff: 05/31/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Stjórnun markaðsherferða
@@ -39,7 +38,9 @@ Hver söluherferð samanstendur af ýmsum aðgerðum eða verkefnum. Þú getur 
 
  Þegar söluverð/línuafsláttur og hlutarnir á söluherferðarspjaldinu hafa verið settir upp þarf að virkja þá til þess að verð/afsláttur í söluherferð komi fram í línunum.
 
-**Athugið**: Til þess að virkja söluverð / lína afslætti verður þú að tilgreina hvort allt hlutinn eða aðeins nokkrir tengiliðir eru markmið herferðarinnar. Ef söluverðið/línuafslátturinn nær yfir alla tengiliðina í hlutanum reiturinn **Markhópur söluherferðar** valinn á flýtiflipanum **Söluherferð** á spjaldinu **Hluti**.
+> [!NOTE]  
+>   Til þess að virkja söluverð / lína afslætti verður þú að tilgreina hvort allt hlutinn eða aðeins nokkrir tengiliðir eru markmið herferðarinnar. Ef söluverðið/línuafslátturinn nær yfir alla tengiliðina í hlutanum reiturinn **Markhópur söluherferðar** valinn á flýtiflipanum **Söluherferð** á spjaldinu **Hluti**.
+
 Ef ekki er boðið upp á söluverð / lína afslátt fyrir alla tengiliðina í hlutanum geturðu hreinsað **herferðarmarkið** fyrir viðkomandi tengiliði. Ef þú getur ekki séð þetta reit geturðu bætt því við skoðunina þína. Nánari upplýsingar er að finna í [Sérstillingar notanda](ui-user-personalization.md).
 
 ## <a name="conducting-campaigns"></a>Framkvæma herferðir

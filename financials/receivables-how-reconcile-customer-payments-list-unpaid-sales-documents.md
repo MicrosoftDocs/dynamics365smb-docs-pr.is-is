@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 06/16/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8ea27f21b2e4acc25b4acc6b5ba15580ca5a1997
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>hvernig skal stemma handvirkt af greiðslur viðskiptamanns úr lista yfir ógreidda söluskjöl.
@@ -74,7 +73,7 @@ Greiðslufærslur eru bókaðar í fjárhags-, banka- og viðskipta- eða viðsk
 
 Greiðslufærslur eru bókaðar í fjárhags-, banka- og viðskiptavinalykil. Hver greiðsla er jöfnuð við tengt bókað söluskjal.  
 
-Ef greiðsla í bankanum er ekki tilgreind með línu í glugganum **Skráning greiðslna**, getur það verið vegna þess að tengt fylgiskjal hefur enn ekki verið bókað. Í því tilviki, er hægt að nota leitareiginleika til að finna skjalið hratt og bóka það til að meðhöndla greiðsluna. Fyrir Fyrir frekar upplýsingar, sjá Hvernig á að: Finna hlutann ógreidd skjöl á meðan handvirk afstemming viðskiptavinargreiðslu er í vinnslu  
+Ef greiðsla í bankanum er ekki tilgreind með línu í glugganum **Skráning greiðslna**, getur það verið vegna þess að tengt fylgiskjal hefur enn ekki verið bókað. Í því tilviki, er hægt að nota leitareiginleika til að finna skjalið hratt og bóka það til að meðhöndla greiðsluna. Nánari upplýsingar má nálgast á „Til að finna tiltekið söluskjal sem er ekki reikningsfært að fullu“. hlutanum.  
 
 Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að opna fyrirfram útfyllta færslubók úr glugganum **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur. Frekari upplýsingar eru í hlutanum "Greiðslur skráðar eða bókaðar án tengdra fylgiskjala"  
 
@@ -138,7 +137,7 @@ Viðkomandi fylgiskjal er enn opið.
 Viðkomandi fylgiskjal er lokað og umframgreiðsluupphæðin er færð á viðskiptamanninn.  
 
 ## <a name="to-find-a-specific-sales-document-that-is-not-fully-invoiced"></a>Til að finna tiltekið söluskjal sem er ekki reikningsfært að fullu
-Glugganum **Skráning greiðslna** er ætlað að veita aðstoð í verkum sem þarf til að stemma af innanhúsreikninga með raunverulegum sjóðstölum til að tryggja skilvirka söfnun frá viðskiptamönnum og greiðslur til lánardrottna. Það sýnir útistandandi væntanlega innkomu á línum sem tákna söluskjöl þar sem upphæð er fallinn á gjalddaga.  
+Glugganum **Skráning greiðslna** er ætlað að veita aðstoð í verkum sem þarf til að stemma af innanhúsreikninga með raunverulegum sjóðstölum til að tryggja skilvirka söfnun frá viðskiptamönnum. Það sýnir útistandandi væntanlega innkomu á línum sem tákna söluskjöl þar sem upphæð er fallinn á gjalddaga.  
 
 Venjulega, ef greiðsla hefur verið gerð, skráð í bankanum eða á annan hátt, eru tengd sölu eða innkaupaskjöl sýnd sem lína í glugganum **Skráning greiðslna** þar sem fylgiskjalið sem um ræðir bíður eftir að greiðslan sé bókuð gegn hinni útstandandi upphæð. Það getur hins vegar komið fyrir að greiðslur eru ekki sýndar sem línur í glugganum **Skráning greiðslna**, yfirleitt vegna þess að ekki hefur verið lokið við bókun reiknings í hinu umrædda skjali.
 
@@ -151,7 +150,7 @@ Eftirfarandi aðgerð útskýrir hvernig skal finna tiltekið fylgiskjal með þ
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Greiðsluskráning** og velja svo viðeigandi tengil.
 2. Með bendilinn á hvaða línu sem er, veldu aðgerðina **Leita í fylgiskjölum**.
-3. Í glugganum **Leit í Skjölum**, færið inn leitargildi í reitinn **númer fylgiskjals**. .  
+3. Í glugganum **Leit í Skjölum**, færið inn leitargildi í reitinn **Númer fylgiskjals**.  
 
     > [!NOTE]  
 >   Faldir algildisstafir eru meðfylgjandi í gildinu sem fært er í þennan reit. Þetta þýðir að aðgerðin leitar eftir öllum fylgiskjalsnúmerum sem innihalda gildið sem fært var inn.    

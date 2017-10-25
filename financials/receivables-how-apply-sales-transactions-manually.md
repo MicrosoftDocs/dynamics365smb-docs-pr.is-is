@@ -1,8 +1,6 @@
 ---
 title: "Jafna færslur í viðskiptamannabók til að afstemma greiðslur viðskiptamanna handvirkt | Microsoft Docs"
 description: "Lýsir því hvernig skal jafna inngreiðslur eða endurgreiðslur við eina eða fleiri opnar færslur í viðskiptamannabók og afstemma greiðslur viðskiptamanna."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually"></a>Hvernig á að: Afstemma greiðslur viðskiptamanns handvirkt
@@ -45,13 +43,13 @@ Hægt er að jafna færslur í viðskiptamannabók á ýmsa vegu:
 4. Fylla skal út reitinn **Dagsetning bókunar**.  
 5. Í reitnum **Tegund fylgiskjals** er valið **Greiðsla**.
 
-    **Númer fylgiskjals** reiturinn er fylltur út með númeraröðinni sem úthlutað er á rununa.  
+    Reiturinn **Númer fylgiskjals** er fylltur út með númeraröðinni sem úthlutað er á keyrsluna.  
 6. Nota skal reitinn **Númer utanaðk. skjals** til að geyma kenni, til dæmis tékkanúmer viðskiptamanns.
 7. Í reitnum **Tegund reiknings** er valið **Viðskiptamaður**.
-8. Í svæðinu **Bankareikningsnúmer**,  reit, veldu viðkomandi fjárhagsreikningsnúmer.
+8. Í reitnum **Reikningsnr.**, veldu viðkomandi fjárhagsreikning.
 9. Ef bóka á jöfnunina á sama tíma og bóka skal línur í færslubókinni þarf að gera eftirfarandi.
 10. Í reitnum **Tegund mótreiknings** er **fjárhagsreikningur** valinn fyrir greiðslu í reiðufé og **bankareikningur** fyrir aðrar greiðslur.
-11. Í reitnum **Mótreikning.** er sjóðsreikningur valinn fyrir greiðslu í reiðufé eða viðeigandi bankareikningur fyrir aðrar greiðslur.
+11. Í reitnum **Mótreikningur nr.** er sjóðsreikningur valinn fyrir greiðslu í reiðufé eða viðeigandi bankareikningur fyrir aðrar greiðslur.
 12. Bóka skal færslubókina.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Greiðsla jöfnuð við eina viðskiptamannsfærslu
@@ -61,12 +59,12 @@ Hægt er að jafna færslur í viðskiptamannabók á ýmsa vegu:
 4. Í reitnum **Tegund fylgiskjals** er valið **Greiðsla**.
 5. Í reitnum **Tegund reiknings** er valið **Viðskiptamaður**.
 6. Í reitnum **Tegund mótreiknings** er **Bankareikningur** valinn.
-7. Í reitnum **jöfnunarskjalsnúmer** er valið í reit til að opna **Jafna viðskm.færslur** gluggann.
+7. Í reitnum **Jafna við skjal nr.** er valinn reiturinn til að opna **Jafna viðskiptamannafærslur** gluggann.
 8. Í glugganum **Jafna lánardr.færslur** eru línurnar með færslunum til að jafna greiðsluna við valdar.
 9. í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna. Ef engin færsla er rituð jafnar forritið við hámarksupphæðina.
 
     Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð** og einnig hvort jöfnunin stemmir.  
-10. Velja hnappinn **Í lagi**. Glugginn **inngreiðslubók** sýnir nú færsluna sem færð hefur verið inn valin í reitunum **jöfnunarskjalsgerð** og **jöfnunarskjalsnúmer**. Reitir
+10. Velja hnappinn **Í lagi**. Glugginn **inngreiðslubók** sýnir nú færsluna sem færð hefur verið inn valin í reitunum **jöfnunarskjalsgerð** og **jöfnunarskjalsnúmer**.
 11. Inngreiðslubókin er bókuð
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Greiðsla jöfnuð við margar viðskiptamannafærslu:
@@ -77,8 +75,8 @@ Hægt er að jafna færslur í viðskiptamannabók á ýmsa vegu:
 5. Í reitnum **Tegund reiknings** er valið **Viðskiptamaður**.
 6. Í reitnum **Tegund mótreiknings** er **Bankareikningur** valinn.
 7. Í reitnum **Upphæð** skal færa inn fulla greiðslu sem neikvæða upphæð.
-8. Til að jafna greiðslu við margar viðskiptamannafærslur í bókun er veldu aðgerðina **Jafna færslur**.
-9. Valdar eru línurnar með færslunum sem á að jafna færsluna við og síðan velja síðan **Setja kenni jöfnunar**.
+8. Til að jafna greiðslu við margar viðskiptamannafærslur í bókun er veldu aðgerðina **Jafna færslur**.  
+9. Valdar eru línurnar með færslunum sem á að jafna færsluna við og síðan velja síðan **Setja kenni jöfnunar**.  
 10. Í hverri línu í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna. Ef engin færsla er rituð jafnar forritið við hámarksupphæðina.
 
     Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð** og einnig hvort jöfnunin stemmir.  
@@ -88,11 +86,11 @@ Hægt er að jafna færslur í viðskiptamannabók á ýmsa vegu:
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Kreditreikningur jafnaður við eina viðskiptamannsfærslu:
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölukreditreikningar** og velja svo viðeigandi tengil.
 2. Opna skal viðeigandi sölukreditreikning.
-3. Til að jafna kreditreikninginn við viðskiptamannsfærslu við bókun, í reitnum **jöfnunarskjalsnúmer.** er Valin færslan til að jafna greiðsluna.
+3. Til að jafna kreditreikninginn við eina viðskiptamannabókarfærslu þegar bókað er skal fara í reitnum **Jafna við skjal nr.** skal svo velja færsluna sem jafna á greiðsluna við.
 4. Á línunni í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna.  
 
     Ef engin færsla er rituð jafnar forritið sjálfkrafa við hámarksupphæðina. Neðst í glugganum **jafna færslur viðskiptavina** má sjá upphæðina í reitnum **jöfnuð upphæð** og einnig hvort jöfnunin stemmir.    
-5. Velja hnappinn **Í lagi**. Glugginn **Sölukreditreikningur** sýnir nú færsluna sem færð hefur verið inn valin í reitunum **jöfnunarskjalsgerð** og **jöfnunarskjalsnúmer**. Reitir Og upphæð kreditreikningsins sem á að bóka, leiðrétta fyrir hugsanlegan greiðsluafslátt.
+5. Velja hnappinn **Í lagi**. Glugginn **sölukreditreikningur** sýnir nú færsluna sem færð hefur verið inn valin í reitunum **jöfnunarskjalsgerð** og **jöfnunarskjalsnúmer**. Og upphæð kreditreikningsins sem á að bóka, leiðrétta fyrir hugsanlegan greiðsluafslátt.
 6. Kreditreikningurinn er bókaður.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Kreditreikningur jafnaður við margar viðskiptamannafærslur:

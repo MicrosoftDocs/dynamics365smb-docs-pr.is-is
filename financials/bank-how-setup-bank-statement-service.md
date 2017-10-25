@@ -10,20 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/02/2017
+ms.date: 09/14/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ef5c6f4b9106b1b289cc5ed060fc28426fde0ae2
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 7691b7a0aab87309d02833517a91eb9938ee3a32
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Hvernig á að: Setja upp Envestnet Yodlee bankastreymisþjónustu
 Hægt er að flytja inn rafræn bankayfirlit frá bankanum til að fylla fljótlega út gluggann **Greiðsluafstemmingarbók** þannig að hægt sé að jafna greiðslur og stemma af bankareikninginn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og stemma af bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Envestnet Yodlee bankastreymisþjónusta er uppsett sem viðbót við [!INCLUDE[d365fin](includes/d365fin_md.md)] og tilbúin til að láta virkja sig. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).
+
+> [!NOTE]
+> Envestnet Yodlee bankastreymisþjónusta er aðeins studd í BNA, Kanada og Bretlandi.
 
 Þegar búið að virkja bankastreymisþjónustu, verður að tengja bankareikning við netbankareikning sem streymið kemur úr. Þú býrð til tengla frá bankareikningum í netbankareikninga í mismunandi eftirfarandi aðstæður:
 
@@ -58,7 +60,7 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
     > [!NOTE]  
 >   Ef þú ert með fleiri en einn netbankareikning í bankanum, verður að stofna fleiri bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir þá. Sjá skref 8 til 10.  
 
-    Þegar vinnslunni er lokið, birtist bankaheitið í **Mínir reikningar** svæðinu á **Tengt** flipanum. Númerið í svigunum gefur til kynna hversu margar netbankareikningar voru tengd við.  
+    Þegar vinnslunni er lokið, birtist bankaheitið í **Mínir reikningar** svæðinu á **Tengt** flipanum. Númerið í svigunum gefur til kynna hversu margir netbankareikningar voru tengdir.  
 7. Velja hnappinn **Í lagi**.
 
     Ef aðeins er verið að tengja einn netbankareikning, mun **Bankareikningsspjald** glugginn opnast og birta heiti netbankareikningsins. Í þessu tilfelli er tenging bankareiknings lokið. Allt sem er eftir er að setja upp bankareikninginn. Frekari upplýsingar sjá [hvernig skal: setja upp bankareikninga](bank-how-setup-bank-accounts.md)
@@ -80,7 +82,7 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
 
     Bankastreymisþjónusta undirbýr að tengja bankareikning í [!INCLUDE[d365fin](includes/d365fin_md.md)] við viðkomandi netbankareikning.  
 
-    Þegar vinnslunni er lokið á árangursríkan hátt, birtist bankaheiti í á **Mínar Reikninga** svæðinu í á **Tengt** flipanum. Ef bankinn er með fleiri en einn bankareikning, aðeins bankareikningurinn sem þú valdir í skrefi 2 er tengdur.  
+    Þegar vinnslunni er lokið á árangursríkan hátt, birtist bankaheiti á **Mínar Reikninga** svæðinu í á **Tengt** flipanum. Ef bankinn er með fleiri en einn bankareikning, er aðeins bankareikningurinn sem þú valdir í skrefi 2 tengdur.  
 5. Velja hnappinn **Í lagi**.
 
 Í glugganum **Bankareikningayfirlit** er valinn  **tengt** gátreiturinn .

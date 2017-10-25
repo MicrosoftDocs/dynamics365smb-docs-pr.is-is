@@ -9,25 +9,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/25/2017
+ms.date: 08/24/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b15bd0928e797918c7431e595b1bdf500a8d6792
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-approval-workflows"></a>Hvernig á að: Nota samþykktarverkflæði
 Þegar færsla, svo sem innkaupaskjal eða viðskiptamannaspjald sem stofnað hefur verið þarfnast samþykktar aðila innan fyrirtækisins er send samþykktarbeiðni sem hluti af verkflæði. Beiðnin um samþykki færslu verður send til viðeigandi samþykkjanda á grundvelli þess hvernig verkflæðið hefur verið sett upp.
 
-Setja upp samþykktarverkflæði í **Verkflæði** glugganum.
+Setja upp samþykktarverkflæði í **Verkflæði** glugganum. Nánari upplýsingar er að finna í [Uppsetning Verkflæði](across-set-up-workflows.md).
+
+Í viðbót við samþykktarverkflæði sem lýst er í þessu efnisatriði, geturðu framkvæmt ýmis önnur verkflæðisverk. Frekari upplýsingar, [Nota verkflæði](across-use-workflows.md).
 
 Kjarna samþykkisverkflæði fyrir innkaupaskjöl, söluskjöl, greiðslubækur, viðskiptamannaspjöld og birgðaspjöldum eru tilbúin til að byrja sem aðstoð við uppsetningu. Nánari upplýsingar sjá í [Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
 > [!NOTE]  
->   Þessi virkni krefst þess að upplifun þín sé stillt á **Pakki**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
+>   Þessi virkni krefst þess að upplifun þín sé stillt á **Suite**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Til að biðja um samþykki færslu
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda.
@@ -47,17 +48,6 @@ Vera kann að viðskiptavinur vilji breyta pöntun eftir að hún hefur verið l
 - Í glugganum sem sýnir færsluna er valið **Hætta við samþykktarbeiðni** aðgerðin.
 
 Þegar hætt hefur verið við samþykktarbeiðnina uppfærist staðan á samþykktarfærslunni í **Hætt við**. Staða færslunnar er uppfærð úr **Bíður samþykktar** í **Opið**. Samþykktarferlið getur þá hafist á ný.
-
-## <a name="to-make-minor-changes-to-approved-records"></a>Gera smávægilegar breytingar á samþykktum færslum
-Ef gera á smávægilega breytinga á færslu eftir að hún hefur verið samþykkt er hægt að enduropna hana, gera breytinguna og samþykkja hana. Fyrir smávægilegar breytingar er þetta gert með hnöppunum **Enduropna** og **Gefa út**.
-
-1. Opna skal gluggann sem sýnir færsluna, t.d. innkaupareikning, og velja síðan **opna aftur** aðgerðina.
-
-    Reitnum **Staða skjals** er breytt í **Opna**.
-2. Nauðsynlegar breytingar eru gerðar á færslunni, svo sem heimilisfang lánardrottins.
-3. Valið er **Losa** aðgerð.
-
-Þegar frumfærslan er opnuð aftur er staða tengdrar samþykktarfærslu áfram Samþykkt í glugganum **Samþykktarfærslur**.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Samþykkja eða hafna samþykktum
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
@@ -98,5 +88,5 @@ Aðgerðin **Senda samþykkistilkynningar sem komnar eru fram yfir á tíma** ka
 [Sala](sales-manage-sales.md)    
 [Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

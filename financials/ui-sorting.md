@@ -11,16 +11,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/07/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4f63d34f4dffc0a6e8c6aa7f8e3fe72710d9bce5
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 11c046fbd074f9542e496ad07560005873f84f15
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="sorting"></a>Röðun
-Með aðgerðinni Röðun er auðvelt og fljótlegt að fá yfirsýn yfir gögnin. Ef þú ert með marga viðskiptamenn til dæmis, er hægt að velja að raða þeim eftir **númeri Viðskiptamanns**, **Bókunarflokkum viðskiptavinar**, **Gjaldmiðilskóði**, **LandsSvæðiskóða**, eða **skráningarnúmer Söluskatts** til að fá yfirlit sem þarf.
+Með aðgerðinni Röðun er auðvelt og fljótlegt að fá yfirsýn yfir gögnin. Ef þú ert með marga viðskiptamenn til dæmis, er hægt að velja að raða þeim eftir **númeri Viðskiptamanns**, **Bókunarflokkum viðskiptavinar**, **Gjaldmiðilskóði**, **LandsSvæðiskóða**, eða **skráningarnúmer Söluskatts** til að fá það yfirlit sem þú þarft.
 
 Velja skal dálkahaus og litlu örina til að raða hækkandi eða lækkandi.  
 
@@ -30,5 +29,4 @@ Velja skal dálkahaus og litlu örina til að raða hækkandi eða lækkandi.
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Skilgreining skilyrða í síum](ui-enter-criteria-filters.md)
-
 

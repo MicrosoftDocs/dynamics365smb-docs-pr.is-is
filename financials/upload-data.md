@@ -8,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migrate, initialize, implement
-ms.date: 07/05/2017
+ms.date: 09/25/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
-ms.openlocfilehash: dd6eb5a6b19bf4c8fd92674a48e8cd29ce912eee
+ms.translationtype: HT
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: c5571a6d5dcb7a228ce0debd9aa3bcf18607e8a4
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Innflutningur viðskiptagagna úr öðrum fjárhagskerfum
@@ -31,7 +30,7 @@ Ef IFF-skráin inniheldur til dæmis viðskiptamenn og lánardrottna er hægt a�
 
 Uppsetning með hjálp hefur valkost um að breyta sjálfgefnum grunnstillingum yfirfærslunnar, en mælt með því að nota aðeins þessa ítaruppsetningu ef notandi er vanur að vinna með gagnagrunnstöflur. Í langflestum fyrirtækjum mun sjálfgefin vörpun frá QuickBook eða Dynamics GP í [!INCLUDE[d365fin](includes/d365fin_md.md)] flytja þær upplýsingar sem notandi þarf á að halda.  
 
-Nánari upplýsingar, sjá [QuickBooks gagnafærsla](ui-extensions-quickbooks-data-migration.md) eða [Dynamics GP gagnafærsla](ui-extensions-dynamicsgp-data-migration.md).
+Nánari upplýsingar, sjá [QuickBooks Desktop gagnafærsla](ui-extensions-quickbooks-data-migration.md) [QuickBooks gagnafærsla á netinu](ui-extensions-quickbooks-online-data-migration.md) eða [Dynamics GP gagnafærsla](ui-extensions-dynamicsgp-data-migration.md).  
 
 ## <a name="importing-data-from-configuration-packages"></a>Innflutningur gagna úr grunnstillingarpakka
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur stillingarpakka sem þú getur flutt út í Excel og sett upp gögnin þín þar. Síðan er hægt að flytja aftur inn gögnin úr Excel. Pakkinn samanstendur af 27 töflum, þar með talið aðalgögnum, svo sem viðskiptavinum, söluaðilum, hlutum og reikningum, öðrum grunnuppsetningartöflum eins og sendingarkostnaði og viðskiptatöflum eins og söluhaus og línum.  
@@ -42,7 +41,8 @@ Nánari upplýsingar, sjá [QuickBooks gagnafærsla](ui-extensions-quickbooks-da
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  
 [Gögn flutt inn úr eldri bókhaldshugbúnaði með því að nota grunnstillingarpakka](across-import-data-configuration-packages.md)  
-[QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)  
+[QuickBooks Desktop gagnafærsla](ui-extensions-quickbooks-data-migration.md)  
+[QuickBooks gagnaflutningur á netinu](ui-extensions-quickbooks-online-data-migration.md)  
 [Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md)  
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)   
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)

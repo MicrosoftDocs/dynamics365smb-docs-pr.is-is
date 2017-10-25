@@ -12,18 +12,17 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 06/07/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b41328283c732d3d9cb3ff66ef89c13d0bd3b7bf
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="closing-years-and-periods"></a>Loka árum og tímabilum
 Í lok reikningsársins verður að inna af hendi tiltekin stjórnunarverk, eins og að ganga úr skugga um að skjöl og færslubækur eru bókaðar, ganga úr skugga um að gjaldmiðilsgögn eru dagfærð, loka bókhaldi, og meira. Raunverulegt verk fara eftir fyrirtækinu.
 
-Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir til að loka ári og tímabili. Verkin eru talin upp í sömu röð og þau eru yfirleitt framkvæmd.
+Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir til að loka ári og tímabili. 
 
 | Til | Sjá |
 | --- | --- |

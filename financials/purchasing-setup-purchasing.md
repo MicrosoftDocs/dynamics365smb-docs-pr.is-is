@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4c6285b1e394e5953fd76953ed2ab45e9b40ec3d
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-purchasing"></a>Uppsetning innkaupa
@@ -31,10 +30,10 @@ Farið er nánar yfir uppsetningu kaupa sem tengjast fjármunum, svo sem greiðs
 
 | Til | Sjá |
 | --- | --- |
-| Stofna lánardrottnaspjald fyrir alla lánardrottna keypt er af. |[Hvernig á að Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md) |
+| Stofna lánardrottnaspjald fyrir alla lánardrottna keypt er af.|[Hvernig á að Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md) |
 | Skráið inn mismunandi afslætti og sérverð sem lánardrottinn veitir, sem fer eftir vörum, magni og/eða dagsetningum. |[Hvernig á að: Skrá innkaupaverð, afslátt og greiðslusamkomulag](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| Lánardrottnum forgangsraðað. |[Hvernig á að: Forgangsraða lánardrottnum](purchasing-how-prioritize-vendors.md) |
-| Kaupendur settir upp. |[Hvernig á að: Setja upp innkaupaaðila](purchasing-how-setup-purchasers.md) |
+| Lánardrottnum forgangsraðað |[Hvernig á að forgangsraða Lánardrottnum](purchasing-how-prioritize-vendors.md) |
+| Kaupendur settir upp |[Hvernig á að setja upp Innkaupaaðila](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  

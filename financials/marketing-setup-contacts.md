@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Undirbýr Setja upp Tengiliðir
@@ -27,7 +26,7 @@ ms.lasthandoff: 07/07/2017
 
 Með uppsetningu þessara upplýsinga eykst skipulag við stofnun tengiliða, og skilvirkni eykst þegar hægt er að finna alla tengiliði sem tilheyra tilteknum hóp. Allir hópar í fyrirtækinu geta nálgast þessar upplýsingar sem gerir samskipti við tengiliðina árangursríkari.
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst. Verkin eru talin upp í sömu röð og þau eru yfirleitt framkvæmd.
+Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst. 
 
 | Til | Sjá |
 | --- | --- |

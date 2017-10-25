@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 03/29/2017
+ms.date: 08/10/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: f9a932a521cd14e52e2a73e69544d2950235ea35
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="purchasing"></a>Innkaup
@@ -31,22 +30,25 @@ Framleiðsluvörur geta bæði verið birgðavörur og þjónusta. Nánari uppl�
 
 Fyrir öll innkaupaferli er hægt að setja inn verkflæði samþykktar, til dæmis þannig að krafist sé þess að stór innkaup þurfi samþykki aðalbókara. Nánari upplýsingar sjá [nota samþykktarverkflæði](across-how-use-approval-workflows.md).
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst. Verkin eru talin upp í sömu röð og þau eru yfirleitt framkvæmd.
+Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
 | Til | Sjá |
 | --- | --- |
 | Stofna innkaupareikning til að skrá samkomulag við lánardrottinn um að kaupa vörur með tilteknum afhendingar- og greiðsluskilmálum. |[Hvernig á að skrá kaup](purchasing-how-record-purchases.md) |
+|Stofna innkaupabeiðni til að spegla beiðni um tilboð frá lánardrottni, sem þú getur síðar breytt yfir í innkaupapöntun.|[Hvernig á að: Biðja um tilboð](purchasing-how-request-quotes.md)|
 | Stofna innkaupareikning fyrir allar eða valdar línur á sölureikningi. |[Hvernig á að: Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md) |
 | Notið aðgerð á ógreiddum bókuðum innkaupareikningi til að stofna sjálfvirkt kreditreikningsferli og annaðhvort afturkalla innkaupareikninginn eða endurskapa hann til að gera leiðréttingar. |[Ógreiddir sölureikningar leiðréttir eða afturkallaðir](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Stofna innkaupakreiditreikning til þess að bakfæra tiltekinn bókaðan innkaupareikning til að endurspegla hvaða vörum er skilað til lánardrottins og hvað greiðsluupphæð fæst. |[Hvernig á að: Meðhöndla innkaupaskila eða afturkallana](purchasing-how-register-new-vendors.md) |
-| Stofna lánardrottnaspjald fyrir alla lánardrottna keypt er af. |[Hvernig á að Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md) |
+|Undirbúðu þig fyrir að reikningsfæra fjölda móttökukvittana frá sama lánardrottni með því að sameina móttökukvittanirnar á einn reikning.|[Hvernig á að: sameina móttökukvittanir í einn reikning](purchasing-how-to-combine-receipts.md)|
+| Læra hvernig [!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar hvenær verður að panta vöru til að geta fengið hana á tilteknum degi.|[Dagsetning útreiknings fyrir kaup.](purchasing-date-calculation-for-purchases.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
+[Hvernig á að Skrá nýja lánardrottna](purchasing-how-register-new-vendors.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
-[Stjórna verkefnum](projects-manage-projects.md)    
-[Aðfangakeðja](madeira-supply-chain.md)      
+[Stjórna verkum](projects-manage-projects.md)    
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

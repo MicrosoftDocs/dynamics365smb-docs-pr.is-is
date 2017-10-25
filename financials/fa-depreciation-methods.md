@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="depreciation-methods"></a>Afskriftaaðferðir
@@ -58,7 +57,7 @@ Lækka má bókvirði með upphæðum í bókaðri uppfærslu, niðurfærslu, s�
 ### <a name="fixed-yearly-percentage"></a>Föst árleg prósenta
 Ef færð er föst árleg prósenta notar forritið eftirfarandi reiknireglu til að reikna upphæð afskrifta:  
 
-Afskriftaupphæð = (Beinlínu% x Afskriftagrunnur x Fjöldi afskr. Daga) / (100 x 360)  
+Afskriftaupphæð = (Beinlínu% x Afskriftagrunnur x Fjöldi afskr. daga) / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Föst árleg upphæð
 Ef færð er föst árleg upphæð notar forritið þessa reiknireglu til að reikna upphæð afskrifta:  
@@ -205,7 +204,7 @@ Reikningsaðferð:
 
 *Hlutfallsleg upphæð: 25% af 100.000 =  25.000 = 12.500 + 12.500*  
 
-*Línuleg upphæð = 100,000 / 8 = 12,500 = 6,250 + 6,250*  
+*Línuleg upphæð = 100.000/8=12.500=6.250+6.250*  
 
 Hlutfallsleg upphæð er notuð vegna þess að hún er hærri.  
 
@@ -224,7 +223,7 @@ Forritið hefur eiginleika sem gerir notanda kleift að skilgreina eigin afskrif
 
 Reiknireglan fyrir útreikning á afskriftaupphæðum er:  
 
-Afskriftaupphæð = (afskrift % x Fjöldi afskriftadaga) x afskrift Grunnur) / (100 * 360)  
+Afskriftaupphæð = (Beinlínu% x Fjöldi afskr.daga x Afskriftagrunnur) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Afskriftir miðaðar við fjölda eininga
 Notandaskilgreindu aðferðina má einnig nota til að afskrifa eftir fjölda eininga, til dæmis vélar sem hafa þekkta framleiðslugetu. Í glugganum **Afskriftatöflu** er hægt að færa inn fjölda eininga sem hægt er að framleiða á hverju tímabili (mánuði, ársfjórðungi, ári eða reikningstímabili).  

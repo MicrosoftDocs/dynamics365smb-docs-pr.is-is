@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2016
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d840981dcceb54c74ac70ed0ddd05b3d3fa9bfc8
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4256c563edc79ebfbe1bbe9337cf1e8a7e9d9991
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-many-incoming-document-records"></a>Hvernig á að: Vinna með margar færslur skjala á innleið
@@ -35,7 +34,7 @@ ms.lasthandoff: 07/07/2017
 1. Í **skjal á innleið** glugganum skal velja færslu eina eða fleiri línur fyrir færslur fyrir skjöl á innleið sem þú vilt fjarlægja úr sjálfgefna yfirlitinu.
 2. Valið er **stilla á unnið** aðgerð.
 
-Færslur fyrir skjal á innleið eru fjarlægðar úr sjálfgefna yfirlitinu, og gátreiturinn **unnið** er valinn á línunum.
+    Færslur fyrir skjal á innleið eru fjarlægðar úr sjálfgefna yfirlitinu, og gátreiturinn **unnið** er valinn á línunum.
 
 > [!NOTE]  
 >   Einnig má framkvæma þessa aðgerð fyrir einstaka færslu í glugganum **Spjald fyrir skjöl á innleið** .

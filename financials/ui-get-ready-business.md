@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Undirbúðu þig fyrir að gera viðskipti
@@ -26,7 +26,7 @@ Til þess að hjálpa þér við að verða tilbúinn til að gera viðskipti ge
 Á heimasíðu neðst á yfirlitssvæðinu er að finna **Uppsetningu og Viðbætur** valmyndina. Stækka **Heim** hnappinn til að sjá yfirlitssvæðið. Hér má sjá lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa. Þegar þú hefur yfirfært gögn eins og lánardrottinn, viðskiptamenn, og vörur úr núverandi fjármálakerfi þínu, ertu tilbúinn að byrja. Einnig er gott að íhuga hvort þörf sé á að nota frekari hjálp við uppsetningu. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetning gluggum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunnatriði** upplifunin veitir aðgang að færri en **Pakki** upplifunin gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
+>   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunnatriði** upplifunin veitir aðgang að færri en **Suite** upplifunin gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 Í glugganum **Uppsetning með hjálp**, er að finna eftirfarandi með **Grunnatriði** upplifun:
 
@@ -39,7 +39,7 @@ Til þess að hjálpa þér við að verða tilbúinn til að gera viðskipti ge
 | Setja upp Office-innbætur |Setur upp möguleikann á að nota og ræsa [!INCLUDE[d365fin](includes/d365fin_md.md)] úr Outlook. |
 | Setja upp samþykktarverkflæði |Setur upp möguleikann á að tilkynna samþykkjanda sjálfkrafa þegar notandi reynir að stofna eða breyta ákveðnum gildum í gögnum á borð við skjöl, dagbókarlínu eða kort, svo sem magni yfir tilteknu hámarki. |
 | Setja upp tölvupóstsskráningu |Setur upp möguleikann á að skrá tölvupóstsamskipti í [!INCLUDE[d365fin](includes/d365fin_md.md)] til að fylgja eftir samskiptum. |
-| Setja upp Dynamics CRM-tengingu |Setur upp tengingu við Dynamics CRM sem býður upp á að samstilla gögn, svo sem tengiliði og upplýsingar um sölupantanir. |
+| Setja upp Dynamics 365 tengingu |Setur upp tengingu við Dynamics 365 for Sales sem býður upp á að samstilla gögn, svo sem tengiliði og upplýsingar um sölupantanir. |
 
 Þegar búið er að keyra uppsetningu með hjálp er hún merkt sem **Lokið**. Til að keyra uppsetningu með hjálp eru þrír punktar valdir sem kallast einnig efnisvalmynd og síðan er valið **Hefja Uppsetningu**.
 
@@ -51,7 +51,7 @@ Notaðu örvar til að fella saman hluta síðunnar og búa til pláss til að s
 Undir **Stillingar fyrirtækis** geturðu séð og breytt uppsetningarupplýsingum um núverandi fyrirtæki, mikið af þessu var forútfyllt hafirðu klárað **Setja upp fyrirtæki** aðstoðina með hjálp þegar þú skráðir þig í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Viljirðu breyta lógói fyrirtækis, samskiptaupplýsingum, bankastillingum, eða skattaupplýsingum, geturðu gert það úr þessum glugga.    
 
 ## <a name="adding-users-and-permissions"></a>Bæta við notendum og heimildum
-Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð Office 365. Frekari upplýsingar, sjá [Bæta notendum við Office 365 fyrir fyrirtæki](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Þegar notendur hafa verið stofnaðir í Office 365 er hægt að flytja þá inn í gluggann **notendur** með því velja aðgerðina **Sækja notendur úr Office 365**. Síðan geturðu haldið áfram að úthluta notendum heimildir og flokka þá í notendahópum. Nánari upplýsingar eru í [Hvernig á að: Vinna með notendur og heimildir](ui-how-users-permissions.md).  
+Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð Office 365 Frekari upplýsingar, sjá [Bæta notendum við Office 365 fyrir fyrirtæki](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Þegar notendur hafa verið stofnaðir í Office 365 er hægt að flytja þá inn í gluggann **notendur** með því að velja aðgerðina **Sækja notendur úr Office 365** Síðan geturðu haldið áfram að úthluta notendum heimildir og flokka þá í notendahópum. Nánari upplýsingar eru í [Hvernig á að: Vinna með notendur og heimildir](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Fá Hjálp
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] muntu finna ábendingar sem hjálpa þér við að komast í gegnum hina ýmsu viðskiptaferli. Í hverri ábendingu finnurðu tengla sem heita **Frekari upplýsingar** sem fer með þig í hjálp fyrir vöruna. Spurningamerki uppi hægra megin í horninu bendir þér einnig á hjálp fyrir vöruna.

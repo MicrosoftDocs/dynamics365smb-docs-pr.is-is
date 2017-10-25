@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 4e29a08e9b0fd9c20dac12bb32dd1be604ff2dcf
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-split-or-combine-fixed-assets"></a>Hvernig á að: flytja, skipta upp, eða sameina eignir
@@ -44,8 +43,8 @@ Hægt er að skipta einni eign í margar eignir, til dæmis þegar þörf er á 
 2. Úthluta eigna-/afskriftabók á nýju eignirnar. Nánari upplýsingar eru í [Hvernig á að: komast ufir eignir](fa-how-acquire.md).
 3. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Endurflokkunarbækur eignar** og velja svo viðeigandi tengil.
 4. Búa til tvö endurflokkunarbókarlínur, ein fyrir hverja nýja eign.
-5. Í fyrstu línunni er færð inn önnur eignina í reitinn **Nýtt Eignanr.** reit og 25 í reitinn **Endurflokka kaupverðs %** .
-6. Í annarri línunni er færð inn þriðja eignina í reitinn **Nýtt Eignanr.** og á 40 í reitnum **Endurflokka kaupverðs %**.
+5. Í fyrstu línunni er færð inn önnur eignin í reitinn **Nýtt Eignanr.** og 25 í **Endurflokka kaupverð %** reitinn.
+6. Í annarri línunni er færð inn þriðja eignin í reitinn **Nýtt Eignanr.** og 40 í **Endurflokka kaupverð %** reitinn.
 7. Í báðum línum velja **Endurflokka kaupverð** og **Endurflokka Afskriftir** gátreiti.   
 8. Valið er **endurflokka** aðgerð.
 
@@ -57,7 +56,7 @@ Hægt er að skipta einni eign í margar eignir, til dæmis þegar þörf er á 
 Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir skiptum eignum í eina deild. Ef búið er að bóka kaupverð og afskriftir fyrir eignina sem á að færa, verða þessi gildi sameinuð í eina staka eign.
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Endurflokkunarbækur eignar** og velja svo viðeigandi tengil.
-2. Stofna endurflokkunarbók þar sem **Eignanr.** reiturinn inniheldur eignina sem á að færa/sameina og **Nýtt Eignanr.** reiturinn inniheldur eignina sem verður sameinað við.
+2. Stofna endurflokkunarbók þar sem **Eignanr.** reiturinn inniheldur eignina sem á að færa/sameina og **Nýtt Eignanr.** reiturinn inniheldur eignina sem hún verður sameinuð við.
 3. Láttu Reiturinn **Endurflokka kaupverðs %** auðan til að flytja/sameina allt kaupverð.    
 4. Veldu **Endurflokka kaupverð** og **Endurflokka Afskriftir** gátreiti.
 5. Í flipanum **Aðgerðir** veljið **Endurflokka**.

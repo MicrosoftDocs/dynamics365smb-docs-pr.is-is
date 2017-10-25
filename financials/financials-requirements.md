@@ -1,6 +1,6 @@
 ---
-title: "Lágmarkskröfur til notkunar Dynamics 365 for Financials | Microsoft Docs"
-description: "Kröfur kerfisins um notkun Dynamics 365 fyrir fjármál"
+title: "Lágmarkskröfur til notkunar Financials | Microsoft Docs"
+description: "Lærðu um lágmarks kerfis- og útgáfukröfur til að nota Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fad8d80a94971c5ad73d76175e0a31ba5dc4f29a
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e1f5b9c3a8ef7337d3b958e733e034c79a9bc2bc
 ms.contentlocale: is-is
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="minimum-requirements-for-using-dynamics-365-for-financials"></a>Lágmarkskröfur til að nota Dynamics 365 fyrir fjármál
+# <a name="minimum-requirements-for-using-dynamics-365-for-financials"></a>Lágmarkskröfur til að nota Dynamics 365 for Financials
 Áður en þú ferð inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
 
 ## <a name="browsers"></a>Vafrar
@@ -38,8 +37,8 @@ ms.lasthandoff: 05/04/2017
 ## <a name="outlook"></a>Outlook
 **Outlook forrit:** Til að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2013 eða síðar, Outlook Web App, OWA fyrir iPhone, OWA fyrir iPad eða OWA fyrir Android.  
 **Vafrar:** Þegar [!INCLUDE[d365fin](includes/d365fin_md.md)] er notað sem fyrirtækisinnhólf í Outlokk eða Outlook-vefforrit (OWA) krefst innbótin að tölvan þín keyri einn af skráðum studdum vöfrum sem eru tilteknir fyrr í þessari grein.  
-**Verkvangarð**: Þegar þú notar [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In í OWA fyrir iPhone, OWA fyrir iPad og OWA fyrir Android þarf viðbótin að farsíminn þinn sé að keyra eitt af farsímum sem eru skráðir fyrir stuðning [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+**Verkvangar:** Þegar þú notar [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In í OWA fyrir iPhone, OWA fyrir iPad og OWA fyrir Android þarf viðbótin að farsíminn þinn sé að keyra eitt af farsímum sem eru skráðir fyrir stuðning [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (index.md)  
+[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

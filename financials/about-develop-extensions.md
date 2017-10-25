@@ -1,5 +1,5 @@
 ---
-title: "Sérstilla Dynamics 365 fyrir Financials| Microsoft Docs"
+title: "Sérstilla Dynamics 365 for Financials| Microsoft Docs"
 description: "Setjið saman, sýna og kynna forrit og viðbætur fyrir Dynamics 365 for Financials"
 services: project-madeira
 documentationcenter: 
@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
+ms.translationtype: HT
+ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
+ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Stækka [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -48,6 +47,9 @@ Að telja upp eiginleika og virkni forritsins dugar ekki til að gera áhugasama
 + Birta forritið þitt  
 Áður en við birtum vinnum við með notanda til að tryggja að forritið hans veki athygli á Microsoft AppSource og á hans eigin lendingarsíðu! Við þurfum að sannprófa forritið til að vera viss um að það sé vel markaðssett, áreiðanlegt og nýuppfært.
 Til að fá frekari upplýsingar um sannprófunarferlið og hvernig á að birta forritið skal sækja skjalið [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) úr Niðurhalsverinu.
+
+## <a name="learn-more-about-extensions-v20"></a>Frekari upplýsingar um viðbætur v2.0
+Nýju þróunarverkfærin, sem gera þér kleift að búa til viðbætur v2.0, eru sem stendur í forskoðun og verða fljótlega virkjaðar í Dynamics 365 for Financials. Ef þú vilt nú þegar kynna þér nýju verkfærin eða læra meira um viðbætur 2.0, skaltu kíkja á [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Þarft hjálp?
 Til að fá handleiðslu má hafa samband við sérfræðing í forritagerð á eftirfarandi lista:

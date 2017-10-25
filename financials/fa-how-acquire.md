@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 903c1a858fe66482cb4404e8b792abade6106489
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-acquire-fixed-assets"></a>Hvernig á að: komast Yfir Eignir
@@ -53,7 +52,7 @@ Setja verður bæði aðaleignina og íhluti hennar upp sem einstök eignaspjöl
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignir** og velja svo viðeigandi tengil.
 2. Valin er eignin sem er aðaleignin er valin síðan **íhlutir aðaleignar** aðgerð.
-3. Í reitnum **íhlutir aðaleignar** er valið **Eignanr.**. reiturinn og síðan valið eignin sem á að bæta við sem íhlut aðaleignar.
+3. Í glugganum **Íhlutir aðaleignar** skal velja reitinn **Eignanr.** og síðan valið eignin sem á að bæta við sem íhlut aðaleignar.
 4. Glugganum er lokað.
 5. Endurtaktu þrep 3 og 4 fyrir hverja íhlut eignar sem ætlunin er að bæta við.
 6. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning eigna** og velja svo viðeigandi tengil.
@@ -71,7 +70,7 @@ Eftirfarandi ferli sýnir hvernig á að komast yfir eign handvirkt með því a
 4. Valið er **bóka** aðgerð.  
 
 > [!TIP]  
->   Ef þú slærð inn **Vátryggingarnr.** í reit fjárhagsbók eigna þegar kaupverð er bókað, mun [!INCLUDE[d365fin](includes/d365fin_md.md)] líka bóka kaupverð eignarinnar í vátryggingasviðsbókina. Nánari upplýsingar sjá [Hvernig á að: tryggja eignir](fa-how-insure.md)
+>   Ef þú fyllir upp í reitinn **Tryggingarnúmer** í fjárhagsbók eigna þegar kaupverð er bókað, mun [!INCLUDE[d365fin](includes/d365fin_md.md)] líka bóka kaupverð eignarinnar í vátryggingasviðsbókina. Nánari upplýsingar sjá [Hvernig á að: tryggja eignir](fa-how-insure.md)
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Ógilding bókunar kaupverðs fyrir eina eign
 Ef villa á sér stað við bókun stofnkostnaðar er hægt að fjarlægja færsluna með keyrslunni **Afturkalla eignafærslur** og bóka síðan rétta stofnkostnaðarfærslu. Röngu færslurnar eru fluttar í gluggann **Rangar eignafærslur.**

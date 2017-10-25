@@ -9,14 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2017
+ms.date: 08/17/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="smart-notifications"></a>Snallar tilkynningar
@@ -27,8 +26,10 @@ Ef valið er að sjá upplýsingar um tilkynningu er hægt að gera eitthvað ti
 Tilkynningar geta hjálpað óreyndum notendum við að ljúka við verkefni þar sem þeir þekkja ekki til og draga ekki úr framleiðni notenda með meiri reynslu.  
 
 ## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Kveikja eða slökkva á tilkynningum og stjórna því hvenær þær eru sendar
-Þegar byrjað er a nota [!INCLUDE[d365fin](includes/d365fin_md.md)] er kveikt á öllum tilkynningum. Hægt er að slökkva eða kveikja á þeim, t.d. ef einhver tilvik eða staða á ekki að birtast.   
+Þegar byrjað er a nota [!INCLUDE[d365fin](includes/d365fin_md.md)] er kveikt á öllum tilkynningum. Hægt er að slökkva eða kveikja á þeim, t.d. ef einhver tilvik eða staða á ekki að birtast.  
+  
 Að auki gera sumar tilkynningar notendum kleift að tiltaka skilyrðin fyrir sendingu þeirra. Ef það á til dæmis að birtast tilkynning þegar litlar birgðir eru til staðar, en aðeins fyrir hluti sem eru keyptir frá tilteknum lánardrottni.  
+  
 Kveikt eða slökkt á tilkynningum og skilyrði gilda aðeins um þig.  
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Mínar tilkynningar** og velja svo viðeigandi tengil.

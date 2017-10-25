@@ -1,7 +1,6 @@
 ---
 title: Uppsetning eigna| Microsoft Docs
 description: "Kynntu þér röð verkhluta sem þú þarft að framkvæma til að setja upp eignir, eins og t.d. þá sem tengjast vélum eða byggingum."
-services: project-madeira
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -10,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 9dea8be0f5b0200f97082dc25dbaa2483ad6c735
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-fixed-assets"></a>Uppsetning eigna
@@ -32,6 +30,9 @@ Taflan hér að neðan inniheldur tengla í frekari upplýsingar. Eftir að þú
 >   Hægt er að skrá eignafærslur í **Fjárhagsbók eigna** eða í **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á **fjárhagsbók eigna** glugginn.  
 
 Þegar þú virkjar aðgerð eignar í **Fjárhagsheildun** hlutanum í á **Afskriftabókarspjald** glugganum verður glugginn **Fjárhagsbók eigna** notaður til að bóka færslur á aðgerðinni.
+
+> [!NOTE]  
+>  Þessi virkni krefst þess að upplifunin sé stillt á **Suite**. Nánari upplýsingar er að finna í [Aðlaga Financials upplifun þína](ui-experiences.md).  
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
 

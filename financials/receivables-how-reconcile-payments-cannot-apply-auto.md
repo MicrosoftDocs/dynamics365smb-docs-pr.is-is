@@ -1,8 +1,6 @@
 ---
 title: "Afstemma greiðslur með því að nota eiginleikann Flytja mismun á reikning | Microsoft Docs"
 description: "Lýsir því hvernig skal vinna greiðslur sem ekki er hægt að jafna við skjal, til dæmis þegar gengi gjaldmiðla veldur breytingum á upphæðum."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 37d2d8af5086a9f633cb90abb380578b4ca73136
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 741c46f51c9ffd6e3b7f9d429accfd394684c9ed
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-payments-that-cannot-be-applied-automatically"></a>hvernig á að: afstemma greiðslur sem ekki er hægt að afstemma sjálfkrafa.
@@ -28,9 +25,9 @@ Greiðslur sem ekki er hægt að jafna geta birst á greiðsluafstemmingarbókar
 * Gildið í **Mismunur** reit er jafnt og gildið í **færsluupphæð** reitnum sem gefur til kynna að enginn hluti greiðslunnar getur verið jafnaður við tengda opna viðskiptavina-, lánardrottna- eða bankareikningsfærslu.
 * Gildið í **Mismunur** reit er lægri en gildið í **færsluupphæð** reitnum sem gefur til kynna að hluti greiðslunnar getur verið jafnaður við tengda opna viðskiptavina-, lánardrottna- eða bankareikningsfærslu. Eftirstandandi hluti greiðslunnar er ekki hægt að jafna og verður að vera afstemmdur handvirkt eða með því að bóka hann beint á reikninginn.
 
-Að afstemma slíka greiðslu, þú getur valið flutnings hnappinn Flytja mismun á reikning og tilgreina síðan hvaða reikning upphæðin í reitnum mismunur verður bókuð á þegar þú bókar greiðsluafstemmingarbók.
+Að afstemma slíka greiðslu, þú getur valið flutnings hnappinn **Flytja mismun á reikning** og tilgreina síðan hvaða reikning upphæðin í reitnum **mismunur** verður bókuð á þegar þú bókar greiðsluafstemmingarbók.
 
-> [!NOTE]  
+> [!TIP]  
 >   Svipuð virkni er til til að setja upp sjálfvirka afstemmingu á endurteknum greiðslum sem er ekki hægt að jafna við tengda opna viðskiptavina-, lánardrottna- eða bankareikningsfærslur. Fyrir frekar upplýsingar, sjá [Hvernig á að varpa texta á endurteknar greiðslur á reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
 ## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Að afstemma greiðslur sem ekki er hægt að jafna
@@ -38,7 +35,7 @@ Að afstemma slíka greiðslu, þú getur valið flutnings hnappinn Flytja mismu
 2. Opna skal greiðsluafstemmingarbók. Frekari upplýsingar eru í [hvernig á að afstemma greiðslur með því að nota sjálfvirka jöfnun](receivables-how-reconcile-payments-auto-application.md)
 3. Veldu **Flytja mismun á reikning** Glugginn **Flytja mismun á reikning** opnast.
 4. Í reitnum **Tegund reiknings** tilgreindu tegund reiknings sem greiðsluupphæðin verður bókuð á.
-5. Í svæðinu **Bankareikningsnúmer**,  reit, tilgreindu reiknings sem greiðsluupphæð verður bókuð á.
+5. Í reitnum **Reikningsnúmer** tilgreindu reiknings sem greiðsluupphæð verður bókuð á.
 6. Í reitnum **Lýsing** tilgreindu texta sem lýsir þessum beinu greiðslubókun. Sjálfgefið er að textinn í reitnum **Færslutexti** sé færður inn.
 7. Velja hnappinn **Í lagi**.
 

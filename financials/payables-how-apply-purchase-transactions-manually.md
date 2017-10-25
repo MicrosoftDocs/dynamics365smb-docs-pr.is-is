@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 06/06/2017
+ms.date: 06/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6f0f3e1c14e21fff736b54b4c5f7423e1e909e72
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 7c13f127f1ca9f9d95878d79afe21488df7868a6
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-vendor-payments-manually"></a>Hvernig á að: Afstemma greiðslur á lánardrottna handvirkt 
@@ -35,15 +34,15 @@ Hægt er að jafna lánardrottnafærslur á þrjá vegu:
 > [!NOTE]  
 >   Ef reiturinn **Jöfnunaraðferð** á lánardrottnaspjaldinu er með **Jafna við elstu** þá munu greiðslur sjálfkrafa vera jöfnuð við elstu opnu kreditfærsluna ef þú tilgreinir ekki handvirkt hvaða færslu eigi að jafna við. Ef jöfnunaraðferðin fyrir viðskiptamann er **Handvirkt** verður að jafna færslur handvirkt.
 
-Hægt er að jafna greiðslur á lánardrottna handvirkt á tengd innkaupaskjöl þeirra tengdar við bókun á greiðslum í á glugga **greiðslubókar**. Upplýsingar um að fylla greiðslubók, sjá [hvernig skal: gera greiðslur](payables-make-payments.md)
+Hægt er að jafna greiðslur á lánardrottna handvirkt á tengd innkaupaskjöl þeirra tengdar við bókun á greiðslum í á glugga **greiðslubókar**. Upplýsingar um að fylla greiðslubók, sjá [Framkvæma greiðslur](payables-make-payments.md).
 
-Einnig má jafna greiðslur á lánardrottna og greiðslur viðskiptamnns, eftir að greiðslur birtast sem neikvæðar bankafærslur í þínum banka. Í **greiðsluafstemmingarbók** glugganum geturðu notað virkni fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
+Einnig má jafna greiðslur á lánardrottna og greiðslur viðskiptamanns, eftir að greiðslur birtast sem neikvæðar bankafærslur í þínum banka. Í **greiðsluafstemmingarbók** glugganum geturðu notað virkni fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Greiðsla jöfnuð við eina eða margar lánardrottnabókarfærslur
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greiðslubók** og velja svo viðeigandi tengil.
 2. Í **greiðslubókargluggi** í fyrstu færslubókarlína eru ritaðar viðeigandi upplýsingar um greiðslufærsluna.
 3. Til að jafna eina lánardrottnafærslur :
-   1. Í reitnum **jöfnunarskjalsnúmer** er valið í reit til að opna **Jafna lánardr.færslur** gluggann.
+   1. Í reitnum **Jafna við skjal nr.** er valinn reiturinn til að opna **Jafna lánardr.færslur** gluggann.
    2. Í glugganum **Jafna lánardr.færslur** eru valin færsla til að jafna greiðsluna við.
    3. Á línunni í reitnum  **upphæð til jöfnunar** er upphæðin sem jafna á við færsluna færð inn.
 4. Eða, til að jafna margar lánardrottnabókarfærslur
@@ -61,7 +60,7 @@ Einnig má jafna greiðslur á lánardrottna og greiðslur viðskiptamnns, eftir
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupakreditreikningur** og velja svo viðeigandi tengil.
 2. Opna kreditreikningur sem á að nota.
 3. Viðeigandi upplýsingar eru ritaðar í hausinn.
-4. Til að framkvæma eina lánardrottnafærslu, á **Jöfnun** flýtiflipanum í **Jafna-skjalnúmer** reitnum, veldu færslan sem jafna á kreditreikning við og síðan í reitnum **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna.
+4. Til að jafna einstaka lánardrottnafærslu, á **Jöfnun** flýtiflipanum, í reitnum **Jafna við skjal nr.** skal velja færslan sem jafna á kreditreikning við og síðan í reitnum **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna.
 5. Eða, til að jafna margar lánardrottnabókarfærslur
 
    1. Valið er **Jafna Færslur** aðgerð.
@@ -71,7 +70,7 @@ Einnig má jafna greiðslur á lánardrottna og greiðslur viðskiptamnns, eftir
 
        Ef engin færsla er rituð jafnar forritið sjálfkrafa við hámarksupphæðina. Neðst í glugganum  **jafna lánardrottnafærslur** má sjá upphæðina í reitnum **jöfnuð upphæð**, og einnig hvort jöfnunin stemmir.
 6. Velja hnappinn **Í lagi**.  
-   Glugginn **innkaupakreditreikningur** sýnir færsluna sem þú hefur valið í **jöfnunarskjalstegund**  reitnum og **jöfnunarskjalsnúmer**. . Glugginn sýnir einnig upphæð kreditreikningsins sem á að bóka, leiðrétta fyrir hugsanlegan greiðsluafslátt.
+   Glugginn **innkaupakreditreikningur** sýnir færsluna sem þú hefur valið í **jöfnunarskjalstegund** reitnum og **jöfnunarskjalsnúmer**. Glugginn sýnir einnig upphæð kreditreikningsins sem á að bóka, leiðrétta fyrir hugsanlegan greiðsluafslátt.
 7. Velja **bóka** hnappur til að bóka innkaupakreditreikningur.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Bókaðar lánardrottnafærslur jafnaðar:

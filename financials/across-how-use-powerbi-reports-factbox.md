@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Skoða listagögn í Power BI skýrslum í Dynamics 365 for Financials.
@@ -27,7 +26,7 @@ ms.lasthandoff: 07/07/2017
 >   Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin](includes/d365fin_md.md)] og hjá Power BI. Einnig þarf að sækja [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Frekari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem gagnaveitu í Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Gagnamengi skýrslu
-Þegar skýrslan er stofnuð í Afl BI Skjáborðið tilgreina gögn uppruna veftengingar eða þjónustu sem inniheldur gögn sem tengjast sem á að tengja skýrslu með lista. Til dæmis ef notandi vill stofna skýrslu fyrir sölulista skal tryggja að gagnamengið innihaldi upplýsingar sem tengjast sölu.  
+Þegar skýrslan er stofnuð í Power BI Desktop tilgreina gögn uppruna veftengingar eða þjónustu sem inniheldur gögn sem tengjast sem á að tengja skýrslu með lista. Til dæmis ef notandi vill stofna skýrslu fyrir sölulista skal tryggja að gagnamengið innihaldi upplýsingar sem tengjast sölu.  
 
 Til að afmarka gögn í skýrslum á grundvelli færslunnar sem valin var á listasíðunni verður að nota aðallykil sem skýrslusíu. Aðallykillinn verður að vera hluti af gagnamenginu til að skýrslan verði rétt afmörkuð. Í flestum tilvikum er aðallykill fyrir lista reiturinn **Nr.** .  
 
@@ -64,7 +63,7 @@ Með Power BI er hægt að stofna eina skýrslu með mörgum síðum. Myndrænir
 
 **Notandi sér enga skýrslu á síðunni Velja skýrslu sem hann vill velja.** Ef notandi getur ekki valið skýrslu er hugsanlega hægt að staðfesta heiti skýrslunnar til að tryggja að heitið innihaldi heiti listasíðunnar. Einnig er hægt að fjarlægja afmörkunina til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.  
 
-**Skýrslan er sótt en er auð, ekki afmörkuð eða afmörkuð með röngum hætti** Sannprófa verður að skýrsluafmörkunin innihaldi réttan aðallykil. Yfirleitt er þetta **Nr.** reitur, en í töflunni **Fjárhagsfærsla**, til dæmis, verður að nota **Færslunr.** reitur  .
+**Skýrslan er sótt en er auð, ekki afmörkuð eða afmörkuð með röngum hætti** Sannprófa verður að skýrsluafmörkunin innihaldi réttan aðallykil. Yfirleitt er þetta **Nr.** reitur, en í töflunni **Fjárhagsfærsla**, til dæmis, verður að nota **Færslunr.** reitinn.
 
 **Skýrslunni er hlaðið upp en sýnir síðu sem notandi átti ekki von á að sjá** Sannprófa verður að skýrslan sem notandi vill að birtist sé fyrsta síðan í skýrslunni.  
 

@@ -11,19 +11,18 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 0602/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 29b204502281b728889098ae8d88f928e4f46e20
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-dynamics-365-for-financials-without-outlook"></a>Notkun Dynamics 365 for Financials án Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur mikla samþættingu við Office 365 og þú getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)] sem fyrirtækisinnhólf í Outlook. En ef þú ert ekki með Outlook, geturðu unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)] í vafra eða á fartækinu þínu.  
 
 ## <a name="sending-email"></a>Senda Tölvupóst
-Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfangi fyrirtækis. Úr á heimasíðu fæst aðgangur uppsetningarleiðbeiningum með hjálp sem hjálpa þer að setja upp tölvupóst. Ef þú notar ekki office 365 tölvupóstreikning, verður þú að tilgreina tæknilegar upplýsingar um tölvupóstþjóninn þinn. Ef þú ert ekki með þessar upplýsingar tiltækar, hafðu samband við starfsfólk þitt sem veitir tækniþjónustu.  
+Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfangi fyrirtækis. Úr á heimasíðu fæst aðgangur uppsetningarleiðbeiningum með hjálp sem hjálpa þer að setja upp tölvupóst. Ef þú notar ekki Office 365 tölvupóstreikning, verður þú að tilgreina tæknilegar upplýsingar um tölvupóstþjóninn þinn. Ef þú ert ekki með þessar upplýsingar tiltækar, hafðu samband við starfsfólk þitt sem veitir tækniþjónustu.  
 
 
 ## <a name="see-also"></a>Sjá einnig

@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 83af1b6b3a234f67ccc26ee9bba7f5e3e6ff6d77
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Hvernig skal: Skoða tiltækileika vöru
@@ -78,10 +77,10 @@ Hægt er að sjá tiltækileika allra vara á öllum stöðum í glugganum **Vö
     Glugginn **Vörur eftir staðsetningu** sýnir hve margar vörur af hverri tegund fyrir sig eru tiltækar á öllum staðsetningum.
 3. Veljið gildið á svæðinu **Magn á lager** til að skoða birgðafærslur sem mynda gildið.
 
-## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-boms"></a>Að skoða framboð vöru eftir notkun hennar í samsetningu Uppskrifta
-Ef til er vara í samsetningu Uppskriftir, annaðhvort sem yfirvöru eða íhlutur, þá er hægt að skoða hversu margar einingar af henni sé krafist í **Framboð vöru eftir Uppskriftarstigi** glugganum. Glugginn sýnir hve margar einingar af yfirvöru er hægt að gera á grundvelli framboðs undirvara á undirliggjandi línum. Allar vörur sem hafa samsetningu Uppskriftarinnar birtast í glugganum sem samanbrjótanleg línu. Hægt er að stækka línuna til að birta undirliggjandi íhluti og undirsamsetningar á lægri stigum ásamt eigin uppskriftum.
+## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Að skoða framboð vöru eftir notkun hennar í samsetningu eða uppskrifta
+Ef til er vara í samsetningu eða Uppskriftir, annaðhvort sem yfirvöru eða íhlutur, þá er hægt að skoða hversu margar einingar af henni sé krafist í **Framboð vöru eftir Uppskriftarstigi** glugganum. Glugginn sýnir hve margar einingar af yfirvöru er hægt að gera á grundvelli framboðs undirvara á undirliggjandi línum. Allar vörur sem hafa samsetningu eða uppskriftarinnar birtast í glugganum sem samanbrjótanleg línu. Hægt er að stækka línuna til að birta undirliggjandi íhluti og undirsamsetningar á lægri stigum ásamt eigin uppskriftum.
 
-Hægt er að nota þennan glugga til að athuga hvort hægt sé að anna sölupöntun fyrir vöru á tiltekinni dagsetningu með því að skoða núverandi framboð ásamt magni sem íhlutir hennar geta annað. Einnig er hægt að nota gluggann til að auðkenna flöskuhálsa í tengdum samsetningum uppskrifta.
+Hægt er að nota þennan glugga til að athuga hvort hægt sé að anna sölupöntun fyrir vöru á tiltekinni dagsetningu með því að skoða núverandi framboð ásamt magni sem íhlutir hennar geta annað. Einnig er hægt að nota gluggann til að auðkenna flöskuhálsa í tengdum uppskriftum.
 
 Í hverri línu í glugganum fyrir bæði yfir- og undirvörur, tilgreinið tölur til ráðstöfunar i eftirfarandi lykilsvæðum. Hægt er að nota þessar tölur til að gefa fyrirheit um hversu margar einingar af yfirvöru hægt er að afhenda ef tengt samsetningarferli er ræst.
 
@@ -90,6 +89,7 @@ Hægt er að nota þennan glugga til að athuga hvort hægt sé að anna sölup�
 |**Get gert yfirmerki**|Sýnir hversu margar einingar hægt er að gera í undirsamsetningum í efstu vörunni. Reiturinn tilgreinir hversu margar tafarlausar yfireiningar hægt er að setja saman. Gildið er samkvæmt framboði vörunnar í línunni.|
 |**Get gert aðalvöru**|Sýnir hversu margar einingar efstu vörunnar hægt er að gera. Reiturinn tilgreinir hversu margar einingar af aðaluppskriftarvöru hægt er að setja saman. Gildið er samkvæmt framboði vörunnar í línunni.|
 
+### <a name="item-availability-by-bom-level-window"></a>Til ráðstöfunar e. uppskriftarstigi gluggi
 **Framboð vöru eftir uppskriftarstigi** glugginn sýnir upplýsingar um vöruna á línu spjalds eða skjals sem glugginn er opnaður fyrir. Varan er alltaf sýnd í efstu línunni. Hægt er að skoða upplýsingar um aðrar vörur eða allar vörur með því að breyta gildinu í **Afmörkun vöru** reitnum.
 
 > [!NOTE]  
@@ -97,13 +97,28 @@ Hægt er að nota þennan glugga til að athuga hvort hægt sé að anna sölup�
 
 Reiturinn **Flöskuháls** tilgreinir hvaða vara í skipulagi uppskriftarinnar kemur í veg fyrir að gert sé meira magn en það sem sýnt er í reitnum **Get gert aðalvöru**. Til dæmis getur flöskuhálsvaran verið innkeyptur íhlutur með áætlaðri móttökudagsetningu sem er kemur of seint til að gera viðbótareiningar af aðalvörunni fyrir dagsetninguna í reitnum **Verður að vera tilbúið fyrir þessa dagsetningu**.
 
+## <a name="assembly-availability-window"></a>Samsetningaráðstöfun gluggi 
+Glugginn **Samsetningaráðstöfun** birtir sundurliðaðar ráðstöfunarupplýsingarnar fyrir samsetningaríhluti. Það opnast:
+
+- Sjálfkrafa úr sölupöntunarlínu í samsetningarpöntunaraðstæður þegar magn er fært inn sem veldur vandamálum með ráðstöfun íhlutar.
+- Sjálfkrafa úr samsetningarpöntunarhaus þegar gildi er fært inn í reitinn Magn sem veldur vandamálum með ráðstöfun íhlutar.
+- Handvirkt þegar hann er opnaður í samsetningarpöntun. Á flipanum Aðgerðir í flokknum Eiginleikar veljið Sýna framboð.
+
+Flýtiflipinn **Upplýsingar** sýnir sundurliðaðar ráðstöfunarupplýsingarnar fyrir samsetningarvöruna, þar með talið hversu mikið af samsetningarpöntuninni er hægt að setja saman fyrir skiladagsetninguna út frá nauðsynlegum íhlutum til ráðstöfunar. Þetta birtist í reitnum Hægt að setja saman í flýtiflipanum Upplýsingar.
+
+Gildið í reitnum **Hægt að setja saman** er með rauðu letri ef magnið er undir magninu í reitnum **Eftirstandandi magn** sem gefur til kynna að ekki eru nógu margir íhlutir tiltækir til að setja saman fullt magn.
+
+Flýtiflipinn **Línur** birtir sundurliðaðar ráðstöfunarupplýsingarnar fyrir samsetningaríhluti.
+
+Ef einn eða fleiri samsetningaríhlutir eru ekki tiltækir endurspeglast það í reitnum **Hægt að setja saman** í viðkomandi línu sem magn sem er minna en magnið í **Eftirstöðvar (magn)** á flýtiflipanum **Upplýsingar**.
+
 ## <a name="see-also"></a>Sjá einnig
 [Stjórna birgðum](inventory-manage-inventory.md)  
+[Samsetningardeild](assembly-assemble-items.md)  
 [Hvernig á að: Vinna með uppskriftir](inventory-how-work-BOMs.md)    
 [Hvernig á að: Setja upp birgðageymslur](inventory-how-setup-locations.md)  
 [Hvernig á að: Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)  
 [Hvernig á að: Selja vörur](sales-how-sell-products.md)      
-[Aðfangakeðja](madeira-supply-chain.md)  
 [Unnið með Financials](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "Nýjungar í Dynamics 365 fyrir Financials| Microsoft Docs"
+title: "Nýjungar í Dynamics 365 for Financials| Microsoft Docs"
 description: "Lýsir nýjustu uppfærslum og fréttum af Dynamics 365 for Financials"
 services: project-madeira
 documentationcenter: 
@@ -12,15 +12,14 @@ ms.workload: na
 ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="whats-new-in-dynamics-365-for-financials"></a>Nýjungar í Dynamics 365 fyrir Financials
+# <a name="whats-new-in-dynamics-365-for-financials"></a>Nýjungar í Dynamics 365 for Financials
 Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_md.md)]! Ef þú hefur ekki þegar gert það skaltu skrá þig í forskoðunina, leyfa okkur að fylgja þér í gegnum grunnatriði þess sem þú getur gert með [!INCLUDE[d365fin](includes/d365fin_md.md)], og eftir það prófarðu þig áfram á eigin spýtur. Þegar þér hentar getur þú opnað autt fyrirtæki og sett upp hluti eins og þú vilt hafa það.  
 
 Með reglulegu millibili uppfærum við [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótarfærni í grunnhugbúnaðinum og með nýjum [viðbætur](ui-extensions.md). Til að sjá yfirlit yfir hvað er koma og hvað er nú þegar tiltækt, sjá [Dynamics 365 Vegakortið](https://roadmap.dynamics.com/) - og muna að afmarka fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -31,10 +30,10 @@ Með reglulegu millibili uppfærum við [!INCLUDE[d365fin](includes/d365fin_md.m
 Eins og tilkynnt var á blogginu, erum við nú þjónustuvöru sem þú notar í þínu fyrirtækið. En þessi uppfærsla bætir einnig við nýrri færni og nýjum viðbætum.
 
 ### <a name="project-management"></a>Verkefnastjórnun
-Ef þú skipta yfir í Pakka upplifun, er hægt að stjórna verkefnum og vinna með tilföng, vinnuskýrslur og verk. Þegar þú skráir þig fyrst inn í hlutverki Verkefnastjóri, mun uppsetningarleiðsögn með hjálp aðstoða þig við að setja upp hvernig þú vilt verkefnum stjórnað. Hægt er að vinna með sýniumsýsla reikninga, verk, tilföng, og þess háttar í sýnifyrirtækinu til að fá þekkingu á þessa aðgerð. Frekari upplýsingar eru í [Unnið með verkefni](projects-manage-projects.md).
+Ef þú skipta yfir í Suite upplifun, er hægt að stjórna verkefnum og vinna með tilföng, vinnuskýrslur og verk. Þegar þú skráir þig fyrst inn í hlutverki Verkefnastjóri, mun uppsetningarleiðsögn með hjálp aðstoða þig við að setja upp hvernig þú vilt verkefnum stjórnað. Hægt er að vinna með sýniumsýsla reikninga, verk, tilföng, og þess háttar í sýnifyrirtækinu til að fá þekkingu á þessa aðgerð. Nánari upplýsingar er að finna í [Umsjón verka](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Eignir
-Ef þú skipta yfir í Pakka upplifun, geturðu stjórna eignum, þar á meðal afskriftir og tryggingar. Staðlað uppsetning er veitt, en þú mátt breyta því ef og þegar þú vilt. Hægt er að skrá innkaup eigna í sérstakar fjárhagsbækur eigna, þar sem þú getur einnig afskráningu eigna. Réttu reikningsfærslurnar eru búnar til sjálfkrafa. Frekari upplýsingar eru í [Eignir](fa-manage.md).
+Ef þú skiptir yfir í Suite upplifun, geturðu stjórnað eignum, þar á meðal afskriftir og tryggingar. Staðlað uppsetning er veitt, en þú mátt breyta því ef og þegar þú vilt. Hægt er að skrá innkaup eigna í sérstakar fjárhagsbækur eigna, þar sem þú getur einnig afskráningu eigna. Réttu reikningsfærslurnar eru búnar til sjálfkrafa. Frekari upplýsingar eru í [Eignir](fa-manage.md).
 
 ### <a name="new-extension-for-migrating-data-from-dynamics-gp"></a>Ný viðbót til að færa gögn úr Dynamics GP
 Ef fyrirtækið notar Dynamics GP í dag er hægt að nota uppsetningarleiðsögn með hjálp til að færa aðalskrár í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þú hlýtur að hafa flutt út núverandi viðskiptamenn, lánardrottna, birgðir og reikninga með því að nota aðgerðina flytja út gögn í Dynamics GP. Dynamics GP Gagnafærsla viðbót varpar sjálfkrafa útflutt gögn svo þú getur fljótlegt fengið núverandi gögnin þín í nýja fyrirtæki þitt í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar, sjá [Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md).
@@ -91,7 +90,7 @@ Við réðum gerðar nokkrar litlar en mikilvægt endurbætur á sölu- og innka
 Outlook-innbót nær nú yfir í Outlook-dagbókina. Úr erindi í dagatali, er hægt að opna [!INCLUDE[d365fin](includes/d365fin_md.md)] innbótina og sækja yfirlit fyrir viðskiptamanninn sem erindið tengist við. Síðan er hægt að stofna og senda reikning fyrir þjónustu sem veitt var á fundinum - allt þetta gerist í þarna Outlook-dagbókinni. Nánari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnboxið þitt í Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource marketplace fyrir viðbætur
-[!INCLUDE[d365fin](includes/d365fin_md.md)] viðbætur eru nú tiltækar á markaðstorgi AppSource á [AppSource.microsoft.com](https://appsource.microsoft.com/). Þú munt geta leita að og finna viðbætur á markaðstorginu. Þú munt geta skoðað upplýsingarnar, þar á meðal markaðssetningarefni, skjámyndir, myndskeið og tengla að öðrum upplýsingum. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] viðbætur er nú tiltækar á AppSource markaðstorginu á [AppSource.microsoft.com](https://appsource.microsoft.com/). Þú munt geta leita að og fundið viðbætur þar. Þú munt geta skoðað upplýsingarnar, þar á meðal markaðssetningarefni, skjámyndir, myndskeið og tengla að öðrum upplýsingum. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Flutningsaðilar og vörueigindir
 Hægt er að bæta eigindum við vörur í birgðaskrá sem gera þér virkilega auðvelt að finna réttu varan sem viðskiptamaðurinn vill. Frekari upplýsingar eru í [hvernig á að: vinna með vörueigindir](inventory-how-work-item-attributes.md).  
@@ -100,8 +99,8 @@ Hægt er að bæta eigindum við vörur í birgðaskrá sem gera þér virkilega
 Með þessari uppfærslu er hægt að velja milli jafnvel fleiri viðbætur í glugganum **Viðbótastjórnun**.
 Nánari upplýsingar, sjá [[!INCLUDE[d365fin](includes/d365fin_md.md)] viðbætur af hálfu annarra veita](ui-extensions-other.md).  
 
-### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Stjórna tengsl við viðskiptamenn með því að nota Microsoft Dynamics CRM innan úr [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Við höfum bætt við nýrri uppsetningarleiðsögn með hjálp á heimasíðu Yfirmaður Fyrirtækis sem leiðir þig í gegnum uppsetningarferlið sem tengir þig við Dynamics CRM. Þegar það er komið, verður þú með hnökralausa tengingu Dynamics CRM skráa við [!INCLUDE[d365fin](includes/d365fin_md.md)] skrár. Nánari upplýsingar, sjá [Stjórna tengsl við viðskiptamenn með því að nota Microsoft Dynamics CRM innan úr [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Stjórna tengsl við viðskiptamenn með því að nota Microsoft Dynamics 365 for Sales innan úr [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Við höfum bætt við nýrri uppsetningarleiðsögn með hjálp á heimasíðu Yfirmaður Fyrirtækis sem leiðir þig í gegnum uppsetningarferlið sem tengir þig við Dynamics 365 for Sales. Þegar það er gert verður þú að hafa óaðfinnanlega tengingu við Dynamics 365 for Sales færslur með [!INCLUDE[d365fin](includes/d365fin_md.md)] skrám. Frekari upplýsingar, sjá [Stjórna tengsl við viðskiptamenn með því að nota Microsoft Dynamics 365 for Sales innan úr [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Maí 2016 uppfærsla
 Þessi uppfærsla af [!INCLUDE[d365fin](includes/d365fin_md.md)] bætti við nýrri færni eins og [tilkynnt var á blogginu](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
@@ -112,7 +111,7 @@ Kanna **Viðbótastjórnun** gluggann: uppfærsla bætir við nýjum viðbætur,
 ### <a name="filter-on-unprocessed-incoming-documents"></a>Afmörkun á óunnin skjöl á innleið.
 Einnig hefur verið breytt sumri grunnvirkni uppfærslu þennan mánuð: Listinn yfir innsendra skjala er nú afmarkað til að sýna aðeins færslur sem ekki hefur verið notað til að stofna bókuðu skjöl með. Nánari upplýsingar, sjá [Vinna með skjöl á innleið](across-income-documents.md).  
 
-### <a name="office-suite-notifications-are-now-enabled-in-included365finincludesd365finmdmd"></a>Office Pakki tilkynningar eru nú virk í [!INCLUDE[d365fin](includes/d365fin_md.md)]
+### <a name="office-suite-notifications-are-now-enabled-in-included365finincludesd365finmdmd"></a>Office Suite tilkynningar eru nú virkar í [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Efst í hægra horninu, næst valmyndinni Stillingar, má sjá bjöllu táknið sem líklega þú þekkir þegar vel úr aðrar vörur Office: það er Tilkynningar valmyndin. Hér færðu sendar tilkynningar eins og nýja póst og dagatal áminningar beint þegar unnið er í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="april-2016-preview"></a>Forskoðun apríl 2016

@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/02/2017
+ms.date: 08/31/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-register-new-items"></a>Hvernig á að Skrá nýjar vörur
@@ -26,10 +25,12 @@ Birgðaspjald inniheldur upplýsingarnar sem þarf til að kaupa, selja, geyma o
 
 Birgðaspjaldið getur verið af gerðinni **Birgðir** eða **Þjónusta** til að tilgreina hvort vara er rauneining eða launatímaeining. Fyrir utan suma reiti sem tengjast efnislegum hlutum vöru, virka allir reitir birgðaspjaldi eins fyrir birgðavörur og þjónustu. Fyrir nánari upplýsingar um vörusölu, sjá [Hvernig á að: Selja vörur](sales-how-sell-products.md) eða [Hvernig á að: Reikningsfæra vörur](sales-how-invoice-sales.md).
 
-Hlutur getur verið uppbyggður sem yfireining með undirliggjandi undireiningu í uppskrift. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er uppskrift vísað til sem samsetningaruppskrift. Þú notar samsetningaruppskrift til að byggja upp yfireiningu sem þú selur sem undireiningar sem samanstanda af yfiríhlutnum eða sem þú setja saman í pöntun eða í birgðir. Nánari upplýsingar er að finna í [Hvernig á að: Vinna með uppskrift.](inventory-how-work-BOMs.md)
+Hlutur getur verið uppbyggður sem yfireining með undirliggjandi undireiningu í uppskrift. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] getur uppskrift verið annað hvort framleiðsluuppskrift eða samsetningaruppskrift, út frá notkun. Nánari upplýsingar er að finna í [Hvernig á að: Vinna með uppskrift.](inventory-how-work-BOMs.md)
 
 > [!NOTE]  
 >   Ef vörusniðmát er til fyrir mismunandi vörutegundir, þá birtist gluggi þar sem búið er til nýtt birgðaspjald og hægt er að velja viðeigandi vörusniðmát. Ef aðeins eitt vörusniðmát er fyrir hendi, nota ný birgðaspjöld alltaf það sniðmát.
+
+Ef sama varan er keypt frá fleiri en einum lánardrottni, er hægt að tengja þessa lánardrottna við birgðaspjaldið. Lánardrottnarnir munu þá birtast í **Vörulisti lánardrottins** glugganum, þannig að þú getir auðveldlega valið annan lánardrottinn.
 
 ## <a name="to-create-a-new-item-card"></a>Að búa til nýtt vöruspjald
 1. Á heimasíðunni skal velja aðgerðina **vörur** til að opna listann yfir núverandi vörur.  
@@ -39,6 +40,11 @@ Hlutur getur verið uppbyggður sem yfireining með undirliggjandi undireiningu 
 3. Í glugganum **Velja sniðmát fyrir nýja vöru** skal velja sniðmátið sem á að nota fyrir nýja birgðaspjaldið.
 4. Velja hnappinn **Í lagi**. Nýtt birgðaspjald opnast þar sem búið er að fylla upplýsingar úr sniðmátinu inn í suma reitina.
 5. Því næst skal færa inn eða breyta reitum á birgðaspjaldinu eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> Í reitnum **Aðferð kostnaðarútreiknings** seturðu upp hvernig kerfið reiknar út kostnaðarverð með því að áætla vöruflæði fyrirtækisins. Fimm aðferðir kostnaðarútreiknings eru í boði, út frá gerð vörunnar. Nánari upplýsingar eru í [Upplýsingar um hönnun: Kostnaðarútreikningar](design-details-costing-methods.md).
+>
+> Ef þú velur **Meðaltal** er kostnaðarverð vöru reiknað sem meðaleiningaverð vara á hverjum tímapunkti eftir innkaup. Fyrir verðmat birgða, er gert ráð fyrir að allar birgðir verði seldar á sama tíma. Með þessar stillingar geturðu valið **kostnaðarverð** reitinn í glugganum **Meðalkostnaður útreiknaður yfirlit** til að skoða færslusöguna sem meðalkostnaður er reiknaður út frá.
 
 Á **Verð og bókun** flýtiflipanum geturðu skoðað sérstakt verð eða afslætti sem þú veitir fyrir vöruna ef tilteknar viðmiðanir eru uppfylltar, svo sem viðskiptavina, lágmarksfjöldi eða lokadagur. Hver lína stendur fyrir sértilboðsverð eða línuafslátt. Hver dálkur táknar viðmiðun sem verða að sækja til að réttlæta sérstakt verð sem þú slærð inn í **Einingaverð** sviði, eða línuafslátt sem þú slærð inn í **Línuafsláttur (%**. Nánari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -55,6 +61,18 @@ Ef nota á þetta birgðaspjald sem sniðmát þegar ný birgðaspjöld eru búi
 
 Vörusniðmátinu verður bætt við lista vörusniðmáta þannig að hægt er að nota það til að búa til ný birgðaspjöld.
 
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Margir lánardrottnar settir upp fyrir vörur  
+Ef sama varan er keypt frá fleiri en einum lánardrottni þarf að færa inn upplýsingar um hvern lánardrottinn eins og verð, afhendingartími, afsláttur o.s.frv.  
+
+1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
+2.  Velja skal viðeigandi vöru og síðan aðgerðina **Breyta**.  
+3.  Veljið **Lánardrottinn** aðgerðina.  
+4.  Velja reitinn **Nr. lánardrottins** og síðan velja þann lánardrottinn sem setja á upp fyrir vöruna.  
+5.  Einnig er hægt að fylla inn í þá reiti sem eftir eru.  
+6.  Endurtakið skref 2 til 5 fyrir hvern þann lánardrottinn sem þú vilt kaupa vöru af.
+
+Lánardrottnarnir munu nú birtast í **Vörulisti lánardrottins** glugganum, sem þú opnar frá birgðaspjaldinu, þannig að þú getir auðveldlega valið annan lánardrottinn.
+
 ## <a name="see-also"></a>Sjá einnig
   [Birgðir](inventory-manage-inventory.md)  
   [Innkaup](purchasing-manage-purchasing.md)  
@@ -62,3 +80,4 @@ Vörusniðmátinu verður bætt við lista vörusniðmáta þannig að hægt er 
   [Unnið með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

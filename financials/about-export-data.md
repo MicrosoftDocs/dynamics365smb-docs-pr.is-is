@@ -1,5 +1,5 @@
 ---
-title: "Flytja út fjárhagsupplýsingar í Excel | Microsoft Docs"
+title: "Flytja út gögn úr Financials í Excel | Microsoft Docs"
 description: "Þú getur flutt út fjárhagsskýrslur og gögn um viðskiptagreind frá Dynamics 365 for Financials yfir í Excel, eða opnað Financials gögnin í Excel."
 services: project-madeira
 documentationcenter: 
@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 054288659215df61a99564ab856bfb5f72ee7f39
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Flutningur viðskiptagagna í Excel

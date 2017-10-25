@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setja upp sjóðstreymisgreiningu
@@ -83,7 +82,7 @@ Nota handvirkt ferli:
 Þú getur einnig búið til þína eigin fyrirsjáanlega vefþjónustu byggt á opinberu fyrirmynd sem heitir **Forspármódel fyrir Microsoft Dynamics 365 for Financials**. Þetta líkan er aðgengilegt á netinu í Cortana Intelligence Gallery. Fylgið eftirfarandi skrefum til að fá aðgang að reitunum:  
 
 1. Opnaðu vafra og farðu í [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Leita **Öryggislíkanið Spá fyrir Microsoft Dynamics 365 fyrir skráð fjárhag Sinn**, og opna svo líkaninu Azure Vélastöðvar Learning Studio í.  
+2. Leita **Öryggislíkanið Spá fyrir Microsoft Dynamics 365 for Financials**, og opna svo líkaninu Azure Machine Learning Studio.  
 3. Nota á reikninginn í Microsoft að undirrita fyrir workspace er og afrita síðan líkaninu sem.  
 4. Keyrslan líkaninu og út og þjónustu veftengingar.  
 5. Gera API URL og API lykillinn athugasemd. Þú munt nota þessi skilríki fyrir sjóðstreymisuppsetningu.  

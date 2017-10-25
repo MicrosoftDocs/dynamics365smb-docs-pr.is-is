@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 980a0646317c2b5c02c0eadcde9ba984c11580c4
+ms.translationtype: HT
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 6f7202da4290ae3f6093baed4185649c30d6a199
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="how-to-create-recurring-sales-and-purchase-lines"></a>Hvernig á að: Stofna ítrekaðar sölu- og innkaupalínur
@@ -39,12 +38,12 @@ Eftirfarandi ferli sýnir hvernig skal vinna með staðlaðar sölulínur. Það
 5. Velja skal **Í lagi** hnappinn til að setja staðlaðar sölulínur inn á reikninginn, þar sem þú getur endurnotað þær sem fyrir eru eða breytt upplýsingunum.
 
 ## <a name="to-create-multiple-sales-invoices-based-on-standard-sales-lines"></a>Stofna marga sölureikninga byggða á stöðluðum sölulínum
-Hægt er að nota **Búa til endurtekna sölureikninga.** runuvinnsluna til að stofna sölureikninga samkvæmt stöðluðum sölulínum sem eru tengdar við viðskiptamenn og með bókunardögum innan gildir-frá og gildir-til dagsetningum sem hafa verið tilgreindar í stöðluðum sölukóða.
+Hægt er að nota runuvinnsluna **Stofna ítrekaða sölureikninga** til að stofna sölureikninga samkvæmt stöðluðum sölulínum sem eru tengdar við viðskiptamenn og með bókunardögum innan gildir-frá og gildir-til dagsetningum sem hafa verið tilgreindar í stöðluðum sölukóða.
 
-Í **Endurteknar sölulínur** glugganum er einnig hægt að tilgreina greiðsluaðferð fyrir beingreiðslu og beingreiðsluumboð. Sölureikningarnir sem eru stofnaðir með **Búa til endurtekna sölureikninga.** runuvinnslunni munu þá innihalda upplýsingar sem eru nauðsynlegar til innheimta greiðslu fyrir sölureikningana með SEPA-beingreiðslum. Nánari upplýsingar má nálgast á Innheimta greiðslur með SEPA-beingreiðslum
+Í **Endurteknar sölulínur** glugganum er einnig hægt að tilgreina greiðsluaðferð fyrir beingreiðslu og beingreiðsluumboð. Sölureikningar sem eru stofnaðir með runuvinnslunni **Stofna ítrekaða sölureikninga** munu þá innihalda upplýsingar sem krafist er til að innheimta greiðslu fyrir sölureikninga með SEPA-beingreiðslu. Nánari upplýsingar má nálgast á [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Stofna endurtekna sölureikninga** og velja svo viðeigandi tengil.
-2. Í glugganum **Stofna endurtekna sölureikninga** skal fylla inn í reitina eins og þörf krefur.
+2. Í glugganum **Búa til endurtekna sölureikninga** þarf að fylla reitina út eftir þörfum.
 3. Í reitnum **Kóði** er færður inn kóðinn fyrir staðlaðar línur sem á að úthluta til viðskiptamanns sem þú vilt stofna sölureikning fyrir.
 4. Velja hnappinn **Í lagi**.
 

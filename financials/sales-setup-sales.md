@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 06/01/2017
+ms.date: 08/23/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 75ed584feda066a6c412f861bd624646c4c31085
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a16201e48cc823e687c9941082d34044d9612a29
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-sales"></a>Uppsetning sölu
@@ -37,6 +36,8 @@ Uppsetning fjármálatendrar sölu, eins og greiðslumáti og gjaldmiðill, er f
 | Setja upp sölumenn svo að hægt er að úthluta þeim á tengiliði viðskiptamanna eða mæla afköst sölumanna sem grunn til að reikna sölulaun eða bónusa. |[Hvernig á að: Setja upp sölumenn](sales-how-setup-salespeople.md) |
 | Tilgreint er fyrir tiltekin viðskiptamann eða alla viðskiptamenn hvernig söluskjöl eru send sjálfkrafa þegar **Bóka og senda** |[Hvernig á að: Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md) |
 | Settu upp tölvupóst til að innihalda samantekt á upplýsingum í söluskjali sem er verið að senda. |[Hvernig á að: Senda skjöl í tölvupósti](ui-how-send-documents-email.md) |
+|Notaðu EB vefþjónustu til að staðfesta að VSK-númerin viðskiptamanna.|[Hvernig á að staðfesta VSK-númer](sales-how-to-verify-vat-registration-numbers.md)|
+|Færa inn upplýsingar um mismunandi flutningsseljendur sem skipt er við, ásamt tengli á sendingarleitarþjónustu þeirra.|[Hvernig á að: Setja upp flutningsaðila](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  

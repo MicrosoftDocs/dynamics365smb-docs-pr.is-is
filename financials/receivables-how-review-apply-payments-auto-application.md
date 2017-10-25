@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Hvernig á að endurskoða eða jafna greiðslur handvirkt eftir sjálfvirka jöfnun
@@ -26,7 +25,7 @@ Fyrir hverja færslubókarlínu sem táknar greiðslu í glugganum **Greiðsluaf
 > [!IMPORTANT]  
 >   Þegar bankareikningurinn sem þú ert að jafna greiðslur fyrir er settur upp fyrir staðbundinn gjaldmiðil, þá sýnir glugginn **Greiðslujöfnun** allar opnar færslur í staðbundna gjaldmiðlinum, þ.m.t. opnar færslur fyrir skjöl sem voru upphaflega reikningsfærð í erlendum gjaldmiðli. Greiðslur sem beitt er til færslna með breyttum gjaldmiðlum má því birta með mismunandi magni en á upprunalegu skjali vegna hugsanlega mismunandi gengis sem bankinn notar og [!INCLUDE[d365fin](includes/d365fin_md.md)] í sömu röð.
 
-Því mælum við með því að þú leitir að erlendum gjaldmiðilskóðum í reitnum **Gjaldmiðilskóði** í glugganum **Greiðslujafnanir** til að kanna hvort jafnanir byggi á umreiknuðum gjaldmiðlum. Til að endurskoða upphaflega upphæð fylgiskjalsins í erlendum gjaldmiðli og til að skoða gengið sem notað er skal velja reitinn **Jafna-við Færslu nr.** og síðan á flýtivalmyndinni skal velja hnappinn kafa niður til að opna gluggann **Færslur í viðskiptamannabók** eða **Færslur í lánardrottnabók**.
+Því mælum við með því að þú leitir að erlendum gjaldmiðilskóðum í reitnum **Gjaldmiðilskóði** í glugganum **Greiðslujafnanir** til að kanna hvort jafnanir byggi á umreiknuðum gjaldmiðlum. Til að skoða upprunalegu upphæðina á skjalinu í erlenda gjaldmiðlinum og sjá gengið sem er notað, velurðu **Jafna við færslu nr.** reitinn, og svo, á flýtivalmyndinni, velurðu Kafa niður til að opna **Viðskiptamannafærslur** eða **Lánardrottnafærslur** gluggann.
 
 Allar leiðréttingar á hagnaði og tapi sem eru nauðsynlegar vegna umreiknings gjaldmiðils eru ekki meðhöndlaðar sjálfvirkt af [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

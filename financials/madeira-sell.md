@@ -12,18 +12,17 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2760d173a46e0ab382253179d899d6f7c3cf7a4f
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Gerast sölumaður [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Auka viðskiptatækifæri með [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-Ef þú sérhæfir þig í skýjalausnum, Office 365, SharePoint, iðnaðarlausnum, greiningu, áætlunar- og bókhaldskerfi, CRM, bókhaldshugbúnaði og/eða hugbúnaði sem hámarkar viðskiptaferli er Financials nýtt tækifæri fyrir þig.   
+Ef þú sérhæfir þig í skýjalausnum, Office 365 SharePoint, iðnaðarlausnum, greiningu, áætlunar- og bókhaldskerfi, CRM, bókhaldshugbúnaði og/eða hugbúnaði sem hámarkar viðskiptaferli er Financials nýtt tækifæri fyrir þig.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] getur aðstoðað þig við að aðskilja þig frá öðrum og styrkja sambandið við viðskiptamenn með því að færa þér eiginleikann að veita lausn sem tengir fólk og ferli líkt og hefur aldrei verið gert áður, innbyggt í kunnugleg Microsoft Office tól sem lítil og meðalstór fyrirtæki nota á hverjum degi.  
 

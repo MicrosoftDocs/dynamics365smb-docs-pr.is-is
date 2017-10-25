@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-pre-closing-reports"></a>Nota skýrslur fyrir lokun
@@ -26,7 +25,7 @@ Eftirfarandi tafla lýsir fjölda skýrslna sem kunna að vera gagnlegar í þes
 
 | Til | Sjá þessa skýrslu. |
 | --- | --- |
-| Prenta út nákvæma prófjöfnunarskýrslu fyrir einn eða fleiri bankareikninga með nánari upplýsingum um einstakar færslur. |Bankareikningur Hreyfingalisti |
+| Prenta út nákvæma prófjöfnunarskýrslu fyrir einn eða fleiri bankareikninga með nánari upplýsingum um einstakar færslur. |Bankareikn. - Hreyfingalisti |
 | Prenta út nákvæma prófjöfnunarskýrslu fyrir tiltekna viðskiptamenn. |Viðskiptamaður - prófjöfnuður |
 | Prenta út nákvæma prófjöfnunarskýrslu með upplýsingum um einstakar færslur, fyrir tiltekna viðskiptamenn á tilteknu tímabili. |Viðskm. - Hreyfingalisti |
 | Prenta út nákvæma prófjöfnunarskýrslu fyrir tiltekna lánardrottna. |Lánardrottinn - Prófjöfnuður |

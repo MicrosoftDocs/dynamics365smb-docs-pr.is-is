@@ -1,6 +1,6 @@
 ---
 title: "Umsjón sölutækifæra og ábendinga| Microsoft Docs"
-description: "Lýsir hvernig stjórna má í Finacials ábendingum eða sölutækifærum sem birtast, og tengja tækifærin við sölumann svo hægt sé að fylgjast með hugsanlegri sölu."
+description: "Lýsir hvernig stjórna má í Financials ábendingum eða sölutækifærum sem birtast, og tengja tækifærin við sölumann svo hægt sé að fylgjast með hugsanlegri sölu."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 11de49ec0ffc1ff847839a913fbe538930145221
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6a2e2465cb73716b4087c6dc43ef97c640840a63
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-sales-opportunities"></a>Umsjón sölutækifæra
@@ -25,7 +24,7 @@ Líta má á allar ábendingar á innleið sem sölutækifæri. Hægt er að sto
 
 Áður en hægt er að hefja notkun tækifærisstjórnar þarf að setja upp söluferli og þrep söluferla. Þegar tækifæri eru stofnuð ætti að skrá upplýsingar um tengiliðinn, sölumanninn, söluferlið og dagsetningar, og einnig mat á söluvirði tækifærisins og mat á árangursmöguleikum þess.
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst. Verkin eru talin upp í sömu röð og þau eru yfirleitt framkvæmd.
+Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst. 
 
 | Til | Sjá |
 | --- | --- |

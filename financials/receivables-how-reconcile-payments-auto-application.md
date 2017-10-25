@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-payments-using-automatic-application"></a>Hvernig á að afstemma greiðslur með sjálfvirkri jöfnun
@@ -33,7 +32,7 @@ Svipað aðgerð er til til að stemma af umframupphæðir á greiðsluafstemmin
 
 Þú notar aðgerðina **Sjálfvirk jöfnun**, annaðhvort sjálfvirkt þegar þú flytur inn bankaskrá eða streymi með greiðslufærslum eða þegar þú virkjar hana, til að jafna greiðslur við tengdar opnar færslur sem byggja á vörpun gagna á færslubókarlínu með gögnum eða einni eða fleiri opinni færslu.
 
-Á færslubókarlínum þar sem greiðsla hefur verið jöfnuð sjálfvirkt við eina eða fleiri opnar færslur hefur reiturinn **áreiðanleiki samsvörunar** gildi á milli Lágt og Hátt til að tilgreina gæði gagnasamsvörunar sem ráðlögð greiðslujöfnun er byggð á. Þar að auki er **Reikningstegund** og **Reikningsnúmer.** fylltir með viðskiptamanninum eða lánardrottninum sem greiðslan er jöfnuð við. Ef þú hefur sett upp vörpun texta á reikning getur sjálfvirk jöfnunin leitt til áreiðanleiki samsvörunar upp á **Hátt - Vörpun texta á reikning**.
+Á færslubókarlínum þar sem greiðsla hefur verið jöfnuð sjálfvirkt við eina eða fleiri opnar færslur hefur reiturinn **áreiðanleiki samsvörunar** gildi á milli Lágt og Hátt til að tilgreina gæði gagnasamsvörunar sem ráðlögð greiðslujöfnun er byggð á. Að auki eru **Reikningsgerð** og **Reikningsnúmer** reitirnir fylltir með viðskiptamanninum eða lánardrottninum sem greiðslan er jöfnuð við. Ef þú hefur sett upp vörpun texta á reikning getur sjálfvirk jöfnunin leitt til áreiðanleiki samsvörunar upp á **Hátt - Vörpun texta á reikning**.
 
 Fyrir hverja færslubókarlínu í **greiðsluafstemmingarbók** glugganum geturðu opnað **greiðslujafnanir** gluggann til að sjá alla möguleika opinna færslna fyrir greiðsluna og skoðað ítarlegar upplýsingar fyrir hverja færslu um gagnasamsvaranir sem greiðslujöfnun byggir á. Hér er hægt að jafna handvirkt greiðslur eða endurjafna greiðslur sem voru jafnaðar sjálfkrafa á ranga færslu. Fyrir frekar upplýsingar, sjá [Hvernig á að endurskoða eða jafna greiðslur eftir sjálfvirka jöfnun](receivables-how-review-apply-payments-auto-application.md)
 
@@ -52,7 +51,7 @@ Fyrir hverja færslubókarlínu í **greiðsluafstemmingarbók** glugganum getur
 
     **greiðsluafstemmingarbók** Glugginn er fylltur út með línum fyrir greiðslur sem tákna bankafærslur í innflutta bankayfirliti.
 
-    Á línum fyrir greiðslur sem hafa verið jafnaðar sjálfvirkt við tengdar opnar færslur hefur reiturinn **áreiðanleiki samsvörunar** gildi á milli **Lítið** og **Hátt** til að tilgreina gæði gagnasamsvörunar sem ráðlögð greiðslujöfnun er byggð á. Þar að auki er **Reikningstegund** og **Reikningsnúmer.** fylltir með viðskiptamanninum eða lánardrottninum sem greiðslan er jöfnuð við.
+    Á línum fyrir greiðslur sem hafa verið jafnaðar sjálfvirkt við tengdar opnar færslur hefur reiturinn **áreiðanleiki samsvörunar** gildi á milli **Lítið** og **Hátt** til að tilgreina gæði gagnasamsvörunar sem ráðlögð greiðslujöfnun er byggð á. Að auki eru **Reikningsgerð** og **Reikningsnúmer** reitirnir fylltir með viðskiptamanninum eða lánardrottninum sem greiðslan er jöfnuð við.
 7. Veldu færslubókarlínuna og og svo skaltu velja **Jafna handvirkt** til að endurskoða, endurjafna eða jafna greiðsluna handvirkt í  glugganum **greiðslujafnanir**. Fyrir frekar upplýsingar, sjá [Hvernig á að endurskoða eða jafna greiðslur eftir sjálfvirka jöfnun](receivables-how-review-apply-payments-auto-application.md)
 
     Þegar þú hefur lokið við handvirka jöfnun inniheldur **áreiðanleiki samsvörunar** reiturinn á færslubókarlínunni sem þú hefur meðhöndlað handvirkt **Samþykkt**.

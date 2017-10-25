@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-persons"></a>Einstaklingstengiliðir stofnaðir
@@ -29,7 +28,7 @@ Einnig gæti þurft að þýða útgefið efni um vörur fyrirtækisins og eftir
 
 Skráning allra mögulegra upplýsinga um einstaklingstengilið tryggir að allir hópar innan fyrirtækisins geti nálgast viðeigandi upplýsingar.
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst. Verkin eru talin upp í sömu röð og þau eru yfirleitt framkvæmd.
+Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst. 
 
 | Til | Sjá |
 | --- | --- |
@@ -41,6 +40,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 ## <a name="see-also"></a>Sjá einnig
 [Fyrirtækjatengiliðir stofnaðir](marketing-create-contact-companies.md)  
-[Stofnun og stjórnun tengiliða](marketing-create-contact-persons.md)  
+[Stofnun og stjórnun tengiliða]()  
 [Unnið með Financials](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
 title: "Nota Financials á fartæki| Microsoft Docs"
-description: "Þú getur skoðað og breytt Finacials gögnum í símanum þínum eða spjaldtölvu."
+description: "Þú getur skoðað og breytt Financials gögnum í símanum þínum eða spjaldtölvu."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 

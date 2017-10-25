@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e78a86ba3d29948b07777d0a346c1ef58d088e6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b81deefcdf79a93cc988d216f80b08794efb8ab6
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-web-sources-for-contact-companies"></a>Hvernig skal: Setja upp veftengingar fyrir tengiliðafyrirtæki.
@@ -25,7 +24,7 @@ Hægt er að nota veftengingar með tengiliðafyrirtækjum til að þekkja t.d. 
 
 Notkun veftenginga á tengiliði er tveggja þrepa ferli. Fyrst að skilgreina veftengingakóðann. Aðeins þarf að framkvæma þetta skref í eitt skipti fyrir hverja veftengingu. Þegar kominn er veftengingakóði er hægt að byrja að úthluta kóðanum til tengiliða.
 
-## <a name="to-define-a-web-source-code"></a>til að skilgreina vefkóðann
+## <a name="to-define-a-web-source-code"></a>Skilgreina veftengingarkóða
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **veftengingar** og velja svo viðeigandi tengil.
 2. Veljið aðgerðina **Nýtt**.
 3. Fyllt er í reitina **Kóti**, **Lýsing** og **URL**.
@@ -34,7 +33,7 @@ Notkun veftenginga á tengiliði er tveggja þrepa ferli. Fyrst að skilgreina v
 
 Skrefin eru endurtekin til að setja upp eins margar veftengingar og óskað er.
 
-## <a name="to-assign-web-sources-to-a-contact-company"></a>til að úthluta veftengingum á tengiliðarfyrirtæki
+## <a name="to-assign-web-sources-to-a-contact-company"></a>Úthluta veftengingum á tengiliðarfyrirtæki
 Þegar veftengingu er úthlutað er tilgreint hvaða leitarvél og leitarorð kerfið eigi að nota til að finna umbeðnar upplýsingar.
 
 1. Tengiliðurinn er opnaður.

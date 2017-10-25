@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 769eb1b41f65c8b6832f7cde7e536e8c3981289e
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 5c0ac5aca0ac5000dbcf74ec6d3a273cfe95270f
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-change-the-role-center"></a>Hvernig á að: Breyta Hlutverkamiðstöð
@@ -29,7 +28,6 @@ Efnið á heimasíðunni er byggt á völdu hlutverkamiðstöð Staðlað hlutve
 1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingar tákn fyrir miðstöð") og velja síðan **Stillingar mínar**.
 2. Í **Mínar Stillingum** glugga í á **hlutverkamiðstöð** reit, er valinn sem hlutverkamiðstöð sem þú vilt að sé staðallinn. Veljið til dæmis **Bókari**.
 3. Velja hnappinn **Í lagi**.
-4. Til að breytingin hafi áhrif þarf að skrá sig út úr [!INCLUDE[d365fin](includes/d365fin_md.md)] og svo inn aftur.
 
 ## <a name="see-also"></a>Sjá einnig
 [Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

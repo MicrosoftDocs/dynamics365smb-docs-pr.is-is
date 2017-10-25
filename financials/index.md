@@ -1,8 +1,6 @@
 ---
-title: "Velkomin(n) í Dynamics 365 fyrir Financials | Microsoft Docs"
-description: "Dynamics 365 fyrir Financials er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Auðvelt er að skrá sig og hægt er að yfirfæra fyrirliggjandi viðskiptagögn úr eldra kerfinu."
-services: project-madeira
-documentationcenter: 
+title: "Sjáðu Dynamics 365 for Financials| Microsoft Docs"
+description: "Lærðu um getu og vinnusviðsmyndir Dynamics 365 for Financials, sem er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/02/2017
+ms.date: 08/23/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Velkomin(n) í[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -30,8 +27,8 @@ ms.lasthandoff: 07/07/2017
 Hér eru nokkur eldsnögg trix, sem gott er að vita af:  
 
 * [Finna atriði](ui-search.md)  
-* [Stilla afmarkanir](ui-enter-criteria-filters.md)  
-* [Raða gögnum í lista](ui-sorting.md)  
+* [Leitar-, afmörkunar- og röðunarlistar](ui-enter-criteria-filters.md)  
+* [Gagnainnfærsla](ui-enter-data.md)  
 
 Frekari upplýsingar er að finna í [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
@@ -43,9 +40,9 @@ Heimasíður nota hlutverkamiðaða hönnun til að gefa þér skjótari aðgang
 Hver heimasíðu býður upp á **Uppsetning og viðbætur** hnapp. Hér hefurðu aðgang að lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa, með því að setja upp valin svæði á fljótan hátt. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetning gluggum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunnatriði** upplifunin veitir aðgang að færri en **Pakki** upplifunin gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
+>   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunnatriði** upplifunin veitir aðgang að færri en **Suite** upplifunin gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
 
-Í glugganum **Uppsetning með hjálp** er að finna eftirfarandi með **Pakki** upplifuninni:
+Í glugganum **Uppsetning með hjálp** er að finna eftirfarandi með **Suite** upplifuninni:
 
 | Uppsetning með hjálp | Lýsing |
 | --- | --- |
@@ -60,16 +57,19 @@ Hver heimasíðu býður upp á **Uppsetning og viðbætur** hnapp. Hér hefurð
 | Setja upp skýrslugerð |Setur upp gagnasöfn sem hægt er að nota til að byggja upp kraftmiklar skýrslur með því að nota Excel eða Power BI, til dæmis. |
 | Setja upp Verkflæði samþykktar vöru |Setur upp möguleikann á að senda boð til samþykkjanda þegar notandi breytir eða stofnar vöru. |
 | Setja upp Verkflæði samþykktar greiðslu |Setur upp möguleikann á að senda boð til samþykkjanda þegar notandi sendir greiðslubókarlínur til samþykktar. |
-| Setja upp Dynamics CRM-tengingu |Setur upp tengingu við Dynamics CRM, sem býður upp á að samstilla gögn eins og tengiliði og upplýsingar um sölupantanir. |
+| Setja upp Dynamics 365 tengið |Setur upp tengingu við Dynamics 365 for Sales sem býður upp á að samstilla gögn, svo sem tengiliði og upplýsingar um sölupantanir. |
 | Uppsetning söluskatts |Hjálpar notanda af stað með sjálfgefnum skattflokkum og úthlutun á skattsvæðakóðum sem hægt er að úthluta á viðskiptavini og lánardrottna til að reikna sjálfkrafa söluskatt í sölu- eða innkaupaskjölum. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Prufukeyra hluti í þínu eigin fyrirtæki
-Ertu að hugsa um að gerast áskrifandi? Auðveldlega er hægt að fara út úr sýnifyrirtækinu, yfir í það að stofna og vinna í eigin fyrirtæki. Þetta er frábær leið til að byrja að færa sig í átt að áskrift. Uppsetningar fyrir fjármál fylgja; aðeins þarf að stofna eða flytja inn vörur þínar, viðskiptamenn og lánardrottna. Eftir það ertu tilbúinn til að bóka reikninga og nota verkfæri viðskiptagreindar til að greina fyrirtækið þitt. Hægt er að nota fyrirtækið án endurgjalds yfir 30-daga prufu tímabil. Ef þú gerist áskrifandi að [!INCLUDE[d365fin](includes/d365fin_md.md)] á þeim tíma, ertu þegar kominn af stað. Hægt er að halda áfram starfið sem var unnið á meðan á prufu tímabilinu stóð.  
+Ertu að hugsa um að gerast áskrifandi? Auðveldlega er hægt að fara út úr sýnifyrirtækinu, yfir í það að stofna og vinna í eigin fyrirtæki. Þetta er frábær leið til að byrja að færa sig í átt að áskrift. Uppsetningar fyrir fjármál fylgja; aðeins þarf að stofna eða flytja inn vörur þínar og þjónustu, viðskiptamenn og lánardrottna. Eftir það ertu tilbúinn til að bóka reikninga og nota verkfæri viðskiptagreindar til að greina fyrirtækið þitt. Hægt er að nota fyrirtækið án endurgjalds yfir 30-daga prufu tímabil. Ef þú gerist áskrifandi að [!INCLUDE[d365fin](includes/d365fin_md.md)] á þeim tíma, ertu þegar kominn af stað. Hægt er að halda áfram starfið sem var unnið á meðan á prufu tímabilinu stóð.  
 
 Til að stofna fyrirtæki til að prufukeyra hluti, farðu á **Mínar stillingar** valmyndina efst í hægra horninu og breyttu fyrirtækinu yfir í **Mitt fyrirtæki**. Til að breytingin taki gildi þarf að skrá sig út úr [!INCLUDE[d365fin](includes/d365fin_md.md)] og svo inn aftur. Uppsetningarleiðsögn með hjálp mun hjálpa þér að veita grunnupplýsingar um fyrirtækið. Þegar það hefur verið gert skalut skoða heimasíða og finna **Uppsetning með hjálp** aðgerðina.  
 
 ## <a name="ready-to-subscribe"></a>Tilbúinn að gerast áskrifandi?
-Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi, skaltu nota tengilinn í tilkynningunni til að hafa samand við Microsoft. Einnig er hægt að fara á [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707).
+Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi, skaltu nota tengilinn í tilkynningunni til að hafa samand við Microsoft. Einnig er hægt að hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] Söluteymið í [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+## <a name="other-dynamics-365-apps"></a>Önnur Dynamics 365 forrit
+Fara á innihald um önnur Dynamics 365 forrit með því að velja [Dynamics 365](https://docs.microsoft.com/dynamics365) hlekkinn á bláa borðanum efst á þessari síðu. Einnig er hægt að læra meira á [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/) vefsíðunni.
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -80,7 +80,7 @@ Til að stofna fyrirtæki til að prufukeyra hluti, farðu á **Mínar stillinga
 [Fáðu [!INCLUDE[d365fin](includes/d365fin_md.md)] í farsímann þinn](install-mobile-app.md)  
 [Microsoft Dynamics 365 fylgiskjöl](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

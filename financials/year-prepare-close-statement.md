@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-closing-statements"></a>Undirbúningur lokunaryfirlits
@@ -33,7 +32,7 @@ Taflan hér á eftir sýnir fjölda skýrslna sem eru gagnlegar í þessu ferli,
 | Bera prufustöðu saman við fjárhagsáætlun. |Prófjöfnuður - Áætlun |
 | Prenta út prófjöfnunarskýrslu með færslum og hreyfingum helstu fjárhagsreikninga, reiknað út miðað við tiltekin tímabil. |Prófjöfnuður eftir tímabili |
 | Prenta út fjárhagsskema til að meta upphæðir í helstu fjárhagsreikningum eða til að bera saman raunverulegar fjárhagsfærslur við fjárhagsáætlanafærslur. |Fjárhagsskema |
-| Aðgæta hvort viðskiptamannafærslur og lánardrottnafærslur stemmi við samsvarandi fjárhagsfærslur. |Afstemma viðskiptavin og lánardrottna Reikningum |
+| Aðgæta hvort viðskiptamannafærslur og lánardrottnafærslur stemmi við samsvarandi fjárhagsfærslur. |Afst. viðskm./lánardr.reikn. |
 
 Til að sjá skýrslu skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn nafnið eins og það birtist í töflunni, og velja síðan viðeigandi tengil.
 

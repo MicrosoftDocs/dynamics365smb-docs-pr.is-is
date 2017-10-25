@@ -1,8 +1,6 @@
 ---
 title: "Senda viðskiptamönnum innheimtubréf eða sekt vegna gjaldfallinna greiðslna| Microsoft Docs"
 description: "Lýsir því hvernig skal senda innheimtubréf til viðskiptamanns varðandi gjaldfallinnar greiðslu og bæta kostnaði eða þóknun við greiðsluna vegna tafarinnar."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 06/28/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f64ad8c9170af52d7650324029a259b267f166b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-collect-outstanding-balances"></a>Hvernig á að: Innheimta útistandandi skuldir
@@ -99,7 +96,7 @@ Ef stofnaðar eru fleiri áminningar en skilgreind hafa verið stig fyrir verða
 |%11|Nafn fyrirtækis|  
 |%12|Innihald reitsins **Viðbótargjald fyrir hverja línu** á innheimtubréfshausnum.|  
 
-Til dæmis, ef þú skrifar**Þú skuldar %7 %9 á gjalddaga %2** mun innheimtubréfið innihalda eftirfarandi texta: **Þú skuldar 1.200,50 SGM á gjalddaga 02\-02\-2014.**.
+Til dæmis, ef þú skrifar**Þú skuldar %9 %7 á gjalddaga %2** mun innheimtubréfið innihalda eftirfarandi texta: **Þú skuldar 1.200,50 USD á gjalddaga 02-02-2014.**.
 
 Þegar búið er að setja upp áminningarskilmálana með viðbótarstigum og texta þarf að færa einn kóðann á hvert viðskiptamannaspjald. Nánari upplýsingar eru í [Hvernig á að skrá nýjan viðskiptamaður](sales-how-register-new-customers.md).
 
@@ -163,11 +160,13 @@ Stofna verður kóta fyrir hvern vaxtaútreikning. Síðan er hægt að færa þ
 
 Hægt er að reikna vexti með því að nota annaðhvort regluna um meðaltal daglegs jafnaðar eða regluna um gjaldfallna stöðu.
 
-Sé reglan fyrir gjaldfallna stöðu notuð verða vextirnir einfaldlega prósentuhluti af þeirri upphæð sem fallin er í gjalddaga.
-**Regla fyrir gjaldfallna stöðu** Vextir = upphæð fallin í gjalddaga* (Vextir / 100)
+Sé reglan fyrir gjaldfallna stöðu notuð verða vextirnir einfaldlega prósentuhluti af þeirri upphæð sem fallin er í gjalddaga:  
 
-Reglan um daglega meðaltalsstöðu tekur með í reikninginn hve marga daga greiðslan er komin fram yfir gjalddaga.
-Regla **Dagleg meðaltalsstaða** - Vextir = upphæð fallin í gjalddaga x (Fjöldi daga fram yfir gjalddaga / Vaxtatímabil) x (Vextir / 100)
+    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+
+Reglan um daglega meðaltalsstöðu tekur með í reikninginn hve marga daga greiðslan er komin fram yfir gjalddaga.  
+
+    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
 
 Að auki er sérhver kóti í töflunni Vaxtaskilmálar tengdur undirtöflunni Vaxtatexti. Fyrir hvern vaxtagjalddaga er hægt að skilgreina byrjunar- og/eða lokatexta sem verður prentaður á vaxtareikninginn.
 
@@ -204,10 +203,8 @@ Vaxtareikningur er svipaður reikningi. Hægt er að fylla hausinn út handvirkt
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **vaxtareikningar** og velja svo viðeigandi tengil.  
 2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur.  
 3. Velja aðgerðina **Leggja til vaxtareikn.línur**.
-4. Í Leggja til  Vaxtareikningslínur  
-6.  Sett er afmörkun á flýtiflipanum **Viðskm.færsla** eigi aðeins að búa til vaxtareikninga fyrir tilteknar færslur.  
-
-7.  Veldu hnappinn **Í lagi** til að hefja keyrsluna.  
+4. Í glugganum **Tillaga vaxtareikningur línur**, skal sett afmörkun á flýtiflipanum **Viðskm.færsla** eigi aðeins að búa til vaxtareikninga fyrir tilteknar færslur.  
+5.  Veldu hnappinn **Í lagi** til að hefja keyrsluna.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Vaxtatexti uppfærður  
 Í einhverjum tilfellum gæti þurft að breyta upphafs- og lokatextanum sem settur er upp fyrir vaxtaskilmálana. Ef það er gert eftir að vaxtareikningar hafa verið stofnaðir, en ekki sendir, er hægt að uppfæra reikningana með nýja textanum.

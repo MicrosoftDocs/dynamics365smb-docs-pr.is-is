@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/07/2017
+ms.date: 08/10/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 52fd9ae967dab9c6f90733e1ea25b6c875374243
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b63e2e65f92edbbe10bcb5e2c340db31b1acda28
 ms.contentlocale: is-is
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
@@ -31,13 +30,17 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | --- | --- |
 | Veldu hvernig þú borgar lánardrottnum þínum. |[Skilgreina Greiðsluhætti](finance-payment-methods.md) |
 | Tilgreinið bókunarhópa sem kortleggja aðila eins og viðskiptavini, seljendur, atriði, auðlindir og sölu- og kaupskjöl til almennra reikninga. |[Uppsetning bókunarflokka](finance-posting-groups.md)|
+|Hægt er að setja upp vikmörk þannig að kerfið loki reikningi jafnvel þótt greiðsla, að meðteknum afslætti, nái ekki upp í fulla upphæð á reikningnum.|[Hvernig skal: Vinna með Greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Uppsetning fjárhagstímabila. |[Hvernig á að opna Nýtt reikningsár](finance-how-open-new-fiscal-year.md) |
 | Skilgreinið hvernig VSK upphæðir, sem fengnar eru fyrir sölu, eru sendar inn til skattayfirvalda. |[Hvernig á að: Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)|
-| Setja upp hvernig skal uppfæra fleiri gjaldmiðla ef þú framkvæmir alþjóðaviðskipti. |[Hvernig á að: Uppfæra gengi](finance-how-update-currencies.md) |
+| Settu eiginleika sölu og innkaupa upp þannig að hægt sé að vinna með erlenda gjaldmiðla.|[Hvernig á að: Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
 | Bæta nýjum reikningum við eldri bókhaldslykil. |[Uppsetning bókhaldslykilsins](finance-setup-chart-accounts.md) |
 | Setjið upp viðskiptaupplýsingar (BI) töflur til að greina sjóðstreymi. |[Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md) |
+|Gera virka reikningsfærslu viðskiptamanns sem er ekki uppsettur í kerfið.|[Hvernig á að setja upp staðgreiðsluviðskiptamenn](finance-how-to-set-up-cash-customers.md)|
+| Uppsetning á Intrastat skýrslugerð, og senda inn skýrsluna til yfirvalda. | [Hvernig skal: Setja upp og skrá Intrastat](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Sjá einnig
+[Fjármál](finance.md)  
 [Stjórna bankareikningum](bank-manage-bank-accounts.md)  
 [Unnið með víddir](finance-dimensions.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](upload-data.md)  
@@ -45,3 +48,4 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+
