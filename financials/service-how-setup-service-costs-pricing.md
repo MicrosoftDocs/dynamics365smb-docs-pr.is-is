@@ -1,0 +1,71 @@
+---
+title: "Setja upp verðlagningu og kostnað fyrir þjónustu | Microsoft Docs"
+description: "Lærðu hvernig á að setja verð og aukakostnað fyrir þjónustu."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: service, cost, service order
+ms.date: 08/22/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d0f0fcdff4a67df7542c5acb6d44f804997d1a2c
+ms.contentlocale: is-is
+ms.lasthandoff: 09/22/2017
+
+---
+
+# <a name="how-to-set-up-pricing-and-additional-costs-for-services"></a><span data-ttu-id="fbd43-103">Hvernig á að: setja upp verðlagningu og aukakostnað fyrir þjónustu</span><span class="sxs-lookup"><span data-stu-id="fbd43-103">How to: Set Up Pricing and Additional Costs for Services</span></span>
+<span data-ttu-id="fbd43-104">Hægt er að nota verðlagningareiginleika [!INCLUDE[d365fin](includes/d365fin_md.md)] til að setja upp og sérstilla forritið svo hægt sé að nota og stilla verðlagningu fyrir þjónustuvörur, viðgerðir og pantanir.</span><span class="sxs-lookup"><span data-stu-id="fbd43-104">You can use the [!INCLUDE[d365fin](includes/d365fin_md.md)] pricing features to set up and customize your application so that you apply and adjust pricing on service items, repairs, and orders.</span></span> <span data-ttu-id="fbd43-105">Auðvelt er síðan að senda þessar verðlagningarákvarðanir yfir í reikningsfærsluferlið.</span><span class="sxs-lookup"><span data-stu-id="fbd43-105">These pricing decisions are then easily transmitted to the invoicing process.</span></span>  
+  
+<span data-ttu-id="fbd43-106">Hægt er að setja upp verðlagningarflokka og varpa þeim á ákveðin tímabil, viðskiptamenn eða gjaldmiðil eftir þörfum þínum.</span><span class="sxs-lookup"><span data-stu-id="fbd43-106">As your implementation requires, you can set up pricing groups and map them to specific time periods, customers, or currency.</span></span> <span data-ttu-id="fbd43-107">Hægt er að setja upp fasta, lágmarks- eða hámarksverðlagningu eftir þeim þjónustusamningum sem gerðir voru við viðskiptamenn.</span><span class="sxs-lookup"><span data-stu-id="fbd43-107">You can set up fixed, minimum, or maximum pricing, depending on the service contracts that you have with customers.</span></span> <span data-ttu-id="fbd43-108">Að lokum er hægt að skoða og samþykkja breytingar á verðlagi áður en þær eru færðar inn í fjárhaginn.</span><span class="sxs-lookup"><span data-stu-id="fbd43-108">Finally, as you adjust your prices, you can view and approve the changes before committing them to the ledger.</span></span>  
+
+## <a name="to-set-up-a-service-price-group"></a><span data-ttu-id="fbd43-109">Uppsetning þjónustuverðflokka</span><span class="sxs-lookup"><span data-stu-id="fbd43-109">To set up a service price group</span></span>
+<span data-ttu-id="fbd43-110">Setja má upp hópa með þjónustuvöru sem á að njóta sömu sérþjónustuverðlagningar.</span><span class="sxs-lookup"><span data-stu-id="fbd43-110">You can set up groups containing service items that you want to receive the same special service pricing.</span></span> <span data-ttu-id="fbd43-111">Þjónustuverðflokkar eru úthlutaðir þjónustuvöru í þjónustuvörulínum.</span><span class="sxs-lookup"><span data-stu-id="fbd43-111">You assign service price groups to service items on service item lines.</span></span> <span data-ttu-id="fbd43-112">Einnig er hægt að úthluta þjónustuverðflokkum til þjónustuvöruflokka.</span><span class="sxs-lookup"><span data-stu-id="fbd43-112">You can also assign service price groups to service item groups.</span></span>  
+
+1. <span data-ttu-id="fbd43-113">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuverðflokkar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="fbd43-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Price Groups**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="fbd43-114">Nýr þjónustuverðflokkur er stofnaður.</span><span class="sxs-lookup"><span data-stu-id="fbd43-114">Create a new service price group.</span></span>  
+3. <span data-ttu-id="fbd43-115">Fyllt er í reitina **Kóti** og **Lýsing**.</span><span class="sxs-lookup"><span data-stu-id="fbd43-115">Fill in the **Code** and **Description** fields.</span></span>  
+4. <span data-ttu-id="fbd43-116">Veldu aðgerðina **Uppsetning**.</span><span class="sxs-lookup"><span data-stu-id="fbd43-116">Choose the **Setup** action.</span></span>  
+2. <span data-ttu-id="fbd43-117">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="fbd43-117">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+ > [!Tip]
+ > <span data-ttu-id="fbd43-118">Reitirnir **Leiðréttingargerð** og **Upphæð** vinna saman til að tilgreina hvort leiðrétting feli í sér fasta upphæð eða eigi aðeins við þegar heildarþjónustuverð er hærra eða lægra en upphæðin í reitnum **Upphæð**.</span><span class="sxs-lookup"><span data-stu-id="fbd43-118">The **Adjustment Type** and **Amount** fields work together to specify whether an adjustment concerns a fixed amount, or applies only when the total service price exceeds or is lower than the amount in the **Amount** field.</span></span>  
+
+## <a name="to-set-up-a-service-price-adjustment-group"></a><span data-ttu-id="fbd43-119">Uppsetning þjónustuverðleiðréttingarflokka</span><span class="sxs-lookup"><span data-stu-id="fbd43-119">To set up a service price adjustment group</span></span>  
+<span data-ttu-id="fbd43-120">Þú getur setja upp verðleiðréttingaflokka til að leiðrétta þjónustuverðlagningu vegna þjónustuvöru.</span><span class="sxs-lookup"><span data-stu-id="fbd43-120">You can set up price adjustment groups to adjust service pricing of service items.</span></span> <span data-ttu-id="fbd43-121">Til dæmis má setja upp verðleiðréttingarflokka sem leiðrétta verð á flutningi eða varahlutum.</span><span class="sxs-lookup"><span data-stu-id="fbd43-121">For example, you can set up price adjustment groups that adjust price of freight or spare parts.</span></span>  
+  
+1. <span data-ttu-id="fbd43-122">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuverðleiðréttingarflokkar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="fbd43-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Price Adjustment Groups**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="fbd43-123">Nýr þjónustuverðleiðréttingarflokkur er stofnaður.</span><span class="sxs-lookup"><span data-stu-id="fbd43-123">Create a new service price adjustment group.</span></span>  
+3. <span data-ttu-id="fbd43-124">Fyllt er í reitina **Kóti** og **Lýsing**.</span><span class="sxs-lookup"><span data-stu-id="fbd43-124">Fill in the **Code** and **Description** fields.</span></span>  
+4. <span data-ttu-id="fbd43-125">Í reitnum **Tegund** er færð inn tegund færslunnar sem á að leiðrétta.</span><span class="sxs-lookup"><span data-stu-id="fbd43-125">In the **Type** field, enter the type of the entry that you want to adjust.</span></span>  
+  
+    * <span data-ttu-id="fbd43-126">Til að leiðrétta aðeins eina tiltekna færslu er númer þessarar færslu fært inn í reitinn **Nr.**</span><span class="sxs-lookup"><span data-stu-id="fbd43-126">To adjust only one specific entry, enter the number of this entry in the **No.**</span></span> <span data-ttu-id="fbd43-127">.</span><span class="sxs-lookup"><span data-stu-id="fbd43-127">field.</span></span> <span data-ttu-id="fbd43-128">Ef reiturinn er hafður auður leiðréttir leiðréttingarflokkurinn allar færslur af tegundinni sem skilgreind er í reitnum **Tegund**.</span><span class="sxs-lookup"><span data-stu-id="fbd43-128">When you leave this field blank, your adjustment group will adjust all entries of the type defined in the **Type** field.</span></span>  
+    * <span data-ttu-id="fbd43-129">Til að leiðrétta þjónustuverð sem tengjast aðeins einni tiltekinni gerð þjónustu þarf að fylla út reitinn **Tegund vinnu**.</span><span class="sxs-lookup"><span data-stu-id="fbd43-129">To adjust service prices related to only one specific service, fill in the **Work Type** field.</span></span> <span data-ttu-id="fbd43-130">Ef reiturinn er hafður auður verður hann hundsaður.</span><span class="sxs-lookup"><span data-stu-id="fbd43-130">When you leave this field blank, it will just be ignored.</span></span>  
+  
+5. <span data-ttu-id="fbd43-131">Í reitinn **Lýsing** má færa inn stutta lýsingu á þjónustuverðleiðréttingunni.</span><span class="sxs-lookup"><span data-stu-id="fbd43-131">In the **Description** field, enter a short description of the service price adjustment.</span></span>  
+6. <span data-ttu-id="fbd43-132">Til að leiðrétta þjónustuverð sem tengjast aðeins einum tilteknum almennum vörubókunarflokki þarf að fylla út reitinn **Alm. vörubókunarflokkur**.</span><span class="sxs-lookup"><span data-stu-id="fbd43-132">To adjust service prices related to only one specific general product posting group, fill in the **Gen. Prod. Posting Group** field.</span></span>
+
+> [!Tip]
+> <span data-ttu-id="fbd43-133">Þú getur valið **Upplýsingar** til að bæta við upplýsingum um leiðréttingarflokkinn.</span><span class="sxs-lookup"><span data-stu-id="fbd43-133">You can choose **Details** to add additional information about the adjustment group.</span></span> <span data-ttu-id="fbd43-134">Til dæmis er hægt að tilgreina hvaða vara tilheyri þjónustuverðleiðréttingarflokki og hvort um sé að ræða vöru, forða, forðaflokks eða þjónustugjald.</span><span class="sxs-lookup"><span data-stu-id="fbd43-134">For example, you can specify which item belongs to the service price adjustment group, and whether this is an item, a resource, a resource group, or a service charge.</span></span>  
+
+## <a name="to-set-up-additional-costs-for-services"></a><span data-ttu-id="fbd43-135">Setja upp  aukakostnað fyrir þjónustu</span><span class="sxs-lookup"><span data-stu-id="fbd43-135">To set up additional costs for services</span></span>
+<span data-ttu-id="fbd43-136">Þegar unnið er við þjónustuvöru og þjónustupöntunum getur þurft að skrá aukakostnað, eins og ferðakostnað til ákveðinna þjónustusvæða eða startkostnað.</span><span class="sxs-lookup"><span data-stu-id="fbd43-136">When you work with service items and service orders, you may need to register additional costs, such as travel costs to particular service zones or starting fees.</span></span> <span data-ttu-id="fbd43-137">Þegar þú stofnar þjónustupöntun, geturðu fært inn þennan kostnað og lína með tegundina **Kostnaður** verður bætt við pöntunina.</span><span class="sxs-lookup"><span data-stu-id="fbd43-137">When you create a service order, you can insert these costs and a line with the type **Cost** will be added to the order.</span></span> <span data-ttu-id="fbd43-138">Að öðrum kosti, ef þú vilt úthluta kostnaðinum til allra þjónustupantana, geturðu sett upp sjálfvirkan kostnað.</span><span class="sxs-lookup"><span data-stu-id="fbd43-138">Alternatively, if you want to apply the cost to all service orders, you can set up a default cost.</span></span> <span data-ttu-id="fbd43-139">Ef þú vilt til dæmis alltaf úthluta startkostnaði.</span><span class="sxs-lookup"><span data-stu-id="fbd43-139">For example, if you always want to apply a starting fee.</span></span>
+  
+### <a name="to-set-up-service-costs"></a><span data-ttu-id="fbd43-140">Setja upp þjónustukostnað</span><span class="sxs-lookup"><span data-stu-id="fbd43-140">To set up service costs</span></span>
+1. <span data-ttu-id="fbd43-141">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustukostnaður** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="fbd43-141">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Costs**, and then choose the related link.</span></span> 
+2. <span data-ttu-id="fbd43-142">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="fbd43-142">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+### <a name="to-specify-a-default-cost-for-service-orders"></a><span data-ttu-id="fbd43-143">Tilgreina sjálfgefinn kostnaðar vegna þjónustupantana</span><span class="sxs-lookup"><span data-stu-id="fbd43-143">To specify a default cost for service orders</span></span>
+1. <span data-ttu-id="fbd43-144">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning þjónustu** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="fbd43-144">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service Setup**, and then choose the related link.</span></span> 
+2. <span data-ttu-id="fbd43-145">Í reitnum **Upphafsgjald þjónustupöntunar** skal velja viðeigandi startkostnað.</span><span class="sxs-lookup"><span data-stu-id="fbd43-145">In the **Service Order Starting Fee** field, choose the appropriate service cost.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="fbd43-146">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="fbd43-146">See Also</span></span>
+[<span data-ttu-id="fbd43-147">Þjónustustýring sett upp</span><span class="sxs-lookup"><span data-stu-id="fbd43-147">Setting Up Service Management</span></span>](service-setup-service.md)  
+[<span data-ttu-id="fbd43-148">Þjónustukerfi</span><span class="sxs-lookup"><span data-stu-id="fbd43-148">Service Management</span></span>](service-service.md)  
+

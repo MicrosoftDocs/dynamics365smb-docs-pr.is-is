@@ -1,0 +1,45 @@
+---
+title: "SEPA Beingreiðslur í Dynamics 365 | Microsoft Docs"
+description: "Hægt er að sækja greiðslur beint inn á bankareikninga viðskiptamanns samkvæmt SEPA-sniðinu."
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 08/21/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 0447e6c9f84457589df5cbc1efaecb2de24e7295
+ms.contentlocale: is-is
+ms.lasthandoff: 09/27/2017
+
+---
+# <a name="collecting-payments-with-sepa-direct-debit"></a><span data-ttu-id="0b3a0-103">Innheimta greiðslur með SEPA-beingreiðslum</span><span class="sxs-lookup"><span data-stu-id="0b3a0-103">Collecting Payments with SEPA Direct Debit</span></span>
+<span data-ttu-id="0b3a0-104">Með samþykki viðskiptamanns er hægt að sækja greiðslur beint inn á bankareikninga viðskiptamanns út frá SEPA-sniðinu.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-104">With your customer’s consent, you can collect payments directly from the customer’s bank account according to the SEPA format.</span></span>  
+
+ <span data-ttu-id="0b3a0-105">Setjið fyrst upp útflutningssnið bankaskráarinnar með leiðbeiningum til bankans um beingreiðsluaðgerð.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-105">First, set up the export format of the bank file that instructs your bank to perform a direct debit.</span></span> <span data-ttu-id="0b3a0-106">Síðan, settu upp greiðslumáta viðskiptamanns.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-106">Then, set up the customer’s payment method.</span></span> <span data-ttu-id="0b3a0-107">Að síðustu skal setja upp umboð fyrir beingreiðslu sem endurspeglar samning þinn við viðskiptavininn um söfnun greiðslna á tilteknu samningstímabili.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-107">Last, set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.</span></span>  
+
+ <span data-ttu-id="0b3a0-108">Til að gefa bankanum fyrirmæli um að flytja greiðsluupphæðir af bankareikningi viðskiptamannsins á reikning fyrirtækis þíns, stofnarðu innheimtufærslu beingreiðslu sem inniheldur upplýsingar um bankareikninga, sölureikningana sem um ræðir og umboð fyrir beingreiðslu.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-108">To instruct the bank to transfer the payment amount from the customer’s bank account to your company’s account, you create a direct-debit collection entry, which holds information about bank accounts, the affected sales invoices, and the direct-debit mandate.</span></span> <span data-ttu-id="0b3a0-109">Flytjið svo út XML-skrá sem byggir á innheimtufærslu sem er send til úrvinnslu í banka.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-109">You then export an XML file that is based on the collection entry, which you send to your bank for processing.</span></span> <span data-ttu-id="0b3a0-110">Bankinn lætur vita af greiðslum sem ekki er hægt að meðhöndla og þá þarf að hafna viðkomandi innheimtufærslur fyrir beingreiðslur.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-110">Any payments that could not be processed will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.</span></span>  
+
+ <span data-ttu-id="0b3a0-111">Hægt er að setja upp staðlaða sölukóða viðskiptamanns með beingreiðsluaðferð og umboðsupplýsingum.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-111">You can set up standard customer sales codes with the direct-debit payment method and mandate information.</span></span> <span data-ttu-id="0b3a0-112">Þá er hægt að nota **Stofna staðlaða viðskiptamannareikninga** runuvinnsluna til að mynda marga sölureikninga með fyrirfram útfylltum upplýsingum um beingreiðslur.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-112">You can then use the **Create Standard Cust. Invoices** batch job to generate multiple sales invoices with the direct-debit information prefilled.</span></span> <span data-ttu-id="0b3a0-113">Þetta er hægt að gera handvirkt eða sjálfkrafa, samkvæmt gjalddaga greiðslunnar.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-113">This is can be done manually or automatically, according to the payment due date.</span></span>  
+
+ <span data-ttu-id="0b3a0-114">Þegar banki staðfestir að greiðslur séu meðhöndlaðar er hægt að bóka greiðslukvittanir beint úr **Innheimtufærslubeingreiðslur** glugganum eða með því að færa greiðslulínurnar í færslubókina þar sem greiðslukvittanir eru bókaðar, s.s. í **Inngreiðslubók** glugganum.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-114">When payments are successfully processed, as communicated by your bank, you can post the payment receipts either directly from the **Direct Debit Collect. Entries** window or by moving the payment lines to the journal where you post payment receipts, such as the **Cash Receipt Journal** window.</span></span> <span data-ttu-id="0b3a0-115">Bjóði sjóðseiginleikar upp á það er einnig hægt að bíða og jafna greiðslurnar úr bankaafstemmingu.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-115">Alternatively, depending on your cash management process, you can wait and just apply the payments as a part of bank reconciliation.</span></span>  
+
+> [!NOTE]  
+>  <span data-ttu-id="0b3a0-116">Að safna greiðslum með SEPA-beingreiðslur, verður gengið á sölureikningi verður EURO.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-116">To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.</span></span>  
+
+ <span data-ttu-id="0b3a0-117">Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-117">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
+
+|<span data-ttu-id="0b3a0-118">**Til að**</span><span class="sxs-lookup"><span data-stu-id="0b3a0-118">**To**</span></span>|<span data-ttu-id="0b3a0-119">**Sjá**</span><span class="sxs-lookup"><span data-stu-id="0b3a0-119">**See**</span></span>|  
+|------------|-------------|  
+|<span data-ttu-id="0b3a0-120">Undirbúið bankareikningssnið, greiðsluaðferðir og samninga við viðskiptavini um SEPA-beingreiðslur.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-120">Prepare bank account formats, payment methods, and customer agreements for SEPA direct debit.</span></span>|[<span data-ttu-id="0b3a0-121">Hvernig á að: Setja upp SEPA-beingreiðslur</span><span class="sxs-lookup"><span data-stu-id="0b3a0-121">How to: Set Up SEPA Direct Debit</span></span>](finance-how-to-set-up-sepa-direct-debit.md)|  
+|<span data-ttu-id="0b3a0-122">Gefið bankanum fyrirmæli um að flytja greiðsluupphæðir af bankareikningum viðskiptavina á bankareikninga fyrirtækisins í samræmi við uppsetningu SEPA-beingreiðslna.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-122">Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.</span></span>|[<span data-ttu-id="0b3a0-123">Hvernig á að: Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá</span><span class="sxs-lookup"><span data-stu-id="0b3a0-123">How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File</span></span>](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|<span data-ttu-id="0b3a0-124">Setjið upp staðalaða sölukóða viðskiptamann fyrir beingreiðslureikninga og stofnið sölureikninga með beingreiðsluupplýsingum þegar reikningarnir gjaldfalla.</span><span class="sxs-lookup"><span data-stu-id="0b3a0-124">Set up standard customer sales codes for direct-debit invoices and generate sales invoices with direct-debit information when the invoices are due for payment.</span></span>|[<span data-ttu-id="0b3a0-125">Hvernig á að: Stofna ítrekaðar sölu og innkaup</span><span class="sxs-lookup"><span data-stu-id="0b3a0-125">How to: Create Recurring Sales and Purchase Lines</span></span>](sales-how-work-standard-lines.md)|  
+|<span data-ttu-id="0b3a0-126">Bóka greiðslur búnar til sem SEPA-beingreiðslur</span><span class="sxs-lookup"><span data-stu-id="0b3a0-126">Post payments made as SEPA direct debits.</span></span>|[<span data-ttu-id="0b3a0-127">Hvernig á að. Bóka SEPA-greiðslukvittanir beingreiðslna</span><span class="sxs-lookup"><span data-stu-id="0b3a0-127">How to: Post SEPA Direct Debit Payment Receipts</span></span>](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
+
+## <a name="see-also"></a><span data-ttu-id="0b3a0-128">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="0b3a0-128">See Also</span></span>  
+[<span data-ttu-id="0b3a0-129">Stjórnun skulda</span><span class="sxs-lookup"><span data-stu-id="0b3a0-129">Managing Receivables</span></span>](receivables-manage-receivables.md)
+

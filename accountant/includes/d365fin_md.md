@@ -1,1 +1,1 @@
-Fjármál
+<span data-ttu-id="5f63a-101">Financials</span><span class="sxs-lookup"><span data-stu-id="5f63a-101">Financials</span></span>
