@@ -67,7 +67,6 @@ Til að virkja breytingar á framboðsáætluninni þarf að fylgja aðgerðarbo
  |Grænn hringur með tákni sem lagað er eins og diskur með rauðum krossi|Tillögð framboðspöntun með aðgerðaboðunum *Hætta við*.<br /><br /> -   Má ekki breyta.<br />-   Sjáanleg þegar reiturinn **Taka með áætlunartillögur** er valinn (grænt línurit).|  
  |Grænn hringur með tákni sem lagað er eins og diskur með stjörnu|Tillagðar framboðspöntun með aðgerðaboðunum *Nýtt*.<br /><br /> -   Má breyta.<br />-   Sjáanleg þegar reiturinn **Taka með áætlunartillögur** er valinn (grænt línurit).|  
  |Grænn hringur með tákni sem lagað er eins og diskur með einni eða tveimur örvum|Tillagðar birgðapantanir með aðgerðarboðunum *Endurtímasetja*, *Breyta magni*, eða *Endurtímasetja og Breyta magni*<br /><br /> -   Má breyta.<br />-   Sjáanleg þegar reiturinn **Taka með áætlunartillögur** er valinn (grænt línurit).<br /><br /> Örvarnar endurspegla stefnu áætlunartillögu. Til dæmis endurspeglar vinstri ör ásamt upp ör aðgerðaboð *Endurtímasetja og Breyta magni* sem samanstanda af afturvirkri endurröðun og aukningu magns.|  
- ||  
 
 Þegar þú opnar flettilista á **Tímalína** birtast eftirfarandi aðgerðir, eftir því hvar er smellt.  
 

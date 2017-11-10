@@ -50,13 +50,12 @@ Síðan er hægt að setja upp dálka eins og þessa:
 
 Það fer eftir línunum og dálkunum sem hafa verið sett upp, en kerfið dregur saman niðurstöðu skýrslunnar í glugganum **Greiningarskýrsla** með eftirfarandi birtingu:  
 
-|||||  
+| |Sala gildandi mánaðar|Sala síðasta mánaðar|Sala síðasta mánaðar í %|  
 |-|-|-|-|  
-||Sala gildandi mánaðar|Sala síðasta mánaðar|Sala síðasta mánaðar í %|  
-|Tölvur||||  
-|Skjáir||||  
-|Varahlutir||||  
-|Samtals||||  
+|Tölvur| | | |  
+|Skjáir| | | |  
+|Varahlutir| | | |  
+|Samtals| | | |  
 
  Til dæmis er hægt að setja upp eitt safn af línum og mörg af dálkssniðmátum til að sýna annars vegar mánaðarskýrslu og hins vegar skýrslu yfir heilt ár.
 
