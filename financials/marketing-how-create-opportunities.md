@@ -1,6 +1,6 @@
 ---
 title: "Stofna sölutækifæri| Microsoft Docs"
-description: "Lýsir hvernig á að stofna tækifæri frá sölumanni eða tengilið í Financials."
+description: "Lýsir hvernig á að stofna tækifæri frá sölumanni eða tengilið í Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3137ed6aeaa235e2f2b4db7fdfb7dd7b8570c886
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-sales-opportunities"></a>Hvernig á að: Stofna sölutækifæri
@@ -45,5 +45,5 @@ Hægt er að stofna tækifæri úr glugganum **Tækifæralisti**. En yfirleitt e
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
-[Unnið með Financials](ui-work-product.md)
+[Unnið með Dynamics 365](ui-work-product.md)
 

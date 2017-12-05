@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7e76ef1d5622486c3d8055f6e0ccbe3564a96701
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Kynning: Rað-/lotunúmerarakning
@@ -141,9 +141,8 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 2.  Valið er **Nýtt** flokkur.  
 3.  Stofna nýja útgefna framleiðslupöntun með því að fylla út eftirfarandi reiti.  
 
-    ||||  
     |-|-|-|  
-    |Upprunanúmer|Magn|Raðnr.|  
+    |Upprunanúmer|Magn|Raðnúmer|  
     |1002|2|SN1|  
     |1002|2|SN2|  
 
@@ -189,7 +188,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
     |Viðskiptamaður|Vara|Magn|Raðnr.|  
     |--------------|----------|----------|----------------|  
-    |Silfurbúðin ehf.|1002|0|SN1|  
+    |Silfurbúðin ehf.|1002|1|SN1|  
 
 3.  Til að færa inn raðnúmerin skal velja aðgerðina **Vörurakningarlínur**, og síðan númerin í reitnum **Raðnr.** í glugganum **Vörurakningarlínur**.  
 4.  Veldu aðgerðina **Bóka**, veldu **Móttaka og reikningur** valkostinn og veldu síðan **Í lagi** hnappinn.  
@@ -201,7 +200,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
     |Viðskiptamaður|Vara|Magn|Raðnr.|  
     |--------------|----------|----------|----------------|  
-    |Navision Ísland hf.|1002|0|SN2|  
+    |Navision Ísland hf.|1002|1|SN2|  
 
 7.  Til að færa inn raðnúmerin skal velja aðgerðina **Vörurakningarlínur**, og síðan númerin í reitnum **Raðnr.** í glugganum **Vörurakningarlínur**.  
 8.  Veldu aðgerðina **Bóka**, veldu **Móttaka og reikningur** valkostinn og veldu síðan **Í lagi** hnappinn.  

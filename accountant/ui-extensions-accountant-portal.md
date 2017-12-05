@@ -2,25 +2,33 @@
 title: "Notkun á endurskoðandagátt | Microsoft Docs"
 description: "Veitir upplýsingar um viðbótina fyrir Endurskoðandagátt"
 author: edupont04
-ms.service: dynamics365-financials
+ms.service: dynamics365-accountant
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 07/27/2017
+ms.date: 10/23/2017
 ms.author: edupont
-ROBOTS: NOINDEX,NOFOLLOW
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: ed5a59f55b0209b20cccff3985c61097123360f6
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: d5d684e00a88ab60e3dedbb57b1c49faf549bf3b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="accountant-portal-for-dynamics-365-for-financials"></a>Endurskoðandagátt fyrir Dynamics 365 for Financials
-[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
+# <a name="accountant-portal-for-dynamics-365-for-finance-and-operations-business-edition"></a>Endurskoðandagátt fyrir Dynamics 365 for Finance and Operations, Business edition
+Þetta forrit býður upp á gátt með samanteknum gögnum fyrir hvern skjólstæðing endurskoðanda. Í gáttinni er að finna afkastavísi fjárhags ásamt beinni tengingu við fjármálaforrit skjólstæðingsins.  
+
+Í gáttinni er líka sérútbúin Hlutverkamiðstöð sem býður upp á betra yfirlit yfir viðskiptavinina.  
+[![Endurskoðandagátt](./media/accountant-get-started/accountant-dashboard.png)](https://go.microsoft.com/fwlink/?linkid=851257)
+
+Þegar þú setur upp viðbótina í fyrsta sinn, mun sýnifyrirtæki hjálpa þér af stað. Þú getur eytt sýnifyrirtækinu hvenær sem er.  
+
+## <a name="installing-the-extension"></a>Uppsetning viðbótar
+Þegar þú setur viðbótina upp í [!INCLUDE[d365fin](includes/d365fin_md.md)], skiptir hún hlutverkamiðstöðinni sem fyrir er út og bætir heimildum við notandaaðganginn þinn. Þar af leiðandi þarf að skrá sig út og svo inn aftur.  
+
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin(n) í Dynamics 365 for Accountants](index.md)  
-[Hafist handa með Dynamics 365 for Accountants](accountant-get-started.md)  
+[Velkomin(n) í [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
+[Hafist handa með [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](get-started.md)  
 

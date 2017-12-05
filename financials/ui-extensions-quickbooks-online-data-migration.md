@@ -1,8 +1,6 @@
 ---
 title: "Notkun á QuickBooks Flutningsviðbót | Microsoft Docs"
-description: "Lýsir því hvernig skal nota viðbæturnar til að yfirfæra viðskiptamenn, lánardrottna, vörur og reikninga frá QuickBooks Online til Financials."
-services: project-madeira
-documentationcenter: 
+description: "Lýsir því hvernig skal nota viðbæturnar til að yfirfæra viðskiptamenn, lánardrottna, vörur og reikninga frá QuickBooks Online í Dynamics 365."
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fe87a108d132ff25f0c93a51df58bb88fb12f421
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-for-financials"></a>QuickBooks Online gagnaflutningsviðbótin fyrir Dynamics 365 for Financials
+# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>QuickBooks Online gagnaflutningsviðbótin fyrir Dynamics 365 Business edition
 Þessi viðbót er innifalin í **Gagnaflutningur** uppsetningu með aðstoð til að aðstoða þig við að flytja mikilvæg viðskiptagögn frá QuickBooks Online til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta er t.d. gagnlegt þegar fyrirtækið þitt er að vaxa, og þú hefur ákveðið að uppfæra stjórnunarforrit fyrirtækisins með því að byrja að nota [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Hvaða gögn get ég flutt inn frá QuickBooks Online?
@@ -29,7 +27,7 @@ ms.lasthandoff: 09/22/2017
 * Viðskiptavinum
 * Lánardrottnar
 * Birgðir
-* Bókhaldslykill 
+* Bókhaldslykill
 * Upphafsstöðufærsla í fjárhagnum
 * Magn á lager fyrir birgðavörur
 * Opna skjöl fyrir viðskiptamenn og lánardrottna, eins og t.d. reikningar, kreditreikningar og greiðslur.
@@ -41,7 +39,7 @@ Við flytjum aðeins fullar upphæðir í sölu- og innkaupaskjöl. Við uppfær
 
 ## <a name="before-you-start"></a>Verður að byrja fyrir
 Mikilvægur hluti flutningsferlisins er að tilgreina reikningana sem flytja á færslur til. Það er tilvalið að skipuleggja vörpunina áður en þú flytur gögn. Til dæmis, reikningana sem þú bókar færslurnar fyrir:  
-  
+
 * Sala vöru eða þjónustu til viðskiptamanna.
 * Innkaup vöru eða þjónustu frá lánardrottnum.  
 * Leiðréttingar í fjárhagnum.  

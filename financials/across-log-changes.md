@@ -1,6 +1,6 @@
 ---
 title: "Rekja aðgerðir notanda í breytingaskrá| Microsoft Docs"
-Description: "Hægt er að virkja breytingaskrá svo að þú hafir yfirlit yfir allar breytingar sem gerðar hafa verið á gögnum í röktum töflum."
+Description: You can activate a user log so that you have a history of any changes made to data in tracked tables.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c27c63ae26f2f97dd15d31978b967f6a08dd55b7
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b64a17e69e5112ec0ff822bbacc8ec2772a21231
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="logging-changes-in-dynamics-365-for-financials"></a>Skráning breytinga í Dynamics 365 for Financials
+# <a name="logging-changes-in-dynamics-365-business-edition"></a>Skráning breytinga í Dynamics 365 Business edition 
 Hægt er að kveikja á breytingaskrá í [!INCLUDE[d365fin](includes/d365fin_md.md)] til að fá verkþáttarferil. Skráin byggir á breytingum sem gerðar eru á gögnum í töflunum sem þú rekur. Í breytingarskránni, er færslum raðað í tímaröð og sýndar eru breytingar sem gerðar eru á reitum á tilgreindri töflu. Breytingaskráin safnar saman öllum breytingum sem gerðar eru á töflunni.  
 
 ## <a name="working-with-the-change-log"></a>Vinna með breytingaskrá

@@ -12,10 +12,10 @@ ms.search.keywords: reject, delegate, request
 ms.date: 08/24/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b15bd0928e797918c7431e595b1bdf500a8d6792
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 000a27efed9ff6c20cffd470e1d5dda0b9387bb6
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-approval-workflows"></a>Hvernig á að: Nota samþykktarverkflæði
@@ -25,7 +25,7 @@ Setja upp samþykktarverkflæði í **Verkflæði** glugganum. Nánari upplýsin
 
 Í viðbót við samþykktarverkflæði sem lýst er í þessu efnisatriði, geturðu framkvæmt ýmis önnur verkflæðisverk. Frekari upplýsingar, [Nota verkflæði](across-use-workflows.md).
 
-Kjarna samþykkisverkflæði fyrir innkaupaskjöl, söluskjöl, greiðslubækur, viðskiptamannaspjöld og birgðaspjöldum eru tilbúin til að byrja sem aðstoð við uppsetningu. Nánari upplýsingar sjá í [Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
+Kjarna samþykkisverkflæði fyrir innkaupaskjöl, söluskjöl, greiðslubækur, viðskiptamannaspjöld og birgðaspjöldum eru tilbúin til að byrja sem aðstoð við uppsetningu. Nánari upplýsingar, sjá [Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
 
 > [!NOTE]  
 >   Þessi virkni krefst þess að upplifun þín sé stillt á **Suite**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).

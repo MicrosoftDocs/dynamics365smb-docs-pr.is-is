@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 74822d77b45f0ba1aaf8b255f611a54d051c1f52
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b7617a0ac027b6d50c9029f386af3fe293e3bc7d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-sell-items-assembled-to-order"></a>Hvernig á að selja sem eru settar saman í pöntun
@@ -50,7 +50,7 @@ Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvörunnar er *
     Einnig er hægt að sérsníða pöntun með því að auka magni einnar af staðalvöru í setti. Hægt er að gera þetta með því að auka gildið í reitnum **Magn á** á viðkomandi samsetningarpöntunarlínu.  
 
     > [!NOTE]  
-    >  Glugginn **Setja-saman-í-pöntun línur** hefur aðeins að geyma grunnsvæði sem vænst er að sölufulltrúi noti til að sérsníða íhlutalistann, bæta við vörurakningarnúmeri eða leysa vandamál með framboð íhluta. Til að sjá frekari upplýsingar um samsetningarpöntun, til dæmis upphafsdagsetningu samsetningarpöntunarinnar, er farið í flipann **Heim**, flokkinn **Vinna** og **Sýna skjöl** valið. Þá opnast fullt yfirlit yfir samsetningarpöntunina sem er tengd við sölupöntunarlínuna. Ekki er hægt að breyta innihaldi flestra reita í haus samsetningarpöntunar, og ekki er hægt að bóka frálag samsetningar þar sem nota þarf afhendingarbókun sölupöntunarlínunnar.  
+    >  Glugginn **Setja-saman-í-pöntun línur** hefur aðeins að geyma grunnsvæði sem vænst er að sölufulltrúi noti til að sérsníða íhlutalistann, bæta við vörurakningarnúmeri eða leysa vandamál með framboð íhluta. Til að sjá frekari upplýsingar um samsetningarpöntun, til dæmis upphafsdagsetningu samsetningarpöntunarinnar, er aðgerðin **Sýna skjöl** valin. Þá opnast fullt yfirlit yfir samsetningarpöntunina sem er tengd við sölupöntunarlínuna. Ekki er hægt að breyta innihaldi flestra reita í haus samsetningarpöntunar, og ekki er hægt að bóka frálag samsetningar þar sem nota þarf afhendingarbókun sölupöntunarlínunnar.  
     >   
     >  Í haus tengdra samsetningarpantana, getur aðeins reitnum **Upphafsdagsetning** verið breytt til að virkja samsetningarstarfsmenn til að tilgreina dagsetningu sem er á undan gjalddaga um hvenær þeir munu hefja ferlið. Öllum reitum í línunum á tengdu samsetningarpöntuninni er hægt að breyta svo að vöruhússstarfsmenn geti fært inn notkunartölur við vinnsluna.  
 

@@ -1,6 +1,6 @@
 ---
 title: "Vinna með fjárhagsyfirlit í Excel. | Microsoft Docs"
-description: "Lærðu hvernig hægt er að opna fjárhagsskýrslurnar í Microsoft Excel frá Dynamics 365 for Financials til að fá betri greiningar."
+description: "Lærðu hvernig hægt er að opna fjárhagsskýrslurnar í Microsoft Excel frá Dynamics 365 Business edition til að fá betri greiningar."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e32ece2d472adaca58ad5d4dc3446b407e431b63
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e58d412b9fb182a8a8f640593f78decf0e6aecc1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Greina fjárhagsskýrslur í Excel Microsoft Excel.
@@ -45,5 +45,5 @@ Með innbótinni geturðu fengið fersk gögn frá [!INCLUDE[d365fin](includes/d
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
-[Unnið með Financials](ui-work-product.md)  
+[Unnið með Dynamics 365](ui-work-product.md)  
 

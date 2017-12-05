@@ -1,6 +1,6 @@
 ---
-title: "Uppsetning tölvupósts | Microsoft Docs"
-description: "Lýsir því hvernig á að nota STMP-þjón fyrirtækisins til að senda og taka við tölvupósti í Financials, einnig hvernig á að nota þær stillingar þjónsins sem voru stofnaðar með Office 365 áskrift."
+title: "Setja upp tölvupóst í Dynamics 365 Business edition | Microsoft Docs"
+description: "Lýsir því hvernig á að nota STMP-þjón fyrirtækisins til að senda og taka við tölvupósti í Dynamics 365, einnig hvernig á að nota þær stillingar þjónsins sem voru stofnaðar með Office 365 áskrift."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: aedd27545da932155d453bf6aa476a4e9f898fc6
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 59d97a3bd838c80e66d62ed16c2bcb1c525938c4
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Hvernig á að: Setja upp tölvupóst handvirkt eða með því að nota Uppsetningu með aðstoð

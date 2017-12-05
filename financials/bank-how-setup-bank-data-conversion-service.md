@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6c7dd8051467b044b7fd569367c5af802d30e5c3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 0a1c53428b0b64364a237da0932cda86d37d06f9
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-set-up-the-bank-data-conversion-service"></a>Hvernig á að: Setja upp umreikningsþjónustu fyrir bankagögn
@@ -24,7 +24,7 @@ Altæk þjónustuveita til að umreikna greiðsluupplýsingar í hvaða gagnaskr
 
 Hægt er að flytja út greiðslulínur úr **Greiðslubók** glugganum í skrá eða gagnastreymi sem þú síðan hleður upp í bankann þinn fyrir sjálfvirka vinnslu svo að þú þarft ekki að gera rafræn greiðsla í sitthvoru lagi. Nánari upplýsingar sjá [Hvernig: Flytja Greiðslur í bankaskrá](payables-how-export-payments-bank-file.md).
 
-Þú getur flutt inn bankareikningsskrár í gluggann **Greiðsluafstemmingarbók** með því að nota umskráningarþjónusta fyrir bankagögn til að umbreyta skrá sem þú færð frá bankanum í gagnastraum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] getur flutt inn. Nánari upplýsingar er að finna í [hvernig á að: Jafna greiðslur sjálfkrafa og stemma af bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Þú getur flutt inn bankareikningsskrár í gluggann **Greiðsluafstemmingarbók** með því að nota umskráningarþjónusta fyrir bankagögn til að umbreyta skrá sem þú færð frá bankanum í gagnastraum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] getur flutt inn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Í staðinn fyrir að flytja inn bankayfirlit með gagnagrunnþjónustu bankans geturðu notað Envestnet Yodlee Bank Feeds þjónustuna. Frekari upplýsingar sjá [Hvernig: Setja á Upp Envestnet Yodlee bankastreymisþjónustu](bank-how-setup-bank-statement-service.md).
 
@@ -44,13 +44,13 @@ Til að flytja inn eða flytja út bankaskrár verður þú að setja upp eigin 
 
     Fyrirtæki þitt er nú skráð fyrir umreikningsþjónustu bankagagna. Sláið inn notandanafn og aðgangsorð sem tilgreind voru fyrir þjónustuna í tengdum uppsetningarreitum í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 5. Í **uppsetning umreikningsþjónustu fyrir bankagögn** glugga í **notandanafn** reitnum, sláðu inn sama gildi sem þú færðir inn sem innskráningarnafn á síðu þjónustuveitunnar í 4. skrefi.
-6. Í  reitnum **lykilorð**, sláðu inn sama gildi sem þú færðir inn í reitinn **Aðgangsorð** á síðu þjónustuveitunnar í 4. skrefi.
+6. Í reitnum **lykilorð**, sláðu inn sama gildi sem þú færðir inn í reitinn **Aðgangsorð** á síðu þjónustuveitunnar í 4. skrefi.
 
 ## <a name="to-encrypt-your-login-information"></a>Til að dulrita innskráningarupplýsingar
 Mælt er með því að vernda innskráningarupplýsingar sem slegnar eru inn í **uppsetning umreikningsþjónustu fyrir bankagögn** gluggann. Hægt er að dulrita gögn á [!INCLUDE[d365fin](includes/d365fin_md.md)] netþjóninum með því að stofna nýjan dulritunarlykil eða flytja inn fyrirliggjandi lykla sem eru virkjaðir er á [!INCLUDE[d365fin](includes/d365fin_md.md)] netþjónstilviki sem tengist við gagnagrunninn.
 
 1. Í **uppsetning umreikningsþjónustu fyrir bankagögn** glugganum, veldu **stjórnun dulritunar**.
-2.  Í glugganum **gagnadulritun**, virkja dulritun gagnanna.
+2. Í glugganum **gagnadulritun**, virkja dulritun gagnanna.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Til að skoða eða uppfæra listann yfir studd bankagagnasnið
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning umreikningsþjónustu fyrir bankagögn** og velja svo viðeigandi tengil.

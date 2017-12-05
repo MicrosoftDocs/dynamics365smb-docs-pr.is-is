@@ -1,6 +1,6 @@
 ---
-title: "Fyrirtækjavirkni studd af Financials | Microsoft Docs"
-Description: "Býður upp á eiginleika í formi yfirlits yfir alla fyrirtækjavirkni og deildir sem eru studdar af kerfishlutum, svo sem fjármálum, birgðum og verkefnisstjórnun"
+title: "Fyrirtækjavirkni studd af Dynamics 365 Business edition | Microsoft Docs"
+Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 9e4692a6f308931dfdf6d613a4ebbfe5e027301d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f71c19abdc225b92a76a98992a2e3d78769b6dc5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="overview-of-business-functionality"></a>Yfirlit yfir Viðskiptavirkni
+# <a name="overview-of-business-functionality-in-dynamics-365-for-finance-and-operations-business-edition"></a>Yfirlit yfir Viðskiptavirkni í Dynamics 365 for Finance and Operations, Business edition
 [!INCLUDE[d365fin](includes/d365fin_md.md)] veitir virkni fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega með heildsölu og sérþjónustu.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] felur í sér staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Frá heimasíðunni þinni er hægt að fá aðgang að hjálpargögnum um leiðsögn sem hjálpar þér að stilla ákveðnar aðstæður og bæta við eiginleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nokkur svið viðskiptavirkni verður að setja upp handvirkt. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).

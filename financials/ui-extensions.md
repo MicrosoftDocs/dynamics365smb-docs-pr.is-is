@@ -1,6 +1,6 @@
 ---
-title: "Setja upp viðbætur til að sérstilla Dynamics 365 for Financials | Microsoft Docs"
-description: "Kynntu þér hvernig skal bæta virkni og sérstilla Dynamics 365 for Financials með því að setja upp viðbætur."
+title: "Setja upp viðbætur til að sérstilla Dynamics 365 Business edition | Microsoft Docs"
+description: "Kynntu þér hvernig skal bæta virkni og sérstilla Dynamics 365 Business edition með því að setja upp viðbætur."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2f6bbbc213bce74b31bb4e8c64198559db2d105d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Aðlaga Dynamics 365 for Financials með því að nota eftirnafn
+# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Sérsníða Dynamics 365, Business edition | Microsoft Docs
 Þú getur breytt [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að setja viðbætur sem bæta við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis.
 Þegar þú fyrst ræsir [!INCLUDE[d365fin](includes/d365fin_md.md)], eru nokkrar viðbætur þegar settar upp fyrir þig. Með tímanum verða fleiri viðbætur tiltækar fyrir þig, og þú getur síðan valið hvort þú viljir nota viðbótina eða ekki.
 
@@ -61,6 +61,8 @@ Microsoft veitir eftirfarandi viðbætur:
 * [QuickBooks gagnaflutningur á netinu](ui-extensions-quickbooks-online-data-migration.md)
 * [Endurskoðandagátt](ui-extensions-accountant-portal.md)  
 * [Myndgreinandi](ui-extensions-image-analyzer.md)
+* [Greiðslur og afstemmingar (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
+* [C5 Gagnaflutningur](ui-extensions-c5-data-migration.md)
 
 > [!NOTE]  
 >  Nýjar viðbætur eru ekki tiltækar í AppSource strax eftir að við tilkynnum um uppfærslu. Þú getur fylgst með viðbótum á [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

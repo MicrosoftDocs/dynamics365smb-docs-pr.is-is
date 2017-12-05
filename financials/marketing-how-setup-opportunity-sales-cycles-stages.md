@@ -1,8 +1,6 @@
 ---
 title: "Setja upp söluferla tækifæris og söluþrep| Microsoft Docs"
-description: "Lýsir því hvernig skal skilgreina söluþrep, frá upphaflegum tengilið til lokunar, stofna söluferla og úthluta þeim til tækifæra í Financials."
-services: project-madeira
-documentationcenter: 
+description: "Lýsir því hvernig skal skilgreina söluþrep, frá upphaflegum tengilið til lokunar, stofna söluferla og úthluta þeim til tækifæra í Dynamics 365 Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 29f9caa8f01fe8e4cfd0f65cc290d82a49fb36bb
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: d164dd313352e80b6ce4e6f4ba8408e1e2c093de
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-opportunity-sales-cycles-and-cycle-stages"></a>Hvernig á að setja upp söluferla tækifæris og söluþrep
@@ -27,7 +25,7 @@ Innleiðing söluferla fyrir tækifæri felur í sér að setja upp söluferli, 
 Þetta efnisatriði lýsir því líka hvernig skal setja upp verkhluta og aðgerðir og hvernig skal úthluta verkhlutum og aðgerðum. Nánari upplýsingar er að finna í „Að setja upp aðgerðir með verkhlutum" liðnum.
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Uppsetning söluferlakóða tækifæris
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Söluferli** og velja svo viðeigandi tengil. **Söluferli** glugganum opnast og birtir lista yfir öll fyrirliggjandi söluferlum.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Söluferli** og velja svo viðeigandi tengil. **Söluferli** glugganum opnast og birtir lista yfir öll fyrirliggjandi söluferlum.
 2. Valið er **Nýtt** aðgerð og fyllt er inn í reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Þessi skref eru endurtekin til að setja upp eins mörg söluferli og óskað er eftir. Þegar söluferli tækifæra hafa verið settir upp gæti verið ráðlegt að setja upp mismunandi þrep innan hvers ferils.

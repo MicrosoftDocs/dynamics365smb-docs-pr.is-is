@@ -1,5 +1,5 @@
 ---
-title: "Rafræn skjöl í Dynamics 365 for Financials | Microsoft Docs"
+title: "Rafræn skjöl í Dynamics 365 Business edition | Microsoft Docs"
 description: "Inngangur að sendingum og móttöku rafrænna skjala í [!INCLUDE[d365fin](includes/d365fin_md.md)]."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -11,12 +11,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: dac82da00a2f4afe16bc784641abea8f6a29c537
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4397c5b935afccc666fac91c73c04c59958fd8eb
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
+
 # <a name="exchanging-data-electronically"></a>Rafræn gagnaskipti
 Hægt er að nota Gagnaskiptarammann til að skiptast á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öllum öðrum gögnum á milli viðskiptafélaga.
 

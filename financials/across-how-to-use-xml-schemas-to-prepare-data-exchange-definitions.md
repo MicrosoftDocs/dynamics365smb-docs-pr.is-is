@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: d44e4f55dc43e4ad6b8e8bc1742eed3c966eb918
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Hvernig á að nota XML-skema til að undirbúa skilgreiningar gagnaskipta
@@ -46,7 +46,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 4.  Fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
-    |Svæði|[Lýsing]|  
+    |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
     |**Kóti**|Tilgreina kóða til að greina fyrir XML-skemað.|  
     |**Lýsing**|Tilgreinir lýsingu á XML-skema.|  
@@ -66,7 +66,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 2.  Fylla inn í reitina í hausnum eins og lýst er í eftirfarandi töflu.  
 
-    |Svæði|Description|  
+    |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
     |**XML-skemakóði**|Tilgreiniað XML-skemaskrá sem var hlaðið í skrefi 5 í „Að hlaða inn XML-skemaskrá“ hlutanum.|  
     |**Ný XMLport-númer**|Tilgreinið númer XMLport sem er búin til úr þessum XML-skema þegar þú velur **Mynda XMLport** aðgerðina.|  
@@ -79,7 +79,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 4.  Á flipanum **Heim**, í flokknum **Skoða**, skal velja aðra hvora eftirfarandi aðgerða til að breyta því hvaða hnútar eru birtir.  
 
-    |**Aðgerð**|Description|  
+    |**Aðgerð**|Lýsing|  
     |----------------|---------------------------------------|  
     |**Sýna allt**|Allir hnútar er sýndir.|  
     |**Fela það sem ekki er áskilið**|Aðeins eru birtir hnútar sem standa fyrir einingar sem krafist samkvæmt XML-skemanu. Þessir tengipunktar eru vanalega táknaðir með **1** í reitnum **MinOccurs**.<br /><br /> Veldu **Sýna alla** að snúa við útsýni.|  

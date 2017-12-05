@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6cdd86fb96e89e99ea2378221d2991bd640f887e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Hvernig á að breyta áætlunartillögum í myndrænu yfirliti
@@ -47,7 +47,7 @@ Eftirfarandi ferli sýnir hvernig eigi að breyta framboðstillögum með því 
 5.  Haldið inni músarhnappi á meðan bendillinn er færður til upp eða niður til að breyta magni. Haldið inni músarhnappi á meðan bendillinn er færður til vinstri eða hægri til að breyta lokadeginum.  
 6.  Auk þess að flytja einingar með því að draga og sleppa er hægt að breyta áætlunartillögum með því að nota ýmsar aðgerðir með fellilistanum. Opna skal flettilista fyrir grænan hring tillagðrar framboðseiningar og ein eftirfarandi aðgerða valin  
 
-    |Virkni|Description|  
+    |Virkni|Lýsing|  
     |--------------|---------------------------------------|  
     |**Búa til nýtt framboð**|Stofnar nýjan atriðispunkt þar sem fellilisti er opnaður, sem stendur fyrir nýja framboðspöntun sem stungið er upp á. Verður nýja línan í áætlunarvinnublaðinu þegar valið er **Vista breytingar**.<br /><br /> **ATHUGIÐ:** Ef reitirnir **Afmörkun staðsetningar** eða **Afmörkun afbrigðis** í **Valkostir** eru auðir eða hafa fleiri en eitt afmörkunargildi verður nýja framboðið er stofnað og síðar vistað í áætlunarblaðið eða innkaupatillöguna með eftirfarandi kóðum:<br /><br /> * Ef afmörkunarreiturinn er auður er ný eftirspurn búin til án birgðageymslu- eða afbrigðiskóta.<br /><br /> * Ef fleiri en ein afmörkun er skilgreind verður nýja framboðið stofnað fyrir fyrsta afmörkunargildið samkvæmt röðunaraðferðinni.<br /><br /> Ef nota á annað afbrigði eða annan birgðageymslukóta þarf að breyta því handvirkt í nýju áætlunarlínunni.|  
     |**Lagfæra framboð sjálfkrafa**|Fínstillir nýtt framboð sem var búið til á grafinu með því að tryggja að það myndi engar birgðir á undan næsta framboði.|  
@@ -59,7 +59,7 @@ Eftirfarandi ferli sýnir hvernig eigi að breyta framboðstillögum með því 
 Til að virkja breytingar á framboðsáætluninni þarf að fylgja aðgerðarboðunum sem koma úr áætlunar- eða beiðnivinnublaðinu. Frekari upplýsingar, sjá Framkvæma aðgerðarboðaáætlun.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Tákn og táknmyndir í flýtiflipa tímalínu
- |Tákn/ táknmynd|Description|  
+ |Tákn/ táknmynd|Lýsing|  
  |------------------|---------------------------------------|  
  |Black cross|Pantanir (bæði framboð og eftirspurn).<br /><br /> -   Má ekki breyta.<br />-   Sjáanleg þegar reiturinn **Sýna áætlaðar birgðir** er valinn (appelsínugult myndrit).|  
  |Rauður hringur|Núverandi framboðspantanir sem eru ekki í áætlunartillögum.<br /><br /> -   Má ekki breyta.<br />-   Sjáanleg þegar reiturinn **Sýna áætlaðar birgðir** er valinn (appelsínugult myndrit).|  
@@ -70,7 +70,7 @@ Til að virkja breytingar á framboðsáætluninni þarf að fylgja aðgerðarbo
 
 Þegar þú opnar flettilista á **Tímalína** birtast eftirfarandi aðgerðir, eftir því hvar er smellt.  
 
- |Virkni|Description|  
+ |Virkni|Lýsing|  
  |--------------|---------------------------------------|  
  |**Búa til nýtt framboð**|Stofnar nýjan atriðispunkt þar sem fellilisti er opnaður, sem stendur fyrir nýja framboðspöntun sem stungið er upp á. Verður nýja línan í áætlunarvinnublaðinu þegar valið er **Vista breytingar** á flipanum **Vinna**.<br /><br /> Hvers kyns síugildi sem eru skilgreind í reitunum **Staðsetningarsía** eða **Afbrigðisafmörkun** flýtiflipanum **Valkostir** verða jöfnuð við nýju framboðspöntunina. **Athugið:** Ef afmörkunarreitir eru auðir eða hafa fleiri en eitt afmörkunargildi verður nýja framboðspöntunin stofnuð með því að nota eftirfarandi kóða: <ul><li>Ef afmörkunarreiturinn er auður er ný eftirspurn búin til án birgðageymslu- eða afbrigðiskóta.</li><li>Ef fleiri en ein afmörkun er skilgreind verður nýja framboðið er stofnað með því að nota fyrsta afmörkunargildið samkvæmt röðunarstefnunni.</li></ul> Ef nota á annað afbrigði eða annan birgðageymslukóta í nýju birgðapöntuninni þarf að breyta því handvirkt í nýju áætlunarlínunni.|  
  |**Lagfæra framboð sjálfkrafa**|Fínstillir nýtt framboð sem var búið til á grafinu með því að tryggja að það myndi engar birgðir á undan næsta framboði.|  
@@ -82,7 +82,7 @@ Til að virkja breytingar á framboðsáætluninni þarf að fylgja aðgerðarbo
 
 Auk lyklaborðsaðgerðanna sem áður var minnst á er einnig hægt að nota eftirfarandi lyklaborðsaðgerðir á flipanum **Tímalína**.  
 
- |Aðgerð á lyklaborði|Description|  
+ |Aðgerð á lyklaborði|Lýsing|  
  |---------------------|---------------------------------------|  
  |Ctrl + flettihjól á mús|Breytir kvarða x-ássins.|  
  |Veljið einingu og styðjið svo á Shift+ör|Flytur eininguna í stefnu örvarinnar.|  

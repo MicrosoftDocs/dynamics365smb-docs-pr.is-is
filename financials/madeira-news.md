@@ -1,6 +1,6 @@
 ---
-title: "Nýjungar í Dynamics 365 for Financials| Microsoft Docs"
-description: "Lýsir nýjustu uppfærslum og fréttum af Dynamics 365 for Financials"
+title: "Nýjungar í Dynamics 365 Business edition | Microsoft Docs"
+description: "Lýsir nýjustu uppfærslum og fréttum af Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,18 +13,18 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="whats-new-in-dynamics-365-for-financials"></a>Nýjungar í Dynamics 365 for Financials
-Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_md.md)]! Ef þú hefur ekki þegar gert það skaltu skrá þig í forskoðunina, leyfa okkur að fylgja þér í gegnum grunnatriði þess sem þú getur gert með [!INCLUDE[d365fin](includes/d365fin_md.md)], og eftir það prófarðu þig áfram á eigin spýtur. Þegar þér hentar getur þú opnað autt fyrirtæki og sett upp hluti eins og þú vilt hafa það.  
+# <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nýjungar í Dynamics 365 for Finance and Operations, Business edition
+Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! Ef þú hefur ekki þegar gert það skaltu skrá þig í forskoðunina, leyfa okkur að fylgja þér í gegnum grunnatriði þess sem þú getur gert með [!INCLUDE[d365fin](includes/d365fin_md.md)], og eftir það prófarðu þig áfram á eigin spýtur. Þegar þér hentar getur þú opnað autt fyrirtæki og sett upp hluti eins og þú vilt hafa það.  
 
-Með reglulegu millibili uppfærum við [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótarfærni í grunnhugbúnaðinum og með nýjum [viðbætur](ui-extensions.md). Til að sjá yfirlit yfir hvað er koma og hvað er nú þegar tiltækt, sjá [Dynamics 365 Vegakortið](https://roadmap.dynamics.com/) - og muna að afmarka fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Með reglulegu millibili uppfærum við [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótarfærni í grunnhugbúnaðinum og með nýjum [viðbætur](ui-extensions.md). Til að sjá yfirlit yfir hvað er koma og hvað er nú þegar tiltækt, sjá [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) - og muna að afmarka fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Á þessari síðu er hægt að sjá hvaða svæði urðu tiltækar meðan við vorum enn í forskoðun. Í framhaldinu, finna uppfærslurnar í [Dynamics 365 Vegakortið](https://roadmap.dynamics.com/).
+Á þessari síðu er hægt að sjá hvaða svæði urðu tiltækar meðan við vorum enn í forskoðun. Í framhaldinu, finna uppfærslurnar í [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
 
 ## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>2016 nóvember útgáfa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Eins og tilkynnt var á blogginu, erum við nú þjónustuvöru sem þú notar í þínu fyrirtækið. En þessi uppfærsla bætir einnig við nýrri færni og nýjum viðbætum.
@@ -129,5 +129,5 @@ Helstu aðstæður sem þú ættir að kynna þér upp á eigin spýtur:
 ## <a name="see-also"></a>Sjá einnig
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Dynamics 365 Vegakort](https://roadmap.dynamics.com/)  
+[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
 

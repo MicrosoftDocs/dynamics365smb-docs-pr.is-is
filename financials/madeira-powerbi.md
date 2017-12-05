@@ -1,6 +1,6 @@
 ---
-title: Efnispakkar Dynamics 365 for Financials og Power BI| Microsoft Docs
-description: "Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Financials gögnin þín með Power BI og Financials efnispökkunum."
+title: Dynamics 365 Business edition og Power BI Content Packs| Microsoft Docs
+description: "Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Dynamics 365 gögnum með Power BI og Dynamics 365 Content Pack."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d165efbb6a157c6f95f8f59e6aa0d9b7100daa91
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Virkja viðskiptagögnin þín fyrir Power BI
@@ -22,7 +22,7 @@ ms.lasthandoff: 09/22/2017
 
 Microsoft hefur gefið út eftirfarandi efnispakka:
 
-| Forrit | Description |
+| Forrit | Lýsing |
 | --- | --- |
 | Microsoft Dynamics 365 for Financials | Býður upp á yfirlit með fjárhagslegum lykilupplýsingum yfir tíma, eins og t.d. tekjur á móti útgjöldum, rekstrarframlegð og ferill bundins reiðufés.|
 | Microsoft Dynamics 365 for Financials -CRM | Býður upp á yfirlit með lykilupplýsingum um sölutækifæri og tengiliði.  |
@@ -44,7 +44,7 @@ Efnispakkinn er forstilltur til að vinna með sölugögnum og fjárhagsgögnum 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Aðgangur að [!INCLUDE[d365fin](includes/d365fin_md.md)] í Power BI
 Til að skoða þitt [!INCLUDE[d365fin](includes/d365fin_md.md)] gögn í Power BI, verður þú að hafa eftirfarandi:  
 
-* Aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar, sjá [Financials](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Aðgang að Power BI Nánari upplýsingar eru í [Power BI](https://powerbi.microsoft.com), .
 
 Á vefsvæði Power BI má finna viðbótarupplýsingar um [að tengjast þjónustu með efnispakka fyrir Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: f81d6dac79817d758ff0ae49322a18f1e5cdc9d8
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 21f51e08fa5153bca28d1470b724038acfcd85cf
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Reitarvörpun við útflutning greiðsluskrá með umskráningarþjónusta fyrir bankagögn
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/27/2017
 
 Í eftirfarandi töflu birtast reitirnir í [!INCLUDE[d365fin](includes/d365fin_md.md)] þaðan sem hægt er að flytja út gögn í aðra þjónustuveitu.  
 
-|Varpaður reitur|Reitur í töflu|Tafla|Lýsing]-->|  
+|Varpaður reitur|Reitur í töflu|Tafla|Lýsing|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Númer lánveitanda|Númer lánveitanda|Bankareikningur|Kennimerki tengt við fyrirtækið þitt af bankanum til að taka við greiðslum|  
 |Bankareikningsnúmer sendanda|Númer bankareiknings/IBAN|Bankareikningur|Bankareikningsnúmer (IBAN eða annað) fyrirtækisins þíns sem er tilgreint á bankareikningsspjaldinu|  

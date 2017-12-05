@@ -9,20 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 03/29/2017
+ms.date: 10/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 6de2d9c030313cd2d7990faa7b9217bb751fe138
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-invoice-sales"></a>Hvernig er reikningsfært
 Búinn er til sölureikningur eða sölupöntun til að skrá samkomulag við viðskiptamann um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum.  
 
-> [!NOTE]  
->   Til eru nokkrar aðstæður þar sem verður að nota sölupöntun í stað sölureikningi:  
+Til eru nokkrar aðstæður þar sem verður að nota sölupöntun í stað sölureikningi:  
 
 * Ef þarf að senda aðeins hluti af pöntunarmagni á, til dæmis vegna þess að allt magnið er ekki tiltækt.  
 * Ef þú selur vörur sem lánardrottni sendir beint til viðskiptamanns, heitir bein afhending. Nánari upplýsingar eru í [Hvernig á að gera bein sending](sales-how-drop-shipment.md).  
@@ -37,7 +36,7 @@ Ef viðskiptamaðurinn ákveður að kaupa, bókar þú sölureikninginn til að
 
 Auðvelt er að leiðrétta eða afturkalla bókaðann sölureikning áður en hann er greiddur. Þetta er til dæmis gagnlegt þegar leiðrétta á innsláttarvillu eða þegar viðskiptamaðurinn biður um breytingu snemma í pöntunarferlinu. Nánari upplýsingar er að finna [hvernig á að: Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md) Ef bókaður sölureikningur er greiddur, verður að búa til sölukreditreikning til að afturkalla söluna. Fyrir frekar upplýsingar, sjá [hvernig á að: Meðhöndlun söluvöruskila eða afturkallana](sales-how-process-sales-returns-cancellations.md)
 
-Vörurnar geta bæði verið vörur í birgðaskrá og þjónustu, gefið til kynna sem **Vara - Birgðir** og **Vara - Þjónusta** tegundir í sölulínum. Sölureikningaferlið er það sama fyrir báðar vörutegundir. Nánari upplýsingar eru í [Hvernig á að: Skrá nýjar vörur](inventory-how-register-new-items.md).
+Vörurnar geta bæði verið vörur í birgðaskrá og þjónustu, gefið til kynna sem **Birgðir** og **Þjónusta** tegundir á birgðaspjaldinu. Sölureikningaferlið er það sama fyrir báðar vörutegundir. Nánari upplýsingar eru í [Hvernig á að: Skrá nýjar vörur](inventory-how-register-new-items.md).
 
 Hægt er að fylla út viðskiptamannsreitina á sölureikningnum með tveimur leiðum, eftir því hvort viðskiptamaðurinn hefur þegar verið skráður. Sjá lið 2 og 3 í eftirfarandi ferli.
 
@@ -67,7 +66,7 @@ Ef endurteknar sölulínur hafa verið settar upp fyrir viðskiptamanninn, svo s
 11. Í reitnum **Magn** er fært inn hversu margar einingar vöru, kostnaðarauka eða færslu sem línan skráir fyrir viðskiptamanninn.  
 
     > [!NOTE]  
->   Ef varan er af tegundinni **Vara - Þjónusta** eða **Forði**, er magnið tímaeining, t.d. klukkutímar, eins og gefið er til kynna í reitnum **Mælieiningarkóði** í línunni.  
+>   Ef varan er af gerðinni **Þjónusta** eða reiturinn **Gerð** innniheldur **Forið** þá er magnið tíaeining á borð við klukkustundir, eins og táknað er í **Mælieiningarkóði** reitnum á línunni.  
 
     Gildið í reitnum **Línuupphæð** er reiknaður sem *Einingarverð* x *Magn*.  
 
@@ -92,6 +91,6 @@ Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og á s�
 [Uppsetning sölu](sales-setup-sales.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hvernig á að: Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
-[Magnreikningsfærsla frá Microsoft Bookings í Dynamics 365 for Financials](finance-bookings.md)  
+[Magnreikningsfærsla frá Microsoft Bookings í Dynamics 365 Business edition](finance-bookings.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

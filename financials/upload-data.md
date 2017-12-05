@@ -1,20 +1,20 @@
 ---
-title: "Flytja eldri viðskiptagögn þín inn í Financials | Microsoft Docs"
-description: "Hægt er að flytja gögn fyrir viðskiptamenn, lánardrottna og birgðir, til dæmis frá Excel, QuickBooks, eða Dynamics GP inn í Financials."
+title: "Flytja eldri viðskiptagögn þín inn í Dynamics 365 | Microsoft Docs"
+description: "Hægt er að flytja gögn fyrir viðskiptamenn, lánardrottna og birgðir, til dæmis úr Excel, QuickBooks, eða Dynamics GP inn í Dynamics 365."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: migrate, initialize, implement
+ms.search.keywords: QuickBooks, transfer, import, migrate, initialize, implement
 ms.date: 09/25/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: c5571a6d5dcb7a228ce0debd9aa3bcf18607e8a4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3f1df4bf771586c5e3e4d79d23c26051bf19c763
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Innflutningur viðskiptagagna úr öðrum fjárhagskerfum
@@ -24,7 +24,7 @@ Hægt er að ræsa leiðarvísi um uppsetningu með hjálp frá upphafssíðu se
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur sniðmát fyrir viðskiptamenn, lánardrottna og birgðavörur sem hægt er að nota þegar gögnum er hlaðið upp.  
 
-## <a name="importing-data-from-quickbooks-or-dynamics-gp"></a>Innflutningur gagna úr QuickBooks eða Dynamics GP
+## <a name="importing-data-from-quickbooks-desktop-quickbooks-online-or-dynamics-gp"></a>Innflutningur gagna úr QuickBooks Desktop, QuickBooks Online eða Dynamics GP
 Ef fyrirtækið notar QuickBooks eða Dynamics GP í dag er hægt að flytja út viðeigandi upplýsingar í skrá. Síðan er hægt að opna leiðarvísi um uppsetningu með hjálp til að flytja gögnin.
 Ef IFF-skráin inniheldur til dæmis viðskiptamenn og lánardrottna er hægt að ákveða að flytja aðeins gögn viðskiptamanna. Síðan er hægt að flytja aðrar upplýsingar síðar.  
 

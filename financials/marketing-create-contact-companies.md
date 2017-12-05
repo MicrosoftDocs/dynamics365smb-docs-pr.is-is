@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-companies"></a>Fyrirtækjatengiliðir stofnaðir
@@ -26,7 +26,7 @@ Með því að úthluta eins miklum gögnum og mögulegt er um tiltekið fyrirt�
 
 Einnig er hægt að skilgreina viðskiptatengslin við tengilið. Tengiliður gæti til dæmis verið væntanlegur viðskiptamaður, banki eða verktaki.
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst. 
+Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
 | Til | Sjá |
 | --- | --- |
@@ -40,5 +40,5 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 ## <a name="see-also"></a>Sjá einnig
 [Einstaklingstengiliðir stofnaðir](marketing-create-contact-persons.md)   
-[Unnið með Financials](ui-work-product.md)
+[Unnið með Dynamics 365](ui-work-product.md)
 

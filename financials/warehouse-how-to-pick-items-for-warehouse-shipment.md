@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e4568214469e80dce7ea91ff7574d1be8ca9ac7a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b2658a5b77b1e1ee293b6f99c419c133c535372
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-pick-items-for-warehouse-shipment"></a>Hvernig á að tína vörur fyrir vöruhúsaafhendingu
@@ -73,7 +73,7 @@ Eftir að vöruhúsasendingin er bókuð, eru ýmis svæði í sölupöntunarlí
 > [!NOTE]
 > Við blandaðar aðstæður, þar sem fyrst þarf að setja saman hluta magnsins og afhenda þarf annað magn úr birgðum, eru tvær vöruafhendingarlínur búnar til. Ein er fyrir er fyrir samsetningarpöntunarmagn, og ein er fyrir birgðamagn.
 
-> Í því tilfelli er magn samsetningarpöntunarinnar meðhöndlað eins og lýst er í þessu efnisatriði og birgðamagnið eins og hefðbundin vöruhúsaafhendingarlína. Frekari upplýsingar um samsetningaraðstæður eru í [Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir](samsetning_setja_saman_í_pöntun_eða_setja_saman_í_birgðir_md.
+> Í því tilfelli er magn samsetningarpöntunarinnar meðhöndlað eins og lýst er í þessu efnisatriði og birgðamagnið eins og hefðbundin vöruhúsaafhendingarlína. Frekari upplýsingar um samsetningaraðstæður eru í [Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4ced0ece340de08598fecff157d59aa708e4e17c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-average-cost"></a>Hönnunarupplýsingar: Meðalkostnaður
@@ -25,7 +25,7 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 ## <a name="setting-up-average-cost-calculation"></a>Setja upp meðalkostnaðrverðútreikning  
  Eftirfarandi tafla lýsir tveimur reitum í glugganum **Uppsetning birgða** sem verður að fylla út til að gera meðalkostnaðarútreikning virkan.  
 
-|Svæði|Description|  
+|Svæði|Lýsing|  
 |---------------------------------|---------------------------------------|  
 |**Tímabil meðalinnk.verðs**|Tilgreinir á hvaða tímabili meðalkostnaður er reiknaður í. Eftirfarandi möguleikar eru til staðar:<br /><br /> -   **Dagur**<br />-   **Vika**<br />-   **Mánuður**<br />-   **Reikningstímabil**<br /><br /> Öll birgðaminnkun sem var bókuð innan tímabils meðalinnkaupsverðs fær meðalinnkaupsverðið sem reiknað er fyrir þetta tímabil.|  
 |**Meðalinnk.verð Teg. útreikn.**|Tilgreinir hvernig meðalkostnaður er reiknaður. Eftirfarandi möguleikar eru til staðar:<br /><br /> -   **Vara**<br />-   **Vörur, afbrigði og staðsetning**<br />     Ef þessi kostur er valinn reiknar kerfið út meðalinnkaupsverð á vöru fyrir hverja birgðageymslu og fyrir hvert afbrigði vörunnar í fyrirtækinu. Þetta þýðir að meðalinnkaupsverð þessarar vöru veltur á því hvar hún er geymd og hvaða afbrigði vörunnar (til dæmis litur) var valið.|  
@@ -57,8 +57,8 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 
 |**Bókunardags.**|**Tegund birgðafærslu**|**Magn**|**Kostnaðarupphæð (raunverul.)**|**Færslunr.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Innkaup|0|20.00|0|  
-|01-01-20|Innkaup|0|40.00|2|  
+|01-01-20|Innkaup|1|20.00|1|  
+|01-01-20|Innkaup|1|40.00|2|  
 |01-01-20|Sala|-1|-20,00|3|  
 |02-01-20|Sala|-1|-40,00|4|  
 |02-02-20|Innkaup|1|100,00|5|  
@@ -71,17 +71,17 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 
 |**Vörunr.**|**Afbrigðiskóði**|**Staðsetningarkóði**|**Dagsetning virðismats**|**Kostnaður er leiðréttur**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|VARA1||BLÁTT|01-01-20|Nr|  
-|VARA1||BLÁTT|02-01-20|Nr|  
+|VARA1||BLÁTT|01-01-20|Nei|  
+|VARA1||BLÁTT|02-01-20|Nei|  
 |VARA1||BLÁTT|02-02-20|Nei|  
 |VARA1||BLÁTT|02-03-20|Nei|  
 
- Eftirfarandi tafla sýnir sömu birgðahöfuðbókarfærslur eftir að runuvinnslan **Leiðrétta kostnað Birgðafærslur** hefur verið keyrð.  Meðalkostnaður á dag er reiknaður og jafnaður við birgðaminnkun.  
+ Eftirfarandi tafla sýnir sömu birgðahöfuðbókarfærslur eftir að runuvinnslan **Leiðrétta kostnað Birgðafærslur** hefur verið keyrð. Meðalkostnaður á dag er reiknaður og jafnaður við birgðaminnkun.  
 
 |**Bókunardags.**|**Tegund birgðafærslu**|**Magn**|**Kostnaðarupphæð (raunverul.)**|**Færslunr.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Innkaup|0|20.00|0|  
-|01-01-20|Innkaup|0|40.00|2|  
+|01-01-20|Innkaup|1|20.00|1|  
+|01-01-20|Innkaup|1|40.00|2|  
 |01-01-20|Sala|-1|-30,00|3|  
 |02-01-20|Sala|-1|-30,00|4|  
 |02-02-20|Innkaup|1|100,00|5|  
@@ -96,8 +96,8 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 
 |**Bókunardags.**|**Tegund birgðafærslu**|**Magn**|**Kostnaðarupphæð (raunverul.)**|**Færslunr.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Innkaup|0|20.00|0|  
-|01-01-20|Innkaup|0|40.00|2|  
+|01-01-20|Innkaup|1|20.00|1|  
+|01-01-20|Innkaup|1|40.00|2|  
 |01-01-20|Sala|-1|-20,00|3|  
 |02-01-20|Sala|-1|-40,00|4|  
 |02-02-20|Innkaup|1|100,00|5|  
@@ -110,8 +110,8 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 
 |**Vörunr.**|**Afbrigðiskóði**|**Staðsetningarkóði**|**Dagsetning virðismats**|**Kostnaður er leiðréttur**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|VARA1||BLÁTT|01-31-20|Nr|  
-|VARA1||BLÁTT|02-28-20|Nr|  
+|VARA1||BLÁTT|01-31-20|Nei|  
+|VARA1||BLÁTT|02-28-20|Nei|  
 
 > [!NOTE]  
 >  Virðisdagsetningin er stillt á síðasta dag meðalkostnaðartímabils, sem í þessu tilviki er síðasti dagur mánaðarins.  
@@ -120,8 +120,8 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 
 |**Bókunardags.**|**Tegund birgðafærslu**|**Magn**|**Kostnaðarupphæð (raunverul.)**|**Færslunr.**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Innkaup|0|20.00|0|  
-|01-01-20|Innkaup|0|40.00|2|  
+|01-01-20|Innkaup|1|20.00|1|  
+|01-01-20|Innkaup|1|40.00|2|  
 |01-01-20|Sala|-1|-30,00|3|  
 |02-01-20|Sala|-1|-65,00|4|  
 |02-02-20|Innkaup|1|100,00|5|  
@@ -138,7 +138,7 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 
 |Aðstæður|Bókunardagsetning|Virt magn|Endurmat|Dagsetning virðismats|  
 |--------------|-------------------------------------|-----------------------------------------|-----------------|-----------------------------------------|  
-|1||Jákvæð|Nr|Bókunardagsetning birgðafærslu|  
+|1||Jákvæð|Nei|Bókunardagsetning birgðafærslu|  
 |2|Síðar en síðasta matsdagsetning jafnaðra virðisfærslna|Neikvætt|Nei|Bókunardagsetning birgðafærslu|  
 |3|Fyrr en síðasta matsdagsetning jafnaðra virðisfærslna|Jákvætt|Nei|Síðasta matsdagsetning jafnaðra virðisfærslna|  
 |4||Neikvætt|Já|Bókunardagsetning virðisfærslu endurmats|  
@@ -148,7 +148,7 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 
 |Aðstæður|Bókunardagsetning|Tegund birgðafærslu|Dagsetning virðismats|Virt magn|Kostnaðarupphæð (raunverul.)|Birgðafærsla nr.|Færslunr.|  
 |--------------|-------------------------------------|-----------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|0|01-01-20|Innkaup|01-01-20|2|20.00|0|0|  
+|1|01-01-20|Innkaup|01-01-20|2|20.00|1|1|  
 |2|01-15-20|(Kostnaðarauki)|01-01-20|2|8,00|1|2|  
 |3|02-01-20|Sala|02-01-20|-1|-14,00|2|3|  
 |4|03-01-20|(Endurmat)|03-01-20|1|-.4.00|1|4|  
@@ -187,8 +187,8 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 
 |Dagsetning virðismats|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|01-02-20|0|20.00|2|  
+|01-01-20|1|10.00|1|  
+|01-02-20|1|20.00|2|  
 |02-15-20|-1|-15,00|3|  
 |02-16-20|-1|-15,00|4|  
 
@@ -198,9 +198,9 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 
 |Dagsetning virðismats|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|01-02-20|0|20.00|2|  
-|01-03-20|0|21.00|5|  
+|01-01-20|1|10.00|1|  
+|01-02-20|1|20.00|2|  
+|01-03-20|1|21.00|5|  
 |02-15-20|-1|-17,00|3|  
 |02-16-20|-1|-17,00|4|  
 

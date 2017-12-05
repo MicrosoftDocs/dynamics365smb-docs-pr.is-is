@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4256c563edc79ebfbe1bbe9337cf1e8a7e9d9991
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 99f4ec1b3b02ec88bc10fd21988af8e6683867cb
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-manage-many-incoming-document-records"></a>Hvernig á að: Vinna með margar færslur skjala á innleið
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/22/2017
 > [!NOTE]  
 >   Þegar glugginn **Skjöl á innleið** er opnaður með **Mín skjöl á innleið** aðgerð í hlutverkamiðstöð, eru aðeins óunnar færslur fyrir skjöl á innleið sýndar sjálfgefið. Vísað er í þetta í þesssu efnisatriði sem "sjálfgefna yfirlitið".
 
-## <a name="to-remove-incoming-document-records-from-the-default-view"></a> Fjarlægja færslu skjals á innleið úr sjálfgefna yfirlitinu
+## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Fjarlægja færslu skjals á innleið úr sjálfgefna yfirlitinu
 1. Í **skjal á innleið** glugganum skal velja færslu eina eða fleiri línur fyrir færslur fyrir skjöl á innleið sem þú vilt fjarlægja úr sjálfgefna yfirlitinu.
 2. Valið er **stilla á unnið** aðgerð.
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 09/22/2017
 
 Allar færslur skjala á innleið eru birtar , þar á meðal þær þar sem **unnið** gátreiturinn er ekki valinn.
 
-## <a name="to-add-incoming-document-records-to-the-default-view"></a> Bæta við færslu skjals á innleið við sjálfgefna yfirlitinu
+## <a name="to-add-incoming-document-records-to-the-default-view"></a>Bæta við færslu skjals á innleið við sjálfgefna yfirlitinu
 1. Í glugganum **Skjal á innleið** skal velja aðgerðina **sýna allt**
 2. velja færslu eina eða fleiri línur fyrir færslur fyrir skjöl á innleið sem þú vilt að birtist í sjálfgefna yfirlitinu.
 3. Valið er **Setja upp óunnið** aðgerð.  
@@ -56,5 +56,5 @@ Allar færslur skjala á innleið eru birtar , þar á meðal þær þar sem **u
 [Vinnsla skjala á innleið](across-process-income-documents.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 

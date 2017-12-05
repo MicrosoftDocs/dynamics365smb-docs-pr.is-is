@@ -1,6 +1,6 @@
 ---
 title: "Setja upp SEPA-beingreiðslur | Microsoft Docs"
-description: "Lærið hvernig á að setja upp SEPA-beingreiðslur í Dynamics 365 for Financials."
+description: "Lærið hvernig á að setja upp SEPA-beingreiðslur í Dynamics 365 Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: fea703b804fbc88e5c39f52f72bbda5699237b6b
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-direct-debit"></a>Hvernig á að: Setja upp SEPA-beingreiðslur
@@ -38,7 +38,7 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
 2. Valið er **Nýtt** aðgerð.  
 3. Setjið upp greiðsluaðferð. Fylla inn í reitina eins\- og lýst er í eftirfarandi töflu.  
 
-    |Svæði|[Lýsing|  
+    |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
     |**Bein skuldfærsla**|Tilgreina ef greiðsluaðferð er fyrir SEPA innheimtu beingreiðslu.|  
     |**Greiðsluskilmálakóti beinnar skuldfærslu**|Tilgreina greiðsluskilmála eins og EKKI BORGA sem eru birtir á sölureikningum sem eru borgaðir með SEPA-beingreiðslu til að auðkenna fyrir viðskiptamanninn að greiðslan verður innheimt sjálfkrafa. Einnig er hægt að skilja þennan reit eftir auðan.|  
@@ -59,7 +59,7 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
 4. Í glugganum **Bankareikn.listi viðskiptam.** skal velja bankareikning viðskiptamanns sem mun nota beingreiðslu og svo, á flipanum **Heim** í flokknum **Vinnsla** skal velja **Umboð beingreiðslu**.  
 5. Í glugganum **SEPA-umboð fyrir beint debet** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
-    |[Reitur|Lýsing]|  
+    |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
     |**Bankareikn.kóði viðskiptamanns**|Tilgreinir bankareikninginn þaðan sem beingreiðslur eru teknar. Þessi reitur er fylltur út sjálfkrafa.|  
     |**Gildir frá**|Tilgreina dagsetningu þegar beingreiðsla hefst.|  

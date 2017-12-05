@@ -1,6 +1,6 @@
 ---
-title: "Nota Financials á fartæki| Microsoft Docs"
-description: "Þú getur skoðað og breytt Financials gögnum í símanum þínum eða spjaldtölvu."
+title: "Nota Dynamics 365 í fartæki | Microsoft Docs"
+description: "Þú getur skoðað og breytt Dynamics 365 gögnum í símanum þínum eða spjaldtölvu."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: phone, tablet
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 56f2ef7c7b0c604f0966736020dcb9cff546dddd
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="getting-dynamics-365-for-financials-on-your-mobile-device"></a>Sækja Dynamics 365 for Financials í fartæki
+# <a name="getting-dynamics-365-for-finance-and-operations-on-your-mobile-device"></a>Sækja Dynamics 365 for Finance and Operations í fartæki
 Fá aðgang að gögnum [!INCLUDE[d365fin](includes/d365fin_md.md)] úr fartæki. Hægt er að skoða viðskiptagögn, nota eiginleika eins og senda í Excel eða Office 365, skoða nýjustu myndrit og afkastavísa (KPI), sölutilboð og reikninga í tölvupósti, og taka myndir með eigin myndavél og tengja þær. Fylgið skrefunum hér að neðan til að sækja smáforritið og hefjist handa.
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>Að sækja smáforritið í fartæki

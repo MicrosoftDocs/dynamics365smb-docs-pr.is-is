@@ -1,5 +1,5 @@
 ---
-title: "Fræðslumyndbönd um hvernig á að nota Dynamics 365 for Financials| Microsoft Docs"
+title: "Fræðslumyndbönd um hvernig á að nota Dynamics 365 Business edition | Microsoft Docs"
 description: "Veitir aðgang að myndböndum sem hjálpa þér að komast af stað og læra Hvernig á að framkvæma algeng verk"
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: video, library, how to
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e5f4e0b32b90a19f4f58a1fd792a686c0cb41d0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cb769e45d2ef2ade6eb82118cd6f79b5e3cf9d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="visit-our-video-library"></a>Skoðaðu myndbandasafnið okkar
@@ -35,10 +35,12 @@ Hægt er að nálgast myndböndin á ólíka vegu. Ef þú ert þegar að vinna 
 * Frá **Yfirmaður fyrirtækis** Mitt hlutverk, með því að velja **Fyrirtækjaaðstoð**, og síðan **Sýna uppsetningu og tilföng aðstoðar**.  
 
 > [!Tip]  
-> Til viðbótar við myndbönd, felur **Fyrirtækjaaðstoð** í sér tilföng á borð við hlekki á efnisatriði og leiðbeiningar um uppsetningu sem auðveldar þér að komast af stað. Þessi tilföng koma í staðinn fyrir grafið í Mitt hlutverk. Eftir að þú ert búinn að kanna tilföngin, geturðu skipt aftur yfir í grafið í valmyndinni **Fyrirtækjaaðstoð** með því að velja **Sýna graf**.  
+> Myndskeið í safninu birtast í ramma sem virðist vera mjög lítill. Til að stækka rammann skal velja örvartáknið sem bendir í tvær áttir efst í hægra horni rammans. Eftir það birtast myndskeið í stærri ramma þar til þau eru smækkuð aftur.  
+
+Til viðbótar við myndbönd, felur **Fyrirtækjaaðstoð** í sér tilföng á borð við hlekki á efnisatriði og leiðbeiningar um uppsetningu sem auðveldar þér að komast af stað. Þessi tilföng koma í staðinn fyrir grafið í Mitt hlutverk. Eftir að þú ert búinn að kanna tilföngin, geturðu skipt aftur yfir í grafið í valmyndinni **Fyrirtækjaaðstoð** með því að velja **Sýna graf**.  
   
 Hægt er að skoða fræðslumyndböndin okkar, ásamt fullt af öðru efni, á YouTube rásinni sem var búin til fyrir Microsoft Dynamics 365. [Smelltu hér](https://go.microsoft.com/fwlink/?linkid=851533) ef þú vilt skoða rásina núna.
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 

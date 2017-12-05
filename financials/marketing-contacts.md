@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f6c9b936bdd6e8b1495aaa609f3a6eaac4095ab3
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Stofnun og stjórnun tengiliða
@@ -26,7 +26,7 @@ Alla ytri aðila sem fyrirtækið hefur viðskiptatengsl við (til dæmis viðsk
 
 Hægt er að skrá upplýsingar sem byggjast á fyrirtæki eða einstaklingi innan þess fyrirtækis. Einnig er hægt að stofna sjálfstæðan tengilið fyrir fólk sem vinnur ekki hjá neinu fyrirtæki, en eru sjálfstætt starfandi eða í lausamennsku.
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst. 
+Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
 | Til | Sjá |
 | --- | --- |
@@ -37,5 +37,5 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## <a name="see-also"></a>Sjá einnig
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Uppsetning tengslastjórnunar](marketing-setup-marketing.md)  
-[Unnið með Financials](ui-work-product.md)  
+[Unnið með Dynamics 365](ui-work-product.md)  
 

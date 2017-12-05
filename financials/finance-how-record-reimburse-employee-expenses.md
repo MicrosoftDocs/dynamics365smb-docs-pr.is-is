@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8674fcc050e11c9ecb1c423fc5048c1ef630e1ac
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 0e10011c598678134cb7badbd9a3be97751b4424
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-record-and-reimburse-employees-expenses"></a>Hvernig á að: Skrá og endurgreiða starfsmannaútgjöld.
@@ -47,7 +47,7 @@ Ef starfsmenn eyða sínum eigin peningum í viðskiptaerindum, er hægt að bó
 5. Valið er **bóka** aðgerð til að skrá endurgreiðsluna.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Afstemma endurgreiðslur við fjárhagsfærslur starfsmanns
-Þú jafnar greiðslu til starfsmanns við tengdar og opnar fjárhagsfærslur starfsmanns á sama hátt og greiðslur til lánardrottins, til dæmis í glugganum **Greiðsluafstemmingarbók**, byggt á tengdum bankayfirlitsfærslum. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og stemma af bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md). Einnig er hægt að jafna handvirkt í glugganum **Fjárhagsfærslur starfsmanna**. Frekari upplýsingar, sjá [Hvernig á að:: afstemma greiðsla lánardrottinss handvirkt](payables-how-apply-purchase-transactions-manually.md).  
+Þú jafnar greiðslu til starfsmanns við tengdar og opnar fjárhagsfærslur starfsmanns á sama hátt og greiðslur til lánardrottins, til dæmis í glugganum **Greiðsluafstemmingarbók**, byggt á tengdum bankayfirlitsfærslum. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md). Einnig er hægt að jafna handvirkt í glugganum **Fjárhagsfærslur starfsmanna**. Frekari upplýsingar, sjá [Hvernig á að:: afstemma greiðsla lánardrottinss handvirkt](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Sjá einnig
 [Hvernig skal: Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  

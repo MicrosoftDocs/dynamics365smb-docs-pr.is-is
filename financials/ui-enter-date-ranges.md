@@ -1,6 +1,6 @@
 ---
-title: "Setja upp dagsetningartímabil í Dynamics 365 for Financials | Microsoft Docs"
-description: "Kynntu þér hvernig skal sækja skýrslu sem sýnir gögn frá ákveðnu tímabili með því að nota dagsetningartímabil í Dynamics 365 for Financials."
+title: "Setja upp dagsetningabil í Dynamics 365 Business edition | Microsoft Docs"
+description: "Kynntu þér hvernig skal sækja skýrslu sem sýnir gögn frá ákveðnu tímabili með því að nota dagsetningartímabil í Dynamics 365 Business edition."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: dc7cd392843ce7c39200bb2331c09cc44c7a394a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fee6a5d7ce6603829ed98913b7e370a53239ee3e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="entering-date-ranges-in-dynamics-365-for-financials"></a>Færa inn dagsetningartímabil í Dynamics 365 for Financials
+# <a name="entering-date-ranges-in-dynamics-365-business-edition"></a>Færa inn dagsetningartímabil í Dynamics 365 Business edition 
 Hægt er að stilla afmarkanir með upphafs- og lokadegi til að birta aðeins gögn á tilteknu tímabili. Ákveðnar reglur gilda um hvernig tímabil eru stillt. Tökum sem dæmi **Topp 10 viðskiptavinir**:
 
 ![Stilla dagsetningartímabil á beiðnisíðunni fyrir topp 10 viðskiptavinir](./media/ui-enter-date-ranges/customer-top10-list.png)

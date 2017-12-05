@@ -13,13 +13,13 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1c82ab613d8f1fc5e71a81e6eead60cf9c0bf196
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Skoða listagögn í Power BI skýrslum í Dynamics 365 for Financials.
+# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-business-edition"></a>Skoða listagögn í Power BI skýrslum í Dynamics 365 Business edition. 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur stjórneiningu fyrir upplýsingakassa á mörgum veigamiklum listasíðum sem veita frekari innsýn í gögnin í listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Notandi getur stofnað sérsniðnar skýrslur til að birta í þessum stjórntakka en hér eru nokkrar grunnreglur sem fylgja skal við stofnun skýrslnanna til að tryggja að þær virki sem skyldi.  
 
 > [!NOTE]  

@@ -1,6 +1,6 @@
 ---
 title: "Nota Excel til að flytja inn gögn í Financials| Microsoft Docs"
-description: "Sjálfgefinn grunnstillingarpakki er notaður til að bæta við viðskiptamenn í Excel og flytja inn gögnin aftur í Dynamics 365 for Financials."
+description: "Sjálfgefinn grunnstillingarpakki er notaður til að bæta við viðskiptamönnum í Excel og flytja inn gögnin aftur í Dynamics 365 Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: migration, Excel
 ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
-ms.openlocfilehash: 8cf36afea60b089afac8f1c27d126cd19b88ce94
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 433d014c41d2508d155891b5ac4e0437c41b3d9e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="importing-data-from-legacy-accounting-software-using-a-configuration-package"></a>Gögn flutt inn úr eldri bókhaldshugbúnaði með því að nota grunnstillingarpakka

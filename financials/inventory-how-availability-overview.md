@@ -12,10 +12,10 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Hvernig skal: Skoða tiltækileika vöru
@@ -26,10 +26,10 @@ Hægt er að skoða tiltækileika alla vara eftir staðsetningu, og hægt er að
 > [!NOTE]  
 >   Ef óskað er eftir að sjá tiltækileika eftir staðsetningu þarf að hafa birgðir á fleiri en einum stað. Nánari upplýsingar er að finna í [Hvernig á að: Setja upp staðsetningar](inventory-how-setup-locations.md).
 
-Þegar verið er að [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)], eru tölur um framboð sýndar í tveimur mismunandi reitum, hvort um sig með mismunandi skilgreiningu:
+Í [!INCLUDE[d365fin](includes/d365fin_md.md)], eru tölur um framboð sýndar í tveimur mismunandi reitum, hvor um sig með mismunandi skilgreiningu:
 
 * Svæðið **Magn á lager** sýnir raunverulegt magn dagsins í dag samkvæmt bókuðum birgðafærslum.
-* Svæðið **Áætluð staða til ráðstöfunar** er reiknað út og sýnir magn á lager ásamt tímasettum móttökum að frádreginni brúttóþörf. (Þegar verið er að [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)], fela tímasettar móttökur í sér magn á innkaupapöntun og flutningspantanir á innleið. Brúttóþörf felur í sér magn á sölupöntunum og flutningspantanir á útleið.)
+* Svæðið **Áætluð staða til ráðstöfunar** er reiknað út og sýnir magn á lager ásamt tímasettum móttökum að frádreginni brúttóþörf. (Í [!INCLUDE[d365fin](includes/d365fin_md.md)], fela tímasettar móttökur í sér magn á innkaupapöntun og flutningspantanir á innleið. Brúttóþörf felur í sér magn á sölupöntunum og flutningspantanir á útleið.)
 
 > [!TIP]  
 >   Sérstaklega mikilvægt er að skoða Áætlaða stöðu til ráðstöfunar í gluggunum **Tiltækileiki vöru eftir tímabili** og **Tiltækileiki vöru eftir atviki** þar sem þeir innihalda dagsetningarvíddirnar.  
@@ -119,6 +119,6 @@ Ef einn eða fleiri samsetningaríhlutir eru ekki tiltækir endurspeglast það 
 [Hvernig á að: Setja upp birgðageymslur](inventory-how-setup-locations.md)  
 [Hvernig á að: Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)  
 [Hvernig á að: Selja vörur](sales-how-sell-products.md)      
-[Unnið með Financials](ui-work-product.md)  
+[Unnið með Dynamics 365](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 

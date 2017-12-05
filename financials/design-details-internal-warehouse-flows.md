@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ba5203013af329f1d59432a5e5800fe486658cc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 957c8889d943ed412af7555271897b52c0759969
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Hönnunarupplýsingar: Innra vöruhúsaflæði
@@ -46,7 +46,7 @@ Flæði vara á milli hólfa innan fyrirtækis snýst um að tína íhluti og ta
 
  Eftirfarandi samsetningarflæði er til.  
 
-|Flæði|Description|  
+|Flæði|Lýsing|  
 |----------|---------------------------------------|  
 |Setja saman í birgðir|Íhluta er þörf á samsetningarpöntun röð þar sem framleiðsla er geymt í vöruhúsi.<br /><br /> Þetta vöruhúsaflæði er stýrt í **Birgðahreyfing** glugga. Ein tökulína tilgreinir hvaða á að taka íhlutina. Ein staðarlína tilgreinir hvar á að setja íhlutina.|  
 |Setja saman í pöntun|Íhluta er þörf á samsetningarpöntun sem er tengdur við sölupöntun sem er send þegar selda varan er sett saman.|  

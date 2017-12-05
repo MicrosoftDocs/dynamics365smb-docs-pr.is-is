@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Hvernig á að nota OCR til að breyta PDF og myndaskrám í rafræn skjöl
@@ -70,23 +70,34 @@ Ef ekki eru notaðar verkröð eða þú vilt taka á móti loknu OCR-skjali fyr
 Nú er hægt að byrja að stofna færslur skjala fyrir móttekin rafrænar fylgiskjöl í [!INCLUDE[d365fin](includes/d365fin_md.md)], handvirkt eða sjálfvirkt. Nánari upplýsingar er að finna í næsta ferli. Einnig er hægt að tengja nýja færslu skjals á innleið við fyrirliggjandi bókað eða óbókað skjal þannig að upprunaskrá sé auðvelt að fá aðgang úr [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar er að finna í [vinna skjöl á innleið](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Stofna innkaupareikning út frá rafræna skjalinu mótteknu úr OCR
-Eftirfarandi ferli sýnir hvernig á að stofna færslu innkaupareiknings úr reikningur lánardrottins sem var móttekin sem rafrænt skjal úr OCR-þjónustu. Ferlið er það sama þegar búið er til, til dæmis, færslubókarlínu úr kostnaðarkvittun.
+Eftirfarandi ferli sýnir hvernig á að stofna færslu innkaupareiknings úr reikningur lánardrottins sem var móttekin sem rafrænt skjal úr OCR-þjónustu. Ferlið er það sama þegar búið er til, til dæmis, færslubókarlína úr kostnaðarkvittun eða söluvöruskilapöntun frá viðskiptamanni.
 
 > [!NOTE]  
->   **Lýsingin** og **nr.** á stofnuðum skjalalínum verða aðeins fylltir út ef þú hefur fyrst varpað texta á OCR-skjali á reitunum tveimur í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hægt er að gera þetta annað hvort sem millivísun vöru, fyrir skjalalínur af gerðinni vara, eða sem vörpun texta á reikning, fyrir skjal eða færslubókarlínur af gerðinni Fjárhagsreikningur. Nánari upplýsingar sjá ábending fyrir **millivísanir** aðgerð á birgðaspjöldunum og tengdu ferli, [Hvernig á að: varpa texta á endurteknar greiðslur á reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+>   **Lýsingin** og **nr.** á stofnuðum skjalalínum verða aðeins fylltir út ef þú hefur fyrst varpað texta á OCR-skjali á reitunum tveimur í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hægt er að gera þessa vörpun sem millivísun vöru, fyrir skjalalínur af gerðinni vara. Einnig er hægt að nota virknina vörpun texta á reikning. Nánari upplýsingar er að finna í hlutanum „Til að varpa texta á tiltekinn lánardrottinn, fjárhag eða bankareikning“.
 
+Til að varpa vörunúmerin á skjalinu í lýsingar þínar á vörum lánardrottins, skal opna kortið fyrir hverja vöru, og velja síðan **millivísanir** aðgerð til að setja upp millivísanir á milli þinna vörulýsinga og þess sem tilheyrir lánardrottinsins. Nánari upplýsingar er að finna í ábendingu fyrir **Millivísanir** aðgerðina á birgðaspjöldum.
+
+1. Velja skal línu fyrir skjal á innleið og svo **Stofna skjal** virknina.
+
+Innkaupareikningur verður stofnaður í [!INCLUDE[d365fin](includes/d365fin_md.md)] og byggist á upplýsingum í rafrænu skjali lánardrottins sem tekið var á móti frá OCR-þjónustu. Upplýsingar verða settar inn í nýja innkaupareikninginn byggt á vörpun sem hefur verið tilgreind sem millivísun eða sem vörpun texta á reikning.
+
+Allar villur við villuleit, sem tengjast gjarnan gölluðum eða skemmdum gögnum í [!INCLUDE[d365fin](includes/d365fin_md.md)] verða sýndar á flýtiflipanum **Villuboð**. Nánari upplýsingar eru í "meðhöndlun villna þegar tekið er á móti rafræn skjöl" hlutanum.
+
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Til að varpa texta á tiltekinn lánardrottinn, fjárhag eða bankareikning
 Fyrir skjal á innleið er yfirleitt notuð **varpa texta á reikning** aðgerð til að skilgreina að tilteknum texta á reikning lánardrottins sem var móttekinn frá OCR-þjónustu er varpað á tilteknum lánardrottnareikning. Í framhaldinu merkja allir hlutar lýsingar fyrir skjal á innleið sem er til sem vörpunartexti að reiturinn **nr.** í afleiddum skjala- eða færslubókarlínum af gerðinni fjárhagur eru innfylltir með viðkomandi lánardrottni.
 
 Til viðbótar við vörpun á lánardrottnareikning eða fjárhagsreikninga er einnig hægt að varpa á bankareikning. Þetta er hagkvæmt, til dæmis, fyrir rafræn skjöl tengd útgjöldum sem eru nú þegar greitt þegar þú vilt stofna færslubókarlíni sem er tilbúin til að bóka á bankareikning.
 
-1. Velja línu fyrir skjal á innleið fyrir rafrænt skjal lánardrottins sem var móttekið úr OCR-þjónustunni.
-2. Til að Varpa texta skjalsins á reikning lánardrottins, debetreikning, skal velja aðgerðina **Varpa texta á reikning** og síðan fylla út í **Vörpun texta á reikning** glugganum með upplýsingar sem eiga við lánardrottininn þaðan í frá. Fyrir frekar upplýsingar, sjá [Hvernig á að varpa texta á endurteknar greiðslur á reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-3. Til að varpa vörunúmerin á skjalinu í lýsingar þínar á vörum lánardrottins, skal opna kortið fyrir hverja vöru, og velja síðan **millivísanir** aðgerð til að setja upp millivísanir á milli þinna vörulýsinga og þess sem tilheyrir lánardrottinsins.
-4. Í glugganum **Skjal á innleið** skal velja aðgerðina **stofna skjal**
+1. Viðkomandi lína skjals á innleið er valin og svo aðgerðin **Varpa Texta á reikning**. Glugginn **vörpun texta á reikning** opnast.
+3. Í reitinn **Vörpun texta** skal slá inn þann texta sem kemur fram á reikningum lánardrottins sem á að búa til innkaupaskjöl eða færslubókarlínur fyrir. Hægt er að færa inn allt að 50 stafi.
+4. Í **Númer lánardrottins** reitinn skal færa inn númer lánardrottins sem innkaupaskjal eða færslubókarlína verður stofnað fyrir.
+5. Í reitinn **Debetreikningsnúmer** skal færa inn fjárhagsreikning af debetgerð sem verður settur inn á viðkomandi innkaupaskjal eða færslubókarlínu af gerðinni fjárhagsreikningur.
+6. Í reitinn **Kreditreikningsnúmer** skal færa inn fjárhagsreikning af kreditgerð sem verður settur inn á viðkomandi innkaupaskjal eða færslubókarlínu af gerðinni fjárhagsreikningur.
 
-Innkaupareikningur verður stofnaður í [!INCLUDE[d365fin](includes/d365fin_md.md)] og byggist á upplýsingum í rafrænu skjali lánardrottins sem tekið var á móti frá OCR-þjónustu.
+    > [!NOTE]
+    > Ekki skal nota **Upprunagerð stöðu** og **Upprunanúmer stöðu** reitina í tengslum við skjöl á innleið. Þeir eru aðeins notaðir fyrir afstemmingu sjálfvirkra greiðslna. Fyrir frekar upplýsingar, sjá [Hvernig á að varpa texta á endurteknar greiðslur á reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
-Allar villur við villuleit, sem tengjast gjarnan gölluðum eða skemmdum gögnum í [!INCLUDE[d365fin](includes/d365fin_md.md)] verða sýndar á flýtiflipanum **Villuboð**. Nánari upplýsingar eru í "meðhöndlun villna þegar tekið er á móti rafræn skjöl" hlutanum.
+7. Endurtakið skref 2 til 5 fyrir allan texta í skjölum á innleið sem á búa sjálfkrafa til skjöl fyrir.
 
 ## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Hvernig á að: Meðhöndla villur við móttöku rafrænna skjala
 1. Í glugganum **skjöl á innleið** skal velja línuna fyrir rafrænt skjal sem var móttekið frá OCR-þjónustu með villum. Þetta er gefið til kynna með Villugildinu í reitnum **OCR Stöðu**.

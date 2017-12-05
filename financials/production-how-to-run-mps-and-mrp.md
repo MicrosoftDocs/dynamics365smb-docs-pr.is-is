@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ffe729c1d0fbbb062394f815281dcf658cbff783
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
-# <a name="how-to-run-full-planning-mps-and-mrp"></a>Hvernig á að: keyra fulla áætlun, MPS og MRP
+# <a name="how-to-run-full-planning-mps-or-mrp"></a>Hvernig á að: keyra fulla áætlunargerð, MPS eða MRP
 Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikning aðalframleiðsluáætlunar og efnisþarfa samkvæmt raunverulegri eftirspurn og eftirspurn samkvæmt spá. Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.  
 
--   *MPS* er útreikningur á aðalframleiðsluáætlun samkvæmt raunverulegri eftirspurn og framleiðsluspánni. MPS-útreikningur er notaður fyrir lokavörur sem eru með spá eða sölupöntunarlínu. Þessar vörur eru kallaðar "MPS-vörur" og eru auðkenndar þegar útreikningur hefst.  
--   *MRP* er útreikningur á efnisþörfum samkvæmt raunverulegri eftirspurn eftir íhlutum og framleiðsluspá á íhlutastigi. MRP er eingöngu reiknað fyrir vörur sem eru ekki MPS-vörur. Tilgangur MRP er bjóða upp á tímasettar áætlanir þannig að viðeigandi vara er til á viðeigandi tíma, á viðeigandi stað og í viðeigandi magni.  
+-   MPS er útreikningur á aðalframleiðsluáætlun samkvæmt raunverulegri eftirspurn og framleiðsluspánni. MPS-útreikningur er notaður fyrir lokavörur sem eru með spá eða sölupöntunarlínu. Þessar vörur eru kallaðar "MPS-vörur" og eru auðkenndar þegar útreikningur hefst.  
+-   MRP er útreikningur á efnisþörfum samkvæmt raunverulegri eftirspurn eftir íhlutum og framleiðsluspá á íhlutastigi. MRP er eingöngu reiknað fyrir vörur sem eru ekki MPS-vörur. Tilgangur MRP er bjóða upp á tímasettar áætlanir þannig að viðeigandi vara er til á viðeigandi tíma, á viðeigandi stað og í viðeigandi magni.  
 
 Áætlunaralgóritmarnir fyrir MPS og MRP eru eins. Þeir ná yfir samantekt nettóstöðu, endurnotkun fyrirliggjandi áfyllingarpantana og aðgerðarboð. Áætlunarkerfisvinnslan tekur mið af þörfum eða væntanlegum þörfum (eftirspurn) og hvað er til staðar (framboð). Þegar þessar tegundir magns eru nettófærðar stofnar [!INCLUDE[d365fin](includes/d365fin_md.md)] aðgerðarboð. Aðgerðarboð eru tillögur um að stofna nýja pöntun, breyta pöntun (magni eða dagsetningu) eða hætta við pöntun í pöntun. Hugtakið „pöntun“ inniber innkaupapantanir, samsetningarpöntun, framleiðslupantanir og millifærslupantanir.
 
@@ -51,7 +51,7 @@ Með hverri áætlunaraðferð, myndar [!INCLUDE[d365fin](includes/d365fin_md.md
 2.  Velja **Reikna áætlun endurgerðar** aðgerðina til að opna gluggann **Reikna áætlun**.  
 3.  Á flýtiflipanum **Valkostir** skal fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
-    |Svæði|Description|  
+    |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Valið til að hefja útreikning aðalframleiðsluáætlunar. Vörur með opnar sölupantanir eða framleiðsluspár eru teknar með í keyrsluna.|  
     |**MRP**|Valið til að hefja útreikning efnisþarfaáætlunar. Vörur með tengdar kröfur eru teknar með í þessari keyrslu. Yfirleitt eru MPS og MRP keyrðar á sama tíma. Til að keyra þær saman þarf að haka í gátreitinn **Sameinaður MPS/MRP útreikn.** á flipanum **Áætlun** í glugganum **Uppsetning framleiðslu**.|  
@@ -69,7 +69,7 @@ Með hverri áætlunaraðferð, myndar [!INCLUDE[d365fin](includes/d365fin_md.md
 1.  Í glugganum **Áætlunarvinnublað** veljið aðgerðina **Framkvæma aðgerðaboð**.  
 2.  Á flýtiflipanum **Valkostir** skal tilgreina hvernig á að stofna aðföngin. Fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
-    |Svæði|Description|  
+    |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
     |**Framleiðslupöntun**|Tilgreinið hvernig á að stofna framleiðslupantanir. Hægt er að gera þetta beint úr áætlunarlínutillögunum. Hægt er að búa til annað hvort áætlaðar eða fastáætlaðar framleiðslupantanir.|  
     |**Samsetningarpöntun**|Tilgreinið hvernig á að stofna samsetningarpantanir. Hægt er að gera þetta beint úr áætlunarlínutillögunum.|  
@@ -97,7 +97,7 @@ Til að koma í veg fyrir óþörf aðgerðaboð getur notandi stofnað hömlur 
 
 Þegar ójafnvægis verður vart í framboði/eftirspurn eru eftirfarandi aðgerðarboð stofnuð.  
 
-|Aðgerðarboð|Description|  
+|Aðgerðarboð|Lýsing|  
 |--------------------|---------------------------------------|  
 |**Nýtt**|Ef ekki er hægt að uppfylla eftirspurn með aðgerðarboðum um **Breyta magni**, **Enduráætla**eða **Enduráætla og breyta** í fyrirliggjandi pöntunum birtast aðgerðarboðin **Nýtt** sem er tillaga um nýja pöntun. Auk þess eru aðgerðarboðin **Nýtt** gefin út ef engar framboðspantanir eru í endurpöntunarferli fyrir viðkomandi vöru eru til staðar. Þessi færibreyta ákvarðar fjölda tímabila fram og til baka í ráðstöfunarforstillingunni þegar leitað er að pöntun fyrir til að enduráætla.|  
 |**Breyta magni**|Þegar eftirspurn sem rakin er til framboðspöntunar verður fyrir magnbreytingu birtast aðgerðaboðin **Breyta magni** , sem þýðir að tengdu framboði ætti að breyta miðað við breytinguna í eftirspurn. Ef ný eftirspurn myndast leitar [!INCLUDE[d365fin](includes/d365fin_md.md)] að næstu ófráteknu framboðspöntun innan endurpöntunarferlisins og gefur út aðgerðarboð um að breyta þeirri pöntun.|  

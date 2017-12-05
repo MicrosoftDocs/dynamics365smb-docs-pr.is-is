@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 434e18ed539a189e8f041c914cfdcdf2c1e0532f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Hvernig skal: Vinna með Greiðsluvikmörk og greiðsluafsláttarvikmörk
@@ -31,7 +31,7 @@ Stakt fylgiskjal hefur sömu greiðsluvikmörk hvort sem það er jafnað eitt o
 
 *dagsetning greiðsluafsláttar < greiðsludagsetning (í aðalfærslu) <= dagsetning greiðsluvikmarka*  
 
-Þessi regla gildir einnig til að ákvarða hvort birta eigi viðvaranir þegar greiðsluvikmörk eru notuð á mörg skjöl. Viðvörun um vikmörk greiðsluafsláttar birtist fyrir hverja færslu sem uppfyllir dagsetningarskilyrðin. Frekari upplýsingar, sjá „Dæmi 2 - Útreikningur vikmarka fyrir mörg skjöl“ hlutann. 
+Þessi regla gildir einnig til að ákvarða hvort birta eigi viðvaranir þegar greiðsluvikmörk eru notuð á mörg skjöl. Viðvörun um vikmörk greiðsluafsláttar birtist fyrir hverja færslu sem uppfyllir dagsetningarskilyrðin. Frekari upplýsingar, sjá „Dæmi 2 - Útreikningur vikmarka fyrir mörg skjöl“ hlutann.
 
 Hægt er að velja að birta viðvörun sem byggist á mismunandi aðstæðum fyrir vikmörk.  
 
@@ -95,7 +95,8 @@ Hér á eftir koma nokkur dæmi sem sýna áætlaða vikmarkaútreikninga og bó
 - **A** Í þessu tilviki hefur viðvörun um vikmörk greiðsluafsláttar verið gerð óvirk EÐA notandinn hefur viðvörunina virka og hefur valið að heimila afslátt af síðbúinni greiðslu (Bóka stöðu sem greiðsluvikmörk).  
 - **B** Í þessu tilviki hefur notandinn viðvörunina virka og hefur valið að heimila ekki afslátt af síðbúinni greiðslu (Láta stöðu standa sem eftirstöðvar).  
 
-|—|Reikn.|Staðgr.afsl.|Hám<br /><br /> Gr.vikm.|Mörk staðgr.afsl.|Vikm. staðgr.afsl. Dagsetning|Greiðsludagur|Stgr.|Tegund vikmarka|Allar færslur lokaðar|Vikm. staðgr.afsl. <br /> GL/CL|Stgr.<br /><br /> Vikm.<br /><br /> Fjárhagur|  
+[!div class="mx-tdBreakAll"]  
+|—|Reikn.|Staðgr.afsl.|Hám. stgr.vikm.|Mörk staðgr.afsl.|Vikm. staðgr.afsl. Dagsetning|Greiðsludagur|Stgr.|Tegund vikmarka|Allar færslur lokaðar|Vikm. staðgr.afsl. GL/CL|Gr.vikm. Fjárhagur|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1,000|20|5|15/01/03|20/01/03|<=15/01/03|985|Stgr.vikm.|Já|0|-5|  
 |2|**1,000**|**20**|**5**|**15/01/03**|**20/01/03**|**<=15/01/03**|**980**|**Ekkert**|**Já**|**0**|**0**|  
@@ -166,7 +167,9 @@ Hér á eftir koma nokkur dæmi sem sýna áætlaða vikmarkaútreikninga og bó
 - **C** - Í þessu tilviki hefur notandinn viðvörunina virka og hefur valið að heimila afslátt af síðbúinni greiðslu á fyrsta reikningi en ekki þeim næsta.  
 - **D** - Í þessu tilviki hefur notandinn viðvörunina virka og hefur valið að heimila ekki afslátt af síðbúinni greiðslu á fyrsta reikningi en heimilar hann á þeim næsta.  
 
-|—|Reikn.|Staðgr.afsl.|Hám. stgr.vikm.|Mörk staðgr.afsl.|Vikm. staðgr.afsl. Dagsetning|Greiðsludagur|Gr.|Tegund vikmarka|Allar færslur lokaðar|Vikm. staðgr.afsl. <br /> GL/CL|Gr.vikm.<br /><br /> Fjárhagur|  
+[!div class="mx-tdBreakAll"]  
+
+|—|Reikn.|Staðgr.afsl.|Hám. stgr.vikm.|Mörk staðgr.afsl.|Vikm. staðgr.afsl. Dagsetning|Greiðsludagur|Gr.|Tegund vikmarka|Allar færslur lokaðar|Vikm. staðgr.afsl. GL/CL|Gr.vikm. Fjárhagur|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
 |1|1,000 <br />1,000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|<=15/01/03|1920|Stgr.vikm.|Já|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**<=15/01/03**|**1910**|**Ekkert**|**Já**|**0**<br /><br /> **0**|0 <br />0|  

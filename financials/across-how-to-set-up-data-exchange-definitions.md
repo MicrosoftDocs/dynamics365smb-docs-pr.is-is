@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 32bf6cfb54a78f0b19334e1e46f7620979d64b01
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-data-exchange-definitions"></a>Hvernig á að: Setja upp skilgreiningar gagnaskipta
@@ -71,9 +71,9 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
     >   
     >  Til útflutnings á greiðslum er hægt að stofna línu fyrir hverja greiðslugerð sem á að flytja út. Í slíku tilviki sýnir flýtiflipinn **Dálkskilgreiningar** mismunandi dálkar fyrir hverja tegund greiðslu.  
 
-    |Svæði|Description|  
+    |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
-    |**Kóði)**|Færið inn kóða til að auðkenna línuna í skránni.|  
+    |**Kóti**|Færið inn kóða til að auðkenna línuna í skránni.|  
     |**Heiti**|Færið inn heiti sem lýsir línunni í skránni.|  
     |**Dálkafjöldi**|Tilgreinið hversu margir dálkar línan í gagnaskrá hefur. **Athugið:**  Þessi reitur er aðeins gildur fyrir innflutning.|  
     |**Gagnalínumerki**|Tilgreinið stöðu á viðkomandi XML-skema einingarinnar sem sýnir aðalfærslu gagnaskrárinnar. **Athugið:**  Þessi reitur er aðeins gildur fyrir innflutning.|  
@@ -87,7 +87,7 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
 7. Í glugganum **Sækja skráaskipan** skal velja viðeigandi skipulagsskrá og svo hnappinn **Í lagi**. Línur í flýtiflipanum **Dálkskilgreiningar** eru fylltar út í samræmi við skipulag gagnaskrárinnar.  
 8. Fyllioð inn í reitina eins og lýst er í eftirfarandi töflu í flýtiflipanum **Dálkskilgreiningar**.  
 
-    |Svæði|Description|  
+    |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
     |**Dálknr.**|Tilgreinið númerið sem endurspeglar stöðu dálksins á línu í skránni.<br /><br /> Fyrir XML-skrár skal tilgreina töluna sem endurspeglar gerð staks í skránni sem inniheldur gögnin.|  
     |**Heiti**|Tilgreinið heiti dálksins.<br /><br /> Fyrir XML-skrár skal tilgreina kóðann sem merkir gögnin sem á að skipta um.|  
@@ -111,7 +111,7 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
 1. Á flýtiflipanum **Línuskilgreiningar** skal velja línuna sem á að varpa dálkum í reiti fyrir og velja svo **Reitavörpun**. Glugginn **Vörpun gagnaskipta** opnast.  
 2. Á flýtiflipanum **Almennt** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
-    |Svæði|Description|  
+    |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
     |**Töflukenni**|Tilgreinið töflu sem geymir reitina til eða frá sem gögn er skipst á samkvæmt vörpun.|  
     |**Notist sem millitafla**|Tilgreinið hvort taflan sem var valin í **Tafla Kenni** reitnum er millitafla þar sem innflutt gögn eru geymd áður en þeim er varpað á marktöfluna.<br /><br /> Venjulega er notuð millitafla þar sem gagnaskiptaskilgreiningar eru notaðar til að flytja inn og umbreyta rafrænum skjölum, t.d. reikningum lánardrottins í innkaupareikning í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).|  
@@ -122,7 +122,7 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
 
 3.  Á flýtiflipanum **Reitavörpun** skal tilgrina hvaða dálkum á að varpa í hvaða reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að fylla út reitina sem lýst er í eftirfarandi töflu.  
 
-    |Svæði|Description|  
+    |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
     |**Dálknr.**|Tilgreinið hvaða dálk í gagnaskrá sem þú vilt skilgreina kort vörpun fyrir.<br /><br /> Aðeins er hægt að velja dálka sem eru kynntir af línum í flýtiflipanum **Dálkskilgreiningar** í **Skilgreiningar gagnaskipta** glugganum.|  
     |**Reitarkenni**|Tilgreinið hvaða reit dálkurinn í **Dálkur nr.** reitnum tengist.<br /><br /> Aðeins er hægt að velja úr reitum sem eru til í töflunni sem tilgreind var í reitnum **Tafla** á flýtiflipanum **Almennt**.|  

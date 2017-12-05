@@ -1,8 +1,6 @@
 ---
-title: "Hætt við Dynamics 365 for Financials| Microsoft Docs"
-description: "Lýsir hvernig á að fjarlægja eða eyða Dynamics 365 for Financials."
-services: project-madeira
-documentationcenter: 
+title: "Hætt í Dynamics 365 Business Edition | Microsoft Docs"
+description: "Lýsir hvernig á að fjarlægja eða eyða Dynamics 365 Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,13 +11,13 @@ ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4dc1a0d643aa9b1a2e1fe5b870881dc43c1ed2a1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 384131512a815743db7ae654542b0e7ee70bf64a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Segja upp áskrift að, fjarlægja eða endurstilla [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="unsubscribe-remove-or-reset-included365finlongincludesd365finlongmdmd"></a>Segja upp áskrift að, fjarlægja eða endurstilla [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Þegar þú hefur skráð þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] getur þú valið að hætta við áskrift þína hvenær sem er. Á sama hátt getur þú valið að endurstilla fyrirtækið sem þú getur verið að nota í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til að fá fljótlega yfirsýn, sjá[ [!INCLUDE[d365fin](includes/d365fin_md.md)] blog](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Ljúka áskrift með því að fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] úr Office 365 upplifun þinni

@@ -1,6 +1,6 @@
 ---
 title: "Vinna með viðskiptamenn með því nota Dynamics 365 for Sales| Microsoft Docs"
-description: "Hægt er að nota Dynamics 365 for Sales innan Dynamics 365 for Financials til að varpa gögnum og hafa óaðfinnanlegur samþætting og samstillingu í heildarferlinu."
+description: "Hægt er að nota Dynamics 365 for Sales innan Dynamics 365 Business edition til að varpa gögnum og hafa óaðfinnanlegur samþætting og samstillingu í heildarferlinu."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,27 +12,27 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bc0b9c8141c6c2eac78abc9cd3f5c89af3c89fbb
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fde1a04c4e6f56fb425f6aef85d21b029a76fe0c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Stjórna viðskiptasamböndum þínum með því að nota Dynamics 365 for Sales innan Dynamics 365 for Financials
+# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Umsjón með viðskiptamönnum og sölum sem stofnuð eru í Dynamics 365 for Sales
 Ef þú notar Dynamics 365 for Sales til að taka þátt í viðskiptum, getur þú notað [!INCLUDE[d365fin](includes/d365fin_md.md)] til þess að panta vinnslu og fjármál og hafa óaðfinnanlegur samþættingu í framhaldi af peningum.
 
 Þegar umsóknin þín er sett upp til að samþætta við Dynamics 365 for Sales, hefur þú aðgang að söluupplýsingum frá [!INCLUDE[d365fin](includes/d365fin_md.md)] og öfugt í sumum tilfellum. Þessi samþætting gerir þér kleift að vinna með og samstilla gagnategundir sem eru algengar fyrir bæði þjónustu, svo sem viðskiptavini, tengiliði og söluupplýsingar og halda gögnunum uppfærðar á báðum stöðum.  
 
-Til dæmis getur sölumaðurinn í Dynamics 365 for Sales notað verðlista frá [!INCLUDE[d365fin](includes/d365fin_md.md)] þegar þeir búa til sölufyrirmæli. Þegar þeir bæta hlutnum við sölulínuna í Dynamics 365 for Sales, geta þeir einnig séð birgðahæð (framboð) hlutarins frá [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þessar upplýsingar eru gefin út sem hluti af hjálpargögnum um uppsetningu, **Uppsetning Dynamics 365-tengingar**.  
+Til dæmis getur sölumaðurinn í Dynamics 365 for Sales notað verðlista frá [!INCLUDE[d365fin](includes/d365fin_md.md)] þegar þeir búa til sölufyrirmæli. Þegar þeir bæta hlutnum við sölulínuna í Dynamics 365 for Sales, geta þeir einnig séð birgðahæð (framboð) hlutarins frá [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]  
 >   Þessi virkni krefst þess að upplifun þín sé stillt á **Suite**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>Uppsetning tengingarinnar
-Frá Heimili geturðu nálgast uppsetningarleiðbeiningar um **Uppsetning Dynamics 365-tengingar** sem hjálpar þér að setja upp tengingu. Þegar það er gert verður þú að hafa óaðfinnanlega tengingu við Dynamics 365 for Sales færslur með [!INCLUDE[d365fin](includes/d365fin_md.md)] skrám.  
+Á upphafssíðunni geturðu nálgast leiðbeiningar um uppsetningu með hjálp fyrir **uppsetningu tengingar Dynamics 365 for Sales** sem hjálpar þér að setja tenginguna upp. Þegar það er gert verður þú að hafa óaðfinnanlega tengingu við Dynamics 365 for Sales færslur með [!INCLUDE[d365fin](includes/d365fin_md.md)] skrám.  
 
 > [!NOTE]  
->   Eftirfarandi útskýrir uppsetningu með aðstoð, en þú getur framkvæmt sömu verkhluta handvirkt í glugganum **Uppsetning Dynamics 365-tengingar**.
+>   Eftirfarandi útskýrir uppsetningu með aðstoð, en þú getur framkvæmt sömu verkhluta handvirkt í glugganum **Uppsetning tengingar Dynamics 365 for Sales**.
 
 Í aðstoðarsamskipunarleiðbeiningunni geturðu valið hvaða gögn eru samstillt á milli tveggja þjónustunnar. Þú getur einnig tilgreint að þú viljir flytja inn núverandi Dynamics 365 for Sales lausnina þína. Í því tilviki verður þú að tilgreina stjórnsýslu notendareikning.
 
@@ -77,7 +77,7 @@ Dynamics 365 for Sales sölutilboð veltur á viðbótarupplýsingum eins og vi�
 
 Til að kanna framvindu einstakra starfa í fullri samstillingu, skal fara á **Staða verkraðarfærslu**, **Í innri vinnslustöðu töflu**, eða **Úr innri vinnslustöðu töflu** í glugganum **Yfirferð á fullri samstillingu tengslastjórnunar**.
 
-Frá gluggann í **Uppsetning Dynamics 365 for Sales-tengingar** er hægt að fá upplýsingar um fulla samstillingu hvenær sem er. Héðan er einnig hægt að opna gluggann **Vörpun samþættingartöflu** til að sjá upplýsingar um töflurnar í Financials og í Dynamics 365 for Sales lausninni sem þarf að samstilla.
+Frá gluggann í **Uppsetning Dynamics 365 for Sales-tengingar** er hægt að fá upplýsingar um fulla samstillingu hvenær sem er. Héðan er einnig hægt að opna gluggann **Vörpun samþættingartöflu** til að sjá upplýsingar um töflurnar í Dynamics 365 Business edition og í Dynamics 365 for Sales lausninni sem þarf að samstilla.
 
 ## <a name="see-also"></a>Sjá einnig
 [Umsjón með venslum](marketing-relationship-management.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setja upp sjóðstreymisgreiningu
@@ -79,10 +79,10 @@ Nota handvirkt ferli:
 >   Íhugaðu lengd tímabila sem þjónustan er notaður í útreikningum hennar. Frekari gögn sem veita verður því nákvæmari á predictions. Líka watch út fyrir mikið frávik í tímabil. Þeir eru einnig hefur predictions. Ef Cortana Intelligence finnur ekki nægt gögnum eða gögnin breytist við lotu, gera á ekki við prediction.  
 
 ## <a name="AnchorText"> </a>Búa til og nota eigin fyrirsjáanlega vefþjónustu fyrir sjóðstreymisspár
-Þú getur einnig búið til þína eigin fyrirsjáanlega vefþjónustu byggt á opinberu fyrirmynd sem heitir **Forspármódel fyrir Microsoft Dynamics 365 for Financials**. Þetta líkan er aðgengilegt á netinu í Cortana Intelligence Gallery. Fylgið eftirfarandi skrefum til að fá aðgang að reitunum:  
+Þú getur einnig búið til þína eigin fyrirsjáanlega vefþjónustu byggt á opinberu fyrirmynd sem heitir **Forspárlíkan fyrir Microsoft Dynamics 365 Business edition**. Þetta líkan er aðgengilegt á netinu í Cortana Intelligence Gallery. Fylgið eftirfarandi skrefum til að fá aðgang að reitunum:  
 
 1. Opnaðu vafra og farðu í [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Leita **Öryggislíkanið Spá fyrir Microsoft Dynamics 365 for Financials**, og opna svo líkaninu Azure Machine Learning Studio.  
+2. Leitið að **Forspárlíkan fyrir Microsoft Dynamics 365 Business edition** og opnið svo líkanið Azure Machine Learning Studio.  
 3. Nota á reikninginn í Microsoft að undirrita fyrir workspace er og afrita síðan líkaninu sem.  
 4. Keyrslan líkaninu og út og þjónustu veftengingar.  
 5. Gera API URL og API lykillinn athugasemd. Þú munt nota þessi skilríki fyrir sjóðstreymisuppsetningu.  

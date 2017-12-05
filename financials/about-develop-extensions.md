@@ -1,6 +1,6 @@
 ---
-title: "Sérstilla Dynamics 365 for Financials| Microsoft Docs"
-description: "Setjið saman, sýna og kynna forrit og viðbætur fyrir Dynamics 365 for Financials"
+title: "Sérsníða Dynamics 365 Business edition | Microsoft Docs"
+description: "Setjið saman, sýna og kynna forrit og viðbætur fyrir Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
-ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b0034f678b59f988ed23257f9aa579cc3a8a7628
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Stækka [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -49,7 +49,7 @@ Að telja upp eiginleika og virkni forritsins dugar ekki til að gera áhugasama
 Til að fá frekari upplýsingar um sannprófunarferlið og hvernig á að birta forritið skal sækja skjalið [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) úr Niðurhalsverinu.
 
 ## <a name="learn-more-about-extensions-v20"></a>Frekari upplýsingar um viðbætur v2.0
-Nýju þróunarverkfærin, sem gera þér kleift að búa til viðbætur v2.0, eru sem stendur í forskoðun og verða fljótlega virkjaðar í Dynamics 365 for Financials. Ef þú vilt nú þegar kynna þér nýju verkfærin eða læra meira um viðbætur 2.0, skaltu kíkja á [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+Nýju þróunarverkfærin, sem gera þér kleift að búa til viðbætur v2.0, eru sem stendur í forskoðun og verða fljótlega virkjaðar í Dynamics 365 Business edition. Ef þú vilt nú þegar kynna þér nýju verkfærin eða læra meira um viðbætur 2.0, skaltu kíkja á [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Þarft hjálp?
 Til að fá handleiðslu má hafa samband við sérfræðing í forritagerð á eftirfarandi lista:
@@ -70,7 +70,7 @@ Ef notanda finnst að hann ætti að vera á listanum fyrir þjónustusamstarfsa
 
 ## <a name="further-resources"></a>Önnur tilföng
 Finnið frekari heimildir um þróun forrita á síðunni okkar fyrir [Síða fyrir DLP efnisatriði](https://mbspartner.microsoft.com/BFI/Topic/76) Síða fyrir DLP efnisatriði. Nokkur sérvalin efnisatriði eru aðgengileg hér á eftir:
--   [Skráning notandi og Innheimta í kjölfarið ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-   [Skráning notandi og Innheimta í kjölfarið ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 Business edition .pdf)
 
 
 

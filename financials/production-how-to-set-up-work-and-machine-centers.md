@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: c06f828b50d217404bcdd3caafeb8843b40faffc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-work-centers-and-machine-centers"></a>Hvernig á að: setja upp vinnu- og vélastöðvar
@@ -50,7 +50,7 @@ Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skref
 10.  Gátmerki er sett í reitinn **Sérstakt kostn.verð** ef tilgreina á kostnaðarverð vinnustöðvar á leiðarlínunni sem vinnustöðin er notuð á. Slíkt kann að eiga við aðgerðir með verulegan mismun í kostnaði afkastagetu miðað við það sem er venjulega unnið í vinnustöðinni.  
 11.  Í reitnum **Birgðaskráningaraðferð** er valið hvort reikna á og bóka frálagsbókun á þessari vinnustöð handvirkt eða sjálfvirkt með annarri hvorri eftirfarandi aðferð.  
 
-    |Valkostur|Description|  
+    |Valkostur|Lýsing|  
     |----------------------------------|---------------------------------------|  
     |**Handvirkt**|Notkun er bókuð handvirkt í frálagsbókinni eða framleiðslubók.|
     |**Framvirkt**|Notkun er reiknuð og bókuð sjálfvirkt þegar framleiðslupöntun er gefin út.|  
@@ -65,7 +65,7 @@ Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skref
     > [!NOTE]  
     > Ef valið er að nota Dagar Skal hafa það í huga að 1 dagur = 24 klukkustundir - en ekki 8 (vinnustundir).
 
-13.  Í reitnum **Geta** er tilgreint hvort vinnustöð er með fleiri en einn einstakling við vinnu og eina vél í vinnslu á sama tíma. Ef uppsetning **Vöruheiti** inniheldur ekki Vélastöðvaraðgerð verður gildið í þessum reit að vera **1**.  
+13.  Í reitnum **Geta** er tilgreint hvort vinnustöð er með fleiri en einn einstakling við vinnu og eina vél í vinnslu á sama tíma. Ef uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur ekki Vélastöðvaraðgerð verður gildið í þessum reit að vera **1**.  
 14.  Í reitinn **Skilvirkni** er fært inn hlutfall áætlaðra staðlaðra afkasta sem þessi vinnustöð afkastar í raun. Ef fært er inn **100** þýðir það að raunveruleg afköst vinnustöðvarinnar eru þau sömu og staðlaða afkastagetan.  
 15. Velja skal **Sameinað dagatal** gátreitinn ef þú ert líka að nota vélstöðvar. Þetta tryggir að dagatalsfærslur verði settar saman frá vélastöðva dagatölum.  
 16.  Í reitnum **Dagatalskóti verkstæðis** veljið dagatal verkstæðis. Nánari upplýsingar eru í [Hvernig á að: Búa til dagatal verkstæðis](production-how-to-create-work-center-calendars.md).  

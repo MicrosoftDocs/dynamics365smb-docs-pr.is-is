@@ -11,10 +11,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3f98a08415a896c37868bf0ed5efd9314d5ab07a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fc942b29859d2607577119fe13292078b872b05e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="using-included365finincludesd365finmdmd-as-a-power-bi-data-source"></a>Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu
@@ -25,7 +25,7 @@ Notandi getur gert [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín aðg
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-power-bi-desktop"></a>Til að bæta [!INCLUDE[d365fin](includes/d365fin_md.md)] við sem gagnaveitu í Power BI Desktop
 1. Í Power BI Desktop, á vinstra yfirlitssvæðinu, skal velja **Sækja gögn**.
-2. Í reitnum **Sækja gögn** skal velja **Netþjónustu**, velja **Dynamics 365 for Financials**, og velja svo hnappinn **Tengja**.
+2. Í reitnum **Sækja gögn** skal velja **Netþjónustu**, velja **Dynamics 365 Business edition**, og velja svo hnappinn **Tengja**.
 
    Power BI birtir leiðsagnarforrit sem leiðbeinir þér gegnum tengingarferlið. Fyrsta skref er notanda er að færa inn OData-vefslóð og heiti fyrirtækis sem tengist [!INCLUDE[d365fin](includes/d365fin_md.md)]-reikningnum hans.  
 

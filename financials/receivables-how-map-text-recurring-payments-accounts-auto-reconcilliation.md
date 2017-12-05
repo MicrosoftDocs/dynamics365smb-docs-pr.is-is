@@ -13,17 +13,14 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: deb05c6294edeb892606154b38de2aa406abf6a2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 53c65f7f47c189905e277eff1ea86af241aa1b0b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Hvernig á að varpa texta á endurteknar greiðslur á reikninga fyrir sjálfvirka afstemmingu
 Í glugganum **vörpun texta á reikning**, sem opnaður er úr glugganum **Greiðsluafstemmingarbók**, er hægt að setja upp vörpun á milli texta í greiðslum og tiltekinni debet-, kredit- og mótreikninga til að greiðslurnar séu bókaðar í tiltekna reikninga þegar greiðsluafstemmingarbók er bókuð.
-
-> [!NOTE]  
->   Efnisatriði á líka við um það þegar þú notar **Vörpun texta á reikning** aðgerðina frá skráningu skjals á innleið til að aðstoða við umbreytingu rafrænna skjala sem fengin eru frá ytri þjónustu yfir í skjöl í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar eru í [Hvernig á að nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)   
 
 Svipað aðgerð er til til að stemma af umframupphæðir á greiðsluafstemmingarbókarlínum á sérstækum grundvelli. Frekari upplýsingar eru í [hvernig á að afstemma greiðslur sem ekki er hægt að afstemma sjálfkrafa](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
@@ -41,13 +38,15 @@ Greiðslur sem bókaðar eru samkvæmt vörpun texta á reikning eru ekki jafna�
 4. Í reitinn **vörpun texta** skal færa inn þann texta sem er á greiðslum sem á að bóka í tiltekna reikninga án jöfnunar við opnar færslur. Hægt er að færa inn allt að 50 stafi.
 
     > [!NOTE]  
->   Ef engar aðrar greiðslur eða skjöl á innleið eru til staðar innan vörpunartextans sem um ræðir, þá kemur upp vörpun texta á reikning jafnvel þó aðeins hluti textans á greiðsluskjalinu eða skjali á innleið er til staðar sem vörpunartexti.
-5. Í **Númer lánardrottins** reitinn skal færa inn númer lánardrottins sem skjöl á innleið með vörpunartextanum verða stofnuð fyrir, eða greiðslur verða bókaðar á. Frekari upplýsingar eru í [Hvernig á að nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)      
-6. Í reitinn **Debetreikningsnúmer** skal færa inn reikninginn sem greiðslur með vörpunartextann verða bókaðar í ef þær eru greiðslur á innleið. Fyrir greiðslur á innleið, er táknið í reitnum **Upphæð Yfirlits** jákvæð.
-7. Í reitinn **Kreditreikningsnúmer** skal færa inn reikninginn sem greiðslur með vörpunartextann verða bókaðar í ef þær eru greiðslur á innleið. Fyrir greiðslur á útleið, er táknið í reitnum **Upphæð Yfirlits** er neikvætt.
-8. Í reitinn **Upprunagerð stöðu** skal tilgreinga hvort greiðslan verður bókuð á fjárhagsreikning eða á viðskiptamann eða lánardrottinn.
-9. Í **Upprunanúmer stöðu** skal tilgreina reikninginn sem greiðslan verður bókuð á, allt eftir valinu í reitnum **Upprunagerð stöðu**.
-10. Endurtakið skref 4 til 8 fyrir allan texta í greiðslum sem á að varpa á reikninga fyrir beina bókun án jöfnunar.
+>   Ef engar aðrar greiðslur eru til staðar innan vörpunartextans sem um ræðir, þá kemur upp vörpun texta á reikning jafnvel þó aðeins hluti textans á greiðsluskjalinu er til staðar sem vörpunartexti.
+5. Í **Númer lánardrottins** reitinn skal færa inn lánardrottinn sem greiðslur verða bókaðar á.
+6. Í reitinn **Upprunagerð stöðu** skal tilgreinga hvort greiðslan verður bókuð á fjárhagsreikning eða á viðskiptamann eða lánardrottinn.
+7. Í **Upprunanúmer stöðu** skal tilgreina reikninginn sem greiðslan verður bókuð á, allt eftir valinu í reitnum **Upprunagerð stöðu**.
+
+    > [!NOTE]
+    > Ekki skal nota **Debetreikningsnúmer** og **Kreditreikningsnúmer** reitina í tengslum við afstemmingu greiðslna. Þeir eru aðeins notaðir fyrir skjöl á innleið. Frekari upplýsingar eru í [Hvernig á að nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)
+
+8. Endurtakið skref 3 til 7 fyrir allan texta í greiðslum sem á að varpa á reikninga fyrir beina bókun án jöfnunar.
 
 Næst þegar flutt er inn bankayfirlitsskrá eða aðgerðin **Sjálfvirk jöfnun** er valin í glugganum **greiðsluafstemmingarbók** munu bókarlínur fyrir greiðslur sem innihalda tilgreindan vörpunartexta innihalda varpaða reikninga í reitunum **Tegund reiknings** og **reikningsnúmer** reitina. **áreiðanleiki samsvörunar** reiturinn mun innihalda **Mikill - vörpun texta á reikning**. Þetta er háð því skilyrði að sjálfvirk jöfnun getur aðeins boðið upp á áreiðanleika samsvörunar sem er **Lítill** eða **Miðlungs**.
 

@@ -1,8 +1,6 @@
 ---
 title: "Finna úrræðaleiðir eða vinna í kringum vandamál með innskráningu í sjálfsafgreiðslu | Microsoft Docs"
-description: "Kynntu þér algengustu ástæðurnar fyrir því af hverju þú getur hugsanlega ekki klárað innskráningu í Dynamics 365 for Financials, og hvernig hægt er að vinna í kringum þær."
-services: project-madeira
-documentationcenter: 
+description: "Kynntu þér algengustu ástæðurnar fyrir því af hverju þú getur hugsanlega ekki klárað innskráningu í Dynamics 365 Business edition, og hvernig hægt er að vinna í kringum þær."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,16 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c97d406d0213c7b2ade23a2d209adf54bf9dfcae
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Úrræðaleit innskráning í sjálfsafgreiðslu
 Innskráning fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] er auðvelt og er hægt að gera mjög skjótan hátt. Hægt er að stofna reikning án endurgjalds jafnvel þó að þú sért fyrirtæki sem þegar er til. Þessi grein fjallar um vandamál sem gætu komið upp við innskráningu.
 
-## <a name="what-email-address-can-i-use-with-financials"></a>Hvaða netfang get ég notað með Financials?
+## <a name="what-email-address-can-i-use-with-dynamics-365"></a>Hvaða tölvupóstfang get ég notað með Dynamics 365?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] krefst að notandi noti vinnu eða skóla netfang til að nýskrá. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.
 
 Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gefa til kynna að þú eigir að nota vinnu eða skóla netfang.
@@ -40,5 +38,4 @@ Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gef
 ## <a name="see-also"></a>Sjá einnig
 [Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 
