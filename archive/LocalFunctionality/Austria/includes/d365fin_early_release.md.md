@@ -1,1 +1,0 @@
-Þetta er frumútgáfa sem við erum enn að vinna að. Virkni og efni á þessari síðu geta breyst. Til að læra hvað er að koma skal sjá [Microsoft Dynamics 365 Roadmap](https://go.microsoft.com/fwlink/?linkid=842139).
