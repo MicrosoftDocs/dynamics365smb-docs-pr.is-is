@@ -24,6 +24,7 @@
 ## [Leyfa Dynamics 365 að stinga upp á gildum](ui-let-system-suggest-values.md)
 ## [Prenta skýrslu](ui-work-report.md#PrintReport)
 ## [Myndbönd í algengum verkum](across-videos.md)
+## [Aðgengi og Flýtivísanir](ui-accessibility.md)
 ## [Tungumál og landsstaðall](about-locale-language.md)  
 ## [Tungumál skjalanna](about-languages.md)
 
@@ -173,7 +174,7 @@
 ### [Bjóða ytri endurskoðanda í Dynamics 365](finance-invite-external-accountant.md)  
 ## [Skilja fjárhag og bókhaldslykil](finance-general-ledger.md)
 ## [Unnið með víddir](finance-dimensions.md)
-## [Hvernig á að: stofna fjárhagsáætlun](finance-how-create-budgets.md)
+## [Hvernig á að: Stofna fjárhagsáætlanir](finance-how-create-budgets.md)
 ## [Hvernig skal: Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)
 ## [Hvernig skal: Bakfæra bókanir](finance-how-reverse-journal-posting.md).
 ## [Hvernig á að: úthluta kostnaði og tekjum](year-allocate-costs-income.md)
