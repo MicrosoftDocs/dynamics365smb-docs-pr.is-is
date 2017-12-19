@@ -1,8 +1,6 @@
 ---
 title: "Kynning -Tínsla og Afhending í Einfaldar grunngerð vöruhúss | Microsoft Docs"
-description: "Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að framkvæma útleiðarferlið til að tína og afhenda á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins."
-services: project-madeira
-documentationcenter: 
+description: "Í Dynamics 365, er hægt að framkvæma útleiðarferlið til að tína og afhenda á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 993d3f092db9f423aba9a67d58f53895df0d5c2f
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss
@@ -69,8 +67,8 @@ Til að ljúka þessari kynningu þarf:
 
         |Tegund færslu|Vörunúmer|Staðsetningarkóði|Hólfkóti|Magn|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Auking|LS-81|SILFRAÐ|S-01-0001 **Athugið:**  Sjálfgefið hólf vörunnar í CRONUS.|2.0|  
-        |Auking|LS-81|SILFRAÐ|S-01-0002|2.0|  
+        |Auking|LS-81|SILFRAÐ|S-01-0001 **Athugið:**  Sjálfgefið hólf vörunnar í CRONUS.|20|  
+        |Auking|LS-81|SILFRAÐ|S-01-0002|20|  
 
     3.  Valið er **bóka** aðgerð og síðan hnappinn **Já**.  
 

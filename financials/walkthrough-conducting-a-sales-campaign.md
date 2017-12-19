@@ -1,8 +1,6 @@
 ---
 title: "Kynning - Framkvæmd söluherferðar | Microsoft Docs"
-description: "Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvægur þáttur í uppsetningu herferðar hefur með val á markhópi hennar að gera. Í þessum tilgangi í [!INCLUDE[d365fin](includes/d365fin_md.md)], er búinn til í  hluti eða hópur tengiliða með afmörkunum."
-services: project-madeira
-documentationcenter: 
+description: "Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvægur þáttur í uppsetningu herferðar hefur með val á markhópi hennar að gera. Í þessum tilgangi er búinn til hluti eða hópur tengiliða með afmörkunum í Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e9eb96fb0f9669a9ddac5e4ea6e973fd64388b87
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 492976f9ab0553b67b73317040878c825eaa1808
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Kynning: Framkvæmd söluherferðar
@@ -119,7 +117,7 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>Tenging hluta við herferð  
 
-1.  Í glugganum **Hluti** á flýtiflipanum **Herferð** er reiturinn **Herferð**  valinn til að velja herferðina sem tengja á við hlutann, t.d. **CP0001**.  
+1.  Í glugganum **Hluti** á flýtiflipanum **Herferð** er reiturinn **Herferð** valinn til að velja herferðina sem tengja á við hlutann, t.d. **CP0001**.  
 2.  Þar sem hlutinn er markhópur herferðarinnar er gátreiturinn **Markhópur söluherferðar** valinn.  
 
 ## <a name="sending-letters-and-email-messages-to-contacts"></a>Sending bréfa og tölvupósts til tengiliða  
@@ -150,7 +148,7 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 
 9. Viðhengi hafa verið send. Þegar ferlinu er lokið skal velja hnappinn **Í lagi** fyrir skilaboðin sem tilkynna að hlutinn hafi verið skráður.  
 
-     Bókstafir eru sjálfkrafa prentaðir og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er fluttur í lista yfir skráða hluti. Til að sjá þann lista, velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Skráðir Hlutar** og velja svo viðeigandi tengil.  
+     Bókstafir eru sjálfkrafa prentaðir og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er fluttur í lista yfir skráða hluti. Til að sjá þann lista, velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skráðir Hlutar** og velja svo viðeigandi tengil.  
 
 10. Eftir að hlutinn er skráður, er hvert bréf sem er sent skráð sem samskipti, sem sjá má í kladdanum.  
 
@@ -167,7 +165,7 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 7.  Velja gátreitinn **Stofna eftirfylgnihluta**.  
 8.  Velja hnappinn **Í lagi**.  
 
-     Bókstafir eru sjálfkrafa sendir með tölvupósti og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er vistaður í lista yfir skráða hluti. Til að sjá þann lista, velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Skráðir Hlutar** og velja svo viðeigandi tengil.  
+     Bókstafir eru sjálfkrafa sendir með tölvupósti og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er vistaður í lista yfir skráða hluti. Til að sjá þann lista, velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skráðir Hlutar** og velja svo viðeigandi tengil.  
 
 ## <a name="registering-campaign-responses"></a>Skráning svara við herferð  
  Næstu vikur svara hugsanlegir viðskiptamenn bréfinu. Markaðsstjórinn vill fylgjast með svörunum og skrá samskiptin.  

@@ -1,8 +1,6 @@
 ---
 title: "Hönnunarupplýsingar - áætlunarfæribreyta | Microsoft Docs"
-description: "Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í [!INCLUDE[d365fin](includes/d365fin_md.md)]."
-services: project-madeira
-documentationcenter: 
+description: "Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6d1b9d86d53076c2373f4f08316192eda29592c5
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 5ab63063b5ad2ae453ecb9953ba4547f31536ee8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-planning-parameters"></a>Hönnunarupplýsingar: áætlunarfæribreyta
@@ -64,7 +62,7 @@ Ef áætlanakerfið greinir þörfina á að endurpanta er valin endurpöntunars
 ### <a name="reordering-policies"></a>Endurpöntunarstefnur  
 Eftirfarandi endurpöntunarstefnur stjórna því hversu mikið er endurpantað.  
 
-|Endurpöntunarstefna|Description|  
+|Endurpöntunarstefna|Lýsing|  
 |-----------------------|---------------------------------------|  
 |**Fast endurpöntunarmagn**|Pöntunarmagnið þarf minnst að vera jafnt og endurpöntunarmagnið. Það er hægt að auka til að mæta eftirspurn eða viðeigandi birgðastigi. Þessi endurpöntunarstefna er yfirleitt notað með endurpöntunarmark.|  
 |**Hámarksmagn**|Pöntunarmagnið verður reiknað út þannig að það svari hámarksbirgðum. Ef magnbreytur eru notaðar er hægt að brjóta gegn hámarksbirgðum. Við mælum ekki með að þú notir tímaramma ásamt hámarks magni. Tímarammanum er vanalega hnekkt. Þessi endurpöntunarstefna er yfirleitt notað með endurpöntunarmark.|  
@@ -74,7 +72,7 @@ Eftirfarandi endurpöntunarstefnur stjórna því hversu mikið er endurpantað.
 ##  <a name="optimize-when-and-how-much-to-reorder"></a>Fínstilling hvenær og hversu mikið aá endurpanta  
 Til að fá skynsamlegar framboðsáætlun, skipuleggjandi mun fínstilla áætlanarfæribreytur til að takmarka enduráætlunartillögur, safnast eftirspurn (kvikt pöntunarmark magn), eða til að forðast óverulegar áætlanagerðaraðgeðrir. Eftirfarandi endurpöntunartímabilsreitir hjálpa til við að fínstilla hvenær og hversu mikið á að endurpanta.  
 
-|Svæði|Description|  
+|Svæði|Lýsing|  
 |---------------------------------|---------------------------------------|  
 |**Enduráætlunartímabil**|Þessi reitur er notaður til að ákvarða hvort aðgerðaboðin ættu að enduráætla fyrirliggjandi pöntun eða hætta við hana og stofna nýja. Fyrirliggjandi pöntun verður enduráætluð innan eins enduráætlunartímabils fyrir núgildandi framboð og fram að einu enduráætlunartímabili eftir núgildandi framboð.|  
 |**Lotusöfnunartímabil**|Með endurpöntunarstefnunni Runu-fyrir-runu er þessi reitur notaður til að safna saman margfeldi birgðaþarfa í eina birgðapöntun. Frá dagsetningu fyrstu eftirspurnar safnast öll eftirspurn í eftirfarandi lotusöfnunartímabili saman í eina afhendingarpöntun sem skráð er á dagsetningu fyrstu eftirspurnar. Eftirspurn sem er utan lotusöfnunartímabilsins fellur ekki undir framboðið.|  
@@ -92,7 +90,7 @@ Tímasetning enduráætlunartímabils, hömlutímabils og lotusöfnunartímabils
 
 **Dæmi 2**: Breytta dagsetningin er á enduráætlunartímabilinu, sem veldur því að núverandi framboð er enduráætlað. Nýtt framboð er lagt til til að ná yfir eftirspurn utan lotusöfnunartímabilsins.  
 
-![Enduráætlunartímabil, Lotusöfnunartímabil, Enduráætla ](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply_planning_5_recheduling_period_lot_accum_period_reschedule")  
+![Enduráætlunartímabil, Lotusöfnunartímabil, Enduráætla](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply_planning_5_recheduling_period_lot_accum_period_reschedule")  
 
 **Dæmi 3**: Eftirspurn er á hömlutímabilinu og framboðsmagnið á lotusöfnunartímabilinu stemmir við framboðsmagnið. Næsta eftirspurn er óvarin og stungið er upp á nýrri eftirspurn.  
 
@@ -102,7 +100,7 @@ Tímasetning enduráætlunartímabils, hömlutímabils og lotusöfnunartímabils
 
 ![Hömlutímabil, Lotusöfnunartímabil, Breyta magni](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply_planning_5_dampener_period_lot_accum_period_change_qty")  
 
-**Sjálfgefin gildi:** Sjálfgefin gildi reitarins**Tímarammi** og þriggja endurpantanatímabilsreita eru auð. Fyrir alla reiti nema reitinn **Hömlutímabil** þetta merkir 0D núll dagar. Ef reiturinn **Hömlutímabil** er auður verður altæka gildið í reitnum **Sjálfgefið hömlutímabil** í glugganum **Uppsetning framleiðslu** notað.  
+**Sjálfgefin gildi:** Sjálfgefin gildi reitarins **Tímarammi** og þriggja endurpantanatímabilsreita eru auð. Fyrir alla reiti nema reitinn **Hömlutímabil** þetta merkir 0D núll dagar. Ef reiturinn **Hömlutímabil** er auður verður altæka gildið í reitnum **Sjálfgefið hömlutímabil** í glugganum **Uppsetning framleiðslu** notað.  
 
 ## <a name="modify-the-supply-orders"></a>Breyta framboðspöntununum  
 Þegar magn pöntunartillögu hefur verið reiknað út er hægt að lempa hana með einum eða fleiri breytum. Til dæmis er hámarkspöntunarmagn stærra eða jafnstórt og lágmarkspöntunarmagn, sem er stærra en eða jafnt og fjöldapöntunin.  

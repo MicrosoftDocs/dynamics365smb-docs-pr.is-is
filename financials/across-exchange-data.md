@@ -1,6 +1,6 @@
 ---
 title: Gagnaskipti | Microsoft Docs
-description: "Hægt er að skipta á gögnum á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og ytri skráa eða strauma í tengslum við algeng viðskiptaverk, s.s. að senda og taka á móti rafrænum skjölum og flytja inn og út bankaskrár."
+description: "Hægt er að skipta á gögnum á milli Dynamics 365 og ytri skráa eða strauma í tengslum við algeng viðskiptaverk, s.s. að senda og taka á móti rafrænum skjölum og flytja inn og út bankaskrár."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: f7ee9914d70474e912414ecd4de9a4cf16fa4e45
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 41f42162499401693f30e37a736c4fe0afe24822
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="exchanging-data"></a>Gagnaskipti
@@ -30,7 +30,8 @@ Hægt er að skipta á gögnum á milli [!INCLUDE[d365fin](includes/d365fin_md.m
 |Nota OCR-þjónustu til að breyta PDF eða myndaskrám í rafræn skjöl sem hægt er að breyta í færslur fyrir skjöl í [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Hvernig á að: Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)|  
 |Taka á móti rafrænum skjölum, annaðhvort úr OCR-þjónusta eða skjalaskiptaþjónusta, í stöðluðu sniði sem umbreytt er í viðeigandi innkaupaskjalsfærslu í [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Hvernig á að: Taka við pg umbreyta rafræn skjölum](purchasing-how-to-receive-and-convert-electronic-documents.md)|  
 |Flytjið bankayfirlitsskrá inn í gluggann **greiðsluafstemmingarbók** sem fyrsta skrefið í afstemmingu greiðsla eða inn í gluggann **Afstemming bankareiknings** sem fyrsta skrefið í að afstemma bankareikninga.|[Hvernig á að: Setja upp Envestnet Yodlee bankastreymisþjónustu](bank-how-setup-bank-statement-service.md)|  
-|Flytja greiðslur úr **greiðslubók** glugganum í bankaskrá sem er hlaðið upp á rafrænan bankareikning til vinnslu.|[Hvernig á að: Flytja út greiðslur í bankaskrá](payables-how-export-payments-bank-file.md)|  
+|Flytja greiðslur úr **greiðslubók** glugganum í bankaskrá sem er hlaðið upp á rafrænan bankareikning til vinnslu.|[Hvernig á að: Flytja út greiðslur í bankaskrá](payables-how-export-payments-bank-file.md)|
+|Gerðu rafrænar greiðslur í samræmi við SEPA-kreditfærslustaðla ESB.|[Greiða með umreikningsþjónustu bankagagna eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|  
 |Gefið bankanum fyrirmæli um að flytja greiðsluupphæðir af bankareikningum viðskiptavina á bankareikninga fyrirtækisins í samræmi við uppsetningu SEPA-beingreiðslna.|[Hvernig á að: Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
 |Nota gengi þjónustuveitu gengi gjaldmiðla til að uppfæra **gengi** gluggann.|[Hvernig á að: Uppfæra gengi](finance-how-update-currencies.md)|  
 |Skoðið hvaða skráareiginleikar eru varpaðir á reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)] við innflutning SEPA CAMT yfirlitsskráa.|[Reitarvörpum við innflutning SEPA CAMT skráa](across-field-mapping-when-importing-sepa-camt-files.md)|  

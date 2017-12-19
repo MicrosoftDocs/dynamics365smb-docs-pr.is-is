@@ -1,8 +1,6 @@
 ---
 title: "Hönnunarupplýsingar - Leitað að víddarsamsetningum | Microsoft Docs"
-description: "Þegar þú lokar glugga eftir að hafa breytt víddasamstæðu metur [!INCLUDE[d365fin](includes/d365fin_md.md)] hvort þessi breytta víddasamstæða er til. Ef samstæðan er ekki til er ný samstæða búin til og víddarsamsetningarkenninu er skilað."
-services: project-madeira
-documentationcenter: 
+description: "Þegar þú lokar glugga eftir að hafa breytt víddasamstæðu metur Dynamics 365 hvort þessi breytta víddasamstæða er til. Ef samstæðan er ekki til er ný samstæða búin til og víddarsamsetningarkenninu er skilað."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9e36a8a1a5eeede5023da32bcb40a06042173fb4
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 64e5191fd2947a8e19595d8c9f1ece4eeff77ec0
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Hönnunarupplýsingar Leitað að víddarsamsetningum
@@ -75,7 +73,7 @@ EXIT(DimSet.ID);
 ```  
 
 ## <a name="see-also"></a>Sjá einnig  
- [GET Eiginleiki (Skrá)](https://msdn.microsoft.com/en-us/library/dd301056.aspx)    
+ [GET Eiginleiki (Skrá)](/dynamics-nav/GET-Function--Record-)    
  [Hönnunarupplýsingarn: Færslur víddarsamstæða](design-details-dimension-set-entries.md)   
  [Yfirlit yfir víddasamstæðufærslur](design-details-dimension-set-entries-overview.md)   
  [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)   

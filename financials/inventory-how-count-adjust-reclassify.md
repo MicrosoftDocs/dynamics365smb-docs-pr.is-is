@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 08/16/2017
+ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 031affc5d872fd989515a2561155353446dfde60
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-count-adjust-and-reclassify-inventory"></a>Hvernig skal: Telja, breyta og endurflokka birgðir.
@@ -26,7 +26,7 @@ Minnst einu sinni á hverju fjárhagsári þarf að telja raunbirgðir (það er
 
 Ef nauðsynlegt er að leiðrétta skráð birgðamagn í tengslum við talningu eða í öðrum tilgangi er hægt að nota birgðabók til þess að breyta færslum í birgðum beint án þess að bóka viðskipti. Að öðrum kosti er hægt að leiðrétta einstaka vöru á birgðaspjaldinu.
 
-Ef nauðsynlegt er að breyta eigindum fyrir birgðafærslur auk magns er hægt að nota endurflokkunarbók vöru. Dæmigerðar eigindir til að endurflokka eru til dæmis rað/lotu númer, gildistími og víddir.
+Ef nauðsynlegt er að breyta eigindum fyrir birgðafærslur er hægt að nota endurflokkunarbók vöru. Dæmigerðar eigindir til að endurflokka innihalda víddir og söluherferðarkóða, en einnig er hægt að framkvæma „kerfisflutninga“ með því að endurflokka staðsetningu og hólfakóða. Sérstök skref eiga við þegar þú vilt endurflokka rað- eða lotunúmer og lokadag þeirra. Frekari upplýsingar, sjá [Hvernig á að: vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > Í grunngerðum í ítarlegu vöruhúsi eru vörur skráðar í hólf sem vöruhúsafærslur, en ekki sem birgðabókafærslur. Þar af leiðandi framkvæmir þú talningu, leiðréttingu og endurflokkun í sérstökum vöruhúsabókum sem styðja hólf. Síðan notarðu sérstakar aðgerðir til að samstilla nýju eða breyttu vöruhúsafærslurnar við tengdar birgðabókafærslur til að endurspegla breytingarnar í birgðamagni og virði. Þessu er lýst í sérstöku ferli hér að neðan, þar sem við á.
@@ -209,13 +209,19 @@ Með vissu millibili, sem ræðst af reglum fyrirtækisins, þarf að bóka fær
 6.  Bóka skal línurnar til þess að færa mismun á magni inn í birgðahöfuðbók. Birgðirnar í vöruhúsahólfunum samsvara nú nákvæmlega birgðunum í birgðahöfuðbókinni.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>Að endurflokka lotunúmer vöru
+Ef nauðsynlegt er að breyta eigindum fyrir birgðafærslur er hægt að nota endurflokkunarbók vöru. Dæmigerðar eigindir til að endurflokka innihalda víddir og söluherferðarkóða, en einnig er hægt að framkvæma „kerfisflutninga“ með því að endurflokka staðsetningu og hólfakóða.
+
+Sérstök skref eiga við þegar þú vilt endurflokka rað- eða lotunúmer og lokadag þeirra. Frekari upplýsingar, sjá [Hvernig á að: vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
+
+Eftirfarandi dæmi byggist á staðsetningarkóði. Skrefin eru svipuð fyrir aðrar gerðir vörueiginda.
+
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðaendurflokkunarbækur** og velja svo viðeigandi tengil.
 2. Í glugganum **Birgðaendurflokkunarbók** skal fylla út reitina eins og þörf krefur.
-3. Í reitinn **Lotunr.**, færið inn núverandi lotunúmer vörunnar.
-4. Í reitinn **Nýtt Lotunr.**, færið inn nýtt lotunúmer vörunnar.
+3. Í reitnum **Staðsetningarkóði** er fært inn núverandi staðsetningarkóði vöru.
+4. Í reitnum **Nýr staðsetningarkóði** er fært inn nýr staðsetningarkóði vöru.
 5. Valið er **Bóka** aðgerðin.
 
-Sérstök skref eiga við þegar þú vilt endurflokka rað- eða lotunúmer. Frekari upplýsingar, sjá [Hvernig á að: vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
+Nánari upplýsingar um flutning vara með fulla stjórn á magni sem sent er og móttekið eru í [Hvernig á að: Flytja birgðir milli staða](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Birgða](inventory-manage-inventory.md)

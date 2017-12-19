@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2f62bbae71eac1c0d63df5e352601c0885274066
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 148a566473e4964db3cbc6ee266eccb6b6c6aaa7
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-convert-service-contracts-that-include-vat-amounts"></a>Hvernig á að umbreyta þjónustusamningum sem innihalda VSK upphæðir
@@ -23,7 +23,7 @@ ms.lasthandoff: 09/22/2017
 > [!NOTE]  
 >  Þetta efnisatriði gefur verkflæði á háu stigi.  
 
- Eftirfarandi ferli lýsir því hvernig eigi að leiðrétta reikning fyrir fyrirframgreiddan þjónustutengilið sem hefur verið stofnaður ár fyrirfram.  
+ Eftirfarandi ferli lýsir því hvernig eigi að leiðrétta reikning fyrir fyrirframgreiddan þjónustusamning sem hefur verið stofnaður ár fyrirfram.  
 
 > [!NOTE]  
 >  Í þessu dæmi þarf að breyta þarf vinnudagsetningunni í 01.01.2017.  
@@ -47,7 +47,7 @@ Eftirfarandi ferli lýsir því hvernig eigi að stofna kreditreikning sem innih
 2. Bæta nýrri línu við VSK-bókunargrunninn.  
 
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Til að stofna gildislokadagsetningar samnings í samningslínum  
-Eftirfarandi ferli lýsir því hvernig eigi að stofna nýja tengiliði með því að vinna með fyrningardagsetningar tengiliða í þjónustusamningslínum.  
+Eftirfarandi ferli lýsir því hvernig eigi að stofna nýja samninga með því að vinna með fyrningardagsetningar samninga í þjónustusamningslínum.  
 
 1. Í glugganum **Þjónustusamningur** stillið lokadagsetningu samnings á **30.06.2017**.  
 2. Velja aðgerðina **Stofna kreditreikn.** til að stofna kreditreikning sjálfkrafa fyrir júlí 2017 til desember 2017.  

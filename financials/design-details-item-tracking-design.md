@@ -1,8 +1,6 @@
 ---
 title: "Hönnunarupplýsingar - Vörurakning Hönnun | Microsoft Docs"
-description: "Þetta efnisatriði lýsir hönnuninni á bak við vörurakningu í [!INCLUDE[d365fin](includes/d365fin_md.md)]."
-services: project-madeira
-documentationcenter: 
+description: "Þetta efnisatriði lýsir hönnuninni á bak við vörurakningu í Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1d47b646b1908987648ebe13f53693f6782f6cdf
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 20d04536d670e0c830ed3b92df8d570e6408fab4
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-design"></a>Hönnunarupplýsingarn: vörurakning hönnun
@@ -24,7 +22,7 @@ ms.lasthandoff: 09/22/2017
 
 Frá [!INCLUDE[d365fin](includes/d365fin_md.md)] 3,00 var vörurakningareiginleikinn í aðskilinni hlutaskipan með flóknum tenglum í bókuð skjöl og birgðabókarfærslur. Þessi hönnun bauð upp á sveigjanleika og virkni en rakning færslna fyrir vörur var ekki að fullu til staðar fyrir útreikning til ráðstöfunar.  
 
-Frá [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60 er vörurakningareiginleikinn innbyggður í frátekningarkerfið,  sem annast frátekningar, pöntunarrakningu og aðgerðarboð. Nánari upplýsingar eru í „Upplýsingar um hönnun: Frátekning, Vörurakning og aðgerðaboð“ í „Upplýsingar um hönnun, framboðsáætlun“.  
+Frá [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60 er vörurakningareiginleikinn innbyggður í frátekningarkerfið, sem annast frátekningar, pöntunarrakningu og aðgerðarboð. Nánari upplýsingar eru í „Upplýsingar um hönnun: Frátekning, Vörurakning og aðgerðaboð“ í „Upplýsingar um hönnun, framboðsáætlun“.  
 
 Í nýjustu útgáfunni eru vörurakningarfærslur í útreikninga framboðs alls í gegnum kerfið, þ.m.t. áætlun, framleiðsla og vöruhús. Gamla hugmyndin um að taka rað- og lotunúmer með yfir í birgðahöfuðbókarfærslur er kynnt aftur til sögunnar til að tryggja auðvelt aðgengi að sögulegum gögnum til að nota við vörurakningu. Í tengslum við vörurakningarúrbætur í [!INCLUDE[d365fin](includes/d365fin_md.md)] 3,60, var frátekningarkerfi stækkað yfir í atriði önnur en pantanir, svo sem færslubækur, reikninga og kreditreikninga.  
 
@@ -38,7 +36,7 @@ Meginbókunarhluturinn er endurhannaður til að takast á við einstaka undirfl
 
 Kóðaeining 22, **Birgðabók - Bókunarlína**, skiptir nú bókuninni samkvæmt vörurakningarnúmerunum sem eru tilgreind á skráarlínunni. Hvert einstakt vörurakningarnúmer á línunni býr til eigin birgðahöfuðbókarfærslu fyrir vöruna. Þetta þýðir að á tengilinn frá bókaðri skjalalínu í tengda birgðahöfuðbókarfærslur er nú í einn-til -marga tengslum. Þetta samband er stjórnað af eftirfarandi vörurakningar tengslatöflum.  
 
-|Svæði|Description|  
+|Svæði|Lýsing|  
 |---------------|---------------------------------------|  
 |**Birgðafærslutengsl** (T6507)|TTengir flutt eða fengið línur við birgðabókarfærslur|  
 |**Virðisfærslutengsl** (T6508)|Tengir reikningsfærðar línur við virðisfærslur|  

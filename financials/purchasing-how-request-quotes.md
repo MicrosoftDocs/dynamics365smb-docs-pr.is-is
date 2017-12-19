@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fe51ade7a46ab7a8fdf77419a0098ac47fe2e5d1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: df1793d811dea11c01ff5e7d90a9f52b9e987c13
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-request-quotes"></a>Hvernig á að: Biðja um tilboð
@@ -31,7 +31,7 @@ Hægt er að nota innkaupabeiðni sem uppkast fyrir innkaupapöntun og síðan e
 
 1. Opna innkaupabeiðni sem er tilbúin til breytinga og velja síðan **búa til pöntun** aðgerðina.
 
-Innkaupabeiðnin er fjarlægt úr gagnagrunninum. Innkaupareikningur eða sölupöntun er stofnaður byggður á upplýsingum í innkaupabeiðni þar sem hægt er að vinna innkaupin. Í reitnum **Tilboðsnúmer** á innkaupareikningnum eða innkaupapöntuninni er hægt að sjá fjölda innkaupabeiðna sem hann var búinn til úr.
+Innkaupabeiðnin er fjarlægt úr gagnagrunninum. Innkaupareikningur eða innkaupapöntun er stofnaður byggður á upplýsingum í innkaupabeiðni þar sem hægt er að vinna innkaupin. Í reitnum **Tilboðsnúmer** á innkaupareikningnum eða innkaupapöntuninni er hægt að sjá fjölda innkaupabeiðna sem hann var búinn til úr.
 
 ## <a name="see-also"></a>Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  

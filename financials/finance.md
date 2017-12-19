@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="finance"></a>Fjármál
@@ -37,7 +37,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Stjórna birgða- og framleiðslukostnaði, búa til skýrslu um kostnað og afstemma kostnað við færslubókina.|[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)|
 | Skilja fjárhag og bókhaldslykil. |[Skilja fjárhag og bókhaldslykil](finance-general-ledger.md) |
 | Bæta við víddum fyrir meiri viðskiptagreind. |[Unnið með víddir](finance-dimensions.md) |
-| Stofna fjárhagsáætlun til að spá fyrir um mismunandi fjármálaaðgerðir og úthluta víddum fyrir viðskiptaupplýsingar. |[Hvernig á að: stofna fjárhagsáætlun](finance-how-create-budgets.md) |
+| Stofna fjárhagsáætlun til að spá fyrir um mismunandi fjármálaaðgerðir og úthluta víddum fyrir viðskiptaupplýsingar. |[Hvernig á að: Stofna fjárhagsáætlanir](finance-how-create-budgets.md) |
 |Skrá tekjur eða útgjöld beint í fjárhag án þess að bóka sérnýtt viðskiptaskjöl.|[Hvernig skal: Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)|
 |Bóka bakfærslur til að afturkalla virðisbókanir í færslubókinni eða magnbókanir á innkaupa- og söluskjöl. |[Hvernig skal: Bakfæra bókanir](finance-how-reverse-journal-posting.md).|
 |úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. |[Hvernig á að: úthluta kostnaði og tekjum](year-allocate-costs-income.md) |

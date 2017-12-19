@@ -1,8 +1,6 @@
 ---
 title: "Hönnunarupplýsingar - Uppsetning vöruhúss | Microsoft Docs"
-description: "Vöruhúsavirkni í [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur mismunandi flækjustig, eins og skilgreint með leyfisheimildum í eindum í boði. Flækjustig vöruhússlausnar er einkum skilgreint með hólfauppsetningu á staðsetningarspjöldum, sem aftur eru leyfisstýrð, svo að aðgangur að hólfauppsetningarreitum ræðst að leyfinu."
-services: project-madeira
-documentationcenter: 
+description: "Vöruhúsavirkni í Dynamics 365 inniheldur mismunandi flækjustig, eins og skilgreint með leyfisheimildum í eindum í boði. Flækjustig vöruhússlausnar er einkum skilgreint með hólfauppsetningu á staðsetningarspjöldum, sem aftur eru leyfisstýrð, svo að aðgangur að hólfauppsetningarreitum ræðst að leyfinu."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c6d60ad75a8bf4f758a5e2fbc0ffa10b8929899
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-warehouse-setup"></a>Hönnunarupplýsingar uppsetningvöruhúss
@@ -39,11 +37,11 @@ Nánari upplýsingar um hverja einingu eru á [[!INCLUDE[d365fin](includes/d365f
 
 Eftirfarandi tafla sýnir hvaða eininga er krafist til að skilgreina mismunandi vöruhúsaflækjustig, hvaða viðmótsskjöl styðja hvaða stig og hvaða staðsetningarkóðar endurspegla þessi stig í [!INCLUDE[d365fin](includes/d365fin_md.md)] sýnigagnagrunninum.  
 
-|Flækjustig|Description|Notendaviðmótsskjal|CRONUS birgðageymsla|Lágmarksþörf einda|  
+|Flækjustig|Lýsing|Notendaviðmótsskjal|CRONUS birgðageymsla|Lágmarksþörf einda|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
-|0|Engin sérstök vöruhúsaaðgerð.<br /><br /> Bókun móttöku/afhendingar úr pöntunum.|Röð|BLÁTT|Grunnbirgðir|  
+|1|Engin sérstök vöruhúsaaðgerð.<br /><br /> Bókun móttöku/afhendingar úr pöntunum.|Röð|BLÁTT|Grunnbirgðir|  
 |2|Engin sérstök vöruhúsaaðgerð.<br /><br /> Bókun móttöku/afhendingar úr pöntunum.<br /><br /> Hólfkóði er áskilið.|Pöntun, með hólfkóða|SILFRAÐ|Grunnbirgðir/hólf|  
-|3 <br /><br /> **Athugið**: Jafnvel þótt stillingarnar séu kallaðar **Krefjast tínslu** og **Krefjast frágangs**, geturðu samt sem áður bókað móttöku og afhendingu beint frá uppruna viðskiptaskjala í birgðageymslum þar sem þú velur þessa gátreiti.|Grunnvöruhúsastarfsemi, pöntun fyrir pöntun.<br /><br /> Bókun móttöku/afhendingar úr birgðafrágangi/tínsluskjölum. <br /><br /> Hólfkóði er áskilið.|Birgðafrágangur(birgðahreyfing/birgðatínsla með hólfkóða|(Silfrað + Þarf að ganga frá eða tína)|Grunnbirgðir/hólf/Frágangur/Tiltekt|  
+|3 <br /><br /> **Athugið**: Jafnvel þótt stillingarnar séu kallaðar **Krefjast tínslu** og **Krefjast frágangs**, geturðu samt sem áður bókað móttöku og afhendingu beint frá uppruna viðskiptaskjala í birgðageymslum þar sem þú velur þessa gátreiti.|Grunnvöruhúsastarfsemi, pöntun fyrir pöntun.<br /><br /> Bókun móttöku/afhendingar úr birgðafrágangi/tínsluskjölum. <br /><br /> Hólfkóði er áskilið.|Birgðafrágangur/birgðahreyfing/birgðatínsla með hólfkóða|(Silfrað + Þarf að ganga frá eða tína)|Grunnbirgðir/hólf/Frágangur/Tiltekt|  
 |4|Ítarlegar vöruhúsaaðgerðir, fyrir margar pantanir.<br /><br /> Samsett bókun taka við/senda byggð á skráningum í vöruhúsi frágangur/tiltekt.|Vöruhúsamóttaka/vöruhúsafrágangur/vöruhúsatiltekt/vöruhúsaafhending/tiltektarvinnublað|GRÆNT|Grunnbirgðir/vöruhúsamóttaka/Frágangur/Taka til/vöruhúsaafhending|  
 |5|Ítarlegar vöruhúsaaðgerðir, fyrir margar pantanir.<br /><br /> Samsett bókun taka við/senda byggð á skráningum í vöruhúsi frágangur/tiltekt.<br /><br /> Hólfkóði er áskilið.|Vöruhúsamóttaka/vöruhúsafrágangur/vöruhúsatiltekt/vöruhúsaafhending/tiltektarvinnublað/frágangsvinnublað, með hólfkóða|(GRÆNT + Hólf áskilið)|Grunnbirgðir / Hólf / vöruhúsamóttaka / Frágangur / Tiltekt / vöruhúsaafhending|  
 |6 <br /><br /> **Athugið**: Þetta stig er kallað „WMS“ þar sem það krefst ítarlegustu eindarinnar, Vöruhúsakerfisins.|Ítarlegar vöruhúsaaðgerðir, fyrir margar pantanir.<br /><br /> Samsett bókun taka við/senda byggð á skráningum í vöruhúsi frágangur/tiltekt.<br /><br /> Hólfkóði er áskilið.<br /><br /> Svæðis- eða flokkakóði er valfrjáls.<br /><br /> Starfsmenn í vöruhúsi stjórnað af verkflæði.<br /><br /> Áætlun áfyllingar hólfs<br /><br /> Hólfaflokkun<br /><br /> Uppsetning hólfs eftir getu.<br /><br /> Niðurröðun.<br /><br /> Samþætting við handtæki|Vöruhúsamóttaka/vöruhúsafrágangur/vöruhúsatiltekt/vöruhúsaafhending/vöruhúsahreyfing/tiltektarvinnublað/frágangsvinnublað/ vöruhúsatiltekt Innanhúss/vöruhúsafrágangur innanhúss, með hólfa/flokk/svæðiskóða<br /><br /> Ýmsar vinnublöð fyrir hólfastjórnun<br /><br /> ADCS-skjáir|HVÍTT|Grunnbirgðir / Hófl / Frágangur / vöruhúsamóttaka / Tiltekt / Vöruhúsasending / Vöruhúsastjórnkerfi / Innri tiltekt og frágangur /Hófaskipulag / Gagnatökukerfi sjálfvirkrar dagsetningar / Hólfauppsetning|  
@@ -69,14 +67,14 @@ Aðeins er hægt að hafa eitt hólf fyrir hverja staðsetningu.
 ## <a name="bin-type"></a>Tegund hólfs  
 Í vöruhúsauppsetningum getur þú takmarka vöruhúsaaðgerðir sem eru leyfðar fyrir hólf með því að úthluta tegund hólfs á það. Eftirfarandi hólfagerðir eru til:  
 
-|Tegund hólfs|Description|  
+|Tegund hólfs|Lýsing|  
 |------------------|---------------------------------------|  
 |MÓTTAKA|Vörur sem skráðar eru sem mótteknar en sem ekki hefur verið gengið frá.|  
 |AFH|Vörur sem tíndar hafa verið fyrir vöruhúsaafhendingarlínur en ekki verið bókaðar sem afhendar.|  
 |PUT AWAY|Yfirleitt vörur sem geyma á í stórum einingum en sem kerfið á ekki að hafa aðgang að vegna tínslu. Þar sem hólfin eru ekki notuð til tínslu, hvort sem um er að ræða framleiðslupantanir eða afhendingar, getur notkun frágangshólfa verið takmörkuð en þau geta komið sér vel ef keypt hefur verið inn mikið af vörum. Hólf af þessari tegund ætti alltaf að flokka lágt þannig að þegar gengið er frá mótteknum vörum sé fyrst gengið frá öðrum hærra flokkuðum PUTPICK-hólfum sem fest eru við vöruna. Ef þessi tegund hólfs er notuð þarf að enduráfylla hólf reglulega svo að vörur sem þar eru geymdar séu einnig tiltækar í PUTPICK- og PICK-hólfum.|  
 |PICK|Vörur sem aðeins eru notaðar í tínslu. Áfylling þessara hólfa getur aðeins farið fram með hreyfingu, ekki með frágangi.|  
 |PUTPICK|Vörur í hólfum sem eru lagðar til fyrir bæði frágang og tínsluaðgerðir. Hólf af þessari tegund eru líklega með mismunandi hólfaflokkun. Hægt er að setja upp magngeymsluhólf með þessa hólfategund með lága hólfaflokkun samanborið við venjuleg tínsluhólf eða framtíðartínslusvæðishólf.|  
-|QC|Þetta hólf er notað fyrir birgðaleiðréttingar ef þetta hólf er tilgreind á birgðageymsluspjaldinu í reitnum **Leiðréttingahólfskóði**. Einnig er hægt að setja upp hólf af þessari tegund fyrir gallaðar vörur og vörur sem teknar eru til skoðunar. Hægt er að flytja vörur í hólf af þessari tegund ef þær eiga ekki að vera tiltækar í venjulegu vöruflæði. **Athugið:** Ólíkt öllum öðrum gerðum hólfa hefur hólfategundin **GE** enga vörumeðhöndlunargátreiti valda að sjálfgefnu. Þetta tilgreinir að allt innihald sem sett er í QC-hólf er ekki haft með í vöruflæði.|  
+|QC|Þetta hólf er notað fyrir birgðaleiðréttingar ef þetta hólf er tilgreind á birgðageymsluspjaldinu í reitnum **Leiðréttingahólfskóði**. Einnig er hægt að setja upp hólf af þessari tegund fyrir gallaðar vörur og vörur sem teknar eru til skoðunar. Hægt er að flytja vörur í hólf af þessari tegund ef þær eiga ekki að vera tiltækar í venjulegu vöruflæði. **Athugið:**  Ólíkt öllum öðrum gerðum hólfa hefur hólfategundin **GE** enga vörumeðhöndlunargátreiti valda að sjálfgefnu. Þetta tilgreinir að allt innihald sem sett er í QC-hólf er ekki haft með í vöruflæði.|  
 
 Fyrir allar hólfagerðir nema PICK, PUTPICK og PUTAWAY er engin önnur aðgerð leyfileg fyrir hólfið en skilgreint er í hólfagerðinni. Til dæmis er aðeins hægt að nota hólf af gerðinni **Móttaka** til að taka á móti vörum í eða taka vörur úr.  
 
@@ -110,7 +108,7 @@ Svæðin gæti verið móttökusvæði eða lagersvæði og hvert svæði getur 
 Flestum eiginleikum sem úthlutað er á svæði verður sjálfgefið úthlutað á hólfið sem er stofnað úr því svæði.  
 
 ## <a name="class"></a>Flokkur  
-Í háþróaður vörugeymsla, þú geta framselja vöruhús flokki kóða á vörur, hólf, og svæði til að stjórna hvar  mismunandi vöruflokkar eru geymd, eins og frystivörum. Hægt er að deila svæði upp í nokkra vöruhúsaflokka. Til dæmis vörur á móttökusvæði er hægt að vista sem frosnar, hættulegar eða annað.  
+Í háþróaður vörugeymsla, þú geta framselja vöruhús flokki kóða á vörur, hólf, og svæði til að stjórna hvar mismunandi vöruflokkar eru geymd, eins og frystivörum. Hægt er að deila svæði upp í nokkra vöruhúsaflokka. Til dæmis vörur á móttökusvæði er hægt að vista sem frosnar, hættulegar eða annað.  
 
 Þegar þú vinnur með flokka vöruhúsa og sjálfgefið sendingar- og móttökuhólf verður þú að fylla handvirkt út viðeigandi hólf í vöruhússkvittunarlínum og afhendingarlínum.  
 

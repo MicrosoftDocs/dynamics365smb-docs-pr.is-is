@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Velkomin(n) í[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -32,7 +32,7 @@ Hér eru nokkur eldsnögg trix, sem gott er að vita af:
 
 Frekari upplýsingar er að finna í [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Þegar þú ert tilbúinn í frekari átök og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [ Rekstrareiginleikar ](madeira-business-functionality.md). Fyrir yfirlit yfir gildandi getu og hvað er framundan, skaltu skoða vegakortið okkar á [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](madeira-business-functionality.md). Fyrir yfirlit yfir gildandi getu og hvað er framundan, skaltu skoða vegakortið okkar á [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Heimasíðurnar
 Heimasíður nota hlutverkamiðaða hönnun til að gefa þér skjótari aðgang að viðskiptaferlunum og verkfærum viðskiptagreindar sem þú þarft til að sinna starfinu. Endurskoðandi má til dæmis fylgjast með greiðslur og samþykktir og skoða vaxtareikninga afköst myndrit. Kanna mismunandi heimasíðum með því að velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingar táknið fyrir mitt hlutverk") uppi í hægra horninu skal velja **Mínar Stillingar**, og síðan Mitt hlutverk til að skoða. Skrá sig aftur inn til að láta breytinguna taka gildi. Nánari upplýsingar, sjá [Breyta Mitt hlutverk](change-role.md).  

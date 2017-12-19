@@ -13,16 +13,16 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fa964bd7ef61454892a574c04db890b32ab338c1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-purchase-returns-or-cancellations"></a>Meðhöndlun innkaupaskila eða afturkallana
 Ef skila á vörum til lánardrottins eða afturkalla þjónustu sem hefur verið keypt, er hægt að búa til og bóka kreditreikning sem tilgreinir breytingarnar sem óskað er eftir vegna hins upphaflega innkaupareiknings. Til að taka réttar innkaupareikningsupplýsingar með, er hægt að stofna innkaupakreditreikning beint úr bókaða innkaupareikningnum eða þú getur stofnað nýja innkaupakreditreikning með afrituðum reikningsupplýsingum.
 
-Ef þú þarft meiri stjórn á innkaupaskilaferlinu, eins og t.d. vöruhúsaskjöl fyrir vöruafgreiðsluna eða betra yfirlit yfir móttöku vöruskila frá mörgum innkaupaskjölum með einum vöruskilum, geturðu stofnað vöruskilapöntun innkaupa. Vöruskilapöntun innkaupa gefur sjálfkrafa út tengda innkaupakreditreikninginn. Frekari upplýsingar, sjá hlutann „Stofna vöruskilapöntun innkaupa byggða á einu eða fleiri bókuðu innkaupaskjali“.
+Ef þú þarft meiri stjórn á innkaupaskilaferlinu, eins og t.d. vöruhúsaskjöl fyrir vöruafgreiðsluna eða betra yfirlit yfir sendingu vara til baka frá mörgum innkaupaskjölum með einum innkaupaskilum, geturðu stofnað vöruskilapöntun innkaupa. Vöruskilapöntun innkaupa gefur sjálfkrafa út tengda innkaupakreditreikninginn. Frekari upplýsingar, sjá hlutann „Stofna vöruskilapöntun innkaupa byggða á einu eða fleiri bókuðu innkaupaskjali“.
 
 > [!NOTE]  
 >   Ef bókaður innkaupareikningur hefur ekki verið greiddur er hægt að nota aðgerðirnar **Leiðrétta** eða **Afturkalla** á bókuðu innkaupareikningnum til að afturkalla umræddar færslur. Þessir eiginleikar virka aðeins fyrir ógreidda reikninga og styðja ekki vöruskil að hluta eða afturkallanir. Nánari upplýsingar er að finna [hvernig á að: ógreiddir innkaupareikningar leiðréttir eða afturkallaðir](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
@@ -40,7 +40,7 @@ Til að varðveita rétt birgðaverðmat, eru vanalega teknar til skilavörur fr
 
 Til er tvenns konar virkni, til að úthluta bakfærslu nákvæms kostnaðar sjálfvirkt:  
 
-|Virkni|Description|  
+|Virkni|Lýsing|  
 |------------------|---------------------------------------|  
 |**Sækja bókaðar fylgiskjalalínur til að bakfæra** aðgerð í **vöruskilapöntun innkaupa** glugganum.|Afritar línur úr einu eða fleiri bókuðum fylgiskjölum sem á að bakfæra til vöruskilapöntun innkaupa. Frekari upplýsingar, sjá hlutann „Stofna vöruskilapöntun innkaupa og tengdan sölukreditreikning, fyrir einn eða fleiri bókuðu innkaupareikningi“.|  
 |**Afrita skjal** aðgerð í **Innkaupakreditreikningur** og **Vöruskilapöntun innkaupa** glugganum.|Afritar bæði haus og línur af einu bókuðu fylgiskjali sem á að bakfæra.<br /><br /> Krefst þess að **Nákvæm bakfærsla kostnaðar** gátreitur sé valinn í glugganum **Uppsetning fyrir Innkaup & Viðskiptaskuldir**.|
@@ -57,7 +57,7 @@ Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðakostnaður](design-d
 3. Breyta upplýsingum í línunum í samræmi við samninginn, eins og fjöldi þeirra vara sem skilað er eða upphæð sem á að endurgreiða.
 4. Valið er **Jafna Færslur** aðgerð.
 5. Í **Jafna Lánardr.færslur** glugganum, velja línan með bókaða innkaupaskjalið sem á að jafna við innkaup sölukreditreikning innkaupakreditreikning á og velja síðan aðgerðina **Jöfnunarkenni**. Númer innkaupakreditreikningsins er sett í reitinn **jöfnunarkenni**
-6. Í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem á að jafna ef hún er lægri en upprunalega upphæðin.
+6. Í reitnum **Upphæð til jöfnunar** er rituð upphæðin sem á að jafna ef hún er lægri en upprunalega upphæðin.
 
     Neðst á **Jafna Lánardr.færslur** glugganum, er hægt að skoða heildarupphæðin sem á að nota til að bakfæra allar viðkomandi færslur, nefnilega þegar gildið í **Stöðu** reitnum er núll.
 7. Velja hnappinn **Í lagi**. Þegar innkaupakreditreikningurinn er bókaður, verður hann jafnaður við tilgreinda bókaða innkaupaskjölin
@@ -150,7 +150,7 @@ Hægt er að bóka þetta lægra innkaupaverð sem kostnaðarauka á kreditreikn
     Gott gæti verið að stofna sérstakt vörugjaldsnúmer fyrir innkaupauppbætur.  
 6.  Fært er inn **1** í reitinn **Magn**.  
 7.  Í reitinn **Innk.verð** er upphæð innkaupauppbótarinnar færð inn.  
-8.  Innkaupauppbótinni er  úthlutað sem vörugjaldi á vörurnar í bókuðu móttökunni. Frekari upplýsingar, sjá [Hvernig skal: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md). Þegar uppbótinni hefur verið úthlutað er snúið aftur í gluggann **innkaupakreditreikningur**.
+8.  Innkaupauppbótinni er úthlutað sem vörugjaldi á vörurnar í bókuðu móttökunni. Frekari upplýsingar, sjá [Hvernig skal: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md). Þegar uppbótinni hefur verið úthlutað er snúið aftur í gluggann **innkaupakreditreikningur**.
 
 Þegar vöruskilapöntun innkaupa er bókuð er söluafslætti bætt við viðkomandi upphæð innkaupafærslu. Þannig er hægt að vinna með nákvæmt birgðaverðmat.  
 

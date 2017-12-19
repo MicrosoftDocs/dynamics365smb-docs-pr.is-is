@@ -13,14 +13,18 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 66a8a2124f1bc4775268b95ba100ada19cbc286d
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="general-business-functionality"></a>Almenn viðskiptavirkni
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tilteknar aðgerðir fyrir dæmigerð rekstrarsvið, s.s. fjármálasvið og sölur. Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að nota fjölda grunnvirkni í rekstri, s.s. skilgreina viðbættur texti fyrir skjalalínur og skipuleggja tengja viðskiptaverkhluta í verkflæði.
+Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tilteknar aðgerðir fyrir dæmigerð rekstrarsvið, s.s. fjármálasvið og sölur. Frekari upplýsingar eru í [Viðskiptavirkni](madeira-business-functionality.md).
+
+Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að nota fjölda viðskiptavirkni, s.s. skilgreina viðbættur texti fyrir skjalalínur og skipuleggja tengja viðskiptaverk í verkflæði.
+
+
 
 Í eftirfarandi töflu eru taldar upp þessar almennar viðskiptasvið auk tengla á efnisatriðin sem lýsa þeim.
 

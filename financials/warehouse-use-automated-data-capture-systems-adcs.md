@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 56d191c465b611c1764cf3c97e507c4952fe6287
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Hvernig skal: Virkja Sjálfvirkt gagnatökukerfi (ADCS)
@@ -28,7 +28,7 @@ Magn upplýsinga sem birtar eru í handtölvunni er skilgreint í smágluggaupps
 - Textaupplýsingar.  
 - Skilaboð til að sýna staðfestingar eða villurnar um verkþætti sem framkvæmdir eru og skráðir af handtölvu notanda.
 
-Frekari upplýsingar eru í [Grunnstilla sjálfvirkt gagantökukerfi](https://msdn.microsoft.com/en-us/library/dd338742.aspx) á MSDN.
+Frekari upplýsingar eru í [Grunnstilla sjálfvirkt gagnatökukerfi](/dynamics-nav/Configuring-Automated-Data-Capture-System) í þróunar- og IT-pro hjálp.
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>að setja vöruhús upp fyrir notkun ADCS  
 Ef nota á ADCS verður að tilgreina hvaða birgðageymslur nota tæknina.  
@@ -107,7 +107,7 @@ Til að innleiða eða breyta virkni smágluggaaðgerðar þarf að búa til ný
 
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] þróunarumhverfi, breytið kóta fyrir reitinn **Afgreiða kóðaeiningu** til að stofna eða breyta kóta til að framkvæma umbeðna aðgerð eða svar.
 
-Frekari upplýsingar eru í [Grunnstilla sjálfvirkt gagantökukerfi](https://msdn.microsoft.com/en-us/library/dd338742.aspx) á MSDN.
+Frekari upplýsingar eru í [Grunnstilla sjálfvirkt gagnatökukerfi](/dynamics-nav/Configuring-Automated-Data-Capture-System) í þróunar- og IT-pro hjálp.
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

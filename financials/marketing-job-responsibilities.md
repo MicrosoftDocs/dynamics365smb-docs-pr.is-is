@@ -13,10 +13,10 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Hvernig skal: Setja upp starfsábyrgðir fyrir tengilið
@@ -30,7 +30,7 @@ Starfsábyrgðarkóði skilgreinir tegund eða flokk verks, eins og markaðssetn
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Starfsábyrgðir** og velja svo viðeigandi tengil.
 2. Valið er **Nýtt** aðgerð og fyllt er inn kóði og lýsing. Kóðinn má vera mest 11 stafir, og getur verið hvaða samasetning sem er af tölustafir og bókstafir.
 
-## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>að úthluta starfsskyldu við tengiliðsaðila
+## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Að úthluta starfsábyrgð á tengilið
 Þú getur ekki úthluta Starfsábyrgðum á tengiliðafyrirtæki:
 
 1. opið tengilið.
