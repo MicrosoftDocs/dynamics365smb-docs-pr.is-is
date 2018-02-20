@@ -1,1 +1,1 @@
-<span data-ttu-id="a2dd6-101">Til að skoða efnisatriðin í þessum hluta skal velja tenglana undir **Sjá einnig**.</span><span class="sxs-lookup"><span data-stu-id="a2dd6-101">To see the topics in this section, choose the links under **See Also**.</span></span>
+<span data-ttu-id="7c695-101">Til að skoða efnisatriðin í þessum hluta skal velja tenglana undir **Sjá einnig**.</span><span class="sxs-lookup"><span data-stu-id="7c695-101">To see the topics in this section, choose the links under **See Also**.</span></span>

@@ -13,17 +13,18 @@ ms. search.keywords: extension, bank, formats
 ms.date: 09/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0a8effa535152b96a4044a33eaf45d4a69bcff23
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f99955a585a75d77ce2ce5e3d0da3e79d4bda157
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-tax-file-formats-dk-extension-for-dynamics-365-for-finance-and-operations-business-edition"></a><span data-ttu-id="48629-103">Viðbótin fyrir Tax File Formats (DK) fyrir Dynamics 365 for Finance and Operations, Business Edition</span><span class="sxs-lookup"><span data-stu-id="48629-103">The Tax File Formats (DK) Extension for Dynamics 365 for Finance and Operations, Business Edition</span></span>
-<span data-ttu-id="48629-104">Ef þú stundar viðskipti við fyrirtæki, eða innri útibú eða dótturfélög, í öðrum Evrópulöndum þarftu að tilkynna upplýsingar um starfsemina til SKAT og Statistics Denmark.</span><span class="sxs-lookup"><span data-stu-id="48629-104">If you engage in trade with companies, or internal branches or subsidiaries, in other EU countries you must report information about the activities to SKAT and to Statistics Denmark.</span></span> <span data-ttu-id="48629-105">Ef þú notar virðisaukaskatt og Intrastat-skýrslugerð í [!INCLUDE[d365fin](includes/d365fin_md.md)], getur þessi viðbót tryggt að skráin sem þú flytur út sé samhæf við kröfur þessara stofnunana.</span><span class="sxs-lookup"><span data-stu-id="48629-105">If you use the VAT and Intrastat reporting features in [!INCLUDE[d365fin](includes/d365fin_md.md)], this extension can ensure that the file you export is compatible with requirements from these organizations.</span></span> <span data-ttu-id="48629-106">Viðbótin bætir kóðaeiningu MS-ECSL skýrsluútflutningsskrá og Intrastat-útflutningslínur í VSK skýrsluskilgreininguna, svo þú getur flutt gögn í nýju sniði strax.</span><span class="sxs-lookup"><span data-stu-id="48629-106">The extension adds the MS-ECSL Report Export File and Intrastat Export Lines submission codeunits to your VAT Report configuration, so you can export data in the new format right away.</span></span>
+# <a name="the-tax-file-formats-dk-extension-for-finance-and-operations-business-edition"></a><span data-ttu-id="01830-103">DK (Tax File Fromats) viðbótin for Finance and Operations, Business Edition</span><span class="sxs-lookup"><span data-stu-id="01830-103">The Tax File Formats (DK) Extension for Finance and Operations, Business edition</span></span>
+<span data-ttu-id="01830-104">Ef þú stundar viðskipti við fyrirtæki, eða innri útibú eða dótturfélög, í öðrum Evrópulöndum þarftu að tilkynna upplýsingar um starfsemina til SKAT og Statistics Denmark.</span><span class="sxs-lookup"><span data-stu-id="01830-104">If you engage in trade with companies, or internal branches or subsidiaries, in other EU countries you must report information about the activities to SKAT and to Statistics Denmark.</span></span> <span data-ttu-id="01830-105">Ef þú notar virðisaukaskatt og Intrastat-skýrslugerð í [!INCLUDE[d365fin](includes/d365fin_md.md)], getur þessi viðbót tryggt að skráin sem þú flytur út sé samhæf við kröfur þessara stofnunana.</span><span class="sxs-lookup"><span data-stu-id="01830-105">If you use the VAT and Intrastat reporting features in [!INCLUDE[d365fin](includes/d365fin_md.md)], this extension can ensure that the file you export is compatible with requirements from these organizations.</span></span> <span data-ttu-id="01830-106">Viðbótin bætir kóðaeiningu MS-ECSL skýrsluútflutningsskrá og Intrastat-útflutningslínur í VSK skýrsluskilgreininguna, svo þú getur flutt gögn í nýju sniði strax.</span><span class="sxs-lookup"><span data-stu-id="01830-106">The extension adds the MS-ECSL Report Export File and Intrastat Export Lines submission codeunits to your VAT Report configuration, so you can export data in the new format right away.</span></span>
 
-<span data-ttu-id="48629-107">Viðbótin er ókeypis, þú þarft bara að setja hana upp.</span><span class="sxs-lookup"><span data-stu-id="48629-107">The extension is free, you just need to install it.</span></span> 
+<span data-ttu-id="01830-107">Viðbótin er ókeypis, þú þarft bara að setja hana upp.</span><span class="sxs-lookup"><span data-stu-id="01830-107">The extension is free, you just need to install it.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="48629-108">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="48629-108">See Also</span></span>
-[<span data-ttu-id="48629-109">Sérsníða Dynamics 365, Business edition með viðbótum</span><span class="sxs-lookup"><span data-stu-id="48629-109">Customizing Dynamics 365, Business edition Using Extensions</span></span>](ui-extensions.md)
+## <a name="see-also"></a><span data-ttu-id="01830-108">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="01830-108">See Also</span></span>
+[<span data-ttu-id="01830-109">Sérstilling Finance and Operations, Business Edition fyrir með viðbótum</span><span class="sxs-lookup"><span data-stu-id="01830-109">Customizing Finance and Operations, Business edition Using Extensions</span></span>](ui-extensions.md)
+
