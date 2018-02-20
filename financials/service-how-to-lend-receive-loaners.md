@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ac8e4cdfda63ed797415fcd183b410feea6bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 06b697ee8335f5c24b61414e9d7aebc5add2c5b0
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-lend-and-receive-loaners"></a>Hvernig skal: Lána og taka á móti lánsbúnaði
+# <a name="lend-and-receive-loaners"></a>Lána og taka á móti lánsbúnaði
 Hægt er að lána viðskiptamönnum lánsbúnað til að koma tímabundið í stað þjónustuvara sem tekið hefur verið við til þjónustu.  
   
 ## <a name="to-lend-a-loaner-item"></a>Lánsbúnaðarvara lánuð    
@@ -47,5 +47,5 @@ Nota má gluggann **Athugasemdablað almennrar þjónustu** til að skrá athuga
 5. Í reitnum **Athugsemd** færið inn athugasemd. Mest má rita 80 stafi. Ef færa á inn viðbótartexta er farið í næstu línu. Hægt er að fylla út eins margar línur og þurfa þykir.  
   
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig skal: Setja upp lánsbúnaðarprógramm](service-how-setup-loaner-program.md)   
+[Uppsetning lánsbúnaðarkerfis](service-how-setup-loaner-program.md)   
 

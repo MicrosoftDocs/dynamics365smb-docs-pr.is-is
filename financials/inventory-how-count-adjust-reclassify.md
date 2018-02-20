@@ -13,20 +13,20 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2ab1e60eb826b93a1b8b7ae354bcadfa0fafd62
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-count-adjust-and-reclassify-inventory"></a>Hvernig skal: Telja, breyta og endurflokka birgðir.
+# <a name="count-adjust-and-reclassify-inventory"></a>Talning, breytingar og endurflokkun birgða
 Minnst einu sinni á hverju fjárhagsári þarf að telja raunbirgðir (það er, telja allar vörur á lager) til að athuga hvort magnið sem skráð er í kerfinu sé það sama og raunbirgðir á lager. Þegar búið er að finna út úr raunbirgðum þarf að bóka þær í fjárhag þegar fram fer mat á birgðum við lok tímabils.
 
 Þó að allar vörur í birgðum séu taldar minnst einu sinni á ári gæti þurft að telja sumar vörur oftar, kannski vegna þess hve verðmætar þær eru eða vegna þess að mikil hreyfing er á þeim og þær eru stór hluti af rekstrinum. Í þessum tilgangi geturðu úthlutað sérstökum talningatímabilum á þessar vörur. Sjá frekari upplýsingar í „Að framkvæma reglulega talningu" liðnum.
 
 Ef nauðsynlegt er að leiðrétta skráð birgðamagn í tengslum við talningu eða í öðrum tilgangi er hægt að nota birgðabók til þess að breyta færslum í birgðum beint án þess að bóka viðskipti. Að öðrum kosti er hægt að leiðrétta einstaka vöru á birgðaspjaldinu.
 
-Ef nauðsynlegt er að breyta eigindum fyrir birgðafærslur er hægt að nota endurflokkunarbók vöru. Dæmigerðar eigindir til að endurflokka innihalda víddir og söluherferðarkóða, en einnig er hægt að framkvæma „kerfisflutninga“ með því að endurflokka staðsetningu og hólfakóða. Sérstök skref eiga við þegar þú vilt endurflokka rað- eða lotunúmer og lokadag þeirra. Frekari upplýsingar, sjá [Hvernig á að: vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
+Ef nauðsynlegt er að breyta eigindum fyrir birgðafærslur er hægt að nota endurflokkunarbók vöru. Dæmigerðar eigindir til að endurflokka innihalda víddir og söluherferðarkóða, en einnig er hægt að framkvæma „kerfisflutninga“ með því að endurflokka staðsetningu og hólfakóða. Sérstök skref eiga við þegar þú vilt endurflokka rað- eða lotunúmer og lokadag þeirra. Frekari upplýsingar, sjá [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > Í grunngerðum í ítarlegu vöruhúsi eru vörur skráðar í hólf sem vöruhúsafærslur, en ekki sem birgðabókafærslur. Þar af leiðandi framkvæmir þú talningu, leiðréttingu og endurflokkun í sérstökum vöruhúsabókum sem styðja hólf. Síðan notarðu sérstakar aðgerðir til að samstilla nýju eða breyttu vöruhúsafærslurnar við tengdar birgðabókafærslur til að endurspegla breytingarnar í birgðamagni og virði. Þessu er lýst í sérstöku ferli hér að neðan, þar sem við á.
@@ -99,7 +99,7 @@ Starfsmenn geta nú haldið áfram að telja birgðir og skrá hugsanlegt misræ
     Viðeigandi reitir eru uppfærðir í samræmi við það.
 
     > [!NOTE]  
->   Ef við raunbirgðatalningu kemur í ljós munur vegna vara hafi verið bókaðar með röngum birgðageymslukótum er munurinn ekki færður inn í raunbirgðabókina. Í staðinn skal nota endurflokkunarbók eða millifærslupöntun til að beina vörunum á rétta staði. Frekari upplýsingar, sjá Birgðafærslubók enduflokkunar eða Hvernig á að stofna Millifærslupantanir.
+>   Ef við raunbirgðatalningu kemur í ljós munur vegna vara hafi verið bókaðar með röngum birgðageymslukótum er munurinn ekki færður inn í raunbirgðabókina. Í staðinn skal nota endurflokkunarbók eða millifærslupöntun til að beina vörunum á rétta staði. Frekari upplýsingar, sjá Birgðafærslubók enduflokkunar eða Stofna Millifærslupantanir.
 
 2. Til að leiðrétta reiknað magn í raunverulegt talið magn skal velja aðgerðina **Bóka**.
 
@@ -169,10 +169,10 @@ Eftir að búið er að telja vöru á birgðasvæði er hægt að nota eiginlei
 
 Birgðir vörunnar hafa nú verið leiðréttar. Nýja magni er birt í reitnum **Núverandi birgðir** í glugganum **leiðrétta birgðir** og í reitnum **birgðir** í glugganum **vöruspjald**.
 
-Einnig er hægt að nota aðgerðina **Leiðrétta birgðir** sem einfalda leið til að staðsetja keypta vöru í birgðum ef þú ætlar ekki að nota gluggann innkaupareikningur til að skrá innkaupin. Nánari upplýsingar eru í [Hvernig á að: Skrá innkaup](purchasing-how-record-purchases.md).
+Einnig er hægt að nota aðgerðina **Leiðrétta birgðir** sem einfalda leið til að staðsetja keypta vöru í birgðum ef þú ætlar ekki að nota gluggann innkaupareikningur til að skrá innkaupin. Frekari upplýsingar eru í [Skrá innkaup](purchasing-how-record-purchases.md).
 
 > [!NOTE]  
->   Eftir að þú hefur leiðrétt birgðir þarftu að uppfæra þær með núverandi útreiknuðu virði. Frekari upplýsingar eru í [Hvernig á að: Endurmeta birgðir](inventory-how-revalue-inventory.md).
+>   Eftir að þú hefur leiðrétt birgðir þarftu að uppfæra þær með núverandi útreiknuðu virði. Nánari upplýsingar eru í [Endurmat birgða](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Leiðrétta birgðamagn margra vara í grunngerð vöruhúss
 Í glugganum **Birgðabók** er hægt að bóka birgðafærslu beint til að leiðrétta birgðaskrá í tengslum við innkaup, sölu og jákvæða eða neikvæða leiðréttingu án þess að nota fylgiskjöl.
@@ -184,7 +184,7 @@ Ef birgðabókin er oft notuð til að bóka sömu eða svipaðar færslubókarl
 3. Veljið aðgerðina **bóka** til að gera birgðaleiðréttingarnar.
 
 > [!NOTE]  
->   Eftir að þú hefur leiðrétt birgðir þarftu að uppfæra þær með núverandi útreiknuðu virði. Frekari upplýsingar eru í [Hvernig á að: Endurmeta birgðir](inventory-how-revalue-inventory.md).
+>   Eftir að þú hefur leiðrétt birgðir þarftu að uppfæra þær með núverandi útreiknuðu virði. Nánari upplýsingar eru í [Endurmat birgða](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Leiðrétta hólfamagn í grunngerð ítarlegs vöruhúss  
 Ef staðsetningin notar beinan frágang og tínsla er **Birgðabók vöruhúss** notuð, án samhengis við raunbirgðir, til að bóka allar jákvæðar og neikvæðar leiðréttingar á vörumagni sem vitað er að eru raunverulega viðbót, til dæmis vörur sem áður hafa verið bókaðar sem týndar en finnast óvænt, eða raunverulegur missir, t.d. ef viðkvæmar vörur brotna.  
@@ -211,7 +211,7 @@ Með vissu millibili, sem ræðst af reglum fyrirtækisins, þarf að bóka fær
 ## <a name="to-reclassify-an-items-lot-number"></a>Að endurflokka lotunúmer vöru
 Ef nauðsynlegt er að breyta eigindum fyrir birgðafærslur er hægt að nota endurflokkunarbók vöru. Dæmigerðar eigindir til að endurflokka innihalda víddir og söluherferðarkóða, en einnig er hægt að framkvæma „kerfisflutninga“ með því að endurflokka staðsetningu og hólfakóða.
 
-Sérstök skref eiga við þegar þú vilt endurflokka rað- eða lotunúmer og lokadag þeirra. Frekari upplýsingar, sjá [Hvernig á að: vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
+Sérstök skref eiga við þegar þú vilt endurflokka rað- eða lotunúmer og lokadag þeirra. Frekari upplýsingar, sjá [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
 
 Eftirfarandi dæmi byggist á staðsetningarkóði. Skrefin eru svipuð fyrir aðrar gerðir vörueiginda.
 
@@ -221,7 +221,7 @@ Eftirfarandi dæmi byggist á staðsetningarkóði. Skrefin eru svipuð fyrir a�
 4. Í reitnum **Nýr staðsetningarkóði** er fært inn nýr staðsetningarkóði vöru.
 5. Valið er **Bóka** aðgerðin.
 
-Nánari upplýsingar um flutning vara með fulla stjórn á magni sem sent er og móttekið eru í [Hvernig á að: Flytja birgðir milli staða](inventory-how-transfer-between-locations.md).
+Nánari upplýsingar um flutning vara með fulla stjórn á magni sem sent er og móttekið eru í [Flytja birgðir milli staða](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Birgða](inventory-manage-inventory.md)

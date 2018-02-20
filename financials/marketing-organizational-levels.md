@@ -13,13 +13,13 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d101076c8a51b1c7a79606d207f79a826c89bf29
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b6934b6ea4c07f6e3d90885dfa25d73e14bbb82
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Hvernig skal: Setja upp stjórnunarstig fyrir tengiliði
+# <a name="set-up-organizational-levels-for-contact-persons"></a>Setja upp stjórnunarstig fyrir tengiliði.
 Hægt er að úthluta stjórnunarstigum á tengiliði til að tilgreina hvaða stöðu þeir hafa innan fyrirtækis, til dæmis forstjóri. Þessar upplýsingar er hægt að nota þegar færðar eru inn upplýsingar um tengiliði.
 
 Notkun viðskiptatengsla á tengiliði er tveggja þrepa ferli. Fyrst að skilgreina viðskiptatengslakóðann. Aðeins þarf að framkvæma þetta skref í eitt skipti fyrir hver viðskiptatengsl. Þegar kominn er viðskiptatengslakóði er hægt að byrja að úthluta kóðanum til tengiliða.
@@ -38,7 +38,7 @@ Aðeins er hægt að úthluta stjórnunarstigum á einstaklinga, ekki á fyrirt�
 
 Þegar tengiliðum hefur verið úthlutað stjórnunarstigi er hægt að nota þær upplýsingar til að stofna hluta.
 
-Eftir að tengiliðum hefur verið úthlutað starfsábyrgðum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Sjá frekari upplýsingar hér [Hvernig á að bæta tengiliðum við hluta:](marketing-add-contact-segment.md)
+Eftir að tengiliðum hefur verið úthlutað starfsábyrgðum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Frekari upplýsingar eru í [Bæta tengiliðum við hluta](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Fyrirtækjatengiliðir stofnaðir](marketing-create-contact-companies.md)  

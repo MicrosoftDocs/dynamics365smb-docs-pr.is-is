@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ecb54ee063daa054c5503702fcc21c4dc111d99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db48432b54e0bd2c303816c8b06f0986f2352a59
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="putting-items-away"></a>Vörufrágangur
@@ -32,14 +32,14 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Bóka móttöku vöru beint frá pantanaskjali á innleið, og um leið skrá fráganginn, því engar vöruhúsaskilgreiningar eru fyrir hendir.|[Hvernig á að: Taka á við vörum](warehouse-how-receive-items.md)|  
-|Ganga frá vöru pöntun fyrir pöntun og bóka móttöku í sömu aðgerð, í einfaldri vöruhúsagrunnstillingu.|[Hvernig á að ganga frá vörum með birgðarfrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
-|Ganga frá vörum fyrir margar pantanir í ítarlegri vöruhúsagrunnstillingu.|[Hvernig á að ganga frá vörum með vöruhúsafrágangi](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
-|Ganga frá framleiðslu eða samsetningu vörur í einfaldri eða ítarlegri vöruhúsagrunnstillingu.|[Hvernig skal: Ganga frá framleiðslu eða samsetningarfrálagi](warehouse-how-to-put-away-production-output.md)|
-|Áætla leiðbeiningar um besta frágang fyrir margar bókaðar vöruhúsainnhreyfingar í stað þess að starfsmenn vöruhúss vinni beint með innhreyfingar.|[Hvernig á að áætla frágang á vinnublöðum](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
-|Skila aftur vörum sem voru tíndar í innanhússtínslu, til dæmis fyrir framleiðslupöntun sem notaði ekki væntanlegt magn.|[Hvernig skal: tína og ganga frá án upprunaskjals](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
-|Skipta frágangslínu til þess að setja hluta af frágangsmagninu í tiltækt hólf því merkta hólfið er orðið fullt.|[Hvernig á að skipta vöruhúsaaðgerðalínum](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Fá tafarlausan aðgang að frágangi sem notandi hefur fengið úthlutað sem starfsmaður vöruhúss.|[Hvernig á að finna vöruhúsaúthlutanir](warehouse-how-to-find-your-warehouse-assignments.md)|    
+|Bóka móttöku vöru beint frá pantanaskjali á innleið, og um leið skrá fráganginn, því engar vöruhúsaskilgreiningar eru fyrir hendir.|[Móttaka vara](warehouse-how-receive-items.md)|  
+|Ganga frá vöru pöntun fyrir pöntun og bóka móttöku í sömu aðgerð, í einfaldri vöruhúsagrunnstillingu.|[Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Ganga frá vörum fyrir margar pantanir í ítarlegri vöruhúsagrunnstillingu.|[Ganga frá vörum með vöruhúsafrágangi](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+|Ganga frá framleiðslu eða samsetningu vörur í einfaldri eða ítarlegri vöruhúsagrunnstillingu.|[Ganga frá framleiðslu eða samsetningarfrálagi](warehouse-how-to-put-away-production-output.md)|
+|Áætla leiðbeiningar um besta frágang fyrir margar bókaðar vöruhúsainnhreyfingar í stað þess að starfsmenn vöruhúss vinni beint með innhreyfingar.|[Áætla frágang á vinnublöðum](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
+|Skila aftur vörum sem voru tíndar í innanhússtínslu, til dæmis fyrir framleiðslupöntun sem notaði ekki væntanlegt magn.|[Tína og ganga frá án upprunaskjals](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Skipta frágangslínu til þess að setja hluta af frágangsmagninu í tiltækt hólf því merkta hólfið er orðið fullt.|[Skipta aðgerðalínum vöruhúss](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Fá tafarlausan aðgang að frágangi sem notandi hefur fengið úthlutað sem starfsmaður vöruhúss.|[Finna vöruhúsaúthlutanir](warehouse-how-to-find-your-warehouse-assignments.md)|    
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

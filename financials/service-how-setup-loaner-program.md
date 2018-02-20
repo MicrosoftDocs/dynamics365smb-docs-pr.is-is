@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f57c94523c4a907478dceae182446098cba31dd7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4d2927cb2bc02ecf2c8befde4dcdba141cb371f6
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-loaner-program"></a>Hvernig skal: Setja upp lánsbúnaðar
+# <a name="set-up-a-loaner-program"></a>Uppsetning lánsbúnaðarkerfis
 Stundum þarf að sjá viðskiptamönnum fyrir lánsbúnaði til notkunar meðan þjónustuhópurinn framkvæmir viðgerðir. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að setja upp lánsforrit, lána viðskiptamönnum vörur og rekja móttöku varanna til baka. Að auki getur bætt við athugasemd um lánsbúnaðinn á tvo vegu.  
   
 * Færa inn athugasemd um lánsbúnaðinn sjálfan.  
@@ -33,7 +33,7 @@ Stundum þarf að sjá viðskiptamönnum fyrir lánsbúnaði til notkunar meðan
 5. Í reitnum **Mælieiningarkóti** er viðeigandi mælieining valin.  
   
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig skal: Lána og taka á móti lánsbúnaði](service-how-to-lend-receive-loaners.md)  
+[Lána og taka á móti lánsbúnaði](service-how-to-lend-receive-loaners.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Þjónustuafhending](service-deliver-service.md)  
 

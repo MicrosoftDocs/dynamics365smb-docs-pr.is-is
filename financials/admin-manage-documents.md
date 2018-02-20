@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 10524be6bcfdc99672496b54903e4f04c33108ce
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 60438f0b6f0d5da60925b5b9c309cc359a8422e3
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="manage-documents"></a>Umsjón með skjölum
@@ -32,5 +32,5 @@ Standandi pöntunum er ekki eytt eftir að allar tengdar innkaupapantanir hafa v
 Forritið eyðir þjónustupöntun ekki sjálfkrafa ef heildarmagn pöntunarinnar hefur verið bókað í glugganum **Þjónustureikningur** en ekki í þjónustupöntuninni sjálfri. Þá þarf að eyða bókuðum pöntunum sem ekki var búið að eyða. Hægt er að gera það með því að nota keyrsluna **Eyða reikningsfærðum þjónustupöntunum**.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Uppsetning og stjórnun í Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Uppsetning og stjórnun í Finance and Operations, Business Edition](admin-setup-and-administration.md)  
 

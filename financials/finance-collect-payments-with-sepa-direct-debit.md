@@ -1,5 +1,5 @@
 ---
-title: "SEPA Beingreiðslur í Dynamics 365 | Microsoft Docs"
+title: "SEPA beingreiðsla í Finance and Operations, Business Edition | Microsoft Docs"
 description: "Hægt er að sækja greiðslur beint inn á bankareikninga viðskiptamanns samkvæmt SEPA-sniðinu."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 0447e6c9f84457589df5cbc1efaecb2de24e7295
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf07a08eebe8bfffc99f7351a96526452728552e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="collecting-payments-with-sepa-direct-debit"></a>Innheimta greiðslur með SEPA-beingreiðslum
@@ -35,10 +35,10 @@ Með samþykki viðskiptamanns er hægt að sækja greiðslur beint inn á banka
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Undirbúið bankareikningssnið, greiðsluaðferðir og samninga við viðskiptavini um SEPA-beingreiðslur.|[Hvernig á að: Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Gefið bankanum fyrirmæli um að flytja greiðsluupphæðir af bankareikningum viðskiptavina á bankareikninga fyrirtækisins í samræmi við uppsetningu SEPA-beingreiðslna.|[Hvernig á að: Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
-|Setjið upp staðalaða sölukóða viðskiptamann fyrir beingreiðslureikninga og stofnið sölureikninga með beingreiðsluupplýsingum þegar reikningarnir gjaldfalla.|[Hvernig á að: Stofna ítrekaðar sölu og innkaup](sales-how-work-standard-lines.md)|  
-|Bóka greiðslur búnar til sem SEPA-beingreiðslur|[Hvernig á að. Bóka SEPA-greiðslukvittanir beingreiðslna](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
+|Undirbúið bankareikningssnið, greiðsluaðferðir og samninga við viðskiptavini um SEPA-beingreiðslur.|[Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-direct-debit.md)|  
+|Gefið bankanum fyrirmæli um að flytja greiðsluupphæðir af bankareikningum viðskiptavina á bankareikninga fyrirtækisins í samræmi við uppsetningu SEPA-beingreiðslna.|[Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|Setjið upp staðalaða sölukóða viðskiptamann fyrir beingreiðslureikninga og stofnið sölureikninga með beingreiðsluupplýsingum þegar reikningarnir gjaldfalla.|[Stofna ítrekaðar sölu- og innkaupalínur](sales-how-work-standard-lines.md)|  
+|Bóka greiðslur búnar til sem SEPA-beingreiðslur|[Bóka SEPA-greiðslukvittanir beingreiðslna](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Stjórnun skulda](receivables-manage-receivables.md)

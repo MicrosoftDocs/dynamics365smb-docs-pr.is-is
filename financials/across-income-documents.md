@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8c15fded4b70ee0fce8ad43f90b915a33523fc77
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d38f1ed77ac3fac7c9283af6ea0f92479adbf89f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="incoming-documents"></a>Skjöl á innleið
@@ -41,7 +41,7 @@ Ferlið vegna skjal á innleið getur samanstaðið af eftirfarandi aðgerðir:
 
 | Til | Sjá |
 | --- | --- |
-| Setja upp valkostinn fyrir skjal á innleið og setja upp OCR-þjónustu. |[Hvernig á að: Setja upp skjöl á innleið](across-how-setup-income-documents.md) |
+| Setja upp valkostinn fyrir skjal á innleið og setja upp OCR-þjónustu. |[Setja upp skjöl á innleið](across-how-setup-income-documents.md) |
 | Stofna færslur fyrir skjöl á innleið, festa skrár sem viðhengi, nota OCR til að breyta PDF í rafræn skjöl, breyta rafræn skjöl í færslur fyrir skjöl, endurskoða bókaðar sölur og innkaupaskjöl í færslum skjala á innleið. |[Vinnsla skjala á innleið](across-process-income-documents.md) |
 
 ## <a name="see-also"></a>Sjá einnig

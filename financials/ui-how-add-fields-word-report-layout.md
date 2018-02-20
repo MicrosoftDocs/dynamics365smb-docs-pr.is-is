@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fbbddea07a39b6f725c04971466c33ca9252019e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 77f377d6858294aeb54e30fcb178fc9757ac3938
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-fields-to-a-word-report-layout"></a>Hvernig á að bæta reitum við Word-skýrsluútlit
+# <a name="add-fields-to-a-word-report-layout"></a>Bæta reitum við Word-skýrsluútlit
 Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndir. Þetta efnisatriði lýsir ferlinu við að bæta reitum í gagnasafni skýrslu við fyrirliggjandi Word-skýrsluútlit fyrir skýrslu. Reitum er bætt við með því að nota Word sérsniðinn XML-hluta fyrir skýrsluna og bæta við efnisstjórnun sem varpar í reiti gagnamengis skýrslunnar. Bæting reita þarfnast einhverrar þekkingar á gagnamengi skýrslunnar þannig að hægt er að bera kennsl á reitina sem á að bæta við útlitið.  
   
 > [!NOTE]  
@@ -29,15 +29,15 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
   
 1.  Ef það er ekki þegar opið skal opna Word-sniðmátsskjal fyrir skýrslu í Word.  
   
-     Nánari upplýsingar er að finna í [Hvernig á að: Búa til og breyta sérsniðið skýrsluútlit](ui-how-create-custom-report-layout.md).  
+     Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md).  
   
 2.  Sýna flipann **Hönnuður** á borða Microsoft Word.  
   
-     Sjálfgefið er að **Hönnuður** er ekki sýnilegur í borðanum. Nánari upplýsingar eru í [Hvernig á að sýna flipann Developer á borðanum](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     Sjálfgefið er að **Hönnuður** er ekki sýnilegur í borðanum. Frekari upplýsingar eru í [Sýna flipann Hönnuður á borðanum](http://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Á flipanum **Developer** skal velja **XML-vörpunarsvæði**.  
   
-4.  Á svæðinu **XML-vörpun**, á fellilistanum **Sérsniðinn XML-hluti** velurðu sérsniðinn XML-hluta fyrir ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->-skýrslu, sem er vanalega síðast á listanum. Heiti sérstillta XML-hlutans er á eftirfarandi sniði:  
+4.  Á svæðinu **XML-vörpun**, á fellilistanum **Sérsniðinn XML-hluti** velurðu sérsniðinn XML-hluta fyrir ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->-skýrslu, sem er vanalega síðast á listanum. Heiti sérstillta XML-hlutans er á eftirfarandi sniði:  
   
      urn:microsoft-dynamics-nav/reports/*skýrslu_heiti*/*/Kenni*  
   
@@ -80,7 +80,7 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
  Myndir birtast efst í hægra horni efnisstýringar og laga stærð sína sjálfvirkt þannig að þær passi við mörk efnisstjórnunar.  
   
 > [!IMPORTANT]  
->  Aðeins er hægt að bæta við myndum á sniði sem Word styður, t.d. .bmp, .jpeg, og .png skráargerðir. Ef þú bætir við mynd á sniði sem Word styður ekki færðu villu þegar þú keyrir skýrsluna úr ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]--> biðlaranum.  
+>  Aðeins er hægt að bæta við myndum á sniði sem Word styður, t.d. .bmp, .jpeg, og .png skráargerðir. Ef þú bætir við mynd á sniði sem Word styður ekki færðu villu þegar þú keyrir skýrsluna úr ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> biðlaranum.  
   
 #### <a name="to-add-an-image"></a>Til að bæta við mynd  
   
@@ -107,7 +107,7 @@ Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Lokar atriði.|  
   
 ### <a name="custom-xml-part-in-word"></a>Sérsniðinn XML-hluti í Word  
- Í Word opnarðu sérsniðinn XML-hluta á svæðinu **XML-vörpun** og notar svo svæðið til að varpa einingum í efnisstjórnun í Word-skjalinu. Svæðið **XML-vörpun** er aðgengilegt úr flipanum **Hönnuður** (nánari upplýsingar er að finna í [Hvernig á sýna flipann Hönnuður á borðanum](http://go.microsoft.com/fwlink/?LinkID=389631)).  
+ Í Word opnarðu sérsniðinn XML-hluta á svæðinu **XML-vörpun** og notar svo svæðið til að varpa einingum í efnisstjórnun í Word-skjalinu. Svæðið **XML-vörpun** er aðgengilegt úr flipanum **Hönnuður** (nánari upplýsingar er að finna í [Sýna flipann Hönnuður á borðanum](http://go.microsoft.com/fwlink/?LinkID=389631)).  
   
  Einingarnar í **XML vörpun** svæðinu birtast með uppsetningu sem svipar til XML upprunans. Merkimiðareitir eru flokkaðir saman undir sameiginlegri einingu í **Merkimiðar** og gagnaatriðum og dálkum er raðað í stigveldisskipan sem samsvarar XML-upprunanum, með dálkar í stafrófsröð. Einingar eru auðkenndar af heiti sínu eins og það er skilgreint í eiginleikanum Heiti í innbyggða skýrsluhönnuðinum í ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
@@ -124,4 +124,4 @@ Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.
 -   Tungumál merkisins sem birtist þegar skýrslan er keyrð fer eftir tungumálsstillingu skýrsluhlutarins. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
   
 ## <a name="see-also"></a>Sjá einnig  
- [Hvernig á að: Búa til og breyta sérsniðið skýrsluútlit](ui-how-create-custom-report-layout.md).   
+ [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md)   

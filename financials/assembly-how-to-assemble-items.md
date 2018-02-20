@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e1f2cc5bd276fbd5fe1417df56f57dd8454e18e2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ac1f46c7b7f3035c2cfc711671d659a18871bda
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-assemble-items"></a>Hvernig á að sameina vörur
+# <a name="assemble-items"></a>Sameina vörur
 Ef reiturinn **Áfyllingarkerfi** á birgðaspjaldinu inniheldur **Samsetning** er sjálfgefin afhendingaraðferð vörunnar að setja hana saman úr skilgreindum íhlutum og mögulega með skilgreindum forða.  
 
-Íhluti og forð sem fara í þess háttar samsetningarvörur verður að skilgreina í samsetningaruppskrift. Nánari upplýsingar er að finna í [Hvernig á að: Vinna með uppskrift.](inventory-how-work-BOMs.md)  
+Íhluti og forð sem fara í þess háttar samsetningarvörur verður að skilgreina í samsetningaruppskrift. Nánari upplýsingar er að finna í [Vinna með uppskrift.](inventory-how-work-BOMs.md)  
 
 Samsetningarvörur er hægt að setja upp fyrir tvo mismunandi samsetningarferla:  
 
@@ -31,14 +31,14 @@ Samsetningarvörur er hægt að setja upp fyrir tvo mismunandi samsetningarferla
 
 Yfirleitt er **Setja saman í birgðir** notað fyrir vörur sem á að setja saman á undan sölu, s.s. þegar söluherferð fyrir sett er undirbúin og þau geymd í birgðum áður en þær eru pantaðar. Þessar vörur eru yfirleitt staðlaðar vörur eins og innpökkuð sett sem þú býður ekki upp á að séu sérsniðin eftir beiðni viðskiptavina.  
 
-Yfirleitt er **Setja saman í pöntun** notað fyrir vörur sem ekki á að setja í birgðir þar sem búist er við að þær verði sérsniðnar að þörfum viðskiptavinar eða vegna þess að lágmarka á birgðakostnað sem því að veita þær rétt í tíma. Frekari upplýsingar, sjá [Hvernig skal: Selja vörur sem eru settar saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
+Yfirleitt er **Setja saman í pöntun** notað fyrir vörur sem ekki á að setja í birgðir þar sem búist er við að þær verði sérsniðnar að þörfum viðskiptavinar eða vegna þess að lágmarka á birgðakostnað sem því að veita þær rétt í tíma. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
 
 Frekari upplýsingar um hvernig samsetningaríhlutur er settur upp eru í [Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-Þessir uppsetningarvalkostir eru sjálfgefnar stillingar sem stjórna hvernig sölu- og samsetningarpöntunarlínurnar eru upphaflega unnar. Hægt er að fara úr þessum sjálfgildum og afhenda samsetningaríhlut á sem hagkvæmastan hátt þegar sala er í vinnslu. Frekari upplýsingar, sjá [Hvernig skal: Selja birgðavörur sem eru settar saman í pöntun flæði](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).og [Hvernig skal: selja saman vörur og birgðavörur sem eru settar saman í pöntun](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+Þessir uppsetningarvalkostir eru sjálfgefnar stillingar sem stjórna hvernig sölu- og samsetningarpöntunarlínurnar eru upphaflega unnar. Hægt er að fara úr þessum sjálfgildum og afhenda samsetningaríhlut á sem hagkvæmastan hátt þegar sala er í vinnslu. Frekari upplýsingar, sjá [Selja birgðavörur sem eru settar saman í pöntun flæði](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).og [Selja saman vörur og birgðavörur sem eru settar saman í pöntun](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Samsetningaríhlutir eru meðhöndlaðir á sérstakan hátt í grunnskilgreiningum vöruhúss. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Hvernig skal: Tína vörur með Birgðatínsla](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Samsetningaríhlutir eru meðhöndlaðir á sérstakan hátt í grunnskilgreiningum vöruhúss. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Tína vörur með Birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).   
 
 Í þessu ferli er stofnuð og unnið úr samsetningarpöntun fyrir vörur sem eru settar saman í birgðir, sem þýðir án. tengdrar sölupöntunar. Skrefin eru meðal annars að hefja framleiðslupöntunina, meðhöndla möguleg ráðstöfunarvandamál íhluta og bóka samsetningarvörufrálag að hluta.
 
@@ -50,7 +50,7 @@ Frekari upplýsingar um hvernig samsetningaríhlutur er settur upp eru í [Skilj
 5.  Í reitnum **Magn** er fært inn hversu margar einingar vörunnar setja á saman.  
 
     > [!NOTE]  
-    >  Ef einn eða fleiri íhlutir geta ekki uppfyllt skráð magn samsetningarvöru fyrir tilgreindan skiladag mun glugginn **Samsetning tiltæk** opnast sjálfkrafa og veita nákvæmar upplýsingar um hversu margar samsetningarvörur er hægt að setja saman miðað við íhluti til ráðstöfunar. Frekari upplýsingar, sjá [Hvernig skal: Skoða tiltækileika vöru](inventory-how-availability-overview.md).  Þegar glugganum er lokað, er samsetningarpöntun stofnuð ráðstöfunarviðvaranir í íhlutalínum sem fyrir áhrifum verða.  
+    >  Ef einn eða fleiri íhlutir geta ekki uppfyllt skráð magn samsetningarvöru fyrir tilgreindan skiladag mun glugginn **Samsetning tiltæk** opnast sjálfkrafa og veita nákvæmar upplýsingar um hversu margar samsetningarvörur er hægt að setja saman miðað við íhluti til ráðstöfunar. Frekari upplýsingar, sjá [Skoða tiltækileika vöru](inventory-how-availability-overview.md).  Þegar glugganum er lokað, er samsetningarpöntun stofnuð ráðstöfunarviðvaranir í íhlutalínum sem fyrir áhrifum verða.  
 
     Samsetningarpöntunarlínurnar eru sjálfkrafa fylltar út með innihaldi samsetningaruppskriftar og með línumagni samkvæmt haus samsetningarpöntunarinnar.  
 
@@ -71,7 +71,7 @@ Eftir að bókun tekst, er samsetningarvaran bókuð sem frálag birgðageymsluk
 
 ## <a name="see-also"></a>Sjá einnig
 [Samsetningardeild](assembly-assemble-items.md)  
-[Hvernig á að: Vinna með uppskriftir](inventory-how-work-BOMs.md)  
+[Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

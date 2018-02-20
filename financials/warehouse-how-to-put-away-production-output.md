@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9555f2810e82711c9cac98cfe002cb99289ce474
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 38a37195932d1f00928c10e86fa19425eb228f5f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-away-production-or-assembly-output"></a>Hvernig skal: Ganga frá framleiðslu eða samsetningarfrálagi
+# <a name="put-away-production-or-assembly-output"></a>Ganga frá framleiðslu eða samsetningarfrálagi
 Hvernig gengið er frá frálagi úr framleiðslu fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).  
 
 Í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki móttökuvinnslu er skjalið **Birgðafrágangur** notað til að skipuleggja og skrá frágang á frálagi.  
@@ -33,16 +33,16 @@ Fyrsti áfanginn í stofnun birgðafrágangs er að stofna innleiðarbeiðni í 
 2.  Í framleiðslupöntuninni sem er tilbúin til frágangs, skal velja aðgerðina **Stofna vöruh.beiðni á innleið**.  
 
 > [!NOTE]  
->  Einnig er hægt að stofna á vöruhúsabeiðni á innleið með því að gátreitinn **Stofna beiðni á innleið** þegar framleiðslupöntun er endurnýjuð. Frekari upplýsingar, sjá [Hvernig skal: Uppfæra eða enduráætla framleiðslupantanir](production-how-to-replan-refresh-production-orders.md).  
+>  Einnig er hægt að stofna á vöruhúsabeiðni á innleið með því að gátreitinn **Stofna beiðni á innleið** þegar framleiðslupöntun er endurnýjuð. Frekari upplýsingar, sjá [Uppfæra eða enduráætla framleiðslupantanir](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Gengið frá frálagi með Birgðafrágangi  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðafrágangur** og velja svo viðeigandi tengil.  
-2.  Nýr birgðafrágangur er stofnaður. Nánari upplýsingar eru í [Hvernig skal: Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
+2.  Nýr birgðafrágangur er stofnaður. Nánari upplýsingar eru í [Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Til að komast í íhluti framleiðslupöntunarinnar, veldu aðgerðina **Sækja upprunaskjöl** og síðan er útgefna framleiðslupöntunin valin.  
 4.  Frágangslínurnar eru fylltar út.
 5.  Þegar línurnar eru tilbúnar til bókunar er smellt á aðgerðina **Bóka**. Bókunin stofnar nauðsynlegar vöruhúsafærslur og bókar frálag varanna.  
 
-Einnig er hægt að stofna **Birgðafrágang** beint úr útgefnu framleiðslupöntuninni. Nánari upplýsingar eru í [Hvernig skal: Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
+Einnig er hægt að stofna **Birgðafrágang** beint úr útgefnu framleiðslupöntuninni. Nánari upplýsingar eru í [Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 Þegar birgðafrágangur er bókaður er gert ráð fyrir að allar aðgerðir séu bókaðar í samræmi við staðlaðar leiðir, það er, frálagsmagn er bókað í samræmi við síðustu aðgerð. Hægt er að nota frálagsbók til þess að bóka frávik í frálagsmagni og uppsetningar- og keyrslutíma. Ef nauðsynlegt er að gera hlutabókun þegar búið er að stofna birgðafrágang er hægt að gera það fyrir uppsetningartíma og magn fyrir allar aðgerðir, nema þá síðustu. Í því tilviki er síðustu aðgerð stýrt af birgðafrágangi.  
 

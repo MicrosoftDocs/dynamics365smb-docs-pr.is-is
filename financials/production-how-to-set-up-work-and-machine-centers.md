@@ -1,6 +1,6 @@
 ---
 title: "Hvernig á að setja upp vinnu- og vélastöðvar | Microsoft Docs"
-description: "**Vinnustöðvar** spjald skipuleggur föst gildi og skilyrði viðkomandi framleiðsluforða og stjórnar þannig afköstum framleiðslu þeirrar vinnustöðvar."
+description: "**Vinnustöðvarspjald** skipuleggur föst gildi og þarfir viðkomandi framleiðsluforða og stjórnar þannig afköstum framleiðslu þeirrar vinnustöðvar."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-centers-and-machine-centers"></a>Hvernig á að: setja upp vinnu- og vélastöðvar
+# <a name="set-up-work-centers-and-machine-centers"></a>Setja upp vinnu- og vélastöðvar
 Kerfið greinir á milli þrennskonar afkastagetu: Henni er raðað eftir stigveldi: Á hverju stigi eru undirstig.  
 
 Efsta stigið er vinnustöðvarflokkurinn. Vinnustöðvum er úthlutað á vinnustöðvaflokkana. Hver vinnustöð getur aðeins tilheyrt einum vinnustöðvarflokki.
@@ -28,7 +28,7 @@ Hægt er að úthluta ýmsum vélastöðvum á hverja vinnustöð. Aðeins ein v
 
 Áætluð afkastageta vinnustöðvarinnar samanstendur af tiltækileika samsvarandi vélastöðva og áætlaðrar aukaafkastagetu vinnustöðvarinnar. Áætlaður tiltækileiki vinnustöðvarflokksins er því samtala alls samsvarandi tiltækileika véla- og vinnustöðva.  
 
-Það sem er til ráðstöfunar er geymt í dagatalsfærslum. Áður en þú setur upp vinnu- eða vélastöðvar, þarftu að setja upp dagatal verkstæðis. Nánari upplýsingar eru í [Hvernig á að: Búa til dagatal verkstæðis](production-how-to-create-work-center-calendars.md).  
+Það sem er til ráðstöfunar er geymt í dagatalsfærslum. Áður en þú setur upp vinnu- eða vélastöðvar, þarftu að setja upp dagatal verkstæðis. Nánari upplýsingar eru í [Búa til dagatal verkstæðis](production-how-to-create-work-center-calendars.md).  
 
 ## <a name="to-set-up-a-work-center"></a>Vinnustöð sett upp
 Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skrefin í uppsetningu dagatals vélastöðva eru svipuð, fyrir utan flýtiflipann **Uppsetning leiða**.  
@@ -37,7 +37,7 @@ Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skref
 2.  Valið er **Nýtt** aðgerð.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Í reitnum **Vinnustöðvarhópur** skal velja efra-stigs forðaflokkun sem vinnustöðin er flokkuð undir, ef það á við. Valið er **Nýtt** aðgerðin í felllilistanum.  
-5.  Veljið reitinn **Lokaður** til að koma í veg fyrir að vinnustöðin verði notuð í vinnslu. Þetta þýðir að frálag er ekki hægt að bóka fyrir vörur sem er framleidd í vinnustöðinni. Nánari upplýsingar, sjá [Hvernig á að: Bóka framleiðslufrálag](production-how-to-post-output-quantity.md).
+5.  Veljið reitinn **Lokaður** til að koma í veg fyrir að vinnustöðin verði notuð í vinnslu. Þetta þýðir að frálag er ekki hægt að bóka fyrir vörur sem er framleidd í vinnustöðinni. Frekari upplýsingar eru í [Bóka framleiðslufrálag](production-how-to-post-output-quantity.md).
 6.  Í reitinn **Innk.verð** er færður inn kostnaður við að framleiða eina mælieiningu í þessari vinnustöð, án annarra kostnaðarliða. Þessi kostnaður er oft kallaður *beinn vinnutaxti*.  
 7.  Í reitinn **Óbein kostnaðar%** er færður inn almennur aðgerðakostnaður við notkun vinnustöðvarinnar sem hlutfall af Innkaupsverði. Þessari hlutfallslegu upphæð er bætt við beinan kostnað í útreikningum á kostnaðarverði.  
 8.  Í reitinn **Hlutf. sameiginl. kostn.** er færður inn kostnaður vegna vinnustöðvar sem ekki kemur aðgerðum beint við, s.s. viðhaldskostnað, sem algilda tölu.  
@@ -68,7 +68,7 @@ Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skref
 13.  Í reitnum **Geta** er tilgreint hvort vinnustöð er með fleiri en einn einstakling við vinnu og eina vél í vinnslu á sama tíma. Ef uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur ekki Vélastöðvaraðgerð verður gildið í þessum reit að vera **1**.  
 14.  Í reitinn **Skilvirkni** er fært inn hlutfall áætlaðra staðlaðra afkasta sem þessi vinnustöð afkastar í raun. Ef fært er inn **100** þýðir það að raunveruleg afköst vinnustöðvarinnar eru þau sömu og staðlaða afkastagetan.  
 15. Velja skal **Sameinað dagatal** gátreitinn ef þú ert líka að nota vélstöðvar. Þetta tryggir að dagatalsfærslur verði settar saman frá vélastöðva dagatölum.  
-16.  Í reitnum **Dagatalskóti verkstæðis** veljið dagatal verkstæðis. Nánari upplýsingar eru í [Hvernig á að: Búa til dagatal verkstæðis](production-how-to-create-work-center-calendars.md).  
+16.  Í reitnum **Dagatalskóti verkstæðis** veljið dagatal verkstæðis. Nánari upplýsingar eru í [Búa til dagatal verkstæðis](production-how-to-create-work-center-calendars.md).  
 17.  Í reitnum **Biðraðartími** er tilgreindur fastur tími sem þarf að líða áður en úthlutað verk er hafið á þessari vinnustöð. Hafa ber í huga að Biðraðartíma er bætt við önnur framleiðnilaus tímabil s.s. Biðtíma og Flutningstíma sem kunna að vera skilgreind á leiðarlínum sem nota þessa vinnustöð.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Dæmi - Mismunandi vélastöðvum úthlutað á vinnustöð
@@ -83,7 +83,7 @@ Ef ekki á að taka með afkastagetu vinnustöðva í heildarafkastagetunni má 
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Vinnu- eða vélastöð með takmarkaða afkastagetu sett upp
 Setja þarf upp framleiðsluforða sem talinn er mikilvægur og merkja hann þannig að hann samþykki takmarkað álag í staðinn fyrir sjálfgefið, ótakmarkað álag sem annar framleiðsluforði samþykkir. Tilfang með takmarkaða afkastagetu getur verið vinnu- eða vélastöð sem þú hefur greint sem flöskuháls og vilt setja takmarkað álag á.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki sundurliðaða vinnusalsstýringu. Hún áætlar gerlega nýtingu tilfanga með því að leggja fram grófa áætlun en stofnar ekki og viðheldur sjálfkrafa ítarlegum áætlunum, byggðum á reglum um forgangsröðun eða bestun.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  styður ekki sundurliðaða vinnusalsstýringu. Hún áætlar gerlega nýtingu tilfanga með því að leggja fram grófa áætlun en stofnar ekki og viðheldur sjálfkrafa ítarlegum áætlunum, byggðum á reglum um forgangsröðun eða bestun.
 
 Í glugganum **Tilföng með takmarkaða afkastagetu**, geturðu búið til uppsetning sem forðast yfirálag á tilgreind tilföng og tryggir að engin afkastageta sé án úthlutunar ef úthlutun á henni gæti aukið viðdvalartíma framleiðslupöntunar. Í reitnum **Hömlur (% af heildar afkastagetu)** má bæta við hömlutíma á tilföng til að draga úr skiptingu aðgerðar. Þetta gerir kerfinu kleift að áætla hleðslu á síðasta mögulega dag með því auka álagsprósentuna lítillega ef það er hægt að minnka fjölda virkni sem er skipt.
 
@@ -99,7 +99,7 @@ Við áætlum á tilföngum með takmarkaða getu tryggir kerfið að engin tilf
 > Í tilviki uppskiptingar starfssemi er uppsetningartíma aðeins  úthlutað einu sinni vegna þess að það er gert ráð fyrir að sumir handvirk jöfnun sé gerð til að hámarka áætlun.
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: stofna Dagatal verkstæðis](production-how-to-create-work-center-calendars.md)  
+[Stofna dagatal verkstæðis](production-how-to-create-work-center-calendars.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)    
 [Áætlun](production-planning.md)   

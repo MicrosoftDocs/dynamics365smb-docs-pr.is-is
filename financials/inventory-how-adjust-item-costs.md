@@ -13,13 +13,13 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 988a13b7e558a50fdf41c4ba97b9fa09ed04828a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c2a6f5a214662dd5255d075a623b2039e5392e3d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-adjust-item-costs"></a>Hvernig á að: Leiðrétta birgðakostnað
+# <a name="adjust-item-costs"></a>Leiðr. kostnað vara
 Kostnaðarverð vöru (birgðavirði) sem er keypt og seld síðar getur breyst á líftímanum, til dæmis vegna þess að kostnað við frakt er bætt við innkaupakostnaðinn þegar varan hefur verið seld. Kostnaðaraðlögun er sérstaklega viðeigandi í aðstæðum þar sem þú selur vörur áður en þú reiknar kaupin á þeim vörum. Til þess að vita alltaf rétt birgðavirði verður því að leiðrétta kostnaðarverð vöru reglubundið. Þetta tryggir að sölu- og hagnaðartölur séu réttar og afkastavísar (KPI) fjárhags séu réttir. Nánari upplýsingar, sjá [Upplýsingar um hönnun: Kostnaðarleiðrétting](design-details-cost-adjustment.md)
 
 Sem regla er gildið í reitnum **Unit Cost** á birgðaspjaldinu byggt á stöðluðu kostnaðarverði vöru og staðlaðri aðferð við kostnaðarútreikning. Fyrir vörur með öllum öðrum aðferðum við kostnaðarútreikning er þetta byggt á útreikningi á fáanlegum birgðum (reikningsfærður kostnaður og væntanlegur kostnaður) deilt með tiltæku magni. Sjá „Skilja útreikning kostnaðarverðs“ fyrir frekari upplýsingar.
@@ -28,7 +28,7 @@ Sem regla er gildið í reitnum **Unit Cost** á birgðaspjaldinu byggt á stö�
 
 Þú getur einnig notað aðgerð til að breyta kostnaði við einn eða fleiri hluti handvirkt. Þetta er gagnlegt, til dæmis þegar þú veist að kostnaður hlutar hefur breyst af öðrum ástæðum en vörufærslu.
 
-Kostnaðarverð er leiðrétt með FIFO eða Meðalkostnaðaraðferð, það fer eftir vali þínu í **Uppsetning fyrirtækis** í uppsetning með aðstoð eða í reitnum **Aðferð kostnaðarútreiknings** á vöruspjaldinu. Nánari upplýsingar eru í [Hvernig á að: Skrá nýjar vörur](inventory-how-register-new-items.md).  
+Kostnaðarverð er leiðrétt með FIFO eða Meðalkostnaðaraðferð, það fer eftir vali þínu í **Uppsetning fyrirtækis** í uppsetning með aðstoð eða í reitnum **Aðferð kostnaðarútreiknings** á vöruspjaldinu. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).  
 
 Ef þú notar FIFO kostnaðaraðferð, þá er einingarverð vöru raunvirði sérhverrar innhreyfingar vörunnar. Fyrir verðmat birgða, er gert ráð fyrir að vörur sem settar voru fyrst í birgðir seljist fyrst.
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7ce4b45d740e50bba8256e72fcf43c70ea85922c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 58c243000bea5b70666b2a08cdd5696444e22f0f
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa
@@ -158,14 +158,14 @@ Nú hefur þú sett upp og prófa einfalt samþykktarverkflæðis samkvæmt fyrs
 
 Almenna útgáfan af [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur númer sniðmáts verkflæðis fyrir dæmi sem eru studd af forritskóðanum. Megnið af þeim eru fyrir samþykkisverkflæði. Frekari upplýsingar eru í Verkflæðivinnublaði.  
 
-Þú skilgreinir útfærslur af verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Nánari upplýsingar eru í [Hvernig á að: Stofna verkflæði](across-how-to-create-workflows.md).  
+Þú skilgreinir útfærslur af verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Frekari upplýsingar eru í [Búa til verkflæði](across-how-to-create-workflows.md).  
 
 Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki eru studd verður Microsoft-samstarfsaðili að virkja þau með því að sérstilla forritakóðann. Nánari upplýsingar er að finna í [Sýnikennsla: Innleiðing nýrra verkflæðistilvika og svara](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) í þróunar- og IT-pro hjálp.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: Setja upp notendur sem samþykkjendur](across-how-to-set-up-approval-users.md)   
+[Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)   
 [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)   
-[Hvernig á að: Búa til verkflæði](across-how-to-create-workflows.md)   
-[Hvernig á að: Nota samþykktarverkflæði](across-how-use-approval-workflows.md)   
+[Búa til verkflæði](across-how-to-create-workflows.md)   
+[Nota Samþykktarverkflæði](across-how-use-approval-workflows.md)   
 [Verkflæði](across-workflow.md)
 

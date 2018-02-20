@@ -1,5 +1,5 @@
 ---
-title: "Viðskiptavirkni studd af Dynamics 365 Business, edition | Microsoft Docs"
+title: "Viðskiptavirkni studd af Finance and Operations, Business Edition | Microsoft Docs"
 Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
@@ -13,16 +13,16 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 3b68f53f2ca2f1553b0d19a617ae58b25f29acdb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d764a759095e6cdf4e1157bc7b1f850800de3217
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="business-functionality"></a>Viðskiptavirkni
-[!INCLUDE[d365fin](includes/d365fin_md.md)] veitir virkni fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega með heildsölu og sérþjónustu. Hins vegar eru flóknari ferli, s.s. samsetning, framleiðsla, þjónusta og beint vöruhúsakerfi einnig studd. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  veitir virkni fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega með heildsölu og sérþjónustu. Hins vegar eru flóknari ferli, s.s. samsetning, framleiðsla, þjónusta og beint vöruhúsakerfi einnig studd. 
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] felur í sér staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Frá heimasíðunni þinni er hægt að fá aðgang að hjálpargögnum um leiðsögn sem hjálpar þér að stilla ákveðnar aðstæður og bæta við eiginleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nokkur svið viðskiptavirkni verður að setja upp handvirkt. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  felur í sér staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Frá heimasíðunni þinni er hægt að fá aðgang að hjálpargögnum um leiðsögn sem hjálpar þér að stilla ákveðnar aðstæður og bæta við eiginleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nokkur svið viðskiptavirkni verður að setja upp handvirkt. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 

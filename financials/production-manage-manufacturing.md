@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: e27ceb91b25669a31d95256385cb7e5acd9160bd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8fa54f5a4c5d2341485c0ebd290c7c683d37df9b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="manufacturing"></a>Framleiðsla
@@ -33,14 +33,14 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |**Til að**|**Sjá**|  
 |------------|-------------|  
 |Skilja hvernig framleiðsla gengur fyrir sig.|[Um framleiðslupantanir](production-about-production-orders.md)|
-|Stofnun framleiðslupantana handvirkt|[Hvernig á að: stofna framleiðslupantanir](production-how-to-create-production-orders.md)|
-|Útvista öllum eða völdum aðgerðum í framleiðslupöntun til undirverktaka.|[Hvernig á að: Fela undirverktaka framleiðslu](production-how-to-subcontract-manufacturing.md)|
-|Skrá og bóka frálag framleiðslu ásamt efnis- og tímanotkun fyrir eina útgefna framleiðslupöntunarlínu.|[Hvernig á að: Bóka notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu](production-how-to-register-consumption-and-output.md)|  
-|Fjöldabóka magn íhluta notað á aðgerð, í færslubók sem getur unnið fjölda áætlaðra framleiðslupantana.|[Hvernig á að: fjöldabóka notkun](production-how-to-post-consumption.md)|
-|Bóka magn tilbúinna vara og tíma eytt á aðgerð, í færslubók sem getur unnið fjölda útgefinna framleiðslupantana.|[Hvernig á að: fjöldabóka frálag og keyrslutíma](production-how-to-post-output-quantity.md)|  
-|Bóka fjölda vara sem framleiddar eru í hverri lokinni aðgerð sem ekki teljast til tilbúinnar vöru heldur sem úrkast.|[Hvernig á að: bóka úrkast](production-how-to-post-scrap.md)|
-|Skoða álag á vinnusal sem afleiðingu útgefinna og afgreiddra framleiðslupantana.|[Hvernig á að: skoða álag á vinnu- og vélastöðvar](production-how-to-view-the-load-on-work-centers.md)|      
-|Nota gluggann **Afkastagetubók** til að bóka notaða afkastagetu sem ekki er úthlutað á framleiðslupöntun, líkt og viðhaldsvinna.|[Hvernig á að bóka afkastagetu](production-how-to-post-capacities.md)|  
+|Stofnun framleiðslupantana handvirkt|[Stofnun framleiðslupantana](production-how-to-create-production-orders.md)|
+|Útvista öllum eða völdum aðgerðum í framleiðslupöntun til undirverktaka.|[Úthýsa framleiðslu til undirverktaka](production-how-to-subcontract-manufacturing.md)|
+|Skrá og bóka frálag framleiðslu ásamt efnis- og tímanotkun fyrir eina útgefna framleiðslupöntunarlínu.|[Bóka notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu](production-how-to-register-consumption-and-output.md)|  
+|Fjöldabóka magn íhluta notað á aðgerð, í færslubók sem getur unnið fjölda áætlaðra framleiðslupantana.|[Fjöldabóka notkun](production-how-to-post-consumption.md)|
+|Bóka magn tilbúinna vara og tíma eytt á aðgerð, í færslubók sem getur unnið fjölda útgefinna framleiðslupantana.|[Fjöldabóka frálag og keyrslutíma](production-how-to-post-output-quantity.md)|  
+|Bóka fjölda vara sem framleiddar eru í hverri lokinni aðgerð sem ekki teljast til tilbúinnar vöru heldur sem úrkast.|[Bóka úrkast](production-how-to-post-scrap.md)|
+|Skoða álag á vinnusal sem afleiðingu útgefinna og afgreiddra framleiðslupantana.|[Skoða álag á vinnu- og vélastöðvar](production-how-to-view-the-load-on-work-centers.md)|      
+|Nota gluggann **Afkastagetubók** til að bóka notaða afkastagetu sem ekki er úthlutað á framleiðslupöntun, líkt og viðhaldsvinna.|[Bóka afkastagetu](production-how-to-post-capacities.md)|  
 |Reikna út og jafna kostnað við tilbúnar framleiðsluvörur og íhluti sem notaðir voru til afstemmingar.|[Um lokinn framleiðslupantanakostnað](finance-about-finished-production-order-costs.md)|  
 
 ## <a name="see-also"></a>Sjá einnig  
@@ -49,4 +49,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

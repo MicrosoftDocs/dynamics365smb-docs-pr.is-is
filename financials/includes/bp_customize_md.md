@@ -1,1 +1,1 @@
-Hægt er að breyta því hvernig tilteknar viðmótseiningar birtast. Nánari upplýsingar er að finna í [Sérstillingar notanda](../ui-user-personalization.md).
+Hægt er að breyta því hvernig tilteknar viðmótseiningar birtast. Frekari upplýsingar eru í [Sérstilling vinnusvæðisins þíns](../ui-personalization-user.md).

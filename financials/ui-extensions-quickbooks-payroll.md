@@ -13,16 +13,16 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c826ab2f82b2fb0d53339690a2da4978d79ab643
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b87eaa6bfe53f7b6e119006df9254876f4117a9
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-quickbooks-payroll-file-import-extension-to-dynamics-365-business-edition"></a>Quickbooks-viðbótin fyrir innflutning á launaskrá í Dynamics 365 Business edition 
+# <a name="the-quickbooks-payroll-file-import-extension-to-finance-and-operations-business-edition"></a>Quickbooks-viðbótin fyrir innflutning á launaskrá í Finance and Operations, Business Edition 
 Fyrir launagreiðslur og tengdar færslur verður að flytja inn og birta fjárhagslegar færslur úr launaveitu í fjárhag.
 
-Fyrir þetta þarf fyrst að flytja inn skrá úr launaveitu yfir í gluggann **Færslubók**. Síðan varparðu ytri reikningunum í skránni launagreiðslur á viðeigandi fjárhagsreikninga. Að lokum bókarðu launafærslur samkvæmt reikningsvörpuninni. Nánari upplýsingar eru í [Hvernig á að flytja inn launafærslur](finance-how-import-payroll-transactions.md).
+Fyrir þetta þarf fyrst að flytja inn skrá úr launaveitu yfir í gluggann **Færslubók**. Síðan varparðu ytri reikningunum í skránni launagreiðslur á viðeigandi fjárhagsreikninga. Að lokum bókarðu launafærslur samkvæmt reikningsvörpuninni. Frekari upplýsingar er að finna í [innflutningur launafærsla](finance-how-import-payroll-transactions.md).
 
 Með QuickBooks-viðbótinni fyrir innflutning á launaskrá er hægt að flytja inn launafærslu úr QuickBooks-launabókhaldinu.
 

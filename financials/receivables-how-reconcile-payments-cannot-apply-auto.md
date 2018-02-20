@@ -11,13 +11,13 @@ ms.search.keywords: payment process, cash receipts
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 741c46f51c9ffd6e3b7f9d429accfd394684c9ed
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 15f2e20932120ced18d33c2e84a9c453d4bdb3ad
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-payments-that-cannot-be-applied-automatically"></a>hvernig á að: afstemma greiðslur sem ekki er hægt að afstemma sjálfkrafa.
+# <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Afstemma greiðslur sem ekki er hægt að nota sjálfkrafa
 Stundum gætirðu þurft að meðhöndla greiðslur inna á bankareikninginn þinn sem ekki er hægt að jafna við tengdan opinn viðskiptavin, lánardrottin, eða bankareikningsfærslu. Ástæða kann að vera að ekkert skjal sé til í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem hægt er að jafna greiðsluna á, eða tengda skjalið í [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur aðra fjárhæð en færsluupphæðin, t.d. vegna gjaldeyrisviðskipta Í **greiðslubók Afstemming** glugga, allar færsluupphæðir fyrir greiðslur sem ekki eru jafnaðar enn birtast í **mismunur** reit, þar með talið upphæðir sem ekki er hægt að jafna vegna ástæða eins og þeirrar sem nefd var að ofan.
 
 Greiðslur sem ekki er hægt að jafna geta birst á greiðsluafstemmingarbókarlínum á eftirfarandi mismunandi hætti:
@@ -28,11 +28,11 @@ Greiðslur sem ekki er hægt að jafna geta birst á greiðsluafstemmingarbókar
 Að afstemma slíka greiðslu, þú getur valið flutnings hnappinn **Flytja mismun á reikning** og tilgreina síðan hvaða reikning upphæðin í reitnum **mismunur** verður bókuð á þegar þú bókar greiðsluafstemmingarbók.
 
 > [!TIP]  
->   Svipuð virkni er til til að setja upp sjálfvirka afstemmingu á endurteknum greiðslum sem er ekki hægt að jafna við tengda opna viðskiptavina-, lánardrottna- eða bankareikningsfærslur. Fyrir frekar upplýsingar, sjá [Hvernig á að varpa texta á endurteknar greiðslur á reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+>   Svipuð virkni er til til að setja upp sjálfvirka afstemmingu á endurteknum greiðslum sem er ekki hægt að jafna við tengda opna viðskiptavina-, lánardrottna- eða bankareikningsfærslur. Frekari upplýsingar er að finna í [Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 ## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Að afstemma greiðslur sem ekki er hægt að jafna
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greiðsluafstemmingarbækur** og velja svo viðeigandi tengil.
-2. Opna skal greiðsluafstemmingarbók. Frekari upplýsingar eru í [hvernig á að afstemma greiðslur með því að nota sjálfvirka jöfnun](receivables-how-reconcile-payments-auto-application.md)
+2. Opna skal greiðsluafstemmingarbók. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 3. Veldu **Flytja mismun á reikning** Glugginn **Flytja mismun á reikning** opnast.
 4. Í reitnum **Tegund reiknings** tilgreindu tegund reiknings sem greiðsluupphæðin verður bókuð á.
 5. Í reitnum **Reikningsnúmer** tilgreindu reiknings sem greiðsluupphæð verður bókuð á.

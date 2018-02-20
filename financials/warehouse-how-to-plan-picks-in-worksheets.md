@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb9a8366dbce67f7fdf3f32d55d7c5a289b9db4e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c46e446c4af97e9699b1e454ff0d63173322f81e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-picks-in-worksheets"></a>Hvernig á að skipuleggja Tínslur á vinnublaðinu
+# <a name="plan-picks-in-worksheets"></a>Skipuleggja tínslur á vinnublaðinu
 Ef vöruhúsið er sett upp með bæði tínslu- og afhendingarvinnslu er hægt að velja að línurnar á afhendingarskjölum flytjist ekki sjálfkrafa í tínsluleiðbeiningar heldur verði þess í stað tiltækar á vinnublaði tínslunnar.  
 
 > [!NOTE]  
@@ -36,7 +36,7 @@ Ef raðað er eftir gjalddaga er hægt að eyða öllum línum öðrum en þeim 
 >   
 >  Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga í afhendingum vöruhúss” í afhendingum vöruhúss .  
 >   
->  Upplýsingar um almenna tínslu íhluta fyrir samsetningarpantanir, þar á meðal þegar samsetningaríhlutur er ekki hluti af söluafhendingu, eru í [Hvernig skal: tína fyrir framleiðslu eða samsetningu í grunngerð ítarlegs vöruhúss](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
+>  Upplýsingar um almenna tínslu íhluta fyrir samsetningarpantanir, þar á meðal þegar samsetningaríhlutur er ekki hluti af söluafhendingu, eru í [Tína fyrir framleiðslu eða samsetningu í grunngerð ítarlegs vöruhúss](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Tínslur skipulagðar á vinnublaðinu:  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vinnublað tínslu** og velja svo viðeigandi tengil.  

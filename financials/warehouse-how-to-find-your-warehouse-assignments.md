@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c85fa0d5ede1624a650a85d8340112f9ccbef1c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d84010d0d707ad96970ff9fc24077cb12ad9f9df
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-find-your-warehouse-assignments"></a>Hvernig á að finna vöruhúsaúthlutanir
-Til að finna vöruhúsaúthlutanir þínar skaltu opna spjaldgluggann fyrir valda vöru. Gluggi valins atriðis er opnaður Hafi vöruhúsaleiðbeiningar verið stofnaðar eru Taka- og Setja-línur sjáanlegar og hægt er að byrja á úthlutun. Í sumum vöruhúsum gæti yfirmaður verið búinn að úthluta tilteknum leiðbeiningum á hvern starfsmann. Frekari upplýsingar eru í [Hvernig á að: Setja upp starfsmenn vöruhúss](warehouse-how-to-set-up-warehouse-employees.md).
+# <a name="find-your-warehouse-assignments"></a>Finna vöruhúsaúthlutanir
+Til að finna vöruhúsaúthlutanir þínar skaltu opna spjaldgluggann fyrir valda vöru. Gluggi valins atriðis er opnaður Hafi vöruhúsaleiðbeiningar verið stofnaðar eru Taka- og Setja-línur sjáanlegar og hægt er að byrja á úthlutun. Í sumum vöruhúsum gæti yfirmaður verið búinn að úthluta tilteknum leiðbeiningum á hvern starfsmann. Frekari upplýsingar eru í [Setja upp vöruhússtarfsmenn](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Leitað að leiðbeiningum sem úthlutað hefur verið:  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vöruhúsafrágangur**, **Vöruhúsatínsla** eða **Vöruhúsahreyfing** og velja svo viðeigandi tengil.

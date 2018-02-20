@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 34a25ed48ff16971120b272421560bf1416af60f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 86a6451bdb02571480f775debd6c7286f0d8eb67
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Stjórna útliti skýrslna og skjala
@@ -32,7 +32,7 @@ Skýrsluútlit setur einkum eftirfarandi upp:
 * Fyrirtækjamerki og staðsetning þess.
 * Almennar síðustillingar, eins og spássíur og bakgrunnsmyndir.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] getur verið uppsett með mismunandi útliti sem hægt er að skipta á milli. Hægt er að nota eitt af innbyggðum skýrsluútlitum eða stofna sérsniðið skýrsluútlit og úthluta þeim á skýrslur eftir þörfum. Nánari upplýsingar er að finna í [Hvernig á að: Búa til sérsniðið skýrsluútlit eða skjalaútlit](ui-how-create-custom-report-layout.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] getur verið uppsett með mismunandi útliti sem hægt er að skipta á milli. Hægt er að nota eitt af innbyggðum skýrsluútlitum eða stofna sérsniðið skýrsluútlit og úthluta þeim á skýrslur eftir þörfum. Nánari upplýsingar er að finna í [Búa til sérsniðið skýrsluútlit eða skjalaútlit](ui-how-create-custom-report-layout.md).
 
 Það eru tvær gerðir skýrsluútlita sem hægt er að nota á skýrslur, Word og RDLC.
 
@@ -45,7 +45,7 @@ Word-skýrsluútlit byggir á Word-skjali (.docx-skráargerð). Word-skýrsluút
 RDLC-útlit eru byggð á skýrsluskilgreiningarútliti biðlara (.rdlc- eða .rdl-skráargerðir). Þessi útlit eru búin til og þeim breytt með SQL Server Report Builder. Hönnun RDLC-útlits er svipað og Word útlits, þar sem útlitið tilgreinir almennt snið skýrslunnar og ákvarðar reitina sem á að taka með úr gagnamenginu. Hönnun RDLC-útlits er ítarlegra en Word-útlits. Frekari upplýsingar eru í [Hanna RDLC-skýrsluútlit](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Innbyggt og sérsniðið skýrsluútlit
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur nokkur innbyggð útlit. Innbyggt útlit er skilgreint útlit hönnuð fyrir tilteknar skýrslur. [!INCLUDE[d365fin](includes/d365fin_md.md)] skýrslur eru með innbyggt útlit sem RDLC-skýrsluútlit, Word-skýrsluútlit eða, í sumum tilfellum, bæði. Ekki er hægt að breyta innbyggðu útliti úr [!INCLUDE[d365fin](includes/d365fin_md.md)] en þau eru notuð sem upphafspunktur til að búa til eigin sérsniðin skýrsluútlit.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  inniheldur nokkur innbyggð útlit. Innbyggt útlit er skilgreint útlit hönnuð fyrir tilteknar skýrslur. [!INCLUDE[d365fin](includes/d365fin_md.md)] skýrslur eru með innbyggt útlit sem RDLC-skýrsluútlit, Word-skýrsluútlit eða, í sumum tilfellum, bæði. Ekki er hægt að breyta innbyggðu útliti úr [!INCLUDE[d365fin](includes/d365fin_md.md)] en þau eru notuð sem upphafspunktur til að búa til eigin sérsniðin skýrsluútlit.
 
 Sérstillt útlit er skýrsluútlit sem þú hannar til að breyta útliti skýrslu. Þú býrð vanalega til sérsniðið útlit byggt á innbyggðu útliti, en þú getur búið þau til frá grunni eða úr afriti fyrirliggjandi sérsniðins útlits. Sérstillt útlit gera þér kleift að hafa mörg útlit fyrir sömu skýrsluna, sem hægt er að skipta á milli eftir þörfum. Til dæmis er hægt að hafa mismunandi útlit fyrir hvert [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrirtæki, eða hægt er að hafa mismunandi útlit fyrir sama fyrirtækið við tiltekin tilefni eða aðstæður, eins og sérstaka herferð eða hátíðir.
 
@@ -56,13 +56,13 @@ Almenna hönnunin fyrir Word og RDLC-útlit eru mjög svipaðar. Hins vegar er h
 
 Ferlið til að setja upp Word-skýrsluútlit og RDLC-skýrsluútlit á skýrslum er það sama. Helsti munurinn liggur í því hvernig útlitinu er breytt. Yfirleitt er auðveldara að búa til og breyta Word-skýrsluútliti en RDLC-útliti þar sem hægt er að nota Word. RDLC-skýrsluútlitum er breytt með SQL Server Report Builder sem ætlað er reyndari notendum.
 
-Fyrir upplýsingar um hvernig eigi að breyta útliti, sjá [Hvernig á að breyta því hvaða útlit er notað á skýrslum](ui-how-change-layout-currently-used-report.md)
+Fyrir upplýsingar um hvernig eigi að breyta útliti, sjá [Breyta því hvaða útlit er notað á skýrslum](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppfæra skýrsluútlit eða skjalaútlit](ui-update-report-layouts.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Hvernig á að: Búa til og breyta sérsniðið skýrslu- eða skjalaútlit](ui-how-create-custom-report-layout.md)  
-[Hvernig á að: Flytja inn og út sérsniðið skýrsluútlit eða skjalaútlit](ui-how-import-and-export-report-layout.md)  
-[Hvernig á að: Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
+[Búa til og breyta sérsniðnu skýrslu- eða skjalaútliti](ui-how-create-custom-report-layout.md)  
+[Flytja inn og út sérsniðið skýrsluútlit eða skjalaútlit](ui-how-import-and-export-report-layout.md)  
+[Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Unnið með Skýrslur](ui-work-report.md)  
 

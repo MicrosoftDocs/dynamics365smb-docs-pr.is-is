@@ -13,13 +13,13 @@ ms.search.keywords: inventory, periods
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8f9c289f4fef06ef0b684dd7176630d29b2fc5d3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f3d24dda00e3234dfcf7538c7f4fb7fbc008221
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-inventory-periods"></a>Hvernig á að vinna með birgðatímabil
+# <a name="work-with-inventory-periods"></a>Vinna við birgðatímabil
 Birgðatímabil skilgreina tímabil þar sem hægt er að bóka breytingar á birgðum. Birgðatímabil afmarkast af dagsetningunni sem því lýkur á. Þegar birgðatímabili er lokað er ekki hægt að bóka neinar breytingar á birgðum, hvorki áætluðum né reikningsfærðum fyrir þessa lokadagsetningu. Ekki er heldur hægt að bóka nein ný gildi við birgðir fyrir lokadagsetninguna. Ef birgðafærslur eru hafðar opnar í lokaða tímabilinu, sem þýðir jákvætt magn sem ekki er búið að jafna saman við færslur á útleið, er samt hægt að jafna magn á útleið við þessar færslur, jafnvel þó að tímabilið sé lokað.  
 
 Eftirfarandi hlutar útskýra hvernig á að standa að:  

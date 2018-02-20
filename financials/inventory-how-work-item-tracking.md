@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 326c7931cc0217c72ede62d5516dba5f4ee6fa32
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f9672af6dc4f87f52773a91c587f60c6afe98b8f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-serial-and-lot-numbers"></a>Hvernig á að: vinna með rað- og lotunúmer.
+# <a name="work-with-serial-and-lot-numbers"></a>Vinna með rað- og lotunúmer
 Hægt er að úthluta rað- og lotunúmer við hvaða útleiðarskjal eða innleiðarskjal sem er og bókaðar færslur þess er síðan hægt að skoða í viðkomandi birgðafærslum. Þú framkvæmir vinnuna í **Vörurakningarlínur** glugganum.
 
 Fylki magnreita í haus gluggans **Vörurakningarlínur** birtir magn og summu vörurakningarnúmera sem verið er að skilgreina á línunum. Magnið verður að samsvara því sem er í fylgiskjalslínunni, sem er sýnt með 0 undir **Óskilgreint** reitunum.
 
 Til að mæla afköst safnar kerfið ráðstöfunarupplýsingum úr glugganum **Vörurakningarlínur** eingöngu einu sinni, þegar hann er opnaður. Þetta merkir að kerfið uppfærir ekki þessar upplýsingar á meðan glugginn er opinn, jafnvel þótt breytingar eigi sér stað í birgðum eða í öðrum fylgiskjölum.
 
-Vörur með rað- eða lotunúmer er hægt að rekja bæði afturábak og áfram í aðfangakeðju þeirra. Þetta er nytsamlegt fyrir almennt gæðaeftirlit og vöruinnköllun. Frekari upplýsingar, sjá [Hvernig skal: Rekja vörurakta vöru](inventory-how-to-trace-item-tracked-items.md).
+Vörur með rað- eða lotunúmer er hægt að rekja bæði afturábak og áfram í aðfangakeðju þeirra. Þetta er nytsamlegt fyrir almennt gæðaeftirlit og vöruinnköllun. Frekari upplýsingar er að finna í [Rekja vörurakta vöru](inventory-how-to-trace-item-tracked-items.md).
 
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>Um tiltekt rað- eða lotunúmera í vöruhúsinu
 Útleiðarvinnsla rað- eða lotunúmera er verkhluti sem gerist við mörg mismunandi vöruhúsaferli.  
@@ -236,7 +236,7 @@ Ekki er hægt að breyta efni reitanna  **Raðnr.** og  **Lotunr.** Þó er hæg
 Endurflokkun vörurakningar fyrir vöru þýðir að breyta lotu- eða raðnúmeri í nýtt lotu- eða raðnúmer eða breyta lokadagsetningunni í nýja lokadagsetningu. Ef verið er að vinna með lotur er líka hægt að sameina margar lotur í eina lotu. Þessi verkefni eru framkvæmd með notkun vöruendurflokkunarbókarinnar.
 
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðaendurflokkunarbók** og velja svo viðeigandi tengil.  
-2.  Línan er fyllt út með viðeigandi upplýsingum. Frekari upplýsingar, sjá [Hvernig skal: Telja, leiðrétta og endurflokka birgðir](inventory-how-count-adjust-reclassify.md).
+2.  Línan er fyllt út með viðeigandi upplýsingum. Nánari upplýsingar er að finna í [Telja, leiðrétta og endurflokka birgðir](inventory-how-count-adjust-reclassify.md).
 3.  Velja aðgerðina **Vörurakningarlínur**  
 4.  Í reitnum **Raðnr.** eða **Lotunr** skal velja gildandi rað- eða lotunúmer.  
 5.  Hægt er að slá inn nýtt vörurakningarnúmer með því að slá það inn í reitinn **Nýtt raðnr.** eða **Nýtt lotunr.**. Hægt er að sameina eina eða fleiri lotur við eina nýja lotu eða lotu sem er til fyrir.  
@@ -259,10 +259,10 @@ Endurflokkun vörurakningar fyrir vöru þýðir að breyta lotu- eða raðnúme
 8.  Færslubókin er bókuð til að tengja nýju vörurakningarnúmerin eða lokadagsetningarnar við viðkomandi birgðafærslu.
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)   
+[Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)   
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar: vörurakning](design-details-item-tracking.md)
 [Hönnunarupplýsingar - vörurakning og frátekning](design-details-item-tracking-and-reservations.md)  
-[Hvernig skal: Taka frá vörur](inventory-how-to-reserve-items.md)  
+[Taka frá vörur](inventory-how-to-reserve-items.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

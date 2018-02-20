@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6826c574bf63de70d76a29b45968c68c0b2e2d1f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a72e6ff0a710f2d555c805e4fa28896683a819e9
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cash-customers"></a>Hvernig á að setja upp staðgreiðsluviðskiptamenn
+# <a name="set-up-cash-customers"></a>Uppsetning staðgreiðsluviðskiptamanna
 Ekki er hægt að gera reikning án viðskiptamannsnúmers. Þetta á við þó svo að selt sé gegn staðgreiðslu og ekki sé þörf á að skrá upplýsingar í viðskiptamannareikning.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Uppsetning staðgreiðsluviðskiptamanna  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamaður** og velja svo viðeigandi tengil.  
-2.  Stofna nýtt spjald **Viðskiptamaður**. Nánari upplýsingar eru í [Hvernig á að skrá nýjan viðskiptamaður](sales-how-register-new-customers.md).
+2.  Stofna nýtt spjald **Viðskiptamaður**. Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).
 3.  Í reitnum **númer** er ritað **Reiðufé**, til dæmis.  
 4.  Í reitinn **Heiti** er til dæmis ritað **Staðgreitt við sölu**.  
 5.  Á flýtiflipanum **Reikningsfærsla** þarf að fylla út reitina **Bókunarflokkur viðskiptam.** og **Alm. viðsk.bókunarflokkur**.  
@@ -38,7 +38,7 @@ Ekki er hægt að gera reikning án viðskiptamannsnúmers. Þetta á við þó 
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skulda](receivables-manage-receivables.md)  
-[Hvernig á að Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)    
+[Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)    
 [Fjármál](finance.md)  
 
 

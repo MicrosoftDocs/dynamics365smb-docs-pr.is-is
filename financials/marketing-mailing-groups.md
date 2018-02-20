@@ -13,13 +13,13 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bc1c89b87426b72ce4f9522cb7f0dc31c77acad1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7402899cb7fe369503eee1b451dc652180e96264
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-mailing-groups-for-contacts"></a>Hvernig skal: setja upp pósthópa fyrir tengiliði
+# <a name="set-up-mailing-groups-for-contacts"></a>Setja upp pósthópaa fyrir tengiliði.
 pósthópana sem nota má til að auðkenna tengiliðahópa sem eiga að fá sömu upplýsingar. Til dæmi er hægt að setja upp pósthóp með þeim tengiliðum sem eiga að fá tilkynningu um að skrifstofan hafi flutt, eða annan hóp til að senda gjafir á hátíðum.
 
 Notkun pósthópar á tengiliði er tveggja þrepa ferli. Fyrst skilgreina pósthópskóða. Aðeins þarf að framkvæma þetta skref í eitt skipti fyrir hver pósthóp. Þegar kominn er pósthópskóði, er hægt að byrja að úthluta kóðanum til tengiliðafyrirtækja.
@@ -39,7 +39,7 @@ Skrefin eru endurtekin til að úthluta eins mörgum pósthópum og óskað er. 
 
 Fjöldi pósthópa sem þú hefur úthlutað tengiliðnum birtist í **Fjöldi pósthópa** í hlutanum **hlutaaðgerðin** á glugganum **Tengliður**.
 
-Eftir að tengiliðum hefur verið úthlutað pósthópum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Sjá frekari upplýsingar hér [Hvernig á að bæta tengiliðum við hluta:](marketing-add-contact-segment.md)
+Eftir að tengiliðum hefur verið úthlutað pósthópum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Frekari upplýsingar eru í [Bæta tengiliðum við hluta](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Fyrirtækjatengiliðir stofnaðir](marketing-create-contact-companies.md)  

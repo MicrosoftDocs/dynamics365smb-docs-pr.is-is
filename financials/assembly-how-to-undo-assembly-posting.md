@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c6d15f43e2a308dc8107e7a58e64f4b98452b1db
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac292561a5777b760fd8e857d28085af36201e3e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-undo-assembly-posting"></a>Hvernig á að afturkalla samsetningarbókun
+# <a name="undo-assembly-posting"></a>Afturkalla samsetningarbókun
 Stundum gæti þurft að afturkalla bókaða samsetningarpöntun, til dæmis ef pöntunin var bókuð með mistökum sem þarf að leiðrétta, eða vegna þess að hana hefði ekki átt að bóka til að byrja með og verður því að afturkalla.
 
 Þegar bókuð samsetningarpöntun er bókuð er færslubunki stofnaður í birgðahöfuðbók til að snúa við upphaflegum færslum. Hver neikvæð frálagsfærsla fyrir samsetningaríhlutinn er bakfærð með jákvæðri frálagsfærslu. Hver neikvæð notkunarfærsla fyrir samsetningaríhlut er bakfærð með jákvæðri notkunarfærslu. Fastur kostnaður er stofnaður sjálfkrafa á milli leiðréttingarfærslna og upphaflegu færslna til að tryggja nákvæma bakfærslu kostnaðar.  
@@ -39,7 +39,7 @@ Auk þess er aðeins hægt að endurheimta samsetningarpantanir ef línunúmer o
 > [!TIP]  
 >  Til að leysa úr árekstrum vegna línubreytinga er hægt að afturkalla breytingarnar á umræddum línum handvirkt áður en tengda bókaða samsetningarpöntunin er afturkölluð. Einnig er hægt að bóka samsetningarpöntunina að fullu og velja síðan að endurstofna hana þegar bókunin er afturkölluð.  
 
-Eftirfarandi ferli lýsir því hvernig eigi afturkalla bókaðar samsetningarpantanir þar sem vörurnar voru settar saman í birgðir. Eigi að afturkalla bókaðar samsetningarpantanir þar sem vörur voru settar saman í sölupöntun þarf að nota aðgerðina **Afturkalla afhendingu** í bókuðu afhendingunni sem tengist bókuðu samsetningarpöntuninni. Frekari upplýsingar, sjá [Hvernig skal: Bakfæra bókanir](finance-how-reverse-journal-posting.md). Afturköllun bókaðrar samsetningarpöntunar gerist síðan sjálfkrafa eins og lýst er í þessu efnisatriði.  
+Eftirfarandi ferli lýsir því hvernig eigi afturkalla bókaðar samsetningarpantanir þar sem vörurnar voru settar saman í birgðir. Eigi að afturkalla bókaðar samsetningarpantanir þar sem vörur voru settar saman í sölupöntun þarf að nota aðgerðina **Afturkalla afhendingu** í bókuðu afhendingunni sem tengist bókuðu samsetningarpöntuninni. Frekari upplýsingar eru í [Bakfæra bókanir](finance-how-reverse-journal-posting.md). Afturköllun bókaðrar samsetningarpöntunar gerist síðan sjálfkrafa eins og lýst er í þessu efnisatriði.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Til að afturkalla bókun samsetningarpöntunar  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Bókaðar samsetningarpantanir** og velja svo viðeigandi tengil.  
@@ -57,9 +57,9 @@ Eftirfarandi ferli lýsir því hvernig eigi afturkalla bókaðar samsetningarpa
 
 ## <a name="see-also"></a>Sjá einnig  
 [Samsetningardeild](assembly-assemble-items.md)  
-[Hvernig skal: Bakfæra bókanir](finance-how-reverse-journal-posting.md).  
-[Meðhöndlun söluvöruskila eða afturkallana](sales-how-process-sales-returns-cancellations.md)    
-[Hvernig á að: Vinna með uppskriftir](inventory-how-work-BOMs.md)  
+[Bakfæra bókanir](finance-how-reverse-journal-posting.md)  
+[Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md)    
+[Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -13,10 +13,10 @@ ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7eac962e0c9863d8c6ed9bcff19f320687f217ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cee6dcc0c0f4f596b3f63dbafec344875edb4e33
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -31,18 +31,18 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
   
 | Til | Sjá |
 | --- | --- |
-| Setja upp kóða sem úthlutar línum sjálfkrafa á þjónustuskjöl fyrir þjónustu sem þú veitir oft. |[Hvernig á að setja upp Kóta fyrir Staðlaða þjónustu](service-how-setup-service-coding.md)|
-| Ákvarða almennar stillingar sem stýra hluta Þjónustustýringarferlisins.|[Hvernig skal: Grunnstilla þjónustuferli](service-setup-service-processes.md)|
-| Skilgreina hvernig fyrirtækið vinnur með bilanatilkynningar. |[Hvernig á að: setja upp bilanatilkynningar](service-how-setup-fault-reporting.md) |
-| Setja upp sölutilboð sem fyrirtækið sendir til viðskiptamanna.|[Hvernig á að: setja upp þjónustutilboð](service-how-setup-service-offerings.md)|
-| Útvega viðmiðunarreglur fyrir úrræðaleit sem hjálpa þjónustustarfsmönnum að veita sneggri þjónustu. |[Hvernig á að setja upp úrræðaleit](service-how-setup-troubleshooting.md) |
-| Setja upp forðaúthlutun til að auðvelda úthlutun þjónustuverkhluta til réttra tilfanga. |[Hvernig á að: Setja upp forðaúthlutun](service-how-setup-resource-allocation.md) |
-| Skilgreina þjónustuverðlagningu og setja upp viðbótarþjónustukostnað til að ákveða á þjónustupantanir. |[Hvernig á að: setja upp verðlagningu og aukakostnað fyrir þjónustu](service-how-setup-service-costs-pricing.md)|
-| Setja upp hluti svo þú getir rakið forðastundir og stöðu þjónustupantana til að spá fyrir um vinnuálag og þjónustuþarfir.|[Hvernig skal: Setja upp vinnustundir og þjónustustundir](service-how-setup-work-service-hours.md)|
-| Setja upp valkosti viðgerðastöðu svo hægt sé að fylgjast með viðgerðaferlinu. | [Hvernig á að: Setja upp stöður fyrir þjónustupantanir og viðgerðir](service-order-repair-status.md)|
-| Setja upp lánsbúnaðaprógramm, svo þú getir lánað staðgengil á meðan þú vinnur í þjónustuvörunni. |[Hvernig skal: Setja upp lánsbúnaðarprógramm](service-how-setup-loaner-program.md) |
-| Setja upp þjónustuvörur og þjónustuvörueiningar |[Hvernig á að setja upp þjónustuvörur](service-how-setup-service-items.md) |
-| Leggja grunninn að stofnun þjónustusamningar og samningstilboð. |[Hvernig á að: setja upp þjónustusamninga](service-how-setup-service-contracts.md) |
+| Setja upp kóða sem úthlutar línum sjálfkrafa á þjónustuskjöl fyrir þjónustu sem þú veitir oft. |[Setja upp Kóta fyrir Staðlaða þjónustu](service-how-setup-service-coding.md)|
+| Ákvarða almennar stillingar sem stýra hluta Þjónustustýringarferlisins.|[Grunnstilling þjónustuferlis](service-setup-service-processes.md)|
+| Skilgreina hvernig fyrirtækið vinnur með bilanatilkynningar. |[Setja upp bilanatilkynningar](service-how-setup-fault-reporting.md) |
+| Setja upp sölutilboð sem fyrirtækið sendir til viðskiptamanna.|[Setja upp þjónustutilboð](service-how-setup-service-offerings.md)|
+| Útvega viðmiðunarreglur fyrir úrræðaleit sem hjálpa þjónustustarfsmönnum að veita sneggri þjónustu. |[Setja upp úrræðaleit](service-how-setup-troubleshooting.md) |
+| Setja upp forðaúthlutun til að auðvelda úthlutun þjónustuverkhluta til réttra tilfanga. |[Setja upp forðaúthlutun](service-how-setup-resource-allocation.md) |
+| Skilgreina þjónustuverðlagningu og setja upp viðbótarþjónustukostnað til að ákveða á þjónustupantanir. |[Setja upp verðlagningu og aukakostnað fyrir þjónustu](service-how-setup-service-costs-pricing.md)|
+| Setja upp hluti svo þú getir rakið forðastundir og stöðu þjónustupantana til að spá fyrir um vinnuálag og þjónustuþarfir.|[Setja upp vinnustundir og þjónustustundir](service-how-setup-work-service-hours.md)|
+| Setja upp valkosti viðgerðastöðu svo hægt sé að fylgjast með viðgerðaferlinu. | [Setja upp stöður fyrir þjónustupantanir og viðgerðir](service-order-repair-status.md)|
+| Setja upp lánsbúnaðaprógramm, svo þú getir lánað staðgengil á meðan þú vinnur í þjónustuvörunni. |[Uppsetning lánsbúnaðarkerfis](service-how-setup-loaner-program.md) |
+| Setja upp þjónustuvörur og þjónustuvörueiningar |[Setja upp þjónustuvörur](service-how-setup-service-items.md) |
+| Leggja grunninn að stofnun þjónustusamningar og samningstilboð. |[Setja upp þjónustusamninga](service-how-setup-service-contracts.md) |
 
 ## <a name="see-also"></a>Sjá einnig .
 [Þjónustukerfi](service-service.md)  

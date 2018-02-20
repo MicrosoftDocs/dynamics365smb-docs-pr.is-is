@@ -12,20 +12,20 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-new-items"></a>Hvernig á að Skrá nýjar vörur
+# <a name="register-new-items"></a>Skrá nýjar vörur
 Vörur, ásamt öðrum framleiðsluvörum, eru grundvöllur fyrirtækisins, vörurnar eða þjónustan sem þú stundar viðskipti með. Hver vara verður að vera skráð sem birgðaspjald.
 
 Birgðaspjald inniheldur upplýsingarnar sem þarf til að kaupa, selja, geyma og tilkynna vörur.
 
-Birgðaspjaldið getur verið af gerðinni **Birgðir** eða **Þjónusta** til að tilgreina hvort vara er rauneining eða launatímaeining. Fyrir utan suma reiti sem tengjast efnislegum hlutum vöru, virka allir reitir birgðaspjaldi eins fyrir birgðavörur og þjónustu. Fyrir nánari upplýsingar um vörusölu, sjá [Hvernig á að: Selja vörur](sales-how-sell-products.md) eða [Hvernig á að: Reikningsfæra vörur](sales-how-invoice-sales.md).
+Birgðaspjaldið getur verið af gerðinni **Birgðir** eða **Þjónusta** til að tilgreina hvort vara er rauneining eða launatímaeining. Fyrir utan suma reiti sem tengjast efnislegum hlutum vöru, virka allir reitir birgðaspjaldi eins fyrir birgðavörur og þjónustu. Fyrir nánari upplýsingar um vörusölu, sjá [Selja vörur](sales-how-sell-products.md) eða [Reikningsfæra vörur](sales-how-invoice-sales.md).
 
-Hlutur getur verið uppbyggður sem yfireining með undirliggjandi undireiningu í uppskrift. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] getur uppskrift verið annað hvort framleiðsluuppskrift eða samsetningaruppskrift, út frá notkun. Nánari upplýsingar er að finna í [Hvernig á að: Vinna með uppskrift.](inventory-how-work-BOMs.md)
+Hlutur getur verið uppbyggður sem yfireining með undirliggjandi undireiningu í uppskrift. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] getur uppskrift verið annað hvort framleiðsluuppskrift eða samsetningaruppskrift, út frá notkun. Nánari upplýsingar er að finna í [Vinna með uppskrift.](inventory-how-work-BOMs.md)
 
 > [!NOTE]  
 >   Ef vörusniðmát er til fyrir mismunandi vörutegundir, þá birtist gluggi þar sem búið er til nýtt birgðaspjald og hægt er að velja viðeigandi vörusniðmát. Ef aðeins eitt vörusniðmát er fyrir hendi, nota ný birgðaspjöld alltaf það sniðmát.
@@ -46,7 +46,7 @@ Ef sama varan er keypt frá fleiri en einum lánardrottni, er hægt að tengja �
 >
 > Ef þú velur **Meðaltal** er kostnaðarverð vöru reiknað sem meðaleiningaverð vara á hverjum tímapunkti eftir innkaup. Fyrir verðmat birgða, er gert ráð fyrir að allar birgðir verði seldar á sama tíma. Með þessar stillingar geturðu valið **kostnaðarverð** reitinn í glugganum **Meðalkostnaður útreiknaður yfirlit** til að skoða færslusöguna sem meðalkostnaður er reiknaður út frá.
 
-Á **Verð og bókun** flýtiflipanum geturðu skoðað sérstakt verð eða afslætti sem þú veitir fyrir vöruna ef tilteknar viðmiðanir eru uppfylltar, svo sem viðskiptavina, lágmarksfjöldi eða lokadagur. Hver lína stendur fyrir sértilboðsverð eða línuafslátt. Hver dálkur táknar viðmiðun sem verða að sækja til að réttlæta sérstakt verð sem þú slærð inn í **Einingaverð** sviði, eða línuafslátt sem þú slærð inn í **Línuafsláttur (%**. Nánari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
+Á **Verð og bókun** flýtiflipanum geturðu skoðað sérstakt verð eða afslætti sem þú veitir fyrir vöruna ef tilteknar viðmiðanir eru uppfylltar, svo sem viðskiptavina, lágmarksfjöldi eða lokadagur. Hver lína stendur fyrir sértilboðsverð eða línuafslátt. Hver dálkur táknar viðmiðun sem verða að sækja til að réttlæta sérstakt verð sem þú slærð inn í **Einingaverð** sviði, eða línuafslátt sem þú slærð inn í **Línuafsláttur %**. Nánari upplýsingar eru í [Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Varan hefur nú verið skráð og birgðaspjaldið má nú nota í skjölum vegna kaupa og sölu.
 
@@ -77,7 +77,5 @@ Lánardrottnarnir munu nú birtast í **Vörulisti lánardrottins** glugganum, s
   [Birgðir](inventory-manage-inventory.md)  
   [Innkaup](purchasing-manage-purchasing.md)  
   [Sala](sales-manage-sales.md)  
-  [Unnið með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

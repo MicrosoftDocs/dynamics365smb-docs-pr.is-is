@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 09/08/2017
+ms.date: 01/12/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 022cd32a11546913e74aeccdd74772e6e01755d3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5a667f28bd50bbd1149526e08e0d786da83bc8a6
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-inventory"></a>Uppsetning birgða
@@ -28,12 +28,13 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 
 | Til | Sjá |
 | --- | --- |
-| Skilgreina almennar birgðaupplýsingar svo sem númeraraðir og hvernig á að nota birgðageymslur. |[Hvernig á að: Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md) |
-|Grunnstilla skilvirkt dreifingarlíkan með mismunandi birgðageymslur og ábyrgðarstöðvum sem hefur verið úthlutað til viðskiptafélaga eða starfsmanna.|[Hvernig skal: Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)|
-| Skipuleggja birgðir í mörgum birgðageymslum, þar með talið flutningsleiðir. |[Hvernig á að: Setja upp staðsetningu](inventory-how-register-new-items.md) |
-| Stofna birgðaspjöld fyrir birgðavörur sem boðið er upp á. |[Hvernig á að Skrá nýjar vörur](inventory-how-register-new-items.md) |
-|Sem viðbót við birgðaspjöld, skrá upplýsingar um vörur fyrir tiltekna birgðageymslu eða tiltekinn afbrigði.|[Hvernig á að setja upp birgðaeiningar](inventory-how-to-set-up-stockkeeping-units.md)|
-| Úthlutaðu vörur í flokka og gefðu þeim eiginleika til að hjálpa þér og viðskiptavinum að finna vörur. |[Hvernig á að: Flokka vörur](inventory-how-categorize-items.md) |
+| Skilgreina almennar birgðaupplýsingar svo sem númeraraðir og hvernig á að nota birgðageymslur. |[Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md) |
+|Grunnstilla skilvirkt dreifingarlíkan með mismunandi birgðageymslur og ábyrgðarstöðvum sem hefur verið úthlutað til viðskiptafélaga eða starfsmanna.|[Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)|
+| Skipuleggja birgðir í mörgum birgðageymslum, þar með talið flutningsleiðir. |[Uppsetning birgðageymsla](inventory-how-register-new-items.md) |
+| Stofna birgðaspjöld fyrir birgðavörur sem boðið er upp á. |[Skrá nýjar vörur](inventory-how-register-new-items.md) |
+|Setja upp margar mælieiningar fyrir vöru sem hægt er að nota sem mælieiningu til vara, til dæmis í sölu, við innkaup eða framleiðslufærslu.|[Setja upp mælieiningu vara](inventory-how-setup-units-of-measure.md)|
+|Sem viðbót við birgðaspjöld, skrá upplýsingar um vörur fyrir tiltekna birgðageymslu eða tiltekinn afbrigði.|[Setja upp birgðahaldseiningar](inventory-how-to-set-up-stockkeeping-units.md)|
+| Úthlutaðu vörur í flokka og gefðu þeim eiginleika til að hjálpa þér og viðskiptavinum að finna vörur. |[Flokka vörur](inventory-how-categorize-items.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun birgða](inventory-manage-inventory.md)  

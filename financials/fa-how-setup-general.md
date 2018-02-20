@@ -1,24 +1,22 @@
 ---
 title: "Uppsetning fjárhagseigna| Microsoft Docs"
 description: "Áður en þú getur byrjað að stjórna eignum, verður þú að setja upp sjálfgefna fjárhagsreikninga, bókunarflokka, úthlutunarlykla, færslubókasniðmát og keyrslur, og flokkskóða."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
-ms.author: sgroespe
+ms.date: 29/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 97ff0418c2e3ffe2ace8412bb889fafd5788510b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-general-fixed-assets-information"></a>Hvernig á að setja upp upplýsingar fyrir almennar eignir
+# <a name="set-up-general-fixed-assets-information"></a>Uppsetning almennra eignaupplýsinga
 Áður en hægt er að vinna með eignir, þarf að setja upp sjálfgefna fjárhagsreikninga, úthlutunarlykla, færslubókarsniðmát og keyrslur fyrir bókun á eign og endurflokkun og hægt er að flokka eignir í eignaflokka, til dæmis Áþreifanlegar og Óáþreifanlegar.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Uppsetning almennra sjálfgilda fyrir eignir
@@ -38,10 +36,10 @@ Bókunarflokkar eru notaðir til að skilgreina flokka eigna. Færslur í þessu
 >   Til að ganga úr skugga um að mótreikningar fyrir mismunandi eignabókanir eru sjálfkrafa settir inn þegar þú velur **Setja inn mótreikning eigna** aðgerð í færslubókarlínum, fylgja skal næsta skref, í samræmi við uppfærslubókun.
 4. Á flýtiflipi **Mótreikningur** í reitnum **mótreikningur uppfærslu** er valinn fjárhagsreikningurinn sem þú vilt bóka mótfærslur í fyrir uppfærslu.
 
-Nánari upplýsingar um notkun **Setja inn mótreikning eigna** aðgerð á eignafjárhagslínur skal skoða, til dæmis, [Hvernigá að: Endurmeta Eignir](fa-how-revalue.md).
+Nánari upplýsingar um notkun **Setja inn mótreikning eigna** aðgerð á eignafjárhagslínur skal skoða, til dæmis, [Endurmeta eignir](fa-how-revalue.md).
 
 ## <a name="to-set-up-fixed-asset-allocation-keys"></a>Úthlutunarlyklar eigna eru settir þannig upp:
-Hægt er að úthluta færslum á ýmsar deildir og/eða verkefni samkvæmt úthlutunarlyklum sem notandi skilgreinir. Setja má upp úthlutunarlykil sem skiptir til dæmis hlutdeild í afskriftakostnaði af bílum í 35 prósent á stjórnunardeild og 65 prósent á söludeild. Frekari upplýsingar, sjá [Hvernig á að: Úthluta kostnaði og tekjum](year-allocate-costs-income.md).
+Hægt er að úthluta færslum á ýmsar deildir og/eða verkefni samkvæmt úthlutunarlyklum sem notandi skilgreinir. Setja má upp úthlutunarlykil sem skiptir til dæmis hlutdeild í afskriftakostnaði af bílum í 35 prósent á stjórnunardeild og 65 prósent á söludeild. Frekari upplýsingar eru í [Úthluta kostnaði og tekjum](year-allocate-costs-income.md).
 
 Úthlutunarlyklar gilda um eignaflokka en ekki um stakar eignir.
 
@@ -53,7 +51,7 @@ Hægt er að úthluta færslum á ýmsar deildir og/eða verkefni samkvæmt úth
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Setja upp sniðmát eignabóka
 Sniðmát er fyrirfram skilgreind uppsetning á færslubók. Í sniðmáti eru upplýsingar um ferilskóta, skýrslur og númeraraðir. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] býr sjálfkrafa til sniðmát færslubókar eignar í fyrsta sinn sem glugginn**Færslubók eignar** er opnaður, en hægt er að setja upp önnur sniðmát færslubókar.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  býr sjálfkrafa til sniðmát færslubókar eignar í fyrsta sinn sem glugginn **Færslubók eignar** er opnaður, en hægt er að setja upp önnur sniðmát færslubókar.  
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **sniðmát færslubókar eignar** og velja svo viðeigandi tengil.  
 2. Fyllið inn í svæðin eftir þörfum.
@@ -103,19 +101,21 @@ Ef verið er að nota eignirnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] �
 
 1. Gæta skal þess að lokið sé við grunnuppsetningu eigna.  
 2. Búið er til eignaspjald fyrir hverja eign sem til er.  
-3. Uppsetning afskriftabóka eigna.  
-4. Virkja fjárhagssamþættingu með því að fylgja næstu skrefum.
-5. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afskriftabækur** og velja svo viðeigandi tengil.  
-6. Velja skal viðeigandi afskriftabók. Á flipanum **Heim** í flokknum **Stjórna** veljið **Breyta lista** til að opna gluggann **Afskriftabókarspjald**.
-7. Ganga skal úr skugga um að á flýtiflipanum **Heildun** séu allir reitir auðir með því að hreinsa öll gátmerki. Ef um er að ræða fleiri en eina afskriftabók skal virkja fjárhagssamþættingu fyrir hverja þeirra.  
-8. Í eignabókinni eru færðar eftirfarandi línur fyrir hverja eign:
+3. Stofna eigna-/afskriftabók fyrir hvern afskriftartilgang (til dæmis fyrir skattinn og fjárhagsskýrslur). Fyrir hverja afskriftabók þarf að skilgreina skilmála og skilyrði, eins og sameiningu við fjárhag.  
+
+    Virkja fjárhagssamþættingu með því að fylgja næstu skrefum. Fyrst skal ganga úr skugga um að slökkt sé á fjárhagssamþættingu fyrir allar afskriftarbækur, og svo bóka opnu færslurnar og að lokum kveikja á fjárhagssamþættingu.  
+4. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afskriftabækur** og velja svo viðeigandi tengil.  
+5. Velja skal viðeigandi afskriftabók. Á flipanum **Heim** í flokknum **Stjórna** veljið **Breyta lista** til að opna gluggann **Afskriftabókarspjald**.
+6. Ganga skal úr skugga um að á flýtiflipanum **Heildun** séu allir reitir auðir með því að hreinsa öll gátmerki. Ef um er að ræða fleiri en eina afskriftabók er skal óvirkja fjárhagsheildun fyrir hverja þeirra.  
+7. Í eignabókinni eru færðar eftirfarandi línur fyrir hverja eign:
    * Færð er inn lína með stofnkostnaðinum.
    * Lína með uppsafnaðar afskriftir til loka fyrra fjárhagsárs.
    * Lína með uppsafnaðar afskriftir frá upphafi yfirstandandi reikningsárs til dagsetningarinnar sem [!INCLUDE[d365fin](includes/d365fin_md.md)] er stillt á og setur af stað útreikning á afskriftunum.
 
-Ef aðrar mótfærslur eru opnar eru einnig hægt að færa þær inn núna, til dæmis niðurfærsla og uppfærsla.  
+    Ef aðrar mótfærslur eru opnar eru einnig hægt að færa þær inn núna, til dæmis niðurfærsla og uppfærsla.  
+8. Þegar lokið er við að færa inn og bókað færslubókarlínur fyrir hverja eign, skal kveikja á fjárhagsheildun í afskriftarbókunum.
 
-Ef eignirnar eru ekki samþættar fjárhag er sleppt skrefum 4 til og með 7.
+Ef eignirnar eru ekki samþættar fjárhag er sleppt lið 6 og 8.
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning eigna](fa-setup.md)  

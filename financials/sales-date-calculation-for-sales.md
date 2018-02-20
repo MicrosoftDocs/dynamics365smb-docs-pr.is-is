@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4e8bc9e8b99db8afda83edb4aff13f5daf9f5a31
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c5cb056c7287f4c12b84dcece595a8e97c0a6214
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="date-calculation-for-sales"></a>Dagsetning útreiknings fyrir sölu.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar sjálfkrafa út hvenær hægt er að afhenda vöru á sölupöntunarlínu í fyrsta lagi.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  reiknar sjálfkrafa út hvenær hægt er að afhenda vöru á sölupöntunarlínu í fyrsta lagi.
 
 Hafi viðskiptamaðurinn farið fram á tiltekna afgreiðsludagsetningu þá er reiknuð út sú dagsetning sem vörurnar þurfa að vera tilbúnar þannig að afgreiðsla geti farið fram á þeim degi.
 
@@ -45,6 +45,6 @@ Ef ekki er tilgreind umbeðin afgreiðsludagsetning á sölupöntunarlínunni, e
 
 ## <a name="see-also"></a>Sjá einnig  
  [Dagsetning útreiknings fyrir kaup.](purchasing-date-calculation-for-purchases.md)   
- [Hvernig á að: Reikna dagsetningu pöntunarloforðs](sales-how-to-calculate-order-promising-dates.md)  
+ [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md)  
  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

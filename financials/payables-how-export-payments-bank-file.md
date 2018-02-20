@@ -13,25 +13,25 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db8f59a71b8a6afa26e878e189f8cb2ef85685e5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-export-payments-to-a-bank-file"></a>Hvernig á að: Flytja út greiðslur í bankaskrá
+# <a name="export-payments-to-a-bank-file"></a>Flytja út greiðslur í bankaskrá
 Þegar þú ert tilbúinn að inna af hendir greiðslur til lánardrottna, eða endurgreiðslur til starfsmanna, er hægt að flytja út skrá með greiðsluupplýsingum á línurnar í glugganum **Greiðslubók**. Þá er hægt að hlaða upp skránni í netbanka til að meðhöndla tengdan peningaflutning.
 
-Í almenn útgáfa af [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], er altæk þjónustuveita til að umbreyta bankagögnum í annað skráarsnið sem bankinn krefst að er uppsett og tengt. Í Norður-Ameríku útgáfum má nota sömu þjónustuvöru til að senda greiðslu skrám sem rafrænar millifærslu (EFT) en með ofurlítið annarri vinnslu. Sjá skref 6 í „til Að flytja út greiðslur til bankaskráar“ hlutanum.    
+Í almenn útgáfa af [!INCLUDE[d365fin](includes/d365fin_md.md)], er altæk þjónustuveita til að umbreyta bankagögnum í annað skráarsnið sem bankinn krefst að er uppsett og tengt. Í Norður-Ameríku útgáfum má nota sömu þjónustuvöru til að senda greiðslu skrám sem rafrænar millifærslu (EFT) en með ofurlítið annarri vinnslu. Sjá skref 6 í „til Að flytja út greiðslur til bankaskráar“ hlutanum.    
 
 > [!NOTE]  
->   Áður en hægt er að flytja út greiðsluskrár í greiðslubókina, verður að tiltaka rafrænt sniði bankareikningnum sem við á, og verður að virkja umbreytingarþjónustu fyrir bankagögn. Frekari upplýsingar, sjá [Hvernig á að: Setja á upp bankareikninga](bank-how-setup-bank-accounts.md) og [Hvernig á að: Setja upp umskráningarþjónusta fyrir bankagögn](bank-how-setup-bank-data-conversion-service.md). Þar að auki þarf að velja **Leyfa útflutning greiðslu** gátreiturinn á **Almennar Færslubókakeyrslur** glugganum. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).  
+>   Áður en hægt er að flytja út greiðsluskrár í greiðslubókina, verður að tiltaka rafrænt sniði bankareikningnum sem við á, og verður að virkja umbreytingarþjónustu fyrir bankagögn. Frekari upplýsingar eru í [Setja á upp bankareikninga](bank-how-setup-bank-accounts.md) og [Setja upp umskráningarþjónusta fyrir bankagögn](bank-how-setup-bank-data-conversion-service.md). Þar að auki þarf að velja **Leyfa útflutning greiðslu** gátreiturinn á **Almennar Færslubókakeyrslur** glugganum. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).  
 
 Glugginn **Skráningar kreditmillifærslna** er notaður til að skoða greiðsluskrár sem hafa verið fluttar út úr greiðslubókinni. Í þessum glugga er einnig hægt að endurflytja út greiðsluskrár ef um er að ræða tæknilegar villur eða breytingar á skrá. Þó er bent á að ekki eru sýndir í þessum glugga útflutt EFT skrár og þær geta ekki verið aftur útflutt.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Til að flytja út greiðslur í bankaskrá
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greiðslubækur** og velja svo viðeigandi tengil.
-2. Fyllið út greiðslubókarlínur, t.d. með aðgerðinni **Greiðslutillögur til lánardrottna**. Nánari upplýsingar má sjá í [Hvernig á að: Leggja til greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).
+2. Fyllið út greiðslubókarlínur, t.d. með aðgerðinni **Greiðslutillögur til lánardrottna**. Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).
 3. Fyllið út reitina í greiðslubókarlínunum eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -62,7 +62,7 @@ Eftirfarandi lýsir hvernig hægt er að vinna í kringum vandamál varðandi ú
 
 > [!CAUTION]  
 >   Tilbúin greiðsla færslubókarlínurnar er ekki hægt að bóka, eytt eða ógildur.
-1. Setja viðskiptamann upp sem lánardrottinn. Gefið því heitið „Viðskiptamaður X fyrir endurgreiðslur“, til dæmis. Nánari upplýsingar eru í [Hvernig á að skrá nýjan lánardrottnar](purchasing-how-register-new-vendors.md).
+1. Setja viðskiptamann upp sem lánardrottinn. Gefið því heitið „Viðskiptamaður X fyrir endurgreiðslur“, til dæmis. Nánari upplýsingar eru í [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md).
 2. Á greiðslubókarlínuna fyrir viðskiptamanninn, setjið **Reikningstegund** reitinn á **Viðskiptamanns**, og **Skjalategund** reitinn á **Endurgreiðsla**.
 3. Framkvæma venjulegur verkstigin til útflutnings greiðslu eins og lýst er í hlutanum „Að flytja út greiðslur til bankaskráar".
 
@@ -89,6 +89,4 @@ Hægt er að endurútflytja greiðsluskrár úr glugganum **Skráningar kreditmi
 [Viðskiptaskuldir](payables-manage-payables.md)  
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e6b691eae1663cdc93d851f531306c472291484
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c942b0e0dcdc025fdeca6373fe30b485a147ad2
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-inventory-costing"></a>Um birgðakostnað
@@ -36,8 +36,8 @@ Birgðakostnaði stjórnað snýst um skráningu og skýrslugerð rekstrarkostna
 |Kynntu þér hvernig kostnaðarleiðréttingar virka, en þær tryggja að kostnaður birtist jafnvel þó færslur eigi sér stað á handahófskenndan hátt.|[Hönnunarupplýsingar: kostnaðarleiðrétting](design-details-cost-adjustment.md)|  
 |Nánar um ástæðu þess að kostnaðarverð vöru er oft notað hjá framleiðslufyrirtækjum sem verðmætamat fyrir íhluti og endanlegar vörur.|[Um umreikning staðalkostnaðar](finance-about-calculating-standard-cost.md)|  
 |Nánar um hvernig birgðavirði birtist í færslubókinni.|[Tilkynna kostnað og afstemma við fjárhag](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
-|Nánar um hvernig kostnaðaraukar eins og frakt og tryggingar geta lagt aukakostnaðarliði við kostnaðarverð vöru.|[Hvernig skal: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)|  
-|Nánar um hvernig birgðatímabil aðstoða fyrirtæki við að stýra birgðavirði á tilteknum tíma, með því að skilgreina styttri tímabil sem má loka fyrir bókun eftir því sem líður á almanaksárið.|[Hvernig á að vinna með birgðatímabil](finance-how-to-work-with-inventory-periods.md)|  
+|Nánar um hvernig kostnaðaraukar eins og frakt og tryggingar geta lagt aukakostnaðarliði við kostnaðarverð vöru.|[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)|  
+|Nánar um hvernig birgðatímabil aðstoða fyrirtæki við að stýra birgðavirði á tilteknum tíma, með því að skilgreina styttri tímabil sem má loka fyrir bókun eftir því sem líður á almanaksárið.|[Vinna við birgðatímabil](finance-how-to-work-with-inventory-periods.md)|  
 |Skilja gagnverkið á bak við kostnaðarforritið, þar með talið hvað gerist þegar þegar bókuð er samsetning og framleiðslufærslur.|[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)|
 
 ## <a name="see-also"></a>Sjá einnig

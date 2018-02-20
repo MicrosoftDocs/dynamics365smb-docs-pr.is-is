@@ -1,6 +1,6 @@
 ---
 title: "Financials endurskoðandi upplifun | Microsoft Docs"
-description: "Kynntu þér Endurskoðandagáttina fyrir Dynamics 365 Business edition og Mitt hlutverk endurskoðanda sem styður við innri og ytri endurskoðandann í fyrirtæki viðskiptamanns."
+description: "Kynntu þér Endurskoðandagáttina fyrir Finance and Operations, Business Edition og Mitt hlutverk endurskoðanda sem styður við innri og ytri endurskoðandann í fyrirtæki viðskiptamanns."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f28bb6f02438dcc8dd00bf87fa2ccd9f02859641
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 594c4cca94ee23904eaadc913f0e29ef0590f3f8
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Endurskoðandi upplifun í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -24,9 +24,6 @@ ms.lasthandoff: 11/10/2017
 Mitt hlutverk er yfirlit með aðgerðarreitum sem sýna þér lykiltölur í rauntíma og veita þér skjótan aðgang að gögnum. Á borðanum efst í glugganum færðu aðgang að fleiri aðgerðum, eins og að opna þær fjárhagsskýrslur og yfirlit sem oftast eru notuð í Excel. Á yfirlitssvæðinu til vinstri geturðu skipt skjótt á milli listanna sem þú notar oftast. Ef þú útvíkkar **Heim** valmyndina á yfirlitssvæðinu, muntu sjá önnur svæði eins og t.d. **Bókuð fylgiskjöl** með mismunandi tegundum fylgiskjala sem fyrirtækið hefur bókað.  
 
 Ef þú þekkir ekki til [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu opnað myndbandalista frá heimasíðu þinni. Einnig er hægt að opna **Hafist handa** kynningu sem bendir á lykilsvæði.  
-
-> [!NOTE]  
->  Þessi virkni krefst þess að upplifunin sé stillt á **Suite**. Nánari upplýsingar má sjá í [Sérstillng Dynamics 365 upplifunar](ui-experiences.md).  
 
 ## <a name="accountant-hub"></a>Accountant Hub
 Ef þú ert endurskoðandi með nokkra viðskiptamenn, geturðu notað [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] til að fá betra yfirlit yfir viðskiptamenn þína. Þaðan hefurðu aðgang að sérhverjum leigjanda viðskiptamanna þinna í [!INCLUDE[d365fin](includes/d365fin_md.md)] og getur notað Endurskoðandi Mitt hlutverk eins og lýst er hér að ofan. Nánari upplýsingar er að finna í [Velkomin í [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
@@ -42,5 +39,5 @@ Ef þú ert endurskoðandi með nokkra viðskiptamenn, geturðu notað [!INCLUDE
 [Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md)  
 [Bjóða ytri endurskoðanda í þitt [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
 [Velkomin(n) í [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
-[Financials for Accountants á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Dynamics 365 - Accountant Hub á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

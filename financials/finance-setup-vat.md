@@ -13,14 +13,14 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 733405000725ccfca2a1bdd1bb2a893e6f5f3536
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5861071decd1feac9adf53783038f2927be3c930
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="setting-up-to-calculations-and-posting-methods-for-value-added-tax"></a>Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts
+# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts
 Neytendur og fyrirtæki greiða virðisaukaskatt (VSK) þegar þau kaupa vörur eða þjónustu. Upphæð VSK til greiðslu getur verið mismunandi, það fer eftir nokkrum þáttum. Í [!INCLUDE[d365fin](includes/d365fin_md.md)], setur þú upp VSK til að tilgreina taxtana til að nota til að reikna skattaupphæðir, byggt á eftirfarandi: 
 
 * Hverjum selt er  
@@ -40,7 +40,20 @@ Mælt er með að nota VSK-uppsetningarleiðsögn með hjálp til að setja upp 
 
 Til að ræsa uppsetningleiðbeiningar með hjálp, fylgið þessum skrefum:
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning með aðstoð**.  
-2. Velja **VSK Uppsetning**.
+2. Veljið **Uppsetning VSK**.
+
+## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Til að setja upp VSK-númer fyrir þitt land eða svæði
+Til að ganga úr skugga um að rétt VSK-númer séu slegin inn er hægt að skilgreina snið fyrir VSK-númer sem eru notuð í löndum eða svæðum þar sem viðskipti notanda eru stunduð. [!INCLUDE[d365fin](includes/d365fin_md.md)] mun birta villuboð þegar einhver gerir mistök eða nota snið sem er rangt fyrir landið eða svæðið.
+
+Til að setja upp VSK-númer skal fylgja eftirfarandi skrefum:
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Lönd/svæðiaðstoð**.
+2. Velja skal landið eða svæðið og svo agðerðina **Snið VSK-númers**.
+3. Í reitnum **Snið** skal skilgreina sniðin með því að slá inn einn eða fleiri eftirfarandi stafa:  
+  
+    |----|----| | # | Krefst númers sem er ein tala. | | @ | Krefst stafs. Há- og lágstafir skipta ekki máli. | | ? | Leyfir hvaða staf sem er. |
+  
+    > [!Tip]
+    > Hægt er að nota þessa stafi svo framarlega sem þeir eru alltaf til staðar í sniði landsins eða svæðisins. Ef t.d. þarf að hafa með punkt eða bandstrik milli talna skal skilgreina sniðið sem ##.####.### or @@-###-###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>Uppsetning VSK-viðskiptabókunarflokka
 VSK-viðskiptabókunarflokkar á að tákna markaðina þar sem þú stundar viðskiptum við viðskiptamenn og lánardrottna, og tilgreina hvernig á að reikna og bóka VSK á sérhverjum markaði. Dæmi um VSK viðskiptabókunarflokka eru **Innanlands** og **Evrópusambandið (ESB)**.  
@@ -64,7 +77,7 @@ Til að setja upp VSK-viðskiptabókunarflokk er þessu skrefum fylgt:
 2. Fyllið inn í reitina eftir þörfum.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Sameina VSK-bókunarflokka og VSK-bókunaruppsetningar
-[!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar VSK-upphæðir í sölu og innkaup á grundvelli VSK-bókunaruppsetninga, sem eru samsetningar VSK-viðskipta- og vörubókunarflokka. Fyrir hverja samsetningu geturðu valið VSK-prósenta, VSK-útreikningstegund, og fjárhagsreikninga fyrir bókun VSK sem tengist sölu, innkaupum, og bakfærðum gjöldum. Einnig er hægt að tilgreina hvort endurreikna skal VSK þegar greiðsluafsláttur er veittur eða fenginn.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  reiknar VSK-upphæðir í sölu og innkaup á grundvelli VSK-bókunaruppsetninga, sem eru samsetningar VSK-viðskipta- og vörubókunarflokka. Fyrir hverja samsetningu geturðu valið VSK-prósenta, VSK-útreikningstegund, og fjárhagsreikninga fyrir bókun VSK sem tengist sölu, innkaupum, og bakfærðum gjöldum. Einnig er hægt að tilgreina hvort endurreikna skal VSK þegar greiðsluafsláttur er veittur eða fenginn.  
 
 Hægt er að setja upp ótakmarkaðan fjölda samsetninga. Ef flokka á saman samsetningar VSK-bókunaruppsetninga með svipaða eiginleika, er hægt að tilgreina **Kennimerki VSK** fyrir hvern flokk og úthluta kenninu til flokksmeðlimanna.
 
@@ -235,4 +248,4 @@ Breytingarverkfæri VSK-hlutfalls er notað til að stjórna breytinum á stöð
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning á óinnleystum virðisaukaskatti](finance-setup-unrealized-vat.md)  
 [Hvernig á að: Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
-[Hvernig á að: vinna með VSK í sölu og innkaupum](finance-work-with-vat.md)  
+[Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  

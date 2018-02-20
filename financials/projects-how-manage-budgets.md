@@ -13,16 +13,16 @@ ms.search.keywords: project budget, forecast
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0e480c67ddb2acd5e98799c98cb1cd9d972889df
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e88eaebf65d950dcbb6c0296be24e68628a9494e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-job-budgets"></a>Hvernig á að: Vinna með verkáætlanir
+# <a name="manage-job-budgets"></a>Umsjón fjárhagsáætlana fyrir eignir
 Hægt er að setja upp áætlun fyrir hvert verk. Áætlunin er notuð til að áætla forðann sem hægt er að úthluta verki. Áætlunin getur verið almenns eðlis með fáeinum færslum eða með mörgum færslum sem skiptast í aðgerðastig. Svo er hægt að bera áætlaðar upphæðir saman við raunverulega notkun eins og hún birtist í verkbókinni. Með því að fylgjast með mismuni á milli raunnotkun og áætlaðri notkun er hægt að stýra yfirstandandi verkefni og auka gæði síðari verka með því að draga úr hættu á að kostnaður sé vanmetinn.
 
-Eftirfarandi aðferð lýsir því hvernig á að meta áætlaðan kostnað við áætlun. Upplýsingar um skráningu áætlunar samanborið við raunverulegt verð og kostnað verks má sjá í [Hvernig á að: Skrá notkun vegna verka](projects-how-record-job-usage.md).  
+Eftirfarandi aðferð lýsir því hvernig á að meta áætlaðan kostnað við áætlun. Upplýsingar um skráningu áætlaðra- og raunverða verka og kostnað er að finna í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).  
 
 ## <a name="JobBudgetCosts"></a> Til að áætlað kostnað verks
 Þegar viðskiptavinur vill vita verð verks sem verður reikningsfært samkvæmt notkun þarf að ákvarða áætlaðan kostnað verksins. Glugginn **Verkhlutalínur** er notaður til þess.
@@ -48,7 +48,7 @@ Fyrir reitinn **Línugerð** skal vísa til eftirfarandi upplýsinga.
 
 Í glugganum **Verkspjald** er nú hægt að sjá yfirlit yfir samanlagðan áætlaðan kostnað, áætlað verð, reikningshæfan kostnað og reikningshæft verð fyrir hvert verk.
 
-Upplýsingar um skráningu áætlunar samanborið við raunverulegt verð og kostnað verks má sjá í [Hvernig á að: Skrá notkun vegna verka](projects-how-record-job-usage.md).
+Upplýsingar um skráningu áætlaðra- og raunverða verka og kostnað er að finna í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Verkefnastjórnun](projects-manage-projects.md)  

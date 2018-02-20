@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1f3a90b9bc9cce2e138e490d3064f6d505a088b9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ec7a0c7c34e164b6ca6c8e65938a8c5e53e65514
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-bin-contents"></a>Hvernig á að: stofna Innihald hólfs
+# <a name="create-bin-contents"></a>Stofna innihald hólfs
 Þegar búið er að setja upp hólfin er hægt að setja upp innihald þeirra. Þ.e.a.s., hægt er að setja upp vörurnar sem á að geyma í hverju hólfi og setja reglurnar stjórna því hvaða tiltekin vara er sett í hólfið. Þú getur gert þetta handvirkt í glugganum **Hólfainnihald** eða sjálfvirkt með glugganum **Stofna Hólfainnihald vinnublað**.
 
 ## <a name="to-create-bin-content-manually"></a>Stofna Innihald hólfs handvirkt  
@@ -56,7 +56,7 @@ Ef gátmerki er sett inn í reitinn **Fast** er varan fest við hólfið sem þ�
 Á þessu vinnublaði er hægt að vinna með nokkrar hólfainnihaldslínur fyrir nokkur hólf og fá þannig gott yfirlit yfir hvað er sett í hin ýmsu hólf á tilteknu svæði, gangi eða rekka.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að Reikna út áfyllingu hólfs](warehouse-how-to-calculate-bin-replenishment.md)    
+[Reikna út áfyllingu hólfs](warehouse-how-to-calculate-bin-replenishment.md)    
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     

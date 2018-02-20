@@ -1,6 +1,6 @@
 ---
-title: "Reikningsfærið bókanir í Dynamics 365 | Microsoft Docs"
-description: "Fræðist um hvernig á að framkvæma magnreikningsfærslu frá Microsoft Bookings í Dynamics 365 Business edition."
+title: "Reikningsfærsla bókana í Finance and Operations, Business Edition | Microsoft Docs"
+description: "Fræðist um hvernig á að framkvæma magnreikningsfærslu frá Microsoft Bookings í Finance and Operations, Business Edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: invoicing, bookings
 ms.date: 06/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 154a4719cdd0e28280c5b0a5de85479beb0b9262
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d387bbbf59550a6ca11dff534b76683a07808ca4
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Magnreikningsfærsla frá Microsoft Bookings í [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,11 +28,11 @@ Ef þú vilt til dæmis samstilla viðskiptavini á milli Bookings og [!INCLUDE[
 ## <a name="invoice-appointments"></a>Reikningsfæra fundi
 Þegar tímabært er að senda reikninga fyrir fullunnar bókanir, ferðu inn á síðuna **Óreikningsfærðar bókanir**. Það hvort listinn er langur eða stuttur fer eftir því hversu oft upplýsingarnar eru samstilltar. Hægt er að stofna reikninga fyrir allar bókanir á listanum eða eina í einu. Hægt er að velja eina eða fleiri færslur á listanum og reikningsfæra þær sérstaklega.  
 
-Notendaþjónustan varðandi reikningsfærða fundi í Bookings er einfaldari en vinnsla með fullu verkflæði sölutilboða, sölupantana og sölureikninga. Nánari upplýsingar eru í [Hvernig á að reikningsfæra sölu](sales-how-invoice-sales.md). Þú getur valið að selja þjónustu þína með því að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] eða að nota Bookings, allt eftir eðli viðskipta þinna.  
+Notendaþjónustan varðandi reikningsfærða fundi í Bookings er einfaldari en vinnsla með fullu verkflæði sölutilboða, sölupantana og sölureikninga. Frekari upplýsingar eru í [Reikningsfæra sölur](sales-how-invoice-sales.md). Þú getur valið að selja þjónustu þína með því að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] eða að nota Bookings, allt eftir eðli viðskipta þinna.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  
-[Hvernig er reikningsfært](sales-how-invoice-sales.md)  
+[Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
 

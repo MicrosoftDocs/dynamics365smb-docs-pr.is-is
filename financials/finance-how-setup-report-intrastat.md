@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 973c42642f88024de9d8924b675496015ce60983
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4b4fde6f005c992b63856ec4afadbb689532ac16
 ms.contentlocale: is-is
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Hvernig skal: Setja upp og skrá Intrastat
@@ -85,7 +85,7 @@ Keyrslan sækir allar birgðafærslur á upplýsingatímabilinu og setur þær i
 > [!IMPORTANT]  
 >  Keyrslan sækir aðeins þær færslur sem eru með lands-/svæðiskóða og fengið hafa Intrastatkóða á síðunni **Lönd/svæði**. Þess vegna er brýnt að færa inn Intrastatkóta fyrir lands-/svæðiskótana sem keyrslan er fyrir.  
 
-### <a name="how-to-report-intrastat-on-a-form-or-a-file"></a>Hvernig á að senda Intrastat-skýrslu á eyðublaði eða sem skrá.
+### <a name="report-intrastat-on-a-form-or-a-file"></a>Senda Intrastat-skýrslu á eyðublaði eða sem skrá
 Prenta þarf skýrsluna **Intrastat – Eyðublað** til að fá upplýsingarnar sem þarf fyrir INTRASTAT-eyðublaðið frá hagstofu. Áður en hægt er að gera þetta þarf að undirbúa Intrastatbókina og fylla hana út. Ef bæði er um sölu- og innkaupafærslur að ræða þarf að fylla út sérstakt eyðublað fyrir hvora tegundina fyrir sig svo að þörf er á að prenta skýrsluna tvisvar.  
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Intrastatbækur** og velja svo viðeigandi tengil.  
@@ -95,7 +95,7 @@ Prenta þarf skýrsluna **Intrastat – Eyðublað** til að fá upplýsingarnar
 5. Á flýtiflipanum **Intrastatbókalína** er bætt við afmörkuninni **Tegund** til að velja einn af eftirfarandi valkostum: **Móttaka** eða **Afhending**.  
 6. Til að prenta skýrsluna skal velja **Senda til**.  
 
-### <a name="how-to-report-intrastat-in-a-file"></a>Hvernig á að senda Intrastat-skýrslu sem skrá.
+### <a name="report-intrastat-in-a-file"></a>Senda Intrastat-skýrslu sem skrá
 Hægt er að senda Intrastat-skýrsluna sem skrá. Áður en skráin er búin til er hægt að prenta gátlista með upplýsingunum sem verða í skránni.  
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Intrastatbók** og velja svo viðeigandi tengil.  
@@ -106,7 +106,7 @@ Hægt er að senda Intrastat-skýrsluna sem skrá. Áður en skráin er búin ti
 6. Velja **Vista**.  
 7. Flett er að möppunni þar sem vista á skrána og skráarheiti fært inn og síðan valið **Vista**.
 
-## <a name="how-to-reorganize-intrastat-journals"></a>Hvernig á að Endurskipuleggja Intrastatbækur
+## <a name="reorganize-intrastat-journals"></a>Endurskipuleggja Intrastatbækur
 Þar sem Intrastat-skýrslu þarf að senda inn mánaðarlega og búa til nýja færslubókarkeyrslu fyrir hverja þeirra, muntu að lokum hafa margar bókarkeyrslur. Færslubókarlínurnar eyðast ekki sjálfkrafa. Ef til vill á að endurraða heitum færslubókarkeyrslnanna eftir tímabilum. Það er gert með því að eyða færslubókarkeyrslunum sem ekki er lengur þörf fyrir. Færslubókarlínunum í þessum keyrslum er einnig eytt.  
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Intrastatbækur** og velja svo viðeigandi tengil.  
@@ -115,6 +115,4 @@ Hægt er að senda Intrastat-skýrsluna sem skrá. Áður en skráin er búin ti
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármálastjórnun](finance.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

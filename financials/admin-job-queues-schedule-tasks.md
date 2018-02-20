@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6dc45cfcff07bfb36f363121298cd0f68b9ce7fe
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Nota verkraðir til að tímaraða verkhlutum
@@ -25,7 +25,7 @@ Glugginn **Verkraðarfærslur** birtir öll núverandi verk. Ef bætt er inn ný
 
 Einnig er hægt að velja afmörkun sem gildir í reitnum **Afmörkun flokks verkraðar**. Flokka verkraðar má nota til að flokka verk sem eru á listanum.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] keyrir verkin sjálfvirkt samkvæmt tilteknum tímasetningum fyrir hverja verkraðarfærslu. Þú getur einnig byrjað, stoppað og slegið verkraðarfærslu á frest handvirkt.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  keyrir verkin sjálfvirkt samkvæmt tilteknum tímasetningum fyrir hverja verkraðarfærslu. Þú getur einnig byrjað, stoppað og slegið verkraðarfærslu á frest handvirkt.
 
 ### <a name="log-files"></a>Kladdaskrár
 Villur eru taldar upp í glugganum **Skráarfærslur verkraðar** sem þú getur farið inn í gegnum borðann. Einnig er hægt að leita úrræða vegna verkraðarvillna. Gögn sem verða til þegar verkröð er keyrð eru geymd í gagnagrunninum.  
@@ -35,7 +35,7 @@ Verkraðir eru áhrifaríkt verkfæri til að raða notkun viðskiptaferla í ba
 
  Einnig er hægt að á að áætla bókanir fyrir tíma hentugum fyrir fyrirtækið. Til dæmis getur það verið við hæfi í fyrirtæki notanda að keyra tilteknar vinnslur þegar flestum gagnafærslum fyrir daginn er lokið. Þú getur náð þessu fram með því að láta verkröðina keyra mismunandi bókunarskrár í runu, eins og t.d. skrárnar **Bókunarsölupantanir í runu**, **Bókunarsölureikningar í runu**, og **Bókunarsölukreditreikningar í runu**.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] styður bakgrunnsbókun fyrir eftirfarandi tegundir skjala:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  styður bakgrunnsbókun fyrir eftirfarandi tegundir skjala:  
 
 -   Sala: sölupöntun, vöruskilapöntun, kreditreikningur, reikningur  
 
@@ -52,7 +52,7 @@ Verkraðir eru áhrifaríkt verkfæri til að raða notkun viðskiptaferla í ba
 >  Ef þú setur upp verk sem mun bóka og prenta skjöl, og prentarinn sýnir svarglugga, svo sem beiðni um auðkennisupplýsingar eða viðvörun um að blek sé að klárast, bókast fylgiskjalið en prentast ekki út. Samsvarandi verkraðarfærsla rennur á endanum út á tíma og reiturinn **Staða** stillist á **Villa**. Ekki er mælt með notkun prentarauppsetningar sem krefst samskipta við svarglugga prentara samhliða bakgrunnsbókunar.  
 
 ## <a name="use-the-my-job-queue-part"></a>Nota Mín Verkröð hlutann
-Hlutinn **Mín verkröð** sýnir verkraðarfærslurnar sem notandi hefur hafið, en er ekki lokið enn. Að sjálfgefnu er hlutinn ekki sjáanlegur, þannig að þú veður að bæta honum inn í Hlutverkamiðstöðina þína. Nánari upplýsingar sjá [Hvernig skal: Breyta Hlutverkamiðstöðvum](change-role.md).  
+Hlutinn **Mín verkröð** sýnir verkraðarfærslurnar sem notandi hefur hafið, en er ekki lokið enn. Að sjálfgefnu er hlutinn ekki sjáanlegur, þannig að þú veður að bæta honum inn í Hlutverkamiðstöðina þína. Frekari upplýsingar eru í [Breyta Mitt hlutverk](change-role.md).  
 
 Í þessum hluta er hægt að sjá fylgiskjölin sem verið er að vinna úr eða þau sem eru í bið fyrir það sem auðkennið tilgreinir í reitnum **Úthlutað notandakenni**. Hlutinn hjálpar til við að halda utan um allar verkraðarfærslur, þar á meðal þær sem tengjast bakgrunnsbókun. Hlutinn gefur til kynna á svipstundu hvort um villu hafi verið að ræða við bókun skjals eða hvort það hafi verið villur í verkraðarfærslu. Hlutinn býður einnig upp á að hætta við bókun skjals ef hún er ekki í gangi.  
 
@@ -68,6 +68,6 @@ Verkraðarfærslur keyra á grundvelli heimilda. Þessar heimildir verða að le
 Verkraðarfærsluskrá er með marga reiti sem hafa þann tilgang að setja færibreytur í codeunit sem tilgreind hefur verið til keyrslu með verkröð. Þetta þýðir einnig að kóðaeiningar sem á að keyra með verkröðinni verður að tilgreina með skránni Verkraðarfærsla sem færibreytur í **OnRun** rofanum. Þetta stuðlar að auknu öryggi, þar sem þetta kemur í veg fyrir að notendur keyri tilviljanakenndar kóðaeiningar gegnum verkröðina. Þurfi notandi að senda færibreytur í skýrslu er eina leiðin til að gera það að vefja skýrslukeyrslunni í kótaeiningu sem þáttar inntaksbreyturnar og skráir þær í skýrsluna fyrir keyrslu hennar.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Uppsetning og stjórnun í Dynamics 365 for Financials](admin-setup-and-administration.md)  
-[Uppsetning Dynamics 365 for Financials](setup.md)  
+[Uppsetning og stjórnun í Finance and Operations, Business Edition](admin-setup-and-administration.md)  
+[Uppsetning Finance and Operations, Business Edition](setup.md)  
 

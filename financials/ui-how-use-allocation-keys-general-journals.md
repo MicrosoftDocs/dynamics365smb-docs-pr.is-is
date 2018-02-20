@@ -1,5 +1,5 @@
 ---
-title: "Hvernig á að nota úthlutunarlykla í færslubókum | Microsoft Docs"
+title: "Nota úthlutunarlykla í færslubókum | Microsoft Docs"
 description: "Lærðu hvernig þú getur notað úthlutunarlykla í færslubókum."
 services: project-madeira
 documentationcenter: 
@@ -13,13 +13,13 @@ ms.search.keywords: cost accounting
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bbacf9b5634d51478dd4d54ac4b587ea9bfaaf99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ee3e0f325623666eb720e3cc2656cfd1f6332eb
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-allocation-keys-in-general-journals"></a>Hvernig á að nota úthlutunarlykla í færslubókum
+# <a name="use-allocation-keys-in-general-journals"></a>Nota úthlutunarlykla í færslubókum
 Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. Úthlutunin getur verið í magni, prósentu eða upphæð.
 
 ## <a name="to-set-up-allocation-keys"></a>setja upp úthlutunarlykla

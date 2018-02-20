@@ -11,15 +11,15 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d7bcb866d5f69e77e5a175d0b73e8ac03cf09d98
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3ee160e2c38107aea1342b51d729aa172bbbc3e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# <a name="how-to-create-a-sandbox-environment"></a>Hvernig skal: Stofna sandkassaumhverfi
+# <a name="create-a-sandbox-environment"></a>Búa til sandkassaumhverfi
 Sandkassaumhverfi (Forskoðun) er tilvik af [!INCLUDE[d365fin](includes/d365fin_md.md)] ótengt framleiðslu. Sandkassaumhverfi er staðurinn, ótengdur framleiðslu, þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa þjónustuna í öruggu umhverfi án þess að eiga á hættu að hafa áhrif á gögnin eða stillingarnar í framleiðsluumhverfi þínu.
 
 ## <a name="to-create-a-sandbox-environment"></a>Búa til sandkassaumhverfi
@@ -44,7 +44,7 @@ Búinn hefur verið til glænýr leigjandi í sandkassaumhverfinu. Þessi leigja
 > [!NOTE]  
 >  Endurstilling sandkassaumhverfisins mun eyða því algerlega og síðan stofna það á ný með sjálfgefnum sýnigögnum.  
 
-8.  Notaðu Dynamics 365 gangsetjara smáforrita til að skipta á milli framleiðslu- og sandkassaumhverfisins.
+8.  Notaðu Finance and Operations, Business Edition gangsetjara smáforrita til að skipta á milli framleiðslu- og sandkassaumhverfisins.
 ![Sandkassi  Dynamics365 Valmynd](./media/across-sandbox/sandbox-dynamics365-menu.png)
 
 9.  Það mögulegt fyrir stjórnanda eða annan notanda að takmarka eða jafnvel hindra aðganga sumra notenda að sandkassaumhverfinu. Þetta er hægt að gera með því að nota staðlaða öryggiseiginleika vörunnar, eins og t.d. Notandakort, Notendaflokkar og Heimildasamstæður.

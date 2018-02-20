@@ -13,10 +13,10 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 694affae6dfe3015fdc73bf9e2d9dfe3357dfae7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 40f8d00c8ee064fdee4b676e4863279ec9e50d6d
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Tengjast við Financials gögnin til að búa til viðskiptaforrit með því að nota PowerApps.
@@ -32,7 +32,7 @@ Notandi getur gert [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín aðg
 
    PowerApps Studio fyrir Windows er skjáborðsforrit sem notað er til að stofna og birta PowerApps. PowerApps Studio fyrir vef er skjáborðsforrit sem notað er til að stofna og birta PowerApps.
 4. Næsta skrefið til að búa til PowerApp er að velja gögn. Veldu örtáknið og veldu svo valkostinn **Ný tenging** á efri hluta síðunnar, vinstra megin.
-5. Úr lista yfir tiltækar tengingar skal velja **Dynamics 365 Business edition**.
+5. Úr lista yfir tiltækar tengingar skal velja **Dynamics 365 for Finance and Operations, Business Edition**.
 6. PowerApps birtir tengisíðu sem sendir áminningu um upplýsingarnar sem gefa þarf upp til að tengja notanda við [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín. Til að tengjast verður að tilgreina OData-vefslóð, notandanafn, aðgangsorð og heiti fyrirtækis.
 
    Til að finna *OData vefslóð* getur notandi afritað OData V4 vefslóð fyrir hverja þeirra vefþjónusta sem taldar eru upp á síðunni **Vefþjónustur** í [!INCLUDE[d365fin](includes/d365fin_md.md)], svo sem `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
@@ -51,7 +51,7 @@ Notandi getur gert [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín aðg
    > [!NOTE]  
 >    Þegar notanda hefur tekist að tengjast [!INCLUDE[d365fin](includes/d365fin_md.md)] verður hann ekki beðinn aftur um OData-vefslóð, notandanafn eða aðgangsorð.
 
-Nú hefur notanda tekist að tengjast gögnum sínum í Dynamics 365 og getur byrjað að byggja upp PowerApp. Frekari upplýsingar eru í [PowerApps skjölum](https://powerapps.microsoft.com/tutorials/getting-started/).
+Nú hefur notanda tekist að tengjast gögnum sínum í Finance and Operations, Business Edition og getur byrjað að byggja upp PowerApp. Frekari upplýsingar eru í [PowerApps skjölum](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## <a name="see-also"></a>Sjá einnig
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d82961b41266f645f87b79555171891cd2ce828f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1a95163c861cf9691c5f82e4815df6d87a135ed6
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-posting"></a>Þjónustubókun
@@ -23,7 +23,7 @@ Aðgerðin bókun þjónustu gerir skilvirka vinnslu á skjölum notandans mögu
 > [!NOTE]  
 >  Eftirfarandi lýstir þjónustubókun burtséð frá því hvernig vörur eru efnislega meðhöndlaðar í vöruhúsinu.  
 >   
->  Í þeim birgðageymslum sem ekki þurfa vöruhúsaafgreiðslu er bókun framkvæmd beint úr glugganum **Þjónustulínur**. Í birgðageymslum sem nota vöruhúsaafgreiðslu eru bókunaraðgerðirnar, fyrir utan Afhenda og Nota, framkvæmdar óbeint með ýmsum afhendingaraðgerðum vöruhúsa, eftir uppsetningu. Frekari upplýsingar, sjá [Hvernig á að: tína Vörur með Birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md)  
+>  Í þeim birgðageymslum sem ekki þurfa vöruhúsaafgreiðslu er bókun framkvæmd beint úr glugganum **Þjónustulínur**. Í birgðageymslum sem nota vöruhúsaafgreiðslu eru bókunaraðgerðirnar, fyrir utan Afhenda og Nota, framkvæmdar óbeint með ýmsum afhendingaraðgerðum vöruhúsa, eftir uppsetningu. Frekari upplýsingar, sjá [Tína vörur með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Afhenda  
 Afhendingarvalkosturinn gerir kleift að skrá viðkomandi vörur og tímasetningu færslu í línur þjónustupöntunarinnar þegar þjónustu er lokið. Bókuð afhending er búin til og einingin Birgðir og aðrar einingar eru uppfærðar í [!INCLUDE[d365fin](includes/d365fin_md.md)] og gefur þannig til kynna að vörurnar hafi verið fjarlægðar úr birgðum og sendar viðskiptamanni. Einkum eru framleiddar birgðafærslur, virðisfærslur, þjónustufærslur og ábyrgðarfærslur.  
@@ -56,6 +56,6 @@ Eftirfarandi aðgerð notast við bókaðan þjónustureikning sem dæmi, en sam
     Glugginn **Upplýsingar um þjónustupöntun** opnast. Glugginn sýnir upplýsingar á borð við magn, upphæð, VSK, kostnað, framlegð og hámarksskuld viðskiptamanns fyrir bókaða fylgiskjalið.
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að bóka Þjónustupantanir](service-how-to-post-service-orders.md)   
-[Hvernig á að: Stofna Þjónustupantanir](service-how-to-create-service-orders.md)
+[Bóka þjónustupantanir](service-how-to-post-service-orders.md)   
+[Stofna þjónustupantanir](service-how-to-create-service-orders.md)
 

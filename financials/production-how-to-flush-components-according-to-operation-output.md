@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b58e897768848b50232b360f3822846d6dd316df
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f61e3150f1978795a20d4ad68656d6d1e72402a0
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-flush-components-according-to-operation-output"></a>Hvernig á að birgðaskrá íhluti samkvæmt frálagi aðgerða
+# <a name="flush-components-according-to-operation-output"></a>Birgðaskráning íhluta samkvæmt frálagi aðgerðar
 Fyrir vörur sem hafa verið settar upp með afturvirkri birgðaskráningu er sjálfgefin virkni að reikna út og bóka notkun íhluta þegar stöðu útgefinnar framleiðslupöntunar er breytt í **Lokið**.  
 
-Ef leiðartengilskótar eru einnig skilgreindir verður reiknað og bókað eftir hverja aðgerð og magnið sem var raunverulega notað í aðgerðinni bókað. Frekari upplýsingar, sjá [Hvernig skal: Stofna leiðir](production-how-to-create-routings.md).  
+Ef leiðartengilskótar eru einnig skilgreindir verður reiknað og bókað eftir hverja aðgerð og magnið sem var raunverulega notað í aðgerðinni bókað. Nánari upplýsingar eru í [Stofna leiðir](production-how-to-create-routings.md).  
 
 Til dæmis ef framleiðslupöntun um að framleiða 800 metra krefst 8 kg af íhlut, og ef 200 metrar eru bókaðir sem frálag, bókast 2 kg sjálfkrafa sem notkun.  
 
@@ -43,7 +43,7 @@ Eftirfarandi ferli sýnir hvernig eigi að sameina afturvirka birgðaskráningu 
     >  Veljið **Tínsla + Áfram** ef íhluturinn er notaður í birgðageymslu sem er sett upp fyrir beinan frágang og tínslu.  
 
 4.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **leiðir** og velja svo viðeigandi tengil.  
-5.  Skilgreina leiðartengilskóða fyrir hverja aðgerð sem notar íhlutinn. Frekari upplýsingar, sjá [Hvernig skal: Stofna leiðir](production-how-to-create-routings.md).  
+5.  Skilgreina leiðartengilskóða fyrir hverja aðgerð sem notar íhlutinn. Nánari upplýsingar eru í [Stofna leiðir ](production-how-to-create-routings.md).  
 6.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Framleiðsluuppskrift** og velja svo viðeigandi tengil.  
 7.  Skilgreina leiðartengilskóta úr hverju íhlutstilviki við aðgerðina þar sem hann er notaður.
 
@@ -51,7 +51,7 @@ Eftirfarandi ferli sýnir hvernig eigi að sameina afturvirka birgðaskráningu 
     >  Íhluturinn verður að hafa leiðartengil við síðustu aðgerð leiðarinnar.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að stofna nýjar framl.uppskriftir](production-how-to-create-production-boms.md)  
+[Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)    
 [Áætlun](production-planning.md)   

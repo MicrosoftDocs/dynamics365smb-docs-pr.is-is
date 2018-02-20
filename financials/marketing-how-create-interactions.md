@@ -1,6 +1,6 @@
 ---
 title: "Búa til samskipti á tengiliði og hluta| Microsoft Docs"
-description: "Lýsir hvernig á að stofna samskipti á milli þín og tengiliða og hluta í Dynamics 365, eins og til dæmis beint tölvupóstsamband."
+description: "Lýsir hvernig á að stofna samskipti á milli þín og tengiliða og hluta í Finance and Operations, Business Edition, eins og til dæmis beint tölvupóstsamband."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 57cbc08ab2e05777fae54018fe714d44b64d14e0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 93d5bc9fd8189d5a8341faa252de9eac257901d2
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-interactions-on-contacts-and-segments"></a>Hvernig á að stofna Samskipti á tengiliðum og hlutum
+# <a name="create-interactions-on-contacts-and-segments"></a>Búa til samskipti á tengiliði og hluta
 Hægt er að stofna samskipti til að skrá öll samskipti við viðskiptavinina og hlutana, til dæmis markpóstur.
 
 Áður en hægt er að stofna samskipti þarf að setja upp samskiptasniðmát. Til að fá nánari upplýsingar sjá  [Setja upp samskiptasniðmát](marketing-interactions.md).
@@ -54,5 +54,5 @@ Ef gátreiturinn **Stofna eftirfylgnihluta** er valinn verður nýr hluti búinn
 [Vinna með tengiliði](marketing-contacts.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Uppsetning tengslastjórnunar](marketing-setup-marketing.md)  
-[Unnið með Dynamics 365](ui-work-product.md)
+[Unnið með Finance and Operations, Business Edition](ui-work-product.md)
 

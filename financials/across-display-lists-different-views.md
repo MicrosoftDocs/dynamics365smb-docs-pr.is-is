@@ -13,10 +13,10 @@ ms.search.keywords: personalization
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 35a075d5c77dfacb4f817446ebdfd0f137a19a1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f3ba7676ec2312c78b9d3cc7883f79db936cb2d7
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="displaying-lists-in-different-ways"></a>Birting lista á mismunandi hátt
@@ -28,6 +28,6 @@ ms.lasthandoff: 11/10/2017
 Hægt er að flytja inn mynd fyrir tiltekna vöru með því að fara í spjaldið **Vara** og velja hægra megin **Mynd** og velja síðan **Flytja inn**. Á sama hátt er hægt að flytja út mynd yfir í skrá eða eyða mynd fyrir vöruna.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Unnið með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
-[Hvernig á að Skrá nýjar vörur](inventory-how-register-new-items.md)  
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Skrá nýjar vörur](inventory-how-register-new-items.md)  
 

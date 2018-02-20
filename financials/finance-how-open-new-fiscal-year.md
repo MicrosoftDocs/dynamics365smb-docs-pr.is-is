@@ -11,13 +11,13 @@ ms.search.keywords: accounting year, fiscal period
 ms.date: 07/17/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1ae20c24b4a75a897a1bc7bc7f34898539a75449
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da22c77f35c1a893d3ee80fb6468553670977686
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-open-a-new-fiscal-year-and-create-accounting-periods"></a>Hvernig á að: Opna nýtt reikningsár og stofna reikningstímabil
+# <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Opna nýtt reikningsár og stofna reikningstímabil
 Áður en hægt er að bóka á reikningsár þarf að opna reikningsárið og tilgreina fjárhagstímabil þess.  
 
 Í mörgum fyrirtækjum samsvarar reikningsárið ekki almanaksárinu. Fjárhagstímabil er hægt að mæla í öðrum tímaeiningum, eins og mánuðum eða fjórðungum. Þú getur notað **stofna fjárhagsár** gluggann til að setja upp reikningstímabilin sem þitt fyrirtæki þarfnast. Hinsvegar,   
@@ -34,8 +34,8 @@ Reikningstímabilunum er bætt við síðuna með reitina **Upphafsdagsetning** 
 
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að tilgreina Bókunartímabil](finance-how-specify-posting-periods.md)  
-[Hvernig á að bóka lokafærslu árslokareiknings](year-how-post-year-end-close-entry.md)  
+[Tilgreina bókunartímabil](finance-how-specify-posting-periods.md)  
+[Bóka lokafærslu ársloka](year-how-post-year-end-close-entry.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: "Viðbætur Dynamics 365 Business edition frá öðrum fyrirtækjum | Microsoft Docs"
-description: "Telur upp forrit og viðbætur sem sérstilla Dynamics 365 Business edition frá öðrum fyrirtækjum."
+title: "Viðbætur Finance and Operations, Business Edition frá öðrum fyritækjum | Microsoft Docs"
+description: "Telur upp forrit og viðbætur sem sérstilla Finance and Operations, Business Edition frá öðrum fyrirtækjum."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8d4c4c36cfa2900fdd64f1131eb7eb808aeb77b3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 977ff27512508a6d7a742ac7c7f0a396ee74e2e4
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="microsoft-dynamics-365-business-edition-extensions-by-other-providers"></a>Microsoft Dynamics 365 Business edition viðbætur frá öðrum veitum
+# <a name="microsoft-finance-and-operations-business-edition-extensions-by-other-providers"></a>Microsoft Finance and Operations, Business Edition viðbætur frá öðrum veitum
 Á [AppSource.microsoft.com](https://appsource.microsoft.com/), er hægt að fá viðbætur fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sumar viðbætur eru veittar af Microsoft, og aðrar viðbætur eru veittar af öðrum fyrirtækjum. Við vísum í vefsvæði sem þessi fyrirtæki veita fyrir frekari upplýsingar um viðbæturnar sem eru ekki birtar af Microsoft. Hægt er að skoða þessar upplýsingar á [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 Listi yfir viðbætur frá öðrum fyrirtækjum lengist í hverjum mánuði. Fylgstu því með á [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) og fáðu forrit sem aðstoða þig í vinnunni í [!INCLUDE[d365fin](includes/d365fin_md.md)].  

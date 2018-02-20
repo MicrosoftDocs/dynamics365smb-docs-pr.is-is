@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7cafdcb9f6002d0732ee86b643b784d96e8c2aa1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-service-orders-and-credit-memos"></a>Hvernig skal: bóka þjónustupantanir og kreditreikninga
+# <a name="post-service-orders-and-credit-memos"></a>Bóka þjónustupantanir og kreditreikninga
 Þegar þjónustupöntun hefur verið búin til, allar upplýsingar færðar inn og breytingar gerðar er hægt að bóka þjónustupöntunina. Í pöntuninni þarf að vera að minnsta kosti ein þjónustuvörulína og ein þjónustulína áður en hægt er að bóka þjónustupöntunina. Ef pöntunin inniheldur meira en eina þjónustulínu mun forritið bóka allar línurnar í einu.  
 
 Ef þú ert með margar þjónustupantanir kemur sér vel að bóka þær í fjöldabókun á sama tíma. Hægt er að keyra runuvinnsluna frá öllum þjónustupöntunum.
@@ -99,7 +99,7 @@ Eftirfarandi ferli sýnir hvernig eigi að bóka afhendingu þjónustulínuvara 
   
 4. Smellt er á **Aðgerðir**, **Bókun**, **Bóka**. Í glugganum sem birtist skal velja **Afhenda**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] stofnar fjárhagsfærslur (í ábyrgðahöfuðbók, birgðahöfuðbók, þjónustuhöfuðbók eða fjárhag), framleiðir bókað þjónustuafhendingarfylgiskjal og uppfærir viðkomandi reiti í þjónustulínum þjónustupöntunarinnar.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  stofnar fjárhagsfærslur (í ábyrgðahöfuðbók, birgðahöfuðbók, þjónustuhöfuðbók eða fjárhag), framleiðir bókað þjónustuafhendingarfylgiskjal og uppfærir viðkomandi reiti í þjónustulínum þjónustupöntunarinnar.  
   
 Ef birgðageymslan er sett upp þannig að hún krefjist vöruhúsaafgreiðslu virka afhending og færsla þjónustulínuvara á sama hátt og í öðrum upprunaskjölum. Eini munurinn er sá að hægt er að nota þjónustulínuvörurnar við ytri eða innri vinnslu og þær krefjast því tvenns konar mismunandi afhendingarvirkni.  
   
@@ -133,5 +133,5 @@ Eftirfarandi ferli lýsir bókun afhendingar beint úr þjónustupöntun í birg
   
 ## <a name="see-also"></a>Sjá einnig  
 [Bókun í þjónustukerfi](service-service-posting.md)  
-[Hvernig skal: stofna þjónustupöntun](service-how-to-create-service-orders.md)  
+[Stofnun þjónustupöntunar](service-how-to-create-service-orders.md)  
 

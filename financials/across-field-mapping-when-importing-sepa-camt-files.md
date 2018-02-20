@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 6588f01c557b1c0586097766aa8a6f84d545bc6e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9f99b1fce3c44fdf2053a74b8fa090c6b69aef1a
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Reitarvörpum við innflutning SEPA CAMT skráa
-[!INCLUDE[d365fin](includes/d365fin_md.md)] styður svæðisbundinn SEPA-staðall (sameiginlegt evrópskt greiðslusvæði) fyrir innflutning SEPA-bankayfirlita (CAMT-snið). Nánari upplýsingar er að finna í [Hvernig á að: Setja upp umreikningsþjónustu fyrir bankagögn](bank-how-setup-bank-data-conversion-service.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  styður svæðisbundinn SEPA-staðall (sameiginlegt evrópskt greiðslusvæði) fyrir innflutning SEPA-bankayfirlita (CAMT-snið). Nánari upplýsingar er að finna í [Setja upp umreikningsþjónustu fyrir bankagögn](bank-how-setup-bank-data-conversion-service.md).  
 
  SEPA CAMT-staðallinn er með staðbundin afbrigði. Því kann að vera nauðsynlegt að breyta almennri skilgreiningu gagnaskipta táknað með **SEPA CAMT** kóðanum í **Skilgreiningar fyrir bókunarskipti** glugganum til að laga hana að staðbundnum útgáfum staðalsins. Eftirfarandi töflur sýna vörpun frá einingu í reit fyrir töflur 81, 273 og 274 í SEPA CAMT-framkvæmd í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
- Frekari upplýsingar um að búa til eða stilla gagnaskiptaskilgreiningu eru í [Hvernig skal: Setja upp gagnaskiptaskilgreiningar](across-how-to-set-up-data-exchange-definitions.md).  
+ Frekari upplýsingar um að búa til eða stilla gagnaskiptaskilgreiningu eru í [Setja upp gagnaskiptaskilgreiningar](across-how-to-set-up-data-exchange-definitions.md).  
 
 ## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>CAMT gagnakortalagning á reitum í færslubókarlínu (81)  
 
@@ -57,11 +57,11 @@ ms.lasthandoff: 11/10/2017
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Óskipulagt|Texti|Upplýsingarnar til að gera samsvörun / afstemmingu á færslu með þeim vörum sem greiðsla er ætlað að stemma af, svo sem viðskiptareikningar í reikningskröfukerfi í ómótaðan formi||6|Lýsing|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texti|Viðbótarupplýsingar um færslu||16|Færsluupplýsingar|  
 
- Stök í hnútnum **Færsla** sem eru flutt inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] en ekki tengd við neina reiti eru vistuð í töflunni **Bókunarskipti Dálkur Skilgreining**. Notendur geta skoðað þessar einingar frá **Greiðsluafstemmingarbók** **Greiðslujafnanir** og **Afstemming bankareiknings** gluggum með því að velja **Upplýsingar um bankayfirlitslínu** aðgerðina. Frekari upplýsingar eru í [hvernig á að afstemma greiðslur með því að nota sjálfvirka jöfnun](receivables-how-reconcile-payments-auto-application.md)  
+ Stök í hnútnum **Færsla** sem eru flutt inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] en ekki tengd við neina reiti eru vistuð í töflunni **Bókunarskipti Dálkur Skilgreining**. Notendur geta skoðað þessar einingar frá **Greiðsluafstemmingarbók** **Greiðslujafnanir** og **Afstemming bankareiknings** gluggum með því að velja **Upplýsingar um bankayfirlitslínu** aðgerðina. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)  
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)  
-[Hvernig á að: Setja upp umreikningsþjónustu fyrir bankagögn](bank-how-setup-bank-data-conversion-service.md)   
-[Hvernig á að. Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
-[Hvernig á að afstemma greiðslur með sjálfvirkri jöfnun](receivables-how-reconcile-payments-auto-application.md)  
+[Setja upp umskráningarþjónustu fyrir bankagögn](bank-how-setup-bank-data-conversion-service.md)   
+[Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Afstemma greiðslur með sjálfvirkri jöfnun](receivables-how-reconcile-payments-auto-application.md)  
 

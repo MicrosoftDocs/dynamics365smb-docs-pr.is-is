@@ -13,14 +13,14 @@ ms.search.keywords: service, cost, service order
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d0f0fcdff4a67df7542c5acb6d44f804997d1a2c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 151b63b0f68a6605ae5c935f2331803277766452
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-pricing-and-additional-costs-for-services"></a>Hvernig á að: setja upp verðlagningu og aukakostnað fyrir þjónustu
+# <a name="set-up-pricing-and-additional-costs-for-services"></a>Setja upp verðlagningu og aukakostnað fyrir þjónustu
 Hægt er að nota verðlagningareiginleika [!INCLUDE[d365fin](includes/d365fin_md.md)] til að setja upp og sérstilla forritið svo hægt sé að nota og stilla verðlagningu fyrir þjónustuvörur, viðgerðir og pantanir. Auðvelt er síðan að senda þessar verðlagningarákvarðanir yfir í reikningsfærsluferlið.  
   
 Hægt er að setja upp verðlagningarflokka og varpa þeim á ákveðin tímabil, viðskiptamenn eða gjaldmiðil eftir þörfum þínum. Hægt er að setja upp fasta, lágmarks- eða hámarksverðlagningu eftir þeim þjónustusamningum sem gerðir voru við viðskiptamenn. Að lokum er hægt að skoða og samþykkja breytingar á verðlagi áður en þær eru færðar inn í fjárhaginn.  

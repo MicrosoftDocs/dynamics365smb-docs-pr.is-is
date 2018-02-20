@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f42941328d49aee4e823007284fd14417866cbae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf54f63e94ab3249f30d2fcdbef2c35e323e4cd8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shop-calendars"></a>Hvernig á að setja upp Dagatöl verkstæðis
+# <a name="set-up-shop-calendars"></a>Setja upp dagatal verkstæðis
 Dagatal vinnustöðva eða véla tilgreinir vinnudaga og -stundir, vaktir, frídaga og fjarvistir sem hafa áhrif á mögulega heildarafkastagetu, mælda í tíma, með tilliti til tilgreindra gilda skilvirkni og getu.
 
 Fyrst þarf að setja upp eitt eða fleiri almenn dagatöl verkstæðis, sem grunn fyrir útreikningum á tilteknu dagatali vinnu- eða vélastöðvar. Dagatal verkstæðis tilgreinir venjulega vinnuviku eftir upphafs- og lokatíma vinnudags og vaktaskipulagi. Auk þess tilgreinir dagatal verkstæðis fasta frídaga árs.  
@@ -108,8 +108,8 @@ Reiknað dagatal vinnustöðvar skilgreinir nú hvenær og hversu mikil afkastag
 Afkastageta þessa dags hefur nú minnkað í samræmi við skráðan fjarvistartíma.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að setja upp grunndagatal](across-how-to-assign-base-calendars.md)  
-[Hvernig á að setja upp vinnu- og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md)  
+[Setja upp grunndagatöl](across-how-to-assign-base-calendars.md)  
+[Setja upp vinnu- og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

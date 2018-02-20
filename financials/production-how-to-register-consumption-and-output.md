@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a60e63e9741f81aa6efcf8b6a4780b5b464fe440
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 493c6e24a42229bc6e5223319ca66c103ee08f96
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-consumption-and-output-for-one-released-production-order-line"></a>Hvernig á að: skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu | Microsoft Docs
+# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu | Microsoft Docs
 Þessi aðgerð er framkvæmd í glugganum **Framleiðslubók**. Bókin sameinar aðgerðir notkunarbókar og afkastabókar í eina bók sem hægt er komast í beint úr framleiðslupöntun. Hún er notuð í handvirka bókun íhlutanotkunar, lokamagns framleiddra vara og tíma sem fer í aðgerðir. Megintilgangur hennar er að bóka handvirkt notkun íhluta, magn framleiddra endanlegra vara og stundir sem búið er að eyða í aðgerðir. Gildin eru bókuð í fjárhagsfærslur undir útgefnu framleiðslupöntuninni. Notkunarmagn bókað sem neikvæðar Færslur í birgðafærslum, Frálagsmagn er bókað sem jákvæðar birgðafærslur og tími sem varið er er bókaður sem afkastagetufærslur. Þessi bókuðu gildi er einnig hægt að skoða neðst í bókinni sem raunverulegt magn.  
 
 > [!NOTE]  
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/22/2017
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Útgefnar framleiðslupantanir** og velja svo viðeigandi tengil.  
 2.  Opna skal útgefna framleiðslupöntunarlínu sem er tilbúin til skráningar, og svo á flýtiflipanum **Línur** skal velja **Lína**, aðgerðina og svo **Framleiðslubók** aðgerðina.  
 
-    Þegar glugginn **Framleiðslubók** er opnaður birtast bókarlínur fyrir framleiðslupöntunarlínu í samræmi við gluggana **Framl.pöntunaríhlutur** og **Leið framl.pöntunar**. Þessar línur koma úr framleiðsluuppskriftinni og leiðum sem úthlutað er á vöruna sem verið er að framleiða. Frekari upplýsingar, sjá [Hvernig skal: Stofna framleiðsluuppskriftir](production-how-to-create-routings.md).  
+    Þegar glugginn **Framleiðslubók** er opnaður birtast bókarlínur fyrir framleiðslupöntunarlínu í samræmi við gluggana **Framl.pöntunaríhlutur** og **Leið framl.pöntunar**. Þessar línur koma úr framleiðsluuppskriftinni og leiðum sem úthlutað er á vöruna sem verið er að framleiða. Frekari upplýsingar eru í [Stofna framleiðsluuppskriftir](production-how-to-create-routings.md).  
 
 3.  Í reitnum **Bókunardags.** efst í bókinni er hægt að bóka dagsetningu sem gildir fyrir allar línur. Vinnudagsetningin er sjálfgefin. Reiturinn er notaður til að samstilla bókunardagsetningar allra lína á fljótlegan hátt, ef þörf er á.  
 

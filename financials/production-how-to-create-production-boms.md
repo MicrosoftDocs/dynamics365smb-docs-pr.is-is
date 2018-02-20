@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 3ebbd34c966ab06fa578336d14a060b0dea44dbc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a193d1ac19a0474b4a541165ef9f06d21ac7fb7d
 ms.contentlocale: is-is
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-boms"></a>Hvernig á að stofna nýjar framl.uppskriftir
+# <a name="create-production-boms"></a>Búa til framleiðsluuppskriftir
 Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem notuð er í framleiðslu yfirvörunnar. Þegar framleiðslupöntun er búin til fyrir yfirvörunni stjórnar framleiðsluuppskriftin útreikningum á efniþörf, eins og sýnt er í glugganum **Íhlutir framl.pöntunar**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] styður einnig samsetningaruppskriftir. Samsetningarpantanir eru notaðar til að gera lokaafurð úr íhlutum með einföldu ferli sem hægt er að vinna með einu eða fleiri tilföngum, sem ekki eru vélar eða vinnustöðvar, eða án nokkurra tilfanga. Til dæmis gæti samsetningarferli falið í sér að velja tvær vínflöskur og einn kaffipoka og pakka þeim sem gjafavöru. Nánari upplýsingar er að finna í „Samsetningaruppskriftir eða framleiðsluuppskriftir“ hlutanum í [Hvernig á að: Vinna með uppskrift.](inventory-how-work-BOMs.md)  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]   styður einnig samsetningaruppskriftir. Samsetningarpantanir eru notaðar til að gera lokaafurð úr íhlutum með einföldu ferli sem hægt er að vinna með einu eða fleiri tilföngum, sem ekki eru vélar eða vinnustöðvar, eða án nokkurra tilfanga. Til dæmis gæti samsetningarferli falið í sér að velja tvær vínflöskur og einn kaffipoka og pakka þeim sem gjafavöru. Nánari upplýsingar er að finna í „Samsetningaruppskriftir eða framleiðsluuppskriftir“ hlutanum í [Vinna með uppskrift](inventory-how-work-BOMs.md).  
 
 Áður en þú getur sett upp leið verður eftirfarandi að vera á réttum stað:  
 
-- Birgðaspjöld er búin til fyrir yfirvörur sem taka þátt í framleiðslu. Nánari upplýsingar eru í [Hvernig á að: Skrá nýjar vörur](inventory-how-register-new-items.md).
-- Framleiðsluforði eru uppsettur. Nánari upplýsingar er að finna í [Hvernig á að setja upp vinnustöðvar og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md).
+- Birgðaspjöld er búin til fyrir yfirvörur sem taka þátt í framleiðslu. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
+- Framleiðsluforði eru uppsettur. Frekari upplýsingar eru í [Setja upp vinnustöðvar og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Búa til framleiðsluuppskrift  
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Framleiðsluuppskrift** og velja svo viðeigandi tengil.  
@@ -39,15 +39,15 @@ Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem no
 5. Í reitnum **Tegund** er valið hvort vara á þessari uppskriftarlínu er venjuleg vara eða framleiðsluuppskrift. Ef varan á línunni er framleiðsluuppskrift þá verður hún þegar að vera til staðar sem vottuð framleiðsluuppskrift.  
 6.  Í reitnum **númer** er umræddri vöru eða framleiðsluuppskrift flett upp og hún valin eða hún slegin handvirkt í reitinn.  
 7.  Í reitnum **Magn á** er fært inn hversu margar einingar vörunnar fara í yfirvöruna, t.d. 4 dekk á 1 bifreið.  
-8.  Í reitnum **Úrkast %** er hægt að slá inn fast hlutfall íhluta sem er fleygt meðan á framleiðslu stendur. Þegar íhlutirnir eru tilbúnir til notkunar í útgefinni framleiðslupöntun er hlutfallinu bætt við áætlað magn (í reitnum  **Notkunarmagn**) í framleiðslubók. Nánari upplýsingar er að finna í [Hvernig á að Skrá Notkun og frálag](production-how-to-register-consumption-and-output.md)  
+8.  Í reitnum **Úrkast %** er hægt að slá inn fast hlutfall íhluta sem er fleygt meðan á framleiðslu stendur. Þegar íhlutirnir eru tilbúnir til notkunar í útgefinni framleiðslupöntun er hlutfallinu bætt við áætlað magn (í reitnum  **Notkunarmagn**) í framleiðslubók. Frekari upplýsingar eru í [Skrá Notkun og frálag](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  Þetta úrkastshlutfall stendur fyrir íhluti sem er fleygt á meðan á framleiðslu stendur (þegar tekið er úr birgðum) á meðan úrkastshlutfall á leiðarlínum stendur fyrir frálagi sem er fleygt (áður en það verður birgðir).  
 
-9.  Í reitnum **Leiðartengilskóti** er hægt að slá inn kóta til að tengja íhlut við ákveðna aðgerð. Frekari upplýsingar, sjá hlutann „Stofna leiðartengla“ í [Hvernig skal: Stofna leiðir](production-how-to-create-routings.md).
+9.  Í reitnum **Leiðartengilskóti** er hægt að slá inn kóta til að tengja íhlut við ákveðna aðgerð. Frekari upplýsingar eru í hlutanum „Leiðartenglar stofnaðir“ í [Stofna leiðir](production-how-to-create-routings.md).
 10. Framleiðsluuppskriftarlínur eru afritaðar með því að smella á **Afrita uppskr.** aðgerðina til að velja línur sem eru til.  
 11.  Framleiðsluuppskriftin vottuð  
-12.  Nú er hægt að hengja nýju framleiðsluuppskriftina við spjald viðkomandi yfirvöru. Nánari upplýsingar eru í [Hvernig á að: Skrá nýjar vörur](inventory-how-register-new-items.md).  
+12.  Nú er hægt að hengja nýju framleiðsluuppskriftina við spjald viðkomandi yfirvöru. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Til að endurreikna staðlað kostnaðarverð vörunnar úr birgðaspjaldinu skal velja **Framleiðsla** og síðan smellt á **Reikna staðlað kostn.verð** aðgerðina.  
@@ -92,7 +92,7 @@ Tengsl ólíkra íhluta eru skilgreind af reiknireglunni. Hægt er að nota efti
 Framleiðsluuppskrift hljóðar upp á sjötíu málmhluti með víddina lengd = 0.20 m og breidd = 0.15 m. Gildin eru færð inn á eftirfarandi hátt: Reikniregla = Lengd x Breidd, Lengd = 20, Breidd = 15, Magn á = 70. Magnið fæst með Magn á x Lengd * Breidd, þ.e., Magn = 70 x 0.20 m x 0.15 m = 2.1 m2.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að stofna Nýjar leiðir](production-how-to-create-routings.md)   
+[Stofna leiðir](production-how-to-create-routings.md)   
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)    
 [Áætlun](production-planning.md)   

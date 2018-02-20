@@ -13,13 +13,13 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cdf1183fb5383311dc34d8c2c619a1eddf7e8851
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7ae4abacf22d3610194ea56bbaa997390cb7df0a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-fixed-asset-maintenance"></a>Hvernig á að: Uppsetning eignarviðhalds
+# <a name="set-up-fixed-asset-maintenance"></a>Uppsetning eignarviðhalds
 Til að halda utan um viðhald eigna, þarf fyrst að setja upp nokkrar almennar viðhaldsupplýsingar, bókunarlykil viðhaldskostnaðar og viðhaldskóta fyrir tegundir vinnu, svo sem Venjubundin Þjónusta eða Viðgerð.
 
 ## <a name="to-set-up-general-maintenance-information"></a>Uppsetning almennra viðhaldsupplýsinga:
@@ -42,7 +42,7 @@ Til að bóka viðhaldskostnað, verður fyrst að Færa inn reikningsnúmer í 
 2. Reiturinn **Reikningur viðhaldskostnaðar** er fylltur út fyrir hvern bókunarhóp.
 
 > [!NOTE]  
->   Til að skilgreina að viðhaldskostnaði er úthlutað á deildir eða verkefni, eru settir upp úthlutunarlyklar. Nánari upplýsingar sjá [Hvernig á að setja upp almenna eiginleika eigna](fa-how-setup-general.md).
+>   Til að skilgreina að viðhaldskostnaði er úthlutað á deildir eða verkefni, eru settir upp úthlutunarlyklar. Frekari upplýsingar eru í [Setja upp almenna eiginleika eigna](fa-how-setup-general.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning eigna](fa-setup.md)  

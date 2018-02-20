@@ -11,13 +11,13 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 310cad43853f347ac7ab74e186edd82e7c54727e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-collect-outstanding-balances"></a>Hvernig á að: Innheimta útistandandi skuldir
+# <a name="collect-outstanding-balances"></a>Innheimta útistandandi skuldir
 Í stjórnun útistandandi skulda felst að kanna hvort upphæðir sem falla í gjalddaga eru greiddar tímanlega. Ef viðskiptamenn eru í vanskilum geturðu sent yfirlitsskýrslu Viðskiptamanns sem innheimtubréf. Þú getur einnig gefið út innheimtubréf.
 
 Hægt er að nota áminningar til að minna viðskiptamenn á gjaldfallnar upphæðir. Einnig er hægt að nota áminningar til að reikna út vexti og annan kostnað og hafa þær upplýsingar með í áminningunni. Notaðir eru vaxtareikningar ef krefja á viðskiptamenn um vexti eða gjöld án þess að minna þá á gjaldfallnar upphæðir.  
@@ -98,7 +98,7 @@ Ef stofnaðar eru fleiri áminningar en skilgreind hafa verið stig fyrir verða
 
 Til dæmis, ef þú skrifar**Þú skuldar %9 %7 á gjalddaga %2** mun innheimtubréfið innihalda eftirfarandi texta: **Þú skuldar 1.200,50 USD á gjalddaga 02-02-2014.**.
 
-Þegar búið er að setja upp áminningarskilmálana með viðbótarstigum og texta þarf að færa einn kóðann á hvert viðskiptamannaspjald. Nánari upplýsingar eru í [Hvernig á að skrá nýjan viðskiptamaður](sales-how-register-new-customers.md).
+Þegar búið er að setja upp áminningarskilmálana með viðbótarstigum og texta þarf að færa einn kóðann á hvert viðskiptamannaspjald. Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).
 
 ## <a name="to-create-a-reminder-automatically"></a>Innheimtubréf búin til sjálfvirkt:
 Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að fylla út innheimtuhaus ásamt einni eða fleiri innheimtulínum. Þú getur notað aðgerð til að stofna innheimtubréf fyrir alla viðskiptamenn sjálfvirkt.

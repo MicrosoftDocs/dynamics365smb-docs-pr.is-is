@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ded6ef2b93c2ab038472609093ef7e5ad3d88
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-service-contracts-and-service-contract-quotes"></a>Hvernig á að: Vinna með þjónustusamninga og þjónustusamningstilboð
+# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Vinna með þjónustusamninga og þjónustusamningstilboð
 Hægt er að stofna þjónustusamning annað hvort handvirkt eða úr þjónustusamningstilboði. Hægt er að nota þjónustusamningstilboð sem aðdraganda að þjónustusamningi þar sem fyrirtækið gerir viðskiptamanni tilboð og fær samþykki hans svo að unnt sé að breyta tilboðinu í þjónustusamning. Ferlið við stofnun þjónustusamnings annars vegar og þjónustusamningstilboðs er nokkuð svipað.  
   
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Að stofna þjónustusamning eða þjónustusamningstilboð:  
@@ -199,7 +199,7 @@ Hugsanlega þarf að hætta við þjónustusamning þegar samningurinn er útrun
 Hægt er að skrá þjónustusamninga og samningstilboð hvenær sem er til að vista afrit samnings eða samningstilboðs í kerfinu. [!INCLUDE[d365fin](includes/d365fin_md.md)] skráir þjónustusamninga sjálfkrafa þegar þjónustutilboði er breytt í þjónustusamning, eða þegar hætt er við þjónustusamning. Hægt er að skrá samning eða tilboð með því að velja **Skrá samning** á **Þjónustusamningar** eða **Þjónustusamningstilboð** síðunum. Til að skoða vistaða samninga með tilboðum skal leita að **Skráðir samningar**.
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: setja upp þjónustusamninga](service-how-setup-service-contracts.md)  
+[Setja upp þjónustusamninga](service-how-setup-service-contracts.md)  
 [Þjónustukerfi](service-service.md)  
-[Hvernig á að umbreyta þjónustusamningum sem innihalda VSK upphæðir](service-how-to-convert-service-contracts.md)  
+[Umbreyta þjónustusamningum sem innihalda VSK upphæðir](service-how-to-convert-service-contracts.md)  
 

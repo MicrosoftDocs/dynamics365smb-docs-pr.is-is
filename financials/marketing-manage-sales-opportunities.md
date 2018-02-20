@@ -1,6 +1,6 @@
 ---
 title: "Umsjón sölutækifæra og ábendinga| Microsoft Docs"
-description: "Lýsir hvernig stjórna má í Dynamics 365 ábendingum eða sölutækifærum sem birtast, og tengja tækifærin við sölumann svo hægt sé að fylgjast með hugsanlegri sölu."
+description: "Lýsir hvernig stjórna má í Finance and Operations, Business Edition ábendingum eða sölutækifærum sem birtast, og tengja tækifærin við sölumann svo hægt sé að fylgjast með hugsanlegri sölu."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 34c43d54d2472d6aee0fc791824013727e3fd324
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67e385b6c3f533ab5c63259b9df7e775f2155897
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-sales-opportunities"></a>Umsjón sölutækifæra
@@ -28,8 +28,8 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 | Til | Sjá |
 | --- | --- |
-| Setjið upp söluferli sem eru oftast notuð, og setjið síðan upp mismunandi þrep innan einstakra söluferla tækifæris. |[Hvernig á að: Setja upp söluferla tækifæris og söluþrep](marketing-how-setup-opportunity-sales-cycles-stages.md) |
-| Stofna sölutækifæri sem fengið er frá tengiliðum. |[Hvernig á að: Stofna tækifæri](marketing-how-create-opportunities.md) |
+| Setjið upp söluferli sem eru oftast notuð, og setjið síðan upp mismunandi þrep innan einstakra söluferla tækifæris. |[Setja upp söluferla tækifæris og söluþrep](marketing-how-setup-opportunity-sales-cycles-stages.md) |
+| Stofna sölutækifæri sem fengið er frá tengiliðum. |[Stofna tækifæri](marketing-how-create-opportunities.md) |
 | Færa sölutækifæri gegnum söluferli þar til því er lokið. |[Meðhöndla sölutækifæri](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Sjá einnig

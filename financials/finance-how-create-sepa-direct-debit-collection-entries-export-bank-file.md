@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 34fb52bd39036477b479a4de626225876cfe5800
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4a527467e40448d5ddd82a66b153c7cad761e7fb
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Hvernig á að: Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá
+# <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá
 Til að gefa bankanum fyrirmæli um að flytja greiðsluupphæðir af bankareikningi viðskiptamannsins á reikning fyrirtækis þíns, stofnarðu innheimtu beingreiðslu sem inniheldur upplýsingar um bankareikning viðskiptamanns, sölureikningana sem um ræðir og umboð fyrir beingreiðslu. Úr innheimtufærslu beingreiðslu sem þá myndast er XML-skrá flutt út og hún send eða henni hlaðið upp í netbanka til úrvinnslu. Bankinn lætur vita af greiðslum sem hann getur ekki meðhöndlað og þá þarf að hafna viðkomandi innheimtufærslur fyrir beingreiðslur.  
 
 > [!NOTE]  
@@ -56,17 +56,17 @@ Ef ekki er hægt að meðhöndla útfluttu skrána, t.d. vegna þess að viðski
 
 * Í **Færsla innheimtu með beinni skuldfærslu** glugganum, veljið færsluna sem ekki var meðhöndluð og svo, á flipanum **Heim** í hópnum **Vinnsla**, veljið **Hafna færslu**.  
 
-     Gildið í reitnum **Staða** í **Innheimtufærsla fyrir beingreiðslu** glugganum er breytt í **Hafnað**.  
+     Gildið í reitnum **Staða** í **nnheimtufærsla fyrir beingreiðslu** glugganum er breytt í **Hafnað**.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Loka innheimtu beingreiðslu  
 *  Í **Færsla innheimtu með beinni skuldfærslu** glugganum, veljið færsluna sem ekki var meðhöndluð og svo, á flipanum **Heim** í hópnum **Vinnsla**, veljið **Loka færslu**.  
 
      Tengd innheimta beingreiðslu er lokuð.  
 
-Þá er hægt að bóka greiðslukvittanir fyrir viðkomandi sölureikninga. Hægt er að gera þetta á sama hátt og greiðslukvittanir eru vanalega bókaðar, s.s. í **Skráning greiðslna** glugganum, en einnig er hægt að bóka tengdu greiðslukvittunina beint úr **Innheimtufærslur fyrir beingreiðslu** glugganum. Frekari upplýsingar, sjá [Hvernig á að: Bóka SEPA-greiðslukvittanir beingreiðslna](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
+Þá er hægt að bóka greiðslukvittanir fyrir viðkomandi sölureikninga. Hægt er að gera þetta á sama hátt og greiðslukvittanir eru vanalega bókaðar, s.s. í **Skráning greiðslna** glugganum, en einnig er hægt að bóka tengdu greiðslukvittunina beint úr **Innheimtufærslur fyrir beingreiðslu** glugganum. Frekari upplýsingar er að finna í [Bóka SEPA-greiðslukvittanir beingreiðslna](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-direct-debit.md)  
-[Hvernig á að. Bóka SEPA-greiðslukvittanir beingreiðslna](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
+[Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-direct-debit.md)  
+[Bóka SEPA-greiðslukvittanir beingreiðslna](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)  
 

@@ -13,17 +13,17 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6ddd7b504f6faa856e92c336f889ad08db0b3d8b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 237c03e2ba6408bde65aba5f652468a3b700fa0a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-close-income-statement-accounts"></a>Hvernig á að: Loka rekstrarreikningum
+# <a name="close-income-statement-accounts"></a>Loka rekstrarreikningi
 Þegar reikningsári er lokið þarf að loka tímabilunum sem það skiptist í. Til að gera þetta skal keyra Runuvinnslan **Loka rekstrarreikningi** Þetta verk flytur niðurstöðutölur ársins yfir á efnahagsreikning og loka rekstrarreikningum. Það er gert með því að stofna línur í færslubók sem síðan er hægt að bóka.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Til að keyra Runuvinnslan Loka rekstrarreikningi
-1. Loka reikningsári Reikningsárinu þarf að loka áður en hægt er að setja keyrsluna í gang. Nánari upplýsingar sjá [Hvernig á að: Loka reikningstímabilum](year-close-account-periods.md).
+1. Loka reikningsári Reikningsárinu þarf að loka áður en hægt er að setja keyrsluna í gang. Nánari upplýsingar sjá [Loka fjárhagstímabilum](year-close-account-periods.md).
 2. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Loka rekstrarreikningi** og velja svo viðeigandi tengil.
 3. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
 
@@ -38,7 +38,7 @@ Keyrsluna **Loka rekstrareikningi** má nota mörgum sinnum. Hægt er að bóka 
 
 ## <a name="see-also"></a>Sjá einnig
 [Bókum lokað](year-close-books.md)  
-[Hvernig á að bóka lokafærslu árslokareiknings](year-how-post-year-end-close-entry.md)  
-[Hvernig á að opna Nýtt reikningsár](finance-how-open-new-fiscal-year.md)  
+[Bóka lokafærslu ársloka](year-how-post-year-end-close-entry.md)  
+[Opna nýtt reikningsár](finance-how-open-new-fiscal-year.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

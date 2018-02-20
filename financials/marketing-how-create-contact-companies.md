@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c0e678b07c1d5ca73808a2abb5631771dce76fd0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ed0f75f1e0ee8a282b58458e4fed3b4eef7c46fb
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-companies"></a>Hvernig á að stofna Fyrirtækjatengilið
+# <a name="create-contact-companies"></a>Stofna fyrirtækjatengilið
 Hægt er að stofna tengilið fyrir hvert nýtt fyrirtæki sem notandinn á í samskiptum við, til dæmis viðskiptamann, lánardrottinn, tilvonandi viðskiptamann, banka, lögfræðistofu, ráðgjafa og svo framvegis.
 
 Tvær leiðir eru til að stofna tengilið: frá upphafi eða úr fyrirliggjandi viðskiptamanni, lánadrottni bankareikningi..
@@ -58,6 +58,6 @@ Hafi þegar verið settur upp fjöldi viðskiptamanna, lánardrottna og bankarei
 [Úthluta viðskiptatengslum á tengilið](marketing-business-relations.md#AssignBusRelContact)  
 [Úthluta Starfsgreinahópum á tengilið](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Pósthópum úthlutað á tengiliði](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Hvernig á að stofna Einstaklingstengilið](marketing-create-contact-persons.md)  
-[Unnið með Dynamics 365](ui-work-product.md)
+[Stofna einstaklingstengilið](marketing-create-contact-persons.md)  
+[Unnið með Finance and Operations, Business Edition](ui-work-product.md)
 

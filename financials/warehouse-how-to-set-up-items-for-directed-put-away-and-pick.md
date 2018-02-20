@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b41bb902d8a2298f438233ca24c5a7bcf7f69d9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c802ee014df6c992a9e5b1e975f2cdc981e3a5a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-items-and-locations-for-directed-put-away-and-pick"></a>Hvernig á að: setja upp vörur og birgðageymslur fyrir beinan frágang og tínslu
-Þegar vöruhús er sett upp fyrir beinan frágang og tínslu fást aðgerðir sem gera rekstur vöruhússins mun skilvirkari.   Svo að þessar aðgerðir nýtist til fulls þarf að veita viðbótarupplýsingar um vörurnar sem hjálpa til við að reikna út skilvirkustu og bestu aðferðirnar til að stýra vöruhúsaaðgerðum. Nánari upplýsingar eru í [Upplýsingar um hönnun: Uppsetning vöruhúss](design-details-warehouse-setup.md).
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Setja upp vörur og birgðageymslur fyrir beinan frágang og tínslu
+Þegar vöruhús er sett upp fyrir beinan frágang og tínslu fást aðgerðir sem gera rekstur vöruhússins mun skilvirkari. Svo að þessar aðgerðir nýtist til fulls þarf að veita viðbótarupplýsingar um vörurnar sem hjálpa til við að reikna út skilvirkustu og bestu aðferðirnar til að stýra vöruhúsaaðgerðum. Nánari upplýsingar eru í [Upplýsingar um hönnun: Uppsetning vöruhúss](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Varan sett upp fyrir beinan frágang og tínslu  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
@@ -44,7 +44,7 @@ Ekki þarf að fylla út aðra reiti á birgðageymsluspjaldinu fyrr en seinna �
 > [!NOTE]  
 >  Ekki er hægt að setja vöruhús upp með hólfum ef það er með opnar birgðafærslur.  
 
-Síðan þarf að skilgreina tegundir hólfa. Nánari upplýsingar er að finna í [Hvernig á að setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md). Tegund hólfsins tilgreinir hvernig ákveðið hólf er notað í úrvinnslu vöruflæðis um vöruhúsið. Hægt er að úthluta hólfategund bæði á svæði og hólf.  
+Síðan þarf að skilgreina tegundir hólfa. Frekari upplýsingar eru í [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md). Tegund hólfsins tilgreinir hvernig ákveðið hólf er notað í úrvinnslu vöruflæðis um vöruhúsið. Hægt er að úthluta hólfategund bæði á svæði og hólf.  
 
 Einnig er hægt að skilgreina kóta vöruhúsaflokka ef vörur í vöruhúsinu krefjast mismunandi geymsluskilyrða. Vöruhúsaflokkskóðar eru notaðir þegar ráðleggingar eru gefnar um staðsetningu vara í hólf. Vöruhúsaflokkskóðum er úthlutað á vöruflokka, sem er svo úthlutað á vörur og birgðahaldseiningar, eða á svæði og hólf sem geta mætt geymsluþörfum vöruhúsaflokkskóðanna.  
 
@@ -60,9 +60,9 @@ Nú er allt til reiðu fyrir uppsetningu svæðanna eigi að nota svæði í vö
 > [!NOTE]  
 >  Ef vinna á án svæða þarf engu að síður að búa til einn svæðiskóta, sem hefur enga skilgreiningu utan kótans.  
 
-Þá þarf að skilgreina hólfin. Frekari upplýsingar eru í [Hvernig á að setja upp birgðageymslur til að þær noti hólf](warehouse-how-to-set-up-locations-to-use-bins.md).  
+Næsta skref í uppsetningu vöruhúss er að skilgreina hólfin. Frekari upplýsingar eru í [Setja upp birgðageymslur til að þær noti hólf](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-Auk þess þarf að stofna frágangssniðmát og talningartímabil. Nánari upplýsingar er að finna í [Hvernig á að: setja upp frágangssniðmát](warehouse-how-to-set-up-put-away-templates.md).  
+Auk þess þarf að stofna frágangssniðmát og talningartímabil. Frekari upplýsingar eru í [Setja upp frágangssniðmát](warehouse-how-to-set-up-put-away-templates.md).  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

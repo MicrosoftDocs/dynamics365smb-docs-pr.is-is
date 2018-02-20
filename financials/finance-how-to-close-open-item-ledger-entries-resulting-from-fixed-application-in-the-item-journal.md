@@ -1,6 +1,6 @@
 ---
 title: "Hvernig á að loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók | Microsoft Docs"
-description: "Hægt er að nota reitinn **Jafnað frá færslu** í glugganum **Birgðabók** til að stofna fasta jöfnun milli færslu á innleið og upphaflegrar færslu á útleið. Til dæmis til að leiðrétta viðskipti á útleið eða til að vinna úr skilum þeirra."
+description: "Nota skal reitinn **Jafnað frá færslu** í **Birgðabók** til að stofna fasta jöfnun milli færslu á innleið og upphaflegrar færslu á útleið. Til dæmis til að leiðrétta viðskipti á útleið eða til að vinna úr skilum þeirra."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/09/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d30a1316b48bd1b80ab4658ee99b14f0a0217478
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1553b5f85cd9f00f9de15b59bcf258fba412967b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Hvernig á að loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók
+# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók
 Nota skal reitinn **Jafnað frá færslu** í **Birgðabók** til að stofna fasta jöfnun milli færslu á innleið og upphaflegrar færslu á útleið. Til dæmis til að leiðrétta viðskipti á útleið eða til að vinna úr skilum þeirra. Frekari upplýsingar eru í Jafnað frá færslu.  
 
 > [!IMPORTANT]  
@@ -35,8 +35,8 @@ Eftirfarandi ferli sýnir hvernig eigi að loka slíkum færslum með því að 
 2.  Nota skal reitinn **Jafnað frá færslu** til að bóka neikvæða leiðréttingu. Þetta lokar upprunalegu jákvæðu leiðréttingarfærslunni með fastri jöfnun.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: fjarlægja og endurjafna birgðabókafærslur](finance-how-to-remove-and-reapply-item-entries.md)  
- [Hvernig á að vinna úr söluskilum og afturköllunum](sales-how-process-sales-returns-cancellations.md)   
+[ Fjarlægja og endurjafna birgðabókafærslur](finance-how-to-remove-and-reapply-item-entries.md)  
+ [Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md)   
  [Uppsetning birgðaverðmats og kostnaðar](finance-set-up-inventory-valuation-and-costing.md)   
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)   
  [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)

@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0b91925a7ec6adb40cdf99d5bcf3398b62c28b3f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 89db93227222d79e535f2d18400330aa30566f2f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-blanket-sales-orders"></a>Hvernig á að: Vinna með standandi sölupantanir
+# <a name="work-with-blanket-sales-orders"></a>Vinna með standandi sölupantanir
 Standandi sölupöntun er rammi fyrir langtíma samning milli viðkomandi og viðskiptamanns.
 
 Standandi pöntun er yfirleitt stofnuð þegar viðskiptamaður hefur skuldbundið sig til kaupa á miklu magni sem afhenda á í nokkrum minni afhendingum á ákveðnu tímabili. Standandi pantanir ná oft eingöngu yfir eina vöru með fyrirframákveðnum afhendingardögum. Aðalástæðan fyrir notkun standandi pantana í stað sölupantana er sú að magn sem tilgreint er á standandi pöntun hafa ekki áhrif á framboð vöru og hana er því hægt að nota sem blað fyrir eftirlit, spár eða áætlanagerð.

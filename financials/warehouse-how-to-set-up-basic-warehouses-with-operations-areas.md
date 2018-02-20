@@ -1,6 +1,6 @@
 ---
 title: "Hvernig á að: Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæðum | Microsoft Docs"
-description: "Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota eftirfarandi þrjú vöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi."
+description: "Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota þrjú grunvöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8fa067c5a6d96d0d992c1488f31aa2929efc6dcc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31f057f862b72cd21ecb2c1fb59674c6485a960d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-basic-warehouses-with-operations-areas"></a>Hvernig á að setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
+# <a name="set-up-basic-warehouses-with-operations-areas"></a>Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
 Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota eftirfarandi vöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi:  
 
 - Glugginn **Birgðahreyfing**.  
@@ -66,9 +66,9 @@ Núna krefjast íhlutalínur framleiðslupöntunar með sjálfgefinn hólfakóta
 ![Flæðirit hólfa](media/binflow.png "Hólfaflæði")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Til að skilgreina sjálfgefna hólfaskipan í samsetningarsvæðinu
-Íhluti fyrir samsetningarpöntun er ekki hægt að tína eða bóka með birgðatínslum. Nota glugganum **Birgðahreyfing** í staðinn. Frekari upplýsingar, sjá [Hvernig á að: færa íhluti á aðgerðasvæði í einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Íhluti fyrir samsetningarpöntun er ekki hægt að tína eða bóka með birgðatínslum. Nota glugganum **Birgðahreyfing** í staðinn. Frekari upplýsingar eru í [Færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
-Ef magn sölulínu tínslu og afhendingar er sett saman í pöntunina skal fylgja nokkrum reglum við stofnun birgðatínslulína. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Hvernig skal: Tína vörur með Birgðatínsla](warehouse-how-to-pick-items-with-inventory-picks.md).
+Ef magn sölulínu tínslu og afhendingar er sett saman í pöntunina skal fylgja nokkrum reglum við stofnun birgðatínslulína. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Tína vörur með Birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 Nánari upplýsingar, sjá [Samsetningarstjórnun](assembly-assemble-items.md).
 
@@ -110,9 +110,9 @@ Gildið í þessum reit er sjálfkrafa sett inn í reitinn  í sölupantanalínu
 
 Ef **Setja saman í pöntun hólfakóði** er auður þá er **Frá-samsetning hólfkóða** reiturinn notaður. Ef báðir uppsetningarreitirnir eru auðir verður síðasta notaða hólfið sem hefur innihald notað í reitnum **Hólfkóði** í sölupöntunarlínum.
 
-Sami hólfakóði er svo afritaður í reitinn **Hólfkóði** í birgðatínslulínunni sem stjórnar afhendingu á magninu sem sameina á í pöntun. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Hvernig skal: Tína vörur með Birgðatínsla](warehouse-how-to-pick-items-with-inventory-picks.md).
+Sami hólfakóði er svo afritaður í reitinn **Hólfkóði** í birgðatínslulínunni sem stjórnar afhendingu á magninu sem sameina á í pöntun. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Tína vörur með Birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Staðsetningar** og velja svo viðeigandi tengil.
 2. Opna birgðageymsluna sem setja á upp.
 3. Færið inn **Setja saman í pöntun hólfakóði** reitinn.
 
@@ -123,7 +123,7 @@ Enn er hægt að taka frá magn í sérstökum hólfum. Í samræmi við það e
 
 Sem dæmi er vinnustöð sett upp með hólfakóðanum í reitnum **Hólfakóði framleiðslu á innleið**. Íhlutalínur framleiðslupöntunar með þann hólfakóta krefjast þess að framvirkir íhlutir séu settir þar. Þar til íhlutir úr því hólfi hafa verið notaðir getur önnur íhlutaeftirspurn ollið tínslu eða notkun úr hólfinu vegna þess að íhlutirnir teljast enn vera tiltækt innihald hólfsins. Til að tryggja að hólfainnihald sé aðeins tiltækt fyrir íhlutseftirspurnina sem notar þann hólfkóða framleiðslu á innleið, þarf að velja reitinn **Sérstakt** í línunni fyrir þann hólfakóða í glugganum **Hólf** sem opnaður er í birgðageymsluspjaldinu.
 
-Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir, sem er eingöngu hægt í ítarlegum vöruhúsaaðgerðum. Nánari upplýsingar er að finna í [Hvernig á að setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).
+Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir, sem er eingöngu hægt í ítarlegum vöruhúsaaðgerðum. Frekari upplýsingar eru í [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
 > Vörur í sérstökum hólfum eru ekki varðar þegar þær eru tíndar eða notaðar sem framleiðsluíhlutir með glugganum Birgðatínsla.

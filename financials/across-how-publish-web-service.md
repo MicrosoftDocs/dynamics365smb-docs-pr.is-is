@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 11/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 0ffce108abbe24ec70f31c8a8447e3b6a379b32c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 74641fed893866fdfae879fe6ee99c516d5b5bdd
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-publish-a-web-service"></a>Hvernig á að: Birta vefþjónustu
+# <a name="publish-a-web-service"></a>Birta vefþjónustu
 Vefþjónustur eru létt leið til að gera virkni forrita aðgengilega ýmsum utanaðkomandi kerfum og notendum. [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur fjölda hluta sem eru sýndir sem vefþjónusta að sjálfgefnu vegna samþættingu við Microsoft þjónustu, en þú getur einnig bætt við annarri vefþjónustu.  
 
 Hægt er að setja upp vefþjónustu í Windows-biðlaranum eða í vefbiðlaranum. Þá verður að gefa vefþjónustuna út til að hún geti tekið við þjónustubeiðnum á netinu. Notendur geta fundið vefþjónustu með því að beina vafra að staðsetningu vefþjóns og biðja um lista yfir þjónustu í boði. Þegar gefa á út vefþjónustu verður hún samstundis virk á netinu fyrir sannvottaða notendur. Allir heimilaðir notendur geta opnað lýsigögn fyrir vefþjónustu, en aðeins notendur með nægilegar heimildir geta opnað raungögn.

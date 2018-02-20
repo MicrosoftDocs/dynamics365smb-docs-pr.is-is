@@ -13,19 +13,19 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: dcc29b913c999fe05272dd709a873635efb5eeb4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b29fed7bf976c896b3d663f526d9c3a96200100
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-item-attributes"></a>Hvernig á að: Vinna með vörueigindir
+# <a name="work-with-item-attributes"></a>Vinna með vörueigindir
 Þegar viðskiptamaður gerir fyrirspurn um vöru, annað hvort í beinum samskiptum eða í innbyggðri vefverslun getur hann spurt um vöruna eða leitað samkvæmt eiginleikum, t.d. hæð og árgerð. Til að veita þessa þjónustu við viðskiptamanninn er hægt að úthluta vörum mismunandi eigindargildum sem er svo hægt að nota við leit að vörum.
 
-Einnig er hægt að úthluta vörueigindum á vöruflokka, sem síðan eiga við um vörur sem nota vöruflokka. Nánari upplýsingar eru í [Hvernig á að flokka vöru](inventory-how-categorize-items.md).
+Einnig er hægt að úthluta vörueigindum á vöruflokka, sem síðan eiga við um vörur sem nota vöruflokka. Frekari upplýsingar eru í [Flokka vöru](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> Ef þú setur myndir í viðhengi vöru, getur Myndgreiningaviðbótin greint eigindir á myndinni og lagt til eigindirnar svo þú getir ákveðið hvort eigi að úthluta þeim eður ei. Viðbótin er tilbúin til notkunar. Þú þarft bara að virkja hana. Nánari upplýsingar eru í [Myndgreiningarviðbót fyrir Microsoft Dynamics 365 Business edition](ui-extensions-image-analyzer.md).
+> Ef þú setur myndir í viðhengi vöru, getur Myndgreiningaviðbótin greint eigindir á myndinni og lagt til eigindirnar svo þú getir ákveðið hvort eigi að úthluta þeim eður ei. Viðbótin er tilbúin til notkunar. Þú þarft bara að virkja hana. Nánari upplýsingar eru í [Myndgreiningarviðbót fyrir Finance and Operations, Business Edition ](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Að búa til vörueigind
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörueigindir** og velja svo viðeigandi tengil.
@@ -58,7 +58,7 @@ Einnig er hægt að úthluta vörueigindum á vöruflokka, sem síðan eiga við
 6. Liðir 4-5 eru endurteknir fyrir allar vörueigindir sem á að úthluta á vöruflokk.
 
 > [!NOTE]  
->   Vörueigindum fyrir vöruflokka yfirvöru verður afritaður á vöruflokka undireiningar. Þetta er tilgreint með reitnum **afritað Úr** í **Eigindum** Flýtiflipa. Nánari upplýsingar má finna í [Hvernig á að: Flokka vöru](inventory-how-categorize-items.md).
+>   Vörueigindum fyrir vöruflokka yfirvöru verður afritaður á vöruflokka undireiningar. Þetta er tilgreint með reitnum **afritað Úr** í **Eigindum** Flýtiflipa. Frekari upplýsingar eru í [Flokka vörur](inventory-how-categorize-items.md).
 
 ## <a name="to-filter-by-item-attributes"></a>Afmarka eftir vörueigind
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
@@ -78,8 +78,8 @@ Einnig er hægt að úthluta vörueigindum á vöruflokka, sem síðan eiga við
 Vörur í glugganum **Vörur** eru afmarkaðar eftir tilgreindum eigindagildum vörunnar.
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að: Flokka vörur](inventory-how-categorize-items.md)    
-[Hvernig á að Skrá nýjar vörur](inventory-how-register-new-items.md)  
+[Flokka vörur](inventory-how-categorize-items.md)    
+[Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

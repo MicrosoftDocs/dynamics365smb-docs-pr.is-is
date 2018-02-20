@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 349ad16c943f7efef7ca920f7adad82c8a1c0d5e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9f389fb58252100eb1302d4b546bef58902f3208
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="post-documents-and-journals"></a>bóka skjöl og færslubækur
@@ -30,8 +30,8 @@ Eftirfarandi tafla lýsir skyldum verkum, með tenglum í efnisatriði þar sem 
 | Fræðast um bókun innkaupaskjala. |[Bókun innkaupa](ui-post-purchases.md) |
 | Fræðast um bókun söluskjala. |[Sölubókun](ui-post-sales.md) |
 | Fræðast um bókun færslubóka. |[Vinna í færslubókum](ui-work-general-journals.md) |
-| Í glugga er hægt að forskoða færslur sem verða stofnaðar þegar bókað er. |[Hvernig á að: Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md) |
-| Í skýrslu er hægt að forskoða færslur sem verða stofnaðar þegar bókað er. |[Hvernig á að: Skoða prófunarskýrslur fyrir bókun](ui-how-view-test-reports-posting.md) |
+| Í glugga er hægt að forskoða færslur sem verða stofnaðar þegar bókað er. |[Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md) |
+| Í skýrslu er hægt að forskoða færslur sem verða stofnaðar þegar bókað er. |[Skoða prufuskýrslur fyrir bókun](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  

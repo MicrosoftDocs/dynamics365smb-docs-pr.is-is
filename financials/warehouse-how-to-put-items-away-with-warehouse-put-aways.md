@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 28ff0073c75136f31153327a70a8f7c0bb9176aa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ccc452db91f7c227e052f60d50f8cc0fdf46fd0
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-warehouse-put-aways"></a>Hvernig á að ganga frá vörum með vöruhúsafrágangi
-Þegar birgðageymslan er sett þannig upp að hún krefst vöruhúsafrágangs- og vöruhúsamóttökuvinnslu eru vöruhúsafrágangsskjöl notuð til að stjórna frágangi á vörum.  
+# <a name="put-items-away-with-warehouse-put-aways"></a>Ganga frá vörum með vöruhúsafrágangi
+Þegar birgðageymslan er sett þannig upp að hún krefst vöruhúsafrágangs- og vöruhúsamóttökuvinnslu eru vöruhúsafrágangsskjöl aðgerðin notuð til að stjórna frágangi á vörum.  
 
 Þegar vöruhúsamóttaka er bókuð uppfærir kerfið upprunaskjölin, s.s. innkaup, millifærslu inn eða söluvöruskilapöntun, bókar móttekið magn á birgðahöfuðbók og sendir línurnar um vörurnar sem mótteknar voru í frágangsaðgerð vöruhússins. Ef innanhússfrágangur og tínsla er notuð getur innanhússfrágangurinn einnig stofnað línur fyrir frágang.  
 
-Það fer eftir uppsetningu vöruhússins hvort línurnar verða tiltækar á vinnublaði frágangs eða notaðar til að stofna frágangsleiðbeiningar strax. Frekari upplýsingar, sjá [Hvernig á að: áætla frágang á vinnublöðum](warehouse-how-to-plan-put-aways-in-worksheets.md).  
+Það fer eftir uppsetningu vöruhússins hvort línurnar verða tiltækar á vinnublaði frágangs eða notaðar til að stofna frágangsleiðbeiningar strax. Frekari upplýsingar, sjá [Áætla frágang á vinnublöðum](warehouse-how-to-plan-put-aways-in-worksheets.md).  
 
 Auk staðlaðra aðferða til að stofna vöruhúsafrágang eins og lýst er í þessu efnisatriði er hægt að hægt að stofna frágang úr tengdri bókaðri vöruhúsamóttöku. Þetta kemur að notum ef búið er að eyða frágangslínum, eða ef notuð hafa verið beinn frágangur og tínsla og ákvörðun hefur verið tekin um að nota ekki vinnublað frágangs, vegna þess að hægt að stofna eða endurstofna frágangsleiðbeiningar fyrir bókaðar móttökulínur.  
 
@@ -56,7 +56,7 @@ Auk staðlaðra aðferða til að stofna vöruhúsafrágang eins og lýst er í 
 
 Í birgðageymslum sem eru settar upp þannig að þær noti beinan frágang og tínslu, eru eftirfarandi stillingar forkröfur fyrir ferlinu hér að framan:  
 
-- Frágangssniðmát er sett upp: Nánari upplýsingar er að finna í [Hvernig á að: setja upp frágangssniðmát](warehouse-how-to-set-up-put-away-templates.md).  
+- Frágangssniðmát er sett upp: Frekari upplýsingar eru í [Setja upp frágangssniðmát](warehouse-how-to-set-up-put-away-templates.md).  
 - Þyngd, rúmmál og sérstakar geymsluþarfir vörunnar eða birgðaeiningarinnar eru skilgreindar. Frekari upplýsingar eru í Heildarþyngd.  
 - Afkastagetan, hólfategund og hólfaflokkun hólfanna. Nánari upplýsingar eru í Hólfaflokkun.  
 

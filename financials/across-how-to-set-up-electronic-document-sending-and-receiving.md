@@ -11,24 +11,24 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: af4f55a85b0269832c6afba791f2499aebf0979c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f597ce7dc0d4cda526da00d9aac5b1178c5e7a14
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-electronic-document-sending-and-receiving"></a>Hvernig á að: Setja upp sendingu og móttöku rafrænna skjala
+# <a name="set-up-electronic-document-sending-and-receiving"></a>Setja upp sendingu og móttöku rafrænna skjala
 Annar valkostur við að senda skrár sem viðhengi í tölvupósti er að senda og taka á móti viðskiptaskjölum á rafrænan hátt. Með rafrænu skjali er átt við staðlaða og \-samþykkta skrá sem stendur fyrir skrárfærslu, s.s. sölureikning sem hægt er að taka á móti og umbreyta í innkaupareikning í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Skipti rafrænna skjala á milli tveggja viðskiptafélaga er framkvæmd af ytri veitanda skjalaskiptaþjónustu. Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu og móttöku rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Stór þjónustuveitandi skjalaskiptaþjónustu er forstilltur og tilbúinn til uppsetningar fyrir fyrirtækið.  
 
 Úr PDF-skjölum eða myndaskrám sem standa fyrir skjöl á innleið er hægt að láta ytri OCR-þjónustu (sjónræn stafakennsl) stofna rafræn skjöl sem hægt er að umbreyta í skráarfærslur í [!INCLUDE[d365fin](includes/d365fin_md.md)], rétt eins og með rafræn PEPPOL-skjöl. Til dæmis Þegar reikningur berst frá lánardrottni á PDF-sniði er til dæmis hægt að senda hann til OCR-þjónustu úr glugganum **Skjöl á innleið**. Eftir nokkrar sekúndur berst skráin aftur sem rafrænn reikningur sem hægt er að breyta í innkaupareikning fyrir lánardrottin. Ef skráin er send í OCR-þjónustu með tölvupósti er ný færsla fyrir skjal á innleið sjálfkrafa stofnum þegar tekið er aftur á móti rafræna skjalinu.  
 
-The **PEPPOL** rafræna skjal snið er forstillt þannig að gera þér kleift að senda rafræna reikninga og trúnaður minnisblöð í PEPPOL sniði. Fyrst þarf að setja upp mismunandi aðalgögn, t.d. upplýsingar um fyrirtækið, viðskiptavini, atriði, og mælieiningar. Þau eru notuð til að bera kennsl á viðskiptafélaga og atriði þegar gögnum er umbreytt í reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)] í einingar í skjalaskrá á útleið. Að lokum verður að velja snið í glugganum **Rafrænt snið skjals** fyrir hvern viðskiptamaður sem á að senda rafræn PEPPOL-skjöl til. Nánari upplýsingar sjá [Hvernig á að: Senda rafræn skjöl](sales-how-to-send-electronic-documents.md).  
+The **PEPPOL** rafræna skjal snið er forstillt þannig að gera þér kleift að senda rafræna reikninga og trúnaður minnisblöð í PEPPOL sniði. Fyrst þarf að setja upp mismunandi aðalgögn, t.d. upplýsingar um fyrirtækið, viðskiptavini, atriði, og mælieiningar. Þau eru notuð til að bera kennsl á viðskiptafélaga og atriði þegar gögnum er umbreytt í reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)] í einingar í skjalaskrá á útleið. Að lokum verður að velja snið í glugganum **Rafrænt snið skjals** fyrir hvern viðskiptamaður sem á að senda rafræn PEPPOL-skjöl til. Nánari upplýsingar sjá [Senda rafræn skjöl](sales-how-to-send-electronic-documents.md).  
 
 **PEPPOL – Reikningur** og **PEPPOL – Kreditreikningur** gagnaskiptaskilgreiningar eru forstilltar til að leyfa þér að taka við rafrænum reikningum og kreditreikningum á PEPPOL-sniði. Fyrst þarf að setja upp mismunandi aðalgögn, t.d. upplýsingar um fyrirtækið, lánardrottna, atriði, og mælieiningar. Þau eru notuð til að bera kennsl á viðskiptafélaga og atriði þegar gögnum er umbreytt í reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)] í einingar í skjalaskrá á innleið. Að lokum verður að velja gagnaskiptaskilgreiningu í glugganum **Skjöl á innleið** fyrir hvert rafrænt skjal á innleið sem á að umbreyta í innkaupaskjal í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-**OCR – reikningur** gagnaskiptaskilgreining er forstillt til að leyfa þér að fá rafræn skjöl sem eru mynduð í stafakennslaþjónustu. Til að taka við, til dæmis, reikningi sem á rafræns OCR-skjals eru sett upp aðaldagsetning og síðan er skjalið meðhöndlað líkt og þegar rafrænt PEPPOL-skjal er móttekið. Frekari upplýsingar eru í [Hvernig á að nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)  
+**OCR – reikningur** gagnaskiptaskilgreining er forstillt til að leyfa þér að fá rafræn skjöl sem eru mynduð í stafakennslaþjónustu. Til að taka við, til dæmis, reikningi sem á rafræns OCR-skjals eru sett upp aðaldagsetning og síðan er skjalið meðhöndlað líkt og þegar rafrænt PEPPOL-skjal er móttekið. Frekari upplýsingar eru í [Hvernig á að nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md).  
 
-Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir sendingu eða móttöku. Frekari upplýsingar, sjá [Hvernig á að setja upp skjalaskiptaþjónustu](across-how-to-set-up-a-document-exchange-service.md).  
+Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir sendingu eða móttöku. Frekari upplýsingar, sjá [Setja upp skjalaskiptaþjónustu](across-how-to-set-up-a-document-exchange-service.md).  
 
 Þetta efnisatriði inniheldur eftirfarandi ferli:  
 
@@ -95,20 +95,20 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
     |**VSK-númer**|Tilgreinið VSK-skráningarnúmer viðskiptamannsins. **Ábending:** Veljið hnappinn DrillDown til að nota vefþjónustu sem staðfestir að númerið sé til í fyrirtækjaskrá lands.|  
     |**Ábyrgðarstöð**|Ef viðskiptamaður er settur upp með ábyrgðarstöð skal tryggja að reiturinn **Lands-/svæðiskóði** sé fylltur út.|  
 
-    Hægt er að setja hvern viðskiptamaður upp með valinni aðferð við að senda viðskiptaskjöl til að þurfa ekki að velja sendingarvalkost í hvert skipti sem viðskiptamanni eru send skjöl. Frekari upplýsingar er að finna á [Hvernig á að: Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md)  
+    Hægt er að setja hvern viðskiptamaður upp með valinni aðferð við að senda viðskiptaskjöl til að þurfa ekki að velja sendingarvalkost í hvert skipti sem viðskiptamanni eru send skjöl. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
 
 ### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>Til að velja PEPPOL-snið fyrir rafræn skjöl við sendingu rafrænna skjala  
 1. Í reitnum **Leita** skal færa inn **Sendingarsnið skjala** og velja síðan viðkomandi tengil.  
-2. Opna forstillingu fyrir sendingu skjala sem þegar er til eða stofna nýja. Frekari upplýsingar er að finna á [Hvernig á að: Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md)  
+2. Opna forstillingu fyrir sendingu skjala sem þegar er til eða stofna nýja. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
 3. Í glugganum **Forstilling skjalasendingar** skal velja **Rafrænt snið**,línu fyrir PEPPOL og velja síðan hnappinn **Í lagi**.  
 4. Í reitnum **Rafrænt skjal** skal velja **Já (í gegnum skjalaskiptaþjónusta)**.  
 
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] greinir sjálfkrafa hvort skjalið er reikningur eða kreditreikningur og beitir PEPPOL-sniði samkvæmt því.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  greinir sjálfkrafa hvort skjalið er reikningur eða kreditreikningur og beitir PEPPOL-sniði samkvæmt því.  
 
-5. Til að nota þessa forstillingu sendingar á skjölum fyrir alla viðskiptamenn skal velja gátreit **Sjálfgefið** á flýtiflipanum **Almennt**. Til að nota það aðeins fyrir tiltekna viðskiptamenn skal fylla út í reitinn **Forstilling skjalasendingar** á viðkomandi viðskiptamannaspjaldi. Frekari upplýsingar er að finna á [Hvernig á að: Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md)  
+5. Til að nota þessa forstillingu sendingar á skjölum fyrir alla viðskiptamenn skal velja gátreit **Sjálfgefið** á flýtiflipanum **Almennt**. Til að nota það aðeins fyrir tiltekna viðskiptamenn skal fylla út í reitinn **Forstilling skjalasendingar** á viðkomandi viðskiptamannaspjaldi. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
 
-    Núna er hægt að senda rafrænt skjal sem inniheldur umbreyttu gögnin. Nánari upplýsingar sjá [Hvernig á að: Senda rafræn skjöl](sales-how-to-send-electronic-documents.md).  
+    Núna er hægt að senda rafrænt skjal sem inniheldur umbreyttu gögnin. Nánari upplýsingar sjá [Senda rafræn skjöl](sales-how-to-send-electronic-documents.md).  
 
 ### <a name="to-set-up-vendors-for-electronic-document-receiving"></a>Til að setja upp viðskiptavini fyrir rafræna skjal senda  
 1. Í reitnum **Leita** skal færa inn **Lánardrottnar** og velja síðan viðkomandi tengi.  
@@ -126,7 +126,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
 
      Ef skjalið sem á að taka við er kreditreikningur er valið **PEPPOLCREDITMEMO**.  
 
-    Nú er hægt að taka á móti rafrænu skjali með því að hefja umbreytingarferli gagna í glugganum **Skjöl á innleið**. Frekari upplýsingar, sjá [Hvernig á að: Taka við og umbreyta rafrænum skjölum](purchasing-how-to-receive-and-convert-electronic-documents.md).  
+    Nú er hægt að taka á móti rafrænu skjali með því að hefja umbreytingarferli gagna í glugganum **Skjöl á innleið**. Frekari upplýsingar, sjá [Taka við og umbreyta rafrænum skjölum](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
 ### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Til að setja upp G / L reikning til að nota á nýjum línum kaup reikningi fyrir utan aðgreinanlegra atriði og erlendra liða  
 1. Í reitnum **Leit** skal færa inn **Innkaup** og velja síðan viðkomandi tengil.  
@@ -138,6 +138,6 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
 
 ## <a name="see-also"></a>Sjá einnig  
 [Rafræn gagnaskipti](across-data-exchange.md)   
-[Hvernig er reikningsfært](sales-how-invoice-sales.md)   
-[Hvernig á að skrá kaup](purchasing-how-record-purchases.md)
+[Reikningsfæra sölur](sales-how-invoice-sales.md)   
+[Skrá innkaup](purchasing-how-record-purchases.md)
 

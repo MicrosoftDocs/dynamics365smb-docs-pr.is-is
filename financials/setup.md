@@ -1,6 +1,6 @@
 ---
-title: Yfirlit yfir verk fyrir uppsetningu Dynamics 365 Business edition | Microsoft Docs
-description: "Útskýrir hvernig skal setja upp, forsníða og frumstilla Dynamics 365 Business edition eftir þínum þörfum."
+title: "Yfirlit yfir verkefni til að setja upp Finance and Operations, Business Edition | Microsoft Docs"
+description: "Útskýrir hvernig skal setja upp, forsníða og frumstilla Finance and Operations, Business Edition eftir þínum þörfum."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7acca4df366752355e5bf28ace6c82fbca196725
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 14d3c2639fcbc6c0a1ecf47fd89a2c0452e06fb9
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Setur upp [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.
+# <a name="setting-up-included365finincludesd365finmdmd"></a>Setur upp [!INCLUDE[d365fin](includes/d365fin_md.md)]
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.
 
 Til dæmis er yfirlit yfir reikninga áfyllt með fjölda pósthólf sem eru tilbúnar til notkunar. Að sjálfsögðu geturðu breytt bókhaldslyklinum til að uppfylla þarfir þínar. Frekari upplýsingar eru í [Fjármál](finance.md).
 
@@ -38,10 +38,10 @@ Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilte
 |Tilgreina almennar reglur og gildi fyrir vöruhúsaferla og tiltekna meðhöndlun í hverri birgðageymslu.|[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)|
 |Undirbúa framleiðsluuppskrift og leiðir til að skilgreina hvernig endanlegar vörur eru framleiddar og undirbúa véla- og vinnustöðvar fyrir að framkvæma nauðsynlegar aðgerðir.|[Uppsetning framleiðslu](production-configure-production-processes.md)|
 | Setjið upp einstaka kennitölu fyrir skrár, svo sem kort, skjöl og dagbókarlínur, til að fylgjast með þeim í kerfinu. |[Stofnun númeraraða](ui-create-number-series.md) |
-| Settu upp **Uppsetning SMTP-pósts** gluggann til að senda og taka á móti tölvupósti úr skjölum innan [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Hvernig á að: Setja upp tölvupóst](madeira-how-setup-email.md) |
-| Setjið upp einkvæman auðkenniskóða. |[Hvernig á að: Stofnun númeraraða](ui-create-number-series.md) |
+| Settu upp **Uppsetning SMTP-pósts** gluggann til að senda og taka á móti tölvupósti úr skjölum innan [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Setja upp tölvupóst](madeira-how-setup-email.md) |
+| Setjið upp einkvæman auðkenniskóða. |[Stofnun númeraraða](ui-create-number-series.md) |
 
-Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](includes/d365fin_md.md)] áskrift þinni. Frekari upplýsingar, sjá [Uppsetning og stjórnun í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md).  
+Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](includes/d365fin_md.md)] áskrift þinni. Frekari upplýsingar, sjá [Uppsetning og stjórnun í [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  
@@ -58,5 +58,6 @@ Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](incl
 [Stofna ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 29e4380312724b08a7e250a65288d75d27444df0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 045cabbaab1b7978402524f408caee87ce8e53e2
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="invoicing-prepayments"></a>Reikningsfærsla fyrirframgreiðslna
@@ -28,9 +28,9 @@ Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyr
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Setja upp bókunarflokka fyrirframgreiðslu, og setja upp sjálfgefna fyrirframgreiðsluprósentu fyrir viðskiptamenn, lánardrottna og vörur.|[Hvernig á að: setja upp Fyrirframgreiðslur](finance-set-up-prepayments.md)|
-|Stofna pöntun, leiðrétta fyrirframgreiðsluupphæðirnar og gefa út reikning fyrir fyrirframgreiðsluupphæðunum.|[Hvernig á að stofna reikninga fyrirframgreiðslu](finance-how-to-create-prepayment-invoices.md)|  
-|Gefa út viðbótarfyrirframgreiðslureikning, annaðhvort fyrir viðbótarvörum eða viðbótarinnborgun á upphaflegu pöntunina eða gefa út kreditfyrirframgreiðslureikning.|[Hvernig á að leiðrétta fyrirframgreiðslu](finance-how-to-correct-prepayments.md)|  
+|Setja upp bókunarflokka fyrirframgreiðslu, og setja upp sjálfgefna fyrirframgreiðsluprósentu fyrir viðskiptamenn, lánardrottna og vörur.|[Uppsetning fyrirframgreiðslu](finance-set-up-prepayments.md)|
+|Stofna pöntun, leiðrétta fyrirframgreiðsluupphæðirnar og gefa út reikning fyrir fyrirframgreiðsluupphæðunum.|[Stofna fyrirframgreiðslureikninga](finance-how-to-create-prepayment-invoices.md)|  
+|Gefa út viðbótarfyrirframgreiðslureikning, annaðhvort fyrir viðbótarvörum eða viðbótarinnborgun á upphaflegu pöntunina eða gefa út kreditfyrirframgreiðslureikning.|[Leiðrétta fyrirframgreiðslur](finance-how-to-correct-prepayments.md)|  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

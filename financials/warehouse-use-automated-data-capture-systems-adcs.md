@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3249ed4b8bc50f7cbc577d5dc01b03029b4c06c3
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Hvernig skal: Virkja Sjálfvirkt gagnatökukerfi (ADCS)
+# <a name="enable-automated-data-capture-systems-adcs"></a>Virkja sjálfvirkt gagnatökukerfi (ADCS)
 Hægt er að nota sjálfvirka gagnatökukerfið (ADCS) til að skrá alla hreyfingu á vörum í vöruhúsinu og skrá sumar færslubókaraðgerðir, s.s. leiðréttingar á magni í birgðabók vöruhússins og raunbirgðir.  
 
 Ef nota á ADCS þarf að gefa öllum vörum í vöruhúsinu vörukenni. Einnig þarf að setja upp smáglugga, handtölvuaðgerðir, gagnaskipti og tilgreina stillingar fyrir svæði sem stýra ADCS Notandinn tilgreinir hvort eigi að nota í ADCS spjaldi birgðageymslunnar vöruhúsi.
@@ -56,7 +56,7 @@ Hver vara í vöruhúsi sem nota á með ADCS verður að fá úthlutaðan auðk
 8.  Til að fara yfir upplýsingarnar skal velja reitinn **Kennimerkiskóði** til að opna gluggann **Vörukennimerki**.
 
 ## <a name="to-add-an-adcs-user"></a>Til að bæta við ADCS notanda  
-Hægt er að bæta hvaða notanda við sem notanda sjálfvirks gagnatökukerfis (ADCS). Þegar það er gert verður notandinn einnig að gefa upp aðgangsorð. Einnig er hægt að bjóða upp á tengingu sem auðkennir ADCS-notandann sem starfsmann vöruhúss. Aðgangsorð notanda ADCS getur verið frábrugðið Windows-aðgangsorði notandans. Nánari upplýsingar eru í [Hvernig á að: Vinna með notendur og heimildir](ui-how-users-permissions.md).
+Hægt er að bæta hvaða notanda við sem notanda sjálfvirks gagnatökukerfis (ADCS). Þegar það er gert verður notandinn einnig að gefa upp aðgangsorð. Einnig er hægt að bjóða upp á tengingu sem auðkennir ADCS-notandann sem starfsmann vöruhúss. Aðgangsorð notanda ADCS getur verið frábrugðið Windows-aðgangsorði notandans. Frekari upplýsingar eru í [Stjórna notendum og heimildum](ui-how-users-permissions.md).
 
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **ADCS Notendur** og velja svo viðeigandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
@@ -65,7 +65,7 @@ Hægt er að bæta hvaða notanda við sem notanda sjálfvirks gagnatökukerfis 
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Til að tilgreina að starfsmaður vöruhúss sé ADCS notandi  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **starfsmenn vöruhúss** og velja svo viðeigandi tengil.  
-2.  Ef þörf krefur skal bæta við nýjum starfsmanni vöruhúss. Frekari upplýsingar eru í [Hvernig á að: Setja upp starfsmenn vöruhúss](warehouse-how-to-set-up-warehouse-employees.md).  
+2.  Ef þörf krefur skal bæta við nýjum starfsmanni vöruhúss. Frekari upplýsingar eru í [Setja upp vöruhússtarfsmenn](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Veldu aðgerðina **Breyta lista**.  
 4.  Veljið vöruhúsastarfsmann af listanum. Í reitnum **ADCS notandi** er valið felliörina og veljið svo nafnið á ADCS-notanda af listanum.  
 

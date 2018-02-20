@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="changing-basic-settings"></a>Breyta grundvallarstillingum
@@ -29,7 +29,7 @@ Hlutverkamiðstöð táknar heimasíðu, upphafs síðu sem er hannað fyrir þa
 
 Þú getur einnig byggt upp lista af uppáhalds viðskiptavinum á heimasíðunni fyrir reikninga sem þú ert oft í viðskiptum við eða þarft að veita sérstaka athygli. Notaðu örvar til að fella saman hluta síðunnar og búa til pláss til að sýna tiltekin gögn. Efst á heimasíðu er að finna allar aðgerðir sem hægt er að nota fyrir núverandi efni. Þetta er líka hægt að fella saman og þú þarft aðeins að smella eða ýta innan samanfellda svæðisins til að sjá það aftur.
 
-Sjálfgefið hlutverkamiðstöð er **Viðskiptastjórnandi**, en hægt er að velja annað Hlutverk sem uppfylla þörfum betur. Nánari upplýsingar sjá [Hvernig: Breyta Hlutverkamiðstöð](change-role.md).
+Sjálfgefið hlutverkamiðstöð er **Viðskiptastjórnandi**, en hægt er að velja annað Hlutverk sem uppfylla þörfum betur. Nánari upplýsingar eru í [Breyta Mitt hlutverk](change-role.md).
 
 ## <a name="company"></a>Fyrirtæki
 Fyrirtæki virkar sem geymsluhólf fyrir gögn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hægt er að hafa mörg fyrirtæki í gagnagrunni, en aðeins hægt að velja eitt í einu.
@@ -56,6 +56,6 @@ Velja þennan hlekk til að skoða eða breyta tilkynningum um tiltekin tilvik e
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Hvernig á að: Breyta Hlutverkamiðstöð](change-role.md)  
+[Breyta Mitt hlutverk](change-role.md)  
 [Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: de493a4697c3a5c2fb8581545a29ee832fe1c3dc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2d95dbb6d0336286f0fb657028970ce8a04cfda
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Uppsetning framleiðslu
@@ -31,14 +31,14 @@ Til að geta umbreytt efni í tilbúna vöru þarf framleiðsluforði, líkt og 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
 |Grunnstilla framleiðslumöguleikana, til dæmis ákvarða vinnustundir í vinnusal og velja áætlunarreglur.|**Framleiðslugrunnur** síðan.|  
-|Skilgreina staðlaða vinnuviku í framleiðsludeildinni út frá upphafi og enda hvers vinnudags og tengdrar vaktar.|[Hvernig á að: stofna Dagatal verkstæðis](production-how-to-create-work-center-calendars.md)|  
-|Skipuleggja föst gildi og skilyrði framleiðsluforða í vinnu- eða vélastöðvum til að stýra frálagi framleiðslu sem fram fer í þeim.|[Hvernig á að setja upp vinnu- og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md)|
-|Raða framleiðsluaðgerðir í þá röð sem krafist er og úthluta þeim til vinnu- og vélastöðva með þeim fjölda vinnustunda sem telst nauðsynlegur.|[Hvernig á að stofna Nýjar leiðir](production-how-to-create-routings.md)|
-|Raða framleiðslueiningar eða samsettar einingar undir framleidda yfirvöru og staðfesta uppskriftina fyrir framkvæmd í vinnustöðvum.|[Hvernig á að stofna nýjar framl.uppskriftir](production-how-to-create-production-boms.md)|
-|Tryggja að rétt einingamagn sé tiltækt þegar framleiddar vörur eru geymdar á lager undir einni mælieiningu en framleiddar í annarri.|[Hvernig á að: Vinna með mælieiningu framleiðslukeyrslu](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
-|Skilgreina samsafn framleiðsluvara með svipað framleiðsluferli til að spara notkun. Til dæmis er hægt að framleiða fjögur stykki af sömu vörunni úr einni plötu og 10 stykki af annarri, ólíkri vöru, á sama tíma.|[Hvernig á að: vinna með framleiðslusamsafn](production-how-work-family.md)|
-|Nota staðlaða verkhluta til að einfalda stofnun leiða með því að bæta aukaupplýsingum snögglega við ítrekað ferli.|[Hvernig á að setja upp staðlaðar leiðarlínur](production-how-set-up-standard-routing-lines.md)|  
-|Undirbúa vinnustöðvar og leiðir til að þær sýni úthýsta framleiðslu.|[Hvernig á að: Fela undirverktaka framleiðslu](production-how-to-subcontract-manufacturing.md)|  
+|Skilgreina staðlaða vinnuviku í framleiðsludeildinni út frá upphafi og enda hvers vinnudags og tengdrar vaktar.|[Stofna dagatal verkstæðis](production-how-to-create-work-center-calendars.md)|  
+|Skipuleggja föst gildi og skilyrði framleiðsluforða í vinnu- eða vélastöðvum til að stýra frálagi framleiðslu sem fram fer í þeim.|[Setja upp vinnu- og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md)|
+|Raða framleiðsluaðgerðir í þá röð sem krafist er og úthluta þeim til vinnu- og vélastöðva með þeim fjölda vinnustunda sem telst nauðsynlegur.|[Stofna leiðir](production-how-to-create-routings.md)|
+|Raða framleiðslueiningar eða samsettar einingar undir framleidda yfirvöru og staðfesta uppskriftina fyrir framkvæmd í vinnustöðvum.|[Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)|
+|Tryggja að rétt einingamagn sé tiltækt þegar framleiddar vörur eru geymdar á lager undir einni mælieiningu en framleiddar í annarri.|[Vinna með mælieiningu framleiðslukeyrslu](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
+|Skilgreina samsafn framleiðsluvara með svipað framleiðsluferli til að spara notkun. Til dæmis er hægt að framleiða fjögur stykki af sömu vörunni úr einni plötu og 10 stykki af annarri, ólíkri vöru, á sama tíma.|[Vinna með framleiðslusamsafn](production-how-work-family.md)|
+|Nota staðlaða verkhluta til að einfalda stofnun leiða með því að bæta aukaupplýsingum snögglega við ítrekað ferli.|[Setja upp staðlaðar leiðarlínur](production-how-set-up-standard-routing-lines.md)|  
+|Undirbúa vinnustöðvar og leiðir til að þær sýni úthýsta framleiðslu.|[Úthýsa framleiðslu til undirverktaka](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Sjá einnig
 [Framleiðsla](production-manage-manufacturing.md)    

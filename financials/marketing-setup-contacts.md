@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 701282909208c36b0ba546c1a15ca27afdbf447c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Undirbýr Setja upp Tengiliðir
@@ -31,11 +31,11 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Til | Sjá |
 | --- | --- |
 | Setja upp þau viðskiptatengsl sem eiga við um tengiliðina, til dæmis væntanlegur viðskiptamaður, banki, ráðgjafi eða þjónustuveitandi. |[Uppsetning viðskiptatengsla á fyrirtækjum fyrirtækja](marketing-business-relations.md) |
-| Setja upp starfsgreinar sem tengiliðir tilheyra, til dæmis smásala eða bifreiðaiðnaður. |[Hvernig skal: Setja upp Starfsgreinahópar á fyrirtækjatengiliði](marketing-industry-groups.md) |
-| Setja upp pósthópana sem nota má til að auðkenna tengiliðahópa sem eiga að fá sömu upplýsingar. |[Hvernig skal: Setja upp pósthópa á fyrirtækjatengilið](marketing-mailing-groups.md) |
+| Setja upp starfsgreinar sem tengiliðir tilheyra, til dæmis smásala eða bifreiðaiðnaður. |[Setja upp Starfsgreinahópar á fyrirtækjum tengiliðs](marketing-industry-groups.md) |
+| Setja upp pósthópana sem nota má til að auðkenna tengiliðahópa sem eiga að fá sömu upplýsingar. |[Setja upp pósthópa á fyrirtækjum tengiliðs](marketing-mailing-groups.md) |
 | Setja upp starfsábyrgð tengiliða. |[Setja upp starfsábyrgðir á tengiliði](marketing-job-responsibilities.md) |
-| Setja upp stjórnunarstigið sem nota á um tengiliðina. |[Hvernig skal: setja upp stjórnunarstig á tengiliði](marketing-organizational-levels.md) |
-| Settu upp vefur heimildir (leitarvélar og vefsíður) sem þú getur notað þegar þú skoðar upplýsingar um tengiliði þína á Netinu. |[Hvernig skal: Setja upp veftengingar á tengilið](marketing-web-sources.md) |
+| Setja upp stjórnunarstigið sem nota á um tengiliðina. |[Stjórnunarstig sett upp fyrir tengiliði](marketing-organizational-levels.md) |
+| Settu upp vefur heimildir (leitarvélar og vefsíður) sem þú getur notað þegar þú skoðar upplýsingar um tengiliði þína á Netinu. |[Setja upp veftengingar á tengilið](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  

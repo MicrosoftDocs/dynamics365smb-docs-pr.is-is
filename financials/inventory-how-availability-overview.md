@@ -12,19 +12,19 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dade893e7ff1c14854274565b40a436a5a9b48c8
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-view-the-availability-of-items"></a>Hvernig skal: Skoða tiltækileika vöru
+# <a name="view-the-availability-of-items"></a>Skoða tiltækileika vöru
 Þegar um er að ræða viðskiptatengd verkefni er hægt að fá ítarlegar upplýsingar um hvenær og hvar vara er fáanleg, til dæmis þegar verið er að ræða við viðskiptavin um afhendingardag.
 
 Hægt er að skoða tiltækileika alla vara eftir staðsetningu, og hægt er að skoða tiltækileika hverrar vöru eftir atburði, tímabili eða staðsetningu. Með atburði er átt við allar áætlaðar vörufærslur, svo sem söluafhendingu eða flutningsinnhreyfingu á innleið.
 
 > [!NOTE]  
->   Ef óskað er eftir að sjá tiltækileika eftir staðsetningu þarf að hafa birgðir á fleiri en einum stað. Nánari upplýsingar er að finna í [Hvernig á að: Setja upp staðsetningar](inventory-how-setup-locations.md).
+>   Ef óskað er eftir að sjá tiltækileika eftir staðsetningu þarf að hafa birgðir á fleiri en einum stað. Nánari upplýsingar er að finna í [Setja upp birgðageymslur](inventory-how-setup-locations.md).
 
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)], eru tölur um framboð sýndar í tveimur mismunandi reitum, hvor um sig með mismunandi skilgreiningu:
 
@@ -35,7 +35,7 @@ Hægt er að skoða tiltækileika alla vara eftir staðsetningu, og hægt er að
 >   Sérstaklega mikilvægt er að skoða Áætlaða stöðu til ráðstöfunar í gluggunum **Tiltækileiki vöru eftir tímabili** og **Tiltækileiki vöru eftir atviki** þar sem þeir innihalda dagsetningarvíddirnar.  
 
 > [!NOTE]  
->   Eftirfarandi ferli lýsa því hvernig á að skoða ítarlegar upplýsingar um tiltækileika á birgðalista og birgðaspjaldi. Einnig er hægt að nálgast upplýsingarnar úr söluskjalslínum, fyrir vöruna sem tilheyrir þeirri línu. Nánari upplýsingar eru í [Hvernig á að: selja vörur.](sales-how-sell-products.md)
+>   Eftirfarandi ferli lýsa því hvernig á að skoða ítarlegar upplýsingar um tiltækileika á birgðalista og birgðaspjaldi. Einnig er hægt að nálgast upplýsingarnar úr söluskjalslínum, fyrir vöruna sem tilheyrir þeirri línu. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Að skoða tiltækileika vöru samkvæmt því hvenær hún berst eða verður afgreidd
 Hægt er að skoða tiltækileika vöru samkvæmt áætluðum vörufærslum í glugganum **Til ráðstöfunar eftir atviki**.
@@ -115,10 +115,10 @@ Ef einn eða fleiri samsetningaríhlutir eru ekki tiltækir endurspeglast það 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
-[Hvernig á að: Vinna með uppskriftir](inventory-how-work-BOMs.md)    
-[Hvernig á að: Setja upp birgðageymslur](inventory-how-setup-locations.md)  
-[Hvernig á að: Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)  
-[Hvernig á að: Selja vörur](sales-how-sell-products.md)      
-[Unnið með Dynamics 365](ui-work-product.md)  
+[Unnið með uppskriftir](inventory-how-work-BOMs.md)    
+[Uppsetning birgðageymsla](inventory-how-setup-locations.md)  
+[Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)  
+[Selja vörur](sales-how-sell-products.md)      
+[Unnið með Finance and Operations, Business Edition](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 

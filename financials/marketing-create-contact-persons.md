@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 473cf43c227793e4e606c893154caf28466fdff7
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-persons"></a>Einstaklingstengiliðir stofnaðir
@@ -32,14 +32,14 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 | Til | Sjá |
 | --- | --- |
-| Veita upplýsingar um einstaklingstengilið. |[Hvernig á að stofna Einstaklingstengilið](marketing-how-create-contact-persons.md) |
-| Setja upp annað heimilisfang fyrir tengilið. |[Hvernig á að úthluta önnur aðsetur](marketing-how-assign-alternate-address.md) |
-| Lýsa viðskiptatengslum við fyrirtækjatengilið. |[Hvernig skal: Setja upp starfsábyrgðir á tengiliði](marketing-job-responsibilities.md) |
-| Lýsa stjórnunarstigi tengiliða. |[Hvernig skal: Setja upp stjórnunarstig fyrir einstaklingstengiliði](marketing-organizational-levels.md) |
+| Veita upplýsingar um einstaklingstengilið. |[Stofna einstaklingstengilið](marketing-how-create-contact-persons.md) |
+| Setja upp annað heimilisfang fyrir tengilið. |[Úthlutun annars aðseturs](marketing-how-assign-alternate-address.md) |
+| Lýsa viðskiptatengslum við fyrirtækjatengilið. |[Setja upp starfsábyrgðir á tengiliði](marketing-job-responsibilities.md) |
+| Lýsa stjórnunarstigi tengiliða. |[Setja upp stjórnunarstig fyrir tengiliði](marketing-organizational-levels.md) |
 | Úthluta pósthópum á tengiliði. |[Pósthópum úthlutað á tengilið](marketing-mailing-groups.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Fyrirtækjatengiliðir stofnaðir](marketing-create-contact-companies.md)  
 [Stofnun og stjórnun tengiliða]()  
-[Unnið með Dynamics 365](ui-work-product.md)
+[Unnið með Finance and Operations, Business Edition](ui-work-product.md)
 

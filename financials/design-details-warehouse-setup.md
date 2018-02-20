@@ -1,6 +1,6 @@
 ---
 title: "Hönnunarupplýsingar - Uppsetning vöruhúss | Microsoft Docs"
-description: "Vöruhúsavirkni í Dynamics 365 inniheldur mismunandi flækjustig, eins og skilgreint með leyfisheimildum í eindum í boði. Flækjustig vöruhússlausnar er einkum skilgreint með hólfauppsetningu á staðsetningarspjöldum, sem aftur eru leyfisstýrð, svo að aðgangur að hólfauppsetningarreitum ræðst að leyfinu."
+description: "Vöruhúsavirkni í Finance and Operations, Business Edition inniheldur mismunandi flækjustig, eins og skilgreint með leyfisheimildum í eindum í boði. Flækjustig vöruhússlausnar er einkum skilgreint með hólfauppsetningu á staðsetningarspjöldum, sem aftur eru leyfisstýrð, svo að aðgangur að hólfauppsetningarreitum ræðst að leyfinu."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 77b601fed0f7eac77ff5a87ba9bc04150325927c
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Hönnunarupplýsingar uppsetningvöruhúss

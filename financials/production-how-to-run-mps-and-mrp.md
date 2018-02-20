@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
-ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 412050e3fd1da21421e0752be6367fa0ead8d636
 ms.contentlocale: is-is
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-run-full-planning-mps-or-mrp"></a>Hvernig á að: keyra fulla áætlunargerð, MPS eða MRP
+# <a name="run-full-planning-mps-or-mrp"></a>Keyra fulla áætlunargerð, MPS eða MRP
 Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikning aðalframleiðsluáætlunar og efnisþarfa samkvæmt raunverulegri eftirspurn og eftirspurn samkvæmt spá. Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.  
 
 -   MPS er útreikningur á aðalframleiðsluáætlun samkvæmt raunverulegri eftirspurn og framleiðsluspánni. MPS-útreikningur er notaður fyrir lokavörur sem eru með spá eða sölupöntunarlínu. Þessar vörur eru kallaðar "MPS-vörur" og eru auðkenndar þegar útreikningur hefst.  
@@ -27,7 +27,7 @@ Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikni
 
 Áætlunaralgóritmarnir fyrir MPS og MRP eru eins. Þeir ná yfir samantekt nettóstöðu, endurnotkun fyrirliggjandi áfyllingarpantana og aðgerðarboð. Áætlunarkerfisvinnslan tekur mið af þörfum eða væntanlegum þörfum (eftirspurn) og hvað er til staðar (framboð). Þegar þessar tegundir magns eru nettófærðar stofnar [!INCLUDE[d365fin](includes/d365fin_md.md)] aðgerðarboð. Aðgerðarboð eru tillögur um að stofna nýja pöntun, breyta pöntun (magni eða dagsetningu) eða hætta við pöntun í pöntun. Hugtakið „pöntun“ inniber innkaupapantanir, samsetningarpöntun, framleiðslupantanir og millifærslupantanir.
 
-Tengla sem eru stofnaðir af áætlunarkerfinu milli eftirspurnar og tengds framboðs er hægt að rekja í **Pöntunarrakning** glugganum. Frekari upplýsingar, sjá [Hvernig skal: Rekja tengsl á milli framboðs og eftirspurnar](production-how-track-demand-supply.md).   
+Tengla sem eru stofnaðir af áætlunarkerfinu milli eftirspurnar og tengds framboðs er hægt að rekja í **Pöntunarrakning** glugganum. Frekari upplýsingar eru í [Rekja tengsl á milli framboðs og eftirspurnar](production-how-track-demand-supply.md).   
 
 Viðundandi niðurstöður áætlunar byggjast á uppsetningu í birgðaspjöldum, samsetningaruppskriftum, framleiðsluuppskriftum og leiðum.  
 

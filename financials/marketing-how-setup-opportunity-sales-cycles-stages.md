@@ -1,6 +1,6 @@
 ---
 title: "Setja upp söluferla tækifæris og söluþrep| Microsoft Docs"
-description: "Lýsir því hvernig skal skilgreina söluþrep, frá upphaflegum tengilið til lokunar, stofna söluferla og úthluta þeim til tækifæra í Dynamics 365 Business edition."
+description: "Lýsir því hvernig skal skilgreina söluþrep, frá upphaflegum tengilið til lokunar, stofna söluferla og úthluta þeim til tækifæra í Finance and Operations, Business Edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d164dd313352e80b6ce4e6f4ba8408e1e2c093de
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ecff2e9e0705055a514f1726b3223f8196300cb6
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-opportunity-sales-cycles-and-cycle-stages"></a>Hvernig á að setja upp söluferla tækifæris og söluþrep
+# <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Setja upp söluferla tækifæris og söluþrep
 Áður en hægt er að hefja notkun sölutækifæri þarf að setja upp söluferli og þrep söluferla. Söluferli samanstendur af röð þrepa sem fara frá fyrstu samskiptum til lokunar sölu. Hvert þrep hefur ákveðnar kröfur sem uppfylla þarf, til dæmis þarfnast sölutilboð áður en tækifæri getur farið á næsta þrep. Einnig er hægt að tilgreina sleppa megi þrepi. Hægt er að setja upp eins mörg söluferli og þarf, og hægt er að setja upp eins mörg þrep söluferla og þarf innan söluferlis.
 
 Innleiðing söluferla fyrir tækifæri felur í sér að setja upp söluferli, sem skilgreina mismunandi þrep í ferli, og síðan úthluta ferlinu á tækifæri. Úthlutun viðeigandi aðgerð eða verkhlutum til tækifærisins getur líka verið hluti af uppsetningu söluferlis.
@@ -37,7 +37,7 @@ Innleiðing söluferla fyrir tækifæri felur í sér að setja upp söluferli, 
 Skrefin eru endurtekin til að setja upp eins mörg þrep og óskað er eftir innan söluferlisins.
 
 ## <a name="to-assign-stage-cycles-to-opportunities"></a>Að úthluta þrepaferli á tækifæri
-Eftir að þú bætir við þrepaferli tækifæris geturðu byrjað að bæta við sölutækifærum, og síðan úthluta þrepaferli á tækifæri með því að stilla reitinn **söluferliskóði**. Frekari upplýsingar eru í [Hvernig á að stofna sölutækifæri](marketing-how-create-opportunities.md).
+Eftir að þú bætir við þrepaferli tækifæris geturðu byrjað að bæta við sölutækifærum, og síðan úthluta þrepaferli á tækifæri með því að stilla reitinn **söluferliskóði**. Nánari upplýsingar sjá [Búa til sölutækifæri](marketing-how-create-opportunities.md).
 
 ## <a name="to-set-up-activities-with-tasks"></a>Uppsetning aðgerða með verkhlutum
 Þú getur sameinað marga verkhluta í aðgerðum, t.d. verkhluta sem hver og einn fela í sér eitt skref. Aðgerðaverkhlutar tengjast hverjum öðrum í gegnum dagsetningarformúlu. Hægt er að úthluta aðgerðum á tækifæri, sölufólk eða tengiliði.

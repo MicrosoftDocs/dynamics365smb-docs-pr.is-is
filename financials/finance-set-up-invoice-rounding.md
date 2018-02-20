@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f56e94d0914aaacc722381790688faedbb75ffda
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ceebeeac325c00d6aef25d8ca51fcfee1ab4e1d5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="set-up-invoice-rounding"></a>Uppsetning sléttunargerðar reikninga
@@ -34,7 +34,7 @@ Til að nota sjálvirka sléttun reiknings þarf að:
 > [!NOTE]  
 >  Auk jöfnunareiginleika reiknings má slétta upphæðir reikninga með eiginleikunum sléttun einingaupphæða og sléttun upphæða.  
  
-## <a name="how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Hvernig á að setja upp fjárhagsreikninga fyrir sléttunarmismun reikninga
+## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Uppsetning fjárhagsreikninga fyrir sléttunarmismun reikninga
 Ef nota á sjálfvirka reikningssléttunaraðgerð forritsins þarf að setja upp fjárhagsreikning eða reikninga þar sem sléttunarmismunur verður bókaður. Áður en þetta er hægt þarf að setja upp VSK-vörubókunarflokka. Nánari upplýsingar um það eru í [Setja upp VSK](finance-setup-vat.md).  
   
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Uppsetning fjárhagsreikninga fyrir sléttunarmismun reikninga  
@@ -45,7 +45,7 @@ Ef nota á sjálfvirka reikningssléttunaraðgerð forritsins þarf að setja up
   
 Nú getur þú úthlutað sléttunarreikningnum til bókunarflokkanna á síðunni **Bókunarflokkar Lánardrottinn**.  <!-- Why only the vendor posting groups? -->
 
-## <a name="how-to-set-up-rounding-for-foreign-and-local-currencies"></a>Hvernig á að: setja upp sléttun fyrir erlendan og staðbundinn gjaldmiðil
+## <a name="set-up-rounding-for-foreign-and-local-currencies"></a>Uppsetning sléttunar fyrir erlendan og staðbundinn gjaldmiðil
 Áður en hægt er að nota sjálfvirku reikningssléttunaraðferðina þarf að setja upp sléttunarreglur fyrir erlenda og staðbundna gjaldmiðla.
 
 ### <a name="to-set-up-rounding-for-foreign-currencies"></a>Uppsetning sléttunar fyrir erlendan gjaldmiðil  
@@ -56,12 +56,12 @@ Nú getur þú úthlutað sléttunarreikningnum til bókunarflokkanna á síðun
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning fjárhags** og velja svo viðeigandi tengil.  
 2. Á **Uppsetning fjárhags** síðunni á flýtiflipanum **Almennt** velurðu **Reikningssléttunarnákvæmni** og svo **Reikningssléttunargerð** reitina.  
 
-## <a name="how-to-activate-the-invoice-rounding-function"></a>Hvernig skal: Gera Reikningssléttunaraðgerðina virka.  
+## <a name="activate-the-invoice-rounding-function"></a>Virkja aðgerðina fyrir reikningssléttun  
 Ef forritið á örugglega að slétta sölu- og innkaupareikninga sjálfkrafa þarf að gera reikningssléttunaraðgerðina virka. Hægt er að gera reikningssléttun virka fyrir sölu- og innkaupareikninga sérstaklega.
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning sölu & útistandandi** eða **Uppsetning Innkaup & viðskiptaskuldir** og velja svo viðeigandi tengil.  
 2. Á flýtiflipanum **Almennt** skal velja gátreitinn **Sléttun reiknings**.  
   
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig er reikningsfært](sales-how-invoice-sales.md)  
-[Hvernig á að skrá kaup](purchasing-how-record-purchases.md)
+[Reikningsfæra sölur](sales-how-invoice-sales.md)  
+[Skrá innkaup](purchasing-how-record-purchases.md)

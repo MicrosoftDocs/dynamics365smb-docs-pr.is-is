@@ -10,25 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: f110f4cc342f5284e3da2641d56dc13f67c3773a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f86fed1b300df98ef120e2f91fdd0785670d04f1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-resources-for-jobs"></a>Hvernig á að: Nota forða fyrir verk
-Notkun forða er skráð í verkbókina til að fylgjast með kostnaði, verði og þeim verktegundum sem tengdar eru við verk. Nánari upplýsingar eru í [Hvernig á að: Skrá notkun vegna verka](projects-how-record-job-usage.md).
+# <a name="use-resources-for-jobs"></a>Nota tilföng fyrir verk
+Notkun forða er skráð í verkbókina til að fylgjast með kostnaði, verði og þeim verktegundum sem tengdar eru við verk. Frekari upplýsingar eru í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).
 
 Einnig er hægt að bóka notkun forða í forðabók. Færslur sem bókaðar eru í forðabók hafa engin áhrif á fjárhag.
 
-> [!NOTE]  
->   Þessi virkni krefst þess að upplifun þín sé stillt á **Suite**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
-
 ## <a name="to-assign-resources-to-jobs"></a>Forða úthlutað á verk
-Forða er úthlutað á verk með því að búa til verkáætlunarlínur fyrir verkið. Nánari upplýsingar eru í [Hvernig á að: Stofna verk](projects-how-create-jobs.md).
+Forða er úthlutað á verk með því að búa til verkáætlunarlínur fyrir verkið. Frekari upplýsingar eru í [Stofna verk](projects-how-create-jobs.md).
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Til að skrá notkun forða fyrir verk
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkbækur** og velja svo viðeigandi tengil.

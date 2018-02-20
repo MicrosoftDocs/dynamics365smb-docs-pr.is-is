@@ -1,1 +1,1 @@
-Dynamics 365 (á staðnum)
+Dynamics 365 for Finance and Operations, Business edition (innanhúss)

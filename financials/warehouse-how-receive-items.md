@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 34960041320f595b504c9f16913db07c1dd3f053
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e6ab403945df0f3c98ab1d47eefa0633f0172e3
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-items"></a>Hvernig á að taka á við vörum
+# <a name="receive-items"></a>Móttaka vara
 Þegar vörur berast í vöruhús sem er ekki sett upp fyrir vinnslu vöruhúsamóttöku þarf einfaldlega að skrá móttökuna á viðeigandi viðskiptaskjal, eins og t.d. innkaupapöntun, sölvöruskilapöntun, eða millifærslupöntun á innleið.
 
 Þegar vörur berast í vöruhús sem er sett upp fyrir vinnslu vöruhúsamóttöku þarf að sækja línur útgefna upprunaskjalsins sem hrintu móttöku þeirra af stað. Ef hólf eru notuð er annaðhvort hægt að samþykkja sjálfgefna hólfið sem er fyllt út eða, ef varan hefur ekki verið notuð fyrr í vöruhúsinu, fylla út hólfið þar sem á að taka vöruna frá. Síðan þarf að fylla út magn varanna sem hafa verið mótteknar og bóka móttökuna.  
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/22/2017
 ## <a name="to-receive-items-with-a-purchase-order"></a>Vörur mótteknar með innkaupapöntun
 Eftirfarandi lýsir því hvernig skal taka á móti vörum með innkaupapöntun. Skrefin eru svipuð fyrir söluvöruskilapöntun og millifærslupantanir.  
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupapantanir** og velja svo viðeigandi tengil.
-2. Opna innkaupapöntun sem þegar er til eða stofna nýja. Nánari upplýsingar eru í [Hvernig á að: Skrá innkaup](purchasing-how-record-purchases.md).
+2. Opna innkaupapöntun sem þegar er til eða stofna nýja. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 3. Í reitnum **Magn til móttöku** er fært inn magnið sem hefur verið móttekið.
 
     Gildið í reitnum **Móttekið magn** er uppfært. Ef um er að ræða móttöku að hluta, getur þetta magn verið lægra en gildið í svæðinu **Magn**.

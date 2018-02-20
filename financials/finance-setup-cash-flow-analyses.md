@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setja upp sjóðstreymisgreiningu
@@ -58,7 +58,7 @@ Til að setja þetta upp skaltu leita að **sjóðstreymisreikningum**, velja te
 ## <a name="set-up-cash-flow-forecasts"></a>Uppsetning sjóðsstreymisspáa
 **Sjóðstreymisspá** notar sjóðstreymisreikninga, sjóðstreymisskipulag og sjóðstreymisspár. Sumir eru til staðar, en þú getur sett upp þitt eigið með því að nota aðstoðarmaður uppsetningarleiðbeiningar. Leiðbeiningarnar hjálpar til við að tilgreina atriði hversu oft eigi að uppfæra spá, reikningar til að byggja á, upplýsingar um þegar greiða skatta og hvort kveikja eigi á [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).  
 
-Sjóðstreymisspár geta notað Cortana Intelligence til að innihalda skjöl með gjalddaga í framtíðinni. Niðurstaðan er ítarlegri spá. Tengingin við Cortana Intelligence er þegar sett upp fyrir þig. Þú þarft bara að kveikja á því. Þegar þú skráir þig inn á [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] birtist tilkynning á bláum reit og veitir hlekkur til sjálfgefna sjóðstreymisuppsetningar. Tilkynningin birtist aðeins einu sinni. Ef þú lokar því, en ákveður að kveikja á Cortana Intelligence, getur þú notað uppsetningu með hjálp eða handvirkt ferli.  
+Sjóðstreymisspár geta notað Cortana Intelligence til að innihalda skjöl með gjalddaga í framtíðinni. Niðurstaðan er ítarlegri spá. Tengingin við Cortana Intelligence er þegar sett upp fyrir þig. Þú þarft bara að kveikja á því. Þegar þú skráir þig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] birtist tilkynning á bláum reit og veitir hlekkur til sjálfgefna sjóðstreymisuppsetningar. Tilkynningin birtist aðeins einu sinni. Ef þú lokar því, en ákveður að kveikja á Cortana Intelligence, getur þú notað uppsetningu með hjálp eða handvirkt ferli.  
 
 > [!NOTE]  
 >   Að öðrum kosti er hægt að nota eigin fyrirsjáanlega vefþjónustu. Nánari upplýsingar er að finna í [Búa til og nota eigin fyrirsjáanlega vefþjónustu fyrir sjóðstreymisspár](#AnchorText).  
@@ -79,10 +79,10 @@ Nota handvirkt ferli:
 >   Íhugaðu lengd tímabila sem þjónustan er notaður í útreikningum hennar. Frekari gögn sem veita verður því nákvæmari á predictions. Líka watch út fyrir mikið frávik í tímabil. Þeir eru einnig hefur predictions. Ef Cortana Intelligence finnur ekki nægt gögnum eða gögnin breytist við lotu, gera á ekki við prediction.  
 
 ## <a name="AnchorText"> </a>Búa til og nota eigin fyrirsjáanlega vefþjónustu fyrir sjóðstreymisspár
-Þú getur einnig búið til þína eigin fyrirsjáanlega vefþjónustu byggt á opinberu fyrirmynd sem heitir **Forspárlíkan fyrir Microsoft Dynamics 365 Business edition**. Þetta líkan er aðgengilegt á netinu í Cortana Intelligence Gallery. Fylgið eftirfarandi skrefum til að fá aðgang að reitunum:  
+Þú getur einnig búið til þína eigin fyrirsjáanlega vefþjónustu byggt á opinberu fyrirmynd sem heitir **Forspármódel fyrir Microsoft Finance and Operations, Business Edition**. Þetta líkan er aðgengilegt á netinu í Cortana Intelligence Gallery. Fylgið eftirfarandi skrefum til að fá aðgang að reitunum:  
 
 1. Opnaðu vafra og farðu í [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Leitið að **Forspárlíkan fyrir Microsoft Dynamics 365 Business edition** og opnið svo líkanið Azure Machine Learning Studio.  
+2. Leitið að **Spárlíkan fyrir Microsoft Finance and Operations, Business Edition** og opnið svo líkanið Azure Machine Learning Studio.  
 3. Nota á reikninginn í Microsoft að undirrita fyrir workspace er og afrita síðan líkaninu sem.  
 4. Keyrslan líkaninu og út og þjónustu veftengingar.  
 5. Gera API URL og API lykillinn athugasemd. Þú munt nota þessi skilríki fyrir sjóðstreymisuppsetningu.  

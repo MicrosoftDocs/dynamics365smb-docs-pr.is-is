@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6d5fecae58ec05f3cb3eda4ee2a43a131b267c92
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-data-exchange-definitions"></a>Hvernig á að: Setja upp skilgreiningar gagnaskipta
+# <a name="set-up-data-exchange-definitions"></a>Setja upp skilgreiningar gagnaskipta
 Hægt er að setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] til að skiptast á gögnum í tilgreindum töflum með gögnum á ytri skjölum, til dæmis senda og taka á móti rafrænum skjölum, flytja inn og flytja út bankagögn eða önnur gögn, t.d. launaskrá, gengi gjaldmiðils og vörulista. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).  
 
-Til að undirbúa gagnaskiptaskilgreiningu fyrir gagnaskrá eða straum er hægt að nota tengt XML-skema til að skilgreina hvaða gagnastak á að hafa með í flýtifliopanum **Dálkskilgreiningar**. Sjá skref 6 í hlutanum „Að lýsa sniði lína og dálka á skrá“. Frekari upplýsingar, sjá [Hvernig á að nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+Til að undirbúa gagnaskiptaskilgreiningu fyrir gagnaskrá eða straum er hægt að nota tengt XML-skema til að skilgreina hvaða gagnastak á að hafa með í flýtifliopanum **Dálkskilgreiningar**. Sjá skref 6 í hlutanum „Að lýsa sniði lína og dálka á skrá“. Frekari upplýsingar, sjá [Notkun XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Venjulega er gagnaskiptaskilgreiningar settar upp í glugganum **skilgreiningar gagnaskipta** Ef hins vegar er sett upp gagnaskiptaskilgreiningar fyrir þjónustu þar sem gengi gjaldmiðils endurnýjast þarf að hefja ferilinn í einfaldaða **Skipti Gengi Uppfærsla Uppsetning Kort** glugganum.  
 
@@ -81,7 +81,7 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
 
 5. Endurtakið skref 4 til að búa til línu fyrir hver skráargögn sem á að flytja út.  
 
-     Haldið áfram og á flýtiflipanum **Dálkskilgreiningar** skal lýsa línusniði í gagnaskrá með því að fylla út reitina eins og lýst er í eftirfarandi töflu. Hægt er að nota skipulagsskrá, t.d. .XSD-skrá, fyrir gagnaskrá til að fylla út í flýtiflipann með viðeigandi einingum. Frekari upplýsingar, sjá [Hvernig á að nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+     Haldið áfram og á flýtiflipanum **Dálkskilgreiningar** skal lýsa línusniði í gagnaskrá með því að fylla út reitina eins og lýst er í eftirfarandi töflu. Hægt er að nota skipulagsskrá, t.d. .XSD-skrá, fyrir gagnaskrá til að fylla út í flýtiflipann með viðeigandi einingum. Frekari upplýsingar má finna í [Notkun XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. Veljið **Sækja skipulagsskrá** á flýtiflipanum **Dálkskilgreiningar**.  
 7. Í glugganum **Sækja skráaskipan** skal velja viðeigandi skipulagsskrá og svo hnappinn **Í lagi**. Línur í flýtiflipanum **Dálkskilgreiningar** eru fylltar út í samræmi við skipulag gagnaskrárinnar.  
@@ -133,7 +133,7 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
     |**Yfirskrift markreits**|Aðeins sýnilegur þegar **Nota sem millitöflu** reitur er valinn.<br /><br /> Tilgreinir heiti reits í marktöflu sem gildið í reitnum **Skýringartexti dálks** er varpað á, þegar notuð er millitafla fyrir gagnainnflutning.|  
     |**Valfrjálst**|Aðeins sýnilegur þegar **Nota sem millitöflu** reitur er valinn.<br /><br /> Tilgreinið hvort vörpun á að sleppa ef reitur er tómur. Ef þessi gátreitur er ekki valinn kemur útflutningsvilla upp ef reiturinn er auður.|  
 
- Gagnaskiptaskilgreining er tilbúin til virkjunar fyrir notendur. Frekari upplýsingar, sjá [Hvernig á að setja upp Rafræn skjöl Sending Móttaka](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Hvernig á að: Setja upp SEPA kreditfærslu](finance-how-to-set-up-sepa-credit-transfer.md), [Hvernig á að: Setja upp SEPA beingreiðslu](finance-how-to-set-up-sepa-direct-debit.md), og [Hvernig á að: Setja upp umreikningsþjónusta fyrir bankagögn eða SEPA kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ Gagnaskiptaskilgreining er tilbúin til virkjunar fyrir notendur. Frekari upplýsingar er að finna í [Setja upp Rafræn skjöl Sending Móttaka](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Setja upp SEPA kreditfærslu](finance-how-to-set-up-sepa-credit-transfer.md), [Hvernig á að: Setja upp SEPA beingreiðslu](finance-how-to-set-up-sepa-direct-debit.md), og [Setja upp umreikningsþjónustu fyrir bankagögn eða SEPA kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
     Þegar stofnuð hefur verið skilgreining gagngaskipta fyrir tiltekna gagnaskrá er hægt að flytja skilgreiningu gagnaskiptanna út sem xml-skrá sem hægt er að nota til að virkja í flýti innflutning á umræddri gagnaskrá. Þessu er lýst í eftirfarandi ferli.  
 
@@ -154,9 +154,9 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
 
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
-[Hvernig á að: Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Hvernig á að: Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-credit-transfer.md)  
-[Hvernig á að: Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-direct-debit.md)  
+[Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Setja upp SEPA-kreditfærslur](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-direct-debit.md)  
 [Greiða með umreikningsþjónustu bankagagna eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  

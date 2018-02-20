@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5de060d742401da62339fb67deff38d0a1e7bddb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92eae2f24daf8181e39b3d22ea23c31a9ee85347
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-inventory-put-aways"></a>Hvernig á að ganga frá vörum með birgðarfrágangi
+# <a name="put-items-away-with-inventory-put-aways"></a>Ganga frá vörum með birgðafrágangi
 Þegar birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki móttökuvinnslu skal nota fylgiskjalið **Birgðafrágangur** til að skrá og bóka frágang og afhendingarupplýsingar fyrir upprunaskjölin. Upprunaskjalið á innleið getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslu eða samsetningapöntun þar sem úttakið er tilbúið til frágangs.  
 
 Þú getur búið til birgðafrágang á þrjá vegu:  
@@ -39,7 +39,7 @@ Ef um er að ræða innkaupapantanir, söluvöruskilapantanir og millifærslupan
 4. Velja skal aðgerðina **Stofna vöruh.beiðni á innleið**.  
 
 > [!NOTE]  
->  Einnig er hægt að stofna á vöruhúsabeiðni á innleið með því að gátreitinn **Stofna beiðni á innleið** þegar framleiðslupöntun er endurnýjuð. Frekari upplýsingar, sjá [Hvernig skal: Uppfæra eða enduráætla framleiðslupantanir](production-how-to-replan-refresh-production-orders.md).  
+>  Einnig er hægt að stofna á vöruhúsabeiðni á innleið með því að gátreitinn **Stofna beiðni á innleið** þegar framleiðslupöntun er endurnýjuð. Frekari upplýsingar, sjá [Uppfæra eða enduráætla framleiðslupantanir](production-how-to-replan-refresh-production-orders.md).  
 
 Þegar vöruhúsabeiðnin hefur verið stofnuð getur starfsmaður vöruhússins sem úthlutað er frágangi séð að upprunaskjalið er tilbúið fyrir frágang og stofnað fylgiskjal fyrir birgðafrágang.  
 
@@ -68,7 +68,7 @@ Nú þegar beiðnin hefur verið stofnuð getur starfsmaður vöruhússins stofn
 2. Í reitnum **Hólfakóði** í tfrágangslínunum, hólfið sem vörurnar þurfa að vera tíndar úr er tillaga á sjálfgefið hólf vörunnar. Hægt er að skipta um hólf í þessum glugga ef með þarf.  
 3. Gengið er frá vörunum og upplýsingar um magnið sem gengið var frá færðar inn í reitinn **Magn til afgreiðslu**.
 
-    Ef setja þarf vörur í einni línu í fleiri en eitt hólf, t.d. af því úthlutaða hólfið er fullt, skal nota aðgerðina **Skipta línu** á flýtiflipanum **Línur**. Sjá [Hvernig skal: Skipta aðgerðalínum í vöruhúsi](warehouse-how-to-split-warehouse-activity-lines.md) fyrir nánari upplýsingar um að skipta línum.  
+    Ef setja þarf vörur í einni línu í fleiri en eitt hólf, t.d. af því úthlutaða hólfið er fullt, skal nota aðgerðina **Skipta línu** á flýtiflipanum **Línur**. Sjá [Skipta aðgerðalínum í vöruhúsi](warehouse-how-to-split-warehouse-activity-lines.md) fyrir nánari upplýsingar um að skipta línum.  
 4. Þegar fráganginum er lokið skal velja aðgerðina **Bóka**.  
 
 Í bókunarferlinu bókast móttakan (eða úttakið í framleiðslupöntunum) á upprunaskjalslínum sem gengið hefur verið frá og ef hólf eru notuð í birgðageymslunni stofnar bókunin einnig vöruhúsafærslur til að bóka magnbreytingar í hólfum.

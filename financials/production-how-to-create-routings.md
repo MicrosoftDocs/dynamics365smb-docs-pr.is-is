@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f941625052bea17e524e7150f1a3a957d2916d54
 ms.contentlocale: is-is
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-routings"></a>Hvernig á að stofna Nýjar leiðir
+# <a name="create-routings"></a>Stofna leiðir
 Framleiðslufyrirtæki nota leiðir til að stýra framleiðsluferlinu og gera sýnilegt.
 
 Leiðin er grunnurinn að vinnsluáætlun, áætlun um afköst og áætlaðri úthlutun á efnisþörf og framleiðsluskjölum.  
@@ -28,8 +28,8 @@ Varðandi framleiðsluuppskriftir, er leiðunum úthlutað til endanlegrar framl
 
 Áður en þú getur sett upp leið verður eftirfarandi að vera á réttum stað:  
 
-- Birgðaspjöld er búin til fyrir yfirvörur sem taka þátt í framleiðslu. Nánari upplýsingar eru í [Hvernig á að: Skrá nýjar vörur](inventory-how-register-new-items.md).
-- Framleiðsluforði eru uppsettur. Nánari upplýsingar er að finna í [Hvernig á að setja upp vinnustöðvar og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md).
+- Birgðaspjöld er búin til fyrir yfirvörur sem taka þátt í framleiðslu. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
+- Framleiðsluforði eru uppsettur. Frekari upplýsingar eru í [Setja upp vinnustöðvar og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Stofna leið  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **leiðir** og velja svo viðeigandi tengil.  
@@ -53,13 +53,13 @@ Varðandi framleiðsluuppskriftir, er leiðunum úthlutað til endanlegrar framl
 12.  Haldið er áfram að fylla út línur fyrir allar aðgerðir sem koma við sögu í framleiðslu viðkomandi vöru.  
 13.  Línur úr fyrirliggjandi leið eru afritaðar með því að smella á **Afrita leiðir** aðgerðina til að velja línur sem eru til.  
 14. Leiðin vottuð.  
-15. Nú er hægt að hengja nýju leiðina við spjald viðkomandi framleiðsluvöru, með því að fylla upp í reitinn **Leið nr.**. Nánari upplýsingar eru í [Hvernig á að: Skrá nýjar vörur](inventory-how-register-new-items.md).  
+15. Nú er hægt að hengja nýju leiðina við spjald viðkomandi framleiðsluvöru, með því að fylla upp í reitinn **Leið nr.**. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Mundu líka að endurreikna staðlað kostnaðarverð vörunnar úr **birgða** spjaldinu: velja **Framleiða** aðgerðina, og síðan smellt á **Reikna staðlað kostn.verð** aðgerðina og veljið síðan **Öll stig** aðgerðina.  
 
 ## <a name="to-create-routing-links"></a>Leiðartenglar stofnaðir
-Hægt að búa til leiðartengla til að tengja íhluti við ákveðnar aðgerðir til að viðhalda sambandi þeirra jafnvel þótt framleiðsluuppskrift eða leið sé breytt. Þeir auðvelda einnig bráða birgðaskráningu íhluta þegar ákveðin tengd aðgerð hefst, ekki þegar öll framleiðslupöntunin er gefin út. Nánari upplýsingar eru í [Hvernig á að birgðaskrá íhluti samkvæmt frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md).  
+Hægt að búa til leiðartengla til að tengja íhluti við ákveðnar aðgerðir til að viðhalda sambandi þeirra jafnvel þótt framleiðsluuppskrift eða leið sé breytt. Þeir auðvelda einnig bráða birgðaskráningu íhluta þegar ákveðin tengd aðgerð hefst, ekki þegar öll framleiðslupöntunin er gefin út. Nánari upplýsingar eru í [Birgðaskrá íhluti samkvæmt frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md).  
 
 Annar mikilvægur kostur er sá að tenging íhluta og aðgerða er birt í rökrænni uppbyggingu framvindu þegar **framleiðslubókin** er notuð í bókanir frálags og notkunar.  
 
@@ -80,14 +80,14 @@ Annar mikilvægur kostur er sá að tenging íhluta og aðgerða er birt í rök
 
     Leiðartenglakótar eru nú tengdir við aðgerðir. Næst skal stofna sjálfan tengilinn með því að úthluta sömu kótum á tiltekna íhluti í viðeigandi framleiðsluuppskrift.  
 
-6.  Opna skal **framleiðsluuppskriftina** sem inniheldur íhlutina sem á að tengja við ofantaldar aðgerðir. Frekari upplýsingar, sjá [Hvernig skal: Stofna framleiðsluuppskriftir](production-how-to-create-production-boms.md).
+6.  Opna skal **framleiðsluuppskriftina** sem inniheldur íhlutina sem á að tengja við ofantaldar aðgerðir. Frekari upplýsingar eru í [Stofna framleiðsluuppskriftir](production-how-to-create-production-boms.md).
 7.  Tryggja þarf að uppskriftin sé stillt á **Í þróun**.  
 8.  Á viðkomandi framleiðsluuppskriftarlínu í reitnum **Leiðartengilskóti** skal velja kótann sem úthlutað hefur verið á viðeigandi aðgerð.  
 9. Því næst er leiðartengilskótum bætt við aðra íhluti eftir því í hvaða aðgerðum þeir kótar eru notaðir.  
 10. Staða framleiðsluuppskriftar er stillt á **Vottað**.  
 
     > [!NOTE]  
-    >  Til að virkja leiðartengla í framleiðslupöntun sem þegar er til þarf fyrst að endurnýja hana. Frekari upplýsingar, sjá [Hvernig skal: Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
+    >  Til að virkja leiðartengla í framleiðslupöntun sem þegar er til þarf fyrst að endurnýja hana. Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
 
 Valdir íhlutir verða nú tengdir við valdar aðgerðir þegar framleiðslupöntun er búin til eða endurnýjuð með umræddri framleiðsluuppskrift og leið. Hægt er að skoða þetta í glugganum **Íhlutir framleiðslupöntunar** undir framleiðslupöntuninni og í honum er einnig hægt að fjarlægja og bæta við tilgreindum leiðartengilskótum hvenær sem er.
 
@@ -119,7 +119,7 @@ Með útgáfureglunni er hægt að fást við margar útgáfur. Skipulag leiða�
 Gildistími útgáfunnar er tilgreindur í reitnum **Upphafsdagsetning**.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að stofna nýjar framl.uppskriftir](production-how-to-create-production-boms.md)  
+[Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)    
 [Áætlun](production-planning.md)   

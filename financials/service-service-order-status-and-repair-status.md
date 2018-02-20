@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a1d2177ab417eb932110ea610474b969acf7a26b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 21f4a6fc048688858cad77fb3d306fb39bd5620c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-order-status-and-repair-status"></a>Þjónustupöntunarstaða og viðgerðarstaða
@@ -63,6 +63,6 @@ Dæmigerð úthlutun forgangsraðar gæti verið sem hér segir:
 Ef ein þjónustuvara er til dæmis með viðgerðarstöðuna **Byrjun** tengda við þjónustupöntunarstöðuna **Í undirbúningi**, önnur er með viðgerðarstöðuna **Í vinnslu**, tengda við þjónustupöntunarstöðuna **Í vinnslu** og sú þriðja er með viðgerðarstöðuna **Varahlutur pantaður**, tengda við þjónustupöntunarstöðuna **Bið**, verður útkoman staðan **Í vinnslu** þar sem hún er með mestan forgang.  
   
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: Setja upp stöður fyrir þjónustupantanir og viðgerðir](service-order-repair-status.md)  
+[Setja upp stöður fyrir þjónustupantanir og viðgerðir](service-order-repair-status.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
 

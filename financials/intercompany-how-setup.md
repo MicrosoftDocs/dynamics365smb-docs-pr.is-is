@@ -13,13 +13,13 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cce1f5c30b758155056b00e933c9f6cabfd9f1f4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7a23f0ba28ab4c7bc9e028375246ea2e57d32764
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-intercompany"></a>Hvernig á að: Setja upp millifyrirtæki
+# <a name="set-up-intercompany"></a>Uppsetning milli fyrirtækja
 Til að senda viðskipti (til dæmis sölubókarlínu) frá einu fyrirtæki og láta stofna samsvarandi viðskipti (til dæmis innkaupabókarlínu) í fyrirtækisfélaganum þurfa fyrirtækin að koma sér saman um sameiginlegan bókhaldslykil og víddir sem nota á í viðskiptum milli fyrirtækjanna. Bókhaldslykillinn milli fyrirtækja gæti til dæmis verið einfölduð útgáfa af bókhaldslykli móðurfyrirtækisins. Hvert fyrirtæki varpar heildarbókhaldslykli sínum á sameiginlega bókhaldslykilinn milli fyrirtækja, og hvert fyrirtæki varpar víddum sínum á víddirnar milli fyrirtækja.  
 
 Einnig þarf að setja upp MF-félagakóða fyrir hvern fyrirtæki félaga, sem öll fyrirtækin þurfa að samþykkja, og síðan úthluta þeim til viðskiptamanna- og lánardrottnaspjalda með því fylla út í reitinn **MF-félagakóði**.  
@@ -40,7 +40,7 @@ Ef gerðar verða sölufærslur milli fyrirtækja sem innihalda forða þarf að
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Hvernig á að: Setja upp lánardrottna og viðskiptamenn millifyrirtækis
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **lánardrottnar** og velja svo viðeigandi tengil.
 2. Að öðrum kosti geturðu nálgast lánardrottinn frá reitnum **Lánardrottinn nr.** í glugganum **Millifyrirtækjafélagi**.
-3. Opna spjaldið fyrir lánardrottinn sem er millifyrirtækjafélagi. Nánari upplýsingar eru í [Hvernig á að skrá nýjan lánardrottnar](purchasing-how-register-new-vendors.md).
+3. Opna spjaldið fyrir lánardrottinn sem er millifyrirtækjafélagi. Nánari upplýsingar eru í [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md).
 4. Í reitnum **Kóði millifyrirtækjafélaga** er valinn viðeigandi kóði fyrir millifyrirtækjafélaga.
 5. Endurtaka skref 1 til 4 fyrir viðskiptamenn.
 

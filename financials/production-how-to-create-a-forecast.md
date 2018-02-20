@@ -1,6 +1,6 @@
 ---
 title: "Hvernig skal búa til framleiðsluspá | Microsoft Docs"
-description: "Sölu- og framleiðsluspár eru búnar til í glugganum **Framleiðsluspá**."
+description: "Sölu- og framleiðsluspár eru búnar til í glugganum **Framleiðsluspá** ."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5dea483395e64eb0635879b5c8821428512481ba
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fea8af85518d608f051be154e551c4c8645ed42a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-a-production-forecast"></a>Hvernig á að: búa til framleiðsluspá
+# <a name="create-a-production-forecast"></a>Stofna framleiðsluspá
 Sölu- og framleiðsluspár eru búnar til í glugganum **Framleiðsluspá** .  
 
 Spárvirkni er notuð til að skapa áætlaða eftirspurn; raunveruleg eftirspurn er gerð eftir sölu- og framleiðslupöntunum. Á meðan verið er að stofna aðalframleiðsluáætlun er spáin reiknuð saman við söluna og framleiðslupantanirnar. Valkosturinn  *Íhlutur* á spánni ákvarðar hvers konar skilyrði á að taka tillit til í útreikningsferlinu. Ef spáin er fyrir söluvöru eru bara sölupantanir reiknaðar saman við spána. Ef hún er fyrir íhluti er aðeins háð eftirspurn úr íhlutum framleiðslupöntunar reiknuð saman við spána.  

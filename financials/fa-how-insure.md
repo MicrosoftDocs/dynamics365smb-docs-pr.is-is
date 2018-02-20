@@ -1,6 +1,6 @@
 ---
 title: Tryggja eignir| Microsoft Docs
-Description: "Þú getur úthlutað eign á vátryggingarskírteini, sem er sýnt með vátryggingarspjaldi."
+Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,23 +13,23 @@ ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-insure-fixed-assets"></a>Hvernig á að: Tryggja eignir
+# <a name="insure-fixed-assets"></a>Tryggja eignir
 Vátryggingarskírteini fyrir eign er sýnt með vátryggingarspjaldi. Hægt er að úthluta einni eign á eina vátryggingarskírteini eða margar eignir á eitt vátryggingarskírteini.
 
 Þú úthlutar eign á vátryggingarskírteini með því að bóka í vátryggingasviðsbók úr glugganum **Vátryggingabók** .
 
-Þar að auki er hægt að úthluta eign á vátryggingarskírteini og stofna vátryggingasviðsfærslur þegar þú bókar kaupverð hennar. Þú gerir þetta með því að bóka kaupverð úr eignabók með útfylltum reitnum **vátryggingarnúmer**. **Sjálfvirk Vátryggingarbókun** gátreiturinn á **uppsetning eigna** glugganum þarf að vera valinn. Nánari upplýsingar eru í Bókun eignakaupa handvirkt með fjárhagsbók eigna í [hvernig á að komast yfir eignir](fa-how-acquire.md).
+Þar að auki er hægt að úthluta eign á vátryggingarskírteini og stofna vátryggingasviðsfærslur þegar þú bókar kaupverð hennar. Þú gerir þetta með því að bóka kaupverð úr eignabók með útfylltum reitnum **vátryggingarnúmer**. **Sjálfvirk Vátryggingarbókun** gátreiturinn á **uppsetning eigna** glugganum þarf að vera valinn. Nánari upplýsingar eru í Bókun eignakaupa handvirkt með fjárhagsbók eigna í [Komast yfir eignir](fa-how-acquire.md).
 
 Ef **Sjálfvirk Vátryggingarbókun** gátreiturinn á **uppsetning eigna** glugganum er ekki valinn, þá mun bókun eignakaupa úr eignabók stofna línur í glugganum **Vátryggingabók** sem síðan verður að bóka handvirkt.
 
 > [!WARNING]  
->   Ef þú velur ekki **Sjálfvirk vátryggingarbókun** gátreitinn í **Uppsetning eigna** glugganum, þá ætti vátryggingabókin þín að vera byggð á færslubókarsniðmáti án númeraröð. Þetta er af því að innsett fylgiskjalsnúmerum úr eignabókarlínum munu annars skarast við númeraröðina í vátryggingabók. Nánari upplýsingar um sniðmát færslubókar og keyrsla sjá [Hvernig: setja upp almennar upplýsingar um eignir](fa-how-setup-general.md).
+>   Ef þú velur ekki **Sjálfvirk vátryggingarbókun** gátreitinn í **Uppsetning eigna** glugganum, þá ætti vátryggingabókin þín að vera byggð á færslubókarsniðmáti án númeraröð. Þetta er af því að innsett fylgiskjalsnúmerum úr eignabókarlínum munu annars skarast við númeraröðina í vátryggingabók. Nánari upplýsingar um sniðmát færslubókar og keyrsla sjá [Setja upp almennar upplýsingar um eignir](fa-how-setup-general.md).
 
 Þegar eign hefur verið úthlutað á vátryggingarskírteini, er valinn gátreitur **Tryggt** á eignaspjaldi. Þegar þú selur eignina, er sjálfkrafa hakað úr gátreitnum.
 
@@ -70,7 +70,7 @@ Eftirfarandi ferli útskýrir hvernig stofna vátryggingarbókarlínu handvirkt.
 5. Opnaðu viðeigandi Vátryggingabók, endurskoðaðu stofnuð gildi og bókaðu þau síðan í vátryggingasviðshöfuðbókina.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Eftirlit með vátryggingasviði
-[!INCLUDE[d365fin](includes/d365fin_md.md)] veitir sérhæfðar skýrslu- og tölfræðiglugga til að greina vátryggingarskilmála, og hvort eignir þínar eru oftryggðar eða vantryggðar.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  veitir sérhæfðar skýrslu- og tölfræðiglugga til að greina vátryggingarskilmála, og hvort eignir þínar eru oftryggðar eða vantryggðar.  
 
 ### <a name="overview-of-insurance-policies"></a>Yfirlit yfir vátryggingaskírteini
 Til að fá yfirlit yfir vátryggingarskilmála þína skaltu forskoða eða prenta **Vátrygging - Listi** skýrsluna. Skýrslan sýnir alla skilmálana og mikilvægustu reitina af vátryggingarspjöldunum.  

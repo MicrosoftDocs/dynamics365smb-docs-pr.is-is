@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e2cefcc91b823ac4a75d1eb209e892bc56b13de2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 397b7d3de0355ce6be1be6607e5cfc7f61b5f55d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-warehouse-movements-in-worksheets"></a>Hvernig á að áætla vöruhúsahreyfingar á vinnublöðum
+# <a name="plan-warehouse-movements-in-worksheets"></a>Áætla vöruhúsahreyfingar á vinnublöðum
 Hreyfingar eru áætlaðar á vinnublaðinu með hólfaáfyllingu eða með handvirkri áætlun á línum sem á að stofna sem hreyfingaleiðbeiningar.  
 
 ## <a name="to-calculate-a-replenishment-movement"></a>Áfyllingarhreyfingar reiknaðar:  
@@ -28,7 +28,7 @@ Jafnframt því sem vörur eru sendar viðskiptamönnum úr vöruhúsi, fækkar 
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Hreyfingarvinnublað** og velja svo viðeigandi tengil.  
 2.  Velja skal aðgerðina **Reikna áfyllingu hólfs**.  
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] stofnar línur sem gefa nákvæmlega til kynna hvernig færa á vörur úr lægra flokkuðum hólfum í hærra flokkuð.  
+    [!INCLUDE[d365fin](includes/d365fin_md.md)]  stofnar línur sem gefa nákvæmlega til kynna hvernig færa á vörur úr lægra flokkuðum hólfum í hærra flokkuð.  
 
     > [!NOTE]  
     >  Stungið er upp á hreyfingu í samræmi við FEFO aðgerðin **Stofna hreyfingu** er virkjuð ef eftirfarandi skilyrðum fyrir vöru er fullnægt:  

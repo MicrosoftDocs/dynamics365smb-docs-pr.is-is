@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ee5ee5d08804439a79f8029eaa25ab7547349a1b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e885149e28c2e09dc244bc5c0a431e7b2fe047a5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-batch-post-output-and-run-times"></a>Hvernig á að: fjöldabóka frálag og keyrslutíma
+# <a name="batch-post-output-and-run-times"></a>Fjöldabóka frálag og keyrslutíma
 Afkastsmagnið sýnir vinnuframvinduna í formi afgreidds magns.  
 
 > [!NOTE]
@@ -30,7 +30,7 @@ Afkastsmagnið sýnir vinnuframvinduna í formi afgreidds magns.
 2. Reitirnir eru fylltir út með framleiðslupöntunargögnunum og frálagsgögnunum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Ef aðgerðinni er lokið skal velja reitinn **Lokið**.  
 
-    Ef vöruhúsið þar sem ganga á frá vörunum notar hólf en krefst ekki frágangsvinnslu skal  tengja kóta hólfs við bókarlínuna til að tilgreina hvar skuli setja vörurnar í vöruhúsinu. Frekari upplýsingar, sjá [Hvernig skal: Ganga frá framleiðslu eða samsetningarúttaki](warehouse-how-to-put-away-production-output.md).  
+    Ef vöruhúsið þar sem ganga á frá vörunum notar hólf en krefst ekki frágangsvinnslu skal  tengja kóta hólfs við bókarlínuna til að tilgreina hvar skuli setja vörurnar í vöruhúsinu. Frekari upplýsingar eru í [Ganga frá framleiðslu eða samsetningarúttaki](warehouse-how-to-put-away-production-output.md).  
 
 4. Veljið **Bókun** til að bóka aðgerðirnar. Afkastsmagnið verður bókað. Varan er nú tilbúin til afhendingar.  
 

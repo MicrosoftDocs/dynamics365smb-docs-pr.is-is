@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3576b9780e64fde7744b987f5af5faf4d939dfca
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 17daf9dfa367907d10dd5101f1001ac2aaf7ea03
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Hvernig á að setja upp litaðan vísi á bunka fyrir fyrirtækið eða einstaka notendur
+# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Setja upp litaðan vísi á bunka fyrir fyrirtækið eða einstaka notendur
 Sem stjórnandi geturðu sett upp bendingar sem birtast í Mitt hlutverk notenda þannig að það innihaldi vísi sem breytir um lit eftir gagnagildi í bendingum.  
   
 Vísirinn birtist sem stika efst í ramma bendingarinnar. Veitir sjónrænt merki um virknistöðu bendingarinnar sem getur táknað hagstæð eða óhagstæð skilyrði sem kalla á viðbrögð frá notanda. Ef bunki birtir til dæmis viðvarandi sölureikninga er hægt að stilla vísinn á að vera grænn (jákvætt) þegar heildarfjöldi viðvarandi sölureikninga er undir 10 og rauður (óæskilegt) þegar samtalan er yfir 20.  
@@ -66,4 +66,4 @@ Til að setja upp vísi tilgreinirðu allt að tvö þröskuldsgildi sem tilgrei
     |**Undirstig**|Grár|  
   
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að setja upp litaðan vísi í bendingar vinnusvæðis](ui-how-setup-colored-indicator-cues.md)  
+[Setja upp litaðan vísi í bendingar vinnusvæðis](ui-how-setup-colored-indicator-cues.md)  

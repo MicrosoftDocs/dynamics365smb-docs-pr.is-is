@@ -12,13 +12,13 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 91071855697c9235ba8734b40d77ed0b48c24923
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Hvernig á að nota OCR til að breyta PDF og myndaskrám í rafræn skjöl
+# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl
 Úr PDF-skjölum eða myndaskrám sem standa fyrir skjöl á innleið er hægt að láta ytri OCR-þjónustu (sjónræn stafakennsl) stofna rafræn skjöl sem hægt er að umbreyta í skráarfærslur í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til dæmis Þegar reikningur berst frá lánardrottni á PDF-sniði er til dæmis hægt að senda hann til OCR-þjónustu úr glugganum **Skjöl á innleið**. Þessu er lýst í fyrsta verkferlinu.
 
 Sem valkostur við að senda skrá frá glugganum **Skjöl á innleið**, getur þú sent skrána í OCR þjónustu með tölvupósti. Þá, þegar þú færð rafræna skjal aftur, er tengd færsla fyrir skjal á innleið búin til sjálfkrafa. Þessu er lýst í öðru verkferlinu.
@@ -27,11 +27,11 @@ Eftir nokkrar sekúndur berst skráin aftur sem rafrænn reikningur sem hægt er
 
 Vegna þess að OCR byggist á sjónrænum stafakennslum getur OCR-þjónustan túlkað bókstafi í PDF-skjali eða myndaskrám á rangan hátt, til dæmis fyrst þegar hún vinnur úr skjölum frá tilteknum lánardrottni. Hún túlkar merki fyrirtækisins hugsanlega ekki sem nafn lánardrottins eða mistúlkar heildarupphæð á kostnaðarkvittun vegna þess hvernig hún er sett upp. Til að forðast þessar villur fara fram, er hægt að leiðrétta villur í sérstakri útgáfu af glugganum **Skjal á innleið**. Leiðréttingar eru svo sendar aftur til OCR þjónustu til að þjálfa hana í að túlka sértákn rétt næst þegar það ferli PDF eða myndskjal fyrir sama lánardrottinn. Frekari upplýsingar er að finna á hlutanum "Þjálfa OCR-þjónustu til að forðast villur"
 
-Umferð skráa til og frá OCR þjónustu er unnin af sérstakri verkraðarfærslu, sem eru búin til sjálfkrafa þegar þú kveikir á viðeigandi þjónustu tengingu. Nánari upplýsingar er að finna í [Hvernig á að setja upp skjöl á innleið](across-how-setup-income-documents.md).
+Umferð skráa til og frá OCR þjónustu er unnin af sérstakri verkraðarfærslu, sem eru búin til sjálfkrafa þegar þú kveikir á viðeigandi þjónustu tengingu. Frekari upplýsingar eru í [Setja upp skjöl á innleið](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Til að senda PDF eða myndaskrá til OCR þjónustu frá glugganum **Skjöl á innleið**.
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **skjöl á innleið** og velja svo viðeigandi tengil.
-2. Búið til nýja færslu fyrir skjal á innleið og hengið skrána við. Frekari upplýsingar eru í [Hvernig á að stofna færslur fyrir skjal á innleið ](across-how-create-income-document-records.md).  
+2. Búið til nýja færslu fyrir skjal á innleið og hengið skrána við. Frekari upplýsingar eru í [Stofna færslur skjala á innleið](across-how-create-income-document-records.md).  
 3. Í glugganum **skjöl á innleið**, á veldu eina eða fleiri línur og veldu svo **Senda í verkröð** aðgerðina.
 
     Gildið í reitnum  **OCR-staða** breytist í **Tilbúið**. Meðfylgjandi PDF eða ímynd skrá er send til OCR þjónustu af verkröðinni samkvæmt áætlun, að því tilskildu að engar villur eru.
@@ -42,10 +42,10 @@ Gildið í reitnum **OCR-staða** breytist í **Sent** ef engar villur hafa komi
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>Til að senda PDF eða myndaskrá til OCR þjónustu með tölvupósti
 Úr tölvupóstforritinu er hægt að senda tölvupóst til OCR-þjónustuveitanda með viðhengdu PDF-skjali eða myndaskrá. Upplýsingar um netfang til að senda á er að finna á vefsvæði OCR-þjónustuveitanda.
 
-Vegna þess að engin færsla er til fyrir skrána á innleið verður ný færsla búin til sjálfkrafa í **Skjöl á innleið**glugganum þegar þú færð rafræna skjalið sem búið var til frá OCR þjónustu. Frekari upplýsingar eru í [Hvernig á að stofna færslur fyrir skjal á innleið ](across-how-create-income-document-records.md).
+Vegna þess að engin færsla er til fyrir skrána á innleið verður ný færsla búin til sjálfkrafa í **Skjöl á innleið**glugganum þegar þú færð rafræna skjalið sem búið var til frá OCR þjónustu. Frekari upplýsingar eru í [Stofna færslur skjala á innleið](across-how-create-income-document-records.md).
 
 > [!NOTE]  
->   Ef þú vinnur á töflu eða síma, getur þú sent skrána í OCR þjónustu eins fljótt og þú hefur tekið mynd af skjalinu, eða þú getur búið til skjal á innleið beint. Frekari upplýsingar í "Að stofna færslur fyrir skjöl á innleið með því að taka mynd" hlutanum í [Hvernig á að: Stofna færslur fyrir skjöl á innleið](across-how-create-income-document-records.md).
+>   Ef þú vinnur á töflu eða síma, getur þú sent skrána í OCR þjónustu eins fljótt og þú hefur tekið mynd af skjalinu, eða þú getur búið til skjal á innleið beint. Frekari upplýsingar í „Að stofna færslur fyrir skjöl á innleið með því að taka mynd“ hlutanum í [Stofna færslur fyrir skjöl á innleið](across-how-create-income-document-records.md).
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Til að taka á móti viðkomandi rafrænt skjal frá OCR-þjónusta.
 Rafrænt skjal sem er stofnaði af OCR-þjónustu úr PDF eða myndaskrá er sjálfkrafa mótteknar á glugganum **skjöl á innleið** af verkraðarfærslu sem er sett upp þegar þú virkjar OCR þjónustan.
@@ -56,7 +56,7 @@ Ef ekki eru notaðar verkröð eða þú vilt taka á móti loknu OCR-skjali fyr
 >   Ef OCR þjónustan er stillt þannig að krafist er handvirka sannprófun fyrir unnin skjöl, þá mun reiturinn **OCR Staða** inihalda **Bíður sannprófunar**. Í því tilfelli skal framkvæma eftirfarandi skref til að skrá sig inn á OCR-þjónustusíðu til að sannreyna OCR-skjal handvirkt.
 
 1. Í á reitnum **OCR Stöðu** er valið **Bíður sannprófunar** tengilinn. Einnig má velja **bíður sannprófunar** gluggareit á heimasíðunni.
-2. Á OCR-þjónustu vefsvæðið skal skrá inn með skilríki OCR-þjónustureiknings. Það eru sömu skilríki og voru notuð þegar þjónustan var sett upp. Nánari upplýsingar er að finna í "Setja upp OCR-þjónusta" hlutanum í [Hvernig á að setja upp skjöl á innleið](across-how-setup-income-documents.md).
+2. Á OCR-þjónustu vefsvæðið skal skrá inn með skilríki OCR-þjónustureiknings. Það eru sömu skilríki og voru notuð þegar þjónustan var sett upp. Nánari upplýsingar er að finna í „Setja upp OCR-þjónustu“ hlutanum í [Uppsetning skjala á innleið](across-how-setup-income-documents.md).
 
     Ef þú ferð inn á vefsvæði úr reitnum **OCR Staða** er viðkomandi skjali birt strax eftir innskráningu. Ef vefsvæðið er opnað með því að velja gluggareitur á heimasíðu, á fyrsta OCR þjónustusíðu sem opnast, verður að velja **Hefja** hnappinn á **sannprófa** flipanum eða tvísmellt á skjalið sem á að sannprófa.
 
@@ -95,7 +95,7 @@ Til viðbótar við vörpun á lánardrottnareikning eða fjárhagsreikninga er 
 6. Í reitinn **Kreditreikningsnúmer** skal færa inn fjárhagsreikning af kreditgerð sem verður settur inn á viðkomandi innkaupaskjal eða færslubókarlínu af gerðinni fjárhagsreikningur.
 
     > [!NOTE]
-    > Ekki skal nota **Upprunagerð stöðu** og **Upprunanúmer stöðu** reitina í tengslum við skjöl á innleið. Þeir eru aðeins notaðir fyrir afstemmingu sjálfvirkra greiðslna. Fyrir frekar upplýsingar, sjá [Hvernig á að varpa texta á endurteknar greiðslur á reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+    > Ekki skal nota **Upprunagerð stöðu** og **Upprunanúmer stöðu** reitina í tengslum við skjöl á innleið. Þeir eru aðeins notaðir fyrir afstemmingu sjálfvirkra greiðslna. Frekari upplýsingar er að finna í [Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 7. Endurtakið skref 2 til 5 fyrir allan texta í skjölum á innleið sem á búa sjálfkrafa til skjöl fyrir.
 

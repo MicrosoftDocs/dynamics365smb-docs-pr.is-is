@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="depreciation-methods"></a>Afskriftaaðferðir
@@ -212,7 +212,7 @@ Hlutfallsleg upphæð er notuð vegna þess að hún er hærri.
 
 *Hlutfallsleg upphæð: 25% af 23.730,46 = 4.943,85= 2.471,92 + 2.471,92*  
 
-*Línuleg upphæð = 23.730,46/3 = 7.910,15 = 3.995,07 + 3.995,08*  
+*Línuleg upphæð = 23.730,46/3 = 7.910,15=3.995,07+3.995,08*  
 
 Línulega upphæðin er notuð vegna þess að hún er hærri.  
 

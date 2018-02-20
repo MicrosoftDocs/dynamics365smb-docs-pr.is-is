@@ -1,6 +1,6 @@
 ---
-title: "Notkun Invoicing í Dynamics 365 | Microsoft Docs"
-description: "Hjáleið fyrir aðgang að Microsoft Invoicing þegar þú hefur skráð þig fyrir Dynamics 365."
+title: "Notkun reikningsfærslna í Finance and Operations, Business Edition | Microsoft Docs"
+description: "Hjáleið fyrir aðgang að Microsoft Invoicing þegar þú hefur skráð þig fyrir Dynamics 365 for Finance and Operations, Business Edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 11/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: db76c49d8f453b978e95d65afa14234cf9ccdffe
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: abceec5b1bc588e2842d0f512240c30eccbf6f8e
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="using-the-same-office-365-account-in-included365finincludesd365finmdmd-and-microsoft-invoicing"></a>Nota sama Office 365-reikninginn í [!INCLUDE[d365fin](includes/d365fin_md.md)] og Microsoft Invoicing
+# <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Nota sama Office 365-reikninginn í [!INCLUDE[d365fin](includes/d365fin_long_md.md)] og Microsoft Invoicing
 Þegar þú skráir þig í prufuáskrift fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] geturðu farið í 30 daga matsáfanga, þú getur byrjað áskrift eða hættir að nota [!INCLUDE[d365fin](includes/d365fin_md.md)]. Í öllum tilvikum, ef þú skráir þig inn á Office Portal, gætirðu séð reit sem heitir **Viðskiptamiðstöð** og smellt á það. Þetta er hluti af Office 365 Business Premium áskriftinni, svo ekki allir munu sjá þennan reit í Office Portal.  
 
 Ef þú opnar viðskiptamiðstöðinni munt þú sjá hluta sem kallast **Invoicing**. Ef þú opnar þessum hluta sérð þú skilaboð að þú getur ekki opnað Microsoft Invoicing vegna þess að reikningurinn þinn er notaður í [!INCLUDE[d365fin](includes/d365fin_md.md)].  

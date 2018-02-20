@@ -1,6 +1,6 @@
 ---
 title: "Hvernig á að búa til þjónustutilboð | Microsoft Docs"
-description: "Hægt er að nota gluggann **Þjónustutilboð** til að stofna skjöl þar sem hægt er að færa inn upplýsingar um þjónustu, s.s. viðgerðir og viðhald, á þjónustuvörum að beiðni viðskiptamanns. Hægt er að nota þjónustutilboð sem drög að þjónustupöntun og svo má breyta tilboðinu í þjónustupöntun."
+description: "Hægt er að nota gluggann **Þjónustupöntun** til að stofna skjöl þar sem hægt er að færa inn upplýsingar um þjónustu, s.s. viðgerðir og viðhald, á þjónustuvörum að beiðni viðskiptamanns. Hægt er að nota þjónustutilboð sem drög að þjónustupöntun og svo má breyta tilboðinu í þjónustupöntun."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d5348e7b15eb0337f2a5f829c871dadcf3133b86
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9d4f8d21d0c79adbac238b2d26accc4c08656c77
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-quotes"></a>Hvernig á að stofna Þjónustutilboð
+# <a name="create-service-quotes"></a>Stofna þjónustutilboð
 Þú getur hugsað um þjónustutilboð sem grunninn fyrir þjónustupöntunum. Þetta tvennt er í raun alveg eins. Bæði innihalda upplýsingar eins og þær hver viðskiptamaðurinn er, tegund pöntunar, varan sem þarf þjónustuna, reiknings- og afhendingarupplýsingar, og upplýsingar um hina raunverulegu þjónustuvinnu.
  
 Hægt er að nota þjónustutilboð sem drög að þjónustupöntun og svo má breyta tilboðinu í þjónustupöntun.  
@@ -38,7 +38,7 @@ Hægt er að nota þjónustutilboð sem drög að þjónustupöntun og svo má b
 7. Metinn kostnaður er skráður í þjónustulínurnar.  
   
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: Stofna Þjónustupantanir](service-how-to-create-service-orders.md)  
-[Hvernig á að: vinna með þjónustuverkhluta](service-how-to-work-on-service-tasks.md)  
+[Stofna þjónustupantanir](service-how-to-create-service-orders.md)  
+[Vinna við þjónustuverk](service-how-to-work-on-service-tasks.md)  
 
  

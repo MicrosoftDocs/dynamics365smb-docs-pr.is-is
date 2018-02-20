@@ -12,13 +12,13 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: aa2accb5b03fd55c96b046ca6b61582ed5b8a142
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>hvernig skal stemma handvirkt af greiðslur viðskiptamanns úr lista yfir ógreidda söluskjöl.
+# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Afstemma greiðslur viðskiptamanna handvirkt úr lista yfir ógreidd söluskjöl
 Þegar viðskiptamenn hafa greitt inn á rafrænan bankareikning, verður að jafna hverja greidda upphæð við tengt söluskjal og bóka svo greiðsluna til að uppfæra viðskiptamann, fjárhag og bankafærslur.
 
 > [!NOTE]  
@@ -176,7 +176,7 @@ Skráið svo óskjalaða greiðslu.
 1. Valið er **Færslubók** aðgerð.  
 
     Glugginn **almenn færslubók** opnast með eina línu fyrirfram útfyllta með mótreikningi bókarkeyrslunnar sem er sett upp í glugganum **uppsetning skráningar greiðslna**.  
-2. Fylla skall inn í eftirstandandi reiti á færslubókarlínu, eins og upphæðina og viðskiptamannanúmer eða aðrar upplýsingar af bankayfirlitinu. Frekari upplýsingar, sjá [Hvernig skal: Bóka færslu beint yfir í Fjárhag](finance-how-post-transactions-directly.md)  
+2. Fylla skall inn í eftirstandandi reiti á færslubókarlínu, eins og upphæðina og viðskiptamannanúmer eða aðrar upplýsingar af bankayfirlitinu. Frekari upplýsingar, sjá [Bóka færslu beint yfir í Fjárhag](finance-how-post-transactions-directly.md).  
 
 Hægt er að annað hvort bóka færslubókarlínuna til að uppfæra heildarupphæðina á mótreikningnum. Að öðrum kosti er hægt að skilja færslubókarlínuna eftir óbókaða og ef til vill bæta við athugasemd um að greiðslan þarfnist frekari skoðunar.  
 

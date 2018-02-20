@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 60bd652d7a07841601bede9cff77c5b252000347
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Aðgengi og Flýtivísanir í [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -31,7 +31,7 @@ ms.lasthandoff: 12/14/2017
 -   Stuðningur við algeng aðstoðartækni  
 
 ##  <a name="Keyboard"></a> Flýtivísanir í vafra
- [!INCLUDE[d365fin](includes/d365fin_md.md)] styður flýtivísanir sem flestir vafrar styðja. Flýtivísanir sem hér er lýst vísa til bandarísks lyklaborðs. Uppsetning lykla í öðrum lyklaborðum gætu verið aðrir en lyklar á bandarísku lyklaborði.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  styður flýtivísanir sem flestir vafrar styðja. Flýtivísanir sem hér er lýst vísa til bandarísks lyklaborðs. Uppsetning lykla í öðrum lyklaborðum gætu verið aðrir en lyklar á bandarísku lyklaborði.  
 
 |Til að gera þetta|Ýta|  
 |----------------|-----------|  
@@ -55,13 +55,13 @@ ms.lasthandoff: 12/14/2017
  Lýsandi texti fyrir myndir er stillt með ALT-eigind inni í IMG-merkinu. Lýsandi texti fyrir tengla er stillt með ALT-eigind inni í A-merkinu.  
 
 ##  <a name="AssistiveTech"></a> Aðstoðartækni  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] styður ýmis konar aðstoðartækni, svo sem mikla skerpu, skjálesara og raddgreiningarhugbúnaður. Sum aðstoðartækni kann ekki að virka vel með ákveðnum þáttum á síðum [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  styður ýmis konar aðstoðartækni, svo sem mikla skerpu, skjálesara og raddgreiningarhugbúnaður. Sum aðstoðartækni kann ekki að virka vel með ákveðnum þáttum á síðum [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="for-more-accessibility-information"></a>Fyrir frekari upplýsingar um aðgengi  
 Þú getur fundið viðbótarupplýsingar um aðgengi að Microsoft vörum og aðstoðartækni á vefsíðu [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160).
 
 ## <a name="see-also"></a>Sjá einnig
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Unnið með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Algengar spurningar](across-faq.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: Velkomin(n) | Microsoft Docs
-description: "Útskýrir uppsetningarleiðbeiningar með aðstoð, myndbönd, hjálparefni og síður og glugga sem skal nota til undirbúnings fyrir viðskipti í Dynamics 365 Business edition."
+description: "Útskýrir uppsetningarleiðbeiningar með aðstoð, myndbönd, hjálparefni og síður og glugga sem skal nota til undirbúnings fyrir viðskipti í Finance and Operations, Business Edition."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e6a467f526b8bb1c55af686817ed3e419b214dbb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Undirbúðu þig fyrir að gera viðskipti
@@ -39,7 +39,7 @@ Til þess að hjálpa þér við að verða tilbúinn til að gera viðskipti ge
 | Setja upp Office-innbætur |Setur upp möguleikann á að nota og ræsa [!INCLUDE[d365fin](includes/d365fin_md.md)] úr Outlook. |
 | Setja upp samþykktarverkflæði |Setur upp möguleikann á að tilkynna samþykkjanda sjálfkrafa þegar notandi reynir að stofna eða breyta ákveðnum gildum í gögnum á borð við skjöl, dagbókarlínu eða kort, svo sem magni yfir tilteknu hámarki. |
 | Setja upp tölvupóstsskráningu |Setur upp möguleikann á að skrá tölvupóstsamskipti í [!INCLUDE[d365fin](includes/d365fin_md.md)] til að fylgja eftir samskiptum. |
-| Setja upp Dynamics 365 tengingu |Setur upp tengingu við Dynamics 365 for Sales sem býður upp á að samstilla gögn, svo sem tengiliði og upplýsingar um sölupantanir. |
+| Uppsetning Finance and Operations, Business Edition Connector |Setur upp tengingu við Dynamics 365 for Sales sem býður upp á að samstilla gögn, svo sem tengiliði og upplýsingar um sölupantanir. |
 
 Þegar búið er að keyra uppsetningu með hjálp er hún merkt sem **Lokið**. Til að keyra uppsetningu með hjálp eru þrír punktar valdir sem kallast einnig efnisvalmynd og síðan er valið **Hefja Uppsetningu**.
 
@@ -51,7 +51,7 @@ Notaðu örvar til að fella saman hluta síðunnar og búa til pláss til að s
 Undir **Stillingar fyrirtækis** geturðu séð og breytt uppsetningarupplýsingum um núverandi fyrirtæki, mikið af þessu var forútfyllt hafirðu klárað **Setja upp fyrirtæki** aðstoðina með hjálp þegar þú skráðir þig í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Viljirðu breyta lógói fyrirtækis, samskiptaupplýsingum, bankastillingum, eða skattaupplýsingum, geturðu gert það úr þessum glugga.    
 
 ## <a name="adding-users-and-permissions"></a>Bæta við notendum og heimildum
-Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð Office 365 Frekari upplýsingar, sjá [Bæta notendum við Office 365 fyrir fyrirtæki](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Þegar notendur hafa verið stofnaðir í Office 365 er hægt að flytja þá inn í gluggann **notendur** með því að velja aðgerðina **Sækja notendur úr Office 365** Síðan geturðu haldið áfram að úthluta notendum heimildir og flokka þá í notendahópum. Nánari upplýsingar eru í [Hvernig á að: Vinna með notendur og heimildir](ui-how-users-permissions.md).  
+Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð Office 365 Frekari upplýsingar, sjá [Bæta notendum við Office 365 fyrir fyrirtæki](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Þegar notendur hafa verið stofnaðir í Office 365 er hægt að flytja þá inn í gluggann **notendur** með því að velja aðgerðina **Sækja notendur úr Office 365** Síðan geturðu haldið áfram að úthluta notendum heimildir og flokka þá í notendahópum. Frekari upplýsingar eru í [Stjórna notendum og heimildum](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Fá Hjálp
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] muntu finna ábendingar sem hjálpa þér við að komast í gegnum hina ýmsu viðskiptaferli. Í hverri ábendingu finnurðu tengla sem heita **Frekari upplýsingar** sem fer með þig í hjálp fyrir vöruna. Spurningamerki uppi hægra megin í horninu bendir þér einnig á hjálp fyrir vöruna.
@@ -61,5 +61,5 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð O
 ## <a name="see-also"></a>Sjá einnig
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Hvernig á að: vinna með notendur og heimildir](ui-how-users-permissions.md)
+[Vinna með notendur og heimildir](ui-how-users-permissions.md)
 

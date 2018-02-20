@@ -1,6 +1,6 @@
 ---
-title: "Vinna með almenna virkni í Dynamics 365 Business edition | Microsoft Docs"
-description: "Lýsir þeirri almennu virkni sem þú notar til að vinna með gögn í Dynamics 365, eins og t.d. að færa inn gildi, raða gögnum og breyta yfirliti."
+title: "Vinna með almenna virkni í Finance and Operations, Business Edition | Microsoft Docs"
+description: "Lýsir þeirri almennu virkni sem þú notar til að vinna með gögn í Finance and Operations, Business Edition, eins og t.d. að færa inn gildi, raða gögnum og breyta yfirliti."
 services: 
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 05/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d9f0fd40b34637a8a31e28871b19bd2adb3aab40
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9cbe892644646fa0ff5704dea500aead0f9dcc2f
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="working-with-included365finlongincludesd365finlongmdmd"></a>Unnið með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="working-with-included365finincludesd365finmdmd"></a>Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Þegar viðskiptaverk eru unnin er vinna með gögn margvísleg: stofna færslur, slá inn gögn, raða og afmarka gögn, skrifa athugasemdir, auk úttöku gagna í önnur forrit.
 
 Til dæmis er hægt að leiðrétta stærð og stöðu hvaða glugga sem er, víkka dálka og hækka dálkfyrirsagnir, og breyta flokkun gagna í dálkum. Ef nota þarf láréttu flettistikuna til að sjá alla dálka á listasíðu eða skjalalínum sést að það er fast lóðrétt svæði til að varna flettingu ákveðinna dálka.
@@ -32,15 +32,16 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða glugga sem er, ví
 | Nota Leit til að leita að tiltekinni síðu eða skýrslu. |[Notkun Leit að síðu eða skýrslu](ui-search.md) |
 | Fræðast um hvernig á að flokka gögn. |[Röðun](ui-sorting.md) |
 | Breyta hvernig listar yfir, t.d. viðskiptamenn, lánardrottna eða vörur eru skoðaðir. |[Birting lista á mismunandi hátt](across-display-lists-different-views.md) |
-| Breyta litavísinum á bunkum. |[Hvernig á að setja upp litaðan vísi á bunka](ui-how-setup-colored-indicator-cues.md) |
+| Breyta litavísinum á bunkum. |[Setja upp litaðan vísi á bunka](ui-how-setup-colored-indicator-cues.md) |
 | Breyta grundvallarstillingum eins og fyrirtæki eða vinnudagsetningu. |[Breyta grunnstillingum](ui-change-basic-settings.md) |
-| Breyttu hlutverkamiðstöðinni og tengdu heimasíðunni til að passa við hlutverk þitt. |[Hvernig á að: Breyta Hlutverkamiðstöð](change-role.md) |
+| Breyttu hlutverkamiðstöðinni og tengdu heimasíðunni til að passa við hlutverk þitt. |[Breyta Mitt hlutverk](change-role.md) |
 | Breyta hvaða reiti og aðgerðir eru sýndar í notendaviðmótinu til að passa viðskiptaferli fyrirtækisins. |[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md). |
-| Fá skýrslur til að sýna gögn frá ákveðnum tímabilum. |[Færa inn dagsetningartímabil í Dynamics 365 Business edition](ui-enter-date-ranges.md) |
+| Fá skýrslur til að sýna gögn frá ákveðnum tímabilum. |[Innsláttur dagsetningabils í Finance and Operations, Business Edition ](ui-enter-date-ranges.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
-[Sérstillir þína [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] upplifun](ui-experiences.md).  
+[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
 
-## [!INCLUDE[free_trial](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

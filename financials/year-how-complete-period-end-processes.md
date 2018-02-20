@@ -1,6 +1,6 @@
 ---
 title: "Valfrjálsar aðgerðir fyrir lokun tímabila | Microsoft Docs"
-description: "Þetta efnisatriði útskýrir valfrjáls ferli og aðgerðir fyrir lokun fjárhagstímabila í Dynamics 365."
+description: "Þetta efnisatriði útskýrir valfrjáls ferli og aðgerðir fyrir lokun fjárhagstímabila í Finance and Operations, Business Edition."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,19 +13,19 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 06/19/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 526ae1811768f38b04f961e378454fed79a8426b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 344e294083813d41b415ad07e6e8acdd3fe5047b
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Yfirlit yfir verkhluta sem felur í sér lokun fjárhagstímabila
-[!INCLUDE[d365fin](includes/d365fin_md.md)] þvingar þig ekki til að loka tímabilum, en það eru margar aðgerðir í lokunartíma (lok mánaðar) sem þú getur gert. Þetta efni gefur yfirlit yfir valfrjáls ferli og starfsemi fyrir lokunartímabil.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  þvingar þig ekki til að loka tímabilum, en það eru margar aðgerðir í lokunartíma (lok mánaðar) sem þú getur gert. Þetta efni gefur yfirlit yfir valfrjáls ferli og starfsemi fyrir lokunartímabil.  
 
 ## <a name="general-ledger"></a>Fjárhagur
 * Tilgreindu kerfisbundið og notendasértækt bókunartímabil.  
 
-    Þetta tilgreinir dagsetningar þar sem hægt er að bóka. Þú gætir viljað leyfa bókun í byrjun tímabilsins eða í lok tímabilsins, allt eftir fyrirtækinu. Nánari upplýsingar eru í [Hvernig á að tilgreina bókunartímabil](finance-how-specify-posting-periods.md).  
+    Þetta tilgreinir dagsetningar þar sem hægt er að bóka. Þú gætir viljað leyfa bókun í byrjun tímabilsins eða í lok tímabilsins, allt eftir fyrirtækinu. Frekari upplýsingar eru í [Tilgreina bókunartímabil](finance-how-specify-posting-periods.md).  
 * Allar nauðsynlegar fjárhagsleiðréttingar eru framkvæmdar.  
 * Ítrekunarbækur eru uppfærðar og bókaðar.  
   <!--* Process Consolidations-->

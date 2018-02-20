@@ -13,13 +13,13 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fbdfc4431056c4851208aa063daf8761b4e70bf1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92331aaa8e7d6aa83c0ec9e8bbbd350d30957cfc
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-fixed-asset-depreciation"></a>Hvernig á að: Uppsetning afskriftir eigna
+# <a name="set-up-fixed-asset-depreciation"></a>Setja upp eignaafskriftir
  Hægt er að nota ýmsar afskriftaaðferðir vegna reikningsskila og skattframtals. Mörg stórfyrirtæki nota beinlínuafskriftir í reikningsskilum vegna þess að með þeim er yfirleitt hægt að tilgreina hærri tekjur. Vegna tekjuskatts nota þó mörg fyrirtæki hraðafskriftaaðferð. Frekari upplýsingar eru í [afskriftaaðferðir](fa-depreciation-methods.md)
 
  Þegar stofnaðar hafa verið viðeigandi afskriftabækur verður að tengja eina eða fleiri afskriftabækur við hverja eign. Afskriftabók sem úthlutað er á eign er vísað til sem afskriftabók eigna. Í samræmi við það heitir glugginn fyrir úthlutaðar afskriftabækur **Eignaafskriftabækur**.

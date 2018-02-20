@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2a6829c5a67f1121ecc135e1183af78b0e602f8f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5cafcc32874187ae787279c20256c11cadaff6a1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-and-put-away-without-a-source-document"></a>Hvernig skal: tína og ganga frá án upprunaskjals
+# <a name="pick-and-put-away-without-a-source-document"></a>Tína og ganga frá án upprunaskjals
 Þegar gengið hefur verið frá vörum og áður en þær eru tíndar til að fylla upp í framleiðslupöntun eða afhendingu eru þær geymdar í vöruhúsinu sem hluti af tiltækum birgðum.  
 
 Þær aðstæður geta komið upp að taka þurfi vörur tímabundið úr tínsluhólfum vöruhússins, til dæmis til notkunar sem sýnishorn í sölukynningu. Þessar vörur eru enn í eigu fyrirtækisins og eru hluti af birgðum en eru ekki tiltæk í tínslu. Þær eru skráðar í sérstakt hólf sem stofnað er í þessum tilgangi; tæknilega eru vörurnar í vöruhúsinu en í raun gætu þær verið í fundarherbergi eða sýningarsal.  

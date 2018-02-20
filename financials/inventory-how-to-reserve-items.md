@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b03209b5681c264f7d788d3d731d32b60f1709b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61ecdcd1c87d267e19047be5424e1c07e832316a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reserve-items"></a>Hvernig skal: Taka frá vörur
+# <a name="reserve-items"></a>Taka frá vörur
 Hægt er að taka vörur frá fyrir sölu-, innkaupa-, þjónustu, samsetningar- og framleiðslupantanir. Hægt er að taka frá vörur í birgðum eða á innleið í opnum skjalalínum eða færslubókarlínum. Þú framkvæmir vinnuna í **Frátekning** glugganum.
 
 Hver lína í glugganum **Frátekning**, sem þú opnar til að taka frá vörur, sýnir upplýsingar um eina tegund línu (sölu-, innkaupa-, bókar-) eða birgðafærslu. Línurnar lýsa því hver margar vörur er hægt að taka frá fyrir hverja tegund línu eða færslu.
@@ -81,14 +81,14 @@ Stundum er þörf á að hætta við frátekningu á vöru.
 4.  Staðfesta eftirfarandi skilaboð með því að velja hnappinn **Í lagi**.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Til að taka frá tiltekið rað- eða lotunúmer  
-Hægt að taka frá tiltekin raðnúmer eða lotunúmer í útleiðarskjölum fyrir vörur með línurakningu, svo sem sölupantanir eða framleiðsluíhlutalista. Þetta getur til dæmis átt við ef þörf er fyrir framleiðsluíhlutina úr tiltekinni lotu til að tryggja samræmi við fyrri framleiðslukeyrslur eða vegna þess að viðskiptavinur hefur beðið um ákveðið raðnúmer. Frekari upplýsingar, sjá [Hvernig á að: vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
+Hægt að taka frá tiltekin raðnúmer eða lotunúmer í útleiðarskjölum fyrir vörur með línurakningu, svo sem sölupantanir eða framleiðsluíhlutalista. Þetta getur til dæmis átt við ef þörf er fyrir framleiðsluíhlutina úr tiltekinni lotu til að tryggja samræmi við fyrri framleiðslukeyrslur eða vegna þess að viðskiptavinur hefur beðið um ákveðið raðnúmer. Frekari upplýsingar, sjá [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
 
 Þetta er kallað sértæk frátekning, þar sem tekið er frá magni Vöru X sem tilheyrir Lotu X. Ef einfaldlega er tekið frá úr magni Vöru X er það venjuleg, ósértæk frátekning. Nánari upplýsingar eru í [Upplýsingar um hönnun - Vörurakning og frátekningar](design-details-item-tracking-and-reservations.md).
 
 Eftirfarandi ferli byggist á sölupöntun.    
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölupantanir** og velja svo viðeigandi tengil.  
 2. Stofna sölupöntunarlínu fyrir vörurakta vöru.  
-3. Úthluta rað- og lotunúmerum í sölupöntunarlínuna. Frekari upplýsingar, sjá [Hvernig á að: vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
+3. Úthluta rað- og lotunúmerum í sölupöntunarlínuna. Frekari upplýsingar, sjá [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
 4. Velja **Taka frá** aðgerðina í sölupöntunarlínunni.  
 5. Velja hnappinn **Já** til að taka frá tiltekin rað- eða lotunúmer.  
 6. Í glugganum **Vörurakningarlisti** skal velja þá samsetningu rað- og lotunúmers sem var verið að úthluta.  
@@ -99,6 +99,6 @@ Eftirfarandi ferli byggist á sölupöntun.
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Hönnunarupplýsingar - vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
-[Hvernig á að: vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).  
+[Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

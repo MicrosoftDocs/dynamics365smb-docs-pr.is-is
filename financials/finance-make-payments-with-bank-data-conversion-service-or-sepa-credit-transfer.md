@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 0760b5480b3c2de9bc370526bd87da2c9a492d92
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d9388a99585eea4e9e229a2f47982f9f690e3001
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Greiða með umreikningsþjónustu bankagagna eða SEPA-kreditfærslu
@@ -29,15 +29,15 @@ ms.lasthandoff: 12/14/2017
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Virkjið eiginleikann UUmreikningsþjónusta fyrir bankagögn til að umbreyta hvers kyns bankayfirlitsskrá í snið sem hægt er að flytja inn eða til að umbreyta útfluttum greiðsluskrám í það snið sem bankinn krefst.|[Hvernig á að: Setja upp umreikningsþjónustu fyrir bankagögn](bank-how-setup-bank-statement-service.md)|  
-|Setja upp bankareikning, lánardrottin og greiðslubók fyrir SEPA-millifærslur.|[Hvernig á að: Setja upp SEPA-kreditfærslur](finance-how-to-set-up-sepa-credit-transfer.md)|  
+|Virkjið eiginleikann UUmreikningsþjónusta fyrir bankagögn til að umbreyta hvers kyns bankayfirlitsskrá í snið sem hægt er að flytja inn eða til að umbreyta útfluttum greiðsluskrám í það snið sem bankinn krefst.|[Setja upp umskráningarþjónustu fyrir bankagögn](bank-how-setup-bank-statement-service.md)|  
+|Setja upp bankareikning, lánardrottin og greiðslubók fyrir SEPA-millifærslur.|[Setja upp SEPA-kreditfærslur](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Fyllið út greiðslubókina með línum fyrir greiðslu á gjalddaga til lánardrottna með möguleikanum á að setja inn bókunardagsetningar byggt á gjalddaga tengdra innkaupaskjala.|[Stjórna skuldum](payables-manage-payables.md)|  
-|Flytja út greiðslubókarlínur í skrá í SEPA lánsfjármillifærslusniði.|[Hvernig á að: Flytja út greiðslur í bankaskrá](payables-how-export-payments-bank-file.md)|  
+|Flytja út greiðslubókarlínur í skrá í SEPA lánsfjármillifærslusniði.|[Flytja út greiðslur í bankaskrá](payables-how-export-payments-bank-file.md)|  
 |Þegar rafræna greiðslan hefur verið unnin að fullu af bankanum skal bóka greiðslurnar.|[Vinna í færslubókum](ui-work-general-journals.md)|  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: Setja upp umreikningsþjónustu fyrir bankagögn](bank-how-setup-bank-statement-service.md)  
-[Hvernig á að: Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Setja upp umskráningarþjónustu fyrir bankagögn](bank-how-setup-bank-statement-service.md)  
+[Setja upp SEPA-kreditfærslur](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Stjórna skuldum](payables-manage-payables.md)   
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)   

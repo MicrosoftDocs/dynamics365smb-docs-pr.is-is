@@ -1,6 +1,6 @@
 ---
 title: "Stofna ný fyrirtæki með notkun leiðbeininga um uppsetningu með stuðningi | Microsoft Docs"
-description: "Það er auðvelt að stofna nýtt, autt fyrirtæki í Dynamics 365 Business edition. Leiðbeiningar um uppsetningu með stuðningi hjálpa þér í gegnum skrefin, og þú getur flutt inn fyrirliggjandi viðskiptagögn þín."
+description: "Það er auðvelt að stofna nýtt, autt fyrirtæki í Finance and Operations, Business Edition. Leiðbeiningar um uppsetningu með stuðningi hjálpa þér í gegnum skrefin, og þú getur flutt inn fyrirliggjandi viðskiptagögn þín."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Stofna ný fyrirtæki í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Stofna ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er vísað til hólfanna fyrir viðskiptagögn, sem tilheyra fyrirtækjaeiningu eða lögaðila, sem *fyrirtæki*. Þegar þú skráir þig í [!INCLUDE[d365fin](includes/d365fin_md.md)], færðu sýnifyrirtæki og autt fyrirtæki, *Mitt fyrirtæki*. Auðvelt er að skipta á milli fyrirtækja - þú opnar einungis **Mínar stillingar** og færir þig yfir í hitt fyrirtækið. En þú getur líka stofnað ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)], allt eftir þörfum þíns fyrirtækis. Þegar þú stofnar nýtt fyrirtæki, munu leiðbeiningar um uppsetningu með stuðningi hjálpa þér við grunnuppsetninguna. Þá geturðu flutt inn tilheyrandi gögn úr eldri kerfum eða öðrum fyrirtækjum í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Stofna nýtt fyrirtæki
@@ -44,10 +44,10 @@ Ef þú vilt byrja auðveldlega með nýtt fyrirtæki, skal velja **Suite framle
 
 Aðsetur fyrirtækisins er til dæmis innifalið í reikningum og öðrum skjölum, bankaupplýsingar eru notaðar í greiðslum, og aðferð kostnaðarútreiknings er notuð til að reikna út bæði verð og birgðaverðmat.  
 
-Þegar grunnatriðin eru komin á sinn stað, geturðu sett upp þau grunnsvæði sem eftir eru. Þá er hægt að bæta inn viðskiptagögnum á borð við viðskiptamenn og lánardrottna. Nánari upplýsingar er að finna í [Uppsetning Dynamics 365 Business edition](setup.md).  
+Þegar grunnatriðin eru komin á sinn stað, geturðu sett upp þau grunnsvæði sem eftir eru. Þá er hægt að bæta inn viðskiptagögnum á borð við viðskiptamenn og lánardrottna. Frekari upplýsingar eru í [Uppsetning Finance and Operations, Business Edition ](setup.md).  
 
 ## <a name="see-also"></a>Sjá einnig
-[Uppsetning Dynamics 365 Business edition](setup.md).  
+[Uppsetning Finance and Operations, Business Edition ](setup.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](upload-data.md)  
 [Breyta grundvallarstillingum](ui-change-basic-settings.md)  
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

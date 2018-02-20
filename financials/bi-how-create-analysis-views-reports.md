@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-create-analysis-reports"></a>Hvernig skal: Stofna greiningarskýrslur
+#  <a name="create-analysis-reports"></a>Stofna greiningarskýrslur
 Sölustjórar þurfa að greina veltu, brúttóhagnað og aðrar lykilstærðir varðandi sölu með reglulegu millibili. Innkaupaaðilar hafa meiri áhuga á að greina innkaupamagn, fylgjast með frammistöðu birgja og innkaupaverði. Vöru- og birgðastjórar þurfa hins vegar upplýsingar um birgðaveltu, greiningu á hreyfingu birgða og upplýsingar um birgðavirði.  
 
 Hægt er að nota greiningarskýrslur til að stofna sérsniðnar skýrslur sem byggðar eru á upplýsingum um bókaðar færslur, t.d. sölu, innkaup, millifærslur og birgðaleiðréttingar. Í sérsníðanlegri skýrslu getur notandi sameinað, borið saman og sett fram frumgögnin sem eru upprunnin í birgðafjárhag (með tengdum virðisfærslum) á ýmsan þann hátt sem hann kýs. Greiningarskýrslan er því mjög svipuð veltitöfluskýrslu í Microsoft Excel.  
@@ -28,7 +28,7 @@ Hægt er að stofna sérsniðna skýrslu sem tekur fyrir lykilreikninga og heild
 
 Greiningarskýrslan er mynduð úr hlutunum sem á að greina, til dæmis viðskiptamönnum, viðskiptamannaflokkum, sölumönnum o.s.frv. sem settir eru fram sem línur, og greiningarfæribreytunum, það er, aðferðinni sem á að beita við að greina hlutina, sem settar eru fram í dálkum, eins og t.d. hagnaðarútreikningar, samanburður á sölumagni og -upphæðum yfir tímabil eða samanburður á rauntölum og áætlunum.
 
-Í viðbót við greiningarskýrslur, er hægt að stofna og skoða svipaðar upplýsingar í greiningaryfirliti, sem byggir á víddum. Frekari upplýsingar, sjá [Hvernig skal: Greina gögn eftir víddum](bi-how-analyze-data-dimension.md).
+Í viðbót við greiningarskýrslur, er hægt að stofna og skoða svipaðar upplýsingar í greiningaryfirliti, sem byggir á víddum. Nánari upplýsingar er að finna í [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md).
 
 ## <a name="example"></a>Dæmi  
 Hægt er að setja upp línur eins og þessar:  
@@ -41,9 +41,6 @@ Síðan er hægt að setja upp dálka eins og þessa:
 - Sala gildandi mánaðar  
 - Sala síðasta mánaðar  
 - Sala síðasta mánaðar í prósentum  
-
-> [!NOTE]  
->   Þessi virkni krefst þess að upplifun þín sé stillt á **Suite**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Uppsetning á útliti lína og dálka  
  Í glugganum **Greiningarskýrsla** er hægt að skoða mismunandi útlit lína og dálka eftir því hvernig uppsetningin er. Línur eða línusniðmát eru sett upp í glugganum **Greiningarlínusniðmát**. Þar er hægt að skilgreina heiti skýrslunnar og hlutanna sem á að sýna í línum hennar. Dálkarnir eru settir upp í glugganum **Greiningardálkssniðmát**. Þar er hægt að tilgreina heiti dálkssniðmátsins og greiningarfæribreytanna sem á að sýna í skýrslunni sem dálka. Í glugganum **Greiningardálkssniðmát** sýnir hver lína dálk í skýrslunni. Athuga skal að greiningarlínur og greiningardálkar eru óháð hvort öðru.  

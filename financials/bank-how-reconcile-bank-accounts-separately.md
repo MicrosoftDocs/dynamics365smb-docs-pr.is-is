@@ -13,19 +13,19 @@ ms.search.keywords: bank account balance, bank statement
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0e6fbc829f80b9fe5e1b2f9b4645d53f4334a696
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fa1225e8467ab805fc14afdd39eef556dc7ad5fc
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-bank-accounts-separately"></a>Hvernig á að: Afstemma bankareikninga hvern fyrir sig
+# <a name="reconcile-bank-accounts-separately"></a>Afstemma bankareikninga hvern fyrir sig
 Til að afstemma bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)] með uppgjör sem koma frá bankanum þarf að fylla inn í línurnar í **Bankareikn. afstemming** glugganum.
 
 > [!NOTE]  
->   Einnig er hægt að stemma af bankareikninga í glugganum **greiðsluafstemmingarbók** Allar opnar fjárhagsfærslur bankareiknings sem tengjast jöfnuðum fjárhagsfærslum viðskiptavinar eða lánardrottins verða lokaðar þegar þú velur **Bóka Greiðslur og stemma Af Bankareikninga** aðgerð. Þetta þýðir að bankareikningurinn er sjálvirkt stemmdur af fyrir greiðslur sem bókaðar eru með færslubókinni. Frekari upplýsingar eru í [hvernig á að afstemma greiðslur með því að nota sjálfvirka jöfnun](receivables-how-reconcile-payments-auto-application.md)
+>   Einnig er hægt að stemma af bankareikninga í glugganum **greiðsluafstemmingarbók** Allar opnar fjárhagsfærslur bankareiknings sem tengjast jöfnuðum fjárhagsfærslum viðskiptavinar eða lánardrottins verða lokaðar þegar þú velur **Bóka Greiðslur og stemma Af Bankareikninga** aðgerð. Þetta þýðir að bankareikningurinn er sjálvirkt stemmdur af fyrir greiðslur sem bókaðar eru með færslubókinni. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
-Til að virkja innflutning bankayfirlits, verður þú að setja upp og virkja Envestnet Yodlee bankastreymisþjónustu, og tengja síðan bankareikningana við viðkomandi netbankareikninga. Frekari upplýsingar sjá [Hvernig: Setja á Upp Envestnet Yodlee bankastreymisþjónustu](bank-how-setup-bank-statement-service.md).
+Til að virkja innflutning bankayfirlits, verður þú að setja upp og virkja Envestnet Yodlee bankastreymisþjónustu, og tengja síðan bankareikningana við viðkomandi netbankareikninga. Frekari upplýsingar eru í [Setja upp Envestnet Yodlee bankastreymisþjónustu](bank-how-setup-bank-statement-service.md).
 
 Línur gluggans **afstemming bankareiknings** skiptast í tvö svæði. **BankaYfirlitslínur** svæðinu sýnir annað hvort innfluttra bankafærslur eða fjárhagsfærslur með útistandandi greiðslur. **Bankareikningsfærslur** svæðið sýnir fjárhagsfærslur á bankareiknings.
 

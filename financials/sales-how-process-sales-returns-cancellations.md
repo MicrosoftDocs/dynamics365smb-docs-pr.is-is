@@ -11,19 +11,19 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: eac8f4fdd6a5333662e272c8c71e585cf1fb876a
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-sales-returns-or-cancellations"></a>Meðhöndlun söluvöruskila eða afturkallana
+# <a name="process-sales-returns-or-cancellations"></a>Vinna söluskil eða afturkallanir
 Ef viðskiptavinur vill skila eða endurgreiða fyrir vörur eða þjónustu sem þú hefur selt og fengið greiðslu fyrir verður þú að búa til og senda inn söluskuldbindingar sem tilgreinir umbeðnar breytingar. Til að taka réttar sölureikningsupplýsingar með, er hægt að stofna sölukreditreikning beint úr bókaða sölureikningnum eða þú getur stofnað nýja sölukreditreikning með afrituðum reikningsupplýsingum.
 
 Ef þú þarft meiri stjórn á söluskilaferlinu, eins og t.d. vöruhúsaskjöl fyrir vöruafgreiðsluna eða betra yfirlit yfir móttöku vara frá mörgum söluskjölum með einum vöruskilum, geturðu stofnað söluvöruskilapöntun. Söluvöruskilapöntun gefur út sjálfkrafa tengdan sölukreditreikning og önnur skilatengd skjöl, eins og skiptivörusölupöntun, ef þarf. Frekari upplýsingar, sjá hlutann „Stofna vöruskilapöntun byggða á einu eða fleiri bókuðu söluskjali“.
 
 > [!NOTE]  
->   Ef sölureikningur hefur ekki verið greiddur þá geturðu notað **Rétt** eða **Hætta við** aðgerðirnar á bókaða sölureikningnum til að snúa við viðskiptum. Þessar aðgerðir virka aðeins fyrir ógreiddar reikningar og styðja ekki hluta skilar eða afpöntunar. Nánari upplýsingar er að finna [hvernig á að: Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md)
+>   Ef sölureikningur hefur ekki verið greiddur þá geturðu notað **Rétt** eða **Hætta við** aðgerðirnar á bókaða sölureikningnum til að snúa við viðskiptum. Þessar aðgerðir virka aðeins fyrir ógreiddar reikningar og styðja ekki hluta skilar eða afpöntunar. Frekari upplýsingar eru í [Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md).
 
 Skil eða endurgreiðsla getur átt við um aðeins hluta af vörum eða þjónustum á upprunalega sölureikningnum. Í því tilviki þarf að breyta upplýsingum í línunum á sölukreditreikningnum eða söluvöruskilapöntun. Við bókun sölukreditreiknings eða söluvöruskilapöntun eru þau söluskjöl sem eru breytingin hefur áhrif á bakfærð og hægt er að stofna endurgreiðslu til viðskiptamannsins. Frekari upplýsingar eru í [Greiðslur framkvæmdar](payables-make-payments.md).  
 
@@ -65,7 +65,7 @@ Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðakostnaður](design-d
     Eftir að þú hefur stofnað línur fyrir sölukreditreikningana eða breytt þeim og ein eða fleiri jöfnun tilgreind, er hægt að bóka sölukreditreikninginn.   
 8. Veljið aðgerðina **Bóka og senda**.  
 
-Í **Bóka og Senda staðfestingu** svargluggi opnast og sýnir notuð valda sendingaraðferð fyrir viðskiptamanninn. Hægt er að breyta sendingaraðferð með því að velja uppflettihnappinn í reitnum **Senda skjal** til. Frekari upplýsingar er að finna á [Hvernig á að: Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md)  
+Í **Bóka og Senda staðfestingu** svargluggi opnast og sýnir notuð valda sendingaraðferð fyrir viðskiptamanninn. Hægt er að breyta sendingaraðferð með því að velja uppflettihnappinn í reitnum **Senda skjal** til. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
 
 Bókuðu söluskjölin sem jafnað var við kreditreikninginn eru nú bakfærðir og endurgreiðslu má nú búa til fyrir viðskiptamanninn. Sölukreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal á lista bókaðra sölukreditreikninga.
 
@@ -135,7 +135,7 @@ Ef til vill á að bjóða viðskiptamanni bætur vegna vöru sem honum var seld
 1. Í glugganum **Söluvöruskilapöntun** fyrir virkt skilaferli, er í auðri línu búin til neikvæð færsla vegna skiptivörunnar með því að færa inn neikvætt magn í reitinn **Magn**.  
 2. Velja aðgerðina **Flytja neikvæðar línur**.
 3. Í glugganum **Flutningur Neikvætt sölulínur** skal fylla út reitina eins og þörf krefur.
-4. Velja hnappinn **Í lagi**. Neikvæðu línunni fyrir skilavörunni er eytt úr söluvöruskilapöntun og sett inn í nýjan glugga af gerðinni **Sölupöntun**. Nánari upplýsingar eru í [Hvernig á að: selja vörur.](sales-how-sell-products.md)
+4. Velja hnappinn **Í lagi**. Neikvæðu línunni fyrir skilavörunni er eytt úr söluvöruskilapöntun og sett inn í nýjan glugga af gerðinni **Sölupöntun**. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
 
 ## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Stofna skilatengd skjöl fyrir söluvöruskilapöntun
 Hægt að stofna sölupantanir fyrir skiptivöru, vöruskilapantanir innkaupa og innkaupapantanir fyrir skiptivöru sjálfvirkt á meðan á ferli söluvöruskila stendur. Þessa aðgerð er hægt að nota til dæmis þegar vinna á með vöru í ábyrgð frá lánardrottnum.
@@ -153,7 +153,7 @@ Hægt er að bóka þessa hækkun kostnaðar sem kostnaðarauka á kreditreiknin
 
 1. Opna glugganum **Söluvöruskilapöntun** fyrir virkt skilaferli.
 2. Á nýja línu í reitnum **Tegund** er valinn **Kostnaðarauki Vöru**.  
-3. Fyllið inn í reitina eins og þeir séu kostnaðaraukalínur. Frekari upplýsingar, sjá [Hvernig skal: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md).  
+3. Fyllið inn í reitina eins og þeir séu kostnaðaraukalínur. Frekari upplýsingar er að finna í [Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md).  
 
 Þegar söluskilapöntunin er bókuð er endurkaupagjaldi bætt við viðkomandi upphæð sölufærslu. Þannig er hægt að vinna með nákvæmt birgðaverðmat.  
 
@@ -169,7 +169,7 @@ Hægt er að bóka þetta lægra verð sem kostnaðarauka á kreditreikningi eð
      Gott gæti verið að stofna sérstakt kostnaðaraukanúmer fyrir söluuppbætur.  
 6.  Fært er inn **1** í reitinn **Magn**.  
 7.  Í reitinn **Ein.verð** er upphæð söluuppbótarinnar færð inn.  
-8.  Söluuppbótinni er úthlutað sem vörugjaldi á vörurnar í bókuðu afhendingunni. Frekari upplýsingar, sjá [Hvernig skal: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md). Þegar uppbótinni hefur verið úthlutað er snúið aftur í gluggann **Sölukreditreikningur**.  
+8.  Söluuppbótinni er  úthlutað sem vörugjaldi á vörurnar í bókuðu afhendingunni. Frekari upplýsingar er að finna í [Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md). Þegar uppbótinni hefur verið úthlutað er snúið aftur í gluggann **Sölukreditreikningur**.  
 
 Þegar söluvöruskilapöntunin er bókuð er söluafslætti bætt við viðkomandi upphæð sölufærslu. Þannig er hægt að vinna með nákvæmt birgðaverðmat.
 
@@ -218,6 +218,6 @@ Að öðrum kosti skal eyða einstökum söluvöruskilapöntunum handvirkt.
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
-[Hvernig á að: Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
+[Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

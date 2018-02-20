@@ -13,18 +13,18 @@ ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 903c1a858fe66482cb4404e8b792abade6106489
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a0c3c67952a7b33771329f8e9ecb45744b64830c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-acquire-fixed-assets"></a>Hvernig á að: komast Yfir Eignir
+# <a name="acquire-fixed-assets"></a>Komast yfir eignir
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Afskriftabók þarf að setja upp og tengja hverri eign áður en hægt er að komast yfir hana.
 
 Þegar eign er sett upp og Afskriftabók tengd henni, verðurðu að komast yfir eignina. Til að komast yfir eign, skráirðu kaupferð hennar í viðeigandi Fjárhagsreikning, bankareikning, eða lánardrottin með því að bóka kaupfærslu úr gluganum **Fjárhagsbók eigna** . Þú getur notað gluggann **aðstoð við eignakaup** til að stofna og bóka nauðsynlegar færslubókarlínur sjálfvirkt.
 
-Hrakvirði er afgangsvirði eignar þegar ekki er lengur hægt að nota hana. Hægt er að bóka hrakvirðið um leið og stofnkostnaður er bókaður. Nánari upplýsingar sjá [Hvernig á að: afskrifa eða greiða af eignum](fa-how-depreciate-amortize.md)
+Hrakvirði er afgangsvirði eignar þegar ekki er lengur hægt að nota hana. Hægt er að bóka hrakvirðið um leið og stofnkostnaður er bókaður. Nánari upplýsingar sjá [Afskrifa eða greiða af eignum](fa-how-depreciate-amortize.md).
 
 Endurmat er notað til að laga virði að almennum verðbreytingum. Hægt er að nota keyrsluna **Endurmat eigna** til að reikna kaupferð á endurnýjunarverði.
 
@@ -34,7 +34,7 @@ Eftirfarandi ferli sýnir hvernig á að stofna eign og komast svo yfir hana me�
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignir** og velja svo viðeigandi tengil.  
 2. Velja sem **Nýtt** aðgerð og síðan fyllt út í reitina á **Almenna** Flýtiflipanum eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **afskriftabók**. Þetta skref úthlutar afskriftabók á eigninni.  
-4. Ef það þarf að úthluta fleiri en einni afskriftabók á eign skal velja **bæta Við Fleiri Afskriftabækur** aðgerð. Nánari upplýsingar eru í "úthluta eign á afskriftabók" hlutanum í [Hvernig á að setja upp afskriftabækur eigna](fa-how-setup-depreciation.md).
+4. Ef það þarf að úthluta fleiri en einni afskriftabók á eign skal velja **bæta Við Fleiri Afskriftabækur** aðgerð. Nánari upplýsingar eru í "úthluta eign á afskriftabók" hlutanum í [Uppsetning afskriftabóka eigna](fa-how-setup-depreciation.md).
 
     Þegar allir reitir sem þarf til að komast yfir eign eru fylltir út, birtist **hægt er að komast yfir eignina. Komast yfir** tilkynning efst á síðunni.
 5. Valið er **Komast yfir** aðgerð í tilkynningunni.
@@ -70,7 +70,7 @@ Eftirfarandi ferli sýnir hvernig á að komast yfir eign handvirkt með því a
 4. Valið er **bóka** aðgerð.  
 
 > [!TIP]  
->   Ef þú fyllir upp í reitinn **Tryggingarnúmer** í fjárhagsbók eigna þegar kaupverð er bókað, mun [!INCLUDE[d365fin](includes/d365fin_md.md)] líka bóka kaupverð eignarinnar í vátryggingasviðsbókina. Nánari upplýsingar sjá [Hvernig á að: tryggja eignir](fa-how-insure.md)
+>   Ef þú fyllir upp í reitinn **Tryggingarnúmer** í fjárhagsbók eigna þegar kaupverð er bókað, mun [!INCLUDE[d365fin](includes/d365fin_md.md)] líka bóka kaupverð eignarinnar í vátryggingasviðsbókina. Nánari upplýsingar sjá [Tryggja eignir](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Ógilding bókunar kaupverðs fyrir eina eign
 Ef villa á sér stað við bókun stofnkostnaðar er hægt að fjarlægja færsluna með keyrslunni **Afturkalla eignafærslur** og bóka síðan rétta stofnkostnaðarfærslu. Röngu færslurnar eru fluttar í gluggann **Rangar eignafærslur.**

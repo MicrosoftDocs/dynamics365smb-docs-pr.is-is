@@ -13,13 +13,13 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ceea5fba1b2daeab3c517d87e3e31e29d53441c3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 484d21ad14991d663de3e9c5491455fe60494a06
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-employees"></a>Hvernig á að: Skrá starfsmenn
+# <a name="register-employees"></a>Skrá starfsmenn
 Til að nota eiginleikann Mannauður þarf fyrst að skrá hvern starfsmann með því að búa til spjald með öllum grunnupplýsingum og öðrum tengdum upplýsingum.
 
 Hægt er að virkja upplýsingar hvenær sem er. Með því að halda skráningum um starfsmenn uppfærðum verða starfsmannaverkefni einfaldari. Til dæmis, ef aðsetur starfsmanna breytast er hægt að skrá það á starfsmannaspjaldið.
@@ -27,7 +27,7 @@ Hægt er að virkja upplýsingar hvenær sem er. Með því að halda skráningu
 Eftirfarandi aðferðir lýsa því hvernig á að búa til fyrsta starfsmannaspjaldið og hvernig á að úthluta tveimur gerðum af upplýsingum um starfsmanninn á viðkomandi starfsmann. Einnig er hægt að úthluta ýmsum öðrum tengdum upplýsingum, svo sem hæfi og orsökum aðgerðaleysis. Upplýsingum um starfsmann er úthlutað annað hvort með því að velja reit eða aðgerð í glugganum **Starfsmannaspjald**.
 
 > [!NOTE]  
-> Hægt er að endurgreiða starfsmönnum fyrir útgjöld þeirra í viðskiptaerindum. Til þess þarf að fylla inn í reitina á flýtiflipanum **Greiðslur** í glugganum **starfsmannaspjald**. Nánari upplýsingar eru í [Hvernig á að: Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).
+> Hægt er að endurgreiða starfsmönnum fyrir útgjöld þeirra í viðskiptaerindum. Til þess þarf að fylla inn í reitina á flýtiflipanum **Greiðslur** í glugganum **starfsmannaspjald**. Nánari upplýsingar eru í [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Uppsetning starfsmanns
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **starfsmenn** og velja svo viðeigandi tengil.
@@ -57,7 +57,7 @@ Hægt er að nota önnur aðsetur til að halda utan um aðsetur starfsmanns, ti
 5. Skref 4 er endurtekið fyrir hvert aðsetur.
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að: Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).  
+[Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).

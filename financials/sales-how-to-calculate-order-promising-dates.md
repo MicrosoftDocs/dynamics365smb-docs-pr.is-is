@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 01/19/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ff83b7e5b61cd265bb3cb1af0bd5db3513c26072
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-calculate-order-promising-dates"></a>Hvernig á að reikna Dagsetningu pöntunarloforðs
+# <a name="calculate-order-promising-dates"></a>Reikna dagsetningar pöntunarloforða
 Fyrirtæki verður að geta upplýst viðskiptamenn sína um afhendingardagsetningar pöntunar. Glugginn **Línur pöntunarloforðs** gerir kleift að framkvæma þetta í sölupöntunarlínu.  
 
 Grundvallaður á þekktum og áætluðum ráðstöfunardagsetningum vöru, [!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar strax sendingar- og afhendingardagsetningar, sem er svo hægt að lofa viðskiptamanninum.  
@@ -39,7 +39,7 @@ Ef ekki er tilgreind umbeðin afgreiðsludagsetning á sölupöntunarlínunni, e
 ## <a name="about-order-promising"></a>Um pöntun lofað
 Aðgerðin Pöntunarloforð gerir kleift að lofa því að pöntun verði send eða afhent á tilteknum degi. Kerfið reiknar út hvenær vara er tiltæk eða hægt að lofa henni og það býr til pöntunarlínur fyrir þær dagsetningar sem samþykktar eru. Pöntunarloforðsaðgerðin reiknar fyrstu hugsanlegu dagsetningu fyrir sendingu eða afhendingu á vöru. Einnig eru búnar til innkaupabeiðnilínur, ef fyrst skyldi þurfa að kaupa inn vörurnar, fyrir dagsetningarnar sem eru samþykktar.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] notar tvö grundvallarhugtök:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  notar tvö grundvallarhugtök:  
 
 - Tiltækt að lofa (ATP)  
 - Hægt að lofa (CTP)  
@@ -48,8 +48,10 @@ Aðgerðin Pöntunarloforð gerir kleift að lofa því að pöntun verði send 
 Tiltæk til að lofa (ATP) reiknar út dagsetningar á grundvelli frátekningarkerfisins. Hún gerir ráðstöfunarathugun á ófráteknu magni í birgðum með tilliti til áætlaðrar framleiðslu, innkaupa, flutninga og söluskila. Á grundvelli þessarar upplýsinga, reiknar [!INCLUDE[d365fin](includes/d365fin_md.md)] afhendingardagsetningu fyrir pöntun viðskiptamanns þar sem vörurnar eru tiltækar, annaðhvort í birgðum eða í áætluðum móttökum.  
 
 ### <a name="capable-to-promise"></a>Hægt að lofa  
-Hægt að lofa (CTP) tekur á sig mynd „hvað ef“ dæmis, þar sem varan er ekki til í birgðum og engum pöntunum eru raðað. Samkvæmt þessu dæmi, reiknar [!INCLUDE[d365fin](includes/d365fin_md.md)] út fyrstu dagsetningu þegar varan er til ef á að framleiða hana, kaupa eða flytja.  
+CTP-afhendingargeta notar „hvað ef“ aðstæður sem gildir aðeins um magn sem ekki erí birgðum eða á dagsettum pöntunum. Samkvæmt þessu dæmi, reiknar [!INCLUDE[d365fin](includes/d365fin_md.md)] út fyrstu dagsetningu þegar varan er til ef á að framleiða hana, kaupa eða flytja.
 
+#### <a name="example"></a>Dæmi
+Ef pöntun er til staðar fyrir 10 stykki, og 6 stykki eru til staðar í birgðum eða á dagsettum pöntunum, byggir útreikningur CTP-afhendingargetu á 4 stykkjum.
 
 ### <a name="calculations"></a>Útreikningar  
 Þegar [!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar afhendingardagsetningu viðskiptamanns framkvæmir það tvo verkhluta:  
@@ -62,7 +64,7 @@ Ef viðskiptamaðurinn biður ekki um sérstaka afgreiðsludagsetningu verður a
 - Afh.dags + út úr vöruhúsi + áætluð afhending + Afgreiðslutími = Dagsetning  
 - Áætluð afhendingardagsetning + Flutningstími = Áætluð afgreiðsludagsetning  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] síðan er sannreynt hvort útreiknuð afhendingardagsetning er raunhæf með því að reikna aftur í tímann til að ákvarða hvenær varan verður að vera tiltæk til að standast setta dagsetningu. Þetta næst með eftirfarandi formúlum:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  síðan er sannreynt hvort útreiknuð afhendingardagsetning er raunhæf með því að reikna aftur í tímann til að ákvarða hvenær varan verður að vera tiltæk til að standast setta dagsetningu. Þetta næst með eftirfarandi formúlum:  
 
 - Áætluð afhendingardagsetning – Flutningstími = Áætluð afgreiðsludagsetning  
 - Áætluð afhendingardagsetning - Afgreiðslutími út úr vöruhúsi + Afh.dags.  
@@ -73,7 +75,7 @@ Byggt á nýjum dagsetningum og tímum, allar tengdar dagsetningar eru reiknaða
 
 Pantanavinnsla lýkur CTP-ferlinu með því að samþykkja dagsetningarnar. Þetta þýðir að áætlunarlína og frátekningarfærslan hafa verið stofnaðar fyrir vöruna fyrir reiknaðar dagsetningar til að tryggja að pöntunin sé uppfyllt.  
 
-Auk ytri pantanaloforða í glugganum sem hægt er að framkævma í glugganum **Pöntun lofað línur** er einnig hægt að lofa innri eða ytri afhendingardagsetningu fyrir uppskriftavörur. Frekari upplýsingar, sjá [Hvernig skal: Skoða tiltækileika vöru](inventory-how-availability-overview.md).
+Auk ytri pantanaloforða í glugganum sem hægt er að framkævma í glugganum **Pöntun lofað línur** er einnig hægt að lofa innri eða ytri afhendingardagsetningu fyrir uppskriftavörur. Frekari upplýsingar, sjá [Skoða tiltækileika vöru](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Uppsetning pöntunarloforðs  
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Pöntun lofað uppsetning** og velja svo viðeigandi tengil.  

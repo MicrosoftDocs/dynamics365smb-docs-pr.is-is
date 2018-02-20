@@ -1,6 +1,6 @@
 ---
 title: "Hönnunarupplýsingar - Vörurakning Framboð | Microsoft Docs"
-description: "**Vörurakningarlínurnar** Og **Samantekt vörurakningar** gluggar afla kvikar framboðsupplýsingar fyrir raðnúmer eða lotunúmeri. Tilgangurinn með þessu er að auka gagnsæi fyrir notendur á fylgiskjölum á útleið, svo sem sölupöntunum, með því að sýna þeim hvaða raðnúmerum eða hve mörgum einingum lotunúmers er sem stendur úthlutað á önnur opin fylgiskjöl. Þetta minnkar óvissu sem stafar af tvöfaldri úthlutun og framkallar traust í pantanavinnslum að vörurakningarnúmerin og dagsetningar sem þeir eru að lofa á óbókuðum sölupöntunum sé hægt að uppfylla."
+description: "**Vörurakningarlínur** Og **Samantekt vörurakningar** gluggar afla kvikar framboðsupplýsingar fyrir raðnúmer eða lotunúmeri. Tilgangurinn með þessu er að auka gagnsæi fyrir notendur á fylgiskjölum á útleið, svo sem sölupöntunum, með því að sýna þeim hvaða raðnúmerum eða hve mörgum einingum lotunúmers er sem stendur úthlutað á önnur opin fylgiskjöl. Þetta minnkar óvissu sem stafar af tvöfaldri úthlutun og framkallar traust í pantanavinnslum að vörurakningarnúmerin og dagsetningar sem þeir eru að lofa á óbókuðum sölupöntunum sé hægt að uppfylla."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
 ms.openlocfilehash: cdfb96475c46d56f32e5f0133efc7852a10ae446
 ms.contentlocale: is-is
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-availability"></a>Hönnunarupplýsingar: vörurakning framboð

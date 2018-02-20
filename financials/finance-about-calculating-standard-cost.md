@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2e47adde6da02252ee1dd15abb8cbd905579420b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Um umreikning staðalkostnaðar
@@ -52,7 +52,7 @@ Eftirfarandi lykilkostnaðarliðir mynda samtölu beins kostnaðar vöru sem er 
 -   Beinn efniskostnaður er reikningsfærð upphæð fyrir aðkeypt hráefni eða framleiðslukostnaður undirsamsetningar.  
 -   Óbeinn efniskostnaður, eða *sameiginlegur kostnaður*, getur til dæmis verið birgðageymslukostnaður fyrir fullunnu vöruna þegar búið er að framleiða hana.  
 
-Uppsetning efniskostnaðar keyptra vara sem hafa áhrif á beinan og óbeinan kostnað veltur á því hvaða kostnaðaraðferð er valin fyrir vöruna sem er tilgreind. Kostnaðarupplýsingar fyrir aðra hvora aðferð kostnaðarútreiknings eru settar upp. Nánari upplýsingar eru í [Hvernig á að: Skrá nýjar vörur](inventory-how-register-new-items.md).
+Uppsetning efniskostnaðar keyptra vara sem hafa áhrif á beinan og óbeinan kostnað veltur á því hvaða kostnaðaraðferð er valin fyrir vöruna sem er tilgreind. Kostnaðarupplýsingar fyrir aðra hvora aðferð kostnaðarútreiknings eru settar upp. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
 Kostnaður úrkasts (framleiðsla eingöngu) er annar þáttur í útreikningi á heildarefniskostnaði sem taka þarf tillit til. Þegar vissu magni af hráefni er hent við það að setja saman eða framleiða vöru verður það yfirleitt til þess að meira magn af íhlutum þarf til að framleiða þá vöru. Það eykur svo efniskostnað þeirra íhluta sem eru notaðir við framleiðslu yfirvöru. Úrkastskostnaður efnis er settur upp á annað hvort framleiðsluuppskriftinni eða -leiðinni.  
 
@@ -98,13 +98,13 @@ Til að uppfæra eða reikna staðlað kostnaðarverð fyrir samsetningarvörur 
 Ferlið til að uppfæra eða reikna út staðlaðan kostnað samanstendur yfirleitt af eftirfarandi verkum:  
 
 1.  Uppfærslu kostnaðar á íhluta- og afkastagetustigunum. Frekari upplýsingar, sjá **Leggja til staðlaðan vörukostnað** og **Leggja til staðlaðan afkastakostnað** runuvinnslurnar.  
-2.  Samstilling og samantekt íhluta- og afkastakostnaðarins til að reikna út heildarframleiðslukostnað varanna. Nánari upplýsingar er að finna í „Útreikningur á staðalkostnaði á samsetningaríhlut“ hlutanum í [Hvernig á að: Vinna með uppskrift](inventory-how-work-BOMs.md).  
+2.  Samstilling og samantekt íhluta- og afkastakostnaðarins til að reikna út heildarframleiðslukostnað varanna. Nánari upplýsingar er að finna í „Útreikningur á staðalkostnaði á samsetningaríhlut“ hlutanum í [Vinna með uppskrift](inventory-how-work-BOMs.md).  
 3.  Innleiðing staðlaðs kostnaðar sem færður var inn þegar fyrri keyrsla var keyrð. Staðlaður kostnaður tekur ekki gildi fyrr en hann er innleiddur. Sjá frekari upplýsingar í **Innleiða breytingu á stöðluðu kostnaðarverði** runuvinnslunni.  
-4.  Innleiðing breytinga til að uppfæra reitinn **Kostn.verð** á birgðaspjaldinu og framkvæmd endurmats á birgðum. Frekari upplýsingar eru í [Hvernig á að: Endurmeta birgðir](inventory-how-revalue-inventory.md).
+4.  Innleiðing breytinga til að uppfæra reitinn **Kostn.verð** á birgðaspjaldinu og framkvæmd endurmats á birgðum. Nánari upplýsingar eru í [Endurmat birgða](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Sjá einnig  
- [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)   
- [Hvernig á að: Vinna með uppskriftir](inventory-how-work-BOMs.md)   
- [Hvernig á að uppfæra staðlað kostnaðarverð](finance-how-to-update-standard-costs.md)   
+ [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)   
+ [Vinna með uppskriftir](inventory-how-work-BOMs.md)   
+ [Uppfæra staðlaðan kostnað](finance-how-to-update-standard-costs.md)   
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)
 

@@ -13,13 +13,13 @@ ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b0e8a73af6f979cb426db1bffc34d154fc439dce
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c57b2bd4b4c99373d4ce16905fbf626e549bc1f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-jobs"></a>Hvernig á að setja upp verk
+# <a name="set-up-jobs"></a>Setja upp verk
 Í glugganum **Uppsetning verka** þarf að tilgreina hvernig eigi að nota tiltekin verk.
 
 Á einstökum verkspjöldum þarf að setja upp verð fyrir vörur, forða og fjárhagsreikninga verks og setja þarf upp verkbókunarflokka.
@@ -39,7 +39,7 @@ Ef hakað er í gátreitinn **Beita notkunartengli** er hægt að yfirfara uppl�
 Þegar gátreiturinn **Nota notkunartengil** er valinn, og verkáætlunarlínugerðin er **Reikningshæft**, stofnar Financials verkáætlunarlínu af tegundinni **Áætlun** eftir að færslubókarlínan er bókuð.
 
 > [!NOTE]  
->   Ef gátreitur **Beita notkunartengli** á vinnsluspjaldi er valinn og reiturinn **Línutegund** í færslubókarlína verks er auður mun nýjar verkáætlunarlínur af línugerðinni **Áætlun** vera stofnaðar þegar bókaðar eru færslubókarlínur verks. Ef gátreiturinn **Beita notkunartengli** er ekki valinn á verkspjaldi og reiturinn **Tegund línu** í verkbókarlínunni er auður eru engar verkáætlunarlínur stofnaðar þegar verkbókarlínur eru bókaðar. Nánari upplýsingar eru í [Hvernig á að: Skrá notkun vegna verka](projects-how-record-job-usage.md).
+>   Ef gátreitur **Beita notkunartengli** á vinnsluspjaldi er valinn og reiturinn **Línutegund** í færslubókarlína verks er auður mun nýjar verkáætlunarlínur af línugerðinni **Áætlun** vera stofnaðar þegar bókaðar eru færslubókarlínur verks. Ef gátreiturinn **Beita notkunartengli** er ekki valinn á verkspjaldi og reiturinn **Tegund línu** í verkbókarlínunni er auður eru engar verkáætlunarlínur stofnaðar þegar verkbókarlínur eru bókaðar. Frekari upplýsingar eru í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning verks** og velja svo viðeigandi tengil.
 2. Veljið eða afveljið gátreitinn **Beita notkunartengli**.

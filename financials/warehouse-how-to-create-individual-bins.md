@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 37a79ad08113b16bf0240d4c92eac6464015db07
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f8cd19f97c530397dd6b499157e13340331aa3ba
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-bins"></a>Hvernig á að: Stofna hólf
+# <a name="create-bins"></a>Stofna hólf
 Skilvirkasta leiðin til að stofna hólf í vöruhúsinu er að stofna flokka samskonar hólfa á vinnublaði hólfastofnunar, en einnig er hægt að stofna stök hólf frá birgðageymsluspjaldi. Einnig er hægt að nota virkni í glugganum **Hólfastofnunarvinnublaði** til að stofna hólfs sjálfvirkt.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Hólf stofnaða af birgðageymsluspjaldinu:  
@@ -39,7 +39,7 @@ Skilvirkasta leiðin til að stofna hólf í vöruhúsinu er að stofna flokka s
 > [!NOTE]  
 >  Um leið og hólf hefur verið notað er ekki hægt að eyða því nema það sé tómt. En ef á að nota annað nafnakerfi fyrir hólf er hægt að nota endurflokkunarbókina til að færa í raun vörurnar í nýja hólfakerfið. Þetta ferli er handvirkt og tímafrekt þannig að best er að setja hólfin rétt upp í upphafi.  
 
-Til að vinna með **Hólfastofnunarvinnublaði** gluggann þarftu að vera settur upp sem starfsmaður í vöruhúsi á staðsetningunni þar sem hólfin eru. Frekari upplýsingar eru í [Hvernig á að: Setja upp starfsmenn vöruhúss](warehouse-how-to-set-up-warehouse-employees.md).    
+Til að vinna með **Hólfastofnunarvinnublaði** gluggann þarftu að vera settur upp sem starfsmaður í vöruhúsi á staðsetningunni þar sem hólfin eru. Frekari upplýsingar eru í [Setja upp vöruhússtarfsmenn](warehouse-how-to-set-up-warehouse-employees.md).    
 
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vinnublað f. stofnun hólfs** og velja svo viðeigandi tengil.  
 2.  Veldu aðgerðina **Reikna út hólf**.

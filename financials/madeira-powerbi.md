@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business edition og Power BI Content Packs| Microsoft Docs
-description: "Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Dynamics 365 gögnum með Power BI og Dynamics 365 Content Pack."
+title: Efnispakkar Finance and Operations, Business Edition og Power BI| Microsoft Docs
+description: "Það er auðvelt að fá innsýn, viðskiptagreind og afkastavísi (KPI) í Finance and Operations, Business Edition gögnum með Power BI og Finance and Operations, Business Edition efnispökkunum."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Virkja viðskiptagögnin þín fyrir Power BI
@@ -22,11 +22,11 @@ ms.lasthandoff: 11/10/2017
 
 Microsoft hefur gefið út eftirfarandi efnispakka:
 
-| Forrit | Lýsing |
+| Forrit | Description |
 | --- | --- |
-| Microsoft Dynamics 365 for Financials | Býður upp á yfirlit með fjárhagslegum lykilupplýsingum yfir tíma, eins og t.d. tekjur á móti útgjöldum, rekstrarframlegð og ferill bundins reiðufés.|
-| Microsoft Dynamics 365 for Financials -CRM | Býður upp á yfirlit með lykilupplýsingum um sölutækifæri og tengiliði.  |
-| Microsoft Dynamics 365 for Financials - Sales | Býður upp á yfirlit með lykilupplýsingum um sölutækifæri og tengiliði. |
+| Microsoft Finance and Operations, Business Edition | Býður upp á yfirlit með fjárhagslegum lykilupplýsingum yfir tíma, eins og t.d. tekjur á móti útgjöldum, rekstrarframlegð og ferill bundins reiðufés.|
+| Microsoft Finance and Operations, Business Edition - CRM | Býður upp á yfirlit með lykilupplýsingum um sölutækifæri og tengiliði.  |
+| Microsoft Finance and Operations, Business edition - Sales | Býður upp á yfirlit með lykilupplýsingum um sölutækifæri og tengiliði. |
 
 ## <a name="using-the-dashboards"></a>Nota Yfirlitið
 Hver efnispakki býður upp á skýrslur sem þú getur nýtt þér:
@@ -44,7 +44,7 @@ Efnispakkinn er forstilltur til að vinna með sölugögnum og fjárhagsgögnum 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Aðgangur að [!INCLUDE[d365fin](includes/d365fin_md.md)] í Power BI
 Til að skoða þitt [!INCLUDE[d365fin](includes/d365fin_md.md)] gögn í Power BI, verður þú að hafa eftirfarandi:  
 
-* Aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í [Finance and Operations, Business Edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Aðgang að Power BI Nánari upplýsingar eru í [Power BI](https://powerbi.microsoft.com), .
 
 Á vefsvæði Power BI má finna viðbótarupplýsingar um [að tengjast þjónustu með efnispakka fyrir Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
@@ -120,9 +120,10 @@ Ef þú sérð "Úps" villuglugga þegar þú ert kominn framhjá sannvottunargl
 [Viðskiptaupplýsingar](bi.md)  
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Yfirfæra viðskiptagögn úr öðrum fjárhagskerfum](upload-data.md)  
-[Nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
-[Nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] sem PowerApps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
-[Nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] í Microsoft Flow](across-how-use-financials-data-source-flow.md)   
+[Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
+[Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem PowerApps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
+[Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] í Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

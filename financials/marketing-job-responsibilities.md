@@ -13,13 +13,13 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 673c7a118c5f589319bd967bfaea3bedef84f9ff
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Hvernig skal: Setja upp starfsábyrgðir fyrir tengilið
+# <a name="set-up-job-responsibilities-for-contact-persons"></a>Setja upp starfsábyrgðir fyrir tengilið.
 Þú getur bætt við upplýsingum um starfsábygð tengiliðar til að gefa til kynna hvað tengiliðurinn er ábyrgur fyrir innan síns fyrirtækistil dæmis upplýsingatækni, stjórnun eða framleiðsla. Þessar upplýsingar er hægt að nota þegar færðar eru inn upplýsingar um tengiliði.
 
 Notkun starfsábyrgðir á tengiliði er tveggja þrepa ferli. Fyrst skilgreinirðu starfsábyrgðarkóða. Aðeins þarf að framkvæma þetta skref í eitt skipti fyrir hver starfsábyrgð. Þegar kominn er starfsábyrgðarkóði er hægt að byrja að úthluta kóðanum til tengiliða.
@@ -41,7 +41,7 @@ Skrefin eru endurtekin til að úthluta eins mörgum starfsábyrgðum og óskað
 
 Fjöldi vinnuverkefna sem þú hefur úthlutað tengiliðnum birtist á **Fjöldi starfsábyrgða** í hlutanum **Hlutunarviðmið** á glugganum **Tengiliður**.
 
-Eftir að tengiliðum hefur verið úthlutað starfsábyrgðum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Sjá frekari upplýsingar hér [Hvernig á að bæta tengiliðum við hluta:](marketing-add-contact-segment.md)
+Eftir að tengiliðum hefur verið úthlutað starfsábyrgðum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Frekari upplýsingar eru í [Bæta tengiliðum við hluta](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Einstaklingstengiliðir stofnaðir](marketing-create-contact-persons.md)  

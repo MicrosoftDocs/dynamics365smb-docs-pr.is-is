@@ -1,6 +1,6 @@
 ---
 title: Stofna hluta| Microsoft Docs
-description: "Lýsir því hvernig skal stofna hluta fyrir hóp tengiliða í Dynamics 365 Business edition, t.d. til að ná í nokkra tengiliði með beinum tölvupóstsendingum."
+description: "Lýsir því hvernig skal stofna hluta fyrir hóp tengiliða í Finance and Operations, Business Edition t.d. til að ná í nokkra tengiliði með beinum tölvupóstsendingum."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: dc915aaf2bb273417d87f6ea8bf1b1f5eb142ff3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4e76980237c79919b0e90ae75115c1571a6cdb85
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-segments"></a>Hvernig á að stofna hluta
+# <a name="create-segments"></a>Stofna hluta
 Hægt er að stofna hluta til að velja saman flokk tengiliða til dæmis ef stofna á samskipti sem varða marga tengiliði eins og póstsendingar.
 
 ## <a name="to-create-a-segment"></a>Hlutar stofnaðir:
@@ -30,7 +30,7 @@ Hægt er að stofna hluta til að velja saman flokk tengiliða til dæmis ef sto
     Hafi númeraröð verið sett upp fyrir hluta í glugganum **uppsetning markaðssetningar** er hægt að ýta á Færslulykilinn til að velja næsta tiltæka hlutanúmer.
 4. Aðrir reitir á hausnum eru fylltir út.
 
-Nú er hægt að bæta tenglum við hlutann. Sjá frekari upplýsingar hér [Hvernig á að bæta tengiliðum við hluta:](marketing-add-contact-segment.md)
+Nú er hægt að bæta tenglum við hlutann. Frekari upplýsingar eru í [Bæta tengiliðum við hluta](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Umsjón hluta](marketing-segments.md)  

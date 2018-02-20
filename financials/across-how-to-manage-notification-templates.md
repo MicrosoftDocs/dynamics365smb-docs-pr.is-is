@@ -1,6 +1,6 @@
 ---
 title: "Hvernig á að: Vinna með tilkynningasniðmát | Microsoft Docs"
-description: "Tilkynningar eru sendar til verkflæðisnotenda til að tilkynna þeim um skref sem þeir verað að taka eða upplýsa þá um stöðu verkflæðisskrefa. Notandi setur upp hverjir fá tilkynningar og hvenær með þvíað setja upp samþykktarnotendur, tilkynningaáætlun notenda og umrædd verkflæðisviðbrögð til að skilgreina móttakanda tilkynningar. Nánari upplýsingar er að finna í Uppsetning [Uppsetning Verkflæði Tilkynningar](across-setting-up-workflow-notifications.md)."
+description: "Tilkynningar eru sendar til verkflæðisnotenda til að tilkynna þeim um skref sem þeir verað að taka eða upplýsa þá um stöðu verkflæðisskrefa. Notandi setur upp hverjir fá tilkynningar og hvenær með þvíað setja upp samþykktarnotendur, tilkynningaáætlun notenda og umrædd verkflæðisviðbrögð til að skilgreina móttakanda tilkynningar. Nánari upplýsingar er að finna í [Uppsetning Verkflæði Tilkynningar](across-setting-up-workflow-notifications.md)."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9163bdb48a10d9b36b670e4bc67c696fbade6b37
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67db510085c5a858c88565087683ffeeb4f77bd1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-notification-templates"></a>Hvernig á að: Vinna með tilkynningasniðmát
+# <a name="manage-notification-templates"></a>Vinna með tilkynningasniðmát
 Tilkynningar eru sendar til verkflæðisnotenda til að tilkynna þeim um skref sem þeir verað að taka eða upplýsa þá um stöðu verkflæðisskrefa. Notandi setur upp hverjir fá tilkynningar og hvenær með þvíað setja upp samþykktarnotendur, tilkynningaáætlun notenda og umrædd verkflæðisviðbrögð til að skilgreina móttakanda tilkynningar. Nánari upplýsingar er að finna í [Uppsetning Verkflæði Tilkynningar](across-setting-up-workflow-notifications.md).  
 
  Tilkynningar byggjast á sniðmátum sem skilgreina efni og útlit tilkynningarinnar. Hægt er að flytja út efni úr tilkynningasniðmáti, breyta því og síðan flytja það inn í sama eða nýtt tilkynningasniðmát. Þessu er lýst í eftirfarandi ferli.  
@@ -76,10 +76,10 @@ Færibreytugildi eru sjálfkrafa settar inn í tilkynningar í samræmi við til
 
 ## <a name="see-also"></a>Sjá einnig  
  [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)   
- [Hvernig á að: Setja upp tölvupóst](madeira-how-setup-email.md)   
- [Hvernig á að: Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)   
- [Hvernig á að: Setja upp notendur sem samþykkjendur](across-how-to-set-up-approval-users.md)   
- [Hvernig á að: Búa til verkflæði](across-how-to-create-workflows.md)   
+ [Setja upp tölvupóst](madeira-how-setup-email.md)   
+ [Setja upp notendur verkflæðis](across-how-to-set-up-workflow-users.md)   
+ [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)   
+ [Búa til verkflæði](across-how-to-create-workflows.md)   
  [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)   
  [Verkflæði](across-workflow.md)   
 

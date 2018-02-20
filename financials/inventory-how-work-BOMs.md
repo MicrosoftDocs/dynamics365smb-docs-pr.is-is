@@ -11,13 +11,13 @@ ms.workload: na
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: caf3637dac270a3d20283e6c0776634ee1f5613e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da306187ff3007834e34b727c2c8f4e00dd8829b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-bills-of-material"></a>Hvernig á að: Vinna með uppskriftir
+# <a name="work-with-bills-of-material"></a>Vinna með uppskriftir
 Nota skal uppskriftir til að byggja upp yfirvöru sem verður að vera sett saman eða framleidd af tilföngum eða vélstöðvum úr íhlutum. Samsetningaruppskrift getur líka verið notuð til að selja yfirvöru sem sett, gert úr íhlutum hennar.
 
 ## <a name="assembly-boms-or-production-boms"></a>Samsetningaruppskriftir eða framleiðsluuppskriftir
@@ -29,9 +29,9 @@ Samsetningaruppskrift er aðalgögn sem skilgreina hvaða íhlutavörur fara í 
 
 Framleiðslupantanir er notaðar til að búa til lokavörur úr íhlutum í flóknu ferli sem krefst framleiðsluleiða og vinnu- eða vélastöðva, sem endurspegla framleiðslugetu. Til dæmis getur verið að framleiðsluferli falið í sér að skera stálplötur í einni aðgerð, sjóða þær í þeirri næsta aðgerð og mála endanlegur vöruna í síðustu aðgerðinni. Frekari upplýsingar eru í [Framleiða](production-manage-manufacturing.md).  
 
-Framleiðsluuppskrift er aðalgögn sem skilgreinir framleiðsluvöru og íhlutina sem notaðir eru í hana. fyrir samsetningarvöru verður framleiðsluuppskrift að vera vottuð og henni úthlutað til framleiðsluvörunnar áður en hægt er að nota hana í framleiðslupöntun. Þegar framleiðsluvaran er færð inn í framleiðslupöntunarlínu, annað hvort handvirkt eða með því að endurnýjun pöntunina, verður framleiðsluuppskriftin framleiðslupöntunaríhlutirnir. Frekari upplýsingar, sjá [Hvernig skal: Stofna framleiðsluuppskriftir](production-how-to-create-production-boms.md).  
+Framleiðsluuppskrift er aðalgögn sem skilgreinir framleiðsluvöru og íhlutina sem notaðir eru í hana. fyrir samsetningarvöru verður framleiðsluuppskrift að vera vottuð og henni úthlutað til framleiðsluvörunnar áður en hægt er að nota hana í framleiðslupöntun. Þegar framleiðsluvaran er færð inn í framleiðslupöntunarlínu, annað hvort handvirkt eða með því að endurnýjun pöntunina, verður framleiðsluuppskriftin framleiðslupöntunaríhlutirnir. Frekari upplýsingar eru í [Stofna framleiðsluuppskriftir](production-how-to-create-production-boms.md).  
 
-Hugtakið forði í framleiðslu er mun flóknara en í samsetningarstjórnun. Vinnustöðvar og vélastöðvar virka sem forði og framleiðsluskref eru sýnd með aðgerðum sem skráðar eru á forða í framleiðslu í framleiðsluleiðum. Frekari upplýsingar, sjá [Hvernig skal: Stofna leiðir](production-how-to-create-routings.md).
+Hugtakið forði í framleiðslu er mun flóknara en í samsetningarstjórnun. Vinnustöðvar og vélastöðvar virka sem forði og framleiðsluskref eru sýnd með aðgerðum sem skráðar eru á forða í framleiðslu í framleiðsluleiðum. Nánari upplýsingar eru í [Stofna leiðir](production-how-to-create-routings.md).
 
 Hægt er að tengja bæði samsetningarpantanir og framleiðslupantanir beint við sölupantanir. Hins vegar er aðeins hægt að nota samsetningarpantanir til að sérsníða endanlegu vöruna beint samkvæmt beiðni viðskiptamanns með sölupöntun.
 
@@ -42,13 +42,13 @@ Samsetningaruppskriftir innihalda yfirleitt vörur en geta einnig innihaldið ei
 
 Samsetningaruppskriftir geta haft mörg stig, sem þýðir að íhlutur í samsetningaruppskrift getur verið samsetningarvara sömuleiðis. Í því tilviki inniheldur **samsetningaruppskrift** reiturinn á samsetningaruppskriftinni **Já**.
 
-Sérstakar kröfur eiga við um hluti í samsetningaruppskrift að því er varðar framboð. Nánari upplýsingar er að finna í "Til að sjá framboð vöru með notkun þess í samsetningaruppskrift“ hlutann í [Hvernig á að: Fá yfirlit yfir framboð](inventory-how-availability-overview.md).
+Sérstakar kröfur eiga við um hluti í samsetningaruppskrift að því er varðar framboð. Nánari upplýsingar er að finna í „Til að sjá framboð vöru með notkun þess í samsetningaruppskrift“ hlutann í [Fá yfirlit yfir framboð](inventory-how-availability-overview.md).
 
 Að búa til samsetningaruppskrift er gert í tveimur hltuum:
 - Uppsetning nýrra vöru
 - Skilgreining á gerð uppskriftar samsetningaríhlutar.
 
-1. Setja upp nýtt atriði. Nánari upplýsingar eru í [Hvernig á að: Skrá nýjar vörur](inventory-how-register-new-items.md).
+1. Setja upp nýtt atriði. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
     Haltu áfram að slá inn íhluti eða tilföng á samsetningaruppskrift.  
 2. Í glugganum **Birgðaspjald** fyrir samsetningaríhluti, veldu **Samsetning** og svo **Samsetningaruppskrift**.
@@ -80,7 +80,7 @@ Allir reitir í sölureikningslínunni fyrir samsetningaríhlutinn eru hreinsað
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Reikna staðalkostnað samsetningaríhluta
 Kostnaðarverð tiltektarvöru er reiknað með því að taka saman kostnaðarverð hvers íhlutar og forða í samsetningaruppskrift vörunnar.
 
-Einnig er hægt að reikna og uppfæra staðlaðan kostnað fyrir einn eða fleiri vörur í **Staðlaður kostnaður vinnublað** glugganum. Frekari upplýsingar, sjá [Hvernig á að: uppfæra staðlað kostnaðarverð](finance-how-to-update-standard-costs.md).  
+Einnig er hægt að reikna og uppfæra staðlaðan kostnað fyrir einn eða fleiri vörur í **Staðlaður kostnaður vinnublað** glugganum. Frekari upplýsingar eru í [Uppfæra staðlað kostnaðarverð](finance-how-to-update-standard-costs.md).  
 
 Einingaverð samsetningaruppskriftar er alltaf jafnt heildareiningakostnaði íhluta hennar, þar með talið aðrar samsetningaruppskriftir og tilföng.
 
@@ -100,8 +100,8 @@ Einingaverð samsetningaruppskriftar er alltaf jafnt heildareiningakostnaði íh
 Kostnaðarverð þeirra vara sem mynda samsetningaruppskriftina er afritað úr birgðaspjöldum íhlutarins. Kostnaðurinn við hverja vöru er margfaldaður með magninu og heildarkostnaðurinn sést í reitnum **Kostnaðarverð** á birgðarspjaldinu.
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að Skrá nýjar vörur](inventory-how-register-new-items.md)  
-[Hvernig skal: Skoða tiltækileika vöru](inventory-how-availability-overview.md)     
+[Skrá nýjar vörur](inventory-how-register-new-items.md)  
+[Skoða tiltækileika vöru](inventory-how-availability-overview.md)     
 [Birgðir](inventory-manage-inventory.md)  
-[Unnið með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,18 +13,18 @@ ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8a31e312fc12d75d4eb75a191b2b82bf9a6ff3c5
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2d617fa06ea18d6e74f473600020f14d8f286d98
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-standard-service-codes"></a>Hvernig á að setja upp staðlaða þjónustukóta
+# <a name="set-up-standard-service-codes"></a>Setja upp staðlaða þjónustukóða
 Þegar dæmigerð þjónusta er framkvæmd er oft nauðsynlegt að stofna þjónustuskjöl sem nota þjónustulínur sem innihalda sams konar upplýsingar. Til að gera það auðvelt að stofna línur, geturðu sett upp staðlaða þjónustukóða sem hafa fyrirframskilgreint safn af þjónustulínum. Þegar þú velur kóðann fyrir þjónustuskjal, eru línurnar settar inn sjálfvirkt. Þú getur sett upp ótakmarkaðan fjölda af stöðluðum þjónustukóðum, hver þjónustukóti getur haft ótakmarkaðan fjölda af þjónustulínum af mismunandi tegundum, þar á meðal vöru, forða, kostnað eða staðlaða textann tengda við þá. Þú stofnar þjónustulínur af hverjum stöðluðum þjónustukóða á spjaldinu **Staðlaður þjónustukóði**. Hægt er að úthluta stöðluðum þjónustukóðum til þjónustuvöruflokka á síðunni **Staðlaðir þjónustuvöruflokkakóðar**. Seinna, þegar þjónustuskjal er búið til, er hægt að keyra virknina **Sækja staðlaða þjónustukóta** til þess að láta færa inn þjónustulínur.  
   
 > [!Tip]
->  Þú getur notað sama hugmyndagrunn til að stofna línur fyrir sölu og innkaupaskjöl. Nánari upplýsingar er að finna í [Hvernig á að: Stofna ítrekaðar sölu og innkaupalínur](sales-how-work-standard-lines.md)    
+>  Þú getur notað sama hugmyndagrunn til að stofna línur fyrir sölu og innkaupaskjöl. Nánari upplýsingar er að finna í [Stofna ítrekaðar sölu og innkaupalínur](sales-how-work-standard-lines.md).    
   
 ## <a name="to-set-up-a-standard-service-code"></a>Uppsetning staðlaðra þjónustukóta    
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **staðlaður þjónustukóði** og velja svo viðeigandi tengil.  

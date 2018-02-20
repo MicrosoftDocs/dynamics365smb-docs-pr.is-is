@@ -1,6 +1,6 @@
 ---
 title: "Notkun á QuickBooks Flutningsviðbót | Microsoft Docs"
-description: "Lýsir því hvernig skal nota viðbæturnar til að flytja inn viðskiptamenn, lánardrottna, vörur og reikninga frá QuickBooks Desktop til Dynamics 365 for Financials."
+description: "Lýsir því hvernig skal nota viðbæturnar til að flytja inn viðskiptamenn, lánardrottna, vörur og reikninga frá QuickBooks Desktop til Finance and Operations, Business Edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: fdda803b7cc2f93ae4d7353be28282dc60d904d8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 14e0aea700bbb46a612d8e462ace22b10faac7e2
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-quickbooks-data-migration-extension-for-dynamics-365-business-edition"></a>QuickBooks gagnaflutningsviðbót fyrir Dynamics 365 Business edition
+# <a name="the-quickbooks-data-migration-extension-for-finance-and-operations-business-edition"></a>QuickBooks gagnaflutningsviðbót fyrir Finance and Operations, Business Edition
 Þessi viðbót auðveldar flutning viðskiptamanna, lánardrottna og vara úr QuickBooks í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef fyrirtækið notar QuickBooks er hægt að flytja út viðeigandi upplýsingar og opna síðan leiðarvísi fyrir uppsetningu með hjálp til að hlaða gögnunum upp í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 Nánari upplýsingar eru í [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](upload-data.md).
 

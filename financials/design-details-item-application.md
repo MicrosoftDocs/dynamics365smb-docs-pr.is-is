@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-application"></a>Hönnunarupplýsingar: umsókn vöru
@@ -56,7 +56,7 @@ Vörufærsla skrári eftirfarandi upplýsinagr.
 
 |Svæði|Description|  
 |---------------------------------|---------------------------------------|  
-|**Birgðafærsla nr.**|Númer birgðafærslunnar fyrir þá hreyfingu sem þessi jöfnunarfærsla er stofnuð fyrir.|  
+|**Birgðafærslunr.**|Númer birgðafærslunnar fyrir þá hreyfingu sem þessi jöfnunarfærsla er stofnuð fyrir.|  
 |**Jafnað við færslu nr.**|Birgðafærslunúmer birgðaaukningarinnar sem færslan á að vera tengd við, ef það á við.|  
 |**Jafnað af færslu nr.**|Birgðafærslunúmer birgðaminnkunarinnar sem færslan á að vera tengd við, ef það á við.|  
 |**Magn**|Það magn sem verið er að jafna.|  
@@ -70,7 +70,7 @@ Eftirfarandi tafla sýnir vörujöfnunarfærslu sem var búin til innkaupakvittu
 
 |Bókunardagsetning|Jafnað við færslu nr.|Jafnað af færslu nr.|Magn|Birgðafærsla nr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
+|01-01-20|1|0|10|1|  
 
 ## <a name="inventory-decrease"></a>Birgðaminnkun  
 Þegar birgðaminnkun er bókuð er vörujöfnunarfærsla stofnuð til að tengja birgðaminnkunina við birgðaaukningu. Þessi tengill er búinn til með því að nota aðferð kostnaðarútreiknings til leiðsagnar. Fyrir vörur sem nota kostnaðarútreikninginn FIFO (fyrst inn - fyrst út), Staðlað og Meðaltal er tengingin byggð á fyrst inn, fyrst út reglunni. Birgðaminnkuninni er jafnað á birgðaaukninguna miðað við síðustu bókunardagsetningu. Fyrir vörur sem nota kostnaðarútreikninginn LIFO (síðast inn - fyrst út) er tengingin byggð á síðast inn - fyrst út reglunni. Birgðaminnkuninni er jafnað á birgðaaukninguna miðað við síðustu bókunardagsetningu.  
@@ -84,8 +84,8 @@ Eftirfarandi tafla sýnir tvær vörujöfnunarfærslur sem koma til bæði vegna
 
 |Bókunardagsetning|Jafnað við færslu nr.|Jafnað af færslu nr.|Magn|Birgðafærsla nr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
-|01-03-20|0|2|-5|2|  
+|01-01-20|1|0|10|1|  
+|01-03-20|1|2|-5|2|  
 
 ## <a name="fixed-application"></a>Fastar jafnanir  
 Föst jöfnun er gerð þegar tekið er fram að kostnaður birgðaaukningar ætti að eiga við um tiltekna birgðaminnkun eða öfugt. Fast jöfnunin hefur áhrif á eftirstöðvamagn færslnanna en fasta jöfnunin hefur líka þau áhrif að snúa nákvæmlega við kostnaði upprunalegu færslunnar sem verið er að jafna við (eða frá).  
@@ -103,7 +103,7 @@ Eftirfarandi tafla sýnir birgðahöfuðbókarfærslur vegna atburðarásarinnar
 
 |**Bókunardags.**|**Tegund birgðafærslu**|**Magn**|**Kostnaðarupphæð (raunverul.)**|**Birgðafærslunr.**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
-|01-04-20|Innkaup|10|10.00|0|  
+|01-04-20|Innkaup|10|10.00|1|  
 |01-05-20|Innkaup|10|20.00|2|  
 |01-06-20|Innkaup (skil)|-10|-20,00|3|  
 
@@ -113,7 +113,7 @@ Eftirfarandi tafla sýnir vörujöfnunarfærslu vegna fastrar jöfnunar.
 
 |Bókunardagsetning|Jafnað við færslu nr.|Jafnað af færslu nr.|Magn|Birgðafærsla nr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|0|3|10|3|  
+|01-06-20|1|3|10|3|  
 
 Kostnaður annarra innkaup, SGM 20,00 er sendur rétt í innkaupaskilin.  
 
@@ -130,8 +130,8 @@ Eftirfarandi tafla sýnir áhrif atburðarásarinnar í virðisfærslum vörunna
 
 |Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna birgðafærslu|Virt skv. meðalinnkaupsverði|Birgðafærsla nr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Innkaup|0|200.00||Nr|0|0|  
-|01-01-20|Innkaup|0|1000.00||Nei|2|2|  
+|01-01-20|Innkaup|1|200.00||Nr|1|1|  
+|01-01-20|Innkaup|1|1000.00||Nei|2|2|  
 |01-01-20|Innkaup|-1|-1000|2|Nei|3|3|  
 |01-01-20|Innkaup|1|100,00||Nei|4|4|  
 |01-01-20|Sala|-2|-300,00||Já|5|5|  
@@ -142,8 +142,8 @@ Eftirfarandi tafla sýnir áhrif í virðisfærslum vörunnar ef skref 2 í fyrr
 
 |Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna birgðafærslu|Virt skv. meðalinnkaupsverði|Birgðafærsla nr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Innkaup|0|200.00||Nr|0|0|  
-|01-01-20|Innkaup|0|1000.00||Nei|2|2|  
+|01-01-20|Innkaup|1|200.00||Nr|1|1|  
+|01-01-20|Innkaup|1|1000.00||Nei|2|2|  
 |01-01-20|Innkaup|-1|433,33||Já|3|3|  
 |01-01-20|Innkaup|1|100,00||Nei|4|4|  
 |01-01-20|Sala|-2|866,67||Já|5|5|  
@@ -169,7 +169,7 @@ Eftirfarandi tafla sýnir áhrif atburðarásaskrefa 1 til 3 í virðisfærslum 
 
 |Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærsla nr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Innkaup|0|1000.00||0|0|  
+|01-01-20|Innkaup|1|1000.00||1|1|  
 |02-01-20|Sala|-1|1000.00||2|2|  
 |03-01-20|Sala (kreditreikningur)|1|1000|2|3|3|  
 
@@ -177,16 +177,16 @@ Eftirfarandi tafla sýnir virðisfærsluna sem kemur til vegna atburðarásarskr
 
 |Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærsla nr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|04-01-20|(Kostnaðarauki)|0|100.00||0|4|  
+|04-01-20|(Kostnaðarauki)|1|100.00||1|4|  
 
 Eftirfarandi tafla sýnir áhrif nákvæmrar kostnaðarbakfærslu í virðisfærslum vörunnar.  
 
 |Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærsla nr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Innkaup|0|1000.00||0|0|  
+|01-01-20|Innkaup|1|1000.00||1|1|  
 |02-01-20|Sala|-1|1100.00||2|2|  
 |03-01-20|Sala (kreditreikningur)|1|1100.00|2|3|3|  
-|04-01-20|(Kostnaðarauki)|0|100.00||0|4|  
+|04-01-20|(Kostnaðarauki)|1|100.00||1|4|  
 
 Þegar runuvinnslan **Kostnaðarleiðrétting - Birgðafærslur** er keyrð er aukinn kostnaður við innkaupafærsluna vegna kostnaðarauka áframsendur á sölufærsluna færslu nr. 2. Sölufærslan framsendir svo þennan aukna kostnað á sölukreditfærslu (færsla númer 3). Endanleg niðurstaða er sú að kostnaður er rétt bakfærður.  
 
@@ -210,8 +210,8 @@ Eftirfarandi tafla sýnir áhrif millifærslu í virðisfærslum vörunnar.
 
 |Bókunardagsetning|Tegund birgðafærslu|Staðsetningarkóði|Virt magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Innkaup|BLÁTT|0|10.00|0|  
-|01-01-20|Innkaup|BLÁTT|0|20.00|2|  
+|01-01-20|Innkaup|BLÁTT|1|10.00|1|  
+|01-01-20|Innkaup|BLÁTT|1|20.00|2|  
 |02-01-20|Millifærsla|BLÁTT|-1|15,00|3|  
 |02-01-20|Millifærsla|RAUTT|1|15,00|4|  
 
@@ -225,7 +225,7 @@ Eftirfarandi tafla sýnir áhrif millifærslu í virðisfærslum vörunnar.
 
 |Bókunardagsetning|Tegund birgðafærslu|Staðsetningarkóði|Virt magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Innkaup|BLÁTT|0|10.00|0|  
+|01-01-20|Innkaup|BLÁTT|1|10.00|1|  
 |02-01-20|Millifærsla|BLÁTT|-1|10,00|2|  
 |02-01-20|Millifærsla|RAUTT|1|10,00|3|  
 

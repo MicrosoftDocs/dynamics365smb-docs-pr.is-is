@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 147163d0b75853914e5b4bd3417c3525d29caefc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9b839b26814f730febc384ae1bca432a7c26852f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-replan-or-refresh-production-orders-directly"></a>Hvernig skal: enduráætla eða uppfæra framleiðslupantanir beint
+# <a name="replan-or-refresh-production-orders-directly"></a>Enduráætla eða uppfæra framleiðslupantanir beint
 Aðgerðin **Enduráætla** er venjulega notuð eftir íhlutum, sem standa fyrir undirliggjandi framleiðslupantanir, hefur verið bætt við eða þeim breytt. Þessi áætlunaraðgerð reiknar breytingar sem gerðar eru á íhlutum og leiðarlínum. Hún tekur með vörur í neðri framleiðsluuppskriftum og kann að stofna nýjar framleiðslupantanir fyrir þær.  
 
 Aðgerðin Enduráætla byggir útreikninga og áætlun á nýrri eftirspurn fyrir framleiðslupöntun á breytingum sem gerðar hafa verið á íhlutum og leiðarlínum.  
@@ -68,7 +68,7 @@ Hægt er að setja framleiðslulínur inn handvirkt eða nota aðgerðina sem re
 Ef framleiðslupöntunarlínunum, íhlutum eða leiðarlínum hefur verið breytt þarf einnig að uppfæra upplýsingar um framleiðslupöntun. Eftirfarandi aðferð sýnir hvernig íhlutirnir eru reiknaðir fyrir fastáætlaða framleiðslupöntun. Skrefin eru svipuð fyrir Leiðarlínur.
 
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Fastáætluð framleiðslupöntun** og velja svo viðeigandi tengil.  
-2.  Valið er **Nýtt** aðgerð. Frekari upplýsingar, sjá [Hvernig skal: Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
+2.  Valið er **Nýtt** aðgerð. Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
 3.  Velja aðgerðina **Uppfæra**.
 4. Í glugganum **Uppfæra framleiðslupöntun** velurðu einn af eftirfarandi kostum:
 

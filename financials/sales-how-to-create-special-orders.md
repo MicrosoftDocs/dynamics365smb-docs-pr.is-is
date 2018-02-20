@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c7e5d7cda12abd94a999031af3bc8d505b7f6c5e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2ebd7ed1c2ae9426b481edabbb8e4957073a5d21
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-special-orders"></a>Hvernig á að stofna sérpöntun
+# <a name="create-special-orders"></a>Sérstakar pantanir stofnaðar
 Hægt er að stofna sérpöntun um að vara sem ekki er tiltæk sé send tilteknum viðskiptamanni. Birgir sendir vöruna í vöruhús og þá má senda hana áfram til viðskiptamanns, annaðhvort sérstaklega eða með annarri pöntun.  
 
 Sérpantanir gefa til kynna að innkaupa- og sölupöntun séu tengdar til að tryggja að sértæk vara utan birgða sé tínd og afhent viðskiptamanni.  
@@ -26,7 +26,7 @@ Sérpantanir gefa til kynna að innkaupa- og sölupöntun séu tengdar til að t
 
 ## <a name="to-create-a-special-order"></a>Stofnuð sérpöntun:  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölupöntun** og velja svo viðeigandi tengil.  
-2. Valið er **Nýtt** aðgerð. Búin er til ný  sölupöntun fyrir vöruna. Nánari upplýsingar eru í [Hvernig á að: selja vörur.](sales-how-sell-products.md)
+2. Valið er **Nýtt** aðgerð. Búin er til ný  sölupöntun fyrir vöruna. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
 3.  Á flýtiflipanum **Línur** er fyllt út í sölulínuna. Í reitnum **Innkaupakóti** veljið innkaupakóta sem er með reitinn **Sérpöntun** valinn.
 
     Nú þarf að stofna innkaupapöntun út frá innkaupatillögu.  
@@ -44,9 +44,9 @@ Tekið er tillit til stofnaðrar innkaupapöntunar fyrir sérpöntun af kerfinu 
 >  Ekki er hægt að nota sérpöntunarkostinn ef varan er þegar frátekin. Þess vegna, fyrir vörur sem eru seldar með sérpöntunum, gakktu úr skugga um að **Frátekning** reiturinn á birgðaspjaldinu sé ekki stilltur á **Alltaf**.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: Vinna með Utanbirgðavörur](inventory-how-work-nonstock-items.md)  
+[Vinna með utanbirgðavörur](inventory-how-work-nonstock-items.md)  
 [Sala](sales-manage-sales.md)  
-[Hvernig á að: Gera beinar afhendingar](sales-how-drop-shipment.md)   
+[Beinar sendingar](sales-how-drop-shipment.md)   
 [Hönnunarupplýsingar: Endurpöntunarstefnur](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

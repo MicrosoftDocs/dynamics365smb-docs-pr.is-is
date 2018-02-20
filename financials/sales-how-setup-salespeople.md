@@ -11,13 +11,13 @@ ms.search.keywords: sales rep
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c43577eaeac85631da3b86af82b76d97fb612cd2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 528d1735a8b725cf245ec4e1611c8140f413b49a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-salespeople"></a>Hvernig á að: Setja upp sölumenn
+# <a name="set-up-salespeople"></a>Setja upp sölumenn
 Í mörgum fyrirtækjum þarf jafnan að fylgjast með starfi einstaklinga (t.d. sölumanna) svo hægt sé að nota upplýsingar sem þeim tengjast við að reikna sölulaun eða bónus, svo að dæmi sé tekið. Skoða, til dæmis skýrsluna um **sölulaun sölumanns**. Fyrirtæki gæti einnig viljað úthluta tengiliðum á viðeigandi sölumann.
 
 Þegar þú hefur sett upp sölumenn í **Sölumenn** glugga er hægt að velja hann í á **sölumannskóði** reit í öllum viðeigandi færslum, svo sem Fjárhagsreikningur, viðskiptamanna-, lánardrottins, tengiliðir, og söluherferðarspjöld. Síðan þegar þú bókar eða setur upp reikninga, kreditreikninga, bókarlínum, vaxtaaðgerða o.s.frv. er sölumannskóðinn færður í fjárhagsfærslur sem úr þessu öllu koma.
@@ -26,7 +26,7 @@ ms.lasthandoff: 09/22/2017
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **sölufólk** og velja svo viðeigandi tengil.
 2. Í glugganum **sölumenn** skal velja aðgerðina **Nýtt**.
 
-Hægt er að nota sölumenn í mismunandi tengslastjórnun og markaðsvinnu. Þú getur til dæmis úthlutað verki til sölufólks, þannig að verkið sé hluti af sölutækifæri sem sölumanninum hefur verið úthlutað. Nánari upplýsingar, sjá [Hvernig á að: Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Hægt er að nota sölumenn í mismunandi tengslastjórnun og markaðsvinnu. Þú getur til dæmis úthlutað verki til sölufólks, þannig að verkið sé hluti af sölutækifæri sem sölumanninum hefur verið úthlutað. Nánari upplýsingar, sjá [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning sölu](sales-setup-sales.md)  

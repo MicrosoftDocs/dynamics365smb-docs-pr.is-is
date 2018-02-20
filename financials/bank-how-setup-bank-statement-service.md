@@ -13,13 +13,13 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 5f4b675db86bc6fef19a587454e1e513fe6fa83d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fa5c0c39dbbce40b59d639f810522c66da1a09ab
 ms.contentlocale: is-is
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Hvernig á að: Setja upp Envestnet Yodlee bankastreymisþjónustu
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Setja upp Envestnet Yodlee bankastreymisþjónustu
 Hægt er að flytja inn rafræn bankayfirlit frá bankanum til að fylla fljótlega út gluggann **Greiðsluafstemmingarbók** þannig að hægt sé að jafna greiðslur og stemma af bankareikninginn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Envestnet Yodlee bankastreymisþjónusta er uppsett sem viðbót við [!INCLUDE[d365fin](includes/d365fin_md.md)] og tilbúin til að láta virkja sig. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).
@@ -63,7 +63,7 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
     Þegar vinnslunni er lokið, birtist bankaheitið í **Mínir reikningar** svæðinu á **Tengt** flipanum. Númerið í svigunum gefur til kynna hversu margir netbankareikningar voru tengdir.  
 7. Velja hnappinn **Í lagi**.
 
-    Ef aðeins er verið að tengja einn netbankareikning, mun **Bankareikningsspjald** glugginn opnast og birta heiti netbankareikningsins. Í þessu tilfelli er tenging bankareiknings lokið. Allt sem er eftir er að setja upp bankareikninginn. Frekari upplýsingar sjá [hvernig skal: setja upp bankareikninga](bank-how-setup-bank-accounts.md)
+    Ef aðeins er verið að tengja einn netbankareikning, mun **Bankareikningsspjald** glugginn opnast og birta heiti netbankareikningsins. Í þessu tilfelli er tenging bankareiknings lokið. Allt sem er eftir er að setja upp bankareikninginn. Nánari upplýsingar um það eru í [Setja upp bankareikninga](bank-how-setup-bank-accounts.md).
 
     Ef fleiri en einn netbankareikningur eru tengdir, mun **Tenglar fyrir bankareikning** glugginn opnast og sýna skrár yfir netbankareikninga sem eru enn ekki tengdir við bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Í því tilviki, fylgið næsta skrefi.  
 8. Í á **Stofnun tengla fyrir bankareikning** glugganum, velja línuna fyrir netbankareikning, og velja síðan **tengja í Nýr Bankareikningur** aðgerð.  

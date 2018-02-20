@@ -1,6 +1,6 @@
 ---
 title: "Hönnunarupplýsingar - Sléttun | Microsoft Docs"
-description: "Sléttunar leifar geta átt sér stað þegar þú metur kostnað af birgðaminnkun sem mælt er í öðru magni en samsvarandi birgðaaukning. Sléttunarleifar eru reiknaðar fyrir allar kostnaðarútreikninga þegar **Kostnaðarleiðrétting Birgðafærsla** runuvinnsla er keyrð."
+description: "Sléttunar leifar geta átt sér stað þegar þú metur kostnað af birgðaminnkun sem mælt er í öðru magni en samsvarandi birgðaaukning. Sléttunarleifar eru reiknaðar fyrir allar kostnaðarútreikninga þegar **Kostnaðarleiðrétting - Birgðafærsla** runuvinnsla er keyrð."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 39d4bdc430fc74452e7f089c38b28b3214304725
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-rounding"></a>Hönnunarupplýsingar: sléttun
@@ -59,7 +59,7 @@ Sléttunar leifar geta átt sér stað þegar þú metur kostnað af birgðaminn
 |02-01-20|-1|-3,33|2|2|  
 |03-01-20|-1|-3,33|3|3|  
 |04-01-20|-1|-3,33|4|4|  
-|01-01-20|0|-0,01|0|5|  
+|01-01-20|0|-0,01|1|5|  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   

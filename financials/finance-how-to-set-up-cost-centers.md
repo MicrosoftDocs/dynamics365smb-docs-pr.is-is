@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 433526fbd2a13f32e64be94cc1936151445c19f5
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 38b6ce01e48f1b32c28b1883875a566d19f02ea3
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cost-centers"></a>Hvernig á að setja upp Kostnaðarstaði
+# <a name="set-up-cost-centers"></a>Uppsetning kostnaðarstaða
 Kostnaðarstaðir eru deildir og framlegðarstöðvar sem bera ábyrgð á kostnaði og tekjum. Myndrit kostnaðarstaða er svipað og víddarupplýsingar fyrir fjárhag. Hægt er að setja upp myndritið yfir kostnaðarstaði á eftirfarandi hátt:  
 
 -   Flytja víddargildi í fjárhag í myndrit yfir í kostnaðarstaði. Hægt er að gera allar nauðsynlegar leiðréttingar eftir flutninginn.  

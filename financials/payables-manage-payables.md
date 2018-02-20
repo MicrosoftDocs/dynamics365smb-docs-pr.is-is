@@ -13,10 +13,10 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 2939c4bf99b0fec05fd3625af589f05710a05a3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 04416ae3b9433ccc3bf1295f006df0f4c72f27b5
 ms.contentlocale: is-is
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-payables"></a>Stjórna skuldum
@@ -32,13 +32,16 @@ Einnig er hægt að jafna greiðslur á útleið handvirkt í glugganum **greið
 | --- | --- |
 | Mynda lánardrottnagreiðslur komnar á gjalddaga eða endurgreiðslur til starfsmanna, undirbúa ávísanagreiðslur og flytja út greiðslur á bankaskrá við bókun. |[Framkvæma greiðslur](payables-make-payments.md) |
 | Jafna greiðslur lánardrottna sjálfkrafa við ógreidda innkaupareikninga með því að flytja inn bankayfirlitsskrá. |[Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Jafna greiðslur lánardrottna handvirkt við ógreidda innkaupareikninga. |[Hvernig á að: Afstemma greiðslur á lánardrottna handvirkt](payables-how-apply-purchase-transactions-manually.md) |
-|Tryggðu rétt birgðamat með því að úthluta viðbótar vörukostnaði, eins og farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér.|[Hvernig skal: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)|
+| Jafna greiðslur lánardrottna handvirkt við ógreidda innkaupareikninga. |[Afstemma greiðslur lánardrottna handvirkt](payables-how-apply-purchase-transactions-manually.md) |
+|Tryggðu rétt birgðamat með því að úthluta viðbótar vörukostnaði, eins og farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér.|[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
-[Hvernig skal: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)  
+[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

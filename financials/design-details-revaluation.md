@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ba88be99ad8dfcecb78dfb1dd58be2d0645e85ba
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-revaluation"></a>Hönnunarupplýsingar: Endurmat
@@ -76,7 +76,7 @@ Virðisdagsetningin er stillt á dagsetningu bókunar fyrir notkun (02-01-20) se
 
 |Bókunardags.|Vara|Tegund færslu|Magn|Færslunr.|  
 |------------------|----------|----------------|--------------|---------------|  
-|02-15-20|KEÐJA|Frálag|0|3|  
+|02-15-20|KEÐJA|Frálag|1|3|  
 
 **3V**: Notandinn keyrir runuvinnsluna **Leiðrétta kostnað - Birgðafærslur**, sem bókar keðjuna sem reikningsfærða tila ð sýna að öll efnisnotkun hefur verið reikningsfærð að fullu. Fjárhagslega séð eru tenglarnir ekki lengur hluti af birgðum VÍV þegar frálagið er reikningsfært og jafnað að fullu. Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
 

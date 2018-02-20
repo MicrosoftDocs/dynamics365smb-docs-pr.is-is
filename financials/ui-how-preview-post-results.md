@@ -12,18 +12,18 @@ ms.workload: na
 ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 378be05a9b8f280252f0b8a3d461840790316b23
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ab5be6e74e9dd90b07a765692d1ff9192fe42688
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-preview-posting-results"></a>Hvernig: Forskoða BókunarNiðurstöður 
+# <a name="preview-posting-results"></a>Forskoða Bókunarniðurstöður
 Á hverju skjali og færslubók sem er hægt að bóka, geturðu valið **forskoða bókun** hnappinn til að Yfirfara ólíkar færslugerðir sem verða stofnaðar þegar fylgiskjal eða færslubók er bókuð.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>forskoða fjárhagsfærslurnar sem verða til úr bókun á innkaupareikningi
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.
-2. Stofna innkaupareikning. Nánari upplýsingar eru í [Hvernig á að: Skrá innkaup](purchasing-how-record-purchases.md).
+2. Stofna innkaupareikning. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 3. Velja **Forskoða bókun**
 4. Í reitnum **Forskoðun Bókunar** , valin **Fjárhagsfærsla**, og velja síðan **Sýna Tengdar Færslur**.  
    **Forskoðun fjárhagsfærslna** glugginn sýnir hvaða færslur verða stofnaðar þegar innkaupareikningur er bókaður.

@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 12/01/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 34642192e74992953b569cabeb5dbeb4112a0f44
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f6969d05cfde9ba7ce5767a961d4af1c7b3bd983
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-gl-budgets"></a>Hvernig á að: Stofna fjárhagsáætlanir
+# <a name="create-gl-budgets"></a>Stofna fjárhagsáætlunum
 Hægt er að útbúa margar áætlanir fyrir sömu tímabil með því að stofna áætlanir undir aðskildum heitum. Fyrst er heiti áætlunar sett upp og áætlunarupphæðir færðar inn. Þá er heiti áætlunarinnar haft með við allar áætlunarfærslur sem stofnaðar eru.  
 
  Þegar áætlun er stofnuð er hægt að skilgreina fjórar víddir fyrir hverja áætlun. Þessar áætlanatengdu víddir kallast áætlanavíddir. Hægt er að velja áætlanavíddir fyrir hverja áætlun úr víddunum sem þegar hafa verið settar upp. Hægt er að nota áætlanavíddir til að afmarka áætlanir og til að bæta víddaupplýsingum við áætlanafærslur. Frekari upplýsingar er að finna í [Unnið með víddir](finance-dimensions.md).
@@ -29,9 +29,6 @@ Hægt er að útbúa margar áætlanir fyrir sömu tímabil með því að stofn
  Fjárhagsáætlanir spila stórt hlutverk þegar kemur að viðskiptaupplýsingum, eins og í fjárhagsskýrslu sem byggir á fjárhagsskema sem innihalda fjárhagsáætlanafærslur eða þegar verið er að greina áætlaðar og raunverulegar upphæðir í bókhaldslyklunum. Frekari upplýsingar eru í [Viðskiptaupplýsingar](bi.md).
 
 Í kostnaðarbókhaldi vinnurðu með kostnaðaráætlun á svipaðan hátt. Frekari upplýsingar eru í [Stofna kostnaðaráætlun](finance-create-cost-budgets.md).    
-
- > [!NOTE]  
->   Þessi virkni krefst þess að upplifun þín sé stillt á **Suite**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
 
 ## <a name="to-create-a-new-gl-budget"></a>Að búa til nýja fjárhagsáætlun  
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsáætlanir** og velja svo viðeigandi tengil.  

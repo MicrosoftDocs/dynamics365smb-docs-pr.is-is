@@ -1,6 +1,6 @@
 ---
 title: "Gefa út, prenta, hætta við og ógilda ávísanir| Microsoft Docs"
-description: "Lýsir því hvernig skal gefa út ávísanir með því að nota greiðslubók, prenta ávísanir og ógilda eða skoða ávísanafjárhagsfærslur í Dynamics 365."
+description: "Lýsir því hvernig skal gefa út ávísanir með því að nota greiðslubók, prenta ávísanir og ógilda eða skoða ávísanafjárhagsfærslur í Finance and Operations, Business Edition."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,25 +13,25 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 85e5cd61571ec6e571a44e39f397bd370112dd5c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3f8bece0d0d1de9a6fd17b84df73d466ccdf403
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-checks"></a>Hvernig á að: vinna með tékka
+# <a name="work-with-checks"></a>Vinna með ávísanir
 Þú getur gefið út rafrænar og handvirkar ávísanir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Í báðum aðferðum er útgreiðslubók notuð til að gefa út tékka til lánardrottna. Einnig er hægt að ógilda tékka og skoða fjárhagsfærslur.
 
 Vinnslan sem gefur út tékka stingur upp á greiðslum, býr til fjárhagsfærslur og prentar vélfærðu  tékkana.
 
 > [!NOTE]  
->   Til að ganga úr skugga um að bankinn þinn eingöngu taki við fullgildum ávísunum og upphæðum, geturðu sent þeim skrá sem inniheldur seljanda, ávísun og greiðsluupplýsingar. Nánari upplýsingar er að finna í [Hvernig á að: flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md).
+>   Til að ganga úr skugga um að bankinn þinn eingöngu taki við fullgildum ávísunum og upphæðum, geturðu sent þeim skrá sem inniheldur seljanda, ávísun og greiðsluupplýsingar. Nánari upplýsingar er að finna í [Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md).
 
-Prentarinn verður að vera rétt stilltur með tékkaeyðublöðum, og þú verður að skilgreina hvaða útlit tékka á að nota. Nánari upplýsingar sjá [Hvernig á að: Skilgreina útlit tékka:](finance-how-define-check-layouts.md)
+Prentarinn verður að vera rétt stilltur með tékkaeyðublöðum, og þú verður að skilgreina hvaða útlit tékka á að nota. Nánari upplýsingar sjá [Skilgreina útlit ávísana](finance-how-define-check-layouts.md)
 
 ## <a name="to-issue-checks"></a>gefa út tékka
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greiðslubækur** og velja svo viðeigandi tengil.
-2. Fyllið út færslubók, t.d. með viðeigandi greiðslum, til dæmis með því að nota virknina Greiðslutillögur til lánardrottna. Nánari upplýsingar má sjá í [Hvernig á að: Leggja til greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).
+2. Fyllið út færslubók, t.d. með viðeigandi greiðslum, til dæmis með því að nota virknina Greiðslutillögur til lánardrottna. Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).
 3. Í reitnum **Tegund Bankagreiðslu** í færslubókarlínunum fyrir greiðslur sem þú vilt gera með tékkum, veldu einn af eftirfarandi valkostum.
 
    * **Vélfærður tékki**: veldu þennan valkost ef  á að prenta tékka með upphæðinni í færslubókarlínunni. Þú þarft að prenta tékkana áður en þú bókar færslubókarlínurnar. Þú getur eingöngu valið **Vélfærður tékki** ef **Tegund mótreiknings** eða **Tegund reiknings** er **Bankareikningur**.
@@ -63,6 +63,6 @@ Hægt er að ógilda tékka sem eftir á að bóka þegar þær hafa verið pren
 ## <a name="see-also"></a>Sjá einnig
 [Stjórna skuldum](payables-manage-payables.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
-[Hvernig á að: flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md)  
+[Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

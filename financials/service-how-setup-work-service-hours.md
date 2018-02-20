@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 043f1b9044e65e4aba52690f5f62cebcbd397f8d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 630875f80f4107522962c79734284569cbc2b6f7
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-hours-and-service-hours"></a>Hvernig skal: Setja upp vinnustundir og þjónustustundir
+# <a name="set-up-work-hours-and-service-hours"></a>Setja upp vinnustundir og þjónustustundir
 Þjónustukerfi rekur yfirleitt forðastundir og stöðu þjónustupantana til að spá fyrir um vinnuálag og þjónustuþarfir. [!INCLUDE[d365fin](includes/d365fin_md.md)] er með innbyggð verkfæri sem hægt er að sérstilla til að skrá þessa gerð upplýsinga.  
   
 Eftir að sjálfgefinn þjónustutími fyrirtækisins hefur verið stilltur er hægt að reikna út svartíma þjónustupantana eða senda út viðvaranir þegar þjónustusímtöl berast. Viðvörunareiginleikinn er notaður samhliða verktímasetningu.   

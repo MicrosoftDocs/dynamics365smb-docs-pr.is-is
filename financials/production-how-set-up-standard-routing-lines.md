@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 78170bd2bf64b110d5346855d5592837abf2b73e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac9813b06da171f2da0e179f3b7d360f4dcae3f5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-standard-routing-lines"></a>Hvernig skal: Setja upp staðlaðar leiðarlínur
+# <a name="set-up-standard-routing-lines"></a>Setja upp staðlaðar leiðarlínur
 Notkun staðalverka einfaldar gerð og viðhald leiða. Gera þér kleift að bæta aukaupplýsingum fljótt við ítrekuð ferli.
 
 ## <a name="to-set-up-a-standard-task"></a>Setja upp staðlaðan verkhluta
@@ -35,8 +35,8 @@ Notkun staðalverka einfaldar gerð og viðhald leiða. Gera þér kleift að b�
 3. Velja viðeigandi leiðarlínu, velja aðgerðina **Aðgerðir** og veljið síðan **Verkfæri**, **Starfsmaður**, **Lýsing** eða **Verkfæri** aðgerðina.
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að stofna Nýjar leiðir](production-how-to-create-routings.md)  
-[Hvernig á að stofna nýjar framl.uppskriftir](production-how-to-create-production-boms.md)     
+[Stofna leiðir](production-how-to-create-routings.md)  
+[Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)     
 [Uppsetning framleiðslu](production-configure-production-processes.md)   
 [Framleiðsla](production-manage-manufacturing.md)    
 [Áætlun](production-planning.md)   

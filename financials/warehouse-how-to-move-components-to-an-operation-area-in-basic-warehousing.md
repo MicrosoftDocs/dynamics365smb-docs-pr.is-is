@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 146e113931384e8bc9ba01d5ae7ddb626d18050f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 111d79755a3141bf4e562de3e99ffc2117d12d16
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Hvernig á að: færa íhluti á aðgerðasvæði í einfaldri grunngerð vöruhúsa
+# <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Færa íhluti á aðgerðasvæði í grunnskilgreiningu vöruhúss
 Ef vöruvinnsla fer fram í vöruhúsi gæti þurft að færa vörur á milli innri hólfa í samræmi við innri upprunaskjöl, svo sem framleiðslu-, samsetningar- eða þjónustupantanir úr birgðageymslu.  
 
 > [!NOTE]  
 >  Upplýsingar um hvernig færa á vörur á milli hólfa án upprunaskjala eru í Innri hreyfing.  
 
-Í ítarlegri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Beinn frágangur og tínsla**, er hægt að nota gluggann **Vinnublað hreyfingar** til að færa vörur milli hólfa. Nánari upplýsingar eru í [Hvernig á að færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Í ítarlegri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Beinn frágangur og tínsla**, er hægt að nota gluggann **Vinnublað hreyfingar** til að færa vörur milli hólfa. Nánari upplýsingar eru í [Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Í einfaldri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitina **Hólf áskilið** og **Krefjast tínslu** er hægt að skrá hreyfingar vara á svæði innri starfsemi samkvæmt innri upprunaskjölum á eftirfarandi hátt:  
 
@@ -44,7 +44,7 @@ Að öðru kostir getur starfsmaður í vöruhúsi stofnað hana með því að 
 > [!NOTE]  
 >  Ef hreyfing er til staðar fyrir samsetningarpöntun þegar vara er samsett úr sölupöntun er hægt að láta stofna birgðahreyfingaskjalið sjálfkrafa þegar birgðatínsluskjalið sem tekur við fullunnu samsetningarvörunni og bókar afhendingu er búið til. Til að setja þetta upp þarf að velja reitinn **Búa til hreyfingar sjálfvirkt** í **Uppsetning samsetningar** glugganum.  
 >   
->  Nánari upplýsingar m samsetningapantanir og grunnskilgreiningar vöruhúsa eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Hvernig skal: Taka til fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md).  
+>  Nánari upplýsingar m samsetningapantanir og grunnskilgreiningar vöruhúsa eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Taka til fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md).  
 
 Þessi verklýsing sýnir hvernig á að búa til birgðahreyfingu úr glugganum **Birgðahreyfing** með því að vísa í útgefna samsetningarpöntun sem upprunaskjal. Ferlið er það sama þegar íhlutir eru færðir fyrir framleiðslupantanir og þjónustupantanir.  
 

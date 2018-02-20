@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 38361c04f4ede35afd20e1fe84128fcdbfe104d0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c64734d9bb5cced1dbe9cb9c98385004885fa67
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-move-items-ad-hoc-in-basic-warehouse-configurations"></a>Hvernig á að: færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa
+# <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa
 Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekki móttöku- eða sendingarhólfa, á sérstakra krafna frá upprunaskjali. Þessar tilfallandi hreyfingar gætu verið gerðar, til dæmis til að endurskipuleggja vöruhúsið, til að færa vörur í skoðunarsvæði eða til að flytja aukavörur í og úr framleiðslusvæði án kerfistengsla við upprunaskjal framleiðslupöntunar.  
 
 Í einfaldri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Hólf áskilið** og hugsanlega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá**, er hægt að skrá tilfallandi hreyfingar án upprunaskjala á eftirfarandi hátt:  
@@ -56,10 +56,10 @@ Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekk
     > [!NOTE]  
     >  Þegar búið er að stofna birgðahreyfinguna er innri hreyfingarlínunum eytt.  
 
-    Eftirstöðvar af tilfallandi hreyfingu eru framkvæmdar í glugganum **Birgðahreyfing** á sama hátt og gert er fyrir hreyfingar á grundvelli upprunaskjala. Frekari upplýsingar, sjá til dæmis [Hvernig á að færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    Eftirstöðvar af tilfallandi hreyfingu eru framkvæmdar í glugganum **Birgðahreyfing** á sama hátt og gert er fyrir hreyfingar á grundvelli upprunaskjala. Frekari upplýsingar, sjá til dæmis [Færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Til að færa vörur með vöruendurflokkunarbók
-Í staðinn fyrir að nota vöruhúsahreyfing skjöl, geturðu skráð vöruhreyfingu með því að endurflokka hólfakóða varanna. Frekari upplýsingar, sjá [Hvernig skal: Telja, leiðrétta og endurflokka birgðir](inventory-how-count-adjust-reclassify.md).   
+Í staðinn fyrir að nota vöruhúsahreyfing skjöl, geturðu skráð vöruhreyfingu með því að endurflokka hólfakóða varanna. Nánari upplýsingar er að finna í [Telja, leiðrétta og endurflokka birgðir](inventory-how-count-adjust-reclassify.md).   
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðaendurflokkunarbók** og velja svo viðeigandi tengil.  
 2.  Fyrir hverja bókunarlínu skal skilgreina úr og í hvaða hólf flytja skal vörur með því að fylla út reitna **Hólfakóti** og **Nýr hólfakóti**.  
 

@@ -13,13 +13,13 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0c8fee4bb34a6b16d552840462fdc4f4461498df
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 01c640a033c9607c0401ad471d257003e65ca636
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-resources"></a>Hvernig á að: Setja upp forða
+# <a name="set-up-resources"></a>Setja upp forða
 Til að geta unnið með forðaaðgerðir á réttan hátt verður að setja upp forðann og tengt verð og kostnað. Verktengt verð, afslættir og reglur um verðstuðul eru sett upp á verkspjaldinu. Hægt er að tilgreina kostnað og verð einstaks forða, forðaflokka eða alls tiltæks forða hjá fyrirtækinu.
 
 Þegar forði er notaður eða seldur í verki eru upplýsingar um verð og kostnað þar að lútandi fengnar úr upplýsingunum sem notandi hefur sett upp.
@@ -41,7 +41,7 @@ Hægt er að flokka forða saman í einn forðaflokk. Geta og áætlanir forðaf
 3. Fyllið inn í svæðin eftir þörfum.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Að setja upp afkastagetu fyrir forða
-Til að reikna út hve lengi forði getur tengst verki verður fyrst að setja afkastagetuna upp sem tiltækan tíma á tímabilinu á verkdagatalinu. Þessi uppsetning er notuð þegar verkáætlunarlínur sem innihalda forðann eru fylltar út. Nánari upplýsingar eru í [Hvernig á að: Stofna verk](projects-how-create-jobs.md).
+Til að reikna út hve lengi forði getur tengst verki verður fyrst að setja afkastagetuna upp sem tiltækan tíma á tímabilinu á verkdagatalinu. Þessi uppsetning er notuð þegar verkáætlunarlínur sem innihalda forðann eru fylltar út. Frekari upplýsingar eru í [Stofna verk](projects-how-create-jobs.md).
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forði** og velja svo viðeigandi tengil.
 2. Opna skal viðeigandi forðaspjald og velja svo aðgerðina **Forðageta**.

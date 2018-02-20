@@ -1,6 +1,6 @@
 ---
 title: "Kynning - Móttaka og Frágangur í ítarlegri grunngerð vöruhúss | Microsoft Docs"
-description: "Í Dynamics 365, er hægt að framkvæma innleiðarferlið til að taka við og ganga frá á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins."
+description: "Í Finance and Operations, Business Edition, er hægt að framkvæma innleiðarferlið til að taka við og ganga frá á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 1d5cdff996da2d9886dce0d59d4f38796534972a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 991256bf2737297710d25f5a25854f4803185fc3
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Kynning: Móttaka og Frágangur í ítarlegri grunngerð vöruhúss
@@ -151,8 +151,8 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
     Gengið er frá mótteknum fylgihlutum í sjálfgefnum hólfum varanna og 40 lamir eru færðar í samsetningardeild. Nú er hægt að tína mótteknar vörur fyrir innri eftirspurn, svo sem samsetningarpantanir, eða ytri eftirspurn, svo sem söluafhendingar.  
 
 ## <a name="see-also"></a>Sjá einnig  
- [Hvernig á að ganga frá vörum með vöruhúsafrágangi](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
- [Hvernig á að: færa vörur í ítarlegri grunngerð vöruhúsa](warehouse-how-to-move-items-in-advanced-warehousing.md)   
+ [Ganga frá vörum með vöruhúsafrágangi](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
+ [Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Hönnunarupplýsingar: vöruhúsaflæði inn](design-details-inbound-warehouse-flow.md)   
  [Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)

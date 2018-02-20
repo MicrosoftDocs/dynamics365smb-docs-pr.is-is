@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 143124fd2e458ee756d47d3f8523380cff6826a9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a7266eddba4293807a1e7e2a187c5002be771499
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-for-new-demand-order-by-order"></a>Hvernig skal: gera áætlanir um nýja eftirspurn pöntun fyrir pöntun
+# <a name="plan-for-new-demand-order-by-order"></a>Gera áætlanir um nýja eftirspurn pöntun fyrir pöntun
 Þessa áætlanagerð er hægt að framkvæma í glugganum **Pantanaáætlun** sem birtir alla nýja eftirspurn auk upplýsinga um ráðstöfunarmagn og tillögum um framboð. Hann veitir nauðsynlegan sýnileika og verkfæri til að gera skilvirkar áætlanir um eftirspurn úr sölulínum og íhlutalínum og stofna síðan beint mismunandi tegundir af framboðspöntunum.  
 
 Hægt er að fara inn í gluggann **Pantanaáætlun** á tvenna vegu, eftir því hvert markmiðið er: Frá pöntun sem þú vilt gera áætlun fyrir sérstaklega eða í keyrslufasa því þú vilt gera áætlun fyrir allar og hverja nýja eftispurn.  

@@ -13,13 +13,13 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 07/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 076b509ab5e9cf0f87f0910de11e49cda17f330a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 22dc57e01941927dfc2077eb1e48645cfc7b56de
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-monitor-job-progress-and-performance"></a>Hvernig á að: Fylgjast með framvindu og afköstum
+# <a name="monitor-job-progress-and-performance"></a>Fylgst með framvindu og afköstum
 Þegar verk er unnið er efni, forði og annar kostnaður notuð og þetta þarf að bóka á verkið. Verk í vinnslu (VÍV) er eiginleiki þar sem hægt er að meta fjárhagslegt virði verka í fjárhag eftir því sem verkinu miðar áfram. Oft er kostnaður bókaður áður en verk er reikningsfært. Þegar aðeins kostnaður hefur verið bókaður verður fjárhagsyfirlitið ónákvæmt. Frekari upplýsingar eru í [Að skilja VÍV-aðferðir](projects-understanding-wip.md)
 
 Til að rekja gildi í fjárhagnum er hægt að reikna út VÍV og bóka gildið í fjárhag.
@@ -50,7 +50,7 @@ Hægt er að búa til VÍV-aðferð sem endurspeglar þarfir fyrirtækisins. Þe
 Þegar nýtt verk er stofnað þarf að tilgreina hvaða VÍV-aðferð skuli eiga við. Í sumum tilfellum er þegar búið að stilla sjálfgefna VÍV-aðferð verka.
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.
-2. Valið er **Nýtt** aðgerð. Nánari upplýsingar eru í [Hvernig á að: Stofna verk](projects-how-create-jobs.md).  
+2. Valið er **Nýtt** aðgerð. Frekari upplýsingar eru í [Stofna verk](projects-how-create-jobs.md).  
 3. Í glugganum **Verkspjald** skal velja VÍV-aðferð úr listanum í reitnum **VÍV-aðferð**. Ef sjálfgefin aðferð hefur verið skilgreind er hægt að velja annan valkost ef þess gerist þörf.  
 
 ## <a name="to-calculate-wip"></a>Útreikningur VÍV

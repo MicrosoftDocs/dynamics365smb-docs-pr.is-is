@@ -11,15 +11,15 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 462400f4a404592ec8f63e6a5e47e45c2158b7ea
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e975a945b878c39dc095e2e129a4ac0c02ee6c29
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-allocate-resources"></a>Hvernig á að: Úthluta forða
-Lykilþáttur þjónustukerfis er fólkið sem veitir þjónustuna. Hægt að setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] til að úthluta réttu fólki í viðeigandi verk. Úthlutun verka er hægt að byggja á þjónustusvæðinu sem starfsfólk er á eða því hvar þjónustan á sér stað. Auk þess er hægt að flokka forða saman þegar þjónustubeiðnum er svarað. Nánari upplýsingar er að finna í [Hvernig á að: setja upp forðaúthlutun](service-how-setup-resource-allocation.md).
+# <a name="allocate-resources"></a>Úthluta forða
+Lykilþáttur þjónustukerfis er fólkið sem veitir þjónustuna. Hægt að setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] til að úthluta réttu fólki í viðeigandi verk. Úthlutun verka er hægt að byggja á þjónustusvæðinu sem starfsfólk er á eða því hvar þjónustan á sér stað. Auk þess er hægt að flokka forða saman þegar þjónustubeiðnum er svarað. Frekari upplýsingar eru í [Setja upp forðaúthlutun](service-how-setup-resource-allocation.md).
 
 Þú getur úthlutað forða, til dæmis, tæknimönnum, með því að nota **Afgreiðslustöð**, eða frá þjónustupöntun. Þú getur notað forða til ráðstöfunar til að úthluta forða til að framkvæma þjónustuverkhlutana í pöntununum eða tilboðunum.
 
@@ -142,6 +142,6 @@ Eftirfarandi aðferð sýnir hvernig forðalínum er skipt upp í glugganum **Þ
     > Í reitnum **Staða** er valkosturinn **Þarf að endurúthluta** sjálfkrafa valinn. Ef viðgerðarstaða þjónustuvörunnar er **Upphaflegt** er viðgerðarstöðu breytt í **Verki vísað** (engin þjónusta hefur verið veitt). Ef viðgerðarstaðan er **Í vinnslu**er viðgerðarstöðunni breytt í **Hluta þjónustu lokið** (hluti vinnunnar búinn).
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að: Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)  
+[Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)  
 [Úthlutunarstaða og viðgerðarstaða](service-allocation-status-and-repair-status.md)  
 

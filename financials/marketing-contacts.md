@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f6c9b936bdd6e8b1495aaa609f3a6eaac4095ab3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9e56d4a2b609aabcd10e7ad30280a44184ca0965
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-and-managing-contacts"></a>Stofnun og stjórnun tengiliða
@@ -37,5 +37,5 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## <a name="see-also"></a>Sjá einnig
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Uppsetning tengslastjórnunar](marketing-setup-marketing.md)  
-[Unnið með Dynamics 365](ui-work-product.md)  
+[Unnið með Finance and Operations, Business Edition](ui-work-product.md)  
 

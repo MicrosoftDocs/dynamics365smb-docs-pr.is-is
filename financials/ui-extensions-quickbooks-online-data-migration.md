@@ -1,6 +1,6 @@
 ---
 title: "Notkun á QuickBooks Flutningsviðbót | Microsoft Docs"
-description: "Lýsir því hvernig skal nota viðbæturnar til að yfirfæra viðskiptamenn, lánardrottna, vörur og reikninga frá QuickBooks Online í Dynamics 365."
+description: "Lýsir því hvernig skal nota viðbæturnar til að yfirfæra viðskiptamenn, lánardrottna, vörur og reikninga frá Quickbooks Online í Finance and Operations, Business Edition."
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ed245276a6bebd369a3ec32791a9939e8db5aa1
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>QuickBooks Online gagnaflutningsviðbótin fyrir Dynamics 365 Business edition
+# <a name="the-quickbooks-online-data-migration-extension-for-finance-and-operations-business-edition"></a>QuickBooks Online gagnaflutningsviðbót fyrir Finance and Operations, Business Edition
 Þessi viðbót er innifalin í **Gagnaflutningur** uppsetningu með aðstoð til að aðstoða þig við að flytja mikilvæg viðskiptagögn frá QuickBooks Online til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta er t.d. gagnlegt þegar fyrirtækið þitt er að vaxa, og þú hefur ákveðið að uppfæra stjórnunarforrit fyrirtækisins með því að byrja að nota [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Hvaða gögn get ég flutt inn frá QuickBooks Online?
@@ -44,7 +44,7 @@ Mikilvægur hluti flutningsferlisins er að tilgreina reikningana sem flytja á 
 * Innkaup vöru eða þjónustu frá lánardrottnum.  
 * Leiðréttingar í fjárhagnum.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] krefst þess að fjárhagsreikningum hafi verið úthlutað reikningsnúmerum. Vertu viss um að reikningsnúmerum hafi verið úthlutað til reikninganna í QuickBooks Online.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  krefst þess að fjárhagsreikningum hafi verið úthlutað reikningsnúmerum. Vertu viss um að reikningsnúmerum hafi verið úthlutað til reikninganna í QuickBooks Online.
 
 Ef færslur í QuickBooks Online hafa skattaupphæðir, þarf að setja upp skattareikning fyrir þína skattalögsögu í [!INCLUDE[d365fin](includes/d365fin_md.md)] áður en þú getur bókað færslur.
 

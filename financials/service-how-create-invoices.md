@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7ee0dc8f0f44e9bb62fc87caf85eaf92d438abe6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fb65a8b978a0f87b27cc48a634c4ec64d230221d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-invoices-or-credit-memos"></a>Hvernig á að: stofna Þjónustureikninga eða kreditreikninga
+# <a name="create-service-invoices-or-credit-memos"></a>Stofna Þjónustureikninga eða kreditreikninga
 Auðveld reikningsfærsla þjónustupantana er lykileiginleiki [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hægt er að senda viðskiptamönnum reikninga hvenær sem er, eða búa til reikninga með reglulegu millibili.  
   
 Til að stofna reikning beint er hægt að nota gluggann **Þjónustusamningur**. Einnig er hægt að setja kerfið upp þannig að þjónustutæknimaður á vettvangi geti stofnað reikning fyrir þjónustu sem ekki er tengd samningi eða pöntun.  
@@ -99,7 +99,7 @@ Ef til vill þarf að stofna þjónustureikning fyrir þjónustu sem þegar hefu
 4. Í kreditreikningslínurnar eru færðar upplýsingar um vörurnar sem hefur verið skilað eða hafa verið fjarlægðar, eða söluuppbót sem á að gefa viðskiptamanni.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að: bóka þjónustureikninga](service-how-to-post-service-orders.md)  
+[Bóka þjónustureikninga](service-how-to-post-service-orders.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Bókun þjónustu](service-service-posting.md)  
 

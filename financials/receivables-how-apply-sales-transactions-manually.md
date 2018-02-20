@@ -11,13 +11,13 @@ ms.search.keywords: payment process, cash receipt
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6e00e9cbc1b1dc8674ccf83876809496a563b0be
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually"></a>Hvernig á að: Afstemma greiðslur viðskiptamanns handvirkt
+# <a name="reconcile-customer-payments-manually"></a>Afstemma greiðslum viðskiptamanns handvirkt
 Þegar þú færð kvittun kvittunar frá viðskiptavini eða þú ert með endurgreiðslu í reiðufé þarftu að ákveða hvort þú skulir greiða eða endurgreiða til að loka einum eða fleiri opnum skuldfærslum eða kreditfærslum. Hægt er að tilgreina upphæð sem á að nota. Til dæmis er hægt að færa hlutagreiðslur í færslur í viðskiptamannabók. Ef færslum í viðskiptamannabók er lokað er gengið úr skugga um að upplýsingar á við tölfræði viðskiptamanns, reikningsyfirlit og fjárhagsfærslur séu réttar.
 
 > [!NOTE]  
@@ -34,7 +34,7 @@ Hægt er að jafna færslur í viðskiptamannabók á ýmsa vegu:
 
 Þú getur jafnað viðskiptamannagreiðslur handvirkt í glugganum **inngreiðslubók** Inngreiðslubók er ein tegund færslubóka og því er hægt að nota hana til að bóka hreyfingar í fjárhags-, banka-, viðskiptamanna-, lánardrottna- og eignabækur. Hægt að jafna greiðsluna við eina eða fleiri debetfærslur þegar greiðsla er bókuð eða nota bókaðar færslur síðar.
 
-Þú getur einnig jafnað greiðslur viðskiptamanns og lánardrottins, í **greiðsluafstemmingarbók** glugganum með því að nota virkni fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md) Einnig er hægt að stemma greiðslur viðskiptamanns byggðar á lista yfir ógreidda söluskjöl í gluganum **skráning greiðslna**. Nánari upplýsingar sjá [hvernig skal: stemma af greiðslur viðskiptamanns úr lista yfir ógreidda söluskjöl](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+Þú getur einnig jafnað greiðslur viðskiptamanns og lánardrottins, í **greiðsluafstemmingarbók** glugganum með því að nota virkni fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md) Einnig er hægt að stemma greiðslur viðskiptamanns byggðar á lista yfir ógreidda söluskjöl í gluganum **skráning greiðslna**. Frekari upplýsingar eru í [Samræma greiðslur viðskiptavina úr lista yfir ógreidd söluskjöl](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Til að fylla út og bóka inngreiðslubók:
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **inngreiðslubók** og velja svo viðeigandi tengil.
@@ -129,7 +129,7 @@ Ef viðskiptamaður kaupir í einum gjaldmiðli og greiðir í öðrum er enn h�
 
 Ef færsla (Færsla 1) í einum gjaldmiðli er jöfnuð við færslu (Færsla 2) í öðrum gjaldmiðli notar forritið bókunardagsetninguna í Færslu 1 til að finna viðeigandi gengi til að breyta upphæðunum í Færslu 2. viðeigandi gengi er að finna í glugganum  **Gengi gjaldmiðla**.  
 
-Jafna viðskiptavinarfærslur í mismunandi gjaldmiðlum verður að vera virkt. Fyrir frekar upplýsingar, sjá: [Hvernig á að leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)  
+Jafna viðskiptavinarfærslur í mismunandi gjaldmiðlum verður að vera virkt. Frekari upplýsingar eru í [Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **inngreiðslubók** og velja svo viðeigandi tengil.
 2. Opna færslubókina sem óskað er eftir og fylla inn í fyrstu auðu bókarlínuna með gjaldmiðilskóta.

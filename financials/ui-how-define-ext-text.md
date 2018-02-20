@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 01/16/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 10484680910a9012e58a333ab3a854cf4af0d09b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 52e5b2b69da1f9a78906563d054d91de2dfe0925
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-extended-item-text"></a>Hvernig á að: Setja upp lengda texta
+# <a name="set-up-extended-item-text"></a>Setja upp lengda vörutexta
 Hægt er að lengja staðaltexta fyrir vörur með því að bæta við línum, og hægt er að setja upp skilyrði fyrir notkun á viðbótarlínunum. Þetta er hægt að gera frá vöruspjöldum.
 
 ## <a name="to-define-extended-text-for-an-item-description"></a>Til að skilgreina lengdan texta fyrir vörulýsingu

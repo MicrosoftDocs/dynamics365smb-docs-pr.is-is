@@ -13,20 +13,20 @@ ms.search.keywords: warehouse, stock
 ms.date: 08/23/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 79c1d376358cc6b2a622bc589627968c1197df03
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ee5737fc44282d2f2217a50e5f9ffffc808dd4f8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-general-inventory-information"></a>Hvernig á að: Setja upp almennar birgðaupplýsingar
+# <a name="set-up-general-inventory-information"></a>Setja upp almennar birgðaupplýsingar
 Almennar birgðaupplýsingar eru tilgreindar í glugganum **Birgðagrunnur**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Til að setja upp almennar birgðaupplýsingar
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning birgða** og velja svo viðeigandi tengil.
 2. Í glugganum **Birgðagrunnur** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í sölulínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar, glugganum **Birgðauppsetning** og birgðageymsluna sem um ræðir. Frekari upplýsingar, sjá [Hvernig á að reikna Dagsetningu pöntunarloforðs](sales-how-to-calculate-order-promising-dates.md).  
+Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í sölulínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar, glugganum **Birgðauppsetning** og birgðageymsluna sem um ræðir. Nánari upplýsingar er að finna í [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md).  
 
 ## <a name="see-also"></a>Sjá einnig
 [Setja upp birgðir](inventory-setup-inventory.md)  

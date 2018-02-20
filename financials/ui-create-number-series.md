@@ -1,6 +1,6 @@
 ---
-title: "Hvernig á að: Búa til númeraröð | Microsoft Docs"
-description: "Lærðu hvernig á að setja upp númeraröð sem úthlutar einstökum auðkenniskóðum til reikninga og skjala í Dynamics 365 Business edition."
+title: "Búa til númeraröð | Microsoft Docs"
+description: "Lærðu hvernig á að setja upp númeraröð sem úthlutar einstökum auðkenniskóðum til reikninga og skjala í Finance and Operations, Business Edition."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8605c5273ac69ff7a5b8b8dab59b0856795ed706
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3f50bc1153ccd6b58bc502974c042626ce696078
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-number-series"></a>Hvernig á að: Stofnun númeraraða
+# <a name="create-number-series"></a>Stofnun númeraraða
 Fyrir hvert fyrirtæki sem þú setur upp þarftu að úthluta einstökum kennitölum við hluti eins og aðalbókarreikninga, viðskiptavinar- og seljanda, reikninga og önnur skjöl. Númeraröð er ekki aðeins mikilvæg fyrir auðkenningu. Vel unnið númerakerfi gerir einnig auðveldara að stýra og greina fyrirtækið og getur fækkað villum sem upp koma í gagnafærslu.
 
 > [!NOTE]  

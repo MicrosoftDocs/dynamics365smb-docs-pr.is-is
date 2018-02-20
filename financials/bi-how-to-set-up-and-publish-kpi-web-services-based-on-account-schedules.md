@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 902c98c126ff23659cb103e8eaf351c144b76ea9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 57f36592105faf0801864e034c3b930ae196ee62
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Hvernig á að: Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum
+# <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum
 Í **Uppsetning Fjárhagsskema KPI netþjónustu** glugganum getur þú ákveðið hvernig skal sýna KPI gögn fjárhagsskema og á hvaða einstaka fjárhagsskemum skuli byggja afkastavísa. Þegar þú velur **Birta netþjónustu** hnappinn bætast KPI gögn fjárhagsskema á lista yfir vefþjónustu sem birt hefur verið í glugganum **Vefþjónusta**.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Til að setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum  
@@ -50,7 +50,7 @@ ms.lasthandoff: 12/14/2017
 7.  Til að birta afkastavísisvefþjónustu fyrir fjárhagsskema skal velja **Birta vefþjónustu** aðgerðina. Netþjónustunni er bætt á lista yfir vefþjónustu sem birt hefur verið í glugganum **Vefþjónusta**.  
 
 > [!NOTE]  
->  Þú getur líka birt KPI netþjónustuna með því að benda á síðuhlutinn **Uppsetning fjárhagsskema KPI netþjónustu** frá **Netþjónusta** glugganum. Frekari upplýsingar, sjá [Hvernig á að: Birta vefþjónustu](across-how-publish-web-service.md)  
+>  Þú getur líka birt KPI netþjónustuna með því að benda á síðuhlutinn **Uppsetning fjárhagsskema KPI netþjónustu** frá **Netþjónusta** glugganum. Frekari upplýsingar er að finna í [Birta vefþjónustu](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Viðskiptaupplýsingar](bi.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d92f1ca1f36ca74b2da9922d2929ad69c5b31cf
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="closing-the-books"></a>Bókum lokað
@@ -31,7 +31,7 @@ Ferli þess að loka bókum felur í sér þessi aðalverk:
 
     Reikningsár er skilgreint sem einn eða fleiri opinn tímabil eins og skilgreint er í glugganum **Reikningstímabil**. Venjulegt reikningsár inniheldur 12 tímabil sem er einn mánuður hvert, en einnig er hægt að velja aðra aðferð við að skilgreina árið.
 
-    Nánari upplýsingar sjá [Hvernig á að: Loka reikningstímabilum](year-close-account-periods.md).
+    Nánari upplýsingar sjá [Loka fjárhagstímabilum](year-close-account-periods.md).
 2. Skráning á færslum fyrra árs.
 
     Þegar reikningsári er lokað þarf að færa inn fjölda stjórnunaraðgerða (eins og fyrirframgreiddar og uppsafnaðar vörur). Slíkar aðgerðir kallast leiðréttingar á færslum. Engar sérstakar reglur gilda um bókanir slíkra færslna og innihalda þær (líkt og aðrar færslur) gátmerkisreitinn **Seinfærsla** ef þær eru bókaðar á dagsetningu í lokuðu reikningsári. Enda þótt reikningsári hafi verið lokað er enn hægt að bóka fjárhagsfærslur á það.
@@ -44,7 +44,7 @@ Ferli þess að loka bókum felur í sér þessi aðalverk:
 
     Þegar runuvinnslunni Loka rekstrarreikningi er lokið eru færslurnar sem voru myndaðar í verkinu bókaðar. Ef ekki var tilgreindur reikningur óráðstafaðs eigin fjár í keyrslunni, færið inn eina línu með mótfærslu sem bókar nettótekjur í rétta færslubók undir eigið fé á efnahagsreikningi. Bókið síðan færslubókina.
 
-    Nánari upplýsingar, sjá [Hvernig á að: Bóka lokunarfærslu](year-how-post-year-end-close-entry.md).
+    Nánari upplýsingar, sjá [Bóka lokunarfærslu](year-how-post-year-end-close-entry.md).
 
 ## <a name="what-happens-when-you-close"></a>Hvað gerist þegar lokað er
 Þegar reikningum er lokað í lok árs færir kerfið hagnað úr reiknuðum hagnaði yfir á reikninginn Óráðstafað eigið fé. Kerfið merkir einnig reikningsárið sem „lokað“ og allar síðari færslur í lokaða árinu sem „færslur fyrra árs“.
@@ -54,6 +54,6 @@ Kerfið býr svo til lokunarfærslu, en bókar færsluna ekki sjálfkrafa. Hægt
 Hægt er að bóka á fyrra reikningsár jafnvel eftir lokun rekstrarreiknings ef keyrslan Loka rekstrarreikningi er keyrð aftur síðar.
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að opna Nýtt reikningsár](finance-how-open-new-fiscal-year.md)  
+[Opna nýtt reikningsár](finance-how-open-new-fiscal-year.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

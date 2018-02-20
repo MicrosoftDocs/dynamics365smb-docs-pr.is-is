@@ -1,6 +1,6 @@
 ---
-title: "Rafræn skjöl í Dynamics 365 Business edition | Microsoft Docs"
-description: "Inngangur að sendingum og móttöku rafrænna skjala í Dynamics 365."
+title: "Rafræn skjöl í Finance and Operations, Business Edition | Microsoft Docs"
+description: "Inngangur að sendingum og móttöku rafrænna skjala í Finance and Operations, Business Edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: dca451d2555641dc1c1fc134b19380b3ede2690b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2ebc2e716080bde51646cb136dca904e6fd43c43
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -58,7 +58,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 ## <a name="see-also"></a>Sjá einnig  
 [Um gagnaskiptaramma](across-about-the-data-exchange-framework.md)  
-[Hvernig á að. Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Gagnaskipti](across-exchange-data.md)  
 [Skjöl á innleið](across-income-documents.md)  

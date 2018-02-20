@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 08/24/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 000a27efed9ff6c20cffd470e1d5dda0b9387bb6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 68f1af1ec5662e2c13b2695f8b1291734bf9450e
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-approval-workflows"></a>Hvernig á að: Nota samþykktarverkflæði
+# <a name="use-approval-workflows"></a>Nota Samþykktarverkflæði
 Þegar færsla, svo sem innkaupaskjal eða viðskiptamannaspjald sem stofnað hefur verið þarfnast samþykktar aðila innan fyrirtækisins er send samþykktarbeiðni sem hluti af verkflæði. Beiðnin um samþykki færslu verður send til viðeigandi samþykkjanda á grundvelli þess hvernig verkflæðið hefur verið sett upp.
 
 Setja upp samþykktarverkflæði í **Verkflæði** glugganum. Nánari upplýsingar er að finna í [Uppsetning Verkflæði](across-set-up-workflows.md).
@@ -26,9 +26,6 @@ Setja upp samþykktarverkflæði í **Verkflæði** glugganum. Nánari upplýsin
 Í viðbót við samþykktarverkflæði sem lýst er í þessu efnisatriði, geturðu framkvæmt ýmis önnur verkflæðisverk. Frekari upplýsingar, [Nota verkflæði](across-use-workflows.md).
 
 Kjarna samþykkisverkflæði fyrir innkaupaskjöl, söluskjöl, greiðslubækur, viðskiptamannaspjöld og birgðaspjöldum eru tilbúin til að byrja sem aðstoð við uppsetningu. Nánari upplýsingar, sjá [Velkomin í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
-
-> [!NOTE]  
->   Þessi virkni krefst þess að upplifun þín sé stillt á **Suite**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Til að biðja um samþykki færslu
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda.

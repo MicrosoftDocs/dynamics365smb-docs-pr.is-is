@@ -1,6 +1,6 @@
 ---
 title: "Bjóða ytri endurskoðanda í þitt Financials | Microsoft Docs"
-description: "Kynntu þér hvernig hægt er að bjóða ytri endurskoðanda í þitt Dynamics 365 Business edition."
+description: "Kynntu þér hvernig hægt er að bjóða ytri endurskoðanda í þitt Finance and Operations, Business Edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,22 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 11/10/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fde920f4626079d66f285f366114d10807e7821b
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Bjóða ytri endurskoðanda í þitt [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, geturðu boðið þeim í þitt [!INCLUDE[d365fin](includes/d365fin_md.md)] svo þeir geti unnið með þín fjárhagsgögn.
 
 Þegar endurskoðandi hefur fengið aðgang að þínu [!INCLUDE[d365fin](includes/d365fin_md.md)], getur hann notað **Endurskoðandi** Mitt hlutverk, sem veitir auðveldan aðgang að þeim gluggum sem vinna þarf með.  
-
-> [!NOTE]  
->  Þessi virkni krefst þess að upplifunin sé stillt á **Suite**. Nánari upplýsingar má sjá í [Sérstillng Dynamics 365 upplifunar](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Bjóða ytri endurskoðanda í þitt [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Í síðustu útgáfu [!INCLUDE[d365fin](includes/d365fin_md.md)] er búið að auðvelda þér að bjóða ytri endurskoðanda. Einfaldlega opnið gluggann **Notendur** og veljið síðan **Bjóða ytri endurskoðanda** aðgerðina í borðanum. Tölvupósturinn er tilbúinn fyrir þig, bættu vinnunetfangi endurskoðandans inn og sendu boðið.  
@@ -45,7 +42,7 @@ Ein af leyfistegundunum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] er *Yt
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  
-[Hvernig á að: Setja upp tölvupóst handvirkt eða með því að nota Uppsetningu með aðstoð](madeira-how-setup-email.md)  
-[Upplifun endurskoðanda í Dynamics 365 Business edition](finance-accounting.md)  
-[Dynamics 365 fyrir endurskoðendur á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Setja upp tölvupóst handvirkt eða með því að nota Uppsetningu með aðstoð](madeira-how-setup-email.md)  
+[Upplifun endurskoðanda í Finance and Operations, Business Edition ](finance-accounting.md)  
+[Finance and Operations, Business edition fyrir endurskoðendur á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a0261ee242abf0fedcfb22f4a22252636a0074b4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3de644d63c57402b81a3d688fa6e533d717ae089
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-orders-from-sales-orders"></a>Hvernig á að stofna Framleiðslupantanir í sölupöntunum
+# <a name="create-production-orders-from-sales-orders"></a>Búa til framleiðslupantanir úr sölupöntunum
 Hægt er að búa til framleiðslupantanir fyrir framleiðsluvörur beint frá sölupöntunum.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Framleiðslupantanir búnar til í sölupöntunum:  
@@ -31,7 +31,7 @@ Hægt er að búa til framleiðslupantanir fyrir framleiðsluvörur beint frá s
 5.  Velja skal stöðu og pöntunartegund.  
 6.  Velja **Já** til að búa til framleiðslupöntunina.
 
-Einnig er hægt að velja stofnun framleiðslupöntun verkefnis. Frekari upplýsingar, sjá [Hvernig á að áætla verkefnispantanir](production-how-to-plan-project-orders.md)   
+Einnig er hægt að velja stofnun framleiðslupöntun verkefnis. Frekari upplýsingar eru í [Áætla verkefnispantanir](production-how-to-plan-project-orders.md).   
 
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

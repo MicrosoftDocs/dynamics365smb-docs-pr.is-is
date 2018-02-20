@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8da779426dfd06519507796c995adcedcd40ac81
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e2443552440cae8a0d90753d9a56fdc82006a197
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Birgðakostnaði stjórnað
@@ -28,12 +28,12 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Gott er að lesa margvíslegar upplýsingar um hugtök til að skilja forsendur og skilgreiningar sem stýra reikningskostnaðarhluta [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].|[Um birgðakostnað](finance-learn-about-costing.md)|  
+|Gott er að lesa margvíslegar upplýsingar um hugtök til að skilja forsendur og skilgreiningar sem stýra reikningskostnaðarhluta [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Um birgðakostnað](finance-learn-about-costing.md)|  
 |Uppsetning birgðatímabil, kostnaðaraðferðir og sléttunaraðferðir.|[Uppsetning birgðaverðmats og kostnaðar](finance-set-up-inventory-valuation-and-costing.md)|
-|Hækka eða lækka virði einnar eða fleiri vara í birgðaskrá með því að bóka núverandi, útreiknað virði þeirra.|[Hvernig á að: Endurmeta birgðir](inventory-how-revalue-inventory.md)|
-|Leiðrétta kostnað vöru, annaðhvort sjálfvirkt eða handvirkt til að áframsenda kostnaðarbreytingar úr færslum á innleið í tengdar færslur á útleið.|[Hvernig á að: Leiðrétta birgðakostnað](inventory-how-adjust-item-costs.md)|
+|Hækka eða lækka virði einnar eða fleiri vara í birgðaskrá með því að bóka núverandi, útreiknað virði þeirra.|[Endurmat birgða](inventory-how-revalue-inventory.md)|
+|Leiðrétta kostnað vöru, annaðhvort sjálfvirkt eða handvirkt til að áframsenda kostnaðarbreytingar úr færslum á innleið í tengdar færslur á útleið.|[Leiðr. kostnað vara](inventory-how-adjust-item-costs.md)|
 |Nota aðgerðir sérstaks kostnaðar fyrir hversdagslegar vörufærslur í vöruaðgerðum.|[Meðhöndla birgða- og framleiðslukostnað](finance-handle-inventory-and-manufacturing-costs.md)|  
-|Reglulega verður að uppfæra staðlað kostnaðarverð íhluta, í samsetningu eða framleiðsluuppskrift, og leggja nýja kostnaðinn saman við yfirvöruna.|[Hvernig á að uppfæra staðlað kostnaðarverð](finance-how-to-update-standard-costs.md)|
+|Reglulega verður að uppfæra staðlað kostnaðarverð íhluta, í samsetningu eða framleiðsluuppskrift, og leggja nýja kostnaðinn saman við yfirvöruna.|[Uppfæra staðlaðan kostnað](finance-how-to-update-standard-costs.md)|
 |Stjórna framkvæmd í lok tímabils og búa til skýrslur um verk, t.d. að reikna út virði birgða og bóka kostnað í færslubók.|[Tilkynna kostnað og afstemma við fjárhag](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
 |Læra um allt gangverk í kostnaðarkerfinu.|[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)|  
 

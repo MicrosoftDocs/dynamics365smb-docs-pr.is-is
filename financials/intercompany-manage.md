@@ -13,10 +13,10 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 5ffaed472ab61d086e2b57579523340504bde119
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 341fccc4cb11f27e11d80558bbd9651ae4ad91be
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-intercompany-transactions"></a>Vinna með millifyrirtækjafærslur
@@ -39,13 +39,16 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
  |Til |Sjá|
  |---|---|
- |Stofna lánardrottna og viðskiptamenn millifyrirtækis sem svokallaða millifyrirtækjafélaga, og setja upp bókhaldslykil millifyrirtækis.|[Hvernig á að: Setja upp millifyrirtæki](intercompany-how-setup.md)|
- |Milli-fyrirtækjaskjöl eða færslubækur eru notuð til að bóka viðskipti við milli-fyrirtækjafélaga.|[Hvernig á að: vinna með milli-fyrirtækjaskjöl og færslubækur](intercompany-how-work-documents-journals.md)|
- |Skipuleggja og vinna færslur á inn- og útleið sem þú og millifyrirtækjafélagar þínir sendið ykkar á milli.|[Hvernig á að: Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md)|
+ |Stofna lánardrottna og viðskiptamenn millifyrirtækis sem svokallaða millifyrirtækjafélaga, og setja upp bókhaldslykil millifyrirtækis.|[Uppsetning milli fyrirtækja](intercompany-how-setup.md)|
+ |Milli-fyrirtækjaskjöl eða færslubækur eru notuð til að bóka viðskipti við milli-fyrirtækjafélaga.|[Unnið með samstæðuskjöl og færslubækur](intercompany-how-work-documents-journals.md)|
+ |Skipuleggja og vinna færslur á inn- og útleið sem þú og millifyrirtækjafélagar þínir sendið ykkar á milli.|[Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur](intercompany-how-manage-intercompany-inbox.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

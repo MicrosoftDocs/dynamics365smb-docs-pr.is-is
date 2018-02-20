@@ -1,6 +1,6 @@
 ---
 title: "Kynning - Framkvæmd söluherferðar | Microsoft Docs"
-description: "Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvægur þáttur í uppsetningu herferðar hefur með val á markhópi hennar að gera. Í þessum tilgangi er búinn til hluti eða hópur tengiliða með afmörkunum í Dynamics 365."
+description: "Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvægur þáttur í uppsetningu herferðar hefur með val á markhópi hennar að gera. Í þessum tilgangi er búinn til hluti eða hópur tengiliða með afmörkunum í Finance and Operations, Business Edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 492976f9ab0553b67b73317040878c825eaa1808
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e933115531f9adb0296ad8983be00da480f11f25
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Kynning: Framkvæmd söluherferðar

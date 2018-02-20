@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: db0e3f159a0d6a793ed5881118ecff6d0bf6a529
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1c514178ef65b78ad74256834b962e7018ac3864
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-when-and-how-to-receive-notifications"></a>Hvernig á að: Tilgreina hvenær og hvernig á að fá tilkynningar
+# <a name="specify-when-and-how-to-receive-notifications"></a>Tilgreina hvenær og hvernig á að fá tilkynningar
 Þegar notendur eru settir upp í samþykktarverkflæði verður að tilgreina í gluggunum **Tilkynningagrunnur** og **Tilkynningaáætlun** hvenær og hvernig hver notandi fær tilkynningar um skref í samþykktarverkflæði. Einstakir notendur geta einnig breytt tilkynningastillingum sínum með þí að velja hnappinn **Breyta tilkynningastillingum** á hverri tilkynningu.  
 
- Áður en hægt er að setja upp tilkynningastillingar samþykktarnotanda verður að setja notanda upp sem samþykktarnotanda Nánari upplýsingar eru í [Hvernig á að: Setja upp notendur sem samþykkjendur](across-how-to-set-up-approval-users.md)  
+ Áður en hægt er að setja upp tilkynningastillingar samþykktarnotanda verður að setja notanda upp sem samþykktarnotanda Nánari upplýsingar eru í [Setja upp notendur sem samþykkjendur](across-how-to-set-up-approval-users.md).  
 
- Með því að setja upp tilkynningasniðmát er útlit og innihald tilkynninga skilgreint. Nánari upplýsingar eru í [Hvernig á að: Vinna með tilkynningasniðmát](across-how-to-manage-notification-templates.md).  
+ Með því að setja upp tilkynningasniðmát er útlit og innihald tilkynninga skilgreint. Frekari upplýsingar eru í [Unnið með tilkynningasniðmát](across-how-to-manage-notification-templates.md).  
 
  Mörg skref samþykktarverkflæðis snúast um að láta notendur vita að tilvik hafi átt sér stað og þeir þurfi að bregðast við því. Til dæmis getur eitt skref í verkflæði verið að tilvik óski eftir að Notandi 1 samþyki nýja færslu. Tengd viðbrögð eru að tilkynning er sent Notanda 2, sem er samþykkjandi. Í næsta skrefi verkflæðis getur tilvik verið að Notandi 2 samþykki nýja færslu. Tengd viðbrögð eru að tilkynning er sent Notanda 3 til að hefja ferli með samþykktri færslu. Í öllum skref verkflæðis sem snúast um samþykki eru tilkynningar tengdar samþykktarfærslu. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
@@ -59,8 +59,8 @@ ms.lasthandoff: 09/22/2017
 2.  Í glugganum **Tilkynningagrunnur** skal breyta tilkynningarstillingunum eins og lýst er í fyrra ferli.  
 
 ## <a name="see-also"></a>Sjá einnig  
- [Hvernig á að: Setja upp notendur sem samþykkjendur](across-how-to-set-up-approval-users.md)   
- [Hvernig á að: Vinna með tilkynningasniðmát](across-how-to-manage-notification-templates.md)   
+ [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)   
+ [Vinna með tilkynningasniðmát](across-how-to-manage-notification-templates.md)   
  [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)   
  [Uppsetning verkflæðis](across-set-up-workflows.md)   
  [Nota verkflæði](across-use-workflows.md)

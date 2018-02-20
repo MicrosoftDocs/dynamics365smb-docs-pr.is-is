@@ -1,6 +1,6 @@
 ---
 title: "Úthluta notandaheimild og stofna eða breyta heimildarsamstæðum | Microsoft Docs"
-description: "Lýsir því hvernig skal bæta Office 365 notendum við Dynamics 365 Business edition, og svo úthluta heimildum, aðgangsréttindum og öryggisstillingum."
+description: "Lýsir því hvernig skal bæta Office 365 notendum við Finance and Operations, Business Edition og svo úthluta heimildum, aðgangsréttindum og öryggisstillingum."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f1b43879d6dafd238b593c6d17d2322943d75a89
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-users-and-permissions"></a>Hvernig á að: Stjórna notendur og heimildir
+# <a name="manage-users-and-permissions"></a>Vinna með notendur og heimildir
 Til að bæta notendum í [!INCLUDE[d365fin](includes/d365fin_md.md)], verður kerfisstjóri Office 365 í fyrirtækinu fyrst að stofna notendur í stjórnstöð Office 365. Frekari upplýsingar, sjá [Bæta notendum við Office 365 fyrir fyrirtæki](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 Þegar notendur hafa verið stofnaðir í Office 365 er hægt að flytja þá inn í gluggann **notendur** með því að velja aðgerðina **Sækja notendur úr Office 365** Notendur eru úthlutað heimildir söfn samkvæmt áætlun sem er úthlutað á notandann í Office 365.
@@ -29,9 +29,6 @@ Heimildasafn er safn heimildir fyrir tiltekna hluti í gagnagrunninum. Öllum no
 Þú getur bætt notendum við notendahópa. Þannig er auðveldara að úthluta sama heimildarsöfn á mörgum notendum.
 
 Stjórnendur geta notað **Notandauppsetningu** gluggann til að skilgreina tímabil þegar tilgreindir notendur geta bókað, og geta einnig tilgreint hvort kerfið skrái tímann sem notandinn er skráður inn.
-
-> [!NOTE]  
->   Þessi virkni krefst þess að upplifun þín sé stillt á Suite. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Að úthluta notanda heimild
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Notendur** og velja svo viðeigandi tengil.
@@ -55,7 +52,7 @@ Stjórnendur geta notað **Notandauppsetningu** gluggann til að skilgreina tím
 8. Í glugganum **Heimildarsöfn notandahópa** er í nýrri línu fyllt í reitina eftir þörfum með því að velja úr heimildarsöfnum sem þegar eru til staðar.
 
 ## <a name="to-set-up-user-time-constraints"></a>Til að setja upp tímaskorður notanda
-Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað, og geta einnig tilgreint hvort kerfið skrái tímann sem notandinn er skráður inn. Stjórnendur geta einnig úthlutað ábyrgðarstöðvum á notendur. Frekari upplýsingar er að finna í [Hvernig skal: Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md).
+Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað, og geta einnig tilgreint hvort kerfið skrái tímann sem notandinn er skráður inn. Stjórnendur geta einnig úthlutað ábyrgðarstöðvum á notendur. Frekari upplýsingar eru í [Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md).
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Notandauppsetning** og velja svo viðeigandi tengil.
 2. Í glugganum **Notandauppsetning** opnast, skal velja **Nýtt** aðgerð.
@@ -64,7 +61,7 @@ Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað, 
 
 ## <a name="see-also"></a>Sjá einnig
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Uppsetning og stjórnun í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md)  
+[Uppsetning og stjórnun í [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Unnið með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

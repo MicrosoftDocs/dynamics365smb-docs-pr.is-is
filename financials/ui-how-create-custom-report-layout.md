@@ -13,13 +13,13 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 14c2e5340c64e2b302a0bb04c54911888e995136
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 43cb04b4852e305926550b55af8d10ccbf71bd4e
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-and-modify-a-custom-report-or-document-layout"></a>Hvernig á að: Búa til og breyta sérsniðið skýrslu- eða skjalaútlit.
+# <a name="create-and-modify-a-custom-report-or-document-layout"></a>Búa til og breyta sérsniðnu skýrslu- eða skjalaútliti
 Sjálfgefið er að skýrsla hafa innbyggt skýrsluútlit, sem getur verið RDLC-skýrsluútlit, Word-skýrsluútlit eða bæði. Ekki er hægt að breyta innbyggðu útliti. Þú getur einnig búið til þitt eigið sérsniðið útlit sem gerir þér kleift að breyta útliti skýrslu þegar hún er skoðuð, prentuð eða vistuð. Hægt er að búa til mörg sérsniðin skýrsluútlit fyrir sömu skýrsluna, og skipta svo á milli útlita fyrir skýrsluna eftir þörfum.
 
 > [!NOTE]  
@@ -89,13 +89,13 @@ Ef þú ert að hanna Word-skýrsluútlit frá grunni eða bæta við nýjum gag
 2.  Eyða skal textanum sem eftir er eftir því sem þörf krefur.  
 
 ### <a name="adding-data-fields"></a>Bæta við gagnareitum
-Að bæta við gagnareitum úr gagnamengi skýrslu er betri leið og kallar á þekkingu gagnamengis skýrslunnar. Upplýsingar um það hvernig reitum er bætt við fyrir gögn, merkjum, gögnum og myndum er að finna í [Hvernig skal: Bæta reitum við Word skýrsluútlit](ui-how-add-fields-word-report-layout.md).  
+Að bæta við gagnareitum úr gagnamengi skýrslu er betri leið og kallar á þekkingu gagnamengis skýrslunnar. Upplýsingar um það hvernig reitum er bætt við fyrir gögn, merkjum, gögnum og myndum er að finna í [Bæta reitum við Word skýrsluútlit](ui-how-add-fields-word-report-layout.md).  
 
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
-[Hvernig á að: Breyta hvaða útlit er nú notað í skýrslu](ui-how-change-layout-currently-used-report.md)  
-[Hvernig á að: Flytja inn og út sérsniðið skýrsluútlit eða skjalaútlit](ui-how-import-and-export-report-layout.md)  
+[Breyta hvaða útlit er nú notað í skýrslu](ui-how-change-layout-currently-used-report.md)  
+[Flytja inn og út sérsniðið skýrsluútlit eða skjalaútlit](ui-how-import-and-export-report-layout.md)  
 [Unnið með Skýrslur](ui-work-report.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

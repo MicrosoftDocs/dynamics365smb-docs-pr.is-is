@@ -13,10 +13,10 @@ ms. search.keywords: extension, bank, formats
 ms.date: 09/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0718012c9278b337409805d95870d22dac4675ad
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c2daa9854f371660dd9096c54d85812466dfe46e
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -100,10 +100,10 @@ Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[d365
 5. Veldu **Export** aðgerðina.  
 
 ## <a name="see-also"></a>Sjá einnig .
-[Aðlaga Dynamics 365 for [!INCLUDE[d365fin](includes/d365fin_md.md)] Með viðbótum](ui-extensions.md)  
-[Hvernig á að: Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
-[Hvernig á að: Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-direct-debit.md)  
-[Hvernig á að. Bóka SEPA-greiðslukvittanir beingreiðslna](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
+[Sérstilling Finance and Operations, Business Edition fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] Notkun viðbóta](ui-extensions.md)  
+[Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
+[Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-direct-debit.md)  
+[Bóka SEPA-greiðslukvittanir beingreiðslna](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
 

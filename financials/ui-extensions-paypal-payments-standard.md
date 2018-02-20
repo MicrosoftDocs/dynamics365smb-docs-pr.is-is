@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 43511c3c509c495555f4583fdbe982d8b98aa648
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 64d1a76c4d35a87ab7af85e3325b786156f5a62f
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-paypal-payments-standard-extension-to-dynamics-365-business-edition"></a>The PayPal Payments Standard viðbót í Dynamics 365 Business edition 
+# <a name="the-paypal-payments-standard-extension-to-finance-and-operations-business-edition"></a>Staðlaðar PayPal greiðslur, viðbót við Finance and Operations, Business Edition 
 Viðskiptamenn þurfa stöðugt hærra þjónustustig, bæði hvað varðar gæði vöru en einnig hvað varðar valkosti afhendingar og greiðslu. Staðlaða PayPal greiðsluþjónustan gerir kleift að veita viðskiptamanninum meiri þjónustu.
 
 Í stað þess að innheimta greiðslur með gíró eða kreditkort getur boðið að viðskiptamenn greiði gegnum PayPal reikning þeirra . Þegar sölureikningur eða sölupöntun er send með tölvupósti er tengill fyrir PayPal í meginmáli tölvupóstsins og í viðhengdu PDF-skjali. Þegar viðskiptamaður velur tengilinn birtist þjónustusíða fyrir PayPal reikning hans þar sem nákvæmar greiðsluupplýsingar fyrir söluna koma fram. Viðskiptamaður getur síðan greiða reikning og sem hverja aðra PayPal greiðslu.
@@ -34,7 +34,7 @@ Staðlaða PayPal greiðsluþjónustan býður upp á eftirfarandi kosti:
 * Stöðluð PayPal greiðsluþjónusta felur ekki í sér mánaðarleg gjöld eða gjöld vegna uppsetningar.
 * Þar sem þetta er viðbót er auðvelt að virkja stöðluðu PayPal greiðsluþjónustuna þegar og ef fyrirtækið þarf á að halda.  
 
-Nánari upplýsingar eru í [Hvernig á að: Virkja greiðslur viðskiptamanna gegnum PayPal](sales-how-enable-payment-service-extensions.md).
+Nánari upplýsingar eru í [Virkja greiðslu viðskiptamanns gegnum PayPal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  

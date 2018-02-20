@@ -13,22 +13,22 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/07/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b41328283c732d3d9cb3ff66ef89c13d0bd3b7bf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6b92692cc2bafd0c1d15d54f532c9ea62542d52e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Loka árum og tímabilum
 Í lok reikningsársins verður að inna af hendi tiltekin stjórnunarverk, eins og að ganga úr skugga um að skjöl og færslubækur eru bókaðar, ganga úr skugga um að gjaldmiðilsgögn eru dagfærð, loka bókhaldi, og meira. Raunverulegt verk fara eftir fyrirtækinu.
 
-Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir til að loka ári og tímabili. 
+Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir til að loka ári og tímabili.
 
 | Til | Sjá |
 | --- | --- |
-| Tilgreind eru notandaskilgreind bókunardagsetningasvið fyrir allt kerfið. Hugsanlega þarf að takmarka notandabókuð dagsetningasvið við upphaf vinnslu lokatímabila eða á eftir þeim, allt eftir þörfum fyrirtækisins. |[Hvernig á að tilgreina Bókunartímabil](finance-how-specify-posting-periods.md) |
+| Tilgreind eru notandaskilgreind bókunardagsetningasvið fyrir allt kerfið. Hugsanlega þarf að takmarka notandabókuð dagsetningasvið við upphaf vinnslu lokatímabila eða á eftir þeim, allt eftir þörfum fyrirtækisins. |[Tilgreina bókunartímabil](finance-how-specify-posting-periods.md) |
 | Fá yfirlit yfir aðgerðir sem yfirleitt þarf að inna af hendi við lok tímabils, eins og að bóka öll skjöl og færslubækur, eða keyra fjárhagsskemu. |[Lokunartímabil](year-how-complete-period-end-processes.md) |
-| Uppfæra gengi gjaldmiðla og breyta gengi bókaðra viðskiptamanna, lánardrottna og færslna á bankareikningi. |[Hvernig á að: Uppfæra gengi](finance-how-update-currencies.md) |
+| Uppfæra gengi gjaldmiðla og breyta gengi bókaðra viðskiptamanna, lánardrottna og færslna á bankareikningi. |[Uppfæra gengi](finance-how-update-currencies.md) |
 | Raða kostnaði og tekjum á milli reikninga og vídda. |[Úthluta kostnaði og tekjum](year-allocate-costs-income.md) |
 | Búa sig undir að skila skýrslu um VSK upphæðir, sem fengnar eru fyrir sölu, inn til skattayfirvalda. |[Hvernig á að: Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)|
 | Prenta út skýrslur til að votta fjárhag, viðskiptamann, lánardrottinn og innistæður á bankareikningum áður en tímabili er lokað. |[Undirbúningur skýrslna fyrir lokun](year-prepare-preclose-reports.md) |
@@ -36,6 +36,9 @@ Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir 
 | Prenta út skýrslur sem eru gagnlegar við gerð fjárhagsskýrslna. |[Undirbúningur lokunaryfirlits](year-prepare-close-statement.md) |
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að opna Nýtt reikningsár](finance-how-open-new-fiscal-year.md)  
+[Opna nýtt reikningsár](finance-how-open-new-fiscal-year.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

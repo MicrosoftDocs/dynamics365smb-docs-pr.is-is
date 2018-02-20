@@ -13,13 +13,13 @@ ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dd745186e4518c2005e34e6b2cbbc8925fd8931e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-define-check-layouts"></a>Hvernig á að: Skilgreina útlit ávísana
+# <a name="define-check-layouts"></a>Skilgreina útlit ávísana
 Hægt er að hanna tékka til þess að uppfylla staðla sem staðaryfirvöld setja. Hægt er að prenta tékkamyndir á Enska, frönsku eða Spænsku.
 
 Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadískum tékkamyndsniðum annað á sniðinu tékki-svunta-tékki  eða á sniðinu svunta-svunta-tékki.
@@ -35,7 +35,7 @@ Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadísk
 | 10401 |Tékki (Svunta/Svunta/tékki) |þessari skýrslu er hannaðar til að prenta tékka á sniðinu svunta/svunta/tékki. |
 | 10411 |Tékki (Svunta/tékki/svunta) |Þessari skýrslu er hannaðar til að prenta tékka á sniðinu tékki/svunta/tékki. |
 
-Þegar settar hafa verið upp útlit tékka er hægt að prenta tékka úr glugganum **greiðslubók** . Frekari upplýsingar, sjá [Hvernig á að: vinna með ávísanir](payables-how-work-checks.md).
+Þegar settar hafa verið upp útlit tékka er hægt að prenta tékka úr glugganum **greiðslubók** . Nánari upplýsingar eru í [Vinna með tékka](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórna skuldum](payables-manage-payables.md)  

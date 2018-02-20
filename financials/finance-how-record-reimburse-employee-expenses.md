@@ -13,14 +13,14 @@ ms.search.keywords: reimbursement
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 0e10011c598678134cb7badbd9a3be97751b4424
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c12561f4851cd75bdc4098e506c113e50d3bc3be
 ms.contentlocale: is-is
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-record-and-reimburse-employees-expenses"></a>Hvernig á að: Skrá og endurgreiða starfsmannaútgjöld.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] styður færslur fyrir starfsmann á svipaðan hátt og fyrir lánardrottna. Til eru bókunarflokkar starfsmanna, sem eiga að tryggja að fjárhagsfærslur starfsmanna séu bókaðar á viðeigandi reikninga í færslubókinni.
+# <a name="record-and-reimburse-employees-expenses"></a>Skrá og endurgreiða starfsmannaútgjöld
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  styður færslur fyrir starfsmann á svipaðan hátt og fyrir lánardrottna. Til eru bókunarflokkar starfsmanna, sem eiga að tryggja að fjárhagsfærslur starfsmanna séu bókaðar á viðeigandi reikninga í færslubókinni.
 
 > [!NOTE]  
 > Starfsmannafærslur er eingöngu hægt að bóka í staðbundna gjaldmiðlinum. Endurgreiðslur til starfsmanna styðja ekki aflsætti og greiðsluvikmörk.
@@ -47,12 +47,12 @@ Ef starfsmenn eyða sínum eigin peningum í viðskiptaerindum, er hægt að bó
 5. Valið er **bóka** aðgerð til að skrá endurgreiðsluna.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Afstemma endurgreiðslur við fjárhagsfærslur starfsmanns
-Þú jafnar greiðslu til starfsmanns við tengdar og opnar fjárhagsfærslur starfsmanns á sama hátt og greiðslur til lánardrottins, til dæmis í glugganum **Greiðsluafstemmingarbók**, byggt á tengdum bankayfirlitsfærslum. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md). Einnig er hægt að jafna handvirkt í glugganum **Fjárhagsfærslur starfsmanna**. Frekari upplýsingar, sjá [Hvernig á að:: afstemma greiðsla lánardrottinss handvirkt](payables-how-apply-purchase-transactions-manually.md).  
+Þú jafnar greiðslu til starfsmanns við tengdar og opnar fjárhagsfærslur starfsmanns á sama hátt og greiðslur til lánardrottins, til dæmis í glugganum **Greiðsluafstemmingarbók**, byggt á tengdum bankayfirlitsfærslum. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md). Einnig er hægt að jafna handvirkt í glugganum **Fjárhagsfærslur starfsmanna**. Frekari upplýsingar, sjá [Afstemma greiðslu lánardrottinss handvirkt](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig skal: Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  
+[Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
-[Hvernig skal: Bakfæra bókanir](finance-how-reverse-journal-posting.md).  
+[Bakfæra bókanir](finance-how-reverse-journal-posting.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

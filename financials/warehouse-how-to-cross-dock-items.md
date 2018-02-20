@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e167129e8a8bc5f10a0f9de4c384c06de030bbb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7da190b6859b00ddb56612ae29234932a03b50a1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-cross-dock-items"></a>Hvernig á að hjáskipa vörur
+# <a name="cross-dock-items"></a>Hjáskipa vörur
 Hjáskipunaraðgerðin er tiltæk ef birgðageymslan hefur verið sett upp þannig að hún krefjist vöruhúsamóttöku-og frágangsvinnslu.  
 
 Þegar vörum er hjáskipað er unnið með vörur í móttöku og afhendingu án þess að þeir fari nokkurn tíma í geymslu og þar með fer varan hraðar í gegnum frágangs- og tínsluferli og minna þarf að eiga við vörurnar sjálfar. Bæði er hægt að hjáskipa vörum í afhendingum og framleiðslupöntunum. Þegar afhending er undirbúin eða vörur tíndar fyrir framleiðslu er varan sjálfkrafa tínd úr hjáskipunarhólfi áður en hugað er að tínslu úr öðrum hólfum. Leita þarf á hjáskipunarsvæðinu að vörunum sem þörf er á áður en vörurnar eru sóttar þangað sem þær eru venjulega geymdar.  
@@ -39,9 +39,9 @@ Kerfið heldur ekki sérstakar færslur fyrir vörur sem hefur verið hjáskipa�
 ## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Vöruhúsið sett upp fyrir hjáskipun  
 1.  Setja skal upp minnst eitt hjáskipunarhólf ef hólf eru notuð. Setja skal upp hjáskipunarsvæði ef notaður er beinn frágangur og tínsla.  
 
-    Hjáskipunarhólf er með reitinn **Hjáskipunarhólf** valinn og verður að hafa bæði hólfategundirnar **Móttaka** og **Tína** valdar. Nánari upplýsingar er að finna í [Hvernig á að: setja upp hólf](warehouse-how-to-create-individual-bins.md) og [Hvernig á að: setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).  
+    Hjáskipunarhólf er með reitinn **Hjáskipunarhólf** valinn og verður að hafa bæði hólfategundirnar **Móttaka** og **Tína** valdar. Nánari upplýsingar er að finna í [Setja upp hólf](warehouse-how-to-create-individual-bins.md) og [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).  
 
-    Ef svæði eru notuð skal stofna svæði fyrir hjáskipunarhólfin og velja reitinn **Svæði hjáskipunarhólfs**. Frekari upplýsingar, sjá [Hvernig skal: Setja upp birgðageymslur til að nota hólfin](warehouse-how-to-set-up-locations-to-use-bins.md).  
+    Ef svæði eru notuð skal stofna svæði fyrir hjáskipunarhólfin og velja reitinn **Svæði hjáskipunarhólfs**. Nánari upplýsingar er að finna í [Setja upp birgðageymslur til að þær noti hólf](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 2.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Birgðageymsla** og velja svo viðeigandi tengil.  
 3.  Í glugginn **Birgðageymsla** er valin birgðageymsla þar sem á að setja upp vöruhús fyrir hjáskipun og svo velja **Breyta** aðgerðin.  
@@ -59,7 +59,7 @@ Kerfið heldur ekki sérstakar færslur fyrir vörur sem hefur verið hjáskipa�
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Vörum hjáskipað án þess að skoða tækifærin:  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vöruhúsamóttaka** og velja svo viðeigandi tengil.  
-2.  Stofna vöruhúsamóttöku fyrir vöru sem hefur borist og er til dæmis hægt að hjáskipa. Frekari upplýsingar, sjá [Hvernig skal: Taka á móti vörum](warehouse-how-receive-items.md).  
+2.  Stofna vöruhúsamóttöku fyrir vöru sem hefur borist og er til dæmis hægt að hjáskipa. Frekari upplýsingar eru í [Móttaka vara](warehouse-how-receive-items.md).  
 3.  Fyllið út í reitinn **Magn til móttöku** og veljið svo aðgerðina **Reikna hjáskipun**.  
 
     Upprunaskjöl fyrir úthreyfingar sem þarfnast varanna sem eiga að fara úr vöruhúsinu innan tímabils dagsetningarreglunnar eru skilgreind.  [!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar magn þannig að hjáskipa megi eins miklu og mögulegt til að forðast að ganga frá vörum og safna upp of mörgum vörum á hjáskipunarsvæði. Gildið í reitnum **Magn til hjáskipunar** er því samtala allra útleiðalína sem þarfnast vörunnar innan leitartímabilsins að frádregnu magninu, sem þegar hefur verið sett á hjáskipunarsvæðið, eða gildið í reitnum **Magn til móttöku** á móttökulínunni, eftir því hvort er minna. Ekki er hægt að hjáskipa meira magni en móttekið hefur verið.  
@@ -76,7 +76,7 @@ Kerfið heldur ekki sérstakar færslur fyrir vörur sem hefur verið hjáskipa�
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Vörur hjáskipaðar eftir að tækifæri hafa verið skoðuð:  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vöruhúsamóttaka** og velja svo viðeigandi tengil.  
-2.  Stofna vöruhúsamóttöku fyrir vöru sem hefur borist og er til dæmis hægt að hjáskipa. Frekari upplýsingar, sjá [Hvernig skal: Taka á móti vörum](warehouse-how-receive-items.md).  
+2.  Stofna vöruhúsamóttöku fyrir vöru sem hefur borist og er til dæmis hægt að hjáskipa. Frekari upplýsingar eru í [Móttaka vara](warehouse-how-receive-items.md).  
 
     Æskilegt er að skoða línur í upprunaskjalinu sem kalla eftir vörunni áður en móttakan er bókuð.  
 3.  Veldu aðgerðina **Reikna út Hjáskipun**.  
@@ -84,7 +84,7 @@ Kerfið heldur ekki sérstakar færslur fyrir vörur sem hefur verið hjáskipa�
     Í glugganum **Hjáskipunarvalmöguleikar** er hægt að sjá mikilvægustu upplýsingarnar um línurnar þar sem beðið er um vöruna, eins og gerð fylgiskjals, umbeðið magn og gjalddaga. Þessar upplýsingar koma að gagni við að ákveða hve miklu á að hjáskipa, hvar setja eigi vörurnar á hjáskipunarsvæðinu eða hvernig eigi að flokka þær.  
 
 4.  Veljið **Sjálfvirk útfylling magns til hjáskipunar** aðgerðina til að sjá hvernig magnið á móttökulínunum er reiknað. Þegar fjölda vara er breytt í reitnum **Magn til hjáskipunar** í hverri línu eru útreikningarnir uppfærðir eftir því sem breytingar eru gerðar. Það þýðir ekki að tiltekin afhending eða framleiðslupöntun fái í raun vörurnar sem lagt er til að verði hjáskipað þar sem þessar tilfæringar eru aðeins í tilraunaskyni. Ferlið getur þó verið fræðandi ef fleiri en ein mælieining koma við sögu.  
-5.  Ef taka á hluta af vörunum frá fyrir tiltekna pöntunarlínu er bendillinn settur í þá línu og í reitnum og síðan er valin aðgerðin **aka frá**. Í glugganum **Frátekning** er nú hægt að taka frá allt tiltækt magn vörunnar fyrir þessa tilteknu pöntun. Þessi frátekt er eins og aðrar frátektir og hefur ekki meiri forgang vegna þess að hún var stofnuð í tengslum við hjáskipun. Frekari upplýsingar, sjá [Hvernig skal: Taka frá vörur](inventory-how-to-reserve-items.md).   
+5.  Ef taka á hluta af vörunum frá fyrir tiltekna pöntunarlínu er bendillinn settur í þá línu og í reitnum og síðan er valin aðgerðin **aka frá**. Í glugganum **Frátekning** er nú hægt að taka frá allt tiltækt magn vörunnar fyrir þessa tilteknu pöntun. Þessi frátekt er eins og aðrar frátektir og hefur ekki meiri forgang vegna þess að hún var stofnuð í tengslum við hjáskipun. Nánari upplýsingar, sjá [Taka frá vörur](inventory-how-to-reserve-items.md).   
 6.  Þegar lokið hefur verið við endurútreikninga eða frátektir er smellt á **Í lagi** til að flytja breyttu útreikningana í reitinn **Magn til hjáskipunar** á móttökulínunni eða smellt á **Hætta við** ef fara á aftur í vöruhúsamóttökuna þar sem hægt er að reikna hjáskipunina aftur ef vill.  
 7.  Nú er móttakan bókuð og þá er hægt að halda áfram með frágangsleiðbeiningarnar eins og lýst er í skrefum 3 til 7 í hlutanum „Vörur hjáskipaðar án þess að skoða tækifærin.".  
 

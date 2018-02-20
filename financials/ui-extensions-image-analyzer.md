@@ -1,6 +1,6 @@
 ---
 title: "Notkun viðbótar fyrir Myndgreinanda | Microsoft Docs"
-description: "Viðbótin gerir þér kleift að greina myndir af tengiliðum og vörum til að finna eigindir, svo þú getir úthlutað þeim í Dynamics 365 á fljótlegan máta."
+description: "Viðbótin gerir þér kleift að greina myndir af tengiliðum og vörum til að finna eigindir, svo þú getir úthlutað þeim í Finance and Operations, Business Edition á fljótlegan máta."
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 06/19/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4329a54114476885285da1d28cd292a4f9684e99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6b7db51399f965f290e8871c74b30b9925553f83
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-business-edition"></a>Myndgreinandaviðbótin fyrir Microsoft Dynamics 365 Business edition
+# <a name="the-image-analyzer-extension-for-microsoft-finance-and-operations-business-edition"></a>Nánari upplýsingar eru í Myndgreiningarviðbót fyrir Finance and Operations, Business Edition
 Viðbótin fyrir Myndgreinandann notar öflugar myndgreiningaraðferðir frá Tölvusjón API for Microsoft Cognitive Services til að greina eigindir á myndunum sem þú flytur inn fyrir vörur og tengiliði, svo þú getir auðveldlega endurskoðað þær og úthlutað þeim. Fyrir vörur, þá geta eigindir sagt til um hvort varan er borð eða bíll, og hvort hún er rauð eða blá. Fyrir tengiliði, þá geta eigindir verið kyn eða aldur.
 
 Myndgreinandinn leggur til eigindir sem byggjast á merkjum sem Tölvusjón API finnur, og áreiðanleikastig. Greinandinn leggur að sjálfgefnu aðeins til eigindir ef 80% vissa, hið minnsta, er fyrir hendi um að eigindin sé rétt. Þú getur still inn annað áreiðanleikastig, ef þörf krefur. Til að læra meira um hvernig merki og áreiðanleikastig eru ákvörðuð, sjá [Tölvusjón API](https://go.microsoft.com/fwlink/?linkid=851476)  
@@ -92,7 +92,7 @@ Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður
 2. Hreinsa **Virkja Myndgreinanda** gátreitinn.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að: Vinna með vörueigindir](inventory-how-work-item-attributes.md)  
+[Vinna með vörueigindir](inventory-how-work-item-attributes.md)  
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

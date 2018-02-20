@@ -15,13 +15,13 @@ ms.search.keywords: user setup
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6cabfc7f514f44b64331761e90d900deadc6116c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 86114cd184a7a9f10ae28fbb28fb3049e8e8f2d2
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-posting-periods"></a>Hvernig á að tilgreina Bókunartímabil
+# <a name="specify-posting-periods"></a>Tilgreina bókunartímabil
 Notaðu staðartímabil til að tilgreina hvenær notendur geta sent í aðalbókina.  
 
 ## <a name="to-specify-posting-periods"></a>Bókunartímabil tilgreind
@@ -29,7 +29,7 @@ Notaðu staðartímabil til að tilgreina hvenær notendur geta sent í aðalbó
 2. Í **Uppsetning fjárhags** glugganum er tilgreint tímabilið með því að slá inn dagsetningar í **Leyfa bókun frá** og **Leyfa bókun til**.  
 
 > [!NOTE]  
->   Þessi bókunartímabil eiga við um fyrirtækið og alla notendur. Til að leyfa undantekningum er hægt að skilgreina mismunandi pósttímabil fyrir tiltekna notendur í glugganum **Uppsetning notanda**. Þessar færslutímar eru umfram þau sem tilgreind eru í glugganum **Uppsetning aðalbókar**. Nánari upplýsingar eru í „að setja upp tímatakmarkanir fyrir notendur“ hlutanum í [Hvernig á að: Vinna með notendur og heimildir](ui-how-users-permissions.md).
+>   Þessi bókunartímabil eiga við um fyrirtækið og alla notendur. Til að leyfa undantekningum er hægt að skilgreina mismunandi pósttímabil fyrir tiltekna notendur í glugganum **Uppsetning notanda**. Þessar færslutímar eru umfram þau sem tilgreind eru í glugganum **Uppsetning aðalbókar**. Nánari upplýsingar eru í „að setja upp tímatakmarkanir fyrir notendur“ hlutanum í [Vinna með notendur og heimildir](ui-how-users-permissions.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  

@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5b2658a5b77b1e1ee293b6f99c419c133c535372
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b73ac2ca4f1aa3bbb8c6514a8aafa39b3c76f99
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-items-for-warehouse-shipment"></a>Hvernig á að tína vörur fyrir vöruhúsaafhendingu
+# <a name="pick-items-for-warehouse-shipment"></a>Tína vörur fyrir vöruhúsaafhendingu
 Þegar staðsetningin er sett þannig upp að það krefjist vöruhúsatínsluvinnslu og vöruhúsaafhendingarvinnslu eru vöruhúsatínsluskjöl notuð til að stofna og sjá um tínsluupplýsingar fyrir bókun vöruhúsaafhendingar.  
 
 Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni þar sem í tínsluaðgerð er alltaf hluti af verkflæði, annað hvort sem dráttur eða ýting.  
 
 Hægt er að útbúa vöruhússtínsluskjöl eins og drátt með því að opna autt vöruhúsaafhendingarfylgiskjal, finna upprunaskjöl sem eru send til afhendingar, og síðan stofna vöruhúsatínslulínur fyrir þær afhendingar. Hægt er að nota aðgerðirnar **Sækja upprunaskjöl** eða **Nota afmörkun til að sækja upprunaskjöl** til að finna upprunaskjöl sem eru tilbúin til afhendingar.
 
-Einnig er hægt að nota gluggann **Vinnublað tínslu** til að draga og stofna tínslulínur í runustillingu. Frekari upplýsingar, sjá [Hvernig á að: áætla tínslu á vinnublöðum](warehouse-how-to-plan-picks-in-worksheets.md).  
+Einnig er hægt að nota gluggann **Vinnublað tínslu** til að draga og stofna tínslulínur í runustillingu. Frekari upplýsingar, sjá [Áætla tínslu á vinnublöðum](warehouse-how-to-plan-picks-in-worksheets.md).  
 
 Einnig er hægt að stofna vöruhúsatínsluskjöl í eins og ýtingu í glugganum **Vöruhúsaafhending** með því að velja **Stofna tínslu**.  
 
@@ -37,7 +37,7 @@ Einnig er hægt að stofna vöruhúsatínsluskjöl í eins og ýtingu í gluggan
 >   
 >  Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við vöruhúsaafhendingu”   
 >   
->  Upplýsingar um almenna tínslu íhluta fyrir samsetningarpantanir, þar á meðal þegar samsetningaríhlutur er ekki hluti af söluafhendingu, eru í [Hvernig skal: tína fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md).  
+>  Upplýsingar um almenna tínslu íhluta fyrir samsetningarpantanir, þar á meðal þegar samsetningaríhlutur er ekki hluti af söluafhendingu, eru í [Tína fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Til að tína vörur fyrir vöruhúsaafhendingu  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Tínsla** og velja svo viðeigandi tengil.  
@@ -52,9 +52,9 @@ Einnig er hægt að stofna vöruhúsatínsluskjöl í eins og ýtingu í gluggan
 
 4.  Þegar tínslan hefur verið framkvæmd og vörurnar settar á afhendingarsvæði eða í afhendingarhólf er smellt á **Skrá tínslu** aðgerðina.  
 
-Sá sem ábyrgur er fyrir afhendingu getur nú komið vörunum að afhendingarhöfn og bókað afhendinguna, þar á meðal tengt upprunaskjal, í glugganum **Vöruhúsaafhending**. Frekari upplýsingar eru í [Hvernig skal: afhenda vörur](warehouse-how-ship-items.md).   
+Sá sem ábyrgur er fyrir afhendingu getur nú komið vörunum að afhendingarhöfn og bókað afhendinguna, þar á meðal tengt upprunaskjal, í glugganum **Vöruhúsaafhending**. Frekari upplýsingar eru í [Senda vörur](warehouse-how-ship-items.md).   
 
-Til viðbótar við tínslu upprunaskjala eins og lýst er í þessu efnisatriði er hægt að taka og færa vörur á milli hólfa án þess að vísa í upprunaskjöl. Frekari upplýsingar, sjá: [Hvernig skal: tína og ganga frá án upprunaskjals](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
+Til viðbótar við tínslu upprunaskjala eins og lýst er í þessu efnisatriði er hægt að taka og færa vörur á milli hólfa án þess að vísa í upprunaskjöl. Frekari upplýsingar, sjá: [Tína og ganga frá án upprunaskjals](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
 ## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Meðhöndlun íhluta pantanasamsetninga við vöruhúsaafhendingu
 Þegar sameinað er í pöntuð er reiturinn **Magn til afhendingar** í vöruhúsaafhendingarlínum notaður til að skrá hversu magar einingar eru settar saman. Tilgreinda magnið er síðan bókað sem samsetningarfrálag þegar vöruhúsaafhendingin er bókuð.

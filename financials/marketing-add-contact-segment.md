@@ -13,13 +13,13 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 02e72507a2118cf279be156774079be70d5ede43
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-contacts-to-segments"></a>Hvernig á að bæta tengiliðum við hluta:
+# <a name="add-contacts-to-segments"></a>Bæta tengiliðum við hluta
 Þegar hluti hefur verið stofnaður og gunnupplýsingar um hann færðar inn er tengiliðum gjarnan bætt við hlutann. Það er hægt að gera það handvirkt í glugganum **Hluti** en það er auðveldara og fljótlegra að nota aðgerðina **Bæta við tengiliðum**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Til að bæta tengilið við hluta
@@ -54,7 +54,7 @@ Hægt er að sjá lista yfir þær hlutunarviðmiðanir sem notaðar hafa verið
 Hægt er að fækka í hlutum eins oft og óskað er eftir. Smellt er á aðgerðina **Fara til baka** hafi hlutinn verið fínstilltur fyrir misgáning og fara á til baka um eitt þrep.
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að: Stofna hluta](marketing-how-create-segment.md)   
+[Stofna hluta](marketing-how-create-segment.md)   
 [Umsjón hluta](marketing-segments.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

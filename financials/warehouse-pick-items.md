@@ -1,6 +1,6 @@
 ---
 title: "Tína vörur | Microsoft Docs"
-description: "Vöruhúsaaðgerðin að tína vörur áður en þær eru afhentar eða notaðar er framkvæmd með mismunandi hætti, eftir því hvernig vöruhúsakerfisaðgerðir eru grunnstilltar. [Uppsetning](../grunnstilla-vöruhús-ferli.md) Flækjustigið getur verið allt frá engum vöruhúsaaðgerðum, gegnum einfaldar grunngerðum vöruhúss með meðhöndlun pöntun fyrir pöntun í einni eða fleiri aðgerðum einvörðungu, til ítarlegra grunnstillinga þar sem allar vöruhúsaaðgerðir eru framkvæmdar í beinu verkflæði."
+description: "Vöruhúsaaðgerðin að tína vörur áður en þær eru afhentar eða notaðar er framkvæmd með mismunandi hætti, eftir því hvernig vöruhúsakerfisaðgerðir eru grunnstilltar. Flækjustig [Uppsetningar](../configure-warehouse-processes.md) getur verið allt frá engum vöruhúsaaðgerðum, gegnum einfaldar grunngerðum vöruhúss með meðhöndlun pöntun fyrir pöntun í einni eða fleiri aðgerðum einvörðungu, til ítarlegra grunnstillinga þar sem allar vöruhúsaaðgerðir eru framkvæmdar í beinu verkflæði."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 13db47dcfcc7eb6d30230490baa5ac961fc825a8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 132408d095edbfa1a60577cdd19022920088670b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="pick-items"></a>Tína til vörur
@@ -35,15 +35,15 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 |**Til að**|**Sjá**|
 |------------|-------------|  
-|Bóka afhendingu vöru beint í pöntun á útleið því engar vöruhúsaaðgerðir eru fyrir hendi. (Kemur eins út fyrir sölupantanir, millifærslupantanir á útleið, og skilaafhendingar.)|[Hvernig á að: Afgreiða vörur](warehouse-how-ship-items.md)|  
-|Tína vörur pöntun fyrir pöntun og bóka afhendingu í sömu aðgerð, í einfaldri vöruhúsagrunnstillingu.|[Hvernig á að tína Vörur með Birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md)|
-|Tína vörur fyrir margar pantanir í ítarlegri vöruhúsagrunnstillingu.|[Hvernig á að: tína Vörur með vöruhúsatínslu](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Tína íhluti fyrir framleiðslu eða samsetningu í einfaldri eða ítarlegri vöruhúsagrunnstillingu.|[Hvernig skal: Taka til fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md).|  
-|Áætla bestu tínslufyrirmæli fyrir nokkrar afhendingar í stað þess að láta starfsmenn vöruhúss framkvæma beint fyrir bókaðar afhendingar.|[Hvernig á að skipuleggja Tínslur á vinnublaðinu](warehouse-how-to-plan-picks-in-worksheets.md)|  
-|Tína vörur sem tæknilega eru ætlaðar sérstökum tilgangi, eins og til dæmis framleiðslueiningu sem vantar aukaíhluti, þannig að vörurnar fari ekki tæknilega séð ekki úr vöruhúsinu.|[Hvernig skal: tína og ganga frá án upprunaskjals](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Bóka afhendingu vöru beint í pöntun á útleið því engar vöruhúsaaðgerðir eru fyrir hendi. (Kemur eins út fyrir sölupantanir, millifærslupantanir á útleið, og skilaafhendingar.)|[Senda vörur](warehouse-how-ship-items.md)|  
+|Tína vörur pöntun fyrir pöntun og bóka afhendingu í sömu aðgerð, í einfaldri vöruhúsagrunnstillingu.|[Vörur tíndar með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md)|
+|Tína vörur fyrir margar pantanir í ítarlegri vöruhúsagrunnstillingu.|[Vörur tíndar með vöruhúsatínslu](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
+|Tína íhluti fyrir framleiðslu eða samsetningu í einfaldri eða ítarlegri vöruhúsagrunnstillingu.|[Taka til fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md)|  
+|Áætla bestu tínslufyrirmæli fyrir nokkrar afhendingar í stað þess að láta starfsmenn vöruhúss framkvæma beint fyrir bókaðar afhendingar.|[Skipuleggja tínslur á vinnublaðinu](warehouse-how-to-plan-picks-in-worksheets.md)|  
+|Tína vörur sem tæknilega eru ætlaðar sérstökum tilgangi, eins og til dæmis framleiðslueiningu sem vantar aukaíhluti, þannig að vörurnar fari ekki tæknilega séð ekki úr vöruhúsinu.|[Tína og ganga frá án upprunaskjals](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Skilja hvernig skal tína vörur sjálfvirkt samkvæmt lokadagsetningu þeirra, til dæmis vörum sem hætt er við skemmdum.|[Tínsla eftir FEFO](warehouse-picking-by-fefo.md)|
-|Skipta tínslulínu upp í fleiri línur, til dæmis vegna þess að það eru ekki nógu margar vörur til að taka frá í úthlutaða hólfinu.|[Hvernig á að skipta vöruhúsaaðgerðalínum](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Fá tafarlausan aðgang að tínslu sem notandi hefur fengið úthlutað sem starfsmaður vöruhúss.|[Hvernig á að finna vöruhúsaúthlutanir](warehouse-how-to-find-your-warehouse-assignments.md)|  
+|Skipta tínslulínu upp í fleiri línur, til dæmis vegna þess að það eru ekki nógu margar vörur til að taka frá í úthlutaða hólfinu.|[Skipta aðgerðalínum vöruhúss](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Fá tafarlausan aðgang að tínslu sem notandi hefur fengið úthlutað sem starfsmaður vöruhúss.|[Finna vöruhúsaúthlutanir](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

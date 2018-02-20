@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 208c49d0f86ae0a3c8ef4db8008fa2995f77e674
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2bb49ed17db6a4b6f7eafef76c9109e2652fa76b
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-persons"></a>Hvernig á að stofna Einstaklingstengilið
+# <a name="create-contact-persons"></a>Stofna einstaklingstengilið
 Hægt er að stofna tengiliðaspjald fyrir hvern tengilið sem vinnur hjá fyrirtækjum sem notandinn á í samskiptum við. Fyrir hvern fyrirtækjatengilið er hægt að færa inn eins marga einstaklingstengiliði og hver vill. Einnig er hægt að stofna tengiliðaspjöld fyrir einstaklinga sem á að skrá sem óháða.
 
 > [!TIP]  
@@ -40,8 +40,8 @@ Hægt er að stofna tengiliðaspjald fyrir hvern tengilið sem vinnur hjá fyrir
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning tengslastjórnunar](marketing-setup-marketing.md)  
 [Pósthópum úthlutað á tengilið](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Hvernig skal: Setja upp starfsábyrgðir á tengiliði](marketing-job-responsibilities.md)  
-[Hvernig skal: Setja upp stjórnunarstig fyrir einstaklingstengiliði](marketing-organizational-levels.md)  
+[Setja upp starfsábyrgðir á tengiliði](marketing-job-responsibilities.md)  
+[Setja upp stjórnunarstig fyrir tengiliði](marketing-organizational-levels.md)  
 [Samstilla tengiliði við viðskiptavini, seljendur og bankareikninga](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Unnið með Dynamics 365](ui-work-product.md)  
+[Unnið með Finance and Operations, Business Edition](ui-work-product.md)  
 

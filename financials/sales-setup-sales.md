@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, configure
 ms.date: 10/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d94177e37fec6abf278dc8edac71b03c569c9581
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6407b49cf9b5e844b4e0920ccf1fc299d96ae34f
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-sales"></a>Uppsetning sölu
@@ -30,14 +30,14 @@ Uppsetning fjármálatendrar sölu, eins og greiðslumáti og gjaldmiðill, er f
 
 | Til | Sjá |
 | --- | --- |
-| Stofna viðskiptamannaspjald fyrir alla viðskiptamenn sem selt er til. |[Hvernig á að Skrá nýja viðskiptamenn](sales-how-register-new-customers.md) |
-| Gera viðskiptavinum kleift að greiða í gegnum paypal með því að velja paypal lógóið á söluskjölum |[Hvernig á að: Virkja greiðslur viðskiptamanna gegnum PayPal](sales-how-enable-payment-service-extensions.md) |
-| Sláðu inn mismunandi afslætti og sérstakt verð sem þú veitir viðskiptavinum eftir hlut, magni og / eða dagsetningu. |[Hvernig á að: Skráðu söluverð, afslætti og greiðslusamninga](sales-how-record-sales-price-discount-payment-agreements.md) |
-| Setja upp sölumenn svo að hægt er að úthluta þeim á tengiliði viðskiptamanna eða mæla afköst sölumanna sem grunn til að reikna sölulaun eða bónusa. |[Hvernig á að: Setja upp sölumenn](sales-how-setup-salespeople.md) |
-| Tilgreint er fyrir tiltekin viðskiptamann eða alla viðskiptamenn hvernig söluskjöl eru send sjálfkrafa þegar **Bóka og senda** |[Hvernig á að: Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md) |
-| Settu upp tölvupóst til að innihalda samantekt á upplýsingum í söluskjali sem er verið að senda. |[Hvernig á að: Senda skjöl í tölvupósti](ui-how-send-documents-email.md) |
-|Notaðu EB vefþjónustu til að staðfesta að VSK-númerin viðskiptamanna.|[Hvernig á að staðfesta VSK-númer](finance-setup-vat.md)|
-|Færa inn upplýsingar um mismunandi flutningsseljendur sem skipt er við, ásamt tengli á sendingarleitarþjónustu þeirra.|[Hvernig á að: Setja upp flutningsaðila](sales-how-to-set-up-shipping-agents.md)|
+| Stofna viðskiptamannaspjald fyrir alla viðskiptamenn sem selt er til. |[Skrá nýja viðskiptamenn](sales-how-register-new-customers.md) |
+| Gera viðskiptavinum kleift að greiða í gegnum paypal með því að velja paypal lógóið á söluskjölum |[Virkja greiðslur viðskiptamanna gegnum PayPal](sales-how-enable-payment-service-extensions.md) |
+| Sláðu inn mismunandi afslætti og sérstakt verð sem þú veitir viðskiptavinum eftir hlut, magni og / eða dagsetningu. |[Skrá söluverð, afslátt og greiðslusamkomulag](sales-how-record-sales-price-discount-payment-agreements.md) |
+| Setja upp sölumenn svo að hægt er að úthluta þeim á tengiliði viðskiptamanna eða mæla afköst sölumanna sem grunn til að reikna sölulaun eða bónusa. |[Setja upp sölumenn](sales-how-setup-salespeople.md) |
+| Tilgreint er fyrir tiltekin viðskiptamann eða alla viðskiptamenn hvernig söluskjöl eru send sjálfkrafa þegar **Bóka og senda** |[Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md) |
+| Settu upp tölvupóst til að innihalda samantekt á upplýsingum í söluskjali sem er verið að senda. |[Senda skjöl í tölvupósti](ui-how-send-documents-email.md). |
+|Notaðu EB vefþjónustu til að staðfesta að VSK-númerin viðskiptamanna.|[Staðfesta VSK-skráningarnúmer](finance-setup-vat.md)|
+|Færa inn upplýsingar um mismunandi flutningsseljendur sem skipt er við, ásamt tengli á sendingarleitarþjónustu þeirra.|[Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  

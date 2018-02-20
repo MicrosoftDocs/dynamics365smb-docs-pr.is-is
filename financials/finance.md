@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="finance"></a>Fjármál
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
 
 Sjálfgefin forstilling inniheldur bókhaldslykill og staðlaða bókunarflokka sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.  
 
@@ -37,19 +37,19 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Stjórna birgða- og framleiðslukostnaði, búa til skýrslu um kostnað og afstemma kostnað við færslubókina.|[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)|
 | Skilja fjárhag og bókhaldslykil. |[Skilja fjárhag og bókhaldslykil](finance-general-ledger.md) |
 | Bæta við víddum fyrir meiri viðskiptagreind. |[Unnið með víddir](finance-dimensions.md) |
-| Stofna fjárhagsáætlun til að spá fyrir um mismunandi fjármálaaðgerðir og úthluta víddum fyrir viðskiptaupplýsingar. |[Hvernig á að: Stofna fjárhagsáætlanir](finance-how-create-budgets.md) |
-|Skrá tekjur eða útgjöld beint í fjárhag án þess að bóka sérnýtt viðskiptaskjöl.|[Hvernig skal: Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)|
-|Bóka bakfærslur til að afturkalla virðisbókanir í færslubókinni eða magnbókanir á innkaupa- og söluskjöl. |[Hvernig skal: Bakfæra bókanir](finance-how-reverse-journal-posting.md).|
-|úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. |[Hvernig á að: úthluta kostnaði og tekjum](year-allocate-costs-income.md) |
-| Úthluta viðbótarkostnaði sem þú stofnar til í viðskiptum, eins og t.d. flutning og meðhöndlun, á viðeigandi vörur svo kostnaðurinn endurspeglist í birgðaverðmati. |[Hvernig skal: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md) |
-|Bóka persónuleg útgjöld starfsmanna sem hljótast af vinnutengdum aðgerðum og endurgreiða starfsmönnum með því að greiða inn á bankareikning þeirra.|[Hvernig á að: Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).|
-| Sjá tekjur og útgjöld á öðrum tíma en þegar færslur voru bókaðar. |[Hvernig á að: Fresta tekjum og öðrum útgjöldum](finance-how-defer-revenue-expenses.md)|
-|Læra hvernig skal nota viðbótar gjaldmiðla og uppfæra gengi gjaldmiðla sjálfvirkt. |[Hvernig á að: Uppfæra gengi](finance-how-update-currencies.md)|
-| Flytja inn launafærslur úr launaveitu í fjárhag. |[Hvernig á að: Flytja inn launafærslur](finance-how-import-payroll-transactions.md)|
+| Stofna fjárhagsáætlun til að spá fyrir um mismunandi fjármálaaðgerðir og úthluta víddum fyrir viðskiptaupplýsingar. |[Stofna fjárhagsáætlunum](finance-how-create-budgets.md) |
+|Skrá tekjur eða útgjöld beint í fjárhag án þess að bóka sérnýtt viðskiptaskjöl.|[Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)|
+|Bóka bakfærslur til að afturkalla virðisbókanir í færslubókinni eða magnbókanir á innkaupa- og söluskjöl. |[Bakfæra bókanir](finance-how-reverse-journal-posting.md)|
+|úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. |[Úthluta kostnaði og tekjum](year-allocate-costs-income.md) |
+| Úthluta viðbótarkostnaði sem þú stofnar til í viðskiptum, eins og t.d. flutning og meðhöndlun, á viðeigandi vörur svo kostnaðurinn endurspeglist í birgðaverðmati. |[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md) |
+|Bóka persónuleg útgjöld starfsmanna sem hljótast af vinnutengdum aðgerðum og endurgreiða starfsmönnum með því að greiða inn á bankareikning þeirra.|[Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)|
+| Sjá tekjur og útgjöld á öðrum tíma en þegar færslur voru bókaðar. |[Fresta tekjum og öðrum útgjöldum](finance-how-defer-revenue-expenses.md)|
+|Læra hvernig skal nota viðbótar gjaldmiðla og uppfæra gengi gjaldmiðla sjálfvirkt. |[Uppfæra gengi](finance-how-update-currencies.md)|
+| Flytja inn launafærslur úr launaveitu í fjárhag. |[Flytja inn launafærslur](finance-how-import-payroll-transactions.md)|
 | Fylgstu með sjóðstreymi þínu. |[Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md) |
 | Vinna með fjárhagsskýrslur og yfirlit í Excel. |[Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md). |
 | Undirbúa lokun reikningsárs eða tímabils. |[Lokaár og Tímabil](year-close-years-periods.md) |
-|Undirbúa skýrslu sem telur upp VSK-upphæðir af sölu og senda hana til skattyfirvalda í ESB. | [Hvernig á að: Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)|
+|Undirbúa skýrslu sem telur upp VSK-upphæðir af sölu og senda hana til skattyfirvalda í ESB. | [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning Fjármála](finance-setup-finance.md)  
@@ -61,5 +61,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

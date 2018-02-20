@@ -11,20 +11,20 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 8ae02f7a55f822751ae66b5b62013455aac87e48
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e2f5142eb21d346b17b7d541191df553086b30f
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-and-convert-electronic-documents"></a>Hvernig á að: Taka við pg umbreyta rafræn skjölum
+# <a name="receive-and-convert-electronic-documents"></a>Taka við og umbreyta rafræn skjölum
 Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Til að taka á móti reikningur frá lánardrottinn sem rafrænu PEPPOL-skjali er skjalið unnið í glugganum Fylgiskjal á innleið til að breyta því í innkaupareikning eða almenna færslubókarlínu í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Auk þess að fá rafræn skjöl beint úr viðskiptafélögum geturðu fengið rafræn skjöl frá OCR þjónustu sem hefur breytt PDF eða myndskrá í rafræn skjöl.  
 
- Áður en hægt er að taka við rafrænum skjölum gegnum skjalaskiptaþjónustu þarf fyrst að setja upp mismunandi aðalgögn, t.d. upplýsingar um fyrirtækið, lánardrottna, atriði, og mælieiningar. Þau eru notuð til að bera kennsl á viðskiptafélaga og atriði þegar gögnum er umbreytt í reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)] í einingar í skjalaskrá á innleið. Frekari upplýsingar, sjá [Hvernig á að setja upp skjalaskiptaþjónustu](across-how-to-set-up-a-document-exchange-service.md).  
+ Áður en hægt er að taka við rafrænum skjölum gegnum skjalaskiptaþjónustu þarf fyrst að setja upp mismunandi aðalgögn, t.d. upplýsingar um fyrirtækið, lánardrottna, atriði, og mælieiningar. Þau eru notuð til að bera kennsl á viðskiptafélaga og atriði þegar gögnum er umbreytt í reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)] í einingar í skjalaskrá á innleið. Frekari upplýsingar, sjá [Setja upp skjalaskiptaþjónustu](across-how-to-set-up-a-document-exchange-service.md).  
 
- Áður en hægt er að taka við rafrænum skjölum gegnum OCR-þjónustu verður þú að setja upp og virkja almenna þjónustu tengingu. Nánari upplýsingar er að finna í [Hvernig á að setja upp skjöl á innleið](across-how-setup-income-documents.md).  
+ Áður en hægt er að taka við rafrænum skjölum gegnum OCR-þjónustu verður þú að setja upp og virkja almenna þjónustu tengingu. Frekari upplýsingar eru í [Setja upp skjöl á innleið](across-how-setup-income-documents.md).  
 
  Umferð rafrænna skjala í og ​​úr [!INCLUDE[d365fin](includes/d365fin_md.md)] er stjórnað af verkraðareiginleikanum. Áður en þú getur fengið rafræn skjöl þarf viðkomandi verkröð að hefjast.  
 
@@ -45,7 +45,7 @@ Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu raf
 
 2.  Velja línuna fyrir skjal á innleið sem táknar nýjan rafrænan reikning á innleið og svo, á flipanum **Heim** í hópnum **Stjórna** velja **Breyta**.  
 
-     Í glugganum **Fylgiskjalsspjald á innleið** er tengd XML skrá fest við og flestir reitir forútfylltir með upplýsingum frá rafrænum reikningi. Frekari upplýsingar eru í [Hvernig á að stofna færslur fyrir skjal á innleið](across-how-create-income-document-records.md).  
+     Í glugganum **Fylgiskjalsspjald á innleið** er tengd XML skrá fest við og flestir reitir forútfylltir með upplýsingum frá rafrænum reikningi. Frekari upplýsingar eru í [Stofna færslur skjala á innleið](across-how-create-income-document-records.md).  
 
 3.  Í reitnum **Gaganskiptagerð** veljið **PEPPOL reikningur** eða **OCR - reikningur** eftir uppruna rafræna skjalsins.  
 
@@ -60,7 +60,7 @@ Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu raf
 ## <a name="see-also"></a>Sjá einnig  
 [Stjórna skuldum](payables-manage-payables.md)  
 [Skjöl á innleið](across-income-documents.md)  
-[Hvernig á að: Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)   
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5ca921ba6c8ced04899b3a8cc2cd2db91e4d69a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 12bde7fc508bb29e56ad63d76b526a80b5073f03
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-remove-and-reapply-item-ledger-entries"></a>Hvernig á að: fjarlægja og endurjafna birgðabókafærslur
+# <a name="remove-and-reapply-item-ledger-entries"></a>Fjarlægja og endurjafna birgðabókafærslur
 Í glugganum **Vinnublað jöfnunar** er hægt að skoða og breyta handvirkt tilteknum birgðajöfnunarfærslum sem eru stofnaðar sjálfkrafa við birgðafærslur.  
 
 Þegar bókuð eru viðskipti þar sem vörur eru færðar í eða úr birgðum er birgðajöfnun búin til milli hverrar birgðaaukningar og birgðaminnkunar. Þessar jafnanir ákvarða kostnaðarflæði úr þeim vörum sem er tekið á móti í birgðir á móti kostnaði þeirra vara sem fara út úr birgðum. Vegna þess hvernig kostnaðarverð er reiknað út gæti skökk birgðajöfnun leitt til skekkts meðalinnkaupaverðs og skekkts kostnaðarverðs. Nánari upplýsingar eru í Upplýsingar um hönnun: Vörujöfnun.
@@ -30,7 +30,7 @@ Eftirfarandi dæmi gætu krafist þess að birgðafærslur séu ógildar eða en
 - Röng föst jöfnun var gerð.
 - Skila þarf vöru sem búið er að jafna sölu við.
 
-Nota skal skjal til að endurjafna birgðahöfuðbókarfærslu, ef það er hægt. Ef gera þarf til dæmis vöruskil á vöru sem þegar er búið að jafna sölu við er hægt að gera endurjöfnunina með því að stofna og bóka vöruskilaskjalið með réttri jöfnun í reitinn **Jafna birgðafærslu** á innkaupaskilalínunni. Hægt er að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eða aðgerðina **Afrita skjal** í innkaupaskilaskjalinu til að gera þetta auðveldara. Þegar fylgiskjalið er birgðahöfuðbókafærslan endurjöfnuð sjálfkrafa. Nánari upplýsingar er að finna í [Hvernig á að: Vinna úr innkaupaskilum eða afturköllunum](purchasing-how-process-purchase-returns-cancellations.md).
+Nota skal skjal til að endurjafna birgðahöfuðbókarfærslu, ef það er hægt. Ef gera þarf til dæmis vöruskil á vöru sem þegar er búið að jafna sölu við er hægt að gera endurjöfnunina með því að stofna og bóka vöruskilaskjalið með réttri jöfnun í reitinn **Jafna birgðafærslu** á innkaupaskilalínunni. Hægt er að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eða aðgerðina **Afrita skjal** í innkaupaskilaskjalinu til að gera þetta auðveldara. Þegar fylgiskjalið er birgðahöfuðbókafærslan endurjöfnuð sjálfkrafa. Nánari upplýsingar er að finna í [Vinna úr innkaupaskilum eða afturköllunum](purchasing-how-process-purchase-returns-cancellations.md).
 
 Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á fasta jöfnun, skal nota gluggann **Vinnublað jöfnunar** til að leiðrétta jöfnun.
 
@@ -75,8 +75,8 @@ Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á f
 6.  Ef reiturinn **Sjálfvirk kostnaðarleiðrétting** í **Uppsetning birgða** er stilltur á **Alltaf** þá er kostnaðarleiðréttingarkeyrsla keyrð sjálfvirkt eftir að endurjöfnun er gerð. Annars er keyrslan **Kostnaðarleiðrétting - Birgðafærslur** keyrð til að tryggja það að allur kostnaður sé uppfærður.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Hvernig á að: Meðhöndla innkaupaskila eða afturkallana](purchasing-how-process-purchase-returns-cancellations.md)  
+[Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+ [Meðhöndlun innkaupaskila eða afturkallana](purchasing-how-process-purchase-returns-cancellations.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)   
  [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

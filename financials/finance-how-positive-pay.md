@@ -13,16 +13,16 @@ ms.search.keywords: check, clearing
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: dfae1975a78c9380b5b6d4086569d63fe3793832
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 57580354c2ea5b63162e1539cf2f97eb9770c50b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-export-a-positive-pay-file"></a>Hvernig á að: flytja út jákvæða greiðsluskrá
+# <a name="export-a-positive-pay-file"></a>Flytja út jákvæða greiðsluskrá
 Til að ganga úr skugga um að bankinn þinn eingöngu taki til fullgiltar athuganir og fjárhæðir getur þú flutt greiðslubréf sem inniheldur upplýsingar um söluaðila, athuga fjölda og greiðslu upphæð sem þú sendir til bankans til viðmiðunar þegar þú vinnur greiðslur.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er forstillt á að styðja jákvæðar greiðsluskrár fyrir Bank of America og City Bank.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  er forstillt á að styðja jákvæðar greiðsluskrár fyrir Bank of America og City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Að setja upp bankareikning fyrir Positive Pay
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.

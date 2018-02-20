@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 761502b8c8e4c2b9b1b864e7316ea1130a940bb0
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Unnið með Samskipti Við Tengiliði
-Í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] eru allar gerðir af samskiptum milli fyrirtækis þíns og tengiliðanna. Til dæmis geta samskipti verið með bréfi, faxi, tölvupósti, síma, fundum, o.s.frv.
+Í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru allar gerðir af samskiptum milli fyrirtækis þíns og tengiliðanna. Til dæmis geta samskipti verið með bréfi, faxi, tölvupósti, síma, fundum, o.s.frv.
 
 Tengslastjórnunargrunnur svæðið gerir mögulegt að skrá öll samskipti við tengiliði svo að hægt sé að rekja sölu- og markaðssetningaraðgerðir sem beint hefur verið að tengiliðunum og bæta seinni tíma viðskiptatengsl við þá. Uppsetning forrits til að skrá samskipti samanstendur af þessum verkum:
 
@@ -35,7 +35,7 @@ Tengslastjórnunargrunnur svæðið gerir mögulegt að skrá öll samskipti vi�
 ## <a name="creating-interactions"></a>Samskipti stofnuð
 Samskipti eru skráð með tvennum hætti:
 
-* Hægt er að stofna samskipti handvirkt og tengja þau einum tengilið eða hluta. Fyrir frekar upplýsingar, sjá [Hvernig á að stofna Samskipti á tengiliðum og hlutum](marketing-how-create-interactions.md)  
+* Hægt er að stofna samskipti handvirkt og tengja þau einum tengilið eða hluta. Frekari upplýsingar eru í [Stofna samskipti á tengiliðum og hlutum](marketing-how-create-interactions.md).  
 * Hægt er að skrá samskipti sjálfkrafa þegar aðgerðir eru framkvæmdar í forritinu, til dæmis þegar reikningur eða tilboð er prentað út. Fyrir frekar upplýsingar, sjá [Skrá samskipti við tengiliði sjálfkrafa](marketing-auto-record-interactions.md)
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Skoða og vinna með skráð samskipti

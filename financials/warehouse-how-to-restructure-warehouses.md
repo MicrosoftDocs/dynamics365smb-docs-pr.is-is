@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: da5928be8280bad2eac379a5f0e5b19ddc2d12bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d2820513ec95c43464979effd85d5113359886ef
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-restructure-warehouses"></a>Hvernig á að endurskipuleggja vöruhús
+# <a name="restructure-warehouses"></a>Endurskipulagning vöruhúsa
 Hugsanlega þarf að endurskipuleggja vöruhúsið með nýjum hólfakótum og hólfaeinkennum. Ekki er ráðist í þess háttar aðgerðir oft en þær aðstæður geta komið upp að endurflokkun sé nauðsynleg til þess að ná fram eða viðhalda skilvirkni. Dæmi:  
 
 - Skipta þarf í hólfakóta sem styðja notkun sjálfvirkar gagnatöku, til dæmis með handtölvum.  
@@ -45,12 +45,12 @@ Nú hafa hólf verið tæmd þar sem vörur voru. Sjálfgefnu hólfin fyrir vör
 
 ## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Til að endurskipuleggja ítarvöruhús sem notar stýrðan frágang og tínslu  
 
-1.  Nýju hólfin sem nota á í framtíðinni eru stofnuð. Nánari upplýsingar eru í [Hvernig á að: Stofna hólf](warehouse-how-to-create-individual-bins.md).  
+1.  Nýju hólfin sem nota á í framtíðinni eru stofnuð. Frekari upplýsingar eru í [Stofna hólf](warehouse-how-to-create-individual-bins.md).  
 2.  Allt innihald hólfanna sem til eru fyrir er flutt í nýju hólfin sem stofnuð voru.  
 
     1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vöruhús endurflokkunarbók** og velja svo viðeigandi tengil.  
     2.  Fyrir hólf þar sem engin raunveruleg hreyfing er á vörum skal stofna eina línu fyrir hvert hólf sem til er fyrir í **Endurflokkunarbók vöruhúss** með gamla hólfakótanum **Kóti frá-hólfs** og nýja hólfakótanum **Kóti til-hólfs**.  
-    3.  Feli hreyfingar í sér raunverulega tilfærslu sem starfsmenn eiga að framkvæma skal nota **Hreyfingavinnublöð** til að útbúa hreyfingaleiðbeiningar í stað þess að nota Vöruh.endurflokkunarbókina. Nánari upplýsingar eru í [Hvernig á að: færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+    3.  Feli hreyfingar í sér raunverulega tilfærslu sem starfsmenn eiga að framkvæma skal nota **Hreyfingavinnublöð** til að útbúa hreyfingaleiðbeiningar í stað þess að nota Vöruh.endurflokkunarbókina. Frekari upplýsingar eru í [Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  Þegar gömlu hólfin eru tæmd skal endurflokka þau sem hólf af gerðinni **GE** til að tryggja að þau séu ekki höfð með í vöruflæðum.  
 
@@ -58,11 +58,11 @@ Nú hafa hólf verið tæmd þar sem vörur voru. Sjálfgefnu hólfin fyrir vör
     2.  Velja línu með birgðageymslunni og velja síðan **hólf** aðgerðina.  
     3.  Í glugganum **Hólf** í reitnum **Kóti hólfategundar**, færið inn **Utanflæðishólf** fyrir hvert eldra hólfanna sem tæmt er í skrefi 3 í fyrra ferli.  
 
-Nú hafa hólfin verið fjarlægð úr vöruhúsaflæðinu og þær endurflokkaðar sem utanflæðishólf. Utanflæðishólf hafa engan af aðgerðareitunum í glugganum **Hólfategundir** valinn og eru því ekki tekin með í vöruflæðinu. Nánari upplýsingar er að finna í [Hvernig á að setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).  
+Nú hafa hólfin verið fjarlægð úr vöruhúsaflæðinu og þær endurflokkaðar sem utanflæðishólf. Utanflæðishólf hafa engan af aðgerðareitunum í glugganum **Hólfategundir** valinn og eru því ekki tekin með í vöruflæðinu. Frekari upplýsingar eru í [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Hólfi eytt:  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.  
+1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Staðsetningar** og velja svo viðeigandi tengil.  
 2.  Veljið birgðageymsluna þar sem á að eyða hólfum. Velja aðgerðina **Hólf**.  
 3.  Valdar eru línurnar með töflunum sem á að eyða.  
 4.  Velja skal aðgerðina **Eyða**.  

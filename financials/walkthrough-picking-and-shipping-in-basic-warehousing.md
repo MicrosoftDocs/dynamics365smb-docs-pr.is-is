@@ -1,6 +1,6 @@
 ---
 title: "Kynning -Tínsla og Afhending í Einfaldar grunngerð vöruhúss | Microsoft Docs"
-description: "Í Dynamics 365, er hægt að framkvæma útleiðarferlið til að tína og afhenda á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins."
+description: "Í Finance and Operations, Business Edition, er hægt að framkvæma útleiðarferlið til að tína og afhenda á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 41a23df0e19bda1262dafbfaf89df7518b2b40b6
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss
@@ -119,12 +119,12 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
     Tínsla hátalaranna 30 úr hólfum S-01-0001 og S-01-0002 er nú skráð og neikvæð birgðafærsla er stofnuð sem endurspeglar hina bókuðu söluafhendingu.  
 
 ## <a name="see-also"></a>Sjá einnig  
- [Hvernig á að tína Vörur með Birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md)   
- [Hvernig á að tína vörur fyrir vöruhúsaafhendingu](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Hvernig á að setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [Hvernig á að: færa íhluti á aðgerðasvæði í einfaldri grunngerð vöruhúsa](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [Hvernig skal: Taka til fyrir framleiðslu eða samsetningu.](warehouse-how-to-pick-for-production.md)   
- [Hvernig á að: færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [Vörur tíndar með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md)   
+ [Tína vörur fyrir vöruhúsaafhendingu](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [Færa íhluti á aðgerðasvæði í grunnskilgreiningu vöruhúss](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [Taka til fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md)   
+ [Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Hönnunarupplýsingar: vöruhúsaflæði á innleið](design-details-outbound-warehouse-flow.md)   
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

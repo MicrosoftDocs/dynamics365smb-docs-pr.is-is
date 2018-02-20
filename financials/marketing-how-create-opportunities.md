@@ -1,6 +1,6 @@
 ---
 title: "Stofna sölutækifæri| Microsoft Docs"
-description: "Lýsir hvernig á að stofna tækifæri frá sölumanni eða tengilið í Dynamics 365 Business edition."
+description: "Lýsir hvernig á að stofna tækifæri frá sölumanni eða tengilið í Finance and Operations, Business Edition."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,18 +13,18 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ff4318d9da902847166ac5747adf469584a3d2a2
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sales-opportunities"></a>Hvernig á að: Stofna sölutækifæri
+# <a name="create-sales-opportunities"></a>Stofna sölutækifæri
 Hægt er að stofna tækifæri vegna sölutækifæra hjá tengiliðum. Tengja verður öll tækifæri við sölumann eða innkaupanda og þau verða að vera með tengilið.
 
 Hægt er að stofna tækifæri úr glugganum **Tækifæralisti**. En yfirleitt eru tækifæri stofnuð hjá tilteknum tengilið eða sölumanni.
 
-Áður en hægt er að stofna tækifæri þarf að setja upp söluferla tækifæris. Nánari upplýsingar er að finna í [Hvernig á að: Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Áður en hægt er að stofna tækifæri þarf að setja upp söluferla tækifæris. Nánari upplýsingar er að finna í [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Að búa til tækifæri hjá sölumanni
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **sölufólk** og velja svo viðeigandi tengil.
@@ -45,5 +45,5 @@ Hægt er að stofna tækifæri úr glugganum **Tækifæralisti**. En yfirleitt e
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
-[Unnið með Dynamics 365](ui-work-product.md)
+[Unnið með Finance and Operations, Business Edition](ui-work-product.md)
 

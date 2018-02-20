@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c56cd3c44e06f354bd11f24fb0f16b90a1ac7a34
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Hönnunarupplýsingar: kostnaðarleiðrétting
@@ -171,9 +171,9 @@ Ef sjálfvirk kostnaðarleiðrétting hefur verið sett upp til að eiga við b�
 Ef sjálfvirk kostnaðarleiðrétting hefur verið sett upp til að eiga við bókanir sem eiga sér stað innan dags eða viku frá núverandi vinnudagsetningu keyrir sjálfvirka kostnaðarleiðréttingin ekki og kostnaðurinn við innkaupin er ekki framsendur í söluna fyrr en runuvinnslan **Kostnaðarleiðrétting - Birgðafærslur** er keyrð.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að: Leiðrétta birgðakostnað](inventory-how-adjust-item-costs.md)   
+[Leiðr. kostnað vara](inventory-how-adjust-item-costs.md)   
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
-[Hönnunarupplýsingar: afstemming í fjárhagur](design-details-reconciliation-with-the-general-ledger.md)   
+[Hönnunarupplýsingar: afstemming í fjárhag](design-details-reconciliation-with-the-general-ledger.md)   
 [Hönnunarupplýsingar: birgðabókun](design-details-inventory-posting.md)   
 [Hönnunarupplýsingar Frávik](design-details-variance.md)   
 [Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)   

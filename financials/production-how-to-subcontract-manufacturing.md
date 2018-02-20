@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6f8094545431468bd12e231364987e70bda429bb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2796da1b41569c8c950dc844fc31eaf4f0179efa
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-subcontract-manufacturing"></a>Hvernig á að: úthýsa framleiðslu til undirverktaka
+# <a name="subcontract-manufacturing"></a>Úthýsa framleiðslu til undirverktaka
 Úthýsing á völdum aðgerðum til lánardrottna er algeng í mörgum framleiðslufyrirtækjum. Undirverktakastarfsemi getur verið sjaldgæf hending eða mikill þáttur í öllum framleiðsluferlum.
 
 Kerfið býður upp á nokkur verkfæri til að sjá um starfsemi undirverktaka:  
@@ -41,12 +41,12 @@ Hægt er að nota Vinnustöðvar verktaka fyrir aðgerðir á leiðum á  sama h
 
 Hægt er að setja upp leið sem notar utanaðkomandi vinnustöð sem staðlað aðgerðarskref. Hægt er líka að breyta leiðinni fyrir tiltekna framleiðslupöntun til að hún nái yfir utanaðkomandi aðgerð. Þetta gæti verið nauðsynlegt í neyðartilfellum eins og þegar þjónn bilar eða á afmörkuðu tímabili hærri eftirspurnar þegar senda þarf verk sem er yfirleitt unnið innanhúss til undirverktaka.  
 
-Frekari upplýsingar, sjá [Hvernig skal: Stofna leiðir](production-how-to-create-routings.md).  
+Nánari upplýsingar eru í [Stofna leiðir](production-how-to-create-routings.md).  
 
 ## <a name="subcontracting-worksheet"></a>Vinnublað undirverktakasamn.  
 Þegar búið er að reikna út Vinnublað undirverktaka er viðeigandi skjal, í þessu tilfelli innkaupapöntun, stofnuð.  
 
-# <a name="how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Hvernig á að reikna vinnublöð undirverktakasamninga og stofna innkaupapantanir fyrir undirverktaka
+# <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Reikna vinnublöð undirverktakasamninga og stofna innkaupapantanir fyrir undirverktaka
 Glugginn **Vinnublað undirverktakasamninga** virkar eins og **Áætlunarvinnublað** með því að reikna út framboð sem þarf, í þessu tilfelli innkaupapantanir, sem er endurskoðað í vinnublaðinu og síðan stofnað með aðgerðinni **Framkvæma aðgerðarboð**.  
 
 > [!NOTE]  

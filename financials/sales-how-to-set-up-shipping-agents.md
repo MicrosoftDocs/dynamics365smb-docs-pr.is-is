@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 84a5d9eb8757dc82834c17327ffbb510cd15fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b6ab539048f3f802cc4575e023c43632025dccf5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shipping-agents"></a>Hvernig á að setja upp flutningsaðila
+# <a name="set-up-shipping-agents"></a>Uppsetning flutningsaðila
 Hægt er að setja upp kóta fyrir einstaka flutningsaðila og færa inn upplýsingar um þá.  
 
-Ef fært er inn veffang flutningsaðila sem býður upp á sendingaleit á Internetinu er hægt að nota sjálfvirku sendingaleitina í kerfinu. Frekari upplýsingar eru í [Hvernig skal: rekja pakka](sales-how-track-packages.md).
+Ef fært er inn veffang flutningsaðila sem býður upp á sendingaleit á Internetinu er hægt að nota sjálfvirku sendingaleitina í kerfinu. Nánari upplýsingar eru í reitnum [Finna sendingar](sales-how-track-packages.md).
 
 Þegar flutningsaðilar eru settir upp á sölupöntunum er einnig hægt að tilgreina hvaða þjónustu einstakir flutningsaðilar bjóða.  
 Hægt er að setja upp ótakmarkaðan fjölda af þjónustuatriðum fyrir hvern flutningsaðila og hægt er að tilgreina afhendingartíma fyrir hverja þjónustu.  
 
-Þegar flutningsþjónustu hefur verið úthlutað á sölupöntunarlínu verður afhendingartími þjónustunnar tekin með við útreikning á lofun á pöntun fyrir þá línu. Frekari upplýsingar, sjá [Hvernig á að reikna Dagsetningu pöntunarloforðs](sales-how-to-calculate-order-promising-dates.md).
+Þegar flutningsþjónustu hefur verið úthlutað á sölupöntunarlínu verður afhendingartími þjónustunnar tekin með við útreikning á lofun á pöntun fyrir þá línu. Nánari upplýsingar er að finna í [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Uppsetning flutningsaðila  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **flutningsaðili** og velja svo viðeigandi tengil.  
@@ -39,7 +39,7 @@ Hægt er að setja upp ótakmarkaðan fjölda af þjónustuatriðum fyrir hvern 
 >  Ef flutningsaðila er eytt úr pantanalínunni eyðir kerfið einnig flutningsþjónustukótanum úr línunni. Efni reita sem byggja að hluta á flutningsþjónustunni er endurreiknað.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að rekja Sendingar](sales-how-track-packages.md)    
+[Finna sendingar](sales-how-track-packages.md)    
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     

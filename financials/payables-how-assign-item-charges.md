@@ -13,13 +13,13 @@ ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a97f56eeeb61aa94485dc4ec73f19a01e21e055a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5a40482673c8b8110a6036046174a58f5d7be18f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-item-charges-to-account-for-additional-trade-costs"></a>Hvernig skal: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði
+# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði
 Til að tryggja rétt verðmat, verða birgðavörurnar þínar að bera allan auka kostnað, eind og t.d. farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér. Í innkaupum, þá samanstendur raunkostnaður innkeyptrar vöru af innkaupaverði frá lánardrottni og öllu beinu viðbótarvörugjaldi sem hægt er að leggja á einstaka móttöku eða endursendar afhendingar. Það getur verið fyrirtækjum jafnmikilvægt að kunna skil á kostnaði við afhendingu seldrar vöru eins og að vita raunkostnað aðkeyptrar vöru.
 
 Til viðbótar við skráningu aukakostnaðar á birgðavirði, geturðu notað eiginleikann Kostnaðarauki fyrir eftirfarandi:
@@ -48,7 +48,7 @@ Vörugjaldsnúmer eru notuð til að greina á milli mismunandi vörugjalda sem 
 Ef þú veist hver kostnaðaraukinn er þegar þú bókar innkaupareikning fyrir vöruna, skaltu fylgja þessu ferli.
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.
-2. Stofnið nýja innkaupareikning. Nánari upplýsingar eru í [Hvernig á að: Skrá innkaup](purchasing-how-record-purchases.md).
+2. Stofna nýjan innkaupareikning. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 3. Vertu viss um að innkaupareikningurinn hafi fleiri en eina línu af vörutegund.
 4. Á nýja línu í reitnum **Tegund** er valinn **Kostnaðarauki Vöru**.
 5. Í reitinn **Magn** er færður inn fjöldi eininga þess kostnaðarauka sem hefur verið reikningsfærður.
@@ -78,7 +78,7 @@ Kostnaðaraukinn á þessum aðgreinda innkaupareikningi er nú úthlutað til v
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórna skuldum](payables-manage-payables.md)  
-[Hvernig á að skrá kaup](purchasing-how-record-purchases.md)  
-[Hvernig er reikningsfært](sales-how-invoice-sales.md)  
+[Skrá innkaup](purchasing-how-record-purchases.md)  
+[Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

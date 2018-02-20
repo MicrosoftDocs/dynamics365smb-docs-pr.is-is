@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb514fe04fd70836f640d3db4ea592680ab0fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5460f50c4c556a74b518976d5d5fa90203f16967
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-orders"></a>Hvernig á að stofna Þjónustupantanir
+# <a name="create-service-orders"></a>Stofna þjónustupantanir
 Hægt er að nota gluggann **Þjónustupöntun** til að stofna skjöl þar sem hægt er að færa inn upplýsingar um þjónustu, s.s. viðgerðir og viðhald, á þjónustuvörum að beiðni viðskiptamanns.  
   
 Þegar stofnuð er þjónustupöntun þarf aðeins að fylla út í örfáa reiti. Sumir reitir eru valkvæðir og margir fyllast út sjálfkrafa þegar tengdir reitir eru fylltir út.  
@@ -79,7 +79,7 @@ Ef þú þarft að vera viss um að vara sé tiltæk fyrir þjónustupöntun, ge
 5. Á síðunni **Frátekning** skal velja **Taka frá í gildandi línu**. 
 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Setja inn línur byggðar á staðlaðir þjónustukóðar  
-Ef staðlaðir þjónustukótar hafa verið settir upp og þeim verið úthlutað fyrir þjónustuvöruflokka er hægt að setja inn staðlaðar línur tengdar stöðluðum þjónustukótum í þjónustuskjölum. Nánari upplýsingar er að finna í [Hvernig á að setja upp staðlaður þjónustukóði](service-how-setup-service-coding.md).   
+Ef staðlaðir þjónustukótar hafa verið settir upp og þeim verið úthlutað fyrir þjónustuvöruflokka er hægt að setja inn staðlaðar línur tengdar stöðluðum þjónustukótum í þjónustuskjölum. Frekari upplýsingar eru í [Setja upp staðlaða þjónustukóða](service-how-setup-service-coding.md).   
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Þjónustupantanir** og velja svo viðeigandi tengil.  
 2. Ný þjónustupöntun er stofnuð.  
@@ -106,8 +106,8 @@ Forritið eyðir þjónustupöntun ekki sjálfkrafa ef heildarmagn pöntunarinna
 
 ## <a name="see-also"></a>Sjá einnig  
 [Bókun þjónustu](service-service-posting.md)  
-[Hvernig skal: Þjónustupantanir bókaðar](service-how-to-post-service-orders.md)  
+[Þjónustupantanir bókaðar](service-how-to-post-service-orders.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
-[Hvernig á að: Vinna með þjónustuverkhluta](service-how-to-work-on-service-tasks.md)  
-[Hvernig á að: Úthluta forða](service-how-to-allocate-resources.md)  
+[Vinna við þjónustuverk](service-how-to-work-on-service-tasks.md)  
+[Úthluta forða](service-how-to-allocate-resources.md)  
 

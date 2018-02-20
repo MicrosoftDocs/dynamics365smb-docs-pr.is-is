@@ -10,22 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 12/01/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1da2e94fa64d1daa3304b5266d54152563cfa283
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Hvernig skal: Greina raunverulegar og áætlaðar upphæðir
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Greina raunverulegar og áætlaðar upphæðir
 Hluti af því að safna saman, greina og deila upplýsingum fyrirtækis, er að skoða raunverulegar upphæðir í samanburði við áætlaðar upphæðir fyrir alla reikninga og nokkur tímabil.
 
-Til að greina áætlaðar upphæðir, verður fyrst að búa til fjárhagsáætlun. Nánari upplýsingar eru í [Hvernig á að: Stofna fjárhagsáætlanir](finance-how-create-budgets.md).
-
-> [!NOTE]  
->   Þessi virkni krefst þess að upplifun þín sé stillt á **Suite**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
+Til að greina áætlaðar upphæðir, verður fyrst að búa til fjárhagsáætlun. Frekari upplýsingar eru í [Stofna fjárhagsáætlun](finance-how-create-budgets.md).
 
 ## <a name="to-view-a-gl-budget"></a>Til að skoða fjárhagsáætlun
 Í áætlun með víddum er hægt að setja afmarkanir á færslurnar og sjá tilteknar áætlanir.
@@ -69,7 +66,7 @@ Bókhaldslykillinn er í dálkunum til vinstri. Af dálkunum fimm lengst til hæ
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptaupplýsingar](bi.md)  
-[Hvernig á að: Vinna með fjárhagsskemu](bi-how-work-account-schedule.md)  
+[Vinna með fjárhagsskemu](bi-how-work-account-schedule.md)  
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  

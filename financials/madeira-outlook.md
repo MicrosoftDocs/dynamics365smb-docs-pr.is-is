@@ -1,8 +1,6 @@
 ---
-title: "Notkun Dynamics 365 Business edition með Outlook| Microsoft Docs"
-description: "Dynamics 365 Business edition er rækilega samþætt Office 365, sem gerir þér kleift að stjórna öllum fyrirtækja- og tölvupóstsamskiptum við viðskiptamenn og lánardrottna í Outlook."
-services: project-madeira
-documentationcenter: 
+title: "Notkun Finance and Operations, Business Edition með Outlook| Microsoft Docs"
+description: "Þessi þjónusta er rækilega samþætt Office 365, sem gerir þér kleift að stjórna öllum fyrirtækja- og tölvupóstsamskiptum við viðskiptamenn og lánardrottna í Outlook."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -13,19 +11,19 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 473c21085c54c7f97f34404eeb18683cf4479e41
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e22e907667127508634ce56b9d40e4b9cad01f5
 ms.contentlocale: is-is
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Notkun Dynamics 365 for Finance and Operations, Business edition sem viðskiptainnhólf í Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kynnir möguleikann á að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum, ásamt því að semja og senda fjárhagsleg skjöl, svo sem tilboð og reikninga.  
+# <a name="using-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Notkun Finance and Operations, Business Edition sem fyrirtækjainnhólf í Outlook
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  kynnir möguleikann á að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum, ásamt því að semja og senda fjárhagsleg skjöl, svo sem tilboð og reikninga.  
 
 ## <a name="getting-the-add-in"></a>Að fá viðbótina
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)], er eitt skrefið í uppsetningu með hjálp í Hafist handa í glugganum **Stýrðu fyrirtækinu úr Office 365**. Þegar hnappurinn **Sett upp í Outlook** er valinn þarf að tilgreina heiti Office 365 notanda og aðgangsorð í þeim glugga. Innbót [!INCLUDE[d365fin](includes/d365fin_md.md)] er þá sjálfkrafa bætt við Outlook.  
 
-Þegar þú opnar síðan Outlook muntu sjá tölvupóst frá Dynamics 365 Admin. Nýju innbótinni er bætt við Outlook-borðann, og í Outlook Web Access er hægt að sjá hana í innbótarborðanum, beint fyrir ofan meginmál tölvupóstskeytisins. Viðbótin sjálf verður uppfærð reglulega og þú munt fá tilkynningu um að ný útgáfa sé tilbúin fyrir þig í Outlook.  
+Þegar þú opnar síðan Outlook muntu sjá tölvupóst frá stjórnanda Finance and Operations, Business Edition. Nýju innbótinni er bætt við Outlook-borðann, og í Outlook Web Access er hægt að sjá hana í innbótarborðanum, beint fyrir ofan meginmál tölvupóstskeytisins. Viðbótin sjálf verður uppfærð reglulega og þú munt fá tilkynningu um að ný útgáfa sé tilbúin fyrir þig í Outlook.  
 
 Sum fyrirtæki sem nota Office 365 takmarka heimildir notenda til að taka í notkun innbætur. Því þarf að ganga úr skugga um að þú hafir Office 365 áskrift sem felur í sér tölvupóst og gerir það mögulegt að nota innbætur. Ef þú samt prófa innbæturnar geturðu [prófað Office 365 endurgjaldslaust](https://products.office.com/try).  
 

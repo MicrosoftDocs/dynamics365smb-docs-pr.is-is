@@ -13,18 +13,18 @@ ms.search.keywords: reimbursement
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 802171d4f421270cb7e9b4f9dfedec9b9fe5ddc6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92c0bca970250b8f160ecfc15b086963c8693885
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reverse-postings"></a>Hvernig skal: Bakfæra bókanir.
+# <a name="reverse-postings"></a>Bakfæra bókanir
 Til að afturkalla ranga bókun færslubókar skal velja færsluna og búa til bakfærslu (færsla sem er alveg eins og upphaflega færslan en með andstæðu tákni í reitnum fyrir upphæð) með sama skjalanúmeri og bókunardagsetningu og upphaflega færslan. Þegar færsla hefur verið bakfærð þarf að búa til rétta færslu.
 
 Aðeins er hægt að bakfæra færslu sem er bókuð frá færslubókarlínu. Færslu er einungis hægt að bakfæra einu sinni.
 
-Frekari upplýsingar um bókun frá færslubók, sjá [Hvernig skal: Bóka færslur beint í fjárhag](finance-how-post-transactions-directly.md)
+Frekari upplýsingar um bókun frá færslubók, sjá [Bóka færslur beint í fjárhag](finance-how-post-transactions-directly.md).
 
 Ef magn hefur verið ranglega neikvætt bókað, t.d. ef innkaupapöntun hefur verið gerð með röngum stykkjafjölda og síðan bókað sem móttekið en ekki reikningsfært, er hægt að ógilda bókunina.
 
@@ -68,7 +68,7 @@ Hægt er að bakfæra færslur úr öllum **Fjárhagsfærslur** gluggum. Eftirfa
 8.  Leiðrétta færsluna í **Magn** reitnum og bóka skilapöntun innkaupa aftur.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig skal: Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  
+[Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

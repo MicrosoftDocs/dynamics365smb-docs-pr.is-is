@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 19a377f9c4a41bee6aecc182774f884b1ead36ad
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b5ff96bf6b455a8c1817a6243cfba5864cf5aa8e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-fault-reporting"></a>Hvernig á að: setja upp bilanatilkynningar
+# <a name="set-up-fault-reporting"></a>Setja upp bilanatilkynningar
 Bilanatilkynningar gera þér kleift að setja fram staðla tengda tilkynningum bilanaupplýsinga fyrir þjónustuvörur. Þú getur t.d. tilgreint hvert vandamálið er, einkennin sem þú sérð, ástæðu vandamálsins og hvernig skal leysa það.  
 
-Bilanakóðar lýsa dæmigerðum bilunum í þjónustuvöru eða aðgerðir á þjónustuvöru. Eftir því hvernig bilanatilkynningum er háttað hjá fyrirtækinu kann einnig að vera nauðsynlegt að skrá bilanasvæðiskóta og einkennakóta þegar bilanakóti er skráður. Bilanasvæði lýsa svæðum með bilun í þjónustuvörur. Bilanaástæðukóta lýsa ástæðum fyrir bilun í þjónustuvöru og, ef með þarf, hvort skal útiloka ábyrgð og samningsafslátt. Til dæmis kemur til greina að útiloka ábyrgð og samningsafslátt ef viðskiptamaður var á einhvern hátt ábyrgur fyrir biluninni í þjónustuvörunni. Þú úthlutar bilanaástæðukóðar til þjónustupantana. Frekari upplýsingar, sjá [Hvernig á að vinna með þjónustuverkhluta](service-how-to-work-on-service-tasks.md)  
+Bilanakóðar lýsa dæmigerðum bilunum í þjónustuvöru eða aðgerðir á þjónustuvöru. Eftir því hvernig bilanatilkynningum er háttað hjá fyrirtækinu kann einnig að vera nauðsynlegt að skrá bilanasvæðiskóta og einkennakóta þegar bilanakóti er skráður. Bilanasvæði lýsa svæðum með bilun í þjónustuvörur. Bilanaástæðukóta lýsa ástæðum fyrir bilun í þjónustuvöru og, ef með þarf, hvort skal útiloka ábyrgð og samningsafslátt. Til dæmis kemur til greina að útiloka ábyrgð og samningsafslátt ef viðskiptamaður var á einhvern hátt ábyrgur fyrir biluninni í þjónustuvörunni. Þú úthlutar bilanaástæðukóðar til þjónustupantana. Frekari upplýsingar eru í [Vinna með þjónustuverkhluta](service-how-to-work-on-service-tasks.md).  
 
 ## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Tiltaka heildarstig bilanatilkynninga sem á að nota
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning þjónustu** og velja svo viðeigandi tengil. 

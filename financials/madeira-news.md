@@ -1,6 +1,6 @@
 ---
-title: "Nýjungar í Dynamics 365 Business edition | Microsoft Docs"
-description: "Lýsir nýjustu uppfærslum og fréttum af Dynamics 365 Business edition."
+title: "Nýjasta nýtt í Finance and Operations, Business Edition | Microsoft Docs"
+description: "Lýsir nýjustu uppfærslum og fréttum af Finance and Operations, Business Edition."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,27 +13,27 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nýjungar í Dynamics 365 for Finance and Operations, Business edition
 Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! Ef þú hefur ekki þegar gert það skaltu skrá þig í forskoðunina, leyfa okkur að fylgja þér í gegnum grunnatriði þess sem þú getur gert með [!INCLUDE[d365fin](includes/d365fin_md.md)], og eftir það prófarðu þig áfram á eigin spýtur. Þegar þér hentar getur þú opnað autt fyrirtæki og sett upp hluti eins og þú vilt hafa það.  
 
-Með reglulegu millibili uppfærum við [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótarfærni í grunnhugbúnaðinum og með nýjum [viðbætur](ui-extensions.md). Til að sjá yfirlit yfir hvað er koma og hvað er nú þegar tiltækt, sjá [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) - og muna að afmarka fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Með reglulegu millibili uppfærum við [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótarfærni í grunnhugbúnaðinum og með nýjum [viðbætur](ui-extensions.md). Til að sjá yfirlit yfir hvað er koma og hvað er nú þegar tiltækt, sjá [Finance and Operations, Business Edition Roadmap](https://roadmap.dynamics.com/)- og muna að afmarka fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Á þessari síðu er hægt að sjá hvaða svæði urðu tiltækar meðan við vorum enn í forskoðun. Í framhaldinu, finna uppfærslurnar í [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
+Á þessari síðu er hægt að sjá hvaða svæði urðu tiltækar meðan við vorum enn í forskoðun. Í framhaldinu, finna uppfærslurnar í [Finance and Operations, Business Edition Vegakortið](https://roadmap.dynamics.com/).
 
 ## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>2016 nóvember útgáfa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Eins og tilkynnt var á blogginu, erum við nú þjónustuvöru sem þú notar í þínu fyrirtækið. En þessi uppfærsla bætir einnig við nýrri færni og nýjum viðbætum.
 
 ### <a name="project-management"></a>Verkefnastjórnun
-Ef þú skipta yfir í Suite upplifun, er hægt að stjórna verkefnum og vinna með tilföng, vinnuskýrslur og verk. Þegar þú skráir þig fyrst inn í hlutverki Verkefnastjóri, mun uppsetningarleiðsögn með hjálp aðstoða þig við að setja upp hvernig þú vilt verkefnum stjórnað. Hægt er að vinna með sýniumsýsla reikninga, verk, tilföng, og þess háttar í sýnifyrirtækinu til að fá þekkingu á þessa aðgerð. Nánari upplýsingar er að finna í [Umsjón verka](projects-manage-projects.md).
+Hægt er að stjórna verkefnum og vinna með tilföng, vinnuskýrslur og verk. Þegar þú skráir þig fyrst inn í hlutverki Verkefnastjóri, mun uppsetningarleiðsögn með hjálp aðstoða þig við að setja upp hvernig þú vilt verkefnum stjórnað. Hægt er að vinna með sýniumsýsla reikninga, verk, tilföng, og þess háttar í sýnifyrirtækinu til að fá þekkingu á þessa aðgerð. Nánari upplýsingar er að finna í [Umsjón verka](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Eignir
-Ef þú skiptir yfir í Suite upplifun, geturðu stjórnað eignum, þar á meðal afskriftir og tryggingar. Staðlað uppsetning er veitt, en þú mátt breyta því ef og þegar þú vilt. Hægt er að skrá innkaup eigna í sérstakar fjárhagsbækur eigna, þar sem þú getur einnig afskráningu eigna. Réttu reikningsfærslurnar eru búnar til sjálfkrafa. Frekari upplýsingar eru í [Eignir](fa-manage.md).
+Hægt er að stjórna eignum, þar á meðal afskriftum og tryggingum. Staðlað uppsetning er veitt, en þú mátt breyta því ef og þegar þú vilt. Hægt er að skrá innkaup eigna í sérstakar fjárhagsbækur eigna, þar sem þú getur einnig afskráningu eigna. Réttu reikningsfærslurnar eru búnar til sjálfkrafa. Frekari upplýsingar eru í [Eignir](fa-manage.md).
 
 ### <a name="new-extension-for-migrating-data-from-dynamics-gp"></a>Ný viðbót til að færa gögn úr Dynamics GP
 Ef fyrirtækið notar Dynamics GP í dag er hægt að nota uppsetningarleiðsögn með hjálp til að færa aðalskrár í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þú hlýtur að hafa flutt út núverandi viðskiptamenn, lánardrottna, birgðir og reikninga með því að nota aðgerðina flytja út gögn í Dynamics GP. Dynamics GP Gagnafærsla viðbót varpar sjálfkrafa útflutt gögn svo þú getur fljótlegt fengið núverandi gögnin þín í nýja fyrirtæki þitt í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar, sjá [Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md).
@@ -52,17 +52,17 @@ Með þessum uppfærslu, geturðu sjálfkrafa samstilla vöruskrár viðskiptama
 
 ### <a name="more-flexibility-in-your-sales-processes"></a>Meiri sveigjanleika í söluferli notanda
 Þessi uppfærsla bætir meiri sveigjanleika við það sem þú selur:
-- Nú geturðu sett upp utanbirgðavöru - vörur sem þú býður viðskiptamönnum en viðheldur ekki birgðum fyrir. Frekari upplýsingar, sjá [Hvernig á að: Vinna með utanbirgðavörur](inventory-how-work-nonstock-items.md).
-- Nú er hægt að merkja vöru fyrir beinni afhendingu í sölupöntun og strax stofna innkaupapöntun fyrir vöruna. Þannig er hægt að viðskiptamaður kaupir vöru, innkaup frá lánardrottni og láta senda hana beint frá lánardrottni til viðskiptamanns þíns. Nánari upplýsingar, sjá [Hvernig á að: Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md).
+- Nú geturðu sett upp utanbirgðavöru - vörur sem þú býður viðskiptamönnum en viðheldur ekki birgðum fyrir. Frekari upplýsingar eru í [Vinna með utanbirgðavörur](inventory-how-work-nonstock-items.md).
+- Nú er hægt að merkja vöru fyrir beinni afhendingu í sölupöntun og strax stofna innkaupapöntun fyrir vöruna. Þannig er hægt að viðskiptamaður kaupir vöru, innkaup frá lánardrottni og láta senda hana beint frá lánardrottni til viðskiptamanns þíns. Nánari upplýsingar, sjá [Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Flokka vörur í birgðum
-Með þessari uppfærslu má búa til stigveldi vöruflokka og úthluta vörueigindum til hver vöruflokkur. Nánari upplýsingar má finna í [Hvernig á að: Flokka vöru](inventory-how-categorize-items.md).
+Með þessari uppfærslu má búa til stigveldi vöruflokka og úthluta vörueigindum til hver vöruflokkur. Frekari upplýsingar eru í [Flokka vörur](inventory-how-categorize-items.md).
 
 ### <a name="send-purchase-orders-to-vendors"></a>Senda innkaupapantanir til lánardrottna
-Nú má færa inn innkaupapantanir innan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í [Hvernig á að: Skrá innkaup](purchasing-how-record-purchases.md).
+Nú má færa inn innkaupapantanir innan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 
 ### <a name="better-quality-incoming-documents"></a>Betri gæði innsendra skjala
-Hægt er að nú auðveldlega leiðrétta villur í skönnuðum fylgiskjöl áður en þú móttekur endanlega skjalið - þannig venurðu þjónustuna á að forðast villurnar í framtíðinni. Frekari upplýsingar, sjá [Hvernig á að: Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)
+Hægt er að nú auðveldlega leiðrétta villur í skönnuðum fylgiskjöl áður en þú móttekur endanlega skjalið - þannig venurðu þjónustuna á að forðast villurnar í framtíðinni. Frekari upplýsingar eru í [Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md).
 
 ## <a name="august-2016-update"></a>Uppfærsla ágúst 2016
 Þessi uppfærsla af [!INCLUDE[d365fin](includes/d365fin_md.md)] bætti við nýrri færni eins og [tilkynnt var á blogginu](https://community.dynamics.com/business/b/financials/archive/2016/08/29/new-and-updated-capabilities-in-the-august-update-of-project-quot-madeira-quot).
@@ -90,10 +90,10 @@ Við réðum gerðar nokkrar litlar en mikilvægt endurbætur á sölu- og innka
 Outlook-innbót nær nú yfir í Outlook-dagbókina. Úr erindi í dagatali, er hægt að opna [!INCLUDE[d365fin](includes/d365fin_md.md)] innbótina og sækja yfirlit fyrir viðskiptamanninn sem erindið tengist við. Síðan er hægt að stofna og senda reikning fyrir þjónustu sem veitt var á fundinum - allt þetta gerist í þarna Outlook-dagbókinni. Nánari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnboxið þitt í Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource marketplace fyrir viðbætur
-[!INCLUDE[d365fin](includes/d365fin_md.md)] viðbætur er nú tiltækar á AppSource markaðstorginu á [AppSource.microsoft.com](https://appsource.microsoft.com/). Þú munt geta leita að og fundið viðbætur þar. Þú munt geta skoðað upplýsingarnar, þar á meðal markaðssetningarefni, skjámyndir, myndskeið og tengla að öðrum upplýsingum. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  viðbætur er nú tiltækar á AppSource markaðstorginu á [AppSource.microsoft.com](https://appsource.microsoft.com/). Þú munt geta leita að og fundið viðbætur þar. Þú munt geta skoðað upplýsingarnar, þar á meðal markaðssetningarefni, skjámyndir, myndskeið og tengla að öðrum upplýsingum. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Flutningsaðilar og vörueigindir
-Hægt er að bæta eigindum við vörur í birgðaskrá sem gera þér virkilega auðvelt að finna réttu varan sem viðskiptamaðurinn vill. Frekari upplýsingar eru í [hvernig á að: vinna með vörueigindir](inventory-how-work-item-attributes.md).  
+Hægt er að bæta eigindum við vörur í birgðaskrá sem gera þér virkilega auðvelt að finna réttu varan sem viðskiptamaðurinn vill. Frekari upplýsingar eru í [Vinna með vörueigindir](inventory-how-work-item-attributes.md).  
 
 ### <a name="new-extensions-made-available"></a>Nýjar viðbætur gerðar tiltækar
 Með þessari uppfærslu er hægt að velja milli jafnvel fleiri viðbætur í glugganum **Viðbótastjórnun**.
@@ -129,5 +129,5 @@ Helstu aðstæður sem þú ættir að kynna þér upp á eigin spýtur:
 ## <a name="see-also"></a>Sjá einnig
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
+[Finance and Operations, Business Edition Roadmap](https://roadmap.dynamics.com/)  
 

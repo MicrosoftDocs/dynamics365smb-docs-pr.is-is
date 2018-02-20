@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b7617a0ac027b6d50c9029f386af3fe293e3bc7d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ca8cf74ca844b2ec0119497e79ccfc7cc7df5026
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-sell-items-assembled-to-order"></a>Hvernig á að selja sem eru settar saman í pöntun
+# <a name="sell-items-assembled-to-order"></a>Selja hluti sem eru settir saman í pöntun
 Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvörunnar er **Samsetning til pöntunar** er ekki gert ráð fyrir því að varan sé í birgðum og þá þarf að setja hana saman fyrir þessa sölupöntun. Þegar varan er sett inn í sölupöntunarlínu er samsetningarpöntun síðan búin til sjálfkrafa og tengd við sölupöntunina.  
 
 > [!NOTE]  
->  Ef einhverjar samsetningarpöntunarvörur eru þegar í birgðum er hægt að draga það magn frá samsetningarpöntuninni og taka það frá í birgðum. Frekari upplýsingar, sjá [Hvernig á að selja birgðavörur með flæði samsetningarpantana](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
+>  Ef einhverjar samsetningarpöntunarvörur eru þegar í birgðum er hægt að draga það magn frá samsetningarpöntuninni og taka það frá í birgðum. Frekari upplýsingar eru í [Selja birgðavörur í flæðum samsetningar í pöntun](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
 Í þessu ferli er sala vöru sem verður sett saman samkvæmt óskum viðskiptamannsins meðhöndluð. Skrefin eru meðal annars að hefja sölupöntunarlínuna, sérsníða samsetningarvöruna með því að breyta íhlutum hennar og forða, athuga hvað er til ráðstöfunar til að ákveða skiladag og gefa út sölupöntun sem setja má saman og afhenda tafarlaust.  
 
@@ -32,7 +32,7 @@ Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvörunnar er *
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Til að selja vöru sem er sett saman í pöntun  
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.  
-2.  Stofnið sölupöntun. Nánari upplýsingar eru í [Hvernig á að: selja vörur.](sales-how-sell-products.md)  
+2.  Stofnið sölupöntun. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).  
 3.  Í reitnum **númer** færið inn vöru sem stillt eru til að setja saman í pöntun.  
 4.  Í reitnum **Kóti birgðageymslu** er tilgreind sú birgðageymsla sem varan mun verða seld frá. Samsetningarferlið fer fram í þeirri birgðageymslu.  
 5.  Í reitnum **Magn** er fært inn hversu margar einingar á að selja.  
@@ -42,7 +42,7 @@ Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvörunnar er *
 
     Samsetningarpöntun er nú stofnuð sjálfkrafa og tengd við sölupöntunarlínuna. Gjalddagi þessarar samsetningarpöntunar er samstilltur við afhendingardagsetningu sölupöntunarlínunnar.  
 
-    Magnið sem á að selja er afritað í reitinn **Magn Til að setja saman í pöntun**, sem þýðir að uppsetning vörunnar býst við að allt magn í sölulínunni sé sett saman í pöntunina. Hægt er að minnka magnið til að setja saman í pöntun, t. d. ef vitað er að sumar vörur eru þegar til staðar. Frekari upplýsingar, sjá [Hvernig á að selja birgðavörur með flæði samsetningarpantana](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
+    Magnið sem á að selja er afritað í reitinn **Magn Til að setja saman í pöntun**, sem þýðir að uppsetning vörunnar býst við að allt magn í sölulínunni sé sett saman í pöntunina. Hægt er að minnka magnið til að setja saman í pöntun, t. d. ef vitað er að sumar vörur eru þegar til staðar. Frekari upplýsingar eru í [Selja birgðavörur í flæðum samsetningar í pöntun](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
 6.  Til að gefa til kynna að viðskiptavinur vill aukavöru í setti er farið í flýtiflipann **Línur** , aðgerðin **Lína** valin, síðan **Sameina í pöntun** aðgerðin og svo **Sameina-í-pöntun línur** aðgerðin til að skoða og breyta stöðluðum samsetningaríhlutum. Að öðrum kosti skal velja reitinn **Magn til samsetningar til pöntunar**.  
 7.  Í glugganum **Setja saman í pöntunarlínur** stofnið nýja tegund línu **Atriði** vegna viðbótarinnihalds setts sem beðið var um. Línan stendur fyrir annan samsetningaríhlut.  
@@ -57,11 +57,11 @@ Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvörunnar er *
 8.  Fara skal yfir eða bregðast við vandamálum með ráðstöfun íhluta. Veljið til dæmis tiltæka staðgengdarvöru eða komið á nýjum gjalddaga.  
 9. Loka glugganum **Setja saman í pöntunarlínur**. Tengda samsetningarpöntunin er nú tilbúin til að hefja samsetningu sérsniðnu vörunnar eftir gjalddaganum.  
 10. Á sölupöntuninni skal velja **Losa** aðgerðina til að tilkynna samsetningardeildinni að sem samsetningarferlið geti hafist.  
-11. Í samsetningardeildinni, framkvæmið aðgerðir samsetningu varanna sem seldar eru í þessu ferli. Frekari upplýsingar, sjá [Hvernig skal: Setja saman vörur](assembly-how-to-assemble-items.md).  
+11. Í samsetningardeildinni, framkvæmið aðgerðir samsetningu varanna sem seldar eru í þessu ferli. Nánari upplýsingar, sjá [Sameina vörur](assembly-how-to-assemble-items.md).  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Samsetningardeild](assembly-assemble-items.md)  
-[Hvernig á að: Vinna með uppskriftir](inventory-how-work-BOMs.md)  
+[Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

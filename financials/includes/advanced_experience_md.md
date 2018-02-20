@@ -1,1 +1,1 @@
-<blockquote STYLE="background: #81BEF7;border-left:None"><b>ÍTARLEGT</b><br />Þessi virkni er eingöngu tiltæk með Ítarlegri upplifun. Nánari upplýsingar má sjá í [Sérstilling eigin Dynamics 365 Business edition upplifun](../ui-experiences.md) </blockquote>
+<blockquote STYLE="background: #81BEF7;border-left:None"><b>ÍTARLEGT</b><br />Þessi virkni er eingöngu tiltæk með Ítarlegri upplifun. Frekari upplýsingar eru í [Sérstilling Finance and Operations, Business Edition upplifunar](../ui-experiences.md) </blockquote>

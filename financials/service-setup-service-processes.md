@@ -13,13 +13,13 @@ ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, 
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 708569e88d443f1dc4f1d17d8015da98cf186e6d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 87a18af2c88955d4d0b78eb37fea161e3332c4b3
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-configure-service-processes"></a>Hvernig skal: Grunnstilla þjónustuferli
+# <a name="configure-service-processes"></a>Grunnstilling þjónustuferlis
 Hér eru nokkur dæmi um stillingar sem hægt er að nota í þjónustustýringarferli:  
   
 * Sumar heildarstillingar fyrir hin ýmsu ferli, eins og t.d. viðvaranir, næsti þjónustuútreikningur fyrir þjónustuvörur, startkostnaður til að ákveða, stig bilanatilkynninga sem á að nota osfrv.  
@@ -33,10 +33,10 @@ Hér eru nokkur dæmi um stillingar sem hægt er að nota í þjónustustýringa
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: setja upp bilanatilkynningar](service-how-setup-fault-reporting.md)  
-[Hvernig á að: Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)  
-[Hvernig á að setja upp Kóta fyrir Staðlaða þjónustu](service-how-setup-service-coding.md)  
-[Hvernig skal: Setja upp aukakostnað fyrir þjónustu](service-how-setup-service-costs-pricing.md)  
-[Hvernig á að setja upp úrræðaleit](service-how-setup-troubleshooting.md)  
+[Setja upp bilanatilkynningar](service-how-setup-fault-reporting.md)  
+[Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)  
+[Setja upp Kóta fyrir Staðlaða þjónustu](service-how-setup-service-coding.md)  
+[Setja upp aukakostnað fyrir þjónustu](service-how-setup-service-costs-pricing.md)  
+[Setja upp úrræðaleit](service-how-setup-troubleshooting.md)  
 [Þjónustukerfi](service-service.md)  
 

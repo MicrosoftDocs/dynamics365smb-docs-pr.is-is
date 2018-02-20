@@ -13,14 +13,14 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9c60f65b65c7037b4ce26212cfe80e7b7f1b1336
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 34283487641e7b249b556cec834531582c58af7a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="delivering-service"></a>Þjónustuafhending
-[!INCLUDE[d365fin](includes/d365fin_md.md)] hefur eiginleika sem hjálpa til við afhendingu þjónustu samkvæmt þeim samningum sem stofnaðir hafa verið og þeim þjónustupöntunum sem uppfylla skal. Auðvelt er fyrir þjónustutæknimenn eða afgreiðslu að finna þjónustupantanir með **Afgreiðslustöð**. Í stuttu máli sýnir **Afgreiðslustöð** hvaða pantanir eru í vinnslu og hvaða pantanir eru tilbúnar.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  hefur eiginleika sem hjálpa til við afhendingu þjónustu samkvæmt þeim samningum sem stofnaðir hafa verið og þeim þjónustupöntunum sem uppfylla skal. Auðvelt er fyrir þjónustutæknimenn eða afgreiðslu að finna þjónustupantanir með **Afgreiðslustöð**. Í stuttu máli sýnir **Afgreiðslustöð** hvaða pantanir eru í vinnslu og hvaða pantanir eru tilbúnar.  
   
 Önnur leið til að fara yfir þjónustupantanir í undirbúningi er að nota gluggann **Þjónustuverkhlutar**. Í þessu yfirliti þjónustuskuldbindinga er hægt að sjá hvar pöntun er í verkflæði þjónustu, og breytt þeirri stöðu til að spegla samskipti við viðskiptamanninn.  
   
@@ -34,13 +34,13 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
   
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Stofna tilboð sem eru drög að þjónustupöntunum, og breyta svo tilboðunum yfir í þjónustupantanir.|[Hvernig á að stofna Þjónustutilboð](service-how-to-create-service-quotes.md)|
-|Stofna skjöl sem innihalda upplýsingar um þjónustu, eins og viðgerðir og viðhald, á þjónustuvörum.|[Hvernig á að stofna Þjónustupantanir](service-how-to-create-service-orders.md)|
-|Afhending þjónustu er áætluð með **Afgreiðslustöð**. Einnig er hægt að nota verkfæri verkefnastjórnunar í deildinni Verk til aðstoða við áætlun.|[Hvernig á að: Úthluta forða](service-how-to-allocate-resources.md)|  
-|Afhenda þjónustu til viðskiptamanna með því að framkvæma þjónustuverkhlutar.|[Hvernig á að vinna með þjónustuverkhluta](service-how-to-work-on-service-tasks.md)|  
-|Bóka þjónustupantanir fyrir þjónustu, svo bókhaldið stemmi.|[Hvernig skal: bóka þjónustupantanir og kreditreikninga](service-how-to-post-service-orders.md)|  
-|Stofna og bóka reikninga fyrir þjónustu sem þú hefur afhent.|[Hvernig á að: stofna Þjónustureikninga eða kreditreikninga](service-how-create-invoices.md)|  
-|Halda viðskiptamönnum ánægðum með því að lána þeim vöru á meðan þú vinnur í þeirra.| [Hvernig skal: Lána og taka á móti lánsbúnaði](service-how-to-lend-receive-loaners.md)|
+|Stofna tilboð sem eru drög að þjónustupöntunum, og breyta svo tilboðunum yfir í þjónustupantanir.|[Stofna þjónustutilboð](service-how-to-create-service-quotes.md)|
+|Stofna skjöl sem innihalda upplýsingar um þjónustu, eins og viðgerðir og viðhald, á þjónustuvörum.|[Stofna þjónustupantanir](service-how-to-create-service-orders.md)|
+|Afhending þjónustu er áætluð með **Afgreiðslustöð**. Einnig er hægt að nota verkfæri verkefnastjórnunar í deildinni Verk til aðstoða við áætlun.|[Úthluta forða](service-how-to-allocate-resources.md)|  
+|Afhenda þjónustu til viðskiptamanna með því að framkvæma þjónustuverkhlutar.|[Vinna við þjónustuverk](service-how-to-work-on-service-tasks.md)|  
+|Bóka þjónustupantanir fyrir þjónustu, svo bókhaldið stemmi.|[Bóka þjónustupantanir og kreditreikninga](service-how-to-post-service-orders.md)|  
+|Stofna og bóka reikninga fyrir þjónustu sem þú hefur afhent.|[Stofna Þjónustureikninga eða kreditreikninga](service-how-create-invoices.md)|  
+|Halda viðskiptamönnum ánægðum með því að lána þeim vöru á meðan þú vinnur í þeirra.| [Lána og taka á móti lánsbúnaði](service-how-to-lend-receive-loaners.md)|
   
 ## <a name="see-also"></a>Sjá einnig  
 [Áætla þjónustu](service-plan-service.md)  

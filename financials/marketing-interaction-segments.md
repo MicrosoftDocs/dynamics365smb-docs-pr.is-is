@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 899bdda7448810b029216c66402b739004193a61
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 09748a2bc86a945ff26e581738f85bc6d55b777d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Vinna með samskipti fyrir hluta
@@ -45,8 +45,8 @@ Upplýsingar um samskiptin sem varða hlutann geta birst á **hlutahausnum**. Ti
 Í glugganum **Skráðir hlutar** er hægt ákveða að stofna eftirfylgnihluta með sömu tengiliðum og í skráða hlutanum.
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að stofna hluta](marketing-how-create-segment.md)  
-[Hvernig á að stofna Samskipti fyrir hluta](marketing-how-create-interactions.md)  
+[Stofna hluta](marketing-how-create-segment.md)  
+[Samskipti stofnuð fyrir hluta](marketing-how-create-interactions.md)  
 [Umsjón hluta](marketing-segments.md)  
 [Skrá samskipti við tengiliði](marketing-interactions.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  

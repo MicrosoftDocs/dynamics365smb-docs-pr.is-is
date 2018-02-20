@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d87e01cb987a019c6e71b50dcdeae55dc0375146
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d8622d11cd23e506d1b85b18dbe5facb740c7753
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Dæmi: Skilgreining kvikrar úthlutunar á grundvelli seldra vara
@@ -43,11 +43,11 @@ ms.lasthandoff: 11/10/2017
 14. Veljið **Reikna úthlutunarlykil** aðgerðina til að reikna út hlutinn.  
 
     > [!IMPORTANT]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] notar sölutölur fyrri ára til að reikna hlut 1596.50 SGM með 100 prósentum fyrir pakka IT EQUIPMENT. Þetta merkir að öllum seldum vörum síðasta árs verður úthlutað á kostnaðarhlutinn IT EQUIPMENT.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  notar sölutölur fyrri ára til að reikna hlut 1596.50 SGM með 100 prósentum fyrir pakka IT EQUIPMENT. Þetta merkir að öllum seldum vörum síðasta árs verður úthlutað á kostnaðarhlutinn IT EQUIPMENT.  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Uppsetning afmarkanir fyrir Kvik úthlutunargrunnar.](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [Hvernig á að setja upp uppruna og markhópa úthlutanna](finance-how-to-set-up-allocation-source-and-targets.md)   
+ [Setja upp uppruna og markhópa úthlutanna](finance-how-to-set-up-allocation-source-and-targets.md)   
  [Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)   
  [Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)   
  [Um kostnaðarbókhald](finance-about-cost-accounting.md)

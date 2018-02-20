@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 1ca27811bef8e04fa96ccd920ca9b7327ad4d849
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3632aba536d15fb975c0672eef18ae03181c7727
 ms.contentlocale: is-is
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-production-orders"></a>Um framleiðslupantanir
@@ -58,7 +58,7 @@ Framleiðslupantanir eru sjálfkrafa teknar frá og raktar aftur til uppruna sí
 -   Stofnaðar í glugganum **Pantanaáætlun**  
 -   Nota aðgerðina **Enduráætla** á framleiðslupantanir  
 
-Frekari upplýsingar, sjá [Hvernig skal: Rekja tengsl á milli framboðs og eftirspurnar](production-how-track-demand-supply.md).
+Frekari upplýsingar eru í [Rekja tengsl á milli framboðs og eftirspurnar](production-how-track-demand-supply.md).
 
 Framleiðslupantanir sem eru stofnaðar eftir öðrum leiðum eru ekki sjálfkrafa teknar frá og raktar.   
 

@@ -12,13 +12,13 @@ ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b9256944295880d6ec9dad916eb9632b9d5f7c20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2969b3168f063e636455dd67457c01ed89a0727d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Hvernig á að: Vinna með Utanbirgðavörur
+# <a name="work-with-nonstock-items"></a>Vinna með Utanbirgðavörur
 Þú getur boðið viðskiptamaður þínum tilteknar vörur til þeim til hæginda, vörur sem þú vilt ekki geyma í birgðum fyrr en þú byrjar að selja þær. Þegar á að byrja að viðhalda slíkum vörum í birgðum, er hægt að breyta þeim í venjulegur birgðaspjöld á tvo vegu.
 
 * Úr utanbirgðaspjaldi skal stofna nýtt birgðaspjald á grundvelli sniðmáts.
@@ -29,29 +29,29 @@ ms.lasthandoff: 09/22/2017
 
 Utanbirgðavara hefur yfirleitt vörunúmer þess lánardrottins sem sér um að veita hana. Til að virkja umbreytingu utanbirgðaspjalds í venjulegur birgðaspjald, þarf fyrst að setja upp hvernig númeraröð lánardrottins er breytt í eigin númeraröð vöru.   
 
-## Stofna utanbirgðavöru
+## <a name="to-create-a-nonstock-item"></a>Stofna utanbirgðavöru
 Utanbirgðavöruspjöld hafa mikið minni upplýsingar en venjulegur birgðaspjöldum þar sem þær eru aðeins boðnar gegn tilboðum og með öðrum hætti. Af þeirri ástæðu þær þarf að umbreyta þeim í venjulegur birgðaspjöldum áður en hægt bóka sölufærslur fyrir þá.
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Utanbirgðavörur** og velja svo viðeigandi tengil.
 2. Valið er **Nýtt** aðgerð.
 3. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Setja upp hvernig utanbirgðavörunúmerum er breytt í eigin númeraröð
+## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a>Setja upp hvernig utanbirgðavörunúmerum er breytt í eigin númeraröð
 Til að virkja umbreytingu utanbirgðaspjalds í venjulegt birgðaspjald, þarf fyrst að setja upp hvernig númeraröð lánardrottins er breytt í eigin númeraraðasnið.
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Utanbirgðavörur Uppsetning** og velja svo viðeigandi tengil.
 2. Fyllið inn í reitina eftir þörfum.
 
-## Breyta utanbirgðavara í venjulega vöru
+## <a name="to-convert-a-nonstock-item-to-a-normal-item"></a>Breyta utanbirgðavara í venjulega vöru
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Utanbirgðavörur** og velja svo viðeigandi tengil.
 2. Opna spjald fyrir utanbirgðavara sem þú vilt umbreyta í venjulega vöru.
 3. Í glugganum **utanbirgðavöruspjald** er valið **Stofna vara** aðgerð.
 
-Stofnuð eru Nýtt birgðaspjald með sem er forútfyllt með upplýsingum úr utanbirgðavara og viðeigandi vörusniðmát. Hægt er síðan að fylla inn í eða breyta reitum á nýja birgðaspjaldinu eins og þörf krefur. Nánari upplýsingar eru í [Hvernig á að: Skrá nýjar vörur](inventory-how-register-new-items.md).
+Stofnuð eru Nýtt birgðaspjald með sem er forútfyllt með upplýsingum úr utanbirgðavara og viðeigandi vörusniðmát. Hægt er síðan að fylla inn í eða breyta reitum á nýja birgðaspjaldinu eins og þörf krefur. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
-## Selja utanbirgðavara og breyta henni í venjulega vöru
+## <a name="to-sell-a-nonstock-item-and-convert-it-to-a-normal-item"></a>Selja utanbirgðavara og breyta henni í venjulega vöru
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.
-2. Valið er **Nýtt** aðgerð. Fylltu út reitina á flýtiflipanum **Almennt** eins og fyrir hvaða sölustað sem er. Nánari upplýsingar eru í [Hvernig á að: selja vörur.](sales-how-sell-products.md)
+2. Valið er **Nýtt** aðgerð. Fylltu út reitina á flýtiflipanum **Almennt** eins og fyrir hvaða sölustað sem er. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
 3. Á nýjum sölulínum, í reitnum **Gerð**, veldu **vöru** en skildu eftir **Nr.** að vera auður.
 4. Veldu aðgerðina **Lína** og veldu síðan **Velja utanbirgðavörur**.
 
@@ -59,14 +59,14 @@ Stofnuð eru Nýtt birgðaspjald með sem er forútfyllt með upplýsingum úr u
 5. Í **utanbirgðavara** glugganum, veljið utanbirgðavöruna sem þú vilt selja og veljið svo hnappinn **Í lagi**.
 6. Þegar sölupöntunarlínunum er lokið, skal velja **bóka** aðgerðina.
 
-Hægt er síðan að fylla inn í eða breyta reitum á nýja birgðaspjaldinu eins og þörf krefur. Nánari upplýsingar eru í [Hvernig á að: Skrá nýjar vörur](inventory-how-register-new-items.md).
+Hægt er síðan að fylla inn í eða breyta reitum á nýja birgðaspjaldinu eins og þörf krefur. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
 > [!NOTE]  
 >   Tilvísunarskrá yfir vöru er sjálfkrafa búin til fyrir lánardrottinn vörunnar á milli vörunúmers lánardrottins og nýja vörunúmers þíns.
 
-## Sjá einnig
-[Hvernig á að Skrá nýjar vörur](inventory-how-register-new-items.md)  
-[Hvernig á að stofna sérpöntun](sales-how-to-create-special-orders.md)|  
+## <a name="see-also"></a>Sjá einnig
+[Skrá nýjar vörur](inventory-how-register-new-items.md)  
+[Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)|  
 [Birgðir](inventory-manage-inventory.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

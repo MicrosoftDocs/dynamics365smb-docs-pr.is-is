@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 99c3ac10460a62ee23294cfd0d8c25709c37901b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f1ced6c90333c1da9cbd148f199debdc70ed5a46
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-put-aways-in-worksheets"></a>Hvernig á að áætla frágang á vinnublöðum
+# <a name="plan-put-aways-in-worksheets"></a>Áætla frágang á vinnublöðum
 Ef birgðageymslan krefst bæði frágangs- og móttökuvinnslu og áætla á frágangsleiðbeiningar fyrir margar móttökur, í stað þess að fara eftir leiðbeiningum sem stofnaðar eru fyrir einstakar bókaðar móttökur, er hægt að nota frágangsvinnublaðið.  
 
 Eigi að setja vöruhúsið þannig upp að móttökulínur séu tiltækar á frágangsvinnublaðinu um leið og þær hafa verið bókaðar þarf að setja gátmerki í reitinn **Nota vinnublað frágangs** á flýtiflipanum **Vöruhús** á birgðageymsluspjaldinu. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).  
@@ -58,7 +58,7 @@ Ef gátmerki er ekki sett í þennan reit eru frágangsleiðbeiningar stofnaðar
 
     -   Hægt er að úthluta fráganginum á tiltekinn starfsmann.  
     -   Hægt er að raða frágangsleiðbeiningalínum eins og gert var á vinnublaðinu eða eftir flokkun hólfa. Þegar raðað er eftir flokkun hólfa birtast Taka-línurnar fyrst þar sem flestar móttökulínurnar hafa hólfaflokkunina 0 og Setja línurnar birtast síðast í hækkandi röð eftir hólfaflokkun. Hafi vöruhúsið verið skipulagt þannig að hólf með svipaða flokkun séu næst hvert öðru, sparar röðun með þessum hætti starfsmönnunum sporin.  
-    -   Hægt er að fela millilínurnar sem stofnaðar eru þegar kerfið skiptir stórri mælieiningu í smærri mælieiningar með því að velja reitinn **Setja einingaskiptaafmörkun**. Frekari upplýsingar, sjá [Hvernig skal: Virkja sjálfvirk einingaskipti með beinum frágangi og tínslu] (vöruhús_virkja_sjálfvirk_einingaskipti_með_beinum_frágangi_og_tínslum_md).  
+    -   Hægt er að fela millilínurnar sem stofnaðar eru þegar kerfið skiptir stórri mælieiningu í smærri mælieiningar með því að velja reitinn **Setja einingaskiptaafmörkun**. Frekari upplýsingar, sjá [Virkja sjálfvirk einingaskipti með beinum frágangi og tínslu] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Hægt er að velja að ekki sé sjálfkrafa fyllt út í reitinn **Magn til afgreiðslu** í frágangsleiðbeiningunum.  
     -   Hægt er að prenta skjalið strax.  
 

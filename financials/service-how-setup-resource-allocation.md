@@ -13,14 +13,14 @@ ms.search.keywords: resource, skill, service, zones
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6c20c0b346186adad6e4b125dbd48bd0d3f56ab2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b16ba9366aefc108f39667678fe8ab70ce421b83
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-resource-allocation"></a>Hvernig á að: Setja upp forðaúthlutun
+# <a name="set-up-resource-allocation"></a>Setja upp forðaúthlutun
 Til að tryggja að þjónustuverkhluti sé framkvæmdur svo vel sé, er mikilvægt að finna tilfang sem er hæft til starfans. Þú getur sett upp [!INCLUDE[d365fin](includes/d365fin_md.md)] svo það sé auðvelt að úthluta verkinu til einhvers sem er hæfur til þess. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er þetta nefnt _Forðaúthlutun_. Hægt er að úthluta til tilfanga út frá hæfni þeirra, tiltækileika, eða hvort þau eru á sama þjónustusvæði og viðskiptamaðurinn. 
 
 Til að  nota forðaúthlutun skal setja upp:  
@@ -80,10 +80,10 @@ Ef þú vilt breyta hæfniskóðum sem vörum hefur verið úthlutað, til dæmi
     * Eyða sérþekkingarkótunum eða uppfæra tengsl þeirra: Þessi kostur er valinn ef aðeins á að breyta sérþekkingarkótanum í þessari vöru. Sérþekkingarkótanum í tengdum þjónustuvörum verður endurúthlutað, það er, reiturinn **Úthlutað frá** verður uppfærður.  
   
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að: Úthluta forða](service-how-to-allocate-resources.md)  
-[Hvernig skal: Setja upp vinnustundir og þjónustustundir](service-how-setup-work-service-hours.md)  
-[Hvernig á að: setja upp bilanatilkynningar](service-how-setup-fault-reporting.md)  
-[Hvernig á að setja upp Kóta fyrir Staðlaða þjónustu](service-how-setup-service-coding.md)  
+[Úthluta forða](service-how-to-allocate-resources.md)  
+[Setja upp vinnustundir og þjónustustundir](service-how-setup-work-service-hours.md)  
+[Setja upp bilanatilkynningar](service-how-setup-fault-reporting.md)  
+[Setja upp Kóta fyrir Staðlaða þjónustu](service-how-setup-service-coding.md)  
  
 
 

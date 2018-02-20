@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 069f621101023a3c57b7add4d4e3ffcbc2664845
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fixed-assets"></a>Eignir
@@ -31,10 +31,7 @@ Hægt er að skrá viðhaldskostnað fyrir hverja eign og næstu þjónustudagse
 Tengja má hverja eign einum eða fleiri vátryggingarskilmálum. Auðvelt er því að sannprófa að upphæðir í vátryggingarskilmálum séu í samræmi við verðmæti eignanna sem þeir eiga við. Það auðveldar því eftirlit með árlegum iðgjöldum af vátryggingum.
 
 > [!NOTE]  
->   Hægt er að skrá eignafærslur í **Fjárhagsbók eigna** gluggann eða í **færslubók eigna** gluggann, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á **fjárhagsbók eigna** glugginn. Nánari upplýsingar er að finna í [Hvernig á að setja upp afskriftir eigna](fa-how-setup-depreciation.md).
-
-> [!NOTE]  
->   Þessi virkni krefst þess að upplifun þín sé stillt á **Suite**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
+>   Hægt er að skrá eignafærslur í **Fjárhagsbók eigna** gluggann eða í **færslubók eigna** gluggann, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á **fjárhagsbók eigna** glugginn. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).
 
 Áður en þú getur byrjað að stjórna eignum, verður þú að setja upp sjálfgefið gildi, eignabókhald, bókunarflokka, úthlutunarlykla, færslubækur og bókunargerðir. Nánari upplýsingar eru í [Uppsetning eigna](fa-setup.md).
 
@@ -42,14 +39,14 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 | Til | Sjá |
 | --- | --- |
-| Stofna eignir, úthluta afskriftaaðferðum, bóka eignakaup, hrakvirði og prenta eignalista. |[Hvernig á að: Kaupa eignir](fa-how-acquire.md) |
-| Skrá þjónustuheimsóknir, bókun viðhaldskostnaðar og fylgjast með viðhaldskostnaði. |[Hvernig á að: viðhalda eignum](fa-how-maintain.md) |
-| Uppfæra vátryggingarupplýsingar, bóka stofnkostnað á vátryggingarskilmála, breyta vátryggingasviði, skoða vátryggingaupplýsingar og gera lista yfir vátryggingaskírteini. |[Hvernig á að: Tryggja eignir](fa-how-insure.md) |
-| Endurflokka eignir, flytja eignir á aðra staði, skipta upp eignum eða sameina þær. |[Hvernig á að: Flytja, skipta eða sameina eignir](fa-how-trans-split-combine.md) |
-| Leiðrétta verð eigna, bóka afskriftir og bóka niðurfærslur. |[Hvernig á að: endurmeta eignir](fa-how-revalue.md) |
-| Reikna út afskriftir, bóka afskriftir og greina afskriftir í eignaskýrslur. |[Hvernig á að: Afskrifa eða greiða af eignum](fa-how-depreciate-amortize.md) |
-| Bóka afskráningarfærslur, skoða afskráningarbókarfærslur og bóka afskráningar að hluta. |[Hvernig á að: afskrá eða innkalla eignir](fa-how-dispose-retire.md) |
-| Stjórna fjárhagsáætlana eigna, áætlun stofnkostnaðar, áætlun afskráninga eigna og áætlun afskrifta. |[Hvernig á að: Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md) |
+| Stofna eignir, úthluta afskriftaaðferðum, bóka eignakaup, hrakvirði og prenta eignalista. |[Komast yfir eignir](fa-how-acquire.md) |
+| Skrá þjónustuheimsóknir, bókun viðhaldskostnaðar og fylgjast með viðhaldskostnaði. |[Umsjón eigna](fa-how-maintain.md) |
+| Uppfæra vátryggingarupplýsingar, bóka stofnkostnað á vátryggingarskilmála, breyta vátryggingasviði, skoða vátryggingaupplýsingar og gera lista yfir vátryggingaskírteini. |[Tryggja eignir](fa-how-insure.md) |
+| Endurflokka eignir, flytja eignir á aðra staði, skipta upp eignum eða sameina þær. |[Flytja, skipta upp eða sameina eignir](fa-how-trans-split-combine.md) |
+| Leiðrétta verð eigna, bóka afskriftir og bóka niðurfærslur. |[Endurmeta eignir](fa-how-revalue.md) |
+| Reikna út afskriftir, bóka afskriftir og greina afskriftir í eignaskýrslur. |[Afskrifa eða greiða af eignum](fa-how-depreciate-amortize.md) |
+| Bóka afskráningarfærslur, skoða afskráningarbókarfærslur og bóka afskráningar að hluta. |[Afskrá eða innkalla eignir](fa-how-dispose-retire.md) |
+| Stjórna fjárhagsáætlana eigna, áætlun stofnkostnaðar, áætlun afskráninga eigna og áætlun afskrifta. |[Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning eigna](fa-setup.md)  
@@ -58,4 +55,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+

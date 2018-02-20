@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 08/09/2017
+ms.date: 01/25/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 87a55a215f4db857d390033fb6954c06b210be8c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4056d901739ba5cb4eaf1eb38f5cb4089012c941
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="manage-human-resources"></a>Hafa umsjón með mannauði
@@ -24,17 +24,14 @@ ms.lasthandoff: 09/22/2017
 
 Einnig er hægt að skrá fjarvistir starfsmanns sem býður upp á að greina skráða fjarveru eins og þurfa þykir.
 
-> [!NOTE]  
-> Þessi virkni krefst þess að upplifun þín sé stillt á **Suite**. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
-
 Setja þarf upp starfsmenn og aðrar grunnupplýsingar til að hefjast handa við að nota Starfsmannahald. Síðan er hægt að tengja mismunandi kóða við starfsmann sem býður upp á að afmarka upplýsingar og skoða sérstaka starfsmenn.
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
 | Til | Sjá |
 | --- | --- |
-| Skráið nýja starfsmenn eða breytið skrám fyrirliggjandi starfsmanna, og tengið viðeigandi upplýsingar við, svo sem samninga og greinar. |[Hvernig á að: Skrá starfsmenn](hr-how-register-employees.md) |
-| Skráið fjarvistir starfsmanna og skoðið tölfræðilega upplýsingar um fjarvistir með mismunandi síum. |[Hvernig á að: Halda utan um fjarveru starfsmanna](hr-how-manage-absence.md) |
+| Skráið nýja starfsmenn eða breytið skrám fyrirliggjandi starfsmanna, og tengið viðeigandi upplýsingar við, svo sem samninga og greinar. |[Skrá starfsmenn](hr-how-register-employees.md) |
+| Skráið fjarvistir starfsmanna og skoðið tölfræðilega upplýsingar um fjarvistir með mismunandi síum. |[Haldið utan um fjarvistir starfsmanna](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  

@@ -1,6 +1,6 @@
 ---
 title: "Flytja út gögn úr Financials í Excel | Microsoft Docs"
-description: "Þú getur flutt út fjárhagsskýrslur og gögn um viðskiptagreind úr Dynamics 365 Business edition yfir í Excel, eða opnað Financials gögnin í Excel."
+description: "Þú getur flutt út fjárhagsskýrslur og gögn um viðskiptagreind frá Finance and Operations, Business Edition yfir í Excel, eða opnað Financials gögnin í Excel."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 36d3e31300fbdc3a29f345a331cabbf50875c77f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6f82017a0e5178e39b5c06e4d52c6e35ec84d848
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Flutningur viðskiptagagna í Excel
-Ef ætlunin er að vinna með gögn frá [!INCLUDE[d365fin](includes/d365fin_md.md)] í Excel, er hægt að opna alla lista í Excel og vinna með þá þar. Með sama hætti, ef notandi vill hætta í áskrift að [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] getur hann flutt gögnin sín út í Excel svo hann geti tekið þau með sér.
+Ef ætlunin er að vinna með gögn frá [!INCLUDE[d365fin](includes/d365fin_md.md)] í Excel, er hægt að opna alla lista í Excel og vinna með þá þar. Með sama hætti, ef notandi vill hætta í áskrift að [!INCLUDE[d365fin](includes/d365fin_md.md)] getur hann flutt gögnin sín út í Excel svo hann geti tekið þau með sér.
 
 ## <a name="opening-lists-in-excel"></a>Opnar lista í Excel
 Hægt er að opna gögn í Excel úr hvaða færslubók, lista eða vinnublaði sem er. Notandinn opnar bara síðuna sem hann vill nota og velur svo **Opna í Excel**. Til dæmis, opnar lista yfir viðskiptamenn (leitar að **Viðskiptamenn**), og velur svo **Opna í Excel**. Vafrinn sendir áminningu um að opna að vista myndaða Excel-vinnubók.  
@@ -60,12 +60,12 @@ Við mælum með að notandi íhugi einnig að flytja út gögn af eftirfarandi 
 * Sölumenn  
 
 > [!NOTE]  
->   Ef notandi hefur sett upp fleiri en eitt fyrirtæki í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] verður einnig að flytja út viðeigandi gögn úr hverju fyrirtæki.
+>   Ef notandi hefur sett upp fleiri en eitt fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður einnig að flytja út viðeigandi gögn úr hverju fyrirtæki.
 
 ## <a name="see-also"></a>Sjá einnig
-[Uppsögn áskriftar að [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
+[Uppsögn áskriftar að [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](upload-data.md)  
 [Fjármál](finance.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
-[Unnið með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

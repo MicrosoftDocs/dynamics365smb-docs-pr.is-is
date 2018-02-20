@@ -1,6 +1,6 @@
 ---
-title: "Setja upp markaðsherferðir í Dynamics 365 | Microsoft Docs"
-description: "Lýsir hvernig hægt er að setja upp og stunda markaðssetningarherferðir í Dynamics 365 til að hjálpa þér að koma auga á og laða að viðföng og varðveita viðskiptamenn."
+title: "Setja upp markaðsherferðir í Finance and Operations, Business Edition | Microsoft Docs"
+description: "Lýsir hvernig hægt er að setja upp og stunda markaðssetningarherferðir í Finance and Operations, Business Edition til að hjálpa þér að koma auga á og laða að viðföng og varðveita viðskiptamenn."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7ca0479ba1872600356ec5b10bf9492fef87a857
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4ca4fc6eee45c69be3de746ce1d799a481d7ea48
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Stjórnun markaðsherferða
 Öflug markaðsáætlun gerir fyrirtækinu kleift að finna, vinna og halda viðskiptamönnum. Markaðsáætlun samanstendur af ýmsum söluherferðum og öðrum samskiptum í tengslum við sölur og markaðssetningaraðgerðir. Þegar söluherferð er skipulögð þarf að ákveða hvaða tengiliði skal miða á, hvaða gerð söluherferðar (t.d. vörusýningu eða beinan auglýsingapóst) skal nota og hvaða sölumen munu framkvæma hvert verk.
 
-Hver söluherferð samanstendur af ýmsum aðgerðum eða verkefnum. Þú getur sameinað marga verkhluta í aðgerðum, t.d. verkhluta sem hver og einn fela í sér eitt skref. Aðgerðaverkhlutar tengjast hverjum öðrum í gegnum dagsetningarformúlu. Einstökum verkhlutum er aðeins hægt að úthluta til sölufólks. Aðgerðum er hægt að úthluta til tækifæra, sölufólks, hóp sölufólks og tengiliða. Nánari upplýsingar, sjá [Hvernig á að: Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Hver söluherferð samanstendur af ýmsum aðgerðum eða verkefnum. Þú getur sameinað marga verkhluta í aðgerðum, t.d. verkhluta sem hver og einn fela í sér eitt skref. Aðgerðaverkhlutar tengjast hverjum öðrum í gegnum dagsetningarformúlu. Einstökum verkhlutum er aðeins hægt að úthluta til sölufólks. Aðgerðum er hægt að úthluta til tækifæra, sölufólks, hóp sölufólks og tengiliða. Nánari upplýsingar, sjá [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Skilgreina stakar söluherferðir
 Áður en herferð er stofnuð þarf að setja upp *stöðukóða herferðar*. Notkun þessara kóta hjálpar til við stjórnun herferða með því að úthluta herferðum stöðu. Þegar unnið er gegnum þrep herferðar er hægt að sjá á hvaða þrepi herferðin er og hvaða þrep kemur næst. Þú setur upp stöðuherferðarkóða í glugganum **Staða herferðar**.
@@ -39,16 +39,16 @@ Hver söluherferð samanstendur af ýmsum aðgerðum eða verkefnum. Þú getur 
 > [!NOTE]  
 >   Til þess að virkja söluverð / lína afslætti verður þú að tilgreina hvort allt hlutinn eða aðeins nokkrir tengiliðir eru markmið herferðarinnar. Ef söluverðið/línuafslátturinn nær yfir alla tengiliðina í hlutanum reiturinn **Markhópur söluherferðar** valinn á flýtiflipanum **Söluherferð** á spjaldinu **Hluti**.
 
-Ef ekki er boðið upp á söluverð / lína afslátt fyrir alla tengiliðina í hlutanum geturðu hreinsað **herferðarmarkið** fyrir viðkomandi tengiliði. Ef þú getur ekki séð þetta reit geturðu bætt því við skoðunina þína. Nánari upplýsingar er að finna í [Sérstillingar notanda](ui-user-personalization.md).
+Ef ekki er boðið upp á söluverð / lína afslátt fyrir alla tengiliðina í hlutanum geturðu hreinsað **herferðarmarkið** fyrir viðkomandi tengiliði. Ef þú getur ekki séð þetta reit geturðu bætt því við skoðunina þína. Frekari upplýsingar eru í [Sérstilling vinnusvæðisins þíns](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Framkvæma herferðir
 Meðan herferð stendur yfir eru öll samskipti við tengiliði eða hluta skráð. Þetta gerir notanda kleift að fá tölfræði og aðrar upplýsingar um kostnað og árangur herferðarinnar.
 
-Herferðir eru framkvæmdar ef sölufólki, og þú þarft að skapa aðgerðir til sem standa fyrir hvern verkhluta og úthluta þeim til viðeigandi sölufólks. Nánari upplýsingar, sjá [Hvernig á að: Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Herferðir eru framkvæmdar ef sölufólki, og þú þarft að skapa aðgerðir til sem standa fyrir hvern verkhluta og úthluta þeim til viðeigandi sölufólks. Nánari upplýsingar, sjá [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  
 [Umsjón hluta](marketing-segments.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
-[Unnið með Dynamics 365](ui-work-product.md)  
+[Unnið með Finance and Operations, Business Edition](ui-work-product.md)  
 

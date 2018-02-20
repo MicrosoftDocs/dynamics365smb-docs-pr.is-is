@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: de7cf91736fd97943604237cee7093017e7c01f9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 659b3bebb20e3deb33e6e392c5318810848285a1
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-reports-with-xbrl"></a>Hvernig skal: Stofna skýrslur með XBRL
+# <a name="create-reports-with-xbrl"></a>Stofna skýrslur með XBRL
 XBRL (eXtensible Business Reporting Language) er XML-miðað tölvumál fyrir viðskiptaskýrslugerð og gerir fyrirtækjum kleift að vinna úr og deila gögnum sínum á árangursríkan og nákvæman hátt. XBRL-áætlunin býður fjölda hugbúnaðarfyrirtækja sem framleiða bókhalds- og áætlunarkerfi og alþjóðlegum endurskoðendafyrirtækum altæka viðskiptaskýrslugerð. Markmið áætlunarinnar er að búa til staðal fyrir samræmda skýrslugerð viðskiptaupplýsinga fyrir banka, fjárfesta og ríkisstofnanir. Slíkar viðskiptaskýrslur geta falið í sér eftirfarandi atriði:  
 
  • Ársreikninga  
@@ -27,7 +27,7 @@ XBRL (eXtensible Business Reporting Language) er XML-miðað tölvumál fyrir vi
  • Upplýsingar sem eru ekki viðskiptatengdar  
  • Reglubundna skráningu, eins og ársreikninga og ársfjórðungsreikninga  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] gerir fyrirtækjum kleift að breyta gögnum í XBRL og njóta þess hagræðis sem fylgir sveigjanleika og sjálfvirkni við að safna gögnum og deila þeim.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  gerir fyrirtækjum kleift að breyta gögnum í XBRL og njóta þess hagræðis sem fylgir sveigjanleika og sjálfvirkni við að safna gögnum og deila þeim.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language (XML-miðað tölvumál fyrir viðskiptaskýrslugerð)
 XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) er XML-miðað tölvumál fyrir viðskiptaskýrslugerð. Með XBRL fæst staðall til samræmdrar skýrslugerðar fyrir alla notendur fjárhagslegra upplýsinga, svo sem opinber fyrirtæki og fyrirtæki í einkaeign, endurskoðendur, eftirlitsaðila, þá sem starfa við greiningu, fjárfesta, fjármagnsmarkaði og lánastofnanir, ennfremur aðra aðila, til dæmis forritara og þá sem starfa við gagnasöfn.  

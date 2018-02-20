@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: acd3305694186793ccc5c305573f62c16a718531
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c9c7796b80d77d3a879ecf9ce2a8af26a0ca5aa
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-items"></a>Hvernig á að stofna Þjónustuvörur
+# <a name="create-service-items"></a>Stofna þjónustuatriði
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] vísar hugtakið „þjónustuvara“ til búnaðar eða vöru þarfnast þjónustu. Þegar þú stofnar þjónustupöntun, tilgreinirðu vöruna sem þarfnast þjónustu. Í pöntuninni geturðu tengt þjónustuvöru við vöru í birgðum eða þjónustuvöruflokk.    
 
 Þegar tekið er við vöru sem þarfnast þjónustu má skrá hana sem þjónustuvöru. Hægt er gera það á nokkra vegu: Þú getur t.d. stofnað þjónustuvöru á **Þjónustuvörur** síðunni, eða sem hluta af öðru ferli, eins og þegar þú vinnur með þjónustupöntun.   
@@ -59,7 +59,7 @@ Eftirfarandi aðferð sýnir hvernig stofna má þjónustuvöru þegar þjónust
     Kerfið setur inn þjónustulínu af gerðinni **Kostnaður** með upphafsgjaldinu. Upphafsgjaldið á við þá þjónustuvöru sem valin var.
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: setja upp þjónustuvörur og þjónustuvörueiningar](service-how-setup-service-items.md)  
+[Setja upp þjónustuvörur og íhluti þjónustuvara](service-how-setup-service-items.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Þjónustukerfi](service-service.md)  
 

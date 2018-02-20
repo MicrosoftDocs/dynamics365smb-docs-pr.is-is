@@ -1,6 +1,6 @@
 ---
 title: "Setja upp tillögur um reitagildi | Microsoft Docs"
-description: "Til að forðast handvirka útreikninga og klára verkhluta fljótt og nákvæmlega, geturðu sett upp sjálfvirka gagnafærslu þannig að Dynamics 365 fyllir upp í valda reiti."
+description: "Til að forðast handvirka útreikninga og klára verkhluta fljótt og nákvæmlega, geturðu sett upp sjálfvirka gagnafærslu þannig að Finance and Operations, Business Edition fyllir upp í valda reiti."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 26a66f87f85cac1ff6f6ba6eb4cb90527565f236
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e9134b3d5fc62fb510b27db5fcbaa71e54b2b97a
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="letting-included365finlongincludesd365finlongmdmd-suggest-values"></a>Að láta [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] leggja til gildi
-[!INCLUDE[d365fin](includes/d365fin_md.md)] getur hjálpað við að ljúka verkefni hraðar og réttara með því að forfylla í reiti eða klára línur með gögnum sem þú myndir annars þurfa að reikna og færa inn sjálfur. Þótt slíka sjálfvirka færslan er ekki alltaf rétt má breyta eftirá.
+# <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Að láta [!INCLUDE[d365fin](includes/d365fin_md.md)] leggja til gildi
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  getur hjálpað við að ljúka verkefni hraðar og réttara með því að forfylla í reiti eða klára línur með gögnum sem þú myndir annars þurfa að reikna og færa inn sjálfur. Þótt slíka sjálfvirka færslan er ekki alltaf rétt má breyta eftirá.
 
 Virkni sem færir reitiargildi fyrir þig eru yfirleitt boðnir fyrir verk þar sem þú færir inn mikið magn af færslugögnum og vilt komast hjá villum og spara tíma. Í þessu efnisatriði er hluti af slíkri virkni. Fleiri hlutar bætist við í framtíðinni fyrir uppfært [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -32,7 +32,7 @@ Virkni sem færir reitiargildi fyrir þig eru yfirleitt boðnir fyrir verk þar 
 Fyrir upplýsingar um hvernig skuli setja upp persónulega færslubókarkeyrslu, til dæmis, fyrir meðhöndlun útgjalda, sjá [Vinna með færslubækur](ui-work-general-journals.md)
 
 ## <a name="the-automatically-fill-date-received-field-in-the-payment-registration-window"></a>Reiturinn **Dagsetning móttöku fyllt út sjálfkrafa** í glugganum **Skráning greiðslna** glugga
-Glugginn **skráning greiðslna**Sýnir útistandandi væntanlega innkomu á línum sem tákna söluskjöl þar sem upphæð er fallinn á gjalddaga. Fyrir frekari upplýsingar um jöfnun greiðsla viðskiptavinar sjá [Hvernig skal stemma handvirkt af greiðslur  viðskiptamanns úr lista yfir ógreidda söluskjöl.](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
+Glugginn **skráning greiðslna**Sýnir útistandandi væntanlega innkomu á línum sem tákna söluskjöl þar sem upphæð er fallinn á gjalddaga. Fyrir frekari upplýsingar um jöfnun greiðsla viðskiptavinar sjá [Stemma handvirkt af greiðslur viðskiptamanns úr lista yfir ógreidda söluskjöl.](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 
 Aðal aðgerðir þínar í glugganum eru að fylla í gátreitur **greiðslur framkvæmdar** og **Dagsetning Móttöku** reit. Verkefni er hægt að setja [!INCLUDE[d365fin](includes/d365fin_md.md)] upp til að sjálfvirkt færa inn vinnudagsetninguna í á **Dagsetning Móttöku** reit þegar valið er **greiðsla framkvæmd** gátreitinn.
 
@@ -42,6 +42,6 @@ Aðal aðgerðir þínar í glugganum eru að fylla í gátreitur **greiðslur f
 3. Opnaðu Glugginn **Greiðslu Skráning** og byrja að vinna innsend greiðslur viðskiptamanns með þeim aðgerðum sem var lýst fyrir sjálfvirka innfærslu fyrir reitargildi.
 
 ## <a name="see-also"></a>Sjá einnig
-[Unnið með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Fjármál](finance.md)
 

@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 148a566473e4964db3cbc6ee266eccb6b6c6aaa7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 29023e68808935b49aba663d994bac756d037615
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-convert-service-contracts-that-include-vat-amounts"></a>Hvernig á að umbreyta þjónustusamningum sem innihalda VSK upphæðir
+# <a name="convert-service-contracts-that-include-vat-amounts"></a>Umbreyta þjónustusamningum sem innihalda VSK upphæðir
 Þar sem breytingaverkfæri VSK-hlutfalls getur ekki umbreytt þjónustusamningum, verður að umbreyta þessum samningum handvirkt. Í þessu efnisatriði er lýst nokkrar öðrum aðferðum sem hægt er að nota við umbreytingar þjónustusamninga.  
 
 > [!NOTE]  
@@ -56,7 +56,7 @@ Eftirfarandi ferli lýsir því hvernig eigi að stofna nýja samninga með þv�
 ### <a name="to-create-a-new-credit-memo"></a>Nýr kreditreikningur stofnaður.  
 Eftirfarandi ferli lýsir því hvernig eigi að stofna nýjan kreditreikning með keyrslunni **Sækja fyrirfr.gr, samn.færslur**. Færslur sem ekki á að leiðrétta frá janúar 2017 til júní 2017 verður eytt.  
 
-1. Keyra skal breytingarverkfæri VSK-hlutfalls 1. júlí 2017. Almenni vörubókunarflokkurinn eða VSK-vörubókunarflokkurinn breytist. Frekari upplýsingar, sjá [Hvernig á að: vinna með VSK í sölu og innkaupum](finance-work-with-vat.md).  
+1. Keyra skal breytingarverkfæri VSK-hlutfalls 1. júlí 2017. Almenni vörubókunarflokkurinn eða VSK-vörubókunarflokkurinn breytist. Frekari upplýsingar, sjá [Vinna með VSK í sölu og innkaupum](finance-work-with-vat.md).  
 2. Eftir keyrslu breytingaverkfæris VSK-hlutfalls, skal færa inn lokadag samnings fyrir þjónustusamninginn. Nú er hægt að eyða þjónustusamningslínunni og stofna nýja línu sem er eins og sú eldri.  
 3. Stofna nýjan reikning fyrir tímabilið frá janúar 2017 til desember 2012 með nýjum VSK-taxta.  
 4. Til þess að stofna annan kreditreikning er farið í gluggann **Þjónustukreditreikningar** og **Nýr** valið til að stofna nýjan þjónustukreditreikning.  
@@ -64,8 +64,8 @@ Eftirfarandi ferli lýsir því hvernig eigi að stofna nýjan kreditreikning me
 6. Þegar umreikninginum er lokið, verða VSK og þjónustufjárhagsfærslur réttar.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: Vinna með þjónustusamninga og þjónustusamningstilboð](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Vinna með þjónustusamninga og þjónustusamningstilboð](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Fjármál](finance.md)  
-[Hvernig á að: Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
-[Hvernig á að: vinna með VSK í sölu og innkaupum](finance-work-with-vat.md)  
+[Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
+[Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
 

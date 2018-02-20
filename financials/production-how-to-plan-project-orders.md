@@ -1,6 +1,6 @@
 ---
 title: "Hvernig á að áætla verkefnispantanir | Microsoft Docs"
-description: "Þessi áætlanagerð byrjar í sölupöntun og nýtir gluggann **Áætlun sölupöntunar**. Þegar framleiðslupöntun verkefnis er stofnuð er hægt að skipuleggja hana frekar með því að nota gluggann **Pantanaáætlun**."
+description: "Þessi áætlanagerð byrjar í sölupöntun og nýtir gluggann  **Áætlun sölupöntunar**. Þegar framleiðslupöntun verkefnis er stofnuð er hægt að skipuleggja hana frekar með því að nota gluggann **Pantanaáætlun**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 49e3ce0ef80dd54f66565f62616b3b8f2a4aaeaa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 27b2571df137b489a72673251fb5a176bfa771fe
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-project-orders"></a>Hvernig á að áætla verkefnispantanir
+# <a name="plan-project-orders"></a>Áætla verkefnispantanir
 Þessi áætlanagerð byrjar í sölupöntun og nýtir gluggann  **Áætlun sölupöntunar**. Þegar framleiðslupöntun verkefnis er stofnuð er hægt að skipuleggja hana frekar með því að nota gluggann **Pantanaáætlun**.  
 
 ## <a name="to-create-a-project-production-order"></a>Framleiðslupöntun verkefnis stofnuð  
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/22/2017
 9. Veldu aðgerðina **Áætlun**.
 10. Í glugganum **Pantanaáætlun** er smellt á **Uppfæra** aðgerðina til reikna nýja eftirspurn.  
 
-Pöntunarhausslínan fyrir verkefnispöntunina birtist með allar óuppfylltar eftirspurnarlínur stækkaðar neðan hennar. Þótt framleiðslupöntunin innihaldi línur fyrir nokkrar framleiddar vörur er heildareftirspurnin fyrir allar framleiðslupöntunarlínur skráð undir einni pöntunarhausslínu í glugganum **Pantanaáætlun**, auk þess sem nafn upprunalega viðskiptamannsins er birt. Nú er hægt að áætla eftirspurn eins og lýst er í [Hvernig á að: Áætla nýja eftirspurn pöntun fyrir pöntun](production-how-to-plan-for-new-demand.md).  
+Pöntunarhausslínan fyrir verkefnispöntunina birtist með allar óuppfylltar eftirspurnarlínur stækkaðar neðan hennar. Þótt framleiðslupöntunin innihaldi línur fyrir nokkrar framleiddar vörur er heildareftirspurnin fyrir allar framleiðslupöntunarlínur skráð undir einni pöntunarhausslínu í glugganum **Pantanaáætlun**, auk þess sem nafn upprunalega viðskiptamannsins er birt. Nú er hægt að fara áætla eftirspurn eins og lýst er í [Gera áætlanir um nýja eftirspurn pöntun fyrir pöntun](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Eftirspurnarlínur í framleiðslupöntun verkefnisins sem hafa **Framl.pöntun** í reitnum **Áfyllingarkerfi** tákna undirliggjandi framleiðslupantanir. Eftir að hafa myndað þessar framleiðslupantanir, þarf að reikna aftur út áætlun í glugganum **Pantanaáætlun** til að auðkenna alla óuppfyllta eftirspurn eftir íhlutum fyrir þær. Í því tilviki er birtist eftirspurnin í eftirspurnarlínum undir línu í haus venjulegrar framleiðslupöntunar sem þýðir að verkefnistengslin sjást ekki lengur í glugganum. Ef á hinn bóginn notast er við eiginleikann Rekja pöntun er hægt að fara fram og aftur í allar framboðspantanir undir upphaflegu sölupöntuninni.  

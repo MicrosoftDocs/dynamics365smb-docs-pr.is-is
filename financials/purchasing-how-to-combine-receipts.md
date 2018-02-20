@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b3599a3f1a2cfc53d682a153eda8395e892305b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2176baf2947a08785fdf6327b2ebebf35686d04a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-combine-receipts-on-a-single-invoice"></a>Hvernig á að: sameina móttökur í einn reikning
+# <a name="combine-receipts-on-a-single-invoice"></a>Sameina móttökur í einn reikning
 Ef reikningsfæra á fleiri en eina innkaupamóttöku í einu er hægt að nota aðgerðina **sameinaðar móttökur**.  
 
 Áður en hægt er að búa til sameinaða innkaupamóttöku, þarf að vera búið að bóka fleiri en eina móttöku frá sama lánardrottininn í sama gjaldmiðlinum. Það er að segja, það þarf að vera búið að fylla út tvær eða fleiri innkaupapantanir og bóka þær sem mótteknar en ekki reikningsfærðar.  
@@ -28,7 +28,7 @@ Ef reikningsfæra á fleiri en eina innkaupamóttöku í einu er hægt að nota 
 
 ## <a name="to-combine-receipts"></a>Sameining móttakna:  
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.  
-2. Valið er **Nýtt** aðgerð. Nánari upplýsingar eru í [Hvernig á að: Skrá innkaup](purchasing-how-record-purchases.md).  
+2. Valið er **Nýtt** aðgerð. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).  
 3. Á flýtiflipanum **Línur** skal velja **Sækja móttökulínur** aðgerðina.  
 4. Nokkrar móttökulínur eru valdar sem eiga að vera á reikningnum:  
 

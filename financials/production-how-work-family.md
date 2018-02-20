@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 060c58991ae48ba768f5c1c0bd7442228e6bc976
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2e76520cdab388d3430ea50fb8e88f7dce26715a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-production-families"></a>Hvernig á að: vinna með framleiðslusamsafn
+# <a name="work-with-production-families"></a>Vinna með framleiðslusamsafn
 Framleiðslusamsafn er hópur einstakra vara sem byggðar eru á líku framleiðsluferli. Með því að mynda framleiðslusamsöfn er hægt að framleiða sumar vörur tvisvar eða oftar í einni vinnslu, en þetta fínstillir efnisnotkun.
 
 Í reit **Magn** í glugganum **Samsafn** er fært inn magnið sem framleitt hefur verið þegar allt samsafnið hefur verið framleitt einu sinni.
@@ -35,12 +35,12 @@ Stofnun framleiðslusamsafna dregur úr úrkastsmagninu vegna þess að það se
 
 ## <a name="to-produce-based-on-a-production-familily"></a>Framleiða byggir á framleiðslusamsafni
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Fastáætluð framleiðslupöntun** og velja svo viðeigandi tengil.
-2. Stofna nýja framleiðslupöntun Frekari upplýsingar, sjá [Hvernig skal: Stofna framleiðslupantanir](production-how-to-create-production-orders.md).
+2. Stofna nýja framleiðslupöntun Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).
 3. Í reitnum **Gerð uppruna**, veljið **Samsafn**.  
 4. Í reitnum **Forðanr.** er viðeigandi framleiðslusamsafn valið.
 
 ## <a name="see-also"></a>Sjá einnig
-[Hvernig á að stofna nýjar framl.uppskriftir](production-how-to-create-production-boms.md)  
+[Búa til framleiðsluuppskriftir](production-how-to-create-production-boms.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)    
 [Áætlun](production-planning.md)   

@@ -1,6 +1,6 @@
 ---
 title: "Kynning - Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu | Microsoft Docs"
-description: "Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyrirframgreiðslupöntun sölu- eða innkaupa áður en lokareikningsfærsla fer fram. Hugsanlega er beðið um innborgun áður en vörur eru framleiddar upp í pöntun eða áður en vörur eru afhentar viðskiptamanni. Fyrirframgreiðslur í Dynamics 365 er hægt að nota til að reikningsfæra og innheimta innborganir frá viðskiptamönnum eða senda lánardrottnum innborganir. Þannig má tryggja að allar greiðslur séu bókaðar á móti reikningi."
+description: "Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyrirframgreiðslupöntun sölu- eða innkaupa áður en lokareikningsfærsla fer fram. Hugsanlega er beðið um innborgun áður en vörur eru framleiddar upp í pöntun eða áður en vörur eru afhentar viðskiptamanni. Fyrirframgreiðslur í Finance and Operations, Business Edition er hægt að nota til að reikningsfæra og innheimta innborganir frá viðskiptamönnum eða senda lánardrottnum innborganir. Þannig má tryggja að allar greiðslur séu bókaðar á móti reikningi."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: fbdeb6b9dc8c96b09ded933ec987b8c60098bfcf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cd74d543168f1f96f55141aace571d6d701e3de1
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu
@@ -128,7 +128,7 @@ Hún stofnar fyrirframgreiðslureikning og sendir hann til viðskiptamannsins.
 
     Í reitnum **Fyrirframgreiðsla %** á línunni með vörunni **1100** stendur **40**. Þetta er prósentan sem var færð inn í gluggann **Prósentur fyrirframgreiðslu sölu** fyrir vöru **1100** og viðskiptamann **20000**.  
 
-    Nánari upplýsingar er að finna í [Hvernig á að: setja upp fyrirframgreiðslur](finance-set-up-prepayments.md).  
+    Nánari upplýsingar um það eru í [Setja upp fyrirframgreiðslur](finance-set-up-prepayments.md).  
 8. Veldu **Upplýsingar** aðgerðina.  
 9. Á flýtiflipanum **Fyrirframgreiðsla**, inniheldur reiturinn **Línuupphæð fyrirframgr. án VSK** **1,560**. Ef fyrirframgreiðslureikningur er stofnaður fyrir pöntunina núna er þetta upphæðin sem er birt á reikningnum.  
 

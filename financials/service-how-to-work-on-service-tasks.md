@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 32cbc23b24a8a04a62a246dd50eac8d8a721e2e7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e6db49370a1fc2d9a2bb99e55d00ed69908d703
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-on-service-tasks"></a>Hvernig á að vinna með þjónustuverkhluta
+# <a name="work-on-service-tasks"></a>Vinna við þjónustuverk
 Þegar búið er að stofna þjónustupöntun eða þjónustutilboð, skrá þjónustuvörulínur og úthluta forða til þjónustuvöru í pöntuninni eða tilboðinu má byrja að gera við þjónustuvöru og halda henni við.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er með gluggann **Þjónustuverkhlutar** sem veitir yfirlit yfir allar þjónustuvörur sem þarfnast athygli. Gluggann má hugsa sem þjónustumælaborð þar sem hægt er að sjá hvaða pantanir eru í bið, leita að og skrá varahluti, og sjá til þess að birgðir séu uppfærðar.  
@@ -106,7 +106,7 @@ Til að rekja breytingar og fá myndrænt yfirlit yfir þjónustufyrirtækið m�
 4. Línan er fyllt út. Valin er samsetning bilana- og úrlausnarkóta og svo smellt á **Í lagi** til að afrita hana í þjónustuvöruna. Ef ekki finnst heppileg samsetning má búa til nýja í glugganum.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hvernig á að: setja upp bilanatilkynningar](service-how-setup-fault-reporting.md)
+[Setja upp bilanatilkynningar](service-how-setup-fault-reporting.md)
 [Úthlutunarstaða og viðgerðastaða](service-allocation-status-and-repair-status.md)  
 [Bókun þjónustu](service-service-posting.md)  
 

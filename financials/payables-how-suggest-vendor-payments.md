@@ -13,16 +13,16 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 2085cc744c2ff3761937920cd893faab5a84dada
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 384bc05b8f775859c9ca6d6ea4241efb63a9e69d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-suggest-vendor-payments"></a>Hvernig á að leggja til greiðslutillögur til lánardrottna
+# <a name="suggest-vendor-payments"></a>Greiðslutillögur til lánardr.
 Í glugganum **Greiðslubók** geturðu notað **Greiðslutillögur til lánardr.** runuvinnsluna til að stinga upp á greiðslulínur. Línur fyrir hluti eins og greiðslur sem eiga sér stað fljótlega, eða greiðslur þar sem greiðsla afsláttur er í boði, er leiðbeinandi miðað við stillingarnar þínar.
 
-Til að njóta fulls af leiðbeinandi línur, verður þú fyrst að forgangsraða söluaðilum þínum. Nánari upplýsingar sjá [Hvernig: forgangsraða lánardrottnum](purchasing-how-prioritize-vendors.md).  
+Til að njóta fulls af leiðbeinandi línur, verður þú fyrst að forgangsraða söluaðilum þínum. Frekari upplýsingar eru í [Lánardrottnum forgangsraðað](purchasing-how-prioritize-vendors.md).  
 
 Lánardrottnafærslur sem eru ekki merktar **Í biðstöðu** eru ekki teknar með.  
 
@@ -47,7 +47,7 @@ Lánardrottnafærslur sem eru ekki merktar **Í biðstöðu** eru ekki teknar me
 
 Ef útreiknuð bókunardagsetning er liðin er bókunardagsetningin færð upp að vinnudagsetningunni og viðvörun birtist.  
 
-Einnig er hægt að myndað sjálfkrafa greiðslulínur með gjalddaga til að reikna bókunardagsetningu Þegar lánardrottnafærslur hafa verið jafnaðar er hægt að nota **Reikna út bókunardagsetningu** til að uppfæra bókunardagsetningu á færslubókarlínunni með gjalddaga tengds innkaupareiknings. Nánari upplýsingar sjá [Hvernig: Jafna innkaupafærslur Handvirkt](payables-how-apply-purchase-transactions-manually.md).  
+Einnig er hægt að myndað sjálfkrafa greiðslulínur með gjalddaga til að reikna bókunardagsetningu Þegar lánardrottnafærslur hafa verið jafnaðar er hægt að nota **Reikna út bókunardagsetningu** til að uppfæra bókunardagsetningu á færslubókarlínunni með gjalddaga tengds innkaupareiknings. Frekari upplýsingar eru í [Jafna innkaupafærslur handvirkt](payables-how-apply-purchase-transactions-manually.md).  
 
 > [!NOTE]  
 >   Ef innkaupareikningur er gjaldfallinn, er bókunardagsetningin stillt á vinnudag og leturgerð á línunni verður rautt.  

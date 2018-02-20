@@ -1,6 +1,6 @@
 ---
 title: "Setja upp SEPA-beingreiðslur | Microsoft Docs"
-description: "Lærið hvernig á að setja upp SEPA-beingreiðslur í Dynamics 365 Business edition."
+description: "Lærið hvernig á að setja upp SEPA-beingreiðslur í Finance and Operations, Business Edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 28958f1f090e5adad69cb21d30727fcbd6a7fef8
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-sepa-direct-debit"></a>Hvernig á að: Setja upp SEPA-beingreiðslur
+# <a name="set-up-sepa-direct-debit"></a>Setja upp SEPA-beingreiðslur
 Úr glugganum **Innheimta beingreiðslu** er hægt að flytja út leiðbeiningar fyrir rafrænan banka til að innheimta beingreiðslu af bankareikningi viðskiptamanns á þinn bankareikning. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður SEPA-beingreiðslusniðið, en í heimalandi þínu / svæði geta önnur snið fyrir rafrænar greiðslur kunna að vera tiltækir.  
 
-Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar af [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að setja upp gagnaskiptaskilgreiningu með því að nota gagnaskiptaumgjörð. Frekari upplýsingar, sjá [Hvernig á að: Gagngaskiptaskilgreining](across-how-to-set-up-data-exchange-definitions.md).  
+Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar af [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að setja upp gagnaskiptaskilgreiningu með því að nota gagnaskiptaumgjörð. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).  
 
 Áður en hægt er að afgreiða greiðslu viðskiptamanna rafrænt með því að flytja innheimtu beingreiðslu út í SEPA-beingreiðslusnið, verður að framkvæma eftirfarandi uppsetningarskref:  
 
@@ -72,11 +72,11 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
 
 6.  Endurtakið skref 1 til 5 fyrir alla viðskiptamenn sem á að setja upp fyrir SEPA-beingreiðslur.  
 
- Umboðið fyrir beingreiðslur er sjálfkrafa sett inn í **Kenni umboðs fyrir beint debet** reitinn þegar sölureikningur er stofnaður fyrir viðskiptamann sem var valinn í skrefi 2. Nánari upplýsingar er að finna í [Hvernig á að: Stofna ítrekaðar sölu og innkaupalínur](sales-how-work-standard-lines.md)  
+ Umboðið fyrir beingreiðslur er sjálfkrafa sett inn í **Kenni umboðs fyrir beint debet** reitinn þegar sölureikningur er stofnaður fyrir viðskiptamann sem var valinn í skrefi 2. Nánari upplýsingar er að finna í [Stofna ítrekaðar sölu og innkaupalínur](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)  
-[Hvernig á að: Setja upp gagnaskiptaskilgreiningu](across-how-to-set-up-data-exchange-definitions.md)
-[Hvernig á að: Stofna ítrekaðar sölu- og innkaupalínur](sales-how-work-standard-lines.md)
+[Setja upp gagnaskiptaskilgreiningu](across-how-to-set-up-data-exchange-definitions.md)
+[Stofna ítrekaðar sölu- og innkaupalínur](sales-how-work-standard-lines.md)
 [Rafræn gagnaskipti](across-data-exchange.md)
 

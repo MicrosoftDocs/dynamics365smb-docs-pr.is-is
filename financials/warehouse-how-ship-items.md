@@ -13,24 +13,24 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0ca92ce0266c6a57d211f9ddb70dc5499f4f9648
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 223eed1ca4e362b8209373fac71d20ab88b2aaff
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-ship-items"></a>Hvernig á að: Afgreiða vörur
+# <a name="ship-items"></a>Senda vörur
 Þegar vörur eru afhentar út frá vöruhús sem er ekki sett upp fyrir vinnslu vöruhúsaafhendingu, þarf einfaldlega að skrá afhendinguna á viðeigandi viðskiptaskjal, eins og t.d. sölupöntun, þjónustupöntun, vöruskilapöntun innkaupa, eða millifærslupöntun á útleið.
 
 Þegar þú afhendir vörur frá vöruhúsi sem er sett upp fyrir vinnslu vöruhúsaafhendingu, er hægt að afhenda vörur aðeins á grunni upprunaskjala sem aðrar fyrirtækiseiningar hafa gefið út á vöruhúsið til aðgerðar.
 
 > [!NOTE]
-> Ef vöruhúsið notar hjáskipun og hólf fyrir hverja línu er hægt að skoða magn vara sem hafa verið settar í hjáskipunarhólf. Kerfið reiknar þetta magn sjálfkrafa í hvert sinn sem reitirnir í afhendingunni eru uppfærðir. Ef þær vörur tengjast afhendingunni sem verið er að undirbúa er hægt að stofna tínslu fyrir allar línurnar og ljúka síðan afhendingunni. Frekari upplýsingar sjá [Hvernig skal: Hjáskipa vörum](warehouse-how-to-cross-dock-items.md).
+> Ef vöruhúsið notar hjáskipun og hólf fyrir hverja línu er hægt að skoða magn vara sem hafa verið settar í hjáskipunarhólf. Kerfið reiknar þetta magn sjálfkrafa í hvert sinn sem reitirnir í afhendingunni eru uppfærðir. Ef þær vörur tengjast afhendingunni sem verið er að undirbúa er hægt að stofna tínslu fyrir allar línurnar og ljúka síðan afhendingunni. Frekari upplýsingar eru í [Hjáskipunarvörur](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Afhenda vörur með sölupöntun
 Eftirfarandi lýsir því hvernig skal taka á móti vörum með innkaupapöntun. Skrefin eru svipuð fyrir Vöruskilapöntun innkaupa, þjónustupantanir og millifærslupantanir á útleið.  
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.
-2. Opna sölupöntun sem þegar er til eða stofna nýja. Nánari upplýsingar eru í [Hvernig á að: selja vörur.](sales-how-sell-products.md)
+2. Opna sölupöntun sem þegar er til eða stofna nýja. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
 3. Í reitnum **Magn til afhendingar** er fært inn magnið sem hefur verið móttekið.
 
     Gildið í reitnum **Afhent magn** er uppfært. Ef um er að ræða afhendingu að hluta, getur þetta magn verið lægra en gildið í svæðinu **Magn**.
@@ -91,12 +91,12 @@ Vanalega stofnar starfsmaður vöruhússins, sem ber ábyrgð á tínslu, tínsl
     Reiturinn **Magn til afhendingar** og reiturinn **Staða fylgiskjals** á haus afhendingarskjalsins eru uppfærðir. Vörurnar sem tíndar hafa verið eru ekki lengur tiltækar til tínslu fyrir aðrar afhendingar eða innri rekstur.
 7. Prenta skal afhendingarskjölin, undirbúa afhendingarpakka og bóka síðan afhendinguna.
 
-Nánari upplýsingar um tínslu fyrir vöruhúsaafhendingar er að finna í [Hvernig á að: tína vörur fyrir vöruhúsaafhendingu](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+Nánari upplýsingar um tínslu fyrir vöruhúsaafhendingar er að finna í [Tína vörur fyrir vöruhúsaafhendingu](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-Einnig er hægt að nota tínsluvinnublaðið til að sameina nokkrar tínsluleiðbeiningar í einar (fyrir fleiri en eina afhendingu) og gera þar með tínslu í vöruhúsinu skilvirkari. Frekari upplýsingar, sjá [Hvernig á að áætla tínslu á vinnublöðum](warehouse-how-to-plan-picks-in-worksheets.md).
+Einnig er hægt að nota tínsluvinnublaðið til að sameina nokkrar tínsluleiðbeiningar í einar (fyrir fleiri en eina afhendingu) og gera þar með tínslu í vöruhúsinu skilvirkari. Frekari upplýsingar eru í [Skipuleggja tínslur á vinnublöðum](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> Ef verið er að bíða eftir tilteknum vörum í vöruhúsinu, og hjáskipunarvirkni er notuð reiknar [!INCLUDE[d365fin](includes/d365fin_md.md)] í hverri afhendingar- eða tínslublaðslínu magnið af vörunni sem er í hjáskipunarhólfinu. Það uppfærir þennan reit í hvert skipti sem farið er úr afhendingarskjali eða vinnublaði eða þau opnuð. Frekari upplýsingar sjá [Hvernig skal: Hjáskipa vörum](warehouse-how-to-cross-dock-items.md).
+> Ef verið er að bíða eftir tilteknum vörum í vöruhúsinu, og hjáskipunarvirkni er notuð reiknar [!INCLUDE[d365fin](includes/d365fin_md.md)] í hverri afhendingar- eða tínslublaðslínu magnið af vörunni sem er í hjáskipunarhólfinu. Það uppfærir þennan reit í hvert skipti sem farið er úr afhendingarskjali eða vinnublaði eða þau opnuð. Frekari upplýsingar eru í [Hjáskipunarvörur](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

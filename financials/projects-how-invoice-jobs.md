@@ -13,19 +13,19 @@ ms.search.keywords: project invoice
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9367dc5875b687b95076efffb3b0df2019332651
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4c00ce50f70cbae3ad0557f0703e80f6b115995a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-invoice-jobs"></a>Hvernig á að: Reikningsfæra verk
+# <a name="invoice-jobs"></a>Reikningsfærsla verka
 Meðan á verkefninu stendur getur kostnaður vegna forðanotkunar, efnis og verktengdra innkaupa safnast upp. Þessar færslur eru bókaðar í verkbókina á vinnslutíma verksins. Mikilvægt er að allur kostnaður sé skráður í verkbókina áður en viðskiptavininum er sendur reikningur.
 
 Hægt er að reikningsfæra allt verkið í glugganum **Verkhlutalínur** eða aðeins reikningsfæra ákveðnar reikningshæfar línur í glugganum **Áætlunarlínur**. Hægt er að reikningsfæra þegar verkinu er lokið eða með vissu millibili á meðan á vinnslu verksins stendur, byggt á reikningsáætlun.
 
 > [!NOTE]  
->   Ef valið er **Reikningshæft** í reitnum **Verklínutegund** í söluskjölum fyrir verktengd innkaup verða stofnaðar verkáætlunarlínur sem eru tilbúnar til að vera reikningsfærðar á viðskiptamann. Nánari upplýsingar eru í [Hvernig á að: Vinna með verkbirgðir](projects-how-manage-project-supplies.md).
+>   Ef valið er **Reikningshæft** í reitnum **Verklínutegund** í söluskjölum fyrir verktengd innkaup verða stofnaðar verkáætlunarlínur sem eru tilbúnar til að vera reikningsfærðar á viðskiptamann. Frekari upplýsingar eru í [Sjá um birgðir verkefna](projects-how-manage-project-supplies.md).
 
 ## <a name="to-create-and-post-a-job-sales-invoice"></a>Til að stofna og bóka sölureikning verks:
 Hægt er að stofna reikning fyrir verk eða einn eða fleiri verkhluta fyrir viðskiptavin þegar verkinu sem á að reikningsfæra er lokið eða komið er að dagsetningu reikningafærslunnar, sem byggist á reikningsfærsluáætlun.

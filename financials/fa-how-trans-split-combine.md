@@ -12,25 +12,25 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4e29a08e9b0fd9c20dac12bb32dd1be604ff2dcf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 392ba8da5a67a5cca4678e1817288b165d122864
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-transfer-split-or-combine-fixed-assets"></a>Hvernig á að: flytja, skipta upp, eða sameina eignir
+# <a name="transfer-split-or-combine-fixed-assets"></a>Flytja, skipta upp eða sameina eignir
 Þú notar eignaendurflokkunarbókina til að flytja til eignir, skipta þeim upp og sameina þær. Skoða eða prenta útkomu eignaendurflokkunar með skýrslunni **Bókfært Virði eignar 02** skýrslu.
 
 ## <a name="to-transfer-a-fixed-asset-to-a-different-department"></a>Að færa eign í aðra deild
 Þú gætir þurft að flytja eignir í aðra deild þegar t.d. þú setja eign í framleiðsludeildina meðan verið er að búa hana til og flytja hana svo í stjórnunardeildina þegar lokið er við hana.  
 
 1. Uppsetning nýrrar eignar. Nýr deild er færður inn í reitinn **Deildarkóði**.
-2. Úthluta eigna-/afskriftabók á nýju eignina. Nánari upplýsingar eru í [Hvernig á að: komast ufir eignir](fa-how-acquire.md).
+2. Úthluta eigna-/afskriftabók á nýju eignina. Nánari upplýsingar eru í [Komast yfir eignir](fa-how-acquire.md).
 3. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Endurflokkunarbækur eignar** og velja svo viðeigandi tengil.
 4. Stofna endurflokkunarbók þar sem **Eignanr.** reiturinn inniheldur upphaflega eign og **Nýtt Eignanr.** reiturinn inniheldur nýju eignina sem á að færa.  
 5. Valið er **endurflokka** aðgerð.
 
-    Línurnar tvær eru nú stofnaðar í eignafjárhagsbókinni með því að nota sniðmátið og keyrsluna sem tilgreind voru í glugganum **uppsetning eignabókar** fyrir tilgreinda afskriftabók. Nánari upplýsingar er að finna í [Hvernig á að setja upp afskriftir eigna](fa-how-setup-depreciation.md).
+    Línurnar tvær eru nú stofnaðar í eignafjárhagsbókinni með því að nota sniðmátið og keyrsluna sem tilgreind voru í glugganum **uppsetning eignabókar** fyrir tilgreinda afskriftabók. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).
 6. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsbók eigna** og velja svo viðeigandi tengil.    
 7. Í **fjárhagsbók eigna** glugga er valið **Bóka** aðgerð til að bóka endurflokkun sem framkvæmd var í skrefi 4 til 5.
 
@@ -40,7 +40,7 @@ Ef bókaður hefur verið stofnkostnaður fyrir eina eign er hægt að nota eign
 Hægt er að skipta einni eign í margar eignir, til dæmis þegar þörf er á að skipta eign á þrjú mismunandi deildum. Í því tilfelli geturðu til dæmis að flytja 25 prósent af kaupverði og afskriftum upprunalegrar eignar yfir á aðra eign og 45 prósent yfir á þriðju eignina. Prósenturnar 30 sem eftir eru verða áfram á upphaflegu eigninni.
 
 1. Uppsetning tveggja nýrra eigna. Nýr deild er færður inn í reitinn **Deildarkóði**.
-2. Úthluta eigna-/afskriftabók á nýju eignirnar. Nánari upplýsingar eru í [Hvernig á að: komast ufir eignir](fa-how-acquire.md).
+2. Úthluta eigna-/afskriftabók á nýju eignirnar. Nánari upplýsingar eru í [Komast yfir eignir](fa-how-acquire.md).
 3. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Endurflokkunarbækur eignar** og velja svo viðeigandi tengil.
 4. Búa til tvö endurflokkunarbókarlínur, ein fyrir hverja nýja eign.
 5. Í fyrstu línunni er færð inn önnur eignin í reitinn **Nýtt Eignanr.** og 25 í **Endurflokka kaupverð %** reitinn.
@@ -48,7 +48,7 @@ Hægt er að skipta einni eign í margar eignir, til dæmis þegar þörf er á 
 7. Í báðum línum velja **Endurflokka kaupverð** og **Endurflokka Afskriftir** gátreiti.   
 8. Valið er **endurflokka** aðgerð.
 
-    Línurnar tvær eru nú stofnaðar í eignafjárhagsbókinni með því að nota sniðmátið og keyrsluna sem tilgreind voru í glugganum **uppsetning eignabókar** fyrir tilgreinda afskriftabók. Nánari upplýsingar er að finna í [Hvernig á að setja upp afskriftir eigna](fa-how-setup-depreciation.md).    
+    Línurnar tvær eru nú stofnaðar í eignafjárhagsbókinni með því að nota sniðmátið og keyrsluna sem tilgreind voru í glugganum **uppsetning eignabókar** fyrir tilgreinda afskriftabók. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).    
 9. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsbók eigna** og velja svo viðeigandi tengil.
 10. Í **fjárhagsbók eigna** glugga er valið **Bóka** aðgerð til að bóka endurflokkun sem framkvæmd var í skrefi 4 til og með 8.
 
@@ -61,7 +61,7 @@ Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir s
 4. Veldu **Endurflokka kaupverð** og **Endurflokka Afskriftir** gátreiti.
 5. Í flipanum **Aðgerðir** veljið **Endurflokka**.
 
-    Línurnar tvær eru nú stofnaðar í eignafjárhagsbókinni með því að nota sniðmátið og keyrsluna sem tilgreind voru í glugganum **uppsetning eignabókar** fyrir tilgreinda afskriftabók. Nánari upplýsingar er að finna í [Hvernig á að setja upp afskriftir eigna](fa-how-setup-depreciation.md).   
+    Línurnar tvær eru nú stofnaðar í eignafjárhagsbókinni með því að nota sniðmátið og keyrsluna sem tilgreind voru í glugganum **uppsetning eignabókar** fyrir tilgreinda afskriftabók. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).   
 6. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsbók eigna** og velja svo viðeigandi tengil.
 7. Í **fjárhagsbók eigna** glugga er valið **Bóka** aðgerð til að bóka endurflokkun sem framkvæmd var í skrefi 2 til og með 5.
 

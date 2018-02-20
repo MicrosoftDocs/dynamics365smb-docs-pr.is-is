@@ -1,5 +1,5 @@
 ---
-title: "Fræðslumyndbönd um hvernig á að nota Dynamics 365 Business edition | Microsoft Docs"
+title: "Fræðslumyndbönd um hvernig á að nota Finance and Operations, Business Edition | Microsoft Docs"
 description: "Veitir aðgang að myndböndum sem hjálpa þér að komast af stað og læra Hvernig á að framkvæma algeng verk"
 services: project-madeira
 documentationcenter: 
@@ -13,21 +13,21 @@ ms.search.keywords: video, library, how to
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c3cb769e45d2ef2ade6eb82118cd6f79b5e3cf9d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 747a3f83d5e0387a557eebaf9ad5d2ef5dcd0673
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="visit-our-video-library"></a>Skoðaðu myndbandasafnið okkar
 Til að hjálpa þér að komast fljótt af stað, erum við að byggja upp safn fræðslumyndbanda sem sýna hvernig á að framkvæma ýmis ferli í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Í safninu eru til dæmis myndbönd sem sýna hvernig á að:  
 
-* Færa viðskiptagögn úr öðru fjármálaforriti yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Færa viðskiptagögn úr öðru fjármálaforriti yfir í  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Setja upp víddir svo hægt sé að rekja og greina ýmis gögn og einingar
 * Tengja [!INCLUDE[d365fin](includes/d365fin_md.md)] við Microsoft Dynamics 365 for Sales
 * Setja upp verkflæði samþykktar  
-* Nota Power BI með [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Setja upp tölvupóst og senda gögn beint frá [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Nota Power BI með  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Setja upp tölvupóst og senda gögn beint frá  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 Hægt er að nálgast myndböndin á ólíka vegu. Ef þú ert þegar að vinna í [!INCLUDE[d365fin](includes/d365fin_md.md)], eru tvær leiðir til að komast í safnið:
 
@@ -39,7 +39,7 @@ Hægt er að nálgast myndböndin á ólíka vegu. Ef þú ert þegar að vinna 
 
 Til viðbótar við myndbönd, felur **Fyrirtækjaaðstoð** í sér tilföng á borð við hlekki á efnisatriði og leiðbeiningar um uppsetningu sem auðveldar þér að komast af stað. Þessi tilföng koma í staðinn fyrir grafið í Mitt hlutverk. Eftir að þú ert búinn að kanna tilföngin, geturðu skipt aftur yfir í grafið í valmyndinni **Fyrirtækjaaðstoð** með því að velja **Sýna graf**.  
   
-Hægt er að skoða fræðslumyndböndin okkar, ásamt fullt af öðru efni, á YouTube rásinni sem var búin til fyrir Microsoft Dynamics 365. [Smelltu hér](https://go.microsoft.com/fwlink/?linkid=851533) ef þú vilt skoða rásina núna.
+Hægt er að skoða fræðslumyndböndin okkar, ásamt fullt af öðru efni, á YouTube rásinni sem var búin til fyrir Microsoft Finance and Operations, Business Edition. [Smelltu hér](https://go.microsoft.com/fwlink/?linkid=851533) ef þú vilt skoða rásina núna.
 
 ## <a name="see-also"></a>Sjá einnig
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)

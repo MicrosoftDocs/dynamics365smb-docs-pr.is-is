@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2f258a2bf1852b4cc1741a312c78bedfc06b5c11
 ms.contentlocale: is-is
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Uppsetning tengslastjórnar
@@ -31,7 +31,7 @@ Vissar upplýsingar um tengiliðafyrirtæki eru þær sömu og um einstaklingste
 
 Þegar einhverjum þessara reita er breytt á fyrirtækistengiliðaspjaldi er þeim sjálfkrafa breytt á einstaklingstengiliðaspjaldinu (nema efni reitsins á einstaklingstengiliðaspjaldinu hafi verið breytt handvirkt).
 
-Frekari upplýsingar eru í [Hvernig á að stofna notendur í tengiliður](marketing-how-create-contact-persons.md).
+Frekari upplýsingar eru í [Stofna einstaklingstengiliði](marketing-how-create-contact-persons.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Nota forskilgreind sjálfgildi á nýja tengiliði
 Hægt er að láta forritið tilgreina sjálfkrafa ákveðinn tungumálskóða, umsjónarsvæðiskóða, sölumannskóða og lands-/svæðiskóða sem sjálfgildi þegar nýir einstaklingstengiliðir eru stofnaðir. Einnig er hægt að færa inn sjálfgefinn söluferliskóta sem kerfið úthlutar sjálfkrafa á hvert nýtt tækifæri sem stofnað er.
@@ -41,7 +41,7 @@ Reitaerfðir skrifast yfir sjálfgildi sem sett hafa verið upp. Ef enska, til d
 <!--You can also setup a default salutation that the program automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, the program will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Samskipti skráð sjálfkrafa
-[!INCLUDE[d365fin](includes/d365fin_md.md)] getur sjálfkrafa skráð sölu- og innkaupaskjöl sem samskipti (til dæmis pantanir, reikninga, móttökur og þess háttar), ásamt forsíðum, tölvupóstsendingum og símtölum.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  getur sjálfkrafa skráð sölu- og innkaupaskjöl sem samskipti (til dæmis pantanir, reikninga, móttökur og þess háttar), ásamt forsíðum, tölvupóstsendingum og símtölum.
 
 Fyrir frekar upplýsingar, sjá [Skrá samskipti við tengiliði sjálfkrafa](marketing-auto-record-interactions.md)
 
@@ -53,7 +53,7 @@ Fyrir frekar upplýsingar, sjá [Tengiliðir samstilltir við viðskiptamenn, l�
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Úthluta Númeraraðir á tengiliði og tækifæri
 Hægt er að setja upp númeraraðir fyrir tengiliði og tækifæri. Hafi númeraröð verið sett upp fyrir tengiliði færir kerfið sjálfkrafa inn  næsta tiltæka tengiliðanúmer þegar nýr tengiliður er stofnaður og stutt á færslulykilinn í reitnum Nr. á tengiliðaspjaldinu.
 
-Frekari upplýsingar um númeraraðir er að finna á [Hvernig skal: stofna númeraraðir](ui-create-number-series.md).
+Frekari upplýsingar um númeraraðir er að finna á [stofna númeraraðir](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Leita að tvíteknum tengiliðum þegar tengiliðir eru stofnaðir
 Hægt er að láta kerfið leita sjálfkrafa leita að tvítekningum í hvert sinn þegar stofnað er tengiliðafyrirtæki eða leita handvirkt eftir að tengiliðirnir hafa verið stofnaðir. Einnig er hægt að láta kerfið uppfæra leitarstrengi sjálfkrafa í hvert sinn sem tengiliðaupplýsingum er breytt eða tengiliður stofnaður. Notandinn ákveður sjálfur hver endurtekningarprósentan er, það er hlutfall strengja sem verða að vera eins hjá tveimur tengiliðum til þess að kerfið líti á þá sem tvítekningar.

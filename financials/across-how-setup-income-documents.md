@@ -13,13 +13,13 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 9a07389bf676468ea17516f8b00b8b1a235dc853
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ad534c9d60bbf3805f701eec6295084f6121a6d0
 ms.contentlocale: is-is
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-incoming-documents"></a>Hvernig á að: Setja upp skjöl á innleið
+# <a name="set-up-incoming-documents"></a>Setja upp skjöl á innleið
 Ef stofnaðar eru færslubókarlínur úr færslum skjala á innleið verður að tilgreina í í glugganum **Uppsetning fyrir skjöl á innleið** hvaða sniðmát færslubókar og runu á að nota.
 
 Ef notendur eiga ekki að geta stofnað reikninga eða færslubókarlínur úr færslum skjala á innleið nema skjöl séu fyrst samþykkt verður að setja upp samþykkjendur í glugganum **Samþykkjendur skjala á innleið**.
@@ -42,7 +42,7 @@ Til að breyta PDF og myndaskrám í rafræn skjöl sem er hægt að breyta í t
 Þegar samþykkjendur hafa verið settir upp í glugganum **Samþykkjendur skjala á innleið** geta aðeins þessir notendur samþykkt skjal á innleið ef gátreitur **Krefjast samþykkis fyrir stofnun** í glugganum **uppsetning skjala á innleið** er valinn.
 
 > [!NOTE]  
->   Þessi uppsetning samþykkis er ekki tengd samþykktarverkflæðum. Nánari upplýsingar sjá [hvernig á að: nota Samþykkisverkflæði](across-how-use-approval-workflows.md).
+>   Þessi uppsetning samþykkis er ekki tengd samþykktarverkflæðum. Frekari upplýsingar eru í [Nota verkflæði samþykktar](across-how-use-approval-workflows.md).
 
 ## <a name="to-set-up-an-ocr-service"></a>Til að setja upp OCR-þjónustu
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning OCR-þjónustu** og velja svo viðeigandi tengil.
@@ -58,5 +58,5 @@ Mælt er með því að vernda innskráningarupplýsingar sem slegnar eru inn í
 [Vinnsla skjala á innleið](across-process-income-documents.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
