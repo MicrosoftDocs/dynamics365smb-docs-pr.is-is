@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 659b3bebb20e3deb33e6e392c5318810848285a1
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Stofna skýrslur með XBRL
@@ -27,7 +27,7 @@ XBRL (eXtensible Business Reporting Language) er XML-miðað tölvumál fyrir vi
  • Upplýsingar sem eru ekki viðskiptatengdar  
  • Reglubundna skráningu, eins og ársreikninga og ársfjórðungsreikninga  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  gerir fyrirtækjum kleift að breyta gögnum í XBRL og njóta þess hagræðis sem fylgir sveigjanleika og sjálfvirkni við að safna gögnum og deila þeim.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] gerir fyrirtækjum kleift að breyta gögnum í XBRL og njóta þess hagræðis sem fylgir sveigjanleika og sjálfvirkni við að safna gögnum og deila þeim.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language (XML-miðað tölvumál fyrir viðskiptaskýrslugerð)
 XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) er XML-miðað tölvumál fyrir viðskiptaskýrslugerð. Með XBRL fæst staðall til samræmdrar skýrslugerðar fyrir alla notendur fjárhagslegra upplýsinga, svo sem opinber fyrirtæki og fyrirtæki í einkaeign, endurskoðendur, eftirlitsaðila, þá sem starfa við greiningu, fjárfesta, fjármagnsmarkaði og lánastofnanir, ennfremur aðra aðila, til dæmis forritara og þá sem starfa við gagnasöfn.  

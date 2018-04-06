@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 712f0de68476a73871672c399bc5be72d511d9c1
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Nota verkraðir til að tímaraða verkhlutum
@@ -25,7 +25,7 @@ Glugginn **Verkraðarfærslur** birtir öll núverandi verk. Ef bætt er inn ný
 
 Einnig er hægt að velja afmörkun sem gildir í reitnum **Afmörkun flokks verkraðar**. Flokka verkraðar má nota til að flokka verk sem eru á listanum.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  keyrir verkin sjálfvirkt samkvæmt tilteknum tímasetningum fyrir hverja verkraðarfærslu. Þú getur einnig byrjað, stoppað og slegið verkraðarfærslu á frest handvirkt.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] keyrir verkin sjálfvirkt samkvæmt tilteknum tímasetningum fyrir hverja verkraðarfærslu. Þú getur einnig byrjað, stoppað og slegið verkraðarfærslu á frest handvirkt.
 
 ### <a name="log-files"></a>Kladdaskrár
 Villur eru taldar upp í glugganum **Skráarfærslur verkraðar** sem þú getur farið inn í gegnum borðann. Einnig er hægt að leita úrræða vegna verkraðarvillna. Gögn sem verða til þegar verkröð er keyrð eru geymd í gagnagrunninum.  
@@ -35,7 +35,7 @@ Verkraðir eru áhrifaríkt verkfæri til að raða notkun viðskiptaferla í ba
 
  Einnig er hægt að á að áætla bókanir fyrir tíma hentugum fyrir fyrirtækið. Til dæmis getur það verið við hæfi í fyrirtæki notanda að keyra tilteknar vinnslur þegar flestum gagnafærslum fyrir daginn er lokið. Þú getur náð þessu fram með því að láta verkröðina keyra mismunandi bókunarskrár í runu, eins og t.d. skrárnar **Bókunarsölupantanir í runu**, **Bókunarsölureikningar í runu**, og **Bókunarsölukreditreikningar í runu**.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  styður bakgrunnsbókun fyrir eftirfarandi tegundir skjala:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] styður bakgrunnsbókun fyrir eftirfarandi tegundir skjala:  
 
 -   Sala: sölupöntun, vöruskilapöntun, kreditreikningur, reikningur  
 
@@ -52,7 +52,7 @@ Verkraðir eru áhrifaríkt verkfæri til að raða notkun viðskiptaferla í ba
 >  Ef þú setur upp verk sem mun bóka og prenta skjöl, og prentarinn sýnir svarglugga, svo sem beiðni um auðkennisupplýsingar eða viðvörun um að blek sé að klárast, bókast fylgiskjalið en prentast ekki út. Samsvarandi verkraðarfærsla rennur á endanum út á tíma og reiturinn **Staða** stillist á **Villa**. Ekki er mælt með notkun prentarauppsetningar sem krefst samskipta við svarglugga prentara samhliða bakgrunnsbókunar.  
 
 ## <a name="use-the-my-job-queue-part"></a>Nota Mín Verkröð hlutann
-Hlutinn **Mín verkröð** sýnir verkraðarfærslurnar sem notandi hefur hafið, en er ekki lokið enn. Að sjálfgefnu er hlutinn ekki sjáanlegur, þannig að þú veður að bæta honum inn í Hlutverkamiðstöðina þína. Frekari upplýsingar eru í [Breyta Mitt hlutverk](change-role.md).  
+Hlutinn **Mín verkröð** sýnir verkraðarfærslurnar sem notandi hefur hafið, en er ekki lokið enn. Að sjálfgefnu er hlutinn ekki sjáanlegur, þannig að þú veður að bæta honum inn í Hlutverkamiðstöðina þína. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md).  
 
 Í þessum hluta er hægt að sjá fylgiskjölin sem verið er að vinna úr eða þau sem eru í bið fyrir það sem auðkennið tilgreinir í reitnum **Úthlutað notandakenni**. Hlutinn hjálpar til við að halda utan um allar verkraðarfærslur, þar á meðal þær sem tengjast bakgrunnsbókun. Hlutinn gefur til kynna á svipstundu hvort um villu hafi verið að ræða við bókun skjals eða hvort það hafi verið villur í verkraðarfærslu. Hlutinn býður einnig upp á að hætta við bókun skjals ef hún er ekki í gangi.  
 

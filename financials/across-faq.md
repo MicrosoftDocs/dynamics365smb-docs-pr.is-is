@@ -11,17 +11,17 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b14df6dbf21e405464431600eb5e743b528edbee
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c94729445defcd88f7ac20e258f71b3c9da2142b
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Algengar spurningar
 Þessi hluti inniheldur svör við algengum spurningum um nýskráningu og notkun [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Hvaða netfang get ég notað með [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  krefst að notandi noti vinnu eða skóla netfang til að nýskrá. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] krefst að notandi noti vinnu eða skóla netfang til að nýskrá. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.  
 
 Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gefa til kynna að þú eigir að nota vinnu eða skóla netfang. Nánari upplýsingar sjá [Úrræðaleit sjálfsafgreiðslu nýskráning](ui-troubleshoot-self-signup.md).  
 
@@ -29,7 +29,7 @@ Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gef
 Númer Ef notandi vill upplifa [!INCLUDE[d365fin](includes/d365fin_md.md)] að fullu samþætt við Office 365 er hægt að skrá sig í 1 mánaðar ókeypis prufutímabil fyrir Office 365 [hér](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Hvað er samþættingin við Office 365 um?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er fullsamþætt Office 365 svo notandi getur flett frjálslega á milli Office 365 smáforrita og [!INCLUDE[d365fin](includes/d365fin_md.md)] með forritavalmynd. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að opna gögn í Excel, prenta skýrslur með Word, og notandi getur unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögn í Outlook, til dæmis. Nánari upplýsingar, sjá [Nota [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] sem viðskiptainnboxið þitt í Outlook](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er fullsamþætt Office 365 svo notandi getur flett frjálslega á milli Office 365 smáforrita og [!INCLUDE[d365fin](includes/d365fin_md.md)] með forritavalmynd. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að opna gögn í Excel, prenta skýrslur með Word, og notandi getur unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögn í Outlook, til dæmis. Nánari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnboxið þitt í Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Get ég hætt við áskriftina?
 Já, en gögnum getur verið eytt eða þau varðveitt, allt eftir því hvernig notandi skráði sig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar, sjá [Hætta við [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
@@ -50,6 +50,9 @@ Ertu búin(n) að lesa um nýjan eiginleika í vegakortinu eða á blogginu okka
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnhólf þitt í Outlook](madeira-outlook.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] án Outlook](madeira-no-outlook.md)  
-[Breyta Mitt hlutverk](change-role.md)  
+[Breyta grundvallarstillingum](ui-change-basic-settings.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

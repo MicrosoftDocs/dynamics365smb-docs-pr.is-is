@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 6b45f26f4e9ef63d0bdb6cfe755c0e7a45142483
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Hönnunarupplýsingar: afstemming í fjárhagur
@@ -67,7 +67,7 @@ Eftirfarandi tafla sýnir hvernig vinnustöð er sett upp á vinnustöðvarspjal
 
 |Uppsetning reits|Gildi:|  
 |-----------------|-----------|  
-|**Innk.verð**|SGM 2.00|  
+|**Innkaupsverð**|SGM 2.00|  
 |**Óbeinn kostnaður prósenta**|10|  
 
 ##### <a name="scenario"></a>Aðstæður  
@@ -121,7 +121,7 @@ Frekari upplýsingar um vensl milli reikningsgerða og mismunandi gerðir virði
 
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
-[Hönnunarupplýsingar: Væntanlegur kostnaðarfærsla](design-details-expected-cost-posting.md)   
+[Hönnunarupplýsingar: Væntanleg kostnaðarfærsla](design-details-expected-cost-posting.md)   
 [Hönnunarupplýsingar: kostnaðarleiðrétting](design-details-cost-adjustment.md)
 [Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
 [Fjármál](finance.md)  

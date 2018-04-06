@@ -13,10 +13,10 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: c1accaa517efa3fb9958316d2586b06fa8cadb80
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f29ae6b0a87f24a5201dd05b1d631adcc69b116d
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-reports"></a>Unnið með Skýrslur
@@ -51,7 +51,7 @@ Nota valmyndarslá til að:
 Þú getur vistað skýrsluna á PDF-sniði, Microsoft Word skjali eða Microsoft Excel skjali með því að velja **Senda til**, og svo framkvæma þitt val.
 
 ## <a name="ScheduleReport"></a> Tímasetja keyrslu skýrslu
-Hægt er að tímasetja skýrslu þannig að hún keyri á tilteknum degi og tíma. Tímasettar skýrslur eru færðar inn í verkröð og unnar á settum tíma, eins og önnur verk. Hægt er að velja að vista meðhöndlaða skýrslu í skrá, t.d. Excel, Word, eða PDF, prenta hana á völdum prentara, eða meðhöndla aðeins skýrsluna. Ef þú velur að vista skýrsluna í skrá þá er meðhöndlaða skýrslan send á svæðið **Skýrsluinnhólf** á heimasíðu þinni þar sem þú getur skoðað hana.
+Hægt er að tímasetja skýrslu þannig að hún keyri á tilteknum degi og tíma. Tímasettar skýrslur eru færðar inn í verkröð og unnar á settum tíma, eins og önnur verk. Hægt er að velja að vista meðhöndlaða skýrslu í skrá, t.d. Excel, Word, eða PDF, prenta hana á völdum prentara, eða meðhöndla aðeins skýrsluna. Ef þú velur að vista skýrsluna í skrá þá er meðhöndlaða skýrslan send á svæðið **Skýrsluinnhólf** á Mitt hlutverk þar sem þú getur skoðað hana.
 
 Hægt er að tímasetja skýrslu þegar skýrsla er opnuð. Valkosturinn **Áætlun** er valinn og síðan eru upplýsingar á borð við prentara, og tíma og dagsetningu færðar inn. Skýrslunni er síðan bætt við verkröðina og hún verður keyrð á tilgreindum tíma. Þegar skýrslan hefur verið meðhöndluð er varan fjarlægð úr verkröðinni. Ef þú vistaðir meðhöndlaða skýrsluna í skrá er hún aðgengileg á svæðinu **Skýrsluinnhólf**.
 

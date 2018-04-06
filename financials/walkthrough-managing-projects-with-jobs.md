@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2df47e6f5bcd7b02282e45757d94bd6fc0f0981d
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Kynning: Stýring verkefna með verkum
@@ -262,7 +262,7 @@ ms.lasthandoff: 01/30/2018
 ### <a name="to-post-a-new-sales-invoice"></a>Nýr sölureikningur bókaður  
 
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.  
-2.  Reikningur er valinn fyrir viðskiptamann Nr. 01445544. 01445544. Sjá má upplýsingarnar sem slegnar voru inn frá áætlunarlínunum.  
+2.  Reikningur er valinn fyrir viðskiptamann Nr. 01445544. Sjá má upplýsingarnar sem slegnar voru inn frá áætlunarlínunum.  
 3.  Valið er **Bóka** aðgerðin. Velja **Já** til að staðfesta bókun.  
 
 ### <a name="to-view-the-posted-invoice"></a>Bókaðir reikningar skoðaðir  

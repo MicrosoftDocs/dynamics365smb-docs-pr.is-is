@@ -16,18 +16,18 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 747a3f83d5e0387a557eebaf9ad5d2ef5dcd0673
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="visit-our-video-library"></a>Skoðaðu myndbandasafnið okkar
 Til að hjálpa þér að komast fljótt af stað, erum við að byggja upp safn fræðslumyndbanda sem sýna hvernig á að framkvæma ýmis ferli í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Í safninu eru til dæmis myndbönd sem sýna hvernig á að:  
 
-* Færa viðskiptagögn úr öðru fjármálaforriti yfir í  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Færa viðskiptagögn úr öðru fjármálaforriti yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Setja upp víddir svo hægt sé að rekja og greina ýmis gögn og einingar
 * Tengja [!INCLUDE[d365fin](includes/d365fin_md.md)] við Microsoft Dynamics 365 for Sales
 * Setja upp verkflæði samþykktar  
-* Nota Power BI með  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-* Setja upp tölvupóst og senda gögn beint frá  [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Nota Power BI með [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Setja upp tölvupóst og senda gögn beint frá [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 Hægt er að nálgast myndböndin á ólíka vegu. Ef þú ert þegar að vinna í [!INCLUDE[d365fin](includes/d365fin_md.md)], eru tvær leiðir til að komast í safnið:
 

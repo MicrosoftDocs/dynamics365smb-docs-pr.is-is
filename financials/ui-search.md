@@ -13,10 +13,10 @@ ms.search.keywords: find
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5447914141d3a2a40af2438e854ef7ed3159405b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 8c337a507b1d6c6cfce65c068070f4e4dbccd953
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="searching-for-a-page-or-report"></a>Leit að síðu eða skýrslu
@@ -27,7 +27,7 @@ Finna má síður og skýrslur með því að nota **Leit að síðu eða skýrs
 Þegar byrjað er að slá stafi , birtist fellilisti með síðuheitum með stöfunum sem slegnir eru inn. Fellilistinn breytist eftir því sem fleiri stafir eru slegnir inn og hægt er að velja réttu síðuna úr listanum þegar hún birtist. Annar reiturinn í fellilistanum sýnir slóðina á síðurnar sem finnast. Einnig er til staðar tengill sem hægt er að nota til að leita í hjálparefni að stöfunum sem slegnir voru inn.
 
 > [!NOTE]  
->   Fyrirliggjandi síður og skýrslur byggjast á notendaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunnatriði** upplifunin veitir aðgang að færri en **Suite** upplifunin gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
+>   Fyrirliggjandi síður og skýrslur byggjast á notendaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Mikilvægar** upplifanir gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 > [!NOTE]  
 >   Valkosturinn **Leita að síðu eða skýrslu** leitar ekki í gögnum, líkt og heitum viðskiptamanna, aðsetri eða færslum. Í staðinn er hægt að leita að gögnum á listasíðum með því að velja stækkunarglerstáknið í hægra horninu á listahausnum. Leitin á aðeins við um listann sem verið er að skoða. Frekari upplýsingar eru í [Skilyrði í afmörkunum](ui-enter-criteria-filters.md).

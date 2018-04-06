@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Tryggja eignir
@@ -70,7 +70,7 @@ Eftirfarandi ferli útskýrir hvernig stofna vátryggingarbókarlínu handvirkt.
 5. Opnaðu viðeigandi Vátryggingabók, endurskoðaðu stofnuð gildi og bókaðu þau síðan í vátryggingasviðshöfuðbókina.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Eftirlit með vátryggingasviði
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  veitir sérhæfðar skýrslu- og tölfræðiglugga til að greina vátryggingarskilmála, og hvort eignir þínar eru oftryggðar eða vantryggðar.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] veitir sérhæfðar skýrslu- og tölfræðiglugga til að greina vátryggingarskilmála, og hvort eignir þínar eru oftryggðar eða vantryggðar.  
 
 ### <a name="overview-of-insurance-policies"></a>Yfirlit yfir vátryggingaskírteini
 Til að fá yfirlit yfir vátryggingarskilmála þína skaltu forskoða eða prenta **Vátrygging - Listi** skýrsluna. Skýrslan sýnir alla skilmálana og mikilvægustu reitina af vátryggingarspjöldunum.  

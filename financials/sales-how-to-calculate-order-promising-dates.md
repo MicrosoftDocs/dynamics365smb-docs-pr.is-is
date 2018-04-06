@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Reikna dagsetningar pöntunarloforða
@@ -39,7 +39,7 @@ Ef ekki er tilgreind umbeðin afgreiðsludagsetning á sölupöntunarlínunni, e
 ## <a name="about-order-promising"></a>Um pöntun lofað
 Aðgerðin Pöntunarloforð gerir kleift að lofa því að pöntun verði send eða afhent á tilteknum degi. Kerfið reiknar út hvenær vara er tiltæk eða hægt að lofa henni og það býr til pöntunarlínur fyrir þær dagsetningar sem samþykktar eru. Pöntunarloforðsaðgerðin reiknar fyrstu hugsanlegu dagsetningu fyrir sendingu eða afhendingu á vöru. Einnig eru búnar til innkaupabeiðnilínur, ef fyrst skyldi þurfa að kaupa inn vörurnar, fyrir dagsetningarnar sem eru samþykktar.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  notar tvö grundvallarhugtök:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] notar tvö grundvallarhugtök:  
 
 - Tiltækt að lofa (ATP)  
 - Hægt að lofa (CTP)  
@@ -64,7 +64,7 @@ Ef viðskiptamaðurinn biður ekki um sérstaka afgreiðsludagsetningu verður a
 - Afh.dags + út úr vöruhúsi + áætluð afhending + Afgreiðslutími = Dagsetning  
 - Áætluð afhendingardagsetning + Flutningstími = Áætluð afgreiðsludagsetning  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  síðan er sannreynt hvort útreiknuð afhendingardagsetning er raunhæf með því að reikna aftur í tímann til að ákvarða hvenær varan verður að vera tiltæk til að standast setta dagsetningu. Þetta næst með eftirfarandi formúlum:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] síðan er sannreynt hvort útreiknuð afhendingardagsetning er raunhæf með því að reikna aftur í tímann til að ákvarða hvenær varan verður að vera tiltæk til að standast setta dagsetningu. Þetta næst með eftirfarandi formúlum:  
 
 - Áætluð afhendingardagsetning – Flutningstími = Áætluð afgreiðsludagsetning  
 - Áætluð afhendingardagsetning - Afgreiðslutími út úr vöruhúsi + Afh.dags.  

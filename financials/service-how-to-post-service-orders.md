@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bóka þjónustupantanir og kreditreikninga
@@ -99,7 +99,7 @@ Eftirfarandi ferli sýnir hvernig eigi að bóka afhendingu þjónustulínuvara 
   
 4. Smellt er á **Aðgerðir**, **Bókun**, **Bóka**. Í glugganum sem birtist skal velja **Afhenda**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  stofnar fjárhagsfærslur (í ábyrgðahöfuðbók, birgðahöfuðbók, þjónustuhöfuðbók eða fjárhag), framleiðir bókað þjónustuafhendingarfylgiskjal og uppfærir viðkomandi reiti í þjónustulínum þjónustupöntunarinnar.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] stofnar fjárhagsfærslur (í ábyrgðahöfuðbók, birgðahöfuðbók, þjónustuhöfuðbók eða fjárhag), framleiðir bókað þjónustuafhendingarfylgiskjal og uppfærir viðkomandi reiti í þjónustulínum þjónustupöntunarinnar.  
   
 Ef birgðageymslan er sett upp þannig að hún krefjist vöruhúsaafgreiðslu virka afhending og færsla þjónustulínuvara á sama hátt og í öðrum upprunaskjölum. Eini munurinn er sá að hægt er að nota þjónustulínuvörurnar við ytri eða innri vinnslu og þær krefjast því tvenns konar mismunandi afhendingarvirkni.  
   

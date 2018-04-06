@@ -1,8 +1,6 @@
 ---
 title: "Hönnunarupplýsingar - Vörujöfnun | Microsoft Docs"
 description: "Þetta efnisatriði lýsir því hvar birgðamagn og virði eru skráð þegar þú bókar birgðafærslu."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a70d1c31d867f3e005f51af0fc1b6352cb23ce91
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-application"></a>Hönnunarupplýsingar: umsókn vöru
@@ -57,7 +55,7 @@ Vörufærsla skrári eftirfarandi upplýsinagr.
 |Svæði|Description|  
 |---------------------------------|---------------------------------------|  
 |**Birgðafærslunr.**|Númer birgðafærslunnar fyrir þá hreyfingu sem þessi jöfnunarfærsla er stofnuð fyrir.|  
-|**Jafnað við færslu nr.**|Birgðafærslunúmer birgðaaukningarinnar sem færslan á að vera tengd við, ef það á við.|  
+|**Birgðafærslunr. vöru á innleið**|Birgðafærslunúmer birgðaaukningarinnar sem færslan á að vera tengd við, ef það á við.|  
 |**Jafnað af færslu nr.**|Birgðafærslunúmer birgðaminnkunarinnar sem færslan á að vera tengd við, ef það á við.|  
 |**Magn**|Það magn sem verið er að jafna.|  
 |**Bókunardags.**|Bókunardagsetning færslunnar.|  
@@ -68,7 +66,7 @@ Vörufærsla skrári eftirfarandi upplýsinagr.
 ### <a name="example"></a>Dæmi  
 Eftirfarandi tafla sýnir vörujöfnunarfærslu sem var búin til innkaupakvittun upp á 10 einingar var bókuð.  
 
-|Bókunardagsetning|Jafnað við færslu nr.|Jafnað af færslu nr.|Magn|Birgðafærsla nr.|  
+|Bókunardagsetning|Birgðafærslunr. vöru á innleið|Jafnað af færslu nr.|Magn|Birgðafærslunr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 
@@ -82,7 +80,7 @@ Eftirfarandi dæmi sýnir vörujöfnunarfærslu sem var stofnuð þegar bókuð 
 
 Eftirfarandi tafla sýnir tvær vörujöfnunarfærslur sem koma til bæði vegna birgðaaukningar og birgðaminnkunar.  
 
-|Bókunardagsetning|Jafnað við færslu nr.|Jafnað af færslu nr.|Magn|Birgðafærsla nr.|  
+|Bókunardagsetning|Birgðafærslunr. vöru á innleið|Jafnað af færslu nr.|Magn|Birgðafærslunr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 |01-03-20|1|2|-5|2|  
@@ -111,7 +109,7 @@ Eftirfarandi tafla sýnir birgðahöfuðbókarfærslur vegna atburðarásarinnar
 
 Eftirfarandi tafla sýnir vörujöfnunarfærslu vegna fastrar jöfnunar.  
 
-|Bókunardagsetning|Jafnað við færslu nr.|Jafnað af færslu nr.|Magn|Birgðafærsla nr.|  
+|Bókunardagsetning|Birgðafærslunr. vöru á innleið|Jafnað af færslu nr.|Magn|Birgðafærslunr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-06-20|1|3|10|3|  
 
@@ -128,7 +126,7 @@ Eftirfarandi dæmi, sem sýnir áhrif fastrar jöfnunar, er byggt á eftirfarand
 
 Eftirfarandi tafla sýnir áhrif atburðarásarinnar í virðisfærslum vörunnar.  
 
-|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna birgðafærslu|Virt skv. meðalinnkaupsverði|Birgðafærsla nr.|Færslunr.|  
+|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna birgðafærslu|Virt skv. meðalinnkaupsverði|Birgðafærslunr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Innkaup|1|200.00||Nr|1|1|  
 |01-01-20|Innkaup|1|1000.00||Nei|2|2|  
@@ -140,7 +138,7 @@ Ef notandi hefði ekki gert fasta jöfnun á milli innkaupakreditreikningsins og
 
 Eftirfarandi tafla sýnir áhrif í virðisfærslum vörunnar ef skref 2 í fyrri atburðarás er framkvæmt án fastrar jöfnunar.  
 
-|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna birgðafærslu|Virt skv. meðalinnkaupsverði|Birgðafærsla nr.|Færslunr.|  
+|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna birgðafærslu|Virt skv. meðalinnkaupsverði|Birgðafærslunr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Innkaup|1|200.00||Nr|1|1|  
 |01-01-20|Innkaup|1|1000.00||Nei|2|2|  
@@ -167,7 +165,7 @@ Eftirfarandi dæmi, sem sýnir hvernig föst jöfnun tryggir nákvæma bakfærsl
 
 Eftirfarandi tafla sýnir áhrif atburðarásaskrefa 1 til 3 í virðisfærslum vörunnar.  
 
-|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærsla nr.|Færslunr.|  
+|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærslunr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Innkaup|1|1000.00||1|1|  
 |02-01-20|Sala|-1|1000.00||2|2|  
@@ -175,13 +173,13 @@ Eftirfarandi tafla sýnir áhrif atburðarásaskrefa 1 til 3 í virðisfærslum 
 
 Eftirfarandi tafla sýnir virðisfærsluna sem kemur til vegna atburðarásarskrefs 4, bókun kostnaðarauka.  
 
-|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærsla nr.|Færslunr.|  
+|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærslunr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |04-01-20|(Kostnaðarauki)|1|100.00||1|4|  
 
 Eftirfarandi tafla sýnir áhrif nákvæmrar kostnaðarbakfærslu í virðisfærslum vörunnar.  
 
-|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærsla nr.|Færslunr.|  
+|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærslunr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Innkaup|1|1000.00||1|1|  
 |02-01-20|Sala|-1|1100.00||2|2|  
@@ -242,11 +240,12 @@ Vegna þess hvernig kostnaðarverð er reiknað út gæti skökk birgðajöfnun 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] býður upp á eiginleika til að greina og leiðrétta jöfnun vöru. Þetta er framkvæmt í glugganum **Vinnublað fyrir jöfnun**.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
-[Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)   
+[Hönnunarupplýsingar: Þekkt vandamál birgðajöfnunar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
+[Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
 [Hönnunarupplýsingar: Meðalkostnaður](design-details-average-cost.md)   
-[Hönnunarupplýsingar: kostnaðarleiðrétting](design-details-cost-adjustment.md)
-[Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
+[Hönnunarupplýsingar: kostnaðarleiðrétting](design-details-cost-adjustment.md)  
+[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

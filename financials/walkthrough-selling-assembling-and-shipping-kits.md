@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Kynning: Selja, setja saman og afhenda sett
@@ -36,7 +36,7 @@ Einkennandi fyrir samsetningarvörur er áfyllingarkerfi þeirra og samsetningar
 -   Stofnun samsetningaruppskriftar sem skráir samsetningaríhlutina og forðann sem fara í samsetningarvöruna.  
 
 ### <a name="selling-customized-assembly-items"></a>Sala sérsniðinna samsetningaríhluta  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  veitir þann sveigjanleika að geta fært inn bæði magn birgða og magn samsetningarpöntunar í eina sölupöntunarlínu. Í þessum hluta er fjallað um eftirfarandi verkhluta:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] veitir þann sveigjanleika að geta fært inn bæði magn birgða og magn samsetningarpöntunar í eina sölupöntunarlínu. Í þessum hluta er fjallað um eftirfarandi verkhluta:  
 
 -   Stofnun á hreinni ATO sölupöntunarlínu þar sem ekki er allt magn tiltækt og verður að setja saman fyrir afhendingu.  
 -   Sérstilling á ATO vörum.  
@@ -140,8 +140,8 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     |**Vörunr.**|**Svæðiskóti**|**Hólfkóti**|**Magn**|  
     |-----------------------------------|---------------------------------------|--------------------------------------|------------------------------------|  
-    |80001|TÍNA|W-01-0001|2.0|  
-    |80005|TÍNA|W-01-0001|2.0|  
+    |80001|TÍNA|W-01-0001|20|  
+    |80005|TÍNA|W-01-0001|20|  
     |80011|TÍNA|W-01-0001|20|  
     |80014|PICK|V-01-0001|20|  
     |80203|PICK|V-01-0001|20|  

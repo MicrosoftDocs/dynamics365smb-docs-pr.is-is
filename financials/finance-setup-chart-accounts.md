@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 1d0130dde256706460e58e5efc445bc5f4d5c595
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Uppsetning eða breyting á bókhaldslykli
@@ -33,7 +33,7 @@ Fyrir hvern bókhaldslykil er hægt að opna hvern einstakan fjárhagslykil og b
 * Reiturinn **Leyfa eyðingu fjárhagsr.fyrir** verður að vera stilltur í glugganum **Uppsetning fjárhags** og ekki mega vera fjárhagsfærslur í lyklinum frá og með þeim degi.  
 * Ef reiturinn **Athuga notkun fjárhagsr.** í glugganum **Uppsetning fjárhags** er valinn má ekki nota lykilinn í neinum bókunarflokkum eða bókunargrunnum.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  kemur í veg fyrir að fjárhagsreikningi sé eytt sem geymir gögn sem þarf í bókhaldslyklinum.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kemur í veg fyrir að fjárhagsreikningi sé eytt sem geymir gögn sem þarf í bókhaldslyklinum.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  

@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/02/2017
+ms.date: 02/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2aac957fc253f6c7d2f621ea2e5e039733081a19
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: b567b57755df5d887bc20ca8cebfb6d3d4383c37
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-general-journals"></a>Vinna í færslubókum
@@ -42,7 +42,54 @@ Ef stofnaðir voru sjálfgefnir mótreikningar fyrir bókakeyrslur á síðunni 
 >   VSK er reiknaður út á aðskilin hátt fyrir aðalreikninginn og mótreikninginn, þannig að þar er hægt að nota mismunandi VSK prósentuhlutfall.
 
 ## <a name="working-with-recurring-journals"></a>Vinna með Ítrekunarbækur
-Ítrekunarbók er færslubók með sérstökum reitum til að stjórna færslum sem eru bókaðar reglulega með litlum eða engum breytingum. Með því að nota þessa reiti fyrir endurteknar færslur er hægt að bóka bæði fastar og breytilegar upphæðir. Einnig er hægt að tilgreina sjálfvirkar bakfærslur daginn eftir bókunardag og nota úthlutunarlykla fyrir ítrekunarfærslur.
+Ítrekunarbók er færslubók með sérstökum reitum til að stjórna færslum sem eru bókaðar reglulega með litlum eða engum breytingum, t.d. leigu, áskriftum, rafmagni og hita. Með því að nota þessa reiti fyrir endurteknar færslur er hægt að bóka bæði fastar og breytilegar upphæðir. Einnig er hægt að tilgreina sjálfvirkar bakfærslur daginn eftir bókunardagsetningu. Einnig er hægt að nota úthlutunarlykla til að skipta ítrekunarfærslum niður á ýmsa reikninga. Nánari upplýsingar eru í kaflanum „Úthluta upphæð ítrekunarfærslu á ýmsa reikninga.“
+
+Með ítrekunarbók þarf aðeins einu sinni að setja inn færslur sem bókaðar verða reglulega. Það þýðir að reikningar, víddir og víddargildi o.s.frv sem fært er inn verður áfram í færslubókinni að lokinni bókun. Óhjákvæmilegar leiðréttingar má gera við hverja bókun.
+
+### <a name="recurring-method-field"></a>Reitur ítrekunarmáta
+Reiturinn ákvarðar hvernig upphæðin í færslubókarlínunni er meðhöndluð eftir bókun. Ef til dæmis á að nota sömu upphæðina í hvert sinn sem bókað er í línuna er hægt að láta upphæðina standa. Ef óskað er eftir að nota sömu reikninga og texta í línunni en breyta upphæðinni í hvert sinn sem er bókað er hægt að velja að eyða upphæðinni eftir bókun.
+
+| Til | Sjá |
+| --- | --- |
+|Fast|Magnið í bókarlínunni er látið standa eftir bókun.|
+|Breytilegt|Magninu í bókarlínunni er eytt eftir bókun.|
+|Staða|Bókaða upphæðin á reikningnum í línunni deilist á reikningana sem eru tilgreindir fyrir línuna í töflunni Færslubók úthlutunar . Reikningsstaðan verður stillt á núll. Nauðsynlegt er að fylla út reitinn **Úthlutunar%** í glugganum **Úthlutanir**. Nánari upplýsingar eru í kaflanum „Úthluta upphæð ítrekunarfærslu á ýmsa reikninga.“|
+|Föst bakfærsla|Upphæðin í færslubókarlínunni helst eftir bókun og mótfærsla bókast næsta dag.|
+|Breytileg bakfærsla|Upphæðinni í færslubókarlínunni er eytt eftir bókun og mótfærsla bókast næsta dag.|
+|Bakfærð staða|Bókaða upphæðin á reikningnum í línunni deilist á reikningana sem eru tilgreindir fyrir línuna í glugganum **Úthlutanir**. Staðan á reikningnum verður sett á núll og mótfærsla bókast næsta dag.|
+
+> [!NOTE]  
+>  Hægt er að fylla út VSK-reitina annaðhvort í ítrekunarbókarlínu eða úthlutunarbókarlínu en ekki í báðum. Því má einungis fylla þá út í glugganum **Úthlutanir** ef samsvarandi línur í ítrekunarbókinni hafa ekki verið fylltar út.
+
+### <a name="recurring-frequency-field"></a>Reitur ítrekunartíðni
+Reiturinn ákvarðar hversu oft skuli bóka færsluna í bókarlínunni. Þetta er reitur með dagsetningarreiknireglu og það verður að fylla hann út fyrir ítrekunarbókarlínur. Nánari upplýsingar er að finna í kaflanum „Notkun dagsetningarreiknireglna“ í [Færa inn gögn](ui-enter-data.md).
+
+#### <a name="examples"></a>Dæmi
+Ef þarf að bóka færslubókarlínuna í hverjum mánuði skal færa inn „1M“. Eftir hverja bókun er dagsetningin í reitnum **Bókunardags.** uppfærð í sama mánaðardag næsta mánaðar.
+
+Ef bóka á færslu á síðasta degi hvers mánaðar má gera eitt af þessu:
+
+- Bóka fyrstu færslu á síðasta degi mánaðar með því að færa inn 1D+1M+1D (1 dagur + 1 mánuður + 1 dagur). Með þessari reiknireglu er bókunardagsetningin reiknuð rétt án tillits til þess hve margir dagar eru í mánuðinum.
+
+- Bóka fyrstu færslu á hvaða mánaðardegi sem vera skal með því að færa inn 1M+CM. Með þessari reiknireglu verður bókunardagsetningin eftir einn heilan mánuð + dagana sem eftir eru í líðandi mánuði.
+
+### <a name="expiration-date-field"></a>Reitur lokadagsetningar
+Reiturinn ákvarðar dagsetninguna þegar línan verður bókuð í síðasta sinn. Ekki er hægt að bóka línuna eftir þessa dagsetningu.
+
+Kosturinn við notkun þessa reits er sá að línunni verður ekki eytt úr bókinni tafarlaust og alltaf má setja nýja dagsetningu í stað þeirrar sem er að renna út, þannig að línan verði nothæf til frambúðar.
+
+Ef reiturinn er auður er línan bókuð í hvert sinn sem bókað er þar til henni er eytt úr færslubókinni.
+
+### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Úthlutun upphæða á ítrekunarfærslum á nokkra reikninga
+Í glugganum **Ítrekunarfærslubók** er hægt að velja aðgerðina **Úthlutanir** til að sjá eða stjórna hvernig upphæðum á ítrekunarbókarlínu er úthlutað á nokkra reikninga og víddir. Athugið að úthlutunin virkar sem móttreikningslína gagnvart ítrekunarbókarlínu.
+
+Eins og í ítrekunarbók þarf aðeins að færa úthlutun inn einu sinni. Úthlutun verður eftir í úthlutunarbók að lokinni bókun þannig að ekki þarf að færa inn upphæðir og úthlutanir í hvert skipti sem ítrekunarbókarlína er bókuð.
+
+Ef reiturinn ítrekunarmáti í ítrekunarbók er stilltur á **Staða** eða **Bakfærð staða** er ekki hirt um víddargildiskóða í ítrekunarbók þar sem reikningur stendur á núlli. Þannig verður aðeins ein bakfærsla stofnuð ef mismunandi víddargildum er úthlutað ítrekunarlínu í glugganum **Úthlutanir**. Því má ekki færa inn sama kóða í glugganum **Úthlutanir** ef ítrekunarbókarlínu með víddargildiskóða er úthlutað. Ef það er gert verða víddargildin röng.
+
+####<a name="example-allocating-rent-payments-to-different-departments"></a>Dæmi: Úthlutun á leigugreiðslum til mismunandi deilda
+Leiga er greidd í hverjum mánuði þannig að leiguupphæð hefur verið færð inn á sjóðsreikning í ítrekunarbókarlínu. Í glugganum **Úthlutanir** er hægt að skipta kostnaðinum á milli deilda (deildarvídd) í samræmi við fermetrafjölda sem hver og ein hefur til umráða. Útreikningurinn byggist á úthlutunarprósentu fyrir hverja línu. Færa má nokkra reikninga í mismunandi úthlutunarlínum (ef leigunni er jafnframt skipt niður á nokkra reikninga), eða færa á sama reikning, með mismunandi víddargildiskóðum fyrir víddina Deild í hverri línu.
+
 
 ## <a name="working-with-standard-journals"></a>Vinna með Staðlaðar færslubækur
 Þegar bókarlínur sem líklegt er að verði stofnaðar aftur hafa verið stofnaðar er hægt að vista þær sem staðlaða færslubók áður en bókin er bókuð. Þessi virkni gildir um birgðabækur og almennar færslubækur.

@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 594c4cca94ee23904eaadc913f0e29ef0590f3f8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 8e28d3b8e245c014e6494cee341b49132242ac9f
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Endurskoðandi upplifun í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -23,7 +23,7 @@ ms.lasthandoff: 01/30/2018
 ## <a name="accountant-role-center"></a>Endurskoðandi Mitt hlutverk
 Mitt hlutverk er yfirlit með aðgerðarreitum sem sýna þér lykiltölur í rauntíma og veita þér skjótan aðgang að gögnum. Á borðanum efst í glugganum færðu aðgang að fleiri aðgerðum, eins og að opna þær fjárhagsskýrslur og yfirlit sem oftast eru notuð í Excel. Á yfirlitssvæðinu til vinstri geturðu skipt skjótt á milli listanna sem þú notar oftast. Ef þú útvíkkar **Heim** valmyndina á yfirlitssvæðinu, muntu sjá önnur svæði eins og t.d. **Bókuð fylgiskjöl** með mismunandi tegundum fylgiskjala sem fyrirtækið hefur bókað.  
 
-Ef þú þekkir ekki til [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu opnað myndbandalista frá heimasíðu þinni. Einnig er hægt að opna **Hafist handa** kynningu sem bendir á lykilsvæði.  
+Ef þú þekkir ekki til [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu opnað myndbandalista frá Mitt hlutverk. Einnig er hægt að opna **Hafist handa** kynningu sem bendir á lykilsvæði.  
 
 ## <a name="accountant-hub"></a>Accountant Hub
 Ef þú ert endurskoðandi með nokkra viðskiptamenn, geturðu notað [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] til að fá betra yfirlit yfir viðskiptamenn þína. Þaðan hefurðu aðgang að sérhverjum leigjanda viðskiptamanna þinna í [!INCLUDE[d365fin](includes/d365fin_md.md)] og getur notað Endurskoðandi Mitt hlutverk eins og lýst er hér að ofan. Nánari upplýsingar er að finna í [Velkomin í [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  

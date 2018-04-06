@@ -13,7 +13,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 97ff0418c2e3ffe2ace8412bb889fafd5788510b
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Uppsetning almennra eignaupplýsinga
@@ -51,7 +51,7 @@ Hægt er að úthluta færslum á ýmsar deildir og/eða verkefni samkvæmt úth
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Setja upp sniðmát eignabóka
 Sniðmát er fyrirfram skilgreind uppsetning á færslubók. Í sniðmáti eru upplýsingar um ferilskóta, skýrslur og númeraraðir. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  býr sjálfkrafa til sniðmát færslubókar eignar í fyrsta sinn sem glugginn **Færslubók eignar** er opnaður, en hægt er að setja upp önnur sniðmát færslubókar.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] býr sjálfkrafa til sniðmát færslubókar eignar í fyrsta sinn sem glugginn**Færslubók eignar** er opnaður, en hægt er að setja upp önnur sniðmát færslubókar.  
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **sniðmát færslubókar eignar** og velja svo viðeigandi tengil.  
 2. Fyllið inn í svæðin eftir þörfum.

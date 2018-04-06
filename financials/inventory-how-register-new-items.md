@@ -12,10 +12,10 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9643e71c29adf4b4be1d9d474832e3e29f2c21d8
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-items"></a>Skrá nýjar vörur
@@ -33,7 +33,7 @@ Hlutur getur verið uppbyggður sem yfireining með undirliggjandi undireiningu 
 Ef sama varan er keypt frá fleiri en einum lánardrottni, er hægt að tengja þessa lánardrottna við birgðaspjaldið. Lánardrottnarnir munu þá birtast í **Vörulisti lánardrottins** glugganum, þannig að þú getir auðveldlega valið annan lánardrottinn.
 
 ## <a name="to-create-a-new-item-card"></a>Að búa til nýtt vöruspjald
-1. Á heimasíðunni skal velja aðgerðina **vörur** til að opna listann yfir núverandi vörur.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
 2. Í glugganum **Vörur** skal velja aðgerðina **Nýtt**.
 
     Ef aðeins eitt vörusniðmát er fyrir hendi, opnast nýtt birgðaspjald með suma af reitunum útfyllta með upplýsingum úr sniðmátinu.

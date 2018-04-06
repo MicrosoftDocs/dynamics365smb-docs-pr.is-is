@@ -14,11 +14,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9f99b1fce3c44fdf2053a74b8fa090c6b69aef1a
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Reitarvörpum við innflutning SEPA CAMT skráa
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  styður svæðisbundinn SEPA-staðall (sameiginlegt evrópskt greiðslusvæði) fyrir innflutning SEPA-bankayfirlita (CAMT-snið). Nánari upplýsingar er að finna í [Setja upp umreikningsþjónustu fyrir bankagögn](bank-how-setup-bank-data-conversion-service.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] styður svæðisbundinn SEPA-staðall (sameiginlegt evrópskt greiðslusvæði) fyrir innflutning SEPA-bankayfirlita (CAMT-snið). Nánari upplýsingar er að finna í [Setja upp umreikningsþjónustu fyrir bankagögn](bank-how-setup-bank-data-conversion-service.md).  
 
  SEPA CAMT-staðallinn er með staðbundin afbrigði. Því kann að vera nauðsynlegt að breyta almennri skilgreiningu gagnaskipta táknað með **SEPA CAMT** kóðanum í **Skilgreiningar fyrir bókunarskipti** glugganum til að laga hana að staðbundnum útgáfum staðalsins. Eftirfarandi töflur sýna vörpun frá einingu í reit fyrir töflur 81, 273 og 274 í SEPA CAMT-framkvæmd í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

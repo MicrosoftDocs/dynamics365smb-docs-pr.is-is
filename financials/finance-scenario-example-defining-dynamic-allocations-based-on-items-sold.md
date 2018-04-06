@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d8622d11cd23e506d1b85b18dbe5facb740c7753
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Dæmi: Skilgreining kvikrar úthlutunar á grundvelli seldra vara
@@ -43,7 +43,7 @@ ms.lasthandoff: 01/30/2018
 14. Veljið **Reikna úthlutunarlykil** aðgerðina til að reikna út hlutinn.  
 
     > [!IMPORTANT]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  notar sölutölur fyrri ára til að reikna hlut 1596.50 SGM með 100 prósentum fyrir pakka IT EQUIPMENT. Þetta merkir að öllum seldum vörum síðasta árs verður úthlutað á kostnaðarhlutinn IT EQUIPMENT.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] notar sölutölur fyrri ára til að reikna hlut 1596.50 SGM með 100 prósentum fyrir pakka IT EQUIPMENT. Þetta merkir að öllum seldum vörum síðasta árs verður úthlutað á kostnaðarhlutinn IT EQUIPMENT.  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Uppsetning afmarkanir fyrir Kvik úthlutunargrunnar.](finance-setting-filters-for-dynamic-allocation-bases.md)   

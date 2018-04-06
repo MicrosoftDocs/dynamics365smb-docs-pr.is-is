@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 73d23013c97189caf5c75f561896b965dfb64837
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7cb6c75fa8c232c017e662ee8f324a8639c44a16
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-vendors"></a>Skráning nýrra lánardrottna
@@ -30,7 +30,7 @@ Lánardrottnaspjöld geyma upplýsingarnar sem þarf til að kaupa vörur frá l
 >   Ef lánardrottnasniðmát er til fyrir mismunandi tegundir lánardrottna, þá birtist sjálfkrafa gluggi þegar búið er til nýtt lánardrottnaspjald þar sem hægt er að velja viðeigandi lánardrottnasniðmát. Ef aðeins eitt lánardrottnasniðmát er fyrir hendi, nota ný lánardrottnaspjöld alltaf það sniðmát.
 
 ## <a name="to-create-a-new-vendor-card"></a>Að búa til nýtt lánardrottnaspjald.
-1. Á heimasíðunni skal velja **Lánardrottnar** til að opna listann yfir núverandi lánardrottnaspjöld.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **lánardrottnar** og velja svo viðeigandi tengil.  
 2. Í glugganum **Lánardrottnar** skal velja **Nýtt**.
 
     Ef fleiri en eitt lánardrottnasniðmát er fyrir hendi, þá birtist sjálfkrafa gluggi með tiltækum lánardrottnasniðmátum. Í því tilviki, fylgið næstu tveimur skrefum.

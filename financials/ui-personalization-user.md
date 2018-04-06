@@ -13,15 +13,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 07/26/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: a631b13e9b5587bba6ca22486f0e7421d96a5578
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: daf2a1349cc3e12e634324082d4e6507c5b312be
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="personalizing-your-workspace"></a>Sérstillingar verksvæðis
 <!--NAV in the Web client-->
-Þú getur sérstillt eða *sérsniðið* vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá. 
+Þú getur sérstillt eða *sérsniðið* vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá.
 
 Eftir tegund síðunnar og hvað hún inniheldur, þú getur:
 
@@ -35,14 +35,14 @@ Eftir tegund síðunnar og hvað hún inniheldur, þú getur:
 
 1. Í efra hægra horninu skaltu velja ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingar tákn fyrir hlutverkamiðstöð") og velja síðan **Sérstilla**.
 
-    Borðinn **Sérstillir** birtist efst til að tákna að hægt sé að byrja að gera breytingar. 
+    Borðinn **Sérstillir** birtist efst til að tákna að hægt sé að byrja að gera breytingar.
 
     ![Sérstillingar](media/ui_personalize_mode_small.png "Sérstillingar")
 
 2.  Fara á síðu sem þú vilt að sérsníða.
 
     Ef þú sérð lástáknið í borðanum, sjá [Af hverju er síðan læst](ui-personalization-locked.md) til að fá frekari upplýsingar.
-    
+
 3.  Bentu á svæði sem þú vilt sérstilla, svo sem reit eða dálkfyrirsögn í lista. Allt sem hægt er að sérstilla er auðkennt umsvifalaust með ör eða ramma.
 <!--
     -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
@@ -57,11 +57,11 @@ Eftir tegund síðunnar og hvað hún inniheldur, þú getur:
         <tr><td>Bæta við reit eða dálki</td><td>Í <b>Sérstilla</b> borðanum velurðu <b>Meira</b> og svo <b>Reitur</b>.<br /></br><b>Bæta reit á síðu</b> svæðið opnast til hægri. Það birtir reitina sem hægt er að bæta við síðuna. Reitir merktir sem <b>Staðsett</b> eru þegar á síðunni. Reitir merktir sem <b>Tilbúið</b> eru ekki á síðunni.<br /></br>Til að bæta við reit skaltu draga hann af svæðinu þangað sem þú vilt. Staðsetningin er auðkennd annaðhvort með þykkari láréttri eða lóðréttri línu.</td></tr>
         <tr><td>Breyta föstum svæði í lista í annan dálk</td><td>Veldu örina í dálknum sem þú vilt nota sem síðasta dálk í festu svæði og veldu síðan <b>Stilla Fast svæði</b>.<br /><br/>Ef þú vilt stilla föstu svæðinu aftur á upphaflega staðsetningu skaltu velja örina fyrir fasta dálkinn og velja <b>Hreinsa Fast svæði</b>. Athugaðu: Ekki er hægt að fjarlægja þetta fasta svæði.</td></tr>
       </table>
-    
+
     > [!IMPORTANT]  
     >   Ekki er hægt að breyta lista ef listinn er sýndur sem reitur. Fyrst verður að skipta yfir í lista með því að velja ![Sýna sem lista](media/ui_show_as_list_icon.png "Sýna sem lista ör vinstri") tákn.
-   
-5.  Þú getur haldið áfram að gera breytingar á sömu síðu eða fara á aðra síðu. Breytingarnar þínar eru sjálfkrafa vistaðar þegar þú gerir þær. Þegar þú hefur lokið við allt skaltu, í **Sérstilling** borðanum velja **Lokið**. 
+
+5.  Þú getur haldið áfram að gera breytingar á sömu síðu eða fara á aðra síðu. Breytingarnar þínar eru sjálfkrafa vistaðar þegar þú gerir þær. Þegar þú hefur lokið við allt skaltu, í **Sérstilling** borðanum velja **Lokið**.
 
 ## <a name="clear-personalization-to-change-a-page-back-to-its-original-layout"></a>Hreinsa sérstillingar til að breyta síðu aftur í upphaflegt útlit
 Á einhverjum tíma kanntu að vilja hreinsa allar sérstillingar sem hafa verið gerðar á síðu þannig að síðan líti út eins og hún gerði í upphafi. Til að gera þetta, í **Sérstilling** borðanu, velurðu **Meira** og svo **Hreinsa sérstillingar**.
@@ -69,13 +69,13 @@ Eftir tegund síðunnar og hvað hún inniheldur, þú getur:
 ## <a name="personalization-in-detail"></a>Yfirlit sérstillinga
 Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.  
 -   Þegar þú gerir breytingar á kortasíðu sem þú opnar af lista munu breytingarnar taka gildi á öllum færslum sem þú opnar af þeim lista. Segjum til dæmis að þú opnir tiltekinn viðskiptavin af listasíðunni Viðskiptavinir og sértillir svo síðuna með því að bæta við reit. Þegar þú opnar aðra viðskiptavini af listanum birtist einnig reiturinn sem þú bættir við.
--   Breytingar sem þú gerir munu taka gildi í öllum Mitt hlutverk. Ef þú til dæmis gerir breytingu á listanum Viðskiptavinir þegar Mitt hlutverk er stillt á Viðskiptastjórnandi, munt þú einnig sjá breytinguna á Viðskiptavinalistanum þegar Mitt hlutverk er stillt á Sölupöntunarvinnsla. 
+-   Breytingar sem þú gerir munu taka gildi í öllum Mitt hlutverk. Ef þú til dæmis gerir breytingu á listanum Viðskiptavinir þegar Mitt hlutverk er stillt á Viðskiptastjórnandi, munt þú einnig sjá breytinguna á Viðskiptavinalistanum þegar Mitt hlutverk er stillt á Sölupöntunarvinnsla.
 -   Breytingar á síðu í svæði taka gildi á síðunni þar sem þær birtast.  
 -   Aðeins er hægt að bæta við reitum og dálkum úr fyrirfram skilgreindum lista sem byggir á síðunni. Ekki er hægt að stofna nýja grunnstillingapakka.
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérstillingum stjórnað](ui-personalization-manage.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Breyta Mitt hlutverk](change-role.md)  
-[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
+[Breyta grundvallarstillingum](ui-change-basic-settings.md)  
+[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md)  
 

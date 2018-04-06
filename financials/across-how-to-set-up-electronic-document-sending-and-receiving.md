@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f597ce7dc0d4cda526da00d9aac5b1178c5e7a14
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Setja upp sendingu og móttöku rafrænna skjala
@@ -104,7 +104,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
 4. Í reitnum **Rafrænt skjal** skal velja **Já (í gegnum skjalaskiptaþjónusta)**.  
 
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  greinir sjálfkrafa hvort skjalið er reikningur eða kreditreikningur og beitir PEPPOL-sniði samkvæmt því.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] greinir sjálfkrafa hvort skjalið er reikningur eða kreditreikningur og beitir PEPPOL-sniði samkvæmt því.  
 
 5. Til að nota þessa forstillingu sendingar á skjölum fyrir alla viðskiptamenn skal velja gátreit **Sjálfgefið** á flýtiflipanum **Almennt**. Til að nota það aðeins fyrir tiltekna viðskiptamenn skal fylla út í reitinn **Forstilling skjalasendingar** á viðkomandi viðskiptamannaspjaldi. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
 

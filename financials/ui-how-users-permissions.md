@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 01/25/2018
+ms.date: 03/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: e78504959c5e858b420ac463d0a6adbaccad9481
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="manage-users-and-permissions"></a>Vinna með notendur og heimildir
@@ -22,11 +22,9 @@ Til að bæta notendum í [!INCLUDE[d365fin](includes/d365fin_md.md)], verður k
 
 Þegar notendur hafa verið stofnaðir í Office 365 er hægt að flytja þá inn í gluggann **notendur** með því að velja aðgerðina **Sækja notendur úr Office 365** Notendur eru úthlutað heimildir söfn samkvæmt áætlun sem er úthlutað á notandann í Office 365.
 
-Má því næst úthluta notendum heimildarsöfnum til að skilgreina hvaða hluti úr gagnagrunni, og þar með hvaða einingar Viðmótsins, þeir hafa aðgang að og í hvaða fyrirtækjum.
+Má því næst úthluta notendum heimildarsöfnum til að skilgreina hvaða hluti úr gagnagrunni, og þar með hvaða einingar Viðmótsins, þeir hafa aðgang að og í hvaða fyrirtækjum. Þú getur bætt notendum við notendahópa. Þannig er auðveldara að úthluta sama heimildarsöfn á mörgum notendum.
 
 Heimildasafn er safn heimildir fyrir tiltekna hluti í gagnagrunninum. Öllum notendum verða að hafa verið úthlutað eitt eða fleiri heimildasöfn áður en þeir geta opnað [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nokkur fyrirfram skilgreind heimildasöfn eru veitt sjálfvirkt. Hægt er að nota þessi heimildasöfn eins og þau eru nú þegar, breyta sjálfgefnum heimildasöfnum eða búa til önnur söfn.
-
-Þú getur bætt notendum við notendahópa. Þannig er auðveldara að úthluta sama heimildarsöfn á mörgum notendum.
 
 Stjórnendur geta notað **Notandauppsetningu** gluggann til að skilgreina tímabil þegar tilgreindir notendur geta bókað, og geta einnig tilgreint hvort kerfið skrái tímann sem notandinn er skráður inn.
 
@@ -42,13 +40,9 @@ Stjórnendur geta notað **Notandauppsetningu** gluggann til að skilgreina tím
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Notandaflokkar** og velja svo viðeigandi tengil.
 2. Einnig, í glugganum **Notendur**, veldu aðgerðina **Notandaflokkar**.
-3. Í glugganum **Notandahópar** er valinn er fyrirliggjandi notandahópurinn sem á að afrita og veljið svo **Afrita notandahóp** aðgerðina.
-4. Í reitnum **Kóðar fyrir nýja notandahópa** er tilgreint nafn þess notanda hópinn og síðan valið **Í lagi** hnappinn.
-
-    Í stað þess að afrita, er hægt er að velja Nýja aðgerð til að búa til nýja línu fyrir auður notandahópur, og fylla síðan út handvirkt.
-5. Til að við bæta nýjum eða fleiri notendur í glugganum **Notandahópur** er valin **Meðlimir notandahóps** aðgerðin.
-6. Í glugganum **Notandahópur** er í nýrri línu fyllt í reitina eftir þörfum með því að velja úr hópi notendur sem þegar eru til staðar.
-7. Til að bæta nýjum eða fleiri heimildarsöfnum, velurðu í glugganum **Notandahópur** aðgerðina **Heimildarsöfn notandahóps**.
+3. Í glugganum **Notandaflokkur** er valin aðgerðin **Meðlimir notandaflokks**.
+6. Í glugganum **Meðlimir notandaflokks** er valin aðgerðin **Bæta við notendum**.
+7. Til að bæta nýjum eða fleiri heimildarsöfnum, velurðu í glugganum **Notandahópar** aðgerðina **Heimildarsöfn notandahóps**.
 8. Í glugganum **Heimildarsöfn notandahópa** er í nýrri línu fyllt í reitina eftir þörfum með því að velja úr heimildarsöfnum sem þegar eru til staðar.
 
 ## <a name="to-set-up-user-time-constraints"></a>Til að setja upp tímaskorður notanda

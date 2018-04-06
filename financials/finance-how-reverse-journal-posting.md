@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 92c0bca970250b8f160ecfc15b086963c8693885
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 66fcd6282f02d5789b12b79467ec177817422c5c
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="reverse-postings"></a>Bakfæra bókanir
@@ -66,6 +66,15 @@ Hægt er að bakfæra færslur úr öllum **Fjárhagsfærslur** gluggum. Eftirfa
 6.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skilapöntun innkaupa** og velja svo viðeigandi tengil.  
 7.  Opna skilapöntunina sem um ræðir og velja síðan **Enduropna** aðgerðina.  
 8.  Leiðrétta færsluna í **Magn** reitnum og bóka skilapöntun innkaupa aftur.  
+
+## <a name="to-post-a-negative-entry"></a>Að bóka neikvæða færslu  
+Hægt er að nota reitinn **Leiðrétting** til að bóka neikvæða debetfærslu í stað kreditfærslu, eða til að bóka neikvæða kreditfærslu í stað debetfærslu á reikningi. Til að uppfylla lagaskilyrði er þetta svæði sýnilegt að sjálfgefnu í öllum færslubókum. Reitirnir **Debetupphæð** og **Kreditupphæð** innihalda bæði upphaflegu færsluna og leiðréttu færsluna. Þessir reitir hafa engin áhrif á reikningsstöðuna.  
+
+1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **færslubók** og velja svo viðeigandi tengil  
+2.  Í reitnum **Heiti keyrslu** skal velja viðeigandi heiti keyrslu.  
+3.  Færið inn upplýsingar í viðkomandi reiti.  
+4.  Í færslubókarlínu sem á að virkja fyrir neikvæðar færslur skal velja gátreitinn **Leiðrétting**.  
+5.  Til að bóka færslubókina skal velja aðgerðina **Bóka** og síðan smella á hnappinn **Já**.
 
 ## <a name="see-also"></a>Sjá einnig
 [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  

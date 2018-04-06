@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: a193d1ac19a0474b4a541165ef9f06d21ac7fb7d
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-production-boms"></a>Búa til framleiðsluuppskriftir
 Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem notuð er í framleiðslu yfirvörunnar. Þegar framleiðslupöntun er búin til fyrir yfirvörunni stjórnar framleiðsluuppskriftin útreikningum á efniþörf, eins og sýnt er í glugganum **Íhlutir framl.pöntunar**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]   styður einnig samsetningaruppskriftir. Samsetningarpantanir eru notaðar til að gera lokaafurð úr íhlutum með einföldu ferli sem hægt er að vinna með einu eða fleiri tilföngum, sem ekki eru vélar eða vinnustöðvar, eða án nokkurra tilfanga. Til dæmis gæti samsetningarferli falið í sér að velja tvær vínflöskur og einn kaffipoka og pakka þeim sem gjafavöru. Nánari upplýsingar er að finna í „Samsetningaruppskriftir eða framleiðsluuppskriftir“ hlutanum í [Vinna með uppskrift](inventory-how-work-BOMs.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] styður einnig samsetningaruppskriftir. Samsetningarpantanir eru notaðar til að gera lokaafurð úr íhlutum með einföldu ferli sem hægt er að vinna með einu eða fleiri tilföngum, sem ekki eru vélar eða vinnustöðvar, eða án nokkurra tilfanga. Til dæmis gæti samsetningarferli falið í sér að velja tvær vínflöskur og einn kaffipoka og pakka þeim sem gjafavöru. Nánari upplýsingar er að finna í „Samsetningaruppskriftir eða framleiðsluuppskriftir“ hlutanum í [Vinna með uppskrift](inventory-how-work-BOMs.md).  
 
 Áður en þú getur sett upp leið verður eftirfarandi að vera á réttum stað:  
 

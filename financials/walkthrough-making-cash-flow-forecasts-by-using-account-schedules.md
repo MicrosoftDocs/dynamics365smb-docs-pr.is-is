@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Kynning: Gera sjóðstreymisspár með því að nota fjárhagsskemu
@@ -34,7 +34,7 @@ ms.lasthandoff: 01/30/2018
 ### <a name="prerequisites"></a>Frumskilyrði  
 Til að ljúka þessari kynningu þarf:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)]  uppsett.  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)] uppsett.  
 - Vinnublaðslínur sjóðstreymis eru skráðar.  
 
 ## <a name="roles"></a>Hlutverk  

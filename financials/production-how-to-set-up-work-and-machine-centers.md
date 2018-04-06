@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Setja upp vinnu- og vélastöðvar
@@ -83,7 +83,7 @@ Ef ekki á að taka með afkastagetu vinnustöðva í heildarafkastagetunni má 
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Vinnu- eða vélastöð með takmarkaða afkastagetu sett upp
 Setja þarf upp framleiðsluforða sem talinn er mikilvægur og merkja hann þannig að hann samþykki takmarkað álag í staðinn fyrir sjálfgefið, ótakmarkað álag sem annar framleiðsluforði samþykkir. Tilfang með takmarkaða afkastagetu getur verið vinnu- eða vélastöð sem þú hefur greint sem flöskuháls og vilt setja takmarkað álag á.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  styður ekki sundurliðaða vinnusalsstýringu. Hún áætlar gerlega nýtingu tilfanga með því að leggja fram grófa áætlun en stofnar ekki og viðheldur sjálfkrafa ítarlegum áætlunum, byggðum á reglum um forgangsröðun eða bestun.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki sundurliðaða vinnusalsstýringu. Hún áætlar gerlega nýtingu tilfanga með því að leggja fram grófa áætlun en stofnar ekki og viðheldur sjálfkrafa ítarlegum áætlunum, byggðum á reglum um forgangsröðun eða bestun.
 
 Í glugganum **Tilföng með takmarkaða afkastagetu**, geturðu búið til uppsetning sem forðast yfirálag á tilgreind tilföng og tryggir að engin afkastageta sé án úthlutunar ef úthlutun á henni gæti aukið viðdvalartíma framleiðslupöntunar. Í reitnum **Hömlur (% af heildar afkastagetu)** má bæta við hömlutíma á tilföng til að draga úr skiptingu aðgerðar. Þetta gerir kerfinu kleift að áætla hleðslu á síðasta mögulega dag með því auka álagsprósentuna lítillega ef það er hægt að minnka fjölda virkni sem er skipt.
 

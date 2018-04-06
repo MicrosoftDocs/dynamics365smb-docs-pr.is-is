@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 439776669b9978ab622131aac770679ed08900ea
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 85b5583d18042b05aea264d59ed9484dddeb4d12
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning"></a>Áætlun
@@ -25,7 +25,7 @@ Gera verður áætlun um framleiðsluaðgerðirnar sem þarf til að breyta íla
 > [!NOTE]
 > Þetta efnisatriði lýsir fyrst og fremst áætlunum fyrir fyrirtæki sem eru í framleiðslu eða samsetningarstjórnun þar sem birgðapantanir geta verið framleiðsla, samsetning, flutningur eða innkaupapantanir. Aðalviðmótið fyrir þessa áætlunarvinnu er **Áætlunarvinnublað** glugginn.
 
-> [!INCLUDE[d365fin](includes/d365fin_md.md)]  styður einnig framboðsáætlanir fyrir heildsölufyrirtæki þar sem framboðspantanir geta aðeins verið flutnings- eða innkaupapantanir. Aðalviðmótið fyrir þessa áætlunarvinnu er **Innkaupatillaga** glugginn, sem er lýst óbeint í þessu efnisatriði þar sem flestar áætlunaraðgerðir má framkvæma í báðum vinnublöðum.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] styður einnig framboðsáætlanir fyrir heildsölufyrirtæki þar sem framboðspantanir geta aðeins verið flutnings- eða innkaupapantanir. Aðalviðmótið fyrir þessa áætlunarvinnu er **Innkaupatillaga** glugginn, sem er lýst óbeint í þessu efnisatriði þar sem flestar áætlunaraðgerðir má framkvæma í báðum vinnublöðum.
 
 Áður en þú getu áætlað og framkvæmt framleiðslupantanir, þarf að grunnstilla framleiðslugetu, eins og að búa til dagatöl verkstæðis, leiðir, framleiðsluuppskriftir og vélastöðvar. Nánari upplýsingar er að finna í [Uppsetning framleiðslu](production-configure-production-processes.md).
 

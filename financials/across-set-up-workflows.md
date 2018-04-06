@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/01/2017
+ms.date: 02/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 75571a006ab267cfef268e0ff6b62ffd0ffb936b
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: d837fb0b85f3b62c82fb63596e1299ffdd252b23
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-workflows"></a>Uppsetning verkflæðis
@@ -26,7 +26,7 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 
  Í glugganum **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins.  
 
- Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki eru studd verður Microsoft-samstarfsaðili að virkja þau með því að sérstilla forritakóðann. Nánari upplýsingar er að finna í [Sýnikennsla: Innleiðing nýrra verkflæðistilvika og svara](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) í þróunar- og IT-pro hjálp.
+ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki eru studd verður Microsoft-samstarfsaðili að virkja þau með því að sérstilla forritakóðann. Nánari upplýsingar er að finna í [Sýnikennsla: Innleiðing nýrra verkflæðistilvika og svara](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) í þróunar- og IT-pro hjálp.
 
  Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
 
@@ -37,12 +37,12 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 |Tilgreinið hvernig notendum verkflæðis er tilkynnt um skref verkflæðis, þ.m.t. samþykktarbeiðnir.|[Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)|  
 |Tilgreinið hvenær notendur fá tilkynningar og hvort safna á saman tilkynningum innan tímabils til að lágmarka fjölda tilkynninga.|[Tilgreina hvenær og hvernig á að fá tilkynningar](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
 |Setja upp útlit og almennt efni nýrra tilkynningapóst verkflæðis, eða flytja út, breyta, og flytja aftur inn fyrirliggjandi útlit.|[Vinna með tilkynningasniðmát](across-how-to-manage-notification-templates.md)|  
-|Uppsetning SMTP-netþjóns til að virkja tölvupóstssamskipti inn og út af . [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Setja upp tölvupóst](madeira-how-setup-email.md)|
+|Uppsetning SMTP-netþjóns til að virkja tölvupóstssamskipti inn og út af [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Setja upp tölvupóst](madeira-how-setup-email.md)|
 |Tilgreinið ólík skref verkflæðis eftir tengdum verkflæðistilvikum með verkflæðisviðbrögðum.|[Búa til verkflæði](across-how-to-create-workflows.md)|  
 |Nota verkflæðissniðmát til að stofna ný verkflæði.|[Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)|  
 |Deila verkflæði með öðrum [!INCLUDE[d365fin](includes/d365fin_md.md)] gagnagrunnum.|[Flytja verkflæði inn og út](across-how-to-export-and-import-workflows.md)|  
 |Lærið að setja upp verkflæði fyrir söluskjöl sem eru til samþykktar með því að fylgja verkferli frá upphafi til enda.|[Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Bæta við stuðningur fyrir sviðsmynd viðskipta sem þurfa ný verkflæðistilvik eða viðbrögð með því að sérsníða forritskóðann.|[Sýnikennsla: Innleiðing nýrra verkflæðistilvika og svörunar](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
+|Bæta við stuðningur fyrir sviðsmynd viðskipta sem þurfa ný verkflæðistilvik eða viðbrögð með því að sérsníða forritskóðann.|[Sýnikennsla: Innleiðing nýrra verkflæðistilvika og svörunar](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Nota verkflæði](across-use-workflows.md)   

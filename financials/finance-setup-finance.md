@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 6edce17707ec8514348abe46f30a9368802a858a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 5ec4748db61410128b7a61336e52ea6f066fae34
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
-Til að hjálpa þér að komast að komast fljótt af stað inniheldur [!INCLUDE[d365fin](includes/d365fin_md.md)] eru venjulegar stillingar fyrir flestar fjárhagslegar ferðir. Ef þú þarft að breyta stillingum til að henta fyrirtækinu þínu skaltu fara strax. Til dæmis, á heimasíðunni er hægt að nota aðstoðarmaður uppsetningarleiðbeiningar til að setja upp söluskatt fyrir staðsetningu þína.  
+Til að hjálpa þér að komast að komast fljótt af stað inniheldur [!INCLUDE[d365fin](includes/d365fin_md.md)] eru venjulegar stillingar fyrir flestar fjárhagslegar ferðir. Ef þú þarft að breyta stillingum til að henta fyrirtækinu þínu skaltu fara strax. Frá Mitt hlutverk er t.d. hægt að nota uppsetningarleiðbeiningar með hjálp til að setja upp söluskatt fyrir staðsetningu þína.  
 
 Hins vegar eru nokkrir hlutir sem þú þarft til að setja upp sjálfan þig. Til dæmis, ef þú vilt nota mál sem grundvöll fyrir viðskipti upplýsingaöflun.  
 

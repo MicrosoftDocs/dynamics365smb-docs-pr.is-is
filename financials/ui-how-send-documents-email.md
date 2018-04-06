@@ -12,16 +12,16 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: dc22f7e06cf0686238cf1b6ab43951f3943e38a3
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: a31558764cf8c2bccde7598119216096803eb1ca
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="send-documents-by-email"></a>Senda skjöl í tölvupósti
 Hægt er að nota aðgerðina Uppsetning skýrslu til að miðla efni fyrir sértæk viðskiptaskjöl sem fer sjálfkrafa inn í tölvupóst til að gefa upplýsingar um innihald viðskiptaskjala hratt og vel til viðskiptafélaga þinna. Frekari upplýsingar, sjá [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md).
 
-Til að virkja tölvupósta innan [!INCLUDE[d365fin](includes/d365fin_md.md)], skal ræsa hjálparuppsetninguna **Setja upp tölvupóst** á heimasíðunni.
+Til að virkja tölvupósta innan [!INCLUDE[d365fin](includes/d365fin_md.md)], skal ræsa hjálparuppsetninguna **Setja upp tölvupóst** í Mitt hlutverk.
 
 Hægt er að senda nær allar skjalategundir sem viðhengi í tölvupóstskilaboðum beint úr glugganum sem sýnir skjalið. Auk viðhengis er hægt að setja upp tölvupóstskilaboð sem eru sértæk fyrir ákveðin skjöl með kjarnaupplýsingum úr viðkomandi skjali, þar sem stöðluð kveðja og kynning á skjalinu kemur á undan þeim upplýsingum. Til að hægt sé að bjóða viðskiptamönnum til að greiða rafrænt fyrir sölur með rafrænni greiðsluþjónustu, t.d. PayPal, er einnig hægt að láta PayPal upplýsingar og tengla í meginmáli tölvupóstsins.
 

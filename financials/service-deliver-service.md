@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 34283487641e7b249b556cec834531582c58af7a
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="delivering-service"></a>Þjónustuafhending
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  hefur eiginleika sem hjálpa til við afhendingu þjónustu samkvæmt þeim samningum sem stofnaðir hafa verið og þeim þjónustupöntunum sem uppfylla skal. Auðvelt er fyrir þjónustutæknimenn eða afgreiðslu að finna þjónustupantanir með **Afgreiðslustöð**. Í stuttu máli sýnir **Afgreiðslustöð** hvaða pantanir eru í vinnslu og hvaða pantanir eru tilbúnar.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] hefur eiginleika sem hjálpa til við afhendingu þjónustu samkvæmt þeim samningum sem stofnaðir hafa verið og þeim þjónustupöntunum sem uppfylla skal. Auðvelt er fyrir þjónustutæknimenn eða afgreiðslu að finna þjónustupantanir með **Afgreiðslustöð**. Í stuttu máli sýnir **Afgreiðslustöð** hvaða pantanir eru í vinnslu og hvaða pantanir eru tilbúnar.  
   
 Önnur leið til að fara yfir þjónustupantanir í undirbúningi er að nota gluggann **Þjónustuverkhlutar**. Í þessu yfirliti þjónustuskuldbindinga er hægt að sjá hvar pöntun er í verkflæði þjónustu, og breytt þeirri stöðu til að spegla samskipti við viðskiptamanninn.  
   

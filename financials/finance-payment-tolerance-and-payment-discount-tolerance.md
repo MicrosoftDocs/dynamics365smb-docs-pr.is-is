@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 7b8c24469a087c16c2e351b456b015e8fdd65f82
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk
@@ -221,7 +221,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-![Margar greiðsluvikmörk reglur &#40;umþóttunartími&#41;](media/multiplePmtTolRules(GracePeriodInv1).gif "MargarGreVikmReglur(UmþóttunarTími)")  
+![Margar greiðsluvikmörk reglur &#40;umþóttunartími&#41;](media/multiplePmtTolRules(GracePeriodInv1).gif "MargarGreVikmReglur(UmþóttunarTími1)")  
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 

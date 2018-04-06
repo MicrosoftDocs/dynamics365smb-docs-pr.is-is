@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9b4190ca0ffbc0a922c6679fcf98367a72980eea
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-finance-and-operations-business-edition"></a>Skoða listagögn í Power BI skýrslum í Finance and Operations, Business Edition 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  inniheldur stjórneiningu fyrir upplýsingakassa á mörgum veigamiklum listasíðum sem veita frekari innsýn í gögnin í listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Notandi getur stofnað sérsniðnar skýrslur til að birta í þessum stjórntakka en hér eru nokkrar grunnreglur sem fylgja skal við stofnun skýrslnanna til að tryggja að þær virki sem skyldi.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur stjórneiningu fyrir upplýsingakassa á mörgum veigamiklum listasíðum sem veita frekari innsýn í gögnin í listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Notandi getur stofnað sérsniðnar skýrslur til að birta í þessum stjórntakka en hér eru nokkrar grunnreglur sem fylgja skal við stofnun skýrslnanna til að tryggja að þær virki sem skyldi.  
 
 > [!NOTE]  
 >   Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin](includes/d365fin_md.md)] og hjá Power BI. Einnig þarf að sækja [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Frekari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem gagnaveitu í Power BI](across-how-use-financials-data-source-powerbi.md).  

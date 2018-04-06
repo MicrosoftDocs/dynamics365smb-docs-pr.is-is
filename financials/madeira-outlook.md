@@ -14,11 +14,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3e22e907667127508634ce56b9d40e4b9cad01f5
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Notkun Finance and Operations, Business Edition sem fyrirtækjainnhólf í Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  kynnir möguleikann á að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum, ásamt því að semja og senda fjárhagsleg skjöl, svo sem tilboð og reikninga.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kynnir möguleikann á að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum, ásamt því að semja og senda fjárhagsleg skjöl, svo sem tilboð og reikninga.  
 
 ## <a name="getting-the-add-in"></a>Að fá viðbótina
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)], er eitt skrefið í uppsetningu með hjálp í Hafist handa í glugganum **Stýrðu fyrirtækinu úr Office 365**. Þegar hnappurinn **Sett upp í Outlook** er valinn þarf að tilgreina heiti Office 365 notanda og aðgangsorð í þeim glugga. Innbót [!INCLUDE[d365fin](includes/d365fin_md.md)] er þá sjálfkrafa bætt við Outlook.  

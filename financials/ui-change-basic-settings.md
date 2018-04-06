@@ -10,26 +10,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7c9dec3bcb000be958acec3f0d88abbab9946bf8
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="changing-basic-settings"></a>Breyta grundvallarstillingum
 Í glugganum **Stillingar mínar** er hægt að sjá og breyta grunnstillingum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="role-center"></a>Mitt hlutverk
-Hlutverkamiðstöð táknar heimasíðu, upphafs síðu sem er hannað fyrir þarfir tiltekins hlutverks. Á heimasíðunni hefurðu yfirlit yfir fyrirtækið. Á vinstri hlið sérðu yfirlitsstiku sem veitir þér auðveldan aðgang að viðskiptavinum, lánardrottnum, vörum og svo framvegis.
+Mitt hlutverk táknar heimasíðu, upphafssíðu sem er hönnuð fyrir þarfir tiltekins hlutverks. Á heimasíðunni hefurðu yfirlit yfir fyrirtækið. Á vinstri hlið sérðu yfirlitsstiku sem veitir þér auðveldan aðgang að viðskiptavinum, lánardrottnum, vörum og svo framvegis.
 
 Í miðjunni finnurðu gluggareitina aðgerðir . Aðgerðir sýna gildandi gögn og má smella á það eða ýta til að fá einfaldan aðgang að völdum skjölum. afkastavísir má setja upp til að sýna valin myndrit svo fáist myndræn framsetning af, til dæmis, fjárstreymi´ og tekjum og útgjöldum.
 
-Þú getur einnig byggt upp lista af uppáhalds viðskiptavinum á heimasíðunni fyrir reikninga sem þú ert oft í viðskiptum við eða þarft að veita sérstaka athygli. Notaðu örvar til að fella saman hluta síðunnar og búa til pláss til að sýna tiltekin gögn. Efst á heimasíðu er að finna allar aðgerðir sem hægt er að nota fyrir núverandi efni. Þetta er líka hægt að fella saman og þú þarft aðeins að smella eða ýta innan samanfellda svæðisins til að sjá það aftur.
+Þú getur einnig byggt upp lista af uppáhalds viðskiptavinum á heimasíðunni fyrir reikninga sem þú ert oft í viðskiptum við eða þarft að veita sérstaka athygli. Notaðu örvar til að fella saman hluta síðunnar og búa til pláss til að sýna tiltekin gögn. Efst á heimasíðu er að finna allar aðgerðir sem hægt er að nota fyrir núverandi efni. Þetta er líka hægt að fella saman og þú þarft aðeins að velja samanfellda svæðisins til að sjá það aftur.
 
-Sjálfgefið hlutverkamiðstöð er **Viðskiptastjórnandi**, en hægt er að velja annað Hlutverk sem uppfylla þörfum betur. Nánari upplýsingar eru í [Breyta Mitt hlutverk](change-role.md).
+### <a name="to-change-role-center"></a>Til að breyta Mitt hlutverk
+Sjálfgefið hlutverkamiðstöð er **Viðskiptastjórnandi**, en hægt er að velja annað Hlutverk sem uppfylla þörfum betur.
+1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingar tákn fyrir miðstöð") og velja síðan **Stillingar mínar**.
+2. Í **Mínar Stillingum** glugga í á **hlutverkamiðstöð** reit, er valinn sem hlutverkamiðstöð sem þú vilt að sé staðallinn. Veljið til dæmis **Bókari**.
+3. Velja hnappinn **Í lagi**.
 
 ## <a name="company"></a>Fyrirtæki
 Fyrirtæki virkar sem geymsluhólf fyrir gögn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hægt er að hafa mörg fyrirtæki í gagnagrunni, en aðeins hægt að velja eitt í einu.
@@ -56,6 +60,5 @@ Velja þennan hlekk til að skoða eða breyta tilkynningum um tiltekin tilvik e
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Breyta Mitt hlutverk](change-role.md)  
-[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
+[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md)  
 

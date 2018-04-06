@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f9a6d577138fcffa338ce51f0abaa45c63c520f7
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-dimensions"></a>Unnið með víddir
@@ -128,7 +128,7 @@ Fyrir **SVÆÐI**, skal bæta við eftirfarandi víddargildum:
 | Kóði | Name | Tegund víddargildis |
 | --- | --- | --- |
 | 10 |Suður-, Mið- og Norður-Ameríka |Frá-tala |
-| 2.0 |Norður-Ameríka |Staðlað |
+| 20 |Norður-Ameríka |Staðlað |
 | 30 |Kyrrahafið |Staðlað |
 | 40 |Suður-Ameríka |Staðlað |
 | 50 |Norður- og Suður-Ameríka, Samtals |Til-tala |

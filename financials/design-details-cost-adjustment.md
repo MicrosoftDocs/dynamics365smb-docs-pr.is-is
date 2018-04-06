@@ -1,8 +1,6 @@
 ---
 title: "Hönnunarupplýsingar - kostnaðarleiðrétting | Microsoft Docs"
 description: "Megintilgangurinn með kostnaðarleiðréttingu er að framsenda breytingar á kostnaði frá uppruna kostnaðar að viðtakendum kostnaðar í samræmi við aðferð kostnaðarútreiknings fyrir hverja vöru, til að fyrir liggi rétt verðmat birgða."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 23/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: d0733c7d96f10969a7d266031e5d1d0d7f83519f
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Hönnunarupplýsingar: kostnaðarleiðrétting
@@ -171,14 +169,21 @@ Ef sjálfvirk kostnaðarleiðrétting hefur verið sett upp til að eiga við b�
 Ef sjálfvirk kostnaðarleiðrétting hefur verið sett upp til að eiga við bókanir sem eiga sér stað innan dags eða viku frá núverandi vinnudagsetningu keyrir sjálfvirka kostnaðarleiðréttingin ekki og kostnaðurinn við innkaupin er ekki framsendur í söluna fyrr en runuvinnslan **Kostnaðarleiðrétting - Birgðafærslur** er keyrð.  
 
 ## <a name="see-also"></a>Sjá einnig
+<<<<<<< HEAD [Leiðrétta kostnað vöru](inventory-how-adjust-item-costs.md)  
+[Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslum](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
+[Hönnunarupplýsingar: afstemming í fjárhagur](design-details-reconciliation-with-the-general-ledger.md)  
+[Hönnunarupplýsingar: birgðabókun](design-details-inventory-posting.md)  
+[Hönnunarupplýsingar Frávik](design-details-variance.md)  
+=======
 [Leiðr. kostnað vara](inventory-how-adjust-item-costs.md)   
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
 [Hönnunarupplýsingar: afstemming í fjárhag](design-details-reconciliation-with-the-general-ledger.md)   
-[Hönnunarupplýsingar: birgðabókun](design-details-inventory-posting.md)   
+[Hönnunarupplýsingar: Birgðabókun](design-details-inventory-posting.md)   
 [Hönnunarupplýsingar Frávik](design-details-variance.md)   
-[Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)   
-[Hönnunarupplýsingar: Bókun framleiðslupöntunar](design-details-production-order-posting.md)
-[Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
+>>>>>>> refs/remotes/origin/Update13 [Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)   
+[Hönnunarupplýsingar: staða framleiðslupöntunar](design-details-production-order-posting.md)  
+[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

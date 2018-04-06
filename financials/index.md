@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 09/14/2017
+ms.date: 01/31/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2f17af763663ffc7d10c9730ca433ca1574d6552
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9ffe72d64d8cb9a3db426ad299af8c2025ec31f5
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Velkomin(n) í[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Auðvelt er að skrá sig og hægt er að yfirfæra fyrirliggjandi viðskiptagögn úr eldra kerfinu.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Auðvelt er að skrá sig og hægt er að yfirfæra fyrirliggjandi viðskiptagögn úr eldra kerfinu.
 Þegar þú skráir þig í forskoðunina á [!INCLUDE[d365fin](includes/d365fin_md.md)] færðu aðgang að sýnifyrirtæki. Sýndarfyrirtækið er með sýnigögn en þú getur til dæmis búið til þín eigin söluskjöl, eða sett upp bankareikning.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Fá að vita [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -35,16 +35,16 @@ Frekari upplýsingar er að finna í [Unnið með [!INCLUDE[d365fin](includes/d3
 Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](madeira-business-functionality.md). Fyrir yfirlit yfir gildandi getu og hvað er framundan, skaltu skoða vegakortið okkar á [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Heimasíðurnar
-Heimasíður nota hlutverkamiðaða hönnun til að gefa þér skjótari aðgang að viðskiptaferlunum og verkfærum viðskiptagreindar sem þú þarft til að sinna starfinu. Endurskoðandi má til dæmis fylgjast með greiðslur og samþykktir og skoða vaxtareikninga afköst myndrit. Kanna mismunandi heimasíðum með því að velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingar táknið fyrir mitt hlutverk") uppi í hægra horninu skal velja **Mínar Stillingar**, og síðan Mitt hlutverk til að skoða. Skrá sig aftur inn til að láta breytinguna taka gildi. Nánari upplýsingar, sjá [Breyta Mitt hlutverk](change-role.md).  
+Heimasíður nota hlutverkamiðaða hönnun til að gefa þér skjótari aðgang að viðskiptaferlunum og verkfærum viðskiptagreindar sem þú þarft til að sinna starfinu. Endurskoðandi má til dæmis fylgjast með greiðslur og samþykktir og skoða vaxtareikninga afköst myndrit. Kanna mismunandi heimasíðum með því að velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingar táknið fyrir mitt hlutverk") uppi í hægra horninu skal velja **Mínar Stillingar**, og síðan Mitt hlutverk til að skoða. Skrá sig aftur inn til að láta breytinguna taka gildi. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md).  
 
 Hver heimasíðu býður upp á **Uppsetning og viðbætur** hnapp. Hér hefurðu aðgang að lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa, með því að setja upp valin svæði á fljótan hátt. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetning gluggum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunnatriði** upplifunin veitir aðgang að færri en **Suite** upplifunin gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
+>   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Mikilvægar** upplifanir gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
 
-Í glugganum **Uppsetning með hjálp** er að finna eftirfarandi með **Suite** upplifuninni:
+Í glugganum **Uppsetning með hjálp** er að finna eftirfarandi með **Mikilvægum** upplifunum:
 
-| Uppsetning með hjálp | Lýsing |
+| Uppsetning með hjálp | Description |
 | --- | --- |
 | Flytja viðskiptagögn |Gerir þér kleift að flytja fyrirliggjandi gögn fyrirtækisins, svo sem lánardrottna, viðskiptamenn og vörur úr Excel eða Quickbooks. |
 | Setja upp fyrirtæki notanda |Býr til nýja prufuútgáfu af fyrirtæki fyrir þig til að færa inn gögn í og prófa [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hafir þú lokið að fara í gegnum sýnikennsluna Hafist handa er þessu sennilega þegar **Lokið**. |
@@ -53,7 +53,7 @@ Hver heimasíðu býður upp á **Uppsetning og viðbætur** hnapp. Hér hefurð
 | Setja upp Verkflæði samþykktar viðskiptamanns |Setur upp möguleikann á að tilkynna samþykkjanda sjálfkrafa þegar notandi reynir að stofna eða breyta spjaldi viðskiptamanns. |
 | Setja upp tölvupóst |Undirbýr þig fyrir að senda tölvupóst beint frá t.d. sölupöntunum eða tengiliðum í [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 | Setja upp tölvupóstsskráningu |Setur upp möguleikann á að skrá tölvupóstsamskipti í [!INCLUDE[d365fin](includes/d365fin_md.md)] til að fylgja eftir samskiptum. |
-| Setja upp Outlook fyrir  [!INCLUDE[d365fin](includes/d365fin_md.md)] |Setur upp möguleikann á að nota og ræsa [!INCLUDE[d365fin](includes/d365fin_md.md)] úr Outlook. |
+| Setja upp Outlook fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] |Setur upp möguleikann á að nota og ræsa [!INCLUDE[d365fin](includes/d365fin_md.md)] úr Outlook. |
 | Setja upp skýrslugerð |Setur upp gagnasöfn sem hægt er að nota til að byggja upp kraftmiklar skýrslur með því að nota Excel eða Power BI, til dæmis. |
 | Setja upp Verkflæði samþykktar vöru |Setur upp möguleikann á að senda boð til samþykkjanda þegar notandi breytir eða stofnar vöru. |
 | Setja upp Verkflæði samþykktar greiðslu |Setur upp möguleikann á að senda boð til samþykkjanda þegar notandi sendir greiðslubókarlínur til samþykktar. |
@@ -83,5 +83,6 @@ Ef þú ert endurskoðandi geturðu skráð þig fyrir [!INCLUDE[d365acc_long](i
 [Finance and Operations, Business Edition Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

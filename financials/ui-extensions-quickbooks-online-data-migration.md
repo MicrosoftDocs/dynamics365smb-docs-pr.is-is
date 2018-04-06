@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 8ed245276a6bebd369a3ec32791a9939e8db5aa1
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -44,7 +44,7 @@ Mikilvægur hluti flutningsferlisins er að tilgreina reikningana sem flytja á 
 * Innkaup vöru eða þjónustu frá lánardrottnum.  
 * Leiðréttingar í fjárhagnum.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  krefst þess að fjárhagsreikningum hafi verið úthlutað reikningsnúmerum. Vertu viss um að reikningsnúmerum hafi verið úthlutað til reikninganna í QuickBooks Online.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] krefst þess að fjárhagsreikningum hafi verið úthlutað reikningsnúmerum. Vertu viss um að reikningsnúmerum hafi verið úthlutað til reikninganna í QuickBooks Online.
 
 Ef færslur í QuickBooks Online hafa skattaupphæðir, þarf að setja upp skattareikning fyrir þína skattalögsögu í [!INCLUDE[d365fin](includes/d365fin_md.md)] áður en þú getur bókað færslur.
 

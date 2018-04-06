@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 03/21/2017
+ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f3ec96ef0f9c69c4942e85e7438f80bc70e6f37d
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Undirbúðu þig fyrir að gera viðskipti
@@ -23,10 +23,10 @@ Til hamingju, þú ert búinn að setja upp þitt fyrsta fyrirtæki í [!INCLUDE
 
 Til þess að hjálpa þér við að verða tilbúinn til að gera viðskipti getur þú heimsækir **Fyrirtækjaaðstoð** gluggann þar sem hægt að opna uppsetningleiðbeiningar með hjálp, myndskeið eða efnisatriði í hjálp fyrir valda uppsetning verkhluta. Þú opnar gluggann frá myndritinu í **Yfirmaður fyrirtækis** Mitt hlutverk með því að velja **Fyrirtækjaaðstoð** fellivalmyndina og velja síðan **Sýna uppsetningu og aðstoð forða** aðgerð. Þegar síðan er uppfærð, er myndritinu skipt út fyrir uppsetningu og aðstoð forða.
 
-Á heimasíðu neðst á yfirlitssvæðinu er að finna **Uppsetningu og Viðbætur** valmyndina. Stækka **Heim** hnappinn til að sjá yfirlitssvæðið. Hér má sjá lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa. Þegar þú hefur yfirfært gögn eins og lánardrottinn, viðskiptamenn, og vörur úr núverandi fjármálakerfi þínu, ertu tilbúinn að byrja. Einnig er gott að íhuga hvort þörf sé á að nota frekari hjálp við uppsetningu. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetning gluggum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Í Mínu hlutverki, neðst á yfirlitssvæðinu, er að finna valmyndina **Uppsetning og viðbætur**. Stækka **Heim** hnappinn til að sjá yfirlitssvæðið. Hér má sjá lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa. Þegar þú hefur yfirfært gögn eins og lánardrottinn, viðskiptamenn, og vörur úr núverandi fjármálakerfi þínu, ertu tilbúinn að byrja. Einnig er gott að íhuga hvort þörf sé á að nota frekari hjálp við uppsetningu. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetning gluggum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunnatriði** upplifunin veitir aðgang að færri en **Suite** upplifunin gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
+>   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Mikilvægar** upplifanir gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
 
 Í glugganum **Uppsetning með hjálp**, er að finna eftirfarandi með **Grunnatriði** upplifun:
 
@@ -62,4 +62,7 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð O
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vinna með notendur og heimildir](ui-how-users-permissions.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

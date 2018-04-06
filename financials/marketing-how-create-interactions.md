@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 93d5bc9fd8189d5a8341faa252de9eac257901d2
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 61ee0eaccea5bfb3511537d825b2a0cb8948dee8
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Búa til samskipti á tengiliði og hluta
@@ -38,7 +38,7 @@ Hægt er að stofna samskipti til að skrá öll samskipti við viðskiptavinina
 3. Veljið samskiptin sem á að ljúka og veldu svo aðgerðina **halda áfram**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Til að stofna samskipti á hluta.
-1. Á heimasíðunni skal velja **Virkir hlutar** eða veljið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Hlutar** og velja svo viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Hutar** og velja svo viðeigandi tengil.
 2. Á **hlutaglugganum** í hlutanum **samskipti** er fyllt í reitina til að tilgreina hvers konar samskiptum eigi að úthluta á hlutann.
 
     Þegar samskiptum hefur verið úthlutað á hluta er hægt að sérsníða samskiptin fyrir hvern einstakan tengilið innan hlutans, til dæmis með því að velja annað samskiptasniðmát í línunum í glugganum **Hluti**.  

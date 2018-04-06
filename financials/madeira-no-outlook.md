@@ -12,17 +12,17 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 0602/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 81587638e5a92b48bb1bef406423c23e061f2241
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 29304bbbac28926247dfd6a6304647770dcd8114
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-finance-and-operations-business-edition-without-outlook"></a>Notkun Finance and Operations, Business Edition án Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur mikla samþættingu við Office 365 og þú getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)] sem fyrirtækisinnhólf í Outlook. En ef þú ert ekki með Outlook, geturðu unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)] í vafra eða á fartækinu þínu.  
 
 ## <a name="sending-email"></a>Senda Tölvupóst
-Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfangi fyrirtækis. Úr á heimasíðu fæst aðgangur uppsetningarleiðbeiningum með hjálp sem hjálpa þer að setja upp tölvupóst. Ef þú notar ekki Office 365 tölvupóstreikning, verður þú að tilgreina tæknilegar upplýsingar um tölvupóstþjóninn þinn. Ef þú ert ekki með þessar upplýsingar tiltækar, hafðu samband við starfsfólk þitt sem veitir tækniþjónustu.  
+Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfangi fyrirtækis. Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum með hjálp sem auðvelda þér að setja upp tölvupóst. Ef þú notar ekki Office 365 tölvupóstreikning, verður þú að tilgreina tæknilegar upplýsingar um tölvupóstþjóninn þinn. Ef þú ert ekki með þessar upplýsingar tiltækar, hafðu samband við starfsfólk þitt sem veitir tækniþjónustu.  
 
 
 ## <a name="see-also"></a>Sjá einnig

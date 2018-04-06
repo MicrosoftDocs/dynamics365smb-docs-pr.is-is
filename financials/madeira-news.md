@@ -13,10 +13,10 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 46e2150432c4e304fbfce63ae5eecea443391efe
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nýjungar í Dynamics 365 for Finance and Operations, Business edition
@@ -90,7 +90,7 @@ Við réðum gerðar nokkrar litlar en mikilvægt endurbætur á sölu- og innka
 Outlook-innbót nær nú yfir í Outlook-dagbókina. Úr erindi í dagatali, er hægt að opna [!INCLUDE[d365fin](includes/d365fin_md.md)] innbótina og sækja yfirlit fyrir viðskiptamanninn sem erindið tengist við. Síðan er hægt að stofna og senda reikning fyrir þjónustu sem veitt var á fundinum - allt þetta gerist í þarna Outlook-dagbókinni. Nánari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnboxið þitt í Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource marketplace fyrir viðbætur
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  viðbætur er nú tiltækar á AppSource markaðstorginu á [AppSource.microsoft.com](https://appsource.microsoft.com/). Þú munt geta leita að og fundið viðbætur þar. Þú munt geta skoðað upplýsingarnar, þar á meðal markaðssetningarefni, skjámyndir, myndskeið og tengla að öðrum upplýsingum. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] viðbætur er nú tiltækar á AppSource markaðstorginu á [AppSource.microsoft.com](https://appsource.microsoft.com/). Þú munt geta leita að og fundið viðbætur þar. Þú munt geta skoðað upplýsingarnar, þar á meðal markaðssetningarefni, skjámyndir, myndskeið og tengla að öðrum upplýsingum. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Flutningsaðilar og vörueigindir
 Hægt er að bæta eigindum við vörur í birgðaskrá sem gera þér virkilega auðvelt að finna réttu varan sem viðskiptamaðurinn vill. Frekari upplýsingar eru í [Vinna með vörueigindir](inventory-how-work-item-attributes.md).  
@@ -100,7 +100,7 @@ Með þessari uppfærslu er hægt að velja milli jafnvel fleiri viðbætur í g
 Nánari upplýsingar, sjá [[!INCLUDE[d365fin](includes/d365fin_md.md)] viðbætur af hálfu annarra veita](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Stjórna tengsl við viðskiptamenn með því að nota Microsoft Dynamics 365 for Sales innan úr [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Við höfum bætt við nýrri uppsetningarleiðsögn með hjálp á heimasíðu Yfirmaður Fyrirtækis sem leiðir þig í gegnum uppsetningarferlið sem tengir þig við Dynamics 365 for Sales. Þegar það er gert verður þú að hafa óaðfinnanlega tengingu við Dynamics 365 for Sales færslur með [!INCLUDE[d365fin](includes/d365fin_md.md)] skrám. Frekari upplýsingar, sjá [Stjórna tengsl við viðskiptamenn með því að nota Microsoft Dynamics 365 for Sales innan úr [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+Við höfum bætt við nýrri uppsetningarleiðsögn með hjálp á heimasíðu Mitt hlutverk sem leiðir þig í gegnum uppsetningarferlið sem tengir þig við Dynamics 365 for Sales. Þegar það er gert verður þú að hafa óaðfinnanlega tengingu við Dynamics 365 for Sales færslur með [!INCLUDE[d365fin](includes/d365fin_md.md)] skrám. Frekari upplýsingar, sjá [Stjórna tengsl við viðskiptamenn með því að nota Microsoft Dynamics 365 for Sales innan úr [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Maí 2016 uppfærsla
 Þessi uppfærsla af [!INCLUDE[d365fin](includes/d365fin_md.md)] bætti við nýrri færni eins og [tilkynnt var á blogginu](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
@@ -122,7 +122,7 @@ Helstu aðstæður sem þú ættir að kynna þér upp á eigin spýtur:
 - [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnhólf þitt í Outlook](madeira-no-outlook.md)  
 - [Fáðu [!INCLUDE[d365fin](includes/d365fin_md.md)] í farsímann þinn](install-mobile-app.md)  
 - [Gera viðskiptagögn þín virk fyrir BI](madeira-powerbi.md)  
-- [Breyta Mitt hlutverk](change-role.md)  
+- [Breyta grundvallarstillingum](ui-change-basic-settings.md)  
 
 
 

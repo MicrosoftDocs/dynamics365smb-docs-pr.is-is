@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/28/2017
+ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 655c2248d10b357fd6ac5f3dba5cf71d7fd2c77b
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="finance"></a>Fjármál
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
 
 Sjálfgefin forstilling inniheldur bókhaldslykill og staðlaða bókunarflokka sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.  
 
@@ -33,6 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Láttu viðskiptavini þína senda inn greiðslu áður en þú afhendir þeim, eða senda inn greiðslu til lánardrottna þinna áður en þeir afhenda þér.|[Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)|
 | Stemma af bankareikninga og færa fjármuni milli bankareikninga. |[Stjórna bankareikningum](bank-manage-bank-accounts.md) |
 |Setja upp millifyrirtækjafélaga og vinna færslur, handvirkt eða sjálfvirkt, á milli lögaðila innan sama fyrirtækis.|[Vinna með millifyrirtækjafærslur](intercompany-manage.md)|
+|Sameinar aðalbókarfærslur frá mörgum fyrirtækjum í eitt sýndar „samstæðufyrirtæki" fyrir fjárhagsgreiningu.|[Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)|
 |Greina kostnaðinn sem hlýst af því að reka fyrirtækið með því að úthluta raunverulegum og áætluðum kostnaði aðgerða, deilda, afurða og verkefna til kostnaðarstaða.|[Kostnaðarreikningur](finance-manage-cost-accounting.md)|
 |Stjórna birgða- og framleiðslukostnaði, búa til skýrslu um kostnað og afstemma kostnað við færslubókina.|[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)|
 | Skilja fjárhag og bókhaldslykil. |[Skilja fjárhag og bókhaldslykil](finance-general-ledger.md) |

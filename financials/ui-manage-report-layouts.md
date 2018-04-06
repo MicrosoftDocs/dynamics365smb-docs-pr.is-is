@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 86a6451bdb02571480f775debd6c7286f0d8eb67
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Stjórna útliti skýrslna og skjala
@@ -45,7 +45,7 @@ Word-skýrsluútlit byggir á Word-skjali (.docx-skráargerð). Word-skýrsluút
 RDLC-útlit eru byggð á skýrsluskilgreiningarútliti biðlara (.rdlc- eða .rdl-skráargerðir). Þessi útlit eru búin til og þeim breytt með SQL Server Report Builder. Hönnun RDLC-útlits er svipað og Word útlits, þar sem útlitið tilgreinir almennt snið skýrslunnar og ákvarðar reitina sem á að taka með úr gagnamenginu. Hönnun RDLC-útlits er ítarlegra en Word-útlits. Frekari upplýsingar eru í [Hanna RDLC-skýrsluútlit](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Innbyggt og sérsniðið skýrsluútlit
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  inniheldur nokkur innbyggð útlit. Innbyggt útlit er skilgreint útlit hönnuð fyrir tilteknar skýrslur. [!INCLUDE[d365fin](includes/d365fin_md.md)] skýrslur eru með innbyggt útlit sem RDLC-skýrsluútlit, Word-skýrsluútlit eða, í sumum tilfellum, bæði. Ekki er hægt að breyta innbyggðu útliti úr [!INCLUDE[d365fin](includes/d365fin_md.md)] en þau eru notuð sem upphafspunktur til að búa til eigin sérsniðin skýrsluútlit.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur nokkur innbyggð útlit. Innbyggt útlit er skilgreint útlit hönnuð fyrir tilteknar skýrslur. [!INCLUDE[d365fin](includes/d365fin_md.md)] skýrslur eru með innbyggt útlit sem RDLC-skýrsluútlit, Word-skýrsluútlit eða, í sumum tilfellum, bæði. Ekki er hægt að breyta innbyggðu útliti úr [!INCLUDE[d365fin](includes/d365fin_md.md)] en þau eru notuð sem upphafspunktur til að búa til eigin sérsniðin skýrsluútlit.
 
 Sérstillt útlit er skýrsluútlit sem þú hannar til að breyta útliti skýrslu. Þú býrð vanalega til sérsniðið útlit byggt á innbyggðu útliti, en þú getur búið þau til frá grunni eða úr afriti fyrirliggjandi sérsniðins útlits. Sérstillt útlit gera þér kleift að hafa mörg útlit fyrir sömu skýrsluna, sem hægt er að skipta á milli eftir þörfum. Til dæmis er hægt að hafa mismunandi útlit fyrir hvert [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrirtæki, eða hægt er að hafa mismunandi útlit fyrir sama fyrirtækið við tiltekin tilefni eða aðstæður, eins og sérstaka herferð eða hátíðir.
 

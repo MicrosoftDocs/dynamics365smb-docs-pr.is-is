@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5626472de338f23df287699d65901645b84b49b3
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: cc1ad2ef812c073e570835e4018ce077b3b45494
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Umsjón með viðskiptamönnum og sölum sem stofnuð eru í Dynamics 365 for Sales
@@ -76,7 +76,14 @@ Dynamics 365 for Sales sölutilboð veltur á viðbótarupplýsingum eins og vi�
 
 Til að kanna framvindu einstakra starfa í fullri samstillingu, skal fara á **Staða verkraðarfærslu**, **Í innri vinnslustöðu töflu**, eða **Úr innri vinnslustöðu töflu** í glugganum **Yfirferð á fullri samstillingu tengslastjórnunar**.
 
-Frá gluggann í **Uppsetning Dynamics 365 for Sales-tengingar** er hægt að fá upplýsingar um fulla samstillingu hvenær sem er. Héðan er einnig hægt að opna gluggann **Vörpun samþættingartöflu** til að sjá upplýsingar um töflurnar í Finance and Operations, Business Edition og í Dynamics 365 for Sales lausninni sem þarf að samstilla.
+Frá gluggann í **Uppsetning Dynamics 365 for Sales-tengingar** er hægt að fá upplýsingar um fulla samstillingu hvenær sem er. Héðan er einnig hægt að opna gluggann **Vörpun samþættingartöflu** til að sjá upplýsingar um töflurnar í Finance and Operations, Business Edition og í Dynamics 365 for Sales lausninni sem þarf að samstilla.  
+
+## <a name="handling-special-sales-order-data"></a>Afgreiðsla sérstakra sölupöntunargagna
+Sölupantanir í Dynamics 365 for Sales verða fluttar sjálfkrafa í [!INCLUDE[d365fin](includes/d365fin_md.md)] ef gátreiturinn **Stofna sölupantanir sjálfkrafa** í glugganum **Uppsetning tengingar Microsoft Dynamics 365 for Sales** er valinn. Á slíkum sölupöntunum er reiturinn **Heiti** í upprunalegu pöntuninni fluttur og honum varpað í reitinn **Utanaðkomandi fylgiskjalsnúmer** á sölupöntuninni í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+Þetta getur líka virkað ef upprunalega sölupöntunin inniheldur innskriftarvörur, þ.e.a.s. vörur eða forða sem er skráður í hvorugri vörunni. Í því tilviki verður þú að fylla út reitina **Gerð innskriftarvöru** og **Nr. innskriftarvöru** í glugganum **Sölugrunnur**, til þess að slíkri óskráðri vörusölu sé varpað í tiltekið vöru-/forðanúmer fyrir fjárhagsgreiningu.
+
+Ef vörulýsingin í upprunalegu sölupöntuninni er mjög löng er stofnuð ný sölupöntunarlína af gerðinni Athugasemd til þess að rúma allan texta sölupöntunarinnar í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Sjá einnig
 [Umsjón með venslum](marketing-relationship-management.md)  

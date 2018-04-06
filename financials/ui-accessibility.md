@@ -11,16 +11,18 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a9e622dbf9b9edf5e74386dd5c651d7b585d3b46
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Aðgengi og Flýtivísanir í [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Þetta efnisatriði veitir upplýsingar um eiginleikana sem auðvelda aðgengi fatlaðra að [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður eftirfarandi aðgengiseiginleika:  
 
--   Flýtivísanir  
+-   Flýtivísanir
+
+    Frekari upplýsingar, sjá [Flýtilyklar](keyboard-shortcuts.md)
 
 -   Yfirlit  
 
@@ -30,18 +32,21 @@ ms.lasthandoff: 01/30/2018
 
 -   Stuðningur við algeng aðstoðartækni  
 
-##  <a name="Keyboard"></a> Flýtivísanir í vafra
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  styður flýtivísanir sem flestir vafrar styðja. Flýtivísanir sem hér er lýst vísa til bandarísks lyklaborðs. Uppsetning lykla í öðrum lyklaborðum gætu verið aðrir en lyklar á bandarísku lyklaborði.  
+<!-- moved to separate article
+##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
-|Til að gera þetta|Ýta|  
+|To do this|Press|  
 |----------------|-----------|  
-|Til að færa áhersluna á næsta eða fyrra stýringu eða einingu á síðu, s.s. hnappar, reitir eða atriði í lista.|Tab, Shift+dálklykill|  
-|Til að virkja eða fá aðgang að hlutanum eða stjórninni sem er í brennidepli.|Færslulykill|  
-|Til að fletta hlutum upp og niður á lista.|Upp-ör / niður-ör|  
-|Til að fletta dálka hlutar til vinstri og hægri á lista.|Vinstri ör, Hægri ör|  
-|Til að opna fellilistann eða skoða gildi fyrir reit.|Alt+Niðurör|  
-|Fara yfir í næsta hluta fyrir utan listann.|Ctrl + Enter|  
-|Til að sjá færslurnar sem leiddu í reiknað gildi í reit.|Alt+hægri ör|  
+|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
+|To enable or access the element or control that is in focus.|Enter|  
+|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
+|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
+|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
+|To move focus to the next element outside the list.|Ctrl + Enter|  
+|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+
+-->
 
 ##  <a name="Navigation"></a> Leiðsögn  
  Þú getur flett á milli flipa og aðgerða í borða, þættir í yfirlitssvæði og aðrar stillingar á [!INCLUDE[d365fin](includes/d365fin_md.md)] síðum og skýrslum með lyklaborðinu. Til að færa áherslu frá einum flipa, aðgerð eða stýringu annað styðjið á TAB-lykil til að fara áfram. Ýttu á Shift + Tab til að færa til baka.  
@@ -55,7 +60,7 @@ ms.lasthandoff: 01/30/2018
  Lýsandi texti fyrir myndir er stillt með ALT-eigind inni í IMG-merkinu. Lýsandi texti fyrir tengla er stillt með ALT-eigind inni í A-merkinu.  
 
 ##  <a name="AssistiveTech"></a> Aðstoðartækni  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  styður ýmis konar aðstoðartækni, svo sem mikla skerpu, skjálesara og raddgreiningarhugbúnaður. Sum aðstoðartækni kann ekki að virka vel með ákveðnum þáttum á síðum [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] styður ýmis konar aðstoðartækni, svo sem mikla skerpu, skjálesara og raddgreiningarhugbúnaður. Sum aðstoðartækni kann ekki að virka vel með ákveðnum þáttum á síðum [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="for-more-accessibility-information"></a>Fyrir frekari upplýsingar um aðgengi  
 Þú getur fundið viðbótarupplýsingar um aðgengi að Microsoft vörum og aðstoðartækni á vefsíðu [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160).

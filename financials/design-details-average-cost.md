@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9e04bd1dbbae80cd209b28c14764fbf7dc7f0934
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-average-cost"></a>Hönnunarupplýsingar: Meðalkostnaður
@@ -146,7 +146,7 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 ### <a name="example"></a>Dæmi  
  Eftirfarandi tafla með virðisfærslur sýnir mismunandi aðstæður.  
 
-|Aðstæður|Bókunardagsetning|Tegund birgðafærslu|Dagsetning virðismats|Virt magn|Kostnaðarupphæð (raunverul.)|Birgðafærsla nr.|Færslunr.|  
+|Aðstæður|Bókunardagsetning|Tegund birgðafærslu|Dagsetning virðismats|Virt magn|Kostnaðarupphæð (raunverul.)|Birgðafærslunr.|Færslunr.|  
 |--------------|-------------------------------------|-----------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |1|01-01-20|Innkaup|01-01-20|2|20.00|1|1|  
 |2|01-15-20|(Kostnaðarauki)|01-01-20|2|8,00|1|2|  

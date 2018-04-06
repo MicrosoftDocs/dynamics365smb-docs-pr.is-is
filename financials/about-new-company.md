@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 07/14/2017
+ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 10fb70ded1407c95034db6fcf974c37c6e119099
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Stofna ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -25,14 +25,15 @@ Ef þú ákveður að bæta fyrirtæki við þitt [!INCLUDE[d365fin](includes/d3
 
 Leiðsagnarforritið fyrir uppsetningu býður upp á þrenns konar sniðmát:
 
--   **Suite mat**  
+-   **Mat - Sýnigögn**  
     Hér er stofnað fyrirtæki sem svipar til sýnifyrirtækisins hvað varðar sýnigögn og uppsetningargögn.  
--   **Suite framleiðsla**  
-    Hér er stofnað fyrirtæki sem svipar til **Mitt fyrirtæki** hvað varðar uppsetningargögn, en er án sýnigagna.  
--   **Nýtt**  
+-   **Framleiðsla - Aðeins uppsetningargögn**  
+    Hér er stofnað fyrirtæki sem svipar til **Mitt fyrirtæki** hvað varðar uppsetningargögn, en er án sýnigagna.
+-   **Ítarlegt mat - Heildarsýnigögn** Þetta býr til fyrirtæki með uppsetningargögnum og heildarsýnigögnum fyrir allar aðgerðir, þar á meðal framleiðslu og þjónustukerfi.
+-   **Stofna nýtt - Engin gögn**  
     Hér er stofnað autt fyrirtæki án uppsetningargagna.  
 
-Ef þú vilt byrja auðveldlega með nýtt fyrirtæki, skal velja **Suite framleiðsla** og síðan flytja inn þín eigin viðskiptagögn, eins og viðskiptamenn, afurðir, og lánardrottnar. Veldu sniðmátið **Nýtt** ef þú vilt setja allt upp frá grunni. Í því tilfelli, geturðu nýtt þér **Uppsetning fyrirtækis** leiðsagnarforrit með stuðningi til að stíga fyrstu skrefin með nauðsynleg uppsetningargögn.  
+Ef þú vilt byrja auðveldlega með nýtt fyrirtæki, skal velja **Framleiðsla - Aðeins uppsetningargögn** og síðan flytja inn þín eigin viðskiptagögn, eins og viðskiptamenn, vörur og lánardrottnar. Veldu sniðmátið **Nýtt** ef þú vilt setja allt upp frá grunni. Í því tilfelli, geturðu nýtt þér **Uppsetning fyrirtækis** leiðsagnarforrit með stuðningi til að stíga fyrstu skrefin með nauðsynleg uppsetningargögn.  
 
 > [!NOTE]  
 >   Þegar þú stofnar nýtt fyrirtæki, líða nokkrar mínútur áður en þú getur komist inn í það í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Uppsetningarstaðan í glugganum **Fyrirtæki** sýnir hvenær nýja fyrirtækið er tilbúið fyrir þig. Þá geturðu skipt yfir í nýja fyrirtækið með því að nota **Mínar stillingar**.  
@@ -44,10 +45,11 @@ Ef þú vilt byrja auðveldlega með nýtt fyrirtæki, skal velja **Suite framle
 
 Aðsetur fyrirtækisins er til dæmis innifalið í reikningum og öðrum skjölum, bankaupplýsingar eru notaðar í greiðslum, og aðferð kostnaðarútreiknings er notuð til að reikna út bæði verð og birgðaverðmat.  
 
-Þegar grunnatriðin eru komin á sinn stað, geturðu sett upp þau grunnsvæði sem eftir eru. Þá er hægt að bæta inn viðskiptagögnum á borð við viðskiptamenn og lánardrottna. Frekari upplýsingar eru í [Uppsetning Finance and Operations, Business Edition ](setup.md).  
+Þegar grunnatriðin eru komin á sinn stað, geturðu sett upp þau grunnsvæði sem eftir eru. Þá er hægt að bæta inn viðskiptagögnum á borð við viðskiptamenn og lánardrottna. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 ## <a name="see-also"></a>Sjá einnig
-[Uppsetning Finance and Operations, Business Edition ](setup.md)  
+[Sérstilling Finance and Operations, Business Edition](ui-customizing-overview.md)  
+[Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](upload-data.md)  
 [Breyta grundvallarstillingum](ui-change-basic-settings.md)  
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

@@ -8,21 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 09/01/2017
+ms.date: 03/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 14d3c2639fcbc6c0a1ecf47fd89a2c0452e06fb9
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 73407196730468646f8f2bb051d4df35c2157f0b
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Setur upp [!INCLUDE[d365fin](includes/d365fin_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.
 
 Til dæmis er yfirlit yfir reikninga áfyllt með fjölda pósthólf sem eru tilbúnar til notkunar. Að sjálfsögðu geturðu breytt bókhaldslyklinum til að uppfylla þarfir þínar. Frekari upplýsingar eru í [Fjármál](finance.md).
 
-Frá heimasíðunni þinni er hægt að fá aðgang að hjálpargögnum um leiðsögn sem hjálpar þér að stilla ákveðnar aðstæður og bæta við eiginleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningargluggum með hjálp og handvirkum eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).
+Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningargluggum með hjálp og handvirkum eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).
+
+> [!NOTE]
+> Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] með RapidStart Services sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Nánari upplýsingar er að finna í ## [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilteknar viðskiptaferðir, handvirkt í viðbót við aðstoðaruppsetninguna. Eftirfarandi sýnir nokkrar aðgerðir sem hægt er að setja upp handvirkt.
 
@@ -37,13 +40,15 @@ Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilte
 | Stilla hvernig á að tryggja, viðhalda og afskrifa eignir og hvernig þú skráir kostnað eigna í bókum fyrirtækisins. |[Uppsetning eigna](fa-setup.md) |
 |Tilgreina almennar reglur og gildi fyrir vöruhúsaferla og tiltekna meðhöndlun í hverri birgðageymslu.|[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)|
 |Undirbúa framleiðsluuppskrift og leiðir til að skilgreina hvernig endanlegar vörur eru framleiddar og undirbúa véla- og vinnustöðvar fyrir að framkvæma nauðsynlegar aðgerðir.|[Uppsetning framleiðslu](production-configure-production-processes.md)|
+|Lesið bestu starfsvenjur fyrir uppsetningar á vörum fyrir birgðakostnað og framboðsáætlanagerð.|[Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)|
+|Uppsetning SMTP-netþjóns til að virkja tölvupóstssamskipti inn og út af [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Setja upp tölvupóst handvirkt eða með því að nota uppsetningu með hjálp](madeira-how-setup-email.md)|
 | Setjið upp einstaka kennitölu fyrir skrár, svo sem kort, skjöl og dagbókarlínur, til að fylgjast með þeim í kerfinu. |[Stofnun númeraraða](ui-create-number-series.md) |
-| Settu upp **Uppsetning SMTP-pósts** gluggann til að senda og taka á móti tölvupósti úr skjölum innan [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Setja upp tölvupóst](madeira-how-setup-email.md) |
-| Setjið upp einkvæman auðkenniskóða. |[Stofnun númeraraða](ui-create-number-series.md) |
+|Setja upp grunndagatal og úthluta því á fyrirtækið þitt og viðskiptafélaga, t.d viðskiptavini, lánardrottna eða birgðageymslur. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu.|[Uppsetning grunndagatals](across-how-to-assign-base-calendars.md)|  
 
-Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](includes/d365fin_md.md)] áskrift þinni. Frekari upplýsingar, sjá [Uppsetning og stjórnun í [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md).  
+Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](includes/d365fin_md.md)] áskrift þinni. Frekari upplýsingar eru í [Stjórnun](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Sjá einnig
+[Stjórnun](admin-setup-and-administration.md)  
 [Fjármál](finance.md)  
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  

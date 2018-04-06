@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: a03575bce7d1029e47f2aa1a46d5d0dcf585ab2a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f72a0fc7ce8e1d25d3b084f30f079778860a947c
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
@@ -28,7 +28,7 @@ Viðskiptamenn eru uppruni tekna. Þú verður að skrá þig hver viðskiptavin
 >   Ef viðskiptamannasniðmát eru til fyrir mismunandi tegundir viðskipamanna, þá birtist sjálfkrafa gluggi þegar búið er til nýtt viðskiptamannaspjald og hægt er að velja viðeigandi sniðmát. Ef aðeins eitt viðskiptamanna sniðmát er fyrir hendi, nota ný viðskiptamannaspjöld alltaf það sniðmát.
 
 ## <a name="to-create-a-new-customer-card"></a>Að stofna nýtt viðskiptamannaspjald
-1. Á heimasíðunni skal velja aðgerðina **Viðskiptamenn** til að opna listann yfir núverandi viðskiptamenn.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil.  
 2. Í glugganum **Viðskiptamenn** skal velja aðgerðina **Nýtt**.
 
     Ef aðeins eitt viðskiptamannasniðmát er fyrir hendi, opnast nýtt viðskiptamannaspjald með reiti útfyllta með upplýsingum úr sniðmátinu.

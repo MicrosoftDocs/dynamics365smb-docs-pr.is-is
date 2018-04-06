@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 07/05/2017
+ms.date: 03/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 53c32e77be0ec3dad95ca61cefa1f0db6ac4809b
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 591d8100100ee717a932d188a87545fe4098a001
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="importing-data-from-legacy-accounting-software-using-a-configuration-package"></a>Gögn flutt inn úr eldri bókhaldshugbúnaði með því að nota grunnstillingarpakka
 Hægt er að flytja aðalgögn og sum færslugögn úr öðrum fjárhagskerfum á grundvelli sjálfgefins grunnstillingarpakka í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Í glugganum **Grunnstillingarpakkar** er hægt að vinna með pakka til að flytja inn og staðfesta gögnin áður en pakkinn er notaður.  
 
-Ef notandi þekkir RapidStart Services for Microsoft Dynamics, þekkir hann einnig grunnstillingarpakka. Sjálfgefinn grunnstillingarpakki styður algengustu gerðir gagna sem notandi vill flytja inn úr eldra kerfi. Í Excel er þá hægt að bæta við gögnunum úr eldra kerfinu og setja þau upp í samræmi við viðskiptagrunn [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+> Grunnstillingarpakkar eru hluti af RapidStart Services fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)], víðtækt verkfærasafn til að setja upp nýjar lausnir sem byggjast á viðskiptakröfum viðskiptavina og uppsetningargögnum. RapidStart Services býður einnig upp á virkni til innflutnings á eldri gögnum. Nánari upplýsingar er að finna í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 > [!TIP]  
 >   Að öðrum kosti skal nota leiðsagnarforrit fyrir gagnafærslu til að flytja inn gögn frá QuickBooks eða Dynamics GP. Nánari upplýsingar, sjá [QuickBooks gagnafærsla](ui-extensions-quickbooks-data-migration.md) eða [Dynamics GP gagnafærsla](ui-extensions-dynamicsgp-data-migration.md).  
@@ -66,6 +67,7 @@ Eftir að gögn um viðskiptamenn eru færð inn í Excel, eru gögnin flutt inn
 
 ## <a name="see-also"></a>Sjá einnig
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](upload-data.md)  
+[Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md)  
 

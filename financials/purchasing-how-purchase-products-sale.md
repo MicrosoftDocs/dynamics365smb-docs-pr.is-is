@@ -13,10 +13,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 67e76ea76267c001277be3203c28103c3acb3214
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: bb89654d7bc48ad9746265b15cf0b6270fec2f7c
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Kaupa vörur fyrir sölu
@@ -29,7 +29,7 @@ Frá sölupöntunum og sölureikningum geturðu notað aðgerð til stofna á sk
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Stofna eina eða fleiri innkaupapöntun úr sölupöntun
 Til að stofna innkaupapöntun fyrir hvert ótiltækt vörumagn í sölupöntuninni, notarðu **Stofna innkaupapantanir** aðgerðina.
 
-1. Á heimasíðunni skal velja **áframhaldandi Sölupöntun** gluggareit.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.
 2. Opnuð er sölupöntun sem þú vilt kaupa vörur fyrir.
 3. Velja **stofna innkaupapantanir** aðgerð.
 
@@ -52,7 +52,7 @@ Til að stofna stakan innkaupareikning fyrir eina eða fleiri línur í söluskj
 > [!NOTE]  
 >   Þessi aðgerð stofnar innkaupareikning fyrir nákvæmlega það vörumagn sem er á valda söluskjalinu. Til að breyta innkaupamagninu, þarftu að breyta innkaupareikningnum eftir að þú stofnar hann.  
 
-1. Í reitnum heimasíða , velja **áframhaldandi Sölupöntun** gluggareit.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.
 2. Opnuð er sölureikningur sem þú vilt kaupa vörur fyrir.
 3. Veldu eitt eða fleiri sölureikningslínur sem þú vilt nota á innkaupareikningur. Til að nota alla sölureikningslínur, velja annaðhvort í heild eða ekki velja neinar línur.
 4. Velja **stofna innkaupareikning** aðgerð.

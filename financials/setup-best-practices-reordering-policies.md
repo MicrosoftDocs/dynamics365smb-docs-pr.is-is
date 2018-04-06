@@ -1,5 +1,5 @@
 ---
-title: "Uppsetning bestu venjur - Endurpöntunarstefnur | Microsoft Docs"
+title: "Uppsetning bestu venja - Endurpöntunarstefnur | Microsoft Docs"
 description: "Svæðið **Endurpöntunarstefna** á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra."
 services: project-madeira
 documentationcenter: 
@@ -16,10 +16,10 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 0041dcd1e1c7b4eda2d000c8c387bc8b751d4212
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="setup-best-practices-reordering-policies"></a>Uppsetning bestu venjur: Endurpöntunarstefnur
+# <a name="setup-best-practices-reordering-policies"></a>Uppsetning bestu venja: Endurpöntunarstefnur
 Svæðið **Endurpöntunarstefna** á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.  
 
 Einn grundvöllur undir bestu venjur til að velja endurpöntunarstefnu er ABC-flokkun vörunnar. Þegar ABC-flokkun er notuð fyrir birgðastjórnun og framboðsáætlun er hlutum stýrt í samræmi við þrjá mismunandi flokka eftir virði þeirra og magni í samræmi við heildarmagn á lager. Virði-rúmmal dreifing á klösunum þremur er sýnd á eftirfarandi töflu.
@@ -44,7 +44,7 @@ Eftirfarandi tafla gefur upp bestu venjur til að velja milli fjögurra stefna.
 |**Hámarksmagn**|Notist fyrir C vörur með háan birgðakostnað eða geymslutakmarkanir.<br /><br /> Sameina við eina eða fleiri pöntunarbreytur (lágmarks-/hámarkspöntunarmagn eða fjöldapanta).|C vörur, eins og tebollar, eru verðlitlar vörur með mikilli og reglulegri pöntunartíðni. Besta endurpöntunarstefnan fyrir C-vörur er sú sem tryggir stöðugan fáanleika með því að vera alltaf yfir endurpöntunarpunkti, en undir hámarks birgðamagni.<br /><br /> Til að breyta ráðlagðri röð gætirðu viljað lækka pöntunarmagnið niður í tiltekið hámarksmagn pöntunar, hækkað í tiltekið lágmarksmagn pöntunar, eða sléttað til að passa við tilgreint pöntunarmargfeldi. **Athugið:** Ef endurpöntunarmark er notað haldast birgðir á milli þess og hámarksmagns.|  
 
 ## <a name="see-also"></a>Sjá einnig  
- [Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)   
+ [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)   
  [Hönnunarupplýsingar: Endurpöntunarstefnur](design-details-reordering-policies.md)   
  [Hönnunarupplýsingar: pantanir](design-details-order.md)   
  [Hönnunarupplýsingar: lota fyrir lotu](design-details-lot-for-lot.md)   

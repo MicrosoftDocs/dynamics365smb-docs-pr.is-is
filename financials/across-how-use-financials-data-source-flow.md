@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ef4d841723b6bb0af37695a8c3ed1d805319be78
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: dde99e50c6984a7ec162b4047e8640e6affb3f25
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] í sjálfvirku verkflæði.
@@ -29,9 +29,6 @@ Notandi getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín se
 2. Veldu **Mitt flæði** af borðanum efst á síðunni.
 3. Í glugganum **Mitt flæði** skal velja valkostinn **Stofna úr auðu**.
 4. Farðu í lista yfir tiltækar kveikjur og veldu eina af [!INCLUDE[d365fin](includes/d365fin_md.md)] tiltækum kveikjum í boði:  
-    *Þegar færsla er stofnuð*,  
-    *Þegar færslu er eytt*,  
-    *Þegar færslu er breytt*,  
     *Þegar beðið er um samþykki viðskiptavinar*,  
     *Þegar beðið er um samþykki fyrir almenna færslubókarkeyrslu*,  
     *Þegar beðið er um samþykki fyrir almenna færslubókarlínu*,  
@@ -39,11 +36,7 @@ Notandi getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín se
     *Þegar beðið er um samþykki innkaupaskjals*,  
     *Þegar beðið er um samþykki söluskjals*, eða  
     *Þegar beðið er um samþykki lánardrottins*.
-5. Flow mun biðja um upplýsingarnar sem gefa þarf upp til að tengja notanda við [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín. Ef ein af eftirfarandi kveikjum voru valdara: *Þegar færsla er stofnuð*, *Þegar færslu er breytt* eða *Þegar færslu er eytt*, verður að velja heiti fyrirtækis og töflu. Þegar einungis er um eina kveikju að ræða þarf aðeins að tilgreina heiti fyrirtækis til að tengjast.
-
-   Flow birtir þá lista yfir fyrirtæki og töflur sem eru aðgengilegar úr [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þessar töflur eða endapunktar tákna allar vefþjónustur sem notandi hefur birt úr [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-   Einnig er hægt að stofna nýja vefslóð vefþjónustu í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að nota aðgerðina **Stofna gagnamengi** á síðunni **Vefþjónustur** með því að nota Uppsetningu með hjálp fyrir **Setja upp skýrslugerð** eða með því að velja aðgerðina **Breyta í Excel** í hvaða lista sem er.
+5. Flæði biður þig um velja fyrirtæki innan leigjandans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vegna þess að hvert skref í Flæði er óháð því næsta, getur verið að þú þurfir að skilgreina fyrirtækið mörgum sinnum þegar þú notar [!INCLUDE[d365fin](includes/d365fin_md.md)] sniðmát.
 
 Nú hefur notanda tekist að tengjast gögnum sínum í Finance and Operations, Business Edition og getur byrjað að byggja upp flæðið. Frekari upplýsingar eru í [gögnum um Flow](https://flow.microsoft.com/documentation/getting-started/).
 

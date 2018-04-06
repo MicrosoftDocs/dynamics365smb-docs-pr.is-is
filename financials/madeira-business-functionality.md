@@ -13,16 +13,16 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d764a759095e6cdf4e1157bc7b1f850800de3217
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 98064d9500f47035f1c73aaa0c87a2e96fd876cd
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="business-functionality"></a>Viðskiptavirkni
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  veitir virkni fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega með heildsölu og sérþjónustu. Hins vegar eru flóknari ferli, s.s. samsetning, framleiðsla, þjónusta og beint vöruhúsakerfi einnig studd. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] veitir virkni fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega með heildsölu og sérþjónustu. Hins vegar eru flóknari ferli, s.s. samsetning, framleiðsla, þjónusta og beint vöruhúsakerfi einnig studd.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  felur í sér staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Frá heimasíðunni þinni er hægt að fá aðgang að hjálpargögnum um leiðsögn sem hjálpar þér að stilla ákveðnar aðstæður og bæta við eiginleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nokkur svið viðskiptavirkni verður að setja upp handvirkt. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] felur í sér staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nokkur svið viðskiptavirkni verður að setja upp handvirkt. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
@@ -48,6 +48,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 
 ## <a name="see-also"></a>Sjá einnig
+[Stjórnun](admin-setup-and-administration.md)  
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

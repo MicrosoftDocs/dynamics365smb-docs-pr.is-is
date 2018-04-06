@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 11d7ef56e980ba263dba6328b2f2f08b86410242
 ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="searching-filtering-and-sorting-data"></a>Leita í, afmarka og raða gögnum
@@ -99,7 +99,7 @@ Hægt er að bæta við afmörkunum á einn eða fleiri dálka í lista. Afmörk
 Þegar skilyrði eru sett er hægt að nota alla sömu tölustafi og bókstafi sem venjulega eru notaðir í reitnum. Ennfremur er hægt að nota sértákn til að afmarka niðurstöðurnar frekar. Í eftirfarandi töflum eru táknin sem hægt er að nota í afmarkanir.  
   
 > [!IMPORTANT]  
->  Það geta verið tilvik þar sem gildi reita innihalda þessi tákn og þú vilt setja afmörkun á þau. Til að gera það, verðurðu að hafa með afmörkunarsegðina sem inniheldur táknið með gæsalöppum („“). Ef þú vilt t.d. setja afmörkun á skrár sem byrja á textanum *S&R* er afmörkunarsegðin **„S&R*“**.  
+>  Það geta verið tilvik þar sem gildi reita innihalda þessi tákn og þú vilt setja afmörkun á þau. Til að gera það, verðurðu að hafa með afmörkunarsegðina sem inniheldur táknið með gæsalöppum („“). Ef þú vilt t.d. setja afmörkun á færslur sem byrja á textanum *S&R* er afmörkunarsegðin **„S&R*'**.  
   
 ### <a name="-interval"></a>(..) Bil  
   

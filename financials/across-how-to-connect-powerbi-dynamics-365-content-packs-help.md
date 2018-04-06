@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 01/29/2018
+ms.date: 02/05/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4a1498e634046e54bdb9a5793731e44808c2f1eb
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: aff8d95b13f795fa12d3146e5613712fb3baf9b4
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="connecting-power-bi-to-finance-and-operations-business-edition-content-packs"></a>Tenging Power BI Finance and Operations, Business Edition efnispakka
@@ -46,22 +46,50 @@ ms.lasthandoff: 01/30/2018
 ## <a name="system-requirements"></a>Kerfiskröfur
 Til að flytja [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögn í Power BI þarf notandi að hafa heimidlir á vefþjónustunni til að sækja gögnin. Vefþjónusta sem er áskilin fyrir hvern efnispakka inniheldur:
 
-**Microsoft Dynamics 365 for Finance and Operations – CRM**
+**Microsoft Dynamics 365 for Finance and Operations, Business Edition - CRM**
 - SalesOpportunities
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Sales**
+**Microsoft Dynamics 365 for Finance and Operations, Business Edition - Sales**
+- ItemSalesbyCustomer
+- SalesDashboard
+- ExcelTemplateViewCompany
+
+**Microsoft Dynamics 365 for Finance and Operations, Business Edition - Finance**
+- PowerBIFinance
+- ExcelTemplateViewCompany
+
+**Microsoft Dynamics 365 for Finance and Operations, Business Edition - Jobs**
+- Verklisti
+- Áætlunarlínur verks
+- Verkhlutalínur verks
+
+**Microsoft Dynamics 365 for Finance and Operations, Business Edition - Viðskiptamannalisti**
 - ItemSalesbyCustomer
 - Power_BI_Item_Purchase_List
 - Power_BI_Item_Sales_List
 - SalesDashboard
+- Power_BI_Customer_List
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Finance**
-- PowerBIFinance
+**Microsoft Dynamics 365 for Finance and Operations, Business Edition - Vörulisti**
+- ItemSalesbyCustomer
+- Power_BI_Item_Purchase_List
+- Power_BI_Item_Sales_List
+- Birgðir
+- SalesDashboard
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Jobs**
-- Verklisti
-- Áætlunarlínur verks
-- Verkhlutalínur verks
+**Microsoft Dynamics 365 for Finance and Operations, Business Edition - Lánardrottnalisti**
+- ItemSalesbyCustomer
+- Power_BI_Item_Purchase_List
+- Power_BI_Item_Sales_List
+- Birgðir
+- SalesDashboard
+- Power_BI_Customer_List
+- ItemSalesbyCustomer
+- Power_BI_Vendor_List
+- ExcelTemplateViewCompany
 
 ## <a name="web-services"></a>Vefþjónusta
 Auðveld leið til að finna vefþjónustu er að leita að vefþjónustu í [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Í listanum skal ganga úr skugga um að reiturinn Birta sé valinn fyrir vefþjónustuna sem finna má að ofan.
@@ -75,7 +103,10 @@ Algeng mistök eru að slá inn birtingarnafn fyrirtækis í stað nafn fyrirtæ
 ### <a name="incorrect-user-name-and-password"></a>Rangt notandanafn og aðgangsorð  
 Notandanafn og aðgangsorð sem er notað til að tengjast verður það sama og er notað í Microsoft Office 365 reikningnum.  
 
-Efnispakkinn krefst þess einnig að Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] reikningur sé til staðar.  Þegar upplýsingarnar hafa verið skráðar inn verða sjálfkrafa borin kennsl á alla Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] leigjendur sem notandinn hefur aðgang að.  Ef notandinn hefur ekki leyfi eða prufuútgáfu að Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] reikningi munu villuboð birtast.
+Efnispakkinn krefst þess einnig að Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] reikningur sé til staðar. Þegar upplýsingarnar hafa verið skráðar inn verða sjálfkrafa borin kennsl á alla Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] leigjendur sem notandinn hefur aðgang að. Ef notandinn hefur ekki leyfi eða prufuútgáfu að Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] reikningi munu villuboð birtast.
+
+### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Lykillinn passaði ekki við neinar línur í töflunni
+Ef þú slærð inn ógilt nafn fyrirtækis meðan á tengingarferlinu stendur geturðu fengið villuboðið "Lykillinn passaði ekki við neinar raðir í töflunni". Gefðu upp rétt nafn fyrirtækis og reyndu að tengjast aftur.
 
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa með Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  

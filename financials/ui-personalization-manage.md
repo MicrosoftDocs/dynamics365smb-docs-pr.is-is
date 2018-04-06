@@ -13,15 +13,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 07/26/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4384aeb9a9e1e06ea7abc7b4eecdd1365ac2a0a0
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: d6ab880e7fbce361863140e634ea065a31e3aa70
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Stjórnun sérstillinga sem stjórnandi
 <!--NAV in the Web client-->
-Notendur geta sérsniðið vinnusvæði sitt að vild. Sem stjórnandi geturðu stjórnað og unnið með sérstillingar með því að slökkva á valkosti notenda til að sérstilla síður og hreinsa allar sérstillingar síðu sem notendur hafa gert. 
+Notendur geta sérsniðið vinnusvæði sitt að vild. Sem stjórnandi geturðu stjórnað og unnið með sérstillingar með því að slökkva á valkosti notenda til að sérstilla síður og hreinsa allar sérstillingar síðu sem notendur hafa gert.
 
 ## <a name="disable-personalization-for-a-profile"></a>Slökkva á sérstillingu fyrir forstillingu
 Hægt er að koma í veg fyrir að allir notendur sem tilheyra tiltekinni forstillingu geti sérstillt síður sínar.
@@ -31,15 +31,15 @@ Hægt er að koma í veg fyrir að allir notendur sem tilheyra tiltekinni forsti
 
 ## <a name="clear-user-personalizations"></a>Hreinsa sérstillingar notenda
 
-Þegar sérstillingar síðu er eytt fer síðan aftur í upprunalegt útlit áður en sérstillingin var gerð. Það eru tvær leiðir til að hreinsa sérstillingar sem notendur hafa gert á síðum: með **Eyða sérstillingum notanda** síðunni og **Sérstillingaspjald notanda**. 
+Þegar sérstillingar síðu er eytt fer síðan aftur í upprunalegt útlit áður en sérstillingin var gerð. Það eru tvær leiðir til að hreinsa sérstillingar sem notendur hafa gert á síðum: með **Eyða sérstillingum notanda** síðunni og **Sérstillingaspjald notanda**.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Hreinsa sérstillingar notenda með því að nota síðuna Eyða sérstillingum notanda
 
-Síðan **Eyða sérstillingum notanda** gerir þér kleift að hreinsa sérstillingar á einstaka síðum, eftir einstaka notendum. 
+Síðan **Eyða sérstillingum notanda** gerir þér kleift að hreinsa sérstillingar á einstaka síðum, eftir einstaka notendum.
 
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Eyða sérstillingum notanda** og velja svo viðeigandi tengil.
 
-    Á síðunni er listi yfir allar síður sem hafa verið sérstilltar og sem notandinn tilheyrir. 
+    Á síðunni er listi yfir allar síður sem hafa verið sérstilltar og sem notandinn tilheyrir.
 
     >[!NOTE]
     > Gátmerki í **Eldri sérstilling** dálknum gefur til kynna að sérstillingin hafi verið gerð í eldri útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)], sem meðhöndlaði sérstillingu öðruvísi en er núna gert. Notendur sem reyna að sérstilla þessar síður eru útilokaðir frá því að gera það nema þeir velji að opna síðuna. Frekari upplýsingar eru í [Af hverju er síða læst og því ekki hægt að sérsníða hana](ui-personalization-locked.md).
@@ -54,7 +54,7 @@ Síðan **Sérstillingaspjald notanda** gerir þér kleift að hreinsa sérstill
 
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sérstillingar notanda** og velja svo viðeigandi tengil.
 
-    Síðan **Sérstillingar notanda** sýnir alla notendur sem hugsanlega hafa sérstillt síður. Ef þú finnur ekki notanda á listanum þýðir það að hann hefur engar sérstilltar síður. 
+    Síðan **Sérstillingar notanda** sýnir alla notendur sem hugsanlega hafa sérstillt síður. Ef þú finnur ekki notanda á listanum þýðir það að hann hefur engar sérstilltar síður.
 
 2. Veljið notanda af listanum og veljið svo aðgerðina **Breyta**.
 
@@ -65,6 +65,6 @@ Síðan **Sérstillingaspjald notanda** gerir þér kleift að hreinsa sérstill
 ## <a name="see-also"></a>Sjá einnig
 [Sérstillingar verksvæðis](ui-personalization-user.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Breyta Mitt hlutverk](change-role.md)  
-[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).  
+[Breyta grundvallarstillingum](ui-change-basic-settings.md)  
+[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md)  
 

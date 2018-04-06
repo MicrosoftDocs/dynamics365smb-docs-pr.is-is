@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 91071855697c9235ba8734b40d77ed0b48c24923
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c3a9abd47e6d9f0a2b7fcd87aa83f2eaef3702a9
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl
@@ -55,16 +55,12 @@ Ef ekki eru notaðar verkröð eða þú vilt taka á móti loknu OCR-skjali fyr
 > [!NOTE]  
 >   Ef OCR þjónustan er stillt þannig að krafist er handvirka sannprófun fyrir unnin skjöl, þá mun reiturinn **OCR Staða** inihalda **Bíður sannprófunar**. Í því tilfelli skal framkvæma eftirfarandi skref til að skrá sig inn á OCR-þjónustusíðu til að sannreyna OCR-skjal handvirkt.
 
-1. Í á reitnum **OCR Stöðu** er valið **Bíður sannprófunar** tengilinn. Einnig má velja **bíður sannprófunar** gluggareit á heimasíðunni.
+1. Í á reitnum **OCR Stöðu** er valið **Bíður sannprófunar** tengilinn.
 2. Á OCR-þjónustu vefsvæðið skal skrá inn með skilríki OCR-þjónustureiknings. Það eru sömu skilríki og voru notuð þegar þjónustan var sett upp. Nánari upplýsingar er að finna í „Setja upp OCR-þjónustu“ hlutanum í [Uppsetning skjala á innleið](across-how-setup-income-documents.md).
-
-    Ef þú ferð inn á vefsvæði úr reitnum **OCR Staða** er viðkomandi skjali birt strax eftir innskráningu. Ef vefsvæðið er opnað með því að velja gluggareitur á heimasíðu, á fyrsta OCR þjónustusíðu sem opnast, verður að velja **Hefja** hnappinn á **sannprófa** flipanum eða tvísmellt á skjalið sem á að sannprófa.
 
     Upplýsingar um skjalið OCR birtist, þar sem sýndar eru bæði upprunalegt efni PDF skjalsins eða myndskrárinnar og afleidd OCR-gildi reita.
 3. Fara ber yfir mismunandi gildi og breyta eða færa inn handvirkt gildi í reitina sem OCR-þjónusta hefur merkt sem óvissa.
 4. Velja hnappinn **Í lagi**. OCR vinnslunni er lokið og verða rafrænar skjal er sent á **Skjöl á innleið** í [!INCLUDE[d365fin](includes/d365fin_md.md)] eftir röð áætlun verksins.
-
-    Ef vefsvæðið er opna með því að velja gluggareitur á heimasíðu, þá eru öll önnur OCR-skjöl til að sannprófa sjálfkrafa birt á vefsvæði.
 5. Liðir 4 eru endurteknir fyrir öll önnur OCR-skjöl til að sannprófa.
 
 Nú er hægt að byrja að stofna færslur skjala fyrir móttekin rafrænar fylgiskjöl í [!INCLUDE[d365fin](includes/d365fin_md.md)], handvirkt eða sjálfvirkt. Nánari upplýsingar er að finna í næsta ferli. Einnig er hægt að tengja nýja færslu skjals á innleið við fyrirliggjandi bókað eða óbókað skjal þannig að upprunaskrá sé auðvelt að fá aðgang úr [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar er að finna í [vinna skjöl á innleið](across-process-income-documents.md).

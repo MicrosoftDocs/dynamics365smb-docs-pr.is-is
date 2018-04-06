@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2d02977377f0d88229fdbfd4c2df96d88cd82f2e
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning-services"></a>Áætla þjónustu
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að setja upp staðlaða verkhluta sem þarf til að uppfylla þjónustuþarfir fyrirtækisins. Til að gera þetta, verður að ákveða hvaða þjónustuvöru og tilboð þjónustufyrirtæki þitt styður og fyrir hvaða verð.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  býður einnig upp á tölfræðiverkfæri sem þú getur notað til ákveða hversu vel hlutirnir eru að ganga og koma auga á svið þar sem má bæta.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] býður einnig upp á tölfræðiverkfæri sem þú getur notað til ákveða hversu vel hlutirnir eru að ganga og koma auga á svið þar sem má bæta.
   
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
   

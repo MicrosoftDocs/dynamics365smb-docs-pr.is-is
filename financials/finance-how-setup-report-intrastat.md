@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4b4fde6f005c992b63856ec4afadbb689532ac16
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: f4facb8a56a89520797a650c686d7e2249886b81
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Hvernig skal: Setja upp og skrá Intrastat
@@ -28,7 +28,7 @@ ms.lasthandoff: 01/30/2018
 * **Sniðmát Instrastatbókar**: Nauðsynlegt er að setja upp sniðmát og keyrslur Intrastatbókarinnar sem notaðar verða. Þar sem Intrastat-skýrslugerð er framkvæmd mánaðarlega verður að stofna 12 intrastatbókarkeyrslur sem miðast við sama sniðmát.  
 * **Vörukóði**: Tolla- og skattyfirvöld hafa sett fram númerakóða sem flokka vörur og þjónustu. Þú tiltekur þessa kóða á vörum.
 * **Eðliskóðar færslu**: Lönd og svæði hafa ólíka kóða fyrir tegundir Instrastat viðskipti, eins og venjuleg innkaup og sala, skipti á skilavörum, og skipti á vörum sem ekki hefur verið skilað. Setja upp alla kóða sem eiga við í þínu landi/svæði. Þú notar þessa kóða í sölu- og innkaupaskjölum, og þegar þú vinnur vöruskil.  
-* **Flutningsmáti**: Það eru sjö einstölu kóðar fyrir Intrastat flutningsmáta. **1** fyrir sjóleið, **2** fyrir lest, **3** fyrir akstur, **4** fyrir flug, **5** fyrir póstsendingar, **6** fyrir fastar uppsetningar, og **9** fyrir eigin knúningsafl (til dæmis, flytja bíl með því að aka honum). [!INCLUDE[d365fin](includes/d365fin_md.md)] fer ekki fram á þessa kóða, en við mælum engu að síður með því að lýsingarnar beri með sér svipaða merkingu.  
+* **Flutningsmáti**: Það eru sjö einstölu kóðar fyrir Intrastat flutningsmáta. **1** fyrir sjóleið, **2** fyrir lest, **3** fyrir akstur, **4** fyrir flug, **5** fyrir póstsendingar, **7** fyrir fastar uppsetningar, og **9** fyrir eigin knúningsafl (til dæmis, flytja bíl með því að aka honum). [!INCLUDE[d365fin](includes/d365fin_md.md)] fer ekki fram á þessa kóða, en við mælum engu að síður með því að lýsingarnar beri með sér svipaða merkingu.  
 
 Einnig er hægt að setja upp:
 

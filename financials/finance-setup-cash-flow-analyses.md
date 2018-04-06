@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 1f6b31663aad5c777d16b82742bf11c7dce05264
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setja upp sjóðstreymisgreiningu
@@ -67,13 +67,15 @@ Uppsetning assisted leiðbeiningum nota til:
 
 1. Í Hlutverkamiðstöð bókhaldara undir **Sjóðstreymisspá** skal velja **Opna uppsetningu með hjálp** aðgerðina.  
 2. Fylltu út reitina í hverju skrefi leiðarvísisins.  
-3. Á heimasíðunni velurðu **Sjóðstreymisspá** fyrir ofan töfluna og síðan **Endurreikna spá**..  
+3. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Sjóðstreymisspá** og velja svo viðeigandi tengil.
+4. Í glugganum **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
 
 Nota handvirkt ferli:  
 
 1. Í Hlutverkamiðstöð bókhaldara skaltu leita að **Uppsetning sjóðstreymis** og velja svo tengdan tengil.  
 2. Stækkaðu **Cortana Intelligence** flýtiflipann, og veldu **Cortana Intelligence virkjað** gátreitinn.  
-3. Á heimasíðunni velurðu **Sjóðstreymisspá** fyrir ofan töfluna og síðan **Endurreikna spá**..  
+3. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Sjóðstreymisspá** og velja svo viðeigandi tengil.
+4. Í glugganum **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
 
 > [!TIP]  
 >   Íhugaðu lengd tímabila sem þjónustan er notaður í útreikningum hennar. Frekari gögn sem veita verður því nákvæmari á predictions. Líka watch út fyrir mikið frávik í tímabil. Þeir eru einnig hefur predictions. Ef Cortana Intelligence finnur ekki nægt gögnum eða gögnin breytist við lotu, gera á ekki við prediction.  
