@@ -1,0 +1,37 @@
+---
+title: "Finna síður og skýrslur með því að nota leitarhnappinn | Microsoft Docs"
+description: "Til að finna síður og skýrslur í Business Central, geturðu notað aðgerðina Leta að síðu eða skýrslu."
+services: project-madeira
+documentationcenter: 
+author: SusanneWindfeldPedersen
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: find
+ms.date: 03/29/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 496f42d2bac223227b20b57c27e34d2d5b3c014f
+ms.contentlocale: is-is
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="searching-for-a-page-or-report"></a><span data-ttu-id="7b9c7-103">Leit að síðu eða skýrslu</span><span class="sxs-lookup"><span data-stu-id="7b9c7-103">Searching for a Page or Report</span></span>
+<span data-ttu-id="7b9c7-104">Finna má síður og skýrslur með því að nota **Leit að síðu eða skýrslu** táknið efst í hægra horni aðseturslínunnar.</span><span class="sxs-lookup"><span data-stu-id="7b9c7-104">You can find pages and reports by choosing the **Search for Page or Report** icon in the top right corner of the address bar.</span></span> <span data-ttu-id="7b9c7-105">Leita að þessu táknið:</span><span class="sxs-lookup"><span data-stu-id="7b9c7-105">Look for this icon:</span></span>
+
+<span data-ttu-id="7b9c7-106">![Leit að síðu eða skýrslu](media/ui-search/search.png "Leit að síðu eða skýrslu")</span><span class="sxs-lookup"><span data-stu-id="7b9c7-106">![Search for Page or Report](media/ui-search/search.png "Search for Page or Report")</span></span>
+
+<span data-ttu-id="7b9c7-107">Þegar byrjað er að slá stafi , birtist fellilisti með síðuheitum með stöfunum sem slegnir eru inn.</span><span class="sxs-lookup"><span data-stu-id="7b9c7-107">When you start typing characters, a drop-down list shows page names containing the character(s) you type.</span></span> <span data-ttu-id="7b9c7-108">Fellilistinn breytist eftir því sem fleiri stafir eru slegnir inn og hægt er að velja réttu síðuna úr listanum þegar hún birtist.</span><span class="sxs-lookup"><span data-stu-id="7b9c7-108">The drop-down list changes as you type more characters, and you can select the correct page from the list when it is displayed.</span></span> <span data-ttu-id="7b9c7-109">Annar reiturinn í fellilistanum sýnir slóðina á síðurnar sem finnast.</span><span class="sxs-lookup"><span data-stu-id="7b9c7-109">The second column in the drop-down list shows the navigation paths to the found pages.</span></span> <span data-ttu-id="7b9c7-110">Einnig er til staðar tengill sem hægt er að nota til að leita í hjálparefni að stöfunum sem slegnir voru inn.</span><span class="sxs-lookup"><span data-stu-id="7b9c7-110">There is also a link that enables you to search the help for the characters that you typed.</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="7b9c7-111">Fyrirliggjandi síður og skýrslur byggjast á notendaupplifuninni sem þú velur fyrir fyrirtækið þitt.</span><span class="sxs-lookup"><span data-stu-id="7b9c7-111">The available pages and reports depend on the user experience you choose for your company.</span></span> <span data-ttu-id="7b9c7-112">**Grunn** upplifun veitir aðgang að færri upplifunum en **Mikilvægar** upplifanir gerir.</span><span class="sxs-lookup"><span data-stu-id="7b9c7-112">The **Basic** experience gives access to fewer than the **Essential** experience does.</span></span> <span data-ttu-id="7b9c7-113">Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina.</span><span class="sxs-lookup"><span data-stu-id="7b9c7-113">The first time you sign in, you use the Basic experience.</span></span> <span data-ttu-id="7b9c7-114">Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="7b9c7-114">For more information, see [Customizing Your  [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="7b9c7-115">Valkosturinn **Leita að síðu eða skýrslu** leitar ekki í gögnum, líkt og heitum viðskiptamanna, aðsetri eða færslum.</span><span class="sxs-lookup"><span data-stu-id="7b9c7-115">The **Search for Page or Report** function does not search through data, such as customer names, addresses, or transactions.</span></span> <span data-ttu-id="7b9c7-116">Í staðinn er hægt að leita að gögnum á listasíðum með því að velja stækkunarglerstáknið í hægra horninu á listahausnum.</span><span class="sxs-lookup"><span data-stu-id="7b9c7-116">Instead, you can search for data in list pages by choosing the magnifier symbol in the right corner of the list header.</span></span> <span data-ttu-id="7b9c7-117">Leitin á aðeins við um listann sem verið er að skoða.</span><span class="sxs-lookup"><span data-stu-id="7b9c7-117">The search applies only to the list you are viewing.</span></span> <span data-ttu-id="7b9c7-118">Frekari upplýsingar eru í [Skilyrði í afmörkunum](ui-enter-criteria-filters.md).</span><span class="sxs-lookup"><span data-stu-id="7b9c7-118">For more information, see [Entering Criteria in Filters](ui-enter-criteria-filters.md).</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="7b9c7-119">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="7b9c7-119">See Also</span></span>
+<span data-ttu-id="7b9c7-120">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7b9c7-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+

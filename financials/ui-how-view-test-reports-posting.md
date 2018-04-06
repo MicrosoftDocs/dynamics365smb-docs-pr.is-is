@@ -15,24 +15,24 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 8e564a522cdd8567fc44885885e43040e1ae85c6
 ms.contentlocale: is-is
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="view-test-reports-before-posting"></a><span data-ttu-id="4d149-103">Skoða prufuskýrslur fyrir bókun</span><span class="sxs-lookup"><span data-stu-id="4d149-103">View Test Reports Before Posting</span></span>
-<span data-ttu-id="4d149-104">Þegar á að bóka skjal, t.d. pöntun, reikning eða kreditreikning, er hægt að prófa skjalið til að tryggja að engin vandamál sem geta stöðvað bókunina séu til staðar.</span><span class="sxs-lookup"><span data-stu-id="4d149-104">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
+# <a name="view-test-reports-before-posting"></a><span data-ttu-id="a0395-103">Skoða prufuskýrslur fyrir bókun</span><span class="sxs-lookup"><span data-stu-id="a0395-103">View Test Reports Before Posting</span></span>
+<span data-ttu-id="a0395-104">Þegar á að bóka skjal, t.d. pöntun, reikning eða kreditreikning, er hægt að prófa skjalið til að tryggja að engin vandamál sem geta stöðvað bókunina séu til staðar.</span><span class="sxs-lookup"><span data-stu-id="a0395-104">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="4d149-105">Eftirfarandi ferli byggir á prófun fyrir bókun innkaupaskjals.</span><span class="sxs-lookup"><span data-stu-id="4d149-105">The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="4d149-106">Þetta virkar á sama hátt fyrir söluskjöl.</span><span class="sxs-lookup"><span data-stu-id="4d149-106">The functionality works in the same way for sales documents.</span></span>
+>   <span data-ttu-id="a0395-105">Eftirfarandi ferli byggir á prófun fyrir bókun innkaupaskjals.</span><span class="sxs-lookup"><span data-stu-id="a0395-105">The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="a0395-106">Þetta virkar á sama hátt fyrir söluskjöl.</span><span class="sxs-lookup"><span data-stu-id="a0395-106">The functionality works in the same way for sales documents.</span></span>
 
-## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="4d149-107">Prófunarskýrslur prentaðar áður en innkaupareikningar eru bókaðir</span><span class="sxs-lookup"><span data-stu-id="4d149-107">To print a test report before posting a purchase invoice</span></span>
-1. <span data-ttu-id="4d149-108">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="4d149-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then select the related link.</span></span>
-2. <span data-ttu-id="4d149-109">Opna skal innkaupareikninginn sem á að prófa.</span><span class="sxs-lookup"><span data-stu-id="4d149-109">Open the purchase invoice that you want to test.</span></span>
-3. <span data-ttu-id="4d149-110">Veljið aðgerðina **Prófunarskýrsla**.</span><span class="sxs-lookup"><span data-stu-id="4d149-110">Choose the **Test Report** action.</span></span>  
+## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="a0395-107">Prófunarskýrslur prentaðar áður en innkaupareikningar eru bókaðir</span><span class="sxs-lookup"><span data-stu-id="a0395-107">To print a test report before posting a purchase invoice</span></span>
+1. <span data-ttu-id="a0395-108">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="a0395-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then select the related link.</span></span>
+2. <span data-ttu-id="a0395-109">Opna skal innkaupareikninginn sem á að prófa.</span><span class="sxs-lookup"><span data-stu-id="a0395-109">Open the purchase invoice that you want to test.</span></span>
+3. <span data-ttu-id="a0395-110">Veljið aðgerðina **Prófunarskýrsla**.</span><span class="sxs-lookup"><span data-stu-id="a0395-110">Choose the **Test Report** action.</span></span>  
 
-<span data-ttu-id="4d149-111">Allir hlutar innkaupareikningsins eru prófaðir og niðurstöðurnar birtar í skýrslu.</span><span class="sxs-lookup"><span data-stu-id="4d149-111">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="4d149-112">Ef í skýrslunni koma fram villur eða upplýsingar vantar þá verður að laga það áður en innkaupareikningurinn er bókaður.</span><span class="sxs-lookup"><span data-stu-id="4d149-112">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
+<span data-ttu-id="a0395-111">Allir hlutar innkaupareikningsins eru prófaðir og niðurstöðurnar birtar í skýrslu.</span><span class="sxs-lookup"><span data-stu-id="a0395-111">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="a0395-112">Ef í skýrslunni koma fram villur eða upplýsingar vantar þá verður að laga það áður en innkaupareikningurinn er bókaður.</span><span class="sxs-lookup"><span data-stu-id="a0395-112">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="4d149-113">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="4d149-113">See Also</span></span>
-[<span data-ttu-id="4d149-114">Bóka skjöl og færslubækur</span><span class="sxs-lookup"><span data-stu-id="4d149-114">Post Documents and Journals</span></span>](ui-post-documents-journals.md)  
-<span data-ttu-id="4d149-115">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="4d149-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="a0395-113">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="a0395-113">See Also</span></span>
+[<span data-ttu-id="a0395-114">Bóka skjöl og færslubækur</span><span class="sxs-lookup"><span data-stu-id="a0395-114">Post Documents and Journals</span></span>](ui-post-documents-journals.md)  
+<span data-ttu-id="a0395-115">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a0395-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 

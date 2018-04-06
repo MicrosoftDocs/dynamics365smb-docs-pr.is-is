@@ -1,0 +1,38 @@
+---
+title: "Reikningsfærið bókanir í Business Central | Microsoft Docs"
+description: "Fræðist um hvernig á að magnreikningsfæra frá Microsoft Bookings í Business Central."
+author: edupont04
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: invoicing, bookings
+ms.date: 06/14/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 56a41a81bee7084d0f624e6ce9bc4a7138e77ff0
+ms.contentlocale: is-is
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a><span data-ttu-id="294aa-103">Magnreikningsfærsla frá Microsoft Bookings í [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="294aa-103">Bulk Invoicing for Microsoft Bookings in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
+<span data-ttu-id="294aa-104">Ef fyrirtækið þitt notar Bookings forritið í Office 365 geturðu framkvæmt magnreikningsfærslu fyrir fundi.</span><span class="sxs-lookup"><span data-stu-id="294aa-104">If your company uses the Bookings app in Office 365, you can do bulk invoicing for appointments.</span></span> <span data-ttu-id="294aa-105">Síðan **Óreikningsfærðar bókanir** í [!INCLUDE[d365fin](includes/d365fin_md.md)] býður upp á lista yfir fullunnar bókanir fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="294aa-105">The **Uninvoiced Bookings** page in [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a list of the company's completed bookings.</span></span> <span data-ttu-id="294aa-106">Á þessari síðu getur valið snögglega þá fundi sem þú vilt reikningsfæra og búið til reikningsdrög fyrir þjónustu sem veitt var.</span><span class="sxs-lookup"><span data-stu-id="294aa-106">In this page you can quickly select the appointments that you want to invoice and create draft invoices for the services provided.</span></span>  
+
+## <a name="connect-to-bookings"></a><span data-ttu-id="294aa-107">Tengjast Bookings</span><span class="sxs-lookup"><span data-stu-id="294aa-107">Connect to Bookings</span></span>
+<span data-ttu-id="294aa-108">Til að tengja þitt [!INCLUDE[d365fin](includes/d365fin_md.md)] við Bookings er nauðsynlegt að tiltaka Bookings-fyrirtækið þitt, hvað skal stamstilla við Bookings, hversu oft á að samstilla og hvaða sniðmát skal nota.</span><span class="sxs-lookup"><span data-stu-id="294aa-108">To connect your [!INCLUDE[d365fin](includes/d365fin_md.md)] with Bookings, you must specify your Bookings company, what to synchronize with Bookings, how often to synchronize, and which templates to use.</span></span> <span data-ttu-id="294aa-109">Settar eru upp upplýsingar á síðunni **Samstilla Bókanir Uppsetning**, sem hægt er að opna frá síðunni **Exchange Samstilla Uppsetning**, sem hægt er finna gegnum [Leit](ui-search.md).</span><span class="sxs-lookup"><span data-stu-id="294aa-109">You set up this information in the **Booking Sync. Setup** page, which you can launch from the **Exchange Sync. Setup** page, which you can find through [Search](ui-search.md).</span></span>  
+
+<span data-ttu-id="294aa-110">Ef þú vilt til dæmis samstilla viðskiptavini á milli Bookings og [!INCLUDE[d365fin](includes/d365fin_md.md)], er nauðsynlegt að tiltaka sjálfgefna sniðmátið sem nota á til að bæta nýjum viðskiptavinum við [!INCLUDE[d365fin](includes/d365fin_md.md)], út frá viðskiptavinum í Bookings-fyrirtækinu þínu.</span><span class="sxs-lookup"><span data-stu-id="294aa-110">For example, if you want to synchronize customers between Bookings and [!INCLUDE[d365fin](includes/d365fin_md.md)], you must specify the default template to use to add new customers in [!INCLUDE[d365fin](includes/d365fin_md.md)] based on the customers in your Bookings company.</span></span>  
+
+## <a name="invoice-appointments"></a><span data-ttu-id="294aa-111">Reikningsfæra fundi</span><span class="sxs-lookup"><span data-stu-id="294aa-111">Invoice Appointments</span></span>
+<span data-ttu-id="294aa-112">Þegar tímabært er að senda reikninga fyrir fullunnar bókanir, ferðu inn á síðuna **Óreikningsfærðar bókanir**.</span><span class="sxs-lookup"><span data-stu-id="294aa-112">When it is time to send invoices for the completed bookings, you go to the **Uninvoiced Bookings** page.</span></span> <span data-ttu-id="294aa-113">Það hvort listinn er langur eða stuttur fer eftir því hversu oft upplýsingarnar eru samstilltar.</span><span class="sxs-lookup"><span data-stu-id="294aa-113">Depending on how often the information is synchronized, the list is long or short.</span></span> <span data-ttu-id="294aa-114">Hægt er að stofna reikninga fyrir allar bókanir á listanum eða eina í einu.</span><span class="sxs-lookup"><span data-stu-id="294aa-114">You can create invoices for all bookings in the list or one booking at a time.</span></span> <span data-ttu-id="294aa-115">Hægt er að velja eina eða fleiri færslur á listanum og reikningsfæra þær sérstaklega.</span><span class="sxs-lookup"><span data-stu-id="294aa-115">You can select one or more entries in the list and invoice those only.</span></span>  
+
+<span data-ttu-id="294aa-116">Notendaþjónustan varðandi reikningsfærða fundi í Bookings er einfaldari en vinnsla með fullu verkflæði sölutilboða, sölupantana og sölureikninga.</span><span class="sxs-lookup"><span data-stu-id="294aa-116">The support for invoicing appointments from Bookings is simpler than the fuller workflow of working with sales quotes, sales orders, and sales invoices.</span></span> <span data-ttu-id="294aa-117">Frekari upplýsingar eru í [Reikningsfæra sölur](sales-how-invoice-sales.md).</span><span class="sxs-lookup"><span data-stu-id="294aa-117">For more information, see [Invoice Sales](sales-how-invoice-sales.md).</span></span> <span data-ttu-id="294aa-118">Þú getur valið að selja þjónustu þína með því að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] eða að nota Bookings, allt eftir eðli viðskipta þinna.</span><span class="sxs-lookup"><span data-stu-id="294aa-118">You can choose to sell your services using [!INCLUDE[d365fin](includes/d365fin_md.md)] or choose to use Bookings, depending on your business needs.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="294aa-119">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="294aa-119">See Also</span></span>
+[<span data-ttu-id="294aa-120">Fjármál</span><span class="sxs-lookup"><span data-stu-id="294aa-120">Finance</span></span>](finance.md)  
+[<span data-ttu-id="294aa-121">Reikningsfæra sölur</span><span class="sxs-lookup"><span data-stu-id="294aa-121">Invoice Sales</span></span>](sales-how-invoice-sales.md)  
+[<span data-ttu-id="294aa-122">Uppsetning sölu</span><span class="sxs-lookup"><span data-stu-id="294aa-122">Setting Up Sales</span></span>](sales-setup-sales.md)  
+[<span data-ttu-id="294aa-123">Microsoft Bookings</span><span class="sxs-lookup"><span data-stu-id="294aa-123">Microsoft Bookings</span></span>](https://products.office.com/en-us/business/scheduling-and-booking-app)  
+
