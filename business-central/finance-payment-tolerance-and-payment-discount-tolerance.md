@@ -95,7 +95,6 @@ Hér á eftir koma nokkur dæmi sem sýna áætlaða vikmarkaútreikninga og bó
 - **A** Í þessu tilviki hefur viðvörun um vikmörk greiðsluafsláttar verið gerð óvirk EÐA notandinn hefur viðvörunina virka og hefur valið að heimila afslátt af síðbúinni greiðslu (Bóka stöðu sem greiðsluvikmörk).  
 - **B** Í þessu tilviki hefur notandinn viðvörunina virka og hefur valið að heimila ekki afslátt af síðbúinni greiðslu (Láta stöðu standa sem eftirstöðvar).  
 
-[!div class="mx-tdBreakAll"]  
 |—|Reikn.|Staðgr.afsl.|Hám. stgr.vikm.|Mörk staðgr.afsl.|Vikm. staðgr.afsl. Dagsetning|Greiðsludagur|Stgr.|Tegund vikmarka|Allar færslur lokaðar|Vikm. staðgr.afsl. GL/CL|Gr.vikm. Fjárhagur|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1,000|20|5|15/01/03|20/01/03|<=15/01/03|985|Stgr.vikm.|Já|0|-5|  
@@ -166,8 +165,6 @@ Hér á eftir koma nokkur dæmi sem sýna áætlaða vikmarkaútreikninga og bó
 - **B** Í þessu tilviki hefur notandinn viðvörunina virka og hefur valið að heimila ekki afslátt af síðbúinni greiðslu á neinum reikningum.  
 - **C** - Í þessu tilviki hefur notandinn viðvörunina virka og hefur valið að heimila afslátt af síðbúinni greiðslu á fyrsta reikningi en ekki þeim næsta.  
 - **D** - Í þessu tilviki hefur notandinn viðvörunina virka og hefur valið að heimila ekki afslátt af síðbúinni greiðslu á fyrsta reikningi en heimilar hann á þeim næsta.  
-
-[!div class="mx-tdBreakAll"]  
 
 |—|Reikn.|Staðgr.afsl.|Hám. stgr.vikm.|Mörk staðgr.afsl.|Vikm. staðgr.afsl. Dagsetning|Greiðsludagur|Gr.|Tegund vikmarka|Allar færslur lokaðar|Vikm. staðgr.afsl. GL/CL|Gr.vikm. Fjárhagur|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
