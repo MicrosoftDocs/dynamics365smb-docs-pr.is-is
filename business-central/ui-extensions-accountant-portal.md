@@ -11,8 +11,8 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2bbe5af160a3512c83cc33057252ff6c2eb6a6fc
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0e7778f0a118280ef18c2ddb61a1c0b0ee7b2452
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Frekari upplýsingar eru í [Upplifun endurskoðanda í Business Central](financ
 ## <a name="using-the-extension"></a>Nota viðbótina
 Viðbótin verður úrelt eftir nokkra mánuði. Við mælum með því að þú setjir ekki upp viðbótina heldur skráir þig þess í stað fyrir [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] Á [Financials for Accountants á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).
 
-Nánari upplýsingar eru í [Velkomin(n) í Dynamics 365 — Accountant Hub](/dynamics365/accountants/index.md).  
+Nánari upplýsingar eru í [Velkomin(n) í Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).  
 
 ## <a name="see-also"></a>Sjá einnig
 [Upplifun endurskoðanda í Business Central ](finance-accounting.md)  

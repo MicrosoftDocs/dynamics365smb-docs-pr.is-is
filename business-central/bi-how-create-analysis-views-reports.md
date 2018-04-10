@@ -1,8 +1,6 @@
 ---
 title: "Stofna greiningarskýrslur| Microsoft Docs"
 description: "Lýsir því hvernig stofna skal nýjar greiningarskýrslur fyrir sölu, innkaup og birgðir og búa til greiningarsniðmát."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 622323cd0df894c2cb8a55c6fdfe29a81934af05
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -69,9 +67,8 @@ Eftirfarandi ferli byggist á greiningaryfirliti fyrir sölu. Skrefin eru svipu�
 4. Í glugganum **Greiningardálkar** eru reitirnir fylltir út til að tilgreina dálkana sem eiga að vera með í greiningarskýrslunni.  
 
     > [!NOTE]  
->   Ef skilgreina á dálk þarf að fylla út reitinn  **Kóti greiningartegundar** (fyrir allar tegundir dálka nema **Reikniregla**). Kóði fyrir greiningartegund er settur upp í glugganum **Greiningartegund**.  
-
-    **Athugasemd** Ef **Birgðafærslur** eru valdar í reitnum **Færslutegund** eru rauntölurnar afritaðar úr birgðafærslunni. Ef valdar eru **Birgðaáætlunarfærslur** eru áætlaðar tölur úr fjárhagsáætluninni afritaðar.  
+    >   Ef skilgreina á dálk þarf að fylla út reitinn  **Kóti greiningartegundar** (fyrir allar tegundir dálka nema **Reikniregla**). Kóði fyrir greiningartegund er settur upp í glugganum **Greiningartegund**.  
+    Einnig, í reitnum **Fjárhagsfærslugerð**, ef þú velur **Birgðafærslur**, eru rauntölurnar úr birgðafærslunum afritaðar. Ef valdar eru **Birgðaáætlunarfærslur** eru áætlaðar tölur úr fjárhagsáætluninni afritaðar.  
 5.  Velja hnappinn **Í lagi** til að vista breytingarnar.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Uppsetning greingarlínusniðmáta  

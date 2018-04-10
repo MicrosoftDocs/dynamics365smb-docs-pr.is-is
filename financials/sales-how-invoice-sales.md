@@ -12,10 +12,10 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4f180f280415584d7bb216ee5be997f266d38ab2
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: ca826b8a2a736097eee259913bd40bd8888270dc
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="invoice-sales"></a>Reikningsfæra sölur
@@ -32,7 +32,7 @@ Hægt er að semja við viðskiptamanninn með því að gera fyrst sölutilboð
 
 Ef viðskiptamaðurinn ákveður að kaupa, bókar þú sölureikninginn til að stofna tengdar magn og virðisfærslur. Við bókun sölureiknings, er einnig hægt að senda skjalið í tölvupósti sem PDF viðhengi. Hægt er að láta meginmálslínur tölvupósts vera útfyllt fyrirfram með samantekt á reikningnum og greiðsluupplýsingum, eins og tengli í PayPal. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
 
-Í viðskiptaumhverfi þar sem viðskiptamaðurinn verður að greiða áður en vörur eru afhentar, til dæmis í smásölu, verður að bíða eftir greiðslukvittun fyrir vörunum áður en þær eru afhentar. Í flestum tilfellum er valið að vinna  greiðslur á innleið nokkrum vikum eftir afhendingu með því að jafna greiðslurnar við viðkomandi bókaða, ógreidda sölureikninga. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md).
+Í viðskiptaumhverfi þar sem viðskiptamaðurinn verður að greiða áður en vörur eru afhentar, til dæmis í smásölu, verður að bíða eftir greiðslukvittun fyrir vörunum áður en þær eru afhentar. Í flestum tilfellum er valið að vinna  greiðslur á innleið nokkrum vikum eftir afhendingu með því að jafna greiðslurnar við viðkomandi bókaða, ógreidda sölureikninga. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
 Í viðskiptaumhverfi þar sem viðskiptavinurinn greiðir strax, til dæmis með reiðufé, PayPal eða kreditkorti, er hægt að velja viðeigandi aðferð í reitnum **Kóði greiðslumáta** á sölureikningnum. Greiðsla er síðan skráð strax á bókuðum reikningi. Fyrir greiðsluþjónustur þarf einnig að fylla inn í reitinn **Greiðsluþjónusta**. Nánari upplýsingar eru í [Virkja greiðsluur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
 

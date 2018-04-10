@@ -11,8 +11,8 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b72de70da67a7401bad90bd55d1a31a1ae6d880
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -101,7 +101,7 @@ Ef þú færð „innskráning mistókst“ villu þegar þú skráir þig inn �
 * [!INCLUDE[d365fin](includes/d365fin_md.md)] Tilvikið sem verið er að reyna að tengjast er ekki með gilt SLL vottorð. Í þessu tilviki sérðu nákvæmari villuboð ("ekki er hægt að stofna traust SSL samband").
 
     > [!NOTE]  
->   Sjálfárituð vottorð eru ekki studd.  
+    >   Sjálfárituð vottorð eru ekki studd.  
 
 **"Úps"**  
 Ef þú sérð "Úps" villuglugga þegar þú ert kominn framhjá sannvottunarglugganum, er þetta oftast vegna vandamáls við að tengjast gögnum fyrir efnispakkann.
@@ -118,7 +118,7 @@ Ef þú sérð "Úps" villuglugga þegar þú ert kominn framhjá sannvottunargl
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptaupplýsingar](bi.md)  
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Yfirfæra viðskiptagögn úr öðrum fjárhagskerfum](upload-data.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem PowerApps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  

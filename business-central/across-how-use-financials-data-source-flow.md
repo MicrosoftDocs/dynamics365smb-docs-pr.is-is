@@ -9,11 +9,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 01/25/2018
+ms.date: 03/21/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 23e9ebbb75d23595d568d022526e551bf590a979
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 5d7fa359ee99cd177a445e025ddf8d156c6e2421
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -27,8 +27,10 @@ Notandi getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín se
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-flow"></a>Til að bæta [!INCLUDE[d365fin](includes/d365fin_md.md)]við sem gagnaveitu í flæði
 1. Flettið í [flow.microsoft.com](https://flow.microsoft.com/en-us/) í vafranum og skráið ykkur svo inn.
 2. Veldu **Mitt flæði** af borðanum efst á síðunni.
-3. Í glugganum **Mitt flæði** skal velja valkostinn **Stofna úr auðu**.
-4. Farðu í lista yfir tiltækar kveikjur og veldu eina af [!INCLUDE[d365fin](includes/d365fin_md.md)] tiltækum kveikjum í boði:  
+3. Það eru 2 leiðir til að búa til flæði; **Stofna skjámyndarsniðmát** og **Stofna úr auðu**. Sniðmát er fyrirframskilgreint flæði sem hefur verið búið til fyrir þig.  Til að nota sniðmát skaltu einfaldlega velja það og búa til tengingu fyrir hverja þjónustu sem sniðmátið notar. Autt sniðmát gerir þér kleift að búa til nýtt flæði alveg frá grunni. 
+4. Til að búa til úr auðu skal í glugganum **Mitt flæði** velja valkostinn **Stofna úr auðu**.
+5. Leitaðu að **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]** tengi.
+6. Farðu í lista yfir tiltækar kveikjur og veldu eina af [!INCLUDE[d365fin](includes/d365fin_md.md)] tiltækum kveikjum í boði:  
     *Þegar beðið er um samþykki viðskiptavinar*,  
     *Þegar beðið er um samþykki fyrir almenna færslubókarkeyrslu*,  
     *Þegar beðið er um samþykki fyrir almenna færslubókarlínu*,  
@@ -36,16 +38,38 @@ Notandi getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín se
     *Þegar beðið er um samþykki innkaupaskjals*,  
     *Þegar beðið er um samþykki söluskjals*, eða  
     *Þegar beðið er um samþykki lánardrottins*.
-5. Flæði biður þig um velja fyrirtæki innan leigjandans [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vegna þess að hvert skref í Flæði er óháð því næsta, getur verið að þú þurfir að skilgreina fyrirtækið mörgum sinnum þegar þú notar [!INCLUDE[d365fin](includes/d365fin_md.md)] sniðmát.
+7. Flæði biður þig um að velja fyrirtæki innan [!INCLUDE[d365fin](includes/d365fin_md.md)] leigjandann þíns, ásamt öllum þeim skilyrðum sem eru í gögnunum sem þú vilt hlusta á. 
 
-Nú hefur notanda tekist að tengjast gögnum sínum í Business Central og getur byrjað að byggja upp flæðið. Frekari upplýsingar eru í [gögnum um Flow](https://flow.microsoft.com/documentation/getting-started/).
+Nú hefur notanda tekist að tengjast gögnum sínum í Business Central og getur byrjað að byggja upp flæðið. 
+
+8. Til að stofna úr sniðmáti skal velja valkostinn **Stofna úr sniðmáti**.
+9. Leitaðu að sniðmáti **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**. 
+10. Veldu eitt sniðmát af listanum yfir tiltæk sniðmát.  
+    *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sölupöntun*,  
+    *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sölutilboði*,  
+    *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sölureikningi*,  
+    *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sölukreditreikningi*,  
+    *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] viðskiptavini*,  
+    *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] innkaupapöntun*,  
+    *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] innkaupareikningi*,  
+    *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] innkaupakreditreikningi*,  
+    *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] vöru*,  
+    *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] lánardrottni*,  
+    *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] færslubókarkeyrslu*,  
+    *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] færslubókarlínum*.  
+11. Flæði biður þig um velja fyrirtæki innan leigjandans [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Vegna þess að hvert skref í Flæði er óháð því næsta, getur verið að þú þurfir að skilgreina fyrirtækið mörgum sinnum þegar þú notar [!INCLUDE[d365fin_md](includes/d365fin_md.md)] sniðmát.
+12. Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sniðmátið samþættir við kerfi grunnverkflæðis í Microsoft[!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Sem þýðir að í hvert skipti sem þú notar eitt af þessum sniðmátum til að búa til flæði, er samsvarandi verkflæði búið til innan Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].  Skoðaðu verkflæðisskjöl fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+
+Frekari upplýsingar eru í [Flæðisskjöl](https://docs.microsoft.com/en-us/flow/getting-started).
 
 Fyrir úrræðaleit við Microsoft Flow sjá [Úrræðaleit samþættingar við Microsoft Flow](across-troubleshooting-how-use-financials-data-source-flow.md).
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](upload-data.md)  
-[Vinna með notendur og heimildir](ui-how-users-permissions.md)    
+[Vinna með notendur og heimildir](ui-how-users-permissions.md)   
+[Stjórna [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] vinnuflæði](across-use-workflows.md)  
+[Notandauppsetning samþykktar](across-how-to-set-up-approval-users.md)  
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Fjármál](finance.md)  
 

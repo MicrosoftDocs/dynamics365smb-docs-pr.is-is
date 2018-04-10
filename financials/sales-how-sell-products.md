@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 01/12/2018
+ms.date: 03/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b396908f9c63b63eb8eb0a3e9fd84d20cd1c6c32
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 7d1e9196e4fa4e24eb01f6a7f6b824e0c4f857ca
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="sell-products"></a>Selja vörur
@@ -33,6 +33,8 @@ Hægt er að semja við viðskiptamanninn með því að gera fyrst sölutilboð
 
 Í viðskiptaumhverfi þar sem viðskiptamaðurinn verður að greiða áður en vörur eru afhentar, til dæmis í smásölu, verður að bíða eftir greiðslukvittun fyrir vörunum áður en þær eru afhentar. Í flestum tilfellum er valið að vinna  greiðslur á innleið nokkrum vikum eftir afhendingu með því að jafna greiðslurnar við viðkomandi bókaða, ógreidda sölureikninga. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
+Í viðskiptaumhverfi þar sem viðskiptavinurinn greiðir strax, til dæmis með reiðufé, PayPal eða kreditkorti, er hægt að velja viðeigandi aðferð í reitnum **Kóði greiðslumáta** á sölureikningnum. Greiðsla er síðan skráð strax á bókuðum reikningi. Fyrir greiðsluþjónustur þarf einnig að fylla inn í reitinn **Greiðsluþjónusta**. Nánari upplýsingar eru í [Virkja greiðsluur viðskiptamanna um greiðsluþjónustur](sales-how-enable-payment-service-extensions.md).
+
 Auðvelt er að leiðrétta eða afturkalla bókaðann sölureikning sem á uppruna sinn í sölupöntun áður en hann er greiddur. Þetta er gagnlegt þegar leiðrétta á mistök eða þegar viðskiptamaðurinn biður um breytingu snemma í pöntunarferlinu. Frekari upplýsingar eru í [Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md). Ef bókaður sölureikningur er greiddur, verður að búa til sölukreditreikning til að afturkalla söluna. Fyrir frekar upplýsingar, sjá [Meðhöndlun söluvöruskila eða afturkallana](sales-how-process-sales-returns-cancellations.md).
 
 Vörurnar geta bæði verið vörur í birgðaskrá og þjónustu, gefið til kynna sem **Vara - Birgðir** og **Vara - Þjónusta** tegundir í sölulínum. Sölupantanaferlið er það sama fyrir báðar vörutegundir. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
@@ -40,7 +42,7 @@ Vörurnar geta bæði verið vörur í birgðaskrá og þjónustu, gefið til ky
 Hægt er að fylla út viðskiptamannsreitina á sölupöntunina með tveimur leiðum, eftir því hvort viðskiptamaðurinn hefur þegar verið skráður. Sjá lið 2 og 3 í eftirfarandi ferli.
 
 ## <a name="to-create-a-sales-order"></a>Sölupöntun stofnuð
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil. 
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.
 2. Í reitnum **Viðskiptamaður** er fært inn nafn núverandi viðskiptamanns.
 
     Aðrir reitir í glugganum **sölupöntun** eru nú fylltir út með stöðluðum upplýsingum um viðskiptamaður sem valinn hefur verið. Ef viðskiptamaður er ekki skráður, fylgið eftirfarandi skrefum:
@@ -87,7 +89,7 @@ Hægt er að fylla út viðskiptamannsreitina á sölupöntunina með tveimur le
 18. Í reitnum **númer** Reitnum er valin færsla til að bóka samkvæmt gildinu í reitnum **Tegund** reit.
 
     Þú skilur **nr.** reitinn eftir auðan í eftirfarandi tilvikum: – Ef línan er fyrir athugasemd. Rita athugasemdina í **Lýsing** reitinn.
-    – Ef línan er fyrir utanbirgðavöru. Veljið **Velja utanbirgðavörur** aðgerð. Frekari upplýsingar eru í [Vinna með utanbirgðavörur](inventory-how-work-nonstock-items.md).
+        - Ef línan er fyrir utanbirgðavöru. Veljið **Velja utanbirgðavörur** aðgerð. Frekari upplýsingar eru í [Vinna með utanbirgðavörur](inventory-how-work-nonstock-items.md).
 
 19. Í reitnum **Magn** er fært inn hversu margar einingar vöru, kostnaðarauka eða færslu sem línan skráir fyrir viðskiptamanninn.  
 

@@ -13,8 +13,8 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8db67d30ba18e9f7dba14b93ddf7b4de6e2b6444
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0e6310e9789e8a0f2ceaed44f1209cdcf425ef1e
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -49,12 +49,12 @@ Notandi getur gert [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín aðg
 9. Endurtaktu fyrri skref til að bæta fleiri [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnum við Power Bi-gagnalíkanið þitt.
 
    > [!NOTE]  
->    Þegar notanda hefur tekist að tengjast [!INCLUDE[d365fin](includes/d365fin_md.md)] verður hann ekki beðinn aftur um OData-vefslóð, notandanafn eða aðgangsorð.
+   >    Þegar notanda hefur tekist að tengjast [!INCLUDE[d365fin](includes/d365fin_md.md)] verður hann ekki beðinn aftur um OData-vefslóð, notandanafn eða aðgangsorð.
 
 Nú hefur notanda tekist að tengjast gögnum sínum í Business Central og getur byrjað að byggja upp PowerApp. Frekari upplýsingar eru í [PowerApps skjölum](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](upload-data.md)  
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Fjármál](finance.md)  

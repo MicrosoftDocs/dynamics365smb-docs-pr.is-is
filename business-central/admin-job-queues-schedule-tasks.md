@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05d2941d5124f333602cb2f73103389601ff3e85
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Verkraðarfærslur keyra á grundvelli heimilda. Þessar heimildir verða að le
 Verkraðarfærsluskrá er með marga reiti sem hafa þann tilgang að setja færibreytur í codeunit sem tilgreind hefur verið til keyrslu með verkröð. Þetta þýðir einnig að kóðaeiningar sem á að keyra með verkröðinni verður að tilgreina með skránni Verkraðarfærsla sem færibreytur í **OnRun** rofanum. Þetta stuðlar að auknu öryggi, þar sem þetta kemur í veg fyrir að notendur keyri tilviljanakenndar kóðaeiningar gegnum verkröðina. Þurfi notandi að senda færibreytur í skýrslu er eina leiðin til að gera það að vefja skýrslukeyrslunni í kótaeiningu sem þáttar inntaksbreyturnar og skráir þær í skýrsluna fyrir keyrslu hennar.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Uppsetning og stjórnun í Business Central](admin-setup-and-administration.md)  
+[Stjórnun](admin-setup-and-administration.md)  
 [Uppsetning Business Central](setup.md)  
 

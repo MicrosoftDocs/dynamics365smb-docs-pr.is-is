@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc317c6fefbc9f79b668c1332bbaef2fc74ed4da
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e517397fb849e84da42492aaeea36def7dd3a28
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -43,12 +43,12 @@ Til þess að hjálpa þér við að verða tilbúinn til að gera viðskipti ge
 
 Þegar búið er að keyra uppsetningu með hjálp er hún merkt sem **Lokið**. Til að keyra uppsetningu með hjálp eru þrír punktar valdir sem kallast einnig efnisvalmynd og síðan er valið **Hefja Uppsetningu**.
 
-## <a name="role-center-home-page"></a>Mitt hlutverk – heimasíða
-Á heimasíðu Míns hlutverks er yfirlit yfir fyrirtækið. Á vinstri hlið sérðu yfirlitsstiku sem veitir þér auðveldan aðgang að viðskiptavinum, lánardrottnum, vörum og svo framvegis. Í miðjunni finnurðu **aðgerðir** gluggareitina. **Aðgerðir** sýna gildandi gögn og má smella á það eða ýta til að fá einfaldan aðgang að völdum skjölum. **afkastavísir** má setja upp til að sýna valin myndrit svo fáist myndræn framsetning af, til dæmis, fjárstreymi´ og tekjum og útgjöldum. Einnig er hægt að búa til lista af **Eftirlætisviðskiptamenn** á heimasíðu Míns hlutverks fyrir reikninga sem þú ert oft í viðskiptum við eða þarft að veita sérstaka athygli.
-Notaðu örvar til að fella saman hluta síðunnar og búa til pláss til að sýna tiltekin gögn. Efst á heimasíðu Míns hlutverks er að finna allar aðgerðir sem hægt er að nota fyrir núverandi efni. Þetta er líka hægt að fella saman og þú þarft aðeins að smella eða ýta innan samanfellda svæðisins til að sjá það aftur.
+## <a name="role-center"></a>Mitt hlutverk
+Í Mínu hlutverki er yfirlit yfir fyrirtækið. Á vinstri hlið sérðu yfirlitsstiku sem veitir þér auðveldan aðgang að viðskiptavinum, lánardrottnum, vörum og svo framvegis. Í miðjunni finnurðu **aðgerðir** gluggareitina. **Aðgerðir** sýna gildandi gögn og má smella á það eða ýta til að fá einfaldan aðgang að völdum skjölum. **afkastavísir** má setja upp til að sýna valin myndrit svo fáist myndræn framsetning af, til dæmis, fjárstreymi´ og tekjum og útgjöldum. Þú getur einnig gert lista yfir **Eftirlætisviðskiptamenn** í Mínu hlutverki fyrir reikninga sem þú átt oft í viðskiptum við eða sem þarf að sýna sérstaka athygli.
+Notaðu örvar til að fella saman hluta síðunnar og búa til pláss til að sýna tiltekin gögn. Efst í Mínu hlutverki finnur þú allar aðgerðir sem hægt er að nota á núverandi efni. Þetta er líka hægt að fella saman og þú þarft aðeins að smella eða ýta innan samanfellda svæðisins til að sjá það aftur.
 
 > [!TIP]  
-> Þú getur farið aftur á Mitt hlutverk heimsíðuna með því að velja nafn fyrirtækisins í efra vinstra horninu.
+> Þú getur farið aftur í Mitt hlutverk með því að velja heiti fyrirtækisins í efra vinstra horninu.
 
 ## <a name="company-information"></a>Stofngögn
 Undir **Stillingar fyrirtækis** geturðu séð og breytt uppsetningarupplýsingum um núverandi fyrirtæki, mikið af þessu var forútfyllt hafirðu klárað **Setja upp fyrirtæki** aðstoðina með hjálp þegar þú skráðir þig í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Viljirðu breyta lógói fyrirtækis, samskiptaupplýsingum, bankastillingum, eða skattaupplýsingum, geturðu gert það úr þessum glugga.    
@@ -63,7 +63,7 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð O
 Á grundvelli yfirfærðra gagna, geturðu nú farið í að stofna nýjar sölur eða innkaupaskjöl. Nota hlutann **Mitt fyrirtæki** á þinni **heimasíðu** til að stofna á fljótlegan hátt nýjar sölutilboð, sölureikningur, sölupöntun, innkaupareikningur eða skráning greiðslna.
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vinna með notendur og heimildir](ui-how-users-permissions.md)
 

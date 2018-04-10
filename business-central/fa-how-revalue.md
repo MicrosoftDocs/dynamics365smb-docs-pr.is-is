@@ -12,8 +12,8 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5dd885d32c0ca08bdf51770669ee569c3a7a98ed
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1127c2d485ae72cc3cb27860a6189f7657756e06
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -34,7 +34,7 @@ Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum ve
 4. Valið er **Setja inn mótreikn. eigna** aðgerð. Seinni færslubókarlína er búin til fyrir mótreiknings sem er sett upp fyrir bókun uppfærslu.
 
     > [!NOTE]  
->   Skref 4 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** glugganum fyrir bókunarflokkur eigna, inniheldur reiturinn **endurmatsreikningur** debetreikning fjárhags og **Mótreikningur endurmats** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir endurmat. Nánari upplýsingar eru í setja upp bókunarflokka eigna hlutanum í [Setja Upp almennar upplýsingar um eignir](fa-how-setup-general.md).  
+    >   Skref 4 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** glugganum fyrir bókunarflokkur eigna, inniheldur reiturinn **endurmatsreikningur** debetreikning fjárhags og **Mótreikningur endurmats** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir endurmat. Nánari upplýsingar eru í setja upp bókunarflokka eigna hlutanum í [Setja Upp almennar upplýsingar um eignir](fa-how-setup-general.md).  
 5. Valið er **Bóka** aðgerðin.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Bóka niðurfærsla úr fjárhagsbók eigna
@@ -44,7 +44,7 @@ Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum ve
 4. Valið er **Setja inn mótreikn. eigna** aðgerð. Seinni færslubókarlína er búin til fyrir mótreiknings sem er sett upp fyrir bókun niðurfærslu.
 
     > [!NOTE]  
->   Skref 4 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** glugganum fyrir bókunarflokkur eigna, inniheldur reiturinn **niðurfærslureikningur** kreditreikning fjárhags og **Útgjaldareikningur niðurfærslu** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir niðurfærslur. Nánari upplýsingar eru í setja upp bókunarflokka eigna hlutanum í [Setja Upp almennar upplýsingar um eignir](fa-how-setup-general.md).
+    >   Skref 4 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** glugganum fyrir bókunarflokkur eigna, inniheldur reiturinn **niðurfærslureikningur** kreditreikning fjárhags og **Útgjaldareikningur niðurfærslu** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir niðurfærslur. Nánari upplýsingar eru í setja upp bókunarflokka eigna hlutanum í [Setja Upp almennar upplýsingar um eignir](fa-how-setup-general.md).
 5. Valið er **Bóka** aðgerðin.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Framkvæma almennt endurmat eigna
@@ -60,10 +60,10 @@ Endurmat er notað til að laga virði margra eigna, til dæmis, að almennum ve
 6. Athugaðu Stofnaðar færslur, og síðan valið **Bóka** aðgerð til að bóka bókina.
 
     > [!TIP]  
->   Ef endurmatstölurnar eru aðeins til sýnis er hægt að búa til sérstaka afskriftabók til að geyma þær í. Þá hafa þessar færslur ekki áhrif á aðrar afskriftabækur.
+    >   Ef endurmatstölurnar eru aðeins til sýnis er hægt að búa til sérstaka afskriftabók til að geyma þær í. Þá hafa þessar færslur ekki áhrif á aðrar afskriftabækur.
 
-   ## <a name="to-post-additional-acquisition-costs"></a>Bókun Viðbótarkaupverðs
-   Annar stofnkostnaður eignar er bókaður eins og upphaflegi stofnkostnaðurinn: úr innkaupareikningi eða úr eignabók. Nánari upplýsingar eru í [Komast yfir eignir](fa-how-acquire.md).  
+## <a name="to-post-additional-acquisition-costs"></a>Bókun Viðbótarkaupverðs
+Annar stofnkostnaður eignar er bókaður eins og upphaflegi stofnkostnaðurinn: úr innkaupareikningi eða úr eignabók. Nánari upplýsingar eru í [Komast yfir eignir](fa-how-acquire.md).  
 
 Ef afskriftir hafa þegar verið reiknaðar fyrir eignina er sett gátmerki í reitinn **Afskr. kaupverðs** til að annar stofnkostnaður að frádregnu hrakvirði verði afskrifaður í hlutfalli við upphæðina sem áður keypt eign hefur þegar verið afskrifuð um. Þetta tryggir að afskriftatímabilið breytist ekki.  
 
@@ -120,6 +120,6 @@ Ef þú valdir ekki gátreitinn **Afskr. þar til eignabókunardags.** glatar ei
 [Eignir](fa-manage.md)  
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

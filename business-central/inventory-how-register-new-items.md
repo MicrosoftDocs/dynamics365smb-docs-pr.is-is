@@ -12,10 +12,10 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: de2d2d49b40608b03f6285cba010261d42d98371
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: ac7664480d5a2db4642ecc2cb830c4d7022fb53b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="register-new-items"></a>Skrá nýjar vörur
@@ -74,8 +74,9 @@ Ef sama varan er keypt frá fleiri en einum lánardrottni þarf að færa inn up
 Lánardrottnarnir munu nú birtast í **Vörulisti lánardrottins** glugganum, sem þú opnar frá birgðaspjaldinu, þannig að þú getir auðveldlega valið annan lánardrottinn.
 
 ## <a name="see-also"></a>Sjá einnig
-  [Birgðir](inventory-manage-inventory.md)  
-  [Innkaup](purchasing-manage-purchasing.md)  
-  [Sala](sales-manage-sales.md)  
-  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Stofnun númeraraða](ui-create-number-series.md)  
+[Birgðir](inventory-manage-inventory.md)  
+[Innkaup](purchasing-manage-purchasing.md)  
+[Sala](sales-manage-sales.md)  
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

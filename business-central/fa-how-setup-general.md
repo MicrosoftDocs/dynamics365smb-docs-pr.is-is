@@ -10,8 +10,8 @@ ms.workload: na
 ms.date: 29/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30c60a7ec8d80270256536d9b0b80218b7fd1559
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d653021766b5d9dd4efa49e97525666e30c69450
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -33,7 +33,7 @@ Bókunarflokkar eru notaðir til að skilgreina flokka eigna. Færslur í þessu
 3. Í glugganum **eignabókunarflokkaspjald** þarf að fylla reitina út eftir þörfum.
 
     > [!NOTE]  
->   Til að ganga úr skugga um að mótreikningar fyrir mismunandi eignabókanir eru sjálfkrafa settir inn þegar þú velur **Setja inn mótreikning eigna** aðgerð í færslubókarlínum, fylgja skal næsta skref, í samræmi við uppfærslubókun.
+    >   Til að ganga úr skugga um að mótreikningar fyrir mismunandi eignabókanir eru sjálfkrafa settir inn þegar þú velur **Setja inn mótreikning eigna** aðgerð í færslubókarlínum, fylgja skal næsta skref, í samræmi við uppfærslubókun.
 4. Á flýtiflipi **Mótreikningur** í reitnum **mótreikningur uppfærslu** er valinn fjárhagsreikningurinn sem þú vilt bóka mótfærslur í fyrir uppfærslu.
 
 Nánari upplýsingar um notkun **Setja inn mótreikning eigna** aðgerð á eignafjárhagslínur skal skoða, til dæmis, [Endurmeta eignir](fa-how-revalue.md).
@@ -121,6 +121,6 @@ Ef eignirnar eru ekki samþættar fjárhag er sleppt lið 6 og 8.
 [Uppsetning eigna](fa-setup.md)  
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

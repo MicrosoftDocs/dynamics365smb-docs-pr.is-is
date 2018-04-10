@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 292231a907970de2821daeba87003eca7bf54cdc
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 696100bfbcc987b1d684e7987e7fd43979813282
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -32,5 +32,5 @@ Standandi pöntunum er ekki eytt eftir að allar tengdar innkaupapantanir hafa v
 Forritið eyðir þjónustupöntun ekki sjálfkrafa ef heildarmagn pöntunarinnar hefur verið bókað í glugganum **Þjónustureikningur** en ekki í þjónustupöntuninni sjálfri. Þá þarf að eyða bókuðum pöntunum sem ekki var búið að eyða. Hægt er að gera það með því að nota keyrsluna **Eyða reikningsfærðum þjónustupöntunum**.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Uppsetning og stjórnun í Business Central](admin-setup-and-administration.md)  
+[Stjórnun](admin-setup-and-administration.md)  
 

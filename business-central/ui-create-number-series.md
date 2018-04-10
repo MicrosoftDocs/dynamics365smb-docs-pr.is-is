@@ -2,20 +2,20 @@
 title: "Búa til númeraröð | Microsoft Docs"
 description: "Lærðu hvernig á að setja upp númeraröð sem úthlutar einstökum auðkenniskóðum til reikninga og skjala í Business Central."
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 06/02/2017
-ms.author: solsen
+ms.date: 03/27/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 151e585b0a809b1b537b52089fce297f222a60dc
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 4d7e554300f0b445816ef9dd7fb81ea54fd25bf7
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="create-number-series"></a>Stofnun númeraraða
@@ -30,14 +30,29 @@ Númerakerfi er stofnað með því að setja upp einn eða fleiri kóta fyrir h
 
 Hægt er að nota fleiri en einn númeraraðarkóta fyrir hverja tegund frumgagna með því að nota númeraraðatengsl, til dæmis til að nota mismunandi númeraraðir fyrir mismunandi vöruflokka.
 
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Hegðun nr. reitur á skjölum og kortum
+Á sölu-, innkaupa og flutningsskjölum og á öllum kortum, **Nr.** hægt að fylla út sjálfkrafa með númeraröð eða handvirkt og hægt er að setja það upp svo það verði ósýnilegt.
+
+**númer** reitinn má fylla út á þrjá vegu:
+
+1. Ef aðeins ein númeraröð fyrir gerð skjals eða korts er til staðar þar sem gátreiturinn **Sjálfgefin nr.** er valinn og gátreiturinn **Handfærð nr.röð** er ekki valinn, þá er fyllt út í reitinn sjálfkrafa fyllt með næsta númeri í röðinni, og **Nr.** reiturinn verður ekki sýnilegur.
+
+    > [!NOTE]  
+    > Ef númeraröðin virkar ekki, til dæmis vegna þess að hún hefur númerin hafa klárast, þá **Nr.** reitur verður sýnilegur og þú getur handvirkt slegið inn númer eða leyst vandann í glugganum **Listi númeraraða**.
+
+2. Ef fleiri en ein númeraröð fyrir gerð skjals eða korts eru fyrir hendi og gátreiturinn **Sjálfgefin nr.** er ekki valinn fyrir númeraröðina sem er verið að úthluta, þá **Nr.** reiturinn er sýnilegur og þú getur skoðað gluggann **Listi númeraraða** og valið númeraröðina sem þú vilt nota. Næsta númer í röðinni er síðan sett í **Nr.** .
+
+3. Ef númeraröð hefur ekki verið sett upp fyrir gerð skjals eða korts, eða ef reiturinn **Handfærð nr.röð** er valinn fyrir númeraröðina, þá **Nr.** sýnilegur og slá verður inn númer handvirkt. Mest má rita 20 stafi, bæði tölustafi og bókstafi.
+
+Þegar þú opnar nýtt skjal eða kort sem þar sem númeraröð er til staðar, þá opnast viðkomandi gluggi **Uppsetning númeraraðir** þannig að þú getir sett upp númeraröð fyrir þessa gerð skjals eða korts áður en þú heldur áfram með aðra gagnafærslu.
+
+> [!NOTE]  
+> Ef þú þarft að virkja handvirka númerun á til dæmis nýjum birgðaspjöldum sem hafa verið stofnuð með gagnaflutningsferli sem hefur falið **Nr.** sjálfgefið, þá er farið í gluggann **Uppsetning birgða** og valinn reiturinn **Vörunr.** til að opna og stilla tengda númeraröð á **Handfærð nr.röð**.
+
 ## <a name="to-create-a-new-number-series"></a>Til að búa til nýja númeraröð
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Númeraraðir** og velja svo viðeigandi tengil.
 2. Valið er **Nýtt** aðgerð.
 3. Fyllt er í reitina í nýju línunni. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-**Ábending**: Til að leyfa handvirkt færslu af númeri í nýjum kortum eða skjölum skaltu afvelja **Sjálfgefin númeraröð** gátreitinn og velja **Handvirk númeraröð** gátreitinn.
-
-Nú þegar þú býrð til nýtt kort eða skjal sem er sett upp til að nota viðkomandi númeraröð, geturðu handvirkt fylgt **Nr.** reitur með hvaða gildi sem er.  
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Til að setja upp hvar númeraröð er notuð
 Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölustaðinn. Skrefin eru svipuð fyrir önnur svæði.

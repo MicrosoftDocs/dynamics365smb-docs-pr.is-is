@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97be9460746003c2972a4c4d1f23eec9a4f39fab
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: adeb5f554014e64921cccb9dc926552a2321d333
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -26,7 +26,7 @@ Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfa
 
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)  
 [Sækja Business Central í fartækið mitt](install-mobile-app.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)

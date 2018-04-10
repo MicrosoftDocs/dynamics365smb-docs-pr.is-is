@@ -1,5 +1,6 @@
-# [Hafist handa](index.md)
-## [Lágmarkskröfur](financials-requirements.md)
+# [Velkomin(n) í Business Central](index.md)
+# [Hafist handa](product-get-started.md)
+## [Lágmarkskröfur](product-requirements.md)
 ## [Algengar spurningar](across-faq.md)
 ## [Myndbönd í algengum verkum](across-videos.md)
 ## [Yfirlit yfir Viðskiptavirkni](across-business-functionality.md)
@@ -348,6 +349,7 @@
 ## [Þjónustuafhending](service-deliver-service.md)
 
 # [Almenn viðskiptavirkni](ui-across-business-areas.md)
+## [Rekja skjalalínur](across-how-to-track-document-lines.md)
 ## [Senda fylgiskjöl í tölvupósti](ui-how-send-documents-email.md)
 ## [Bæta við lengda vörutexta](ui-how-define-ext-text.md)
 ## [Skilgreinir notandaverk](across-user-tasks.md)

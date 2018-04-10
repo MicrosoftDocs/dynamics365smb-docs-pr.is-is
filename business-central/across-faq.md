@@ -11,8 +11,8 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72fdb96907c4feeb21cdc40b4b781e75e4f1119c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -40,14 +40,14 @@ Ef spurningar vakna um [!INCLUDE[d365fin](includes/d365fin_md.md)] sem ekki er h
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Er hægt að framlengja 30 daga prufutímabilið fyrir „Nýtt Fyrirtæki“?
 Já. Ef notandi vill framlengja prufutímabilið skal hafa samband við Microsoft í 1-888-477-7989 (BNA) eða 1-800-741-9206 (Kanada). ATHUGIÐ: Það getur tekið allt að 2 virka daga að ljúka við framlengingarferlið fyrir prufutímabilið.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Kerfisstjórinn okkar hefur flutt mig í aðra áskrift til að úthluta mér öðru hlutverki, en get ég áfram skoðað sömu upphafssíðuna í [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Kerfisstjórinn okkar hefur flutt mig í aðra áætlun til að gefa mér annað hlutverk en ég sé ennþá sömu hlutverkamiðstöðina í [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Þetta er svolítið flókið, en svo virðist sem kerfisstjórinn þinn hafi ekki breytt Hlutverkamiðstöðinni þinni og úthlutað notendaflokkum sem passa við nýja leyfið. Í hnotskurn ræðst aðgangur notanda að [!INCLUDE[d365fin](includes/d365fin_md.md)] af þeirri gerð áskriftar (leyfis) sem notandi er með - sú gerð ræður heimildum og sjálfgefinni síðu Mitt hlutverk . Notandi getur breytt Hlutverkamiðstöðinni þinni handvirkt í Mínar stillingar en ef notandi er fluttur í aðra áskrift, til dæmis úr Fyrirtækjaáskrift í Áskrift fyrir hópmeðlimi, sér hann hugsanlega eldri upphafssíðu af því að heimildunum var ekki breytt.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Af hverju finn ég ekki eiginleikann í mínu [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Ertu búin(n) að lesa um nýjan eiginleika í vegakortinu eða á blogginu okkar nýlega? Ef svo er, getur verið að [!INCLUDE[d365fin](includes/d365fin_md.md)] þitt hafi ekki verið uppfært að nýjustu útgáfu enn. Ef eiginleikinn er settur fram sem viðbót í AppSource, er töf á milli þess að eiginleikinn sé kynntur og að hann sé tiltækur í AppSource.
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnhólf þitt í Outlook](admin-outlook.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] án Outlook](admin-no-outlook.md)  
 [Breyta grundvallarstillingum](ui-change-basic-settings.md)  

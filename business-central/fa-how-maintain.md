@@ -13,8 +13,8 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce4dcfdd9b68bc5725538337b7883ba5f140cd1c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 62addbd6bcf11f640749b395efc9d87550c8ee45
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -43,7 +43,7 @@ Endurmat er notað til að laga virði að almennum verðbreytingum. Hægt er a�
 7. Valið er **Setja inn mótreikn. eigna** aðgerð. Seinni færslubókarlína er búin til fyrir mótreiknings sem er sett upp fyrir bókun viðhalds.
 
     > [!NOTE]  
->   Skref 7 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** glugganum fyrir bókunarflokkur eigna, inniheldur reiturinn **Viðhaldsreikningur** debetreikning fjárhags og reiturinn **Mótreikningur viðhalds** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir uppfærslu. Nánari upplýsingar eru í setja upp bókunarflokka eigna hlutanum í [Setja Upp almennar upplýsingar um eignir](fa-how-setup-general.md).
+    >   Skref 7 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** glugganum fyrir bókunarflokkur eigna, inniheldur reiturinn **Viðhaldsreikningur** debetreikning fjárhags og reiturinn **Mótreikningur viðhalds** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir uppfærslu. Nánari upplýsingar eru í setja upp bókunarflokka eigna hlutanum í [Setja Upp almennar upplýsingar um eignir](fa-how-setup-general.md).
 8. Valið er **Bóka** aðgerðin.
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Til að fylgja eftir þjónustuheimsóknum eigna:
@@ -88,6 +88,6 @@ Hægt er einnig að sjá viðhaldskostnaðinn með því að skoða viðhaldsbó
 [Eignir](fa-manage.md)  
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

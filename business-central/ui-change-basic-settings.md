@@ -13,8 +13,8 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ee0615cd475d412f7380d6577bfa2965bb0cee9f
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -23,11 +23,11 @@ ms.lasthandoff: 03/22/2018
 Í glugganum **Stillingar mínar** er hægt að sjá og breyta grunnstillingum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="role-center"></a>Mitt hlutverk
-Mitt hlutverk táknar heimasíðu, upphafssíðu sem er hönnuð fyrir þarfir tiltekins hlutverks. Mitt hlutverk veitir þér yfirlit yfir fyrirtækið, sem endurspeglar upplýsingar, verkefni og forgangsatriði á þínu hlutverki. 
+Mitt hlutverk er upphafssíðan og er hönnuð fyrir þarfir hlutverksins. Mitt hlutverk veitir þér yfirlit yfir fyrirtækið, sem endurspeglar upplýsingar, verkefni og forgangsatriði á þínu hlutverki.
 
 Efst í Mitt hlutverk er yfirlitsstika sem veitir auðvelt aðgengi að dæmigerðum einingum hlutverksins, t.d. viðskiptavinum, lánardrottnum, vörum og svo framvegis.
 
-Það sem birtist á aðalsvæðinu fer eftir Mitt hlutverk. Til dæmis er hægt að finna aðgerðareiti í flestum Mínum hlutverkum sem sýna núgildandi gögn og má smella eða ýta á þá til að fá einfaldan aðgang að völdum skjölum. Afkastavísa má setja upp til að sýna valin myndrit svo fáist myndræn framsetning af, til dæmis, fjárstreymi´ og tekjum og útgjöldum. Mitt hlutverk gerir þér stundum kleift að búa til lista yfir eftirlætis einingar, t.d. viðskiptavini og lánardrottna, eða sýna skýrsluinnhólfið.
+Það sem birtist aðalsvæðinu fer eftir tilgreindu Mínu hlutverki. Til dæmis er hægt að finna aðgerðareiti í flestum Mínum hlutverkum sem sýna núgildandi gögn og má smella eða ýta á þá til að fá einfaldan aðgang að völdum skjölum. Afkastavísa má setja upp til að sýna valin myndrit svo fáist myndræn framsetning af, til dæmis, fjárstreymi´ og tekjum og útgjöldum. Mitt hlutverk gerir þér stundum kleift að búa til lista yfir eftirlætis einingar, t.d. viðskiptavini og lánardrottna, eða sýna skýrsluinnhólfið.
 
 ### <a name="to-change-role-center"></a>Til að breyta Mitt hlutverk
 Sjálfgefið hlutverkamiðstöð er **Viðskiptastjórnandi**, en hægt er að velja annað Hlutverk sem uppfylla þörfum betur.
@@ -41,7 +41,7 @@ Fyrirtæki virkar sem geymsluhólf fyrir gögn í [!INCLUDE[d365fin](includes/d3
 Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn.
 
 > [!TIP]  
->   Ef þú vilt birta annað nafn á fyrirtækinu þínu í umsókninni (eins og á heimasíðu Mitt hlutverk), veldu reitinn **Nafn** á síðunni **Upplýsingar um fyrirtæki** eða reitinn **Birta nafn** á síðunni **Fyrirtæki**.  
+>   Ef þú vilt birta annað heiti á fyrirtækinu þínu í umsókninni (eins og á heimasíðunni Mitt hlutverk), settu reitinn **Heiti** á síðunni **Upplýsingar um fyrirtæki** eða reitinn **Birta heiti** inn á síðuna **Fyrirtæki**.  
 
 ## <a name="work-date"></a>Vinnudagsetning
 Sjálfgefin vinnudagsetning er yfirleitt dagurinn í dag. Þú gætir þúrft að breyta tímabundið vinnudagsetningu til að framkvæma verk, eins og að klára færslur fyrir dagsetningu sem er ekki núverandi dagsetning.

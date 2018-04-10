@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 03/12/2018
+ms.date: 03/22/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7d41317f1f5e071c70dfd5ae265b046b3bea4825
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -25,7 +25,7 @@ Til dæmis er yfirlit yfir reikninga áfyllt með fjölda pósthólf sem eru til
 Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningargluggum með hjálp og handvirkum eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).
 
 > [!NOTE]
-> Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] með RapidStart Services sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Nánari upplýsingar er að finna í ## [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] með RapidStart Services sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Nánari upplýsingar er að finna í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilteknar viðskiptaferðir, handvirkt í viðbót við aðstoðaruppsetninguna. Eftirfarandi sýnir nokkrar aðgerðir sem hægt er að setja upp handvirkt.
 
@@ -59,9 +59,9 @@ Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](incl
 [Framleiðsla](production-manage-manufacturing.md)  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Uppsetning og stjórnun í [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
+[Stjórnun](admin-setup-and-administration.md)  
 [Stofna ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
-[Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

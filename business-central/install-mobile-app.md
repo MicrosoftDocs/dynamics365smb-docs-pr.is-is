@@ -1,19 +1,18 @@
 ---
 title: "Nota Business Central á fartæki | Microsoft Docs"
 description: "Þú getur skoðað og breytt  Business Central gögnum í símanum þínum eða spjaldtölvu."
-documentationcenter: 
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 06/02/2017
-ms.author: solsen
+ms.date: 03/21/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 920c5621c8a18593aee62d7281535c9a04e9b38c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f907a0d2aa0e4fcbd0b9d5d9530823033fac2bb8
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -32,6 +31,6 @@ Fá aðgang að gögnum [!INCLUDE[d365fin](includes/d365fin_md.md)] úr fartæki
 Nú ætti notandi að hafa aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)] og geta skoðað og breytt gögnum.
 
 ## <a name="see-also"></a>Sjá einnig
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

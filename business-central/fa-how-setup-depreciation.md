@@ -1,8 +1,6 @@
 ---
 title: Uppsetning eignaafskrifta| Microsoft Docs
 description: "Tiltekið er í afskriftabók hvernig þú vilt að eignir verði afskrifaðar."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 31f6dc1cc420f45209ea0e4696c6669c5b1c3570
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 01f094c5325773b2c4e9675412fce7d7a29449bd
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -32,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 3. Í glugganum **afskriftabókarspjald** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Hægt er að skrá eignafærslur í **Fjárhagsbók eigna** gluggann eða í **færslubók eigna** gluggann, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Fylgja á næsta skref til að skilgreina hvaða tegund færslubókar er notuð sjálfgefið fyrir hinum ýmsu aðgerðum eigna.
+    >   Hægt er að skrá eignafærslur í **Fjárhagsbók eigna** gluggann eða í **færslubók eigna** gluggann, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Fylgja á næsta skref til að skilgreina hvaða tegund færslubókar er notuð sjálfgefið fyrir hinum ýmsu aðgerðum eigna.
 4. Í **Samþætting** Flýtiflipanum skal velja gátreit fyrir hverja aðgerð eignar sem bóka á færslur fyrir með því að nota **Fjárhagsbók eigna** gluggann.
 5. Endurtaka skal skref 2 til 4 fyrir hverja afskriftaaðferð eða bókunaraðferð sem úthluta á á eignir sem afskriftabók.
 
@@ -44,7 +42,7 @@ ms.lasthandoff: 03/22/2018
 5. Einnig má velja aðgerðina **Afskriftabækur** til að tilgreina eina eða fleiri eigna-/afskriftabók.
 
     > [!NOTE]  
->   Þegar handvirk afskriftaaðferð er notuð verður að færa afskriftirnar handvirkt í fjárhagsfærslubók eigna. Aðgerðin **Reikna afskriftir** sleppir eignum sem handvirk afskriftaaðferð er notuð á. Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land.
+    >   Þegar handvirk afskriftaaðferð er notuð verður að færa afskriftirnar handvirkt í fjárhagsfærslubók eigna. Aðgerðin **Reikna afskriftir** sleppir eignum sem handvirk afskriftaaðferð er notuð á. Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land.
 
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Til að tengja afskriftabók við margar eignir með keyrslu
 Ef tengja á afskriftabók við nokkrar eignir er hægt að keyra **Stofna eignaafskriftabækur** runuvinnsluna til að stofna eignaafskriftabækur.  
@@ -67,9 +65,9 @@ Fyrir hverja afskriftabók þarf að stilla hvernig [!INCLUDE[d365fin](includes/
 3. Í glugganum **uppstning eignarbókunarflokks** þarf að fylla reitina út eftir þörfum.
 
     > [!NOTE]  
->   Ekki er hægt að skjóta inn eða eyða línum í glugganum **Eignabókunartegund uppsetning**. Aðeins er hægt að breyta þeim línum sem fyrir eru.
+    >   Ekki er hægt að skjóta inn eða eyða línum í glugganum **Eignabókunartegund uppsetning**. Aðeins er hægt að breyta þeim línum sem fyrir eru.
 
-    Sterklega er mælt með því að uppsetningunni fyrir afskriftarbækur sem búið er að bóka í sé ekki breytt. Breytingarnar hafa ekki áhrif á færslur sem þegar er búið að bóka og sem myndu gera tölfræðigögn afskriftarbókarinnar óáreiðanleg.
+Sterklega er mælt með því að uppsetningunni fyrir afskriftarbækur sem búið er að bóka í sé ekki breytt. Breytingarnar hafa ekki áhrif á færslur sem þegar er búið að bóka og sem myndu gera tölfræðigögn afskriftarbókarinnar óáreiðanleg.
 
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Uppsetning Sjálfgefinna sniðmáta og -keyrslna fyrir afskriftir eigna.
 Skilgreina þarf sjálfgefna uppsetningu fyrir sniðmát og keyrslur fyrir hverja afskriftabók. Þú notar þessi sjálfgildi til að afrita línur úr einni bók í aðra, búa til færslubókarlínur með því að keyra **Reikna afskrift** eða **Vísitala eigna** runuvinnslurnar, afrita kaupverð í vátryggingabókina.  
@@ -83,6 +81,6 @@ Skilgreina þarf sjálfgefna uppsetningu fyrir sniðmát og keyrslur fyrir hverj
 [Uppsetning eigna](fa-setup.md)  
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

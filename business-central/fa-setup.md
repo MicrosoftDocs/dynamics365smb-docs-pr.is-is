@@ -12,8 +12,8 @@ ms.search.keywords: machinery, buildings
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c20d4997e84db416e2103d2318533082adc04b49
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fac857ae94152104ea6640782a5f315424b739e7
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -44,6 +44,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## <a name="see-also"></a>Sjá einnig
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

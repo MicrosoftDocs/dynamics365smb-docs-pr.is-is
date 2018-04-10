@@ -13,8 +13,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25509535a04f94c00bf8ea123e36898d4eb20eb8
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -31,11 +31,11 @@ Tiltækar eru átta afskriftaaðferðir:
 * Handvirkt  
 
   > [!NOTE]  
->   Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land. Færa þarf afskriftir eigna í eignafjárhagsfærslubók. Runuvinnslan **Reikna afskriftir** sleppir eignum sem þessi afskriftaaðferð er notuð á.  
+  >   Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land. Færa þarf afskriftir eigna í eignafjárhagsfærslubók. Runuvinnslan **Reikna afskriftir** sleppir eignum sem þessi afskriftaaðferð er notuð á.  
 * Tvisvar ári  
 
   > [!NOTE]  
->    Þegar þessi aðferð er notuð er eignin afskrifuð um sömu upphæð á hverju ári.  
+  >    Þegar þessi aðferð er notuð er eignin afskrifuð um sömu upphæð á hverju ári.  
 
 ## <a name="straight-line-depreciation"></a>Beinlínuafskrift
 Þegar beinlínuaðferðin er notuð verður að tilgreina einn af eftirfarandi valkostum í eignaafskriftabókinni:  
@@ -355,6 +355,6 @@ Ef um er að ræða þrjár afskriftabækur B1, B2 og B3 og afrita á færslur �
 [Eignir](fa-manage.md)  
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

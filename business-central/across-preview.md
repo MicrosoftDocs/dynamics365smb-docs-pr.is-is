@@ -11,8 +11,8 @@ ms.search.keywords: preview, trial, sandbox
 ms.date: 01/05/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fa7d084f69765a0b274dc9d4e1f6c1a38752f3b5
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Frekari upplýsingar eru í [Nota hönnuð](https://docs.microsoft.com/en-us/dyn
 [!INCLUDE[d365fin](includes/d365fin_md.md)] býður upp á verkfæri sem þú getur notað til að framkvæma eigin viðbót og fellt inn virkni til að bæta við nýjum upplifunum frá upphafi til enda fyrir tiltekna starfsgrein eða samþætta lausnir þriðja aðila. Til dæmis getur þú notað API til að smíða tengiforrit til að skiptast á gögnum milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og launaforritsins. Tengiforrit geta einnig nýtt sér viðbætur til að búa til síður sem notaðar eru fyrir uppsetningar, stillingar eða til að styðja við tiltekna eiginleika forrits. Nánari upplýsingar eru í [Þróa forrit fyrri [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
 ##<a name="see-also"></a>Sjá einnig
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

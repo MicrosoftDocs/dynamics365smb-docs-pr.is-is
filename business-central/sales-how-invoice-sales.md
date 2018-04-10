@@ -12,10 +12,10 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e4cf02913056fd0b20bb35fd407a82b2ec8b1599
+ms.sourcegitcommit: f03cc11b5d8cb349567138604857ad3a679967cf
+ms.openlocfilehash: 34c5b47885e82e6dc2985fabb8a4c202ede9c0f9
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 
 ---
 # <a name="invoice-sales"></a>Reikningsfæra sölur
@@ -58,14 +58,16 @@ Hægt er að fylla út viðskiptamannsreitina á sölureikningnum með tveimur l
    Margir reitir í sölureikningahaus eru ný fullir af upplýsingar sem tilgreindar voru á nýja viðskiptamannaspjaldi.  
 8. Fylltu í eftirstandandi reikningana í glugganum **sölureikningur** eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-Nú er hægt að fylla út í reikningslínur fyrir vörur sem selt er viðskiptamanni eða einhverri færslu við þann viðskiptamann sem á að skrá í reikning í Fjárhag.   
+    Nú er hægt að fylla út í reikningslínur fyrir vörur sem selt er viðskiptamanni eða einhverri færslu við þann viðskiptamann sem á að skrá í reikning í Fjárhag.   
 
-Ef endurteknar sölulínur hafa verið settar upp fyrir viðskiptamanninn, svo sem mánaðarlegar endurnýjunarpantanir, er hægt að færa línuna inn í pöntunina með því að velja aðgerðina **Endurteknar sölulínur**.  
+    Ef endurteknar sölulínur hafa verið settar upp fyrir viðskiptamanninn, svo sem mánaðarlegar endurnýjunarpantanir, er hægt að færa línuna inn í pöntunina með því að velja aðgerðina **Endurteknar sölulínur**.  
 9. Á **Línur** Flýtiflipanum í **Tegund** reitnum, veldu hvaða tegund framleiðsluflokks, kostnaðarauka eða færslu þú munt bókað fyrir viðskiptamanninn með sölulínunni.
 10. Í reitnum **númer** Reitnum er valin færsla til að bóka samkvæmt gildinu í reitnum **Tegund** reit.
 
- Þú skilur **nr.** reitinn eftir auðan í eftirfarandi tilvikum: – Ef línan er fyrir athugasemd. Rita athugasemdina í **Lýsing** reitinn.
- – Ef línan er fyrir utanbirgðavöru. Veljið **Velja utanbirgðavörur** aðgerð. Frekari upplýsingar eru í [Vinna með utanbirgðavörur](inventory-how-work-nonstock-items.md).
+    Þú skilur **nr.** reitur tómur í eftirfarandi tilfellum:
+
+    * Ef línan er ætluð athugasemd. Rita athugasemdina í **Lýsing** reitinn.
+    * Ef línan er fyrir utanbirgðavöru. Veljið **Velja utanbirgðavörur** aðgerð. Frekari upplýsingar eru í [Vinna með utanbirgðavörur](inventory-how-work-nonstock-items.md).
 
 11. Í reitnum **Magn** er fært inn hversu margar einingar vöru, kostnaðarauka eða færslu sem línan skráir fyrir viðskiptamanninn.  
 

@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/02/2018
+ms.date: 03/20/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: eb0b77de0be1ac9d86750bf406f0ef2a6e9770df
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fe75b81e2eae2520c6952cf1751ee4259eb3fb68
 ms.contentlocale: is-is
 ms.lasthandoff: 03/22/2018
 
@@ -28,6 +28,7 @@ Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að 
 
 | Til | Sjá |
 | --- | --- |
+|Skoða opin, bókuð eða safnvistuð skjöl sem tengjast sölu- og innkaupapöntunarlínum.|[Rekja skjalalínur](across-how-to-track-document-lines.md)|
 | gefa upplýsingar um innihald viðskiptaskjala hratt og vel til viðskiptafélaga þinna, eins og greiðsluupplýsingar á söluskjölum til viðskiptavina. |[Senda fylgiskjöl í tölvupósti](ui-how-send-documents-email.md) |
 | Setja upp kóta fyrir staðaltexta svo hægt sé að lengja staðlaðan texta með því að bæta við línum og setja skilyrði fyrir notkun viðbótarlínanna. |[Skilgreina lengdan texta](ui-how-define-ext-text.md) |
 |Stofna verk til að minna þig á hvað þarf að gera. Þú getur búið til verkefni fyrir þig, en þú getur einnig úthlutað verkefnum til annarra eða fengið verkefni frá öðrum í fyrirtækinu þínu.|[Skilgreinir notandaverk](across-user-tasks.md)|
