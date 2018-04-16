@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9217d8707ab65d231a6759e86f6f2b2866835bb8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 26e144490fb5b33449643fe67bede8a96bc6079c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="3835c-104">Breyta áætlunartillögum í myndrænu yfirliti</span><span class="sxs-lookup"><span data-stu-id="3835c-104">Modify Planning Suggestions in a Graphical View</span></span>
@@ -59,6 +59,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="3835c-148">Til að virkja breytingar á framboðsáætluninni þarf að fylgja aðgerðarboðunum sem koma úr áætlunar- eða beiðnivinnublaðinu.</span><span class="sxs-lookup"><span data-stu-id="3835c-148">To implement the supply plan changes, you must follow the resulting action messages from the planning or requisition worksheet.</span></span> <span data-ttu-id="3835c-149">Frekari upplýsingar, sjá Framkvæma aðgerðarboðaáætlun.</span><span class="sxs-lookup"><span data-stu-id="3835c-149">For more information, see Carry Out Action Msg.-Plan..</span></span>
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a><span data-ttu-id="3835c-150">Tákn og táknmyndir í flýtiflipa tímalínu</span><span class="sxs-lookup"><span data-stu-id="3835c-150">Symbols and Icons on the Timeline FastTab</span></span>
+
  |<span data-ttu-id="3835c-151">Tákn/ táknmynd</span><span class="sxs-lookup"><span data-stu-id="3835c-151">Symbol/Icon</span></span>|<span data-ttu-id="3835c-152">Lýsing</span><span class="sxs-lookup"><span data-stu-id="3835c-152">Description</span></span>|  
  |------------------|---------------------------------------|  
  |<span data-ttu-id="3835c-153">Black cross</span><span class="sxs-lookup"><span data-stu-id="3835c-153">Black cross</span></span>|<span data-ttu-id="3835c-154">Pantanir (bæði framboð og eftirspurn).</span><span class="sxs-lookup"><span data-stu-id="3835c-154">Orders (both supply and demand).</span></span><br /><br /> <span data-ttu-id="3835c-155">-   Má ekki breyta.</span><span class="sxs-lookup"><span data-stu-id="3835c-155">-   Cannot be modified.</span></span><br /><span data-ttu-id="3835c-156">-   Sjáanleg þegar reiturinn **Sýna áætlaðar birgðir** er valinn (appelsínugult myndrit).</span><span class="sxs-lookup"><span data-stu-id="3835c-156">-   Visible when the **Show Projected Inventory** field is selected (orange graph).</span></span>|  

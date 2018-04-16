@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 5f95efb5cad24db9848752035172bc7bb76db716
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ae8ef874abd6ca3b307dcbfdb3f4700b49e6680e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="entering-data"></a><span data-ttu-id="b2c83-104">Gagnainnfærsla</span><span class="sxs-lookup"><span data-stu-id="b2c83-104">Entering Data</span></span>
@@ -75,14 +75,14 @@ ms.lasthandoff: 03/22/2018
 # <a name="entering-negative-numbers"></a><span data-ttu-id="b2c83-130">Neikvæðar tölur er færðar inn</span><span class="sxs-lookup"><span data-stu-id="b2c83-130">Entering Negative Numbers</span></span>
 <span data-ttu-id="b2c83-131">Hægt er að færa inn neikvæðar tölur eftir tveimur leiðum.</span><span class="sxs-lookup"><span data-stu-id="b2c83-131">You can enter negative numbers in two ways.</span></span> <span data-ttu-id="b2c83-132">Númerið -20.5 má færa inn sem:</span><span class="sxs-lookup"><span data-stu-id="b2c83-132">The number -20.5 can be entered as:</span></span>  
 
--   <span data-ttu-id="b2c83-133">-20.5</span><span class="sxs-lookup"><span data-stu-id="b2c83-133">-20.5</span></span>  
+- <span data-ttu-id="b2c83-133">-20.5</span><span class="sxs-lookup"><span data-stu-id="b2c83-133">-20.5</span></span>  
 
-    <span data-ttu-id="b2c83-134">Eða</span><span class="sxs-lookup"><span data-stu-id="b2c83-134">or</span></span>
--   <span data-ttu-id="b2c83-135">20.5-</span><span class="sxs-lookup"><span data-stu-id="b2c83-135">20.5-</span></span>  
+  <span data-ttu-id="b2c83-134">Eða</span><span class="sxs-lookup"><span data-stu-id="b2c83-134">or</span></span>
+- <span data-ttu-id="b2c83-135">20.5-</span><span class="sxs-lookup"><span data-stu-id="b2c83-135">20.5-</span></span>  
 
- <span data-ttu-id="b2c83-136">Í báðum tilfellum verður upphæðin skráð í  sem -20.5.</span><span class="sxs-lookup"><span data-stu-id="b2c83-136">In both cases, the amount will be recorded in as -20.5.</span></span>  
+  <span data-ttu-id="b2c83-136">Í báðum tilfellum verður upphæðin skráð í  sem -20.5.</span><span class="sxs-lookup"><span data-stu-id="b2c83-136">In both cases, the amount will be recorded in as -20.5.</span></span>  
 
- <span data-ttu-id="b2c83-137">Ef síðasti stafur segðarinnar er **+** eða **-**, mun öll segðin verða skráð með því formerki.</span><span class="sxs-lookup"><span data-stu-id="b2c83-137">If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign.</span></span> <span data-ttu-id="b2c83-138">Dæmi: **10-20+** mun gefa niðurstöðuna 10 en ekki -10.</span><span class="sxs-lookup"><span data-stu-id="b2c83-138">An example, **10-20+** will result in 10 and not -10.</span></span>  
+  <span data-ttu-id="b2c83-137">Ef síðasti stafur segðarinnar er **+** eða **-**, mun öll segðin verða skráð með því formerki.</span><span class="sxs-lookup"><span data-stu-id="b2c83-137">If the last character of the expression is a **+** or a **-**, the entire expression will be recorded with that sign.</span></span> <span data-ttu-id="b2c83-138">Dæmi: **10-20+** mun gefa niðurstöðuna 10 en ekki -10.</span><span class="sxs-lookup"><span data-stu-id="b2c83-138">An example, **10-20+** will result in 10 and not -10.</span></span>  
 
 ## <a name="entering-dates-and-times"></a><span data-ttu-id="b2c83-139">Dagsetning og tími færð inn</span><span class="sxs-lookup"><span data-stu-id="b2c83-139">Entering Dates and Times</span></span>
 <span data-ttu-id="b2c83-140">Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir dagsetningar (dagsetningarreitir).</span><span class="sxs-lookup"><span data-stu-id="b2c83-140">You can enter dates and times in all the fields that are specifically assigned to dates (date fields).</span></span> <span data-ttu-id="b2c83-141">Hægt er að færa inn dagsetningar með eða án skiltákna.</span><span class="sxs-lookup"><span data-stu-id="b2c83-141">You can enter dates with or without separators.</span></span>
@@ -93,15 +93,15 @@ ms.lasthandoff: 03/22/2018
 ### <a name="entering-dates"></a><span data-ttu-id="b2c83-144">Dagsetningar færðar inn</span><span class="sxs-lookup"><span data-stu-id="b2c83-144">Entering Dates</span></span>  
  <span data-ttu-id="b2c83-145">Í dagsetningarreit má færa inn tvær, fjórar, sex eða átta tölur:</span><span class="sxs-lookup"><span data-stu-id="b2c83-145">In a date field you can enter two, four, six, or eight digits:</span></span>  
 
--   <span data-ttu-id="b2c83-146">Ef aðeins tvær tölur eru færðar inn þá túlkar kerfið þær sem daginn og bætir við mánuði og ári vinnudagsetningar.</span><span class="sxs-lookup"><span data-stu-id="b2c83-146">If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.</span></span>  
+- <span data-ttu-id="b2c83-146">Ef aðeins tvær tölur eru færðar inn þá túlkar kerfið þær sem daginn og bætir við mánuði og ári vinnudagsetningar.</span><span class="sxs-lookup"><span data-stu-id="b2c83-146">If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.</span></span>  
 
--   <span data-ttu-id="b2c83-147">Ef færðar eru inn fjórar tölur þá túlkar kerfið þær sem daginn og mánuðinn og bætir við ári vinnudagsetningar.</span><span class="sxs-lookup"><span data-stu-id="b2c83-147">If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.</span></span>  
+- <span data-ttu-id="b2c83-147">Ef færðar eru inn fjórar tölur þá túlkar kerfið þær sem daginn og mánuðinn og bætir við ári vinnudagsetningar.</span><span class="sxs-lookup"><span data-stu-id="b2c83-147">If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.</span></span>  
 
--   <span data-ttu-id="b2c83-148">Ef sú dagsetning sem færa á inn er á bilinu 01/01/1930 til 31/12/2029 má færa árið inn í tveimur tölum; annars skal færa árið inn með fjórum tölum.</span><span class="sxs-lookup"><span data-stu-id="b2c83-148">If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.</span></span>  
+- <span data-ttu-id="b2c83-148">Ef sú dagsetning sem færa á inn er á bilinu 01/01/1930 til 31/12/2029 má færa árið inn í tveimur tölum; annars skal færa árið inn með fjórum tölum.</span><span class="sxs-lookup"><span data-stu-id="b2c83-148">If the date you want to enter is in the range 01/01/1930 through 12/31/2029, you can enter the year with two digits; otherwise, enter the year with four digits.</span></span>  
 
- <span data-ttu-id="b2c83-149">Einnig er hægt að færa inn dagsetningu sem vikudag ásamt vikunúmeri og hugsanlega ári (til dæmis Mán25 eða mán25 þýðir mánudagur í 25. viku).</span><span class="sxs-lookup"><span data-stu-id="b2c83-149">You can also enter a date as a weekday followed by a week number and, optionally, a year (for example, Mon25 or mon25 means Monday in week 25).</span></span>  
+  <span data-ttu-id="b2c83-149">Einnig er hægt að færa inn dagsetningu sem vikudag ásamt vikunúmeri og hugsanlega ári (til dæmis Mán25 eða mán25 þýðir mánudagur í 25. viku).</span><span class="sxs-lookup"><span data-stu-id="b2c83-149">You can also enter a date as a weekday followed by a week number and, optionally, a year (for example, Mon25 or mon25 means Monday in week 25).</span></span>  
 
- <span data-ttu-id="b2c83-150">Hægt er að færa inn einn af tveimur kóðum í stað sérstakrar dagsetningar.</span><span class="sxs-lookup"><span data-stu-id="b2c83-150">Instead of entering a specific date, you can enter one of two codes.</span></span>  
+  <span data-ttu-id="b2c83-150">Hægt er að færa inn einn af tveimur kóðum í stað sérstakrar dagsetningar.</span><span class="sxs-lookup"><span data-stu-id="b2c83-150">Instead of entering a specific date, you can enter one of two codes.</span></span>  
 
 |<span data-ttu-id="b2c83-151">Kóði</span><span class="sxs-lookup"><span data-stu-id="b2c83-151">Code</span></span>|<span data-ttu-id="b2c83-152">Niðurstaða</span><span class="sxs-lookup"><span data-stu-id="b2c83-152">Result</span></span>|  
 |--------------|----------------|  
@@ -202,13 +202,13 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="b2c83-252">Hér eru nokkur dæmi um hvernig nota má dagsetningarreiknireglur:</span><span class="sxs-lookup"><span data-stu-id="b2c83-252">Here are some examples of how date formulas can be used:</span></span>  
 
--   <span data-ttu-id="b2c83-253">Dagsetningarreikniregla í ítrekunartíðnireitnum í ítrekunarbókum ákvarðar hversu oft færsla í færslubókarlínu er bókuð.</span><span class="sxs-lookup"><span data-stu-id="b2c83-253">The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.</span></span>  
+- <span data-ttu-id="b2c83-253">Dagsetningarreikniregla í ítrekunartíðnireitnum í ítrekunarbókum ákvarðar hversu oft færsla í færslubókarlínu er bókuð.</span><span class="sxs-lookup"><span data-stu-id="b2c83-253">The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.</span></span>  
 
--   <span data-ttu-id="b2c83-254">Dagsetningarreikniregla í reitnum Biðtími fyrir tiltekið innheimtustig ákvarðar það tímabil sem þarf að líða frá gjalddaga (eða frá dagsetningu fyrri innheimtubréfs) áður en innheimtubréf er búið til.</span><span class="sxs-lookup"><span data-stu-id="b2c83-254">The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.</span></span>  
+- <span data-ttu-id="b2c83-254">Dagsetningarreikniregla í reitnum Biðtími fyrir tiltekið innheimtustig ákvarðar það tímabil sem þarf að líða frá gjalddaga (eða frá dagsetningu fyrri innheimtubréfs) áður en innheimtubréf er búið til.</span><span class="sxs-lookup"><span data-stu-id="b2c83-254">The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.</span></span>  
 
--   <span data-ttu-id="b2c83-255">Dagsetningarreikniregla í reitnum Gjalddagaútreikningur ákvarðar hvernig kerfið reiknar gjalddaga á innheimtubréfinu.</span><span class="sxs-lookup"><span data-stu-id="b2c83-255">The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.</span></span>  
+- <span data-ttu-id="b2c83-255">Dagsetningarreikniregla í reitnum Gjalddagaútreikningur ákvarðar hvernig kerfið reiknar gjalddaga á innheimtubréfinu.</span><span class="sxs-lookup"><span data-stu-id="b2c83-255">The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.</span></span>  
 
- <span data-ttu-id="b2c83-256">Dagsetningarreikniregla getur mest haft 20 stafi, bæði tölu- og bókstafi.</span><span class="sxs-lookup"><span data-stu-id="b2c83-256">The date calculation formula can contain a maximum of 20 characters, both numbers and letters.</span></span> <span data-ttu-id="b2c83-257">Hægt er að nota eftirfarandi stafi sem skammstafanir fyrir tiltekinn tíma.</span><span class="sxs-lookup"><span data-stu-id="b2c83-257">You can use the following letters, which are abbreviations for time specifications.</span></span>  
+  <span data-ttu-id="b2c83-256">Dagsetningarreikniregla getur mest haft 20 stafi, bæði tölu- og bókstafi.</span><span class="sxs-lookup"><span data-stu-id="b2c83-256">The date calculation formula can contain a maximum of 20 characters, both numbers and letters.</span></span> <span data-ttu-id="b2c83-257">Hægt er að nota eftirfarandi stafi sem skammstafanir fyrir tiltekinn tíma.</span><span class="sxs-lookup"><span data-stu-id="b2c83-257">You can use the following letters, which are abbreviations for time specifications.</span></span>  
 
 |||  
 |-|-|  

@@ -13,10 +13,10 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: f2ab1e60eb826b93a1b8b7ae354bcadfa0fafd62
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 6b196839db87a40308bab69da255092222df8a4b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="count-adjust-and-reclassify-inventory"></a><span data-ttu-id="923ce-103">Talning, breytingar og endurflokkun birgða</span><span class="sxs-lookup"><span data-stu-id="923ce-103">Count, Adjust, and Reclassify Inventory</span></span>
@@ -99,7 +99,7 @@ ms.lasthandoff: 03/22/2018
     <span data-ttu-id="923ce-173">Viðeigandi reitir eru uppfærðir í samræmi við það.</span><span class="sxs-lookup"><span data-stu-id="923ce-173">The related fields are updated accordingly.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="923ce-174">Ef við raunbirgðatalningu kemur í ljós munur vegna vara hafi verið bókaðar með röngum birgðageymslukótum er munurinn ekki færður inn í raunbirgðabókina.</span><span class="sxs-lookup"><span data-stu-id="923ce-174">If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal.</span></span> <span data-ttu-id="923ce-175">Í staðinn skal nota endurflokkunarbók eða millifærslupöntun til að beina vörunum á rétta staði.</span><span class="sxs-lookup"><span data-stu-id="923ce-175">Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations.</span></span> <span data-ttu-id="923ce-176">Frekari upplýsingar, sjá Birgðafærslubók enduflokkunar eða Stofna Millifærslupantanir.</span><span class="sxs-lookup"><span data-stu-id="923ce-176">For more information, see Item Reclass. Journal or Create Transfer Orders.</span></span>
+   >   <span data-ttu-id="923ce-174">Ef við raunbirgðatalningu kemur í ljós munur vegna vara hafi verið bókaðar með röngum birgðageymslukótum er munurinn ekki færður inn í raunbirgðabókina.</span><span class="sxs-lookup"><span data-stu-id="923ce-174">If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal.</span></span> <span data-ttu-id="923ce-175">Í staðinn skal nota endurflokkunarbók eða millifærslupöntun til að beina vörunum á rétta staði.</span><span class="sxs-lookup"><span data-stu-id="923ce-175">Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations.</span></span> <span data-ttu-id="923ce-176">Frekari upplýsingar, sjá Birgðafærslubók enduflokkunar eða Stofna Millifærslupantanir.</span><span class="sxs-lookup"><span data-stu-id="923ce-176">For more information, see Item Reclass. Journal or Create Transfer Orders.</span></span>
 
 2. <span data-ttu-id="923ce-177">Til að leiðrétta reiknað magn í raunverulegt talið magn skal velja aðgerðina **Bóka**.</span><span class="sxs-lookup"><span data-stu-id="923ce-177">To adjust the calculated quantities to the actual counted quantities, choose the **Post** action.</span></span>
 
@@ -134,7 +134,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="923ce-200">Birgðatalningatímabilin sem á að nota eru sett upp og síðan er einu slíku úthlutað á hverja vöru.</span><span class="sxs-lookup"><span data-stu-id="923ce-200">You set up the inventory counting periods that you want to use and then assign one to each item.</span></span> <span data-ttu-id="923ce-201">Þegar raunbirgðir eru taldar og aðgerðin **Reikna talningatímabil** er notuð í raunbirgðabók eru línur fyrir vörurnar búnar til sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="923ce-201">When you perform a physical inventory and use the **Calculate Counting Period** in the physical inventory journal, lines for the items are created automatically.</span></span>
 
 1. <span data-ttu-id="923ce-202">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Talningartímabil raunbirgða** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="923ce-202">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Invt. Counting Periods**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="923ce-203">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="923ce-203">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="923ce-203">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="923ce-203">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a><span data-ttu-id="923ce-204">Talningatímabili úthlutað á vöru</span><span class="sxs-lookup"><span data-stu-id="923ce-204">To assign a counting period to an item</span></span>  
 1. <span data-ttu-id="923ce-205">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="923ce-205">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>  
@@ -180,7 +180,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="923ce-240">Ef birgðabókin er oft notuð til að bóka sömu eða svipaðar færslubókarlínur, til dæmis í tengslum við efnisnotkun, er hægt að nota **Stöðluðu birgðabókina** til að auðvelda þessa endurteknu vinnu.</span><span class="sxs-lookup"><span data-stu-id="923ce-240">If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** window to make this recurring work easier.</span></span> <span data-ttu-id="923ce-241">Frekari upplýsingar, sjá hlutann „Staðlaðar færslubækur“ [Unnið með almennar færslubækur](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="923ce-241">For more information, see the "Standard Journals" section in [Working with General Journals](ui-work-general-journals.md).</span></span>
 
 1. <span data-ttu-id="923ce-242">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðafærslubækur** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="923ce-242">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journals**, and then choose the related link.</span></span>
-2. <span data-ttu-id="923ce-243">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="923ce-243">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="923ce-243">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="923ce-243">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="923ce-244">Veljið aðgerðina **bóka** til að gera birgðaleiðréttingarnar.</span><span class="sxs-lookup"><span data-stu-id="923ce-244">Choose the **Post** action to make the inventory adjustments.</span></span>
 
 > [!NOTE]  

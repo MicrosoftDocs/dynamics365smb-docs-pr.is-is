@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 6f6ec5d60325ecfdad3c7fb29cf2208b0d1aa557
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a><span data-ttu-id="d3400-104">Um umreikning staðalkostnaðar</span><span class="sxs-lookup"><span data-stu-id="d3400-104">About Calculating Standard Cost</span></span>
@@ -80,8 +80,8 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="d3400-167">Hraði hverrar tímagerðar fyrir hverja vél eða vinnustöð er settur upp á sérstakri leið.</span><span class="sxs-lookup"><span data-stu-id="d3400-167">You set up the rates for each time type for each machine or work center on an individual routing.</span></span>  
 
-> [!NOTE]  
-    >  <span data-ttu-id="d3400-168">Keyrslutímahraði gildir fyrir hverja vörueiningu sem framleidd er, en uppsetningartímahraði gildir fyrir hverja lotu.</span><span class="sxs-lookup"><span data-stu-id="d3400-168">While run time rates apply for each item unit that is produced, the setup time rates apply for each lot.</span></span> <span data-ttu-id="d3400-169">Þess vegna þarf að deila leiðaruppsetningartíma hverrar aðgerðar yfir lotustærðina.</span><span class="sxs-lookup"><span data-stu-id="d3400-169">Therefore, you must prorate the routing setup time for each operation over the lot size.</span></span> <span data-ttu-id="d3400-170">Lotustærðin er tilgreind í samsvarandi reit á flýtiflipanum **Pantanir** á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="d3400-170">You specify the lot size in the corresponding field on the **Ordering** FastTab of the item card.</span></span>  
+> [!NOTE]
+>  <span data-ttu-id="d3400-168">Keyrslutímahraði gildir fyrir hverja vörueiningu sem framleidd er, en uppsetningartímahraði gildir fyrir hverja lotu.</span><span class="sxs-lookup"><span data-stu-id="d3400-168">While run time rates apply for each item unit that is produced, the setup time rates apply for each lot.</span></span> <span data-ttu-id="d3400-169">Þess vegna þarf að deila leiðaruppsetningartíma hverrar aðgerðar yfir lotustærðina.</span><span class="sxs-lookup"><span data-stu-id="d3400-169">Therefore, you must prorate the routing setup time for each operation over the lot size.</span></span> <span data-ttu-id="d3400-170">Lotustærðin er tilgreind í samsvarandi reit á flýtiflipanum **Pantanir** á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="d3400-170">You specify the lot size in the corresponding field on the **Ordering** FastTab of the item card.</span></span>  
 
 <span data-ttu-id="d3400-171">Til að tilgreina uppsetningartíma á leiðinni fyrir áætlun en ekki taka þessi útgjöld með í stöðluðum kostnaðarútreikningi skal hreinsa reitinn **Kostnaður með uppsetningu** í glugganum **Framleiðsluuppsetning**.</span><span class="sxs-lookup"><span data-stu-id="d3400-171">To specify setup time on the routing for planning but not include this expense in the standard cost calculation, clear the **Cost Incl. Setup** field in the **Manufacturing Setup** window.</span></span>  
 

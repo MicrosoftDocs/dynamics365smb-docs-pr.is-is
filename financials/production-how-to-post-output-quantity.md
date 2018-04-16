@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: e885149e28c2e09dc244bc5c0a431e7b2fe047a5
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: dea3fa173e1f3a73abac1b22ea111ab5cf5b3a22
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="batch-post-output-and-run-times"></a><span data-ttu-id="031bc-103">Fjöldabóka frálag og keyrslutíma</span><span class="sxs-lookup"><span data-stu-id="031bc-103">Batch Post Output and Run Times</span></span>
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a><span data-ttu-id="031bc-106">Bóka frálagsmagn fyrir eina eða fleiri framleiðslupantanalínur</span><span class="sxs-lookup"><span data-stu-id="031bc-106">To post output quantities for one or more production order lines</span></span>
 1. <span data-ttu-id="031bc-107">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **frálagsbók** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="031bc-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Output Journal**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="031bc-108">Reitirnir eru fylltir út með framleiðslupöntunargögnunum og frálagsgögnunum.</span><span class="sxs-lookup"><span data-stu-id="031bc-108">Fill in the fields with the production order data and the output data.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="031bc-108">Reitirnir eru fylltir út með framleiðslupöntunargögnunum og frálagsgögnunum.</span><span class="sxs-lookup"><span data-stu-id="031bc-108">Fill in the fields with the production order data and the output data.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="031bc-109">Ef aðgerðinni er lokið skal velja reitinn **Lokið**.</span><span class="sxs-lookup"><span data-stu-id="031bc-109">If the operation has been completed, select the **Finished** field.</span></span>  
 
     <span data-ttu-id="031bc-110">Ef vöruhúsið þar sem ganga á frá vörunum notar hólf en krefst ekki frágangsvinnslu skal  tengja kóta hólfs við bókarlínuna til að tilgreina hvar skuli setja vörurnar í vöruhúsinu.</span><span class="sxs-lookup"><span data-stu-id="031bc-110">If the warehouse location where the items should be put away uses bins but does not require put-away processing,  assign a bin code to the journal line to specify where the items should be placed in the warehouse.</span></span> <span data-ttu-id="031bc-111">Frekari upplýsingar eru í [Ganga frá framleiðslu eða samsetningarúttaki](warehouse-how-to-put-away-production-output.md).</span><span class="sxs-lookup"><span data-stu-id="031bc-111">For more information, see [Put Away Production or Assembly Output](warehouse-how-to-put-away-production-output.md).</span></span>  

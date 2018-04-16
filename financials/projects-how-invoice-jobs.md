@@ -13,10 +13,10 @@ ms.search.keywords: project invoice
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4c00ce50f70cbae3ad0557f0703e80f6b115995a
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: b830629d80b4bef9bbcd581336b20cfa397f83ad
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="invoice-jobs"></a><span data-ttu-id="84b55-103">Reikningsfærsla verka</span><span class="sxs-lookup"><span data-stu-id="84b55-103">Invoice Jobs</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="84b55-113">Í glugganum **Verk** er hægt að reikningsfæra til viðskiptamanns með því að velja verkið og velja svo aðgerðina **Stofna sölureikning verks**.</span><span class="sxs-lookup"><span data-stu-id="84b55-113">From the **Jobs** window, you can invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action.</span></span> <span data-ttu-id="84b55-114">Eftirfarandi ferli sýnir hvernig á að nota keyrslu til að reikningsfæra fleiri verk.</span><span class="sxs-lookup"><span data-stu-id="84b55-114">The following procedure shows how to use a batch job to invoice multiple jobs.</span></span>  
 
 1. <span data-ttu-id="84b55-115">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk stofna Innkaupareikningur** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="84b55-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Create Sales Invoice**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="84b55-116">Fyllið inn í svæðin eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="84b55-116">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="84b55-116">Fyllið inn í svæðin eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="84b55-116">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="84b55-117">Ef takmarka á verk sem keyrslan á að vinna skal tilgreina afmarkanir.</span><span class="sxs-lookup"><span data-stu-id="84b55-117">Set filters if you want to limit the jobs that the batch job will process.</span></span>
 4. <span data-ttu-id="84b55-118">Velja hnappinn **Í lagi** til að stofna reikningana.</span><span class="sxs-lookup"><span data-stu-id="84b55-118">Choose the **OK** button to create the invoices.</span></span>  
 

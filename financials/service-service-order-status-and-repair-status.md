@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 21f4a6fc048688858cad77fb3d306fb39bd5620c
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 3852ca5399a932705216fe6089644838aa56d26b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="service-order-status-and-repair-status"></a><span data-ttu-id="8603a-104">Þjónustupöntunarstaða og viðgerðarstaða</span><span class="sxs-lookup"><span data-stu-id="8603a-104">Service Order Status and Repair Status</span></span>
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="8603a-110">Staða þjónustupöntunar sem allar viðgerðarstöður tengjast.</span><span class="sxs-lookup"><span data-stu-id="8603a-110">The service order status that each repair status is linked to.</span></span> <span data-ttu-id="8603a-111">Frekari upplýsingar eru í Þjónustupöntunarstaða.</span><span class="sxs-lookup"><span data-stu-id="8603a-111">For more information, see Service Order Status.</span></span>  
 * <span data-ttu-id="8603a-112">Forgangsröð fyrir hvern valkost þjónustupöntunarstöðu.</span><span class="sxs-lookup"><span data-stu-id="8603a-112">The level of priority of each service order status option.</span></span> <span data-ttu-id="8603a-113">Frekari upplýsingar eru í Forgangur.</span><span class="sxs-lookup"><span data-stu-id="8603a-113">For more information, see Priority.</span></span>  
   
- <span data-ttu-id="8603a-114">Þegar þjónustutilboði er breytt í þjónustupöntun breytir kerfið viðgerðarstöðu hverrar þjónustuvöru í pöntuninni í **Byrjun** og stöðu þjónustupöntunar í **Í undirbúningi**.</span><span class="sxs-lookup"><span data-stu-id="8603a-114">When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.</span></span>  
+  <span data-ttu-id="8603a-114">Þegar þjónustutilboði er breytt í þjónustupöntun breytir kerfið viðgerðarstöðu hverrar þjónustuvöru í pöntuninni í **Byrjun** og stöðu þjónustupöntunar í **Í undirbúningi**.</span><span class="sxs-lookup"><span data-stu-id="8603a-114">When you convert a service quote to a service order, the repair status of each service item is changed in the order to **Initial** and the service order status is changed to **Pending**.</span></span>  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a><span data-ttu-id="8603a-115">Þjónustupöntunarstaða tilgreind fyrir viðgerðarstöðu</span><span class="sxs-lookup"><span data-stu-id="8603a-115">Specifying Service Order Status for Repair Status</span></span>  
 <span data-ttu-id="8603a-116">Hver viðgerðarstaða er tengt tiltekinni þjónustupöntunarstöðu.</span><span class="sxs-lookup"><span data-stu-id="8603a-116">Each repair status is linked to a particular service order status.</span></span> <span data-ttu-id="8603a-117">Valkostirnir fyrir þjónustupöntunarstöðuna eru **Í undirbúningi**, **Í vinnslu**, **Bið** og **Lokið**.</span><span class="sxs-lookup"><span data-stu-id="8603a-117">The options for the service order status are as follows: **Pending**, **In Process**, **On Hold**, and **Finished**.</span></span> <span data-ttu-id="8603a-118">Viðgerðarstöðuvalkostir eru eftirfarandi: **Byrjun**, **Í vinnslu**, **Verki vísað**, **Hluta þjónustu lokið**, **Tilboði lokið**, **Beðið eftir viðskiptavini**, **Varahlutur pantaður**, **Varahlutur móttekinn** og **Lokið**.</span><span class="sxs-lookup"><span data-stu-id="8603a-118">The repair status options are as follows: **Initial**, **In Process**, **Referred**, **Partly Serviced**, **Quote Finished**, **Waiting for Customer**, **Spare Part Ordered**, **Spare Part Received**, and **Finished**.</span></span>  

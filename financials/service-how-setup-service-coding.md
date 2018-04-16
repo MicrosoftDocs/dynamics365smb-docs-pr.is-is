@@ -13,10 +13,10 @@ ms.search.keywords: service, service item, service order, repairs, maintenance
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2d617fa06ea18d6e74f473600020f14d8f286d98
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 285bb1378cbaa565c49dd386ca70e9746407438e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 
@@ -28,12 +28,12 @@ ms.lasthandoff: 03/22/2018
   
 ## <a name="to-set-up-a-standard-service-code"></a><span data-ttu-id="7b78b-113">Uppsetning staðlaðra þjónustukóta</span><span class="sxs-lookup"><span data-stu-id="7b78b-113">To set up a standard service code</span></span>    
 1. <span data-ttu-id="7b78b-114">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **staðlaður þjónustukóði** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="7b78b-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Service Codes**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="7b78b-115">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="7b78b-115">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. <span data-ttu-id="7b78b-116">Fylla út þjónustulínur tengdar þessum þjónustukóta.</span><span class="sxs-lookup"><span data-stu-id="7b78b-116">Fill in the service lines linked to this service code.</span></span>  
+2. <span data-ttu-id="7b78b-115">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="7b78b-115">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="7b78b-116">Fylla út þjónustulínur tengdar þessum þjónustukóta.</span><span class="sxs-lookup"><span data-stu-id="7b78b-116">Fill in the service lines linked to this service code.</span></span>  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a><span data-ttu-id="7b78b-117">Stöðluðum þjónustukóta úthlutað til þjónustuvöruhóps</span><span class="sxs-lookup"><span data-stu-id="7b78b-117">To assign a standard service code to a service item group</span></span>
 1. <span data-ttu-id="7b78b-118">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuvöruflokkar** eða Tilföng og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="7b78b-118">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Service item Groups**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="7b78b-119">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="7b78b-119">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="7b78b-119">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="7b78b-119">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="7b78b-120">Fylla út þjónustulínur tengdar þessum þjónustukóta.</span><span class="sxs-lookup"><span data-stu-id="7b78b-120">Fill in the service lines linked to this service code.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="7b78b-121">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="7b78b-121">See Also</span></span>

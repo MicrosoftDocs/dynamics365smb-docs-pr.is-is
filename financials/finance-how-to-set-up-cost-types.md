@@ -13,10 +13,10 @@ ms.search.keywords: cost types, general ledger, accounts
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 945a60af52eec7fb4f00842acdac42472d735a12
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c89170fd159428d771df105ca16a1d91d29651e4
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-cost-types"></a><span data-ttu-id="0723e-103">Uppsetning kostnaðargerða</span><span class="sxs-lookup"><span data-stu-id="0723e-103">Set Up Cost Types</span></span>
@@ -35,17 +35,17 @@ ms.lasthandoff: 03/22/2018
     >  <span data-ttu-id="0723e-119">Aðgerðin **Skrá kostnaðargerðir í bókhaldslyklinum** uppfærir samband milli bókhaldslykils og bókhaldslykils fyrir kostnaðartegundir.</span><span class="sxs-lookup"><span data-stu-id="0723e-119">The **Register Cost Types in Chart of Accounts** function updates the relationship between the chart of accounts and the chart of cost types.</span></span> <span data-ttu-id="0723e-120">**númer**</span><span class="sxs-lookup"><span data-stu-id="0723e-120">The **No.**</span></span> <span data-ttu-id="0723e-121"> svæðið er fyllt og staðfest til að tryggja að hver almennur fjárhagsreikningur tengist aðeins einni tegund kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="0723e-121">field is filled and verified to make sure that each general ledger account is related to only one cost type.</span></span> <span data-ttu-id="0723e-122">Aðgerðin keyrir sjálfkrafa áður en fjárhagsfærslur eru færðar í kostnaðarbókhald.</span><span class="sxs-lookup"><span data-stu-id="0723e-122">The function runs automatically before transferring general ledger entries to cost accounting.</span></span>  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a><span data-ttu-id="0723e-123">Til að setja upp nýjar kostnaðargerðir í glugganum Myndrit fyrir kostnaðargerðir.</span><span class="sxs-lookup"><span data-stu-id="0723e-123">To set up new cost types in the Chart of Cost Types window</span></span>  
-1.  <span data-ttu-id="0723e-124">Opna gluggann **myndrit yfir kostnaðargerðir** í breytingarstillingu.</span><span class="sxs-lookup"><span data-stu-id="0723e-124">Open the **Chart of Cost Types** window in edit mode.</span></span>  
-2.  <span data-ttu-id="0723e-125">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="0723e-125">Fill in the fields as described as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. <span data-ttu-id="0723e-124">Opna gluggann **myndrit yfir kostnaðargerðir** í breytingarstillingu.</span><span class="sxs-lookup"><span data-stu-id="0723e-124">Open the **Chart of Cost Types** window in edit mode.</span></span>  
+2. <span data-ttu-id="0723e-125">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="0723e-125">Fill in the fields as described as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  <span data-ttu-id="0723e-126">Hægt er að setja upp og viðhalda kostnaðargerðum í glugganum **Kostnaðargerð spjald** eða í glugganum **Myndrit yfir kostnaðargerðir**.</span><span class="sxs-lookup"><span data-stu-id="0723e-126">You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window.</span></span> <span data-ttu-id="0723e-127">Í þessu ferli eru settar upp kostnaðartegundir í glugganum **Myndrit yfir kostnaðargerðir**.</span><span class="sxs-lookup"><span data-stu-id="0723e-127">In this procedure, you set up cost types in the **Chart of Cost Types** window.</span></span>
+   > [!NOTE]  
+   >  <span data-ttu-id="0723e-126">Hægt er að setja upp og viðhalda kostnaðargerðum í glugganum **Kostnaðargerð spjald** eða í glugganum **Myndrit yfir kostnaðargerðir**.</span><span class="sxs-lookup"><span data-stu-id="0723e-126">You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window.</span></span> <span data-ttu-id="0723e-127">Í þessu ferli eru settar upp kostnaðartegundir í glugganum **Myndrit yfir kostnaðargerðir**.</span><span class="sxs-lookup"><span data-stu-id="0723e-127">In this procedure, you set up cost types in the **Chart of Cost Types** window.</span></span>
 
-3.  <span data-ttu-id="0723e-128">Þegar búið er að stofna öll kostnaðargerðir, skal velja aðgerðina **Draga inn kostnaðargerðir**.</span><span class="sxs-lookup"><span data-stu-id="0723e-128">After you have created all cost types, choose the **Indent Cost Types** action.</span></span> <span data-ttu-id="0723e-129">Í svarglugganum, veljið hnappinn **Já**.</span><span class="sxs-lookup"><span data-stu-id="0723e-129">In the dialog box, choose the **Yes** button.</span></span>  
-4.  <span data-ttu-id="0723e-130">Tengja nýju tegund kostnaðar í samsvarandi almennan fjárhagslykil.</span><span class="sxs-lookup"><span data-stu-id="0723e-130">Link the new cost type to the corresponding general ledger account.</span></span>  
+3. <span data-ttu-id="0723e-128">Þegar búið er að stofna öll kostnaðargerðir, skal velja aðgerðina **Draga inn kostnaðargerðir**.</span><span class="sxs-lookup"><span data-stu-id="0723e-128">After you have created all cost types, choose the **Indent Cost Types** action.</span></span> <span data-ttu-id="0723e-129">Í svarglugganum, veljið hnappinn **Já**.</span><span class="sxs-lookup"><span data-stu-id="0723e-129">In the dialog box, choose the **Yes** button.</span></span>  
+4. <span data-ttu-id="0723e-130">Tengja nýju tegund kostnaðar í samsvarandi almennan fjárhagslykil.</span><span class="sxs-lookup"><span data-stu-id="0723e-130">Link the new cost type to the corresponding general ledger account.</span></span>  
 
-    > [!IMPORTANT]  
-    >  <span data-ttu-id="0723e-131">Ef skilgreiningar hafa verið færðar í **Samtala** reitina fyrir línutegundina **Loka-upphæð** áður en aðgerðin **Inndráttur kostnaðargerða** er framkvæmd þarf að færa skilgreiningarnar inn aftur því að aðgerðin skrifar yfir gildin í öllum **Loka-Upphæð**-reitum.</span><span class="sxs-lookup"><span data-stu-id="0723e-131">If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.</span></span>  
+   > [!IMPORTANT]  
+   >  <span data-ttu-id="0723e-131">Ef skilgreiningar hafa verið færðar í **Samtala** reitina fyrir línutegundina **Loka-upphæð** áður en aðgerðin **Inndráttur kostnaðargerða** er framkvæmd þarf að færa skilgreiningarnar inn aftur því að aðgerðin skrifar yfir gildin í öllum **Loka-Upphæð**-reitum.</span><span class="sxs-lookup"><span data-stu-id="0723e-131">If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.</span></span>  
 
 ## <a name="to-update-cost-types"></a><span data-ttu-id="0723e-132">Til að uppfæra kostnaðargerðir</span><span class="sxs-lookup"><span data-stu-id="0723e-132">To update cost types</span></span>  
 1.  <span data-ttu-id="0723e-133">Í glugganum **Uppsetning kostnaðarbókhalds** skal velja hvort uppfæra eigi myndrit yfir kostnaðartegundir sjálfkrafa þegar bókhaldslykillinn breytist.</span><span class="sxs-lookup"><span data-stu-id="0723e-133">In the **Cost Accounting Setup** window, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.</span></span>  

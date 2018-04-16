@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 61ad86f72f86cd9f6e1667dac445bfaa930d339f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ec586482ca074a11183a53faf7368ed357a21355
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-base-calendars"></a><span data-ttu-id="54b6d-104">Setja upp grunndagatöl</span><span class="sxs-lookup"><span data-stu-id="54b6d-104">Set Up Base Calendars</span></span>
@@ -106,12 +106,12 @@ ms.lasthandoff: 03/22/2018
 2.  <span data-ttu-id="54b6d-178">Opna spjaldið **Viðskiptamaður** sem fær úthlutað grunndagatali.</span><span class="sxs-lookup"><span data-stu-id="54b6d-178">Open the **Customer** card for whom you will assign a base calendar.</span></span>  
 3.  <span data-ttu-id="54b6d-179">Á flýtiflipanum **Afhending**, í reitnum **Kóti grunndagatals**, er valið er það grunndagatal sem á að úthluta.</span><span class="sxs-lookup"><span data-stu-id="54b6d-179">On the **Shipping** FastTab, in the **Base Calendar Code** field, select the base calendar that you want to assign.</span></span>  
 
-> [!IMPORTANT]  
->  -   <span data-ttu-id="54b6d-180">Ef fyrirtæki er ekki úthlutað grunndagatali reiknar kerfið alla daga út sem virka daga.</span><span class="sxs-lookup"><span data-stu-id="54b6d-180">If you do not assign a base calendar to a company, all dates are calculated as working days.</span></span>  
-> -   <span data-ttu-id="54b6d-181">Ef engin birgðastöð er tilgreind á pöntunarlínu reiknar kerfið alla daga út sem virka daga.</span><span class="sxs-lookup"><span data-stu-id="54b6d-181">If you enter a blank location on an order line, all dates are calculated as working days.</span></span>  
-> -   <span data-ttu-id="54b6d-182">Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageymsluna hefur áhrif á það hvernig dagsetningarnar eru reiknaðar út og sléttaðar til virkra daga.</span><span class="sxs-lookup"><span data-stu-id="54b6d-182">Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.</span></span>
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - <span data-ttu-id="54b6d-180">Ef fyrirtæki er ekki úthlutað grunndagatali reiknar kerfið alla daga út sem virka daga.</span><span class="sxs-lookup"><span data-stu-id="54b6d-180">If you do not assign a base calendar to a company, all dates are calculated as working days.</span></span>  
+>   -   <span data-ttu-id="54b6d-181">Ef engin birgðastöð er tilgreind á pöntunarlínu reiknar kerfið alla daga út sem virka daga.</span><span class="sxs-lookup"><span data-stu-id="54b6d-181">If you enter a blank location on an order line, all dates are calculated as working days.</span></span>  
+>   -   <span data-ttu-id="54b6d-182">Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageymsluna hefur áhrif á það hvernig dagsetningarnar eru reiknaðar út og sléttaðar til virkra daga.</span><span class="sxs-lookup"><span data-stu-id="54b6d-182">Any base calendar defined for the vendor or the location affects how the dates are calculated and rounded to working days.</span></span>
+> 
+> [!NOTE]
 >  <span data-ttu-id="54b6d-183">Ekki er hægt að búa til sérsniðnar dagatalsfærslur fyrr en fyrirtækinu hefur verið úthlutað grunndagatal.</span><span class="sxs-lookup"><span data-stu-id="54b6d-183">Before you can make customized calendar entries, you must first assign a base calendar to the company.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="54b6d-184">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="54b6d-184">See Also</span></span>

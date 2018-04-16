@@ -11,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ecff2e9e0705055a514f1726b3223f8196300cb6
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 337c76b92b579f4f7a69f5fe895cc589df7e94cc
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a><span data-ttu-id="cf1bf-103">Setja upp söluferla tækifæris og söluþrep</span><span class="sxs-lookup"><span data-stu-id="cf1bf-103">Set Up Opportunity Sales Cycles and Cycle Stages</span></span>
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a><span data-ttu-id="cf1bf-113">Uppsetning söluferlakóða tækifæris</span><span class="sxs-lookup"><span data-stu-id="cf1bf-113">To set up opportunity sales cycle codes</span></span>
 1. <span data-ttu-id="cf1bf-114">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Söluferli** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="cf1bf-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Cycles**, and then choose the related link.</span></span> <span data-ttu-id="cf1bf-115">**Söluferli** glugganum opnast og birtir lista yfir öll fyrirliggjandi söluferlum.</span><span class="sxs-lookup"><span data-stu-id="cf1bf-115">The **Sales Cycles** window opens, and lists all the existing sales cycles.</span></span>
-2. <span data-ttu-id="cf1bf-116">Valið er **Nýtt** aðgerð og fyllt er inn í reitina eins og þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="cf1bf-116">Choose the **New** action, and fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="cf1bf-116">Valið er **Nýtt** aðgerð og fyllt er inn í reitina eins og þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="cf1bf-116">Choose the **New** action, and fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 <span data-ttu-id="cf1bf-117">Þessi skref eru endurtekin til að setja upp eins mörg söluferli og óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="cf1bf-117">Repeat these steps to set up as many sales cycles as you want.</span></span> <span data-ttu-id="cf1bf-118">Þegar söluferli tækifæra hafa verið settir upp gæti verið ráðlegt að setja upp mismunandi þrep innan hvers ferils.</span><span class="sxs-lookup"><span data-stu-id="cf1bf-118">After you have set up opportunity sales cycles, you may want to set up the different stages within each cycle.</span></span>
 

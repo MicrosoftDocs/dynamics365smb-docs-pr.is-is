@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5c802ee014df6c992a9e5b1e975f2cdc981e3a5a
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: bf5c4f7c90cc627e08b582255f6dd3c174f77cd0
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a><span data-ttu-id="51d1e-103">Setja upp vörur og birgðageymslur fyrir beinan frágang og tínslu</span><span class="sxs-lookup"><span data-stu-id="51d1e-103">Set Up Items and Locations for Directed Put-away and Pick</span></span>
@@ -51,9 +51,9 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="51d1e-131">Nú er allt til reiðu fyrir uppsetningu svæðanna eigi að nota svæði í vöruhúsinu.</span><span class="sxs-lookup"><span data-stu-id="51d1e-131">You are now ready to set up zones, if you want to operate zones in your warehouse.</span></span> <span data-ttu-id="51d1e-132">Notkun svæða fækkar reitum sem fylla þarf út þegar hólf eru sett upp þar sem hólf sem stofnuð eru innan svæða erfa nokkra af eiginleikum svæðisins.</span><span class="sxs-lookup"><span data-stu-id="51d1e-132">Using zones reduces the number of fields you need to fill in when you set up your bins, because bins created within zones inherit several properties from the zone.</span></span> <span data-ttu-id="51d1e-133">Svæði auðvelda einnig nýjum starfsmönnum og afleysingafólki að ná áttum í vöruhúsinu.</span><span class="sxs-lookup"><span data-stu-id="51d1e-133">Zones can also make it easier for new or temporary employees to orient themselves in your warehouse.</span></span> <span data-ttu-id="51d1e-134">Athugið að flæði er stjórnað af hólfum, því er hægt er að nota hólf og hafa aðeins eitt svæði.</span><span class="sxs-lookup"><span data-stu-id="51d1e-134">Note that flow is controlled by bins, therefore it is possible to operate with bins and only one zone.</span></span>  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a><span data-ttu-id="51d1e-135">Svæði sett upp í vöruhúsinu</span><span class="sxs-lookup"><span data-stu-id="51d1e-135">To set up a zone in your warehouse</span></span>  
-1.  <span data-ttu-id="51d1e-136">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="51d1e-136">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="51d1e-137">Staðsetningin þar sem á að setja upp svæði er valin og birgðageymsluspjald opnað og svo **Staðir** valin.</span><span class="sxs-lookup"><span data-stu-id="51d1e-137">Select the location where you want to set up zone and open the location card, and then choose the **Zones** action.</span></span>  
-3.  <span data-ttu-id="51d1e-138">Í glugganum **Staðir** þarf að fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="51d1e-138">In the **Zones** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="51d1e-136">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="51d1e-136">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="51d1e-137">Staðsetningin þar sem á að setja upp svæði er valin og birgðageymsluspjald opnað og svo **Staðir** valin.</span><span class="sxs-lookup"><span data-stu-id="51d1e-137">Select the location where you want to set up zone and open the location card, and then choose the **Zones** action.</span></span>  
+3. <span data-ttu-id="51d1e-138">Í glugganum **Staðir** þarf að fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="51d1e-138">In the **Zones** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 <span data-ttu-id="51d1e-139">Þegar færibreytu svæðis er breytt munu öll hólf sem stofnuð eru eftir það fá nýju eiginleikana en eldri hólf haldast óbreytt.</span><span class="sxs-lookup"><span data-stu-id="51d1e-139">When you change a zone parameter, all bins created thereafter in that zone will have the new characteristics, but the original bins will not be changed.</span></span>  
 

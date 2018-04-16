@@ -13,10 +13,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 08/23/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ee5737fc44282d2f2217a50e5f9ffffc808dd4f8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 86e331f8fc51bbc39e808bec55840cbdd5e5dcdb
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-general-inventory-information"></a><span data-ttu-id="2c70a-103">Setja upp almennar birgðaupplýsingar</span><span class="sxs-lookup"><span data-stu-id="2c70a-103">Set Up General Inventory Information</span></span>
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-general-inventory-information"></a><span data-ttu-id="2c70a-105">Til að setja upp almennar birgðaupplýsingar</span><span class="sxs-lookup"><span data-stu-id="2c70a-105">To set up general inventory information</span></span>
 1. <span data-ttu-id="2c70a-106">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning birgða** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="2c70a-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Inventory Setup**, and then choose the related link.</span></span>
-2. <span data-ttu-id="2c70a-107">Í glugganum **Birgðagrunnur** skal fylla út reitina eins og þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="2c70a-107">In the **Inventory Setup** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="2c70a-107">Í glugganum **Birgðagrunnur** skal fylla út reitina eins og þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="2c70a-107">In the **Inventory Setup** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 <span data-ttu-id="2c70a-108">Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í sölulínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar, glugganum **Birgðauppsetning** og birgðageymsluna sem um ræðir.</span><span class="sxs-lookup"><span data-stu-id="2c70a-108">If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory, in the **Inventory Setup** window, and for your location.</span></span> <span data-ttu-id="2c70a-109">Nánari upplýsingar er að finna í [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md).</span><span class="sxs-lookup"><span data-stu-id="2c70a-109">For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).</span></span>  
 

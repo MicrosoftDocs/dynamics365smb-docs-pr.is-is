@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b1a8eb26783b7e93e9afe04b13298972af83175d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: cd03233b872773b95119ab8ec42c85c539122e82
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="work-with-responsibility-centers"></a><span data-ttu-id="a7532-104">Vinna með ábyrgðarstöðvar</span><span class="sxs-lookup"><span data-stu-id="a7532-104">Work with Responsibility Centers</span></span>
@@ -29,11 +29,11 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="a7532-117">Ábyrgðastöðvar útvíkka margar birgðageymslur með því að gera notendum kleift að stjórna stjórnunarmiðstöðvum.</span><span class="sxs-lookup"><span data-stu-id="a7532-117">Responsibility centers extends the multiple locations functionality by providing users the ability to handle administrative centers.</span></span> <span data-ttu-id="a7532-118">Ábyrgðamiðstöð getur verið kostnaðarmiðstöð, hagnaðarmiðstöð, fjárfestingamiðstöð eða önnur fyrirtækisskilgreind stjórnunarmiðstöð.</span><span class="sxs-lookup"><span data-stu-id="a7532-118">A responsibility center can be a cost center, a profit center, an investment center, or other company-defined administrative center.</span></span> <span data-ttu-id="a7532-119">Dæmi um ábyrgðarmiðstöðvar eru söluskrifstofur, innkaupadeild fyrir nokkrar birgðageymslur og verksmiðjuskipulagsdeild.</span><span class="sxs-lookup"><span data-stu-id="a7532-119">Examples of responsibility centers are a sales office, a purchasing department for several locations, and a plant planning office.</span></span> <span data-ttu-id="a7532-120">Með þessari virkni, geta fyrirtæki til dæmis sett upp fyrir notendur sértæk yfirlit yfir sölu- og innkaupaskjöl sem tengjast vissum ábyrgðarstöðvum.</span><span class="sxs-lookup"><span data-stu-id="a7532-120">Using this functionality, for example, companies can set up user-specific views of sales and purchase documents related exclusively to a particular responsibility center.</span></span>
 
 ## <a name="to-set-up-a-responsibility-center"></a><span data-ttu-id="a7532-121">Uppsetning ábyrgðarstöðva</span><span class="sxs-lookup"><span data-stu-id="a7532-121">To set up a responsibility center</span></span>  
-1.  <span data-ttu-id="a7532-122">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Ábyrgðastöðvar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="a7532-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Responsibility Centers**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="a7532-123">Valið er **Nýtt** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="a7532-123">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="a7532-124">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="a7532-124">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="a7532-122">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Ábyrgðastöðvar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="a7532-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Responsibility Centers**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="a7532-123">Valið er **Nýtt** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="a7532-123">Choose the **New** action.</span></span>  
+3. <span data-ttu-id="a7532-124">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="a7532-124">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    <span data-ttu-id="a7532-125">Ef ábyrgðarstöðvar eru notaðar til að sjá um fyrirtækið getur verið gott að hafa sjálfgefna ábyrgðarstöð fyrir fyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="a7532-125">If you are using responsibility centers to administer your company, it can be useful to have a default responsibility center for your company.</span></span>
+   <span data-ttu-id="a7532-125">Ef ábyrgðarstöðvar eru notaðar til að sjá um fyrirtækið getur verið gott að hafa sjálfgefna ábyrgðarstöð fyrir fyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="a7532-125">If you are using responsibility centers to administer your company, it can be useful to have a default responsibility center for your company.</span></span>
 4. <span data-ttu-id="a7532-126">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fyrirtækjaupplýsingar** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="a7532-126">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.</span></span>
 5. <span data-ttu-id="a7532-127">Í **Ábyrgðastöð** reitnum er kóði ábyrgðarstöðvar færður inn.</span><span class="sxs-lookup"><span data-stu-id="a7532-127">In the **Responsibility Center** field, enter a responsibility center code.</span></span>
 

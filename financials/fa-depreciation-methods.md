@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0e79dcc4b9015a0b2ec37262048c2c98c192df5e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="depreciation-methods"></a><span data-ttu-id="6f4f6-103">Afskriftaaðferðir</span><span class="sxs-lookup"><span data-stu-id="6f4f6-103">Depreciation Methods</span></span>
@@ -31,11 +31,11 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="6f4f6-111">Handvirkt</span><span class="sxs-lookup"><span data-stu-id="6f4f6-111">Manual</span></span>  
 
   > [!NOTE]  
->   <span data-ttu-id="6f4f6-112">Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="6f4f6-113">Færa þarf afskriftir eigna í eignafjárhagsfærslubók.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="6f4f6-114">Runuvinnslan **Reikna afskriftir** sleppir eignum sem þessi afskriftaaðferð er notuð á.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
+  >   <span data-ttu-id="6f4f6-112">Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="6f4f6-113">Færa þarf afskriftir eigna í eignafjárhagsfærslubók.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="6f4f6-114">Runuvinnslan **Reikna afskriftir** sleppir eignum sem þessi afskriftaaðferð er notuð á.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
 * <span data-ttu-id="6f4f6-115">Tvisvar ári</span><span class="sxs-lookup"><span data-stu-id="6f4f6-115">Half-Year Convention</span></span>  
 
   > [!NOTE]  
->    <span data-ttu-id="6f4f6-116">Þegar þessi aðferð er notuð er eignin afskrifuð um sömu upphæð á hverju ári.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
+  >    <span data-ttu-id="6f4f6-116">Þegar þessi aðferð er notuð er eignin afskrifuð um sömu upphæð á hverju ári.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
 
 ## <a name="straight-line-depreciation"></a><span data-ttu-id="6f4f6-117">Beinlínuafskrift</span><span class="sxs-lookup"><span data-stu-id="6f4f6-117">Straight-Line Depreciation</span></span>
 <span data-ttu-id="6f4f6-118">Þegar beinlínuaðferðin er notuð verður að tilgreina einn af eftirfarandi valkostum í eignaafskriftabókinni:</span><span class="sxs-lookup"><span data-stu-id="6f4f6-118">When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:</span></span>  
@@ -233,7 +233,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="6f4f6-438">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afskriftatöflur** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-438">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="6f4f6-439">Í glugganum **listi yfir afskriftartöflur** skal velja aðgerðina **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-439">In the **Depreciation Table List** window, choose the **New** action.</span></span>  
-3. <span data-ttu-id="6f4f6-440">Í glugganum **kort afskriftartöflu** skal fylla inn í svæðin eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-440">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="6f4f6-440">Í glugganum **kort afskriftartöflu** skal fylla inn í svæðin eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-440">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a><span data-ttu-id="6f4f6-441">Dæmi - Notandaskilgreindar afskriftaraðferð</span><span class="sxs-lookup"><span data-stu-id="6f4f6-441">Example - User-defined Depreciation</span></span>
 <span data-ttu-id="6f4f6-442">Notuð er afskriftaaðferð sem gerir kleift að afskrifa eignir hraðar vegna tekjuskatts.</span><span class="sxs-lookup"><span data-stu-id="6f4f6-442">You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.</span></span>  

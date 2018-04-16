@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: e667ca56aa22fafc7fe6d0a4880c419a4272db26
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ea0fd5ad5d2289a20a3648acba9e073a984dab12
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a><span data-ttu-id="2ee55-103">Reikna út áfyllingu hólfs</span><span class="sxs-lookup"><span data-stu-id="2ee55-103">Calculate Bin Replenishment</span></span>
@@ -38,14 +38,14 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="2ee55-122">Næst þegar áfylling hólfa er reiknuð verða tillögurnar sem eytt er stofnaðar aftur ef þær eiga enn við á þeim tíma.</span><span class="sxs-lookup"><span data-stu-id="2ee55-122">The next time you calculate bin replenishment, the suggestions that you have deleted will be recreated, if they are still valid at that time.</span></span>  
 
-> [!NOTE]  
+> [!NOTE]
 >  <span data-ttu-id="2ee55-123">Ef eftirfarandi skilyrðum er fullnægt vegna vöru:</span><span class="sxs-lookup"><span data-stu-id="2ee55-123">If the following conditions are met for an item:</span></span>  
->   
->  -   <span data-ttu-id="2ee55-124">Varan er fyrningadagsett, og</span><span class="sxs-lookup"><span data-stu-id="2ee55-124">The item has an expiration date, and</span></span>  
-> -   <span data-ttu-id="2ee55-125">Reiturinn **Tína eftir FEFO** í birgðageymsluspjaldinu er valinn og</span><span class="sxs-lookup"><span data-stu-id="2ee55-125">The **Pick According to FEFO** field on the location card is selected, and</span></span>  
-> -   <span data-ttu-id="2ee55-126">Aðgerðin **Reikna út áfyllingu hólfs** er notuð</span><span class="sxs-lookup"><span data-stu-id="2ee55-126">You use the **Calculate Bin Replenishment** functionality</span></span>  
->   
->  <span data-ttu-id="2ee55-127">þá verða **Frá-svæði** og **Frá-hólf** reitirnir auðir vegna þess að reiknisögnin sem notuð er til að reikna hvaðan á að færa vörurnar er aðeins virkjuð þegar aðgerðin **Stofna hreyfingu** er ræst.</span><span class="sxs-lookup"><span data-stu-id="2ee55-127">then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.</span></span>  
+> 
+> - <span data-ttu-id="2ee55-124">Varan er fyrningadagsett, og</span><span class="sxs-lookup"><span data-stu-id="2ee55-124">The item has an expiration date, and</span></span>  
+>   -   <span data-ttu-id="2ee55-125">Reiturinn **Tína eftir FEFO** í birgðageymsluspjaldinu er valinn og</span><span class="sxs-lookup"><span data-stu-id="2ee55-125">The **Pick According to FEFO** field on the location card is selected, and</span></span>  
+>   -   <span data-ttu-id="2ee55-126">Aðgerðin **Reikna út áfyllingu hólfs** er notuð</span><span class="sxs-lookup"><span data-stu-id="2ee55-126">You use the **Calculate Bin Replenishment** functionality</span></span>  
+> 
+>   <span data-ttu-id="2ee55-127">þá verða **Frá-svæði** og **Frá-hólf** reitirnir auðir vegna þess að reiknisögnin sem notuð er til að reikna hvaðan á að færa vörurnar er aðeins virkjuð þegar aðgerðin **Stofna hreyfingu** er ræst.</span><span class="sxs-lookup"><span data-stu-id="2ee55-127">then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="2ee55-128">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="2ee55-128">See Also</span></span>  
 [<span data-ttu-id="2ee55-129">Vöruhúsastjórnun</span><span class="sxs-lookup"><span data-stu-id="2ee55-129">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  

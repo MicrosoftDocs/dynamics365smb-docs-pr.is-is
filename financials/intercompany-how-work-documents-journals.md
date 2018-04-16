@@ -13,10 +13,10 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 98e0d9012dfdd998431aaed8dade02f592af47c8
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f7ae482ebc1d89bb925457ad5cbc3592d245933f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a><span data-ttu-id="b8059-103">Unnið með samstæðuskjöl og færslubækur</span><span class="sxs-lookup"><span data-stu-id="b8059-103">Work with Intercompany Documents and Journals</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="b8059-115">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="b8059-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="b8059-116">Veljið **Nýtt** til að stofna nýja sölupöntun.</span><span class="sxs-lookup"><span data-stu-id="b8059-116">Choose **New** to create a new sales order.</span></span> <span data-ttu-id="b8059-117">Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).</span><span class="sxs-lookup"><span data-stu-id="b8059-117">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>  
-3. <span data-ttu-id="b8059-118">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="b8059-118">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="b8059-118">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="b8059-118">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="b8059-119">Gangið úr skugga um að viðskiptamaðurinn sé milli-fyrirtækjafélagi.</span><span class="sxs-lookup"><span data-stu-id="b8059-119">Make sure the customer is an intercompany partner.</span></span>
 5. <span data-ttu-id="b8059-120">Til að senda sölupöntunina áður en hún er bókuð er valin aðgerðin **Senda MF-sölupöntun**.</span><span class="sxs-lookup"><span data-stu-id="b8059-120">To send the sales order before you post it, choose the **Send IC Sales Order** action.</span></span>
 

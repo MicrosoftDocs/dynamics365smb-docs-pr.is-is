@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7c5820db4d8aa65ddeddfd5ee27f0a7e89100abf
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ecb4bdc57f538a17a0149513cef1be318d131a9b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a><span data-ttu-id="bd7f8-103">Stofna ítrekaðar sölu- og innkaupalínur</span><span class="sxs-lookup"><span data-stu-id="bd7f8-103">Create Recurring Sales and Purchase Lines</span></span>
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-set-up-standard-sales-lines"></a><span data-ttu-id="bd7f8-107">Hvernig á að setja upp staðlaðar sölulínur</span><span class="sxs-lookup"><span data-stu-id="bd7f8-107">To set up standard sales lines</span></span>  
 1. <span data-ttu-id="bd7f8-108">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **staðlaður sölukóði** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="bd7f8-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Standard Sales Codes**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="bd7f8-109">Í glugganum **Staðlaðar sölulínur** skal velja aðgerðina **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="bd7f8-109">In the **Standard Sales Lines** window, choose the **New** action.</span></span>  
-3. <span data-ttu-id="bd7f8-110">Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt**.</span><span class="sxs-lookup"><span data-stu-id="bd7f8-110">On the **General** FastTab, fill the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="bd7f8-110">Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt**.</span><span class="sxs-lookup"><span data-stu-id="bd7f8-110">On the **General** FastTab, fill the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. <span data-ttu-id="bd7f8-111">Á flýtiflipanum **Línur** skal færa inn upplýsingar í reitina til að undirbúa sölulínur sem endurspegla hinar stöðluðu línur sem þú býst við að nota sem endurteknar línur í söluskjölum.</span><span class="sxs-lookup"><span data-stu-id="bd7f8-111">On the **Lines** FastTab, enter information in the fields to prepare sales lines that reflect the standard lines that you expect to use as recurring lines on sales documents.</span></span>  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a><span data-ttu-id="bd7f8-112">Staðlaðar sölulínur settar inn í sölureikning</span><span class="sxs-lookup"><span data-stu-id="bd7f8-112">To insert standard sales lines on a sales invoice</span></span>

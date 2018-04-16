@@ -13,10 +13,10 @@ ms.search.keywords: trade
 ms.date: 03/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 7d1e9196e4fa4e24eb01f6a7f6b824e0c4f857ca
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 214edd3973930abf82f0fdf41347efa5f99f7f24
 ms.contentlocale: is-is
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="sell-products"></a><span data-ttu-id="9ccb9-103">Selja vörur</span><span class="sxs-lookup"><span data-stu-id="9ccb9-103">Sell Products</span></span>
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/28/2018
 7. <span data-ttu-id="9ccb9-146">Þegar lokið hefur verið við viðskiptamannaspjaldið skal velja hnappinn **Í lagi** til að fara aftur í gluggann **sölupöntun**.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-146">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
     <span data-ttu-id="9ccb9-147">Margir reitir í sölupöntun eru nú fullir af upplýsingar sem tilgreindar voru á nýja viðskiptamannaspjaldi.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-147">Several fields on the sales order are now filled with information that you specified on the new customer card.</span></span>
-8. <span data-ttu-id="9ccb9-148">Fylltu í eftirstandandi reiti í glugganum **sölupöntun** eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. <span data-ttu-id="9ccb9-148">Fylltu í eftirstandandi reiti í glugganum **sölupöntun** eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="9ccb9-149">Þú ert nú tilbúinn að fylla út í sölupöntunarlínurnar með birgðavöru eða þjónustu sem selja á viðskiptamanninum.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-149">You are now ready to fill in the sales order lines with inventory items or services that you want to sell to the customer.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 03/28/2018
 10. <span data-ttu-id="9ccb9-152">Í reitinn **Magn** er fært magn vara sem á að selja.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-152">In the **Quantity** field, enter the number of items to be sold.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="9ccb9-153">Fyrir vörur af tegundinni Þjónusta er magnið tímaeining, t.d. klukkutímar, eins og gefið er til kynna í reitnum **Mælieiningarkóði** í línunni.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
+    >   <span data-ttu-id="9ccb9-153">Fyrir vörur af tegundinni Þjónusta er magnið tímaeining, t.d. klukkutímar, eins og gefið er til kynna í reitnum **Mælieiningarkóði** í línunni.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
 
     <span data-ttu-id="9ccb9-154">Reiturinn **línuupphæð** uppfærist til að sýna að gildið í reitnum **einingarverð** margfaldað með gildinu í reitnum **magn**.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-154">The **Line Amount** field is updated to show the value in the **Unit Price** field multiplied by the value in the **Quantity** field.</span></span>
 
@@ -79,12 +79,12 @@ ms.lasthandoff: 03/28/2018
 14. <span data-ttu-id="9ccb9-163">Nýtt viðskiptamannaspjald sýnir upplýsingarnar á valda viðskiptamannasniðmátinu.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-163">A new customer card displays the information on the selected customer template.</span></span> <span data-ttu-id="9ccb9-164">Eftirstandandi reitir eru fylltir út.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-164">Fill in the remaining fields.</span></span> <span data-ttu-id="9ccb9-165">Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).</span><span class="sxs-lookup"><span data-stu-id="9ccb9-165">For more information, see [Register New Customers](sales-how-register-new-customers.md).</span></span>  
 15. <span data-ttu-id="9ccb9-166">Þegar lokið hefur verið við viðskiptamannaspjaldið skal velja hnappinn **Í lagi** til að fara aftur í gluggann **sölupöntun**.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-166">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
-   <span data-ttu-id="9ccb9-167">Margir reitir í sölupöntun eru nú fullir af upplýsingar sem tilgreindar voru á nýja viðskiptamannaspjaldi.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
-16. <span data-ttu-id="9ccb9-168">Fylltu í eftirstandandi reiti í glugganum **sölupöntun** eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    <span data-ttu-id="9ccb9-167">Margir reitir í sölupöntun eru nú fullir af upplýsingar sem tilgreindar voru á nýja viðskiptamannaspjaldi.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
+16. <span data-ttu-id="9ccb9-168">Fylltu í eftirstandandi reiti í glugganum **sölupöntun** eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   <span data-ttu-id="9ccb9-169">Nú er hægt að fylla út í sölupöntunarlínur fyrir vörur sem selt er viðskiptamanni eða fyrir einhverri færslu við þann viðskiptamann sem á að skrá í reikning í Fjárhag.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
+    <span data-ttu-id="9ccb9-169">Nú er hægt að fylla út í sölupöntunarlínur fyrir vörur sem selt er viðskiptamanni eða fyrir einhverri færslu við þann viðskiptamann sem á að skrá í reikning í Fjárhag.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
 
-   <span data-ttu-id="9ccb9-170">Ef endurteknar sölulínur hafa verið settar upp fyrir viðskiptamanninn, svo sem mánaðarlegar endurnýjunarpantanir, er hægt að færa línuna inn í pöntunina með því að velja aðgerðina **Endurteknar sölulínur**.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
+    <span data-ttu-id="9ccb9-170">Ef endurteknar sölulínur hafa verið settar upp fyrir viðskiptamanninn, svo sem mánaðarlegar endurnýjunarpantanir, er hægt að færa línuna inn í pöntunina með því að velja aðgerðina **Endurteknar sölulínur**.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
 17. <span data-ttu-id="9ccb9-171">Á **Línur** Flýtiflipanum í **Tegund** reitnum, veldu hvaða tegund framleiðsluflokks, kostnaðarauka eða færslu þú munt bókað fyrir viðskiptamanninn með sölulínunni.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-171">On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.</span></span>
 18. <span data-ttu-id="9ccb9-172">Í reitnum **númer**</span><span class="sxs-lookup"><span data-stu-id="9ccb9-172">In the **No.**</span></span> <span data-ttu-id="9ccb9-173">Reitnum er valin færsla til að bóka samkvæmt gildinu í reitnum **Tegund** reit.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-173">field, select a record to post according to the value in the **Type** field.</span></span>
 
@@ -94,7 +94,7 @@ ms.lasthandoff: 03/28/2018
 19. <span data-ttu-id="9ccb9-180">Í reitnum **Magn** er fært inn hversu margar einingar vöru, kostnaðarauka eða færslu sem línan skráir fyrir viðskiptamanninn.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-180">In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="9ccb9-181">Ef varan er af tegundinni **Vara - Þjónusta** eða **Forði**, er magnið tímaeining, t.d. klukkutímar, eins og gefið er til kynna í reitnum **Mælieiningarkóði** í línunni.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="9ccb9-182">Frekari upplýsingar eru í [Setja upp mælieiningu vara](inventory-how-setup-units-of-measure.md).</span><span class="sxs-lookup"><span data-stu-id="9ccb9-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
+    >   <span data-ttu-id="9ccb9-181">Ef varan er af tegundinni **Vara - Þjónusta** eða **Forði**, er magnið tímaeining, t.d. klukkutímar, eins og gefið er til kynna í reitnum **Mælieiningarkóði** í línunni.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="9ccb9-182">Frekari upplýsingar eru í [Setja upp mælieiningu vara](inventory-how-setup-units-of-measure.md).</span><span class="sxs-lookup"><span data-stu-id="9ccb9-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
 
     <span data-ttu-id="9ccb9-183">Gildið í reitnum **Línuupphæð** er reiknaður sem *Einingarverð* x *Magn*.</span><span class="sxs-lookup"><span data-stu-id="9ccb9-183">The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.</span></span>  
 

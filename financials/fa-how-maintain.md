@@ -13,10 +13,10 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 1115f65c52215fe82c8371773c0c2071e9406ba4
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 8ccd398e39a2437e4e923b8fbe5d02e725046902
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="maintain-fixed-assets"></a><span data-ttu-id="9688c-103">Umsjón eigna</span><span class="sxs-lookup"><span data-stu-id="9688c-103">Maintain Fixed Assets</span></span>
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="9688c-113">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignir** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="9688c-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="9688c-114">Valin er eignin sem á að skrá viðhald fyrir og veldu síðan aðgerðina **skráning viðhalds**.</span><span class="sxs-lookup"><span data-stu-id="9688c-114">Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.</span></span>
-3. <span data-ttu-id="9688c-115">Í glugganum **skráning viðhalds** þarf að fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="9688c-115">In the **Maintenance Registration** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="9688c-115">Í glugganum **skráning viðhalds** þarf að fylla reitina út eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="9688c-115">In the **Maintenance Registration** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a><span data-ttu-id="9688c-116">Bóka viðhaldskostnað úr fjárhagsbók eigna</span><span class="sxs-lookup"><span data-stu-id="9688c-116">To post maintenance costs from a fixed asset G/L journal</span></span>
 1. <span data-ttu-id="9688c-117">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afskriftabókalisti** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="9688c-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Book List**, and then choose the related link.</span></span>  
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/22/2018
 7. <span data-ttu-id="9688c-124">Valið er **Setja inn mótreikn. eigna** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="9688c-124">Choose the **Insert FA Bal. Account** action.</span></span> <span data-ttu-id="9688c-125">Seinni færslubókarlína er búin til fyrir mótreiknings sem er sett upp fyrir bókun viðhalds.</span><span class="sxs-lookup"><span data-stu-id="9688c-125">A second journal line is created for the balancing account that is set up for maintenance posting.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="9688c-126">Skref 7 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** glugganum fyrir bókunarflokkur eigna, inniheldur reiturinn **Viðhaldsreikningur** debetreikning fjárhags og reiturinn **Mótreikningur viðhalds** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir uppfærslu.</span><span class="sxs-lookup"><span data-stu-id="9688c-126">Step 7 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation.</span></span> <span data-ttu-id="9688c-127">Nánari upplýsingar eru í setja upp bókunarflokka eigna hlutanum í [Setja Upp almennar upplýsingar um eignir](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="9688c-127">For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>
+   >   <span data-ttu-id="9688c-126">Skref 7 virkar eingöngu ef búið er að setja upp eftirfarandi: Í **Eignabókunarflokksspjald** glugganum fyrir bókunarflokkur eigna, inniheldur reiturinn **Viðhaldsreikningur** debetreikning fjárhags og reiturinn **Mótreikningur viðhalds** inniheldur fjárhagsreikninginn sem á að bóka mótfærslur í fyrir uppfærslu.</span><span class="sxs-lookup"><span data-stu-id="9688c-126">Step 7 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation.</span></span> <span data-ttu-id="9688c-127">Nánari upplýsingar eru í setja upp bókunarflokka eigna hlutanum í [Setja Upp almennar upplýsingar um eignir](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="9688c-127">For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>
 8. <span data-ttu-id="9688c-128">Valið er **Bóka** aðgerðin.</span><span class="sxs-lookup"><span data-stu-id="9688c-128">Choose the **Post** action.</span></span>
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a><span data-ttu-id="9688c-129">Til að fylgja eftir þjónustuheimsóknum eigna:</span><span class="sxs-lookup"><span data-stu-id="9688c-129">To follow up on fixed assets service visits</span></span>

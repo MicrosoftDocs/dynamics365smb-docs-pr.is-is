@@ -13,10 +13,10 @@ ms.search.keywords: forecast
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: aba6d1c433d20c5d2da1234df06503ca97cac061
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0c798fca44d9c57e38e5bb3f930e773d12b69636
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="manage-budgets-for-fixed-assets"></a><span data-ttu-id="c3100-103">Umsjón fjárhagsáætlana fyrir eignir</span><span class="sxs-lookup"><span data-stu-id="c3100-103">Manage Budgets for Fixed Assets</span></span>
@@ -39,7 +39,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="c3100-122">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignir** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="c3100-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
 2. <span data-ttu-id="c3100-123">Valin er eignin sem á að afskrá, og velja síðan **Afskriftabækur** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="c3100-123">Select the fixed asset to be disposed of, and then choose the **Depreciation Books** action.</span></span>
-3. <span data-ttu-id="c3100-124">Í glugganum **Eignaafskriftabækur** er fært inn í reitina **Áætluð afskráningardags.** og **Áætlaður afrakstur undir reitnum Afskráning**.</span><span class="sxs-lookup"><span data-stu-id="c3100-124">In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="c3100-124">Í glugganum **Eignaafskriftabækur** er fært inn í reitina **Áætluð afskráningardags.** og **Áætlaður afrakstur undir reitnum Afskráning**.</span><span class="sxs-lookup"><span data-stu-id="c3100-124">In the **FA Depreciation Books** window, fill in the **Projected Disposal Date** and **Projected Proceeds on Disposal** fields.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a><span data-ttu-id="c3100-125">Skoðun á áætluðu virði afskráninga:</span><span class="sxs-lookup"><span data-stu-id="c3100-125">To view projected disposal values</span></span>
 <span data-ttu-id="c3100-126">Keyra má skýrsluna **Eignir - Áætlað virði** til að skoða áætlað afskráningarvirði og reikna hagnað/tap.</span><span class="sxs-lookup"><span data-stu-id="c3100-126">To see the projected disposal values and have the gain and loss calculated, you can use the **FA Projected Value** report.</span></span>

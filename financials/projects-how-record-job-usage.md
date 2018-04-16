@@ -13,10 +13,10 @@ ms.search.keywords: project management, consumption
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b0bd4f9a4c0963520631e1571fd182adce85fdd9
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 15bddf7d0e1ed651bc4b2be6fafd24db360f952c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="record-usage-for-jobs"></a><span data-ttu-id="e4208-103">Skrá notkun vegna verka</span><span class="sxs-lookup"><span data-stu-id="e4208-103">Record Usage for Jobs</span></span>
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/22/2018
 
     <span data-ttu-id="e4208-118">Reiturinn **Eftirstöðvar (magn)** sýnir það magn sem eftir er til að ljúka verkinu og flytja í færslubókina.</span><span class="sxs-lookup"><span data-stu-id="e4208-118">The **Remaining Quantity** field shows the quantity that remains to complete the job and be transferred to the journal.</span></span>  
 5. <span data-ttu-id="e4208-119">Velja skal aðgerðina **Stofna verkbókarlínur**.</span><span class="sxs-lookup"><span data-stu-id="e4208-119">Choose the **Create Job Journal Lines** action.</span></span>
-6. <span data-ttu-id="e4208-120">Í glugganum **Verk - Flytja verkáætlunarlínu** skal fylla reiti út eftir þörfum og velja síðan hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="e4208-120">In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. <span data-ttu-id="e4208-120">Í glugganum **Verk - Flytja verkáætlunarlínu** skal fylla reiti út eftir þörfum og velja síðan hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="e4208-120">In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. <span data-ttu-id="e4208-121">Velja skal aðgerðina **Opna verkbók**.</span><span class="sxs-lookup"><span data-stu-id="e4208-121">Choose the **Open Job Journal** action.</span></span>  
 8. <span data-ttu-id="e4208-122">Í glugganum **Verkbók** skal velja viðeigandi línu og svo aðgerðina **Bóka**.</span><span class="sxs-lookup"><span data-stu-id="e4208-122">In the **Job Journal** window, select the relevant line and then choose the **Post** action.</span></span>
 9. <span data-ttu-id="e4208-123">Í glugganum **Verkáætlunarlínur** skal fara yfir skráða notkun með því að athuga reitina **Magn**, **Eftirstöðvar (magn)** og **Magn til flutnings í færslubók**.</span><span class="sxs-lookup"><span data-stu-id="e4208-123">In the **Job Planning Lines** window, review the recorded usage by observing the **Quantity**, **Remaining Quantity**, and **Qty. To Transfer to Journal** fields.</span></span>  

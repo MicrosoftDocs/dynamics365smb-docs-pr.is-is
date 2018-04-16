@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7cb6c75fa8c232c017e662ee8f324a8639c44a16
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 2db5100b933c0c94a8fae15c33c2ba24aad2fcf9
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="register-new-vendors"></a><span data-ttu-id="b533a-103">Skráning nýrra lánardrottna</span><span class="sxs-lookup"><span data-stu-id="b533a-103">Register New Vendors</span></span>
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/22/2018
     <span data-ttu-id="b533a-117">Ef fleiri en eitt lánardrottnasniðmát er fyrir hendi, þá birtist sjálfkrafa gluggi með tiltækum lánardrottnasniðmátum.</span><span class="sxs-lookup"><span data-stu-id="b533a-117">If more than one vendor template exists, then a window opens from which you can select a vendor template.</span></span> <span data-ttu-id="b533a-118">Í því tilviki, fylgið næstu tveimur skrefum.</span><span class="sxs-lookup"><span data-stu-id="b533a-118">In that case, follow the next two steps.</span></span>
 3. <span data-ttu-id="b533a-119">Í glugganum **Velja sniðmát fyrir nýjan lánardrottin** er valið sniðmátið sem á að nota fyrir nýja lánardrottnaspjaldið.</span><span class="sxs-lookup"><span data-stu-id="b533a-119">In the **Select a template for a new vendor** window, choose the template that you want to use for the new vendor card.</span></span>
 4. <span data-ttu-id="b533a-120">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="b533a-120">Choose the **OK** button.</span></span> <span data-ttu-id="b533a-121">Nýtt lánardrottnaspjald opnast þar sem búið er að fylla upplýsingar úr sniðmátinu inn í hluta reitanna.</span><span class="sxs-lookup"><span data-stu-id="b533a-121">A new vendor card opens with some fields filled with information from the template.</span></span>
-5. <span data-ttu-id="b533a-122">Því næst eru reitir á lánardrottnaspjaldinu færðir inn eða þeim breytt eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="b533a-122">Proceed to fill or change fields on the vendor card as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. <span data-ttu-id="b533a-122">Því næst eru reitir á lánardrottnaspjaldinu færðir inn eða þeim breytt eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="b533a-122">Proceed to fill or change fields on the vendor card as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   <span data-ttu-id="b533a-123">Ef ekki er vitað reikningsaðsetur sem verður notað fyrir hvern reikning frá lánardrottni skal ekki færa í reitinn **Borga**.</span><span class="sxs-lookup"><span data-stu-id="b533a-123">If you do not know the invoicing address that will be used for every invoice from a vendor, do not fill in the **Pay-to** field.</span></span> <span data-ttu-id="b533a-124">Þess í stað skal velja borga-lánardrottni númer eftir að hafa sett upp innkaupabeiðni, pöntun eða reikningshaus.</span><span class="sxs-lookup"><span data-stu-id="b533a-124">Instead, choose the pay-to vendor number after you have set up a purchase quote, order, or invoice header.</span></span>
@@ -47,7 +47,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a><span data-ttu-id="b533a-128">Að vista lánardrottnaspjaldið sem sniðmát</span><span class="sxs-lookup"><span data-stu-id="b533a-128">To save the vendor card as a template</span></span>
 1. <span data-ttu-id="b533a-129">Í glugganum **Lánardrottnaspjald** er valin aðgerðin **Vista sem sniðmát**.</span><span class="sxs-lookup"><span data-stu-id="b533a-129">In the **Vendor Card** window, choose the **Save as Template** action.</span></span> <span data-ttu-id="b533a-130">Glugginn **Lánardrottnasniðmát** opnast og sýnir lánardrottnaspjaldið sem sniðmát.</span><span class="sxs-lookup"><span data-stu-id="b533a-130">The **Vendor Template** window opens showing the vendor card as a template.</span></span>
-2. <span data-ttu-id="b533a-131">Fyllið inn í svæðin eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="b533a-131">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="b533a-131">Fyllið inn í svæðin eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="b533a-131">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="b533a-132">Til að endurnota víddir í sniðmátum, veljið aðgerðina **Víddir**.</span><span class="sxs-lookup"><span data-stu-id="b533a-132">To reuse dimensions in templates, choose the **Dimensions** action.</span></span> <span data-ttu-id="b533a-133">Glugginn **Víddarsniðmát** opnast og sýnir alla víddarkóða sem settir eru upp fyrir lánardrottin.</span><span class="sxs-lookup"><span data-stu-id="b533a-133">The **Dimension Templates** window opens showing any dimension codes that are set up for the vendor.</span></span>
 4. <span data-ttu-id="b533a-134">Breyta eða færa inn víddarkóða sem munu gilda fyrir ný lánardrottnaspjöld sem stofnuð eru með sniðmátinu.</span><span class="sxs-lookup"><span data-stu-id="b533a-134">Edit or enter dimension codes that will apply to new vendor cards created by using the template.</span></span>
 5. <span data-ttu-id="b533a-135">Þegar lokið hefur verið við nýja lánardrottnasniðmátið skal velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="b533a-135">When you have completed the new vendor template, choose the **OK** button.</span></span>  
