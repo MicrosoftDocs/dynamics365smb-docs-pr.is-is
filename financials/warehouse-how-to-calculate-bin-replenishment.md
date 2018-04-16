@@ -38,14 +38,14 @@ Að lokum, hafi geymsluhólfin aðeins verið skilgreind fyrir **frágang** þ.e
 
 Næst þegar áfylling hólfa er reiknuð verða tillögurnar sem eytt er stofnaðar aftur ef þær eiga enn við á þeim tíma.  
 
-> [!NOTE]  
+> [!NOTE]
 >  Ef eftirfarandi skilyrðum er fullnægt vegna vöru:  
->   
->  -   Varan er fyrningadagsett, og  
-> -   Reiturinn **Tína eftir FEFO** í birgðageymsluspjaldinu er valinn og  
-> -   Aðgerðin **Reikna út áfyllingu hólfs** er notuð  
->   
->  þá verða **Frá-svæði** og **Frá-hólf** reitirnir auðir vegna þess að reiknisögnin sem notuð er til að reikna hvaðan á að færa vörurnar er aðeins virkjuð þegar aðgerðin **Stofna hreyfingu** er ræst.  
+> 
+> - Varan er fyrningadagsett, og  
+>   -   Reiturinn **Tína eftir FEFO** í birgðageymsluspjaldinu er valinn og  
+>   -   Aðgerðin **Reikna út áfyllingu hólfs** er notuð  
+> 
+>   þá verða **Frá-svæði** og **Frá-hólf** reitirnir auðir vegna þess að reiknisögnin sem notuð er til að reikna hvaðan á að færa vörurnar er aðeins virkjuð þegar aðgerðin **Stofna hreyfingu** er ræst.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

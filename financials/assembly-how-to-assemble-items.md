@@ -43,29 +43,29 @@ Frekari upplýsingar um hvernig samsetningaríhlutur er settur upp eru í [Skilj
 Í þessu ferli er stofnuð og unnið úr samsetningarpöntun fyrir vörur sem eru settar saman í birgðir, sem þýðir án. tengdrar sölupöntunar. Skrefin eru meðal annars að hefja framleiðslupöntunina, meðhöndla möguleg ráðstöfunarvandamál íhluta og bóka samsetningarvörufrálag að hluta.
 
 ## <a name="to-assemble-an-item"></a>Til að setja vöru saman  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Samsetningarpöntun** og velja svo viðeigandi tengil.  
-2.  Valið er **Nýtt** aðgerð. Glugginn **Ný samsetningarpöntun** opnast.  
-3.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Í reitnum **Vöru Nr.** veljið samsetningarvöruna sem á að vinna með. Reiturinn er síaður til að hann sýni aðeins vörur sem eru settar upp fyrir samsetningu, sem þýðir að þær hafa úthlutaða samsetningaruppskrift.  
-5.  Í reitnum **Magn** er fært inn hversu margar einingar vörunnar setja á saman.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Samsetningarpöntun** og velja svo viðeigandi tengil.  
+2. Valið er **Nýtt** aðgerð. Glugginn **Ný samsetningarpöntun** opnast.  
+3. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Í reitnum **Vöru Nr.** veljið samsetningarvöruna sem á að vinna með. Reiturinn er síaður til að hann sýni aðeins vörur sem eru settar upp fyrir samsetningu, sem þýðir að þær hafa úthlutaða samsetningaruppskrift.  
+5. Í reitnum **Magn** er fært inn hversu margar einingar vörunnar setja á saman.  
 
-    > [!NOTE]  
-    >  Ef einn eða fleiri íhlutir geta ekki uppfyllt skráð magn samsetningarvöru fyrir tilgreindan skiladag mun glugginn **Samsetning tiltæk** opnast sjálfkrafa og veita nákvæmar upplýsingar um hversu margar samsetningarvörur er hægt að setja saman miðað við íhluti til ráðstöfunar. Frekari upplýsingar, sjá [Skoða tiltækileika vöru](inventory-how-availability-overview.md).  Þegar glugganum er lokað, er samsetningarpöntun stofnuð ráðstöfunarviðvaranir í íhlutalínum sem fyrir áhrifum verða.  
+   > [!NOTE]  
+   >  Ef einn eða fleiri íhlutir geta ekki uppfyllt skráð magn samsetningarvöru fyrir tilgreindan skiladag mun glugginn **Samsetning tiltæk** opnast sjálfkrafa og veita nákvæmar upplýsingar um hversu margar samsetningarvörur er hægt að setja saman miðað við íhluti til ráðstöfunar. Frekari upplýsingar, sjá [Skoða tiltækileika vöru](inventory-how-availability-overview.md).  Þegar glugganum er lokað, er samsetningarpöntun stofnuð ráðstöfunarviðvaranir í íhlutalínum sem fyrir áhrifum verða.  
 
-    Samsetningarpöntunarlínurnar eru sjálfkrafa fylltar út með innihaldi samsetningaruppskriftar og með línumagni samkvæmt haus samsetningarpöntunarinnar.  
+   Samsetningarpöntunarlínurnar eru sjálfkrafa fylltar út með innihaldi samsetningaruppskriftar og með línumagni samkvæmt haus samsetningarpöntunarinnar.  
 
-    > [!NOTE]  
-    >  Ef glugginn **Samsetning tiltæk** opnaðist þegar fyllt var út í haus samsetningarpöntunarinnar inniheldur hver lína samsetningarpöntunar sem það hefur áhrif á **Já** í reitnum **Tilt. aðvörun** með tengli á ítarlegar upplýsingar um ráðstöfun. Frekari upplýsingar eru í Athuga framboð. Hægt er að leysa úr vandamáli við framboði íhlutar með því að fresta upphafdagsetningu, skipta út íhlut fyrir aðra vöru eða velja tiltækan varahlut ef slíkur er tilgreindur.  
+   > [!NOTE]  
+   >  Ef glugginn **Samsetning tiltæk** opnaðist þegar fyllt var út í haus samsetningarpöntunarinnar inniheldur hver lína samsetningarpöntunar sem það hefur áhrif á **Já** í reitnum **Tilt. aðvörun** með tengli á ítarlegar upplýsingar um ráðstöfun. Frekari upplýsingar eru í Athuga framboð. Hægt er að leysa úr vandamáli við framboði íhlutar með því að fresta upphafdagsetningu, skipta út íhlut fyrir aðra vöru eða velja tiltækan varahlut ef slíkur er tilgreindur.  
 
-6.  Í reitnum **Magn til samsetningar** er fært inn hversu margar einingar af samsetningarvöru eigi að bóka næst þegar samsetningarpöntun er bókuð. Þetta magn getur verið lægra en gildið í svæðinu **Magn** til að spegla hlutafrálagsbókun.  
+6. Í reitnum **Magn til samsetningar** er fært inn hversu margar einingar af samsetningarvöru eigi að bóka næst þegar samsetningarpöntun er bókuð. Þetta magn getur verið lægra en gildið í svæðinu **Magn** til að spegla hlutafrálagsbókun.  
 
-    > [!NOTE]  
-    >  Til að tryggja að bókun íhlutanotkunar passi við frálagsbókun samsetningarvörunnar eru magnreitirnir í samsetningarpöntunarlínunum sjálfkrafa lagaðir að gildinu sem fært er inn í reitinn **Magn til að setja saman**.  
-7.  Á samsetningarpöntunarlínum af gerðinni **Vara** eða **Forði**, í reitnum **Magn til notkunar**, tilgreinið hversu margar einingar á að bóka sem notað, næst þegar samsetningarpöntun er bókuð. Sjálfgefið er að væntanlegt magn til notkunar í samræmi við samsetningaruppskriftina og magn samsetningarpöntunarhauss sé fært inn, en hægt er að hækka eða lækka það, til dæmis til að endurspegla á yfirnotkun íhluta eða viðbótarforðar voru notaðir.  
-8.  Þegar komið er að því að bóka að hluta eða í heild er valin aðgerðin **Bóka**.  
+   > [!NOTE]  
+   >  Til að tryggja að bókun íhlutanotkunar passi við frálagsbókun samsetningarvörunnar eru magnreitirnir í samsetningarpöntunarlínunum sjálfkrafa lagaðir að gildinu sem fært er inn í reitinn **Magn til að setja saman**.  
+7. Á samsetningarpöntunarlínum af gerðinni **Vara** eða **Forði**, í reitnum **Magn til notkunar**, tilgreinið hversu margar einingar á að bóka sem notað, næst þegar samsetningarpöntun er bókuð. Sjálfgefið er að væntanlegt magn til notkunar í samræmi við samsetningaruppskriftina og magn samsetningarpöntunarhauss sé fært inn, en hægt er að hækka eða lækka það, til dæmis til að endurspegla á yfirnotkun íhluta eða viðbótarforðar voru notaðir.  
+8. Þegar komið er að því að bóka að hluta eða í heild er valin aðgerðin **Bóka**.  
 
-    > [!NOTE]  
-    >  Ef viðvaranir eru enn til staðar í einhverjum af samsetningarpöntunarlínum er lokað á bókunina. Skilaboð birtast um það hvaða íhlutur eða íhlutir eru ekki til í birgðum.  
+   > [!NOTE]  
+   >  Ef viðvaranir eru enn til staðar í einhverjum af samsetningarpöntunarlínum er lokað á bókunina. Skilaboð birtast um það hvaða íhlutur eða íhlutir eru ekki til í birgðum.  
 
 Eftir að bókun tekst, er samsetningarvaran bókuð sem frálag birgðageymslukótans og hugsanlegs hólfakóta sem eru skilgreindir í samsetningarpöntuninni. Fyrir samsetningarpantanir sem voru stofnaðar handvirkt er hægt að afrita staðsetninguna úr uppsetningarreitnum **Sjálfgefin staðsetning fyrir pantanir**. Fyrir sameiningarpöntunarflæði, er hægt að afrita kóta birgðageymslu úr sölupöntunarlínunni.  
 

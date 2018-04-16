@@ -28,15 +28,15 @@ Til að raða út margar uppsprettur eftirspurn og framboð, áætlanagerð kerf
 
  Almennt séð, áætlanagerðarkerfi telur allar framboðspantanir eftir áætlunarupphafsdegi sem breytingum háð í því skyni að anna eftirspurn. Hins vegar, um leið og magn er bókað frá birgðapöntun er ekki lengur hægt að breyta því úr áætlanakerfinu. Í samræmi er ekki hægt að enduráætla eftirfarandi mismunandi pantanir:  
 
--   Útgefnar framleiðslupantanir sem eru notkun og frálag er bókað á.  
+- Útgefnar framleiðslupantanir sem eru notkun og frálag er bókað á.  
 
--   Samsetningarpantanir þar sem búið er að bóka notkun eða frálag.  
+- Samsetningarpantanir þar sem búið er að bóka notkun eða frálag.  
 
--   Millifærslupantanir þar afhending hefur verið bókuð.  
+- Millifærslupantanir þar afhending hefur verið bókuð.  
 
--   Innkaupapantanir þar sem búið er að bóka móttöku.  
+- Innkaupapantanir þar sem búið er að bóka móttöku.  
 
- Burtséð frá hleðslu eftirspurnar- og framboðsgerða er tilteknum gerðum hlaðið með sérstakri áherslu á sérstakar reglur og tengsl sem lýst er í eftirfarandi.  
+  Burtséð frá hleðslu eftirspurnar- og framboðsgerða er tilteknum gerðum hlaðið með sérstakri áherslu á sérstakar reglur og tengsl sem lýst er í eftirfarandi.  
 
 ## <a name="item-dimensions-are-separated"></a>Vöruvíddir eru aðskildar.  
  Reikna verður út birgðaáætlunina út frá samsetningu vöruvídda, s.s. afbrigðis og staðsetningu. Hins vegar er engin ástæða til að reikna út fræðilega samsetningu. Aðeins þarf að reikna þær samsetningar sem bera eftirspurn og/eða framboð.  

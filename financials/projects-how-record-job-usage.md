@@ -34,7 +34,7 @@ Eftirfarandi leiðbeiningar lýsa því hvernig á að skrá raunverulegt (reikn
 
     Reiturinn **Eftirstöðvar (magn)** sýnir það magn sem eftir er til að ljúka verkinu og flytja í færslubókina.  
 5. Velja skal aðgerðina **Stofna verkbókarlínur**.
-6. Í glugganum **Verk - Flytja verkáætlunarlínu** skal fylla reiti út eftir þörfum og velja síðan hnappinn **Í lagi**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Í glugganum **Verk - Flytja verkáætlunarlínu** skal fylla reiti út eftir þörfum og velja síðan hnappinn **Í lagi**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Velja skal aðgerðina **Opna verkbók**.  
 8. Í glugganum **Verkbók** skal velja viðeigandi línu og svo aðgerðina **Bóka**.
 9. Í glugganum **Verkáætlunarlínur** skal fara yfir skráða notkun með því að athuga reitina **Magn**, **Eftirstöðvar (magn)** og **Magn til flutnings í færslubók**.  

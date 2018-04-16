@@ -75,14 +75,14 @@ Jafnvel þótt reiturinn innihaldi rauða stjörnu er ekki nauðsynlegt að fyll
 # <a name="entering-negative-numbers"></a>Neikvæðar tölur er færðar inn
 Hægt er að færa inn neikvæðar tölur eftir tveimur leiðum. Númerið -20.5 má færa inn sem:  
 
--   -20.5  
+- -20.5  
 
-    Eða
--   20.5-  
+  Eða
+- 20.5-  
 
- Í báðum tilfellum verður upphæðin skráð í  sem -20.5.  
+  Í báðum tilfellum verður upphæðin skráð í  sem -20.5.  
 
- Ef síðasti stafur segðarinnar er **+** eða **-**, mun öll segðin verða skráð með því formerki. Dæmi: **10-20+** mun gefa niðurstöðuna 10 en ekki -10.  
+  Ef síðasti stafur segðarinnar er **+** eða **-**, mun öll segðin verða skráð með því formerki. Dæmi: **10-20+** mun gefa niðurstöðuna 10 en ekki -10.  
 
 ## <a name="entering-dates-and-times"></a>Dagsetning og tími færð inn
 Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir dagsetningar (dagsetningarreitir). Hægt er að færa inn dagsetningar með eða án skiltákna.
@@ -93,15 +93,15 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 ### <a name="entering-dates"></a>Dagsetningar færðar inn  
  Í dagsetningarreit má færa inn tvær, fjórar, sex eða átta tölur:  
 
--   Ef aðeins tvær tölur eru færðar inn þá túlkar kerfið þær sem daginn og bætir við mánuði og ári vinnudagsetningar.  
+- Ef aðeins tvær tölur eru færðar inn þá túlkar kerfið þær sem daginn og bætir við mánuði og ári vinnudagsetningar.  
 
--   Ef færðar eru inn fjórar tölur þá túlkar kerfið þær sem daginn og mánuðinn og bætir við ári vinnudagsetningar.  
+- Ef færðar eru inn fjórar tölur þá túlkar kerfið þær sem daginn og mánuðinn og bætir við ári vinnudagsetningar.  
 
--   Ef sú dagsetning sem færa á inn er á bilinu 01/01/1930 til 31/12/2029 má færa árið inn í tveimur tölum; annars skal færa árið inn með fjórum tölum.  
+- Ef sú dagsetning sem færa á inn er á bilinu 01/01/1930 til 31/12/2029 má færa árið inn í tveimur tölum; annars skal færa árið inn með fjórum tölum.  
 
- Einnig er hægt að færa inn dagsetningu sem vikudag ásamt vikunúmeri og hugsanlega ári (til dæmis Mán25 eða mán25 þýðir mánudagur í 25. viku).  
+  Einnig er hægt að færa inn dagsetningu sem vikudag ásamt vikunúmeri og hugsanlega ári (til dæmis Mán25 eða mán25 þýðir mánudagur í 25. viku).  
 
- Hægt er að færa inn einn af tveimur kóðum í stað sérstakrar dagsetningar.  
+  Hægt er að færa inn einn af tveimur kóðum í stað sérstakrar dagsetningar.  
 
 |Kóði|Niðurstaða|  
 |--------------|----------------|  
@@ -202,13 +202,13 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 
  Hér eru nokkur dæmi um hvernig nota má dagsetningarreiknireglur:  
 
--   Dagsetningarreikniregla í ítrekunartíðnireitnum í ítrekunarbókum ákvarðar hversu oft færsla í færslubókarlínu er bókuð.  
+- Dagsetningarreikniregla í ítrekunartíðnireitnum í ítrekunarbókum ákvarðar hversu oft færsla í færslubókarlínu er bókuð.  
 
--   Dagsetningarreikniregla í reitnum Biðtími fyrir tiltekið innheimtustig ákvarðar það tímabil sem þarf að líða frá gjalddaga (eða frá dagsetningu fyrri innheimtubréfs) áður en innheimtubréf er búið til.  
+- Dagsetningarreikniregla í reitnum Biðtími fyrir tiltekið innheimtustig ákvarðar það tímabil sem þarf að líða frá gjalddaga (eða frá dagsetningu fyrri innheimtubréfs) áður en innheimtubréf er búið til.  
 
--   Dagsetningarreikniregla í reitnum Gjalddagaútreikningur ákvarðar hvernig kerfið reiknar gjalddaga á innheimtubréfinu.  
+- Dagsetningarreikniregla í reitnum Gjalddagaútreikningur ákvarðar hvernig kerfið reiknar gjalddaga á innheimtubréfinu.  
 
- Dagsetningarreikniregla getur mest haft 20 stafi, bæði tölu- og bókstafi. Hægt er að nota eftirfarandi stafi sem skammstafanir fyrir tiltekinn tíma.  
+  Dagsetningarreikniregla getur mest haft 20 stafi, bæði tölu- og bókstafi. Hægt er að nota eftirfarandi stafi sem skammstafanir fyrir tiltekinn tíma.  
 
 |||  
 |-|-|  

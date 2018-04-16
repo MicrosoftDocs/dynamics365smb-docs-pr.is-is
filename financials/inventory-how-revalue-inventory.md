@@ -25,7 +25,7 @@ Ef endurmeta á til hækkunar eða lækkunar birgðavirði vöru eða tiltekinna
 ## <a name="to-revalue-inventory"></a>Að endurmeta birgðir
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **endurmatsbók** og velja svo viðeigandi tengil.
 2. Veljið aðgerðina **Reikna út birgðavirði**.
-3. Í glugganum **Reikna út birgðavirði** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Í glugganum **Reikna út birgðavirði** þarf að fylla reitina út eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velja hnappinn **Í lagi**.
 5. Í hverri línu í glugganum **Endurmatsbók** skal færa inn nýtt kostnaðarverð í reitinn **Kostnaðarverð (endurmetið)**. Einnig er hægt að færa inn nýja samtölu í reitinn **Birgðavirði (endurmetið)**.
 

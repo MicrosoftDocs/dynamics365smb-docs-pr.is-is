@@ -80,8 +80,8 @@ Framleiðslufyrirtæki þarf framleiðslufyrirtæki að koma á fót þeim stö�
 
 Hraði hverrar tímagerðar fyrir hverja vél eða vinnustöð er settur upp á sérstakri leið.  
 
-> [!NOTE]  
-    >  Keyrslutímahraði gildir fyrir hverja vörueiningu sem framleidd er, en uppsetningartímahraði gildir fyrir hverja lotu. Þess vegna þarf að deila leiðaruppsetningartíma hverrar aðgerðar yfir lotustærðina. Lotustærðin er tilgreind í samsvarandi reit á flýtiflipanum **Pantanir** á birgðaspjaldinu.  
+> [!NOTE]
+>  Keyrslutímahraði gildir fyrir hverja vörueiningu sem framleidd er, en uppsetningartímahraði gildir fyrir hverja lotu. Þess vegna þarf að deila leiðaruppsetningartíma hverrar aðgerðar yfir lotustærðina. Lotustærðin er tilgreind í samsvarandi reit á flýtiflipanum **Pantanir** á birgðaspjaldinu.  
 
 Til að tilgreina uppsetningartíma á leiðinni fyrir áætlun en ekki taka þessi útgjöld með í stöðluðum kostnaðarútreikningi skal hreinsa reitinn **Kostnaður með uppsetningu** í glugganum **Framleiðsluuppsetning**.  
 

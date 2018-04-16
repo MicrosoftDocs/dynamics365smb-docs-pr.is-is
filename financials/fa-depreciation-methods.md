@@ -31,11 +31,11 @@ Tiltækar eru átta afskriftaaðferðir:
 * Handvirkt  
 
   > [!NOTE]  
->   Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land. Færa þarf afskriftir eigna í eignafjárhagsfærslubók. Runuvinnslan **Reikna afskriftir** sleppir eignum sem þessi afskriftaaðferð er notuð á.  
+  >   Hægt er að nota þessa aðferð á eignir sem ekki eru afskrifanlegar, til dæmis land. Færa þarf afskriftir eigna í eignafjárhagsfærslubók. Runuvinnslan **Reikna afskriftir** sleppir eignum sem þessi afskriftaaðferð er notuð á.  
 * Tvisvar ári  
 
   > [!NOTE]  
->    Þegar þessi aðferð er notuð er eignin afskrifuð um sömu upphæð á hverju ári.  
+  >    Þegar þessi aðferð er notuð er eignin afskrifuð um sömu upphæð á hverju ári.  
 
 ## <a name="straight-line-depreciation"></a>Beinlínuafskrift
 Þegar beinlínuaðferðin er notuð verður að tilgreina einn af eftirfarandi valkostum í eignaafskriftabókinni:  
@@ -233,7 +233,7 @@ Notandaskilgreindu aðferðina má einnig nota til að afskrifa eftir fjölda ei
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afskriftatöflur** og velja svo viðeigandi tengil.  
 2. Í glugganum **listi yfir afskriftartöflur** skal velja aðgerðina **Nýtt**.  
-3. Í glugganum **kort afskriftartöflu** skal fylla inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Í glugganum **kort afskriftartöflu** skal fylla inn í svæðin eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Dæmi - Notandaskilgreindar afskriftaraðferð
 Notuð er afskriftaaðferð sem gerir kleift að afskrifa eignir hraðar vegna tekjuskatts.  

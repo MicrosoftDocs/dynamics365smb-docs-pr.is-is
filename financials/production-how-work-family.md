@@ -31,7 +31,7 @@ Stofnun framleiðslusamsafna dregur úr úrkastsmagninu vegna þess að það se
 
 ## <a name="to-set-up-a-production-family"></a>Uppsetning framleiðslusamsafns
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Samsafn** og velja svo viðeigandi tengil.
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-familily"></a>Framleiða byggir á framleiðslusamsafni
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Fastáætluð framleiðslupöntun** og velja svo viðeigandi tengil.

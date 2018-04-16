@@ -33,7 +33,7 @@ Hægt er að stofna reikning fyrir verk eða einn eða fleiri verkhluta fyrir vi
 Í glugganum **Verk** er hægt að reikningsfæra til viðskiptamanns með því að velja verkið og velja svo aðgerðina **Stofna sölureikning verks**. Eftirfarandi ferli sýnir hvernig á að nota keyrslu til að reikningsfæra fleiri verk.  
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk stofna Innkaupareikningur** og velja svo viðeigandi tengil.  
-2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Ef takmarka á verk sem keyrslan á að vinna skal tilgreina afmarkanir.
 4. Velja hnappinn **Í lagi** til að stofna reikningana.  
 

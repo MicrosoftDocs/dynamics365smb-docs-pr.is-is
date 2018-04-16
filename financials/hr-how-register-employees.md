@@ -32,7 +32,7 @@ Eftirfarandi aðferðir lýsa því hvernig á að búa til fyrsta starfsmannasp
 ## <a name="to-set-up-an-employee"></a>Uppsetning starfsmanns
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **starfsmenn** og velja svo viðeigandi tengil.
 2. Valið er **Nýtt** aðgerð.
-3. Í glugganum **Starfsmannaspjald** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Í glugganum **Starfsmannaspjald** skal fylla út reitina eins og þörf krefur. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Setja inn mynd af starfsmanni.
 Ef þú ert með mynd af starfsmanni í .bmp sniði, getur þú sett það á starfsmannaspjaldið.

@@ -28,12 +28,12 @@ ms.lasthandoff: 03/22/2018
   
 ## <a name="to-set-up-a-standard-service-code"></a>Uppsetning staðlaðra þjónustukóta    
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **staðlaður þjónustukóði** og velja svo viðeigandi tengil.  
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Fylla út þjónustulínur tengdar þessum þjónustukóta.  
+2. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Fylla út þjónustulínur tengdar þessum þjónustukóta.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Stöðluðum þjónustukóta úthlutað til þjónustuvöruhóps
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuvöruflokkar** eða Tilföng og velja svo viðeigandi tengil.  
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Fylla út þjónustulínur tengdar þessum þjónustukóta.  
 
 ## <a name="see-also"></a>Sjá einnig

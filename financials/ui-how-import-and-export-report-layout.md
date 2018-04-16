@@ -37,19 +37,19 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
   
 ### <a name="to-import-a-report-layout-file"></a>Til að flytja inn skýrsluútlit úr skrá  
   
-1.  Tryggja þarf að viðeigandi skrá sem tilgreinir skýrsluútlitið sé til staðar í tölvunni eða á netinu.  
+1. Tryggja þarf að viðeigandi skrá sem tilgreinir skýrsluútlitið sé til staðar í tölvunni eða á netinu.  
   
-     Word-skýrsluútlitsskrá verður að vera með .docx-skráarendingu. RDLC-skýrsluútlitsskrá verður að vera með .rdlc- eða .rdl-skráarendingu.  
+    Word-skýrsluútlitsskrá verður að vera með .docx-skráarendingu. RDLC-skýrsluútlitsskrá verður að vera með .rdlc- eða .rdl-skráarendingu.  
   
-2.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Val á útliti skýrslu** og velja svo viðeigandi tengil.  
+2. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Val á útliti skýrslu** og velja svo viðeigandi tengil.  
   
-3.  Veldu röðina fyrir skýrsluna sem þú vilt flytja inn skýrsluútlitið, og svo, á flipanum **Heim** í hópnum **Vinna** veldu **Sérstillt útlit**.  
+3. Veldu röðina fyrir skýrsluna sem þú vilt flytja inn skýrsluútlitið, og svo, á flipanum **Heim** í hópnum **Vinna** veldu **Sérstillt útlit**.  
   
-4.  Í glugganum **Skýrsluútlit** skal velja útlit sem flytja á inn í skrána og svo á flipanum **Heim** í hópnum **Vinna** velja **Flytja inn útlit**.  
+4. Í glugganum **Skýrsluútlit** skal velja útlit sem flytja á inn í skrána og svo á flipanum **Heim** í hópnum **Vinna** velja **Flytja inn útlit**.  
   
-5.  Í svarglugganum **Flytja inn** skal velja skjalið sem skilgreinir skýrsluútlitið og svo velja **Opna**.  
+5. Í svarglugganum **Flytja inn** skal velja skjalið sem skilgreinir skýrsluútlitið og svo velja **Opna**.  
   
- Upprunalega sérsniðna skýrsluútlitinu er skipt út með innflutta skýrsluútlitinu.  
+   Upprunalega sérsniðna skýrsluútlitinu er skipt út með innflutta skýrsluútlitinu.  
   
 ## <a name="see-also"></a>Sjá einnig  
  [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md)   

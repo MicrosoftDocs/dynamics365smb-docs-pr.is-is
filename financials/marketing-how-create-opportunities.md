@@ -30,7 +30,7 @@ Hægt er að stofna tækifæri úr glugganum **Tækifæralisti**. En yfirleitt e
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **sölufólk** og velja svo viðeigandi tengil.
 2. Veljið sölumanninn úr listanum sem á að stofna tækifæri fyrir.
 3. Lokið aðgerðinni **Tækifæri** og veljið síðan **Listi**.
-4. Veljið **Í lagi** og fyllið svo inn í viðeigandi svæði. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Veljið **Í lagi** og fyllið svo inn í viðeigandi svæði. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 

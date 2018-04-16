@@ -22,15 +22,16 @@ ms.lasthandoff: 03/22/2018
 <!--NAV # Customizing Dynamics NAV -->
 Það eru mismunandi leiðir til að sérstilla forritið til að gefa þér og samstarfsmönnum þínum aðgang að þeim eiginleikum, virkni og gögnum sem þú þarft mest á þann hátt sem hentar best daglegu starfi þínu. Það hvaða breytingar sjást veltur á því hvað þú gerir, eins og lýst er í þessari töflu.
 
-| Það sem hægt er að gera    |  Description  |  Hver sér breytingarnar  |  Meiri upplýsingar  |
-|-----|---------------|---------|-------|
-|Setja upp viðbót|Viðbætur eru líkt og smáforrit sem bæta við virkni, breyta hegðun, veita þér aðgang að nýjum netþjónustum og fleira. Til dæmis veitir Microsoft viðbót sem veitir samþættingu við PayPal Payments Standard.|Allir notendur í öllum fyrirtækjum.|[Sérstilling með viðbótum](ui-extensions.md)|
-|Breyta upplifun|Ein stilling, stillingin *Upplifun* ákvarðar hversu mikið af grunnvirkni er til staðar. Eins og er eru tvö stig: Grunnstig og Grundvallarstig.|Notendur í tilteknu fyrirtæki.|[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md)|
-|Sérstilling verksvæðis|Breyta útliti og efni síðna þinna.|Aðeins þú.|[Sérstillingar verksvæðis](ui-personalization-user.md)|
+
+|      Það sem hægt er að gera       |                                                                                                              Description                                                                                                               |       Hver sér breytingarnar       |                                       Meiri upplýsingar                                       |
+|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|----------------------------------------------------------------------------------------------|
+|    Setja upp viðbót    | Viðbætur eru líkt og smáforrit sem bæta við virkni, breyta hegðun, veita þér aðgang að nýjum netþjónustum og fleira. Til dæmis veitir Microsoft viðbót sem veitir samþættingu við PayPal Payments Standard. |   Allir notendur í öllum fyrirtækjum.    |                       [Sérstilling með viðbótum](ui-extensions.md)                       |
+|   Breyta upplifun    |                                     Ein stilling, stillingin *Upplifun* ákvarðar hversu mikið af grunnvirkni er til staðar. Eins og er eru tvö stig: Grunnstig og Grundvallarstig.                                      | Notendur í tilteknu fyrirtæki. | [Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md) |
+| Sérstilling verksvæðis |                                                                                              Breyta útliti og efni síðna þinna.                                                                                              |            Aðeins þú.             |                  [Sérstillingar verksvæðis](ui-personalization-user.md)                  |
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+## [!INCLUDE [d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE [d365fin](includes/training_link_md.md)]
 

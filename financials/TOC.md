@@ -151,7 +151,7 @@
 
 # [Fjármál](finance.md)
 ## [Stjórnun skulda](receivables-manage-receivables.md)
-###[Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Afstemma greiðslur viðskiptamanna handvirkt úr lista yfir ógreidd söluskjöl](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Jafna greiðslur viðskiptamanns handvirkt](receivables-how-apply-sales-transactions-manually.md)  
 ### [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)

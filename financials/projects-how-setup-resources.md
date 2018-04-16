@@ -31,7 +31,7 @@ Stofna skal spjald fyrir hvern forða sem á að nota í verkefnum.
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forði** og velja svo viðeigandi tengil.
 2. Valið er **Nýtt** aðgerð.
-3. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Fyllið inn í svæðin eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Að setja upp forðaflokk
 Hægt er að flokka forða saman í einn forðaflokk. Geta og áætlanir forðaflokka eru samsafn einstakra forða. Einnig er hægt að tilgreina getu forðaflokka, annaðhvort óháð samanlögðu verðmæti eða til viðbótar við það.

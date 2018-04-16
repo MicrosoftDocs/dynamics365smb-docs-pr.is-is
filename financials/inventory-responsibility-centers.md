@@ -29,11 +29,11 @@ Margar birgðageymslur gera fyrirtækjum kleift að stjórna birgðum sínum á 
 Ábyrgðastöðvar útvíkka margar birgðageymslur með því að gera notendum kleift að stjórna stjórnunarmiðstöðvum. Ábyrgðamiðstöð getur verið kostnaðarmiðstöð, hagnaðarmiðstöð, fjárfestingamiðstöð eða önnur fyrirtækisskilgreind stjórnunarmiðstöð. Dæmi um ábyrgðarmiðstöðvar eru söluskrifstofur, innkaupadeild fyrir nokkrar birgðageymslur og verksmiðjuskipulagsdeild. Með þessari virkni, geta fyrirtæki til dæmis sett upp fyrir notendur sértæk yfirlit yfir sölu- og innkaupaskjöl sem tengjast vissum ábyrgðarstöðvum.
 
 ## <a name="to-set-up-a-responsibility-center"></a>Uppsetning ábyrgðarstöðva  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Ábyrgðastöðvar** og velja svo viðeigandi tengil.  
-2.  Valið er **Nýtt** aðgerð.  
-3.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Ábyrgðastöðvar** og velja svo viðeigandi tengil.  
+2. Valið er **Nýtt** aðgerð.  
+3. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Ef ábyrgðarstöðvar eru notaðar til að sjá um fyrirtækið getur verið gott að hafa sjálfgefna ábyrgðarstöð fyrir fyrirtækið.
+   Ef ábyrgðarstöðvar eru notaðar til að sjá um fyrirtækið getur verið gott að hafa sjálfgefna ábyrgðarstöð fyrir fyrirtækið.
 4. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fyrirtækjaupplýsingar** og velja svo viðeigandi tengil.
 5. Í **Ábyrgðastöð** reitnum er kóði ábyrgðarstöðvar færður inn.
 

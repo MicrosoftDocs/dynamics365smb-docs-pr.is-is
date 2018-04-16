@@ -41,7 +41,7 @@ Hægt er að búa til VÍV-aðferð sem endurspeglar þarfir fyrirtækisins. Þe
 > Þegar búið er að nota nýju aðferðina til að stofna VÍV-færslur, er ekki hægt að eyða aðferðinni eða breyta henni.  
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk VÍV aðferðir** og velja svo viðeigandi tengil.  
-2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Glugganum er lokað.   
 4. Til að gera þessa nýju aðferð sjálfgefna, skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning verka** og velja svo viðeigandi tengil.  
 5. Í reitnum **Sjálfgefin vÍv-aðferð** veljið aðferðina af listanum.

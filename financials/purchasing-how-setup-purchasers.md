@@ -25,7 +25,7 @@ Ef nokkrir innkaupaaðilar vinna í fyrirtækinu er hægt að setja þá upp í 
 ## <a name="to-set-up-purchasers"></a>Innkaupaaðilar settir upp
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölufólk/Innkaupaaðilar** og velja svo viðeigandi tengil.
 2. Í glugganum **Sölumenn/Innkaupaaðilar** skal velja **Nýtt**.
-3. Fyllið út í reitina í glugganum **sölumenn/innkaupaaðilar** eins og nauðsynlegt er. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyllið út í reitina í glugganum **sölumenn/innkaupaaðilar** eins og nauðsynlegt er. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Lánardrottnum úthlutað innkaupaaðilar:
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **lánardrottnar** og velja svo viðeigandi tengil.

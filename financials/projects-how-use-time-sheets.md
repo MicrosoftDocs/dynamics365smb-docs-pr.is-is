@@ -33,7 +33,7 @@ Hægt er að nota keyrsluna **Stofna vinnuskýrslur** til að setja upp vinnusk�
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **vinnuskýrslur** og velja svo viðeigandi tengil.
 2. Í glugganum **Vinnuskýrslulisti** skal velja aðgerðina **Búa til vinnuskýrslur**.
-3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Reitirnir **Nota vinnuskýrslu** og **Notandakenni eiganda vinnuskýrslu** verða að vera fylltir út á spjaldinu fyrir forða vinnuskýrslunnar.
@@ -77,16 +77,16 @@ Vinnuskýrsluskráning er rakin í klukkustundum, sem er stöðluð grunnmæliei
 3. Fyllið í reitina í línu eins og þörf krefur. Færið inn fjölda stunda sem forðinn notar hvern dag vikunnar.
 
     > [!TIP]  
->   Hægt er að fara yfir samtölu tímaskýrslustunda sem settar hafa verið inn í upplýsingakassann **Rauntími/áætlaður tími samantekt**  
+   >   Hægt er að fara yfir samtölu tímaskýrslustunda sem settar hafa verið inn í upplýsingakassann **Rauntími/áætlaður tími samantekt**  
 4. Endurtakið skref 3 fyrir aðrar tegundir vinnu sem forðinn innir af hendi.
 5. Veljið aðgerðina **Senda** og veljið svo aðgerðina **Allar opnar línur** til að senda allar línur eða aðgerðina **Aðeins valdar línur** til að senda aðeins þær línur sem eru valdar í glugganum **Vinnuskýrsla**.  
 
     > [!NOTE]  
->   Aðeins er hægt að senda tímaskýrslulínur sem innihalda skráðan tíma.  
+   >   Aðeins er hægt að senda tímaskýrslulínur sem innihalda skráðan tíma.  
 6. Til að breyta upplýsingum í línu sem hefur verið stillt á **Sent** skal velja línu og velja svo aðgerðina **Enduropna**.
 
     > [!NOTE]  
->   Stundum gæti stjórnandi hafnað tímaskýrslulínu sem lögð er fram til samþykktar. Ef lína hefur stöðuna **Hafnað** er hægt að gera breytingar í línunni og velja **Senda** aftur.  
+   >   Stundum gæti stjórnandi hafnað tímaskýrslulínu sem lögð er fram til samþykktar. Ef lína hefur stöðuna **Hafnað** er hægt að gera breytingar í línunni og velja **Senda** aftur.  
 7. Velja hnappinn **Í lagi**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Til að samþykkja eða hafna vinnuskýrslu
@@ -111,7 +111,7 @@ Senda þarf vinnuskýrslu til samþykkis áður en hægt er að nota hana. Hægt
 2. Opnið vinnuskýrslu úr listanum.  
 
     > [!NOTE]  
->   Aðeins er hægt að enduropna línur sem hafa stöðuna **Samþykkt**. Ekki er hægt að enduropna línur með stöðuna **Hafnað**. Ekki er hægt að opna vinnuskýrslu á ný hafi nú verið bókuð.  
+   >   Aðeins er hægt að enduropna línur sem hafa stöðuna **Samþykkt**. Ekki er hægt að enduropna línur með stöðuna **Hafnað**. Ekki er hægt að opna vinnuskýrslu á ný hafi nú verið bókuð.  
 3. Í glugganum **Vinnuskýrsla** skal velja aðgerðina **Enduropna** og velja svo aðgerðina **Allar sendar línur** til að enduropna allar línur eða aðgerðina **Aðeins valdar línur** til að enduropna aðeins þær línur sem eru valdar í glugganum **Vinnuskýrsla**.
 4. Velja hnappinn **Í lagi**. Staða vinnuskýrslulínunnar eða -línanna breytist í **Sent**.  
 
@@ -134,7 +134,7 @@ Eftir að búið er að samþykkja vinnuskýrslufærslur fyrir verk, er hægt a�
 4. Velja hnappinn **Í lagi**. Færslur fyrir notkun eru stofnaðar í verkbókinni þar sem hægt er að breyta upplýsingunum eftir þörfum.  
 
     > [!NOTE]  
->   Upplýsingar um tegund verks og hvort verkið er reikningshæft eru afritaðar úr vinnuskýrslulínu. Ef þörf krefur er hægt að fækka klukkustundum og bóka að hluta. Ef magnið er minnkað mun línan sem stofnuð er innihalda eftirstandandi klukkustundir næst þegar aðgerðin **Stinga upp á línum úr vinnuskýrslum** er valin.  
+   >   Upplýsingar um tegund verks og hvort verkið er reikningshæft eru afritaðar úr vinnuskýrslulínu. Ef þörf krefur er hægt að fækka klukkustundum og bóka að hluta. Ef magnið er minnkað mun línan sem stofnuð er innihalda eftirstandandi klukkustundir næst þegar aðgerðin **Stinga upp á línum úr vinnuskýrslum** er valin.  
 5. Valið er **bóka** aðgerð.  
 6. Til að staðfesta bókunina skal velja aðgerðina **Verkfærslur**. Glugginn **Verkfærslur** opnast og sýnir niðurstöður bókunar forðabókarinnar.
 

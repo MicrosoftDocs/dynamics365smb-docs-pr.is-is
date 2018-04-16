@@ -38,22 +38,22 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
 ## <a name="to-test-custom-report-layout-updates"></a>Til að prófa uppfærslur á sérsniðið skýrsluútlit  
   
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Val á útliti skýrslu** og velja svo viðeigandi tengil.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Val á útliti skýrslu** og velja svo viðeigandi tengil.  
   
-2.  Í glugganum **Val Útlit skýrslu** er valið aðgerðin **Prufa uppfærsla útlit**.  
+2. Í glugganum **Val Útlit skýrslu** er valið aðgerðin **Prufa uppfærsla útlit**.  
   
- Breytingar á skýrsluútliti eru prufaðar en ekki settar upp raunverulega í skýrsluútlitinu. Glugginn **Uppfærslukladdi skýrsluútlits** birtist og sýnir stöðu á mögulegum uppfærslum fyrir hvert skýrsluútlit Ef villur koma upp fyrir skýrsluútlit er hægt að opna skýrsluútlit beint til að breyta og lagfæra villur. Frekari upplýsingar eru í [Villur leiðréttar](ui-update-report-layouts.md#FixErrors).  
+   Breytingar á skýrsluútliti eru prufaðar en ekki settar upp raunverulega í skýrsluútlitinu. Glugginn **Uppfærslukladdi skýrsluútlits** birtist og sýnir stöðu á mögulegum uppfærslum fyrir hvert skýrsluútlit Ef villur koma upp fyrir skýrsluútlit er hægt að opna skýrsluútlit beint til að breyta og lagfæra villur. Frekari upplýsingar eru í [Villur leiðréttar](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Takmarkanir á uppfærslum sérsniðins skýrsluútlits  
  Nokkrar gerðir af breytingum getur sjálfvirk uppfærsla notað í sérsniðnu skýrsluútliti, til dæmis ef reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnasafni skýrslunnar. Sjálfvirk uppfærsla getur hins vegar ekki ráðið við eftirfarandi breytingar á skýrsluútliti.  
   
-1.  Reitir, merkimiðar eða gagnavörur sem hefur verið eytt.  
+1. Reitir, merkimiðar eða gagnavörur sem hefur verið eytt.  
   
-2.  Tvítekning á heitum reita í skýrsluútliti eftir að reitur hefur verið endurnefndur í gagnasafni. Fara skal með þetta sem hönnunargalla.  
+2. Tvítekning á heitum reita í skýrsluútliti eftir að reitur hefur verið endurnefndur í gagnasafni. Fara skal með þetta sem hönnunargalla.  
   
-3.  Uppfæra sviðsmyndir þar sem koma fram margar ítrekana á skýrsluútliti sem valda mörgum endurnefningaraðgerðum á sama reit, merkimiði eða gagnahlut.  
+3. Uppfæra sviðsmyndir þar sem koma fram margar ítrekana á skýrsluútliti sem valda mörgum endurnefningaraðgerðum á sama reit, merkimiði eða gagnahlut.  
   
- Ef uppfærsluferlið greinir þessi vandamál er ekki hægt að nota uppfærsluna. Laga verður þessi vandamál handvirkt, t.d. með því að breyta skýrsluútliti í Word eða með forritun og notkun á uppfærslukóðaeiningum.  
+   Ef uppfærsluferlið greinir þessi vandamál er ekki hægt að nota uppfærsluna. Laga verður þessi vandamál handvirkt, t.d. með því að breyta skýrsluútliti í Word eða með forritun og notkun á uppfærslukóðaeiningum.  
   
 ##  <a name="FixErrors"></a> Villur leiðréttar  
  Ef þú færð ennþá villuboð við uppfærslu eða prófun á uppfærslu skýrsluútlits þá muntu líklega þurfa að breyta skýrsluútliti til að laga vandamálið. Lesa skal villuboðin til ráða orsök vandamálsins.  

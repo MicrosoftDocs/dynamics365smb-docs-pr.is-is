@@ -29,7 +29,7 @@ Hægt er að setja upp hvern viðskiptavin með valinni aðferð við að senda 
 ## <a name="to-set-up-a-document-sending-profile"></a>Að setja upp sendingarsnið skjala
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **forstilling skjalasendingar** og velja svo viðeigandi tengil.
 2. Í glugganum **Sendisnið skjala** skal velja aðgerðina **Nýtt**.
-3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Til að tilgreina sendingarsnið á viðskiptamannaspjaldi
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil.

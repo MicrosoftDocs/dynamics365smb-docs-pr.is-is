@@ -38,7 +38,7 @@ Greiðslur sem bókaðar eru samkvæmt vörpun texta á reikning eru ekki jafna�
 4. Í reitinn **vörpun texta** skal færa inn þann texta sem er á greiðslum sem á að bóka í tiltekna reikninga án jöfnunar við opnar færslur. Hægt er að færa inn allt að 50 stafi.
 
     > [!NOTE]  
->   Ef engar aðrar greiðslur eru til staðar innan vörpunartextans sem um ræðir, þá kemur upp vörpun texta á reikning jafnvel þó aðeins hluti textans á greiðsluskjalinu er til staðar sem vörpunartexti.
+   >   Ef engar aðrar greiðslur eru til staðar innan vörpunartextans sem um ræðir, þá kemur upp vörpun texta á reikning jafnvel þó aðeins hluti textans á greiðsluskjalinu er til staðar sem vörpunartexti.
 5. Í **Númer lánardrottins** reitinn skal færa inn lánardrottinn sem greiðslur verða bókaðar á.
 6. Í reitinn **Upprunagerð stöðu** skal tilgreinga hvort greiðslan verður bókuð á fjárhagsreikning eða á viðskiptamann eða lánardrottinn.
 7. Í **Upprunanúmer stöðu** skal tilgreina reikninginn sem greiðslan verður bókuð á, allt eftir valinu í reitnum **Upprunagerð stöðu**.
@@ -57,7 +57,7 @@ Til að bóka alltaf eldsneytiskostnað sem stofnað er til á Shell-bensínstö
 | --- | --- | --- | --- | --- |
 | Skel |AUTT |8510 |Fjárhagsreikningur |AUTT |
 
-> [!TIP]  
+> [!TIP]
 >   Frekari upplýsingar um hvernig skal vinna með reiti og dálka, sjá [Vinna með [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). Nánari upplýsingar um hvernig finna má tilteknar síður eru í [Leita](ui-search.md).
 
 ## <a name="see-also"></a>Sjá einnig

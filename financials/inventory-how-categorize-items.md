@@ -27,7 +27,7 @@ Til að finna vörur eftir eiginleika er hægt að úthluta vörueigindum á vö
 ## <a name="to-create-an-item-category"></a>Að búa til vöruflokka
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörurflokkar** og velja svo viðeigandi tengil.
 2. Í glugganum **vöruflokkar** skal velja aðgerðina **Nýtt**.
-3. Í glugganum **vöruflokkaspjald**, á flipanum **Almennt**, eru eftirfarandi reitir fylltir út: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Í glugganum **vöruflokkaspjald**, á flipanum **Almennt**, eru eftirfarandi reitir fylltir út: [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Í **eigindir** Flýtiflipanum skal tilgreina hvers kyns vörueigindum fyrir vöruflokk. Nánari upplýsingar eru í „Að úthluta vörueigindum á vöruflokk hlutanum“ í [Vinna með vörueigindir](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

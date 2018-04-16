@@ -26,10 +26,10 @@ Finna má síður og skýrslur með því að nota **Leit að síðu eða skýrs
 
 Þegar byrjað er að slá stafi , birtist fellilisti með síðuheitum með stöfunum sem slegnir eru inn. Fellilistinn breytist eftir því sem fleiri stafir eru slegnir inn og hægt er að velja réttu síðuna úr listanum þegar hún birtist. Annar reiturinn í fellilistanum sýnir slóðina á síðurnar sem finnast. Einnig er til staðar tengill sem hægt er að nota til að leita í hjálparefni að stöfunum sem slegnir voru inn.
 
-> [!NOTE]  
+> [!NOTE]
 >   Fyrirliggjandi síður og skýrslur byggjast á notendaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Mikilvægar** upplifanir gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Nánari upplýsingar, sjá [Sérstilla þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md).
-
-> [!NOTE]  
+> 
+> [!NOTE]
 >   Valkosturinn **Leita að síðu eða skýrslu** leitar ekki í gögnum, líkt og heitum viðskiptamanna, aðsetri eða færslum. Í staðinn er hægt að leita að gögnum á listasíðum með því að velja stækkunarglerstáknið í hægra horninu á listahausnum. Leitin á aðeins við um listann sem verið er að skoða. Frekari upplýsingar eru í [Skilyrði í afmörkunum](ui-enter-criteria-filters.md).
 
 ## <a name="see-also"></a>Sjá einnig

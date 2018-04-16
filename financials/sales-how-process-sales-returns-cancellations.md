@@ -107,17 +107,17 @@ Bókuðu söluskjölin sem jafnað var við kreditreikninginn eru nú bakfærði
 
     Eftirfarandi ferli fara fram:  
 
-    -   Fyrir bókaðar fylgiskjalslínur af tegundinni **Vara** er ný fylgiskjalslína stofnuð sem er afrit af bókuðu fylgiskjalslínunni með magni sem ekki hefur verið bakfært. Fyllt er inn í **jafna við birgðafærslu** svæðið, fyrir innkaupaskjöl, eins og við á, með færslunúmeri birgðahöfuðbókar bókaðrar skjalslínu.  
+   - Fyrir bókaðar fylgiskjalslínur af tegundinni **Vara** er ný fylgiskjalslína stofnuð sem er afrit af bókuðu fylgiskjalslínunni með magni sem ekki hefur verið bakfært. Fyllt er inn í **jafna við birgðafærslu** svæðið, fyrir innkaupaskjöl, eins og við á, með færslunúmeri birgðahöfuðbókar bókaðrar skjalslínu.  
 
-    -   Fyrir bókaðar fylgiskjalslínur sem eru ekki af tegundinni **Vara** t.d. kostnaðarauki er ný fylgiskjalslína stofnuð sem er afrit af upphaflegu bókuðu fylgiskjalslínunni.  
+   - Fyrir bókaðar fylgiskjalslínur sem eru ekki af tegundinni **Vara** t.d. kostnaðarauki er ný fylgiskjalslína stofnuð sem er afrit af upphaflegu bókuðu fylgiskjalslínunni.  
 
-    -   Reiknar reitinn **Kostn.verð (SGM)** í nýju línunni úr kostnaði í samsvarandi birgðafærslu.  
+   - Reiknar reitinn **Kostn.verð (SGM)** í nýju línunni úr kostnaði í samsvarandi birgðafærslu.  
 
-    -   Ef afritaða fylgiskjalið er bókuð afhending, bókuð móttaka, bókuð vöruskilamóttaka eða bókuð vöruskilaafhending er kostnaðarverðið úr birgðaspjaldinu reiknað sjálfkrafa.  
+   - Ef afritaða fylgiskjalið er bókuð afhending, bókuð móttaka, bókuð vöruskilamóttaka eða bókuð vöruskilaafhending er kostnaðarverðið úr birgðaspjaldinu reiknað sjálfkrafa.  
 
-    -   Ef bókaða fylgiskjalið er bókaður reikningur eða kreditreikningur er kostnaðarverðið, reikningsafsláttur og línuafsláttur afritað úr bókuðu fylgiskjalslínunni.  
+   - Ef bókaða fylgiskjalið er bókaður reikningur eða kreditreikningur er kostnaðarverðið, reikningsafsláttur og línuafsláttur afritað úr bókuðu fylgiskjalslínunni.  
 
-    -   Ef bókaða fylgiskjalslínan inniheldur vörurakningarlínu er reiturinn **Jafna við birgðafærslu** í vörurakningarlínunni fylltur með viðeigandi birgðafærslunúmerum úr bókuðu vörurakningarlínunum.  
+   - Ef bókaða fylgiskjalslínan inniheldur vörurakningarlínu er reiturinn **Jafna við birgðafærslu** í vörurakningarlínunni fylltur með viðeigandi birgðafærslunúmerum úr bókuðu vörurakningarlínunum.  
 
      Þegar bókaður reikningur eða bókaður kreditreikningur er afritaður afritar kerfið viðeigandi reikningsafslætti og línuafslætti sem gilda við bókun fylgiskjalsins úr bókuðu fylgiskjalslínunni í nýju fylgiskjalslínunni. Hins vegar þarf að hafa í huga að ef valkosturinn **Reikna reikn.afsl.** er ræstur í **Uppsetning Sala & Útistandandi** glugganum, er reikningsafslátturinn nýreiknaður þegar nýja fylgiskjalslínan er bókuð. Þess vegna getur verið að línuupphæðin fyrir nýju línuna sé önnur en línuupphæðin fyrir bókuðu fylgiskjalslínuna, allt eftir nýja útreikningnum á reikningsafslættinum.  
 

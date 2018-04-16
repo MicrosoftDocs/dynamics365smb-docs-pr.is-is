@@ -30,8 +30,8 @@ Hægt er að nota þjónustutilboð sem drög að þjónustupöntun og svo má b
 3. Í reitnum **númer** er fært inn númer fyrir þjónustutilboðið. Hafi númeraröð fyrir þjónustutilboð verið sett upp í glugganum **Þjónustukerfisgrunnur** er einnig hægt að styðja á færslulykilinn til að velja næsta lausa þjónustutilboðsnúmer.  
 4. Í **Númer viðskiptamanns**  reitnum, veljið viðeigandi viðskiptamann af listanum.  
 
-  > [!Note]  
-  >  Fyllt er sjálfkrafa í viðskiptavinareiti með upplýsingum úr spjaldinu **Viðskiptavinur**. Ef spjaldið **Viðskiptamaður** er ekki til fyrir viðskiptamanninn og sniðmát hefur ekki verið sett upp fyrir hann er hægt að búa viðskiptamanninn til með þjónustutilboðinu. Fyllið út viðeigandi reitina og veljið svo aðgerðina **Stofna viðskiptamann**.  
+   > [!Note]  
+   >  Fyllt er sjálfkrafa í viðskiptavinareiti með upplýsingum úr spjaldinu **Viðskiptavinur**. Ef spjaldið **Viðskiptamaður** er ekki til fyrir viðskiptamanninn og sniðmát hefur ekki verið sett upp fyrir hann er hægt að búa viðskiptamanninn til með þjónustutilboðinu. Fyllið út viðeigandi reitina og veljið svo aðgerðina **Stofna viðskiptamann**.  
   
 5. Vegna stillinga á flýtiflipanum **Áskildir reitir** í glugganum **Þjónustukerfisgrunnur** þarf kannski að fylla út reitinn **Þjónustupöntunartegund** og reitinn **Kóti sölumanns**.  
 6. Þjónustuvörulínurnar eru fylltar út.  

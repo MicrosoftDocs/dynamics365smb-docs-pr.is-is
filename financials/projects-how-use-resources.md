@@ -29,7 +29,7 @@ Forða er úthlutað á verk með því að búa til verkáætlunarlínur fyrir 
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Til að skrá notkun forða fyrir verk
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkbækur** og velja svo viðeigandi tengil.
-2. Opnið viðeigandi verkbókarfærslu og fyllið út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Opnið viðeigandi verkbókarfærslu og fyllið út reitina eins og þörf krefur. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Þegar færslubókin er tilbúin skal velja aðgerðina **Bóka**.
 
 ## <a name="to-adjust-resource-prices"></a>Til að leiðrétta forðaverð

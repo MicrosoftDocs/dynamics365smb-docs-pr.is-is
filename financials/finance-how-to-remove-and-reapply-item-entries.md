@@ -34,24 +34,24 @@ Nota skal skjal til að endurjafna birgðahöfuðbókarfærslu, ef það er hæg
 
 Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á fasta jöfnun, skal nota gluggann **Vinnublað jöfnunar** til að leiðrétta jöfnun.
 
-> [!Warning]  
+> [!Warning]
 > Eftirfarandi er mikilvægt að hafa í huga þegar unnið er með jöfnunarvinnublaðið:
-    - Ekki ætti að skilja jöfnunarfærslur eftir ójafnaðar í lengri tíma þar sem aðrir notendur geta ekki unnið úr vörum fyrr en jöfnunarfærslurnar eru endurjafnaðar eða glugganum **Vinnublað jöfnunar** er lokað. Notendur sem reyna til að framkvæma aðgerðir sem fela í sér jöfnunarfærslu sem afjöfnuð er handvirkt fá eftirfarandi villuboð: ”Ekki er hægt að framkvæma þessa aðgerð þar sem færslur fyrir vöru XXX eru afjafnaðar í Jöfnunarvinnublaðinu af notanda XXX."
-    - Aðeins ætti að endurjafna birgðafærslur utan vinnu til að forðast hvers konar árekstra við aðra notendur sem eru að bóka færslur með sömu vörum.
-    - Þegar jöfnunarvinnublaðinu er lokað framkvæmir [!INCLUDE[d365fin](includes/d365fin_md.md)] athugun til að tryggja það að allar færslur séu jafnaðar. Ef jöfnun magns er t.d. fjarlægð og ný jöfnun ekki stofnuð, áður en jöfnunarvinnublaðinu er lokað, verður ný jöfnun stofnuð. Þannig helst kostnaðurinn óbreyttur. Hins vegar verður að hafa í huga að ef föst jöfnun er fjarlægð er önnur jöfnun ekki stofnuð sjálfkrafa þegar vinnublaðinu er lokað. Það þarf að gera handvirkt með því að stofna nýja jöfnun í vinnublaðinu.
-    - Hægt er að fjarlægja jöfnun úr fleiri en einni færslu í einu á jöfnunarvinnublaðinu. Hins vegar er ekki mögulegt að stofna jöfnun fyrir fleiri en eina færslu í einu af því að jöfnun færslna hefur áhrif á þær færslur sem eru fyrir hendi til jöfnunar.
-    - Jöfnunarvinnublaðið getur ekki gert jöfnun við eftirfarandi aðstæður: Ef ekki er nógu mikið magn í birgðum til að jafna, jöfnunarvinnublaðið getur ekki gert jöfnun á meðan verið er að reyna að jafna birgðaminnkunarfærslu án vörurakningarupplýsinga við birgðaaukningarfærslu með vörurakningarupplýsingar.
+>     - Ekki ætti að skilja jöfnunarfærslur eftir ójafnaðar í lengri tíma þar sem aðrir notendur geta ekki unnið úr vörum fyrr en jöfnunarfærslurnar eru endurjafnaðar eða glugganum **Vinnublað jöfnunar** er lokað. Notendur sem reyna til að framkvæma aðgerðir sem fela í sér jöfnunarfærslu sem afjöfnuð er handvirkt fá eftirfarandi villuboð: ”Ekki er hægt að framkvæma þessa aðgerð þar sem færslur fyrir vöru XXX eru afjafnaðar í Jöfnunarvinnublaðinu af notanda XXX."
+>     - Aðeins ætti að endurjafna birgðafærslur utan vinnu til að forðast hvers konar árekstra við aðra notendur sem eru að bóka færslur með sömu vörum.
+>     - Þegar jöfnunarvinnublaðinu er lokað framkvæmir [!INCLUDE[d365fin](includes/d365fin_md.md)] athugun til að tryggja það að allar færslur séu jafnaðar. Ef jöfnun magns er t.d. fjarlægð og ný jöfnun ekki stofnuð, áður en jöfnunarvinnublaðinu er lokað, verður ný jöfnun stofnuð. Þannig helst kostnaðurinn óbreyttur. Hins vegar verður að hafa í huga að ef föst jöfnun er fjarlægð er önnur jöfnun ekki stofnuð sjálfkrafa þegar vinnublaðinu er lokað. Það þarf að gera handvirkt með því að stofna nýja jöfnun í vinnublaðinu.
+>     - Hægt er að fjarlægja jöfnun úr fleiri en einni færslu í einu á jöfnunarvinnublaðinu. Hins vegar er ekki mögulegt að stofna jöfnun fyrir fleiri en eina færslu í einu af því að jöfnun færslna hefur áhrif á þær færslur sem eru fyrir hendi til jöfnunar.
+>     - Jöfnunarvinnublaðið getur ekki gert jöfnun við eftirfarandi aðstæður: Ef ekki er nógu mikið magn í birgðum til að jafna, jöfnunarvinnublaðið getur ekki gert jöfnun á meðan verið er að reyna að jafna birgðaminnkunarfærslu án vörurakningarupplýsinga við birgðaaukningarfærslu með vörurakningarupplýsingar.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Að fjarlægja birgðajöfnunarfærslu með jöfnunarvinnublaðinu  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vinnublað jöfnunar** og velja svo viðeigandi tengil.  
-2.  Glugginn **Vinnublaðsjöfnun** opnast og sýnir núverandi vörufærslur í færslubók fyrir allar vörur.  
-3.  Færa inn afmarkanir á flýtiflipanum **Almennt** til að að einfalda leit að birgðafærslu sem gera á jöfnunarbreytingu á.  
-4.  Valin er birgðabókarfærsla og svo **Jafnaðar færslur** aðgerðina. Glugginn **Skoða jafnaðar færslur – Jafnaðar færslur** opnast og birtir birgðafærsluna eða birgðafærslurnar sem eru jafnaðar við völdu færsluna.  
-5.  Valin er sú birgðafærsla sem á að fjarlægja jöfnun af.  
-6.  Valið er **fjarlægja jöfnun** aðgerð. Þetta fjarlægir birgðajöfnunarfærsluna sem tengir birgðafærslurnar og færir hana í glugganum **Skoða jafnaðar færslur - ójafnaðar færslur**.  
-7.  Loka glugganum **Skoða jafnaðar færslur - jafnaðar færslur**.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vinnublað jöfnunar** og velja svo viðeigandi tengil.  
+2. Glugginn **Vinnublaðsjöfnun** opnast og sýnir núverandi vörufærslur í færslubók fyrir allar vörur.  
+3. Færa inn afmarkanir á flýtiflipanum **Almennt** til að að einfalda leit að birgðafærslu sem gera á jöfnunarbreytingu á.  
+4. Valin er birgðabókarfærsla og svo **Jafnaðar færslur** aðgerðina. Glugginn **Skoða jafnaðar færslur – Jafnaðar færslur** opnast og birtir birgðafærsluna eða birgðafærslurnar sem eru jafnaðar við völdu færsluna.  
+5. Valin er sú birgðafærsla sem á að fjarlægja jöfnun af.  
+6. Valið er **fjarlægja jöfnun** aðgerð. Þetta fjarlægir birgðajöfnunarfærsluna sem tengir birgðafærslurnar og færir hana í glugganum **Skoða jafnaðar færslur - ójafnaðar færslur**.  
+7. Loka glugganum **Skoða jafnaðar færslur - jafnaðar færslur**.  
 
- Reiturinn **Eftirstöðvar (magn)** í birgðafærslunum tveimur hækka sem samsvarar því magni sem afjafnað var. Fjarlægða birgðafærslan er nú tiltæk til endurjöfnunar í glugganum **Skoða jafnaðar færslur – ójafnaðar færslur**.  
+   Reiturinn **Eftirstöðvar (magn)** í birgðafærslunum tveimur hækka sem samsvarar því magni sem afjafnað var. Fjarlægða birgðafærslan er nú tiltæk til endurjöfnunar í glugganum **Skoða jafnaðar færslur – ójafnaðar færslur**.  
 
 > [!IMPORTANT]  
 >  Ekki ætti að skilja jöfnunarfærslur eftir ójafnaðar í lengri tíma þar sem aðrir notendur geta ekki unnið úr vörum fyrr en jöfnunarfærslurnar eru endurjafnaðar eða glugganum **Vinnublaðsjöfnun** er lokað. Eftirfarandi villuboð birtast ef reynt er að framkvæma aðgerðir sem fela í sér jöfnunarfærslu sem er gerð óvirk handvirkt.  

@@ -30,7 +30,7 @@ Reitirnir **Staða** í glugganum **Þjónustupöntun** og þjónustuvöruviðge
 * Staða þjónustupöntunar sem allar viðgerðarstöður tengjast. Frekari upplýsingar eru í Þjónustupöntunarstaða.  
 * Forgangsröð fyrir hvern valkost þjónustupöntunarstöðu. Frekari upplýsingar eru í Forgangur.  
   
- Þegar þjónustutilboði er breytt í þjónustupöntun breytir kerfið viðgerðarstöðu hverrar þjónustuvöru í pöntuninni í **Byrjun** og stöðu þjónustupöntunar í **Í undirbúningi**.  
+  Þegar þjónustutilboði er breytt í þjónustupöntun breytir kerfið viðgerðarstöðu hverrar þjónustuvöru í pöntuninni í **Byrjun** og stöðu þjónustupöntunar í **Í undirbúningi**.  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a>Þjónustupöntunarstaða tilgreind fyrir viðgerðarstöðu  
 Hver viðgerðarstaða er tengt tiltekinni þjónustupöntunarstöðu. Valkostirnir fyrir þjónustupöntunarstöðuna eru **Í undirbúningi**, **Í vinnslu**, **Bið** og **Lokið**. Viðgerðarstöðuvalkostir eru eftirfarandi: **Byrjun**, **Í vinnslu**, **Verki vísað**, **Hluta þjónustu lokið**, **Tilboði lokið**, **Beðið eftir viðskiptavini**, **Varahlutur pantaður**, **Varahlutur móttekinn** og **Lokið**.  

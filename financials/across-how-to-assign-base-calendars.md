@@ -106,12 +106,12 @@ Grunndagatöl eru tengd fyrirtæki notanda, viðskiptamönnum, lánardrottnum, b
 2.  Opna spjaldið **Viðskiptamaður** sem fær úthlutað grunndagatali.  
 3.  Á flýtiflipanum **Afhending**, í reitnum **Kóti grunndagatals**, er valið er það grunndagatal sem á að úthluta.  
 
-> [!IMPORTANT]  
->  -   Ef fyrirtæki er ekki úthlutað grunndagatali reiknar kerfið alla daga út sem virka daga.  
-> -   Ef engin birgðastöð er tilgreind á pöntunarlínu reiknar kerfið alla daga út sem virka daga.  
-> -   Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageymsluna hefur áhrif á það hvernig dagsetningarnar eru reiknaðar út og sléttaðar til virkra daga.
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - Ef fyrirtæki er ekki úthlutað grunndagatali reiknar kerfið alla daga út sem virka daga.  
+>   -   Ef engin birgðastöð er tilgreind á pöntunarlínu reiknar kerfið alla daga út sem virka daga.  
+>   -   Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageymsluna hefur áhrif á það hvernig dagsetningarnar eru reiknaðar út og sléttaðar til virkra daga.
+> 
+> [!NOTE]
 >  Ekki er hægt að búa til sérsniðnar dagatalsfærslur fyrr en fyrirtækinu hefur verið úthlutað grunndagatal.  
 
 ## <a name="see-also"></a>Sjá einnig

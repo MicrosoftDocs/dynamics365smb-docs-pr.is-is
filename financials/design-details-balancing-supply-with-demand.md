@@ -31,21 +31,21 @@ Kjarni áætlanakerfisins felst í jafnvægi á milli eftirspurn og framboð me�
   
      Ef tímasetning framboðs hentar ekki er kannski hægt að enduráætla framboðið eins og hér segir:  
   
-    1.  Ef framboð er sett á undan eftirspurn er kannski hægt að enduráætla framboðið út svo að birgðirnar séu eins litlar og hægt er.  
-    2.  Ef framboð er sett á eftir eftirspurn er kannski hægt að enduráætla framboðið inn. Annars leggur kerfið til nýtt framboð.  
-    3.  Ef framboð svarar eftirspurn á þeim degi getur áætlanakerfið haldið áfram að kanna hvort framboðsmagnið svarar eftirspurn.  
+   1. Ef framboð er sett á undan eftirspurn er kannski hægt að enduráætla framboðið út svo að birgðirnar séu eins litlar og hægt er.  
+   2. Ef framboð er sett á eftir eftirspurn er kannski hægt að enduráætla framboðið inn. Annars leggur kerfið til nýtt framboð.  
+   3. Ef framboð svarar eftirspurn á þeim degi getur áætlanakerfið haldið áfram að kanna hvort framboðsmagnið svarar eftirspurn.  
   
-     Þegar tímasetning er rétt er hægt að reikna viðeigandi magn sem leggja á til sem hér segir:  
+      Þegar tímasetning er rétt er hægt að reikna viðeigandi magn sem leggja á til sem hér segir:  
   
-    1.  Ef framboðsmagnið er minna en eftirspurn er mögulegt að hægt sé að auka framboðsmagnið (eða ekki, ef takmarkað af stefnu um hámarksmagn).  
-    2.  Ef framboðsmagnið er meira en eftirspurn er mögulegt að hægt sé að minnka framboðsmagnið (eða ekki, ef takmarkað af stefnu um lágmarksmagn).  
+   4. Ef framboðsmagnið er minna en eftirspurn er mögulegt að hægt sé að auka framboðsmagnið (eða ekki, ef takmarkað af stefnu um hámarksmagn).  
+   5. Ef framboðsmagnið er meira en eftirspurn er mögulegt að hægt sé að minnka framboðsmagnið (eða ekki, ef takmarkað af stefnu um lágmarksmagn).  
   
-     Á þessum tímapunkti er annað hvor af þessum tveimur aðstæðum til:  
+      Á þessum tímapunkti er annað hvor af þessum tveimur aðstæðum til:  
   
-    1.  Núverandi eftirspurn er hægt að ná yfir, og þar af leiðandi hægt að loka og áætlanagerð fyrir næsta eftirspurn getur byrjað.  
-    2.  Birgðir hafa náð hámarksgildi svo eitthvert eftirspurnarmagn er óvarið. Í þessu tilviki er áætlanakerfi getur lokað núverandi framboð og halda áfram í næsta.  
+   6. Núverandi eftirspurn er hægt að ná yfir, og þar af leiðandi hægt að loka og áætlanagerð fyrir næsta eftirspurn getur byrjað.  
+   7. Birgðir hafa náð hámarksgildi svo eitthvert eftirspurnarmagn er óvarið. Í þessu tilviki er áætlanakerfi getur lokað núverandi framboð og halda áfram í næsta.  
   
- Ferlið byrjar upp á nýtt með næstu eftirspurn og núverandi framboði, eða öfugt. Núverandi framboð gæti náð yfir þessa eftirspurn líka eða núverandi eftirspurn hefur ekki enn verið að fullu tryggðir.  
+   Ferlið byrjar upp á nýtt með næstu eftirspurn og núverandi framboði, eða öfugt. Núverandi framboð gæti náð yfir þessa eftirspurn líka eða núverandi eftirspurn hefur ekki enn verið að fullu tryggðir.  
   
 ## <a name="rules-concerning-actions-for-supply-events"></a>Reglur um aðgerðir fyrir framboðstilvik  
 Þegar áætlanakerfið framkvæmir ofansækinn útreikninga þar sem birgðir verða að mæta eftirspurn er eftirspurnin tekin sem sjálfgefin, þ.e. er ekki undir stjórn áætlanakerfis. Hins vegar er hægt að stjórna framboðshliðinni. Því mun áætlanakerfið stinga upp á að búnar séu til nýjar birgðapantanir, þær sem fyrir liggja séu enduráætlaðar og/eða pöntunarmagni sé breytt. Ef núverandi birgðapöntun verður óþörf leggur áætlanakerfið til að notandinn hætti við hana.  

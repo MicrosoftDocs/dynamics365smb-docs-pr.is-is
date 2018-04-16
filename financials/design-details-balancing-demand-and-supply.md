@@ -25,7 +25,7 @@ Til að skilja hvernig áætlanakerfi virkar, það er nauðsynlegt að skilja f
 - Allri eftirspurn verður sinnt með nægu framboði.  
 - Allt framboð þjónar tilgangi.  
 
- Almennt séð, er þessum markmiðum náð með því að jafna framboð við eftirspurn.  
+  Almennt séð, er þessum markmiðum náð með því að jafna framboð við eftirspurn.  
 
 ## <a name="in-this-section"></a>Í þessum hluta  
 [Hönnunarupplýsingar: Eftirspurn og framboð](design-details-demand-and-supply.md)  

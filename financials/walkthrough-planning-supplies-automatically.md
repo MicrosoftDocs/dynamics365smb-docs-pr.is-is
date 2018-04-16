@@ -22,12 +22,12 @@ ms.lasthandoff: 03/22/2018
 # <a name="walkthrough-planning-supplies-automatically"></a>Kynning: Sjálfvirk áætlun birgða
 Hugtök eins og "keyra áætlun" eða "keyra MRP" vísa í útreikninga á aðalframleiðsluáætluninni (MPS) og efnisþarfaáætluninni (MRP) útfrá raunverulegri eftirspurn og eftirspurn samkvæmt spá.  
 
--   MPS er útreikningur á aðalframleiðsluáætlun samkvæmt raunverulegri eftirspurn og framleiðsluspánni. MPS-útreikningur er notaður fyrir lokavörur sem eru með spá eða sölupöntunarlínu. Þessar vörur eru kallaðar "MPS-vörur" og eru auðkenndar þegar útreikningur hefst.  
--   MRP er útreikningur á efnisþörfum samkvæmt raunverulegri eftirspurn eftir íhlutum og framleiðsluspá á íhlutastigi. MRP er eingöngu reiknað fyrir vörur sem eru ekki MPS-vörur. Megintilgangur MRP er bjóða upp á tímasettar áætlanir þannig að rétt vara er til á réttum tíma, á réttum stað og í réttu magni.  
+- MPS er útreikningur á aðalframleiðsluáætlun samkvæmt raunverulegri eftirspurn og framleiðsluspánni. MPS-útreikningur er notaður fyrir lokavörur sem eru með spá eða sölupöntunarlínu. Þessar vörur eru kallaðar "MPS-vörur" og eru auðkenndar þegar útreikningur hefst.  
+- MRP er útreikningur á efnisþörfum samkvæmt raunverulegri eftirspurn eftir íhlutum og framleiðsluspá á íhlutastigi. MRP er eingöngu reiknað fyrir vörur sem eru ekki MPS-vörur. Megintilgangur MRP er bjóða upp á tímasettar áætlanir þannig að rétt vara er til á réttum tíma, á réttum stað og í réttu magni.  
 
- Áætlunaralgóritmarnir fyrir MPS og MRP eru eins. Áætlunarreiknireglurnar nota reikning nettóstöðu, endurnotkun birgðapantana og aðgerðarboð. Áætlunarkerfisvinnslan tekur mið af þörfum eða væntanlegum þörfum (eftirspurn) og hvað er til staðar (framboð). Þegar nettóstaða er reiknuð út frá þessum stærðum birtast aðgerðarboð á áætlunarvinnublaðinu. Aðgerðarboð eru tillögur um að stofna nýja birgðapöntun, breyta birgðapöntun (magn eða dagsetning) eða hætta við birgðapöntun. Birgðapantanir geta verið framleiðslupantanir, innkaupapantanir og millifærslupantanir. Nánari upplýsingar eru í [Upplýsingar um hönnun: áætlun birgða](design-details-supply-planning.md).  
+  Áætlunaralgóritmarnir fyrir MPS og MRP eru eins. Áætlunarreiknireglurnar nota reikning nettóstöðu, endurnotkun birgðapantana og aðgerðarboð. Áætlunarkerfisvinnslan tekur mið af þörfum eða væntanlegum þörfum (eftirspurn) og hvað er til staðar (framboð). Þegar nettóstaða er reiknuð út frá þessum stærðum birtast aðgerðarboð á áætlunarvinnublaðinu. Aðgerðarboð eru tillögur um að stofna nýja birgðapöntun, breyta birgðapöntun (magn eða dagsetning) eða hætta við birgðapöntun. Birgðapantanir geta verið framleiðslupantanir, innkaupapantanir og millifærslupantanir. Nánari upplýsingar eru í [Upplýsingar um hönnun: áætlun birgða](design-details-supply-planning.md).  
 
- Niðurstöður áætlunargerðar eru reiknaðar að hluta til út frá framboð-eftirspurn gögnunum og að hluta til út frá uppsetningu birgðahaldseiningaspjalda eða birgðaspjalda, framleiðsluuppskrifta og leiða.  
+  Niðurstöður áætlunargerðar eru reiknaðar að hluta til út frá framboð-eftirspurn gögnunum og að hluta til út frá uppsetningu birgðahaldseiningaspjalda eða birgðaspjalda, framleiðsluuppskrifta og leiða.  
 
 ## <a name="about-this-walkthrough"></a>Um kynninguna  
  Þessi kynning sýnir hvernig nota skal birgðaáætlunarkerfið til að áætla sjálfkrafa allar innkaupa- og framleiðslupantanirnar sem þarf til að framleiða 15 kappakstursreiðhjól með eftirspurn á mismunandi sölupöntunum. Til að kynningin sé skýr og raunveruleg hefur fjölda áætlunarlína verið sett afmörkun með því að loka á öll önnur eftirspurn-framboð gögn í sýnifyrirtækinu CRONUS Íslandi hf. nema sölueftirspurnina í birgðageymslunni BLÁTT.  
@@ -73,17 +73,19 @@ Hugtök eins og "keyra áætlun" eða "keyra MRP" vísa í útreikninga á aðal
 
 ### <a name="to-change-selected-planning-parameters"></a>Til að breyta völdum áætlunarfæribreytum  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðahaldseiningar** og velja svo viðeigandi tengil.  
-2.  Opna BLUE birgðahaldseininguna fyrir vöru 1100, framhjól.  
-3.  Á flýtiflipanum **Áætlun** eru reitirnir fylltir út eins og lýst er í eftirfarandi töflu.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðahaldseiningar** og velja svo viðeigandi tengil.  
+2. Opna BLUE birgðahaldseininguna fyrir vöru 1100, framhjól.  
+3. Á flýtiflipanum **Áætlun** eru reitirnir fylltir út eins og lýst er í eftirfarandi töflu.  
 
-    |Endurpöntunarstefna|Magn í öryggisbirgðum|Lotusöfnunartímabil|Enduráætlunartímabil|  
-    |-------------------------------------------|-----------------------------------------------|-------------------------------------------------|---------------------------------------------|  
-    |Lotu-fyrir-lotu|Autt|2V|2V|  
 
-4.  Skref 2 til 3 eru endurtekin fyrir allar birgðarhaldseiningar á númerabilinu 1100 til 1300.  
+   | Endurpöntunarstefna | Magn í öryggisbirgðum | Lotusöfnunartímabil | Enduráætlunartímabil |
+   |-------------------|-----------------------|-------------------------|---------------------|
+   |    Lotu-fyrir-lotu    |         Autt         |           2V            |         2V          |
 
- Svona lýkur undirbúningi sýndargagna fyrir kynninguna.  
+
+4. Skref 2 til 3 eru endurtekin fyrir allar birgðarhaldseiningar á númerabilinu 1100 til 1300.  
+
+   Svona lýkur undirbúningi sýndargagna fyrir kynninguna.  
 
 ## <a name="creating-a-regenerative-supply-plan"></a>Stofna birgðaáætlun með endurgerð  
  Við meðhöndlun á nýrri sölupöntun á fimm kappakstursreiðhjólum, byrjar notandinn skipulagsferlið með því að stilla valmöguleika, afmarkanir og áætlunarbil til að útiloka alla aðra eftirspurn nema þá sem er í fyrstu viku mars í staðsetningunni BLÁTT. Hann byrjar á að reikna út aðalframleiðsluáætlun (MPS) , og reiknar síðan út fullkomna birgðaáætlun fyrir alla lægra-stigs eftirspurn (MRP).  
@@ -165,43 +167,45 @@ Hugtök eins og "keyra áætlun" eða "keyra MRP" vísa í útreikninga á aðal
 
 ### <a name="to-view-more-order-tracking-entries"></a>Til að skoða fleiri pantanarakningarfærslur  
 
-1.  Velja skal áætlunarlínuna fyrir vöru 1110 og smella svo á **Rakning pöntunar** aðgerðina.  
+1. Velja skal áætlunarlínuna fyrir vöru 1110 og smella svo á **Rakning pöntunar** aðgerðina.  
 
-     Glugginn **Rakning pöntunar** sýnir að fimm felgur þarf fyrir hverja framleiðslupöntun, fyrir fram- og afturhjól.  
+    Glugginn **Rakning pöntunar** sýnir að fimm felgur þarf fyrir hverja framleiðslupöntun, fyrir fram- og afturhjól.  
 
-     Sama pöntunarrakningin gildir fyrir áætlunarlínur varanna 1120, 1160 og 1170. Fyrir vöru 1120 er reiturinn **Magn per** á framleiðsluuppskriftinni fyrir hverja hjólavöru 50 STK, sem verður til þess að heildarþörfin er 100.  
+    Sama pöntunarrakningin gildir fyrir áætlunarlínur varanna 1120, 1160 og 1170. Fyrir vöru 1120 er reiturinn **Magn per** á framleiðsluuppskriftinni fyrir hverja hjólavöru 50 STK, sem verður til þess að heildarþörfin er 100.  
 
-     Áætlunarlínan fyrir vöru 1150, fyrir sex stykki, virðist óvenjuleg. Haldið áfram til að greina.  
+    Áætlunarlínan fyrir vöru 1150, fyrir sex stykki, virðist óvenjuleg. Haldið áfram til að greina.  
 
-2.  Velja skal áætlunarlínuna fyrir vöru 1150 og smella svo á **Rakning pöntunar** aðgerðina.  
+2. Velja skal áætlunarlínuna fyrir vöru 1150 og smella svo á **Rakning pöntunar** aðgerðina.  
 
-     Glugginn **Rakning pöntunar** sýnir að fimm einingar eru raktar til framhjólsins og að ein eining er órakin. Skoðið svo órakta magnið.  
+    Glugginn **Rakning pöntunar** sýnir að fimm einingar eru raktar til framhjólsins og að ein eining er órakin. Skoðið svo órakta magnið.  
 
-3.  Veljði reitinn **órakið magnið**.  
+3. Veljði reitinn **órakið magnið**.  
 
-     Glugginn **óraktar áætlunareiningar** sýnir að varan 1150 notar áætlunarfæribreytuna, Margföld pöntun, með 2.00, sem tilgreinir að þegar varan er pöntuð verður að vera hægt að deila magninu með 2. Sú tala næst 5 sem hægt er að deila í með 2 er 6.  
+    Glugginn **óraktar áætlunareiningar** sýnir að varan 1150 notar áætlunarfæribreytuna, Margföld pöntun, með 2.00, sem tilgreinir að þegar varan er pöntuð verður að vera hægt að deila magninu með 2. Sú tala næst 5 sem hægt er að deila í með 2 er 6.  
 
-     Sama pöntunarrakningin gildir fyrir áætlunarlínur íhluta Framnafar, vörur 1151 og 1155, nema að hver þörf margfaldast af rýrnunarprósentu sem er skilgreind fyrir vöru 1150 í reitnum **Úrkastsprósenta** á birgðaspjaldinu.  
+    Sama pöntunarrakningin gildir fyrir áætlunarlínur íhluta Framnafar, vörur 1151 og 1155, nema að hver þörf margfaldast af rýrnunarprósentu sem er skilgreind fyrir vöru 1150 í reitnum **Úrkastsprósenta** á birgðaspjaldinu.  
 
- Svona lýkur greiningu fyrstu birgðaáætlunar. Takið eftir að gátreiturinn **Samþykkja aðgerðaboð** er valinn í öllum áætlunarlínum sem gefur til kynna að þær séu nú tilbúnar til umbreytingar í birgðapantanir.  
+   Svona lýkur greiningu fyrstu birgðaáætlunar. Takið eftir að gátreiturinn **Samþykkja aðgerðaboð** er valinn í öllum áætlunarlínum sem gefur til kynna að þær séu nú tilbúnar til umbreytingar í birgðapantanir.  
 
 ## <a name="carrying-out-action-messages"></a>Framkvæmd aðgerðarboða  
  Næst breytir Einar áætlunarlínunum sem lagðar voru til í birgðapantanir með því að nota aðgerðina **Framfylgja aðgerðarboðum**.  
 
 ### <a name="to-automatically-create-the-suggested-supply-orders"></a>Til að stofna sjálfkrafa þær birgðapantanir sem lagðar voru til  
 
-1.  Veljið gátreitinn **Samþykkja aðgerðaboð** á öllum áætlunarlínum með viðvörun af gerðinni Frávik.  
-2.  Veljið aðgerðina **Framkvæma aðgerðaboð**.  
-3.  Í glugganum **Framkvæma aðgerðaboð - áætlun** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
+1. Veljið gátreitinn **Samþykkja aðgerðaboð** á öllum áætlunarlínum með viðvörun af gerðinni Frávik.  
+2. Veljið aðgerðina **Framkvæma aðgerðaboð**.  
+3. Í glugganum **Framkvæma aðgerðaboð - áætlun** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
-    |Framleiðslupöntun|Innkaupapöntun|Millifærslupöntun|  
-    |----------------------|--------------------|--------------------|  
-    |Fastáætluð|Gera innkaupapantanir|Gera millifærslupantanir|  
 
-4.  Veldu hnappinn **Í lagi** til að stofna sjálfkrafa allar birgðapantanir sem lagðar voru til.  
-5.  Valinn er tómi glugginn **Áætlunarvinnublað**.  
+   | Framleiðslupöntun |   Innkaupapöntun   |   Millifærslupöntun   |
+   |------------------|--------------------|--------------------|
+   |   Fastáætluð   | Gera innkaupapantanir | Gera millifærslupantanir |
 
- Svona lýkur fyrstu útreikningum, greiningu og stofnun fyrir eftirspurn í staðsetningunni BLÁTT í fyrstu viku febrúar. Í hlutanum sem á eftir kemur pantar annar viðskiptamaður tíu kappakstursreiðhjól, og Einar þarf að enduráætla.  
+
+4. Veldu hnappinn **Í lagi** til að stofna sjálfkrafa allar birgðapantanir sem lagðar voru til.  
+5. Valinn er tómi glugginn **Áætlunarvinnublað**.  
+
+   Svona lýkur fyrstu útreikningum, greiningu og stofnun fyrir eftirspurn í staðsetningunni BLÁTT í fyrstu viku febrúar. Í hlutanum sem á eftir kemur pantar annar viðskiptamaður tíu kappakstursreiðhjól, og Einar þarf að enduráætla.  
 
 ## <a name="creating-a-net-change-plan"></a>Stofnun áætlunar hreyfingar  
  Daginn eftir, áður en byrjað er á birgðapöntunum eða þær bókaðar, berst ný sölupöntun frá Libros S.A. á tíu kappakstursreiðhjólum sem á að afhenda 02-12-2014. Einar er látinn vita af þessari nýju eftirspurn, og hann enduráætlar til að aðlaga birgðaáætlunina. Einar notar aðgerðina Áætlun hreyfingar til að reikna aðeins þær breytingar sem orðið hafa á framboði eða eftirspurn frá síðustu áætlunarkeyrslu. Auk þess stækkar hann áætlunartímabilið í 02-14-2014 svo nýja sölueftirspurnin fallin innan 02-12-2014.  
@@ -210,30 +214,34 @@ Hugtök eins og "keyra áætlun" eða "keyra MRP" vísa í útreikninga á aðal
 
 ### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>Til að stofna nýja sölueftirspurn og enduráætla eftir því  
 
-1.  Valið er **Nýtt** aðgerð.  
-2.  Í glugganum **Sölupöntun** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
+1. Valið er **Nýtt** aðgerð.  
+2. Í glugganum **Sölupöntun** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
-    |Selt-til - Nafn viðskiptamanns|Afh.dags|Vörunr.|Birgðageymsla|Magn|  
-    |----------------------------|-------------------|--------------|--------------|--------------|  
-    |Libros S.A.|02-12-2014|1001|BLÁTT|10|  
 
-3.  Ráðstöfunarviðvörunin er samþykkt og svo er hnappurinn **Já** valinn til að skrá eftirspurnarmagnið.  
-4.  Næst þarf að enduráætla til að aðlaga birgðaáætlunina.  
-5.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Áætlunarvinnublað** og velja svo viðeigandi tengil.  
-6.  Velja **Reikna áætlun nettóbreytingar** aðgerðina.  
-7.  Í **Reikna áætlun - Áætl.tillaga** glugganum, skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
+   | Selt-til - Nafn viðskiptamanns | Afh.dags | Vörunr. | Birgðageymsla | Magn |
+   |-----------------------|---------------|----------|----------|----------|
+   |      Libros S.A.      |  02-12-2014   |   1001   |   BLÁTT   |    10    |
 
-    |Reikna út áætlun|Upphafsdagsetning|Lokadagsetning|Sýna niðurstöður:|Takmarka samtölur við|  
-    |--------------------|-------------------|-----------------|-------------------|---------------------|  
-    |**MPS** = Já<br /><br /> **MRP** = Já|01-23-2014|02-14-2014|1001..1300|Vöruhúsasía = BLÁTT|  
 
-8.  Velja hnappinn **Í lagi** til að ræsa áætlunarkeyrsluna.  
+3. Ráðstöfunarviðvörunin er samþykkt og svo er hnappurinn **Já** valinn til að skrá eftirspurnarmagnið.  
+4. Næst þarf að enduráætla til að aðlaga birgðaáætlunina.  
+5. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Áætlunarvinnublað** og velja svo viðeigandi tengil.  
+6. Velja **Reikna áætlun nettóbreytingar** aðgerðina.  
+7. Í **Reikna áætlun - Áætl.tillaga** glugganum, skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
- 14 áætlunarlínur eru stofnaðar. Takið eftir að í fyrstu áætlunarlínunni að í reitnum **Aðgerðaboð** stendur **Ný**, í reitnum **Magn** stendur 10 og í reitnum **Skiladagur** stendur 02-12-14. Þessi nýja lína fyrir yfireiningu 1001, kappakstursreiðhjól, er stofnuð vegna þess að varan notar endurpöntunarstefnuna **Panta**, sem þýðir að það verður að birgja hana í einn-fyrir-einn sambandi við eftirspurnina, sölupöntun upp á tíu stykki.  
 
- Næstu tvær áætlunarlínur eru framleiðslupantanirnar fyrir hjól kappakstursreiðhjóla. Allar pantanir sem til voru fyrir upp á fimm stykki í reiturinn **Upprunalegt magn**, eru stækkað upp í 15 í reiturinn **Magn**. Báðar framleiðslupantanir hafa óbreyttar skiladagsetningar, eins og sjá má í reitnum **Aðgerðarboð** þar sem stendur **Breyta magni**. Þetta gildir einnig um áætlunarlínuna fyrir vöru 1300, fyrir utan pöntun þessi sinnum 10.00 námundar rakta eftirspurn fyrir 15 stykki upp í 20.  
+   |             Reikna út áætlun              | Upphafsdagsetning | Lokadagsetning | Sýna niðurstöður: |    Takmarka samtölur við     |
+   |-----------------------------------------|---------------|-------------|---------------|------------------------|
+   | **MPS** = Já<br /><br /> **MRP** = Já |  01-23-2014   | 02-14-2014  |  1001..1300   | Vöruhúsasía = BLÁTT |
 
- Allar aðrar áætlunarlínur eru með aðgerðarboðin **Endurtímas. og br. magni**. Það þýðir að fyrir utan að hafa aukið magn eru skiladagsetningarnar færðar til samræmis við birgðaáætlunina svo þær innihaldi aukamagnið í tiltækum framleiðslutíma (geta). Keyptir íhlutir eru enduráætlaðir og auknir til að mæta framleiðslupöntununum. Haldið áfram til að greina nýju áætlunina.  
+
+8. Velja hnappinn **Í lagi** til að ræsa áætlunarkeyrsluna.  
+
+   14 áætlunarlínur eru stofnaðar. Takið eftir að í fyrstu áætlunarlínunni að í reitnum **Aðgerðaboð** stendur **Ný**, í reitnum **Magn** stendur 10 og í reitnum **Skiladagur** stendur 02-12-14. Þessi nýja lína fyrir yfireiningu 1001, kappakstursreiðhjól, er stofnuð vegna þess að varan notar endurpöntunarstefnuna **Panta**, sem þýðir að það verður að birgja hana í einn-fyrir-einn sambandi við eftirspurnina, sölupöntun upp á tíu stykki.  
+
+   Næstu tvær áætlunarlínur eru framleiðslupantanirnar fyrir hjól kappakstursreiðhjóla. Allar pantanir sem til voru fyrir upp á fimm stykki í reiturinn **Upprunalegt magn**, eru stækkað upp í 15 í reiturinn **Magn**. Báðar framleiðslupantanir hafa óbreyttar skiladagsetningar, eins og sjá má í reitnum **Aðgerðarboð** þar sem stendur **Breyta magni**. Þetta gildir einnig um áætlunarlínuna fyrir vöru 1300, fyrir utan pöntun þessi sinnum 10.00 námundar rakta eftirspurn fyrir 15 stykki upp í 20.  
+
+   Allar aðrar áætlunarlínur eru með aðgerðarboðin **Endurtímas. og br. magni**. Það þýðir að fyrir utan að hafa aukið magn eru skiladagsetningarnar færðar til samræmis við birgðaáætlunina svo þær innihaldi aukamagnið í tiltækum framleiðslutíma (geta). Keyptir íhlutir eru enduráætlaðir og auknir til að mæta framleiðslupöntununum. Haldið áfram til að greina nýju áætlunina.  
 
 ## <a name="analyzing-the-changed-planning-result"></a>Greining á hreyfingaáætlunarniðurstöðunum  
  Þar sem allar lota-fyrir lotu vörur innan afmörkunarinnar, 1100 til 1300, hafa tveggja vikna enduráætlunartímabil, er öllum fyrirliggjandi birgðapöntunum breytt til að uppfylla nýju skilyrðin sem eiga sér stað innan þeirra tveggja vikna sem voru tilgreindar.  
@@ -256,11 +264,11 @@ Hugtök eins og "keyra áætlun" eða "keyra MRP" vísa í útreikninga á aðal
 
 ### <a name="to-view-an-existing-order"></a>Fyrirliggjandi pöntun skoðuð  
 
-1.  Í áætlunarlínunni fyrir vöru 1250 er reiturinn **Tilv. Pöntunarnúmer** valinn. .  
-2.  Í glugganum **Fastáætluð framleiðslupöntun** fyrir Afturnafið. Hin fyrirliggjandi pöntun fyrir tíu stykki, sem búin var til í fyrstu áætlunarkeyrslunni, opnast.  
-3.  Loka fastáætlaðri framleiðslupöntun.  
+1. Í áætlunarlínunni fyrir vöru 1250 er reiturinn **Tilv. Pöntunarnúmer** valinn. .  
+2. Í glugganum **Fastáætluð framleiðslupöntun** fyrir Afturnafið. Hin fyrirliggjandi pöntun fyrir tíu stykki, sem búin var til í fyrstu áætlunarkeyrslunni, opnast.  
+3. Loka fastáætlaðri framleiðslupöntun.  
 
- Svona lýkur kynningunni á því hvernig áætlunarkerfið er notað til að nema sjálfkrafa eftirspurn, reikna út viðeigandi birgðapantanir út frá eftirspurn og áætlunarfæribreytum, og stofna síðan sjálfkrafa mismunandi gerðir birgðapantana með viðeigandi dagsetningar og magn.  
+   Svona lýkur kynningunni á því hvernig áætlunarkerfið er notað til að nema sjálfkrafa eftirspurn, reikna út viðeigandi birgðapantanir út frá eftirspurn og áætlunarfæribreytum, og stofna síðan sjálfkrafa mismunandi gerðir birgðapantana með viðeigandi dagsetningar og magn.  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)   

@@ -32,26 +32,26 @@ Varðandi framleiðsluuppskriftir, er leiðunum úthlutað til endanlegrar framl
 - Framleiðsluforði eru uppsettur. Frekari upplýsingar eru í [Setja upp vinnustöðvar og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Stofna leið  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **leiðir** og velja svo viðeigandi tengil.  
-2.  Valið er **Nýtt** aðgerð.  
-3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Í reitnum **Tegund**, veljið **Í röð** til að reikna framl. leiðina samkvæmt gildinu í reitnum **Aðgerðarnr.**. .   
-    Veljið **Samhliða** til að reikna aðgerðir samkvæmt gildinu í reitnum **Næsta aðgerðarnr.** .  
-5.  Reiturinn **Staða** verður að vera stilltur á **Ný** eða **Í þróun** svo hægt sé að breyta leið. Til að ræsa hana þarf að stilla **Staða** á **Vottað**.  
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **leiðir** og velja svo viðeigandi tengil.  
+2. Valið er **Nýtt** aðgerð.  
+3. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Í reitnum **Tegund**, veljið **Í röð** til að reikna framl. leiðina samkvæmt gildinu í reitnum **Aðgerðarnr.**. .   
+   Veljið **Samhliða** til að reikna aðgerðir samkvæmt gildinu í reitnum **Næsta aðgerðarnr.** .  
+5. Reiturinn **Staða** verður að vera stilltur á **Ný** eða **Í þróun** svo hægt sé að breyta leið. Til að ræsa hana þarf að stilla **Staða** á **Vottað**.  
 
-    Halda áfram til að fylla út í leiðarlínur.
-6.  Í **Aðgerð Nr.**. reitinn er fært inn númer fyrstu aðgerðarinnar, t.d. **10**.  
-7.  Í reitnum **Tegund** er valið hvers konar forði er notaður, t.d. **Vinnustöð**.  
-8.  Í reitnum **númer** er forðinn sem á að nota valinn eða hann sleginn inn í reitinn.  
-9.  Í reitnum **Leiðartengilskóti** er hægt að slá inn kóta til að tengja íhlut við ákveðna aðgerð. Frekari upplýsingar, sjá hlutann „Stofna leiðartengla“.
-10.  Í reitunum **Keyrslutími** og **Uppsetn.tími** er færðir inn þeir vinnslutímar þarf til að framkvæma aðgerð.  
+   Halda áfram til að fylla út í leiðarlínur.
+6. Í **Aðgerð Nr.**. reitinn er fært inn númer fyrstu aðgerðarinnar, t.d. **10**.  
+7. Í reitnum **Tegund** er valið hvers konar forði er notaður, t.d. **Vinnustöð**.  
+8. Í reitnum **númer** er forðinn sem á að nota valinn eða hann sleginn inn í reitinn.  
+9. Í reitnum **Leiðartengilskóti** er hægt að slá inn kóta til að tengja íhlut við ákveðna aðgerð. Frekari upplýsingar, sjá hlutann „Stofna leiðartengla“.
+10. Í reitunum **Keyrslutími** og **Uppsetn.tími** er færðir inn þeir vinnslutímar þarf til að framkvæma aðgerð.  
 
     > [!NOTE]  
     >  Uppsetningartími er reiknaður fyrir hverja framleiðslupöntun en keyrslutími fyrir hverja framleidda vöru.  
 
-11.  Í reitnum **Samþætt afkastageta** er tilgreint hversu margar einingar valda forðans eru notaðar til að framkvæma aðgerð. Til dæmis helminga tveir einstaklingar úthlutaðir á eina pökkunaraðgerð keyrslutímann.  
-12.  Haldið er áfram að fylla út línur fyrir allar aðgerðir sem koma við sögu í framleiðslu viðkomandi vöru.  
-13.  Línur úr fyrirliggjandi leið eru afritaðar með því að smella á **Afrita leiðir** aðgerðina til að velja línur sem eru til.  
+11. Í reitnum **Samþætt afkastageta** er tilgreint hversu margar einingar valda forðans eru notaðar til að framkvæma aðgerð. Til dæmis helminga tveir einstaklingar úthlutaðir á eina pökkunaraðgerð keyrslutímann.  
+12. Haldið er áfram að fylla út línur fyrir allar aðgerðir sem koma við sögu í framleiðslu viðkomandi vöru.  
+13. Línur úr fyrirliggjandi leið eru afritaðar með því að smella á **Afrita leiðir** aðgerðina til að velja línur sem eru til.  
 14. Leiðin vottuð.  
 15. Nú er hægt að hengja nýju leiðina við spjald viðkomandi framleiðsluvöru, með því að fylla upp í reitinn **Leið nr.**. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).  
 

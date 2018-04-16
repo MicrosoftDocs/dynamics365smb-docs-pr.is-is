@@ -26,7 +26,7 @@ Innleiðing söluferla fyrir tækifæri felur í sér að setja upp söluferli, 
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Uppsetning söluferlakóða tækifæris
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Söluferli** og velja svo viðeigandi tengil. **Söluferli** glugganum opnast og birtir lista yfir öll fyrirliggjandi söluferlum.
-2. Valið er **Nýtt** aðgerð og fyllt er inn í reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Valið er **Nýtt** aðgerð og fyllt er inn í reitina eins og þörf krefur. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Þessi skref eru endurtekin til að setja upp eins mörg söluferli og óskað er eftir. Þegar söluferli tækifæra hafa verið settir upp gæti verið ráðlegt að setja upp mismunandi þrep innan hvers ferils.
 

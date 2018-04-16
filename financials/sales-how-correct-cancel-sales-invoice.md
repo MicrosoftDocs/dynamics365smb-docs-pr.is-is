@@ -39,7 +39,7 @@ Hægt er að leiðrétta eða afturkalla bókaðann sölureikning. Þetta er gag
 2. Veljið bókaða sölureikninginn sem á að leiðrétta.
 
     > [!NOTE]  
->   Ef gátreiturinn **hætt við** er valinn, er ekki hægt að leiðrétta þennan bókaða sölureikning þar sem hann hefur þegar verið leiðréttur eða hætt var við hann.
+   >   Ef gátreiturinn **hætt við** er valinn, er ekki hægt að leiðrétta þennan bókaða sölureikning þar sem hann hefur þegar verið leiðréttur eða hætt var við hann.
 3. Í reitnum **Bókaður Sölureikningur** er valið **leiðrétta** aðgerð.  
 4. Nýr sölureikningur með sömu upplýsingum er stofnaður þar sem hægt er að gera leiðréttinguna. Reiturinn **hætt við** á hinum upphaflega bókaða sölureikningi er breytt í **Já**.
 
@@ -51,7 +51,7 @@ Hægt er að leiðrétta eða afturkalla bókaðann sölureikning. Þetta er gag
 2. Veljið bókaða sölureikninginn sem á að afturkalla.
 
     > [!NOTE]  
->   Ef gátreiturinn **hætt við** er valinn, er ekki hægt að hætta við þennan bókaða sölureikning þar sem þegar hefur verið hætt við hann eða hann leiðréttur.
+   >   Ef gátreiturinn **hætt við** er valinn, er ekki hægt að hætta við þennan bókaða sölureikning þar sem þegar hefur verið hætt við hann eða hann leiðréttur.
 3. Í reitnum **Bókaður Sölureikningur** er valið **hætta við** aðgerð.
 
     Sölukreditreikningur er búinn til sjálfkrafa og bókaður til að ógilda upphaflega bókaða sölureikninginn. Reiturinn **hætt við** á hinum upphaflega bókaða sölureikningi er breytt í **Já**.

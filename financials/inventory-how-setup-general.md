@@ -24,7 +24,7 @@ Almennar birgðaupplýsingar eru tilgreindar í glugganum **Birgðagrunnur**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Til að setja upp almennar birgðaupplýsingar
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning birgða** og velja svo viðeigandi tengil.
-2. Í glugganum **Birgðagrunnur** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Í glugganum **Birgðagrunnur** skal fylla út reitina eins og þörf krefur. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í sölulínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar, glugganum **Birgðauppsetning** og birgðageymsluna sem um ræðir. Nánari upplýsingar er að finna í [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md).  
 

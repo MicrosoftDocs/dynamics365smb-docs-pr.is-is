@@ -72,7 +72,7 @@ Eftir að vöruhúsasendingin er bókuð, eru ýmis svæði í sölupöntunarlí
 
 > [!NOTE]
 > Við blandaðar aðstæður, þar sem fyrst þarf að setja saman hluta magnsins og afhenda þarf annað magn úr birgðum, eru tvær vöruafhendingarlínur búnar til. Ein er fyrir er fyrir samsetningarpöntunarmagn, og ein er fyrir birgðamagn.
-
+> 
 > Í því tilfelli er magn samsetningarpöntunarinnar meðhöndlað eins og lýst er í þessu efnisatriði og birgðamagnið eins og hefðbundin vöruhúsaafhendingarlína. Frekari upplýsingar um samsetningaraðstæður eru í [Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Sjá einnig  

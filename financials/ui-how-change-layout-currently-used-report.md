@@ -34,8 +34,8 @@ Með hliðsjón af útlitinu sem er í boði fyrir skýrslu er hægt að velja a
    * Sérsniðið, Notar sérsniðið útlit í skýrslu.  
      Hægt er að sjá hvaða sérsniðin útlit eru í boði fyrir skýrsluna í  upplýsingareitnum skýrsluútlit hluti. Ef engin sérsniðin útlit eru til fyrir skýrsluna þarf að búa það til. Ef þú velur þennan valkost skaltu fara í næsta ferli til að tilgreina sérsniðið útlit´ sem þú vilt nota.
 
-    > [!NOTE]  
-    >   Ef þú velur **RDLC (innbyggt)** eða **Word (innbyggt)** og færð villuboð um að skýrslan vilji ekki útlit af sérstakri gerð, verðurðu að velja annað útlit eða búa til sérsniðin skýrsla af þeirri gerð sem þú vilt nota.
+     > [!NOTE]  
+     >   Ef þú velur **RDLC (innbyggt)** eða **Word (innbyggt)** og færð villuboð um að skýrslan vilji ekki útlit af sérstakri gerð, verðurðu að velja annað útlit eða búa til sérsniðin skýrsla af þeirri gerð sem þú vilt nota.
 
 Ef þú velur innbyggt RDLC skýrsluútlit, þá þarf ekkert að gera og útlitið er notað næst þegar skýrslan er keyrð.
 

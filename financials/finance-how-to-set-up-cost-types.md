@@ -35,17 +35,17 @@ Myndrit kostnaðartegunda eru svipuð bókhaldslyklum í fjárhag. Hægt er að 
     >  Aðgerðin **Skrá kostnaðargerðir í bókhaldslyklinum** uppfærir samband milli bókhaldslykils og bókhaldslykils fyrir kostnaðartegundir. **númer**  svæðið er fyllt og staðfest til að tryggja að hver almennur fjárhagsreikningur tengist aðeins einni tegund kostnaðar. Aðgerðin keyrir sjálfkrafa áður en fjárhagsfærslur eru færðar í kostnaðarbókhald.  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Til að setja upp nýjar kostnaðargerðir í glugganum Myndrit fyrir kostnaðargerðir.  
-1.  Opna gluggann **myndrit yfir kostnaðargerðir** í breytingarstillingu.  
-2.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Opna gluggann **myndrit yfir kostnaðargerðir** í breytingarstillingu.  
+2. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  Hægt er að setja upp og viðhalda kostnaðargerðum í glugganum **Kostnaðargerð spjald** eða í glugganum **Myndrit yfir kostnaðargerðir**. Í þessu ferli eru settar upp kostnaðartegundir í glugganum **Myndrit yfir kostnaðargerðir**.
+   > [!NOTE]  
+   >  Hægt er að setja upp og viðhalda kostnaðargerðum í glugganum **Kostnaðargerð spjald** eða í glugganum **Myndrit yfir kostnaðargerðir**. Í þessu ferli eru settar upp kostnaðartegundir í glugganum **Myndrit yfir kostnaðargerðir**.
 
-3.  Þegar búið er að stofna öll kostnaðargerðir, skal velja aðgerðina **Draga inn kostnaðargerðir**. Í svarglugganum, veljið hnappinn **Já**.  
-4.  Tengja nýju tegund kostnaðar í samsvarandi almennan fjárhagslykil.  
+3. Þegar búið er að stofna öll kostnaðargerðir, skal velja aðgerðina **Draga inn kostnaðargerðir**. Í svarglugganum, veljið hnappinn **Já**.  
+4. Tengja nýju tegund kostnaðar í samsvarandi almennan fjárhagslykil.  
 
-    > [!IMPORTANT]  
-    >  Ef skilgreiningar hafa verið færðar í **Samtala** reitina fyrir línutegundina **Loka-upphæð** áður en aðgerðin **Inndráttur kostnaðargerða** er framkvæmd þarf að færa skilgreiningarnar inn aftur því að aðgerðin skrifar yfir gildin í öllum **Loka-Upphæð**-reitum.  
+   > [!IMPORTANT]  
+   >  Ef skilgreiningar hafa verið færðar í **Samtala** reitina fyrir línutegundina **Loka-upphæð** áður en aðgerðin **Inndráttur kostnaðargerða** er framkvæmd þarf að færa skilgreiningarnar inn aftur því að aðgerðin skrifar yfir gildin í öllum **Loka-Upphæð**-reitum.  
 
 ## <a name="to-update-cost-types"></a>Til að uppfæra kostnaðargerðir  
 1.  Í glugganum **Uppsetning kostnaðarbókhalds** skal velja hvort uppfæra eigi myndrit yfir kostnaðartegundir sjálfkrafa þegar bókhaldslykillinn breytist.  

@@ -51,16 +51,16 @@ Kerfið þarf að halda sífelldri stjórn á vörum til ráðstöfunar í vöru
 
  Það ætti að vera hægt að taka frá allar vörur í birgðum, nema þær sem eru þegar komnar í útleiðarferli. Í samræmi er magnið sem er tiltækt fyrir frátekningu skilgreint sem magn í öllum skjölum og öllum hólfagerðum, nema eftirfarandi magn á útleið:  
 
--   Magn í óskráðum tínsluskjölum  
--   Magn í afhendingarhólfum  
--   Magn í hólfkótum til framleiðslu  
--   Magn í hólfkóta opins vinnslusalar  
--   Magn í hólfum til samsetningar  
--   Magn í leiðréttingarhólfum  
+- Magn í óskráðum tínsluskjölum  
+- Magn í afhendingarhólfum  
+- Magn í hólfkótum til framleiðslu  
+- Magn í hólfkóta opins vinnslusalar  
+- Magn í hólfum til samsetningar  
+- Magn í leiðréttingarhólfum  
 
- Niðurstöðurnar eru birtar í reitnum **Tiltækt heildarmagn** í glugganum **Frátekning**.  
+  Niðurstöðurnar eru birtar í reitnum **Tiltækt heildarmagn** í glugganum **Frátekning**.  
 
- Á frátekningarlínu er magnið sem ekki er hægt að taka frá, vegna þess að því hefur verið úthlutað í vöruhús, birta í reitnum **Magni úthlutað í vöruhúsi** í glugganum **Frátekning**.  
+  Á frátekningarlínu er magnið sem ekki er hægt að taka frá, vegna þess að því hefur verið úthlutað í vöruhús, birta í reitnum **Magni úthlutað í vöruhúsi** í glugganum **Frátekning**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Reikna magnið laust til frátekningar  
  Magnið sem tiltækt er til frátektar er reiknað svona:  

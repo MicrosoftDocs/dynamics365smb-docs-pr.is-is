@@ -30,7 +30,7 @@ Hér eru nokkur dæmi um stillingar sem hægt er að nota í þjónustustýringa
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Að færa inn almennar og áskildar stillingar
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning þjónustu** og velja svo viðeigandi tengil.
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp bilanatilkynningar](service-how-setup-fault-reporting.md)  

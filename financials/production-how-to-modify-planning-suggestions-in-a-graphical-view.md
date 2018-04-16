@@ -59,6 +59,7 @@ Eftirfarandi ferli sýnir hvernig eigi að breyta framboðstillögum með því 
 Til að virkja breytingar á framboðsáætluninni þarf að fylgja aðgerðarboðunum sem koma úr áætlunar- eða beiðnivinnublaðinu. Frekari upplýsingar, sjá Framkvæma aðgerðarboðaáætlun.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Tákn og táknmyndir í flýtiflipa tímalínu
+
  |Tákn/ táknmynd|Lýsing|  
  |------------------|---------------------------------------|  
  |Black cross|Pantanir (bæði framboð og eftirspurn).<br /><br /> -   Má ekki breyta.<br />-   Sjáanleg þegar reiturinn **Sýna áætlaðar birgðir** er valinn (appelsínugult myndrit).|  

@@ -30,7 +30,7 @@ Eftirfarandi aðferð lýsir því hvernig á að meta áætlaðan kostnað við
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
 2. Opnið viðeigandi verk.
 3. Veljið verkhlutalínu af gerðinni Bókun og veljið svo aðgerðina **Verkáætlunarlínur**.
-4. Fyllið í reitina eftir þörfum í nýrri línu. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
+4. Fyllið í reitina eftir þörfum í nýrri línu. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 
 Fyrir reitinn **Línugerð** skal vísa til eftirfarandi upplýsinga.  
 

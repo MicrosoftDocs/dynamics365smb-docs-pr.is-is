@@ -32,7 +32,7 @@ Greining eftir víddum sýnir valda samsetningu vídda. Hægt er að geyma og s�
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greiningaryfirlit** og velja svo viðeigandi tengil.  
 2. Í glugganum **Listi yfir greiningaryfirlit** skal velja aðgerðina **Nýtt**.
-3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Til að bæta öðrum víddarkóðum við þá fjóra sem fyrir eru á flýtiflipanum **Víddir** er aðgerðin **Afmörkun** valin, reitirnir fylltir út og síðan er smellt á **Í lagi** hnappinn.  
 5. Til að uppfæra yfirlitið er valin aðgerðin **Uppfæra**.
 

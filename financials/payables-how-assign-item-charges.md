@@ -42,7 +42,7 @@ Vörugjaldsnúmer eru notuð til að greina á milli mismunandi vörugjalda sem 
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Kostnaðarauki** og velja svo viðeigandi tengil.
 2. Í glugganum **Kostnaðarauki** skal velja aðgerðina **Nýtt** til að stofna nýja línu.
-3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Að úthluta kostnaðarauka beint til innkaupareiknings fyrir vöruna
 Ef þú veist hver kostnaðaraukinn er þegar þú bókar innkaupareikning fyrir vöruna, skaltu fylgja þessu ferli.
@@ -53,7 +53,7 @@ Ef þú veist hver kostnaðaraukinn er þegar þú bókar innkaupareikning fyrir
 4. Á nýja línu í reitnum **Tegund** er valinn **Kostnaðarauki Vöru**.
 5. Í reitinn **Magn** er færður inn fjöldi eininga þess kostnaðarauka sem hefur verið reikningsfærður.
 6. Í reitinn **Beinn einingakostnaður** er upphæð kostnaðaraukans færð inn.
-7. Fyllið inn í eftirstandandi reiti eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Fyllið inn í eftirstandandi reiti eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Í eftirfarandi skrefum, muntu framkvæma hina raunverulegu úthlutun. Þar til kostnaðarauka hefur verið úthlutað að fullu, er gildið í **Magn til úthlutunar** reitnum skrifað með rauðu letri.
 8. Á flýtiflipanum **Línur** skal velja aðgerðina **Úthlutun kostnaðarauka**.

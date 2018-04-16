@@ -69,7 +69,7 @@ Færslurnar eru fluttar inn í innhólfið og nú er hægt að vinna með þær.
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Færslur í innboxi millifyrirtækis** og velja svo viðeigandi tengil.  
 2. Í **Færslur í innhólfi millifyrirtækis** glugganum skal velja línu og og síðan aðgerð, eins og t.d. **Samþykkja** til að setja línuna í ferli.
-3. Í glugganum **Lokið MF-innhólf aðgerð** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Í glugganum **Lokið MF-innhólf aðgerð** skal fylla út reitina eins og þörf krefur. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velja hnappinn **Í lagi**.  
 
 Fyrir línur sem þú setur í ferli með **Samþykkja** aðgerðinni, verða fylgiskjöl eða færslubókarlínur síðan stofnaðar í fyrirtækinu. Opna skal hvert fylgiskjal eða færslubók, gera nauðsynlegar breytingar og bóka.  

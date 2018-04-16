@@ -32,15 +32,15 @@ Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostn
 ## <a name="example"></a>Dæmi  
  Eftirfarandi dæmi sýnir hvernig frávik er reiknað út fyrir keyptar vörur. Þetta er byggt á eftirfarandi atburðarás:  
 
-1.  Notandinn kaupir vöru á SGM 90.00 en staðalkostnaður er SGM 100.00. Í samræmi er innkaupafrávikið SGM -10,00.  
-2.  SGM 10,00 er kreditfært fráviksreikning innkaupa.  
-3.  Notandinn bókar kostnaðarauka SGM 20.00. Í samræmi er raunverulegur kostnaður aukinn í SGM 110,00 og virði innkaupafráviks verður SGM 10,00.  
-4.  SGM 20,00 er debetfært á fráviksreikning innkaupa. Í samræmi verður nettóinnkaupafrávikið SGM 10,00.  
-5.  Notandinn endurmetur vöruna úr SGM 100.00 í SGM 70.00. Þetta hefur ekki áhrif á fráviksútreikninginn, aðeins birgðavirðið.  
+1. Notandinn kaupir vöru á SGM 90.00 en staðalkostnaður er SGM 100.00. Í samræmi er innkaupafrávikið SGM -10,00.  
+2. SGM 10,00 er kreditfært fráviksreikning innkaupa.  
+3. Notandinn bókar kostnaðarauka SGM 20.00. Í samræmi er raunverulegur kostnaður aukinn í SGM 110,00 og virði innkaupafráviks verður SGM 10,00.  
+4. SGM 20,00 er debetfært á fráviksreikning innkaupa. Í samræmi verður nettóinnkaupafrávikið SGM 10,00.  
+5. Notandinn endurmetur vöruna úr SGM 100.00 í SGM 70.00. Þetta hefur ekki áhrif á fráviksútreikninginn, aðeins birgðavirðið.  
 
- Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
+   Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
 
- ![Innkaupafráviksútreikningur](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+   ![Innkaupafráviksútreikningur](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
 
 ## <a name="determining-the-standard-cost"></a>Ákvarða staðalkostnað  
  Staðlaður kostnaður er notaður við útreikning fráviks og upphæð sem á að eignfæra. Þar sem staðalkostnaður er hægt að breyta með tímanum vegna útreikninga með handvirkri uppfærslu, þú þarft að hafa tímapunkt þegar staðalkostnaður er fastur fyrir fráviksútreikning. Þetta mark er þegar birgðaaukning er reikningsfærð. Fyrir framleiddar eða samsettar vörur er punkturinn þegra staðalkostnaður er ákvarðaður þegar kostnaður er jafnaður.  

@@ -25,7 +25,7 @@ Notkun staðalverka einfaldar gerð og viðhald leiða. Gera þér kleift að b�
 ## <a name="to-set-up-a-standard-task"></a>Setja upp staðlaðan verkhluta
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **staðlaðir verkhlutar** og velja svo viðeigandi tengil.
 2. Valið er **Nýtt** aðgerð.
-3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyllið inn í reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velja **Verkfæri**, **Starfsmaður**, **Lýsing** eða **Verkfæri** aðgerðina.
 5. Lýstu staðlaða verkhlutanum sem um ræðir í glugganum sem opnast.
 
