@@ -1,0 +1,8 @@
+> [!IMPORTANT]
+> <span data-ttu-id="08b7c-101">**Útgáfuupplýsingar um Dynamics 365, apríl 2018, kynntar til sögunnar**</span><span class="sxs-lookup"><span data-stu-id="08b7c-101">**Announcing the Dynamics 365 April '18 release notes**</span></span>
+>
+> <span data-ttu-id="08b7c-102">Ertu að velta fyrir þér væntanlegum og nýlega útgefnum möguleikum í einhverjum af viðskiptaforritum eða verkvangi okkar?</span><span class="sxs-lookup"><span data-stu-id="08b7c-102">Wondering about upcoming and recently released capabilities in any of our business apps or platform?</span></span>
+>
+> <span data-ttu-id="08b7c-103">[Sækja apríl 2018 útgáfuupplýsingar](https://go.microsoft.com/fwlink/?linkid=870424).</span><span class="sxs-lookup"><span data-stu-id="08b7c-103">[Download the April '18 release notes](https://go.microsoft.com/fwlink/?linkid=870424).</span></span> <span data-ttu-id="08b7c-104">Við höfum tekið saman öll smáatriðin, enda á milli, frá hvirfli til ilja, í einu PDF-skjali sem hægt er að nota við áætlanagerð.</span><span class="sxs-lookup"><span data-stu-id="08b7c-104">We've captured all the details, end to end, top to bottom, in a single PDF that you can use for planning.</span></span>  
+>
+> <span data-ttu-id="08b7c-105">**Væntanlegt**: Við munum halda áfram að uppfæra PDF-skjal útgáfuupplýsinga þegar eiginleikar eru afhentir og við munum einnig gera þær aðgengilegar á vefsíðu.</span><span class="sxs-lookup"><span data-stu-id="08b7c-105">**Coming soon**: We'll keep updating the Release notes PDF as features ship, and will also make them available on a web page.</span></span> 
