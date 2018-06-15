@@ -1,1 +1,1 @@
-Finance and Operations, Business-útgáfa
+Business Central

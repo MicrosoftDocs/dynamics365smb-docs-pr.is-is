@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 07/12/2017
+ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fe2ebe89310465f11561fbb1d0baed23b8241639
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 
@@ -24,33 +24,33 @@ ms.lasthandoff: 03/22/2018
 ## <a name="overview"></a>Yfirlit
 Flýtivísanir aðstoða við aðgengi og geta auðveldað flettingar og gert þær skilvirkari yfir á önnur svæði og aðrar einingar á síðu.
 
-Flýtivísanir eru studdar af flestum vöfrum en virknin getur verið örlítið öðruvísi.
+Flýtivísanir eru studdar af flestum vöfrum; virknin getur þó verið örlítið öðruvísi.
 
 Flýtivísanir sem hér er lýst vísa til bandarísks lyklaborðs. Uppsetning lykla í öðrum lyklaborðum gætu verið aðrir en lyklar á bandarísku lyklaborði.
 
+Flestar flýtileiðirnar eru þær sömu hvort sem stýrikerfið er Windows eða MacOS; hins vegar eru nokkrar flýtileiðir öðruvísi fyrir MacOS. Þær eru gefnar upp innan sviga í töflunum í kaflahlutunum hér að neðan.
+
 ##  <a name="Keyboard"></a> Almennar flýtivísanir
-Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi einingar á síðu, svo sem aðgerðir, fellilista, uppflettingar og fleira. Fyrir nánari upplýsingar um flýtivísanir til að fletta í færslum þegar farið er inn í lista skal sjá næsta kafla. 
+Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi einingar á síðu, svo sem aðgerðir, fellilista, uppflettingar og fleira. Fyrir nánari upplýsingar um flýtivísanir til að fletta í færslum þegar farið er inn í lista skal sjá næsta kafla.
 
 |Ýttu á þessa takka|Til að gera þetta|  
 |----------------|-----------|  
-|Dálklykill|Færa áhersluna á næstu stýringu eða einingu á síðu, t.d. aðgerðir, hnappa, reiti eða fyrirsagnir lista.| 
+|Dálklykill|Færa áhersluna á næstu stýringu eða einingu á síðu, t.d. aðgerðir, hnappa, reiti eða fyrirsagnir lista.|
 |SHIFT+DÁLKLYKILL|Færa áhersluna á fyrri stýringu eða einingu á síðu, t.d. hnappa, reiti eða fyrirsagnir lista.|   
 |Færslulykill|Virkja eða fá aðgang að hlutanum eða stjórninni sem er í brennidepli.|   
 |Alt+Niðurör|Opna fellilistann eða skoða gildi fyrir reit.|    
 |Alt+hægri ör|Sjá færslurnar sem leiddu í reiknað gildi í reit.|  
+|Esc|Loka núverandi síðu eða fellilista.|
 
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Flýtivísanir í listum
 
 Eftirfarandi tafla lýsir flýtivísunum sem hægt er að nota á listasíðu. Aðgerð flýtileiðar er svolítið öðruvísi eftir því hvort síðan sést á listayfirlitinu eða reitayfirlitinu.
 
-Flestir flýtileiðirnar eru þær sömu hvort sem stýrikerfið er Windows eða MacOS; hins vegar eru nokkrar flýtileiðir sem eru öðruvís fyrir MacOS en Windows. Þær eru einnig gefnar upp í töflunni, innan sviga.
+> [!Note]
+> Í töflunni sem fylgir, vísar hugtakið *aðgerðareitur* til reits þar sem hægt er að gera eitthvað, eins og að breyta gildi eða tengja á aðra síðu. Almennt munu flýtileiðirnar hoppa yfir reiti sem birta upplýsingar sem þú getur ekki breytt úr listanum (með öðrum orðum, reiti sem eru ritvarðir).
 
->[!Note]
->Í töflunni sem fylgir, vísar hugtakið *aðgerðareitur* til reits þar sem hægt er að gera eitthvað, eins og að breyta gildi eða tengja á aðra síðu. Almennt munu flýtileiðirnar hoppa yfir reiti sem birta upplýsingar sem þú getur ekki breytt úr listanum (með öðrum orðum, reiti sem eru ritvarðir).
-
-
-|Ýttu á þessa takka<br />(í macOS)|Til að gera þetta í listayfirliti |Til að gera þetta í listayfirliti |Athugasemdir|
+|Ýttu á þessa takka<br />(í macOS)|Til að gera þetta í listayfirliti |Til að gera þetta í reitayfirliti |Athugasemdir|
 |-----------------|-------|-------|-------|
 |ÖR UPP|Fara í sama dálki í reitinn í línunni fyrir ofan.| Fara í sama dálk í svæðinu í línunni fyrir ofan.  |  | 
 |Niður ör|Fara í sama dálk í reitinn í línunni fyrir neðan. |Fara í sama dálk í svæðinu í línunni fyrir neðan. | |
@@ -65,7 +65,7 @@ Flestir flýtileiðirnar eru þær sömu hvort sem stýrikerfið er Windows eða
 |Ctrl+End<br />(Fn+Ctrl+Hægri ör)|Veljið síðustu línuna í listanum; áherslan flyst á fyrsta aðgerðareit línunnar|Fara í fyrsta reitinn í síðustu línu listans||
 |Ctrl+Smella<br />(Cmd+Smella)|Stækka valið af línum til að hafa með línuna sem var smellt á.|Á ekki við||
 |Shift+Smella|Stækka valið af línum til að hafa með línuna sem var smellt á og allar línurnar á milli.|Á ekki við|Hægt er að nota þetta eftir að hafa gert Ctrl+uppör eða Ctrl+niðurör til að stækka valið.|
-|Ctrl+uppör<br />(Ctrl+Cmd+uppör)|Færið áhersluna á línu fyrir ofan og hafið áfram núverandi línu valda.|Á ekki við||
+|Ctrl+uppör<br />(Ctrl+Cmd+uppör)|Færið áhersluna á línuna fyrir ofan og hafið núverandi línu áfram valda.|Á ekki við||
 |Ctrl+niðurör<br />(Ctrl+Cmd+niðurör)|Færið áhersluna á línuna fyrir neðan og hafið áfram núverandi línu valda.|Á ekki við||
 |Ctrl+bilslá<br />(Ctrl+Cmd+bilslá)|Stækkið valið af línum til að hafa með línu sem áherslan er á.|Á ekki við|Hægt er að nota þetta eftir að hafa gert Ctrl+uppör eða Ctrl+niðurör til að stækka valið.|
 |Ctrl+A|Velja allar línur.|Á ekki við||
@@ -75,8 +75,25 @@ Flestir flýtileiðirnar eru þær sömu hvort sem stýrikerfið er Windows eða
 |Shift+síða niður<br />(Shift+Fn+niðurör)|Stækkið valið af línum til að hafa með allar sýnilegar línur fyrir neðan núverandi val af línum.|Á ekki við||
 |Ctrl+Enter|Fara yfir í næsta hluta fyrir utan listann.|Fara yfir í næsta hluta fyrir utan listann.||
 
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a>Flýtivísanir í dagatalinu (dagsetningarval)
+Þegar þú setur dagsetningarreit getur þú annaðhvort slegið inn dagsetninguna handvirkt eða opnað dagatal (dagsetningarval) sem leyfir þér að velja þann dag sem þú vilt. Eftirfarandi tafla lýsir flýtivísunum fyrir dagatalið.
+
+|Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
+|-----------------|-------|
+|Síða upp|Fara í fyrri mánuð.|  
+|Síða niður|Fara í næsta mánuð.|
+|Ctrl+Heim|Opna dagatalið ef það er lokað.|
+|Ctrl+Heim<br />(Cmd+Heim)|Fara í núverandi mánuð, núverandi dag.|
+|Ctrl+vinstri ör<br />(Cmd+vinstri ör)|Fara í fyrir dag.|
+|Ctrl+hægri ör<br />(Cmd+hægri ör)|Fara í næsta dag.|
+|Ctrl+uppör<br />(Cmd+uppör)|Fara í fyrri viku, sama vikudag.|
+|Ctrl+niðurör<br />(Cmd+niðurör)|Fara í næstu viku, sama vikudag.|
+|Færslulykill|Velja áhersludaginn.|
+|Ctrl+End<br />(Cmd+End)|Loka dagatalinu og eyða núverandi dagsetningu.|
+|Esc|Lokaðu dagatalinu án vals, halda núverandi dagsetningu.|
+
 <!--
-## Keyboard shortcuts in list (shown as tiles) 
+## Keyboard shortcuts in list (shown as tiles)
 
 The following table describes the keyboard shortcuts that you can use in a list page when the page is shown as a tiles.
 
@@ -84,8 +101,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Keyboard Shortcut<br />(shortcut in osX)| Action|Remarks|
 |-----------------|-------|-------|
 |Up Arrow|Move to the tile above in the same column|  |   
-|Down Arrow|Move to the tile below in the same column|  | 
-|Right Arrow|Move to the next tile in the same row| | 
+|Down Arrow|Move to the tile below in the same column|  |
+|Right Arrow|Move to the next tile in the same row| |
 |Left Arrow|Move to the previous tile in the same row | |
 |Home<br />(Fn+left Arrow)|Move to the first tile in the row|
 |End<br />Fn+right Arrow)|Move to the last tile in the row|

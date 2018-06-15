@@ -1,1 +1,1 @@
-Velja reit til að lesa inn stutta lýsingu á reitnum eða tengil í frekari upplýsingar.
+Haltu bendlinum yfir reit til að lesa stutta lýsingu.

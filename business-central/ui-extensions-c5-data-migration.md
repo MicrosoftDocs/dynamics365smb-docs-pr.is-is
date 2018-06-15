@@ -1,6 +1,6 @@
 ---
 title: "Notkun C5 gagnaflutningsviðbótar | Microsoft Docs"
-description: "Þessi viðbót er notuð til að flytja viðskiptamenn,lánardrottna, vörur og fjárhagsreikninga úr Microsoft Dynamics C5 2012 í Financials."
+description: "Þessi viðbót er notuð til að flytja viðskiptamenn, lánardrottna, vörur og fjárhagsreikninga úr Microsoft Dynamics C5 2012 í Business Central."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 11/21/2017
+ms.date: 04/09/208
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7fe6393ad43dbad032512b2d6d45cc8ee0392236
+ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
+ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/11/2018
 
 ---
 
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 > [!Note]
 > Fyrirtækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] má ekki innihalda gögn. Að auki skaltu ekki búa til viðskiptavini, lánardrottna, vörur eða reikninga fyrr en flutningur lýkur.
 
-##<a name="what-data-is-migrated"></a>Hvaða gögn eru flutt?
+## <a name="what-data-is-migrated"></a>Hvaða gögn eru flutt?
 Eftirfarandi gögn eru flutt fyrir hverja einingu:
 
 **Viðskiptavinum**
@@ -86,6 +86,13 @@ Ef reikningar eru fluttir eru eftirfarandi gögn einnig flutt:
 > [!Note]
 > Ef opnar færslur eru til staðar sem nota erlenda gjaldmiðla er gengi þeirra einnig flutt inn. Önnur gengi eru ekki flutt inn.
 
+**Bókhaldslykill**  
+* Staðlaðar víddir: Deild, kostnaðarstaður, tilgangur  
+* Sögulegar fjárhagsfærslur  
+
+> [!Note]
+> Sögulegar fjárhagsfærslur eru meðhöndlaðir aðeins öðruvísi. Þegar þú flytur gögn stillirðu færibreytuna **Núverandi tímabil**. Þessi færibreyta tilgreinir hvernig á að vinna úr fjárhagsfærslum. Færslur eftir þessa dagsetningu eru fluttar hver fyrir sig. Færslum fyrir þessa dagsetningu er safnað saman fyrir hvern reikning og fluttar sem ein upphæð. Segjum sem dæmi að það séu færslur á árunum 2015, 2016, 2017, 2018 og þú tilgreinir 1. janúar 2017 í reit núverandi tímabils. Fyrir hvern reikning verður upphæðum fyrir færslur á eða fyrir 31. desember 2016 safnað saman í eina færslubókarlínu fyrir hverja fjárhagsfærslu. Allar færslur eftir þennan dag verða fluttar hver fyrir sig.
+
 ## <a name="to-migrate-data"></a>Til að flytja gögn
 Það eru aðeins nokkur skref fólgin í því að flytja út gögn úr C5 og flytja þau inn í [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -101,6 +108,13 @@ Nota skal síðuna **Gagnaflutningsyfirlit** til að sjá stöðu flutningsins. 
 
 > [!Note]
 > Meðan beðið er eftir stöðu flutningsins þarf að uppfæra síðuna til að birta niðurstöðurnar.
+
+## <a name="how-to-avoid-double-posting"></a>Hvernig á að koma í veg fyrir tvíbókun
+Til að koma í veg fyrir tvíbókanir í fjárhagnum eru eftirfarandi mótreikningar notaðir fyrir opnar færslur:  
+  
+* Fyrir lánardrottna notum við viðskiptaskuldareikninginn frá bókunarflokki lánardrottins.  
+* Fyrir viðskiptavini notum við viðskiptakröfureikninginn frá bókunarflokki viðskiptavinar.  
+* Fyrir vörur búum við til almennan bókunargrunn þar sem leiðréttingarreikningurinn er reikningurinn sem er tilgreindur sem birgðarreikningur í birgðabókunargrunni.  
 
 ## <a name="correcting-errors"></a>Leiðrétting villna
 Ef eitthvað fer úrskeiðis og villur koma upp sýnir **Staða** reiturinn **Lokið með villum** og **Villutalning** reiturinn mun sýna fjöldann. Til að skoða lista yfir villurnar er hægt að opna **Villur í gagnaflutningi** síðuna með því að velja:  
@@ -119,13 +133,12 @@ Ef eitthvað fer úrskeiðis og villur koma upp sýnir **Staða** reiturinn **Lo
 ## <a name="verifying-data-after-migrating"></a>Staðfesting gagna eftir flutning
 Ein leið til að sannreyna að gögnin hafi verið rétt flutt inn er með því að skoða eftirfarandi síður í C5 og [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Microsoft Dynamcis C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]|
-|-----|-----|
-|Viðskm.færslur| Almennar færslubækur|
-|Lánardr.færslur| Almennar færslubækur|
-|Birgðafærslur| Birgðabækur|
-
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er lotan fyrir fluttu gögnin kölluð **C5MIGRATE**.
+|Microsoft Dynamcis C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Runuvinnsla sem á að nota |
+|-----|-----|-----|
+|Viðskm.færslur| Almennar færslubækur| CUSTMIGR |
+|Lánardr.færslur| Almennar færslubækur| VENDMIGR|
+|Birgðafærslur| Birgðabækur| ITEMMIGR |
+|Fjárhagsfærslur| Almennar færslubækur| GLACMIGR |
 
 ## <a name="stopping-data-migration"></a>Stöðvun gagnaflutnings
 Þú getur hætt að flytja gögn með því að velja **Hætta við allan flutning**. Ef þú gerir það er líka hætt við allan flutning sem bíður.

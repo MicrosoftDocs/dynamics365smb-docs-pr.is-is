@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 09/22/2017
+ms.date: 04/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 41788b3fb69c9294990a06643e855f4082c750ab
+ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
+ms.openlocfilehash: a1910acdfb80de7a7e6a4d1b701bf1108b384996
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
@@ -36,6 +36,9 @@ ms.lasthandoff: 03/22/2018
 **Outlook forrit:** Til að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2013 eða síðar, Outlook Web App, OWA fyrir iPhone, OWA fyrir iPad eða OWA fyrir Android.  
 **Vafrar:** Þegar [!INCLUDE[d365fin](includes/d365fin_md.md)] er notað sem fyrirtækisinnhólf í Outlokk eða Outlook-vefforrit (OWA) krefst innbótin að tölvan þín keyri einn af skráðum studdum vöfrum sem eru tilteknir fyrr í þessari grein.  
 **Verkvangar:** Þegar þú notar [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In í OWA fyrir iPhone, OWA fyrir iPad og OWA fyrir Android þarf viðbótin að farsíminn þinn sé að keyra eitt af farsímum sem eru skráðir fyrir stuðning [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+## <a name="excel"></a>Excel
+**Breyta í Excel:** Til að nota Excel-viðbótina til að gera breytingar í Excel og ýta breytingunum aftur í [!INCLUDE[d365fin](includes/d365fin_md.md)] þarftu Excel 2016 eða síðar. Frekari upplýsingar eru í [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa](product-get-started.md)  

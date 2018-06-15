@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 09/05/2017
+ms.date: 04/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: c7359c5246ebbc588673409740fdfbad01685308
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Virkja viðskiptagögnin þín fyrir Power BI
 Það er auðvelt að fá innsýn í [!INCLUDE[d365fin](includes/d365fin_md.md)] gögnin þín með Power BI og [!INCLUDE[d365fin](includes/d365fin_md.md)] efnispökkum. Power BI sækir gögn þín og býr svo til út-fyrir-kassann yfirlit og skýrslur sem byggist á þeim gögnum.  
+
+Notandi verður að vera með gildan reikning hjá Dynamics 365 og hjá Power BI. Einnig verður að hlaða niður [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) ef þú vilt búa til þínar eigin Power BI skýrslur. Power BI efnispakki þarfnast heimildar í töflur þaðan sem gögn eru sótt úr. Frekari upplýsingar um kröfur er að finna hér að neðan.  
 
 Microsoft hefur gefið út eftirfarandi efnispakka:
 
@@ -41,85 +43,128 @@ Efnispakkinn er forstilltur til að vinna með sölugögnum og fjárhagsgögnum 
 > [!NOTE]  
 >   Einnig er hægt að búa til eigin skýrslur og yfirlit í Power BI á grundvelli þinna [!INCLUDE[d365fin](includes/d365fin_md.md)] gagna. Nánari upplýsingar eru í [Tengja viðskiptagögn þín við Power BI](across-how-use-financials-data-source-powerbi.md), .  
 
-## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Aðgangur að [!INCLUDE[d365fin](includes/d365fin_md.md)] í Power BI
-Til að skoða þitt [!INCLUDE[d365fin](includes/d365fin_md.md)] gögn í Power BI, verður þú að hafa eftirfarandi:  
+## <a name="how-to-connect"></a>Hvernig á að tengjast
+1. Velja skal **Sækja gögn** neðst til vinstri á yfirlitssvæðinu.  
+![Flett um til að sækja gögn](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-* Aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar eru í [Business Central](http://go.microsoft.com/fwlink/?LinkID=759714).  
-* Aðgang að Power BI Nánari upplýsingar eru í [Power BI](https://powerbi.microsoft.com), .
+Þú gætir líka komið þér af stað inn í Dynamics 365 Business Edition. Frá hlutverkamiðstöðinni skal fletta að **Skýrsluval** í hluta Power BI hlutverkamiðstöðvar. Veldu annað hvort **Þjónusta** eða **Mitt fyrirtæki** frá borðanum. Þegar önnur hvor þessara aðgerða er valin verður þér vísað annað hvort á fyrirtækisgalleríð í Power BI eða þjónustusafnið í Power BI, sem einnig verður síað til að aðeins birta efnispakka sem tengjast [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-Á vefsvæði Power BI má finna viðbótarupplýsingar um [að tengjast þjónustu með efnispakka fyrir Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
+2. Í **Þjónusta** reitnum er valið **Sækja**. Þá er gluggi opnaður með **AppSource** og **Forrit fyrir Power BI forrit**.  
+![Velja efnispakka frá netþjónustum](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
+3. Veldu **Forrit** af flipanum **Forrit fyrir Power BI forrit**, veldu efnispakkann **Microsoft Dynamics 365 Business Central** sem þú vilt nota og veldu síðan **Fá hann núna**.  
+![Velja Dynamics 365 Business Central og velja Fá núna](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
+4. Þegar kvaðning birtist skal slá inn heiti *fyrirtækisins* í [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Þetta er ekki birtingarnafnið. Heiti fyrirtækis er hægt að finna á síðunni „Fyrirtæki“ innan þíns [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] tilviks.  
+![Velja Dynamics 365 Business Central og velja Fá núna](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+5. Þegar tengingu hefur verið komið á er yfirliti, skýrslu og gagnamengi sjálfkrafa hlaðið í Power BI vinnusvæðið. Þegar því lýkur munu reitirnir uppfærast með gögnum úr [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] fyrirtækinu.
+![Velja Dynamics 365 Business Central og velja Fá núna](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-Til að fá aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)] gögnum þínum í Power BI, á tengisíðunni, verður þú að tilgreina eftirfarandi upplýsingar:
+## <a name="what-now"></a>Hvað núna?
 
-| Svæði | Lýsing |
-| --- | --- |
-| **OData streymisvefslóð** |OData vefslóðin svo Power BI geti fengið aðgang að gögnum úr fyrirtæki þínu, eins og https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
-| **Sannvottunaraðferð** |Velja **Grunn**. |
-| **Notandanafn** |Nafn notanda eins og það birtist fyrir reikningnum þínum í [!INCLUDE[d365fin](includes/d365fin_md.md)], eins og *Jón Jónsson*. |
-| **Aðgangsorð** |Þetta er aðgangslykill vefþjónustu fyrir notandareikningur þinn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
+- Prófaðu [að slá inn spurningu í reitinn Spurningar og svör](https://docs.microsoft.com/en-us/power-bi/service-q-and-a) efst á yfirlitinu.
+- [Breyta reitum](https://docs.microsoft.com/en-us/power-bi/service-dashboard-edit-tile) á yfirlitinu.  
+- [Velja reit](https://docs.microsoft.com/en-us/power-bi/service-dashboard-tiles) til opna undirliggjandi skýrslu.  
+- Gagnamengið verður stillt á að uppfærast daglega en hægt er að breyta uppfærsluáætluninni eða uppfæra það hvenær sem er í **Uppfæra núna**.
 
-Þetta þýðir að þú þarft að fá 2 stykki af upplýsingar úr [!INCLUDE[d365fin](includes/d365fin_md.md)]: *OData vefslóðin* og *aðgangslykill vefþjónustu* fyrir notandareikning þinn.  
+## <a name="system-requirements"></a>Kerfiskröfur
+Til að flytja [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögn í Power BI þarf notandi að hafa heimidlir á vefþjónustunni til að sækja gögnin. Vefþjónusta sem er áskilin fyrir hvern efnispakka inniheldur:
 
-### <a name="getting-the-url"></a>Veffangið sótt
-Þegar [!INCLUDE[d365fin](includes/d365fin_md.md)] er bætt við Power BI verður þú að tilgreina vefslóð þannig að Power Bi geti fá aðgang að gögnum fyrirtækisins. Á tengisíðunni er vísað til vefslóðar sem **OData streymisvefslóð**, og hún verður að vera á eftirfarandi sniði:
+## <a name="role-center-reports"></a>Skýrslur hlutverkamiðstöðvar
 
-         https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-Í þessu dæmi er *mittfyrirtæki* heiti [!INCLUDE[d365fin](includes/d365fin_md.md)] þjónustu, og *CRONUS U.S.* er heiti sýndarfyrirtækinu með *%20* sem táknar bil í heitinu.   
-Til að fá vefslóð, í [!INCLUDE[d365fin](includes/d365fin_md.md)], leita að og opna gluggann **vefþjónustur**. Í þessum glugga er listi yfir vefþjónustur sem eru nú tiltækar og hægt er að afrita tengillinn úr reitnum **OData vefslóð** fyrir eina af sjálfgefnu OData vefþjónustunum.  
+**Microsoft Dynamics 365 Business Central – CRM**
+- Sölutækifæri
+- Skoða fyrirtæki í Excel-sniðmáti
+- Power BI-skýrslumerkimiðar
 
-### <a name="getting-the-user-name-and-the-web-service-access-key"></a>Sækja notandanafninu og vefþjónustu aðgang lykilinn
-Til að nota gögn úr [!INCLUDE[d365fin](includes/d365fin_md.md)] í Power BI í **tengjast Financials** glugganum, verður þú að tilgreina notandanafn og aðgangsorð. Notandanafninu er nafnið þitt eins og það birtast á reikning í [!INCLUDE[d365fin](includes/d365fin_md.md)] svo að Power BI geti skrá sig inn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Aðgangsorðið er aðgangslykill vefþjónustu sem er sett upp fyrir notandareikning þinn í verkefni [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+**Microsoft Dynamics 365 Business Central – Finance**
+- PowerBIFinance
+- Skoða fyrirtæki í Excel-sniðmáti
+- Power BI-skýrslumerkimiðar
 
-Til að finna þessar upplýsingar í [!INCLUDE[d365fin](includes/d365fin_md.md)], leitaðu að **Notendur** glugganum, og síðan opna spjaldið fyrir notandareikning þinn. Á **Almenna** Flýtiflipanum, afritaðu efnið af **Notandanafn** reitnum, og á **Aðgangur vefþjónustu** Flýtiflipanum, afritaðu efni **Aðgangslykill vefþjónustu** reitsins. Ef reiturinn **Aðgangslykill vefþjónustu** er auður skaltu velja í borðanum **Breyta aðgangslykill vefþjónustu**, velja **Lykill rennur aldrei u** reitinn og velja svo Í lagi hnappinn. Síðan er hægt að afrita lykill  
+**Microsoft Dynamics 365 Business Central – Jobs**
+- Verklisti
+- Áætlunarlínur verks
+- Verkhlutalínur verks
+- Power BI-skýrslumerkimiðar
+- Skoða fyrirtæki í Excel-sniðmáti
 
-## <a name="getting-data-from-included365finincludesd365finmdmd"></a>Sækja gögnum frá [!INCLUDE[d365fin](includes/d365fin_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] yfirlitið sýnir flestar dæmigerðum skýrslur sem þú munt vilja nota til að fylgjast með fyrirtækið þitt. Gögnin eru fengin úr þínu [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrirtæki með því að nota vefþjónustur til að lesa lifandi gögn. Í [!INCLUDE[d365fin](includes/d365fin_md.md)], sýnir **vefþjónustur** glugginn þær vefþjónustur sem hafa verið settar upp fyrir þig.
+**Microsoft Dynamics 365 Business Central - Sales**
+- Stjórnborð sölu
+- Skoða fyrirtæki í Excel-sniðmáti
+- Power BI-skýrslumerkimiðar
 
-> [!NOTE]  
->   Ef þú breytir heiti einhverra þessara vefþjónusta munu gögnin ekki birtast í Power BI.  
-Ef þú vilt bæta við nota önnur gögn í Power BI, verður þú að finna töflurnar í [!INCLUDE[d365fin](includes/d365fin_md.md)], sýna þær sem vefþjónustur og síðan bæta þeim við efnispakkann. Þetta eru aðstæður fyrir lengra komna, og við mælum með að þú byrjar með gögn sem er nú þegar í boði í Power BI.  
+## <a name="list-page-reports"></a>Listasíða skýrslna
+
+**Microsoft Dynamics 365 Business Central – Customers List**
+- Sala vöru eftir viðskiptamönnum
+- Power BI-vöruinnkaupalisti
+- Listi yfir vörusölu í Power BI
+- Stjórnborð sölu
+- Power BI-viðskiptamannalisti
+- ExcelTemplateViewCompany
+- Power BI-skýrslumerkimiðar
+
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
+- Listi yfir upphæð fjárhags í Power BI
+- Upphæð fjárhagsáætlunar í Power BI
+- ExcelTemplateViewCompany
+- Power BI-skýrslumerkimiðar
+
+**Microsoft Dynamics 365 Business Central – Items List**
+- Sala vöru eftir viðskiptamönnum
+- Power BI-vöruinnkaupalisti
+- Listi yfir vörusölu í Power BI
+- Stjórnborð sölu
+- ExcelTemplateViewCompany
+- Power BI-skýrslumerkimiðar
+
+**Microsoft Dynamics 365 Business Central – Jobs List**
+- Listi yfir verk í Power BI
+- ExcelTemplateViewCompany
+- Power BI-skýrslumerkimiðar
+
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
+- Listi yfir innkaup í Power BI
+- ExcelTemplateViewCompany
+- Power BI-skýrslumerkimiðar
+
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
+- Listi yfir sölu í Power BI
+- ExcelTemplateViewCompany
+- Power BI-skýrslumerkimiðar
+
+
+**Microsoft Dynamics 365 Business Central – Vendors List**
+- Power BI-vöruinnkaupalisti
+- Listi yfir vörusölu í Power BI
+- Power BI-lánardrottnalisti
+- ExcelTemplateViewCompany
+- Power BI-skýrslumerkimiðar
+
+## <a name="web-services"></a>Vefþjónusta
+Auðveld leið til að finna vefþjónustu er að leita að vefþjónustu í [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Í listanum skal ganga úr skugga um að reiturinn Birta sé valinn fyrir vefþjónustuna sem finna má að ofan.
 
 ## <a name="troubleshooting"></a>Úrræðaleit
-Power BI yfirlitið byggir á birtum vefþjónustum sem eru hér að ofan skráðar, og það mun sýna gögn sýnifyrirtæki eða eigin fyrirtæki þitt ef þú flytja inn gögn úr núverandi fjárhagslausnum þínum. Hins vegar, ef eitthvað fer úrskeiðis, þessi kafli gefur lausn fyrir dæmigerður vandamál.  
+Power BI yfirlitið byggir á birtum vefþjónustum sem eru hér að ofan skráðar, og það mun sýna gögn sýnifyrirtæki eða eigin fyrirtæki þitt ef þú flytja inn gögn úr núverandi fjárhagslausnum þínum. Hins vegar, ef eitthvað fer úrskeiðis, þessi kafli gefur lausn fyrir dæmigerður vandamál.
 
-**„Sannprófun færibreyta tókst ekki, vinsamlegast vertu viss um að allar færibreytur séu gildar“**  
-Ef þú sérð þessa villumeldingu eftir að þú færir inn þína [!INCLUDE[d365fin](includes/d365fin_md.md)] vefslóð, skaltu tryggja að eftirfarandi skilyrði séu uppfyllt:  
+### <a name="incorrect-company-name"></a>Rangt fyrirtækjaheiti  
+Algeng mistök eru að slá inn birtingarnafn fyrirtækis í stað nafn fyrirtækis. Til að finna nafn fyrirtækisins skal leita að **Fyrirtæki**. Svo skal nota reitinn **Nafn** þegar nafn fyrirtækisins er slegið inn.
 
-* Veffangið fylgir nákvæmlega þessum mynstri:
+### <a name="incorrect-user-name-and-password"></a>Rangt notandanafn og aðgangsorð  
+Notandanafn og aðgangsorð sem er notað til að tengjast verður það sama og er notað í Microsoft Office 365 reikningnum.  
 
-    https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')  
-* Eyða öllum texti á eftir heiti fyrirtækis í svigum  
-* Ganga þarf úr skugga um að engin skaástrik komi í kjölfar vefslóðar  
-* tryggja skal að um sé að ræða öruggra tengingu eins og tilgreint af Veffangið sem byrjar á *https*.  
+Efnispakkinn krefst þess einnig að Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] reikningur sé til staðar. Þegar upplýsingarnar hafa verið skráðar inn verða sjálfkrafa borin kennsl á alla Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] leigjendur sem notandinn hefur aðgang að. Ef notandinn hefur ekki leyfi eða prufuútgáfu að Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] reikningi munu villuboð birtast.
 
-**„Innskráning mistókst“**  
-Ef þú færð „innskráning mistókst“ villu þegar þú skráir þig inn í yfirlitið, með því að nota þínar [!INCLUDE[d365fin](includes/d365fin_md.md)] innskráningarupplýsingar, þá getur eitt af eftirfarandi vandamálum valdið þessu:
-
-* Reikningur sem verið er að nota er ekki með heimildir til að lesa [!INCLUDE[d365fin](includes/d365fin_md.md)] gögnin úr reikninginn þinn.
-
-    Staðfesta notandareikning í [!INCLUDE[d365fin](includes/d365fin_md.md)], og ganga úr skugga um að notaðar hafa verið rétt aðgangslykill vefþjónustu sem aðgangsorð og reyndu síðan aftur.  
-* [!INCLUDE[d365fin](includes/d365fin_md.md)] Tilvikið sem verið er að reyna að tengjast er ekki með gilt SLL vottorð. Í þessu tilviki sérðu nákvæmari villuboð ("ekki er hægt að stofna traust SSL samband").
-
-    > [!NOTE]  
-    >   Sjálfárituð vottorð eru ekki studd.  
-
-**"Úps"**  
-Ef þú sérð "Úps" villuglugga þegar þú ert kominn framhjá sannvottunarglugganum, er þetta oftast vegna vandamáls við að tengjast gögnum fyrir efnispakkann.
-
-* Sannprófa að vefslóð er samkvæmt mynstri sem var tilgreint áður.
-
-    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')`  
-* Algeng mistök eru að tilgreina fulla vefslóð fyrir tiltekna vefþjónustu.
-
-    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('CRONUS%20US')/powerbifinance`
-* Eða þú gætir hafa gleymt að tilgreina heiti fyrirtækis.
-
-    `https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/`
+### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Lykillinn passaði ekki við neinar línur í töflunni
+Ef þú slærð inn ógilt heiti fyrirtækis meðan á tengingarferlinu stendur geturðu fengið villuskilaboðin „Lykillinn passaði ekki við neinar línur í töflunni“. Gefðu upp rétt nafn fyrirtækis og reyndu að tengjast aftur.
 
 ## <a name="see-also"></a>Sjá einnig
+[Hafist handa með Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
+[Power BI - Grunnhugtök](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
 [Viðskiptaupplýsingar](bi.md)  
 [Hafist handa](product-get-started.md)  
-[Yfirfæra viðskiptagögn úr öðrum fjárhagskerfum](upload-data.md)  
+[Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
+[Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem PowerApps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] í Microsoft Flow](across-how-use-financials-data-source-flow.md)   

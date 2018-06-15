@@ -8,43 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/10/2017
+ms.date: 05/09/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 591ca492802166610f00ad5be09badd719fdb64a
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 8901216a843440e922ae4df9d7508b543a6c1322
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
-# <a name="get-started-with-included365acclongincludesd365acclongmdmd"></a>Hefjast handa með [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]
-[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
+# <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Hefjast handa með [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+[!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Ef þú ert endurskoðandi með nokkra viðskiptamenn, geturðu notað [!INCLUDE[d365acc](includes/d365acc_md.md)] sem yfirlitssíðu og fengið þannig betra yfirlit yfir viðskiptamenn þína.  
+Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Ef þú ert endurskoðandi með nokkra viðskiptamenn, geturðu notað [!INCLUDE [d365acc](includes/d365acc_md.md)] sem yfirlitssíðu og fengið þannig betra yfirlit yfir viðskiptamenn þína.  
 
-Þú getur fengið aðgang að [!INCLUDE[d365acc](includes/d365acc_md.md)] með því skrá þig af [Dynamics 365 — Accountant Hub á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
+Þú getur fengið aðgang að [!INCLUDE [d365acc](includes/d365acc_md.md)] með því skrá þig af [Dynamics 365 — Accountant Hub á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
-> [!TIP]  
->  Þegar þú skráir þig fyrir [!INCLUDE[d365acc](includes/d365acc_md.md)], er nauðsynlegt að tiltaka vinnunetfangið þitt, eins og *me@accountant.com*. Við mælum með því að þú sama netfang þegar þú starfar í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] viðskiptamanna þinna, svo þú getir auðveldlega skipt á milli viðskiptamanna. Netfangið verður að vera vinnunetfang sem er byggt á Active Directory.
+> [!TIP]
+>  Þegar þú skráir þig fyrir [!INCLUDE [d365acc](includes/d365acc_md.md)], er nauðsynlegt að tiltaka vinnunetfangið þitt, eins og <em>me@accountant.com</em>. Við mælum með því að þú sama netfang þegar þú starfar í [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] viðskiptamanna þinna, svo þú getir auðveldlega skipt á milli viðskiptamanna. Netfangið verður að vera vinnunetfang sem er byggt á Active Directory.
 
 ## <a name="working-with-individual-clients"></a>Vinna með einstökum viðskiptamönnum
 Yfirlitssíðan birtir mikilvægustu upplýsingarnar um sérhvern viðskiptamann.  
 ![Accountant Hub](./media/accountant-get-started/accountant-dashboard-tasks.png)
 
-**Nafn viðskiptamanns** dálkurinn sýnir nafn viðskiptamanna þinna og **Nafn fyrirtækis** dálkurinn inniheldur lista yfir öll fyrirtækin, ef viðskiptamaður er með fleiri en eitt fyrirtæki í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Einnig eru til staðar reitir til að sýna þér verkefni sem hefur verið úthlutað á þig í fyrirtæki viðskiptamannsins þíns, þ.m.t. verkefni á eftir áætlun.  
+**Nafn viðskiptamanns** dálkurinn sýnir nafn viðskiptamanna þinna og **Nafn fyrirtækis** dálkurinn inniheldur lista yfir öll fyrirtækin, ef viðskiptamaður er með fleiri en eitt fyrirtæki í [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]. Einnig eru til staðar reitir til að sýna þér verkefni sem hefur verið úthlutað á þig í fyrirtæki viðskiptamannsins þíns, þ.m.t. verkefni á eftir áætlun.  
 
 Þú getur sérstillt yfirlitssíðuna til að birta gagnapunktana sem þú vilt sjá með því að bæta við eða fjarlægja dálka. Þú vilt kannski sjá, sem dæmi, ógreidda skatta, hversu mörg opin söluskjöl sérhver viðskiptamaður er með, eða þann fjölda innkaupareikninga sem þarf að greiða í næstu viku. Hægt er að laga yfirlitið að þörfum þínum. Ef þú ert með marga viðskiptamenn er hægt að nota afmarkanir til skipuleggja yfirlitið.  
 
 Við hliðina á nafni viðskiptamanns sýnir þrípunktur (...) stutta valmynd:
 
--   Uppfæra fyrirtækið og sækja ný gögn fyrir viðskiptamanninn  
--   Fara í [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamanns  
--   Velja fleiri viðskiptamenn  
+- Uppfæra fyrirtækið og sækja ný gögn fyrir viðskiptamanninn  
+- Fara í [!INCLUDE [d365fin](includes/d365fin_md.md)] viðskiptamanns  
+- Velja fleiri viðskiptamenn  
 
 Á sama hátt er hægt að nota fellivalmyndina **Viðskiptamenn samantekt** til að uppfæra öll fyrirtækin, til dæmis.   
 
-> [!TIP]  
->  Til að fá aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamanns skal velja **Opna Viðskiptamaður** atriði á valmyndinni - innskráning á sér stað sjálfvirkt.
+> [!TIP]
+>  Til að fá aðgang að [!INCLUDE [d365fin](includes/d365fin_md.md)] viðskiptamanns skal velja **Opna Viðskiptamaður** atriði á valmyndinni - innskráning á sér stað sjálfvirkt.
 
 ## <a name="company-details"></a>Fyrirtækisupplýsingar
 Hægt er fá frekari upplýsingar um gögn viðskiptamanns með því að velja nafn fyrirtækisins sem þú vilt læra meira um. Þessi aðgerð opnar **Upplýsingar um fyrirtæki** svæðið, þar sem þú getu séð auka upplýsingar, eins og:  
@@ -56,22 +56,22 @@ Hægt er fá frekari upplýsingar um gögn viðskiptamanns með því að velja 
 
 ![Upplýsingar um fyrirtæki viðskiptamanns á yfirliti endurskoðanda](./media/accountant-get-started/accountant-company-details.png)
 
-Tæknilega séð, hefurðu nú skráð þig inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamanns þíns og gögnin sem þú sérð eru lifandi. Ef þú vilt skoða gögnin nánar, eins og t.d. gjaldfallinn innkaupareikning, veldu tengilinn og þér er beint inn í fyrirtæki viðskiptamannsins.  
+Tæknilega séð, hefurðu nú skráð þig inn í [!INCLUDE [d365fin](includes/d365fin_md.md)] viðskiptamanns þíns og gögnin sem þú sérð eru lifandi. Ef þú vilt skoða gögnin nánar, eins og t.d. gjaldfallinn innkaupareikning, veldu tengilinn og þér er beint inn í fyrirtæki viðskiptamannsins.  
 
-> [!TIP]  
->  Þú getur opnað fyrirfram skilgreint Excel vinnubók frá flipanum **Skýrslur** í borðanum. Þessar Excel vinnubækur eru hannaðar sem tilbúnar til prentunar lykilfjárhagsskýrslur og yfirlit, en þú getur líka lagað þær að þínum þörfum. Frekari upplýsingar eru í [Greina fjárhagsskýrslur í Microsoft Excel](/dynamics365/financials/finance-analyze-excel?toc=/dynamics365/accountants/toc.json) í Hjápinni fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!TIP]
+>  Þú getur opnað fyrirfram skilgreint Excel vinnubók frá flipanum **Skýrslur** í borðanum. Þessar Excel vinnubækur eru hannaðar sem tilbúnar til prentunar lykilfjárhagsskýrslur og yfirlit, en þú getur líka lagað þær að þínum þörfum. Frekari upplýsingar eru í [Greina fjárhagsskýrslur í Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json) í Hjápinni fyrir [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
 Að öðrum kosti skal loka upplýsingasvæðinu og halda áfram til næsta viðskiptamanns.  
 
 ## <a name="assigned-tasks"></a>Úthlutuð verkefni
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamanns þíns geturðu úthlutað verkefnum á sjálfan þig og aðra, og aðrir geta úthlutað verkefnum á þig. Yfirlitið þitt í [!INCLUDE[d365acc](includes/d365acc_md.md)] veitir þér yfirsýn yfir úthlutuð verk fyrir hvern viðskiptamann og þú hefur einnig aðgang að lista yfir öll úthlutuð verk með því að velja **Notandaverkefni mín** í vinstra yfirliti.  
+Í [!INCLUDE [d365fin](includes/d365fin_md.md)] viðskiptamanns þíns geturðu úthlutað verkefnum á sjálfan þig og aðra, og aðrir geta úthlutað verkefnum á þig. Yfirlitið þitt í [!INCLUDE [d365acc](includes/d365acc_md.md)] veitir þér yfirsýn yfir úthlutuð verk fyrir hvern viðskiptamann og þú hefur einnig aðgang að lista yfir öll úthlutuð verk með því að velja **Notandaverkefni mín** í vinstra yfirliti.  
 
 Í viðskiptavinarfyrirtækinu hefur þú einnig vísbendingar sem sýna þér hvaða verkefni hafa verið úthlutað á þig fyrir þennan tiltekna viðskiptavin.
 
 ![Verkefni úthlutað á endurskoðanda í fyrirtæki viðskiptamanns](./media/accountant-get-started/accountant-company-details-tasks.png)
 
 ### <a name="my-user-tasks"></a>Notandaverkefnin mín
-**Notandaverkefni mín** listinn í [!INCLUDE[d365acc](includes/d365acc_md.md)] hjálpar þér að forgangsraða verkefnum yfir daginn með því að sýna frekari upplýsingar um verkefni sem viðskiptamenn hafa úthlutað á þig.  
+**Notandaverkefni mín** listinn í [!INCLUDE [d365acc](includes/d365acc_md.md)] hjálpar þér að forgangsraða verkefnum yfir daginn með því að sýna frekari upplýsingar um verkefni sem viðskiptamenn hafa úthlutað á þig.  
 
 ![Listi yfir verkefni sem var úthlutað á mig sem ytri endurskoðanda](./media/accountant-get-started/accountant-tasklist.png)
 
@@ -84,7 +84,7 @@ Til að sækja verkefni skaltu einfaldlega velja það af listanum yfir verkefni
 ## <a name="see-also"></a>Sjá einnig
 [Bættu við viðskiptamönnum við yfirlitið þitt í [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  
 [Velkomin(n) í [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
-[Greina fjárhagsskýrslur í Microsoft Excel](/dynamics365/financials/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)   
-[Endurskoðandi upplifun í [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/financials/finance-accounting?toc=/dynamics365/accountants/toc.json)  
+[Greina fjárhagsskýrslur í Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)   
+[Endurskoðandi upplifun í [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
 [Dynamics 365 — Accountant Hub á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

@@ -10,20 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 06/02/2017
+ms.date: 05/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b14f779a34f44bc8c41bb13b42ec06bea359c9b7
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 32f5b2b19dc74d3849a313e3d93fdb70146cdb23
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Afstemma bankareikninga hvern fyrir sig
-Til að afstemma bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)] með uppgjör sem koma frá bankanum þarf að fylla inn í línurnar í **Bankareikn. afstemming** glugganum.
+Til að afstemma bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)] með yfirlitum sem koma frá bankanum þarf fyrst að fylla inn í vinstri rúðuna í glugganum **Að afstemma bankareikninga** með upplýsingum um bankayfirlit sem þú síðan jafnar (afstemmir) við færslur í höfuðbók bankareiknings í hægri rúðunni. Sniðug leið til að fylla út í bankayfirlitslínur er með því að flytja inn bankayfirlitsskrá eða streymi.
 
 > [!NOTE]  
->   Einnig er hægt að stemma af bankareikninga í glugganum **greiðsluafstemmingarbók** Allar opnar fjárhagsfærslur bankareiknings sem tengjast jöfnuðum fjárhagsfærslum viðskiptavinar eða lánardrottins verða lokaðar þegar þú velur **Bóka Greiðslur og stemma Af Bankareikninga** aðgerð. Þetta þýðir að bankareikningurinn er sjálvirkt stemmdur af fyrir greiðslur sem bókaðar eru með færslubókinni. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
+> Í norður-amerískum útgáfum getur þú einnig unnið þetta í glugganum **Vinnublað bankaafstemmingar** sem hentar betur fyrir ávísanir og innborganir en býður ekki upp á innflutning á bankayfirlitsskrám. Til að nota þennan glugga í staðinn fyrir gluggann **Afstemming bankareikninga** skaltu afvelja reitinn **Bankareikn.afstemming með sjálfvirkri jöfnun** í glugganum **Fjárhagsgrunnur**. Frekari upplýsingar er hægt að finna í hlutanum „Afstemma bankareikninga“ sem heyrir undir staðbundnar aðgerðir Bandaríkjanna.
+
+> [!TIP]  
+> Einnig er hægt að stemma af bankareikninga í glugganum **greiðsluafstemmingarbók** Allar opnar fjárhagsfærslur bankareiknings sem tengjast jöfnuðum fjárhagsfærslum viðskiptavinar eða lánardrottins verða lokaðar þegar þú velur **Bóka Greiðslur og stemma Af Bankareikninga** aðgerð. Þetta þýðir að bankareikningurinn er sjálvirkt stemmdur af fyrir greiðslur sem bókaðar eru með færslubókinni. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
 Til að virkja innflutning bankayfirlits, verður þú að setja upp og virkja Envestnet Yodlee bankastreymisþjónustu, og tengja síðan bankareikningana við viðkomandi netbankareikninga. Frekari upplýsingar eru í [Setja upp Envestnet Yodlee bankastreymisþjónustu](bank-how-setup-bank-statement-service.md).
 
@@ -58,6 +61,8 @@ Hægt er að fylla á **Bankayfirlitslínur** svæðið í á **afstemming banka
 5. Velja hnappinn **Í lagi**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>að jafna sjálfkrafa bankayfirlitslínur og bankareikningsfærslur
+Glugginn býður upp á sjálfvirkar jöfnunaraðgerðir sem beita greiðslum á tengdar opnar færslur þeirra sem byggja á samsvörun texta í bankayfirlitslínu (vinstri rúðunni) við texta í einni eða fleiri færslum í höfuðbók bankareiknings (hægri rúðunni). Athugaðu að þú getur skrifað yfir ráðlagðar sjálfvirkar jafnanir og þú getur valið að nota ekki sjálfvirkar jafnanir yfirhöfuð. Nánari upplýsingar er að finna í næsta ferli.
+
 1. Í glugganum **Afstemming bankareiknings** er valið **jafna sjálfkrafa** Glugginn **Jafna bankafærslur** opnast.
 2. Í reitnum **Vikmörk færsludagsetningar (dagar** skal tilgreina þann fjölda daga fyrir og eftir bókunardagsetningu fjárhagsfærslu bankareiknings sem hafður er með í leitinni að samsvarandi færsludagsetningum á bankayfirlitinu.
 
@@ -84,7 +89,8 @@ Stundum geta verið vextir eða kostnaður á bankayfirlitinu. Slíkar bankafær
 
     Glugginn **almenn færslubók** opnast og inniheldur nýjar færslubókarlínur fyrir allar bankayfirlitslínur með fjárhagsfærslur sem vantar.
 3. Kláraðu færslubókarlína með viðeigandi upplýsingar, eins og mótreikningur. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).  
-4. Valið er **bóka** aðgerð.
+4. Til að yfirfara niðurstöður bókunar áður en þú bókar skaltu velja aðgerina **Prófunarskýrsla**. Skýrslan **Bankareikningsyfirlit** opnast og sýnir sömu reitina og í hausnum á glugganum **Afstemming bankareiknings**.
+4. Valið er **Bóka** aðgerðin.
 
     Þegar færslan er bókuð, farðu þá í að jafna bankafærsluna við hana.
 5. Uppfærðu eða opnaðu aftur **afstemming bankareiknings** gluggann. Nýji fjárhagsfærslan birtist í **bankareikningsfærslur** svæðinu.

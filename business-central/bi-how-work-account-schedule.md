@@ -1,22 +1,20 @@
 ---
-title: "Vinna með fjárhagsskemu| Microsoft Docs"
+title: "Búa til fjárhagsskýrslur með fjárhagsskemum"
 description: "Lýsir því hvernig skal nota fjárhagsskemu til að búa til ýmis konar yfirlit og skýrslur fyrir greiningar á afkastagögnum fjárhags."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
-ms.author: sgroespe
+ms.date: 04/16/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d01bd220571b7b87d9e631c8a4d75bef951c7433
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: f9f5b3a25a24d4d10c80d048153e68030733bf9e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="work-with-account-schedules"></a>Vinna með fjárhagsskemu
@@ -72,7 +70,98 @@ Hægt er að nota fjárhagsskema til að búa til reikning sem ber saman upphæ�
 8. Í flýtiflipanum **Víddarafmarkanir** skal stilla afmörkunarheitið sem á að nota á áætlunarafmörkun.  
 9. Velja hnappinn **Í lagi**.  
 
-Nú er hægt að afrita áætlunaryfirlitið og líma það inn í töflureikni.
+Nú er hægt að afrita áætlunaryfirlitið og líma það inn í töflureikni.  
+
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Samanburður á reikningstímabilum með reiknireglum tímabils
+Fjárhagsskemað þitt getur borið saman niðurstöður mismunandi reikningstímabila, svo sem þessum mánuði miðað við sama mánuð í fyrra. Til að gera það bætir þú við dálki með reitnum **Reikniregla samanburðartímabils** og stillir síðan þennan reit á reiknireglu fyrir tímabil.  
+
+Reikningstímabil þarf ekki að vera háð almanakinu, en þó verður að vera sami fjöldi reikningstímabila á öllum fjárhagsárum, þótt tímabilin geti verið mislöng.   
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] nýtir reikniregluna fyrir tímabil til að reikna út upphæð frá samanburðartímabili miðað við tímabilið sem fæst við dagsetningarafmörkun á skýrslubeiðninni. Samanburðartímabilið byggir á upphafsdagsetningu dagsetningarsíunnar. Skammstafanirnar sem eiga við eru eftirfarandi:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Skammstöfun</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>T</p></td>
+<td><p>Tímabil</p></td>
+</tr>
+<tr class="even">
+<td><p>ST</p></td>
+<td><p>Síðasta tímabil reikningsárs, hálfs árs eða ársfjórðungs.</p></td>
+</tr>
+<tr class="odd">
+<td><p>CP</p></td>
+<td><p>Gildandi tímabil reikningsárs, hálfs árs eða ársfjórðungs.</p></td>
+</tr>
+<tr class="even">
+<td><p>RÁ</p></td>
+<td><p>Reikningsár. Til dæmis á RÁ[1..3] við um fyrsta fjórðung yfirstandandi reikningsárs.</p></td>
+</tr>
+</tbody>
+</table>
+
+Dæmi um reiknireglur:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Reikniregla</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>&lt;Autt&gt;</p></td>
+<td><p>Yfirstandandi tímabil</p></td>
+</tr>
+<tr class="even">
+<td><p>-1T</p></td>
+<td><p>Fyrra tímabil</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1RÁ[..ST]</p></td>
+<td><p>Allt fyrra reikningsár</p></td>
+</tr>
+<tr class="even">
+<td><p>-1RÁ</p></td>
+<td><p>Yfirstandandi tímabil á fyrra reikningsári</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1RÁ[1..3]</p></td>
+<td><p>Fyrsti fjórðung fyrra reikningsárs</p></td>
+</tr>
+<tr class="even">
+<td><p>-1RÁ[..YT]</p></td>
+<td><p>Frá upphafi fyrra reikningsárs til yfirstandandi tímabils og með því</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1RÁ[YT..ST]</p></td>
+<td><p>Frá yfirstandandi tímabili á fyrra reikningsári til síðasta tímabils fyrra reikningsárs og með því</p></td>
+</tr>
+</tbody>
+</table>
+
+Ef þú vilt reikna eftir venjulegum tímabilum þarf í staðinn að slá inn reiknireglu í reitinn **Reikniregla samanburðartímabils**.
+
+> [!NOTE]
+> Það er ekki alltaf augljóst hvaða tímabil þú ert að bera saman vegna þess að þú getur stillt afmörkunardagsetningu í skýrslu sem nær yfir aðrar dagsetningar en reikningstímabilin sem endurspeglast í gögnum bókhaldslykilsins. Til dæmis stofnar þú fjárhagsskema þar sem þú vilt bera þetta tímabil saman við sama tímabil í fyrra, þannig að þú stillir reitinn **Afmörkunartímabil samanburðardagsetningar** á *-1FY*. Síðan keyrir þú skýrsluna 28. febrúar og setur afmörkunardagsetninguna á janúar og febrúar. Fyrir vikið ber fjárhagsskemað saman janúar og febrúar á þessu ári við janúar á síðasta ári, sem er eina reikningstímabilið sem hefur verið lokið á þessum tveimur árum.  
+
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptaupplýsingar](bi.md)  

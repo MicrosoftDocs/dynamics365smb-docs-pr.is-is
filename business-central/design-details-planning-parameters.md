@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/01/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90b85a099b2b52930299a27b39ed96be9bade624
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Hönnunarupplýsingar: áætlunarfæribreyta
@@ -76,7 +76,7 @@ Til að fá skynsamlegar framboðsáætlun, skipuleggjandi mun fínstilla áætl
 |---------------------------------|---------------------------------------|  
 |**Enduráætlunartímabil**|Þessi reitur er notaður til að ákvarða hvort aðgerðaboðin ættu að enduráætla fyrirliggjandi pöntun eða hætta við hana og stofna nýja. Fyrirliggjandi pöntun verður enduráætluð innan eins enduráætlunartímabils fyrir núgildandi framboð og fram að einu enduráætlunartímabili eftir núgildandi framboð.|  
 |**Lotusöfnunartímabil**|Með endurpöntunarstefnunni Runu-fyrir-runu er þessi reitur notaður til að safna saman margfeldi birgðaþarfa í eina birgðapöntun. Frá dagsetningu fyrstu eftirspurnar safnast öll eftirspurn í eftirfarandi lotusöfnunartímabili saman í eina afhendingarpöntun sem skráð er á dagsetningu fyrstu eftirspurnar. Eftirspurn sem er utan lotusöfnunartímabilsins fellur ekki undir framboðið.|  
-|**Hömlutímabil**|Þessi reitur er notaður til að forðast smávægilegar enduráætlanir núverandi birgða fram í tímann. Breytingar frá birgðadegi þar til eitt hömlutímabil frá birgðadegi mun ekki mynda nein aðgerð skilaboð.<br /><br /> Niðurstaðan er að jákvætt delta á milli áætlaðrar nýrrar framboðsdagsetningar og upphaflegrar framboðsdagsetingar verður alltaf stærra en hömlunartíminn.|  
+|**Hömlutímabil**|Þessi reitur er notaður til að forðast smávægilegar enduráætlanir núverandi birgða fram í tímann. Breytingar frá birgðadegi þar til eitt hömlutímabil frá birgðadegi mun ekki mynda nein aðgerð skilaboð.<br /><br /> Hömlutímabilið tilgreinir tímabil þar sem áætlunarkerfið á ekki að stinga upp á að núverandi birgðapantanir verði færðar fram á við. Þetta takmarkar fjölda óverulegra enduráætlana á núverandi framboðs við seinni dagsetningu, ef nýja áætlaða dagsetningin er innan hömlunartímabilsins.<br /><br /> Niðurstaðan er að jákvætt delta á milli áætlaðrar nýrrar framboðsdagsetningar og upphaflegrar framboðsdagsetningar verður alltaf stærra en hömlunartímabilið.|  
 
 Tímasetning enduráætlunartímabils, hömlutímabils og lotusöfnunartímabils byggir á birgðadegi. Tímaramminn byggir á upphafsdagsetningu áætlanagerðar eins og sést á eftirfarandi skýringarmynd.  
 

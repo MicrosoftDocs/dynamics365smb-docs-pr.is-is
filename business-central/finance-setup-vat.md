@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3ca2883af506af1d98322305ee07a2995470bb2b
+ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
+ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 
@@ -48,7 +48,9 @@ Til að setja upp VSK-númer skal fylgja eftirfarandi skrefum:
 2. Velja skal landið eða svæðið og svo agðerðina **Snið VSK-númers**.
 3. Í reitnum **Snið** skal skilgreina sniðin með því að slá inn einn eða fleiri eftirfarandi stafa:  
 
-    |----|----| | # | Krefst númers sem er ein tala. | | @ | Krefst stafs. Há- og lágstafir skipta ekki máli. | | ? | Leyfir hvaða staf sem er. |
+* # <a name="--requires-a-single-digit-number"></a>- Krefst númers sem er ein tala.
+* @ - Krefst stafs. Há- og lágstafir skipta ekki máli.
+* ? - Leyfir hvaða staf sem er.
 
     > [!Tip]
     > Hægt er að nota þessa stafi svo framarlega sem þeir eru alltaf til staðar í sniði landsins eða svæðisins. Ef t.d. þarf að hafa með punkt eða bandstrik milli talna skal skilgreina sniðið sem ##.####.### or @@-###-###.  

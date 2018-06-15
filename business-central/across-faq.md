@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/27/2017
+ms.date: 04/19/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
+ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
+ms.openlocfilehash: 24b6001df4937df491be8a90fee806cd0f074830
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/19/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Algengar spurningar
@@ -45,6 +45,15 @@ Já. Ef notandi vill framlengja prufutímabilið skal hafa samband við Microsof
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Af hverju finn ég ekki eiginleikann í mínu [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Ertu búin(n) að lesa um nýjan eiginleika í vegakortinu eða á blogginu okkar nýlega? Ef svo er, getur verið að [!INCLUDE[d365fin](includes/d365fin_md.md)] þitt hafi ekki verið uppfært að nýjustu útgáfu enn. Ef eiginleikinn er settur fram sem viðbót í AppSource, er töf á milli þess að eiginleikinn sé kynntur og að hann sé tiltækur í AppSource.
+
+## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Afhverju eru sumar viðmótseiningar sem ég notaði í Dynamics NAV ekki sýnilegar í [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Í [!INCLUDE[d365fin](includes/d365fin_md.md)], gerir kerfishlutinn og valkostir upplifunarinnar þér kleift að sýna/fela viðeigandi hluta vörunnar samkvæmt keyptri áskrift (grunn- og úrvalsáskrift) og í samræmi við vðiskiptaþarfir þínar.
+
+Þessir möguleikar hafa verið notaðir til að einfalda notendaviðmótið í staðlaða útgáfunni af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til dæmis hafa reitir sem ekki eru oft notaðir, t.d. **Faxnúmer**, verið fjarlægðir og á borðum á listum og spjöldum hafa tvíteknar aðgerðir verið fjarlægðar og mest notuðu aðgerðirnar færðar ofar. Nokkrir fullkláraðir eiginleikar, t.d. athugasemdir, er verið að fínstilla fyrir vefbiðlarann og eru því ekki tiltækir í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+Samkvæmt því eru ákveðnar viðmótseiningar sem eru sýnilegar í stöðluðu útgáfunni af Dynamics NAV ekki sýnilegar í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Stýringarnar sem um ræðir hafa nú kerfishlutamerkið #Ítarlegur. 
+
+Ef þú vilt að [!INCLUDE[d365fin](includes/d365fin_md.md)] lausnin þín innihaldi sömu viðmótseiningarnar og Dynamics NAV lausnin þín verður þú að framkvæma nokkur skref í þróunarumhverfinu til að fá #Ítarlegu stýringarnar, með viðbót. Frekari upplýsingar er að finna í [Stækkun kerfishluta](https://docs.microsoft.com/en-us/dynamics-nav/developer/devenv-extending-application-areas).
 
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa](product-get-started.md)  

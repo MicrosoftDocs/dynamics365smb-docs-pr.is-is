@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/12/2018
+ms.date: 05/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 61b21714465d41369b850289d55c3f4e8d9d5920
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 93eced90155b9172595561bfc5b80c3c49ca11bc
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="administration"></a>Stjórnun
@@ -43,12 +43,13 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Færa inn stakar eða endurteknar beiðnir um keyrslu skýrslna eða kótaeininga.|[Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)|  
 |Meðhöndla, eyða eða þjappa skjöl|[Eyðing skjala](admin-manage-documents.md)|  
 |Birta síður, kóðaeiningar og beiðnir sem vefþjónustu.|[Birta vefþjónustu](across-how-publish-web-service.md)|
+|Sem hluti af því að búa til tengiforrit milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og lausna þriðja aðila í gegnum REST API skal skilgreina sniðmát sem eru notuð til að fylla í tóma eiginleika í einingu þegar þú býrð til POST-aðgerð í gegnum API.|[Grunnstilling API-sniðmáta](admin-configuring-api-template.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptavirkni](across-business-functionality.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Hafist handa](product-get-started.md)  
+[Hafist handa](product-get-started.md)    
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

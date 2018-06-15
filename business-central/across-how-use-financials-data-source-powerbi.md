@@ -11,10 +11,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9cad9c7e2b54506e60af7d38d42f413599a44d01
-ms.openlocfilehash: 4e25432fe5f21f29b9533c8c909e58bf24f0eb7a
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: c7782d6f74a56f72b40dfb6cfd59a44ab4a33ae7
 ms.contentlocale: is-is
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Notkun [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Power BI gagnagjafi fyrir skýrslugerð
@@ -43,7 +43,7 @@ Frekari upplýsingar eru í [Power BI skjöl](https://powerbi.microsoft.com/docu
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptaupplýsingar](bi.md)  
 [Hafist handa](product-get-started.md)  
-[Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](upload-data.md)  
+[Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)   
 [Fjármál](finance.md)  
 [Tenging Power BI við [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  

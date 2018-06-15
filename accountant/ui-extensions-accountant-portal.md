@@ -11,13 +11,13 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d5d684e00a88ab60e3dedbb57b1c49faf549bf3b
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: d75e50429f58c3834993ee392d274f6c8ba8a00f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
-# <a name="accountant-portal-for-dynamics-365-for-finance-and-operations-business-edition"></a>Endurskoðandagátt fyrir Dynamics 365 for Finance and Operations, Business edition
+# <a name="accountant-portal-for-dynamics-365-business-central"></a>Endurskoðandagátt fyrir Dynamics 365 Business Central
 Þetta forrit býður upp á gátt með samanteknum gögnum fyrir hvern skjólstæðing endurskoðanda. Í gáttinni er að finna afkastavísi fjárhags ásamt beinni tengingu við fjármálaforrit skjólstæðingsins.  
 
 Í gáttinni er líka sérútbúin Hlutverkamiðstöð sem býður upp á betra yfirlit yfir viðskiptavinina.  
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 Þegar þú setur upp viðbótina í fyrsta sinn, mun sýnifyrirtæki hjálpa þér af stað. Þú getur eytt sýnifyrirtækinu hvenær sem er.  
 
 ## <a name="installing-the-extension"></a>Uppsetning viðbótar
-Þegar þú setur viðbótina upp í [!INCLUDE[d365fin](includes/d365fin_md.md)], skiptir hún hlutverkamiðstöðinni sem fyrir er út og bætir heimildum við notandaaðganginn þinn. Þar af leiðandi þarf að skrá sig út og svo inn aftur.  
+Þegar þú setur viðbótina upp í [!INCLUDE [d365fin](includes/d365fin_md.md)], skiptir hún hlutverkamiðstöðinni sem fyrir er út og bætir heimildum við notandaaðganginn þinn. Þar af leiðandi þarf að skrá sig út og svo inn aftur.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Velkomin(n) í [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  

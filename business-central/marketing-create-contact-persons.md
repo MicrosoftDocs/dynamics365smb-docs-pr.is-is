@@ -1,8 +1,6 @@
 ---
 title: "Stofna einstaklingstengiliði| Microsoft Docs"
 description: "Útskýrir hvað felst í verkhlutanum að setja upp tengiliðaspjald fyrir einstakling, til dæmis viðfang eða birgja, og hjálpar til við að skilgreina sambandið og móta samskiptin."
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 05/09/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3701bf4f4470b84d05ce8f7a7686a6b8d37b7025
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 341cd12db4ca130539a2ba2838c3aa95a96cb6ab
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="creating-contact-persons"></a>Einstaklingstengiliðir stofnaðir
@@ -40,6 +38,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 ## <a name="see-also"></a>Sjá einnig
 [Fyrirtækjatengiliðir stofnaðir](marketing-create-contact-companies.md)  
-[Stofnun og stjórnun tengiliða]()  
+[Einstaklingstengiliðir stofnaðir](marketing-create-contact-persons.md)  
+[Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)  
 [Vinna með Business Central](ui-work-product.md)
 

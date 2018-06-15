@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6054136dc0722be673b5a7593a371cbec2948e6c
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 78d97c11662f2e05e17e15213406076ae5bba7a6
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Uppsetning bestu venjur: Áætla færibreytur
@@ -26,8 +26,7 @@ Flýtiflipinn **Áætlun** á birgðaspjaldinu er þungamiðja birgðakeðju fyr
 |-----------------|-------------------|-------------|  
 |Endurpöntunarstefna||Nánari upplýsingar er að finna í [Uppsetning bestu venjur: Endurpöntunarstefnur](setup-best-practices-reordering-policies.md).|  
 |Taka frá|Veljið **Aldrei** þegar varan er áætluð með endurpöntunarmarki.<br /><br /> Við framleiðslu skal velja **Aldrei** til að leyfa áætlunarkerfinu til að ná yfir alla eftirspurn.<br /><br /> Veljið **Valfrjálst** fyrir vörur sem hægt er að taka frá fyrir viðskiptamenn með mestan forgang.<br /><br /> Veljið **Alltaf** fyrir vörur sem ekki eru einstakar, svo sem ýmsar vörur sem eru á innleið fyrir tiltekna þörf.|Frátekningar hafa yfirleitt andstæðan tilgang en áætlanir, sem koma jafnvægi á eftirspurn og framboð. Því ætti almennt ekki að taka frá vörur sem uppsettar eru fyrir áætlun.<br /><br /> Ef notandinn tekur frá birgðamagn fyrir eftirspurn í framtíðinni mun það trufla forsendur áætlunarinnar og þá gæti endurpöntunarmark virkað illa. Jafnvel þótt áætlað birgðastig sé leyfilegt með tilliti til endurpöntunarmarks, má magnið ekki vera til staðar vegna frátekningarinnar.|  
-|Hömlutímabil|Uppsetning með tilliti til sveigjanleika birgisins.|Ef birgir samþykkir breytingar á pöntunum á síðustu stundu má nota lengra tímabil. Ef birgirinn krefst fastari áætlana skal stytta tímabilið eins og hægt er.<br /><br /> Nánari upplýsingar um altæka uppsetningu er að finna í [Hönnunarupplýsingar: áætlunarfæribreytur](design-details-planning-parameters.md).|  
-|Hömlumagn||Nánari upplýsingar um altæka uppsetningu er að finna í [Hönnunarupplýsingar: áætlunarfæribreytur](design-details-planning-parameters.md).|  
+|Hömlutímabil|Uppsetning með tilliti til sveigjanleika birgisins.<br /><br /> Með lengri tíma er hægt að veita betri þjónustu við viðskiptavini, en mun einnig leiða til frekari endurskipulagningar.|Ef birgir samþykkir breytingar á pöntunum á síðustu stundu má nota lengra tímabil, búðu þig undir frekari endurskipulagningu. Ef birginn krefst fastrar áætlunar skaltu stytta tímabilið eins og hægt er.<br /><br /> Nánari upplýsingar um reitinn **Hömlutímabil** eru að finna í [Hönnunarupplýsingar: Áætlunarfæribreytur](design-details-planning-parameters.md).|  
 |Taka með birgðir|Velja alltaf við notkun lotu-fyrir lotu endurpöntunarstefnu|Ekki velja einungis í einstökum tilvikum, eins og þegar birgðir eru ekki söluhæfar.|  
 |Öryggisforskot|Stilla á milli 1D og 6D.<br /><br /> Setja öryggisforskot í að minnsta kosti einn dag til að tryggja að birgðir séu tiltækar deginum áður en þeirra er þörf.<br /><br /> Ef nýr birgir er notaður skal skilgreina lengri tíma þar til afhendingarframmistaða hans er þekkt.<br /><br /> Við framleiðslu skal skilgreina lengri afgreiðslutíma fyrir mikilvæga íhluti.|Aðföng sem áætluð eru af kerfinu til að forðast uppseld berast á sama dag og uppseld á sér stað. Þetta getur verið nokkrum klukkutímum of seint, til dæmis ef eftirspurnina þarf að morgni og framboðið kemur síðdegis. **Athugið:** Svæðið **Öryggisforskot** notar grunndagatal. Því eru 14D ekki endilega tvær vikur.|  
 |Magn í öryggisbirgðum|Notist fyrir vörur sem þar sem mikil sveifla er í eftirspurn.<br /><br /> Við framleiðslu skal nota þetta fyrir mikilvæga íhluti.<br /><br /> Notist fyrir vörur sem falla undir þjónustusamninga.|Ef reiturinn **Endurpöntunarmark** er fylltur út virka öryggisbirgðir einnig sem endurpöntunarmark.|  

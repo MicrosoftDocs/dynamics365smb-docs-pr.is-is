@@ -13,21 +13,21 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Breyta grundvallarstillingum
-Í glugganum **Stillingar mínar** er hægt að sjá og breyta grunnstillingum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Í glugganum **Stillingar mínar** er hægt að sjá og breyta grunnstillingum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Breytingar sem þú gerir munu aðeins hafa áhrif á vinnusvæðið þitt, ekki vinnusvæði annarra notenda.  
 
 ## <a name="role-center"></a>Mitt hlutverk
-Mitt hlutverk er upphafssíðan og er hönnuð fyrir þarfir hlutverksins. Mitt hlutverk veitir þér yfirlit yfir fyrirtækið, sem endurspeglar upplýsingar, verkefni og forgangsatriði á þínu hlutverki.
+Mitt hlutverk táknar heimasíðuna, upphafssíðu sem er hönnuð fyrir þarfir tiltekins hlutverks í fyrirtækinu. Það fer eftir hlutverki þínu, en Mitt hlutverk gefur þér yfirlit yfir fyrirtækið, deildina þína eða persónuleg verkefnin þín. Það hjálpar þér líka að komast í daglegu verkefnin þín og finna vinnu sem þér er úthlutað.
 
-Efst í Mitt hlutverk er yfirlitsstika sem veitir auðvelt aðgengi að dæmigerðum einingum hlutverksins, t.d. viðskiptavinum, lánardrottnum, vörum og svo framvegis.
+-   Efst gerir yfirlitið þér kleift að skipta á milli viðskiptavina, lánardrottna, vara og annarra mikilvægra lista yfir upplýsingar. Á svipaðan hátt leyfa aðgerðir þér að hefja verkefni, svo sem að búa til nýjan sölureikning, beint frá Mínu hlutverki.
 
-Það sem birtist aðalsvæðinu fer eftir tilgreindu Mínu hlutverki. Til dæmis er hægt að finna aðgerðareiti í flestum Mínum hlutverkum sem sýna núgildandi gögn og má smella eða ýta á þá til að fá einfaldan aðgang að völdum skjölum. Afkastavísa má setja upp til að sýna valin myndrit svo fáist myndræn framsetning af, til dæmis, fjárstreymi´ og tekjum og útgjöldum. Mitt hlutverk gerir þér stundum kleift að búa til lista yfir eftirlætis einingar, t.d. viðskiptavini og lánardrottna, eða sýna skýrsluinnhólfið.
+-   Í miðjunni finnurðu **Aðgerðir**. Aðgerðir sýna núgildandi gögn og má smella eða ýta á þau til að skoða nákvæmari upplýsingar. Afkastavísa má setja upp til að sýna valin myndrit svo fáist myndræn framsetning af, til dæmis, fjárstreymi´ og tekjum og útgjöldum. Þú getur einnig byggt upp lista af uppáhalds viðskiptavinum á heimasíðunni fyrir reikninga sem þú ert oft í viðskiptum við eða þarft að veita sérstaka athygli.
 
 ### <a name="to-change-role-center"></a>Til að breyta Mitt hlutverk
 Sjálfgefið hlutverkamiðstöð er **Viðskiptastjórnandi**, en hægt er að velja annað Hlutverk sem uppfylla þörfum betur.
@@ -55,10 +55,16 @@ Sjálfgefin vinnudagsetning er yfirleitt dagurinn í dag. Þú gætir þúrft a�
 ## <a name="region"></a>Svæði
 **Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir.   
 
+
+## <a name="language"></a>Tungumál
+Breyta birtingartungumáli. Þessi reitur birtist aðeins þegar meira en eitt tungumál er að velja úr. 
+
+Upphafstungumálið er annaðhvort ákveðið af kerfisstjóra eða stillingum vafrans þegar þú skráir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tungumálið sem þú setur verður notað á öllum tækjum sem þú skráir þig inn í, svo sem síma eða spjaldtölvu. 
+
 ## <a name="changing-when-i-receive-notifications"></a>Breyta þegar ég fæ tilkynningar
 Velja þennan hlekk til að skoða eða breyta tilkynningum um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu, eða þegar tiltækar birgðir eru lægri en magnið sem þú ert að fara að selja. Frekari upplýsingar, sjá [Snjall-tilkynningar](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Sérstillir þína [!INCLUDE[d365fin](includes/d365fin_md.md)] upplifun](ui-experiences.md)  
+[Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)  
 

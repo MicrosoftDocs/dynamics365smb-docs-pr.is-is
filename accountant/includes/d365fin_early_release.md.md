@@ -1,1 +1,1 @@
-Þetta er frumútgáfa sem við erum enn að vinna að. Virkni og efni á þessari síðu geta breyst. Til að læra hvað er að koma skal sjá [Microsoft Dynamics 365 for Finance and Operations, Business Edition Roadmap](https://go.microsoft.com/fwlink/?linkid=842139).
+Þetta er frumútgáfa sem við erum enn að vinna að. Virkni og efni á þessari síðu geta breyst. Til að fræðast um það sem er væntanlegt skal [Sækja útgáfuupplýsingar fyrir vor 2018](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).
