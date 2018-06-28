@@ -68,5 +68,5 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð O
 [Vinna með notendur og heimildir](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -170,5 +170,5 @@ Ef þú slærð inn ógilt heiti fyrirtækis meðan á tengingarferlinu stendur 
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] í Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -57,5 +57,5 @@ Til að auka yfirlit yfir vörur og til að hjálpa þér að finna þær, getur
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

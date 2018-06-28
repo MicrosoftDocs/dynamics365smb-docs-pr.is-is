@@ -64,5 +64,5 @@ Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](incl
 [Hafist handa](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

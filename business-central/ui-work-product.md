@@ -49,5 +49,5 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða glugga sem er, ví
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
