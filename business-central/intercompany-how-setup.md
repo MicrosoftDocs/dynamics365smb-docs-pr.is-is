@@ -1,8 +1,6 @@
 ---
 title: "Setja upp Bókun millifyrirtækjafærslu | Microsoft Docs"
 description: "Stofna lánardrottna og viðskiptamenn millifyrirtækis sem svokallaða millifyrirtækjafélaga, og setja upp bókhaldslykil millifyrirtækis."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/20/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 418dac3a6d909d3eb07525ab537a94f85016ad19
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: a9e3788687e88a60141e9ffb6b18f1c98a180c59
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-intercompany"></a>Uppsetning milli fyrirtækja
@@ -52,20 +50,20 @@ Ef fyrirtækið þitt er móðurfyrirtækið og er með skilgreinandi bókhaldsl
 Ef fyrirtækið þitt er dótturfyrirtæki og hefur fengið XML-skrá með bókhaldslykli sem hópurinn notar sem sameiginlega viðmiðun er þessari aðferð fylgt „Hvernig á að flytja inn Bókhaldslykill milli fyrirtækja“.  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Skilgreinandi bókhaldslykill milli fyrirtækja er settur upp.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **MF bókhaldslykill** og velja svo viðeigandi tengil.
-2. Í glugganum **MF-bókhaldslykill** færið inn hvern reikining í línu í glugganum.  
+1. Velja skal táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið"), slá inn **MF-bókhaldslykla** og velja svo viðeigandi tengil.
+2. Í glugganum **MF-bókhaldslyklar** skal færa inn hvern reikning í línu í glugganum.  
 3. Ef MF-bókhaldslykillinn verður eins og eða svipaður og venjulegi bókhaldslykillinn er hægt að láta fylla gluggann út sjálfkrafa með því að velja **Afrita frá bókhaldslykli** aðgerðina. Hægt er að breyta nýju línunni eins og þurfa þykir.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>MF-bókhaldslykill er fluttur út
 Til að leyfa millifyrirtækjafélögum þínum að flytja inn skilgreinandi bókhaldslykilinn, verður að flytja hann út í skrá.      
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **MF bókhaldslykill** og velja svo viðeigandi tengil.
-2. Í gluggi **MF-bókhaldslykill** veljið aðgerðina **Flytja út** og síðan hnappinn **Vista**.
+1. Velja skal táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið"), slá inn **MF-bókhaldslykla** og velja svo viðeigandi tengil.
+2. Í glugganum **MF-bókhaldslyklar** skal velja aðgerðina **Flytja út** og síðan velja hnappinn **Vista**.
 3. Skrárheitið og staðsetningin þar sem vista á XML-skrána eru valin og síðan smellt á **Vista**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Bókhaldslykill milli fyrirtækja fluttur inn:  
 Þegar til er skrá sem inniheldur skilgreinandi MF-bókhaldslykilinn, geta millifyrirtækjafélagar flutt hana inn til að vera vissir um að hafa sama lykilinn.  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **MF bókhaldslykill** og velja svo viðeigandi tengil.  
-2. Í gluggi **MF-bókhaldslykill** veljið aðgerðina **Flytja inn**.  
+1. Velja skal táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið"), slá inn **MF-bókhaldslykla** og velja svo viðeigandi tengil.  
+2. Í glugganum **MF-bókhaldslyklar** skal velja aðgerðina **Flytja inn**.  
 3. Skrárheiti og staðsetning XML-skrárinnar eru tilgreind og smellt á **Opna**.  
 
 Glugginn **MF-bókhaldslykill** er fylltur út með nýjum eða breyttum fjárhagsreikningslínum samkvæmt MF-bókhaldslyklinum í skránni. Allar fyrirliggjandi, óskyldar línur í glugganum haldast óbreyttar.
@@ -75,7 +73,7 @@ Eftir að MF-bókhaldslykill sem millifyrirtækjafélagar hafa samþykkt að not
 
 Ef reikningar í bókhaldslykli milli fyrirtækja hafa sömu reikningsnúmer og samsvarandi reikningar í bókhaldslyklinum er hægt að varpa reikningunum.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **MF bókhaldslykill** og velja svo viðeigandi tengil.  
+1. Velja skal táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið"), slá inn **MF-bókhaldslykla** og velja svo viðeigandi tengil.  
 2. Línurnar sem á að varpa sjálfkrafa eru valdar og svo er valin aðgerðin **Varpa á reikning með sama nr.**.  
 3. Fyrir hvern fjárhagsreikning milli fyrirtækja sem ekki var varpað sjálfkrafa, skal fylla í reitinn **Varpa á Fjárhagsreikning nr.**.  
 
@@ -89,7 +87,7 @@ Ef reikningar í bókhaldslykli milli fyrirtækja hafa sömu reikningsnúmer og 
 3. Skref 3 er endurtekið fyrir hvern reikning sem oft er færður inn í reitinn **Mótreikningur nr.** í línu í færslubók eða fylgiskjali milli fyrirtækja.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Uppsetning vídda millifyrirtækja
-Ef milli-fyrirtækjafélagar vilja skiptast á færslum með víddum þurfa þeir allir að samþykkja milli-fyrirtækjavíddirnar sem allir koma til með að nota. Dæmi: móðurfyrirtæki hópsins stofnar einfaldaða útgáfu af víddum sínum, flytur milli-fyrirtækjavíddir í XML-skrá og dreifir henni til einstakra fyrirtækja í hópnum. Hvert dótturfyrirtæki flytur síðan XML-skrána inni í töfluna **MF-vídd** og varpar milli-fyrirtækjavíddum á víddirnar í eigin **vídda** glugga.  
+Ef milli-fyrirtækjafélagar vilja skiptast á færslum með víddum þurfa þeir allir að samþykkja milli-fyrirtækjavíddirnar sem allir koma til með að nota. Dæmi: móðurfyrirtæki hópsins stofnar einfaldaða útgáfu af víddum sínum, flytur milli-fyrirtækjavíddir í XML-skrá og dreifir henni til einstakra fyrirtækja í hópnum. Hvert dótturfyrirtæki flytur síðan XML-skrána inn í gluggann **Millifyrirtækjavíddir** og varpar millifyrirtækjavíddum á víddirnar í eigin **Víddir** glugga.  
 
 Ef fyrirtækið þitt er móðurfyrirtækið og er með skilgreinandi safn milli-fyrirtækjavídda sem hópurinn notar sem sameiginlega viðmiðun, er þessari aðferð fylgt „Skilgreining vídda millifyrirtækja“.
 
@@ -97,7 +95,7 @@ Ef fyrirtæki þitt er dótturfyrirtæki og þú færð XML-skrá með MF-víddu
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Skilgreina MF-víddir
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Millifyrirtækjavíddir** og velja svo viðeigandi tengil.  
-2. Í glugganum **MF-víddir** er hver vídd er færð inn í línu í glugganum.
+2. Í glugganum **MF-víddir** skal færa hverja vídd inn í línu í glugganum.
 
     Ef MF-víddirnar verða eins eða svipaðar og víddir fyrirtækisins er hægt að fylla gluggann sjálfkrafa út með því að nota aðgerðina **Afrita úr víddum** og breyta síðan línunum sem verða til.  
 3. Velja skal **Flytja út** aðgerðina til að flytja MF-víddirnar út í XML-skrá til dreifingar til fyrirtækisfélaga.  
@@ -106,21 +104,21 @@ Ef fyrirtæki þitt er dótturfyrirtæki og þú færð XML-skrá með MF-víddu
 ### <a name="to-import-the-intercompany-dimensions"></a>Millifyrirtækjavíddir fluttar inn  
 Þegar til er skrá sem inniheldur skilgreinandi MF-víddir, geta millifyrirtækjafélagar flutt hana inn til að vera vissir um að hafa sömu víddirnar.  
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Millifyrirtækjavíddir** og velja svo viðeigandi tengil.  
-2. Í gluggi **MF-víddir** veljið aðgerðina **Flytja inn**.  
+2. Í glugganum **MF-víddir** skal velja aðgerðina **Flytja inn**.  
 3. Skrárheiti og staðsetning XML-skrárinnar eru tilgreind og smellt á **Opna**.  
 
 Línurnar í glugganum **MF-víddir** og glugganum **MF-víddargildi** eru fluttar inn.  
 
 ### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>MF-víddum varpað á víddir fyrirtækisins:
-Þegar búið er að skilgreina eða flytja inn víddunum sem þú og milli-fyrirtækjafélagar hafa samþykkt að nota þarf að tengja hverja vídd milli fyrirtækja við eina af víddum fyrirtækisins og öfugt. Í glugganum **MF-víddir** er skilgreint hvernig MF-víddir í færslum á innleið verða túlkaðar sem víddir í víddatöflu fyrirtækisins. Í glugganum **Víddir** er tilgreint hvernig víddirnar verði túlkaðar sem MF-víddir í færslum á útleið.
+Þegar búið er að skilgreina eða flytja inn víddunum sem þú og milli-fyrirtækjafélagar hafa samþykkt að nota þarf að tengja hverja vídd milli fyrirtækja við eina af víddum fyrirtækisins og öfugt. Í glugganum **MF-víddir** er hægt að skilgreina hvernig MF-víddir í færslum á innleið verða túlkaðar sem víddir í víddatöflu fyrirtækisins. Í glugganum **Víddir** er tilgreint hvernig víddirnar verði túlkaðar sem MF-víddir í færslum á útleið.
 
 Ef einhver af víddunum milli fyrirtækja hefur sama kóta og samsvarandi víddir í víddatöflu fyrirtækisins er hægt að láta kerfið varpa víddunum sjálfkrafa, og þá er hægt að varpa reikningunum sjálfkrafa.
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Millifyrirtækjavíddir** og velja svo viðeigandi tengil.
-2. Í glugganum **MF-víddir** eru línurnar sem á að varpa sjálfkrafa eru valdar og svo er **Varpa á víddir með sama kóða** aðgerðin valin.
+2. Í glugganum **MF-víddir** skal velja línurnar sem á að varpa sjálfkrafa og svo er valin aðgerðin **Varpa á víddir með sama kóða**.
 3. Fyrir hverja vídd milli fyrirtækja sem er ekki varpað sjálfkrafa, skal fylla út í reitinn **Varpa á víddarkóta**.
-4. Velja aðgerðina **MF-víddargildi**.
-5. Í glugganum **MF-víddargildi** er reiturinn **Varpa á víddargildiskóða** fylltur út.
+4. Veljið aðgerðina **MF-víddargildi**.
+5. Í glugganum **MF-víddargildi** skal fylla út reitinn **Varpa á víddargildiskóða**.
 
     Halda áfram að varpa víddum á MF-víddir með því að framkvæma svipuð skref.
 6. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Víddir** og velja svo viðeigandi tengil.

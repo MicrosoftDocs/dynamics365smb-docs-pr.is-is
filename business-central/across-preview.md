@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 01/05/2018
+ms.date: 06/28/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Aðgangur að forskoðun [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -43,7 +43,7 @@ Frekari upplýsingar eru í [Nota hönnuð](https://docs.microsoft.com/en-us/dyn
 3.  Velja **Stofna**. Flipi opnast þar sem hægt er að ljúka uppsetningu sandkassans.
 
     > [!Note]
-    > Ef sprettigluggavörnin er virk í vafranum skal breyta því þannig að vefslóðir frá *.financials.dynamics.com* aðsetrinu verði leyfðar.  
+    > Ef sprettigluggavörnin er virk í vafranum skal breyta því þannig að vefslóðir frá *.businesscentral.dynamics.com* aðsetrinu verði leyfðar.  
 
 4.  Þegar sandkassinn er tilbúinn birtist upphafssíða.  
 5.  Ef þú vilt lesa um dæmi sem hægt er að prófa í sandkassaumhverfinu, t.d. hvernig á að þróa viðbætur, skal velja tengilinn **Læra meira**. Veldu annars **Loka** til að halda áfram í Mitt hlutverk í [!INCLUDE[d365fin](includes/d365fin_md.md)] sandkassatilvikinu þínu.  
@@ -67,7 +67,7 @@ Frekari upplýsingar eru í [Nota hönnuð](https://docs.microsoft.com/en-us/dyn
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] býður upp á verkfæri sem þú getur notað til að framkvæma eigin viðbót og fellt inn virkni til að bæta við nýjum upplifunum frá upphafi til enda fyrir tiltekna starfsgrein eða samþætta lausnir þriðja aðila. Til dæmis getur þú notað API til að smíða tengiforrit til að skiptast á gögnum milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og launaforritsins. Tengiforrit geta einnig nýtt sér viðbætur til að búa til síður sem notaðar eru fyrir uppsetningar, stillingar eða til að styðja við tiltekna eiginleika forrits. Nánari upplýsingar eru í [Þróa forrit fyrri [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
-##<a name="see-also"></a>Sjá einnig
+## <a name="see-also"></a>Sjá einnig
 [Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

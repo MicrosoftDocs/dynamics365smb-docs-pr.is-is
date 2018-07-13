@@ -13,10 +13,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 92173c1df5f105ad9156c34ab7050ef1546127bc
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: b4ed119845ef460ac3235a2e56a18f99e5cc4ee3
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Setja upp pósthópaa fyrir tengiliði.
@@ -44,5 +44,5 @@ Eftir að tengiliðum hefur verið úthlutað pósthópum er hægt að nota þes
 ## <a name="see-also"></a>Sjá einnig
 [Fyrirtækjatengiliðir stofnaðir](marketing-create-contact-companies.md)  
 [Einstaklingstengiliðir stofnaðir](marketing-create-contact-persons.md)  
-[Unnið með Financials](ui-work-product.md)
+[Unnið með Business Central](ui-work-product.md)
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 05/31/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: b7e0ad1c632b21a26be01e68178388512d6dbbea
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: baaa62e11f9abfac900d5fe6abb14cec9fafdacf
 ms.contentlocale: is-is
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="business-intelligence"></a>Viðskiptaupplýsingar
@@ -32,7 +32,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Til | Sjá |
 | --- | --- |
 |Skoða raunverulegar upphæðir í samanburði við áætlaðar upphæðir fyrir alla reikninga og nokkur tímabil.|[Greina raunverulegar og áætlaðar upphæðir](bi-how-analyze-actual-versus-budget.md)|
-|Búa til nýtt fjárhagsskema til að skilgreina ársreikninga fyrir skýrslugjöf eða fyrir sýningu í formi myndrits.|[Vinna með fjárhagsskemu](bi-how-work-account-schedule.md)|
+|Búa til nýtt fjárhagsskema til að skilgreina ársreikninga fyrir skýrslugjöf eða fyrir sýningu í formi myndrits.|[Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)|
 |Greindu fjárhagslega frammistöðu þína með því að setja upp KPI á grundvelli fjárhagskemu sem þú gefur svo út sem vefþjónustur. Hægt er að skoða útgefna afkastavísa fyrir fjárhagsskemað á vefsíðu eða flytja þá inn í Microsoft Excel með OData vefþjónustu.|[Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Setja upp greiningaryfirlit, til að greina gögn með víddum.|[Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)|
 |Búa til ný greiningaryfirlit fyrir sölu, innkaup og birgðir og búa til greiningarsniðmát.|[Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)|
@@ -40,11 +40,11 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)    
-[Nota Financials sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
+[Nota Business Central sem Power BI gagnaveita](across-how-use-financials-data-source-powerbi.md)  
 [Lokun fjárhagstímabila](year-close-years-periods.md)  
 [Gögn flutt inn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

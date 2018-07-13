@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fcfbf5d9c66df986e34e68d98888042d83a53481
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Vinna með vistaðar stillingar á skýrslum
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 Hægt er að skoða vistuð stillingar sem völ er á með í skýrslunni í **Vistuð Stillingar** hluta af síðu skýrslunnar beiðni.  
 
-## <a name="to-apply-saved-settings-to-a-report"></a>Jafna vistuð stillingar í skýrslu
+## <a name="apply-saved-settings-to-a-report"></a>Nota vistaðar stillingar í skýrslu
 1. Viðeigandi skýrsla er opnuð.
 
    Skýrslunni beiðni page birtist.    
@@ -30,7 +30,7 @@ Hægt er að skoða vistuð stillingar sem völ er á með í skýrslunni í **V
 
    Hlutinn **Vistaðar stillingar** birtist eingöngu ef skýrslan hefur verið keyrð áður eða ef fyrir eru vistaðar stillingafærslur. Vistaða stillingafærslan sem kallast **Síðast notaðir valkostir og afmarkanir** er alltaf tiltæk. Þessar stillingar eru kostur og afmörkun gildin sem voru notaðar í síðasta sinn sem keyrslan er í skýrslunni.
 
-## <a name="administer-saved-report-settings-for-users"></a>Séð um vistuðu skýrslu stillingar fyrir notendur
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Stofna og breyta vistuðum stillingum fyrir alla notendur
 Ef rétta heimildir, hægt er að skoða, stofna og breyta vistuð stillingar fyrir allar skýrslur fyrir alla notendur í fyrirtækinu. Hægt er að úthluta vistuð stillingar skýrslu fyrir einstaka notendur eða alla notendur í fyrirtækinu.
 
 Stjórna er vistuð stillingar úr page 1506 **Skýrslum Stillingar**. Til að opna þessa síðu, skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skýrslustillingar** og velja svo viðeigandi tengil.

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 043034d281eb4b58fab8ab4344987d5d3ca5f494
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 0e57f02f1689de12e75595a26c489eeda68a4b89
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-a-document-exchange-service"></a>Setja upp skjalaskiptaþjónustu
@@ -37,12 +37,8 @@ Notaður er ytri þjónustuveitandi til að skiptast á rafrænum skjölum við 
     |**Tákn**|Færa skal inn þríliða OAuth-lykilinn fyrir tákn. Hann er gefinn upp af hálfu veitanda skjalaskiptiþjónustunnar.|  
     |**Leyndarmál greiðslueiningar**|Færa skal inn leyndarmálið sem verndar táknið. Hann er gefinn upp af hálfu veitanda skjalaskiptiþjónustunnar.|  
 
-> [!NOTE]  
->  Mælt er með því að vernda innskráningarupplýsingar sem slegnar eru inn í **uppsetning VAN-þjónustu** gluggann. Hægt er að dulrita gögn á  netþjóninum með því að stofna nýjan dulritunarlykil eða flytja inn fyrirliggjandi lykla sem eru virkjaðir er á netþjónstilviki sem tengist við gagnagrunninn. Þessu er lýst í eftirfarandi ferli.  
-
-## <a name="to-encrypt-your-logon-information"></a>Til að dulrita innskráningarupplýsingar  
-1. Í **uppsetning fyrir VAN-þjónusta** glugganum, veldu **stjórnun dulritunar**.  
-2.  Í glugganum **gagnadulritun**, virkja dulritun gagnanna. <!--For more information, see [Manage Data Encryption](../manage-data-encryption.md).-->  
+    > [!NOTE]  
+    > Innskráningargögnin þín eru sjálfkrafa dulrituð.
 
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  

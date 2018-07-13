@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: f35e361d083ce9fd497f76cb3b8417fef233438c
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f6a8bca975e37adb436f30ef3d16bbc198f26447
 ms.contentlocale: is-is
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="general-business-functionality"></a>Almenn viðskiptavirkni
@@ -33,7 +33,7 @@ Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að 
 | Setja upp kóta fyrir staðaltexta svo hægt sé að lengja staðlaðan texta með því að bæta við línum og setja skilyrði fyrir notkun viðbótarlínanna. |[Skilgreina lengdan texta](ui-how-define-ext-text.md) |
 |Stofna verk til að minna þig á hvað þarf að gera. Þú getur búið til verkefni fyrir þig, en þú getur einnig úthlutað verkefnum til annarra eða fengið verkefni frá öðrum í fyrirtækinu þínu.|[Skilgreinir notandaverk](across-user-tasks.md)|
 |Leyfðu kerfinu að hjálpa þér að ljúka verkum hraðar og réttar með því að forfylla í reiti eða klára línur með gögnum sem þú myndir annars þurfa að reikna og færa inn á eigin spýtur.|[Að láta Business Central leggja til gildi](ui-let-system-suggest-values.md)|
-|Skrásetja ytri skjöl í Financials, þ.m.t. viðhengi, og stofna svo handvirkt stofna tengd skjöl eða umbreyta skjölunum sjálfkrafa í rafræn skjöl.|[Skjöl á innleið](across-income-documents.md)|
+|Skráðu utanaðkomandi skjöl, þ.m.t. skráarviðhengi þeirra, og búðu svo til handvirkt tengd skjöl eða umbreyttu skránum sjálfkrafa í rafræn skjöl.|[Skjöl á innleið](across-income-documents.md)|
 |Setja upp og nota verkflæði sem tengja verk frá mismunandi notendum eða af kerfinu, t.d. sjálfvirk bókun. Að óska eftir samþykki eða samþykkja að stofna eða bóka skjöl eru dæmigerð skref í verkflæði.|[Verkflæði](across-workflow.md)|
 | Setja upp skilgreiningar gagnaskipta svo þú getir sent og tekið á móti rafrænum skjölum. |[Rafræn gagnaskipti](across-data-exchange.md) |
 
@@ -42,5 +42,5 @@ Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að 
 [Stjórnun](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

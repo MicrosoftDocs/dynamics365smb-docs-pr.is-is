@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 98d7215b4d8ae476fbc550ea0057e6f71a00a5fd
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 5bf6e0c961e35b2fdb23eb1ba470da0f5c098d81
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Setja upp umskráningarþjónustu fyrir bankagögn
@@ -44,11 +44,8 @@ Til að flytja inn eða flytja út bankaskrár verður þú að setja upp eigin 
 5. Í **uppsetning umreikningsþjónustu fyrir bankagögn** glugga í **notandanafn** reitnum, sláðu inn sama gildi sem þú færðir inn sem innskráningarnafn á síðu þjónustuveitunnar í 4. skrefi.
 6. Í reitnum **lykilorð**, sláðu inn sama gildi sem þú færðir inn í reitinn **Aðgangsorð** á síðu þjónustuveitunnar í 4. skrefi.
 
-## <a name="to-encrypt-your-login-information"></a>Til að dulrita innskráningarupplýsingar
-Mælt er með því að vernda innskráningarupplýsingar sem slegnar eru inn í **uppsetning umreikningsþjónustu fyrir bankagögn** gluggann. Hægt er að dulrita gögn á [!INCLUDE[d365fin](includes/d365fin_md.md)] netþjóninum með því að stofna nýjan dulritunarlykil eða flytja inn fyrirliggjandi lykla sem eru virkjaðir er á [!INCLUDE[d365fin](includes/d365fin_md.md)] netþjónstilviki sem tengist við gagnagrunninn.
-
-1. Í **uppsetning umreikningsþjónustu fyrir bankagögn** glugganum, veldu **stjórnun dulritunar**.
-2. Í glugganum **gagnadulritun**, virkja dulritun gagnanna.
+> [!NOTE]  
+> Innskráningargögnin þín eru sjálfkrafa dulrituð.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Til að skoða eða uppfæra listann yfir studd bankagagnasnið
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning umreikningsþjónustu fyrir bankagögn** og velja svo viðeigandi tengil.

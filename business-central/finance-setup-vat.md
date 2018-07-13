@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/20/2017
+ms.date: 05/06/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
-ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
 ms.contentlocale: is-is
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -48,9 +48,9 @@ Til að setja upp VSK-númer skal fylgja eftirfarandi skrefum:
 2. Velja skal landið eða svæðið og svo agðerðina **Snið VSK-númers**.
 3. Í reitnum **Snið** skal skilgreina sniðin með því að slá inn einn eða fleiri eftirfarandi stafa:  
 
-* # <a name="--requires-a-single-digit-number"></a>- Krefst númers sem er ein tala.
-* @ - Krefst stafs. Há- og lágstafir skipta ekki máli.
-* ? - Leyfir hvaða staf sem er.
+* **#** Krefst númers sem er ein tala.  
+* **@** Krefst stafs. Há- og lágstafir skipta ekki máli.  
+* **?** Leyfir hvaða staf sem er.  
 
     > [!Tip]
     > Hægt er að nota þessa stafi svo framarlega sem þeir eru alltaf til staðar í sniði landsins eða svæðisins. Ef t.d. þarf að hafa með punkt eða bandstrik milli talna skal skilgreina sniðið sem ##.####.### or @@-###-###.  
@@ -116,6 +116,29 @@ Eftirfarandi hlutar útskýra hvernig á að úthluta VSK-bókunarflokkum til ei
 * Á **Tilfang** spjaldinu, stækkið **Reikningagerð** flipann.  
 3. Veljið VSK-vörubókunarflokk.  
 
+## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Uppsetning á sniðmáti VSK-yfirlits og heiti VSK-yfirlits
+Skattayfirvöld geta breytt, og gera breytingar á, kröfum sínum hvað varðar bókun á VSK. **Sniðmát VSK-yfirlita** og **Heiti VSK-yfirlita** geta hjálpað þér að undirbúa fyrir komandi breytingar og gera umskiptin yfir í nýju kröfurnar þægilegri. Hægt er að nota sniðmát VSK-yfirlita til að skilgreina reitina sem á að hafa með í VSK-yfirliti, sem fyrir vikið skilgreinir útreikningana, og hægt er að búa til nýtt sniðmát VSK-yfirlits þegar kröfur breytast. Til dæmis gæti eitt sniðmát reiknað virðisaukaskatt fyrir þetta ár miðað við núverandi kröfur og annað sniðmát gæti reiknað út virðisaukaskatt miðað við kröfur fyrir næsta ár. Sniðmát eru einnig leið til að halda sögu um sniðmát VSK-yfirlita, til dæmis svo hægt sé að líta til baka og sjá hvernig VSK var reiknað út á fyrri árum.
+
+## <a name="how-to-define-and-preview-vat-statements"></a>Hvernig á að skilgreina og forskoða VSK yfirlit
+VSK-yfirlit bjóða upp á að reikna út VSK-uppgjörsupphæð á ákveðnu tímabili, til dæmis fyrir ársfjórðung. Eftir að þú hefur skilgreint VSK-yfirlit geturðu forskoðað það til að ganga úr skugga um að það mæti kröfum þínum. 
+
+Fylgið eftirfarandi skrefum til að skilgreina VSK yfirlit:
+
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **VSK-yfirlit** og velja svo viðeigandi tengil.  
+2. Veljið reitinn **Heiti** og veljið síðan **Nýtt** á síðunni **Heiti VSK-yfirlita**. 
+3. Fylltu út nauðsynlega reiti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!Tip]
+> Hægt er að sía upplýsingarnar sem koma fram á yfirlitinu, fer eftir því hvað valið er í reitnum **Gerð**. **Samtala fjárhags** er gagnleg þegar þú vilt VSK af tilteknum lykli.
+**Samtala VSK-færslna** fær VSK frá lyklunum sem er úthlutað á valið í reitunum **Alm. bókunartegund**, **VSK viðsk.bókunarflokkur** og/eða **VSK-vörubókunarflokkur**. **Samtala línu** leyfir þér að slá inn gildi eða skilyrði flýtiafmörkunar í reitnum **Samtala línu**. Frekari upplýsingar er að finna í [Leita í, afmarka og raða gögnum](ui-enter-criteria-filters.md). **Lýsing** er oft notuð til að bæta við athugasemd við yfirlitið. Til dæmis er hægt að nota hana sem fyrirsögn þegar þú hefur notað samtölu línu.
+
+Fylgið eftirfarandi skrefum til að forskoða VSK yfirlit:
+
+1. Veljið **Forskoða**.
+2. Sett er afmörkun á dagsetningu til að takmarka yfirlitið við tiltekið tímabil. Nánari upplýsingar um hvernig á að sérsníða síðuna til að dagsetningarafmörkun birtist eru í [Leita í, afmarka og raða gögnum](ui-enter-criteria-filters.md).
+3. Hægt er að velja milli ýmissa valkosta til að skilgreina tegund VSK-færslna sem á að hafa með í yfirlitinu.
+4. Í línunum þar sem reiturinn **Tegund** innheldur **Samtala VSK-færslna** er hægt að sjá lista yfir VSK-færslur með því að smella á upphæðina í reitnum **Upphæð dálks**.   
+
 ## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Setja upp ákvæði til að útskýra notkun óstaðlaðra VSK taxta
 VSK-klausa er sett upp til að lýsa upplýsingum um hvaða tegund VSK er notuð. Reglur stjórnvalda gætu krafist þessara upplýsinga. Þegar búið er að setja upp VSK-ákvæði og tengja það við VSK-bókunaruppsetningu, birtist VSK-ákvæðið á öllum prentuðum söluskjölum sem nota VSK-bókunaruppsetningarflokkinn.
 
@@ -166,8 +189,7 @@ Hægt er að skoða VSK-skráning skránna á spjöldunum fyrir viðskiptamann, 
 
 Okkar þjónustu getur einnig sparað þér tíma þegar verið er að stofna viðskiptamann eða lánardrottin. Ef þú veist VSK-númer viðskiptamanns, geturðu fært það inn í reitinn **VSK-númer** á spjöldum viðskiptamanns eða lánardrottins, og við fyllum út nafn viðskiptamanns fyrir þig. Sumar lönd bjóða einnig upp á aðsetur fyrirtækis á skipulögðu sniði. Í þeim löndum, munum við fylla út aðsetur líka.  
 
-> [!NOTE]  
-> Það eru nokkur atriði sem vert er að athuga varðandi þjónustu VIES á VSK-númerastaðfestingu:
+Það eru nokkur atriði sem vert er að athuga varðandi þjónustu VIES á VSK-númerastaðfestingu:
 
 * Þjónustan notar http-reglur, sem táknar að gagnaflutningur um þjónustuna er ekki dulkóðaður.  
 * Þú getur upplifað óvirkan tíma í þessari þjónustu sem Microsoft er ekki ábyrgt fyrir. Þjónustan er hluti af víðfemu ESB skráningarkerfi VSK-númera.

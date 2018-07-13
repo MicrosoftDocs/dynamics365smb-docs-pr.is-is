@@ -1,29 +1,28 @@
 ---
 title: "Setja upp og gefa út KPI-vefþjónustu fyrir fjárhagsskemu | Microsoft Docs"
-description: "Í **Uppsetning Fjárhagsskema KPI netþjónustu** glugganum getur þú ákveðið hvernig skal sýna KPI gögn fjárhagsskema og á hvaða einstaka fjárhagsskemum skuli byggja afkastavísa."
+description: "Í þessu efnisatriði er því lýst hvernig skuli sýna KPI-gögn fjárhagsskema byggt á tilteknum fjárhagsskemum."
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
-ms.author: sgroespe
+ms.date: 05/31/2018
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dc1226724d1f953a3cf14a148e6d229ac0736bd3
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: c15f9c77479780566f8b1e464193b43a20c3315d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum
 Í **Uppsetning Fjárhagsskema KPI netþjónustu** glugganum getur þú ákveðið hvernig skal sýna KPI gögn fjárhagsskema og á hvaða einstaka fjárhagsskemum skuli byggja afkastavísa. Þegar þú velur **Birta netþjónustu** hnappinn bætast KPI gögn fjárhagsskema á lista yfir vefþjónustu sem birt hefur verið í glugganum **Vefþjónusta**.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Til að setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum  
-
 1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") táknið slá inn **Uppsetning vefþjónustu fyrir KPI fyrir fjárhagsskema** og velja svo tengdan tengil.  
 2.  Á flýtiflipanum **Almennt** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 03/22/2018
     |**Skoða eftir**|Tilgreinið hvaða tímabil á að nota til að sýna KPI fyrir fjárhagsskema.|  
     |**Heiti vefþjónustu**|Tilgreinið heiti KPI-vefþjónustu fyrir fjárhagsskema.<br /><br /> Þetta heiti mun birtast í **Heiti þjónustu** reitnum í **Netþjónusta** glugganum.|  
 
-    Nú skal tilgreina eitt eða fleiri fjárhagsskemu sem á að birta sem KPI-vefþjónustu samkvæmt uppsetningunni í fyrri töflu.  
+    Tilgreinið eitt eða fleiri fjárhagsskemu sem á að birta sem KPI-vefþjónustu samkvæmt uppsetningunni sem var búin til í fyrri töflu.  
 
 3.  Í flýtiflipanum **Fjárhagsskemu** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 

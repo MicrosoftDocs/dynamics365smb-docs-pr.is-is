@@ -12,15 +12,14 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 03/19/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 7adad8c33771d478125c7f6ecb8256f5109f5f02
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 7bb86cc2c2e152772a554e871074bd9a29cc9943
 ms.contentlocale: is-is
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="customizing-business-central"></a>Sérstilling Business Central
-<!--NAV # Customizing Dynamics NAV -->
-Það eru mismunandi leiðir til að sérstilla forritið til að gefa þér og samstarfsmönnum þínum aðgang að þeim eiginleikum, virkni og gögnum sem þú þarft mest á þann hátt sem hentar best daglegu starfi þínu. Það hvaða breytingar sjást veltur á því hvað þú gerir, eins og lýst er í þessari töflu.
+<!--NAV # Customizing Dynamics NAV --> Það eru mismunandi leiðir til að sérstilla forritið til að gefa þér og samstarfsmönnum þínum aðgang að þeim eiginleikum, virkni og gögnum sem þú þarft mest á þann hátt sem hentar best daglegu starfi þínu. Það hvaða breytingar sjást veltur á því hvað þú gerir, eins og lýst er í þessari töflu.
 
 | Það sem hægt er að gera    |  Description  |  Hver sér breytingarnar  |  Meiri upplýsingar  |
 |-----|---------------|---------|-------|
@@ -32,5 +31,5 @@ ms.lasthandoff: 04/18/2018
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

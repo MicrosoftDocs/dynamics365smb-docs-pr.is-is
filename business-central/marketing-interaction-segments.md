@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 897a26ae2037aabe4aaaea17c504c711a32d1632
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 1962bd9d74f7b4d9600de11f85d1e312f6fb8c09
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Vinna með samskipti fyrir hluta
@@ -51,5 +51,5 @@ Upplýsingar um samskiptin sem varða hlutann geta birst á **hlutahausnum**. Ti
 [Skrá samskipti við tengiliði](marketing-interactions.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
-[Unnið með Financials](ui-work-product.md)
+[Unnið með Business Central](ui-work-product.md)
 

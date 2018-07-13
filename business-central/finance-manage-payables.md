@@ -1,6 +1,6 @@
 ---
 title: "Stjórnun viðskiptaskulda| Microsoft Docs"
-description: "Yfirlit yfir það hvernig Financials hjálpar þér að stjórna viðskiptaskuldum (AP), þar á meðal greiðslum lánardrottna, lánardrottnar, skuldir og gjaldfallin staða."
+description: "Yfirlit yfir það hvernig á að stjórna viðskiptaskuldum, þar á meðal greiðslum lánardrottna, lánveitendum, skuldum og gjaldfallinni stöðu."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -12,13 +12,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/02/2017
+ms.date: 06/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b128e567a07f4b0a6abffe8f1c82c740317016ff
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="managing-payables"></a>Stjórna skuldum
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/22/2018
 
 Ef þú vilt ekki bóka greiðslubókarlínu fyrir útflutta greiðslu, t.d. vegna þess að þú ert að bíða eftir staðfestingu frá banka á færslunni geturðu einfaldlega eytt línunni. Þegar þú síðar stofnar greiðslubókarlínu til að greiða eftirstandandi upphæð á reikningnum sýnir reiturinn **Heildarupphæð flutt út** hversu mikið af greiðsluupphæðinni hefur þegar verið flutt út. Þú getur einnig fundið ítarlegar upplýsingar um heildarupphæðir sem hafa verið fluttar út með því að velja hnappinn **Skráningarfærslur kreditmillifærslna**.
 
-Ef þú bíður eftir að bóka greiðslur þar til bankinn þinn staðfestir að hann hafi meðhöndlað viðskipti, þá eru tvær leiðir til að koma í veg fyrir að greiðslur sé fluttar út aftur fyrir opin skjöl óvart:  
+Ef þú bíður eftir að bóka greiðslur þar til bankinn þinn staðfestir að hann hafi meðhöndlað viðskipti, þá eru tvær leiðir til að koma í veg fyrir að greiðslur sé óvart fluttar út aftur fyrir opin skjöl:  
 
 * Í greiðslubók með tillögum að greiðslulínum geturðu flokkað með annað hvort dálkinum **Flutt út í greiðsluskrá** eða **Heildarupphæð flutt út** dálkunum og svo eytt greiðslutillögum fyrir opna reikninga þar sem greiðslur hafa þegar átt sér stað og þú vilt ekki greiða.
 

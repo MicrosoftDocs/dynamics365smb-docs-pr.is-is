@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6381fc0949c3f6789a6b3387d119051403bcbb4a
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: ea5673f341954960852de33cb94ee5722c8dbe26
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-incoming-documents"></a>Setja upp skjöl á innleið
@@ -46,13 +46,10 @@ Til að breyta PDF og myndaskrám í rafræn skjöl sem er hægt að breyta í t
 
 ## <a name="to-set-up-an-ocr-service"></a>Til að setja upp OCR-þjónustu
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning OCR-þjónustu** og velja svo viðeigandi tengil.
-2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-encrypt-your-login-information"></a>Til að dulrita innskráningarupplýsingar
-Mælt er með því að vernda innskráningarupplýsingar sem slegnar eru inn í **uppsetning OCR-þjónustu** gluggann. Hægt er að dulrita gögn á netþjóninum með því að stofna nýjan dulritunarlykil eða flytja inn fyrirliggjandi lykla sem eru virkjaðir er á netþjónstilviki sem tengist við gagnagrunninn.
-
-1. Í **uppsetning fyrir OCR-þjónusta** glugganum, veldu **stjórnun dulritunar**.
-2. Í glugganum **gagnadulritun**, virkja dulritun gagnanna.
+> [!NOTE]  
+> Innskráningargögnin þín eru sjálfkrafa dulrituð.
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinnsla skjala á innleið](across-process-income-documents.md)  

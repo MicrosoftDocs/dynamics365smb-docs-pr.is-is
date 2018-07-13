@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/17/2018
+ms.date: 05/27/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
-ms.openlocfilehash: 0a94d94e58b2aa3f04639a00904b5370c91b1132
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 6ff186cadae5771f131a128b3d3e977800925670
 ms.contentlocale: is-is
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
@@ -36,7 +36,7 @@ Eftirfarandi tafla lýsir þeim reynslu sem nú er að finna.
 | **Úrvals** |Sýnir allar aðgerðir og svið fyrir alla viðskiptavirkni, þ.á.m. framleiðslu- og þjónustukerfi.|
 
 > [!NOTE]  
-> Upplifunin sem hægt er að velja úr [!INCLUDE[d365fin](includes/d365fin_md.md)] fer eftir leyfinu, sem kallast áætlun. Fyrir upplýsingar um **Grundvallar** og **Úrvals** áætlanir, sjá [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) á markaðssvæði Microsoft Dynamics 365.
+> Upplifunin sem hægt er að velja úr [!INCLUDE[d365fin](includes/d365fin_md.md)] fer eftir leyfinu, sem kallast áætlun. Fyrir upplýsingar um **Grundvallar** og **Úrvals** áætlanir, sjá [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) á markaðssvæði Microsoft Dynamics 365. Sjáðu einnig [!INCLUDE[d365fin](includes/d365fin_md.md)] leyfishandbókina](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
 
 > [!IMPORTANT]  
 > Allir reglulegir notendur í lausn verða að sömu áætluninni úthlutað, grunn- eða úrvalsáskrift, áður en hægt er að velja þá upplifun fyrir fyrirtækið. Samkvæmt því getur einn notandi ekki fengið aðgang að eiginleikum úrvalsáskriftar ef einn eða fleiri aðrir notendur geta aðeins fengið aðgang að eiginleikum grunnáskriftar. Þetta á ekki við fyrir óreglulega notendur af gerðinni Team Member, innri stjórnandi, ytri endurskoðandi og úthlutaður stjórnandi, sem hver getur fengið annarri áætlun úthlutað en hinir notendurnir í lausninni.
@@ -65,8 +65,9 @@ Nú er hægt að halda áfram til að velja nýju upplifunina.
 [Vinna með notendur og heimildir](ui-how-users-permissions.md)    
 [Breyta grundvallarstillingum](ui-change-basic-settings.md)  
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] Leyfishandbók](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

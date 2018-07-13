@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8451e456d03c9429ff2e04f4e0664ae240f872c2
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -31,7 +31,7 @@ Notandi verður að hafa áskrift að [!INCLUDE[d365fin](includes/d365fin_md.md)
 3. Velja **Stofna**.  
   Annar flipi í vafranum mun opnast til að hægt sé að ljúka uppsetningunni á sandakassaumhverfinu.
 > [!NOTE]  
->  Ef þú ert með sprettiglugga-lokara virkan í vafranum, skaltu breyta honum þannig að vefslóðir frá *.financials.dynamics.com aðsetrinu verði leyfðar.   
+>  Ef þú ert með sprettigluggavörn virka í vafranum, skaltu breyta henni þannig að vefslóðir frá *.businesscentral.dynamics.com aðsetrinu verði leyfðar.   
 
 4. Þegar sandkassaumhverfið er tilbúið, verður þér beint inn á leiðsagnarforrit sandkassaumhverfisins.
 ![Sandkassi Velkomin(n) Leiðsagnarforrit](./media/across-sandbox/sandbox-wizard.png)

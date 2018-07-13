@@ -13,15 +13,15 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 73d0044308d619f92e0379cc7b678301c72ce31c
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 30f93593985140abd49c6cd4f90a992da793b164
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 
 # <a name="viewing-service-statistics"></a>Þjónustuupplýsingar skoðaðar
-Financials getur gefið upplýsingar sem hægt er að nota til að greina þjónustuskjöl og ákvarða hversu vel þú stjórnar þjónustuferlinu. Þú getur greint þjónustusamninga, vörur, tilboð, pantanir, reikninga og kreditreikninga með því að velja aðgerðina **Upplýsingar**. Fyrir þjónustuvörur og samninga, geturðu líka notað **Þjónustuvara Trendscape** eða **Samningur Trendscape** til að skoða yfirlit yfir þjónustufærslur fyrir sérstaka þjónustuvöru.   
+Hægt er að nota tölfræði til að greina þjónustuskjöl og ákvarða hversu vel þú ert að stjórna þjónustuferlunum. Þú getur greint þjónustusamninga, vörur, tilboð, pantanir, reikninga og kreditreikninga með því að velja aðgerðina **Upplýsingar**. Fyrir þjónustuvörur og samninga, geturðu líka notað **Þjónustuvara Trendscape** eða **Samningur Trendscape** til að skoða yfirlit yfir þjónustufærslur fyrir sérstaka þjónustuvöru.   
 
 ## <a name="viewing-statistics-for-service-orders"></a>Skoðun upplýsinga um þjónustupantanir
 Eiginleikinn upplýsingar um þjónustupöntun veitir einfalt yfirlit yfir innihald allrar þjónustupöntunarinnar, upplýsingar um tilteknar þjónustulínur og upplýsingar sem tengjast reikningsfærslu, afhendingu og notkun, sem og stöðu viðskiptamanns.  

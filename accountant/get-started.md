@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/09/2018
+ms.date: 05/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 8901216a843440e922ae4df9d7508b543a6c1322
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: bb700a7c65721efb7c1322420a4929eb7adc4433
 ms.contentlocale: is-is
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/31/2018
 
 ---
-# <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Hefjast handa með [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Hafist handa með [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Ef þú ert endurskoðandi með nokkra viðskiptamenn, geturðu notað [!INCLUDE [d365acc](includes/d365acc_md.md)] sem yfirlitssíðu og fengið þannig betra yfirlit yfir viðskiptamenn þína.  
@@ -25,9 +25,9 @@ ms.lasthandoff: 05/15/2018
 Þú getur fengið aðgang að [!INCLUDE [d365acc](includes/d365acc_md.md)] með því skrá þig af [Dynamics 365 — Accountant Hub á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]
->  Þegar þú skráir þig fyrir [!INCLUDE [d365acc](includes/d365acc_md.md)], er nauðsynlegt að tiltaka vinnunetfangið þitt, eins og <em>me@accountant.com</em>. Við mælum með því að þú sama netfang þegar þú starfar í [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] viðskiptamanna þinna, svo þú getir auðveldlega skipt á milli viðskiptamanna. Netfangið verður að vera vinnunetfang sem er byggt á Active Directory.
+>  Þegar þú skráir þig fyrir [!INCLUDE [d365acc](includes/d365acc_md.md)] er nauðsynlegt að taka fram vinnunetfagnið, eins og t.d. <em>me@accountant.com</em>. Við mælum með því að þú sama netfang þegar þú starfar í [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] viðskiptamanna þinna, svo þú getir auðveldlega skipt á milli viðskiptamanna. Netfangið verður að vera vinnunetfang sem er byggt á Active Directory.
 
-## <a name="working-with-individual-clients"></a>Vinna með einstökum viðskiptamönnum
+## <a name="working-with-individual-clients"></a>Unnið með einstökum viðskiptamönnum
 Yfirlitssíðan birtir mikilvægustu upplýsingarnar um sérhvern viðskiptamann.  
 ![Accountant Hub](./media/accountant-get-started/accountant-dashboard-tasks.png)
 
@@ -46,7 +46,7 @@ Við hliðina á nafni viðskiptamanns sýnir þrípunktur (...) stutta valmynd:
 > [!TIP]
 >  Til að fá aðgang að [!INCLUDE [d365fin](includes/d365fin_md.md)] viðskiptamanns skal velja **Opna Viðskiptamaður** atriði á valmyndinni - innskráning á sér stað sjálfvirkt.
 
-## <a name="company-details"></a>Fyrirtækisupplýsingar
+## <a name="company-details"></a>Upplýsingar um fyrirtæki
 Hægt er fá frekari upplýsingar um gögn viðskiptamanns með því að velja nafn fyrirtækisins sem þú vilt læra meira um. Þessi aðgerð opnar **Upplýsingar um fyrirtæki** svæðið, þar sem þú getu séð auka upplýsingar, eins og:  
 
 * Staða lausafjárreikninga  

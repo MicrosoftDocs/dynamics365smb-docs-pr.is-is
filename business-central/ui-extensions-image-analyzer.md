@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 06/19/2017
+ms.date: 06/12/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: b767588b4dae6953371e112fd4e8e5cd4af7b1e0
+ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
+ms.openlocfilehash: f40f51ffec0d052e26bcaf34c928ef63e9adde4d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/20/2018
 
 ---
 
@@ -28,8 +28,8 @@ Myndgreinandinn er ókeypis í [!INCLUDE[d365fin](includes/d365fin_md.md)], en �
 
 Eftir að þú virkjar viðbótina, keyrist Myndgreinandinn í hvert skipti sem þú flytur inn mynd til vöru eða tengiliðs. Um leið muntu sjá eigindirnar, áreiðanleikastigið og upplýsingarnar og getur ákveðið hvað skal gera við hverja eigind. Ef þú fluttir inn myndir áður en þú virkjaðir Myndgreinanda-viðbótina, þarftu að ná í vöruna eða tengiliðaspjaldið og velja **Greina mynd** aðgerðina.  
 
->   [!NOTE]  
->   Með því að virkja viðbótina samþykkirðu að Microsoft sé heimilt að geyma gögnin þín og nota þau til að bæta þjónustu Microsoft, t.d. til að gera Tölvusjón API betri. Til að auka persónuvernd, gerum við gögnin þín nafnlaus og höldum þeim öruggum. Við munum ekki birta gögnin þín eða leyfa öðrum að nota þau. Þú getur fjarlægt myndina frá vörunni í [!INCLUDE[d365fin](includes/d365fin_md.md)], en Tölvusjón API mun samt sem áður enn hafa aðgang að myndinni, í dulkóðuðu formi. Nánari upplýsingar, sjá [Microsoft Öryggismiðstöð](https://go.microsoft.com/fwlink/?linkid=851463).
+## <a name="privacy-notice"></a>Persónuverndaryfirlýsing 
+Þessi viðbót notar Tölvusjón API frá Microsoft Cognitive Services, sem kann að hafa mismunandi stig skuldbindingar um reglufylgni en [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þegar þú kveikir á Image Analyzer viðbótinni verða viðskiptamannagögn á borð við tengiliðamynd eða vörumynd send til Tölvusjónar API. Með því að setja upp þessa viðbót samþykkir þú að þetta takmarkaða gagnasafn verði sent til Tölvusjónar API. Athugaðu að þú getur slökkt á, sem og fjarlægt, Image Analyzer viðbótina hvenær sem er til að hætta að nota þessa virkni. Nánari upplýsingar, sjá [Microsoft Öryggismiðstöð](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Kröfur
 Myndirnar þurfa að lúta nokkrum skilyrðum:
@@ -37,9 +37,6 @@ Myndirnar þurfa að lúta nokkrum skilyrðum:
 * Myndasnið: JPEG, PNG, GIF, BMP  
 * Hámarks skráarstærð: Minna en 4 MB  
 * Stærð myndar: Meira en 50 x 50 pixlar  
-
-## <a name="blacklisting-suggested-attributes"></a>Hvaða eigindir skal setja á svartan lista
-Ef greiningin leggur til eigind sem þú vilt ekki sjá, geturðu sett þá eigind á svartan lista. Sýndu samt aðgát. Eigindir á svörtum lista koma ekki fram í tillögum um aðrar vörur eða tengiliði heldur. Ef þú sérð eftir því að hafa sett eigind á svartan lista, geturðu valið **Eigindir á svörtum lista** og svo eytt eigindinni af listanum.
 
 ## <a name="to-enable-image-analyzer"></a>Að virkja Myndgreinandann
 Viðbótin fyrir Myndgreinandann er innbyggð í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þú þarft bara að kveikja á því.
@@ -52,8 +49,8 @@ Viðbótin fyrir Myndgreinandann er innbyggð í [!INCLUDE[d365fin](includes/d36
 * Vöru- eða tengiliðaspjald er opnað. Á tilkynningastikunni skal velja **Greina myndir**, og svo er skrefunum í Uppsetningu með aðstoð fylgt.  
 * Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustutengingar** og velja svo **Uppsetning myndgreiningar** Á gátreitnum skal velja **Virkja myndgreinanda**, og svo er skrefunum í Uppsetningu með aðstoð fylgt.  
 
->   [!TIP]  
->   Á **Uppsetning myndgreiningar** síðunni geturðu líka breytt áreiðanleikastiginu fyrir tillögur um eigindir. Ef þú vilt til dæmis auka áreiðanleikann, þá geturðu slegið inn hærri prósentu.
+    > [!TIP]  
+    > Á **Uppsetning myndgreiningar** síðunni geturðu líka breytt áreiðanleikastiginu fyrir tillögur um eigindir. Ef þú vilt til dæmis auka áreiðanleikann, þá geturðu slegið inn hærri prósentu.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Að greina mynd af vöru
 Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður en þú virkjaðir viðbótina fyrir Myndgreinandann.  
@@ -62,8 +59,8 @@ Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður
 2. Veljið vöruna og veljið svo aðgerðina **Greina mynd**.  
 3. Síðan **Eigindir myndgreinanda** birtir þær eigindir sem finnast, áreiðanleikastigið og aðrar upplýsingar um eigindina. Nota **Aðgerð til að framkvæma** valkostina til að tilgreina hvað skal gera við eigindina.  
 
->   [!TIP]  
->   Þú getur bætt nafni eigindarinnar við lýsinguna á vörunni með því að velja **Bæta við vörulýsingu**. Þetta getur t.d. reynst gagnlegt þegar bæta þarf við upplýsingum snögglega.  
+    > [!TIP]  
+    > Þú getur bætt nafni eigindarinnar við lýsinguna á vörunni með því að velja **Bæta við vörulýsingu**. Þetta getur t.d. reynst gagnlegt þegar bæta þarf við upplýsingum snögglega.  
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Greina mynd af tengilið
 Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður en þú virkjaðir viðbótina fyrir Myndgreinandann.  
@@ -72,14 +69,17 @@ Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður
 2. Veljið tengiliðinn og veljið svo **Greina mynd** aðgerðina.  
 3. Á flýtiflipanum **spurningarlisti fyrir notandasíðu**, skal endurskoða tillögur og leiðrétta ef þarf.  
 
+## <a name="blacklisting-suggested-attributes"></a>Hvaða eigindir skal setja á svartan lista
+Ef greiningin leggur til eigind sem þú vilt ekki sjá, geturðu sett þá eigind á svartan lista. Sýndu samt aðgát. Eigindir á svörtum lista koma ekki fram í tillögum um aðrar vörur eða tengiliði heldur. Ef þú sérð eftir því að hafa sett eigind á svartan lista, geturðu valið **Eigindir á svörtum lista** og svo eytt eigindinni af listanum.
+
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Nota þinn eigin aðgang fyrir Tölvusjón API
 Þú getur líka notað þinn eigin aðgang fyrir Tölvusjón API, til dæmis ef þú vilt greina fleiri myndir en við leyfum.  
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning myndagreinanda** og velja svo viðeigandi tengil.  
 2. Færið inn **API URI** og **API lykil** sem þú fékkst fyrir Tölvusjón API.  
 
->   [!NOTE]  
->   Nauðsynlegt er að bæta **/greina** aftan við API URI ef það er ekki þegar þar. Til dæmis: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
+    > [!NOTE]  
+    > Nauðsynlegt er að bæta **/greina** aftan við API URI ef það er ekki þegar þar. Til dæmis: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
 
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Til að sjá hversu margar greiningar þú hefur skilið eftir á núverandi tímabil
 Þú getur skoðað hversu margar greiningar þú hefur framkvæmt, og hversu margar þú getur enn gert, á núverandi tímabili.  
