@@ -10,10 +10,10 @@ ms.workload: na
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 62bb5421667ad53d619d0529d04cf8803890a6aa
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: de07dac85b9e24f50eb60570630feb6199089ec4
 ms.contentlocale: is-is
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Úrræðaleit innskráning í sjálfsafgreiðslu
@@ -37,26 +37,30 @@ Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gef
 | Ef Office 365 reikningurinn þinn er skráður í studdu land og þú ert að skrá þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] á meðan í öðru landi færðu skilaboð eins og eftirfarandi við innskráningu:<br /><br />**Þetta gekk ekki, við styðjum ekki land þitt eða svæði enn.**| Office 365 áskrift fyrirtækis þíns er skráð í tiltekið land í Office 365 stjórnunargáttinni. Upplifun innskráningar fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] notar tungumálið og landsstaðalinn sem núverandi vafri notar og þar af leiðandi geturðu fengið villuboðin þótt þú sért í studdu landi. Spurðu kerfisstjóra til að sannreyna land sem er tilgreint í forstillingu fyrirtækis í [Office 365 stjórnunargáttinni](https://portal.office.com/adminportal/home#/companyprofile). Ef til vill þarf að nota annan reikning fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 
 ## <a name="regional-availability"></a>Svæði í boði
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er í boði á eftirfarandi mörkuðum eins og er:
+Til að sjá lista yfir markaði sem nú eru studdir skal skoða skyggnuna [Alþjóðlegt framboð á Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) og lendingarsíðuna [Staðbundin virkni](about-localization.md).
 
-| Evrópa | Norður-Ameríka |
+<!-- [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+
+| Europe | North America |
 | --- | --- |
-| Ástralía | Kanada |
-| Austurríki | |
-| Belgía | Bandaríkin |
-| Danmörk | |
-| Þýskaland | |
-| Finnland | |
-| Frakkland | |
-| Ítalía | |
-| Holland | |
-| Nýja-Sjáland | |
-| Spánn | |
-| Svíþjóð | |
-| Sviss | |
-| Bretland | |
+| Australia | Canada |
+| Austria | |
+| Belgium | United States |
+| Denmark | |
+| Germany | |
+| Finland | |
+| France | |
+| Italy | |
+| Netherlands | |
+| New Zealand | |
+| Spain | |
+| Sweden | |
+| Switzerland | |
+| United Kingdom | |
+-->
 
 ## <a name="see-also"></a>Sjá einnig
 [Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Staðbundin virkni](about-localization.md)  
 

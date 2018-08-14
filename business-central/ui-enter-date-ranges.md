@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter
-ms.date: 05/29/2017
+ms.date: 07/05/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 552578ce097f7f647ed0962fec0448059d3ca3b2
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: ff63ae71a78f956dddb7b5247ee66f9416cf7cf1
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
-# <a name="entering-date-ranges"></a>Færa inn dagsetningartímabil 
+# <a name="entering-date-ranges"></a>Færa inn dagsetningartímabil
 Hægt er að stilla afmarkanir með upphafs- og lokadegi til að birta aðeins gögn á tilteknu tímabili. Ákveðnar reglur gilda um hvernig tímabil eru stillt. Tökum sem dæmi **Topp 10 viðskiptavinir**:
 
 ![Stilla dagsetningartímabil á beiðnisíðunni fyrir topp 10 viðskiptavinir](./media/ui-enter-date-ranges/customer-top10-list.png)
@@ -41,8 +41,71 @@ Einnig má tengja grunnformin saman.
 
 Athugið að við notuðum bandarískt dagsetningarsnið hér. Þegar [!INCLUDE[d365fin](includes/d365fin_md.md)] verður tiltækt á öðrum mörkuðum, muntu geta notað þau snið sem þú ert vanur.
 
+## <a name="using-date-formulas"></a>Notkun dagsetningarreiknireglna
+Dagsetningarregla er stutt, skammstöfuð samsetning stafa og tölustafa sem tilgreinir hvernig skal reikna út dagsetningar. Hægt er að færa dagsetningarreiknireglur í ólíka dagsetningarreiknireiti og í ítrekunartíðnireiti í ítrekunarbókum.
+
+> [!NOTE]
+>  Dagurinn í dag, fyrir upphaf tímabilsins, er með í öllum reitum fyrir reiknireglur dagsetninga. Samkvæmt því, ef til dæmis fært er inn **1W** er tímabilið í raun átta dagar þar sem dagurinn í dag er tekinn með. Til að tilgreina sjö daga tímabil (eina raunviku) að meðtalinni upphafsdagsetningu tímabilsins þarf að færa inn **6D** eða **1W\-1D**.
+
+Hér eru nokkur dæmi um hvernig nota má dagsetningarreiknireglur:
+
+-   Dagsetningarreikniregla í ítrekunartíðnireitnum í ítrekunarbókum ákvarðar hversu oft færsla í færslubókarlínu er bókuð.
+
+-   Dagsetningarreikniregla í reitnum **Biðtími** fyrir tiltekið innheimtustig ákvarðar það tímabil sem þarf að líða frá gjalddaga (eða frá gjalddaga fyrra innheimtubréfs) áður en innheimtubréf er búið til.
+
+-   Dagsetningarreikniregla í reitnum **Gjalddagaútreikningur** ákvarðar hvernig á að reikna gjalddaga í innheimtubréfinu.
+
+Dagsetningarreikniregla getur mest haft 20 stafi, bæði tölu- og bókstafi. Hægt er að nota eftirfarandi stafi sem skammstafanir fyrir tiltekinn tíma.
+
+|  Stafur  |  Upplýsingar um tíma  |
+|----------|----------------------|
+|U|Opið|
+|D|Dagur\(s\)|
+|V|Vika\(s\)|
+|M|Mánuður\(s\)|
+|F|Fjórðungur\(s\)|
+|Á|Ár\(s\)|
+
+Hægt er að rita dagsetningarreiknireglu á þrjá vegu.
+
+Eftirfarandi dæmi sýnir hvernig á að nota **U**, fyrir líðandi, og tímaeiningu.
+
+|  Segð  |  Merking  |
+|--------------|-----------|
+|LV|Líðandi vika|
+|LM|Líðandi mánuður|
+
+Eftirfarandi dæmi sýnir hvernig á að nota tölueiningu og tíma. Talan getur ekki verið hærri en 9999.
+
+|  Segð  |  Merking  |
+|--------------|-----------|
+|10D|10 dögum eftir daginn í dag|
+|2V|2 vikum eftir daginn í dag|
+
+Eftirfarandi dæmi sýnir hvernig á að nota tímaeiningu og tölu.
+
+|  Segð  |  Merking  |
+|--------------|-----------|
+|D10|Næsti 10. dagur mánaðar|
+|VD4|Næsti fjórði dagur viku \(fimmtudagur\)|
+
+Eftirfarandi dæmi sýnir hvernig eigi að samræma þessi þrjú eyðublöð eins og þörf er á.
+
+|  Segð  |  Merking  |
+|--------------|-----------|
+|LM\+10D|Líðandi mánuður \+ 10 dagar|
+
+Eftirfarandi dæmi sýnir hvernig hægt er að nota mínustákn til að sýna gamla dagsetningu.
+
+|  Segð  |  Merking  |
+|--------------|-----------|
+|-1Á|1 ári fyrir daginn í dag|
+
+> [!IMPORTANT]
+>  Ef staðsetningin notar grunndagatal, er dagsetningarreiknireglan sem er til dæmis færð inn í reitinn **Afhendingartími** túlkuð samkvæmt vinnudögum. Til dæmis þýðir **1V** sjö vinnudagar.
+
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Dagsetning útreiknings fyrir kaup.](purchasing-date-calculation-for-purchases.md)  
 [Skilgreining skilyrða í síum](ui-enter-criteria-filters.md)  
-[Almenn viðskiptavirkni](ui-across-business-areas.md)
 

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/28/2018
+ms.date: 07/20/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 9284476557de94e57680bbaa68dfd62ed6d50afc
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
 ms.contentlocale: is-is
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Algengar spurningar
@@ -50,6 +50,10 @@ Ertu búin(n) að lesa um nýjan eiginleika í vegakortinu eða á blogginu okka
 Já, þú getur það. En eins og staðan er núna þarftu að biðja endursöluaðilann þinn um það. Ef þú veist ekki hver það er skaltu finna Business Central samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Ef þú hefur aðgang að Microsoft CustomerSource getur þú fengið aðgang að Imagine Academy svæðinu sem er með netnámskeiðsefni. Til að fá frekari upplýsingar um hvernig á að fá aðgang skal kíkja á síðuna [Microsoft Dynamics 365 þjálfun](/dynamics365/get-started/training/index#dynamics-365-customers).  
+
+## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] fáanlegt í mínu landi?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er fáanlegt á takmörkuðum fjölda markaða, en nýjum löndum er bætt við með staðfæringum sem eru leiddar af Microsoft eða samstarfsaðilum ársfjórðungslega. Nánari upplýsingar eru í [Studd lönd og þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Afhverju eru sumar viðmótseiningar sem ég notaði í Dynamics NAV ekki sýnilegar í [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)], gerir kerfishlutinn og valkostir upplifunarinnar þér kleift að sýna/fela viðeigandi hluta vörunnar samkvæmt keyptri áskrift (grunn- og úrvalsáskrift) og í samræmi við vðiskiptaþarfir þínar.

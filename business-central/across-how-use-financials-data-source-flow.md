@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4dd987ee51cd2b5d8575d6d97ad21d00ec85739a
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: b8c9f05335c76884ba0d61451b0730d64bd1bfce
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 07/31/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] í sjálfvirku verkflæði.
@@ -60,7 +60,7 @@ Nú hefur notanda tekist að tengjast gögnum sínum í Business Central og getu
 11. Flæði biður þig um velja fyrirtæki innan leigjandans [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Vegna þess að hvert skref í flæði er óháð því næsta, getur verið að þú þurfir að skilgreina fyrirtækið mörgum sinnum þegar þú notar [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-sniðmát.
 
 > [!NOTE]  
-> [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flæðissniðmátið samþættir við kerfi kjarnaverkflæðis í [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Sem þýðir að í hvert skipti sem þú notar eitt af þessum sniðmátum til að búa til flæði, er samsvarandi verkflæði búið til innan [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).
+> [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flæðissniðmátið samþættir við kerfi kjarnaverkflæðis í [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Sem þýðir að í hvert skipti sem þú notar eitt af þessum sniðmátum til að búa til flæði, er samsvarandi verkflæði búið til innan [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Einnig verður einstaklingurinn sem býr til flæðið að vera settur upp sem samþykktaraðili í uppsetningarleiðbeiningum með hjálp. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).
 
 Frekari upplýsingar eru í [Flæðisskjöl](https://docs.microsoft.com/en-us/flow/getting-started).
 

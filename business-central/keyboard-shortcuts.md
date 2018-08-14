@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
 ms.contentlocale: is-is
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 
@@ -59,7 +59,7 @@ Eftirfarandi tafla lýsir flýtivísunum sem hægt er að nota á listasíðu. A
 |Upphafssíða<br />(Fn+Vinstri ör)|Fara í fyrsta reitinn í línunni.|Fara í fyrsta svæðið í línunni.||
 |End<br />(Alt+Hægri ör)|Fara í síðasta aðgerðareitinn í línunni.|Fara í síðasta reitinn í línunni.||
 |Síða upp<br />(Fn+Uppör)|Fara í sama dálki í efstu sýnilegu línu.|Fara í sama dálki í efstu sýnilegu línu.||
-|Síða niður<br />(Fn+Ör niður)|Fara í sama dálki í neðstu sýnilegu línu.|Fara í sama dálki í neðstu sýnilegu línuna.||
+|Síða niður<br />(Fn+ör niður)|Fara í sama dálki í neðstu sýnilegu línu.|Fara í sama dálki í neðstu sýnilegu línuna.||
 |Færslulykill<br />(Fn+Ör niður)|Opna færsluna sem tengist reitnum|Opnar færsluna.| Á aðeins við ef síðuspjald tengist færslunni.|
 |Ctrl+Heim<br />(Fn+Ctrl+Vinstri ör)|Veljið fyrstu línuna á listanum; áherslan flyst á fyrsta aðgerðareit línunnar|Fara í reitinn í fyrstu línu listans||
 |Ctrl+End<br />(Fn+Ctrl+Hægri ör)|Veljið síðustu línuna í listanum; áherslan flyst á fyrsta aðgerðareit línunnar|Fara í fyrsta reitinn í síðustu línu listans||
@@ -91,6 +91,22 @@ Eftirfarandi tafla lýsir flýtivísunum sem hægt er að nota á listasíðu. A
 |Færslulykill|Velja áhersludaginn.|
 |Ctrl+End<br />(Cmd+End)|Loka dagatalinu og eyða núverandi dagsetningu.|
 |Esc|Lokaðu dagatalinu án vals, halda núverandi dagsetningu.|
+
+
+## <a name="keyboard-shortcuts-in-the-report-preview"></a>Flýtivísanir í forskoðun skýrslu
+
+|Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
+|-----------------|-------|
+|Niður ör|Fletta niður síðuna.|  
+|ÖR UPP|Fletta upp síðuna.|
+|Hægri ör|Fletta til hægri þegar aðdráttur er aukinn á síðunni svo hún sjáist ekki að fullu. |
+|Vinstri ör|Fletta til vinstri þegar aðdráttur er aukinn á síðunni svo hún sjáist ekki að fullu. |
+|Ctrl+0 (núll)<br />(Cmd+0)|Passar allri síðunni í glugganum. |
+|Ctrl+Heim<br />(Cmd+Heim)|Fara á fyrstu síðu skýrslunnar.|
+|Ctrl+End<br />(Cmd+Heim)|Fara á síðustu síðu skýrslunnar.|
+|Síða niður<br />(Fn+ör niður)|Fara á næstu síðu skýrslunnar.|
+|Síða upp br/>(Fn+ör upp)|Fara á fyrri síðu skýrslunnar.|
+
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles)

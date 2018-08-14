@@ -81,7 +81,7 @@ Hægt er að færa inn neikvæðar tölur eftir tveimur leiðum. Númerið -20.5
     Eða
 -   20.5-  
 
- Í báðum tilfellum verður upphæðin skráð í  sem -20.5.  
+ Í báðum tilfellum verður upphæðin skráð í sem -20.5.  
 
  Ef síðasti stafur segðarinnar er **+** eða **-**, mun öll segðin verða skráð með því formerki. Dæmi: **10-20+** mun gefa niðurstöðuna 10 en ekki -10.  
 
@@ -106,7 +106,7 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 
 |Kóði|Niðurstaða|  
 |--------------|----------------|  
-|t|Þetta er dagurinn í dag (kerfisdagsetning tölvunnar).|  
+|d|Þetta er dagurinn í dag (kerfisdagsetning tölvunnar).|  
 |v|Þetta er vinnudagurinn sem er settur upp í forritinu. Vinnudagsetningunni breytt úr valmyndinni [Breyta grunnstillingum](ui-change-basic-settings.md) Handhægt gæti verið að nota vinnudagsetningar ef verið er að nota margar færslur með aðra dagsetningu en dagsins í dag.|  
 
 <!--Onprem ## Closing Date  
@@ -145,7 +145,7 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 |11 12|11-gildandi mánuður-gildandi ár 12:00:00|  
 |1112 12|11-12-gildandi ár 12:00:00|  
 |d eða dagurinn í dag|dagurinn í dag 00:00:00|  
-|t tími|gildandi tími dagsins í dag|  
+|d tími|gildandi tími dagsins í dag|  
 |d 10:30|dagurinn í dag 10:30:00|  
 |d 03:03:03|dagurinn í dag 03:03:03|  
 |v eða vinnudagsetningin|vinnudagsetningin 00:00:00|  

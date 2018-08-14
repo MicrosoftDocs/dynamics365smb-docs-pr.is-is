@@ -47,7 +47,7 @@ Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn.
 Sjálfgefin vinnudagsetning er yfirleitt dagurinn í dag. Þú gætir þúrft að breyta tímabundið vinnudagsetningu til að framkvæma verk, eins og að klára færslur fyrir dagsetningu sem er ekki núverandi dagsetning.
 
 > [!TIP]  
->   Skrifaðu **w** til að færa hratt inn vinnudagsetningu í dagsetningarreit. Til að færa hratt inn núverandi dagsetningu í dagsetningarreit, færðu inn **t**
+>   Skrifaðu **v** til að færa hratt inn vinnudagsetningu í dagsetningarreit. Skrifaðu **d** til að færa hratt inn núverandi dagsetningu í dagsetningarreit.
 
 > [!IMPORTANT]  
 >   Vinnudagsetningunni er aðeins breytt þar til fyrirtækinu er lokað eða dagsetningin breytist. Ef annað fyrirtæki er opnað, eða þegar sama fyrirtækið er opnað aftur næsta dag og enn er þörf á að nota aðra dagsetningu en kerfisdagsetninguna þá verður að stilla vinnudagsetninguna aftur.
