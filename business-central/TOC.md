@@ -266,6 +266,7 @@
 ## [Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)
 ## [Taka frá vörur](inventory-how-to-reserve-items.md)
 ## [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)
+## [Loka vörum](inventory-how-block-items.md)
 ## [Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)
 
 # [Verkefnastjórnun](projects-manage-projects.md)
@@ -390,7 +391,7 @@
 ## [Hönnunarupplýsingar: Vörurakning](design-details-item-tracking.md)
 ## [Hönnunarupplýsingar: Bókunarlína færslubókar](design-details-general-journal-post-line.md)
 
-# Staðbundin virkni
+# [Staðbundin virkni](about-localization.md)
 ## [Ástralía](LocalFunctionality/Australia/australia-local-functionality.md)  
 ## [Austurríki](LocalFunctionality/Austria/austria-local-functionality.md)
 ## [Belgía](LocalFunctionality/Belgium/belgium-local-functionality.md)
