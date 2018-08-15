@@ -7,8 +7,8 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 07/20/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
+ms.date: 08/15/2018
 ms.author: edupont
 ms.translationtype: HT
 ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
@@ -56,6 +56,7 @@ Ef þú hefur aðgang að Microsoft CustomerSource getur þú fengið aðgang a�
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er fáanlegt á takmörkuðum fjölda markaða, en nýjum löndum er bætt við með staðfæringum sem eru leiddar af Microsoft eða samstarfsaðilum ársfjórðungslega. Nánari upplýsingar eru í [Studd lönd og þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Afhverju eru sumar viðmótseiningar sem ég notaði í Dynamics NAV ekki sýnilegar í [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)], gerir kerfishlutinn og valkostir upplifunarinnar þér kleift að sýna/fela viðeigandi hluta vörunnar samkvæmt keyptri áskrift (grunn- og úrvalsáskrift) og í samræmi við vðiskiptaþarfir þínar.
 
 Þessir möguleikar hafa verið notaðir til að einfalda notendaviðmótið í staðlaða útgáfunni af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til dæmis hafa reitir sem ekki eru oft notaðir, t.d. **Faxnúmer**, verið fjarlægðir og á borðum á listum og spjöldum hafa tvíteknar aðgerðir verið fjarlægðar og mest notuðu aðgerðirnar færðar ofar. Nokkrir fullkláraðir eiginleikar, t.d. athugasemdir, er verið að fínstilla fyrir vefbiðlarann og eru því ekki tiltækir í [!INCLUDE[d365fin](includes/d365fin_md.md)].
