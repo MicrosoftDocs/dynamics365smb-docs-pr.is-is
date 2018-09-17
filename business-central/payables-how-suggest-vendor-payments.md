@@ -29,10 +29,9 @@ Til að njóta greiðsluábendinga til fulls verður þú fyrst að forgangsrað
 
 > [!IMPORTANT]  
 >   Ef nýta á greiðsluafslátt og tiltæk upphæð hefur verið færð inn, verður upphæðin notuð fyrir:  
-
-* Forgangsatriði fyrirframgreiddar seljenda færslur fyrst í forgangsröð.  
-* Lánardrottnafærslur sem eru fallnar á tíma sem eru ekki forgangsraðar.  
-* Opnaðu söluaðili færslur sem eiga rétt á greiðslukortum, raðað eftir seljanda númeri.  
+    * Forgangsatriði fyrirframgreiddar seljenda færslur fyrst í forgangsröð.   
+    * Lánardrottnafærslur sem eru fallnar á tíma sem eru ekki forgangsraðar.  
+    * Opnaðu söluaðili færslur sem eiga rétt á greiðslukortum, raðað eftir seljanda númeri.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>nota aðgerðina Greiðslutillögur til lánardrottna
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greiðslubækur** og velja svo viðeigandi tengil.  
