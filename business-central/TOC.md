@@ -110,7 +110,6 @@
 ### [Talning, breytingar eða endurflokkun birgða](inventory-how-count-adjust-reclassify.md)
 ### [Virkja sjálfvirk einingaskipti með beinum frágangi og tínslu](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 ### [Virkja tínslu eftir FEFO](warehouse-picking-by-fefo.md)
-### [Virkja sjálfvirkt gagnatökukerfi (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Endurskipulagning vöruhúsa](warehouse-how-to-restructure-warehouses.md)
 ## [Uppsetning framleiðslu](production-configure-production-processes.md)
 ### [Dagbók vinnustöðvar stofnuð](production-how-to-create-work-center-calendars.md)
