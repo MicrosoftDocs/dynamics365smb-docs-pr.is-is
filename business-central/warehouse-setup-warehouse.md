@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d57e87363830c521a90f00b552146dd09654f68
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: caa494729c4408334fadd50903f0d17df330409d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Vöruhúsastjórnun sett upp
@@ -40,8 +40,8 @@ Dreifingaráætlun fyrirtækis endurspeglast í grunnstillingu á vinnslum vöru
 |Skilgreina hvenær og hvernig vörur í birgðageymslum eru taldar vegna viðhalds eða fjárhagsskýrslugerðar.|[Talning, breytingar eða endurflokkun birgða](inventory-how-count-adjust-reclassify.md)|
 |Gera vöruhúsastarfsmönnum kleift að brjóta stærri mælieiningu niður í smærri mælieiningar til að uppfylla þarfir upprunaskjala.|[Virkja sjálfvirk einingaskipti með beinum frágangi og tínslu](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Setja upp vöruhús þannig að það stingi sjálfkrafa upp á vörum til tínslu sem munu renna út fyrstar.|[Virkja tínslu eftir FEFO](warehouse-picking-by-fefo.md)|
-|Samlaga strikamerkjalesara að vöruhúsakerfislausninni.|[Nota sjálfvirkt gagnatökukerfi (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|  
-|Fá ábendingar um hvernig á að endurskipuleggja birgðageymslur, hólf eða svæði til þess að auka skilvirkni vöruhúsaaðgerða.|[Endurskipulagning vöruhúsa](warehouse-how-to-restructure-warehouses.md)|  
+|Fá ábendingar um hvernig á að endurskipuleggja birgðageymslur, hólf eða svæði til þess að auka skilvirkni vöruhúsaaðgerða.|[Endurskipulagning vöruhúsa](warehouse-how-to-restructure-warehouses.md)|
+<!-- |Samlaga strikamerkjalesara að vöruhúsakerfislausninni.|[Nota sjálfvirkt gagnatökukerfi (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

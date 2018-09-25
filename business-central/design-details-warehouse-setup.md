@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/29/2017
+ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ced5d26e4c261bc3890ba59aa7bdaad009f240c6
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: ff625189c5004f682f45fe1c1796ba6afe2e7fdb
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Hönnunarupplýsingar uppsetningvöruhúss
@@ -30,7 +30,7 @@ Eftirfarandi vöruhússtengdu eindir eru til:
 -   Vöruhúsaafhending (4210)  
 -   Vöruhúsastjórnunarkerfi (4620)  
 -   Innri tínslur og frágangur (4630)  
--   Sjálfvirkt gagnatökukerfi (4640)  
+-   <!-- Automated Data Capture System (4640) -->  
 -   Uppsetning hólfs (4660)  
 
 Nánari upplýsingar um hverja einingu eru á [[!INCLUDE[d365fin](includes/d365fin_md.md)] Verðblöð](http://go.microsoft.com/fwlink/?LinkId=238341) (ViðskiptafélagiUppruni Reikningur nauðsynlegur).  
@@ -44,7 +44,7 @@ Eftirfarandi tafla sýnir hvaða eininga er krafist til að skilgreina mismunand
 |3 <br /><br /> **Athugið**: Jafnvel þótt stillingarnar séu kallaðar **Krefjast tínslu** og **Krefjast frágangs**, geturðu samt sem áður bókað móttöku og afhendingu beint frá uppruna viðskiptaskjala í birgðageymslum þar sem þú velur þessa gátreiti.|Grunnvöruhúsastarfsemi, pöntun fyrir pöntun.<br /><br /> Bókun móttöku/afhendingar úr birgðafrágangi/tínsluskjölum. <br /><br /> Hólfkóði er áskilið.|Birgðafrágangur/birgðahreyfing/birgðatínsla með hólfkóða|(Silfrað + Þarf að ganga frá eða tína)|Grunnbirgðir/hólf/Frágangur/Tiltekt|  
 |4|Ítarlegar vöruhúsaaðgerðir, fyrir margar pantanir.<br /><br /> Samsett bókun taka við/senda byggð á skráningum í vöruhúsi frágangur/tiltekt.|Vöruhúsamóttaka/vöruhúsafrágangur/vöruhúsatiltekt/vöruhúsaafhending/tiltektarvinnublað|GRÆNT|Grunnbirgðir/vöruhúsamóttaka/Frágangur/Taka til/vöruhúsaafhending|  
 |5|Ítarlegar vöruhúsaaðgerðir, fyrir margar pantanir.<br /><br /> Samsett bókun taka við/senda byggð á skráningum í vöruhúsi frágangur/tiltekt.<br /><br /> Hólfkóði er áskilið.|Vöruhúsamóttaka/vöruhúsafrágangur/vöruhúsatiltekt/vöruhúsaafhending/tiltektarvinnublað/frágangsvinnublað, með hólfkóða|(GRÆNT + Hólf áskilið)|Grunnbirgðir / Hólf / vöruhúsamóttaka / Frágangur / Tiltekt / vöruhúsaafhending|  
-|6 <br /><br /> **Athugið**: Þetta stig er kallað „WMS“ þar sem það krefst ítarlegustu eindarinnar, Vöruhúsakerfisins.|Ítarlegar vöruhúsaaðgerðir, fyrir margar pantanir.<br /><br /> Samsett bókun taka við/senda byggð á skráningum í vöruhúsi frágangur/tiltekt.<br /><br /> Hólfkóði er áskilið.<br /><br /> Svæðis- eða flokkakóði er valfrjáls.<br /><br /> Starfsmenn í vöruhúsi stjórnað af verkflæði.<br /><br /> Áætlun áfyllingar hólfs<br /><br /> Hólfaflokkun<br /><br /> Uppsetning hólfs eftir getu.<br /><br /> Niðurröðun.<br /><br /> Samþætting við handtæki|Vöruhúsamóttaka/vöruhúsafrágangur/vöruhúsatiltekt/vöruhúsaafhending/vöruhúsahreyfing/tiltektarvinnublað/frágangsvinnublað/ vöruhúsatiltekt Innanhúss/vöruhúsafrágangur innanhúss, með hólfa/flokk/svæðiskóða<br /><br /> Ýmsar vinnublöð fyrir hólfastjórnun<br /><br /> ADCS-skjáir|HVÍTT|Grunnbirgðir / Hófl / Frágangur / vöruhúsamóttaka / Tiltekt / Vöruhúsasending / Vöruhúsastjórnkerfi / Innri tiltekt og frágangur /Hófaskipulag / Gagnatökukerfi sjálfvirkrar dagsetningar / Hólfauppsetning|  
+|6 <br /><br /> **Athugið**: Þetta stig er kallað „WMS“ þar sem það krefst ítarlegustu eindarinnar, Vöruhúsakerfisins.|Ítarlegar vöruhúsaaðgerðir, fyrir margar pantanir<br /><br /> Samsett bókun taka við/senda byggð á skráningum í vöruhúsi frágangur/tiltekt<br /><br /> Hólfkóði er áskilið.<br /><br /> Svæðis- eða flokkakóði er valfrjáls.<br /><br /> Starfsmenn í vöruhúsi stjórnað af verkflæði<br /><br /> Áætlun áfyllingar hólfs<br /><br /> Hólfaflokkun<br /><br /> Uppsetning hólfs eftir getu<br /><br /> Niðurröðun <!-- Hand-held device integration -->|Vöruhúsamóttaka/vöruhúsafrágangur/vöruhúsatiltekt/vöruhúsaafhending/vöruhúsahreyfing/tiltektarvinnublað/frágangsvinnublað/ vöruhúsatiltekt Innanhúss/vöruhúsafrágangur innanhúss, með hólfa/flokk/svæðiskóða<br /><br /> Ýmsar vinnublöð fyrir hólfastjórnun <!-- ADCS screens  -->|HVÍTT|Grunnbirgðir/Hólf/Frágangur/vöruhúsamóttaka/Tiltekt/Vöruhúsasending/Vöruhúsastjórnkerfi/Innri tiltekt og frágangur/Hólfauppsetning/<!-- Automated Data Capture System/ -->Hólfauppsetning|  
 
 Dæmi um hvernig notandaviðmótsskjölunum er beitt á vöruhúsaflækjustig eru í [Hönnunarupplýsingar: Vöruhúsaflæði á innleið](design-details-outbound-warehouse-flow.md).  
 

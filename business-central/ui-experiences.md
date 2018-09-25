@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 05/27/2018
+ms.date: 07/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 6ff186cadae5771f131a128b3d3e977800925670
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
 ms.contentlocale: is-is
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
@@ -36,7 +36,7 @@ Eftirfarandi tafla lýsir þeim reynslu sem nú er að finna.
 | **Úrvals** |Sýnir allar aðgerðir og svið fyrir alla viðskiptavirkni, þ.á.m. framleiðslu- og þjónustukerfi.|
 
 > [!NOTE]  
-> Upplifunin sem hægt er að velja úr [!INCLUDE[d365fin](includes/d365fin_md.md)] fer eftir leyfinu, sem kallast áætlun. Fyrir upplýsingar um **Grundvallar** og **Úrvals** áætlanir, sjá [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) á markaðssvæði Microsoft Dynamics 365. Sjáðu einnig [!INCLUDE[d365fin](includes/d365fin_md.md)] leyfishandbókina](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> Upplifunin sem hægt er að velja úr [!INCLUDE[d365fin](includes/d365fin_md.md)] fer eftir leyfinu, sem kallast áætlun. Fyrir upplýsingar um **Grundvallar** og **Úrvals** áætlanir, sjá [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) á markaðssvæði Microsoft Dynamics 365. Sjá einnig [[!INCLUDE[d365fin](includes/d365fin_md.md)] Leyfisleiðbeiningar](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
 
 > [!IMPORTANT]  
 > Allir reglulegir notendur í lausn verða að sömu áætluninni úthlutað, grunn- eða úrvalsáskrift, áður en hægt er að velja þá upplifun fyrir fyrirtækið. Samkvæmt því getur einn notandi ekki fengið aðgang að eiginleikum úrvalsáskriftar ef einn eða fleiri aðrir notendur geta aðeins fengið aðgang að eiginleikum grunnáskriftar. Þetta á ekki við fyrir óreglulega notendur af gerðinni Team Member, innri stjórnandi, ytri endurskoðandi og úthlutaður stjórnandi, sem hver getur fengið annarri áætlun úthlutað en hinir notendurnir í lausninni.
@@ -69,5 +69,4 @@ Nú er hægt að halda áfram til að velja nýju upplifunina.
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Leyfishandbók](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

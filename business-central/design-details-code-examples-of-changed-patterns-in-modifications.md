@@ -1,6 +1,6 @@
 ---
-title: "Hönnunarupplýsingar - Lokun eftirspurnar og framboðs | Microsoft Docs"
-description: "Þegar jafnvægisstillingarferli hafa verið framkvæmd eru þrjár hugsanlegar lokaaðstæður."
+title: "Hönnunarupplýsingar – Kóðadæmi um breytt mynstur í Breytingar | Microsoft Docs"
+description: "Dæmi um kóða til að sýna breytt mynstur í víddakóða breytingar og flutning í fimm mismunandi aðstæður. Það ber saman kóðadæmin í fyrri útgáfum við kóða dæmi í Business Central."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,41 +10,190 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 08/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2be48e11d562f469ab9ef5ac156fdeb46ea51107
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/13/2018
 
 ---
-# <a name="design-details-closing-demand-and-supply"></a>Hönnunarupplýsingar: Lokun eftirspurnar og framboðs
-Þegar jafnvægisstillingarferli hafa verið framkvæmd eru þrjár hugsanlegar lokaaðstæður:  
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Hönnunarupplýsingar: Kóðadæmi um breytt mynstur í Breytingar
+Þetta efni gefur dæmi um kóða til að sýna breytt mynstur í víddakóða breytingar og flutning í fimm mismunandi aðstæður. Það ber saman kóðadæmin í fyrri útgáfum við kóða dæmi í Business Central.
 
--   Nauðsynlegt magn og dagsetning eftirspurnartilvika hafa verið uppfyllt þeim er hægt að loka. Birgðatilvikið er enn opið og gæti uppfyllt næstu eftirspurn, svo hægt er að hefja afstemmingu að nýju með núverandi birgðatilviki og næstu eftirspurn.  
+## <a name="posting-a-journal-line"></a>Bókun færslubókarlínu  
+Helstu breytingar eru skráðar eins og hér segir:  
+  
+- Bókarlínuvíddartöflur eru fjarlægðar.  
+  
+- Víddasamstæðuauðkenni er stofnað í reitnum **Auðkenni víddasamstæðu**.  
+  
+**Eldri útgáfur**  
+  
+```  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+TempJnlLineDim.DELETEALL;  
+TempDocDim.RESET;  
+TempDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Line");  
+TempDocDim.SETRANGE(  
+  "Line No.",SalesLine."Line No.");  
+DimMgt.CopyDocDimToJnlLineDim(  
+  TempDocDim,TempJnlLineDim);  
+ResJnlPostLine.RunWithCheck(  
+  ResJnlLine,TempJnlLineDim);  
+  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+ResJnlLine."Dimension Set ID" :=   
+  SalesLine." Dimension Set ID ";  
+ResJnlPostLine.Run(ResJnlLine);  
+  
+```  
+  
+## <a name="posting-a-document"></a>Fylgiskjal bókað  
+ Þegar þú bókar fylgiskjal í [!INCLUDE[d365fin](includes/d365fin_md.md)], þarftu ekki lengur að afrita víddir fylgiskjalsins.  
+  
+ **Eldri útgáfur**  
+  
+```  
+DimMgt.MoveOneDocDimToPostedDocDim(  
+  TempDocDim,DATABASE::"Sales Line",  
+  "Document Type",  
+  "No.",  
+  SalesShptLine."Line No.",  
+  DATABASE::"Sales Shipment Line",  
+  SalesShptHeader."No.");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+SalesShptLine."Dimension Set ID”  
+  := SalesLine."Dimension Set ID”  
+```  
+  
+## <a name="editing-dimensions-from-a-document"></a>Vídd breytt úr skjali  
+ Hægt er að breyta vídd úr skjali. Til dæmis er hægt að breyta sölupöntunarlínu.  
+  
+ **Eldri útgáfur**  
+  
+```  
+Table 37, function ShowDimensions:  
+TESTFIELD("Document No.");  
+TESTFIELD("Line No.");  
+DocDim.SETRANGE("Table ID",DATABASE::"Sales Line");  
+DocDim.SETRANGE("Document Type","Document Type");  
+DocDim.SETRANGE("Document No.","Document No.");  
+DocDim.SETRANGE("Line No.","Line No.");  
+DocDimensions.SETTABLEVIEW(DocDim);  
+DocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function ShowDimensions:  
+"Dimension ID" :=   
+  DimSetEntry.EditDimensionSet(  
+    "Dimension ID");  
+```  
+  
+## <a name="showing-dimensions-from-posted-entries"></a>Sýna víddir frá bókuðum færslum  
+ Hægt er að sýna víddir úr bókuðum færslum, svo sem sendingarlínum sölu.  
+  
+ **Eldri útgáfur**  
+  
+```  
+Table 111, function ShowDimensions:  
+TESTFIELD("No.");  
+TESTFIELD("Line No.");  
+PostedDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Shipment Line");  
+PostedDocDim.SETRANGE(  
+  "Document No.","Document No.");  
+PostedDocDim.SETRANGE("Line No.","Line No.");  
+PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
+PostedDocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 111, function ShowDimensions:  
+DimSetEntry.ShowDimensionSet(  
+  "Dimension ID");  
+```  
+  
+## <a name="getting-default-dimensions-for-a-document"></a>Uppsetning sjálfgefinna vídda fyrir skjal  
+ Uppsetning sjálfgefinna vídda fyrir skjal, svop sem sölupöntunarlínu.  
+  
+ **Eldri útgáfur**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+DimMgt.GetPreviousDocDefaultDim(  
+  DATABASE::"Sales Header","Document Type",  
+  "Document No.",0,  
+  DATABASE::Customer,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+DimMgt.GetDefaultDim(  
+  TableID,No,SourceCodeSetup.Sales,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+IF "Line No." <> 0 THEN  
+  DimMgt.UpdateDocDefaultDim(  
+    DATABASE::"Sales Line","Document Type",  
+    "Document No.","Line No.",  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+GetSalesHeader;  
+"Dimension ID" :=  
+  DimMgt.GetDefaultDimID(  
+    TableID,No,SourceCodeSetup.Sales,  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code",  
+    SalesHeader."Dimension ID",  
+    DATABASE::"Sales Header");
 
--   Ekki er hægt að breyta birgðapöntuninni svo hún nái yfir alla eftirspurn. Eftirspurnartilvik er enn opinn, með nokkru óuppfylltu magni sem hugsanlega er uppfyllt í næsta framboðstilviki. Þannig er núverandi framboðstilvik lokað, þannig að jöfnunaraðgerð getur byrjað aftur með núverandi eftirspurn og næsta framboðstilviki.  
-
--   Öll eftirspurn hefur verið uppfyllt, engin eftirspurn stendur eftir (eða eftirspurn var ekki til staðar). Ef það er eitthvert afgangsframboð er hægt að minnka það (eða hætta við) og loka síðan. Hugsanlega eru fleiri framboðstilvik til staðar innar í keðjunni og einnig ætti að hætta við þau.  
-
- Að lokum mun áætlanakerfið stofna pöntunarrakningartengil milli framboðs og eftirspurnar.  
-
-## <a name="creating-the-planning-line-suggested-action"></a>Stiofna áætlunarlínu (Tillögu um aðgerð)  
- Ef einhver aðgerð – Ný, Breyta magni, Enduráætla, Enduráætla og breyta magni eða Hætta við – er lögð til til að endurskoða birgðapöntunina býr áætlanakerfið til áætlunarlínu í áætlanavinnublaðinu. Vegna pöntunarrakningar, er áætlunarlína ekki aðeins búin til þegar framboðsatburður er lokaður, en einnig ef eftirspurnaratburði er lokað, jafnvel þótt framboðsatburður er enn opinn og getur verið háð frekari breytingum þegar næsta eftirspurnaratburður er afgreiddur. Þetta þýðir að þegar fyrst búið til er hægt að breyta áætlunarlínu aftur.  
-
- Til að lágmarka gagnagrunnsaðgang við meðhöndlun framleiðslu pantanir, áætlunarlína getur verið haldið í þrjú stig, en stefnt að framkvæma einfaldasta viðhald stig:  
-
--   Stofna aðeins áætlanagerðarlínu með núverandi gjalddagadagsetningu og magni en án vegvísun og íhlutum.  
-
--   Taka með leið: fyrirhuguð leið er sett fram með útreikningur á upphaf og endir dagsetningar og tíma. Þetta fer eftir aðgangi að gagnagrunni. Til að ákvarða endi og skiladag, kann að vera nauðsynlegt að reikna þetta jafnvel ef framboðstilvik hefur ekki verið lokað (ef um er að ræða framvirk tímasetningu).  
-
--   Taka með uppskriftarsprengingu: Þetta getur bíða þangað til rétt áður en framboðstilvik er lokað.  
-
- Þetta lýkur lýsingu á því hvernig eftirspurn og framboð er hlaðið, gefið forgang og jafnað í áætlanakerfinu. Í samþættingu við þessa framboðsáætlunarstarfsemi verður kerfið að tryggja að nauðsynlegt birgðastig hverrar áætlunarvöru sé haldið í samræmi við pöntunarstefnu hennar.  
+```  
 
 ## <a name="see-also"></a>Sjá einnig  
- [Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs](design-details-balancing-demand-and-supply.md)   
- [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)   
- [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)
-
+[Hönnunarupplýsingarn: Færslur víddarsamstæða](design-details-dimension-set-entries.md)   
+[Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)   
+[Hönnunarupplýsingar: Kóðaeining 408 víddarstjórnun](design-details-codeunit-408-dimension-management.md)
