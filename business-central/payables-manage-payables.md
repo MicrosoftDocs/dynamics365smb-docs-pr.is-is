@@ -1,17 +1,15 @@
 ---
 title: "Yfirlit yfir umsjónarverkhluta viðskiptaskulda| Microsoft Docs"
 description: "Útskýrir verkhluta sem felur í sér stjórnun viðskiptaskulda, til dæmis að borga skuldareiganda eða úthluta greiðslum á útleið á fjárhagsfærslur til að loka reikningum eða kreditreikningum."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/28/2017
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
 ms.openlocfilehash: 5482579cb453b119be1b6eb5c24d5adc9441ea8b
@@ -20,6 +18,7 @@ ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-payables"></a>Stjórna skuldum
+
 Stór hluti af stjórnun viðskiptaskulda er að borga lánardrottnum þínum eða endurgreiða starfsmönnum útgjöld. Þú getur notað aðgerðir til að bæta við greiðslumörkum fyrir innkaupakvittanir sem eiga að eiga sér stað í **Greiðslubókinni**. Til að senda viðskipti í bankann þinn, getur þú flutt margar greiðslubókalínur í skrá og síðan hlaðið skránum inn í bankann þinn. Einnig er hægt að framkvæma greiðslur með tékka, þar með talið senda tékka sem rafræn greiðsla
 
 Annar dæmigerður verkefni er að jafna útgjöld við tengdar fjárhagsfærslur lánardrottna og starfsmanna, til þess að loka innkaupareikningum, innkaupakreditreikningum eða starfsmannareikningnum sem greiddir. Þú getur gert þetta í glugganum **Greiðsluafstemmingarbók** með því að flytja inn bankareikningsskrá til að skrá greiðslur. Greiðslurnar eru jafnaðar við opinn lánardrottinn, viðskiptamann eða starfsmanna fjárhagsfærslur með því að láta greiðslu texta og færsluupplýsingar passa saman. Það eru ýmsar leiðir til að skoða og breyta leikjunum áður en þú sendir dagbókina. Þú getur valið að loka öllum opnum bankareikningsfærslum sem tengjast jöfnuðu fjárhagsfærslunum þegar þú bókar færslubókina. Bankareikningurinn er sjálfkrafa sáttur þegar allar greiðslur eru sóttar.
@@ -43,5 +42,4 @@ Einnig er hægt að jafna greiðslur á útleið handvirkt í glugganum **greið
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

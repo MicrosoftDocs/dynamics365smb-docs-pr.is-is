@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
@@ -43,7 +43,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Setja upp og nota verkflæði sem tengja verk frá mismunandi notendum eða af kerfinu, t.d. sjálfvirk bókun. Að óska eftir samþykki eða samþykkja að stofna eða bóka skjöl eru dæmigerð skref í verkflæði.|[Verkflæði](across-workflow.md)|
 |Gera notendum kleift að skiptast á gögnum með ytri gagnagjöfum í daglegum verkum, s.s. senda/móttaka rafræn skjöl, flytja inn/flytja út bankaskrár og uppfæra gengi gjaldmiðils.|[Rafræn gagnaskipti](across-data-exchange.md)|
 |Taktu utanaðkomandi skjöl í [!INCLUDE[d365fin](includes/d365fin_md.md)], þ.m.t. skrá viðhengi þeirra, og búðu til handvirkt tengdar skjöl eða búðu til þau sjálfkrafa í rafræn skjöl.|[Skjöl á innleið](across-income-documents.md)|
-
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun](admin-setup-and-administration.md)  
