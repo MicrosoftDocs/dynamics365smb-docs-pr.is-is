@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Office 365
-ms.date: 04/09/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: b535255be4b751744ae8c459bdc3d87cd1271dee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ef58b87146d84dc46ba9ad7a96ce0e57cbfe51c6
 ms.contentlocale: is-is
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a><span data-ttu-id="443ca-103">Samstilla tengiliði í Business Central með tengiliðum í Microsoft Outlook</span><span class="sxs-lookup"><span data-stu-id="443ca-103">Synchronize Contacts in Business Central with Contacts in Microsoft Outlook</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/11/2018
 
   <span data-ttu-id="443ca-131">Þessi aðgerð samstillir alla tengiliði í báðar áttir óháð síðasta samstillingardegi og síðasta breytingardegi.</span><span class="sxs-lookup"><span data-stu-id="443ca-131">This action synchronizes all contacts in both directions regardless of the last sync date and last modified date.</span></span>  
 
-<span data-ttu-id="443ca-132">Í báðum tilvikum eru tengiliðir aðeins samstilltir frá Outlook ef þeir hafa nauðsynlega reiti útfyllta.</span><span class="sxs-lookup"><span data-stu-id="443ca-132">In both cases, contacts are only synchronized from Outlook if they have the required fields filled in.</span></span> <span data-ttu-id="443ca-133">Nauðsynlegir reitir til að samstilla við Office 365 eru **Nafn**, **Netfang** og þeir verða að vera gerðinni „Einstaklingur“.</span><span class="sxs-lookup"><span data-stu-id="443ca-133">The required fields to synchronize to Office 365 are **Name**, **Email address** and they must be of type Person.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="443ca-134"> er aðalsniðmát tengslaupplýsinganna, þannig að [!INCLUDE[d365fin](includes/d365fin_md.md)] tengslaupplýsingarnar verða vistaðar ef tvítekningar eiga sér stað.</span><span class="sxs-lookup"><span data-stu-id="443ca-134"> is the master of the contact information, so the [!INCLUDE[d365fin](includes/d365fin_md.md)] contact information will be saved in the event of duplicates.</span></span>  
+<span data-ttu-id="443ca-132">Í báðum tilvikum eru tengiliðir aðeins samstilltir frá Outlook ef þeir hafa nauðsynlega reiti útfyllta.</span><span class="sxs-lookup"><span data-stu-id="443ca-132">In both cases, contacts are only synchronized from Outlook if they have the required fields filled in.</span></span> <span data-ttu-id="443ca-133">Nauðsynlegir reitir til að samstilla við Office 365 eru **Nafn**, **Netfang** og þeir verða að vera gerðinni „Einstaklingur“.</span><span class="sxs-lookup"><span data-stu-id="443ca-133">The required fields to synchronize to Office 365 are **Name**, **Email address** and they must be of type Person.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="443ca-134">er aðalsniðmát tengslaupplýsinganna, þannig að [!INCLUDE[d365fin](includes/d365fin_md.md)] tengslaupplýsingarnar verða vistaðar ef tvítekningar eiga sér stað.</span><span class="sxs-lookup"><span data-stu-id="443ca-134"> is the master of the contact information, so the [!INCLUDE[d365fin](includes/d365fin_md.md)] contact information will be saved in the event of duplicates.</span></span>  
 
 <span data-ttu-id="443ca-135">Í Outlook eru tengiliðirnir frá [!INCLUDE[d365fin](includes/d365fin_md.md)] sýndir í möppu undir **Aðrir tengiliðir** í yfirlitinu **Einstaklingar**.</span><span class="sxs-lookup"><span data-stu-id="443ca-135">In Outlook, the contacts from [!INCLUDE[d365fin](includes/d365fin_md.md)] are shown in a folder under **Other contacts** in the **People**  view.</span></span> <span data-ttu-id="443ca-136">Ef þú þekkir ekki einstaklingsyfirlitið í Outlook, þá geturðu farið í það frá leiðsagnavalkostunum neðst til vinstri í Outlook.</span><span class="sxs-lookup"><span data-stu-id="443ca-136">If you are not familiar with the People view in Outlook, then you can get to it from the navigation options in the bottom left corner of Outlook.</span></span>  
 

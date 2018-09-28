@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8f274fe153cb93c31148269aae994218bd0da497
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a><span data-ttu-id="c7bc9-105">Nota verkraðir til að tímaraða verkhlutum</span><span class="sxs-lookup"><span data-stu-id="c7bc9-105">Use Job Queues to Schedule Tasks</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="c7bc9-115">Einnig er hægt að velja afmörkun sem gildir í reitnum **Afmörkun flokks verkraðar**.</span><span class="sxs-lookup"><span data-stu-id="c7bc9-115">Optionally, you can set a filter in the **Job Queue Category Filter** field.</span></span> <span data-ttu-id="c7bc9-116">Flokka verkraðar má nota til að flokka verk sem eru á listanum.</span><span class="sxs-lookup"><span data-stu-id="c7bc9-116">Job queue categories can be used to group jobs in the list.</span></span>
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="c7bc9-117"> keyrir verkin sjálfvirkt samkvæmt tilteknum tímasetningum fyrir hverja verkraðarfærslu.</span><span class="sxs-lookup"><span data-stu-id="c7bc9-117"> automatically runs the jobs according to the specified schedules for each job queue entry.</span></span> <span data-ttu-id="c7bc9-118">Þú getur einnig byrjað, stoppað og slegið verkraðarfærslu á frest handvirkt.</span><span class="sxs-lookup"><span data-stu-id="c7bc9-118">You can also start, stop, and put a job queue entry on hold manually.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c7bc9-117">keyrir verkin sjálfvirkt samkvæmt tilteknum tímasetningum fyrir hverja verkraðarfærslu.</span><span class="sxs-lookup"><span data-stu-id="c7bc9-117"> automatically runs the jobs according to the specified schedules for each job queue entry.</span></span> <span data-ttu-id="c7bc9-118">Þú getur einnig byrjað, stoppað og slegið verkraðarfærslu á frest handvirkt.</span><span class="sxs-lookup"><span data-stu-id="c7bc9-118">You can also start, stop, and put a job queue entry on hold manually.</span></span>
 
 ### <a name="log-files"></a><span data-ttu-id="c7bc9-119">Kladdaskrár</span><span class="sxs-lookup"><span data-stu-id="c7bc9-119">Log Files</span></span>
 <span data-ttu-id="c7bc9-120">Villur eru taldar upp í glugganum **Skráarfærslur verkraðar** sem þú getur farið inn í gegnum borðann.</span><span class="sxs-lookup"><span data-stu-id="c7bc9-120">Errors are listed in the **Job Queue Log Entries** window that you can access from the ribbon.</span></span> <span data-ttu-id="c7bc9-121">Einnig er hægt að leita úrræða vegna verkraðarvillna.</span><span class="sxs-lookup"><span data-stu-id="c7bc9-121">You can also troubleshoot job queue errors.</span></span> <span data-ttu-id="c7bc9-122">Gögn sem verða til þegar verkröð er keyrð eru geymd í gagnagrunninum.</span><span class="sxs-lookup"><span data-stu-id="c7bc9-122">Data that is generated when a job queue is run is stored in the database.</span></span>  
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="c7bc9-127">Einnig er hægt að á að áætla bókanir fyrir tíma hentugum fyrir fyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="c7bc9-127">Alternatively, you may want to schedule postings for hours when it is convenient for your organization.</span></span> <span data-ttu-id="c7bc9-128">Til dæmis getur það verið við hæfi í fyrirtæki notanda að keyra tilteknar vinnslur þegar flestum gagnafærslum fyrir daginn er lokið.</span><span class="sxs-lookup"><span data-stu-id="c7bc9-128">For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.</span></span> <span data-ttu-id="c7bc9-129">Þú getur náð þessu fram með því að láta verkröðina keyra mismunandi bókunarskrár í runu, eins og t.d. skrárnar **Bókunarsölupantanir í runu**, **Bókunarsölureikningar í runu**, og **Bókunarsölukreditreikningar í runu**.</span><span class="sxs-lookup"><span data-stu-id="c7bc9-129">You can achieve this by setting the job queue up to run various batch post reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and **Batch Post Sales Credit Memos** reports.</span></span>  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="c7bc9-130"> styður bakgrunnsbókun fyrir eftirfarandi tegundir skjala:</span><span class="sxs-lookup"><span data-stu-id="c7bc9-130"> supports background posting for the following document types:</span></span>  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="c7bc9-130">styður bakgrunnsbókun fyrir eftirfarandi tegundir skjala:</span><span class="sxs-lookup"><span data-stu-id="c7bc9-130"> supports background posting for the following document types:</span></span>  
 
 -   <span data-ttu-id="c7bc9-131">Sala: sölupöntun, vöruskilapöntun, kreditreikningur, reikningur</span><span class="sxs-lookup"><span data-stu-id="c7bc9-131">Sales: sales order, return order, credit memo, invoice</span></span>  
 

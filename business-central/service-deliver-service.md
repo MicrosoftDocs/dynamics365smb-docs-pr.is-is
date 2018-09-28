@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d8250f4e80af08c7500e495ac539d0c035636895
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="delivering-service"></a><span data-ttu-id="32a10-103">Þjónustuafhending</span><span class="sxs-lookup"><span data-stu-id="32a10-103">Delivering Service</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="32a10-104"> hefur eiginleika sem hjálpa til við afhendingu þjónustu samkvæmt þeim samningum sem stofnaðir hafa verið og þeim þjónustupöntunum sem uppfylla skal.</span><span class="sxs-lookup"><span data-stu-id="32a10-104"> provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling.</span></span> <span data-ttu-id="32a10-105">Auðvelt er fyrir þjónustutæknimenn eða afgreiðslu að finna þjónustupantanir með **Afgreiðslustöð**.</span><span class="sxs-lookup"><span data-stu-id="32a10-105">Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**.</span></span> <span data-ttu-id="32a10-106">Í stuttu máli sýnir **Afgreiðslustöð** hvaða pantanir eru í vinnslu og hvaða pantanir eru tilbúnar.</span><span class="sxs-lookup"><span data-stu-id="32a10-106">At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="32a10-104">hefur eiginleika sem hjálpa til við afhendingu þjónustu samkvæmt þeim samningum sem stofnaðir hafa verið og þeim þjónustupöntunum sem uppfylla skal.</span><span class="sxs-lookup"><span data-stu-id="32a10-104"> provides features to help you deliver service according to the contracts that you have created and the service orders that you have committed to fulfilling.</span></span> <span data-ttu-id="32a10-105">Auðvelt er fyrir þjónustutæknimenn eða afgreiðslu að finna þjónustupantanir með **Afgreiðslustöð**.</span><span class="sxs-lookup"><span data-stu-id="32a10-105">Your service technicians or dispatcher will find outstanding service orders easy to locate when they use the **Dispatch Board**.</span></span> <span data-ttu-id="32a10-106">Í stuttu máli sýnir **Afgreiðslustöð** hvaða pantanir eru í vinnslu og hvaða pantanir eru tilbúnar.</span><span class="sxs-lookup"><span data-stu-id="32a10-106">At a glance, the **Dispatch Board** shows which orders are in progress and which orders are complete.</span></span>  
   
 <span data-ttu-id="32a10-107">Önnur leið til að fara yfir þjónustupantanir í undirbúningi er að nota gluggann **Þjónustuverkhlutar**.</span><span class="sxs-lookup"><span data-stu-id="32a10-107">Another way to review pending service orders is to use the **Service Tasks** window.</span></span> <span data-ttu-id="32a10-108">Í þessu yfirliti þjónustuskuldbindinga er hægt að sjá hvar pöntun er í verkflæði þjónustu, og breytt þeirri stöðu til að spegla samskipti við viðskiptamanninn.</span><span class="sxs-lookup"><span data-stu-id="32a10-108">In this view of your service obligations, you can see where in your service workflow an order is and change that status to reflect interactions with your customer.</span></span>  
   

@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 0/07/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: c1675921c82ddf00f6a00f94bb38bd594a9a0089
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d03fc2fb97f9abd85b42566616d8aa7f39ee29bb
 ms.contentlocale: is-is
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="administration"></a><span data-ttu-id="993f9-104">Stjórnun</span><span class="sxs-lookup"><span data-stu-id="993f9-104">Administration</span></span>
 <span data-ttu-id="993f9-105">Almenn stjórnunarverk eru yfirleitt framkvæmd af einu hlutverki innan fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="993f9-105">Central administration tasks are usually performed by one role in the company.</span></span> <span data-ttu-id="993f9-106">Umfang þessara verka getur byggst á stærð fyrirtækisins og starfsábyrgð stjórnandans.</span><span class="sxs-lookup"><span data-stu-id="993f9-106">The scope of these tasks can depend on the company's size and the administrator's job responsibilities.</span></span> <span data-ttu-id="993f9-107">Þessi verk geta falið í sér umsjón með gagnagrunnssamstillingu verkraða og póstraða, uppsetningu notenda og sérstillingu viðmóts.</span><span class="sxs-lookup"><span data-stu-id="993f9-107">These tasks can include managing database synchronization of job and email queues, setting up users, and customizing the user interface.</span></span>  
 
-<span data-ttu-id="993f9-108">Mikilvægt er að færa inn rétt uppsetningargildi frá upphafi til að ný viðskiptaforrit nái árangri.</span><span class="sxs-lookup"><span data-stu-id="993f9-108">Entering the correct setup values from the start is important to the success of any new business software.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="993f9-109"> inniheldur nokkrar uppsetningarleiðbeiningar sem aðstoða þig við að setja upp grunngögn.</span><span class="sxs-lookup"><span data-stu-id="993f9-109"> includes a number of setup guides that help you set up core data.</span></span> <span data-ttu-id="993f9-110">Nánari upplýsingar er að finna í [Uppsetning Business Central](setup.md).</span><span class="sxs-lookup"><span data-stu-id="993f9-110">For more information, see [Setting Up Business Central](setup.md).</span></span>
+<span data-ttu-id="993f9-108">Mikilvægt er að færa inn rétt uppsetningargildi frá upphafi til að ný viðskiptaforrit nái árangri.</span><span class="sxs-lookup"><span data-stu-id="993f9-108">Entering the correct setup values from the start is important to the success of any new business software.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="993f9-109">inniheldur nokkrar uppsetningarleiðbeiningar sem aðstoða þig við að setja upp grunngögn.</span><span class="sxs-lookup"><span data-stu-id="993f9-109"> includes a number of setup guides that help you set up core data.</span></span> <span data-ttu-id="993f9-110">Nánari upplýsingar er að finna í [Uppsetning Business Central](setup.md).</span><span class="sxs-lookup"><span data-stu-id="993f9-110">For more information, see [Setting Up Business Central](setup.md).</span></span>
 
 <span data-ttu-id="993f9-111">Hvort sem RapidStart Services er notuð til að innleiða uppsetningargildi eða þau eru handfærð inn í nýja fyrirtækið má notast við almennar leiðbeiningar til að auðvelda uppsetningu fyrir tiltekna reiti sem þekktir eru fyrir að valda vandræðum ef þeir eru rangt skilgreindir.</span><span class="sxs-lookup"><span data-stu-id="993f9-111">Whether you use RapidStart Services to implement setup values or you manually enter them in the new company, you can support your setup decisions with some general recommendations for selected setup fields that are known to potentially cause the solution to be inefficient if defined incorrectly.</span></span>  
 
@@ -52,5 +52,4 @@ ms.lasthandoff: 06/28/2018
 [<span data-ttu-id="993f9-144">Hafist handa</span><span class="sxs-lookup"><span data-stu-id="993f9-144">Getting Started</span></span>](product-get-started.md)    
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

@@ -1,25 +1,24 @@
 ---
 title: "Yfirlit yfir umsjónarverkhluta viðskiptaskulda| Microsoft Docs"
 description: "Útskýrir verkhluta sem felur í sér stjórnun viðskiptaskulda, til dæmis að borga skuldareiganda eða úthluta greiðslum á útleið á fjárhagsfærslur til að loka reikningum eða kreditreikningum."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/28/2017
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 730596534df93b7aa16f7975b5c5b1307a7f571a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3e8a3fcdc792a5b4be180905f9a74b611dcbde5e
 ms.contentlocale: is-is
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-payables"></a><span data-ttu-id="e0aec-103">Stjórna skuldum</span><span class="sxs-lookup"><span data-stu-id="e0aec-103">Managing Payables</span></span>
+
 <span data-ttu-id="e0aec-104">Stór hluti af stjórnun viðskiptaskulda er að borga lánardrottnum þínum eða endurgreiða starfsmönnum útgjöld.</span><span class="sxs-lookup"><span data-stu-id="e0aec-104">A big part of managing accounts payable is paying your vendors, or reimbursing your employees for expenses.</span></span> <span data-ttu-id="e0aec-105">Þú getur notað aðgerðir til að bæta við greiðslumörkum fyrir innkaupakvittanir sem eiga að eiga sér stað í **Greiðslubókinni**.</span><span class="sxs-lookup"><span data-stu-id="e0aec-105">You can use functions to add payments lines for purchase invoices that are due in the **Payment Journal** window.</span></span> <span data-ttu-id="e0aec-106">Til að senda viðskipti í bankann þinn, getur þú flutt margar greiðslubókalínur í skrá og síðan hlaðið skránum inn í bankann þinn.</span><span class="sxs-lookup"><span data-stu-id="e0aec-106">To send transactions to your bank, you can export multiple payment journal lines to a file, and then upload the file to your bank.</span></span> <span data-ttu-id="e0aec-107">Einnig er hægt að framkvæma greiðslur með tékka, þar með talið senda tékka sem rafræn greiðsla</span><span class="sxs-lookup"><span data-stu-id="e0aec-107">You can also make payments by check, including transmitting checks as electronic payments.</span></span>
 
 <span data-ttu-id="e0aec-108">Annar dæmigerður verkefni er að jafna útgjöld við tengdar fjárhagsfærslur lánardrottna og starfsmanna, til þess að loka innkaupareikningum, innkaupakreditreikningum eða starfsmannareikningnum sem greiddir.</span><span class="sxs-lookup"><span data-stu-id="e0aec-108">Another typical task is to apply outgoing payments to their related vendor or employee ledger entries in order to close purchase invoices, purchase credit memos, or employee accounts as paid.</span></span> <span data-ttu-id="e0aec-109">Þú getur gert þetta í glugganum **Greiðsluafstemmingarbók** með því að flytja inn bankareikningsskrá til að skrá greiðslur.</span><span class="sxs-lookup"><span data-stu-id="e0aec-109">You can do this in the **Payment Reconciliation Journal** window by importing a bank statement file to register the payments.</span></span> <span data-ttu-id="e0aec-110">Greiðslurnar eru jafnaðar við opinn lánardrottinn, viðskiptamann eða starfsmanna fjárhagsfærslur með því að láta greiðslu texta og færsluupplýsingar passa saman.</span><span class="sxs-lookup"><span data-stu-id="e0aec-110">The payments are applied to open vendor, customer, or employee ledger entries by matching payment text and entry information.</span></span> <span data-ttu-id="e0aec-111">Það eru ýmsar leiðir til að skoða og breyta leikjunum áður en þú sendir dagbókina.</span><span class="sxs-lookup"><span data-stu-id="e0aec-111">There are various ways to review and change the matches before you post the journal.</span></span> <span data-ttu-id="e0aec-112">Þú getur valið að loka öllum opnum bankareikningsfærslum sem tengjast jöfnuðu fjárhagsfærslunum þegar þú bókar færslubókina.</span><span class="sxs-lookup"><span data-stu-id="e0aec-112">You can choose to close any open bank account ledger entries related to the applied ledger entries when you post the journal.</span></span> <span data-ttu-id="e0aec-113">Bankareikningurinn er sjálfkrafa sáttur þegar allar greiðslur eru sóttar.</span><span class="sxs-lookup"><span data-stu-id="e0aec-113">The bank account is automatically reconciled when all payments are applied.</span></span>
@@ -43,5 +42,4 @@ ms.lasthandoff: 06/28/2018
 <span data-ttu-id="e0aec-131">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e0aec-131">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 
