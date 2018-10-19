@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f58f7572c2991bd4b30dca5e0c48499b36538f77
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Kynning: Sjálfvirk áætlun birgða
 Hugtök eins og "keyra áætlun" eða "keyra MRP" vísa í útreikninga á aðalframleiðsluáætluninni (MPS) og efnisþarfaáætluninni (MRP) útfrá raunverulegri eftirspurn og eftirspurn samkvæmt spá.  
 
--   MPS er útreikningur á aðalframleiðsluáætlun samkvæmt raunverulegri eftirspurn og framleiðsluspánni. MPS-útreikningur er notaður fyrir lokavörur sem eru með spá eða sölupöntunarlínu. Þessar vörur eru kallaðar "MPS-vörur" og eru auðkenndar þegar útreikningur hefst.  
--   MRP er útreikningur á efnisþörfum samkvæmt raunverulegri eftirspurn eftir íhlutum og framleiðsluspá á íhlutastigi. MRP er eingöngu reiknað fyrir vörur sem eru ekki MPS-vörur. Megintilgangur MRP er bjóða upp á tímasettar áætlanir þannig að rétt vara er til á réttum tíma, á réttum stað og í réttu magni.  
+-   MPS er útreikningur á aðalframleiðsluáætlun byggt á raunverulegri eftirspurn og eftirspurnarspá. MPS-útreikningur er notaður fyrir lokavörur sem eru með spá eða sölupöntunarlínu. Þessar vörur eru kallaðar "MPS-vörur" og eru auðkenndar þegar útreikningur hefst.  
+-   MRP er útreikningur á efnisþörfum sem byggjast á raunverulegri eftirspurn eftir hlutum og eftirspurnarspá á hlutastigi. MRP er eingöngu reiknað fyrir vörur sem eru ekki MPS-vörur. Megintilgangur MRP er bjóða upp á tímasettar áætlanir þannig að rétt vara er til á réttum tíma, á réttum stað og í réttu magni.  
 
  Áætlunaralgóritmarnir fyrir MPS og MRP eru eins. Áætlunarreiknireglurnar nota reikning nettóstöðu, endurnotkun birgðapantana og aðgerðarboð. Áætlunarkerfisvinnslan tekur mið af þörfum eða væntanlegum þörfum (eftirspurn) og hvað er til staðar (framboð). Þegar nettóstaða er reiknuð út frá þessum stærðum birtast aðgerðarboð á áætlunarvinnublaðinu. Aðgerðarboð eru tillögur um að stofna nýja birgðapöntun, breyta birgðapöntun (magn eða dagsetning) eða hætta við birgðapöntun. Birgðapantanir geta verið framleiðslupantanir, innkaupapantanir og millifærslupantanir. Nánari upplýsingar eru í [Upplýsingar um hönnun: áætlun birgða](design-details-supply-planning.md).  
 
@@ -73,7 +73,7 @@ Hugtök eins og "keyra áætlun" eða "keyra MRP" vísa í útreikninga á aðal
 
 ### <a name="to-change-selected-planning-parameters"></a>Til að breyta völdum áætlunarfæribreytum  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðahaldseiningar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðahaldseiningar** og veldu síðan tengda tengilinn.  
 2.  Opna BLUE birgðahaldseininguna fyrir vöru 1100, framhjól.  
 3.  Á flýtiflipanum **Áætlun** eru reitirnir fylltir út eins og lýst er í eftirfarandi töflu.  
 
@@ -88,9 +88,9 @@ Hugtök eins og "keyra áætlun" eða "keyra MRP" vísa í útreikninga á aðal
 ## <a name="creating-a-regenerative-supply-plan"></a>Stofna birgðaáætlun með endurgerð  
  Við meðhöndlun á nýrri sölupöntun á fimm kappakstursreiðhjólum, byrjar notandinn skipulagsferlið með því að stilla valmöguleika, afmarkanir og áætlunarbil til að útiloka alla aðra eftirspurn nema þá sem er í fyrstu viku mars í staðsetningunni BLÁTT. Hann byrjar á að reikna út aðalframleiðsluáætlun (MPS) , og reiknar síðan út fullkomna birgðaáætlun fyrir alla lægra-stigs eftirspurn (MRP).  
 
-### <a name="to-create-the-sales-order"></a>Stofna sölupöntun.  
+### <a name="to-create-the-sales-order"></a>Stofna sölupöntun  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Í glugganum **Sölupöntun** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
@@ -102,7 +102,7 @@ Hugtök eins og "keyra áætlun" eða "keyra MRP" vísa í útreikninga á aðal
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>stofna endurgerðaráætlun til að uppfylla eftirspurn í birgðageymslunni BLÁTT.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Áætlunarvinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Áætlunarvinnublöð** og veldu síðan tengda tengilinn.  
 2.  Velja **Reikna áætlun endurgerðar** aðgerðina.  
 3.  Í **Reikna áætlun - Áætl.tillaga** glugganum, skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
@@ -125,7 +125,7 @@ Hugtök eins og "keyra áætlun" eða "keyra MRP" vísa í útreikninga á aðal
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Til að reikna MRP svo það taki undirliggjandi íhlutaþarfir með  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Áætlunarvinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Áætlunarvinnublöð** og veldu síðan tengda tengilinn.  
 2.  Velja **Reikna áætlun endurgerðar** aðgerðina.  
 3.  Í **Reikna áætlun - Áætl.tillaga** glugganum, skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
@@ -219,7 +219,7 @@ Hugtök eins og "keyra áætlun" eða "keyra MRP" vísa í útreikninga á aðal
 
 3.  Ráðstöfunarviðvörunin er samþykkt og svo er hnappurinn **Já** valinn til að skrá eftirspurnarmagnið.  
 4.  Næst þarf að enduráætla til að aðlaga birgðaáætlunina.  
-5.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Áætlunarvinnublað** og velja svo viðeigandi tengil.  
+5.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Áætlunarvinnublöð** og veldu síðan tengda tengilinn.  
 6.  Velja **Reikna áætlun nettóbreytingar** aðgerðina.  
 7.  Í **Reikna áætlun - Áætl.tillaga** glugganum, skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 

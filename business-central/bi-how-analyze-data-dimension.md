@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 94d783a806b56e972f16ebe1e0d383582cd72126
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5176b7c04c09b9357041ec4fed5ed37c385d13ce
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a>Greina gögn eftir víddum
@@ -30,7 +30,7 @@ Gagnagreining með víddum gefur meiri innsýn í viðskiptin fyrir mat á uppl�
 ## <a name="to-set-up-an-analysis-view"></a>Að setja upp greiningaryfirlit  
 Greining eftir víddum sýnir valda samsetningu vídda. Hægt er að geyma og sækja hverja greiningu sem sett hefur verið upp. Upplýsingar um uppsetningu greiningar eru geymdar í **greiningaryfirlit** spjaldi til að einfalda greiningu seinna.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greiningaryfirlit** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiningaryfirlit** og veldu síðan tengda tengilinn.  
 2. Í glugganum **Listi yfir greiningaryfirlit** skal velja aðgerðina **Nýtt**.
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Til að bæta öðrum víddarkóðum við þá fjóra sem fyrir eru á flýtiflipanum **Víddir** er aðgerðin **Afmörkun** valin, reitirnir fylltir út og síðan er smellt á **Í lagi** hnappinn.  
@@ -42,7 +42,7 @@ Hægt er að nota fylkið **Greining eftir víddum** til að skoða upphæðirna
 - Í dálkunum til vinstri eru upplýsingar byggðar á því sem valið er í reitnum **Sýna sem línur** í hausnum.  
 - Í dálkunum lengst til hægri eru upplýsingar byggðar á því sem valið er í reitnum **Sýna sem dálka** í hausnum.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Greining eftir víddum** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greining eftir víddum** og veldu síðan tengda tengilinn.  
 2. Velja skal viðeigandi greiningaryfirlit og velja síðan aðgerðina **Breyta greiningaryfirliti**.
 3. Efst í glugganum **Greining eftir víddum** skal fylla inn í reitina til að skilgreina hvað birtist.
 4. 5. Til að sjá lýsingu á upphæð sem er sýnd í fylkisglugganum er smellt á upphæðina .  
@@ -61,7 +61,7 @@ Upphæðirnar sem sýndar eru í glugganum **Greining eftir víddum** gefa mynd 
 
 Eftirfarandi aðgerð er til að uppfæra greiningaryfirlit úr glugganum **Greining eftir víddum** . Skrefin eru svipuð og í gluggunum **Greiningaryfirlitsspjald** og **Greiningaryfirlitslisti**.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Greining eftir víddum** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greining eftir víddum** og veldu síðan tengda tengilinn.  
 2. Í glugganum **Greining eftir víddum** skal velja reitinn **Kóði greiningaryfirlits**.  
 3. Línan með viðeigandi greiningaryfirliti er valin.  
 4. Velja skal aðgerðina **Uppfæra**.  

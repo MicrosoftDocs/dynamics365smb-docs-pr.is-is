@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/23/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 2f8be478dda62fef2cb34397de488f45d4fcfc0c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0d5ad688cfa6fb58e8383692362105beeee386f8
 ms.contentlocale: is-is
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Loka á vörur í sölum eða innkaupum
@@ -32,20 +32,20 @@ Eftirfarandi tafla sýnir hvað gerist þegar vörum er lokað.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Til að loka á vöru svo hún verði ekki slegin inn í sölulínur  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
 2.  Velja skal vöruna sem á að loka á og síðan velja gátreitinn **Sölur lokaðar**.  
 
 Nú munu villuboð koma upp sem segja að lokað sé fyrir vöruna ef reynt er að slá hana inn í söluskjal eða færslubókarlínu.
 
 ## <a name="to-block-an-item-from-being-entered-on-purchase-lines"></a>Til að loka á vöru svo hún verði ekki slegin inn í innkaupalínur  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
 2.  Velja skal vöruna sem á að loka á og síðan velja gátreitinn **innkaup lokuð**.  
 
 Nú munu villuboð koma upp sem segja að lokað sé fyrir vöruna ef reynt er að slá hana inn í innkaupaskjal eða færslubókarlínu.
 
 ## <a name="to-block-an-item-from-being-posted"></a>Til að loka á vöru svo hún verði ekki bókuð
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
 2. Velja skal vöruna sem á að loka á og síðan velja gátreitinn **lokað**.
 
 Nú munu villuboð koma upp sem segja að lokað sé fyrir vöruna ef reynt er að bóka einhverja færslu fyrir hana.

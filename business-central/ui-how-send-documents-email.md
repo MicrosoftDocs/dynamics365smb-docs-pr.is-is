@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 03/30/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ed2ffa433c2bee2b29971aacd25430d2148ecc56
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75ee26e612627f7d24e47db87cb520d56a331ef6
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="send-documents-by-email"></a>Senda skjöl í tölvupósti
@@ -32,7 +32,7 @@ Ef reiturinn **Tölvupóstur** í glugganum **Senda skjal til** er stilltur á *
 Eftirfarandi ferli sýnir hvernig á að setja skýrsluna **Sala - Reikningur** upp til að nota fyrir meginmálslínur tölvupósts sem eru sértækar fyrir skjalið þegar bókaðir sölureikningar eru sendir í tölvupósti.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Að setja upp meginmálslínur tölvupósts sem eru sértækar fyrir sölureikninga.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skýrsluval sala** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skýrsluval - sala** og veldu síðan tengda tengilinn.
 2. Í glugganum **Skýrsluval - Sala** í reitnum **Notkun** skal velja **Reikningur**.
 3. Í nýrri línu í reitnum **Skýrslukenni** skal velja t.d. staðlaða skýrslu 1306.
 4. Veljið gátreitinn **Nota fyrir meginmál tölvupósts**.
@@ -48,7 +48,7 @@ Nú þegar t.d. er valið aðgerðin **Senda** í **Bókaður sölureikningur** 
 Eftirfarandi ferli sýnir hvernig eigi að senda bókaðan sölureikning sem tölvupóst með fylgiskjalið í viðhengi sem PDF-skrá og með meginmál tölvupósts sem á sérstaklega við skjalið.
 
 ## <a name="to-send-documents-by-email"></a>Að senda fylgiskjöl með tölvupósti
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Bókaðir sölureikningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðir sölureikningar** og veldu síðan tengda tengilinn.
 2. Veljið viðeigandi bókaðan sölureikning og veljið síðan aðgerðina **Senda**. Glugginn **Senda skjal til** opnast.
 3. Í reitnum **Tölvupóstur** skal velja **Já (biðja um stillingar)**. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).
 4. Velja hnappinn **Í lagi**. Glugginn **Senda tölvupóst** opnast.

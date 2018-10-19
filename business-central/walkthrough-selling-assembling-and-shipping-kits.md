@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 368fa149736392431a9756d416a1711d95130780
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b2d32111fe1b5510f7c1dc2412627d5df9e7ccc3
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Kynning: Selja, setja saman og afhenda sett
@@ -81,14 +81,14 @@ Sérstakar virkni er til staðar til að stýra sendingu af sameiningarpantanama
 -   Setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 -   Gera notanda að starfsmanni vöruhúss í hvítri birgðageymslu á eftirfarandi hátt:  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **starfsmenn vöruhúss** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsfólk vöruhúss** og veldu síðan tengda tengilinn.  
 2.  Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda í glugganum **Notendur**.  
 3.  Í reitnum **Birgðageymslu kóti** færið inn HVÍTT.  
 4.  Veljið reitinn **Sjálfgefið**.  
 
 Birgðageymslan HVÍTT er undirbúin fyrir samsetningu í eftirfarandi skrefum:  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
 2.  Opna birgðageymsluspjaldið fyrir hvíta birgðageymslu.  
 3.  Á flýtiflipanum **Hólf** færið inn **W-10-0001** í reitinn **Í samsetningu hólfakóði**.  
 
@@ -100,7 +100,7 @@ Birgðageymslan HVÍTT er undirbúin fyrir samsetningu í eftirfarandi skrefum:
 
 Fjarlægja skal sjálfgefinn afhendingartíma fyrir innri ferli á eftirfarandi hátt:  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Framleiðsluuppsetning** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Framleiðsluuppsetning** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Framleiðsluuppsetning** á flýtiflipanum **Áætlun** er gildið fjarlægt í reitnum **Sjálfgefið öryggisforskot**.  
 
 Stofna birgðir fyrir samsetningaríhluti með því að fara eftir hlutanum "Undirbúa sýnigögn" í þessari leiðsögn.  
@@ -134,7 +134,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
 ## <a name="setting-up-the-sample-data"></a>Uppsetning sýnigagna  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðabækur vöruhúss** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðabækur vöruhúss** og veldu síðan tengda tengilinn.  
 2.  Velja reitinn **Heiti keyrslu** og velja síðan sjálfgefnu færslubókina.  
 3.  Stofna jákvæðar breytingar á birgðum í hvítri birgðageymslu á vinnudagsetningunni, 23. janúar, með því að færa inn eftirfarandi upplýsingar.  
 
@@ -151,14 +151,14 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Næst skal samstilla nýja vöruhúsafærslur með birgðum.  
 
-5.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðafærslubækur** og velja svo viðeigandi tengil. Glugginn **Birgðabók** opnast.  
+5.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðabækur** og veldu síðan tengda tengilinn. Glugginn **Birgðabók** opnast.  
 6.  Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Reikna vöruhúsaleiðréttingu**.  
 7.  Í glugganum **Reikna vöruhúsaleiðréttingu** skal velja hnappinn **Í lagi**.  
 8.  Í glugganum **Birgðabók** á flipanum **Aðgerðir** í flokknum **Aðgerðir** skal velja**Bóka** og velja því næst hnappinn **Já**.  
 
 ### <a name="creating-the-assembly-items"></a>Stofnun samsetningarvöru  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
 2.  Á flipanum **Heim** í flokknum **Stjórna** veljið **Nýtt**.  
 3.  Stofna fyrsta samsetningaríhlutinn sem byggður er á eftirfarandi upplýsingar.  
 
@@ -209,7 +209,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
 ### <a name="selling-the-assembly-items"></a>Sala samsetningaríhluta  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Á flipanum **Heim** í flokknum **Stjórna** veljið **Nýtt**.  
 3.  Stofna tvær sölupöntunarlínur fyrir viðskiptamann 62000, The Device Shop, á vinnudagsetningunni með eftirfarandi upplýsingum.  
 
@@ -262,7 +262,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Áætlanir fyrir ótiltækar ATS-vörur  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Áætlunarvinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Áætlunarvinnublöð** og veldu síðan tengda tengilinn.  
 2.  Á flipanum **Aðgerð** í flokknum **Aðgerðir** veljið **Reikna endurgerðaráætlun**.  
 3.  Í glugganum **Reikna áætlun** stillið eftirfarandi afmarkanir.  
 
@@ -280,7 +280,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Samsetning og afhending fyrsta ATO magns  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afhending vöruhúss** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsaafhending** og veldu síðan tengda tengilinn.  
 
     > [!NOTE]  
     >  Í þessum hluta er einstaklingurinn sem er ábyrgur fyrir afhendingu sér um að skrá ATO-samsetningarvinnu, sem lokið hefur verið við, í vöruhúsaafhendingarlínuna. Þetta verkflæði getur gerst í umhverfi þar sem samsetningarvinnan er framkvæmd af einstaklingnum sem er ábyrgur fyrir afhendingu eða samsetningarstarfsmönnum á afhendingarsvæðinu.  
@@ -299,7 +299,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Næst skal framkvæma verk tínslumannsins.  
 
-4.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Tínsla** og velja svo viðeigandi tengil.  
+4.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínsla** og veldu síðan tengda tengilinn.  
 5.  Opnar vöruhúsatínsluskjal sem stofnuð var í skrefi 3 í þessum hluta.  
 
     Athugið gildið í reitnum **Upprunaskjal** og að allar tínslulínurnar eru fyrir samsetningaríhluti.  
@@ -340,7 +340,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Samsetning og skráning seinna ATO magns  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Samsetningarpöntun** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **samsetningarpöntun** og veldu síðan tengda tengilinn.  
 
     Takið eftir að ATO pöntunin fyrir sendar einingar af setti B eru enn í listanum, jafnvel þó **Eftirstöðvar** sé autt. Það er vegna þess að tengda sölupöntunin er enn ekki reikningsfærð að fullu.  
 
@@ -364,7 +364,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
 ### <a name="assembling-the-ats-quantity"></a>Samsetning ATS magns  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Samsetningarpöntun** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **samsetningarpöntun** og veldu síðan tengda tengilinn.  
 2.  Opna samsetningarpöntunina fyrir tíu einingar af setti A.  
 
     Takið eftir að reiturinn **Magn til samsetningar** er fylltur út með því magni sem búist var við.  
@@ -376,7 +376,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Næst skal framkvæma verk tínslumannsins.  
 
-5.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Tínsla** og velja svo viðeigandi tengil.  
+5.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínsla** og veldu síðan tengda tengilinn.  
 6.  Opnar vöruhúsatínsluskjal sem stofnuð var í skrefi 4 í þessum hluta.  
 
      Haldið er áfram til að skrá tínsluna án þess að breyta sjálfgefnum upplýsingum.  
@@ -392,7 +392,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Afhenda Eftirstandandi vörur, að hluta til úr birgðir og að hluta til úr sett saman í pöntun  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afhending vöruhúss** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsaafhending** og veldu síðan tengda tengilinn.  
 2.  Opna nýjustu vöruhúsaafhendingu sem er stofnuð í hvítri birgðageymslu.  
 
     Takið eftir að í línunni fyrir tíu einingar af setti A að svæðin **Magn til afhendingar** og **Tínt magn** eru auð.  
@@ -403,7 +403,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Næst skal framkvæma síðasta verk tínslumannsins fyrir þessa vöruhúsaafhendingu.  
 
-4.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Tínsla** og velja svo viðeigandi tengil.  
+4.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínsla** og veldu síðan tengda tengilinn.  
 5.  Opnar vöruhúsatínsluskjal sem stofnuð var í skrefi 3 í þessum hluta.  
 
     Athugið að þetta tínsluskjal er fyrir samsetningarvöru, ekki fyrir samsetningaríhluti.  
@@ -423,7 +423,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Afhendingarskjal vöruhússins er fjarlægt, sem gefur til kynna að vöruhúsaaðgerðunum sem málinu tengjast sé lokið. Næst skal ganga úr skugga um að sölupöntunin hafi verið skráð.  
 
-10. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.  
+10. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn  
 11. Opna sölupöntun fyrir Tækjabúðina.  
 
     Takið eftir að reiturinn **Magn afhent** inniheldur allt magnið í báðum línum.  

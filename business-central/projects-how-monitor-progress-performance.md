@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 07/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 95a14b122c5e6b878ec8d7f8314c81de957853b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 065f6cc5dc11af1a9cddf2b3eed2b20e99912960
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="monitor-job-progress-and-performance"></a>Fylgst með framvindu og afköstum
@@ -38,23 +38,23 @@ Hægt er að búa til VÍV-aðferð sem endurspeglar þarfir fyrirtækisins. Þe
 > [!NOTE]
 > Þegar búið er að nota nýju aðferðina til að stofna VÍV-færslur, er ekki hægt að eyða aðferðinni eða breyta henni.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk VÍV aðferðir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk VÍV-aðferðir** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Glugganum er lokað.   
-4. Til að gera þessa nýju aðferð sjálfgefna, skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning verka** og velja svo viðeigandi tengil.  
+4. Til að gera þetta að sjálfgefinni aðferð velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning verka** og veldu síðan tengda tengilinn.  
 5. Í reitnum **Sjálfgefin vÍv-aðferð** veljið aðferðina af listanum.
 
 ## <a name="to-define-a-wip-method-for-a-job"></a>Til að skilgreina VÍV aðferð fyrir verk
 Þegar nýtt verk er stofnað þarf að tilgreina hvaða VÍV-aðferð skuli eiga við. Í sumum tilfellum er þegar búið að stilla sjálfgefna VÍV-aðferð verka.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð. Frekari upplýsingar eru í [Stofna verk](projects-how-create-jobs.md).  
 3. Í glugganum **Verkspjald** skal velja VÍV-aðferð úr listanum í reitnum **VÍV-aðferð**. Ef sjálfgefin aðferð hefur verið skilgreind er hægt að velja annan valkost ef þess gerist þörf.  
 
 ## <a name="to-calculate-wip"></a>Útreikningur VÍV
 Hægt er að ákvarða VÍV-upphæð sem bóka skal á efnahagsreikning fyrir árslokaskýrslu. Þetta má gera með því að nota keyrsluna **Verkreikna VÍV**.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk útreikningar VÍV** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkreikna VÍV** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Reikna VÍV**.
 3. Í glugganum **Verk - Reikna VÍV** þarf að fylla reitina út eins og þörf krefur.
 4. Velja hnappinn **Í lagi**.  
@@ -65,7 +65,7 @@ Hægt er að ákvarða VÍV-upphæð sem bóka skal á efnahagsreikning fyrir á
 ## <a name="to-post-wip"></a>Til að bóka VÍV
 Þegar VÍV hefur verið reiknað er hægt að bóka það á efnahagsreikning fyrir árslokaskýrslu. Þetta má gera með því að nota keyrsluna **Bóka VÍV á fjárhag**.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk bóka VÍV í fjárhag** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbóka VÍV í fjárhag** og veldu síðan tengda tengilinn.  
 2. Í glugganum **Verk - Bóka VÍV í fjárhag** skal fylla reitina út eins og þörf krefur.  
 3. Velja hnappinn **Í lagi**.
 
@@ -77,7 +77,7 @@ Skoða má verknotkun allt að lokum verkefnis í einu skrefi. Til þess er notu
 > [!NOTE]  
 >   Birgðafærslur stofna færslur í birgðahöfuðbók og minnka birgðamagn. Keyrslan **Bóka birgðabreytingar** færir kostnaðinn úr birgðum í fjárhag. Forðafærslur stofna forðafærslur.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkbækur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.  
 2. Veljið viðeigandi verkbók og veljið svo aðgerðina **Reikna eftirstandandi notkun**.  
 3. Í glugganum **Verk - Reikna eftirstandandi notkun** skal slá inn númer skjalsins og bókunardagsetninguna sem færa skal í bókina og velja svo hnappinn **Í lagi**.  
 4. Uppfærið bókina með þeim breytingum sem kann að vera þörf á.  
@@ -86,7 +86,7 @@ Skoða má verknotkun allt að lokum verkefnis í einu skrefi. Til þess er notu
 ## <a name="to-view-job-ledger-entries"></a>Verkdagbókarfærslur skoðaðar:
 Allar færslur sem tengjast verki eru skráðar í verkdagbækur og tölusettar í réttri röð, byrjað á 1. Í verkdagbókinni er hægt að fá yfirlit um verkfærslurnar.    
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **verkdagbók** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkdagbækur** og veldu síðan tengda tengilinn.
 2. Valin er viðeigandi dagbók og síðan skal velja aðgerðina **Verklínur**.
 
 Í glugganum **Verkfærslur** er hægt að fara yfir færslur sem tengjast verki.  

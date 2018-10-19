@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 05/09/2018
+ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 00cfce8b467040a4de419c1b59a258c0eacf0b9a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
 ms.contentlocale: is-is
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -24,7 +24,7 @@ Hægt er að setja upp spurningalista sem á að nota þegar upplýsingar um for
 Einnig er hægt að keyra spurningalistann til að svara sjálfkrafa nokkrum spurningum samkvæmt gögnum um tengiliði, viðskiptamenn eða lánardrottna.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Til að bæta við spurningalista forstillingar
-1.  Velja skal táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið"), slá inn **Uppsetning spurningalisti** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning spurningalista** og veldu síðan tengda tengilinn.  
 2.  Á flipanum **Heim** í flokknum **Nýtt** skal velja **Nýtt**.  
 3.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

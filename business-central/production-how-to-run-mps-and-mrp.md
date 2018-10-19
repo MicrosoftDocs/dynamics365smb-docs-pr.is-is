@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 41a8ba231eb6fb9eaebe2168294ded0b0378fd81
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Keyra fulla áætlunargerð, MPS eða MRP
 Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikning aðalframleiðsluáætlunar og efnisþarfa samkvæmt raunverulegri eftirspurn og eftirspurn samkvæmt spá. Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.  
 
--   MPS er útreikningur á aðalframleiðsluáætlun samkvæmt raunverulegri eftirspurn og framleiðsluspánni. MPS-útreikningur er notaður fyrir lokavörur sem eru með spá eða sölupöntunarlínu. Þessar vörur eru kallaðar "MPS-vörur" og eru auðkenndar þegar útreikningur hefst.  
--   MRP er útreikningur á efnisþörfum samkvæmt raunverulegri eftirspurn eftir íhlutum og framleiðsluspá á íhlutastigi. MRP er eingöngu reiknað fyrir vörur sem eru ekki MPS-vörur. Tilgangur MRP er bjóða upp á tímasettar áætlanir þannig að viðeigandi vara er til á viðeigandi tíma, á viðeigandi stað og í viðeigandi magni.  
+-   MPS er útreikningur á aðalframleiðsluáætlun byggt á raunverulegri eftirspurn og eftirspurnarspá. MPS-útreikningur er notaður fyrir lokavörur sem eru með spá eða sölupöntunarlínu. Þessar vörur eru kallaðar "MPS-vörur" og eru auðkenndar þegar útreikningur hefst.  
+-   MRP er útreikningur á efnisþörfum sem byggjast á raunverulegri eftirspurn eftir hlutum og eftirspurnarspá á hlutastigi. MRP er eingöngu reiknað fyrir vörur sem eru ekki MPS-vörur. Tilgangur MRP er bjóða upp á tímasettar áætlanir þannig að viðeigandi vara er til á viðeigandi tíma, á viðeigandi stað og í viðeigandi magni.  
 
 Áætlunaralgóritmarnir fyrir MPS og MRP eru eins. Þeir ná yfir samantekt nettóstöðu, endurnotkun fyrirliggjandi áfyllingarpantana og aðgerðarboð. Áætlunarkerfisvinnslan tekur mið af þörfum eða væntanlegum þörfum (eftirspurn) og hvað er til staðar (framboð). Þegar þessar tegundir magns eru nettófærðar stofnar [!INCLUDE[d365fin](includes/d365fin_md.md)] aðgerðarboð. Aðgerðarboð eru tillögur um að stofna nýja pöntun, breyta pöntun (magni eða dagsetningu) eða hætta við pöntun í pöntun. Hugtakið „pöntun“ inniber innkaupapantanir, samsetningarpöntun, framleiðslupantanir og millifærslupantanir.
 
@@ -35,7 +35,7 @@ Viðundandi niðurstöður áætlunar byggjast á uppsetningu í birgðaspjöldu
 
 -   **Reikna áætlun endurgerðar:** Þessi aðgerð vinnur eða endurgerir alla efnisáætlunina. Þessi vinnsla hefst á eyðingu allra áætlaðra birgðapantana sem eru hlaðnar. Allar vörur í gagnagrunninum eru enduráætlaðar.  
 -   **Reikna áætlun hreyfingar**: Þessi aðgerð vinnur hreyfingaáætlun. Vörur eru teknar með í hreyfingaáætlun vegna tveggja breytinga:  
-    - **Breytingar á eftirspurn/framboði:** Þar með talið eru breytingar á magni í sölupöntunum, framleiðsluspár, samsetningarpantanir, framleiðslupantanir eða innkaupapantanir. Óáætluð breyting á birgðastigi er einnig talin breyting á magni.  
+    - **Breytingar á eftirspurn/framboði:** Þar með talið eru breytingar á magni í sölupöntunum, eftirspurnarspám, samsetningarpöntunum, framleiðslupöntunum eða innkaupapöntunum. Óáætluð breyting á birgðastigi er einnig talin breyting á magni.  
     - **Breytingar á áætlunarfæribreytum**: Þar með talið eru breytingar á öryggisbirgðum, endurpöntunarmarki, leið, uppskrift og breytingar útreikningi tímaramma eða afhendingartíma.  
 -   **Sækja aðgerðarboð:** Þessi aðgerð er skammtímaáætlunarverkfæri sem gefur út aðgerðarboð sem tilkynna notanda breytingar síðan síðasta endurgerðar- eða hreyfingaáætlun var reiknuð.  
 
@@ -47,13 +47,13 @@ Með hverri áætlunaraðferð, myndar [!INCLUDE[d365fin](includes/d365fin_md.md
 >  Eiginleikann Aðgerðarboðaáætlun er hægt að keyra á milli endurgerðaráætlana og hreyfingaráætlana til að fá fljótlegt yfirlit yfir áhrif áætlanabreytinga. Hún er hins vegar ekki hugsuð til að koma að fullu í stað hinna tveggja.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Til að reikna áætlunarvinnublað:  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Áætlunarvinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Áætlunarvinnublöð** og veldu síðan tengda tengilinn.  
 2.  Velja **Reikna áætlun endurgerðar** aðgerðina til að opna gluggann **Reikna áætlun**.  
 3.  Á flýtiflipanum **Valkostir** skal fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
     |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
-    |**MPS**|Valið til að hefja útreikning aðalframleiðsluáætlunar. Vörur með opnar sölupantanir eða framleiðsluspár eru teknar með í keyrsluna.|  
+    |**MPS**|Valið til að hefja útreikning aðalframleiðsluáætlunar. Atriði sem eru með opnum sölupöntunum eða eftirspurnarspám eru talin í þessari keyrslu.|  
     |**MRP**|Valið til að hefja útreikning efnisþarfaáætlunar. Vörur með tengdar kröfur eru teknar með í þessari keyrslu. Yfirleitt eru MPS og MRP keyrðar á sama tíma. Til að keyra þær saman þarf að haka í gátreitinn **Sameinaður MPS/MRP útreikn.** á flipanum **Áætlun** í glugganum **Uppsetning framleiðslu**.|  
     |**Upphafsdagsetning**|Þessi dagsetning er notuð til að meta birgðastöðu. Ef birgðastaða vöru er fyrir neðan endurpöntunarmark flýtir kerfið áfyllingarpöntun. Ef vara er fyrir neðan öryggisbirgðir (frá og með upphafsdagsetningunni) færir kerfið aftur áfyllingarpöntun sem átti að falla á upphafsdagsetningu áætlunarinnar.|  
     |**Lokadagsetning**|Þetta er lokadagsetningin fyrir áætlunarhringinn. Hvorki eftirspurn né framboð er tekið með eftir þessa dagsetningu. Ef endurpöntunarferli vöru fer fram yfir lokadagsetningu jafngildir virkt áætlunartímabil þeirrar vöru pöntunardagsetningu + endurpöntunarferli.<br /><br /> Áætlunartímabilið er sá tími sem áætlunin nær yfir. Ef tímabilið er of stutt eru vörur með lengri afhendingartíma ekki pantaðar í tíma. Ef tímabilið er of langt er of miklum tíma eytt í endurskoðun og vinnslu upplýsingar sem líklega breytast áður en þeirra er þörf. Hægt er að velja eitt áætlunartímabil fyrir framleiðslu og lengra tímabil fyrir innkaup, þótt þess sé ekki krafist. Áætlunartímabil fyrir innkaup og framleiðslu ætti að ná yfir uppsafnaðan afhendingartíma íhluta.|  

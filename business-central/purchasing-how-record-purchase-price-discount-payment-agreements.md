@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/03/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 021eac95fe22cfb37a6eaf851a5da11fd3ce9d30
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Skrá sérstakt söluverð og sérstaka afslætti
@@ -34,7 +34,7 @@ Hvað varðar afslátt, er hægt að setja upp og nota tvær tegundir innkaupaaf
 Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu vöru og lánardrottins er einnig hægt að færa þessa grunnstillingu inn af birgðaspjaldinu, þar sem reglurnar og gildin eru skilgreind. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Að setja upp sérstakt innkaupsverð fyrir lánardrottin
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **lánardrottnar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.
 2. Opna skal viðeigandi lánardrottnaspjald og velja síðan aðgerðina **Verð**.
 
     Reiturinn **Tegund innkaupa** er fylltur út fyrirfram með **Lánardrottinn**og í reitnum **Innkaupakóði**er númer lánardrottins.
@@ -42,7 +42,7 @@ Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu
 4. Fyllt er út lína fyrir hverja samsetningu sem lánardrottinn veitir innkaupalínuafsláttur fyrir.
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Að setja upp línuafslátt fyrir lánardrottin
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **lánardrottnar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.
 2. Opna skal viðeigandi lánardrottinsspjald og veljið síðan aðgerðina **Línuafslættir**.
 
     Reiturinn **Tegund innkaupa** er fylltur út fyrirfram með **Lánardrottinn**og í reitnum **Innkaupakóði**er númer lánardrottins.
@@ -52,7 +52,7 @@ Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Að setja upp reikningsafslátt fyrir lánardrottin
 Þegar lánardrottnar þínir hafa veitt þér upplýsingar um hvaða reikningsafslætti þeir veita eru færðir inn reikningsafsláttarkóðar á lánardrottnaspjöldin og sett upp skilyrði fyrir hvern kóða.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **lánardrottnar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.
 2. Opna skal spjald lánardrottins sem getur veitt reikningsafslátt.
 3. Í reitnum **Reikningsafsláttarkóði** er valinn kóði fyrir viðeigandi reikningsafsláttarskilmála sem forritið notar til að reikna reikningsafslátt fyrir lánardrottin.
 
@@ -73,7 +73,7 @@ Reikningsafsláttur er nú settur upp og úthlutað á umræddan lánardrottin. 
 
 Áður en hægt er að gera þetta verður að vera búið að setja upp nauðsynlega reikninga til að bóka afsláttarupphæðir í bókhaldslyklinum. Einnig verður að gæta þess að rétt reikningsnúmer hafi verið sett í almennu bókunaruppsetninguna í reitunum **Afsláttarreikningur Innkaupalínu** og **Afsláttarreikningur Innkaupabirgða**.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning innkaupa og viðskiptaskulda** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning innkaupagrunns** og veldu síðan tengda tengilinn.
 2. Í reitnum **Afsláttarbókun** er valin ein af eftirfarandi reglum fyrir bókun afsláttar.
 
 |**Afsláttarbókunarregla**|**Reikningsafsláttur**|**Línuafsláttur**|  

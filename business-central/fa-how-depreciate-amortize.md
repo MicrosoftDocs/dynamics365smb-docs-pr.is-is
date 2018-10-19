@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7521ded4e0857090cfa85c30d0f48af5ee36233
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e12432b4823bfa1477d385d73a5a938cba4cee0d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Afskrifa eða greiða af eignum
@@ -36,18 +36,18 @@ Endurmat er notað til að laga virði að almennum verðbreytingum. Hægt er a�
 ## <a name="to-calculate-depreciation-automatically"></a>Afskriftir reiknaðar sjálfvirkt:
 Hægt er að keyra keyrsluna **Reikna afskriftir** mánaðarlega eða hvenær sem óskað er. Runuvinnslan hunsar eignir sem hafa verið seldar, eignir sem eru lokaðar eða óvirkar, eða nota handvirka afskriftaraðferð.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Reikna afskriftir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Reikna afskriftir** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Velja hnappinn **Í lagi**.  
 
     Keyrslan reiknar afskriftirnar og býr til línur í eignafjárhagsbók.  
-4. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsbók eigna** og velja svo viðeigandi tengil.  
+4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignafjárhagsbækur** og veldu síðan tengda tengilinn.  
 
     Í glugganum **eignafjárhagsbók** í reitnum **Fjöldi afskriftadaga** má sjá hve margir afskriftadagar hafa verið reiknaðir.  
-5. Valið er **bóka** aðgerð.  
+5. Valið er **Bóka** aðgerðin.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Að bóka afskrift handvirkt úr fjárhagsbók eigna
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsbók eigna** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignafjárhagsbók** og veldu síðan tengda tengilinn.  
 2. Stofnaður er upprunaleg Færslubókarlína og reitirnir fylltir út eftir þörfum.  
 3. Í reitnum **Eignabókunartegund** er valinn **afskrift**.  
 4. Valið er **Setja inn mótreikn. eigna** aðgerð. Seinni færslubókarlína er búin til fyrir mótreiknings sem er sett upp fyrir bókun afskriftar. Nánari upplýsingar eru í setja upp bókunarflokka eigna hlutanum í [Setja Upp almennar upplýsingar um eignir](fa-how-setup-general.md).  
@@ -58,7 +58,7 @@ Ef settir hafa verið upp eignarúthlutunarlyklar til að úthluta upphæðum ti
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Reikna út úthlutanir í eignafjárhagsbókum:
 Ef margar deildir nota eign er hægt að dreifa tímabilsafskriftum sjálfvirkt á deildirnar samkvæmt úthlutunartöflu sem notandi skilgreinir.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsbók eigna** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignafjárhagsbók** og veldu síðan tengda tengilinn.  
 2. Stofnaður er Færslubókarlína og reitirnir fylltir út eftir þörfum.
 3. Í reitnum **Eignabókunartegund** er valinn **úthlutun**.  
 4. Valið er **Setja inn mótreikn. eigna** aðgerð. Seinni færslubókarlína er búin til fyrir mótreiknings sem er sett upp fyrir bókun úthlutunar.  
@@ -67,18 +67,18 @@ Ef margar deildir nota eign er hægt að dreifa tímabilsafskriftum sjálfvirkt 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Nota Afritunarlista nota til undirbúa að bóka margar afskriftabækur
 Þegar fylltar eru út færslubókarlínur sem á að bóka í afskriftabók, er hægt að afrita línurnar yfir í aðgreinda bók, svo hægt sé að bóka þær í aðra afskriftabók. Nánari upplýsingar eru í "bóka færslur í mismunandi afskriftabækur" hlutanum.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afskriftabækur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftabækur** og veldu síðan tengda tengilinn.  
 2. Opnið afskriftarbók, og smellið síðan á gátreitinn **Hluti afritunarlista**.  
 
 > [!IMPORTANT]  
 >   Ef reiturinn **Nota afritalista** hefur verið valinn skal ekki nota númeraraðir í færslubókinni. Ástæðan fyrir þessu er að númeraraðir fyrir fjárhagsbók eigna tekur ekki númeraröðinni fyrir færslubók eigna.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>Færslur bókaðar í mismunandi afskriftabækur
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsbók eigna** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignafjárhagsbók** og veldu síðan tengda tengilinn.  
 2. Í bókinni sem á að bóka afskriftir með, skal velja **Nota Afritalista** gátreitinn.  
 3. Fyllið inn í eftirstandandi reiti eftir þörfum.  
-4. Valið er **bóka** aðgerð.  
-5. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignabækur** og velja svo viðeigandi tengil.  
+4. Valið er **Bóka** aðgerðin.  
+5. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignabækur** og veldu síðan tengda tengilinn.  
 
     > [!NOTE]  
     >   Glugginn **Eignabók** inniheldur nýjar línur fyrir mismunandi afskriftabækur samkvæmt afritunarlista.  
@@ -90,7 +90,7 @@ Ef margar deildir nota eign er hægt að dreifa tímabilsafskriftum sjálfvirkt 
 Hægt er að nota runuvinnsluna **Afrita afskriftabók** til að afrita færslur úr einni afskriftabók í aðra. Við keyrsluna verða til bókarlínur í bókarkeyrslunni sem tilgreind var í glugganum **Eignabókaruppsetning** fyrir afskriftabókina sem á að afrita í. Nánari upplýsingar má finna hér á eftir.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Til að afrita eignafærslur milli afskriftabækur
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afskriftabækur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftabækur** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi kort afskriftabókar og veljið síðan aðgerðina **afrita afskriftabók**.  
 3. Í glugganum **afrita afskriftabók** þarf að fylla reitina út eftir þörfum.  
 4. Velja hnappinn **Í lagi**.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 6ca938a5bcd0fd160c98358d89740e4dfd756e79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c249e186395df580e55a806fe7446f4d13c7b786
 ms.contentlocale: is-is
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
@@ -28,7 +28,7 @@ Viðskiptamenn eru uppruni tekna. Þú verður að skrá þig hver viðskiptavin
 >   Ef viðskiptamannasniðmát eru til fyrir mismunandi tegundir viðskipamanna, þá birtist sjálfkrafa gluggi þegar búið er til nýtt viðskiptamannaspjald og hægt er að velja viðeigandi sniðmát. Ef aðeins eitt viðskiptamanna sniðmát er fyrir hendi, nota ný viðskiptamannaspjöld alltaf það sniðmát.
 
 ## <a name="to-create-a-new-customer-card"></a>Að stofna nýtt viðskiptamannaspjald
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  
 2. Í glugganum **Viðskiptamenn** skal velja aðgerðina **Nýtt**.
 
     Ef aðeins eitt viðskiptamannasniðmát er fyrir hendi, opnast nýtt viðskiptamannaspjald með reiti útfyllta með upplýsingum úr sniðmátinu.

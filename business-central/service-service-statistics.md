@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 30f93593985140abd49c6cd4f90a992da793b164
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -87,14 +87,14 @@ Hagnaðar- eða tapfærslur samnings eru myndar í hvert sinn sem samningstilbo�
 |**Hagn./tap samnings (ástæður)**|Ef skoða á hagnaðar-/tapfærslur eftir ástæðukóta.|  
 |**Hagn./tap samn. (ábyrgðarstöð)**|Ef skoða á hagnaðar-/tapfærslur eftir ábyrgðarstöð.|  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn heiti síðunnar sem á að birta, og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn heiti síðunnar sem á að birta og veldu síðan tengda tengilinn.  
 2. Fylla inn í afmörkunarskilyrði sem á að nota. Til dæmis í glugganum **Hagn./tap samnings (ástæður)** skal velja gildi fyrir **Afmörkun ástæðukóða**.  
 3. Veljið aðgerðina **Sýna fylki**.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Skoðun upplýsinga fyrir bókuð þjónustuskjöl
 Eiginleikinn Þjónustuupplýsingar gerir mögulegt að fá yfirlit yfir upplýsingar um innihald bókaðra þjónustuskjala, eins og til dæmis bókaðra afhendinga, bókaðra reikningsfærslna og bókaðra kreditreikninga.  
 
-Upplýsingarnar sem eiga við samsvarandi bókað þjónustuskjal eru sýndar í upplýsingaglugganum. Hægt er að opna viðeigandi upplýsingaglugga úr bókaðri þjónustuafhendingu, bókuðum þjónustureikningi eða bókuðum þjónustukreditreikningi. Fyrir hverja þessara tegund skjala, á flipanum **Heim**, í flokknum **Vinna**, skal velja **Upplýsingar**. Til dæmis úr glugganum **Bókaðir þjónustureikningar**, á flipanum **Heim**, í flokknum **Vinnsla**, skal velja **Upplýsingar**.  
+Upplýsingarnar sem eiga við samsvarandi bókað þjónustuskjal eru sýndar í upplýsingaglugganum. Hægt er að opna viðeigandi upplýsingaglugga úr bókaðri þjónustuafhendingu, bókuðum þjónustureikningi eða bókuðum þjónustukreditreikningi. Fyrir hvert þessara skjalagerðir, í **Heima** flipanum í **Ferli** hóp, velja **Tölfræði**. Til dæmis úr glugganum **Bókaðir þjónustureikningar**, á flipanum **Heim**, í flokknum **Vinnsla**, skal velja **Upplýsingar**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Upplýsingar þjónustuafhendingar  
 Í glugganum **Upplýsingar þjónustuafhendingar** er hægt að fá yfirlit yfir bókaðar þjónustuafhendingar. Þar á meðal eru upplýsingar um efnislegt innihald afhendingar, eins og til dæmis magn afhentrar vöru, forðastundir eða kostnað og þyngd og rúmmál afhentrar vöru.  

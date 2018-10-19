@@ -1,6 +1,6 @@
 ---
 title: "Velja notandaupplifun til að sýna eða fela ítarlegri eiginleika | Microsoft Docs"
-description: "Kynntu þér hvað notandaupplifunin Basic og Essential þýða fyrir notandaviðmótið, kerfishlutana og fyrirtækið þitt."
+description: "Kynntu þér hvað notandaupplifunin Grunnur og Úrvals þýða fyrir notandaviðmótið, notkunarsvið og fyrirtækið þitt."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 07/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
 ms.contentlocale: is-is
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
@@ -31,8 +31,7 @@ Eftirfarandi tafla lýsir þeim reynslu sem nú er að finna.
 
 | Upplifun | Áhrif á viðmótið |
 | --- | --- |
-| **Grunnatriði** |Sýnir aðeins kjarnaaðgerðir og svið fyrir kjarnastarfsemi fyrirtæki, svo sem sölu, innkaup, fjármál og birgðahald. |
-| **Grunnþættir** |Sýnir allar aðgerðir og svið fyrir allar algengustu viðskiptavirknir.|
+| **Essential** |Sýnir allar aðgerðir og svið fyrir allar algengustu viðskiptavirknir.|
 | **Úrvals** |Sýnir allar aðgerðir og svið fyrir alla viðskiptavirkni, þ.á.m. framleiðslu- og þjónustukerfi.|
 
 > [!NOTE]  
@@ -50,15 +49,18 @@ Eftirfarandi tafla lýsir þeim reynslu sem nú er að finna.
 Þegar þú hefur gert breytingu á áætlunum notenda í stjórnendamiðstöðinni Office 365, á borð við að úthluta fleiri notendum á úrvalsáskriftina, verður þú að endurspegla breytinguna í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Skráðu þig inn sem stjórnanda.
-2. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Notendur** og velja svo viðeigandi tengil.
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **notendur** og veldu síðan tengda tengilinn.
 3. Í glugganum **Notendur** skaltu velja aðgerðina **Endurhlaða alla notendaflokka**.
 
 Allar nýjar upplýsingar um áætlanir notenda og úthlutuðum notendaflokkum þeirra hafa nú verið uppfærðar samkvæmt breytingum áætlunarinnar.
 
 ### <a name="to-select-the-premium-experience"></a>Til að velja úrvalsupplifunina
 Nú er hægt að halda áfram til að velja nýju upplifunina.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fyrirtækjaupplýsingar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Upplýsingar um fyrirtæki** og veldu síðan tengda tengilinn.
 2. Í glugganum **Fyrirtækjaupplýsingar** í flýtiflipanum **Notandaupplifun** skal velja úrvalsáskrift í reitnum **Upplifun**.
+
+## <a name="help-assumes-premium-experience"></a>Hjálp gerir ráð fyrir úrvalsupplifun
+Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] gera ráð fyrir **Úrvalsútgáfu** sem þýðir að áskriftirnar ná yfir heildarumfang viðmótseininga. Textaskilaboð er settur í háþróaðan hjálparefni fyrir eiginleikum framleiðslu og þjónustustýringar þar sem fram kemur að þeir krefjast **úrvals** upplifunar.
 
 ## <a name="see-also"></a>Sjá einnig .
 [Stofna ný fyrirtæki](about-new-company.md)  

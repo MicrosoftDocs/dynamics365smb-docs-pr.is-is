@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: ac7664480d5a2db4642ecc2cb830c4d7022fb53b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e008e9664ebc449acab49e32d2c6efd7d1a0b6f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-new-items"></a>Skrá nýjar vörur
@@ -23,17 +23,19 @@ Vörur, ásamt öðrum framleiðsluvörum, eru grundvöllur fyrirtækisins, vör
 
 Birgðaspjald inniheldur upplýsingarnar sem þarf til að kaupa, selja, geyma og tilkynna vörur.
 
-Birgðaspjaldið getur verið af gerðinni **Birgðir** eða **Þjónusta** til að tilgreina hvort vara er rauneining eða launatímaeining. Fyrir utan suma reiti sem tengjast efnislegum hlutum vöru, virka allir reitir birgðaspjaldi eins fyrir birgðavörur og þjónustu. Fyrir nánari upplýsingar um vörusölu, sjá [Selja vörur](sales-how-sell-products.md) eða [Reikningsfæra vörur](sales-how-invoice-sales.md).
+Birgðaspjaldið getur verið af gerðinni **Birgðir**, **Þjónusta** eða **Ekki birgðir** til að tilgreina hvort vara er raunbirgðaeining, launatímaeining eða efnisleg eining sem ekki er rakin í birgðum. Nánari upplýsingar er að finna í [Um vörugerðir](inventory-about-item-types.md).
 
 Hlutur getur verið uppbyggður sem yfireining með undirliggjandi undireiningu í uppskrift. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] getur uppskrift verið annað hvort framleiðsluuppskrift eða samsetningaruppskrift, út frá notkun. Nánari upplýsingar er að finna í [Vinna með uppskrift.](inventory-how-work-BOMs.md)
 
-> [!NOTE]  
->   Ef vörusniðmát er til fyrir mismunandi vörutegundir, þá birtist gluggi þar sem búið er til nýtt birgðaspjald og hægt er að velja viðeigandi vörusniðmát. Ef aðeins eitt vörusniðmát er fyrir hendi, nota ný birgðaspjöld alltaf það sniðmát.
-
 Ef sama varan er keypt frá fleiri en einum lánardrottni, er hægt að tengja þessa lánardrottna við birgðaspjaldið. Lánardrottnarnir munu þá birtast í **Vörulisti lánardrottins** glugganum, þannig að þú getir auðveldlega valið annan lánardrottinn.
 
+Vörur sem þú býður viðskiptamönnum þínum en þú vilt ekki stjórna í kerfinu þínu fyrr en þú byrjar að selja þær er hægt að setja upp sem vörulistaatriði. Vörulistaatriðum skal ekki rugla saman við venjulegar vörur af gerðinni **Engar birgðir**. Nánari upplýsingar er að finna í [Vinna með vörulistaatriði](inventory-how-work-nonstock-items.md).  
+
+> [!NOTE]  
+> Ef vörusniðmát er til fyrir mismunandi vörutegundir, þá birtist gluggi þar sem búið er til nýtt birgðaspjald og hægt er að velja viðeigandi vörusniðmát. Ef aðeins eitt vörusniðmát er fyrir hendi, nota ný birgðaspjöld alltaf það sniðmát.
+
 ## <a name="to-create-a-new-item-card"></a>Að búa til nýtt vöruspjald
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
 2. Í glugganum **Vörur** skal velja aðgerðina **Nýtt**.
 
     Ef aðeins eitt vörusniðmát er fyrir hendi, opnast nýtt birgðaspjald með suma af reitunum útfyllta með upplýsingum úr sniðmátinu.
@@ -64,7 +66,7 @@ Vörusniðmátinu verður bætt við lista vörusniðmáta þannig að hægt er 
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Margir lánardrottnar settir upp fyrir vörur  
 Ef sama varan er keypt frá fleiri en einum lánardrottni þarf að færa inn upplýsingar um hvern lánardrottinn eins og verð, afhendingartími, afsláttur o.s.frv.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
 2.  Velja skal viðeigandi vöru og síðan aðgerðina **Breyta**.  
 3.  Veljið **Lánardrottinn** aðgerðina.  
 4.  Velja reitinn **Nr. lánardrottins** og síðan velja þann lánardrottinn sem setja á upp fyrir vöruna.  

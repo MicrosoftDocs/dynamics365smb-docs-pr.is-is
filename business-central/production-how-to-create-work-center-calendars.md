@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a22dc01284fc0edca46d1f733f0bef83e61adbde
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Setja upp dagatal verkstæðis
@@ -27,7 +27,7 @@ Fyrst þarf að setja upp eitt eða fleiri almenn dagatöl verkstæðis, sem gru
 Eftirfarandi lýsir því hvernig á að setja upp dagatöl vinnustöðva. Skrefin eru svipuð þegar sett eru upp dagatöl vélastöðva.  
 
 ## <a name="to-create-work-shifts"></a>Vaktir stofnaðar  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vaktir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaktir** og veldu síðan tengda tengilinn.  
 2.  Númer er fært inn í reitinn **Kóti** á auðri línu til að auðkenna vaktina t.d. **1**.  
 3.  Vaktinni er lýst í reitnum **Lýsing** t.d. **1. vakt**  
 4.  Einnig er hægt að fylla inn í línur fyrir aðra og þriðju vakt.  
@@ -35,7 +35,7 @@ Eftirfarandi lýsir því hvernig á að setja upp dagatöl vinnustöðva. Skref
 Jafnvel þótt vinnustöðvarnar noti ekki vaktaskipulag þarf að færa inn a.m.k. einn vaktakóta.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Dagatal verkstæðis sett upp  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Dagatal verkstæðis** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Dagatal verkstæðis** og veldu síðan tengda tengilinn.  
 2.  Númer er fært inn í reitinn **Kóti** á auðri línu til að auðkenna dagatal verkstæðis.  
 3.  Dagatali verkstæðisins er lýst í reitnum **Lýsing**.  
 4.  Velja aðgerðina **vinnudagar**.
@@ -70,7 +70,7 @@ Nú er hægt að úthluta dagatali verkstæðis á vinnustöð til útreiknings 
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Dagatal vinnustöðvar reiknað út  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **vinnustöðvar** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnustöðvar** og veldu síðan tengda tengilinn.
 2. Opna vinnustöðina sem á að uppfæra.  
 3. Í reitnum **Dagatalskóti verkstæðis**, er valið hvaða dagatal verkstæði notar sem grunn fyrir dagatal vinnustöðvar.  
 4. Veljið aðgerðina **Dagatal**.  

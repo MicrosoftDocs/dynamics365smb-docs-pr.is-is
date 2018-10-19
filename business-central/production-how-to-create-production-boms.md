@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/05/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e56c6d07bcb501e3e461c9b16a6b5be8e2b68834
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6f1c27e93dedb12b3b4895cbfc9a22d255fa2120
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-production-boms"></a>Búa til framleiðsluuppskriftir
@@ -30,7 +30,7 @@ Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem no
 - Framleiðsluforði eru uppsettur. Frekari upplýsingar eru í [Setja upp vinnustöðvar og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Búa til framleiðsluuppskrift  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Framleiðsluuppskrift** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **framleiðsluuppskrift** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Til að hægt sé að breyta uppskriftinni verður reiturinn **Staða** að vera stilltur á **Ný** eða **Í þróun**. Til að ræsa hana þarf að stilla **Staða** á **Vottað**.  
@@ -57,7 +57,7 @@ Nýjar útgáfur af framl.uppskriftum eru t.d. notaðar þegar vöru er skipt ú
 
 Upphafsdagsetningin sýnir upphaf tímabilsins sem útgáfan er í gildi. Upphafsdagsetningin er alltaf afmörkunarviðmiðun fyrir útreikninga og mat. Uppskriftarútgáfan er gild þar til næsta útgáfa tekur gildi samkvæmt upphafsdagsetningu hennar.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Framleiðsluuppskrift** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **framleiðsluuppskrift** og veldu síðan tengda tengilinn.  
 2.  Framleiðsluuppskriftin sem á að afrita er valin og svo er aðgerðin **Útgáfur** valin.  
 3.  Á flipanum **Heim** í flokknum **Nýtt** skal velja **Nýtt**.  
 4. Fyllið inn í reitina eftir þörfum.

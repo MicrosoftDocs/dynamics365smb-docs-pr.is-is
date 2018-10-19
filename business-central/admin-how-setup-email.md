@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e9dcc286b460460abb3f5d960b6c065651cf31f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5bede56db06b7bac991f3f910c11e1dae61c7463
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Setja upp tölvupóst handvirkt eða með því að nota Uppsetningu með aðstoð
@@ -27,7 +27,7 @@ Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d3
 Þú getur annaðhvort sett upp tölvupóst handvirkt eða þú getur fengið hjálp með því að nota **Uppsetning tölvupósts** uppsetningaraðstoðina. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Til að setja upp tölvupóst
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning SMTP Tölvupóstur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP Uppsetning tölvupósts** og veldu síðan tengda tengilinn.
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Þú getur einnig valið **Nota stillingar Office 365 Stillingar vefþjóns** aðgerðina til að setja inn upplýsingar sem eru þegar skilgreindar fyrir Office 365 áskriftina þína.
 4. Þegar allir reitir eru fylltir út velurðu aðgerðina **Prófa tölvupóstuppsetningu**.

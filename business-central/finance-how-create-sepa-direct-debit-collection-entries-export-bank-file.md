@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1d732f7a6ae26d36a0d4444fa852f0901cd0fd41
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d05a12251046b0c911387cda1d5a7a7c9a026d6b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá
@@ -23,9 +23,9 @@ Til að gefa bankanum fyrirmæli um að flytja greiðsluupphæðir af bankareikn
 > [!NOTE]  
 >  Að safna greiðslum með SEPA-beingreiðslur, verður gengið á sölureikningi verður EURO.  
 
-### <a name="to-create-a-direct-debit-collection"></a>Stofna innheimtu beingreiðslu  
+### <a name="to-create-a-direct-debit-collection"></a>Til að stofna innheimtu beingreiðslu  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Bein skuldfærsla** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innheimta beingreiðslu** og veldu síðan tengda tengilinn.  
 2. Í glugganum **Innheimta beingreiðslu** í flipanum **Heim** úr flokknum **Nýtt** skal velja **Stofna innheimtu beingreiðslu**.  
 3. Í glugganum **Stofna innheimtu beingreiðslu** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 

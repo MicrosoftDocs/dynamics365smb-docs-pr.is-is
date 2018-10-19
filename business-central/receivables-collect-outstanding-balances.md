@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 07/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 566594f04a1b189fe2263a945d8bd7d565539930
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4696fa95b82a0deb0ba9642ef796160f25a57afc
 ms.contentlocale: is-is
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Innheimta útistandandi skuldir
@@ -49,7 +49,7 @@ Hægt er að stofna vaxtareikning fyrir einstakan viðskiptamann og fylla línur
 Þegar vaxtaskilmálar og skilmálar innheimtubréfa eru sett upp, fyrir sekt vegna seinkunar á greiðslu, er hægt að tilgreina marga vexti þannig að sektargreiðsla er reiknuð út frá mismunandi vöxtum á mismunandi tímabilum. Ef margir vextir eru ekki settir upp, þá verða vextirnir og tímabilið sem er skilgreint í gluggunum **Vaxtaskilmálar** og **Skilmálar innheimtubréfa** notað fyrir allt reikningstímabilið. Frekari upplýsingar eru í [Setja upp marga vexti](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="to-send-the-customer-statement-report"></a>Til að senda yfirlitsskýrslu viðskiptamanns
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Yfirlit viðskiptamanns** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Yfirlit viðskiptamanns** og veldu síðan tengda tengilinn.
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Undir **úttaksvalkostir**, skal velja hvernig eigi að senda skýrslunnar til viðskiptamanns.
 
@@ -59,7 +59,7 @@ Hægt er að stofna vaxtareikning fyrir einstakan viðskiptamann og fylla línur
 ## <a name="to-set-up-reminder-terms"></a>Skilmálar innheimtubréfs settir upp
 Ef viðskiptamenn eru í vanskilum verður að ákveða hvenær og hvernig eigi að senda þeim innheimtubréf. Auk þess gæti þurft að skuldfæra reikninga þeirra vegna vaxta eða þóknunar. Hægt er að setja upp eins marga skilmála innheimtubréfa og hver vill. Fyrir hvern áminningarskilmálakóta er hægt að skilgreina ótakmarkaðan fjölda áminningarstiga.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skilmálar áminningar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skilmálar innheimtubréfa** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum.  
 3. Eigi að nota fleiri en eina samsetningu áminninga þarf að setja upp kóta fyrir hverja þeirra.
 
@@ -68,7 +68,7 @@ Ef viðskiptamenn eru í vanskilum verður að ákveða hvenær og hvernig eigi 
 
 Ef stofnaðar eru fleiri áminningar en skilgreind hafa verið stig fyrir verða skilyrði hæsta stigsins notuð. Hægt er að stofna eins margar áminningar og leyft er í reitnum **Hám.fj. innheimtubréfa** í áminningarskilmálunum.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skilmálar áminningar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skilmálar innheimtubréfa** og veldu síðan tengda tengilinn.  
 2. Í glugganum **Skilmálar innheimtubréfa** er valin lína með skilmálum sem setja á upp stig fyrir og síðan er valin aðgerðin **Stig**.  
 3. Fyllið inn í reitina eftir þörfum.  
 
@@ -109,7 +109,7 @@ Til dæmis, ef þú skrifar**Þú skuldar %9 %7 á gjalddaga %2** mun innheimtub
 ## <a name="to-create-a-reminder-automatically"></a>Innheimtubréf búin til sjálfvirkt:
 Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að fylla út innheimtuhaus ásamt einni eða fleiri innheimtulínum. Þú getur notað aðgerð til að stofna innheimtubréf fyrir alla viðskiptamenn sjálfvirkt.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innheimtubréf** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innheimtubréf** og veldu síðan tengda tengilinn.
 2. Í glugganum **Innheimtubréf**, skal velja aðgerðina **Stofna innheimtubréf**.
 3. Í glugganum **Stofna innheimtubréf** fyllið út reitina til að skilgreina hvernig og til hvaða aðila innheimtubréfin skulu stofnuð.
 4. Velja hnappinn **Í lagi**.
@@ -117,7 +117,7 @@ Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að 
 ## <a name="to-create-a-reminder-manually"></a>Innheimtubréf búin til handvirkt:
 Í glugganum **Innheimtubréf** geturðu fyllt í flýtiflipann **Almennt** handvirkt og svo látið fylla í línurnar sjálfvirkt.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innheimtubréf** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innheimtubréf** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt**.
 4. Veljið aðgerðina **Leggja til innheimtubr.línur**.
@@ -132,7 +132,7 @@ Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að 
 ## <a name="to-replace-reminder-texts"></a>Texta innheimtubréfs skipt út.  
 Nokkrar leiðir eru í boði til að ákvarða hvaða texti birtist á prentuðu innheimtubréfi. Í einstaka tilvikum gæti þurft að skipta út byrjunar- og endatexta gildandi stigs með texta af öðru stigi.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innheimtubréf** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innheimtubréf** og veldu síðan tengda tengilinn.
 2. Opna skal viðeigandi innheimtubréf, og síðan velja **uppfæra innheimtubréf texti** aðgerðina.
 3. Í glugganum **uppfæra innheimtubréf texti** er fært inn stigið sem óskað er eftir í reitnum **Stig innheimtubréfs**.
 3. Velja hnappinn **Í lagi** til að uppfæra byrjunar- og endatexta.
@@ -154,7 +154,7 @@ Ef gátreitirnir **Bóka vexti** og **Bóka viðbótargjöld** eru valdir í glu
 
 Að auki getur sending innheimtubréfs leitt af sér VSK-færslur.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innheimtubréf** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innheimtubréf** og veldu síðan tengda tengilinn.
 2. Velja skal viðeigandi innheimtubréf, og síðan velja **Senda út** aðgerðina.
 3. Í glugganum **Senda út innheimtubréf** þarf að fylla reitina út eftir þörfum.
 4. Velja hnappinn **Í lagi**.
@@ -178,7 +178,7 @@ Hægt er að reikna vexti með því að nota annaðhvort regluna um meðaltal d
 
 Að auki er sérhver kóti í töflunni Vaxtaskilmálar tengdur undirtöflunni Vaxtatexti. Fyrir hvern vaxtagjalddaga er hægt að skilgreina byrjunar- og/eða lokatexta sem verður prentaður á vaxtareikninginn.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **vaxtaskilmálar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaxtaskilmálar** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum.  
 3. Eigi að nota fleiri en eina samsetningu vaxtaskilmálar þarf að setja upp kóta fyrir hverja þeirra.
 
@@ -208,7 +208,7 @@ Að auki er sérhver kóti í töflunni Vaxtaskilmálar tengdur undirtöflunni V
 ## <a name="to-create-a-finance-charge-memo-manually"></a>Vaxtareikningar stofnaðir handvirkt:  
 Vaxtareikningur er svipaður reikningi. Hægt er að fylla hausinn út handvirkt og línurnar sjálfvirkt, eða stofna vaxtareikninga sjálfkrafa fyrir alla viðskiptamenn.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **vaxtareikningar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaxtareikningar** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur.  
 3. Velja aðgerðina **Leggja til vaxtareikn.línur**.
 4. Í glugganum **Tillaga vaxtareikningur línur**, skal sett afmörkun á flýtiflipanum **Viðskm.færsla** eigi aðeins að búa til vaxtareikninga fyrir tilteknar færslur.  
@@ -217,7 +217,7 @@ Vaxtareikningur er svipaður reikningi. Hægt er að fylla hausinn út handvirkt
 ## <a name="to-update-finance-charge-memo-texts"></a>Vaxtatexti uppfærður  
 Í einhverjum tilfellum gæti þurft að breyta upphafs- og lokatextanum sem settur er upp fyrir vaxtaskilmálana. Ef það er gert eftir að vaxtareikningar hafa verið stofnaðir, en ekki sendir, er hægt að uppfæra reikningana með nýja textanum.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **vaxtareikningur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaxtareikningur** og veldu síðan tengda tengilinn.  
 2. Opna vaxtareikninginn sem þú vilt breyta textanum í, og velja síðan aðgerðina **Uppfæra vaxtatexta**.
 3. Í glugganum **Uppfæra vaxtatexta** er hægt að setja afmörkun eigi að uppfæra marga vaxtareikninga.
 4. Velja hnappinn **Í lagi** til að uppfæra byrjunar- og endatexta.  
@@ -237,7 +237,7 @@ Ef gátreitirnir **Bóka vexti** og **Bóka viðbótargjöld** eru valdir í glu
 
 Að auki getur sending vaxtareikningur leitt af sér VSK-færslur.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **vaxtareikningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaxtareikningar** og veldu síðan tengda tengilinn.
 2. Velja skal viðeigandi reikning og síðan velja **Senda út** aðgerðina.
 3. Í glugganum **Senda út vaxtareikninga** þarf að fylla reitina út eftir þörfum.
 4. Velja hnappinn **Í lagi**.
@@ -246,7 +246,7 @@ Vaxtareikningurinn er annað hvort prentað út eða sent á tiltekið netfang s
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Innheimtubréfa- og vaxtafærslur skoðaðar:  
 Þegar innheimtubréf er sent er innheimtubréfafærslu búin til í glugganum **Innheimtubréf/Vaxtafærsla** fyrir hverja innheimtubréfslínu sem inniheldur viðskiptamannafærslu. Hægt er að fá yfirlit yfir færslur innheimtubréfa fyrir ákveðinn viðskiptamann.    
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi viðskiptamannaspjald og veljið síðan aðgerðina **fjárhagsfærslur**.
 3. Í glugganum **Færslur í viðskiptamannabók** er smellt er á línuna með bókarfærslunni sem á að skoða innheimtubréfafærslur fyrir og síðan er smellt á **Innheimtubréf/Vaxtafærslur**.
 

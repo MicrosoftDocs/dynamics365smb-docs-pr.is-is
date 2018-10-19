@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 19d7e142ebe10926b2caa6da2ddf6faae486bebd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 25a2017fd91f09a9d7725c68ffaa0df48a041294
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-handling-projected-negative-inventory"></a>Hönnunarupplýsingar: Meðhöndlun Áætlaðrar Neikvæðra birgða
@@ -28,28 +28,20 @@ Endurpöntunarmarkið endurspeglar ætlaða eftirspurn á afhendingartíma vöru
 
  Í eftirfarandi dæmi, framboð D táknar neyðarpöntun til að leiðrétta fyrir neikvæðum birgðum.  
 
- ![](media/nav_app_supply_planning_2_negative_inventory.png "NAV_APP_supply_planning_2_negative_inventory")  
+ ![Viðbragðsáætlun til að koma í veg fyrir neikvæða birgðastöðu](media/nav_app_supply_planning_2_negative_inventory.png "Viðbragðsáætlun til að koma í veg fyrir neikvæða birgðastöðu")  
 
 1.  Framboð **A**, fyrstu áætlaðar birgðir, er undir pöntunarmark.  
-
 2.  Nýtt framsendingaráætlað framboð er stofnað (**C**).  
 
      (Magn = Hámarksbirgðir – Áætlað birgðastig)  
-
 3.  Framboð **A** er lokað með eftirspurn **B**, sem er ekki að öllu leyti annað.  
 
      (Eftirspurn **B** gæti reynt að áætla framboð C en það gerist ekki samkvæmt tímaramma.)  
-
 4.  Nýtt framboð (**D**) er stofnað til að uppfylla eftirstandandi magn eftirspurnar **B**  
-
 5.  Eftirspurn **B** er lokað (búa til áminningu fyrir áætluðum birgðum).  
-
 6.  Nýjar birgðir **D** eru lokaðar.  
-
 7.  Áætlaðar birgðir er athugaðar. Endurpöntunarmarki hefur ekki verið náð.  
-
 8.  Framboð **C** er lokað (ekki meiri eftirspurn til staðar).  
-
 9. Lokaathugun: Engin útistandandi birgðastigsinnheimtubréf eru eftir.  
 
 > [!NOTE]  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -26,7 +26,7 @@ Sandkassaumhverfi (Forskoðun) er tilvik af [!INCLUDE[d365fin](includes/d365fin_
 Notandi verður að hafa áskrift að [!INCLUDE[d365fin](includes/d365fin_md.md)] til að geta búið til sandkassaumhverfi. Aðeins er eitt sandkassaumhverfi í boði fyrir hverja áskrift.
 
 1. Skráðu þig inn í þitt framleiðslutilvik af [!INCLUDE[d365fin](includes/d365fin_md.md)] þjónustunni.
-2. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sandkassaumhverfi** og velja svo viðeigandi tengil.
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sandkassaumhverfi** og veldu síðan tengda tengilinn.
 ![Sandkassaumhverfi Uppsetning](./media/across-sandbox/sandbox-environment-setup.png)
 3. Velja **Stofna**.  
   Annar flipi í vafranum mun opnast til að hægt sé að ljúka uppsetningunni á sandakassaumhverfinu.
@@ -40,7 +40,7 @@ Notandi verður að hafa áskrift að [!INCLUDE[d365fin](includes/d365fin_md.md)
 6. Efst í Hlutverkamiðstöðinni birtist tilkynning til að upplýsa þig um að þetta sé sandkassaumhverfi. Einnig er hægt að sjá um hvaða gerð af umhverfi er að ræða í titilstiku biðlarans.
 ![Sandkassi Hlutverkamiðstöð Tilkynning](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 Búinn hefur verið til glænýr leigjandi í sandkassaumhverfinu. Þessi leigjandi er uppfullur af sjálfgefnum sýnigögnum fyrir CRONUS fyrirtækið. Engin gögn eru afrituð eða yfirhöfuð flutt frá framleiðsluumhverfinu á meðan stofnun sandkassans stendur.
-7.  Alltaf er hægt að fara til baka á **Sandkassaumhverfi** síðuna og endurstilla sandkassaumhverfið.
+7.  Alltaf er hægt að fara til baka í gluggann **Sandkassaumhverfi** og endurstilla sandkassaumhverfið.
 > [!NOTE]  
 >  Endurstilling sandkassaumhverfisins mun eyða því algerlega og síðan stofna það á ný með sjálfgefnum sýnigögnum.  
 
@@ -58,7 +58,7 @@ Búinn hefur verið til glænýr leigjandi í sandkassaumhverfinu. Þessi leigja
 ![Hönnunarviðmót í-biðlara](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Gera ítarlega notandaupplifun virka
-Mögulegt er að opna fyrir og prófa ítarlega (fulla) virkni [!INCLUDE[d365fin](includes/d365fin_md.md)] í sandkassa leigjanda með því að stilla **Upplifun** reitinn á **Upplýsingar um fyrirtæki** síðunni.
+Mögulegt er að opna fyrir og prófa ítarlega (fulla) virkni [!INCLUDE[d365fin](includes/d365fin_md.md)] í sandkassaleigjanda með því að stilla reitinn **Upplifun** í glugganum **Upplýsingar um fyrirtæki**.
 
 ![Sandkassaumhverfi Ítarlegt](./media/across-sandbox/sandbox-advanced.png)
 

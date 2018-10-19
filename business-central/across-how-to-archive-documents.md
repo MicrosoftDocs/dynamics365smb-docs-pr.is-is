@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 74460bfcff36d293006229f4a89719f8c05c2631
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6b1b23c062fdb1c4558a292c7aa454ae24ff3c71
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="archive-documents"></a>Safnvista skjöl
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 Hægt er að setja upp sjálfvirka safnvistun á sölu- og innkaupapöntnum, tilboðum, standandi pöntunum og vöruskilapöntunum áður en skjölum er eytt.
 
 Eftirfarandi ferli sýnir hvernig skal setja upp sjálfvirka safnvistun á söluskjölum. Skrefin eru svipuð fyrir innkaupaskjöl.
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning Sala & útistandandi** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning sölu & útistandandi** og veldu síðan tengda tengilinn.
 2. Í glugganum **Uppsetning sölu & útistandandi** er fyllt út í reitina á eftirfarandi hátt.
 
 |Svæði|Description|
@@ -38,7 +38,7 @@ Eftirfarandi ferli sýnir hvernig skal setja upp sjálfvirka safnvistun á sölu
 ## <a name="to-archive-a-sales-order"></a>Til að safnvista sölupöntun
 Eftirfarandi ferli sýnir hvernig skal safnvista sölupöntun. Skrefin eru svipuð fyrir allar pantanir, standandi pantanir, vöruskilapantanir og tilboð.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Opnuð er sölupöntun sem þú vilt kaupa safnvista.  
 3.  Valin er aðgerðin **Safnvista skjal**.
 
@@ -47,7 +47,7 @@ Sölupöntunin er safnvistuð. Hægt er að skoða hana í glugganum **Safnvista
 ## <a name="to-recreate-a-sales-order-from-the-archive"></a>Endurgera sölupöntun frá skjalasafninu
 Eftirfarandi ferli sýnir hvernig skal endurgera sölupöntun. Skrefin eru svipuð fyrir allar pantanir, standandi pantanir, vöruskilapantanir og tilboð.
 
-1.  Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Safnvistaðar sölupantanir** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Safnvistaðar sölupantanir** og veldu síðan tengda tengilinn.
 2.  Valin er safnvistuð sölupöntun sem á að endurgera og velja síðan aðgerðina **Endurstilla**.  
 
 Sölupöntunin er stofnuð og bætt við gluggann **Sölupantanir**.
@@ -55,7 +55,7 @@ Sölupöntunin er stofnuð og bætt við gluggann **Sölupantanir**.
 ## <a name="to-delete-archived-sales-orders"></a>Eyða safnvistuðum sölupöntunum
 Eftirfarandi ferli sýnir hvernig skal eyða safnvistuðum sölupöntunum. Skrefin eru svipuð fyrir aðrar safnvistaðar sölur og innkaupaskjöl.
 
-1.  Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), fara í **Eyða útgáfum sölupantana í skjalasafni** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða safnvistaðar útgáfur sölupantana** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Eyða útgáfum sölupantana í skjalasafni** skal velja viðeigandi síur.  
 3.  Velja hnappinn **Í lagi**.
 

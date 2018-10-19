@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1836a0051792ce4f53f816f05392b58f440d9db1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 31817c277df03a774145ac308d2cc1cf128bfce0
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="configure-service-processes"></a>Grunnstilling þjónustuferlis
@@ -29,7 +29,7 @@ Hér eru nokkur dæmi um stillingar sem hægt er að nota í þjónustustýringa
 * Talnaraðirnar sem á að nota fyrir þjónustutengd skjöl og vörur.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Að færa inn almennar og áskildar stillingar
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning þjónustu** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning þjónustu** og veldu síðan tengda tengilinn.
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Sjá einnig  

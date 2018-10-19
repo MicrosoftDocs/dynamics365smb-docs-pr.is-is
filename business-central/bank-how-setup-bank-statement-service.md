@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f3507de1dbf463066b81b8504b832d12731f9138
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e3d739a31c2e5a17c6ba3cc4ff1b9f158642051c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Setja upp Envestnet Yodlee bankastreymisþjónustu
@@ -40,14 +40,14 @@ Envestnet Yodlee bankastreymisþjónusta er uppsett sem viðbót við [!INCLUDE[
 > Ef þú notar uppsetningaraðstoðina í Setja upp fyrirtæki, þá geta sum skrefin í ferlunum sem fylgja þar á eftir gerst sjálfvirkt þegar þú ert kominn í uppsetninguna fyrir bankareikning fyrirtækis. Nánari upplýsingar er að finna í [Hafist handa](product-get-started.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Til að virkja bankastreymisþjónustu
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Bankareikningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bankareikningar** og veldu síðan tengda tengilinn.
 2. Opnið bankareikning sem á að nota fyrir bankastreymisþjónustuna.
 3. Í á **Bankareiknings** glugganum í á **infflutningssnið BankaYfirlits** er valinn YODLEEBANKFEED .  
 
 Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við tendan netbankareikning. Sjá næsta ferli..  
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Stofna nýjan tengdan bankareikning
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bankareikningar** og veldu síðan tengda tengilinn.
 2. Valinn er viðeigandi bankareikningur og síðan valið **stofna nýjan tengdan bankareikning**. **Stofnun tengla fyrir Bankareiknings** opnast eftir smá stund.
 
     > [!NOTE]  
@@ -75,7 +75,7 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
 10. Í glugganum **Listi yfir bankareikninga** er valið bankareikningur sem á að tengja í og smellt á **Í lagi**.
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Til að tengja bankareikning í netbankareikning
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bankareikningar** og veldu síðan tengda tengilinn.
 2. velja línuna fyrir bankareikning sem er ekki tengdur við netbankareikningur, og velja síðan **tengja í netbankareikning** aðgerð. **Stofnun tengla fyrir netbankareikning** glugginn opnast með heiti bankans sem var forútfylltur í svæðinu **Tengja reikning**
 3. Veljið nafn banka. **Skrá inn** svæðinu opnast.
 4. Sláðu inn notandanafn og aðgangsorð sem er notuð til að skrá inn í netbanka og velja síðan **Næst** hnapp.  
@@ -88,20 +88,20 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
 Í glugganum **Bankareikningayfirlit** er valinn  **tengt** gátreiturinn .
 
 ## <a name="to-unlink-a-bank-account"></a>Að Aftengja bankareikningi
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bankareikningar** og veldu síðan tengda tengilinn.  
 2. Velja línuna fyrir tengdar bankareikning sem á að aftengja frá sínum tengda netbankareikningi, og velja síðan **aftengja frá netbankareikning** aðgerð.
 
 > [!NOTE]  
 > Ef þú velur **Já** í staðfestingarglugganum, er tengillinn í netbankareikninginn fjarlægður, og innskráningarupplýsingar eru þurrkaðar út. Til að tengja bankareikning við netbankareikning aftur verðurðu að skrá þig inn í bankann aftur. Nánari upplýsingar er að finna í “Til að tengja bankareikning í netbankareikning“ hlutanum.
 
 ## <a name="to-update-bank-account-linking"></a>Uppfæra tengla bankareikninga
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bankareikningar** og veldu síðan tengda tengilinn.
 2. Valinn er viðeigandi bankareikningur og síðan valið **uppfæra tengla bankareiknings** aðgerðina.
 
 Ef vandamál eru til staðar fyrir tengdu bankareikninga í glugganum **Bankareikningayfirlit** opnast **Stofnun tengla fyrir bankareikninga** og tilgreinir hvaða bankareikningar hafa verið vandamál. Vandamál má besta leyst með því að aftengja netbankareikninginn og síðan endurstofna tengilinn. Nánari upplýsingar er að finna í “Til að tengja bankareikning í netbankareikning“ hlutanum.
 
 ## <a name="to-enable-automatic-import-of-bank-statements"></a>Til að virkja sjálfvirkan innflutning bankayfirlits
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bankareikningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bankareikningar** og veldu síðan tengda tengilinn.
 2. Veldu línuna fyrir tengdu bankareikningur og síðan valið **uppsetning sjálfvirks innflutnings bankayfirlits** aðgerð.
 3. Í glugganum **uppsetning sjálfvirks innflutnings bankayfirlits** glugga í á **Fjöldi daga innifalið** reitnum, er tilgreint hversu langt aftur í tíma á að fá nýjar bankafærslur fyrir.
 

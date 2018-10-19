@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75e170f10927844ca37a001812e78e062e88c451
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Vinna með standandi sölupantanir
@@ -30,7 +30,7 @@ Dæmi um hvenær standandi sölupöntun er hægt að nota er ef viðskiptamaður
 > Standandi innkaupapöntun virka á svipaðan hátt og standandi sölupantanir. Þetta fylgiskjal nær ekki yfir Standandi innkaupapantanir
 
 ## <a name="to-create-a-blanket-sales-order"></a>Til að búa til standandi sölupöntun.  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Standandi sölupantanir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Standandi sölupantanir** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Reiturinn **Pöntunardags.** er hafður auður. Þegar nokkrar sölupantanir eru stofnaðar úr standandi pöntun notar kerfið eiginlegu vinnudagsetninguna fyrir pöntunardagsetningu sölupöntunarinnar.
@@ -58,7 +58,7 @@ Eftirfarandi á við sölupantanir eftir að þær hafa verið stofnaðar úr st
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Staða standandi innkaupapantana skoðuð:  
 Hægt er að skoða stöðu standandi sölupantana í glugganum **Upplýsingar um standandi sölupöntun**. Þetta gæti skipt máli þegar byrjað er að reikningsfæra pöntunina sem búin er til úr standandi innkaupapöntuninni.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Standandi Innkaupapantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Standandi innkaupapantanir** og veldu síðan tengda tengilinn.  
 2.  Velja Standandi innkaupapöntun og velja síðan aðgerðina **Upplýsingar**.  
 3.  Í glugganum **Upplýsingar um standandi innkaupapöntun** á flýtiflipanum **Almennt** er hægt að sjá samantekt á allri pöntuninni byggða á heildarmagni í ýmsum **magnreitum** í línum standandi innkaupapöntunarinnar.  
 
@@ -70,7 +70,7 @@ Hægt er að skoða stöðu standandi sölupantana í glugganum **Upplýsingar u
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Hvernig á að skoða óbókaðar og bókaðar línur standandi sölupöntunar   
 Tengingin milli standandi sölupöntunar og upphaflegrar sölupöntunar, og allra annarra söluskjala, er varðveitt eftir bókun sem listi yfir bókaðar og óbókaðar reikningslínur sölupantana.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Standandi sölupantanir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Standandi sölupantanir** og veldu síðan tengda tengilinn.
 2. Opna standandi sölupöntun sem á að skoða.
 3. Til að skoða óbókaðar færslur skal smella á viðkomandi línu, velja aðgerðina **Lína**, og velja síðan aðgerðina **óbókaðar línur**. Einn af eftirfarandi kostum er valinn:  
 

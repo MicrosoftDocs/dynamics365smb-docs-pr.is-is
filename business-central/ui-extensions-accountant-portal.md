@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: cb4933268be7f0a571622e6d8eccec6bd9ee2d09
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 26b911718a9741cd070af131aef3d258fd85e1eb
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="accountant-portal-for-business-central"></a>Endurskoðandagátt fyrir Business Central
+# <a name="the-accountant-portal-for-business-central-extension"></a>Endurskoðandagátt fyrir viðbót Business Central
 Þetta forrit býður upp á yfirlit með samanteknum gögnum fyrir hvern skjólstæðing endurskoðanda. Í gáttinni er að finna afkastavísi fjárhags ásamt beinni tengingu við fjármálaforrit skjólstæðingsins.  
 
 Í yfirlitinu er líka sérútbúin Hlutverkamiðstöð sem býður upp á betra yfirlit yfir viðskiptavinina.  

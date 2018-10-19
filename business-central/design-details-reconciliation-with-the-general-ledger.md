@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 813af57a2e1de62ce038990116f9cf92f741a78d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Hönnunarupplýsingar: afstemming í fjárhagur
@@ -84,16 +84,16 @@ Eftirfarandi tafla sýnir hvernig vinnustöð er sett upp á vinnustöðvarspjal
     1. Bráðaðbirgðareikningar eru hreinsaðir. (Sala)  
     2. Kostnaður seldra vara (cogs) er bókaður. (Sala)  
 
-        ![Niðurstöður sölubókana í fjárhagsreikninga G&#47;L](media/design_details_inventory_costing_3_gl_posting_sales.png "hönnunarupplýsingar_birgðakostnaður_3_GL_sölubókanir")  
+        ![Niðurstöður sölubókunar á fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_sales.png "Niðurstöður sölubókunar á fjárhagsreikninga")  
 5. Notandinn bókar notkun 150 tengla, sem er fjöldi tengla sem það tekur að stofna eina keðju. (notkun, efni)  
 
-    ![Niðurstöður efnisbókana í fjárhagsreikninga G&#47;L](media/design_details_inventory_costing_3_gl_posting_material.png "hönnunarupplýsingar_birgðakostnaður_3_GL_efnisbókanir")  
+    ![Niðurstöður efnisbókunar á fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_material.png "Niðurstöður efnisbókunar á fjárhagsreikninga")  
 6. Vinnustöðin notar 60 mínútur til að framleiða keðjuna. Notandinn bókar umbreytingakostnað. (Notkun, Afkastaveita)  
 
     1. Beinn kostnaður er bókaður. (Notkun, Afkastaveita)  
     2. Óbeinn kostnaður eru reiknuð og staða. (Notkun, Afkastaveita)  
 
-        ![Niðurstöður afkastaveitubókana í fjárhagsreikninga G&#47;L](media/design_details_inventory_costing_3_gl_posting_capacity.png "hönnunarupplýsingar_birgðakostnaður_3_GL_afkastaveitubókanir")  
+        ![Niðurstöður afkastagetubókunar á fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_capacity.png "Niðurstöður afkastagetubókunar á fjárhagsreikninga")  
 7. Notandinn bókar væntanlegan kostnað einnar keðju. (frálag)  
 8. Notandinn lýkur framleiðslupöntuninni og keyrir **Kostnaðarleiðrétting - Birgðafærslur** runuvinnsluna. (frálag)  
 
@@ -102,7 +102,7 @@ Eftirfarandi tafla sýnir hvernig vinnustöð er sett upp á vinnustöðvarspjal
     3. Óbeini kostnaðurinn (stjórnunarkostnaður´) er fluttur af kostnaðarreikningi óbeins kostnaðar yfir á birgðarreikning. (frálag)  
     4. Þetta leiðir til dreifni fjárhæðar í staðbundinni mynt 157,00. Frávik eru aðeins reiknað fyrir staðlaða kostnaðarliði. (frálag)  
 
-        ![Niðurstöður úttaksbókana í fjárhagsreikninga G&#47;L](media/design_details_inventory_costing_3_gl_posting_output.png "hönnunarupplýsingar_birgðakostnaður_3_GL_úttaksbókanir")  
+        ![Niðurstöður úttaksbókunar á fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_output.png "Niðurstöður úttaksbókunar á fjárhagsreikninga")  
 
         > [!NOTE]  
         >  Til einföldunar er aðeins sýndur einn fráviksreikningur. Í raun eru til fimm mismunandi reikningar:  
@@ -115,7 +115,7 @@ Eftirfarandi tafla sýnir hvernig vinnustöð er sett upp á vinnustöðvarspjal
 
 9. Notandinn endurmetur keðjuna úr SGM 150.00 í SGM 140.00. (Leiðrétting/endurmat/Sléttun/millifærsla)  
 
-    ![Niðurstöður leiðréttingabókana í fjárhagsreikninga G&#47;L](media/design_details_inventory_costing_3_gl_posting_adjustment.png "hönnunarupplýsingar_birgðakostnaður_3_GL_leiðréttingabókanir")  
+    ![Niðurstöður leiðréttingarbókunar á fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Niðurstöður leiðréttingarbókunar á fjárhagsreikninga")  
 
 Frekari upplýsingar um vensl milli reikningsgerða og mismunandi gerðir virðisfærslna eru í [Hönnunarupplýsingar: Reikningar í fjárhag](design-details-accounts-in-the-general-ledger.md).  
 

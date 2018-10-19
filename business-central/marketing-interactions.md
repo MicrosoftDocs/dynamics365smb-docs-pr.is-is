@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: dd1651c6df11f99c010c1a9725b2cb5069b929e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Unnið með Samskipti Við Tengiliði
@@ -30,7 +30,9 @@ Tengslastjórnunargrunnur svæðið gerir mögulegt að skrá öll samskipti vi�
 
 ##  <a name="setting-up-interaction-templates"></a>Samskiptasniðmát sett upp
 Áður en hægt er að stofna og skrá samskipti þarf að setja upp samskiptasniðmát. Þegar samskipti eru stofnuð þarf að tilgreina á hvaða samskiptasniðmáti þau byggja. samskiptasniðmát er líkan sem lýsir grunneiginleikum samskipta.
-Þú setur upp samskiptasniðmát í glugganum **samskiptasniðmát**  
+Þú setur upp samskiptasniðmát í glugganum **samskiptasniðmát**
+
+Þegar upplýsingar um samskiptasniðmátið hafa verið færðar inn er hægt að búa til viðhengi, t.d. Microsoft Word skjal. Skrefin eru endurtekin til að setja upp eins mörg samskiptasniðmát og óskað er eftir.  
 
 ## <a name="creating-interactions"></a>Samskipti stofnuð
 Samskipti eru skráð með tvennum hætti:
@@ -50,7 +52,7 @@ Hægt er að skoða öll skráð samskipti sem ekki hefur verið eytt í gluggan
 * Sjá stöðu samskipta.
 * Merkja samskipti sem hætt við.
 
-Hægt er að eyða samskiptaskráningarfærslum sem hafa verið afturkallaðar. Til að eyða samskiptaskráarfærslum skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, færa inn **Eyða ógildum samskiptaskráningarfærslum** og velja síðan viðkomandi tengil og svo fylla inn upplýsingarnar.
+Hægt er að eyða samskiptaskráningarfærslum sem hafa verið afturkallaðar. Til að eyða samskiptaskráarfærslum Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða samskiptaskráarfærslum sem hætt var við** og veldu síðan tengda tengilinn.
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a883598c4f8a3bb9593ec2a3b976d169887308da
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 34262b070ea19b5f109c9194d6a91ef048132e6b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Setja upp söluferla tækifæris og söluþrep
@@ -25,7 +25,7 @@ Innleiðing söluferla fyrir tækifæri felur í sér að setja upp söluferli, 
 Þetta efnisatriði lýsir því líka hvernig skal setja upp verkhluta og aðgerðir og hvernig skal úthluta verkhlutum og aðgerðum. Nánari upplýsingar er að finna í „Að setja upp aðgerðir með verkhlutum" liðnum.
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Uppsetning söluferlakóða tækifæris
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Söluferli** og velja svo viðeigandi tengil. **Söluferli** glugganum opnast og birtir lista yfir öll fyrirliggjandi söluferlum.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söluferli** og veldu síðan tengda tengilinn. **Söluferli** glugganum opnast og birtir lista yfir öll fyrirliggjandi söluferlum.
 2. Valið er **Nýtt** aðgerð og fyllt er inn í reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Þessi skref eru endurtekin til að setja upp eins mörg söluferli og óskað er eftir. Þegar söluferli tækifæra hafa verið settir upp gæti verið ráðlegt að setja upp mismunandi þrep innan hvers ferils.
@@ -42,7 +42,7 @@ Eftir að þú bætir við þrepaferli tækifæris geturðu byrjað að bæta vi
 ## <a name="to-set-up-activities-with-tasks"></a>Uppsetning aðgerða með verkhlutum
 Þú getur sameinað marga verkhluta í aðgerðum, t.d. verkhluta sem hver og einn fela í sér eitt skref. Aðgerðaverkhlutar tengjast hverjum öðrum í gegnum dagsetningarformúlu. Hægt er að úthluta aðgerðum á tækifæri, sölufólk eða tengiliði.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **aðgerðir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Aðgerðir** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð og fyllt er inn í reitina eins og þörf krefur.
 3. Á flýtiflipanum **línur** er fyllt út í reiti eftir því sem er nauðsynlegt er til að skilgreina einn eða fleiri verkhluta í aðgerðinni.
 
@@ -52,7 +52,7 @@ Eftir að þú bætir við þrepaferli tækifæris geturðu byrjað að bæta vi
 > [!NOTE]  
 >   Þetta ferli lýsir því hvernig skal úthluta aðgerðarverkhlutum til tækifæra. skrefin eru sambærileg við það þegar verkhlutum er úthlutað til sölufólks og tengiliða.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Tækifæri** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tækifæri** og veldu síðan tengda tengilinn.
 2. Veljið tækifæri og veljið svo aðgerðina **Verkhlutar**.
 3. Í **Verkhlutalisti** velurðu aðgerðina **Búa til Verkhluti**.
 4.  Í glugganum **Stofna verkhluta** skal fylla inn í reitina eins og þörf krefur.

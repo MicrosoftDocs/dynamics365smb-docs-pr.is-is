@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 015a5ff634e179dff4b51d6387a59f78ae666bc7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Setja upp sendingu og móttöku rafrænna skjala
@@ -83,7 +83,7 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
 
     |Svæði|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Alþjóðlegur staðlakóði**|Tilgreina mælieiningu kóða tjáð samkvæmt UNECERec20 staðall í tengslum við sendingu rafrænna skjala.<br /><br /> Til dæmis, þegar þú sendir rafræna reikninga í PEPPOL sniði, gildi á þessu sviði er notað til að byggja á **unitCode** eigindi á **InvoicedQuantity** frumefni undir **InvoiceLine** hnút. **Athugið:** Ef reiturinn **Mælieining** á sölulína er auður mun staðlað gildi UNECERe20 fyrir “Piece” (H87) verður \(H87\) sett inn sjálfgefið. Frekari upplýsingar og skrá yfir fullnægjandi mælieiningarkóði er að finna í [Tilmæli nr. 20 \- Mælieiningar sem notaðar eru í alþjóðaviðskiptum](http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
+    |**Alþjóðlegur staðlakóði**|Tilgreina mælieiningu kóða tjáð samkvæmt UNECERec20 staðall í tengslum við sendingu rafrænna skjala.<br /><br /> Til dæmis, þegar þú sendir rafræna reikninga í PEPPOL sniði, gildi á þessu sviði er notað til að byggja á **unitCode** eigindi á **InvoicedQuantity** frumefni undir **InvoiceLine** hnút. **Athugið:** Ef reiturinn **Mælieining** á sölulína er auður mun staðlað gildi UNECERe20 fyrir “Piece” (H87) verður \(H87\) sett inn sjálfgefið. Frekari upplýsingar og skrá yfir fullnægjandi mælieiningarkóði er að finna í [Tilmæli nr. 20 \- Mælieiningar sem notaðar eru í alþjóðaviðskiptum](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
 ### <a name="to-set-up-customers-for-electronic-document-sending"></a>Til að setja upp viðskiptavini fyrir rafræna skjal senda  
 1. Í reitinn **Leita** skal færa inn **Viðskiptamenn** og velja síðan viðkomandi tengi.  

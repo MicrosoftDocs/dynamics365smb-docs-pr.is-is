@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c7c7dca1d59b407f119347345cbbdef3f730acbc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5b57b47d4ceb08a3836140945387e38887553a99
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="process-sales-opportunities"></a>Meðhöndla sölutækifæri
@@ -27,9 +27,9 @@ Fyrirliggjandi sölutækifæri eru tiltækar í á **Tækifæralisti** glugga. �
 
 | Skoða tækifæri fyrir | Þá |
 | --- | --- |
-| Alla sölumenn og tengiliði |Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Listi yfir tækifæri** og velja svo viðeigandi tengil. |
-| Tiltekin sölumaður |Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **sölufólk** og velja svo viðeigandi tengil. Veldu sölumaður, veldu aðgerðina **tækifæri**, og veldu síðan aðgerðina **listi**. |
-| Tiltekinn tengilið |Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Tengiliðir** og velja svo viðeigandi tengil. Veldu tengilið úr listanum, og veldu svo aðgerðina **tækifæri**. |
+| Alla sölumenn og tengiliði |Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tækifæralisti** og veldu síðan tengda tengilinn. |
+| Tiltekin sölumaður |Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sölumenn** og veldu síðan tengda tengilinn. Veldu sölumaður, veldu aðgerðina **tækifæri**, og veldu síðan aðgerðina **listi**. |
+| Tiltekinn tengilið |Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn. Veldu tengilið úr listanum, og veldu svo aðgerðina **tækifæri**. |
 
 Hver þesara verkefna opnar **Tækifæralisti** gluggann.
 
@@ -65,7 +65,7 @@ Til að eyða lokuðum tækifærum af **Tækifæralisti** glugganum, valin tæki
 
 Til að eyða lokuðum tækifærum með því að nota **Eyða Lokuð Tækifæri** runuvinnslu, fylgja skal eftirfarandi skrefum:
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Eyða tækifærum** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða tækifærum** og veldu síðan tengda tengilinn.
 2. Í **Tækifæri** hlutanum, skal setja upp síur sem tilgreina lokuð tækifæri til að eyða.
 3. Velja hnappinn **Í lagi**.
 

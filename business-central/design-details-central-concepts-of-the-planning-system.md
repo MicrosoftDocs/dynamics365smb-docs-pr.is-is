@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e8eca3562639c864cb514b71c070d0fca4128d79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfis
 Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru og tímabil sem áætlun gildir um. Þá, í samræmi við lágstigskóða (uppskriftarstaðsetningu), kallar runuvinnslan á kóðaeininguna, sem reiknar út birgðaáætlun með því að jafna framboð-eftirspurn og stinga upp á aðgerðum fyrir notandann. Ráðlagðar aðgerðir birtast sem línu á áætlunvinnublaðinu eða innkaupatillögunni.  
 
-![Áætlunarvinnublað](media/NAV_APP_supply_planning_1_planning_worksheet.png "NAV_APP_supply_planning_1_planning_worksheet")  
+![Innihald glugga áætlunarvinnublaðs](media/NAV_APP_supply_planning_1_planning_worksheet.png "Innihald glugga áætlunarvinnublaðs")  
 
 Reiknað er með að sá sem annast áætlanagerð í fyrirtæki, svo sem innkaupsaðili eða framleiðslustjóri, sé notandi áætlanakerfis. Áætlanakerfið hjálpar notandanum með því að framkvæma víðtæka en fremur einfalda útreikninga fyrir áætlun. Notandinn getur þá einbeitt sér að því að leysa úr erfiðari vandamálunum, líkt og því sem er frábrugðið því sem eðlilegt er.  
 
@@ -57,7 +57,7 @@ Til dæmis ef notandi slær inn eða breytir sölupöntun mun kvika pöntunarrak
 
 Í samræmi er hægt að horfa á kvika pöntunarrakningu sem verkfæri fyrir notanda til að meta hvort samþykkja eigi pöntunartillögur fyrir framboð. Frá framboðshliðinni getur notandi séð hvaða eftirspurn hefur búið framboðið til og frá eftirspurnarhliðinni hvaða framboð á að sinna eftirspurninni.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "NAV_APP_supply_planning_1_dynamic_order_tracking")  
+![Dæmi um gangvirka pöntunarrakningu](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Dæmi um gangvirka pöntunarrakningu")  
 
 Nánari upplýsingar eru í [Upplýsingar um hönnun: Frátekning, Vörurakning og aðgerðaboð](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -70,11 +70,11 @@ Fljótt á litið kann það að virðast erfitt að greina á milli áætlunark
 
 Breytilegar pantanir setja tengil milli eftirspurnar og framboðs þegar gögn eru slegin inn, á fyrstu kemur fyrstur fær reglu. Þetta getur leitt til röskun í forgangsröðun. Til dæmis er hægt að tengja sölupöntun sem færð er inn fyrst, með skiladegi í næsta mánuði, við framboð í birgðum, en næsta sölupöntun með skiladegi á morgun getur kallað fram aðgerðaboð um að stofna nýja innkaupapöntun til að sinna henni, eins og sýnt er hér fyrir neðan.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "NAV_APP_supply_planning_1_dynamic_order_tracking_graph")  
+![Dæmi um pöntunarrakningu í aðfangakeðju 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Dæmi um pöntunarrakningu í aðfangakeðju 1")  
 
 Hins vegar snýst áætlanakerfið um alla eftirspurn og framboð fyrir ákveðna vöru, í forgangsröð samkvæmt gjalddögum og pantanagerðum, það er, á þarf fyrst/fær fyrst grundvelli. Það eyðir pöntunarrakningartenglum sem voru búnir til kvikt og enduruppsetur þá í samræmi við skiladagsforgang. Þegar búið er að keyra áætlanakerfið hefur það leyst úr öllu ójafnvægi á milli eftirspurnar og framboðs, eins og sýnt er hér að neðan fyrir sömu gögn.  
 
-![](media/NAV_APP_supply_planning_1_planning_graph.png "NAV_APP_supply_planning_1_planning_graph")  
+![Dæmi um pöntunarrakningu í aðfangakeðju 2](media/NAV_APP_supply_planning_1_planning_graph.png "Dæmi um pöntunarrakningu í aðfangakeðju 2")  
 
 Eftir áætlunarkeyrslu eru engin aðgerðaboð eftir í töflunni Aðgerðarboðafærsla þar sem þeim hefur verið skipt út fyrir áætlaðar aðgerðir í áætlanavinnublaðinu.  
 
@@ -88,7 +88,7 @@ Sjá Pantanarakningartenglar við áætlunargerð í [Hönnunarupplýsingar: jö
 ### <a name="item-priority--low-level-code"></a>Vöruforgangur / Lægra stigs kóði  
 Í framleiðslu-umhverfi, eftirspurn fyrir lokið, seljanlega vöru mun leiða í unnum eftirspurn fyrir íhluti sem eru í tilbúna hlutnum. Uppbygging uppskriftar stjórnar íhlutauppbyggingunni og getur náð yfir nokkur stig hálfunninna vara. Áætlun vöru á einu stigi veldur afleiddri eftirspurn fyrir íhluti á næsta stigi, og svo koll af kolli. Þetta leiðir á endanum til afleiddrar eftirspurnar fyrir keyptar vörur. Þar af leiðandi áætlar áætlanakerfi vörur í flokkunarröð þeirra í stigveldi uppskrifa og byrjar á loknum seljanlegum vörum á efsta stigi og heldur áfram niður eftir vörustigveldinu að lægra skipuðum vörum (samkvæmt lágstigskóða)  
 
-![](media/NAV_APP_supply_planning_1_BOM_planning.png "NAV_APP_supply_planning_1_BOM_planning")  
+![Áætlanagerð fyrir uppskriftir](media/NAV_APP_supply_planning_1_BOM_planning.png "Áætlanagerð fyrir uppskriftir")  
 
 Tölurnar sýnir í hvaða röð kerfið gerir tillögur um framboðspantanir á efsta stigi og, að því gefnu að notandi vilja samþykkja þessar tillögur, fyrir hvaða lægra stigi sem er líka.  
 
@@ -101,7 +101,7 @@ Fyrirtæki sem starfa á fleiri en einum stað getur þurft að áætla fyrir hv
 
 Í meginatriðum getur hvaða vara sem er hægt að meðhöndla á hverjum stað, en nálgun forritsins á staðsetningarhugtakið er alveg ströng. Til dæmis er ekki hægt að uppfylla sölupöntun á einum stað með magni í birgðum af öðrum stað. Magn birgða þarf fyrst að flytja af þeirri staðsetningu sem tilgerind er á sölupöntun.  
 
-![](media/NAV_APP_supply_planning_1_SKU_planning.png "NAV_APP_supply_planning_1_SKU_planning")  
+![Áætlanagerð fyrir birgðahaldseiningar](media/NAV_APP_supply_planning_1_SKU_planning.png "Áætlanagerð fyrir birgðahaldseiningar")  
 
 Nánari upplýsingar eru í [Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md).  
 
@@ -110,10 +110,10 @@ Innan tiltekinnar birgðahaldseiningar, táknar umbeðin eða tiltæk dagsetning
 
 Nánari upplýsingar eru í [Upplýsingar um hönnun: Forgangsröðun pantana](design-details-prioritizing-orders.md).  
 
-## <a name="production-forecasts-and-blanket-orders"></a>Framleiðsluspár og standandi pantanir  
+## <a name="demand-forecasts-and-blanket-orders"></a>Eftirspurnarspá og standandi pantanir  
 Spá og standandi pöntun endurspegla bæði vænta eftirspurn. Standandi pöntunin, sem nær yfir ætluð kaup viðskiptamanns á tilteknum tíma, er ætlað að minnka óvissu í heildarspá. Standandi pöntunin er spá fyrir tiltekinn viðskiptamann ofan á ótilgreindri spá sem útskýrð er hér að neðan.  
 
-![](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "NAV_APP_supply_planning_1_forecast_and_blanket")  
+![Áætlanagerð með spám](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Áætlanagerð með spám")  
 
 Nánari upplýsingar eru í hlutanum „Spá um eftirspurn er minnkuð eftir sölupöntunum“ í [Hönnunarupplýsingar: hleðsla birgðaforstillinga](design-details-loading-the-inventory-profiles.md).  
 
@@ -202,7 +202,7 @@ Hins vegar tekur áætlanakerfið frátekið magn áfram með í forstillingu fy
 
 Eftirfarandi mynd sýnir hvernig pöntun getur komið í veg heppilegasta áætlun.  
 
-![](media/NAV_APP_supply_planning_1_reservations.png "NAV_APP_supply_planning_1_reservations")  
+![Áætlanagerð með frátekningum](media/NAV_APP_supply_planning_1_reservations.png "Áætlanagerð með frátekningum")  
 
 Nánari upplýsingar eru í [Upplýsingar um hönnun: Frátekning, Vörurakning og aðgerðaboð](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -217,7 +217,7 @@ Viðvörunarupplýsingar eru sýndar í glugganum **Órakin áætlunaratriði** 
 -   Frávik  
 -   Athugið  
 
-![](media/NAV_APP_supply_planning_1_warnings.png "NAV_APP_supply_planning_1_warnings")  
+![Viðvaranir í áætlanavinnublaðinu](media/NAV_APP_supply_planning_1_warnings.png "Viðvaranir í áætlanavinnublaðinu")  
 
 ### <a name="emergency"></a>Neyð  
 Neyðarviðvörun birtist í tveimur aðstæðum:  
@@ -254,7 +254,7 @@ Viðvörunin Til athugunar birtist við þrennar aðstæður:
 
 Ef reiturinn er ekki valinn heldur runuvinnslan Reikna áætlun áfram þangað til henni er lokið. Villur munu ekki trufla runuvinnsluna. Ef ein eða fleiri villur eru til staðar birtir kerfið skilaboð um hvaða vörur villurnar höfðu áhrif á. Glugginn  **Villukladdi áætlunar** opnast og birtir upplýsingar um villuna og tengla í þau skjöl eða birgðaspjöld sem hún hafði áhrif á.  
 
-![](media/NAV_APP_supply_planning_1_error_log.png "NAV_APP_supply_planning_1_error_log")  
+![Villuboð í áætlanavinnublaðinu](media/NAV_APP_supply_planning_1_error_log.png "Villuboð í áætlanavinnublaðinu")  
 
 ## <a name="planning-flexibility"></a>Sveigjanleiki áætlunar  
 Ekki er alltaf hentugt að áætla fyrirliggjandi framboðspöntun, til dæmis þegar framleiðsla er hafin eða viðbótarstarfsmenn hafa verið ráðnir á tilteknum degi til að framkvæma verkið. Til kynna hvort núverandi pöntun er hægt að breyta af áætlanakerfi, hafa allar framboðspantanalínur áætlanasveigjanleikareit með tveimur valkostum: Ótakmarkað eða ekkert. Ef reiturinn er stilltur á Ekkert reynir áætlanakerfið ekki að breyta birgðapöntunarlínunni.  

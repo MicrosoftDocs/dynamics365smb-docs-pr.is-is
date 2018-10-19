@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f84b46027aa04b50de2a8d4573ce4633fd59fcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Hönnunarupplýsingar: vöruhúsaflæði á innleið
@@ -47,8 +47,6 @@ Að auki eru eftirfarandi innri uppspretta gögn sem virka eins uppruni á útle
 |C|Bóka tínslu og afhendingu úr vöruhúsaafhendingarskjali|||X|4/5/6|  
 |D|Bóka tínslu frá vöruhúsatínsluskjali og bóka afhendingu frá vöruhúsaafhendingarskjali||X|X|4/5/6|  
 
- Nánari upplýsingar má nálgast á [Hönnunarupplýsingar: vöruhúsaflæði á útleið]()  
-
  Val á aðferð fer eftir samþykku verklagi fyrirtækisins og flækjustigi. Í pöntun fyrir pöntun umhverfi með einföldum aðferðum og einfaldri hólfaskipan er aðferð A, tiltekt og afhending frá pöntunarlínu viðeigandi. Í öðrum pöntun fyrir pöntun fyrirtækjum þar sem vörur fyrir eina pöntunarlínu geta komið frá fleiri en einu hólfi eða þar sem vöruhúsastarfsmenn geta ekki unnið með pantanaskjöl á notkun aðskilinna tiltektarskjala við, aðferð B. Ef fyrirtæki er með tiltektar og afhendingarferli með magnpantanavinnslu og þarf því meiri stjórn og yfirsýn, getur fyrirtækið valið að nota vöruhúsaafhendingarskjal og vöruhúsatínsluskjal til að aðskilja tiltektar og afhendingarverk, aðferðir C og D.  
 
  Í aðferðum A, B, og C eru tiltektar- og afhendingaraðgerðir sameinaðar í eitt skref þegar samsvarandi skjal er bókað sem flutt. Í aðferð D er tiltekt fyrst skráð og svo er afhendingin bókuð síðar úr öðru skjali.  
@@ -56,7 +54,7 @@ Að auki eru eftirfarandi innri uppspretta gögn sem virka eins uppruni á útle
 ## <a name="basic-warehouse-configurations"></a>Grunngerðir vöruhúss  
  Eftirfarandi skýringarmynd sýnir útflæði í vöruhús eftir skjalagerð grunngerðar vöruhúss. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
- ![Flæði á útleið í grunngerðir vöruhúss](media/design_details_warehouse_management_outbound_basic_flow.png "Hönnunarupplýsingar_vöruhúsastjórn_grunnflæði_á_útleið")  
+ ![Útflæði í grunngerð vöruhúss](media/design_details_warehouse_management_outbound_basic_flow.png "Útflæði í grunngerð vöruhúss")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Upprunaskjal losunar / Stofna birgðatínsla eða Hreyfing  
  Þegar notandi sem er ábyrgur fyrir Þegar notandi sem er ábyrgur fyrir upprunaskjölum, svo sem sölupantanavinnsla eða framleiðslustjóri, er tilbúinn fyrir vöruhúsastarfsemi á útleið, sleppir hann eða hún upprunaskjalinu til að  láta starfsmenn í vöruhúsi vita að hægt er að sækja seldar vörur eða íhluti og setja í tilgreind hólf. Að öðrum kosti, notandinn býr til birgðatínslu eða hreyfingarskjöl fyrir stakar pöntunarlínur með færslu, byggt á tilgreindum hólfum og magni til meðhöndlunar.  
@@ -78,7 +76,7 @@ Að auki eru eftirfarandi innri uppspretta gögn sem virka eins uppruni á útle
 ## <a name="advanced-warehouse-configurations"></a>Grunngerðir í ítarlegu vöruhúsi  
  Eftirfarandi skýringarmynd sýnir útflæði í vöruhús eftir skjalagerð í grunngerð ítarlegu vöruhúsi. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
- ![Flæði á útleið í grunngerð ítarleg vöruhúsum](media/design_details_warehouse_management_outbound_advanced_flow.png "Hönnunarupplýsingar_vöruhúsastjórn_ítarlegt_flæði_á_útleið")  
+ ![Útflæði í grunngerð ítarlegs vöruhúss](media/design_details_warehouse_management_outbound_advanced_flow.png "Útflæði í grunngerð ítarlegs vöruhúss")  
 
 ### <a name="1-release-source-document"></a>1: Upprunaskjal losunar  
  Þegar notandi sem er ábyrgur fyrir upprunaskjölum, svo sem sölupantanavinnsla eða framleiðslustjóri, er tilbúinn fyrir vöruhúsastarfsemi á útleið, sleppir hann eða hún upprunaskjalinu til að  láta starfsmenn í vöruhúsi vita að hægt er að sækja seldar vörur eða íhluti og setja í tilgreind hólf.  

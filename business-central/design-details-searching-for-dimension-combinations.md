@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 416fe8425d2b21f1f1f72b2f159bb6a863bc1d8b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 883446d479af1432f569410a9412e1291e60477d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Hönnunarupplýsingar Leitað að víddarsamsetningum
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 ### <a name="example-1"></a>Dæmi 1  
  Eftirfarandi skýringarmynd leitartré með sex víddasamstæðum. Aðeins eru einkennandi víddasamstæðufærslur sýndar á myndinni.  
 
- ![Víddartjástrúktur](media/nav2013_dimension_tree.png "NAV2013_Vídd_Tré")  
+ ![Dæmi um trjáskipulag víddar](media/nav2013_dimension_tree.png "Dæmi um trjáskipulag víddar")  
 
  Eftirfarandi tafla lýsir a fullgerðum lista víddasamstæðufærsla sem mynda hverja víddasamstæðu.  
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 03/22/2018
 
  Fyrst mun [!INCLUDE[d365fin](includes/d365fin_md.md)] einnig uppfæra töfluna **Trjáhnútur víddasamstæðu** til að tryggja að leitartréð líti eins út og eftirfarandi teikning. Því verður víddasamstæða 7 undireining víddasamstæðu 5.  
 
- ![NAV2013&#95;Vídd&#95;Tré&#95;Dæmi 2](media/nav2013_dimension_tree_example2.png "NAV2013_Vídd_Tré_Dæmi2")  
+ ![Dæmi um trjáskipulag víddar í NAV 2013](media/nav2013_dimension_tree_example2.png "Dæmi um trjáskipulag víddar í NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Finna auðkenni víddasamstæðu  
  Á hugmyndastigi eru **Yfireining**, **Vídd og** **Víddargildi** í leitartrénu sameinuð og notuð sem aðallykill vegna þess að [!INCLUDE[d365fin](includes/d365fin_md.md)] fer yfir tréð á sama hátt og víddarfærslurnar. GET-eiginleikinn (skrá) er notaður til að leita að auðkenni víddasamstæðu. Eftirfarandi kóðadæmi sýnir hvernig á að finna auðkenni víddasamstæðu þegar það eru víddagildi eru þrjú.  

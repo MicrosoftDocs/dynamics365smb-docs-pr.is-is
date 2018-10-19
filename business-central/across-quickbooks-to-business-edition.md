@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
-ms.date: 09/25/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: a2e2140a6a86391272882d4fbe8bf9e9b2cc5ae2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: badf86b9fefad8019b6bee5b8edcbaa1aebf8a6d
 ms.contentlocale: is-is
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -34,7 +34,7 @@ Til að fá nánari upplýsingar skaltu lesa um viðbótina sem hentar QuickBook
 * [QuickBooks Online gagnaflutningsviðbótin fyrir](ui-extensions-quickbooks-online-data-migration.md)
 
 ## <a name="ready-now"></a>Tilbúið?
-Ef þú ert tilbúin(n) til hefjast handa skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning með hjálp** og velja svo viðeigandi tengil. Veljið **Flytja viðskiptagögn** og fara síðan eftir skrefunum í leiðbeiningunum.
+Ef þú ert tilbúinn til að byrja núna skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning með hjálp** og veldu síðan tengda tengilinn. Veljið **Flytja viðskiptagögn** og fara síðan eftir skrefunum í leiðbeiningunum.
 
 ## <a name="see-also"></a>Sjá einnig
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  

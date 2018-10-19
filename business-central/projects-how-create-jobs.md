@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: af8102b8f8ea51cbe0831388fab6d6bfc3a45101
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8c7af2db512927f575f62d40265ea2def6b7dc2c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-jobs"></a>Stofna verk
@@ -34,7 +34,7 @@ Lagskiptingin gerir kleift að skipta verkinu í smærri verk og notast við ít
 ## <a name="to-create-a-job-card"></a>Til að stofna verkspjald
 Stofnað er verkspjald og svo eru stofnaðar verkhlutalínur og áætlunarlínur fyrir það.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Til að tilgreina verkið með upplýsingum um önnur verk skal velja aðgerðina **Afrita verk** og fylla svo út reitina eins og þörf krefur og velja hnappinn **Í lagi**.
 
@@ -44,7 +44,7 @@ Stofnað er verkspjald og svo eru stofnaðar verkhlutalínur og áætlunarlínur
 ## <a name="to-create-tasks-for-a-job"></a>Til að búa til verkhluta fyrir verk
 Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur í sér. Þetta er gert með því að bæta við nýjum línum á flýtiflipanum **Verkhlutar** í glugganum **Verkspjald**, eitt verk í hverri línu. Hvert verk verður að hafa að minnsta kosti einn verkhluta.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.
 2. Opnið verkspjaldið fyrir viðeigandi verk.
 3. Á flýtiflipanum **Verkhlutar** skal fylla út reitina eins og þörf krefur í nýrri línu.
 4. Til að draga inn verkhluta og búa til stigveldi skal velja aðgerðina **Verkhlutar** og svo aðgerðina **Draga inn verkhluta**.
@@ -64,7 +64,7 @@ Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Áætlunar
 
 **Athugasemd** Þegar upplýsingar um verkáætlunarlínur eru færðar inn eru kostnaðarupplýsingar fylltar út sjálfkrafa. Sem dæmi má taka að kostnaður, verð og afsláttur forða og vara byggist í upphafi á upplýsingum sem eru tilgreindar á forðaspjaldi og birgðaspjaldi.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.
 2. Opnið viðeigandi verkspjald.
 3. Valinn er verkhluti þar sem reiturinn **Verkhlutagerð** inniheldur **Bókuð** og svo er aðgerðin **Verkhlutalínur** valin.  
 4. Í glugganum **Verkáætlunarlínur** skal fylla út reitina eins og þörf krefur í nýrri línu.

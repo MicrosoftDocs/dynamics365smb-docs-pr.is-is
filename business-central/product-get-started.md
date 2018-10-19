@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/20/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 655f67778ed52794df893cec8965eec990f41b3f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4eed11706d890a1b83af7fcb70fe1457a787ba3a
 ms.contentlocale: is-is
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -41,12 +41,10 @@ Frekari upplýsingar er að finna í [Unnið með [!INCLUDE[d365fin](includes/d3
 ## <a name="the-role-centers"></a>Mín hlutverk
 Glugginn Mitt hlutverk byggist á hlutverkamiðaðri hönnun til að veita þér hraðan aðgang að viðskiptaferli og verkfærum viðskiptagreindar sem þú þarft til að sinna starfinu þínu. Endurskoðandi má til dæmis fylgjast með greiðslur og samþykktir og skoða vaxtareikninga afköst myndrit. Skoðaðu alls kyns Mín hlutverk með því að velja táknið **Stillingar** ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingartákn fyrir Mitt hlutverk") efst í hægra horninu, velja **Mínar stillingar** og síðan Mitt hlutverk sem á að skoða. Skrá sig aftur inn til að láta breytinguna taka gildi. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md).
 
-
-
 Hvert Mitt hlutverk býður upp á hnappinn **Uppsetning og viðbætur**. Hér hefurðu aðgang að lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa, með því að setja upp valin svæði á fljótan hátt. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetning gluggum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Mikilvægar** upplifanir gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
+>   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Úrvals** upplifun gerir. Í fyrsta sinn sem þú skráir þig inn notarðu grunnupplifunina. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
 
 Í glugganum **Uppsetning með hjálp** er að finna eftirfarandi með **Mikilvægum** upplifunum:
 

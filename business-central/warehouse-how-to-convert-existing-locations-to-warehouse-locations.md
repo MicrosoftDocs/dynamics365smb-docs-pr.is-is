@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e519a1628342f7c4711b3266f53ac857d4865e71
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c97e6995a0e27d0eebcadf5b783cd9aa56cb5fde
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Breyta fyrirliggjandi staðsetningum í vöruhúsastaðsetningar
@@ -30,7 +30,7 @@ Hægt er að stofna svæði og hólf fyrir eða eftir umbreytinguna. Eina hólfi
 >  Til að hreinsa allar neikvæðar birgðir og öll opin vöruhúsaskjöl áður en birgðageymslu er umbreytt fyrir vöruhúsameðhöndlun skal keyra skýrslu til að finna vörurnar með neikvæðar birgður og opin vöruhúsaskjöl fyrir birgðageymsluna. Frekari upplýsingar eru í Athuga neikvæða birgðastöðu.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Birgðageymsla sett upp sem vöruhúsastaður  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Stofna vöruhúsastað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Búa til staðsetningu vöruhúss** og veldu síðan tengda tengilinn.  
 2.  Í reitnum **Kóti birgðageymslu** skal tilgreina birgðageymslu sem á að virkja fyrir úrvinnslu vöruhúss  
 3.  Í reitnum **Kóti leiðréttingarhólfs** skal tilgreina hólfinu í birgðageymslunni þar sem ósamstilltar vöruhúsafærslur eru geymdar. Nánari upplýsingar má nálgast á „Samstilla leiðréttar vöruhúsafærslur við tengdar birgðabókafærslur“ hlutanum í [Telja, leiðrétta og endurflokka birgðir](inventory-how-count-adjust-reclassify.md).  
 

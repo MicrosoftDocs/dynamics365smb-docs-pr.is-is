@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, prospect, contact, client, customer
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f879d933822e061913975c1dbac2bf883ad9bbc1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8a950b87b7e7947de1602db76805a0b1f41d8274
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-business-relations-on-contact-companies"></a>Uppsetning viðskiptatengsla í tengiliðafyrirtækjum
@@ -30,7 +30,7 @@ Notkun viðskiptatengsla á tengiliði er tveggja þrepa ferli. Fyrst skilgreini
 ## <a name="to-define-a-business-relation-code"></a>Til að skilgreina viðskiptatengslakóða
 Viðskiptatengslarkóðinn skilgreinir flokk eða tegund viðskiptasambandsins, svo sem banka eða lög. Hægt er að hafa nokkrar viðskiptatengslakóða. Til að skilgreina viðskiptatengslin er að nota gluggann **Viðskiptatengsl** .
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptatengsl** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **viðskiptatengsl** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð og fyllt er inn kóði og lýsing. Kóðinn má vera mest 11 stafir, og getur verið hvaða samasetning sem er af tölustafir og bókstafir.
 
 ## <a name="AssignBusRelContact"></a> Til að úthluta viðskiptatengslum á tengilið

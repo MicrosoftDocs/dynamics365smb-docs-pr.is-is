@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d2109a462d5d1a755cf7ffaf45129bec2234376
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 53f2dac9a2ea3b2ec44827e8404abfd10d03e32a
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="flush-components-according-to-operation-output"></a>Birgðaskráning íhluta samkvæmt frálagi aðgerðar
@@ -35,16 +35,16 @@ Til dæmis ef framleiðslupöntun um að framleiða 800 metra krefst 8 kg af íh
 Eftirfarandi ferli sýnir hvernig eigi að sameina afturvirka birgðaskráningu og kóta leiðartengils þannig að magnið sem er skráð fyrir hverja aðgerð sé í samræmi við raunverulegan frálag lokinna aðgerða.  
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Til að birgðaskrá íhluti samkvæmt frálagi aðgerðar  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
 2.  Veldu aðgerðina **Breyta**.  
 3.  Á flýtiflipanum **Áfylling**, í reitnum **Birgðaskráningaraðferð**, skal velja **Framsenda**.  
 
     > [!NOTE]  
     >  Veljið **Tínsla + Áfram** ef íhluturinn er notaður í birgðageymslu sem er sett upp fyrir beinan frágang og tínslu.  
 
-4.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **leiðir** og velja svo viðeigandi tengil.  
+4.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **leiðir** og veldu síðan tengda tengilinn.  
 5.  Skilgreina leiðartengilskóða fyrir hverja aðgerð sem notar íhlutinn. Nánari upplýsingar eru í [Stofna leiðir ](production-how-to-create-routings.md).  
-6.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Framleiðsluuppskrift** og velja svo viðeigandi tengil.  
+6.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **framleiðsluuppskrift** og veldu síðan tengda tengilinn.  
 7.  Skilgreina leiðartengilskóta úr hverju íhlutstilviki við aðgerðina þar sem hann er notaður.
 
     > [!IMPORTANT]  

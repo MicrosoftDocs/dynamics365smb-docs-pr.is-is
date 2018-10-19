@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75f6883961f62b82ec751306693dd29a031b409c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Hönnunarupplýsingar: vöruhúsaflæði inn
@@ -53,7 +53,7 @@ Val á aðferð fer eftir samþykku verklagi fyrirtækisins og flækjustigi. Í 
 ## <a name="basic-warehouse-configurations"></a>Grunngerðir vöruhúss  
 Eftirfarandi skýringarmynd sýnir innflæði í vöruhús eftir skjalagerð grunngerðar vöruhúss. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
-![Flæði á innleið í grunngerðir vöruhúss](media/design_details_warehouse_management_inbound_basic_flow.png "Hönnunarupplýsingar_vöruhúsastjórn_grunnflæði_á_innleið")  
+![Innflæði í grunngerð vöruhúss](media/design_details_warehouse_management_inbound_basic_flow.png "Innflæði í grunngerð vöruhúss")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Upprunaskjal losunar / Stofna Birgðafrágang  
 Þegar vörur berast í vöruhús, gefur notandi sem er ábyrgur fyrir móttöku út upprunaskjaliið, svo sem innkaupapöntun eða flutningspöntun á innleið, til að láta starfsmenn í vöruhúsi vita að mótteknar vörur megi ganga frá í birgðum. Að öðrum kosti stofnar notandinn birgðafrágangsskjöl fyrir stakar pantanalínur, með ýtingu, samkvæmta tilgreindum hólfum og magni sem á að meðhöndla.  
@@ -72,10 +72,10 @@ Jákvæðar birgðahöfuðbókarfærslur eru stofnaðar, vöruhúsafærslur eru 
 ## <a name="advanced-warehouse-configurations"></a>Grunngerðir í ítarlegu vöruhúsi  
 Eftirfarandi skýringarmynd sýnir innflæði í vöruhús eftir skjalagerð í grunngerð ítarlegs vöruhúss. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
-![Flæði á innleið í grunngerð ítarlegs vöruhúss](media/design_details_warehouse_management_inbound_advanced_flow.png "Hönnunarupplýsingar_vöruhúsastjórn_ítarlegt_flæði_á_innleið")  
+![Innflæði í grunngerð ítarlegs vöruhúss](media/design_details_warehouse_management_inbound_advanced_flow.png "Innflæði í grunngerð ítarlegs vöruhúss")  
 
 ### <a name="1-release-source-document"></a>1: Upprunaskjal losunar  
-Þegar vörur berast í vöruhús, gefur notandi sem er ábyrgur fyrir móttöku út upprunaskjaliið, svo sem innkaupapöntun eða flutningspöntun á innleið, til að láta starfsmenn í vöruhúsi vita að mótteknar vörur megi ganga frá í birgðum.  
+Þegar vörur berast í vöruhús, gefur notandi sem er ábyrgur fyrir móttöku út upprunaskjalið, svo sem innkaupapöntun eða flutningspöntun á innleið, til að láta starfsmenn í vöruhúsi vita að mótteknar vörur megi ganga frá í birgðum.  
 
 ### <a name="2-create-inbound-request"></a>2: Stofna innleiðarbeiðni  
 Þegar upprunaskjal á innleið er losað er stofnuð sjálfkrafa stofnuð vöruhúsabeiðni á innleið. Það inniheldur tilvísanir til upprunaskjalstegund og númeri og er ekki sýnilegt notandanum.  

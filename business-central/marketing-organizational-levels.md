@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 974133ffb0324cf6bc3ed37436adb9fb237f5e4d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6680a5dedcbedc3ed7e430c4290871d5fbaaf9ad
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Setja upp stjórnunarstig fyrir tengiliði.
@@ -27,7 +27,7 @@ Notkun viðskiptatengsla á tengiliði er tveggja þrepa ferli. Fyrst að skilgr
 ## <a name="to-define-an-organizational-level-code"></a>Skilgreining viðskiptatengslakóða
 Viðskiptatengslakóði skilgreinir tegund eða flokk stjórnunarstigs, eins og framkvæmdastjóri eða fjármálastjóri. Hægt er að hafa nokkra viðskiptatengslakóða. Glugginn **Stjórnunarstig** er notaður til að skilgreina stjórnunarstigið.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Stjórnunarstig** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stjórnunarstig** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð og fyllt er inn kóði og lýsing. Kóðinn má vera mest 11 stafir, og getur verið hvaða samasetning sem er af tölustafir og bókstafir.
 
 ## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Að úthluta skipulagsstigum til tengiliðs

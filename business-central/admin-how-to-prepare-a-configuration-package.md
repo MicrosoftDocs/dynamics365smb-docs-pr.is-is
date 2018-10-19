@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f9076b4cd565c9d814563549f2afb5b4b5d222da
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Undirbúa grunnstillingarpakka
@@ -32,7 +32,7 @@ Ganga þarf úr skugga um að notandi sé á Mitt hlutverk RapidStart Services i
 >  Hægt er að flytja inn skilgreiningapakka sem hefur verið fluttur út úr gagnagrunni sem hefur annað skemma en markgagnagrunnur. Allar töflur eða reitir sem eru í skilgreiningapakkanum en ekki í markgagnagrunninum verða hins vegar ekki fluttir inn. Töflur með öðrum aðallyklum og reitum með öðrum gagnagerðum verða heldur ekki fluttir inn. Sem dæmi má nefna að gögn munu ekki flytjast yfir ef skilgreiningapakki inniheldur töfluna **50000 Customer** sem hefur aðallykilinn **Code20** og gagnagrunnurinn sem flutt er inn í inniheldur töfluna **50000 Customer Bank Account** sem hefur aðallykilinn **Code20 + Code 20**.  
 
 ## <a name="to-create-a-configuration-package"></a>Til að búa til grunnstillingarpakka  
-1. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarpakkar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Almennt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Til að útiloka skilgreiningarspurningalista, skilgreiningarsniðmát og skilgreiningarvinnublaðatöflur úr pakkanum skal velja gátreitinn **Útiloka skilgreiningartöflur**. Annars verður þessum töflum sjálfkrafa bætt við listann yfir pakkatöflur þegar pakkinn er fluttur út.  
@@ -79,7 +79,7 @@ Hægt er að vista skjalið með nafni sem hefur sérstaka þýðingu fyrir nota
 ### <a name="to-copy-a-configuration-package"></a>Til að afrita grunnstillingarpakka  
 Þegar búið er að stofna pakka sem uppfyllir þarfir notanda er hægt að nota hann sem grunn til að stofna svipaða pakka. Þetta getur hraðað innleiðingartíma og styrkt endurtektarþátt á RapidStart Services.
 
-1. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarpakkar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 2. Veljið pakka af listanum og veljið svo aðgerðina **Afrita pakka**.  
 3. Í reitnum **Nýr sendingarkóti** er færður inn kóti fyrir nýjan pakka.  
 4. Veljið gátreitinn **Afrita gögn** ef einnig á að afrita gögn úr gagnagrunni fyrirliggjandi pakka.  
@@ -88,7 +88,7 @@ Hægt er að vista skjalið með nafni sem hefur sérstaka þýðingu fyrir nota
 ## <a name="to-customize-a-configuration-package"></a>Sérstilla grunnstillingarpakka
 Nota skal skilgreiningarvinnublaðið til að safna og flokka upplýsingarnar sem nota skal til að skilgreina nýtt fyrirtæki, og raða töflum á rökréttan hátt. Uppsetning vinnublaðsins er byggð á einföldu stigveldi: Svæði innihalda flokka og flokkar innihalda töflur. Svæði og flokkar eru valfrjáls, en eru nauðsynleg til að geta séð yfirlit yfir grunnstillingarferlið í Mitt hlutverk RapidStart Services.
 
-1.  Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarvinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
 2.  Í reitnum **Tegund línu** veljið **Svæði**. Færa skal inn lýsandi heiti í reitinn **Heiti**.  
 3.  Í reitnum **Tegund línu** veljið **Flokkur**. Færa skal inn lýsandi heiti í reitinn **Heiti**.  
 4.  Í reitnum **Tegund línu** veljið **Tafla**. Í reitnum **Kenni töflu** skal velja töflu sem á að taka með í vinnublaðinu.  
@@ -105,7 +105,7 @@ Eftir að hafa skilgreint töflurnar sem á að fara með sem hluta af grunnstil
 > [!NOTE]  
 >  Einnig er hægt að búa til pakka beint og bæta við töflum til að hann. Nánari upplýsingar eru í kaflanum „Að stofna grunnstillingarpakka.“
 
-1. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarvinnublað** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.
 2. Á grunnstillingarvinnublaðinu skal velja línu eða flokk af línum sem á að úthluta á grunnstillingarpakka og svo skal velja aðgerðina **Úthluta pakka**.  
 3.  Velja skal pakka af listanum eða velja aðgerðina **Nýtt** til að stofna nýjan pakka og veljið svo hnappinn **Í lagi**.  
 
@@ -115,7 +115,7 @@ Eftir að hafa skilgreint töflurnar sem á að fara með sem hluta af grunnstil
 ## <a name="to-review-or-customize-existing-database-data"></a>Að yfirfara eða sérstilla fyrirliggjandi gagnagrunnsgögn
 Þegar grunnstillingarpakki fyrir lausn er stofnaður, er hægt að skoða og sérstilla tiltæk gagnagrunnsgögn svo þau falli betur að þörfum viðskiptavina. Gagnagrunnstaflan verður að tengjast síðu.  
 
-1. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarvinnublað** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.
 2. Á grunnstillingarvinnublaðinu tilgreinið þær töflur sem innihalda gögn sem á að skoða eða sérstilla.  
 
     > [!NOTE]  
@@ -128,7 +128,7 @@ Eftir að hafa skilgreint töflurnar sem á að fara með sem hluta af grunnstil
 Þegar búið er að staðfesta og prófa allar uppsetningarupplýsingar, er hægt að halda áfram með að afrita gögn í framleiðsluumhverfið. Nýtt fyrirtæki er stofnað í sama gagnagrunni.
 
 1. Opna og ræsa nýja fyrirtækið.  
-2. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarvinnublað** og velja svo viðeigandi tengil.  
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
 3. Veljið aðgerðina **Afrita gögn úr fyrirtækinu**.  
 4. Í **Afrita fyrirtækjagögn** velurðu reitinn **Afrita úr**. Glugginn **Fyrirtæki** opnast.  
 5. Veljið fyrirtækið sem afrita á gögn úr og veljið svo hnappinn **Í lagi**. Lista yfir töflur sem eru valdar við opnun skilgreiningarvinnublaðsins. Aðeins töflur sem innihalda færslur eru teknar með í listanum.

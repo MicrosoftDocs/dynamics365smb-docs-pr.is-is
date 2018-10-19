@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: bcfe657407f4060e9f3ce12b8a87e4ff65e3bf79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 037a1d507ec6705e1cc07db313fb7e78b86fed7e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Færa vörur með ítarlegum vöruhúsaaðgerðum
@@ -23,12 +23,12 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Til að færa vörur með vöruhúsahreyfingarvinnublaðinu
 Glugginn **Vinnublað hreyfingar** hefur tvær aðgerðir sem hjálpa til við að fylla út línurnar sjálfvirkt. Önnur er aðgerðin **Reikna út áfyllingu hólfs**. Aðgerðin notar hólfaflokkun til að leggja til áfyllingu hærra flokkaðra hólfa úr lægra flokkuðum. Hin er aðgerðin **Sækja innihald hólfs** sem fyllir út vinnublaðslínurnar með öllu innihaldi hólfsins eða hólfanna sem eru tilgreind.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Hreyfingarvinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hreyfingavinnublað** og veldu síðan tengda tengilinn.  
 2.  Færið inn upplýsingar um vöruhúsahreyfingar í vinnublaðslínurnar eins og við á.  
 3. Veljið aðgerðina **Stofna hreyfingu** til að stofna vöruhúsahreyfingarskjal sem síðan er hægt að skrá þegar vöruhúsahreyfingunni er lokið.  
 
 ### <a name="to-register-the-warehouse-movement"></a>Vöruhúsahreyfingin skráð  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Hreyfingar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **hreyfing** og veldu síðan tengda tengilinn.  
 2.  Opnar vöruhúsahreyfingu sem á að vinna með.  
 3.  Á línum aðgerðartegundar **Staðsetja** skal tilgreina hvar, sem og, hvenær eigi að færa viðkomandi vöru með því að breyta svæðunum **Svæðiskóti**, **Hólfkóti**, **Magn til afgreiðslu**, eða **Gjalddagi**.  
 
@@ -43,7 +43,7 @@ Glugginn **Vinnublað hreyfingar** hefur tvær aðgerðir sem hjálpa til við a
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>Flutningur á vörum sem þegar hefur átt sér stað skráður  
 Ef birgðageymslan notar beinan frágang og tínslu og það þarf að færa vörurnar í önnur hólf án þess að fyrir sé vöruhúsafrágangur, tínsla eða hreyfing er hægt að skrá rétta staðinn fyrir vörurnar í vöruhúsinu með því að nota **vöruhússendurflokkunarbók**.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Endurflokkunarbók vöruhúss** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruh.endurflokkunarbók** og veldu síðan tengda hlekkinn.  
 2.  Reitirnir **Vörunr.**, **, Frá-svæðiskóti**, **Kóti frá-hólfs**, **Til-svæðiskóti**, and **Kóti til-hólfse** eru fylltir út.  
 3.  Velja aðgerðina **Skrá**.  
 

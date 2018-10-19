@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: edddda48fe91ed2e31b9c709a546730ce50dc6d4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 568cc364b868d9edf2b0126b38ecd2cbc4a5447e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="sales-and-inventory-forecast-for-business-central"></a>Spá um sölu og birgðir fyrir Business Central 
+# <a name="the-sales-and-inventory-forecast-extension"></a>Spá um sölu og birgðir viðbótina
 Birgðastjórnun er málamiðlun á milli notendaþjónustu og stjónun kostnaðar. Ein hliðin er sú að lágar birgðir krefjast minna veltufés, en, á hinn bóginn getur birgðaskortur hugsanlega leitt til tapaðrar sölu. Viðbótin fyrir sölu- og birgðaspá sér fyrir hugsanlegar sölur með því að nota söguleg gögn og veitir skýrt yfirlit yfir viðbúinn birgðaskort. Samkvæmt spá, aðstoðar viðbótin að stofna áfyllingarbeiðnir til lánardrottna þinna og sparar þér tíma.  
 
 ## <a name="setting-up-forecasting"></a>Spáruppsetning

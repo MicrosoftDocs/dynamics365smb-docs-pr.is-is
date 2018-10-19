@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a2ac3261e90b59a7286c9ab0bc64b6681a134134
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 228755cbc36ae9fbdd0f80be6f778b11fb5b3d6a
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="pick-for-assembly-or-production-in-advanced-warehouse-configurations"></a>Tína fyrir samsetningar- eða framleiðslu með ítarlegum vöruhúsaaðgerðum | Microsoft Docs
+# <a name="pick-for-assembly-or-production-in-advanced-warehouse-configurations"></a>Tína fyrir samsetningar- eða framleiðslu með ítarlegum vöruhúsaaðgerðum
 Í ítarlegri vöruhúsastillingu þar sem birgðageymslan notar tínslu auk afhendingar eru íhlutir tíndir fyrir framleiðslu- og samsetningarverkþætti með glugganum **Vöruhús - Tína**.  
 
 Einnig er hægt að nota gluggann **Vinnublað hreyfingar** til að færa vörur milli hólfa á tilfallandi hátt, þ. e. a. án tilvísunar í upprunaskjal. Frekari upplýsingar eru í [Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md).  
@@ -42,7 +42,7 @@ Til að stofna tínslubeiðnir, bæði fyrir tog- og ýtidæmi, þurfa viðkoman
 |Samsetningarpöntun|Breyta stöðu í Útgefið.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Íhlutir tíndir úr tínsluvinnublöðunum:  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vinnublað tínslu** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað tínslu** og veldu síðan tengda tengilinn.  
 2.  Velja skal **Sækja vöruhúsaskjöl** og síðan velja íhlutalínurnar í útgefnu framleiðslupöntuninni.  
 3.  Línurnar eru skoðaðar, þeim raðað til að tryggja skilvirkni tínsluferðarinnar og þær sameinaðar öðrum vinnublaðslínum ef þarf, til að nýta tíma starfsmanna sem best.  
 4.  Veldu aðgerðina **Stofna tínslu**.  

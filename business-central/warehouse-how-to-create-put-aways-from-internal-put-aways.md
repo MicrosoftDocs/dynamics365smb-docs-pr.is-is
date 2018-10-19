@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3faa88fada0969e118c33305b84824e0f0f9b422
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 17955c3ea1294811cd7b9ac6f726d26b0de2755c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Tína og ganga frá án upprunaskjals
@@ -36,13 +36,13 @@ Við aðrar aðstæður, gæti framleiðslueiningin óvænt þurft að fá nokkr
 >  þegar birgðageymslan notar beinan frágang og tínslu og því hólfategundir er ekki hægt að færa vörur handvirkt inn og út úr hólfi af tegundinni RECEIVE því vörur sem eru í hólfi af þeirri gerð verður að skrá sem frágengnar áður en þær verða hluti af tiltækum birgðum.  
 
 ## <a name="to-create-an-internal-pick"></a>Að búa til Innahússtínslur  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innanhússtínsla vöruhúss** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innanhústínsla vöruhúss** og veldu síðan tengda tengilinn.  
 2.  Fylla þarf út reitinn **Nr.**. reitinn og **Kóði til-hólfs** reitinn á flýtiflipanum **Almennt**. Reiturinn **Kóti til-hólfs** tilgreinir hólfið sem vörurnar eru sóttar í. Við framleiðslu væri þetta hólf innhólf framleiðslu eða opið búðarhólf. Annars skal velja Kóta til-hólfs með hólfi af tegund sem ekki er notuð við tínslu, oftast nær undirbúnings- eða afhendingarhólf eða hólf fyrir sérstök tilefni.  
 3.  Vara er valin í reitnum **Vörunr.** og magnið sem á að tína fært inn.  
 4. Veldu aðgerðina **Stofna tínslu**. Vöruhúsatínsluleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss.  
 
 ## <a name="to-create-an-internal-put-away"></a>Stofna innanhússfrágang  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innanhússfrágangur vöruhúss** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innanhússfrágangur vöruhúss** og veldu síðan tengda tengilinn.  
 2.  Fylla þarf út reitinn **Nr.**. og **Frá hólfakóða** reitina á flýtiflipanum **Almennt**. Reiturinn **Kóti frá-hólfs** tilgreinir hólfið þar sem vörurnar sem skila á í vöruhúsið, til dæmis úr framleiðslu, eru geymdar.  
 3.  Vörunúmerin og magnið er fært inn í línurnar.  
 4.  Veldu aðgerðina **Stofna frágang**. Leiðbeiningar um vöruhúsafrágang eru nú tilbúnar fyrir starfsmann vöruhúss.  

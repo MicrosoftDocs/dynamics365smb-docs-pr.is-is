@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2fc2ef2528a1edc85c0a7694c1afc5bec7a0065a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Hönnunarupplýsingar: undir yfirflæðisstigi
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/22/2018
 
 *Athugið: Áætlaðar birgðir [xx] er hærra en yfirflæðisstig [xx] á gjalddaga [xx].*  
 
-![Yfirflæðisstig birgða](media/supplyplanning_2_overflow1_new.png "framboðsáætlun_2_yfirflæði1_nýtt")  
+![Yfirflæðisstig birgða](media/supplyplanning_2_overflow1_new.png "Yfirflæðisstig birgða")  
 
 ##  <a name="calculating-the-overflow-level"></a>Reiknar yfirflæðisstig  
 Yfirflæðisstigið er reiknað út á mismunandi hátt, allt eftir uppsetningu áætlana.  
@@ -100,7 +100,7 @@ Dæmi Áætlaðar birgðir 120 eru meiri en yfirflæðisstigið 60 á 28-01-11
 ### <a name="resulting-planning-lines"></a>Áætlunarlínur  
  Ein áætlunarlína (viðvörun) er stofnuð til að draga úr innkaupum um 30 úr 90 í 60 til að halda áætluðum birgðum í 100 samkvæmt yfirflæðisstiginu.  
 
-![áætla samkvæmt yfirflæðisstigi](media/nav_app_supply_planning_2_overflow2.png "nav_app_framboðsáætlun_2_yfirflæði2")  
+![Áætla samkvæmt yfirflæðisstigi](media/nav_app_supply_planning_2_overflow2.png "Áætla samkvæmt yfirflæðisstigi")  
 
 > [!NOTE]  
 >  Ef búnaðurinn Yfirfall er ekki til staðar er ekki stofnuð nein viðvörun ef áætlaðar birgðir eru meiri en hámarksbirgðir. Þetta kann að valda óþörfu framboði upp á 30.  

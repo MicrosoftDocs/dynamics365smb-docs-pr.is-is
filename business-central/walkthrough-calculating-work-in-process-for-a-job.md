@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a8d77f57072be841a521271efa7f0fd643363b8a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Kynning: Útreikningur á VÍV fyrir verk
@@ -59,7 +59,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
 ### <a name="to-calculate-wip"></a>Útreikningur VÍV  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2.  Á listanum **Verk** er verkinu **Deerfield** valin og svo er valin aðgerðin **Breyta**. Þetta opnar verkspjaldið í breytingastillingu.  
 
      Hægt er að reikna VÍV eftir Kostnaðarvirði, Söluvirði, Sölukostnaði, Prósentum lokið eða Samningi lokið. Í þessu dæmi, notar Cronus aðferðina kostnaðarvirði.  
@@ -91,7 +91,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
 ### <a name="to-review-wip-warnings"></a>Til að fara yfir viðvaranir VÍV  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk VÍV Stjórnklefi** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VÍV-stjórnklefi verks** og veldu síðan tengda tengilinn.  
 2.  Veljið verkið **Deerfield** og svo er valin aðgerðin **Sýna**.  
 3.  Í glugganum **VÍV-viðvaranir verks** skal fara yfir viðvörunina sem tengist verkinu.  
 

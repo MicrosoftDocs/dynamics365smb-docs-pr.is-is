@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a7918a962f3349c68cd7245e9b12f83975aee5ac
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9092100816c58fe2882c61214a5008e27591d4f5
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-away-production-or-assembly-output"></a>Ganga frá framleiðslu eða samsetningarfrálagi
@@ -29,14 +29,14 @@ Hvernig gengið er frá frálagi úr framleiðslu fer eftir því hvernig vöruh
 Fyrsti áfanginn í stofnun birgðafrágangs er að stofna innleiðarbeiðni í vöruhúsi. Þessi beiðni lætur vöruhúsið vita að frálag framleiðslu eða samsetningarpöntunar sé tilbúið til frágangs.
 
 ## <a name="to-create-the-inbound-warehouse-request"></a>Stofna innleiðarbeiðni í vöruhúsi:  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **útgefin framleiðslupöntun** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **útgefin framleiðslupöntun** og veldu síðan tengda tengilinn.  
 2.  Í framleiðslupöntuninni sem er tilbúin til frágangs, skal velja aðgerðina **Stofna vöruh.beiðni á innleið**.  
 
 > [!NOTE]  
 >  Einnig er hægt að stofna á vöruhúsabeiðni á innleið með því að gátreitinn **Stofna beiðni á innleið** þegar framleiðslupöntun er endurnýjuð. Frekari upplýsingar, sjá [Uppfæra eða enduráætla framleiðslupantanir](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Gengið frá frálagi með Birgðafrágangi  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðafrágangur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **birgðafrágangur** og veldu síðan tengda tengilinn.  
 2.  Nýr birgðafrágangur er stofnaður. Nánari upplýsingar eru í [Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Til að komast í íhluti framleiðslupöntunarinnar, veldu aðgerðina **Sækja upprunaskjöl** og síðan er útgefna framleiðslupöntunin valin.  
 4.  Frágangslínurnar eru fylltar út.
@@ -49,7 +49,7 @@ Einnig er hægt að stofna **Birgðafrágang** beint úr útgefnu framleiðslup�
 Ef aðeins þarf að bóka uppsetningar- eða keyrslutíma við síðustu aðgerð skal stilla frálagsmagn síðustu aðgerðar á 0. Einnig er hægt að velja að bóka ekki síðustu línuna með því einfaldlega að eyða henni.  
 
 ## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Gengið frá frálagi með innanhússfrágangi vöruhúss
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innanhússfrágangur vöruhúss** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innanhússfrágangur vöruhúss** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.
 3. Í haus nýja innanhússfrágangsins þarf að tilgreina að minnsta kosti **kóta birgðageymslu**.  
 4. Fylla skal út eina línu fyrir hverja vöru sem flytja á í vöruhúsið. Aðeins þarf að fylla út í reitina **Vörunr.** og **Magn**.  
@@ -64,7 +64,7 @@ Ef aðeins þarf að bóka uppsetningar- eða keyrslutíma við síðustu aðger
 >  Þegar vöruhúsið er sett upp þannig að það noti beinan frágang og tínslu er vöruhúsið tengt framleiðslunni með sjálfgefnum framleiðsluhólfunum: Inn- og úthólf framleiðslu og opið búðarhólf sem öll eru skilgreind á flýtiflipanum **Hólf** á birgðageymsluspjaldinu. Þegar frálag framleiðslupöntunar er bókað er frálagið sjálfkrafa sett í **hólf framleiðslu á útleið**. Sama aðferð og lýst var að framan er notuð til að ganga frá framleiðslufrálaginu nema að í stað þess að nota sjálfgefið hólf vörunnar eru vörurnar færðar eða gengið frá þeim úr **hólfi framleiðslu á útleið** yfir í sjálfgefið hólf vörunnar.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Til að tilgreina handvirkt hólf til að geyma vörur úr framleiðslufrálagi  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Hreyfingarvinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hreyfingavinnublað** og veldu síðan tengda tengilinn.  
 2.  Hausinn er fylltur út og lína stofnuð fyrir hverja vöru sem flytja á í vöruhúsið.  
 3.  Reitirnir **Kóti frá-hólfs** og **Kóti til-hólfs** eru fylltir út og magnið fært inn í reitinn **Magn**.  
 4.  Til að fylla vinnublaðslínurnar með öllu innihaldi hólfsins eða afmörkuðu innihald hólfa í birgðageymslunni, skal velja aðgerðina **Sækja hólfainnihald**.  

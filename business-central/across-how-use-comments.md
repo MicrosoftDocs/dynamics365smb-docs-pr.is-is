@@ -1,0 +1,40 @@
+---
+title: "Bæta við athugasemdum við kort og skjöl | Microsoft Docs"
+description: "Bættu við aukaupplýsingum við reikninga, viðskiptamannakort eða söluskipanir til að miðla samningum, svo sem sérstöku verði eða afhendingu, til annarra notenda."
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: tasks, work
+ms.date: 10/01/2018
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 17a37dd74565266c748439bf4ee5eecfa8e8c7ea
+ms.contentlocale: is-is
+ms.lasthandoff: 09/28/2018
+
+---
+# <a name="add-comments-to-cards-and-documents"></a>Bæta við athugasemdum við kort og skjöl
+Þú getur bætt við aukaupplýsingum í fjárhagsreikninga, viðskiptamannakort eða sölupantanir til að senda undanþágur eða sérstakar samningar til annarra notenda.
+Nánast öll kort og skjal að hafa **ummæla** aðgerð, sem opnar **Athugasemda** glugga þar sem þú getur skrifað eða lesið athugasemdir. Á skjölum er einnig hægt að bæta við athugasemdum við einstakar línur.
+
+Athugasemdir um áframhaldandi skjöl eru fluttar til tengda skjalsins. Til dæmis eru ummæli um sölupöntun flutt í bókaða söluafhendingu sem leiðir af henni.
+
+> [!NOTE]
+> Athugasemdir eru ekki prentaðar eða fluttar til skýrslna eða utanaðkomandi skjala.
+
+Eftirfarandi lýsir því hvernig á að bæta athugasemd við birgðaspjald. Skrefin eru svipuð fyrir öll önnur kort og skjöl, nema á skjalalínum er aðgerðin **Athugasemdir** sett í valmyndina aðgerðarlínur.
+
+## <a name="to-add-a-comments-to-an-item-card"></a>Til að bæta athugasemdum við birgðaspjald
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
+2. Viðeigandi birgðaspjald er opnað.
+3. Skal velja **Athugasemd** aðgerð.
+4. Í glugganum **Athugasemdablað** skaltu slá inn hvaða texta sem er og þá velja hnappinn **Í lagi**.
+
+## <a name="see-also"></a>Sjá einnig
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Almenn viðskiptavirkni](ui-across-business-areas.md)
+

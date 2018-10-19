@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 05/17/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 4a22150d1fd0afa296cd10cf3d9e4315107f20b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8ef6ef563fd34471c4e82398ffa8c1d4e49c5a59
 ms.contentlocale: is-is
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Afstemma greiðslur með sjálfvirkri jöfnun
@@ -43,7 +43,7 @@ Fyrir hverja færslubókarlínu í **greiðsluafstemmingarbók** glugganum getur
 > Hægt er að hefja bankafærsluinnflutninginn á sama tíma og glugginn **greiðsluafstemmingarbók** er opnaður fyrir fyrirliggjandi greiðsluafstemmingarbók í glugganum **Greiðsluafstemmingarbækur**. Eftirfarandi ferli lýsir því hvernig á að flytja inn bankafærslur í **greiðsluafstemmingarbók** gluggann eftir að ný færslubók hefur verið búin til.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Til að afstemma greiðslur með sjálfvirk jöfnun
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greiðsluafstemmingarbækur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðsluafstemmingarbækur** og veldu síðan tengda tengilinn.
 2. Til að vinna í nýrri greiðsluafstemmingarbók, veldu aðgerðina **Ný færslubók**.
 3. Í glugganum **Listi yfir bankareikninga fyrir greiðslu** er valið bankareikningur sem á að jafna greiðslur fyrir, og smellt síðan á **Í lagi** hnappinn.
    **greiðsluafstemmingarbók** Glugginn opnast undirbúinn fyrir valda bankareikninginn.

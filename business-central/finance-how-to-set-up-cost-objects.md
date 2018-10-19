@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c871eaea1eb7d7755b4b9fce6b6db87a15e1eed5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3eb90611939dce2134d9413812918c2afb82c083
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-cost-objects"></a>Uppsetning kostnaðarhluta
@@ -27,7 +27,7 @@ Kostnaðurhlutir eru verkefni, afurðair eða þjónustur fyrirtækis. Myndrit k
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Til að flytja víddargildi úr fjárhag í kostnaðarhluti  
 1.  Stilla vídd sem á að vera kostnaðarliðarvíddin í glugganum **Uppfæra CA víddir**. Aðeins gildi úr þessari vídd er flutt.  
-2.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Myndrit yfir kostnaðarhluti** og velja svo viðeigandi tengil.  
+2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit yfir kostnaðarhluti** og veldu síðan tengda tengilinn.  
 3.  Veljið aðgerðina **Sækja kostnaðarhluti úr vídd** til að flytja víddargildi í myndriti kostnaðarhlutanna. Aðgerðin flytur víddargildin sem skilgreind voru í skrefi 1.  
 
     > [!NOTE]  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
-ms.date: 08/15/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 55e1dd3f9f7a85867f5609190c4766839326ca7a
 ms.contentlocale: is-is
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Algengar spurningar
@@ -26,7 +26,7 @@ ms.lasthandoff: 07/31/2018
 Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gefa til kynna að þú eigir að nota vinnu eða skóla netfang. Nánari upplýsingar sjá [Úrræðaleit sjálfsafgreiðslu nýskráning](ui-troubleshoot-self-signup.md).  
 
 ## <a name="do-i-have-to-buy-office-365"></a>Þarf ég að kaupa Office 365
-Númer Ef notandi vill upplifa [!INCLUDE[d365fin](includes/d365fin_md.md)] að fullu samþætt við Office 365 er hægt að skrá sig í 1 mánaðar ókeypis prufutímabil fyrir Office 365 [hér](https://products.office.com/try).  
+Nei. Ef notandi vill upplifa [!INCLUDE[d365fin](includes/d365fin_md.md)] að fullu samþætt við Office 365 er hægt að skrá sig í 1 mánaðar ókeypis prufutímabil fyrir Office 365 [hér](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Hvað er samþættingin við Office 365 um?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er fullsamþætt Office 365 svo notandi getur flett frjálslega á milli Office 365 smáforrita og [!INCLUDE[d365fin](includes/d365fin_md.md)] með forritavalmynd. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að opna gögn í Excel, prenta skýrslur með Word, og notandi getur unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögn í Outlook, til dæmis. Nánari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnboxið þitt í Outlook](admin-outlook.md).  
@@ -55,15 +55,8 @@ Ef þú hefur aðgang að Microsoft CustomerSource getur þú fengið aðgang a�
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er fáanlegt á takmörkuðum fjölda markaða, en nýjum löndum er bætt við með staðfæringum sem eru leiddar af Microsoft eða samstarfsaðilum ársfjórðungslega. Nánari upplýsingar eru í [Studd lönd og þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Afhverju eru sumar viðmótseiningar sem ég notaði í Dynamics NAV ekki sýnilegar í [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)], gerir kerfishlutinn og valkostir upplifunarinnar þér kleift að sýna/fela viðeigandi hluta vörunnar samkvæmt keyptri áskrift (grunn- og úrvalsáskrift) og í samræmi við vðiskiptaþarfir þínar.
-
-Þessir möguleikar hafa verið notaðir til að einfalda notendaviðmótið í staðlaða útgáfunni af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til dæmis hafa reitir sem ekki eru oft notaðir, t.d. **Faxnúmer**, verið fjarlægðir og á borðum á listum og spjöldum hafa tvíteknar aðgerðir verið fjarlægðar og mest notuðu aðgerðirnar færðar ofar. Nokkrir fullkláraðir eiginleikar, t.d. athugasemdir, er verið að fínstilla fyrir vefbiðlarann og eru því ekki tiltækir í [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-Samkvæmt því eru ákveðnar viðmótseiningar sem eru sýnilegar í stöðluðu útgáfunni af Dynamics NAV ekki sýnilegar í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Stýringarnar sem um ræðir hafa nú kerfishlutamerkið #Ítarlegur.
-
-Ef þú vilt að [!INCLUDE[d365fin](includes/d365fin_md.md)] lausnin þín innihaldi sömu viðmótseiningarnar og Dynamics NAV lausnin þín verður þú að framkvæma nokkur skref í þróunarumhverfinu til að fá #Ítarlegu stýringarnar, með viðbót. Frekari upplýsingar er að finna í [Stækkun kerfishluta](/dynamics365/dev-itpro/developer/devenv-extending-application-areas).
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Af hverju lýsir Hjálp virkni sem ég hef ekki aðgang að?
+Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** glugganum er stillt á **Nauðsynleg**, þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).    
 
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa](product-get-started.md)  

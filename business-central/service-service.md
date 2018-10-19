@@ -8,16 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: a4ff35d8339326a0cc4a42014c82e081fb940a61
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 06f2f8d56d16ef1177bf49e30795cf41af69b8bd
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="service-management"></a>Þjónustukerfi
+> [!NOTE]
+> Virkni sem lýst er í þessu efni og undirviðfangsefni er aðeins sýnilegt í notendaviðmótinu ef þú hefur **Úrvals** upplifun. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
+
 Að veita viðskiptamönnum þjónustu er mikilvægur hluti fyrirtækjareksturs, og getur hún verið uppspretta ánægju og tryggðar þeirra, auk þess að skapa fyrirtækinu tekjur. Hins vegar er stjórnun og rakning þjónustu ekki alltaf auðveld, og í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru verkfæri til að auðveldar slíkt. Þessi verkfæri eru hönnuð til að styðja aðgerðir á vettvangi og verkstæðum, og nýtast í viðskiptaaðstæðum á borð við flókin þjónustudreifingarkerfi viðskiptamanna, iðnaðarþjónustuumhverfi með uppskriftir, og afgreiðslu þjónustutæknimanna með varahlutastjórnunarþarfir í stórum stíl.  
 
  Með þessum verkfærum er hægt að ná fram eftirfarandi:  
@@ -46,5 +49,4 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

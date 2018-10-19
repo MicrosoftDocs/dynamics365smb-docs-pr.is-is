@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d57669191209090f15a424537d98d106db681a38
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0f49faba7360ccf2e93ab62176752a503335f3f1
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-allocation-source-and-targets"></a>Setja upp uppruna og markhópa úthlutanna
 Hver úthlutun samanstendur af úthlutunaruppruna og einu eða fleiri úthlutunarmörkum. Úthlutunaruppruninn skilgreinir hvaða kostnaði skal úthlutað. Úthlutunarmörkin ákvarða hvert kostnaði verður úthlutað.  
 
 ## <a name="to-set-up-cost-allocations"></a>Til að setja upp kostnaðarúthlutanir  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Kostnaðarúthlutun** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kostnaðarúthlutun** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Kostnaðarúthlutun** skal velja reitinn **Breyta**.  
 3.  Færið inn kenni fyrir úthlutunaruppsprettu í reitnum **Kenni**.  
 4.  Skilgreina stig sem tölu á bilinu 1 til 99 í reitnum **Stig**. Úthlutunarbókunin mun fylgja röð stiganna.  

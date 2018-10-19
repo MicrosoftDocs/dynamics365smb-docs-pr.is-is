@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d9e299ff00dae0d07a1f1b924bdef798655357d0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Áætla frágang á vinnublöðum
@@ -33,7 +33,7 @@ Ef gátmerki er ekki sett í þennan reit eru frágangsleiðbeiningar stofnaðar
 > 2.  Þessu er haldið áfram þar til línunum sem vinna á með á vinnublaðinu hefur verið eytt. Veljið nú **Vinnublöð frágangs** og haldið áfram að áætla.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Leiðbeiningar áætlaðar á vinnublaði frágangs:  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Frágangsvinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað frágangur** og veldu síðan tengda tengilinn.  
 2.  Valið er **Sækja vöruhúsaskjöl** aðgerð. Glugginn **Frágangsval** opnast.  
 
     Hægt er að sjá allar bókaðar móttökur og skráðan innanhússfrágang sem send hafa verið í frágangsaðgerðina, þar á meðal þá sem frágangsleiðbeiningar hafa þegar verið stofnaðar fyrir. Skjöl með frágangslínur sem gengið hefur verið frá að fullu og skráðar birtast ekki á þessum lista.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 05/15/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 32f5b2b19dc74d3849a313e3d93fdb70146cdb23
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a69aa15b544ce3eee819fc9a05f6f0c8a74af6bc
 ms.contentlocale: is-is
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Afstemma bankareikninga hvern fyrir sig
@@ -45,7 +45,7 @@ Hægt er að fylla á **Bankayfirlitslínur** svæðið í á **afstemming banka
 >   Ef bankayfirlitslínur tengjast tékkafærslum þá er ekki hægt að nota jöfnunaraðgerðirnar. Í staðinn þarf að velja aðgerðina **Jafna færslur** og velja síðan viðkomandi tékkafrærslu til að jafna bankayfirlitslínuna með.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Fylla inn í línur bankaafstemmingar með því að flytja inn bankayfirlit.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **afstemming bankareiknings** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afstemming bankareiknings** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Í reitnum **Reikningur nr.** er viðkomandi bankareikningskóti valinn. bankareikningsfærslur sem eru til staðar á bankareikningi birtast í svæðinu **Bankareikningsfærslur**.
 4. Í reitinn **Dagsetning yfirlits** er færð dagsetning bankayfirlitsins.
@@ -64,7 +64,7 @@ Hægt er að fylla á **Bankayfirlitslínur** svæðið í á **afstemming banka
 Glugginn býður upp á sjálfvirkar jöfnunaraðgerðir sem beita greiðslum á tengdar opnar færslur þeirra sem byggja á samsvörun texta í bankayfirlitslínu (vinstri rúðunni) við texta í einni eða fleiri færslum í höfuðbók bankareiknings (hægri rúðunni). Athugaðu að þú getur skrifað yfir ráðlagðar sjálfvirkar jafnanir og þú getur valið að nota ekki sjálfvirkar jafnanir yfirhöfuð. Nánari upplýsingar er að finna í næsta ferli.
 
 1. Í glugganum **Afstemming bankareiknings** er valið **jafna sjálfkrafa** Glugginn **Jafna bankafærslur** opnast.
-2. Í reitnum **Vikmörk færsludagsetningar (dagar** skal tilgreina þann fjölda daga fyrir og eftir bókunardagsetningu fjárhagsfærslu bankareiknings sem hafður er með í leitinni að samsvarandi færsludagsetningum á bankayfirlitinu.
+2. Í reitnum **Vikmörk færsludagsetningar (dagar)** skal tilgreina þann fjölda daga fyrir og eftir bókunardagsetningu fjárhagsfærslu bankareiknings sem hafður er með í leitinni að samsvarandi færsludagsetningum á bankayfirlitinu.
 
     Ef 0 er slegið inn eða reiturinn hafður auður leitar aðgerðin **Sjálfvirk jöfnun** aðeins eftir samstæðum færsludagsetningum í bókunardagsetningu á bankareikningsfærslum.
 3. Velja hnappinn **Í lagi**.

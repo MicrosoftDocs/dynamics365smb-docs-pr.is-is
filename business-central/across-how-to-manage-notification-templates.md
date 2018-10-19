@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d6c7637527c9a93024ee62dbdd32ba63d665661d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-notification-templates"></a>Vinna með tilkynningasniðmát
@@ -27,7 +27,7 @@ Tilkynningar eru sendar til verkflæðisnotenda til að tilkynna þeim um skref 
  Almenn útgáfa af [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur þrjú tilkynningasniðmát, eitt þar sem tilkynnt er um samþykktarbeiðnir, annað til að tilkynna um nýjar færslur og þriðja til að tilkynna um samþykktarbeiðnir sem komnar eru fram yfir tíma. Þessar þrjár fyrirframskilgreindur tilkynningasniðmát styðja **Tölvupóstur** og **Athugasemd** sem tilkynningaraðferð. Til að skoða efnisinnihald sniðmátanna þriggja skal skoða kaflann „Efnisinnihald tilkynningasniðmáta“ í þessum kafla.
 
 ## <a name="to-create-a-new-notification-template"></a>Til að búa til nýtt tilkynningasniðmát  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Tilkynningasniðmát** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **tilkynningasniðmát** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Tilkynningasniðmát** skal velja aðgerðina **Nýtt**.  
 3.  Fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
@@ -40,7 +40,7 @@ Tilkynningar eru sendar til verkflæðisnotenda til að tilkynna þeim um skref 
     |**Sjálfgefið**|Tilgreina hvort tilkynningasniðmát verði sjálfkrafa notað.|  
 
 ## <a name="to-modify-a-notification-template"></a>Tilkynningarsniðmáti breytt  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Tilkynningasniðmát** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **tilkynningasniðmát** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Tilkynningasniðmát** skal velja tilkynningasniðmátið sem á að breyta.  
 3.  Velja skal **Efni útflutningssniðmáts** aðgerðina.  
 4.  Í glugganum **Flytja út skrá** skal velja hnappinn **Vista** og svo velja heiti og vista HTML-skrá í viðeigandi staðsetningu.  

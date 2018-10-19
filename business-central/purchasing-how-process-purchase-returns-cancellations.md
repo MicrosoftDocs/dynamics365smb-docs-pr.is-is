@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 08/03/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f961382ec80d4b7371c79df9e2b397cb7aea8b72
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2833a18275e396a04f78b5707d885bfbd5946218
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Meðhöndlun innkaupaskila eða afturkallana
@@ -50,7 +50,7 @@ Til að úthluta nákvæmri bakfærslu kostnaðar, skal velja reitinn **Jafna fr
 Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðakostnaður](design-details-inventory-costing.md)
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Stofna nýjan innkaupakreditreikning úr bókaðan innkaupareikningur.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bókaðir innkaupareikningar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókaðir innkaupareikningar** og veldu síðan tengda tengilinn.  
 2. Í gluggann **Bókaðir innkaupareikningar** og veldu bókaða innkaupareikninginn sem á að bakfæra og veldu svo stofna aðgerðina **stofna leiðréttandi kkreditreikning**
 
     Flestir reitir á innkaupakreditreikningshausnum eru nú fylltir út með upplýsingum úr bókaður innkaupareikningur Hægt er að breyta allir reitir, til dæmis með nýjar upplýsingar sem endurspegla endursenda samkomulagið.
@@ -63,14 +63,14 @@ Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðakostnaður](design-d
 7. Velja hnappinn **Í lagi**. Þegar innkaupakreditreikningurinn er bókaður, verður hann jafnaður við tilgreinda bókaða innkaupaskjölin
 
     Þegar stofnaðar eða breyttar hafa verið línur fyrir innkaupakreditreikninga og ein eða fleiri jöfnun hefur verið tilgreind, er hægt að fara í að bóka innkaupakreditreikninginn.
-8. Valið er **bóka** aðgerð.
+8. Valið er **Bóka** aðgerðin.
 
 Bókuðu innkaupareikningarnir sem jafnaðir eru við kreditreikninginn eru nú bakfærðir. Ef þegar upprunalegi reikningurinn hefur þegar verið greiddur ætti lánardrottinn nú að endurgreiða greiðsluna. Ef kreditreikningurinn er aðeins fyrir hluta afurðarinnar á upprunalega reikningnum geturðu aðeins greitt eftirstandandi upphæð á upprunalega innkaupareikningnum til að loka honum.
 
 Innkaupakreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal á lista bókaðra innkaupakreditreikninga.
 
 ## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Til að stofna nýjan innkaupakreditreikning með því að afrita bókaðan innkaupareikningur.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupakreditreikningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innkaupakreditreikningar** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð til að opna ný auður innkaupakreditreikningur.
 3. Í reitnum **lánardrottins** er fært inn nafn núverandi lánardrottins.
 4. Valið er **Afrita fylgiskjal** aðgerð.
@@ -81,7 +81,7 @@ Innkaupakreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal 
 9. Ljúktu Innkaupakreditreikningur eins og útskýrt er í reitnum "Stofna nýjan innkaupakreditreikning úr bókaðan innkaupareikningur" hlutanum í þessu efnisatriði.
 
 ## <a name="to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents"></a>Til að stofna vöruskilapöntun innkaupa byggða á einu eða fleiri bókuðu innkaupaskjali.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vöruskilapöntun innkaupa** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruskilapantanir innkaupa** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllt er út í reitina á flýtiflipanum **Almennt** eftir þörfum.
 4. Á flýtiflipanum **Línur** skal fylla þessar línur út handvirkt, eða afrita upplýsingar úr öðrum fylgiskjölum til að fylla út línurnar sjálfvirkt:
@@ -141,7 +141,7 @@ Ef rangar vörur berast frá lánardrottni t.d. ef þær eru eitthvað skemmdar,
 
 Hægt er að bóka þetta lægra innkaupaverð sem kostnaðarauka á kreditreikningi eða vöruskilapöntun og tengja það bókuðu móttökunni. Eftirfarandi lýsir því fyrir vöruskilapöntun innkaupa, en sömu skref eiga við um innkaupakreditreikning.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupakreditreikningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innkaupakreditreikningar** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð til að opna ný auður innkaupakreditreikningur.  
 3.  Upplýsingar um lánardrottininn sem sendi innkaupauppbótina eru færðar í kreditreikningshausinn.  
 4. Á flýtiflipanum **Línur** í reitnum **Tegund** er valin **Gjald (vara)**.  
@@ -166,7 +166,7 @@ Ef skila á vörum sem eru í mismunandi innkaupapöntunum til eins lánardrotti
 > [!NOTE]  
 > Þessi aðferð gerir ráð fyrir því að til séu margar innkaupaskilapantanir fyrir lánardrottinn og að þær séu bókaðar sem sendar.     
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupakreditreikningar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innkaupakreditreikningar** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3. Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt**.  
 4. Velja aðgerðina **Sækja vöruskilaafhendingarlínur**.  
@@ -177,7 +177,7 @@ Ef skila á vörum sem eru í mismunandi innkaupapöntunum til eins lánardrotti
 
 ### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Til að fjarlægja opnar vöruskilapantanir innkaupa eftir bókun sameinaðrar afhendingar  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Eyða reikningsfærðum vöruskilapöntun innkaupa** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða Reikningsfærðum vöruskilapöntunum innkaupa** og veldu síðan tengda tengilinn.  
 2.  Fyllið út aðra reitina að þörfum og smellið veljið síðan hnappinn **Í lagi**.  
 3.  Að öðrum kosti skal eyða einstökum vöruskilapöntunum innkaupa handvirkt.
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5125a0d0b298487130588146f1307379f465da0e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 39d917ffcfb342aaea04b3668e032d548ef17ec9
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -28,7 +28,7 @@ Hægt er að setja upp verðlagningarflokka og varpa þeim á ákveðin tímabil
 ## <a name="to-set-up-a-service-price-group"></a>Uppsetning þjónustuverðflokka
 Setja má upp hópa með þjónustuvöru sem á að njóta sömu sérþjónustuverðlagningar. Þjónustuverðflokkar eru úthlutaðir þjónustuvöru í þjónustuvörulínum. Einnig er hægt að úthluta þjónustuverðflokkum til þjónustuvöruflokka.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuverðflokkar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverðflokkar** og veldu síðan tengda hlekkinn.  
 2. Nýr þjónustuverðflokkur er stofnaður.  
 3. Fyllt er í reitina **Kóti** og **Lýsing**.  
 4. Veldu aðgerðina **Uppsetning**.  
@@ -40,7 +40,7 @@ Setja má upp hópa með þjónustuvöru sem á að njóta sömu sérþjónustuv
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Uppsetning þjónustuverðleiðréttingarflokka  
 Þú getur setja upp verðleiðréttingaflokka til að leiðrétta þjónustuverðlagningu vegna þjónustuvöru. Til dæmis má setja upp verðleiðréttingarflokka sem leiðrétta verð á flutningi eða varahlutum.  
   
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuverðleiðréttingarflokkar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverðleiðréttingarflokkar** og veldu síðan tengda hlekkinn.  
 2. Nýr þjónustuverðleiðréttingarflokkur er stofnaður.  
 3. Fyllt er í reitina **Kóti** og **Lýsing**.  
 4. Í reitnum **Tegund** er færð inn tegund færslunnar sem á að leiðrétta.  
@@ -58,11 +58,11 @@ Setja má upp hópa með þjónustuvöru sem á að njóta sömu sérþjónustuv
 Þegar unnið er við þjónustuvöru og þjónustupöntunum getur þurft að skrá aukakostnað, eins og ferðakostnað til ákveðinna þjónustusvæða eða startkostnað. Þegar þú stofnar þjónustupöntun, geturðu fært inn þennan kostnað og lína með tegundina **Kostnaður** verður bætt við pöntunina. Að öðrum kosti, ef þú vilt úthluta kostnaðinum til allra þjónustupantana, geturðu sett upp sjálfvirkan kostnað. Ef þú vilt til dæmis alltaf úthluta startkostnaði.
   
 ### <a name="to-set-up-service-costs"></a>Setja upp þjónustukostnað
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustukostnaður** og velja svo viðeigandi tengil. 
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustukostnaður** og veldu síðan tengda hlekkinn. 
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Tilgreina sjálfgefinn kostnaðar vegna þjónustupantana
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning þjónustu** og velja svo viðeigandi tengil. 
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning þjónustu** og veldu síðan tengda tengilinn. 
 2. Í reitnum **Upphafsgjald þjónustupöntunar** skal velja viðeigandi startkostnað.
 
 ## <a name="see-also"></a>Sjá einnig

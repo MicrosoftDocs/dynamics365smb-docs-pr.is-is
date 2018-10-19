@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 7bab8449c957048e49b84eed53647e2921123fe7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b531cfcb024444e098363725a4e0098d4651396b
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Setja upp starfsábyrgðir fyrir tengilið.
@@ -27,7 +27,7 @@ Notkun starfsábyrgðir á tengiliði er tveggja þrepa ferli. Fyrst skilgreinir
 ## <a name="to-define-a-job-responsibility-code"></a>Að skilgreina starfsábyrgðarkóða
 Starfsábyrgðarkóði skilgreinir tegund eða flokk verks, eins og markaðssetning eða innkaup. Hægt er að hafa nokkra starfsábyrgðarkóða. Til að skilgreina starfsábyrgð á að nota í **starfsábyrgð** gluggann.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Starfsábyrgðir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsábyrgð** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð og fyllt er inn kóði og lýsing. Kóðinn má vera mest 11 stafir, og getur verið hvaða samasetning sem er af tölustafir og bókstafir.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Að úthluta starfsábyrgð á tengilið

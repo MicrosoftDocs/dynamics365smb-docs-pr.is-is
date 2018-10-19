@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c9dbffe821389fd237823acd110dd7e0c1ed908f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Kynning: Framkvæmd söluherferðar
@@ -62,7 +62,7 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 
 ### <a name="to-set-up-a-campaign"></a>Uppsetning herferðar  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Herferðir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söluherferðir** og veldu síðan tengda tengilinn.  
 2.  Til að búa til nýja herferð skal velja aðgerðina **Nýtt**. Á söluherferðarspjaldinu er stutt á Færslulykilinn til að söluherferðarnúmer verði sjálfkrafa sett inn.  
 3.  Í reitinn **Lýsing** er færð inn lýsing á herferðinni, t.d. **FUTURUS - sölusýning**.  
 4.  Veldu reitinn **Stöðukóti** og veldu stöðukóta af listanum sem opnast í glugganum **Staða söluherferðar**.  
@@ -148,11 +148,11 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 
 9. Viðhengi hafa verið send. Þegar ferlinu er lokið skal velja hnappinn **Í lagi** fyrir skilaboðin sem tilkynna að hlutinn hafi verið skráður.  
 
-     Bókstafir eru sjálfkrafa prentaðir og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er fluttur í lista yfir skráða hluti. Til að sjá þann lista, velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skráðir Hlutar** og velja svo viðeigandi tengil.  
+     Bókstafir eru sjálfkrafa prentaðir og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er fluttur í lista yfir skráða hluti. Til að sjá þann lista velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skráðir hlutar** og veldu síðan tengda tengilinn.  
 
 10. Eftir að hlutinn er skráður, er hvert bréf sem er sent skráð sem samskipti, sem sjá má í kladdanum.  
 
-     Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Samskiptaskrá færslur** og velja svo viðeigandi tengil. Til er færsla fyrir hvern sendan staf.  
+     Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Samskiptaskráningarfærsla** og veldu síðan tengda tengilinn. Til er færsla fyrir hvern sendan staf.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Til að senda tölvupóstskeyti á tengilið  
 
@@ -165,7 +165,7 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 7.  Velja gátreitinn **Stofna eftirfylgnihluta**.  
 8.  Velja hnappinn **Í lagi**.  
 
-     Bókstafir eru sjálfkrafa sendir með tölvupósti og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er vistaður í lista yfir skráða hluti. Til að sjá þann lista, velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skráðir Hlutar** og velja svo viðeigandi tengil.  
+     Bókstafir eru sjálfkrafa sendir með tölvupósti og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er vistaður í lista yfir skráða hluti. Til að sjá þann lista velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skráðir hlutar** og veldu síðan tengda tengilinn.  
 
 ## <a name="registering-campaign-responses"></a>Skráning svara við herferð  
  Næstu vikur svara hugsanlegir viðskiptamenn bréfinu. Markaðsstjórinn vill fylgjast með svörunum og skrá samskiptin.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1edc95588e9515d9ef4165e5e6b791bce03a1d4f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 32962687b1f1ba9e49ae89e295f1e665fe05f871
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-archived-workflow-step-instances"></a>Skoða verkflæðisskrefstilvik í skráasafni
@@ -25,12 +25,12 @@ ms.lasthandoff: 03/22/2018
  Í glugganum **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Frekari upplýsingar eru í [Búa til verkflæði](across-how-to-create-workflows.md).  
 
 ## <a name="to-view-archived-workflow-step-instances"></a>Skoða verkflæðisskrefstilvik í skráasafni  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkflæði** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **verkflæði** og veldu síðan tengda tengilinn.  
 2.  Opnið verkflæði þar sem skoða á öll verkflæðisskrefstilvik í skráasafni.  
 3.  Í glugganum **Verkflæði** skal velja aðgerðina **Verkflæðisskrefstilvik í skráasafni**.  
 
     Glugginn **Safn verkflæðisskrefstilvika** opnast og sýnir verkflæðisskrefstilvik í skráasafni fyrir valið verkflæði.  
-4.  Líka er hægt að velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkflæðisskrefstilvik í skráasafni** og velja svo viðeigandi tengil.  
+4.  Að öðrum kosti, veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **safnvistuð verkflæðisskrefstilvik** og veldu síðan tengda tengilinn.  
 
 Glugginn **Safn verkflæðisskrefstilvika** opnast og sýnir verkflæðisskrefstilvik í skráasafni. Í reitnum **Verkflæðiskóði** er hægt að sjá hvaða verkflæði verkflæðisskrefstilvik í skráasafni tilheyra.  
 

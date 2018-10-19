@@ -1,26 +1,27 @@
 ---
 title: "Yfirlit yfir umsjónarverkhluta greiðslna til lánardrottna| Microsoft Docs"
 description: "Útskýrir verkhluta sem fela í sér stjórnun greiðslna til lánardrottna, eins og að bóka greiðslulínur og sækja yfirlit fyrir gjaldfallna stöðu."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/26/2018
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 6b912e8f54fd0e3fb4ac4a1eee3c376c209ffe65
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b22144fff3051ef35b9e3baf6e12ecd56ee12c49
 ms.contentlocale: is-is
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="making-payments"></a>Framkvæma greiðslur
-Þegar greiðslur til lánardrottna eða endurgreiðslur til starfsmanna eru framkvæmdar eru tengdar greiðslulínur bókaðar í glugganum **Greiðslubók**. Hægt er að nota aðgerðina **Greiðslutillögur til lánardrottna** til að finna lánardrottnagreiðslur sem komnar eru á gjalddaga. Einnig er hægt að nota skýrsluna **Lánardrottinn - aldursgreind staða** til að fá yfirlit yfir lánardrottnagreiðslur sem komnar eru á gjalddaga.
+
+Þegar þú framkvæmir greiðslur til lánardrottna eða viðskiptamanna, eða endurgreiðir starfsmönnum, bókar þú tengdar greiðslulínur í **Greiðslubók** glugganum. Greiðslubókin er almenn færslubók sem er fínstillt til að framkvæma greiðslur og inniheldur fjölda öflugra aðgerða, svo sem **Greiðslutillögur til lánardrottna** aðgerð sem finnur lánardrottnagreiðslur sem eru komnar á gjalddaga, og **Lánardrottinn - aldursgreind samantekt** skýrsla sem sýnir yfirlit lánardrottnagreiðslna á gjalddaga.  
+
+Þú getur byrjað að framkvæma greiðsluna af listum, kortum og fjárhagsfærslum fyrir lánardrottna, viðskiptamenn og starfsmenn. Hver af þessum síðum hefur hnapp sem byrjar greiðsluflæðið og hjálpar þér að fylla út í greiðslubókina.  
 
 Úr greiðslubókinni er hægt að prenta vélfærða tékka eða skrá þegar tékkar eru skrifaðir. Þegar **Vélfærður tékki** er valinn í reitnum **Tegund bankagreiðslu** verður að prenta allar línur sem tákna tékka áður en hægt er að bóka greiðslubókina.
 
@@ -33,7 +34,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Til | Sjá |
 | --- | --- |
 |Skilja grunnaðgerðir gluggans **Greiðslubók**, sem byggir á færslubókinni, til að búa sig undir að bóka greiðslur til lánardrottna eða starfsmanna.|[Vinna í færslubókum](ui-work-general-journals.md)|
-|Bóka greiðslur til lánardrottna og endurgreiðslur til viðskiptavina og valfrjálst jafna greiðslurnar við tengda ógreidda reikninga/kreditreikninga til að loka þeim sem greiddum.|[Skrá greiðslur og endurgreiðslur](payables-how-post-payments-refunds.md)|
+|Bóka greiðslur til lánardrottna eða starfsmanna og endurgreiðslur til viðskiptamanna og valfrjálst jafna greiðslur til tengdra ógreiddra reikninga/kreditreikninga til að loka þeim sem greiddum.|[Skrá greiðslur og endurgreiðslur](payables-how-post-payments-refunds.md)|
 | Nota skal aðgerð í glugganum **Greiðslubók** til að leggja til lánardrottnagreiðslur samkvæmt völdum skilyrðum, eins og gjalddaga, afsláttarskilyrði og greiðslugetu þína. |[Greiðslutillögur til lánardr.](payables-how-suggest-vendor-payments.md) |
 | Gefið út tékka vegna lánardrottnagreiðslna eða endurgreiðslna til viðskiptavina, annað hvort sem útprent eða sem vélfærðan tékka. Ógilda tékka fyrir eða eftir bókun. |[Framkvæma ávísanagreiðslur](payables-how-work-checks.md) |
 |Framkvæma rafrænar greiðslur með því að flyta út greiðslur í bankaskrá sem þú hleður inn í bankann til úrvinnslu, þar með talið EFT (rafræn millifærsla) í Norður-Ameríku. |[Framkvæma rafrænar greiðslur](payables-how-export-payments-bank-file.md)|

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cea5e41e53106fafdaaf3d3f59e50d03da953f87
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 98a2e773dbde6ba4ba0493e2b0dc7b632bbea4d0
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Breyta hvaða útlit er nú notað í skýrslu
@@ -25,7 +25,7 @@ Skýrsla getur verið sett upp með fleiri en eitt skýrsluútliti, sem þú get
 Með hliðsjón af útlitinu sem er í boði fyrir skýrslu er hægt að velja að nota innbyggt RDLC-skýrsluútlit, innbyggt Word-skýrsluútlit eða sérsniðið útlit. Frekari upplýsingar um RDLC- og Word-skýrsluútlit, innbyggð útlit, sérsniðið útlit og fleira eru í [stjórna skýrsluútliti](ui-manage-report-layouts.md).
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Til að breyta útlitinu sem er notað í skýrslu
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Val á útliti skýrslu** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
    Glugginn **Val á útliti skýrslu** sýnir allar skýrslur sem eru í boði fyrir fyrirtæki sem er tiltekið í reitnum Fyrirtæki efst í glugganum.  Reiturinn valið útlit tilgreinir útlitið sem er verið að nota á skýrsluna.
 2. Stilltu reitinn **Fyrirtæki** efst í glugganum á fyrirtækið með skýrsluna.
 3. Til að breyta útliti sem er notað í skýrslu skal velja röðina fyrir skýrsluna í listanum og stilla svo **valið útlit** reitinn á einn af eftirfarandi valkostum:

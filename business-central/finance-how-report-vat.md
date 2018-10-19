@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: e7546d2d90567f9d633394dfd585f1dbbab27e46
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c75b9eef5716379f6545494c20cbe6c7b34c1edd
 ms.contentlocale: is-is
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -26,7 +26,7 @@ Hægt er að nota eftirfarandi skýrslur :
 * Í **Sölulisti EC** Evrópubandalag (EC) söluyfirlitsskýrslu eru listar yfir VSK-upphæðir sem þú hefur safnað upp fyrir sölu til VSK-skráðra viðskiptamanna innan landa Evrópusambandsins (EU).  
 * **VSK skil** skýrslan inniheldur VSK fyrir sölu og innkaup til viðskiptamanna í öllum löndum sem notast við VSK.
 
-Ef þú vilt skoða allan feril VSK færslna, þá býr hver VSK-bókun til færslu á **VSK-færslur** síðunni. Þessar færslur eru notaðar til að reikna VSK-upphæðir s.s. greiðslur og endurgreiðslur á tilteknu tímabili. Til að skoða VSK færslur skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **VSK færslur** og velja svo viðeigandi tengil.
+Ef þú vilt skoða allan feril VSK færslna, þá býr hver VSK-bókun til færslu í **VSK-færslur** glugganum. Þessar færslur eru notaðar til að reikna VSK-upphæðir s.s. greiðslur og endurgreiðslur á tilteknu tímabili. Til að skoða VSK-færslur veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-færslur** og veldu síðan tengda hlekkinn.
 
 ## <a name="about-the-ec-sales-list-report"></a>Um EC söluyfirlitsskýrslu
 Í Bretlandi þurfa öll fyrirtæki sem selja vörur og þjónustu fyrir meira en tiltekna upphæð á ári hverju til VSK skráðra viðskiptavina, líka þeirra sem eru í öðrum löndum innan ESB, að skila inn rafrænni söluyfirlitsskýrslu Evrópubandalaga (EC) á XML formi í gegnum vefsíðu þarlendra skattayfirvalda (HMRC). Söluyfirlitsskýrsla Evrópubandalaga (EC) virkar aðeins í löndum innan ESB.
@@ -39,7 +39,7 @@ Skýrslan inniheldur eina línu fyrir hverja tegund af viðskiptum við viðskip
 
 B2B vörur og þjónusta tiltaka hvort þú seldir vörur eða þjónustu, og sért undir stjórn stillingarinnar **ESB Þjónusta** í uppsetningu bókunar á VSK. B2B Þríhliða vörur gefa það til kynna hvort þú stundaðir viðskipti við þriðja aðila og sért undir stjórn stillingarinnar **ESB þríhliða viðskipti** í söluskjölum, eins og sölupantanir, reikningar, kreditreikningar osfrv.  
 
-Eftir að skattayfirvöld fara yfir skýrsluna, munu þau senda tengilið fyrirtækisins tölvupóst. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er tengiliðurinn tiltekinn á síðunni **Upplýsingar um fyrirtækið**. Áður en þú sendir inn skýrsluna skaltu vera viss um að tengiliður hafi verið valinn. 
+Eftir að skattayfirvöld fara yfir skýrsluna, munu þau senda tengilið fyrirtækisins tölvupóst. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er tengiliðurinn tiltekinn í glugganum **Upplýsingar um fyrirtækið**. Áður en þú sendir inn skýrsluna skaltu vera viss um að tengiliður hafi verið valinn. 
 
 ## <a name="about-the-vat-return-report"></a>Um skýrsluna um VSK skil
 Nota þessa skýrslu til að skila inn VSK fyrir sölu- og innkaupaskjöl, eins og innkaupa- og sölupantanir, reikninga og kreditreikninga. Upplýsingarnar koma fram með sama sniði í skýrslunni og á skýrslublaði frá tolla- og skattayfirvöldum.  
@@ -56,19 +56,19 @@ Fyrir VSK skilin geturðu tiltekið hvaða færslur skuli teknar með:
 
 Til að skila VSK til skattayfirvalda á rafrænu formi, þarf að tengja [!INCLUDE[d365fin](includes/d365fin_md.md)] við vefþjónustu skattayfirvalda. Til þess þarf að setja upp reikning hjá þínum skattayfirvöldum. Þegar þú ert komin(n) með reikning, geturðu virkjað þjónustutengingu sem við bjóðum upp á í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustutengingar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustutengingar** og veldu síðan viðeigandi tengil.
 2. Fylltu út nauðsynlega reiti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     >   Ráðlegt er að er að prófa tenginguna. Til að gera það skal velja **Prufustilling** gátreitinn, svo undirbúa og senda inn VSK skýrslurnar eins og lýst er í _Að undirbúa og senda inn VSK skýrslu_ hlutanum. Þegar þjónustan er á Prufustillingu, prófar hún hvort skattayfirvöld geti tekið á móti skýrslunni, og staðan á skýrslunni mun gefa til kynna hvort prufuinnsendingin hafi heppnast. Mikilvægt er að muna að þetta er ekki raunveruleg innsending. Ef senda á skýrsluna inn í raun, þarf að að hreinsa gátreitinn **Prufustilling** og endurtaka innsendingarferlið.
 
 ## <a name="to-set-up-vat-reports-in-included365finincludesd365finmdmd"></a>Að setja upp VSK-skýrslur í [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning VSK-skýrslu** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning VSK-skýrsla** og veldu síðan tengda hlekkinn.  
 2. Ef þú vilt láta notendur breyta og endursenda skýrsluna, veldu þá gátreitinn **Breyta innsendum skýrslum**.  
 3. Númeraröðin sem á að nota fyrir hverja skýrslu er valin.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Undirbúa og senda inn VSK-skýrslu
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **EC sölulistar** eða **VSK-skil** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **EB-söluyfirlit** eða **VSK skil** og veldu síðan tengda tengilinn.  
 2. Veljið **Nýtt** og fyllið svo inn í viðeigandi svæði. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Til að útbúa efni skýrslunnar, veljið aðgerðina **Leggja til línur**.  
 
@@ -80,7 +80,7 @@ Til að skila VSK til skattayfirvalda á rafrænu formi, þarf að tengja [!INCL
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] staðfestir hvort skýrslan sé rétt sett upp. Ef staðfestingin mistekst, eru villurnar sýndar í **Villur og viðvaranir** svo hægt sé að gera viðeigandi breytingar. Ef skilaboðin snúast um stillingu sem vantar í [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu smellt á skilaboðin til að opna síðuna sem inniheldur upplýsingarnar sem þarf að leiðrétta.  
 5. Til að senda skýrsluna inn skal velja aðgerðina **Innsending**.  
 
-Eftir að þú skilar inn skýrslunni, fylgist [!INCLUDE[d365fin](includes/d365fin_md.md)] með þjónustunni og heldur skrá yfir samskipti þín. Reiturinn **Staða** gefur til kynna hvar skýrslan er stödd í ferlinu. Þegar t.d. yfirvöld fara yfir skýrsluna, breytist staða skýrslunnar yfir í **Heppnaðist**. Ef skattayfirvöld finna mistök í skýrslunni sem þú sendir þeim, mun staða skýrslunnar breytast yfir í **Mistókst**. Þú getur skoðað villur undir **Villur og viðvaranir**, leiðrétt þær og svo sent skýrsluna inn aftur. Til að skoða allar EC söluyfirlitsskýrslur þínar, farðu á **EC söluyfirlitsskýrslur** síðuna.  
+Eftir að þú skilar inn skýrslunni, fylgist [!INCLUDE[d365fin](includes/d365fin_md.md)] með þjónustunni og heldur skrá yfir samskipti þín. Reiturinn **Staða** gefur til kynna hvar skýrslan er stödd í ferlinu. Þegar t.d. yfirvöld fara yfir skýrsluna, breytist staða skýrslunnar yfir í **Heppnaðist**. Ef skattayfirvöld finna mistök í skýrslunni sem þú sendir þeim, mun staða skýrslunnar breytast yfir í **Mistókst**. Þú getur skoðað villur undir **Villur og viðvaranir**, leiðrétt þær og svo sent skýrsluna inn aftur. Til að skoða lista yfir allar EB-söluyfirlitsskýrslur þínar skaltu fara í **EB-söluyfirlitsskýrslur** glugga.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Skoða samskipti við skattayfirvöld
 Í sumum löndum er skipst á skilaboðum við skattayfirvöld þegar skýrslur eru sendar inn. Hægt er að skoða fyrstu og síðustu skilaboðin sem voru send eða móttekin með því að velja aðgerðirnar **Hala niður innsendingarskilaboðum** og **Hala niður svarskilaboðum**.  

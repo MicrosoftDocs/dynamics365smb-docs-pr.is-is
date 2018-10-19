@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 05/24/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: a53e9b4199a133678dfa8d001875df7dcdc1a37e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e9b0a481f16d8f0bc1647640b62a81b3ea441028
 ms.contentlocale: is-is
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-business-central"></a>QuickBooks Online gagnaflutningsviðbótin fyrir Business Central
+# <a name="the-quickbooks-online-data-migration-extension"></a>QuickBooks Online gagnaflutningsviðbótin fyrir
 Þessi viðbót er innifalin í **Gagnaflutningur** uppsetningu með aðstoð til að aðstoða þig við að flytja mikilvæg viðskiptagögn frá QuickBooks Online til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta er t.d. gagnlegt þegar fyrirtækið þitt er að vaxa, og þú hefur ákveðið að uppfæra stjórnunarforrit fyrirtækisins með því að byrja að nota [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Hvaða gögn get ég flutt inn frá QuickBooks Online?
@@ -51,11 +51,11 @@ Ef færslur í QuickBooks Online hafa skattaupphæðir, þarf að setja upp skat
 ## <a name="how-do-i-start-using-the-extension"></a>Hvernig byrja ég að nota viðbótina?
 Auðvelt er að hefjast handa Það eina sem þú þarft að gera er að keyra **Gagnaflutingur** uppsetningu með aðstoðarleiðbeiningum. Svona er það gert:
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning með aðstoð** og velja síðan **Flytja viðskiptagögn**.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning með hjálp** og veldu síðan **Flytja viðskiptagögn**.
 2. Fylgdu leiðbeiningunum fyrir hvert skrefi í Uppsetningu með aðstoð.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Hvað geri ég eftir gagnaflutninginn?
-Þegar gagnaflutningi er lokið, hafa færslur stöðuna **Óbókaðar**, svo þú getur endurskoðað þær og gert leiðréttingar. Til að endurskoða færslurnar, skal farið á síðuna þar þú myndir venjulega finna þær. Til dæmis, til að endurskoða óbókaða sölureikninga, skal farið á síðuna **Sölureikningar**. Til að endurskoða greiðslubækur, skal fara á síðuna **Greiðslubækur**.   
+Þegar gagnaflutningi er lokið, hafa færslur stöðuna **Óbókaðar**, svo þú getur endurskoðað þær og gert leiðréttingar. Til að endurskoða færslurnar, skal farið á síðuna þar þú myndir venjulega finna þær. Til dæmis, til að endurskoða óbókaða sölureikninga, skal farið á gluggann **Sölureikningar**. Til að skoða greiðslubækur, fara í **Greiðslubækur** glugga.   
 
 Það eru einkum nokkrir hlutir sem þú þarft að gera:
 

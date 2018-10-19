@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e1b6b57448264bddee9bdfc4a81a2f926a7938c7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2441c41c6bb28691a855ac4b5d50359b95b23f7d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss
@@ -62,7 +62,7 @@ Til að ljúka þessari kynningu þarf:
 -   CRONUS  International Ltd. er uppsett.  
 -   Til að gera notanda að starfsmanni vöruhúss í SILVER staðsetningu á eftirfarandi hátt:  
 
-    1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **starfsmenn vöruhúss** og velja svo viðeigandi tengil.  
+    1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsfólk vöruhúss** og veldu síðan tengda tengilinn.  
     2.  Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda í glugganum **Notendur**.  
     3.  Í reitnum **Staðsetningarkóði** er fært inn SILVER.  
     4.  Veljið reitinn **Sjálfgefið**.  
@@ -75,7 +75,7 @@ Ellen, stjórnandi vöruhúss hjá CRONUS International Ltd. stofnar innkaupapö
 
 ### <a name="to-set-up-the-location"></a>Uppsetning staðsetningar  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Staðsetningar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
 2.  SILVER-staðsetningarspjaldið er opnað.  
 3.  Veljið gátreitinn **Þarf að ganga frá**.  
 
@@ -95,7 +95,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 
 ### <a name="to-create-the-purchase-order"></a>Innkaupapöntunin stofnuð  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupapantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Stofna innkaupapöntun fyrir lánardrottinn 10000 á vinnudeginum (23. Janúar) með eftirfarandi innkaupapöntunarlínum.  
 
@@ -118,7 +118,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 
 ### <a name="to-receive-and-put-the-items-away"></a>Tekið á móti og gengið frá vörunum  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðafrágangur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **birgðafrágangur** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Veljið reitinn **Upprunaskjal** og svo **Innkaupapöntun**.  
 4.  Veldu reitinn **Upprunanr.**, velja línuna fyrir innkaup frá viðskiptamanni 10000 og skal velja svo hnappinn **Í lagi**.  

@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7aa7cd50e7670998962acf8c33bfef8755e7b354
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 012e050722f97d43a8ee59fde2566969245e4ca9
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="find-your-warehouse-assignments"></a>Finna vöruhúsaúthlutanir
 Til að finna vöruhúsaúthlutanir þínar skaltu opna spjaldgluggann fyrir valda vöru. Gluggi valins atriðis er opnaður Hafi vöruhúsaleiðbeiningar verið stofnaðar eru Taka- og Setja-línur sjáanlegar og hægt er að byrja á úthlutun. Í sumum vöruhúsum gæti yfirmaður verið búinn að úthluta tilteknum leiðbeiningum á hvern starfsmann. Frekari upplýsingar eru í [Setja upp vöruhússtarfsmenn](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Leitað að leiðbeiningum sem úthlutað hefur verið:  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vöruhúsafrágangur**, **Vöruhúsatínsla** eða **Vöruhúsahreyfing** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsafrágangur**, **vöruhúsatínsla** eða **vöruhúsahreyfing** og veldu síðan tengda tengilinn.
 
     Allir þrír gluggar sýna úthlutun fyrir allar vöruhúsabirgðageymslur.  
 

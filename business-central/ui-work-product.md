@@ -8,13 +8,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/057/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,7 +28,7 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða glugga sem er, ví
 | --- | --- |
 | Breyta grundvallarstillingum eins og fyrirtæki, vinnudagsetningu og Mitt hlutverk. |[Breyta grundvallarstillingum](ui-change-basic-settings.md) |
 | Finna tiltekna síðu eða skýrslu. |[Notkun Leit að síðu eða skýrslu](ui-search.md) |
-| Afmarka gögn í yfirlitum, skýrslum eða aðgerðum með því að nota sérstök tákn og stafi. |[Skilgreining skilyrða í síum](ui-enter-criteria-filters.md) |
+| Afmarka gögn í yfirlitum, skýrslum eða aðgerðum með því að nota sérstök tákn og stafi. |[Leita í, afmarka og raða gögnum](ui-enter-criteria-filters.md) |
 | Fræðast um hvernig á að flokka gögn. |[Raða gögnum](ui-sorting.md) |
 | Skoða eða vinna úr gögnum á tilteknu dagsetningabili. |[Færa inn dagsetningarsvið](ui-enter-date-ranges.md) |
 | Sjá hvaða reiti verður að fylla út. |[Greina áskilda reiti](ui-mandatory-fields.md) |
@@ -43,11 +43,15 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða glugga sem er, ví
 |Fræðast um eiginleika og nothæfni [!INCLUDE[d365fin](includes/d365fin_md.md)] sem auðveldar aðgengi fatlaðra.|[Aðgengi og Flýtivísanir](ui-accessibility.md)|
 |Horfa á myndskeið af völdum virknum til að hjálpa þér að byrja.|[Myndbönd í algengum verkum](across-videos.md)|  
 
+## <a name="getting-around-in-business-central"></a>Farið um Business Central
+Hér er stutt myndband um hvernig á að komast um í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
+
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa](product-get-started.md)  
 [Uppsetning Business Central](setup.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

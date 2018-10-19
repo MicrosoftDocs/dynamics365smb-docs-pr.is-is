@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4180e40f318e3e735c91f8670ef9a52ee8d72f6e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b71f12ad075197f1630e681b826ec3dff1f4ddff
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-production-order-posting"></a>Hönnunarupplýsingar: staða framleiðslupöntunar
@@ -60,11 +60,11 @@ Bókun framleiðslupantana í VÍV-birgðir samanstendur af frálagi, notkun og 
 
 Eftirfarandi skýringarmynd sýnir bókunarvenjur í kóðaeiningu 22.  
 
-![Vanalegar bókanir birgðapantana](media/design_details_inventory_costing_14_production_posting_1.png "hönnunarupplýsingar_birgðakostnaður_14_bókun_1")  
+![Vanalegar bókanir birgðapantana](media/design_details_inventory_costing_14_production_posting_1.png "Vanalegar bókanir birgðapantana")  
 
 Eftirfarandi skýringarmynd sýnir tengsl milli leiðir afleiddra færsla og kostnaðarhluta.  
 
-![Flæði framleiðslufærslna](media/design_details_inventory_costing_14_production_posting_2.png "hönnunarupplýsingar_birgðakostnaður_14_framleiðsla_bókun_2")  
+![Flæði framleiðslufærslna](media/design_details_inventory_costing_14_production_posting_2.png "Flæði framleiðslufærslna")  
 
 Afkastagetufærsla lýsir getuneyslu hvað varðar tímaeiningar, en tengdar gildifærsla lýsir verðmæti tilteknum getuneyslu.  
 

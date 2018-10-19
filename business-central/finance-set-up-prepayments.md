@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 15/01/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5aa1a2c09e5d4ecc2af04aa9d8b3758d96dc7b3f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b4469b91f8bb377e4fef5700063d6085ac700605
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-prepayments"></a>Uppsetning fyrirframgreiðslu
@@ -29,7 +29,7 @@ Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun af
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Bæta fyrirframgreiðslureikningum við almennan bókunargrunn  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **almennur bókunargrunnur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning almenns bókunargrunns** og veldu síðan tengda tengilinn.
 2. Í glugganum **Uppsetning almennar bókunar** er fyllt út í eftirfarandi reiti:  
 
     - **Fyrirframgreiðslureikn. sölu**  
@@ -39,13 +39,13 @@ Ef almennir fjárhagsreikningar hafa ekki enn verið settir upp fyrir fyrirframg
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Uppsetning númeraraðar fyrir fylgiskjöl fyrirframgreiðslu  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning Sala & útistandandi** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning sölu & útistandandi** og veldu síðan tengda tengilinn.
 2. Í glugganum **Uppsetning Sala & útistandandi** er fyllt út í eftirfarandi reiti:  
 
    - **Bókuð fyrirframgr.reikn.nr.**
    - **Bókuð kr.reikn.nr. fyrirframgr.**
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning innkaupa og viðskiptaskulda** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning innkaupagrunns** og veldu síðan tengda tengilinn.
 2. Í glugganum **Uppsetning innkaupa & Viðskiptaskuldir** er fyllt út í eftirfarandi reiti:
 
     - **Bókaður fyrirframgr.reikn.nr.**
@@ -57,13 +57,13 @@ Ef almennir fjárhagsreikningar hafa ekki enn verið settir upp fyrir fyrirframg
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Að setja upp fyrirframgreiðsluprósentu fyrir vörur, viðskiptamenn og lánardrottna  
 Fyrir vöru er hægt að setja upp sjálfgefna fyrirframgreiðsluprósentu fyrir alla viðskiptamenn, tiltekinn viðskiptamann eða verðflokk viðskiptamanns.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
 2. Veljið Atriði og veljið svo aðgerðina **Fyrirframgreiðsluprósenta**.  
 3. Í glugganum **Sala fyrirframgreiðsluprósenta** skal fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Fyrir viðskiptamann eða lánardrottin er hægt að setja upp eina sjálfgefna prósentu fyrirframgreiðslu fyrir allar vörur og allar tegundir sölulína. Þú færir þetta inn á viðskiptamanna eða lánardrottna kortið.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
 2. Opna spjaldið fyrir viðskiptamann.
 3. **Fyrirframgreiðsla %** er fært inn í reitinn .
 4. Skrefin eru endurtekin fyrir aðra viðskiptamenn og lánardrottna.  

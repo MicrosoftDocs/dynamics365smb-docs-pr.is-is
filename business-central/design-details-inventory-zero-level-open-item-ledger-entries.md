@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e25721b0c79a87f4201314a0f3556f969a110e18
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Hönnunarupplýsingar: Þekkt vandamál birgðajöfnunar
@@ -36,8 +36,6 @@ Greinin byrjar á því að lýsa dæmigerðum einkennum vandamálsins og síða
      |333|01/28/2018|Sala|Söluafhending|102043|PRÓFUN|BLÁTT|-1|-10|-1|-1|Já|  
      |334|01/28/2018|Sala|Söluafhending|102043|PRÓFUN|BLÁTT|1|10|1|1|Já|  
 
-<!--![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")-->
-
 ## <a name="basics-of-item-application"></a>Grunnatriði birgðajöfnunar  
  Birgðajöfnunarfærsla er búin til fyrir hverja birgðafærslu til að tengja kostnað viðtakanda við kostnaðaruppruna svo hægt sé að áframsenda kostnaðinn samkvæmt aðferð kostnaðarútreiknings. Nánari upplýsingar eru í [Upplýsingar um hönnun: Vörujöfnun](design-details-item-application.md).  
 
@@ -56,7 +54,7 @@ Greinin byrjar á því að lýsa dæmigerðum einkennum vandamálsins og síða
 
  Eftirfarandi skýringarmynd sýnir hvernig magnjöfnun er gerð.  
 
-![Hvers vegna eru engar birgðir 2](media/helene/TechArticleInventoryZero2.png "Whyisinventoryzero\_2")
+![Flæði kostnaðarleiðréttingar frá kaupum til sölu](media/helene/TechArticleInventoryZero2.png "Flæði kostnaðarleiðréttingar frá kaupum til sölu")
 
  Takið eftir fyrir ofan að birgðafærsla 1 (Innkaup) er bæði birgir vörunnar og kostnaðaruppruni fyrir jafnaða birgðafærslu, birgðafærslu 2 (Sala).  
 
@@ -72,7 +70,6 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
 |333|01/28/2018|Sala|Söluafhending|102043|PRÓFUN|BLÁTT|-1|-10|-1|-1|Já|  
 |334|01/28/2018|Sala|Söluafhending|102043|PRÓFUN|BLÁTT|1|10|1|1|Já|  
-<!--![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")-->
 
  Takið eftir fyrir ofan að birgðahöfuðbók á innleið 3 (söluvöruskil) er kostnaður viðtakanda á upprunalegu birgðafærslunni á útleið 2 (sala).  
 
@@ -81,7 +78,7 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
 
  Eftirfarandi skýringarmynd sýnir kostnaðarflæðið.  
 
-![Hvers vegna eru engar birgðir 4](media/helene/TechArticleInventoryZero4.png "Whyisinventoryzero\_4")
+![Flæði kostnaðarleiðréttingar frá sölu til söluvöruskila](media/helene/TechArticleInventoryZero4.png "Flæði kostnaðarleiðréttingar frá sölu til söluvöruskila")
 
  Takið eftir fyrir ofan að kostnaðurinn er áframsendur á birgðafærslu 2 (sala), síðan á birgðafærslu 3 (söluvöruskil) og að lokum á birgðafærslu 4 (sala 2).  
 
@@ -94,7 +91,7 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
 
  Eftirfarandi skýringarmynd sýnir hvernig birgðajöfnun er gerð í báðum atburðarásum.  
 
-![Hver vegna eru engar birgðir 6](media/helene/TechArticleInventoryZero6.png "Whyisinventoryzero\_6")  
+![Flæði kostnaðarleiðréttingar liggur í báðar áttir](media/helene/TechArticleInventoryZero6.png "Flæði kostnaðarleiðréttingar liggur í báðar áttir")  
 
  Takið eftir fyrir ofan að kostnaðarjöfnun er gerð (táknuð með bláum örvum) til að tryggja að birgðafærslu 2 (söluvöruskil) sé úthlutað sama kostnaði og birgðafærslan sem hún bakfærir, birgðafærsla 1 (sala 1). Hins vegar er magnjöfnun (táknuð með rauðum örvum) ekki gerð.  
 
@@ -115,7 +112,6 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|01/28/2018|Sala|Söluafhending|102043|PRÓFUN|BLÁTT|-1|-10|-1|-1|Já|Nr|  
 |334|01/28/2018|Sala|Söluafhending|102043|PRÓFUN|BLÁTT|1|10|1|1|Já|**Já**|  
-<!--![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")-->
 
 -   Í glugganum **Bókuð söluafhending** skal fletta upp í reitnum **Jafna frá birgðafærslu** til að sjá hvort reiturinn er útfylltur og í því tilfelli hvaða vöruskilamóttaka birgðafærslu er kostnaðarjöfnuð.  
 

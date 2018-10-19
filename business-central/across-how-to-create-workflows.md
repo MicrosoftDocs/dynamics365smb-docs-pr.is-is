@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cab6546e152ad91c1b3264fa8bd10c0fd668636d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-workflows"></a>Búa til verkflæði
@@ -32,7 +32,7 @@ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki 
 >  Allar tilkynningar um verkflæðisskref eru sendar um verkröð. Ganga skal úr skugga um að verkröð í uppsetningu sé sett upp þannig að hún meðhöndli verkflæðistilkynningar og að **Byrja sjálfkrafa frá NAS** gátreiturinn sé valinn. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Til að stofna verkflæði  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkflæði** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **verkflæði** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð. Glugginn **Verkflæði** opnast.  
 3. Í **Kóði** reitinn skal slá inn að hámarki 20 stafi til að auðkenna verkflæðið.  
 4. Til að stofna verkflæði úr verkflæðissniðmáti, skal velja í glugganum **Verkflæði** aðgerðina **Stofna verkflæði úr sniðmáti**. Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -91,7 +91,7 @@ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki 
 >  Ekki skal virkja verkflæði þar til víst er að verkflæði sé lokið að að umrædd verkflæðisskref geti hafist.  
 
 > [!TIP]  
->  Til að sjá tengsl milli taflna sem notaðar eru í verkflæði skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, og slá síðan inn **Verkflæði – Tengsl taflna**.  
+>  Til að sjá tengsl á milli tafla sem eru notaðar í verkflæði, Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **verkflæði – töflutengsl** og veldu síðan tengda tengilinn.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)   

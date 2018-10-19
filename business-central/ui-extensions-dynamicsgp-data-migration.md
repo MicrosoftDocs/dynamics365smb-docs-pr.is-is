@@ -1,6 +1,6 @@
 ---
 title: "Flytja gögn frá Dynamics GP með Gagnaflutningaviðbótinni | Microsoft Docs"
-description: "Nota Dynamics GP Gagnaflutningaviðbótina til að flytja viðskiptamenn, lánardrottna, birgðir og reikninga úr Dynamics GP í Business Central."
+description: "Notaðu Dynamics GP-Gagnaflutningaviðbótina til að flytja viðskiptamenn, lánardrottna, birgðavörur, fjárhagsreikninga, opnar viðskiptaskuldir og opnar viðskiptakröfur færslur frá Dynamics GP til Business Central."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,29 +9,55 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 3761bdb0d6b9a51ed309ac4189ff263de76f4679
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 357be92799a016b21a123692f7ed612d66005017
 ms.contentlocale: is-is
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="the-dynamics-gp-data-migration-extension-for-business-central"></a>Viðbótin Dynamics GP gagnaflutningarviðbót fyrir Business Central 
-Þessi viðbót gerir það auðvelt að flytja viðskiptamenn, lánardrottna, birgðir og reikninga úr Dynamics GP í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef fyrirtækið notar Dynamics GP er hægt að flytja út viðeigandi aðalfærslur og opna síðan leiðarvísi fyrir uppsetningu með hjálp til að bæta gögnunum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md).
+# <a name="the-dynamics-gp-data-migration-extension"></a>Dynamics GP-Gagnaflutningaviðbótin 
+Þessi viðbót gerir það auðvelt að flytja viðskiptamenn, lánardrottna, birgðavörur, fjárhagsreikninga, opnar viðskiptaskuldir og færslur opinna viðskiptakrafna frá Dynamics GP til [!INCLUDE[prodshort](includes/prodshort.md)]. Ef fyrirtækið þitt notar Dynamics GP í dag getur þú flutt út viðeigandi skrár og síðan opnað leiðbeiningar um uppsetningu með hjálp til að bæta gögnunum við [!INCLUDE[prodshort](includes/prodshort.md)]. Nánari upplýsingar eru í [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Flytja út gögn úr Dynamics GP
-Þú verður að hafa flutt einhverja eða alla viðskiptamenn þína, söluaðila, birgðavörur og reikninga í skrá með því að nota Dynamics GP virkni fyrir útflutning gagna. Fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að flytja út eftirfarandi gerðir gagna:
+Þú verður að hafa flutt út nokkra eða alla núverandi viðskiptamenn, lánardrottna, birgðavörur, og fjárhagsreikninga með því að nota gagnaútflutningsvirkni innan Dynamics GP. Þegar þú velur gögnin til að flytja út, er hægt að velja eftirfarandi gerðir:
 
 * Reikningur  
 * Viðskiptavinur  
 * Atriði  
 * Lánardrottinn  
 
-Dynamics GP Data Migration viðbót varpar sjálfkrafa útfluttm gögn þannig að þú hafir skjótan aðgang að gögnunum þínum í nýja [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrirtækinu. Meðan á ferlinu stendur eru uppsetningarupplýsingar stofnaðar, svo sem bókunarflokkar. Birgðavörur verða fluttar inn í kerfið með FIFO sem villuleitaraðferð kostnaðar. Lyklar verða settar upp sem aðalreikningslyklar úr Dynamics GP með víddum vegna þess að [!INCLUDE[d365fin](includes/d365fin_long_md.md)] er ekki með lyklahluta.
+Þegar útflutningsskráin er búin til verður þú með zip-skrá sem inniheldur nokkra txt-skrár sem verða ákvörðuð af því sem þú valdir í útflutningsgagnaferlinu.  Það verður einnig fleiri txt-skrár sem eru búnar til, sem innihalda stuðningsupplýsingar sem eru nauðsynlegar við uppsetningu innan nýju [!INCLUDE[prodshort](includes/prodshort.md)] fyrirtækisins þíns.
+
+Dynamics GP Data Migration viðbót varpar sjálfkrafa útfluttm gögn þannig að þú hafir skjótan aðgang að gögnunum þínum í nýja [!INCLUDE[prodshort](includes/prodshort.md)] fyrirtækinu.
+
+## <a name="whats-new-in-the-october-2018-release"></a>Hvað er nýtt í útgáfu október 2018
+
+Í þessari útgáfu, höfum við stækkað gagnamagnið sem við setjum inn í [!INCLUDE[prodshort](includes/prodshort.md)] frá Dynamics GP.
+
+Í leiðsagnarforriti fyrir flutning getur þú valið hvernig þú vilt flytja Dynamics GP bókhaldslykilinn. Þú getur flutt fyrirliggjandi bókhaldslykil eða þú getur búið til nýtt bókhaldslykil sem byggjast á fyrirliggjandi bókhaldslykil.  
+
+Ef þú velur að nota fyrirliggjandi bókhaldslykil verður reikningarnir settir upp sem aðalreikningshluti frá Dynamics GP og viðbótarhlutarnir verða settar upp sem víddir innan [!INCLUDE[prodshort](includes/prodshort.md)].  
+
+Ef þú velur að búa til nýtt bókhaldslykil færðu viðbótarsíðu með reikningsupplýsingar í leiðsagnarforritinu svo þú getir sótt vinnubókina, gert viðeigandi breytingar og síðan flutt vinnubókin aftur til að breyta reikningunum þínum.  
+
+Þú verður að hlaða niður Excel-vinnubókinni og tengja nýjan reikningsnúmer við sérhvert reikningsnúmer í Excel-töflureikninum. Hver reikningur verður að hafa sitt eigið númer eða flutningurinn tekst ekki. Þegar þú hefur lokið vörpuninni getur þú haldið áfram í gegnum leiðsagnarforritið fyrir flutning með því að flytja inn Excel-vinnubókina sem þú hefur nýlega uppfært. Leiðsagnarforritið staðfestir að hverja röð hafi sérstakt reikningsnúmer og að engar raðir séu með tómt nýtt reikningsnúmer í þeim.  
+
+Með breytingunni á valkostum fyrir vörpun bókhaldslykils, munt þú einnig taka eftir breytingu á gerð gagna sem koma yfir í færslubókina fyrir reikningsnúmerin.  
+
+- Ef þú velur að nota núverandi reikningsnúmer munum við færa upphafsstöðu aðalhlutans (nýtt reikningsnúmer) sem samantekt á aðalreikningsnúmeri þegar flutningur fer fram.  
+- Ef þú velur að búa til ný reikningsnúmer, munum við færa samantektarupplýsingar um samsvarandi tvö reikningsár miðað við reikningsskilatímabilið sem þú hefur sett upp í Dynamics GP.
+
+Í fyrri útgáfum af [!INCLUDE[prodshort](includes/prodshort.md)] flutti leiðsagnarforritið yfirlitsfærslu fyrir viðskiptamenn/lánardrottinn stöðuna í Dynamics GP. Nú færum við inn ítarlegar opnar færslur fyrir viðskiptamenn og lánardrottna þegar flutningur fer fram. Hvað þýðir það? Ef viðskiptamaður þinn hefur 3 útistandandi færslur sem eru skráðir í kerfiseiningu viðskiptakrafna, færir leiðsagnarforritið þessar færslur inn í [!INCLUDE[prodshort](includes/prodshort.md)] með útistandandi upphæð sem upphæð í skjali. Þetta er það sama fyrir kerfiseiningu viðskiptaskulda fyrir lánardrottna.  
+
+Birgðavörur eru fluttar inn með kostnaðarmatsaðferðinni sem var valin þegar leiðsagnarforrit uppsetningar fyrirtækisins var keyrður. Þjónustuvörum er sjálfkrafa úthlutað FIFO-matsaðferðinni. Sem stendur færum við inn Magn á lager fyrir vörurnar þegar flutningur fer fram.  Þetta magn er fært inn í auða birgðageymsluna.  
+
+Síðasti valkosturinn sem þú sérð í leiðsagnarforriti fyrir gagnaflutning í Dynamics GP er eiginleikinn að tilgreina bókunarvalkostinn þinn. Þessi stilling tilgreinir hvort þú viljir sjálfkrafa bóka allar færslur í færslubækurnar um leið og flutningurinn færir gögnin inn í [!INCLUDE[prodshort](includes/prodshort.md)] eða ef þú vilt bóka handvirkt þannig að allar færslur muni sitja í runum á færslubókarsíðunni, svo þú getir staðfest upplýsingarnar áður en þú bókar. Þessi valkostur er sýnilegur á síðunni sem inniheldur valkosti fyrir Bókhaldslykla.
+
 
 ## <a name="see-also"></a>Sjá einnig
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
-[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum ](ui-extensions.md)  
+[Sérstilling [!INCLUDE[prodshort](includes/prodshort.md)] með viðbótum ](ui-extensions.md)  
 

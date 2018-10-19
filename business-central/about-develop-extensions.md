@@ -1,7 +1,6 @@
 ---
 title: "Sérsníða Dynamics 365 Business Central | Microsoft Docs"
 description: "Settu saman, sýndu og kynntu forritin og viðbætur þínar fyrir Business Central."
-services: project-madeira
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/12/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 69f660f8a19bd1fd9cb39a79d5be7977e68d3a47
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fc926afbf0c1442bb610531b28507fbb2c1b1cf4
 ms.contentlocale: is-is
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Stækka [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -38,7 +37,7 @@ Komdu með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] þjónustu þí
 **Stök forrit** - þar sem þú kemur með iðnþekkingu þína inn á markaðinn.  
 **Ráðgjafarþjónustupakki** - þar sem þú kemur með tilbúna innleiðingarpakka á markaðinn.
 
-Nýju þróunarverkfærin gera þér kleift að búa til viðbætur fyrir [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] notendur. Ef þú vilt kynna þér nýju verkfærin eða fræðast um viðbætur 2.0, skaltu kíkja á [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+Nýju þróunarverkfærin gera þér kleift að búa til viðbætur fyrir [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] notendur. Ef þú vilt kynna þér nýju verkfærin eða fræðast um viðbætur 2.0, skaltu kíkja á [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
 Finndu upplýsingar um forrit og ráðgjafarþjónustur sem eru í boði á [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
@@ -71,9 +70,9 @@ Til að fá frekari upplýsingar um tilboð ráðgjafarþjónustu í Microsoft A
 ## <a name="the-ready-to-go-program"></a>Forritið sem er tilbúið til notkunar
 Forritið sem er tilbúið til notkunar er hannað til að styðja þig við að koma með Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] tilboðin þín í Microsoft Appsource. Í forritinu eru: 
 
-- [Netnámskeið](http://aka.ms/ReadyToGoOnlineLearning)
-- [Þjálfun og vinnustofur](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go#the-ready-to-go-coaching)
-- [Samvinnuvettvangur Microsoft](http://aka.ms/Collaborate)
+- [Netnámskeið](https://aka.ms/ReadyToGoOnlineLearning)
+- [Þjálfun og vinnustofur](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
+- [Samvinnuvettvangur Microsoft](https://aka.ms/Collaborate)
 
 Lærðu meira um hvernig þú getur byggt upp [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] tilboð í upplýsingunum [Forrit tilbúið til notkunar](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go). Ef þú hefur spurningar eða athugasemdir um forritið **Tilbúið til notkunar** geturðu [haft samband við okkur](mailto:dyn365bep@microsoft.com). 
 

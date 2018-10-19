@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5e271b160d8a4969be296861f6746163fcfea6ba
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2b0c576386a88db335a932da9c0bc1141289c57d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Færa íhluti á aðgerðasvæði í grunnskilgreiningu vöruhúss
@@ -49,7 +49,7 @@ Að öðru kostir getur starfsmaður í vöruhúsi stofnað hana með því að 
 Þessi verklýsing sýnir hvernig á að búa til birgðahreyfingu úr glugganum **Birgðahreyfing** með því að vísa í útgefna samsetningarpöntun sem upprunaskjal. Ferlið er það sama þegar íhlutir eru færðir fyrir framleiðslupantanir og þjónustupantanir.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Til að færa íhluti á aðgerðasvæði í grunnskilgreiningu vöruhúss  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Birgðahreyfingar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðahreyfing** og veldu tengda tengilinn.  
 2.  Á flýtiflipanum **Almennt** er reiturinn **Nr.** fylltur út . Hægt er að ýta á færslulykilinn til að velja úr númeraröð.  
 3.  Í reitnum **Kóti birgðageymslu** er færð inn birgðageymslan þar sem hreyfingin á sér stað.  
 4.  Valið er **Sækja upprunaskjöl** aðgerð. Að öðrum kosti er fyllt út í reitinn **Upprunaskjal** og valið svo hnappurinn **AssistEdit** í reitnum **Upprunanúmer**.  

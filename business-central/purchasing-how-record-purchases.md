@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4823bcb9468630a19b274708d4309331242392f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a96947c07cf86159f767ffcdf85564ee2b4366d8
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="record-purchases"></a>Skrá innkaup
@@ -31,12 +31,12 @@ Innkaupareikningur eða innkaupapöntun er stofnaður til að skrá kostnaðarve
 
 Hægt er að leiðrétta eða afturkalla bókaðan innkaupareikning áður en lánardrottinn fær greitt. Þetta er gagnlegt þegar leiðrétta á innsláttarmistök eða breyta kaupunum snemma í pöntunarferlinu. Nánari upplýsingar er að finna [Ógreiddir innkaupareikningar leiðréttir eða afturkallaðir](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Ef þegar hefur verið greitt fyrir vörur á bókuðum innkaupareikningi, þá verður að búa til innkaupakreditreikning til að snúa við innkaupunum. Nánari upplýsingar er að finna í [Vinna úr innkaupaskilum eða afturköllunum](purchasing-how-process-purchase-returns-cancellations.md).
 
-Vörurnar geta verið tegund **Birgðir** eða **Þjónustu**. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md). Innkaupareikningaferlið er það sama fyrir báðar vörutegundir.
+Birgðaspjaldið getur verið af gerðinni **Birgðir**, **Þjónusta** og **Ekki birgðir** til að tilgreina hvort vara er raunbirgðaeining, launatímaeining eða efnisleg eining sem ekki er geymd í birgðum. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md). Innkaupareikningaferlið er það sama fyrir allar þrjár vörutegundir.
 
 Hægt er að fylla út  lánardrottnareitina í innkaupareikningunum með tveimur leiðum, eftir því hvort lánardrottinninn hefur þegar verið skráður.
 
 ## <a name="to-create-a-purchase-invoice"></a>Að Stofna innkaupareikning
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.  
 2. Í reitnum **lánardrottins** er fært inn nafn núverandi lánardrottins.
 
     Aðrir reitir í glugganum **innkaupareikningur** eru nú fylltir út með stöðluðum upplýsingum um lánardrottinn sem valinn hefur verið. Ef lánardrottinn er ekki skráður, fylgið eftirfarandi skrefum:

@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct-debit, collection, payment, sepa
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 769d37db4547e292f12ac95f814f450b489792d4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f714037a087084ee1c8effa7432db1e4c6ae5862
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá
 Til að gefa bankanum fyrirmæli um að flytja greiðsluupphæðir af bankareikningi viðskiptamannsins á reikning fyrirtækis þíns, stofnarðu innheimtu beingreiðslu sem inniheldur upplýsingar um bankareikning viðskiptamanns, sölureikningana sem um ræðir og umboð fyrir beingreiðslu. Úr innheimtufærslu beingreiðslu sem þá myndast er XML-skrá flutt út og hún send eða henni hlaðið upp í netbanka til úrvinnslu. Bankinn lætur vita af greiðslum sem hann getur ekki meðhöndlað og þá þarf að hafna viðkomandi innheimtufærslur fyrir beingreiðslur.  
 
 > [!NOTE]  
->  Að safna greiðslum með SEPA-beingreiðslur, verður gengið á sölureikningi verður EURO.  
+>  Að safna greiðslum með SEPA-beingreiðslur, verður gengið á sölureikningi að vera EVRA.  
 
-### <a name="to-create-a-direct-debit-collection"></a>Stofna innheimtu beingreiðslu  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Bein skuldfærsla** og velja svo viðeigandi tengil.  
+### <a name="to-create-a-direct-debit-collection"></a>Til að stofna innheimtu beingreiðslu  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innheimta beingreiðslu** og veldu síðan tengda tengilinn.  
 2. Í glugganum **Innheimta beingreiðslu** í flipanum **Heim** úr flokknum **Nýtt** skal velja **Stofna innheimtu beingreiðslu**.  
 3. Í glugganum **Stofna innheimtu beingreiðslu** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 

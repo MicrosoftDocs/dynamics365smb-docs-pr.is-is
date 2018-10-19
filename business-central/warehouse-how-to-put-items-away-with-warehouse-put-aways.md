@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bf7b58fad1aa587079b51b505e9d757bb66f39c9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dea237fa837b34e565d9df6156ae6bbfb8508ee6
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ganga frá vörum með vöruhúsafrágangi
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/22/2018
 Auk staðlaðra aðferða til að stofna vöruhúsafrágang eins og lýst er í þessu efnisatriði er hægt að hægt að stofna frágang úr tengdri bókaðri vöruhúsamóttöku. Þetta kemur að notum ef búið er að eyða frágangslínum, eða ef notuð hafa verið beinn frágangur og tínsla og ákvörðun hefur verið tekin um að nota ekki vinnublað frágangs, vegna þess að hægt að stofna eða endurstofna frágangsleiðbeiningar fyrir bókaðar móttökulínur.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Frágangur á vörum án beins frágangs og tínslu  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Frágangur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **frágangur** og veldu síðan tengda tengilinn.  
 2.  Opnar vöruhúsafrágang sem er tilbúin til meðhöndlunar.  
 
     Hægt er að raða frágangslínunum eftir ýmsum skilyrðum, til dæmis vöru, hillunúmeri eða lokadagsetningu og betrumbæta þannig frágangsferlið.  
@@ -37,7 +37,7 @@ Auk staðlaðra aðferða til að stofna vöruhúsafrágang eins og lýst er í 
 4.  Þegar lokið hefur verið við að ganga frá vörunum er smellt á **Skrá frágang** aðgerðina til að skrá það að aðgerðinni sé lokið og gera vörurnar tiltækar fyrir tínslu.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Frágangur á vörum með beinum frágangi og tínslu  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Frágangur** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **frágangur** og veldu síðan tengda tengilinn.
     Hafi frágangsleiðbeiningar verið stofnaðar sést frágangur í vöruhúsi.  
 2.  Opnar vöruhúsafrágang sem á að vinna með.  
 3.  Ef það er krafa vöruhússins er kenni notanda fært inn í flýtiflipann **Almennt** þegar byrjað er að vinna við tiltekinn frágang.  
@@ -65,7 +65,7 @@ Tekið er mið af hólfaflokkuninni þegar fleiri en eitt hólf uppfylla skilyr�
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Til að búa til frágang úr bókaðri uppskrift  
  Ef birgðageymsla notar bæði frágangsvinnslu og móttökuvinnslu og búið er að eyða frágangslínum, eða ef notuð hafa verið beinn frágangur og tínsla og ákvörðun hefur verið tekin um að nota ekki vinnublað frágangs, þá er hægt að stofna eða endurstofna frágangsleiðbeiningar fyrir bókaðar móttökulínur.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bókað vöruhúsamóttaka** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsamóttaka** og veldu síðan tengda tengilinn.  
 2.  Velja skal bókaða móttöku sem hugsanlega þarf að ganga frá.  
 3.  Velja aðgerðina **Spjald**.  
 

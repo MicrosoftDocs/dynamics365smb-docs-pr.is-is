@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8d0a3cd974742e9b5745ca3ca08fa582dff1522a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 95eb483d261ac4e1f55071ff5d33951ad1fa2a3f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-sales-opportunities"></a>Stofna sölutækifæri
@@ -27,7 +27,7 @@ Hægt er að stofna tækifæri úr glugganum **Tækifæralisti**. En yfirleitt e
 Áður en hægt er að stofna tækifæri þarf að setja upp söluferla tækifæris. Nánari upplýsingar er að finna í [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Að búa til tækifæri hjá sölumanni
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **sölufólk** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sölumenn** og veldu síðan tengda tengilinn.
 2. Veljið sölumanninn úr listanum sem á að stofna tækifæri fyrir.
 3. Lokið aðgerðinni **Tækifæri** og veljið síðan **Listi**.
 4. Veljið **Í lagi** og fyllið svo inn í viðeigandi svæði. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ Hægt er að stofna tækifæri úr glugganum **Tækifæralisti**. En yfirleitt e
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Að búa til tækifæri hjá tengilið
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Tengiliðir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.
 2. Veljið tengiliðinn úr listanum sem á að stofna tækifæri fyrir.
 3. Gert er eitt af eftirfarandi:
    * Veljið aðgerðina **Stofna tækifæri**.

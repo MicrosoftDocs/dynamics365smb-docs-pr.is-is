@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
-ms.date: 01/12/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d756fbf4cb4ca31c913792a286c373de052aee64
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b920a3edfab41409cd8d7cf3f5e463f66268e953
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-item-units-of-measure"></a>Setja upp mælieiningu vara
@@ -28,7 +28,7 @@ Hægt er að setja upp margar mælieiningar fyrir vöru þannig að hægt sé a�
 Ef vara er sett á lager eftir einni mælieiningu en framleidd eftir annarri er framleiðslupöntun stofnuð sem notar mælieiningu framleiðslukeyrslu til að reikna út rétt magn íhluta meðan á keyrslunni **Endurnýjun framleiðslupöntunar** stendur. Dæmi um útreikning með mælieiningu framleiðslukeyrslu er þegar framleiddur hlutur er merktur á lager í stykkjum en framleiddur í tonnum. Frekari upplýsingar eru í [Vinna með mælieiningu framleiðslukeyrslu](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).
 
 ## <a name="to-set-up-a-unit-of-measure"></a>Til að setja upp mælieiningu
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
 2. Opna spjald vörunnar sem á að setja upp aðra mælieiningu fyrir.
 3. Veldu **Mælieining**. Þá birtist glugginn **Mælieiningar vöru**.
 4. Ef reiturinn **Grunneining mælingareits** á birgðaspjaldinu er fylltur út, hefur sú mælieining þegar verið sett upp.
@@ -42,7 +42,7 @@ Nú er hægt að nota aðrar mælieiningar í innkaupa-, framleiðslu- og sölus
 ## <a name="to-set-up-unit-of-measure-translations"></a>Setja upp mælieiningatexta
 Þegar selt er til erlendra viðskiptavina er hægt að tilgreina mælieininguna á viðeigandi tungumáli. Þetta er hægt að gera þegar búið er að setja upp nauðsynlega mælieiningatexta.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Mælieiningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Mælieiningar** og veldu síðan tengda tengilinn.
 2. Velja þarf tungumálakóðann sem setja á upp þýðingar fyrir og svo aðgerðina **Þýðingar**.
 3. Í reitnum **Tungumálskóti** er felliörin valin til að skoða lista yfir tiltæka tungumálakóta. Valinn er sá tungumálskóti sem setja á inn þýðingu fyrir og síðan er smellt á Í lagi til að afrita kótann í reitinn.
 4. Í reitinn **Lýsing** er færður inn viðeigandi texti.
@@ -51,7 +51,7 @@ Nú er hægt að nota aðrar mælieiningar í innkaupa-, framleiðslu- og sölus
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Færa inn sjálfgefna mælieiningarkóða fyrir sölu- og innkaupafærslur
 Ef venjulega er keypt eða selt í einingum sem eru aðrar en grunnmælieiningin er hægt að tilgreina sérstakar mælieiningar fyrir innkaup og sölu. Ef gera á þetta verða  **mælieiningar** að vera uppsettar í glugganum  Mælieiningar vöru.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
 2. Opna viðeigandi birgðaspjaldi þar sem á að tilgreina sjálfgefinn mælieiningarkóða fyrir sölu- eða innkaupaeiningu.
 3. Fyrir sölu, á flýtiflipanum **Reikningsfærsla**, í reitnum **Sölumælieining** er glugginn **Mælieiningar vöru** opnaður.
 4. Fyrir innkaup, á flýtiflipanum **Áfylling**, í reitnum **Innkaupamælieining** er glugginn **Mælieiningar vöru** opnaður.

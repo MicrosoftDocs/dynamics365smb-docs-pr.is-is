@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0fe05d44acd7fb163996e8a663adb309d229b203
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 847cce9d48b6e5f3c98d1b64eef0d912f6dcf5fd
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-workflow-users"></a>Setja upp notendur verkflæðis
@@ -32,7 +32,7 @@ Verkflæðisnotendur sem virka sem samþykktarnotendur, bæði samþykkjendur be
 
 ### <a name="to-set-up-a-workflow-user"></a>Uppsetning verkflæðisnotenda  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Notandaflokkar Verkflæðis** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendahópar verkflæðis** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð. Glugginn **notendaflokkur verkflæðis** opnast.  
 3. Í **Kóði** reitinn skal slá inn að hámarki 20 stafi til að auðkenna verkflæðið.  
 4. Í **Lýsing** reitnum skal lýsa verkflæðinu.  

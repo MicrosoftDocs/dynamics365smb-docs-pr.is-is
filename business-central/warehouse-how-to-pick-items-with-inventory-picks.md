@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8d7fe65a719c7337e0c72435b4ee157c829f7f78
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 816482c6966f3b492cd79b67ac39a33a11cd3d88
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-items-with-inventory-picks"></a>Vörur tíndar með birgðatínslu
@@ -36,7 +36,7 @@ Ef birgðageymsla er sett upp þannig að krafist sé tínsluvinnslu en ekki afh
 ## <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Til að biðja um birgðatínslu með því að gefa út upprunaskjalið  
 Fyrir sölupantanir, innkaupaskilapantanir og millifærslupantanir á útleið er vöruhússbeiðnin stofnuð með því að gefa út pöntunina. Eftirfarandi lýsir því hvernig skal gera þetta frá sölupöntun.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.
 2. Valinn er sölupöntun sem á að gefa út og velja síðan aðgerðina **Gefa út**.
 
 Hvað framleiðslupantanir ræðir er vöruhúsabeiðnin um tínslu á íhlutum stofnuð sjálfvirkt, kallað *flæði*, þegar stöðu framleiðslupöntunar er breytt í **Útgefin** eða þegar útgefna framleiðslupöntunin er stofnuð. Frekari upplýsingar eru í [Taka til fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md).
@@ -45,7 +45,7 @@ Hvað framleiðslupantanir ræðir er vöruhúsabeiðnin um tínslu á íhlutum 
 
 ## <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Birgðatínsla stofnaður á grundvelli upprunaskjals
 Nú þegar beiðnin hefur verið stofnuð getur starfsmaður vöruhússins stofnað nýja birgðatínslu á grundvelli útgefins upprunaskjals.
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðatínsla** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínsla** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3. Í reitnum **Upprunaskjal** er valin sú tegund upprunaskjalsins sem verið er að tína fyrir.  
 4. Í reitnum **Forðanr.** er forðaskjal valið.  
@@ -58,7 +58,7 @@ Nú þegar beiðnin hefur verið stofnuð getur starfsmaður vöruhússins stofn
 3.  Velja hnappinn **Í lagi**. Ný birgðatínsla verður stofnuð.
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Fleiri en ein birgðatínsla stofnuð með keyrslu  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Stofna frágang/tínslu í birgðum** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofna frág./tínslu í birgðum** og veldu síðan tengda tengilinn.  
 2.  Á flýtiflipanum **Vöruhúsabeiðni** eru reitirnir **Upprunaskjal** og **Upprunanúmer** notaðir til að afmarka eftir tilteknum gerðum fylgiskjala eða sviðum fylgiskjalanúmera. Til dæmis er hægt að stofna tínslu einungis fyrir sölupantanir.  
 3. Á flýtiflipanum **Valkostir** veljið gátreitinn **Stofna birgðatínslu**.
 4. Velja hnappinn **Í lagi**. Tilteknar birgðatínslur eru stofnaðar.
@@ -69,7 +69,7 @@ Nú þegar beiðnin hefur verið stofnuð getur starfsmaður vöruhússins stofn
 >  Í einfaldri vöruhúsagrunnstillingu eru vörur sem settar eru saman í sölupantanir tíndar út tengdri sölupöntun eins og útskýrt er í þessu efnisatriði. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í birgðatínslu.  
 
 ## <a name="to-record-the-inventory-picks"></a>Skrá Birgðatínslurnar  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðatínsla** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínsla** og veldu síðan tengda tengilinn.  
 2. í reitnum **Hólfakóði** í tínslulínunum, hólfið sem vörurnar þurfa að vera tíndar úr er tillaga á sjálfgefið hólf vörunnar. Hægt er að skipta um hólf í þessum glugga ef með þarf.  
 3. Gengið er frá vörunum og upplýsingar um raunmagnið sem gengið var frá færðar inn í reitinn **Magn til afgreiðslu**.
 

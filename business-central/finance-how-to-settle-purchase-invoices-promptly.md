@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4797cdff42313f35a5d9d95040e4145fa3e5249f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 402632f7ce6e721310c3fc3ccfb93e58eae641e5
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Greiða innkaupareikninga tímanlega
 Ef greiða þarf lánardrottni með peningum eða ávísun er hægt að bóka greiðsluna um leið og reikningurinn er bókaður.  
   
 ### <a name="to-settle-purchase-invoices-promptly"></a>Innkaupareikningar gerðir skjótt upp  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.  
 2. Á flipanum **Heim** veljið **Nýtt**.  
 3.  Ef á að greiða annaðhvort með peningum eða bankamillifærslu skal færa inn númer fjárhagssjóðsreikningsins eða bankareikningsins í reitinn **Númer mótreiknings**.  
   

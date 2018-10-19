@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 9f2dcd6328c86117a927aeaeaeba075c421db046
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1a5ce3c514ff649b5ad4a901f257816ae1a59d58
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="acquire-fixed-assets"></a>Komast yfir eignir
@@ -31,7 +31,7 @@ Endurmat er notað til að laga virði að almennum verðbreytingum. Hægt er a�
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Stofna eign og komast yfir hana sjálfkrafa
 Eftirfarandi ferli sýnir hvernig á að stofna eign og komast svo yfir hana með því að nota **aðstoð við eignakaup** glugganum til að stofna og bóka nauðsynlegar eignafjárhagslínur Hægt er að einnig að stofna og bóka færslubókarlínurnar handvirkt. Nánari upplýsingar eru í "Bókun eignakaupa handvirkt með fjárhagsbók eigna" hlutanum.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir** og veldu síðan tengda tengilinn.  
 2. Velja sem **Nýtt** aðgerð og síðan fyllt út í reitina á **Almenna** Flýtiflipanum eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **afskriftabók**. Þetta skref úthlutar afskriftabók á eigninni.  
 4. Ef það þarf að úthluta fleiri en einni afskriftabók á eign skal velja **bæta Við Fleiri Afskriftabækur** aðgerð. Nánari upplýsingar eru í "úthluta eign á afskriftabók" hlutanum í [Uppsetning afskriftabóka eigna](fa-how-setup-depreciation.md).
@@ -50,12 +50,12 @@ Hægt er að flokka eignir í aðaleignir og íhluti þeirra. Í framleiðslutæ
 
 Setja verður bæði aðaleignina og íhluti hennar upp sem einstök eignaspjöld. Þegar íhlutalistinn hefur verið settur upp fyllir [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa í reitina**Aðaleign/íhlutur** og **Íhlutir aðaleignar** á eignarspjöldunum.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **eignir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir** og veldu síðan tengda tengilinn.
 2. Valin er eignin sem er aðaleignin er valin síðan **íhlutir aðaleignar** aðgerð.
 3. Í glugganum **Íhlutir aðaleignar** skal velja reitinn **Eignanr.** og síðan valið eignin sem á að bæta við sem íhlut aðaleignar.
 4. Glugganum er lokað.
 5. Endurtaktu þrep 3 og 4 fyrir hverja íhlut eignar sem ætlunin er að bæta við.
-6. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning eigna** og velja svo viðeigandi tengil.
+6. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning eigna** og veldu síðan tengda tengilinn.
 7. Valinn er **Leyfa Bókun á Aðaleignir** gátreitinn.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Bókun eignakaupa handvirkt með fjárhagsbók eigna.
@@ -64,10 +64,10 @@ Eftirfarandi ferli sýnir hvernig á að komast yfir eign handvirkt með því a
 > [!NOTE]  
 >   Einnig má bóka kaupverð sem lánsfé. Í því tilfelli muna sem gildið í reitnum **upphæð** að vera með mínusmerki til að tilgreina kredit.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsbók eigna** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignafjárhagsbækur** og veldu síðan tengda tengilinn.
 2. Í **fjárhagsbók eigna** glugga í á **Eignabókunartegund** reitnum er valinn **kaupverð**.
 3. Fyllið inn í eftirstandandi reiti eftir þörfum.
-4. Valið er **bóka** aðgerð.  
+4. Valið er **Bóka** aðgerðin.  
 
 > [!TIP]  
 >   Ef þú fyllir upp í reitinn **Tryggingarnúmer** í fjárhagsbók eigna þegar kaupverð er bókað, mun [!INCLUDE[d365fin](includes/d365fin_md.md)] líka bóka kaupverð eignarinnar í vátryggingasviðsbókina. Nánari upplýsingar sjá [Tryggja eignir](fa-how-insure.md).
@@ -80,7 +80,7 @@ Ef stofnkostnaður er til dæmis bókaður með rangri dagsetningu þarf að lei
 > [!IMPORTANT]  
 >   Ekki er hægt að nota aðgerðina **Bakfæra viðskipti** fyrir eignarfærslur.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Hætta við eignafærslur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hætta við eignafærslur** og veldu síðan tengda tengilinn.
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
 4. Þegar röng færsla eða færslur eru ógiltir, skal halda áfram og bóka rétt kaupverð.
@@ -90,10 +90,10 @@ Til að hætta við færslur fyrir margar eignir á sama tíma skal nota **hætt
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Bóka hrakvirði með kaupverði.
 Hægt er að bóka hrakvirði með stofnkostnaði af fjárhagsbók eigna.    
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Hætta við eignafærslur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hætta við eignafærslur** og veldu síðan tengda tengilinn.
 2. Stofna færslubókarlínunni kaupa. Nánari upplýsingar eru í "Bókun eignakaupa handvirkt með fjárhagsbók eigna" hlutanum.
 3. **Hrakvirðið** er fært sem kreditupphæð (með mínusmerki) í reitinn Hrakvirði í reikningslínunni.
-4. Valið er **bóka** aðgerð.
+4. Valið er **Bóka** aðgerðin.
 
 > [!NOTE]  
 >   Bókunartegundin **hrakvirði** er aðeins valkostur í glugganum **Eignarbók**. Hún er Ekki tiltæk í **Eignabók Fjárhags** glugganum vegna þess að hrakvirði er aldrei bókað á fjárhag.

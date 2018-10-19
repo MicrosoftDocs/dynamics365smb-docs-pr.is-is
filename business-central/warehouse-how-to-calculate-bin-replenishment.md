@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9296fe5b8773d894fe76a2e87271f139cb3b2b91
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ac684ffdb7bc6e9ddefa218e27babb7c9c5bb3ea
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a>Reikna út áfyllingu hólfs
@@ -29,7 +29,7 @@ Einnig getur verið að von sé á nýjum birgðum og tæma eigi geymslusvæði�
 Að lokum, hafi geymsluhólfin aðeins verið skilgreind fyrir **frágang** þ.e. tegund hólfanna er ekki með valda aðgerðina **Tína** þarf alltaf að hafa tínsluhólfin full þar sem ekki er ráðlagt að vörur séu tíndar úr hólfum sem eru bara fyrir frágang.  
 
 ## <a name="to-replenish-pick-bins"></a>Fyllt á tínsluhólf  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Hreyfingarvinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hreyfingavinnublað** og veldu síðan tengda tengilinn.  
 2.  Velja skal aðgerðina **Reikna áfyllingu hólfs** til að opna síður skýrslubeiðna.  
 3.  Beiðnigluggi keyrslunnar er fylltur út til að takmarka umfang áfyllingartillagna sem verða reiknaðar. Til dæmis gæti átt að leggja áherslu á tilteknar vörur, svæði eða hólf.  
 4.  Velja hnappinn **Í lagi**. Línur eru stofnaðar fyrir áfyllingarhreyfingar sem þarf að framkvæma reglum sem settar hafa verið upp fyrir hólfin og innihald hólfa, þ.e. vörur í hólfum.  

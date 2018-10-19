@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 15676c264736b4547dd32cd7a37b252757f73b2a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bd2bfb6f124a3a98776be21d179a81d8933cc9ee
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="trace-item-tracked-items"></a>Rekja vöruraktar vörur
@@ -32,7 +32,7 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 
 ## <a name="to-trace-item-tracked-items"></a>að rekja vöruraktar vörur  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörurakning** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vörurakning** og veldu síðan tengda tengilinn.  
 2.  Í afmörkunarreitina efst í glugganum eru slegin inn tilteknu vörunúmerin eða afmörkun á þau vörunúmer sem ætlunin er að rekja.  
 3.  Í reitnum **Sýna íhluti** er valið hvort ætlunin sé einnig að sjá hvaðan íhlutirnir fyrir vörurnar komu. Valkostirnir í reitnum eru sem hér segir.  
 
@@ -61,7 +61,7 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>Til að finna vöruraktar vörur með Færsluleit  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Færsluleit** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **skoða** og veldu síðan tengda tengilinn.  
 2.  Á flýtiflipanum **Vörurakning**, í reitunum **Raðnúmer** og **Lotunr.**, skal færa inn vörurakningarnúmer sem ætlunin er að rekja.  
 3.  Velja skal aðgerðina **Finna** til að finna öll tilvik um rað- eða lotunúmerið í gagnagrunninum.  
 

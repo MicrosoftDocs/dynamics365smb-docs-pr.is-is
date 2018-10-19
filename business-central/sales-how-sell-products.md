@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 04/30/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: ad8936e09a8f093f5855a87c8d78e05839afefc1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1cd0b5b48993820cc37b53ce6202bb02e4cf0f1b
 ms.contentlocale: is-is
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sell-products"></a>Selja vörur
@@ -37,12 +37,12 @@ Hægt er að semja við viðskiptamanninn með því að gera fyrst sölutilboð
 
 Auðvelt er að leiðrétta eða afturkalla bókaðann sölureikning sem á uppruna sinn í sölupöntun áður en hann er greiddur. Þetta er gagnlegt þegar leiðrétta á mistök eða þegar viðskiptamaðurinn biður um breytingu snemma í pöntunarferlinu. Frekari upplýsingar eru í [Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md). Ef bókaður sölureikningur er greiddur, verður að búa til sölukreditreikning til að afturkalla söluna. Fyrir frekar upplýsingar, sjá [Meðhöndlun söluvöruskila eða afturkallana](sales-how-process-sales-returns-cancellations.md).
 
-Vörurnar geta bæði verið birgðavörur og þjónustur, gefið til kynna af gerðinni **Birgðir** og **Þjónusta** á birgðaspjaldinu. Sölupantanaferlið er það sama fyrir báðar vörutegundir. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
+Birgðaspjaldið getur verið af gerðinni **Birgðir**, **Þjónusta** og **Ekki birgðir** til að tilgreina hvort vara er raunbirgðaeining, launatímaeining eða efnisleg eining sem ekki er geymd í birgðum. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md). Sölupantanaferlið er það sama fyrir allar þrjár vörutegundir.
 
 Hægt er að fylla út viðskiptamannsreitina á sölupöntunina með tveimur leiðum, eftir því hvort viðskiptamaðurinn hefur þegar verið skráður. Sjá lið 2 og 3 í eftirfarandi ferli.
 
 ## <a name="to-create-a-sales-order"></a>Sölupöntun stofnuð
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.
 2. Í reitnum **Viðskiptamaður** er fært inn nafn núverandi viðskiptamanns.
 
     Aðrir reitir í glugganum **sölupöntun** eru nú fylltir út með stöðluðum upplýsingum um viðskiptamaður sem valinn hefur verið. Ef viðskiptamaður er ekki skráður, fylgið eftirfarandi skrefum:
@@ -95,7 +95,7 @@ Hægt er að fylla út viðskiptamannsreitina á sölupöntunina með tveimur le
     Þú skilur **nr.** reitur tómur í eftirfarandi tilfellum:
 
     * Ef línan er ætluð athugasemd. Rita athugasemdina í **Lýsing** reitinn.
-    * Ef línan er fyrir utanbirgðavöru. Veljið **Velja utanbirgðavörur** aðgerð. Frekari upplýsingar eru í [Vinna með utanbirgðavörur](inventory-how-work-nonstock-items.md).
+    * Ef línan er fyrir vörulistavöru. Velja **Velja vörulistaatriði** aðgerð. Nánari upplýsingar er að finna í [Vinna með vörulistaatriði](inventory-how-work-nonstock-items.md).
 
 19. Í reitnum **Magn** er fært inn hversu margar einingar vöru, kostnaðarauka eða færslu sem línan skráir fyrir viðskiptamanninn.  
 

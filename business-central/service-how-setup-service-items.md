@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 050456758a2bf4f3489ed382103d5fed99e8fada
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e946bab348aeee1b65b85165b2d9d553736813ba
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Setja upp þjónustuvörur og íhluti þjónustuvara
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 
 Þjónustuvöruflokkum er úthlutað til vöru á **birgða** spjaldi og þjónustuvöru á **þjónustuvöru** spjaldi.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuvöruflokkar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvöruflokkar** og veldu síðan tengda hlekkinn.  
 2. Nýr þjónustuvöruflokkur er stofnaður.  
 3. Fyllt er í reitina **Kóti** og **Lýsing**.  
 4. Í reitinn **Sjálfg. samningsafsláttar %** er færð inn sjálfgefin prósenta samningsafsláttar sem á að eiga við þjónustuvöruna í flokknum.  
@@ -39,9 +39,9 @@ ms.lasthandoff: 03/22/2018
 7. Ef skrá á vöru í flokknum sem þjónustuvöru þegar hún er seld þarf að velja reitinn **Stofna þjónustuvöru**.  
 
 ## <a name="to-set-up-service-item-components"></a>Uppsetning þjónustuvöruíhluta
-Í þjónustuvöru geta verið margir íhlutir sem skipta má út með varahlutum þegar varan er í þjónustu. Þessir íhlutir eru uppsettir í síðunni **Þjónustuvara íhlutalisti**. Ef setja á upp íhluta vegna þjónustuvöru sem er uppskrift er hægt að afrita uppskriftarvöruna og stofna hana sem íhluti þjónustuvöru.
+Í þjónustuvöru geta verið margir íhlutir sem skipta má út með varahlutum þegar varan er í þjónustu. Þessir íhlutir eru uppsettir í glugganum **Þjónustuvara - íhlutalisti**. Ef setja á upp íhluta vegna þjónustuvöru sem er uppskrift er hægt að afrita uppskriftarvöruna og stofna hana sem íhluti þjónustuvöru.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuvörur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvörur** og veldu síðan tengda hlekkinn.
 2. Opna skal þjónustuvöruna sem á að setja upp íhluti fyrir.  
 3. Velja aðgerðina **Íhlutir**. Glugginn **Þjónustuvöruíhlutalisti** opnast.  
 4. Bæta við nýjum íhlut.  
@@ -49,7 +49,7 @@ ms.lasthandoff: 03/22/2018
 6. Í reitnum **númer** skal velja vöruna eða þjónustuvöruna sem er íhlutur þjónustuvörunnar.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Uppsetning þjónustuvöruíhluta út frá uppskriftum
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuvörur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvörur** og veldu síðan tengda hlekkinn.  
 2. Opna skal þjónustuvöruna sem setja á upp íhluti út frá uppskrift fyrir.  
 3. Velja aðgerðina **Íhlutir**. Glugginn **Þjónustuvöruíhlutalisti** opnast.  
 4. Valið er **Afrita úr uppskrift** aðgerð.  
@@ -57,9 +57,9 @@ ms.lasthandoff: 03/22/2018
     Ef varan sem þjónustuvaran tengist er uppskrift stofnuð sjálfkrafa fyrir íhluti fyrir alla vöru í uppskriftinni.  
 
 ## <a name="to-set-up-a-service-shelf"></a>Uppsetning þjónustuhillu
-Þú getur sett upp þjónustuhillur sem tilgreina hvar þú geymir þjónustuvörur þínar. Þjónustuhillum er úthlutað til þjónustuvöru í síðunum **Þjónustupöntun** og **Þjónustuvörublað**.  
+Þú getur sett upp þjónustuhillur sem tilgreina hvar þú geymir þjónustuvörur þínar. Þjónustuhillum er úthlutað til þjónustuvöru í gluggunum **Þjónustupöntun** og **Þjónustuvörublað**.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuhillur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuhillur** og veldu síðan tengda hlekkinn.
 2. Fyllið inn í reitina eftir þörfum.
 
 ## <a name="see-also"></a>Sjá einnig

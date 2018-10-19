@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: d17ed41b7beb6ba342c17e007496314d9be743f0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: faf2ce7b68c2f54e05c6bfc9b45b736e7f3e7ab8
 ms.contentlocale: is-is
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-new-vendors"></a>Skráning nýrra lánardrottna
@@ -30,7 +30,7 @@ Lánardrottnaspjöld geyma upplýsingarnar sem þarf til að kaupa vörur frá l
 >   Ef lánardrottnasniðmát er til fyrir mismunandi tegundir lánardrottna, þá birtist sjálfkrafa gluggi þegar búið er til nýtt lánardrottnaspjald þar sem hægt er að velja viðeigandi lánardrottnasniðmát. Ef aðeins eitt lánardrottnasniðmát er fyrir hendi, nota ný lánardrottnaspjöld alltaf það sniðmát.
 
 ## <a name="to-create-a-new-vendor-card"></a>Að búa til nýtt lánardrottnaspjald.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **lánardrottnar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.  
 2. Í glugganum **Lánardrottnar** skal velja **Nýtt**.
 
     Ef fleiri en eitt lánardrottnasniðmát er fyrir hendi, þá birtist sjálfkrafa gluggi með tiltækum lánardrottnasniðmátum. Í því tilviki, fylgið næstu tveimur skrefum.

@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0a7de9af414851d3bdcfe1a8be4d3de13929bca0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fd6ff4b937b059980bf7fb6a41f000edc1ab1fcf
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Bæta tengiliðum við hluta
 Þegar hluti hefur verið stofnaður og gunnupplýsingar um hann færðar inn er tengiliðum gjarnan bætt við hlutann. Það er hægt að gera það handvirkt í glugganum **Hluti** en það er auðveldara og fljótlegra að nota aðgerðina **Bæta við tengiliðum**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Til að bæta tengilið við hluta
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Hutar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **hlutar** og veldu síðan tengda tengilinn.  
 2. Veljið hlutann og veljið svo aðgerðina **Bæta við tengiliðum**. Runuvinnsluglugginn **Bæta við tengiliðum** opnast.
 3. Í hlutanum **Tengiliður** skal setja upp afmarkanir til að tilgreina þær upplýsingar sem á að nota til að velja tengiliði.
 

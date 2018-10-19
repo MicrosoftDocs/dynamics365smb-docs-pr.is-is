@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 6351f2b8a79afa201192addc4960bda6d59448eb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6c8c3f39d782a33896e531c4bfdf95b589458f99
 ms.contentlocale: is-is
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sales"></a>Sala
@@ -38,12 +38,13 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 | Til | Sjá |
 | --- | --- |
+|Stofna viðskiptamannaspjald fyrir alla viðskiptamenn sem selt er til.|[Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)|
 | Stofna sölutilboð þar sem boðið er upp á vörur með umsemjanlegum skilmálum áður en tilboðinu er breytt í sölureikning. |[Gera sölutilboð](sales-how-make-offers.md) |
 | Stofna sölureikning til að skrá samkomulag við viðskiptamann um að selja vörur með tilteknum afhendingar- og greiðsluskilmálum. |[Reikningsfæra sölur](sales-how-invoice-sales.md) |
 | Vinna sölupöntun sem felur í sér sendingu eða beina sendingu. |[Selja vörur](sales-how-sell-products.md) |
 |Setja upp staðlaðar innkaupa- og sölulínur sem þú getur fært á fljótlegan hátt inn í skjöl, til dæmis fyrir endurteknar áfyllingapantanir.|[Stofna ítrekaðar sölu- og innkaupalínur](sales-how-work-standard-lines.md)|  
 | Tengja sölupöntun við innkaupapöntun til að selja vöru beinnar afhendingar vara sem verður afhent beint frá lánardrottni til viðskiptamanns þíns. |[Beinar sendingar](sales-how-drop-shipment.md) |
-|Láttu lánardrottinn afgreiða til þín utanbirgðavöru í vöruhúsið svo þú getir afgreitt vöruna til viðskiptamannsins.|[Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)|
+|Láttu lánardrottinn afgreiða til þín vörulistaatriði í vöruhúsið svo þú getir afgreitt vöruna til viðskiptamannsins.|[Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)|
 | Notið aðgerð á ógreiddum bókuðum sölureikningi til að stofna sjálfvirkt kreditreikningsferli og annaðhvort afturkalla sölureikninginn eða endurskapa hann til að gera leiðréttingar. |[Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md) |
 | Stofna sölukreditreikning til þess að bakfæra tiltekinn bókaðan sölureikning til að endurspegla hvaða vörur viðskiptamaðurinn skilar og hvað upphæð þarf að endurgreiða. |[Vinna söluskil eða afturkallanir](sales-how-process-sales-returns-cancellations.md) |
 |Stjórnaðu ráðstöfun viðskiptamanns til að kaupa inn mikið magn sem er afhent í nokkrum sendingum yfir tímabil.|[Vinna með standandi sölupantanir](sales-how-to-create-blanket-sales-orders.md)|
@@ -61,5 +62,4 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

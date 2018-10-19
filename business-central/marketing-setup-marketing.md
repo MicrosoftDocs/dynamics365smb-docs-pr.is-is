@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: f4ccc58d0414131276dec3e062cf12e1ae4596db
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ac38294ce65d767133e70880b6104c7325d9bb3a
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Uppsetning tengslastjórnar
@@ -24,7 +24,7 @@ ms.lasthandoff: 06/01/2018
 
 Með stjórnun tengiliða og gerð áætlunar til að finna, laða að og halda viðskiptamönnum má fínstilla rekstur fyrirtækisins og auka ánægju viðskiptamanna. Notkun góðs tengiliðastjórnunarkerfis hjálpar einnig til við stofnun og viðhald sambanda við viðskiptamenn. Samskipti eru lykillinn í slíkum samböndum. Nauðsynlegt er að geta sérsniðið samskipti við mögulega og núverandi viðskiptamenn, lánadrottna og viðskiptafélaga eftir þörfum þeirra, svo fyrirtæki dafni. Stofnun áætlunar og skilgreining á hvernig fyrirtækið notar tengiliðaupplýsingar er frumskref. Margir ólíkir hópar innan fyrirtækisins munu skoða þessar upplýsingar, og gott kerfi hjálpar öllum að auka framleiðni sína.
 
-Þú Setja upp stjórnun markaðssetningar og tengiliðar úr á **Uppsetning markaðssetningar** glugganum. Til að opna gluggann **Setja upp markaðssetningu** skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Setja upp markaðssetningu** og velja svo viðeigandi tengil.
+Þú Setja upp stjórnun markaðssetningar og tengiliðar úr á **Uppsetning markaðssetningar** glugganum. Til að opna gluggann **Uppsetning markaðssetningar** Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning markaðssetningar** og veldu síðan tengda tengilinn.
 
 ## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Afritar ákveðna upplýsingar sjálfkrafa úr tengiliðafyrirtækjum yfir til tengiliðs.
 Vissar upplýsingar um tengiliðafyrirtæki eru þær sömu og um einstaklingstengiliði sem vinna hjá fyrirtækjunum, til dæmis upplýsingar um aðsetur. Í hlutanum **erfðir** í glugganum **uppsetning markaðssetningar** geturðu stillt forritið til að afritað tiltekna reiti sjálfkrafa af fyrirtækistengiliðaspjaldinu á tengiliðaspjaldið í hvert sinn sem  stofnaður er tengiliður fyrir tengiliðarfyrirtæki. Til dæmis er hægt að velja að afrita sölumannskóða, upplýsingar um aðsetur, upplýsinga um aðsetur (aðsetur, aðsetur 2, bæ, póstnúmer og sýslu) og samskiptaupplýsingar (faxnúmer, svarkóða á telex og símanúmer) og meira.

@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6c71912f559aa8d1de361a581115ea1eb153cf35
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 37c8f69f7cac8155bf45ab02dc8908249a0ace71
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Setja upp vörur og birgðageymslur fyrir beinan frágang og tínslu
 Þegar vöruhús er sett upp fyrir beinan frágang og tínslu fást aðgerðir sem gera rekstur vöruhússins mun skilvirkari. Svo að þessar aðgerðir nýtist til fulls þarf að veita viðbótarupplýsingar um vörurnar sem hjálpa til við að reikna út skilvirkustu og bestu aðferðirnar til að stýra vöruhúsaaðgerðum. Nánari upplýsingar eru í [Upplýsingar um hönnun: Uppsetning vöruhúss](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Varan sett upp fyrir beinan frágang og tínslu  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
 2.  Opnaðu kort fyrir vöruna sem á að setja upp fyrir beinan frágang og tínslu er valin.
 3. Á flýtiflipanum **Vöruhús** á birgðaspjaldinu eru reitirnir fylltir út til að tilgreina hvernig fara skuli með vöruna í vöruhúsinu.  
 4.  Veldu **Mælieining**.
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/22/2018
 Beinn frágangur og tínsla gefa kost á þróaðri vöruhúsaaðgerðum sem auka mjög skilvirkni og áreiðanleika gagna. Fyrst þarf að setja upp nokkrar færibreytur í vöruhúsinu.  
 
 Ef nota á beinan frágang og tínslu þarf að virkja aðgerðina á birgðageymsluspjaldinu.    
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
 2.  Veljið staðsetninguna þar sem nota á stýrðan frágang og tínslu og veldu svo aðgerðina **Breyta**.  
 3.  Á flýtiflipanum **Vöruhús** skal velja gátreitinn **Beinn frágangur og tínsla**.  
 
@@ -51,7 +51,7 @@ Einnig er hægt að skilgreina kóta vöruhúsaflokka ef vörur í vöruhúsinu 
 Nú er allt til reiðu fyrir uppsetningu svæðanna eigi að nota svæði í vöruhúsinu. Notkun svæða fækkar reitum sem fylla þarf út þegar hólf eru sett upp þar sem hólf sem stofnuð eru innan svæða erfa nokkra af eiginleikum svæðisins. Svæði auðvelda einnig nýjum starfsmönnum og afleysingafólki að ná áttum í vöruhúsinu. Athugið að flæði er stjórnað af hólfum, því er hægt er að nota hólf og hafa aðeins eitt svæði.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Svæði sett upp í vöruhúsinu  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
 2.  Staðsetningin þar sem á að setja upp svæði er valin og birgðageymsluspjald opnað og svo **Staðir** valin.  
 3.  Í glugganum **Staðir** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 91928287d24c2b6199ea243bdc00e48e136adcfd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 77c6711c619d8f54597648a5addcdf831a6ef8a5
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-service-quotes"></a>Stofna þjónustutilboð
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 Hægt er að nota þjónustutilboð sem drög að þjónustupöntun og svo má breyta tilboðinu í þjónustupöntun.  
   
 ## <a name="to-create-a-service-quote"></a>Þjónustutilboð búin til:  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustutilboð** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustutilboð** og veldu síðan tengda tengilinn.  
 2. Stofna nýtt þjónustutilboð.  
 3. Í reitnum **númer** er fært inn númer fyrir þjónustutilboðið. Hafi númeraröð fyrir þjónustutilboð verið sett upp í glugganum **Þjónustukerfisgrunnur** er einnig hægt að styðja á færslulykilinn til að velja næsta lausa þjónustutilboðsnúmer.  
 4. Í **Númer viðskiptamanns**  reitnum, veljið viðeigandi viðskiptamann af listanum.  

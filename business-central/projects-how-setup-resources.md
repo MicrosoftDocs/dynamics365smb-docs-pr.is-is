@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 982c250becec74472b89ae705057d1b34f95e338
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c9c1ec39fcec950037193b15d04ab8dde994ff63
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-resources"></a>Setja upp forða
@@ -29,21 +29,21 @@ Sjálfgefna upphæð á klukkustund þarf að tilgreina þegar forðinn er stofn
 ## <a name="to-set-up-a-resource"></a>að setja upp forða
 Stofna skal spjald fyrir hvern forða sem á að nota í verkefnum.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forði** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tilföng** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Að setja upp forðaflokk
 Hægt er að flokka forða saman í einn forðaflokk. Geta og áætlanir forðaflokka eru samsafn einstakra forða. Einnig er hægt að tilgreina getu forðaflokka, annaðhvort óháð samanlögðu verðmæti eða til viðbótar við það.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forðaflokkar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forðaflokkar** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Fyllið inn í svæðin eftir þörfum.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Að setja upp afkastagetu fyrir forða
 Til að reikna út hve lengi forði getur tengst verki verður fyrst að setja afkastagetuna upp sem tiltækan tíma á tímabilinu á verkdagatalinu. Þessi uppsetning er notuð þegar verkáætlunarlínur sem innihalda forðann eru fylltar út. Frekari upplýsingar eru í [Stofna verk](projects-how-create-jobs.md).
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forði** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tilföng** og veldu síðan tengda tengilinn.
 2. Opna skal viðeigandi forðaspjald og velja svo aðgerðina **Forðageta**.
 3. Í glugganum **Forðageta**, á svæðinu **Skoða eftir** skal skilgreina lengd tímabilsins, svo sem **Dagur**, sem sýnt er í dálkum á flýtiflipanum **Fylki forðagetu**.
 4. Fyrir hvern forða á línu skal tilgreina fyrir hvert tímabil á dálkunum fjölda vinnustunda sem forðinn er tiltækur.
@@ -55,7 +55,7 @@ Til að reikna út hve lengi forði getur tengst verki verður fyrst að setja a
 ## <a name="to-set-up-alternate-resource-costs"></a>Til að setja upp annan forðakostnað
 Auk kostnaðarins sem tilgreindur er á forðaspjaldinu er hægt að setja upp annan kostnað fyrir hvern forða. Ef til dæmis er greitt hærra tímakaup vegna yfirvinnu starfsmanna er hægt að setja upp forðakostnað fyrir yfirvinnu. Þessi annar kostnaður sem settur er upp fyrir forða kemur í stað kostnaðarins á forðaspjaldinu þegar forðinn er notaður í forðabókinni.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forði** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tilföng** og veldu síðan tengda tengilinn.  
 2. Velja skal forðann sem setja á upp einn eða fleiri annan kostnað fyrir og svo skal velja aðgerðina **Kostnaður**.  
 3. Í glugganum **Forðakostnaður** skal fylla út reitina í línu eins og þörf krefur.  
 4. Endurtaka skal skref 3 fyrir hvern annan kostnað sem setja skal upp.
@@ -65,7 +65,7 @@ Auk kostnaðarins sem tilgreindur er á forðaspjaldinu er hægt að setja upp a
 ## <a name="to-set-up-alternate-resource-prices"></a>Til að setja upp annað forðaverð
 Auk verðsins sem tilgreint er á forðaspjaldinu er hægt að setja upp annað verð fyrir hvern forða. Þetta annað verð getur verið háð skilyrðum. Það getur verið háð því hvort forðinn sé notaður í tilteknu verki eða verktegund.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forði** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tilföng** og veldu síðan tengda tengilinn.
 2. Velja skal forðann sem setja á upp eitt eða fleiri annað verð fyrir og svo skal velja aðgerðina **Verð**.
 3. Í glugganum **Forðaverð** skal fylla út reitina í línu eins og þörf krefur.
 4. Endurtaka skal skref 3 fyrir hvert annað verð sem setja skal upp.

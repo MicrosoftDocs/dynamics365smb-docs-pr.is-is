@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 64f3f214d014faff6ee0e71180b1cb928bb15d86
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Umbreyta þjónustusamningum sem innihalda VSK upphæðir
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/22/2018
 >  Í þessu dæmi þarf að breyta þarf vinnudagsetningunni í 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Til að leiðrétta reikning fyrir fyrirframgreiddan þjónustusamning  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Samningastjórnun** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Samningastjórnun** og veldu síðan tengda tengilinn.  
 2. Undir **Listar**, skal velja **Þjónustusamningar**.  
 3. Stofna nýjan fyrirframgreiddan þjónustusamning. Færa inn upphafsdagsetninguna **01.01.2017** og reikningstímabilsár fyrir viðskiptavin **20000**.  
 4. Skrifa þarf undir þennan samning. Á flipanum **Heim**, í flokknum **Vinna**, skal velja **Undirrita samning**.  

@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/22/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: d22de15b3e91897a209a31d03a63fb7d927d2f96
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: be986c07849db4cdc19ad2e492887373753f5dbe
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="publish-a-web-service"></a>Birta vefþjónustu
+
 Vefþjónustur eru létt leið til að gera virkni forrita aðgengilega ýmsum utanaðkomandi kerfum og notendum. [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur fjölda hluta sem eru sýndir sem vefþjónusta að sjálfgefnu vegna samþættingu við Microsoft þjónustu, en þú getur einnig bætt við annarri vefþjónustu.  
 
 Hægt er að setja upp vefþjónustu í Windows-biðlaranum eða í vefbiðlaranum. Þá verður að gefa vefþjónustuna út til að hún geti tekið við þjónustubeiðnum á netinu. Notendur geta fundið vefþjónustu með því að beina vafra að staðsetningu vefþjóns og biðja um lista yfir þjónustu í boði. Þegar gefa á út vefþjónustu verður hún samstundis virk á netinu fyrir sannvottaða notendur. Allir heimilaðir notendur geta opnað lýsigögn fyrir vefþjónustu, en aðeins notendur með nægilegar heimildir geta opnað raungögn.
@@ -27,8 +28,8 @@ Eftirfarandi skref skýra hvernig vefþjónusta er búin til og gefin út.
 
 ### <a name="to-create-and-publish-a-web-service"></a>Til að stofna og gefa út vefþjónustu  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vefþjónusta** og velja svo viðeigandi tengil.  
-2.  Á síðunni **Vefþjónusta** skal velja **Nýtt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vefþjónusta** og veldu síðan tengda tengilinn.  
+2.  Í **vefþjónusta** glugganum, veldu **Nýr**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     >  **Kótaeining** og **Síða** eru gildar tegundir fyrir SOAP-vefþjónustu. **Síða** og **Fyrirspurn** eru gildar gerðir fyrir OData-vefþjónustu.  

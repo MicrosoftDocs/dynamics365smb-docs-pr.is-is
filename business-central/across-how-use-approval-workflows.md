@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 0b83fbb4ec39a1a7596fd788e5dad985bacb30c2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4a153d8cd4ceccea2d7d410702df4ba2ec760cf9
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-approval-workflows"></a>Nota Samþykktarverkflæði
@@ -31,7 +31,7 @@ Kjarna samþykkisverkflæði fyrir innkaupaskjöl, söluskjöl, greiðslubækur,
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda.
 
 1. Í glugganum sem táknar færsluna er valið **Senda samþykktarbeiðni** aðgerðin.
-2. Til að sjá allar samþykktarbeiðnir skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") táknið, færa inn **Beiðnifærslur samþykktar** og velja síðan viðkomandi tengil.  
+2. Til að sjá allar samþykktarbeiðnir þínar skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Færslur fyrir samþykktarbeiðni** og veldu síðan tengda hlekkinn.  
 
 Staða samþykktarfærslunnar er uppfærð úr **Stofnað** í **Opið**. Staða færslunnar, til dæmis innkaupareikningur, er uppfærð úr **Opin** í **Bíður samþykkis** og er áfram lokuð fyrir breytngar þar til allir samþykkjendur hafa samþykkt færsluna.
 
@@ -51,7 +51,7 @@ Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimild
 
 Hægt er að vinna samþykktarbeiðnum í glugganum **Beiðnir til að samþykkja** , til dæmis til að samþykkja margar beiðnum í einu. Einnig er hægt er að vinna hvern beiðni á tengdar færslu, eins og í **Innkaupareikningur** glugganum, með því að velja tengillinn í tilkynningin sem þú tekur á móti.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Beiðnir til að samþykkja** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Beiðnir til að samþykkja** og veldu síðan tengda tengilinn.
 2. Velja eina eða fleiri línur fyrir færslu eða færslur sem á að samþykkja eða hafna.
 3. Valið er **Samþykkja**, **Hafna**, eða **Framselja** aðgerðir.
 
@@ -66,7 +66,7 @@ Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimild
 
 Til að koma í veg fyrir að skjöl safnist upp með öðru móti stífla verkflæði getur sá sem bað um samþykktina eða samþykkjandinn úthlutað samþykktarbeiðni til staðgengilssamþykkjanda. Staðgengil getur annað hvort verið tilgreindur staðgengill, beinn samþykkjandi eða stjórnandi samþykkis, í þeirri forgangsröð. Þessi aðgerð er yfirleitt notuð ef samþykkjandi er ekki við og getur ekki samþykkt beiðnir fyrir lokadaginn.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Beiðnir til að samþykkja** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Beiðnir til að samþykkja** og veldu síðan tengda tengilinn.
 2. Velja eina eða fleiri línur fyrir samþykktarbeiðni sem á að úthluta á staðgengil til samþykktar, og veldu síðan aðgerðina **framselja**.
 
 Tilkynning um að samþykkja beiðnina er send til staðgengilssamþykkjanda.
@@ -78,7 +78,7 @@ Með reglulegu millibili kann að þurfa að minna notendur samþykktarverkflæ�
 
 Aðgerðin **Senda samþykkistilkynningar sem komnar eru fram yfir á tíma** kannar allar opnar samþykktar færslur sem eru fallnar á tíma. Allir samþykkjendur með a.m.k. eina samþykkt fram yfir á tíma fá tilkynningu með lista yfir þær samþykktarfærslur sem fallnar eru á tíma. Afrit af tilkynningu er sent til samþykkjenda þeirra og allra sendenda samþykkta sem fallnar eru á tíma. Þetta er gagnlegt ef nauðsynlegt er að framselja samþykktarfærslu sem fallin er á tíma til staðgengils.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Samþykktarbeiðnir komnar fram yfir á tíma** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Samþykktarbeiðnir komnar fram yfir á tíma** og veldu síðan tengda tengilinn.
 2. Í **Samþykktarbeiðnir komin fram yfir á tíma** glugganum er valið á **Samþykktarbeiðnir komin fram yfir á tíma Tilkynningar** aðgerð.
 
 ## <a name="see-also"></a>Sjá einnig

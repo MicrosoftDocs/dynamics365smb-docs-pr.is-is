@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3f99d23f2e4a43aeb1face2f39dd6384ff672214
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0f1800674e6f5561dc48eadde132f56b06500f98
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reserve-items"></a>Taka frá vörur
@@ -26,7 +26,7 @@ Hver lína í glugganum **Frátekning**, sem þú opnar til að taka frá vörur
 
 ## <a name="to-reserve-items-for-sales"></a>Vörur teknar frá fyrir sölu
 Eftirfarandi lýsir því hvernig skal taka frá vörur frá sölupöntun. Skrefin eru svipuð fyrir innkaupa-, þjónustu og samsetningarpöntun.  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Í sölupöntun í flýtiflipanum **Línur** veljið aðgerðina **Taka frá**. Glugginn **Frátekning** opnast.  
 3. Smellt er á línuna þar sem taka á vörurnar frá.  
 4. Ein af eftirfarandi aðgerðum er valinn.  
@@ -44,7 +44,7 @@ Eftirfarandi lýsir því hvernig skal taka frá vörur frá sölupöntun. Skref
 Hægt er að taka vörur frá fyrir framleiðslupantanir. Greina þarf á milli framleiðslupöntunarlína, það er yfirvaran, og framleiðslupöntunaríhluta.
 
 Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er notuð.   
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Fastáætluð framleiðslupöntun** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pöntun** og veldu síðan tengda tengilinn.  
 2. Opna fastáætluðu framleiðslupöntunina sem taka á frá yfirvörur fyrir.  
 3. Viðkomandi framleiðslupöntunarlína er valin.  
 4. Á flýtiflipanum **Línur** veljið aðgerðina **Taka frá**.
@@ -56,7 +56,7 @@ Magnið sem fært var inn í fastáætluðu framleiðslupöntunarlínuna hefur v
 Hægt er að taka vörur frá fyrir framleiðslupantanir. Greina þarf á milli framleiðslupöntunarlína, það er yfirvaran, og framleiðslupöntunaríhluta.
 
 Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er notuð.    
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Fastáætluð framleiðslupöntun** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pöntun** og veldu síðan tengda tengilinn.  
 2. Opna fastáætluðu framleiðslupöntunina sem taka á frá íhlutavörur fyrir.  
 3. Viðkomandi framleiðslupöntunarlína er valin.  
 4. Á flýtiflipanum **Línur** skal velja **Lína** og velja svo **Íhlutir**.  
@@ -86,7 +86,7 @@ Hægt að taka frá tiltekin raðnúmer eða lotunúmer í útleiðarskjölum fy
 Þetta er kallað sértæk frátekning, þar sem tekið er frá magni Vöru X sem tilheyrir Lotu X. Ef einfaldlega er tekið frá úr magni Vöru X er það venjuleg, ósértæk frátekning. Nánari upplýsingar eru í [Upplýsingar um hönnun - Vörurakning og frátekningar](design-details-item-tracking-and-reservations.md).
 
 Eftirfarandi ferli byggist á sölupöntun.    
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölupantanir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2. Stofna sölupöntunarlínu fyrir vörurakta vöru.  
 3. Úthluta rað- og lotunúmerum í sölupöntunarlínuna. Frekari upplýsingar, sjá [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
 4. Velja **Taka frá** aðgerðina í sölupöntunarlínunni.  

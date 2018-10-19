@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7a519025bd7bed4bb2974c3e7fb5f044ac35dcf4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e2e937aee7defcc5226a3238652f88261004920c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Gera áætlanir um nýja eftirspurn pöntun fyrir pöntun
@@ -26,14 +26,14 @@ Hægt er að fara inn í gluggann **Pantanaáætlun** á tvenna vegu, eftir þv�
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Til að gera áætlun fyrir nýja framleiðslupöntunareftirspurn  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **áætlaðar framleiðslupantanir** og velja svo viðeigandi tengil. (Hægt er að framkvæma þessi skref fyrir áætlaða, fastáætlaða eða útgefna framleiðslupöntun).
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **áætluð framleiðslupöntun** og veldu síðan tengda tengilinn. (Hægt er að framkvæma þessi skref fyrir áætlaða, fastáætlaða eða útgefna framleiðslupöntun).
 2.  Opna framleiðslupöntunina sem á að áætla og velja síðan **Áætla** aðgerðina.  
 3.  Í glugganum **Pantanaáætlun** er smellt á **Reikna áætlun** aðgerðina.  
 
 Glugginn birtir áætlanalínur eftir yfirlitsafmörkuninni **Framleiðslueftirspurn** sem þýðir óuppfylltar íhlutalínur allra framleiðslupantana sem eru til. Eftirspurn fyrir aðeins eina framleiðslupöntunina er ekki sýnd vegna þess að nauðsynlegt er að áætla fyrir eina framleiðslupöntun með yfirsýn yfir eftirspurn fyrir hugsanlegar eldri íhlutalínur. Áætlanalínur fyrir framleiðslupöntunina eru stækkaðar.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Áætlað fyrir alla nýja eftirspurn  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **pantanaáætlun** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **pantanaáætlun** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Pantanaáætlun** er smellt á **Reikna áætlun** aðgerðina.
 3.  Smellt er á táknið **Stækka (+)** fyrir framan dagsetninguna í reitnum **Dags. eftirsp.** til að sjá undirliggjandi áætlanalínur sem tákna eftirspurnarlínur með ónægt ráðstöfunarmagn.  
 4.  Hægt er að sjá gildi fyrir hverja stækkaða áætlunarlínu, þ.e. eftirspurnarlínu, í upplýsingareitunum neðst í glugganum.  
@@ -85,7 +85,7 @@ Glugginn birtir áætlanalínur eftir yfirlitsafmörkuninni **Framleiðslueftirs
 >   Ef færð er inn seinni dagsetning en dagsetning eftirspurnar birtast viðvörunarboð.  
 
 ## <a name="to-make-supply-orders"></a>Framboðspantanir gerðar  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **áætlaðar framleiðslupantanir** og velja svo viðeigandi tengil. Hægt er að framkvæma þessi skref fyrir áætlaða, fastáætlaða eða útgefna framleiðslupöntun.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **áætluð framleiðslupöntun** og veldu síðan tengda tengilinn. Hægt er að framkvæma þessi skref fyrir áætlaða, fastáætlaða eða útgefna framleiðslupöntun.  
 2.  Opna framleiðslupöntunina sem á að áætla og velja síðan **Áætla** aðgerðina.  
 3.  Bendillinn er færður á viðeigandi áætlunarlínu og smellt á **Búa til pantanir** aðgerðina.  
 4.  Í glugganum **Gera framboðspantanir** á flýtiflipanum **Pantanaáætlun** í reitnum **Gera pantanir fyrir** skal velja eitt af eftirfarandi valkostum.  

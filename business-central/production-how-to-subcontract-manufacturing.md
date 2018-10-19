@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9c62f99c4baddedaaff6629c573d898f0fbd7f1a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 60628167a50977d7486c86d9730378f8d2527786
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="subcontract-manufacturing"></a>Úthýsa framleiðslu til undirverktaka
@@ -52,7 +52,7 @@ Glugginn **Vinnublað undirverktakasamninga** virkar eins og **Áætlunarvinnubl
 >  Aðeins er hægt að fá aðgang að og nota framleiðslupantanir sem hafa stöðuna **Útgefin** á vinnublaði undirverktaka.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Útreikningur Vinnublaðs undirverktakasamnings  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vinnublað undirverktakasamninga** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vinnublað undirverktakasamninga** og veldu síðan tengda tengilinn.  
 2.  Til að reikna út vinnublaðið er smellt á aðgerðina **Útreikningur verktakasamninga**.  
 3.  Í glugganum **Reikna út undirverktaka** er hægt að stilla afmarkanir fyrir aðgerðir undirverktaka eða vinnustöðvar þar sem þær eru framkvæmdar til að reikna aðeins viðeigandi framleiðslupantanir.  
 4.  Velja hnappinn **Í lagi**.  
@@ -60,7 +60,7 @@ Glugginn **Vinnublað undirverktakasamninga** virkar eins og **Áætlunarvinnubl
     Fara skal yfir línurnar í glugganum **Vinnublað undirverktakasamninga**. Upplýsingarnar á þessu vinnublaði koma frá framleiðslupöntuninni og leiðarlínum framleiðslupöntunarinnar og flæðir til innkaupapöntunarinnar þegar það skjal er búið til. Hægt er að eyða röð úr vinnublaðinu án þess að hafa áhrif á upphaflegu upplýsingarinnar, líkt og gert er við önnur vinnublöð. Upplýsingarnar birtast aftur í næsta skipti sem aðgerðin **Reikna undirverktakasamninga** er keyrð.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Að búa til Framleiðslupöntun undirverktakans  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vinnublað undirverktakasamninga** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vinnublað undirverktakasamninga** og veldu síðan tengda tengilinn.  
 2.  Á flipanum **Aðgerðir** í flokknum **Í vinnslu** veljið **Framkvæma aðgerðarboð**.  
 3.  Hakað er í reitinn **Prenta pantanir** til að prenta innkaupapöntunina þegar hún er stofnuð.  
 4.  Velja hnappinn **Í lagi**.  
@@ -80,7 +80,7 @@ Forritið bókar sjálfkrafa færslu frálagsbókarlínu fyrir framleiðslupönt
 >  Til að forðast að áætlað frálag framleiðslupöntunar sé bókað þegar innkaup undirverktaka eru móttekin, sjáið til þess að undirverktakakaaðgerðin sé ekki sú síðasta. Að öðrum kosti er færð inn ný lokaaðgerð fyrir loka frálagsmagnið.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Til að bóka innkaupapöntun undirverktaka  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupapantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.  
 2.  Opna innkaupapöntun sem er stofnaður frá undirverktakasamningi.  
 
     Á innkaupapöntunarlínunum má sjá sömu upplýsingar og þær sem voru í vinnublaðinu. Reitirnir **Framl.pöntun nr.**, **Framl.pöntunarlínunr.**, **Aðgerðarnr.** og **Vinnustöðvarnr.** eru fylltir út með upplýsingunum úr upprunaframleiðslupöntun.  

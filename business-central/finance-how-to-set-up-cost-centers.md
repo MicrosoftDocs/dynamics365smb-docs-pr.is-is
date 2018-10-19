@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 92d3e28fc9d7dc5aa9b2c5e25df6a0c965ab725d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Uppsetning kostnaðarstaða
@@ -27,7 +27,7 @@ Kostnaðarstaðir eru deildir og framlegðarstöðvar sem bera ábyrgð á kostn
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Til að flytja víddargildi í fjárhag í myndrit yfir í kostnaðarstaði  
 1.  Setja upp vídd sem á að vera kostnaðarstaðarvíddin í glugganum **Uppfæra Kostnaðarbókhaldsvíddir**. Aðeins gildi úr þessari vídd er flutt.  
-2.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Myndrit yfir kostnaðarstaði** og velja svo viðeigandi tengil.  
+2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit yfir kostnaðarstaði** og veldu síðan tengda tengilinn.  
 3.  Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Sækja úr víddinni kostnaðarstaðir** til að flytja víddargildi í myndriti kostnaðarstaðanna. Aðgerðin flytur víddargildin sem skilgreind voru í skrefi 1.  
 
     > [!NOTE]  

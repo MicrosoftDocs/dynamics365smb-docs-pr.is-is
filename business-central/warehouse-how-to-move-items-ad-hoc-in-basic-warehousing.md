@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7fd6588adb1a7d2dff268d0a8e73c168ca24ff1d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ac7b80c3ada7a5dd27fc74d3d8be5e38f1552725
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa
@@ -29,7 +29,7 @@ Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekk
 >  Í ítarlegri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Beinn frágangur og tínsla** er glugginn **Vinnublað hreyfingar**, **Innri vöruhúsatínsla** eða **Innri vöruhúsafrágangur** notaður til að færa vörur á milli hólfa eftir þörfum.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Til að færa vörur sem innri hreyfingu  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innri hreyfing** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innri hreyfing** og veldu síðan tengda tengilinn.  
 2.  Á flýtiflipanum **Almennt** er reiturinn **Nr.** fylltur út reitinn, annaðhvort með því að fara úr reitnum eða með því að velja hnappinn **AðstoðBreyta** til að velja úr númeraröð.  
 3.  Í reitnum **Kóti birgðageymslu** er færð inn birgðageymslan þar sem hreyfingin á sér stað.  
 
@@ -58,7 +58,7 @@ Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekk
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Til að færa vörur með vöruendurflokkunarbók
 Í staðinn fyrir að nota vöruhúsahreyfing skjöl, geturðu skráð vöruhreyfingu með því að endurflokka hólfakóða varanna. Nánari upplýsingar er að finna í [Telja, leiðrétta og endurflokka birgðir](inventory-how-count-adjust-reclassify.md).   
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðaendurflokkunarbók** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Endurröðunarbók vöru**, og veldu síðan tengda hlekkinn.  
 2.  Fyrir hverja bókunarlínu skal skilgreina úr og í hvaða hólf flytja skal vörur með því að fylla út reitna **Hólfakóti** og **Nýr hólfakóti**.  
 
     1.  Ef flytja á allt innihald hólfs yfir í annað hólf, skal velja aðgerðina **Sækja innihald hólfs**.  

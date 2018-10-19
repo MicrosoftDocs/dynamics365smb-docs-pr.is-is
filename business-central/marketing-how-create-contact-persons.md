@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/09/2018
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 38f42e4d44dd38fe70816035711e00561fd9e777
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0371e226de78c8c3894b47e5bebaf0aaf422666c
 ms.contentlocale: is-is
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-contact-persons"></a>Stofna einstaklingstengilið
@@ -24,7 +24,7 @@ Hægt er að stofna tengiliðaspjald fyrir hvern tengilið sem vinnur hjá fyrir
 >   Áður en tengiliður er stofnaður er ráðlegt að athuga stillingarnar fyrir **Erfðir** í glugganum **Tengslastjórnunargrunnur**. Uppsetning erfða virkjar að upplýsingar um tengiliðafyrirtæki sem eru sameiginlegar tengiliðum, eins og upplýsingar um aðsetur, til að vera afritaðar sjálfkrafa af tengiliðafyrirtæki  á tengilið í hvert sinn sem  stofnaður er tengiliður fyrir skráð tengiliðarfyrirtæki.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>Til að setja upp tengiliðaspjald fyrir einstakling
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Tengiliðir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Í reitnum **númer** er fært inn númer fyrir tengiliðinn.
 

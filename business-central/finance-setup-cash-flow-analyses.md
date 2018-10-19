@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9424a8ba632cf43628ad37dce963e3f1641e593d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setja upp sjóðstreymisgreiningu
@@ -30,7 +30,7 @@ Ef þú vilt fá aðstoð til að ákveða hvað þú átt að gera með féð �
 Þetta efni lýsir hvar gögnin í töflunum koma frá og, ef nauðsyn krefur, hvað á að gera til að byrja að nota töflurnar.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Gröf ferils bundins reiðufés og tekjur og útgjöld
-Gröf **ferils bundins reiðufés** og **tekjur og útgjöld** eru tilbúin til notkunar, byggt á bókhaldslyklum og fjárhagsskema. Lyklarnir eru þar sem gögnin koma frá og fjárhagsskema reiknar út sambandið milli sölu og viðskiptakrafna. Sumir reikningar og fjárhagsskemu eru veitt. Þú getur notað þau eins og-er, breytt þeim og bætt við nýjum. Ef þú bætir fjárhagsreikningi við bókhaldslykil, til dæmis með því að flytja þær frá QuickBooks þarftu að varpa reikningunum á **Fjárhagsskema** síðuna fyrir eftirfarandi nöfn reikningsáætlunar:  
+Gröf **ferils bundins reiðufés** og **tekjur og útgjöld** eru tilbúin til notkunar, byggt á bókhaldslyklum og fjárhagsskema. Lyklarnir eru þar sem gögnin koma frá og fjárhagsskema reiknar út sambandið milli sölu og viðskiptakrafna. Sumir reikningar og fjárhagsskemu eru veitt. Þú getur notað þau eins og-er, breytt þeim og bætt við nýjum. Ef þú bætir fjárhagsreikningi við bókhaldslykil, til dæmis með því að flytja þær frá QuickBooks þarftu að varpa reikningunum í glugganum **Fjárhagsskema** fyrir eftirfarandi nöfn reikningsáætlunar:  
 
 | Heiti fjárhagsskema | Þar sem það er notað |
 | --- | --- |
@@ -67,14 +67,14 @@ Uppsetning assisted leiðbeiningum nota til:
 
 1. Í Hlutverkamiðstöð bókhaldara undir **Sjóðstreymisspá** skal velja **Opna uppsetningu með hjálp** aðgerðina.  
 2. Fylltu út reitina í hverju skrefi leiðarvísisins.  
-3. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Sjóðstreymisspá** og velja svo viðeigandi tengil.
+3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sjóðstreymisspá** og veldu síðan tengda tengilinn.
 4. Í glugganum **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
 
 Nota handvirkt ferli:  
 
 1. Í Hlutverkamiðstöð bókhaldara skaltu leita að **Uppsetning sjóðstreymis** og velja svo tengdan tengil.  
 2. Stækkaðu **Cortana Intelligence** flýtiflipann, og veldu **Cortana Intelligence virkjað** gátreitinn.  
-3. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Sjóðstreymisspá** og velja svo viðeigandi tengil.
+3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sjóðstreymisspá** og veldu síðan tengda tengilinn.
 4. Í glugganum **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
 
 > [!TIP]  
@@ -88,7 +88,7 @@ Nota handvirkt ferli:
 3. Nota á reikninginn í Microsoft að undirrita fyrir workspace er og afrita síðan líkaninu sem.  
 4. Keyrslan líkaninu og út og þjónustu veftengingar.  
 5. Gera API URL og API lykillinn athugasemd. Þú munt nota þessi skilríki fyrir sjóðstreymisuppsetningu.  
-6. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning sjóðstreymis** og velja svo viðeigandi tengil.  
+6. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning sjóðstreymis** og veldu síðan tengda tengilinn.  
 7. Stækkaðu **Cortana Intelligence** flýtiflipann, og fylltu síðan inn reitina.  
 
 ## <a name="see-also"></a>Sjá einnig

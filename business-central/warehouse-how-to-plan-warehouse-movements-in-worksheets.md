@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0f518b96cb21a9637ae9b6e64e4c9e22a5fc6512
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d66ad263235d7f123f731263b0f13a009a1e20fd
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Áætla vöruhúsahreyfingar á vinnublöðum
@@ -25,7 +25,7 @@ Hreyfingar eru áætlaðar á vinnublaðinu með hólfaáfyllingu eða með hand
 ## <a name="to-calculate-a-replenishment-movement"></a>Áfyllingarhreyfingar reiknaðar:  
 Jafnframt því sem vörur eru sendar viðskiptamönnum úr vöruhúsi, fækkar vörunum í hólfunum með hæstu hólfaflokkunina. Til að fylla á þessi hólf með vörum úr öðrum hólfum er keyrð aðgerðin **Reikna út áfyllingu hólfs** í **Hreyfing Vinnublað** glugganum.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Hreyfingarvinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hreyfingavinnublað** og veldu síðan tengda tengilinn.  
 2.  Velja skal aðgerðina **Reikna áfyllingu hólfs**.  
 
     [!INCLUDE[d365fin](includes/d365fin_md.md)] stofnar línur sem gefa nákvæmlega til kynna hvernig færa á vörur úr lægra flokkuðum hólfum í hærra flokkuð.  
@@ -46,7 +46,7 @@ Jafnframt því sem vörur eru sendar viðskiptamönnum úr vöruhúsi, fækkar 
 ## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Með aðgerðinni sækja innihald hólfs er hægt að sækja allt sem er í einu eða fleiri hólfum:  
 Einnig er hægt að nota vinnublað hreyfinga til að áætla aðrar hreyfingar á birgðum innan vöruhússins. Þegar setja á vörur í hólf fyrir gæðaeftirlit, til dæmis, er hægt að nota vinnublað hreyfinga til að áætla aðgerðina og stofna síðan hreyfingu til að útbúa fyrirmæli fyrir starfsmann.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Hreyfingarvinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hreyfingavinnublað** og veldu síðan tengda tengilinn.  
 2.  Valið er **Sækja innihald hólfs** aðgerð. Beiðniglugginn er notaður til að afmarka það hvaða hólf og vörur skuli birtast í hreyfingavinnublaðslínunum.  
 3.  Reitirnir í keyrsluglugganum eru fylltir út. Eigi t.d. að skoða innihald allra hólfa á vissu svæði í birgðageymslunni er reiturinn **Svæðiskóti** . Eigi að sækja línur fyrir hvert hólf sem tiltekin vara er í er reiturinn **Vörunr.** fylltur út.  
 

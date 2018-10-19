@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fefde17c8e8063b7b1f373196bab29ff1caec452
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6617cb324873c2c129e4d26907dc43fde1c3c0e6
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Setja upp vinnustundir og þjónustustundir
@@ -29,7 +29,7 @@ Eftir að sjálfgefinn þjónustutími fyrirtækisins hefur verið stilltur er h
 ## <a name="to-set-up-default-service-hours"></a>Uppsetning sjálfgefinna þjónustustunda  
 Glugginn **Sjálfgefinn þjónustutími** er notaður til að setja upp venjulegan þjónustutíma í fyrirtækinu. Stuðst er við þessar þjónustustundir við útreikning á svardagsetningu og tíma vegna þjónustupantana og tilboða og til að senda viðvörunarboð vegna svartíma. Kerfið notar sjálfgefinn þjónustutíma í þjónustusamninga nema sérstakar þjónustustundir séu tilgreindar vegna samnings.  
   
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sjálfgefnar þjónustustundir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sjálfgefnar þjónustustundir** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
@@ -38,7 +38,7 @@ Glugginn **Sjálfgefinn þjónustutími** er notaður til að setja upp venjuleg
 ## <a name="to-set-up-work-hour-templates"></a>Uppsetning vinnutímasniðmáta
 Nota má gluggann **Vinnutímasniðmát** til að setja upp sniðmát með dæmigerðum vinnustundum í fyrirtækinu. Til dæmis má stofna sniðmát fyrir tæknimenn í fullu starfi og í hlutastarfi. Vinnutímasniðmát má nota þegar getu er bætt við forða.  
   
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **vinnustundasniðmát** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnustundasniðmát** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -49,7 +49,7 @@ Hægt er að nota gluggann **Þjónustutími** til að setja upp tiltekna þjón
   
 Ef ekki eru tilgreindar sérstakar þjónustustundir vegna þjónustusamningsins er notaður sjálfgefinn þjónustutími vegna þjónustusamninga.  
   
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustusamningar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda hlekkinn.  
 2. Opna skal þjónustusamning sem setja á upp sérststakar þjónustustundir fyrir og veldu **Þjónustustundir**.  
 4. Ef setja á upp þjónustustundir sem byggjast á sjálfgefnum þjónustutíma er smellt á **Afrita sjálfgefinn þjónustutíma** aðgerðina.  
 5. Breyta reitunum í þjónustutímafærslunum. Bæta við eða eyða færslum til að setja upp þjónustustundafjölda fyrir samninginn. Athugið að reitirnir **Dagur**, **Upphafstími** og **Lokatími** eru nauðsynlegir fyrir hverja línu.  

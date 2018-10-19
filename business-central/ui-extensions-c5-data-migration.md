@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/09/208
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a10c05116e97cdf000bd46258a9d67f4c9910c90
 ms.contentlocale: is-is
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-c5-data-migration-extension-for-business-central"></a>C5 gagnaflutningsviðbót fyrir Business Central
+# <a name="the-c5-data-migration-extension"></a>C5-gagnaflutningsviðbótin
 Þessi viðbót auðveldar flutning viðskiptamanna, lánardrottna, vara og fjárhagsreikninga úr Microsoft Dynamics C5 2012 í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hægt er að flytja elrdi færslur fyrir fjárhagsreikning.
 
 > [!Note]
@@ -30,6 +30,7 @@ ms.lasthandoff: 04/11/2018
 Eftirfarandi gögn eru flutt fyrir hverja einingu:
 
 **Viðskiptavinum**
+* Tengiliður  
 * Birgðageymsla
 * Land
 * Vídd viðskiptavina (deild, miðstöð, tilgangur)
@@ -47,6 +48,7 @@ Ef reikningar eru fluttir eru eftirfarandi gögn einnig flutt:
 * Opnar færslur (í viðskiptamannabók)
 
 **Lánardrottnar**
+* Tengiliður
 * Birgðageymsla
 * Land
 * Vídd lánardrottins (deild, miðstöð, tilgangur)
@@ -75,6 +77,7 @@ Ef reikningar eru fluttir eru eftirfarandi gögn einnig flutt:
 * Mælieiningar
 * Vörurakningarkóti
 * Verðflokkur viðskiptamanns
+* Samsetningaruppskrift
 
 Ef reikningar eru fluttir eru eftirfarandi gögn einnig flutt:
 
@@ -97,32 +100,34 @@ Ef reikningar eru fluttir eru eftirfarandi gögn einnig flutt:
 Það eru aðeins nokkur skref fólgin í því að flytja út gögn úr C5 og flytja þau inn í [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. Í C5 skaltu nota **Flytja út gagnagrunn** eiginleikann til að flytja út gögnin. Sendu síðan útflutningsmöppuna í þappaða möppu.  
-2. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Gagnaflutningur** og velja svo **Gagnaflutningur**.  
+2. Í [!INCLUDE[d365fin](includes/d365fin_md.md)], veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Gagnaflutningur** og veldu síðan **Gagnaflutningur**.  
 3. Ljúka skal skrefunum í leiðbeiningum um uppsetningu með hjálp. Gakktu úr skugga um að velja **Flytja inn úr Microsoft Dynamcis C5 2012** sem gagnagjafa.  
 
 > [!Note]
 > Fyrirtæki bæta oft við reitum til að sérsníða C5 fyrir tiltekna starfsemi. [!INCLUDE[d365fin](includes/d365fin_md.md)] flytur ekki gögn úr sérsniðnum reitum. Einnig mun flutningur mistakast ef fleiri en 10 sérsniðnir reitir eru til staðar.
 
 ## <a name="viewing-the-status-of-the-migration"></a>Skoðun stöðu á flutningi
-Nota skal síðuna **Gagnaflutningsyfirlit** til að sjá stöðu flutningsins. Síðan sýnir upplýsingar, svo sem fjöldi færslna sem flutningurinn mun innihalda, stöðu flutningsins og fjölda vara sem hafa verið fluttar og hvort flutningur þeirra tókst. Hún sýnir einnig fjölda villna, gerir þér kleift að rannsaka hvað fór úrskeiðis og, þegar mögulegt er, auðveldar það að fara í færsluna til að laga vandamálin. Nánari upplýsingar eru í næsta hluta þessa efnisatriðis.  
+Nota **Gagnaflutningsyfirlit** glugga til að fylgjast með árangri flutninganna. Síðan sýnir upplýsingar, svo sem fjöldi færslna sem flutningurinn mun innihalda, stöðu flutningsins og fjölda vara sem hafa verið fluttar og hvort flutningur þeirra tókst. Hún sýnir einnig fjölda villna, gerir þér kleift að rannsaka hvað fór úrskeiðis og, þegar mögulegt er, auðveldar það að fara í færsluna til að laga vandamálin. Nánari upplýsingar eru í næsta hluta þessa efnisatriðis.  
 
 > [!Note]
 > Meðan beðið er eftir stöðu flutningsins þarf að uppfæra síðuna til að birta niðurstöðurnar.
 
 ## <a name="how-to-avoid-double-posting"></a>Hvernig á að koma í veg fyrir tvíbókun
 Til að koma í veg fyrir tvíbókanir í fjárhagnum eru eftirfarandi mótreikningar notaðir fyrir opnar færslur:  
-  
+
 * Fyrir lánardrottna notum við viðskiptaskuldareikninginn frá bókunarflokki lánardrottins.  
 * Fyrir viðskiptavini notum við viðskiptakröfureikninginn frá bókunarflokki viðskiptavinar.  
 * Fyrir vörur búum við til almennan bókunargrunn þar sem leiðréttingarreikningurinn er reikningurinn sem er tilgreindur sem birgðarreikningur í birgðabókunargrunni.  
 
 ## <a name="correcting-errors"></a>Leiðrétting villna
-Ef eitthvað fer úrskeiðis og villur koma upp sýnir **Staða** reiturinn **Lokið með villum** og **Villutalning** reiturinn mun sýna fjöldann. Til að skoða lista yfir villurnar er hægt að opna **Villur í gagnaflutningi** síðuna með því að velja:  
+Ef eitthvað fer úrskeiðis og villur koma upp sýnir **Staða** reiturinn **Lokið með villum** og **Villutalning** reiturinn mun sýna fjöldann. Til að skoða lista yfir villurnar, getur þú opnað **Villur í gagnaflutningi** glugga með því að velja:  
 
 * Talan í **Villutalning** reitnum fyrir eininguna.  
 * Einingin og svo **Sýna villur** aðgerðin.  
 
-Á **Villur í gagnaflutningi** síðunni, til að laga villu er hægt að velja villuboð og svo **Breyta færslu** til að opna síðu sem sýnir flutt gögn fyrir eininguna. Eftir að þú hefur lagað eina eða fleiri villur getur þú valið **Flytja** til að flytja aðeins einingarnar sem þú lagaðir án þess að þurfa að hefja flutninginn aftur.  
+Í **Villur í gagnaflutningi** glugga, til að laga villa getur þú valið villuboð, og síðan velja **Breyta skrá** til að skoða gögn sem flutt voru fyrir eininguna. Ef þú hefur nokkrar villur til að laga, getur þú valið **Magnlagfæringar á villum** til að breyta einingum í lista. Þú þarft samt að opna stakar skrár ef villan stafaði af tengdum færslu. Til dæmis verður lánardrottinn ekki fluttur ef netfang eitt af tengiliðum þeirra hefur ógilt snið.
+
+Eftir að þú hefur lagað eina eða fleiri villur getur þú valið **Flytja** til að flytja aðeins einingarnar sem þú lagaðir án þess að þurfa að hefja flutninginn aftur.  
 
 > [!Tip]
 > Ef þú hefur lagað fleiri en eina villu geturðu notað **Velja fleira** valkostinn til að velja margar línur til að flytja. Ef villur eru til staðar sem ekki er mikilvægt að laga geturðu valið þær og svo **Sleppa vali**.
@@ -145,5 +150,5 @@ Ein leið til að sannreyna að gögnin hafi verið rétt flutt inn er með þv�
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
-[Hafist handa](product-get-started.md) 
+[Hafist handa](product-get-started.md)
 

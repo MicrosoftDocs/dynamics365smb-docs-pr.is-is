@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 04/17/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 2e764a915f1c4b258f0163f355653be81924ba96
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b31619fd1d76be71af9408f1c20be35846cef114
 ms.contentlocale: is-is
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Vinna með rað- og lotunúmer
@@ -55,13 +55,14 @@ Ef unnið er í glugganum **Vörurakningarlínur** í langan tíma eða ef miki�
 ## <a name="to-set-up-item-tracking-codes"></a>Til að setja upp vörurakningarkóða
 Vörurakningarkóti endurspeglar ýmis íhugunarefni fyrirtækis varðandi notkun rað- og lotunúmera á vörur sem eru á leið í gegnum birgðirnar.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörurakningarkóðar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörurakningarkóðar** og veldu síðan tengda hlekkinn.  
 2. Valið er **Nýtt** aðgerð.
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Smellt er á flýtiflipana **Raðnr.** og **Lotunr.** til að skilgreina aðferðir í vörurakningu eftir rað- og lotunúmerum.  
 
 > [!NOTE]  
->   Ef þú vilt fylgjast með ákveðnum vörum eða ákveðnum lotum í gegnum líftíma þeirra, verður þú að velja reitina **Sértæk SN rakning** og **Sértæk loturakning** í þessari röð. Þar af leiðandi þegar fengist er við einingu á útleið af vöru með þessum vörurakningarkóða verður þú alltaf að tilgreina hvaða fyrirliggjandi raðnúmer skuli notað. Þetta merkir að þegar seld er eining af vörunni verður að tengja hana ákveðnum hópi raðnúmera eða ákveðnu lotunúmeri í birgðum. Með öðrum orðum, raðnúmer eða lotunúmer sem tengt er vöru þegar hún fer í birgðir verður að fylgja þeirri vörutegund út úr birgðunum.  
+>  Ef þú vilt fylgjast með ákveðnum vörum eða ákveðnum lotum í gegnum líftíma þeirra, verður þú að velja reitina **Sértæk SN rakning** og **Sértæk loturakning** í þessari röð. Þar af leiðandi þegar fengist er við einingu á útleið af vöru með þessum vörurakningarkóða verður þú alltaf að tilgreina hvaða fyrirliggjandi raðnúmer skuli notað. Þetta merkir að þegar seld er eining af vörunni verður að tengja hana ákveðnum hópi raðnúmera eða ákveðnu lotunúmeri í birgðum. Með öðrum orðum, raðnúmer eða lotunúmer sem tengt er vöru þegar hún fer í birgðir verður að fylgja þeirri vörutegund út úr birgðunum.
+  
 Þar sem þessi ákveðni uppsetningarreitur nær til allra mögulegra færslna varðandi vöruna verða einstakir inn-/útleiðarreitir einnig valdir. Þó hefur sérhver inn- og útleiðarreitur ekkert með jöfnun þvert á birgðir að gera - þeir eru aðeins til skilgreiningar á verkflæði í fyrirtækinu og hafa með það að gera hvenær á að úthluta vörurakningarnúmerum.  
 
 ### <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Uppsetning gildistíma fyrir rað- og lotunúmer  
@@ -77,7 +78,7 @@ Fyrir sumar vörur þarf ef til vill að setja upp tiltekna gildistíma og reglu
 
 ### <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Uppsetning ábyrgðar fyrir rað- og lotunúmer  
 Fyrir sumar vörur þarf ef til vill að setja upp tilteknar ábyrgðir í vörurakningarkótanum. Þessi aðgerðareiginleiki gerir kleift að halda utan um það hvenær ábyrgðin á tilteknum rað- eða lotunúmerum í birgðahaldi rennur út.        
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörurakningarkóðar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörurakningarkóðar** og veldu síðan tengda hlekkinn.  
 
 1. Veljið fyrirliggjandi vörurakningarkóða og svo aðgerðina **Breyta**.  
 2.  Á flýtiflipanum **Ýmisl.** skal fylla inn í reitinn **Ábyrgðardagsetning** og velja svo gátreitinn sem hér segir.  
@@ -100,7 +101,7 @@ Ef tengja þarf einhverjar upplýsingar við tiltekið vörurakningarnúmer, t.d
 6. Veljið gátreitinn **Lokaður** til að sleppa rað- eða lotunúmerinu úr færslum.  
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Breyta fyrirliggjandi upplýsingum um rað- og lotunúmer  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
 2. Velja vöru sem hefur vörurakningarkóða og upplýsingar um rað- eða lotunúmer.
 3. Í glugganum **Birgðaspjald** skal velja aðgerðina **Færslur** og velja síðan **Fjárhagsfærslur**.
 4. Velja reitinn **Lotunr.** eða **Raðnúmer**. Ef upplýsingar eru til fyrir þetta vörurakningarnúmer þá mun glugginn **Lotunr. upplýsingalista** eða **Raðnr. upplýsingalista** opnast.  
@@ -117,7 +118,7 @@ Nákvæmar reglur um vörurakningu í fyrirtækinu ráðast af uppsetningu í gl
 > [!NOTE]  
 >  Til að nota vörurakningarnúmer í vöruhúsaaðgerðum verða uppsetningarreitirnir **Lotuvöruhúsarakning** og **SN vöruhúsarakning** að vera valdir, þar sem þeir skilgreina sérstakar reglur við meðhöndlun rað- og lotunúmera í vöruhúsaaðgerðum.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupapantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.  
 2.  Valin er viðkomandi fylgiskjalslína og á flýtiflipanum **Línur** skal velja aðgerðina **Lína** og loks aðgerðina **Vörurakningarlínur**.  
 
     Nú er hægt að úthluta rað- eða lotunúmerum á eftirfarandi hátt:  
@@ -199,7 +200,7 @@ Ferlum við meðferð rað- og lotunúmera sem verið er að flytja milli birgð
 Millifærslupöntunin er þó sérstök að því leyti að sending og móttaka er framkvæmd úr sömu millifærslulínu og því er notað sama eintak af glugganum **Vörurakningarlínur**. Þetta merkir að vörurakningarnúmer sem send eru úr einni birgðageymslu verður að móttaka óbreytt í annarri birgðageymslu.  
 
  Nákvæmar reglur um vörurakningu í fyrirtækinu ráðast af uppsetningu á töflunni  **Vörurakningarkóti** .    
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Flutningspantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Flutningspantanir** og veldu síðan tengda tengilinn.  
 2.  Opna skal flutningspöntunina sem á að vinna. Á flýtiflipanum **Línur** skal velja aðgerðina **Lína**, velja aðgerðina **Vörurakningarlínur** og loks aðgerðina **Afhending**.  
 3.  Í glugganum **Vörurakningarlínur** er rað- eða lotunúmerum úthlutað eða þau valin eins og fyrir hverja aðra útleiðar-birgðafærslu.  
 
@@ -222,7 +223,7 @@ Aðgerðin styður við eftirfarandi ferli á útleið:
 
 Í þessum tilvikum eru fyrirliggjandi vörurakningarlínur afritaðar sjálfkrafa í reikninginn eða kreditreikninginn en glugginn **Vörurakningarlínur** leyfir ekki breytingar á rað- eða lotunúmerum - aðeins er hægt að breyta magni. Aðeins er hægt að breyta magni.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda hlekkinn.  
 2.  Opna innkaupareikning fyrir vörur sem eru innkaup með rað- eða lotunúmerum.  
 3.  Frá línu innkaupareiknings á flýtiflipanum **Línur** skal velja **Sækja móttökulínur** aðgerðina.  
 4.  Í glugganum **Sækja móttökulínur** veljið móttökulínur sem eru með vörurakningarlínur og veljið svo hnappinn **Í lagi**.  
@@ -237,7 +238,7 @@ Ekki er hægt að breyta efni reitanna  **Raðnr.** og  **Lotunr.** Þó er hæg
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Endurflokka rað- eða lotunúmer  
 Endurflokkun vörurakningar fyrir vöru þýðir að breyta lotu- eða raðnúmeri í nýtt lotu- eða raðnúmer eða breyta lokadagsetningunni í nýja lokadagsetningu. Ef verið er að vinna með lotur er líka hægt að sameina margar lotur í eina lotu. Þessi verkefni eru framkvæmd með notkun vöruendurflokkunarbókarinnar.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðaendurflokkunarbók** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Endurröðunarbók vöru**, og veldu síðan tengda hlekkinn.  
 2.  Línan er fyllt út með viðeigandi upplýsingum. Nánari upplýsingar er að finna í [Telja, leiðrétta og endurflokka birgðir](inventory-how-count-adjust-reclassify.md).
 3.  Velja aðgerðina **Vörurakningarlínur**  
 4.  Í reitnum **Raðnr.** eða **Lotunr** skal velja gildandi rað- eða lotunúmer.  

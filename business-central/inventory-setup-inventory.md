@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 01/12/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 62eee7532e457721430cb31519b5acb23e95bfcb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-inventory"></a>Uppsetning birgða
@@ -31,7 +31,8 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 | Skilgreina almennar birgðaupplýsingar svo sem númeraraðir og hvernig á að nota birgðageymslur. |[Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md) |
 |Grunnstilla skilvirkt dreifingarlíkan með mismunandi birgðageymslur og ábyrgðarstöðvum sem hefur verið úthlutað til viðskiptafélaga eða starfsmanna.|[Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)|
 | Skipuleggja birgðir í mörgum birgðageymslum, þar með talið flutningsleiðir. |[Uppsetning birgðageymsla](inventory-how-register-new-items.md) |
-| Stofna birgðaspjöld fyrir birgðavörur sem boðið er upp á. |[Skrá nýjar vörur](inventory-how-register-new-items.md) |
+| Stofna birgðaspjöld fyrir birgðavörur, vörur sem ekki eru birgðir eða þjónustuvörur sem boðið er upp á. |[Skrá nýjar vörur](inventory-how-register-new-items.md) |
+|Lærðu hvernig á að fylla inn **Tegund** reitinn á birgðaspjöldum í samræmi við viðskiptatilgang.|[Um vörutegundir](inventory-about-item-types.md)| 
 |Setja upp margar mælieiningar fyrir vöru sem hægt er að nota sem mælieiningu til vara, til dæmis í sölu, við innkaup eða framleiðslufærslu.|[Setja upp mælieiningu vara](inventory-how-setup-units-of-measure.md)|
 |Sem viðbót við birgðaspjöld, skrá upplýsingar um vörur fyrir tiltekna birgðageymslu eða tiltekinn afbrigði.|[Setja upp birgðahaldseiningar](inventory-how-to-set-up-stockkeeping-units.md)|
 | Úthlutaðu vörur í flokka og gefðu þeim eiginleika til að hjálpa þér og viðskiptavinum að finna vörur. |[Flokka vörur](inventory-how-categorize-items.md) |

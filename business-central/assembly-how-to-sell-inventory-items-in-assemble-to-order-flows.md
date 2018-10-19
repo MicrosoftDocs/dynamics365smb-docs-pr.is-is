@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97b79683ba6c770912349c772f1f7adb443b94ed
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Selja birgðavörur í flæðum samsetningar í pöntun
@@ -35,7 +35,7 @@ Svipuð virkni er tiltæk þegar verið er að selja samsetningarvörur úr birg
 Í þessu ferli, er skipt út samsetninarpöntunarmagni við birgðamagn í sölupöntunarlínu. Skrefin eru meðal annars að greina hvort magnið sé tiltækt, draga það magn frá tengdri samsetningarpöntun og taka birgðamagnið síðan frá til að tryggja að það sé tínt og afhent fyrir pöntunina.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Til að selja birgðavörur í flæðum samsetningar í pöntun  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Stofnið sölupöntun. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).  
 3.  Í sölupöntunarlínu fyrir birgðir sem settar eru saman í pöntun í reitnum **Magn** er fært inn áskilið magn.  
 4.  Í upplýsingakassanum **Sundurliðun sölulínu** ákvarðaðu hvort allt eða eitthvað af áskildu magni er tiltækt.  

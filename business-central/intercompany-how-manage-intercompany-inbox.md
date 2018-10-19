@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 07/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1a901cee7a80e9a1690f665df4a79a59fa7bc12
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 19a426c4fc163e66c85f2ec3df19a9619d38106e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur
@@ -56,9 +56,9 @@ Hægt er að nota reitinn **Sýna uppruna færslu** til að afmarka gluggann **M
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Færslur milli fyrirtækja fluttar inn úr skrá:  
 Ef fyrirtækið er með milli-fyrirtækjafélaga sem er ekki í sama gagnagrunni og fyrirtækið er hægt að taka á móti færslum milli fyrirtækja frá félaganum í XML-skrá. Síðan þarf að flytja færslurnar inn í innhólfið.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fyrirtækjaupplýsingar** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Upplýsingar um fyrirtæki** og veldu síðan tengda tengilinn.
 2. Skráin er vistuð á staðnum sem tilgreindur var í reitnum **MF innhólf upplýsingar** í glugganum **Fyrirtæki upplýsingar**.  
-3. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Færslur í innboxi millifyrirtækis** og velja svo viðeigandi tengil.
+3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innhólfsfærslur millifyrirtækja** og veldu síðan tengda tengilinn.
 4. Í glugganum **Færslur í innboxi millifyrirtækis** skal velja **Flytja inn færsluskrá** aðgerðina.  
 5. Í glugganum sem birtist er XML-skráin með færslunum valin og síðan smellt á hnappinn **Opna**.  
 
@@ -67,7 +67,7 @@ Færslurnar eru fluttar inn í innhólfið og nú er hægt að vinna með þær.
 ## <a name="to-process-incoming-intercompany-transactions"></a>Vinna færslur milli fyrirtækja á innleið  
 Þegar milli-fyrirtækjafélagar senda færslur milli fyrirtækja enda færslurnar í milli-fyrirtækjainnhólfinu. Meta þarf hverja færslu í innhólfinu og bregðast við henni.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Færslur í innboxi millifyrirtækis** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innhólfsfærslur millifyrirtækja** og veldu síðan tengda tengilinn.  
 2. Í **Færslur í innhólfi millifyrirtækis** glugganum skal velja línu og og síðan aðgerð, eins og t.d. **Samþykkja** til að setja línuna í ferli.
 3. Í glugganum **Lokið MF-innhólf aðgerð** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velja hnappinn **Í lagi**.  
@@ -81,7 +81,7 @@ Fyrir línur sem þú vannst með aðgerðinni **Skilað af félaga** verður n�
 ## <a name="to-process-outgoing-intercompany-transactions"></a>Vinna færslur milli fyrirtækja á útleið  
 Þegar færslubók eða fylgiskjal milli fyrirtækja er bókað eða pantanastaðfesting milli fyrirtækja er send fara færslurnar í milli-fyrirtækja úthólfið. Til að þær verði sendar til milli-fyrirtækjafélaga þarf að opna úthólfið og vinna úr þeim.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Færslur í úthólfi millifyrirtækis** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Úhólfsfærslur millifyrirtækja** og veldu síðan tengda tengilinn.  
 2. Í **Færslur í úthólfi millifyrirtækis** glugganum skal velja línu og og síðan aðgerð, eins og t.d. **Fara aftur í innhólf** til að setja línuna í ferli.
 
 Línur sem þú vannst með aðgerðinni **Senda til millifyrirtækjafélaga** verða sendar í innhólf viðeigandi félaga.
@@ -95,7 +95,7 @@ Einstaka sinnum gæti verið ráðlegt að stofna aftur viðskipti í innhólfin
 
 Eftirfarandi ferli lýsir hvernig eigi að endurstofna innhólfsfærslur, en sömu skref eiga einnig við um úthólfið.
 
-  1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afgreiddar MF-innhólfsfærslur** og velja svo viðeigandi tengil.  
+  1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afgreiddar MF-innhólfsfærslur** og veldu síðan tengda tengilinn.  
 
   2.  Í glugganum **Afgreiddar MF-innhólfsfærslur** veljið línuna með færslunni sem á að stofna aftur í innhólfinu, og veljið svo **Endurstofna innhólfsfærslu** aðgerðina.  
 

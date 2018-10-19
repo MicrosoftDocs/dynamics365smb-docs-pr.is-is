@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: email, PDF, electronic document
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9c73a6ed721cd8deda48cd2fa8a3470733b9f672
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c18edefc22d96f2c4037f7f51cca488e04c35d92
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-document-sending-profiles"></a>Setja upp sendisnið skjala
@@ -27,12 +27,12 @@ Hægt er að setja upp hvern viðskiptavin með valinni aðferð við að senda 
 Þegar aðgerðin **Bóka og senda** er valin á söluskjali mun svarglugginn **Bóka og senda staðfestingu** sýna sendingarsnið sem er í notkun, annað hvort það sem er sett upp fyrir viðskiptamann eða það sem er sjálfgefið fyrir alla viðskiptamenn. Í svarglugga er hægt að breyta sendingarsniði fyrir þetta söluskjalið. Frekari upplýsingar eru í [Reikningsfæra sölur](sales-how-invoice-sales.md).
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Að setja upp sendingarsnið skjala
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **forstilling skjalasendingar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **forstilling skjalasendingar** og veldu síðan tengda tengilinn.
 2. Í glugganum **Sendisnið skjala** skal velja aðgerðina **Nýtt**.
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Til að tilgreina sendingarsnið á viðskiptamannaspjaldi
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
 2. Opnið spjald viðskiptamanns þar sem á að setja upp sendingarsnið.
 3. Í reitnum **Forstilling sendingar skjals** snið skaltu velja snið sem þú hefur sett upp eins og lýst er í fyrri málsmeðferð.
 

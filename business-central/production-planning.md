@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a512e8e4e693a44015bc7675e5126259a5eff92b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a2cec78c97d52716c1548f062fa6346bddc5f6
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="planning"></a>Áætlun
@@ -38,12 +38,12 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Fræðast snögglega um hvernig nota má áætlanakerfið til að finna og forgangsraða eftirspurn og leggja til framboðsáætlun með réttum hlutföllum.|[Um áætlunaraðgerðir](production-about-planning-functionality.md)|
 |Lesið um hvernig áætlanakerfið virkar og hvernig á að leiðrétta reiknireglurnar til að uppfylla áætlunarþarfir í mismunandi umhverfi.|[Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)|
 |Fræðast um hvernig áætlanagrunnurinn greinir milli eftirspurnar í birgðageymslum samkvæmt uppsetningu birgðahaldseiningaspjalds og eftirspurnar án birgðageymslukóta.|[Áætlanagerð með eða án birgðageymslna](production-planning-with-without-locations.md)|
-|Spá fyrir um eftirspurn framleiðslu sem kemur fram í væntanlegri sölu og framleiðslupöntunum.|[Stofna framleiðsluspá](production-how-to-create-a-forecast.md)|  
+|Spá fyrir um eftirspurn sem kemur fram í væntanlegri sölu og framleiðsluhlutum.|[Búa til eftirspurnarspá](production-how-to-create-a-forecast.md)|  
 |Stofna sérstakar framleiðslupantanir sjálfkrafa úr sölupöntun til að anna nákvæmlega eftirspurn þeirrar sölupöntunarlínu.|[Búa til framleiðslupantanir úr sölupöntunum](production-how-to-create-production-orders-from-sales-orders.md)|
 |Stofna framleiðslupöntun verkefnis beint úr sölupöntun með mörgum línum, sem gefur til kynna framleiðsluverkefni.|[Áætla verkefnispantanir](production-how-to-plan-project-orders.md)|
 |Nota gluggann **Pantanaáætlun** fyrir handvirka áætlun sölu eða framleiðslueftirspurnar eina framleiðsluuppskrift í einu.|[Gera áætlanir um nýja eftirspurn pöntun fyrir pöntun](production-how-to-plan-for-new-demand.md)|
 |Nota **Áætlunarvinnublað** gluggann til að keyra bæði MPS og MRP valmöguleika til að sjálfvirkt stofna framboðsáætlun, á háu stigi eða ítarlega, á öllum vörustigum.|[Keyra fulla áætlunargerð, MPS eða MRP](production-how-to-run-mps-and-mrp.md)|
-|Keyra innkaupatillögublað til að búa sjálfkrafa til nákvæma framboðsáætlun til að anna eftirspurn eftir vörum sem aðeins er hægt að útvega með innkaupum eða millifærslu.|**Innkaupatillögublað** síða|  
+|Keyra innkaupatillögublað til að búa sjálfkrafa til nákvæma framboðsáætlun til að anna eftirspurn eftir vörum sem aðeins er hægt að útvega með innkaupum eða millifærslu.|Glugginn **Innkaupatillaga**|  
 |Ræsa eða uppfæra framleiðslupöntun sem gróflega áætlaðar aðgerðir í aðalframleiðsluáætluninni.|[Enduráætla eða uppfæra framleiðslupantanir beint](production-how-to-replan-refresh-production-orders.md)|
 |Endurreikna dagatöl fyrir vinnu- eða vélastöðvar vegna breytinga á áætlun.|„Reikna dagatal vinnustöðvar“ hlutann í [Setja upp Dagatöl verkstæðis](production-how-to-create-work-center-calendars.md)|
 |Rekja pöntunareftirspurn (rakið magn), spá, standandi sölupöntun eða áætlunarfæribreytu (órakið magn) sem á við umrædda áætlunarlínu.|[Rekja tengsl milli eftirspurnar og framboðs](production-how-track-demand-supply.md)|
@@ -60,5 +60,4 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 264788142ab4f2a84df3e1c9da6e39503a7e820f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 27b50b9471c8dccb7da8750bbd57e34774ff6115
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti
@@ -41,7 +41,7 @@ Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að 
     >  Aðeins breyta Mínu hlutverki notanda eftir hann hefur lokið við grunnstillingu fyrirtækisins. Ef breyta þarf fleiri uppsetningaratriðum skal fyrst notast við grunnstillingarvinnublaðið. Síðan er farið aftur í leiðsagnarforritið til að uppfæra forstillingar Mitt hlutverk eða valin aðgerðin **Klára uppsetningu**.
 
 7. Velja hnappinn **Í lagi**.  
-8. Til að sannprófa hvort grunnstillingarupplýsingar hafi verið notaðar á nýja fyrirtækið skal velja táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Fyrirtækjaupplýsingar** og velja svo viðeigandi tengil.
+8. Til að ganga úr skugga um að grunnstillingarupplýsingarnar hafi verið notaðar á nýja fyrirtækið skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fyrirtækjaupplýsingar** og veldu síðan tengda tengilinn.
 
 Glugginn **Stofngögn** inniheldur upplýsingar sem hafa verið tilgreindar.   
 

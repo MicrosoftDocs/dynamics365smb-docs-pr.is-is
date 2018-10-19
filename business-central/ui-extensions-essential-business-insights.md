@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 02/27/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ddbce1bd10f8eb635e8749b0e1743402a17ca69e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0879d8ff0fbca3b18c36412e0a5fbe2f39372f2a
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-essential-business-insights-extension-for-business-central"></a>Viðbótin Essential viðskiptainnsýn fyrir Business Central
+# <a name="the-essential-business-insights-extension"></a>Essential Business Insights viðbótin
 Viðbótin Essential viðskiptainnsýn finnur áhugaverðar staðreyndir um viðskipti fyrirtækis þíns og birtir þær svipað eins og fyrirsagnir í dagblöðum í Mínu hlutverki. Það fer eftir því hvað viðbótin finnur í gögnum, innsýnin er frá síðustu viku, mánuði eða þremur mánuðum frá deginum í dag. Innsýnin uppfærist á 10 mínútna fresti.  
 
 Ef þú vilt skoða nánar innsýn getur þú valið það að fara í uppruna hennar. Til dæmis, ef þú vilt fá upplýsingar um stærsta sölureikning sem var bókaður í síðustu viku, er hægt að velja innsýnina til að birta reikninginn.
@@ -39,3 +39,4 @@ Eftirfarandi tafla lýsir innsýninni sem viðbótin útvegar fyrir Mitt hlutver
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)
+

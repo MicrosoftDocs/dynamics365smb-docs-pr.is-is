@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 028bb6554f84fc4e8d1343070121f8b0143329ce
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9424b2dfe3a61ace4f02897f0240cc6e4f78070e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Opna nýtt reikningsár og stofna reikningstímabil
@@ -23,7 +23,7 @@ ms.lasthandoff: 03/22/2018
 Í mörgum fyrirtækjum samsvarar reikningsárið ekki almanaksárinu. Fjárhagstímabil er hægt að mæla í öðrum tímaeiningum, eins og mánuðum eða fjórðungum. Þú getur notað **stofna fjárhagsár** gluggann til að setja upp reikningstímabilin sem þitt fyrirtæki þarfnast. Hinsvegar,   
 
 ## <a name="to-open-a-new-fiscal-year"></a>Nýtt reikningsár opnað
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Reikningstímabil** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagstímabil** og veldu síðan tengda tengilinn.
 2. Í **Reikningstímabil** velurðu aðgerðina **Búa til ár**.
 3. Fyllið inn í reitina til að skilgreina uppbyggingu almanaksársins.
 

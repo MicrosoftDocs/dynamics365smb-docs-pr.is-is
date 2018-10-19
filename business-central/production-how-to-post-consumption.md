@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4058d16ee3bdfc10933e1f3a01c84fbc5d0b0ebb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b7799e652394e8b9b96a168c0cb8945ec332734e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="batch-post-production-consumption"></a>Fjöldabóka framleiðslunotkun
@@ -25,7 +25,7 @@ Ef flæðiaðferðin er stillt á **Handvirk** þarf að bóka íhlutina handvir
 Þú getur einnig stillt kerfið þannig að það bóki sjálfvirkt (*flæða*) íhluti þegar byrjar eða endar framleiðslupantanir. Nánari upplýsingar eru í [Leyfa flæði íhluta samkvæmt frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md).
 
 ## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Bóka notkun fyrir eina eða fleiri framleiðslupantanalínur  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Notkunarbók** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **notkunarbók** og veldu síðan tengda tengilinn.  
 2.  Reitirnir eru fylltir út með framleiðslupöntunargögnunum og notkunargögnunum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Ef vörugeymslan þar sem íhlutirnir eru geymdir er sett upp þannig að hún noti hólf en krefjist ekki tínslu skal tengja kóta hólfs bókarlínunni inn í reitinn til að sýna hvaðan eigi að taka vörurnar í vöruhúsinu. Frekari upplýsingar eru í [Taka til fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md).  

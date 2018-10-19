@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2182b34721a3272ce784986de200cc87f51c2c37
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b92e6a5227fc2e1c60498ef2aafaae55deaedab8
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-bin-contents"></a>Stofna innihald hólfs
 Þegar búið er að setja upp hólfin er hægt að setja upp innihald þeirra. Þ.e.a.s., hægt er að setja upp vörurnar sem á að geyma í hverju hólfi og setja reglurnar stjórna því hvaða tiltekin vara er sett í hólfið. Þú getur gert þetta handvirkt í glugganum **Hólfainnihald** eða sjálfvirkt með glugganum **Stofna Hólfainnihald vinnublað**.
 
 ## <a name="to-create-bin-content-manually"></a>Stofna Innihald hólfs handvirkt  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
 2.  Veljið birgðageymsluna þar sem á að setja upp hólfainnihald og veljið svo aðgerðina **Hólf**.  
 3.  Veljið hólfið þar sem á að setja upp innihald og veljið svo aðgerðina **Innihald**.  
 4.  Fyrir hverja vöru sem geyma á í hólfinu skal fylla út línu í glugganum **Innihald hólfs** með viðeigandi upplýsingum. Nokkrir reitir eru þegar útfylltir með upplýsingum um hólfið.  
@@ -41,7 +41,7 @@ Ef gátmerki er sett inn í reitinn **Fast** er varan fest við hólfið sem þ�
 ## <a name="to-create-bin-content-with-a-worksheet"></a>Stofna Innihald hólfs með vinnublaði  
 Þegar lokið er við að stofna hólfin er hægt að stofna það innihald sem á að vera í hverju hólfi á stofnunarvinnublaði hólfainnihalds.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Hólfainnihald stofnun vinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað f. stofnun hólfainnihalds** og veldu síðan tengda tengilinn.  
 2.  Á vinnublaðshausnum er smellt í reitinn **Heiti** og valið vinnublað birgðageymslunnar þar sem stofna á hólfainnihald.  
 3.  Í reitnum **Hólfakóti** er valinn kóti hólfsins þar sem á að tilgreina innihaldið.   
 

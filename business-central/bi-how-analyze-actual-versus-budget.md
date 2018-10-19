@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 900a14c46a6e5c027b3cf8888bb59765902e50cb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 17a6368e5a25ad12db05825b863ce29cd329cd39
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Greina raunverulegar og áætlaðar upphæðir
@@ -27,7 +27,7 @@ Til að greina áætlaðar upphæðir, verður fyrst að búa til fjárhagsáæt
 ## <a name="to-view-a-gl-budget"></a>Til að skoða fjárhagsáætlun
 Í áætlun með víddum er hægt að setja afmarkanir á færslurnar og sjá tilteknar áætlanir.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsáætlanir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsáætlun** og veldu síðan tengda tengilinn.
 2. Í glugganum **Fjárhagsáætlanir** skal velja þá áætlun sem á að skoða.  
 3. Efst í glugganum skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -43,7 +43,7 @@ Til að greina áætlaðar upphæðir, verður fyrst að búa til fjárhagsáæt
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Að skoða raunverulegar og áætlaðar upphæðir fyrir alla reikninga  
 Hægt er að skoða fjárhagsáætlanir og bera þær saman við raunverulegar upphæðir í mörgum svæðum í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bókhaldslykill** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
 2. Í glugganum **Bókhaldslykill**, skal velja aðgerðina **Fjárhagur staða/áætlun**.
 3. Efst í glugganum skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.  
 4. Til að sjá tilgreininguna sem birt upphæð samanstendur af skal velja reitinn.  
@@ -59,7 +59,7 @@ Bókhaldslykillinn er í dálkunum til vinstri. Af dálkunum fimm lengst til hæ
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Að skoða raunverulegar og áætlaðar upphæðir fyrir nokkur tímabil  
 Í stað þess að skoða raunverulegar og áætlaðar upphæðir á öllum reikningum innan ákveðins tímabils er hægt að skoða fjölda tímabila á stökum reikningi.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bókhaldslykill** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
 2. Í glugganum **Bókhaldslykill** veljið viðeigandi fjárhagsreikning, og veljið síðan aðgerðina **Fjárhagsreikningur staða/áætlun**.  
 3. Efst í glugganum skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.   
 4. Til að sjá tilgreiningu á birtri upphæð skal velja reitinn.  

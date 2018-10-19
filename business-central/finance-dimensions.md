@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 349a4d54a95999e3e2c2b19cc2a40c2dd1afd445
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 13e1cd1e772ed01b6503a30ef940054b0973f70f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-dimensions"></a>Unnið með víddir
@@ -56,7 +56,7 @@ Einnig er hægt að setja upp altækar víddir og flýtivísanir í víddir:
 ### <a name="setting-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Setja upp sjálfgefnar víddir fyrir viðskiptavinir, lánardrottinn, og aðra reikninga
 Hægt er að setja upp sjálfgefna vídd fyrir tiltekinn stakan reikning. Víddin verður afrituð í færslubókina eða fylgiskjalið þegar reikningsnúmerið er fært inn í línu, en hægt er að eyða eða breyta kóðanum í línunni ef það á við. Einnig er hægt að búa til vídd og krefjast þess að í henni þurfi að bóka færslu með ákveðinni tegund reiknings.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Víddir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Víddir** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Víddir** skal velja viðkomandi vídd og svo **Sjálfg. vídd reikningsteg.** aðgerðina.  
 4.  Fylla þarf út línu fyrir hverja nýja vídd sem skal setja upp. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -72,7 +72,7 @@ Hægt er að setja upp sjálfgefna vídd fyrir tiltekinn stakan reikning. Víddi
 ### <a name="to-set-up-default-dimension-priorities"></a>Að setja upp sjálfgefinn víddarforgang  
 Mismunandi tegundir reikninga, eins og til dæmis viðskiptamannsreikningur og vörureikningur, geta haft mismunandi sjálfgefnar víddir uppsettar. Þar af leiðandi getur forritið lagt til fleiri en eina sjálfgefna vídd fyrir hverja færslu. Til að forðast slíka árekstra er hægt að láta forgangsreglur gilda í hverju tilviki.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forgangur sjálfgefinnar víddar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forgangur sjálfgefinnar víddar** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Sjálgefin forgangur vídda** í reitinn **Upprunakóði** er færður inn upprunakóði færslutöflunnar sem sjálfgefinn víddaforgangur gildir fyrir.  
 3.  Fyllt er út lína fyrir hvern forgang sjálfgefinnar víddar sem á að setja upp fyrir valinn upprunakóta.
 4.  Ferlið er endurtekið fyrir hvern upprunakóða þar sem á að setja upp sjálfgefinn víddarforgang.  
@@ -83,7 +83,7 @@ Mismunandi tegundir reikninga, eins og til dæmis viðskiptamannsreikningur og v
 ### <a name="to-set-up-dimension-combinations"></a>Að setja upp samsettar víddir  
 Til að forðast að bóka færslur með mótsagnarkenndum eða óviðkomandi víddum er hægt að loka eða takmarka tilteknar samsetningar tveggja vídda. Lokuð víddarsamsetning þýðir að ekki er hægt að bóka báðar víddir í sömu færslu sama hver víddargildin eru. Með takmarkaðri víddarsamsetningu er hægt að bóka báðar víddir í sömu færslu en aðeins með tilteknum víddargildasamsetningum.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Víddarsamsetning** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Víddasamsetningar** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Víddarsamsetningar** er smellt á reitinn fyrir samsetningu vídda og síðan valinn einn af eftirfarandi valkostum.  
 
     |Svæði|Description|
@@ -163,7 +163,7 @@ Altækar\-víddir eru alltaf skilgreindar og nefndar af fyrirtækjum. Til að sj
 
 Í færsluglugga er hægt að sjá hvort altækar víddir hafi verið stofnaðar fyrir færslurnar. Altæku víddirnar tvær eru ólíkar hinum víddunum þar sem hægt er að nota þær sem afmarkanir hvar sem er innan [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bókhaldslykill** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Bókhaldslykill** skal velja aðgerðina **Fjárhagsfærslur**.  
 3.  Til að sjá aðeins viðeigandi færslur þarf að setja inn eina eða fleiri afmarkanir í gluggann.  
 4.  Til að sjá allar víddir fyrir færslu skal velja færsluna og svo aðgerðina **Víddir**.  

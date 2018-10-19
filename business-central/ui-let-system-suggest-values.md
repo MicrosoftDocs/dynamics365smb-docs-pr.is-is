@@ -7,13 +7,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 916b18e94415d34ec1d61330243a3658cfea6947
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6436ef2e70c594f16097d02a3a1bef4ed40e77c0
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Að láta [!INCLUDE[d365fin](includes/d365fin_md.md)] leggja til gildi
@@ -25,7 +25,7 @@ Virkni sem færir reitiargildi fyrir þig eru yfirleitt boðnir fyrir verk þar 
 Þegar til dæmis þu ert að færa inn færslubókarlína fyrir margir útgjöld sem þurfa allir að vera bókaðir á sama bankareikninginn, þá hvert skipti sem þú færir inn nýja færslubókarlínu fyrir útgjöld, geturðu haft **upphæðar** reitinn á bankareikningslínunni sjálfkrafa uppfærða í þá upphæð sem kemur jafnvægi á útgjöld. Nánari upplýsingar um að vinna með færslubækur sjá [Vinna með færslubækur](ui-work-general-journals.md).
 
 ### <a name="to-have-the-amount-field-on-balancing-general-journal-lines-filled-automatically"></a>Til að láta í **Upphæð** reitinn á færslubókarlínur fyllast út sjálfkrafa
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **færslubók** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Færslubækur** og veldu síðan tengda tengilinn.
 2. Á línunni fyrir keyrsla færslubók er valin á **Leggja til afstemmingarUpphæð** gátreitinn.
 3. Opnaðu færslubókina og farðu í að skrá og bóka færslur með því að nota lýsta virkni fyrir sjálfvirka færslu á reitagildum.       
 
@@ -37,7 +37,7 @@ Glugginn **skráning greiðslna**Sýnir útistandandi væntanlega innkomu á lí
 Aðal aðgerðir þínar í glugganum eru að fylla í gátreitur **greiðslur framkvæmdar** og **Dagsetning Móttöku** reit. Verkefni er hægt að setja [!INCLUDE[d365fin](includes/d365fin_md.md)] upp til að sjálfvirkt færa inn vinnudagsetninguna í á **Dagsetning Móttöku** reit þegar valið er **greiðsla framkvæmd** gátreitinn.
 
 ### <a name="to-have-the-date-received-field-in-the-payment-registration-window-filled-automatically"></a>Til að láta **Sjálfkrafa fylla inn í Dagsetning Móttöku** í á **Greiðslu Skráning** glugga
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning fyrir greiðsluskráningu** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning skráning greiðslna** og veldu síðan tengda hlekkinn.
 2. Veldu gátreitinn **Dagsetning móttöku fyllt út sjálfkrafa**
 3. Opnaðu Glugginn **Greiðslu Skráning** og byrja að vinna innsend greiðslur viðskiptamanns með þeim aðgerðum sem var lýst fyrir sjálfvirka innfærslu fyrir reitargildi.
 

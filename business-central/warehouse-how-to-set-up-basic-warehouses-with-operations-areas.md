@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ca194b2aeaf906c498ac541448ffac0f691fdd1b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
@@ -43,13 +43,13 @@ Eftirfarandi ferli eru byggð á uppsetningu einfaldra vöruhúsaðgerða í kri
 >  Í eftirfarandi aðgerð er uppsettningarreiturinn **Hólf áskilið** á birgðageymsluspjaldi valinn sem forskilyrði, þar sem litið er á það sem grundvöll fyrir öll stig vöruhúsastjórnunar.  
 
 ## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Til að virkja birgðaskjöl fyrir innri aðgerðir  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.
 2. Opna birgðageymsluspjaldið sem á að setja upp.  
 3.  Á flýtiflipanum **Vöruhús** skal velja gátreitinn **Þarf að ganga frá** til að gefa til kynna að þegar inn- eða innra upprunaskjal með hólfakóða er gefið út, er hægt að stofna birgðafrágang eða birgðahreyfingu.  
 4.  Veljið gátreitinn **Krefjast tínslu** til að gefa til kynna að þegar útleiðarskjal eða innra upprunaskjal með hólfakóta er stofnað skuli einnig stofna birgðatínslu- eða birgðahreyfingarskjal.  
 
 ## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Til að skilgreina sjálfgefna hólfaskipan í framleiðslusvæðinu  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.
 2. Opna birgðageymsluna sem setja á upp.  
 3.  Á flýtiflipanum **Hólf** í reitnum **Hólfkóti opins vinnslusalar** er færður inn kóti hólfsins á framleiðslusvæðinu með fjölda íhluta sem starfsmaður á vél getur notað án þess að biðja þurfi um vöruhúsaaðgerð til að færa þá í hólfið. Vörur sem eru settar í þetta hólf eru venjulega settar upp fyrir sjálfvirka bókun eða söfnun. Þetta þýðir að reiturinn **Birgðaskráningaraðferð** inniheldir **Áfram** eða **Afturábak**.  
 4. Í **Hólfkóti framleiðslu á innleið** færið inn kóta hólfsins á framleiðslusvæðinu sem íhlutir sem tíndir eru fyrir framleiðslu í þessari birgðageymslu eru sjálfgefið settir á áður en þeir eru notaðir. Vörur sem eru settar í þetta hólf eru venjulega settar upp fyrir handvirka notkunarbókun. Þetta þýðir að reiturinn **Birgðaskráningaraðferð** inniheldur **Handvirkt** eða **Tína + Áfram** eða **Tína + afturábak** fyrir vöruhúsatínslur og birgðahreyfingar.  
@@ -73,13 +73,13 @@ Ef magn sölulínu tínslu og afhendingar er sett saman í pöntunina skal fylgj
 Nánari upplýsingar, sjá [Samsetningarstjórnun](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Til að setja það upp að birgðahreyfing sé sjálfkrafa búin til þegar birgðatínsla fyrir samsetningarvöru er stofnuð.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning samsetningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **samsetningaruppsetning** og veldu síðan tengda tengilinn.
 2. Veljið gátreitinn **Stofna hreyfingar sjálfkrafa**.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Til að setja upp hólfið á samsetningarsvæðinu sem íhlutir eru sjálfgefið settir á áður en nota má þá við samsetningu.
 Gildið í þessum reit er sjálfkrafa sett inn í reitinn **Hólfkóði** á samsetningarpantanalínum þegar þessi staðsetning er sett í **Staðsetningarkóði** reitinn á samsetningarpöntunarlínunni.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.
 2. Opna birgðageymsluna sem setja á upp.
 3. Færið inn **Í samsetningu hólfakóði** reitinn.
 
@@ -91,7 +91,7 @@ Hólfakótar sem eru settir upp á birgðageymsluspjöldum skilgreina sjálfgefi
 > [!NOTE]
 > Þessi uppsetning er aðeins möguleg fyrir staðsetningar þar sem reiturinn Hólf nauðsynlegt er valinn.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.
 2. Opna birgðageymsluna sem setja á upp.
 3. Færið inn **Frá-samsetning hólfkóða** reitinn.
 
@@ -112,7 +112,7 @@ Ef **Setja saman í pöntun hólfakóði** er auður þá er **Frá-samsetning h
 
 Sami hólfakóði er svo afritaður í reitinn **Hólfkóði** í birgðatínslulínunni sem stjórnar afhendingu á magninu sem sameina á í pöntun. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Tína vörur með Birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Staðsetningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.
 2. Opna birgðageymsluna sem setja á upp.
 3. Færið inn **Setja saman í pöntun hólfakóði** reitinn.
 
@@ -128,7 +128,7 @@ Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir
 > [!Caution]
 > Vörur í sérstökum hólfum eru ekki varðar þegar þær eru tíndar eða notaðar sem framleiðsluíhlutir með glugganum Birgðatínsla.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil. Velja birgðageymsluna sem á að uppfæra.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn. Velja birgðageymsluna sem á að uppfæra.  
 2.  Veldu aðgerðina **Hólf**.  
 3.  Veljið reitinn **Sérstakt** fyrir hvert hólf sem á aðeins að nota fyrir tiltekna innri starfsemi og þegar taka á magn frá fyrir þá starfsemi eftir að það hefur verið sett þangað.  
 

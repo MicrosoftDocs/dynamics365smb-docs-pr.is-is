@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8b4d26e3cb8a1364745dd25ca5341635c49a5718
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 036aa1f317c1b1de7fc1548e03d40eca8c25be89
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Dæmi: Skilgreining fastrar úthlutunar á grundvelli úthlutunarhlutfalls
@@ -29,7 +29,7 @@ Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun 
 
 ## <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Til að skilgreina PROD kostnaðarstað úthlutunarveitu á flýtiflipanum Almennt  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Kostnaðarúthlutun** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kostnaðarúthlutun** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Kostnaðarúthlutun** skal velja aðgerðina **Nýtt**.  
 3.  Í reitnum **Kenni** smellið á færslulykilinn eða sláið inn auðkenni.  
 4.  Í reitinn **Stig**, sláið inn **1**.  

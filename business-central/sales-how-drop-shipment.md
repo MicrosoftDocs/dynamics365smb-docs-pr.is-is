@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4840cde44374f17dcbd2befb167bfdf6110fe6fe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="make-drop-shipments"></a>Beinar sendingar
@@ -49,14 +49,15 @@ Nú er hægt að segja lánardrottninum aðsenda vörur til viðskiptamanns, til
 ## <a name="to-post-a-drop-shipment"></a>Til að bóka beina afhendingu
 Þegar lánardrottinn hefur sent vörur, er hægt að bóka sölupöntunina sem senda. Einnig er hægt að bóka innkaupapöntun, en aðeins með **Móttöku** valkostinn fyrr en sölupöntunin hefur verið reikningsfært.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölupantanir** og velja svo viðeigandi tengil.
-2. Opnaðu sölupöntun sem þú stofnaðir í "stofna sölupöntun fyrir beina sendingu" hlutanum.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.
+2. Opnaðu sölupöntun sem þú stofnaðir í stofna sölupöntun fyrir beina sendingu hlutanum.
 3. Í reitnum **magn til Afhendingar** er tilgreint hve mikið af pöntunarmagni skal senda, allt eða hluti pöntunarmagns.
 4. Veljið aðgerðina **bóka** eða **Bóka og senda**.
 5. Síðan er annað hvort valið **senda** valkosturinn til að reikningsfæra síðar eða valkostinn **senda og reikningsfæra** eigi að reikningsfæra strax.
 
 ## <a name="see-also"></a>Sjá einnig
-[Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)|  
+[Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)  
+[Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md)  
 [Selja vörur](sales-how-sell-products.md)  
 [Skrá innkaup](purchasing-how-record-purchases.md)  
 [Sala](sales-manage-sales.md)  

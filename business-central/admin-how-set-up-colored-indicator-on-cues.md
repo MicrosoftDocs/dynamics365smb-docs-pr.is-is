@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5814a1719ccba38967ee64d28fddae617487b43c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Setja upp litaðan vísi á bunka fyrir fyrirtækið eða einstaka notendur
@@ -29,7 +29,7 @@ Vísirinn birtist sem stika efst í ramma bendingarinnar. Veitir sjónrænt merk
 Til að setja upp vísi tilgreinirðu allt að tvö þröskuldsgildi sem tilgreina þrjú svið gagnagilda (lágt, miðlungs og hátt) sem hægt er að nota annan lit (eða stíl) við.  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Til að setja upp litaða vísa í bendingum  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning Bendingar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bunkauppsetning** og veldu síðan tengda tengilinn.  
   
      Glugginn **uppsetning bunka** birtist. Glugginn birtir vísa sem nú eru uppsettir í bendingum. Vísar sem eiga við alla notendur í fyrirtækinu eru með auðan **Notandanafn** reit. Vísar sem gilda um tiltekinn notanda innhalda notandanafnið í **Notandanafn** reitnum.  
   

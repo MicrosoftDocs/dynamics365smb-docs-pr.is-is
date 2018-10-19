@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7013cfa615174953660aa291abd62fa327e6f3ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6923414d6e1fb56a48c3715eaa1c2fa3c4ee9f69
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Notkun Business Central sem fyrirtækjainnhólf í Outlook
@@ -50,7 +50,7 @@ Til dæmis, ef þú færð tölvupóstskeyti sem nefnir textann *S-QUO100*, skil
 ## <a name="adding-the-add-ins-manually"></a>Bæta við viðbótunum handvirkt
 Í sumum tilfellum fá viðbætur ekki sjálfkrafa bætt við Outlook. Jafnvel þótt þú eða samstarfsmaður hljóp aðstoðaruppsetningarhandbókina fyrir hönd fyrirtækisins, gæti [!INCLUDE[d365fin](includes/d365fin_md.md)] ekki birst í Outlook. Ef þú finnur fyrir þessu vandamáli geturðu bætt við [!INCLUDE[d365fin](includes/d365fin_md.md)] viðbótunum handvirkt.  
 
-Í fyrsta lagi verður þú að staðfesta að þú hafir aðgang að viðbótunum á Office 365 reikningnum þínum. Opnaðu einfaldlega Outlook Web Access í vafra og bættu síðan `/owa/#path=/options/manageapps` við slóðina í heimilisfangi. Þetta opnast á síðunni **Stjórna viðbótum**, þar sem þú getur virkjað [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir Outlook. Þá, þegar þú vafrar aftur til Outlook, ætti [!INCLUDE[d365fin](includes/d365fin_md.md)] að vera tiltæk.  
+Í fyrsta lagi verður þú að staðfesta að þú hafir aðgang að viðbótunum á Office 365 reikningnum þínum. Opnaðu einfaldlega Outlook Web Access í vafra og bættu síðan `/owa/#path=/options/manageapps` við slóðina í heimilisfangi. Þetta opnar **Stjórna innbótum** gluggann, þar sem þú getur virkjað [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir Outlook. Þá, þegar þú vafrar aftur til Outlook, ætti [!INCLUDE[d365fin](includes/d365fin_md.md)] að vera tiltæk.  
 
 Á sama hátt í Outlook skjáborðsþjóninum getur þú staðfest að [!INCLUDE[d365fin](includes/d365fin_md.md)] er skráð í **Stjórna innbótum**.  
 

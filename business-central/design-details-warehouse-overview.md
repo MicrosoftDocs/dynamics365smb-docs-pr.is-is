@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 54d716a069384bf4acdc5c0e24e4e1e292e2be43
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cea5bb76f8fdb8c9c52a5f341d29a34bcb8f0cdc
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-warehouse-overview"></a>Hönnunarupplýsingar yfirlit vöruhúss
@@ -30,7 +30,7 @@ Taflan **Innihald hólfs** er notuð til að meðhöndla allar mismunandi víddi
 
 Eftirfarandi mynd lýsir dæmigerðu vöruhúsaflæði.  
 
-![Yfirlit yfir Vöruhúsaferli](media/design_details_warehouse_management_overview.png "hönnunarupplýsingar_yfirlit_vöruhúsastjórnun")  
+![Yfirlit yfir Vöruhúsaferli](media/design_details_warehouse_management_overview.png "Yfirlit yfir Vöruhúsaferli")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Grunn- eða ítarleg vörugeymsla  
 Vöruhúsavirkni í [!INCLUDE[d365fin](includes/d365fin_md.md)] má framkvæma í mismunandi flækjustigum, allt eftir ferlum fyrirtækisins og pöntunarmagni. Aðalmunurinn er sá aðgerðir eru framkvæmdar pöntun fyrir pöntun í grunnvörugeymslu þegar þeim er steypt saman fyrir margfaldar pantanir í ítarlegu vöruhúsi.  

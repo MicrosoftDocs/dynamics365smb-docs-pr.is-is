@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 06/28/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 604b8ee545269707ebcabd3712aee0d4daf253a8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75e2615dfd7af8ec6269affb0a61f75adf1c6d97
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Skrá og endurgreiða starfsmannaútgjöld
@@ -29,7 +29,7 @@ Ef starfsmenn eyða sínum eigin peningum í viðskiptaerindum, er hægt að bó
 
 ## <a name="to-record-an-employees-expense"></a>Skrá útgjöld starfsmanns
 Útgjöld starfsmanna eru bókuð í **Færslubók** glugga
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **færslubók** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Færslubækur** og veldu síðan tengda tengilinn.
 2. Viðeigandi færslubók keyrsla er opnaður. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
 3. Fyllið í reitina eftir þörfum í nýrri færslubókarlínu. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 4. Endurtakið skref 3 fyrir öll útgjöld sem starfsmaður hefur stofnað til.
@@ -40,7 +40,7 @@ Ef starfsmenn eyða sínum eigin peningum í viðskiptaerindum, er hægt að bó
 
 ## <a name="to-reimburse-an-employee"></a>Endurgreiða starfsmanni
 Þú endurgreiðir starfsmanni með því að bóka greiðslur á bankareikning hans í glugganum **greiðslubók**.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greiðslubækur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslubók** og veldu síðan tengda tengilinn.
 2. Viðeigandi greiðslubók keyrsla er opnaður. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
 3. Fyllið inn í reitina eftir þörfum. Frekari upplýsingar eru í [Greiðslur framkvæmdar](payables-make-payments.md).
 4. Að öðrum kosti skal velja **Leggja til starfsmannagreiðslu** aðgerðina til að setja sjálfvirkt inn færslubókarlínu fyrir endurgreiðslu í bið til starfsmanns.

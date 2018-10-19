@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.date: 05/16/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 1695a6950dabc1b2f0a2f85ad9e0c565012c92e1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2dfa62c765a653986de2069ef26e454928d68ee3
 ms.contentlocale: is-is
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -32,7 +32,7 @@ Til að nota sniðmát með API-safninu verður þú fyrst að setja upp og skil
 
 Til að úthluta API sniðmáti verður þú að fara í gegnum eftirfarandi skref.
 
-1. Veljið táknið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið"), sláið inn **API-uppsetning** og veljið viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **uppsetning API** og veldu síðan tengda tengilinn.
 2. Veljið **Nýtt** og veljið síðan gildið á **Röðun** fyrir færsluna.  
 Ef fleiri en eitt sniðmát er valið fyrir API (síðukenni) eru sniðmátin notuð í þeirri röð sem er skilgreind í dálknum **Röðun**.   
 Þegar hvert sniðmát er notað eru reitargildum sem eru skilgreind í sniðmátinu aðeins beitt á reiti sem hafa ekki enn fengið gildi skilgreint, annaðhvort sérstaklega í API eða í sniðmáti sem notað var áður í röðinni. 

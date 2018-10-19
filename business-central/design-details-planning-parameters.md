@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 05/04/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
 ms.contentlocale: is-is
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Hönnunarupplýsingar: áætlunarfæribreyta
@@ -80,25 +80,25 @@ Til að fá skynsamlegar framboðsáætlun, skipuleggjandi mun fínstilla áætl
 
 Tímasetning enduráætlunartímabils, hömlutímabils og lotusöfnunartímabils byggir á birgðadegi. Tímaramminn byggir á upphafsdagsetningu áætlanagerðar eins og sést á eftirfarandi skýringarmynd.  
 
-![Tímarammaeiningar](media/supply_planning_5_time_bucket_elements.png "supply_planning_5_time_bucket_elements")  
+![Tímarammaeiningar](media/supply_planning_5_time_bucket_elements.png "Tímarammaeiningar")  
 
 Í eftirfarandi dæmum, svarta örvar tákna núverandi framboð (upp) og eftirspurn (niður). Rauðar, grænar og appelsínuguldar örvar eru áætlunartillögur.  
 
 **Dæmi 1**: Breytta dagsetningin er utan enduráætlunartímabilsins sem veldur því að hætt er við núverandi framboð. Nýtt framboð er lagt til til að ná yfir eftirspurn í lotusöfnunartímabilinu.  
 
-![Enduráætlunartímabil, Lotusöfnunartímabil](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "supply_planning_5_recheduling_period_lot_accumulation_period")  
+![Enduráætlunar- og lotusöfnunartímabil](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Enduráætlunar- og lotusöfnunartímabil")  
 
 **Dæmi 2**: Breytta dagsetningin er á enduráætlunartímabilinu, sem veldur því að núverandi framboð er enduráætlað. Nýtt framboð er lagt til til að ná yfir eftirspurn utan lotusöfnunartímabilsins.  
 
-![Enduráætlunartímabil, Lotusöfnunartímabil, Enduráætla](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "supply_planning_5_recheduling_period_lot_accum_period_reschedule")  
+![Enduráætlunartímabil, lotusöfnunartímabil og enduráætlun](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Enduráætlunartímabil, lotusöfnunartímabil og enduráætlun")  
 
 **Dæmi 3**: Eftirspurn er á hömlutímabilinu og framboðsmagnið á lotusöfnunartímabilinu stemmir við framboðsmagnið. Næsta eftirspurn er óvarin og stungið er upp á nýrri eftirspurn.  
 
-![Hömlutímabil, Lotusöfnunartímabil](media/supply_planning_5_dampener_period_lot_accumulation_period.png "supply_planning_5_dampener_period_lot_accumulation_period")  
+![Hömlu- og lotusöfnunartímabil](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Hömlu- og lotusöfnunartímabil")  
 
 **Dæmi 4**: Eftirspurn er á hömlutímabilinu og framboðið er áfram á sömu dagsetningu. Hins vegar er núverandi framboðsmagn ekki nóg til að svara eftirspurn á lotusöfnunartímabilinu, svo lögð er til breytingaraðgerð á magni fyrir núverandi birgðir.  
 
-![Hömlutímabil, Lotusöfnunartímabil, Breyta magni](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "supply_planning_5_dampener_period_lot_accum_period_change_qty")  
+![Hömlutímabil, lotusöfnunartímabil og magnbreyting](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Hömlutímabil, lotusöfnunartímabil og magnbreyting")  
 
 **Sjálfgefin gildi:** Sjálfgefin gildi reitarins **Tímarammi** og þriggja endurpantanatímabilsreita eru auð. Fyrir alla reiti nema reitinn **Hömlutímabil** þetta merkir 0D núll dagar. Ef reiturinn **Hömlutímabil** er auður verður altæka gildið í reitnum **Sjálfgefið hömlutímabil** í glugganum **Uppsetning framleiðslu** notað.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3bee6f999a9553bbf8832d3cb65c88080f2d36ef
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 85d58264b14d191389bdf23a792dff7ad30bf9c3
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Dæmi: Skilgreining kvikrar úthlutunar á grundvelli seldra vara
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Til að skilgreina kvikar úthlutanir sem byggja á vörum sem seldar voru á síðasta ári  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Kostnaðarúthlutanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kostnaðarúthlutanir** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Kostnaðarúthlutun** skal velja aðgerðina **Nýtt**.  
 3.  Í reitnum **Kenni** smellið á færslulykilinn eða sláið inn auðkenni.  
 4.  Í reitinn **Stig**, sláið inn **1**.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 717090789c380bee19f12882fc4fc6ade76c8420
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dac33cefa38e82c1fa34d1f8eeeffbfad7518ab4
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði
@@ -40,14 +40,14 @@ Hægt er að úthluta kostnaðarauka á bæði innkaupa- og söluskjöl á tvenn
 ## <a name="to-set-up-item-charge-numbers"></a>Uppsetning kostnaðaraukanúmera
 Vörugjaldsnúmer eru notuð til að greina á milli mismunandi vörugjalda sem notuð eru fyrir innkaupaskjöl í fyrirtækinu.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Kostnaðarauki** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kostnaðarauki** og veldu síðan tengda tengilinn.
 2. Í glugganum **Kostnaðarauki** skal velja aðgerðina **Nýtt** til að stofna nýja línu.
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Að úthluta kostnaðarauka beint til innkaupareiknings fyrir vöruna
 Ef þú veist hver kostnaðaraukinn er þegar þú bókar innkaupareikning fyrir vöruna, skaltu fylgja þessu ferli.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.
 2. Stofna nýjan innkaupareikning. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 3. Vertu viss um að innkaupareikningurinn hafi fleiri en eina línu af vörutegund.
 4. Á nýja línu í reitnum **Tegund** er valinn **Kostnaðarauki Vöru**.

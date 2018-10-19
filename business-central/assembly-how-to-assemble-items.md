@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c5e23bdd507cd4b08cede911fa8572458b91eb94
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="assemble-items"></a>Sameina vörur
@@ -43,7 +43,7 @@ Frekari upplýsingar um hvernig samsetningaríhlutur er settur upp eru í [Skilj
 Í þessu ferli er stofnuð og unnið úr samsetningarpöntun fyrir vörur sem eru settar saman í birgðir, sem þýðir án. tengdrar sölupöntunar. Skrefin eru meðal annars að hefja framleiðslupöntunina, meðhöndla möguleg ráðstöfunarvandamál íhluta og bóka samsetningarvörufrálag að hluta.
 
 ## <a name="to-assemble-an-item"></a>Til að setja vöru saman  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Samsetningarpöntun** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **samsetningarpöntun** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð. Glugginn **Ný samsetningarpöntun** opnast.  
 3.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Í reitnum **Vöru Nr.** veljið samsetningarvöruna sem á að vinna með. Reiturinn er síaður til að hann sýni aðeins vörur sem eru settar upp fyrir samsetningu, sem þýðir að þær hafa úthlutaða samsetningaruppskrift.  

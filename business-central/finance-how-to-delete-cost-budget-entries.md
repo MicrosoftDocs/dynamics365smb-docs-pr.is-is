@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: acd8e0f25a3909ceab3dd63e04509ab48a300bb6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cdd7f7cfb2645d780df47bfb75ec7392c1739843
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="delete-cost-budget-entries"></a>Eyða kostnaðaráætlunarfærslum
@@ -26,7 +26,7 @@ Til að koma í veg fyrir gloppur í kostnaðaráætlunarfærslum og kostnaðars
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Til að úthluta kostnaðaráætlunarfærslu  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Eyða kostnaðaráætlunarfærslum** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða kostnaðaráætlanafærslum** og veldu síðan tengda tengilinn.  
 
     **Skráningarnr.** reiturinn felur í sér síðasta skráningarfærslunúmerið og því er ekki hægt að breyta.  
 

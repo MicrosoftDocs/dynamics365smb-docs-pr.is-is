@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90fa2b52444d057149b39da87f5dfab6d91e8681
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 681540708d9807aafebcf5701232a282a189e47b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Uppfæra skýrsluútlit eða skjalaútlit
@@ -30,7 +30,7 @@ Ekki geta allar breytingar á skýrsluútliti verið uppfærðar sjálfkrafa í 
   
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Uppfærir eitt eða fleiri Sérsniðin skýrsluútlit.  
   
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **útliti skýrslu** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **útliti skýrslu** og veldu síðan tengda tengilinn.  
   
 2.  Í glugganum **Skýrsluútlit** ef þú vilt uppfæra sérstaka skýrslu, skal velja útlitið af listanum og svo velja aðgerðina **Uppfæra útlit**. Eða, ef þú vilt uppfæra allt sérsniðið skýrsluútlit fyrir fyrirtækið, skal velja aðgerðina **Uppfæra allt útlit**.  
 
@@ -38,7 +38,7 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
 ## <a name="to-test-custom-report-layout-updates"></a>Til að prófa uppfærslur á sérsniðið skýrsluútlit  
   
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Val á útliti skýrslu** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
   
 2.  Í glugganum **Val Útlit skýrslu** er valið aðgerðin **Prufa uppfærsla útlit**.  
   

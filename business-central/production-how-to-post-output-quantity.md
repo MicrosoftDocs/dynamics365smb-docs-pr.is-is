@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1813ab3105023e56347c9321fbbb10944e7f09f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7b895978bd55cd6ed7086326036016002519817e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="batch-post-output-and-run-times"></a>Fjöldabóka frálag og keyrslutíma
@@ -26,7 +26,7 @@ Afkastsmagnið sýnir vinnuframvinduna í formi afgreidds magns.
 > Aðeins þegar afkastsmagn er bókað í síðustu aðgerðinni eru birgðir sjálfkrafa uppfærðar.  
 
 ## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Bóka frálagsmagn fyrir eina eða fleiri framleiðslupantanalínur
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **frálagsbók** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **frálagsbók** og veldu síðan tengda tengilinn.  
 2. Reitirnir eru fylltir út með framleiðslupöntunargögnunum og frálagsgögnunum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Ef aðgerðinni er lokið skal velja reitinn **Lokið**.  
 
@@ -37,7 +37,7 @@ Afkastsmagnið sýnir vinnuframvinduna í formi afgreidds magns.
 ## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Bóka keyrslutími fyrir eina eða fleiri framleiðslupantanalínur
 Keyrslutíminn sýnir vinnuframvinduna í formi nauðsynlegs vinnutíma.    
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **frálagsbók** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **frálagsbók** og veldu síðan tengda tengilinn.  
 2. Reitirnir eru fylltir út með framleiðslupöntunargögnunum og frálagsgögnunum.  
 3.  Ef aðgerðinni er lokið skal velja reitinn **Lokið**.  
 4. Velja **bóka** aðgerðina til að bóka tíma eytt á aðgerð. Afkastagetufærslur eru uppfærðar fyrir notaðar vinnu- eða vélastöðvar.

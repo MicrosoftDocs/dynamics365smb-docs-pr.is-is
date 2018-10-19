@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b9e701f102f1a2fc7ccbd4882dfec37f65cfe3b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="configure-new-companies"></a>Grunnstilla ný fyrirtæki
@@ -28,15 +28,15 @@ Eftirfarandi ferli gerir ráð fyrir að þú hafir frumstillt og opnað nýja f
 
 ## <a name="to-import-a-configuration-package"></a>Til að flytja inn grunnstillingarpakka.  
 1. Nýja fyrirtækið er opnað í [!INCLUDE[d365fin](includes/d365fin_md.md)] gagnagrunninum.  
-2. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarpakkar** og velja svo viðeigandi tengil.  
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 3. Velja skal aðgerðina **Flytja inn pakka**.  
 4. Farið er í staðsetninguna þar sem .rapidstart grunnstillingarpakkaskráin var vistuð og velja svo hnappinn **Opna**.  
-5. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fyrirtækjaupplýsingar** og velja svo viðeigandi tengil. Færa inn upplýsingar um fyrirtækið í upplýsingakorti fyrirtækisins. Hafa upplýsingar með eins og bankaupplýsingar. Einnig er hægt setja inn lógó fyrirtækisins.  
+5. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Upplýsingar um fyrirtæki** og veldu síðan tengda tengilinn. Færa inn upplýsingar um fyrirtækið í upplýsingakorti fyrirtækisins. Hafa upplýsingar með eins og bankaupplýsingar. Einnig er hægt setja inn lógó fyrirtækisins.  
 
 Allar töflurnar sem búið er að tákna að verði teknar með í nýja fyrirtækinu eru fluttar inn. Á þessum tímapunkti er hægt að jafna pakkagögn í gagnagrunninn eða leiðrétta og breyta töflugögnum til að uppfylla lýsingar viðskiptamanns.  
 
 ## <a name="to-apply-package-data"></a>Til að nota pakkagögn  
-1. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarvinnublað** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
 2. Valin er tafla þar sem á að breyta gögnum og svo er valin aðgerðin **Nota gögn**. Velja hnappinn **Já** til að staðfesta jöfnun.
 3. Til að staðfesta að gögnin séu nú í gagnagrunninum og að jöfnunin hafi tekist skal fara aftur í gluggann **Grunnstillingarvinnublað** og velja aðgerðina **Gagnagrunnsgögn**.  
 
@@ -44,7 +44,7 @@ Allar töflurnar sem búið er að tákna að verði teknar með í nýja fyrirt
 >  Eftir að gögn hafa verið notuð, er aðeins hægt að skoða þau í gagnagrunninum. Hún er ekki lengur í pakkanum.  
 
 ## <a name="to-modify-and-apply-package-data"></a>Til að breyta og nota gögn pakka  
-1. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarvinnublað** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
 2. Valin er tafla þar sem á að breyta gögnum og svo velja aðgerðina **Pakkagögn**.  
 3. Gera skal breytingarnar í glugganum **Grunnstilling pakkafærslna**. Til dæmis er hægt að eyða valkostum sem eiga ekki við.  
 4. Veldu aðgerðina **Nota gögn** og veldu síðan hnappinn **Í lagi**.  
@@ -53,7 +53,7 @@ Allar töflurnar sem búið er að tákna að verði teknar með í nýja fyrirt
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Til þess að finna og auðkenna skilgreiningarvillu  
 Ákveðnar villugerðir geta komið upp þegar gögn eru notuð á gagnagrunn. Algengasta villan er að nauðsynlegar tengdar töflur voru ekki innifaldar. Þannig vilur eru lagaðar í grunnstillingarvinnublaðinu.
 
-1. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarpakkar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 2. Pakkinn er valinn sem þú vilt yfirfara og síðan skal velja aðgerðina **Breyta**.  
 
     Allar töflur sem er með villur eru auðkenndar. Fjölda pakkavillna birtist í reitnum **Fjöldi pakkavillna**.  
@@ -62,7 +62,7 @@ Allar töflurnar sem búið er að tákna að verði teknar með í nýja fyrirt
 
 ### <a name="to-fix-an-error"></a>Til að laga villu  
 1. Opna fyrirtækið sem grunnstillingapakkinn er byggður á.  
-2. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarvinnublað** og velja svo viðeigandi tengil.  
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
 3. Laga villur eins og tengdar töflur sem vantar á vinnublaðið.  
 4. Bæta töflum við fyrirliggjandi grunnstillingarpakka eða stofna nýjan pakka sem aðeins inniheldur nýju töfluna. Nánari upplýsingar eru í [Undirbúa grunnstillingarpakka](admin-how-to-prepare-a-configuration-package.md).  
 5. Enduropna skal nýja fyrirtækið þar sem verið er að innleiða grunnstillingar.  

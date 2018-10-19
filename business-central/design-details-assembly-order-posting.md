@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7f90612764872875077de1dbe250b3d59582372f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Hönnunarupplýsingar: Bókun samsetningarpöntunar
@@ -33,14 +33,14 @@ Eftirfarandi bókarfærslur komu til við bókun samsetningarpöntunar:
 
 Eftirfarandi skýringarmynd sýnir uppbyggingu vöru og fjárhagsfærslur tilfanga vegna bókum samsetningarpöntunar.  
 
-![Kostnaður við tilföng og afkastaveitu](media/design_details_assembly_posting_1.png "design_details_assembly_posting_1")  
+![Vara, tilföng og fjárhagsfærslur afkasta sem verða til vegna bókunar samsetningarpöntunar](media/design_details_assembly_posting_1.png "Vara, tilföng og fjárhagsfærslur afkasta sem verða til vegna bókunar samsetningarpöntunar")  
 
 > [!NOTE]  
 >  Vinnuvél og vinnustöðvar eru teknar með til að sýna að afkastahöfuðbókarfærslur eru stofnaðar úr bæði framleiðslu og samsetningu.  
 
 Eftirfarandi skýringarmynd sýnir hvernig samsetningargögn flæða fjárhagsfærslur við bókun:  
 
-![Gagnaflæði á meðan á bókun stendur](media/design_details_assembly_posting_2.png "design_details_assembly_posting_2")  
+![Samsetningartengt færsluflæði á meðan bókun stendur](media/design_details_assembly_posting_2.png "Samsetningartengt færsluflæði á meðan bókun stendur")  
 
 ## <a name="posting-sequence"></a>Bókunarröð  
 Til að bókun samsetningarpöntunar á sér stað í þessari röð:  
@@ -53,7 +53,7 @@ Eftirfarandi tafla sýnir röð aðgerða.
 |Aðgerð|Description|  
 |------------|-----------------|  
 |Frumstilla bókun|1.  Framkvæmið forskoðanir.<br />2.  Bætið við bókunarnúmeri og breytið samsetningarpöntunarhausnum.<br />3.  Losa samsetningarpöntun.|  
-|Færsla|<ol><li>Stofna bókaðan samsetningarpöntunarhaus.</li><li>Afrita athugasemdarlínur.</li><li>Bóka samsetningarpöntunarlínur (notkun):<br /><br /> <ol><li>Stofna stöðuglugga til að reikna notkun við samsetningu.</li><li>Fá eftirstandandi magn sem birgðabókarlínan verður byggð á.</li><li>(Núllstilla notað magn og eftirstandandi magn.</li><li>Fyrir samsetningarpöntunarlínur af gerðinni Vara:<br /><br /> <ol><li>Fylla út reitina birgðabókarlínunni.</li><li>Millifærslufrátekningar í birgðabókarlínu</li><li>Bóka birgðahöfuðbókarlínuna til að stofna birgðafærslurnar.</li><li>Stofna vöruhúsabókarlínur og bóka þær.</li></ol></li><li>Fyrir samsetningarpöntunarlínur af gerðinni Forði:<br /><br /> <ol><li>Fylla út reitina birgðabókarlínunni.</li><li>Bókið birgðabókarlínuna. Þetta stofnar afkastagetufærslur.</li><li>Stofna og bóka forðabókarlínu.</li></ol></li><li>Reitargildi millifærslu frá samsetningarpöntunarlínu í nýstofnaða bókaða samsetningarpöntunarlínu.</li></ol></li><li>Bóka samsetningarpöntunarhaus (frálag):<br /><br /> <ol><li>Fylla út reitina birgðabókarlínunni.</li><li>Millifærslufrátekningar í birgðabókarlínu</li><li>Bóka birgðahöfuðbókarlínuna til að stofna birgðafærslurnar.</li><li>Stofna vöruhúsabókarlínur og bóka þær.</li><li>Núllstilla samsetningarmagn og eftirstandandi magn.</li></ol></li></ol>|  
+|Færsla|<ol><li>Stofna bókaðan samsetningarpöntunarhaus.</li><li>Afrita athugasemdarlínur.</li><li>Bóka samsetningarpöntunarlínur (notkun):<br /><br /> <ol><li>Stofna stöðuglugga til að reikna notkun við samsetningu.</li><li>Fá eftirstandandi magn sem birgðabókarlínan verður byggð á.</li><li>Núllstilla notað magn og eftirstandandi magn.</li><li>Fyrir samsetningarpöntunarlínur af gerðinni Vara:<br /><br /> <ol><li>Fylla út reitina birgðabókarlínunni.</li><li>Millifærslufrátekningar í birgðabókarlínu</li><li>Bóka birgðahöfuðbókarlínuna til að stofna birgðafærslurnar.</li><li>Stofna vöruhúsabókarlínur og bóka þær.</li></ol></li><li>Fyrir samsetningarpöntunarlínur af gerðinni Forði:<br /><br /> <ol><li>Fylla út reitina birgðabókarlínunni.</li><li>Bókið birgðabókarlínuna. Þetta stofnar afkastagetufærslur.</li><li>Stofna og bóka forðabókarlínu.</li></ol></li><li>Reitargildi millifærslu frá samsetningarpöntunarlínu í nýstofnaða bókaða samsetningarpöntunarlínu.</li></ol></li><li>Bóka samsetningarpöntunarhaus (frálag):<br /><br /> <ol><li>Fylla út reitina birgðabókarlínunni.</li><li>Millifærslufrátekningar í birgðabókarlínu</li><li>Bóka birgðahöfuðbókarlínuna til að stofna birgðafærslurnar.</li><li>Stofna vöruhúsabókarlínur og bóka þær.</li><li>Núllstilla samsetningarmagn og eftirstandandi magn.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
 >  Ólíkt framleiðslufrálagi, sem bókað er á áætluðum kostnaði, er samsetningarfrálag bókað  á raunkostnaði.  
@@ -71,7 +71,7 @@ Greiningaraðgerðin á pantanastigi er notuð í umbreytingaraðstæðum, framl
 
 Eftirfarandi mynd sýnir leiðréttingarfærsluuppbyggingu og hvernig samsetningarkostnaður er leiðréttur.  
 
-![Bygging leiðréttingarfærslu](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Samsetningartengt færsluflæði á meðan kostnaðarleiðréttingu stendur](media/design_details_assembly_posting_3.png "Samsetningartengt færsluflæði á meðan bókun stendur")  
 
 ### <a name="performing-the-adjustment"></a>Leiðrétting  
 Dreifing greindra breytinga á efni og tilfangakostnaði í samsetningarúttaksfærslum er framkvæmd í runuvinnslunni **Leiðr. kostnað – Birgðafærslur**. Það inniheldur aðgerðina gera margstiga jöfnun, sem samanstendur af eftirfarandi tveimur þáttum:  
@@ -79,7 +79,7 @@ Dreifing greindra breytinga á efni og tilfangakostnaði í samsetningarúttaksf
 -   Leiðrétta samsetningarpöntun – framsendir kostnað vegna efnis og forða í samsetningfrálagsfærslu. Línur 5 og 6 í reiknireglunni hér að neðan eru ábyrgar fyrir því.  
 -   Leiðréttingar á einu stigi – framsendir kostnað fyrir stakar vörur með viðkomandi aðferð kostnaðarútreiknings. Línur 9 og 10 í reikniriti hér á eftir eru ábyrgar fyrir því.  
 
-![Reiknirit fyrir samsetningarleiðréttingu](media/design_details_assembly_posting_4.jpg "design_details_assembly_posting_4")  
+![Yfirlit yfir algrím kostnaðarleiðréttingar fyrir samsetningarbókun](media/design_details_assembly_posting_4.jpg "Yfirlit yfir algrím kostnaðarleiðréttingar fyrir samsetningarbókun")  
 
 > [!NOTE]  
 >  Einingin Gera VÍV-leiðréttingu, í línum 7 og 8, er ábyrg fyrir að framsenda framleiðsluefni og notkukn á afkastagetu í frálag ólokinna framleiðslupantana. Þetta er ekki notað þegar kostnaði samsetningarpöntunar er breytt þar sem VÍV gildir ekki um samsetningu.  

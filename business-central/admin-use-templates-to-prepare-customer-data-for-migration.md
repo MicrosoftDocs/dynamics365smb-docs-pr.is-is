@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3cfc53c1ea3c8d30f65b2d475a8dab052519e81e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Undirbúa flutning á viðskiptamannagögnum
@@ -44,7 +44,7 @@ Hins vegar hægt að stofna sniðmátsskipulag fyrir hvaða töflu sem er í [!I
 > [!TIP]  
 >  Einnig er hægt að nota gagnasniðmát til að stofna nýjar færslur á skjótan hátt. Þá má nota til að stofna gögn á fljótlegri og nákvæmari hátt. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
-1. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarsniðmát** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingarsniðmát** og veldu síðan tengda tengilinn.  
 2. VÍ glugganum **Grunnstilla sniðmátalista** skal velja gagnasniðmát af listanum og veljið svo aðgerðina **Breyta**.  
 
 Ef sjálfgefin sniðmát uppfylla ekki þarfir fyrirtækisins er hægt að stofna ný sniðmát eða bæta reitum við sjálfgefið sniðmát. Ef sjálfgefin sniðmát eru fullnægjandi er hægt að nota þau til að stofna færslur samkvæmt aðalgagnagrunni.
@@ -75,7 +75,7 @@ Hvert sniðmát samanstendur af haus og línum. Þegar sniðmát er stofnað er 
 ## <a name="to-export-to-a-template-in-excel"></a>Að flytja út í sniðmát í Excel
 Hægt er að stofna Excel-vinnubók með fljótlegum hætti til að nota sem sniðmát sem byggt er á uppbyggingu fyrirliggjandi gagnasafnstöflu. Þá má nota sniðmát til að safna saman gögnum um viðskiptavini með samræmdum sniði fyrir síðari innflutningi í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarvinnublað** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.
 2. Bæta töflu við listann, eða velja fyrirliggjandi töflu. Nánari upplýsingar eru í [Vinna með grunnstillingu fyrirtækis í vinnublaði](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Skilgreina reitina úr töflunni sem á að taka með í sniðmátinu.
 4. Veljið aðgerðina **Flytja út í sniðmát**.
@@ -100,11 +100,11 @@ Hægt að nota skipulag gagna sem kemur fram í gagnasniðmátum til að umbreyt
 
 Eftirfarandi skref sýna hvernig eigi að stofna birgðaspjald úr vörugagnasniðmáti. Hægt er að stofna færslu frá hvaða gagnasniðmáti sem er með sömu aðferð.  
 
-1. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarsniðmát** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingarsniðmát** og veldu síðan tengda tengilinn.  
 2. Velja skal sniðmátið **Vara** og síðan velja aðgerðina **Breyta**. Nánari upplýsingar eru í kaflanum „Að stofna gagnasniðmát.“
 3. Veljið aðgerðina **Stofna tilvik**. Birgðaspjald er stofnað.  
 4. Velja hnappinn **Í lagi**.  
-5. Til að yfirfara nýja birgðaspjaldið skal velja táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Vörur** og velja svo viðeigandi tengil.  
+5. Til að yfirfara birgðaspjaldið veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda tengilinn.  
 6. Opna skal nýja birgðaspjaldið.  
 7. Útvíkka mismunandi flýtiflipa og staðfesta að upplýsingarnar voru rétt stofnaðar á þeim.  
 

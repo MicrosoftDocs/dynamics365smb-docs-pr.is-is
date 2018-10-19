@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e05bcfbfee3f07beb32a8f145eb7dd4b1888edcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Breyta árlegri upphæð þjónustusamnings eða samningstilboðs
@@ -22,7 +22,7 @@ Hægt er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs t
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Árlegri upphæð þjónustusamnings eða samningstilboðs breytt:  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustusamningar** eða **Þjónustusamningstilboð** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** eða **Þjónustusamningstilboð** og veldu síðan tengda tengilinn.  
 2. Veldu samninginn eða samningstilboðið.  
 3. Veldu aðgerðina **Opna samning** til að opna samninginn eða samningstilboðið þannig að hægt sé að gera breytingar.  
 4. Veldu **Heimila ójafnaðar upphæðir** ef breyta á árlegri upphæð og skipta mismun árlegrar upphæðar handvirkt í samningslínunum. Annars skal hreinsa gátreitinn  til að dreifa árlegum mismun sjálfkrafa á samningslínur eftir að ársupphæð hefur verið breytt.  

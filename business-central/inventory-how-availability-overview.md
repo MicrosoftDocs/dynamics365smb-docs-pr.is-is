@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b3626db626e3c07498ad2a45733acf205d0ec906
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 440a6bdb3203ba1f4a9eddec3a9a88a47ce7917f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-the-availability-of-items"></a>Skoða tiltækileika vöru
@@ -40,7 +40,7 @@ Hægt er að skoða tiltækileika alla vara eftir staðsetningu, og hægt er að
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Að skoða tiltækileika vöru samkvæmt því hvenær hún berst eða verður afgreidd
 Hægt er að skoða tiltækileika vöru samkvæmt áætluðum vörufærslum í glugganum **Til ráðstöfunar eftir atviki**.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
 2. Opnið spjald þeirrar vöru sem á að skoða ráðstöfun fyrir.
 3. Veljið aðgerðina **Vara til ráðstöfunar eftir** og veljið svo aðgerðina **Atvik**.
 
@@ -50,7 +50,7 @@ Hægt er að skoða tiltækileika vöru samkvæmt áætluðum vörufærslum í g
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Að skoða tiltækileika vöru á mismunandi tímabilum
 Hægt er að skoða tiltækileika vöru samkvæmt tilgreindum tímabilum í glugganum **Til ráðstöfunar eftir tímabilum**.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
 2. Opnið spjald þeirrar vöru sem á að skoða ráðstöfun fyrir.
 3. Veljið aðgerðina **Vara til ráðstöfunar eftir** og veljið svo aðgerðina **Tímabil**.
 
@@ -60,7 +60,7 @@ Hægt er að skoða tiltækileika vöru samkvæmt tilgreindum tímabilum í glug
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Að skoða tiltækileika vöru eftir staðsetningunni sem hún er geymd á
 Tiltækileika vöru eftir staðsetningunni sem hún er geymd á má sjá í glugganum **Vara til ráðstöfunar eftir staðsetningu**.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
 2. Opnið spjald þeirrar vöru sem á að skoða ráðstöfun fyrir.
 3. Veljið aðgerðina **Vara til ráðstöfunar eftir** og veljið svo aðgerðina **Staðsetning**.
 
@@ -71,7 +71,7 @@ Tiltækileika vöru eftir staðsetningunni sem hún er geymd á má sjá í glug
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Að skoða tiltækileika allra vara eftir staðsetningunni sem þær eru geymdar á
 Hægt er að sjá tiltækileika allra vara á öllum stöðum í glugganum **Vörur eftir staðsetningu**.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
 2. Veljið aðgerðina **Vörur eftir staðsetningu**.
 
     Glugginn **Vörur eftir staðsetningu** sýnir hve margar vörur af hverri tegund fyrir sig eru tiltækar á öllum staðsetningum.

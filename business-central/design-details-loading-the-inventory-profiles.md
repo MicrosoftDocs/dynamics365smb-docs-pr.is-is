@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5b47a898b7e1d574abaf521e917f780fd105c4a8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Hönnunarupplýsingar: hleðsla birgðaforstillinga
@@ -82,7 +82,7 @@ Til að raða út margar uppsprettur eftirspurn og framboð, áætlanagerð kerf
  Öryggisbirgðir er birgðamagn sett til hliðar til að bæta upp fyrir óvissu í eftirspurn á áfyllingearafhendingartíma. Hins vegar má nota það ef það er nauðsynlegt að taka af því til að svara eftirspurn. Í þessu tilfelli tryggir áætlunarkerfið að öryggisbirgðir séu endurnýjaðar með því að leggja til afhendingarpöntun til þess að fylla á magn öryggisbirgða á þeim degi er þær verða notaðar. Þessi áætlunarlína mun sýna  fráviksviðvöruntákn sem skýrir að öryggisbirgðir hafi verið notaðar að hluta eða að fullu vegna frávikspöntunar fyrir magn sem vantaði.  
 
 ## <a name="forecast-demand-is-reduced-by-sales-orders"></a>Spá um eftirspurn er minnkuð eftir sölupöntunum  
- Framleiðsluspáin gefur upp ætlaða verðandi eftirspurn. Þegar rauneftirspurn er slegin inn, yfirleitt sem sölupantanir fyrir framleiddar vörur, notar hún spána.  
+ Eftirspárspáin lýsir væntanlegri eftirspurn eftir framtíðinni. Þegar rauneftirspurn er slegin inn, yfirleitt sem sölupantanir fyrir framleiddar vörur, notar hún spána.  
 
  Spáin sjálf er í raun ekki minnkuð af sölupöntunum, hún er enn sú sama. Hins vegar er spármagnið sem notað er í útreikningi á áætluninni minnkað (með magni sölupöntunarinnar) áður en magnið sem eftir er, ef eitthvað er, fer í birgðaforstillingu eftirspurnar. Þegar áætlanakerfið kannar raunverulega sölu á einhverju tímabili eru teknar með bæði opnar sölupantanir og birgðahöfuðbókarfærslur úr sendum pöntunum, nema þær séu úr standandi pöntun.  
 

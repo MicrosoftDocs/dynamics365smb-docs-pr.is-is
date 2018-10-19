@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Stofna greiningarskýrslur
@@ -61,7 +61,7 @@ Eftirfarandi ferli byggist á greiningaryfirliti fyrir sölu. Skrefin eru svipu�
 
 Í sniðmáti er safn lína sem stendur fyrir greingardálkana sem eru sýndir í greiningarskýrslunni. Ef skilgreina á dálk þarf að tengja greiningartegundarkóta við línuna. Þessi greiningartegundarkóði ákveður þá gerð frumgagna í birgðafærslunum sem greiningin verður byggð á. Upprunagögn innihalda kostnað, söluupphæð eða magn og tengdar virðisfærslur þeirra. Hægt er að setja upp eins mörg dálk- og línusniðmát og þarf og tengja þau síðan til að stofna nýja greiningarskýrslu.    
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Söludálkssniðmát** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söludálkssniðmát** og veldu síðan tengda tengilinn.  
 2. Veljið fyrstu auðu línuna og fyllið svo út í reitina eins og þörf krefur.
 3. Veljið **Dálkar** aðgerðina.  
 4. Í glugganum **Greiningardálkar** eru reitirnir fylltir út til að tilgreina dálkana sem eiga að vera með í greiningarskýrslunni.  
@@ -78,7 +78,7 @@ Eftirfarandi ferli byggist á greiningarskýrslum fyrir sölu. Skrefin eru svipu
 
 Í sniðmáti er safn lína sem stendur fyrir greingarlínurnar sem eru sýndar í greiningarskýrslunni. Lína getur tilgreint eina vöru eða tiltekið svið vara, viðskiptamenn, lánardrottna eða flokka. Einnig er hægt að stofna reiknireglu í línu til að leggja saman allar hinar. Hægt er að setja upp eins mörg dálk- og línusniðmát og þarf og tengja þau síðan til að stofna nýja greiningarskýrslu.    
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölulínusniðmát** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölulínusniðmát** og veldu síðan tengda tengilinn.  
 2. Veljið fyrstu auðu línuna og fyllið svo út í reitina eins og þörf krefur.
 3. Veljið aðgerðina **Línur**.  
 4. Í glugganum **Greiningarlínur** eru stofnaðar línur fyrir vörurnar, viðskiptamennina, lánardrottnana eða sölumennina sem tölur óskast um í greiingarskýrslunni. Fylla verður út reitina **Tegund**, **Svið** og **Lýsing**.  
@@ -91,7 +91,7 @@ Eftirfarandi ferli byggist á greiningarskýrslum fyrir sölu. Skrefin eru svipu
 
 Greiningarskýrslur eru notaðar til að til að greina sölu samkvæmt lykilstærðum sem notandi velur sjálfur, svo sem sölutölum í upphæðum og magni, framlegð eða raunsölu í samanburði við áætlun. Einnig er hægt að nota skýrsluna til að greina meðalsöluverð og meta frammistöðu sölumanna.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölugreiningarskýrslur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölugreiningarskýrslur** og veldu síðan tengda tengilinn.  
 2. Í glugganum **Greiningarskýrslusala** skal velja aðgerðina **Nýtt**.
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Veljið aðgerðina **Breyta greiningarskýrslu**.

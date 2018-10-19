@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/17/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
-ms.openlocfilehash: a10f32808eb89509cfeff365d420dd6e2b866d83
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 473b2fb8f20b30ce49265e6891a99291b663f6a8
 ms.contentlocale: is-is
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Segja upp áskrift að, fjarlægja eða endurstilla [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -32,13 +32,13 @@ Notandareikninga og leyfi er stýrt í glugganum [Office Portal](https://portal.
 ## <a name="closing-your-free-trial-of-included365finincludesd365finmdmd"></a>Loka ókeypis prufuáskriftinnni þinni af [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Ef þú skráðir þig fyrir ókeypis prufuútgáfa og þú vilt ekki halda áfram með [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu lokað reikningnum þínum hvenær sem er. Við mælum með að þú flytjir út öll gögn áður en þú lokar reikningnum þínum.  
 
-Til að loka reikningnum þínum verður þú eins og staðan er núna að hafa samband við afskráningarteymið [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að senda tölvupóst á cancelbusinesscentra@microsoft.com. Þú verður að tiltaka heiti [!INCLUDE[d365fin](includes/d365fin_md.md)] leigjandans í skilaboðunum svo að við getum borið kennsl á þig. Auðveldasta leiðin til að gera þetta er að afrita vefslóðina af [!INCLUDE[d365fin](includes/d365fin_md.md)] heimasíðunni þinni.  
+Til að loka reikningnum þínum verður þú að hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] afskráningarteymið með því að senda tölvupóst á cancelbusinesscentra@microsoft.com. Þú verður að tiltaka heiti [!INCLUDE[d365fin](includes/d365fin_md.md)] leigjandans í skilaboðunum svo að við getum greint þig. Auðveldasta leiðin til að gera þetta er að afrita vefslóðina af [!INCLUDE[d365fin](includes/d365fin_md.md)] heimasíðunni þinni.  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Afskráning úr [!INCLUDE[d365fin](includes/d365fin_md.md)] án Office 365
-Ef þú skráðir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] án þess að notaOffice 365 viðskiptareikning hefur þú ekki stjórnandaréttindi að Office 365. Í staðinn verðurðu að afskrá þig með því að hafa samband við afskráningarteymið [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að senda tölvupóst á cancelbusinesscentra@microsoft.com. Þú verður að tiltaka heiti [!INCLUDE[d365fin](includes/d365fin_md.md)] leigjandans í skilaboðunum svo að við getum borið kennsl á þig. Auðveldasta leiðin til að gera þetta er að afrita vefslóðina af [!INCLUDE[d365fin](includes/d365fin_md.md)] heimasíðunni þinni.  
+Ef þú skráðir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] án þess að notaOffice 365 viðskiptareikning hefur þú ekki stjórnandaréttindi að Office 365. Í staðinn verður þú að segja upp áskrift með því að hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] afskráningarteymið með því að senda tölvupóst á cancelbusinesscentra@microsoft.com. Þú verður að tiltaka heiti [!INCLUDE[d365fin](includes/d365fin_md.md)] leigjandans í skilaboðunum svo að við getum greint þig. Auðveldasta leiðin til að gera þetta er að afrita vefslóðina af [!INCLUDE[d365fin](includes/d365fin_md.md)] heimasíðunni þinni.  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Endurstilling [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Ef þú hefur bætt gögnum við [!INCLUDE[d365fin](includes/d365fin_md.md)] ókeypis prufuútgáfuna þína og þú vilt byrja að nýju með nýja upplifun getur þú stofnað nýtt fyrirtæki og síðan endurstillt fyrsta fyrirtækið. Ef þú opnar síðuna **fyrirtæki**, geturðu stofnað afrit af núverandi fyrirtæki, skráð út og síðan skráð inn í þitt eigið fyrirtæki, og síðan endurstilla upprunalega fyrirtækið.  
+Ef þú hefur bætt gögnum við [!INCLUDE[d365fin](includes/d365fin_md.md)] ókeypis prufuútgáfuna þína og þú vilt byrja að nýju með nýja upplifun getur þú stofnað nýtt fyrirtæki og síðan endurstillt fyrsta fyrirtækið. Ef þú opnar **Fyrirtæki** gluggann getur þú búið til afrit af núverandi fyrirtækinu þínu, skráð þig út og skráð þig inn í nýja fyrirtækið þitt og síðan endurstillt upphaflega fyrirtækið.  
 > [!NOTE]  
 >   Þegar þú endurstillir fyrirtæki sem þú deilir með öðru fólki úr þinni stofnun þá verðurðu að vera viss um að annað fólk sé ekki skráð inn þegar þú endurræsir fyrirtækið.  
 

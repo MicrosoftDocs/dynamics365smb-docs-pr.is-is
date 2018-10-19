@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bd8bf55a69833745739a5c575bee2a3818cb7634
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fe294cd56c01e1440ff04f7146fada64774f4e8b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-for-production-or-assembly"></a>Taka til fyrir framleiðslu eða samsetningu
@@ -39,7 +39,7 @@ Hátturinn við frágang tínsluíhluta fyrir framleiðslu fer eftir því hvern
 ## <a name="to-pick-components-in-basic-warehouse-configurations"></a>Tína íhluti í einfaldri vöruhúsagrunnstillingu
 Í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslan notar eingöngu tínslu, eru íhlutir tíndir fyrir framleiðsluaðgerðir með glugganum **Birgðatínsla**. Frekari upplýsingar, sjá [Tína vörur með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðatínsla** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínsla** og veldu síðan tengda tengilinn.  
 2.  Til að komast í íhluti framleiðslupöntunarinnar, veldu aðgerðina **Sækja upprunaskjöl** og síðan er útgefna framleiðslupöntunin valin.  
 3.  Tínslan er framkvæmd og síðan eru rauntínsluupplýsingarnar skráðar í reitnum **Tínt magn**.  
 4.  Þegar línurnar eru tilbúnar til bókunar er smellt á aðgerðina **Bóka**. Bókunin stofnar nauðsynlegar vöruhúsafærslur og bókar notkun varanna.  
@@ -88,9 +88,9 @@ Til að stofna tínslubeiðnir, bæði fyrir tog- og ýtidæmi, þurfa viðkoman
  |Framleiðslupöntun|Breyta tegund pöntunar í útgefna framleiðslupöntun.|  
  |Samsetningarpöntun|Breyta stöðu í Útgefið.|  
 
-## <a name="to-pick-components-using-the-pick-worksheet"></a>Íhlutir tíndir úr tínsluvinnublöðunum:  
+## <a name="to-pick-components-using-the-pick-worksheet"></a>Íhlutir tíndir úr tínsluvinnublöðunum  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vinnublað tínslu** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað tínslu** og veldu síðan tengda tengilinn.  
 2.  Velja skal **Sækja vöruhúsaskjöl** og síðan velja íhlutalínurnar í útgefnu framleiðslupöntuninni.  
 3.  Línurnar eru skoðaðar, þeim raðað til að tryggja skilvirkni tínsluferðarinnar og þær sameinaðar öðrum vinnublaðslínum ef þarf, til að nýta tíma starfsmanna sem best.  
 4.  Veldu aðgerðina **Stofna tínslu**.  

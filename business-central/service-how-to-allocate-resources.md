@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5360e9d25b463673e2a1b033b9f8564d0f483301
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -28,7 +28,7 @@ Lykilþáttur þjónustukerfis er fólkið sem veitir þjónustuna. Hægt að se
 ## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Yfirlit þjónustupantana/þjónustutilboða skoðað  
 Oft gæti þurft að skoða lista yfir þjónustupantanir eða þjónustutilboð sem uppfylla ákveðnar kröfur til að geta unnið tilteknar aðgerðir með þeim hverja á eftir annarri. Til dæmis gæti þurft að úthluta forða til þjónustupantana sem tilheyra tilteknum viðskiptamanni.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afgreiðslustöð** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afgreiðslustöð** og veldu síðan tengda tengilinn.  
 2. Í reitnum **Fylgiskjalsafmörkun** er valin tegund fylgiskjala sem á að skoða.
 3. Ef fá á lista yfir fylgiskjöl sem innihalda verkhluta sem er úthlutað tilteknum forða eða forðaflokki þarf að fylla út reitina **Forðaafmörkun** og **Forðaflokksafmörkun** og styðja á færslulykilinn.  
 4. Ef fá á lista yfir fylgiskjöl með tiltekinni svardagsetningu eða svardagsetningum á tilteknu dagabili þarf að fylla út reitinn **Dags. afmörkun svars** og velja **Færslulykil**.  
@@ -36,10 +36,10 @@ Oft gæti þurft að skoða lista yfir þjónustupantanir eða þjónustutilboð
 6. Ef fá á lista yfir fylgiskjöl sem tilheyra ákveðnum samningi, viðskiptamanni, svæði er reiturinn **Samningsafmörkun/Viðskiptamannaafmörkun/Svæðisafmörkun** fylltur út og stutt á **færslu** lykilinn.  
 7. Velja skal línu sem samsvarar viðkomandi þjónustupöntun eða þjónustutilboði og velja síðan **Sýna skjal** aðgerðina.  
 
-    Gluggarnir **Þjónustupöntun** eða **Þjónustutilboð** opnast og hægt er að vinna í skjalinu. Til að fara aftur í **Afgreiðslustöð** síðuna, skal velja **Í lagi**.
+    Gluggarnir **Þjónustupöntun** eða **Þjónustutilboð** opnast og hægt er að vinna í skjalinu. Til að fara aftur í gluggann **Afgreiðslustöð** skal velja **Í lagi**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Forða úthlutað út frá forða eða forðaflokki til ráðstöfunar    
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afgreiðslustöð** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afgreiðslustöð** og veldu síðan tengda tengilinn.  
 2. Veljið þjónustupöntunina og velja svo aðgerðina **Forðaúthlutun**.  
 3. Velja skal færslu með þjónustuverkinu sem úthluta á forða til.  
 4. Veldu annað hvort **Forði til ráðstöfunar** eða **Forðaflokkur til ráðstöfunar** aðgerðina.  
@@ -59,7 +59,7 @@ Oft gæti þurft að skoða lista yfir þjónustupantanir eða þjónustutilboð
 ## <a name="to-allocate-a-resource-using-a-service-order"></a>Forða úthlutað út frá þjónustupöntun:  
 Þegar þjónustupöntun eða þjónustutilboð hefur verið stofnað og fyllt út er hægt að úthluta forða, til dæmis tæknimönnum, til að framkvæma þjónustuverkhluta sem eru skráðir sem þjónustuvörulínur í skjalinu.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Þjónustupantanir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Veljið þjónustupöntunina og velja svo **Breyta**.  
 3. Smellt er á þjónustuvörulínuna sem samsvarar þjónustuverkhlutanum sem á að úthluta forða.  
 4. Velja **Úthlutun forða**.
@@ -79,7 +79,7 @@ Hægt er að endurúthluta forða beint úr þjónustupöntun eða þjónustutil
 * Hafi þjónusta ekki hafist á meðan úthlutun var **Virk** breytist úthlutunarstaða úr **Þarf að endurúthluta** í **Hætt við**.  
 * Ef endurúthlutað er þjónustupöntun sem breytt var úr tilboði breytir kerfið alltaf stöðu úthlutunarfærslnanna sem skráðar eru fyrir tilboðið í **Lokið** þegar þjónustuvörunum í þjónustupöntuninni er endurúthlutað.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Þjónustupantanir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi þjónustupöntun.  
 3. Smellt er á þjónustuvörulínuna sem samsvarar þjónustuverkhlutanum sem á að úthluta forða.  Velja **Aðgerðir**, velja **Lína** og smella síðan á **Úthlutun forða**.  
 4. Í glugganum **Úthlutun forða** er valin úthlutunarfærslan með þjónustuverkhlutanum sem endurúthluta á forðanum til. Í reitnum **Forðanr.** er viðeigandi forði valinn. Hann kemur í staðinn fyrir forðanúmerið sem þegar er í reitnum.  
@@ -89,7 +89,7 @@ Hægt er að endurúthluta forða beint úr þjónustupöntun eða þjónustutil
 ## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Forða endurúthlutað út frá afgreiðslustöð  
 Ef forðinn sem þjónustuverkhluta er úthlutað getur ekki lokið við verkið verður að endurúthluta þjónustuverkhlutanum forða. Yfirleitt er forða endurúthlutað til þjónustuverkhluta með **Afgreiðslustöð**.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afgreiðslustöð** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afgreiðslustöð** og veldu síðan tengda tengilinn.  
 2. Í reitnum **Úthlutunarafmörkun** skal velja **Þarf að endurúthluta**. Nú sýnir glugginn **Afgreiðslustöð** lista yfir þjónustupantanir sem fela í sér þjónustuverkhluta þar sem þarf að endurúthluta.  
 3. Velja skal viðeigandi þjónustupöntun. Á flipanum **Færsluleit**, í flokknum **Áætlun**, skal velja **Úthlutun forða**. Glugginn **Úthlutun forða** opnast.  
 4. Valin er úthlutunarfærslu þess þjónustuverkhluta sem á að endurúthluta forða.  
@@ -111,7 +111,7 @@ Hægt er að nota sömu aðferð við að skrá stundirnar í glugganum **Þjón
 
 Ef sami forði nýtist til allrar þjónustuvöru í þjónustupöntun má aðeins skrá heildarfjölda forðastunda fyrir eina vöru og síðan er forðalínunni skipt upp til að úthluta annarri þjónustuvöru forðastundum.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuverkhlutar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverk** og veldu síðan tengda hlekkinn.
 2. Valin er línan sem inniheldur viðeigandi þjónustuvöru og síðan skal velja **Þjón.vörublað** aðgerðin.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -120,7 +120,7 @@ Ef sami forði, til dæmis tæknimaður, nýtist til allrar þjónustuvöru í �
 
 Eftirfarandi aðferð sýnir hvernig forðalínum er skipt upp í glugganum **Þjónustureikningslínur**.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Þjónustupantanir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi þjónustupöntun.  
 3. Á flýtiflipanum **Línur** skal velja **Aðgerðir**, velja **Röð** og velja síðan **Þjónustulínur**. Glugginn **Þjónustulínur** opnast.  
 4. Smellt er á forðalínuna sem á að skipta. Efni reitsins **Magn** er deilt milli allrar þjónustuvöru í pöntuninni.  
@@ -131,7 +131,7 @@ Eftirfarandi aðferð sýnir hvernig forðalínum er skipt upp í glugganum **Þ
 ## <a name="to-cancel-an-allocation"></a>Hætt við úthlutanir:  
 Þú getur hætt við forðaúthlutanir fyrir þjónustuverkhluta án þess að endurúthluta verkhlutunum.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afgreiðslustöð** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afgreiðslustöð** og veldu síðan tengda tengilinn.  
 2. Veljið þjónustupöntunina og velja svo aðgerðina **Forðaúthlutun**.  
 3. Valin er úthlutunarfærslan með þjónustuverkhlutanum sem hætta á við úthlutun fyrir.  
 4. Valið er **Hætta við úthlutun** aðgerð.  

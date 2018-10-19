@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 47fbadb76b56d202bc422167d5cefe5b721d0615
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Setja upp grunndagatöl
 Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, birgjum og stöðvum grunndagatali. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu. Þegar nýtt grunndagatal er sett upp felst meginverkefnið í að tilgreina og skilgreina þá frídaga sem eiga að gilda.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Uppsetning grunndagatals  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Grunndagatal** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunndagatal** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Reiturinn **Kóti** er fylltur út.  
 4. Velja skal **Viðhalda breytingum á Grunndagatali** aðgerðina.
@@ -66,7 +66,7 @@ Til dæmis sýnir grunndagatal yfirleitt alla laugardaga sem frídaga, en sérsn
 
 Í eftirfarandi dæmi er stuðst við vinnustöð. Nú þegar er tiltækt uppsett grunndagatal fyrir þessa stöð.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.
 2. Opna birgðageymsluna sem á að uppfæra og velja síðan **Sérsniðið Dagatal** reitinn. Athugið að dagatal verður að vera valið í **grunndagatalskóta** svæðinu.
 3. Í glugganum **Sérsniðnar dagatalsfærslur**.opnast skal velja **Vinna með breytingar á sérsniðnum dagatölum** aðgerðina.
 4. Bæta við línum fyrir sérsniðnar dagatalsfærslur í **Breytingar á sérsniðnar dagatalsfærslur**.
@@ -102,7 +102,7 @@ Grunndagatöl eru tengd fyrirtæki notanda, viðskiptamönnum, lánardrottnum, b
 -   Á spjaldinu **Birgðageymsla** er grunndagatalinu úthlutað á flýtiflipann **Vöruhús**.  
 -   Í glugganum **Flutningsaðilar** er grunndagatalið tengt við gluggann **Flutningsþjónusta**.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamenn** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  
 2.  Opna spjaldið **Viðskiptamaður** sem fær úthlutað grunndagatali.  
 3.  Á flýtiflipanum **Afhending**, í reitnum **Kóti grunndagatals**, er valið er það grunndagatal sem á að úthluta.  
 

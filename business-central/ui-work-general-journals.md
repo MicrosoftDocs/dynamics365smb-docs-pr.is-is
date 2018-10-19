@@ -1,31 +1,39 @@
 ---
 title: "Nota færslubækur til að bóka beint í fjárhag| Microsoft Docs"
 description: "Kynntu þér hvernig skal nota færslubækur til að bóka fjárhagsfærslur í fjárhagsreikninga og aðra reikninga, eins og banka- og lánardrottnareikninga."
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/23/2018
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 090a0141583795757a0d59b358ba4d553100d976
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 892d96dfa5d0fc960150f127ffa779cf6819c5a2
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-general-journals"></a>Vinna í færslubókum
-Flestar fjárhagsfærslur eru bókaðar í fjárhag gegnum sérstök viðskiptaskjöl, eins og innkaupareikninga og sölupantanir. Fyrir fyrirtækjaaðgerðir sem ekki eru táknaðar með fylgiskjölum í [!INCLUDE[d365fin](includes/d365fin_md.md)], eins og smærri útgjöld og inngreiðslur, er hægt að búa til færslur sem tengjast aðgerðunum með því að stofna færslubókarlínu í glugganum **Fjárhagur**. Frekari upplýsingar, sjá [Bóka færslu beint yfir í Fjárhag](finance-how-post-transactions-directly.md).
 
-Þú getur til dæmis bókað greiðslur útgjalda starfsmanna í viðskiptaerindum fyrir endurgreiðslu síðar meir. Nánari upplýsingar eru í [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).
+Flestar fjárhagsfærslur eru bókaðar í fjárhag gegnum sérstök viðskiptaskjöl, eins og innkaupareikninga og sölupantanir. Einnig er hægt að vinna úr viðskiptaaðgerðum, svo sem kaupum, greiðslum eða endurgreiðslum vegna útgjalda starfsmanna með því að bóka færslubókarlínur í ýmsum færslubókum í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+Flestar færslubækur eru byggðar á *Almennri færslubók* og þú getur unnið úr öllum færslum í glugganum **Almenn færslubók**. Frekari upplýsingar, sjá [Bóka færslu beint yfir í Fjárhag](finance-how-post-transactions-directly.md).  
+
+Þú getur til dæmis notað bókun greiðslna útgjalda starfsmanna í viðskiptaerindum fyrir endurgreiðslu síðar meir. Nánari upplýsingar eru í [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).
+
+Í ýmsum tilvikum munt þú vilja nota færslubækurnar sem eru sérsniðar fyrir sérstakar tegundir af færslum, svo sem **Greiðslubók** til að skrá greiðslur. Frekari upplýsingar er að finna í [Skrá greiðslur og endurgreiðslur í greiðslubókina](payables-how-post-payments-refunds.md).  
 
 Nota færslubækur til bóka fjárhagsfærslur beint í fjárhagsreikninga og aðra reikninga, svo sem banka-, viðskiptamanna-, lánardrottna- og starfsmannareikninga. Bókun með almennri færslubók stofnar alltaf færslur á fjárhagsreikningum. Slíkt á við jafnvel í tilvikum þegar færslubókarlína er bókuð á reikning viðskiptamanns, vegna þess að færsla er bókuð í safnreikning færslubókar með bókunarflokki.
+
+[!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
 Upplýsingarnar sem eru færðar inn í færslubók eru til bráðabirgða og það er hægt að breyta þeim í færslubókinni. Þegar færslubókin er bókuð, eru upplýsingarnar færðar í færslur á einstökum reikningum, þar sem ekki er hægt að breyta þeim. Það er samt sem áður hægt að ógilda bókaðar færslur og snúa við bókunum eða leiðrétta bókanir. Frekari upplýsingar eru í [Bakfæra bókanir](finance-how-reverse-journal-posting.md).
 
 ## <a name="using-journal-templates-and-batches"></a>Nota sniðmát færslubóka og keyrslur
+
 Til eru nokkur færslubókarsniðmát. Hvert sniðmát færslubókar er með sérstakan glugga með ákveðnum aðgerðum og reitum sem verða að styðja aðgerðirnar, eins og **greiðsluafstemmingarbók** glugginn til að vinna bankagreiðslur og **greiðslubók** glugginn til að borga lánardrottnum þínum eða endurgreiða starfsmönnum. Frekari upplýsingar, sjá [Framkvæma greiðslur](payables-make-payments.md) og [Afstemma greiðslur viðskiptamanns handvirkt](receivables-how-apply-sales-transactions-manually.md).
 
 Fyrir hvert sniðmát færslubókar, geturðu sett upp þína eigin færslbók sem bókarkeyrsla. Til dæmis er hægt að skilgreina eigin færslubókarkeyrslu fyrir greiðslubók sem er með þitt persónulega útlit og stillingar. Eftirfarandi ábending er dæmi um hvernig skal sérsníða færslubók.
@@ -34,7 +42,7 @@ Fyrir hvert sniðmát færslubókar, geturðu sett upp þína eigin færslbók s
 > Ef valið er **Leggja til afstemmingarupphæð** gátreitinn á línunni fyrir keyrsla í á **færslubókakeyrslur** glugganum, þá er **Upphæð** reiturinní, t.d. færslubókarlínur fyrir sama skjalnúmer sjálfkrafa forfyllt út með sama gildi sem þarf til að stemma fylgiskjal. Nánari upplýsingar er að finna í [Leyfa [!INCLUDE[d365fin](includes/d365fin_md.md)] að stinga upp á gildum](ui-let-system-suggest-values.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Að skilja aðalreikninga og mótreikninga
-Ef stofnaðir voru sjálfgefnir mótreikningar fyrir bókakeyrslur á síðunni **Færslubækur**, eru mótreikningarnir fylltir út sjálfkrafa þegar fyllt er í reitinn **Reikningur nr** Að öðrum kosti er fyllt í reitinn **Reikningur nr.** og reitinn **Mótreikningur nr.** handvirkt. Jákvæð upphæð í reitnum **Upphæð** er tekin út af aðalreikningnum og lögð inn á mótreikninginn. Neikvæð upphæð er lögð inn á aðalreikninginn og tekin út af mótreikningnum.
+Ef stofnaðir voru sjálfgefnir mótreikningar fyrir bókakeyrslur í glugganum **Færslubækur**, eru mótreikningarnir fylltir út sjálfkrafa þegar fyllt er í reitinn **Reikningur nr**. Að öðrum kosti er fyllt í reitinn **Reikningur nr.** og reitinn **Mótreikningur nr.** handvirkt. Jákvæð upphæð í reitnum **Upphæð** er tekin út af aðalreikningnum og lögð inn á mótreikninginn. Neikvæð upphæð er lögð inn á aðalreikninginn og tekin út af mótreikningnum.
 
 > [!NOTE]  
 >   VSK er reiknaður út á aðskilin hátt fyrir aðalreikninginn og mótreikninginn, þannig að þar er hægt að nota mismunandi VSK prósentuhlutfall.
@@ -85,9 +93,8 @@ Eins og í ítrekunarbók þarf aðeins að færa úthlutun inn einu sinni. Úth
 
 Ef reiturinn ítrekunarmáti í ítrekunarbók er stilltur á **Staða** eða **Bakfærð staða** er ekki hirt um víddargildiskóða í ítrekunarbók þar sem reikningur stendur á núlli. Þannig verður aðeins ein bakfærsla stofnuð ef mismunandi víddargildum er úthlutað ítrekunarlínu í glugganum **Úthlutanir**. Því má ekki færa inn sama kóða í glugganum **Úthlutanir** ef ítrekunarbókarlínu með víddargildiskóða er úthlutað. Ef það er gert verða víddargildin röng.
 
-####<a name="example-allocating-rent-payments-to-different-departments"></a>Dæmi: Úthlutun á leigugreiðslum til mismunandi deilda
+#### <a name="example-allocating-rent-payments-to-different-departments"></a>Dæmi: Úthlutun á leigugreiðslum til mismunandi deilda
 Leiga er greidd í hverjum mánuði þannig að leiguupphæð hefur verið færð inn á sjóðsreikning í ítrekunarbókarlínu. Í glugganum **Úthlutanir** er hægt að skipta kostnaðinum á milli deilda (deildarvídd) í samræmi við fermetrafjölda sem hver og ein hefur til umráða. Útreikningurinn byggist á úthlutunarprósentu fyrir hverja línu. Færa má nokkra reikninga í mismunandi úthlutunarlínum (ef leigunni er jafnframt skipt niður á nokkra reikninga), eða færa á sama reikning, með mismunandi víddargildiskóðum fyrir víddina Deild í hverri línu.
-
 
 ## <a name="working-with-standard-journals"></a>Vinna með Staðlaðar færslubækur
 Þegar bókarlínur sem líklegt er að verði stofnaðar aftur hafa verið stofnaðar er hægt að vista þær sem staðlaða færslubók áður en bókin er bókuð. Þessi virkni gildir um birgðabækur og almennar færslubækur.
@@ -96,7 +103,7 @@ Leiga er greidd í hverjum mánuði þannig að leiguupphæð hefur verið fær�
 >   Eftirfarandi ferli vísar í birgðabókina en upplýsingarnar á einnig við um almennu færslubókina.
 
 ### <a name="to-save-a-standard-journal"></a>Að vista sem staðlaða færslubók
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðafærslubækur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðabækur** og veldu síðan tengda tengilinn.
 2. Kóti er færður inn í eina eða fleiri færslubókarlínur.
 3. Velja skal bókarlínurnar sem á að nota aftur.
 4. Velja skal **Vista sem staðlaða færslubók** aðgerðina.
@@ -111,7 +118,7 @@ Leiga er greidd í hverjum mánuði þannig að leiguupphæð hefur verið fær�
 Þegar lokið hefur verið við að vista staðlaða birgðabókina opnast glugginn Birgðabók þannig að hægt er að halda áfram og bóka hana, vitandi það að auðvelt er að stofna hana aftur næst þegar bóka þarf sömu eða svipaðar línur.
 
 ### <a name="to-reuse-a-standard-journal"></a>Að endurnýta staðlaða færslubók
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðafærslubækur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðabækur** og veldu síðan tengda tengilinn.
 2. Valin er **Ná í staðlaðar færslubækur** aðgerðin.
 
     Glugginn Staðlaðar birgðabækur opnast með kótum og lýsingum á öllum stöðluðum birgðabókum sem til eru.
@@ -130,7 +137,7 @@ Leiga er greidd í hverjum mánuði þannig að leiguupphæð hefur verið fær�
     Ef birgðabókarlínurnar sem settar eru inn innihalda vistaðar einingaupphæðir sem ekki á að bóka er fljótlegt að breyta þeim í gildandi virði vörunnar eins og hér er lýst.
 
 6. Velja skal birgðabókarlínur sem á að leiðrétta, og svo velja **Endurreikna einingaupphæð** aðgerðina. Það uppfærir reitinn Ein.upphæð með gildandi kostnaðarverði vörunnar.
-7. Valið er **bóka** aðgerð.
+7. Valið er **Bóka** aðgerðin.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>Endurraða númerum fylgiskjals í færslubókum
 Til að ganga úr skugga um að þú fáir ekki bókunarvillur vegna fylgiskjalsnúmers pöntunar, geturðu notað aðgerðina **Endurraða númerum fylgiskjals** áður en þú bókar færslubókina.
@@ -145,7 +152,7 @@ Sér hver endurnúmerun skjalanúmera mun taka tillit til tengdra jafnana, s.s. 
 
 Eftirfarandi ferli byggist á glugganum **Færslubók**, en á við um allar aðrar bækur sem eru byggðar á færslubókum, eins og glugganum **Greiðslubók**.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **færslubók** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Færslubækur** og veldu síðan tengda tengilinn.
 2. Þegar þú ert tilbúinn að bóka færslubókina, skal velja **Endurraða númerum skjals** aðgerðina.
 
 Gildi í **Skjal nr.** reitnum breytast þar sem þörf er á, þannig að númer fylgiskjala á stakri eða nokkrum færslubókarlínum eru í réttri röð. Hægt er að birta færslubókin eftir endurnúmerun skjala.

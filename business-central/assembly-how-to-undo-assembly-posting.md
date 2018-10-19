@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2a4fbc87be6f6c78feabe04ca0461ee1725c16e0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4b9fa6fb99ec68982a2869be2085de0588d76c85
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="undo-assembly-posting"></a>Afturkalla samsetningarbókun
@@ -42,7 +42,7 @@ Auk þess er aðeins hægt að endurheimta samsetningarpantanir ef línunúmer o
 Eftirfarandi ferli lýsir því hvernig eigi afturkalla bókaðar samsetningarpantanir þar sem vörurnar voru settar saman í birgðir. Eigi að afturkalla bókaðar samsetningarpantanir þar sem vörur voru settar saman í sölupöntun þarf að nota aðgerðina **Afturkalla afhendingu** í bókuðu afhendingunni sem tengist bókuðu samsetningarpöntuninni. Frekari upplýsingar eru í [Bakfæra bókanir](finance-how-reverse-journal-posting.md). Afturköllun bókaðrar samsetningarpöntunar gerist síðan sjálfkrafa eins og lýst er í þessu efnisatriði.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Til að afturkalla bókun samsetningarpöntunar  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Bókaðar samsetningarpantanir** og velja svo viðeigandi tengil.  
+1.  Til að afturkalla bókaða samsetningarpöntun eða pöntun sem hefur verið bókuð að hluta, Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar samsetningarpantanir** og veldu síðan tengda tengilinn.  
 
     Glugginn **Bókaðar samsetningarpantanir** opnast og birtir eina eða fleiri bókaðar samsetningarpantanir sem eru bókaðar úr viðkomandi samsetningarpöntun. Hverja hlutabókun stofnar aðskilda bókaða samsetningarpöntun.  
 2.  Opna bókaða samsetningarpöntun sem á að afturkalla, og velja síðan aðgerðina **Afturkalla samsetningu**.  

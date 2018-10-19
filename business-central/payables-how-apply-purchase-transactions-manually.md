@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 06/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f6b0ab4131f26a91953b28991276d3a19a8918ad
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f7e67357a0ba5e4a57a98d74831b2b3a392cff7d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-vendor-payments-manually"></a>Afstemma greiðslur lánardrottna handvirkt
@@ -39,7 +39,7 @@ Hægt er að jafna greiðslur á lánardrottna handvirkt á tengd innkaupaskjöl
 Einnig má jafna greiðslur á lánardrottna og greiðslur viðskiptamanns, eftir að greiðslur birtast sem neikvæðar bankafærslur í þínum banka. Í **greiðsluafstemmingarbók** glugganum geturðu notað virkni fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Greiðsla jöfnuð við eina eða margar lánardrottnabókarfærslur
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greiðslubók** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslubók** og veldu síðan tengda tengilinn.
 2. Í **greiðslubókargluggi** í fyrstu færslubókarlína eru ritaðar viðeigandi upplýsingar um greiðslufærsluna.
 3. Til að jafna eina lánardrottnafærslur :
    1. Í reitnum **Jafna við skjal nr.** er valinn reiturinn til að opna **Jafna lánardr.færslur** gluggann.
@@ -57,7 +57,7 @@ Einnig má jafna greiðslur á lánardrottna og greiðslur viðskiptamanns, efti
 6. Velja **bóka** aðgerðina til að bóka greiðslubókina.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Kreditreikningur jöfnuð við eina eða margar lánardrottnabókarfærslur
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupakreditreikningur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innkaupakreditreikningur** og veldu síðan tengda tengilinn.
 2. Opna kreditreikningur sem á að nota.
 3. Viðeigandi upplýsingar eru ritaðar í hausinn.
 4. Til að jafna einstaka lánardrottnafærslu, á **Jöfnun** flýtiflipanum, í reitnum **Jafna við skjal nr.** skal velja færslan sem jafna á kreditreikning við og síðan í reitnum **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við færsluna.
@@ -74,7 +74,7 @@ Einnig má jafna greiðslur á lánardrottna og greiðslur viðskiptamanns, efti
 7. Velja **bóka** hnappur til að bóka innkaupakreditreikningur.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Bókaðar lánardrottnafærslur jafnaðar:
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **lánardrottnar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.
 2. Viðeigandi lánardrottinn með færslum sem hafa þegar verið bókaðar er opnaður.
 3. Valið er **fjárhagsfærslur** aðgerina, og veldu síðan **Jafna Færslur** aðgerð.
 4. Í glugganum **jafna lánardrottinsfærslur** má sjá opnar færslur fyrir lánardrottininn.
@@ -95,7 +95,7 @@ Ef þú kaupir af lánardrottinn í einum gjaldmiðli og greiðir í öðrum er 
 
 Ef færsla (Færsla 1) í einum gjaldmiðli er jöfnuð við færslu (Færsla 2) í öðrum gjaldmiðli notar forritið bókunardagsetninguna í Færslu 1 til að finna viðeigandi gengi til að breyta upphæðunum í Færslu 2. viðeigandi gengi er að finna í glugganum  **Gengi gjaldmiðla**. Ef svo er, verður þú að virkja jöfnun lánardrottnafjárhagsfærslna í mismunandi gjaldmiðlum Frekari upplýsingar eru í [Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greiðslubók** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslubók** og veldu síðan tengda tengilinn.
 2. Opna færslubókina sem óskað er eftir og fylla inn í fyrstu auðu bókarlínuna með gjaldmiðilskóta.
 3. Valið er **Jafna Færslur** aðgerð.
 4. Vveldu línuna með færslunni sem á að jafna við færsluna í útgreiðslubókinni. veldu **Setja kenni jöfnunar** aðgerðina, og síðan valin færslan sem á að nota til að jafna.
@@ -108,7 +108,7 @@ Ef færsla (Færsla 1) í einum gjaldmiðli er jöfnuð við færslu (Færsla 2)
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>Til að afjafna jöfnun á færslum lánardrottins
 Þegar röng jöfnun er ógilt eru leiðréttingarfærslur sem eru sambærilegar upphaflegu færslunni en með andstæðu formerki í reit upphæðar stofnaðar og bókaðar á öllum færslum með öllum almennum fjárhagsbókunum sem runnar eru frá jöfnuninni, svo sem greiðsluafslætti og gjaldmiðilshagnaði/-tapi. Færslurnar sem forritið lokaði eru enduropnaðar.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **lánardrottnar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.
 2. Viðeigandi lánardrottnaspjald er opnað.
 3. Valið er **fjárhagsfærslur** aðgerð.
 4. Valin er viðeigandi fjárhagsfærsla og veldu svo **Ógilda færslujöfnun** aðgerðina.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2419755f5788eb7cb8ed464ac97fccd7e63e795c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e167935f1bb4815093a1a9bd345da8213219ca08
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Uppsetning framleiðslu
@@ -30,7 +30,7 @@ Til að geta umbreytt efni í tilbúna vöru þarf framleiðsluforði, líkt og 
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Grunnstilla framleiðslumöguleikana, til dæmis ákvarða vinnustundir í vinnusal og velja áætlunarreglur.|**Framleiðslugrunnur** síðan.|  
+|Grunnstilla framleiðslumöguleikana, til dæmis ákvarða vinnustundir í vinnusal og velja áætlunarreglur.|**Framleiðsluuppsetning** gluggi.|  
 |Skilgreina staðlaða vinnuviku í framleiðsludeildinni út frá upphafi og enda hvers vinnudags og tengdrar vaktar.|[Stofna dagatal verkstæðis](production-how-to-create-work-center-calendars.md)|  
 |Skipuleggja föst gildi og skilyrði framleiðsluforða í vinnu- eða vélastöðvum til að stýra frálagi framleiðslu sem fram fer í þeim.|[Setja upp vinnu- og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md)|
 |Raða framleiðsluaðgerðir í þá röð sem krafist er og úthluta þeim til vinnu- og vélastöðva með þeim fjölda vinnustunda sem telst nauðsynlegur.|[Stofna leiðir](production-how-to-create-routings.md)|

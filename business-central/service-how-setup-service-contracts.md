@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 954438a19ed4b7aadc707cbb5e646f1752aa37a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -29,19 +29,19 @@ ms.lasthandoff: 03/22/2018
 * **Sniðmát viðskiptamanna** sem leyfir þér að búa til tilboð fyrir tengiliði eða hugsanlega viðskiptamenn sem er ekki skráðir sem viðskiptamenn í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Uppsetning þjónustusamningsflokka  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustusamningsflokkar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **flokkar þjónustusamnings** og veldu síðan tengda hlekkinn.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Velja gátreitinn **Afsl. aðeins af samn. pöntunum** svo samnings- eða þjónustuafsláttur gildi aðeins um samningsþjónustupantanir, svo sem viðhald.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Uppsetning reikningsflokkaþjónustusamninga  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Reikningsflokkar þjónustusamninga** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **reikningsflokkar þjónustusamnings** og veldu síðan tengda tengilinn.  
 2. Nýr reikningsflokkur þjónustusamninga er stofnaður.   
 3. Fyllt er í reitina **Kóti** og **Lýsing**. Í þessum reitum er lýsing á þjónustureikningsflokknum.  
 4. Reiturinn **Reikn. Eftirágreiddra samninga** er fylltur út, velja skal númer fjárhagsreikningsins fyrir reikninginn sem er ekki fyrirframgreiddur.  
 5. Í reiturinn **Reikn. Fyrirframgreiddra samninga** skal velja númer fjárhagsreikningsins fyrir reikninginn sem er fyrirframgreiddur.  
 
 ## <a name="to-set-up-a-contract-template"></a>Uppsetning samningssniðmáts  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustusamningssniðmát** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmat þjónustusamninga** og veldu síðan tengda hlekkinn.  
 2. Nýtt þjónustusamningssniðmát er stofnað.  
 3. Í reitnum **númer** er fært inn númer fyrir samningur sniðmát.  
   
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/22/2018
 5. Velja aðgerðina **Þjónustuafsláttur** til að bæta við samningsafslætti.  
 
 ## <a name="to-set-up-a-customer-template"></a>Uppsetning sniðmáts viðskiptamanns  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **viðskiptamaður sniðmát** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **viðskiptamannasniðmát** og veldu síðan tengda tengilinn.  
 2. Nýtt  sniðmátsspjald viðskiptamannser stofnað.  
 3. Á flýtiflipanum **Almennt** er ritaður kóti og lýsing fyrir sniðmát viðskiptamanns í reitina **Kóti** og **Lýsing**. 
 4. Aðrir reitir, til dæmis **Landssvæðis kóði**, **Umsjónarsvæðiskóði** og **Kóði tungumáls**, eru notaðir sem leitarskilyrði og þá má fylla út.  

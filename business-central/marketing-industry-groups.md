@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d2e331536de615b5a3ad84db526f86c79e56774c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f1927938bc7e882902d8f609242c529e0ba29cd1
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-industry-groups-for-contact-companies"></a>Setja upp Starfsgreinahópar á tengiliðafyrirtæki.
@@ -30,7 +30,7 @@ Notkun starfsgreinahópa á tengiliði er tveggja þrepa ferli. Fyrst skilgreina
 ## <a name="to-define-an-industry-group-code"></a>Til að skilgreina kóða starfsgreinarhóps
 Kóði starfsgreinarhópsins skilgreinir tegund eða flokk hópsins, til dæmis ADVERT fyrir auglýsingar eða Press fyrir sjónvarp og útvarp. Hægt er að hafa nokkrar starfsgreinarhópakóða. Til að skilgreina starfsgreinarhópar er að nota gluggann **starfsgreinarhópar** .
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **starfsgreinahópur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsgreinahópar** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð og fyllt er inn kóði og lýsing. Kóðinn má vera mest 11 stafir, og getur verið hvaða samasetning sem er af tölustafir og bókstafir.
 
 ## <a name="AssignIndustryGroupContact"></a> Starfsgreinahópum úthlutað á tengilið

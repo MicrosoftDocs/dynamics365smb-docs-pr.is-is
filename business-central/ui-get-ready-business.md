@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 02/19/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 5508b9336b0e6bffcc47632b95eac3691ab3891c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ddffef784a80227ea28b193779b4aead7c3b691a
 ms.contentlocale: is-is
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Undirbúðu þig fyrir að gera viðskipti
@@ -26,11 +26,11 @@ Til þess að hjálpa þér við að verða tilbúinn til að gera viðskipti ge
 Í mínu hlutverki, efst í yfirlitsstikunni, er að finna valmyndina **Uppsetning og viðbætur**. Hér má sjá lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa. Þegar þú hefur yfirfært gögn eins og lánardrottinn, viðskiptamenn, og vörur úr núverandi fjármálakerfi þínu, ertu tilbúinn að byrja. Einnig er gott að íhuga hvort þörf sé á að nota frekari hjálp við uppsetningu. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetning gluggum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Mikilvægar** upplifanir gerir. Í fyrsta skipti sem þú skráir þig inn, notarðu Grunnatriði upplifunina. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
+>   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Úrvals** upplifun gerir. Í fyrsta sinn sem þú skráir þig inn notarðu grunnupplifunina. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
-Í glugganum **Uppsetning með hjálp**, er að finna eftirfarandi með **Grunnatriði** upplifun:
+Í glugganum **Uppsetning með hjálp** er að finna eftirfarandi með **Mikilvægum** upplifunum:
 
-| Uppsetning með hjálp | Lýsing |
+| Uppsetning með hjálp | Description |
 | --- | --- |
 | Setja upp fyrirtæki notanda |Býr til nýja prufuútgáfu af fyrirtæki fyrir þig til að færa gögn inn í og prufa [!INCLUDE[d365fin](includes/d365fin_md.md)] okkar. Hafir þú lokið að fara í gegnum sýnikennsluna Hafist handa er þessu sennilega þegar **Lokið**. |
 | Flytja viðskiptagögn |Gerir þér kleift að flytja fyrirliggjandi gögn fyrirtækisins, svo sem lánardrottna, viðskiptamenn og vörur úr Excel eða Quickbooks. |
@@ -60,7 +60,7 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð O
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] muntu finna ábendingar sem hjálpa þér við að komast í gegnum hina ýmsu viðskiptaferli. Í hverri ábendingu finnurðu tengil sem heitir **Fá hjálp** sem fer með þig í hjálp fyrir afurðina. Spurningamerki uppi hægra megin í horninu bendir þér einnig á hjálp fyrir vöruna.
 
 ## <a name="next-steps"></a>Næstu þrep
-Á grundvelli yfirfærðra gagna, geturðu nú farið í að stofna nýjar sölur eða innkaupaskjöl. Nota hlutann **Mitt fyrirtæki** á þinni **heimasíðu** til að stofna á fljótlegan hátt nýjar sölutilboð, sölureikningur, sölupöntun, innkaupareikningur eða skráning greiðslna.
+Á grundvelli yfirfærðra gagna, geturðu nú farið í að stofna nýjar sölur eða innkaupaskjöl. Nota hlutann **Mitt fyrirtæki** í glugganum **Heima** til að stofna á fljótlegan hátt nýjar sölutilboð, sölureikningur, sölupöntun, innkaupareikningur eða skráning greiðslna.
 
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa](product-get-started.md)  

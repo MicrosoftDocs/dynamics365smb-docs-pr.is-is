@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
 ms.contentlocale: is-is
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Vinna með vistaðar stillingar á skýrslum
@@ -35,12 +35,12 @@ Ef rétta heimildir, hægt er að skoða, stofna og breyta vistuð stillingar fy
 
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Stofna og breyta vistuðum stillingum fyrir alla notendur
 Vistuðum stillingum er stjórna af síðu **1560 Stillingar skýrsla**. Tvær aðferðir til að opna þessa síða:
--   Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skýrslustillingar** og velja svo viðeigandi tengil.
+-   Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skýrslustillingar** og veldu síðan tengda tengilinn.
 -   Opnaðu skýrslu, veldu uppflettinguna við hliðina á **Notuð sjálfgildi frá:** reitinn, veldu **Velja af öllum listanum**.
 
 Síðan birtir allar fyrirliggjandi vistunarstillingafærslur fyrir alla notendur. Ef notandanafn er í **Úthlutað til** dálknum getur aðeins sá notandi notað vistuðu stillingarnar fyrir tengda skýrslu. Ef gátmerki er í **Deila með öllum notendum** dálknum geta allir notendur notað vistuðu stillingarnar fyrir skýrslu.
 
-Á síðunni **Skýrslustillingar** er hægt að:
+Í gluggi **Skýrslustillingar** er hægt að:
 -   Veljið **Nýtt** til að stofna nýja færslu fyrir vistaðar stillingar frá grunni.
 -   Veljið færslu fyrir vistaðar stillingar af listanum og veljið **Afrita** til að búa til afrit.
 -   Veljið færslu fyrir vistaðar stillingar af listanum og veljið **Breyta** til að breyta færslu fyrir vistaðar stillingar.

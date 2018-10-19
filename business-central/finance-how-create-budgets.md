@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dd3be77519075b67a942402bd01d5a2a562a1c32
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f1311d566a8166a8a8720bb09789f42c65a1b6e7
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-gl-budgets"></a>Stofna fjárhagsáætlunum
@@ -31,7 +31,7 @@ Hægt er að útbúa margar áætlanir fyrir sömu tímabil með því að stofn
 Í kostnaðarbókhaldi vinnurðu með kostnaðaráætlun á svipaðan hátt. Frekari upplýsingar eru í [Stofna kostnaðaráætlun](finance-create-cost-budgets.md).    
 
 ## <a name="to-create-a-new-gl-budget"></a>Að búa til nýja fjárhagsáætlun  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fjárhagsáætlanir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsáætlun** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Breyta lista** og fyllið svo út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Velja skal aðgerðina **Breyta fjárhagsáætlun**.
 4. Efst í glugganum **Fjárhagsáætlun** skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.  

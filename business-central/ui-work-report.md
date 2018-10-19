@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 07/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ceccc02c841044803337ac53f378451d8f315484
 ms.contentlocale: is-is
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-reports"></a>Unnið með Skýrslur
-Skýrsla safnar saman upplýsingum byggðum á sérstöku viðmiðssafni, og flokkar og birtir upplýsingarnar á sniði sem hægt er að prenta og er auðvelt að lesa. Til eru margar skýrslur sem má finna víðsvegar í forritinu. Skýrslurnar veita alla jafna upplýsingar sem tengjast samhengi síðunnar sem þú ert á. Til dæmis, síðan **Viðskiptamaður** inniheldur skýrslur fyrir efstu 10 viðskiptamennina og söluupplýsingar og fleira.
+Skýrsla safnar saman upplýsingum byggðum á sérstöku viðmiðssafni, og flokkar og birtir upplýsingarnar á sniði sem hægt er að prenta og er auðvelt að lesa. Til eru margar skýrslur sem má finna víðsvegar í forritinu. Skýrslurnar veita alla jafna upplýsingar sem tengjast samhengi síðunnar sem þú ert á. Til dæmis, gluggi **Viðskiptamaður** inniheldur skýrslur fyrir efstu 10 viðskiptamennina og söluupplýsingar og fleira.
 
-Þú getur fundið skýrslurnar á flipanum **Skýrslur** á völdum síðum, eða þú getur notað ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") til að finna skýrslum eftir nafni.
+Þú getur fundið skýrslurnar á flipanum **Skýrslur** á völdum síðum, eða þú getur notað ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") til að finna skýrslur eftir heiti.
 
 
 ## <a name="specifying-the-data-to-include-in-the-report"></a>Tilgreina gögnin sem eiga að vera í skýrslunni

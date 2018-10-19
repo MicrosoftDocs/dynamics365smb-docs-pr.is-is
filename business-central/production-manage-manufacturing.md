@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c97cdafceb5fbf8df403309dddda0faeac7a26b6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b1712215a392d8abdb0ca549c621d77490e6341c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manufacturing"></a>Framleiðsla
+> [!NOTE]
+> Virkni sem lýst er í þessu efni og undirviðfangsefni er aðeins sýnilegt í notendaviðmótinu ef þú hefur **Úrvals** upplifun. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
+
 Þegar eftirspurn hefur verið áætluð og efnið sent út samkvæmt framleiðsluuppskriftum, geta raunverulegar framleiðsluaðgerðir hafist og verið framkvæmdar í þeirri röð sem skilgreind er af framleiðslupöntunarleiðinni.  
 
 Mikilvægur hluti af framleiðslunni, hvað kerfið varðar, er að bóka frálag framleiðslu í gagnagrunninn til að sýna framvindu áætlunarinnar og uppfæra birgðir með fullbúnum vörum. Hægt er að bóka frálag á handvirkan hátt með því að fylla út og bóka færslulínur eftir framleiðsluaðgerðir. Einnig er hægt að bóka á sjálfvirkan hátt með því að nota afturvirka birgðaskráningu. Í slíkum tilvikum er efnisnotkun bókuð sjálfkrafa ásamt frálagi þegar lokið er við framleiðslupöntunina.  
@@ -51,5 +54,4 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

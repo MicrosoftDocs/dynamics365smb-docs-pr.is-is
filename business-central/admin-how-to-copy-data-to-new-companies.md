@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4598d059d40e231de0230b43fe7863759005db70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Afrita gögn yfir í ný fyrirtæki
@@ -24,7 +24,7 @@ Hægt er að afrita títt notuð gildi úr fyrirliggjandi fyrirtæki í nýtt, s
 
 ## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Til að afrita gögn yfir í nýtt fyrirtæki með RapidStart Services  
 1. Opna skal nýja fyrirtækið.  
-2. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarvinnublað** og velja svo viðeigandi tengil.  
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
 3. Valið er **Afrita gögn úr fyrirtæki**.  
 4. Í glugganum **Afrita gögn fyrirtækis** skal velja fyrirtæki til að afrita úr í reitnum **Afrita úr** og síðan skal velja hnappinn **Í lagi**.  
 5. Veljið töflu úr einum af grunnstillingarpökkunum sem voru fluttir inn og því næst skal velja aðgerðina **Afrita gögn**.

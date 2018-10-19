@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 04/26/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 68a35c3bbedd0d0f09a9e43269260e98dfa02a59
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 456b7bcad13972943ad130f505b29a926ccaf221
 ms.contentlocale: is-is
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-payments-to-a-bank-file"></a>Flytja út greiðslur í bankaskrá
@@ -28,9 +28,9 @@ ms.lasthandoff: 04/26/2018
 Glugginn **Skráningar kreditmillifærslna** er notaður til að skoða greiðsluskrár sem hafa verið fluttar út úr greiðslubókinni. Í þessum glugga er einnig hægt að endurflytja út greiðsluskrár ef um er að ræða tæknilegar villur eða breytingar á skrá. Þó er bent á að ekki eru sýndir í þessum glugga útflutt EFT skrár og þær geta ekki verið aftur útflutt.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Til að flytja út greiðslur í bankaskrá
-Eftirfarandi dæmi sýnir hvernig á að greiða lánardrottni með ávísun. Skrefin eru svipuð og endurgreiðsla til viðskiptavinar með ávísun.
+Eftirfarandi dæmi sýnir hvernig á að greiða lánardrottni með ávísun. Skrefin eru svipuð og endurgreiðsla til viðskiptamanns með ávísun.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **greiðslubækur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslubók** og veldu síðan tengda tengilinn.
 2. Fyllið út greiðslubókarlínurnar. Nánari upplýsingar eru í [Skrá greiðslur og endurgreiðslur](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
@@ -72,7 +72,7 @@ Hægt er að endurútflytja greiðsluskrár úr glugganum **Skráningar kreditmi
 > [!NOTE]  
 >   Útfluttar EFT skrár ekki eru sýndir í glugga **Kreditfærsluskrár** og getur ekki verið aftur útfluttar.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Kreditfærsluskrár** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skráningar kreditmillifærslna** og veldu síðan tengda tengilinn.
 2. Veldu greiðsluútflutning sem þú vilt endurútflytja og notaðu svo aðgerðina **Endurútflytja greiðslu í skrá**.
 
 ## <a name="see-also"></a>Sjá einnig

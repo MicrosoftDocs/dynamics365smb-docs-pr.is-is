@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 07/05/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8292864e7b25b0e5f0fb1f6668fb8622efb031e2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d6df6884ef5cf8fce96ec1f5bc5ca91bdbd3ede7
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Afstemma birgðakostnað í fjárhag
@@ -26,7 +26,7 @@ Sjálfvirk kostnaðarbókun er skilgreind í reitnum **Sjálfvirk kostnaðarbók
 Þó svo birgðakostnaður sé bókaður sjálfkrafa í fjárhag þarf samt að tryggja að kostnaður vara sé framsendur á viðeigandi sölufærslur á útleið, sérstaklega þar sem vörur eru seldar áður en reikningur er gefinn út fyrir kaupunum. Í kerfinu er þetta kallað kostnaðarleiðrétting. Vörukostnaður er sjálfkrafa leiðréttur þegar vörufærslur eru bókaðar en einnig er hægt að leiðrétta vörukostnað handvirkt. Nánari upplýsingar eru í [Leiðrétta kostnað](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Handvirk bókun birgðakostnaðar
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Bóka birgðakostnað í fjárhag** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bóka birgðakostnað í fjárhag** og veldu síðan tengda tengilinn.
 2. Birgðakostnaður er bókaður handvirkt í fjárhaginn með því að keyra runuvinnsluna. Þegar þessi keyrsla er keyrð eru fjárhagsfærslur stofnaðar á grundvelli virðisfærslna. Hægt er að bóka færslurnar þannig að þær eru teknar saman eftir bókunarhóp.
 
 > [!NOTE]  

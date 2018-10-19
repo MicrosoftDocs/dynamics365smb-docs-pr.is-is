@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 06/18/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
-ms.openlocfilehash: 0af456e420c9b485e242c15e660367a348c75536
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2865d938c9bde4a64898e48d0381ed73b8c94d6e
 ms.contentlocale: is-is
-ms.lasthandoff: 06/20/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-bin-types"></a>Setja upp hólfategundir
@@ -25,7 +25,7 @@ Hægt er að beina vöruflæðinu gegnum hólf sem skilgreind hafa verið fyrir 
 Til eru sex tegundir. Hægt er að reka vöruhúsið með öllum sex hólfategundunum sem mögulegar eru, eða nota aðeins hólfategundirnar RECEIVE, PUTPICK, SHIP og QC. Þessar fjórar hólfategundir gera kleift að gera tillögur um vöruflæði og gera notandanum kleift að skrá misræmi í birgðum.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Hólfategundir sem á að nota settar upp  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Hólfategundir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **gerðir hólfa** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Hólfategundir** er 10 stafa kóti fyrir hólfategund stofnaður.  
 3.  Veljið aðgerðir sem hægt er að framkvæma með hverri tegund hólfa.  
 

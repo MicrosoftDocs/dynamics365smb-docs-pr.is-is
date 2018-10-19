@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ed03191f683b1b1f9f60351712d51b97ad53e98e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 16098723fed40fbe26b9ba238e7fe5bf339003f5
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Uppsetning vátryggingar eignar.
@@ -25,32 +25,32 @@ Til að stjórna vátryggingasviði eigna, þarf fyrst að setja upp nokkrar alm
 ## <a name="to-set-up-general-insurance-information"></a>Uppsetning almennra vátryggingaupplýsinga
 Til að nota tryggingaraðgerðirnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú að setja upp almennar tryggingarupplýsingar.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning eigna** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning eigna** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-insurance-types"></a>Uppsetning vátryggingategunda
 Hægt er að flokka vátryggingar, til dæmis í tryggingar vegna þjófnaðar eða brunatryggingu. Vátryggingategundirnar eru notaðar á vátryggingaspjaldinu.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vátryggingagerðir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vátryggingategundir** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
 
 ## <a name="to-set-up-insurance-cards"></a>Uppsetning vátryggingaspjalda
 Hægt er að safna saman upplýsingum um hverja vátryggingu á vátryggingaspjaldinu.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vátrygging** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vátrygging** og veldu síðan tengda tengilinn.  
 2. Í glugganum **Vátrygging** skal velja aðgerðina **Nýtt** til að stofna nýtt vátryggingarspjald.  
 3. Fyllið inn í svæðin eftir þörfum.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Uppsetning vátryggingabókasniðmáta
 [!INCLUDE[d365fin](includes/d365fin_md.md)] skapar sjálfkrafa vátryggingarsniðmát í fyrsta skipti sem þú opnar gluggann **Vátryggingabók**, en þú getur sett upp viðbótarsniðmát færslubókar. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sniðmát vátryggingabóka** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát vátryggingabóka** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
 
 ## <a name="to-set-up-insurance-journal-batches"></a>Uppsetning vátryggingabókakeyrslna
 Hægt er að setja upp keyrslur í sniðmáti vátryggingabókar. Gildin í keyrslunni eru notuð sem sjálfgildi ef reitirnir í færslubókarlínunum hafa ekki verið fylltir út. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sniðmát vátryggingabóka** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát vátryggingabóka** og veldu síðan tengda tengilinn.  
 2. Valin er sniðmát vátryggingabókar og veldu svo **keyrslur** aðgerðina.
 3. Í glugganum **vátryggingarbókarkeyrslur** þarf að fylla reitina út eftir þörfum.
 

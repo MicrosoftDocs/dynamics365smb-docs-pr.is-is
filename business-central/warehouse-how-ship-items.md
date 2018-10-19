@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 54f554e2e0acf657fdf77caa863ff4e028734418
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="ship-items"></a>Senda vörur
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Afhenda vörur með sölupöntun
 Eftirfarandi lýsir því hvernig skal taka á móti vörum með innkaupapöntun. Skrefin eru svipuð fyrir Vöruskilapöntun innkaupa, þjónustupantanir og millifærslupantanir á útleið.  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.
 2. Opna sölupöntun sem þegar er til eða stofna nýja. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
 3. Í reitnum **Magn til afhendingar** er fært inn magnið sem hefur verið móttekið.
 
@@ -41,7 +41,7 @@ Fyrst er stofnað afhendingarskjal frá viðskiptaupprunaskjali. Síðan er tilg
 
 ### <a name="to-create-a-warehouse-shipment"></a>Stofna vöruhúsaafhendingu
 Vanalega stofnar starfsmaður sem er ábyrgur fyrir afhendingu vöruhúsaafhendingu.
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vöruhúsaafhending** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsaafhending** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 
     Fyllt er út í reitina á flýtiflipanum **Almennt**. Þegar upprunaskjalalínur eru sóttar er eitthvað af upplýsingunum afritað í hverja línu.  
@@ -74,12 +74,12 @@ Línurnar úr upprunaskjölunum birtast í glugganum **Vöruhúsaafhending**. Re
 
 ### <a name="to-pick-and-ship"></a>Tínt og sent:
 Vanalega stofnar starfsmaður vöruhússins, sem ber ábyrgð á tínslu, tínsluskjal eða opnar eitt slíkt sem þegar er til.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vöruhúsaafhending** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsaafhending** og veldu síðan tengda tengilinn.
 2. Valin er Vöruhúsaafhending sem á að Tína fyrir og veldu síðan aðgerðina **Stofna tínslu**.
 3. Fylla inn í reitina í beiðniglugganum og velja svo hnappinn **Í lagi**. Fylgiskjal Birgðatínslu vöruhúss er stofnað.
 
     Að öðrum kosti skal opna fyrirliggjandi vöruhúsatínslu.
-4. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Tínsla** og velja svo viðeigandi tengil. Veljið vöruhúsatínsluna sem á að vinna með.
+4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínsla** og veldu síðan tengda tengilinn. Veljið vöruhúsatínsluna sem á að vinna með.
 
     Ef vöruhúsið er sett upp þannig að það noti hólf hefur tínslulínunum verið breytt í Taka og Setja aðgerðalínur.
 

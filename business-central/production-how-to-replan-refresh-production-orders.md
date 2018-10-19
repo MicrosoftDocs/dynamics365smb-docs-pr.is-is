@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 356c8e6d87fd54be3be376ec4320d3a9aa26d834
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Enduráætla eða uppfæra framleiðslupantanir beint
@@ -35,7 +35,7 @@ Hægt er að setja framleiðslulínur inn handvirkt eða nota aðgerðina sem re
 > Ef aðgerðin Uppfæra er notuð til að endurreikna framleiðslupöntunarlínur, er eldri framleiðslupöntunarlínunum eytt og nýjar línur eru reiknaðar.  
 
 ## <a name="to-replan-a-production-order"></a>Enduráætla Framleiðslupöntun  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Fastáætluð framleiðslupöntun** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pantanir** og veldu síðan tengda tengilinn.  
 2.  Opna framleiðslupöntunina sem á að enduráætla.  
 3.  Á flýtiflipanum **Línur** skal velja aðgerðina **Línur**, og velja svo aðgerðina **Íhlutir**.  
 4.  Íhlut, sem er framleidd vara epa millivara, er bætt við.  
@@ -65,7 +65,7 @@ Hægt er að setja framleiðslulínur inn handvirkt eða nota aðgerðina sem re
 ## <a name="to-refresh-a-production-order"></a>Framleiðslupöntun endurnýjuð  
 Ef framleiðslupöntunarlínunum, íhlutum eða leiðarlínum hefur verið breytt þarf einnig að uppfæra upplýsingar um framleiðslupöntun. Eftirfarandi aðferð sýnir hvernig íhlutirnir eru reiknaðir fyrir fastáætlaða framleiðslupöntun. Skrefin eru svipuð fyrir Leiðarlínur.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Fastáætluð framleiðslupöntun** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pöntun** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð. Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
 3.  Velja aðgerðina **Uppfæra**.
 4. Í glugganum **Uppfæra framleiðslupöntun** velurðu einn af eftirfarandi kostum:

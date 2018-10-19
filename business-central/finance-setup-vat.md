@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 05/06/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
 ms.contentlocale: is-is
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -37,14 +37,14 @@ Ef þú vilt setja upp VSK-útreikning sjálfur eða vilt aðeins fá upplýsing
 Mælt er með að nota VSK-uppsetningarleiðsögn með hjálp til að setja upp VSK í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Til að ræsa uppsetningleiðbeiningar með hjálp, fylgið þessum skrefum:
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning með aðstoð**.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning með hjálp**.  
 2. Veljið **Uppsetning VSK**.
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Til að setja upp VSK-númer fyrir þitt land eða svæði
 Til að ganga úr skugga um að rétt VSK-númer séu slegin inn er hægt að skilgreina snið fyrir VSK-númer sem eru notuð í löndum eða svæðum þar sem viðskipti notanda eru stunduð. [!INCLUDE[d365fin](includes/d365fin_md.md)] mun birta villuboð þegar einhver gerir mistök eða nota snið sem er rangt fyrir landið eða svæðið.
 
 Til að setja upp VSK-númer skal fylgja eftirfarandi skrefum:
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Lönd/svæðiaðstoð**.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lönd/svæði**.
 2. Velja skal landið eða svæðið og svo agðerðina **Snið VSK-númers**.
 3. Í reitnum **Snið** skal skilgreina sniðin með því að slá inn einn eða fleiri eftirfarandi stafa:  
 
@@ -62,7 +62,7 @@ Nota skal kóða sem auðvelt er að muna og er auðkennandi fyrir viðskiptaflo
 
 Til að setja upp VSK-viðskiptabókunarflokk er þessu skrefum fylgt:
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **VSK-viðskiptabókunarflokkur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-viðskiptabókunarflokkur** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
 
 Sjálfgefnir VSK-viðskiptabókunarflokkar eru settir upp með því að tengja þá við almenna viðskiptabókunarflokka. [!INCLUDE[d365fin](includes/d365fin_md.md)] úthlutar sjálfkrafa VSK-viðskiptabókunarflokkinum þegar þú úthlutar viðskiptabókunarflokki til viðskiptamanns, lánardrottins eða fjárhagsreiknings.
@@ -73,7 +73,7 @@ Góð regla er að nota kóða sem auðvelt er að muna og lýsa taxtanum, eins 
 
 Til að setja upp VSK-viðskiptabókunarflokk er þessu skrefum fylgt:
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **VSK-vörubókunarflokkar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-vörubókunarflokkur** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Sameina VSK-bókunarflokka og VSK-bókunaruppsetningar
@@ -83,7 +83,7 @@ Hægt er að setja upp ótakmarkaðan fjölda samsetninga. Ef flokka á saman sa
 
 Til að sameina VSK-bókunaruppsetningar skal fylgja eftirfarandi skrefum:
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **VSK-bókunargrunnur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-bókunargrunnur** og veldu síðan tengda tengilinn.
 2. Fyllið inn í reitina eftir þörfum.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Úthluta VSK-bókunarflokkum sjálfvirkt til fjölda eininga
@@ -98,18 +98,18 @@ VSK-viðskipta- eða vörubókunarflokki er úthlutað þegar valið er viðskip
 Eftirfarandi hlutar útskýra hvernig á að úthluta VSK-bókunarflokkum til einstakra einingar.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Hvernig á að úthluta VSK-bókunarflokkum til einstakra fjárhagsreikninga
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bókhaldslykill** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
 2. Opna **Fjárhagsreikningur** spjaldið fyrir reikninginn.  
 3. Á **Bókun** Flýtiflipanum, í **Alm. bókunartegund** reitnum, er valið annaðhvort **Sölu** eða **Innkaupa**.  
 5. Velja skal VSK-bókunarflokkana til að nota fyrir sölureikninginn eða kaupreikninginn.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Að úthluta VSK-viðskiptabókunarflokkum til viðskiptamenn og lánardrottna.  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Viðskiptamaður** eða **Lánardrottinn** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **viðskiptamaður** eða **Lánardrottinn** og veldu síðan tengda tengilinn.  
 2. Á **Viðskiptamaður** eða **Lánardrottinn** spjaldinu, víkið flýtiflipann **Reikningar**.  
 3. Veljið VSK-viðskiptabókunarflokkana.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Til að úthluta VSK-vörubókunarflokkar til einstakra vörur og tilföng.  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vara** eða **Tilföng** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** eða **Tilföng** og veldu síðan tengda tengilinn.  
 2. Gert er eitt af eftirfarandi:  
 
 * Á **Vöru** spjaldinu, stækkið **Verð & Bókun** Flýtiflipann, og velja síðan **Sýna fleiri** til að birta **VAT Vörubókunarflokkur** reitinn.  
@@ -120,12 +120,12 @@ Eftirfarandi hlutar útskýra hvernig á að úthluta VSK-bókunarflokkum til ei
 Skattayfirvöld geta breytt, og gera breytingar á, kröfum sínum hvað varðar bókun á VSK. **Sniðmát VSK-yfirlita** og **Heiti VSK-yfirlita** geta hjálpað þér að undirbúa fyrir komandi breytingar og gera umskiptin yfir í nýju kröfurnar þægilegri. Hægt er að nota sniðmát VSK-yfirlita til að skilgreina reitina sem á að hafa með í VSK-yfirliti, sem fyrir vikið skilgreinir útreikningana, og hægt er að búa til nýtt sniðmát VSK-yfirlits þegar kröfur breytast. Til dæmis gæti eitt sniðmát reiknað virðisaukaskatt fyrir þetta ár miðað við núverandi kröfur og annað sniðmát gæti reiknað út virðisaukaskatt miðað við kröfur fyrir næsta ár. Sniðmát eru einnig leið til að halda sögu um sniðmát VSK-yfirlita, til dæmis svo hægt sé að líta til baka og sjá hvernig VSK var reiknað út á fyrri árum.
 
 ## <a name="how-to-define-and-preview-vat-statements"></a>Hvernig á að skilgreina og forskoða VSK yfirlit
-VSK-yfirlit bjóða upp á að reikna út VSK-uppgjörsupphæð á ákveðnu tímabili, til dæmis fyrir ársfjórðung. Eftir að þú hefur skilgreint VSK-yfirlit geturðu forskoðað það til að ganga úr skugga um að það mæti kröfum þínum. 
+VSK-yfirlit bjóða upp á að reikna út VSK-uppgjörsupphæð á ákveðnu tímabili, til dæmis fyrir ársfjórðung. Eftir að þú hefur skilgreint VSK-yfirlit geturðu forskoðað það til að ganga úr skugga um að það mæti kröfum þínum.
 
 Fylgið eftirfarandi skrefum til að skilgreina VSK yfirlit:
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **VSK-yfirlit** og velja svo viðeigandi tengil.  
-2. Veljið reitinn **Heiti** og veljið síðan **Nýtt** á síðunni **Heiti VSK-yfirlita**. 
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-yfirlit** og veldu síðan tengda tengilinn.  
+2. Velja **Heiti** reitinn, og svo velja **Nýtt** í **Heiti VSK-yfirlits** glugga.
 3. Fylltu út nauðsynlega reiti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
@@ -147,19 +147,19 @@ Ef með þarf er einnig hægt að tilgreina hvernig skal þýða VSK ákvæði y
 Hægt er að breyta eða eyða VSK-klausu og þá birtast breytingarnar í myndaðri skýrslu. [!INCLUDE[d365fin](includes/d365fin_md.md)] geymir hins vegar breytingasöguna. Í skýrslunni eru VSK-klausulýsingar prentaðar og birtar fyrir allar línur í skýrslunni ásamt VSK-upphæðinni og upphæð VSK-stofnsins. Ef VSK-klausa hefur ekki verið skilgreind fyrir neinar línur í söluskjalinu er öllum hlutanum sleppt þegar skýrslan er prentuð.
 
 ### <a name="to-set-up-vat-clauses"></a>Að setja upp VSK-ákvæði
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **VSK-ákvæði** og velja svo viðeigandi tengil.  
-2. Á **VSK ákvæði** síðunni, skal búa til nýja línu.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-klausur** og veldu síðan tengda hlekkinn.  
+2. Í **VSK-klausur** glugganum, búðu til nýja línu.  
 3. Í reitnum **Kóði** er auðkenni ákvæðisins slegið inn. Þessi kóði er notuð til að úthluta ákvæðinu á VSK-bókunarflokka.  
 4. Í reitnum **Lýsing** er færður inn textinn sem þú vilt að birtast á fylgiskjala sem geta innihaldið VSK. Í reitnum **Lýsing 2** er færður inn viðbótartexti ef þörf krefur. Textinn birtist á nýjum línum.  
 5. Valfrjálst: Til að úthluta VSK-ákvæði til VSK-bókunaruppsetningar strax, veljið **Uppsetning**, og velja síðan ákvæðið. Ef þú vilt bíða, er hægt að úthluta ákvæðinu síðar á VSK-Bókunaruppsetning síðunni.  
 6. Valfrjálst: Til að tilgreina hvernig skal þýða VSK-ákvæðið er **Þýðingar** aðgerðin valin.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Til að úthluta VSK-ákvæði til VSK-bókunaruppsetningar
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **VSK-bókunargrunnur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-bókunargrunnur** og veldu síðan tengda tengilinn.  
 2. Í dálkinum **VSK-Ákvæði** skal velja ákvæðið sem nota á fyrir hvert VSK-bókunaruppsetningu sem það á við um.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Að tilgreina þýðingar fyrir VSK-ákvæði
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **VSK-ákvæði** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-klausur** og veldu síðan tengda hlekkinn.  
 2. Veljið aðgerðina **Þýðingar**.  
 3. Í reitnum **Tungumálakóði** skal velja tungumál sem þýtt er yfir á.  
 4. Í reitunum **Lýsing** og **Lýsing 2** eru færðar inn þýðingar á lýsingunum. Þessi texti er birtur í þýddum VSK-skýrsluskjölum.  
@@ -168,9 +168,9 @@ Hægt er að breyta eða eyða VSK-klausu og þá birtast breytingarnar í mynda
 Aðgerðin VSK vegna innflutnings er notuð þegar á að bóka fylgiskjal þar sem öll upphæðin er VSK. Þetta þarf að gera ef reikningur kemur frá skattyfirvöldum fyrir VSK á innfluttar vörur.  
 
 Til að setja upp kóða fyrir VSK vegna innflutnings, skal fylgja þessum skrefum:  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **VSK-vörubókunarflokkar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-vörubókunarflokkur** og veldu síðan tengda tengilinn.  
 2. Á síðunni VSK-vörubókunarflokkar, skal setja upp nýja VSK-vörubókunarflokkur fyrir VSK vegna innflutnings.  
-3. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **VSK-bókunargrunnur** og velja svo viðeigandi tengil.  
+3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-bókunargrunnur** og veldu síðan tengda tengilinn.  
 4. Á síðunni VSK-bókunaruppsetning skal stofna nýja lína, eða nota VSK-viðskiptabókunarflokk sem fyrir er í samsetningu með nýja VSK-vörubókunarflokknum fyrir VSK vegna innflutnings.  
 5. Í reitnum **SK-Útreikningstegund** skal velja **Fullur VSK**.  
 6. Í **VSK-sölureikningur** reitinn skal færa inn fjárhagsreikningurinn sem á að nota til að bóka VSK vegna innflutnings. Allir aðrir reikninga eru valfrjáls.  
@@ -178,7 +178,7 @@ Til að setja upp kóða fyrir VSK vegna innflutnings, skal fylgja þessum skref
 ## <a name="to-verify-vat-registration-numbers"></a>Staðfesta VSK-skráningarnúmer
 Mikilvægt er að þau VSK-númer sem þú hefur fyrir viðskiptamenn, lánardrottna og tengiliði séu gild. Fyrirtæki breyta til dæmis stundum stöðu skattaskuldar hjá sér, og í sumum lönd gætu skattayfirvöld farið fram á að fá skýrslur, til dæmis skýrsluyfirlit um sölu innan Evrópubandalagsins, sem inniheldur VSK-númerin sem þú ert að nota við í viðskiptum.
 
-Framkvæmdarstjórn Evrópusambandsins býður á vefsíðu sinni þjónustu VIES varðandi VSK Númerastaðfestingu, sem býðst öllum og er án endurgjalds. [!INCLUDE[d365fin](includes/d365fin_md.md)] getur sparað þér það skref og leyft þér að nota þjónustu VIES til að staðfesta og rekja VSK-númer viðskiptamanna, lánardrottna og tengiliði beint úr spjöldum viðskiptamaður, lánardrottinn og tengiliða. Þjónustan í [!INCLUDE[d365fin](includes/d365fin_md.md)] kallast **ESB VSK Skrá. Nr. Staðfestingarþjónusta**. Þjónustan er tiltæk í **Þjónustutengingar** síðunni og þú getur hafið notkun strax. Þjónustan er án endurgjalds og skráningar er ekki krafist.
+Framkvæmdarstjórn Evrópusambandsins býður á vefsíðu sinni þjónustu VIES varðandi VSK Númerastaðfestingu, sem býðst öllum og er án endurgjalds. [!INCLUDE[d365fin](includes/d365fin_md.md)] getur sparað þér það skref og leyft þér að nota þjónustu VIES til að staðfesta og rekja VSK-númer viðskiptamanna, lánardrottna og tengiliði beint úr spjöldum viðskiptamaður, lánardrottinn og tengiliða. Þjónustan í [!INCLUDE[d365fin](includes/d365fin_md.md)] kallast **ESB VSK Skrá. Nr. Staðfestingarþjónusta**. Þjónustan er í boði í **þjónustutengingar** glugga, og þú getur byrjað að nota það strax. Þjónustan er án endurgjalds og skráningar er ekki krafist.
 
 > [!Note]
 > Til að virkja VSK-skráningarnúmer innan ESB staðfestingarþjónustuna verður þú að hafa kerfisstjóraheimildir.
@@ -236,12 +236,12 @@ VSK-hlutfall breytingarverkfærið umreiknar VSK-hlutfall fyrir aðalgögn, fær
 * Taka öryggisafrit af gögnum.
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Til að setja upp breytingaverkfæri VSK-hlutfalls  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning VSK hlutfall breytingar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning breytinga á VSK-hlutfalli** og veldu síðan tengda hlekkinn.  
 2. Á flýtiflipunum **Aðalgögn**, **Færslubækur** og **Skjöl** skal velja gildi bókunarflokks af valkostalistanum fyrir nauðsynlega reiti.  
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Til að setja upp vörubókunarflokksumbreytingar  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning VSK hlutfall breytingar** og velja svo viðeigandi tengil.  
-2. Á síðunni **VSK hlutfall breyta uppsetning** á flipanum **Heim** í flokknum **Í vinnslu** veljið annað hvort **Umreikna VSK framl. Bókunarflokkur** eða **Umreikna Alm framl. Bókunarflokkur**.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning breytinga á VSK-hlutfalli** og veldu síðan tengda hlekkinn.  
+2. Í **Uppsetning breytinga á VSK-hlutfalli** glugga, á **Heim** flipann, í **Vinnsla** flokkur, skal velja annaðhvort **Umskráning VSK-vörubókunarflokkur** eða **Umskráning almennur vörubókunarflokkur**.  
 3. Í reitnum **Frá kóða** er færður inn núverandi bókunarflokkur.  
 4. Í reitnum **Til kóða** er færður inn nýr bókunarflokkur.  
 
@@ -254,7 +254,7 @@ Breytingarverkfæri VSK-hlutfalls er notað til að stjórna breytinum á stöð
 > [!IMPORTANT]  
 >  Áður en þú umreiknar VSK-hlutfallsbreytingu, er hægt að prófa umreikninginn. Til að gera það, skal fylgja eftirfarandi skrefum, en vertu viss um að hafa auða gátreitina **Framkvæma umreikning** og **VSK hlutfall breytingarverkfæri lokið**. Við prófun á umreikningi er reiturinn **Umbreytt** í töflu **Breyting á VSK gengi í skráningarfærslu** hreinsað og reiturinn **Umbreytt dagsetning** í töflunni **Breyting á VSK gengi í skráningarfærslu** auður. Þegar umreikningnum er lokið, skal velja **Breytingaskrárfærslur fyrir VSK-hlutfall** til að skoða niðurstöður af prufuumreikningnum. Staðfesta hverja færslu áður en umreikningur er framkvæmdur. Sérstaklega skal staðfesta færslur sem nota eldra VSK-hlutfall.     
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **VSK hlutfall breyta** og velja svo tengilinn **Uppsetning VSK hlutfall breyta**.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Breytingar á VSK-hlutfalli** og veldu síðan **Uppsetning breytinga á VSK-hlutfalli** hlekkinn.  
 2. Staðfesta að VSK-vörubókunarflokksumbreytingar eða almennar vörubókunarflokksumbreytingar hafi þegar verið settar upp.  
 3. Velja skal gátreitinn **Framkvæma umreikning**.  
 

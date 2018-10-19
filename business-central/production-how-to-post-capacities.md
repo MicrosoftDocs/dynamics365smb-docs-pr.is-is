@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6114149372b786c20ee7edbe13022abe688ed9a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fad67a87a2b78a0e3b550599b82ceabc7a7f2afe
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-capacities"></a>Bóka afkastagetu
 Afkastagetubókin er notuð til að bóka notaða afkastagetu sem ekki er úthlutuð á framleiðslupöntunina. Til dæmis má nefna að nauðsynlegt er að úthluta viðhaldsvinnu á afkastagetu en ekki á framleiðslupöntun.  
 
 ## <a name="to-post-capacities"></a>Bókun afkastagetu:  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Afkastagetubók** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afkastagetubók** og veldu síðan tengda tengilinn.  
 2.  Reitirnir **Bókunardags.** og **Fylgiskjal nr.** eru fylltir út .  
 3.  Í reitinn **Tegund** er færð inn tegund afkastagetunnar, annaðhvort **Vélastöð** eða **Vinnustöð**, sem verið er að bóka.  
 4.  Í reitnum **númer** er fært inn númer véla- eða vinnustöðvarinnar.  
@@ -32,7 +32,7 @@ Afkastagetubókin er notuð til að bóka notaða afkastagetu sem ekki er úthlu
 
 ## <a name="to-view-work-center-ledger-entries"></a>Skoða fjárhagsfærslur vinnustöðvar  
 Í gluggunum **Vinnustöðvarspjald** og **Vélastöðvarspjald**, geturðu skoðað bókaða afkastagetu sem afrakstur afgreiddra framleiðslupantana.    
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **vinnustöðvar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnustöðvar** og veldu síðan tengda tengilinn.  
 2.  Viðeigandi **vinnustöðvar** spjald er opnað úr listanum og aðgerðin **Afkastagetufærslur** valin.  
 
 Í glugganum **Afkastagetufærslur** eru birtar bókuðu færslurnar fyrir vinnustöðina í þeirri röð sem þær voru bókaðar.   

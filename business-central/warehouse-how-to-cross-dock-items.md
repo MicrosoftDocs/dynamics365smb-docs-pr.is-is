@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25dd4bf914a4bf971e329b48fddac03f7536b00f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1ac3aab6063abc247e05b4ae966ee6b99e81bf23
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="cross-dock-items"></a>Hjáskipa vörur
@@ -43,14 +43,14 @@ Kerfið heldur ekki sérstakar færslur fyrir vörur sem hefur verið hjáskipa�
 
     Ef svæði eru notuð skal stofna svæði fyrir hjáskipunarhólfin og velja reitinn **Svæði hjáskipunarhólfs**. Nánari upplýsingar er að finna í [Setja upp birgðageymslur til að þær noti hólf](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Birgðageymsla** og velja svo viðeigandi tengil.  
+2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetning** og veldu síðan tengda tengilinn.  
 3.  Í glugginn **Birgðageymsla** er valin birgðageymsla þar sem á að setja upp vöruhús fyrir hjáskipun og svo velja **Breyta** aðgerðin.  
 4.  Á flýtiflipanum **Vöruhús** er gátreiturinn **Nota hjáskipun** valinn fyllt út í reitinn **Hjáskipun skiladagur reikn.** með tímanum sem kerfið leitar að hjáskipunartækifærum í.
 
     Valkosturinn **Nota hjáskipun** er aðeins tiltækur ef reitirnir **Krefjast móttöku**, **Krefjast afhendingar**, **Krefjast tínslu** og **Krefjast frágangs** eru valdir.  
 
 5.  Ef hólf eru notuð er á flýtiflipanum **Hólf** færður inn kóti hólfsins sem nota á sem sjálfgefið hjáskipunarhólf í reitinn **Kóti hjáskipunarhólfs**.  
-6.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðahaldseiningar** og velja svo viðeigandi tengil.  
+6.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðahaldseining** og veldu síðan tengda tengilinn.  
 7.  Fyrir hverja vöru eða birgðahaldseiningu sem óskað er eftir að geta hjáskipað, skal velja vöru og síðan skal velja aðgerðina **Breyta**.
 8. Í glugganum **birgðahaldseining** veljið **Nota hjáskipun** gátreitur.  
 
@@ -58,7 +58,7 @@ Kerfið heldur ekki sérstakar færslur fyrir vörur sem hefur verið hjáskipa�
 >  Hjáskipun er eingöngu möguleg ef birgðageymslan er sett þannig upp að hún krefjist vöruhúsamóttöku- og frágangsvinnslu.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Vörum hjáskipað án þess að skoða tækifærin:  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vöruhúsamóttaka** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsamóttaka** og veldu síðan tengda tengilinn.  
 2.  Stofna vöruhúsamóttöku fyrir vöru sem hefur borist og er til dæmis hægt að hjáskipa. Frekari upplýsingar eru í [Móttaka vara](warehouse-how-receive-items.md).  
 3.  Fyllið út í reitinn **Magn til móttöku** og veljið svo aðgerðina **Reikna hjáskipun**.  
 
@@ -75,7 +75,7 @@ Kerfið heldur ekki sérstakar færslur fyrir vörur sem hefur verið hjáskipa�
 7.  Til að skrá það að hjáskipunarvörurnar séu frágengnar og tiltækar til tínslu, skal velja **Skráning** aðgerðina.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Vörur hjáskipaðar eftir að tækifæri hafa verið skoðuð:  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vöruhúsamóttaka** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsamóttaka** og veldu síðan tengda tengilinn.  
 2.  Stofna vöruhúsamóttöku fyrir vöru sem hefur borist og er til dæmis hægt að hjáskipa. Frekari upplýsingar eru í [Móttaka vara](warehouse-how-receive-items.md).  
 
     Æskilegt er að skoða línur í upprunaskjalinu sem kalla eftir vörunni áður en móttakan er bókuð.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b526879c1b49a90ff0ddcb415ba19f9d0567f7fd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c646fe080cbdb867d58fb011ec9d94a1d8bd61b3
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="invoice-jobs"></a>Reikningsfærsla verka
@@ -32,7 +32,7 @@ Hægt er að stofna reikning fyrir verk eða einn eða fleiri verkhluta fyrir vi
 
 Í glugganum **Verk** er hægt að reikningsfæra til viðskiptamanns með því að velja verkið og velja svo aðgerðina **Stofna sölureikning verks**. Eftirfarandi ferli sýnir hvernig á að nota keyrslu til að reikningsfæra fleiri verk.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk stofna Innkaupareikningur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk - Stofna sölureikning** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Ef takmarka á verk sem keyrslan á að vinna skal tilgreina afmarkanir.
 4. Velja hnappinn **Í lagi** til að stofna reikningana.  
@@ -40,7 +40,7 @@ Hægt er að stofna reikning fyrir verk eða einn eða fleiri verkhluta fyrir vi
 ## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a>Að búa til fleiri sölureikninga úr verkáætlunarlínum
 Hægt er að stofna reikning úr verkáætlunarlínum, og gefa upp á þeim tíma magnið af vörunni, forða eða fjárhagsreikning sem á að reikningsfæra.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.
 2. Opnið viðeigandi verk.
 3. Valinn er verkhluti þar sem reiturinn **Verkhlutagerð** inniheldur **Bókuð** og svo er aðgerðin **Verkhlutalínur** valin.  
 4. Í verkáætlunarlínu í reitnum **Magn Til að reikningsfæra** er slegið inn magn vörunnar, forðann, fjárhagsreikningsgerð sem á að reikningsfæra.  
@@ -60,7 +60,7 @@ Hægt er að stofna reikning úr verkáætlunarlínum, og gefa upp á þeim tím
 ## <a name="to-calculate-and-post-job-completion-entries"></a>Að reikna út og bóka verklokafærslur
 Þegar öllum aðgerðum verks hefur verið lokið, þar með talin bókun notkunar og reikningsfærsla, þarf að uppfæra verkið svo að **Staða** þess sé **Lokið**. Síðan þarf að bakfæra VÍV sem hefur verið bókað í fjárhag.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2. Veljið opið verk og veljið svo aðgerðina **Breyta**.
 3. Í reitnum **Staða** skal velja **Lokið**.
 4. Fylgið aðstoðarskrefunum til að reikna og bóka VÍV. Einnig er hægt að fylgja skrefum 5 og 6 til að gera það handvirkt.  

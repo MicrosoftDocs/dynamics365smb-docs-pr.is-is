@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5e21330cd7adc97da9023da7b18944a9f0450b8e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5e505f1942aba554bfa83a0fb81ace0db209b102
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -25,11 +25,11 @@ Ef þú ert að nota reikningsskilaaðferðir í reiðufé, getur þú sett upp 
 Hægt er að velja að VSK-upphæðir verði reiknaðar og bókaðar á bráðabirgðafjárhagsreikning þegar reikningur er bókaður, og síðan bókaður á rétta fjárhagsreikninginn og settur í VSK-yfirlitin þegar endanlega greiðsluupphæð reikningsins er bókuð. Áður en þetta er hægt þarf að ljúka við VSK-bókunargrunninn.
 
 Til að nota reikninga fyrir óinnleyst virðisaukaskatt skaltu fylgja þessum skrefum:
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning fjárhags** og velja svo viðeigandi tengil.
-2. Á **Uppsetning fjárhags** síðunni á flýtiflipanum **Almennt** velurðu **Sýna meira** og svo **Óinnleystur VSK** gátreitinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið og sláðu inn **Uppsetning fjárhags**.
+2. Í **Uppsetning fjárhags** glugga, á **Almennt** flýtiflipanum, skaltu velja **Sýna meira**, og síðan velja **Óinnleystur VSK** gátreitinn.
 3. Lokaðu síðunni.
-4. velja **Leita að síðu eða skýrslu** táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslu táknið"), færa inn **VSK-bókunargrunnur**.
-5. Á **VSK-bókunargrunnur** velurðu VSK-bókunarflokk og síðan **Breyta**.
+4. veldu **Leita að síðu eða Tilkynna** táknið ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") og sláðu inn **VSK-bókunargrunnur**.
+5. Í glugganum **VSK-bókunargrunnur** skaltu velja VSK-bókunarflokk og velja síðan **Breyta**.
 6. Í reitnum **Tegund áætlaðs VSK**, veldu valkost til að tilgreina hvernig á að úthluta greiðslum til reikningsupphæð (án virðisaukaskatts) og virðisaukaskatts sjálfs og hvernig á að flytja virðisfjárhæðir úr óreynduðu virðisaukaskatti á reikninginn. Eftirfarandi tafla lýsir valkostunum.
 
 | Valkostur | Lýsing |
@@ -44,11 +44,11 @@ Til að nota reikninga fyrir óinnleyst virðisaukaskatt skaltu fylgja þessum s
 6. Í **Reikn. áætlaðs útskatts**, veldu reikning fyrir óinnleyst söluskatt.
 
     > [!NOTE]  
->   VSK upphæðin verður bókuð á þennan reikning, og verður þar til greiðslu viðskiptavinarins er bókuð. Fjárhæðin er síðan flutt á reikninginn vegna söluverðs.
+    > VSK upphæðin verður bókuð á þennan reikning, og verður þar til greiðslu viðskiptavinarins er bókuð. Fjárhæðin er síðan flutt á reikninginn vegna söluverðs.
 7. Í reitinn **Reikn. áætlaðs innskatts** er færður áætlaður innskattur á fjárhagsreikninginn.
 
-    > [!NOTE]  
-    >   VSK upphæðin verður bókuð á þennan reikning, og verður þar til greiðslu viðskiptavinarins er bókuð. Fjárhæðin er síðan flutt á reikninginn fyrir innskatt.
+> [!NOTE]  
+> VSK upphæðin verður bókuð á þennan reikning, og verður þar til greiðslu viðskiptavinarins er bókuð. Fjárhæðin er síðan flutt á reikninginn fyrir innskatt.
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning á virðisaukaskatti](finance-setup-vat.md)

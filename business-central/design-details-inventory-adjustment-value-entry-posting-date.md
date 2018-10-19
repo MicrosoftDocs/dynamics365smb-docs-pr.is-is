@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c95432ec1cf24aaaedf0fad5a2746ace9705e2e3
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9d0a5ab6bebdc9723fe8e3621fdda3cb16d5e6e1
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslu
@@ -33,7 +33,7 @@ Frá útgáfu 5.0, runuvinnslan **Leiðrétta kostnað - Birgðafærslur** úthl
 
  Við skulum yfirfara þetta ferli betur með dæmi. Gerum ráð fyrir að við séum með birgðafærslu fyrir sölu. Þessi hlutur var sendur 5. september 2013 og reikningsfærður daginn eftir.  
 
-![Birgðafærsla: Dagsetningarsnið: ÁÁÁÁ MM DD](media/helene/TechArticleAdjustcost1.png "TechArticleAdjustcost1")  
+![Staða birgðahöfuðbókarfærslna í atburðarásinni](media/helene/TechArticleAdjustcost1.png "Staða birgðahöfuðbókarfærslna í atburðarásinni")  
 
 Hér að neðan táknar fyrsta virðisfærslan (379) sendinguna og bera þær sömu bókunardagsetningu og yfirbirgðafærslan.  
 
@@ -41,7 +41,7 @@ Hér að neðan táknar fyrsta virðisfærslan (379) sendinguna og bera þær s�
 
  Þriðja virðisfærslan (391) er leiðrétting á reikningsfærðri virðisfærslu (381)  
 
- ![Birgðafærsla: Dagsetningarsnið: ÁÁÁÁ MM DD](media/helene/TechArticleAdjustcost2.png "TechArticleAdjustcost2")  
+ ![Staða virðisfærslna í atburðarás](media/helene/TechArticleAdjustcost2.png "Staða virðisfærslna í atburðarás")  
 
  Skref 1: Leiðréttingarvirðisfærsla sem á að búa til er úthlutað sömu bókunardagsetningu og færslan sem hún leiðréttir, sýnt hér að framan með virðisfærslu 391.  
 
@@ -53,13 +53,13 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
  Birgðatímabil:  
 
-![Leiðrétta kostnað &#45;Færslugögn vöru](media/helene/TechArticleAdjustcost3.png "TechArticleAdjustcost3")
+![Birgðahaldstími í atburðarásinni](media/helene/TechArticleAdjustcost3.png "Birgðahaldstími í atburðarásinni")
 
  Fyrsta leyfilega bókunardagsetning er fyrsta daginn í fyrsta opna tímabilinu. 1. september 2013.  
 
  Uppsetning fjárhags:  
 
-![Leiðrétta kostnað &#45;Færslugögn vöru](media/helene/TechArticleAdjustcost4.png "TechArticleAdjustcost4")
+![Uppsetning fjárhags í atburðarásinni](media/helene/TechArticleAdjustcost4.png "Uppsetning fjárhags í atburðarásinni")
 
  Fyrsta leyfilega bókunardagsetning er dagsetningin sem tilgreind er í reitnum Leyfa bókanir frá: 10. september 2013.  
 
@@ -69,7 +69,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
  Upphaflega úthlutaða bókunardagsetningin var 6. september eins og sýnt er í skrefi 1. Í 2. skrefi ber runuvinnslan Leiðrétta kostnað - Birgðafærslur kennsl 10. september sem fyrstu leyfilegu bókunardagsetninguna og úthlutar þess vegna 10. september á leiðréttingarvirðisfærsluna fyrir neðan.  
 
- ![Leiðrétta kostnað &#45;Færslugögn vöru](media/helene/TechArticleAdjustcost5.png "TechArticleAdjustcost5")
+ ![Staða virðisfærslna í atburðarás 2](media/helene/TechArticleAdjustcost5.png "Staða virðisfærslna í atburðarás 2")
 
  Við höfum nú yfirfarið hugtakið fyrir úthlutun bókunardagsetninga á virðisfærslur sem eru búnar til af runuvinnslu Leiðrétts kostnaðar - Birgðafærslna.  
 
@@ -82,15 +82,15 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
  Í fyrri kafla, sem lýsir hugmyndinni um að gefa út bókunardagsetningar, er ætlunin með runuvinnslu Leiðrétts kostnaðar - Birgðafærslna að búa til virðisfærslu með bókunardagsetninguna 10. september.  
 
-![Leiðrétta kostnað &#45;Færslugögn vöru](media/helene/TechArticleAdjustcost6.png "TechArticleAdjustcost6")
+![Villuboð um bókunardagsetningu](media/helene/TechArticleAdjustcost6.png "Villuboð um bókunardagsetningu")
 
  Við fylgjum eftir notandauppsetningu:  
 
-![Leiðrétta kostnað &#45;Færslugögn vöru](media/helene/TechArticleAdjustcost7.png "TechArticleAdjustcost7")
+![Uppsetning heimilaðra bókunardagsetninga fyrir notanda](media/helene/TechArticleAdjustcost7.png "Uppsetning heimilaðra bókunardagsetninga fyrir notanda")
 
  Notandinn í þessu tilfelli hefur leyfilegt dagsetningabil bókunar frá 11. september til 30. september og er því ekki heimilt að bóka leiðréttingarvirðisfærsluna með bókunardagsetninguna 10. september.  
 
-![Leiðrétta kostnað &#45;Færslugögn](media/helene/TechArticleAdjustcost8.png "TechArticleAdjustcost8")
+![Yfirlit yfir virka uppsetningu bókunardagsetningar](media/helene/TechArticleAdjustcost8.png "Yfirlit yfir virka uppsetningu bókunardagsetningar")
 
  Grein þekkingargrunns [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) fjallar um fleiri aðstæður sem tengjast nefndu villuboði.  
 
@@ -173,9 +173,9 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
  Eftirfarandi birgðahöfuðbók og virðisfærslur hafa verið bókaðar:  
 
-![Leiðrétta kostnað &#45;Færslugögn vöru](media/helene/TechArticleAdjustcost9.png "TechArticleAdjustcost9")
+![Yfirlit yfir birgðahöfuðbók og virðisfærslur 1 sem urðu til](media/helene/TechArticleAdjustcost9.png "Yfirlit yfir birgðahöfuðbók og virðisfærslur 1 sem urðu til")
 
- ![Leiðrétta kostnað &#45;Færslugögn vöru](media/helene/TechArticleAdjustcost10.png "TechArticleAdjustcost10")
+ ![Yfirlit yfir birgðahöfuðbók og virðisfærslur sem urðu til 2](media/helene/TechArticleAdjustcost10.png "Yfirlit yfir birgðahöfuðbók og virðisfærslur sem urðu til 2")
 
  Runuvinnslan Leiðréttur kostnaður - Birgðafærslur hefur borið kennsl á breytingar á kostnaði og leiðrétti neikvæðu leiðréttingarnar.  
 
@@ -290,7 +290,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
      Bóka kvittun og reikningsfæra.  
 
-     ![Leiðrétta kostnað &#45;Færslugögn vöru](media/helene/TechArticleAdjustcost11.png "TechArticleAdjustcost11")
+     ![Yfirlit yfir birgðahöfuðbók og virðisfærslur sem urðu til 3](media/helene/TechArticleAdjustcost11.png "Yfirlit yfir birgðahöfuðbók og virðisfærslur sem urðu til 3")
 
 6.  Á vinnudaginn 3. janúar kemur innkaupareikningur sem inniheldur viðbótargjald við kaupin sem voru gerð í skrefi 2. Þessi reikningur hefur dagsetningu skjals 30. desember og er því bókaður með bókunardagsetningunni 30. desember 2013.  
 
@@ -314,11 +314,11 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
      Bóka kvittun og reikningsfæra.  
 
-   ![Leiðrétta kostnað &#45;Færslugögn vöru](media/helene/TechArticleAdjustcost12.png "TechArticleAdjustcost12")
+   ![Yfirlit yfir birgðahöfuðbók og virðisfærslur 4 sem urðu til](media/helene/TechArticleAdjustcost12.png "Yfirlit yfir birgðahöfuðbók og virðisfærslur 4 sem urðu til")
 
  Skýrsla birgðavirðis er prentuð frá og með dagsetningunni 31. desember 2013  
 
-![Leiðrétta kostnað &#45;Færslugögn vöru](media/helene/TechArticleAdjustcost13.png "TechArticleAdjustcost13")
+![Innihald birgðavirðisskýrslu](media/helene/TechArticleAdjustcost13.png "Innihald birgðavirðisskýrslu")
 
  **Samantekt á aðstæðum:**  
 
@@ -355,20 +355,14 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
  Í útgáfum 3 og 4 skannar runuvinnslan allar virðisfærslur til að greina hvort einhverjar virðisfærslur séu til þar sem kostnaðarupphæð (raunveruleg) er frábrugðin kostnaði bókuðum í fjárhag. Ef finnst mismunur verður frábrugðna upphæðin bókuð í fjárhagsfærslu. Ef bókun áætlaðs kostnaðar er notaður er unnið úr samsvarandi reitum á sama hátt.  
 
-![Leiðrétta kostnað &#45;Færslugögn vöru](media/helene/TechArticleAdjustcost14.png "TechArticleAdjustcost14")
+![Raunverulegur kostnaður á móti áætluðum kostnaði](media/helene/TechArticleAdjustcost14.png "Raunverulegur kostnaður á móti áætluðum kostnaði")
 
 ### <a name="from-version-50"></a>Frá útgáfu 5,0:  
  Ekki þarf lengur að tilgreina bókunardagsetningu í beiðniglugganum fyrir runuvinnslu birgðabreytinga. Fjárhagsfærslan er búin til með sömu bókunardagsetningu og tengd virðisfærsla. Til þess að ljúka runuvinnslunni verður leyfilegt dagsetningabil bókunar að leyfa bókunardagsetningu stofnuðu fjárhagsfærslunnar. Ef ekki, verður að enduropna tímabundið leyfilegt dagsetningabil bókunar með því að breyta eða fjarlægja dagsetningarnar í reitunum Bókun leyfð frá og til í fjárhagsgrunni. Til að koma í veg fyrir afstemmingarvandamál er nauðsynlegt að bókunardagsetning fjárhagsfærslu samsvari bókunardagsetningu virðisfærslu.  
 
- Runuvinnslan skannar tafla 5811 - Bóka virðisfærslu í fjárhag, til að bera kennsl á virðisfærslur sem heyra undir bókun í fjárhag. Taflan var tæmd eftir heppnaða keyrslu.  
-
- Tekið verður vel á móti öllum athugasemdum um frekari þróun á ferlum og skjalavinnu.  
-
- Helena Holmin  
-
- Dynamics NAV Hækkunarhönnuður  
+ Runuvinnslan skannar tafla 5811 - Bóka virðisfærslu í fjárhag, til að bera kennsl á virðisfærslur sem heyra undir bókun í fjárhag. Taflan var tæmd eftir heppnaða keyrslu.
 
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
-[Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
+[Hönnunarupplýsingar: Birgðajöfnun](design-details-item-application.md)  
 

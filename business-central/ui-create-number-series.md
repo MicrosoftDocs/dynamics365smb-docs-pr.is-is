@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 03/27/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 4d7e554300f0b445816ef9dd7fb81ea54fd25bf7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6a61d7b07b2e04259bb4db386b651c4711ac7b09
 ms.contentlocale: is-is
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-number-series"></a>Stofnun númeraraða
@@ -50,13 +50,13 @@ Hægt er að nota fleiri en einn númeraraðarkóta fyrir hverja tegund frumgagn
 > Ef þú þarft að virkja handvirka númerun á til dæmis nýjum birgðaspjöldum sem hafa verið stofnuð með gagnaflutningsferli sem hefur falið **Nr.** sjálfgefið, þá er farið í gluggann **Uppsetning birgða** og valinn reiturinn **Vörunr.** til að opna og stilla tengda númeraröð á **Handfærð nr.röð**.
 
 ## <a name="to-create-a-new-number-series"></a>Til að búa til nýja númeraröð
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Númeraraðir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Númeraraðir** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Fyllt er í reitina í nýju línunni. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Til að setja upp hvar númeraröð er notuð
 Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölustaðinn. Skrefin eru svipuð fyrir önnur svæði.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sala & útistandandi** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sala og útistandandi** og veldu síðan tengda tengilinn.
 2. Í **Sala** glugganum, í **Númeraröð**, veldu viðkomandi númeraröð fyrir hvert sölukort eða skjal.
 
 Völdu númerið verður nú notað til að fylla út **Nr.** Sviði á viðkomandi korti eða skjali, í samræmi við þær stillingar sem þú gerðir á númeraröðinni.
@@ -64,7 +64,7 @@ Völdu númerið verður nú notað til að fylla út **Nr.** Sviði á viðkoma
 ## <a name="to-create-relationships-between-number-series"></a>Stofnun tengsla milli númeraraða
 Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund grunnupplýsinga eða færslna er hægt að stofna tengsl milli kótanna. Með þessari aðgerð er auðvelt að velja á milli kóta þegar númer er notað.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Númeraraðir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Númeraraðir** og veldu síðan tengda tengilinn.
 2. Velja skal línuna með númeraröðinni sem á að stofna tengsl við. og veljið síðan **Tengsl**.
 3. Færður er inn í reitinn **Raðarkóti** kóti fyrir númeraröðina sem á að tengja við röðina sem valin var í 2. þrepi.
 4. Bætt er við línu fyrir hvern kóta sem á að tengja völdum númeraröðum.

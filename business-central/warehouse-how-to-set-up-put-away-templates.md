@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7fecd72242d30291d3741ee99fcb3ee5bc09af9f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 83ae54e61c5881cce9a58c6684bbf82c4b3ad750
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-put-away-templates"></a>Setja upp frágangssniðmát
@@ -25,7 +25,7 @@ Ef notaður er beinn frágangur og tínsla er stungið upp á því hólfi sem b
 Hægt er að setja upp fleiri en eitt frágangssniðmát og velja eitt þeirra fyrir almenna stjórnun á frágangi í vöruhúsinu. Einnig er hægt að velja frágangssniðmát fyrir hverja þá vöru eða birgðahaldseiningu sem hefur sérstakar kröfur um frágang.  
 
 ## <a name="to-set-up-put-away-templates"></a>Frágangssniðmát sett upp  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Frágangssniðmát** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát frágangs** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Færður er inn kóti sem er einkvæmt kenni sniðmátsins sem á að stofna.  
 4.  Stutt lýsing er færð inn ef vill.  

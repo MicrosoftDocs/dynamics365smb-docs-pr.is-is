@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7bf300745543ef476c6dfd7d58dc50457e694cdb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3b213e85e6b162e875a31f0ab69e3e1f4af9653f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-a-new-company"></a>Búa til nýtt fyrirtæki
@@ -28,7 +28,7 @@ Dæmi um grunnstillingarpakka, þ.m.t. sértækar skrár fyrir land/svæði, eru
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Til að nota dæmið um BASICCONFIG grunnstillingarpakkann  
 1. Opna fyrirtækið CRONUS International Ltd. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md).
-2. Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarpakkar** og velja svo viðeigandi tengil.  
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 3. Velja skal BASICCONFIG-pakkann af listanum og síðan velja aðgerðina **Flytja út pakka**.  
 
 Notið eftirfarandi aðgerð til að búa til nýtt fyrirtæki og nota BASICCONFIC pakkann sem hluta ferlisins.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f6e3a1ccda36947c80fead68f9e97ee8ff1286bf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Nota Mitt hlutverk RapidStart Services innleiðara
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 Sjálfgefið er að þegar töflu er bætt við grunnstillingarvinnublaðið, er staða hennar stillt á auður. Þetta þýðir að skilgreining töflu hefur ekki hafist. Þetta kemur fram í tölunni **Ekki hafið** í reitnum **Aðgerðir** .  
 
 ## <a name="to-update-the-status-of-a-configuration-table"></a>Til að uppfæra stöðu skilgreiningartöflu  
-1.  Velja skal táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leita að síðu eða skýrslutákni"), slá inn **Grunnstillingarvinnublað** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
 2.  Veldu aðgerðina **Breyta lista**.  
 3.  Veljið töflu og því næst viðeigandi stöðu í reitnum **Staða**.  
 4.  Velja hnappinn **Í lagi**.  

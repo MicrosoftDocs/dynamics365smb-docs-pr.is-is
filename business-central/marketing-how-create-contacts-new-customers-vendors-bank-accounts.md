@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e1f1d9e89d4164f36fb90c027cd636da67bc40d9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 07c56f109ee2e4c348c0f654ceadc4018174c0d5
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Stofna viðskiptamanni, lánadrottni eða bankareikning úr tengilið
@@ -25,7 +25,7 @@ Suma fyrirliggjandi tengiliði er ef til vill æskilegt að skrá sem viðskipta
 áður en þú getur skráð tengiliði á þennan hátt, verðurðu að tilgreina viðskiptatengslakóða fyrir viðskiptavini, lánardrottna, og bankareikninga í glugganum **uppsetning markaðssetningar** Ef þú munt skrá tengiliði sem bankareikning verður einnig að tilgreina númeraraðir fyrir bankareikninga í glugganum **Fjárhagsgrunnur**.
 
 ## <a name="to-create-a-contact-as-a-customer-vendor-or-bank-account"></a>Tengiliðir stofnaðir sem viðskiptamenn, lánadrottnar eða bankareikningar:
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Tengiliðir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.
 2. Velja skal tengiliðinn sem stofna á sem viðskiptamann, lánadrottinn eða bankareikning.
 3. Veldu aðgerðina **Stofna sem** og síðan valinn annað hvort **Viðskiptamaður**, **Lánadrottinn** eða **Banki**.
 4. Staðfesta þarf eftirfarandi skilaboð.

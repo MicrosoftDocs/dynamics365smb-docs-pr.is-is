@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 497d19dfdc8c972ff22aa0bcb65d96791bc8390e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: be0a80ea66dea634a37cb187408c7142d70af011
 ms.contentlocale: is-is
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Búa til tilboð með samsetningarpöntun
@@ -28,7 +28,7 @@ Eins og þegar seld er hvers kyns önnur tegund af vöru, er einnig hægt að st
 >  Eins og allar gerðir á tilboðum er magn samsetningartilboða ekki notað til ráðstöfunar, í áætlun eða frátekt.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Til að stofna sölutilboð fyrir vöru sem setja skal saman í pöntun  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölutilboð** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sölutilboð** og veldu síðan tengda tengilinn.  
 2.  Stofna nýja sölupöntunarlínu með eina línu fyrir samsetningaríhlut. Frekari upplýsingar er að finna í [Búa til sölutilboð](sales-how-make-offers.md).  
 3.  Í reitnum **Magn til samsetningar til pöntunar** skal færa inn fullt magn.
 

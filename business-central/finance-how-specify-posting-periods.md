@@ -12,20 +12,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 82f16c5e719fe5e1ebaa7b30c2a655e4871a5056
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 240250a30c4dd0292fdd3ee19e591c8485098ea0
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="specify-posting-periods"></a>Tilgreina bókunartímabil
 Notaðu staðartímabil til að tilgreina hvenær notendur geta sent í aðalbókina.  
 
 ## <a name="to-specify-posting-periods"></a>Bókunartímabil tilgreind
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning fjárhags** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning fjárhags** og veldu síðan tengda tengilinn.  
 2. Í **Uppsetning fjárhags** glugganum er tilgreint tímabilið með því að slá inn dagsetningar í **Leyfa bókun frá** og **Leyfa bókun til**.  
 
 > [!NOTE]  

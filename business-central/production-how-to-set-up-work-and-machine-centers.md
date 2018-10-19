@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/19/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 545ad2e348ba4acc3a1c4cde741acaa2a9b824ed
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c6e661d36363a35248785a9f97620b2ca7ccf177
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Setja upp vinnu- og vélastöðvar
@@ -33,7 +33,7 @@ Hægt er að úthluta ýmsum vélastöðvum á hverja vinnustöð. Aðeins ein v
 ## <a name="to-set-up-a-work-center"></a>Vinnustöð sett upp
 Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skrefin í uppsetningu dagatals vélastöðva eru svipuð, fyrir utan flýtiflipann **Uppsetning leiða**.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **vinnustöðvar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnustöðvar** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Í reitnum **Vinnustöðvarhópur** skal velja efra-stigs forðaflokkun sem vinnustöðin er flokkuð undir, ef það á við. Valið er **Nýtt** aðgerðin í felllilistanum.  
@@ -89,7 +89,7 @@ Setja þarf upp framleiðsluforða sem talinn er mikilvægur og merkja hann þan
 
 Við áætlum á tilföngum með takmarkaða getu tryggir kerfið að engin tilföng séu hlaðin yfir skilgreina getu (hættumörk) Þetta er gert með því að úthluta hverri virkni á næsta tiltekna tímabil. Ef tímabilið er ekki nógu langt til að hægt sé að ljúka allri aðgerðinni verður aðgerðinni skipt í tvo eða fleiri hluta á næstu tiltæku tímabilum.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Tilföng með takmarkaða afkastagetu** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tilföng með takmarkaða afkastagetu** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Fyllið inn í reitina eftir þörfum.
 

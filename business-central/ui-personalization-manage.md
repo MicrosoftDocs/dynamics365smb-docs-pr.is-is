@@ -10,34 +10,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 07/26/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4914c0b7c269d5f725f33c839eb677455293cea0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 78eea4df6f25772063cef5770eb1dcb433bee012
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Stjórnun sérstillinga sem stjórnandi
-<!--NAV in the Web client-->
-Notendur geta sérsniðið vinnusvæði sitt að vild. Sem stjórnandi geturðu stjórnað og unnið með sérstillingar með því að slökkva á valkosti notenda til að sérstilla síður og hreinsa allar sérstillingar síðu sem notendur hafa gert.
+<!--NAV in the Web client--> Notendur geta sérsniðið vinnusvæði sitt að vild. Sem stjórnandi geturðu stjórnað og unnið með sérstillingar með því að slökkva á valkosti notenda til að sérstilla síður og hreinsa allar sérstillingar síðu sem notendur hafa gert.
 
 ## <a name="disable-personalization-for-a-profile"></a>Slökkva á sérstillingu fyrir forstillingu
 Hægt er að koma í veg fyrir að allir notendur sem tilheyra tiltekinni forstillingu geti sérstillt síður sínar.
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forstillingar** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notandastillingar** og veldu síðan tengda tengilinn.
 2.  Veljið forstillinguna sem á að breyta í listanum.
 3. Veljið gátreitinn **Afvirkja sérstillingar notanda** og smellið síðan á hnappinn **Í lagi**.
 
 ## <a name="clear-user-personalizations"></a>Hreinsa sérstillingar notenda
 
-Þegar sérstillingar síðu er eytt fer síðan aftur í upprunalegt útlit áður en sérstillingin var gerð. Það eru tvær leiðir til að hreinsa sérstillingar sem notendur hafa gert á síðum: með **Eyða sérstillingum notanda** síðunni og **Sérstillingaspjald notanda**.
+Þegar sérstillingar síðu er eytt fer síðan aftur í upprunalegt útlit áður en sérstillingin var gerð. Það eru tvær leiðir til að hreinsa sérstillingar sem notendur hafa virkjað á síðum: Nota **Eyða sérstillingum notanda** gluggann og með því að nota **Spjald fyrir sérstillingar notanda** gluggann.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Hreinsa sérstillingar notenda með því að nota síðuna Eyða sérstillingum notanda
 
-Síðan **Eyða sérstillingum notanda** gerir þér kleift að hreinsa sérstillingar á einstaka síðum, eftir einstaka notendum.
+**Eyða sérstillingum notanda** glugginn gerir þér kleift að hreinsa sérstillingum á hverja síðu fyrir sig fyrir hvern notanda fyrir sig.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Eyða sérstillingum notanda** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða sérstillingum notanda** og veldu síðan tengda tengilinn.
 
     Á síðunni er listi yfir allar síður sem hafa verið sérstilltar og sem notandinn tilheyrir.
 
@@ -50,11 +49,11 @@ Síðan **Eyða sérstillingum notanda** gerir þér kleift að hreinsa sérstil
 
 ### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Hreinsa sérstillingar notenda með því að nota síðuna Sérstillingaspjald notanda
 
-Síðan **Sérstillingaspjald notanda** gerir þér kleift að hreinsa sérstillingar á öllum síðum fyrir tiltekinn notanda. Þetta krefst skrifleyfis fyrir töflu 2000000072 **Forstilling**.
+**Spjald fyrir sérstillingar notanda** glugginn gerir þér kleift að hreinsa sérstillingar á öllum síðum fyrir tiltekna notanda. Þetta krefst skrifleyfis fyrir töflu 2000000072 **Forstilling**.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sérstillingar notanda** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sérstillingar notanda** og veldu síðan tengda tengilinn.
 
-    Síðan **Sérstillingar notanda** sýnir alla notendur sem hugsanlega hafa sérstillt síður. Ef þú finnur ekki notanda á listanum þýðir það að hann hefur engar sérstilltar síður.
+    **Sérstillingar notanda** glugginn listar alla þeim notendum sem hugsanlega hafa sérstilltar síður. Ef þú finnur ekki notanda á listanum þýðir það að hann hefur engar sérstilltar síður.
 
 2. Veljið notanda af listanum og veljið svo aðgerðina **Breyta**.
 

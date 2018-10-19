@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/02/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 30dcd44d84ecca873de7b3a0401325377987324f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Breyta grundvallarstillingum
-Í glugganum **Stillingar mínar** er hægt að sjá og breyta grunnstillingum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Breytingar sem þú gerir munu aðeins hafa áhrif á vinnusvæðið þitt, ekki vinnusvæði annarra notenda.  
+Í [**Stillingarnar mínar**](https://businesscentral.dynamics.com?page=9176 "Fara beint í notendastillingasíðu Business Central") glugganum er hægt að sjá og breyta grunnstililngum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Breytingar sem þú gerir munu aðeins hafa áhrif á vinnusvæðið þitt, ekki vinnusvæði annarra notenda.  
 
-## <a name="role-center"></a>Mitt hlutverk
+## <a name="role-center"></a> Mitt hlutverk
 Mitt hlutverk táknar heimasíðuna, upphafssíðu sem er hönnuð fyrir þarfir tiltekins hlutverks í fyrirtækinu. Það fer eftir hlutverki þínu, en Mitt hlutverk gefur þér yfirlit yfir fyrirtækið, deildina þína eða persónuleg verkefnin þín. Það hjálpar þér líka að komast í daglegu verkefnin þín og finna vinnu sem þér er úthlutað.
 
 -   Efst gerir yfirlitið þér kleift að skipta á milli viðskiptavina, lánardrottna, vara og annarra mikilvægra lista yfir upplýsingar. Á svipaðan hátt leyfa aðgerðir þér að hefja verkefni, svo sem að búa til nýjan sölureikning, beint frá Mínu hlutverki.
@@ -41,7 +41,7 @@ Fyrirtæki virkar sem geymsluhólf fyrir gögn í [!INCLUDE[d365fin](includes/d3
 Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn.
 
 > [!TIP]  
->   Ef þú vilt birta annað heiti á fyrirtækinu þínu í umsókninni (eins og á heimasíðunni Mitt hlutverk), settu reitinn **Heiti** á síðunni **Upplýsingar um fyrirtæki** eða reitinn **Birta heiti** inn á síðuna **Fyrirtæki**.  
+>   Ef þú vilt birta annað nafn á fyrirtækinu þínu í umsókninni (eins og í Mitt hlutverk), veldu reitinn **Nafn** í glugganum **Upplýsingar um fyrirtæki** eða reitinn **Birta nafn** í glugganum **Fyrirtæki**.  
 
 ## <a name="work-date"></a>Vinnudagsetning
 Sjálfgefin vinnudagsetning er yfirleitt dagurinn í dag. Þú gætir þúrft að breyta tímabundið vinnudagsetningu til að framkvæma verk, eins og að klára færslur fyrir dagsetningu sem er ekki núverandi dagsetning.
@@ -52,14 +52,14 @@ Sjálfgefin vinnudagsetning er yfirleitt dagurinn í dag. Þú gætir þúrft a�
 > [!IMPORTANT]  
 >   Vinnudagsetningunni er aðeins breytt þar til fyrirtækinu er lokað eða dagsetningin breytist. Ef annað fyrirtæki er opnað, eða þegar sama fyrirtækið er opnað aftur næsta dag og enn er þörf á að nota aðra dagsetningu en kerfisdagsetninguna þá verður að stilla vinnudagsetninguna aftur.
 
-## <a name="region"></a>Svæði
+## <a name="region"></a> Svæði
 **Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir.   
 
 
-## <a name="language"></a>Tungumál
+## <a name="language"></a> Tungumál
 Breyta birtingartungumáli. Þessi reitur birtist aðeins þegar meira en eitt tungumál er að velja úr. 
 
-Upphafstungumálið er annaðhvort ákveðið af kerfisstjóra eða stillingum vafrans þegar þú skráir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tungumálið sem þú setur verður notað á öllum tækjum sem þú skráir þig inn í, svo sem síma eða spjaldtölvu. 
+Upphafstungumálið er annaðhvort ákveðið af kerfisstjóra eða stillingum vafrans þegar þú skráir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tungumálið sem þú setur verður notað á öllum tækjum sem þú skráir þig inn í, svo sem síma eða spjaldtölvu.
 
 ## <a name="changing-when-i-receive-notifications"></a>Breyta þegar ég fæ tilkynningar
 Velja þennan hlekk til að skoða eða breyta tilkynningum um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu, eða þegar tiltækar birgðir eru lægri en magnið sem þú ert að fara að selja. Frekari upplýsingar, sjá [Snjall-tilkynningar](ui-smart-notifications.md).

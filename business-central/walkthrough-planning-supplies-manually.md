@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2992c2a9cbd2142e69cfb59294791ec31ce4dcb1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fafe6aa28b61960ea028755f3308155aa1633b60
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Kynning: Handvirk áætlun birgða
@@ -69,7 +69,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 ### <a name="to-use-the-order-planning-window"></a>Til að nota gluggann Pantanaáætlun  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **pantanaáætlun** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **pantanaáætlun** og veldu síðan tengda tengilinn.  
 
      Eftir að glugginn **Pantanaáætlun** opnast fyrst þarf að reikna áætlun til að sýna nýja eftirspurn frá því hún var reiknuð síðast.  
 
@@ -227,7 +227,7 @@ The **Order Planning** window can be accessed from several different locations o
 
      Skilaboðin segja til um að allir tilskildir hlutir séu nú til staðar (að til sé framboð af þeim). Staðfesta fastáætlaðar framleiðslupantanir sem eru stofnaðar.  
 
-13. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Fastáætluð framleiðslupöntun** og velja svo viðeigandi tengil.  
+13. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pantanir** og veldu síðan tengda tengilinn.  
 
      Í glugganum **Fastáætlað** farið yfir hvernig upphafs- og lokatími einstakra pantana er áætlaður út frá samsetningu framleiðslunnar. Íhlutir á neðsta þrepi eru framleiddir fyrst. Því þarf að áætla pantanir í mörgum þrepum eins og sýnt er í þessu verkflæði fyrir áætlanir.  
 

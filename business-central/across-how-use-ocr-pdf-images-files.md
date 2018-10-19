@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 8a9b5911008c8524490bf895ee3a21394cad4fbe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: eb61eeb0a044a270a8ead5464919ce537cb356b5
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl
@@ -30,7 +30,7 @@ Vegna þess að OCR byggist á sjónrænum stafakennslum getur OCR-þjónustan t
 Umferð skráa til og frá OCR þjónustu er unnin af sérstakri verkraðarfærslu, sem eru búin til sjálfkrafa þegar þú kveikir á viðeigandi þjónustu tengingu. Frekari upplýsingar eru í [Setja upp skjöl á innleið](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Til að senda PDF eða myndaskrá til OCR þjónustu frá glugganum **Skjöl á innleið**.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **skjöl á innleið** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skjöl á innleið** og veldu síðan tengda tengilinn.
 2. Búið til nýja færslu fyrir skjal á innleið og hengið skrána við. Frekari upplýsingar eru í [Stofna færslur skjala á innleið](across-how-create-income-document-records.md).  
 3. Í glugganum **skjöl á innleið**, á veldu eina eða fleiri línur og veldu svo **Senda í verkröð** aðgerðina.
 
@@ -109,7 +109,7 @@ Vegna þess að OCR byggist á sjónrænum stafakennslum getur OCR-þjónustan t
 
 Glugginn **OCR-gagnalreiðrétting**, sem er opnaður úr glugga **skjal á innleið**, birtir reiti úr flýtiflipanum **Fjárhagsupplýsingar** í tveimur dálkum, einum þar sem hægt er að breyta OCR-gögnum og öðrum þar sem OCR-gögnin eru skrifvarin. Þegar hnappurinn **Senda leiðréttingarathugasemdir** er valinn er innihald gluggans **OCR-gagnalreiðrétting** sent OCR-þjónustunni. Næst þegar þjónustuaðilinn vinnur úr PDF-skjali eða myndaskrá sem inniheldur umrædd gögn verða stuðst við leiðréttingar notanda til að komast hjá sömu villu.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **skjöl á innleið** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skjöl á innleið** og veldu síðan tengda tengilinn.
 2. Opnaðu færslu fyrir skjal á innleið semn inniheldur gögn sem berast frá OCR þjónustu, sem þú vilt leiðrétta.
 3. Í glugganum **Skjal á innleið** skal velja aðgerðina **leiðrétta OCR-gögn**
 4. Í glugganum **OCR-gagnalreiðrétting** skal yfirskrifa gögnin í dálkinum sem hægt er að breyta fyrir hvern reit með rangt gildi.

@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b36df4ccf85ce9126fe1090e86d2549737e3195
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 03c9439bde3a8e5b1c1caaeae362fcd6609f7a63
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu | Microsoft Docs
+# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu
 Þessi aðgerð er framkvæmd í glugganum **Framleiðslubók**. Bókin sameinar aðgerðir notkunarbókar og afkastabókar í eina bók sem hægt er komast í beint úr framleiðslupöntun. Hún er notuð í handvirka bókun íhlutanotkunar, lokamagns framleiddra vara og tíma sem fer í aðgerðir. Megintilgangur hennar er að bóka handvirkt notkun íhluta, magn framleiddra endanlegra vara og stundir sem búið er að eyða í aðgerðir. Gildin eru bókuð í fjárhagsfærslur undir útgefnu framleiðslupöntuninni. Notkunarmagn bókað sem neikvæðar Færslur í birgðafærslum, Frálagsmagn er bókað sem jákvæðar birgðafærslur og tími sem varið er er bókaður sem afkastagetufærslur. Þessi bókuðu gildi er einnig hægt að skoða neðst í bókinni sem raunverulegt magn.  
 
 > [!NOTE]  
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/22/2018
 >  Íhlutir án leiðartengilskóta er skráðir fyrst í bókina.  
 
 ## <a name="to-register-consumption-and-output"></a>Notkun og frálag skráð  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Útgefnar framleiðslupantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Losaðar framl.pantanir** og veldu síðan tengda tengilinn.  
 2.  Opna skal útgefna framleiðslupöntunarlínu sem er tilbúin til skráningar, og svo á flýtiflipanum **Línur** skal velja **Lína**, aðgerðina og svo **Framleiðslubók** aðgerðina.  
 
     Þegar glugginn **Framleiðslubók** er opnaður birtast bókarlínur fyrir framleiðslupöntunarlínu í samræmi við gluggana **Framl.pöntunaríhlutur** og **Leið framl.pöntunar**. Þessar línur koma úr framleiðsluuppskriftinni og leiðum sem úthlutað er á vöruna sem verið er að framleiða. Frekari upplýsingar eru í [Stofna framleiðsluuppskriftir](production-how-to-create-routings.md).  

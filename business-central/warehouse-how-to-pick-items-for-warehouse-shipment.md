@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e58c5da8b1364b2c9035188c847176f1ea0aaf73
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Tína vörur fyrir vöruhúsaafhendingu
@@ -40,7 +40,7 @@ Einnig er hægt að stofna vöruhúsatínsluskjöl í eins og ýtingu í gluggan
 >  Upplýsingar um almenna tínslu íhluta fyrir samsetningarpantanir, þar á meðal þegar samsetningaríhlutur er ekki hluti af söluafhendingu, eru í [Tína fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Til að tína vörur fyrir vöruhúsaafhendingu  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Tínsla** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínsla** og veldu síðan tengda tengilinn.  
 
     Ef nauðsynlegt er að vinna í tiltekinni tínslu, er tínslan valin af lista eða listi afmarkaður til að vinna tínslu sem hafa verið úthlutað notandanum sérstaklega. Tínsluspjaldið er opnað.  
 2.  Ef reiturinn **Úthlutað notandakenni** er auður færir notandinn notandakennið inn til að auðkenna sig, ef þess þarf.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0fd098170ac96b03f6f1da64b8de23b3f500c565
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-routings"></a>Stofna leiðir
@@ -32,7 +32,7 @@ Varðandi framleiðsluuppskriftir, er leiðunum úthlutað til endanlegrar framl
 - Framleiðsluforði eru uppsettur. Frekari upplýsingar eru í [Setja upp vinnustöðvar og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Stofna leið  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **leiðir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **leiðir** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Í reitnum **Tegund**, veljið **Í röð** til að reikna framl. leiðina samkvæmt gildinu í reitnum **Aðgerðarnr.**. .   
@@ -63,7 +63,7 @@ Hægt að búa til leiðartengla til að tengja íhluti við ákveðnar aðgerð
 
 Annar mikilvægur kostur er sá að tenging íhluta og aðgerða er birt í rökrænni uppbyggingu framvindu þegar **framleiðslubókin** er notuð í bókanir frálags og notkunar.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **leiðir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **leiðir** og veldu síðan tengda tengilinn.  
 2.  Opna skal leiðina með aðgerðunum sem á að tengja.  
 
     Tryggja þarf að staða leiðar sé **Í þróun**.  
@@ -94,7 +94,7 @@ Valdir íhlutir verða nú tengdir við valdar aðgerðir þegar framleiðslupö
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Úthluta starfsmönnum, verkfærum og gæðaráðstöfunum til leiðaraðgerðir.
 Ef krafist er starfsmanna með sérþekkingu eða sérstaka heimild fyrir aðgerðinni má úthluta viðkomandi starfsmönnum á aðgerðina. Að auki geturðu úthlutað verkfærum og gæðaráðstöfunum til aðgerðarinnar. Þetta ferli lýsir því hvernig skal úthluta starfsmönnum. Skrefin eru svipuð fyrir aðrar gerðir aðgerðaupplýsinga.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **leiðir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **leiðir** og veldu síðan tengda tengilinn.  
 2.  Viðeigandi leið er opnuð.  
 3.  Á flýtiflipanum **Línur** skal velja línuna sem á að vinna úr og svo velja aðgerðina **Starfsmenn**.  
 4.  Reitirnir í glugganum **Starfsmenn leiðar** eru fylltir út.  
@@ -103,7 +103,7 @@ Ef krafist er starfsmanna með sérþekkingu eða sérstaka heimild fyrir aðger
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Gerð nýrra útgáfa af leiðum:  
 Með útgáfureglunni er hægt að fást við margar útgáfur. Skipulag leiðaútgáfunnar samsvarar skipulagi leiðarinnar sem felur í sér leiðaútgáfuhaus og leiðaútgáfulínur. Aðalmunurinn ræðst af upphafsdagsetningunni.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **leiðir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **leiðir** og veldu síðan tengda tengilinn.  
 2.  Leið sem á að afrita er valin og svo er aðgerðin **Útgáfur** valin.  
 3. Í glugganum **Leiðarútgáfur** skal velja aðgerðina **Nýtt**.
 4. Fyllið inn í reitina eftir þörfum.

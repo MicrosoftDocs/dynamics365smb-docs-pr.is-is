@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 52290609eca12eb09f9d1065b1013baeee5b8a5b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fcbecbf6a90e60a49c7861e16614b98174379bed
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="receive-items"></a>Móttaka vara
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-receive-items-with-a-purchase-order"></a>Vörur mótteknar með innkaupapöntun
 Eftirfarandi lýsir því hvernig skal taka á móti vörum með innkaupapöntun. Skrefin eru svipuð fyrir söluvöruskilapöntun og millifærslupantanir.  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupapantanir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.
 2. Opna innkaupapöntun sem þegar er til eða stofna nýja. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 3. Í reitnum **Magn til móttöku** er fært inn magnið sem hefur verið móttekið.
 
@@ -34,7 +34,7 @@ Eftirfarandi lýsir því hvernig skal taka á móti vörum með innkaupapöntun
 4. Valið er **Bóka** aðgerðin.
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Vörur mótteknar með vöruhúsamóttöku
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vöruhúsamóttaka** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsamóttaka** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 
     Fyllt er út í reitina á flýtiflipanum **Almennt**. Þegar upprunaskjalalínur eru sóttar er eitthvað af upplýsingunum afritað í hverja línu.  

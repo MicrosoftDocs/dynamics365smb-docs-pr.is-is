@@ -8,28 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b7a125335d0e0420bd65a45051f625c9e753b522
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e251cd1aa071484cbf235feee6f0e891f27020e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-service-items"></a>Stofna þjónustuatriði
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] vísar hugtakið „þjónustuvara“ til búnaðar eða vöru þarfnast þjónustu. Þegar þú stofnar þjónustupöntun, tilgreinirðu vöruna sem þarfnast þjónustu. Í pöntuninni geturðu tengt þjónustuvöru við vöru í birgðum eða þjónustuvöruflokk.    
 
-Þegar tekið er við vöru sem þarfnast þjónustu má skrá hana sem þjónustuvöru. Hægt er gera það á nokkra vegu: Þú getur t.d. stofnað þjónustuvöru á **Þjónustuvörur** síðunni, eða sem hluta af öðru ferli, eins og þegar þú vinnur með þjónustupöntun.   
+Þegar tekið er við vöru sem þarfnast þjónustu má skrá hana sem þjónustuvöru. Hægt er gera það á nokkra vegu: Þú getur t.d. stofnað þjónustuvöru í **Þjónustuvörur** glugganum, eða sem hluta af öðru ferli, eins og þegar þú vinnur með þjónustupöntun.   
 
 ## <a name="to-create-a-service-item"></a>Þjónustuvörur stofnaðar:  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuvörur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvörur** og veldu síðan tengda hlekkinn.
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Þjónustuvörur stofnaðar út frá þjónustupöntunum  
 Þegar tekið er við vöru til þjónustu og þarf að skrá hana sem þjónustuvöru er hægt að stofna þjónustuvöru í gluggunum **Þjónustupöntun** eða **Þjónustutilboð**.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Þjónustupantanir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Veljið aðgerðina **Stofna þjónustuvara**.  
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 03/22/2018
 
 Eftirfarandi aðferð sýnir hvernig stofna má þjónustuvöru þegar þjónustupöntun er send.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Þjónustupantanir** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi þjónustupöntun.  
 3. Veljið aðgerðina **bóka** eða **Bóka og prenta**.  
 4. Velja **Afhenda** eða **Afhenda og reikningsfæra** aðgerðina.  
@@ -52,7 +52,7 @@ Eftirfarandi aðferð sýnir hvernig stofna má þjónustuvöru þegar þjónust
 >  Ef vara er uppskrift og ekki búið að opna uppskriftina eru þjónustuvörur stofnaðar fyrir hana eftir skilyrðinu um þjónustuvöruflokk, og ef vill, raðnúmer.  
 
 ## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Upphafsgjald vegna þjónustuvöru sett inn:
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Þjónustuverkhlutar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverk** og veldu síðan tengda hlekkinn.
 2. Velja aðgerðina **Vöruvinnublað**.
 3. Velja þjónustulínuna og síðan **Aðgerðir**, velja **Aðgerðir** og síðan velja **Setja inn upphafsgjald** aðgerðina.  
 

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dbf3a53272a6da5c7e2adbb43557159b6f266f52
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6739a7fc1400e9c1cfbc276c0a9ebeb3f95467b2
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss
@@ -55,14 +55,14 @@ Til að ljúka þessari kynningu þarf:
 -   CRONUS  International Ltd. er uppsett.  
 -   Til að gera notanda að starfsmanni vöruhúss í SILVER staðsetningu á eftirfarandi hátt:  
 
-    1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **starfsmenn vöruhúss** og velja svo viðeigandi tengil.  
+    1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsfólk vöruhúss** og veldu síðan tengda tengilinn.  
     2.  Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda í glugganum **Notendur**.  
     3.  Í reitnum **Staðsetningarkóði** er fært inn SILVER.  
     4.  Veljið reitinn **Sjálfgefið**.  
 
 -   Gerið vöru LS-81 tiltæka í SILFUR staðsetningu á eftirfarandi hátt:  
 
-    1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðafærslubækur** og velja svo viðeigandi tengil.  
+    1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðabækur** og veldu síðan tengda tengilinn.  
     2.  Opnið sjálfgefnu færslubókina og stofnið tvær birgðabókarlínur með eftirfarandi upplýsingum um vinnudagsetninguna (Janúar 23).  
 
         |Tegund færslu|Vörunúmer|Staðsetningarkóði|Hólfkóti|Magn|  
@@ -79,7 +79,7 @@ Stjórnandi vöruhússins hjá CRONUS, Ellen, setur upp SILVER-vöruhúss fyrir 
 Uppsetning gluggans **Birgðageymsluspjald** skilgreinir vöruhúsaflæði fyrirtækisins.  
 
 ### <a name="to-set-up-the-location"></a>Uppsetning staðsetningar  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
 2.  SILVER-staðsetningarspjaldið er opnað.  
 3.  Veljið gátreitinn **Taka til**.  
 
@@ -87,7 +87,7 @@ Uppsetning gluggans **Birgðageymsluspjald** skilgreinir vöruhúsaflæði fyrir
 Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.  
 
 ### <a name="to-create-the-sales-order"></a>Stofna sölupöntun.  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Stofna sölupöntun fyrir viðskiptamann 10000 á vinnudeginum (23. Janúar) með eftirfarandi sölupöntunarlínu.  
 
@@ -105,7 +105,7 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
 Í glugganum **Birgðatínsla** er hægt að meðhöndla alla virkni vöruhúss á útleið fyrir tiltekið upprunaskjal, til dæmis sölupöntun.  
 
 ### <a name="to-pick-and-ship-items"></a>Til að tína og senda vörur  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðatínsla** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínsla** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Veljið reitinn **Upprunaskjal** og svo **Sölupöntun**.  
 4.  Veldu reitinn **Upprunanr.**, velja línuna fyrir sölu til viðskiptamanns 10000 og skal velja svo hnappinn **Í lagi**.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/01/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: caa494729c4408334fadd50903f0d17df330409d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 22d79f478486bc2a7a58545345d604ac3ddd9755
 ms.contentlocale: is-is
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Vöruhúsastjórnun sett upp
@@ -41,7 +41,7 @@ Dreifingaráætlun fyrirtækis endurspeglast í grunnstillingu á vinnslum vöru
 |Gera vöruhúsastarfsmönnum kleift að brjóta stærri mælieiningu niður í smærri mælieiningar til að uppfylla þarfir upprunaskjala.|[Virkja sjálfvirk einingaskipti með beinum frágangi og tínslu](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Setja upp vöruhús þannig að það stingi sjálfkrafa upp á vörum til tínslu sem munu renna út fyrstar.|[Virkja tínslu eftir FEFO](warehouse-picking-by-fefo.md)|
 |Fá ábendingar um hvernig á að endurskipuleggja birgðageymslur, hólf eða svæði til þess að auka skilvirkni vöruhúsaaðgerða.|[Endurskipulagning vöruhúsa](warehouse-how-to-restructure-warehouses.md)|
-<!-- |Samlaga strikamerkjalesara að vöruhúsakerfislausninni.|[Nota sjálfvirkt gagnatökukerfi (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
+|Samlaga strikamerkjalesara að vöruhúsakerfislausninni.|[Nota sjálfvirkt gagnatökukerfi (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

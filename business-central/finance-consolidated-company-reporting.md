@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 07/14/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9309868cbcee8fb969c318acfb6ce8844e78b687
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 035eb85050ec6feb9e65ee924ebf4dbd2064e5ba
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -55,7 +55,7 @@ Ef þörf er á fleiri ítarlegum stillingum fyrir samstæðuna, geturðu sett u
 [!INCLUDE[d365fin](includes/d365fin_md.md)] gerir þér kleift að setja upp lista af fyrirtækjum sem steypa á saman, staðfesta bókhaldsgögn áður en þau eru flutt inn í samstæðu, flytja inn skrár og búa til samstæðuskýrslur.  
 
 1. Skráðu þig inn samstæðufyrirtækið.
-2. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fyrirtækjaeiningar** og velja svo viðeigandi tengil.  
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **fyrirtækiseining** og veldu síðan tengda tengilinn.  
 3. Veljið **Nýtt** og fyllið svo inn í viðeigandi svæði.  
 
 Ef fyrirtækið þitt notast við erlendan gjaldmiðil, er nauðsynlegt að tiltaka gengið sem nota skal í samstæðunni. Einnig verðu að slá inn samstæðuupplýsingar um fjárhagsreikninga fyrirtækiseiningarinnar. Þessum ferlum er lýst í eftirfarandi hlutum.
@@ -63,7 +63,7 @@ Ef fyrirtækið þitt notast við erlendan gjaldmiðil, er nauðsynlegt að tilt
 ### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Undirbúa fjárhagslykla fyrir samlegð
 Ef bókhaldslyklar í fyrirtækjaeiningunni eru ekki þeir sömu og í samstæðufyrirtækinu er nauðsynlegt að búa til fjárhagslykla fyrir samlegðina. Þú getur tilgreint reikninga sem bóka á debet og kredit á, sem og þá aðferð sem nota skal við að umreikna gjaldmiðil í samstæðufyrirtækinu. Þetta er til dæmis gagnlegt ef þú keyrir skýrsluna oft.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bókhaldslykill** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
 2. Opnaðu kortið fyrir reikninginn og fylltu svo út í reitina á **Samstæða** flýtiflipanum.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Að tilgreina gengi gjaldmiðla áður en fyrirtækjum er steypt saman
@@ -82,9 +82,9 @@ Ef fyrirtækjaeining notar annan gjaldmiðil en samstæðufyrirtækið, er nauð
 
 Til að tilgreina gengi gjaldmiðla fyrir fyrirtækiseiningar, skal fylgja eftirfarandi skrefum:
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fyrirtækjaeiningar** og velja svo viðeigandi tengil.  
-2. Á síðunni **Listi yfir fyrirtækiseiningar** skal velja fyrirtækiseininguna, og síðan **Meðalgengi (handvirkt)** aðgerðina.   
-3. Á síðunni **Breyta gengi gjaldmiðils** hefur efni í reitnum **Viðmiðunargengi** verið afritað úr töflunni **Gengi gjaldmiðils** en hægt er að breyta því. Lokaðu síðunni.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **fyrirtækiseining** og veldu síðan tengda tengilinn.  
+2. Í glugganum **Listi yfir fyrirtækiseiningar** skal velja fyrirtækiseininguna, og **Meðalgengi (handvirkt)** aðgerðina.   
+3. Í glugganum **Breyta gengi** hefur efni í reitnum **Upphæð viðmiðunargengis** verið afritað úr töflunni **Gengi gjaldmiðils** en hægt er að breyta því. Lokaðu síðunni.  
 4. Veldu aðgerðina **Lokagengi**.  
 5. Í reitnum **Upphæð viðmiðunargengis** skal færa inn gengið.
 
@@ -108,7 +108,7 @@ Ef þú átt aðeins hlut í fyrirtæki geturðu tengt prósentutölu, sem samsv
 Þú getur framkvæmt gagnaprófun áður en þú sendir gögnin í samstæðufyrirtækið. [!INCLUDE[d365fin](includes/d365fin_md.md)] athugar muninn á upplýsingunum í fyrirtækiseiningunum og samstæðufyrirtækinu. Til dæmis hvort munur er á reikningsnúmerum og víddarkóðum. Áður en hægt er að keyra skýrsluna verður að leiðrétta villur. Þú getur framkvæmt prófanir á gagnagrunninum, eða skránni, ef þú ert að flytja inn gögn frá XML skrá.   
 
 1. Samsteypufyrirtækið er opnað.  
-2. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Fyrirtækjaeiningar** og velja svo viðeigandi tengil.  
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **fyrirtækiseining** og veldu síðan tengda tengilinn.  
 3. Gert er eitt af eftirfarandi:  
 
     * Til að framkvæma prófun á skrá, skal velja **Prófa skrá** aðgerðina, slá inn nafn skrárinnar sem á að prófa og velja síðan **Prenta**.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 825e901b4126dc1ba317527862eb459559ecb538
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f930a9a2e303c0dcc0a3604cc43b919690d6f96f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa
@@ -58,7 +58,7 @@ Til að sannprófa verkflæði samþykktar, skráir Sean sig fyrir inn í [!INCL
 7.  Loka á **Staðbundnir notendur og hópar** gluggann.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>Til að bæta Alicia við sem notanda í [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Notendur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **notendur** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Windows Notendur** á flipanum **Heim** í flokknum **Nýtt** veljið **Nýtt**.  
 3.  Í glugganum **Notandaspjald** í reitnum **Notandanafn** skal færa inn Alicia.  
 4.  Í reitnum **Windows notandanafn** skal velja hnappinn AssistEdit.  
@@ -72,7 +72,7 @@ Til að sannprófa verkflæði samþykktar, skráir Sean sig fyrir inn í [!INCL
 Með því að nota notanda Windows sem var verið að stofna, settu upp Alicia sem samþykktar notanda þar sem þú ert samþykkjandi hennar. Settu upp að samþykktarréttindi þín og tilgreindu hvernig og hvenær þú færð tilkynningu um samþykktarbeiðni.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Til að setja upp þig sjálfan og Alicia sem notendur samþykki  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning samþykkts notanda** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **samþykki notandauppsetningar** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Notanandauppsetning samþykktar** á flipanum **Heim** í flokknum **Nýtt** veljið **Nýtt**.  
 
     > [!NOTE]  
@@ -103,7 +103,7 @@ Tilgreina hvernig og hvenær þú færð tilkynningu um beiðnir um samþykki.
  Stofna samþykktarverkflæði fyrir innkaupapöntun með því að afrita skref úr verkflæðissniðmáti fyrir samþykktarverkflæði innkaupapöntunar. Hafið fyrirliggjandi verkflæðisþrep óbreyttar og virkið þau síðan í verkflæði.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Til að stofnaog virkja samþykktarverkflæði innkaupapöntunar  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkflæði** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **verkflæði** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Verkflæði** á flipanum **Aðgerðir** í hópnum **Almennt** skal velja **Stofna verkflæði úr sniðmáti**.  
 3.  Á flipanum **Aðgerðir** í hópnum **Almennt** skal velja **Stofna verkflæði úr sniðmáti**. Glugginn **sniðmát verkflæðis** opnast.  
 4.  Veljið verkflæðissniðmát með heitinu „Samþykktarverkflæði innkaupapöntunar“ og veljið síðan hnappinn **Í lagi**.  
@@ -115,7 +115,7 @@ Tilgreina hvernig og hvenær þú færð tilkynningu um beiðnir um samþykki.
 Ganga skal úr skugga um að verkröð í uppsetningu sé sett upp þannig að hún meðhöndli verkflæðistilkynningar.  
 
 ### <a name="to-start-the-notify-job-queue"></a>Til að ræsa verkröðina TILKYNNA  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkraðir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkraðir** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Verkraðir** skal velja línuna TILKYNNA verkröð og svo, á flipanum **Heim** í hópnum **Ferli**, skal velja **Hefja verkröð**.  
 
 ## <a name="using-the-approval-workflow"></a>Að nota samþykktarverkflæði  
@@ -133,7 +133,7 @@ Til að framkvæma innskráningu í [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Til að óska eftir samþykki á innkaupapöntun, sem Alicia  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupapantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.  
 2.  Veljið línuna fyrir opna innkaupapöntun 104001 og því næst á flipanum **Heim** í flokknum **Stjórna** skal velja **Breyta**.  
 3.  Í glugganum **Innkaupapöntun** og á flipanum **Aðgerðir** í hópnum **Samþykki** skal velja **Senda samþykktarbeiðni**.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cd7561e97439b6ffcac28937a24b75a11bb31987
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d8f900e61628960f2a64f609f62dc8465722770c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-resources-for-jobs"></a>Nota tilföng fyrir verk
@@ -28,14 +28,14 @@ Einnig er hægt að bóka notkun forða í forðabók. Færslur sem bókaðar er
 Forða er úthlutað á verk með því að búa til verkáætlunarlínur fyrir verkið. Frekari upplýsingar eru í [Stofna verk](projects-how-create-jobs.md).
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Til að skrá notkun forða fyrir verk
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkbækur** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.
 2. Opnið viðeigandi verkbókarfærslu og fyllið út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Þegar færslubókin er tilbúin skal velja aðgerðina **Bóka**.
 
 ## <a name="to-adjust-resource-prices"></a>Til að leiðrétta forðaverð
 Ef breyta á kostnaði eða verði á mörgum tegundum forða er hægt að nota keyrslu.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Leiðrétta forðakostnað/verð** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stilla forðakostnað/verð** og veldu síðan tengda tengilinn.
 2. Fyllið út reitina í línu eins og þörf krefur og veljið svo hnappinn **Í lagi**.
 
 > [!NOTE]  
@@ -44,7 +44,7 @@ Ef breyta á kostnaði eða verði á mörgum tegundum forða er hægt að nota 
 ## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Til að fá verðbreytingatillögur forða út frá fyrirliggjandi öðru verði
 Ef þegar er búið að setja upp annað verð fyrir hluta af forðanum er hægt að nota keyrslu til að setja upp fleiri önnur forðaverð.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Breytingar á forðaverði** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verðbreytingar forða** og veldu síðan tengda tengilinn.
 2. Veljið aðgerðina **Tillaga forðaverðbr. (verð)** og fyllið svo út reitina eins og þörf krefur.
 3. Velja hnappinn **Í lagi**.  
 4. Þegar keyrslunni lýkur má sjá niðurstöður keyrslunnar í glugganum **Verðbreytingar forða**.
@@ -52,7 +52,7 @@ Ef þegar er búið að setja upp annað verð fyrir hluta af forðanum er hægt
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Búa til verðbreytingatillögur forða út frá stöðluðu verði:
 Ef setja á upp fleiri en eitt annað verð á forða út frá stöðluðu verði á forðaspjöldunum er hægt að nota keyrslu.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Breytingar á forðaverði** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verðbreytingar forða** og veldu síðan tengda tengilinn.
 2. Veljið aðgerðina **Tillaga forðaverðbr. (forði)** og fyllið svo út reitina eins og þörf krefur.  
 3. Velja hnappinn **Í lagi**.  
 4. Þegar keyrslunni lýkur er glugginn **Verðbreytingar forða** opnaður til að sjá niðurstöður keyrslunnar.
@@ -60,7 +60,7 @@ Ef setja á upp fleiri en eitt annað verð á forða út frá stöðluðu verð
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Til að fá verðbreytingatillögur forða út frá öðru verði
 Ef þegar er búið að setja upp annað verð fyrir hluta af forðanum er hægt að nota keyrslu til að setja upp fleiri önnur forðaverð.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Tillaga forðaverðbr. (Verð)** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tillögur um verðbreytingar forða** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
 3. Velja hnappinn **Í lagi**.  
 4. Þegar keyrslunni lýkur er glugginn **Verðbreytingar forða** opnaður til að sjá niðurstöður keyrslunnar.

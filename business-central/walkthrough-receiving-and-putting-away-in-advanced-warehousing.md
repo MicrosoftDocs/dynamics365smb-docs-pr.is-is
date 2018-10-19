@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3c1f7a6d08ac03da0d89bad464784b71249c36a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4eddb7fb118f7e410448cebf4497857532f936db
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Kynning: Móttaka og Frágangur í ítarlegri grunngerð vöruhúss
@@ -55,7 +55,7 @@ Til að ljúka þessari kynningu þarf:
 -   CRONUS  International Ltd. er uppsett.  
 -   Notandi verður að starfsmanni vöruhúss í hvítri birgðageymslu á eftirfarandi hátt:  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **starfsmenn vöruhúss** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsfólk vöruhúss** og veldu síðan tengda tengilinn.  
 2.  Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda í glugganum **Notendur**.  
 3.  Í reitnum **Birgðageymslu kóti** færið inn HVÍTT.  
 4.  Veljið reitinn **Sjálfgefið**.  
@@ -68,7 +68,7 @@ Uppsetning gluggans **Birgðageymsluspjald** skilgreinir vöruhúsaflæði fyrir
 
 ### <a name="to-review-the-location-setup"></a>Til að fara yfir uppsetningu birgðageymslunnar  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Staðsetningar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
 2.  HVÍTT-staðsetningarspjaldið er opnað.  
 3.  Athugasemd á flýtiflipanum **Vöruhús** um að gátmerkið **Beinn frágangur og tínsla** hafi verið valið.  
 
@@ -83,7 +83,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 
 ### <a name="to-create-the-purchase-orders"></a>Innkaupapantanir stofnaðar  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupapantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Stofna innkaupapöntun fyrir lánardrottinn 10000 á vinnudeginum (23. Janúar) með eftirfarandi innkaupapöntunarlínum.  
 
@@ -114,7 +114,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 Í glugganum **Vöruhús móttaka** er hægt að meðhöndla margar pantanir á innleið fyrir upprunaskjöl, til dæmis innkaupapantanir.  
 
 ### <a name="to-receive-the-items"></a>Vörurnar mótteknar  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vöruhúsamóttaka** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsamóttaka** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Í reitnum **Birgðageymslu kóti** færið inn HVÍTT.  
 4.  Velja skal **Nota afmarkanir til að sækja uppr.skjöl.** aðgerðina.  
@@ -132,7 +132,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 Í **Frágangur vöruhúss** glugganum er hægt að vinna með frágang fyrir tiltekið vöruhúsamóttökuskjal sem nær til margra upprunaskjala. Eins og í öllum vöruhúsaaðgerðaskjölum eru Taka- og Setja-línur fyrir hverja vöru í frágangi vöruhúss. Í eftirfarandi aðgerð er hólfkótinn í Taka-línunum sjálfgefna móttökuhólfið í HVÍTU staðsetningunni W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Til að ganga frá vörunum  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Frágangur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **frágangur** og veldu síðan tengda tengilinn.  
 2.  Veldu eina vöruhúsafrágangsskjalið á listanum og flipanum **Heim** í flokknum **Stjórna** skaltu velja **Breyta**.  
 
     Vöruhúsafrágangsskjölin opnast með átta Taka- eða Setja-línum fyrir innkaupapöntunarlínurnar fjórar.

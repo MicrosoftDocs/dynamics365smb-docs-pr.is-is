@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 17b01bdec7f5b785b22ad7c295e1c1c3002a4b70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 94fe194350eeb7e83ce443452cf876f6e498ca27
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-pre-closing-reports"></a>Nota skýrslur fyrir lokun
@@ -35,7 +35,7 @@ Eftirfarandi tafla lýsir fjölda skýrslna sem kunna að vera gagnlegar í þes
 | Prenta prófjöfnunarskýrslu með stöðum og hreyfingum helstu fjárhagsreikninga. |Prófjöfnuður |
 | Prenta út prófjöfnunarskýrslu fyrir samsteypufyrirtæki. |Samstæða - Prófjöfnuður |
 
-Til að sjá skýrslu skal velja ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn nafnið eins og það birtist í töflunni, og velja síðan viðeigandi tengil.
+Til að sjá skýrslu skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn heitið eins og það birtist í töflunni og velja svo tengdan tengil.
 
 ## <a name="see-also"></a>Sjá einnig
 [Lokaár og Tímabil](year-close-years-periods.md)  

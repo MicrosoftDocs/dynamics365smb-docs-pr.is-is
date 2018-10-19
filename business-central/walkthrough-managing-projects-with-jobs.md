@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d84006db69beee153aeecdd38ecfcae197c1ad9f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 11c1f56847102ed5f1b323a54bdcfb263c0fdda9
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Kynning: Stýring verkefna með verkum
@@ -76,7 +76,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="to-prepare-the-sample-data"></a>Til að undirbúa sýnigögnin  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forði** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tilföng** og veldu síðan tengda tengilinn.  
 2.  Veljið aðgerðina **Nýtt** til að Búa til nýtt forðaspjald.  
 3.  Á flýtiflipanum **Almennt** eru eftirfarandi upplýsingar slegnar inn:  
 
@@ -99,7 +99,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="to-create-a-job-journal-batch"></a>Til að búa til verkbókarkeyrslu  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkbækur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Verkbók** veljið reitinn **Heiti keyrslu**. Glugginn **Bókarkeyrsla verks** opnast.  
 3.  Veljið aðgerðina **Nýtt** til að Búa til nýtt Ný lína er stofnuð með eftirfarandi upplýsingum  
 
@@ -114,7 +114,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="to-set-up-a-job"></a>Uppsetning verks  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2.  Veljið aðgerðina **Nýtt** til að Búa til nýtt spjald.  
 3.  Á flýtiflipanum **Almennt** eru eftirfarandi upplýsingar slegnar inn:  
 
@@ -235,7 +235,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="to-calculate-remaining-usage"></a>Eftirstöðvar notkunar reiknaðar  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkbækur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Verkbók** í reitnum **Heiti keyrslu** er listinn **Verkbókarkeyrslur** opnaður. Velja skal verkbókarkeyrsluna **Trausti**.  
 3.  Veljið aðgerðina **Reikna eftirstandandi notkun**.  
 4.  Í glugganum **Verk - Reikna eftirstandandi notkun** á flýtiflipanum **Verkhluti** veljið reitinn **Verk nr.** og veljið viðeigandi verknúmer, yfirleitt verk J 00010.  
@@ -251,7 +251,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="to-create-a-job-sales-invoice"></a>Stofnun reiknings fyrir verksölu  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2.  Veljið verkið sem var stofnað áður og veljið því næst **Stofna verksölureikningur** aðgerðina.  
 3.  Á flýtiflipanum **Verkhluti verks**, skal hreinsa hverja þá afmörkun á **Verkhlutanr. verks** til að reikningsfæra verkið. Í reitnum **Verk nr.** er viðeigandi verk valið.  
 4.  Í flipanum  **Valkostir** er bókunardagsetningin færð inn og skilgreint hvort stofna eigi einn reikning fyrir hvert verk eða einn fyrir öll verk.  
@@ -261,7 +261,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="to-post-a-new-sales-invoice"></a>Nýr sölureikningur bókaður  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupareikningar** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölureikningar** og veldu síðan tengda tengilinn.  
 2.  Reikningur er valinn fyrir viðskiptamann Nr. 01445544. Sjá má upplýsingarnar sem slegnar voru inn frá áætlunarlínunum.  
 3.  Valið er **Bóka** aðgerðin. Velja **Já** til að staðfesta bókun.  
 
@@ -275,7 +275,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="to-open-the-statistics-window"></a>Tölfræðiglugginn opnaður  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2.  Veldu **Upplýsingar** aðgerðina. Hægt er að fara yfir nákvæmar upplýsingar um verkkostnað, kostnað og hagnað í bæði innlendri og erlendri mynt.  
 3.  Velja hnappinn **Loka** til að loka glugganum **Verkupplýsingar**.  
 
@@ -284,7 +284,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Föstu verði verka stýrt  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2.  **Guildford** verknúmerið er valið og svo er valin **Verkhlutalínur verks** aðgerðina.  
 3.  Lína 1120 er valin og í reitnum **Tímasetning (heildarkostnaður)** er hægrismellt á upphæðina og valið **Köfun**.  
 
@@ -306,7 +306,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Tímum bætt í Verkbókina  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkbækur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.  
 2.  Eftirfarandi upplýsingar eru slegnar inn á nýja línu:  
 
     -   **Tegund línu**: **(autt)**  
@@ -365,7 +365,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="to-copy-a-job"></a>Verk afritað  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2.  Veljið aðgerðina **Nýtt** til að Búa til nýtt verk. Eftirfarandi upplýsingar eru færðar inn:  
 
     -   **Lýsing**: **Uppsetning tíu fundarsala**  
@@ -390,7 +390,7 @@ ms.lasthandoff: 03/22/2018
 
 ### <a name="to-set-up-a-new-account"></a>Að setja upp nýjan reikning  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bókhaldslykill** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Bókhaldslykill** skal velja aðgerðina **Nýtt** til að stofna nýtt spjald.  
 3.  Á spjaldið **Nýr fjárhagsreikningur** eru færðar inn eftirfarandi upplýsingar:  
 

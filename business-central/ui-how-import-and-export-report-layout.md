@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5f66e2f3a40bb3ac680838f1e74416d3876f3979
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Flytja inn og út skýrsluútlit eða skjalaútlit
@@ -27,7 +27,7 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
   
 ### <a name="to-export-a-report-layout-to-a-file"></a>Til að flytja út skýrsluútlit í skrá  
   
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Val á útliti skýrslu** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
   
 2.  Veldu röðina fyrir skýrsluna sem er með sérsniðna skýrsluútlitið sem þú vilt flytja út, og svo, á flipanum **Heim** í hópnum **Vinna** velurðu **Sérstillt útlit**.  
   
@@ -41,7 +41,7 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
   
      Word-skýrsluútlitsskrá verður að vera með .docx-skráarendingu. RDLC-skýrsluútlitsskrá verður að vera með .rdlc- eða .rdl-skráarendingu.  
   
-2.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Val á útliti skýrslu** og velja svo viðeigandi tengil.  
+2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
   
 3.  Veldu röðina fyrir skýrsluna sem þú vilt flytja inn skýrsluútlitið, og svo, á flipanum **Heim** í hópnum **Vinna** veldu **Sérstillt útlit**.  
   

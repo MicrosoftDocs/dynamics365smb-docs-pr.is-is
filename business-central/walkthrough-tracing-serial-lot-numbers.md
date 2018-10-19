@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: babe5bef3f0afac595b9e63276c8ce196d167f98
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c426e8cb53833fd521f4ecad7def166534b0befe
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Kynning: Rað-/lotunúmerarakning
@@ -71,7 +71,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
 ### <a name="to-create-the-items"></a>Þjónustuvörur stofnaðar:  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörur** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Í reitnum **númer** Í reitinn  er talan **2000** færð inn og síðan eru eftirfarandi reitir fylltir út.  
 
@@ -107,7 +107,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
     Næst skal kaupa grindur frá Custom Metals incorporated.  
 
 ### <a name="to-purchase-components"></a>Til að kaupa íhluti  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupapantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Stofna innkaupapöntun fyrir lánardrottin, Custom Metals Incorporated, með því að fylla út í eftirfarandi línur.  
 
@@ -121,7 +121,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 7.  Veldu aðgerðina **Bóka**, veldu **Móttaka og reikningur** valkostinn og veldu síðan **Í lagi** hnappinn.  
 
     Næst skal kaupa grindur frá Coolwood Technologies.  
-8.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Innkaupapantanir** og velja svo viðeigandi tengil.  
+8.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.  
 9. Valið er **Nýtt** aðgerð.
 10. Stofna innkaupapöntun fyrir lánardrottin, Coolwood Technologies, með því að fylla út í eftirfarandi línur.  
 
@@ -137,7 +137,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
     Næst skal framleiða tvö kappaksturshjól, RAÐ1 og RAÐ2.  
 
 ### <a name="to-produce-end-items"></a>Til að framleiða lokavörur  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Útgefnar framleiðslupantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Losaðar framl.pantanir** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** flokkur.  
 3.  Stofna nýja útgefna framleiðslupöntun með því að fylla út eftirfarandi reiti.  
 
@@ -158,7 +158,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
     Næst skal framleiða tvö kappaksturshjól í viðbót, RAÐ3 og RAÐ4.  
 
-11. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Útgefnar framleiðslupantanir** og velja svo viðeigandi tengil.  
+11. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Losaðar framl.pantanir** og veldu síðan tengda tengilinn.  
 12. Valið er **Nýtt** aðgerð.  
 13. Stofna nýja útgefna framleiðslupöntun með því að fylla út eftirfarandi reiti í hausnum.  
 
@@ -183,7 +183,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
     Næst skal selja kappaksturshjól. Selja fyrst kappaksturshjólið SN1 til Selangorian hf.  
 
 ### <a name="to-sell-the-end-items"></a>Til að selja lokavörurnar  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Velja aðgerðina **Nýtt**, og síðan stofna sölupöntun með því að fylla í eftirfarandi reiti.  
 
     |Viðskiptamaður|Vara|Magn|Raðnr.|  
@@ -195,7 +195,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
     Næst skal selja The Cannon Group PLC kappaksturshjólið með RAÐ2.  
 
-5.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.  
+5.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 6.  Velja aðgerðina **Nýtt**, og síðan stofna sölupöntun með því að fylla í eftirfarandi reiti.  
 
     |Viðskiptamaður|Vara|Magn|Raðnr.|  
@@ -207,7 +207,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
     Að lokum skal selja nokkrar grindur sérstaklega. Navision Ísland hf. einnig fjórar stakar grindur fyrir sína eigin framleiðslulínu.  
 
-9. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Sölupantanir** og velja svo viðeigandi tengil.  
+9. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 10. Velja aðgerðina **Nýtt**, og síðan stofna sölupöntun með því að fylla í eftirfarandi reiti.  
 
     |Viðskiptamaður|Vara|Magn|Raðnr.|  
@@ -225,7 +225,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
  Gæðastjórinn hefur þær upplýsingar frá söludeildinni að kappaksturshjólið sem skilað var, vara 1002, hafði raðnúmerið RAÐ1. Út frá þessum grunnupplýsingum veit hann hvar tilbúna kappaksturshjólið var síðast notað, í þessu tilfelli í söluafhendingunni til Selangorian hf. Síðan þarf hann að rekja slóð þess aftur að elsta upprunastaðnum til að komast að því úr hvaða lotu gallaða grindin kom og frá hvaða lánadrottni.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Til að komast að því hvaða lota innihélt gölluðu grindina og hvaðan hún kom  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vörurakning** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vörurakning** og veldu síðan tengda tengilinn.  
 2.  Í glugganum **Vörurakning** er **SN1** fært inn í reitinn **Raðnr.** og **1002** inn í reitinn **Birgðaafmörkun**.  
 3.  Halda skal sjálfgefnu stillingunni **Vara-eingöngu rakin** í reitnum **Sýna íhluti**, og halda sjálfgefnu rakningaraðferðinni **Notkun - uppruni** í **Rakningaraðferð**.  
 4.  Velja skal **Rekja** aðgerðina.  

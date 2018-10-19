@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 09/08/2016
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 70527f235c4a437d528a13adfc8bd0e0d3a6455c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0945ffb9a8eb9482883d5c524b0d7f7eea46b5b2
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Vinna söluskil eða afturkallanir
@@ -48,7 +48,7 @@ Til að úthluta nákvæmri bakfærslu kostnaðar, skal velja reitinn **Jafna fr
 Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðakostnaður](design-details-inventory-costing.md)
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Að stofna nýjan sölukreditreikning úr bókuðum sölureikningi.
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Bókaðir sölureikningar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðir sölureikningar** og veldu tengda hlekkinn.  
 2. Í glugganum **Bókaðir sölureikningar** skal velja þá bókuðu sölureikninga sem á að bakfæra og veljið síðan aðgerðina **Stofna leiðréttan kreditreikning**.
 
     Minnispunktur fyrir sölureikninginn inniheldur nokkrar upplýsingar frá staða sölureikningsins. Hægt er að breyta þessu, til dæmis með nýjar upplýsingar sem endurspegla endursenda samkomulagið.  
@@ -70,7 +70,7 @@ Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðakostnaður](design-d
 Bókuðu söluskjölin sem jafnað var við kreditreikninginn eru nú bakfærðir og endurgreiðslu má nú búa til fyrir viðskiptamanninn. Sölukreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal á lista bókaðra sölukreditreikninga.
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Að stofna sölukreditreikning með því að afrita bókuðum sölureikningi
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölukreditreikningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölukreditreikningar** og veldu síðan tengda hlekkinn.
 2. Veljið aðgerðina **Nýtt** til að opna nýjan auðan sölukreditreikning.
 3. Í reitnum **Viðskiptamaður** er fært inn nafn núverandi viðskiptamanns.
 4. Valið er **Afrita fylgiskjal** aðgerð.
@@ -81,7 +81,7 @@ Bókuðu söluskjölin sem jafnað var við kreditreikninginn eru nú bakfærði
 9. Sölukreditreikningnum er lokið eins og útskýrt er í hlutanum "Að stofna sölukreditreikning úr bókuðum sölureikningi" í þessu efnisatriði.
 
 ## <a name="to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents"></a>Til að stofna söluvöruskilapöntun byggða á einu eða fleiri bókuðu söluskjali
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Söluvöruskilapantanir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söluvöruskilapantanir** og veldu síðan tengda hlekkinn.
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllt er út í reitina á flýtiflipanum **Almennt** eftir þörfum.
 4. Á flýtiflipanum **Línur** skal fylla þessar línur út handvirkt, eða afrita upplýsingar úr öðrum fylgiskjölum til að fylla út línurnar sjálfvirkt:
@@ -127,7 +127,7 @@ Bókuðu söluskjölin sem jafnað var við kreditreikninginn eru nú bakfærði
      >  Ef flæði vara í bókuðu fylgiskjali er það sama og flæði vara í nýja fylgiskjalinu er einfaldlega stofnað afrit af upphaflegu bókuðu fylgiskjalslínunni í nýja fylgiskjalinu. Ekki er fyllt út í reitinn **Jafna frá birgðafærslu** vegna þess að bakfærsla nákvæms kostnaðar er ekki möguleg í þessu tilviki. Ef aðgerðin **Sækja bókaðar fylgiskjalalínur til að bakfæra** er t.d. notuð til að sækja bókaða sölukreditreikninga fyrir nýjan sölukreditreikning er eingöngu upphaflega bókaða kreditreikningslínan afrituð í nýja kreditreikninginn.  
 
 10. Í glugganum **Söluvöruskilapöntun** í reitnum **Ástæðukóði skila** á hverri línu, skal velja ástæðu skilanna.
-11. Valið er **bóka** aðgerð.
+11. Valið er **Bóka** aðgerðin.
 
 ## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Stofnuð sölupöntun fyrir skiptuvöru úr söluskilapöntun
 Ef til vill á að bjóða viðskiptamanni bætur vegna vöru sem honum var seld með því að skipta á henni. Hægt er að bjóða sömu vöru í skiptum eða aðra vöru. Þessi staða getur komið upp ef til dæmis hefur verið send röng vara.  
@@ -161,7 +161,7 @@ Hægt er að bóka þessa hækkun kostnaðar sem kostnaðarauka á kreditreiknin
 Hægt er að senda viðskiptamanni kreditreikning með verðlækkun hafi viðskiptamaðurinn fengið vörurnar lítillega skaddaðar eða of seint.  
 Hægt er að bóka þetta lægra verð sem kostnaðarauka á kreditreikningi eða vöruskilapöntun og úthluta því á bókaða afhendingu. Eftirfarandi lýsir því fyrir sölukreditreikning, en sömu skref eiga við um söluvöruskilapöntun.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölukreditreikningar** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölukreditreikningar** og veldu síðan tengda hlekkinn.
 2. Veljið aðgerðina **Nýtt** til að opna nýjan auðan sölukreditreikning.
 3. Kreditreikningshausinn er fylltur út með öllum viðeigandi upplýsingum um viðskiptamanninn sem á að veita söluuppbót.  
 4. Á flýtiflipanum **Línur** í reitnum **Tegund** er valin **Gjald (vara)**.  
@@ -184,7 +184,7 @@ Til að sameina vöruskilamóttökur þarf að velja gátreitinn **Sameina afhen
 
 ### <a name="to-manually-combine-return-receipts"></a>Til að sameina vöruskilamóttökur handvirkt:  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sölukreditreikningur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölukreditreikningur** og veldu síðan tengda hlekkinn.  
 2. Valið er **Nýtt** aðgerð.
 3. Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt**.  
 4. Velja aðgerðina **Sækja vöruskilamóttökulínur**.  
@@ -200,7 +200,7 @@ Til að sameina vöruskilamóttökur þarf að velja gátreitinn **Sameina afhen
 ### <a name="to-automatically-combine-return-receipts"></a>Til að sameina vöruskilamóttökur sjálfvirkt  
 Hægt er að sameina vöruskilamóttökur sjálfvirkt og hafa möguleikann á að bóka kreditreikninga sjálfvirkt með aðgerðinni **Sameina vöruskilamóttökur**.  
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Sameina innkaupamóttaka** og velja svo viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sameina innkaupamóttökur** og veldu síðan tengda hlekkinn.
 2. Í glugganum **sameina innkaupamóttökur** skal fylla inn í reitina til að velja viðeigandi vöruskilamóttökur.
 3. Velja skal gátreitinn **Bóka kreditreikninga**. Ef ekki, verður að handvirkt bóka viðeigandi innkaupakreditreikninga.
 4.  Velja hnappinn **Í lagi**.  
@@ -209,7 +209,7 @@ Hægt er að sameina vöruskilamóttökur sjálfvirkt og hafa möguleikann á a�
 Þegar vöruskilamóttökur eru reikningsfærðar á þennan hátt eru vöruskilapantanir sem vöruskilamóttökurnar voru bókaðar úr enn til staðar, jafnvel þótt þær hafi verið mótteknar og reikningsfærðar að fullu.  
 
 Þegar vöruskilamóttökur eru sameinaðar í kreditreikningi og svo bókaðar er bókaður sölukreditreikningur stofnaður fyrir kreditfærðu línurnar. Reiturinn **Reikningsfært magn** úr upphaflegu söluvöruskilamóttökunni er uppfærður samkvæmt reikningsfærðu magni.   
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Eyða reikningsfærðum söluvöruskilapöntunum** og velja svo viðeigandi tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða reikningsfærðum söluvöruskilapöntunum** og veldu síðan tengilinn.  
 2.  Tilgreinið í **Nr.**. afmörkunarreitnum hvaða vöruskilapöntunum á að eyða.  
 3.  Velja hnappinn **Í lagi**.  
 

@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 05/31/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: c15f9c77479780566f8b1e464193b43a20c3315d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9e7adbe575df0b9253ead53ca2a5c782fa27e064
 ms.contentlocale: is-is
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum
 Í **Uppsetning Fjárhagsskema KPI netþjónustu** glugganum getur þú ákveðið hvernig skal sýna KPI gögn fjárhagsskema og á hvaða einstaka fjárhagsskemum skuli byggja afkastavísa. Þegar þú velur **Birta netþjónustu** hnappinn bætast KPI gögn fjárhagsskema á lista yfir vefþjónustu sem birt hefur verið í glugganum **Vefþjónusta**.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Til að setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum  
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") táknið slá inn **Uppsetning vefþjónustu fyrir KPI fyrir fjárhagsskema** og velja svo tengdan tengil.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning vefþjónustu fyrir KPI fyrir fjárhagsskema** og veldu síðan tengda tengilinn.  
 2.  Á flýtiflipanum **Almennt** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
     |Svæði|Lýsing|  

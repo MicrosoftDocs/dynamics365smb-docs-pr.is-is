@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30a16901fb20ac3361ed61bbe8d6eabc6dfb67cb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 64bef8820ec10bb293ccda88e7384d5d9e868e1f
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-contact-companies"></a>Stofna fyrirtækjatengilið
@@ -27,7 +27,7 @@ Tvær leiðir eru til að stofna tengilið: frá upphafi eða úr fyrirliggjandi
 Áður en tengiliður er stofnaður er ráðlegt að athuga stillingarnar í glugganum  **Tengslastjórnunargrunnur**. Nánari upplýsingar er að finna í [Uppsetning tengslastjórnunar](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Stofna nýtt tengiliðarfyrirtæki frá upphafi
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn  **Tengiliðir** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Í **reitinn Nr.** er fært inn númer fyrir tengiliðinn.
 
@@ -41,7 +41,7 @@ Hafi þegar verið settur upp fjöldi viðskiptamanna, lánardrottna og bankarei
 > [!NOTE]  
 >   Áður en þú getur stofnað tengiliðafyrirtæki á þennan hátt, verðurðu að tilgreina viðskiptatengslakóða fyrir viðskiptavini, lánardrottna, og bankareikninga í glugganum **uppsetning markaðssetningar** Ef þú munt stofna tengiliði úr bankareikningi verður einnig að tilgreina númeraraðir fyrir bankareikninga í glugganum **Fjárhagsgrunnur**.
 
-1. Veljið ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, færa inn eitt af eftirtöldu, allt eftir því hvaðan stofna á tengiliði og veljið svo viðkomandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn eitt af eftirfarandi, eftir því hvaðan á að búa til tengiliði, og veldu síðan tengda tengilinn.
    * **Stofna tengiliði útfrá viðskiptamönnum**
    * **Stofna tengiliði útfrá lánardottnum**
    * **Stofna tengiliði útfrá bankareikningum**

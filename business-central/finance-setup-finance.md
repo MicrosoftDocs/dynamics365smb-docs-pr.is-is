@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 025c00e6013e773204a12abc7d86c09b3dcef3dd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1697ba5b28e8fe475704dffde37ce0935ba443f2
 ms.contentlocale: is-is
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
@@ -33,7 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Búðu til fjárhagsskema og skilgreindu lyklategundir til að skilgreina efni fjárhagsgrafa og skýrslna á borð við efnahagsreikning og skýrslur tekjuyfirlits.|[Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)|
 |Hægt er að setja upp vikmörk þannig að kerfið loki reikningi jafnvel þótt greiðsla, að meðteknum afslætti, nái ekki upp í fulla upphæð á reikningnum.|[Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Uppsetning fjárhagstímabila. |[Opna nýtt reikningsár](finance-how-open-new-fiscal-year.md) |
-| Skilgreinið hvernig VSK upphæðir, sem fengnar eru fyrir sölu, eru sendar inn til skattayfirvalda. |[Hvernig á að: Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)|
+| Skilgreinið hvernig VSK upphæðir, sem fengnar eru fyrir sölu, eru sendar inn til skattayfirvalda. |[Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)|
 | Settu eiginleika sölu og innkaupa upp þannig að hægt sé að vinna með erlenda gjaldmiðla.|[Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
 | Bæta nýjum reikningum við eldri bókhaldslykil. |[Uppsetning bókhaldslykilsins](finance-setup-chart-accounts.md) |
 | Setjið upp viðskiptaupplýsingar (BI) töflur til að greina sjóðstreymi. |[Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md) |
@@ -49,5 +49,4 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

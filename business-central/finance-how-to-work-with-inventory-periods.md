@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d302483ca2d66870670aaa0914533472a807d04f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e6873ca2e4f4ab082bddad90f1ab59edb34a2a63
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-inventory-periods"></a>Vinna við birgðatímabil
@@ -29,7 +29,7 @@ Eftirfarandi hlutar útskýra hvernig á að standa að:
 * Enduropna birgðatímabil.  
 
 ## <a name="to-create-an-inventory-period"></a>Til að stofna birgðatímabil  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðatímabil** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðahaldstími** og veldu síðan tengda tengilinn.  
 2. Stofnið nýja línu.  
 3. Í reitinn **Lokadagsetning** er slegin inn síðasta dagsetningin í birgðatímabilinu sem ætlunin er að skilgreina. Þegar tímabilinu er lokað verður ekki hægt að bóka breytingar á birgðum fyrir þessa dagsetningu.  
 4. Færa inn lýsandi heiti í reitinn **Heiti**. Velja hnappinn **Í lagi**.  
@@ -61,7 +61,7 @@ Hægt er að loka hvaða birgðatímabili sem er, að því gefnu að eftirfaran
 Þegar birgðatímabili hefur verið lokað er ekki hægt að eyða birgðatímabilinu. Hægt er hins vegar að enduropna það til að leyfa bókun áður en að lokadagsetningu birgðatímabilsins er komið. Enduropnun tímabils enduropnar líka öll birgðatímabil með lokadagsetningar seinni en það tímabil sem er enduropnað.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Til að enduropna birgðatímabil  
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Birgðatímabil** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðahaldstími** og veldu síðan tengda tengilinn.  
 2. Velja skal birgðatímabilið sem á að enduropna.  
 3. Velja aðgerðina **Enduropna tímabili**. Staðfesta að það eigi að enduropna tímabilið.  
 4. Allir birgðahaldstímar með lokadagsetningu sem kemur síðar en valið tímabilið eru enduropnaðir.  

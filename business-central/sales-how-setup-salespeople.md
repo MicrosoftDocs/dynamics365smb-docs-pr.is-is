@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 07/18/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: d7da3f54cfa3e5b7f3d012248ccfe1166604f2e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a32d3f1d0883f00dfaaef7924d821a039ca307
 ms.contentlocale: is-is
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-salespeople"></a>Setja upp sölumenn
@@ -23,7 +23,7 @@ ms.lasthandoff: 07/19/2018
 Þegar þú hefur sett upp sölumann í glugganum **Sölumenn** er hægt að velja hann í reitnum **Sölumannskóði** í öllum viðeigandi færslum, svo sem fjárhagsreikningum, viðskiptamanns-, lánardrottins-, tengiliða-, og söluherferðarspjöldum. Síðan þegar þú bókar eða setur upp reikninga, kreditreikninga, bókarlínum, vaxtaaðgerða o.s.frv. er sölumannskóðinn færður í fjárhagsfærslur sem úr þessu öllu koma.
 
 ## <a name="to-set-up-a-salesperson-code"></a>Uppsetning sölumannskóða
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **sölufólk** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sölumenn** og veldu síðan tengda tengilinn.
 2. Í glugganum **sölumenn** skal velja aðgerðina **Nýtt**.
 
 Hægt er að nota sölumenn í mismunandi tengslastjórnun og markaðsvinnu. Þú getur til dæmis úthlutað verki til sölufólks, þannig að verkið sé hluti af sölutækifæri sem sölumanninum hefur verið úthlutað. Nánari upplýsingar, sjá [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).

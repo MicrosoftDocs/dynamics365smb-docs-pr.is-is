@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 1c84275357b6bf5726a7c60396ad22b4670de3e1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: faf013087b29f758cf86ff2a10d407fe74f85f95
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Tryggja eignir
@@ -38,7 +38,7 @@ Vátryggingarskírteini fyrir eign verður að vera sýnt með vátryggingarspja
 
 Þegar upplýsingar um breytingar á tryggingarupphæð berast verður að breyta þeim á **vátryggingarspjald** glugganum til að tryggja að greining vátryggingasviðs sé rétt.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vátrygging** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vátrygging** og veldu síðan tengda tengilinn.
 2. Veljið aðgerðina **Nýtt** til að Búa til nýtt kort fyrir vátryggingarskírteini. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Einnig geturðu valið vátryggingarskírteini sem þú vilt breyta og veldu svo aðgerðina **Breyta**.
 
@@ -47,10 +47,10 @@ Vátryggingarskírteini fyrir eign verður að vera sýnt með vátryggingarspja
 
 Eftirfarandi ferli útskýrir hvernig stofna vátryggingarbókarlínu handvirkt. Ef **Sjálfvirk Vátryggingarbókun** gátreitinn er valinn í **uppsetning eigna** glugganum, þá eru línur í vátryggingabók sjálfkrafa stofnaðar þegar kaupverð er bókað. Í því tilfelli er allt sem þarf að gera er að bóka færslubókina.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vátryggingabækur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vátryggingabækur** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi færslubók og fylla færslubókarlínurnar út eftir þörfum.  
 3. Til að úthluta mörgum eignum á eina vátryggingarskírteini, skal stofna færslubókarlínur með sömu gildum og í **Vátryggingarnr.** reitnum og öðrum gildum í **Eignanr.** reitnum.  
-4. Valið er **bóka** aðgerð.  
+4. Valið er **Bóka** aðgerðin.  
 
     > [!NOTE]  
     >   Færslurnar í vátryggingabók eru aðeins bókaðir í vátryggingasviðshöfuðbókina.  
@@ -58,7 +58,7 @@ Eftirfarandi ferli útskýrir hvernig stofna vátryggingarbókarlínu handvirkt.
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Uppfæra tryggingarvirði eignar
 Í eftirfarandi dæmi er sýnt hvernig hægt er að nota keyrsluna **Endurmat vátrygginga** til að uppfæra verðmæti eigna sem eru tryggðar.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Endurmat vátrygginga** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Endurmat vátrygginga** og veldu síðan tengda tengilinn.
 2. Fyllið inn í reitina eftir þörfum.
 
     > [!NOTE]  
@@ -66,7 +66,7 @@ Eftirfarandi ferli útskýrir hvernig stofna vátryggingarbókarlínu handvirkt.
 3. Velja hnappinn **Í lagi**.  
 
    Keyrslan reiknar þessa nýju tölu sem hlutfall af vátryggðu heildarvirði eins og kemur fram í glugganum **Vátryggingaupplýsingar** og býr til línu í vátryggingabókinni.  
-4. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vátryggingabækur** og velja svo viðeigandi tengil.  
+4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vátryggingabækur** og veldu síðan tengda tengilinn.  
 5. Opnaðu viðeigandi Vátryggingabók, endurskoðaðu stofnuð gildi og bókaðu þau síðan í vátryggingasviðshöfuðbókina.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Eftirlit með vátryggingasviði
@@ -92,13 +92,13 @@ Ef ganga á úr skugga um hvort gleymst hafi að tengja eign við vátryggingu e
 ## <a name="to-view-insurance-coverage-ledger-entries"></a>Skoðun vátryggingasviðsfærslna:
 Hægt er að skoða færslurnar sem færðar hafa verið í vátryggingasviðsbókina.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vátrygging** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vátrygging** og veldu síðan tengda tengilinn.  
 2. Valin er viðeigandi vátryggingarskírteini og veldu svo **vátryggingasviðsfærslur** aðgerðina.  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Skoðun á vátryggðu heildarvirði eigna:
 Sérhæfðu fylkisgluggi sýnir upphæð skráðrar tryggingar við hverja tryggingarstefnu fyrir hverja eign. Þetta eru vátryggingatengdar upphæðir sem bókaðar voru.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vátrygging** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vátrygging** og veldu síðan tengda tengilinn.  
 2. Valin er viðeigandi vátryggingarskírteini og veldu svo **heildarvirði tryggingar á eign** aðgerðina.  
 3. Fyllið inn í svæðin eftir þörfum.  
 4. Veljið aðgerðina **Sýna fylki**.  
@@ -107,10 +107,10 @@ Sérhæfðu fylkisgluggi sýnir upphæð skráðrar tryggingar við hverja trygg
 ## <a name="to-correct-insurance-coverage-entries"></a>Leiðrétting á vátryggingarsviðsfærslum
 Ef eign hefur verið tengd við rangt vátryggingarskírteini er hægt að leiðrétta það með því stofna tvær endurflokkunarfærslur úr vátryggingabókinni.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Vátryggingabækur** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vátryggingabækur** og veldu síðan tengda tengilinn.  
 2. Stofna eina færslubókarlínu fyrir hverja eign og rétt vátryggingarskírteini þar sem gildið í reitnum **Upphæð** er jákvæð.  
 3. Stofna aðra færslubókarlínu fyrir hverja eign og rangt vátryggingarskírteini þar sem gildið í reitnum **Upphæð** er neikvæð.  
-4. Valið er **bóka** aðgerð.  
+4. Valið er **Bóka** aðgerðin.  
 
 Eignin er losuð frá ranga vátryggingarskírteininu, á annarri línunni, og hengt við rétta vátryggingarskírteinið, á fyrstu línunni.  
 

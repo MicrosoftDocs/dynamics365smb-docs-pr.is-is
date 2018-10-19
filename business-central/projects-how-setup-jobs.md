@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 04de6e83dadace8844eca569f0162f827af0bb7c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-jobs"></a>Setja upp verk
@@ -25,32 +25,32 @@ ms.lasthandoff: 03/22/2018
 Á einstökum verkspjöldum þarf að setja upp verð fyrir vörur, forða og fjárhagsreikninga verks og setja þarf upp verkbókunarflokka.
 
 ## <a name="to-set-general-information-for-jobs"></a>Til að stilla almennar upplýsingar fyrir verk
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning verks** og velja svo viðeigandi tengil.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning verka** og veldu síðan tengda tengilinn.
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Gátreiturinn **Beita notkunartengli** er frekar flókinn og þar af leiðandi útskýrður í eftirfarandi hluta.
+>   **Beita notkunartengli að sjálfgefnu** gátreitinn er frekar flókinn og er því útskýrður í eftirfarandi kafla.
 
 ## <a name="to-set-up-job-usage-tracking"></a>Til að setja upp notkunarrakningu verka
 Þegar verið er að framkvæma verk gæti verið gagnlegt að vita hvernig notkunin er rakin á móti áætluninni. Til að gera þetta á auðveldan hátt, er hægt að búa til tengil milli verkáætlunarlínunnar og hinnar eiginlegu notkunar. Þetta leyfir þér að rekja kostnað þinn og sjá auðveldlega hversu mikið af vinnu á eftir að vinna. Sjálfgefið er að áætlunarlína verktegundar sé **Áætlun**, en ef línutegundin **Bæði fjárhagsáætlun og reikningshæft** er notuð hefur það svipuð áhrif.
 
-Ef hakað er í gátreitinn **Beita notkunartengli** er hægt að yfirfara upplýsingar um verkáætlunarlínuna. Hægt er að stilla magn forða, vöru eða fjárhagsreiknings og gefa svo upp hvaða magn á að færa í verkbókina. Í reitnum **Eftirstöðvar (magn)** í verkáætlunarlínunni sést hvað á eftir að flytja og bóka í verkbókina.
+Ef þú velur **Beita notkunartengli að sjálfgefnu** gátreitinn getur þú skoðað upplýsingar á verkáætlunarlínu. Hægt er að stilla magn forða, vöru eða fjárhagsreiknings og gefa svo upp hvaða magn á að færa í verkbókina. Í reitnum **Eftirstöðvar (magn)** í verkáætlunarlínunni sést hvað á eftir að flytja og bóka í verkbókina.
 
-Þegar gátreiturinn **Nota notkunartengil** er valinn, og verkáætlunarlínugerðin er **Reikningshæft**, stofnar Financials verkáætlunarlínu af tegundinni **Áætlun** eftir að færslubókarlínan er bókuð.
+Þegar **Beita notkunartengli að sjálfgefnu** gátreiturinn er valinn og gerð verkáætlunarlínu er **Reikningshæf**, býr Fjárhagur til verkáætlunarlínu af gerðinni **Fjárhagsáætlun** eftir að þú hefur sent inn færslubókarlínuna.
 
 > [!NOTE]  
->   Ef gátreitur **Beita notkunartengli** á vinnsluspjaldi er valinn og reiturinn **Línutegund** í færslubókarlína verks er auður mun nýjar verkáætlunarlínur af línugerðinni **Áætlun** vera stofnaðar þegar bókaðar eru færslubókarlínur verks. Ef gátreiturinn **Beita notkunartengli** er ekki valinn á verkspjaldi og reiturinn **Tegund línu** í verkbókarlínunni er auður eru engar verkáætlunarlínur stofnaðar þegar verkbókarlínur eru bókaðar. Frekari upplýsingar eru í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).
+>   Ef **Beita notkunartengli að sjálfgefnu** gátreitinn á verkspjaldinu er valinn, og **Línugerð** reiturinn á færslubókarlínu verka er tómur, þá eru engar verkáætlunarlínur af línugerðinni **Fjárhagsáætlun** búnar til þegar þú bókar færslubókarlínur verka. Ef **Beita notkunartengli að sjálfgefnu** gátreitinn á verkspjaldinu er ekki valinn og **Línugerð** reiturinn á færslubókarlínu verka er tómur, þá eru engar verkáætlunarlínur búnar til þegar þú bókar færslubókarlínur verka. Frekari upplýsingar eru í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).
 
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning verks** og velja svo viðeigandi tengil.
-2. Veljið eða afveljið gátreitinn **Beita notkunartengli**.
+2. Veldu eða afveldu **Beita notkunartengli að sjálfgefnu** gátreitinn.
 
 > [!NOTE]  
->   Þú getur búið til aðra stillingu á gátreitinn **Beita notkunartengli** á einstökum verkspjöldum. Í slíkum tilvikum hnekkir stilling viðkomandi verks sjálfgefnum stillingum sem lýst er hér að ofan.
+>   Þú getur gert aðra stillingu af **Beita notkunartengli að sjálfgefnu** gátreitinn á einstökum verkspjöldum. Í slíkum tilvikum hnekkir stilling viðkomandi verks sjálfgefnum stillingum sem lýst er hér að ofan.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Til að setja upp verð fyrir verkforða
 Sérstök verð má setja upp fyrir forða verks. Glugginn **Forðaverð verks** er notaður til þess.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2. Veljið viðeigandi verk og veljið svo aðgerðina **Forði**.
 3. Í glugganum **Forðaverð verks** skal fylla reitina út eins og þörf krefur.
 
@@ -64,7 +64,7 @@ Virðið í reitnum **Einingarverð** fyrir forðann verður notað í verkáæt
 ## <a name="to-set-up-prices-for-job-items"></a>Til að setja upp verð fyrir vörur verks
 Sérstök verð má setja upp fyrir vörur verka. Glugginn **Verð verkvara** er notaður til þess.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2. Veljið viðeigandi verk og veljið svo aðgerðina **Vara**.
 3. Í glugganum **Vöruverð verks** skal fylla reitina út eins og þörf krefur.
 
@@ -78,7 +78,7 @@ Gildið í reitnum **Einingarverð** fyrir vöruna verður notað í verkáætlu
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>að setja upp verð í fjárhagsreikningi fyrir verk
 Hægt er að setja upp ákveðið verð fyrir fjárhagsleg útgjöld í verki. Glugginn **Verð fjárhagsreiknings verks** er notaður til þess.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verk** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2. Veljið viðeigandi verk og veljið svo aðgerðina **Fjárhagsreikningur**.  
 3. Í glugganum **Fjárhagsreikningsverð verks** skal fylla reitina út eins og þörf krefur.
 
@@ -92,7 +92,7 @@ Einn þáttur við að áætla verk er að ákveða hvaða bókunarlykla á að 
 > [!NOTE]  
 >   Nauðsynlega reikninga verður að stofna í bókhaldslykli áður en bókunarflokkar eru stofnaðir. Frekari upplýsingar eru í [Setja upp eða breyta bókhaldslykli](finance-setup-chart-accounts.md).  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Verkbókunarflokkar** og velja svo viðeigandi tengil.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókunarflokkar verka** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Nýtt** og fyllið út reiti reiknings eins og lýst er í eftirfarandi töflu.  
 
 | Reikningsreitur. | Lýsing |

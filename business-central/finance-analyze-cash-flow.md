@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ac5abf6fe38b60b385ac00d6e0ced982cd59df22
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a5c7d31c87938eb398607c2bb1d622b9cb69b41
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Greining á sjóðstreymi í fyrirtækinu þínu
@@ -47,7 +47,7 @@ Ef þú vilt skoða spáina, auk þess að spá færslum, geturðu einnig skoða
 ## <a name="to-view-a-cash-flow-worksheet"></a>Til að skoða vinnublað sjóðstreymis
 1. Í reitnum **Leit** skal færa inn Sjóðstreymisuppsetningu og velja síðan viðkomandi tengil.  
 2. Veldu sjóðstreymisspá, og veldu síðan **Sjóðstreymisvinnublað**.  
-3. Í á **Sjóður Flæði Vinnublað** síðunni, velja sem **Vinnublað Tillögulínur** aðgerð.  
+3. Í **Sjóður Flæði Vinnublað** glugganum, velja **Vinnublaðalínur Tillögur** aðgerð.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning Fjármála](finance-setup-finance.md)  
