@@ -10,7 +10,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
@@ -25,12 +25,12 @@ Með sífellt flóknara flæði vara í framboðskeðjum nú til dags eykst miki
 Vörurakningarkerfi á að auðvelda fyrirtæki afgreiðslu á rað- og lotunúmerum, með því að taka tillit til sérhverrar einingar varnings: hvenær og hvar móttekið, hvar geymt, hvenær og hvar selt. [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur smám saman aukið uppfyllingu þessara skilyrða og býður í dag upp á kerfislæga virkni og stöðugan grunn til að þróa viðbætur.  
 
 ## <a name="in-this-section"></a>Í þessum hluta  
-* [Hönnunarupplýsingarn: vörurakning hönnun](design-details-item-tracking-design.md)  
-* [Hönnunarupplýsingar: bókunarstrúktúr vörurakningar](design-details-item-tracking-posting-structure.md)  
-* [Hönnunarupplýsingar: Virk móti sögulegum vörurakningarfærslum](design-details-active-versus-historic-item-tracking-entries.md)  
-* [Hönnunarupplýsingar: vörurakningarlínur gluggi](design-details-item-tracking-lines-window.md)  
-* [Hönnunarupplýsingar: vörurakning framboð](design-details-item-tracking-availability.md)  
-* [Hönnunarupplýsingar: vörurakning og áætlun](design-details-item-tracking-and-planning.md)  
-* [Hönnunarupplýsingar: vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
-* [Hönnunarupplýsingar: vörurakning í vöruhúsi](design-details-item-tracking-in-the-warehouse.md)
+[Hönnunarupplýsingarn: vörurakning hönnun](design-details-item-tracking-design.md)  
+[Hönnunarupplýsingar: bókunarstrúktúr vörurakningar](design-details-item-tracking-posting-structure.md)  
+[Hönnunarupplýsingar: Virk móti sögulegum vörurakningarfærslum](design-details-active-versus-historic-item-tracking-entries.md)  
+[Hönnunarupplýsingar: vörurakningarlínur gluggi](design-details-item-tracking-lines-window.md)  
+[Hönnunarupplýsingar: vörurakning framboð](design-details-item-tracking-availability.md)  
+[Hönnunarupplýsingar: vörurakning og áætlun](design-details-item-tracking-and-planning.md)  
+[Hönnunarupplýsingar: vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
+[Hönnunarupplýsingar: vörurakning í vöruhúsi](design-details-item-tracking-in-the-warehouse.md)
 
