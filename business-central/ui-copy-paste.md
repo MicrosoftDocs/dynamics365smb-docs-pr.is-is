@@ -63,7 +63,7 @@ Afrita og líma er í boði í vafranum eða [!INCLUDE[d365fin](includes/d365fin
 ## <a name="must-i-have-the-exact-same-number-of-columns-when-pasting-rows"></a>Verður ég að hafa nákvæmlega sömu fjölda dálka þegar ég líma raðir?
 Já. Hvort sem þú ert að afrita frá [!INCLUDE[d365fin](includes/d365fin_md.md)], frá Excel eða frá einhverjum öðrum töfluuppruna, verða raðirnar sem þú límir að hafa nákvæmlega samsvarandi dálka - hvorki fleiri né færri.
 
-## <a name="why-do-i-get-errors-when-pasting-rows"></a>Af hverju fæ ég villuboð þegar ég líma raðir? 
+## <a name="why-do-i-get-errors-when-pasting-rows"></a>Af hverju fæ ég villuboð þegar ég líma raðir?
 Þegar líma inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hver röð skoðuð til að ganga úr skugga um að gildi í hverjum dálki séu gild. Ef dálkur inniheldur gildi sem er ógilt er líming stöðvað og villuboð birtist. Til að forðast þetta skaltu ganga úr skugga um að dálkarnir hafi gild gildi áður en þú límir þá.
 
 
