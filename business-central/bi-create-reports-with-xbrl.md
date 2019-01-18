@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f14191eb0a7b7564f5079a53bd90dfc39f176326
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e187a6d66804066f68af910c75d74f639e852446
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Stofna skýrslur með XBRL
@@ -67,7 +67,7 @@ Flokkun getur verið sett saman úr grunnflokkun, t.d. us-gaap eða IAS, og haft
 XBRL-línur eru settar upp með því að varpa gögnum úr flokkuninni í gögn í fjárhag.  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XBRL-flokkanir** og veldu síðan tengda tengilinn.  
-2.  Í glugganum **XBRL-flokkanir** veljið flokkun af listanum.  
+2.  Á síðunni **XBRL-flokkanir** veljið flokkun af listanum.  
 3.  Veljið aðgerðina **Línur**.  
 4.  Valin er lína og fyllt út í reitina.   
 5.  Nánari upplýsingar um það sem þarf að fylla út fást ef smellt er á aðgerðina **Upplýsingar**.  
@@ -84,10 +84,10 @@ XBRL-línur eru settar upp með því að varpa gögnum úr flokkuninni í gögn
 Fyrsta skrefið þegar beita á XBLR-aðgerðum er að flytja inn flokkunina í gagnagrunn fyrirtækisins. Flokkun er mynduð úr einu eða fleiri skemum og nokkrum tenglagrunnum. Þegar búið er að flytja inn bæði skemu og tenglagrunna og þetta tengt saman er hægt að setja upp línur og varpa fjárhagsreikningum í bókhaldslykli í viðeigandi flokkunarlínur.  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XBRL-flokkanir** og veldu síðan tengda tengilinn.  
-2.  Í glugganum **XBRL flokkanir** er búin til ný lína og heiti og lýsing flokkunarinnar færð inn.  
+2.  Á síðunni **XBRL flokkanir** er búin til ný lína og heiti og lýsing flokkunarinnar færð inn.  
 3.  Velja skal aðgerðina **Skemu** og síðan færa inn lýsinguna á skemanum.  
-4.  Skema er flutt inn með því að fara í gluggann **XBRL-grindur**, velja þar aðgerðina **Flytja inn** og velja síðan möppu og XSD-skrá. Velja hnappinn **Opna**.  
-5.  Tenglagrunnur er fluttur inn með því að fara í gluggann **XBRL-grindur**, velja aðgerðina **Tenglagrunnar** og velja síðan möppu og XML-skrá. Velja hnappinn **Opna**.  
+4.  Skema er flutt inn með því að fara á síðuna **XBRL-grindur**, velja þar aðgerðina **Flytja inn** og velja síðan möppu og XSD-skrá. Velja hnappinn **Opna**.  
+5.  Tenglagrunnur er fluttur inn með því að fara á síðuna **XBRL-grindur**, velja aðgerðina **Tenglagrunnar** og velja síðan möppu og XML-skrá. Velja hnappinn **Opna**.  
 6.  Nú er hægt að tengja tenglagrunninn skemanu. Þetta er endurtekið þar til búið er að flytja inn alla tenglagrunnana.  
 7. Velja aðgerðina **Jafna í flokkun** til að tengja tenglagrunninn við skemað.  
 
@@ -98,7 +98,7 @@ Fyrsta skrefið þegar beita á XBLR-aðgerðum er að flytja inn flokkunina í 
 Þegar flokkun breytist þarf að uppfæra gildandi flokkun samkvæmt því. Ástæða uppfærslunnar getur verið breytt skema, breyttur tenglagrunnur eða nýr tenglagrunnur. Þegar flokkunin hefur verið uppfærð þarf aðeins að varpa línunum vegna nýju eða breyttu línanna.  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XBRL-flokkanir** og veldu síðan tengda tengilinn.  
-2.  Í glugganum **XBRL-flokkun** skal velja aðgerðina **Skemu**.  
+2.  Á síðunni **XBRL-flokkun** skal velja aðgerðina **Skemu**.  
 3.  Til að uppfæra skema, er skemað sem á að uppfæra valið og síðan aðgerðin **Flytja inn**.  
 4.  Til að uppfæra eða bæta við nýjum tenglagrunni skal velja **Tenglagrunnar** aðgerðina.  
 5.  Valinn er viðeigandi tenglagrunnur eða stutt á Ctrl+N til að fá nýja línu, tegund tenglagrunns valin og lýsing því næst sett inn.  

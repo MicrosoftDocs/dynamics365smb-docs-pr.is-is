@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0a718c45256a1e7cc7fbde794491814f1c26dd4a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Skrá sérstakt söluverð og sérstaka afslætti
@@ -60,7 +60,7 @@ Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu
     >   Fyrirliggjandi lánardrottnaspjöld standa fyrir reikningsafsláttarkóða. Þetta gerir kleift að úthluta reikningsafsláttarskilmálum hratt og örugglega til lánardrottna með því að velja nafn annars lánardrottins sem hefur sömu skilmála.
 
     Næsta skref er að setja upp nýja skilmála fyrir reikningsafslátt.
-4. Í glugganum **Lánardrottnaspjald** er aðgerðin **Reikningsafslættir** valin. Glugginn **Reikningsafsláttur lánardr.** opnast.
+4. Á síðunni **Lánardrottnaspjald** skal velja aðgerðina **Nota sniðmát**. Síðan **Reikningsafsláttur lánardr.** opnast.
 5. Í reitnum **Gjaldmiðilskóði** er færður inn kóðinn fyrir gjaldmiðilinn sem reikningsafsláttarskilyrði í línunni eiga við um. Reiturinn er skilinn eftir auður ef setja á upp reikningsafsláttarskilyrði í ISK.
 6. Í reitinn **Lágmarksupphæð** er færð inn lágmarksupphæð sem reikningur þarf að hafa til að hægt sé að fá afslátt.
 7. Í reitnum **Afsláttar %** skal slá inn reikningsafslátt sem prósentu af reikningsupphæð.
@@ -88,7 +88,7 @@ Hafi skilyrði fyrir reikningsafslátt fyrir lánardrottna verið ákveðinn er 
 
  Áður en hægt er að nota reikningsafslátt í innkaupum verður að tilgreina hjá hvaða lánardrottnum er hægt að fá afslátt.  
 
- Afsláttarprósentur eru tengdar við ákveðnar reikningsupphæðir í glugganum **Reikn.afsl. lánardr.**. Hægt er að færa inn hvaða prósentutölu sem er inn í hvern glugga. Hver lánardrottinn getur haft sinn eigin glugga, eða hægt er að tengja nokkra lánardrottna saman í glugga.  
+ Afsláttarprósentur eru tengdar við ákveðnar reikningsupphæðir á síðunni **Reikn.afsl. lánardr.**. Hægt er að færa inn hvaða prósentutölu sem er inn á hverja síðu. Hver lánardrottinn getur haft sína eigin síðu, eða hægt er að tengja nokkra lánardrottna saman á síðu.  
 
  Til viðbótar við afsláttarprósentu er hægt að tengja ákveðið þjónustugjald við ákveðna reikningsupphæð.  
 
@@ -97,7 +97,7 @@ Hafi skilyrði fyrir reikningsafslátt fyrir lánardrottna verið ákveðinn er 
  Hægt er að láta [!INCLUDE[d365fin](includes/d365fin_md.md)] reikna sjálfkrafa út reikningsafslátt fyrir beiðnir, standandi pantanir, pantanir, reikninga eða kreditreikninga.  
 
 > [!TIP]  
->  Áður en hafist er handa við að setja upplýsingarnar inn í forritið er gott að útbúa uppkast af því afsláttarformi sem á að nota. Þetta gerir auðveldara að átta sig á því hvaða lánardrottna er hægt að tengja við sama reikningsafsláttarglugga. Eftir því sem setja þarf upp færri glugga, þeim mun fljótlegra er að færa inn grunnupplýsingarnar.
+>  Áður en hafist er handa við að setja upplýsingarnar inn í forritið er gott að útbúa uppkast af því afsláttarformi sem á að nota. Þetta gerir auðveldara að átta sig á því hvaða lánardrottna er hægt að tengja við sama reikningsafsláttarsíðu. Eftir því sem setja þarf upp færri síður er þeim mun fljótlegra að færa inn grunnupplýsingarnar.
 
 ## <a name="best-price-calculation"></a>Útreikningur besta verðs
 Þegar notandi hefur skráð sérstakt verð og línuafslætti vegna sölu eða innkaupa tryggir [!INCLUDE[d365fin](includes/d365fin_md.md)] að hagnaður notanda af viðskiptum með vöru sé alltaf hámarkaður með því að reikna sjálfkrafa besta verð á sölu- og innkaupaskjölum og á færslubókarlínum fyrir verk og vörur.

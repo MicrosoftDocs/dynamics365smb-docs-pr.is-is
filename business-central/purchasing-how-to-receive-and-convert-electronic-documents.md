@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e2cbddbfe4d184468b778455d4b75f49b0f23b67
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Taka við og umbreyta rafræn skjölum
-Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Til að taka á móti reikningur frá lánardrottinn sem rafrænu PEPPOL-skjali er skjalið unnið í glugganum Fylgiskjal á innleið til að breyta því í innkaupareikning eða almenna færslubókarlínu í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Til að taka á móti reikningur frá lánardrottinn sem rafrænu PEPPOL-skjali er skjalið unnið á síðunni Fylgiskjal á innleið til að breyta því í innkaupareikning eða almenna færslubókarlínu í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Auk þess að fá rafræn skjöl beint úr viðskiptafélögum geturðu fengið rafræn skjöl frá OCR þjónustu sem hefur breytt PDF eða myndskrá í rafræn skjöl.  
 
@@ -31,9 +31,9 @@ Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu raf
  Þú getur annað hvort byrjað umbreytingu á rafrænum skjölum handvirkt, eins og lýst er í þessari aðferð, eða virkjað verkflæði til að umbreyta rafrænum skjöl sjálfkrafa þegar þau berast. Almenn útgáfa af [!INCLUDE[d365fin](includes/d365fin_md.md)] verkflæðissniðmátið *Úr rafrænu skjali á innleið gegnum OCR í verkflæði opins innkaupareiknings*, sem afrita má í verkflæði og virkja. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
 > [!NOTE]  
->  Þegar rafrænum skjölum sem koma úr OCR-þjónustu er breytt í skjöl eða færslubókarlínur í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður mörgum línum í upprunaskjalinu safnað saman í eina línu. Staka línan verður af gerðinni fjárhagsreikningur og **Lýsing** og **Nr.** (fjárhagsreiknings) reitir verða auðir. Gildið í reitnum **Upphæð** verður heildarupphæð, fyrir utan VSK, allra lína í upprunaskjalinu.  
+>  Þegar rafrænum skjölum sem koma úr OCR-þjónustu er breytt í skjöl eða færslubókarlínur í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður mörgum línum í upprunaskjalinu safnað saman í eina línu. Staka línan verður af gerðinni fjárhagsreikningur og **Lýsing** og **Nr.** (fjárhagsreiknings) reitir verða auðir. Gildið í reitnum **Upphæð** verður heildarupphæð allra lína í upprunaskjalinu, fyrir utan°virðisaukaskatt.  
 >   
->  Til að vera viss um að reitirnir **Lýsing** og **nr.** hafi verið fylltir út geturðu valið hnappinn **Varpa texta á reikning** í glugganum **Fylgiskjöl á innleið** til að ákvarða að tilteknum reikningstexta sé alltaf varpað á tiltekinn debit- eða kreditreikning í fjárhagnum. Í framhaldinu verður reiturinn **Lýsing** í skjali eða færslubókarlínum sem stofnaður er úr rafrænu skjali fyrir þann lánardrottinn eða viðskiptamann fylltur út með viðkomandi texta og fjárhagsreikningurinn **Nr.** reiturinn með lyklinum.  
+>  Til að vera viss um að reitirnir **Lýsing** og **nr.**  hafi verið fylltir út geturðu valið hnappinn **Varpa texta á reikning** á síðunni **Fylgiskjöl á innleið** til að ákvarða að tilteknum reikningstexta sé alltaf varpað á tiltekinn debit- eða kreditreikning í fjárhagnum. Í framhaldinu verður reiturinn **Lýsing** í skjali eða færslubókarlínum sem stofnaður er úr rafrænu skjali fyrir þann lánardrottinn eða viðskiptamann fylltur út með viðkomandi texta og fjárhagsreikningurinn **Nr.** reiturinn með lyklinum.  
 >   
 >  Í stað þess að varpa á fjárhagsreikning er líka hægt að varpa á bankareikning. Þetta er hagkvæmt, til dæmis, fyrir rafræn skjöl tengd útgjöldum sem eru nú þegar greitt þegar þú vilt stofna færslubókarlíni sem er tilbúin til að bóka á bankareikning.  
 
@@ -45,11 +45,11 @@ Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu raf
 
 2.  Velja línuna fyrir skjal á innleið sem táknar nýjan rafrænan reikning á innleið og svo, á flipanum **Heim** í hópnum **Stjórna** velja **Breyta**.  
 
-     Í glugganum **Fylgiskjalsspjald á innleið** er tengd XML skrá fest við og flestir reitir forútfylltir með upplýsingum frá rafrænum reikningi. Frekari upplýsingar eru í [Stofna færslur skjala á innleið](across-how-create-income-document-records.md).  
+     Á síðunni **Fylgiskjalsspjald á innleið** er tengd XML skrá fest við og flestir reitir forútfylltir með upplýsingum frá rafrænum reikningi. Frekari upplýsingar eru í [Stofna færslur skjala á innleið](across-how-create-income-document-records.md).  
 
 3.  Í reitnum **Gaganskiptagerð** veljið **PEPPOL reikningur** eða **OCR - reikningur** eftir uppruna rafræna skjalsins.  
 
-4.  Til að varpa texta á lánardrottinsreikningi á tiltekinn debetreikning skal, á flipanum **Aðgerðir** í flokknum **Almennt** velja **Varpa texta á reikning**, og fylla svo út gluggann **Vinnublað textavörpun á reikning**.  
+4.  Til að varpa texta á lánardrottinsreikningi á tiltekinn debetreikning skal, á flipanum **Aðgerðir** í flokknum **Almennt** velja **Varpa texta á reikning**, og fylla svo út síðuna **Vinnublað textavörpun á reikning**.  
 
 5.  Á flipanum **Aðgerðir** í flokknum **Almennt** veljið **Stofna skjal**.  
 

@@ -13,10 +13,10 @@ ms.search.keywords: design, item, item ledger, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f496530fcf4f0321b71941cdfdaa5fe100e15ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-application"></a>Hönnunarupplýsingar: umsókn vöru
@@ -58,7 +58,7 @@ Vörufærsla skrári eftirfarandi upplýsinagr.
 |---------------------------------|---------------------------------------|  
 |**Birgðafærslunr.**|Númer birgðafærslunnar fyrir þá hreyfingu sem þessi jöfnunarfærsla er stofnuð fyrir.|  
 |**Birgðafærslunr. vöru á innleið**|Birgðafærslunúmer birgðaaukningarinnar sem færslan á að vera tengd við, ef það á við.|  
-|**Jafnað af færslu nr.**|Birgðafærslunúmer birgðaminnkunarinnar sem færslan á að vera tengd við, ef það á við.|  
+|**Birgðafærslunr. vöru á útleið**|Birgðafærslunúmer birgðaminnkunarinnar sem færslan á að vera tengd við, ef það á við.|  
 |**Magn**|Það magn sem verið er að jafna.|  
 |**Bókunardags.**|Bókunardagsetning færslunnar.|  
   
@@ -68,7 +68,7 @@ Vörufærsla skrári eftirfarandi upplýsinagr.
 ### <a name="example"></a>Dæmi  
 Eftirfarandi tafla sýnir vörujöfnunarfærslu sem var búin til innkaupakvittun upp á 10 einingar var bókuð.  
   
-|Bókunardagsetning|Birgðafærslunr. vöru á innleið|Jafnað af færslu nr.|Magn|Birgðafærslunr.|  
+|Bókunardagsetning|Birgðafærslunr. vöru á innleið|Birgðafærslunr. vöru á útleið|Magn|Birgðafærslunr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
   
@@ -82,7 +82,7 @@ Eftirfarandi dæmi sýnir vörujöfnunarfærslu sem var stofnuð þegar bókuð 
   
 Eftirfarandi tafla sýnir tvær vörujöfnunarfærslur sem koma til bæði vegna birgðaaukningar og birgðaminnkunar.  
   
-|Bókunardagsetning|Birgðafærslunr. vöru á innleið|Jafnað af færslu nr.|Magn|Birgðafærslunr.|  
+|Bókunardagsetning|Birgðafærslunr. vöru á innleið|Birgðafærslunr. vöru á útleið|Magn|Birgðafærslunr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 |01-03-20|1|2|-5|2|  
@@ -111,7 +111,7 @@ Eftirfarandi tafla sýnir birgðahöfuðbókarfærslur vegna atburðarásarinnar
   
 Eftirfarandi tafla sýnir vörujöfnunarfærslu vegna fastrar jöfnunar.  
   
-|Bókunardagsetning|Birgðafærslunr. vöru á innleið|Jafnað af færslu nr.|Magn|Birgðafærslunr.|  
+|Bókunardagsetning|Birgðafærslunr. vöru á innleið|Birgðafærslunr. vöru á útleið|Magn|Birgðafærslunr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-06-20|1|3|10|3|  
   
@@ -191,7 +191,7 @@ Eftirfarandi tafla sýnir áhrif nákvæmrar kostnaðarbakfærslu í virðisfær
 Þegar runuvinnslan **Kostnaðarleiðrétting - Birgðafærslur** er keyrð er aukinn kostnaður við innkaupafærsluna vegna kostnaðarauka áframsendur á sölufærsluna færslu nr. 2. Sölufærslan framsendir svo þennan aukna kostnað á sölukreditfærslu (færsla númer 3). Endanleg niðurstaða er sú að kostnaður er rétt bakfærður.  
   
 > [!NOTE]  
->  Ef verið er að vinna með skil eða kreditreikninga og settur hefur verið upp reiturinn **Nákvæm og lögbundin bakfærsla kostnaðar** annaðhvort í glugganum **Uppsetning fyrir Innkaup & Viðskiptaskuldir** eða glugganum **Sala & Útistandandi kröfur**, eins og við á í viðkomandi aðstæðum, fyllir [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa út í mismunandi jöfnunarfærslureiti þegar aðgerðin **Afrita fylgiskjal** er notuð. Til að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eru allir reitir fylltir út sjálfkrafa.  
+>  Ef verið er að vinna með skil eða kreditreikninga og settur hefur verið upp reiturinn **Nákvæm og lögbundin bakfærsla kostnaðar** annaðhvort á síðunni **Uppsetning fyrir Innkaup & Viðskiptaskuldir** eða glugganum **Sala & Útistandandi kröfur**, eins og við á í viðkomandi aðstæðum, fyllir [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa út í mismunandi jöfnunarfærslureiti þegar aðgerðin **Afrita fylgiskjal** er notuð. Til að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eru allir reitir fylltir út sjálfkrafa.  
   
 > [!NOTE]  
 >  Ef Þú bókar færslu með fastri jöfnun og birgðahöfuðbók sem bókuð er er lokað, sem merkir að eftirstandandi magn er núll, verður eldri jöfnunin afgerð sjálfkrafa og notar birgðafærsluna með föstu jöfnuninni sem þú hefur valið.  
@@ -239,7 +239,7 @@ Vegna þess hvernig kostnaðarverð er reiknað út gæti skökk birgðajöfnun 
 * Æskilegt er að hnekkja jöfnuninni sem var stofnuð sjálfkrafa við bókun samkvæmt aðferð kostnaðarútreiknings.  
 * Skila þarf vöru sem búið er að jafna sölu við handvirkt án þess að nota aðgerðina**Sækja bókaðar fylgiskjalalínur til að bakfæra** og því verður að afturkalla þessa jöfnun.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] býður upp á eiginleika til að greina og leiðrétta jöfnun vöru. Þetta er framkvæmt í glugganum **Vinnublað fyrir jöfnun**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] býður upp á eiginleika til að greina og leiðrétta jöfnun vöru. Þetta er framkvæmt á síðunni **Vinnublað fyrir jöfnun**.  
   
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4d3112b4c7e574306bbff9dd50ad50eb32ecdb69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 989fff07cb0608b8dbf6611a39163fc3cfe31459
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="incoming-documents"></a>Skjöl á innleið
@@ -24,20 +24,20 @@ Sumar viðskiptafærslur eru ekki skráðar í [!INCLUDE[d365fin](includes/d365f
 
 Úr PDF-skjölum eða myndaskrám sem standa fyrir skjöl á innleið er hægt að láta ytri OCR-þjónustu (sjónræn stafakennsl) stofna rafræn skjöl sem hægt er að umbreyta í skráarfærslur innan [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Í glugganum **Skjöl á innleið** er hægt að nota ólíkar aðgerðir til að yfirfara kostnaðarkvittanir, sýsla með OCR-verk og breyta skjölum á innleið, handvirkt eða sjálfvirkt, yfir í viðkomandi skjöl eða færslubókarlínur í. Ytri skrárnar er hægt að hengja við tengd skjöl á öllum stigum úrvinnslunnar, þ.m.t. við bókuð skjöl og við færslur lánardrottins, viðskiptamanns eða fjárhags sem verða til.
+Á síðunni **Skjöl á innleið** er hægt að nota ólíkar aðgerðir til að yfirfara kostnaðarkvittanir, sýsla með OCR-verk og breyta skjölum á innleið, handvirkt eða sjálfvirkt, yfir í viðkomandi skjöl eða færslubókarlínur í. Ytri skrárnar er hægt að hengja við tengd skjöl á öllum stigum úrvinnslunnar, þ.m.t. við bókuð skjöl og við færslur lánardrottins, viðskiptamanns eða fjárhags sem verða til.
 
 Ferlið vegna skjal á innleið getur samanstaðið af eftirfarandi aðgerðir:
 
-* Skrá ytri skjöl innan [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að stofna línur í glugganum **skjöl á innleið** með öðrum hvorum eftirfarandi hætti:
+* Skrá ytri skjöl innan [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að stofna línur á síðunni **skjöl á innleið** með öðrum hvorum eftirfarandi hætti:
   * Handvirkt, með því að nota einfaldar aðgerðir, annaðhvort frá tölvu eða farsíma, í einn af eftirfarandi leiðum:
-    * Notaðu hnappinn **Stofna úr skrá** og fylla svo út í viðeigandi reiti í **skjal á innleið** glugganum. Skráin er hengd við sjálfkrafa.  
-    * Notaðu **nýtt** hnapp og fylla svo út í viðeigandi reiti í **skjal á innleið** glugganum og hengja handvirkt tengda skrá við.
+    * Notaðu hnappinn **Stofna úr skrá** og fylla svo út í viðeigandi reiti á síðunni **skjal á innleið**. Skráin er hengd við sjálfkrafa.  
+    * Notaðu hnappinn **Nýtt** og fylltu svo út í viðeigandi reiti á síðunni **Skjal á innleið** og hengdu handvirkt tengda skrá við.
     * Úr spjaldtölvu eða síma, nota hnappinn **Stofna úr myndavél** til að stofna nýja færslu fyrir skjal á innleið og senda svo myndina í OCR-þjónustu, t.d.
-  * Sjálfkrafa, með því að taka á móti skjal frá OCR þjónustu sem rafrænu skjali eftir að hafa sent tengda PDF eða myndaskrá til OCR þjónustuna með tölvupósti. Flýtiflipinn**Fjárhagsupplýsingar** er fylltur út sjálfkrafa í glugganum **skjal á innleið**.
+  * Sjálfkrafa, með því að taka á móti skjal frá OCR þjónustu sem rafrænu skjali eftir að hafa sent tengda PDF eða myndaskrá til OCR þjónustuna með tölvupósti. Flýtiflipinn **Fjárhagsupplýsingar** er fylltur út sjálfkrafa á síðunni **skjal á innleið**.
 * Nota OCR-þjónustu til að breyta PDF eða myndaskrár í rafræn skjöl sem hægt er að breyta í færslur fyrir skjöl í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 * Stofnið ný skjöl eða almenn færslubókarlínur fyrir færslur fyrir skjöl á innleið með því að slá inn upplýsingar um leið og þú lest þær úr skrám fyrir skjöl á innleið.
 * Festið skjöl á innleið við innkaupa og söluskjöl með hvaða stöðu sem er, þar með talinn færslur fyrir lánardrottins, viðskiptamaður eða fjárhagsfærslur sem koma úr bókun.
-* Skoða skjal á innleið og viðhengi þeirra úr hvaða innkaupa eða söluskjali eða færslu eða finna allar fjárhagsfærslur án færslna fyrir skjöl á innleið úr glugganum **bókhaldslykill**
+* Skoða skjal á innleið og viðhengi þeirra úr hvaða innkaupa eða söluskjali eða færslu eða finna allar fjárhagsfærslur án færslna fyrir skjöl á innleið af síðunni **bókhaldslykill**.
 
 | Til | Sjá |
 | --- | --- |

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 33ccc1dbe9654245129bdbd760896054c10cd2f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Flutningur viðskiptagagna í Excel
@@ -22,6 +22,9 @@ Ef ætlunin er að vinna með gögn frá [!INCLUDE[d365fin](includes/d365fin_md.
 
 ## <a name="opening-lists-in-excel"></a>Opnar lista í Excel
 Hægt er að opna gögn í Excel úr hvaða færslubók, lista eða vinnublaði sem er. Notandinn opnar bara síðuna sem hann vill nota og velur svo **Opna í Excel**. Til dæmis, opnar lista yfir viðskiptamenn (leitar að **Viðskiptamenn**), og velur svo **Opna í Excel**. Vafrinn sendir áminningu um að opna að vista myndaða Excel-vinnubók.  
+
+> [!NOTE]
+> Notaðu þennan valkost þegar þú vilt ekki gera breytingar og birta þessar breytingar aftur í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Hver listi inniheldur nokkra dálka og útflutningur í Excel tekur með alla dálka sem eru í núgildandi yfirliti. Eigi að bæta við eða fjarlægja dálka áður en listinn er opnaður í Excel þarf aðeins að opna flýtivalmyndina fyrir einhvern dálkanna og tilgreina hvaða dálka eigi að skoða. Listi yfir dálka er mismunandi fyrir flesta lista og endurspeglar bygginguna í gagnagrunninum þar sem gögnin eru geymd. Ef vafi leikur á hvers konar gögn tiltekinn dálkur inniheldur er hægt að bæta honum við yfirlitið og fjarlægja hann svo aftur.  
 
@@ -39,7 +42,7 @@ Að sjálfsögðu er hægt að flytja út allar síður en það gæti verið me
 * Bankar  
 * Birgðir  
 
-Ef notandi vill einnig hafa allar fjárhagsfærslur með líka er það mjög mikið magn af gögnum og útflutningur mun því oft taka meira en nokkrar mínútur. Fjárhagsfærslurnar eru sýndar í glugganum **Fjárhagsfærslur**.  
+Ef notandi vill einnig hafa allar fjárhagsfærslur með líka er það mjög mikið magn af gögnum og útflutningur mun því oft taka meira en nokkrar mínútur. Fjárhagsfærslurnar eru sýndar á síðunni **Fjárhagsfærslur**.  
 
 Við mælum með að notandi íhugi einnig að flytja út gögn af eftirfarandi síðum:  
 

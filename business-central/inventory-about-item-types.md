@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/18/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b976ca548bf02511e818fa981395cb9261757468
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2240840e977bcd1186c74972ce0457deb03058a0
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-item-types"></a>Um vörutegundir
-Í reitnum **Tegund** í glugganum **Birgðaspjald** er hægt að velja fyrir hvað varan er notuð í fyrirtækinu og því hvernig henni er stjórnað í kerfinu. Þrír valkostir eru til:
+Í reitnum **Tegund** á síðunni **Birgðaspjald** er hægt að velja fyrir hvað varan er notuð í fyrirtækinu og því hvernig henni er stjórnað í kerfinu. Þrír valkostir eru til:
 
 |Valkostur|Dæmigerður tilgangur|
 |------|-----------|
@@ -37,7 +37,7 @@ Vörutegundirnar þrjár styðja eftirfarandi eiginleika eftir því sem við á
 |Gerð vöru|Sölur|Innkaup|Vinnunotkun|Þjónustunotkun|Samsetningarnotkun|Framleiðsla Notkun|Samsetningarfrálag|Framleiðslufrálag|Staðsetningarflutningur|Birgðatalning|Endurmat á birgðum|Birgðakostnaður|Vörurakning|Frátekning|Vörugeymsla|Áætlun|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Birgðir|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|Já|
-|Engar birgðir|Já|Já|Já|Já|Já|Já|Já|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|
+|Engar birgðir|Já|Já|Já|Já|Já|Já|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|
 |Þjónusta|Já|Já|Já|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|
 
 > [!NOTE]

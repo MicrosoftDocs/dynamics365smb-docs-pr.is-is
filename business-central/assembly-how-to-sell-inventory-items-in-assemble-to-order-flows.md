@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b01e3cb4d8ea09d08a546fb0af25dc0879111eb
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Selja birgðavörur í flæðum samsetningar í pöntun
@@ -41,9 +41,9 @@ Svipuð virkni er tiltæk þegar verið er að selja samsetningarvörur úr birg
 4.  Í upplýsingakassanum **Sundurliðun sölulínu** ákvarðaðu hvort allt eða eitthvað af áskildu magni er tiltækt.  
 5.  Í reitnum **Magn til samsetningar til pöntunar** er tiltækt magn dregið frá þannig að einungis ótiltækt magn er sett saman í pöntunina. Reiturinn **Frátekið magn** er minnkaður í samræmi við það til að gefa til kynna að tengillinn á pöntun fyrir pöntun, eða frátektin, á einungis við magn sem á að setja saman.  
 6.  Á flýtiflipanum **Línur** skal velja **Aðgerðir** og síðan aðgerðina **Taka frá**.  
-7.  Í glugganum **Frátekning** veljið birgðafærslulínuna eða línurnar sem hafa að geyma tiltækt magn á flipanum**Taka frá í gildandi línu** og velja svo **Í lagi** hnappinn.  
+7.  Á síðunni **Frátekning** skal velja birgðafærsluna eða línurnar sem hafa að geyma tiltækt magn á flipanum **Taka frá í gildandi línu** og velja svo **Í lagi** hnappinn.  
 
-    Í glugganum **Sölupöntun** í reitnum **Frátekið magn** sem sýnir nú að magn pöntunarlínununnar er tekið frá. Reiturinn **Magn Til að setja saman í pöntun** speglar enn það undirmagn sem þarf að setja saman.  
+    Á síðunni **Sölupöntun** í reitnum **Frátekið magn** sem sýnir nú að magn pöntunarlínununnar er tekið frá. Reiturinn **Magn Til að setja saman í pöntun** speglar enn það undirmagn sem þarf að setja saman.  
 
 8.  Gefið sölupöntunina út fyrir tínslu birgðavara og samsetningu ótiltækra vara. Nánari upplýsingar, sjá [Sameina vörur](assembly-how-to-assemble-items.md).  
 

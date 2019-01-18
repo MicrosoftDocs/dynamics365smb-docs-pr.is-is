@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7172c271d2bd25d79294a637dec83a8a0fb834dc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-production-orders"></a>Um framleiðslupantanir
@@ -40,7 +40,7 @@ Framleiðslupantanir eru upphafspunktar fyrir:
 -   Rakningu tilbúinnar framleiðslu  
 
 ## <a name="production-order-creation"></a>Stofnun framleiðslupantana  
-Hægt er að stofna framleiðslupantanir á grundvellinum pöntun-fyrir-pöntun handvirkt í glugganum **Framleiðslupöntun** eða mynda þær í gluggunum **Sölupöntun Áætlun** eða **Pöntunaráætlun**. Glugginn **Áætlunarblað** er notaður til að gera margar pantanir.  
+Hægt er að stofna framleiðslupantanir á grundvellinum pöntun-fyrir-pöntun handvirkt á síðunni **Framleiðslupöntun** eða mynda þær í gluggunum **Sölupöntun Áætlun** eða **Pöntunaráætlun**. Síðan **Áætlunarblað** er notuð til að gera margar pantanir.  
 
 Framleiðslupantanir eru stofnaðar eftir upplýsingum frá:  
 
@@ -54,8 +54,8 @@ Framleiðslupantanir eru stofnaðar eftir upplýsingum frá:
 Framleiðslupantanir eru sjálfkrafa teknar frá og raktar aftur til uppruna síns þegar:  
 
 -   Þær eru stofnaðar á **Áætlunarvinnublaðinu**  
--   Þær eru stofnaðar með aðgerðinni Pöntun í glugganum **Áætlun sölupöntunar**  
--   Stofnaðar í glugganum **Pantanaáætlun**  
+-   Þær eru stofnaðar með aðgerðinni Pöntun á síðunni **Áætlun sölupöntunar**  
+-   Stofnaðar á síðunni **Pantanaáætlun**  
 -   Nota aðgerðina **Enduráætla** á framleiðslupantanir  
 
 Frekari upplýsingar eru í [Rekja tengsl á milli framboðs og eftirspurnar](production-how-track-demand-supply.md).
@@ -63,7 +63,7 @@ Frekari upplýsingar eru í [Rekja tengsl á milli framboðs og eftirspurnar](pr
 Framleiðslupantanir sem eru stofnaðar eftir öðrum leiðum eru ekki sjálfkrafa teknar frá og raktar.   
 
 ## <a name="production-order-status"></a>Staða framleiðslupöntunar  
-Staða framleiðslupöntunar stýrir því hvernig framleiðslupöntunin hagar sér innan kerfisins. Form og innihald framleiðslunnar ráðast af stöðu pöntunarinnar. Framleiðslupantanirnar eru birtar í ólíkum gluggum eftir því hver staða þeirra er. Ekki er hægt að breyta stöðu framleiðslupöntunar handvirkt; nota þarf aðgerðina **Breyta stöðu**.  
+Staða framleiðslupöntunar stýrir því hvernig framleiðslupöntunin hagar sér innan kerfisins. Form og innihald framleiðslunnar ráðast af stöðu pöntunarinnar. Framleiðslupantanirnar eru birtar á ólíkum síðum eftir því hver staða þeirra er. Ekki er hægt að breyta stöðu framleiðslupöntunar handvirkt; nota þarf aðgerðina **Breyta stöðu**.  
 
 ### <a name="simulated-production-order"></a>Hermd framleiðslupöntun  
 Hermda framleiðslupöntunin er einstök hvað varðar eftirfarandi eiginleika:  

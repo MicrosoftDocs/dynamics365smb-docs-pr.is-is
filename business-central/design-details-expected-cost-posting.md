@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 50ac9cbb946fedc687eb5ea1373c99d68f3d322b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae88a455552c7194422d07e6e666bd81b7eab101
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Hönnunarupplýsingar: Væntanlegur kostnaðarfærsla
@@ -27,12 +27,12 @@ ms.lasthandoff: 03/22/2018
 > [!NOTE]  
 >  Áætlaður kostnaður er aðeins stýrður fyrir vörufærslur. Áætlaður kostnaður er ekki fyrir óáþreifanlegar færslugerðir á borð við afköst og kostnaðarauka.  
 
- Ef einungis magnhluti birgðaaukningar hefur verið bókaður breytist birgðavirðið í fjárhag ekki nema gátreiturinn **Væntanleg kostnaðarbókun í fjárhag** hafi verið valinn í glugganum **Uppsetning birgða**. Í því tilviki er áætlaður kostnaður bókaður á bráðabirgðareikninga við móttöku. Eftir að móttaka hefur að fullu verið reikningsfærð eru bráðabirgðareikningarnir mótbókaðir og raunverulegur kostnaður bókaður í birgðareikninginn.  
+ Ef einungis magnhluti birgðaaukningar hefur verið bókaður breytist birgðavirðið í fjárhag ekki nema gátreiturinn **Væntanleg kostnaðarbókun í fjárhag** hafi verið valinn á síðunni **Uppsetning birgða**. Í því tilviki er áætlaður kostnaður bókaður á bráðabirgðareikninga við móttöku. Eftir að móttaka hefur að fullu verið reikningsfærð eru bráðabirgðareikningarnir mótbókaðir og raunverulegur kostnaður bókaður í birgðareikninginn.  
 
  Til að styðja afstemmingu og rekjanleika vinnu, reikningsfært virðisfærsla sýnir áætlaðan kostnaðarupphæð sem hefur verið sendur til að jafnvægi á bráðabirgðareikningum.  
 
 ## <a name="example"></a>Dæmi  
- Eftirfarandi dæmi sýnir væntanlegan kostnað ef gátreiturinn **Sjálfvirk kostnaðarbókun** og gátreiturinn **Væntanleg kostnaðarbókun í fjárhag** eru valdir í glugganum **Birgðagrunnur**.  
+ Eftirfarandi dæmi sýnir væntanlegan kostnað ef gátreiturinn **Sjálfvirk kostnaðarbókun** og gátreiturinn **Væntanleg kostnaðarbókun í fjárhag** eru valdir á síðunni **Birgðagrunnur**.  
 
  Innkaupapöntun er bókuð sem móttekin Áætlaður kostnaður er 95,00 SGM.  
 

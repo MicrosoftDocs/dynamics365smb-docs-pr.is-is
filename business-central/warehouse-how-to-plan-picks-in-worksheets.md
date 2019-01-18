@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 46c19e9fc255c34cfce6e547173f14f548785a0b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 30a6832c0672677106fdb41c9a38a73dae296aa5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="plan-picks-in-worksheets"></a>Skipuleggja tínslur á vinnublaðinu
@@ -42,8 +42,8 @@ Ef raðað er eftir gjalddaga er hægt að eyða öllum línum öðrum en þeim 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað tínslu** og veldu síðan tengda tengilinn.  
 2.  Valið er **Sækja vöruhúsaskjöl** aðgerðin.  
 3.  Afhendingarnar sem undirbúa á tínslu fyrir eru valdar. Nú er hægt að raða línunum upp að vissu marki en röðunin sem hér er gerð flyst ekki áfram í tínsluleiðbeiningarnar. Einnig er hægt að eyða línum til að gera tínsluna skilvirkari. Til dæmis, ef til eru línur með vörum í hjáskipunarhólfum er hægt að stofna tínslu fyrir allar línur sem tengjast þeim línum. Hjáskipunarvörurnar verða sendar (ásamt hinum vörunum í afhendingunum) og hjáskipunarhólfin hafa pláss fyrir fleiri vörur.  
-4.  Velja aðgerðina **Stofna tínslu** og beiðniglugginn **Stofna tínslu** er fylltur út. Röðunin hér raðar tínslulínunum sem stofnaðar eru. Til dæmis er hægt að stofna eina tínslu fyrir hvert svæði og raða línum eftir hólfaflokkum innan hverrar tínslu.  
-5.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínsla** og veldu síðan tengda tengilinn. Glugginn **Tínsla** opnast.  
+4.  Velja aðgerðina **Stofna tínslu** og beiðnisíðan **Stofna tínslu** er fyllt út. Röðunin hér raðar tínslulínunum sem stofnaðar eru. Til dæmis er hægt að stofna eina tínslu fyrir hvert svæði og raða línum eftir hólfaflokkum innan hverrar tínslu.  
+5.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínsla** og veldu síðan tengda tengilinn. Síðan **Tínsla** opnast.  
 6.  Nú er hægt að finna tínsluúthlutunina sem stofnuð var með því að velja tínsluna með hæsta númerinu.  
 7.  Í tínslunni er hægt að breyta notandakenninu og röðun línanna ef þess þarf.  
 8.  Veldu hnappinn **Prenta** til þess að prenta tínsluleiðbeiningarnar.  

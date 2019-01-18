@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fbac12ea35916a1ae577341054f4b80522de9df8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setja upp sjóðstreymisgreiningu
@@ -30,7 +30,7 @@ Ef þú vilt fá aðstoð til að ákveða hvað þú átt að gera með féð �
 Þetta efni lýsir hvar gögnin í töflunum koma frá og, ef nauðsyn krefur, hvað á að gera til að byrja að nota töflurnar.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Gröf ferils bundins reiðufés og tekjur og útgjöld
-Gröf **ferils bundins reiðufés** og **tekjur og útgjöld** eru tilbúin til notkunar, byggt á bókhaldslyklum og fjárhagsskema. Lyklarnir eru þar sem gögnin koma frá og fjárhagsskema reiknar út sambandið milli sölu og viðskiptakrafna. Sumir reikningar og fjárhagsskemu eru veitt. Þú getur notað þau eins og-er, breytt þeim og bætt við nýjum. Ef þú bætir fjárhagsreikningi við bókhaldslykil, til dæmis með því að flytja þær frá QuickBooks þarftu að varpa reikningunum í glugganum **Fjárhagsskema** fyrir eftirfarandi nöfn reikningsáætlunar:  
+Gröf **ferils bundins reiðufés** og **tekjur og útgjöld** eru tilbúin til notkunar, byggt á bókhaldslyklum og fjárhagsskema. Lyklarnir eru þar sem gögnin koma frá og fjárhagsskema reiknar út sambandið milli sölu og viðskiptakrafna. Sumir reikningar og fjárhagsskemu eru veitt. Þú getur notað þau eins og-er, breytt þeim og bætt við nýjum. Ef þú bætir fjárhagsreikningi við bókhaldslykil, til dæmis með því að flytja þær frá QuickBooks þarftu að varpa reikningunum á **Fjárhagsskema** síðuna fyrir eftirfarandi nöfn reikningsáætlunar:  
 
 | Heiti fjárhagsskema | Þar sem það er notað |
 | --- | --- |
@@ -68,14 +68,14 @@ Uppsetning assisted leiðbeiningum nota til:
 1. Í Hlutverkamiðstöð bókhaldara undir **Sjóðstreymisspá** skal velja **Opna uppsetningu með hjálp** aðgerðina.  
 2. Fylltu út reitina í hverju skrefi leiðarvísisins.  
 3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sjóðstreymisspá** og veldu síðan tengda tengilinn.
-4. Í glugganum **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
+4. Á síðunni **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
 
 Nota handvirkt ferli:  
 
 1. Í Hlutverkamiðstöð bókhaldara skaltu leita að **Uppsetning sjóðstreymis** og velja svo tengdan tengil.  
 2. Stækkaðu **Cortana Intelligence** flýtiflipann, og veldu **Cortana Intelligence virkjað** gátreitinn.  
 3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sjóðstreymisspá** og veldu síðan tengda tengilinn.
-4. Í glugganum **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
+4. Á síðunni **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
 
 > [!TIP]  
 >   Íhugaðu lengd tímabila sem þjónustan er notaður í útreikningum hennar. Frekari gögn sem veita verður því nákvæmari á predictions. Líka watch út fyrir mikið frávik í tímabil. Þeir eru einnig hefur predictions. Ef Cortana Intelligence finnur ekki nægt gögnum eða gögnin breytist við lotu, gera á ekki við prediction.  

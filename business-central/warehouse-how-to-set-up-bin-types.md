@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2865d938c9bde4a64898e48d0381ed73b8c94d6e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a82ce6867a86dcc5ba09949b7e7611550d744a83
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-bin-types"></a>Setja upp hólfategundir
@@ -26,7 +26,7 @@ Til eru sex tegundir. Hægt er að reka vöruhúsið með öllum sex hólfategun
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Hólfategundir sem á að nota settar upp  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **gerðir hólfa** og veldu síðan tengda tengilinn.  
-2.  Í glugganum **Hólfategundir** er 10 stafa kóti fyrir hólfategund stofnaður.  
+2.  Á síðunni **Hólfategundir** er 10 stafa kóði fyrir hólfategund stofnaður.  
 3.  Veljið aðgerðir sem hægt er að framkvæma með hverri tegund hólfa.  
 
 > [!NOTE]  

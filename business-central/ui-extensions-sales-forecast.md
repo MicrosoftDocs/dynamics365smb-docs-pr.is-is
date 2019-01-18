@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 568cc364b868d9edf2b0126b38ecd2cbc4a5447e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3ae36c5cb7f1738bded3947c99c197221a621f07
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Spá um sölu og birgðir viðbótina
@@ -26,7 +26,7 @@ Birgðastjórnun er málamiðlun á milli notendaþjónustu og stjónun kostnað
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er tengingin við [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite) þegar sett upp fyrir þig. En hægt er að grunnstilla spá til að nota aðra tímabilsgerð til að gefa skýrslur samkvæmt, eins og að breyta úr spám samkvæmt mánuðum í spám samkvæmt ársfjórðungum. Einnig er hægt að velja fjölda tímabila sem á að reikna spá eftir, eftir því hversu grófgerð spáin á að vera. Við að leggja til að spá eftir mánuðum og með 12 mánaða sjóndeildarhring fyrir spána.  
 
 ## <a name="using-the-forecasts"></a>Notkun spáa
-Þessi viðbót notar Cortana Intelligence til að spá fyrir um framtíðar sölu byggt á söluferli þínum til að hjálpa þér að komast hjá birgðaskorti. Til dæmis þegar valið er vöru í glugganum **Vörur** , í sýnir grafið á **vöruspá** svæðinu áætlaða sölu vörunnar á komandi tímabili. Þannig má sjá ef líklegt er að varan klárist fljótlega hjá þér.  
+Þessi viðbót notar Cortana Intelligence til að spá fyrir um framtíðar sölu byggt á söluferli þínum til að hjálpa þér að komast hjá birgðaskorti. Til dæmis þegar valið er vöru á síðunni **Vörur** , í sýnir grafið á **vöruspá** svæðinu áætlaða sölu vörunnar á komandi tímabili. Þannig má sjá ef líklegt er að varan klárist fljótlega hjá þér.  
 
 Einnig má nota viðbótina til að leggja til þegar þarf að fylla á birgðir. T.d. ef þú stofnar innkaupapöntun Fabrikam af því þú vilt kaupa nýja skrifstofustólinn þeirra, mun sölu- og birgðaspárviðbótin leggja til að þú bætir einnig á birgðir LONDON-snúningsstólsins sem þú kaupir yfirleitt frá þessum lánardrottni. Það er vegna þess viðbótin spáir að þú munir klára úr birgðum þennan London-snúningsstól á næstu tveimur mánuðum, svo þú gætir viljað panta fleiri stóla nú þegar.  
 

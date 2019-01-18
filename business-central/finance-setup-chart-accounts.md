@@ -11,10 +11,10 @@ ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 9f84af8bb4ac3be9132ab621906c463cfc9b91ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9ed8bc069fc702a1b2d8d893531baca5eab7a903
 ms.contentlocale: is-is
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Uppsetning eða breyting á bókhaldslykli
@@ -28,8 +28,8 @@ Fyrir hvern bókhaldslykil er hægt að opna hvern einstakan fjárhagslykil og b
 >   Hægt er að eyða fjárhagsreikningur. Áðu en honum er eytt þarf hins vegar eftirfarandi að vera rétt:  
 
 * Staða reikningsins verður að vera núll.  
-* Reiturinn **Leyfa eyðingu fjárhagsr.fyrir** verður að vera stilltur í glugganum **Uppsetning fjárhags** og ekki mega vera fjárhagsfærslur í lyklinum frá og með þeim degi.  
-* Ef reiturinn **Athuga notkun fjárhagsr.** í glugganum **Uppsetning fjárhags** er valinn má ekki nota lykilinn í neinum bókunarflokkum eða bókunargrunnum.  
+* Reiturinn **Leyfa eyðingu fjárhagsr.fyrir** verður að vera stilltur á síðunni **Uppsetning fjárhags** og ekki mega vera fjárhagsfærslur í lyklinum frá og með þeim degi.  
+* Ef reiturinn **Athuga notkun fjárhagsr.** á síðunni **Uppsetning fjárhags** er valinn má ekki nota lykilinn í neinum bókunarflokkum eða bókunargrunnum.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kemur í veg fyrir að fjárhagsreikningi sé eytt sem geymir gögn sem þarf í bókhaldslyklinum.  
 

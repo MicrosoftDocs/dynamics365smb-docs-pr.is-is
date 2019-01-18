@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 40ca8e4a86a74f449a980f06060488cdb117d3c7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Hönnunarupplýsingar: vörurakning g frátekningar
@@ -44,15 +44,15 @@ Aðalmunurinn á tilgreindum og ótilgreindum frátekningum er skilgreindur með
 |**Sérstakt**|Rað- eða lotunúmer.|Rað- eða lotunúmer.|  
 |**Ekki sérstatk**|Rað- eða lotunúmer.|Ekkert rað- eða lotunúmer.|  
   
-Þegar þú tekur frá birgðamagn úr skjalalínu skjala á útleið fyrir vöru sem er með úthlutuð vörurakningarnúmer og er sett upp með sértæka vörurakningu leiðir glugginn**Frátekning** þig í gegnum mismunandi verkflæði, allt eftir því hversu mikla þörf þú hefur fyrir rað- eða lotunúmer.  
+Þegar þú tekur frá birgðamagn úr skjalalínu skjala á útleið fyrir vöru sem er með úthlutuð vörurakningarnúmer og er sett upp með sértæka vörurakningu leiðir síðan **Frátekning** þig í gegnum mismunandi verkflæði, allt eftir því hversu mikla þörf þú hefur fyrir rað- eða lotunúmer.  
   
 ## <a name="specific-reservation"></a>Sérstakar frátekning  
-Ef þú velur **Taka frá** úr línu skjala á útleið birtist svargluggi sem spyr hvort taka eigi frá sérstök rað- eða lotunúmer. Ef **Já** er valið birtist listi með öllum rað- eða lotunúmerum sem er úthlutað á skjalalínuna. **Frátekning** Gluggi opnast eftir að þú velur einn af rað- eða lotunúmer, og þú getur þá frátekið meðal völdum raðnúmer eða lotunúmer á venjulegan hátt..  
+Ef þú velur **Taka frá** úr línu skjala á útleið birtist svargluggi sem spyr hvort taka eigi frá sérstök rað- eða lotunúmer. Ef **Já** er valið birtist listi með öllum rað- eða lotunúmerum sem er úthlutað á skjalalínuna. Síðan **Frátekning** opnast eftir að þú velur einn af rað- eða lotunúmer, og þú getur þá frátekið meðal völdum raðnúmer eða lotunúmer á venjulegan hátt..  
   
-Ef einhver af tilgreindum vörurakningarnúmerum sem reynt er að taka frá eru geymd í ótilgreindum frátekningum láta skilaboð neðst í glugganum **Frátekning** vita hversu mörg af fráteknu heildarmagni eru geymd í ótilgreindum frátekningum og hvort þau eru ennþá tiltæk.  
+Ef einhver af tilgreindum vörurakningarnúmerum sem reynt er að taka frá eru geymd í ótilgreindum frátekningum láta skilaboð neðst á síðunni **Frátekning** vita hversu mörg af fráteknu heildarmagni eru geymd í ótilgreindum frátekningum og hvort þau eru ennþá tiltæk.  
   
 ## <a name="nonspecific-reservation"></a>Ótilgreind frátekning  
-Ef **Nei** er valið í svarglugganum sem birtist opnast glugginn **Frátekning** þar sem hægt er að taka frá úr öllum rað- eða lotunúmerum í birgðum.  
+Ef **Nei** er valið í svarglugganum sem birtist opnast síðan **Frátekning** þar sem hægt er að taka frá úr öllum rað- eða lotunúmerum í birgðum.  
   
 Vegna uppbyggingu frátekningarkerfisins, þegar þú setur ósértæka frátekningu um vöruskráðan hlut verður, kerfið að velja tiltekna birgðahöfuðbók til að panta gegn. Vegna þess að færslur í birgðahöfuðbók bera vörurakningarnúmer, tekur frátekningin óbeint frá tiltekin rað- eða lotunúmer, jafnvel þó að þú hafir það ekki í hyggju að. Til að höndla þetta ástand, frátekningarkerfið reynir að stokka Ósértæk frátekningarfærslur fyrir bókun.  
   
@@ -81,7 +81,7 @@ Til dæmis kemur þörfin fram þegar pantanavinnsla hefur fyrst gert ótilgrein
 ### <a name="reserve-specific-serial-or-lot-numbers"></a>Taka frá tiltekin rað- eða lotunúmer  
 Í þessu fyrirtækjaumhverfi, tryggir binding á eftir áætlun að notandi sem er að reyna að taka frá ákveðna raðnúmer eða lotunúmer sem er nú  áskilin ótilgreint getur gert það. Ótilgreind frátekning er stokkuð við frátekningu til að losa rað- eða lotunúmer fyrir sérstaka frátekningu.  
   
-Endurskipulagning er sjálfvirk en innfelld hjálp sést neðst í glugganum **Frátekning** og sýnir eftirfarandi texta:  
+Endurskipulagning er sjálfvirk en innfelld hjálp sést neðst á síðunni **Frátekning** og sýnir eftirfarandi texta:  
   
 **XX af heildar- fráteknu magni eru ósértæk og kunna að vera laus.**  
   

@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f0bdc88cb2d52ed8e1558fb140f904f792e539ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c8f086e0dc7479ece62ab28b64f9553ba2d13b82
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="close-accounting-periods"></a>Loka fjárhagstímabilum
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/28/2018
 
 ## <a name="to-close-accounting-periods"></a>Fjárhagstímabilum lokað:
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagstímabil** og veldu síðan tengda tengilinn.
-2. Í glugganum **Reikningstímabil** skal velja **loka ári** aðgerðina.
+2. Á síðunni **Fjárhagstímabil** skal velja aðgerðina **Loka ári**.
 
     Ef fleiri en eitt reikningsár er opið elsta er að elsta sjálfkrafa valið til að vera lokað. Það birtir boð með árinu sem á að loka þar sem er útskýrt hvað gerist ef árinu er lokað.
 3. Til að loka árinu skal velja hnappinn **Já**.

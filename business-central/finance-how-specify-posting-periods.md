@@ -15,10 +15,10 @@ ms.search.keywords: user setup
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 240250a30c4dd0292fdd3ee19e591c8485098ea0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c7aa965f952a4d03ea5c74fe09e59c076a87275a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="specify-posting-periods"></a>Tilgreina bókunartímabil
@@ -26,10 +26,10 @@ Notaðu staðartímabil til að tilgreina hvenær notendur geta sent í aðalbó
 
 ## <a name="to-specify-posting-periods"></a>Bókunartímabil tilgreind
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning fjárhags** og veldu síðan tengda tengilinn.  
-2. Í **Uppsetning fjárhags** glugganum er tilgreint tímabilið með því að slá inn dagsetningar í **Leyfa bókun frá** og **Leyfa bókun til**.  
+2. Á síðunni **Uppsetning fjárhags** skal tilgreina tímabilið með því að slá inn dagsetningar í reitunum **Leyfa bókun frá** og **Leyfa bókun til**.  
 
 > [!NOTE]  
->   Þessi bókunartímabil eiga við um fyrirtækið og alla notendur. Til að leyfa undantekningum er hægt að skilgreina mismunandi pósttímabil fyrir tiltekna notendur í glugganum **Uppsetning notanda**. Þessar færslutímar eru umfram þau sem tilgreind eru í glugganum **Uppsetning aðalbókar**. Nánari upplýsingar eru í „að setja upp tímatakmarkanir fyrir notendur“ hlutanum í [Vinna með notendur og heimildir](ui-how-users-permissions.md).
+>   Þessi bókunartímabil eiga við um fyrirtækið og alla notendur. Til að leyfa undantekningum er hægt að skilgreina mismunandi pósttímabil fyrir tiltekna notendur á síðunni **Uppsetning notanda**. Þessar færslutímar eru umfram þau sem tilgreind eru á síðunni **Uppsetning aðalbókar**. Nánari upplýsingar eru í „að setja upp tímatakmarkanir fyrir notendur“ hlutanum í [Vinna með notendur og heimildir](ui-how-users-permissions.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  

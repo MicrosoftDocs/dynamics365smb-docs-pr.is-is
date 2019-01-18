@@ -11,17 +11,17 @@ ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a482b27c95cf40a80fb033ddd0d5333014a2064b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="defining-user-tasks"></a>Skilgreinir notandaverk
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu búið til verkefni til að minna þig á hvað þarf að gera. Þú getur búið til verkefni fyrir þig, en þú getur einnig úthlutað verkefnum til annarra eða fengið verkefni frá öðrum í fyrirtækinu þínu.  
 
 ## <a name="managing-user-tasks"></a>Stjórnun notendaverkefna
-Glugginn **Notandaverkefni** sýnir öll verkefni og auðvelt er að búa til og úthluta nýjum verkefnum. Þegar þú býrð til verkefni getur þú tilgreint upphafsdag og lokadag og þú getur bætt við tengli í gluggann í [!INCLUDE[d365fin](includes/d365fin_md.md)] þar sem notandinn verður að framkvæma verkið.  
+Síðan **Notandaverkefni** sýnir öll verkefni og auðvelt er að búa til og úthluta nýjum verkefnum. Þegar þú býrð til verkefni getur þú tilgreint upphafsdag og lokadag og þú getur bætt við tengli á síðuna í [!INCLUDE[d365fin](includes/d365fin_md.md)] þar sem notandinn verður að framkvæma verkið.  
 
 Þú getur til dæmis búið til verkefni fyrir sjálfa(n) þig til að skoða alla bókaða sölureikninga. Í því tilviki tengir þú verkefnið við síðu 143, Bókaðir sölureikningar.  
 
@@ -31,7 +31,7 @@ Glugginn **Notandaverkefni** sýnir öll verkefni og auðvelt er að búa til og
 >  Notaðu leitina á reitnum **Síða** og svo **Leit að síðu eða skýrslu** reitinn til að finna síðuna sem þú vilt. Nánari upplýsingar eru á [Leit að síðu eða skýrslu](ui-search.md)..  
 
 ### <a name="picking-up-user-tasks"></a>Notandaverkefni sótt
-Í Viðskiptastjórnanda, Bókari og Endurskoðandi hlutverkunum sýnir reitur verkefni sem er úthlutað á þann notanda en ekki hefur verið hafist handa við. Til að sækja verkefni skaltu einfaldlega velja það af listanum yfir verkefni notanda í bið. Á borðanum opnar tengillinn **Fara í verkhluta** gluggann þar sem þú getur unnið verkið.  
+Í Viðskiptastjórnanda, Bókari og Endurskoðandi hlutverkunum sýnir reitur verkefni sem er úthlutað á þann notanda en ekki hefur verið hafist handa við. Til að sækja verkefni skaltu einfaldlega velja það af listanum yfir verkefni notanda í bið. Á borðanum opnar tengillinn **Fara í verkhluta** síðuna þar sem þú getur unnið verkið.  
 
 Þegar þú hefur lokið verkefni skaltu einfaldlega merkja það sem lokið.  
 

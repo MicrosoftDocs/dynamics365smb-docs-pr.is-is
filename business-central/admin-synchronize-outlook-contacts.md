@@ -11,10 +11,10 @@ ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: b535255be4b751744ae8c459bdc3d87cd1271dee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5e4bd35edea680c46cb0df753b50916b1aeb93be
 ms.contentlocale: is-is
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Samstilla tengiliði í Business Central með tengiliðum í Microsoft Outlook
@@ -23,9 +23,9 @@ ms.lasthandoff: 04/11/2018
 Sérstök mappa í Outlook gerir auðvelt um vik að finna tengiliði og þú getur stillt síu til að samstilla aðeins tengiliðina frá [!INCLUDE[d365fin](includes/d365fin_md.md)] sem þú vilt sjá í Outlook. Þegar samstilling samskipta er sett upp geturðu byrjað samstillingu handvirkt eða sett upp sjálfvirka samstillingu sem mun halda tengiliðunum í samstillingu með reglulegu millibili.  
 
 ## <a name="set-up-synchronization"></a>Uppsetning samstillingar
-Þú setur upp hvernig þú vilt samstilla tengiliði með Outlook í glugganum **Uppsetning Exchange-samstillingar** í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sem forsenda, verður notandaforstillingin þín í [!INCLUDE[d365fin](includes/d365fin_md.md)] að tilgreina Office 365 netfangið þitt. Þú getur athugað þetta í hlutanum **Office 365 Sannvottun** í notandaforstillingu þinni í listanum **Notendur**.  
+Þú setur upp hvernig þú vilt samstilla tengiliði með Outlook á síðunni **Uppsetning Exchange-samstillingar** í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sem forsenda, verður notandaforstillingin þín í [!INCLUDE[d365fin](includes/d365fin_md.md)] að tilgreina Office 365 netfangið þitt. Þú getur athugað þetta í hlutanum **Office 365 Sannvottun** í notandaforstillingu þinni í listanum **Notendur**.  
 
-Síðan í glugganum **Uppsetning Exchange-samstillingar** getur þú sannprófað að tengingin við Exchange virki og síðan sett upp samstillingu samskipta. Opnaðu gluggann **Uppsetning samstillingar tengiliða** og byrjaðu samstillinguna. Valfrjálst er að stilla síu til að velja úr þá tengiliði sem á að samstilla milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og Outlook. Til dæmis er hægt að stilla síu fyrir nafn, gerð, fyrirtæki eða álíka. Þú getur einnig breytt sjálfgefna heiti möppunnar sem tengiliðirnir munu samstillast í Outlook. Sjálfgefið heiti er *Business Central*.  
+Síðan á síðunni **Uppsetning Exchange-samstillingar** getur þú sannprófað að tengingin við Exchange virki og síðan sett upp samstillingu samskipta. Opnaðu síðuna **Uppsetning samstillingar tengiliða** og byrjaðu samstillinguna. Valfrjálst er að stilla síu til að velja úr þá tengiliði sem á að samstilla milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og Outlook. Til dæmis er hægt að stilla síu fyrir nafn, gerð, fyrirtæki eða álíka. Þú getur einnig breytt sjálfgefna heiti möppunnar sem tengiliðirnir munu samstillast í Outlook. Sjálfgefið heiti er *Business Central*.  
 
 Þegar þessi samstilling hefur verið sett upp, eru allar breytingar sem þú gerir á tengiliðnum í annaðhvort Outlook eða í [!INCLUDE[d365fin](includes/d365fin_md.md)] samstilltast við hvort annað.  
 

@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c7c76ce91b58d6cdba09652c54696dc38a87f950
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f5db99544cea6cb4f34789a4b2a5cae602cc1f75
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Vinna með mælieiningu framleiðslukeyrslu
 Ef vara er sett á lager eftir einni mælieiningu en framleidd eftir annarri er framleiðslupöntun stofnuð sem notar mælieiningu framleiðslukeyrslu til að reikna út rétt magn íhluta meðan á keyrslunni **Endurnýjun framleiðslupöntunar** stendur. Dæmi um útreikning með mælieiningu framleiðslukeyrslu er þegar framleiddur hlutur er merktur á lager í stykkjum en framleiddur í tonnum.  
 
 ## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Til að stofna framleiðsluuppskrift með því að nota keyrslumælieininguna:  
-1.  Mælieining framleiðslukeyrslu er sett upp sem mælieiningarvalkostur í glugganum **Mælieiningar vöru** á vörunni sem á að framleiða. Keyrslumælieiningin kemur ekki í staðinn fyrir Grunnmælieininguna á vörunni.  
+1.  Mælieining framleiðslukeyrslu er sett upp sem mælieiningarvalkostur á síðunni **Mælieiningar vöru** á vörunni sem á að framleiða. Keyrslumælieiningin kemur ekki í staðinn fyrir Grunnmælieininguna á vörunni.  
 2.  Stofnuð er framleiðsluuppskrift fyrir vöruna sem er sett upp með mælieiningu framleiðslukeyrslu. Frekari upplýsingar eru í [Stofna framleiðsluuppskriftir](production-how-to-create-production-boms.md).  
 3.  Í reitnum **Mælieiningarkóti** er mælieining framleiðslukeyrslu valin.  
 4.  Fyrir hverja framleiðsluuppskriftarlínu í reitnum **Magn á** er slegið inn magnið af þessum vöruíhlut sem þarf til að stofna þessa keyrslumælieiningu.  

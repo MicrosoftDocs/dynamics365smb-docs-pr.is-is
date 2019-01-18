@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7b125edfcfd5e03882568b8ab6eb264418f15bef
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Loka árum og tímabilum
@@ -26,6 +26,7 @@ Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir 
 
 | Til | Sjá |
 | --- | --- |
+| Skilgreindu fjárhagsár þitt og skiptu því niður í tímabil til þess að greina frá fjárhagslegri frammistöðu. | [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)|
 | Tilgreind eru notandaskilgreind bókunardagsetningasvið fyrir allt kerfið. Hugsanlega þarf að takmarka notandabókuð dagsetningasvið við upphaf vinnslu lokatímabila eða á eftir þeim, allt eftir þörfum fyrirtækisins. |[Tilgreina bókunartímabil](finance-how-specify-posting-periods.md) |
 | Fá yfirlit yfir aðgerðir sem yfirleitt þarf að inna af hendi við lok tímabils, eins og að bóka öll skjöl og færslubækur, eða keyra fjárhagsskemu. |[Lokunartímabil](year-how-complete-period-end-processes.md) |
 | Uppfæra gengi gjaldmiðla og breyta gengi bókaðra viðskiptamanna, lánardrottna og færslna á bankareikningi. |[Uppfæra gengi](finance-how-update-currencies.md) |

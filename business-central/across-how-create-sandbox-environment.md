@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6a13eca9f8ad83b82e4b281c9564bdfd0c66f4fb
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -40,7 +40,7 @@ Notandi verður að hafa áskrift að [!INCLUDE[d365fin](includes/d365fin_md.md)
 6. Efst í Hlutverkamiðstöðinni birtist tilkynning til að upplýsa þig um að þetta sé sandkassaumhverfi. Einnig er hægt að sjá um hvaða gerð af umhverfi er að ræða í titilstiku biðlarans.
 ![Sandkassi Hlutverkamiðstöð Tilkynning](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 Búinn hefur verið til glænýr leigjandi í sandkassaumhverfinu. Þessi leigjandi er uppfullur af sjálfgefnum sýnigögnum fyrir CRONUS fyrirtækið. Engin gögn eru afrituð eða yfirhöfuð flutt frá framleiðsluumhverfinu á meðan stofnun sandkassans stendur.
-7.  Alltaf er hægt að fara til baka í gluggann **Sandkassaumhverfi** og endurstilla sandkassaumhverfið.
+7.  Alltaf er hægt að fara til baka á **Sandkassaumhverfi** síðuna og endurstilla sandkassaumhverfið.
 > [!NOTE]  
 >  Endurstilling sandkassaumhverfisins mun eyða því algerlega og síðan stofna það á ný með sjálfgefnum sýnigögnum.  
 
@@ -58,7 +58,7 @@ Búinn hefur verið til glænýr leigjandi í sandkassaumhverfinu. Þessi leigja
 ![Hönnunarviðmót í-biðlara](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Gera ítarlega notandaupplifun virka
-Mögulegt er að opna fyrir og prófa ítarlega (fulla) virkni [!INCLUDE[d365fin](includes/d365fin_md.md)] í sandkassaleigjanda með því að stilla reitinn **Upplifun** í glugganum **Upplýsingar um fyrirtæki**.
+Mögulegt er að opna fyrir og prófa ítarlega (fulla) virkni [!INCLUDE[d365fin](includes/d365fin_md.md)] í sandkassa leigjanda með því að stilla **Upplifun** reitinn á **Upplýsingar um fyrirtæki** síðunni.
 
 ![Sandkassaumhverfi Ítarlegt](./media/across-sandbox/sandbox-advanced.png)
 

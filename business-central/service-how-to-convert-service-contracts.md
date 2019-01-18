@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Umbreyta þjónustusamningum sem innihalda VSK upphæðir
@@ -49,7 +49,7 @@ Eftirfarandi ferli lýsir því hvernig eigi að stofna kreditreikning sem innih
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Til að stofna gildislokadagsetningar samnings í samningslínum  
 Eftirfarandi ferli lýsir því hvernig eigi að stofna nýja samninga með því að vinna með fyrningardagsetningar samninga í þjónustusamningslínum.  
 
-1. Í glugganum **Þjónustusamningur** stillið lokadagsetningu samnings á **30.06.2017**.  
+1. Á síðunni **Þjónustusamningur** stillið lokadagsetningu samnings á **30.06.2017**.  
 2. Velja aðgerðina **Stofna kreditreikn.** til að stofna kreditreikning sjálfkrafa fyrir júlí 2017 til desember 2017.  
 3. Þar sem samningurinn er útrunninn er, verður að stofna nýjan samning fyrir tímabilið með nýjum VSK-taxta fyrir 1. júlí, 2017 til 31. desember 2017.  
 
@@ -59,7 +59,7 @@ Eftirfarandi ferli lýsir því hvernig eigi að stofna nýjan kreditreikning me
 1. Keyra skal breytingarverkfæri VSK-hlutfalls 1. júlí 2017. Almenni vörubókunarflokkurinn eða VSK-vörubókunarflokkurinn breytist. Frekari upplýsingar, sjá [Vinna með VSK í sölu og innkaupum](finance-work-with-vat.md).  
 2. Eftir keyrslu breytingaverkfæris VSK-hlutfalls, skal færa inn lokadag samnings fyrir þjónustusamninginn. Nú er hægt að eyða þjónustusamningslínunni og stofna nýja línu sem er eins og sú eldri.  
 3. Stofna nýjan reikning fyrir tímabilið frá janúar 2017 til desember 2012 með nýjum VSK-taxta.  
-4. Til þess að stofna annan kreditreikning er farið í gluggann **Þjónustukreditreikningar** og **Nýr** valið til að stofna nýjan þjónustukreditreikning.  
+4. Til þess að stofna annan kreditreikning er farið á síðuna **Þjónustukreditreikningar** og valið **Nýr** til að stofna nýjan þjónustukreditreikning.  
 5. Velja aðgerðina **Sækja fyrirfr.gr, samn.færslur**.  
 6. Þegar umreikninginum er lokið, verða VSK og þjónustufjárhagsfærslur réttar.  
 

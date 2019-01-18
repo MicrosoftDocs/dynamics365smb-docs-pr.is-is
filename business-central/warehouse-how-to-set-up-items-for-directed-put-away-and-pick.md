@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37c8f69f7cac8155bf45ab02dc8908249a0ace71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Setja upp vörur og birgðageymslur fyrir beinan frágang og tínslu
@@ -27,9 +27,9 @@ ms.lasthandoff: 09/28/2018
 2.  Opnaðu kort fyrir vöruna sem á að setja upp fyrir beinan frágang og tínslu er valin.
 3. Á flýtiflipanum **Vöruhús** á birgðaspjaldinu eru reitirnir fylltir út til að tilgreina hvernig fara skuli með vöruna í vöruhúsinu.  
 4.  Veldu **Mælieining**.
-5. Í **Mælieiningar vöru** skal fylla út reitina til að skilgreina mismunandi mælieiningar sem hægt er að hafa vöruna í. þar á meðal hæð, breidd, lengd, rúmmál og þyngd.
+5. Á síðunni **Mælieiningar vöru** skal fylla út reitina til að skilgreina mismunandi mælieiningar sem hægt er að hafa vöruna í, þar á meðal hæð, breidd, lengd, rúmmál og þyngd fyrir mælieininguna.
 6. Veldu **Innihald hólfs** aðgerðina.
-7. Í **Innihald hólfs** glugganum er hægt að skilgreina birgðageymsluna og hólfið sem tengja á vörunni. Reiturinn **Sjálfgefið** er ekki notaður þegar vöruhúsið er sett upp fyrir beinan frágang og tínslu.  
+7. Á síðunni **Innihald hólfs** er hægt að skilgreina birgðageymsluna og hólfið sem tengja á vörunni. Reiturinn **Sjálfgefið** er ekki notaður þegar vöruhúsið er sett upp fyrir beinan frágang og tínslu.  
 
 ## <a name="to-activate-directed-put-away-and-pick-functionality"></a>Til að virkja aðgerðir fyrir stýrðan frágang og tínslu.  
 Beinn frágangur og tínsla gefa kost á þróaðri vöruhúsaaðgerðum sem auka mjög skilvirkni og áreiðanleika gagna. Fyrst þarf að setja upp nokkrar færibreytur í vöruhúsinu.  
@@ -53,7 +53,7 @@ Nú er allt til reiðu fyrir uppsetningu svæðanna eigi að nota svæði í vö
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Svæði sett upp í vöruhúsinu  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
 2.  Staðsetningin þar sem á að setja upp svæði er valin og birgðageymsluspjald opnað og svo **Staðir** valin.  
-3.  Í glugganum **Staðir** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3.  Á síðunni **Svæði** skal fyllt í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Þegar færibreytu svæðis er breytt munu öll hólf sem stofnuð eru eftir það fá nýju eiginleikana en eldri hólf haldast óbreytt.  
 

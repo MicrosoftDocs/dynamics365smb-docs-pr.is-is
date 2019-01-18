@@ -13,10 +13,10 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7e67357a0ba5e4a57a98d74831b2b3a392cff7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cb62661da68e1fd5255e285288de5089e8547b64
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-vendor-payments-manually"></a>Afstemma greiðslur lánardrottna handvirkt
@@ -27,32 +27,32 @@ ms.lasthandoff: 09/28/2018
 
 Hægt er að jafna lánardrottnafærslur á þrjá vegu:
 
-* Með því að færa inn upplýsingar í þar til gerða glugga, eins og  glugga **greiðslubókar**  og glugga **greiðsluafstemmingarbókar** .
+* Með því að færa inn upplýsingar á þar til gerðar síður, eins og síðurnar **Greiðslubók** og **Greiðsluafstemmingarbók**.
 * Úr skjölum innkaupakreditreiknings
 * Úr lánardrottnafærslur eftir að innkaupaskjöl eru bókuð en ekki jöfnuð.
 
 > [!NOTE]  
 >   Ef reiturinn **Jöfnunaraðferð** á lánardrottnaspjaldinu er með **Jafna við elstu** þá munu greiðslur sjálfkrafa vera jöfnuð við elstu opnu kreditfærsluna ef þú tilgreinir ekki handvirkt hvaða færslu eigi að jafna við. Ef jöfnunaraðferðin fyrir viðskiptamann er **Handvirkt** verður að jafna færslur handvirkt.
 
-Hægt er að jafna greiðslur á lánardrottna handvirkt á tengd innkaupaskjöl þeirra tengdar við bókun á greiðslum í á glugga **greiðslubókar**. Upplýsingar um að fylla greiðslubók, sjá [Framkvæma greiðslur](payables-make-payments.md).
+Hægt er að jafna greiðslur á lánardrottna handvirkt á tengd innkaupaskjöl þeirra tengdar við bókun á greiðslum á síðunni **Greiðslubók**. Upplýsingar um að fylla greiðslubók, sjá [Framkvæma greiðslur](payables-make-payments.md).
 
-Einnig má jafna greiðslur á lánardrottna og greiðslur viðskiptamanns, eftir að greiðslur birtast sem neikvæðar bankafærslur í þínum banka. Í **greiðsluafstemmingarbók** glugganum geturðu notað virkni fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
+Einnig má jafna greiðslur á lánardrottna og greiðslur viðskiptamanns, eftir að greiðslur birtast sem neikvæðar bankafærslur í þínum banka. Á síðunni **Freiðsluafstemmingarbók** geturðu notað virkni fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Greiðsla jöfnuð við eina eða margar lánardrottnabókarfærslur
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslubók** og veldu síðan tengda tengilinn.
-2. Í **greiðslubókargluggi** í fyrstu færslubókarlína eru ritaðar viðeigandi upplýsingar um greiðslufærsluna.
+2. Á síðunni **Greiðslubók** í fyrstu færslubókarlína eru færðar inn viðeigandi upplýsingar um greiðslufærsluna.
 3. Til að jafna eina lánardrottnafærslur :
-   1. Í reitnum **Jafna við skjal nr.** er valinn reiturinn til að opna **Jafna lánardr.færslur** gluggann.
-   2. Í glugganum **Jafna lánardr.færslur** eru valin færsla til að jafna greiðsluna við.
+   1. Í reitnum **Jafna við skjal nr.** er valinn reiturinn til að opna **Jafna lánardr.færslur** síðuna.
+   2. Á síðunni **Jafna lánardr.færslur** eru valin færsla til að jafna greiðsluna við.
    3. Á línunni í reitnum  **upphæð til jöfnunar** er upphæðin sem jafna á við færsluna færð inn.
 4. Eða, til að jafna margar lánardrottnabókarfærslur
 
    1. Valið er **Jafna Færslur** aðgerð.
-   2. Í glugganum **Jafna lánardr.færslur** er valdar eru línurnar með færslunum til að jafna greiðsluna við.
+   2. Á síðunni **Jafna lánardr.færslur** er valdar eru línurnar með færslunum til að jafna greiðsluna við.
    3. Valið er **stilla jöfnunarkenni** aðgerð.  
    4. Í hverri línu í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við einstöku færsluna.
 
-      Ef engin færsla er rituð jafnar forritið sjálfkrafa við hámarksupphæðina. Neðst í glugganum  **jafna lánardrottnafærslur** má sjá upphæðina í reitnum jöfnuð upphæð, og einnig hvort jöfnunin stemmir.
+      Ef engin færsla er rituð jafnar forritið sjálfkrafa við hámarksupphæðina. Neðst á síðunni **Jafna lánardrottnafærslur** má sjá upphæðina í reitnum jöfnuð upphæð, og einnig hvort jöfnunin stemmir.
 5. Velja hnappinn **Í lagi**.
 6. Velja **bóka** aðgerðina til að bóka greiðslubókina.
 
@@ -68,32 +68,32 @@ Einnig má jafna greiðslur á lánardrottna og greiðslur viðskiptamanns, efti
    3. Valið er **stilla jöfnunarkenni** aðgerð.  
    4. Í hverri línu í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við einstöku færsluna.
 
-       Ef engin færsla er rituð jafnar forritið sjálfkrafa við hámarksupphæðina. Neðst í glugganum  **jafna lánardrottnafærslur** má sjá upphæðina í reitnum **jöfnuð upphæð**, og einnig hvort jöfnunin stemmir.
+       Ef engin færsla er rituð jafnar forritið sjálfkrafa við hámarksupphæðina. Neðst á síðunni **Jafna lánardrottnafærslur** má sjá upphæðina í reitnum **Jöfnuð upphæð**, og einnig hvort jöfnunin stemmir.
 6. Velja hnappinn **Í lagi**.  
-   Glugginn **innkaupakreditreikningur** sýnir færsluna sem þú hefur valið í **jöfnunarskjalstegund** reitnum og **jöfnunarskjalsnúmer**. Glugginn sýnir einnig upphæð kreditreikningsins sem á að bóka, leiðrétta fyrir hugsanlegan greiðsluafslátt.
+   Síðan **innkaupakreditreikningur** sýnir færsluna sem þú hefur valið í **jöfnunarskjalstegund** reitnum og **jöfnunarskjalsnúmer**. Síðan sýnir einnig upphæð kreditreikningsins sem á að bóka, leiðrétta fyrir hugsanlegan greiðsluafslátt.
 7. Velja **bóka** hnappur til að bóka innkaupakreditreikningur.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Bókaðar lánardrottnafærslur jafnaðar:
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.
 2. Viðeigandi lánardrottinn með færslum sem hafa þegar verið bókaðar er opnaður.
 3. Valið er **fjárhagsfærslur** aðgerina, og veldu síðan **Jafna Færslur** aðgerð.
-4. Í glugganum **jafna lánardrottinsfærslur** má sjá opnar færslur fyrir lánardrottininn.
+4. Á síðunni **jafna lánardrottinsfærslur** má sjá opnar færslur fyrir lánardrottininn.
 5. Valin er línan með færslunni sem á að jafna.
 6. Valið er **stilla jöfnunarkenni** aðgerð.
 
     Svæðið **jöfnunarkenni** sýnir þrjár stjörnur ef um er að ræða eins notanda kerfi eða notandakennið ef um er að ræða fjölnotendakerfi.  
 7. Fyrir hverri línu í reitnum  **Upphæð til jöfnunar** er rituð upphæðin sem jafna á við einstöku færsluna.
 
-    Ef engin færsla er rituð jafnar forritið sjálfkrafa við hámarksupphæðina. Þú getur séð upphæðina í **jöfnuð upphæð** reitnum neðst á glugganum **jafna lánardrottnafærslur**.
+    Ef engin færsla er rituð jafnar forritið sjálfkrafa við hámarksupphæðina. Þú getur séð upphæðina í **Jöfnuð upphæð** reitnum neðst á síðunni **Jafna lánardrottnafærslur**.
 8. Valið er **bóka jöfnun** aðgerð.  
 
-    Glugginn **Bóka jöfnun** opnast með fylgiskjalsnúmeri jöfnunarfærslunnar og nýjustu bókunardagsetningunni.
+    Síðan **Bóka jöfnun** opnast með fylgiskjalsnúmeri jöfnunarfærslunnar og nýjustu bókunardagsetningunni.
 9. Velja hnappinn **Í lagi** til að bóka forritið.
 
 ## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>Lánardrottnafærslur jafnaðar hver annarri í mismunandi gjaldmiðlum:
 Ef þú kaupir af lánardrottinn í einum gjaldmiðli og greiðir í öðrum er enn hægt að jafna reikninginn við greiðsluna.
 
-Ef færsla (Færsla 1) í einum gjaldmiðli er jöfnuð við færslu (Færsla 2) í öðrum gjaldmiðli notar forritið bókunardagsetninguna í Færslu 1 til að finna viðeigandi gengi til að breyta upphæðunum í Færslu 2. viðeigandi gengi er að finna í glugganum  **Gengi gjaldmiðla**. Ef svo er, verður þú að virkja jöfnun lánardrottnafjárhagsfærslna í mismunandi gjaldmiðlum Frekari upplýsingar eru í [Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
+Ef færsla (Færsla 1) í einum gjaldmiðli er jöfnuð við færslu (Færsla 2) í öðrum gjaldmiðli notar forritið bókunardagsetninguna í Færslu 1 til að finna viðeigandi gengi til að breyta upphæðunum í Færslu 2. Viðeigandi gengi er að finna á síðunni **Gengi gjaldmiðla**. Ef svo er, verður þú að virkja jöfnun lánardrottnafjárhagsfærslna í mismunandi gjaldmiðlum Frekari upplýsingar eru í [Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslubók** og veldu síðan tengda tengilinn.
 2. Opna færslubókina sem óskað er eftir og fylla inn í fyrstu auðu bókarlínuna með gjaldmiðilskóta.
@@ -103,7 +103,7 @@ Ef færsla (Færsla 1) í einum gjaldmiðli er jöfnuð við færslu (Færsla 2)
 6. Greiðslubókin er bókuð.
 
 > [!IMPORTANT]  
->   Þegar færslur í mismunandi gjaldmiðlum eru jafnaðar hver við aðra, breytir færslurnar í Dollara. Jafnvel þó gengið fyrir hina tvo viðeigandi gjaldmiðla sé fast, t.d. milli USD og EUR, kann að vera einhver afgangur þegar þessum upphæðum í erlendum gjaldmiðlum er breytt í USD. Þessar litlu afgangsupphæðir eru bókaðar sem hagnaður eða tap á þann reikning sem er tilgreindur í reitunum **Reikningur orðins hagnaðar** eða **Reikningur orðins taps** í glugganum **Gjaldmiðlar**. Reiturinn **Upphæð (USD)** er einnig stilltur á viðeigandi lánardrottnafærslur.
+>   Þegar færslur í mismunandi gjaldmiðlum eru jafnaðar hver við aðra, breytir færslurnar í Dollara. Jafnvel þó gengið fyrir hina tvo viðeigandi gjaldmiðla sé fast, t.d. milli USD og EUR, kann að vera einhver afgangur þegar þessum upphæðum í erlendum gjaldmiðlum er breytt í USD. Þessar litlu afgangsupphæðir eru bókaðar sem hagnaður eða tap á þann reikning sem er tilgreindur í reitunum **Reikningur orðins hagnaðar** eða **Reikningur orðins taps** á síðunni **Gjaldmiðlar**. Reiturinn **Upphæð (USD)** er einnig stilltur á viðeigandi lánardrottnafærslur.
 
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>Til að afjafna jöfnun á færslum lánardrottins
 Þegar röng jöfnun er ógilt eru leiðréttingarfærslur sem eru sambærilegar upphaflegu færslunni en með andstæðu formerki í reit upphæðar stofnaðar og bókaðar á öllum færslum með öllum almennum fjárhagsbókunum sem runnar eru frá jöfnuninni, svo sem greiðsluafslætti og gjaldmiðilshagnaði/-tapi. Færslurnar sem forritið lokaði eru enduropnaðar.

@@ -13,30 +13,30 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b92e6a5227fc2e1c60498ef2aafaae55deaedab8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6aa07d1f37c15901951ab5b81b771838abf95126
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-bin-contents"></a>Stofna innihald hólfs
-Þegar búið er að setja upp hólfin er hægt að setja upp innihald þeirra. Þ.e.a.s., hægt er að setja upp vörurnar sem á að geyma í hverju hólfi og setja reglurnar stjórna því hvaða tiltekin vara er sett í hólfið. Þú getur gert þetta handvirkt í glugganum **Hólfainnihald** eða sjálfvirkt með glugganum **Stofna Hólfainnihald vinnublað**.
+Þegar búið er að setja upp hólfin er hægt að setja upp innihald þeirra. Þ.e.a.s., hægt er að setja upp vörurnar sem á að geyma í hverju hólfi og setja reglurnar stjórna því hvaða tiltekin vara er sett í hólfið. Þú getur gert þetta handvirkt á síðunni **Hólfainnihald** eða sjálfvirkt með glugganum **Stofna Hólfainnihald vinnublað**.
 
 ## <a name="to-create-bin-content-manually"></a>Stofna Innihald hólfs handvirkt  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
 2.  Veljið birgðageymsluna þar sem á að setja upp hólfainnihald og veljið svo aðgerðina **Hólf**.  
 3.  Veljið hólfið þar sem á að setja upp innihald og veljið svo aðgerðina **Innihald**.  
-4.  Fyrir hverja vöru sem geyma á í hólfinu skal fylla út línu í glugganum **Innihald hólfs** með viðeigandi upplýsingum. Nokkrir reitir eru þegar útfylltir með upplýsingum um hólfið.  
+4.  Fyrir hverja vöru sem geyma á í hólfinu skal fylla út línu á síðunni **Innihald hólfs** með viðeigandi upplýsingum. Nokkrir reitir eru þegar útfylltir með upplýsingum um hólfið.  
 5.  Fyrst er reiturinn **Vörunr.** fylltur út og, ef notaður er beinn frágangur og tínsla, eru aðrir reitir fylltir út, svo sem **Mælieiningarkóti**, **Hám.magn** og **Lágm.magn**.  
 
 Veljið **Fast** ef þess þarf. Ef hólfið á að vera sjálfgefið fyrir vöruna veljið reitinn **Sjálfgefið hólf**.  
 
-Ef notaður er beinn frágangur og tínsla og réttar víddarupplýsingar hafa verið færðar inn á birgðaspjaldinu um mælieiningu hverrar vöru er hámarksmagnið sem fært er inn í gluggann **Innihald hólfs** borið samanvið raungetu hólfsins. Hámarks- og lágmarksmagn er síðan notað þegar áfylling hólfa er reiknuð og tillögur gerðar um frágang.  
+Ef notaður er beinn frágangur og tínsla og réttar víddarupplýsingar hafa verið færðar inn á birgðaspjaldinu um mælieiningu hverrar vöru er hámarksmagnið sem fært er inn á síðuna **Innihald hólfs** borið samanvið raungetu hólfsins. Hámarks- og lágmarksmagn er síðan notað þegar áfylling hólfa er reiknuð og tillögur gerðar um frágang.  
 
 Ef gátmerki er sett inn í reitinn **Fast** er varan fest við hólfið sem þýðir að  [!INCLUDE[d365fin](includes/d365fin_md.md)] reynir að setja þessa vöru í hólfið ef það er pláss fyrir hana og geyma færsluna sem festir vöruna við hólfið jafnvel þó magnið í hólfinu sé 0. Kerfið getur sett aðrar vörur í hólfið þó að tiltekin vara hafi verið fest við hólfið.  
 
 > [!NOTE]  
->  Hægt er að setja upp fleiri en eitt innihald hólfs samtímis í glugganum **Vinnublað f. stofnun hólfainnihalds**.  
+>  Hægt er að setja upp fleiri en eitt innihald hólfs samtímis á síðunni **Vinnublað f. stofnun hólfainnihalds**.  
 
 ## <a name="to-create-bin-content-with-a-worksheet"></a>Stofna Innihald hólfs með vinnublaði  
 Þegar lokið er við að stofna hólfin er hægt að stofna það innihald sem á að vera í hverju hólfi á stofnunarvinnublaði hólfainnihalds.

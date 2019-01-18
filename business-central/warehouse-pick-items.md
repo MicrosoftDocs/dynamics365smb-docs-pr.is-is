@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4258d6b2edea44dbf86b649ffb4c515473421a55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="pick-items"></a>Tína til vörur
@@ -27,9 +27,9 @@ Ef ákveðið er að skipuleggja og skrá tínsluvirkni með vöruhúsafylgiskj�
 > [!NOTE]
 > Jafnvel þótt stillingarnar séu kallaðar **Krefjast tínslu** geturðu samt sem áður bókað afhendingu beint frá uppruna viðskiptaskjala í birgðageymslum þar sem þú velur þessa gátreiti.
 
-Ef birgðageymsla er sett upp þannig að krafist sé tínsluvinnslu en ekki afhendingarvinnslu skal nota **birgðatínslu** gluggann til að flokka tínsluupplýsingarnar, prenta tínsluupplýsingarnar, færa inn útkomu tínslunnar, bóka tínsluupplýsingarnar, sem í staðinn bókar afhendingu varanna. Hægt er að sjá upplýsingar um bókaðar tínslur í glugganum Bókuð tínsla.
+Ef birgðageymsla er sett upp þannig að krafist sé tínsluvinnslu en ekki afhendingarvinnslu skal nota síðuna **birgðatínslu** til að flokka tínsluupplýsingarnar, prenta tínsluupplýsingarnar, færa inn útkomu tínslunnar, bóka tínsluupplýsingarnar, sem í staðinn bókar afhendingu varanna. Hægt er að sjá upplýsingar um bókaðar tínslur í glugganum Bókuð tínsla.
 
-Ef birgðageymslan hefur verið sett upp fyrir bæði tínslu- og afhendingarvinnslu og því verið sett gátmerki bæði í reitinn **Krefjast tínslu** og **Krefjast afhendingar** á birgðageymsluspjaldinu er glugginn **Vöruhúsatínsla** notaður til að meðhöndla tínsluna. Vöruhúsatínsla er svipuð birgðatínslu, nema í stað þess að bóka tínsluupplýsingar er tínslan skráð. Þetta skráningarferli bókar ekki afhendinguna en gerir aðeins vörurnar tiltækar til afhendingar. Sem stjórnandi vöruhúss, geturðu notað tínsluvinnublað til að flokka tínsluupplýsingar áður en þú stofnar einstakar tínsluleiðbeiningar vöruhússins.
+Ef birgðageymslan hefur verið sett upp fyrir bæði tínslu- og afhendingarvinnslu og því verið sett gátmerki bæði í reitinn **Krefjast tínslu** og **Krefjast afhendingar** á birgðageymsluspjaldinu er síðan **Vöruhúsatínsla** notuð til að meðhöndla tínsluna. Vöruhúsatínsla er svipuð birgðatínslu, nema í stað þess að bóka tínsluupplýsingar er tínslan skráð. Þetta skráningarferli bókar ekki afhendinguna en gerir aðeins vörurnar tiltækar til afhendingar. Sem stjórnandi vöruhúss, geturðu notað tínsluvinnublað til að flokka tínsluupplýsingar áður en þú stofnar einstakar tínsluleiðbeiningar vöruhússins.
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
 

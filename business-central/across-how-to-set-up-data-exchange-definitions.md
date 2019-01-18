@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Setja upp skilgreiningar gagnaskipta
@@ -22,7 +22,7 @@ Hægt er að setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] til að skipt
 
 Til að undirbúa gagnaskiptaskilgreiningu fyrir gagnaskrá eða straum er hægt að nota tengt XML-skema til að skilgreina hvaða gagnastak á að hafa með í flýtifliopanum **Dálkskilgreiningar**. Sjá skref 6 í hlutanum „Að lýsa sniði lína og dálka á skrá“. Frekari upplýsingar, sjá [Notkun XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-Venjulega er gagnaskiptaskilgreiningar settar upp í glugganum **skilgreiningar gagnaskipta** Ef hins vegar er sett upp gagnaskiptaskilgreiningar fyrir þjónustu þar sem gengi gjaldmiðils endurnýjast þarf að hefja ferilinn í einfaldaða **Skipti Gengi Uppfærsla Uppsetning Kort** glugganum.  
+Venjulega er gagnaskiptaskilgreiningar settar upp á síðunni **skilgreiningar gagnaskipta**. Ef hins vegar er sett upp gagnaskiptaskilgreiningar fyrir þjónustu þar sem gengi gjaldmiðils endurnýjast þarf að hefja ferilinn í einfaldaða **Uppsetningarspjald fyrir uppfærslu gengis** síðunni.  
 
 > [!NOTE]  
 >  Ef skráin sem á að umbreyta er í XML-sniði ætti að túlka hugtakið *„dálkur“* í þessu efnisatriði sem *„XML-einingu sem inniheldur gögn“*.  
@@ -36,8 +36,8 @@ Venjulega er gagnaskiptaskilgreiningar settar upp í glugganum **skilgreiningar 
 ## <a name="to-create-a-data-exchange-definition"></a>Til að stofna skilgreiningu gagnaskipta  
 Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:  
 
-1. Í **Skilgreiningar gagnaskipta** glugga, lýstu sniði lína og dálka í skránni.  
-2. Í **Vörpun gagnaskipta** glugganum skal tengja dálka í gagnaskránni við reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+1. Á síðunni **Skilgreining gagnaskipta** skal lýsa sniði lína og dálka í skránni.  
+2. Á síðunni **Vörpun gagnaskipta** skal varpa dálkum í gagnaskránni á reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
      Þessu er lýst í eftirfarandi ferli.  
 
@@ -84,7 +84,7 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
      Haldið áfram og á flýtiflipanum **Dálkskilgreiningar** skal lýsa línusniði í gagnaskrá með því að fylla út reitina eins og lýst er í eftirfarandi töflu. Hægt er að nota skipulagsskrá, t.d. .XSD-skrá, fyrir gagnaskrá til að fylla út í flýtiflipann með viðeigandi einingum. Frekari upplýsingar má finna í [Notkun XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. Veljið **Sækja skipulagsskrá** á flýtiflipanum **Dálkskilgreiningar**.  
-7. Í glugganum **Sækja skráaskipan** skal velja viðeigandi skipulagsskrá og svo hnappinn **Í lagi**. Línur í flýtiflipanum **Dálkskilgreiningar** eru fylltar út í samræmi við skipulag gagnaskrárinnar.  
+7. Á síðunni **Sækja skráaskipan** skal velja viðeigandi skipulagsskrá og svo hnappinn **Í lagi**. Línur í flýtiflipanum **Dálkskilgreiningar** eru fylltar út í samræmi við skipulag gagnaskrárinnar.  
 8. Fyllioð inn í reitina eins og lýst er í eftirfarandi töflu í flýtiflipanum **Dálkskilgreiningar**.  
 
     |Svæði|Lýsing|  
@@ -105,10 +105,10 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
  Næsta skref í því að stofna skilgreiningu gagnaskipta er að ákveða hvaða dálkar eða XML-einingar í gagnaskránni varpast á hvaða reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  Tilgreind vörpun ræðst af tilgangi viðskipta í gagnaskránni sem á að skipta og staðbundnum tilbrigðum. Jafnvel SEPA-bankastaðallinn er einnig með staðbundin afbrigði. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður innflutning SEPA CAMT bankayfirlitsskrám \-út\-úr\-boxinu. Þetta er kemur fram í **SEPA CAMT** skilgreiningarfærslukóðanum fyrir gangaskipti í glugganum **Skilgreiningar gagnaskipta**. Upplýsingar um tilgreinda reitavörpun þessa SEPA CAMT stuðnings eru í [Reitavörpun við innflutning á SEPA CAMT skrám](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Tilgreind vörpun ræðst af tilgangi viðskipta í gagnaskránni sem á að skipta og staðbundnum tilbrigðum. Jafnvel SEPA-bankastaðallinn er einnig með staðbundin afbrigði. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður innflutning SEPA CAMT bankayfirlitsskrám \-út\-úr\-boxinu. Þetta er kemur fram í **SEPA CAMT** skilgreiningarfærslukóðanum fyrir gangaskipti á síðunni **Skilgreiningar gagnaskipta**. Upplýsingar um tilgreinda reitavörpun þessa SEPA CAMT stuðnings eru í [Reitavörpun við innflutning á SEPA CAMT skrám](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Að tengja dálka í gagnaskránni við reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)]   
-1. Á flýtiflipanum **Línuskilgreiningar** skal velja línuna sem á að varpa dálkum í reiti fyrir og velja svo **Reitavörpun**. Glugginn **Vörpun gagnaskipta** opnast.  
+1. Á flýtiflipanum **Línuskilgreiningar** skal velja línuna sem á að varpa dálkum í reiti fyrir og velja svo **Reitavörpun**. Síðan **Vörpun gagnaskipta** opnast.  
 2. Á flýtiflipanum **Almennt** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
     |Svæði|Lýsing|  
@@ -124,8 +124,8 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
 
     |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
-    |**Dálknr.**|Tilgreinið hvaða dálk í gagnaskrá sem þú vilt skilgreina kort vörpun fyrir.<br /><br /> Aðeins er hægt að velja dálka sem eru kynntir af línum í flýtiflipanum **Dálkskilgreiningar** í **Skilgreiningar gagnaskipta** glugganum.|  
-    |**Reitarkenni**|Tilgreinið hvaða reit dálkurinn í **Dálkur nr.** reitnum tengist.<br /><br /> Aðeins er hægt að velja úr reitum sem eru til í töflunni sem tilgreind var í reitnum **Tafla** á flýtiflipanum **Almennt**.|  
+    |**Dálknr.**|Tilgreinið hvaða dálk í gagnaskrá sem þú vilt skilgreina kort vörpun fyrir.<br /><br /> Aðeins er hægt að velja dálka sem eru kynntir af línum í flýtiflipanum **Dálkskilgreiningar** á síðunni **Skilgreiningar gagnaskipta**.|  
+    |**Kenni reits**|Tilgreinið hvaða reit dálkurinn í **Dálkur nr.** reitnum tengist.<br /><br /> Aðeins er hægt að velja úr reitum sem eru til í töflunni sem tilgreind var í reitnum **Tafla** á flýtiflipanum **Almennt**.|  
     |**Valfrjálst**|Tilgreinið að vörpun verði sleppt ef reiturinn er auður. **Athugið:** Ef þessi gátreitur er ekki valinn kemur útflutningsvilla upp ef reiturinn er auður. **Athugið**: Þessi reitur er aðeins gildur fyrir útflutning.|  
     |**Auðkenni marktöflu**|Aðeins sýnilegur þegar **Nota sem millitöflu** reitur er valinn.<br /><br /> Tilgreinir töflu sem gildi í reitnum **Skýringartexti dálks** er varpað á, þegar notuð er millitafla fyrir gagnainnflutning.|  
     |**Yfirskrift marktöflu**|Aðeins sýnilegur þegar **Nota sem millitöflu** reitur er valinn.<br /><br /> Tilgreinir heiti töflunnar í reitnum **Auðkenni marktöflu**, sem er taflan sem gildið í reitnum **Skýringartexti dálks** er varpað á, þegar notuð er millitafla fyrir gagnainnflutning.|  
@@ -148,7 +148,7 @@ Gagnaskiptaskilgreining er tilbúin til virkjunar fyrir notendur. Frekari upplý
 ### <a name="to-import-an-existing-data-exchange-definition"></a>Til að flytja inn núverandi skilgreiningu gagnaskipta  
 1. Vista xml skrá sem sýnir skilgreiningu gagnaskipta á viðeigandi staðsetningu.  
 2. Í reitnum **Leit** skal færa inn **Gagnaskiptaskilgreiningar** og velja síðan viðkomandi tengil.  
-3. Valið er **Nýtt** aðgerð. Glugginn **Skilgreining gagnaskipta** opnast.  
+3. Valið er **Nýtt** aðgerð. Síðan **Skilgreining gagnaskipta** opnast.  
 4. Velja skal aðgerðina **Skilgreining gagnaskipta í innflutningi**.  
 5. Veljið skrána sem var vistuð í skrefi 1.  
 

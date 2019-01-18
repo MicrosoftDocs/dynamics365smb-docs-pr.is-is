@@ -1,6 +1,6 @@
 ---
 title: "Hvernig skal búa til eftirspurnarspá | Microsoft Docs"
-description: "Þú getur búið til sölu- og framleiðsluspár með **Eftirspurnarspá** glugganum."
+description: "Þú getur búið til sölu- og framleiðsluspár á síðunni **Eftirspurnarspá**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d0f4d314a33c86d169d6e2dae0b859b879702e5d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b7937bf83074dcbe9cd2bf501d4a5f67c1712511
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-a-demand-forecast"></a>Búa til eftirspurnarspá
-Þú getur búið til sölu- og framleiðsluspár með **Eftirspurnarspá** glugganum.  
+Þú getur búið til sölu- og framleiðsluspár á síðunni **Eftirspurnarspá**.  
 
 Spárvirkni er notuð til að skapa áætlaða eftirspurn; raunveruleg eftirspurn er gerð eftir sölu- og framleiðslupöntunum. Á meðan verið er að stofna aðalframleiðsluáætlun er spáin reiknuð saman við söluna og framleiðslupantanirnar. Valkosturinn  *Íhlutur* á spánni ákvarðar hvers konar skilyrði á að taka tillit til í útreikningsferlinu. Ef spáin er fyrir söluvöru eru bara sölupantanir reiknaðar saman við spána. Ef hún er fyrir íhluti er aðeins háð eftirspurn úr íhlutum framleiðslupöntunar reiknuð saman við spána.  
 
@@ -34,7 +34,7 @@ Hægt er að nota spárvirknina í kerfinu til að búa til sölu- eða framlei�
 
 Í flestum tilfellum breytir framleiðslustjórinn söluspánni svo að hún passi saman við framleiðsluskilyrðin en uppfylli samt söluspána.  
 
-Þú býrð til spá handvirkt í **Eftirspurnarspá** glugganum. Margar spár geta verið til í kerfinu og þeim er skipt eftir nafni og tegund. Hægt er að afrita og breyta spám eftir þörfum. Athuga ber að aðeins er hægt að nota eina skrá í einu til að gera áætlanir.  
+Þú býrð til spá handvirkt á síðunni **Eftirspurnarspá**. Margar spár geta verið til í kerfinu og þeim er skipt eftir nafni og tegund. Hægt er að afrita og breyta spám eftir þörfum. Athuga ber að aðeins er hægt að nota eina skrá í einu til að gera áætlanir.  
 
 Spáin samanstendur af fjölda færslna sem taka hver fyrir sig fram vörunúmer, spárdagsetningu og spáð magn. Spá vöru nær yfir tímabil sem skilgreinist eftir spárdagsetningunni og spárdagsetningu næstu (seinni) spárfærslu. Út frá áætlunarsjónarmiði ætti spáð magn að vera fyrir hendi í upphafi eftirspurnartímabilsins.  
 
@@ -46,7 +46,7 @@ Hægt er að líta á íhlutaspána sem valkostaspá í sambandi við yfirvöru.
 Þar sem íhlutaspáin er hönnuð til að skilgreina valkosti fyrir yfirvöru ætti íhlutaspáin að vera jöfn eða lægri en magn söluvöruspárinnar. Ef íhlutaspáin er hærri en söluvöruspáin þá fer kerfið með mismuninn á milli þessara tveggja spártegunda sem sjálfstæða eftirspurn.  
 
 ## <a name="forecasting-periods"></a>Spártímabil  
- Spártímabilið er í gildi frá upphafsdagsetningu þess og til þeirrar dagsetningar sem næsta spá byrjar. Tímabilsglugginn gefur marga valkosti til að setja eftirspurnina inn á sérstökum degi innan tímabils. Þess vegna mælum við ekki með því að umfangi spártímabilsins sé breytt nema æskilegt þyki að færa allar spárfærslur til upphafsdagsetningar þess tímabils.  
+ Spártímabilið er í gildi frá upphafsdagsetningu þess og til þeirrar dagsetningar sem næsta spá byrjar. Tímabilssíðan gefur marga valkosti til að setja eftirspurnina inn á sérstökum degi innan tímabils. Þess vegna mælum við ekki með því að umfangi spártímabilsins sé breytt nema æskilegt þyki að færa allar spárfærslur til upphafsdagsetningar þess tímabils.  
 
 ## <a name="forecast-by-locations"></a>Spá eftir birgðageymslum  
 Það má taka það fram í framleiðsluuppsetningunni ef þú vilt sía spá eftir staðsetningu þegar þú reiknar út áætlun. Athuga ber samt að ef birgðageymslugrundvallaðar spár eru skoðaðar einar og sér gæti verið að spáin í heild sinni sé ekki nothæf sem úttak.
@@ -67,7 +67,7 @@ Hægt er að líta á íhlutaspána sem valkostaspá í sambandi við yfirvöru.
 8.  Í reitnum **Skoða sem** er magn spár valið sem á að sýna fyrir tímabilið. Ef valin er **Hreyfing**, þá birtist staða hreyfingar fyrir viðkomandi tímabil. Ef valin er **Staða til dags.**, þá birtist staða síðasta dags tímabilsins.  
 
 > [!NOTE]  
->  Einnig er hægt að breyta núverandi spá. Í **Fylki eftirspurnarspár** glugganum, veldu **Afrita eftirspurnarspá** aðgerðina og fylltu út í **Eftirspurnarspá** gluggann með fyrirliggjandi spá. Hægt er að gera breytingar á magni eins og við á.  
+>  Einnig er hægt að breyta núverandi spá. Á síðunni **Fylki eftirspurnarspár** veldu **Afrita eftirspurnarspá** aðgerðina og fylltu út síðuna **Eftirspurnarspá** með fyrirliggjandi spá. Hægt er að gera breytingar á magni eins og við á.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  

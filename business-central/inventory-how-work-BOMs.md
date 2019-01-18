@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Vinna með uppskriftir
@@ -51,16 +51,16 @@ Að búa til samsetningaruppskrift er gert í tveimur hltuum:
 1. Setja upp nýtt atriði. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
     Haltu áfram að slá inn íhluti eða tilföng á samsetningaruppskrift.  
-2. Í glugganum **Birgðaspjald** fyrir samsetningaríhluti, veldu **Samsetning** og svo **Samsetningaruppskrift**.
-3. Í glugganum **Samsetningaruppskrift** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Á síðunni **Birgðaspjald** fyrir samsetningaríhluti, veldu **Samsetning** og svo **Samsetningaruppskrift**.
+3. Á síðunni **Samsetningaruppskrift** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Til að skoða íhluti samsetningaríhlutar sem ætlaður er samkvæmt uppskriftaruppbyggingunni
-Úr **Samsetningaruppskrift** glugganum er hægt að opna annan gluaa sem sýnir íhluti og önnur tilföng samkvæmt uppskriftarstöðu undir samsetningaríhlutnum.
+Af síðunni **Samsetningaruppskrift** er hægt að opna annan gluaa sem sýnir íhluti og önnur tilföng samkvæmt uppskriftarstöðu undir samsetningaríhlutnum.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
-2. Opnaðu kortið fyrir samsetningarhlut. (**Samsetningaruppskrift** reiturinn í **Vara** glugganum inniheldur **Já**.)
-3. Í glugganum **Birgðaspjald** fyrir veldu **Samsetning** og svo **Samsetningaruppskrift**.
-4. Í glugganum **Samsetningaruppskrift** velurðu aðgerðina **Sýna uppskrift**.
+2. Opnaðu kortið fyrir samsetningarhlut. (**Samsetningaruppskrift** reiturinn á síðunni **Vörur** inniheldur **Já**.)
+3. Á síðunni **Birgðaspjald** fyrir veldu **Samsetning** og svo **Samsetningaruppskrift**.
+4. Á síðunni **Samsetningaruppskrift** velurðu aðgerðina **Sýna uppskrift**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Skipta samsetningaríhlutnum út fyrir hluta hans á skjalalínum.
 Frá hverju sölu- og framleiðsluskjali sem innheldur samsetningaríhlut, geturðu notað sérstaka aðgerð til að skipta línunni út fyrir samsetningaríhlutinn með nýjum línum fyrir hluta hans. Þessi aðgerð er til að mynda nytsamleg ef þú vilt selja hlutana sem sett sem stendur fyrir samsetningaríhlutinn.
@@ -75,19 +75,19 @@ Eftirfarandi ferli byggist á sölureikningi. Sömu skref eiga við um önnur s�
 
 Allir reitir í sölureikningslínunni fyrir samsetningaríhlutinn eru hreinsaðir nema reitirnir **Vara** og **Lýsing**. Sölureikningslínur sem eru útfylltar eru settar inn fyrir íhlutina og hugsanlegt tilföng sem hafa að geyma samsetningaríhlutinn.
 
-**Athugið**: Opna uppskrift aðgerðin er líka tiltæk í **Samsetningaruppskrift** glugganum.
+**Athugið**: Opna uppskrift aðgerðin er líka tiltæk á síðunni **Samsetningaruppskrift** .
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Reikna staðalkostnað samsetningaríhluta
 Kostnaðarverð tiltektarvöru er reiknað með því að taka saman kostnaðarverð hvers íhlutar og forða í samsetningaruppskrift vörunnar.
 
-Einnig er hægt að reikna og uppfæra staðlaðan kostnað fyrir einn eða fleiri vörur í **Staðlaður kostnaður vinnublað** glugganum. Frekari upplýsingar eru í [Uppfæra staðlað kostnaðarverð](finance-how-to-update-standard-costs.md).  
+Einnig er hægt að reikna og uppfæra staðlaðan kostnað fyrir einn eða fleiri vörur á síðunni **Staðlaður kostnaður vinnublað**. Frekari upplýsingar eru í [Uppfæra staðlað kostnaðarverð](finance-how-to-update-standard-costs.md).  
 
 Einingaverð samsetningaruppskriftar er alltaf jafnt heildareiningakostnaði íhluta hennar, þar með talið aðrar samsetningaruppskriftir og tilföng.
 
 1. Í efra hægra horni skal velja táknið **Leita að síðu eða skýrslu** slá inn **Vörur**, og velja síðan viðeigandi tengil.
-2. Opnaðu kortið fyrir samsetningarhlut. (**Samsetningaruppskrift** reiturinn í **Vara** glugganum inniheldur **Já**.)
-3. Í glugganum **Birgðaspjald** fyrir veldu **Samsetning** og svo **Samsetningaruppskrift**.
-4. Í glugganum **Samsetningaruppskrift** velurðu aðgerðina **Reikna staðlaðan kostnað**.
+2. Opnaðu kortið fyrir samsetningarhlut. (**Samsetningaruppskrift** reiturinn á síðunni **Vörur** inniheldur **Já**.)
+3. Á síðunni **Birgðaspjald** fyrir veldu **Samsetning** og svo **Samsetningaruppskrift**.
+4. Á síðunni **Samsetningaruppskrift** velurðu aðgerðina **Reikna staðlaðan kostnað**.
 5. Veldu einn eftirfarandi valkosta og svo hnappinn **Í lagi**.
 
 |Valkostur |Description |

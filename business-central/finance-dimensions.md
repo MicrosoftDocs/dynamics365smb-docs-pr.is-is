@@ -13,10 +13,10 @@ ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 13e1cd1e772ed01b6503a30ef940054b0973f70f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ac8d1f84c3daacbee931d559e6f67f4351df73c5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="working-with-dimensions"></a>Unnið með víddir
@@ -36,7 +36,7 @@ Annað dæmi er að setja upp vídd sem kallast *Deild* og nota þá vídd þega
 Virkni víddarinnar gegnir mikilvægu hlutverki í viðskiptaupplýsingum, eins og t.d. þegar verið er að skilgreina greingaryfirlit. Nánari upplýsingar er að finna í [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md).
 
 > [!TIP]
-> Hægt er að greina færslugögn út frá víddum á skjótan hátt með því að afmarka samtölur á bókhaldslyklum og færslum í öllum **Færslur** gluggum út frá víddum. Leitaðu að aðgerðinni **Stilla víddarafmörkun**.
+> Hægt er að greina færslugögn út frá víddum á skjótan hátt með því að afmarka samtölur á bókhaldslyklum og færslum á öllum **Færslur** síður út frá víddum. Leitaðu að aðgerðinni **Stilla víddarafmörkun**.
 
 ## <a name="dimension-sets"></a>Víddasamstæður
 Víddasamstæða er sérstök samsetning víddargilda. Er vistað sem víddasamstæðufærslur í gagnagrunninum. Hver víddasamstæðufærsla stendur fyrir eitt víddargildi. Víddasamstæðan er auðkennd með algengum víddasamstæðukennum sem eru úthlutuð hverri víddasamstæðufærslu sem tilheyrir víddasamstæðunni.  
@@ -44,7 +44,7 @@ Víddasamstæða er sérstök samsetning víddargilda. Er vistað sem víddasams
 Þegar þú býrð til dagbókarlínu, skjalhaus eða skjalastiku, getur þú tilgreint samsetningu af víddarmörkum. Í stað þess að geyma hvert víddargildi í gagnagrunninum er kenni víddasamstæðu tengt færslubókarlínu, haus skjals eða línu skjals til að tilgreina víddasamstæðuna.  
 
 ## <a name="setting-up-dimensions"></a>Uppsetning vídda
-Hægt er að skilgreina víddirnar og víddargildin til að flokka færslubókum og skjölum, t.d. sölupantanir og innkaupapantanir. Þú setur upp víddir í **Víddir** glugganum, þar sem búin er til ein lína fyrir hverja vídd, svo sem *Verkefni*, *Deild*, *Svæði*, og *Sölumaður*.
+Hægt er að skilgreina víddirnar og víddargildin til að flokka færslubókum og skjölum, t.d. sölupantanir og innkaupapantanir. Þú setur upp víddir á síðunni **Víddir**, þar sem búin er til ein lína fyrir hverja vídd, svo sem *Verkefni*, *Deild*, *Svæði*, og *Sölumaður*.
 
 Þú setur einnig upp gildi fyrir víddir. Gildi gætu til dæmis verið deildirnar í fyrirtækinu. Hægt er að setja víddir upp í stigveldisröð, svipað og bókhaldslykilinn, svo að hægt verði að stigskipta gögnunum og taka saman milliniðurstöður. Hægt er að skilgreina eins margar víddir og víddargildi og þörf er á og allir í fyrirtækinu geta notað þau.
 
@@ -57,7 +57,7 @@ Einnig er hægt að setja upp altækar víddir og flýtivísanir í víddir:
 Hægt er að setja upp sjálfgefna vídd fyrir tiltekinn stakan reikning. Víddin verður afrituð í færslubókina eða fylgiskjalið þegar reikningsnúmerið er fært inn í línu, en hægt er að eyða eða breyta kóðanum í línunni ef það á við. Einnig er hægt að búa til vídd og krefjast þess að í henni þurfi að bóka færslu með ákveðinni tegund reiknings.  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Víddir** og veldu síðan tengda tengilinn.  
-2.  Í glugganum **Víddir** skal velja viðkomandi vídd og svo **Sjálfg. vídd reikningsteg.** aðgerðina.  
+2.  Á síðunni **Víddir** skal velja viðkomandi vídd og svo **Sjálfg. vídd reikningsteg.** aðgerðina.  
 4.  Fylla þarf út línu fyrir hverja nýja vídd sem skal setja upp. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]  
@@ -73,7 +73,7 @@ Hægt er að setja upp sjálfgefna vídd fyrir tiltekinn stakan reikning. Víddi
 Mismunandi tegundir reikninga, eins og til dæmis viðskiptamannsreikningur og vörureikningur, geta haft mismunandi sjálfgefnar víddir uppsettar. Þar af leiðandi getur forritið lagt til fleiri en eina sjálfgefna vídd fyrir hverja færslu. Til að forðast slíka árekstra er hægt að láta forgangsreglur gilda í hverju tilviki.  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forgangur sjálfgefinnar víddar** og veldu síðan tengda tengilinn.  
-2.  Í glugganum **Sjálgefin forgangur vídda** í reitinn **Upprunakóði** er færður inn upprunakóði færslutöflunnar sem sjálfgefinn víddaforgangur gildir fyrir.  
+2.  Á síðunni **Sjálgefin forgangur vídda** í reitinn **Upprunakóði** er færður inn upprunakóði færslutöflunnar sem sjálfgefinn víddaforgangur gildir fyrir.  
 3.  Fyllt er út lína fyrir hvern forgang sjálfgefinnar víddar sem á að setja upp fyrir valinn upprunakóta.
 4.  Ferlið er endurtekið fyrir hvern upprunakóða þar sem á að setja upp sjálfgefinn víddarforgang.  
 
@@ -84,12 +84,12 @@ Mismunandi tegundir reikninga, eins og til dæmis viðskiptamannsreikningur og v
 Til að forðast að bóka færslur með mótsagnarkenndum eða óviðkomandi víddum er hægt að loka eða takmarka tilteknar samsetningar tveggja vídda. Lokuð víddarsamsetning þýðir að ekki er hægt að bóka báðar víddir í sömu færslu sama hver víddargildin eru. Með takmarkaðri víddarsamsetningu er hægt að bóka báðar víddir í sömu færslu en aðeins með tilteknum víddargildasamsetningum.
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Víddasamsetningar** og veldu síðan tengda tengilinn.  
-2.  Í glugganum **Víddarsamsetningar** er smellt á reitinn fyrir samsetningu vídda og síðan valinn einn af eftirfarandi valkostum.  
+2.  Á síðunni **Víddarsamsetningar** er smellt á reitinn fyrir samsetningu vídda og síðan valinn einn af eftirfarandi valkostum.  
 
     |Svæði|Description|
     |----------------------------------|---------------------------------------|  
     |**Engin takmörkun**|Engar hömlur eru í gildi fyrir þessa víddasamsetningu. Öll víddargildi eru leyfð.|  
-    |**Takmarkað**|Þessi víddarsamsetning hefur ákveðnar hömlur sem fara eftir víddargildunum sem slegin eru inn. Skilgreina þarf takmarkanirnar í glugganum **Samsetning víddargilda** .|  
+    |**Takmarkað**|Þessi víddarsamsetning hefur ákveðnar hömlur sem fara eftir víddargildunum sem slegin eru inn. Skilgreina þarf takmarkanirnar á síðunni **Samsetning víddargilda** .|  
     |**Lokað**|Þessi víddarsamsetning er ekki leyfð.|  
 
 3.  Ef valinn var kosturinn **Takmarkað** verður að skilgreina hvaða samsetningar víddargilda eru læstar. Það er gert með því að velja reitinn til þess að skilgreina víddarsamsetninguna.  
@@ -103,9 +103,9 @@ Til að forðast að bóka færslur með mótsagnarkenndum eða óviðkomandi v�
 >  Til að sýna nafn víddarinnar fremur en kótann er hægt að haka við reitinn **Sýna heiti dálks** .
 
 ### <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Fá yfirlit um víddir sem eru notaðar oftar en einu sinni
-Glugginn **Sjálfgefnar víddir á margar línur** tilgreinir hvernig flokkur reikninga notar víddir og víddargildi. Það er gert með því að upplýsa marga reikninga og tilgreina síðan sjálfgefnar víddir og víddargildi fyrir alla reikninga sem hafa verið upplýstir á reikningalistanum. Þegar sjálfgefnar víddir fyrir upplýsta reikninga eru tilgreindar leggur kerfið þær víddir og víddargildi til í hvert skipti sem einhver af þessum reikningum er notaður, til dæmis í bókarlínu. Það auðveldar bókun fyrir notandann þar sem sjálfkrafa er fyllt inn í víddarreiti. Hinsvegar er hægt að breyta víddargildunum sem kerfið leggur til, t.d. á bókarlínu.
+Síðan **Sjálfgefnar víddir á margar línur** tilgreinir hvernig flokkur reikninga notar víddir og víddargildi. Það er gert með því að upplýsa marga reikninga og tilgreina síðan sjálfgefnar víddir og víddargildi fyrir alla reikninga sem hafa verið upplýstir á reikningalistanum. Þegar sjálfgefnar víddir fyrir upplýsta reikninga eru tilgreindar leggur kerfið þær víddir og víddargildi til í hvert skipti sem einhver af þessum reikningum er notaður, til dæmis í bókarlínu. Það auðveldar bókun fyrir notandann þar sem sjálfkrafa er fyllt inn í víddarreiti. Hinsvegar er hægt að breyta víddargildunum sem kerfið leggur til, t.d. á bókarlínu.
 
-Glugginn **Sjálfgefnar víddir-á margar línur** inniheldur eftirfarandi reiti:
+Síðan **Sjálfgefnar víddir-á margar línur** inniheldur eftirfarandi reiti:
 |Svæði|Description|
 |----------------------------------|---------------------------------------|  
 |**Víddarkóti**|Sýnir allar víddir sem hafa verið skilgreindar sem sjálfgefnar víddir fyrir einn eða fleiri auðkenndan reikning. Ef smellt er reitinn er hægt að skoða lista yfir öll tiltæk víddargildi. Ef valin er vídd eru víddirnar sem eru valdar skilgreindar sem sjálfgefnar víddir fyrir alla auðkennda reikninga.|
@@ -113,7 +113,7 @@ Glugginn **Sjálfgefnar víddir-á margar línur** inniheldur eftirfarandi reiti
 |**Virðisbókun**|Sýnir annað hvort ein virðisbókunarregla eða hugtakið (Misræmi). Ef virðisbókunarregla er í reitnum hafa allir auðkenndir reitir sömu sjálfgefnu virðisbókunarregluna í víddargildi. Ef hugtakið (Misræmi) er í reitnum hafa allir auðkenndir reitir ekki sömu sjálfgefnu virðisbókunarregluna í víddargildi. Ef reiturinn Virðisbókun er valinn er hægt að skoða lista yfir virðisbókunarreglur. Ef valin er virðisbókunarregla er hún notuð fyrir alla auðkennda reikninga.|
 
 ### <a name="example-of-dimension-setup"></a>Dæmi um uppsetningu víddar
-Segjum sem svo, að fyrirtækið vilji rekja færslur út frá skipulagseiningum og landfræðilegum staðsetningum. Til þess að gera það, er hægt að setja upp tvær víddir í **Víddir** glugganum:
+Segjum sem svo, að fyrirtækið vilji rekja færslur út frá skipulagseiningum og landfræðilegum staðsetningum. Til þess að gera það, er hægt að setja upp tvær víddir á síðunni **Víddir**:
 
 * **SVÆÐI**  
 * **DEILD**  
@@ -149,27 +149,27 @@ Fyrir **DEILD**, skal bæta við eftirfarandi víddargildum:
 | FRAML |Framleiðsla |Staðlað |
 | SALA |Sala |Staðlað |
 
-Með þessa uppsetningu, skal síðan bæta við þínum tveimur víddum sem hinum tveimur altæku víddum í glugganum **Uppsetning Fjárhagsgrunns**. Þetta þýðir að hægt er að nota SVÆÐI og DEILD sem afmarkanir á fjárhagsfærslur og einnig á allar skýrslur og fjárhagsáætlanir. Báðar altæku víddirnar eru líka sjálfkrafa tiltækar til notkunar á færslulínum og skjalahausum sem flýtivísanir í víddir.  
+Með þessa uppsetningu, skal síðan bæta við þínum tveimur víddum sem hinum tveimur altæku víddum á síðunni **Uppsetning Fjárhagsgrunns**. Þetta þýðir að hægt er að nota SVÆÐI og DEILD sem afmarkanir á fjárhagsfærslur og einnig á allar skýrslur og fjárhagsáætlanir. Báðar altæku víddirnar eru líka sjálfkrafa tiltækar til notkunar á færslulínum og skjalahausum sem flýtivísanir í víddir.  
 
 ## <a name="using-dimensions"></a>Notkun vídda
-Í skjalinu eins og sölupöntun, er hægt að bæta við víddaupplýsingum fyrir bæði einstaka fylgiskjalslínu og skjalið sjálft. Til dæmis, í **Sölupöntun** glugganum getur þú slegið inn víddarmörk fyrir fyrstu tvær flýtivísanirnar á einstökum sölulínum og þú getur bætt við stærri víddarupplýsingum ef þú velur hnappinn **Víddir**.  
+Í skjalinu eins og sölupöntun, er hægt að bæta við víddaupplýsingum fyrir bæði einstaka fylgiskjalslínu og skjalið sjálft. Til dæmis, í **Sölupöntun** síðunni getur þú slegið inn víddarmörk fyrir fyrstu tvær flýtivísanirnar á einstökum sölulínum og þú getur bætt við stærri víddarupplýsingum ef þú velur hnappinn **Víddir**.  
 
 Ef þú vinnur í dagbók í staðinn geturðu bætt við víddargögn við færslu á sama hátt ef þú hefur sett upp flýtileiðarmörk sem reitir beint á blaðalínum.  
 
 Hægt er að setja upp sjálfgefnar víddir fyrir reikninga eða reikningstegundir, svo að víddir og víddargildi eru fyllt út sjálfkrafa.
 
-## <a name="to-view-global-dimensions-in-ledger-entry-windows"></a>Að skoða altækar víddir í færslugluggum:  
-Altækar\-víddir eru alltaf skilgreindar og nefndar af fyrirtækjum. Til að sjá altæku víddirnar fyrir fyrirtæki skal opna gluggann **Uppsetning fjárhags**.  
+## <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Að skoða altækar víddir á fjárhagsfærslusíðum  
+Altækar\-víddir eru alltaf skilgreindar og nefndar af fyrirtækjum. Til að sjá altæku víddirnar fyrir fyrirtæki skal opna síðuna **Uppsetning fjárhags**.  
 
-Í færsluglugga er hægt að sjá hvort altækar víddir hafi verið stofnaðar fyrir færslurnar. Altæku víddirnar tvær eru ólíkar hinum víddunum þar sem hægt er að nota þær sem afmarkanir hvar sem er innan [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Á fjárhagsfærslusíðu er hægt að sjá hvort altækar víddir hafi verið stofnaðar fyrir færslurnar. Altæku víddirnar tvær eru ólíkar hinum víddunum þar sem hægt er að nota þær sem afmarkanir hvar sem er innan [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
-2.  Í glugganum **Bókhaldslykill** skal velja aðgerðina **Fjárhagsfærslur**.  
-3.  Til að sjá aðeins viðeigandi færslur þarf að setja inn eina eða fleiri afmarkanir í gluggann.  
+2.  Á síðunni **Bókhaldslykill** skal velja aðgerðina **Fjárhagsfærslur**.  
+3.  Til að sjá aðeins viðeigandi færslur þarf að setja inn eina eða fleiri afmarkanir á síðuna.  
 4.  Til að sjá allar víddir fyrir færslu skal velja færsluna og svo aðgerðina **Víddir**.  
 
 > [!NOTE]  
->  Glugginn **Bókfærsluvíddir** sýnir víddir einnar bókfærslu í einu. Þegar skrunað er um bókfærslurnar breytist innihald gluggans **Bókfærsluvíddir** í samræmi við það.  
+>  Síðan **Bókfærsluvíddir** sýnir víddir einnar bókfærslu í einu. Þegar skrunað er um fjárhagsfærslurnar breytist innihald síðunnar **Fjárhagsfærsluvíddir** í samræmi við það.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptaupplýsingar](bi.md)  

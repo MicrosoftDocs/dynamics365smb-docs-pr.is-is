@@ -1,6 +1,6 @@
 ---
 title: "Hönnunarupplýsingar - Leitað að víddarsamsetningum | Microsoft Docs"
-description: "Þegar þú lokar glugga eftir að hafa breytt víddsamstæðu metur Business Central hvort þessi breytta víddasamstæða er til. Ef samstæðan er ekki til er ný samstæða búin til og víddarsamsetningarkenninu er skilað."
+description: "Þegar þú lokar síðu eftir að hafa breytt víddasamstæðu metur Business Central hvort þessi breytta víddasamstæða sé til. Ef samstæðan er ekki til er ný samstæða búin til og víddarsamsetningarkenninu er skilað."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 883446d479af1432f569410a9412e1291e60477d
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1814d6e34fc2ab2d0c64a26ba85fa19074be4dda
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Hönnunarupplýsingar Leitað að víddarsamsetningum
-Þegar þú lokar glugga eftir að hafa breytt víddsamstæðu metur [!INCLUDE[d365fin](includes/d365fin_md.md)] hvort þessi breytta víddasamstæða er til. Ef samstæðan er ekki til er ný samstæða búin til og víddarsamsetningarkenninu er skilað.  
+Þegar þú lokar síðu eftir að hafa breytt víddasamstæðu metur [!INCLUDE[d365fin](includes/d365fin_md.md)] hvort þessi breytta víddasamstæða sé til. Ef samstæðan er ekki til er ný samstæða búin til og víddarsamsetningarkenninu er skilað.  
 
 ## <a name="building-search-tree"></a>Byggir leitartré  
  Tafla 481 **Víddasamstæðutrjáhnútu** er notað þegar [!INCLUDE[d365fin](includes/d365fin_md.md)] metur hvort víddasamstæðamál er þegar til í töflu 480 **Víddasamstæðufærsla**. Matið er framkvæmt með því fara yfir leitartré frá efsta stig 0. Efsta stig 0 táknar víddasamstæðu án víddasamstæðufærslna. Undireiningar þessarar víddasamstæðu tákna víddasamstæður með einni víddasamstæðufærslu. Undireiningar þessara víddasamstæða standa fyrir tvær undireiningar og svo framvegis.  

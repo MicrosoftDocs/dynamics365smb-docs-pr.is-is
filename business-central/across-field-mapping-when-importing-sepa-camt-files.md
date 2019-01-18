@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: abda752ed574245c6d38adb6ee1441bb2b2c80fc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e2fcfb5e896f6da2f953ad15fb46bcd9b34be047
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Reitarvörpum við innflutning SEPA CAMT skráa
 [!INCLUDE[d365fin](includes/d365fin_md.md)] styður svæðisbundinn SEPA-staðall (sameiginlegt evrópskt greiðslusvæði) fyrir innflutning SEPA-bankayfirlita (CAMT-snið). Nánari upplýsingar er að finna í [Setja upp umreikningsþjónustu fyrir bankagögn](bank-how-setup-bank-data-conversion-service.md).  
 
- SEPA CAMT-staðallinn er með staðbundin afbrigði. Því kann að vera nauðsynlegt að breyta almennri skilgreiningu gagnaskipta táknað með **SEPA CAMT** kóðanum í **Skilgreiningar fyrir bókunarskipti** glugganum til að laga hana að staðbundnum útgáfum staðalsins. Eftirfarandi töflur sýna vörpun frá einingu í reit fyrir töflur 81, 273 og 274 í SEPA CAMT-framkvæmd í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ SEPA CAMT-staðallinn er með staðbundin afbrigði. Því kann að vera nauðsynlegt að breyta almennri skilgreiningu gagnaskipta táknað með **SEPA CAMT** kóðanum í **Skilgreiningar fyrir bókunarskipti** síðunni til að laga hana að staðbundnum útgáfum staðalsins. Eftirfarandi töflur sýna vörpun frá einingu í reit fyrir töflur 81, 273 og 274 í SEPA CAMT-framkvæmd í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
  Frekari upplýsingar um að búa til eða stilla gagnaskiptaskilgreiningu eru í [Setja upp gagnaskiptaskilgreiningar](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/22/2018
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Óskipulagt|Texti|Upplýsingarnar til að gera samsvörun / afstemmingu á færslu með þeim vörum sem greiðsla er ætlað að stemma af, svo sem viðskiptareikningar í reikningskröfukerfi í ómótaðan formi||6|Lýsing|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texti|Viðbótarupplýsingar um færslu||16|Færsluupplýsingar|  
 
- Stök í hnútnum **Færsla** sem eru flutt inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] en ekki tengd við neina reiti eru vistuð í töflunni **Bókunarskipti Dálkur Skilgreining**. Notendur geta skoðað þessar einingar frá **Greiðsluafstemmingarbók** **Greiðslujafnanir** og **Afstemming bankareiknings** gluggum með því að velja **Upplýsingar um bankayfirlitslínu** aðgerðina. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)  
+ Stök í hnútnum **Færsla** sem eru flutt inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] en ekki tengd við neina reiti eru vistuð í töflunni **Bókunarskipti Dálkur Skilgreining**. Notendur geta skoðað þessar einingar á síðunum **Greiðsluafstemmingarbók**, **Greiðslujafnanir** og **Afstemming bankareiknings** með því að velja **Upplýsingar um bankayfirlitslínu** aðgerðina. Frekari upplýsingar eru í [Afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md).  
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)  

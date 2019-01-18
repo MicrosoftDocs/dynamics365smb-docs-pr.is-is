@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Hönnunarupplýsingar: vöruhúsaflæði á innleið
@@ -66,7 +66,7 @@ Að auki eru eftirfarandi innri uppspretta gögn sem virka eins uppruni á útle
  Þegar upprunaskjal á útleið er losað er stofnuð sjálfkrafa stofnuð vöruhúsabeiðni á útleið. Það inniheldur tilvísanir til upprunaskjalstegund og númeri og er ekki sýnilegt notandanum.  
 
 ### <a name="3-create-inventory-pick-or-movement"></a>3: Stofna birgðatínsla eða hreyfingu  
- Í **Birgðatínsla** eða **Birgðahreyfing** glugganum sækir vöruhúsanotandi sem er ábyrgur fyrir móttöku, með aðferðinni tínslur, væntanlegar upprunaskjalslínur byggt á vöruhúsabeiðnum á innleið. Að öðrum kosti er birgðatínslulínur þegar stofnaðar, með ýtingu, af notanda sem er ábyrgur fyrir upprunaskjalinu.  
+ Á síðunni **Birgðatínsla** eða **Birgðahreyfing** sækir vöruhúsanotandi sem er ábyrgur fyrir móttöku, með aðferðinni tínslur, væntanlegar upprunaskjalslínur byggt á vöruhúsabeiðnum á innleið. Að öðrum kosti er birgðatínslulínur þegar stofnaðar, með ýtingu, af notanda sem er ábyrgur fyrir upprunaskjalinu.  
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Bóka birgðatínslu eða skrá birgðahreyfingu  
  Í hverri línu fyrir vöru sem hefur verið tínd eða færð, að hluta eða fullu, fyllir starfsmaður í vöruhúsi út reitinn **Magn** og bókar svo birgðatínslu eða skráir birgðahreyfingu. Upprunaskjöl sem tengjast  birgðatínslu eru bókuð sem afgreitt eða notað. Upprunaskjöl sem tengjast birgðahreyfingu eru ekki bókuð.  
@@ -85,7 +85,7 @@ Að auki eru eftirfarandi innri uppspretta gögn sem virka eins uppruni á útle
  Þegar upprunaskjal á innleið er losað er stofnuð sjálfkrafa stofnuð vöruhúsabeiðni á útleið. Það inniheldur tilvísanir til upprunaskjalstegund og númeri og er ekki sýnilegt notandanum.  
 
 ### <a name="3-create-warehouse-shipment"></a>3: Stofna vöruhúsaafhendingu  
- Í **Vöruhúsaafhendingu** glugga sækir starfsmaður í afhendingu sem er ábyrgur væntanlegar upprunaskjalalínur byggt á vöruhúsabeiðnum á útleið. Margar línurnar úr upprunaskjölunum er hægt að sameina í eitt Vöruhúsaafhendingarskjal.  
+ Á síðunni **Vöruhúsaafhendingu** sækir starfsmaður í afhendingu sem er ábyrgur væntanlegar upprunaskjalalínur byggt á vöruhúsabeiðnum á útleið. Margar línurnar úr upprunaskjölunum er hægt að sameina í eitt Vöruhúsaafhendingarskjal.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4: Losa afhendingu / Stofna vöruhústínslu  
  Afhendingarstarfsmaðurinn sem er ábyrgur losar vöruhússafhendingu til að starfsmenn vöruhússins geti stofnað eða samhæft tiltektir vöruhúss fyrir viðkomandi afhendingu.  
@@ -109,7 +109,7 @@ Að auki eru eftirfarandi innri uppspretta gögn sem virka eins uppruni á útle
  Starfsmaður í vöruhúsi sem sér um tínslur stofnar tínsluskjal vöruhúss, af gerðinni tínslur, byggt á losnuðu upprunaskjali. Að öðrum kosti er vöruhússtínsluskjalið stofnað og úthlutað á starfsmann í vöruhúsi með ýtingu.  
 
 ### <a name="9-register-warehouse-pick"></a>9: Skrá vöruhúsatínslu  
- Í hverri línu fyrir vöru sem hefur verið tínd, að hluta eða fullu, fyllir starfsmaður í vöruhúsi út reitinn **Magn** í glugganum **Vöruhúsatínsla** og skráir svo vöruhústínsluna.  
+ Í hverri línu fyrir vöru sem hefur verið tínd, að hluta eða fullu, fyllir starfsmaður í vöruhúsi út reitinn **Magn** á síðunni **Vöruhúsatínsla** og skráir svo vöruhústínsluna.  
 
  Vöruhúsafærslur eru búnar til og vöruhúsatiltektarlínum eytt, ef að fullu meðhöndlaðar. Tínsluskjal vöruhúss er opið þar til allt magn tengdrar sendingar vöruhúss er skráð. Reiturinn **Tínt magn** á afhendingarlínu vöruhússins er uppfærður í samræmi.  
 

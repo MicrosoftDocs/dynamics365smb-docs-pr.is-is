@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 036aa1f317c1b1de7fc1548e03d40eca8c25be89
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d35fd5de7a0583c3864268d0749384322bf947ed
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Dæmi: Skilgreining fastrar úthlutunar á grundvelli úthlutunarhlutfalls
@@ -30,7 +31,7 @@ Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun 
 ## <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Til að skilgreina PROD kostnaðarstað úthlutunarveitu á flýtiflipanum Almennt  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kostnaðarúthlutun** og veldu síðan tengda tengilinn.  
-2.  Í glugganum **Kostnaðarúthlutun** skal velja aðgerðina **Nýtt**.  
+2.  Á síðunni **Kostnaðarúthlutun** skal velja aðgerðina **Nýtt**.  
 3.  Í reitnum **Kenni** smellið á færslulykilinn eða sláið inn auðkenni.  
 4.  Í reitinn **Stig**, sláið inn **1**.  
 5.  Í reitnum **Gildir frá** og **Gildir til** eru viðeigandi dagsetningar færðar inn.  
@@ -59,8 +60,5 @@ Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun 
 >  [!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar sjálfkrafa reitinn **Prósenta** með því að nota prósentuhlutfall sem er háð öllum þremur úthlutunarhlutföllum sem færð eru inn í reitinn **Deila** í öllum þremur línunum.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Setja upp uppruna og markhópa úthlutanna](finance-how-to-set-up-allocation-source-and-targets.md)   
 [Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)   
-[Dæmi: Skilgreining kvikrar úthlutunar á grundvelli seldra vara](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
-[Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)
 

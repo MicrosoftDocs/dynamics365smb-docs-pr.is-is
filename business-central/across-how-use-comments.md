@@ -8,20 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2018
+ms.date: 10/03/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 17a37dd74565266c748439bf4ee5eecfa8e8c7ea
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27a1fcc2bb0efd79e95f10c78dbae54869c59703
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Bæta við athugasemdum við kort og skjöl
 Þú getur bætt við aukaupplýsingum í fjárhagsreikninga, viðskiptamannakort eða sölupantanir til að senda undanþágur eða sérstakar samningar til annarra notenda.
-Nánast öll kort og skjal að hafa **ummæla** aðgerð, sem opnar **Athugasemda** glugga þar sem þú getur skrifað eða lesið athugasemdir. Á skjölum er einnig hægt að bæta við athugasemdum við einstakar línur.
+Nánast öll kort og skjöl hafa aðgerðina **Athugasemdir**, sem opnar síðuna **Athugasemdablað** þar sem þú getur skrifað eða lesið athugasemdir. Á skjölum er einnig hægt að bæta við athugasemdum við einstakar línur.
 
 Athugasemdir um áframhaldandi skjöl eru fluttar til tengda skjalsins. Til dæmis eru ummæli um sölupöntun flutt í bókaða söluafhendingu sem leiðir af henni.
+
+Þar að auki er hægt að tilgreina hvort eigi að flytja athugasemdir frá einni gerð skjals til annarrar gerðar af skjali sem verður til, svo sem frá sölupöntun til sölureiknings. Þetta er gert á síðunum **Sala og útistandandi** og **Innkaup og viðskiptaskuldir** eftir því sem við á.
 
 > [!NOTE]
 > Athugasemdir eru ekki prentaðar eða fluttar til skýrslna eða utanaðkomandi skjala.
@@ -32,7 +34,7 @@ Eftirfarandi lýsir því hvernig á að bæta athugasemd við birgðaspjald. Sk
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
 2. Viðeigandi birgðaspjald er opnað.
 3. Skal velja **Athugasemd** aðgerð.
-4. Í glugganum **Athugasemdablað** skaltu slá inn hvaða texta sem er og þá velja hnappinn **Í lagi**.
+4. Á síðunni **Athugasemdablað** skaltu slá inn hvaða texta sem er og þá velja hnappinn **Í lagi**.
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

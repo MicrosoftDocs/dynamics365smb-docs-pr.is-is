@@ -10,17 +10,17 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d72a39b0fbccc0275a1f9d486d5385428d36fd85
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae2f0258dce727be456340f3e6905d0a60208ac2
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Uppsetning almennra eignaupplýsinga
 Áður en hægt er að vinna með eignir, þarf að setja upp sjálfgefna fjárhagsreikninga, úthlutunarlykla, færslubókarsniðmát og keyrslur fyrir bókun á eign og endurflokkun og hægt er að flokka eignir í eignaflokka, til dæmis Áþreifanlegar og Óáþreifanlegar.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Uppsetning almennra sjálfgilda fyrir eignir
-Skilgreina almenna virkni eða aðgerðina eign og setja upp númeraröð skjala í **Uppsetning Eigna** glugganum.
+Skilgreina almenna virkni eða aðgerðina eign og setja upp númeraröð skjala á **Uppsetning Eigna** síðunni.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning eigna** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Bókunarflokkar eru notaðir til að skilgreina flokka eigna. Færslur í þessu
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **eignabókunarflokkar** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.
-3. Í glugganum **eignabókunarflokkaspjald** þarf að fylla reitina út eftir þörfum.
+3. Á síðunni **eignabókunarflokkaspjald** þarf að fylla reitina út eftir þörfum.
 
     > [!NOTE]  
     >   Til að ganga úr skugga um að mótreikningar fyrir mismunandi eignabókanir eru sjálfkrafa settir inn þegar þú velur **Setja inn mótreikning eigna** aðgerð í færslubókarlínum, fylgja skal næsta skref, í samræmi við uppfærslubókun.
@@ -44,14 +44,14 @@ Hægt er að úthluta færslum á ýmsar deildir og/eða verkefni samkvæmt úth
 Úthlutunarlyklar gilda um eignaflokka en ekki um stakar eignir.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **eignabókunarflokkar** og veldu síðan tengda tengilinn.  
-2. Í glugganum **Eignabókunarflokkar** skal velja aðgerðina **úthlutanir** og velja síðan bókunarflokk.
-3. Í glugganum **eignaúthlutanir** þarf að fylla reitina út eftir þörfum.
+2. Á síðunni **Eignabókunarflokkar** skal velja aðgerðina **Úthlutanir** og velja síðan bókunarflokk.
+3. Á síðunni **eignaúthlutanir** þarf að fylla reitina út eftir þörfum.
 4. Endurtaktu skref 2 og 3 fyrir hverja bókunargerð sem ætlunin er að skilgreina úthlutunarlykla fyrir.
 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Setja upp sniðmát eignabóka
 Sniðmát er fyrirfram skilgreind uppsetning á færslubók. Í sniðmáti eru upplýsingar um ferilskóta, skýrslur og númeraraðir. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] býr sjálfkrafa til sniðmát færslubókar eignar í fyrsta sinn sem glugginn**Færslubók eignar** er opnaður, en hægt er að setja upp önnur sniðmát færslubókar.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] býr sjálfkrafa til sniðmát færslubókar eignar í fyrsta sinn sem síðan **Færslubók eignar** er opnuð, en hægt er að setja upp önnur sniðmát færslubókar.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sniðmát færslubókar** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
@@ -61,10 +61,10 @@ Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fy
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sniðmát færslubókar** og veldu síðan tengda tengilinn.  
 2. Valin er viðeigandi sniðmát færslubókar og veldu svo **keyrslur** aðgerðina.
-3. Í glugganum **eignabókarkeyrslur** þarf að fylla reitina út eftir þörfum.
+3. Á síðunni **eignabókarkeyrslur** þarf að fylla reitina út eftir þörfum.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Setja upp keyrslur endurflokkunarsniðmáta
-Hægt er að nota eignaendurflokkunarbókina til að flytja eignir, skipta þeim upp eða sameina þær. [!INCLUDE[d365fin](includes/d365fin_md.md)] býr sjálfkrafa til sniðmát endurflokkunarbókar eignar í fyrsta sinn sem glugginn **Endurflokkunarbók eignar** er opnaður, en hægt er að setja upp önnur sniðmát endurflokkunarbókar. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
+Hægt er að nota eignaendurflokkunarbókina til að flytja eignir, skipta þeim upp eða sameina þær. [!INCLUDE[d365fin](includes/d365fin_md.md)] býr sjálfkrafa til sniðmát endurflokkunarbókar eignar í fyrsta sinn sem síðan **Endurflokkunarbók eignar** er opnuð, en hægt er að setja upp önnur sniðmát endurflokkunarbókar. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sniðmát eignaendurflokkunarbókar** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
@@ -74,7 +74,7 @@ Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fy
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sniðmát eignaendurflokkunarbókar** og veldu síðan tengda tengilinn.  
 2. Valin er viðeigandi sniðmát færslubókar og veldu svo **keyrslur** aðgerðina.
-3. Í glugganum **keyrslur eignaendurflokkunarbókar** þarf að fylla reitina út eftir þörfum.
+3. Á síðunni **keyrslur eignaendurflokkunarbókar** þarf að fylla reitina út eftir þörfum.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Uppsetning eignaflokkskóða
 Flokkskóðana er hægt að nota við aðalflokkun eigna, eins og til dæmis í áþreifanlegar og óáþreifanlegar eignir.
@@ -105,7 +105,7 @@ Ef verið er að nota eignirnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] �
 
     Virkja fjárhagssamþættingu með því að fylgja næstu skrefum. Fyrst skal ganga úr skugga um að slökkt sé á fjárhagssamþættingu fyrir allar afskriftarbækur, og svo bóka opnu færslurnar og að lokum kveikja á fjárhagssamþættingu.  
 4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftabækur** og veldu síðan tengda tengilinn.  
-5. Velja skal viðeigandi afskriftabók. Á flipanum **Heim** í flokknum **Stjórna** veljið **Breyta lista** til að opna gluggann **Afskriftabókarspjald**.
+5. Velja skal viðeigandi afskriftabók. Á flipanum **Heim** í flokknum **Stjórna** veljið **Breyta lista** til að opna síðuna **Afskriftabókarspjald**.
 6. Ganga skal úr skugga um að á flýtiflipanum **Heildun** séu allir reitir auðir með því að hreinsa öll gátmerki. Ef um er að ræða fleiri en eina afskriftabók er skal óvirkja fjárhagsheildun fyrir hverja þeirra.  
 7. Í eignabókinni eru færðar eftirfarandi línur fyrir hverja eign:
    * Færð er inn lína með stofnkostnaðinum.

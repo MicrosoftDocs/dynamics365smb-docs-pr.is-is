@@ -13,16 +13,16 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5abf0941b90df29bf5175886fbce5782857b5888
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 167610e56db0d6de5a1f84a57c132a842a30b010
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Uppfylla þjónustusamninga 
 Ein leið til að setja upp þjónustukerfisfyrirtæki er að hafa staðlaða samninga við viðskiptamennina sem lýsa stigi þjónustu og þjónustuvæntingum. Hægt er að stofna samningssniðmát sem innihalda nauðsynlegar upplýsingar, svo sem viðskiptamann, upphafsdagsetningu samnings og reikningstímabil.  
   
-Eftir að sniðmátið hefur verið sett upp er hægt að sérsníða samninginn til að fylgjast með þjónustutíma eða öðrum atriðum sem geta verið ólík milli viðskiptamanna. Einnig er hægt að setja samning upp handvirkt út frá þjónustusamningstilboði. Að lokum er hægt að breyta þjónustuverði til að fylgja afsláttum sem tiltekinn viðskiptamaður uppfyllir skilyrði fyrir, með því að tilgreina afsláttarupphæðina í glugganum **Þjónustusamningur**.  
+Eftir að sniðmátið hefur verið sett upp er hægt að sérsníða samninginn til að fylgjast með þjónustutíma eða öðrum atriðum sem geta verið ólík milli viðskiptamanna. Einnig er hægt að setja samning upp handvirkt út frá þjónustusamningstilboði. Að lokum er hægt að breyta þjónustuverði til að fylgja afsláttum sem tiltekinn viðskiptamaður uppfyllir skilyrði fyrir, með því að tilgreina afsláttarupphæðina í síðunni **Þjónustusamningur**.  
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
   

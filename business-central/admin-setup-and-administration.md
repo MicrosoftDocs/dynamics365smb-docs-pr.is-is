@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: c1675921c82ddf00f6a00f94bb38bd594a9a0089
+ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
+ms.openlocfilehash: 26057b4838681b4b6036c4a56aab4fd6d49ac1dd
 ms.contentlocale: is-is
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/12/2018
 
 ---
 # <a name="administration"></a>Stjórnun
@@ -27,7 +27,7 @@ Hvort sem RapidStart Services er notuð til að innleiða uppsetningargildi eða
 Yfirnotandi eða stjórnandi getur sett upp Data Exchange Framework til að gera notendum kleift að flytja út og flytja inn gögn í banka og launaskrár, t.d. fyrir ýmsa stjórnun reiðufés.
 
 > [!NOTE]
-> Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] með RapidStart Services sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Nánari upplýsingar er að finna í ## [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] með RapidStart Services sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Nánari upplýsingar er að finna í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
 
@@ -44,6 +44,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Meðhöndla, eyða eða þjappa skjöl|[Eyðing skjala](admin-manage-documents.md)|  
 |Birta síður, kóðaeiningar og beiðnir sem vefþjónustu.|[Birta vefþjónustu](across-how-publish-web-service.md)|
 |Sem hluti af því að búa til tengiforrit milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og lausna þriðja aðila í gegnum REST API skal skilgreina sniðmát sem eru notuð til að fylla í tóma eiginleika í einingu þegar þú býrð til POST-aðgerð í gegnum API.|[Grunnstilling API-sniðmáta](admin-configuring-api-template.md)|
+|Hægt er að dulrita gögn á [!INCLUDE[d365fin](includes/d365fin_md.md)] netþjóninum með því að stofna nýjan dulritunarlykil eða flytja inn fyrirliggjandi lykil sem virkjaður er á netþjóni.|[Stjórnun gagnadulritunar](admin-manage-data-encryption.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptavirkni](across-business-functionality.md)  

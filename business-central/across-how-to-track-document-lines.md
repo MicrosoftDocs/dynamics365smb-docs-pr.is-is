@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 39a44f4b608bca436adedb16c800c96a046d5644
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2325aafc22db4ab737e63a261b836076cc3fde20
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-document-lines"></a>Rekja skjalalínur
@@ -28,7 +28,7 @@ Eftirfarandi ferli sýnir hvernig skal rekja með sölupöntunarlínu. Skrefin e
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Opnuð er sölupöntun sem þú vilt rekja frá.  
 3.  Valin er lína og svo skal velja aðgerðina **Rakning skjalalínu**.
-4. Í glugganum **Rakning skjalalínu** skal velja skjalið sem á að skoða og svo velja aðgerðina **Sýna** til að sjá tengdar línur.
+4. Á síðunni **Rakning skjalalínu** skal velja skjalið sem á að skoða og svo velja aðgerðina **Sýna** til að sjá tengdar línur.
 5. Til að skoða allt skjalið fyrir valda skjalalínu skal velja aðgerðina **Sýna skjal**.
 
 ## <a name="see-also"></a>Sjá einnig

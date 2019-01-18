@@ -5,16 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2018
+ms.date: 11/06/2018
 ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ec3efb324420956763c9db272c12c22241b86e55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -31,7 +29,7 @@ Eftirfarandi tafla veitir dæmi um tegundir beiðna sem þú getur svarað.
 |Tegund beiðni|Lýsing og leiðbeinandi svar|
 |-----|-----|
 |Flutningsbeiðni|Skráður aðili getur gert gagnaflutningsbeiðni, sem þýðir að hluta til að þú verður að flytja persónuleg gögn skráðs aðila úr þínu kerfi og senda það á skipulögðu, algengu sniði. Til að bregðast við þessum beiðnum skal nota **Hjálparforrit gagnaverndar** til að flytja út persónuleg gögn í Excel-skrá eða RapidStart-grunnstillingapakka. Með því að nota Excel er hægt að breyta persónulegum gögnum og vista þau á algengu, vélalesanlegu sniði, eins og .csv eða .xml. Fyrir RapidStart-grunnstillingapakka er hægt að grunnstilla aðalgagnatöflur og tengdar töflur sem innihalda persónuleg gögn. <br><br> **Athugið:** Þegar gögn eru flutt út þarf að tilgreina lágmarksstig trúnaðar. Útflutningur mun innihalda lágmarksstigið og öll stigin þar fyrir ofan. Til dæmis, ef þú velur að flytja gögn sem eru flokkuð sem persónuleg, mun útflutningurinn einnig innihalda gögn sem eru flokkuð sem viðkvæm. <br><br>Við útflutning gagna sem tengjast skráðum einstaklingi leitar **Hjálparforrit gagnaverndar** að beinum venslum milli skráðs einstaklings og gagna sem tengjast honum. Óbein vensl milli gagna sem tengjast skráðum einstaklingi og annarra gagna eru ekki flutt sjálfkrafa út af **Hjálparforriti gagnaverndar**. Til dæmis hefur tengiliðataflan beintengd gögn tengiliðasvara forstillingar og tafla tengiliðasvara forstillingar tengist enn fremur gögnum forstillingarspurninga. Ef þú vilt einnig flytja út forstillingarspurningar verður þú að bæta þessari töflu við handvirkt sem röð með viðeigandi síum úr grunnstillingarpakkanum sem **Hjálparforrit gagnaverndar** býr til.|
-|Beiðni um eyðingu|Skráður aðili getur óskað eftir því að þú eyðir persónulegum gögnum. Það eru nokkrar leiðir til að eyða persónulegum gögnum með því að nota sérstillingarmöguleikana, en ákvörðun og framkvæmd er á þína ábyrgð. Í sumum tilfellum er hægt að velja að breyta gögnunum beint, til dæmis með því að eyða tengilið og þá keyra runuvinnsluna Eyða samskiptum sem hætt er við til að eyða samskiptum við tengiliðinn. <br><br> **Athugið:** Ef búið er að tilgreina dagsetningu í reitinn **Leyfa eyðingu skjals** fyrir í gluggunum **Uppsetning sölu og útistandandi** eða **Uppsetning innkaupa & viðskiptaskulda** getur verið að það þurfi að breyta dagsetningunni þannig að hægt sé að eyða bókuðum sölu- og innkaupaskjölum sem hafa verið prentuð og sem hafa bókunardagsetningar á eða fyrir þessa dagsetningu.|
+|Beiðni um eyðingu|Skráður aðili getur óskað eftir því að þú eyðir persónulegum gögnum. Það eru nokkrar leiðir til að eyða persónulegum gögnum með því að nota sérstillingarmöguleikana, en ákvörðun og framkvæmd er á þína ábyrgð. Í sumum tilfellum er hægt að velja að breyta gögnunum beint, til dæmis með því að eyða tengilið og þá keyra runuvinnsluna Eyða samskiptum sem hætt er við til að eyða samskiptum við tengiliðinn. <br><br> **Athugið:** Ef búið er að tilgreina dagsetningu í reitinn **Leyfa eyðingu skjals** fyrir á síðunni **Uppsetning sölu og útistandandi** eða **Uppsetning innkaupa & viðskiptaskulda** getur verið að það þurfi að breyta dagsetningunni þannig að hægt sé að eyða bókuðum sölu- og innkaupaskjölum sem hafa verið prentuð og sem hafa bókunardagsetningar á eða fyrir þessa dagsetningu.|
 |Beiðnir um leiðréttingu|Skráður aðili getur óskað eftir því að ónákvæm persónuleg gögn verði leiðrétt. Hægt er gera það á nokkra vegu: Í sumum tilfellum er hægt að flytja út lista í Excel til að magnbreyta margar skrár á fljótlegan hátt og síðan flytja inn uppfærðu gögnin. Frekari upplýsingar eru í [Flytja út viðskiptagögn í Excel](about-export-data.md). Einnig er hægt að breyta reitum handvirkt sem innihalda persónuleg gögn, t.d. með því að breyta upplýsingum um viðskiptavin í viðskiptamannaspjaldinu. Hins vegar eru færsluskrár eins og almennar, viðskiptavinir og skattafjárhagsfærslur nauðsynlegar fyrir áreiðanleika skipulagsáætlunar fyrirtækisins. Ef þú geymir persónuleg gögn í viðskiptafærsluskrám skaltu íhuga að nota sérstillingarmöguleikana til að breyta slíkum persónulegum gögnum.|
 
 ## <a name="restrict-data-processing-for-a-data-subject"></a>Takmarka gagnavinnslu fyrir skráðan aðila

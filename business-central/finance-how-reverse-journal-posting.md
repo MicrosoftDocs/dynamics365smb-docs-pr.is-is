@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: beed335b93ef9211e4fc53c25f97b3fed6137348
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc624d52ce61cea4a8e92bb7d37e07ad8c769393
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reverse-postings"></a>Bakfæra bókanir
@@ -31,10 +31,10 @@ Ef magn hefur verið ranglega neikvætt bókað, t.d. ef innkaupapöntun hefur v
 Ef magn hefur verið ranglega jákvætt bókað, t.d. ef innkaupaskilapöntun hefur verið gerð með röngum stykkjafjölda og síðan bókað sem afgreitt en ekki reikningsfært, er hægt að ógilda bókunina.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Að bakfæra færslubókarbókun fjárhagsfærslu
-Hægt er að bakfæra færslur úr öllum **Fjárhagsfærslur** gluggum. Eftirfarandi ferli er staðsett í **Fjárhagsfærslur** glugganum.
+Hægt er að bakfæra færslur af öllum síðum **Fjárhagsfærslur**. Eftirfarandi ferli byggist á **Fjárhagsfærslur** síðunni.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **fjárhagsfærslur** og veldu síðan tengda tengilinn.
 2. Veljið færsluna sem á að bakfæra og veljið síðna aðgerðina **Bakfæra færslu**. Athugið að þetta verður að koma úr bókun færslubókar.
-3. Í glugganum **Bakfærðar viðskiptafærslur** skal velja viðeigandi línu og svo aðgerðina **Bakfæra**.
+3. Á síðunni **Bakfærðar viðskiptafærslur** skal velja viðeigandi línu og svo aðgerðina **Bakfæra**.
 4. Velja hnappinn **Já** á staðfestingarskilaboðunum.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Að afturkalla magnbókun í bókuðum innkaupamóttökum  
@@ -62,7 +62,7 @@ Hægt er að bakfæra færslur úr öllum **Fjárhagsfærslur** gluggum. Eftirfa
 
     Farið nú aftur í innkaupaskilapöntunina til að endurtaka bókunina.  
 
-5.  Í glugganum **Bókuð skilaafhending** takið mið af tölunni á svæðinu **Skilapöntun nr**. .  
+5.  Á síðunni **Bókuð skilaafhending** takið mið af tölunni á svæðinu **Skilapöntun nr**. .  
 6.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruskilapöntun innkaupa** og veldu síðan tengda tengilinn.  
 7.  Opna skilapöntunina sem um ræðir og velja síðan **Enduropna** aðgerðina.  
 8.  Leiðrétta færsluna í **Magn** reitnum og bóka skilapöntun innkaupa aftur.  

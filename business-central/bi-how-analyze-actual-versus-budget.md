@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 17a6368e5a25ad12db05825b863ce29cd329cd39
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b21354a29c275013b7832459daec392efa6d751d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Greina raunverulegar og áætlaðar upphæðir
@@ -28,14 +28,14 @@ Til að greina áætlaðar upphæðir, verður fyrst að búa til fjárhagsáæt
 Í áætlun með víddum er hægt að setja afmarkanir á færslurnar og sjá tilteknar áætlanir.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsáætlun** og veldu síðan tengda tengilinn.
-2. Í glugganum **Fjárhagsáætlanir** skal velja þá áætlun sem á að skoða.  
-3. Efst í glugganum skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Á síðunni **Fjárhagsáætlanir** skal velja þá áætlun sem á að skoða.  
+3. Efst á síðunni skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Ef valið var **Tímabil** annað hvort í reitnum **Sýna sem línur** eða **Sýna sem dálka** þarf að fylla út reitinn **Skoða eftir**. Ef ekki hefur verið valið **Tímabil**, hvorki í reitnum **Sýna sem línur** né **Sýna sem dálka**, skal slá inn viðeigandi tímabil í reitnum **Dags.afmörkun**.  
 
 > [!NOTE]  
->   Aðeins færslur úr fjárhagsáætlun með afmörkunarkótum sem færðir eru inn á flýtiflipanum **Afmarkanir** eru teknar með í útreikninginn. Áætlunarfærslur með aðra afmörkunarkóta eða án nokkurra afmörkunarkóta teljast ekki með. Á meðan afmörkunin er stillt á gluggann sýnir áætlunin aðeins áætlunarfærslur með þessum afmörkunarkótum.  
+>   Aðeins færslur úr fjárhagsáætlun með afmörkunarkótum sem færðir eru inn á flýtiflipanum **Afmarkanir** eru teknar með í útreikninginn. Áætlunarfærslur með aðra afmörkunarkóta eða án nokkurra afmörkunarkóta teljast ekki með. Á meðan afmörkunin er stillt á síðunni sýnir áætlunin aðeins áætlunarfærslur með þessum afmörkunarkóðum.  
 
 > [!TIP]  
 >   Ef þörf er á að breyta áætlun, er hægt að breyta áætlunarfærslunum. Velja upphæð til að skoða undirliggjandi fjárhagsáætlunarfærslur.
@@ -44,24 +44,24 @@ Til að greina áætlaðar upphæðir, verður fyrst að búa til fjárhagsáæt
 Hægt er að skoða fjárhagsáætlanir og bera þær saman við raunverulegar upphæðir í mörgum svæðum í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
-2. Í glugganum **Bókhaldslykill**, skal velja aðgerðina **Fjárhagur staða/áætlun**.
-3. Efst í glugganum skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.  
+2. Á síðunni **Bókhaldslykill**, skal velja aðgerðina **Fjárhagur staða/áætlun**.
+3. Efst á síðunni skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.  
 4. Til að sjá tilgreininguna sem birt upphæð samanstendur af skal velja reitinn.  
 
 > [!NOTE]  
->   Afmarkanir sem settar eru í gluggahausinn verða notaðar í fjárhagsfærslum og áætlunarfærslum.
+>   Afmarkanir sem settar eru a síðuhausinn verða notaðar í fjárhagsfærslum og áætlunarfærslum.
 
 Bókhaldslykillinn er í dálkunum til vinstri. Af dálkunum fimm lengst til hægri sýna fjórir þeir fyrstu raunverulegar og áætlaðar debet- og kreditfærslur á hverjum reikningi. Fimmti dálkurinn sýnir hlutfallsleg tengsl raunverulegra og áætlaðra upphæða á fjárhagsreikningnum.  
 
 > [!TIP]  
->   Reiturinn **Skoða eftir** í glugganum **Fjárhagur - Staða/áætlun** er notaður til að velja lengd tímabils. Smellt er á reitinn  **Skoða sem** til að velja hvernig upphæðir eru reiknaðar (**Hreyfing** eða **Staða til dags**). Veljið aðgerðina **Fyrra tímabil** eða **Næsta tímabil** til að breyta tímabilinu.  
+>   Reiturinn **Skoða eftir** á síðunni **Fjárhagur - Staða/áætlun** er notaður til að velja lengd tímabils. Smellt er á reitinn  **Skoða sem** til að velja hvernig upphæðir eru reiknaðar (**Hreyfing** eða **Staða til dags**). Veljið aðgerðina **Fyrra tímabil** eða **Næsta tímabil** til að breyta tímabilinu.  
 
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Að skoða raunverulegar og áætlaðar upphæðir fyrir nokkur tímabil  
 Í stað þess að skoða raunverulegar og áætlaðar upphæðir á öllum reikningum innan ákveðins tímabils er hægt að skoða fjölda tímabila á stökum reikningi.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
-2. Í glugganum **Bókhaldslykill** veljið viðeigandi fjárhagsreikning, og veljið síðan aðgerðina **Fjárhagsreikningur staða/áætlun**.  
-3. Efst í glugganum skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.   
+2. Á síðunni **Bókhaldslykill** veljið viðeigandi fjárhagsreikning, og veljið síðan aðgerðina **Fjárhagsreikningur staða/áætlun**.  
+3. Efst á síðunni skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.   
 4. Til að sjá tilgreiningu á birtri upphæð skal velja reitinn.  
 
 ## <a name="see-also"></a>Sjá einnig

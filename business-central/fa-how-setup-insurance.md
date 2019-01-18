@@ -13,10 +13,10 @@ ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 16098723fed40fbe26b9ba238e7fe5bf339003f5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1acb95e72ded81520272b250138005d36759d634
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Uppsetning vátryggingar eignar.
@@ -38,11 +38,11 @@ Hægt er að flokka vátryggingar, til dæmis í tryggingar vegna þjófnaðar e
 Hægt er að safna saman upplýsingum um hverja vátryggingu á vátryggingaspjaldinu.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vátrygging** og veldu síðan tengda tengilinn.  
-2. Í glugganum **Vátrygging** skal velja aðgerðina **Nýtt** til að stofna nýtt vátryggingarspjald.  
-3. Fyllið inn í svæðin eftir þörfum.
+2. Á síðunni **Vátrygging** skal velja aðgerðina **Nýtt** til að stofna nýtt vátryggingarspjald.  
+3. Fyllið inn reitina eftir þörfum.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Uppsetning vátryggingabókasniðmáta
-[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar sjálfkrafa vátryggingarsniðmát í fyrsta skipti sem þú opnar gluggann **Vátryggingabók**, en þú getur sett upp viðbótarsniðmát færslubókar. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar sjálfkrafa vátryggingarsniðmát í fyrsta skipti sem þú opnar síðuna **Vátryggingabók**, en þú getur sett upp viðbótarsniðmát færslubókar. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát vátryggingabóka** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
@@ -52,7 +52,7 @@ Hægt er að setja upp keyrslur í sniðmáti vátryggingabókar. Gildin í keyr
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát vátryggingabóka** og veldu síðan tengda tengilinn.  
 2. Valin er sniðmát vátryggingabókar og veldu svo **keyrslur** aðgerðina.
-3. Í glugganum **vátryggingarbókarkeyrslur** þarf að fylla reitina út eftir þörfum.
+3. Á síðunni **vátryggingarbókarkeyrslur** þarf að fylla reitina út eftir þörfum.
 
 > [!NOTE]  
 >   Tölur hafa sérstaka þýðingu í færslubókarheitum. Ef tala er í heiti færslubókarsniðmáts, hækkar hún sjálfkrafa um einn í hvert sinn sem færslubókin er bókuð. Ef til dæmis HH1 er fært inn í reitinn **Heiti**, mun færslubókarheitið breytast í HH2 eftir bókun.

@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2c0c5ecf8d99d0d49abdc4056289be00219b07a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 59db444b6ce498d987d4aeb4361e119001acd2a3
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-segments"></a>Stofna hluta
@@ -27,7 +27,7 @@ Hægt er að stofna hluta til að velja saman flokk tengiliða til dæmis ef sto
 2. Valið er **Nýtt** aðgerð.
 3. Í hlutanum **Almennt** , í á reitnum **númer** er fært inn númer fyrir hlutann.
 
-    Hafi númeraröð verið sett upp fyrir hluta í glugganum **uppsetning markaðssetningar** er hægt að ýta á Færslulykilinn til að velja næsta tiltæka hlutanúmer.
+    Hafi númeraröð verið sett upp fyrir hluta á síðunni **Uppsetning markaðssetningar** er hægt að ýta á Færslulykilinn til að velja næsta tiltæka hlutanúmer.
 4. Aðrir reitir á hausnum eru fylltir út.
 
 Nú er hægt að bæta tenglum við hlutann. Frekari upplýsingar eru í [Bæta tengiliðum við hluta](marketing-add-contact-segment.md).

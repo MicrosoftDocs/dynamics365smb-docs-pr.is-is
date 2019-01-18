@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Hönnunarupplýsingar: hleðsla birgðaforstillinga
@@ -45,7 +45,7 @@ Til að raða út margar uppsprettur eftirspurn og framboð, áætlanagerð kerf
  Áætlanakerfið stjórnar þessu með því að fara yfir alla forstillingu birgða. Þegar ný samsetning er fundin skapar kerfið innra eftirlitsskrá sem geymir raunveruleg samsetningarupplýsingar. Forritið setur birgðahaldseininguna inn sem stjórnunarfærslu eða sem ytri snigil. Niðurstaðan er að réttar áætlunarfæribreytur samkvæmt samsetningu afbrigðis og birgðageymslu eru valdar og forritið getur haldið áfram að innri lykkju.  
 
 > [!NOTE]  
->  Forritið krefst þess ekki að notandi færi inn birgðahaldseiningarfærslu þegar færð er inn eftirspurn og/eða framboð fyrir tiltekna samsetningu afbrigðis og staðsetningar. Því, ef birgðahaldseining er ekki til fyrir tiltekna samsetningu, stofnar forritið tímabundna birgðahaldseiningarfærslu byggða á gögnum birgðaspjaldsins. Ef Birgðageymsla áskilin er stillt á Já í glugganum Birgðagrunnur verður annaðhvort að stofna birgðahaldseiningu eða stilla Íhlutir á staðnum á Já. Frekari upplýsingar, sjá [Hönnunarupplýsingar: Eftirspurn í autt birgðageymsla](design-details-demand-at-blank-location.md).  
+>  Forritið krefst þess ekki að notandi færi inn birgðahaldseiningarfærslu þegar færð er inn eftirspurn og/eða framboð fyrir tiltekna samsetningu afbrigðis og staðsetningar. Því, ef birgðahaldseining er ekki til fyrir tiltekna samsetningu, stofnar forritið tímabundna birgðahaldseiningarfærslu byggða á gögnum birgðaspjaldsins. Ef Birgðageymsla áskilin er stillt á Já á síðunni Birgðagrunnur verður annaðhvort að stofna birgðahaldseiningu eða stilla Íhlutir á staðnum á Já. Frekari upplýsingar, sjá [Hönnunarupplýsingar: Eftirspurn í autt birgðageymsla](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Raðnúmer-lotunúmer eru hlaðinn með lýsingarstigi  
  Eigindum í formi rað-/lotunúmers er hlaðið inn í birgðasnið ásamt eftirspurn og framboði sem þau eru úthlutuð á.  

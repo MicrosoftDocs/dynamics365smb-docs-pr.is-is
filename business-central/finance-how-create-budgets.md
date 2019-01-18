@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1311d566a8166a8a8720bb09789f42c65a1b6e7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-gl-budgets"></a>Stofna fjárhagsáætlunum
@@ -34,11 +34,11 @@ Hægt er að útbúa margar áætlanir fyrir sömu tímabil með því að stofn
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsáætlun** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Breyta lista** og fyllið svo út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Velja skal aðgerðina **Breyta fjárhagsáætlun**.
-4. Efst í glugganum **Fjárhagsáætlun** skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.  
+4. Efst á síðunni **Fjárhagsáætlun** skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.  
 
-    Aðeins færslur sem innihalda heiti áætlunar sem þú færðir inn í reitinn **Heiti áætlunar** eru sýndar. Þar sem heiti áætlunar er nýstofnað eiga engar áætlanir við afmörkunina. Þess vegna er glugginn auður.  
-5. Til að færa inn rétta upphæð er smellt á viðeigandi reit í fylkinu. Glugginn **Fjárhagsáætl.færslur** opnast.  
-6. Ný lína er búin til og reiturinn **Upphæð** fylltur út. Glugganum **Fjárhagsáætl.færslur** er lokað.  
+    Aðeins færslur sem innihalda heiti áætlunar sem þú færðir inn í reitinn **Heiti áætlunar** eru sýndar. Þar sem heiti áætlunar er nýstofnað eiga engar áætlanir við afmörkunina. Síðan er þar af leiðandi tóm.  
+5. Til að færa inn rétta upphæð er smellt á viðeigandi reit í fylkinu. Síðan **Fjárhagsáætl.færslur** opnast.  
+6. Ný lína er búin til og reiturinn **Upphæð** fylltur út. Loka síðunni **Fjárhagsáætlunarfærslur**.  
 7. Skref 5 og 6 eru endurtekin þar til allar áætlaðar upphæðir eru færðar inn.  
 
 > [!NOTE]  

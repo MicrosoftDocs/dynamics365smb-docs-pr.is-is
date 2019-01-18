@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33b0271c85d97abb8cd4a65c8c9ab9ddd354674b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Setja upp litaðan vísi á bunka fyrir fyrirtækið eða einstaka notendur
@@ -24,20 +24,20 @@ Sem stjórnandi geturðu sett upp bendingar sem birtast í Mitt hlutverk notenda
   
 Vísirinn birtist sem stika efst í ramma bendingarinnar. Veitir sjónrænt merki um virknistöðu bendingarinnar sem getur táknað hagstæð eða óhagstæð skilyrði sem kalla á viðbrögð frá notanda. Ef bunki birtir til dæmis viðvarandi sölureikninga er hægt að stilla vísinn á að vera grænn (jákvætt) þegar heildarfjöldi viðvarandi sölureikninga er undir 10 og rauður (óæskilegt) þegar samtalan er yfir 20.  
   
-Í glugganum **uppsetning bunka** seturðu setja upp vísa fyrir allar bendingar sem eru tiltækar í gagnagrunni fyrirtækisins. Hægt er að setja upp vísa sem eru notaðir fyrir alla notendur í fyrirtækinu eða einstakan starfsmann. Vísisstillingarnar í **Uppsetning bendingar** glugganum virka sem sjálfgefnar vísisstillingar. Ef glugginn **Uppsetning bendingar notandi** er gerður tiltækur fyrir notendur geta þeir sérsniðið vísastillingarnar sem eru skilgreindar í glugganum **Uppsetning bendingar**.  
+Á síðunni **uppsetning bunka** seturðu setja upp vísa fyrir allar bendingar sem eru tiltækar í gagnagrunni fyrirtækisins. Hægt er að setja upp vísa sem eru notaðir fyrir alla notendur í fyrirtækinu eða einstakan starfsmann. Vísisstillingarnar á síðunni **Uppsetning bunka** virka sem sjálfgefnar vísisstillingar. Ef síðan **Uppsetning bendingar notandi** er gerð tiltæk fyrir notendur geta þeir sérsniðið vísastillingarnar sem eru skilgreindar á síðunni **Uppsetning bendingar**.  
   
 Til að setja upp vísi tilgreinirðu allt að tvö þröskuldsgildi sem tilgreina þrjú svið gagnagilda (lágt, miðlungs og hátt) sem hægt er að nota annan lit (eða stíl) við.  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Til að setja upp litaða vísa í bendingum  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bunkauppsetning** og veldu síðan tengda tengilinn.  
   
-     Glugginn **uppsetning bunka** birtist. Glugginn birtir vísa sem nú eru uppsettir í bendingum. Vísar sem eiga við alla notendur í fyrirtækinu eru með auðan **Notandanafn** reit. Vísar sem gilda um tiltekinn notanda innhalda notandanafnið í **Notandanafn** reitnum.  
+     Síðan **Uppsetning bunka** birtist. Síðan birtir vísa sem nú eru uppsettir í bendingum. Vísar sem eiga við alla notendur í fyrirtækinu eru með auðan **Notandanafn** reit. Vísar sem gilda um tiltekinn notanda innhalda notandanafnið í **Notandanafn** reitnum.  
   
     > [!NOTE]  
     >  Ef þú setur upp vísi fyrir allt fyrirtækið og notandi breytir vísinum síðar þá er önnur færsla fyrir vísinn birtist fyrir þann notanda.  
   
 2. Veldu aðgerðina **Breyta lista**.  
-3. Til að setja upp vísir fyrir bendingar sem er ekki listaður í glugganum velurðu **Nýtt** og fyllir svo inn reitina líkt og lýst er í eftirfarandi. Ef þú vilt breyta vísi sem þegar er til skaltu fara á næsta skref.  
+3. Til að setja upp vísir fyrir bendingar sem er ekki listaður á síðunni velurðu **Nýtt** og fyllir svo inn reitina líkt og lýst er í eftirfarandi. Ef þú vilt breyta vísi sem þegar er til skaltu fara á næsta skref.  
   
     |  Svæði  |  Description  |    
     |---------|---------------|  

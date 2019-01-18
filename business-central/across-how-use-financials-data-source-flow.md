@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7ae293942318c682202a84f0a54ae8b0516c77b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] í sjálfvirku verkflæði.
-Notandi getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín sem hluta af verkflæði í Microsoft Flow.  
+Notandi getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín sem hluta af verkflæði í Microsoft Flow.
+
+> [!NOTE]
+> Til viðbótar við Microsoft Flow er hægt að nota verkflæðisvirkni innan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hafa skal í huga að þótt þetta séu tvö aðskilin verkflæðiskerfi, þá eru öll Flow-sniðmát sem búin eru til með Microsoft Flow bætt við listann yfir verkflæðissniðmát innan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
 > [!NOTE]  
 >   Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin](includes/d365fin_md.md)] og hjá Flæði.  
@@ -28,7 +31,7 @@ Notandi getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín se
 1. Flettið í [flow.microsoft.com](https://flow.microsoft.com/en-us/) í vafranum og skráið ykkur svo inn.
 2. Veldu **Mitt flæði** af borðanum efst á síðunni.
 3. Það eru til tvær leiðir til að búa til flæði; **Stofna í sniðmáti** og **Stofna úr auðu**. Sniðmát er fyrirframskilgreint flæði sem hefur verið búið til fyrir þig.  Til að nota sniðmát skaltu einfaldlega velja það og búa til tengingu fyrir hverja þjónustu sem sniðmátið notar. Autt sniðmát gerir þér kleift að búa til nýtt flæði alveg frá grunni.
-4. Til að búa til úr auðu skal í glugganum **Mitt flæði** velja valkostinn **Stofna úr auðu**.
+4. Til að búa til úr auðu skal á síðunni **Mitt flæði** velja valkostinn **Stofna úr auðu**.
 5. Leitaðu að **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]** tengi.
 6. Farðu í lista yfir tiltækar kveikjur og veldu eina af [!INCLUDE[d365fin](includes/d365fin_md.md)] tiltækum kveikjum í boði:  
     *Þegar beðið er um samþykki viðskiptavinar*,  
@@ -58,9 +61,6 @@ Nú hefur notanda tekist að tengjast gögnum sínum í Business Central og getu
     *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] færslubókarkeyrslu*,  
     *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] færslubókarlínum*.  
 11. Flæði biður þig um velja fyrirtæki innan leigjandans [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Vegna þess að hvert skref í flæði er óháð því næsta, getur verið að þú þurfir að skilgreina fyrirtækið mörgum sinnum þegar þú notar [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-sniðmát.
-
-> [!NOTE]  
-> [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flæðissniðmátið samþættir við kerfi kjarnaverkflæðis í [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Sem þýðir að í hvert skipti sem þú notar eitt af þessum sniðmátum til að búa til flæði, er samsvarandi verkflæði búið til innan [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Einnig verður einstaklingurinn sem býr til flæðið að vera settur upp sem samþykktaraðili í uppsetningarleiðbeiningum með hjálp. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).
 
 Frekari upplýsingar eru í [Flæðisskjöl](https://docs.microsoft.com/en-us/flow/getting-started).
 

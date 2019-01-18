@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f49faba7360ccf2e93ab62176752a503335f3f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d8eb48485f0889f4f10931c6642090f8290fe393
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-allocation-source-and-targets"></a>Setja upp uppruna og markhópa úthlutanna
@@ -25,7 +25,7 @@ Hver úthlutun samanstendur af úthlutunaruppruna og einu eða fleiri úthlutuna
 
 ## <a name="to-set-up-cost-allocations"></a>Til að setja upp kostnaðarúthlutanir  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kostnaðarúthlutun** og veldu síðan tengda tengilinn.  
-2.  Í glugganum **Kostnaðarúthlutun** skal velja reitinn **Breyta**.  
+2.  Á síðunni **Kostnaðarúthlutun** skal velja reitinn **Breyta**.  
 3.  Færið inn kenni fyrir úthlutunaruppsprettu í reitnum **Kenni**.  
 4.  Skilgreina stig sem tölu á bilinu 1 til 99 í reitnum **Stig**. Úthlutunarbókunin mun fylgja röð stiganna.  
 5.  Færa inn kostnaðartegund til að skilgreina hvaða kostnaðartegundum verður úthlutað í reitinn **Svið kostnaðartegundar**. Ef öllum kostnaði kostnaðartegundar hefur verið úthlutað er ekkert svið skilgreint.  

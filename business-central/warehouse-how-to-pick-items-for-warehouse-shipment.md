@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b09a740ccd0054418c597285ebe65827827ad9de
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Tína vörur fyrir vöruhúsaafhendingu
@@ -26,9 +26,9 @@ Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni þar sem í tínslua
 
 Hægt er að útbúa vöruhússtínsluskjöl eins og drátt með því að opna autt vöruhúsaafhendingarfylgiskjal, finna upprunaskjöl sem eru send til afhendingar, og síðan stofna vöruhúsatínslulínur fyrir þær afhendingar. Hægt er að nota aðgerðirnar **Sækja upprunaskjöl** eða **Nota afmörkun til að sækja upprunaskjöl** til að finna upprunaskjöl sem eru tilbúin til afhendingar.
 
-Einnig er hægt að nota gluggann **Vinnublað tínslu** til að draga og stofna tínslulínur í runustillingu. Frekari upplýsingar, sjá [Áætla tínslu á vinnublöðum](warehouse-how-to-plan-picks-in-worksheets.md).  
+Einnig er hægt að nota síðuna **Vinnublað tínslu** til að draga og stofna tínslulínur í runustillingu. Frekari upplýsingar, sjá [Áætla tínslu á vinnublöðum](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-Einnig er hægt að stofna vöruhúsatínsluskjöl í eins og ýtingu í glugganum **Vöruhúsaafhending** með því að velja **Stofna tínslu**.  
+Einnig er hægt að stofna vöruhúsatínsluskjöl í eins og ýtingu á síðunni **Vöruhúsaafhending** með því að velja **Stofna tínslu**.  
 
 > [!NOTE]  
 >  Tínsla fyrir vöruhúsaafhendingu vara sem settar eru saman úr sölupöntuninni sem verið er að afenda fylgir sömu aðferð og hefðbundin vöruhúsatínsla fyrir afhendingu eins og lýst er í þessu efnisatriði. Hins vegar gæti fjöldi tínslulína miðað við afhendingarmagn verið af gerðinni n:1 þar sem íhlutar eru tíndir en ekki samsetningarvaran.  
@@ -52,7 +52,7 @@ Einnig er hægt að stofna vöruhúsatínsluskjöl í eins og ýtingu í gluggan
 
 4.  Þegar tínslan hefur verið framkvæmd og vörurnar settar á afhendingarsvæði eða í afhendingarhólf er smellt á **Skrá tínslu** aðgerðina.  
 
-Sá sem ábyrgur er fyrir afhendingu getur nú komið vörunum að afhendingarhöfn og bókað afhendinguna, þar á meðal tengt upprunaskjal, í glugganum **Vöruhúsaafhending**. Frekari upplýsingar eru í [Senda vörur](warehouse-how-ship-items.md).   
+Sá sem ábyrgur er fyrir afhendingu getur nú komið vörunum að afhendingarhöfn og bókað afhendinguna, þar á meðal tengt upprunaskjal, á síðunni **Vöruhúsaafhending**. Frekari upplýsingar eru í [Senda vörur](warehouse-how-ship-items.md).   
 
 Til viðbótar við tínslu upprunaskjala eins og lýst er í þessu efnisatriði er hægt að taka og færa vörur á milli hólfa án þess að vísa í upprunaskjöl. Frekari upplýsingar, sjá: [Tína og ganga frá án upprunaskjals](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -63,7 +63,7 @@ Fyrir aðrar vöruhúsaafhendingarlínur er gildið í reitnum **Magn til afhend
 
 Þegar starfsmenn sem bera ábyrgð á samsetningu ljúka við að setja saman magnið sem setja á saman í pöntun að hluta til eða í heild skrá þeir það í reitinn **Magn til afhendingar** í vöruhúsasendingarlínunn og velja svo **Bóka afhend.** aðgerðina. Niðurstaðan er að samsvarandi samsetningarfrálag er bókað, að meðtalinni notkun íhluta. Söluafhending fyrir magnið er bókuð fyrir sölupöntunina.
 
-Í samsetningarpöntun má velja **Setja saman í p. vöruh. send. lína** til sjá vöruhúsaafhendingarlínuna. Þetta er hentugt fyrir starfsmenn sem nota ekki yfirleitt gluggann **Vöruhúsaafhending**.
+Í samsetningarpöntun má velja **Setja saman í p. vöruh. send. lína** til sjá vöruhúsaafhendingarlínuna. Þetta er hentugt fyrir starfsmenn sem nota ekki yfirleitt síðuna **Vöruhúsaafhending**.
 
 Eftir að vöruhúsasendingin er bókuð, eru ýmis svæði í sölupöntunarlínunni uppfærð til að sýna vinnslu í vöruhúsinu. Eftirfarandi svæði eru einnig uppfærð til að sýna hversu mikið magn samsetningarpantana á eftir að setja saman og afhenda:
 

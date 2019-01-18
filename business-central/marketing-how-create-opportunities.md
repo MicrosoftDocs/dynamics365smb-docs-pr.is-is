@@ -13,16 +13,16 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 95eb483d261ac4e1f55071ff5d33951ad1fa2a3f
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-sales-opportunities"></a>Stofna sölutækifæri
 Hægt er að stofna tækifæri vegna sölutækifæra hjá tengiliðum. Tengja verður öll tækifæri við sölumann eða innkaupanda og þau verða að vera með tengilið.
 
-Hægt er að stofna tækifæri úr glugganum **Tækifæralisti**. En yfirleitt eru tækifæri stofnuð hjá tilteknum tengilið eða sölumanni.
+Hægt er að stofna tækifæri af síðunni **Tækifæralisti**. En yfirleitt eru tækifæri stofnuð hjá tilteknum tengilið eða sölumanni.
 
 Áður en hægt er að stofna tækifæri þarf að setja upp söluferla tækifæris. Nánari upplýsingar er að finna í [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 

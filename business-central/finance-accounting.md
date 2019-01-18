@@ -11,17 +11,17 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: feb49e3c78329235cff68c8be009c996b1111812
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3a6b49b754eff669e9991e8c4245ef7acd2689db
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Endurskoðandi upplifun í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Engu skiptir hvernig endurskoðandi þú ert, þú getur nýtt þér **Endurskoðandi** Mitt hlutverk sem þitt Heim í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Héðan hefurðu aðgang að öllum gluggum sem þú þarft í vinnunni.  
+Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Engu skiptir hvernig endurskoðandi þú ert, þú getur nýtt þér **Endurskoðandi** Mitt hlutverk sem þitt Heim í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Héðan hefurðu aðgang að öllum síðum sem þú þarft í vinnunni.  
 
 ## <a name="accountant-role-center"></a>Endurskoðandi Mitt hlutverk
-Mitt hlutverk er yfirlit með aðgerðarreitum sem sýna þér lykiltölur í rauntíma og veita þér skjótan aðgang að gögnum. Á borðanum efst í glugganum færðu aðgang að fleiri aðgerðum, eins og að opna þær fjárhagsskýrslur og yfirlit sem oftast eru notuð í Excel. Efst uppi á yfirlitsstikunni er hægt að skipt hratt á milli listanna sem þú notar oftast. Hér sérðu önnur svæði eins og **Bókuð fylgiskjöl** með mismunandi tegundum fylgiskjala sem fyrirtækið hefur bókað.  
+Mitt hlutverk er yfirlit með aðgerðarreitum sem sýna þér lykiltölur í rauntíma og veita þér skjótan aðgang að gögnum. Á borðanum efst á síðunni færðu aðgang að fleiri aðgerðum, eins og að opna þær fjárhagsskýrslur og yfirlit sem oftast eru notuð í Excel. Efst uppi á yfirlitsstikunni er hægt að skipt hratt á milli listanna sem þú notar oftast. Hér sérðu önnur svæði eins og **Bókuð fylgiskjöl** með mismunandi tegundum fylgiskjala sem fyrirtækið hefur bókað.  
 
 Ef þú þekkir ekki til [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu opnað myndbandalista frá Mitt hlutverk. Einnig er hægt að opna **Hafist handa** kynningu sem bendir á lykilsvæði.  
 

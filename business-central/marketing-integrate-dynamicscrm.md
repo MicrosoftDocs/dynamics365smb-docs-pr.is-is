@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 057db7c39834c7be0fb93589e4fc58d740dd259c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65466039efae2b18821fb03b6465f4c8c5e18f68
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Umsjón með viðskiptamönnum og sölum sem stofnuð eru í Dynamics 365 for Sales
@@ -89,7 +89,7 @@ Eftirfarandi tafla sýnir varpanir frá Business Central töflum fyrir reitinn *
 Frá upphafssíðunni geturðu nálgast leiðbeiningar um uppsetningu með hjálp fyrir **Uppsetningu Microsoft Dynamics 365 tengingar** sem hjálpar þér að setja upp tengingu. Þegar því er lokið verður þú með hnökralausa tengingu á Sales-færslum við [!INCLUDE[d365fin](includes/d365fin_md.md)] skrár.  
 
 > [!NOTE]  
->   Eftirfarandi útskýrir uppsetningu með aðstoð, en þú getur framkvæmt sömu verkin handvirkt í glugganum **Uppsetning Sales-tengingar**.
+>   Eftirfarandi útskýrir uppsetningu með aðstoð, en þú getur framkvæmt sömu verkin handvirkt á síðunni **Uppsetning Sales-tengingar**.
 
 Í aðstoðarsamskipunarleiðbeiningunni geturðu valið hvaða gögn eru samstillt á milli tveggja þjónustunnar. Þú getur einnig tilgreint að þú viljir flytja inn núverandi Sales lausnina þína. Í því tilviki verður þú að tilgreina stjórnsýslu notendareikning.
 
@@ -113,7 +113,7 @@ Ef þú velur að gera kleift að virkja *sölupöntunarsamþætting*, verður �
 ### <a name="coupling-records"></a>Tengja skrár
 Í aðstoðarsamskipunarleiðbeiningunni geturðu valið að samstilla á milli tveggja þjónustunnar. En síðar getur þú einnig sett upp samstillingu tiltekinna gerða gagna. Þetta er kallað *tenging* og í þessum kafla er að finna tillögur um það sem þú verður að taka tillit til.
 
-Til dæmis, ef þú vilt sjá Sales reikninga sem viðskiptavini í [!INCLUDE[d365fin](includes/d365fin_md.md)], verður þú að tengja tvær tegundir af skrám. Það er ekki mjög flókið - þú opnar gluggann **Viðskiptavinalisti** í [!INCLUDE[d365fin](includes/d365fin_md.md)] og það er aðgerð í borðanum til að tengja þessi gögn við Sales. Þá tilgreinir þú hvaða [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptavinir passa við hvaða reikninga í Sales.
+Til dæmis, ef þú vilt sjá Sales reikninga sem viðskiptavini í [!INCLUDE[d365fin](includes/d365fin_md.md)], verður þú að tengja tvær tegundir af skrám. Það er ekki mjög flókið - þú opnar síðuna **Viðskiptavinalisti** í [!INCLUDE[d365fin](includes/d365fin_md.md)] og það er aðgerð í borðanum til að tengja þessi gögn við Sales. Þá tilgreinir þú hvaða [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptavinir passa við hvaða reikninga í Sales.
 
 Á ákveðnum sviðum byggir virknin á að þú tengir ákveðnar gagnasettir fyrir aðrar gagnasettir eins og sýnt er í eftirfarandi lista:
 
@@ -130,16 +130,16 @@ Til dæmis, ef þú vilt sjá Sales reikninga sem viðskiptavini í [!INCLUDE[d3
 Í Sales velta sölupantanir á viðbótarupplýsingum eins og viðskiptavinum, mælieiningum, gjaldmiðlum, verðflokkum viðskiptavina, vörum og/eða tilföngum. Til að samþættingin með sölupöntunum gangi hnökralaust fyrir sig verður þú að tengja viðskiptavini, mælieiningar, gjaldmiðla, verðflokka viðskiptavina, vörur og/eða auðlindir fyrst.
 
 ### <a name="synchronizing-records-fully"></a>Samstilla skrár að fullu
-Í lok aðstoðaruppsetningarleiðbeiningarinnar geturðu valið aðgerðina **Keyra fulla samstillingu** til að byrja að samstilla allar [!INCLUDE[d365fin](includes/d365fin_md.md)] færslur við allar tengdar skrár í tengdu Sales lausninni. Í **Yfirferð á fullri samstillingu tengslastjórnunar** gluggann, veldu **Ræsa** aðgerðina. Samstillingin byrjar síðan að framkvæma störf í samræmi við ósjálfstæði. Til dæmis eru gjaldeyrisskrár samstilltar fyrir viðskiptavinaskrár. Fullur samstilling getur tekið langan tíma og mun því birtast í bakgrunni þannig að þú getir haldið áfram að vinna í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Í lok aðstoðaruppsetningarleiðbeiningarinnar geturðu valið aðgerðina **Keyra fulla samstillingu** til að byrja að samstilla allar [!INCLUDE[d365fin](includes/d365fin_md.md)] færslur við allar tengdar skrár í tengdu Sales lausninni. Á síðunni **CRM full samstilling tengslastjórnunar** skaltu velja aðgerðina **Ræsa**. Samstillingin byrjar síðan að framkvæma störf í samræmi við ósjálfstæði. Til dæmis eru gjaldeyrisskrár samstilltar fyrir viðskiptavinaskrár. Fullur samstilling getur tekið langan tíma og mun því birtast í bakgrunni þannig að þú getir haldið áfram að vinna í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Til að kanna framvindu einstakra starfa í fullri samstillingu, skal fara á **Staða verkraðarfærslu**, **Í innri vinnslustöðu töflu**, eða **Úr innri vinnslustöðu töflu** í glugganum **Yfirferð á fullri samstillingu tengslastjórnunar**.
+Til að kanna framvindu einstakra starfa í fullri samstillingu, skal fara á **Staða verkraðarfærslu**, **Í innri vinnslustöðu töflu**, eða **Úr innri vinnslustöðu töflu** á síðunni **CRM full samstilling tengslastjórnunar**.
 
-Frá glugganum **Uppsetning Dynamics 365 for Sales-tengingar** er hægt að fá upplýsingar um fulla samstillingu hvenær sem er. Héðan er einnig hægt að opna gluggann **Vörpun samþættingartöflu** til að sjá upplýsingar um töflurnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] og í Sales lausninni sem þarf að samstilla.
+Frá síðunni **Uppsetning Microsoft Dynamics 365 tengingar** er hægt að fá upplýsingar um fulla samstillingu hvenær sem er. Héðan er einnig hægt að opna síðuna **Vörpun samþættingartöflu** til að sjá upplýsingar um töflurnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] og í Sales lausninni sem þarf að samstilla.
 
 ## <a name="handling-special-sales-order-data"></a>Afgreiðsla sérstakra sölupöntunargagna
-Sölupantanir í Sales verða fluttar sjálfkrafa í [!INCLUDE[d365fin](includes/d365fin_md.md)] ef gátreiturinn **Stofna sölupantanir sjálfkrafa** í glugganum **Uppsetning Microsoft Dynamics 365-tengingar** er valinn. Á slíkum sölupöntunum er reiturinn **Heiti** í upprunalegu pöntuninni fluttur og honum varpað í reitinn **Utanaðkomandi fylgiskjalsnúmer** á sölupöntuninni í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Sölupantanir í Sales verða fluttar sjálfkrafa í [!INCLUDE[d365fin](includes/d365fin_md.md)] ef gátreiturinn **Stofna sölupantanir sjálfkrafa** á síðunni **Uppsetning Microsoft Dynamics 365-tengingar** er valinn. Á slíkum sölupöntunum er reiturinn **Heiti** í upprunalegu pöntuninni fluttur og honum varpað í reitinn **Utanaðkomandi fylgiskjalsnúmer** á sölupöntuninni í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Þetta getur líka virkað ef upprunalega sölupöntunin inniheldur innskriftarvörur, þ.e.a.s. vörur eða forða sem er skráður í hvorugri vörunni. Í því tilviki verður þú að fylla út reitina **Gerð innskriftarvöru** og **Nr. innskriftarvöru** í glugganum **Sölugrunnur**, til þess að slíkri óskráðri vörusölu sé varpað í tiltekið vöru-/forðanúmer fyrir fjárhagsgreiningu.
+Þetta getur líka virkað ef upprunalega sölupöntunin inniheldur innskriftarvörur, þ.e.a.s. vörur eða forða sem er skráður í hvorugri vörunni. Í því tilviki verður þú að fylla út reitina **Gerð innskriftarvöru** og **Nr. innskriftarvöru** reitirnir á síðunni **Sölugrunnur**, til þess að slíkri óskráðri vörusölu sé varpað í tiltekið vöru-/forðanúmer fyrir fjárhagsgreiningu.
 
 Ef vörulýsingin í upprunalegu sölupöntuninni er mjög löng er stofnuð ný sölupöntunarlína af gerðinni Athugasemd til þess að rúma allan texta sölupöntunarinnar í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

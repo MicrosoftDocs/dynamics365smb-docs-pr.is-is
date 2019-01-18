@@ -11,17 +11,17 @@ ms.search.keywords: company, setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: ce2fd5c5027fc54c92bf5ffc63b70c84d81f26b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
 ms.contentlocale: is-is
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Stofna ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er vísað til hólfanna fyrir viðskiptagögn, sem tilheyra fyrirtækjaeiningu eða lögaðila, sem *fyrirtæki*. Þegar þú skráir þig í [!INCLUDE[d365fin](includes/d365fin_md.md)], færðu sýnifyrirtæki og autt fyrirtæki, *Mitt fyrirtæki*. Auðvelt er að skipta á milli fyrirtækja - þú opnar einungis **Mínar stillingar** og færir þig yfir í hitt fyrirtækið. En þú getur líka stofnað ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)], allt eftir þörfum þíns fyrirtækis. Þegar þú stofnar nýtt fyrirtæki, munu leiðbeiningar um uppsetningu með stuðningi hjálpa þér við grunnuppsetninguna. Þá geturðu flutt inn tilheyrandi gögn úr eldri kerfum eða öðrum fyrirtækjum í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Stofna nýtt fyrirtæki
-Ef þú ákveður að bæta fyrirtæki við þitt [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu notað **Stofna nýtt fyrirtæki** leiðsagnarforritið uppsetning með aðstoð til að komast af stað. Leiðsagnarforritið fyrir uppsetningu er tiltækt í glugganum **Fyrirtæki** og í uppflettingu í reitnum **Fyrirtæki** í **Mínar stillingar**.  
+Ef þú ákveður að bæta fyrirtæki við þitt [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu notað **Stofna nýtt fyrirtæki** leiðsagnarforritið uppsetning með aðstoð til að komast af stað. Leiðsagnarforritið fyrir uppsetningu er tiltækt á síðunni **Fyrirtæki** og í uppflettingu í reitnum **Fyrirtæki** í **Mínar stillingar**.  
 
 Leiðsagnarforritið fyrir uppsetningu býður upp á þrenns konar sniðmát:
 
@@ -36,7 +36,7 @@ Leiðsagnarforritið fyrir uppsetningu býður upp á þrenns konar sniðmát:
 Ef þú vilt byrja auðveldlega með nýtt fyrirtæki, skal velja **Framleiðsla - Aðeins uppsetningargögn** og síðan flytja inn þín eigin viðskiptagögn, eins og viðskiptamenn, vörur og lánardrottnar. Veldu sniðmátið **Nýtt** ef þú vilt setja allt upp frá grunni. Í því tilfelli, geturðu nýtt þér **Uppsetning fyrirtækis** leiðsagnarforrit með stuðningi til að stíga fyrstu skrefin með nauðsynleg uppsetningargögn.  
 
 > [!NOTE]  
->   Þegar þú stofnar nýtt fyrirtæki, líða nokkrar mínútur áður en þú getur komist inn í það í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Uppsetningarstaðan í glugganum **Fyrirtæki** sýnir hvenær nýja fyrirtækið er tilbúið fyrir þig. Þá geturðu skipt yfir í nýja fyrirtækið með því að nota **Mínar stillingar**.  
+>   Þegar þú stofnar nýtt fyrirtæki, líða nokkrar mínútur áður en þú getur komist inn í það í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Uppsetningarstaðan á síðunni **Fyrirtæki** sýnir hvenær nýja fyrirtækið er tilbúið fyrir þig. Þá geturðu skipt yfir í nýja fyrirtækið með því að nota **Mínar stillingar**.  
 
 Á 30 daga reynslutímabilinu geturðu stofnað eins mörg fyrirtæki og þú vilt, en þau verða aðeins aðgengileg á meðan reynslutímabilinu stendur. Nánari upplýsingar má nálgast með því að hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila þinn.  
 

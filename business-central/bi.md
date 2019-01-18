@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: baaa62e11f9abfac900d5fe6abb14cec9fafdacf
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
 ms.contentlocale: is-is
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="business-intelligence"></a>Viðskiptaupplýsingar
@@ -25,7 +25,7 @@ Fyrirtæki safna saman gríðarlegu magni gagna á hverjum degi. Slík gögn er 
 Virkni víddarinnar gegnir mikilvægu hlutverki í viðskiptaupplýsingum. Vídd samsvarar gögnum sem þú getur bætt við færslu sem nokkurs konar leiðarmerki. Þessi gögn eru notuð til að flokka saman færslur með svipuð einkenni, eins og viðskiptamenn, svæði, vörur og sölumenn og sækja þessa hópa á auðveldan hátt til greiningar. Víddir er meðal annars hægt að nota þegar skilgreina á greiningaryfirlit og þegar búa á til fjárhagsskemu fyrir skýrslugjöf. Frekari upplýsingar er að finna í [Unnið með víddir](finance-dimensions.md).
 
 > [!TIP]
-> Hægt er að greina færslugögn út frá víddum á skjótan hátt með því að afmarka samtölur á bókhaldslyklum og færslum í öllum **Færslur** gluggum út frá víddum. Leitaðu að aðgerðinni **Stilla víddarafmörkun**.  
+> Hægt er að greina færslugögn út frá víddum á skjótan hátt með því að afmarka samtölur á bókhaldslyklum og færslum á öllum **Færslur** síður út frá víddum. Leitaðu að aðgerðinni **Stilla víddarafmörkun**.  
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
 

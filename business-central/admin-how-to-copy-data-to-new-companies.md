@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Afrita gögn yfir í ný fyrirtæki
@@ -26,7 +26,7 @@ Hægt er að afrita títt notuð gildi úr fyrirliggjandi fyrirtæki í nýtt, s
 1. Opna skal nýja fyrirtækið.  
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
 3. Valið er **Afrita gögn úr fyrirtæki**.  
-4. Í glugganum **Afrita gögn fyrirtækis** skal velja fyrirtæki til að afrita úr í reitnum **Afrita úr** og síðan skal velja hnappinn **Í lagi**.  
+4. Á síðunni **Afrita gögn fyrirtækis** skal velja fyrirtæki til að afrita úr í reitnum **Afrita úr** og síðan skal velja hnappinn **Í lagi**.  
 5. Veljið töflu úr einum af grunnstillingarpökkunum sem voru fluttir inn og því næst skal velja aðgerðina **Afrita gögn**.
 
 ## <a name="see-also"></a>Sjá einnig

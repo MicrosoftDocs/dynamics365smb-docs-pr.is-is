@@ -13,10 +13,10 @@ ms.search.keywords: category, search, attribute, facet
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c62d26dc9dc444359c0d8b5a9354b29132857de1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b684df40599a730054e333f1bdf2e526c840e0b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="categorize-items"></a>Flokka vörur
@@ -26,8 +26,8 @@ Til að finna vörur eftir eiginleika er hægt að úthluta vörueigindum á vö
 
 ## <a name="to-create-an-item-category"></a>Að búa til vöruflokka
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruflokkar** og veldu síðan tengda tengilinn.
-2. Í glugganum **vöruflokkar** skal velja aðgerðina **Nýtt**.
-3. Í glugganum **vöruflokkaspjald**, á flipanum **Almennt**, eru eftirfarandi reitir fylltir út: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Á síðunni **vöruflokkar** skal velja aðgerðina **Nýtt**.
+3. Á síðunni **vöruflokkaspjald**, á flipanum **Almennt**, eru eftirfarandi reitir fylltir út. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Í **eigindir** Flýtiflipanum skal tilgreina hvers kyns vörueigindum fyrir vöruflokk. Nánari upplýsingar eru í „Að úthluta vörueigindum á vöruflokk hlutanum“ í [Vinna með vörueigindir](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

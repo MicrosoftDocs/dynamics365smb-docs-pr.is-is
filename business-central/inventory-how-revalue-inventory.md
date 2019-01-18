@@ -13,10 +13,10 @@ ms.search.keywords: costing, inventory cost, value entries
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d4111c5e1e496b2b47afed2d37533707f1c99a89
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7dd38fc58ed7bd2aafafa09042a9e23c821c76e4
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="revalue-inventory"></a>Endurmat birgða
@@ -25,9 +25,9 @@ Ef endurmeta á til hækkunar eða lækkunar birgðavirði vöru eða tiltekinna
 ## <a name="to-revalue-inventory"></a>Að endurmeta birgðir
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Endurmatsbók** og veldu síðan tengda tengilinn.
 2. Veljið aðgerðina **Reikna út birgðavirði**.
-3. Í glugganum **Reikna út birgðavirði** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Á síðunni **Reikna út birgðavirði** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velja hnappinn **Í lagi**.
-5. Í hverri línu í glugganum **Endurmatsbók** skal færa inn nýtt kostnaðarverð í reitinn **Kostnaðarverð (endurmetið)**. Einnig er hægt að færa inn nýja samtölu í reitinn **Birgðavirði (endurmetið)**.
+5. Á síðunni **Endurmatsbók** í reitnum **Kostnaðarverð (Endurmetið)** er fært inn nýja kostnaðarverðið. Einnig er hægt að færa inn nýja samtölu í reitinn **Birgðavirði (endurmetið)**.
 
     Viðeigandi reitir eru uppfærðir sjálfkrafa. Bent er á að í reitnum **Upphæð** er sýnd breytingin í birgðavirði valinnar birgðafærslu. Þar er reiknaður út munurinn á reitunum **Birgðavirði (útreiknað)** og **Birgðavirði (endurmetið)**.
 6. Þegar öllum línunum í endurmatsbókinni er lokið skal velja aðgerðina **Bóka**.

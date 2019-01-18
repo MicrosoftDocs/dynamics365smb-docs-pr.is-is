@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3b6ed1ffe162f0bdb4d1af1dd84c34c6f0de91bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Setja upp önnur aðsetur fyrir viðskiptamenn
@@ -24,16 +25,16 @@ Hægt er að velja annað aðsetur þangað sem stundum má senda tengiliðum p�
 
 ## <a name="to-assign-an-alternate-address"></a>Til að úthluta öðru aðsetri
 1. Tengiliðurinn er opnaður.
-2. Veljið aðgerðina **Annað aðsetur** og veljið síðan **Spjald**. Glugginn **Önnur aðs. tengiliðar - listi** opnast.
-3. Nýtt aðsetur er fært inn og reitirnir í glugganum **Önnur aðsetur tengiliðar** eru fylltir út.
+2. Veljið aðgerðina **Annað aðsetur** og veljið síðan **Spjald**. Síðan **Önnur aðs. tengiliðar - listi** opnast.
+3. Nýtt aðsetur er fært inn og reitirnir á síðunni **Önnur aðsetur tengiliðar** eru fylltir út.
 
 Skrefin eru endurtekin til að úthluta eins mörgum öðrum aðsetrum og óskað er. Tilgreina má eitt eða fleiri dagsetningarsvið fyrir hvert annað aðsetur.
 
-Einnig má nota sömu aðferð til að úthluta öðrum aðsetrum úr glugganum tengiliðalisti.
+Einnig má nota sömu aðferð til að úthluta öðrum aðsetrum af síðunni tengiliðalisti.
 
 ## <a name="to-assign-an-alternate-address-date-range"></a>Til að úthluta öðru dagsetningasviði aðseturs
 1. Tengiliðurinn er opnaður.
-2. Veljið aðgerðina **Annað aðsetur** og veljið síðan **Dagsetningabil**. Glugginn **Dags.bil annars aðs. tengil.** opnast.
+2. Veljið aðgerðina **Annað aðsetur** og veljið síðan **Dagsetningabil**. Síðan **Dags.bil á öðru aðsetri tengiliðar** opnast.
 3. Veljið aðgerðina **Nýtt**.
 4. Í reitnum **Kóði annars aðs. tengiliðar** skal velja aukaaðsetur fyrir þennan tengilið og síðan er fyllt inn í reitina **Upphafsdagsetning** og **Lokadagsetning**.
 

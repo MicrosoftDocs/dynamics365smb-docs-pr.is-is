@@ -11,10 +11,10 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4696fa95b82a0deb0ba9642ef796160f25a57afc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Innheimta útistandandi skuldir
@@ -23,7 +23,7 @@ ms.lasthandoff: 09/28/2018
 Hægt er að nota áminningar til að minna viðskiptamenn á gjaldfallnar upphæðir. Einnig er hægt að nota áminningar til að reikna út vexti og annan kostnað og hafa þær upplýsingar með í áminningunni. Notaðir eru vaxtareikningar ef krefja á viðskiptamenn um vexti eða gjöld án þess að minna þá á gjaldfallnar upphæðir.
 
 ## <a name="reminders"></a>Innheimtubréf
-Áður en hægt er að stofna áminningar þarf að setja upp skilmála áminninga og tengja þá við viðskiptamenn. Fyrir hvern áminningarskilmála þarf að skilgreina áminningarstig. Hvert áminningarstig inniheldur reglur um það hvenær áminningin verður send, t.d. hversu mörgum dögum eftir gjalddaga reikningsins eða dagsetningu fyrri áminningar. Innihald gluggans **Vaxtaskilmálar** ákveður hvort vextir eru reiknaðir í áminningunni.  
+Áður en hægt er að stofna áminningar þarf að setja upp skilmála áminninga og tengja þá við viðskiptamenn. Fyrir hvern áminningarskilmála þarf að skilgreina áminningarstig. Hvert áminningarstig inniheldur reglur um það hvenær áminningin verður send, t.d. hversu mörgum dögum eftir gjalddaga reikningsins eða dagsetningu fyrri áminningar. Innihald síðunnar **Vaxtaskilmálar** ákveður hvort vextir eru reiknaðir í áminningunni.  
 
 Hægt er að keyra reglulega keyrsluna **Stofna innheimtubréf** til að stofna áminningar fyrir alla viðskiptamenn með gjaldfallnar skuldir eða stofna áminningu handvirkt fyrir einstaka viðskiptamenn og láta reikna línurnar og fylla þær út sjálfvirkt.  
 
@@ -46,7 +46,7 @@ Hægt er að stofna vaxtareikning fyrir einstakan viðskiptamann og fylla línur
 Þegar búið er að stofna vaxtareikninga, og breyta þeim ef þarf, er hægt að prenta prufuskýrslur eða senda vaxtareikningana, vanalega sem tölvupóst.
 
 ## <a name="multiple-interest-rates"></a>Margir vextir
-Þegar vaxtaskilmálar og skilmálar innheimtubréfa eru sett upp, fyrir sekt vegna seinkunar á greiðslu, er hægt að tilgreina marga vexti þannig að sektargreiðsla er reiknuð út frá mismunandi vöxtum á mismunandi tímabilum. Ef margir vextir eru ekki settir upp, þá verða vextirnir og tímabilið sem er skilgreint í gluggunum **Vaxtaskilmálar** og **Skilmálar innheimtubréfa** notað fyrir allt reikningstímabilið. Frekari upplýsingar eru í [Setja upp marga vexti](finance-how-to-set-up-multiple-interest-rates.md).  
+Þegar vaxtaskilmálar og skilmálar innheimtubréfa eru sett upp, fyrir sekt vegna seinkunar á greiðslu, er hægt að tilgreina marga vexti þannig að sektargreiðsla er reiknuð út frá mismunandi vöxtum á mismunandi tímabilum. Ef margir vextir eru ekki settir upp, þá verða vextirnir og tímabilið sem er skilgreint á síðunum **Vaxtaskilmálar** og **Skilmálar innheimtubréfa** notað fyrir allt reikningstímabilið. Frekari upplýsingar eru í [Setja upp marga vexti](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="to-send-the-customer-statement-report"></a>Til að senda yfirlitsskýrslu viðskiptamanns
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Yfirlit viðskiptamanns** og veldu síðan tengda tengilinn.
@@ -69,19 +69,19 @@ Ef viðskiptamenn eru í vanskilum verður að ákveða hvenær og hvernig eigi 
 Ef stofnaðar eru fleiri áminningar en skilgreind hafa verið stig fyrir verða skilyrði hæsta stigsins notuð. Hægt er að stofna eins margar áminningar og leyft er í reitnum **Hám.fj. innheimtubréfa** í áminningarskilmálunum.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skilmálar innheimtubréfa** og veldu síðan tengda tengilinn.  
-2. Í glugganum **Skilmálar innheimtubréfa** er valin lína með skilmálum sem setja á upp stig fyrir og síðan er valin aðgerðin **Stig**.  
+2. Á síðunni **Skilmálar innheimtubréfa** er valin lína með skilmálum sem setja á upp stig fyrir og síðan er valin aðgerðin **Stig**.  
 3. Fyllið inn í reitina eftir þörfum.  
 
-    Fyrir hvert áminningarstig er hægt að skilgreina sérstök skilyrði sem í geta falist viðbótargjöld, bæði í SGM og erlendum gjaldmiðli. Hægt er að skilgreina mörg viðbótargjöld í erlendum gjaldmiðlum fyrir hvern kóta í glugganum **Stig innheimtubréfa**.
+    Fyrir hvert áminningarstig er hægt að skilgreina sérstök skilyrði sem í geta falist viðbótargjöld, bæði í SGM og erlendum gjaldmiðli. Hægt er að skilgreina mörg viðbótargjöld í erlendum gjaldmiðlum fyrir hvern kóða á síðunni **Stig innheimtubréfa**.
 4. Velja aðgerðina **gjaldmiðlar**.
-5. Í glugganum **Gjaldmiðlar fyrir stig innheimtubréfa** skal skilgreina gjaldmiðlakóða og viðbótargjald fyrir hvern kóða stigs innheimtubréfa og samsvarandi númer stigs innheimtubréfa.
+5. Á síðunni **Gjaldmiðlar fyrir stig innheimtubréfa** skal skilgreina gjaldmiðlakóða og viðbótargjald fyrir hvern kóða stigs innheimtubréfa og samsvarandi númer stigs innheimtubréfa.
 
     > [!NOTE]  
-    > Þegar innheimtubréf eru stofnuð í erlendum gjaldmiðli tekur kerfið mið af þeim skilyrðum sem sett eru um erlendan gjaldmiðil hér til að stofna innheimtubréf. Ef engin vaxtaskilyrði innheimtubréfa fyrir erlenda gjaldmiðla eru sett upp notar kerfið SGM-vaxtaskilyrðin sem sett voru upp í glugganum **Stig innheimtubréfs** og breytir þeim í viðeigandi gjaldmiðil.
+    > Þegar innheimtubréf eru stofnuð í erlendum gjaldmiðli tekur kerfið mið af þeim skilyrðum sem sett eru um erlendan gjaldmiðil hér til að stofna innheimtubréf. Ef engin vaxtaskilyrði innheimtubréfa fyrir erlenda gjaldmiðla eru sett upp notar kerfið SGM-vaxtaskilyrðin sem sett voru upp á síðunni **Stig innheimtubréfs** og breytir þeim í viðeigandi gjaldmiðil.
 
     Fyrir hvert áminningarstig er hægt að skilgreina texta sem verður prentaður á undan (**Byrjunartexti**) eða eftir (**Lokatexti**) færslunum í áminningunni.
 
-6. Veljið **Byrjunartexti** eða **Lokatexti** aðgerðirnar eftir því sem við á, og fyllið í **Áminningartexti** gluggann.
+6. Veljið **Byrjunartexti** eða **Lokatexti** aðgerðirnar eftir því sem við á, og fyllið **Áminningartexti** síðuna.
 7. Til að setja viðeigandi gildi sjálfvirkt inn í innheimtubréfstexta, skal fara inn í eftirfarandi staðgengla í reitnum **Texti**.  
 
 |Frátaka|Gildi:|  
@@ -110,12 +110,12 @@ Til dæmis, ef þú skrifar**Þú skuldar %9 %7 á gjalddaga %2** mun innheimtub
 Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að fylla út innheimtuhaus ásamt einni eða fleiri innheimtulínum. Þú getur notað aðgerð til að stofna innheimtubréf fyrir alla viðskiptamenn sjálfvirkt.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innheimtubréf** og veldu síðan tengda tengilinn.
-2. Í glugganum **Innheimtubréf**, skal velja aðgerðina **Stofna innheimtubréf**.
-3. Í glugganum **Stofna innheimtubréf** fyllið út reitina til að skilgreina hvernig og til hvaða aðila innheimtubréfin skulu stofnuð.
+2. Á síðunni **Innheimtubréf**, skal velja aðgerðina **Stofna innheimtubréf**.
+3. Á síðunni **Stofna innheimtubréf** fyllið út reitina til að skilgreina hvernig og til hvaða aðila innheimtubréfin skulu stofnuð.
 4. Velja hnappinn **Í lagi**.
 
 ## <a name="to-create-a-reminder-manually"></a>Innheimtubréf búin til handvirkt:
-Í glugganum **Innheimtubréf** geturðu fyllt í flýtiflipann **Almennt** handvirkt og svo látið fylla í línurnar sjálfvirkt.
+Á síðunni **Innheimtubréf** geturðu fyllt í flýtiflipann **Almennt** handvirkt og svo látið fylla í línurnar sjálfvirkt.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innheimtubréf** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
@@ -134,21 +134,21 @@ Nokkrar leiðir eru í boði til að ákvarða hvaða texti birtist á prentuðu
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innheimtubréf** og veldu síðan tengda tengilinn.
 2. Opna skal viðeigandi innheimtubréf, og síðan velja **uppfæra innheimtubréf texti** aðgerðina.
-3. Í glugganum **uppfæra innheimtubréf texti** er fært inn stigið sem óskað er eftir í reitnum **Stig innheimtubréfs**.
+3. Á síðunni **uppfæra innheimtubréf texti** er fært inn stigið sem óskað er eftir í reitnum **Stig innheimtubréfs**.
 3. Velja hnappinn **Í lagi** til að uppfæra byrjunar- og endatexta.
 
 ## <a name="to-issue-a-reminder"></a>Gefa út innheimtubréf
 Þegar búið er að stofna áminningar, og breyta þeim ef þarf, er hægt að prenta prufuskýrslur eða senda áminningarnar.
 
-Þegar áminning er send eru gögnin flutt í sérstakan glugga fyrir sendar áminningar. Um leið eru áminningarfærslurnar bókaðar. Ef vextir eða viðbótarkostnaður hefur verið reiknaður eru færslur bókaðar í viðskiptamannabók og á fjárhag.
+Þegar áminning er send eru gögnin flutt á sérstaka síðu fyrir sendar áminningar. Um leið eru áminningarfærslurnar bókaðar. Ef vextir eða viðbótarkostnaður hefur verið reiknaður eru færslur bókaðar í viðskiptamannabók og á fjárhag.
 
-Þegar innheimtubréf er sent bókar kerfið færslur eftir því sem var tilgreint í glugganum **Skilmálar innheimtubréfa**. Þessi staðall ákvarðar hvort vextir og/eða viðbótargjöld séu bókuð á reikning viðskiptamanns og fjárhag. Uppsetning í glugganum **Bókunarflokkur viðskm.** ákvarðar á hvaða reikninga er bókað.
+Þegar innheimtubréf er sent bókar kerfið færslur eftir því sem var tilgreint á síðunni **Skilmálar innheimtubréfa**. Þessi staðall ákvarðar hvort vextir og/eða viðbótargjöld séu bókuð á reikning viðskiptamanns og fjárhag. Uppsetning á síðunni **Bókunarflokkar viðskiptavinar** ákvarðar á hvaða reikninga er bókað.
 
-Fyrir hverja fjárhagsfærslu viðskiptamanns á vaxtareikning, er stofnuð færsla í glugganum **Innheimtubréf/vaxtafærslur**.
+Fyrir hverja fjárhagsfærslu viðskiptamanns á vaxtareikning, er stofnuð færsla á síðunni **Innheimtubréf/vaxtafærslur**.
 
-Ef gátreitirnir **Bóka vexti** og **Bóka viðbótargjöld** eru valdir í glugganum **Skilmálar innheimtubréfs**, eru eftirfarandi færslur einnig stofnaðar:
+Ef gátreitirnir **Bóka vexti** og **Bóka viðbótargjöld** eru valdir á síðunni **Skilmálar innheimtubréfs**, eru eftirfarandi færslur einnig stofnaðar:
 
-- Ein færsla í glugganum **Fjárhagsfærslur viðskiptamanna**.
+- Ein færsla á síðunni **Fjárhagsfærslur viðskiptamanna**
 - Ein útistandandi færsla í viðeigandi fjárhagsreikningi
 - Ein vaxta- og/eða viðbótargjaldsfærsla í viðeigandi fjárhagsreikningi
 
@@ -156,7 +156,7 @@ Að auki getur sending innheimtubréfs leitt af sér VSK-færslur.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innheimtubréf** og veldu síðan tengda tengilinn.
 2. Velja skal viðeigandi innheimtubréf, og síðan velja **Senda út** aðgerðina.
-3. Í glugganum **Senda út innheimtubréf** þarf að fylla reitina út eftir þörfum.
+3. Á síðunni **Senda út innheimtubréf** þarf að fylla reitina út eftir þörfum.
 4. Velja hnappinn **Í lagi**.
 
 Innheimtubréfið er annað hvort prentað út eða sent á tiltekið netfang sem PDF viðhengi.
@@ -182,15 +182,15 @@ Að auki er sérhver kóti í töflunni Vaxtaskilmálar tengdur undirtöflunni V
 2. Fyllið inn í reitina eftir þörfum.  
 3. Eigi að nota fleiri en eina samsetningu vaxtaskilmálar þarf að setja upp kóta fyrir hverja þeirra.
 
-    Fyrir hvern vaxtaskilmála er hægt að skilgreina sérstök skilyrði sem í geta falist viðbótargjöld, bæði í SGM og erlendum gjaldmiðli. Hægt er að skilgreina mörg viðbótargjöld í erlendum gjaldmiðlum fyrir hvern kóða í glugganum **Vaxtaskilmálar**.
+    Fyrir hvern vaxtaskilmála er hægt að skilgreina sérstök skilyrði sem í geta falist viðbótargjöld, bæði í SGM og erlendum gjaldmiðli. Hægt er að skilgreina mörg viðbótargjöld í erlendum gjaldmiðlum fyrir hvern kóða á síðunni **Vaxtaskilmálar**.
 4. Velja aðgerðina **gjaldmiðlar**.
-5. Í glugganum **Gjaldmiðlar fyrir vaxtaskilmála**, skal skilgreina gjaldmiðilskóða fyrir hvern skilmála og viðbótargjald.
+5. Á síðunni **Gjaldmiðlar fyrir vaxtaskilmála**, skal skilgreina gjaldmiðilskóða fyrir hvern skilmála og viðbótargjald.
 
     > [!NOTE]  
-    > Þegar vextir eru stofnaðir í erlendum gjaldmiðli tekur kerfið mið af þeim skilyrðum sem sett eru um erlendan gjaldmiðil hér til að stofna vaxtareikningur. Ef engin vaxtaskilyrði fyrir erlenda gjaldmiðla eru sett upp notar kerfið SGM-vaxtaskilyrðin sem sett voru upp í glugganum **Vaxtaskilmálar** og breytir þeim í viðeigandi gjaldmiðil.
+    > Þegar vextir eru stofnaðir í erlendum gjaldmiðli tekur kerfið mið af þeim skilyrðum sem sett eru um erlendan gjaldmiðil hér til að stofna vaxtareikningur. Ef engin vaxtaskilyrði fyrir erlenda gjaldmiðla eru sett upp notar kerfið SGM-vaxtaskilyrðin sem sett voru upp á síðunni **Vaxtaskilmálar** og breytir þeim í viðeigandi gjaldmiðil.
 
     Fyrir hvern kóða vaxtaskilmála er hægt að tilgreina texta sem á að prenta á undan (**Byrjunartexti**) eða á eftir (**Endatexti**) færslunum á vaxtareikningnum.  
-6. Veljið **Byrjunartexti** eða **Lokatexti** aðgerðirnar eftir því sem við á, og fyllið í **Vaxtatexti** gluggann.
+6. Veljið **Byrjunartexti** eða **Lokatexti** aðgerðirnar eftir því sem við á, og fyllið út síðuna **Vaxtatexti**.
 7. Til að setja viðeigandi gildi sjálfvirkt inn í vaxtatexta, skal fara inn í eftirfarandi staðgengla í reitnum **Texti**.
 
 |Frátaka|Gildi:|  
@@ -211,7 +211,7 @@ Vaxtareikningur er svipaður reikningi. Hægt er að fylla hausinn út handvirkt
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaxtareikningar** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur.  
 3. Velja aðgerðina **Leggja til vaxtareikn.línur**.
-4. Í glugganum **Tillaga vaxtareikningur línur**, skal sett afmörkun á flýtiflipanum **Viðskm.færsla** eigi aðeins að búa til vaxtareikninga fyrir tilteknar færslur.  
+4. Á síðunni **Tillaga vaxtareikningur línur**, skal sett afmörkun á flýtiflipanum **Viðskm.færsla** eigi aðeins að búa til vaxtareikninga fyrir tilteknar færslur.  
 5.  Veldu hnappinn **Í lagi** til að hefja keyrsluna.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Vaxtatexti uppfærður  
@@ -219,19 +219,19 @@ Vaxtareikningur er svipaður reikningi. Hægt er að fylla hausinn út handvirkt
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaxtareikningur** og veldu síðan tengda tengilinn.  
 2. Opna vaxtareikninginn sem þú vilt breyta textanum í, og velja síðan aðgerðina **Uppfæra vaxtatexta**.
-3. Í glugganum **Uppfæra vaxtatexta** er hægt að setja afmörkun eigi að uppfæra marga vaxtareikninga.
+3. Á síðunni **Uppfæra vaxtatexta** er hægt að setja afmörkun eigi að uppfæra marga vaxtareikninga.
 4. Velja hnappinn **Í lagi** til að uppfæra byrjunar- og endatexta.  
 
 ## <a name="to-issue-finance-charge-memos"></a>Vaxtareikningar sendir út
 Þegar búið er að stofna vaxtareikninga, og breyta þeim ef þarf, er hægt að prenta prufuskýrslur eða senda vaxtareikningana.
 
-Þegar innheimtubréf er sent út, bókar kerfið færslur eftir því sem var tilgreint í glugganum **Vaxtaskilmálar**. Þessi staðall ákvarðar hvort vextir og/eða viðbótargjöld séu bókuð á reikning viðskiptamanns og fjárhag. Uppsetning í glugganum **Bókunarflokkur viðskm.** ákvarðar á hvaða reikninga er bókað.
+Þegar innheimtubréf er sent út bókar kerfið færslur eftir því sem var tilgreint á síðunni **Vaxtaskilmálar**. Þessi staðall ákvarðar hvort vextir og/eða viðbótargjöld séu bókuð á reikning viðskiptamanns og fjárhag. Uppsetning á síðunni **Bókunarflokkar viðskiptavinar** ákvarðar á hvaða reikninga er bókað.
 
-Fyrir hverja fjárhagsfærslu viðskiptamanns á vaxtareikning, er stofnuð færsla í glugganum **Innheimtubréf/vaxtafærslur**.
+Fyrir hverja fjárhagsfærslu viðskiptamanns á vaxtareikning, er stofnuð færsla á síðunni **Innheimtubréf/vaxtafærslur**.
 
-Ef gátreitirnir **Bóka vexti** og **Bóka viðbótargjöld** eru valdir í glugganum **Vaxtaskilmálar**, eru eftirfarandi færslur einnig stofnaðar:
+Ef gátreitirnir **Bóka vexti** og **Bóka viðbótargjöld** eru valdir á síðunni **Vaxtaskilmálar**, eru eftirfarandi færslur einnig stofnaðar:
 
-- Ein færsla í glugganum **Fjárhagsfærslur viðskiptamanna**.
+- Ein færsla á síðunni **Fjárhagsfærslur viðskiptamanna**
 - Ein útistandandi færsla í viðeigandi fjárhagsreikningi
 - Ein vaxta- og/eða viðbótargjaldsfærsla í viðeigandi fjárhagsreikningi
 
@@ -239,16 +239,16 @@ Að auki getur sending vaxtareikningur leitt af sér VSK-færslur.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaxtareikningar** og veldu síðan tengda tengilinn.
 2. Velja skal viðeigandi reikning og síðan velja **Senda út** aðgerðina.
-3. Í glugganum **Senda út vaxtareikninga** þarf að fylla reitina út eftir þörfum.
-4. Velja hnappinn **Í lagi**.
+3. Á síðunni **Senda út vaxtareikninga** þarf að fylla reitina út eftir þörfum.
+4. Velja hnappinn **Í lagi**
 
 Vaxtareikningurinn er annað hvort prentað út eða sent á tiltekið netfang sem PDF viðhengi.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Innheimtubréfa- og vaxtafærslur skoðaðar:  
-Þegar innheimtubréf er sent er innheimtubréfafærslu búin til í glugganum **Innheimtubréf/Vaxtafærsla** fyrir hverja innheimtubréfslínu sem inniheldur viðskiptamannafærslu. Hægt er að fá yfirlit yfir færslur innheimtubréfa fyrir ákveðinn viðskiptamann.    
+Þegar innheimtubréf er sent er innheimtubréfafærslu búin til á síðunni **Innheimtubréf/Vaxtafærsla** fyrir hverja innheimtubréfslínu sem inniheldur viðskiptamannafærslu. Hægt er að fá yfirlit yfir færslur innheimtubréfa fyrir ákveðinn viðskiptamann.    
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi viðskiptamannaspjald og veljið síðan aðgerðina **fjárhagsfærslur**.
-3. Í glugganum **Færslur í viðskiptamannabók** er smellt er á línuna með bókarfærslunni sem á að skoða innheimtubréfafærslur fyrir og síðan er smellt á **Innheimtubréf/Vaxtafærslur**.
+3. Á síðunni **Færslur í viðskiptamannabók** er smellt er á línuna með bókarfærslunni sem á að skoða innheimtubréfafærslur fyrir og síðan er smellt á **Innheimtubréf/Vaxtafærslur**.
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skulda](receivables-manage-receivables.md)  

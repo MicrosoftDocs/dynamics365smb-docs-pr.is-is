@@ -11,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4c3f0f612c13d9fe84cffc4862641301795bcebd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Stjórnun markaðsherferða
@@ -23,16 +23,16 @@ ms.lasthandoff: 03/22/2018
 Hver söluherferð samanstendur af ýmsum aðgerðum eða verkefnum. Þú getur sameinað marga verkhluta í aðgerðum, t.d. verkhluta sem hver og einn fela í sér eitt skref. Aðgerðaverkhlutar tengjast hverjum öðrum í gegnum dagsetningarformúlu. Einstökum verkhlutum er aðeins hægt að úthluta til sölufólks. Aðgerðum er hægt að úthluta til tækifæra, sölufólks, hóp sölufólks og tengiliða. Nánari upplýsingar, sjá [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Skilgreina stakar söluherferðir
-Áður en herferð er stofnuð þarf að setja upp *stöðukóða herferðar*. Notkun þessara kóta hjálpar til við stjórnun herferða með því að úthluta herferðum stöðu. Þegar unnið er gegnum þrep herferðar er hægt að sjá á hvaða þrepi herferðin er og hvaða þrep kemur næst. Þú setur upp stöðuherferðarkóða í glugganum **Staða herferðar**.
+Áður en herferð er stofnuð þarf að setja upp *stöðukóða herferðar*. Notkun þessara kóta hjálpar til við stjórnun herferða með því að úthluta herferðum stöðu. Þegar unnið er gegnum þrep herferðar er hægt að sjá á hvaða þrepi herferðin er og hvaða þrep kemur næst. Þú setur upp stöðuherferðarkóða á síðunni **Staða herferðar**.
 
-Þú getur búið til herferðarkort fyrir hvern herferð sem þú vilt halda utan um. Einnig er hægt að skoða þessi herferðarspjöld til að fá almennar upplýsingar um herferðirnar.
+Hægt er að stofna herferðarspjald fyrir hverja herferð sem fylgjast á með. Einnig er hægt að skoða þessi herferðarspjöld til að fá almennar upplýsingar um herferðirnar.
 Þú getur eytt herferðarpósta, svo sem ef færslan skráir aðgerð sem hefur verið lokað. Aðeins er hægt að eyða ógiltum söluherferðarfærslum.
 
 ### <a name="selecting-the-target-audience"></a>Val á markhópi
 Þegar herferð hefur verið stofnuð er hægt að byrja að stofna hluta þar sem tilgreindir eru viðtakendur herferðar. Nánari upplýsingar er að finna í [Umsjón hluta](marketing-segments.md).
 
 ### <a name="registering-discount-percentages"></a>Skráning afsláttarprósentu
-Þegar lokið er við að setja upp söluherferð, ákveða hvaða hluta á að höfða til með herferðinni og velja upphafs- og lokadagsetningu, er afsláttarprósenta sem viðskiptamaður fær af einstaka vörum skráð í línum í glugganum **Sölulínuafslættir**. Þú getur einnig skráð söluverð fyrir einstök atriði á línurnar í **Söluverð** gluggans. Þú getur opnað báða glugga frá söluherferðarkortinu.
+Þegar lokið er við að setja upp söluherferð, ákveða hvaða hluta á að höfða til með herferðinni og velja upphafs- og lokadagsetningu, er afsláttarprósenta sem viðskiptamaður fær af einstaka vörum skráð í línum á síðunni **Sölulínuafslættir**. Þú getur einnig skráð söluverð fyrir einstök atriði á línurnar á síðunni **Söluverð**. Þú getur opnað báðar síður frá söluherferðarspjaldinu.
 
  Þegar söluverð/línuafsláttur og hlutarnir á söluherferðarspjaldinu hafa verið settir upp þarf að virkja þá til þess að verð/afsláttur í söluherferð komi fram í línunum.
 

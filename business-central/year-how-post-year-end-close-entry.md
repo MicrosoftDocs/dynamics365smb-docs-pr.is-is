@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0a5eaa15fdfbc1d578d755b246b0304030a82b1c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cd555cc389ff7d9e306645475ef042f7ee9bc934
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-the-year-end-closing-entry"></a>Bóka lokafærslu ársloka
@@ -24,7 +24,7 @@ Eftir að runuvinnslan **Loka rekstrarreikningi** hefur verið notuð til að my
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Til að bóka lokunarfærslu ársloka
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **færslubók** og veldu síðan tengda tengilinn.
-2. Í glugganum **almenn færslubók** í reitnum **Heiti keyrslu** er keyrslan sem inniheldur lokunarfærslurnar valin.
+2. Á síðunni **almenn færslubók** í reitnum **Heiti keyrslu** er keyrslan sem inniheldur lokunarfærslurnar valin.
 3. Farið er yfir færslurnar.
 4. Til að bóka færslubókina er valið aðgerðin **bóka**.
 

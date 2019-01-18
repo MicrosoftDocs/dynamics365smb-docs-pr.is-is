@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24a2cec78c97d52716c1548f062fa6346bddc5f6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 849ea09fb84e2cf52971b582920debf89ca7c2b0
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="planning"></a>Áætlun
 Gera verður áætlun um framleiðsluaðgerðirnar sem þarf til að breyta ílagi í tilbúna vöru, daglega eða vikulega, eftir magni og eðli vörunnar. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna aðgerðir til að anna áætlaðri og raunverulegri eftirspurn frá sölu og framleiðslu, auk aðgerða fyrir dreifingaráætlun með því að nota birgðahaldseiningar og birgðaflutninga.
 
 > [!NOTE]
-> Þetta efnisatriði lýsir fyrst og fremst áætlunum fyrir fyrirtæki sem eru í framleiðslu eða samsetningarstjórnun þar sem birgðapantanir geta verið framleiðsla, samsetning, flutningur eða innkaupapantanir. Aðalviðmótið fyrir þessa áætlunarvinnu er **Áætlunarvinnublað** glugginn.
+> Þetta efnisatriði lýsir fyrst og fremst áætlunum fyrir fyrirtæki sem eru í framleiðslu eða samsetningarstjórnun þar sem birgðapantanir geta verið framleiðsla, samsetning, flutningur eða innkaupapantanir. Aðalviðmótið fyrir þessa áætlunarvinnu er síðan **Áætlunarvinnublað**.
 
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] styður einnig framboðsáætlanir fyrir heildsölufyrirtæki þar sem framboðspantanir geta aðeins verið flutnings- eða innkaupapantanir. Aðalviðmótið fyrir þessa áætlunarvinnu er **Innkaupatillaga** glugginn, sem er lýst óbeint í þessu efnisatriði þar sem flestar áætlunaraðgerðir má framkvæma í báðum vinnublöðum.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] styður einnig framboðsáætlanir fyrir heildsölufyrirtæki þar sem framboðspantanir geta aðeins verið flutnings- eða innkaupapantanir. Aðalviðmótið fyrir þessa áætlunarvinnu er síðan **Innkaupatillaga**, sem er lýst óbeint í þessu efnisatriði þar sem flestar áætlunaraðgerðir má framkvæma í báðum vinnublöðum.
 
 Áður en þú getu áætlað og framkvæmt framleiðslupantanir, þarf að grunnstilla framleiðslugetu, eins og að búa til dagatöl verkstæðis, leiðir, framleiðsluuppskriftir og vélastöðvar. Nánari upplýsingar er að finna í [Uppsetning framleiðslu](production-configure-production-processes.md).
 
@@ -41,9 +41,9 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Spá fyrir um eftirspurn sem kemur fram í væntanlegri sölu og framleiðsluhlutum.|[Búa til eftirspurnarspá](production-how-to-create-a-forecast.md)|  
 |Stofna sérstakar framleiðslupantanir sjálfkrafa úr sölupöntun til að anna nákvæmlega eftirspurn þeirrar sölupöntunarlínu.|[Búa til framleiðslupantanir úr sölupöntunum](production-how-to-create-production-orders-from-sales-orders.md)|
 |Stofna framleiðslupöntun verkefnis beint úr sölupöntun með mörgum línum, sem gefur til kynna framleiðsluverkefni.|[Áætla verkefnispantanir](production-how-to-plan-project-orders.md)|
-|Nota gluggann **Pantanaáætlun** fyrir handvirka áætlun sölu eða framleiðslueftirspurnar eina framleiðsluuppskrift í einu.|[Gera áætlanir um nýja eftirspurn pöntun fyrir pöntun](production-how-to-plan-for-new-demand.md)|
-|Nota **Áætlunarvinnublað** gluggann til að keyra bæði MPS og MRP valmöguleika til að sjálfvirkt stofna framboðsáætlun, á háu stigi eða ítarlega, á öllum vörustigum.|[Keyra fulla áætlunargerð, MPS eða MRP](production-how-to-run-mps-and-mrp.md)|
-|Keyra innkaupatillögublað til að búa sjálfkrafa til nákvæma framboðsáætlun til að anna eftirspurn eftir vörum sem aðeins er hægt að útvega með innkaupum eða millifærslu.|Glugginn **Innkaupatillaga**|  
+|Nota síðuna **Pantanaáætlun** fyrir handvirka áætlun sölu eða framleiðslueftirspurnar eina framleiðsluuppskrift í einu.|[Gera áætlanir um nýja eftirspurn pöntun fyrir pöntun](production-how-to-plan-for-new-demand.md)|
+|Nota síðuna **Áætlunarvinnublað** til að keyra bæði MPS og MRP valmöguleika til að sjálfvirkt stofna framboðsáætlun, á háu stigi eða ítarlega, á öllum vörustigum.|[Keyra fulla áætlunargerð, MPS eða MRP](production-how-to-run-mps-and-mrp.md)|
+|Keyra innkaupatillögublað til að búa sjálfkrafa til nákvæma framboðsáætlun til að anna eftirspurn eftir vörum sem aðeins er hægt að útvega með innkaupum eða millifærslu.|**Innkaupatillögublað** síða|  
 |Ræsa eða uppfæra framleiðslupöntun sem gróflega áætlaðar aðgerðir í aðalframleiðsluáætluninni.|[Enduráætla eða uppfæra framleiðslupantanir beint](production-how-to-replan-refresh-production-orders.md)|
 |Endurreikna dagatöl fyrir vinnu- eða vélastöðvar vegna breytinga á áætlun.|„Reikna dagatal vinnustöðvar“ hlutann í [Setja upp Dagatöl verkstæðis](production-how-to-create-work-center-calendars.md)|
 |Rekja pöntunareftirspurn (rakið magn), spá, standandi sölupöntun eða áætlunarfæribreytu (órakið magn) sem á við umrædda áætlunarlínu.|[Rekja tengsl milli eftirspurnar og framboðs](production-how-track-demand-supply.md)|

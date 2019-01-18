@@ -13,10 +13,10 @@ ms.search.keywords: UOM
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b920a3edfab41409cd8d7cf3f5e463f66268e953
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 376e34074c6ee216b7a9062a42404a8123758598
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-item-units-of-measure"></a>Setja upp mælieiningu vara
@@ -30,7 +30,7 @@ Ef vara er sett á lager eftir einni mælieiningu en framleidd eftir annarri er 
 ## <a name="to-set-up-a-unit-of-measure"></a>Til að setja upp mælieiningu
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
 2. Opna spjald vörunnar sem á að setja upp aðra mælieiningu fyrir.
-3. Veldu **Mælieining**. Þá birtist glugginn **Mælieiningar vöru**.
+3. Veldu **Mælieining**. Síðan **Mælieiningar vöru** opnast.
 4. Ef reiturinn **Grunneining mælingareits** á birgðaspjaldinu er fylltur út, hefur sú mælieining þegar verið sett upp.
 5. Valið er **Nýtt** aðgerð. Ný auð lína er sett inn.
 6. Í reitnum **Kóði**, setjið inn heiti mælieiningarinnar. Að öðrum kosti skal velja reitinn til að velja úr mælieiningarkóðum í gagnagrunninum.
@@ -49,12 +49,12 @@ Nú er hægt að nota aðrar mælieiningar í innkaupa-, framleiðslu- og sölus
 5. Skref 2 til 4 eru endurtekin fyrir þá mælieiningarkóða og tungumál sem setja á inn þýðingar á.
 
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Færa inn sjálfgefna mælieiningarkóða fyrir sölu- og innkaupafærslur
-Ef venjulega er keypt eða selt í einingum sem eru aðrar en grunnmælieiningin er hægt að tilgreina sérstakar mælieiningar fyrir innkaup og sölu. Ef gera á þetta verða  **mælieiningar** að vera uppsettar í glugganum  Mælieiningar vöru.
+Ef venjulega er keypt eða selt í einingum sem eru aðrar en grunnmælieiningin er hægt að tilgreina sérstakar mælieiningar fyrir innkaup og sölu. Ef gera á þetta verða mælieiningar að vera uppsettar á síðunni **Mælieiningar vöru**.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
 2. Opna viðeigandi birgðaspjaldi þar sem á að tilgreina sjálfgefinn mælieiningarkóða fyrir sölu- eða innkaupaeiningu.
-3. Fyrir sölu, á flýtiflipanum **Reikningsfærsla**, í reitnum **Sölumælieining** er glugginn **Mælieiningar vöru** opnaður.
-4. Fyrir innkaup, á flýtiflipanum **Áfylling**, í reitnum **Innkaupamælieining** er glugginn **Mælieiningar vöru** opnaður.
+3. Fyrir sölu, á flýtiflipanum **Reikningsfærsla**, í reitnum **Sölumælieining** er síðan **Mælieiningar vöru** opnuð.
+4. Fyrir innkaup, á flýtiflipanum **Áfylling**, í reitnum **Innkaupamælieining** er síðan **Mælieiningar vöru** opnuð.
 5. Velja skal kóðann sem setja á upp sem sjálfgefna mælieiningu fyrir sölu eða innkaup og veljið svo hnappinn **Í lagi**.
 
 ## <a name="see-also"></a>Sjá einnig

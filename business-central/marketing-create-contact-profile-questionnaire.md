@@ -11,10 +11,10 @@ ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -42,7 +42,7 @@ Skrefin eru endurtekin til að færa inn allar spurningar og svör í spurningal
 > Ef færð er inn spurning sem er svarað sjálfkrafa skal velja <STRONG>Lína</STRONG> og svo <STRONG>Upplýs. um spurningar</STRONG> til að færa inn skilyrðin sem notuð eru til að svara spurningunni sjálfkrafa.
 
 ## <a name="the-automatic-classification-of-contacts"></a>Sjálfvirk flokkun tengiliða
-Hægt er að flokka tengiliði sjálfvirkt eftir viðskiptamanna-, lánardrottna-, og tengiliðaupplýsingum með því að setja upp sjálfvirkt svöruðum forstillingarspurningum í glugganum **Uppsetning spurningalisti forstillingar**.  
+Hægt er að flokka tengiliði sjálfvirkt eftir viðskiptamanna-, lánardrottna-, og tengiliðaupplýsingum með því að setja upp sjálfvirkt svöruðum forstillingarspurningum á síðunni **Uppsetning spurningalisti forstillingar**.  
 
 > [!NOTE]
 > Aðeins er hægt að flokka tengiliði sem skráðir eru sem viðskiptamenn á grunni viðskiptamannaupplýsinga og aðeins er flokka tengilið sem skráðir eru sem lánardrottnar á grundvelli lánardrottnaupplýsinga. Sjálfvirk flokkun uppfærist ekki sjálfkrafa. Þar af leiðandi er ráðlegt að uppfæra spurningalista forstillingar þegar viðskiptamanna-, lánardrottna- eða tengiliðaupplýsingum sem þeir byggja á er breytt.  
@@ -73,13 +73,13 @@ Hægt er að flokka tengiliði eftir því hversu mikið þeir hafa keypt:
 <td><p>tengiliði sem keyptu fyrir 100.000 til 499.999 SGM</p></td>
 </tr>
 <tr class="odd">
-<td><p>C</p></td>
+<td><p>U</p></td>
 <td><p>tengiliði sem keyptu fyrir 99.999 SGM eða minna</p></td>
 </tr>
 </tbody>
 </table>
 
-Það er gert með því að fylla í gluggann **Uppsetning á spurningalista forstillingar** sem hér segir:
+Það er gert með því að fylla út síðuna **Uppsetning á spurningalista forstillingar** sem hér segir:
 
 
 <table>
@@ -104,34 +104,34 @@ Hægt er að flokka tengiliði eftir því hversu mikið þeir hafa keypt:
 <td><p>Spurning</p></td>
 <td><p>ABC-flokkun</p></td>
 <td><p>Smellt er til að færa inn gátmerki</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Svar</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>500,000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Svar</p></td>
-<td><p>B</p></td>
-<td><p> </p></td>
+<td><p>Á</p></td>
+<td><p> </p></td>
 <td><p>100,000</p></td>
 <td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Svar</p></td>
-<td><p>C</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p>U</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 <td><p>99,999</p></td>
 </tr>
 </tbody>
 </table>
 
-Síðan er glugginn **Upplýs. forstillingarspurningar** fylltur út sem hér segir:
+Svo er síðan **Upplýs. forstillingarspurningar** fylltur út sem hér segir:
 <table>
 <colgroup>
 <col style="width: 50%" />

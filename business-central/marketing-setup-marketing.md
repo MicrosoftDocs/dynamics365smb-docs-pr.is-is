@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac38294ce65d767133e70880b6104c7325d9bb3a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 955d436970f922bd7c36ee6d837e75dea9847dd8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Uppsetning tengslastjórnar
@@ -24,10 +24,10 @@ ms.lasthandoff: 09/28/2018
 
 Með stjórnun tengiliða og gerð áætlunar til að finna, laða að og halda viðskiptamönnum má fínstilla rekstur fyrirtækisins og auka ánægju viðskiptamanna. Notkun góðs tengiliðastjórnunarkerfis hjálpar einnig til við stofnun og viðhald sambanda við viðskiptamenn. Samskipti eru lykillinn í slíkum samböndum. Nauðsynlegt er að geta sérsniðið samskipti við mögulega og núverandi viðskiptamenn, lánadrottna og viðskiptafélaga eftir þörfum þeirra, svo fyrirtæki dafni. Stofnun áætlunar og skilgreining á hvernig fyrirtækið notar tengiliðaupplýsingar er frumskref. Margir ólíkir hópar innan fyrirtækisins munu skoða þessar upplýsingar, og gott kerfi hjálpar öllum að auka framleiðni sína.
 
-Þú Setja upp stjórnun markaðssetningar og tengiliðar úr á **Uppsetning markaðssetningar** glugganum. Til að opna gluggann **Uppsetning markaðssetningar** Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning markaðssetningar** og veldu síðan tengda tengilinn.
+Þú setur upp stjórnun markaðssetningar og tengiliðar á síðunni **Uppsetning markaðssetningar**. Til að opna síðuna **Uppsetning markaðssetningar** Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning markaðssetningar** og veldu síðan tengda tengilinn.
 
 ## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Afritar ákveðna upplýsingar sjálfkrafa úr tengiliðafyrirtækjum yfir til tengiliðs.
-Vissar upplýsingar um tengiliðafyrirtæki eru þær sömu og um einstaklingstengiliði sem vinna hjá fyrirtækjunum, til dæmis upplýsingar um aðsetur. Í hlutanum **erfðir** í glugganum **uppsetning markaðssetningar** geturðu stillt forritið til að afritað tiltekna reiti sjálfkrafa af fyrirtækistengiliðaspjaldinu á tengiliðaspjaldið í hvert sinn sem  stofnaður er tengiliður fyrir tengiliðarfyrirtæki. Til dæmis er hægt að velja að afrita sölumannskóða, upplýsingar um aðsetur, upplýsinga um aðsetur (aðsetur, aðsetur 2, bæ, póstnúmer og sýslu) og samskiptaupplýsingar (faxnúmer, svarkóða á telex og símanúmer) og meira.
+Vissar upplýsingar um tengiliðafyrirtæki eru þær sömu og um einstaklingstengiliði sem vinna hjá fyrirtækjunum, til dæmis upplýsingar um aðsetur. Í hlutanum **Erfðir** á síðunni **Uppsetning markaðssetningar** geturðu stillt forritið til að afritað tiltekna reiti sjálfkrafa af fyrirtækistengiliðaspjaldinu á tengiliðaspjaldið í hvert sinn sem stofnaður er tengiliður fyrir tengiliðarfyrirtæki. Til dæmis er hægt að velja að afrita sölumannskóða, upplýsingar um aðsetur, upplýsinga um aðsetur (aðsetur, aðsetur 2, bæ, póstnúmer og sýslu) og samskiptaupplýsingar (faxnúmer, svarkóða á telex og símanúmer) og meira.
 
 Þegar einhverjum þessara reita er breytt á fyrirtækistengiliðaspjaldi er þeim sjálfkrafa breytt á einstaklingstengiliðaspjaldinu (nema efni reitsins á einstaklingstengiliðaspjaldinu hafi verið breytt handvirkt).
 
@@ -46,7 +46,7 @@ Reitaerfðir skrifast yfir sjálfgildi sem sett hafa verið upp. Ef enska, til d
 Fyrir frekar upplýsingar, sjá [Skrá samskipti við tengiliði sjálfkrafa](marketing-auto-record-interactions.md)
 
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Tengiliðir samstilltir við viðskiptamenn og meira
-Eigi að samstilla tengiliðaspjaldið við viðskiptamannaspjald, lánardrottnaspjald og bankareikningsspjald þarf að velja viðskiptatengslakóta fyrir viðskiptamenn, lánardrottna og bankareikninga. Þannig er til dæmis aðeins hægt að tengja tengilið við viðskiptamann sem til er fyrir hafi viðskiptatengslakóti fyrir viðskiptamenn verið valinn í glugganum **uppsetning markaðssetningar**.
+Eigi að samstilla tengiliðaspjaldið við viðskiptamannaspjald, lánardrottnaspjald og bankareikningsspjald þarf að velja viðskiptatengslakóta fyrir viðskiptamenn, lánardrottna og bankareikninga. Þannig er til dæmis aðeins hægt að tengja tengilið við viðskiptamann sem til er fyrir hafi viðskiptatengslakóti fyrir viðskiptamenn verið valinn á síðunni **uppsetning markaðssetningar**.
 
 Fyrir frekar upplýsingar, sjá [Tengiliðir samstilltir við viðskiptamenn, lánardrottna og bankareikninga](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)
 

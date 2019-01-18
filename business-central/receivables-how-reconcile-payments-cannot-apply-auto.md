@@ -11,14 +11,14 @@ ms.search.keywords: payment process, cash receipts
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8d4ad19bec55769a876f9783ff617bad0b87df7b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 519696376cba2e494ad83b3e1bce442de8299884
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Afstemma greiðslur sem ekki er hægt að nota sjálfkrafa
-Stundum gætirðu þurft að meðhöndla greiðslur inna á bankareikninginn þinn sem ekki er hægt að jafna við tengdan opinn viðskiptavin, lánardrottin, eða bankareikningsfærslu. Ástæða kann að vera að ekkert skjal sé til í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem hægt er að jafna greiðsluna á, eða tengda skjalið í [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur aðra fjárhæð en færsluupphæðin, t.d. vegna gjaldeyrisviðskipta Í **greiðslubók Afstemming** glugga, allar færsluupphæðir fyrir greiðslur sem ekki eru jafnaðar enn birtast í **mismunur** reit, þar með talið upphæðir sem ekki er hægt að jafna vegna ástæða eins og þeirrar sem nefd var að ofan.
+Stundum gætirðu þurft að meðhöndla greiðslur inna á bankareikninginn þinn sem ekki er hægt að jafna við tengdan opinn viðskiptavin, lánardrottin, eða bankareikningsfærslu. Ástæða kann að vera að ekkert skjal sé til í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem hægt er að jafna greiðsluna á, eða tengda skjalið í [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur aðra fjárhæð en færsluupphæðin, t.d. vegna gjaldeyrisviðskipta Á síðunni **Greiðsluafstemmingarbók**, birtast allar færsluupphæðir fyrir greiðslur sem eru enn ekki jafnaðar í reitnum **Mismunur**, þar með talið upphæðir sem ekki er hægt að jafna vegna ástæðna eins og þeirrar sem nefnd var hér að ofan.
 
 Greiðslur sem ekki er hægt að jafna geta birst á greiðsluafstemmingarbókarlínum á eftirfarandi mismunandi hætti:
 
@@ -33,7 +33,7 @@ Að afstemma slíka greiðslu, þú getur valið flutnings hnappinn **Flytja mis
 ## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Að afstemma greiðslur sem ekki er hægt að jafna
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðsluafstemmingarbækur** og veldu síðan tengda tengilinn.
 2. Opna skal greiðsluafstemmingarbók. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
-3. Veldu **Flytja mismun á reikning** Glugginn **Flytja mismun á reikning** opnast.
+3. Veldu **Flytja mismun á reikning** Síðan **Flytja mismun á reikning** opnast.
 4. Í reitnum **Tegund reiknings** tilgreindu tegund reiknings sem greiðsluupphæðin verður bókuð á.
 5. Í reitnum **Reikningsnúmer** tilgreindu reiknings sem greiðsluupphæð verður bókuð á.
 6. Í reitnum **Lýsing** tilgreindu texta sem lýsir þessum beinu greiðslubókun. Sjálfgefið er að textinn í reitnum **Færslutexti** sé færður inn.

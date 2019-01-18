@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fad67a87a2b78a0e3b550599b82ceabc7a7f2afe
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80f47bc3af8b26e2a58bca739f2b4f629b9d5dc0
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="post-capacities"></a>Bóka afkastagetu
@@ -31,11 +31,11 @@ Afkastagetubókin er notuð til að bóka notaða afkastagetu sem ekki er úthlu
 6.  Velja **Bóka** aðgerðina til að bóka afkastagetuna.  
 
 ## <a name="to-view-work-center-ledger-entries"></a>Skoða fjárhagsfærslur vinnustöðvar  
-Í gluggunum **Vinnustöðvarspjald** og **Vélastöðvarspjald**, geturðu skoðað bókaða afkastagetu sem afrakstur afgreiddra framleiðslupantana.    
+Á síðunum **Vinnustöðvarspjald** og **Vélastöðvarspjald**, geturðu skoðað bókaða afkastagetu sem afrakstur afgreiddra framleiðslupantana.    
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnustöðvar** og veldu síðan tengda tengilinn.  
 2.  Viðeigandi **vinnustöðvar** spjald er opnað úr listanum og aðgerðin **Afkastagetufærslur** valin.  
 
-Í glugganum **Afkastagetufærslur** eru birtar bókuðu færslurnar fyrir vinnustöðina í þeirri röð sem þær voru bókaðar.   
+Á síðunni **Afkastagetufærslur** eru birtar bókuðu færslurnar fyrir vinnustöðina í þeirri röð sem þær voru bókaðar.   
 
 ## <a name="see-also"></a>Sjá einnig  
 [Framleiðsla](production-manage-manufacturing.md)    

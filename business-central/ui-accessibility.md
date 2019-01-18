@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 65f34ae7fe1665bbe8336e6fe959ac109486531e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Aðgengi og Flýtivísanir í [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -51,7 +51,7 @@ ms.lasthandoff: 09/28/2018
 ##  <a name="Navigation"></a> Leiðsögn  
  Þú getur flett á milli flipa og aðgerða í borðanum, þættir í yfirlitsstiku og aðrar stýringar á [!INCLUDE[d365fin](includes/d365fin_md.md)] síðum og skýrslum með lyklaborðinu. Til að færa áherslu frá einum flipa, aðgerð eða stýringu annað styðjið á TAB-lykil til að fara áfram. Ýttu á Shift + Tab til að færa til baka.  
 
- Með því að nota fliparöðun geturðu einnig skipt á milli aðal vafraglugga og svarglugga sem óska ​​eftir staðfestingu, til dæmis, eða innskráningarglugganum.  
+ Með því að nota fliparöðun geturðu einnig skipt á milli aðal vafrasíðu og svarglugga sem óska eftir staðfestingu, til dæmis, eða innskráningarsíðu.  
 
 ##  <a name="Headings"></a> Yfirskrift  
  HTML-uppruni fyrir efni [!INCLUDE[d365fin](includes/d365fin_md.md)] notar merki til að hjálpa notendum aðstoðartækni að skilja uppbyggingu og innihald síðunnar. Til dæmis, á listasíðum, eru dálkarnir skilgreindir í TH-merkjum og dálkur fyrirsagnir eru settar með TITLE eigind inni í merkinu. Skýringarmyndir fyrir þætti, svo sem FastTabs, FactBoxes og reitir eru í fyrirsagnamerkjum (H1, H2, H3 og H4).  

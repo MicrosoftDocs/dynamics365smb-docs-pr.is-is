@@ -11,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Hönnunarupplýsingar: áætlunarfæribreyta
@@ -40,9 +40,9 @@ Endurpöntunartillögur eru almennt gefin út aðeins þegar spáð tiltækt mag
 Reiturinn **Tímarammi** er notaður í endurpöntunarstefnum (**Fast endurpöntunarmagn** og **Hámarksmagn**), þar sem birgðastig er athugað eftir hvern tímaramma. Fyrsti tímaramminn hefst á upphafsdegi áætlunar.  
 
 > [!NOTE]  
->  Þegar tímarammi er reiknaður út hunsar áætlanakerfið öll vinnudagatöl sem eru skilgreind í **Grunndagatalskóði** reitnum í gluggunum **Fyrirtækjaupplýsingar** og **Birgðageymslukort**  
+>  Þegar tímarammi er reiknaður út hunsar áætlanakerfið öll vinnudagatöl sem eru skilgreind í **Grunndagatalskóði** reitnum á síðunum **Fyrirtækjaupplýsingar** og **Birgðageymslukort**.  
 
-Sjálfgefna öryggisforskotið í glugganum **Uppsetning framleiðslu** ætti að vera stillt á að minnsta kosti einn dag. Lokadagur eftirspurnar er vitað, en ekki lokatími. Áætlunargerðin er gerð afturvirkt til að mæta mikilli eftirspurn og, ef einginn afhendingartími er skilgreindur í öryggisskyni, gætu vörurnar komið of seint og ekki mætt eftirspurn.  
+Sjálfgefna öryggisforskotið á síðunni **Uppsetning framleiðslu** ætti að vera stillt á að minnsta kosti einn dag. Lokadagur eftirspurnar er vitað, en ekki lokatími. Áætlunargerðin er gerð afturvirkt til að mæta mikilli eftirspurn og, ef einginn afhendingartími er skilgreindur í öryggisskyni, gætu vörurnar komið of seint og ekki mætt eftirspurn.  
 
 Þrír viðbótar endurpöntunartímabilsreitir gegna einnig hlutverki í því að skilgreina hversu mikið þarf að endurpanta: **Enduráætlunartímabil**, **Lotusöfnunartímabil** og **Hömlutímabil**. Nánari upplýsingar er að finna „Fínstilla Hvenær og Hve mikið skal endurpanta“ hlutanum.  
 
@@ -100,7 +100,7 @@ Tímasetning enduráætlunartímabils, hömlutímabils og lotusöfnunartímabils
 
 ![Hömlutímabil, lotusöfnunartímabil og magnbreyting](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Hömlutímabil, lotusöfnunartímabil og magnbreyting")  
 
-**Sjálfgefin gildi:** Sjálfgefin gildi reitarins **Tímarammi** og þriggja endurpantanatímabilsreita eru auð. Fyrir alla reiti nema reitinn **Hömlutímabil** þetta merkir 0D núll dagar. Ef reiturinn **Hömlutímabil** er auður verður altæka gildið í reitnum **Sjálfgefið hömlutímabil** í glugganum **Uppsetning framleiðslu** notað.  
+**Sjálfgefin gildi:** Sjálfgefin gildi reitarins **Tímarammi** og þriggja endurpantanatímabilsreita eru auð. Fyrir alla reiti nema reitinn **Hömlutímabil** þetta merkir 0D núll dagar. Ef reiturinn **Hömlutímabil** er auður verður altæka gildið í reitnum **Sjálfgefið hömlutímabil** á síðunni **Uppsetning framleiðslu** notað.  
 
 ## <a name="modify-the-supply-orders"></a>Breyta framboðspöntununum  
 Þegar magn pöntunartillögu hefur verið reiknað út er hægt að lempa hana með einum eða fleiri breytum. Til dæmis er hámarkspöntunarmagn stærra eða jafnstórt og lágmarkspöntunarmagn, sem er stærra en eða jafnt og fjöldapöntunin.  

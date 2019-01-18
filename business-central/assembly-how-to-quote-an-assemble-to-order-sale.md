@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: be0a80ea66dea634a37cb187408c7142d70af011
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5c6cebdb3bdadc9a8b3830a1ff0cb9fb4649e863
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Búa til tilboð með samsetningarpöntun
@@ -36,8 +36,8 @@ Eins og þegar seld er hvers kyns önnur tegund af vöru, er einnig hægt að st
     >  Ekki ætti að gera tilboð í hlutamagn. Því verður að færa inn sama magn og fært var inn í reitinn **Magn** í sölutilboðslínunni.  
 
 4.  Á flýtiflipanum skal velja **Línur**, velja **Lína**, velja **Samsetning til pöntunar** og síðan **Setja saman í pöntunarlínur**. Að öðrum kosti skal velja reitinn **Magn til samsetningar til pöntunar** í línunni.  
-5.  Í glugganum **Setja saman í pöntunarlínu** endurskoðið og breytið samsetningu pöntunalína samkvæmt tilboði standandi pöntunar sem viðskiptamaðurinn hefur farið fram á. Ef skoða á nánari upplýsingar skal velja aðgerðina **Sýna fylgiskjal** til að opna tilboð standandi pöntunarinnar. Ekki er hægt að breyta innihaldi i flestum reitum, og ekki er hægt að bóka.  
-6.  Þegar búið er að leiðrétta samsetningarpöntunarlínur samkvæmt tilboðinu skal loka glugganum **Sameina-í-pöntun línur** til að fara aftur í gluggann **Sölutilboð** .  
+5.  Á síðunni **Setja saman í pöntunarlínu** endurskoðið og breytið samsetningu pöntunalína samkvæmt tilboði standandi pöntunar sem viðskiptamaðurinn hefur farið fram á. Ef skoða á nánari upplýsingar skal velja aðgerðina **Sýna fylgiskjal** til að opna tilboð standandi pöntunarinnar. Ekki er hægt að breyta innihaldi i flestum reitum, og ekki er hægt að bóka.  
+6.  Þegar búið er að leiðrétta samsetningarpöntunarlínur samkvæmt tilboðinu skal loka síðunni **Sameina-í-pöntun línur** til að fara aftur á síðuna **Sölutilboð** .  
 7.  Ef viðskiptamaðurinn samþykkir tilboðið skal stofna sölupöntun fyrir samsetningaríhlut tilboðsins. Frekari upplýsingar er að finna í [Búa til sölutilboð](sales-how-make-offers.md). Tengt samsetningartilboð og allar sérstillingar tengjast við þessa nýju sölupöntun til undirbúnings á samsetningu vöru eða vörum sem á að selja.  
 
 ## <a name="see-also"></a>Sjá einnig  

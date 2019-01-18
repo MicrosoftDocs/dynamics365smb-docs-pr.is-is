@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e63e507411f41c67caa94834f4d99861bd1ae77
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum
@@ -26,35 +26,59 @@ Notaðu reikningsáætlanir til að fá innsýn í fjárhagsupplýsingar sem eru
 
 Uppsetning fjárhagsskema krefst skilnings á fjárhagsgögnum í bókhaldslyklinum. Hægt er til dæmis að skoða fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum. Þetta krefst þess að fjárhagsáætlanir séu búnar til. Frekari upplýsingar eru í [Stofna fjárhagsáætlun](finance-how-create-budgets.md).
 
-## <a name="account-categories-and-account-schedules"></a>Lykiltegundir og fjárhagsskemu
-Hægt er að nota lykiltegundir til að breyta sniði fjárhagsskýrslna. Þegar lykiltegundir hafa verið settar upp í glugganum **Flokkar fjárhagsreikninga** og aðgerðin **Mynda fjárhagsskemu** er valin, eru undirliggjandi fjárhagsskemu fyrir kjarnaviðskiptaskýrslur uppfærð. Í næsta skipti sem ein af þessum skýrslum er keyrð, t.d. skýrsla stöðuyfirlits, er nýjum samtölum og undirfærslum bætt við sem byggjast á breytingunum. Frekari upplýsingar er að finna í kaflanum „Lykilltegundir“ í [Skilja fjárhag og bókhaldslykil](finance-general-ledger.md).  
+## <a name="account-schedules"></a>Fjárhagsskema
+Fjárhagsskemu eru notuð til að flokka reikninga á bókhaldslyklinum á máta sem hentar til framsetningar á upplýsingum um þá reikninga. Hægt er að setja upp margvísleg útlit til að skilgreina upplýsingarnar sem á að finna í bókhaldslyklinum. Eitt meginhlutverk fjárhagsskema er að gera útreikninga sem er ekki hægt að framkvæma beint í bókhaldslyklinum, eins og að búa til millisamtölu fyrir hóp reikninga sem má fella inn í nýjar upphæðir og síðan nota í öðrum upphæðum. Notendur geta til dæmis búið til fjárhagskema til að reikna út framlegð fyrir víddir eins og deildir eða hópa viðskiptamanna. Þar að auki er hægt að sía fjárhagsfærslur og fjárhagsáætlanafærslur, t.d. eftir hreyfingum eða debetupphæð.
 
-## <a name="to-create-new-account-schedules"></a>Nýtt fjárhagsskema búið til:  
- Fjárhagsskemu eru notuð til að greina upphæðir í fjárhagsreikningi eða bera saman fjárhagsfærslur og fjárhagsáætlunarfærslur. Hægt er til dæmis að skoða fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum.
+Einnig er hægt að bera saman tvö eða fleiri fjárhagsskemu og dálkauppsetningar með því að nota formúlur. Með slíkum samanburði má framkvæma eftirfarandi atriði:
+
+* Búa til sérsniðnar viðskiptaskýrslur.
+* Búa til eins mörg fjárhagsskemu og þörf er á, þar sem hver þeirra ber einstakt heiti.
+* Búa til uppsetningu skýrslu og prenta út skýrslurnar með núverandi tölum.
+
+## <a name="account-categories"></a>tegundir reikninga
+Hægt er að nota lykiltegundir til að breyta sniði fjárhagsskýrslna. Þegar lykiltegundir hafa verið settar upp á síðunni **Flokkar fjárhagsreikninga** og aðgerðin **Mynda fjárhagsskemu** er valin, eru undirliggjandi fjárhagsskemu fyrir kjarnaviðskiptaskýrslur uppfærð. Í næsta skipti sem ein af þessum skýrslum er keyrð, t.d. skýrsla stöðuyfirlits, er nýjum samtölum og undirfærslum bætt við sem byggjast á breytingunum. Frekari upplýsingar er að finna í kaflanum „Lykilltegundir“ í [Skilja fjárhag og bókhaldslykil](finance-general-ledger.md).  
+
+## <a name="to-create-a-new-account-schedule"></a>Að búa til nýtt fjárhagsskema  
+Fjárhagsskemu eru notuð til að greina upphæðir í fjárhagsreikningi eða bera saman fjárhagsfærslur og fjárhagsáætlunarfærslur. Hægt er til dæmis að skoða fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum.
+
+Fjárhagsskemu í stöðluðu útgáfunni af [!INCLUDE[d365fin](includes/d365fin_md.md)] eru grunnurinn að stöðluðu fjárhagsskýrslunum sem mögulega passa ekki þörfum reksturs þíns. Til að búa til þínar eigin fjárhagsskýrslur á fljótlegan hátt geturðu byrjað á því að afrita fyrirliggjandi fjárhagsskema. Sjá þrep 3 hér að neðan.
+
+Á síðunni **Yfirlit fjárhagsskema** er þar sem fjárhagsskýrsla er forskoðuð sem fjárhagsskemað skilgreinir. Í eftirfarandi er mikilvægt að skilja að það sem er sett upp sem línur og dálkar fjárhagsskema er aðeins hægt að sjá og staðfesta á síðunni **Yfirlit fjárhagsskema**, sem er opnuð í fjárhagsskema með því að velja aðgerðina **Yfirlit**. Sjálf síðan **Fjárhagsskema** er aðeins uppsetningarsvæði.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **fjárhagsskema** og veldu síðan tengda tengilinn.  
-2. Í glugganum **Heiti fjárhagsskema** skal velja aðgerðina **Nýtt** til að búa til nýtt heiti á fjárhagsskema.
-3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Veljið aðgerðina **Breyta fjárhagsskema**.
-5. Í glugganum **Fjárhagsskema** skal fylla reitina út eftir þörfum.  
+2. Á síðunni **Heiti fjárhagsskema** skal velja aðgerðina **Nýtt** til að búa til nýtt heiti á fjárhagsskema.
+3. Að öðrum kosti skal velja aðgerðina **Afrita fjárhagsskema**, fylla í reitina tvo, og velja svo hnappinn **Í lagi**.
+4. Fyllið inn reitina eftir þörfum. Í reitnum **Sjálfgefin dálkauppsetning** skal velja fyrirliggjandi útlit. Hægt er að breyta því síðar.
 
-    Þegar nýtt fjárhagsskema hefur verið stofnað og línurnar hafa verið settar upp, þarf að setja upp dálka. Annaðhvort er hægt að setja þær upp handvirkt eða úthluta forskilgreindri dálkauppsetningu á viðkomandi fjárhagsskema.
-6. Veljið aðgerðina **Breyta uppsetningu dálkaútlits**.
-7. Í glugganum **Dálkaútlit** skal fylla reitina út eftir þörfum.
+    Dálkauppsetning er notuð til að skilgreina dálka eftir ólíkum færibreytum sem fjárhagsgögn í línunum eru sýndar út frá. Til dæmis er hægt að hanna dálkauppsetningu til að bera saman nettóbreytingu og stöðu fyrir sama tímabilið á þessu ári og síðasta ári, með fjórum dálkum. Frekari upplýsingar er að finna í kaflanum „Til að breyta dálkauppsetningu“.
 
-> [!NOTE]  
-> Ef ekki var tilgreint sjálfgefið dálkaútlit fyrir fjárhagsskemað verður að setja dálkana upp handvirkt.
+5. Veljið aðgerðina **Breyta fjárhagsskema**.
+6. Búðu til línu fyrir hvern fjárhagslegan þátt sem þú vilt að birtist í skýrslunni, t.d. eina línu fyrir núverandi eignir og aðra línu fyrir annars konar eignir. Til að fá hugmyndir skal skoða fyrirliggjandi fjárhagsskema í sýnifyrirtækinu CRONUS.
+7. Veljið aðgerðina **Yfirlit** til að sjá viðeigandi fjárhagsskýrslu.
+8. Á síðunni **Yfirlit fjárhagsskema**, í reitnum **Heiti dálkauppsetningar** veldu aðra dálkauppsetningu til að sjá fjárhagsgögn út frá öðrum færibreytum.
+9. Velja hnappinn **Í lagi**.
 
-### <a name="to-copy-an-existing-account-schedule"></a>Til að afrita fyrirliggjandi fjárhagsskema
-Fjárhagsskemu í stöðluðu útgáfunni af [!INCLUDE[d365fin](includes/d365fin_md.md)] eru grunnurinn að stöðluðu fjárhagsskýrslunum sem mögulega passa ekki þörfum reksturs þíns. Til að búa til þínar eigin fjárhagsskýrslur á fljótlegan hátt geturðu byrjað á því að afrita fyrirliggjandi fjárhagsskema.
-1. Í glugganum **Fjárhagsskema** skal velja fjárhagsskema og síðan velja aðgerðina **Afrita fjárhagsskema**.
-2. Í glugganum **Afrita fjárhagsskema** skal fylla út reitina eftir þörfum og velja síðan hnappinn **Í lagi**.
+Þú hefur nú skilgreint grundvöll fjárhagsskemans, línur fjárhagsgagna sem eiga að birtast og fyrirliggjandi uppsetningu dálka til að sýna gögnin í línunum eftir hverri mismunandi færibreytu fyrir sig. Ef sjálfgefin dálkauppsetning sem þú valdir í skrefi 4 passar ekki áformum þínum, þá skaltu fylgja næsta ferli.
+
+### <a name="to-edit-a-column-layout"></a>Til að breyta dálkauppsetningu
+Dálkauppsetningar eru notaðar til að skilgreina dálkana sem eiga að vera í skýrslunni sem fylgir. Til dæmis er hægt að hanna uppsetningu í þeim tilgangi að bera saman breytingu og stöðu fyrir samsvarandi tímabil milli þessa árs og síðasta árs.
+
+> [!NOTE]
+> Prentuð/forskoðuð/vistuð útgáfa af fjárhagsskema getur mest sýnt fimm dálka. Ef fjárhagsskemað er aðeins ætlað til greiningar á síðunni **Yfirlit fjárhagsskema** er hægt að búa til eins marga dálka og þarf til.
+
+1. Á síðunni **Fjárhagsskema** skal velja viðeigandi fjárhagsskema og svo aðgerðina **Breyta uppsetningu dálkaútlits**.
+2. Á síðunni **Dálkauppsetning** skal búa til línu fyrir hvern dálk þar sem fjárhagsgögn eru sýnd í fjárhagsskýrslunni. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Velja hnappinn **Í lagi**.
+4. Opnaðu síðuna **Yfirlit fjárhagsskema** endrum og eins til að staðfesta að nýja dálkauppsetningin virki sem skyldi.
+
+> [!NOTE]
+> Dálkarnir sem þú skilgreinir í hverri línu tákna dálka 3 og upp úr á síðunni **Yfirlit fjárhagsskema**. Fyrstu tveir dálkarnir, **Dálkanr.** og **Lýsing**, eru fastar.  
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Stofnun dálks sem reiknar prósentur:  
 Stundum getur verið þörf á dálkum í fjárhagsskema til að reikna prósentur heilda. Til dæmis, ef nokkrar línur skipta sölu eftir vídd kann að vera þörf á dálki sem birtir prósentu heildarsölu sem hver lína stendur fyrir.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **fjárhagsskema** og veldu síðan tengda tengilinn.
-2. Í glugganum **Heiti fjárhagsskema** veljið fjárhagsskema.  
+2. Á síðunni **Heiti fjárhagsskema** veljið fjárhagsskema.  
 3. Veljið aðgerðina **Breyta fjárhagsskema** til að setja upp fjárhagsskemalínu til að reikna heildina sem prósenturnar munu byggjast á.  
 4. Setjið inn línu beint fyrir ofan fyrstu línuna sem birta á prósentur fyrir.  
 5. Fyllið inn í reitina í línunni sem hér segir: Í **Tegund samantektar** reitnum er færður inn **Valinn stofn fyrir prósentur**. Í reitnum **Samantekt** er færð inn reikniregla fyrir heildina sem prósentan verður byggð á. T. d. ef lína 11 inniheldur heildarsölu, skal færa inn **11**.  
@@ -66,15 +90,15 @@ Stundum getur verið þörf á dálkum í fjárhagsskema til að reikna prósent
 Hægt er að nota fjárhagsskema til að búa til reikning sem ber saman upphæðir fjárhagsreiknings og fjárhagsáætlunar.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **fjárhagsskema** og veldu síðan tengda tengilinn.
-2. Í glugganum **Heiti fjárhagsskema** veljið fjárhagsskema.  
+2. Á síðunni **Heiti fjárhagsskema** veljið fjárhagsskema.  
 3. Veljið aðgerðina **Breyta fjárhagsskema**.  
-4. Í glugganum **Fjárhagsskema** skal velja heiti sjálfgefins fjárhagsskema í reitnum **Heiti**.
+4. Á síðunni **Fjárhagsskema** skal velja heiti sjálfgefins fjárhagsskema í reitnum **Heiti**.
 5. Veljið aðgerðina **Setja inn reikning**.  
 6. Reikningarnir sem eiga að vera í yfirlitinu eru valdir og smellt á **Í lagi**.
 
     Reikningarnir eru ekki settir inn í fjárhagsskemað. Einnig er hægt að breyta dálkauppsetningunni.  
 7. Veljið aðgerðina **Yfirlit**.  
-8. Í flýtiflipanum **Víddarafmarkanir** skal stilla afmörkunarheitið sem á að nota á áætlunarafmörkun.  
+8. Á síðunni **Yfirlit fjárhagsskema** á flýtiflipanum **Víddarafmarkanir** skal stilla afmörkun fjárhagsáætlunar á æskilegt afmörkunarheiti.  
 9. Velja hnappinn **Í lagi**.  
 
 Nú er hægt að afrita áætlunaryfirlitið og líma það inn í töflureikni.  
@@ -85,7 +109,6 @@ Fjárhagsskemað þitt getur borið saman niðurstöður mismunandi reikningstí
 Reikningstímabil þarf ekki að vera háð almanakinu, en þó verður að vera sami fjöldi reikningstímabila á öllum fjárhagsárum, þótt tímabilin geti verið mislöng.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] nýtir reikniregluna fyrir tímabil til að reikna út upphæð frá samanburðartímabili miðað við tímabilið sem fæst við dagsetningarafmörkun á skýrslubeiðninni. Samanburðartímabilið byggir á upphafsdagsetningu dagsetningarsíunnar. Skammstafanirnar sem eiga við eru eftirfarandi:
-
 
 <table>
 <colgroup>

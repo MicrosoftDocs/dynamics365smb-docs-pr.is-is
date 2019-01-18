@@ -11,20 +11,20 @@ ms.search.keywords: sales rep
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 24a32d3f1d0883f00dfaaef7924d821a039ca307
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ddc6ab85e0db5065fffc6187c26ba4d67e1a1ee9
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-salespeople"></a>Setja upp sölumenn
 Í mörgum fyrirtækjum þarf jafnan að fylgjast með starfi einstaklinga (t.d. sölumanna) svo hægt sé að nota upplýsingar sem þeim tengjast við að reikna sölulaun eða bónus, svo að dæmi sé tekið. Skoða, til dæmis skýrsluna um **sölulaun sölumanns**. Fyrirtæki gæti einnig viljað úthluta tengiliðum á viðeigandi sölumann.
 
-Þegar þú hefur sett upp sölumann í glugganum **Sölumenn** er hægt að velja hann í reitnum **Sölumannskóði** í öllum viðeigandi færslum, svo sem fjárhagsreikningum, viðskiptamanns-, lánardrottins-, tengiliða-, og söluherferðarspjöldum. Síðan þegar þú bókar eða setur upp reikninga, kreditreikninga, bókarlínum, vaxtaaðgerða o.s.frv. er sölumannskóðinn færður í fjárhagsfærslur sem úr þessu öllu koma.
+Þegar þú hefur sett upp sölumann á síðunni **Sölumenn** er hægt að velja hann í reitnum **Sölumannskóði** í öllum viðeigandi færslum, svo sem fjárhagsreikningum, viðskiptamanns-, lánardrottins-, tengiliða-, og söluherferðarspjöldum. Síðan þegar þú bókar eða setur upp reikninga, kreditreikninga, bókarlínum, vaxtaaðgerða o.s.frv. er sölumannskóðinn færður í fjárhagsfærslur sem úr þessu öllu koma.
 
 ## <a name="to-set-up-a-salesperson-code"></a>Uppsetning sölumannskóða
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sölumenn** og veldu síðan tengda tengilinn.
-2. Í glugganum **sölumenn** skal velja aðgerðina **Nýtt**.
+2. Á síðunni **Sölumenn** skal velja aðgerðina **Nýtt**.
 
 Hægt er að nota sölumenn í mismunandi tengslastjórnun og markaðsvinnu. Þú getur til dæmis úthlutað verki til sölufólks, þannig að verkið sé hluti af sölutækifæri sem sölumanninum hefur verið úthlutað. Nánari upplýsingar, sjá [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 

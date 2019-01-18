@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 681540708d9807aafebcf5701232a282a189e47b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b4c3d7350ee6557a68c7efd087a463277aec7fd3
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Uppfæra skýrsluútlit eða skjalaútlit
@@ -32,7 +32,7 @@ Ekki geta allar breytingar á skýrsluútliti verið uppfærðar sjálfkrafa í 
   
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **útliti skýrslu** og veldu síðan tengda tengilinn.  
   
-2.  Í glugganum **Skýrsluútlit** ef þú vilt uppfæra sérstaka skýrslu, skal velja útlitið af listanum og svo velja aðgerðina **Uppfæra útlit**. Eða, ef þú vilt uppfæra allt sérsniðið skýrsluútlit fyrir fyrirtækið, skal velja aðgerðina **Uppfæra allt útlit**.  
+2.  Á síðunni **Skýrsluútlit** ef þú vilt uppfæra sérstaka skýrslu, skal velja útlitið af listanum og svo velja aðgerðina **Uppfæra útlit**. Eða, ef þú vilt uppfæra allt sérsniðið skýrsluútlit fyrir fyrirtækið, skal velja aðgerðina **Uppfæra allt útlit**.  
 
 Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur koma upp birtast skilaboð sem innihalda villurnar. Þá þarf handvirkt að breyta sérsniðin skýrsluútlit til að laga villurnar. Frekari upplýsingar eru í [Villur leiðréttar](ui-update-report-layouts.md#FixErrors).  
 
@@ -40,9 +40,9 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
   
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
   
-2.  Í glugganum **Val Útlit skýrslu** er valið aðgerðin **Prufa uppfærsla útlit**.  
+2.  Á síðunni **Val Útlit skýrslu** er valið aðgerðin **Prufa uppfærsla útlit**.  
   
- Breytingar á skýrsluútliti eru prufaðar en ekki settar upp raunverulega í skýrsluútlitinu. Glugginn **Uppfærslukladdi skýrsluútlits** birtist og sýnir stöðu á mögulegum uppfærslum fyrir hvert skýrsluútlit Ef villur koma upp fyrir skýrsluútlit er hægt að opna skýrsluútlit beint til að breyta og lagfæra villur. Frekari upplýsingar eru í [Villur leiðréttar](ui-update-report-layouts.md#FixErrors).  
+ Breytingar á skýrsluútliti eru prufaðar en ekki settar upp raunverulega í skýrsluútlitinu. Síðan **Uppfærslukladdi skýrsluútlits** birtist og sýnir stöðu á mögulegum uppfærslum fyrir hvert skýrsluútlit. Ef villur koma upp fyrir skýrsluútlit er hægt að opna skýrsluútlit beint til að breyta og lagfæra villur. Frekari upplýsingar eru í [Villur leiðréttar](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Takmarkanir á uppfærslum sérsniðins skýrsluútlits  
  Nokkrar gerðir af breytingum getur sjálfvirk uppfærsla notað í sérsniðnu skýrsluútliti, til dæmis ef reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnasafni skýrslunnar. Sjálfvirk uppfærsla getur hins vegar ekki ráðið við eftirfarandi breytingar á skýrsluútliti.  

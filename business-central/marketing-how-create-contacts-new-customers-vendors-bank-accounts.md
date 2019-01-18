@@ -12,17 +12,18 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 07c56f109ee2e4c348c0f654ceadc4018174c0d5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9125e31ce579b6cda55aee8a79cb299e3c4d75a0
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Stofna viðskiptamanni, lánadrottni eða bankareikning úr tengilið
 Suma fyrirliggjandi tengiliði er ef til vill æskilegt að skrá sem viðskiptamenn, lánadrottna eða bankareikninga. Stofna viðskiptamanni, lánadrottni eða bankareikning úr tengilið gerir þér kleift að nota fyrirliggjandi gögn. Þegar þú stofnar viðskiptavin, lánardrottinn, eða bankareikning á þennan hátt er það samstillt við tengiliðinn. Samstilling gerir upplýsingarnar sem eru sameiginleg tengiliði og viðskiptamenn, lánardrottna eða bankareikninga þær sömu.
 
-áður en þú getur skráð tengiliði á þennan hátt, verðurðu að tilgreina viðskiptatengslakóða fyrir viðskiptavini, lánardrottna, og bankareikninga í glugganum **uppsetning markaðssetningar** Ef þú munt skrá tengiliði sem bankareikning verður einnig að tilgreina númeraraðir fyrir bankareikninga í glugganum **Fjárhagsgrunnur**.
+Áður en þú getur skráð tengiliði á þennan hátt, verðurðu að tilgreina viðskiptatengslakóða fyrir viðskiptavini, lánardrottna, og bankareikninga á síðunni **Uppsetning markaðssetningar**. Ef þú munt skrá tengiliði sem bankareikning verður einnig að tilgreina númeraraðir fyrir bankareikninga á síðunni **Fjárhagsgrunnur**.
 
 ## <a name="to-create-a-contact-as-a-customer-vendor-or-bank-account"></a>Tengiliðir stofnaðir sem viðskiptamenn, lánadrottnar eða bankareikningar:
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.

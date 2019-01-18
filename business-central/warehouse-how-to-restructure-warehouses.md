@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restructure-warehouses"></a>Endurskipulagning vöruhúsa
@@ -56,9 +56,9 @@ Nú hafa hólf verið tæmd þar sem vörur voru. Sjálfgefnu hólfin fyrir vör
 
     1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
     2.  Velja línu með birgðageymslunni og velja síðan **hólf** aðgerðina.  
-    3.  Í glugganum **Hólf** í reitnum **Kóti hólfategundar**, færið inn **Utanflæðishólf** fyrir hvert eldra hólfanna sem tæmt er í skrefi 3 í fyrra ferli.  
+    3.  Á síðunni **Hólf** í reitnum **Kóti hólfategundar**, færið inn **Utanflæðishólf** fyrir hvert eldra hólfanna sem tæmt er í skrefi 3 í fyrra ferli.  
 
-Nú hafa hólfin verið fjarlægð úr vöruhúsaflæðinu og þær endurflokkaðar sem utanflæðishólf. Utanflæðishólf hafa engan af aðgerðareitunum í glugganum **Hólfategundir** valinn og eru því ekki tekin með í vöruflæðinu. Frekari upplýsingar eru í [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).  
+Nú hafa hólfin verið fjarlægð úr vöruhúsaflæðinu og þær endurflokkaðar sem utanflæðishólf. Utanflæðishólf hafa engan af aðgerðareitunum á síðunni **Hólfategundir** valinn og eru því ekki tekin með í vöruflæðinu. Frekari upplýsingar eru í [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Hólfi eytt:  
 
@@ -69,7 +69,7 @@ Nú hafa hólfin verið fjarlægð úr vöruhúsaflæðinu og þær endurflokka�
 
 Ef valinn er hnappurinn **Já** er hólfinu eytt en hólfakótinn helst sá sami í öllum vöruhúsafærslum.  
 
-Ef endurnefna á hólf þannig að allar færslur sem tengjast hólfinu séu einnig endurnefndar þ.m.t. færslur sem innihalda hólfainnihald, aðgerðalínur vöruhúsa, skráðar aðgerðalínur vöruhúsa, vinnublaðalínur vöruhúsa, móttökulínur vöruhúsa, bókaðar móttökulínur vöruhúsa, afhendingarlínur vöruhúsa, bókaðar afhendingarlínur vöruhúsa og vöruhúsafærslur er hægt að gera það í glugganum **Hólf**.  
+Ef endurnefna á hólf þannig að allar færslur sem tengjast hólfinu séu einnig endurnefndar þ.m.t. færslur sem innihalda hólfainnihald, aðgerðalínur vöruhúsa, skráðar aðgerðalínur vöruhúsa, vinnublaðalínur vöruhúsa, móttökulínur vöruhúsa, bókaðar móttökulínur vöruhúsa, afhendingarlínur vöruhúsa, bókaðar afhendingarlínur vöruhúsa og vöruhúsafærslur er hægt að gera það á síðunni **Hólf**.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Hólf endurnefnt og hólfkóta breytt í öllum færslum  
 

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2e70ad534a28cf5062e9e54a2dfbd3af6afaa39
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Bæta við tengli á vefsíður, skjöl, eða forrit á skrám.
@@ -26,7 +26,7 @@ Annað dæmi gæti verið þegar þú tekur á móti prentuðum reikningum frá 
 
 1.  Færslan sem á að tengja við er opnuð, t.d. viðskiptamannaspjald eða sölupöntun. Ef tengja á við sérstaka línu, t.d. færslubókarlínu, er hún valin.  
 
-2.  Velja aðgerðin **Tenglar** til að opna gluggana **Tenglar** sem sýna alla núgildandi tengla sem hefur verið bætt við skrána.
+2.  Velja aðgerðina **Tenglar** til að opna síðurnar **Tenglar** sem sýna alla núgildandi tengla sem hefur verið bætt við skrána.
 
 3. Til að bæta við nýjum tengli, skal velja **+nýr**.
 
@@ -43,7 +43,7 @@ Annað dæmi gæti verið þegar þú tekur á móti prentuðum reikningum frá 
 
 ## <a name="to-delete-a-link-from-a-record"></a>Til að eyða tengli úr færslu:  
 
-Til að eyða tengli, í **Tenglar** í glugganum geturðu valið **...** og svo **Eyða**.
+Til að eyða tengli, í **Tenglar** á síðunni geturðu valið **...** og svo **Eyða**.
 
 Ef notandi eyðir einni færslu, t.d. sölupöntunarlínu, sölupöntun eða viðskiptamanni, er öllum tenglum þeirrar færslu líka eytt. Ef færslum er hins vegar eytt með runuvinnslu, t.d. runuvinnslunni **Eyða reikningsfærðum sölupöntunum**, eru tenglarnir geymdir áfram í töflunni . Til að eyða tenglunum úr gagnagrunninum þarf að keyra kótaeininguna **Eyða færslutenglum án tilvísana**. Til að gera þetta skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða færslutenglum án tilvísana** og veldu síðan tengda tengilinn.   
 
@@ -51,7 +51,7 @@ Ef notandi eyðir einni færslu, t.d. sölupöntunarlínu, sölupöntun eða vi�
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a>Sjá einnig  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

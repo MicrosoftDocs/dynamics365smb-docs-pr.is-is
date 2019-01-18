@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1962bd9d74f7b4d9600de11f85d1e312f6fb8c09
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Vinna með samskipti fyrir hluta
-Glugginn **Hluti** er eins konar vinnublað þar sem hægt er að:
+Síðan **Hluti** er eins konar vinnublað þar sem hægt er að:
 
 * stofna hluta.
 * Vista hlutunarviðmið sem notuð eru til að velja tengiliði.
@@ -35,14 +35,14 @@ Hægt er að stofna hluta með nokkrum leiðum:
 * Hægt er að endurnota vistuð hlutunarviðmið
 
 ## <a name="interactions"></a>Samskipti
-Í glugganum **hluti** er hægt að stofna samskipti fyrir marga tengiliði samtímis. Til dæmis er hægt að blanda hluta við Microsoft Word skjal þannig að hægt sé að senda öllum tengiliðum í hlutanum bréf.
+Á síðunni **Hluti** er hægt að stofna samskipti fyrir marga tengiliði samtímis. Til dæmis er hægt að blanda hluta við Microsoft Word skjal þannig að hægt sé að senda öllum tengiliðum í hlutanum bréf.
 
 Upplýsingar um samskiptin sem varða hlutann geta birst á **hlutahausnum**. Til dæmis má ákveða hvaða samskiptasniðmát eigi að nota fyrir alla tengiliði, tilgreina lýsingu, tegund samskipta, og svo framvegis. Þó er hægt að breyta þessum upplýsingum í hlutalínu einstakra tengiliða, til dæmis með því að tilgreina aðra lýsingu fyrir ákveðin tengilið. Ef verið er að blanda hluta við Microsoft Word skjal er hægt að sérsníða skjalið fyrir einn eða fleiri tengiliði í hlutanum með því, til dæmis, að bæta sérsniðnum athugasemdum við skjalið.
 
 ## <a name="logging"></a>Skráning
-Þegar smellt er á **Skrá** í glugganum **hluti** skráir forritið samskiptin í gluggann **Samskiptaskráningarfærsla** og skráir hlutann. Þegar hlutinn hefur verið skráður er aðeins hægt að nálgast hann í glugganum **Skráðir hlutar**.
+Þegar smellt er á **Skrá** á síðunni **Hluti** skráir forritið samskiptin í gluggann **Samskiptaskráningarfærsla** og skráir hlutann. Þegar hlutinn hefur verið skráður er aðeins hægt að nálgast hann á síðunni **Skráðir hlutar**.
 
-Í glugganum **Skráðir hlutar** er hægt ákveða að stofna eftirfylgnihluta með sömu tengiliðum og í skráða hlutanum.
+Á síðunni **Skráðir hlutar** er hægt ákveða að stofna eftirfylgnihluta með sömu tengiliðum og í skráða hlutanum.
 
 ## <a name="see-also"></a>Sjá einnig
 [Stofna hluta](marketing-how-create-segment.md)  

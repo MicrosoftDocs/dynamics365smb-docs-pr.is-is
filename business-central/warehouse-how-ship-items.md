@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 75cf101f7f67bdd54d6e364468fd5e4354a089af
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="ship-items"></a>Senda vörur
@@ -50,22 +50,22 @@ Vanalega stofnar starfsmaður sem er ábyrgur fyrir afhendingu vöruhúsaafhendi
 
     > [!NOTE]  
     >  Ef afhenda á vörur með öðrum vöruhúsaflokkskótum en flokkskóta hólfsins í reitnum **Hólfkóti** í fylgiskjalshausnum verður að eyða innihaldi reitsins **Hólfkóti** í hausnum áður en upprunaskjalslínurnar eru sóttar fyrir vörurnar.  
-3.  Valið er **Sækja upprunaskjöl** aðgerð. Glugginn **Upprunaskjöl** opnast.
+3.  Valið er **Sækja upprunaskjöl** aðgerð. Síðan **Upprunaskjöl** opnast.
 
-    Í nýrri eða opinni vöruhúsaafhendingu er hægt að nota gluggann **Afmörkun til að sækja upprunaskjal** til að sækja þær línur útgefna upprunaskjalsins sem segja til um hvaða vörur á að afhenda.
+    Í nýrri eða opinni vöruhúsaafhendingu er hægt að nota síðuna **Afmörkun til að sækja upprunaskjal** til að sækja þær línur útgefna upprunaskjalsins sem segja til um hvaða vörur á að afhenda.
 
     1. Velja skal **Nota afmarkanir til að sækja uppr.skjöl.** aðgerðina.  
     2. Til að setja upp nýja afmörkun er lýsandi kóti færður inn í reitinn **Kóti** og smellt á **Breyta** aðgerðina.  
     3. Skilgreina hvaða gerð af upprunaskjalslínum eigi að sækja með því að fylla út viðeigandi afmörkunarreiti.  
     4. Velja skal aðgerðina **Keyra**.  
 
-    Allar útgefnar upprunaskjalslínur sem uppfylla afmörkunarskilyrðin eru nú settar inn í gluggann **Vöruhúsaafhending** eða Vöruhúsaafhending þar sem afmörkunaraðgerðin er virkjuð.  
+    Allar útgefnar upprunaskjalslínur sem uppfylla afmörkunarskilyrðin eru nú settar inn á síðunni **Vöruhúsaafhending** eða Vöruhúsaafhending þar sem afmörkunaraðgerðin er virkjuð.  
 
-    Skilgreindar afmörkunarsamsetningar eru vistaðar í **Afmarkanir til að sækja upprunaskjöl** glugganum þar til þeirra er næst þörf. Hægt er að búa til ótakmarkaðan fjölda af afmörkunarsamsetningum. Hægt er að breyta skilyrði hvenær sem er með því að smella á **Breyta** aðgerðina.
+    Skilgreindar afmörkunarsamsetningar eru vistaðar á síðunni **Afmarkanir til að sækja upprunaskjöl** þar til þeirra er næst þörf. Hægt er að búa til ótakmarkaðan fjölda af afmörkunarsamsetningum. Hægt er að breyta skilyrði hvenær sem er með því að smella á **Breyta** aðgerðina.
 
 4.  Valin eru þau upprunaskjöl sem afhenda á vörur fyrir og smellt á **Í lagi** hnappinn.  
 
-Línurnar úr upprunaskjölunum birtast í glugganum **Vöruhúsaafhending**. Reiturinn **Magn til afhendingar** hefur verið fylltur út með eftirstöðvum hverrar línu en hægt er að breyta magninu eftir þörfum. Ef gildinu í reitnum  **Hólfkóti** er eytt á flýtiflipanum **Almennt** áður en línurnar eru sóttar þarf að færa inn viðkomandi hólfkóta í hverri afhendingarlínu.  
+Línurnar úr upprunaskjölunum birtast á síðunni **Vöruhúsaafhending**. Reiturinn **Magn til afhendingar** hefur verið fylltur út með eftirstöðvum hverrar línu en hægt er að breyta magninu eftir þörfum. Ef gildinu í reitnum  **Hólfkóti** er eytt á flýtiflipanum **Almennt** áður en línurnar eru sóttar þarf að færa inn viðkomandi hólfkóta í hverri afhendingarlínu.  
 
 > [!NOTE]  
 >  Ekki er hægt að afhenda fleiri vörur en talan í reitnum **Magn eftirstöðva** á upprunaskjalslínunni segir til um. Til að afhenda fleiri vörur skal sækja annað upprunaskjal sem inniheldur línu fyrir vöruna með því að nota afmörkun til að sækja upprunaskjöl með vörunni.  
@@ -76,7 +76,7 @@ Línurnar úr upprunaskjölunum birtast í glugganum **Vöruhúsaafhending**. Re
 Vanalega stofnar starfsmaður vöruhússins, sem ber ábyrgð á tínslu, tínsluskjal eða opnar eitt slíkt sem þegar er til.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsaafhending** og veldu síðan tengda tengilinn.
 2. Valin er Vöruhúsaafhending sem á að Tína fyrir og veldu síðan aðgerðina **Stofna tínslu**.
-3. Fylla inn í reitina í beiðniglugganum og velja svo hnappinn **Í lagi**. Fylgiskjal Birgðatínslu vöruhúss er stofnað.
+3. Fylla inn í reitina á beiðnisíðunni og velja svo hnappinn **Í lagi**. Fylgiskjal Birgðatínslu vöruhúss er stofnað.
 
     Að öðrum kosti skal opna fyrirliggjandi vöruhúsatínslu.
 4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínsla** og veldu síðan tengda tengilinn. Veljið vöruhúsatínsluna sem á að vinna með.

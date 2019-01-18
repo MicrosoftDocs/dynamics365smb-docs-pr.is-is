@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7bdddcadf3fb7dceb762354e8fa527158782b676
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d67329ce09b40019d9568abee47cef33e3b60e85
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defining-and-allocating-costs"></a>Skilgreina og úthluta kostnaði
@@ -36,12 +36,108 @@ Fyrir hvert úthlutunarmarki skilgreinir notandi úthlutunarstofninn. Úthlutuna
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
-|Til|Sjá|  
-|--------|---------|  
-|Uppsetning úthlutunaruppruna og úthlutunarmarka hans.|[Setja upp uppruna og markhópa úthlutanna](finance-how-to-set-up-allocation-source-and-targets.md)|  
-|Setja upp margvíslegar afmarkanir fyrir kvik úthlutunargrunna.|[Uppsetning afmarkanir fyrir Kvik úthlutunargrunnar.](finance-setting-filters-for-dynamic-allocation-bases.md)|  
-|Sjá dæmi um hvernig á að skilgreina fasta úthlutun.|[Dæmi: Skilgreining fastrar úthlutunar á grundvelli úthlutunarhlutfalls](finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md)|  
-|Sjá dæmi um hvernig á að skilgreina kvika úthlutun.|[Dæmi: Skilgreining kvikrar úthlutunar á grundvelli seldra vara](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)|  
+## <a name="setting-up-allocation-source-and-targets"></a>Uppsetning uppruna og markhópa úthlutanna
+Hver úthlutun samanstendur af úthlutunaruppruna og einu eða fleiri úthlutunarmörkum. Úthlutunaruppruninn skilgreinir hvaða kostnaði skal úthlutað. Úthlutunarmörkin ákvarða hvert kostnaði verður úthlutað.  
+
+### <a name="to-set-up-cost-allocations"></a>Til að setja upp kostnaðarúthlutanir  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kostnaðarúthlutun** og veldu síðan tengda tengilinn.  
+2.  Á síðunni **Kostnaðarúthlutun** skal velja reitinn **Breyta**.  
+3.  Færið inn kenni fyrir úthlutunaruppsprettu í reitnum **Kenni**.  
+4.  Skilgreina stig sem tölu á bilinu 1 til 99 í reitnum **Stig**. Úthlutunarbókunin mun fylgja röð stiganna.  
+5.  Færa inn kostnaðartegund til að skilgreina hvaða kostnaðartegundum verður úthlutað í reitinn **Svið kostnaðartegundar**. Ef öllum kostnaði kostnaðartegundar hefur verið úthlutað er ekkert svið skilgreint.  
+6.  Færa inn kostnaðarstað ásamt kostnaði sem á að úthluta í reitinn **Kostnaðarstaðarkóði**.  
+7.  Færa inn kostnaðarhlut ásamt kostnaði sem á að úthluta í reitinn **Kostnaðarhlutakóði**. Reiturinn er oftast áfram auður vegna þess að kostnaðarhlutir eru sjaldnast úthlutaðir á aðra kostnaðarhluti.  
+8.  Færa inn kostnaðargerð í reitinn **Kreditfært í kostnaðartegund**. Kostnaður sem er úthlutað verður kreditfærður í upprunakostnaðartegund. Kreditbókunin verður bókuð á þá kostnaðartegund sem uppgefin er hér.  
+9. Á flýtiflipanum **Línur** skal skilgreina úthlutunarmörk. Í fyrstu línunni skal færa inn kostnaðartegund í reitinn **Markkostnaðartegund**. Skilgreinir hvaða kostnaðartegund úthlutunin er skuldfærð á.  
+10. Í fyrstu línunni skal færa inn fyrsta úthlutunar markið í reitinn **Markkostnaðarstaður** eða reitinn **Markkostnaðarhlutur** . Þessir tveir reitir skilgreina hvaða kostnaðarstað eða kostnaðarhlut úthlutunin er skuldfærð á. Aðeins er hægt að færa inn í gildi annars hvors þessara reita, en ekki bæði.  
+11. Endurtaka skal sömu skref í annarri línu til að setja upp fleiri úthlutunarmörk.  
+12. Þegar búið er að setja upp úthlutunarmarkmið og -uppruna, skal velja aðgerðina **Reikna úthlutunarlykil** til að reikna samtölu hlutdeildargilda.  
+
+> [!NOTE]  
+>  Veljið gátreitinn **Útilokað** til að gera úthlutunaruppsetningu óvirka.
+
+## <a name="setting-filters-for-dynamic-allocation-bases"></a>Uppsetning afmarkanir fyrir Kvik úthlutunargrunnar.
+Kvika úthlutunaraðferðin byggist á breytanlegum gildum. Til dæmis fjöldi starfsmenn í kostnaðarstöð eða seldar vörur af kostnaðarhlut á tilteknu tímabili. Níu forskilgreindir úthlutunargrunnar og tólf kvik dagsetningarsvið eru í boði. Mismunandi afmarkanir eru settar á grundvelli úthlutunargrunns.  
+
+### <a name="setting-filters-for-dynamic-allocation-bases"></a>Uppsetning afmarkanir fyrir Kvik úthlutunargrunnar.  
+ Eftirfarandi tafla sýnir hvaða afmarkanir eru mögulegar fyrir mismunandi úthlutunargrunna og hvaða gildi eru leyfileg í reitunum **Nr. afmörkunar** og **Afmörkun hóps**. Ýtið á F1 í reitnum **Kóði gagnaafmörkunar** til að sjá nákvæmari lýsingu.  
+
+|**Grunnur**|**Númersafmörkun**|**Kóti gagnaafmörkunar**|**Afmörkun kostnaðarstaðar**|**Afmörkun kostnaðarhlutar**|**Afmörkun hópa**|  
+|--------------|----------------------------------------|----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------|  
+|Fjárhagsfærslur|Fjárhagsreikningur|Já|Já|Já|Á ekki við|  
+|Fjárhagsáætl.færslur|Fjárhagsreikningur|Já|Já|Já|Heiti fjárhagsáætl.|  
+|Kostnaðartegundarfærslur|Tegund kostnaðar|Já|Já|Já|Á ekki við|  
+|Færslur kostnaðaráætlana|Tegund kostnaðar|Já|Já|Já|Heiti áætlunar|  
+|Fjöldi starfsmanna|Á ekki við|Já|Já|Já|Á ekki við|  
+|Seldar vörur (magn )|Vörunr.|Já|Já|Já|Birgðabókunarflokkur|  
+|Keyptar vörur (magn)|Vörunr.|Já|Já|Já|Birgðabókunarflokkur|  
+|Seldar vörur (upphæð )|Vörunr.|Já|Já|Já|Birgðabókunarflokkur|  
+|Keyptar vörur (upphæð)|Vörunr.|Já|Já|Já|Birgðabókunarflokkur|
+
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Sýnishorn 1: Skilgreining fastrar úthlutunar á grundvelli úthlutunarhlutfalls
+Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun eða skilgreindu úthlutunarhlutfalli, s.s. 5:2:4.  
+
+Í þessu efnisatriði er lýst hvernig á að skilgreina þrjá nýja kostnaðarhluti úthlutunarmarks fyrir kostnaðarstað úthlutunarupprunans FRAML með fyrirliggjandi úthlutunarhlutfallinu 5:2:4. Kostnaðarhlutirnir þrír eru ACCESSO, PAINT og FITTINGS.  
+
+> [!NOTE]  
+>  Í dæminu er notast við sýnigögnin í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Til að skilgreina PROD kostnaðarstað úthlutunarveitu á flýtiflipanum Almennt  
+
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kostnaðarúthlutun** og veldu síðan tengda tengilinn.  
+2.  Á síðunni **Kostnaðarúthlutun** skal velja aðgerðina **Nýtt**.  
+3.  Í reitnum **Kenni** smellið á færslulykilinn eða sláið inn auðkenni.  
+4.  Í reitinn **Stig**, sláið inn **1**.  
+5.  Í reitnum **Gildir frá** og **Gildir til** eru viðeigandi dagsetningar færðar inn.  
+6.  Í reitinn **Kóði kostnaðarstaðar** er slegið inn **SALA**.  
+7.  Í **Kreditfært í kostnaðartegund** reitinn er slegin inn kostnaðargerðin **9903**.  
+
+### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Til að skilgreina kostnaðarhluti úthlutunarmarks á flýtiflipanum Línur  
+
+1.  Í fyrstu línunni í reitnum **Markkostnaðartegund** sláið inn **9903**.  
+2.  Í fyrstu línunni í reitnum **Markkostnaðarhlutur** veljið **ACCESSO**.  
+3.  Í fyrstu línunni í reitnum **„Gerð úthlutunarmarka** veljið **Allur kostnaður** til að tilgreina hvernig öllum uppsöfnuðum kostnaði er úthlutað.  
+4.  Í fyrstu línunni í reitnum **Grunnur** veljið **Fast** til að nota fasta úthlutunaraðferð.  
+5.  Í fyrstu línuna í reitnum **Deila** setjið inn úthlutunarhlutfallið **5**.  
+6.  Í aðra línuna í reitnum **Markkostnaðartegund** sláið inn **9903**.  
+7.  Í annarri línunni, í reitnum **Markkostnaðarhlutur** er valið **MÁLNING**.  
+8.  Í annarri línunni í reitnum **„Gerð úthlutunarmarka** veljið **Allur kostnaður** til að tilgreina hvernig öllum uppsöfnuðum kostnaði er úthlutað.  
+9. Í annarri línunni, í reitnum **Grunnur**, er valið **Föst** til að nota fasta úthlutunaraðferð.  
+10. Í annarri línunni, í reitnum **Deila**, er sett inn úthlutunarhlutfallið **2**.  
+11. Í þriðju línuna í reitnum **Markkostnaðartegund** sláið inn **9903**.  
+12. Í þriðju línunni í reitnum **Markkostnaðarhlutur**, er slegið inn **TENGIHLUTIR**.  
+13. Í þriðju línunni í reitnum **„Gerð úthlutunarmarka** veljið **Allur kostnaður** til að tilgreina hvernig öllum uppsöfnuðum kostnaði er úthlutað.  
+14. Í þriðju línunni í reitnum **Grunnur**, er valið **Föst** til að nota fasta úthlutunaraðferð.  
+15. Í þriðju línunni, í reitnum **Deila**, er sett inn úthlutunarhlutfallið **4**.  
+
+> [!IMPORTANT]  
+>  [!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar sjálfkrafa reitinn **Prósenta** með því að nota prósentuhlutfall sem er háð öllum þremur úthlutunarhlutföllum sem færð eru inn í reitinn **Deila** í öllum þremur línunum.
+
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Sýnishorn 2: Skilgreining kvikrar úthlutunar á grundvelli seldra vara
+Þetta efnisatriði sýnir dæmi um hvernig á að skilgreina úthlutanir með því að nota kvika úthlutunaraðferð. Í dæminu er kvika úthlutun af kostnaði fyrir kostnaðarstað breytt til að styðja nýjan kostnaðarhlut IT EQUIPMENT. IT EQUIPMENT pakkar hafa vörunúmer frá 8904-W til 8924-W. Sölutölur fyrra árs eru notaðar til að reikna út hlutdeild. Úthlutunin er bókuð í aukakostnaðartegund 9903.  
+
+> [!NOTE]  
+>  Í dæminu er notast við sýnigögnin í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Til að skilgreina kvikar úthlutanir sem byggja á vörum sem seldar voru á síðasta ári  
+
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kostnaðarúthlutanir** og veldu síðan tengda tengilinn.  
+2.  Á síðunni **Kostnaðarúthlutun** skal velja aðgerðina **Nýtt**.  
+3.  Í reitnum **Kenni** smellið á færslulykilinn eða sláið inn auðkenni.  
+4.  Í reitinn **Stig**, sláið inn **1**.  
+5.  Í reitnum **Gildir frá** og **Gildir til** eru viðeigandi dagsetningar færðar inn.  
+6.  Í reitinn **Kóði kostnaðarstaðar** er slegið inn **SALA**.  
+7.  Í **Kreditfært í kostnaðartegund** reitinn er slegin inn kostnaðargerðin **9903**.  
+8.  Í **Markkostnaðartegund** reitinn er slegin inn kostnaðargerðin **9903**.  
+9. Í reitnum **Markkostnaðarhlutur** veljið **Nýtt** til að stofna nýja kostnaðarhlutinn IT EQUIPMENT og fyllt er í reitina eftir þörfum. Veljið **IT EQUIPMENT**. Reiturinn **Markkostnaðarstaður** er hafður auður.  
+10. Í reitnum **Gerð úthlutunarmarka**, veljið **Allur kostnaður** til að tilgreina hvernig öllum uppsöfnuðum kostnaði er úthlutað.  
+11. Í reitnum **Grunnur** veljið úthlutunarstofninn **Seldar vörur (upphæð)**.  
+12. Í retinn **Númersafmörkun** er fært inn **8904-W..8924-W**.  
+13. Í reitinn **Kóði gagnaafmörkunar** er fært inn **Síðasta ár**.  
+14. Veljið **Reikna úthlutunarlykil** aðgerðina til að reikna út hlutinn.  
+
+> [!IMPORTANT]  
+>  [!INCLUDE[d365fin](includes/d365fin_md.md)] notar sölutölur fyrri ára til að reikna hlut 1596.50 SGM með 100 prósentum fyrir pakka IT EQUIPMENT. Þetta merkir að öllum seldum vörum síðasta árs verður úthlutað á kostnaðarhlutinn IT EQUIPMENT.
 
 ## <a name="see-also"></a>Sjá einnig  
  [Uppsetning kostnaðarbókhalds](finance-set-up-cost-accounting.md)   

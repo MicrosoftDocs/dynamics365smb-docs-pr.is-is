@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 98a2e773dbde6ba4ba0493e2b0dc7b632bbea4d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a68c26e94aa4adda7c1f546e57331a741dcfe94b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Breyta hvaða útlit er nú notað í skýrslu
@@ -26,8 +26,8 @@ Með hliðsjón af útlitinu sem er í boði fyrir skýrslu er hægt að velja a
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Til að breyta útlitinu sem er notað í skýrslu
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
-   Glugginn **Val á útliti skýrslu** sýnir allar skýrslur sem eru í boði fyrir fyrirtæki sem er tiltekið í reitnum Fyrirtæki efst í glugganum.  Reiturinn valið útlit tilgreinir útlitið sem er verið að nota á skýrsluna.
-2. Stilltu reitinn **Fyrirtæki** efst í glugganum á fyrirtækið með skýrsluna.
+   Síðan **Val á útliti skýrslu** sýnir allar skýrslur sem eru í boði fyrir fyrirtæki sem er tiltekið í reitnum Fyrirtæki efst á síðunni.  Reiturinn valið útlit tilgreinir útlitið sem er verið að nota á skýrsluna.
+2. Stilltu reitinn **Fyrirtæki** efst á síðunni á fyrirtækið með skýrsluna.
 3. Til að breyta útliti sem er notað í skýrslu skal velja röðina fyrir skýrsluna í listanum og stilla svo **valið útlit** reitinn á einn af eftirfarandi valkostum:
    * RDLC (innbyggt Notar) innbyggt RDLC skýrsluútlit í skýrslunni.
    * Word (innbyggt) Notar innbyggt Word skýrsluútlit í skýrslunni.
@@ -40,10 +40,10 @@ Með hliðsjón af útlitinu sem er í boði fyrir skýrslu er hægt að velja a
 Ef þú velur innbyggt RDLC skýrsluútlit, þá þarf ekkert að gera og útlitið er notað næst þegar skýrslan er keyrð.
 
 ## <a name="to-specify-a-custom-layout-on-a-report"></a>Til að tilgreina sérsniðið útlit skýrslu
-1. Þú tilgreinir hvaða sérsniðið útlit á að nota á skýrsluna úr **sérsniðið skýrsluútlit** glugganum. Ef glugginn **sérsniðið skýrsluútlit** er ekki opinn skaltu velja leitarhnappinn í **Lýsing á útliti skýrslu**.
-2. Í glugganum **Sérsniðin skýrsluútlit** skal velja línuna fyrir það sérsniðna útlit sem á að nota og loka svo glugganum.
+1. Þú tilgreinir hvaða sérsniðið útlit á að nota á skýrsluna af síðunni **sérsniðið skýrsluútlit**. Ef síðan **sérsniðið skýrsluútlit** er ekki opin skaltu velja leitarhnappinn í **Lýsing á útliti skýrslu**.
+2. Á síðunni **Sérsniðið skýrsluútlit** skal velja línuna yfir sérsniðna útlitið sem á að nota og lokið svo síðunni.
 
-Þú ferð til baka í **sérsniðið skýrsluútlit val** gluggann. Heiti valins sérsniðins útlits er birt í reitnum **sérsniðið skýrsluútlit**. Sérsniðið útlit verður notað í næsta skipti sem skýrslan er keyrð.
+Þú ferð til baka á síðuna **sérsniðið skýrsluútlit val**. Heiti valins sérsniðins útlits er birt í reitnum **sérsniðið skýrsluútlit**. Sérsniðið útlit verður notað í næsta skipti sem skýrslan er keyrð.
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  

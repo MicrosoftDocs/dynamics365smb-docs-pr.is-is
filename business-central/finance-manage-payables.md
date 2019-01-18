@@ -16,10 +16,10 @@ ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
 ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-payables"></a>Stjórna skuldum
@@ -36,10 +36,10 @@ ms.lasthandoff: 06/01/2018
 [!INCLUDE[d365fin](includes/d365fin_md.md)] getur lagt til ýmsar greiðslur til lánardrottna, svo sem greiðslur sem eru bráðum á gjalddaga eða greiðslur sem hægt er að fá afslátt af. Greiðslutillagan getur tekið til greina upphæð sem skilgreind er sem tiltækir fjármunir fyrir greiðslu og hægt er að fá greiðsluafslátt af.
 
 ## <a name="issue-checks"></a>Útgáfa tékka
-[!INCLUDE[d365fin](includes/d365fin_md.md)] leyfir þér að gefa út eftirlit með söluaðilum handvirkt og rafrænt. Þú gerir bæði í **Greiðslubækur** glugganum þar sem einnig er hægt að ógilda tékka og skoða fjárhagsfærslur.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] leyfir þér að gefa út eftirlit með söluaðilum handvirkt og rafrænt. Þú gerir bæði á síðunni **Greiðslubækur** þar sem einnig er hægt að ógilda tékka og skoða fjárhagsfærslur.
 
 ## <a name="export-payments-to-a-bank-file"></a>Flytja út greiðslur í bankaskrá
-Þegar þú ert tilbúinn til að greiða lánardrottni er hægt úr **Greiðslubók** að flytja út skrá með greiðsluupplýsingum á færslubókarlínur. Þá er hægt að hlaða upp skránni í netbanka til að meðhöndla peningaflutning.
+Þegar þú ert tilbúinn til að greiða lánardrottni er hægt af síðunni **Greiðslubók** að flytja út skrá með greiðsluupplýsingum frá færslubókarlínunum. Þá er hægt að hlaða upp skránni í netbanka til að meðhöndla peningaflutning.
 
 Ef þú vilt ekki bóka greiðslubókarlínu fyrir útflutta greiðslu, t.d. vegna þess að þú ert að bíða eftir staðfestingu frá banka á færslunni geturðu einfaldlega eytt línunni. Þegar þú síðar stofnar greiðslubókarlínu til að greiða eftirstandandi upphæð á reikningnum sýnir reiturinn **Heildarupphæð flutt út** hversu mikið af greiðsluupphæðinni hefur þegar verið flutt út. Þú getur einnig fundið ítarlegar upplýsingar um heildarupphæðir sem hafa verið fluttar út með því að velja hnappinn **Skráningarfærslur kreditmillifærslna**.
 

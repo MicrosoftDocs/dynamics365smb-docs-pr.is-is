@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfis
 Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru og tímabil sem áætlun gildir um. Þá, í samræmi við lágstigskóða (uppskriftarstaðsetningu), kallar runuvinnslan á kóðaeininguna, sem reiknar út birgðaáætlun með því að jafna framboð-eftirspurn og stinga upp á aðgerðum fyrir notandann. Ráðlagðar aðgerðir birtast sem línu á áætlunvinnublaðinu eða innkaupatillögunni.  
 
-![Innihald glugga áætlunarvinnublaðs](media/NAV_APP_supply_planning_1_planning_worksheet.png "Innihald glugga áætlunarvinnublaðs")  
+![Innihald síðu áætlunarvinnublaðs](media/NAV_APP_supply_planning_1_planning_worksheet.png "Innihald síðu áætlunarvinnublaðs")  
 
 Reiknað er með að sá sem annast áætlanagerð í fyrirtæki, svo sem innkaupsaðili eða framleiðslustjóri, sé notandi áætlanakerfis. Áætlanakerfið hjálpar notandanum með því að framkvæma víðtæka en fremur einfalda útreikninga fyrir áætlun. Notandinn getur þá einbeitt sér að því að leysa úr erfiðari vandamálunum, líkt og því sem er frábrugðið því sem eðlilegt er.  
 
@@ -53,7 +53,7 @@ Nánari upplýsingar eru í [Hönnunarupplýsingar: Takast á við pantanir fyri
 ## <a name="dynamic-order-tracking-pegging"></a>Breytilegar pöntunarrakningar (vörpum)  
 Breytilegar pöntunarrakningar, með samtímis stofnun aðgerðaskilaboða í áætlanavinnublaði, er ekki hluti af framboðsáætlanakerfi í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þessi eiginleiki tengir, í rauntíma, eftirspurnina og magnið sem uppfyllir hana, í hvert skipti sem framboð er stofnað eða því breytt.  
 
-Til dæmis ef notandi slær inn eða breytir sölupöntun mun kvika pöntunarrakningarkerfið um leið leita að viðeigandi framboði til að uppfylla eftirspurnina. Þetta getur verið úr birgðum eða fyrirsjáanlegri birgðapöntun (líkt og innkaupapöntun eða framleiðslupöntun). Þegar framboðsuppruni finnst, kerfið skapar tengsl milli eftirspurnar og framboðs, og sýnir það í skrifvörðum gluggum sem eru nálgast á skjalalínum. Þegar nægt framboð er ekki hægt að finna, er kvik pöntunarrakningarkerfi býr til aðgerðaboð í áætlanavinnublaðinu með framboðsáætlunartillögum sem endurspegla kvika jöfnun. Í samræmi býður kvikt pöntunarrakningarkerfi upp á mjög einfalt áætlanakerfi sem getur bæði gagnast notanda sem áætlar og öðrum hlutverkum í framboðskeðjunni.  
+Til dæmis ef notandi slær inn eða breytir sölupöntun mun kvika pöntunarrakningarkerfið um leið leita að viðeigandi framboði til að uppfylla eftirspurnina. Þetta getur verið úr birgðum eða fyrirsjáanlegri birgðapöntun (líkt og innkaupapöntun eða framleiðslupöntun). Þegar framboðsuppruni finnst, kerfið skapar tengsl milli eftirspurnar og framboðs, og sýnir það í skrifvörðum síðum sem eru nálgast á skjalalínum. Þegar nægt framboð er ekki hægt að finna, er kvik pöntunarrakningarkerfi býr til aðgerðaboð í áætlanavinnublaðinu með framboðsáætlunartillögum sem endurspegla kvika jöfnun. Í samræmi býður kvikt pöntunarrakningarkerfi upp á mjög einfalt áætlanakerfi sem getur bæði gagnast notanda sem áætlar og öðrum hlutverkum í framboðskeðjunni.  
 
 Í samræmi er hægt að horfa á kvika pöntunarrakningu sem verkfæri fyrir notanda til að meta hvort samþykkja eigi pöntunartillögur fyrir framboð. Frá framboðshliðinni getur notandi séð hvaða eftirspurn hefur búið framboðið til og frá eftirspurnarhliðinni hvaða framboð á að sinna eftirspurninni.  
 
@@ -158,7 +158,7 @@ Tengill á milli pantana á milli eftirspurnar og framboðs er önnur gerð eigi
 ### <a name="specific-attributes"></a>Tilgreindir eiginleikar  
 Ákveðin eigindir á eftirspurn eru sérstakar og verður að passa nákvæmlega við samsvarandi framboð. Eftirfarandi tvær sérstakar eigindir eru til:  
 
--   Krefjast raðnúmer/lotunúmer sem krefjast sérstaks forrits (**SN sértæk rakning** eða **lotusértæk rakning** gátreitur er valinn í glugganum **vörurakningarkóðaspjald** fyrir vörurakningarkóða sem er notað af hlutnum.)  
+-   Krefjast raðnúmer/lotunúmer sem krefjast sérstaks forrits (**SN sértæk rakning** eða **lotusértæk rakning** gátreitur er valinn á síðunni **vörurakningarkóðaspjald** fyrir vörurakningarkóða sem er notað af hlutnum.)  
 -   Tenglar í framboðspantanir stofnaðir handvirkt eða sjálfvirkt fyrir tiltekna eftirspurn (tenglar á milli pantana).  
 
 Fyrir þessar eigindir beitir áætlanakerfið eftirfarandi reglum:  
@@ -211,7 +211,7 @@ Fyrsti dálkur í áætlanagerðarvinnublaði er fyrir viðvörunarreiti. Hver �
 
 Framboði fyrir áætlunarlínur með viðvörunum er yfirleitt ekki breytt samkvæmt áætlunarfæribreytum. Þess í stað stingur áætlunarkerfið einungis upp á framboði til að anna nákvæmu eftirspurnarmagni. Hins vegar er hægt að stilla kerfið þannig að hún virði tilteknar áætlunarfæribreytur fyrir áætlunarlínur með viðvörunum. Frekari upplýsingar eru í lýsingunni á þessum valkostum fyrir **Reikna áætlun - Áætl.vinnubl.** runuvinnsla og **reikna áætlun - Innk.tillaga** runuvinnsla, í þeirri röð.  
 
-Viðvörunarupplýsingar eru sýndar í glugganum **Órakin áætlunaratriði** sem er einnig notaður til að sýna aðra pöntunarrakningarlista í einingar sem ekki eru af gerðinni pöntunarnet. Eftirfarandi tegundir viðvarana eru til:  
+Viðvörunarupplýsingar eru sýndar á síðunni **Óraktar áætlunareiningar** sem er einnig notaður til að sýna aðra pöntunarrakningarlista í einingar sem ekki eru af gerðinni pöntunarnet. Eftirfarandi tegundir viðvarana eru til:  
 
 -   Neyð  
 -   Frávik  
@@ -252,7 +252,7 @@ Viðvörunin Til athugunar birtist við þrennar aðstæður:
 ## <a name="error-logs"></a>Villuskrár  
 Á beiðnisíðunni Reikna áætlun getur notandinn valið **Stöðva og sýna fyrstu villu** reitinn til að láta áætlunarkeyrslu hætta þegar það rekst fyrsta villa. Um leið birtast skilaboð með upplýsingum um villuna. Ef villa er til staðar eru aðeins áætlunarlínur sem lokið var við fyrir villuna í áætlunarvinnublaðinu.  
 
-Ef reiturinn er ekki valinn heldur runuvinnslan Reikna áætlun áfram þangað til henni er lokið. Villur munu ekki trufla runuvinnsluna. Ef ein eða fleiri villur eru til staðar birtir kerfið skilaboð um hvaða vörur villurnar höfðu áhrif á. Glugginn  **Villukladdi áætlunar** opnast og birtir upplýsingar um villuna og tengla í þau skjöl eða birgðaspjöld sem hún hafði áhrif á.  
+Ef reiturinn er ekki valinn heldur runuvinnslan Reikna áætlun áfram þangað til henni er lokið. Villur munu ekki trufla runuvinnsluna. Ef ein eða fleiri villur eru til staðar birtir kerfið skilaboð um hvaða vörur villurnar höfðu áhrif á. Síðan **Villukladdi áætlunar** opnast og birtir upplýsingar um villuna og tengla í þau skjöl eða birgðaspjöld sem hún hafði áhrif á.  
 
 ![Villuboð í áætlanavinnublaðinu](media/NAV_APP_supply_planning_1_error_log.png "Villuboð í áætlanavinnublaðinu")  
 
@@ -264,10 +264,10 @@ Reitinn má handvirkt stilla af notanda, þó í sumum tilfellum verður að ver
 Nánari upplýsingar um það hvernig þessi reitur er notaður eru í [Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Pantanaáætlun  
-Verkfæri grunnframboðsáætlanagerðar í glugganum **Pantanaáætlun** er hannað fyrir handvirka ákvarðanatöku. Það tekur ekki tillit til áætlanagerðarfæribreytur og er því ekki rætt frekar í þessu skjali. Frekari upplýsingar um pantanaáætlunareiginleikann eru í aðstoð í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Verkfæri grunnframboðsáætlanagerðar á síðunni **Pantanaáætlun** er hannað fyrir handvirka ákvarðanatöku. Það tekur ekki tillit til áætlanagerðarfæribreytur og er því ekki rætt frekar í þessu skjali. Frekari upplýsingar um pantanaáætlunareiginleikann eru í aðstoð í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  Ekki er ráðlegt er að nota pantanaáætlun ef fyrirtækið notar þegar áætlunarvinnublöð eða innkaupatillagnablöð. Framboðspantanir sem stofnaðar eru í glugganum **Pantanaáætlun** geta breyst eða verið eytt á meðan sjálfvirk áætlanagerð er keyrð. Það er vegna þess að sjálfvirk áætlanagerð er keyrð með áætlunarfæribreytum og hugsanlega tekur notandinn sem gerir handvirka áætlun í glugganum Pantanaáætlun ekki tillit til þeirra.  
+>  Ekki er ráðlegt er að nota pantanaáætlun ef fyrirtækið notar þegar áætlunarvinnublöð eða innkaupatillagnablöð. Framboðspantanir sem stofnaðar eru á síðunni **Pantanaáætlun** geta breyst eða verið eytt á meðan sjálfvirk áætlanagerð er keyrð. Það er vegna þess að sjálfvirk áætlanagerð er keyrð með áætlunarfæribreytum og hugsanlega tekur notandinn sem gerir handvirka áætlun á síðunni Pantanaáætlun ekki tillit til þeirra.  
 
 ##  <a name="finite-loading"></a>Takmarkað álag  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er staðlað ERP kerfi, ekki stjórnkerfi afgreiðslu eða verslunar. Hún áætlar gerlega nýtingu tilfanga með því að leggja fram grófa áætlun en stofnar ekki og viðheldur sjálfkrafa ítarlegum áætlunum, byggðum á reglum um forgangsröðun eða bestun.  

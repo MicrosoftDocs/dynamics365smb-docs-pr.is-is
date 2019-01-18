@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c771db9256edfb6cc82f8d7a16a1fdd307d030b7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-costing-methods"></a>Hönnunarupplýsingar: Aðferð kostn.útreiknings
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/28/2018
 |Almennir eiginleikar|Auðskilið|Byggt á tímabilsvalkostum: **Dagur**/**/Vika/**/**Mánuður**/**/Ársfjórðungur/**/**Reikningstímabil**.<br /><br /> Hægt að reikna út á vöru , eða á vörueiningu/staðsetningu/afbrigði.|Einfalt í notkun en þarf gott viðhald.|Krefst vörurakningar á bæði færslur á innleið og útleið.<br /><br /> Venjulega notað fyrir vörur með raðnúmer.|  
 |Jöfnun/Leiðrétting|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Leiðrétting framsendir kostnað í samræmi við jöfnun magns.|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Kostnaður er reiknaður og sendur á **dagsetningu mats**|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Jöfnun byggist á FIFO.|Allar jafnanir eru fastar.|  
 |Endurmat|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að gera á vöru eingöngu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Uppreiknar innheimt og óreikningsfærðan magn.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|  
-|Ýmislegt|Ef birgðaminnkun er endurdagsett eru færslur sem fyrir eru EKKI endurjafnaðar til að setja fram rétt FIFO-kostnaðarflæði.|Ef birgðaaukning eða -minnkun er endurdagsett er meðalkostnaðurinn endurreiknaður og allar færslur sem verða fyrir áhrifum eru leiðréttar.<br /><br /> Ef tímabili eða gerð útreikninga er breytt verður að leiðrétta allar færslur sem verða fyrir áhrifum.|Notaðu **Staðlað vinnublað** glugga til að reglulegauppfæra og rúlla upp staðalkostnaði.<br /><br /> Er EKKI studd á birgðahaldseiningu.<br /><br /> Engar sögulegar færslur eru til staðar fyrir staðlaðan kostnað.|Hægt er að nota sértæka vörurakninguán þess að nota Tilgreinda aðferð kostnaðarútreiknings. Kostnaðurinn mun þá EKKI fylgja lotunúmerinu, heldur kostnaðaráætlun valinnar aðferðar kostnaðarútreiknings.|  
+|Ýmislegt|Ef birgðaminnkun er endurdagsett eru færslur sem fyrir eru EKKI endurjafnaðar til að setja fram rétt FIFO-kostnaðarflæði.|Ef birgðaaukning eða -minnkun er endurdagsett er meðalkostnaðurinn endurreiknaður og allar færslur sem verða fyrir áhrifum eru leiðréttar.<br /><br /> Ef tímabili eða gerð útreikninga er breytt verður að leiðrétta allar færslur sem verða fyrir áhrifum.|Notaðu síðuna **Staðlað vinnublað** til að uppfæra reglulega og taka saman staðalkostnaði.<br /><br /> Er EKKI studd á birgðahaldseiningu.<br /><br /> Engar sögulegar færslur eru til staðar fyrir staðlaðan kostnað.|Hægt er að nota sértæka vörurakninguán þess að nota Tilgreinda aðferð kostnaðarútreiknings. Kostnaðurinn mun þá EKKI fylgja lotunúmerinu, heldur kostnaðaráætlun valinnar aðferðar kostnaðarútreiknings.|  
 
 ## <a name="example"></a>Dæmi  
  Þessi hluti gefur dæmi um hvernig mismunandi kostnaðaraðferðir hafa áhrif birgðavirði.  

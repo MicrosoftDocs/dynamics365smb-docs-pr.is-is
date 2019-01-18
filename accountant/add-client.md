@@ -8,26 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/15/2018
+ms.date: 11/23/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: 00e0d0a131b586d3aee39b3d08064defff81814a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
 ms.contentlocale: is-is
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Bæta viðskiptamönnum við yfirlitið þitt í [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-Hægt er að bæta við viðskiptamönnum með því að nota **Viðskiptamenn** gluggann, sem hægt er að opna með því að velja **Stjórna viðskiptmönnum** aðgerðina á borðanum. Veljið **Nýtt** og fyllið svo inn í viðeigandi svæði.  
+Hægt er að bæta við viðskiptamönnum með því að nota **Viðskiptamenn** síðuna, sem hægt er að opna með því að velja **Hafa umsjón með viðskiptamönnum** aðgerðina á borðanum. Veljið **Nýtt** og fyllið svo inn í viðeigandi svæði.  
 
-![Bæta við viðskiptamanni](./media/accountant-add-client/manage-client.png)
+> [!div class="mx-imgBorder"]
+> ![Bæta við viðskiptamanni](./media/accountant-add-client/manage-client.png)
 
 Gögnin á spjaldi sérhvers viðskiptamanns er tiltekin af þér og þú getur breytt þeim að vild. Aftur á móti, reiturinn **Vefslóð viðskiptamanns** er mikilvægur - þannig færðu aðgang að [!INCLUDE [d365fin](includes/d365fin_md.md)] sérhvers viðskiptamanns  Notið **Vefslóð fyrir sannprófun viðskiptamanns** aðgerðina á borðanum til að sannreyna að um réttan hlekk sé að ræða. Vefslóðin sem þú verður að slá inn bendir á [!INCLUDE [d365fin](includes/d365fin_md.md)] viðskiptamanns og inniheldur aðsetur lénsins þeirra. Ef þeir hafa til dæmis tilgreint aðsetur á borð við MyBusiness.com, þá er tengillinn á [!INCLUDE [d365fin](includes/d365fin_md.md)] þeirra *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
 
 > [!NOTE]
->  Fyrir maí 2018 uppfærsluna var slóðin sem þú gafst upp á öðru sniði með heiti á fyrirtæki viðskiptamanns í upphafi. Með maí 2018 uppfærsluna er sniðið ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, þar sem ```clientdomain``` stendur fyrir aðsetur viðskiptamanns þíns.  
+>  Fyrir maí 2018 uppfærsluna var slóðin sem þú gafst upp á öðru sniði með heiti á fyrirtæki viðskiptamanns í upphafi. Í núverandi útgáfu af [!INCLUDE [d365fin](includes/d365fin_md.md)], er sniðið ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, þar sem ```clientdomain``` stendur fyrir lén viðskiptamanns þíns.  
 
 Vefslóð viðskiptamanns er síðan notuð þegar þú velur **Opna fyrirtæki** valmyndaratriðið í [!INCLUDE [d365acc](includes/d365acc_md.md)] yfirlitinu.  
 

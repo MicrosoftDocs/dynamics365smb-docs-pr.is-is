@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bóka þjónustupantanir og kreditreikninga
@@ -30,7 +30,7 @@ Ef þú ert með margar þjónustupantanir kemur sér vel að bóka þær í fj�
 ## <a name="to-post-a-service-order"></a>Þjónustupantanir bókaðar:    
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi þjónustupöntun.  
-3. Í glugganum **Þjónustupöntun** skal velja eina af eftirfarandi aðgerðum.  
+3. Á síðunni **Þjónustupöntun** er ein af eftirfarandi aðgerðum er valin.  
   
     |**Aðgerð**|**Niðurstaða**|  
     |------------------|----------------|  
@@ -91,13 +91,13 @@ Eftirfarandi aðferð lýsir hvernig á að bóka vörur, forðastundir og/eða 
   
 Eftirfarandi ferli sýnir hvernig eigi að bóka afhendingu þjónustulínuvara í birgðageymslum sem eru ekki settar upp þannig að þær krefjist meðhöndlunar vöruhúss.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupöntun** og veldu síðan tengda tengilinn. 2. Í glugganum fyrir völdu þjónustupöntunina er smellt á **Aðgerðir**, **Pöntun**, **Þjónustulínur**.  
-3. Í glugganum **Þjónustulínur** er leitað að færslunum sem þörf er á og þvínæst er magn til bókunar í reitnum **Magn til afhendingar**.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupöntun** og veldu síðan tengda tengilinn. 2. á síðunni fyrir völdu þjónustupöntunina er smellt á **Aðgerðir**, **Pöntun**, **Þjónustulínur**.  
+3. Á síðunni **Þjónustulínur** er leitað að færslunum sem þörf er á og þvínæst er magn til bókunar í reitnum **Magn til afhendingar**.  
   
    > [!NOTE]  
    >  Gildið fyrir magn til afhendingar veltur á því hvort ætlunin er að bóka afhendingu að hluta til eða til fulls. Ef afhending til fulls er valin verður gildið í reitnum **Magn til afhendingar** að vera hið sama og gildið í reitnum **Magn**. Ef afhending að hluta er bókuð verður að tilgreina magnið sem ætlunin var að afhenda í byrjun. Hafi hluti þjónustunnar þegar verið afhentur verður að skrá gildið í reitnum **Afhent magn**. Hámarksmagn sem hægt er að færa inn í reitinn **Magn til afhendingar** er fjöldi eininga sem á eftir að afhenda.  
   
-4. Smellt er á **Aðgerðir**, **Bókun**, **Bóka**. Í glugganum sem birtist skal velja **Afhenda**.  
+4. Smellt er á **Aðgerðir**, **Bókun**, **Bóka**. á síðunni sem birtist er smellt á **Afgreiða**.  
   
 [!INCLUDE[d365fin](includes/d365fin_md.md)] stofnar fjárhagsfærslur (í ábyrgðahöfuðbók, birgðahöfuðbók, þjónustuhöfuðbók eða fjárhag), framleiðir bókað þjónustuafhendingarfylgiskjal og uppfærir viðkomandi reiti í þjónustulínum þjónustupöntunarinnar.  
   

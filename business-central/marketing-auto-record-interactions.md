@@ -13,10 +13,10 @@ ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 28891eb7cef2faba6004cbf97480c438c58df892
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 996bf575d463be365b0bbcdbeef319491065b873
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Skrá sjálfvirkt samskipti við tengiliði
@@ -28,8 +28,8 @@ Hægt er að setja forritið upp til að skrá sjálfkrafa samskipti vegna sölu
 * Senda tölvupóst til tengiliða.
 * Hringja í tengiliði, að því gefnu að TAPI-samhæfur símabúnaður og rétt uppsetning séu fyrir hendi.
 
-Til að setja upp sjálfvirka skráningu þessara samskipta þarf að tilgreina samskiptasniðmát fyrir þau skjöl og aðgerðir með því að nota gluggann **Uppsetning samskiptasniðmáts**.  
-Til að opna gluggann **Uppsetning samskiptasniðmáts** Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning samskiptasniðmáts** og veldu síðan tengda tengilinn.
+Til að setja upp sjálfvirka skráningu þessara samskipta þarf að tilgreina samskiptasniðmát fyrir þau skjöl og aðgerðir með því að nota síðuna **Uppsetning samskiptasniðmáts**.  
+Til að opna síðuna **Uppsetning samskiptasniðmáts** Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning samskiptasniðmáts** og veldu síðan tengda tengilinn.
 
 ## <a name="see-also"></a>Sjá einnig
 [Skrá samskipti við tengiliði](marketing-interactions.md)  

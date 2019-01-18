@@ -8,27 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 58077ae917d7943e6dd2da06847dfbb0eef5defd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6cbce557e03788f760cb9f73dccf1619aa6a9e8c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-users-and-permissions"></a>Vinna með notendur og heimildir
 Til að bæta notendum í [!INCLUDE[d365fin](includes/d365fin_md.md)], verður kerfisstjóri Office 365 í fyrirtækinu fyrst að stofna notendur í stjórnstöð Office 365. Frekari upplýsingar, sjá [Bæta notendum við Office 365 for business](https://aka.ms/CreateOffice365Users).
 
-Þegar notendur hafa verið búnir til í Office 365, geta þeir verið fluttir inn í **Notendur** gluggann í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Notendum er úthlutað heimildarsöfnum samkvæmt áætlun sem notandanum er úthlutað í Office 365. Fyrir nánari upplýsingar um leyfisveitingu, sjá [Microsoft Dynamics 365 Business Central leyfishandbók](https://aka.ms/BusinessCentralLicensing).
+Þegar notendur hafa verið búnir til í Office 365 er hægt að flytja þá inn á síðunni **Notendur** í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Notendum er úthlutað heimildarsöfnum samkvæmt áætlun sem notandanum er úthlutað í Office 365. Fyrir nánari upplýsingar um leyfisveitingu, sjá [Microsoft Dynamics 365 Business Central leyfishandbók](https://aka.ms/BusinessCentralLicensing).
 
 Má því næst úthluta notendum heimildarsöfnum til að skilgreina hvaða hluti úr gagnagrunni, og þar með hvaða einingar Viðmótsins, þeir hafa aðgang að og í hvaða fyrirtækjum. Þú getur bætt notendum við notendahópa. Þannig er auðveldara að úthluta sama heimildarsöfn á mörgum notendum.
 
 Heimildasafn er safn heimildir fyrir tiltekna hluti í gagnagrunninum. Öllum notendum verða að hafa verið úthlutað eitt eða fleiri heimildasöfn áður en þeir geta opnað [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Frá **Notandakort** glugganum geturðu opnað **Virkar heimildir** gluggann til að sjá hvaða heimildir notandinn hefur og í gegnum hvaða heimildasamstæður þau eru veitt. Hér getur þú einnig breytt heimildarupplýsingum fyrir heimildarsamstæður af tegundinni **Notandaskilgreint**. Nánari upplýsingar er að finna í „Skoða eða breyta heimildum notanda“ hlutanum.
+Frá **Notandakort** síðunni geturðu opnað **Virkar heimildir** síðuna til að sjá hvaða heimildir notandinn hefur og í gegnum hvaða heimildasamstæður þau eru veitt. Hér getur þú einnig breytt heimildarupplýsingum fyrir heimildarsamstæður af tegundinni **Notandaskilgreint**. Nánari upplýsingar er að finna í „Skoða eða breyta heimildum notanda“ hlutanum.
 
-Stjórnendur geta notað **Notandauppsetningu** gluggann til að skilgreina tímabil þegar tilgreindir notendur geta bókað, og geta einnig tilgreint hvort kerfið skrái tímann sem notandinn er skráður inn.
+Stjórnendur geta notað **Notandauppsetningu** síðuna til að skilgreina tímabil þegar tilgreindir notendur geta bókað, og geta einnig tilgreint hvort kerfið skrái tímann sem notandinn er skráður inn.
 
 Annað kerfi sem skilgreinir hvað notendur geta nálgast er upplifunarstillingin. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
@@ -36,15 +36,15 @@ Annað kerfi sem skilgreinir hvað notendur geta nálgast er upplifunarstillingi
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **notendur** og veldu síðan tengda tengilinn.
 2. Veldu **Fá notendur frá Office 365** aðgerð.
 
-Sérhver nýr notandi sem hefur verið búinn til fyrir Office 365 áskriftina þína verður bætt í **Notendur** gluggann.
+Sérhver nýr notandi sem hefur verið búinn til fyrir Office 365 áskriftina þína verður honum bætt við á síðunni **Notendur**.
 
 ## <a name="to-group-users-in-a-user-group"></a>Til hópanotenda í notendahóp
 Þú getur sett upp notendahópa til að hjálpa þér að stjórna heimildasamstæðum fyrir hópa notenda í fyrirtæki þínu.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendahópar** og veldu síðan tengda hlekkinn.
-2. Einnig, í glugganum **Notendur**, veldu aðgerðina **Notandaflokkar**.
-3. Í glugganum **Notandaflokkur** er valin aðgerðin **Meðlimir notandaflokks**.
-4. Í glugganum **Meðlimir notandaflokks** er valin aðgerðin **Bæta við notendum**.
+2. Einnig, á síðunni **Notendur**, veldu aðgerðina **Notandaflokkar**.
+3. Á síðunni **Notandaflokkur** er valin aðgerðin **Meðlimir notandaflokks**.
+4. Á síðunni **Meðlimir notandaflokks** er valin aðgerðin **Bæta við notendum**.
 
 Þegar notendur eða notendahópar eru búnar til þarftu að úthluta heimildasamstæðum til hvers þeirra, til að skilgreina hvaða hlutur notandi getur nálgast. Fyrst verður þú að skipuleggja viðeigandi heimildir í heimildasamstæðum. Nánari upplýsingar er að finna í kaflanum „Til að búa til eða breyta heimildasamstæðu“.
 
@@ -57,17 +57,17 @@ Meðlimir úr notendaflokki eru ekki afritaðar í nýja notendaflokkinn. Þú v
 2. Veldu notendaflokkinn sem þú vilt afrita og veldu síðan aðgerðina **Afrita notendaflokk**.
 3. Í reitinn **Nýr kóði notendaflokks** skal færa inn heiti fyrir flokkinn og velja síðan hnappinn **Í lagi**.
 
-Nýja notendaflokknum er bætt við gluggann **Notendaflokkar**. Halda áfram að bæta við notendum. Nánari upplýsingar er að finna í kaflanum „Að flokka notendur í notendaflokka“.  
+Nýja notendaflokknum er bætt við síðuna **Notendaflokkar**. Halda áfram að bæta við notendum. Nánari upplýsingar er að finna í kaflanum „Að flokka notendur í notendaflokka“.  
 
 ## <a name="to-set-up-user-time-constraints"></a>Til að setja upp tímaskorður notanda
 Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað, og geta einnig tilgreint hvort kerfið skrái tímann sem notandinn er skráður inn. Stjórnendur geta einnig úthlutað ábyrgðarstöðvum á notendur. Frekari upplýsingar eru í [Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md).
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notandauppsetning** og veldu síðan tengda tengilinn.
-2. Í glugganum **Notandauppsetning** opnast, skal velja **Nýtt** aðgerð.
-3. Í reitnum **Kenni notanda**, skal færa inn kenni notanda, eða velja reitinn til að sjá alla núverandi Windows notendur innan kerfisins.
-4. Fyllið inn í reitina eftir þörfum.
+2. Á síðunni **Notandauppsetning** opnast, skal velja **Nýtt** aðgerð.
+3. Í reitnum **Kenni notanda**, skal færa inn auðkenni notanda, eða velja reitinn til að sjá alla núverandi notendur Windows í kerfinu.
+4. Fyllið inn reitina eftir þörfum.
 
-## <a name="to-create-or-edit-a-permission-set"></a>Að búa til eða breyta heimildasamstæðu
+## <a name="to-create-or-modify-a-permission-set"></a>Að búa til eða breyta heimildasamstæðu
 Heimildasamstæður virka sem geymir fyrir heimildir, svo að þú getir auðveldlega stjórnað mörgum heimildum í einni skrá. Þegar þú hefur búið til heimildasamstæðu verður þú að bæta við raunverulegum heimildum. Nánari upplýsingar er að finna í hlutanum „Að búa til eða breyta heimildum“.
 
 > [!NOTE]  
@@ -84,15 +84,17 @@ Heimildasamstæður sem notendur búa til, ný eða sem afrit, eru af gerðinni 
 > [!NOTE]  
 > Ef heimildasamstæða Kerfis sem þú hefur afritað er breytt, færð þú senda tilkynning (eftir vali þínu), svo að þú getir íhugað hvort breytingarnar séu viðeigandi til að afrita eða skrifa inn í notendaskilgreinda heimildasamstæðu þína.
 
-1. Í **heimildasamstæður** gluggi, velja línuna fyrir heimildasamstæðu sem þú vilt afrita og síðan velja **Afrita heimildasamstæðu** aðgerðina.
-2. Í **Afrita heimildasamstæðu** glugga, tilgreindu nafn hins nýja heimildasamstæðu, og þá velja **Í lagi** hnappinn.
+1. Á síðunni **heimildasamstæður** skaltu velja línuna fyrir heimildasamstæðu sem þú vilt afrita og síðan velja **Afrita heimildasamstæðu** aðgerðina.
+2. Á síðunni **Afrita heimildasamstæðu** skaltu tilgreina nafn hinna nýju heimildasamstæðu, og þá velja **Í lagi** hnappinn.
 3. Veldu **tilkynna um breyttan heimildasamstæðu** gátreitinn ef þú vilt viðhalda tengil á milli upprunalegu og afrituðu heimildasamstæðanna. Tengillinn er síðan notaður til að láta þig vita ef nafnið eða innihald upprunalegu heimildasamstæðu breytist í framtíðarútgáfunni sem lausnin er uppfærð í seinna.
 
-Nýja heimildasamstæðan, sem inniheldur öll heimildir afritaðs heimildasamstæðu, er bætt við sem nýr lína í **heimildasamstæða** gluggann. Athugaðu að línurnar eru flokkaðar í stafrófsröð innan hvers tegundar.
+Nýja heimildasamstæðan, sem inniheldur öll heimildir afritaðs heimildasamstæðu, er bætt við sem ný lína á síðunni **heimildasamstæða**. Athugaðu að línurnar eru flokkaðar í stafrófsröð innan hvers tegundar.
 
-## <a name="to-create-or-edit-permissions"></a>Til að búa til eða breyta heimildum
-1. Í **heimildasamstæður** gluggi, velja línuna fyrir heimildasamstæðu, og þá velja **heimildir** aðgerð.
-2. Í glugganum **Heimildir**, búðu til nýjan línu eða breyttu reitum á núverandi línu.
+## <a name="to-create-or-modify-permissions-manually"></a>Til að stofna eða breyta heimildum handvirkt
+Þetta ferli útskýrir hvernig á að bæta við eða breyta heimildum handvirkt. Þú getur einnig fengið heimildasamstæður sem eru myndaðar sjálfkrafa úr aðgerðum þínum í notendaviðmótinu. Nánari upplýsingar er að finna í hlutanum „Að búa til eða breyta heimildasamstæðum með því að skrá aðgerðir þínar“.
+
+1. Á síðunni **heimildasamstæður** skal velja línuna fyrir heimildasamstæðu, og þá velja **heimildir** aðgerð.
+2. Á síðunni **Heimildir**, búðu til nýjan línu eða breyttu reitum á núverandi línu.
 
 Í hverju af fimm reitum yfir aðgangstegundir, **Lesa heimild** , **Setja inn heimild**, **Breyta heimild**, **Eyða leyfi** og **Framkvæma heimildir**, þú getur valið eitt af eftirfarandi þremur heimildarvalkostum:
 
@@ -102,31 +104,51 @@ Nýja heimildasamstæðan, sem inniheldur öll heimildir afritaðs heimildasamst
 |**Óbeint**|Notandinn getur framkvæmt aðgerðina á hlutnum sem um ræðir en aðeins í gegnum aðra tengda hlut sem notandinn hefur fulla aðgang að.|Næst hæsta|
 |**Autt**|Notandinn getur ekki framkvæmt aðgerðina á hlutnum sem um ræðir.|Lægstur|
 
+### <a name="example---indirect-permission"></a>Dæmi - Óbein heimild
+Hægt er að úthlutað óbeinni heimild til að nota hlut aðeins í gegnum annan hlut.
+Til dæmis getur notandi haft heimild til að keyra kótaeiningu 80, Sala-bókun. Sölubókun framkvæmir mörg verk, þar á meðal að breyta töflu 37, Sölulína. Þegar notandinn bókar söluskjal athugar kóðaeining sölu-bókunar, [!INCLUDE[d365fin](includes/d365fin_md.md)], hvort að notandinn hafi heimild til að breyta töflu sölulínu. Ef svo er ekki getur kótaeiningin ekki lokið við verkefni sín og þá munu villuboð birtast notandanum. Ef svo er verður kótaeiningin keyrð.
+
+Hins vegar þarf notandi ekki að hafa ótakmarkaðan aðgang að töflunni Sölulína til að keyra kótaeininguna. Ef notandinn hefur óbeina heimild fyrir töflu sölulínu keyrir kóðaeiningin Sala-bókun án vandræða. Þegar notandi hefur óbeina heimild, getur sá notandi aðeins breytt töflunni Sölulína með því að keyra Sölubókun kóðaeiningunni eða annan hlut sem hefur heimild til að breyta töflunni Sölulína. Notandinn getur aðeins breytt töflunni Sölulína frá studdum forritssvæðum. Notandinn getur ekki keyrt eiginleikann óvart eða í sviksamlegum tilgangi á annan hátt.
+
+## <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Að stofna eða breyta heimildasöfn með skráning við aðgerðir þínar
+1.  Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Heimildasamstæður**, og veldu síðan tengda hlekkinn.
+2.  Einnig, á síðunni **Notendur**, veldu aðgerðina **Heimildarsöfn**.
+3.  Á síðunni **Heimildarsöfn**, veldu aðgerðina **Nýtt**.
+4.  Fyllið í reitina eftir þörfum í nýrri línu.
+5.  Veljið aðgerðina **Heimildir**.
+6.  Á síðunni **Heimildir** skal velja aðgerðina **Skrá heimildir** og velja svo aðgerðina **Byrja**.
+
+    Þetta setur af stað skráningarferli sem heldur utan um allar aðgerðir þínar í notandaviðmótinu.
+7.  Farðu á hinar ýmsu síður og aðgerðir í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem þú vilt að notendur með þessa heimildasamstæðu fái aðgang að. Þú verður að ljúka verkinu sem ætlunin er að skrá heimildir fyrir.
+8.  Þegar á að ljúka við skráningu er farið aftur á síðuna **Heimildir** og svo valið **Stöðva** aðgerðina.
+9.  Velja **Já** hnappinn til að bæta skráð heimildir við nýja heimildasafnið.
+10. Fyrir hvern hlutar á skráningar listanum, tilgreinið ef notendur geta sett inn, breytt eða eytt skráningum í skráningartöflunum.
+
 > [!NOTE]  
 > Þegar þú breytir heimild og þar með tengdum heimildasamstæðu munu breytingarnar einnig eiga við um aðra notendur sem hafa heimildasamstæðu úthlutað.
 
 ## <a name="to-assign-permission-sets-to-users-or-user-groups"></a>Til að úthluta heimildasamstæðu til notenda eða notendahópa
 Þú getur úthlutað heimildum til notenda á tvo vegu:
 - Skilgreindu heimildasamstæður á notandakort notandans.
-- Veldu gátreitinn fyrir notanda, í dálki, fyrir tengda heimildasamstæðu, í röð, í **heimildasamstæða eftir notanda** glugga.
+- Veldu gátreitinn fyrir notanda, í dálki, fyrir tengda heimildasamstæðu, í línu, á síðunni **Heimildasamstæða eftir notanda**.
     Með þessari aðferð er einnig hægt að úthluta heimildir fyrir notendahópa.
 
 ### <a name="to-assign-a-permission-set-on-a-user-card"></a>Til að úthluta heimildasamstæðu á notendakorti
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **notendur** og veldu síðan tengda tengilinn.
 2. Veldu notandann sem á að úthluta á þessum viðskiptamanni til.
 Öll heimildasöfn sem er nú þegar úthlutuð til notandans eru birtar í upplýsingakassanum **Heimildasöfn**.
-3. Veldu **breyta** aðgerðina til að opna gluggann **Notandapjald** .
+3. Veldu **breyta** aðgerðina til að opna síðuna **Notandapjald** .
 4. Á flýtiflipanum **Heimildasöfn notanda** skal fylla út reitina eins og þörf krefur í nýrri línu. Nánari upplýsingar er að finna í kaflanum „Til að búa til eða breyta heimildasamstæðu“.
 
-### <a name="to-assign-a-permission-set-in-the-permission-set-by-user-window"></a>Til að úthluta heimildasamstæðu í **Heimildasamstæða eftir notanda** glugganum  
-Eftirfarandi ferli útskýrir hvernig á að úthluta heimildasamstæðum til notanda í **heimildasamstæðu eftir notanda** glugganum. Skrefin eru svipuð í **heimildasamstæða eftir notendahópi** glugganum.
+### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Til að úthluta heimildasamstæðu á síðunni **Heimildasamstæða eftir notanda**  
+Eftirfarandi ferli útskýrir hvernig á að úthluta heimildasamstæðum til notanda á síðunni **heimildasamstæðu eftir notanda**. Skrefin eru svipuð á síðunni **heimildasamstæða eftir notendahópi**.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **notendur** og veldu síðan tengda tengilinn.
-2. Í **Notendur** gluggi, veldu viðeigandi notanda, og þá velja **heimildasamstæða eftir notanda** aðgerð.
-3. Í **heimildasamstæða eftir notanda** glugganum, veldu **[notandanafnið]** gátreitinn á línu fyrir viðkomandi heimildasamstæðu til að tengja samstæðuna við notandann.
+2. Á síðunni **Notendur** skal velja viðeigandi notanda, og þá velja aðgerðina **Heimildasamstæða eftir notanda**.
+3. Á síðunni **heimildasamstæða eftir notanda** veldu **[notandanafnið]** gátreitinn á línu fyrir viðkomandi heimildasamstæðu til að tengja samstæðuna við notandann.
 4. Veldu **Allir notendur** gátreitinn til að úthluta heimildasamstæðunni til allra notenda.
 
-## <a name="to-view-or-edit-a-users-permissions"></a>Til að skoða eða breyta heimildum notanda
+## <a name="to-get-an-overview-of-a-users-permissions"></a>Fá yfirlit yfir heimildir notanda
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **notendur** og veldu síðan tengda tengilinn.
 2. Opnaðu kort viðkomandi notanda.
 3. Velja **Virkar heimildir** aðgerð.
@@ -143,14 +165,15 @@ Eftirfarandi ferli útskýrir hvernig á að úthluta heimildasamstæðum til no
 
 4. Til að breyta heimildasamstæðu skaltu í **Eftir heimildasamstæðu** hlutanum, á línu fyrir viðeigandi heimildasamstæðu af tegund **Notandaskilgreint**, skaltu velja einn af fimm reitum aðgangsgerðar og velja annað gildi.
 
-5. Til að breyta einstökum heimildum innan heimildasamstæðunnar skaltu velja gildi í **heimildasamstæðu** reitnum til að opna **Heimildir** gluggann. Fylgdu leiðbeiningunum sem lýst er í hlutanum „Að búa til eða breyta heimildum“.  
+5. Til að breyta einstökum heimildum innan heimildasamstæðunnar skaltu velja gildi í **heimildasamstæðu** gluttanum til að opna **Heimildir** gluggann. Fylgdu leiðbeiningunum sem lýst er í hlutanum „Að búa til eða breyta heimildum“.  
 
 > [!NOTE]  
 > Þegar þú breytir heimildasamstæðu munu breytingarnar einnig eiga við um aðra notendur sem hafa heimildarsamstæðuna úthlutað.
 
 ## <a name="see-also"></a>Sjá einnig
+[Að skilja notendur, forstillingar og Mitt hlutverk](admin-users-profiles-roles.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
-[Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)   
+[Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Stjórnun](admin-setup-and-administration.md)  
 [Bæta notendum við Office 365 fyrir fyrirtæki](https://aka.ms/CreateOffice365Users)  
 [Microsoft Dynamics 365 Business Central leyfishandbók](https://aka.ms/BusinessCentralLicensing)

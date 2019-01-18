@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2e7bb4a1e4dff97167c7648d5b1c4c8250d6819b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defer-revenues-and-expenses"></a>Fresta tekjum og öðrum útgjöldum
@@ -36,12 +36,12 @@ Fyrir báðar gerðir deferral, velja **Efnahagsreikningur** í reitnum **Tegund
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát frestunar** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Fyllið inn í svæðin eftir þörfum.
-4. Í á **Reikningsaðferð** er tilgreint hvernig **Upphæð** á hverju tímabili í á **Deferral Áætlun** glugganum reiknuð. Hægt er að velja um eftirfarandi kosti:
+4. Á síðunni **Reikningsaðferð** er tilgreint hvernig **Upphæð** á hverju tímabili í á **Deferral Áætlun** glugganum reiknuð. Hægt er að velja um eftirfarandi kosti:
 
    * **Línuleg**: reglubundin deferral upphæðir eru reiknaðar fjölda tímabila dreift eftir lengd tímabils.
    * **Línuleg**: reglubundin deferral upphæðir eru reiknaðar fjölda tímabila dreift eftir lengd tímabils.
    * **Línuleg**: reglubundin deferral upphæðir eru reiknaðar fjölda tímabila dreift eftir lengd tímabils.
-   * **Notandi Skilgreinir**: reglubundin deferral upphæðir eru ekki reiknaðir. Handvirkt þarf að fylla inn í reitinn **Upphæð** fyrir hvert tímabil í glugganum Frestunaráætlun. Frekari upplýsingar má fá í hlutanum "til Að breyta tímaáætlun deferral úr sölureikningi".
+   * **Notandi Skilgreinir**: reglubundin deferral upphæðir eru ekki reiknaðir. Handvirkt þarf að fylla inn í reitinn **Upphæð** fyrir hvert tímabil á síðunni Frestunaráætlun. Frekari upplýsingar má fá í hlutanum "til Að breyta tímaáætlun deferral úr sölureikningi".
 5. Í reitnum **Lýsing á tímabili** skal tiltaka lýsingu sem verður birt í færslum fyrir bókun frestunar. Má færa kóta eftirfarandi frátaka fyrir dæmigerðum gildi sem er settur sjálfkrafa þegar tímabil lýsing birtist.
 
    * Tilgreinir bókunardagsetningu fylgiskjalsins.
@@ -67,7 +67,7 @@ Fyrir báðar gerðir deferral, velja **Efnahagsreikningur** í reitnum **Tegund
 
     Takið eftir að um leið og er að færa inn vöru (eða forða eða fjárhagsreiknings) í reikningslínunni, er **Deferral Kóta** fyllist með kóti sniðmáts deferral var úthlutað.
 3. Valið er **Deferral Áætlun** aðgerð.
-4. Í á **Deferral Áætlun** glugganum stillingar breytt í hausnum eða gildin í línunum, til dæmis til að defer upphæðinni öðrum reikningstímabil.
+4. Á síðunni **Deferral Áætlun** stillingar breytt í hausnum eða gildin í línunum, til dæmis til að fresta upphæðinni á annað reikningstímabil.
 5. Valið er **Deferral Áætlun** aðgerð.
 6. Velja hnappinn **Í lagi**. Áætlun deferral uppfærður til reikningnum. Sniðmát tengdar deferral er óbreytt.
 
@@ -75,8 +75,8 @@ Fyrir báðar gerðir deferral, velja **Efnahagsreikningur** í reitnum **Tegund
 > [!NOTE]  
 >   Liðir í þessu ferli eru þeir sömu og þegar þú forskoðar hvernig kostnaðarfrestanir eru bókaðar.
 
-1. Í reitnum **Bókaður Sölureikningur** er valið **leiðrétta** aðgerð.
-2. Í reitnum **Forskoðun Bókunar** , valin **Fjárhagsfærsla**, og velja síðan **Sýna Tengdar Færslur**.
+1. Á síðunni **Sölureikningur** er valin aðgerðin **Forskoðun bókunar**.
+2. Á síðunni **Forskoðun bókunar** er valin aðgerðin **Fjárhagsfærsla** og síðan valin aðgerðin **Sýna tengdar færslur**.
 
 Fjárhagsfærslur sem á að bóka á tilgreindan frestunarreikning, til dæmis Óinnleystra Tekna, eru merktar með lýsingunni sem þú færðir inn í reitinn **Lýsing á tímabili** í frestunarsniðmátinu, til dæmis, „Útgjöldum frestað fyrir febrúar 2016“.
 
@@ -85,7 +85,7 @@ Fjárhagsfærslur sem á að bóka á tilgreindan frestunarreikning, til dæmis 
 >   Liðir í þessu ferli eru þeir sömu og þegar þú endurskoðar skýrslu um samantekt á innkaupafrestun.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Samantekt frestunar sölu** og veldu síðan tengda tengilinn.
-2. Í á **Deferral yfirlit Yfir Sölu** glugga í á **Staða sem er af** er færð inn dagsetningin þegar á að skoða deferred tekjur.
+2. Á síðunni **Samantekt frestunar sölu** í reitnum **Staða frá og með** skal færa inn dagsetninguna upp að því marki sem þú vilt skoða frestaðar tekjur.
 3. Veldu hnappinn **Vista**.
 
 ## <a name="see-also"></a>Sjá einnig

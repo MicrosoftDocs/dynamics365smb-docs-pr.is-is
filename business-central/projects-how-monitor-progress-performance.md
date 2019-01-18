@@ -11,10 +11,10 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 065f6cc5dc11af1a9cddf2b3eed2b20e99912960
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 79e5a1e34fbd6c119be52deec60bba494fdd2671
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="monitor-job-progress-and-performance"></a>Fylgst með framvindu og afköstum
@@ -40,7 +40,7 @@ Hægt er að búa til VÍV-aðferð sem endurspeglar þarfir fyrirtækisins. Þe
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk VÍV-aðferðir** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Glugganum er lokað.   
+3. Lokaðu síðunni.   
 4. Til að gera þetta að sjálfgefinni aðferð velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning verka** og veldu síðan tengda tengilinn.  
 5. Í reitnum **Sjálfgefin vÍv-aðferð** veljið aðferðina af listanum.
 
@@ -49,14 +49,14 @@ Hægt er að búa til VÍV-aðferð sem endurspeglar þarfir fyrirtækisins. Þe
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð. Frekari upplýsingar eru í [Stofna verk](projects-how-create-jobs.md).  
-3. Í glugganum **Verkspjald** skal velja VÍV-aðferð úr listanum í reitnum **VÍV-aðferð**. Ef sjálfgefin aðferð hefur verið skilgreind er hægt að velja annan valkost ef þess gerist þörf.  
+3. Á síðunni **Verkspjald** skal velja VÍV-aðferð úr listanum í reitnum **VÍV-aðferð**. Ef sjálfgefin aðferð hefur verið skilgreind er hægt að velja annan valkost ef þess gerist þörf.  
 
 ## <a name="to-calculate-wip"></a>Útreikningur VÍV
 Hægt er að ákvarða VÍV-upphæð sem bóka skal á efnahagsreikning fyrir árslokaskýrslu. Þetta má gera með því að nota keyrsluna **Verkreikna VÍV**.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkreikna VÍV** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Reikna VÍV**.
-3. Í glugganum **Verk - Reikna VÍV** þarf að fylla reitina út eins og þörf krefur.
+3. Á síðunni **Verk - Reikna VÍV** þarf að fylla reitina út eins og þörf krefur.
 4. Velja hnappinn **Í lagi**.  
 
 > [!NOTE]  
@@ -66,7 +66,7 @@ Hægt er að ákvarða VÍV-upphæð sem bóka skal á efnahagsreikning fyrir á
 Þegar VÍV hefur verið reiknað er hægt að bóka það á efnahagsreikning fyrir árslokaskýrslu. Þetta má gera með því að nota keyrsluna **Bóka VÍV á fjárhag**.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbóka VÍV í fjárhag** og veldu síðan tengda tengilinn.  
-2. Í glugganum **Verk - Bóka VÍV í fjárhag** skal fylla reitina út eins og þörf krefur.  
+2. Á síðunni **Verk - Bóka VÍV í fjárhag** skal fylla reitina út eins og þörf krefur.  
 3. Velja hnappinn **Í lagi**.
 
 ## <a name="to-view-job-usage-estimates-and-post-updates"></a>Til að skoða áætlanir um verknotkun og bóka uppfærslur
@@ -79,7 +79,7 @@ Skoða má verknotkun allt að lokum verkefnis í einu skrefi. Til þess er notu
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.  
 2. Veljið viðeigandi verkbók og veljið svo aðgerðina **Reikna eftirstandandi notkun**.  
-3. Í glugganum **Verk - Reikna eftirstandandi notkun** skal slá inn númer skjalsins og bókunardagsetninguna sem færa skal í bókina og velja svo hnappinn **Í lagi**.  
+3. Á síðunni **Verk - Reikna eftirstandandi notkun** skal slá inn númer skjalsins og bókunardagsetninguna sem færa skal í bókina og velja svo hnappinn **Í lagi**.  
 4. Uppfærið bókina með þeim breytingum sem kann að vera þörf á.  
 5. Veljið **Bókun**.
 
@@ -89,7 +89,7 @@ Allar færslur sem tengjast verki eru skráðar í verkdagbækur og tölusettar 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkdagbækur** og veldu síðan tengda tengilinn.
 2. Valin er viðeigandi dagbók og síðan skal velja aðgerðina **Verklínur**.
 
-Í glugganum **Verkfærslur** er hægt að fara yfir færslur sem tengjast verki.  
+Á síðunni **Verkfærslur** er hægt að fara yfir færslur sem tengjast verki.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Verkefnum stjórnað](projects-manage-projects.md)

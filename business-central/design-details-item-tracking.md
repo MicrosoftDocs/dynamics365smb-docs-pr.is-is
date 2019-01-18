@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bdf0ab2dc31a9060bb50088e57eece26ee671985
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking"></a>Hönnunarupplýsingar: vörurakning
@@ -28,7 +28,7 @@ Vörurakningarkerfi á að auðvelda fyrirtæki afgreiðslu á rað- og lotunúm
 [Hönnunarupplýsingarn: vörurakning hönnun](design-details-item-tracking-design.md)  
 [Hönnunarupplýsingar: bókunarstrúktúr vörurakningar](design-details-item-tracking-posting-structure.md)  
 [Hönnunarupplýsingar: Virk móti sögulegum vörurakningarfærslum](design-details-active-versus-historic-item-tracking-entries.md)  
-[Hönnunarupplýsingar: vörurakningarlínur gluggi](design-details-item-tracking-lines-window.md)  
+[Hönnunarupplýsingar: síða vörurakningarlína](design-details-item-tracking-lines-window.md)  
 [Hönnunarupplýsingar: vörurakning framboð](design-details-item-tracking-availability.md)  
 [Hönnunarupplýsingar: vörurakning og áætlun](design-details-item-tracking-and-planning.md)  
 [Hönnunarupplýsingar: vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  

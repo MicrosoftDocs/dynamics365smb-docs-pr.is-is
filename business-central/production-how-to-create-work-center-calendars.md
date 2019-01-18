@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Setja upp dagatal verkstæðis
@@ -39,7 +39,7 @@ Jafnvel þótt vinnustöðvarnar noti ekki vaktaskipulag þarf að færa inn a.m
 2.  Númer er fært inn í reitinn **Kóti** á auðri línu til að auðkenna dagatal verkstæðis.  
 3.  Dagatali verkstæðisins er lýst í reitnum **Lýsing**.  
 4.  Velja aðgerðina **vinnudagar**.
-5.  Í glugganum **Dagatal verkstæðis vinnudagar**, skal skilgreina heila vinnuviku, með upphafs- og lokatíma fyrir hvern dag.  
+5.  Á síðunni **Dagatal verkstæðis vinnudagar**, skal skilgreina heila vinnuviku, með upphafs- og lokatíma fyrir hvern dag.  
 
     Í reitnum **Vaktakóti** er hægt að velja einn af vöktunum sem áður voru skilgreind. Bæta við línu fyrir hvern vinnudag og hverja vakt. Dæmi:  
 
@@ -55,10 +55,10 @@ Jafnvel þótt vinnustöðvarnar noti ekki vaktaskipulag þarf að færa inn a.m
 
     Allir vikudagar sem ekki eru tilgreindir í dagatali verkstæðis, t.d. laugardagur og sunnudagur, eru teknir sem frídagar og hafa enga mögulega afkastagetu í dagatali vinnustöðvar.  
 
-    Þegar allir vinnudagar hafa verið skilgreindir má loka glugganum  **Vinnudagar í verkstæðisáætlun** og byrja að færa inn frídaga:  
+    Þegar allir vinnudagar hafa verið skilgreindir má loka síðunni **Vinnudagar í verkstæðisáætlun** og byrja að færa inn frídaga.  
 
-6.  Í glugganum **Dagatöl verkstæðis** veljið dagatal verkstæðisins og veljið síðan **Frídagar** aðgerðina.
-7. Í glugganum **Dagatal verkstæðis frídagar** skal skilgreina frídaga ársins með því að slá inn upphafs- og lokadagsetningu/-tíma þeirra og lýsingu á hverjum frídegi í hverja línu fyrir sig. Dæmi:  
+6.  Á síðunni **Dagatöl verkstæðis** veljið dagatal verkstæðisins og veljið síðan **Frídagar** aðgerðina.
+7. Á síðunni **Dagatal verkstæðis frídagar** skal skilgreina frídaga ársins með því að slá inn upphafs- og lokadagsetningu/-tíma þeirra og lýsingu á hverjum frídegi í hverja línu fyrir sig. Dæmi:  
 
     04/07/14 0:00:00 23:59:00 sumarfrí  
     05/07/14 0:00:00 23:59:00 sumarfrí  
@@ -74,12 +74,12 @@ Nú er hægt að úthluta dagatali verkstæðis á vinnustöð til útreiknings 
 2. Opna vinnustöðina sem á að uppfæra.  
 3. Í reitnum **Dagatalskóti verkstæðis**, er valið hvaða dagatal verkstæði notar sem grunn fyrir dagatal vinnustöðvar.  
 4. Veljið aðgerðina **Dagatal**.  
-5. Í glugganum **Dagatal vinnustöðvar**, skal velja **Sýna fylki** aðgerðina.  
+5. Á síðunni **Dagatal vinnustöðvar**, skal velja **Sýna fylki** aðgerðina.  
 
-    Vinstra megin í fylkjaglugganum má sjá uppsettar vinnustöðvar. Hægra megin er dagatal sem birtir tiltæk getugildi fyrir hvern vinnudag í skilgreindri mælieiningu, til dæmis **480** mínútur. Hver lína táknar dagatal einnar vinnustöðvar.  
+    Vinstra megin á fylkjasíðunni má sjá uppsettar vinnustöðvar. Hægra megin er dagatal sem birtir tiltæk getugildi fyrir hvern vinnudag í skilgreindri mælieiningu, til dæmis **480** mínútur. Hver lína táknar dagatal einnar vinnustöðvar.  
 
     > [!NOTE]  
-    >  Einnig er hægt að skoða gildi afkastagetu fyrir hverja viku eða mánuð með því að breyta valinu í reitnum **Skoða eftir** í glugganum **Dagatal vinnustöðvar**.  
+    >  Einnig er hægt að skoða gildi afkastagetu fyrir hverja viku eða mánuð með því að breyta valinu í reitnum **Skoða eftir** á síðunni **Dagatal vinnustöðvar**.  
 
     Til að sýna nýtt dagatal verkstæðis sem línu á valdri vinnustöð verður það fyrst að vera reiknað.  
 
@@ -97,13 +97,13 @@ Dagatalsfærslur eru nú búnar til (eða þær uppfærðar) og sýna þær mög
 Reiknað dagatal vinnustöðvar skilgreinir nú hvenær og hversu mikil afkastageta er til staðar í þessari vinnustöð. Þetta stýrir ítarlegri röðun aðgerða sem framkvæmdar eru í vinnustöðinni.  
 
 ## <a name="to-record-work-center-absence"></a>Fjarvistir í vinnustöð skráðar  
-1.  Í glugganum **Dagatal vinnustöðvar**, skal velja **Sýna fylki** aðgerðina.
-2. Í glugganum **Dagatal vinnustöðvar fylki** er valin vinnustöð sem og sá dagur dagatalsins sem skrá á fjarvistina á og svo er smellt á aðgerðina **Fjarvist**.  
-3.  Í glugganum **Fjarvist** er tilgreindur upphafs- og lokatími fjarvistar þessa dags sem og lýsing á henni. Dæmi:  
+1.  Á síðunni **Dagatal vinnustöðvar**, skal velja **Sýna fylki** aðgerðina.
+2. Á síðunni **Dagatal vinnustöðvar fylki** er valin vinnustöð sem og sá dagur dagatalsins sem skrá á fjarvistina á og svo er smellt á aðgerðina **Fjarvist**.  
+3.  Á síðunni **Fjarvist** er tilgreindur upphafs- og lokatími fjarvistar þessa dags sem og lýsing á henni. Dæmi:  
 
     25/01/01 08:00 10:00 viðhald  
 
-4.  Velja **Uppfæra** aðgerðina og síðan loka **Fjarvist** glugganum.  
+4.  Velja **Uppfæra** aðgerðina og síðan loka **Fjarvist** síðunni.  
 
 Afkastageta þessa dags hefur nú minnkað í samræmi við skráðan fjarvistartíma.  
 

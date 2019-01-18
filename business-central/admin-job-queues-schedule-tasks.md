@@ -11,24 +11,24 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ad0f99509ff1a191c62dd1c3a6d569c9884ea851
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Nota verkraðir til að tímaraða verkhlutum
 Verkraðir í [!INCLUDE[d365fin](includes/d365fin_md.md)] gera notendum kleift að tímasetja og keyra tilteknar skýrslur og kótasöfn. Stilla má verk svo þau keyri einu sinni eða endurtekið. Til dæmis kann notandi að vilja keyra skýrslu yfir **Sölutölur sölumanns** vikulega, að rekja sölu sölumanns í hverri viku eða keyra kóðaeininguna **Úrvinnsla þjónustupóstraðar** daglega, til að tryggja að tölvupóstur sem bíður á leið til viðskiptamanna, varðandi þjónustupantanir þeirra, sé sendur út tímanlega.  
 
 ## <a name="add-jobs-to-the-job-queue"></a>Bæta við verkum í verkröð.
-Glugginn **Verkraðarfærslur** birtir öll núverandi verk. Ef bætt er inn nýrri verkraðarfærslu sem á að tímasetja, er nauðsynlegt að tiltaka upplýsingar um tegund hlutarins sem þú vilt keyra, eins og t.d. skýrsla eða kóðasafn, og heiti og hlutkenni hlutarins sem keyra á. Einnig er hægt að bæta færibreytum við til að tilgreina virkni verkraðarfærslu. Til dæmis er hægt að bæta við færibreytu til að sent einungis bókaðar sölupantanir. Notandi verður að hafa heimild til að keyra skýrsluna eða kótasafnið; annars kemur upp villa þegar verkröðin er keyrð.  
+Síðan **Verkraðarfærslur** birtir öll núverandi verk. Ef bætt er inn nýrri verkraðarfærslu sem á að tímasetja, er nauðsynlegt að tiltaka upplýsingar um tegund hlutarins sem þú vilt keyra, eins og t.d. skýrsla eða kóðasafn, og heiti og hlutkenni hlutarins sem keyra á. Einnig er hægt að bæta færibreytum við til að tilgreina virkni verkraðarfærslu. Til dæmis er hægt að bæta við færibreytu til að sent einungis bókaðar sölupantanir. Notandi verður að hafa heimild til að keyra skýrsluna eða kótasafnið; annars kemur upp villa þegar verkröðin er keyrð.  
 
 Einnig er hægt að velja afmörkun sem gildir í reitnum **Afmörkun flokks verkraðar**. Flokka verkraðar má nota til að flokka verk sem eru á listanum.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] keyrir verkin sjálfvirkt samkvæmt tilteknum tímasetningum fyrir hverja verkraðarfærslu. Þú getur einnig byrjað, stoppað og slegið verkraðarfærslu á frest handvirkt.
 
 ### <a name="log-files"></a>Kladdaskrár
-Villur eru taldar upp í glugganum **Skráarfærslur verkraðar** sem þú getur farið inn í gegnum borðann. Einnig er hægt að leita úrræða vegna verkraðarvillna. Gögn sem verða til þegar verkröð er keyrð eru geymd í gagnagrunninum.  
+Villur eru taldar upp á síðunni **Skráarfærslur verkraðar** sem þú getur farið inn í gegnum borðann. Einnig er hægt að leita úrræða vegna verkraðarvillna. Gögn sem verða til þegar verkröð er keyrð eru geymd í gagnagrunninum.  
 
 ### <a name="background-posting-with-job-queues"></a>Bókun í bakgrunni með verkraðir
 Verkraðir eru áhrifaríkt verkfæri til að raða notkun viðskiptaferla í bakgrunni. Til dæmis gæti komið upp tilvik þar sem margir notendur reyna að bóka sölupantanir samtímis, en einungis er hægt að afgreiða eina pöntun í einu. Með því að setja upp bakgrunnsbókunarferli er hægt að setja bókanirnar í biðröð fyrir vinnslu í bakgrunni.  
@@ -46,7 +46,7 @@ Verkraðir eru áhrifaríkt verkfæri til að raða notkun viðskiptaferla í ba
 > [!NOTE]  
 >  Þegar fylgiskjal hefur verið tímasett til bókunar og bókunarferlið hefst, mun það renna út sjálfkrafa eftir tvo klukkutíma ef bókunarferlið svarar ekki einhverra hluta vegna.  
 
-Þú setur upp þessa notkun á verkröðinni í glugganum **Uppsetning Sala & Útistandandi** glugganum eða **Innkaup & Viðskiptaskuldir**, eftir því sem við á. Á flýtiflipanum **Bókun í bakgrunni** skal velja **Bóka skjöl gegnum verkröðgátreitinn** og síðan setja inn viðeigandi upplýsingar. Hér geturðu einnig notað **Flokkskóði verkraðar** reitinn til að keyra allar verkraðarfærslur með þeim kóða. Þú getur til dæmis notað **SöluBókun** flokk sem afmarkast á allar sölupantanir sem passa við hverja þá verkröð sem hefur sama flokkakóða.  
+Þú setur upp þessa notkun á verkröðinni á síðunni **Uppsetning Sala & Útistandandi** glugganum eða **Innkaup & Viðskiptaskuldir**, eftir því sem við á. Á flýtiflipanum **Bókun í bakgrunni** skal velja **Bóka skjöl gegnum verkröðgátreitinn** og síðan setja inn viðeigandi upplýsingar. Hér geturðu einnig notað **Flokkskóði verkraðar** reitinn til að keyra allar verkraðarfærslur með þeim kóða. Þú getur til dæmis notað **SöluBókun** flokk sem afmarkast á allar sölupantanir sem passa við hverja þá verkröð sem hefur sama flokkakóða.  
 
 > [!IMPORTANT]  
 >  Ef þú setur upp verk sem mun bóka og prenta skjöl, og prentarinn sýnir svarglugga, svo sem beiðni um auðkennisupplýsingar eða viðvörun um að blek sé að klárast, bókast fylgiskjalið en prentast ekki út. Samsvarandi verkraðarfærsla rennur á endanum út á tíma og reiturinn **Staða** stillist á **Villa**. Ekki er mælt með notkun prentarauppsetningar sem krefst samskipta við svarglugga prentara samhliða bakgrunnsbókunar.  

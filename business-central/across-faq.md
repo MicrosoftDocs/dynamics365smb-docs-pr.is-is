@@ -4,17 +4,14 @@ description: "Svarar algengum spurningum um hvernig eigi að skrá sig fyrir Bus
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
-ms.date: 10/01/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience, support
+ms.date: 11/05/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 55e1dd3f9f7a85867f5609190c4766839326ca7a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0cbc9a9d5aa42539e6be2dcc2b2f35b0b9a6a4ba
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Algengar spurningar
@@ -25,8 +22,10 @@ ms.lasthandoff: 09/28/2018
 
 Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gefa til kynna að þú eigir að nota vinnu eða skóla netfang. Nánari upplýsingar sjá [Úrræðaleit sjálfsafgreiðslu nýskráning](ui-troubleshoot-self-signup.md).  
 
+Ef ætlunin er að virkja [!INCLUDE[d365fin](includes/d365fin_md.md)] á staðnum þá er hægt að nota aðrar sannvottunaraðferðir. Frekari upplýsingar eru í [Uppsetning á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+
 ## <a name="do-i-have-to-buy-office-365"></a>Þarf ég að kaupa Office 365
-Nei. Ef notandi vill upplifa [!INCLUDE[d365fin](includes/d365fin_md.md)] að fullu samþætt við Office 365 er hægt að skrá sig í 1 mánaðar ókeypis prufutímabil fyrir Office 365 [hér](https://products.office.com/try).  
+Númer Ef notandi vill upplifa [!INCLUDE[d365fin](includes/d365fin_md.md)] að fullu samþætt við Office 365 er hægt að skrá sig í 1 mánaðar ókeypis prufutímabil fyrir Office 365 [hér](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Hvað er samþættingin við Office 365 um?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er fullsamþætt Office 365 svo notandi getur flett frjálslega á milli Office 365 smáforrita og [!INCLUDE[d365fin](includes/d365fin_md.md)] með forritavalmynd. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að opna gögn í Excel, prenta skýrslur með Word, og notandi getur unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögn í Outlook, til dæmis. Nánari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnboxið þitt í Outlook](admin-outlook.md).  
@@ -38,7 +37,10 @@ Já, en gögnum getur verið eytt eða þau varðveitt, allt eftir því hvernig
 Ef spurningar vakna um [!INCLUDE[d365fin](includes/d365fin_md.md)] sem ekki er hægt að finna svar við í þessu skjali er hægt að spyrja Business Central-samfélagið. Nánari upplýsingar eru í [Dynamics 365 Business Central samfélag](https://community.dynamics.com/business). Notendaþjónustan okkar birtir einnig hollráð og ábendingar. Nánari upplýsingar eru í [Stuðningsblogg fyrir Dynamics 365 Business Central](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Er hægt að framlengja 30 daga prufutímabilið fyrir „Nýtt Fyrirtæki“?
-Já. Ef notandi vill framlengja prufutímabilið skal hafa samband við Microsoft í 1-800-865-9408. ATHUGIÐ: Það getur tekið allt að 2 virka daga að ljúka við framlengingarferlið fyrir prufutímabilið.  
+Já. Ef notandi vill framlengja prufutímabilið skal hafa samband við Microsoft í viðkomandi landi eða svæði. Til að finna rétta símanúmerið skal skoða listann í [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc). Listinn vísar til símanúmera fyrir Dynamics CRM Online, en sömu tölur númerin eiga við um öll Dynamics 365-forrit.  
+
+> [!NOTE]
+> Það getur tekið allt að 2 virka daga að ljúka við framlengingarferlið fyrir prufutímabilið.  
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Kerfisstjórinn okkar hefur flutt mig í aðra áætlun til að gefa mér annað hlutverk en ég sé ennþá sömu hlutverkamiðstöðina í [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Þetta er svolítið flókið, en svo virðist sem kerfisstjórinn þinn hafi ekki breytt Hlutverkamiðstöðinni þinni og úthlutað notendaflokkum sem passa við nýja leyfið. Í hnotskurn ræðst aðgangur notanda að [!INCLUDE[d365fin](includes/d365fin_md.md)] af þeirri gerð áskriftar (leyfis) sem notandi er með - sú gerð ræður heimildum og sjálfgefinni síðu Mitt hlutverk . Notandi getur breytt Hlutverkamiðstöðinni þinni handvirkt í Mínar stillingar en ef notandi er fluttur í aðra áskrift, til dæmis úr Fyrirtækjaáskrift í Áskrift fyrir hópmeðlimi, sér hann hugsanlega eldri upphafssíðu af því að heimildunum var ekki breytt.  
@@ -47,7 +49,7 @@ Já. Ef notandi vill framlengja prufutímabilið skal hafa samband við Microsof
 Ertu búin(n) að lesa um nýjan eiginleika í vegakortinu eða á blogginu okkar nýlega? Ef svo er, getur verið að [!INCLUDE[d365fin](includes/d365fin_md.md)] þitt hafi ekki verið uppfært að nýjustu útgáfu enn. Ef eiginleikinn er settur fram sem viðbót í AppSource, er töf á milli þess að eiginleikinn sé kynntur og að hann sé tiltækur í AppSource.  
 
 ## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Get ég fengið þjálfun í [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Já, þú getur það. En eins og staðan er núna þarftu að biðja endursöluaðilann þinn um það. Ef þú veist ekki hver það er skaltu finna Business Central samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search).  
+Já, þú getur það. En eins og staðan er núna þarftu að biðja endursöluaðilann þinn um það. Ef þú veist ekki hver það er skaltu finna Business Central samstarfsaðila [hér](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
 Ef þú hefur aðgang að Microsoft CustomerSource getur þú fengið aðgang að Imagine Academy svæðinu sem er með netnámskeiðsefni. Til að fá frekari upplýsingar um hvernig á að fá aðgang skal kíkja á síðuna [Microsoft Dynamics 365 þjálfun](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
@@ -55,8 +57,16 @@ Ef þú hefur aðgang að Microsoft CustomerSource getur þú fengið aðgang a�
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er fáanlegt á takmörkuðum fjölda markaða, en nýjum löndum er bætt við með staðfæringum sem eru leiddar af Microsoft eða samstarfsaðilum ársfjórðungslega. Nánari upplýsingar eru í [Studd lönd og þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
+## <a name="how-do-i-get-technical-support-for-included365finincludesd365finmdmd"></a>Hvernig fæ ég tæknilegan stuðning fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er selt í gegnum samstarfsaðila og þú ættir að hafa samband við endursöluaðila til að fá aðstoð vegna tæknilegra vandamála. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðili þinn getur þá ekki leyst vandamálið, munu hann leggja fram þjónustubeiðni til Microsoft.  
+
+Ef þú hefur skráð þig fyrir prufuáskrift og hefur ekki enn keypt [!INCLUDE[d365fin](includes/d365fin_md.md)] þá hefur þú ekki endursöluaðila og getur ekki haft samband við þjónustudeild Microsoft.  
+
+Þú getur fundið Business Central samstarfsaðila á síðunni [https://www.microsoft.com/solution-providers/search](https://go.microsoft.com/fwlink/?linkid=2038145).  
+
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Af hverju lýsir Hjálp virkni sem ég hef ekki aðgang að?
-Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** glugganum er stillt á **Nauðsynleg**, þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).    
+Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt á **Nauðsynleg**, þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).    
 
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa](product-get-started.md)  

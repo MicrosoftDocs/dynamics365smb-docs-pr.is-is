@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3cb3c77600ef8e83612bb144f1ddfc3abed0eff1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Keyra fulla áætlunargerð, MPS eða MRP
@@ -27,7 +27,7 @@ Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikni
 
 Áætlunaralgóritmarnir fyrir MPS og MRP eru eins. Þeir ná yfir samantekt nettóstöðu, endurnotkun fyrirliggjandi áfyllingarpantana og aðgerðarboð. Áætlunarkerfisvinnslan tekur mið af þörfum eða væntanlegum þörfum (eftirspurn) og hvað er til staðar (framboð). Þegar þessar tegundir magns eru nettófærðar stofnar [!INCLUDE[d365fin](includes/d365fin_md.md)] aðgerðarboð. Aðgerðarboð eru tillögur um að stofna nýja pöntun, breyta pöntun (magni eða dagsetningu) eða hætta við pöntun í pöntun. Hugtakið „pöntun“ inniber innkaupapantanir, samsetningarpöntun, framleiðslupantanir og millifærslupantanir.
 
-Tengla sem eru stofnaðir af áætlunarkerfinu milli eftirspurnar og tengds framboðs er hægt að rekja í **Pöntunarrakning** glugganum. Frekari upplýsingar eru í [Rekja tengsl á milli framboðs og eftirspurnar](production-how-track-demand-supply.md).   
+Tengla sem eru stofnaðir af áætlunarkerfinu milli eftirspurnar og tengds framboðs er hægt að rekja á síðunni **Pöntunarrakning**. Frekari upplýsingar eru í [Rekja tengsl á milli framboðs og eftirspurnar](production-how-track-demand-supply.md).   
 
 Viðundandi niðurstöður áætlunar byggjast á uppsetningu í birgðaspjöldum, samsetningaruppskriftum, framleiðsluuppskriftum og leiðum.  
 
@@ -48,17 +48,17 @@ Með hverri áætlunaraðferð, myndar [!INCLUDE[d365fin](includes/d365fin_md.md
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Til að reikna áætlunarvinnublað:  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Áætlunarvinnublöð** og veldu síðan tengda tengilinn.  
-2.  Velja **Reikna áætlun endurgerðar** aðgerðina til að opna gluggann **Reikna áætlun**.  
+2.  Velja **Reikna áætlun endurgerðar** aðgerðina til að opna síðuna **Reikna áætlun**.  
 3.  Á flýtiflipanum **Valkostir** skal fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
     |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Valið til að hefja útreikning aðalframleiðsluáætlunar. Atriði sem eru með opnum sölupöntunum eða eftirspurnarspám eru talin í þessari keyrslu.|  
-    |**MRP**|Valið til að hefja útreikning efnisþarfaáætlunar. Vörur með tengdar kröfur eru teknar með í þessari keyrslu. Yfirleitt eru MPS og MRP keyrðar á sama tíma. Til að keyra þær saman þarf að haka í gátreitinn **Sameinaður MPS/MRP útreikn.** á flipanum **Áætlun** í glugganum **Uppsetning framleiðslu**.|  
+    |**MRP**|Valið til að hefja útreikning efnisþarfaáætlunar. Vörur með tengdar kröfur eru teknar með í þessari keyrslu. Yfirleitt eru MPS og MRP keyrðar á sama tíma. Til að keyra þær saman þarf að haka í gátreitinn **Sameinaður MPS/MRP útreikn.** á flipanum **Áætlun** á síðunni **Uppsetning framleiðslu**.|  
     |**Upphafsdagsetning**|Þessi dagsetning er notuð til að meta birgðastöðu. Ef birgðastaða vöru er fyrir neðan endurpöntunarmark flýtir kerfið áfyllingarpöntun. Ef vara er fyrir neðan öryggisbirgðir (frá og með upphafsdagsetningunni) færir kerfið aftur áfyllingarpöntun sem átti að falla á upphafsdagsetningu áætlunarinnar.|  
     |**Lokadagsetning**|Þetta er lokadagsetningin fyrir áætlunarhringinn. Hvorki eftirspurn né framboð er tekið með eftir þessa dagsetningu. Ef endurpöntunarferli vöru fer fram yfir lokadagsetningu jafngildir virkt áætlunartímabil þeirrar vöru pöntunardagsetningu + endurpöntunarferli.<br /><br /> Áætlunartímabilið er sá tími sem áætlunin nær yfir. Ef tímabilið er of stutt eru vörur með lengri afhendingartíma ekki pantaðar í tíma. Ef tímabilið er of langt er of miklum tíma eytt í endurskoðun og vinnslu upplýsingar sem líklega breytast áður en þeirra er þörf. Hægt er að velja eitt áætlunartímabil fyrir framleiðslu og lengra tímabil fyrir innkaup, þótt þess sé ekki krafist. Áætlunartímabil fyrir innkaup og framleiðslu ætti að ná yfir uppsafnaðan afhendingartíma íhluta.|  
-    |**Stöðva og sýna fyrstu villu**|Veljið ef áætlunarkeyrsla á að stöðvast um leið og villa kemur upp. Um leið birtast skilaboð með upplýsingum um fyrstu villuna. Ef villa er til staðar eru aðeins áætlunarlínur sem lokið var við fyrir villuna í áætlunarvinnublaðinu. Ef þessi reitur er ekki valinn heldur keyrslan **Reikna áætlun** áfram þar til henni er lokið án þess að stöðvast ef villur koma upp. Ef ein eða fleiri villur eru til staðar birtast skilaboð þegar keyrslunni er lokið með upplýsingum um hversu mörg atriði eru með villu. Glugginn **Villukladdi áætlunar** opnast og birtir upplýsingar um villuna og tengla í þau birgðaspjöld sem hún hafði áhrif á.|  
-    |**Nota spá**|Valin er spá sem taka á með sem eftirspurn þegar áætlunarkeyrslan er keyrð. Sjálfgefna spáin er sett upp á flipanum **Áætlun** í glugganum **Uppsetning framleiðslu**.|  
+    |**Stöðva og sýna fyrstu villu**|Veljið ef áætlunarkeyrsla á að stöðvast um leið og villa kemur upp. Um leið birtast skilaboð með upplýsingum um fyrstu villuna. Ef villa er til staðar eru aðeins áætlunarlínur sem lokið var við fyrir villuna í áætlunarvinnublaðinu. Ef þessi reitur er ekki valinn heldur keyrslan **Reikna áætlun** áfram þar til henni er lokið án þess að stöðvast ef villur koma upp. Ef ein eða fleiri villur eru til staðar birtast skilaboð þegar keyrslunni er lokið með upplýsingum um hversu mörg atriði eru með villu. Síðan **Villukladdi áætlunar** opnast og birtir upplýsingar um villuna og tengla í þau birgðaspjöld sem hún hafði áhrif á.|  
+    |**Nota spá**|Valin er spá sem taka á með sem eftirspurn þegar áætlunarkeyrslan er keyrð. Sjálfgefna spáin er sett upp á flipanum **Áætlun** á síðunni **Uppsetning framleiðslu**.|  
     |**Sleppa spá fyrir**|Skilgreina hversu mikið af völdu spánni á að taka með í áætlunarkeyrsluna með því að færa inn dagsetningu sem spáreftirspurn er ekki tekin með fyrir. Þannig er hægt að sleppa gömlum upplýsingum.|  
     |**Virða áætlunarfæribreytur fyrir viðvaranir um frávik**|Reiturinn er sjálfgefið valinn.<br /><br /> Framboði fyrir áætlunarlínur með viðvörunum er yfirleitt ekki breytt samkvæmt áætlunarfæribreytum. Þess í stað stingur áætlunarkerfið einungis upp á framboði til að anna nákvæmu eftirspurnarmagni. Hins vegar er hægt að skilgreina sérstakar áætlunarfæribreytur fyrir áætlunarlínur sem á að fylgja með viðvörunum.<br /><br />|  
 
@@ -66,7 +66,7 @@ Með hverri áætlunaraðferð, myndar [!INCLUDE[d365fin](includes/d365fin_md.md
 5.  Velja hnappinn **Í lagi**. Keyrslan fer í gang og áætlunarlínur eru færðar inn í áætlunarvinnublaðið.  
 
 ## <a name="to-perform-action-messages"></a>Til að framkvæma aðgerðaboð  
-1.  Í glugganum **Áætlunarvinnublað** veljið aðgerðina **Framkvæma aðgerðaboð**.  
+1.  Á síðunni **Áætlunarvinnublað** veljið aðgerðina **Framkvæma aðgerðaboð**.  
 2.  Á flýtiflipanum **Valkostir** skal tilgreina hvernig á að stofna aðföngin. Fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
     |Svæði|Lýsing|  

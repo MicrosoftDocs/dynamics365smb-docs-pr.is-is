@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2018
+ms.date: 11/18/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 758833e146c03cde3f892ec24d43143bcdce655c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 486196d228d9a19d6fbba1e171e138bd5693ac94
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="transfer-bank-funds"></a>Flytja bankainnstæður
@@ -28,9 +28,10 @@ Stundum þarf að bóka millifærslu á upphæðum af einum bankareikningi yfir 
 3. Í reitnum **Tegund reiknings** er valinn **Bankareikningur**.
 4. Í reitnum **Reikningur númer** skal velja bankann sem flytja á bankainnistæðuna frá.
 5. Heildarupphæðin sem á að úthluta í reitinn  **Upphæð** er færð inn.
-6. Í reitnum **Tegund mótreiknings** er **Bankareikningur** valinn.
-7. Í reitnum **Mótreikningur númer** skal velja bankareikninginn sem flytja á bankainnistæðuna til.
-8. Bóka skal færslubókina.
+6. Veljið aðgerðina **Sýna fleiri dálka** til að skoða alla tiltæka reiti.
+7. Í reitnum **Tegund mótreiknings** er **Bankareikningur** valinn.
+8. Í reitnum **Mótreikningur númer** skal velja bankareikninginn sem flytja á bankainnistæðuna til.
+9. Bóka skal færslubókina.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Færslur milli bankareikninga bókaðar með gjaldmiðilskótum
 Til að færa fjármuni milli bankareikninga sem nota mismunandi gjaldmiðla, verður að bóka tvær færslubókarlínur.
@@ -49,7 +50,7 @@ Til að færa fjármuni milli bankareikninga sem nota mismunandi gjaldmiðla, ve
 12. Í reitnum **Mótreikningur númer** skal velja bankareikninginn sem flytja á bankainnistæðuna frá.
 
     > [!NOTE]  
-    > Ef gengið sem notað er í færslunni er annað en gengið í glugganum **Gengi gjaldmiðils** þarf að bæta inn þriðju línunni fyrir gengishagnað eða -tap. Færið inn **Fjárhagsreikning** í reitnum **Tegund reiknings**. Færið inn fjárhagsreikningsnúmer fyrir gengishagnað eða -tap í reitinn **Reikningur nr.**. Færa inn gengishagnað eða -tap í reitinn **Upphæð** með eða án neikvæðs formerkis, eftir því hvort um er að ræða kreditupphæð eða debetupphæð.
+    > Ef gengið sem notað er í færslunni er annað en gengið á síðunni **Gengi gjaldmiðils** þarf að bæta inn þriðju línunni fyrir gengishagnað eða -tap. Færið inn **Fjárhagsreikning** í reitnum **Tegund reiknings**. Færið inn fjárhagsreikningsnúmer fyrir gengishagnað eða -tap í reitinn **Reikningur nr.**. Færa inn gengishagnað eða -tap í reitinn **Upphæð** með eða án neikvæðs formerkis, eftir því hvort um er að ræða kreditupphæð eða debetupphæð.
 13. Bóka skal færslubókina.
 
 ## <a name="see-also"></a>Sjá einnig

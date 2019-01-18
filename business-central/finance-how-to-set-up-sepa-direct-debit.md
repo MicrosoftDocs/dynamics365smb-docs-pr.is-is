@@ -12,14 +12,14 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ba40eb247c1edb2b4d8c7437bf60790545799ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sepa-direct-debit"></a>Setja upp SEPA-beingreiðslur
-Úr glugganum **Innheimta beingreiðslu** er hægt að flytja út leiðbeiningar fyrir rafrænan banka til að innheimta beingreiðslu af bankareikningi viðskiptamanns á þinn bankareikning. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður SEPA-beingreiðslusniðið, en í heimalandi þínu / svæði geta önnur snið fyrir rafrænar greiðslur kunna að vera tiltækir.  
+Á síðunni **Innheimta beingreiðslu** er hægt að flytja út leiðbeiningar fyrir rafrænan banka til að innheimta beingreiðslu af bankareikningi viðskiptamanns á þinn bankareikning. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður SEPA-beingreiðslusniðið, en í heimalandi þínu / svæði geta önnur snið fyrir rafrænar greiðslur kunna að vera tiltækir.  
 
 Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar af [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að setja upp gagnaskiptaskilgreiningu með því að nota gagnaskiptaumgjörð. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -47,7 +47,7 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
     > [!NOTE]  
     >  Sláið ekki inn gildi í **Mótreikningur nr.** reitinn.  
 
-4. Velja hnappinn **Í lagi** til að loka glugganum **Greiðslumátar**.  
+4. Veldu hnappinn **Í lagi** til að loka síðunni **Greiðslumátar**.  
 5. Í reitinn **Leita** skal færa inn **Viðskiptamenn** og velja síðan viðkomandi tengi.  
 6. Opnið viðskiptamannaspjaldið fyrir viðskiptamanninn sem setja á upp innheimtu fyrir SEPA-beingreiðslur.  
 7. Veljið **Kóði greiðslumáta** reitinn og svo kóðann fyrir greiðslumátann sem var tilgreindur í skrefi 3.  
@@ -57,8 +57,8 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
 1. Í reitinn **Leita** skal færa inn **Viðskiptamenn** og velja síðan viðkomandi tengi.  
 2. Opnið spjaldið fyrir viðskiptamanninn sem á að setja upp fyrir SEPA-beingreiðslur.  
 3. Veldu aðgerðina **Bankareikningar**.  
-4. Í glugganum **Bankareikn.listi viðskiptam.** skal velja bankareikning viðskiptamanns sem mun nota beingreiðslu og svo, á flipanum **Heim** í flokknum **Vinnsla** skal velja **Umboð beingreiðslu**.  
-5. Í glugganum **SEPA-umboð fyrir beint debet** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
+4. Á síðunni **Bankareikn.listi viðskiptam.** skal velja bankareikning viðskiptamanns sem mun nota beingreiðslu og svo, á flipanum **Heim** í flokknum **Vinnsla** skal velja **Umboð beingreiðslu**.  
+5. Á síðunni **SEPA-umboð fyrir beint debet** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
     |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  

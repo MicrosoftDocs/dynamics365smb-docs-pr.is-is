@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 816482c6966f3b492cd79b67ac39a33a11cd3d88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4537dbb31768ff681dd71775c3813d23caba599b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-with-inventory-picks"></a>Vörur tíndar með birgðatínslu
-Ef birgðageymsla er sett upp þannig að krafist sé tínsluvinnslu en ekki afhendingarvinnslu skal nota **birgðatínslu** gluggann til að skrá og bóka tínslu og afhendingarupplýsingar fyrir upprunaskjöl. Upprunaskjalið á útleið getur verið sölupöntun, innkaupaskilapöntun, millifærslupöntun á útleið eða framleiðslupöntun þar sem íhlutir eru tilbúnir til tínslu.
+Ef birgðageymsla er sett upp þannig að krafist sé tínsluvinnslu en ekki afhendingarvinnslu skal nota síðuna **birgðatínslu** til að skrá og bóka tínslu og afhendingarupplýsingar fyrir upprunaskjöl. Upprunaskjalið á útleið getur verið sölupöntun, innkaupaskilapöntun, millifærslupöntun á útleið eða framleiðslupöntun þar sem íhlutir eru tilbúnir til tínslu.
 
 > [!NOTE]  
-> Íhluti fyrir samsetningarpöntun er ekki hægt að tína eða bóka með birgðatínslum. Nota glugganum **Birgðahreyfing** í staðinn. Frekari upplýsingar eru í [Færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+> Íhluti fyrir samsetningarpöntun er ekki hægt að tína eða bóka með birgðatínslum. Nota skal síðuna **Birgðahreyfing** í staðinn. Frekari upplýsingar eru í [Færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 >  Ef magn sölulínu tínslu og afhendingar er sett saman í pöntunina skal fylgja nokkrum reglum við stofnun birgðatínslulína. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu”.  
 
 Þú getur búið til birgðatínslu á þrjá vegu:  
 
-- Stofna tínsluna í tveim þrepum með því að biðja fyrst um birgðatínslu með því að gefa út upprunaskjalið. Þetta lætur vöruhúsið vita að upprunaskjalið er tilbúið fyrir tínslu. Síðan er hægt að stofna birgðatínsluna í glugganum **Birgðatínsla** byggt á upprunaskjalinu.  
+- Stofna tínsluna í tveim þrepum með því að biðja fyrst um birgðatínslu með því að gefa út upprunaskjalið. Þetta lætur vöruhúsið vita að upprunaskjalið er tilbúið fyrir tínslu. Síðan er hægt að stofna birgðatínsluna á síðunni **Birgðatínsla** byggt á upprunaskjalinu.  
 - Tínslan er stofnuð í upprunaskjalinu sjálfu.  
 - Hægt er að stofna birgðatínslu fyrir nokkur upprunaskjöl í einu með keyrslunni.  
 
@@ -70,7 +70,7 @@ Nú þegar beiðnin hefur verið stofnuð getur starfsmaður vöruhússins stofn
 
 ## <a name="to-record-the-inventory-picks"></a>Skrá Birgðatínslurnar  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínsla** og veldu síðan tengda tengilinn.  
-2. í reitnum **Hólfakóði** í tínslulínunum, hólfið sem vörurnar þurfa að vera tíndar úr er tillaga á sjálfgefið hólf vörunnar. Hægt er að skipta um hólf í þessum glugga ef með þarf.  
+2. í reitnum **Hólfakóði** í tínslulínunum, hólfið sem vörurnar þurfa að vera tíndar úr er tillaga á sjálfgefið hólf vörunnar. Hægt er að skipta um hólf á þessari síðu ef með þarf.  
 3. Gengið er frá vörunum og upplýsingar um raunmagnið sem gengið var frá færðar inn í reitinn **Magn til afgreiðslu**.
 
     Ef tína þarf vörur í einni línu úr fleiri en eitt hólf, t.d. vegna þess að þau eru ekki tiltæk í útvalda hólfinu, skal nota aðgerðina **Skipta línu** á flýtiflipanum **Línur**. Sjá [Skipta aðgerðalínum í vöruhúsi](warehouse-how-to-split-warehouse-activity-lines.md) fyrir nánari upplýsingar um að skipta línum.  
@@ -87,11 +87,11 @@ Ef vörur í birgðatínslu eru ekki tiltækar er hægt að eyða þeim birgðat
 >  Ef birgðatínslulínur hafa rað- eða lotunúmer sem ekki eru tiltæk má ekki eyða viðkomandi línum. Í staðinn skal breyta reitnum **Magn til afgreiðslu** í núll, bóka raunverulegar tínslur og eyða síðan birgðatínsluskjalinu. Þetta tryggir að hægt er að endurgera birgðatínslulínurnar fyrir þessi rað-/lotunúmer úr sölupöntuninni seinna.  
 
 ## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Meðhöndlun setja saman í pöntun íhluta við birgðatínslu
-Glugginn **Birgðatínsla** er einnig notaður til að tína og senda vegna sölu þar sem vörur verða að vera samsettar áður en hægt er að senda þær. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).
+Síðan **Birgðatínsla** er einnig notaður til að tína og senda vegna sölu þar sem vörur verða að vera samsettar áður en hægt er að senda þær. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).
 
 Vörur sem á að afhenda eru ekki efnislega til staðar í hólfi fyrr en þær eru settar saman og bókaðar sem frálag í hólf í samsetningarsvæði. Þetta þýðir að tínsla vara sem sameina á í pöntun fyrir afhending fylgir ákveðnu flæði. Starfsmenn í vöruhúsi færa samsetningaríhluti úr hólfi á afhendingarsvæði og bóka síðan birgðatínsluna. Bókaða birgðatínslan bókar svo samsetningarfrálagið, íhlutanotkunina og söluafhendinguna.
 
-Hægt er að setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] í búa til birgðahreyfingu sjálfkrafa þegar birgðatínsla fyrir samsetningarvöru er stofnuð. Til að virkja þetta þarf að velja reitinn **Búa til hreyfingar sjálfvirkt** í **Uppsetning samsetningar** glugganum. Frekari upplýsingar eru í [Færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Hægt er að setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] í búa til birgðahreyfingu sjálfkrafa þegar birgðatínsla fyrir samsetningarvöru er stofnuð. Til að virkja þetta þarf að velja reitinn **Búa til hreyfingar sjálfvirkt** á síðunni **Uppsetning samsetningar**. Frekari upplýsingar eru í [Færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Birgðatínslulínurnar fyrir söluvörur eru stofnaðar á mismunandi hátt eftir því hvort ekkert, sumt eða allt magn sölulínunnar er sett saman í pöntun.
 
@@ -101,7 +101,7 @@ Birgðatínslulínurnar fyrir söluvörur eru stofnaðar á mismunandi hátt eft
 
 Ef samsetningarfrálagsflæði er sett upp fyrir birgðageymsluna eru gildið í reitnum **Setja saman í pöntun hólfakóði** eða gildið í reitnum **Frá samsetningu hólfakóði**, í þeirri röð, sett inn í reitinn **Hólfakóði** í birgðatínslulínunni.
 
-Ef enginn hólfskóði er gefinn upp í sölupöntunarlínunni og samsetningarfrálagsflæði hefur ekki verið sett upp fyrir birgðageymsluna er reiturinn **Hólfakóði** í birgðatínslulínunni er auður. Starfsmaður í vöruhúsi verður að opna gluggann **Hólfainnihald** og velja hólfið þar sem samsetningarvörurnar eru settar saman.
+Ef enginn hólfskóði er gefinn upp í sölupöntunarlínunni og samsetningarfrálagsflæði hefur ekki verið sett upp fyrir birgðageymsluna er reiturinn **Hólfakóði** í birgðatínslulínunni er auður. Starfsmaður í vöruhúsi verður að opna síðuna **Hólfainnihald** og velja hólfið þar sem samsetningarvörurnar eru settar saman.
 
 Við blandaðar aðstæður, þar sem fyrst þarf að setja saman hluta magnsins og tína þarf annað magn úr birgðum, eru minnst tvær birgðatínslulínur búnar til. Ein tínslulína er fyrir sameiningarpöntunarmagnið. Hin tínslulínan fer eftir hvaða hólf geta uppfyllt eftirstöðvar úr birgðum. Hólfkóti á línunum tveimur er fylltur út er á mismunandi hátt eins og lýst er fyrir þessar tvær mismunandi sölutegundir. Nánari upplýsingar eru í hlutanum „Samsetningaraðstæður“ [Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).
 

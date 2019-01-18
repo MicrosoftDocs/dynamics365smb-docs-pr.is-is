@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 85d58264b14d191389bdf23a792dff7ad30bf9c3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3103583c9781c283479c5f66e90f0e875faf46cc
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Dæmi: Skilgreining kvikrar úthlutunar á grundvelli seldra vara
@@ -28,7 +29,7 @@ ms.lasthandoff: 09/28/2018
 ## <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Til að skilgreina kvikar úthlutanir sem byggja á vörum sem seldar voru á síðasta ári  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kostnaðarúthlutanir** og veldu síðan tengda tengilinn.  
-2.  Í glugganum **Kostnaðarúthlutun** skal velja aðgerðina **Nýtt**.  
+2.  Á síðunni **Kostnaðarúthlutun** skal velja aðgerðina **Nýtt**.  
 3.  Í reitnum **Kenni** smellið á færslulykilinn eða sláið inn auðkenni.  
 4.  Í reitinn **Stig**, sláið inn **1**.  
 5.  Í reitnum **Gildir frá** og **Gildir til** eru viðeigandi dagsetningar færðar inn.  
@@ -46,9 +47,7 @@ ms.lasthandoff: 09/28/2018
     >  [!INCLUDE[d365fin](includes/d365fin_md.md)] notar sölutölur fyrri ára til að reikna hlut 1596.50 SGM með 100 prósentum fyrir pakka IT EQUIPMENT. Þetta merkir að öllum seldum vörum síðasta árs verður úthlutað á kostnaðarhlutinn IT EQUIPMENT.  
 
 ## <a name="see-also"></a>Sjá einnig  
- [Uppsetning afmarkanir fyrir Kvik úthlutunargrunnar.](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [Setja upp uppruna og markhópa úthlutanna](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)   
- [Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)   
- [Um kostnaðarbókhald](finance-about-cost-accounting.md)
+[Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)  
+[Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)   
+[Um kostnaðarbókhald](finance-about-cost-accounting.md)
 

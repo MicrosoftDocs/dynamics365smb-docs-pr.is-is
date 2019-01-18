@@ -10,26 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2018
+ms.date: 11/06/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0daae6b5f38c223462cb76d9f34fc6e7b4bae197
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dd7d3c34aca37bb60a81df3e461bdc19176c4b64
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-general-inventory-information"></a>Setja upp almennar birgðaupplýsingar
-Almennar birgðaupplýsingar eru tilgreindar í glugganum **Birgðagrunnur**.
+Almennar birgðaupplýsingar eru tilgreindar á síðunni **Birgðagrunnur**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Til að setja upp almennar birgðaupplýsingar
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning birgða** og veldu síðan tengda tengilinn.
-2. Í glugganum **Birgðagrunnur** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Á síðunni **Birgðagrunnur** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í sölulínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar, glugganum **Birgðauppsetning** og birgðageymsluna sem um ræðir. Nánari upplýsingar er að finna í [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md).  
+Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í innkaupalínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar á síðunni **Birgðagrunnur** og fyrir staðsetninguna þína. Nánari upplýsingar er að finna í [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md).  
 
 ## <a name="see-also"></a>Sjá einnig
 [Setja upp birgðir](inventory-setup-inventory.md)  
+[Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)    
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)  

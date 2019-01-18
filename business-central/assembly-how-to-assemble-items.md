@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="assemble-items"></a>Sameina vörur
@@ -44,18 +44,18 @@ Frekari upplýsingar um hvernig samsetningaríhlutur er settur upp eru í [Skilj
 
 ## <a name="to-assemble-an-item"></a>Til að setja vöru saman  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **samsetningarpöntun** og veldu síðan tengda tengilinn.  
-2.  Valið er **Nýtt** aðgerð. Glugginn **Ný samsetningarpöntun** opnast.  
+2.  Valið er **Nýtt** aðgerð. Síðan **Ný samsetningarpöntun** opnast.  
 3.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Í reitnum **Vöru Nr.** veljið samsetningarvöruna sem á að vinna með. Reiturinn er síaður til að hann sýni aðeins vörur sem eru settar upp fyrir samsetningu, sem þýðir að þær hafa úthlutaða samsetningaruppskrift.  
 5.  Í reitnum **Magn** er fært inn hversu margar einingar vörunnar setja á saman.  
 
     > [!NOTE]  
-    >  Ef einn eða fleiri íhlutir geta ekki uppfyllt skráð magn samsetningarvöru fyrir tilgreindan skiladag mun glugginn **Samsetning tiltæk** opnast sjálfkrafa og veita nákvæmar upplýsingar um hversu margar samsetningarvörur er hægt að setja saman miðað við íhluti til ráðstöfunar. Frekari upplýsingar, sjá [Skoða tiltækileika vöru](inventory-how-availability-overview.md).  Þegar glugganum er lokað, er samsetningarpöntun stofnuð ráðstöfunarviðvaranir í íhlutalínum sem fyrir áhrifum verða.  
+    >  Ef einn eða fleiri íhlutir geta ekki uppfyllt skráð magn samsetningarvöru fyrir tilgreindan skiladag mun síðan **Samsetning tiltæk** opnast sjálfkrafa og veita nákvæmar upplýsingar um hversu margar samsetningarvörur er hægt að setja saman miðað við íhluti til ráðstöfunar. Frekari upplýsingar, sjá [Skoða tiltækileika vöru](inventory-how-availability-overview.md). Þegar síðunni er lokað, er samsetningarpöntun stofnuð ráðstöfunarviðvaranir í íhlutalínum sem fyrir áhrifum verða.  
 
     Samsetningarpöntunarlínurnar eru sjálfkrafa fylltar út með innihaldi samsetningaruppskriftar og með línumagni samkvæmt haus samsetningarpöntunarinnar.  
 
     > [!NOTE]  
-    >  Ef glugginn **Samsetning tiltæk** opnaðist þegar fyllt var út í haus samsetningarpöntunarinnar inniheldur hver lína samsetningarpöntunar sem það hefur áhrif á **Já** í reitnum **Tilt. aðvörun** með tengli á ítarlegar upplýsingar um ráðstöfun. Frekari upplýsingar eru í Athuga framboð. Hægt er að leysa úr vandamáli við framboði íhlutar með því að fresta upphafdagsetningu, skipta út íhlut fyrir aðra vöru eða velja tiltækan varahlut ef slíkur er tilgreindur.  
+    >  Ef síðan **Samsetning tiltæk** opnaðist þegar fyllt var út í haus samsetningarpöntunarinnar inniheldur hver lína samsetningarpöntunar sem það hefur áhrif á **Já** í reitnum **Tilt. aðvörun** með tengli á ítarlegar upplýsingar um ráðstöfun. Frekari upplýsingar eru í Athuga framboð. Hægt er að leysa úr vandamáli við framboði íhlutar með því að fresta upphafdagsetningu, skipta út íhlut fyrir aðra vöru eða velja tiltækan varahlut ef slíkur er tilgreindur.  
 
 6.  Í reitnum **Magn til samsetningar** er fært inn hversu margar einingar af samsetningarvöru eigi að bóka næst þegar samsetningarpöntun er bókuð. Þetta magn getur verið lægra en gildið í svæðinu **Magn** til að spegla hlutafrálagsbókun.  
 

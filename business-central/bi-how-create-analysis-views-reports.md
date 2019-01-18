@@ -11,10 +11,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ecee2f3b5be33bb12f6ca742c0a28720fee6e427
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Stofna greiningarskýrslur
@@ -41,9 +41,9 @@ Síðan er hægt að setja upp dálka eins og þessa:
 - Sala síðasta mánaðar í prósentum  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Uppsetning á útliti lína og dálka  
- Í glugganum **Greiningarskýrsla** er hægt að skoða mismunandi útlit lína og dálka eftir því hvernig uppsetningin er. Línur eða línusniðmát eru sett upp í glugganum **Greiningarlínusniðmát**. Þar er hægt að skilgreina heiti skýrslunnar og hlutanna sem á að sýna í línum hennar. Dálkarnir eru settir upp í glugganum **Greiningardálkssniðmát**. Þar er hægt að tilgreina heiti dálkssniðmátsins og greiningarfæribreytanna sem á að sýna í skýrslunni sem dálka. Í glugganum **Greiningardálkssniðmát** sýnir hver lína dálk í skýrslunni. Athuga skal að greiningarlínur og greiningardálkar eru óháð hvort öðru.  
+ Á síðunni **Greiningarskýrsla** er hægt að skoða mismunandi útlit lína og dálka eftir því hvernig uppsetningin er. Línur eða línusniðmát eru sett upp á síðunni **Greiningarlínusniðmát**. Á þessari síðu er hægt að skilgreina heiti skýrslunnar og hlutanna sem á að sýna í línum hennar. Dálkarnir eru settir upp á síðunni **Greiningardálkssniðmát**. Á þessari síðu er hægt að tilgreina heiti dálkssniðmátsins og greiningarfæribreytanna sem á að sýna í skýrslunni sem dálka. Á síðunni **Greiningardálkssniðmát** sýnir hver lína dálk í skýrslunni. Athuga skal að greiningarlínur og greiningardálkar eru óháð hvort öðru.  
 
-Það fer eftir línunum og dálkunum sem hafa verið sett upp, en kerfið dregur saman niðurstöðu skýrslunnar í glugganum **Greiningarskýrsla** með eftirfarandi birtingu:  
+Það fer eftir línunum og dálkunum sem hafa verið sett upp, en kerfið dregur saman niðurstöðu skýrslunnar á síðunni **Greiningarskýrsla** með eftirfarandi birtingu:  
 
 | |Sala gildandi mánaðar|Sala síðasta mánaðar|Sala síðasta mánaðar í %|  
 |-|-|-|-|  
@@ -64,10 +64,10 @@ Eftirfarandi ferli byggist á greiningaryfirliti fyrir sölu. Skrefin eru svipu�
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söludálkssniðmát** og veldu síðan tengda tengilinn.  
 2. Veljið fyrstu auðu línuna og fyllið svo út í reitina eins og þörf krefur.
 3. Veljið **Dálkar** aðgerðina.  
-4. Í glugganum **Greiningardálkar** eru reitirnir fylltir út til að tilgreina dálkana sem eiga að vera með í greiningarskýrslunni.  
+4. Á síðunni **Greiningardálkar** eru reitirnir fylltir út til að tilgreina dálkana sem eiga að vera með í greiningarskýrslunni.  
 
     > [!NOTE]  
-    >   Ef skilgreina á dálk þarf að fylla út reitinn  **Kóti greiningartegundar** (fyrir allar tegundir dálka nema **Reikniregla**). Kóði fyrir greiningartegund er settur upp í glugganum **Greiningartegund**.  
+    >   Ef skilgreina á dálk þarf að fylla út reitinn  **Kóti greiningartegundar** (fyrir allar tegundir dálka nema **Reikniregla**). Kóði fyrir greiningartegund er settur upp á síðunni **Greiningartegund**.  
     Einnig, í reitnum **Fjárhagsfærslugerð**, ef þú velur **Birgðafærslur**, eru rauntölurnar úr birgðafærslunum afritaðar. Ef valdar eru **Birgðaáætlunarfærslur** eru áætlaðar tölur úr fjárhagsáætluninni afritaðar.  
 5.  Velja hnappinn **Í lagi** til að vista breytingarnar.  
 
@@ -81,7 +81,7 @@ Eftirfarandi ferli byggist á greiningarskýrslum fyrir sölu. Skrefin eru svipu
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölulínusniðmát** og veldu síðan tengda tengilinn.  
 2. Veljið fyrstu auðu línuna og fyllið svo út í reitina eins og þörf krefur.
 3. Veljið aðgerðina **Línur**.  
-4. Í glugganum **Greiningarlínur** eru stofnaðar línur fyrir vörurnar, viðskiptamennina, lánardrottnana eða sölumennina sem tölur óskast um í greiingarskýrslunni. Fylla verður út reitina **Tegund**, **Svið** og **Lýsing**.  
+4. Á síðunni **Greiningarlínur** eru stofnaðar línur fyrir vörurnar, viðskiptamennina, lánardrottnana eða sölumennina sem tölur óskast um í greiingarskýrslunni. Fylla verður út reitina **Tegund**, **Svið** og **Lýsing**.  
 
 > [!NOTE]  
 >   Þegar stofna á margar stakar línur fyrir hverja vöru, viðskiptamann o.s.frv. er einnig hægt að velja viðeigandi innsetningaraðgerð til að fylla út alla viðkomandi reiti í línunni. Hægt er að breyta línunum handvirkt ef þess þarf. Til að setja inn línur skal velja aðgerðina **Setja inn vörur** eða aðgerðina **Setja inn vöruflokka**.  
@@ -92,13 +92,13 @@ Eftirfarandi ferli byggist á greiningarskýrslum fyrir sölu. Skrefin eru svipu
 Greiningarskýrslur eru notaðar til að til að greina sölu samkvæmt lykilstærðum sem notandi velur sjálfur, svo sem sölutölum í upphæðum og magni, framlegð eða raunsölu í samanburði við áætlun. Einnig er hægt að nota skýrsluna til að greina meðalsöluverð og meta frammistöðu sölumanna.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölugreiningarskýrslur** og veldu síðan tengda tengilinn.  
-2. Í glugganum **Greiningarskýrslusala** skal velja aðgerðina **Nýtt**.
-3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Á síðunni **Greiningarskýrslusala** skal velja aðgerðina **Nýtt**.
+3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Veljið aðgerðina **Breyta greiningarskýrslu**.
-5. Í glugganum **Sölugreiningarskýrsla** skal velja aðgerðina **Sýna fylki**.  
+5. Á síðunni **Sölugreiningarskýrsla** skal velja aðgerðina **Sýna fylki**  
 
 > [!NOTE]  
->   Myndun samsetninga af línu- og dálkssniðmátum til að stofna skýrslu og tenging mismunandi heita við þau er valfrjáls. Ef þetta er gert og skýrsluheiti valið þarf ekki að velja línu- og dálkssniðmát í glugganum  **Sölugreiningarskýrsla**. Þegar skýrsluheiti hefur verið valið er hægt að breyta línu- og dálkssniðmátum hvoru í sínu lagi og velja síðan skýrsluheitið aftur til að fá upphaflegu samsetninguna aftur.
+>   Myndun samsetninga af línu- og dálkssniðmátum til að stofna skýrslu og tenging mismunandi heita við þau er valfrjáls. Ef þetta er gert og skýrsluheiti valið þarf ekki að velja línu- og dálkssniðmát á síðunni **Sölugreiningarskýrsla**. Þegar skýrsluheiti hefur verið valið er hægt að breyta línu- og dálkssniðmátum hvoru í sínu lagi og velja síðan skýrsluheitið aftur til að fá upphaflegu samsetninguna aftur.
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptaupplýsingar](bi.md)  

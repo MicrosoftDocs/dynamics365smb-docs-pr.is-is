@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Vinna með grunnstillingu fyrirtækis í vinnublaði
@@ -33,7 +33,7 @@ Eftirfarandi ferli sýna hvernig eigi að bæta við og sérstilla töfluupplýs
 2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Til að bæta töflu við vinnublað  
-1.  Í glugganum **Grunnstillingarvinnublað** skal velja aðgerðina **Breyta lista**.  
+1.  Á síðunni **Grunnstillingarvinnublað** skal velja aðgerðina **Breyta lista**.  
 2.  Í fyrstu línunni, í reitnum **Tegund línu** skal velja **Tafla**.  
 4.  Í reitnum **Töflukenni** veljið töflu sem á að bæta við grunnstillingu.  
 5.  Í reitnum **Síðukenni** skal færa inn síðukennið sem tengt er við töfluna. Fyrir staðlaðar  töflur er þetta gildi fyllt út sjálfkrafa. Fyrir sérsniðnar töflur þarf að gefa upp kennið.
@@ -53,7 +53,7 @@ Eftirfarandi ferli sýna hvernig eigi að bæta við og sérstilla töfluupplýs
 10. Til að fjarlægja tvíteknar töfluupplýsingar, sem geta komið vegna aðgerðarinnar **Sækja tengdar töflur** skal velja aðgerðina **Eyða tvíteknum línum**. Þetta mun eyða tvíteknum töflum sem eru með sama pakkakóða.  
 
 ## <a name="to-add-multiple-tables-to-the-configuration-worksheet"></a>Til að bæta mörgum töflum við grunnstillingarvinnublaðið.  
-1. Nota skal aðgerðina **Sækja töflur**. Glugginn **Sækja skilgreiningartöflur** runuvinnsla opnast.  
+1. Nota skal aðgerðina **Sækja töflur**. **Sækja skilgreiningatöflur** runuvinnslusíðan opnast.  
 2. Á flýtiflipanum **Valkostir** skal tilgreina gerðir taflnanna sem á að bæta við grunnstillinguna eins og lýst er eftirfarandi töflu.
 
     |Valkostur|Description|  
@@ -73,7 +73,7 @@ Eftirfarandi ferli sýna hvernig eigi að bæta við og sérstilla töfluupplýs
     > - Tengslin eru skilyrt.  
     > Dæmi: Ef tengdar töflur fást fyrir töfluna **Viðskiptamaður** verður töflunni **Staðsetning** ekki bætt við því hún er aðeins tengd töflunni **Viðskiptamaður** með vissum skilyrðum, þ.e. ef reiturinn **Staðsetningarkóði** í töflunni **Viðskiptamaður** er útfylltur.  
     > - Tengda taflan ef með afmörkunum.  
-    > Dæmi: Reitur í tengdu töflunni er með HVAR klausu. Ástæðan er að upplýsingar um þau tengsl sem í hlut eiga eru vistaðar í sýndartöflunni **Reitur** og eru ekki tiltækar í gluggum eins og grunnstillingarvinnublaðinu vegna afkastagetu.  
+    > Dæmi: Reitur í tengdu töflunni er með HVAR klausu. Ástæðan er að upplýsingar um þau tengsl sem í hlut eiga eru vistaðar í sýndartöflunni **Reitur** og eru ekki tiltækar á síðum eins og grunnstillingarvinnublaðinu vegna afkastagetu.  
     > Tengdum töflum með svo flóknu sambandi þarf að bæta við handvirkt með því að fylgja skrefi 4 í kaflanum „Að bæta við töflu á vinnublaðið".
 
 7. Til að eyða töflum úr listanum sem þá kemur skal velja töflu sem á að fjarlægja og síðan velja aðgerðina **Eyða**.  

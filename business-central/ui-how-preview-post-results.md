@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de5623e6dad677a8fb5f07824c17cb42632cff37
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="preview-posting-results"></a>Forskoða Bókunarniðurstöður
@@ -25,8 +25,8 @@ ms.lasthandoff: 09/28/2018
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.
 2. Stofna innkaupareikning. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 3. Velja **Forskoða bókun**
-4. Í reitnum **Forskoðun Bókunar** , valin **Fjárhagsfærsla**, og velja síðan **Sýna Tengdar Færslur**.  
-   **Forskoðun fjárhagsfærslna** glugginn sýnir hvaða færslur verða stofnaðar þegar innkaupareikningur er bókaður.
+4. Á síðunni **Forskoðun bókunar**, skal velja **Fjárhagsfærsla**, og síðan **Sýna tengdar færslur**.  
+   Síðan **Forskoðun fjárhagsfærslna** sýnir hvaða færslur verða stofnaðar þegar innkaupareikningur er bókaður.
 
 ## <a name="see-also"></a>Sjá einnig
 [Bóka skjöl og færslubækur](ui-post-documents-journals.md)  

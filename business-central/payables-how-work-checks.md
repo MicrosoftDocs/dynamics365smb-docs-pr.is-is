@@ -11,10 +11,10 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572831f99559a65c490dcb93e13fba3bdfc57688
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-check-payments"></a>Framkvæma ávísanagreiðslur
@@ -42,7 +42,7 @@ Eftirfarandi dæmi sýnir hvernig á að greiða lánardrottni með ávísun. Sk
 3. Í reitnum **Kóði greiðslumáta** skal velja **Ávísun**.
 4. Í reitnum **Tegund bankagreiðslu** skal velja **Vélfærður tékki**.
 5. Veldu aðgerðina **Prenta ávísun**.
-6. Í glugganum **ávísun** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Á síðunni **Athuga** skal fyllt í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Veldu hnappinn **Senda til**, veldu valkostinn **PDF-skjal** og veldu síðan hnappinn **Í lagi**.
 
     Raunverulegu ávísanirnar er nú hægt að fara með í bankann til vinnslu. Haltu áfram að bóka greiðsluna eins og hún er jöfnuð við lánardrottin og þar af leiðandi greidd í kerfinum.
@@ -54,16 +54,16 @@ Lánardrottnafærslur og fjárhagsfærslur sem eru jafnaðar að fullu eru stofn
 > Ef þarf að prenta og greiða tékka í fleiri en einum gjaldmiðli frá mismunandi bankareikningum verður að keyra keyrsluna **Prenta tékka** sérstaklega fyrir hvern gjaldmiðil og tilgreina réttan bankareikning.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Til að ógilda prentaðan tékka sem ekki eru bókaðar
-Hægt er að ógilda tékka sem eftir á að bóka þegar þær hafa verið prentuð með því að nota **Ógilda Tékka** aðgerð í á **greiðslubók** glugga.
+Hægt er að ógilda tékka sem eftir á að bóka þegar þær hafa verið prentuð með því að nota **Ógildur tékki** aðgerðina á síðunni **Greiðslubók**.
 
-1. Í á **greiðslubókarglugga** er valið á **Ógilda Tékka**, og síðan valið hvaða tékka á að ógilda.
+1. Á síðunni **Greiðslubók** er valið **Ógildur tékki** og síðan valið hvaða tékka á að ógilda.
 
 ## <a name="to-void-checks"></a>Tékkar ógiltir:
 Þegar tékkagreiðslur hafa verið bókaðar, geturðu aðeins afturkallað (ógilt) tékka úr bankafærslum sem fengust út úr þessu.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bankareikningar** og veldu síðan tengda tengilinn.
 2. Veldu viðeigandi bankareikning, veldu **breyta** aðgerðina og veldu síðan **tékkafærslur** aðgerðina.
-3. Í **tékkafærslur** glugganum, veldu **ógilda tékka** aðgerðina.
+3. Á síðunni **Tékkafærslur** skal velja aðgerðina **Ógildur tékki**.
 4. Veldu gátreitinn **eingöngu ógilda tékka**.
 5. Velja hnappinn **Í lagi**.
 

@@ -13,14 +13,14 @@ ms.search.keywords: project management
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-jobs"></a>Setja upp verk
-Í glugganum **Uppsetning verka** þarf að tilgreina hvernig eigi að nota tiltekin verk.
+Á síðunni **Uppsetning verka** verður að tilgreina hvernig á að nota tiltekna verkeiginleika.
 
 Á einstökum verkspjöldum þarf að setja upp verð fyrir vörur, forða og fjárhagsreikninga verks og setja þarf upp verkbókunarflokka.
 
@@ -48,25 +48,25 @@ Ef þú velur **Beita notkunartengli að sjálfgefnu** gátreitinn getur þú sk
 >   Þú getur gert aðra stillingu af **Beita notkunartengli að sjálfgefnu** gátreitinn á einstökum verkspjöldum. Í slíkum tilvikum hnekkir stilling viðkomandi verks sjálfgefnum stillingum sem lýst er hér að ofan.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Til að setja upp verð fyrir verkforða
-Sérstök verð má setja upp fyrir forða verks. Glugginn **Forðaverð verks** er notaður til þess.
+Sérstök verð má setja upp fyrir forða verks. Síðan **Forðaverð verks** er notuð til þess.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2. Veljið viðeigandi verk og veljið svo aðgerðina **Forði**.
-3. Í glugganum **Forðaverð verks** skal fylla reitina út eins og þörf krefur.
+3. Á síðunni **Forðaverð verks** þarf að fylla reitina út eftir þörfum.
 
 Viðbótarupplýsingar í reitunum **Verkhlutanr.**, **Tegund vinnu**, **Gjaldmiðilskóti**, **Línuafsl. %** og **Stuðull einingarverðs** verða notaðar í verkáætlunarlínum og notkunarbókum þegar þessi forði er sleginn inn og honum bætt við verkið.  
 
 Virðið í reitnum **Einingarverð** fyrir forðann verður notað í verkáætlunarlínum og verkbókum þegar þessi forði, forði sem úthlutað er á forðahóp, eða einhver annar forði er færður inn.  
 
 > [!NOTE]  
->   Þetta verð mun ávalt hnekkja öllum verðum sem eru sett upp í **Forðaverð/forðaflokkaverð** glugganum sem fyrir er.
+>   Þetta verð mun ávalt hnekkja öllum verðum sem eru sett upp á **Forðaverð/forðaflokkaverð** síðunni sem fyrir er.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Til að setja upp verð fyrir vörur verks
-Sérstök verð má setja upp fyrir vörur verka. Glugginn **Verð verkvara** er notaður til þess.
+Sérstök verð má setja upp fyrir vörur verka. Síðan **Verð vöru** er notup til þess.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2. Veljið viðeigandi verk og veljið svo aðgerðina **Vara**.
-3. Í glugganum **Vöruverð verks** skal fylla reitina út eins og þörf krefur.
+3. Á síðunni **Vöruverð verks** þarf að fylla reitina út eftir þörfum.
 
 Viðbótarupplýsingarnar í reitunum **Verkhlutanr.**, **Gjaldmiðilskóti** og **Línuafsl.** verða notaðar í verkáætlunarlínum og verkbókum þegar þessi vara er slegin inn eða henni bætt við verk.  
 
@@ -76,11 +76,11 @@ Gildið í reitnum **Einingarverð** fyrir vöruna verður notað í verkáætlu
 >   Þetta verð hnekkir alltaf hefðbundnu viðskiptamannaverði („besta verð”) vöru. Ef nota skal hefðbundnar verðuppsetningar ætti ekki að stofna verð fyrir verkvöruna.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>að setja upp verð í fjárhagsreikningi fyrir verk
-Hægt er að setja upp ákveðið verð fyrir fjárhagsleg útgjöld í verki. Glugginn **Verð fjárhagsreiknings verks** er notaður til þess.
+Hægt er að setja upp ákveðið verð fyrir fjárhagsleg útgjöld í verki. Síðan **Verð fjárhagsreiknings verks** er notuð til þess.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2. Veljið viðeigandi verk og veljið svo aðgerðina **Fjárhagsreikningur**.  
-3. Í glugganum **Fjárhagsreikningsverð verks** skal fylla reitina út eins og þörf krefur.
+3. Á síðunni **Fjárhagsreikningsverð verks** þarf að fylla reitina út eftir þörfum.
 
 Viðbótarupplýsingar í reitunum **Verkhlutanr.**, **Gjaldmiðilskóti**, **Línuafsl. %**, **Stuðull einingarverðs** og **Kostn.verð** verða notaðar í verkáætlunarlínum og verkbókum þegar þessi fjárhagsreikningur er sleginn inn og honum bætt við verk.  
 

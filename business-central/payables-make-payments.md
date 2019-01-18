@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b22144fff3051ef35b9e3baf6e12ecd56ee12c49
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1ad5e15ef1214fb37250dcd4b04d13ab073ac21a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="making-payments"></a>Framkvæma greiðslur
 
-Þegar þú framkvæmir greiðslur til lánardrottna eða viðskiptamanna, eða endurgreiðir starfsmönnum, bókar þú tengdar greiðslulínur í **Greiðslubók** glugganum. Greiðslubókin er almenn færslubók sem er fínstillt til að framkvæma greiðslur og inniheldur fjölda öflugra aðgerða, svo sem **Greiðslutillögur til lánardrottna** aðgerð sem finnur lánardrottnagreiðslur sem eru komnar á gjalddaga, og **Lánardrottinn - aldursgreind samantekt** skýrsla sem sýnir yfirlit lánardrottnagreiðslna á gjalddaga.  
+Þegar þú framkvæmir greiðslur til lánardrottna eða viðskiptamanna, eða endurgreiðir starfsmönnum, bókar þú tengdar greiðslulínur í **Greiðslubók** síðunni. Greiðslubókin er almenn færslubók sem er fínstillt til að framkvæma greiðslur og inniheldur fjölda öflugra aðgerða, svo sem **Greiðslutillögur til lánardrottna** aðgerð sem finnur lánardrottnagreiðslur sem eru komnar á gjalddaga, og **Lánardrottinn - aldursgreind samantekt** skýrsla sem sýnir yfirlit lánardrottnagreiðslna á gjalddaga.  
 
 Þú getur byrjað að framkvæma greiðsluna af listum, kortum og fjárhagsfærslum fyrir lánardrottna, viðskiptamenn og starfsmenn. Hver af þessum síðum hefur hnapp sem byrjar greiðsluflæðið og hjálpar þér að fylla út í greiðslubókina.  
 
@@ -33,9 +33,9 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 | Til | Sjá |
 | --- | --- |
-|Skilja grunnaðgerðir gluggans **Greiðslubók**, sem byggir á færslubókinni, til að búa sig undir að bóka greiðslur til lánardrottna eða starfsmanna.|[Vinna í færslubókum](ui-work-general-journals.md)|
+|Skilja grunnaðgerðir síðunnar **Greiðslubók**, sem byggir á færslubókinni, til að búa sig undir að bóka greiðslur til lánardrottna eða starfsmanna.|[Vinna í færslubókum](ui-work-general-journals.md)|
 |Bóka greiðslur til lánardrottna eða starfsmanna og endurgreiðslur til viðskiptamanna og valfrjálst jafna greiðslur til tengdra ógreiddra reikninga/kreditreikninga til að loka þeim sem greiddum.|[Skrá greiðslur og endurgreiðslur](payables-how-post-payments-refunds.md)|
-| Nota skal aðgerð í glugganum **Greiðslubók** til að leggja til lánardrottnagreiðslur samkvæmt völdum skilyrðum, eins og gjalddaga, afsláttarskilyrði og greiðslugetu þína. |[Greiðslutillögur til lánardr.](payables-how-suggest-vendor-payments.md) |
+| Nota skal aðgerð á síðunni **Greiðslubók** til að leggja til lánardrottnagreiðslur samkvæmt völdum skilyrðum, eins og gjalddaga, afsláttarskilyrði og greiðslugetu þína. |[Greiðslutillögur til lánardr.](payables-how-suggest-vendor-payments.md) |
 | Gefið út tékka vegna lánardrottnagreiðslna eða endurgreiðslna til viðskiptavina, annað hvort sem útprent eða sem vélfærðan tékka. Ógilda tékka fyrir eða eftir bókun. |[Framkvæma ávísanagreiðslur](payables-how-work-checks.md) |
 |Framkvæma rafrænar greiðslur með því að flyta út greiðslur í bankaskrá sem þú hleður inn í bankann til úrvinnslu, þar með talið EFT (rafræn millifærsla) í Norður-Ameríku. |[Framkvæma rafrænar greiðslur](payables-how-export-payments-bank-file.md)|
 |Gerðu rafrænar greiðslur í samræmi við SEPA-kreditfærslustaðla ESB.|[Greiða með umreikningsþjónustu bankagagna eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|

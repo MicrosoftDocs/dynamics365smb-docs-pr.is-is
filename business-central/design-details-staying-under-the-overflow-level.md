@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a4a35cec571f1a0c7644fe937553d87007a9567e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Hönnunarupplýsingar: undir yfirflæðisstigi
@@ -60,7 +60,7 @@ Magn áætlunarlínu = Núverandi framboðsmagn – (Áætlaðar birgðir – Yf
 -   Ef magn áætlunarlínu er jafnt og eða minna en 0 eru aðgerðaboðin Hætta við.  
 
 ### <a name="composing-the-warning-message"></a>Semja viðvörunarmerkið  
-Í tilviki yfirflæðis birtir glugginn **Óraktar áætlunareiningar** viðvörun skilaboð með eftirfarandi upplýsingum:  
+Í tilviki yfirflæðis birtir síðan **Óraktar áætlunareiningar** viðvörunarskilaboð með eftirfarandi upplýsingum:  
 
 -   Áætlað birgðastig sem setti af stað viðvörunina.  
 -   Reiknaða yfirflæðisstigið  

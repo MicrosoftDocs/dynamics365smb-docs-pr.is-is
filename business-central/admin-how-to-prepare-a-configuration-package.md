@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Undirbúa grunnstillingarpakka
@@ -36,10 +36,10 @@ Ganga þarf úr skugga um að notandi sé á Mitt hlutverk RapidStart Services i
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Almennt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Til að útiloka skilgreiningarspurningalista, skilgreiningarsniðmát og skilgreiningarvinnublaðatöflur úr pakkanum skal velja gátreitinn **Útiloka skilgreiningartöflur**. Annars verður þessum töflum sjálfkrafa bætt við listann yfir pakkatöflur þegar pakkinn er fluttur út.  
-5. Nota skal aðgerðina **Sækja töflur**. Glugginn **Sækja pakkatöflur** runuvinnsla opnast.  
-6. Velja reitinn **Velja töflur**. Glugginn **Stilla val** opnast.  
+5. Nota skal aðgerðina **Sækja töflur**. **Sækja pakkatöflur** runuvinnslusíðan opnast.  
+6. Velja reitinn **Velja töflur**. Síðan **Stilla val** opnast.  
 7. Veljið aðgerðina **Velja allt** til að bæta öllum töflum við pakkann eða veljið gátreitinn **Valið** fyrir hverja töflu í listanum sem á að bæta við.
-8. Velja hnappinn **Í lagi**. Fjöldi þeirra taflna sem valinn hefur verið er sýndur í svæðinu **Velja töflur**. Tilgreinið viðbótarvalréttir og veljið svo **Í lagi** hnappinn. [!INCLUDE[d365fin](includes/d365fin_md.md)] töflum er bætt við línur í glugganum **Grunnstillingarpakki**.  
+8. Velja hnappinn **Í lagi**. Fjöldi þeirra taflna sem valinn hefur verið er sýndur í svæðinu **Velja töflur**. Tilgreinið viðbótarvalréttir og veljið svo **Í lagi** hnappinn. [!INCLUDE[d365fin](includes/d365fin_md.md)] töflum er bætt við línur á síðunni **Grunnstillingarpakki**.  
 
     > [!NOTE]  
     >  Einnig er hægt að gera þetta í grunnstillingarvinnublaðinu. Velja skal töflurnar sem á að hafa í pakkanum og veljið svo aðgerðina **Úthluta pakka**.
@@ -64,13 +64,13 @@ Tilgreinið hvaða reitir eiga að vera í pakkanum. Sjálfgefið eru öll svæ�
 ### <a name="to-include-a-template-for-application-to-a-table"></a>Til að taka með sniðmát til jöfnunar í töflu  
 Fyrir tilteknar töflur, svo sem töflu sem mun innihalda aðalgögn, er hægt að tilgreina sniðmát til að nota á gögn. Sniðmátið getur innihaldið nauðsynlega reiti sem eiga að eiga við um öll aðalgögn og sem aldrei á að breyta. Til dæmis er hægt að stofna sniðmát sem hægt er að nota með gögnum um viðskiptamann. Sniðmátið getur innihaldið alla þá reiti sem nauðsynlegt er, sem leyfir samræmdan innflutning á stöðluðum upplýsingum. Upplýsingar sem ekki er hægt að staðla, svo sem nafn viðskiptamanns, eru síðan meðhöndlaðar þegar viðskiptamannagögn eru flutt inn.
 
-1. Í glugganum **Grunnstilla pakkaspjalda** er tafla valin og síðan er valinn reiturinn **Gagnasniðmát**. Listi yfir sniðmát sem eru byggð á töflunni birtist.
+1. Á síðunni **Grunnstilla pakkaspjalda** er tafla valin og síðan er valinn reiturinn **Gagnasniðmát**. Listi yfir sniðmát sem eru byggð á töflunni birtist.
 2. Veljið sniðmát og smellið á hnappinn **Í lagi**.  
 
 Eftir að lokið er við pakkann skal fylgja næsta ferli til að vista pakkann í skrá. Síðan er afhenda pakkann viðskiptamanni eða félaga.
 
 ### <a name="to-save-and-export-a-configuration-package"></a>Til að vista og flytja út grunnstillingarpakka  
-- Í glugganum **Grunnstilla pakkaspjald** skal velja aðgerðina **Flytja út pakka**.  
+- Á síðunni **Grunnstilla pakkaspjald** skal velja aðgerðina **Flytja út pakka**.  
 
 Pakkinn er búinn til í .rapidstart skrá, sem afhendir innihald pakkans á samþjöppuðu formi. Grunnstillingarspurningalistum, grunnstillingarsniðmátum og grunnstillingarvinnublaðinu er bætt við pakka sjálfvirkt nema ákveðið hafi verið að útiloka þau.  
 
@@ -121,7 +121,7 @@ Eftir að hafa skilgreint töflurnar sem á að fara með sem hluta af grunnstil
     > [!NOTE]  
     >  Ganga þarf úr skugga um að hver tafla hafi síðukenni sem tengist henni. Fyrir staðlaðar [!INCLUDE[d365fin](includes/d365fin_md.md)] töflur er þetta gildi fyllt út sjálfkrafa. Fyrir sérsniðnar töflur þarf að gefa upp kennið.
 
-3. Veljið aðgerðina **Gagnagrunnsgögn**. Glugginn fyrir síðuna sem við á opnast.
+3. Veljið aðgerðina **Gagnagrunnsgögn**. Síðan fyrir síðuna sem við á opnast.
 4. Fara skal yfir upplýsingarnar. Breyta eins og nauðsyn kreufr með því að eyða skráningum sem eru ekki viðeigandi eða með því að bæta nýjum við.    
 
 ## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>Að afrita gögn úr prófunarumhverfi yfir í framleiðsluumhverfi  
@@ -130,9 +130,9 @@ Eftir að hafa skilgreint töflurnar sem á að fara með sem hluta af grunnstil
 1. Opna og ræsa nýja fyrirtækið.  
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
 3. Veljið aðgerðina **Afrita gögn úr fyrirtækinu**.  
-4. Í **Afrita fyrirtækjagögn** velurðu reitinn **Afrita úr**. Glugginn **Fyrirtæki** opnast.  
+4. Á síðunni **Afrita fyrirtækjagögn** skal velja reitinn **Afrita úr**. Síðan **Fyrirtæki** opnast.  
 5. Veljið fyrirtækið sem afrita á gögn úr og veljið svo hnappinn **Í lagi**. Lista yfir töflur sem eru valdar við opnun skilgreiningarvinnublaðsins. Aðeins töflur sem innihalda færslur eru teknar með í listanum.
-6. Veljið töflurnar sem á að afrita gögn úr og veljið svo aðgerðina **Afrita gögn**. Í **Afrita fyrirtækjagögn** velurðu hnappinn **Í lagi**.  
+6. Veljið töflurnar sem á að afrita gögn úr og veljið svo aðgerðina **Afrita gögn**. Á síðunni **Afrita fyrirtækjagögn** skal velja hnappinn **Í lagi**.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Safna uppsetningargildum viðskiptamanns](admin-gather-customer-setup-values.md)  

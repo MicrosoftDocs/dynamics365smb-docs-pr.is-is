@@ -12,19 +12,19 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 09866f6774af5b2d9644015e986772052146d901
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9391da5eb5fb06bfcaaf8ee2503f694801888d2f
 ms.contentlocale: is-is
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-employee-absence"></a>Haldið utan um fjarvistir starfsmanna
-Til að geta haldið utan um fjarvistir starfsmanns er nauðsynlegt að skrá fjarveru í gluggann **Skráning fjarvista**. Þá er hægt að skoða þær á ýmsan hátt eins og þarf til greiningar og skráningar.
+Til að geta haldið utan um fjarvistir starfsmanns er nauðsynlegt að skrá fjarveru á síðuna **Skráning fjarvista**. Þá er hægt að skoða þær á ýmsan hátt eins og þarf til greiningar og skráningar.
 
-Hægt er að skoða fjarvistir starfsmanna í tveimur ólíkum gluggum:
+Hægt er að skoða fjarvistir starfsmanna á tveimur ólíkum síðum:
 
-* Glugganum **Fjarvistaskráning**, þar sem allar fjarvistir starfsmanna eru skráðar í eina línu fyrir hverja fjarvist.
-* Í glugganum **Fjarvist starfsmanns** eru einungis birtar fjarvistir eins starfsmanns. Þetta eru upplýsingarnar sem voru færðar inn í glugganum **Skráning fjarvista**, afmarkaðar við þennan tiltekna starfsmann.
+* Síðan **Fjarvistaskráning**, þar sem allar fjarvistir starfsmanna eru skráðar í eina línu fyrir hverja fjarvist.
+* Á síðunni **Fjarvist starfsmanns** eru einungis birtar fjarvistir eins starfsmanns. Þetta eru upplýsingarnar sem voru færðar inn á síðunni **Skráning fjarvista**, afmarkaðar við þennan tiltekna starfsmann.
 
 Til að fá nothæfar tölur ætti ávallt að gæta þess að nota ætíð sömu mælieiningu (klukkustund eða dag) þegar fjarvera starfsmanna er skráð.
 
@@ -34,7 +34,7 @@ Hægt er að skrá fjarvistir starfsmanna daglega eða á einhverjum öðru tím
 1. Í efra hægra horni, veljið táknið **leita að síðu eða skýrslu**, færið inn **Skráning fjarvistar** og veljið síðan viðkomandi tengil.
 2. Valið er **Nýtt** aðgerð.
 3. Fylla þarf út línu fyrir hverja fjarvist starfsmanns sem óskað er eftir að skrá.
-4. Glugganum er lokað.
+4. Lokaðu síðunni.
 
     > [!Tip]
     > Til að fá nothæfar tölur verður að gæta þess að nota ætíð sömu mælieiningu (klst eða dag) þegar fjarvera starfsmanna er skráð.
@@ -43,30 +43,30 @@ Hægt er að skrá fjarvistir starfsmanna daglega eða á einhverjum öðru tím
 1. Í efra hægra horni, veljið táknið **leita að síðu eða skýrslu**, færið inn **Starfsmenn** og veljið síðan viðkomandi tengil.
 2. Veljið viðeigandi starfsmann og smellið því næst á aðgerðina **Fjarvistir**.
 
-    Glugginn **Fjarvistir starfsmanna** opnast og þar birtist listi yfir allar fjarvistirnar og dagsetninguna sem þær hófust og lauk.
+    Síðan **Fjarvistir starfsmanna** opnast og þar birtist listi yfir allar fjarvistirnar og dagsetninguna sem þær hófust og lauk.
 
 ## <a name="to-view-an-employees-absence-by-categories"></a>Til að skoða fjarvistir starfsmanns eftir flokkum
 1. Í efra hægra horni, veljið táknið **leita að síðu eða skýrslu**, færið inn **Starfsmenn** og veljið síðan viðkomandi tengil.
 2. Veljið viðeigandi starfsmann og smellið því næst á aðgerðina **Fjarvistir eftir flokkum**.
-3. Í glugganum **Fjarvistir starfsm. e. flokkum** skal fylla inn í síureitina eins og á þarf að halda og velja svo aðgerðina **Sýna fylki**.
+3. Á síðunni **Fjarvistir starfsm. e. flokkum** skal fylla inn í síureitina eins og á þarf að halda og velja svo aðgerðina **Sýna fylki**.
 
-    Glugginn **Fjarvistir starfs. e. fl. - fylki** opnast og sýnir allar fjarvistir, sem flokkaðar eru niður eftir ástæðum fjarvistar.
+    Síðan **Fjarvistir starfs. e. fl. - fylki** opnast og sýnir allar fjarvistir, sem flokkaðar eru niður eftir ástæðum fjarvistar.
 
 ## <a name="to-view-all-employee-absences-by-category"></a>Til að skoða allar fjarvistir starfsmanna eftir tegund
 1. Í efra hægra horni, veljið táknið **leita að síðu eða skýrslu**, færið inn **Skráning fjarvistar** og veljið síðan viðkomandi tengil.
-2. Í glugganum **Fjarvistaskráning** skal velja aðgerðina **Yfirlit eftir flokkum**.
-3. Í glugganum **Yfirlit fjarvista eftir flokkum** skal setja takmörkun í reitinn **Afmörkun á starfsmannanr.** til að skoða fjarvistir fyrir einstakan starfsmann eða skilgreindan hóp starfsmanna.
+2. Á síðunni **Fjarvistaskráning** skal velja aðgerðina **Yfirlit eftir flokkum**.
+3. Á síðunni **Yfirlit fjarvista eftir flokkum** skal setja takmörkun í reitinn **Afmörkun á starfsmannanr.** til að skoða fjarvistir fyrir einstakan starfsmann eða skilgreindan hóp starfsmanna.
 4. Veljið aðgerðina **Sýna fylki**.
 
-    Glugginn **Yfirlit fjarvista e. flokkum - fylki** opnast og birtir lista yfir allar fjarvistir starfsmanna flokkað eftir ástæðu fjarvistar.
+    Síðan **Yfirlit fjarvista e. flokkum - fylki** opnast og birtir lista yfir allar fjarvistir starfsmanna flokkað eftir ástæðu fjarvistar.
 
 ## <a name="to-view-all-employee-absences-by-period"></a>Til að skoða allar fjarvistir starfsmanna eftir tímabili
 1. Í efra hægra horni, veljið táknið **leita að síðu eða skýrslu**, færið inn **Skráning fjarvistar** og veljið síðan viðkomandi tengil.
-   Í glugganum **Fjarvistaskráning** skal velja aðgerðina **Yfirlit eftir tímabilum**.
-2. Í glugganum **Yfirlit fjarvista e. tímabilum** skal setja takmörkun í reitinn **Ástæða fjarvistar - Afmörkun** til að skoða fjarvistir starfsmanna fyrir tiltekna ástæðu fjarvistar.
+   Á síðunni **Fjarvistaskráning** skal velja aðgerðina **Yfirlit eftir tímabilum**.
+2. Á síðunni **Yfirlit fjarvista e. tímabilum** skal setja takmörkun í reitinn **Ástæða fjarvistar - Afmörkun** til að skoða fjarvistir starfsmanna fyrir tiltekna ástæðu fjarvistar.
 3. Veljið aðgerðina **Sýna fylki**.
 
-    Glugginn **Yfirlit fjarvista e. tímabilum** opnast og birtir lista yfir fjarvistir starfsmanna flokkað eftir tímabilum.
+    Síðan **Yfirlit fjarvista e. tímabilum** opnast og birtir lista yfir fjarvistir starfsmanna flokkað eftir tímabilum.
 
 ## <a name="see-also"></a>Sjá einnig
 [Hafa umsjón með mannauði](hr-manage-human-resources.md)  

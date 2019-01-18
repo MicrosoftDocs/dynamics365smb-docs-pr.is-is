@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
 Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota eftirfarandi vöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi:  
 
-- Glugginn **Birgðahreyfing**.  
-- Glugginn **Birgðatínsla**.  
-- Glugginn **Birgðafrágangur**.
+- **Birgðahreyfing** síðan.  
+- **Birgðatínsla** síðan.  
+- **Birgðafrágangur** síðan.
 
 > [!NOTE]
 > Jafnvel þótt stillingarnar séu kallaðar **Krefjast tínslu** og **Krefjast frágangs**, geturðu samt sem áður bókað móttöku og afhendingu beint frá uppruna viðskiptaskjala í birgðageymslum þar sem þú velur þessa gátreiti.  
 
-Til að nota þessa glugga með innri aðgerðum, til dæmis til að tína og færa íhluti í framleiðslu, þarf að framkvæma sum eða öll af eftirfarandi uppsetningarþrepum eftir því hversu mikla stjórn þarf að hafa:  
+Til að nota þessar síður með innri aðgerðum, til dæmis til að tína og færa íhluti í framleiðslu, þarf að framkvæma sum eða öll af eftirfarandi uppsetningarþrepum eftir því hversu mikla stjórn þarf að hafa:  
 
 - Virkja birgðatínslu-, færslu- og frágangsskjöl.  
 - Skilgreina skipulag sjálfgefins hólfs fyrir íhluti og endanlegar vörur sem flæða til og frá aðgerðaforða.  
@@ -59,14 +59,14 @@ Eftirfarandi ferli eru byggð á uppsetningu einfaldra vöruhúsaðgerða í kri
 
 5. Á flýtiflipanum **Hólf** í reitnum **Hólfkóti frá framleiðslu** er færður inn kóti hólfsins á framleiðslusvæðinu þar sem endanlegar vörur eru teknar úr sjálfkrafa þegar í ferlinu felst vöruhúsaðgerð. Í einfaldri vöruhúsastillingu er virkni skráð sem birgðafrágangur eða birgðahreyfing.  
 
-Núna krefjast íhlutalínur framleiðslupöntunar með sjálfgefinn hólfakóta þess að framvirkir íhlutir séu settir þar. Þar til íhlutir úr því hólfi hafa verið notaðir getur önnur íhlutaeftirspurn ollið tínslu eða notkun úr hólfinu vegna þess að íhlutirnir teljast enn vera tiltækt innihald hólfsins. Til að tryggja að hólfainnihald sé aðeins tiltækt fyrir íhlutseftirspurnina sem notar þann hólfkóta framleiðslu á innleið, þarf að velja reitinn **Sérstakt** í línunni fyrir þann hólfakóta í glugganum **Hólf** sem opnaður er í birgðageymsluspjaldinu.
+Núna krefjast íhlutalínur framleiðslupöntunar með sjálfgefinn hólfakóta þess að framvirkir íhlutir séu settir þar. Þar til íhlutir úr því hólfi hafa verið notaðir getur önnur íhlutaeftirspurn ollið tínslu eða notkun úr hólfinu vegna þess að íhlutirnir teljast enn vera tiltækt innihald hólfsins. Til að tryggja að hólfainnihald sé aðeins tiltækt fyrir íhlutseftirspurnina sem notar þann hólfkóða framleiðslu á innleið, þarf að velja reitinn **Sérstakt** í línunni fyrir þann hólfakóða á síðunni **Hólf** sem opnaður er í birgðageymsluspjaldinu.
 
 Þetta flæðirit sýnir hvernig reiturinn **Hólfkóði** í framleiðslupöntunaríhlutalínum er útfylltur samkvæmt uppsetningunni.  
 
 ![Flæðirit hólfa](media/binflow.png "Hólfaflæði")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Til að skilgreina sjálfgefna hólfaskipan í samsetningarsvæðinu
-Íhluti fyrir samsetningarpöntun er ekki hægt að tína eða bóka með birgðatínslum. Nota glugganum **Birgðahreyfing** í staðinn. Frekari upplýsingar eru í [Færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Íhluti fyrir samsetningarpöntun er ekki hægt að tína eða bóka með birgðatínslum. Nota skal síðuna **Birgðahreyfing** í staðinn. Frekari upplýsingar eru í [Færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Ef magn sölulínu tínslu og afhendingar er sett saman í pöntunina skal fylgja nokkrum reglum við stofnun birgðatínslulína. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Tína vörur með Birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).
 
@@ -119,14 +119,14 @@ Sami hólfakóði er svo afritaður í reitinn **Hólfkóði** í birgðatínslu
 ## <a name="to-create-dedicated-component-bins"></a>Til að stofna sérnýtt íhlutahólf
 Hægt er að tilgreina að magn í hólfi sé varið fyrir tínslu fyrir aðra eftirspurn vegna núverandi tilgangs.
 
-Enn er hægt að taka frá magn í sérstökum hólfum. Í samræmi við það er magnið í sérnýttum hólfum tekið með í reitnum **Heildarmagn tiltækt** í glugganum **Frátekning**.
+Enn er hægt að taka frá magn í sérstökum hólfum. Í samræmi við það er magnið í sérnýttum hólfum tekið með í reitnum **Heildarmagn tiltækt** á síðunni **Frátekning**.
 
-Sem dæmi er vinnustöð sett upp með hólfakóðanum í reitnum **Hólfakóði framleiðslu á innleið**. Íhlutalínur framleiðslupöntunar með þann hólfakóta krefjast þess að framvirkir íhlutir séu settir þar. Þar til íhlutir úr því hólfi hafa verið notaðir getur önnur íhlutaeftirspurn ollið tínslu eða notkun úr hólfinu vegna þess að íhlutirnir teljast enn vera tiltækt innihald hólfsins. Til að tryggja að hólfainnihald sé aðeins tiltækt fyrir íhlutseftirspurnina sem notar þann hólfkóða framleiðslu á innleið, þarf að velja reitinn **Sérstakt** í línunni fyrir þann hólfakóða í glugganum **Hólf** sem opnaður er í birgðageymsluspjaldinu.
+Sem dæmi er vinnustöð sett upp með hólfakóðanum í reitnum **Hólfakóði framleiðslu á innleið**. Íhlutalínur framleiðslupöntunar með þann hólfakóta krefjast þess að framvirkir íhlutir séu settir þar. Þar til íhlutir úr því hólfi hafa verið notaðir getur önnur íhlutaeftirspurn ollið tínslu eða notkun úr hólfinu vegna þess að íhlutirnir teljast enn vera tiltækt innihald hólfsins. Til að tryggja að hólfainnihald sé aðeins tiltækt fyrir íhlutseftirspurnina sem notar þann hólfkóða framleiðslu á innleið, þarf að velja reitinn **Sérstakt** í línunni fyrir þann hólfakóða á síðunni **Hólf** sem opnaður er í birgðageymsluspjaldinu.
 
 Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir, sem er eingöngu hægt í ítarlegum vöruhúsaaðgerðum. Frekari upplýsingar eru í [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
-> Vörur í sérstökum hólfum eru ekki varðar þegar þær eru tíndar eða notaðar sem framleiðsluíhlutir með glugganum Birgðatínsla.
+> Vörur í sérstökum hólfum eru ekki varðar þegar þær eru tíndar eða notaðar sem framleiðsluíhlutir með síðunni Birgðatínsla.
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn. Velja birgðageymsluna sem á að uppfæra.  
 2.  Veldu aðgerðina **Hólf**.  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36c68048c384f4ccfef6c811ac288b306351ce2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3f5521102ebcf4ad6b5bcb88c862106fd6b85f3f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-special-orders"></a>Sérstakar pantanir stofnaðar
@@ -32,9 +32,9 @@ Sérpantanir gefa til kynna að innkaupa- og sölupöntun séu tengdar til að t
     Nú þarf að stofna innkaupapöntun út frá innkaupatillögu.  
 4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupatillögublað** og veldu síðan tengda tengilinn.  
 5. Veljið aðgerðina **Sérpöntun** og veljið síðan aðgerðina **sækja sölupöntun**.  
-6.  Í glugganum **Sækja sölupantanir** sýna niðurstöður þar sem **Númer fylgiskjals** er sölupöntunarnúmeri. Velja hnappinn **Í lagi**. Kerfið stofnar innkaupatillögulínu vegna vörunnar.  
+6.  Á síðunni **Sækja sölupantanir** sýna niðurstöður þar sem **Númer fylgiskjals** er sölupöntunarnúmeri. Velja hnappinn **Í lagi**. Kerfið stofnar innkaupatillögulínu vegna vörunnar.  
 7.  Í innkaupatillögulínunni skal velja **Nýtt** í reitnum **Aðgerðarboð**.  
-8.  Í glugganum **Innkaupatillaga** veljið aðgerðina **Framkvæma aðgerðaboð**. Glugginn **Framkvæma aðgerðaboð - Tillaga** opnast. Velja hnappinn **Í lagi**.  
+8.  Á síðunni **Innkaupatillaga** veljið aðgerðina **Framkvæma aðgerðaboð**. Síðan **Framkv. aðgerðaboð - Beiðni** opnast. Velja hnappinn **Í lagi**.  
 
     Þá birtast boð þess efnis að innkaupapantanir hafi verið stofnaðar. Velja hnappinn **Í lagi**.  
 

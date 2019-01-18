@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 79d4ac247abe75fab8a7c935d31fc236383747cc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 05404279ee0967b1ffd48e010cdf1f9dcac157d9
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="delete-workflows"></a>Eyða verkflæðum
@@ -25,14 +25,14 @@ ms.lasthandoff: 09/28/2018
 > [!CAUTION]  
 >  Þegar verkflæði er eytt munu allar upplýsingar verkflæðisins glatast.  
 
- Í glugganum **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Frekari upplýsingar eru í [Búa til verkflæði](across-how-to-create-workflows.md).  
+ Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Frekari upplýsingar eru í [Búa til verkflæði](across-how-to-create-workflows.md).  
 
 ## <a name="to-delete-a-workflow"></a>Að eyða verkflæði  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **verkflæði** og veldu síðan tengda tengilinn.  
 2.  Veljið verkflæði sem á að eyða.  
 3.  Velja skal aðgerðina **Eyða**.  
 4.  Að öðrum kosti er hægt að opna það verkflæði sem á að eyða.  
-5.  Í glugganum **Verkflæði** skal velja aðgerðina **Eyða**.  
+5.  Á síðunni **Verkflæði** skal velja aðgerðina **Eyða**.  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Búa til verkflæði](across-how-to-create-workflows.md)   

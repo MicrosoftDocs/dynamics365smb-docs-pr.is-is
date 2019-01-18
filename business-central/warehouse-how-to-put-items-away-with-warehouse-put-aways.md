@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dea237fa837b34e565d9df6156ae6bbfb8508ee6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 53bf1355c9f7b1d5727e6e63f89a7d2db56cfc48
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ganga frá vörum með vöruhúsafrágangi
@@ -72,7 +72,7 @@ Tekið er mið af hólfaflokkuninni þegar fleiri en eitt hólf uppfylla skilyr�
     Ef reiturinn **Staða fylgiskjals** er auður hefur alls ekki verið gengið frá móttökunni. Annars sýnir reiturinn að móttaka hafi verið frágengin að hluta eða öllu leyti.  
 
 4.  Ef gengið hefur verið frá móttökunni að hluta eða alls ekki er smellt á aðgerðina **stofna frágang**.  
-5.  Beiðnigluggi keyrslunnar er fylltur út til að stofna fráganginn eins og best þykir og síðan er **Í lagi** hnappurinn valinn.   
+5.  Beiðnisíða keyrslunnar er fyllt út til að stofna fráganginn eins og best þykir og síðan er **Í lagi** hnappurinn valinn.   
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

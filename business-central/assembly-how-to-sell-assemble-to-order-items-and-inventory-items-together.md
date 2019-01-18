@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42f4d0f07e23bfc8fd2ab79fdf315df21a90c9b3
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2f71dbbb4e7e4af19829f08243371bea1998b093
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Selja vörur sem eru settar saman í pöntun og birgðavörur saman
@@ -31,7 +31,7 @@ Svipaður sveigjanleiki er til þegar verið er að selja vörur sem á að safn
 >  Eftirfarandi ferli inniheldur ekki stöðluðu sölupöntunarskrefin sem þarf að fylgja áður en samsetningarpöntun er stofnuð fyrir ótiltækt magn.
 
 ## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Til að selja vörur sem eru settar saman í pöntun og birgðavörur saman  
-1.  Í sölupöntunarlínu fyrir birgðir sem stillt eru til að vera safnað í birgðir, færið inn magn í reitinn **Magn** sem er umfram birgðir. Glugginn **Kanna ráðstöfunargetu** birtist. Frekari upplýsingar, sjá [Skoða tiltækileika vöru](inventory-how-availability-overview.md).
+1.  Í sölupöntunarlínu fyrir birgðir sem stillt eru til að vera safnað í birgðir, færið inn magn í reitinn **Magn** sem er umfram birgðir. Síðan **Kanna ráðstöfunargetu** birtist. Frekari upplýsingar, sjá [Skoða tiltækileika vöru](inventory-how-availability-overview.md).
 2.  Athugið reitinn **Heildarmagn** (neikvætt gildi), sem færa á inn í næsta skrefi.  
 3.  Í reitnum **Magn til samsetningar til pöntunar** er færður inn gildið úr fyrra skrefi.  
 4.  Gera breytingar á samsetningaríhlutum. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  

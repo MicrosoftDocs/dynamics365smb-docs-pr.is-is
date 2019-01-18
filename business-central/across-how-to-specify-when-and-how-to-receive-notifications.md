@@ -1,6 +1,6 @@
 ---
 title: "Hvernig á að: Tilgreina hvenær og hvernig á að fá tilkynningar | Microsoft Docs"
-description: "Þegar notendur eru settir upp í samþykktarverkflæði verður að tilgreina í gluggunum Tilkynningagrunnur og Tilkynningaáætlun hvenær og hvernig hver notandi fær tilkynningar um skref í samþykktarverkflæði. Einstakir notendur geta einnig breytt tilkynningastillingum sínum með þí að velja hnappinn Breyta tilkynningastillingum á hverri tilkynningu."
+description: "Þegar notendur eru settir upp í samþykktarverkflæði verður að tilgreina á síðunum Tilkynningagrunnur og Tilkynningaáætlun hvenær og hvernig hver notandi fær tilkynningar um skref í samþykktarverkflæði. Einstakir notendur geta einnig breytt tilkynningastillingum sínum með þí að velja hnappinn Breyta tilkynningastillingum á hverri tilkynningu."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 714ebd289407293f2a9fb8f05cad68330c79ad9a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8bb1b2815740e3acfeb984c1b7cbad160dcd1016
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Tilgreina hvenær og hvernig á að fá tilkynningar
-Þegar notendur eru settir upp í samþykktarverkflæði verður að tilgreina í gluggunum **Tilkynningagrunnur** og **Tilkynningaáætlun** hvenær og hvernig hver notandi fær tilkynningar um skref í samþykktarverkflæði. Einstakir notendur geta einnig breytt tilkynningastillingum sínum með þí að velja hnappinn **Breyta tilkynningastillingum** á hverri tilkynningu.  
+Þegar notendur eru settir upp í samþykktarverkflæði verður að tilgreina á síðunum **Tilkynningagrunnur** og **Tilkynningaáætlun** hvenær og hvernig hver notandi fær tilkynningar um skref í samþykktarverkflæði. Einstakir notendur geta einnig breytt tilkynningastillingum sínum með þí að velja hnappinn **Breyta tilkynningastillingum** á hverri tilkynningu.  
 
  Áður en hægt er að setja upp tilkynningastillingar samþykktarnotanda verður að setja notanda upp sem samþykktarnotanda Nánari upplýsingar eru í [Setja upp notendur sem samþykkjendur](across-how-to-set-up-approval-users.md).  
 
- Með því að setja upp tilkynningasniðmát er útlit og innihald tilkynninga skilgreint. Frekari upplýsingar eru í [Unnið með tilkynningasniðmát](across-how-to-manage-notification-templates.md).  
+ Hægt er að tilgreina útlit tölvupóststilkynninga með því að sérstilla Skýrslu 1320, Tilkynningapóstur. Frekari upplýsingar er að finna á [Búa til og breyta sérsniðnu skýrslu- eða skjalaútliti](ui-how-create-custom-report-layout.md).  
 
  Mörg skref samþykktarverkflæðis snúast um að láta notendur vita að tilvik hafi átt sér stað og þeir þurfi að bregðast við því. Til dæmis getur eitt skref í verkflæði verið að tilvik óski eftir að Notandi 1 samþyki nýja færslu. Tengd viðbrögð eru að tilkynning er sent Notanda 2, sem er samþykkjandi. Í næsta skrefi verkflæðis getur tilvik verið að Notandi 2 samþykki nýja færslu. Tengd viðbrögð eru að tilkynning er sent Notanda 3 til að hefja ferli með samþykktri færslu. Í öllum skref verkflæðis sem snúast um samþykki eru tilkynningar tengdar samþykktarfærslu. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
@@ -32,18 +32,19 @@ ms.lasthandoff: 09/28/2018
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **samþykki notandauppsetningar** og veldu síðan tengda tengilinn.  
 2.  Veljið línu fyrir notanda sem á að nota til að setja upp tilkynningarstillingar fyrir og því næst er valið **Uppsetning tilkynninga**.  
-3.  Í glugganum **Tilkynningagrunnur** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
+3.  Á síðunni **Tilkynningagrunnur** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
     |Svæði|Description|  
     |---------------------------------|---------------------------------------|  
     |**Gerð tilkynningar**|Tilgreinið hvaða gerð tilviks tilkynning fjallar um.<br /><br /> Einn af eftirfarandi kostum er valinn:<br /><br /> -   **Ný færsla** tilgreinir að tilkynningin sé um nýja færslu, svo sem skjal, sem notandinn þarf að bregðast við.<br />-   **Samþykktir** tilgreinir að tilkynningin fjalli um eina eða fleiri samþykktarbeiðnir.<br />-   **Komið fram yfir tíma** tilgreinir að tilkynningin er um áminningu notenda um að þeir séu seinir að bregðast við viðburði.|  
-    |**Sniðmátskóði tilkynningar**|Tilgreinið kóða tilkynningasniðmátsins sem er notað til að stofna tilkynningar fyrir notandann.|  
-    |**Snjallar tilkynningar**|Tilgreinið hvort notandinn fær eina tilkynningu fyrir hvern viðburð eða uppsafnaðar tilkynningar.<br /><br /> Ef gátreitur **Snjallar tilkynningar** er ekki valinn mun notandi fá tilkynningar sem safna saman upplýsingum um tilvik sem eiga sér stað innan sama endurtekningarmynsturs í tilkynningaáætlun.|  
+    |**Aðferð tilkynningar**|Tilgreina hvort tilkynningin er tölvupóstur eða innri athugasemd.|
 
-     Tilgreint hefur verið hvernig notandi fær tilkynningar. Halda áfram að ákveða hvenær notandi fær tilkynningar.  
+    Hægt er að tilgreina útlit tölvupóststilkynninga með því að sérstilla Skýrslu 1320, Tilkynningapóstur. Frekari upplýsingar er að finna á [Búa til og breyta sérsniðnu skýrslu- eða skjalaútliti](ui-how-create-custom-report-layout.md).
+
+    Tilgreint hefur verið hvernig notandi fær tilkynningar. Halda áfram að ákveða hvenær notandi fær tilkynningar.  
 
 4.  Veldu **Áætlun tilkynninga**.  
-5.  Í glugganum **Áætlun tilkynninga** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
+5.  Á síðunni **Áætlun tilkynninga** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
     |Svæði|Description|  
     |---------------------------------|---------------------------------------|  
@@ -56,11 +57,11 @@ ms.lasthandoff: 09/28/2018
 
 ## <a name="change-when-and-how-you-receive-notifications"></a>Breyta hvenær og hvernig notandi fær tilkynningar  
 1.  Í einni tilkynningu sem borist hefur, annaðhvort í tölvupósti eða sem athugasemd, skal velja hnappinn **Breyta tilkynningastillingum**.  
-2.  Í glugganum **Tilkynningagrunnur** skal breyta tilkynningarstillingunum eins og lýst er í fyrra ferli.  
+2.  Á síðunni **Tilkynningagrunnur** skal breyta tilkynningarstillingunum eins og lýst er í fyrra ferli.  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)   
- [Vinna með tilkynningasniðmát](across-how-to-manage-notification-templates.md)   
+ [Búa til og breyta sérsniðnu skýrslu- eða skjalaútliti](ui-how-create-custom-report-layout.md)   
  [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)   
  [Uppsetning verkflæðis](across-set-up-workflows.md)   
  [Nota verkflæði](across-use-workflows.md)

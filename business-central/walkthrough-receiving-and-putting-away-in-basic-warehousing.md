@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2441c41c6bb28691a855ac4b5d50359b95b23f7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ba61572a237e177b763b7b8a2e13ca7ec93eea4
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss
@@ -32,7 +32,7 @@ Nánari upplýsingar er að finna í [Hönnunarupplýsingar: vöruhúsaflæði i
 Eftirfarandi kynning sýnir aðferð B í fyrri töflu.  
 
 ## <a name="about-this-walkthrough"></a>Um kynninguna  
-Í grunnstillungum vöruhúss þar sem staðsetning er sett upp þannig að krafist sé frágangs en ekki móttökuvinnslu skal nota gluggan **Birgðafrágangur** til að skrá og bóka frágang og afhendingarupplýsingar fyrir upprunaskjöl á innleið. Upprunaskjalið á innleið getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslupöntun þar sem úttakið er tilbúið til frágangs.
+Í grunnstillungum vöruhúss þar sem staðsetning er sett upp þannig að krafist sé frágangs en ekki móttökuvinnslu skal nota síðuna **Birgðafrágangur** til að skrá og bóka frágang og afhendingarupplýsingar fyrir upprunaskjöl á innleið. Upprunaskjalið á innleið getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslupöntun þar sem úttakið er tilbúið til frágangs.
 
 > [!NOTE]
 > Jafnvel þótt stillingarnar séu kallaðar **Krefjast tínslu** og **Krefjast frágangs**, geturðu samt sem áður bókað móttöku og afhendingu beint frá uppruna viðskiptaskjala í birgðageymslum þar sem þú velur þessa gátreiti.  
@@ -63,7 +63,7 @@ Til að ljúka þessari kynningu þarf:
 -   Til að gera notanda að starfsmanni vöruhúss í SILVER staðsetningu á eftirfarandi hátt:  
 
     1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsfólk vöruhúss** og veldu síðan tengda tengilinn.  
-    2.  Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda í glugganum **Notendur**.  
+    2.  Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur**.  
     3.  Í reitnum **Staðsetningarkóði** er fært inn SILVER.  
     4.  Veljið reitinn **Sjálfgefið**.  
 
@@ -71,7 +71,7 @@ Til að ljúka þessari kynningu þarf:
 Ellen, stjórnandi vöruhúss hjá CRONUS International Ltd. stofnar innkaupapöntun fyrir 10 einingar af vöru LS-75 og 30 einingar af vöru LS-81 frá lánardrottni 10000 sem afhenda á til SILVER vöruhúss. Þegar sending berst í vöruhúsið, gengur starfsmaður vöruhússins frá vörunum í sjálfgefin hólf sem eru skilgreind fyrir vörurnar. Frágangurinn er bókaður, vörurnar eru bókaðar sem mótteknar í birgðir og tiltækar til sölu eða aðra eftirspurn.  
 
 ## <a name="setting-up-the-location"></a>Uppsetning staðsetningarinnar  
- Uppsetning gluggans **Birgðageymsluspjald** skilgreinir vöruhúsaflæði fyrirtækisins.  
+ Uppsetning síðunnar **Birgðageymsluspjald** skilgreinir vöruhúsaflæði fyrirtækisins.  
 
 ### <a name="to-set-up-the-location"></a>Uppsetning staðsetningar  
 
@@ -84,7 +84,7 @@ Ellen, stjórnandi vöruhúss hjá CRONUS International Ltd. stofnar innkaupapö
 4.  Veldu aðgerðina **Hólf**.  
 5.  Veljið fyrstu röð fyrir hólf S-01-0001 og svo aðgerðina **Innihald**.  
 
-    Takið eftir að í glugganum **Innihald hólfs** er vara LS-75 þegar sett upp sem efni í hólfi S-01-0001.  
+    Takið eftir að á síðunni **Innihald hólfs** er vara LS-75 þegar sett upp sem efni í hólfi S-01-0001.  
 
 6.  Valið er **Nýtt** aðgerð.  
 7.  Veljið **Fast** og svo **Sjálfgefið**.  
@@ -114,7 +114,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
     Afhending hátalara frá lánardrottni 10000 hefur borist til SILVER vöruhússins og starfsmaður gengur svo frá þeim.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Móttaka og frágangur varanna  
-Í glugganum **Birgðafrágangur** er hægt að meðhöndla alla virkni vöruhúss á innleið fyrir tiltekið upprunaskjal, til dæmis innkaupapöntun.  
+Á síðunni **Birgðafrágangur** er hægt að meðhöndla alla virkni vöruhúss á innleið fyrir tiltekið upprunaskjal, til dæmis innkaupapöntun.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>Tekið á móti og gengið frá vörunum  
 

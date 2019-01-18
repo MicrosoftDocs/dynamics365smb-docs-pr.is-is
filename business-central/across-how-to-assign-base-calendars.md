@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Setja upp grunndagatöl
@@ -27,7 +27,7 @@ Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, bi
 2.  Valið er **Nýtt** aðgerð.  
 3.  Reiturinn **Kóti** er fylltur út.  
 4. Velja skal **Viðhalda breytingum á Grunndagatali** aðgerðina.
-5. Í glugganum **Breytingar á grunndagatali** er notaður reiturinn **Ítrekun Kerfi** til þess að merkja tiltekna dagsetningu eða dag sem fastan frídag. Í boði eru tveir kostir, **Árleg ítrekun** eða **Vikuleg ítrekun**.  
+5. Á síðunni **Breytingar á grunndagatali** er notaður reiturinn **Ítrekun Kerfi** til þess að merkja tiltekna dagsetningu eða dag sem fastan frídag. Í boði eru tveir kostir, **Árleg ítrekun** eða **Vikuleg ítrekun**.  
 
     Ef valin er **Árleg ítrekun** þarf einnig að færa inn viðkomandi dagsetningu í reitinn **Dagsetning**.  
 
@@ -37,7 +37,7 @@ Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, bi
  Þegar horfið er aftur til grunndagatalsspjaldsins sést að frídagafærslurnar sem gerðar voru hafa verið uppfærðar. Þessar færslur birtast nú í rauðu og reiturinn **Engin vinna**.  
 
 > [!NOTE]  
->  Þegar nýtt grunndagatal er sett upp má velja línur úr dagatali sem tiltækt er og afrita þær. Þetta er gert í glugganum **Breytingar á grunndagatali**.  
+>  Þegar nýtt grunndagatal er sett upp má velja línur úr dagatali sem tiltækt er og afrita þær. Þetta er gert á síðunni **Breytingar á grunndagatali**.  
 
 > [!IMPORTANT]  
 >  Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageymsluna hefur áhrif á það hvernig dagsetningarnar eru reiknaðar út og sléttaðar til virkra daga.
@@ -57,7 +57,7 @@ Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageym
 > [!Important]
 > Ef birgðageymslan notar dagatal sem er mjög frábrugðið dagatali lánardrottna er mikilvægt að setja upp sérstök dagatöl fyrir þá lánardrottna til að reikna réttan afhendingartíma. Upplýsingar um hvernig á að setja upp dagatöl lánardrottna eru að finna í hlutanum „Úthlutun grunndagatals“.
 
-Innihald **Biðtími Útreikningur** reitsins er afritað annað hvort úr birgðaspjaldinu eða birgðahaldseiningarspjaldinu, ef biðtími er skilgreindur fyrir vöruna, eða í glugganum **Vörulisti lánardrottins**, ef biðtíminn er skilgreindur fyrir lánardrottin.
+Innihald **Biðtími Útreikningur** reitsins er afritað annað hvort úr birgðaspjaldinu eða birgðahaldseiningarspjaldinu, ef biðtími er skilgreindur fyrir vöruna, eða á síðunni **Vörulisti lánardrottins**, ef biðtíminn er skilgreindur fyrir lánardrottin.
 
 ## <a name="to-customize-a-calendar"></a>Dagatal sérsniðið:
 Þegar grunndagatal er sérsniðið fyrir fyrirtækið eða einhvern viðskiptafélaga eru breytingar á frídögum og virkum dögum færðar inn.
@@ -68,7 +68,7 @@ Til dæmis sýnir grunndagatal yfirleitt alla laugardaga sem frídaga, en sérsn
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.
 2. Opna birgðageymsluna sem á að uppfæra og velja síðan **Sérsniðið Dagatal** reitinn. Athugið að dagatal verður að vera valið í **grunndagatalskóta** svæðinu.
-3. Í glugganum **Sérsniðnar dagatalsfærslur**.opnast skal velja **Vinna með breytingar á sérsniðnum dagatölum** aðgerðina.
+3. Á síðunni **Sérsniðnar dagatalsfærslur**.opnast skal velja **Vinna með breytingar á sérsniðnum dagatölum** aðgerðina.
 4. Bæta við línum fyrir sérsniðnar dagatalsfærslur í **Breytingar á sérsniðnar dagatalsfærslur**.
 
     Þegar lína er færð inn er gátreiturinn **Frídagar** valinn. Fjarlægja má gátmerkið ef gera á daginn aftur að virkum degi.
@@ -79,7 +79,7 @@ Til dæmis sýnir grunndagatal yfirleitt alla laugardaga sem frídaga, en sérsn
 
 5. Velja hnappinn **Í lagi**.
 
-Í glugganum **Sérsniðnar dagatalsfærslur** sjást dagsetningarfærslurnar sem eru uppfærðar samkvæmt breytingunum sem hafa verið gerðar.
+Á síðunni **Sérsniðnar dagatalsbreytingar** sjást dagsetningarfærslurnar sem eru uppfærðar samkvæmt breytingunum sem hafa verið gerðar.
 
 Á spjaldinu Birgðageymsla sést að í reitnum **Sérsniðið dagatal** stendur orðið **Já** og sýnir að sérsniðið dagatal hefur verið sett upp.
 
@@ -100,7 +100,7 @@ Grunndagatöl eru tengd fyrirtæki notanda, viðskiptamönnum, lánardrottnum, b
 -   Á spjöldunum **Stofngögn** og **Viðskiptamaður** er grunndagatalið tengt við flýtiflipann **Afhending** .  
 -   Á spjaldinu **Lánardrottinn** er grunndagatalið úthlutað á flýtiflipann **Móttaka**.  
 -   Á spjaldinu **Birgðageymsla** er grunndagatalinu úthlutað á flýtiflipann **Vöruhús**.  
--   Í glugganum **Flutningsaðilar** er grunndagatalið tengt við gluggann **Flutningsþjónusta**.  
+-   Á síðunni **Flutningsaðilar** er grunndagatalið tengt við gluggann **Flutningsþjónusta**.  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  
 2.  Opna spjaldið **Viðskiptamaður** sem fær úthlutað grunndagatali.  

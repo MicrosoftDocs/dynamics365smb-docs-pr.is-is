@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6617cb324873c2c129e4d26907dc43fde1c3c0e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 223d69df17dad2a1309d333fc64be8b208262530
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Setja upp vinnustundir og þjónustustundir
@@ -27,16 +27,16 @@ Eftir að sjálfgefinn þjónustutími fyrirtækisins hefur verið stilltur er h
 Þegar þú vinnur að þjónustupöntun, muntu vilja uppfæra stöðu hennar svo þú getir fylgst með ferlinu. Þjónustupöntunarstaðan sýnir viðgerðarstöðu allra þjónustuvara í þjónustupöntuninni. Frekari upplýsingar eru í [Skilja þjónustupöntun og viðgerðarstöðu](service-order-repair-status.md). 
 
 ## <a name="to-set-up-default-service-hours"></a>Uppsetning sjálfgefinna þjónustustunda  
-Glugginn **Sjálfgefinn þjónustutími** er notaður til að setja upp venjulegan þjónustutíma í fyrirtækinu. Stuðst er við þessar þjónustustundir við útreikning á svardagsetningu og tíma vegna þjónustupantana og tilboða og til að senda viðvörunarboð vegna svartíma. Kerfið notar sjálfgefinn þjónustutíma í þjónustusamninga nema sérstakar þjónustustundir séu tilgreindar vegna samnings.  
+Síðan **Sjálfgefinn þjónustutími** er notaður til að setja upp venjulegan þjónustutíma í fyrirtækinu. Stuðst er við þessar þjónustustundir við útreikning á svardagsetningu og tíma vegna þjónustupantana og tilboða og til að senda viðvörunarboð vegna svartíma. Kerfið notar sjálfgefinn þjónustutíma í þjónustusamninga nema sérstakar þjónustustundir séu tilgreindar vegna samnings.  
   
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sjálfgefnar þjónustustundir** og veldu síðan tengda tengilinn.  
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
->  Ef línurnar í glugganum **Sjálfgefinn þjónustutími** eru auðar eru 24 stundir sem sjálfgefið gildi sem gildir aðeins á virkum dögum.  
+>  Ef línurnar á síðunni **Sjálfgefinn þjónustutími** eru auðar eru 24 stundir sem sjálfgefið gildi sem gildir aðeins á virkum dögum.  
   
 ## <a name="to-set-up-work-hour-templates"></a>Uppsetning vinnutímasniðmáta
-Nota má gluggann **Vinnutímasniðmát** til að setja upp sniðmát með dæmigerðum vinnustundum í fyrirtækinu. Til dæmis má stofna sniðmát fyrir tæknimenn í fullu starfi og í hlutastarfi. Vinnutímasniðmát má nota þegar getu er bætt við forða.  
+Nota má síðuna **Vinnutímasniðmát** til að setja upp sniðmát með dæmigerðum vinnustundum í fyrirtækinu. Til dæmis má stofna sniðmát fyrir tæknimenn í fullu starfi og í hlutastarfi. Vinnutímasniðmát má nota þegar getu er bætt við forða.  
   
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnustundasniðmát** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -45,7 +45,7 @@ Nota má gluggann **Vinnutímasniðmát** til að setja upp sniðmát með dæmi
 > Eftir að þú færir inn vinnustundir fyrir hvern dag, er reiturinn **Heildarstundir á viku** reiknaður út sjálfkrafa.  
 
 ## <a name="to-set-up-contract-specific-service-hours"></a>Uppsetning samningsbundinna þjónustutíma  
-Hægt er að nota gluggann **Þjónustutími** til að setja upp tiltekna þjónustutíma fyrir viðskiptamanninn sem á þjónustusamninginn. Kerfið styðst við þjónustutíma þegar það reiknar út svardagsetningu og svartíma vegna þjónustupantana og tilboða sem tilheyra þjónustusamningnum.  
+Hægt er að nota síðuna **Þjónustutími** til að setja upp tiltekna þjónustutíma fyrir viðskiptamanninn sem á þjónustusamninginn. Kerfið styðst við þjónustutíma þegar það reiknar út svardagsetningu og svartíma vegna þjónustupantana og tilboða sem tilheyra þjónustusamningnum.  
   
 Ef ekki eru tilgreindar sérstakar þjónustustundir vegna þjónustusamningsins er notaður sjálfgefinn þjónustutími vegna þjónustusamninga.  
   

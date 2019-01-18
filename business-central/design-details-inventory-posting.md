@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80c2912836d8f11a8e3cf869b9412ad9ed66ca54
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Hönnunarupplýsingar: birgðabókun
@@ -29,7 +29,7 @@ Hver birgðafærsla, svo sem innkaupakvittun eða sölusending bókar tvær fær
 
  Hvað varðar magnbókun eru til vörujöfnunarfærslur til að tengja birgðaaukningu við birgðaminnkun. Þetta gerir kostnaðarforritinu kleift að framsenda kostnað frá aukningu á tengda minnkun, og öfugt. Nánari upplýsingar eru í [Upplýsingar um hönnun: Vörujöfnun](design-details-item-application.md).  
 
- Birgðahöfuðbókarfærslur, virðisfærslur og vörujöfnunarfærslur eru stofnaðar vegna bókunar í birgðabókarlínu, annað óbeint með bókun í pöntunarlínu eða beint í gluggann Birgðabók.  
+ Birgðahöfuðbókarfærslur, virðisfærslur og vörujöfnunarfærslur eru stofnaðar vegna bókunar í birgðabókarlínu, annað óbeint með bókun í pöntunarlínu eða beint á síðunni Birgðabók.  
 
  Með reglulegu millibili virðisfærslur sem eru stofna í birgðarfjárhag eru eru bókaðar í fjárhagur til að afstemma fjárhagur vegna fjárhagsástæðna Frekari upplýsingar, sjá [Hönnunarupplýsingar: afstemming við fjárhaginn](design-details-reconciliation-with-the-general-ledger.md)  
 

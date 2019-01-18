@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bdb2f5d98d22f861ce3fed0d8c72ae7992a80fdb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a0c8cc9444c1b6979843beff55cc9e792ec188d0
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Stofna Þjónustureikninga eða kreditreikninga
 Auðveld reikningsfærsla þjónustupantana er lykileiginleiki [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hægt er að senda viðskiptamönnum reikninga hvenær sem er, eða búa til reikninga með reglulegu millibili.  
   
-Til að stofna reikning beint er hægt að nota gluggann **Þjónustusamningur**. Einnig er hægt að setja kerfið upp þannig að þjónustutæknimaður á vettvangi geti stofnað reikning fyrir þjónustu sem ekki er tengd samningi eða pöntun.  
+Til að stofna reikning beint er hægt að nota síðuna **Þjónustusamningur**. Einnig er hægt að setja kerfið upp þannig að þjónustutæknimaður á vettvangi geti stofnað reikning fyrir þjónustu sem ekki er tengd samningi eða pöntun.  
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Til að reikningsfæra þjónustusamning úr síðunni Þjónustusamningur   
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Búa til þjónustusamningsreikninga** og veldu síðan tengda tengilinn.  
@@ -62,7 +62,7 @@ Ef þjónustupöntun er bókuð með valkostinum **Reikningur** eða **Afhenda o
 3. Fylla þarf út reitinn **Nr.**. .  
   
     > [!NOTE]  
-    >  Hafi númeraröð fyrir þjónustureikninga verið sett upp í glugganum **Þjónustukerfisgrunnur** er hægt að styðja á færslulykilinn til að velja næsta lausa þjónustureikningsnúmer.  
+    >  Hafi númeraröð fyrir þjónustureikninga verið sett upp á síðunni **Þjónustukerfisgrunnur** er hægt að styðja á færslulykilinn til að velja næsta lausa þjónustureikningsnúmer.  
   
 4. Í **Númer viðskiptamanns** reitinn er fært inn númer viðskiptamanns. Veljið viðeigandi viðskiptamann af listanum.  
   

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 507fd934ee30d2bcacbb298d0ab18fa351621922
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 76940b9133f6aef69c588b12dd4e8940717d0eab
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="send-electronic-documents"></a>Senda rafræn skjöl
@@ -47,7 +47,7 @@ Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu raf
      Sölureikningur er bókaður og sendur til viðskiptamannsins sem rafrænt skjal á PEPPOL-sniði.  
 
     > [!NOTE]  
-    >  Einnig er hægt að senda bókaða sölureikninga sem rafrænt skjal. Ferlið er það sama og lýst er í þessu efnisatriði fyrir óbókuð söluskjöl. Í glugganum **Bókaðir sölureikningar**, á flipanum **Aðgerðir**, í flokknum **Almennt**, veljið **Aðgerðakladdi** til að skoða stöðu rafræna skjalsins. Frekari upplýsingar, sjá **Aðgerðakladdi**.  
+    >  Einnig er hægt að senda bókaða sölureikninga sem rafrænt skjal. Ferlið er það sama og lýst er í þessu efnisatriði fyrir óbókuð söluskjöl. Á síðunni **Bókaðir sölureikningar**, á flipanum **Aðgerðir**, í flokknum **Almennt**, veljið **Aðgerðakladdi** til að skoða stöðu rafræna skjalsins. Frekari upplýsingar, sjá **Aðgerðakladdi**.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  

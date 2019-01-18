@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 51555bbfbd7fec6ca46bc1b2e6b02382288a41bc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Hönnunarupplýsingar: jöfnun framboðs og eftirspurnar
@@ -59,7 +59,7 @@ Almennt gildir að allt framboð hefur áætlunarsveigjanleika sem takmarkast af
 
     -   Taflan táknar birgðir (alltaf á degi núll).  
     -   Það er með pöntun fyrir pöntun tengda við aðra eftirspurn.  
-    -   Hún liggur utan enduráætlunargluggans sem skilgreindur er með tímarammanum.  
+    -   Hún liggur utan enduráætlunarsíðunnar sem skilgreind er með tímarammanum.  
     -   Hægt er að nota birgðir sem eru nær.  
     -   Á hinn bóginn kann notandinn að ákveða að enduráætla ekki vegna þess að:  
     -   Birgðapöntunin hefur þegar verið tengd við aðra eftirspurn á fyrri dagsetningu  
@@ -68,7 +68,7 @@ Almennt gildir að allt framboð hefur áætlunarsveigjanleika sem takmarkast af
 -   **Endurtímasetja inn**: Dagsetning núverandi framboðspöntunar sem er hægt að gera tímaáætlun á, nema í eftirfarandi skilyrðum:  
 
     -   Það er beintengt við einhverja aðra eftirspurn.  
-    -   Hún liggur utan enduráætlunargluggans sem skilgreindur er með tímarammanum.  
+    -   Hún liggur utan enduráætlunarsíðunnar sem skilgreind er með tímarammanum.  
 
 > [!NOTE]  
 >  Við áætlun vöru með endurpöntunarmarki, er alltaf hægt að áætla birgðapöntunina ef nauðsynlegt er. Þetta er algengt í birgðapöntun sem er dagsett í framtíðinni sem eru ræstar af endurpöntunarmarki.  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e597f0847a5d1991e26b1fed4596815889f950d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7d4f7293a040ad25ce8325552bc6f05f94dd0710
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-standard-routing-lines"></a>Setja upp staðlaðar leiðarlínur
@@ -27,7 +27,7 @@ Notkun staðalverka einfaldar gerð og viðhald leiða. Gera þér kleift að b�
 2. Valið er **Nýtt** aðgerð.
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velja **Verkfæri**, **Starfsmaður**, **Lýsing** eða **Verkfæri** aðgerðina.
-5. Lýstu staðlaða verkhlutanum sem um ræðir í glugganum sem opnast.
+5. lýstu staðlaða verkhlutanum sem um ræðir á síðunni sem opnast.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Bæta stöðluðum verkhluta við aðgerð
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **leiðir** og veldu síðan tengda tengilinn.

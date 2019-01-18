@@ -12,14 +12,14 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5bede56db06b7bac991f3f910c11e1dae61c7463
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Setja upp tölvupóst handvirkt eða með því að nota Uppsetningu með aðstoð
-Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú að fylla út reitina í glugganum **SMTP-póstuppsetning**.
+Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú að fylla út reitina á síðunni **SMTP-póstuppsetning**.
 
 > [!NOTE]  
 >   Í stað þess að slá inn upplýsingar um SMTP-miðlara geturðu notað aðgerð til að slá þær inn með upplýsingum frá Office 365 áskriftinni þinni.
@@ -31,7 +31,7 @@ Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d3
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Þú getur einnig valið **Nota stillingar Office 365 Stillingar vefþjóns** aðgerðina til að setja inn upplýsingar sem eru þegar skilgreindar fyrir Office 365 áskriftina þína.
 4. Þegar allir reitir eru fylltir út velurðu aðgerðina **Prófa tölvupóstuppsetningu**.
-5. Þegar prófið hefur tekist skal loka glugganum.
+5. Þegar prófið hefur tekist skal loka síðunni.
 
 ## <a name="see-also"></a>Sjá einnig  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

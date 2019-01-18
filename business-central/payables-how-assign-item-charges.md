@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dac33cefa38e82c1fa34d1f8eeeffbfad7518ab4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði
@@ -41,8 +41,8 @@ Hægt er að úthluta kostnaðarauka á bæði innkaupa- og söluskjöl á tvenn
 Vörugjaldsnúmer eru notuð til að greina á milli mismunandi vörugjalda sem notuð eru fyrir innkaupaskjöl í fyrirtækinu.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kostnaðarauki** og veldu síðan tengda tengilinn.
-2. Í glugganum **Kostnaðarauki** skal velja aðgerðina **Nýtt** til að stofna nýja línu.
-3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Á síðunni **Kostnaðarauki** skal velja aðgerðina **Nýtt** til að stofna nýja línu.
+3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Að úthluta kostnaðarauka beint til innkaupareiknings fyrir vöruna
 Ef þú veist hver kostnaðaraukinn er þegar þú bókar innkaupareikning fyrir vöruna, skaltu fylgja þessu ferli.
@@ -58,9 +58,9 @@ Ef þú veist hver kostnaðaraukinn er þegar þú bókar innkaupareikning fyrir
     Í eftirfarandi skrefum, muntu framkvæma hina raunverulegu úthlutun. Þar til kostnaðarauka hefur verið úthlutað að fullu, er gildið í **Magn til úthlutunar** reitnum skrifað með rauðu letri.
 8. Á flýtiflipanum **Línur** skal velja aðgerðina **Úthlutun kostnaðarauka**.
 
-    Glugginn **Úthlutun kostnaðarauka** opnast og birtir eina línu fyrir hverja vörutegundarlínu á innkaupareikningnum. Til að úthluta kostnaðaraukanum á eina eða fleiri reikningslínur, er hægt að nota aðgerð sem úthlutar og dreifir honum fyrir þig, eða þú getur fyllt handvirkt út í reitinn **Magn til úthlutunar**. Eftirfarandi skref útskýra hvernig á að nota aðgerðina Leggja til úthlutun kostnaðarauka.
+    Síðan **Úthlutun kostnaðarauka** opnast og birtir eina línu fyrir hverja vörutegundarlínu á innkaupareikningnum. Til að úthluta kostnaðaraukanum á eina eða fleiri reikningslínur, er hægt að nota aðgerð sem úthlutar og dreifir honum fyrir þig, eða þú getur fyllt handvirkt út í reitinn **Magn til úthlutunar**. Eftirfarandi skref útskýra hvernig á að nota aðgerðina Leggja til úthlutun kostnaðarauka.
 
-9. Í glugganum **Úthlutun kostnaðarauka** skal velja aðgerðina **Leggja til úthlutun kostnaðarauka**.
+9. Á síðunni **Úthlutun kostnaðarauka** skal velja aðgerðina **Leggja til úthlutun kostnaðarauka**.
 10. Ef það eru fleiri en ein vörutegundarlína í boði á reikningnum skal velja einn af fjórum dreifingarkostum.  
 
 Ef kostnaðarauka hefur verið úthlutað að fullu, er gildið í **Magn til úthlutunar** reitnum á innkaupareikningnum núll.
@@ -70,8 +70,8 @@ Nú er kostnaðarauka úthlutað til innkaupareiknings. Þegar þú bókar innhr
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Að úthluta kostnaðarauka frá öðrum reikningi til innkaupareiknings fyrir vöruna
 Ef þú færð sendan reikning fyrir kostnaðaraukann eftir að þú bókaðir upphaflegu innkaupamóttökuna, skaltu fylgja þessu ferli.
 1. Endurtakið skref 1 til 8 í „Að úthluta kostnaðarauka beint til innkaupareiknings fyrir vöruna“ hlutanum.
-2. Í glugganum **Úthlutun kostnaðarauka** skal velja aðgerðina **Sækja móttökulínur**.
-3. Í glugganum **Innkaupamóttökulínur** skal velja bókaða innkaupamóttöku fyrir vöruna sem þú vilt úthluta kostnaðaraukanum á, og veljið því næst hnappinn **Í lagi**.
+2. Á síðunni **Úthlutun kostnaðarauka** skal velja aðgerðina **Sækja móttökulínur**.
+3. Á síðunni **Innkaupamóttökulínur** skal velja bókaða innkaupamóttöku fyrir vöruna sem þú vilt úthluta kostnaðaraukanum á, og veljið því næst hnappinn **Í lagi**.
 4. Veljið aðgerðina **Leggja til úthlutun kostnaðarauka**.
 
 Kostnaðaraukinn á þessum aðgreinda innkaupareikningi er nú úthlutað til vörunnar á bókuðu innkaupamóttökunni, og þar með uppfærist birgðagildi vörunnar með kostnaði kostnaðaraukans.

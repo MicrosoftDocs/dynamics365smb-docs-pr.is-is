@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 78eea4df6f25772063cef5770eb1dcb433bee012
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Stjórnun sérstillinga sem stjórnandi
@@ -30,11 +30,11 @@ Hægt er að koma í veg fyrir að allir notendur sem tilheyra tiltekinni forsti
 
 ## <a name="clear-user-personalizations"></a>Hreinsa sérstillingar notenda
 
-Þegar sérstillingar síðu er eytt fer síðan aftur í upprunalegt útlit áður en sérstillingin var gerð. Það eru tvær leiðir til að hreinsa sérstillingar sem notendur hafa virkjað á síðum: Nota **Eyða sérstillingum notanda** gluggann og með því að nota **Spjald fyrir sérstillingar notanda** gluggann.
+Þegar sérstillingar síðu er eytt fer síðan aftur í upprunalegt útlit áður en sérstillingin var gerð. Það eru tvær leiðir til að hreinsa sérstillingar sem notendur hafa gert á síðum: með **Eyða sérstillingum notanda** síðunni og **Sérstillingaspjald notanda**.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Hreinsa sérstillingar notenda með því að nota síðuna Eyða sérstillingum notanda
 
-**Eyða sérstillingum notanda** glugginn gerir þér kleift að hreinsa sérstillingum á hverja síðu fyrir sig fyrir hvern notanda fyrir sig.
+Síðan **Eyða sérstillingum notanda** gerir þér kleift að hreinsa sérstillingar á einstaka síðum, eftir einstaka notendum.
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða sérstillingum notanda** og veldu síðan tengda tengilinn.
 
@@ -49,11 +49,11 @@ Hægt er að koma í veg fyrir að allir notendur sem tilheyra tiltekinni forsti
 
 ### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Hreinsa sérstillingar notenda með því að nota síðuna Sérstillingaspjald notanda
 
-**Spjald fyrir sérstillingar notanda** glugginn gerir þér kleift að hreinsa sérstillingar á öllum síðum fyrir tiltekna notanda. Þetta krefst skrifleyfis fyrir töflu 2000000072 **Forstilling**.
+Síðan **Sérstillingaspjald notanda** gerir þér kleift að hreinsa sérstillingar á öllum síðum fyrir tiltekinn notanda. Þetta krefst skrifleyfis fyrir töflu 2000000072 **Forstilling**.
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sérstillingar notanda** og veldu síðan tengda tengilinn.
 
-    **Sérstillingar notanda** glugginn listar alla þeim notendum sem hugsanlega hafa sérstilltar síður. Ef þú finnur ekki notanda á listanum þýðir það að hann hefur engar sérstilltar síður.
+    Síðan **Sérstillingar notanda** sýnir alla notendur sem hugsanlega hafa sérstillt síður. Ef þú finnur ekki notanda á listanum þýðir það að hann hefur engar sérstilltar síður.
 
 2. Veljið notanda af listanum og veljið svo aðgerðina **Breyta**.
 

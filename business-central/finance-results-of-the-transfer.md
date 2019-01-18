@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: general ledger, transfer, cost entries
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-transfer-and-post-cost-entries
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc693bf3f3339b54a5d8d8847beb06c3fc018a0f
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 0e17ff5ad60014cba6ce866c9ddae848b1239167
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Niðurstöður millifærslu fjárhagsfærslna yfir í kostnaðarfærslur
@@ -38,8 +39,5 @@ Fyrir stakar kostnaðarfærslur flytur [!INCLUDE[d365fin](includes/d365fin_md.md
 Í töflunni **Kostnaðarskráning**, [!INCLUDE[d365fin](includes/d365fin_md.md)] stofnar færslu með upprunaflutningnum frá fjárhag. Færslan skráir fyrstu og síðustu færslunúmer fjárhagsfærslna sem eru fluttar, til viðbótar við fyrstu og síðustu færslunúmer kostnaðarfærslnanna sem eru stofnaðar.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Flytja fjárhagsfærslur í kostnaðarfærslur](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
-[Skilyrði til að millifærslu fjárhagsfærslna í kostnaðarfærslur](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
-[Sjálfvirkur flutningur og færslur sameinaðar](finance-automatic-transfer-combined-entries.md)   
-[Flytja og bóka kostnaðarfærslur](finance-transfer-and-post-cost-entries.md)  
+[Flytja og bóka kostnaðarfærslur](finance-transfer-and-post-cost-entries.md)   
 

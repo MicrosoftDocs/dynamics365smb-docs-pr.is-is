@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Unnið með Samskipti Við Tengiliði
@@ -30,7 +30,7 @@ Tengslastjórnunargrunnur svæðið gerir mögulegt að skrá öll samskipti vi�
 
 ##  <a name="setting-up-interaction-templates"></a>Samskiptasniðmát sett upp
 Áður en hægt er að stofna og skrá samskipti þarf að setja upp samskiptasniðmát. Þegar samskipti eru stofnuð þarf að tilgreina á hvaða samskiptasniðmáti þau byggja. samskiptasniðmát er líkan sem lýsir grunneiginleikum samskipta.
-Þú setur upp samskiptasniðmát í glugganum **samskiptasniðmát**
+Þú setur upp samskiptasniðmát á síðunni **samskiptasniðmát**.
 
 Þegar upplýsingar um samskiptasniðmátið hafa verið færðar inn er hægt að búa til viðhengi, t.d. Microsoft Word skjal. Skrefin eru endurtekin til að setja upp eins mörg samskiptasniðmát og óskað er eftir.  
 
@@ -41,13 +41,13 @@ Samskipti eru skráð með tvennum hætti:
 * Hægt er að skrá samskipti sjálfkrafa þegar aðgerðir eru framkvæmdar í forritinu, til dæmis þegar reikningur eða tilboð er prentað út. Fyrir frekar upplýsingar, sjá [Skrá samskipti við tengiliði sjálfkrafa](marketing-auto-record-interactions.md)
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Skoða og vinna með skráð samskipti
-Hægt er að skoða öll skráð samskipti sem ekki hefur verið eytt í glugganum **Samskiptaskráningarfærslur**. Hægt er að opna þennan glugga með því að:
+Hægt er að skoða öll skráð samskipti sem ekki hefur verið eytt á síðunni **Samskiptaskráningarfærslur**. Hægt er að opna þessa síðu með því að:
 
 * Notkun **leit að síðu eða skýrslu** táknið til að leita á **samskiptaskráningarfærslum**.
 * Velja **Samskiptaskráningarfærslur** aðgerð á tengilið eða hluta.
-  Glugginn **Samskiptaskráningarfærslur** hafa að geyma samskiptin sem skráð eru handvirkt og þau sem forritið skráir sjálfvirkt.
+  Síðan **Samskiptaskráningarfærslur** inniehdlur samskiptin sem skráð eru handvirkt og þau sem forritið skráir sjálfvirkt.
 
-í þessum glugga geturðu:
+Á þessari síðu geturðu:
 
 * Sjá stöðu samskipta.
 * Merkja samskipti sem hætt við.

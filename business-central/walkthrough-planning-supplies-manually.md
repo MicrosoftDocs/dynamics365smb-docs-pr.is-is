@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fafe6aa28b61960ea028755f3308155aa1633b60
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d0a7088e436def55b3c7ddc3115065c66686b7fb
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Kynning: Handvirk áætlun birgða
-Þessi kynning sýnir ferli áætlunar birgðapantana til að uppfylla nýja eftirspurn. Hægt er að hefja áætlun birgða með föstu millibili, t.d. á hverjum morgni eða á hverjum mánudegi, eða þegar tilkynning berst frá sölu eða framleiðslu, eftir því um hvers konar eftirspurn er að ræða. Í þessari kynningu verður notaður glugginn **Pantanaáætlun**, einfalt birgðaáætlunarverkfæri sem byggir á handvirkri ákvarðanatöku í stað sjálfvirkrar áætlanagerðar sem byggir á færibreytum.  
+Þessi kynning sýnir ferli áætlunar birgðapantana til að uppfylla nýja eftirspurn. Hægt er að hefja áætlun birgða með föstu millibili, t.d. á hverjum morgni eða á hverjum mánudegi, eða þegar tilkynning berst frá sölu eða framleiðslu, eftir því um hvers konar eftirspurn er að ræða. Í þessari kynningu verður notuð síðan **Pantanaáætlun**, einfalt birgðaáætlunarverkfæri sem byggir á handvirkri ákvarðanatöku í stað sjálfvirkrar áætlanagerðar sem byggir á færibreytum.  
 
 ## <a name="about-this-walkthrough"></a>Um kynninguna  
  Þessi kynning fjallar um eftirfarandi verk:  
@@ -48,30 +48,30 @@ ms.lasthandoff: 09/28/2018
 ## <a name="story"></a>Ferill  
  Erla, sem er framleiðslustjóri lítils framleiðslufyrirtækis, er um það bil að fara að áætla framleiðslu og innkaupapantanir til að uppfylla nýja eftirspurn í sölu.  
 
- Vegna þess að framleiðslan hefur fá stig framleiðsluuppskrifta og flæði pantana er tiltölulega hæggengt notar Erla gluggann **Pantanaáætlun** til að stofna framboðspantanir handvirkt, eitt framleiðsluskref í einu.  
+ Vegna þess að framleiðslan hefur fá stig framleiðsluuppskrifta og flæði pantana er tiltölulega hæggengt notar Erla síðuna **Pantanaáætlun** til að stofna framboðspantanir handvirkt, eitt framleiðsluskref í einu.  
 
  Í flóknara framleiðsluumhverfi er vinnublaðið fyrir áætlun notað til að gera áætlun um framboð sem byggir á vöruþáttum eins og enduráætlunartímabil, öryggisforskot, endurpöntunarmark og keyrslu útreikninga eftirspurnar allra framleiðslustiga sem steypt hefur verið saman.  
 
 ## <a name="setting-up-the-sample-data"></a>Uppsetning sýnigagna  
  Staðlaða sýnifyrirtækið CRONUS er eins og stendur með mikið af óáætlaðri eftirspurn. Í ólíkum verkefnum áætlana sem eru í þessari kynningu verður að víkja frá raunverulegu viðskiptaflæði með því að hundsa kröfur sem hafa gjalddaga sem stutt er í og nota þess í stað kröfur með gjalddaga sem er síðar.  
 
-## <a name="using-the-order-planning-window"></a>Glugginn Pantanaáætlun notaður  
+## <a name="using-the-order-planning-page"></a>Síðan Pantanaáætlun notuð  
 
 <!-- 
-The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
 
 -   Manufacturing, Planning  
 -   Sales & Marketing, Order Processing  
 -   Purchase, Planning  
--   In addition, you can open this window for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
+-   In addition, you can open this page for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
 
 -->  
 
-### <a name="to-use-the-order-planning-window"></a>Til að nota gluggann Pantanaáætlun  
+### <a name="to-use-the-order-planning-page"></a>Að nota síðuna „Pantanaáætlun“  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **pantanaáætlun** og veldu síðan tengda tengilinn.  
 
-     Eftir að glugginn **Pantanaáætlun** opnast fyrst þarf að reikna áætlun til að sýna nýja eftirspurn frá því hún var reiknuð síðast.  
+     Eftir að síðan **Pantanaáætlun** opnast fyrst þarf að reikna áætlun til að sýna nýja eftirspurn frá því hún var reiknuð síðast.  
 
 2.  Velja **Reikna áætlun** aðgerðina.  
 
@@ -79,9 +79,9 @@ The **Order Planning** window can be accessed from several different locations o
 
      Magnið sem þörf er á fyrir hverja eftirspurnarlínu er reiknað út og byggir á heildarmagni sem til ráðstöfunar er. Útreikningurinn er gerður fyrir hverja pöntun fyrir sig. Það þýðir að pöntunin sem inniheldur eftirspurnarlínuna með fyrstu skila-/afhendingardagsetninguna er tekin fyrir fyrst. Eftir það eru allar aðrar eftirspurnarlínur reiknaðar í sömu röð, óháð skila- eða afhendingardagsetningu.  
 
-3.  Ganga þarf úr skugga um að glugginn **Pantanaáætlun** sé stækkaður og að reitir dálka séu af þeirri stærð að þeir sýni öll sjálfgefin heiti reita.  
+3.  Ganga þarf úr skugga um að síðan **Pantanaáætlun** sé stækkuð og að reitir dálka séu af þeirri stærð að þeir sýni öll sjálfgefin heiti reita.  
 
-     Þegar útreikningi er lokið þá sýnir glugginn alla óuppfyllta eftirspurn sem línur pöntunarhauss sem hefur verið felldar saman, flokkað eftir nýjustu dagsetningu eftirspurnar.  
+     Þegar útreikningi er lokið þá sýnir síðan alla óuppfyllta eftirspurn sem línur pöntunarhauss sem hafa verið felldar saman, flokkað eftir nýjustu dagsetningu eftirspurnar.  
 
      Takið eftir að CRONUS hefur margar pantanir með óuppfyllta eftirspurn. Hver feitletruð áætlunarlína stendur fyrir pöntun, sölupöntun eða framleiðslupöntun; af þeim er að minnsta kosti ein pantanalína með sem uppfyllir ekki ráðstöfunarkröfur.  
 
@@ -98,7 +98,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 1.  Fyrsta línan er stækkuð (veljið táknið +).  
 2.  Veljið fyrstu eftirspurnarlínuna, með vöru **LSU-15** og síðan **Sýna fylgiskjal** aðgerðina.  
-3.  Opinni framleiðslupöntun er lokað til að fara aftur í gluggann **Pantanaáætlun**.  
+3.  Opinni framleiðslupöntun er lokað til að fara aftur á síðuna **Pantanaáætlun**.  
 4.  Í reitnum **Áfyllingarkerfið** eru **Innkaup** valin.  
 
      Sjálfgefna gildið er af birgðaspjaldinu eða birgðahaldseiningaspjaldinu, en því er hægt að breyta í einn af eftirtöldum valkostum:  
@@ -118,13 +118,13 @@ The **Order Planning** window can be accessed from several different locations o
     >  Hafi íhlutirnir uppsett sjálfgefin númer lánadrottna á birgðaspjaldi, þá verða línurnar endurstilltar.  
 
 6.  Velja reitinn **Framboð frá**.  
-7.  Í glugganum **Vörulisti lánardrottins** skal velja aðgerðina **Nýtt** og svo er lánadrottinn **30000** valinn.  
-8.  Velja hnappinn **Í lagi** til að snúa aftur í gluggann **Pantanaáætlun**.  
+7.  Á síðunni **Vörulisti lánardrottins** skal velja aðgerðina **Nýtt** og svo er lánadrottinn **30000** valinn.  
+8.  Velja hnappinn **Í lagi** til að fara aftur á síðuna **Pantanaáætlun**.  
 9. Afrita lánardrottinn **30000** í aðrar línur fyrir hátalaraíhlutina á þessari framleiðslupöntun.  
 
      Nú er hægt að stofna innkaupapöntun.  
 
-10. Velja **búa til Pantanir** aðgerð. Glugginn **Gera framboðspantanir** opnast.  
+10. Velja **búa til Pantanir** aðgerð. Síðan **Gera framboðspantanir** opnast.  
 11. Í  **Pantanaáætlun** á flýtiflipanum **Gera pantanir fyrir** skal velja kostinn **Virk pöntun**.  
 12. Á flýtiflipanum **Valkostir** í reitnum **Stofna innkaupapöntun** er kosturinn **Gera innkaupapantanir** valinn.  
 13. Veldu hnappinn **Í lagi** til að stofna innkaupapantanir fyrir alla íhluti pöntunarinnar.  
@@ -144,15 +144,15 @@ The **Order Planning** window can be accessed from several different locations o
      Þá birtist skilgreint áfyllingarkerfi vörunnar og sjálfgefinn lánadrottinn.  
 
     > [!NOTE]  
-    >  Neðst í glugganum eru fjórir upplýsingareitir. Í reitnum **Fyrsta tiltæka dagsetning** munu þeir tíu hlutir sem þörf er á vera til taks, fyrir framboðspöntun á innleið, níu dögum eftir núverandi lokadag. Ef þetta er of seint fyrir viðskiptamanninn þá sýnir reiturinn **Tiltækt fyrir millifærslu** 13 stykki vörunnar á annarri staðsetningu. Áætla þarf fyrir þessar birgðir.  
+    >  Neðst á síðunni eru fjórir upplýsingareitir. Í reitnum **Fyrsta tiltæka dagsetning** munu þeir tíu hlutir sem þörf er á vera til taks, fyrir framboðspöntun á innleið, níu dögum eftir núverandi lokadag. Ef þetta er of seint fyrir viðskiptamanninn þá sýnir reiturinn **Tiltækt fyrir millifærslu** 13 stykki vörunnar á annarri staðsetningu. Áætla þarf fyrir þessar birgðir.  
 
-3.  Smellt er á **Tiltækt fyrir millifærslu** til að opna gluggann **Sækja annað framboð**.  
+3.  Smellt er á **Tiltækt fyrir millifærslu** til að opna síðuna **Sækja annað framboð**.  
 4.  Veldu hnappinn **Í lagi** til að bóka þau tíu eintök sem eru tiltæk.  
 
     > [!NOTE]  
     >  Í eftirspurnarlínuna hefur innkaupatillögu verið skipt út fyrir flutning frá GRÆNNI birgðageymslu. Aðgerðin **Búa til pöntun** stofnar flutning frá GRÆNNI til staðar þaðan sem eftirspurnin kemur. Reiturinn **Staðgenglar eru til** virkar á sama hátt.  
 
-5.  Velja **búa til Pantanir** aðgerð. Glugginn **Gera framboðspantanir** opnast.  
+5.  Velja **búa til Pantanir** aðgerð. Síðan **Gera framboðspantanir** opnast.  
 6.  Í  **Pantanaáætlun** á flýtiflipanum **Gera pantanir fyrir** skal velja kostinn **Virka pöntunin**.  
 7.  Á flýtiflipanum **Valkostir** í reitnum **Stofna millifærslupöntun** skal velja kostinn **Gera millif.pantanir**.  
 8.  Veldu hnappinn **Í lagi** til að stofna millifærslupöntun til að anna sölupöntunum.  
@@ -168,26 +168,26 @@ The **Order Planning** window can be accessed from several different locations o
 
      Þessi eftirspurn er sölulína en varan hefur skilgreint áfyllingarkerfi sem er **Framl.pöntun**. Haldið er áfram til að bæta annarri bjöllu við íhlutaþörf hvers hjóls.  
 
-2.  Veldu **Íhlutir** aðgerðina til að opna gluggann **Áætla Íhlutir** .  
+2.  Veldu **Íhlutir** aðgerðina til að opna síðuna **Áætla Íhlutir** .  
 3.  Í línunni með bjölluvörunni skal breyta reitnum **Magn á** úr **1** í **2**.  
-4.  Í glugganum **Pantanaáætlun** þarf að meta möguleika fyrir pöntunina. Í þessu tilfelli eru engar aðrar leiðir til framboðs, engir staðgenglar, millifærslur, eða síðari afhending. Stofna þarf birgðapöntunina sem lögð er til, framleiðslupöntun.  
+4.  Á síðunni **Pantanaáætlun** þarf að meta möguleika fyrir pöntunina. Í þessu tilfelli eru engar aðrar leiðir til framboðs, engir staðgenglar, millifærslur, eða síðari afhending. Stofna þarf birgðapöntunina sem lögð er til, framleiðslupöntun.  
 5.  Velja **búa til Pantanir** aðgerð til að stofna framleiðslupöntunina.  
 
-     Í glugganum **Pantanaáætlun** sést að áætlunarlínan fyrir sölupöntun **1001** er ekki lengur til staðar og séð hefur verið um upphaflega eftirspurn sölu.  
+     Á síðunni **Pantanaáætlun** sést að áætlunarlínan fyrir sölupöntun **1001** er ekki lengur til staðar og séð hefur verið um upphaflega eftirspurn sölu.  
 
 6.  Glugganum **Pantanaáætlun** er lokað.  
 
-     Nú væri hægt að velja að halda áfram í þessari valmynd og ljúka öllum áætlanagerðum. Þess í stað er nú farið í hlutverk framleiðslustjóra með því að fara í framleiðslupöntunina sem verið var að gera og opna gluggann **Pantanaáætlun**.  
+     Nú væri hægt að velja að halda áfram í þessari valmynd og ljúka öllum áætlanagerðum. Þess í stað er nú farið í hlutverk framleiðslustjóra með því að fara í framleiðslupöntunina sem verið var að gera og opna síðuna **Pantanaáætlun**.  
 
  Framleiðslustjóri þarf að áætla sérstaka röð framleiðslupantana.  
 
 ### <a name="to-plan-a-specific-production-order"></a>Til að áætla sérstaka röð framleiðslupöntunar  
 
 1.  Opna skal framleiðslupöntunina **101001**, fyrir tíu reiðhjól, sem var stofnuð með aðgerðinni **Gera pantanir**.  
-2.  Opna gluggann **Íhlutir framl.pöntunar** til að athuga hvort staka bjallan endurspeglist í framleiðslupöntuninni.  
+2.  Opna síðuna **Íhlutir framl.pöntunar** til að athuga hvort staka bjallan endurspeglist í framleiðslupöntuninni.  
 3.  Veldu aðgerðina **Áætlun**.  
 
-     Glugginn **Pantanaáætlun** opnast í útliti sem er alltaf síað niður á tiltekna framleiðslueftirspurn. Eftirspurn sölu er ekki sýnd. Reikna þarf áætlun áður en hægt er að sjá nokkra viðbótareftirspurn.  
+     Síðan **Pantanaáætlun** opnast í útliti sem er alltaf síað niður á tiltekna framleiðslueftirspurn. Eftirspurn sölu er ekki sýnd. Reikna þarf áætlun áður en hægt er að sjá nokkra viðbótareftirspurn.  
 
 4.  Velja **Reikna áætlun** aðgerðina.  
 
@@ -207,11 +207,11 @@ The **Order Planning** window can be accessed from several different locations o
 
      Áður er hnappurinn **Í lagi** er valinn ætti að lesa textann á flýtiflipanum **Pantanaáætlun**. Þessi texti er mikilvægur vegna þess að vitað er að reiðhjólið hefur nokkra framleidda íhluti—millivörur—í framleiðsluferli sínu sem gæti orðið eftirspurn eftir þegar þessi framleiðslupöntun hefur verið gerð.  
 
-7.  Í glugganum **Gera framboðspantanir** í reitnum **Gera pantanir fyrir** veljið valkostinn **Allar línur** og veljið svo hnappinn **Í lagi** til að stofna framleiðslupöntun fyrir annað framleiðslustig pöntunarinnar.  
+7.  Á síðunni **Gera framboðspantanir** í reitnum **Gera pantanir fyrir** veljið valkostinn **Allar línur** og veljið svo hnappinn **Í lagi** til að stofna framleiðslupöntun fyrir annað framleiðslustig pöntunarinnar.  
 
      Athugið að eftirspurn framleiðslu á efsta stigi fyrir framleiðslupöntun 101001 er ekki lengur til. Það þýðir að gerð hefur verið áætlun fyrir upphaflega eftirspurn framleiðslu fyrir millivörur.  
 
-     Í glugganum **Pantanaáætlun** má reikna áætlun aftur til að gera áætlun um byggingu reiðhjólsins.  
+     Á síðunni **Pantanaáætlun** má reikna áætlun aftur til að gera áætlun um byggingu reiðhjólsins.  
 
 8.  Velja aðgerðina **Reikna áætlun** til að endurreikna áætlun eins og mælt er fyrir um í meðfylgjandi Hjálpartexta.  
 
@@ -229,7 +229,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 13. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pantanir** og veldu síðan tengda tengilinn.  
 
-     Í glugganum **Fastáætlað** farið yfir hvernig upphafs- og lokatími einstakra pantana er áætlaður út frá samsetningu framleiðslunnar. Íhlutir á neðsta þrepi eru framleiddir fyrst. Því þarf að áætla pantanir í mörgum þrepum eins og sýnt er í þessu verkflæði fyrir áætlanir.  
+     Á síðunni **Fastáætlað** farið yfir hvernig upphafs- og lokatími einstakra pantana er áætlaður út frá samsetningu framleiðslunnar. Íhlutir á neðsta þrepi eru framleiddir fyrst. Því þarf að áætla pantanir í mörgum þrepum eins og sýnt er í þessu verkflæði fyrir áætlanir.  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Kynningar á viðskiptaferlum](walkthrough-business-process-walkthroughs.md)   

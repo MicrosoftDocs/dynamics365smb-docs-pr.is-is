@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e09bc15f21acbcdf55908064b9867728a7870fb4
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1000447ed0f547fea9fc349900631b0a5f0ce107
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
@@ -38,7 +38,7 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 
 Í samsetningarpöntunarferlinu er varan samsett út frá sölupöntuninni og með beinan tengil milli samsetningarpöntunarinnar og sölupöntunarinnar.  
 
-Þegar vara sem setja á saman í pöntun er sett inn í sölulínu er samsetningarpöntun sjálfkrafa búin til með haus sem byggir á sölulínunni og með línur sem byggja á samsetningaruppskrift vörunnar margfaldarði með pöntunarmagninu. Hægt er að nota gluggann **Setja saman í pöntunarlínur** til að sjá tengdar samsetningarpöntunarlínur til að auðvelda sérstillingu á samsetningaríhlut og á afhendingardegi sem byggist á upplýsingum um framboð íhluta. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
+Þegar vara sem setja á saman í pöntun er sett inn í sölulínu er samsetningarpöntun sjálfkrafa búin til með haus sem byggir á sölulínunni og með línur sem byggja á samsetningaruppskrift vörunnar margfaldarði með pöntunarmagninu. Hægt er að nota síðuna **Setja saman í pöntunarlínur** til að sjá tengdar samsetningarpöntunarlínur til að auðvelda sérstillingu á samsetningaríhlut og á afhendingardegi sem byggist á upplýsingum um framboð íhluta. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Þótt það sé ekki hluti af sjálfgefnu ferli er hægt að selja birgðamagn ásamt sameiningarpöntunarmagninu. Frekari upplýsingar eru í [Selja birgðavörur í flæðum samsetningar í pöntun](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  

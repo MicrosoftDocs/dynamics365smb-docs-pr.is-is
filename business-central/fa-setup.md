@@ -12,10 +12,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fac857ae94152104ea6640782a5f315424b739e7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3e610461a78ec2a4cebb60350236e17fe3d7e9cf
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Uppsetning eigna
@@ -27,9 +27,9 @@ ms.lasthandoff: 03/22/2018
 Taflan hér að neðan inniheldur tengla í frekari upplýsingar. Eftir að þú hefur sett þessi atriði upp geturðu byrjað á ýmsum verkefnum. Frekari upplýsingar eru í [Eignir](fa-manage.md).  
 
 > [!NOTE]  
->   Hægt er að skrá eignafærslur í **Fjárhagsbók eigna** eða í **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á **fjárhagsbók eigna** glugginn.  
+>   Hægt er að skrá eignafærslur á síðunum **Fjárhagsbók eigna** eða í **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á síðuna **Fjárhagsbók eigna**.  
 
-Þegar þú virkjar aðgerð eignar í **Fjárhagsheildun** hlutanum í á **Afskriftabókarspjald** glugganum verður glugginn **Fjárhagsbók eigna** notaður til að bóka færslur á aðgerðinni.
+Þegar þú virkjar aðgerð eignar í **Fjárhagsheildun** hlutanum á síðunni **Afskriftabókarspjald** verður síðan **Fjárhagsbók eigna** notuð til að bóka færslur á aðgerðinni.
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
 

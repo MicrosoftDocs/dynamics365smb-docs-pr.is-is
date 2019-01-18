@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e505f1942aba554bfa83a0fb81ace0db209b102
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1a460bed4be049ddd1eff7c33ae43c70e65ab403
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,11 +26,10 @@ Hægt er að velja að VSK-upphæðir verði reiknaðar og bókaðar á bráðab
 
 Til að nota reikninga fyrir óinnleyst virðisaukaskatt skaltu fylgja þessum skrefum:
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið og sláðu inn **Uppsetning fjárhags**.
-2. Í **Uppsetning fjárhags** glugga, á **Almennt** flýtiflipanum, skaltu velja **Sýna meira**, og síðan velja **Óinnleystur VSK** gátreitinn.
-3. Lokaðu síðunni.
-4. veldu **Leita að síðu eða Tilkynna** táknið ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") og sláðu inn **VSK-bókunargrunnur**.
-5. Í glugganum **VSK-bókunargrunnur** skaltu velja VSK-bókunarflokk og velja síðan **Breyta**.
-6. Í reitnum **Tegund áætlaðs VSK**, veldu valkost til að tilgreina hvernig á að úthluta greiðslum til reikningsupphæð (án virðisaukaskatts) og virðisaukaskatts sjálfs og hvernig á að flytja virðisfjárhæðir úr óreynduðu virðisaukaskatti á reikninginn. Eftirfarandi tafla lýsir valkostunum.
+2. Á síðunni **Uppsetning fjárhags** skal velja gátreitinn Óinnleystur VSK á flýtiflipanum **Almennt**.
+3. Veldu **Leita að síðu eða Tilkynna** táknið ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") og sláðu inn **VSK-bókunargrunnur**.
+4. Á síðunni **VSK-bókunargrunnur** velurðu VSK-bókunarflokk og síðan velurðu aðgerðina **Breyta**.
+5. Í reitnum **Tegund áætlaðs VSK**, veldu valkost til að tilgreina hvernig á að úthluta greiðslum til reikningsupphæð (án virðisaukaskatts) og virðisaukaskatts sjálfs og hvernig á að flytja virðisfjárhæðir úr óreynduðu virðisaukaskatti á reikninginn. Eftirfarandi tafla lýsir valkostunum.
 
 | Valkostur | Lýsing |
 | --- | --- |

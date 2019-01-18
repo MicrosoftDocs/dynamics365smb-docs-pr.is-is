@@ -13,16 +13,16 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="delivering-service"></a>Þjónustuafhending
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur eiginleika sem hjálpa til við afhendingu þjónustu samkvæmt þeim samningum sem stofnaðir hafa verið og þeim þjónustupöntunum sem uppfylla skal. Auðvelt er fyrir þjónustutæknimenn eða afgreiðslu að finna þjónustupantanir með **Afgreiðslustöð**. Í stuttu máli sýnir **Afgreiðslustöð** hvaða pantanir eru í vinnslu og hvaða pantanir eru tilbúnar.  
   
-Önnur leið til að fara yfir þjónustupantanir í undirbúningi er að nota gluggann **Þjónustuverkhlutar**. Í þessu yfirliti þjónustuskuldbindinga er hægt að sjá hvar pöntun er í verkflæði þjónustu, og breytt þeirri stöðu til að spegla samskipti við viðskiptamanninn.  
+Önnur leið til að fara yfir þjónustupantanir í undirbúningi er að nota síðuna **Þjónustuverkhlutar**. Í þessu yfirliti þjónustuskuldbindinga er hægt að sjá hvar pöntun er í verkflæði þjónustu, og breytt þeirri stöðu til að spegla samskipti við viðskiptamanninn.  
   
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
 

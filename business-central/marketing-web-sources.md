@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b8c59f24eae07efe8f2c4ca1e4e22d05fd4f1b1c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Setja upp veftengingar fyrir tengiliðafyrirtæki.
@@ -29,7 +30,7 @@ Notkun veftenginga á tengiliði er tveggja þrepa ferli. Fyrst að skilgreina v
 2. Veljið aðgerðina **Nýtt**.
 3. Fyllt er í reitina **Kóti**, **Lýsing** og **URL**.
 
-    Sláið inn %1 í reitinn **URL** til að setja inn staðgengil fyrir leitarorð í slóðinni. Þegar veftengingin er ræst frá tengilið er %1 skipt út fyrir leitarorð, t.d. heiti fyrirtækisins sem fært var inn í gluggann **Veftenging tengiliðar**.
+    Sláið inn %1 í reitinn **URL** til að setja inn staðgengil fyrir leitarorð í slóðinni. Þegar veftengingin er ræst frá tengilið er %1 skipt út fyrir leitarorð, t.d. heiti fyrirtækisins sem fært var inn á síðuna **Veftenging tengiliðar**.
 
 Skrefin eru endurtekin til að setja upp eins margar veftengingar og óskað er.
 
@@ -37,13 +38,13 @@ Skrefin eru endurtekin til að setja upp eins margar veftengingar og óskað er.
 Þegar veftengingu er úthlutað er tilgreint hvaða leitarvél og leitarorð kerfið eigi að nota til að finna umbeðnar upplýsingar.
 
 1. Tengiliðurinn er opnaður.
-2. Veljið aðgerðina **Fyrirtæki** og veljið síðan aðgerðina **Veftenging**. Glugginn **Veftenglar tengiliða** birtist.
+2. Veljið aðgerðina **Fyrirtæki** og veljið síðan aðgerðina **Veftenging**. Síðan **Veftenglar tengiliða** birtist.
 3. Í reitnum **Veftengingarkóði** skal velja veftenginguna sem á að úthluta.
 4. Í reitinn **Leitarorð** er fært inn leitarorðið sem á að nota til að finna upplýsingarnar.
 
 Skrefin eru endurtekin til að úthluta eins mörgum veftengingum og óskað er.
 
-Einnig má nota sömu aðferð til að úthluta veftengingum í glugganum **Tengiliðalisti**.
+Einnig má nota sömu aðferð til að úthluta veftengingum á síðunni **Tengiliðalisti**.
 
 ## <a name="see-also"></a>Sjá einnig
 [Fyrirtækjatengiliðir stofnaðir](marketing-create-contact-companies.md)  

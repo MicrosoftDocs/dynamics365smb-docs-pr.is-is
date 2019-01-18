@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Undirbúa flutning á viðskiptamannagögnum
@@ -45,32 +45,46 @@ Hins vegar hægt að stofna sniðmátsskipulag fyrir hvaða töflu sem er í [!I
 >  Einnig er hægt að nota gagnasniðmát til að stofna nýjar færslur á skjótan hátt. Þá má nota til að stofna gögn á fljótlegri og nákvæmari hátt. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingarsniðmát** og veldu síðan tengda tengilinn.  
-2. VÍ glugganum **Grunnstilla sniðmátalista** skal velja gagnasniðmát af listanum og veljið svo aðgerðina **Breyta**.  
+2. Á síðunni **Grunnstillingarsniðmát** skal velja gagnasniðmát af listanum og veljið svo aðgerðina **Breyta**.  
 
 Ef sjálfgefin sniðmát uppfylla ekki þarfir fyrirtækisins er hægt að stofna ný sniðmát eða bæta reitum við sjálfgefið sniðmát. Ef sjálfgefin sniðmát eru fullnægjandi er hægt að nota þau til að stofna færslur samkvæmt aðalgagnagrunni.
 
-## <a name="to-create-a-data-template"></a>Að stofna gagnasniðmát
+## <a name="to-create-a-new-data-template"></a>Til að búa til nýtt gagnasniðmát
 Hægt er að stofna nýtt gagnasniðmát ef sjálfgefin sniðmát henta ekki nýja fyrirtækinu. Ef stofna á fleiri en eitt gæti verið gagnlegt að taka upp nafnavenju fyrir reitinn **Kóði**.
 
 Hvert sniðmát samanstendur af haus og línum. Þegar sniðmát er stofnað er hægt að tilgreina við hvaða reiti skal alltaf jafna við gögn af tiltekinni gerð. Til dæmis er hægt að stofna mismunandi sniðmát viðskiptamanns sem eiga við mismunandi tegundir viðskiptamanna. Þegar viðskiptavinurinn er stofnaður með sniðmáti er hægt að nota sniðmátsgögn til að fylla ákveðna reiti út fyrirfram.
 
-### <a name="to-create-a-data-template-header"></a>Til að stofna gagnasniðmátshaus
-1. Opnið gluggann **Grunnstilling sniðmátalista**.
+### <a name="to-copy-an-existing-data-template"></a>Fyrirliggjandi gagnasniðmát afritað
+Hægt er að búa til nýtt gagnasniðmát á einfaldan hátt með því að afrita upplýsingar úr fyrirliggjandi gagnasniðmáti sem svo er breytt.
+
+1. Opna skal síðuna **Grunnstillingarsniðmát**.
 2. Valið er **Nýtt** aðgerð.
+3. Reiturinn **Kóti** er fylltur út.
+4. Velja skal **Afrita skilgreiningarsniðmát**.
+5. Á síðunni **Grunnstillingarsniðmát** skal velja sniðmát til að afrita og svo hnappinn **Í lagi**.
+
+Töflukenni, töfluheiti og línur fyrirliggjanda gagnasniðmáta eru sett í nýja sniðmátið.
+
+### <a name="to-create-a-data-template-header-manually"></a>Til að stofna gagnasniðmátshaus handvirkt
+1. Opna skal síðuna **Grunnstillingarsniðmát**.
+2. Valið er **Nýtt** aðgerð.
+3. Reiturinn **Kóti** er fylltur út.
 3. Í reitnum **Töfluauðkenni** skal færa inn töfluna sem þetta sniðmát á við um. Reiturinn **Heiti töflu** útfyllist sjálfkrafa þegar reiturinn **Töflukenni** er stilltur.
 
-### <a name="to-create-a-data-template-line"></a>Til að stofna gagnasniðmátslínu
-1. I fyrstu línunni skal velja reitinn **Heiti reits**. Glugginn **Reitalisti** sýnir lista með reitum í töflunni.
+### <a name="to-create-a-data-template-line-manually"></a>Til að stofna gagnasniðmátslínu handvirkt
+1. I fyrstu línunni skal velja reitinn **Heiti reits**. Síðan **Reitalisti** sýnir lista með reitum í töflunni.
 2. Veljið reit og smellið á hnappinn **Í lagi**. Fyllt er út í reitinn **Yfirskrift reits** með reitarheiti.
 3. Í reitnum **Sjálfgefið gildi** skal færa inn viðeigandi gildi. Í sumum getur hentað að nota gildi sem ekki er tiltækt í gagnagrunninum. Í því tilviki er hægt að velja gátreitinn **Sleppa tengslaathugun** til að hægt sé að nota gögn án villna.
 
     > [!TIP]  
     > Þar sem svæðið **Sjálfgefið gildi** flettir ekki upp í samsvarandi valkostum reita [!INCLUDE[d365fin](includes/d365fin_md.md)] þá afritast og límist gildið úr tengdri síðu í sniðmátið.
 
-    > Veljið gátreitinn **Skylda**. Gátreiturinn er einungis til upplýsinga. Gefur til kynna að notandi þarf að færa upplýsingar í reitinn en engum rekstrargrunni er framfylgt. Til dæmis er ekki hægt að reikningsfæra og bóka pöntun ef bókunarflokkar hafa ekki verið settir upp. Þar sem bókunarflokka er krafist er hægt að velja gátreitinn **Áskilið** fyrir þessa reiti.
+4. Veljið gátreitinn **Áskilið** ef notendur verða að fylla út reitina.
 
-3. Í reitnum **Tilvísun** eru færðar inn upplýsingar um reitinn eftir þörfum.
-4. Velja hnappinn **Í lagi**.
+    > [!NOTE]
+    > Gátreiturinn er einungis til upplýsinga. Enginn viðskiptagrunnur er nauðsynlegur. Til dæmis geta notendur ekki reikningsfært og bókað reikning ef bókunarflokkar hafa ekki verið settir upp. Þar sem bókunarflokka er krafist er hægt að velja gátreitinn **Áskilið** fyrir þessa reiti til að láta notanda fylla þá út og því koma í veg fyrir bókunarvillur síðar.
+5. Í reitnum **Tilvísun** eru færðar inn upplýsingar um reitinn eftir þörfum.
+6. Velja hnappinn **Í lagi**.
 
 ## <a name="to-export-to-a-template-in-excel"></a>Að flytja út í sniðmát í Excel
 Hægt er að stofna Excel-vinnubók með fljótlegum hætti til að nota sem sniðmát sem byggt er á uppbyggingu fyrirliggjandi gagnasafnstöflu. Þá má nota sniðmát til að safna saman gögnum um viðskiptavini með samræmdum sniði fyrir síðari innflutningi í [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -87,7 +101,7 @@ Nú er hægt að færa inn gögn um viðskiptavini í Excel-vinnublaðið. Ef ma
 > Eftirfarandi villa getur komið upp þegar ensk útgáfa Excel er notuð en svæðisstillingin er sett á annað tungumál en ensku: „Gamalt snið eða ógilt tegundasafn.“ Til að leiðrétta þessa villu þarf að tryggja að tungumálapakkinn fyrir tungumálið sem ekki er enska sé uppsettur.
 
 ## <a name="to-import-from-a-template-in-excel"></a>Til að flytja inn úr sniðmáti í Excel
-1. Í glugganum **Grunnstillingarvinnublað** skal velja aðgerðina **Flytja inn úr sniðmáti**.
+1. Á síðunni **Grunnstillingarvinnublað** skal velja aðgerðina **Flytja inn úr sniðmáti**.
 3. Fara í vinnublað sniðmáts sem notandi bjó til og velja síðan aðgerðina **Opna**.
 4. Til að bæta samansöfnuðum viðskiptamannagögnum við gagnagrunninn skal velja aðgerðina **Nota gögn**.
 
@@ -117,8 +131,8 @@ Hægt er að setja inn gagnasniðmát við allar skrár sem er í [!INCLUDE[d365
 Eftirfarandi ferli byggist á nýju viðskiptamannaspjaldi.  
 
 1. Stofna viðskiptavin. Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).
-2. Í glugganum **Viðskiptamannaspjald** skal velja aðgerðina **Nota sniðmát**.  
-3. Í glugganum **Viðskiptamannasniðmát** skal velja eitt af sniðmátunum og síðan smella á hnappinn **Í lagi**.  
+2. Á síðunni **Viðskiptamannaspjald** skal velja aðgerðina **Nota sniðmát**.  
+3. Á síðunni **Viðskiptamannasniðmát** skal velja eitt af sniðmátunum og síðan smella á hnappinn **Í lagi**.  
 
 Sjálfgefin gildi í völdu viðskiptamannasniðmáti eru sett inn á viðskiptamannaspjaldið.
 

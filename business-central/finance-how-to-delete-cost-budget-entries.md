@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: cdd7f7cfb2645d780df47bfb75ec7392c1739843
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f578247ef835b3c7803adb123e18eec62b0864b9
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="delete-cost-budget-entries"></a>Eyða kostnaðaráætlunarfærslum
@@ -34,7 +34,7 @@ Til að koma í veg fyrir gloppur í kostnaðaráætlunarfærslum og kostnaðars
 2.  Velja hnappinn **Í lagi** til að eyða völdum færslum kostnaðaráætlana.  
 
 > [!NOTE]  
->  Til að forðast að eyða kostnaðaráætlunarfærslum fyrir slysni er hægt að loka skráningarfærslum með því að merkja línurnar sem **Lokað** í reitnum **Lokað** í glugganum **Fjárhagsáætlunarskrár**.  
+>  Til að forðast að eyða kostnaðaráætlunarfærslum fyrir slysni er hægt að loka skráningarfærslum með því að merkja línurnar sem **Lokað** í reitnum **Lokað** á síðunni **Fjárhagsáætlunarskrár**.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Kostnaðarbókhald](finance-manage-cost-accounting.md)

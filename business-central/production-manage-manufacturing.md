@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b1712215a392d8abdb0ca549c621d77490e6341c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3e17e6eb7700027d53cbbd2f05292a7bd828d1af
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="manufacturing"></a>Framleiðsla
@@ -27,7 +27,7 @@ ms.lasthandoff: 09/28/2018
 
 Mikilvægur hluti af framleiðslunni, hvað kerfið varðar, er að bóka frálag framleiðslu í gagnagrunninn til að sýna framvindu áætlunarinnar og uppfæra birgðir með fullbúnum vörum. Hægt er að bóka frálag á handvirkan hátt með því að fylla út og bóka færslulínur eftir framleiðsluaðgerðir. Einnig er hægt að bóka á sjálfvirkan hátt með því að nota afturvirka birgðaskráningu. Í slíkum tilvikum er efnisnotkun bókuð sjálfkrafa ásamt frálagi þegar lokið er við framleiðslupöntunina.  
 
-Í stað þess að nota runubók til að bóka frálag margra framleiðslupantana má nota gluggann **Framleiðslubók** til að bóka notkun og/eða frálag fyrir tiltekna framleiðslupöntunarlínu.
+Í stað þess að nota runubók til að bóka frálag margra framleiðslupantana má nota síðuna **Framleiðslubók** til að bóka notkun og/eða frálag fyrir tiltekna framleiðslupöntunarlínu.
 
 Áður en þú getur byrjað að framleiða vöru, er nauðsynlegt að búa til ýmsar uppsetningar, eins og vinnustöðvar, leiðir og framleiðsluuppskriftir. Nánari upplýsingar er að finna í [Uppsetning framleiðslu](production-configure-production-processes.md).
 
@@ -40,10 +40,11 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Útvista öllum eða völdum aðgerðum í framleiðslupöntun til undirverktaka.|[Úthýsa framleiðslu til undirverktaka](production-how-to-subcontract-manufacturing.md)|
 |Skrá og bóka frálag framleiðslu ásamt efnis- og tímanotkun fyrir eina útgefna framleiðslupöntunarlínu.|[Bóka notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu](production-how-to-register-consumption-and-output.md)|  
 |Fjöldabóka magn íhluta notað á aðgerð, í færslubók sem getur unnið fjölda áætlaðra framleiðslupantana.|[Fjöldabóka notkun](production-how-to-post-consumption.md)|
-|Bóka magn tilbúinna vara og tíma eytt á aðgerð, í færslubók sem getur unnið fjölda útgefinna framleiðslupantana.|[Fjöldabóka frálag og keyrslutíma](production-how-to-post-output-quantity.md)|  
+|Bóka magn tilbúinna vara og tíma eytt á aðgerð, í færslubók sem getur unnið fjölda útgefinna framleiðslupantana.|[Fjöldabóka frálag og keyrslutíma](production-how-to-post-output-quantity.md)|
+|Afturkalla frálag, til dæmis vegna þess að gagnafærsluvilla átti sér stað og rangt magn.  |[Bakfæra frálagsbókun](production-how-to-reverse-output-posting.md)|  
 |Bóka fjölda vara sem framleiddar eru í hverri lokinni aðgerð sem ekki teljast til tilbúinnar vöru heldur sem úrkast.|[Bóka úrkast](production-how-to-post-scrap.md)|
 |Skoða álag á vinnusal sem afleiðingu útgefinna og afgreiddra framleiðslupantana.|[Skoða álag á vinnu- og vélastöðvar](production-how-to-view-the-load-on-work-centers.md)|      
-|Nota gluggann **Afkastagetubók** til að bóka notaða afkastagetu sem ekki er úthlutað á framleiðslupöntun, líkt og viðhaldsvinna.|[Bóka afkastagetu](production-how-to-post-capacities.md)|  
+|Nota síðuna **Afkastagetubók** til að bóka notaða afkastagetu sem ekki er úthlutað á framleiðslupöntun, líkt og viðhaldsvinna.|[Bóka afkastagetu](production-how-to-post-capacities.md)|  
 |Reikna út og jafna kostnað við tilbúnar framleiðsluvörur og íhluti sem notaðir voru til afstemmingar.|[Um lokinn framleiðslupantanakostnað](finance-about-finished-production-order-costs.md)|  
 
 ## <a name="see-also"></a>Sjá einnig  

@@ -13,10 +13,10 @@ ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9655a65fe6a5e6f90ba2c0f1a00c6c8f2cc977ad
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Hönnunarupplýsingar: afstemming í fjárhagur
@@ -35,7 +35,7 @@ Bókunardagsetningar fjárhagsfærslnanna eru stilltar á bókunardagsetningu sa
 Þegar runuvinnslan **Bóka birgðakostnað í fjárhag** er keyrð gæti kerfið rekist á villur sem hafa með uppsetningu sem vantar að gera eða ósamhæfa víddaruppsetningu. Ef keyrslan rekst á villur í víddaruppsetningunni hefur hún þessar villur að engu og notar víddir virðisfærslunnar. Í tilfelli annarra villna hoppar keyrslan yfir bókun virðisfærslnanna og telur þær upp við lok skýrslunnar í hluta sem heitir **Færslur sem hoppað var yfir**. Til að bóka þessar færslur þarf að leiðrétta villurnar. Hægt er að sjá lista af villum áður en keyrslan er keyrð með því að keyra skýrsluna **Bóka birgðakostnað í fjárhag - Prófun**. Þessi skýrsla inniheldur allar villur sem koma upp í prufubókun. Þá er hægt að laga villurnar og keyra bókunarkeyrslu birgðakostnaðar án þess að sleppa neinum færslum.  
 
 ## <a name="automatic-cost-posting"></a>Sjálfvirk kostnaðarbókun  
-Til að setja upp kostnaðarbókun í fjárhag til að keyra sjálfkrafa þegar þú bókar birgðafærslu, veldu **Sjálfvirk kostnaðarbókun** gátreitinn í **Uppsetning birgða** glugga. Bókunardagsetning fjárhagsfærslnanna er sú sama og fyrir bókunardagsetning birgðafærslunnar.  
+Til að setja upp kostnaðarbókun í fjárhag til að keyra sjálfkrafa þegar þú bókar birgðafærslu, veldu **Sjálfvirk kostnaðarbókun** gátreitinn á síðunni **Uppsetning birgða**. Bókunardagsetning fjárhagsfærslnanna er sú sama og fyrir bókunardagsetning birgðafærslunnar.  
 
 ## <a name="account-types"></a>Gerðir reikninga  
 Við afstemmingu, eru birgðarvirði skráð í birgðarreikning í efnahagsreikning. Sama upphæð, með andstætt tákn, er bókuð á viðeigandi mótreikning. Venjulega er jöfnunarreikningur rekstrarreikningur. Hins vegar, þegar þú birtir beinan kostnað vegna neyslu eða framleiðslu, er mótreikningurinn efnahagslykill. Tegund birgðafærslunnar og virðisfærslunnar ákvarðar í hvaða fjárhagsreikning er bókað.  
@@ -45,7 +45,7 @@ Færslugerð sýnir hvaða fjárhagsreikning á að bóka í. Þetta er ákvarð
 ### <a name="example"></a>Dæmi  
 Eftirfarandi dæmi sýnir reiðhjólakeðju sem er framleidd úr keyptum hlekkjum. Þetta dæmi sýnir hvernig mismunandi gerðir fjárhagsreikninga eru notaðir í dæmigerðum aðstæðum.  
 
-Gátreiturinn **Áætluð kostnaðarbókun í fjárhag** í glugganum **Uppsetning birgða** er valinn og eftirfarandi uppsetning er tilgreind.  
+Gátreiturinn **Áætluð kostnaðarbókun í fjárhag** á síðunni **Uppsetning birgða** er valinn og eftirfarandi uppsetning er tilgreind.  
 
 Eftirfarandi tafla sýnir hvernig hlekkur er settur upp á birgðaspjaldi.  
 

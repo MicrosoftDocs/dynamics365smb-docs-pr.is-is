@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: e63179eb2d791a84141bdf46a632e4b7df6c554e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 54857d668cdceb9cc1d4e035a496d621b1d9459b
 ms.contentlocale: is-is
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-picking-items-by-fefo"></a>Virkja Vörutínsla eftir FEFO
@@ -40,7 +40,7 @@ Ef tvær vörur með rað-/lotunúmeri hafa sömu fyrningadagsetningu velur kerf
 <br /><br />
 Þegar vörur með rað-/lotunúmeri eru tíndar í birgðageymslum sem settar eru upp fyrir beinan frágang og tínslu er einungis magn í hólfum af tegundinni *Tínsla* tínt samkvæmt FEFO.  
 <br /><br />
-Til að virkja hreyfingar samkvæmt FEFO, annaðhvort í glugganum **Birgðahreyfing** eða **Vinnublað hreyfingar** verður að skilja reitinn **Frá-hólf** eftir auðan.  
+Til að virkja hreyfingar samkvæmt FEFO, annaðhvort á síðunni **Birgðahreyfing** eða **Vinnublað hreyfingar** verður að skilja reitinn **Frá-hólf** eftir auðan.  
 <br /><br />
 Ef reiturinn **Ströng lokasöludagsetning** er valinn. munu aðeins vörur sem ekki eru útrunnar verða teknar með í tínslunni. Þetta gildir jafnvel þó Tínsla sé ekki notuð samkvæmt FEFO.
 

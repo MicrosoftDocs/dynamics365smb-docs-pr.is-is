@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/22/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2a3ff313d9c6e8bac1169daba590d2e38c312d87
+ms.sourcegitcommit: 78c689aafe31cdec7be1e1740422f781352bbd3c
+ms.openlocfilehash: 5293b5298a2084c8cd36ae4dcc60beda75f5014e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Bæta reitum við Word-skýrsluútlit
@@ -101,7 +101,7 @@ Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Haus|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|XML nafnbil tilgreint. `<reportname>` er heitið sem er úthlutað á skýrsluna. `<id>` er auðkennið sem tengt er úthlutað á skýrsluna.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Inniheldur öll merki fyrir skýrsluna.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Merkjaeiningar sem tengjast dálkum hafa sniðið `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Merkjaeiningar hafa sniðið `<LabelName>LabelName</LableName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Merkimiðar eru skráðir í stafrófsröð.|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Inniheldur öll merki fyrir skýrsluna.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Merkjaeiningar sem tengjast dálkum hafa sniðið `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Merkjaeiningar hafa sniðið `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Merkimiðar eru skráðir í stafrófsröð.|  
 |`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Gögn og dálkar á efsta stigi Dálkar eru listaðir í stafrófsröð.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Gögn og dálkar sem eru ívafin á efsta stigi gagnahlutar. Dálkar eru listaðir í stafrófsröð undir viðkomandi gagnahlut.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Lokar atriði.|  
@@ -125,3 +125,4 @@ Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.
   
 ## <a name="see-also"></a>Sjá einnig  
  [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md)   
+

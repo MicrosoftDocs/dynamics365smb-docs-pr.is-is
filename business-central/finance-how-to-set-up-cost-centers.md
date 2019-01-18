@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Uppsetning kostnaðarstaða
@@ -27,7 +27,7 @@ Kostnaðarstaðir eru deildir og framlegðarstöðvar sem bera ábyrgð á kostn
 -   Stofna nýjan kostnaðarstað sem er óháður fjárhagnum eða bæta nýjum kostnaðarstað við kostnaðarstað sem fyrir er. Stofna þarf hvern kostnaðarstað sérstaklega.  
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Til að flytja víddargildi í fjárhag í myndrit yfir í kostnaðarstaði  
-1.  Setja upp vídd sem á að vera kostnaðarstaðarvíddin í glugganum **Uppfæra Kostnaðarbókhaldsvíddir**. Aðeins gildi úr þessari vídd er flutt.  
+1.  Setja upp vídd sem á að vera kostnaðarstaðarvíddin á síðunni **Uppfæra Kostnaðarbókhaldsvíddir**. Aðeins gildi úr þessari vídd er flutt.  
 2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit yfir kostnaðarstaði** og veldu síðan tengda tengilinn.  
 3.  Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Sækja úr víddinni kostnaðarstaðir** til að flytja víddargildi í myndriti kostnaðarstaðanna. Aðgerðin flytur víddargildin sem skilgreind voru í skrefi 1.  
 
@@ -36,10 +36,10 @@ Kostnaðarstaðir eru deildir og framlegðarstöðvar sem bera ábyrgð á kostn
 
 Myndrit kostnaðarstaða inniheldur nú öll tilgreind víddargildi úr fjárhag og inniheldur titla og samtölur.  
 
-## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-window"></a>Til að stofna nýja kostnaðarstaði í glugganum Myndrit fyrir kostnaðarstaði  
-Hægt er að setja upp og vinna með kostnaðarstaði í **Kostnaðarstaðaspjald** spjaldinu eða í glugganum **Myndrit fyrir kostnaðarstaði**. Í þessu ferli eru settir upp kostnaðarstaðir í glugganum **Myndrit fyrir kostnaðarstaði**.  
+## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Til að stofna nýja kostnaðarstaði á síðunni Myndrit fyrir kostnaðarstaði  
+Hægt er að setja upp og vinna með kostnaðarstaði í **Kostnaðarstaðaspjald** spjaldinu eða á síðunni **Myndrit fyrir kostnaðarstaði**. Í þessu ferli eru settir upp kostnaðarstaðir á síðunni **Myndrit fyrir kostnaðarstaði**.  
 
-1. Opna gluggann **myndrit yfir kostnaðarstaði** í breytingarstillingu.  
+1. Opnaðu síðuna **Myndrit yfir kostnaðarstaði** í breytingarstillingu.  
 2. Í reitinn **Kóði** er færður inn kóti kostnaðarstaðarins. Allir kostnaðarstaðir verða að hafa kóta.  
 3. Í reitinn **Heiti** er fært inn heiti kostnaðarstaðarins.  
 4. Velja fellilistaörina í reitnum **Línugerð** til að tilgreina tilgang kostnaðarstaðarins.  

@@ -11,23 +11,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0e251cd1aa071484cbf235feee6f0e891f27020e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c30c0efc931b5970ff426141fa0dc3129d827306
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-items"></a>Stofna þjónustuatriði
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] vísar hugtakið „þjónustuvara“ til búnaðar eða vöru þarfnast þjónustu. Þegar þú stofnar þjónustupöntun, tilgreinirðu vöruna sem þarfnast þjónustu. Í pöntuninni geturðu tengt þjónustuvöru við vöru í birgðum eða þjónustuvöruflokk.    
 
-Þegar tekið er við vöru sem þarfnast þjónustu má skrá hana sem þjónustuvöru. Hægt er gera það á nokkra vegu: Þú getur t.d. stofnað þjónustuvöru í **Þjónustuvörur** glugganum, eða sem hluta af öðru ferli, eins og þegar þú vinnur með þjónustupöntun.   
+Þegar tekið er við vöru sem þarfnast þjónustu má skrá hana sem þjónustuvöru. Hægt er gera það á nokkra vegu: Þú getur t.d. stofnað þjónustuvöru á **Þjónustuvörur** síðunni, eða sem hluta af öðru ferli, eins og þegar þú vinnur með þjónustupöntun.   
 
 ## <a name="to-create-a-service-item"></a>Þjónustuvörur stofnaðar:  
 1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvörur** og veldu síðan tengda hlekkinn.
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Þjónustuvörur stofnaðar út frá þjónustupöntunum  
-Þegar tekið er við vöru til þjónustu og þarf að skrá hana sem þjónustuvöru er hægt að stofna þjónustuvöru í gluggunum **Þjónustupöntun** eða **Þjónustutilboð**.  
+Þegar tekið er við vöru til þjónustu og þarf að skrá hana sem þjónustuvöru er hægt að stofna þjónustuvöru á síðunum **Þjónustupöntun** eða **Þjónustutilboð**.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ ms.lasthandoff: 09/28/2018
     Númeri er sjálfkrafa úthlutað til þjónustuvörunnar og þjónustuvöruspjald er stofnað. Reiturinn **Nr. þjónustuvöru** er fylltur út með númeri nýju þjónustuvörunnar.
 
 ## <a name="to-create-a-service-item-when-shipping-items"></a>Þjónustuvörur stofnaðar þegar vörur eru sendar:  
-Þegar vörur eru sendar, annaðhvort með því að bóka þjónustupantanir eða þjónustureikninga eru sendu vörurnar sjálfkrafa skráðar sem þjónustuvörur að uppfylltum eftirfarandi skilyrðum: Varan verður að tilheyra þjónustuvöruflokki með gátmerki í reitnum **Stofna þjónustuvöru**. Ef vörurnar eru með raðnúmer skráð í glugganum **Vörurakningarlínur** eru þessar upplýsingar afritaðar sjálfvirkt í reitinn Raðnr. á þjónustuvöruspjaldinu þegar þjónustuvörur eru stofnaðar.  
+Þegar vörur eru sendar, annaðhvort með því að bóka þjónustupantanir eða þjónustureikninga eru sendu vörurnar sjálfkrafa skráðar sem þjónustuvörur að uppfylltum eftirfarandi skilyrðum: Varan verður að tilheyra þjónustuvöruflokki með gátmerki í reitnum **Stofna þjónustuvöru**. Ef vörurnar eru með raðnúmer skráð á síðunni **Vörurakningarlínur** eru þessar upplýsingar afritaðar sjálfvirkt í reitinn Raðnr. á þjónustuvöruspjaldinu þegar þjónustuvörur eru stofnaðar.  
 
 Eftirfarandi aðferð sýnir hvernig stofna má þjónustuvöru þegar þjónustupöntun er send.  
 
@@ -44,7 +44,7 @@ Eftirfarandi aðferð sýnir hvernig stofna má þjónustuvöru þegar þjónust
 2. Opna skal viðeigandi þjónustupöntun.  
 3. Veljið aðgerðina **bóka** eða **Bóka og prenta**.  
 4. Velja **Afhenda** eða **Afhenda og reikningsfæra** aðgerðina.  
-5. Þjónustuvörur eru stofnaðar sjálfkrafa fyrir vörurnar í pöntuninni svo fremi að þær tilheyri þjónustuvöruflokki sem settur hefur verið upp til að stofna þjónustuvörur. Ef sérstök raðnúmer eru skráð í glugganum **Vörurakningarlínur** verður þeim úthlutað til þessum þjónustuvörum eins og við á.  
+5. Þjónustuvörur eru stofnaðar sjálfkrafa fyrir vörurnar í pöntuninni svo fremi að þær tilheyri þjónustuvöruflokki sem settur hefur verið upp til að stofna þjónustuvörur. Ef sérstök raðnúmer eru skráð á síðunni **Vörurakningarlínur** verður þeim úthlutað til þessum þjónustuvörum eins og við á.  
 
 > [!NOTE]  
 >  Ef vara er uppskrift og búið er að opna uppskriftina eru vörurnar meðhöndlaðar eins og um venjulegar vörur væri að ræða. Kerfið stofnar þjónustuvörur eftir skilyrðinu um þjónustuvöruflokk, og ef vill, raðnúmer. Ef þjónustuvara er aukinheldur stofnuð fyrir opna uppskrift sem er samsett úr öðrum uppskriftaríhlutum eru vörur sem þjónustuvöruíhluti stofnaðar fyrir opna uppskriftarþjónustuvöru.  

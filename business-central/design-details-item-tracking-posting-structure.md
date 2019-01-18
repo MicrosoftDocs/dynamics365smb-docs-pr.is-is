@@ -13,10 +13,10 @@ ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bde0b129455dbdd7cbc91bd50b6d993abf727100
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Hönnunarupplýsingar: bókunarstrúktúr vörurakningar
@@ -24,7 +24,7 @@ Til að jafna með birgðakostnaðarvirkni og til að fá einfaldari og öflugri
   
 Vörurakningarnúmer í rekstrareiningum innan og utan pöntunarnets eru tilgreind í töflunni **Frátekningarfærsla** (T337). Vörurakningarnúmer sem tengjast sögulegum upplýsingum eru sótt beint úr birgðahöfuðbókarfærslum sem tengjast viðkomandi færslu. Þetta þýðir að birgðahöfuðbókarfærslur endurspegla vörurakningarforskrift á bókaðri pöntunarlínu.  
   
-Glugginn fyrir **Vörurakningarlínur** endurheimtir upplýsingar úr T337 og úr birgðafærslum og sýnir þær í bráðabirgðatöflunni **Rakningarlýsing** (T336). T336 halda einnig tímabundin gögn í **Vörurakningarlínur gluggi** fyrir  vörurakningarmagnsem eftir að fá rukkun.  
+Síðan fyrir **vörurakningarlínur** endurheimtir upplýsingar úr T337 og úr birgðafærslum og sýnir þær í bráðabirgðatöflunni **Rakningarlýsing** (T336). T336 heldur einnig tímabundnum gögnum á **Síðu vörurakningarlína** fyrir vörurakningarmagn sem á eftir að reikningsfæra.  
   
 ## <a name="one-to-many-relation"></a>Tengsl eins í marga  
 Taflan **Birgðafærslutengsl**, sem skal nota til að tengja bókaða fylgiskjalslínu við tengdar birgðafærslur, samanstendur af tveimur meginhlutum:  

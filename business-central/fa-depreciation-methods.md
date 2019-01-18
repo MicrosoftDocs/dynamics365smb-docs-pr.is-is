@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e8aa531697dcdc6f629312c0569c5628b3f5755
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciation-methods"></a>Afskriftaaðferðir
@@ -52,12 +52,12 @@ Ef afskriftatímabilið (fjöldi afskriftaára, fjöldi afskriftamánaða eða l
 
 Afskriftadagar sem eftir eru reiknaðir sem fjöldi afskriftadaga mínus fjöldi daga milli upphafsdags afskrifta og dagsetningu síðustu eignafærslu.  
 
-Lækka má bókvirði með upphæðum í bókaðri uppfærslu, niðurfærslu, sérsniðin upphæð 1 eða 2, eftir því hvort reiturinn **Taka með í afskriftaútreikn.** er óvirkur og hvort reiturinn **Hluti bókfærðs virðis** í glugganum: **uppsetning Eignabókunartegundar**. Þessi útreikningur tryggir að eignin sé að fullu afskrifuð á lokadegi afskrifta.  
+Lækka má bókvirði með upphæðum í bókaðri uppfærslu, niðurfærslu, sérsniðin upphæð 1 eða 2, eftir því hvort reiturinn **Taka með í afskriftaútreikn.** er óvirkur og hvort reiturinn **Hluti bókfærðs virðis** á síðunni: **uppsetning Eignabókunartegundar**. Þessi útreikningur tryggir að eignin sé að fullu afskrifuð á lokadegi afskrifta.  
 
 ### <a name="fixed-yearly-percentage"></a>Föst árleg prósenta
 Ef færð er föst árleg prósenta notar forritið eftirfarandi reiknireglu til að reikna upphæð afskrifta:  
 
-Afskriftaupphæð = (Beinlínu% x Afskriftagrunnur x Fjöldi afskr. daga) / (100 x 360)  
+Afskriftaupphæð = (Beinlínu % x Afskriftagrunnur x Fjöldi afskr. daga) / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Föst árleg upphæð
 Ef færð er föst árleg upphæð notar forritið þessa reiknireglu til að reikna upphæð afskrifta:  
@@ -86,11 +86,11 @@ Eign hefur stofnkostnaðinn SGM 100.000. Áætluð ending er átta ár. Keyrslan
 
 Eftirfarandi formúla reiknar afskriftarupphæð:  
 
-*Afskriftaupphæð = (Beinlínu% x Fjöldi afskr.daga x Afskriftagrunnur) / (100 x 360)*  
+*Afskriftaupphæð = (Beinlínu % x Fjöldi afskr.daga x Afskriftagrunnur) / (100 x 360)*  
 
 Afskriftagrunnurinn er reiknaður sem bókvirðið að frádregnum bókuðum afskriftum frá upphafsdagsetningu líðandi reikningsárs.  
 
-Í upphæð bókaðra afskrifta geta verið færslur með ýmsum bókunartegundum (niðurfærslu, venju1 og venju2), bókaðar frá upphafsdagsetningu líðandi reikningsárs. Þessar bókunartegundir eru teknar með í bókaðri afskriftaupphæð ef gátmerki eru í reitunum **Afskriftategund** og **Hluti bókvirðis** í glugganum **uppsetning eignabókunartegundar**.  
+Í upphæð bókaðra afskrifta geta verið færslur með ýmsum bókunartegundum (niðurfærslu, venju1 og venju2), bókaðar frá upphafsdagsetningu líðandi reikningsárs. Þessar bókunartegundir eru teknar með í bókaðri afskriftaupphæð ef gátmerki eru í reitunum **Afskriftategund** og **Hluti bókvirðis** á síðunni **uppsetning eignabókunartegundar**.  
 
 ### <a name="example---declining-balance-1-depreciation"></a>Dæmi - Hlutfallsleg afskrift 1 Afskrift
 Eign hefur stofnkostnaðinn SGM 100.000. Reiturinn **Hlutfallsleg afskrift %** er 25. Keyrslan **Reikna afskrift** er keyrð annað hvert ár.  
@@ -167,10 +167,10 @@ Keyrslan **Reikna afskriftir** reiknar beinlínuupphæð og hlutfallslega upphæ
 
 Þú getur notað ýmsar prósentur til að reikna minnkandi stöðu.  
 
-Ef þessi aðferð er notuð verður að færa inn áætlaðan gagnlegan líftíma og prósentutölu hlutfallslegra afskrifta í glugganum **Eignaafskriftabækur**.  
+Ef þessi aðferð er notuð verður að færa inn áætlaðan gagnlegan líftíma og prósentutölu hlutfallslegra afskrifta á síðunni **Eignaafskriftabækur**.  
 
 ### <a name="example---db1-sl-depreciation"></a>Dæmi - DB1-SL afskrift
-Eign hefur stofnkostnaðinn SGM 100.000. Í glugganum **Eignaafskriftabækur** er 25 í reitnum  **Hlutfallsleg afskrifta%** og í reitnum **Fjöldi afskriftaára** er talan 8. Keyrslan **Reikna afskrift** er keyrð annað hvert ár.  
+Eign hefur stofnkostnaðinn SGM 100.000. Á síðunni **Eignaafskriftabækur** er 25 í reitnum **Hlutfallsleg afskrifta %** og í reitnum **Fjöldi afskriftaára** er talan 8. Keyrslan **Reikna afskrift** er keyrð annað hvert ár.  
 
 Færslurnar í eignabókinni líta þannig:  
 
@@ -219,21 +219,21 @@ Línulega upphæðin er notuð vegna þess að hún er hærri.
 ## <a name="user-defined-depreciation"></a>Notandaskilgreindar afskriftir
 Forritið hefur eiginleika sem gerir notanda kleift að skilgreina eigin afskriftaaðferðir.  
 
-Í aðferðinni sem notandi skilgreinir sjálfur eru færðar inn afskriftaprósentur fyrir hvert tímabil (mánuð, ársfjórðung, ár eða reikningstímabil) í glugganum **Afskriftatöflur**.  
+Í aðferðinni sem notandi skilgreinir sjálfur eru færðar inn afskriftaprósentur fyrir hvert tímabil (mánuð, ársfjórðung, ár eða reikningstímabil) á síðunni **Afskriftatöflur**.  
 
 Reiknireglan fyrir útreikning á afskriftaupphæðum er:  
 
-Afskriftaupphæð = (Beinlínu% x Fjöldi afskr.daga x Afskriftagrunnur) / (100 x 360)  
+Afskriftaupphæð = (Beinlínu % x Fjöldi afskr.daga x Afskriftagrunnur) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Afskriftir miðaðar við fjölda eininga
-Notandaskilgreindu aðferðina má einnig nota til að afskrifa eftir fjölda eininga, til dæmis vélar sem hafa þekkta framleiðslugetu. Í glugganum **Afskriftatöflu** er hægt að færa inn fjölda eininga sem hægt er að framleiða á hverju tímabili (mánuði, ársfjórðungi, ári eða reikningstímabili).  
+Notandaskilgreindu aðferðina má einnig nota til að afskrifa eftir fjölda eininga, til dæmis vélar sem hafa þekkta framleiðslugetu. Á síðunni **Afskriftatöflu** er hægt að færa inn fjölda eininga sem hægt er að framleiða á hverju tímabili mánuði, ársfjórðungi, ári eða reikningstímabili.  
 
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Uppsetning afskriftaaðferða sem notandi skilgreinir
-Í glugganum **Afskriftatöfluspjald** er hægt að setja upp notendaskilgreinda afskriftaaðferðir. Til dæmis er hægt að setja upp afskriftir sem byggjast á fjölda eininga.  
+Á síðunni **Afskriftatöfluspjald** er hægt að setja upp notendaskilgreinda afskriftaaðferðir. Til dæmis er hægt að setja upp afskriftir sem byggjast á fjölda eininga.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **afskriftartöflur** og veldu síðan tengda tengilinn.  
-2. Í glugganum **listi yfir afskriftartöflur** skal velja aðgerðina **Nýtt**.  
-3. Í glugganum **kort afskriftartöflu** skal fylla inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Á síðunni **listi yfir afskriftartöflur** skal velja aðgerðina **Nýtt**.  
+3. Á síðunni **kort afskriftartöflu** skal fylla inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Dæmi - Notandaskilgreindar afskriftaraðferð
 Notuð er afskriftaaðferð sem gerir kleift að afskrifa eignir hraðar vegna tekjuskatts.  
@@ -257,7 +257,7 @@ Stofnkostnaðurinn er SGM 100.000 og afskrifanlegur líftími er fimm ár. Afskr
 
 * Upphafsdags. afskrifta  
 
-Ef notuð er notandaskilgreind aðferð er notuð þarf að fylla út reitina **Fyrsta not.skilgr. afskr.dags.** og **Upphafsdags. afskrifta** í **Eignaafskriftabækur**. Reiturinn **Fyrsta not.skilgr. afskr.dags.** og innihald reitsins **Lengd tímabils** í glugganum **Afskriftatöflur** er notað til að ákvarða tímabilin sem á að nota í útreikningum á afskriftum. Þetta tryggir að forritið byrji að nota tilgreinda prósentutölu sama dag fyrir allar eignir. Reiturinn **Upphafsdags. afskrifta** er notaður til að reikna fjölda afskriftardaga.  
+Ef notuð er notandaskilgreind aðferð er notuð þarf að fylla út reitina **Fyrsta not.skilgr. afskr.dags.** og **Upphafsdags. afskrifta** á síðunni **Eignaafskriftabækur**. Reiturinn **Fyrsta not.skilgr. afskr.dags.** og innihald reitsins **Lengd tímabils** á síðunni **Afskriftatöflur** er notað til að ákvarða tímabilin sem á að nota í útreikningum á afskriftum. Þetta tryggir að forritið byrji að nota tilgreinda prósentutölu sama dag fyrir allar eignir. Reiturinn **Upphafsdags. afskrifta** er notaður til að reikna fjölda afskriftardaga.  
 
 Í fyrra dæmi er í báðum reitunum **Fyrsta not.skilgr. afskr.dags.** og **Upphafsdags. afskriftar** 01/01/01. Ef í reitnum **Fyrsta not.skilgr. afskr.dags.** er þó 01/01/10 og í reitnum **Upphafsdags. afskriftar** er 01/04/11 yrði útkoman:  
 
@@ -273,7 +273,7 @@ Ef notuð er notandaskilgreind aðferð er notuð þarf að fylla út reitina **
 * Upphafsdags. afskrifta  
 
 ## <a name="half-year-convention-depreciation"></a>Hálfsársafskrift
-Afskriftir tvisvar á ári eru aðeins notaðar ef sett var gátmerki í reitinn **Nota hálfsársaðferð** í fasta glugganum **eignaafskriftabók**.  
+Afskriftir tvisvar á ári eru aðeins notaðar ef sett var gátmerki í reitinn **Nota hálfsársaðferð** í föstu síðunni **Eignaafskriftabók**.  
 
 Þessa afskriftaaðferð má nota ásamt eftirfarandi afskriftaaðferðum í forritinu:  
 
@@ -284,7 +284,7 @@ Afskriftir tvisvar á ári eru aðeins notaðar ef sett var gátmerki í reitinn
 Þegar afskrifað er tvisvar á ári fær eign sex mánaða afskrift á fyrsta reikningsári án tillits til þess sem tilgreint er í reitnum **Upphafsdags. afskriftar**.  
 
 > [!NOTE]  
->   Áætlaðar eftirstöðvar af líftíma eignar eftir fyrsta reikningsárið verður alltaf hálft ár ef hálfsársaðferðin er notuð. Ef hálfsársaðferðinni er rétt beitt verður því ávallt í reitnum **Lokadags. afskriftar** í **eignaafskriftabókinni** dagsetning sem er nákvæmlega sex mánuðum á undan lokadagsetningu reikningsársins þegar eignin er að fullu afskrifuð.  
+>   Áætlaðar eftirstöðvar af líftíma eignar eftir fyrsta reikningsárið verður alltaf hálft ár ef hálfsársaðferðin er notuð. Ef hálfsársaðferðinni er rétt beitt verður því ávallt í reitnum **Lokadags. afskriftar** á síðunni **Eignaafskriftabók** dagsetning sem er nákvæmlega sex mánuðum á undan lokadagsetningu reikningsársins þegar eignin er að fullu afskrifuð.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Dæmi - Hálfsársafskriftir
 Eign hefur stofnkostnaðinn SGM 100.000. **Upphafsdags. afskriftar** er 01/03/10. Áætlaður líftími er fimm ár, þannig að **Lokadags. afskriftar** verður að vera 30/06/15. Keyrslan **Reikna afskriftir** er keyrð einu sinni á ári. Í þessu dæmi miðast fjárhagsárið við almanaksárið.  
@@ -304,7 +304,7 @@ Færslurnar í eignabókinni líta þannig:
 * Upphafsdags. afskrifta  
 
 ## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Dæmi - HLF1/LL tvisvar á ári
-Eign hefur stofnkostnaðinn SGM 100.000. **Upphafsdags. afskriftar** er 01/11/10. Áætlaður líftími er fimm ár, þannig að **Lokadags. afskriftar** verður að vera 30/06/15. Í glugganum **Eignaafskriftabækur** inniheldur reiturinn **Hlutfallsleg afskrifta%** 40. Keyrslan **Reikna afskriftir** er keyrð einu sinni á ári. Í þessu dæmi miðast fjárhagsárið við almanaksárið.  
+Eign hefur stofnkostnaðinn SGM 100.000. **Upphafsdags. afskriftar** er 01/11/10. Áætlaður líftími er fimm ár, þannig að **Lokadags. afskriftar** verður að vera 30/06/15. Á síðunni **Eignaafskriftabækur** inniheldur reiturinn **Hlutfallsleg afskrifta %** 40. Keyrslan **Reikna afskriftir** er keyrð einu sinni á ári. Í þessu dæmi miðast fjárhagsárið við almanaksárið.  
 
 Færslurnar í eignabókinni líta þannig:  
 

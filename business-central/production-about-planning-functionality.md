@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d16e9405cea366e11ee6319b06052fe0a2b76676
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c6f298a12cda4e06aeaa28eb3143b7a22ff12d10
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-planning-functionality"></a>Um áætlunaraðgerðir
@@ -73,7 +73,7 @@ Eftirfarandi pöntunarbreytur eru til á vöru eða birgðahaldseiningarspjaldi:
 -   Hámarksmagn pöntunar  
 -   Fjöldapanta  
 
-Á meðal uppsetningarreita altækar áætlunar í glugganum **Framleiðsluuppsetning** eru:  
+Á meðal uppsetningarreita altækrar áætlunar á síðunni **Framleiðsluuppsetning** eru:  
 
 -   Kvikur lágstigskóti  
 -   Núgildandi eftirspurnarspá  
@@ -95,7 +95,7 @@ Tilgreinir hvort birgðir sem framleiðslupöntunarlína sýnir eru teknar með 
 Ef reiturinn inniheldur **Ótakmarkað** tekur áætlunarkerfið línuna með í reikninginn þegar aðgerðarboð eru reiknuð. Ef reiturinn inniheldur **Enginn** er línan föst og óbreytanleg og áætlunarkerfið tekur hana ekki með í reikninginn þegar aðgerðarboð eru reiknuð.
 
 ### <a name="warning"></a>Viðvörun
-Upplýsingareiturinn **Viðvörun** í **Áætlunarvinnublað** glugganum lætur þig vita um allar áætlunarlínur sem gerðar eru vegna óvenjulegra með texta, sem notandinn getur smellt á til að lesa viðbótarupplýsingar. Eftirfarandi tegundir viðvarana eru til:
+Upplýsingareiturinn **Viðvörun** í **Áætlunarvinnublað** síðunni lætur þig vita um allar áætlunarlínur sem gerðar eru vegna óvenjulegra með texta, sem notandinn getur smellt á til að lesa viðbótarupplýsingar. Eftirfarandi tegundir viðvarana eru til:
 
 - Neyð
 - Frávik

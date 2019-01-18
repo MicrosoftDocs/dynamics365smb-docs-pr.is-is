@@ -8,16 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b7887206991a6e31994e3efc4942c7b1254bb805
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d378e4407ce0023ab0f089f7a8a218605c4cf7d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="enable-automated-data-capture-systems-adcs"></a>Virkja sjálfvirkt gagnatökukerfi (ADCS)
+# <a name="use-automated-data-capture-systems-adcs"></a>Nota sjálfvirkt gagnatökukerfi (ADCS)
+
+> [!NOTE]
+> Í stöðluðu útgáfunni af [!INCLUDE[d365fin](includes/d365fin_md.md)] virkar ADCS aðeins í uppsetningu á staðnum. Hins vegar getur Microsoft samstarfsaðili fengið það til að virka í uppsetningu á netinu með PowerApps eða svipuðu forriti.
+
 Hægt er að nota sjálfvirka gagnatökukerfið (ADCS) til að skrá alla hreyfingu á vörum í vöruhúsinu og skrá sumar færslubókaraðgerðir, s.s. leiðréttingar á magni í birgðabók vöruhússins og raunbirgðir.  
 
 Ef nota á ADCS þarf að gefa öllum vörum í vöruhúsinu vörukenni. Einnig þarf að setja upp smáglugga, handtölvuaðgerðir, gagnaskipti og tilgreina stillingar fyrir svæði sem stýra ADCS Notandinn tilgreinir hvort eigi að nota í ADCS spjaldi birgðageymslunnar vöruhúsi.
@@ -38,22 +42,22 @@ Ef nota á ADCS verður að tilgreina hvaða birgðageymslur nota tæknina.
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu tengda tengilinn.
 2.  Veljið vöruhús af listanum sem á að gera ADCS virkt fyrir og veljið svo aðgerðina **Breyta**.
-3. Í glugganum **birgðageymsluspjald** veljið **Nota ADCS** gátreitur.  
+3. Á síðunni **birgðageymsluspjald** veljið **Nota ADCS** gátreitur.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Tilgreina vöru til að nota ADCS  
 Hver vara í vöruhúsi sem nota á með ADCS verður að fá úthlutaðan auðkenningarkótanum til að tengja skjalið ásamt vörunúmerinu. Til dæmis er hægt að nota strikamerki vörunnar sem auðkenniskóta. Vara getur einnig haft margar auðkenniskóta. Þetta getur komið að gagni í tilfellum þar sem vara er tiltæki í ýmsum mælieiningu, s.s. stykkjum og brettum. Í þessu tilfelli er úthlutað auðkenniskóta fyrir hvern.    
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
 2.  Veljið vöru af listanum sem er hluti af ADCS-lausninni, og síðan aðgerðina **Breyta**.
-3. Í glugganum **Birgðaspjald** skal velja aðgerðina **Kennimerki**.
-4. Í glugganum **Vörur Kennimerki** skal velja aðgerðina **Nýtt**.
+3. Á síðunni **Birgðaspjald** skal velja aðgerðina **Kennimerki**.
+4. Á síðunni **Vörur Kennimerki** skal velja aðgerðina **Nýtt**.
 5. Í reitnum **Kóði** skal tilgreina auðkenni vörunnar. Til dæmis gæti kennið verið strikamerkisnúmer vörunnar.  
 
     Einnig er hægt að færa inn **Afbrigðiskóti** og **Mælieiningu**.  
 
 6. Ef þörf krefur skal færa inn marga kóta fyrir hverja vöru.
 7. Velja hnappinn **Í lagi**.  
-8.  Til að fara yfir upplýsingarnar skal velja reitinn **Kennimerkiskóði** til að opna gluggann **Vörukennimerki**.
+8.  Til að fara yfir upplýsingarnar skal velja reitinn **Kennimerkiskóði** til að opna síðuna **Vörukennimerki**.
 
 ## <a name="to-add-an-adcs-user"></a>Til að bæta við ADCS notanda  
 Hægt er að bæta hvaða notanda við sem notanda sjálfvirks gagnatökukerfis (ADCS). Þegar það er gert verður notandinn einnig að gefa upp aðgangsorð. Einnig er hægt að bjóða upp á tengingu sem auðkennir ADCS-notandann sem starfsmann vöruhúss. Aðgangsorð notanda ADCS getur verið frábrugðið Windows-aðgangsorði notandans. Frekari upplýsingar eru í [Stjórna notendum og heimildum](ui-how-users-permissions.md).

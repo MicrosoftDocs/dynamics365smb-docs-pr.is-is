@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-types"></a>Uppsetning kostnaðargerða
@@ -34,12 +35,12 @@ Myndrit kostnaðartegunda eru svipuð bókhaldslyklum í fjárhag. Hægt er að 
     > [!IMPORTANT]  
     >  Aðgerðin **Skrá kostnaðargerðir í bókhaldslyklinum** uppfærir samband milli bókhaldslykils og bókhaldslykils fyrir kostnaðartegundir. **númer**  svæðið er fyllt og staðfest til að tryggja að hver almennur fjárhagsreikningur tengist aðeins einni tegund kostnaðar. Aðgerðin keyrir sjálfkrafa áður en fjárhagsfærslur eru færðar í kostnaðarbókhald.  
 
-## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Til að setja upp nýjar kostnaðargerðir í glugganum Myndrit fyrir kostnaðargerðir.  
-1.  Opna gluggann **myndrit yfir kostnaðargerðir** í breytingarstillingu.  
+## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>Til að setja upp nýjar kostnaðargerðir á síðunni Myndrit fyrir kostnaðargerðir  
+1.  Opnaðu síðuna **Myndrit yfir kostnaðargerðir** í breytingarstillingu.  
 2.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  Hægt er að setja upp og viðhalda kostnaðargerðum í glugganum **Kostnaðargerð spjald** eða í glugganum **Myndrit yfir kostnaðargerðir**. Í þessu ferli eru settar upp kostnaðartegundir í glugganum **Myndrit yfir kostnaðargerðir**.
+    >  Hægt er að setja upp og viðhalda kostnaðargerðum á síðunni **Kostnaðargerð spjald** eða á síðunni **Myndrit yfir kostnaðargerðir**. Í þessu ferli eru settar upp kostnaðartegundir á síðunni **Myndrit yfir kostnaðargerðir**.
 
 3.  Þegar búið er að stofna öll kostnaðargerðir, skal velja aðgerðina **Draga inn kostnaðargerðir**. Í svarglugganum, veljið hnappinn **Já**.  
 4.  Tengja nýju tegund kostnaðar í samsvarandi almennan fjárhagslykil.  
@@ -48,7 +49,7 @@ Myndrit kostnaðartegunda eru svipuð bókhaldslyklum í fjárhag. Hægt er að 
     >  Ef skilgreiningar hafa verið færðar í **Samtala** reitina fyrir línutegundina **Loka-upphæð** áður en aðgerðin **Inndráttur kostnaðargerða** er framkvæmd þarf að færa skilgreiningarnar inn aftur því að aðgerðin skrifar yfir gildin í öllum **Loka-Upphæð**-reitum.  
 
 ## <a name="to-update-cost-types"></a>Til að uppfæra kostnaðargerðir  
-1.  Í glugganum **Uppsetning kostnaðarbókhalds** skal velja hvort uppfæra eigi myndrit yfir kostnaðartegundir sjálfkrafa þegar bókhaldslykillinn breytist.  
+1.  Á síðunni **Uppsetning kostnaðarbókhalds** skal velja hvort uppfæra eigi myndrit yfir kostnaðartegundir sjálfkrafa þegar bókhaldslykillinn breytist.  
 2.  Í reitnum **Stilla fjárhagsreikning** er hægt að velja úr eftirfarandi valkostum.  
 
 - **Engin jöfnun** - Það er engin samsvarandi breyting á kostnaðartegundum þegar bókhaldslyklinum er breytt.  
@@ -57,7 +58,6 @@ Myndrit kostnaðartegunda eru svipuð bókhaldslyklum í fjárhag. Hægt er að 
 
 ## <a name="see-also"></a>Sjá einnig  
 [Kostnaðarreikningur](finance-manage-cost-accounting.md)  
-[Skilgreining á venslum milli kostnaðargerða og fjárhagsreikninga](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 [Skilgreining kostnaðarstaði og kostnaðarhluti fyrir bókhaldslykil](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Stöður milli kostnaðartegundar, kostnaðarstaðar og kostnaðarliðar](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Uppsetning kostnaðarbókhalds](finance-set-up-cost-accounting.md)   

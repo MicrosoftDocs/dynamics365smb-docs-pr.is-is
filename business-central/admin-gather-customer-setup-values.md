@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9231f63266ba030bbf4b3ca41641d5210bcd49b8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Safna uppsetningargildum viðskiptamanns
@@ -32,9 +32,9 @@ Hægt er að breyta öllum sjálfgildum í spurningalista í svo þau svari þö
 ## <a name="to-create-a-configuration-questionnaire"></a>Til að búa til grunnstillingarspurningalista
 Hægt er að nota spurningalista til að hjálpa til við ákvarða umfang og þarfir í skilgreiningu. Hægt er að stofna nýja spurningalista eða breyta fyrirliggjandi spurningalista með því að bæta við nýjum spurningum og spurningasvæðum.  
 
- Aðeins er hægt er að stofna spurningalista fyrir töflur af uppsetningargerð. Til dæmis má nota verkfærið til að veita upplýsingar í eftirtöldum gluggum:  
+ Aðeins er hægt er að stofna spurningalista fyrir töflur af uppsetningargerð. Til dæmis má nota verkfærið til að veita upplýsingar á eftirtöldum síðum:  
 
--   Stofngögn  
+-   Fyrirtækjaupplýsingar  
 -   Eignagrunnur  
 -   Uppsetning fjárhags  
 -   Birgðagrunnur  
@@ -50,9 +50,9 @@ Hægt er að nota spurningalista til að hjálpa til við ákvarða umfang og þ
 >  Til að sjá heildarlista yfir uppsetningartöflur skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning** og veldu síðan tengda tengilinn. Til að ákvarða svið flutnings færslugagna skal nota flutningsaðgerðir. Frekari upplýsingar eru í [Flutningur á gögnum viðskiptamanns](admin-migrate-customer-data.md).  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarspurningalistinn** og veldu tengda tengilinn.  
-2. Valið er **Nýtt** aðgerð. Glugginn **Stilla Spurningalisti** opnast.  
-3. Veljið aðgerðina **Spurningasvæði**. Glugginn **Spurningasvæði** opnast.  
-4. Valið er **Nýtt** aðgerð. Glugginn **Stillingar spurningasvæðis** opnast.  
+2. Valið er **Nýtt** aðgerð. Síðan **Stilla spurningalista** opnast.  
+3. Veljið aðgerðina **Spurningasvæði**. Síðan **Spurningasvæði** opnast.  
+4. Valið er **Nýtt** aðgerð. Síðan **Stillingar spurningasvæðis** opnast.  
 5. Í reitnum **Töflukenni** veljið auðkenni töflunnar sem á að safna upplýsingum. Reiturinn **Heiti töflu** útfyllist sjálfkrafa.  
 6. Velja skal aðgerðina **Uppfæra spurningar**. Hverju svæði í töflunni er bætt við spurningalista með spurningarmerki á eftir merkinu.
 
@@ -94,10 +94,10 @@ Algengt villuleitarverk er að tryggja að textastrengir séu ekki færðir inn 
 > [!NOTE]  
 >  Villuleit grunnstillingarspurningalista er yfirleitt handvirkt ferli. Hins vegar er hægt að athuga ósamræmi í stillingum svæða. Auk þess munu villur koma upp ef skipulag [!INCLUDE[d365fin](includes/d365fin_md.md)] gagnagrunnsins passar ekki við skipulag innflutta gagnagrunnsins.  
 
-1. Í glugganum **Grunnstillingarspurningalisti** skal velja spurningarnar sem eiga við og síðan velja aðgerðina **Spurningasvæði**.  
+1. Á síðunni **Grunnstillingarspurningalisti** skal velja spurningarnar sem eiga við og síðan velja aðgerðina **Spurningasvæði**.  
 2. Opna viðeigandi spurningasvæðið.  
 3. Fyrir hverja spurningu skal sannprófa að gildið í reitnum **Svar** samsvari sniðinu í reitnum **Svarmöguleiki**. Til dæmis skal tryggja að aðsetur fyrirtækis er á textasniði.  
-4. Ef villur finnast er hægt að leita úrræða og gera leiðréttingar í Excel með því að flytja spurningalistann út og síðan aftur inn. Að öðrum kosti er einnig hægt að leiðrétta villur beint í [!INCLUDE[d365fin](includes/d365fin_md.md)] um leið og farið er yfir svörin í glugganum **Grunnstilling spurningasvæðis**.  
+4. Ef villur finnast er hægt að leita úrræða og gera leiðréttingar í Excel með því að flytja spurningalistann út og síðan aftur inn. Að öðrum kosti er hægt að leiðrétta villur beint í [!INCLUDE[d365fin](includes/d365fin_md.md)] um leið og farið er yfir svörin á síðunni **Grunnstillingar spurningasvæðis**.  
 5. Endurtaka skal þessi skref fyrir hvert Spurningasvæði.  
 
 Eftir að gengið hefur verið frá villuleit, eru gögn notanda tilbúin til notkunar í gagnagrunni.  
@@ -105,7 +105,7 @@ Eftir að gengið hefur verið frá villuleit, eru gögn notanda tilbúin til no
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Nota svör úr spurningalista grunnstillingar
 Þegar búið er að flytja inn og staðfesta upplýsingar úr grunnstillingarspurningalistanum, er hægt að flytja eða nota uppsetningargögnin í samsvarandi töflum í [!INCLUDE[d365fin](includes/d365fin_md.md)] gagnagrunninum.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarspurningalistinn** og veldu tengda tengilinn. Glugginn **Stilla Spurningalisti** opnast.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarspurningalistinn** og veldu tengda tengilinn. Síðan **Stilla spurningalista** opnast.  
 2. Veljið grunnstillingarspurningalista úr listanum og veljið síðan aðgerðina **Breyta lista**.  
 3. Hægt er að nota svör á tvo vegu.  
 
@@ -113,7 +113,7 @@ Eftir að gengið hefur verið frá villuleit, eru gögn notanda tilbúin til no
 - Til að nota svör aðeins fyrir tiltekið **Spurningasvæði** skal velja aðgerðina **Spurningasvæði**, velja **Spurningasvæði** í listanum og velja svo aðgerðina **Nota svör**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Til að staðfesta að tekist hafi að nota svör  
-1. Athuga uppsetningarglugga eftir ýmsum virkum svæðum af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til að staðsetja gluggann velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slærð inn heiti uppsetningargluggans og velur síðan tengda tengilinn.  
+1. Athuga uppsetningarsíður eftir ýmsum virkum svæðum af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til að staðsetja síðuna velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slærð inn heiti uppsetningarsíðunnar og velur síðan tengda tengilinn.  
 2. Staðfestu að reitirnir hafi verið fylltir út með réttum gögnum úr hinum ýmsu spurningasvæðum í grunnstillingarspurningalistanum.  
 
 Nú hefur uppsetning með fyrirtækjaupplýsingum og reglum viðskiptavinar verið skilgreind.

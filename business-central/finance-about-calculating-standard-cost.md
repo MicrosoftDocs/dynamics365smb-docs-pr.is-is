@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 9dfe8a2b30a2a11969d8d7937998611613602ae7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Um umreikning staðalkostnaðar
@@ -81,7 +81,7 @@ Hraði hverrar tímagerðar fyrir hverja vél eða vinnustöð er settur upp á 
 > [!NOTE]  
 >  Keyrslutímahraði gildir fyrir hverja vörueiningu sem framleidd er, en uppsetningartímahraði gildir fyrir hverja lotu. Þess vegna þarf að deila leiðaruppsetningartíma hverrar aðgerðar yfir lotustærðina. Lotustærðin er tilgreind í samsvarandi reit á flýtiflipanum **Pantanir** á birgðaspjaldinu.  
 
-Til að tilgreina uppsetningartíma á leiðinni fyrir áætlun en ekki taka þessi útgjöld með í stöðluðum kostnaðarútreikningi skal hreinsa reitinn **Kostnaður með uppsetningu** í glugganum **Framleiðsluuppsetning**.  
+Til að tilgreina uppsetningartíma á leiðinni fyrir áætlun en ekki taka þessi útgjöld með í stöðluðum kostnaðarútreikningi skal hreinsa reitinn **Kostnaður með uppsetningu** á flýtiflipanum **Almennt á síðunni Framleiðsluuppsetning**.  
 
 Á eins stigs grundvelli er þetta sá vinnukostnaður sem þarf til að framleiða fullunnu framleiðsluvöruna og er tilgreint á leið framleiðsluvörunnar. Á margra stiga grundvelli er þetta afkastakostnaðurinn sem er tilgreindur fyrir hverja framleidda vöru á uppskrift yfirvörunnar.  
 

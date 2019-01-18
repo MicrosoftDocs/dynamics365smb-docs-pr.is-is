@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: e4f739e13123054527bf3116aec2c8c4133537e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
 ms.contentlocale: is-is
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Úrræðaleit [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -44,7 +44,7 @@ Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gef
   Viðskiptamenn þínir kunna að hafa margar viðskiptaeiningar í [!INCLUDE [d365fin](includes/d365fin_md.md)] og boðið þitt inniheldur ekki alltaf öll fyrirtæki. Haltu þig innan viðskiptamannsins til að tryggja að þú hafir aðgang að fyrirtækjunum sem viðskiptamaðurinn vill að þú vinnir í.  
 
 ## <a name="why-doesnt-the-data-refresh-in-my-dashboard"></a>Af hverju endurnýjast ekki gögnin á yfirlitinu mínu?
-Þegar þú bætir við viðskiptamanni eða biður um uppfærslu gagna sækir [!INCLUDE [d365acc](includes/d365acc_md.md)] gögnin. Þú verður að uppfæra gluggann sjálfur, svo sem að velja aðgerðina „Endurbirta öll fyrirtæki“, uppfæra vafragluggann, fara af yfirlitinu og svo aftur í það eða annað svipað. Þetta er þekkt vandamál sem við erum að vinna að því að bæta í síðari uppfærslu.  
+Þegar þú bætir við viðskiptamanni eða biður um uppfærslu gagna sækir [!INCLUDE [d365acc](includes/d365acc_md.md)] gögnin. Þú verður að uppfæra síðuna sjálfur, svo sem að velja aðgerðina „Endurbirta öll fyrirtæki“, uppfæra vafrasíðuna, fara af yfirlitinu og svo aftur í það eða annað svipað. Þetta er þekkt vandamál sem við erum að vinna að því að bæta í síðari uppfærslu.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Hefjast handa í [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  

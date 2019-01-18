@@ -13,10 +13,10 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abbc8f6d7aa80a7a89296568d9a4ecb0ead0f5f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Unnið með VSK í sölu og innkaupum
@@ -39,7 +39,7 @@ Ef reiturinn er ekki valinn fyllir kerfið út reitina **Ein.verð** og **Línuu
 
 Hægt er að setja upp sjálfgefna stillingu á **Verð með VSK** fyrir öll söluskjöl viðskiptamanns í reitnum **Verð með VSK** á spjaldinu **Viðskiptamaður**. Einnig er hægt að setja upp vöruverð þannig að þau séu með eða án VSK. Yfirleitt er vöruverð í birgðaspjaldi verð án VSK. Kerfið notar upplýsingarnar úr reitnum **Verð með VSK** í **birgðaspjaldinu** til að ákvarða einingarverðið fyrir söluskjölin.  
 
-Eftirfarandi tafla birtir yfirlit yfir það hvernig kerfið reiknar upphæðir einingarverðs fyrir söluskjöl þegar engin verð eru sett upp í glugganum **Söluverð**:  
+Eftirfarandi tafla birtir yfirlit yfir það hvernig kerfið reiknar upphæðir einingarverðs fyrir söluskjöl þegar engin verð eru sett upp á síðunni **Söluverð**:  
 
 |**Verð með VSK í birgðaspjaldi**|**Reiturinn Verð með VSK í söluhaus**|**Aðgerð framkvæmd**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
@@ -56,8 +56,8 @@ Jafnvel þótt ein eða fleiri samsetningar hafi verið settar upp til að afgre
 Ef greiðsluafsláttur er reiknaður af reikningsupphæð sem inniheldur VSK er mögulegt að bakfæra greiðsluafsláttarhluta VSK þegar greiðsluafsláttur er veittur. Athygli er vakin á því að virkja þarf reitinn **Leiðrétta v. greiðsluafsl.** bæði í fjárhagsgrunni almennt og í VSK-bókunargrunni fyrir tilteknar samsetningar á VSK-viðskiptabókunarflokki og VSK-vörubókunarflokki.  
 
 #### <a name="to-manually-enter-vat-in-sales-documents"></a>Til að færa VSK handvirkt inn í söluskjöl  
-1. Í glugganum **Uppsetning fjárhags**, skaltu tilgreina **leyfðan hámarks VSK-mismun** á milli upphæðinnar sem reiknuð er af kerfinu og handvirkt reiknuðu upphæðinnar.  
-2. Setja gátmerki í reitinn **Leyfa VSK-mismun** í glugganum **Sölugrunnur**.  
+1. Í glugganum **Uppsetning fjárhags** er tilgreindur **leyfður hámarks VSK-mismunur** milli upphæðarinnar sem reiknuð er af kerfinu og handvirkt reiknuðu upphæðarinnar.  
+2. Á síðunni **Uppsetning Sala & Útistandandi** skal setja gátmerki í reitinn **Leyfa VSK-mismun**.  
 
 #### <a name="to-adjust-vat-for-a-sales-document"></a>Breyting VSK fyrir söluskjöl:  
 1. Viðeigandi sölupöntun er opnuð.  
@@ -71,11 +71,11 @@ Ef greiðsluafsláttur er reiknaður af reikningsupphæð sem inniheldur VSK er 
 Einnig er hægt að breyta VSK-upphæðum í almennum færslubókum, sölu- og innkaupabókum. Þetta kann t.d. að reynast nauðsynlegt þegar lánardrottinsreikningur er færður inn í færslubók notanda og mismunur er á milli VSK-upphæðarinnar sem reiknuð er af [!INCLUDE[d365fin](includes/d365fin_md.md)] og VSK-upphæðarinnar sem er á mótteknum reikningi frá lánardrottninum.  
 
 #### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Áður en hægt er að færa VSK handvirkt inn í færslubók  
-1. Í glugganum **Uppsetning fjárhags**, skaltu tilgreina **leyfðan hámarks VSK-mismun** á milli upphæðinnar sem reiknuð er af kerfinu og handvirkt reiknuðu upphæðinnar.  
-2. Í glugganum **Sniðmát færslubókar**, veldu **Leyfa VSK-mismun** gátreitinn fyrir viðeigandi færslubók.  
+1. Í glugganum **Uppsetning fjárhags** er tilgreindur **leyfður hámarks VSK-mismunur** milli upphæðarinnar sem reiknuð er af kerfinu og handvirkt reiknuðu upphæðarinnar.  
+2. Á síðunni **Sniðmát færslubókar** skal velja **Leyfa VSK-mismun** gátreitinn fyrir viðeigandi færslubók.  
 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Áður en VSK er fært handvirkt inn í sölu- og innkaupabækur  
-1. Í glugganum **Uppsetning innkaup & viðskiptaskuldir**, veldu **Leyfa VSK-mismun**.  
+1. Á síðunni **Uppsetning innkaup & viðskiptaskuldir** skal velja **Leyfa VSK-mismun** gátreitinn.  
 2. Þegar uppsetningunni er lokið eins og lýst er hér að ofan er hægt að breyta reitnum **VSK-upphæð** í færslubókarlínunni eða reitnum  **Mótreikningur VSK-upph.** í sölu- eða innkaupabókarlínunum. [!INCLUDE[d365fin](includes/d365fin_md.md)] gengur úr skugga um að mismunurinn sé ekki meiri en tilgreint hámark.  
   
     > [!NOTE]  
@@ -117,7 +117,7 @@ Einnig er hægt að breyta VSK-upphæðum í almennum færslubókum, sölu- og i
    Þegar þú uppfærir reitinn **Staða** í **Áskilið**, **Móttekið** eða **Ekki móttekið** stofnast vottorð.  
   
     > [!TIP]  
-    >  Hægt er að nota gluggann **Afhendingarvottorð** til að sjá stöðu allra bókaðra sendinga þar sem afhendingarvottorð hefur verið búið til.  
+    >  Hægt er að nota síðuna **Afhendingarvottorð** til að sjá stöðu allra bókaðra sendinga þar sem afhendingarvottorð hefur verið búið til.  
 
 5. Velja **Prenta Afhendingarvottorð**  
   
@@ -130,15 +130,15 @@ Einnig er hægt að breyta VSK-upphæðum í almennum færslubókum, sölu- og i
 3. Velja aðgerðina **Prenta afhendingarvottorð**.  
 
     > [!NOTE]  
-    >  Einnig geturðu prentað vottorð úr glugganum **afhendingarvottorð**.  
+    >  Einnig geturðu prentað vottorð af síðunni **Afhendingarvottorð**.  
 
 4. Til að hafa upplýsingar úr línunum á afhendingarskjalinu í vottorðinu skal velja gátreitinn **Prenta línuupplýsingar**.  
 5. Veljið gátreitinn **Stofna framboðsvottorð ef engin eru til staðar** til að láta [!INCLUDE[d365fin](includes/d365fin_md.md)] stofna vottorð fyrir bókaðar afhendingar sem eru ekki með vottorð við keyrslu. Þegar gátreiturinn er valinn stofnast nýtt vottorð fyrir allar bókaðar sendingar sem eru ekki með vottorð innan valda bilsins.  
 6. Sjálfgefið er að síustillingar séu fyrir sendiskjalið sem hefur verið valið. Fyllið út afmörkunarupplýsingarnar til að velja tiltekið afhendingarvottorð sem prenta á út.  
-7. Í glugganum **Afhendingarvottorð** veljið aðgerðina **Prenta** til þess að prenta skýrsluna eða veljið aðgerðina **Forskoðun** til að birta hana á skjánum.  
+7. Á síðunni **Afhendingarvottorð** veljið aðgerðina **Prenta** til þess að prenta skýrsluna eða veljið aðgerðina **Forskoðun** til að birta hana á skjánum.  
 
     > [!Note]  
-    > **Staða afhendingarvottorðs** reiturinn og **Prentað** reiturinn uppfærast fyrir sendinguna í **Afhendingarvottorð** glugganum.  
+    > **Staða afhendingarvottorðs** reiturinn og **Prentað** reiturinn uppfærast fyrir sendinguna á **Afhendingarvottorð** síðunni.  
 
 8. Þú verður að senda prentaða afhendingarvottorðið til viðskiptamannsins til undirritunar.  
 
@@ -153,7 +153,7 @@ Einnig er hægt að breyta VSK-upphæðum í almennum færslubókum, sölu- og i
 
    Ef viðskiptamaðurinn skilar ekki undirrituðu afhendingarvottorði skal velja **Ekki móttekið**. Þú verður að senda viðskiptamanninum nýjan reikning sem inniheldur VSK þar sem upphaflegi reikningurinn er ekki samþykktur af skattyfirvöldum.  
 
-Til að skoða vottorðahóp byrjarðu í **Afhendingarvottorð** glugganum og uppfærir svo upplýsingarnar um stöðu útistandandi vottorða þegar þú færð þau til baka frá viðskiptamanninum. Þetta getur komið að gagni þegar leita á að öllum vottorðum sem eru með tiltekna stöðu, til dæmis **Nauðsynlegt**, þar sem á að uppfæra stöðuna í **Ekki móttekið**.  
+Til að skoða vottorðahóp byrjarðu á síðunni **Afhendingarvottorð** og uppfærir svo upplýsingarnar um stöðu útistandandi vottorða þegar þú færð þau til baka frá viðskiptamanninum. Þetta getur komið að gagni þegar leita á að öllum vottorðum sem eru með tiltekna stöðu, til dæmis **Nauðsynlegt**, þar sem á að uppfæra stöðuna í **Ekki móttekið**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Til að uppfæra stöðu vottorðahóps fyrir framboð  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Framboðsvottorð** og veldu tengda hlekkinn.  
@@ -166,7 +166,7 @@ Til að skoða vottorðahóp byrjarðu í **Afhendingarvottorð** glugganum og u
    Hægt er að breyta dagsetningunni þannig að hún endurspegli dagsetninguna þegar þú fékkst afhent undirritaða afhendingarvottorðið. Einnig er hægt að bæta við tengli í undirritað vottorð með staðlaðri [!INCLUDE[d365fin](includes/d365fin_md.md)] skjal tengingu.  
 
     > [!NOTE]  
-    >  Ekki er hægt að stofna nýtt afhendingarvottorð í **Afhendingarvottorð** glugganum þegar þú velur hann með þessu ferli. Til að stofna vottorð fyrir afhendingu þar sem ekki var þörf á því skal opna bókuðu söluafhendinguna og nota annað af tveimur ferlum sem er lýst hér að ofan:  
+    >  Ekki er hægt að stofna nýtt afhendingarvottorð á síðunni **Afhendingarvottorð** þegar þú velur hann með þessu ferli. Til að stofna vottorð fyrir afhendingu þar sem ekki var þörf á því skal opna bókuðu söluafhendinguna og nota annað af tveimur ferlum sem er lýst hér að ofan:  
     >   
     > * Til að stofna vottorð afhendingarvottorðs handvirkt  
     > * Til að prenta afhendingarvottorð.

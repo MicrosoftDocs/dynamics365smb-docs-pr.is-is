@@ -13,14 +13,14 @@ ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ceccc02c841044803337ac53f378451d8f315484
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="working-with-reports"></a>Unnið með Skýrslur
-Skýrsla safnar saman upplýsingum byggðum á sérstöku viðmiðssafni, og flokkar og birtir upplýsingarnar á sniði sem hægt er að prenta og er auðvelt að lesa. Til eru margar skýrslur sem má finna víðsvegar í forritinu. Skýrslurnar veita alla jafna upplýsingar sem tengjast samhengi síðunnar sem þú ert á. Til dæmis, gluggi **Viðskiptamaður** inniheldur skýrslur fyrir efstu 10 viðskiptamennina og söluupplýsingar og fleira.
+Skýrsla safnar saman upplýsingum byggðum á sérstöku viðmiðssafni, og flokkar og birtir upplýsingarnar á sniði sem hægt er að prenta og er auðvelt að lesa. Til eru margar skýrslur sem má finna víðsvegar í forritinu. Skýrslurnar veita alla jafna upplýsingar sem tengjast samhengi síðunnar sem þú ert á. Til dæmis, síðan **Viðskiptamaður** inniheldur skýrslur fyrir efstu 10 viðskiptamennina og söluupplýsingar og fleira.
 
 Þú getur fundið skýrslurnar á flipanum **Skýrslur** á völdum síðum, eða þú getur notað ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") til að finna skýrslur eftir heiti.
 
@@ -58,7 +58,7 @@ Nota valmyndarslá til að:
 
 -   Fara gegnum síður
 -   Auka aðdrátt og minnka
--   Breyta stærð svo passi í glugga
+-   Breyta stærð svo passi á síðu
 -   Velja texta
 
     Þú getur afritað texta úr skýrslu og svo límt hann eitthvert annað, eins og á síðu í [!INCLUDE[d365fin](includes/d365fin_md.md)] eða Microsoft Word.  Ef þú notar mús, til dæmis, þá þrýstirðu niður og heldur þar sem þú vilt byrja, og færir svo músina til að velja eitt eða fleiri orð, setningar eða málsgreinar. Þú getur síðan hægrismellt og valið **Afrita**. Hægt er að líma valinn textann hvar sem er.

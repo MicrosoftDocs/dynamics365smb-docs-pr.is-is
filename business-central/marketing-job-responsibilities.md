@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b531cfcb024444e098363725a4e0098d4651396b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Setja upp starfsábyrgðir fyrir tengilið.
@@ -25,7 +26,7 @@ ms.lasthandoff: 09/28/2018
 Notkun starfsábyrgðir á tengiliði er tveggja þrepa ferli. Fyrst skilgreinirðu starfsábyrgðarkóða. Aðeins þarf að framkvæma þetta skref í eitt skipti fyrir hver starfsábyrgð. Þegar kominn er starfsábyrgðarkóði er hægt að byrja að úthluta kóðanum til tengiliða.
 
 ## <a name="to-define-a-job-responsibility-code"></a>Að skilgreina starfsábyrgðarkóða
-Starfsábyrgðarkóði skilgreinir tegund eða flokk verks, eins og markaðssetning eða innkaup. Hægt er að hafa nokkra starfsábyrgðarkóða. Til að skilgreina starfsábyrgð á að nota í **starfsábyrgð** gluggann.
+Starfsábyrgðarkóði skilgreinir tegund eða flokk verks, eins og markaðssetning eða innkaup. Hægt er að hafa nokkra starfsábyrgðarkóða. Til að skilgreina starfsábyrgð á að nota síðuna **starfsábyrgð**-.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsábyrgð** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð og fyllt er inn kóði og lýsing. Kóðinn má vera mest 11 stafir, og getur verið hvaða samasetning sem er af tölustafir og bókstafir.
@@ -34,12 +35,12 @@ Starfsábyrgðarkóði skilgreinir tegund eða flokk verks, eins og markaðssetn
 Þú getur ekki úthluta Starfsábyrgðum á tengiliðafyrirtæki:
 
 1. opið tengilið.
-2. Veljið aðgerðina **Einstaklingur** og veljið síðan aðgerðina **starfsábyrgðir**. Glugginn **Starfsábyrgðir tengiliðar** birtist.
+2. Veljið aðgerðina **Einstaklingur** og veljið síðan aðgerðina **starfsábyrgðir**. Síðan **Starfsábyrgðir tengiliðar** birtist.
 3. Í reitnum **Starfsábyrgðarkóði** veljið starfsábyrgð sem á að úthluta.
 
 Skrefin eru endurtekin til að úthluta eins mörgum starfsábyrgðum og óskað er. Einnig má nota sömu aðferð til að úthluta Starfsábyrgð úr Tengiliðalisti.
 
-Fjöldi vinnuverkefna sem þú hefur úthlutað tengiliðnum birtist á **Fjöldi starfsábyrgða** í hlutanum **Hlutunarviðmið** á glugganum **Tengiliður**.
+Fjöldi vinnuverkefna sem þú hefur úthlutað tengiliðnum birtist á **Fjöldi starfsábyrgða** í hlutanum **Hlutunarviðmið** á síðunni **Tengiliður**.
 
 Eftir að tengiliðum hefur verið úthlutað starfsábyrgðum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Frekari upplýsingar eru í [Bæta tengiliðum við hluta](marketing-add-contact-segment.md).
 

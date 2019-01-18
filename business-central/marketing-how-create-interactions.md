@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ee1c27157febaf848c417eb163adea2eaa586e1f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 250e56b8bb2ced4745536092bf7cd4f3fa797dee
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Búa til samskipti á tengiliði og hluta
@@ -39,13 +39,13 @@ Hægt er að stofna samskipti til að skrá öll samskipti við viðskiptavinina
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Til að stofna samskipti á hluta.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **hlutar** og veldu síðan tengda tengilinn.
-2. Á **hlutaglugganum** í hlutanum **samskipti** er fyllt í reitina til að tilgreina hvers konar samskiptum eigi að úthluta á hlutann.
+2. Á **Hlutsíðunni** í hlutanum **samskipti** er fyllt í reitina til að tilgreina hvers konar samskiptum eigi að úthluta á hlutann.
 
-    Þegar samskiptum hefur verið úthlutað á hluta er hægt að sérsníða samskiptin fyrir hvern einstakan tengilið innan hlutans, til dæmis með því að velja annað samskiptasniðmát í línunum í glugganum **Hluti**.  
-3. Til að skrá hlutann og samskiptin veldu aðgerðina **kladdi**. Glugginn **Skrá hluta** opnast.
-4. Ef stofna á nýjan hluta með sömu tengiliðum skal velja gátreitinn **Stofna eftirfylgnihluta**. Ef forritið á að geta stofnað eftirfylgnihluta verður að tilgreina númeraraðir fyrir hluta í glugganum **Tengslastjórnunargrunnur**.
+    Þegar samskiptum hefur verið úthlutað á hluta er hægt að sérsníða samskiptin fyrir hvern einstakan tengilið innan hlutans, til dæmis með því að velja annað samskiptasniðmát í línunum á síðunni **Hluti**.  
+3. Til að skrá hlutann og samskiptin veldu aðgerðina **kladdi**. Síðan **Skrá hluta** opnast.
+4. Ef stofna á nýjan hluta með sömu tengiliðum skal velja gátreitinn **Stofna eftirfylgnihluta**. Ef forritið á að geta stofnað eftirfylgnihluta verður að tilgreina númeraraðir fyrir hluta á síðunni **Tengslastjórnunargrunnur**.
 
-Samskipti eru skráð fyrir hvern tengilið í hlutanum í töflunni **samskiptaskráningarfærsla** og hlutinn er skráður. Skráðir hlutar eru í glugganum **Skráðir hlutar**.
+Samskipti eru skráð fyrir hvern tengilið í hlutanum í töflunni **samskiptaskráningarfærsla** og hlutinn er skráður. Skráðir hlutar eru á síðunni **Skráðir hlutar**.
 
 Ef gátreiturinn **Stofna eftirfylgnihluta** er valinn verður nýr hluti búinn með sömu tengiliðum og hlutinn sem var verið að skrá.
 

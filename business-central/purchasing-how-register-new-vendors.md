@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: faf2ce7b68c2f54e05c6bfc9b45b736e7f3e7ab8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c8f8620d21b9e2187e968d4015fd0f12446d30c9
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-new-vendors"></a>Skráning nýrra lánardrottna
@@ -27,14 +27,14 @@ Lánardrottnar veita vörurnar sem selja á. Hver lánardrottinn sem keypt er fr
 Lánardrottnaspjöld geyma upplýsingarnar sem þarf til að kaupa vörur frá lánardrottninum. Frekari upplýsingar eru í [Skrá innkaup](purchasing-how-record-purchases.md) og [Skrá nýja hluti](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Ef lánardrottnasniðmát er til fyrir mismunandi tegundir lánardrottna, þá birtist sjálfkrafa gluggi þegar búið er til nýtt lánardrottnaspjald þar sem hægt er að velja viðeigandi lánardrottnasniðmát. Ef aðeins eitt lánardrottnasniðmát er fyrir hendi, nota ný lánardrottnaspjöld alltaf það sniðmát.
+>   Ef lánardrottnasniðmát er til fyrir mismunandi tegundir lánardrottna, þá birtist síða þegar búið er til nýtt lánardrottnaspjald þar sem hægt er að velja viðeigandi sniðmát. Ef aðeins eitt lánardrottnasniðmát er fyrir hendi, nota ný lánardrottnaspjöld alltaf það sniðmát.
 
 ## <a name="to-create-a-new-vendor-card"></a>Að búa til nýtt lánardrottnaspjald.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.  
-2. Í glugganum **Lánardrottnar** skal velja **Nýtt**.
+2. Á síðunni **Lánardrottnar** skal velja **Nýtt**.
 
-    Ef fleiri en eitt lánardrottnasniðmát er fyrir hendi, þá birtist sjálfkrafa gluggi með tiltækum lánardrottnasniðmátum. Í því tilviki, fylgið næstu tveimur skrefum.
-3. Í glugganum **Velja sniðmát fyrir nýjan lánardrottin** er valið sniðmátið sem á að nota fyrir nýja lánardrottnaspjaldið.
+    Ef fleiri en eitt lánardrottnasniðmát er fyrir hendi, þá birtist sjálfkrafa síða með tiltækum lánardrottnasniðmátum. Í því tilviki, fylgið næstu tveimur skrefum.
+3. Á síðunni **Velja sniðmát fyrir nýjan lánardrottin** er valið sniðmátið sem á að nota fyrir nýja lánardrottnaspjaldið.
 4. Velja hnappinn **Í lagi**. Nýtt lánardrottnaspjald opnast þar sem búið er að fylla upplýsingar úr sniðmátinu inn í hluta reitanna.
 5. Því næst eru reitir á lánardrottnaspjaldinu færðir inn eða þeim breytt eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -46,9 +46,9 @@ Nú hefur lánardrottinn verið skráður og lánardrottnaspjaldið má nú nota
 Ef nota á þetta lánardrottnaspjald sem sniðmát þegar ný lánardrottnaspjöld eru búin til, vistið það sem lánardrottnasniðmát. Nánari upplýsingar eru í eftirfarandi kafla.
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Að vista lánardrottnaspjaldið sem sniðmát
-1. Í glugganum **Lánardrottnaspjald** er valin aðgerðin **Vista sem sniðmát**. Glugginn **Lánardrottnasniðmát** opnast og sýnir lánardrottnaspjaldið sem sniðmát.
-2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Til að endurnota víddir í sniðmátum, veljið aðgerðina **Víddir**. Glugginn **Víddarsniðmát** opnast og sýnir alla víddarkóða sem settir eru upp fyrir lánardrottin.
+1. Á síðunni **Lánardrottnaspjald** er valin aðgerðin **Vista sem sniðmát**. Síðan **Lánardrottnasniðmát** opnast og sýnir lánardrottnaspjaldið sem sniðmát.
+2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Til að endurnota víddir í sniðmátum, veljið aðgerðina **Víddir**. Síðan **Víddarsniðmát** opnast og sýnir alla víddarkóða sem settir eru upp fyrir lánardrottin.
 4. Breyta eða færa inn víddarkóða sem munu gilda fyrir ný lánardrottnaspjöld sem stofnuð eru með sniðmátinu.
 5. Þegar lokið hefur verið við nýja lánardrottnasniðmátið skal velja hnappinn **Í lagi**.  
    Lánardrottnasniðmátinu verður bætt við lista lánardrottnasniðmáta þannig að hægt er að nota það til að búa til ný lánardrottnaspjöld.

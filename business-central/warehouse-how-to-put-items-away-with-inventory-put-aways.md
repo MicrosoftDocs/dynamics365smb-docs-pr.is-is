@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 410439c6a7b0aacc31f1a191b9b4540d0aa6a5e8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ganga frá vörum með birgðafrágangi
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/28/2018
 
 Þú getur búið til birgðafrágang á þrjá vegu:  
 
-- Frágangurinn er stofnaður í tveim þrepum með því að stofna fyrst vöruhúsabeiðni í upprunaskjalinu sem gefur vöruhúsinu merki um að upprunaskjalið sé tilbúið fyrir frágang.   Síðan er hægt að stofna birgðafráganginn í glugganum **Birgðafrágangur** byggt á upprunaskjalinu.  
+- Frágangurinn er stofnaður í tveim þrepum með því að stofna fyrst vöruhúsabeiðni í upprunaskjalinu sem gefur vöruhúsinu merki um að upprunaskjalið sé tilbúið fyrir frágang.   Síðan er hægt að stofna birgðafráganginn á síðunni **Birgðafrágangur** byggt á upprunaskjalinu.  
 - Frágangurinn er stofnaður í upprunaskjalinu sjálfu.  
 - Hægt er að stofna birgðafrágang fyrir nokkur upprunaskjöl í einu með keyrslunni.  
 
@@ -59,13 +59,13 @@ Nú þegar beiðnin hefur verið stofnuð getur starfsmaður vöruhússins stofn
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Fleiri en ein birgðafrágangur stofnuð með keyrslu  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofna frág./tínslu í birgðum** og veldu síðan tengda tengilinn.  
-2.  Á flýtiflipanum **Vöruhúsabeiðni** í beiðniglugganum eru reitirnir **Upprunaskjal** og **Upprunanúmer** notaðir til að afmarka eftir tilteknum gerðum fylgiskjala eða sviðum fylgiskjalanúmera.  
+2.  Á flýtiflipanum **Vöruhúsabeiðni** á beiðnisíðunni eru reitirnir **Upprunaskjal** og **Upprunanúmer** notaðir til að afmarka eftir tilteknum gerðum fylgiskjala eða sviðum fylgiskjalanúmera.  
 3.  Á flýtiflipanum **Valkostir** skal velja gátreitinn **Stofna birgðafrágang**.
 4.  Velja hnappinn **Í lagi**. Tiltekinn birgðafrágangar eru stofnaðar.
 
 ## <a name="to-record-the-inventory-put-away"></a>Skrá Birgðafráganginn  
-1. Opna frágangsskjal sem þegar hefur verið stofnað með því að velja það úr glugganum **Birgðafrágangur**.  
-2. Í reitnum **Hólfakóði** í tfrágangslínunum, hólfið sem vörurnar þurfa að vera tíndar úr er tillaga á sjálfgefið hólf vörunnar. Hægt er að skipta um hólf í þessum glugga ef með þarf.  
+1. Opna frágangsskjal sem þegar hefur verið stofnað með því að velja það af síðunni **Birgðafrágangur**.  
+2. Í reitnum **Hólfakóði** í tfrágangslínunum, hólfið sem vörurnar þurfa að vera tíndar úr er tillaga á sjálfgefið hólf vörunnar. Hægt er að skipta um hólf á þessari síðu ef með þarf.  
 3. Gengið er frá vörunum og upplýsingar um magnið sem gengið var frá færðar inn í reitinn **Magn til afgreiðslu**.
 
     Ef setja þarf vörur í einni línu í fleiri en eitt hólf, t.d. af því úthlutaða hólfið er fullt, skal nota aðgerðina **Skipta línu** á flýtiflipanum **Línur**. Sjá [Skipta aðgerðalínum í vöruhúsi](warehouse-how-to-split-warehouse-activity-lines.md) fyrir nánari upplýsingar um að skipta línum.  

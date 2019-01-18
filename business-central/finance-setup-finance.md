@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1697ba5b28e8fe475704dffde37ce0935ba443f2
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: c52121b89a08b78750c8b46377b2bf47c7a948df
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
@@ -33,12 +33,16 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Búðu til fjárhagsskema og skilgreindu lyklategundir til að skilgreina efni fjárhagsgrafa og skýrslna á borð við efnahagsreikning og skýrslur tekjuyfirlits.|[Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)|
 |Hægt er að setja upp vikmörk þannig að kerfið loki reikningi jafnvel þótt greiðsla, að meðteknum afslætti, nái ekki upp í fulla upphæð á reikningnum.|[Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Uppsetning fjárhagstímabila. |[Opna nýtt reikningsár](finance-how-open-new-fiscal-year.md) |
-| Skilgreinið hvernig VSK upphæðir, sem fengnar eru fyrir sölu, eru sendar inn til skattayfirvalda. |[Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)|
+| Skilgreinið hvernig VSK upphæðir, sem fengnar eru fyrir sölu, eru sendar inn til skattayfirvalda. |[Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)|
+|Undirbúa að nota óinnleystan VSK í tengslum við greiðslumátann reiðufé.|[Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé](finance-setup-unrealized-vat.md)|
 | Settu eiginleika sölu og innkaupa upp þannig að hægt sé að vinna með erlenda gjaldmiðla.|[Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Skilgreina marga vexti sem á að nota fyrir mismunandi tímabil vegna seinkunar á greiðslum fyrir viðskiptafærslur.|[Setja upp marga vexti](finance-how-to-set-up-multiple-interest-rates.md)|
+|Undirbúa að slétta reikningsupphæðir sjálfvirkt þegar reikningar eru stofnaðir.|[Uppsetning sléttunargerðar reikninga](finance-set-up-invoice-rounding.md)|
 | Bæta nýjum reikningum við eldri bókhaldslykil. |[Uppsetning bókhaldslykilsins](finance-setup-chart-accounts.md) |
 | Setjið upp viðskiptaupplýsingar (BI) töflur til að greina sjóðstreymi. |[Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md) |
 |Gera virka reikningsfærslu viðskiptamanns sem er ekki uppsettur í kerfið.|[Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md)|
 | Uppsetning á Intrastat skýrslugerð, og senda inn skýrsluna til yfirvalda. | [Setja upp og skrá Intrastat](finance-how-setup-report-intrastat.md)|
+|Undirbúa sameinaða prófjafnaðarskýrslu í hlutverki endurskoðanda til að fá fjárhagsyfirlit yfir mörg fyrirtæki.|[Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  

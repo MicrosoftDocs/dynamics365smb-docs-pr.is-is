@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a107203cf81b149b920944db1fabace6e434221a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4c50c2b6a81eccfe07d41c2527547b7694aca4e7
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="creating-cost-budgets"></a>Stofna kostnaðaráætlanir
@@ -24,14 +24,14 @@ ms.lasthandoff: 09/28/2018
 
 Kostnaðaráætlun er stofnuð fyrir ákveðið tímabil, til dæmis reikningsár. Hægt er að búa til eins margar kostnaðaráætlanir og þörf er. Hægt er að stofna nýja kostnaðaráætlun handvirkt, eða með því að flytja inn kostnaðaráætlun eða með því að afrita fyrirliggjandi kostnaðaráætlun sem áætlunarstofninn. Frekari upplýsingar eru í [Stofna fjárhagsáætlun](finance-how-create-budgets.md).
 
-Nota skal eftirfarandi glugga til að stofna og greina kostnaðaráætlanir. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið til að finna glugga og lesa síðan ábendingarnar í hverjum og einum.
+Nota skal eftirfarandi síður til að stofna og greina kostnaðaráætlanir. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið til að finna síðu og lesa síðan ábendingarnar á hverri þeirra.
 
 |Til|Sjá|  
 |--------|---------|  
 |Flytja áætlun úr fjárhag.|**Afrita fjárhagsáætlun yfir í kostnaðarbókhald** runuvinnsla|  
 |Afrita kostnaðaráætlanir.|**Afrita kostnaðaráætlun** runuvinnsla|  
-|Úthluta áætlunum.|**Kostnaðarúthlutun** gluggi|  
-|Sjá dagbækur og færslur kostnaðaráætlana.|**Kostnaðaráætlunargögn** gluggi|  
+|Úthluta áætlunum.|**Kostnaðarúthlutun** síða|  
+|Sjá dagbækur og færslur kostnaðaráætlana.|**Fjárhagsáætlunarskrá**|  
 |Prenta samanburð kostnaðaráætlunar með því að nota ýmsar skýrslur.|**Kostnaðarbókhald Staða-fjárhagsáætlun** skýrsla<br /><br /> **Kostnaðarbókhald Yfirlit-fjárhagsáætlun** skýrsla<br /><br /> **Kostnaðaráætlun frá kostnaðarstað** skýrsla<br /><br /> **Kostnaðaráætlun frá kostnaðarhluta** skýrsla|  
 
 ## <a name="see-also"></a>Sjá einnig  

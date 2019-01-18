@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4b9fa6fb99ec68982a2869be2085de0588d76c85
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 83545421ec7539b214788d08d4f4b33c4bdb71d7
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="undo-assembly-posting"></a>Afturkalla samsetningarbókun
@@ -44,7 +44,7 @@ Eftirfarandi ferli lýsir því hvernig eigi afturkalla bókaðar samsetningarpa
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Til að afturkalla bókun samsetningarpöntunar  
 1.  Til að afturkalla bókaða samsetningarpöntun eða pöntun sem hefur verið bókuð að hluta, Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar samsetningarpantanir** og veldu síðan tengda tengilinn.  
 
-    Glugginn **Bókaðar samsetningarpantanir** opnast og birtir eina eða fleiri bókaðar samsetningarpantanir sem eru bókaðar úr viðkomandi samsetningarpöntun. Hverja hlutabókun stofnar aðskilda bókaða samsetningarpöntun.  
+    Síðan **Bókaðar samsetningarpantanir** opnast og birtir eina eða fleiri bókaðar samsetningarpantanir sem eru bókaðar úr viðkomandi samsetningarpöntun. Hverja hlutabókun stofnar aðskilda bókaða samsetningarpöntun.  
 2.  Opna bókaða samsetningarpöntun sem á að afturkalla, og velja síðan aðgerðina **Afturkalla samsetningu**.  
 
     Ef bókuð samsetningarpöntun sem á að afturkalla tengist fullbókaðri samsetningarpöntun sem nú hefur verið eytt er hægt að endurstofna hana, yfirleitt til þess að endurvinna hana.  

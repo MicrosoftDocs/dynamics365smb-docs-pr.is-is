@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a3c8910ad937ec4283ce0803f787a4fe6aed071d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Hönnunarupplýsingar: Bókun samsetningarpöntunar
@@ -53,7 +53,7 @@ Eftirfarandi tafla sýnir röð aðgerða.
 |Aðgerð|Description|  
 |------------|-----------------|  
 |Frumstilla bókun|1.  Framkvæmið forskoðanir.<br />2.  Bætið við bókunarnúmeri og breytið samsetningarpöntunarhausnum.<br />3.  Losa samsetningarpöntun.|  
-|Færsla|<ol><li>Stofna bókaðan samsetningarpöntunarhaus.</li><li>Afrita athugasemdarlínur.</li><li>Bóka samsetningarpöntunarlínur (notkun):<br /><br /> <ol><li>Stofna stöðuglugga til að reikna notkun við samsetningu.</li><li>Fá eftirstandandi magn sem birgðabókarlínan verður byggð á.</li><li>Núllstilla notað magn og eftirstandandi magn.</li><li>Fyrir samsetningarpöntunarlínur af gerðinni Vara:<br /><br /> <ol><li>Fylla út reitina birgðabókarlínunni.</li><li>Millifærslufrátekningar í birgðabókarlínu</li><li>Bóka birgðahöfuðbókarlínuna til að stofna birgðafærslurnar.</li><li>Stofna vöruhúsabókarlínur og bóka þær.</li></ol></li><li>Fyrir samsetningarpöntunarlínur af gerðinni Forði:<br /><br /> <ol><li>Fylla út reitina birgðabókarlínunni.</li><li>Bókið birgðabókarlínuna. Þetta stofnar afkastagetufærslur.</li><li>Stofna og bóka forðabókarlínu.</li></ol></li><li>Reitargildi millifærslu frá samsetningarpöntunarlínu í nýstofnaða bókaða samsetningarpöntunarlínu.</li></ol></li><li>Bóka samsetningarpöntunarhaus (frálag):<br /><br /> <ol><li>Fylla út reitina birgðabókarlínunni.</li><li>Millifærslufrátekningar í birgðabókarlínu</li><li>Bóka birgðahöfuðbókarlínuna til að stofna birgðafærslurnar.</li><li>Stofna vöruhúsabókarlínur og bóka þær.</li><li>Núllstilla samsetningarmagn og eftirstandandi magn.</li></ol></li></ol>|  
+|Færsla|<ol><li>Stofna bókaðan samsetningarpöntunarhaus.</li><li>Afrita athugasemdarlínur.</li><li>Bóka samsetningarpöntunarlínur (notkun):<br /><br /> <ol><li>Stofna stöðusíðu til að reikna notkun við samsetningu.</li><li>Fá eftirstandandi magn sem birgðabókarlínan verður byggð á.</li><li>Núllstilla notað magn og eftirstandandi magn.</li><li>Fyrir samsetningarpöntunarlínur af gerðinni Vara:<br /><br /> <ol><li>Fylla út reitina birgðabókarlínunni.</li><li>Millifærslufrátekningar í birgðabókarlínu</li><li>Bóka birgðahöfuðbókarlínuna til að stofna birgðafærslurnar.</li><li>Stofna vöruhúsabókarlínur og bóka þær.</li></ol></li><li>Fyrir samsetningarpöntunarlínur af gerðinni Forði:<br /><br /> <ol><li>Fylla út reitina birgðabókarlínunni.</li><li>Bókið birgðabókarlínuna. Þetta stofnar afkastagetufærslur.</li><li>Stofna og bóka forðabókarlínu.</li></ol></li><li>Reitargildi millifærslu frá samsetningarpöntunarlínu í nýstofnaða bókaða samsetningarpöntunarlínu.</li></ol></li><li>Bóka samsetningarpöntunarhaus (frálag):<br /><br /> <ol><li>Fylla út reitina birgðabókarlínunni.</li><li>Millifærslufrátekningar í birgðabókarlínu</li><li>Bóka birgðahöfuðbókarlínuna til að stofna birgðafærslurnar.</li><li>Stofna vöruhúsabókarlínur og bóka þær.</li><li>Núllstilla samsetningarmagn og eftirstandandi magn.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
 >  Ólíkt framleiðslufrálagi, sem bókað er á áætluðum kostnaði, er samsetningarfrálag bókað  á raunkostnaði.  

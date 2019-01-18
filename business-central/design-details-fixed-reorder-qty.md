@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5084c8a49972ea51600867d90acedc2698609732
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Hönnunarupplýsingar: Fast Magn endurpöntunar
@@ -37,7 +37,7 @@ Stefnan Fast endurpöntunarmagn tengist birgðaáætlanagerð á dæmigerðum C-
  Pantanabreytingarnar, Lágmarksmagn pöntunar, Hámarksmagn pöntunar og Margföld pöntun, ættu ekki að gegna stóru hlutverki þegar notuð er stefnan um fast pöntunarmagn. Hins vegar reiknar áætlanakerfið enn með þessum breytingalyklum og minnkar magnið í tilgreint hámarkspöntunarmagn (og býr til tvær eða fleiri birgðir til að ná heildarpöntunarmagninu), eykur pöntunina í tilgreint lágmarkspöntunarmagn, eða námundar pöntunarmagnið upp til að ná tiltekinni margfaldri pöntun.  
 
 ## <a name="combines-with-calendars"></a>Sameinast dagbók  
- Áður en ný birgðapöntun er lögð til til að mæta endurpöntunarmarki, kannar áætlanakerfið hvort pöntunin sé áætluð á frídegi, samkvæmt öllum dagatölum sem eru skilgreind í **Grunndagatalskóði** reitnum í gluggunum **Fyrirtækjaupplýsingar** og **Birgðageymslukort**  
+ Áður en ný birgðapöntun er lögð til að mæta endurpöntunarmarki, kannar áætlanakerfið hvort pöntunin sé áætluð á frídegi, samkvæmt öllum dagatölum sem eru skilgreind í **Grunndagatalskóði** reitnum á síðunni **Fyrirtækjaupplýsingar** og **Birgðageymslukort**.  
 
  Ef fyrirhuguð dagsetning er frídagur, færir áætlanakerfið pöntunina áfram á næsta virka dag. Þetta getur orsakað pöntun sem uppfyllir endurpöntunarmark en uppfyllir ekki einhverja tiltekna eftirspurn. Fyrir svona ójafna eftirspurn, býr áætlanakerfið til auka framboð.  
 

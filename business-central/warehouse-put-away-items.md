@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5e732e27921f632c3e15b1d832d7295d32f4b8a2
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: aa0d6b76bdf4a7078d7b2e3846d1bdfa3cf08528
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="putting-items-away"></a>Vörufrágangur
@@ -24,9 +24,9 @@ Vöruhúsaaðgerðin að ganga frá vörum eftir að tekið er á móti þeim, e
 
 Ef ákveðið er að skipuleggja og skrá frágangsupplýsingar með fylgiskjölum í kerfinu er sett gátmerki í reitinn **Krefjast frágangs** á birgðageymsluspjaldinu. Þetta segir kerfinu að þegar um er að ræða vörur sem koma inn í vöruhúsið með upprunaskjali á innleið, að þú vilt að fráganginum af þessum vörum sé stjórnað af kerfinu. Upprunaskjalið á innleið getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslupöntun þar sem úttakið er tilbúið til frágangs.  
 
-Þegar birgðageymslan er sett upp þannig að hún noti frágangsvinnslu en ekki móttökuvinnslu skal nota gluggann **Birgðafrágangur** til að skipuleggja frágangsupplýsingar, prenta þær, færa inn niðurstöður af raunverulegum frágangi og bóka frágangsupplýsingar, sem á móti bóka móttökuupplýsingar fyrir upprunaskjalið. Ef um er að ræða framleiðslupöntun, bókar bókunarferlið frálag pöntunarinnar og lýkur henni.
+Þegar birgðageymslan er sett upp þannig að hún noti frágangsvinnslu en ekki móttökuvinnslu skal nota síðuna **Birgðafrágangur** til að skipuleggja frágangsupplýsingar, prenta þær, færa inn niðurstöður af raunverulegum frágangi og bóka frágangsupplýsingar, sem á móti bóka móttökuupplýsingar fyrir upprunaskjalið. Ef um er að ræða framleiðslupöntun, bókar bókunarferlið frálag pöntunarinnar og lýkur henni.
 
-Ef vöruhúsið er sett upp þannig að það krefjist bæði móttökuvinnslu og frágangsvinnslu þannig að merkt hefur verið bæði við **Krefjast móttöku** og **Krefjast frágangs** á birgðageymsluspjaldinu er ferlið við frágang á vörum annað. Í því tilviki er glugginn **Vöruhúsafrágangur** notaður til að sjá um frágang. Vöruhúsafrágangur er svipaður birgðafrágangi, nema í stað þess að bóka upplýsingarnar er frágangurinn skráður. Athugið að skráning á frágangi vöruhúsins bókar ekki móttöku varanna. Það uppfærir aðeins innihald hólfsins. Sem stjórnandi vöruhúss, geturðu notað frágangsvinnublað til að flokka frágangsupplýsingar áður en þú stofnar einstakar frágangsleiðbeiningar vöruhússins.
+Ef vöruhúsið er sett upp þannig að það krefjist bæði móttökuvinnslu og frágangsvinnslu þannig að merkt hefur verið bæði við **Krefjast móttöku** og **Krefjast frágangs** á birgðageymsluspjaldinu er ferlið við frágang á vörum annað. Í því tilviki er síðan **Vöruhúsafrágangur** notuð til að sjá um frágang. Vöruhúsafrágangur er svipaður birgðafrágangi, nema í stað þess að bóka upplýsingarnar er frágangurinn skráður. Athugið að skráning á frágangi vöruhúsins bókar ekki móttöku varanna. Það uppfærir aðeins innihald hólfsins. Sem stjórnandi vöruhúss, geturðu notað frágangsvinnublað til að flokka frágangsupplýsingar áður en þú stofnar einstakar frágangsleiðbeiningar vöruhússins.
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
 

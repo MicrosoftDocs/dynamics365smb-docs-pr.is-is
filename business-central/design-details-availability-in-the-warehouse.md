@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5fd4bedcef6fcec79b1b2c8744c7c08d8170d97e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Hönnunarupplýsingar: Framboð á lager
@@ -32,7 +32,7 @@ Kerfið þarf að halda sífelldri stjórn á vörum til ráðstöfunar í vöru
 ## <a name="quantity-available-to-pick"></a>Magn tiltækt í tínslu  
  Ef, til dæmis, tínslureiknirit tekur ekki tillit til vörumagns sem eru frátekin fyrir yfirvofandi sölupöntunarsendingu, þá þessir vörur gætu verið tíndar fyrir aðra sölupöntun sem er send fyrr, sem kemur í veg fyrir fyrstu sölu frá því að vera uppfyllt. Til að forðast þetta ástand, dregur tínslureikniritið frá magn sem eru frátekin fyrir aðra útleið skjöl, magni á núverandi tínsluskjalum og magn sem er valinn en ekki enn flutt eða neytt.  
 
- Niðurstöðurnar eru birtar í reitnum **Tiltækt magn að tína** í glugganum **Vinnublað fyrir tínslu** þar sem reiturinn er stöðugt reiknaður. Gildið er einnig reiknað út þegar notendur stofna tiltektir í vöruhúsi beint fyrir skjöl á útleið. Slík útleiðarskjöl gætu verið sölupantanir, framleiðslunotkun eða útleiðarflutningur, þar sem niðurstaðan endurspeglast í tengdum magnreitum, svo sem **Magn til afgreiðslu**.  
+ Niðurstöðurnar eru birtar í reitnum **Tiltækt magn** að tína á síðunni **Vinnublað** fyrir tínslu þar sem reiturinn er stöðugt reiknaður. Gildið er einnig reiknað út þegar notendur stofna tiltektir í vöruhúsi beint fyrir skjöl á útleið. Slík útleiðarskjöl gætu verið sölupantanir, framleiðslunotkun eða útleiðarflutningur, þar sem niðurstaðan endurspeglast í tengdum magnreitum, svo sem **Magn til afgreiðslu**.  
 
 > [!NOTE]  
 >  Varðandi forgang frátekninga er magn frátekningar dregið frá magni sem er laust til tiltektar. Til dæmis ef magnið sem tiltækt er í tínsluhólfum er 5 einingar en 100 einingar eru í frágangshólfum þá birtast villuboð ef reynt er að taka frá fleiri en 5 einingar fyrir aðra pöntun, vegna þess að viðbótarmagnið verður að vera tiltækt í tínsluhólfum.  
@@ -58,9 +58,9 @@ Kerfið þarf að halda sífelldri stjórn á vörum til ráðstöfunar í vöru
 -   Magn í hólfum til samsetningar  
 -   Magn í leiðréttingarhólfum  
 
- Niðurstöðurnar eru birtar í reitnum **Tiltækt heildarmagn** í glugganum **Frátekning**.  
+ Niðurstöðurnar eru birtar í reitnum **Tiltækt heildarmagn** á síðunni **Frátekning**.  
 
- Á frátekningarlínu er magnið sem ekki er hægt að taka frá, vegna þess að því hefur verið úthlutað í vöruhús, birta í reitnum **Magni úthlutað í vöruhúsi** í glugganum **Frátekning**.  
+ Á frátekningarlínu er magnið sem ekki er hægt að taka frá, vegna þess að því hefur verið úthlutað í vöruhús, birta í reitnum **Magni úthlutað í vöruhúsi** á síðunni **Frátekning**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Reikna magnið laust til frátekningar  
  Magnið sem tiltækt er til frátektar er reiknað svona:  

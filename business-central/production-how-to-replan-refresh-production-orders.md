@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2fec578da84a190535e5ebf74972aee8ff7e3b7a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Enduráætla eða uppfæra framleiðslupantanir beint
@@ -41,7 +41,7 @@ Hægt er að setja framleiðslulínur inn handvirkt eða nota aðgerðina sem re
 4.  Íhlut, sem er framleidd vara epa millivara, er bætt við.  
 5.  Frá framleiðslupöntuninni, veldu **Enduráætla** aðgerðina.  
 
-    Í glugganum **Enduráætla framleiðslupöntun** er tilgreint hvernig og hvað á að enduráætla.  
+    Á síðunni **Enduráætla framleiðslupöntun** er tilgreint hvernig og hvað á að enduráætla.  
 6.  Í reitnum **Stefna tímasetningar** veljið einn eftirfarandi valkost.  
 
     |Valkostur|Description|  
@@ -68,7 +68,7 @@ Ef framleiðslupöntunarlínunum, íhlutum eða leiðarlínum hefur verið breyt
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pöntun** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð. Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
 3.  Velja aðgerðina **Uppfæra**.
-4. Í glugganum **Uppfæra framleiðslupöntun** velurðu einn af eftirfarandi kostum:
+4. Á síðunni **Uppfæra framleiðslupöntun** velurðu einn af eftirfarandi kostum:
 
     |Valkostur|Description|  
     |----------------------------------|---------------|---------------------------------------|  

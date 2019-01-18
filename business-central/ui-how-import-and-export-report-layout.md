@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27818c45c68f37c052a39eeaeaf0fe6c2c871af9
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Flytja inn og út skýrsluútlit eða skjalaútlit
@@ -31,7 +31,7 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
   
 2.  Veldu röðina fyrir skýrsluna sem er með sérsniðna skýrsluútlitið sem þú vilt flytja út, og svo, á flipanum **Heim** í hópnum **Vinna** velurðu **Sérstillt útlit**.  
   
-3.  Í glugganum **Skýrsluútlit** skal velja skýrsluútlit sem flytja á út í skrá og svo á flipanum **Heim** í hópnum **Vinna** velja **Flytja út útlit**.  
+3.  Á síðunni **Skýrsluútlit** skal velja skýrsluútlit sem flytja á út í skrá og svo á flipanum **Heim** í hópnum **Vinna** velja **Flytja út útlit**.  
   
 4.  Í svarglugganum **Flytja út skrá** skal velja **Vista** og vista svo skrána í tölvu eða á neti.  
   
@@ -45,7 +45,7 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
   
 3.  Veldu röðina fyrir skýrsluna sem þú vilt flytja inn skýrsluútlitið, og svo, á flipanum **Heim** í hópnum **Vinna** veldu **Sérstillt útlit**.  
   
-4.  Í glugganum **Skýrsluútlit** skal velja útlit sem flytja á inn í skrána og svo á flipanum **Heim** í hópnum **Vinna** velja **Flytja inn útlit**.  
+4.  Á síðunni **Skýrsluútlit** skal velja útlit sem flytja á inn í skrána og svo á flipanum **Heim** í hópnum **Vinna** velja **Flytja inn útlit**.  
   
 5.  Í svarglugganum **Flytja inn** skal velja skjalið sem skilgreinir skýrsluútlitið og svo velja **Opna**.  
   

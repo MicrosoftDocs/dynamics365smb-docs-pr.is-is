@@ -13,14 +13,14 @@ ms.search.keywords: project management, consumption
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e73d4aa2928f7d0f5cc04e938ca887f7403f00d1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-usage-for-jobs"></a>Skrá notkun vegna verka
-Í glugganum **Áætlunarlínur verks** er hægt að fara yfir og skrá notkun mismunandi hluta verks, sem uppfærist sjálfkrafa þegar breytt er og við flutning upplýsinga milli verka og verkbóka eða verkreikninga. Þetta krefst þess að verk hafi verið sett upp svo kveikt sé á **Nota notkunartengil sjálfgefið**. Frekari upplýsingar eru í [Setja upp verk](projects-how-setup-jobs.md).  
+Á síðunni **Áætlunarlínur verks** er hægt að fara yfir og skrá notkun mismunandi hluta verks, sem uppfærist sjálfkrafa þegar breytt er og við flutning upplýsinga milli verka og verkbóka eða verkreikninga. Þetta krefst þess að verk hafi verið sett upp svo kveikt sé á **Nota notkunartengil sjálfgefið**. Frekari upplýsingar eru í [Setja upp verk](projects-how-setup-jobs.md).  
 
 Til dæmis fyrir áætlunarlínurnar af tegundinni **Áætlun** er hægt að setja inn magn forða og tilgreina hvaða magn á að flytja í verkbókina. Ef gerð áætlunarlínurnar er **Reikningshæft** er hægt að færa inn magn forða og tilgreina hvaða magn á að flytja á reikning. Með því að bera saman magn sem hefur verið flutt í færslubókina eða reikning með eftirstöðvarmagni, er fljótlegt að fara yfir notkunarupplýsingarnar.
 
@@ -34,10 +34,10 @@ Eftirfarandi leiðbeiningar lýsa því hvernig á að skrá raunverulegt (reikn
 
     Reiturinn **Eftirstöðvar (magn)** sýnir það magn sem eftir er til að ljúka verkinu og flytja í færslubókina.  
 5. Velja skal aðgerðina **Stofna verkbókarlínur**.
-6. Í glugganum **Verk - Flytja verkáætlunarlínu** skal fylla reiti út eftir þörfum og velja síðan hnappinn **Í lagi**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Á síðunni **Verk - Flytja verkáætlunarlínu** skal fylla reiti út eftir þörfum og velja síðan hnappinn **Í lagi**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Velja skal aðgerðina **Opna verkbók**.  
-8. Í glugganum **Verkbók** skal velja viðeigandi línu og svo aðgerðina **Bóka**.
-9. Í glugganum **Verkáætlunarlínur** skal fara yfir skráða notkun með því að athuga reitina **Magn**, **Eftirstöðvar (magn)** og **Magn til flutnings í færslubók**.  
+8. Á síðunni **Verkbók** skal velja viðeigandi línu og svo aðgerðina **Bóka**.
+9. Á síðunni **Verkáætlunarlínur** skal fara yfir skráða notkun með því að athuga reitina **Magn**, **Eftirstöðvar (magn)** og **Magn til flutnings í færslubók**.  
 10. Endurtakið skref 3 til 8 til að skrá frekari notkun.  
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Til að skrá notkun fyrir verkáætlunarlínu af gerðinni Reikningshæft
@@ -50,21 +50,21 @@ Eftirfarandi leiðbeiningar lýsa því hvernig á að skrá raunverulegt (reikn
 
     Reiturinn **Magn á reikning** sýnir það magn sem eftir er til að ljúka verkinu og reikningsfæra.  
 5. Veljið aðgerðina **Stofna sölureikning**.
-6. Í glugganum **Verk - Flytja í sölureikning** skal fylla reiti út eftir þörfum og velja síðan hnappinn **Í lagi**.
-7. Í glugganum **Verkáætlunarlínur** skal velja viðeigandi línu og svo aðgerðina **Bóka**.
+6. Á síðunni **Verk - Flytja í sölureikning** skal fylla reiti út eftir þörfum og velja síðan hnappinn **Í lagi**.
+7. Á síðunni **Verkáætlunarlínur** skal velja viðeigandi línu og svo aðgerðina **Bóka**.
 8. Farið yfir skráða notkun með því að skoða reitina **Magn**, **Magn á reikning** og **Magn til flutnings á reikning** og einnig reitinn **Reikningsfært magn** ef sölureikningurinn er bókaður.
 9. Endurtakið skref 3 til 8 til að skrá frekari notkun.  
 10. Til að fara yfir tengdan bókaðan sölureikning skal velja aðgerðina **Sölureikningar/kreditreikningar**.  
-11. Í glugganum **Verkreikningar** skal velja viðeigandi reikning og svo aðgerðina **Opna sölureikning/kreditreikning**.         
+11. Á síðunni **Verkreikningar** skal velja viðeigandi reikning og svo aðgerðina **Opna sölureikning/kreditreikning**.         
 
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Til að stofna verkbókarlínur úr áætlunarlínum verks
 Þegar notandi er tilbúinn að bóka fjárhagslegar upplýsingar fyrir verk, þarf að stofna verkbókarlínur sem hægt er að bóka.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
 2. Veljið viðeigandi opið verk og veljið svo aðgerðina **Verkáætlunarlínur**.  
-3. Í glugganum **Verkáætlunarlínur** skal slá inn magnið sem flytja skal í verkbók í reitinn **Magn til flutnings í færslubók** í viðeigandi verkáætlunarlínu.  
+3. Á síðunni **Verkáætlunarlínur** skal slá inn magnið sem flytja skal í verkbók í reitinn **Magn til flutnings í færslubók** í viðeigandi verkáætlunarlínu.  
 4. Velja skal aðgerðina **Stofna verkbókarlínur**.
-5. Í glugganum **Verkflutningar í áætlunarlínur** skal fylla út reiti eins og þörf krefur.  
+5. Á síðunni **Verkflutningar í áætlunarlínur** skal fylla út reiti eins og þörf krefur.  
 6. Velja hnappinn **Í lagi**. Verkbókarlínur eru stofnaðar.
 7. Til að staðfesta flutninginn skal opna viðeigandi verkbókarkeyrslu og athuga færslurnar.  
 8. Þegar verkbókarlínurnar eru tilbúnar skal velja aðgerðina **Bóka**.  
@@ -83,7 +83,7 @@ Eftirfarandi leiðbeiningar lýsa því hvernig á að skrá raunverulegt (reikn
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.  
 2. Veljið viðeigandi verkbók og veljið svo aðgerðina **Færslur**.  
-3. Í glugganum **Verkfærslur** er aðgerðin **Sýna áætlunarlínur verks** valin.
+3. Á síðunni **Verkfærslur** er aðgerðin **Sýna áætlunarlínur verks** valin.
 
 ## <a name="see-also"></a>Sjá einnig
 [Verkefnastjórnun](projects-manage-projects.md)  

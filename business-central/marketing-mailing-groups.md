@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a7b9c39b1f213bf2b09ee24e3e6172df027e042c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7f40b94cef953b22684ddcc744de0cfbdb8e0f20
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Setja upp pósthópaa fyrir tengiliði.
@@ -25,19 +26,19 @@ pósthópana sem nota má til að auðkenna tengiliðahópa sem eiga að fá sö
 Notkun pósthópar á tengiliði er tveggja þrepa ferli. Fyrst skilgreina pósthópskóða. Aðeins þarf að framkvæma þetta skref í eitt skipti fyrir hver pósthóp. Þegar kominn er pósthópskóði, er hægt að byrja að úthluta kóðanum til tengiliðafyrirtækja.
 
 ## <a name="to-define-mailing-group-codes"></a>Skilgreina pósthópskóða
-Pósthópskóði skilgreinir tegund eða flokk hóps, eins og Move fyrir flutning skrifstofu, GIFT fyrir hátíðsgjöf. Hægt er að hafa nokkrar starfsgreinarhópakóða. Til að skilgreina starfsgreinarhópar er að nota gluggann **pósthópar** .
+Pósthópskóði skilgreinir tegund eða flokk hóps, eins og Move fyrir flutning skrifstofu, GIFT fyrir hátíðsgjöf. Hægt er að hafa nokkrar starfsgreinarhópakóða. Til að skilgreina starfsgreinarhópa skal nota síðuna **Pósthópar**.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pósthópar** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð og fyllt er inn kóði og lýsing. Kóðinn má vera mest 11 stafir, og getur verið hvaða samasetning sem er af tölustafir og bókstafir.
 
 ## <a name="AssignMailGroupContact"></a> Pósthópum úthlutað á tengiliði
 1. Tengiliðurinn er opnaður.
-2. Valið er **Pósthópar** aðgerð. Glugginn **Pósthópar tengiliða** birtist.
+2. Valið er **Pósthópar** aðgerð. Síðan **Pósthópar tengiliða** birtist.
 3. Í reitnum **Pósthópskóði** veljið pósthópinn sem á að úthluta.
 
 Skrefin eru endurtekin til að úthluta eins mörgum pósthópum og óskað er. Einnig má nota sömu aðferð til að úthluta pósthópum úr Tengiliðalisti.
 
-Fjöldi pósthópa sem þú hefur úthlutað tengiliðnum birtist í **Fjöldi pósthópa** í hlutanum **hlutaaðgerðin** á glugganum **Tengliður**.
+Fjöldi pósthópa sem þú hefur úthlutað tengiliðnum birtist í **Fjöldi pósthópa** í hlutanum **hlutaaðgerðin** á síðunni **Tengliður**.
 
 Eftir að tengiliðum hefur verið úthlutað pósthópum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Frekari upplýsingar eru í [Bæta tengiliðum við hluta](marketing-add-contact-segment.md).
 

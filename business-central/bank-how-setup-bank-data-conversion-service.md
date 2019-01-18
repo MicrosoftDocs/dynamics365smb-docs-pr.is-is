@@ -11,18 +11,18 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 10/02/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a83bb50c640adafede77524c6982107e1140a27b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f46d085eac89743c095b5fd7d73353a5ff248f65
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Setja upp umskráningarþjónustu fyrir bankagögn
 Altæk þjónustuveita til að umreikna greiðsluupplýsingar í hvaða gagnaskráarsnið sem bankinn þinn þarf eru uppsett og tilbúið til að vera virkjað í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta er vísað til í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem umskráningarþjónusta fyrir bankagögn.
 
-Hægt er að flytja út greiðslulínur úr **Greiðslubók** glugganum í skrá eða gagnastreymi sem þú síðan hleður upp í bankann þinn fyrir sjálfvirka vinnslu svo að þú þarft ekki að gera rafræn greiðsla í sitthvoru lagi. Frekari upplýsingar eru í [Flytja út greiðslur í bankaskrá](payables-how-export-payments-bank-file.md).
+Hægt er að flytja út greiðslulínur á síðunni **Greiðslubók** í skrá eða gagnastreymi sem þú síðan hleður upp í bankann þinn fyrir sjálfvirka vinnslu svo að þú þarft ekki að gera rafræn greiðsla í sitthvoru lagi. Frekari upplýsingar eru í [Flytja út greiðslur í bankaskrá](payables-how-export-payments-bank-file.md).
 
-Þú getur flutt inn bankareikningsskrár í gluggann **Greiðsluafstemmingarbók** með því að nota umskráningarþjónusta fyrir bankagögn til að umbreyta skrá sem þú færð frá bankanum í gagnastraum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] getur flutt inn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Þú getur flutt inn bankareikningsskrár á síðuna **Greiðsluafstemmingarbók** með því að nota umskráningarþjónusta fyrir bankagögn til að umbreyta skrá sem þú færð frá bankanum í gagnastraum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] getur flutt inn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Í staðinn fyrir að flytja inn bankayfirlit með gagnagrunnþjónustu bankans geturðu notað Envestnet Yodlee Bank Feeds þjónustuna. Frekari upplýsingar eru í [Setja upp Envestnet Yodlee bankastreymisþjónustu](bank-how-setup-bank-statement-service.md).
 
@@ -33,7 +33,7 @@ Til að flytja inn eða flytja út bankaskrár verður þú að setja upp eigin 
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Að skrá fyrirtækið fyrir umreikningsþjónustu bankagagna
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **uppsetning umreikningsþjónustu fyrir bankagögn** og veldu síðan tengda tengilinn.  
-2. **Uppsetning Umreikningsþjónusta fyrir bankagögn** Glugginn opnast með þremur reitum útfylltum með viðeigandi vefslóðir frá veitanda umreikningsþjónustu fyrir bankagögn.
+2. Síðan **Uppsetning Umreikningsþjónusta fyrir bankagögn** opnast með þremur reitum útfylltum með viðeigandi vefslóðir frá veitanda umreikningsþjónustu fyrir bankagögn.
 
     > [!NOTE]  
     >   Í CRONUS International Ltd. Sýnigagnagrunninum eru notandanafn og lykilorð reitirnir fylltar með sýnidæmum um innskráningarupplýsingar sem þú verður að skipta út með raunverulegum upplýsingum fyrirtækis þíns þegar þú skráir þig fyrir umreikningsþjónustu bankagagna.
@@ -42,7 +42,7 @@ Til að flytja inn eða flytja út bankaskrár verður þú að setja upp eigin 
 
     Fyrirtæki þitt er nú skráð fyrir umreikningsþjónustu bankagagna. Sláið inn notandanafn og aðgangsorð sem tilgreind voru fyrir þjónustuna í tengdum uppsetningarreitum í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-5. Í **uppsetning umreikningsþjónustu fyrir bankagögn** glugga í **notandanafn** reitnum, sláðu inn sama gildi sem þú færðir inn sem innskráningarnafn á síðu þjónustuveitunnar í 4. skrefi.
+5. Á síðunni **Uppsetning umreikningsþjónustu fyrir bankagögn** í **Notandanafn** reitnum, sláðu inn sama gildi sem þú færðir inn sem innskráningarnafn á síðu þjónustuveitunnar í 4. skrefi.
 6. Í reitnum **lykilorð**, sláðu inn sama gildi sem þú færðir inn í reitinn **Aðgangsorð** á síðu þjónustuveitunnar í 4. skrefi.
 
 > [!NOTE]  
@@ -50,10 +50,10 @@ Til að flytja inn eða flytja út bankaskrár verður þú að setja upp eigin 
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Til að skoða eða uppfæra listann yfir studd bankagagnasnið
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **uppsetning umreikningsþjónustu fyrir bankagögn** og veldu síðan tengda tengilinn.
-2. Á glugganum **uppsetning umreikningsþjónustu fyrir bankagögn** , skal velja **Nafn banka – umskráningarlisti gagna** til að opna lista yfir nöfn banka sem standa fyrir bankagagnasnið sem eru studd af umskráningarþjónustunni.
-3. Í glugganum **Nafn banka – gagnaumreikningslisti**, veldu **uppfæra nafnalista banka**.
+2. Á síðunni **uppsetning umreikningsþjónustu fyrir bankagögn** , skal velja **Nafn banka – umskráningarlisti gagna** til að opna lista yfir nöfn banka sem standa fyrir bankagagnasnið sem eru studd af umskráningarþjónustunni.
+3. Á síðunni **Nafn banka – gagnaumreikningslisti**, veldu aðgerðina **Uppfæra nafnalista banka**.
 
-Listi yfir bankagagnasnið sem eru studd af umreikningsþjónustunni fyrir bankagögn er nú uppfærður. Þetta er listinn yfir nöfn banka, afmörkuð eftir landi/svæði, sem hægt er að velja úr í reitnum **Nafn banka - gagnaumreikningur** í glugganum **Bankareikningsspjald**.
+Listi yfir bankagagnasnið sem eru studd af umreikningsþjónustunni fyrir bankagögn er nú uppfærður. Þetta er listinn yfir nöfn banka, afmörkuð eftir landi/svæði, sem hægt er að velja úr í reitnum **Nafn banka - gagnaumreikningur** á síðunni **Bankareikningsspjald**.
 
 > [!NOTE]  
 >   Uppfærsla studdra bankagagnasniða á sér einnig stað þegar gildi er valið eða slegið inn í reitinn **Nafn banka - gagnaumreikningur** á bankareikningnum.

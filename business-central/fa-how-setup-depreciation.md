@@ -11,27 +11,27 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2244fa1eb4af58eea7381da937bed7fafe3d9f6c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d417db84cf45356925cf52a36ba08e478b8ee6b9
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Setja upp eignaafskriftir
  Hægt er að nota ýmsar afskriftaaðferðir vegna reikningsskila og skattframtals. Mörg stórfyrirtæki nota beinlínuafskriftir í reikningsskilum vegna þess að með þeim er yfirleitt hægt að tilgreina hærri tekjur. Vegna tekjuskatts nota þó mörg fyrirtæki hraðafskriftaaðferð. Frekari upplýsingar eru í [afskriftaaðferðir](fa-depreciation-methods.md)
 
- Þegar stofnaðar hafa verið viðeigandi afskriftabækur verður að tengja eina eða fleiri afskriftabækur við hverja eign. Afskriftabók sem úthlutað er á eign er vísað til sem afskriftabók eigna. Í samræmi við það heitir glugginn fyrir úthlutaðar afskriftabækur **Eignaafskriftabækur**.
+ Þegar stofnaðar hafa verið viðeigandi afskriftabækur verður að tengja eina eða fleiri afskriftabækur við hverja eign. Afskriftabók sem úthlutað er á eign er vísað til sem afskriftabók eigna. Í samræmi við það heitir síðan fyrir úthlutaðar afskriftabækur **Eignaafskriftabækur**.
 
 ## <a name="to-create-a-depreciation-book"></a>Stofna afskriftabók
 Í eignaafskriftabók er tilgreint hvernig eignir eru afskrifaðar. Ef gera á ráð fyrir margvíslegum afskriftaaðferðum má setja upp margar afskriftabækur.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftabækur** og veldu síðan tengda tengilinn.
-2. Í glugganum **afskriftabókalisti** skal velja aðgerðina **Nýtt**.
-3. Í glugganum **afskriftabókarspjald** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Á síðunni **afskriftabókalisti** skal velja aðgerðina **Nýtt**.
+3. Fyllt er út í reiti eftir því sem á við á síðunni **Afskriftabókarspjald**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Hægt er að skrá eignafærslur í **Fjárhagsbók eigna** gluggann eða í **færslubók eigna** gluggann, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Fylgja á næsta skref til að skilgreina hvaða tegund færslubókar er notuð sjálfgefið fyrir hinum ýmsu aðgerðum eigna.
-4. Í **Samþætting** Flýtiflipanum skal velja gátreit fyrir hverja aðgerð eignar sem bóka á færslur fyrir með því að nota **Fjárhagsbók eigna** gluggann.
+    >   Hægt er að skrá eignafærslur á síðunni **Fjárhagsbók eigna** eða á síðunni **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Fylgja á næsta skref til að skilgreina hvaða tegund færslubókar er notuð sjálfgefið fyrir hinum ýmsu aðgerðum eigna.
+4. Í **Samþætting** Flýtiflipanum skal velja gátreit fyrir hverja aðgerð eignar sem bóka á færslur fyrir með því að nota **Fjárhagsbók eigna** síðuna.
 5. Endurtaka skal skref 2 til 4 fyrir hverja afskriftaaðferð eða bókunaraðferð sem úthluta á á eignir sem afskriftabók.
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Úthluta afskriftabók á eign.
@@ -49,8 +49,8 @@ Ef tengja á afskriftabók við nokkrar eignir er hægt að keyra **Stofna eigna
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir** og veldu síðan tengda tengilinn.
 2. Valin er eignin fyrir hverja setja á upp afskriftabók fyrir, og velja síðan sem **Breyta** aðgerð.
-3. Í glugganum **Afskriftabókarspjald** er valið **Stofna Eignaafskriftabækur** aðgerð.
-4. Í glugganum **stofna eignaafskriftabækur** er fyllt inn í reitinn **afskriftarbók** .
+3. Á síðunni **Afskriftabókarspjald** er valið **Stofna Eignaafskriftabækur** aðgerð.
+4. Á síðunni **stofna eignaafskriftabækur** er fyllt inn í reitinn **afskriftarbók** .
 5. Veljið **Afrita frá eignanr.** reitinn, og veljið síðan eignanúmerið sem á að nota sem grunn að stofnun nýrra eignaafskriftabóka.
 
     Ef þessi reitur er fylltur út verða sömu upplýsingar í afskriftareitunum í nýju eignaafskriftabókinni og eru í samsvarandi reitum í eignaafskriftabókinni sem er afritað úr. Reiturinn er hafður auður ef búa á til nýja eignaafskriftabók með auðum afskriftareitum.  
@@ -62,10 +62,10 @@ Fyrir hverja afskriftabók þarf að stilla hvernig [!INCLUDE[d365fin](includes/
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftabækur** og veldu síðan tengda tengilinn.  
 2. Valin er afskriftabók sem á að setja upp og velja síðan **eignarbókunarflokkur** aðgerð.
-3. Í glugganum **uppstning eignarbókunarflokks** þarf að fylla reitina út eftir þörfum.
+3. Á síðunni **uppstning eignarbókunarflokks** þarf að fylla reitina út eftir þörfum.
 
     > [!NOTE]  
-    >   Ekki er hægt að skjóta inn eða eyða línum í glugganum **Eignabókunartegund uppsetning**. Aðeins er hægt að breyta þeim línum sem fyrir eru.
+    >   Ekki er hægt að skjóta inn eða eyða línum á síðunni **Eignabókunartegund uppsetning**. Aðeins er hægt að breyta þeim línum sem fyrir eru.
 
 Sterklega er mælt með því að uppsetningunni fyrir afskriftarbækur sem búið er að bóka í sé ekki breytt. Breytingarnar hafa ekki áhrif á færslur sem þegar er búið að bóka og sem myndu gera tölfræðigögn afskriftarbókarinnar óáreiðanleg.
 
@@ -74,7 +74,7 @@ Skilgreina þarf sjálfgefna uppsetningu fyrir sniðmát og keyrslur fyrir hverj
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftabækur** og veldu síðan tengda tengilinn.  
 2. Valin er afskriftabók sem á að skilgreina sjálfgefnar bækur fyrir, og veldu svo aðgerðina **uppsetning eignabókar**.  
-3. Ef sjálfgefin uppsetning á að vera fyrir hvern notanda skal velja reiturinn **Kenni notanda** til að velja úr glugganum **Notendur**.  
+3. Ef sjálfgefin uppsetning á að vera fyrir hvern notanda skal velja reitinn **Kenni notanda** til að velja af síðunni **Notendur**.  
 4. Í öðrum reitum er valið er sniðmát færslubókar eða bókarkeyrslu sem nota verður sjálfgefið.  
 
 ## <a name="see-also"></a>Sjá einnig

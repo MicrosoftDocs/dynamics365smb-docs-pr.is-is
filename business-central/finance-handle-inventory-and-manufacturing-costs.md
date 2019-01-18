@@ -1,6 +1,6 @@
 ---
 title: "Meðhöndla birgða- og framleiðslukostnað | Microsoft Docs"
-description: "Þótt margar aðgerðir kostnaðarbókhalds felist í innri ferlum sem notandinn kemur ekki nálægt, til dæmis jöfnun færslna og sjálfvirk kostnaðarleiðrétting, eru nokkrir reitir, gluggar og skýrslur sem ætluð eru notendum sem vinna beint eða óbeint með kostnað vara eða aðgerða."
+description: "Þótt margar aðgerðir kostnaðarbókhalds felist í innri ferlum sem notandinn kemur ekki nálægt, til dæmis jöfnun færslna og sjálfvirk kostnaðarleiðrétting, eru nokkrir reitir, síður og skýrslur sem ætluð eru notendum sem vinna beint eða óbeint með kostnað vara eða aðgerða."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 463902077313b09391c42f4d44fde11be08bdd02
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 27c036dac88bce71ecfefa064d05ac3cdd8e8225
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Meðhöndla birgða- og framleiðslukostnað
-Þótt margar aðgerðir kostnaðarbókhalds felist í innri ferlum sem notandinn kemur ekki nálægt, til dæmis jöfnun færslna og sjálfvirk kostnaðarleiðrétting, eru nokkrir reitir, gluggar og skýrslur sem ætluð eru notendum sem vinna beint eða óbeint með kostnað vara eða aðgerða.  
+Þótt margar aðgerðir kostnaðarbókhalds felist í innri ferlum sem notandinn kemur ekki nálægt, til dæmis jöfnun færslna og sjálfvirk kostnaðarleiðrétting, eru nokkrir reitir, síður og skýrslur sem ætluð eru notendum sem vinna beint eða óbeint með kostnað vara eða aðgerða.  
 
  Úthlutun kostnaðarauka til innkaupaskjala er dæmi um óbeinan kostnaðarbókhaldsverkhluta. Uppfærsla einingarkostnaðar samsetningar eða framleiðsluuppskriftarvöru er dæmi um beinni kostnaðarbókhaldsverkhluta.  
 

@@ -11,14 +11,14 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 11/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-basic-settings"></a>Breyta grundvallarstillingum
-Í [**Stillingarnar mínar**](https://businesscentral.dynamics.com?page=9176 "Fara beint í notendastillingasíðu Business Central") glugganum er hægt að sjá og breyta grunnstililngum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Breytingar sem þú gerir munu aðeins hafa áhrif á vinnusvæðið þitt, ekki vinnusvæði annarra notenda.  
+Í [**Stillingarnar mínar**](https://businesscentral.dynamics.com?page=9176 "Fara beint í notendastillingasíðu Business Central") síðunni er hægt að sjá og breyta grunnstililngum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Breytingar sem þú gerir munu aðeins hafa áhrif á vinnusvæðið þitt, ekki vinnusvæði annarra notenda.  
 
 ## <a name="role-center"></a> Mitt hlutverk
 Mitt hlutverk táknar heimasíðuna, upphafssíðu sem er hönnuð fyrir þarfir tiltekins hlutverks í fyrirtækinu. Það fer eftir hlutverki þínu, en Mitt hlutverk gefur þér yfirlit yfir fyrirtækið, deildina þína eða persónuleg verkefnin þín. Það hjálpar þér líka að komast í daglegu verkefnin þín og finna vinnu sem þér er úthlutað.
@@ -30,7 +30,7 @@ Mitt hlutverk táknar heimasíðuna, upphafssíðu sem er hönnuð fyrir þarfir
 ### <a name="to-change-role-center"></a>Til að breyta Mitt hlutverk
 Sjálfgefið hlutverkamiðstöð er **Viðskiptastjórnandi**, en hægt er að velja annað Hlutverk sem uppfylla þörfum betur.
 1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingar tákn fyrir miðstöð") og velja síðan **Stillingar mínar**.
-2. Í **Mínar Stillingum** glugga í á **hlutverkamiðstöð** reit, er valinn sem hlutverkamiðstöð sem þú vilt að sé staðallinn. Veljið til dæmis **Bókari**.
+2. Á síðunni **Mínar Stillingar** í **Mitt hlutverk** reitnum, skal velja Mitt hlutverk sem á að vera staðallinn. Veljið til dæmis **Bókari**.
 3. Velja hnappinn **Í lagi**.
 
 ## <a name="company"></a>Fyrirtæki
@@ -39,7 +39,7 @@ Fyrirtæki virkar sem geymsluhólf fyrir gögn í [!INCLUDE[d365fin](includes/d3
 Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn.
 
 > [!TIP]  
->   Ef þú vilt birta annað nafn á fyrirtækinu þínu í umsókninni (eins og í Mitt hlutverk), veldu reitinn **Nafn** í glugganum **Upplýsingar um fyrirtæki** eða reitinn **Birta nafn** í glugganum **Fyrirtæki**.  
+>   Ef þú vilt birta annað heiti á fyrirtækinu þínu í umsókninni (eins og á heimasíðunni Mitt hlutverk), settu reitinn **Heiti** á síðunni **Upplýsingar um fyrirtæki** eða reitinn **Birta heiti** inn á síðuna **Fyrirtæki**.  
 
 ## <a name="work-date"></a>Vinnudagsetning
 Sjálfgefin vinnudagsetning er yfirleitt dagurinn í dag. Þú gætir þúrft að breyta tímabundið vinnudagsetningu til að framkvæma verk, eins og að klára færslur fyrir dagsetningu sem er ekki núverandi dagsetning.

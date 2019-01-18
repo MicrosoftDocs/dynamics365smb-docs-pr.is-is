@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Hönnunarupplýsingar: vöruhúsaflæði inn
@@ -62,7 +62,7 @@ Eftirfarandi skýringarmynd sýnir innflæði í vöruhús eftir skjalagerð gru
 Þegar upprunaskjal á innleið er losað er stofnuð sjálfkrafa stofnuð vöruhúsabeiðni á innleið. Það inniheldur tilvísanir til upprunaskjalstegund og númeri og er ekki sýnilegt notandanum.  
 
 ### <a name="3-create-inventory-put-away"></a>3: Birgðafrágangur búinn til  
-Í **Birgðafrágangur** glugganum sækir vöruhúsanotandi sem er ábyrgur fyrir móttöku, með aðferðinni tínslur, væntanlegt upprunaskjalslínur byggt á vöruhúsabeiðnum á innleið. Að öðrum kosti er birgðafrágangslínur þegar stofnaðar, með ýtingu, af notanda sem er ábyrgur fyrir upprunaskjalinu.  
+Á síðunni **Birgðafrágangur** sækir vöruhúsanotandi sem er ábyrgur fyrir móttöku, með aðferðinni tínslur, væntanlegt upprunaskjalslínur byggt á vöruhúsabeiðnum á innleið. Að öðrum kosti er birgðafrágangslínur þegar stofnaðar, með ýtingu, af notanda sem er ábyrgur fyrir upprunaskjalinu.  
 
 ### <a name="4-post-inventory-put-away"></a>4: Birgðafrágangur  
 Í hverri línu fyrir vöru sem hefur verið gegnið frá, að hluta eða fullu, fyllir starfsmaður í vöruhúsi út reitinn **Magn** og skráir svo birgðafráganginn. Upprunaskjöl sem tengjast birgðafrágangi eru bókuð sem móttekin.  
@@ -81,7 +81,7 @@ Eftirfarandi skýringarmynd sýnir innflæði í vöruhús eftir skjalagerð í 
 Þegar upprunaskjal á innleið er losað er stofnuð sjálfkrafa stofnuð vöruhúsabeiðni á innleið. Það inniheldur tilvísanir til upprunaskjalstegund og númeri og er ekki sýnilegt notandanum.  
 
 ### <a name="3-create-warehouse-receipt"></a>3: Stofna vöruhúsamóttöku  
-Í **Vöruhúsamóttaka** glugga sækir notandi sem er ábyrgur fyrir móttöku væntanlegra upprunaskjalalína byggt á vöruhúsabeiðnum á innleið. Margar línurnar úr upprunaskjölunum er hægt að sameina í eitt Vöruhúsamóttökuskjal.  
+Á síðunni **Vöruhúsamóttaka** sækir notandi sem er ábyrgur fyrir móttöku væntanlegra upprunaskjalalína byggt á vöruhúsabeiðnum á innleið. Margar línurnar úr upprunaskjölunum er hægt að sameina í eitt Vöruhúsamóttökuskjal.  
 
 Notandinn fyllir út **Magn til afgreiðslu** reitinn og velur móttökusvæðið og hólf, ef nauðsynlegt er.  
 
@@ -106,7 +106,7 @@ Notandinn sem er ábyrgur fyrir samræmingu frágangs sækir frágangslínur vö
 Starfsmaður í vöruhúsi sem sér um frágang stofnar frágangsskjal vöruhúss, af gerðinni tínslur, byggt á bókaðri innhreyfingu vöruhúss. Að öðrum kosti er vöruhússfrágangsskjalið stofnað og úthlutað á starfsmann í vöruhúsi með ýtingu.  
 
 ### <a name="9-register-warehouse-put-away"></a>9: Skrá frágang í vöruhúsi  
-Í hverri línu fyrir vöru sem hefur verið gegnið frá, að hluta eða fullu, fyllir starfsmaður í vöruhúsi út reitinn **Magn** í glugganum **Vöruhúsafrágangur** og skráir svo vöruhúsfráganginn.  
+Í hverri línu fyrir vöru sem hefur verið gegnið frá, að hluta eða fullu, fyllir starfsmaður í vöruhúsi út reitinn **Magn** á síðunni **Vöruhúsafrágangur** og skráir svo vöruhúsfráganginn.  
 
 Vöruhúsafærslur eru búnar til og vöruhúsafrágangslínum eytt, ef að fullu meðhöndlaðar. Frágangsskjal vöruhúss er opið þar til allt magn tengdrar móttöku vöruhúss er skráð. Reiturinn **Magn frágangur** á pöntunarlínum vöruhúsamóttöku er uppfærður.  
 

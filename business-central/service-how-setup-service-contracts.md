@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a965721aef3769aa1e794c0edb9ffa48faf99541
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 09/28/2018
 2. Nýtt þjónustusamningssniðmát er stofnað.  
 3. Í reitnum **númer** er fært inn númer fyrir samningur sniðmát.  
   
-     Hafi númeraröð fyrir þjónustupantanir verið sett upp í glugganum **Þjónustukerfisgrunnur** er einnig hægt að styðja á færslulykilinn þannig að kerfið færi inn næsta lausa samningssniðmátsnúmer. Hinir reitirnir eru fylltir út, ef það á við.  
+     Hafi númeraröð fyrir þjónustupantanir verið sett upp á síðunni **Þjónustukerfisgrunnur** er einnig hægt að styðja á færslulykilinn þannig að kerfið færi inn næsta lausa samningssniðmátsnúmer. Hinir reitirnir eru fylltir út, ef það á við.  
   
 4. Á flýtiflipanum **Reikningur** er fyllt út reitinn **Kóði fyrir reikningaflokk þjónustusamninga**, **Reikningstímabil** o. s. frv. Hinir reitirnir eru fylltir út, ef það á við.  
 5. Velja aðgerðina **Þjónustuafsláttur** til að bæta við samningsafslætti.  

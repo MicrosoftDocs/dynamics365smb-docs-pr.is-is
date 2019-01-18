@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5da3967e99bf8a1d5628159a542885ffd1113a02
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b3ca863a9f4969046695e0cec16fedf6f5ac7aec
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Skilgreining kostnaðarstaði og kostnaðarhluti fyrir bókhaldslykil
@@ -39,11 +40,10 @@ Fyrir hvern fjárhagsreikning er hægt að skilgreina sjálfgefið víddargildi 
 |Kostnaðarhlutur|Enginn kóti|Kóti tilskilinn|  
 
 > [!NOTE]  
->  Til að ganga úr skugga um að fyrirfram skilgreindur kostnaðarstaður og kostnaðarhlutur sem eru sett upp í fjárhag séu sjálfkrafa færðar yfir í kostnaðarbókhald skal velja gátreitinn **Athuga fjárhagsbókanir** í glugganum.Uppsetning kostnaðarbókhalds  
+>  Til að ganga úr skugga um að fyrirfram skilgreindur kostnaðarstaður og kostnaðarhlutur sem eru sett upp í fjárhag séu sjálfkrafa færðar yfir í kostnaðarbókhald skal velja gátreitinn **Athuga fjárhagsbókanir** á síðunni Uppsetning kostnaðarbókhalds  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Kostnaðarreikningur](finance-manage-cost-accounting.md)  
-[Uppsetning kostnaðarstaða](finance-how-to-set-up-cost-centers.md)   
-[Uppsetning kostnaðarhluta](finance-how-to-set-up-cost-objects.md)  
+[Uppsetning kostnaðarbókhalds](finance-set-up-cost-accounting.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

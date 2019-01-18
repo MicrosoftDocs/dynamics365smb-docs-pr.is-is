@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 59264fada4455f3f0a40ba225d45159d2fb77194
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 652a151ff50c8492b3dc7df5d17c04ff2d00faad
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Kynning: Gera sjóðstreymisspár með því að nota fjárhagsskemu
@@ -51,7 +51,7 @@ Fjárhagsskema hefur að geyma heiti fjárhagsskema sjóðstreymis með röð af
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Setja upp Nýtt heiti fyrir fjárhagsskema  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **fjárhagsskema** og veldu síðan tengda tengilinn.  
-2.  Í glugganum **Heiti fjárhagsskema** skal velja aðgerðina **Nýtt** til að búa til nýtt sjóðstreymi á fjárhagsskema.  
+2.  Á síðunni **Heiti fjárhagsskema** skal velja aðgerðina **Nýtt** til að búa til nýtt sjóðstreymi á fjárhagsskema.  
 3.  Í reitinn **Heiti** skal færa inn **Spá**.  
 4.  Í reitnum **Lýsing** færið inn **Lýsing fyrir sjóðstremisspá**.  
 5.  Reitirnir **Sjálfgefin dálkauppsetning** og **Heiti greiningaryfirlits** eru fylltir út eftir því sem við á.  
@@ -61,8 +61,8 @@ Eftir að heiti fjárhagsskema er sett upp, skilgreinir Ken hverja línu sem bir
 
 ### <a name="to-set-up-account-schedule-lines"></a>Til að setja upp fjárhagsskemalínur  
 
-1.  Í glugganum **Heiti fjárhagsskema** skal velja nýja heiti fjárhagsskemans fyrir **Spá** sem búið var til. Á flipanum **Heim**, í flokknum **Vinna** skal velja **Breyta fjárhagsskema**.  
-2.  Í glugganum **Fjárhagsskema** skal færa hverja línu inn nákvæmlega eins og sýnt er í eftirfarandi töflu.  
+1.  Á síðunni **Heiti fjárhagsskema** skal velja nýja heiti fjárhagsskemans fyrir **Spá** sem búið var til. Á flipanum **Heim**, í flokknum **Vinna** skal velja **Breyta fjárhagsskema**.  
+2.  Á síðunni **Fjárhagsskema** skal færa inn hverja línu nákvæmlega eins og sýnt er í eftirfarandi töflu.  
 
     > [!NOTE]  
     >  Með aðgerðinni **Setja inn CF reikninga** er hægt að merkja sjóðstreymisreikninga á fljótlegan hátt úr línuriti sjóðstreymisreikninga og afrita þá í reikningsáætlunarlínur.  
@@ -79,12 +79,12 @@ Ken er nú tilbúinn að úthluta dálkaútlitinu á reikningsáætlunarheitið.
 
 ### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>Til að úthluta dálkaútlitinu á reikningsáætlunarheiti  
 
-1.  Í glugganum **Heiti fjárhagsskema** skal velja nýja **heiti** fjárhagsskemans fyrir **Spá** sem búið var til.  
+1.  Á síðunni **Heiti fjárhagsskema** skal velja **Spá** í reitnum **heiti**.  
 2.  Í reitnum **Sjálfgefin dálkauppsetning** er valið dálkauppsetninguna **Sjóðstreymi** sem á að tilnefna sem sjálfgefin dálkauppsetning.  
 
 ### <a name="to-view-and-print-the-cash-flow-forecast"></a>Til að skoða og prenta sjóðstreymisspána  
-1.  Í glugganum **Heiti fjárhagsskema** skal velja **Yfirlit** aðgerðina til að skoða sjóðstreymisspá.  
-2.  Í glugganum **Fjárhagsskemayfirlit** er hægt að velja upphæð og síðan skoða sjóðstreymisspáfærslur sem mynda upphæðina. Auk þess er hægt að skoða reikniregluna sem er notuð til að reikna upphæðina. Einnig er hægt að afmarka upphæðir eftir dagsetningu og vídd.  
+1.  Á síðunni **Heiti fjárhagsskema** skal velja **Yfirlit** aðgerðina til að skoða sjóðstreymisspá.  
+2.  Á síðunni **Yfirlit fjárhagsskema** er hægt að velja upphæð og síðan skoða sjóðstreymisspáfærslur sem mynda upphæðina. Auk þess er hægt að skoða reikniregluna sem er notuð til að reikna upphæðina. Einnig er hægt að afmarka upphæðir eftir dagsetningu og vídd.  
 3.  Veldu hnappinn **Prenta** til þess að prenta sjóðstreymisspá.  
 
 ## <a name="see-also"></a>Sjá einnig  

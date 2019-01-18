@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 95264e2f011ab22a4c83343e933bfcf69b38948a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Kynning: Útreikningur á VÍV fyrir verk
@@ -45,7 +45,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 ## <a name="calculating-wip"></a>Útreikningur á VÍV  
  Cronus hefur tekið að sér langt verk sem nær yfir nokkur skýrslutímabil. Tinna, sem er teymismeðlimur í verkefninu, reiknar út verk í vinnslu (VÍV) til að tryggja að ársreikningur fyrirtækisins verði réttur.  
 
- Tinna mun velja tiltekinn hóp verkhluta sem tekin verða með í VÍV-útreikninginn. Í glugganum **Verkhlutalínur verks** getur hún tilgreint þessar línur í dálkinum **VÍV-samtala**.  
+ Tinna mun velja tiltekinn hóp verkhluta sem tekin verða með í VÍV-útreikninginn. Á síðunni **Verkhlutalínur verks** getur hún tilgreint þessar línur í dálkinum **VÍV-samtala**.  
 
  Eftirfarandi tafla lýsir valkostunum þremur.  
 
@@ -77,10 +77,10 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
     |1310|Útilokað|  
 
 5.  Veljið aðgerðina **VÍV** og svo aðgerðina **Reikna VÍV**.  
-6.  Í glugganum **Reikna út VÍG** er hægt að velja verk sem á að reikna VÍV fyrir. Á flýtiflipanum **Verk** skal velja **Deerfield** í reitnum **Nr.**. .  
+6.  Á síðunni **Reikna út VÍG** er hægt að velja verk sem á að reikna VÍV fyrir. Á flýtiflipanum **Verk** skal velja **Deerfield** í reitnum **Nr.**. .  
 7.  Í reitnum **Bókunardags.** færið inn dagsetningu sem er síðar en vinnudagsetningu.
 8.  Fært er inn **1** í reitinn **Númer fylgiskjals**. Þetta stofnar skjal sem síðar er hægt að vísa í fyrir rekjanleika.  
-9. Veldu hnappinn **Í lagi** til að ræsa keyrsluna. Skilaboð birtast. Velja hnappinn **Í lagi** til að halda áfram. Glugganum **Verkhlutalínur** er lokað.  
+9. Veldu hnappinn **Í lagi** til að ræsa keyrsluna. Skilaboð birtast. Velja hnappinn **Í lagi** til að halda áfram. Lokaðu síðunni **Verkhlutalínur**.  
 
     > [!NOTE]  
     >  Skilaboðin tilgreina að um viðvaranir sé að ræða sem tengjast VÍV-útreikningnum. Fara þarf yfir viðvaranirnar í næsta ferli.  
@@ -93,7 +93,7 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VÍV-stjórnklefi verks** og veldu síðan tengda tengilinn.  
 2.  Veljið verkið **Deerfield** og svo er valin aðgerðin **Sýna**.  
-3.  Í glugganum **VÍV-viðvaranir verks** skal fara yfir viðvörunina sem tengist verkinu.  
+3.  Á síðunni **VÍV-viðvaranir verks** skal fara yfir viðvörunina sem tengist verkinu.  
 
  Eftir bókhaldstímabilið þarf Tinna að endurreikna VÍV til að taka með þá vinnu sem unnin hefur verið.  
 
@@ -101,10 +101,10 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
 1.  Á spjaldinu **Verk**, skal velja**VÍV-færslur** til að skoða VÍV-útreikningur.  
 
-     Glugginn **VÍV-færslur verks** sýnir VÍV-færslur sem síðast voru reiknaðar fyrir verkið, jafnvel þótt VÍV hafi ekki verið bókað í fjárhaginn.  
+     Síðan **VÍV-færslur verks** sýnir VÍV-færslur sem síðast voru reiknaðar fyrir verkið, jafnvel þótt VÍV hafi ekki verið bókað í fjárhaginn.  
 
-2.  Hægt er að fylgja skrefunum í leiðbeiningunum sem útskýrir hvernig reikna á VÍV til að endurreikna VÍV. Í hvert skipti sem VÍV er reiknað er færsla stofnuð í glugganum **VÍV-færslur verks**.  
-3.  Glugganum er lokað.  
+2.  Hægt er að fylgja skrefunum í leiðbeiningunum sem útskýrir hvernig reikna á VÍV til að endurreikna VÍV. Í hvert skipti sem VÍV er reiknað er færsla stofnuð á síðunni **VÍV-færslur verks**.  
+3.  Lokaðu síðunni.  
 
 > [!NOTE]  
 >  Verk í vinnslu og samþykki eru bara reiknuð. Er ekki bókað í fjárhag. Til þess þarf að keyra keyrsluna **Bóka VÍV í fjárhag** þegar búið er að reikna VÍV og samþykki.
@@ -116,18 +116,18 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
 1.  Í listanum **Verk** er línan með verkinu **Deerfield** valin.  
 2.  Veljið aðgerðina **VÍV** og svo aðgerðina **Bóka VÍV í fjárhag**.  
-3.  Í glugganum **Verk Bóka VÍV í fjárhag** á flýtiflipanum **Verk** er **Deerfield** valið í reitnum **Nr.**. .  
+3.  Á síðunni **Verk Bóka VÍV í fjárhag** á flýtiflipanum **Verk** er **Deerfield** valið í reitnum **Nr.**. .  
 4.  Á flýtiflipanum **Valkostir** í reitnum **Fylgiskjalsnr. bakfærslu** er **1** fært inn.  
 5.  Velja hnappinn **Í lagi** til að bóka VÍV í fjárhag.  
-6.  Velja hnappinn **Í lagi** til að loka staðfestingarglugganum.  
+6.  Velja hnappinn **Í lagi** til að loka staðfestingarsíðunni.  
 
-     Eftir að gengið hefur verið frá bókun er hægt að skoða upplýsingar um bókun í glugganum **Fjárhagsfærslur VÍV**.  
+     Eftir að gengið hefur verið frá bókun er hægt að skoða upplýsingar um bókun á síðunni **Fjárhagsfærslur VÍV**.  
 
 7.  Á listanum **Verk** er verkinu **Deerfield** valin og svo er valin aðgerðin **VÍV fjárhagsfærslur**.  
 
-     Í glugganum **VÍV-fjárhagsfærslur verks** er hægt að staðfesta að VÍV hafi verið bókað í fjárhag.  
+     Á síðunni **VÍV-fjárhagsfærslur verks** er hægt að staðfesta að VÍV hafi verið bókað í fjárhag.  
 
-8.  Glugganum er lokað.  
+8.  Lokaðu síðunni.  
 9. Spjaldið **Verk** fyrir verkið **Deerfield** er opnað.  
 10. Á flýtiflipanum **VÍV og samþykki** skal athuga að í dálkinum **Bókað** er reiturinn **Samþ. fjárhagsupph. kostnaðar** nú útfylltur, sem þýðir að það tókst að bóka VÍV í fjárhag.  
 11. Velja hnappinn **Í lagi** til að loka spjaldinu.  
@@ -139,16 +139,16 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
 
 1.  Í listanum **Verk** er línan með verkinu **Deerfield** valin.  
 2.  Veljið aðgerðina **VÍV** og svo aðgerðina **Bóka VÍV í fjárhag**.  
-3.  Í glugganum **Verk Bóka í VÍV í fjárhag** á flýtiflipanum **Verk** er **Deerfield** valið í reitnum **Nr.**. .  
+3.  Á síðunni **Verk Bóka í VÍV í fjárhag** á flýtiflipanum **Verk** er **Deerfield** valið í reitnum **Nr.**. .  
 4.  Á flýtiflipanum **Valkostir** í reitnum **Fylgiskjalsnr. bakfærslu** er **1** fært inn.  
 5.  Í reitnum **Bókunardags. bakfærslu** er færð inn upprunaleg bókunardagsetningu. Það ætti að vera sama dagsetning og notuð var til að reikna VÍV í fyrsta sinn.  
 6.  Gátreiturinn **Eingöngu bakfæra**. Þetta bakfærir bókað VÍV, en bókar ekki nýtt VÍV í fjárhaginn.  
-7.  Velja hnappinn **Í lagi** til að keyra runuvinnsluna og velja svo **Í lagi** til að loka staðfestingarglugganum.  
+7.  Velja hnappinn **Í lagi** til að keyra runuvinnsluna og velja svo **Í lagi** til að loka staðfestingarsíðunni.  
 8.  Spjaldið **Verk** fyrir **Deerfield** er opnað.  
 9. Á flýtiflipanum **VÍV og samþykki** skal staðfesta að engar bókaðar VÍV-færslur séu til staðar.  
-10. Glugganum er lokað.  
+10. Loka þessari síðu.  
 11. Á listanum **Verk** er verkinu **Deerfield** valin og svo aðgerðin **VÍV** og síðan valin aðgerðin **VÍV fjárhagsfærslur**. VÍV-færslur hafa gátreitinn **Bakfært** valinn.  
-12. Glugganum er lokað.  
+12. Loka þessari síðu.  
 13. Opna skal **Verkhlutalínur verks**, taka þá hluta með sem eiga að vera með í VÍV-útreikningnum og endurreikna og bóka nýja virðið í fjárhaginn.  
 
     > [!NOTE]  

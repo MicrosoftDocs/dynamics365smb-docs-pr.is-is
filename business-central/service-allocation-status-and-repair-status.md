@@ -13,21 +13,21 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 014ede5232017bb090fa6cd33816064a6c4b99b8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="allocation-status-and-repair-status-of-service-items"></a>Úthlutunarstaða og viðgerðarstaða | Microsoft Docs
-Viðgerðarstaða þjónustuvöru og úthlutarstaða úthlutunarfærslna vegna þjónustuvöru tengjast á vissan hátt í Þjónustukerfi. Úthlutunarstaðan breytist þegar viðgerðarstöðu þjónustuvöru er breytt úr  **Lokið** eða  **Hluta þjónustu lokið** og þegar þjónustutilboði er breytt í þjónustupöntun. Viðgerðarstaða þjónustuvöru breytist þegar hætt er við úthlutun þjónustuvöru eða henni er endurúthlutað til annars forða. Hægt er að skoða viðgerðastöðu þjónustuvöru í glugganum **Þjónustuverk** og hægt er að uppfæra viðgerðarstöðu í **Kóti viðgerðastöðu** í glugganum **Þjónustuvörublað**. Hægt er að skoða úthlutunarstöðuna í reitnum **Staða** í glugganum **Úthlutun forða**.  
+# <a name="allocation-status-and-repair-status-of-service-items"></a>Úthlutunarstaða og viðgerðarstaða
+Viðgerðarstaða þjónustuvöru og úthlutarstaða úthlutunarfærslna vegna þjónustuvöru tengjast á vissan hátt í Þjónustukerfi. Úthlutunarstaðan breytist þegar viðgerðarstöðu þjónustuvöru er breytt úr  **Lokið** eða  **Hluta þjónustu lokið** og þegar þjónustutilboði er breytt í þjónustupöntun. Viðgerðarstaða þjónustuvöru breytist þegar hætt er við úthlutun þjónustuvöru eða henni er endurúthlutað til annars forða. Hægt er að skoða viðgerðastöðu þjónustuvöru á síðunni **Þjónustuverk** og hægt er að uppfæra viðgerðarstöðu í **Kóti viðgerðastöðu** á síðunni **Þjónustuvörublað**. Hægt er að skoða úthlutunarstöðuna í reitnum **Staða** á síðunni **Úthlutun forða**.  
   
 ## <a name="changing-repair-status"></a>Viðgerðarstöðu breytt  
 Þegar viðgerðarstöðu þjónustu vöru er breytt í þjónustuvörulínu leitar forritið að samsvarandi úthlutunarfærslu fyrir þessa þjónustuvöru sem hefur stöðuna **Virk**. Ef úthlutunarfærslan finnst er staðan uppfærð á einn af eftirfarandi háttum:  
   
 * Ef viðgerðarstaðan breytist í **Lokið** breytir forritið úthlutunarstöðunni úr **Virk** í **Lokið**.  
 * Ef viðgerðarstaðan breytist í **Hluta þjónustu lokið** (hluti vinnunnar er búinn) eða **Verki vísað** (engin vinna hafin) breytir forritið úthlutunarstöðunni úr **Virk** í **Þarf að endurúthluta**.  
-* Ef úthlutunarfærsla þjónustupöntunar er búin til og gefið er til kynna að engum forða hafi verið úthlutað stillir kerfið **Stöðu** reits í glugganum **Úthlutun forða** á  **Óvirkt**.  
+* Ef úthlutunarfærsla þjónustupöntunar er búin til og gefið er til kynna að engum forða hafi verið úthlutað stillir kerfið **Stöðu** reits á síðunni **Úthlutun forða** á **Óvirkt**.  
 * Staða úthlutunarfærslu er stillt á **Hætt við** ef þjónustuvöru sem vísað er til í úthlutunarfærslu er endurúthlutað, sem gefur til kynna að úthlutaður forði eða forðaflokkur hafi ekki reynt þjónustuverkhlutann.  
   
 úthlutunarstaðan ber með sér hvort þjónustuverki sé lokið eða hvort annan forða þurfi til þess að ljúka viðkomandi þjónustu.  

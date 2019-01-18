@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3eb90611939dce2134d9413812918c2afb82c083
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-objects"></a>Uppsetning kostnaðarhluta
@@ -27,7 +27,7 @@ Kostnaðurhlutir eru verkefni, afurðair eða þjónustur fyrirtækis. Myndrit k
 * Stofna nýjan kostnaðarhlut sem er óháður fjárhagnum eða bæta nýjum kostnaðarhlut við kostnaðarhlut sem fyrir er. Stofna þarf hvern kostnaðaríhlut sérstaklega.  
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Til að flytja víddargildi úr fjárhag í kostnaðarhluti  
-1.  Stilla vídd sem á að vera kostnaðarliðarvíddin í glugganum **Uppfæra CA víddir**. Aðeins gildi úr þessari vídd er flutt.  
+1.  Stilla vídd sem á að vera kostnaðarliðarvíddin á síðunni **Uppfæra CA víddir**. Aðeins gildi úr þessari vídd er flutt.  
 2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit yfir kostnaðarhluti** og veldu síðan tengda tengilinn.  
 3.  Veljið aðgerðina **Sækja kostnaðarhluti úr vídd** til að flytja víddargildi í myndriti kostnaðarhlutanna. Aðgerðin flytur víddargildin sem skilgreind voru í skrefi 1.  
 
@@ -36,10 +36,10 @@ Kostnaðurhlutir eru verkefni, afurðair eða þjónustur fyrirtækis. Myndrit k
 
 Myndrit kostnaðarhluta inniheldur nú öll tilgreind víddargildi úr fjárhag og inniheldur titla og samtölur.  
 
-## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-window"></a>Til að stofna nýja kostnaðarhluti í glugganum myndrit fyrir kostnaðarliði.  
-Hægt er að setja upp og vinna með kostnaðarliði í **Kostnaðarliðaspjald** spjaldinu eða í glugganum **Myndrit fyrir kostnaðarliði**. Í þessu ferli eru settir upp kostnaðarliðir í glugganum **Myndrit fyrir kostnaðarliði**.  
+## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Til að stofna nýja kostnaðarhluti á síðunni myndrit fyrir kostnaðarliði  
+Hægt er að setja upp og vinna með kostnaðarliði í **Kostnaðarliðaspjald** spjaldinu eða á síðunni **Myndrit fyrir kostnaðarliði**. Í þessu ferli eru settir upp kostnaðarliðir á síðunni **Myndrit fyrir kostnaðarliði**.  
 
-1.  Opna gluggann **myndrit yfir kostnaðarliði** í breytingarstillingu.  
+1.  Opnaðu síðuna **Myndrit yfir kostnaðarliði** í breytingarstillingu.  
 2.  Í reitinn **Kóði** er færður inn kóti kostnaðarliða. Allir kostnaðarhlutir verða að hafa kóta.  
 3.  Í reitinn **Heiti** er færður inn heiti kostnaðarliða.  
 4.  Velja fellilistaörina í reitnum **Línugerð** til að tilgreina tilgang kostnaðarhlutarins.  

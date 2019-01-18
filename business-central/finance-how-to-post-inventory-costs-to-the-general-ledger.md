@@ -12,16 +12,16 @@ ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d6df6884ef5cf8fce96ec1f5bc5ca91bdbd3ede7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0e9b610d54f955c3dec9cba6b2327a74663288a2
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Afstemma birgðakostnað í fjárhag
 Þegar birgðafærslur, til dæmis söluafhending, innkaupareikningur eða birgðaleiðrétting eru bókaðar eru breytingar á kostnaði hinnar leiðréttu vöru skráðar í virðisfærslum birgða. Til að endurspegla þessar breytingar á birgðavirði í ársreikningum, er birgðakostnaður bókaður sjálfkrafa á tengda birgðareikninga í fjárhag. Fyrir hverja birgðafærslu sem er bókuð er viðeigandi gildi bókað í birgðareikninginn, leiðréttingarreikninginn og KSV-reikninginn í fjárhagnum.
 
-Sjálfvirk kostnaðarbókun er skilgreind í reitnum **Sjálfvirk kostnaðarbókun** í glugganum **Uppsetning birgða**.
+Sjálfvirk kostnaðarbókun er skilgreind í reitnum **Sjálfvirk kostnaðarbókun** á síðunni **Uppsetning birgða**.
 
 Þó svo birgðakostnaður sé bókaður sjálfkrafa í fjárhag þarf samt að tryggja að kostnaður vara sé framsendur á viðeigandi sölufærslur á útleið, sérstaklega þar sem vörur eru seldar áður en reikningur er gefinn út fyrir kaupunum. Í kerfinu er þetta kallað kostnaðarleiðrétting. Vörukostnaður er sjálfkrafa leiðréttur þegar vörufærslur eru bókaðar en einnig er hægt að leiðrétta vörukostnað handvirkt. Nánari upplýsingar eru í [Leiðrétta kostnað](inventory-how-adjust-item-costs.md).
 
@@ -37,7 +37,7 @@ Hægt er að sjá lista af villum áður en bókunarrunuvinnslan er keyrð með 
 Til að fá yfirlit yfir það hvaða gildi var hægt að bóka í fjárhaginn án þess að framkvæma bókunina er hægt að keyra keyrsluna **Bóka birgðabreytingar** án þess að bóka gildin raunverulega í fjárhaginn. Hægt er að gera þetta með því að taka hakið úr reitnum **Bóka** á beiðnisíðunni. Á þennan hátt framleiðir kerfið bara skýrslu sem sýnir gildin sem eru tilbúin til bókunar í fjárhaginn þegar keyrslan er keyrð, en eru ekki bókuð.
 
 ## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Endurskoða afstemmingu á milli birgðabókar og fjárhags.
-Glugginn **Birgðir - Fjárhagsafstemmingar** veitir eftirfarandi:
+Síðan **Birgðir - Fjárhagsafstemmingar** veitir eftirfarandi:
 
 - Sýnir mun á afstemmingu með því að bera saman skráningar í fjárhag og birgðahöfuðbók (virðisfærslur).
 - Sýnir óafstemmdar kostnaðarupphæðir í virðisfærslum í fjárhag eins og þeim væri varpað í samsvarandi birgðatengda reikninga í fjárhag og ber saman við samtölur sem raunverulega eru skráðar í sömu reikninga í fjárhag.
@@ -57,11 +57,11 @@ Dálkurinn **Samtala** sýnir summu (feitletraða) virðisfærsluupphæða í þ
 
 Dálkurinn **Mismunur** sýnir muninn á gildinu í reitunum **Samtala fjárhags** og **Samtala**.
 
-Efst í glugganum **Birgðir - Afstemming fjárhags** er hægt að færa inn afmarkanir til að afmarka t.d. tímabil sem sækja á upplýsingar fyrir.
+Efst á síðunni **Birgðir - Afstemming fjárhags** er hægt að færa inn afmarkanir til að afmarka t.d. tímabil sem sækja á upplýsingar fyrir.
 
 Ef gátmerki er sett í reitinn **Sýna viðvörun** og misræmi er á milli birgðasamtala og fjárhagssamtala birtir kerfið skilaboð í **Viðvörun** reit grindarinnar þar sem misræmið er útskýrt. Ef viðvörunarreiturinn er valinn birtir kerfið meiri upplýsingar um merkingu viðvörunarinnar.
 
-Þegar þú hefur fært inn allar viðeigandi afmarkanir, skal velja **Sýna fylki** aðgerðina. Gögnin eru reiknuð og fylkisglugginn kemur upp.
+Þegar þú hefur fært inn allar viðeigandi afmarkanir, skal velja **Sýna fylki** aðgerðina. Gögnin eru reiknuð og fylkjasíðan opnast.
 
 Í dálkinum lengst til vinstri í grindinni sjást ýmsar tegundir fjárhagsreikninga sem tengjast birgðunum. Grindin sýnir því næst reikningsfærðar, óreikningsfærðar og VÍV birgðasamtölur fyrir hverja reikningstegund. Þessar samtölur eru reiknaðar út frá virðisfærslum.
 

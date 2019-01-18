@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Vinna með standandi sölupantanir
@@ -42,7 +42,7 @@ Dæmi um hvenær standandi sölupöntun er hægt að nota er ef viðskiptamaður
 2.  Þegar komið er að því að stofna pantanir skal velja aðgerðina **Búa til pöntun** og síðan velja **Já**. Skilaboð birtast um að standandi pöntunin hafi fengið pöntunarnúmer. Takið eftir að standandi pöntuninni hefur ekki verið eytt.  
 3.  Velja hnappinn **Í lagi**.  
 4.  Til að birta niðurstöður fyrri skrefa skal velja aðgerðina **, Lína**, velja **Óbókaðar línur**, og velja síðan aðgerðina **Pantanir**.  
-5.  Í glugganum **Sölulínur** er viðeigandi sölupöntun valin, velja aðgerðina **Lína** og velja svo **Sýna fylgiskjal** aðgerðina.  
+5.  Á síðunni **Sölulínur** er viðeigandi sölupöntun valin, velja aðgerðina **Lína** og velja svo **Sýna fylgiskjal** aðgerðina.  
 
 Eftirfarandi á við sölupantanir eftir að þær hafa verið stofnaðar úr standandi sölupöntunum:  
 
@@ -53,14 +53,14 @@ Eftirfarandi á við sölupantanir eftir að þær hafa verið stofnaðar úr st
 - Þegar innkaupapantanir eru ekki stofnaðar beint upp úr standandi pöntun en tengjast henni eigi að síður er hægt að koma á tengingu milli innkaupapöntunar og standandi pöntunar með því að skrá númer tengdrar standandi pöntunar í **Standandi pöntun nr.** reitinn í sölupöntunarlínunni.  
 - Eftir að sölupöntunin hefur verið stofnuð fyrir heildarmagn standandi pöntunarlínu, verður ekki hægt að stofna neina aðra sölupöntun fyrir sömu línu. Notendur eru hindraðir frá því að færa magn inn í reitinn **Magn til afhendingar**. Ef hins vegar þarf að bæta viðbótarmagni við standandi pöntun er hægt að hækka gildið í reitnum **Magn** og svo stofna viðbótarpantanir.  
 - Reikningsfærða standandi pöntunin er til staðar í kerfinu þangað til henni er eytt annað hvort með því að eyða hverri standandi pöntun fyrir sig eða með keyrslunni **Eyða reikningsfærðum standandi sölupöntunum**.  
-- Ef viðskiptamaður er einnig skráður sem tengiliður í kerfishlutanum Tengslagrunnur og ef kóti samskiptasniðmáts fyrir standandi söluvörupöntun hefur verið skilgreindur í glugganum **Tengslagrunnur** eru samskipti skráð sjálfkrafa í töfluna Skráningarfærsla samskipta þegar smellt er á **Prenta** til að prenta standandi söluvörupöntunina.
+- Ef viðskiptamaður er einnig skráður sem tengiliður í kerfishlutanum Tengslagrunnur og ef kóti samskiptasniðmáts fyrir standandi söluvörupöntun hefur verið skilgreindur á síðunni **Tengslagrunnur** eru samskipti skráð sjálfkrafa í töfluna Skráningarfærsla samskipta þegar smellt er á **Prenta** til að prenta standandi söluvörupöntunina.
 
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Staða standandi innkaupapantana skoðuð:  
-Hægt er að skoða stöðu standandi sölupantana í glugganum **Upplýsingar um standandi sölupöntun**. Þetta gæti skipt máli þegar byrjað er að reikningsfæra pöntunina sem búin er til úr standandi innkaupapöntuninni.  
+Hægt er að skoða stöðu standandi sölupantana á síðunni **Upplýsingar um standandi sölupöntun**. Þetta gæti skipt máli þegar byrjað er að reikningsfæra pöntunina sem búin er til úr standandi innkaupapöntuninni.  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Standandi innkaupapantanir** og veldu síðan tengda tengilinn.  
 2.  Velja Standandi innkaupapöntun og velja síðan aðgerðina **Upplýsingar**.  
-3.  Í glugganum **Upplýsingar um standandi innkaupapöntun** á flýtiflipanum **Almennt** er hægt að sjá samantekt á allri pöntuninni byggða á heildarmagni í ýmsum **magnreitum** í línum standandi innkaupapöntunarinnar.  
+3.  Á síðunni **Upplýsingar um standandi innkaupapöntun** á flýtiflipanum **Almennt** er hægt að sjá samantekt á allri pöntuninni byggða á heildarmagni í ýmsum **magnreitum** í línum standandi innkaupapöntunarinnar.  
 
     - Á flýtiflipanum **Reikningsfærsla** er hægt að sjá samantekt byggða á heildarmagni í reitunum **Magn til reikningsf.** í línum standandi innkaupapöntunarinnar.  
     - Á flýtiflipanum **Afhending** er hægt að sjá samantekt byggða á heildarmagni í reitunum **Magn til móttöku** í línum standandi innkaupapöntunarinnar.  
@@ -120,7 +120,7 @@ Tengingin milli standandi sölupöntunar og upphaflegrar sölupöntunar, og allr
     <td>Bókaðir kreditreikningar sem tengdir hafa verið við völdu línuna.</td>
     </tr>
     </table>
-5. Í glugganum **Sölulínur** skal velja aðgerðina **Sýna fylgiskjal** til að skoða færsluna.
+5. Á síðunni **Sölulínur** skal velja aðgerðina **Sýna fylgiskjal** til að skoða færsluna.
 
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  

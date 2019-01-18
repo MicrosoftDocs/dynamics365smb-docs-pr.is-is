@@ -1,6 +1,6 @@
 ---
 title: "Hvernig á að stofna Þjónustupantanir | Microsoft Docs"
-description: "Hægt er að nota gluggann **Þjónustupöntun** til að stofna skjöl þar sem hægt er að færa inn upplýsingar um þjónustu, s.s. viðgerðir og viðhald, á þjónustuvörum að beiðni viðskiptamanns."
+description: "Hægt er að nota síðuna **Þjónustupöntun** til að stofna skjöl þar sem hægt er að færa inn upplýsingar um þjónustu, s.s. viðgerðir og viðhald, á þjónustuvörum að beiðni viðskiptamanns."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 92cfc39fffeb616e69dcd4b32a83b44197c6fa27
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: feef01ffa2afa33a91b5db26c94842699c215dab
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-orders"></a>Stofna þjónustupantanir
-Hægt er að nota gluggann **Þjónustupöntun** til að stofna skjöl þar sem hægt er að færa inn upplýsingar um þjónustu, s.s. viðgerðir og viðhald, á þjónustuvörum að beiðni viðskiptamanns.  
+Hægt er að nota síðuna **Þjónustupöntun** til að stofna skjöl þar sem hægt er að færa inn upplýsingar um þjónustu, s.s. viðgerðir og viðhald, á þjónustuvörum að beiðni viðskiptamanns.  
 
 Þegar stofnuð er þjónustupöntun þarf aðeins að fylla út í örfáa reiti. Sumir reitir eru valkvæðir og margir fyllast út sjálfkrafa þegar tengdir reitir eru fylltir út.  
 
@@ -29,11 +29,11 @@ Hægt er að nota gluggann **Þjónustupöntun** til að stofna skjöl þar sem 
 2. Ný þjónustupöntun er stofnuð.  
 3. Í reitnum **númer** er fært inn númer fyrir þjónustupöntunina.  
 
-     Hafi númeraröð fyrir þjónustupöntun verið sett upp í glugganum **Þjónustukerfisgrunnur** er einnig hægt að styðja á færslulykilinn til að velja næsta lausa þjónustupöntunarnúmer.  
+     Hafi númeraröð fyrir þjónustupöntun verið sett upp á síðunni **Þjónustukerfisgrunnur** er einnig hægt að styðja á færslulykilinn til að velja næsta lausa þjónustupöntunarnúmer.  
 
 4. Í **Númer viðskiptamanns** reitnum, veljið viðeigandi viðskiptamann af listanum. Fyllt er í viðskiptamannareiti með upplýsingum úr töflunni **Viðskiptamaður**.  
 
-5. Vegna stillinga á flýtiflipanum **Áskildir reitir** í glugganum **Þjónustukerfisgrunnur** þarf kannski að fylla út reitinn **Þjónustupöntunartegund** og reitinn **Kóti sölumanns**.  
+5. Vegna stillinga á flýtiflipanum **Áskildir reitir** á síðunni **Þjónustukerfisgrunnur** þarf kannski að fylla út reitinn **Þjónustupöntunartegund** og reitinn **Kóti sölumanns**.  
 6. Aðrir reitir eru fylltir út ef þurfa þykir.  
 7. Skrá skal þjónustuvörulínur.  
 
@@ -45,7 +45,7 @@ Hægt er að stofna þjónustupantanir sjálfkrafa til viðhalds þjónustuvöru
 3. Farið er á flýtiflipann **Valkostir** og reitirnir **Upphafsdagsetning** og **Lokadagsetning** fylltir út með upphafs- og lokadagsetningu tímabilsins sem stofna á samningsþjónustupantanir fyrir. Keyrslan stofnar þjónustupantanir sem ná einnig til þjónustuvöru í þjónustusamningum með næstu áætluðu þjónustudagsetningum á tímabilinu.  
 
     > [!NOTE]  
-    >  Takmörk eru fyrir þeim dagafjölda sem má vera milli dagsetninga í hvert sinn sem keyrslan er framkvæmd. Þessi mörk eru stillt í reitnum **Hám.dagafj. samn.þjón.pantana** í glugganum **Þjónustukerfisgrunnur**.  
+    >  Takmörk eru fyrir þeim dagafjölda sem má vera milli dagsetninga í hvert sinn sem keyrslan er framkvæmd. Þessi mörk eru stillt í reitnum **Hám.dagafj. samn.þjón.pantana** á síðunni **Þjónustukerfisgrunnur**.  
 
 4. Í reitnum **Aðgerð** er valið að **Stofna þjónustupöntun**.  
 
@@ -65,9 +65,9 @@ Hægt er aðgæta hvort vara sem þörf er á til að hægt að á anna pöntun 
 2. Gert er eitt af eftirfarandi:  
 
     * Fyrir sérstaka pöntun, velja pöntunina, og síða velja **Yfirlit yfir eftirspurn** aðgerðina.  
-    * Fyrir allar pantanir skal velja **Sýna skjal**. Glugginn **Þjónustupöntun** opnast.  
+    * Fyrir allar pantanir skal velja **Sýna skjal**. Síðan **Þjónustupöntun** opnast.  
 
-3. Í glugganum **Yfirlit yfir eftirspurn** stækkið vöruflokkin og skoðið upplýsingar um ráðstöfunarbirgðir vörunar. Til dæmis er hægt að sjá hversu margar vörur eru í birgðum. Einnig er hægt að sjá hvort og þegar vara verður tiltæk ef hún er í biðpöntun, þ. e. Tegund uppruna = Innkaup, eða hvort hún hafi verið tekin frá.
+3. Í glugganum **Yfirlit yfir eftirspurn** stækkið vöruflokkinn og skoðið upplýsingar um framboð vörunar. Til dæmis er hægt að sjá hversu margar vörur eru í birgðum. Einnig er hægt að sjá hvort og þegar vara verður tiltæk ef hún er í biðpöntun, þ. e. Tegund uppruna = Innkaup, eða hvort hún hafi verið tekin frá.
 
 ## <a name="to-reserve-an-item-for-a-service-order"></a>Til að taka frá vöru fyrir þjónustupöntun
 Ef þú þarft að vera viss um að vara sé tiltæk fyrir þjónustupöntun, geturðu tekið vöruna frá.
@@ -75,8 +75,8 @@ Ef þú þarft að vera viss um að vara sé tiltæk fyrir þjónustupöntun, ge
 1. Í reitnum **Leita** skal færa inn **Þjónustupantanir** og velja síðan viðkomandi tengi.  
 2. Veljið þjónustupöntunina og velja svo **Breyta**.  
 3. Velja **Aðgerðir**, velja **Röð** og smella síðan á **Þjónustulínur**.  
-4. Í glugganum **Þjónustulínur** skal velja vöruna sem á að taka frá og velja svo **Taka frá** aðgerðina.  
-5. Í glugganum **Frátekning** skal velja **Taka frá í gildandi línu**.
+4. Á síðunni **Þjónustulínur** skal velja vöruna sem á að taka frá og velja síðan **Taka frá** aðgerðina.  
+5. Á síðunni **Frátekning** skal velja **Taka frá í gildandi línu**.
 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Setja inn línur byggðar á staðlaðir þjónustukóðar  
 Ef staðlaðir þjónustukótar hafa verið settir upp og þeim verið úthlutað fyrir þjónustuvöruflokka er hægt að setja inn staðlaðar línur tengdar stöðluðum þjónustukótum í þjónustuskjölum. Frekari upplýsingar eru í [Setja upp staðlaða þjónustukóða](service-how-setup-service-coding.md).   
@@ -85,21 +85,21 @@ Ef staðlaðir þjónustukótar hafa verið settir upp og þeim verið úthluta�
 2. Ný þjónustupöntun er stofnuð.  
 3. Fyllið inn í svæðin eftir þörfum.  
 4. Fylla út þjónustuvörulínur með nauðsynlegum upplýsingum.  
-5. Velja skal línuna með þjónustuvörunni sem á að stofna þjónustulínur fyrir og velja síðan **Sækja staðl. þjónustukóta**. Glugginn **Fl.kóti staðl. þjón.vöru** opnast með stöðluðum kótum fyrir þjónustuvöruflokkinn sem tilgreindur er í línunni.  
+5. Velja skal línuna með þjónustuvörunni sem á að stofna þjónustulínur fyrir og velja síðan **Sækja staðl. þjónustukóta**. Síðan **Fl.kóti staðl. þjón.vöru** opnast með stöðluðum kótum fyrir þjónustuvöruflokkinn sem tilgreindur er í línunni.  
 6. Viðeigandi kóti er valinn og síðan smellt á **Í lagi** hnappinn til þess að færa inn staðlaðar þjónustulínur.  
 
 > [!NOTE]  
->  Ef reiturinn **Þjónustuvöruflokkskóti** í þjónustuskjalinu er auður merkir það að þjónustuvaran tilheyri engum þjónustuvöruflokki. Ef svo er inniheldur glugginn **Fl.kótar staðlaðrar þjónustuvöru** lista yfir þjónustukóta. Velja þarf af listanum til þess að setja staðlaðar þjónustulínur inn í skjalið. Einnig er hægt að velja af lista staðlaðra þjónustukóta sem úthlutað hefur verið fyrir tilgreindan þjónustuvöruhóp. Til þess að skoða listann er viðeigandi kóti valinn í reitnum **Þjónustuvöruflokkskóti** í glugganum **Fl.kótar staðlaðrar þjónustuvöru**.  
+>  Ef reiturinn **Þjónustuvöruflokkskóti** í þjónustuskjalinu er auður merkir það að þjónustuvaran tilheyri engum þjónustuvöruflokki. Ef svo er inniheldur síðan **Fl.kótar staðlaðrar þjónustuvöru** lista yfir staðlaða þjónustukóta. Velja þarf af listanum til þess að setja staðlaðar þjónustulínur inn í skjalið. Einnig er hægt að velja af lista staðlaðra þjónustukóta sem úthlutað hefur verið fyrir tilgreindan þjónustuvöruhóp. Til þess að skoða listann er viðeigandi kóti valinn í reitnum **Þjónustuvöruflokkskóti** á síðunni **Fl.kótar staðlaðrar þjónustuvöru**.  
 
 ## <a name="to-register-internal-or-public-comments"></a>Skráning á innanhúss eða almennar athugasemdir
 Þú getur bætt við athugasemdum sem verða prentaðar á þjónustupantanir og þjónustutilboð til að bjóða upp á viðbótarupplýsingar. Hægt er að færa inn allt að 80 stafi, með bilum. Ef færa á inn viðbótartexta er farið í næstu línu. Til að skrá athugasemd skal velja línu og síðan velja aðgerðina **Athugsemd**.  
 
 ## <a name="to-delete-invoiced-service-orders"></a>Reikningsfærðum þjónustupöntunum eytt:  
-Pöntunum er yfirleitt eytt sjálfkrafa þegar þær hafa verið reikningsfærðar til fulls. Þegar reikningur er bókaður er samsvarandi færsla stofnuð í glugganum  **Bókaðir þjónustureikningar** . Hægt er að skoða bókaða fylgiskjalið í glugganum **Bókaður þjónustureikningur**.  
+Pöntunum er yfirleitt eytt sjálfkrafa þegar þær hafa verið reikningsfærðar til fulls. Þegar reikningur er bókaður er samsvarandi færsla stofnuð á síðunni **Bókaðir þjónustureikningar** . Hægt er að skoða bókaða fylgiskjalið á síðunni **Bókaður þjónustureikningur**.  
 
-Forritið eyðir þjónustupöntun ekki sjálfkrafa ef heildarmagn pöntunarinnar hefur verið bókað í glugganum **Þjónustureikningur** en ekki í þjónustupöntuninni sjálfri. Þá þarf að eyða bókuðum pöntunum sem ekki var búið að eyða. Hægt er að gera það með því að nota keyrsluna **Eyða reikningsfærðum þjónustupöntunum**.  
+Forritið eyðir þjónustupöntun ekki sjálfkrafa ef heildarmagn pöntunarinnar hefur verið bókað af síðunni **Þjónustureikningur** en ekki í þjónustupöntuninni sjálfri. Þá þarf að eyða bókuðum pöntunum sem ekki var búið að eyða. Hægt er að gera það með því að nota keyrsluna **Eyða reikningsfærðum þjónustupöntunum**.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða reikningsfærðum þjónustupöntunum** og veldu síðan tengda tengilinn. Glugginn sem sýnir beiðni um keyrsluna **Eyða reikningsfærðum þjónustupöntunum** opnast.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða reikningsfærðum þjónustupöntunum** og veldu síðan tengda tengilinn. Síðan sem sýnir beiðni um keyrsluna **Eyða reikningsfærðum þjónustupöntunum** opnast.  
 2. Til að velja pantanirnar sem á að eyða geturðu velja afmarkanir í reitunum **Nr.**, **Númer viðskiptamanns.** og **Reikn.færist á viðskm.** Reitir  
 3. Velja **Í lagi**.  
 

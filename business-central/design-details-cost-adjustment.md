@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Hönnunarupplýsingar: kostnaðarleiðrétting
@@ -71,7 +71,7 @@ Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar]
 Kostnaðarleiðréttingu er hægt að framkvæma á tvo vegu:  
 
 * Keyra runuvinnsluna **Kostnaðarleiðrétting - Birgðafærslur** handvirkt. Hægt er að keyra þessa runuvinnslu fyrir allar vörur eða aðeins fyrir tilteknar vörur eða flokka. Runuvinnslan keyrir kostnaðarleiðréttingu fyrir vörurnar í birgðum sem færsla á innleið hefur verið stofnuð fyrir, líkt og innkaup. Fyrir vörur sem nota aðferðina Meðaltal til kostnaðarútreiknings gerir runuvinnslan einnig leiðréttingu ef einhverjar færslur á útleið eru stofnaðar.  
-* Sjálfkrafa með því að stilla kostnaði í hvert skipti sem þú bókar birgðafærslu og þegar þú hefur lokið við framleiðslupöntun. Kostnaðarleiðrétting er aðeins keyrt fyrir tiltekna vöru eða vörur sem verða fyrir áhrifum af bókun. Þetta er sett upp þegar gátreiturinn **Sjálfvirk kostnaðarleiðrétting** er valinn í **Uppsetning birgða** glugganum.  
+* Sjálfkrafa með því að stilla kostnaði í hvert skipti sem þú bókar birgðafærslu og þegar þú hefur lokið við framleiðslupöntun. Kostnaðarleiðrétting er aðeins keyrt fyrir tiltekna vöru eða vörur sem verða fyrir áhrifum af bókun. Þetta er sett upp þegar gátreiturinn **Sjálfvirk kostnaðarleiðrétting** er valinn á síðunni **Uppsetning birgða**.  
 
 Það er gott að keyra kostnaðarleiðréttingu sjálfkrafa við bókun þar sem kostnaðarverð er oftar uppfært og því réttara. Ókosturinn er að afköst af gagnagrunninum getur haft áhrif með því að keyra kostnaðarleiðréttingu svo oft.  
 
@@ -79,7 +79,7 @@ Kostnaðarleiðréttingu er hægt að framkvæma á tvo vegu:
 
 Hvort sem þú keyrir kostnaðarjöfnun handvirkt eða sjálfvirkt, jöfnunarferlið og afleiðingar þess eru þau sömu. [!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar virði færslna á innleið og áframsendir kostnaðinn á allar færslur á útleið, svo sem sölu eða notkun, sem hefur verið beitt á færslu á innleið Kostnaðarleiðrétting stofnar gildisfærslur sem innihalda leiðréttingarfjárhæðir og upphæðir sem bæta fyrir sléttun.  
 
-Nýja leiðréttingin og jöfnunargildafærslurnar eru með bókunardagsetningu tengda reikningsins. Undantekningar eru ef virðisfærslurnar lenda á lokuðu reikningstímabil eða bókhaldstímabili eða ef bókunardagsetningin er á undan dagsetningunni í reitnum **Bókun leyfð frá** í glugganum **Fjárhagsgrunnur**. Ef þetta gerist úthlutar runuvinnslan bókunardagsetningu sem fyrstu dagsetningu næsta opna tímabils.  
+Nýja leiðréttingin og jöfnunargildafærslurnar eru með bókunardagsetningu tengda reikningsins. Undantekningar eru ef virðisfærslurnar lenda á lokuðu reikningstímabil eða bókhaldstímabili eða ef bókunardagsetningin er á undan dagsetningunni í reitnum **Bókun leyfð frá** á síðunni **Fjárhagsgrunnur**. Ef þetta gerist úthlutar runuvinnslan bókunardagsetningu sem fyrstu dagsetningu næsta opna tímabils.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Leiðrétta kostnað - Birgðafærslur  
 Þegar runuvinnslan **Kostnaðarleiðrétting - Birgðafærslur** er keyrð hefurðu þann valkost að keyra runuvinnsluna fyrir allar vörur eða aðeins fyrir tilteknar vörur eða flokka.  
@@ -143,7 +143,7 @@ Seinna er tengdur kostnaðarauki innaupa upp á SGM 2,00 reikningsfærður 02-10
 |01-15-20|[Kostnaður seldra vara]|7290||2,00|8|  
 
 ## <a name="automatic-cost-adjustment"></a>Sjálfvirk kostnaðarleiðrétting  
-Til að setja upp kostnaðarleiðrétting til að keyra sjálfkrafa þegar þú bókar birgðafærslu, nota **Sjálfvirk kostnaðarleiðrétting** reit í **Uppsetning birgða** glugga. Með þessum reit er hægt að velja hversu langt aftur í tímann frá núverandi vinnudegi sjálfvirk kostnaðarleiðrétting á að eiga sér stað. Eftirfarandi möguleikar eru til staðar.  
+Til að setja upp kostnaðarleiðréttingu til að keyra sjálfkrafa þegar þú bókar birgðafærslu, skal nota reitinn **Sjálfvirk kostnaðarleiðrétting** á síðunni **Uppsetning birgða**. Með þessum reit er hægt að velja hversu langt aftur í tímann frá núverandi vinnudegi sjálfvirk kostnaðarleiðrétting á að eiga sér stað. Eftirfarandi möguleikar eru til staðar.  
 
 |Valkostur|Description|  
 |----------------------------------|---------------------------------------|  

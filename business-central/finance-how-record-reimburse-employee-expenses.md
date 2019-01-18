@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75e2615dfd7af8ec6269affb0a61f75adf1c6d97
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 30d10c443bd69acfec9a30bacef5a8f0d8aece3f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Skrá og endurgreiða starfsmannaútgjöld
@@ -28,18 +28,21 @@ ms.lasthandoff: 09/28/2018
 Ef starfsmenn eyða sínum eigin peningum í viðskiptaerindum, er hægt að bóka útgjöldin á reikning starfsmanns. Þá geturðu endurgreitt starfsmanninum með því að framkvæma greiðslu inn á bankareikning starfsmannsins, á svipaðan hátt og þú borgar lánardrottnum.
 
 ## <a name="to-record-an-employees-expense"></a>Skrá útgjöld starfsmanns
-Útgjöld starfsmanna eru bókuð í **Færslubók** glugga
+Útgjöld starfsmanna eru bókuð á síðunni **Færslubók**.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Færslubækur** og veldu síðan tengda tengilinn.
 2. Viðeigandi færslubók keyrsla er opnaður. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
 3. Fyllið í reitina eftir þörfum í nýrri færslubókarlínu. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
+
+    > [!NOTE]
+    > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
 4. Endurtakið skref 3 fyrir öll útgjöld sem starfsmaður hefur stofnað til.
 
     > [!TIP]  
-    > Ef þú vilt færa inn fleiri kostnaðarlínur fyrir ofan eina mótreikningslínu fyrir bankareikning starfsmanns, skaltu velja gátreitinn **Leggja til afstemmingarupphæð** á línunni fyrir þína keyrslu í glugganum **færslubókakeyrslur**. Þá verður reiturinn **Upphæð** á mótreikningslínunni sjálfkrafa fylltur út með gildinu sem er nauðsynlegt til að jafna útgjöldin.
+    > Ef þú vilt færa inn fleiri kostnaðarlínur fyrir ofan eina mótreikningslínu fyrir bankareikning starfsmanns, skaltu velja gátreitinn **Leggja til afstemmingarupphæð** á línunni fyrir þína keyrslu á síðunni **færslubókakeyrslur**. Þá verður reiturinn **Upphæð** á mótreikningslínunni sjálfkrafa fylltur út með gildinu sem er nauðsynlegt til að jafna útgjöldin.
 5. Veljið **Bóka** aðgerðina til að skrá útgjöldin á reikning starfsmanns.
 
 ## <a name="to-reimburse-an-employee"></a>Endurgreiða starfsmanni
-Þú endurgreiðir starfsmanni með því að bóka greiðslur á bankareikning hans í glugganum **greiðslubók**.
+Þú endurgreiðir starfsmanni með því að bóka greiðslur á bankareikning hans á síðunni **greiðslubók**.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslubók** og veldu síðan tengda tengilinn.
 2. Viðeigandi greiðslubók keyrsla er opnaður. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
 3. Fyllið inn í reitina eftir þörfum. Frekari upplýsingar eru í [Greiðslur framkvæmdar](payables-make-payments.md).
@@ -47,7 +50,7 @@ Ef starfsmenn eyða sínum eigin peningum í viðskiptaerindum, er hægt að bó
 5. Valið er **bóka** aðgerð til að skrá endurgreiðsluna.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Afstemma endurgreiðslur við fjárhagsfærslur starfsmanns
-Þú jafnar greiðslu til starfsmanns við tengdar og opnar fjárhagsfærslur starfsmanns á sama hátt og greiðslur til lánardrottins, til dæmis í glugganum **Greiðsluafstemmingarbók**, byggt á tengdum bankayfirlitsfærslum. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md). Einnig er hægt að jafna handvirkt í glugganum **Fjárhagsfærslur starfsmanna**. Frekari upplýsingar, sjá [Afstemma greiðslu lánardrottinss handvirkt](payables-how-apply-purchase-transactions-manually.md).  
+Þú jafnar greiðslu til starfsmanns við tengdar og opnar fjárhagsfærslur starfsmanns á sama hátt og greiðslur til lánardrottins, til dæmis á síðunni **Greiðsluafstemmingarbók**, byggt á tengdum bankayfirlitsfærslum. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md). Einnig er hægt að jafna handvirkt á síðunni **Fjárhagsfærslur starfsmanna**. Frekari upplýsingar, sjá [Afstemma greiðslu lánardrottinss handvirkt](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Sjá einnig
 [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  

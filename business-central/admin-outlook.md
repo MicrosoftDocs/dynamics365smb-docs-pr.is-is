@@ -11,17 +11,17 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6923414d6e1fb56a48c3715eaa1c2fa3c4ee9f69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6ced619dc9a43f7db0b4d78bf3de08a6dac27653
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Notkun Business Central sem fyrirtækjainnhólf í Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kynnir möguleikann á að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum, ásamt því að semja og senda fjárhagsleg skjöl, svo sem tilboð og reikninga.  
 
 ## <a name="getting-the-add-in"></a>Að fá viðbótina
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)], er eitt skrefið í uppsetningu með hjálp í Hafist handa í glugganum **Stýrðu fyrirtækinu úr Office 365**. Þegar hnappurinn **Sett upp í Outlook** er valinn þarf að tilgreina heiti Office 365 notanda og aðgangsorð í þeim glugga. Innbót [!INCLUDE[d365fin](includes/d365fin_md.md)] er þá sjálfkrafa bætt við Outlook.  
+Í [!INCLUDE[d365fin](includes/d365fin_md.md)], er eitt skrefið í uppsetningu með hjálp í Hafist handa á síðunni **Stýrðu fyrirtækinu úr Office 365**. Þegar hnappurinn **Setja upp í Outlook** er valinn þarf að tilgreina Office 365 notandaheiti og aðgangsorð á þessari síðu. Innbót [!INCLUDE[d365fin](includes/d365fin_md.md)] er þá sjálfkrafa bætt við Outlook.  
 
 Þegar þú opnar síðan Outlook muntu sjá tölvupóst frá Business Cnetral Admin. Nýju innbótinni er bætt við Outlook-borðann, og í Outlook Web Access er hægt að sjá hana í innbótarborðanum, beint fyrir ofan meginmál tölvupóstskeytisins. Viðbótin sjálf verður uppfærð reglulega og þú munt fá tilkynningu um að ný útgáfa sé tilbúin fyrir þig í Outlook.  
 
@@ -35,7 +35,7 @@ Segjum að þú fáir tölvupóst frá viðskiptavini sem vill fá tilboð í su
 
 Á sama hátt, ef þú færð tölvupóst frá seljanda geturðu notað viðbótina til að vinna með söluaðilum og kaupa reikninga.  
 
-Stundum viltu sjá fleiri reiti en þú sérð í viðbótinni, svo sem þegar þú vilt fylla út línur í reikningi. Til að fá aðeins meira vinnurými er hægt að setja innbótina í aðskilinn glugga. Hún er enn hluti af Outlook en vinnuýmið er meira. Þegar gögn eru færð inn í skjalið í aðskilda glugganum eru breytingarnar vistaðar sjálfkrafa. Þegar þú ert búinn að slá inn gögn fyrir skjalið geturðu valið **Í lagi** hnappinn. Með því að velja innbótina í Outlook endurnýjast skjalið sjálfkrafa með breytingunum sem veru gerðar í aðskilda glugganum.  
+Stundum viltu sjá fleiri reiti en þú sérð í viðbótinni, svo sem þegar þú vilt fylla út línur í reikningi. Til að fá aðeins meira vinnurými er hægt að setja innbótina í aðskilda síðu. Hún er enn hluti af Outlook en vinnuýmið er meira. Þegar gögn eru færð inn í skjalið í aðskilda glugganum eru breytingarnar vistaðar sjálfkrafa. Þegar þú ert búinn að slá inn gögn fyrir skjalið geturðu valið **Í lagi** hnappinn. Með því að velja innbótina í Outlook endurnýjast skjalið sjálfkrafa með breytingunum sem veru gerðar í aðskilda glugganum.  
 
 ## <a name="creating-invoices-from-your-meeting-appointments"></a>Búðu til reikninga frá fundum þínum
 Sum fyrirtæki skrá alla reikninga sem hægt er að greiða í Outlook dagbókinni. Með [!INCLUDE[d365fin](includes/d365fin_md.md)] getur þú búið til reikninginn fyrir viðskiptavininn rétt frá dagatalinu: Opnaðu skipunina og þá getur þú opnað [!INCLUDE[d365fin](includes/d365fin_md.md)] viðbótina, skoðað uppliggjandi upplýsingar eða búið til reikning eða annað söluskrá þarna.  
@@ -50,9 +50,9 @@ Til dæmis, ef þú færð tölvupóstskeyti sem nefnir textann *S-QUO100*, skil
 ## <a name="adding-the-add-ins-manually"></a>Bæta við viðbótunum handvirkt
 Í sumum tilfellum fá viðbætur ekki sjálfkrafa bætt við Outlook. Jafnvel þótt þú eða samstarfsmaður hljóp aðstoðaruppsetningarhandbókina fyrir hönd fyrirtækisins, gæti [!INCLUDE[d365fin](includes/d365fin_md.md)] ekki birst í Outlook. Ef þú finnur fyrir þessu vandamáli geturðu bætt við [!INCLUDE[d365fin](includes/d365fin_md.md)] viðbótunum handvirkt.  
 
-Í fyrsta lagi verður þú að staðfesta að þú hafir aðgang að viðbótunum á Office 365 reikningnum þínum. Opnaðu einfaldlega Outlook Web Access í vafra og bættu síðan `/owa/#path=/options/manageapps` við slóðina í heimilisfangi. Þetta opnar **Stjórna innbótum** gluggann, þar sem þú getur virkjað [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir Outlook. Þá, þegar þú vafrar aftur til Outlook, ætti [!INCLUDE[d365fin](includes/d365fin_md.md)] að vera tiltæk.  
+Í fyrsta lagi verður þú að staðfesta að þú hafir aðgang að viðbótunum á Office 365 reikningnum þínum. Opnaðu einfaldlega Outlook Web Access í vafra og bættu síðan `/owa/#path=/options/manageapps` við slóðina í heimilisfangi. Þetta opnast á síðunni **Stjórna viðbótum**, þar sem þú getur virkjað [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir Outlook. Þá, þegar þú vafrar aftur til Outlook, ætti [!INCLUDE[d365fin](includes/d365fin_md.md)] að vera tiltæk.  
 
-Á sama hátt í Outlook skjáborðsþjóninum getur þú staðfest að [!INCLUDE[d365fin](includes/d365fin_md.md)] er skráð í **Stjórna innbótum**.  
+Á svipaðan hátt í Outlook skjáborðsþjóninum getur þú staðfest að [!INCLUDE[d365fin](includes/d365fin_md.md)] er skráð á síðunni **Stjórna innbótum**.  
 
 Í báðum tilvikum, ef [!INCLUDE[d365fin](includes/d365fin_md.md)] er ennþá ekki tiltækt, verður þú að fá innskráningarskrárnar. Hafðu samband við kerfisstjóra Office 365 til að fá frekari upplýsingar.
 

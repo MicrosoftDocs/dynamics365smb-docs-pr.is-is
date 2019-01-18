@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Áætla frágang á vinnublöðum
@@ -29,12 +29,12 @@ Ef gátmerki er ekki sett í þennan reit eru frágangsleiðbeiningar stofnaðar
 > [!NOTE]  
 >  Óháð stöðu reitarins **Nota vinnublað frágangs** á birgðageymsluspjaldinu er alltaf hægt að sækja frágangsleiðbeiningalínur (bókaðar móttökulínur) í frágangsvinnublaðið með því að gera eftirfarandi:  
 >   
->  1.  Í glugganum **Vöruhús – frágangur** er ýtt á Ctrl+D til að eyða öllum frágangsleiðbeiningunum eða línurnar sem á að vinna með á vinnublaðinu valdar og þeim eytt.  
+>  1.  Á síðunni **Vöruhús – frágangur** er ýtt á Ctrl+D til að eyða öllum frágangsleiðbeiningunum eða línurnar sem á að vinna með á vinnublaðinu valdar og þeim eytt.  
 > 2.  Þessu er haldið áfram þar til línunum sem vinna á með á vinnublaðinu hefur verið eytt. Veljið nú **Vinnublöð frágangs** og haldið áfram að áætla.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Leiðbeiningar áætlaðar á vinnublaði frágangs:  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað frágangur** og veldu síðan tengda tengilinn.  
-2.  Valið er **Sækja vöruhúsaskjöl** aðgerð. Glugginn **Frágangsval** opnast.  
+2.  Valið er **Sækja vöruhúsaskjöl** aðgerð. Síðan **Frágangsval** opnast.  
 
     Hægt er að sjá allar bókaðar móttökur og skráðan innanhússfrágang sem send hafa verið í frágangsaðgerðina, þar á meðal þá sem frágangsleiðbeiningar hafa þegar verið stofnaðar fyrir. Skjöl með frágangslínur sem gengið hefur verið frá að fullu og skráðar birtast ekki á þessum lista.  
 
@@ -54,7 +54,7 @@ Ef gátmerki er ekki sett í þennan reit eru frágangsleiðbeiningar stofnaðar
     > [!NOTE]  
     >  Línum er aðeins eytt af þessu vinnublaði, ekki frágangsvallistanum.  
 
-7.  Veldu aðgerðina **Stofna frágang**. Glugginn **Stofna fylgiskjal** opnast, þar sem hægt er að bæta við upplýsingum í fráganginn sem verið er að stofna, á eftirfarandi hátt:  
+7.  Veldu aðgerðina **Stofna frágang**. Síðan **Stofna fylgiskjal** opnast, þar sem hægt er að bæta við upplýsingum í fráganginn sem verið er að stofna, á eftirfarandi hátt:  
 
     -   Hægt er að úthluta fráganginum á tiltekinn starfsmann.  
     -   Hægt er að raða frágangsleiðbeiningalínum eins og gert var á vinnublaðinu eða eftir flokkun hólfa. Þegar raðað er eftir flokkun hólfa birtast Taka-línurnar fyrst þar sem flestar móttökulínurnar hafa hólfaflokkunina 0 og Setja línurnar birtast síðast í hækkandi röð eftir hólfaflokkun. Hafi vöruhúsið verið skipulagt þannig að hólf með svipaða flokkun séu næst hvert öðru, sparar röðun með þessum hætti starfsmönnunum sporin.  

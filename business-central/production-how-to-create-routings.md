@@ -1,6 +1,6 @@
 ---
 title: "Hvernig skal búa til leiðir | Microsoft Docs"
-description: "Leið hefur að geyma aðalgögn sem skráir ferlisþarfir vara. Þegar framleiðslupöntun er búin til fyrir vöru stjórnar leið hennar áætlanagerð yfir aðgerðir eins og sýnt er í glugganum **Leið framl.pöntunar** í framleiðslupöntuninni."
+description: "Leið hefur að geyma aðalgögn sem skráir ferlisþarfir vara. Þegar framleiðslupöntun er búin til fyrir vöru stjórnar leið hennar áætlanagerð yfir aðgerðir eins og sýnt er á síðunni **Leið framl.pöntunar** í framleiðslupöntuninni."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-routings"></a>Stofna leiðir
@@ -24,7 +24,7 @@ Framleiðslufyrirtæki nota leiðir til að stýra framleiðsluferlinu og gera s
 
 Leiðin er grunnurinn að vinnsluáætlun, áætlun um afköst og áætlaðri úthlutun á efnisþörf og framleiðsluskjölum.  
 
-Varðandi framleiðsluuppskriftir, er leiðunum úthlutað til endanlegrar framleiddrar vöru. Leið hefur að geyma aðalgögn sem skráir ferlisþarfir vara. Þegar framleiðslupöntun er búin til fyrir vöru stjórnar leið hennar áætlanagerð yfir aðgerðir eins og sýnt er í glugganum **Leið framl.pöntunar** í framleiðslupöntuninni.  
+Varðandi framleiðsluuppskriftir, er leiðunum úthlutað til endanlegrar framleiddrar vöru. Leið hefur að geyma aðalgögn sem skráir ferlisþarfir vara. Þegar framleiðslupöntun er búin til fyrir vöru stjórnar leið hennar áætlanagerð yfir aðgerðir eins og sýnt er á síðunni **Leið framl.pöntunar** í framleiðslupöntuninni.  
 
 Áður en þú getur sett upp leið verður eftirfarandi að vera á réttum stað:  
 
@@ -61,7 +61,7 @@ Varðandi framleiðsluuppskriftir, er leiðunum úthlutað til endanlegrar framl
 ## <a name="to-create-routing-links"></a>Leiðartenglar stofnaðir
 Hægt að búa til leiðartengla til að tengja íhluti við ákveðnar aðgerðir til að viðhalda sambandi þeirra jafnvel þótt framleiðsluuppskrift eða leið sé breytt. Þeir auðvelda einnig bráða birgðaskráningu íhluta þegar ákveðin tengd aðgerð hefst, ekki þegar öll framleiðslupöntunin er gefin út. Nánari upplýsingar eru í [Birgðaskrá íhluti samkvæmt frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md).  
 
-Annar mikilvægur kostur er sá að tenging íhluta og aðgerða er birt í rökrænni uppbyggingu framvindu þegar **framleiðslubókin** er notuð í bókanir frálags og notkunar.  
+Annar mikilvægur kostur er sá að tenging íhluta og aðgerða er birt í rökrænni uppbyggingu framvindu þegar síðan **Framleiðslubók** er notuð í bókanir frálags og notkunar.  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **leiðir** og veldu síðan tengda tengilinn.  
 2.  Opna skal leiðina með aðgerðunum sem á að tengja.  
@@ -89,7 +89,7 @@ Annar mikilvægur kostur er sá að tenging íhluta og aðgerða er birt í rök
     > [!NOTE]  
     >  Til að virkja leiðartengla í framleiðslupöntun sem þegar er til þarf fyrst að endurnýja hana. Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
 
-Valdir íhlutir verða nú tengdir við valdar aðgerðir þegar framleiðslupöntun er búin til eða endurnýjuð með umræddri framleiðsluuppskrift og leið. Hægt er að skoða þetta í glugganum **Íhlutir framleiðslupöntunar** undir framleiðslupöntuninni og í honum er einnig hægt að fjarlægja og bæta við tilgreindum leiðartengilskótum hvenær sem er.
+Valdir íhlutir verða nú tengdir við valdar aðgerðir þegar framleiðslupöntun er búin til eða endurnýjuð með umræddri framleiðsluuppskrift og leið. Hægt er að skoða þetta á síðunni **Íhlutir framleiðslupöntunar** undir framleiðslupöntuninni og í honum er einnig hægt að fjarlægja og bæta við tilgreindum leiðartengilskótum hvenær sem er.
 
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Úthluta starfsmönnum, verkfærum og gæðaráðstöfunum til leiðaraðgerðir.
 Ef krafist er starfsmanna með sérþekkingu eða sérstaka heimild fyrir aðgerðinni má úthluta viðkomandi starfsmönnum á aðgerðina. Að auki geturðu úthlutað verkfærum og gæðaráðstöfunum til aðgerðarinnar. Þetta ferli lýsir því hvernig skal úthluta starfsmönnum. Skrefin eru svipuð fyrir aðrar gerðir aðgerðaupplýsinga.
@@ -97,16 +97,16 @@ Ef krafist er starfsmanna með sérþekkingu eða sérstaka heimild fyrir aðger
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **leiðir** og veldu síðan tengda tengilinn.  
 2.  Viðeigandi leið er opnuð.  
 3.  Á flýtiflipanum **Línur** skal velja línuna sem á að vinna úr og svo velja aðgerðina **Starfsmenn**.  
-4.  Reitirnir í glugganum **Starfsmenn leiðar** eru fylltir út.  
-5.  Velja hnappinn **Í lagi** til að hætta í glugganum. Innfærð gildi eru afrituð og úthlutuð aðgerðinni.    
+4.  Reitirnir á síðunni **Starfsmenn leiðar** eru fylltir út.  
+5.  Velja hnappinn **Í lagi** til að hætta á síðunni. Innfærð gildi eru afrituð og úthlutuð aðgerðinni.    
 
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Gerð nýrra útgáfa af leiðum:  
 Með útgáfureglunni er hægt að fást við margar útgáfur. Skipulag leiðaútgáfunnar samsvarar skipulagi leiðarinnar sem felur í sér leiðaútgáfuhaus og leiðaútgáfulínur. Aðalmunurinn ræðst af upphafsdagsetningunni.  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **leiðir** og veldu síðan tengda tengilinn.  
 2.  Leið sem á að afrita er valin og svo er aðgerðin **Útgáfur** valin.  
-3. Í glugganum **Leiðarútgáfur** skal velja aðgerðina **Nýtt**.
-4. Fyllið inn í reitina eftir þörfum.
+3. Á síðunni **Leiðarútgáfur** skal velja aðgerðina **Nýtt**.
+4. Fyllið inn reitina eftir þörfum.
 5.  Einstakt auðkenni útgáfunnar er fært inn í reitinn **Útgáfukóti**. Hvaða samsetning af tölum og bókstöfum er leyfileg.  
 
     Nýja útgáfan sem búin var til fær sjálfkrafa stöðuna **Ný.**  

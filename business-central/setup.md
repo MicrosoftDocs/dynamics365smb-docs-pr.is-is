@@ -11,10 +11,10 @@ ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Setur upp [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 Til dæmis er yfirlit yfir reikninga áfyllt með fjölda pósthólf sem eru tilbúnar til notkunar. Að sjálfsögðu geturðu breytt bókhaldslyklinum til að uppfylla þarfir þínar. Frekari upplýsingar eru í [Fjármál](finance.md).
 
-Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningargluggum með hjálp og handvirkum eru í [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).
+Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningarsíðum með hjálp og handvirkum uppsetningarsíðum eru í [Undirbúningur fyrir viðskipti](ui-get-ready-business.md).
 
 > [!NOTE]
 > Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] með RapidStart Services sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Nánari upplýsingar er að finna í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).

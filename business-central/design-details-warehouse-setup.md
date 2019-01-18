@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Hönnunarupplýsingar uppsetningvöruhúss
@@ -93,7 +93,7 @@ Hólfaflokkun ásamt innihald hólfs eru grunneiginleikar sem leyfa notendum að
 
 Á hverju birgðaspjaldi er hægt að úthluta mælieiningu fyrir vöruna, svo sem stykkjum, vörubrettum, lítrum, grömmum eða kössum. Einnig er hægt að nota grunnmælieiningu fyrir vöru og tilgreina stærri grunnmælieiningu sem byggist á vörunni. Til dæmis er hægt að skilgreina bretti sem jafnt og 16 stykki, og hið síðarnefnda er þá grunnmælieining.  
 
-Ef stilla á hámarksmagn af tiltekinni vöru sem á að geyma í sérstöku hólfi og varan er með fleiri en eina mælieiningu verður að stilla hámarksmagn fyrir hverja mælieiningu sem er á birgðaspjaldinu. Í samræmi, ef vara hefur verið sett upp fyrir meðhöndlun í stykkjum og á vörubrettum þarf reiturinn **Hámarks magn** í glugganum **Innihald hólfs** fyrir þá vöru einnig að vera í stykkjum og vörubrettum. Annars er leyft magn fyrir það hólf er ekki reiknað rétt.  
+Ef stilla á hámarksmagn af tiltekinni vöru sem á að geyma í sérstöku hólfi og varan er með fleiri en eina mælieiningu verður að stilla hámarksmagn fyrir hverja mælieiningu sem er á birgðaspjaldinu. Í samræmi, ef vara hefur verið sett upp fyrir meðhöndlun í stykkjum og á vörubrettum þarf reiturinn **Hámarks magn** á síðunni **Innihald hólfs** fyrir þá vöru einnig að vera í stykkjum og vörubrettum. Annars er leyft magn fyrir það hólf er ekki reiknað rétt.  
 
 Áður en þú setur afkastahömlur á innihald hólfs í hólfi, verður þú fyrst að ganga úr skugga um að UOM og vídd hlutarins hafi verið sett upp á birgðaspjaldinu.  
 

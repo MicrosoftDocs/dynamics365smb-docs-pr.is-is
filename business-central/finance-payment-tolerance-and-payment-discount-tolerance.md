@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk
@@ -45,16 +45,16 @@ Með vikmörkum á dögum og upphæðum er hægt að loka reikningi þó að gre
 
 Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilgreina bókunaraðferðir fyrir vikmörk greiðsluafsláttar og greiðsluvikmörk og keyra síðan keyrsluna **Breyta greiðsluvikmörkum**.  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning almenns bókunargrunns** og veldu síðan tengda tengilinn.  
-2. Í glugganum **almennur bókunargrunnur** eru settir upp debet- og kreditreikningar greiðsluvikmarka sölu og debet- og kreditreikningar greiðsluvikmarka innkaupa.  
+2. Á síðunni **almennur bókunargrunnur** eru settir upp debet- og kreditreikningar greiðsluvikmarka sölu og debet- og kreditreikningar greiðsluvikmarka innkaupa.  
 3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarflokkar viðskm.** og veldu síðan tengda tengilinn.    
-4. Í glugganum **Bókunarflokkar viðskiptamanna** eru debet og kredit greiðsluvikmarkareikningar settir upp. Nánari upplýsingar er að finna í [Uppsetning Bókunarflokka](finance-posting-groups.md).  
+4. Á síðunni **Bókunarflokkar viðskiptamanna** eru debet og kredit greiðsluvikmarkareikningar settir upp. Nánari upplýsingar er að finna í [Uppsetning Bókunarflokka](finance-posting-groups.md).  
 5. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning bókunargrunns lánardrottna** og veldu síðan tengda tengilinn.  
-6. Í glugganum **Bókunarflokkar lánardrottins** eru debet og kredit greiðsluvikmarkareikningar settir upp.  
+6. Á síðunni **Bókunarflokk lánardrottna** eru debet og kredit greiðsluvikmarkareikningar settir upp.  
 7. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning fjárhags** og veldu síðan tengda tengilinn.  
-8. Glugginn **Fjárhagsgrunnur** opnast.  
+8. Opna síðuna **Uppsetning fjárhags**.  
 9. Á flýtiflipanum **Jöfnun** fyllið út **Greiðsluafslátt greiðsluvikmarka**, **Greiðsluafslátt biðtíma** og svæðið **Bókun greiðsluvikmarka**.   
 10. Veljið aðgerðina **Breyta greiðsluvikmörkum**.
-11. Í glugganum **Breyta greiðsluvikmörkum** þarf að fylla út reitina **Vikmarkaprósenta greiðslu** og **Hám.upph. greiðsluvikmarka** og smella síðan á **Í lagi**.
+11. Á síðunni **Breyta greiðsluvikmörkum** þarf að fylla út reitina **Vikmarkaprósenta greiðslu** og **Hám.upph. greiðsluvikmarka** og smella síðan á **Í lagi**.
 
 > [!IMPORTANT]  
 >  Nú hafa verið sett upp vikmörk fyrir heimagjaldmiðilinn eingöngu. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] á að vinna með frávik á greiðslum, kreditreikningum og endurgreiðslum í erlendum gjaldeyri þarf að keyra keyrsluna **Breyta greiðsluvikmörkum** með gildi í reitnum **Gjaldmiðilskóði**.  
@@ -69,10 +69,10 @@ Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilg
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Til að virkja eða slökkva á greiðsluvikmarkaviðvörun
 Viðvörun um vikmörk greiðslu birtist þegar jöfnun er bókuð með stöðu sem er innan heimilla vikmarka. Hægt er að velja um hvernig staðan skuli bókuð og skráð.    
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning fjárhags** og veldu síðan tengda tengilinn.  
-2. Í glugganum **Uppsetning fjárhags** er smellt á flýtiflipann **Jöfnun**, síðan er gátreiturinn **Viðvörun um greiðsluvikmörk** valinn til að virkja viðvörunina. Ef gera á viðvörunina óvirka er gátmerkið fjarlægt.  
+2. Á síðunni **Uppsetning fjárhags** er smellt á flýtiflipann **Jöfnun**, síðan er gátreiturinn **Viðvörun um greiðsluvikmörk** valinn til að virkja viðvörunina. Ef gera á viðvörunina óvirka er gátmerkið fjarlægt.  
 
 > [!NOTE]  
->  Sjálfgefinn valkostur fyrir **Viðvörun um greiðsluvikmörk** gluggann er **Láta stöðu standa sem eftirstöðvar**. Sjálfgefinn valkostur fyrir **Viðvörun um greiðsluafsláttarvikmörk** gluggann er **Hafna síðbúnum greiðsluafslætti**.
+>  Sjálfgefinn valkostur fyrir **Viðvörun um greiðsluvikmörk** síðuna er **Láta stöðu standa sem eftirstöðvar**. Sjálfgefinn valkostur fyrir **Viðvörun um vikmörk greiðsluafsláttar** síðuna er **Hafna síðbúnum greiðsluafslætti**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Lokað á greiðsluvikmörk viðskiptavina  
 Sjálfgildið fyrir greiðsluvikmörk er heimilað. Ef greiðsluvikmörk eiga ekki að vera heimil fyrir tiltekin viðskiptamann eða lánardrottinn skal loka á vikmörk á viðkomandi viðskiptamanns- eða lánardrottinsspjaldi. Eftirfarandi sýnir hvernig farið er að þessu fyrir viðskiptamann. Skrefin eru svipuð fyrir lánardrottinn.
@@ -86,7 +86,7 @@ Sjálfgildið fyrir greiðsluvikmörk er heimilað. Ef greiðsluvikmörk eiga ek
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Dæmi 1 - útreikningur vikmarka fyrir eitt fylgiskjal
 Hér á eftir koma nokkur dæmi sem sýna áætlaða vikmarkaútreikninga og bókanir sem upp geta komið við mismunandi aðstæður.  
 
-**Uppsetning fjárhags** glugginn inniheldur eftirfarandi uppsetningu:
+Síðan **Uppsetning fjárhags** inniheldur eftirfarandi uppsetningu:
 - Biðtími greiðsluafsláttar: 5D  
 - Hámarks greiðsluvikmörk: 5  
 
@@ -155,7 +155,7 @@ Venjulegar jöfnunarreglur
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Dæmi 2 útreikningur vikmarka fyrir fjölda fylgiskjala
 Hér á eftir koma nokkur dæmi sem sýna áætlaða vikmarkaútreikninga og bókanir sem upp geta komið við mismunandi aðstæður. Dæmin eru takmörkuð við þau tilvik sem enda með því að öllum færslum í jöfnuninni sé lokað.  
 
-**Uppsetning fjárhags** glugginn inniheldur eftirfarandi uppsetningu:
+Síðan **Uppsetning fjárhags** inniheldur eftirfarandi uppsetningu:
 - Biðtími greiðsluafsláttar: 5D  
 - Hámarks greiðsluvikmörk 5  
 

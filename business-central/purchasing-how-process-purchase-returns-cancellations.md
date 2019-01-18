@@ -13,10 +13,10 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2833a18275e396a04f78b5707d885bfbd5946218
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Meðhöndlun innkaupaskila eða afturkallana
@@ -40,10 +40,10 @@ Til að varðveita rétt birgðaverðmat, eru vanalega teknar til skilavörur fr
 
 Til er tvenns konar virkni, til að úthluta bakfærslu nákvæms kostnaðar sjálfvirkt:  
 
-|Virkni|Lýsing|  
+|Virkni|Description|  
 |------------------|---------------------------------------|  
-|**Sækja bókaðar fylgiskjalalínur til að bakfæra** aðgerð í **vöruskilapöntun innkaupa** glugganum.|Afritar línur úr einu eða fleiri bókuðum fylgiskjölum sem á að bakfæra til vöruskilapöntun innkaupa. Frekari upplýsingar, sjá hlutann „Stofna vöruskilapöntun innkaupa og tengdan sölukreditreikning, fyrir einn eða fleiri bókuðu innkaupareikningi“.|  
-|**Afrita skjal** aðgerð í **Innkaupakreditreikningur** og **Vöruskilapöntun innkaupa** glugganum.|Afritar bæði haus og línur af einu bókuðu fylgiskjali sem á að bakfæra.<br /><br /> Krefst þess að **Nákvæm bakfærsla kostnaðar** gátreitur sé valinn í glugganum **Uppsetning fyrir Innkaup & Viðskiptaskuldir**.|
+|**Sækja bókaðar fylgiskjalalínur til að bakfæra** aðgerð á síðunni **vöruskilapöntun innkaupa**|Afritar línur úr einu eða fleiri bókuðum fylgiskjölum sem á að bakfæra til vöruskilapöntun innkaupa. Frekari upplýsingar, sjá hlutann „Stofna vöruskilapöntun innkaupa og tengdan sölukreditreikning, fyrir einn eða fleiri bókuðu innkaupareikningi“.|  
+|**Afrita skjal** aðgerð í **Innkaupakreditreikningur** og á síðunni **Vöruskilapöntun innkaupa**|Afritar bæði haus og línur af einu bókuðu fylgiskjali sem á að bakfæra.<br /><br /> Krefst þess að **Nákvæm bakfærsla kostnaðar** gátreitur sé valinn á síðunni **Uppsetning fyrir Innkaup & Viðskiptaskuldir**.|
 
 Til að úthluta nákvæmri bakfærslu kostnaðar, skal velja reitinn **Jafna frá birgðafærslu** á einhverja gerð skilaskjalslínu, og velja síðan númer upphaflega innkaupafærslunnar. Það tengir innkaupakreditreikning eða vöruskilapöntun innkaupa við upphaflega innkaupafærslu og tryggir að varan sé metin út frá upphaflegu einingarverði.
 
@@ -51,15 +51,15 @@ Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðakostnaður](design-d
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Stofna nýjan innkaupakreditreikning úr bókaðan innkaupareikningur.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókaðir innkaupareikningar** og veldu síðan tengda tengilinn.  
-2. Í gluggann **Bókaðir innkaupareikningar** og veldu bókaða innkaupareikninginn sem á að bakfæra og veldu svo stofna aðgerðina **stofna leiðréttandi kkreditreikning**
+2. Á síðunni **Bókaðir innkaupareikningar** skaltu velja bókaða innkaupareikninginn sem á að bakfæra og veldu svo stofna aðgerðina **Stofna leiðréttandi kreditreikning**.
 
     Flestir reitir á innkaupakreditreikningshausnum eru nú fylltir út með upplýsingum úr bókaður innkaupareikningur Hægt er að breyta allir reitir, til dæmis með nýjar upplýsingar sem endurspegla endursenda samkomulagið.
 3. Breyta upplýsingum í línunum í samræmi við samninginn, eins og fjöldi þeirra vara sem skilað er eða upphæð sem á að endurgreiða.
 4. Valið er **Jafna Færslur** aðgerð.
-5. Í **Jafna Lánardr.færslur** glugganum, velja línan með bókaða innkaupaskjalið sem á að jafna við innkaup sölukreditreikning innkaupakreditreikning á og velja síðan aðgerðina **Jöfnunarkenni**. Númer innkaupakreditreikningsins er sett í reitinn **jöfnunarkenni**
+5. Á síðunni **Jafna Lánardr.færslur** skal velja línu með bókaða innkaupaskjalið sem á að jafna við innkaup sölukreditreikning innkaupakreditreikning á og velja síðan aðgerðina **Jöfnunarkenni**. Númer innkaupakreditreikningsins er sett í reitinn **jöfnunarkenni**
 6. Í reitnum **Upphæð til jöfnunar** er rituð upphæðin sem á að jafna ef hún er lægri en upprunalega upphæðin.
 
-    Neðst á **Jafna Lánardr.færslur** glugganum, er hægt að skoða heildarupphæðin sem á að nota til að bakfæra allar viðkomandi færslur, nefnilega þegar gildið í **Stöðu** reitnum er núll.
+    Neðst á **Jafna Lánardr.færslur** síðunni, er hægt að skoða heildarupphæðin sem á að nota til að bakfæra allar viðkomandi færslur, nefnilega þegar gildið í **Stöðu** reitnum er núll.
 7. Velja hnappinn **Í lagi**. Þegar innkaupakreditreikningurinn er bókaður, verður hann jafnaður við tilgreinda bókaða innkaupaskjölin
 
     Þegar stofnaðar eða breyttar hafa verið línur fyrir innkaupakreditreikninga og ein eða fleiri jöfnun hefur verið tilgreind, er hægt að fara í að bóka innkaupakreditreikninginn.
@@ -74,8 +74,8 @@ Innkaupakreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal 
 2. Valið er **Nýtt** aðgerð til að opna ný auður innkaupakreditreikningur.
 3. Í reitnum **lánardrottins** er fært inn nafn núverandi lánardrottins.
 4. Valið er **Afrita fylgiskjal** aðgerð.
-5. Í glugganum **afrita innkaupaskjal** í **Gerð fylgiskjals** velurðu **Bókaður reikningur**.
-6. Velja reitinn **Númer fylgiskjals** til að opna gluggann **Bókaðir innkaupareikningar** og velja síðan bókaða innkaupareikninginn sem inniheldur línur sem á að bakfæra.
+5. Á síðunni **afrita innkaupaskjal** í **Gerð fylgiskjals** velurðu **Bókaður reikningur**.
+6. Velja reitinn **Númer fylgiskjals** til að opna síðuna **Bókaðir innkaupareikningar** og velja síðan bókaða innkaupareikninginn sem inniheldur línur sem á að bakfæra.
 7. Veljið gátreitinn **Endurreikna línur**, ef bókaða innkaupakreditreikningslínan sem var afrituð á að uppfærast með breytingum á vöruverði og kostnaðarverði síðan reikningurinn var bókaður.
 8. Velja hnappinn **Í lagi**. Afrituðu reikningslínurnar eru settar inn í innkaupakreditreikninginn.
 9. Ljúktu Innkaupakreditreikningur eins og útskýrt er í reitnum "Stofna nýjan innkaupakreditreikning úr bókaðan innkaupareikningur" hlutanum í þessu efnisatriði.
@@ -87,15 +87,15 @@ Innkaupakreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal 
 4. Á flýtiflipanum **Línur** skal fylla þessar línur út handvirkt, eða afrita upplýsingar úr öðrum fylgiskjölum til að fylla út línurnar sjálfvirkt:
 
     - Hægt er að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** til að afrita eina eða fleiri bókaðar fylgiskjalalínur frá einu eða fleiri bókuðum fylgiskjölum. Þessi aðgerð bakfærir alltaf nákvæmlega kostnaðinn úr bókuðu fylgiskjalslínunni. Þessu aðgerð er lýst í eftirfarandi skrefum.    
-    - Nota aðgerðina **Afrita skjal** til að afrita fyrirliggjandi fylgiskjal í vöruskilapöntun. Þessi aðgerð er notuð til að afrita allt fylgiskjalið. Það er annað hvort bókað fylgiskjal eða fylgiskjal sem hefur ekki enn verið bókað. Þessi aðgerð gerir aðeins kleift að bakfæra kostnað á nákvæman hátt þegar **Nákvæm bakfærsla kostnaða áskilin** gátreiturinn er valinn í glugganum **Uppsetning fyrir Sölu & Útistandandi**.  
+    - Nota aðgerðina **Afrita skjal** til að afrita fyrirliggjandi fylgiskjal í vöruskilapöntun. Þessi aðgerð er notuð til að afrita allt fylgiskjalið. Það er annað hvort bókað fylgiskjal eða fylgiskjal sem hefur ekki enn verið bókað. Þessi aðgerð gerir aðeins kleift að bakfæra kostnað á nákvæman hátt þegar **Nákvæm bakfærsla kostnaða áskilin** gátreiturinn er valinn á síðunni **Uppsetning fyrir Sölu & Útistandandi**.  
 
 4. Velja aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra**.
-5. Efst í glugganum **Bókaðar línur innkaupaskjals** er valið gátmerki **Sýna eingöngu bakfæranlegar línur** ef eingöngu á að birta línur sem eru með magn sem enn hefur ekki verið skilað. Til dæmis ef bókað magn innkaupareiknings hefur verið skilað kann ekki að vera æskilegt að skila magninu í nýtt fylgiskjal vöruskila innkaupa.
+5. Efst á síðunni **Bókaðar línur innkaupaskjals** er valið gátmerki **Sýna eingöngu bakfæranlegar línur** ef eingöngu á að birta línur sem eru með magn sem enn hefur ekki verið skilað. Til dæmis ef bókað magn innkaupareiknings hefur verið skilað kann ekki að vera æskilegt að skila magninu í nýtt fylgiskjal vöruskila innkaupa.
 
     > [!NOTE]  
     >  Þessi reitur virkar eingöngu fyrir bókaðar móttökur og bókaðar reikningslínur, ekki fyrir bókuð vöruskil eða bókaðar kreditreikningslínur.  
 
-    Vinstra megin í glugganum er ólík tegund fylgiskjals og númerið í sviga sýnir númer skjalsins af tiltekinni tegund sem er til taks.
+    Vinstra megin á síðunni er ólík tegund fylgiskjals og númerið í sviga sýnir númer skjalsins af tiltekinni tegund sem er til taks.
 
 6. Í reitnum **Afmörkun fylgiskjalsgerðar** skal velja tegund bókaðra lína fylgiskjals sem nota skal.  
 7. Velja skal línurnar sem á að afrita í nýja fylgiskjalið.  
@@ -119,21 +119,21 @@ Innkaupakreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal 
 
     -   Ef bókaða fylgiskjalslínan inniheldur vörurakningarlínu er reiturinn **Jafna við birgðafærslu** í vörurakningarlínunni fylltur með viðeigandi birgðafærslunúmerum úr bókuðu vörurakningarlínunum.  
 
-     Þegar bókaður reikningur eða bókaður kreditreikningur er afritaður afritar kerfið viðeigandi reikningsafslætti og línuafslætti sem gilda við bókun fylgiskjalsins úr bókuðu fylgiskjalslínunni í nýju fylgiskjalslínunni. Hins vegar þarf að hafa í huga að ef valkosturinn **Reikna reikn.afsl.** er ræstur í **Uppsetning Innkaup & viðskiptaskuldir** glugganum, er reikningsafslátturinn nýreiknaður þegar nýja fylgiskjalslínan er bókuð. Þess vegna getur verið að línuupphæðin fyrir nýju línuna sé önnur en línuupphæðin fyrir bókuðu fylgiskjalslínuna, allt eftir nýja útreikningnum á reikningsafslættinum.  
+     Þegar bókaður reikningur eða bókaður kreditreikningur er afritaður afritar kerfið viðeigandi reikningsafslætti og línuafslætti sem gilda við bókun fylgiskjalsins úr bókuðu fylgiskjalslínunni í nýju fylgiskjalslínunni. Hins vegar þarf að hafa í huga að ef valkosturinn **Reikna reikn.afsl.** er ræstur í **Uppsetning Innkaup & viðskiptaskuldir** síðunni, er reikningsafslátturinn nýreiknaður þegar nýja fylgiskjalslínan er bókuð. Þess vegna getur verið að línuupphæðin fyrir nýju línuna sé önnur en línuupphæðin fyrir bókuðu fylgiskjalslínuna, allt eftir nýja útreikningnum á reikningsafslættinum.  
 
     > [!NOTE]  
     >  Ef hluti magns bókuðu fylgiskjalslínunnar hefur þegar verið bakfært eða selt eða notað, er eingöngu stofnuð lína fyrir magnið sem eftir er í birgðum eða sem ekki hefur verið skilað. Ef búið er að bakfæra allt magn í bókaðri fylgiskjalslínu er ný fylgiskjalslína ekki stofnuð.  
     >   
     >  Ef flæði vara í bókuðu fylgiskjali er það sama og flæði vara í nýja fylgiskjalinu er einfaldlega stofnað afrit af upphaflegu bókuðu fylgiskjalslínunni í nýja fylgiskjalinu. Ekki er fyllt út í reitinn **Jafna frá birgðafærslu** vegna þess að bakfærsla nákvæms kostnaðar er ekki möguleg í þessu tilviki. Ef aðgerðin **Sækja bókaðar fylgiskjalalínur til að bakfæra** er t.d. notuð til að sækja bókaða innkaupakreditreikningalínu fyrir nýjan innkaupakreditreikning er eingöngu upphaflega bókaða kreditreikningslínan afrituð í nýja kreditreikninginn.  
 
-8. Í glugganum **Vöruskilapöntun innkaupa** í reitnum **Ástæðukóði skila** á hverri línu, skal velja ástæðu skilanna.
+8. Á síðunni **Vöruskilapöntun innkaupa** í reitnum **Ástæðukóði skila** á hverri línu, skal velja ástæðu skilanna.
 9. Valið er **Bóka** aðgerðin.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Innkaupapöntun fyrir skiptivöru stofnuð úr vöruskilapöntun innkaupa.
 Samkomulag kann að takast við lánardrottininn um bætur vegna keyptrar vöru með því að skipta henni. Um sömu vöru getur verið að ræða, eða eitthvað annað. Þessi staða getur komið upp ef lánardrottinn hefur sent ranga vöru.  
-1.  Í glugganum **Vöruskilapöntun innkaupa** fyrir virkt skilaferli, er í auðri línu búin til neikvæð færsla vegna skiptivörunnar með því að færa inn neikvætt magn í reitinn **Magn**.  
+1.  Á síðunni **Vöruskilapöntun innkaupa** fyrir virkt skilaferli, er í auðri línu búin til neikvæð færsla vegna skiptivörunnar með því að færa inn neikvætt magn í reitinn **Magn**.  
 2. Velja aðgerðina **Flytja neikvæðar línur**.  
-3. Í glugganum **Flutningur Neikvætt sölulínur** skal fylla út reitina eins og þörf krefur.
+3. Á síðunni **Flytja neikvæðar innkaupalínur** skal fylla út reitina eins og þörf krefur.
 4. Velja hnappinn **Í lagi**. Neikvæðri línu eytt úr vöruskilapöntun innkaupa og ný innkaupapöntun stofnuð. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Innkaupaheimild stofnuð:  
@@ -150,7 +150,7 @@ Hægt er að bóka þetta lægra innkaupaverð sem kostnaðarauka á kreditreikn
     Gott gæti verið að stofna sérstakt vörugjaldsnúmer fyrir innkaupauppbætur.  
 6.  Fært er inn **1** í reitinn **Magn**.  
 7.  Í reitinn **Innk.verð** er upphæð innkaupauppbótarinnar færð inn.  
-8.  Innkaupauppbótinni er  úthlutað sem vörugjaldi á vörurnar í bókuðu móttökunni. Frekari upplýsingar er að finna í [Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md). Þegar uppbótinni hefur verið úthlutað er snúið aftur í gluggann **innkaupakreditreikningur**.
+8.  Innkaupauppbótinni er  úthlutað sem vörugjaldi á vörurnar í bókuðu móttökunni. Frekari upplýsingar er að finna í [Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md). Þegar uppbótinni hefur verið úthlutað er snúið aftur á síðuna **innkaupakreditreikningur**.
 
 Þegar vöruskilapöntun innkaupa er bókuð er söluafslætti bætt við viðkomandi upphæð innkaupafærslu. Þannig er hægt að vinna með nákvæmt birgðaverðmat.  
 

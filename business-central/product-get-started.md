@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4eed11706d890a1b83af7fcb70fe1457a787ba3a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -39,14 +39,14 @@ Frekari upplýsingar er að finna í [Unnið með [!INCLUDE[d365fin](includes/d3
 Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](across-business-functionality.md). Fyrir yfirlit yfir gildandi getu og hvað er framundan, skaltu skoða vegakortið okkar á [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-role-centers"></a>Mín hlutverk
-Glugginn Mitt hlutverk byggist á hlutverkamiðaðri hönnun til að veita þér hraðan aðgang að viðskiptaferli og verkfærum viðskiptagreindar sem þú þarft til að sinna starfinu þínu. Endurskoðandi má til dæmis fylgjast með greiðslur og samþykktir og skoða vaxtareikninga afköst myndrit. Skoðaðu alls kyns Mín hlutverk með því að velja táknið **Stillingar** ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingartákn fyrir Mitt hlutverk") efst í hægra horninu, velja **Mínar stillingar** og síðan Mitt hlutverk sem á að skoða. Skrá sig aftur inn til að láta breytinguna taka gildi. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md).
+Síðan Mitt hlutverk byggist á hlutverkamiðaðri hönnun til að veita þér hraðan aðgang að viðskiptaferli og verkfærum viðskiptagreindar sem þú þarft til að sinna starfinu þínu. Endurskoðandi má til dæmis fylgjast með greiðslur og samþykktir og skoða vaxtareikninga afköst myndrit. Skoðaðu alls kyns Mín hlutverk með því að velja táknið **Stillingar** ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingartákn fyrir Mitt hlutverk") efst í hægra horninu, velja **Mínar stillingar** og síðan Mitt hlutverk sem á að skoða. Skrá sig aftur inn til að láta breytinguna taka gildi. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md).
 
-Hvert Mitt hlutverk býður upp á hnappinn **Uppsetning og viðbætur**. Hér hefurðu aðgang að lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa, með því að setja upp valin svæði á fljótan hátt. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetning gluggum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Hvert Mitt hlutverk býður upp á hnappinn **Uppsetning og viðbætur**. Hér hefurðu aðgang að lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa, með því að setja upp valin svæði á fljótan hátt. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetningarsíðum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
 >   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Úrvals** upplifun gerir. Í fyrsta sinn sem þú skráir þig inn notarðu grunnupplifunina. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
 
-Í glugganum **Uppsetning með hjálp** er að finna eftirfarandi með **Mikilvægum** upplifunum:
+Á síðunni **Uppsetning með hjálp** er að finna eftirfarandi með upplifuninni **Mikilvægur**:
 
 | Uppsetning með hjálp | Description |
 | --- | --- |

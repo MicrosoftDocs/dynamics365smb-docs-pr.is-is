@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5c87d33bbf9d97f53e033c663532052c8aeddee9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-average-cost"></a>Hönnunarupplýsingar: Meðalkostnaður
@@ -23,7 +23,7 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
  Virðisdagsetningin er valin sjálfkrafa.  
 
 ## <a name="setting-up-average-cost-calculation"></a>Setja upp meðalkostnaðrverðútreikning  
- Eftirfarandi tafla lýsir tveimur reitum í glugganum **Uppsetning birgða** sem verður að fylla út til að gera meðalkostnaðarútreikning virkan.  
+ Eftirfarandi tafla lýsir tveimur reitum á síðunni **Uppsetning birgða** sem verður að fylla út til að gera meðalkostnaðarútreikning virkan.  
 
 |Svæði|Lýsing|  
 |---------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 > [!NOTE]  
 >  Aðeins er hægt að nota meðalkostnaðartímabil og eina gerð útreikninga meðaltalskostnaðará hverju fjárhagsári.  
 >   
->  **Fjárhagstímabil** gluggi sýnir hver meðalkostnaðartímabil og hvaða meðalkostnaðarútreikningsgerð er í gildi á því tímabili, fyrir hvert reikningstímabil.  
+>  **Fjárhagstímabil** síðan sýnir hvaða meðalkostnaðartímabil og meðalkostnaðarútreikningsgerð er í gildi á því tímabili, fyrir hvert fjárhagstímabil.  
 
 ## <a name="calculating-average-cost"></a>Meðalkostnaður reiknaður  
  Þegar viðskipti eru bókuð fyrir vöru sem notar kostnaðarútreikningsaðferðina Meðaltal stofnar forritið færslu í töflunni **Upphafspunktur Meðalkostnaðarleiðréttingar**. Þessi færsla inniheldur vörunúmer, afbrigðakóða og birgðageymslukóða færslunnar. Færslan inniheldur einnig reitinn **Dagsetning virðismats**, sem tilgreinir síðustu dagsetningu meðalkostnaðartímabilsins sem færslan var bókuð á.  
@@ -51,7 +51,7 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
  Reiknaður meðalkostnaður er svo jafnaður við birgðaminnkun vörunnar ( eða vöru, birgðageymslu og afbrigði) með bókunardagsetningum í meðalkostnaðartímabilinu. Ef einhverjar birgðaaukningar eru fyrir hendi sem voru notaðar fast á birgðaminnkun á meðalkostnaðartímabilinu er útreiknaður meðalkostnaður framsendur úr aukningu í minnkun.  
 
 ### <a name="example-average-cost-period--day"></a>Dæmi Tímabil meðalinnk.verðs = Dagur  
- Þetta dæmi sýnir hvaða áhrif það hefur að reikna meðalkostnað samkvæmt meðalkostnaðartímabili eins dags. Reiturinn **Útreikningsgerð meðalkostnaðar** í glugganum **Uppsetning birgða** er stilltur á **Vara**.  
+ Þetta dæmi sýnir hvaða áhrif það hefur að reikna meðalkostnað samkvæmt meðalkostnaðartímabili eins dags. Reiturinn **Útreikningsgerð meðalkostnaðar** á síðunni **Uppsetning birgða** er stilltur á **Vara**.  
 
  Eftirfarandi tafla sýnir hlut birgðahöfuðbókarfærslur fyrir sýnishorn meðalkostnaðarvöru, VARA1, áður en runuvinnslan **Leiðrétta kostnað - Birgðafærslur** hefur verið keyrð.  
 
@@ -88,7 +88,7 @@ Meðalkostnaður vöru er reiknaður með reglubundnu vegnu meðaltali, miðað 
 |02-03-20|Sala|-1|-100,00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Dæmi Tímabil meðalinnk.verðs = mánuður  
- Þetta dæmi sýnir hvaða áhrif það hefur að reikna meðalkostnað samkvæmt meðalkostnaðartímabili eins mánaðar. Reiturinn **Útreikningsgerð meðalkostnaðar** í glugganum **Uppsetning birgða** er stilltur á **Vara**.  
+ Þetta dæmi sýnir hvaða áhrif það hefur að reikna meðalkostnað samkvæmt meðalkostnaðartímabili eins mánaðar. Reiturinn **Útreikningsgerð meðalkostnaðar** á síðunni **Uppsetning birgða** er stilltur á **Vara**.  
 
  Ef meðalkostnaðartímabilið er einn mánuður er aðeins ein færsla búin til fyrir hverja samsetningu vörunúmers, afbrigðiskóða, staðsetningarkóða og endurmatsdagsetningar.  
 

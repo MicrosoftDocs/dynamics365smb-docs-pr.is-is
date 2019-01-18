@@ -12,17 +12,17 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9b9422fbbfec61fb4d5812ed02e2b76e74b6f8c8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að hjálpa þér að reka fyrirtækið þitt, óháð því í hvaða geira þú ert. Í kjarna [!INCLUDE[d365fin](includes/d365fin_md.md)] að finna fjárhagsskýrslu og sölu og innkaupaferli. Þú bætir við reynslu í samræmi við þarfir fyrirtækis þíns með því að bæta við viðbótum frá AppSource eða með því að breyta upplifunarstillingum fyrir fyrirtækið þitt. Frekari upplýsingar eru í [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md), eða kaflanum „Velja notandaupplifun til að sýna og fela eiginleika“ hér fyrir neðan.
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Velja upplifun notanda eða Sýna eða Fela eiginleika
-Notandi reynsla ákvarðar hversu mikið af kjarna virkni er í boði þegar þú og samstarfsmenn þínir nota [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þú getur valið reynslu notenda fyrir fyrirtækið þitt í **Fyrirtækjaupplýsingar**, í reitnum **Reynsla**.
+Notandi reynsla ákvarðar hversu mikið af kjarna virkni er í boði þegar þú og samstarfsmenn þínir nota [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þú getur valið reynslu notenda fyrir fyrirtækið þitt á síðunni **Fyrirtækjaupplýsingar**, í reitnum **Reynsla**.
 
 > [!NOTE]  
 > Þessi stilling á við allir notendur í fyrirtækinu. Notendur geta sérstillt eigin upplifun enn frekar með því að breyta útliti síðu og efni. Frekari upplýsingar eru í [Sérstilling vinnusvæðisins þíns og síðna](ui-personalization-user.md).  
@@ -43,21 +43,21 @@ Eftirfarandi tafla lýsir þeim reynslu sem nú er að finna.
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Virkjar eiginleika úrvalsáskriftar eftir uppfærslu á áætlun
 Áætlunum er úthlutað til notenda í stjórnendamiðstöðinni Office 365 í tengslum við almennu vinnuna til að búa til notendur Business Central. Frekari upplýsingar, sjá [Bæta notendum við Office 365 fyrir fyrirtæki](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
-Þú getur síðan skilgreint hvaða sérstakar aðgerðir og gluggar innan þeirrar upplifunar sem notendur geta fengið aðgang að með því að veita heimildasamstæður. Frekari upplýsingar eru í [Stjórna notendum og heimildum](ui-how-users-permissions.md).
+Þú getur síðan skilgreint hvaða sérstakar aðgerðir og síður innan þeirrar upplifunar sem notendur geta fengið aðgang að með því að veita heimildasamstæður. Frekari upplýsingar eru í [Stjórna notendum og heimildum](ui-how-users-permissions.md).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Til að uppfæra breytingar á áætlunum í flokkum notenda
 Þegar þú hefur gert breytingu á áætlunum notenda í stjórnendamiðstöðinni Office 365, á borð við að úthluta fleiri notendum á úrvalsáskriftina, verður þú að endurspegla breytinguna í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Skráðu þig inn sem stjórnanda.
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **notendur** og veldu síðan tengda tengilinn.
-3. Í glugganum **Notendur** skaltu velja aðgerðina **Endurhlaða alla notendaflokka**.
+3. Á síðunni **Notendur** skaltu velja aðgerðina **Endurhlaða alla notendaflokka**.
 
 Allar nýjar upplýsingar um áætlanir notenda og úthlutuðum notendaflokkum þeirra hafa nú verið uppfærðar samkvæmt breytingum áætlunarinnar.
 
 ### <a name="to-select-the-premium-experience"></a>Til að velja úrvalsupplifunina
 Nú er hægt að halda áfram til að velja nýju upplifunina.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Upplýsingar um fyrirtæki** og veldu síðan tengda tengilinn.
-2. Í glugganum **Fyrirtækjaupplýsingar** í flýtiflipanum **Notandaupplifun** skal velja úrvalsáskrift í reitnum **Upplifun**.
+2. Á síðunni **Fyrirtækjaupplýsingar** í flýtiflipanum **Notandaupplifun** skal velja úrvalsáskrift í reitnum **Upplifun**.
 
 ## <a name="help-assumes-premium-experience"></a>Hjálp gerir ráð fyrir úrvalsupplifun
 Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] gera ráð fyrir **Úrvalsútgáfu** sem þýðir að áskriftirnar ná yfir heildarumfang viðmótseininga. Textaskilaboð er settur í háþróaðan hjálparefni fyrir eiginleikum framleiðslu og þjónustustýringar þar sem fram kemur að þeir krefjast **úrvals** upplifunar.

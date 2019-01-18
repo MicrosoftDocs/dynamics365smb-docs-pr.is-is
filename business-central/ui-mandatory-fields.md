@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9691df30fef92fcd3c459558e14c2fd627e74099
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 01e517daea89c5371f95df963831ab8f8d9bf523
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="mandatory-fields"></a>Áskildir reitir
@@ -24,9 +24,9 @@ ms.lasthandoff: 03/22/2018
 Jafnvel þótt reiturinn innihaldi rauða stjörnu er ekki nauðsynlegt að fylla út í reitinn áður en haldið er áfram í aðra reiti eða síðunni lokað. Rauða stjarnan er eingöngu áminning um að þú verðir útilokaður frá tilteknu ferli.
 
 ## <a name="examples"></a>Dæmi
-Í glugganum **Viðskiptamannaspjald** birtist rauða stjarnan í reitnum **Nafn** og og í **bókunarflokkareit** til að gefa til kynna að ekki er hægt að bóka sölufærslur fyrir viðskiptamanninn nema reitirnir séu fylltir út.
+Á síðunni **Viðskiptamannaspjald** birtist rauða stjarnan í reitnum **Nafn** í **Skattsvæðiskóði** og í bókunarflokkareit til að gefa til kynna að ekki er hægt að bóka sölufærslur fyrir viðskiptamanninn nema reitirnir séu fylltir út.
 
-Í glugganum **Vöruspjald** birtist rauða stjarnan í reitnum **Lýsing** og til að gefa til kynna að ekki er hægt að færa vöruna inn a skjalalínu, eins og sölupöntun, nema reitirnir séu fylltir út.
+Á síðunni **Vöruspjald** birtist rauða stjarnan í reitnum **Lýsing** og til að gefa til kynna að ekki er hægt að færa vöruna inn a skjalalínu, eins og sölupöntun, nema reitirnir séu fylltir út.
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

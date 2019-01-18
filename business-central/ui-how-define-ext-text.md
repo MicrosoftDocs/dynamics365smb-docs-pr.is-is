@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eeb73ec964441da0f655b2900e2cb22a1ea492e5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f27608342eb0d91dc956f9d7ebb9887c02be07dc
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-extended-item-text"></a>Bæta við lengdum vörutexta
@@ -25,11 +25,11 @@ Hægt er að lengja staðaltexta fyrir vörur með því að bæta við línum, 
 1. Opnið spjaldið fyrir vöru sem bæta á við texta fyrir og veljið aðgerðina **Lengdur texti**.
 2. Í reitinn **Kóti** er færður inn kótinn og í reitinn **Lýsing** er færður inn texti til útskýringar.
 3. Veljið **Lengdur texti**.
-4. Fylla inn í línurnar í glugganum **Lengdur texti** með viðbótartexta.
+4. Fylla inn í línurnar á síðunni **Lengdur texti** með viðbótartexta.
 5. Fyllið inn í reitinn **Tungumálakóði** eða reitinn **Allir tungumálakóðar** ef notaðir eru tungumálakóðar.
 6. Reitirnir **Upphafsdagsetning** og **Lokadagsetning** eru fylltir út ef afmarka á tímabil fyrir lengdan texta.
 7. Veljið viðeigandi gátreiti fyrir skjalategundir sem á að prenta lengda textann á.
-8. Glugganum er lokað.
+8. Lokaðu síðunni.
 
 ## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Að bæta við lengdum vörutexta í sölupöntunarlínu
 1. Opnið sölupöntun með sölulínu fyrir vöru sem hefur lengdan texta skilgreindan. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).

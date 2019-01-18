@@ -12,10 +12,10 @@ ms.search.keywords: procurement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a96947c07cf86159f767ffcdf85564ee2b4366d8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc0a5e88342e9f4c7493cf9d3390c248e6dd36b9
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-purchases"></a>Skrá innkaup
@@ -39,16 +39,16 @@ Hægt er að fylla út  lánardrottnareitina í innkaupareikningunum með tveimu
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.  
 2. Í reitnum **lánardrottins** er fært inn nafn núverandi lánardrottins.
 
-    Aðrir reitir í glugganum **innkaupareikningur** eru nú fylltir út með stöðluðum upplýsingum um lánardrottinn sem valinn hefur verið. Ef lánardrottinn er ekki skráður, fylgið eftirfarandi skrefum:
+    Aðrir reitir á síðunni **Innkaupareikningur** eru nú fylltir út með stöðluðum upplýsingum um lánardrottin sem valinn hefur verið. Ef lánardrottinn er ekki skráður, fylgið eftirfarandi skrefum:
 3. Í reitnum **lánardrottinn** er fært inn nafn nýs lánardrottinn.
 4. Í svarglugganum um að skrá nýja lánardrottinn, veljið hnappinn **Já**.
-5. Í glugganum **Velja sniðmát fyrir nýjan lánardrottinn**, skal velja sniðmát til að byggja nýja lánardrottnaspjaldið á og veljið hnappinn **Í lagi**.
+5. Á síðunni **Velja sniðmát fyrir nýjan lánardrottinn**, skal velja sniðmát til að byggja nýja lánardrottnaspjaldið á og veljið hnappinn **Í lagi**.
 6. Nýtt viðskiptamannaspjald opnast, fyrirfram fyllt út með upplýsingnum á valda viðskiptamannasniðmátinu. Reiturinn **Heiti** er fyrirfram fylltur út með nafni nýja lánardrottinsins sem fært var inn á innkaupareikninginn.
 7. Haltu áfram að fylla út eftirstandandi reiti á spjaldi lánardrottins. Nánari upplýsingar eru í [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md).  
-8. Þegar lokið hefur verið við lánardrottinsspjaldið skal velja hnappinn **Í lagi** til að fara aftur í gluggann **Innkaupareikningur**.
+8. Þegar lokið hefur verið við lánardrottinsspjaldið skal velja hnappinn **Í lagi** til að fara aftur á síðuna **Innkaupareikningur**.
 
-    Margir reitir í glugganum **innkaupareikningur** eru útfylltir með upplýsingar sem tilgreindar eru á nýju lánardrottinnspjaldi.
-9. Fylltu í eftirstandandi reiti í glugganum **innkaupareikningur** eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+    Margir reitir á síðunni **innkaupareikningur** eru útfylltir með upplýsingar sem tilgreindar eru á nýju lánardrottinnspjaldi.
+9. Fylltu í eftirstandandi reiti á síðunni **innkaupareikningur** eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Þú ert nú tilbúinn að fylla út innkaupareikningslínurnar með birgðavöru eða þjónustu þú hefur keypt af lánardrottninum.
 

@@ -11,17 +11,17 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
-Þessi grein gefur yfirlit yfir nokkrar flýtivísanir sem hægt er að nota þegar þú ert að vinna með [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Þessi grein gefur yfirlit yfir nokkrar flýtivísanir sem hægt er að nota þegar þú ert að vinna með [!INCLUDE[prodshort](includes/prodshort.md)].
 
-[Prentvænt svindlblað yfir flýtivísanir](keyboard-shortcuts-cheatsheet.md)
+[Prentvænt tilvísun yfir flýtivísanir](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Yfirlit
 Flýtivísanir aðstoða við aðgengi og geta auðveldað flettingar og gert þær skilvirkari yfir á önnur svæði og aðrar einingar á síðu.
@@ -30,19 +30,22 @@ Flýtivísanir eru studdar af flestum vöfrum; virknin getur þó verið örlít
 
 Flýtivísanir sem hér er lýst vísa til bandarísks lyklaborðs. Uppsetning lykla í öðrum lyklaborðum gætu verið aðrir en lyklar á bandarísku lyklaborði.
 
-Flestir flýtileiðir eru þau sömu, hvort sem stýrikerfið er Windows eða macOS; þó eru nokkrir flýtileiðir sem eru öðruvísi fyrir macOS. Þær eru gefnar upp innan sviga í töflunum í kaflahlutunum hér að neðan.
+Flestir flýtileiðir eru þau sömu, hvort sem stýrikerfið er Windows eða MacOS; þó eru nokkrir flýtileiðir sem eru öðruvísi fyrir MacOS. Þær eru gefnar upp innan sviga í töflunum í kaflahlutunum hér að neðan.
 
 ##  <a name="Keyboard"></a> Almennar flýtivísanir
 Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi einingar á síðu, svo sem aðgerðir, fellilista, uppflettingar og fleira. Fyrir nánari upplýsingar um flýtivísanir til að fletta í færslum þegar farið er inn í lista skal sjá næsta kafla.
 
-|Ýttu á þessa takka|Til að gera þetta|  
+|Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|  
 |----------------|-----------|  
-|Alt+Q|Opna **Segðu mér hvað þú vilt gera** gluggann sem getur hjálpað þér að finna síðu, skýrslu, aðgerð á þessari síðu eða grein í skjölunum.|
+|Alt+Q<br />(Ctrl+Alt+Q)|Opna **Segðu mér hvað þú vilt gera** gluggann sem getur hjálpað þér að finna síðu, skýrslu, aðgerð á þessari síðu eða grein í skjölunum.|
+|Alt+Uppör|Sýna ábendingu fyrir reit eða dálkahaus í töflu. Ef reiturinn er með villur við villuleit skaltu ýta á „Alt+Uppör“ til að sýna villuna. Ýtt er á „Esc“ eða „Alt+Uppör“ til að loka ábendingunni.|
 |Dálklykill|Færa áhersluna á næstu stýringu eða einingu á síðu, t.d. aðgerðir, hnappa, reiti eða fyrirsagnir lista.|
 |SHIFT+DÁLKLYKILL|Færa brennidepil yfir á fyrri stjórnun eða einingu á síðu, svo sem aðgerðir, hnappa, reiti eða listahausa.|   
 |Færslulykill|Virkja eða fá aðgang að hlutanum eða stjórninni sem er í brennidepli.|   
 |Alt+Niðurör|Opna fellilistann eða skoða gildi fyrir reit.|    
 |Alt+hægri ör|Sjá færslurnar sem leiddu í reiknað gildi í reit.|  
+|F5|Endurnýja gögnin á núverandi síðu.|Notaðu þetta til að tryggja að gögnin á síðunni séu uppfærðar með þeim breytingum sem aðrir hafa gert á meðan þú ert að vinna.|
+|Ctrl+F5|Endurhlaða [!INCLUDE[prodshort](includes/prodshort.md)] forritið.|Þetta er svipað og að velja endurnýja/endurhlaða í vafranum.|
 |Esc|Loka núverandi síðu eða fellilista.|
 
 
@@ -126,7 +129,7 @@ Eftirfarandi tafla lýsir flýtivísunum sem hægt er að nota á listasíðu. A
 |ÖR UPP|Fletta upp síðuna.|
 |Hægri ör|Fletta til hægri þegar aðdráttur er aukinn á síðunni svo hún sjáist ekki að fullu. |
 |Vinstri ör|Fletta til vinstri þegar aðdráttur er aukinn á síðunni svo hún sjáist ekki að fullu. |
-|Ctrl+0 (núll)<br />(Cmd+0)|Passar allri síðunni í glugganum. |
+|Ctrl+0 (núll)<br />(Cmd+0)|Passar allri síðunni á síðunni. |
 |Ctrl+Heim<br />(Cmd+Heim)|Fara á fyrstu síðu skýrslunnar.|
 |Ctrl+End<br />(Cmd+Heim)|Fara á síðustu síðu skýrslunnar.|
 |Síða niður<br />(Fn+ör niður)|Fara á næstu síðu skýrslunnar.|

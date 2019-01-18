@@ -8,41 +8,41 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6207e13540e2eed5f7707c551c2772aed33c5540
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e00d7bb259ad8a8a494016746179b428b7975a8f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Afstemma greiðslur viðskiptamanna handvirkt úr lista yfir ógreidd söluskjöl
 Þegar viðskiptamenn hafa greitt inn á rafrænan bankareikning, verður að jafna hverja greidda upphæð við tengt söluskjal og bóka svo greiðsluna til að uppfæra viðskiptamann, fjárhag og bankafærslur. Það fer eftir þörfum fyrirtækis þíns, þú getur fengið greitt og skráð þessi greiðslu á mismunandi vegu: handvirkt, sjálfkrafa og með greiðsluþjónustu.  
 
 > [!NOTE]  
->   Þú getur framkvæmt sömu verk, þar á meðal greiðslur lánardrottins í **greiðsluafstemmingarbók** glugganum með því að nota aðgerð fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [Afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md).
+>   Þú getur framkvæmt sömu verk, þar á meðal greiðslur lánardrottins á síðunni **greiðsluafstemmingarbók** með því að nota aðgerð fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
-Glugginn **Skrá greiðslur viðskiptamanns** er hannaður til að styðja þig í verkum sem tengjast afstemmingu innri reikninga með því að nota raunverulegar reiðufjártölur til að ganga úr skugga um að greiðslur séu innheimtar á skilvirkan hátt frá viðskiptamönnum. Þetta greiðsluvinnsluverkfæri gerir þér kleift að staðfesta og bóka á skjótan hátt stakar- eða fastagreiðslur, meðhöndla greiðsluafslætti við mismunandi aðstæður og að finna ákveðin ógreidd fylgiskjöl sem greiðslur eru gerðar til.
+Síðan **Skrá greiðslur viðskiptamanns** er hönnuð til að styðja þig í verkum sem tengjast afstemmingu innri reikninga með því að nota raunverulegar reiðufjártölur til að ganga úr skugga um að greiðslur séu innheimtar á skilvirkan hátt frá viðskiptamönnum. Þetta greiðsluvinnsluverkfæri gerir þér kleift að staðfesta og bóka á skjótan hátt stakar- eða fastagreiðslur, meðhöndla greiðsluafslætti við mismunandi aðstæður og að finna ákveðin ógreidd fylgiskjöl sem greiðslur eru gerðar til.
 
 Greiðslur fyrir mismunandi viðskiptamenn, sem hafa mismunandi borgunardagsetningu, verður að bóka sem einstaka greiðslur. Greiðslur fyrir sama viðskiptamann, sem hafa sömu borgunardagsetningu, er hægt að bóka sem fastagreiðslu. Þetta er gagnlegt, til dæmis, ef viðskiptamaður hefur gert staka greiðslu sem nær yfir marga sölureikninga.
 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Uppsetning greiðsluskráningarbókar
-Þar sem hægt er að bóka nokkrar greiðslutegundir á nokkra mótreikninga verður að velja mótreikning í glugganum **Uppsetning skráningar greiðslna** áður en greiðslur viðskiptamanns eru unnar. Ef alltaf er bókað á sama mótreikninginn, er hægt að stilla þann reikning sem sjálfgefinn og forðast þetta skref í hvert sinn sem glugginn **Skrá greiðslur viðskiptamanna** er opnaður.  
+Þar sem hægt er að bóka nokkrar greiðslutegundir á nokkra mótreikninga verður að velja mótreikning á síðunni **Uppsetning skráningar greiðslna** áður en greiðslur viðskiptamanns eru unnar. Ef alltaf er bókað á sama mótreikninginn, er hægt að stilla þann reikning sem sjálfgefinn og forðast þetta skref í hvert sinn sem síðan **Skrá greiðslur viðskiptamanna** er opnuð.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning skráning greiðslna** og veldu síðan tengda hlekkinn.
 
-    Í **Skrá greiðslur viðskiptamanna** glugganum er einnig hægt að velja aðgerðina **Uppsetning**.    
-2. Reitirnir í glugganum **Uppsetning skráningar greiðslna** eru fylltir út. Velja reit til að lesa inn stutta lýsingu á reitunum eða tengja við tengdar upplýsingar.  
+    Á síðunni **Skrá greiðslur viðskiptamanna** er einnig hægt að velja aðgerðina **Uppsetning**.    
+2. Reitirnir á síðunni **Uppsetning skráningar greiðslna** eru fylltir út. Velja reit til að lesa inn stutta lýsingu á reitunum eða tengja við tengdar upplýsingar.  
 
 ## <a name="to-register-customer-payments-individually"></a>Til að skrá greiðslur viðskiptamanna hverja fyrir sig
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skrá viðskiptamannagreiðslur** og veldu síðan tengda tengilinn.  
- 
-    Síðan **Skrá greiðslur viðskiptamanns** sýnir öll bókuð skjöl sem hægt er að skrá greiðslu fyrir. Sama síðan er einnig í boði úr listanum **Viðskiptamenn** og viðskiptamannaspjaldinu þar sem það er sjálfkrafa síað fyrir hinn tilgreinda viðskiptamann.  
+
+    Síðan **Skrá greiðslur viðskiptamanns** sýnir öll bókuð skjöl sem hægt er að skrá greiðslu fyrir. Einnig er hægt að opna síðuna af **Viðskiptavinir** og **Viðskiptamannaspjald** síðunum þar sem þær eru sjálfkrafa síaðar fyrir tiltekinn viðskitamann.  
 2. Veljið gátreitinn **greiðsla framkvæmd** á línunni sem stendur fyrir bókaða fylgiskjalið sem borgun hefur verið gerð fyrir.
 
-    Ef gátreiturinn **sjálfvirk útfylling dagsetningar móttöku** er valinn í glugganum **uppsetning skráning greiðslna**, fyllist vinnudagsetningin út í reitnum **dagsetning móttöku**.  
+    Ef gátreiturinn **sjálfvirk útfylling dagsetningar móttöku** er valinn á síðunni **uppsetning skráning greiðslna**, fyllist vinnudagsetningin út í reitnum **dagsetning móttöku**.  
 3. Í reitnum **dagsetning móttöku**, færið inn dagsetninguna sem greiðslan var gerð á. Þessi dagsetning má vera önnur en vinnudagsetningin.  
 4. Í reitnum **móttekin upphæð**, færið inn upphæðina sem hefur verið greidd.
 
@@ -61,7 +61,7 @@ Greiðslufærslur eru bókaðar í fjárhags-, banka- og viðskipta- eða viðsk
     > [!NOTE]  
     >   Viðskiptamaðurinn í reitnum **Nafn** verður að vera eins í öllum línum sem verða bókaðar sem fastagreiðsla.  
 
-    Ef gátreiturinn **sjálfvirk útfylling dagsetningar móttöku** er valinn í glugganum **uppsetning skráning greiðslna** , fyllist vinnudagsetningin út í reitnum **dagsetning móttöku**.  
+    Ef gátreiturinn **sjálfvirk útfylling dagsetningar móttöku** er valinn á síðunni **uppsetning skráning greiðslna** fyllist vinnudagsetningin út í reitnum **dagsetning móttöku**.  
 3. Í reitnum **dagsetning móttöku**, færið inn dagsetninguna sem greiðslan var gerð á. Þessi dagsetning má vera önnur en vinnudagsetningin.  
 
     > [!NOTE]  
@@ -75,14 +75,14 @@ Greiðslufærslur eru bókaðar í fjárhags-, banka- og viðskipta- eða viðsk
 
 Greiðslufærslur eru bókaðar í fjárhags-, banka- og viðskiptavinalykil. Hver greiðsla er jöfnuð við tengt bókað söluskjal.  
 
-Ef greiðsla í bankanum er ekki tilgreind með línu í glugganum **Skráning greiðslna**, getur það verið vegna þess að tengt fylgiskjal hefur enn ekki verið bókað. Í því tilviki, er hægt að nota leitareiginleika til að finna skjalið hratt og bóka það til að meðhöndla greiðsluna. Nánari upplýsingar má nálgast á „Til að finna tiltekið söluskjal sem er ekki reikningsfært að fullu“. hlutanum.  
+Ef greiðsla í bankanum er ekki tilgreind með línu á síðunni **Skráning greiðslna**, getur það verið vegna þess að tengt fylgiskjal hefur enn ekki verið bókað. Í því tilviki, er hægt að nota leitareiginleika til að finna skjalið hratt og bóka það til að meðhöndla greiðsluna. Nánari upplýsingar má nálgast á „Til að finna tiltekið söluskjal sem er ekki reikningsfært að fullu“. hlutanum.  
 
-Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að opna fyrirfram útfyllta færslubók úr glugganum **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur. Frekari upplýsingar eru í hlutanum "Greiðslur skráðar eða bókaðar án tengdra fylgiskjala"  
+Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að opna fyrirfram útfyllta færslubók á síðunni **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur. Frekari upplýsingar eru í hlutanum "Greiðslur skráðar eða bókaðar án tengdra fylgiskjala"  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Meðhöndla greiðslur með afslætti handvirkt
 Ef samið hefur verið um greiðsluafslátt við viðskiptamanninn, getur greiðsluupphæðin verið lægri en reikningsupphæðin ef greiðslan á sér stað fyrir umsamda afsláttardagsetningu.  
 
-Þetta ferli útskýrir fjórar mismunandi aðferðir við bókun greiðsluafsláttar í glugganum **Greiðsluskráning**.  
+Þetta ferli útskýrir fjórar mismunandi aðferðir við bókun greiðsluafsláttar á síðunni **Greiðsluskráning**.  
 
 * Greiðsluupphæðin er jöfn hinni eftirstandandi afsláttarupphæð og dagsetning greiðslunnar er fyrir afsláttardagsetninguna. Greiðslan er bókuð eins og hún er.  
 * Greiðsluupphæðin er jöfn hinni eftirstandandi afsláttarupphæð, en dagsetning greiðslunnar er eftir afsláttardagsetninguna. Greiðslan er bókuð sem hlutagreiðsla. Fylgiskjalið er áfram opið til að innheimta/borga eftirstandandi upphæð. Að öðrum kosti er hægt að setja afsláttardagsetninguna síðar til leyfa greiðslu að fullu.  
@@ -103,12 +103,12 @@ Ef samið hefur verið um greiðsluafslátt við viðskiptamanninn, getur greið
 2. Færa inn reikningsupphæðina í reitinn **Móttekin upphæð**. Upphæðin er jöfn upphæðinni í reitnum **Eftirstöðvar eftir afslátt**.
 
     Gátreiturinn **Greiðsla framkvæmd** er valinn sjálfvirkt og reiturinn **Dagsetning móttöku** fyllist út með vinnudagsetningunni.
-3. Í reitnum **dagsetning móttöku**, færið inn dagsetningu greiðslu sem ber upp eftir dagsetningunni í reitnum **dagsetning greiðsluafsláttar**. Dagsetningareitum breytt í rauða leturgerð og villuboð birtast neðst í glugganum.
+3. Í reitnum **dagsetning móttöku**, færið inn dagsetningu greiðslu sem ber upp eftir dagsetningunni í reitnum **dagsetning greiðsluafsláttar**. Dagsetningareitum breytt í rauða leturgerð og villuboð birtast neðst á síðunni.
 
     > [!TIP]  
     >   Ef veita á undanþágu og gefa afslátt jafnvel þótt greiðslan berist seint, fylgið þessum skrefum:
 4. Valið er **Sundurliðun** aðgerð.  
-5. Í glugganum **upplýsingar um skráning greiðslna** í reitnum **dagsetning greiðsluafsláttar** á Flýtiflipanum **Greiðsluafsláttur**, setjið inn dagsetningu sem ber upp á eftir dagsetninguna í reitnum **dagsetning móttöku** í glugganum **skráning greiðslna**.  
+5. Á síðunni **upplýsingar um skráning greiðslna** í reitnum **dagsetning greiðsluafsláttar** á Flýtiflipanum **Greiðsluafsláttur**, setjið inn dagsetningu sem ber upp á eftir dagsetninguna í reitnum **dagsetning móttöku** á síðunni **skráning greiðslna**.  
 
     Villuboðið og rauða leturgerðin hverfa og nú er hægt að meðhöndla afsláttargreiðsluna.    
 6. Staðfestið að reiturinn **Eftirstandandi upphæð** inniheldur upphæðina sem eftir á að greiða af allri reikningsupphæðinni.  
@@ -139,11 +139,11 @@ Viðkomandi fylgiskjal er enn opið.
 Viðkomandi fylgiskjal er lokað og umframgreiðsluupphæðin er færð á viðskiptamanninn.  
 
 ## <a name="to-find-a-specific-sales-document-that-is-not-fully-invoiced"></a>Til að finna tiltekið söluskjal sem er ekki reikningsfært að fullu
-Glugganum **Skráning greiðslna** er ætlað að veita aðstoð í verkum sem þarf til að stemma af innanhúsreikninga með raunverulegum sjóðstölum til að tryggja skilvirka söfnun frá viðskiptamönnum. Það sýnir útistandandi væntanlega innkomu á línum sem tákna söluskjöl þar sem upphæð er fallinn á gjalddaga.  
+Síðunni **Skráning greiðslna** er ætlað að veita aðstoð í verkum sem þarf til að stemma af innanhúsreikninga með raunverulegum sjóðstölum til að tryggja skilvirka söfnun frá viðskiptamönnum. Það sýnir útistandandi væntanlega innkomu á línum sem tákna söluskjöl þar sem upphæð er fallinn á gjalddaga.  
 
-Venjulega, ef greiðsla hefur verið gerð, skráð í bankanum eða á annan hátt, eru tengd sölu eða innkaupaskjöl sýnd sem lína í glugganum **Skráning greiðslna** þar sem fylgiskjalið sem um ræðir bíður eftir að greiðslan sé bókuð gegn hinni útstandandi upphæð. Það getur hins vegar komið fyrir að greiðslur eru ekki sýndar sem línur í glugganum **Skráning greiðslna**, yfirleitt vegna þess að ekki hefur verið lokið við bókun reiknings í hinu umrædda skjali.
+Venjulega, ef greiðsla hefur verið gerð, skráð í bankanum eða á annan hátt, eru tengd sölu eða innkaupaskjöl sýnd sem lína á síðunni **Skráning greiðslna** þar sem fylgiskjalið sem um ræðir bíður eftir að greiðslan sé bókuð gegn hinni útstandandi upphæð. Það getur hins vegar komið fyrir að greiðslur eru ekki sýndar sem línur á síðunni **Skráning greiðslna**, yfirleitt vegna þess að ekki hefur verið lokið við bókun reiknings í hinu umrædda skjali.
 
-Í glugganum **Leit í skjali** er hægt að leita meðal skjala sem ekki eru enn reikningsfærð að fullu. Hægt er framkvæma leit út frá einu eða fleiri eftirfarandi gildum:  
+Á síðunni **Leit í skjali** er hægt að leita meðal skjala sem ekki eru enn reikningsfærð að fullu. Hægt er framkvæma leit út frá einu eða fleiri eftirfarandi gildum:  
 
 * Númer skjals  
 * Upphæð eða svið upphæðar  
@@ -152,7 +152,7 @@ Eftirfarandi aðgerð útskýrir hvernig skal finna tiltekið fylgiskjal með þ
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skráning greiðslna** og veldu síðan tengda hlekkinn.
 2. Með bendilinn á hvaða línu sem er, veldu aðgerðina **Leita í fylgiskjölum**.
-3. Í glugganum **Leit í Skjölum**, færið inn leitargildi í reitinn **Númer fylgiskjals**.  
+3. Á síðunni **Leit í Skjölum**, færið inn leitargildi í reitinn **Númer fylgiskjals**.  
 
     > [!NOTE]  
     >   Faldir algildisstafir eru meðfylgjandi í gildinu sem fært er í þennan reit. Þetta þýðir að aðgerðin leitar eftir öllum fylgiskjalsnúmerum sem innihalda gildið sem fært var inn.    
@@ -164,24 +164,24 @@ Eftirfarandi aðgerð útskýrir hvernig skal finna tiltekið fylgiskjal með þ
 
 Leitareiginleikinn leitar í skjölum sem ekki eru enn reikningsfærð að fullu samkvæmt tilgreindum leitarskilyrðum.  
 
-Ef fleiri en eitt fylgiskjal svarar leitarskilyrðunum, opnast glugginn **Niðurstöður skjalaleitar** sem sýnir línur sem tilgreina viðkomandi fylgiskjöl. Hver lína inniheldur númer fylgiskjals, lýsingu og upphæð svo auðveldlega sé hægt að finna tilgreint fylgiskjal, t.d. byggt á upplýsingum á bankayfirliti.  
+Ef fleiri en eitt fylgiskjal svarar leitarskilyrðunum, opnast síðan **Niðurstöður skjalaleitar** sem sýnir línur sem tilgreina viðkomandi fylgiskjöl. Hver lína inniheldur númer fylgiskjals, lýsingu og upphæð svo auðveldlega sé hægt að finna tilgreint fylgiskjal, t.d. byggt á upplýsingum á bankayfirliti.  
 
-Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að opna fyrirfram útfyllta færslubók úr glugganum **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur.  
+Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að opna fyrirfram útfyllta færslubók á síðunni **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur.  
 
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Greiðslur skráðar eða bókaðar án tengdra fylgiskjala
-Ef greiðsla í bankanum er ekki til í formi neins skjals í [!INCLUDE[d365fin](includes/d365fin_md.md)] getur þú opnað færslubókarlínu sem þegar er útfyllt úr **Skráning greiðslna** glugganum til að bóka greiðsluna beint á mótreikninginn án þess að jafna greiðsluna á skjali. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið skýrður.  
+Ef greiðsla í bankanum er ekki til í formi neins skjals í [!INCLUDE[d365fin](includes/d365fin_md.md)] getur þú opnað færslubókarlínu sem þegar er útfyllt af **Skráning greiðslna** síðunni til að bóka greiðsluna beint á mótreikninginn án þess að jafna greiðsluna á skjali. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið skýrður.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skráning greiðslna** og veldu síðan tengda hlekkinn.  
 
     Skráið svo óskjalaða greiðslu.  
 2. Valið er **Færslubók** aðgerð.  
 
-    Glugginn **almenn færslubók** opnast með eina línu fyrirfram útfyllta með mótreikningi bókarkeyrslunnar sem er sett upp í glugganum **uppsetning skráningar greiðslna**.  
+    Síðan **almenn færslubók** opnast með eina línu fyrirfram útfyllta með mótreikningi bókarkeyrslunnar sem er sett upp á síðunni **uppsetning skráningar greiðslna**.  
 3. Fylla skall inn í eftirstandandi reiti á færslubókarlínu, eins og upphæðina og viðskiptamannanúmer eða aðrar upplýsingar af bankayfirlitinu. Frekari upplýsingar, sjá [Bóka færslu beint yfir í Fjárhag](finance-how-post-transactions-directly.md).  
 
 Hægt er að annað hvort bóka færslubókarlínuna til að uppfæra heildarupphæðina á mótreikningnum. Að öðrum kosti er hægt að skilja færslubókarlínuna eftir óbókaða og ef til vill bæta við athugasemd um að greiðslan þarfnist frekari skoðunar.  
 
-Ef færslubókarlínan er óbókuð, bætir hún við gildinu úr reitnum **óbókuð staða** á botni gluggans **skráning greiðslna**.  
+Ef færslubókarlínan er óbókuð, bætir hún við gildinu úr reitnum **óbókuð staða** neðst á síðunni **skráning greiðslna**.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skulda](receivables-manage-receivables.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fc3f1c3d8a8baab17695c22afb00c35413504ce8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Hönnunarupplýsingar: Flutningur í áætlun
@@ -33,7 +33,7 @@ Millifærslupöntun lítur svipað út eins aðrar pantanir í forritinu. Hins v
 
 Eitt grundvallaratriði sem greinir millifærslur í áætlun frá innkaupa- og framleiðslupöntununum er að millifærslulína stendur samtímis fyrir eftirspurn og framboð. Sá hluti sem er á útleið, sem er fluttur af fyrri staðsetningunni, er eftirspurnin. Hlutinn á innleið, sem á að taka við á nýju staðsetningunni, er birgðir á þeirri staðsetningu.  
 
-![Innihald glugga flutningspöntunar](media/nav_app_supply_planning_7_transfers3.png "Innihald glugga flutningspöntunar")  
+![Innihald flutningspöntunarsíðu](media/nav_app_supply_planning_7_transfers3.png "Innihald flutningspöntunarsíðu")  
 
 Þetta þýðir að þegar kerfið vinnur á framboðshlið flutningsins, verður það að gera svipaða breytingu á eftirspurnarhlið.  
 
@@ -64,7 +64,7 @@ Flutningsstigskóði er innri reitur sem er reiknaður sjálfkrafa og vistaður 
 
 Flutningsstigskóði verður 0 fyrir birgðahaldseiningar með áfyllingarkerfi, Innkaupa- eða Framl.pöntun og verður -1 fyrir fyrsta flutningsstigið, -2 fyrir það næsta o.s.frv. Í flutningskeðju sem lýst er hér að ofan, stigið væri því -1 fyrir rautt og -2 til Green, eins og sést á eftirfarandi mynd.  
 
-![Innihald glugga birgðahaldseiningaspjalds](media/nav_app_supply_planning_7_transfers6.gif "Innihald glugga birgðahaldseiningaspjalds")  
+![Innihald síðu birgðahaldseiningaspjalds](media/nav_app_supply_planning_7_transfers6.gif "Innihald síðu birgðahaldseiningaspjalds")  
 
 Þegar birgðahaldseining er endurnýjuð greinir áætlanakerfið hvort birgðahaldseiningar með uppsettu áfyllingarkerfi millifærsla eru settar upp með hringlaga tilvísunum.  
 
@@ -135,7 +135,7 @@ Eftirfarandi mynd sýnir túlkun á tíma upphafsdagsetningar og tíma lokadagse
 * Lokadagsetning + Afgreiðslutími inn í vöruhús = Móttökudagsetning  
 
 ## <a name="safety-lead-time"></a>Öryggisforskot  
-Reiturinn Sjálfgefið öryggisforskot í glugganum Uppsetning framleiðslu og tengdi reiturinn Öryggisforskot á vöruspjaldinu mun ekki taka tillit til við útreikning á að millifærslupöntun. Hins vegar hefur öryggisafhendingartíminn áfram áhrif á heildaráætlunina eins og hann hefur áhrif á áfyllingarpöntunina (kaup eða framleiðslu) í upphafi flutningskeðjunnar þegar vörurnar eru settar á staðinn þaðan sem þær verða fluttar.  
+Reiturinn Sjálfgefið öryggisforskot á síðunni Uppsetning framleiðslu og tengdi reiturinn Öryggisforskot á vöruspjaldinu mun ekki taka tillit til við útreikning á að millifærslupöntun. Hins vegar hefur öryggisafhendingartíminn áfram áhrif á heildaráætlunina eins og hann hefur áhrif á áfyllingarpöntunina (kaup eða framleiðslu) í upphafi flutningskeðjunnar þegar vörurnar eru settar á staðinn þaðan sem þær verða fluttar.  
 
 ![Einingar flutningsgjalddaga](media/nav_app_supply_planning_7_transfers14.png "Einingar flutningsgjalddaga")  
 

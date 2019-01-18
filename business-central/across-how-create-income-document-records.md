@@ -13,14 +13,14 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de7ad97401529b4dd05bc40daf16df0fe7cd6fb1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33ca7a06aa8c903bb6f65af298748417ac460f63
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-incoming-document-records"></a>Stofna færslur skjala á innleið
-Í glugganum **Skjöl á innleið** er hægt að nota ólíkar aðgerðir til að yfirfara kostnaðarkvittanir, sýsla með OCR-verk og breyta skjölum á innleið, handvirkt eða sjálfvirkt, yfir í viðkomandi skjöl eða færslubókarlínur í. Ytri skrárnar er hægt að hengja við tengd skjöl á öllum stigum úrvinnslunnar, þ.m.t. við bókuð skjöl og við færslur lánardrottins, viðskiptamanns eða fjárhags sem verða til.
+Á síðunni **Skjöl á innleið** er hægt að nota ólíkar aðgerðir til að yfirfara kostnaðarkvittanir, sýsla með OCR-verk og breyta skjölum á innleið, handvirkt eða sjálfvirkt, yfir í viðkomandi skjöl eða færslubókarlínur í. Ytri skrárnar er hægt að hengja við tengd skjöl á öllum stigum úrvinnslunnar, þ.m.t. við bókuð skjöl og við færslur lánardrottins, viðskiptamanns eða fjárhags sem verða til.
 
 Til að skrá ytra skjal í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður fyrst að stofna eða ljúka við færslu fyrir skjal á innleið. Þú getur gert þetta með handvirkt, eða þú getur tekið mynd af ytra skjal og síðan að búa til skjal á innleið með myndaskrá í viðhengi.
 
@@ -40,7 +40,7 @@ Ef færsla skjals á innleið er samþykkt er gátreiturinn **Losað** á línu 
 
 1. Á forritastikunni skal velja **Stofna skjal á innleið úr myndavél** reitinn og fara svo í skref 4..
 2. Að öðrum kosti skal á forritastikunni velja valkostahnappinn, velja **Skjöl á innleið** og velja svo **Öll**.
-3. Í glugganum **Skjöl á innleið** skal velja úrfellingarmerkishnappinn og svo **Stofna úr myndavél**. Kveikt er á myndavél spjaldtölvu eða síma.
+3. Á síðunni **Skjöl á innleið** skal velja úrfellingarmerkishnappinn og svo **Stofna úr myndavél**. Kveikt er á myndavél spjaldtölvu eða síma.
 4. Takið mynd af skjali, t.d. innkaupakvittun, sem á að vinna sem skjal á innleið, og veljið svo hnappur **Í lagi**.
 
     Ný færsla skjals á innleið er stofnað með mynd í viðhengi.
@@ -51,7 +51,7 @@ Ef færsla skjals á innleið er samþykkt er gátreiturinn **Losað** á línu 
 
 1. Á forritastikunni velja valkostahnappinn, velja **Skjöl á innleið** og velja svo **Öll**.
 2. Opnið kort fyrir fyrirliggjandi færsla skjal á innleið.
-3. Í glugganum **Skjal á innleið** skal velja úrfellingarmerkishnappinn og svo **Hengja við mynd úr myndavél**. Kveikt er á myndavél spjaldtölvu eða síma.
+3. Á síðunni **Skjal á innleið** skal velja úrfellingarmerkishnappinn og svo **Hengja við mynd úr myndavél**. Kveikt er á myndavél spjaldtölvu eða síma.
 4. Takið mynd af skjali, t.d. innkaupakvittun, sem á að vinna sem skjal á innleið, og veljið svo hnappur **Í lagi**.
 
     Myndin er hengja við færsla skjal á innleið.
@@ -59,11 +59,11 @@ Ef færsla skjals á innleið er samþykkt er gátreiturinn **Losað** á línu 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Tila ð búa til færslu skjals á innleið handvirkt
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skjöl á innleið** og veldu síðan tengda tengilinn.
 2. Aðgerðin **Stofna úr Skrá** er valin.  
-3. Í glugganum **Setja inn skrá** skal velja skrána sem táknar skjalið á innleið og svo hnappinn **Opna**. Skráin er hengd við sjálfkrafa.
+3. Á síðunni **Setja inn skrá** skal velja skrá og svo **Opna**. Skráin er hengd við sjálfkrafa.
 4. Einnig er hægt að velja aðgerðina **Nýtt**.
 5. Ef tengja á skrá, skal velja **Tengja Skrá** aðgerð.
-6. Í glugganum **Setja inn skrá** skal velja skrána sem táknar skjalið á innleið og svo hnappinn **Opna**.
-7. Í glugganum **Skjal á innleið** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Á síðunni **Setja inn skrá** skal velja skrána sem táknar skjalið á innleið og svo hnappinn **Opna**.
+7. Á síðunni **Skjal á innleið** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinnsla skjala á innleið](across-process-income-documents.md)  

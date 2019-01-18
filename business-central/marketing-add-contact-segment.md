@@ -13,18 +13,18 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fd6ff4b937b059980bf7fb6a41f000edc1ab1fcf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ba4ed0971711a1f7a827ec4ea4e42f2013a51cfd
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Bæta tengiliðum við hluta
-Þegar hluti hefur verið stofnaður og gunnupplýsingar um hann færðar inn er tengiliðum gjarnan bætt við hlutann. Það er hægt að gera það handvirkt í glugganum **Hluti** en það er auðveldara og fljótlegra að nota aðgerðina **Bæta við tengiliðum**.
+Þegar hluti hefur verið stofnaður og gunnupplýsingar um hann færðar inn er tengiliðum gjarnan bætt við hlutann. Það er hægt að gera það handvirkt á síðunni **Hluti** en það er auðveldara og fljótlegra að nota aðgerðina **Bæta við tengiliðum**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Til að bæta tengilið við hluta
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **hlutar** og veldu síðan tengda tengilinn.  
-2. Veljið hlutann og veljið svo aðgerðina **Bæta við tengiliðum**. Runuvinnsluglugginn **Bæta við tengiliðum** opnast.
+2. Veljið hlutann og veljið svo aðgerðina **Bæta við tengiliðum**. Runuvinnslusíðan **Bæta við tengiliðum** opnast.
 3. Í hlutanum **Tengiliður** skal setja upp afmarkanir til að tilgreina þær upplýsingar sem á að nota til að velja tengiliði.
 
 Til að setja inn fleiri afmarkanir, endurtakið þessa aðgerð í hverjum hluta sem eftir er og veljið svo hnappinn **Í lagi**.
@@ -32,10 +32,10 @@ Til að setja inn fleiri afmarkanir, endurtakið þessa aðgerð í hverjum hlut
 Veljið aðgerðina **Fara til baka** hafi tengiliðum verið bætt við fyrir misgáning og fara á til baka um eitt þrep.
 
 ## <a name="to-refine-the-number-of-contacts"></a>Til að fínstilla fjölda tengiliða
-Þegar tengiliðir hafa verið valdir í hluta gæti þurft að fjarlægja einhverja af þeim en halda öðrum. Hægt er að fjarlægja tengiliði handvirkt úr línunum í glugganum **Hluti** en það er auðveldara og fljótlegra að nota aðgerðina **Fínstilla tengiliði**.
+Þegar tengiliðir hafa verið valdir í hluta gæti þurft að fjarlægja einhverja af þeim en halda öðrum. Hægt er að fjarlægja tengiliði handvirkt úr línunum á síðunni **Hluti** en það er auðveldara og fljótlegra að nota aðgerðina **Fínstilla tengiliði**.
 
 1. Opnið hlutann.
-2. Veljið **Tengiliðir**, og veljið svo aðgerðina **Fínstilla tengiliði**. Glugginn **Fjarlægja tengiliði - Fínstilla** birtist.
+2. Veljið **Tengiliðir**, og veljið svo aðgerðina **Fínstilla tengiliði**. Síðan **Fjarlægja tengiliði - Fínstilla** birtist.
 3. Í hlutanum **Tengiliður** eru færðar inn afmarkanir til að tilgreina þær upplýsingar sem nota á til að velja tengiliðina sem fjarlægja á úr hlutanum.
 4. Bætið við öðrum afmörkunum eftir þörfum, og veljið svo hnappinn **Í lagi**.
 
@@ -44,10 +44,10 @@ Hægt er að fínstilla hluta eins oft og óskað er eftir. Smellt er á aðger�
 Hægt er að sjá lista yfir þær hlutunarviðmiðanir sem notaðar hafa verið með því að velja svæðið **Fjöldi viðmiðunaraðgerða** á svæðinu **Almennt**.
 
 ## <a name="to-reduce-the-number-of-contacts"></a>Til að minnka fjölda tengiliða
-Þegar tengiliðir hafa verið valdir í hluta gæti þurft að fjarlægja einhverja af þeim. Hægt er að gera þetta með því að fjarlæga þær handvirkt úr línunum í glugganum Hluti, en einfaldast og fljótlegast er að nota aðgerðina Fækka tengiliðum til að tilgreina hvaða tengiliði á að fjarlægja og nota aðgerðina Fínstilla tengiliði til að tilgreina hvaða tengiliðum á að halda.
+Þegar tengiliðir hafa verið valdir í hluta gæti þurft að fjarlægja einhverja af þeim. Hægt er að gera þetta með því að fjarlæga þær handvirkt úr línunum á síðunni Hluti, en einfaldast og fljótlegast er að nota aðgerðina Fækka tengiliðum til að tilgreina hvaða tengiliði á að fjarlægja og nota aðgerðina Fínstilla tengiliði til að tilgreina hvaða tengiliðum á að halda.
 
 1. Opnið hlutann.
-2. Veldu tengiliði og veldu síðan aðgerðina **Minnka tengiliði**. Glugginn **Fjarlægja tengiliði - Fækka** opnast.
+2. Veldu tengiliði og veldu síðan aðgerðina **Minnka tengiliði**. Síðan **Fjarlægja tengiliði - Fækka** opnast.
 3. Í hlutanum **Tengiliður** eru færðar inn afmarkanir til að tilgreina þær upplýsingar sem nota á til að velja tengiliðina sem fjarlægja á úr hlutanum.
 4. Bætið við öðrum afmörkunum eftir þörfum, og veljið svo hnappinn **Í lagi**.
 

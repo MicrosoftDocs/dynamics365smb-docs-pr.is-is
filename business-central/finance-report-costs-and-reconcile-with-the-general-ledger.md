@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e8072a9e21349f3a8e8f9d21f5b011bae72a69e0
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1b2a83ddbac54d5034b043c3124f698613be4642
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Tilkynna kostnað og afstemma við fjárhag
@@ -31,7 +31,7 @@ Við lok mánaðarlegra, árlegra eða annarra bókhaldstímabila þarf að fram
 |Skoða birgðamat valinna vara, þ.m.t. raunkostnað og væntanlegan kostnað þeirra á valinni dagsetningu.|**Verðm. birgða - Lýsing kostn.** skýrsla|  
 |Nota skýrslu til að finna ástæður fyrir kostnaðarfrávikum eða fá innsýn í kostnaðarhlut seldra vara.|**Sundurliðun kostnaðarhlutdeild** skýrsla|  
 |Bóka reglulega virðisfærslur um hreyfingar á þjónustuvörum úr birgðabókinni í viðeigandi fjárhagsreikninga til að afstemma fjárhaginn.|[Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Nota einn glugga til að endurskoða afstemmingu á milli birgðabókar og fjárhags.|[Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Nota skal eina síðu til að endurskoða afstemmingu á milli birgðabókar og fjárhags.|[Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Ákveða VÍV-upphæð sem þarf að bóka í efnahagsreikninginn til skýrslugerðar í lok tímabils.|[Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Sjá einnig  

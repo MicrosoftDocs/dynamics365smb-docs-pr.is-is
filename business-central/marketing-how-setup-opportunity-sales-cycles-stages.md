@@ -11,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 34262b070ea19b5f109c9194d6a91ef048132e6b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Setja upp söluferla tækifæris og söluþrep
@@ -25,13 +25,13 @@ Innleiðing söluferla fyrir tækifæri felur í sér að setja upp söluferli, 
 Þetta efnisatriði lýsir því líka hvernig skal setja upp verkhluta og aðgerðir og hvernig skal úthluta verkhlutum og aðgerðum. Nánari upplýsingar er að finna í „Að setja upp aðgerðir með verkhlutum" liðnum.
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Uppsetning söluferlakóða tækifæris
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söluferli** og veldu síðan tengda tengilinn. **Söluferli** glugganum opnast og birtir lista yfir öll fyrirliggjandi söluferlum.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söluferli** og veldu síðan tengda tengilinn. Síðan **Söluferli** opnast og birtir lista yfir öll fyrirliggjandi söluferli.
 2. Valið er **Nýtt** aðgerð og fyllt er inn í reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Þessi skref eru endurtekin til að setja upp eins mörg söluferli og óskað er eftir. Þegar söluferli tækifæra hafa verið settir upp gæti verið ráðlegt að setja upp mismunandi þrep innan hvers ferils.
 
 ## <a name="to-define-opportunity-sales-cycle-stages"></a>Skilgreina Söluferlisþrep tækifæra
-1. Í glugganum **söluferli** skal velja söluferli tækifæris fyrir hvað þú vilt setja upp þrep, og velja síðan aðgerðina **þrep**. Glugginn **Söluferlisþrep** birtist.
+1. Á síðunni **Söluferli** skal velja söluferli tækifæris fyrir hvað þú vilt setja upp þrep, og velja síðan aðgerðina **Þrep**. Síðan **Söluferlisþrep** birtist.
 2. Smellt er á aðgerina **Nýtt** til að færa inn nýtt þrep í söluferlið.
 
 Skrefin eru endurtekin til að setja upp eins mörg þrep og óskað er eftir innan söluferlisins.
@@ -54,13 +54,13 @@ Eftir að þú bætir við þrepaferli tækifæris geturðu byrjað að bæta vi
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tækifæri** og veldu síðan tengda tengilinn.
 2. Veljið tækifæri og veljið svo aðgerðina **Verkhlutar**.
-3. Í **Verkhlutalisti** velurðu aðgerðina **Búa til Verkhluti**.
-4.  Í glugganum **Stofna verkhluta** skal fylla inn í reitina eins og þörf krefur.
+3. Á síðunni **Verkhlutalisti** velurðu aðgerðina **Stofna verkhluta**.
+4.  Á síðunni **Stofna verkhluta** skal fylla inn í reitina eins og þörf krefur.
 
     Athugið að reitnum **Tækifæri** er sjálfkrafa úthlutað á tækifærið sem um ræðir.
 5. Velja hnappinn **Í lagi**.
-6. Í **Verkhlutalisti** glugganum, valin er nýr verkhluti og síðan **úthluta aðgerðir** aðgerð.
-7. Í glugganum **Úthluta aðgerð** skal fylla út reitina eftir þörfum og velja síðan hnappinn **Í lagi**.
+6. Á síðunni **Verkhlutalisti** skal velja nýjan verkhluta og síðan aðgerðina **Úthluta aðgerðum**.
+7. Á síðunni **Úthluta aðgerð** skal fylla út reitina eftir þörfum og smellið veljið síðan hnappinn **Í lagi**.
 
 ## <a name="see-also"></a>Sjá einnig
 [Meðhöndla sölutækifæri](marketing-processing-sales-opportunities.md)  

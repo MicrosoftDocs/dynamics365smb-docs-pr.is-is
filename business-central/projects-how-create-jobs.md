@@ -13,10 +13,10 @@ ms.search.keywords: project management, task
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8c7af2db512927f575f62d40265ea2def6b7dc2c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-jobs"></a>Stofna verk
@@ -42,7 +42,7 @@ Stofnað er verkspjald og svo eru stofnaðar verkhlutalínur og áætlunarlínur
 >   Ef vinnuskýrslur eru notaðar í verkinu þarf einnig að tilnefna ábyrgan aðila. Einstaklingurinn getur samþykkt vinnuskýrslur fyrir starfsmannaverkefni sem tengjast verkinu. Frekari upplýsingar eru í [Setja upp vinnukort](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Til að búa til verkhluta fyrir verk
-Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur í sér. Þetta er gert með því að bæta við nýjum línum á flýtiflipanum **Verkhlutar** í glugganum **Verkspjald**, eitt verk í hverri línu. Hvert verk verður að hafa að minnsta kosti einn verkhluta.
+Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur í sér. Þetta er gert með því að bæta við nýjum línum á flýtiflipanum **Verkhlutar** á síðunni **Verkspjald**, eitt verk í hverri línu. Hvert verk verður að hafa að minnsta kosti einn verkhluta.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.
 2. Opnið verkspjaldið fyrir viðeigandi verk.
@@ -67,7 +67,7 @@ Hægt er að fínstilla nýja verkhluta á áætlunarlínum verksins. Áætlunar
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.
 2. Opnið viðeigandi verkspjald.
 3. Valinn er verkhluti þar sem reiturinn **Verkhlutagerð** inniheldur **Bókuð** og svo er aðgerðin **Verkhlutalínur** valin.  
-4. Í glugganum **Verkáætlunarlínur** skal fylla út reitina eins og þörf krefur í nýrri línu.
+4. Á síðunni **Verkáætlunarlínur** skal fylla út reitina eins og þörf krefur í nýrri línu.
 5. Endurtakið skref 3 og 4 fyrir allar verkhlutalínur sem þarf fyrir verkhlutann.
 
 ## <a name="see-also"></a>Sjá einnig

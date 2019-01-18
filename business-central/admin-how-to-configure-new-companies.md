@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="configure-new-companies"></a>Grunnstilla ný fyrirtæki
@@ -38,7 +38,7 @@ Allar töflurnar sem búið er að tákna að verði teknar með í nýja fyrirt
 ## <a name="to-apply-package-data"></a>Til að nota pakkagögn  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
 2. Valin er tafla þar sem á að breyta gögnum og svo er valin aðgerðin **Nota gögn**. Velja hnappinn **Já** til að staðfesta jöfnun.
-3. Til að staðfesta að gögnin séu nú í gagnagrunninum og að jöfnunin hafi tekist skal fara aftur í gluggann **Grunnstillingarvinnublað** og velja aðgerðina **Gagnagrunnsgögn**.  
+3. Til að staðfesta að gögnin séu nú í gagnagrunninum og að jöfnunin hafi tekist skal fara aftur á síðuna **Grunnstillingarvinnublað** og velja aðgerðina **Gagnagrunnsgögn**.  
 
 > [!NOTE]  
 >  Eftir að gögn hafa verið notuð, er aðeins hægt að skoða þau í gagnagrunninum. Hún er ekki lengur í pakkanum.  
@@ -46,9 +46,9 @@ Allar töflurnar sem búið er að tákna að verði teknar með í nýja fyrirt
 ## <a name="to-modify-and-apply-package-data"></a>Til að breyta og nota gögn pakka  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.  
 2. Valin er tafla þar sem á að breyta gögnum og svo velja aðgerðina **Pakkagögn**.  
-3. Gera skal breytingarnar í glugganum **Grunnstilling pakkafærslna**. Til dæmis er hægt að eyða valkostum sem eiga ekki við.  
+3. Gera skal breytingarnar á síðunni **Grunnstilling pakkafærslna**. Til dæmis er hægt að eyða valkostum sem eiga ekki við.  
 4. Veldu aðgerðina **Nota gögn** og veldu síðan hnappinn **Í lagi**.  
-5. Til að staðfesta að gögnin séu nú í gagnagrunninum og að jöfnunin hafi tekist skal fara aftur í gluggann **Grunnstillingarvinnublað** og velja aðgerðina **Gagnagrunnsgögn**.  
+5. Til að staðfesta að gögnin séu nú í gagnagrunninum og að jöfnunin hafi tekist skal fara aftur á síðuna **Grunnstillingarvinnublað** og velja aðgerðina **Gagnagrunnsgögn**.  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Til þess að finna og auðkenna skilgreiningarvillu  
 Ákveðnar villugerðir geta komið upp þegar gögn eru notuð á gagnagrunn. Algengasta villan er að nauðsynlegar tengdar töflur voru ekki innifaldar. Þannig vilur eru lagaðar í grunnstillingarvinnublaðinu.
@@ -58,7 +58,7 @@ Allar töflurnar sem búið er að tákna að verði teknar með í nýja fyrirt
 
     Allar töflur sem er með villur eru auðkenndar. Fjölda pakkavillna birtist í reitnum **Fjöldi pakkavillna**.  
 
-3. Velja reitinn **Fj. pakkavilla** til að opna gluggann **Grunnstillingar pakkafærslna** sem sýnir færslur með villum.  
+3. Velja reitinn **Fj. pakkavilla** til að opna síðuna **Grunnstillingar pakkafærslna** sem sýnir færslur með villum.  
 
 ### <a name="to-fix-an-error"></a>Til að laga villu  
 1. Opna fyrirtækið sem grunnstillingapakkinn er byggður á.  

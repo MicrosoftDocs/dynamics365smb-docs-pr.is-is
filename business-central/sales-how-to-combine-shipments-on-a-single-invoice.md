@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 429002d1eb6bfa487e5a21e54964ce33de175441
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 914196e61a4f1c3647fdca76133dbb5612ce87c8
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Sameina afhendingar einn reikning
@@ -38,8 +38,8 @@ Eigi að reikningsfæra fleiri en eina afhendingu saman er hægt að nota eiginl
 7. Til að bóka reikningur er valið aðgerðin **bóka**.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Til að sameina afhendingar sjálfkrafa á einn reikning  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sameina afhendingar** og veldu síðan tengda tengilinn. Keyrslubeiðnaglugginn  opnast.  
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sameina afhendingar** og veldu síðan tengda tengilinn. Síðan fyrir keyrslubeiðniglugga opnast.  
+2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Velja skal gátreitinn **Bóka reikninga**.  
 4.  Velja hnappinn **Í lagi**.  
 

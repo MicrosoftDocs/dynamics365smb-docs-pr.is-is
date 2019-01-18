@@ -12,10 +12,10 @@ ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 0196bff5dedb878884fd3d6e0208022faa968dfd
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
 ms.contentlocale: is-is
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Tengja Power BI við efnispakka Dynamics 365 Business Central
@@ -29,7 +29,7 @@ Notandi verður að vera með gildan reikning hjá Dynamics 365 og hjá Power BI
 
 Þú gætir líka komið þér af stað inn í Dynamics 365 Business Edition. Frá hlutverkamiðstöðinni skal fletta að **Skýrsluval** í hluta Power BI hlutverkamiðstöðvar. Veldu annað hvort **Þjónusta** eða **Mitt fyrirtæki** frá borðanum. Þegar önnur hvor þessara aðgerða er valin verður þér vísað annað hvort á fyrirtækisgalleríð í Power BI eða þjónustusafnið í Power BI, sem einnig verður síað til að aðeins birta efnispakka sem tengjast [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-2. Í **Þjónusta** reitnum er valið **Sækja**. Þá er gluggi opnaður með **AppSource** og **Forrit fyrir Power BI forrit**.  
+2. Í **Þjónusta** reitnum er valið **Sækja**. Þá er síða opnuð með **AppSource** og **Forrit fyrir Power BI forrit**.  
 ![Velja efnispakka frá netþjónustum](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Veldu **Forrit** af flipanum **Forrit fyrir Power BI forrit**, veldu efnispakkann **Microsoft Dynamics 365 Business Central** sem þú vilt nota og veldu síðan **Fá hann núna**.  
 ![Velja Dynamics 365 Business Central og velja Fá núna](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)

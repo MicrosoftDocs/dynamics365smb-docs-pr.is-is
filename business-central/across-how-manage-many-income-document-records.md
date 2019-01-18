@@ -13,14 +13,14 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 121483c36152da6a96979d13417b0d88c938cecb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97ca5aab24b04f6c2d0677c6fd9626b93fcd8ca8
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-many-incoming-document-records"></a>Vinna með margar færslur skjala á innleið
-Þegar þú býrð til eða vinnur færslur fyrir skjal á innleið, fjöldi lína í glugga  **skjal á innleið** vaxa að marki þar sem þú tapar yfirsýn. Þess vegna getur þú stillt færslur fyrir skjal á innleið sem unnið, til að fjarlægja þá úr sjálfgefna yfirlitinu. Þegar valið er **Sýna Allt** aðgerð, geturðu skoðað bæði unnar og óunnar færslur.
+Þegar þú býrð til eða vinnur færslur fyrir skjal á innleið, getur fjöldi lína á síðunni **Skjöl á innleið** vaxið að marki þar sem þú tapar yfirsýn. Þess vegna getur þú stillt færslur fyrir skjal á innleið sem unnið, til að fjarlægja þá úr sjálfgefna yfirlitinu. Þegar valið er **Sýna Allt** aðgerð, geturðu skoðað bæði unnar og óunnar færslur.
 
 > [!NOTE]  
 >   Ekki er hægt að breyta upplýsingum, hengja við skrár eða framkvæma aðra vinnslu á færslum fyrir skjöl á innleið sem eru stillt á unnið. Fyrst þarf að stilla hana á óunnið.
@@ -28,29 +28,29 @@ ms.lasthandoff: 03/22/2018
 **Úrvinnsla** gátreiturinn er sjálfkrafa valinn fyrir færslur fyrir skjal á innleið sem hafa verið unnar, en einnig er hægt að haka við eða afhaka gátreitinn handvirkt. Það fer eftir viðskiptaferli þínu, hvort færsla fyrir skjal á innleið geti verið unnið þegar tengt skjal hefur verið stofnað fyrir hana eða skrá hengd við.
 
 > [!NOTE]  
->   Þegar glugginn **Skjöl á innleið** er opnaður með **Mín skjöl á innleið** aðgerð í hlutverkamiðstöð, eru aðeins óunnar færslur fyrir skjöl á innleið sýndar sjálfgefið. Vísað er í þetta í þesssu efnisatriði sem "sjálfgefna yfirlitið".
+>   Þegar síðan **Skjöl á innleið** er opnuð með **Mín skjöl á innleið** aðgerð í hlutverkamiðstöð, eru aðeins óunnar færslur fyrir skjöl á innleið sýndar sjálfgefið. Vísað er í þetta í þesssu efnisatriði sem "sjálfgefna yfirlitið".
 
 ## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Fjarlægja færslu skjals á innleið úr sjálfgefna yfirlitinu
-1. Í **skjal á innleið** glugganum skal velja færslu eina eða fleiri línur fyrir færslur fyrir skjöl á innleið sem þú vilt fjarlægja úr sjálfgefna yfirlitinu.
+1. Á síðunni **skjal á innleið** skal velja færslu eina eða fleiri línur fyrir færslur fyrir skjöl á innleið sem þú vilt fjarlægja úr sjálfgefna yfirlitinu.
 2. Valið er **stilla á unnið** aðgerð.
 
     Færslur fyrir skjal á innleið eru fjarlægðar úr sjálfgefna yfirlitinu, og gátreiturinn **unnið** er valinn á línunum.
 
 > [!NOTE]  
->   Einnig má framkvæma þessa aðgerð fyrir einstaka færslu í glugganum **Spjald fyrir skjöl á innleið** .
+>   Einnig má framkvæma þessa aðgerð fyrir einstaka færslu á síðunni **Spjald fyrir skjöl á innleið** .
 
 ## <a name="to-view-all-incoming-document-records"></a>Skoða allar færslur fyrir skjöl á innleið.
-1. Í glugganum **Skjal á innleið** skal velja aðgerðina **sýna allt**
+1. Á síðunni **Skjal á innleið** skal velja aðgerðina **sýna allt**.
 
 Allar færslur skjala á innleið eru birtar , þar á meðal þær þar sem **unnið** gátreiturinn er ekki valinn.
 
 ## <a name="to-add-incoming-document-records-to-the-default-view"></a>Bæta við færslu skjals á innleið við sjálfgefna yfirlitinu
-1. Í glugganum **Skjal á innleið** skal velja aðgerðina **sýna allt**
+1. Á síðunni **Skjal á innleið** skal velja aðgerðina **sýna allt**.
 2. velja færslu eina eða fleiri línur fyrir færslur fyrir skjöl á innleið sem þú vilt að birtist í sjálfgefna yfirlitinu.
 3. Valið er **Setja upp óunnið** aðgerð.  
 
 > [!NOTE]  
->   Einnig má framkvæma þessa aðgerð fyrir einstaka færslu í glugganum **Spjald fyrir skjöl á innleið** .
+>   Einnig má framkvæma þessa aðgerð fyrir einstaka færslu á síðunni **Spjald fyrir skjöl á innleið** .
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinnsla skjala á innleið](across-process-income-documents.md)  

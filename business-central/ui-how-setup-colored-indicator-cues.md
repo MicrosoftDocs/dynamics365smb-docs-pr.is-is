@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: personalize, customize
 ms.date: 10/01/2018
 ms.author: solsen
+redirect_url: admin-how-set-up-colored-indicator-on-cues
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e4ceaeae1a37a521d2d5bd22ab711757283e6321
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 366d762fbfbd2a61253b087577ef2810194e2c35
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Setja upp litaðan vísi á bunka
@@ -24,13 +25,13 @@ ms.lasthandoff: 09/28/2018
 
 Vísirinn birtist sem stika efst í ramma bendingarinnar. Veitir sjónrænt merki um virknistöðu bendingarinnar sem getur táknað hagstæð eða óhagstæð skilyrði sem kalla á viðbrögð frá notanda. Ef bunki birtir til dæmis viðvarandi sölureikninga er hægt að stilla vísinn á að vera grænn (jákvætt) þegar heildarfjöldi viðvarandi sölureikninga er undir 10 og rauður (óæskilegt) þegar samtalan er yfir 20.
 
-Í glugganum **uppsetning bunka** seturðu setja upp vísa fyrir allar bendingar sem eru tiltækar í gagnagrunni fyrirtækisins.
+Á síðunni **uppsetning bunka** seturðu setja upp vísa fyrir allar bendingar sem eru tiltækar í gagnagrunni fyrirtækisins.
 
 Til að setja upp vísi tilgreinirðu allt að tvö þröskuldsgildi sem tilgreina þrjú svið gagnagilda (lágt, miðlungs og hátt) sem hægt er að nota annan lit (eða stíl) við.
 
 ## <a name="to-set-up-colored-indicators-on-cues"></a>Til að setja upp litaða vísa í bendingum
 1. Undir **Aðgerðir** í Mitt hlutverk , velja **Setja Upp bunka**.  
-   Glugginn **uppsetning bunka** birtist. Glugginn birtir vísana sem nú eru uppsettir í bunkum.
+   Síðan **Uppsetning bunka** birtist. Síðan birtir vísana sem nú eru uppsettir í bunkum.
 2. Til að breyta vísi, breyta reitunum og breyta, t.d. gildi fyrir mismunandi þröskulda.  
 
 Eftirfarandi tafla sýnir liti sem samsvara valkostir af sem **lágsviðsstíll**, **millisviðsstíll**, og **hásviðsstíll** reiti.

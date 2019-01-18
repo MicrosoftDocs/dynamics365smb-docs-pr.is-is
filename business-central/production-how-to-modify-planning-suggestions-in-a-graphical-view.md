@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Breyta áætlunartillögum í myndrænu yfirliti
 Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður þær eru færðar inn með því að keyra aðgerðina **Framkvæma aðgerðarboð**. Í stað þess að gera þetta í áætlunarvinnublaðinu er notað myndrænt yfirlit.
 
-Í glugganum **Vara til ráðstöfunar samkvæmt tímalínu** er hægt að breyta tilteknum birgðapöntunum og tillögum með því að draga atriði eftir y-ásnum til að breyta magni eða eftir x-ásnum til að breyta gjalddaga.  
+Á síðunni **Vara til ráðstöfunar samkvæmt tímalínu** er hægt að breyta tilteknum birgðapöntunum og tillögum með því að draga atriði eftir y-ásnum til að breyta magni eða eftir x-ásnum til að breyta gjalddaga.  
 
- Í glugganum **Vara til ráðstöfunar samkvæmt tímalínu** og glugganum **Áætlunarvinnublað** er hægt að velja úr eftirfarandi breytingum:  
+ Á síðunni **Vara til ráðstöfunar samkvæmt tímalínu** og síðunni **Áætlunarvinnublað** er hægt að velja úr eftirfarandi breytingum:  
 
 -   Breyta tillagðri framboðspöntun sem aðeins er til sem áætlunarlína.  
 -   Breyta birgðapöntun sem kerfið stingur upp á að breyta.  
@@ -32,14 +32,14 @@ Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlun
 
 Nánari upplýsingar um þær tegundir áætlunarlína sem birtast eru í reitnum Lýsing á flýtiflipanum **Atviksbreytingar**.  
 
-Þegar **Vista breytingar** er valið í glugganum **Vara til ráðstöfunar samkvæmt tímalínu** eru breytingarnar sem gerðar hafa verið afritaðar í áætlunar- eða beiðnivinnublaðið. Nú er hægt að innleiða þetta með **Framkvæma aðgerðaboðaáætlun**.  
+Þegar **Vista breytingar** er valið á síðunni **Vara til ráðstöfunar samkvæmt tímalínu** eru breytingarnar sem gerðar hafa verið afritaðar í áætlunar- eða beiðnivinnublaðið. Nú er hægt að innleiða þetta með **Framkvæma aðgerðaboðaáætlun**.  
 
-Eftirfarandi ferli sýnir hvernig eigi að breyta framboðstillögum með því að draga og sleppa. Einnig er hægt að breyta reitunum **Skiladagur** og **Magn** á flýtiflipanum **Atviksbreytingar** og sjá strax breytingarnar á myndrænan hátt á flýtiflipanum **Tímalína** í glugganum **Áætlunarvinnublað**.  
+Eftirfarandi ferli sýnir hvernig eigi að breyta framboðstillögum með því að draga og sleppa. Einnig er hægt að breyta reitunum **Skiladagur** og **Magn** á flýtiflipanum **Atviksbreytingar** og sjá strax breytingarnar á myndrænan hátt á flýtiflipanum **Tímalína** á síðunni **Áætlunarvinnublað**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Til að breyta ráðlögðum birgðapöntunum í myndræna yfirlitinu  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara til ráðstöfunar eftir tímalínu** og veldu síðan tengda tengilinn.  
 
-    Glugginn **Vara til ráðstöfunar samkvæmt tímalínu** opnast með vörunúmerinu, staðsetningu og afbrigði vörunnar í völdum áætlunarlínum forvöldum í flýtiflipanum **Valkostir**. Flýtiflipinn **Tímalína** sýnir myndræna lýsingu á áætluðum birgðum vörunnar, að meðtöldum áætlunartillögum.  
+    Síðan **Vara til ráðstöfunar samkvæmt tímalínu** opnast með vörunúmerinu, staðsetningu og afbrigði vörunnar í völdum áætlunarlínum forvöldum í flýtiflipanum **Valkostir**. Flýtiflipinn **Tímalína** sýnir myndræna lýsingu á áætluðum birgðum vörunnar, að meðtöldum áætlunartillögum.  
 
 2.  Ganga þarf úr skugga um að reiturinn **Taka með áætlunartillögur** sé valinn.  
 3.  Finna ráðlagða framboðspöntun sem ætlunin er að breyta. Hægt er að auðkenna breytanlegar einingar með græna hringnum og disktákninu. Nánari upplýsingar um tákn eru í „Tákn og táknmyndir í flýtiflipa tímalínu“.  
@@ -53,7 +53,7 @@ Eftirfarandi ferli sýnir hvernig eigi að breyta framboðstillögum með því 
     |**Lagfæra framboð sjálfkrafa**|Fínstillir nýtt framboð sem var búið til á grafinu með því að tryggja að það myndi engar birgðir á undan næsta framboði.|  
     |**Eyða framboði**|Eyðir einingu í Flýtiflipanum **Tímaás** og eyðir áætlunarlínunni þegar valið er **Vista breytingar**. Táknið breytist í disk sem hefur rauðan kross þegar framboði hefur verið eytt.<br /><br /> **Athugið:** Aðeins er hægt að eyða framboði aðgerðaskilaboða af gerðinni **Nýtt**. Eftir að hafa valið **Vista breytingar**, verður að eyða handvirkt viðkomandi áætlunarlínu í áætlun eða innkaupatillögubók.|  
 
-7.  Veljið **Endurstilla** ef á að endurstilla allar breytingar sem hafa verið gerðar eftir að glugginn **Vara til ráðstöfunar eftir tímalínu** er opnaður eða veldu **Endurstilla**.  
+7.  Veljið **Endurstilla** ef á að endurstilla allar breytingar sem hafa verið gerðar eftir að síðan **Vara til ráðstöfunar eftir tímalínu** er opnaður eða veldu **Endurstilla**.  
 8. Þegar einingar hafa verið settar þar sem þær eiga að vera í skýringarmyndinni skal velja **Vista breytingar** til að afrita breytt magn og dagsetningarbreytingar í áætlunar- eða beiðnilínurnar sem tákna myndrænu einingarnar.  
 
 Til að virkja breytingar á framboðsáætluninni þarf að fylgja aðgerðarboðunum sem koma úr áætlunar- eða beiðnivinnublaðinu. Frekari upplýsingar, sjá Framkvæma aðgerðarboðaáætlun.

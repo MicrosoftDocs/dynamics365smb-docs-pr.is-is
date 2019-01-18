@@ -11,10 +11,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a268ec469f7781e77d7e4438a3b18c95e9304d4d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b766f4d11b66a88f1884f8315b5856021190b34
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Kaupa vörur fyrir sölu
@@ -35,7 +35,7 @@ Til að stofna innkaupapöntun fyrir hvert ótiltækt vörumagn í sölupöntuni
 2. Opnuð er sölupöntun sem þú vilt kaupa vörur fyrir.
 3. Velja **stofna innkaupapantanir** aðgerð.
 
-    Glugginn **stofna innkaupapantanir** opnast og birtir eina línu fyrir hverja vöru í sölupöntuninni. Línur fyrir bæði fullkomlega tiltækt sölumagn og ótiltækt sölumagn (grámaðar) eru sýndar að sjálfgefnu. Þú getur valið **sýna ótiltækt** aðgerðina til að sjá aðeins línur fyrir ótiltækt sölumagn.
+    Síðan **stofna innkaupapantanir** opnast og birtir eina línu fyrir hverja vöru í sölupöntuninni. Línur fyrir bæði fullkomlega tiltækt sölumagn og ótiltækt sölumagn (grámaðar) eru sýndar að sjálfgefnu. Þú getur valið **sýna ótiltækt** aðgerðina til að sjá aðeins línur fyrir ótiltækt sölumagn.
 
     Reiturinn **Magn til innkaupa** inniheldur ótiltækt sölumagn að sjálfgefnu.
 4. Til að kaupa annað magn en ótiltækt sölumagn, skal breyta gildinu í **Magn til innkaupa** reitnum.
@@ -44,7 +44,7 @@ Til að stofna innkaupapöntun fyrir hvert ótiltækt vörumagn í sölupöntuni
     >   Þú getur líka breytt **Magn til innkaupa** reitnum á grámuðum línum jafnvel þótt þær sýni fullkomlega tiltækt sölumagn.
 5. Velja hnappinn **Í lagi**.
 
-    Innkaupapöntun er stofnuð fyrir hvern lánardrottinn vöru á sölupöntuninni, og í henni eru allar magnbreytingar sem þú kannt að hafa gert í **Stofna innkaupapöntun** glugganum.
+    Innkaupapöntun er stofnuð fyrir hvern lánardrottinn vöru á sölupöntuninni, og í henni eru allar magnbreytingar sem þú kannt að hafa gert á síðunni **Stofna innkaupapöntun**.
 7. Halda áfram að vinna innkaupapöntun eða pantanir, til dæmis með því að breyta eða bæta við innkaupareikningslínum. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 
 

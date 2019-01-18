@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Hönnunarupplýsingar: Þekkt vandamál birgðajöfnunar
@@ -102,7 +102,7 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
 
  Fyrir atburðarás 1, auðkenna vandann sem hér segir:  
 
--   Í glugganum **Bókaður sölukreditreikningur** eða **Bókuð vöruskilamóttaka** skal fletta upp í reitnum **Jöfnun\-frá birgðafærslu** til að sjá hvort reiturinn er útfylltur og í því tilfelli, hvaða vöruskilamóttaka birgðabókafærslu er kostnaðarjöfnuð.  
+-   Á síðunum **Bókaður sölukreditreikningur** eða **Bókuð vöruskilamóttaka** skal fletta upp í reitnum **Jöfnun\-frá birgðafærslu** til að sjá hvort reiturinn er útfylltur og í því tilfelli, hvaða vöruskilamóttaka birgðabókafærslu er kostnaðarjöfnuð.  
 
  Fyrir atburðarás 2, auðkennið vandann á annan hvorn eftirfarandi hátt:  
 
@@ -113,10 +113,10 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
 |333|01/28/2018|Sala|Söluafhending|102043|PRÓFUN|BLÁTT|-1|-10|-1|-1|Já|Nr|  
 |334|01/28/2018|Sala|Söluafhending|102043|PRÓFUN|BLÁTT|1|10|1|1|Já|**Já**|  
 
--   Í glugganum **Bókuð söluafhending** skal fletta upp í reitnum **Jafna frá birgðafærslu** til að sjá hvort reiturinn er útfylltur og í því tilfelli hvaða vöruskilamóttaka birgðafærslu er kostnaðarjöfnuð.  
+-   Á síðunni **Bókuð söluafhending** skal fletta upp í reitnum **Jafna frá birgðafærslu** til að sjá hvort reiturinn er útfylltur og í því tilfelli hvaða vöruskilamóttaka birgðafærslu er kostnaðarjöfnuð.  
 
 > [!NOTE]  
->  Ekki er hægt að bera kennsl á kostnaðarjöfnun í glugganum **Jafnaðar birgðafærslur** vegna þess að sá gluggi sýnir aðeins magnjöfnun.  
+>  Ekki er hægt að bera kennsl á kostnaðarjöfnun á síðunni **Jafnaðar birgðafærslur** vegna þess að sú síða sýnir aðeins magnjöfnun.  
 
  Í báðum atburðarásum, auðkennið viðkomandi kostnaðarjöfnun sem hér segir:  
 
@@ -138,7 +138,7 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
  Takið eftir hér að ofan að birgðafærsla 334 á innleið kostnaðarjöfnuð við birgðafærslu 333 á útleið.  
 
 ## <a name="workaround-for-the-issue"></a>Hjáleið á vandanum  
- Í glugganum **Birgðabók** skal bóka eftirfarandi línur fyrir vöruna sem um ræðir:  
+ Á síðunni **Birgðabók** skal bóka eftirfarandi línur fyrir vöruna sem um ræðir:  
 
 -   Jákvæð leiðrétting til að loka opnu birgðafærslunni á útleið.  
 

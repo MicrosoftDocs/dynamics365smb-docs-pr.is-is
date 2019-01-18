@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -125,7 +125,7 @@ VSK-yfirlit bjóða upp á að reikna út VSK-uppgjörsupphæð á ákveðnu tí
 Fylgið eftirfarandi skrefum til að skilgreina VSK yfirlit:
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-yfirlit** og veldu síðan tengda tengilinn.  
-2. Velja **Heiti** reitinn, og svo velja **Nýtt** í **Heiti VSK-yfirlits** glugga.
+2. Veljið reitinn **Heiti** og veljið síðan **Nýtt** á síðunni **Heiti VSK-yfirlita**.
 3. Fylltu út nauðsynlega reiti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
@@ -148,7 +148,7 @@ Hægt er að breyta eða eyða VSK-klausu og þá birtast breytingarnar í mynda
 
 ### <a name="to-set-up-vat-clauses"></a>Að setja upp VSK-ákvæði
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-klausur** og veldu síðan tengda hlekkinn.  
-2. Í **VSK-klausur** glugganum, búðu til nýja línu.  
+2. Á **VSK ákvæði** síðunni, skal búa til nýja línu.  
 3. Í reitnum **Kóði** er auðkenni ákvæðisins slegið inn. Þessi kóði er notuð til að úthluta ákvæðinu á VSK-bókunarflokka.  
 4. Í reitnum **Lýsing** er færður inn textinn sem þú vilt að birtast á fylgiskjala sem geta innihaldið VSK. Í reitnum **Lýsing 2** er færður inn viðbótartexti ef þörf krefur. Textinn birtist á nýjum línum.  
 5. Valfrjálst: Til að úthluta VSK-ákvæði til VSK-bókunaruppsetningar strax, veljið **Uppsetning**, og velja síðan ákvæðið. Ef þú vilt bíða, er hægt að úthluta ákvæðinu síðar á VSK-Bókunaruppsetning síðunni.  
@@ -178,7 +178,7 @@ Til að setja upp kóða fyrir VSK vegna innflutnings, skal fylgja þessum skref
 ## <a name="to-verify-vat-registration-numbers"></a>Staðfesta VSK-skráningarnúmer
 Mikilvægt er að þau VSK-númer sem þú hefur fyrir viðskiptamenn, lánardrottna og tengiliði séu gild. Fyrirtæki breyta til dæmis stundum stöðu skattaskuldar hjá sér, og í sumum lönd gætu skattayfirvöld farið fram á að fá skýrslur, til dæmis skýrsluyfirlit um sölu innan Evrópubandalagsins, sem inniheldur VSK-númerin sem þú ert að nota við í viðskiptum.
 
-Framkvæmdarstjórn Evrópusambandsins býður á vefsíðu sinni þjónustu VIES varðandi VSK Númerastaðfestingu, sem býðst öllum og er án endurgjalds. [!INCLUDE[d365fin](includes/d365fin_md.md)] getur sparað þér það skref og leyft þér að nota þjónustu VIES til að staðfesta og rekja VSK-númer viðskiptamanna, lánardrottna og tengiliði beint úr spjöldum viðskiptamaður, lánardrottinn og tengiliða. Þjónustan í [!INCLUDE[d365fin](includes/d365fin_md.md)] kallast **ESB VSK Skrá. Nr. Staðfestingarþjónusta**. Þjónustan er í boði í **þjónustutengingar** glugga, og þú getur byrjað að nota það strax. Þjónustan er án endurgjalds og skráningar er ekki krafist.
+Framkvæmdarstjórn Evrópusambandsins býður á vefsíðu sinni þjónustu VIES varðandi VSK Númerastaðfestingu, sem býðst öllum og er án endurgjalds. [!INCLUDE[d365fin](includes/d365fin_md.md)] getur sparað þér það skref og leyft þér að nota þjónustu VIES til að staðfesta og rekja VSK-númer viðskiptamanna, lánardrottna og tengiliði beint úr spjöldum viðskiptamaður, lánardrottinn og tengiliða. Þjónustan í [!INCLUDE[d365fin](includes/d365fin_md.md)] kallast **ESB VSK Skrá. Nr. Staðfestingarþjónusta**. Þjónustan er tiltæk í **Þjónustutengingar** síðunni og þú getur hafið notkun strax. Þjónustan er án endurgjalds og skráningar er ekki krafist.
 
 > [!Note]
 > Til að virkja VSK-skráningarnúmer innan ESB staðfestingarþjónustuna verður þú að hafa kerfisstjóraheimildir.
@@ -241,7 +241,7 @@ VSK-hlutfall breytingarverkfærið umreiknar VSK-hlutfall fyrir aðalgögn, fær
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Til að setja upp vörubókunarflokksumbreytingar  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning breytinga á VSK-hlutfalli** og veldu síðan tengda hlekkinn.  
-2. Í **Uppsetning breytinga á VSK-hlutfalli** glugga, á **Heim** flipann, í **Vinnsla** flokkur, skal velja annaðhvort **Umskráning VSK-vörubókunarflokkur** eða **Umskráning almennur vörubókunarflokkur**.  
+2. Á síðunni **VSK hlutfall breyta uppsetning** á flipanum **Heim** í flokknum **Í vinnslu** veljið annað hvort **Umreikna VSK framl. Bókunarflokkur** eða **Umreikna Alm framl. Bókunarflokkur**.  
 3. Í reitnum **Frá kóða** er færður inn núverandi bókunarflokkur.  
 4. Í reitnum **Til kóða** er færður inn nýr bókunarflokkur.  
 

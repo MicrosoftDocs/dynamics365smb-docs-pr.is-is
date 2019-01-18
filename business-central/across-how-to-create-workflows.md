@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b8085f02f30d28ed1362ee6cea32d398c86b1694
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-workflows"></a>Búa til verkflæði
 Hægt er að stofna verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.  
 
-Í glugganum **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af verkflæðistilvikum sem breytt er af tilvikaskilyrðum og verkflæðisviðbrögðum með viðbragðavalkostum. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins.  
+Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af verkflæðistilvikum sem breytt er af tilvikaskilyrðum og verkflæðisviðbrögðum með viðbragðavalkostum. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins.  
 
 Þegar verkflæði eru stofnuð er hægt að afrita skref úr núgildandi verkflæði eða úr verkflæðissniðmátum. Verkflæðissniðmát eru óbreytanleg verkflæði sem eru til staðar í altæku útgáfunni af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kóði fyrir verkflæðissniðmát sem er bætt við af Microsoft eru merkt með "MS-", eins og í "MS-PIW". Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
 
@@ -33,25 +33,25 @@ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki 
 
 ## <a name="to-create-a-workflow"></a>Til að stofna verkflæði  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **verkflæði** og veldu síðan tengda tengilinn.  
-2. Valið er **Nýtt** aðgerð. Glugginn **Verkflæði** opnast.  
+2. Valið er **Nýtt** aðgerð. Síðan **Verkflæði** opnast.  
 3. Í **Kóði** reitinn skal slá inn að hámarki 20 stafi til að auðkenna verkflæðið.  
-4. Til að stofna verkflæði úr verkflæðissniðmáti, skal velja í glugganum **Verkflæði** aðgerðina **Stofna verkflæði úr sniðmáti**. Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
+4. Til að stofna verkflæði úr verkflæðissniðmáti, skal velja á síðunni **Verkflæði** aðgerðina **Stofna verkflæði úr sniðmáti**. Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
 5. Í **Lýsing** reitnum skal lýsa verkflæðinu.  
 6. Í **Flokkur** reitnum skal tilgreina hvaða flokki verkflæðið tilheyrir.  
 7. Í reitnum **Þegar tilvik** skal tilgreina tilvik sem verður að eiga sér stað til að að verkflæðisskref geti hafist.  
 
-    Þegar reiturinn er valinn opnast glugginn **Verkflæðitilvik** þar sem hægt er að velja úr öllum tilvikum verkflæðis sem til eru.  
+    Þegar reiturinn er valinn opnast síðan **Verkflæðitilvik** þar sem hægt er að velja úr öllum tilvikum verkflæðis sem til eru.  
 8. Í reitnum **Skilyrði**, tilgreinið eitt eða fleiri skilyrði sem þarf að uppfylla áður en tilvikið í **Þegar tilvik** reitnum getur átt sér stað.  
 
-    Þegar valið er reiturinn mun glugginn **Skilyrði tilviks** opnast og þar er hægt að velja úr lista yfir afmörkunarreitirnir sem eru viðeigandi sem skilyrði fyrir viðkomandi atviki. Hægt er að bæta nýja afmörkunarreitirnir sem á að nota sem atburðurinn skilyrði. Þú stillir tilvikaaðstæður með sama hætti og þú stillir afmarkanir á skýrslubeiðnisíðum.  
+    Þegar reiturinn er valinn opnast síðan **Skilyrði tilviks** þar sem valið er úr lista yfir síureit sem eru viðeigandi sem skilyrði fyrir viðkomandi tilvik. Hægt er að bæta nýja afmörkunarreitirnir sem á að nota sem atburðurinn skilyrði. Þú stillir tilvikaaðstæður með sama hætti og þú stillir afmarkanir á skýrslubeiðnisíðum.  
 
-    Ef verkflæðistilvik er breyting á tilteknum reit í færslu opnast glugginn **Aðstæður tilviks** með valkostum um að velja reit og gerð breytinganna.  
+    Ef verkflæðistilvik er breyting á tilteknum reit í færslu opnast síðan **Skilyrði tilviks** með valkostum um að velja reit og gerð breytingar.  
 
-    1.  Til að tilgreina reitarbreytingu fyrir tilvik skal, í glugganum **Aðstæður tilviks** í reitnum **Reitur** velja reitinn sem er breytt.  
+    1.  Til að tilgreina reitarbreytingu fyrir tilvik skal, á síðunni **Aðstæður tilviks** í reitnum **Reitur** velja reitinn sem er breytt.  
     2.  Í reitnum **Stjórnandi** skal velja annað hvort **Minnkað**, **Aukið**, eða **Breytt**.  
 9. Í reitnum **Þá svörun**, tilgreinið viðbrögð sem fylgja þegar verkflæðistilvik á sér stað.  
 
-     Þegar reiturinn er valinn opnast glugginn **Verkflæði svörun** þar sem hægt er að velja úr öllum svörum verkflæðis sem til eru og stilla valkosti svara fyrir valda viðbragðið.  
+     Þegar reiturinn er valinn opnast síðan **Verkflæðiviðbrögð** þar sem hægt er að velja úr öllum verkflæðisviðbrögðum sem til eru og stilla valkosti viðbragðs fyrir valda viðbragðið.  
 10. Á flýtiflipanum **Valkostir fyrir valið svar** tilgreinið valkosti fyrir verkflæðissvarið með því að elja gildi í ýmsum reitum sem birtast, sem hér segir:  
 
     1.  Til að tilgreian valkosti fyrir verkflæðissvar sem felur í sér að senda tilkyningu skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
@@ -67,7 +67,7 @@ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki 
         |----------------------------------|---------------------------------------|  
         |**Reikniregla gjalddaga**|Tilgreina hversu margir dagar mega líða þar til leysa þarf úr samþykktarbeiðni frá þeim degi sem hún var send.|  
         |**Framselja eftir**|Tilgreina ef og þegar samþykkisbeiðni er sjálfkrafa úthluta á viðeigandi varamann. Hægt er að velja sjálfkrafa að úthluta einn, tvo eða fimm dögum eftir þá dagsetning þegar beðið var um samþykkt.|  
-        |**Gerð samþykkjanda**|Tilgreina hver er samþykkjandi, samkvæmt uppsetningu á notendum samþykktar og notendur verkflæði.<br /><br /> Eftirfarandi möguleikar eru til staðar:<br /><br /> -   **Sölumaður/innkaupaaðili** tilgreinir að notandinn sem settur er upp í reitnum **Sölumaður/Innk. Kóði** í glugganum **Samþykkt notandauppsetning** ákvarði samþykkjanda. Færslur fyrir samþykktarbeiðni eru þá stofnaðar samkvæmt gildinu í reitnum **Afmörkunargerð samþykkjanda**.<br />     Frekari upplýsingar eru í [Setja upp notendur samþykktar](across-how-to-set-up-workflow-users.md).|  
+        |**Gerð samþykkjanda**|Tilgreina hver er samþykkjandi, samkvæmt uppsetningu á notendum samþykktar og notendur verkflæði.<br /><br /> Eftirfarandi möguleikar eru til staðar:<br /><br /> -   **Sölumaður/innkaupaaðili** tilgreinir að notandinn sem settur er upp í reitnum **Sölumaður/Innk. Kóði** á síðunni **Samþykkt notandauppsetning** ákvarði samþykkjanda. Færslur fyrir samþykktarbeiðni eru þá stofnaðar samkvæmt gildinu í reitnum **Afmörkunargerð samþykkjanda**.<br />     Frekari upplýsingar eru í [Setja upp notendur samþykktar](across-how-to-set-up-workflow-users.md).|  
         |**Sýna staðfestingarskilaboð**|Tilgreina ef staðfestingarskilaboð birtist notendum eftir að þeir óska ​​eftir samþykki.|  
         |**Afmörkunargerð samþykkjanda**|Tilgreina hvernig samþykktartakmarkanir þeirra sem samþykkja hafa áhrif á færslur samþykktarbeiðna sem eru stofnaðar fyrir þau. Hæfur samþykkjandi er samþykkjandi sem hefur samþykktarmörk sem eru hærri en gildið á umræddri beiðni.<br /><br /> Eftirfarandi möguleikar eru til staðar:<br /><br /> 1.  **Keðja samþykkjenda** tilgreinir að færslur samþykktarbeiðni eru stofnaðar fyrir alla samþykkjendur frá og með fyrsta samþykkjanda sem uppfyllir skilyrði.<br />2.  **Beinn samþykkjandi** tilgreinir að samþykktarbeiðnisfærsla er aðeins stofnuð fyrir næsta samþykkjanda, sama hver samþykktarmörk hans eru.<br />3.  **Fyrsti hæfi samþykkjandi** tilgreinir að samþykktarbeiðnisfærsla er aðeins stofnuð fyrir fyrsta samþykkjanda sem uppfyllir skilyrði.<br />|  
     3.  Til að tilgreina valkostir fyrir verkflæðissvar sem inniheldur að stofna færslubókarlínur skal fylla í reitirnir eins og lýst er í eftirfarandi töflu.  

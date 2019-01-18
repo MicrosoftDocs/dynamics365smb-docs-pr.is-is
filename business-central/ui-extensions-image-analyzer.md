@@ -12,10 +12,10 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9a2d7999f3a4ecc3a597b6641ee1db69d754de4c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 803d755a7caa470b97bf606f0f8916d0135d047e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -50,14 +50,14 @@ Viðbótin fyrir Myndgreinandann er innbyggð í [!INCLUDE[d365fin](includes/d36
 * Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustutengingar** og veldu síðan **Uppsetning myndagreiningar**. Á gátreitnum skal velja **Virkja myndgreinanda**, og svo er skrefunum í Uppsetningu með aðstoð fylgt.  
 
     > [!TIP]  
-    > Á **Uppsetning myndgreiningar** gluggi geturðu líka breytt áreiðanleikastiginu fyrir tillögur um eigindir. Ef þú vilt til dæmis auka áreiðanleikann, þá geturðu slegið inn hærri prósentu.
+    > Á **Uppsetning myndgreiningar** síðunni geturðu líka breytt áreiðanleikastiginu fyrir tillögur um eigindir. Ef þú vilt til dæmis auka áreiðanleikann, þá geturðu slegið inn hærri prósentu.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Að greina mynd af vöru
 Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður en þú virkjaðir viðbótina fyrir Myndgreinandann.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
 2. Veljið vöruna og veljið svo aðgerðina **Greina mynd**.  
-3. Gluggi **Eigindir myndgreiningar** birtir þær eigindir sem finnast, áreiðanleikastigið og aðrar upplýsingar um eigindina. Nota **Aðgerð til að framkvæma** valkostina til að tilgreina hvað skal gera við eigindina.  
+3. Síðan **Eigindir myndgreinanda** birtir þær eigindir sem finnast, áreiðanleikastigið og aðrar upplýsingar um eigindina. Nota **Aðgerð til að framkvæma** valkostina til að tilgreina hvað skal gera við eigindina.  
 
     > [!TIP]  
     > Þú getur bætt nafni eigindarinnar við lýsinguna á vörunni með því að velja **Bæta við vörulýsingu**. Þetta getur t.d. reynst gagnlegt þegar bæta þarf við upplýsingum snögglega.  

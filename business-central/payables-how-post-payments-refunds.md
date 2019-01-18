@@ -11,21 +11,21 @@ ms.search.keywords: payment journal, print check, vendor payment, customer refun
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8f8db0bd6d12d4a633fe4ea33c732f231d798b3d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 605c4ad4043d8b7c4b5603a4821e683f63d4a33d
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Skrá greiðslur og endurgreiðslur í greiðslubókina
 
-Í glugganum **Greiðslubók** skráir þú greiðslur sem þú greiðir lánardrottnum og endurgreiðslur sem þú greiðir viðskiptavinum. Þegar þú bókar greiðslubókarlínu er greidda upphæðin skráð í tilgreindan bankareikning kerfisins. Þú verður þá að gera ráðstafanir til að framkvæma raunverulegu peningamillifærslu af tengdum bankareikningi.  
+Á síðunni **Greiðslubók** skráir þú greiðslur sem þú greiðir lánardrottnum og endurgreiðslur sem þú greiðir viðskiptavinum. Þegar þú bókar greiðslubókarlínu er greidda upphæðin skráð í tilgreindan bankareikning kerfisins. Þú verður þá að gera ráðstafanir til að framkvæma raunverulegu peningamillifærslu af tengdum bankareikningi.  
 
 Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. Þú getur bætt við línum með skjótum hætti handvirkt, þú getur látið [!INCLUDE[d365fin](includes/d365fin_md.md)] stinga upp á lánardrottnagreiðslur, og þú getur jafnað greiðsluna á bókuð skjöl. Jafnvel þótt þú greiðir greiðslur, þá færirðu inn jákvæð upphæð í **Skjalaupphæð** reitinn. Það fer eftir gerð skjala fyrir færslubókarlínuna, þá er þetta upphæð breytt í neikvæð upphæð í undirliggjandi færslum. Þannig ertu fljótari að bæta við færslubókarlínum handvirkt. Ef þú vilt heldur færa inn neikvæðum upphæðum, getur þú sérsniðið greiðslubókina til að sýna **Upphæð** reitinn í staðinn.  
 
 - Jafna greiðslur á reikninga eða kreditreikninga
 
-    Ef þú fyllir út reitinn **Jöfnunarskjalsnúmer** með reikningnum eða kreditreikningnum sem þarf að greiða eða endurgreiða, þá er skjalið sem um ræðir sett til greiðslu þegar þú bókar færslubókina. Þetta kallast að vera „jafnað“. Í stað þess að framkvæma jöfnun við bókun á greiðslu geturðu notað gluggann **Jafna lánardr.færslur** og **Jafna viðskm.færslur** eftir að þú hefur framkvæmt bókun á greiðslu. Nánari upplýsingar má til dæmis finna í [Afstemma greiðslur lánardrottna handvirkt](payables-how-apply-purchase-transactions-manually.md).  
+    Ef þú fyllir út reitinn **Jöfnunarskjalsnúmer** með reikningnum eða kreditreikningnum sem þarf að greiða eða endurgreiða, þá er skjalið sem um ræðir sett til greiðslu þegar þú bókar færslubókina. Þetta kallast að vera „jafnað“. Í stað þess að framkvæma jöfnun við bókun á greiðslu geturðu notað síðuna **Jafna lánardr.færslur** og **Jafna viðskm.færslur** eftir að þú hefur framkvæmt bókun á greiðslu. Nánari upplýsingar má til dæmis finna í [Afstemma greiðslur lánardrottna handvirkt](payables-how-apply-purchase-transactions-manually.md).  
 
 - Fáðu tillögur um greiðslur til lánardrottna eða starfsmanna 
 
@@ -33,14 +33,14 @@ Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. 
 
 - Prenta ávísanir og senda greiðslur rafrænt til bankans
 
-    Til viðbótar við að skrá þig að greiðslan er hafi verið gerð, geturðu einnig notað gluggann **Greiðslubók** til að gera greiðsluna móttækilega fyrir frekari vinnslu hjá bankanum þínum. Frekari upplýsingar eru að finna í [Greiða greiðslu með ávísun](payables-how-work-checks.md) og [Greiða rafrænar greiðslur](payables-how-export-payments-bank-file.md).  
+    Til viðbótar við að skrá þig að greiðslan er hafi verið gerð, geturðu einnig notað síðuna **Greiðslubók** til að gera greiðsluna móttækilega fyrir frekari vinnslu hjá bankanum þínum. Frekari upplýsingar eru að finna í [Greiða greiðslu með ávísun](payables-how-work-checks.md) og [Greiða rafrænar greiðslur](payables-how-export-payments-bank-file.md).  
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Til að greiða í greiðslubók 
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslubók** og veldu síðan tengda tengilinn.
 2. Opnaðu bókarkeyrsluna sem er notuð fyrir greiðslur.
 3. Ef þú veist hverjum á að borga eða endurgreiða skaltu fylla inn reitina handvirkt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Til að einnig jafna greiðsluna við tengdan reikning eða kreditreikning skaltu velja **Jöfnunarskjalsnúmer**. reitinn í glugganum **Jafna lánardr.færslur**, velja viðeigandi reikning eða kreditreikning og síðan velja hnappinn **Í lagi**.
+4. Til að einnig jafna greiðsluna við tengdan reikning eða kreditreikning skaltu velja **Jöfnunarskjalsnúmer**. reitinn á síðunni **Jafna lánardr.færslur**, velja viðeigandi reikning eða kreditreikning og síðan velja hnappinn **Í lagi**.
 
     Mörg reiti, svo sem **Skjalaupphæð** og **Gjalddagi** reitir, eru nú fylltir inn með upplýsingum úr völdu skjalinu.
 5. Annar valkostur er að nota aðgerðina **Greiðslutillögur til lánardrottna**. Allar jöfnunarupplýsingar og upphæðir eru síðan einnig færðar inn í færslubókarlínur. Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,10 +26,10 @@ Hægt er að nota tölfræði til að greina þjónustuskjöl og ákvarða hvers
 ## <a name="viewing-statistics-for-service-orders"></a>Skoðun upplýsinga um þjónustupantanir
 Eiginleikinn upplýsingar um þjónustupöntun veitir einfalt yfirlit yfir innihald allrar þjónustupöntunarinnar, upplýsingar um tilteknar þjónustulínur og upplýsingar sem tengjast reikningsfærslu, afhendingu og notkun, sem og stöðu viðskiptamanns.  
 
-Upplýsingar um þjónustupöntun eru sýndar í glugganum **Upplýsingar um þjónustupöntun** fyrir pöntunina sem um ræðir. Hægt er að opna viðeigandi upplýsingaglugga úr þjónustupöntuninni. Í glugganum **Þjónustupantanir** skal velja **Upplýsingar**. Flýtifliparnir í þessum glugga sýna upplýsingar eins og magn, upphæð, VSK, kostnað og hámarksskuld viðskiptamanns. Upphæðirnar í glugganum eru á gjaldmiðli þjónustupöntunarinnar nema annað sé gefið til kynna.  
+Upplýsingar um þjónustupöntun eru sýndar á síðunni **Upplýsingar um þjónustupöntun** fyrir pöntunina sem um ræðir. Hægt er að opna viðeigandi upplýsingasíðu úr þjónustupöntun. Á síðunni **Þjónustupöntun** skal velja **Upplýsingar**. Flýtifliparnir á þessari síðu sýna upplýsingar eins og magn, upphæð, VSK, kostnað og hámarksskuld viðskiptamanns. Upphæðirnar á síðunni eru á gjaldmiðli þjónustupöntunarinnar nema annað sé gefið til kynna.  
 
 ### <a name="view-totals-for-a-service-order"></a>Skoða samtölur fyrir þjónustupöntun  
-Þú getur skoðað heildarupphæðir í þjónustulínum, með og án VSK, VSK hluta og kostnað og framlegð á þjónustulínum. Glugginn sýnir einnig sérstakar vörutengdar upplýsingar um vörurnar, svo sem þyngd, rúmmál og magn pakkninga.  
+Þú getur skoðað heildarupphæðir í þjónustulínum, með og án VSK, VSK hluta og kostnað og framlegð á þjónustulínum. Síðan sýnir einnig sérstakar vörutengdar upplýsingar um vörurnar, svo sem þyngd, rúmmál og magn pakkninga.  
 
 ### <a name="view-shipping-information"></a>Skoða afhendingarupplýsingar  
 Þú getur skoðað upplýsingar um vörur, forða eða kostnað til afhendingar. Til að veita upplýsingarnar eru gildin sem tilgreind eru í reitnum **Magn til afhendingar** notuð á hverja þjónustulínu í pöntuninni.  
@@ -54,7 +54,7 @@ Hægt er að greina upplýsingarnar eftir tegundum þjónustulína sem hafðar e
 Skoða stöðuna á reikningi viðskiptamanns og jafnframt hámarks kredit sem hægt er að úthluta viðskiptamanni sem þjónustuskjalið var búið til fyrir.
 
 ## <a name="viewing-service-item-statistics"></a>Skoða upplýsingar um þjónustuvöru
-Í glugganum **Upplýsingar um þjónustuvöru** er hægt að skoða nýjustu upplýsingar um þjónustuvöru byggða á eftirfarandi þjónustufærslutegundum:  
+Á síðunni **Upplýsingar um þjónustuvöru** er hægt að skoða nýjustu upplýsingar um þjónustuvöru byggða á eftirfarandi þjónustufærslutegundum:  
 
 * Forði  
 * Birgðir  
@@ -67,7 +67,7 @@ Fyrir hverja færslutegund er hægt að skoða reikningsfærða upphæð, notkun
 * (Reikningsfærð upphæð Notkun (Kostnaður)) x 100 Reikningsfærð upphæð  
 
 ## <a name="using-trendscapes"></a>Nota Trendscapes
-Fyrir þjónustuvörur og þjónustusamninga, veita gluggarnir **þjónustuvara Trendscape** eða **Þjónustusamningur Trendscape** skrunanlega samantekt yfir þjónustubókarfærslur yfir tiltekið tímabil fyrir tiltekna þjónustuvöru eða þjónustusamning. Til að skoða Trendscape, skal opna þjónustuvöruna eða þjónustusamninginn, velja **Upplýsingar** aðgerðina og síðan velja **Trendscape**.
+Fyrir þjónustuvörur og þjónustusamninga, veita síðurnar **þjónustuvara Trendscape** eða **Þjónustusamningur Trendscape** skrunanlega samantekt yfir þjónustubókarfærslur yfir tiltekið tímabil fyrir tiltekna þjónustuvöru eða þjónustusamning. Til að skoða Trendscape, skal opna þjónustuvöruna eða þjónustusamninginn, velja **Upplýsingar** aðgerðina og síðan velja **Trendscape**.
 
 Þegar skrunað er upp eða niður eru upphæðirnar reiknaðar eftir því tímabili sem er valið í staðbundnum gjaldmiðli. Reiknaðar eru allar upphæðir af bókuðum þjónustufærslum, sem eru færslur sem eru stofnaðar þegar þjónustupantanir eða þjónustureikningar eru bókaðir.
 
@@ -88,25 +88,25 @@ Hagnaðar- eða tapfærslur samnings eru myndar í hvert sinn sem samningstilbo�
 |**Hagn./tap samn. (ábyrgðarstöð)**|Ef skoða á hagnaðar-/tapfærslur eftir ábyrgðarstöð.|  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn heiti síðunnar sem á að birta og veldu síðan tengda tengilinn.  
-2. Fylla inn í afmörkunarskilyrði sem á að nota. Til dæmis í glugganum **Hagn./tap samnings (ástæður)** skal velja gildi fyrir **Afmörkun ástæðukóða**.  
+2. Fylla inn í afmörkunarskilyrði sem á að nota. Til dæmis á síðunni **Hagn./tap samnings (ástæður)** skal velja gildi fyrir **Afmörkun ástæðukóða**.  
 3. Veljið aðgerðina **Sýna fylki**.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Skoðun upplýsinga fyrir bókuð þjónustuskjöl
 Eiginleikinn Þjónustuupplýsingar gerir mögulegt að fá yfirlit yfir upplýsingar um innihald bókaðra þjónustuskjala, eins og til dæmis bókaðra afhendinga, bókaðra reikningsfærslna og bókaðra kreditreikninga.  
 
-Upplýsingarnar sem eiga við samsvarandi bókað þjónustuskjal eru sýndar í upplýsingaglugganum. Hægt er að opna viðeigandi upplýsingaglugga úr bókaðri þjónustuafhendingu, bókuðum þjónustureikningi eða bókuðum þjónustukreditreikningi. Fyrir hvert þessara skjalagerðir, í **Heima** flipanum í **Ferli** hóp, velja **Tölfræði**. Til dæmis úr glugganum **Bókaðir þjónustureikningar**, á flipanum **Heim**, í flokknum **Vinnsla**, skal velja **Upplýsingar**.  
+Upplýsingarnar sem eiga við samsvarandi bókað þjónustuskjal eru sýndar á upplýsingasíðunni. Hægt er að opna viðeigandi upplýsingasíðu úr bókaðri þjónustuafhendingu, bókuðum þjónustureikningi eða bókuðum þjónustukreditreikningi. Fyrir hvert þessara skjalagerðir, í **Heima** flipanum í **Ferli** hóp, velja **Tölfræði**. Til dæmis af síðunni **Bókaðir þjónustureikningar**, á flipanum **Heim**, í flokknum **Vinnsla**, skal velja **Upplýsingar**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Upplýsingar þjónustuafhendingar  
-Í glugganum **Upplýsingar þjónustuafhendingar** er hægt að fá yfirlit yfir bókaðar þjónustuafhendingar. Þar á meðal eru upplýsingar um efnislegt innihald afhendingar, eins og til dæmis magn afhentrar vöru, forðastundir eða kostnað og þyngd og rúmmál afhentrar vöru.  
+Á síðunni **Upplýsingar þjónustuafhendingar** er hægt að fá yfirlit yfir bókaðar þjónustuafhendingar. Þar á meðal eru upplýsingar um efnislegt innihald afhendingar, eins og til dæmis magn afhentrar vöru, forðastundir eða kostnað og þyngd og rúmmál afhentrar vöru.  
 
 ### <a name="posted-service-invoice-statistics"></a>Upplýsingar um bókaðan þjónustureikning  
-Hægt er að skoða tölfræðilegt yfirlit um bókaðan þjónustureikning í glugganum **Reikningsupplýsingar þjónustu**. Hægt er að skoða samtölur bókaðrar þjónustureikninga. Í gögnunum eru samtölur í þjónustulínum (með og án VSK) sem búið er að bóka sem reikninga, VSK hluta og kostnað og framlegð á bókuðum reikningum. Í glugganum eru einnig eftirfarandi upplýsingar:  
+Hægt er að skoða tölfræðilegt yfirlit um bókaðan þjónustureikning á síðunni **Reikningsupplýsingar þjónustu**. Hægt er að skoða samtölur bókaðrar þjónustureikninga. Í gögnunum eru samtölur í þjónustulínum (með og án VSK) sem búið er að bóka sem reikninga, VSK hluta og kostnað og framlegð á bókuðum reikningum. Á síðunni eru einnig eftirfarandi upplýsingar:  
 
 * Um vörurnar í þjónustureikningslínunum, svo sem þyngd, rúmmál og magn pakkninga.  
 * Stöðuna á reikningi viðskiptamanns og hámarks kredit sem hægt er að úthluta viðskiptamanni.  
 
 ### <a name="posted-service-credit-memo-statistics"></a>Upplýsingar um bókaðan þjónustukreditreikning  
-Hægt er að nota gluggann **Kreditreikningsupplýsingar þjónustu** til þess að fá upplýsingar um línurnar í bókuðum þjónustukreditreikningi. Yfirlitið getur innihaldið:
+Hægt er að nota síðuna **Kreditreikningsupplýsingar þjónustu** til þess að fá upplýsingar um línurnar í bókuðum þjónustukreditreikningi. Yfirlitið getur innihaldið:
 
 * Samtölur bókaðra kreditreikninga, sýndar sem magn, upphæð, VSK, kostnað og framlegð. Einnig upplýsingar um vörurnar í þjónustulínum bókaðs kreditreiknings, eins og magn, þyngd og rúmmál.  
 * Almennar upplýsingar um viðskiptamann, eins og t.d. lánamark viðskiptamanns og stöðu reiknings.  

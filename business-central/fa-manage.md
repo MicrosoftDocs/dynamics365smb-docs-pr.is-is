@@ -13,10 +13,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 37e71ef201b771b13fc4393f9a6c3ffab91de163
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9569f01f286008b76667e3a524257ba1aac61f91
 ms.contentlocale: is-is
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fixed-assets"></a>Eignir
@@ -31,7 +31,7 @@ Hægt er að skrá viðhaldskostnað fyrir hverja eign og næstu þjónustudagse
 Tengja má hverja eign einum eða fleiri vátryggingarskilmálum. Auðvelt er því að sannprófa að upphæðir í vátryggingarskilmálum séu í samræmi við verðmæti eignanna sem þeir eiga við. Það auðveldar því eftirlit með árlegum iðgjöldum af vátryggingum.
 
 > [!NOTE]  
->   Hægt er að skrá eignafærslur í **Fjárhagsbók eigna** gluggann eða í **færslubók eigna** gluggann, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á **fjárhagsbók eigna** glugginn. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).
+>   Hægt er að skrá eignafærslur á síðunni **Fjárhagsbók eigna** eða á síðunni **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á síðuna **Fjárhagsbók eigna**. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).
 
 Áður en þú getur byrjað að stjórna eignum, verður þú að setja upp sjálfgefið gildi, eignabókhald, bókunarflokka, úthlutunarlykla, færslubækur og bókunargerðir. Nánari upplýsingar eru í [Uppsetning eigna](fa-setup.md).
 
