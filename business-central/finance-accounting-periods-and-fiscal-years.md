@@ -1,0 +1,74 @@
+---
+title: "Unnið með fjárhagstímabil og fjárhagsár | Microsoft Docs"
+description: "Lærðu hvernig á að vinna með fjárhagstímabil til að skilgreina hvenær fyrirtækið greinir frá fjárhagslegri frammistöðu."
+services: project-madeira
+documentationcenter: 
+author: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 08/13/2018
+ms.author: bholtorf
+ms.translationtype: HT
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f760f546ea02fbc19473c70eb26d8b4c47c0987
+ms.contentlocale: is-is
+ms.lasthandoff: 11/26/2018
+
+---
+# <a name="working-with-accounting-periods-and-fiscal-years"></a><span data-ttu-id="e2b7c-103">Unnið með fjárhagstímabil og fjárhagsár</span><span class="sxs-lookup"><span data-stu-id="e2b7c-103">Working with Accounting Periods and Fiscal Years</span></span>
+<span data-ttu-id="e2b7c-104">Fjárhagstímabil, sem einnig eru þekkt sem skýrslutímabil, eru tímabil þar sem fyrirtæki eða stofnun greinir frá fjárhagslegri frammistöðu, t.d. með því að búa til rekstrarreikning eða efnahagsreikning.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-104">Accounting periods, which are also known as reporting periods, are periods of time for which a company or organization reports financial performance, for example, by generating their income statement or balance sheet.</span></span> <span data-ttu-id="e2b7c-105">Venjulega tengjast fjárhagstímabil fjárhagsári fyrirtækis, sem geta innihaldið nokkur fjárhagstímabil, svo sem mánuði eða ársfjórðunga.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-105">Typically, accounting periods refer to the company's fiscal year, which can contain several accounting periods, such as months or quarters.</span></span>
+
+<span data-ttu-id="e2b7c-106">Í mörgum fyrirtækjum samsvarar reikningsárið ekki almanaksárinu.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-106">For many companies the fiscal year does not align with the calendar year.</span></span> <span data-ttu-id="e2b7c-107">Til dæmis gæti fjárhagsárið endað 30. júní fremur en 31. desember.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-107">For example, the fiscal year might end on June 30th rather than December 31st.</span></span> <span data-ttu-id="e2b7c-108">Fyrir nýstofnuð fyrirtæki gæti fjárhagstímabilið í raun verið lengra en 12 mánuðir.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-108">For newly created companies, the fiscal might actually be longer than 12 months.</span></span> 
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="e2b7c-109">krefst aðeins fjárhagstímabila ef þú vilt eingöngu loka rekstrarreikningi eða keyra gagnaþjöppunarverk.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-109">only requires accounting periods only if you want to close an income statement, or run data compression tasks.</span></span> 
+
+<span data-ttu-id="e2b7c-110">Hægt er að nota reikningstímabil í skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-110">You can use accounting periods in reporting.</span></span> <span data-ttu-id="e2b7c-111">Til dæmis, þegar þú skoðar bókaðar færslur á síðunni **Staða/fjárhagsáætlun** þar sem hægt er að tilgreina skýrslutímabilið.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-111">For example, when you are reviewing posted entries on the **Balance/Budget** page where the reporting interval can be specified.</span></span> <span data-ttu-id="e2b7c-112">Einn af þeim valkostum sem þú getur tilgreint til að greina frá eftir reikningstímabili.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-112">One of the options you may specify to report by accounting period.</span></span> <span data-ttu-id="e2b7c-113">Þú getur líka byggt upp fjárhagsskema sem ber saman niðurstöður fyrir mismunandi reikningstímabil.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-113">You can also build an account schedule that compares results for different accounting periods.</span></span>
+
+## <a name="creating-a-new-fiscal-year"></a><span data-ttu-id="e2b7c-114">Stofna nýtt fjárhagsár</span><span class="sxs-lookup"><span data-stu-id="e2b7c-114">Creating a new fiscal year</span></span>
+<span data-ttu-id="e2b7c-115">Hægt er að búa til mörg reikningstímabil saman með runuvinnslunni **Búa til fjárhagsár** eða handvirkt.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-115">You can create accounting periods in bulk, by using eh **Create Fiscal Year** batch job, or manually.</span></span>
+
+### <a name="how-to-create-accounting-periods-in-bulk"></a><span data-ttu-id="e2b7c-116">Hvernig skal búa til mörg fjárhagstímabil saman</span><span class="sxs-lookup"><span data-stu-id="e2b7c-116">How to create accounting periods in-bulk</span></span>
+<span data-ttu-id="e2b7c-117">Notaðu runuvinnsluna **Búa til fjárhagsár** til að skipta fjárhagsári niður í tímabil af jafnri lengd.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-117">Use the **Create Fiscal Year** batch job to divide a fiscal year into periods of equal length.</span></span>  
+
+1. <span data-ttu-id="e2b7c-118">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Reikningstímabil** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-118">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="e2b7c-119">Veldu aðgerðina **Stofna ár**.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-119">Choose the **Create Year** action.</span></span>  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
+3. <span data-ttu-id="e2b7c-120">Í reitnum **Upphafsdagsetning** skal slá inn dagsetninguna sem fjárhagsárið byrjar á.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-120">In the **Starting Date** field, enter the date on which the fiscal year starts.</span></span>  
+4. <span data-ttu-id="e2b7c-121">Í reitnum **Fjöldi tímabila** skal slá inn fjölda reikningstímabila sem fjárhagsárið á að skiptast niður í.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-121">In the **No. of Periods** field, enter the number of accounting periods to divide the fiscal year into.</span></span> <span data-ttu-id="e2b7c-122">Hægt er að velja allt að 365 tímabil fyrir hvert ár.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-122">There can be up to 365 periods in a year.</span></span>  
+5. <span data-ttu-id="e2b7c-123">Í reitinn **Lengd tímabils** skal slá inn tímalengd fyrir hvert tímabil.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-123">In the **Period Length** field, enter a duration for each period.</span></span> <span data-ttu-id="e2b7c-124">Sem dæmi, 1M fyrir einn mánuð, 1V fyrir eina viku og 1Y fyrir eitt ár.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-124">For example, 1M for one month, 1Q for one quarter, and 1Y for one year.</span></span>  
+6. <span data-ttu-id="e2b7c-125">Velja **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-125">Choose **OK**.</span></span>  
+
+### <a name="how-to-create-accounting-periods-manually"></a><span data-ttu-id="e2b7c-126">Hvernig á að stofna reikningstímabil handvirkt</span><span class="sxs-lookup"><span data-stu-id="e2b7c-126">How to create accounting periods manually</span></span>
+<span data-ttu-id="e2b7c-127">Ef reikningstímabilin á fjárhagsárinu eru mismunandi löng, eins og 4-4-5 dagatalið sem notað er í smásölu, getur þú sett þau upp handvirkt.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-127">If the accounting periods in your fiscal year have different durations, like the 4-4-5 calendar used in retail, you can manually set it up.</span></span>  
+  
+1. <span data-ttu-id="e2b7c-128">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Reikningstímabil** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-128">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="e2b7c-129">Í reitnum **Upphafsdagsetning** skal slá inn dagsetninguna sem fjárhagsárið byrjar á.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-129">In the **Starting Date** field, enter the date on which the fiscal year starts.</span></span> <span data-ttu-id="e2b7c-130">Reiturinn **Heiti** sýnir heiti mánaðar.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-130">The **Name** field will show the name of the month.</span></span>  
+3. <span data-ttu-id="e2b7c-131">Veldu gátreitinn **Nýtt fjárhagsár** til að gefa til kynna að þetta sé fyrsta tímabilið á árinu.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-131">Choose the **New Fiscal Year** check box to indicate that this is the first period in the year.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="e2b7c-132">mun nota þetta tímabil til að ákvarða hvaða tímabil skuli loka í árslok.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-132">will use this period to determine which periods to close at year-end.</span></span>
+4. <span data-ttu-id="e2b7c-133">Endurtakið skref 2 og 3 fyrir hin tímabilin sem eru eftir.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-133">Repeat steps 2 and 3 for each remaining period.</span></span>  
+
+## <a name="closing-a-fiscal-year"></a><span data-ttu-id="e2b7c-134">Lokun fjárhagsárs</span><span class="sxs-lookup"><span data-stu-id="e2b7c-134">Closing a Fiscal Year</span></span>
+<span data-ttu-id="e2b7c-135">Lokun fjárhagsárs er eitt verkanna fyrir lokun bóka.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-135">Closing the fiscal year is one of the tasks for closing the books.</span></span> <span data-ttu-id="e2b7c-136">Eftir að fjárhagsári er lokað, eru gátreitirnir **Lokað** og **Dags. læst** valdir fyrir öll tímabilin á árinu.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-136">After you close a fiscal year, the **Closed** and **Date Locked** check boxes are selected for all periods in the year.</span></span> <span data-ttu-id="e2b7c-137">Þú getur ekki opnað ár aftur eða hreinsað gátreitina.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-137">You cannot reopen a year or clear the check boxes.</span></span>
+
+> [!NOTE]  
+>  <span data-ttu-id="e2b7c-138">Þú verður alltaf að hafa að minnsta kosti eitt opið fjárhagsár.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-138">You must always have at least one open fiscal year.</span></span> <span data-ttu-id="e2b7c-139">Þegar ári er lokað skal tryggja að nýtt ár hafi verið stofnað.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-139">When closing a year, ensure that a new year has been created.</span></span> <span data-ttu-id="e2b7c-140">Hafðu einnig í huga að eftir að einu ári er lokað er ekki hægt að breyta upphafsdagsetningunni á næsta ári.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-140">Also, note that after you close one year, you cannot change the starting date of the following year.</span></span>
+
+1. <span data-ttu-id="e2b7c-141">Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Reikningstímabil** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-141">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Accounting Periods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="e2b7c-142">Veldu aðgerðina **Loka ári**.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-142">Choose the **Close Year** action.</span></span>  
+
+## <a name="posting-entries-to-a-closed-fiscal-year"></a><span data-ttu-id="e2b7c-143">Bókun færslna á lokað fjárhagsár</span><span class="sxs-lookup"><span data-stu-id="e2b7c-143">Posting Entries to a Closed Fiscal Year</span></span>
+<span data-ttu-id="e2b7c-144">Enda þótt fjárhagsár sé lokað er enn hægt að bóka fjárhagsfærslur á það.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-144">Although a fiscal year is closed, you can still post general ledger entries to it.</span></span> <span data-ttu-id="e2b7c-145">Þegar það er gert eru færslurnar merktar sem bókaðar á lokað fjárhagsár og gátreiturinn **Fært á fyrra ár** er valinn.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-145">When you do, the entries are marked as posted to a closed fiscal year and the **Prior Year Entry** check box is selected.</span></span> <span data-ttu-id="e2b7c-146">Sjálfgefið er að þessi gátreitur sé ekki sýndur á síðunni, en þú getur bætt honum við.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-146">By default, the check box is not displayed on the page, but you can add it.</span></span> <span data-ttu-id="e2b7c-147">Næsta skref er að loka rekstrarreikningum og flytja niðurstöður ársins yfir á efnahagsreikning.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-147">The next steps are to close the income statement accounts and transfer the year's results to an account in the balance sheet.</span></span> <span data-ttu-id="e2b7c-148">Endurtaktu þessi skref í hvert skipti sem þú bókar færslur á lokað fjárhagsár.</span><span class="sxs-lookup"><span data-stu-id="e2b7c-148">Repeat these steps each time you post entries to a closed fiscal year.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="e2b7c-149">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="e2b7c-149">See Also</span></span>
+[<span data-ttu-id="e2b7c-150">Bókum lokað</span><span class="sxs-lookup"><span data-stu-id="e2b7c-150">Closing the Books</span></span>](year-close-books.md)  
+[<span data-ttu-id="e2b7c-151">Lokaár og Tímabil</span><span class="sxs-lookup"><span data-stu-id="e2b7c-151">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+[<span data-ttu-id="e2b7c-152">Hvernig skal: Vinna með fjárhagsskemu</span><span class="sxs-lookup"><span data-stu-id="e2b7c-152">How to Work with Account Schedules</span></span>](bi-how-work-account-schedule.md)  
+  
+
+
+
+
+
+

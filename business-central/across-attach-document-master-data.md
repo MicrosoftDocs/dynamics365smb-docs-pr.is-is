@@ -1,6 +1,6 @@
 ---
-title: "Hengja skrár við aðalgögn | Microsoft Docs"
-description: "Bættu myndum eða skjölum við viðskiptavini, lánardrottna og aðrar aðalfærslur og láttu þau einnig fylgja reikningum."
+title: "Hengja skrár við kort og skjöl | Microsoft Docs"
+description: "Hægt er að hengja myndir, skjöl og aðrar gerðir skráa við öll kort, svo sem birgðaspjald og verkspjald og þú getur hengt skrár við allar gerðir af sölu- og innkaupskjölum."
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,23 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8f23bfb14e982cc38af67c091d9fc8e9ca2cc8ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 02a590e3389e2453f146db6bac1c487c039f5177
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="attaching-documents-to-master-data"></a><span data-ttu-id="d0b92-103">Hengja skjöl við aðalgögn</span><span class="sxs-lookup"><span data-stu-id="d0b92-103">Attaching Documents to Master Data</span></span>
-<span data-ttu-id="d0b92-104">Þú getur hengt myndir eða skjöl við vörur, viðskiptavini, lánardrottna, störf og önnur tilföng.</span><span class="sxs-lookup"><span data-stu-id="d0b92-104">You can attach pictures, documents, or images to items, customers, vendors, jobs, and resources.</span></span> <span data-ttu-id="d0b92-105">Einnig má hengja fylgiskjölin við sölu- og innkaupaskjöl fyrir þessa aðalfærslu.</span><span class="sxs-lookup"><span data-stu-id="d0b92-105">Optionally, let the attachments be attached to sales and purchase documents for that master record as well.</span></span>  
+# <a name="attaching-files-to-cards-and-documents"></a><span data-ttu-id="82cb7-103">Hengja skrár við kort og skjöl</span><span class="sxs-lookup"><span data-stu-id="82cb7-103">Attaching Files to Cards and Documents</span></span>
+<span data-ttu-id="82cb7-104">Hægt er að hengja myndir, skjöl og aðrar gerðir af skrám við öll kort, svo sem birgðaspjald og verkspjald og þú getur hengt skrár við allar gerðir af sölu- og innkaupskjölum.</span><span class="sxs-lookup"><span data-stu-id="82cb7-104">You can attach pictures, documents, and other types of files to all cards, such as the item card and job card, and you can attach files to all types of sales and purchase documents.</span></span>
 
-## <a name="adding-attachments"></a><span data-ttu-id="d0b92-106">Bæta við fylgiskjölum</span><span class="sxs-lookup"><span data-stu-id="d0b92-106">Adding Attachments</span></span>
+## <a name="to-attach-a-file-to-a-sales-order"></a><span data-ttu-id="82cb7-105">Til að hengja skrá við sölupöntun.</span><span class="sxs-lookup"><span data-stu-id="82cb7-105">To attach a file to a sales order.</span></span>
+<span data-ttu-id="82cb7-106">Eftirfarandi ferli byggist á sölupöntun.</span><span class="sxs-lookup"><span data-stu-id="82cb7-106">The following procedure is based on a sales order.</span></span> <span data-ttu-id="82cb7-107">Skrefin eru svipuð fyrir öll önnur sölu- og innkaupaskjöl og fyrir öll kort.</span><span class="sxs-lookup"><span data-stu-id="82cb7-107">The steps are similar for all other sales and purchase documents and for all cards.</span></span>
 
+1. <span data-ttu-id="82cb7-108">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="82cb7-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Sales Orders**, and then choose the related link.</span></span>
+2. <span data-ttu-id="82cb7-109">Opnaðu söluna sem á að hengja skrá við.</span><span class="sxs-lookup"><span data-stu-id="82cb7-109">Open the sales that you want to attach a file to.</span></span>
+3. <span data-ttu-id="82cb7-110">Veldu aðgerðina **Fylgiskjöl**.</span><span class="sxs-lookup"><span data-stu-id="82cb7-110">Choose the **Attachments** action.</span></span>
+4. <span data-ttu-id="82cb7-111">Á síðunni **Skjöl í viðhengi** í reitnum **Viðhengi** skal velja hnappinn **Velja skrá**.</span><span class="sxs-lookup"><span data-stu-id="82cb7-111">On the **Attached Documents** page, in the **Attachment** field, choose the **Select File** button.</span></span>
+5. <span data-ttu-id="82cb7-112">Veldu skrá frá hvaða staðsetningu sem er og veldu svo hnappinn **Opna**.</span><span class="sxs-lookup"><span data-stu-id="82cb7-112">Select a file from any location, and then choose the **Open** button.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d0b92-107">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="d0b92-107">See Also</span></span>
-[<span data-ttu-id="d0b92-108">Skrá nýja viðskiptamenn</span><span class="sxs-lookup"><span data-stu-id="d0b92-108">Register New Customers</span></span>](sales-how-register-new-customers.md)  
-[<span data-ttu-id="d0b92-109">Skráning nýrra lánardrottna</span><span class="sxs-lookup"><span data-stu-id="d0b92-109">Register New Vendors</span></span>](purchasing-how-register-new-vendors.md)  
-[<span data-ttu-id="d0b92-110">Skrá nýjar vörur</span><span class="sxs-lookup"><span data-stu-id="d0b92-110">Register New Items</span></span>](inventory-how-register-new-items.md)  
+## <a name="see-also"></a><span data-ttu-id="82cb7-113">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="82cb7-113">See Also</span></span>
+[<span data-ttu-id="82cb7-114">Skrá nýjar vörur</span><span class="sxs-lookup"><span data-stu-id="82cb7-114">Register New Items</span></span>](inventory-how-register-new-items.md)  
+[<span data-ttu-id="82cb7-115">Selja vörur</span><span class="sxs-lookup"><span data-stu-id="82cb7-115">Sell Products</span></span>](sales-how-sell-products.md)
 

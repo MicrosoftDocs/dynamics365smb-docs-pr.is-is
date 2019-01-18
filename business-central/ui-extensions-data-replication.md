@@ -1,6 +1,6 @@
 ---
-title: "Skýjaafrit af gögnum þínum | Microsoft Docs"
-description: "Notaðu viðbótina speglun gagna til að búa til ský afrit af gögnum þínum svo þú sért tengd(ur) snjallský."
+title: "Business Central snjallský viðbót | Microsoft Docs"
+description: "Notaðu þessa viðbót gagnaeftirlíkingar til að búa til skýjaafrit af gögnum þínum svo þú sért tengd(ur) snjallskýi."
 author: edupont04
 manager: edupont
 ms.service: dynamics365-business-central
@@ -9,24 +9,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c01e1c4fe4cd67e8ef474e174f0a9797b60de329
+ms.sourcegitcommit: 7b5f8cb6a126bdd99ab5fb7a82f981eab1c484a1
+ms.openlocfilehash: 1d4bea462879d49f02c6fa6d8b4a83365d5149a3
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
-# <a name="business-central-data-replication-extension"></a><span data-ttu-id="9b391-103">Business Central Speglun gagna viðbót\*\*</span><span class="sxs-lookup"><span data-stu-id="9b391-103">Business Central Data Replication Extension\*\*</span></span>
+# <a name="business-central-intelligent-cloud-extensions"></a><span data-ttu-id="6004e-103">Business Central snjallský viðbótum</span><span class="sxs-lookup"><span data-stu-id="6004e-103">Business Central Intelligent Cloud Extensions</span></span>
 
-<span data-ttu-id="9b391-104">Þessi viðbót mun fara með þig í gegnum ferlið til að grunnstilla umhverfi snjallskýs.</span><span class="sxs-lookup"><span data-stu-id="9b391-104">This extension will take you through the process to configure your Intelligent Cloud environment.</span></span>  <span data-ttu-id="9b391-105">Þegar snjallskýjaumhverfið þitt hefur verið grunnstillt geturðu endurheimt gögn úr þínum [!INCLUDE[prodshort](includes/prodshort.md)] lausnum á staðnum til [!INCLUDE[prodshort](includes/prodshort.md)] skýjaleigjanda þíns.</span><span class="sxs-lookup"><span data-stu-id="9b391-105">Once your Intelligent Cloud environment is configured, you will be able to replicate data from your [!INCLUDE[prodshort](includes/prodshort.md)] on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span>  <span data-ttu-id="9b391-106">Þetta gerir þér kleift að nýta hvað skýið býður upp á fyrir fyrirtækið þitt, svo sem aukið innsýn í fyrirtæki þitt, gervigreind, aðgang að mörgum tækjum og aðgang hvenær sem er, hvar sem er.</span><span class="sxs-lookup"><span data-stu-id="9b391-106">This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.</span></span>
+<span data-ttu-id="6004e-104">Ef þú ert að nota eina af studdu vörum á staðnum geturðu stillt snjallskýjaumhverfið sem byggist á vörumiðaðri viðbót.</span><span class="sxs-lookup"><span data-stu-id="6004e-104">If you are using one of the supported on-premises products, you can configure your intelligent cloud environment based on a product-specific extension.</span></span> <span data-ttu-id="6004e-105">Þegar snjallskýjaumhverfið þitt hefur verið grunnstillt geturðu endurheimt gögn úr þínum lausnum á staðnum til [!INCLUDE[prodshort](includes/prodshort.md)] skýjaleigjanda þíns.</span><span class="sxs-lookup"><span data-stu-id="6004e-105">Once your intelligent cloud environment is configured, you will be able to replicate data from your on-premises solution to your [!INCLUDE[prodshort](includes/prodshort.md)] cloud tenant.</span></span> <span data-ttu-id="6004e-106">Þetta gerir þér kleift að nýta hvað skýið býður upp á fyrir fyrirtækið þitt, svo sem aukið innsýn í fyrirtæki þitt, gervigreind, aðgang að mörgum tækjum og aðgang hvenær sem er, hvar sem er.</span><span class="sxs-lookup"><span data-stu-id="6004e-106">This will enable you to take full advantage of what the cloud has to offer your business such as, enhanced insights into your business, artificial intelligence, multiple device access, and anytime, anywhere access.</span></span>  
 
-<span data-ttu-id="9b391-107">Þessi framlenging verður að nota í tengslum við **Business Central Intelligent** skýjaviðbótina.</span><span class="sxs-lookup"><span data-stu-id="9b391-107">This extension must be used in conjunction with the **Business Central Intelligent** cloud extension.</span></span>
+## <a name="business-central-on-premises"></a><span data-ttu-id="6004e-107">Business Central á staðnum</span><span class="sxs-lookup"><span data-stu-id="6004e-107">Business Central on-premises</span></span>
+<span data-ttu-id="6004e-108">Ef þú ert að nota uppsetningu á staðnum af [!INCLUDE[prodshort](includes/prodshort.md)], náðu þá í **snjallskýjaviðbótina** og **Business Central snjallský** viðbótina og fylgdu leiðbeiningunum í báðum.</span><span class="sxs-lookup"><span data-stu-id="6004e-108">If you are using an on-premises deployment of [!INCLUDE[prodshort](includes/prodshort.md)], get the **Intelligent Cloud Base** extension and the **Business Central Intelligent Cloud** extension, and follow the guides in both.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="9b391-108">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="9b391-108">See Also</span></span>
+## <a name="dynamics-gp"></a><span data-ttu-id="6004e-109">Dynamics GP</span><span class="sxs-lookup"><span data-stu-id="6004e-109">Dynamics GP</span></span>
+<span data-ttu-id="6004e-110">Ef þú ert að nota Dynamics GP, náðu þá í **snjallskýjaviðbót** viðbótina, **Dynamics GP gagnaflutning** viðbótina og **Dynamics GP snjallský**, og fylgdu leiðbeiningum í öllum þremur.</span><span class="sxs-lookup"><span data-stu-id="6004e-110">If you are using Dynamics GP, get the **Intelligent Cloud Base Extension** extension, the **Dynamics GP Data Migration** extension, and the **Dynamics GP Intelligent Cloud**, and follow the guides in all three.</span></span>  
 
-[<span data-ttu-id="9b391-109">Aðgangur að snjallskýi</span><span class="sxs-lookup"><span data-stu-id="9b391-109">Your Access to the Intelligent Cloud</span></span>](about-intelligent-cloud.md)  
-[<span data-ttu-id="9b391-110">Business Central snjallskýjaviðbót</span><span class="sxs-lookup"><span data-stu-id="9b391-110">Business Central Intelligent Cloud extension</span></span>](ui-extensions-intelligent-cloud.md)  
+## <a name="see-also"></a><span data-ttu-id="6004e-111">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="6004e-111">See Also</span></span>
+
+[<span data-ttu-id="6004e-112">Aðgangur að snjallskýi</span><span class="sxs-lookup"><span data-stu-id="6004e-112">Your Access to the Intelligent Cloud</span></span>](about-intelligent-cloud.md)  
+[<span data-ttu-id="6004e-113">Snjallskýjaviðbót</span><span class="sxs-lookup"><span data-stu-id="6004e-113">Intelligent Cloud Base Extension</span></span>](ui-extensions-intelligent-cloud.md)  
 

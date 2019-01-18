@@ -4,32 +4,34 @@ description: "Þetta umræðuefni veitir tengla á lýsingu á eiginleikum sem e
 services: project-madeira
 documentationcenter: 
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 962a783db7fdada55fab3552cb2096221135ae5a
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: 18f6a14453b0dc8810e992083abedc55b741440e
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
-# <a name="iceland-local-functionality"></a><span data-ttu-id="21eca-103">Staðbundnar aðgerðir fyrir Ísland</span><span class="sxs-lookup"><span data-stu-id="21eca-103">Iceland Local Functionality</span></span>
-<span data-ttu-id="21eca-104">Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslenskri útgáfu [!INCLUDE[d365fin](../../includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="21eca-104">The following topics describe local functionality that is unique to the Icelandic version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]</span></span>
+# <a name="iceland-local-functionality"></a><span data-ttu-id="a4914-103">Staðbundnar aðgerðir fyrir Ísland</span><span class="sxs-lookup"><span data-stu-id="a4914-103">Iceland Local Functionality</span></span>
+<span data-ttu-id="a4914-104">Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslenskri útgáfu [!INCLUDE[d365fin](../../includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="a4914-104">The following topics describe local functionality that is unique to the Icelandic version of [!INCLUDE[d365fin](../../includes/d365fin_md.md)]</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="21eca-105">Í þessum hluta</span><span class="sxs-lookup"><span data-stu-id="21eca-105">In This Section</span></span>  
-[<span data-ttu-id="21eca-106">Kröfur fyrir rafræna reikningsfærslu: Útgáfa reikninga í einriti</span><span class="sxs-lookup"><span data-stu-id="21eca-106">Electronic Invoicing Requirement: Issuing Single Copy Invoice</span></span>](electronic-invoicing-requirement-issuing-single-copy-invoice.md)  
-[<span data-ttu-id="21eca-107">Eyðing bókaðra reikninga og kreditreikninga</span><span class="sxs-lookup"><span data-stu-id="21eca-107">Deleting Posted Invoices and Credit Memos</span></span>](deleting-posted-invoices-and-credit-memos.md)  
-[<span data-ttu-id="21eca-108">Prenta VSK-yfirlit á skjölum</span><span class="sxs-lookup"><span data-stu-id="21eca-108">Print VAT Summary Information on Documents</span></span>](how-to-print-vat-summary-information-on-documents.md)  
-[<span data-ttu-id="21eca-109">Sérstök gögn og skýrslur fyrir skattyfirvöld</span><span class="sxs-lookup"><span data-stu-id="21eca-109">Special Data Output and Reports for the Tax Authority</span></span>](special-data-output-and-reports-for-the-tax-authority.md)  
+## <a name="in-this-section"></a><span data-ttu-id="a4914-105">Í þessum hluta</span><span class="sxs-lookup"><span data-stu-id="a4914-105">In This Section</span></span>  
+[<span data-ttu-id="a4914-106">Eyðing bókaðra reikninga og kreditreikninga</span><span class="sxs-lookup"><span data-stu-id="a4914-106">Deleting Posted Invoices and Credit Memos</span></span>](deleting-posted-invoices-and-credit-memos.md)  
+[<span data-ttu-id="a4914-107">Kröfur fyrir rafræna reikningsfærslu: Útgáfa reikninga í einriti</span><span class="sxs-lookup"><span data-stu-id="a4914-107">Electronic Invoicing Requirement: Issuing Single Copy Invoice</span></span>](electronic-invoicing-requirement-issuing-single-copy-invoice.md)  
+[<span data-ttu-id="a4914-108">Íslenskar skattareglugerðir fyrir skilyrtan afslátt</span><span class="sxs-lookup"><span data-stu-id="a4914-108">Icelandic Tax Regulations for Conditional Discounts</span></span>](icelandic-tax-regulations-of-conditional-discounts.md)  
+[<span data-ttu-id="a4914-109">Varpa skattstofunúmerum í bókhaldslyklana</span><span class="sxs-lookup"><span data-stu-id="a4914-109">Map IRS Numbers to the Chart of Accounts</span></span>](how-to-map-irs-numbers-to-chart-of-accounts.md)  
+[<span data-ttu-id="a4914-110">Prenta VSK-yfirlit á skjölum</span><span class="sxs-lookup"><span data-stu-id="a4914-110">Print VAT Summary Information on Documents</span></span>](how-to-print-vat-summary-information-on-documents.md)  
+[<span data-ttu-id="a4914-111">Sérstök gögn og skýrslur fyrir skattyfirvöld</span><span class="sxs-lookup"><span data-stu-id="a4914-111">Special Data Output and Reports for the Tax Authority</span></span>](special-data-output-and-reports-for-the-tax-authority.md)  
 
-## <a name="see-also"></a><span data-ttu-id="21eca-110">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="21eca-110">See Also</span></span>
-<span data-ttu-id="21eca-111">[Unnið með [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="21eca-111">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="a4914-112">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="a4914-112">See Also</span></span>
+<span data-ttu-id="a4914-113">[Unnið með [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a4914-113">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
