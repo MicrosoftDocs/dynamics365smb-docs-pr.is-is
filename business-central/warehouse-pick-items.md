@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
 ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="pick-items"></a>Tína til vörur
@@ -38,7 +38,8 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Bóka afhendingu vöru beint í pöntun á útleið því engar vöruhúsaaðgerðir eru fyrir hendi. (Kemur eins út fyrir sölupantanir, millifærslupantanir á útleið, og skilaafhendingar.)|[Senda vörur](warehouse-how-ship-items.md)|  
 |Tína vörur pöntun fyrir pöntun og bóka afhendingu í sömu aðgerð, í einfaldri vöruhúsagrunnstillingu.|[Vörur tíndar með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Tína vörur fyrir margar pantanir í ítarlegri vöruhúsagrunnstillingu.|[Vörur tíndar með vöruhúsatínslu](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Tína íhluti fyrir framleiðslu eða samsetningu í einfaldri eða ítarlegri vöruhúsagrunnstillingu.|[Taka til fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md)|  
+|Tína íhluti fyrir framleiðslu eða samsetningu í einfaldri vöruhúsagrunnstillingu.|[Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss](warehouse-how-to-pick-for-production.md)|
+|Tína íhluti fyrir framleiðslu eða samsetningu í ítarlegri vöruhúsagrunnstillingu.|[Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)|  
 |Áætla bestu tínslufyrirmæli fyrir nokkrar afhendingar í stað þess að láta starfsmenn vöruhúss framkvæma beint fyrir bókaðar afhendingar.|[Skipuleggja tínslur á vinnublaðinu](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Tína vörur sem tæknilega eru ætlaðar sérstökum tilgangi, eins og til dæmis framleiðslueiningu sem vantar aukaíhluti, þannig að vörurnar fari ekki tæknilega séð ekki úr vöruhúsinu.|[Tína og ganga frá án upprunaskjals](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Skilja hvernig skal tína vörur sjálfvirkt samkvæmt lokadagsetningu þeirra, til dæmis vörum sem hætt er við skemmdum.|[Tínsla eftir FEFO](warehouse-picking-by-fefo.md)|

@@ -8,16 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 81176d2dc4cb5223d20ea553390b591d47bd5a85
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: 5fb8201f85fe94ac124e80014a4f3ff5073fbf65
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu
+
+**Athugið**: Framkvæma verður þessa kynningu í sýnifyrirtæki með valkostinum **Fullt mat - öll sýnigögn** sem er í boði í sandkassaumhverfinu. Nánari upplýsingar eru í [Sandkassaumhverfi stofnað](across-how-create-sandbox-environment.md).
+
 Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyrirframgreiðslupöntun sölu- eða innkaupa áður en lokareikningsfærsla fer fram. Hugsanlega er beðið um innborgun áður en vörur eru framleiddar upp í pöntun eða áður en vörur eru afhentar viðskiptamanni. Fyrirframgreiðslur í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að nota til að reikningsfæra og innheimta innborganir frá viðskiptamönnum eða senda lánardrottnum innborganir. Þannig má tryggja að allar greiðslur séu bókaðar á móti reikningi.  
 
  Hægt er að skilgreina skilyrði fyrirframgreiðslu fyrir viðskiptamann eða lánardrottin fyrir allar vörur eða valdar vörur. Þegar uppsetningu er lokið er hægt að búa til fyrirframgreiðslureikninga úr sölu- og innkaupapöntunum fyrir útreiknuðu greiðsluupphæðina. Hægt er að breyta sjálfgefnu upphæðunum á reikningnum eins og þarf. T.d er hægt að senda viðbótarfyrirframgreiðslureikninga ef t.d. vörum er bætt við pöntunina.  

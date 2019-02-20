@@ -1,5 +1,5 @@
 ---
-title: "Kynntu þér Microsoft Dynamics Business Central"
+title: "Kynntu þér Microsoft Dynamics 365 Business Central"
 description: "Lærðu um getu og vinnusviðsmyndir í Business Central, sem er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki."
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,10 +10,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c0ae00a8994f41b54356a50418eafdc090c701e7
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 423518d27902cf8c4507a583f660932296789c6e
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Velkomin(n) í[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 |-|-|  
 |**Viðskiptaferli**|-   [Hafist handa](product-get-started.md)<br />-   [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Stjórnun](admin-setup-and-administration.md)<br />-   [Viðskiptavirkni](across-business-functionality.md)<br />-   [Staðbundin virkni](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [Almenn viðskiptavirkni](ui-across-business-areas.md)<br />-   [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)<br />-   [Hönnunarupplýsingar forrits](design-details-application-design.md)|  
 |**Þróun**|-   [Hafist handa](/dynamics365/business-central/dev-itpro/index)<br />-   [Þróun í AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [Þróunarumhverfi AL](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Reglur og leiðbeiningar fyrir AL-kóða](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
-|**Samfélagstilföng**|-   [Samfélag Microsoft Dynamics Business Central](https://community.dynamics.com/business)<br />-   [Blogg Microsoft Dynamics Business Central](https://community.dynamics.com/business/b/financials)<br />-   [Microsoft Dynamics Business Central Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)<br />-   [Microsoft Dynamics PartnerSource \(krefst PartnerSource-reikning\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(krefst Microsoft Partner Network aðildarreiknings\)](https://mspartner.microsoft.com/en/us/Pages/index.aspx)|  
+|**Samfélagstilföng**|-   [Microsoft Dynamics 365 Business Central samfélag](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central blogg](https://community.dynamics.com/business/b/financials)<br />-   [Microsoft Dynamics 365 Business Central útgáfuupplýsingar](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics PartnerSource \(krefst PartnerSource-reikning\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(krefst Microsoft Partner Network aðildarreiknings\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  

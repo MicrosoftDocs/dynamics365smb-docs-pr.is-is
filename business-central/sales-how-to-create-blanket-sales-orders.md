@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: ac2582e48d03738974d5db51841e1efdf4c0a316
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Vinna með standandi sölupantanir
@@ -27,7 +27,7 @@ Standandi pöntun er yfirleitt stofnuð þegar viðskiptamaður hefur skuldbundi
 Dæmi um hvenær standandi sölupöntun er hægt að nota er ef viðskiptamaður hefur samband og leggur inn pöntun upp á 1000 einingar af vörur og vill fá afhentar 250 einingar á viku næsta mánuðinn.
 
 > [!NOTE]
-> Standandi innkaupapöntun virka á svipaðan hátt og standandi sölupantanir. Þetta fylgiskjal nær ekki yfir Standandi innkaupapantanir
+> Standandi innkaupapöntun virka á svipaðan hátt og standandi sölupantanir. Þetta fylgiskjal nær eingöngu yfir standandi sölupantanir.
 
 ## <a name="to-create-a-blanket-sales-order"></a>Til að búa til standandi sölupöntun.  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Standandi sölupantanir** og veldu síðan tengda tengilinn.  
@@ -38,7 +38,7 @@ Dæmi um hvenær standandi sölupöntun er hægt að nota er ef viðskiptamaður
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Stofnun sölupöntunar úr standandi sölupöntun  
 
-1.  Til að stofna pöntun fyrir línurnar í standandi samsetningarpöntununum, er magnið fjarlægt úr reitnum **Magn til afhendingar** í öllum línum sem EKKI á að flytja á þessum tíma.  
+1.  Til að stofna pöntun fyrir einhverjar línur í standandi sölupöntun skal fjarlægja magnið úr reitnum **Magn til afhendingar** í öllum línum sem ekki á að flytja á þessum tíma.  
 2.  Þegar komið er að því að stofna pantanir skal velja aðgerðina **Búa til pöntun** og síðan velja **Já**. Skilaboð birtast um að standandi pöntunin hafi fengið pöntunarnúmer. Takið eftir að standandi pöntuninni hefur ekki verið eytt.  
 3.  Velja hnappinn **Í lagi**.  
 4.  Til að birta niðurstöður fyrri skrefa skal velja aðgerðina **, Lína**, velja **Óbókaðar línur**, og velja síðan aðgerðina **Pantanir**.  
@@ -55,17 +55,17 @@ Eftirfarandi á við sölupantanir eftir að þær hafa verið stofnaðar úr st
 - Reikningsfærða standandi pöntunin er til staðar í kerfinu þangað til henni er eytt annað hvort með því að eyða hverri standandi pöntun fyrir sig eða með keyrslunni **Eyða reikningsfærðum standandi sölupöntunum**.  
 - Ef viðskiptamaður er einnig skráður sem tengiliður í kerfishlutanum Tengslagrunnur og ef kóti samskiptasniðmáts fyrir standandi söluvörupöntun hefur verið skilgreindur á síðunni **Tengslagrunnur** eru samskipti skráð sjálfkrafa í töfluna Skráningarfærsla samskipta þegar smellt er á **Prenta** til að prenta standandi söluvörupöntunina.
 
-## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Staða standandi innkaupapantana skoðuð:  
-Hægt er að skoða stöðu standandi sölupantana á síðunni **Upplýsingar um standandi sölupöntun**. Þetta gæti skipt máli þegar byrjað er að reikningsfæra pöntunina sem búin er til úr standandi innkaupapöntuninni.  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Til að skoða stöðu standandi sölupöntunar:  
+Hægt er að skoða stöðu standandi sölupantana á síðunni **Upplýsingar um standandi sölupöntun**. Þetta gæti skipt máli þegar byrjað er að reikningsfæra pöntunina sem búin er til úr standandi sölupöntuninni.  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Standandi innkaupapantanir** og veldu síðan tengda tengilinn.  
-2.  Velja Standandi innkaupapöntun og velja síðan aðgerðina **Upplýsingar**.  
-3.  Á síðunni **Upplýsingar um standandi innkaupapöntun** á flýtiflipanum **Almennt** er hægt að sjá samantekt á allri pöntuninni byggða á heildarmagni í ýmsum **magnreitum** í línum standandi innkaupapöntunarinnar.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Standandi sölupantanir** og veldu síðan tengda tengilinn.  
+2.  Veldu standandi sölupöntun og síðan aðgerðina **Upplýsingar**.  
+3.  Á síðunni **Upplýsingar um standandi sölupöntun** á flýtiflipanum **Almennt** er hægt að sjá samantekt á allri pöntuninni byggða á heildarmagni í ýmsum **Magnreitum** í línum standandi sölupöntunarinnar.  
 
-    - Á flýtiflipanum **Reikningsfærsla** er hægt að sjá samantekt byggða á heildarmagni í reitunum **Magn til reikningsf.** í línum standandi innkaupapöntunarinnar.  
-    - Á flýtiflipanum **Afhending** er hægt að sjá samantekt byggða á heildarmagni í reitunum **Magn til móttöku** í línum standandi innkaupapöntunarinnar.  
-    - Á flýtiflipanum **Fyrirframgreiðsla** er hægt að sjá samantekt um allar fyrirframgreiddar upphæðir.  
-    - Á flýtiflipanum **Lánardrottinn** er hægt að skoða ákveðnar grunnupplýsingar um lánardrottininn.    
+- Á flýtiflipanum **Reikningsfærsla** er hægt að sjá samantekt byggða á heildarmagni í reitunum **Magn til reikningsfærslu** í línum standandi sölupöntunarinnar.  
+- Á flýtiflipanum **Afhending** er hægt að sjá samantekt byggða á heildarmagni í reitunum **Magn til móttöku** í línum standandi sölupöntunarinnar.  
+- Á flýtiflipanum **Fyrirframgreiðsla** er hægt að sjá samantekt um allar fyrirframgreiddar upphæðir.  
+- Á flýtiflipanum **Lánardrottinn** er hægt að skoða ákveðnar grunnupplýsingar um lánardrottininn.    
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Hvernig á að skoða óbókaðar og bókaðar línur standandi sölupöntunar   
 Tengingin milli standandi sölupöntunar og upphaflegrar sölupöntunar, og allra annarra söluskjala, er varðveitt eftir bókun sem listi yfir bókaðar og óbókaðar reikningslínur sölupantana.  
@@ -74,56 +74,27 @@ Tengingin milli standandi sölupöntunar og upphaflegrar sölupöntunar, og allr
 2. Opna standandi sölupöntun sem á að skoða.
 3. Til að skoða óbókaðar færslur skal smella á viðkomandi línu, velja aðgerðina **Lína**, og velja síðan aðgerðina **óbókaðar línur**. Einn af eftirfarandi kostum er valinn:  
 
-    <table>
-    <tr>
-    <th>Valkostur</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Pantanir**</td>
-    <td>Tilgreinir opnar pantanir tengdar völdu línunni.</td>
-    </tr>
-    <tr>
-    <td>**Reikningar**</td>
-    <td>Tilgreinir opna reikninga sem tengdir hafa verið við völdu línuna. Opnir reikningar eru handvirkt tengdir við standandi pöntun með því færa inn standandi pöntunarnúmer í sölureikningslínuna.</td>
-    </tr>
-    <tr>
-    <td>**Vöruskilapantanir**</td>
-    <td>Tilgreinir opnar vöruskilapantanir sem hafa verið tengdar við völdu línuna eru opnaðar.</td>
-    </tr>
-    <tr>
-    <td>**Kreditreikningar**</td>
-    <td>Tilgreinir kreditreikninga sem tengdir hafa verið við völdu línuna.</td>
-    </tr>
-    </table>
+    |Valkostur|Description|
+    |--|--|
+    |**Pantanir**|Tilgreinir opnar pantanir tengdar völdu línunni.|
+    |**Reikningar**|Tilgreinir opna reikninga sem tengdir hafa verið við völdu línuna. Opnir reikningar eru handvirkt tengdir við standandi pöntun með því færa inn standandi pöntunarnúmer í sölureikningslínuna.|
+    |**Vöruskilapantanir**|Tilgreinir opnar vöruskilapantanir sem hafa verið tengdar við völdu línuna eru opnaðar.|
+    |**Kreditreikningar**|Tilgreinir kreditreikninga sem tengdir hafa verið við völdu línuna.|
+
 4. Til að skoða bókaðar færslur skal smella á viðkomandi línu, velja aðgerðina **Lína**, og velja síðan aðgerðina **bókaðar línur**. Einn af eftirfarandi kostum er valinn:  
 
-    <table>
-    <tr>
-    <th>Valkostur</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td>**Afhendingar**</td>
-    <td>Bókaðar afhendingar tengdar við völdu línuna..</td>
-    </tr>
-    <tr>
-    <td>**Reikningar**</td>
-    <td>Bókaðir reikningar tengdir við völdu línuna..</td>
-    </tr>
-    <tr>
-    <td>**Vöruskilamóttökur**</td>
-    <td>Bókaðar vöruskilamóttökur tengdar við völdu línuna.</td>
-    </tr>
-    <tr>
-    <td>**Kreditreikningar**</td>
-    <td>Bókaðir kreditreikningar sem tengdir hafa verið við völdu línuna.</td>
-    </tr>
-    </table>
+    |Valkostur|Description|
+    |---|----|
+    |**Afhendingar**|Bókaðar afhendingar tengdar við völdu línuna..|
+    |**Reikningar**|Bókaðir reikningar tengdir við völdu línuna..|
+    |**Vöruskilamóttökur**|Bókaðar vöruskilamóttökur tengdar við völdu línuna.|
+    |**Kreditreikningar**|Bókaðir kreditreikningar sem tengdir hafa verið við völdu línuna.|
+
 5. Á síðunni **Sölulínur** skal velja aðgerðina **Sýna fylgiskjal** til að skoða færsluna.
 
 ## <a name="see-also"></a>Sjá einnig
-[Sala](sales-manage-sales.md)  
+[Sölur](sales-manage-sales.md)
+[Búa til standandi samsetningarpantanir](assembly-how-to-create-blanket-assembly-orders.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

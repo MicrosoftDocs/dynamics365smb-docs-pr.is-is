@@ -11,10 +11,10 @@ ms.search.keywords: access, right, security
 ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 6cbce557e03788f760cb9f73dccf1619aa6a9e8c
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 78e83ee0740531935bd30a5988a72d1421a1fd89
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="managing-users-and-permissions"></a>Vinna með notendur og heimildir
@@ -64,7 +64,7 @@ Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað, 
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notandauppsetning** og veldu síðan tengda tengilinn.
 2. Á síðunni **Notandauppsetning** opnast, skal velja **Nýtt** aðgerð.
-3. Í reitnum **Kenni notanda**, skal færa inn auðkenni notanda, eða velja reitinn til að sjá alla núverandi notendur Windows í kerfinu.
+3. Í reitnum **Kenni notanda**, skal færa inn kenni notanda, eða velja reitinn til að sjá alla núverandi Windows notendur innan kerfisins.
 4. Fyllið inn reitina eftir þörfum.
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Að búa til eða breyta heimildasamstæðu

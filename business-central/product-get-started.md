@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2018
+ms.date: 12/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -36,7 +36,7 @@ Hér eru nokkur eldsnögg trix, sem gott er að vita af:
 
 Frekari upplýsingar er að finna í [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](across-business-functionality.md). Fyrir yfirlit yfir gildandi getu og hvað er framundan, skaltu skoða vegakortið okkar á [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](across-business-functionality.md). Fyrir yfirlit yfir gildandi getu og hvað er framundan, skaltu skoða útgáfuupplýsingarnar okkar á [Microsoft Dynamics 365 Business Central útgáfuupplýsingar](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Mín hlutverk
 Síðan Mitt hlutverk byggist á hlutverkamiðaðri hönnun til að veita þér hraðan aðgang að viðskiptaferli og verkfærum viðskiptagreindar sem þú þarft til að sinna starfinu þínu. Endurskoðandi má til dæmis fylgjast með greiðslur og samþykktir og skoða vaxtareikninga afköst myndrit. Skoðaðu alls kyns Mín hlutverk með því að velja táknið **Stillingar** ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingartákn fyrir Mitt hlutverk") efst í hægra horninu, velja **Mínar stillingar** og síðan Mitt hlutverk sem á að skoða. Skrá sig aftur inn til að láta breytinguna taka gildi. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md).
@@ -69,9 +69,17 @@ Ertu að hugsa um að gerast áskrifandi? Auðveldlega er hægt að fara út úr
 
 Til að stofna fyrirtæki til að prufukeyra hluti, farðu á **Mínar stillingar** valmyndina efst í hægra horninu og breyttu fyrirtækinu yfir í **Mitt fyrirtæki**. Til að breytingin taki gildi þarf að skrá sig út úr [!INCLUDE[d365fin](includes/d365fin_md.md)] og svo inn aftur. Uppsetningarleiðsögn með hjálp mun hjálpa þér að veita grunnupplýsingar um fyrirtækið. Þegar því er lokið skal kanna Mitt hlutverk og finna aðgerðina **Uppsetning með hjálp**.  
 
-Annar kostur er að finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search).
+Annar kostur er að finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search).  
 
-## <a name="ready-to-subscribe"></a>Tilbúinn að gerast áskrifandi?
+## <a name="getting-answers-to-questions"></a>Fá svör við spurningum
+
+Ef þú ert ekki viss um hvernig á að gera eitthvað í [!INCLUDE[d365fin](includes/d365fin_md.md)], getur þú vonandi fundið svarið annaðhvort með því að lesa ábendingar fyrir það svæði sem þú ert ekki viss um eða með því að lesa efnið með því að opna tengilinn *Frekari upplýsingar* í ábendingu. Þú getur líka nálgast fylgiskjölin með því að velja tengdan hlekk í hjálparvalmyndinni.  
+
+Öllum svæðunum í [!INCLUDE[d365fin](includes/d365fin_md.md)] er lýst í ábendingum. Þú getur nálgast ábendingar með því að velja heiti svæðisins. Til dæmis, á síðu eins og **Viðskiptamannaspjald** getur þú einfaldlega valið heiti svæðisins til að lesa ábendinguna. Í lista eins og **Viðskiptamenn** eða línurnar í fylgiskjali á borð við sölupöntun, þarftu að velja fellivalmyndina hægra megin við heiti dálksins og síðan velja valmyndaratriðið **Hvað er þetta?**.  
+
+Ef þú hefur fleiri spurningar mælum við með því að þú spyrjir samfélagið eða hafir samband við endursöluaðilann þinn. Frekari upplýsingar eru í [Hvert leita ég ef ég er með spurningar?](across-faq.md#where-do-i-go-if-i-have-questions).  
+
+## <a name="ready-to-subscribe"></a>Viltu gerast áskrifandi?
 Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search). Einnig er hægt að hafa samband við [[!INCLUDE[d365fin](includes/d365fin_md.md)] Söluteymi](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Önnur Dynamics 365 forrit
@@ -86,7 +94,7 @@ Ef þú ert endurskoðandi geturðu skráð þig fyrir [!INCLUDE[d365acc_long](i
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem mitt viðskiptainnhólf í Outlook](admin-outlook.md)  
 [Fáðu [!INCLUDE[d365fin](includes/d365fin_md.md)] í farsímann þinn](install-mobile-app.md)  
 [Fylgigögn Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Business Central Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Microsoft Dynamics 365 Business Central útgáfuupplýsingar](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

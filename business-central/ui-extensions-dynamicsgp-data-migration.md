@@ -12,14 +12,14 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 357be92799a016b21a123692f7ed612d66005017
+ms.sourcegitcommit: 34a6789780fb3d55c0a97b29408dca659992f781
+ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/30/2019
 
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Dynamics GP-Gagnaflutningaviðbótin 
-Þessi viðbót gerir það auðvelt að flytja viðskiptamenn, lánardrottna, birgðavörur, fjárhagsreikninga, opnar viðskiptaskuldir og færslur opinna viðskiptakrafna frá Dynamics GP til [!INCLUDE[prodshort](includes/prodshort.md)]. Ef fyrirtækið þitt notar Dynamics GP í dag getur þú flutt út viðeigandi skrár og síðan opnað leiðbeiningar um uppsetningu með hjálp til að bæta gögnunum við [!INCLUDE[prodshort](includes/prodshort.md)]. Nánari upplýsingar eru í [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md).
+Þessi viðbót gerir það auðvelt að flytja viðskiptamenn, lánardrottna, birgðavörur, fjárhagsreikninga, opnar viðskiptaskuldir og færslur opinna viðskiptakrafna frá Dynamics GP til [!INCLUDE[prodshort](includes/prodshort.md)]. Ef fyrirtækið þitt notar Dynamics GP í dag getur þú flutt út viðeigandi skrár og síðan opnað leiðbeiningar um uppsetningu með hjálp til að bæta gögnunum við [!INCLUDE[prodshort](includes/prodshort.md)]. Flutningsviðbótin virkar fyrir allar studdar útgáfur af Microsoft Dynamics GP. Nánari upplýsingar eru í [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Flytja út gögn úr Dynamics GP
 Þú verður að hafa flutt út nokkra eða alla núverandi viðskiptamenn, lánardrottna, birgðavörur, og fjárhagsreikninga með því að nota gagnaútflutningsvirkni innan Dynamics GP. Þegar þú velur gögnin til að flytja út, er hægt að velja eftirfarandi gerðir:

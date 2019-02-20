@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 10/01/2018
+ms.date: 01/14/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: bb514cdfcaf2ea0a05b669cb5b5963da79a94d0e
+ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
+ms.openlocfilehash: aff05be6ade45224a57f57c92c2d52fcf9e6eb13
 ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/15/2019
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Bjóða ytri endurskoðanda í þitt [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -23,7 +23,8 @@ Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjár
 Þegar endurskoðandi hefur fengið aðgang að þínu [!INCLUDE[d365fin](includes/d365fin_md.md)], getur hann notað **Endurskoðandi** Mitt hlutverk, sem veitir auðveldan aðgang að þeim síðum sem vinna þarf með.  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Bjóða ytri endurskoðanda í þitt [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Í síðustu útgáfu [!INCLUDE[d365fin](includes/d365fin_md.md)] er búið að auðvelda þér að bjóða ytri endurskoðanda. Einfaldlega opnið síðuna **Notendur** og veljið síðan **Bjóða ytri endurskoðanda** aðgerðina í borðanum. Tölvupósturinn er tilbúinn fyrir þig, bættu vinnunetfangi endurskoðandans inn og sendu boðið.  
+
+Við höfum auðveldað þér að bjóða ytri endurskoðanda. Einfaldlega opnið síðuna **Notendur** og veljið síðan **Bjóða ytri endurskoðanda** aðgerðina í borðanum. Tölvupósturinn er tilbúinn fyrir þig, bættu vinnunetfangi endurskoðandans inn og sendu boðið.  
 
 ![Bjóðið endurskoðanda](./media/finance-invite-accountant/invite-accountant.png)
 
@@ -31,7 +32,7 @@ Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjár
 >  SMTP tölvupósts verður að vera uppsettur. Þetta geturðu gert sjálf(ur) eða spurt þinn [!INCLUDE[d365fin](includes/d365fin_md.md)] félaga. Þú verður að vera skráður inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem notandi með stjórnunarheimild, ekki sem fyrirtækjaeigandi eða aðrir notendur. Að lokum verður þú að hafa yfirgefið prufufyrirtækið þannig að þú hafir Azure Active Directory stjórnanda.  
 
 > [!IMPORTANT]  
->  Netfang endurskoðanda verður að vera vinnunetfang sem er byggt á Active Directory. Ef endurskoðandinn notar aðra gerð netfangs er ekki hægt að sena boðið.  
+> Netfang endurskoðanda verður að vera vinnunetfang sem er byggt á Azure Active Directory. Ef endurskoðandinn notar aðra gerð netfangs er ekki hægt að sena boðið.  
 
 ### <a name="separate-license"></a>Aðskilin leyfi
 Endurskoðandanum er bætt við Active Directory leigjanda þinn á bak við tjöldin. Stjórnandi þinn getur staðfest að endurskoðandinn þiggi boðið og að honum sé úthlutað réttri heimild. Liðirnir í þessu ferli fara eftir þeirri tegund aðgangs sem þú notaðir þegar þú skráðir þig í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta efnisatriði byggir á notkun á Office 365 aðgangi, sem notast við Microsoft Azure Active Directory.  

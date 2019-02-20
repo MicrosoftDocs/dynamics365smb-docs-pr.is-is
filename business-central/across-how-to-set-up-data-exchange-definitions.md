@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Setja upp skilgreiningar gagnaskipta
@@ -50,7 +50,7 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
     |---------------------------------|---------------------------------------|  
     |**Kóti**|Færið inn kóða til að auðkenna skilgreiningu gagnaskipta.|  
     |**Heiti**|Færið inn heiti fyrir skilgreiningu gagnaskipta.|  
-    |**Skráargerð**|Tilgreinið hvaða tegund af skrá skilgreining gagnaskipta er notað fyrir. Hægt er að velja eftirfarandi þrjár gerðir skjala:<br /><br /> -   **XML**: Lagskiptir efnisstrengir og breytingarmerkingar inni í merkjum sem skilgreina virkni þeirra.<br />-   **Breytilegur texti**: Skráargerð þar sem færslur hafa breytilega lengd og eru aðskilin með tákni, svo sem eins kommu eða semí\-kommu. Einnig þekkt sem *afmörkuð skrá*.<br />-   **Fastur texti**: Færslur eru af sömu lengd, með því að nota talnaborðsstafi og hver færsla er í eigin línu. Einnig þekkt sem *skrá með fastri breidd*.|  
+    |**Skráargerð**|Tilgreinið hvaða tegund af skrá skilgreining gagnaskipta er notað fyrir. Þú getur valið á milli fjögurra skráargerða:<br /><br /> -   **XML**: Lagskiptir efnisstrengir og breytingarmerkingar inni í merkjum sem skilgreina virkni þeirra.<br />-   **Breytilegur texti**: Skráargerð þar sem færslur hafa breytilega lengd og eru aðskilin með tákni, svo sem eins kommu eða semí\-kommu. Einnig þekkt sem *afmörkuð skrá*.<br />-   **Fastur texti**: Færslur eru af sömu lengd, með því að nota talnaborðsstafi og hver færsla er í eigin línu. Einnig þekkt sem *skrá með fastri breidd*.<br />- **Json**: Lagskiptir strengir af efni í JavaScript.|  
     |**Tegund**|Tilgreinið hvaða tegund af starfsemi skilgreining gagnaskipta er notað fyrir, t.d. **Útflutningur greiðslna**.|  
     |**Meðhöndlunarkóðaeining gagna**|Tilgreinið kóðaeiningu sem flytur gögn inn og út úr töflum í [!INCLUDE[d365fin](includes/d365fin_md.md)]|  
     |**Kóðaeining staðfestingar**|Tilgreinið kóðaeiningu sem er notuð til að sannprófa gögn gegn fyrirfram skilgreindum viðskiptareglum.|  

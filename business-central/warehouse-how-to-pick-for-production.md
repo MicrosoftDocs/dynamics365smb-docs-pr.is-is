@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 33531bf23b8ae03a38ff176f31de3b7395ace052
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 115bd8ef6d4069674f1d04878d0ec704214383ce
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
-# <a name="pick-for-production-or-assembly"></a>Taka til fyrir framleiðslu eða samsetningu
+# <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss
 Hátturinn við frágang tínsluíhluta fyrir framleiðslu fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
 Í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslan krefst tínsluvinnslu en ekki afhendingarvinnslu er síðan **Birgðatínsla** notuð til að skipuleggja og skrá tínslu íhluta.  
 
 Í einfaldri vöruhúsagrunnstillingu er nauðsynlegt að taka til fyrir samsetningarpantanir með síðunni **Birgðahreyfing**. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Tína vörur með Birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
-Í ítarlegri vöruhúsagrunnstillingu þar sem staðsetningar þarfnast bæði tínslu og afhendingar er síðan **Vöruhúsatínsla** notuð til að færa íhluti til framleiðslu eða samsetningarpantana.
+Í ítarlegri vöruhúsagrunnstillingu þar sem staðsetningar þarfnast bæði tínslu og afhendingar er síðan **Vöruhúsatínsla** notuð til að færa íhluti til framleiðslu eða samsetningarpantana. Frekari upplýsingar eru í [Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
 > [!NOTE]  
 >  Hér á eftir er mikilvægur mismunur sem er á milli birgðatínslu og birgðahreyfinga.  
@@ -67,39 +67,6 @@ Ef samsetningarfrálagsflæði er sett upp fyrir birgðageymsluna eru gildið í
 Ef enginn hólfskóði er gefinn upp í sölupöntunarlínunni og samsetningarfrálagsflæði hefur ekki verið sett upp fyrir birgðageymsluna er reiturinn **Hólfakóði** í birgðatínslulínunni er auður. Starfsmaður í vöruhúsi verður að opna síðuna **Hólfainnihald** og velja hólfið þar sem samsetningarvörurnar eru settar saman.
 
 Við blandaðar aðstæður, þar sem fyrst þarf að setja saman hluta magnsins og tína þarf annað magn úr birgðum, eru minnst tvær birgðatínslulínur búnar til. Ein tínslulína er fyrir sameiningarpöntunarmagnið. Hin tínslulínan fer eftir hvaða hólf geta uppfyllt eftirstöðvar úr birgðum. Hólfkóti á línunum tveimur er fylltur út er á mismunandi hátt eins og lýst er fyrir þessar tvær mismunandi sölutegundir. Nánari upplýsingar eru í hlutanum „Samsetningaraðstæður“ [Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).
-
-## <a name="to-pick-components-in-advanced-warehouse-configurations"></a>Tína íhluti í ítarlegri vöruhúsagrunnstillingu
-Í ítarlegri vöruhúsastillingu þar sem birgðageymslan notar tínslu auk afhendingar eru íhlutir tíndir fyrir framleiðslu- og samsetningarverkþætti á síðunni **Vöruhús - Tína**. Frekari upplýsingar, sjá [Tína Vörur með vöruhúsatínslu](warehouse-how-to-pick-items-for-warehouse-shipment.md).
-
-Einnig er hægt að nota síðuna **Vinnublað hreyfingar** til að færa vörur milli hólfa á tilfallandi hátt, þ. e. a. án tilvísunar í upprunaskjal. Frekari upplýsingar eru í [Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md).  
-
-Ekki er hægt að stofna vöruhúsatínsluskjal frá grunni þar sem tínsluaðgerð er alltaf hluti af verkflæði, annað hvort sem dráttur eða ýting.  
-
-Einnig er hægt að stofna vöruhúsatínsluskjöl í ýtingu með því að velja aðgerðina **Stofna vöruhússtínslu** á upprunaskjalinu, eins og útgefna samsetningarpöntun eða vöruhúsaafhendingu. Frekari upplýsingar, sjá [Tína Vörur með vöruhúsatínslu](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
-
-Einnig er hægt að stofna vöruhúsatínsluskjal eins og drátt með því að nota síðuna **Vinnublað tínslu** til að finna tínslubeiðnir, bæði til afhendingar og innri aðgerða, og síðan stofna nauðsynleg vöruhúsatínsluskjöl.  
-
-Eftirfarandi ferli skýrir dæmi þar sem valdir eru íhlutir fyrir afhenta framleiðslupöntun á síðunni **Vinnublað tínslu**. Ferlið á einnig við fyrir samsetningarpantanir  
-
-Til að stofna tínslubeiðnir, bæði fyrir tog- og ýtidæmi, þurfa viðkomandi upprunaskjöl að vera útgefin. Upprunaskjöl eru gefin út fyrir innri aðgerðir á eftirfarandi hátt.  
-
- |Upprunaskjal|Losunaraðferð|  
- |---------------------|--------------------|  
- |Framleiðslupöntun|Breyta tegund pöntunar í útgefna framleiðslupöntun.|  
- |Samsetningarpöntun|Breyta stöðu í Útgefið.|  
-
-## <a name="to-pick-components-using-the-pick-worksheet"></a>Íhlutir tíndir úr tínsluvinnublöðunum  
-
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað tínslu** og veldu síðan tengda tengilinn.  
-2.  Velja skal **Sækja vöruhúsaskjöl** og síðan velja íhlutalínurnar í útgefnu framleiðslupöntuninni.  
-3.  Línurnar eru skoðaðar, þeim raðað til að tryggja skilvirkni tínsluferðarinnar og þær sameinaðar öðrum vinnublaðslínum ef þarf, til að nýta tíma starfsmanna sem best.  
-4.  Veldu aðgerðina **Stofna tínslu**.  
-5.  Skilgreina hvernig eigi að stofna vöruhúsatínsluskjöl og hvernig á að raða tínslulínunum með því að fylla út reiti á síðunni **Stofna tínslu**.  
-6.  Velja hnappinn **Í lagi**.
-
-Vöruhúsatínsluskjöl eru nú búin til með tínslulínum fyrir hvern íhlut sem er krafist í innri aðgerð.
-
-Ef svæði innri starfsemi, s.s. framleiðsluvinnusalur, er sett upp með sjálfgefnu hólfi fyrir staðsetningu íhluta sem notaðir eru verður kóti þess hólfs settur inn í Setja-línur í tínsluskjali vöruhússins til að leiðbeina starfsmönnum í vöruhúsi um hvert setja eigi vörurnar. Frekari upplýsingar, sjá [Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md).
 
 ## <a name="filling-the-consumption-bin"></a>Fylla út notkunarhólfið
 Þetta flæðirit sýnir hvernig reiturinn **Hólfkóði** í framleiðslupöntunaríhlutalínum er útfylltur samkvæmt uppsetningu staðsetningar.

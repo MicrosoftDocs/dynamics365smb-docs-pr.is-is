@@ -11,10 +11,10 @@ ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b34acf29e142ef1a892f6c3c5a0ce2b6b8f7cb29
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
 ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 
@@ -24,23 +24,23 @@ ms.lasthandoff: 09/28/2018
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Er munur á leit og síun?
 Já.
 - Leitin er einföld og víðtæk: hún passar við skrár sem innihalda leitartexta yfir allar sýnilegar reiti á síðunni og gerður ekki er gerður greinarmunur á hástöfum og lágstöfum.
-- Síun er mjög sveigjanleg og hægt að beita á tilteknum reitum, þar á meðal þær sem eru ekki sýnilegar á síðunni: Það sýnir færslur með nákvæmum samsvörum þar sem gerður er greinarmunur á hástöfum og lágstöfum, en hægt er að breyta með öflugu leitarmerkjum, táknum og formúlum. Nánari upplýsingar um hvernig á að nota þessar aðgerðir er að finna í [Flokkun, leit og síun í listum](ui-enter-criteria-filters.md)
+- Síun er mjög sveigjanleg og hægt að beita á tilteknum reitum, þar á meðal þær sem eru ekki sýnilegar á síðunni: Það sýnir færslur með nákvæmum samsvörum þar sem gerður er greinarmunur á hástöfum og lágstöfum, en hægt er að breyta með öflugu leitarmerkjum, táknum og formúlum. Nánari upplýsingar um hvernig á að nota þessar aðgerðir er að finna í [Flokkun, leit og síun í listum](ui-enter-criteria-filters.md).
 
 ## <a name="is-there-a-keyboard-experience-for-search-and-filter"></a>Er hljómborð reynsla fyrir leit og síun?
 Leit og síun hafa verið mjög fínstillt fyrir notendur sem kjósa mús-frjáls samskipti til að vinna á skilvirkan hátt með gögnum þeirra. Það eru margs konar flýtilyklar sem hægt er að nota í röð til að vinna í miklum hraða. Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Er síunarsvæðið í boði á öllum listum?
-Síunarsvæði er tiltæk á skjáum þar sem listinn er aðal innihald síðunnar, svo sem vinnublað og listasíður, þar með talin listar sem hægt er að nálgast á yfirlitsstikunni. Síusvæðið er ekki enn tiltækur fyrir innbyggða listi, s.s. sölulínur á sölupöntunum eða fyrir listi með gagnvirka dálka (oft nefnt fylkissíður). 
+Síunarsvæði er tiltæk á síðum þar sem listinn er aðal innihald síðunnar, svo sem vinnublað og listasíður, þar með talin listar sem hægt er að nálgast á yfirlitsstikunni. Síusvæðið er ekki enn tiltækur fyrir innbyggða listi, s.s. sölulínur á sölupöntunum eða fyrir listi með gagnvirka dálka (oft nefnt fylkissíður). 
 
 ## <a name="how-can-i-save-my-filters"></a>Hvernig get ég vistað síurnar mínar?
-Síurnar þínar og breytingar á fyrirfram skilgreindum síum eru muna í gegnum lotuna (meðan þú ert ennþá innskráður), jafnvel þótt þú ferð í burtu frá síðunni. Nú er ekki hægt að vista síur með varanlegum hætti.
-Ólíkt síum er ekki hægt að muna leitartexta þegar þú vafrar í burtu frá síðu.
+
+Síurnar þínar og breytingar á fyrirfram skilgreindum síum eru muna í gegnum lotuna (meðan þú ert ennþá innskráður), jafnvel þótt þú ferð í burtu frá síðunni. Nú er ekki hægt að vista síur með varanlegum hætti. Ólíkt síum er ekki hægt að muna leitartexta þegar þú vafrar í burtu frá síðu.
 
 ## <a name="is-this-the-same-as-advanced-filters-and-limit-totals-in-microsoft-dynamics-nav"></a>Er þetta það sama og ítarlegar síur og takmarka heildarstærðir í Microsoft Dynamics NAV?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] byggir á þessum vinsælustu eiginleikum og skilar nútíma og mjög nothæfi reynslu til að finna og greina gögnin þín. Með fleiri flýtilyklum og kynningu á leit, [!INCLUDE[d365fin](includes/d365fin_md.md)] yfirfærir virkni sem er að finna í Dynamics NAV.
 
 ## <a name="can-i-search-and-filter-using-the-companion-apps-and-outlook-addin"></a>Get ég leitað og síað með því að nota viðbótarforrit og Outlook viðbætur?
-Í mismunandi formum eins og fartækjum eða Outlook, getur þú leitað í listum en getur ekki síað á einstökum reitum í flestum tilfellum.
+Á mismunandi birtingastöðum, eins og fartækjum eða Outlook, getur þú leitað í listum en getur ekki síað á einstökum reitum í flestum tilfellum.
 
 ## <a name="is-the-filter-pane-available-for-filtering-reports"></a>Er síunarsvæðið tiltækt til að sía skýrslur?
 Nei. Skýrslusían gluggi, sem almennt er nefndur beiðnisíða, notar nú aðra reynslu sem gefur nokkrar, en ekki allir, möguleika síunarsvæðisins.

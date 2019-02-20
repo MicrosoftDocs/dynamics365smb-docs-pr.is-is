@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 778f182d12959e0332d538c0471a8c2e0d1613a1
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: c4239904c17db334cee006d5de08ea8c0e80b750
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Kynning: Sjálfvirk áætlun birgða
+
+**Athugið**: Framkvæma verður þessa kynningu í sýnifyrirtæki með valkostinum **Fullt mat - öll sýnigögn** sem er í boði í sandkassaumhverfinu. Nánari upplýsingar eru í [Sandkassaumhverfi stofnað](across-how-create-sandbox-environment.md).
+
 Hugtök eins og "keyra áætlun" eða "keyra MRP" vísa í útreikninga á aðalframleiðsluáætluninni (MPS) og efnisþarfaáætluninni (MRP) útfrá raunverulegri eftirspurn og eftirspurn samkvæmt spá.  
 
 -   MPS er útreikningur á aðalframleiðsluáætlun byggt á raunverulegri eftirspurn og eftirspurnarspá. MPS-útreikningur er notaður fyrir lokavörur sem eru með spá eða sölupöntunarlínu. Þessar vörur eru kallaðar "MPS-vörur" og eru auðkenndar þegar útreikningur hefst.  

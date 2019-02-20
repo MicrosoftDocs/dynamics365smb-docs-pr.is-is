@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4df1de7eca8127c5ae2c46e04fecc5ca0f2c8302
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: 7dc7fb43c465cc2098ceacb6f5906303fefd1f9d
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="create-bins"></a>Stofna hólf
@@ -26,7 +26,17 @@ Skilvirkasta leiðin til að stofna hólf í vöruhúsinu er að stofna flokka s
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu tengda tengilinn.  
 2.  Veljið birgðageymsluna þaðan sem á að stofna hólfið og veljið síðan aðgerðina **Hólf**.  
 3. Valið er **Nýtt** aðgerð.
-4. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### <a name="the-dedicated-field"></a>Sérnýttur reitur
+Reiturinn **Sérnýttur** á síðunni **Hólf** tilgreinir að magn í hólfinu sé varið fyrir tínslu fyrir aðrar eftirspurnir. Hins vegar er enn hægt að taka frá magn í sérnýttum hólfum. Í samræmi við það er magnið í sérnýttum hólfum tekið með í reitnum **Heildarmagn tiltækt** á síðunni **Frátekning**.
+
+Að búa til sérnýtt hólf leiðir til svipaðrar aðgerðar í grunnvöruhúsi eins og að nota hólfategundir, sem er eingöngu hægt í ítarlegu vöruhúsi. Frekari upplýsingar eru í [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).
+
+**Dæmi:** Vinnustöð er sett upp með hólfakóða í reitnum **Hólfakóði framleiðslu á innleið**. Íhlutalínur framleiðslupöntunar með þann hólfakóta krefjast þess að framvirkir íhlutir séu settir þar. Þar til íhlutir úr því hólfi hafa verið notaðir getur önnur íhlutaeftirspurn ollið tínslu eða notkun úr hólfinu vegna þess að íhlutirnir teljast enn vera tiltækt innihald hólfsins. Til að tryggja að hólfainnihald sé aðeins tiltækt fyrir eftirspurn íhlutar sem notar þetta hólf framleiðslu á innleið, þarf að velja reitinn **Sérnýtt** í línunni fyrir þann hólfakóða.
+
+> [!Caution]
+> Vörur í sérstökum hólfum eru ekki varðar þegar þær eru tíndar eða notaðar sem framleiðsla eða samsetningaríhlutir með síðunni **Birgðatínsla**. Frekari upplýsingar eru í [Taka til fyrir framleiðslu eða samsetningu í einföldum vöruhúsagrunnstillingum](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Stök hólf stofnuð á Hólfastofnunarvinnublaði:  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hólfastofnunarvinnublöð** og veldu síðan tengda tengilinn.  

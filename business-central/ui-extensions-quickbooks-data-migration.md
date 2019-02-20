@@ -11,10 +11,10 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 30944a42746d9538e245f8970a8cb76423bc9c59
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: e5cb755b6a15070410c42328ccf08b784928f3ca
 ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -45,10 +45,14 @@ Mikilvægur hluti flutningsferlisins er að tilgreina reikningana sem flytja á 
 - Sala vöru eða þjónustu til viðskiptamanna  
 - Innkaup vöru eða þjónustu frá lánardrottnum  
 - Leiðréttingar í fjárhagnum  
-Business Central krefst þess að fjárhagsreikningum hafi verið úthlutað reikningsnúmerum. Vertu viss um að reikningsnúmerum hafi verið úthlutað til reikninganna í QuickBooks Online.
-Ef færslur í QuickBooks Online hafa skattaupphæðir, þarf að setja upp skattareikning fyrir þína skattalögsögu í Business Central áður en þú getur bókað færslur.
 
-Til þess að fá gögnin þín úr QuickBooks Desktop þarftu að hlaða niður Microsoft Data Exporter tólinu.  Leiðbeiningar fyrir tólið eru í leiðsagnarforriti fyrir gagnaflutning í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tólið mun tengjast QuickBooks forritinu og flytja út viðeigandi gögn í *.zip-skrá.  
+Business Central krefst þess að fjárhagsreikningum hafi verið úthlutað reikningsnúmerum. Vertu viss um að reikningsnúmerum hafi verið úthlutað til reikninganna í QuickBooks.
+Ef færslur í QuickBooks hafa skattaupphæðir, þarf að setja upp skattareikning fyrir þína skattalögsögu í Business Central áður en þú getur bókað færslur.
+
+Til þess að fá gögnin þín úr QuickBooks Desktop þarftu að hlaða niður Microsoft Data Exporter tólinu.  Leiðbeiningar fyrir tólið eru í leiðsagnarforriti fyrir gagnaflutning í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tólið mun tengjast QuickBooks-forritinu og flytja út viðeigandi gögn í .zip-skrá.  
+
+> [!NOTE]
+> Að svo stöddu er gagnaútflutningstólið aðeins með QuickBooks 2017 og 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Finna viðbótin QuickBooks gagnaflutningar
 Viðbótin QuickBooks gagnaflutningar er sett upp og tilbúin til keyrslu sem samþættur hluti af Gagnaflutningar uppsetningarleiðbeiningar með aðstoð. Ef þú ert tilbúinn til að byrja núna og hefur flutt út gögnin þín úr QuickBooks skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning með hjálp** og veldu síðan tengda tengilinn. Veljið **Flytja viðskiptagögn** og fara síðan eftir skrefunum í leiðbeiningunum.  

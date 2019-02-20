@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/15/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: d24998281a7e718c5f4ae648eba1a338512eefcb
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: d5f5885055aa1094e4172d4a4e327ff1e940f799
 ms.contentlocale: is-is
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Birgðakostnaði stjórnað
@@ -29,6 +29,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |**Til að**|**Sjá**|  
 |------------|-------------|  
 |Gott er að lesa margvíslegar upplýsingar um hugtök til að skilja forsendur og skilgreiningar sem stýra reikningskostnaðarhluta [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Um birgðakostnað](finance-learn-about-costing.md)|  
+|Læra um allt gangverk í kostnaðarkerfinu.|[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)|
 |Nánar um hvernig birgðatímabil aðstoða fyrirtæki við að stýra birgðavirði á tilteknum tíma, með því að skilgreina styttri tímabil sem má loka fyrir bókun eftir því sem líður á almanaksárið.|[Vinna við birgðatímabil](finance-how-to-work-with-inventory-periods.md)|
 |Nánar um ástæðu þess að kostnaðarverð vöru er oft notað hjá framleiðslufyrirtækjum sem verðmætamat fyrir íhluti og endanlegar vörur.|[Um umreikning staðalkostnaðar](finance-about-calculating-standard-cost.md)|
 |Uppsetning birgðatímabil, kostnaðaraðferðir og sléttunaraðferðir.|[Uppsetning birgðaverðmats og kostnaðar](finance-set-up-inventory-valuation-and-costing.md)|
@@ -38,7 +39,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Reglulega verður að uppfæra staðlað kostnaðarverð íhluta, í samsetningu eða framleiðsluuppskrift, og leggja nýja kostnaðinn saman við yfirvöruna.|[Uppfæra staðlaðan kostnað](finance-how-to-update-standard-costs.md)|
 |Skoða og breyta handvirkt tilteknum birgðajöfnunarfærslum sem eru stofnaðar sjálfkrafa við birgðafærslur.|[Fjarlægja og endurjafna birgðabókafærslur](finance-how-to-remove-and-reapply-item-entries.md)|
 |Stjórna framkvæmd í lok tímabils og búa til skýrslur um verk, t.d. að reikna út virði birgða og bóka kostnað í færslubók.|[Tilkynna kostnað og afstemma við fjárhag](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
-|Læra um allt gangverk í kostnaðarkerfinu.|[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Fjármál](finance.md)  

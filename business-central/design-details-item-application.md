@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2018
+ms.date: 12/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="design-details-item-application"></a>Hönnunarupplýsingar: umsókn vöru
@@ -93,9 +93,9 @@ Til að gera fasta jöfnun notarðu **Jöfnun til birgðafærslu** reit eða **J
 ### <a name="example--fixed-application-in-purchase-return"></a>Dæmi – Föst Jöfnun við innkaupaskil  
 Eftirfarandi dæmi, sem sýnir áhrif fastrar jöfnunar innkaupaskila vöru sem notar FIFO-kostnaðarmatsaðferð, er byggt á eftirfarandi atburðarás:  
 
-1. Í færslu númer 1, notandinn bókar innkaup með kostnaðinn 10,00 kr.  
-2. Í færslu númer 2, notandinn bókar innkaup með kostnaðinn LCY 20.00.  
-3. Í færslunúmeri 3 bókar notandi innkaupaskil. Notandinn setur fram bundna pöntun í önnur kaup með því að slá inn birgðafærslunúmerið í **Jöfnun til birgðafærslu** reitinn á vöruskilapöntun innkaupa.  
+1. Í færslu 1 bókar notandinn innkaup með kostnaðinn 10,00 SGM.  
+2. Í færslu 2 bókar notandinn innkaup með kostnaðinn 20,00 SGM.  
+3. Í færslu 3 bókar notandinn innkaupaskil. Notandinn setur fram bundna pöntun í önnur kaup með því að slá inn birgðafærslunúmerið í **Jöfnun til birgðafærslu** reitinn á vöruskilapöntun innkaupa.  
 
 Eftirfarandi tafla sýnir birgðahöfuðbókarfærslur vegna atburðarásarinnar.  
 
@@ -109,9 +109,9 @@ Eftirfarandi tafla sýnir birgðahöfuðbókarfærslur vegna atburðarásarinnar
 
 Eftirfarandi tafla sýnir vörujöfnunarfærslu vegna fastrar jöfnunar.  
 
-|Bókunardagsetning|Birgðafærslunr. vöru á innleið|Birgðafærslunr. vöru á útleið|Magn|Birgðafærslunr.|  
+|Bókunardagsetning|Birgðafærslunr. vöru á innleið|Jafnað af færslu nr.|Magn|Birgðafærsla nr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|1|3|10|3|  
+|01-06-20|2|3|10|3|  
 
 Kostnaður annarra innkaup, SGM 20,00 er sendur rétt í innkaupaskilin.  
 

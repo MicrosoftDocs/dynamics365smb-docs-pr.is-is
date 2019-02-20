@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 10/01/2018
+ms.date: 12/06/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: ffe2c700ed409a0881c94ddfd0157cf32141c60f
+ms.sourcegitcommit: 9d0836083f4e8506efbd077f9b0cd733b6dbf623
+ms.openlocfilehash: c7b581f7524199c33959756e858476aa9bbaac15
 ms.contentlocale: is-is
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 02/01/2019
 
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>Staðbundin virkni í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -29,20 +29,23 @@ Til að fá frekari upplýsingar um staðbundna virkni fyrir hvert land skaltu v
 | --- | --- |--- |
 | Evrópa |  | |
 |        | Austurríki | [Staðbundnar aðgerðir Austurríkis](localfunctionality/austria/austria-local-functionality.md) |
-|        | Belgía |  [Staðbundnar aðgerðir Ástralíu](localfunctionality/belgium/belgium-local-functionality.md) |
+|        | Belgía |  [Staðbundnar aðgerðir fyrir Belgíu](localfunctionality/belgium/belgium-local-functionality.md) |
 |        | Danmörk | [Staðbundnar aðgerðir fyrir Danmörku](localfunctionality/denmark/denmark-local-functionality.md) |
 |        | Þýskaland | [Staðbundnar aðgerðir fyrir Þýskaland](localfunctionality/germany/germany-local-functionality.md) |
 |        | Finnland | [Staðbundnar aðgerðir fyrir Finnland](localfunctionality/finland/finland-local-functionality.md) |
 |        | Frakkland | [Staðbundnar aðgerðir fyrir Frakkland](localfunctionality/france/france-local-functionality.md) |
+|        | Ísland | [Staðbundnar aðgerðir fyrir Ísland](localfunctionality/iceland/iceland-local-functionality.md) |
 |        | Ítalía | [Staðbundnar aðgerðir fyrir Ítalíu](localfunctionality/italy/italy-local-functionality.md) |
 |        | Holland | [Staðbundnar aðgerðir fyrir Holland](localfunctionality/netherlands/netherlands-local-functionality.md) |
+|        | Noregur | [Staðbundnar aðgerðir fyrir Noreg](localfunctionality/norway/norway-local-functionality.md) |
 |        | Spánn | [Spain Local Functionality](localfunctionality/spain/spain-local-functionality.md) |
 |        | Svíþjóð | [Staðbundnar aðgerðir fyrir Svíþjóð](localfunctionality/sweden/sweden-local-functionality.md) |
 |        | Sviss | [Staðbundnar aðgerðir fyrir Sviss](localfunctionality/switzerland/switzerland-local-functionality.md) |
 |        | Bretland | [Staðbundnar aðgerðir Bretlands](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md) |
 | Norður-Ameríka |       |  |
-|               | Kanada|[Staðbundnar aðgerðir fyrir Kanada](localfunctionality/canada/canada-local-functionality.md) |
-|               | Bandaríkin|[Staðbundnar aðgerðir Bandaríkjanna](localfunctionality/unitedstates/united-states-local-functionality.md) |
+|        | Kanada|[Staðbundnar aðgerðir fyrir Kanada](localfunctionality/canada/canada-local-functionality.md) |
+|        | Mexíkó | [Staðbundnar aðgerðir fyrir Mexíkó](localfunctionality/mexico/mexico-local-functionality.md) |
+|        | Bandaríkin|[Staðbundnar aðgerðir Bandaríkjanna](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asía og Kyrrahaf |       |  |
 |        | Ástralía | [Staðbundnar aðgerðir Ástralíu](localfunctionality/australia/australia-local-functionality.md) |
 |        | Nýja-Sjáland | [Staðbundnar aðgerðir fyrir Nýja-Sjáland](localfunctionality/newzealand/new-zealand-local-functionality.md) |

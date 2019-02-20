@@ -3,20 +3,20 @@ title: "Setja upp fjármálaferli| Microsoft Docs"
 description: "Kynntu þér verkhlutana í því að setja upp fjármál í fyrirtækinu sem hentar öllum þínum þörfum tengdum bókhaldi, endurskoðun eða bókunum."
 services: project-madeira
 documentationcenter: 
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 11/15/2018
-ms.author: edupont
+ms.date: 12/19/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: c52121b89a08b78750c8b46377b2bf47c7a948df
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 377e7f8eb3cb78adf68e3f4167a215d8f027f972
 ms.contentlocale: is-is
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
@@ -36,6 +36,8 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Skilgreinið hvernig VSK upphæðir, sem fengnar eru fyrir sölu, eru sendar inn til skattayfirvalda. |[Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)|
 |Undirbúa að nota óinnleystan VSK í tengslum við greiðslumátann reiðufé.|[Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé](finance-setup-unrealized-vat.md)|
 | Settu eiginleika sölu og innkaupa upp þannig að hægt sé að vinna með erlenda gjaldmiðla.|[Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Skilgreindu eina eða fleiri viðbótargjaldmiðla þannig að upphæðir séu sjálfkrafa skráðar í bæði SGM og í öðrum skýrslugjaldmiðli fyrir hverja fjárhagsfærslu og aðrar færslur.|[Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)|
+|Stilla reglulega jafngildi viðbótargjaldmiðils til að bæta upp sveiflur í gengi.|[Uppfæra gengi](finance-how-update-currencies.md)|
 |Skilgreina marga vexti sem á að nota fyrir mismunandi tímabil vegna seinkunar á greiðslum fyrir viðskiptafærslur.|[Setja upp marga vexti](finance-how-to-set-up-multiple-interest-rates.md)|
 |Undirbúa að slétta reikningsupphæðir sjálfvirkt þegar reikningar eru stofnaðir.|[Uppsetning sléttunargerðar reikninga](finance-set-up-invoice-rounding.md)|
 | Bæta nýjum reikningum við eldri bókhaldslykil. |[Uppsetning bókhaldslykilsins](finance-setup-chart-accounts.md) |
@@ -43,6 +45,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Gera virka reikningsfærslu viðskiptamanns sem er ekki uppsettur í kerfið.|[Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md)|
 | Uppsetning á Intrastat skýrslugerð, og senda inn skýrsluna til yfirvalda. | [Setja upp og skrá Intrastat](finance-how-setup-report-intrastat.md)|
 |Undirbúa sameinaða prófjafnaðarskýrslu í hlutverki endurskoðanda til að fá fjárhagsyfirlit yfir mörg fyrirtæki.|[Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)|
+|Gakktu úr skugga um að færsla úr færslubók sé úthlutað á nokkra mismunandi reikninga þegar færslubókin er bókuð, annaðhvort magn, prósenta eða upphæð.|[Nota úthlutunarlykla í færslubókum](ui-how-use-allocation-keys-general-journals.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  

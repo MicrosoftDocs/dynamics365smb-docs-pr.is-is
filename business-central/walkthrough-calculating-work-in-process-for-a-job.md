@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 95264e2f011ab22a4c83343e933bfcf69b38948a
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: 396aefb64b4bc4f4555ae3a512656aa3c66bad20
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Kynning: Útreikningur á VÍV fyrir verk
+
+**Athugið**: Framkvæma verður þessa kynningu í sýnifyrirtæki með valkostinum **Fullt mat - öll sýnigögn** sem er í boði í sandkassaumhverfinu. Nánari upplýsingar eru í [Sandkassaumhverfi stofnað](across-how-create-sandbox-environment.md).
+
 Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á ýmsum kostnaði sem fylgir notkun forða í tilteknu verkefni. Verk ná yfir notkun á vinnutíma starfsmanna, vélastundir, birgðahluti og aðrar gerðir notkunar sem þarf að fylgjast með í verkferlum. Ef verk stendur yfir í langan tíma verður hugsanlega að flytja þennan kostnað á VÍV-reikning (verk í vinnslu) á efnahagsreikningi á meðan verkinu er lokið. Þannig er hægt að samþykkja kostnaðinn og söluna á rekstrarreikningnum þegar það á við.  
 
 ## <a name="about-this-walkthrough"></a>Um kynninguna  

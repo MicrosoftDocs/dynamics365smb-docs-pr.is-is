@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 341cd12db4ca130539a2ba2838c3aa95a96cb6ab
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
 ms.contentlocale: is-is
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="creating-contact-persons"></a>Einstaklingstengiliðir stofnaðir
@@ -26,15 +26,22 @@ Einnig gæti þurft að þýða útgefið efni um vörur fyrirtækisins og eftir
 
 Skráning allra mögulegra upplýsinga um einstaklingstengilið tryggir að allir hópar innan fyrirtækisins geti nálgast viðeigandi upplýsingar.
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
+Hægt er að stofna tengiliðaspjald fyrir hvern tengilið sem vinnur hjá fyrirtækjum sem notandinn á í samskiptum við. Fyrir hvern fyrirtækjatengilið er hægt að færa inn eins marga einstaklingstengiliði og hver vill. Einnig er hægt að stofna tengiliðaspjöld fyrir einstaklinga sem á að skrá sem óháða.
 
-| Til | Sjá |
-| --- | --- |
-| Veita upplýsingar um einstaklingstengilið. |[Stofna einstaklingstengilið](marketing-how-create-contact-persons.md) |
-| Setja upp annað heimilisfang fyrir tengilið. |[Úthlutun annars aðseturs](marketing-how-assign-alternate-address.md) |
-| Lýsa viðskiptatengslum við fyrirtækjatengilið. |[Setja upp starfsábyrgðir á tengiliði](marketing-job-responsibilities.md) |
-| Lýsa stjórnunarstigi tengiliða. |[Setja upp stjórnunarstig fyrir tengiliði](marketing-organizational-levels.md) |
-| Úthluta pósthópum á tengiliði. |[Pósthópum úthlutað á tengilið](marketing-mailing-groups.md) |
+> [!TIP]  
+>   Áður en tengiliður er stofnaður er ráðlegt að athuga stillingarnar fyrir **Erfðir** á síðunni **Tengslastjórnunargrunnur**. Uppsetning erfða virkjar að upplýsingar um tengiliðafyrirtæki sem eru sameiginlegar tengiliðum, eins og upplýsingar um aðsetur, til að vera afritaðar sjálfkrafa af tengiliðafyrirtæki  á tengilið í hvert sinn sem  stofnaður er tengiliður fyrir skráð tengiliðarfyrirtæki.
+
+## <a name="to-create-a-contact-card-for-a-person"></a>Til að setja upp tengiliðaspjald fyrir einstakling
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.
+2. Valið er **Nýtt** aðgerð.
+3. Í reitnum **númer** er fært inn númer fyrir tengiliðinn.
+
+    Hafi númeraröð fyrir tengiliði verið sett upp á síðunni **Tengslastjórnunargrunnur** er hægt að styðja á Færslulykilinn til að velja næsta lausa tengiliðanúmer. Nánari upplýsingar er að finna í [Búa til númeraröð](ui-create-number-series.md).
+4. Í reitnum **Tegund** er **Einstaklingur** valinn.
+5. Fyllt er í aðra reiti á tengiliðaspjaldinu.
+
+> [!NOTE]  
+>   Efni reitanna sem voru valdir á hlutanum **erfðir** á síðunni **uppsetning markaðssetningar** er afritað úr fyrirtæki til einstaklinga innan þess fyrirtækis.
 
 ## <a name="see-also"></a>Sjá einnig
 [Fyrirtækjatengiliðir stofnaðir](marketing-create-contact-companies.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a51628085e640cc2e5f022272eccb89d5cec38b7
 ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Búa til sérstillta grunnstillingarpakka fyrirtækja
@@ -39,12 +39,11 @@ Almennt eru grunnstillingarpakkar stofnaðir fyrir hverja virkni, s.s. framleið
 -   VSK-bókunargrunnur  
 -   Birgðabókunargrunnur  
 
-Til að sjá heildarlista yfir uppsetningartöflur skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning** og veldu síðan tengda tengilinn.  
+Til að sjá heildarlista yfir uppsetningartöflur skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Handvirk uppsetning** og veldu síðan tengda tengilinn.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Til að búa til sérstilltan grunnstillingarpakka fyrirtækis  
-1.  Stofna nýjan [!INCLUDE[d365fin](includes/d365fin_md.md)]. ***EKKI MÖGULEGT tengill við hjálp til að „Búa til nýjan leigjanda“***.   
-2.  Stofna nýtt fyrirtæki fyrir atvinnugreinina eða lausnarsniðmáti. Nánari upplýsingar eru í [Stofna nýtt fyrirtæki](admin-how-to-create-a-new-company.md).  
-3.  Setja upp nýja fyrirtækið á þann hátt sem þörf krefur. Fylla út allar nauðsynlegar töflur.  
+1.  Búa til nýtt fyrirtæki. Frekari upplýsingar eru í [Stofna ný fyrirtæki í Business Central](about-new-company.md).  
+3.  Setjið upp nýja fyrirtækið á þann hátt sem þörf krefur. Fylla út allar nauðsynlegar töflur.  
 4.  Opna skal nýja fyrirtækið.
 5. Opna skal síðun **Skilgreiningarvinnublað**.  
 6.  Bæta töflunum sem óskað er eftir að færa á annað fyrirtæki við vinnublaðið. Úthluta vinnublaðslínunum til pakkans.  

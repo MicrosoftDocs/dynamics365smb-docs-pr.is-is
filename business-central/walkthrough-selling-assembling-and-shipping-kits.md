@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2bd235844f191c52f3f5d3e34b43c4fdf75fb464
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Kynning: Selja, setja saman og afhenda sett
+
+**Athugið**: Framkvæma verður þessa kynningu í sýnifyrirtæki með valkostinum **Fullt mat - öll sýnigögn** sem er í boði í sandkassaumhverfinu. Nánari upplýsingar eru í [Sandkassaumhverfi stofnað](across-how-create-sandbox-environment.md).
+
 Til að styðja tímanlegar birgðir og getuna til að sérsníða vörur eftir þörfum viðskiptavina er hægt að búa til og tengja samsetningarpantanir sjálfkrafa um leið og sölupöntunarlínan er búin til. Tengingin milli sölueftirspurnarinnar og framboðssamsetningar gerir sölupantanagjörvum mögulegt að sérsníða samsetningaríhlutinn og lofar afhendingardagsetningum samkvæmt framboði íhluta. Auk þess bókast samsetningarfrálag og -notkun sjálfkrafa með afhendingu tengdu pöntunarinnar.  
 
 Sérstök virkni er til staðar til að stýra sendingu sameiningarpöntunarmagns, bæði í venjulegri og ítarlegri vöruhúsagrunnstillingu. Þegar starfsmenn sem bera ábyrgð á samsetningu ljúka við að setja saman magnið sem setja á saman í pöntun að hluta til eða í heild skrá þeir það í reitinn **Magn til afhendingar** í vöruhúsasendingarlínunni, í ítarskilgreiningum, og velja svo **Bóka afhend.** Niðurstaðan er að samsvarandi samsetningarfrálag er bókað, að meðtalinni tengdri íhlutanotkun, og söluafhending fyrir magnið er bókuð fyrir tengdu sölupöntunina. Þessi kynning skýrir ítarlega vöruhúsaferlið.  

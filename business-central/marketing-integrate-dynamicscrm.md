@@ -8,18 +8,21 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: integration, synchronize, map
-ms.date: 10/01/2018
+ms.search.keywords: integration, synchronize, map, Sales
+ms.date: 01/24/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 65466039efae2b18821fb03b6465f4c8c5e18f68
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: bba9fb9a83856cea43e4f4215e7c148b713252a9
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/24/2019
 
 ---
-# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Umsjón með viðskiptamönnum og sölum sem stofnuð eru í Dynamics 365 for Sales
-Ef þú notar Dynamics 365 for Sales fyrir tengsl við viðskiptamenn, getur þú notað [!INCLUDE[d365fin](includes/d365fin_md.md)] til þess að panta vinnslu og fjármál og hafa hnökralausa samþættingu í heildarferlinu.
+# <a name="integrating-with-dynamics-365-for-sales"></a>Samþætting við Dynamics 365 for Sales
+Ef þú notar Dynamics 365 for Sales til að taka þátt í viðskiptum, getur þú notað [!INCLUDE[d365fin](includes/d365fin_md.md)] til þess að panta vinnslu og fjármál og hafa óaðfinnanlegur samþættingu í framhaldi af peningum.
+
+> [!NOTE]
+> Þetta efnisatriði gerir ráð fyrir því að bæði [!INCLUDE[d365fin](includes/d365fin_md.md)] og samþætt Sales-lausn séu notuð í SaaS-umhverfi. Að blanda saman netútgáfu og staðbundinni útgáfu er mögulegt, en krefst ákveðinnar grunnstillingar. Nánari upplýsingar er að finna í [Undirbýr samþættingu við Dynamics 365 for Sales á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Þegar umsóknin þín er sett upp til að samþætta við Sales, hefur þú aðgang að gögnum Sales frá [!INCLUDE[d365fin](includes/d365fin_md.md)] og öfugt í sumum tilfellum. Þessi samþætting gerir þér kleift að vinna með og samstilla gagnategundir sem eru algengar fyrir bæði þjónustu, svo sem viðskiptavini, tengiliði og söluupplýsingar og halda gögnunum uppfærðar á báðum stöðum.  
 
@@ -144,9 +147,10 @@ Sölupantanir í Sales verða fluttar sjálfkrafa í [!INCLUDE[d365fin](includes
 Ef vörulýsingin í upprunalegu sölupöntuninni er mjög löng er stofnuð ný sölupöntunarlína af gerðinni Athugasemd til þess að rúma allan texta sölupöntunarinnar í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Sjá einnig
+[Undirbýr samþættingu við Dynamics 365 for Sales á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
 [Umsjón með venslum](marketing-relationship-management.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)  
+[Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Vinna með notendur og heimildir](ui-how-users-permissions.md)    
 [Um borð stofnunina þína og notendur til Dynamics 365 (á netinu)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 

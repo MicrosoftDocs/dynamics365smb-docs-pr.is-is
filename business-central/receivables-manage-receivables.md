@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 11/15/2018
+ms.date: 11/28/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 2e677a1170be8f55421869ca0308fb31961b58f7
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 5621345418f8da0165fa5685fd3b4a50dd43ae9d
 ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="managing-receivables"></a>Stjórnun útistandandi reikninga
@@ -40,6 +40,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | --- | --- |
 | Jafna greiðslur við opnar viðskiptavina- eða lánardrottnafærslur með því að flytja inn bankayfirlit í formi skjals eða streymis, og afstemma bankareikning þegar allar greiðslur eru jafnaðar. |[Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 |Setja upp vörpun á milli texta í greiðslum og tiltekinni debet-, kredit- og mótreikninga til að greiðslurnar séu bókaðar í tiltekna reikninga þegar greiðsluafstemmingarbók er bókuð.|[Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)|
+|Á síðunni **Greiðslujafnanir** sérðu alla möguleika opinna færslna fyrir greiðsluna og getur skoðað ítarlegar upplýsingar fyrir hverja færslu um gagnasamsvörun sem greiðslujöfnun byggir á.|[Endurskoða eða jafna greiðslur handvirkt eftir sjálfvirka jöfnun](receivables-how-review-apply-payments-auto-application.md)|
 | Jafna greiðslur við opna viðskiptamannafærslur samkvæmt handvirka færslu í lista yfir ógreidd söluskjöl. |[Afstemma greiðslur viðskiptamanna handvirkt úr lista yfir ógreidd söluskjöl](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Bóka inngreiðslur eða endurgreiðslur fyrir viðskiptavini í ínngreiðslubók og jafna við viðskiptamannafærslur, annað hvort úr færslubók eða úr bókuðum fjárhagsfærslum. |[Afstemma greiðslum viðskiptamanns handvirkt](receivables-how-apply-sales-transactions-manually.md) |
 | Minna viðskiptamenn á upphæðir á gjalddaga, reikna vexti og álag og stjórna útistandandi kröfum. |[Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md) |

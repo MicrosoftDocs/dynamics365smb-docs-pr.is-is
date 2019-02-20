@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/08/2018
+ms.date: 01/24/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
-ms.openlocfilehash: 26057b4838681b4b6036c4a56aab4fd6d49ac1dd
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: 9b45c50d2c3e1f1b7eab8cb8269445d61523011b
 ms.contentlocale: is-is
-ms.lasthandoff: 11/12/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="administration"></a>Stjórnun
@@ -45,6 +45,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Birta síður, kóðaeiningar og beiðnir sem vefþjónustu.|[Birta vefþjónustu](across-how-publish-web-service.md)|
 |Sem hluti af því að búa til tengiforrit milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og lausna þriðja aðila í gegnum REST API skal skilgreina sniðmát sem eru notuð til að fylla í tóma eiginleika í einingu þegar þú býrð til POST-aðgerð í gegnum API.|[Grunnstilling API-sniðmáta](admin-configuring-api-template.md)|
 |Hægt er að dulrita gögn á [!INCLUDE[d365fin](includes/d365fin_md.md)] netþjóninum með því að stofna nýjan dulritunarlykil eða flytja inn fyrirliggjandi lykil sem virkjaður er á netþjóni.|[Stjórnun gagnadulritunar](admin-manage-data-encryption.md)|
+|Tengdu Dynamics 365 for Sales við [!INCLUDE[d365fin](includes/d365fin_md.md)] til að fá hnökralausa samþættingu milli viðskiptavinatengsla og úrvinnslu pantana í heildarferlinu.|[Samþætting við Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptavirkni](across-business-functionality.md)  

@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 6ced619dc9a43f7db0b4d78bf3de08a6dac27653
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a91f2d34cd023994dcd8eb67a9360d50d2cf3747
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Notkun Business Central sem fyrirtækjainnhólf í Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kynnir möguleikann á að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum, ásamt því að semja og senda fjárhagsleg skjöl, svo sem tilboð og reikninga.  
 
 ## <a name="getting-the-add-in"></a>Að fá viðbótina
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)], er eitt skrefið í uppsetningu með hjálp í Hafist handa á síðunni **Stýrðu fyrirtækinu úr Office 365**. Þegar hnappurinn **Setja upp í Outlook** er valinn þarf að tilgreina Office 365 notandaheiti og aðgangsorð á þessari síðu. Innbót [!INCLUDE[d365fin](includes/d365fin_md.md)] er þá sjálfkrafa bætt við Outlook.  
+Það er auðvelt að hefjast handa með [!INCLUDE[d365fin](includes/d365fin_md.md)]-innbótinni fyrir Outlook. Í uppsetningarleiðbeiningum með hjálp fyrir **Setjið upp fyrirtækjainnhólf í Outlook** er hægt að setja upp tenginguna fyrir sjálfan þig eða fyrirtækið þitt. Ef fyrirtækið þitt notar Office 365 verður þú að tilgreina Office 365 notandanafn þitt og lykilorð. Ef fyrirtækið þitt notar ekki Office 365, verður þú að gefa upp upplýsingar um Exchange Server sem þú notar. Innbót [!INCLUDE[d365fin](includes/d365fin_md.md)] er þá sjálfkrafa bætt við Outlook.  
 
-Þegar þú opnar síðan Outlook muntu sjá tölvupóst frá Business Cnetral Admin. Nýju innbótinni er bætt við Outlook-borðann, og í Outlook Web Access er hægt að sjá hana í innbótarborðanum, beint fyrir ofan meginmál tölvupóstskeytisins. Viðbótin sjálf verður uppfærð reglulega og þú munt fá tilkynningu um að ný útgáfa sé tilbúin fyrir þig í Outlook.  
+Þegar þú opnar Outlook muntu sjá tölvupóst frá Dynamics 365 Business Central Admin. Nýju innbótunum er bætt við Outlook-borðann, og í Outlook Web-forritinu er hægt að sjá [!INCLUDE[d365fin](includes/d365fin_md.md)]-innbæturnar beint fyrir ofan eða neðan meginmál tölvupóstskeytisins. Innbæturnar eru uppfærðar reglulega og þú munt fá tilkynningu um að ný útgáfa sé tilbúin fyrir þig í Outlook.  
 
 Sum fyrirtæki sem nota Office 365 takmarka heimildir notenda til að taka í notkun innbætur. Því þarf að ganga úr skugga um að þú hafir Office 365 áskrift sem felur í sér tölvupóst og gerir það mögulegt að nota innbætur. Ef þú samt prófa innbæturnar geturðu [prófað Office 365 endurgjaldslaust](https://products.office.com/try).  
 
@@ -57,7 +57,10 @@ Til dæmis, ef þú færð tölvupóstskeyti sem nefnir textann *S-QUO100*, skil
 Í báðum tilvikum, ef [!INCLUDE[d365fin](includes/d365fin_md.md)] er ennþá ekki tiltækt, verður þú að fá innskráningarskrárnar. Hafðu samband við kerfisstjóra Office 365 til að fá frekari upplýsingar.
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Hafist handa](product-get-started.md)  
+[Sækja Business Central í fartækið mitt](install-mobile-app.md)  
+[Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Fjármál](finance.md)  
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  

@@ -1,21 +1,17 @@
 ---
 title: "Fyrirframgreiðslur | Microsoft Docs"
 description: "Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyrirframgreiðslupöntun sölu- eða innkaupa áður en lokareikningsfærsla fer fram. Þú gætir krafist innborgunar áður en þú framleiðir vörur upp í pöntun eða krafist greiðslu áður en þú afhendir viðskiptamanni vörur. Með fyrirframgreiðslum getur þú reikningsfært og innheimt innborganir frá viðskiptamönnum eða sent lánardrottnum innborganir. Þannig má tryggja að allar greiðslur séu bókaðar á móti reikningi."
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: prepayment
+ms.date: 12/04/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7dc774654b35ce9b08885fd4ad18539e3ce5ebd5
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 3038fc256ec45b8eb51abe3f71b7fcc7d273b353
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="set-up-prepayments"></a>Uppsetning fyrirframgreiðslu
@@ -25,7 +21,9 @@ Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun af
 
 Þú getur tilgreint prósentu línuupphæðarinnar sem verður reikningsfærð, fyrir viðskiptamann eða lánardrottin fyrir allar vörur eða valdar vörur. Þegar uppsetningu er lokið er hægt að búa til fyrirframgreiðslureikninga úr sölu- og innkaupapöntunum. Þú getur notað skilgreindu prósenturnar fyrir hverja sölu- eða innkaupalínu eða breytt upphæðunum á reikningnum eins og þarf. Til dæmis er hægt að tilgreina heildarupphæð fyrir alla pöntunina.  
 
-Þar sem fyrirframgreidd upphæð tilheyrir kaupanda þar til hann hefur móttekið vörur eða þjónustu þarf að setja upp fjárhagsreikninga til að geyma fyrirframgreiðsluupphæðir þar til lokareikningurinn er bókaður. Sölufyrirframgreiðslur þarf að skrá í skuldareikning þar til vörurnar eru afhentar. Fyrirframgreiðslur innkaupa þarf að skrá í eignareikning þar til vörurnar eru mótteknar. Auk þess þarf að setja upp sérstakan fjárhagsreikning fyrir hvert VSK-kenni.
+Þar sem fyrirframgreidd upphæð tilheyrir kaupanda þar til hann hefur móttekið vörur eða þjónustu þarf að setja upp fjárhagsreikninga til að geyma fyrirframgreiðsluupphæðir þar til lokareikningurinn er bókaður. Sölufyrirframgreiðslur þarf að skrá í skuldareikning þar til vörurnar eru afhentar. Fyrirframgreiðslur innkaupa þarf að skrá í eignareikning þar til vörurnar eru mótteknar. Auk þess þarf að setja upp sérstakan fjárhagsreikning fyrir hvert VSK-kenni.  
+
+[!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Bæta fyrirframgreiðslureikningum við almennan bókunargrunn  
 
@@ -78,8 +76,11 @@ Pöntun getur haft prósentu fyrirframgreiðslu í söluhausnum og aðra prósen
 Með öðrum orðum, fyrirframgreiðsluprósentan í viðskiptamannsspjaldinu á eingöngu við ef engin prósenta er sett upp fyrir vöruna. Ef innihaldi reitsins **Fyrirframgreiðsla %** er hinsvegar breytt á sölu- eða innkaupahausnum eftir að búið er að stofna línurnar er fyrirframgreiðsluprósenta allra lína uppfærð. Á þennan hátt er auðveldara að stofna pöntun með fasta fyrirframgreiðsluprósentu, sama hvaða prósenta er uppsett í vörum.
 
 ## <a name="see-also"></a>Sjá einnig  
+
 [Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)  
 [Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Reikna vöru- og þjónustuskatt á fyrirframgreiðslum í Ástralíu](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
+[Reikna vöru- og þjónustuskatt á fyrirframgreiðslum á Nýja-Sjálandi](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Skilja fjárhag og bókhaldslykil](finance-general-ledger.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

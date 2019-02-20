@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 11/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 790af74199922a1ce711b1262f2756f5c7788fb2
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 6a42e8039d4b13deac72caf178f67113e582ed36
 ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="general-business-functionality"></a>Almenn viðskiptavirkni
@@ -35,6 +35,7 @@ Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að 
 | Setja upp kóta fyrir staðaltexta svo hægt sé að lengja staðlaðan texta með því að bæta við línum og setja skilyrði fyrir notkun viðbótarlínanna. |[Bæta við lengdum vörutexta](ui-how-define-ext-text.md) |
 |Stofna verk til að minna þig á hvað þarf að gera. Þú getur búið til verkefni fyrir þig, en þú getur einnig úthlutað verkefnum til annarra eða fengið verkefni frá öðrum í fyrirtækinu þínu.|[Skilgreinir notandaverk](across-user-tasks.md)|
 |Hengja myndir, skjöl og aðrar tegundir af skrám við öll kort, svo sem hlutakort og vinnukort, og hengja skrár við allar tegundir af sölu- og innkaupskjölum.|[Hengja skrár við kort og skjöl](across-attach-document-master-data.md)|
+|Vinna með gögn Business Central í Excel.|[Flutningur viðskiptagagna í Excel](about-export-data.md)| 
 |Leyfðu kerfinu að hjálpa þér að ljúka verkum hraðar og réttar með því að forfylla í reiti eða klára línur með gögnum sem þú myndir annars þurfa að reikna og færa inn á eigin spýtur.|[Að láta Business Central leggja til gildi](ui-let-system-suggest-values.md)|
 |Skráðu utanaðkomandi skjöl, þ.m.t. skráarviðhengi þeirra, og búðu svo til handvirkt tengd skjöl eða umbreyttu skránum sjálfkrafa í rafræn skjöl.|[Skjöl á innleið](across-income-documents.md)|
 |Setja upp og nota verkflæði sem tengja verk frá mismunandi notendum eða af kerfinu, t.d. sjálfvirk bókun. Að óska eftir samþykki eða samþykkja að stofna eða bóka skjöl eru dæmigerð skref í verkflæði.|[Verkflæði](across-workflow.md)|

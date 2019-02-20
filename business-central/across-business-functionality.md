@@ -8,21 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 1ad174966d8e56eff13d496a7174483fa9f572ee
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="business-functionality"></a>Viðskiptavirkni
 [!INCLUDE[d365fin](includes/d365fin_md.md)] veitir virkni fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega með heildsölu og sérþjónustu. Hins vegar eru flóknari ferli, s.s. samsetning, framleiðsla, þjónusta og beint vöruhúsakerfi einnig studd.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] felur í sér staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nokkur svið viðskiptavirkni verður að setja upp handvirkt. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
-
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
 | Til | Sjá |
 | --- | --- |

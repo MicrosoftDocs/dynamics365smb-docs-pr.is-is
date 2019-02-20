@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2018
+ms.date: 11/28/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 92b853c0d897ac5d93cbabc435b71bbf420d28a5
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: b0af8e6d6dd477ebabbfc1fa05e8d57378eee226
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Skrá sérstök söluverð og afslætti
@@ -114,16 +114,30 @@ Besta verð er lægsta leyfilega verð með hæsta leyfilega línuafslættinum �
 Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð eða einingaverð sótt af birgðaspjaldinu eða birgðahaldseiningarspjaldinu.
 
 ## <a name="to-copy-sales-prices"></a>Söluverð afritað:  
-Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota í verðflokki viðskiptamanna þarf að keyra **Leggja til söluverð á vinnublaði.**  keyrsla. Keyrslan er á síðunni **Vinnublað söluverðs**.    
+Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota í verðflokki viðskiptamanna þarf að keyra **Leggja til söluverð á vinnublaði.**  keyrsla. Þú getur fundið aðgerð fyrir keyrsluna á síðunni **Vinnublað söluverðs**.    
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað söluverðs** og veldu síðan tengda tengilinn.  
 2.  Velja skal **Leggja til söluverð á vinnublaði** Aðgerð  
 3.  Á flýtiflipanum **Söluverð** skal færa þá **tegund sölu** og **kóta sölu** sem gilda í söluverðinu sem á að afrita inn í reitina.  
-4.  Efst á beiðnisíðunni er fyllt út í **Tegund sölu** og **Kóta sölu** með gerðinni og heitinu sem afrita á söluverðið í.  
-5.  Ef stofna á nýtt verð í keyrslunni er reiturinn **Stofna nýtt verð** valinn.  
-6.  Veldu hnappinn **Í lagi** til að setja nýtt verð í línurnar á síðunni **Vinnublað söluverðs** og gefa til kynna að það gildi fyrir þá **tegund sölu** sem var valin.  
+4.  Efst á beiðnisíðunni er fyllt út í reitunum **Tegund sölu** og **Kóta sölu** með gerðinni og heitinu sem afrita á söluverðið í.  
+5.  Ef stofna á nýtt verð í keyrslunni er gátreiturinn **Stofna nýtt verð** valinn.  
+6.  Veldu hnappinn **Í lagi** til að setja nýtt verð í línurnar á síðunni **Vinnublað söluverðs** með nýju verðtillögunum og gefður til kynna að það gildi fyrir þá tegund sölu sem var valin.  
 
 > [!NOTE]  
+>  Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja þær á síðuna **Söluverð** skal velja aðgerðina **Innleiða verðbreytingar** á síðunni **Vinnublað söluverðs**.
+
+## <a name="to-bulk-update-item-prices"></a>Til að magnuppfæra vöruverð   
+Ef magnuppfæra á vöruverð, t.d. hækka öll vöruverð um einhverja prósentu, er nauðsynlegt að keyra **Leggja til vöruverð á vinnublaði**  keyrsla. Þú getur fundið tengil á keyrsluna á síðunni **Vinnublað söluverðs**.     
+
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað söluverðs** og veldu síðan tengda tengilinn.   
+2.  Veldu **Leggja til vöruverð á vinnublaði** Aðgerð   
+3.  Á flýtiflipanum **Vara** er reiturinn **Nr.** fylltur út eða **Birgðabókunarflokkur** eða aðrir reitir með upprunalegu vöruverði sem á að uppfæra.   
+4.  Efst á beiðnisíðunni er fyllt út í **Tegund sölu** og **Kóta sölu** með gerðinni og heitinu sem afrita á söluverðið í.
+5.  Ef þú vilt að keyrslan leiðrétti sjálfkrafa tillögur að vöruverðum skal slá inn leiðréttingu í reitinn **Leiðréttingarstuðull**. Til dæmis myndir þú slá inn 1,15 í **Leiðréttingarstuðull** fyrir 15% hækkun á vöruverði.  
+6.  Ef stofna á nýtt verð í keyrslunni er reiturinn **Stofna nýtt verð** valinn.   
+7.  Veldu hnappinn **Í lagi** til að setja nýtt verð í línurnar á síðunni **Vinnublað söluverðs** með nýju verðtillögunum og gefður til kynna að það gildi fyrir þá tegund **Hlutar** sem var valinn.   
+
+> [!NOTE]   
 >  Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja á þær í töfluna **Söluverð** , má nota keyrsluna **Innleiða verðbreytingar** í flipanum **Aðgerðir**, flokknum **Aðgerðir** á síðunni **Vinnublað söluverðs**.
 
 ## <a name="see-also"></a>Sjá einnig

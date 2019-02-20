@@ -8,16 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 651ec85ead0859b5be34e624c47331292958e4db
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: 8d9ce13690a1db0e06d3ea204b0c95ac7cb21d33
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Kynning: Móttaka og Frágangur í ítarlegri grunngerð vöruhúss
+
+**Athugið**: Framkvæma verður þessa kynningu í sýnifyrirtæki með valkostinum **Fullt mat - öll sýnigögn** sem er í boði í sandkassaumhverfinu. Nánari upplýsingar eru í [Sandkassaumhverfi stofnað](across-how-create-sandbox-environment.md).
+
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að framkvæma innleiðarferlið til að taka við og ganga frá á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins.  
 
 |Aðferð|Ferli á innleið|Hólf|Móttökur|Frágangur|Flækjustig (Sjá [Hönnunarupplýsingar: uppsetning vöruhúss](design-details-warehouse-setup.md))|  
@@ -61,7 +64,7 @@ Til að ljúka þessari kynningu þarf:
 4.  Veljið reitinn **Sjálfgefið**.  
 
 ## <a name="story"></a>Ferill  
-Ellen, stjórnandi vöruhúss í CCRONUS International Ltd. stofnar tvær innkaupapantanir fyrir fylgihlutavörur frá lánardrottnum 1000 og 2000 sem afhenda á til WHITE vöruhúss. Þegar vörur eru afhentar í vöruhúsið notar Sammy, sem ber ábyrgð á móttöku vara frá lánardrottnum 10000 og 20000, afmörkun til að stofna móttökulínur fyrir innkaupapantanir sem koma frá tveimur lánardrottnum. Sammi skráir vörurnar sem mótteknar í einni vöruhúsamóttöku og gerir þær tiltækar til sölu eða annarrar ráðstöfunar. Jón í vöruhúsinu tekur hlutina úr móttökuhólfinu og gengur frá þeim. Hann setur allar einingarnar í sjálfgefið hólf, nema 40 af 100 mótteknum lömum sem hann flytur í samsetningardeildina með því að skipta frágangslínunni. Þegar John skráir fráganginn er hólfainnihald uppfært og vörurnar gerðar tiltækar til tínslu úr vöruhúsinu.  
+Ellen, stjórnandi vöruhúss í CCRONUS International Ltd. stofnar tvær innkaupapantanir fyrir fylgihlutavörur frá lánardrottnum 10000 og 20000 sem afhenda á til WHITE vöruhúss. Þegar vörur eru afhentar í vöruhúsið notar Sammy, sem ber ábyrgð á móttöku vara frá lánardrottnum 10000 og 20000, afmörkun til að stofna móttökulínur fyrir innkaupapantanir sem koma frá tveimur lánardrottnum. Sammi skráir vörurnar sem mótteknar í einni vöruhúsamóttöku og gerir þær tiltækar til sölu eða annarrar ráðstöfunar. Jón í vöruhúsinu tekur hlutina úr móttökuhólfinu og gengur frá þeim. Hann setur allar einingarnar í sjálfgefið hólf, nema 40 af 100 mótteknum lömum sem hann flytur í samsetningardeildina með því að skipta frágangslínunni. Þegar John skráir fráganginn er hólfainnihald uppfært og vörurnar gerðar tiltækar til tínslu úr vöruhúsinu.  
 
 ## <a name="reviewing-the-white-location-setup"></a>Farið yfir HVÍTU birgðageymsluuppsetninguna  
 Uppsetning síðunnar **Birgðageymsluspjald** skilgreinir vöruhúsaflæði fyrirtækisins.  

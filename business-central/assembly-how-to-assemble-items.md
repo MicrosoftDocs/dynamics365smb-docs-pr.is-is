@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 12/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 10b8021bd688e3f699a73d6a95f511b9a26b8341
 ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="assemble-items"></a>Sameina vörur
@@ -61,7 +61,7 @@ Frekari upplýsingar um hvernig samsetningaríhlutur er settur upp eru í [Skilj
 
     > [!NOTE]  
     >  Til að tryggja að bókun íhlutanotkunar passi við frálagsbókun samsetningarvörunnar eru magnreitirnir í samsetningarpöntunarlínunum sjálfkrafa lagaðir að gildinu sem fært er inn í reitinn **Magn til að setja saman**.  
-7.  Á samsetningarpöntunarlínum af gerðinni **Vara** eða **Forði**, í reitnum **Magn til notkunar**, tilgreinið hversu margar einingar á að bóka sem notað, næst þegar samsetningarpöntun er bókuð. Sjálfgefið er að væntanlegt magn til notkunar í samræmi við samsetningaruppskriftina og magn samsetningarpöntunarhauss sé fært inn, en hægt er að hækka eða lækka það, til dæmis til að endurspegla á yfirnotkun íhluta eða viðbótarforðar voru notaðir.  
+7.  Á samsetningarpöntunarlínum af gerðinni **Vara** eða **Forði**, í reitnum **Magn til notkunar**, tilgreinið hversu margar einingar á að bóka sem notað, næst þegar samsetningarpöntun er bókuð.
 8.  Þegar komið er að því að bóka að hluta eða í heild er valin aðgerðin **Bóka**.  
 
     > [!NOTE]  

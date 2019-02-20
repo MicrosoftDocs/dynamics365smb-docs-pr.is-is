@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ Flýtivísanir eru studdar af flestum vöfrum; virknin getur þó verið örlít
 
 Flýtivísanir sem hér er lýst vísa til bandarísks lyklaborðs. Uppsetning lykla í öðrum lyklaborðum gætu verið aðrir en lyklar á bandarísku lyklaborði.
 
-Flestir flýtileiðir eru þau sömu, hvort sem stýrikerfið er Windows eða MacOS; þó eru nokkrir flýtileiðir sem eru öðruvísi fyrir MacOS. Þær eru gefnar upp innan sviga í töflunum í kaflahlutunum hér að neðan.
+Flestir flýtileiðir eru þau sömu, hvort sem stýrikerfið er Windows eða macOS; þó eru nokkrir flýtileiðir sem eru öðruvísi fyrir macOS. Þær eru gefnar upp innan sviga í töflunum í kaflahlutunum hér að neðan.
 
 ##  <a name="Keyboard"></a> Almennar flýtivísanir
 Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi einingar á síðu, svo sem aðgerðir, fellilista, uppflettingar og fleira. Fyrir nánari upplýsingar um flýtivísanir til að fletta í færslum þegar farið er inn í lista skal sjá næsta kafla.
@@ -52,7 +52,7 @@ Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi 
 ## <a name="keyboard-shortcuts-in-lists"></a>Flýtivísanir í listum
 
 Eftirfarandi tafla lýsir flýtivísunum sem hægt er að nota á listasíðu. Aðgerð flýtileiðar er svolítið öðruvísi eftir því hvort síðan sést á listayfirlitinu eða reitayfirlitinu.
-<!-- 
+<!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
@@ -61,7 +61,7 @@ Eftirfarandi tafla lýsir flýtivísunum sem hægt er að nota á listasíðu. A
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta í listayfirliti |Til að gera þetta í reitayfirliti |Athugasemdir|
 |-----------------|-------|-------|-------|
-|ÖR UPP|Fara í sama dálki í reitinn í línunni fyrir ofan.| Fara í sama dálk í svæðinu í línunni fyrir ofan.  |  | 
+|ÖR UPP|Fara í sama dálki í reitinn í línunni fyrir ofan.| Fara í sama dálk í svæðinu í línunni fyrir ofan.  |  |
 |Niður ör|Fara í sama dálk í reitinn í línunni fyrir neðan. |Fara í sama dálk í svæðinu í línunni fyrir neðan. | |
 |Hægri ör|Í lista sem aðeins er leyfður lesaðgangur að, farðu í sömu röð í næsta reit til hægri.<br /><br />Í breytanlegum listi, farðu til hægri innan núverandi reits.| Fara í sömu röð í næsta reit til hægri. ||
 |Vinstri ör|Í lista sem aðeins er leyfður lesaðgangur að, farðu í sömu röð í fyrri reit til vinstri. <br /><br />Í breytanlegum lista, farðu til vinstri innan núverandi reits.| Fara í sömu röð í fyrra svæði til vinstri. ||
@@ -71,7 +71,7 @@ Eftirfarandi tafla lýsir flýtivísunum sem hægt er að nota á listasíðu. A
 |End<br />(Alt+Hægri ör)|Færðu í síðasta reitinn í röðinni.|Fara í síðasta reitinn í línunni.||
 |Síða upp<br />(Fn+Uppör)|Skrunar til að birta samstæðuraðir fyrir ofan núverandi línur í yfirliti. |Skrunar til að birta hóp flísa fyrir ofan núverandi flísar í yfirliti. ||
 |Síða niður<br />(Fn+Ör niður)|Skrunar til að birta samstæðuraðir fyrir neðan núverandi línur í yfirliti.|Skrunar til að birta hóp flísa fyrir neðan núverandi flísar í yfirliti.||
-|Færslulykill<br />(Fn+Ör niður)|Opna skrána sem tengist reitnum.|Opnar færsluna.| Á aðeins við ef síðuspjald tengist færslunni.|
+|Færslulykill|Opna skrána sem tengist reitnum.|Opnar færsluna.| Á aðeins við ef síðuspjald tengist færslunni.|
 |Ctrl+Enter|Fara yfir í næsta hluta fyrir utan listann.|Fara yfir í næsta hltua fyrir utan listann.||
 
 ### <a name="CopyRows"></a>Velja, afrita og líma
@@ -104,7 +104,7 @@ Eftirfarandi tafla lýsir flýtivísunum sem hægt er að nota á listasíðu. A
 |Shift+Alt+F3|Opnar síusvæðið og bætir síu á valda dálkinn í listanum. Áhersla er lögð á nýja síureitinn sem leyfir að byrja að slá inn síuviðmiðin strax.<br /><br /> Þetta gerir það sama og að velja **Sía** úr dálkahausnum. valmynd rafrænnar skýrslugerðar. Sýnir síusvæðið, bætir við síunni, setur áherslu á það þannig að notandinn geti slegið inn gildi sem á að sía á.<br /><br />Ef sía er þegar á reitnum er nýr sía bætt við. |
 |Ctrl+Shift+Alt+F3|Endurstillir síur. Þetta gerir það sama og að velja **Endurstilla síur** í síusvæðið, og það gildir um reit og síur samtalna.<br /><br /> Síur fara aftur í sjálfgefna síurnar fyrir núverandi yfirlit. Ef núverandi yfirlit er **Allt**, þá jafngildir þetta því að fara aftur í ósíað yfirlit með allar skrám. |
 |Ctrl+Enter|Fer aftur í listann frá síusvæðinu.|
- 
+
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Flýtivísanir í dagatalinu (Dagsetningarval)
 Þegar þú setur dagsetningarreit getur þú annaðhvort slegið inn dagsetninguna handvirkt eða opnað dagatal (dagsetningarval) sem leyfir þér að velja þann dag sem þú vilt. Eftirfarandi tafla lýsir flýtivísunum fyrir dagatalið.
 

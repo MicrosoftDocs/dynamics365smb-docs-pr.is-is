@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2018
+ms.date: 02/04/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9b9422fbbfec61fb4d5812ed02e2b76e74b6f8c8
+ms.sourcegitcommit: ce612d546349d05883016646fe14a35553c2f55a
+ms.openlocfilehash: 3317df5f54a359e5b143d5b288a378a350d49440
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 02/04/2019
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
@@ -35,7 +35,7 @@ Eftirfarandi tafla lýsir þeim reynslu sem nú er að finna.
 | **Úrvals** |Sýnir allar aðgerðir og svið fyrir alla viðskiptavirkni, þ.á.m. framleiðslu- og þjónustukerfi.|
 
 > [!NOTE]  
-> Upplifunin sem hægt er að velja úr [!INCLUDE[d365fin](includes/d365fin_md.md)] fer eftir leyfinu, sem kallast áætlun. Fyrir upplýsingar um **Grundvallar** og **Úrvals** áætlanir, sjá [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) á markaðssvæði Microsoft Dynamics 365. Sjá einnig [[!INCLUDE[d365fin](includes/d365fin_md.md)] Leyfisleiðbeiningar](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> Upplifunin sem hægt er að velja úr [!INCLUDE[d365fin](includes/d365fin_md.md)] fer eftir leyfinu, sem kallast áætlun. Fyrir upplýsingar um **Grundvallar** og **Úrvals** áætlanir, sjá [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) á markaðssvæði Microsoft Dynamics 365. Sjá einnig [[!INCLUDE[d365fin](includes/d365fin_md.md)] Leyfisleiðbeiningar](https://go.microsoft.com/fwlink/?linkid=2068931) (krefst aðgangs að CustomerSource eða PartnerSource).
 
 > [!IMPORTANT]  
 > Allir reglulegir notendur í lausn verða að sömu áætluninni úthlutað, grunn- eða úrvalsáskrift, áður en hægt er að velja þá upplifun fyrir fyrirtækið. Samkvæmt því getur einn notandi ekki fengið aðgang að eiginleikum úrvalsáskriftar ef einn eða fleiri aðrir notendur geta aðeins fengið aðgang að eiginleikum grunnáskriftar. Þetta á ekki við fyrir óreglulega notendur af gerðinni Team Member, innri stjórnandi, ytri endurskoðandi og úthlutaður stjórnandi, sem hver getur fengið annarri áætlun úthlutað en hinir notendurnir í lausninni.

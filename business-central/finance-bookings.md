@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fb288b0b318fefd5b9720516432b6a85bb7347dd
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Magnreikningsfærsla frá Microsoft Bookings í [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -24,6 +24,14 @@ Ef fyrirtækið þitt notar Bookings forritið í Office 365 geturðu framkvæmt
 Til að tengja þitt [!INCLUDE[d365fin](includes/d365fin_md.md)] við Bookings er nauðsynlegt að tiltaka Bookings-fyrirtækið þitt, hvað skal stamstilla við Bookings, hversu oft á að samstilla og hvaða sniðmát skal nota. Settar eru upp upplýsingar á síðunni **Samstilla Bókanir Uppsetning**, sem hægt er að opna frá síðunni **Exchange Samstilla Uppsetning**, sem hægt er finna gegnum [Leit](ui-search.md).  
 
 Ef þú vilt til dæmis samstilla viðskiptavini á milli Bookings og [!INCLUDE[d365fin](includes/d365fin_md.md)], er nauðsynlegt að tiltaka sjálfgefna sniðmátið sem nota á til að bæta nýjum viðskiptavinum við [!INCLUDE[d365fin](includes/d365fin_md.md)], út frá viðskiptavinum í Bookings-fyrirtækinu þínu.  
+
+> [!NOTE]
+> Bookings-forritið er hannað til að bóka fundi fyrir einstaka viðskiptavini frekar en fyrirtæki. Samstillingin við [!INCLUDE[d365fin](includes/d365fin_md.md)] mun fyrir vikið aðeins samstilla tengiliði viðskiptavina við gerð af „einstaklingi“. Einnig þarf netfang til að samstilla tengiliðinn.  
+
+Með svipuðum hætti, ef þú vilt samstilla þjónustuvörur milli Bookings og [!INCLUDE[d365fin](includes/d365fin_md.md)], er nauðsynlegt að tiltaka sjálfgefna sniðmátið sem nota á til að bæta nýjum þjónustuvörum við [!INCLUDE[d365fin](includes/d365fin_md.md)], út frá þjónustunni í Bookings-fyrirtækinu okkar.  
+
+> [!NOTE]
+> Aðeins vörur af gerðinni *Þjónusta* munu samstillast milli Bookings og [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sniðmátið sem þú setur upp á síðunni **Grunnstillingarsniðmát**, svo hægt sé að nota það fyrir samstillingu vöru, verður að skilgreina gerðina sem *Þjónusta*.
 
 ## <a name="invoice-appointments"></a>Reikningsfæra fundi
 Þegar tímabært er að senda reikninga fyrir fullunnar bókanir, ferðu inn á síðuna **Óreikningsfærðar bókanir**. Það hvort listinn er langur eða stuttur fer eftir því hversu oft upplýsingarnar eru samstilltar. Hægt er að stofna reikninga fyrir allar bókanir á listanum eða eina í einu. Hægt er að velja eina eða fleiri færslur á listanum og reikningsfæra þær sérstaklega.  

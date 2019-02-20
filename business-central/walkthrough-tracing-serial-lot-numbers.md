@@ -10,21 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 13638a1bc96bc61fb2d2b3d925a861f1085fe275
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Kynning: Rað-/lotunúmerarakning
+
+**Athugið**: Framkvæma verður þessa kynningu í sýnifyrirtæki með valkostinum **Fullt mat - öll sýnigögn** sem er í boði í sandkassaumhverfinu. Nánari upplýsingar eru í [Sandkassaumhverfi stofnað](across-how-create-sandbox-environment.md).
+
 Þegar vörugallar koma upp þarf að greina villurnar og koma í veg fyrir að fyrirtækið sendi frá sér gölluðu vörurnar. Ef gölluð vara hefur þegar verið send út verður að rekja hana til þeirra sem fengu hana senda og innkalla vörurnar, ef þörf krefur.  
 
 Fyrsti verkhluti gallastjórnunar er að rannsaka hvaðan gölluðu vörurnar komu og hvar þær voru notaðar. Rannsóknin byggir á fyrri gögnum og er einfölduð með því að leita í vörurakningarfærslum á síðunni **Vörurakning**.  
 
-Næsta verk gallastjórnunar er að ákvarða hvort röktu vörunum hefur verið ráðstafað í opnum skjölum, svo sem sölupöntunum sem eftir á að bóka eða notkunarbókum. Þetta er framkvæmt á síðunni **** . Hægt er að nota aðgerðina Færsluleit til að leita að ýmiss konar gagnagrunnfærslum.  
+Næsta verk gallastjórnunar er að ákvarða hvort röktu vörunum hefur verið ráðstafað í opnum skjölum, svo sem sölupöntunum sem eftir á að bóka eða notkunarbókum. Þetta er framkvæmt á síðunni **Færsluleit** . Hægt er að nota aðgerðina Færsluleit til að leita að ýmiss konar gagnagrunnfærslum.  
 
 ## <a name="about-this-walkthrough"></a>Um kynninguna  
 Þessi kynning sýnir hvernig greina á hvaða vörur eru gallaðar, frá hvaða lánadrottni þær komu og hvar þær eru notaðar svo hægt sé að stöðva eða innkalla pantanirnar.  

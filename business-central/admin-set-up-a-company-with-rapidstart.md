@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 16f444fa31e3d63a7d61567667184facf2c3a7d6
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: d7476674407dd505fafa8e82f3bfecc3aa5a5fee
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Uppsetning fyrirtækis með RapidStart Services
@@ -44,7 +44,8 @@ Hægt er að nota eftirfarandi íhluti til að flýta uppsetningu á nýju fyrir
 |Virkja grunnstillingarpakkann til viðskiptamanns fyrir innleiðingu.|[Nota skilgreiningu á ný fyrirtæki](admin-apply-configuration-to-new-companies.md)|
 |Skilgreina og sannprófa uppsetningargildi fyrir öll grunnsvæði, svo sem upplýsingar fyrirtækis, fjárhag, birgða​sölu eða framleiðslu.|[Safna uppsetningargildum viðskiptamanns](admin-gather-customer-setup-values.md)|  
 |Grunnstilla grunnaðalgagnafærslur sem nota sniðmát til að undirbúa flutning á fyrirliggjandi viðskiptamannagögnum.|[Undirbúa flutning á viðskiptamannagögnum](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
-|Skilgreina töflur og reiti, villuleita fyrirliggjandi gögn um viðskiptavini og flytja gögn inn í gagnagrunninn [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Flytja gögn viðskiptamanna](admin-migrate-customer-data.md)|  
+|Skilgreina töflur og reiti, villuleita fyrirliggjandi gögn um viðskiptavini og flytja gögn inn í gagnagrunninn [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Flytja gögn viðskiptamanna](admin-migrate-customer-data.md)|
+|Búðu þig undir að endurnýta grunnstillingar fyrirtækis í öðrum fyrirtækjum.|[Búa til sérstillta grunnstillingarpakka fyrirtækja](admin-how-to-create-custom-company-configuration-packages.md)|
 |Finna lausnir á þekktum vandamálum í verkfærasafni RapidStart Services.|[Ábendingar: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Sjá einnig  

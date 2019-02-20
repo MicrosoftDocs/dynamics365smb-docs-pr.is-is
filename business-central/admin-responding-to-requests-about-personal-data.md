@@ -9,10 +9,10 @@ ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
 ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -47,8 +47,8 @@ Ef þú skráðir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] frá s�
 Þú getur samt merkt fólk sem útilokað vegna persónuverndar og útflutnings, breytt eða eytt færslum eins og lýst er annars staðar í þessari grein.  
 
 ## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Flytur út gögn frá töflum sem eru ekki flokkaðar eftir skráðum aðila
-Ef kringumstæður eru þannig að þú þarft að flytja út gögn sem eru ekki flokkuð á þann hátt að þau séu sjálfkrafa flutt út, svo sem gögn úr svörunartöflu forstillingar, verður þú að gera eftirfarandi: 
--   Íhugaðu hvort þú í raun viljir eða þurfir að flytja þessi viðbótargögn sem tengjast ekki tengiliðnum, sem þýðir að það hefur engin bein tengsl við hann 
+Ef kringumstæður eru þannig að þú þarft að flytja út gögn sem eru ekki flokkuð á þann hátt að þau séu sjálfkrafa flutt út, svo sem gögn úr svörunartöflu forstillingar, verður þú að gera eftirfarandi:
+-   Íhugaðu hvort þú í raun viljir eða þurfir að flytja þessi viðbótargögn sem tengjast ekki tengiliðnum, sem þýðir að það hefur engin bein tengsl við hann
 -   Bættu þessari töflu og venslum handvirkt við Rapid Start pakkann og flyttu hann beint út frá Rapid Start pakkanum - þetta er ástæðan fyrir því að við búum til Rapid Start pakka handa þér, svo þú getir fínpússað hann í aðstæðum líkt og þessum.
 
 ## <a name="handling-data-about-minors"></a>Meðhöndlun gagna um börn

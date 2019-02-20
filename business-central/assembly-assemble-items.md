@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4ce03eb7a3685f53869795ded646ef6917a1730a
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: f40c0b422bfde2d3a186b4458c3780932934d497
 ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="assembly-management"></a>Samsetningardeild
@@ -43,6 +43,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Selja samsetningarsett sem ekki eru tiltæk með því að búa til tengda samsetningarpöntun til að veita fullt magn eða hluta af magni sölupöntunar.|[Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md)|
 |Ef einhverjar samsetningarpöntunarvörur eru þegar í birgðum er hægt að draga það magn frá samsetningarpöntuninni og taka það frá í birgðum.|[Selja birgðavörur í flæðum samsetningar í pöntun](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
 |Þegar verið er að selja samsetningarvörur úr birgðum og allar vörur eru ekki tiltækar, þá er hægt að hefja samsetningarpöntun sem sjálfkrafa veitir hluta af eða allt sölupöntunarmagnið.|[Selja vörur sem eru settar saman í pöntun og birgðavörur saman](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
+|Búa til sérsniðnar samsetningarvörur fyrir standandi sölupantanir áður en gerðar eru reglulegar eiginlegar sölupantanir í samræmi við standandi pöntunarsamninginn.|[Búa til standandi samsetningarpantanir](assembly-how-to-create-blanket-assembly-orders.md)|
 |Afturkalla bókaða samsetningarpöntun, til dæmis ef pöntunin var bókuð með mistökum sem þarf að leiðrétta.|[Afturkalla samsetningarbókun](assembly-how-to-undo-assembly-posting.md)|
 |Nánar um muninn á samsetningaruppskriftum og framleiðsluuppskriftum og viðeigandi vinnslumismun.|[Vinna með uppskriftir](inventory-how-work-BOMs.md)|
 |Nánar um hvernig samsetningarnotkun og frálag eru meðhöndluð við bókun samsetningarpantana og hvernig afleiddur vörukostnaður og forðakostnaður eru unnir og dreift á fjárhag.|[Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)|  
@@ -54,5 +55,4 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
 ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Vinna með grunnstillingu fyrirtækis í vinnublaði
@@ -107,6 +107,22 @@ Eftir að notandi hefur bætt öllum nauðsynlegum töflum við grunnstillingarp
 
     > [!NOTE]  
     >  Töflurnar eru áfram í pakkanum jafnvel þótt þeim hafi verið eytt úr vinnublaðinu.  
+
+## <a name="to-review-and-customize-existing-database-data"></a>Til að endurskoða og sérstilla núverandi gagnagrunnsgögn
+Þegar grunnstillingarpakki fyrir lausn er stofnaður, er hægt að skoða og sérstilla tiltæk gagnagrunnsgögn svo þau falli betur að þörfum viðskiptavina. Gagnagrunnstaflan verður að tengjast síðu.  
+
+## <a name="to-customize-data-in-the-database"></a>Til að sérsníða gögn í gagnagrunninum  
+
+1.  Á síðunni **Grunnstillingarvinnublað** skal tilgreina töflurnar með gögnunum sem á að skoða eða sérstilla.  
+
+    > [!NOTE]  
+    >  Ganga þarf úr skugga um að hver tafla hafi síðukenni sem tengist henni. Fyrir staðlaðar [!INCLUDE[d365fin](includes/d365fin_md.md)] töflur er þetta gildi fyllt út sjálfkrafa. Fyrir sérsniðnar töflur þarf að gefa upp kennið.  
+
+2.  Veljið aðgerðina **Gagnagrunnsgögn**.  
+
+     [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir síðuna sem við á opnast.  
+
+3.  Fara skal yfir upplýsingarnar. Breyta eins og nauðsyn kreufr með því að eyða skráningum sem eru ekki viðeigandi eða með því að bæta nýjum við.
 
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning grunnstillingu fyrirtækis](admin-set-up-company-configuration.md)  
