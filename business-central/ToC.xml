@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Node Name="" DisplayName="Hjálp" Page="product-get-started.html">
+  <Node Name="" DisplayName="Hafist handa" Page="across-get-started.html">
+    <Node Name="" DisplayName="Yfirlit yfir Viðskiptavirkni" Page="across-business-functionality.html"/>
+    <Node Name="" DisplayName="Innflutningur viðskiptagagna úr öðrum fjárhagskerfum" Page="upload-data.html"/>
+    <Node Name="" DisplayName="Nota Business Central á fartækinu þínu" Page="install-mobile-app.html"/>
+    <Node Name="" DisplayName="Samstilla við tengiliði í Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
+    <Node Name="" DisplayName="Notkun Business Central sem fyrirtækjainnhólf í Outlook" Page="admin-outlook.html"/>
+    <Node Name="" DisplayName="Gera viðskiptagögn þín virk fyrir Power BI" Page="admin-powerbi.html"/>
+    <Node Name="" DisplayName="Nota Business Central sem Power BI gagnaveita" Page="across-how-use-financials-data-source-powerbi.html"/>
+    <Node Name="" DisplayName="Sérstilling Business Central með viðbótum" Page="ui-extensions.html"/>
+  </Node>
+  <Node Name="" DisplayName="Ábendingar og góð ráð" Page="ui-work-product.html">
+    <Node Name="" DisplayName="Unnið með Business Central" Page="ui-work-product.html"/>
+    <Node Name="" DisplayName="Að nota leit að síðu eða skýrslu" Page="ui-search.html"/>
+    <Node Name="" DisplayName="Breyta grundvallarstillingum" Page="ui-change-basic-settings.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Breyta Hlutverkamiðstöð" Page="change-role.html"/>
+    <Node Name="" DisplayName="Sérstilling Business Central" Page="ui-customizing-overview.html"/>
+    <Node Name="" DisplayName="Að láta Business Central leggja til gildi" Page="ui-let-system-suggest-values.html"/>
+    <Node Name="" DisplayName="Prenta skýrslu" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Myndbönd í algengum verkum" Page="across-videos.html"/>
+  </Node>
+  <Node Name="" DisplayName="Uppsetning Business Central" Page="setup.html">
+    <Node Name="" DisplayName="Uppsetning og stjórnun" Page="admin-setup-and-administration.html">
+      <Node Name="" DisplayName="Skráning breytinga" Page="across-log-changes.html"/>
+      <Node Name="" DisplayName="Stofna ný fyrirtæki" Page="about-new-company.html"/>
+      <Node Name="" DisplayName="Notendur, Forstillingar og Mitt hlutverk" Page="admin-users-profiles-roles.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Vinna með notendur og heimildir" Page="ui-how-users-permissions.html"/>
+      <Node Name="" DisplayName="Nota verkraðir til að tímaraða verkhlutum" Page="admin-job-queues-schedule-tasks.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Birta vefþjónustu" Page="across-how-publish-web-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Uppsetning Fjármála" Page="finance-setup-finance.html">
+      <Node Name="" DisplayName="Skilgreina Greiðsluhætti" Page="finance-payment-methods.html"/>
+      <Node Name="" DisplayName="Uppsetning bókunarflokka" Page="finance-posting-groups.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Vinna með greiðsluvikmörk og greiðsluafsláttarvikmörk" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+      <Node Name="" DisplayName="Hvernig á að opna Nýtt reikningsár" Page="finance-how-open-new-fiscal-year.html"/>
+      <Node Name="" DisplayName="Setja upp virðisaukaskatt" Page="finance-setup-vat.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Uppfæra gengi" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Uppsetning bókhaldslykilsins" Page="finance-setup-chart-accounts.html"/>
+      <Node Name="" DisplayName="Setja upp sjóðstreymisgreiningu" Page="finance-setup-cash-flow-analyses.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp staðgreiðsluviðskiptamenn" Page="finance-how-to-set-up-cash-customers.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Setja upp Intrastat skýrslugerð" Page="finance-how-setup-report-intrastat.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Vinna með Sameinaða prófjafnaðarskýrslu" Page="accross-how-consolidated-company-reporting.html"/>
+    </Node>
+    <Node Name="" DisplayName="Uppsetning bankaþjónustu" Page="bank-setup-banking.html">
+      <Node Name="" DisplayName="Hvernig á að setja upp Bankareikninga lánardrottna" Page="bank-how-setup-bank-accounts.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Setja upp umreikningsþjónustu fyrir bankagögn" Page="bank-how-setup-bank-data-conversion-service.html"/>
+    </Node>
+    <Node Name="" DisplayName="Uppsetning sölu" Page="sales-setup-sales.html">
+      <Node Name="" DisplayName="Hvernig á að Skrá nýja viðskiptamenn" Page="sales-how-register-new-customers.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Virkja greiðslur viðskiptamanna um greiðsluþjónustur" Page="sales-how-enable-payment-service-extensions.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Skrá sérstök söluverð og afslætti" Page="sales-how-record-sales-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Setja upp sölumenn" Page="sales-how-setup-salespeople.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Setja upp sendisnið skjala" Page="sales-how-setup-document-send-profiles.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Senda skjöl í tölvupósti" Page="ui-how-send-documents-email.html"/>
+      <Node Name="" DisplayName="Hvernig á að staðfesta VSK-númer" Page="sales-how-to-verify-vat-registration-numbers.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp flutningsaðila" Page="sales-how-to-set-up-shipping-agents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Uppsetning innkaupa" Page="purchasing-setup-purchasing.html">
+      <Node Name="" DisplayName="Hvernig á að Skrá nýja lánardrottna" Page="purchasing-how-register-new-vendors.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Skrá sérstakt söluverð og sérstaka afslætti" Page="purchasing-how-record-purchase-price-discount-payment-agreements.html"/>
+      <Node Name="" DisplayName="Hvernig á að forgangsraða Lánardrottnum" Page="purchasing-how-prioritize-vendors.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp Innkaupaaðila" Page="purchasing-how-setup-purchasers.html"/>
+    </Node>
+    <Node Name="" DisplayName="Uppsetning birgða" Page="inventory-setup-inventory.html">
+      <Node Name="" DisplayName="Hvernig á að: Setja upp almennar birgðaupplýsingar" Page="inventory-how-setup-general.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Vinna með ábyrgðarstöðvar" Page="inventory-responsibility-centers.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp birgðageymslur" Page="inventory-how-setup-locations.html"/>
+      <Node Name="" DisplayName="Hvernig á að Skrá nýjar vörur" Page="inventory-how-register-new-items.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp birgðaeiningar" Page="inventory-how-to-set-up-stockkeeping-units.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Flokka vörur" Page="inventory-how-categorize-items.html"/>
+    </Node>
+    <Node Name="" DisplayName="Setja upp verkefnastjórnun" Page="projects-setup-projects.html">
+      <Node Name="" DisplayName="Hvernig á að: Setja upp forða" Page="projects-how-setup-resources.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp tímablöð" Page="projects-how-setup-time-sheets.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp verk" Page="projects-how-setup-jobs.html"/>
+    </Node>
+    <Node Name="" DisplayName="Uppsetning eigna" Page="fa-setup.html">
+      <Node Name="" DisplayName="Hvernig á að setja upp upplýsingar fyrir almennar eignir" Page="fa-how-setup-general.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Uppsetning afskriftir eigna" Page="fa-how-setup-depreciation.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp vátryggingar eigna" Page="fa-how-setup-insurance.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Uppsetning eignarviðhalds" Page="fa-how-setup-maintenance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Vöruhúsastjórnun sett upp" Page="warehouse-setup-warehouse.html">
+      <Node Name="" DisplayName="Hönnunarupplýsingar yfirlit vöruhúss" Page="design-details-warehouse-overview.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp hólfategundir" Page="warehouse-how-to-set-up-bin-types.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Stofna hólf" Page="warehouse-how-to-create-individual-bins.html"/>
+      <Node Name="" DisplayName="Hvernig á að: stofna Innihald hólfs" Page="warehouse-how-to-set-up-bin-contents.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp Frágangssniðmát" Page="warehouse-how-to-set-up-put-away-templates.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp vöruhúsastarfsmenn" Page="warehouse-how-to-set-up-warehouse-employees.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp birgðageymslur til að þær noti hólf" Page="warehouse-how-to-set-up-locations-to-use-bins.html"/>
+      <Node Name="" DisplayName="Hvernig á að breyta fyrirliggjandi staðsetningum í vöruhúsastaðsetningar" Page="warehouse-how-to-convert-existing-locations-to-warehouse-locations.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði" Page="warehouse-how-to-set-up-basic-warehouses-with-operations-areas.html"/>
+      <Node Name="" DisplayName="Hvernig á að: setja upp vörur og birgðageymslur fyrir beinan frágang og tínslu" Page="warehouse-how-to-set-up-items-for-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Telja, leiðrétta og endurflokka birgðir" Page="inventory-how-count-adjust-reclassify.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Virkja sjálfvirk einingaskipti með beinum frágangi og tínslu" Page="warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Virkja tínslu eftir FEFO" Page="warehouse-picking-by-fefo.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Virkja Sjálfvirkt gagnatökukerfi (ADCS)" Page="warehouse-use-automated-data-capture-systems-adcs.html"/>
+      <Node Name="" DisplayName="Hvernig á að endurskipuleggja vöruhús" Page="warehouse-how-to-restructure-warehouses.html"/>
+    </Node>
+    <Node Name="" DisplayName="Uppsetning framleiðslu" Page="production-configure-production-processes.html">
+      <Node Name="" DisplayName="Hvernig á að stofna dagatöl vinnustöðvar" Page="production-how-to-create-work-center-calendars.html"/>
+      <Node Name="" DisplayName="Hvernig á að: setja upp vinnu- og vélastöðvar" Page="production-how-to-set-up-work-and-machine-centers.html"/>
+      <Node Name="" DisplayName="Hvernig á að stofna Nýjar leiðir" Page="production-how-to-create-routings.html"/>
+      <Node Name="" DisplayName="Hvernig á að stofna nýjar framl.uppskriftir" Page="production-how-to-create-production-boms.html"/>
+      <Node Name="" DisplayName="Virkja flæði íhluta samkvæmt frálagi aðgerða" Page="production-how-to-flush-components-according-to-operation-output.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Vinna með mælieiningu framleiðslukeyrslu" Page="production-how-to-use-the-manufacturing-batch-unit-of-measure.html"/>
+      <Node Name="" DisplayName="Hvernig á að: vinna með framleiðslusamsafn" Page="production-how-work-family.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Setja upp staðlaðar leiðarlínur" Page="production-how-set-up-standard-routing-lines.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Úthýsa framleiðslu til undirverktaka" Page="production-how-to-subcontract-manufacturing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Þjónustustýring sett upp" Page="service-setup-service.html">
+      <Node Name="" DisplayName="Hvernig á að setja upp staðlaða þjónustukóta" Page="service-how-setup-service-coding.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Grunnstilla þjónustuferli" Page="service-setup-service-processes.html"/>
+      <Node Name="" DisplayName="Hvernig á að: setja upp bilanatilkynningar" Page="service-how-setup-fault-reporting.html"/>
+      <Node Name="" DisplayName="Hvernig á að: setja upp þjónustutilboð" Page="service-how-setup-service-offerings.html"/>
+      <Node Name="" DisplayName="Hvernig á að setja upp úrræðaleit" Page="service-how-setup-troubleshooting.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Setja upp forðaúthlutun" Page="service-how-setup-resource-allocation.html"/>
+      <Node Name="" DisplayName="Hvernig á að: setja upp verðlagningu og aukakostnað fyrir þjónustu" Page="service-how-setup-service-costs-pricing.html"/>
+      <Node Name="" DisplayName="Hvernig á að: setja upp þjónustuvörur og þjónustuvörueiningar" Page="service-how-setup-service-items.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Setja upp vinnustundir og þjónustustundir" Page="service-how-setup-work-service-hours.html"/>
+      <Node Name="" DisplayName="Hvernig skal Setja upp stöður fyrir þjónustupantanir og viðgerðir" Page="service-order-repair-status.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Setja upp lánsbúnaðar" Page="service-how-setup-loaner-program.html"/>
+      <Node Name="" DisplayName="Hvernig á að: setja upp þjónustusamninga" Page="service-how-setup-service-contracts.html"/>
+    </Node>
+    <Node Name="" DisplayName="Afskriftaaðferðir" Page="fa-depreciation-methods.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Setja upp tölvupóst" Page="madeira-how-setup-email.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Stofnun númeraraða" Page="ui-create-number-series.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Setja upp lengda texta" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="Hvernig á að setja upp grunndagatal" Page="across-how-to-assign-base-calendars.html"/>
+    <Node Name="" DisplayName="Setja upp flókin notkunarsviðum með því að nota bestu venjur" Page="set-up-complex-application-areas-using-best-practices.html">
+      <Node Name="" DisplayName="Uppsetning bestu venjur: Framboðsáætlun" Page="setup-best-practices-supply-planning.html"/>
+      <Node Name="" DisplayName="Uppsetning bestu venjur: Aðferð kostnaðarútreiknings" Page="setup-best-practices-costing-method.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Fjármál" Page="finance.html">
+    <Node Name="" DisplayName="Stjórnun útistandandi reikninga" Page="receivables-manage-receivables.html">
+      <Node Name="" DisplayName="Jafna greiðslur sjálfkrafa og afstemma bankareikninga" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="hvernig skal stemma handvirkt af greiðslur viðskiptamanns úr lista yfir ógreidda söluskjöl." Page="receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Afstemma greiðslur viðskiptamanns handvirkt" Page="receivables-how-apply-sales-transactions-manually.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Innheimta útistandandi skuldir" Page="receivables-collect-outstanding-balances.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði" Page="payables-how-assign-item-charges.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Vinna með greiðsluvikmörk og greiðsluafsláttarvikmörk" Page="finance-payment-tolerance-and-payment-discount-tolerance.html"/>
+    </Node>
+    <Node Name="" DisplayName="Stjórna skuldum" Page="payables-manage-payables.html">
+      <Node Name="" DisplayName="Framkvæma greiðslur" Page="payables-make-payments.html"/>
+      <Node Name="" DisplayName="Jafna greiðslur sjálfkrafa og afstemma bankareikninga" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Afstemma greiðslur á lánardrottna handvirkt" Page="payables-how-apply-purchase-transactions-manually.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði" Page="payables-how-assign-item-charges.html"/>
+    </Node>
+    <Node Name="" DisplayName="Reikningsfærsla fyrirframgreiðslna" Page="finance-invoice-prepayments.html">
+      <Node Name="" DisplayName="Hvernig á að: setja upp Fyrirframgreiðslur" Page="finance-set-up-prepayments.html"/>
+      <Node Name="" DisplayName="Hvernig á að stofna reikninga fyrirframgreiðslu" Page="finance-how-to-create-prepayment-invoices.html"/>
+      <Node Name="" DisplayName="Hvernig á að leiðrétta fyrirframgreiðslu" Page="finance-how-to-correct-prepayments.html"/>
+    </Node>
+    <Node Name="" DisplayName="Stjórnun bankareikninga" Page="bank-manage-bank-accounts.html">
+      <Node Name="" DisplayName="Jafna greiðslur sjálfkrafa og afstemma bankareikninga" Page="receivables-apply-payments-auto-reconcile-bank-accounts.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Afstemma bankareikninga hvern fyrir sig" Page="bank-how-reconcile-bank-accounts-separately.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Flytja bankainnistæður" Page="bank-how-transfer-bank-funds.html"/>
+    </Node>
+    <Node Name="" DisplayName="Vinna með millifyrirtækjafærslur" Page="intercompany-manage.html">
+      <Node Name="" DisplayName="Hvernig á að: Setja upp millifyrirtæki" Page="intercompany-how-setup.html"/>
+      <Node Name="" DisplayName="Hvernig á að: vinna með milli-fyrirtækjaskjöl og færslubækur" Page="intercompany-how-work-documents-journals.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur" Page="intercompany-how-manage-intercompany-inbox.html"/>
+    </Node>
+    <Node Name="" DisplayName="Bókhald fyrir kostnað" Page="finance-manage-cost-accounting.html">
+      <Node Name="" DisplayName="Orðalisti í kostnaðarbókhaldi" Page="finance-terminology-in-cost-accounting.html"/>
+      <Node Name="" DisplayName="Um kostnaðarbókhald" Page="finance-about-cost-accounting.html"/>
+      <Node Name="" DisplayName="Uppsetning kostnaðarbókhalds" Page="finance-set-up-cost-accounting.html"/>
+      <Node Name="" DisplayName="Flytja og bóka kostnaðarfærslur" Page="finance-transfer-and-post-cost-entries.html"/>
+      <Node Name="" DisplayName="Skilgreina og úthluta kostnaði" Page="finance-define-and-allocate-costs.html"/>
+      <Node Name="" DisplayName="Stofna kostnaðaráætlanir" Page="finance-create-cost-budgets.html"/>
+    </Node>
+    <Node Name="" DisplayName="Birgðakostnaði stjórnað" Page="finance-manage-inventory-costs.html">
+      <Node Name="" DisplayName="Um birgðakostnað" Page="finance-learn-about-costing.html"/>
+      <Node Name="" DisplayName="Uppsetning birgðaverðmats og kostnaðar" Page="finance-set-up-inventory-valuation-and-costing.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Endurmeta birgðir" Page="inventory-how-revalue-inventory.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Leiðrétta birgðakostnað" Page="inventory-how-adjust-item-costs.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Meðhöndla birgða- og framleiðslukostnað" Page="finance-handle-inventory-and-manufacturing-costs.html"/>
+      <Node Name="" DisplayName="Hvernig á að uppfæra staðlað kostnaðarverð" Page="finance-how-to-update-standard-costs.html"/>
+      <Node Name="" DisplayName="Tilkynna kostnað og afstemma við fjárhag" Page="finance-report-costs-and-reconcile-with-the-general-ledger.html"/>
+      <Node Name="" DisplayName="Hönnunarupplýsingar: Birgðakostnaður" Page="design-details-inventory-costing.html"/>
+    </Node>
+    <Node Name="" DisplayName="Skilja fjárhag og bókhaldslykil" Page="finance-general-ledger.html"/>
+    <Node Name="" DisplayName="Unnið með víddir" Page="finance-dimensions.html"/>
+    <Node Name="" DisplayName="Hvernig á að: stofna fjárhagsáætlun" Page="finance-how-create-budgets.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Bóka færslu beint í Fjárhag" Page="finance-how-post-transactions-directly.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Bakfæra bókanir." Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Hvernig á að: úthluta kostnaði og tekjum" Page="year-allocate-costs-income.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði" Page="payables-how-assign-item-charges.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Skrá og endurgreiða starfsmannaútgjöld." Page="finance-how-record-reimburse-employee-expenses.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Defer Tekjum og önnur Útgjöld" Page="finance-how-defer-revenue-expenses.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Flytja inn launafærslur" Page="finance-how-import-payroll-transactions.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Senda VSK skýrslu inn til skattayfirvalda" Page="finance-how-report-vat.html"/>
+    <Node Name="" DisplayName="Hvernig á að: vinna með VSK í sölu og innkaupum" Page="finance-work-with-vat.html"/>
+    <Node Name="" DisplayName="Hvernig á að umbreyta þjónustusamningum sem innihalda VSK upphæðir" Page="service-how-to-convert-service-contracts.html"/>
+    <Node Name="" DisplayName="Greina fjárhagsskýrslur í Excel." Page="finance-analyze-excel.html"/>
+    <Node Name="" DisplayName="Greining á sjóðstreymi í fyrirtækinu þínu" Page="finance-analyze-cash-flow.html"/>
+    <Node Name="" DisplayName="Loka árum og tímabilum" Page="year-close-years-periods.html">
+      <Node Name="" DisplayName="Hvernig á að tilgreina Bókunartímabil" Page="finance-how-specify-posting-periods.html"/>
+      <Node Name="" DisplayName="Lokunartímabil" Page="year-how-complete-period-end-processes.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Uppfæra gengi" Page="finance-how-update-currencies.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Úthluta kostnaði og tekjum" Page="year-allocate-costs-income.html"/>
+      <Node Name="" DisplayName="Hvernig á að: Senda VSK skýrslu inn til skattayfirvalda" Page="finance-how-report-vat.html"/>
+      <Node Name="" DisplayName="Undirbúningur skýrslna fyrir lokun" Page="year-prepare-preclose-reports.html"/>
+      <Node Name="" DisplayName="Bókum lokað" Page="year-close-books.html"/>
+      <Node Name="" DisplayName="Undirbúningur lokunaryfirlits" Page="year-prepare-close-statement.html"/>
+    </Node>
+  </Node>
+  <Node Name="" DisplayName="Viðskiptaupplýsingar" Page="bi.html">
+    <Node Name="" DisplayName="Hvernig á að: Greina raunverulegar og áætlaðar upphæðir" Page="bi-how-analyze-actual-versus-budget.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Vinna með fjárhagsskemu" Page="bi-how-work-account-schedule.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum" Page="bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Greina gögn eftir víddum" Page="bi-how-analyze-data-dimension.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Stofna greiningarskýrslur" Page="bi-how-create-analysis-views-reports.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Stofna skýrslur með XBRL" Page="bi-create-reports-with-xbrl.html"/>
+  </Node>
+  <Node Name="" DisplayName="Sala" Page="sales-manage-sales.html">
+    <Node Name="" DisplayName="Hvernig á að: Gera tilboð" Page="sales-how-make-offers.html"/>
+    <Node Name="" DisplayName="Hvernig er reikningsfært" Page="sales-how-invoice-sales.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Selja vörur" Page="sales-how-sell-products.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Stofna ítrekaðar sölu- og innkaupalínur" Page="sales-how-work-standard-lines.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Gera beinar afhendingar" Page="sales-how-drop-shipment.html"/>
+    <Node Name="" DisplayName="Hvernig á að stofna sérpöntun" Page="sales-how-to-create-special-orders.html"/>
+    <Node Name="" DisplayName="Ógreiddir sölureikningar leiðréttir eða afturkallaðir" Page="sales-how-correct-cancel-sales-invoice.html"/>
+    <Node Name="" DisplayName="Meðhöndlun söluvöruskila eða afturkallana" Page="sales-how-process-sales-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Vinna með standandi sölupantanir" Page="sales-how-to-create-blanket-sales-orders.html"/>
+    <Node Name="" DisplayName="Hvernig á að sameina afhendingar í einn reikning" Page="sales-how-to-combine-shipments-on-a-single-invoice.html"/>
+    <Node Name="" DisplayName="Hvernig á að reikna Dagsetningu pöntunarloforðs" Page="sales-how-to-calculate-order-promising-dates.html"/>
+    <Node Name="" DisplayName="Hvernig á að rekja Sendingar" Page="sales-how-track-packages.html"/>
+  </Node>
+  <Node Name="" DisplayName="Innkaup" Page="purchasing-manage-purchasing.html">
+    <Node Name="" DisplayName="Hvernig á að skrá kaup" Page="purchasing-how-record-purchases.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Biðja um tilboð" Page="purchasing-how-request-quotes.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Kaupa vörur fyrir sölu." Page="purchasing-how-purchase-products-sale.html"/>
+    <Node Name="" DisplayName="Leiðrétta eða afturkalla ógreidda innkaupareikninga" Page="purchasing-how-correct-cancel-unpaid-purchase-invoices.html"/>
+    <Node Name="" DisplayName="Hvernig á að: sameina móttökur í einn reikning" Page="purchasing-how-to-combine-receipts.html"/>
+    <Node Name="" DisplayName="Meðhöndlun innkaupaskila eða afturkallana" Page="purchasing-how-process-purchase-returns-cancellations.html"/>
+    <Node Name="" DisplayName="Dagsetning útreiknings fyrir kaup." Page="purchasing-date-calculation-for-purchases.html"/>
+  </Node>
+  <Node Name="" DisplayName="Birgðir" Page="inventory-manage-inventory.html">
+    <Node Name="" DisplayName="Hvernig á að: Skrá nýjar vörur" Page="inventory-how-register-new-items.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Vinna með uppskriftir" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Flokka vörur" Page="inventory-how-categorize-items.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Vinna með vörueigindir" Page="inventory-how-work-item-attributes.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Vinna með Utanbirgðavörur" Page="inventory-how-work-nonstock-items.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Telja, breyta og endurflokka birgðir." Page="inventory-how-count-adjust-reclassify.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Skoða tiltækileika vöru" Page="inventory-how-availability-overview.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Flytja birgðir milli staða" Page="inventory-how-transfer-between-locations.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Taka frá vörur" Page="inventory-how-to-reserve-items.html"/>
+    <Node Name="" DisplayName="Hvernig á að: vinna með rað- og lotunúmer." Page="inventory-how-work-item-tracking.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Vinna með ábyrgðarstöðvar" Page="inventory-responsibility-centers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Verkefnastjórnun" Page="projects-manage-projects.html">
+    <Node Name="" DisplayName="Hvernig á að: Stofna verk" Page="projects-how-create-jobs.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Nota forða fyrir verk" Page="projects-how-use-resources.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Nota vinnuskýrslur fyrir verk" Page="projects-how-use-time-sheets.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Vinna með verkáætlanir" Page="projects-how-manage-budgets.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Skrá notkun vegna verka" Page="projects-how-record-job-usage.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Vinna með verkbirgðir" Page="projects-how-manage-project-supplies.html"/>
+    <Node Name="" DisplayName="Að skila VÍV aðferðir" Page="projects-understanding-wip.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Fylgjast með framvindu og afköstum" Page="projects-how-monitor-progress-performance.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Reikningsfæra verk" Page="projects-how-invoice-jobs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Eignir" Page="fa-manage.html">
+    <Node Name="" DisplayName="Hvernig á að: komast Yfir Eignir" Page="fa-how-acquire.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Viðhalda Eignir" Page="fa-how-maintain.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Tryggja eignir" Page="fa-how-insure.html"/>
+    <Node Name="" DisplayName="Hvernig á að: flytja, skipta upp, eða sameina eignir" Page="fa-how-trans-split-combine.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Endurmeta eignir" Page="fa-how-revalue.html"/>
+    <Node Name="" DisplayName="Hvernig á að: afskrifa eða greiða af eignum" Page="fa-how-depreciate-amortize.html"/>
+    <Node Name="" DisplayName="Hvernig á að: afskrá eða innkalla eignir" Page="fa-how-dispose-retire.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Umsjón fjárhagsáætlana fyrir eignir" Page="fa-how-manage-budgets.html"/>
+  </Node>
+  <Node Name="" DisplayName="Umsjón með venslum" Page="marketing-relationship-management.html">
+    <Node Name="" DisplayName="Uppsetning tengslastjórnar" Page="marketing-setup-marketing.html"/>
+    <Node Name="" DisplayName="Vinna með tengiliði" Page="marketing-contacts.html"/>
+    <Node Name="" DisplayName="Umsjón hluta" Page="marketing-segments.html"/>
+    <Node Name="" DisplayName="Samskipti skráð" Page="marketing-interactions.html"/>
+    <Node Name="" DisplayName="Umsjón sölutækifæra" Page="marketing-manage-sales-opportunities.html"/>
+    <Node Name="" DisplayName="Umsjón með viðskiptamönnum og sölum sem stofnuð eru í Dynamics 365 for Sales" Page="marketing-integrate-dynamicscrm.html"/>
+  </Node>
+  <Node Name="" DisplayName="Starfsmannahald" Page="hr-manage-human-resources.html">
+    <Node Name="" DisplayName="Hvernig á að: Skrá starfsmenn" Page="hr-how-register-employees.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Halda utan um fjarveru starfsmanna" Page="hr-how-manage-absence.html"/>
+  </Node>
+  <Node Name="" DisplayName="Áætlun" Page="production-planning.html">
+    <Node Name="" DisplayName="Um áætlunaraðgerðir" Page="production-about-planning-functionality.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Úthýsa framleiðslu til undirverktaka" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Áætlanagerð með eða án birgðageymslna" Page="production-planning-with-without-locations.html"/>
+    <Node Name="" DisplayName="Hvernig á að stofna spá" Page="production-how-to-create-a-forecast.html"/>
+    <Node Name="" DisplayName="Hvernig á að stofna Framleiðslupantanir í sölupöntunum" Page="production-how-to-create-production-orders-from-sales-orders.html"/>
+    <Node Name="" DisplayName="Hvernig á að áætla verkefnispantanir" Page="production-how-to-plan-project-orders.html"/>
+    <Node Name="" DisplayName="Hvernig á að: gera áætlanir um nýja eftirspurn pöntun fyrir pöntun" Page="production-how-to-plan-for-new-demand.html"/>
+    <Node Name="" DisplayName="Hvernig á að: keyra fulla áætlunargerð, MPS eða MRP" Page="production-how-to-run-mps-and-mrp.html"/>
+    <Node Name="" DisplayName="Hvernig á að: enduráætla eða uppfæra framleiðslupantanir beint" Page="production-how-to-replan-refresh-production-orders.html"/>
+    <Node Name="" DisplayName="Hvernig á að: rekja tengsl milli eftirspurnar og framboðs" Page="production-how-track-demand-supply.html"/>
+    <Node Name="" DisplayName="Hvernig á að breyta áætlunartillögum í myndrænu yfirliti" Page="production-how-to-modify-planning-suggestions-in-a-graphical-view.html"/>
+  </Node>
+  <Node Name="" DisplayName="Samsetningardeild" Page="assembly-assemble-items.html">
+    <Node Name="" DisplayName="Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir" Page="assembly-assemble-to-order-or-assemble-to-stock.html"/>
+    <Node Name="" DisplayName="Hvernig á að búa til tilboð með samsetningarpöntun" Page="assembly-how-to-quote-an-assemble-to-order-sale.html"/>
+    <Node Name="" DisplayName="Hvernig á að sameina vörur" Page="assembly-how-to-assemble-items.html"/>
+    <Node Name="" DisplayName="Hvernig á að selja sem eru settar saman í pöntun" Page="assembly-how-to-sell-items-assembled-to-order.html"/>
+    <Node Name="" DisplayName="Hvernig á að selja birgðavörur með flæði samsetningarpantana" Page="assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.html"/>
+    <Node Name="" DisplayName="Hvernig á að selja samsetningarpöntunarvörur og birgðavörur saman" Page="assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.html"/>
+    <Node Name="" DisplayName="Hvernig á að afturkalla samsetningarbókun" Page="assembly-how-to-undo-assembly-posting.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Vinna með uppskriftir" Page="inventory-how-work-BOMs.html"/>
+    <Node Name="" DisplayName="Hönnunarupplýsingar: Bókun samsetningarpöntunar" Page="design-details-assembly-order-posting.html"/>
+  </Node>
+  <Node Name="" DisplayName="Framleiðsla" Page="production-manage-manufacturing.html">
+    <Node Name="" DisplayName="Um framleiðslupantanir" Page="production-about-production-orders.html"/>
+    <Node Name="" DisplayName="Hvernig á að: stofna framleiðslupantanir" Page="production-how-to-create-production-orders.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Úthýsa framleiðslu til undirverktaka" Page="production-how-to-subcontract-manufacturing.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Bóka notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu" Page="production-how-to-register-consumption-and-output.html"/>
+    <Node Name="" DisplayName="Hvernig á að: fjöldabóka notkun" Page="production-how-to-post-consumption.html"/>
+    <Node Name="" DisplayName="Hvernig á að: fjöldabóka frálag og keyrslutíma" Page="production-how-to-post-output-quantity.html"/>
+    <Node Name="" DisplayName="Hvernig á að: bóka úrkast" Page="production-how-to-post-scrap.html"/>
+    <Node Name="" DisplayName="Hvernig á að: skoða álag á vinnu- og vélastöðvar" Page="production-how-to-view-the-load-on-work-centers.html"/>
+    <Node Name="" DisplayName="Hvernig á að bóka afkastagetu" Page="production-how-to-post-capacities.html"/>
+    <Node Name="" DisplayName="Um lokinn framleiðslupantanakostnað" Page="finance-about-finished-production-order-costs.html"/>
+  </Node>
+  <Node Name="" DisplayName="Vöruhúsastjórnun" Page="warehouse-manage-warehouse.html">
+    <Node Name="" DisplayName="Hvernig á að taka á við vörum" Page="warehouse-how-receive-items.html"/>
+    <Node Name="" DisplayName="Hvernig á að hjáskipa vörur" Page="warehouse-how-to-cross-dock-items.html"/>
+    <Node Name="" DisplayName="Vörufrágangur" Page="warehouse-put-away-items.html"/>
+    <Node Name="" DisplayName="Færa vörur" Page="warehouse-move-items.html"/>
+    <Node Name="" DisplayName="Vörutínsla" Page="warehouse-pick-items.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Afgreiða vörur" Page="warehouse-how-ship-items.html"/>
+  </Node>
+  <Node Name="" DisplayName="Þjónustukerfi" Page="service-service.html">
+    <Node Name="" DisplayName="Áætla þjónustu" Page="service-plan-service.html"/>
+    <Node Name="" DisplayName="Uppfylla þjónustusamninga" Page="service-fulfill-service-contracts.html"/>
+    <Node Name="" DisplayName="Þjónustuafhending" Page="service-deliver-service.html"/>
+  </Node>
+  <Node Name="" DisplayName="Almenn viðskiptavirkni" Page="ui-across-business-areas.html">
+    <Node Name="" DisplayName="Hvernig á að: Setja upp lengda texta" Page="ui-how-define-ext-text.html"/>
+    <Node Name="" DisplayName="Vinna í færslubókum" Page="ui-work-general-journals.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Senda skjöl í tölvupósti" Page="ui-how-send-documents-email.html"/>
+    <Node Name="" DisplayName="Unnið með Skýrslur" Page="ui-work-report.html"/>
+    <Node Name="" DisplayName="Stjórna útliti skýrslna og skjala" Page="ui-manage-report-layouts.html"/>
+    <Node Name="" DisplayName="Skráir breytingar í Business Central" Page="across-log-changes.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Vinna með notendur og heimildir" Page="ui-how-users-permissions.html"/>
+    <Node Name="" DisplayName="Sérstilling Business Central með viðbótum" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Skjöl á innleið" Page="across-income-documents.html">
+      <Node Name="" DisplayName="Hvernig á að: Setja upp skjöl á innleið" Page="across-how-setup-income-documents.html"/>
+      <Node Name="" DisplayName="Vinnsla skjala á innleið" Page="across-process-income-documents.html"/>
+    </Node>
+    <Node Name="" DisplayName="Verkflæði" Page="across-workflow.html">
+      <Node Name="" DisplayName="Uppsetning verkflæðis" Page="across-set-up-workflows.html"/>
+      <Node Name="" DisplayName="Nota verkflæði" Page="across-use-workflows.html"/>
+    </Node>
+    <Node Name="" DisplayName="Rafræn gagnaskipti" Page="across-data-exchange.html">
+      <Node Name="" DisplayName="Um gagnaskiptaramma" Page="across-about-the-data-exchange-framework.html"/>
+      <Node Name="" DisplayName="Setja upp gagnaskipti" Page="across-set-up-data-exchange.html"/>
+      <Node Name="" DisplayName="Gagnaskipti" Page="across-exchange-data.html"/>
+    </Node>
+    <Node Name="" DisplayName="Skilgreinir notandaverk" Page="across-user-tasks.html"/>
+  </Node>
+  <Node Name="" DisplayName="Kynningar á viðskiptaferli" Page="walkthrough-business-process-walkthroughs.html">
+    <Node Name="" DisplayName="Kynning: Framkvæmd söluherferðar" Page="walkthrough-conducting-a-sales-campaign.html"/>
+    <Node Name="" DisplayName="Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu" Page="walkthrough-setting-up-and-invoicing-sales-prepayments.html"/>
+    <Node Name="" DisplayName="Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa" Page="walkthrough-setting-up-and-using-a-purchase-approval-workflow.html"/>
+    <Node Name="" DisplayName="Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Kynning: Móttaka og Frágangur í ítarlegri grunngerð vöruhúss" Page="walkthrough-receiving-and-putting-away-in-advanced-warehousing.html"/>
+    <Node Name="" DisplayName="Kynning: Kynning: Handvirk áætlun birgða" Page="walkthrough-planning-supplies-manually.html"/>
+    <Node Name="" DisplayName="Kynning: Kynning: Sjálfvirk áætlun birgða" Page="walkthrough-planning-supplies-automatically.html"/>
+    <Node Name="" DisplayName="Kynning: Selja, setja saman og afhenda sett" Page="walkthrough-selling-assembling-and-shipping-kits.html"/>
+    <Node Name="" DisplayName="Kynning: Kynning: Stýring verkefna með verkum" Page="walkthrough-managing-projects-with-jobs.html"/>
+    <Node Name="" DisplayName="Kynning: Kynning: Útreikningur á VÍV fyrir verk" Page="walkthrough-calculating-work-in-process-for-a-job.html"/>
+    <Node Name="" DisplayName="Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss" Page="walkthrough-picking-and-shipping-in-basic-warehousing.html"/>
+    <Node Name="" DisplayName="Kynning: Rað-/lotunúmerarakning" Page="walkthrough-tracing-serial-lot-numbers.html"/>
+  </Node>
+  <Node Name="" DisplayName="Hönnunarupplýsingar" Page="design-details-application-design.html">
+    <Node Name="" DisplayName="Hönnunarupplýsingarn: Færslur víddarsamstæða" Page="design-details-dimension-set-entries.html"/>
+    <Node Name="" DisplayName="Hönnunarupplýsingar: framboðsáætlun" Page="design-details-supply-planning.html"/>
+    <Node Name="" DisplayName="Hönnunarupplýsingar: Birgðakostnaður" Page="design-details-inventory-costing.html"/>
+    <Node Name="" DisplayName="Hönnunarupplýsingar vöruhúsakerfi" Page="design-details-warehouse-management.html"/>
+    <Node Name="" DisplayName="Hönnunarupplýsingar: vörurakning" Page="design-details-item-tracking.html"/>
+    <Node Name="" DisplayName="Hönnunarupplýsingar: Bókunarlína færslubókar" Page="design-details-general-journal-post-line.html"/>
+  </Node>
+  <Node Name="" DisplayName="Staðbundin virkni" Page="index.html">
+    <Node Name="" DisplayName="Ástralía" Page="LocalFunctionality/Australia/australia-local-functionality.html"/>
+    <Node Name="" DisplayName="Austurríki" Page="LocalFunctionality/Austria/austria-local-functionality.html"/>
+    <Node Name="" DisplayName="Belgía" Page="LocalFunctionality/Belgium/belgium-local-functionality.html"/>
+    <Node Name="" DisplayName="Kanada" Page="LocalFunctionality/Canada/canada-local-functionality.html"/>
+    <Node Name="" DisplayName="Danmörk" Page="LocalFunctionality/Denmark/denmark-local-functionality.html"/>
+    <Node Name="" DisplayName="Finnland" Page="LocalFunctionality/Finland/finland-local-functionality.html"/>
+    <Node Name="" DisplayName="Frakkland" Page="LocalFunctionality/France/france-local-functionality.html"/>
+    <Node Name="" DisplayName="Þýskaland" Page="LocalFunctionality/Germany/germany-local-functionality.html"/>
+    <Node Name="" DisplayName="Ísland" Page="LocalFunctionality/Iceland/iceland-local-functionality.html"/>
+    <Node Name="" DisplayName="Ítalía" Page="LocalFunctionality/Italy/italy-local-functionality.html"/>
+    <Node Name="" DisplayName="Mexíkó" Page="LocalFunctionality/Mexico/mexico-local-functionality.html"/>
+    <Node Name="" DisplayName="Holland" Page="LocalFunctionality/Netherlands/netherlands-local-functionality.html"/>
+    <Node Name="" DisplayName="Nýja-Sjáland" Page="LocalFunctionality/NewZealand/new-zealand-local-functionality.html"/>
+    <Node Name="" DisplayName="Noregur" Page="LocalFunctionality/Norway/norway-local-functionality.html"/>
+    <Node Name="" DisplayName="Rússland" Page="LocalFunctionality/Russia/russia-local-functionality.html"/>
+    <Node Name="" DisplayName="Spánn" Page="LocalFunctionality/Spain/spain-local-functionality.html"/>
+    <Node Name="" DisplayName="Svíþjóð" Page="LocalFunctionality/Sweden/sweden-local-functionality.html"/>
+    <Node Name="" DisplayName="Sviss" Page="LocalFunctionality/Switzerland/switzerland-local-functionality.html"/>
+    <Node Name="" DisplayName="Bretland" Page="LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.html"/>
+    <Node Name="" DisplayName="Bandaríkin" Page="LocalFunctionality/UnitedStates/united-states-local-functionality.html"/>
+  </Node>
+</Node>

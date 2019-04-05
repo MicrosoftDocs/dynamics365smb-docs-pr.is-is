@@ -1,8 +1,8 @@
 ---
-title: "Nauðsynlegir reitir til að klára vinnslur | Microsoft Docs"
-description: "Kynntu þér reiti sem eru merktir með rauðri stjörnu, sem gefur til kynna að þeir eru nauðsynlegir og það verður að fylla þá út til að klára vinnslu."
+title: Nauðsynlegir reitir til að klára vinnslur | Microsoft Docs
+description: Kynntu þér reiti sem eru merktir með rauðri stjörnu, sem gefur til kynna að þeir eru nauðsynlegir og það verður að fylla þá út til að klára vinnslu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,24 +11,22 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 6778536df70ef70b1e3e67e956768b0a474acd89
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 01e517daea89c5371f95df963831ab8f8d9bf523
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853236"
 ---
-# <a name="mandatory-fields"></a><span data-ttu-id="e74dc-103">Áskildir reitir</span><span class="sxs-lookup"><span data-stu-id="e74dc-103">Mandatory Fields</span></span>
-<span data-ttu-id="e74dc-104">Þegar þú slærð inn gögn á síðum í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru tilteknir reitir merktir með rauðri stjörnu.</span><span class="sxs-lookup"><span data-stu-id="e74dc-104">When you enter data on pages in [!INCLUDE[d365fin](includes/d365fin_md.md)], certain fields are marked with a red asterisk.</span></span> <span data-ttu-id="e74dc-105">Rauða stjarnan merkir að fylla verður reitinn út til að ljúka tilteknu ferli sem notar reitinn, eins og að bóka færslu sem notar gildið í reitnum.</span><span class="sxs-lookup"><span data-stu-id="e74dc-105">The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.</span></span>
+# <a name="detecting-mandatory-fields"></a><span data-ttu-id="57b4e-103">Greina áskilda reiti</span><span class="sxs-lookup"><span data-stu-id="57b4e-103">Detecting Mandatory Fields</span></span>
+<span data-ttu-id="57b4e-104">Þegar þú slærð inn gögn á síðum í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru tilteknir reitir merktir með rauðri stjörnu.</span><span class="sxs-lookup"><span data-stu-id="57b4e-104">When you enter data on pages in [!INCLUDE[d365fin](includes/d365fin_md.md)], certain fields are marked with a red asterisk.</span></span> <span data-ttu-id="57b4e-105">Rauða stjarnan merkir að fylla verður reitinn út til að ljúka tilteknu ferli sem notar reitinn, eins og að bóka færslu sem notar gildið í reitnum.</span><span class="sxs-lookup"><span data-stu-id="57b4e-105">The red asterisk means that the field must be filled to complete a certain process that uses the field, such as posting a transaction that uses the value in the field.</span></span>
 
-<span data-ttu-id="e74dc-106">Jafnvel þótt reiturinn innihaldi rauða stjörnu er ekki nauðsynlegt að fylla út í reitinn áður en haldið er áfram í aðra reiti eða síðunni lokað.</span><span class="sxs-lookup"><span data-stu-id="e74dc-106">Even though the field contains a red asterisk, you are not forced to fill in the field before you continue to other fields or close the page.</span></span> <span data-ttu-id="e74dc-107">Rauða stjarnan er eingöngu áminning um að þú verðir útilokaður frá tilteknu ferli.</span><span class="sxs-lookup"><span data-stu-id="e74dc-107">The red asterisk only serves as a reminder that you will be blocked from completing a certain process.</span></span>
+<span data-ttu-id="57b4e-106">Jafnvel þótt reiturinn innihaldi rauða stjörnu er ekki nauðsynlegt að fylla út í reitinn áður en haldið er áfram í aðra reiti eða síðunni lokað.</span><span class="sxs-lookup"><span data-stu-id="57b4e-106">Even though the field contains a red asterisk, you are not forced to fill in the field before you continue to other fields or close the page.</span></span> <span data-ttu-id="57b4e-107">Rauða stjarnan er eingöngu áminning um að þú verðir útilokaður frá tilteknu ferli.</span><span class="sxs-lookup"><span data-stu-id="57b4e-107">The red asterisk only serves as a reminder that you will be blocked from completing a certain process.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="e74dc-108">Dæmi</span><span class="sxs-lookup"><span data-stu-id="e74dc-108">Examples</span></span>
-<span data-ttu-id="e74dc-109">Á síðunni **Viðskiptamannaspjald** birtist rauða stjarnan í reitnum **Nafn** í **Skattsvæðiskóði** og í bókunarflokkareit til að gefa til kynna að ekki er hægt að bóka sölufærslur fyrir viðskiptamanninn nema reitirnir séu fylltir út.</span><span class="sxs-lookup"><span data-stu-id="e74dc-109">On the **Customer Card** page, the red asterisk appears in the **Name** field, in the **Tax Area Code** field, and in the posting group fields to indicate that you cannot post a sales transaction for the customer unless the fields are filled.</span></span>
+## <a name="examples"></a><span data-ttu-id="57b4e-108">Dæmi</span><span class="sxs-lookup"><span data-stu-id="57b4e-108">Examples</span></span>
+<span data-ttu-id="57b4e-109">Á síðunni **Viðskiptamannaspjald** birtist rauða stjarnan í reitnum **Nafn** í **Skattsvæðiskóði** og í bókunarflokkareit til að gefa til kynna að ekki er hægt að bóka sölufærslur fyrir viðskiptamanninn nema reitirnir séu fylltir út.</span><span class="sxs-lookup"><span data-stu-id="57b4e-109">On the **Customer Card** page, the red asterisk appears in the **Name** field, in the **Tax Area Code** field, and in the posting group fields to indicate that you cannot post a sales transaction for the customer unless the fields are filled.</span></span>
 
-<span data-ttu-id="e74dc-110">Á síðunni **Vöruspjald** birtist rauða stjarnan í reitnum **Lýsing** og til að gefa til kynna að ekki er hægt að færa vöruna inn a skjalalínu, eins og sölupöntun, nema reitirnir séu fylltir út.</span><span class="sxs-lookup"><span data-stu-id="e74dc-110">On the **Item Card** page, the red asterisk appears in the **Description** field to indicate that you cannot enter the item on a document line, such as a sales order, unless this field is filled.</span></span>
+<span data-ttu-id="57b4e-110">Á síðunni **Vöruspjald** birtist rauða stjarnan í reitnum **Lýsing** og til að gefa til kynna að ekki er hægt að færa vöruna inn a skjalalínu, eins og sölupöntun, nema reitirnir séu fylltir út.</span><span class="sxs-lookup"><span data-stu-id="57b4e-110">On the **Item Card** page, the red asterisk appears in the **Description** field to indicate that you cannot enter the item on a document line, such as a sales order, unless this field is filled.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e74dc-111">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="e74dc-111">See Also</span></span>
-<span data-ttu-id="e74dc-112">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e74dc-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
-
-
+## <a name="see-also"></a><span data-ttu-id="57b4e-111">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="57b4e-111">See Also</span></span>
+<span data-ttu-id="57b4e-112">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="57b4e-112">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
