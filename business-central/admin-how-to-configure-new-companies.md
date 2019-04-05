@@ -1,23 +1,23 @@
 ---
-title: "Hvernig á að grunnstilla ný fyrirtæki | Microsoft Docs"
-description: "Hægt er að skilgreina og sérstilla nýtt fyrirtæki sem búið var til. Til að fínstilla innleiðinguna framkvæmirðu grunnstillinguna þína í þremur skrefum."
+title: Hvernig á að grunnstilla ný fyrirtæki | Microsoft Docs
+description: Hægt er að skilgreina og sérstilla nýtt fyrirtæki sem búið var til. Til að fínstilla innleiðinguna framkvæmirðu grunnstillinguna þína í þremur skrefum.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1c953b0a5e1247115b26a8984a632478f80cdda
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800874"
 ---
 # <a name="configure-new-companies"></a>Grunnstilla ný fyrirtæki
 Til að grunnstilla nýtt fyrirtæki innleiðingarlausn þinni er vanalega fylgt eftir þremur áföngum. Í fyrsta áfanganum er grunnstillingarpakkinn fluttur inn, sem er .rapidstart-skrá með grunnstillingarupplýsingum. Í öðrum áfanganum er grunnstillingarupplýsingum breytt og þær notaðar á nýja fyrirtækið. Í lokaáfanganum er farið yfir og villur lagaðar.  
@@ -71,10 +71,9 @@ Allar töflurnar sem búið er að tákna að verði teknar með í nýja fyrirt
     > [!NOTE]  
     >  Ef sami pakki er fluttur inn aftur kann að skrifast yfir breytingar sem þegar hafa verið gerðar á gögnum. Af þeirri ástæðu gæti verið ráðlegt að setja nýjar töflur í nýja pakka og flytja þá inn í staðinn.  
 
-7. Nota gögnin í gagnagrunninum eins og lýst er í kaflanum „Til að breyta og nota gögn pakka.“
+7. Nota gögnin í gagnagrunninum eins og lýst er í [Að breyta og nota gagnapakka](admin-how-to-configure-new-companies.md#to-modify-and-apply-package-data).
 
 ## <a name="see-also"></a>Sjá einnig  
 [Nota skilgreiningu á ný fyrirtæki](admin-apply-configuration-to-new-companies.md)  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)
-

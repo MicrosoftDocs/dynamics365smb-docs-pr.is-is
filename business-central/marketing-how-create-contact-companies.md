@@ -1,8 +1,8 @@
 ---
-title: "Stofna fyrirtækjatengiliði| Microsoft Docs"
-description: "Lýsir því hvernig skal stofna tengilið fyrir hvert nýtt fyrirtæki eða tilvonandi fyrirtæki sem þú átt samskipti við eða ert í sambandi við."
+title: Stofna fyrirtækjatengiliði| Microsoft Docs
+description: Lýsir því hvernig skal stofna tengilið fyrir hvert nýtt fyrirtæki eða tilvonandi fyrirtæki sem þú átt samskipti við eða ert í sambandi við.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,19 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ff585f1a96d509ef317aaaf3671bc91ca46a430a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d607b23f5cd41db8551a61b68be6bf265e85d328
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800870"
 ---
-# <a name="create-contact-companies"></a>Stofna fyrirtækjatengilið
+# <a name="create-contacts"></a>Stofna tengiliði
 Hægt er að stofna tengilið fyrir hvert nýtt fyrirtæki sem notandinn á í samskiptum við, til dæmis viðskiptamann, lánardrottinn, tilvonandi viðskiptamann, banka, lögfræðistofu, ráðgjafa og svo framvegis.
 
 Tvær leiðir eru til að stofna tengilið: frá upphafi eða úr fyrirliggjandi viðskiptamanni, lánadrottni bankareikningi..
-
-Áður en tengiliður er stofnaður er ráðlegt að athuga stillingarnar á síðunni **Tengslastjórnunargrunnur**. Nánari upplýsingar er að finna í [Uppsetning tengslastjórnunar](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Stofna nýtt tengiliðarfyrirtæki frá upphafi
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.
@@ -61,4 +59,3 @@ Hafi þegar verið settur upp fjöldi viðskiptamanna, lánardrottna og bankarei
 [Pósthópum úthlutað á tengiliði](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Stofna einstaklingstengilið](marketing-create-contact-persons.md)  
 [Vinna með Business Central](ui-work-product.md)
-

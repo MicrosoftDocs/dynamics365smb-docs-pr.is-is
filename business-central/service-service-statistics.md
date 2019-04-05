@@ -1,25 +1,24 @@
 ---
-title: "Þjónustuupplýsingar | Microsoft Docs"
-description: "Fáðu snöggt yfirlit yfir innihald alls þjónustuskjalsins, þ.m.t. pantanir, tilboð, reikninga eða kreditreikninga, sundurliðun á ákveðnum þjónustulínum og þjónustuvörur."
+title: Þjónustuupplýsingar | Microsoft Docs
+description: Fáðu snöggt yfirlit yfir innihald alls þjónustuskjalsins, þ.m.t. pantanir, tilboð, reikninga eða kreditreikninga, sundurliðun á ákveðnum þjónustulínum og þjónustuvörur.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800864"
 ---
-
 # <a name="viewing-service-statistics"></a>Þjónustuupplýsingar skoðaðar
 Hægt er að nota tölfræði til að greina þjónustuskjöl og ákvarða hversu vel þú ert að stjórna þjónustuferlunum. Þú getur greint þjónustusamninga, vörur, tilboð, pantanir, reikninga og kreditreikninga með því að velja aðgerðina **Upplýsingar**. Fyrir þjónustuvörur og samninga, geturðu líka notað **Þjónustuvara Trendscape** eða **Samningur Trendscape** til að skoða yfirlit yfir þjónustufærslur fyrir sérstaka þjónustuvöru.   
 
@@ -115,4 +114,3 @@ Hægt er að nota síðuna **Kreditreikningsupplýsingar þjónustu** til þess 
 [Stofna Þjónustupantanir](service-how-to-create-service-orders.md)   
 [Stofna þjónustuatriði](service-how-to-create-service-items.md)   
 [Áætla þjónustu](service-plan-service.md)  
-

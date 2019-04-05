@@ -1,6 +1,6 @@
 ---
-title: "Setja upp söluferla tækifæris og söluþrep| Microsoft Docs"
-description: "Lýsir því hvernig skal skilgreina söluþrep, frá upphaflegum tengilið til lokunar, stofna söluferla og úthluta þeim til tækifæra í Business Central."
+title: Setja upp söluferla tækifæris og söluþrep| Microsoft Docs
+description: Lýsir því hvernig skal skilgreina söluþrep, frá upphaflegum tengilið til lokunar, stofna söluferla og úthluta þeim til tækifæra í Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: jswymer
+ms.openlocfilehash: 0cd630da56c26ff9b21f94a99217f801bc9d23ba
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800872"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Setja upp söluferla tækifæris og söluþrep
 Áður en hægt er að hefja notkun sölutækifæri þarf að setja upp söluferli og þrep söluferla. Söluferli samanstendur af röð þrepa sem fara frá fyrstu samskiptum til lokunar sölu. Hvert þrep hefur ákveðnar kröfur sem uppfylla þarf, til dæmis þarfnast sölutilboð áður en tækifæri getur farið á næsta þrep. Einnig er hægt að tilgreina sleppa megi þrepi. Hægt er að setja upp eins mörg söluferli og þarf, og hægt er að setja upp eins mörg þrep söluferla og þarf innan söluferlis.
 
 Innleiðing söluferla fyrir tækifæri felur í sér að setja upp söluferli, sem skilgreina mismunandi þrep í ferli, og síðan úthluta ferlinu á tækifæri. Úthlutun viðeigandi aðgerð eða verkhlutum til tækifærisins getur líka verið hluti af uppsetningu söluferlis.
 
-Þetta efnisatriði lýsir því líka hvernig skal setja upp verkhluta og aðgerðir og hvernig skal úthluta verkhlutum og aðgerðum. Nánari upplýsingar er að finna í „Að setja upp aðgerðir með verkhlutum" liðnum.
+Þetta efnisatriði lýsir því líka hvernig skal setja upp verkhluta og aðgerðir og hvernig skal úthluta verkhlutum og aðgerðum. Nánari upplýsingar er að finna í [Að setja upp verkþætti með verkum](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Uppsetning söluferlakóða tækifæris
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Söluferli** og veldu síðan tengda tengilinn. Síðan **Söluferli** opnast og birtir lista yfir öll fyrirliggjandi söluferli.
@@ -66,4 +66,3 @@ Eftir að þú bætir við þrepaferli tækifæris geturðu byrjað að bæta vi
 [Meðhöndla sölutækifæri](marketing-processing-sales-opportunities.md)  
 [Sala](sales-manage-sales.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
