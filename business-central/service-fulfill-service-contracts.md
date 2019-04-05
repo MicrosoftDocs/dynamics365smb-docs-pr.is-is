@@ -1,8 +1,8 @@
 ---
-title: "Yfirlit yfir verkhluta til að uppfylla þjónustusamninga | Microsoft Docs"
-description: "Útlistar verkhluta stýringar þjónustusamninga við viðskiptamenn."
+title: Yfirlit yfir verkhluta til að uppfylla þjónustusamninga | Microsoft Docs
+description: Útlistar verkhluta stýringar þjónustusamninga við viðskiptamenn.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,29 +12,28 @@ ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 167610e56db0d6de5a1f84a57c132a842a30b010
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800674"
 ---
-# <a name="fulfilling-service-contracts"></a><span data-ttu-id="551c5-103">Uppfylla þjónustusamninga</span><span class="sxs-lookup"><span data-stu-id="551c5-103">Fulfilling Service Contracts</span></span> 
-<span data-ttu-id="551c5-104">Ein leið til að setja upp þjónustukerfisfyrirtæki er að hafa staðlaða samninga við viðskiptamennina sem lýsa stigi þjónustu og þjónustuvæntingum.</span><span class="sxs-lookup"><span data-stu-id="551c5-104">One way to set up a service management business is to have standard contractual agreements between you and your customers that describe the level of service and the service expectations.</span></span> <span data-ttu-id="551c5-105">Hægt er að stofna samningssniðmát sem innihalda nauðsynlegar upplýsingar, svo sem viðskiptamann, upphafsdagsetningu samnings og reikningstímabil.</span><span class="sxs-lookup"><span data-stu-id="551c5-105">You can create contract templates that include necessary information, such as customer, start date of contract, and invoice period.</span></span>  
+# <a name="fulfilling-service-contracts"></a><span data-ttu-id="b0c39-103">Uppfylla þjónustusamninga</span><span class="sxs-lookup"><span data-stu-id="b0c39-103">Fulfilling Service Contracts</span></span> 
+<span data-ttu-id="b0c39-104">Ein leið til að setja upp þjónustukerfisfyrirtæki er að hafa staðlaða samninga við viðskiptamennina sem lýsa stigi þjónustu og þjónustuvæntingum.</span><span class="sxs-lookup"><span data-stu-id="b0c39-104">One way to set up a service management business is to have standard contractual agreements between you and your customers that describe the level of service and the service expectations.</span></span> <span data-ttu-id="b0c39-105">Hægt er að stofna samningssniðmát sem innihalda nauðsynlegar upplýsingar, svo sem viðskiptamann, upphafsdagsetningu samnings og reikningstímabil.</span><span class="sxs-lookup"><span data-stu-id="b0c39-105">You can create contract templates that include necessary information, such as customer, start date of contract, and invoice period.</span></span>  
   
-<span data-ttu-id="551c5-106">Eftir að sniðmátið hefur verið sett upp er hægt að sérsníða samninginn til að fylgjast með þjónustutíma eða öðrum atriðum sem geta verið ólík milli viðskiptamanna.</span><span class="sxs-lookup"><span data-stu-id="551c5-106">After you set up the template, you can customize the resulting contract to keep track of service hours, or other items that may vary from customer to customer.</span></span> <span data-ttu-id="551c5-107">Einnig er hægt að setja samning upp handvirkt út frá þjónustusamningstilboði.</span><span class="sxs-lookup"><span data-stu-id="551c5-107">You can also set up a contract manually from a service contract quote.</span></span> <span data-ttu-id="551c5-108">Að lokum er hægt að breyta þjónustuverði til að fylgja afsláttum sem tiltekinn viðskiptamaður uppfyllir skilyrði fyrir, með því að tilgreina afsláttarupphæðina í síðunni **Þjónustusamningur**.</span><span class="sxs-lookup"><span data-stu-id="551c5-108">Finally, you can adjust your service pricing to keep track of discounts that a specific customer qualifies for, by specifying the discount amount on the **Service Contract** page.</span></span>  
+<span data-ttu-id="b0c39-106">Eftir að sniðmátið hefur verið sett upp er hægt að sérsníða samninginn til að fylgjast með þjónustutíma eða öðrum atriðum sem geta verið ólík milli viðskiptamanna.</span><span class="sxs-lookup"><span data-stu-id="b0c39-106">After you set up the template, you can customize the resulting contract to keep track of service hours, or other items that may vary from customer to customer.</span></span> <span data-ttu-id="b0c39-107">Einnig er hægt að setja samning upp handvirkt út frá þjónustusamningstilboði.</span><span class="sxs-lookup"><span data-stu-id="b0c39-107">You can also set up a contract manually from a service contract quote.</span></span> <span data-ttu-id="b0c39-108">Að lokum er hægt að breyta þjónustuverði til að fylgja afsláttum sem tiltekinn viðskiptamaður uppfyllir skilyrði fyrir, með því að tilgreina afsláttarupphæðina í síðunni **Þjónustusamningur**.</span><span class="sxs-lookup"><span data-stu-id="b0c39-108">Finally, you can adjust your service pricing to keep track of discounts that a specific customer qualifies for, by specifying the discount amount on the **Service Contract** page.</span></span>  
 
-<span data-ttu-id="551c5-109">Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.</span><span class="sxs-lookup"><span data-stu-id="551c5-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
+<span data-ttu-id="b0c39-109">Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.</span><span class="sxs-lookup"><span data-stu-id="b0c39-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
   
-|<span data-ttu-id="551c5-110">**Til að**</span><span class="sxs-lookup"><span data-stu-id="551c5-110">**To**</span></span>|<span data-ttu-id="551c5-111">**Sjá**</span><span class="sxs-lookup"><span data-stu-id="551c5-111">**See**</span></span>|  
+|<span data-ttu-id="b0c39-110">**Til að**</span><span class="sxs-lookup"><span data-stu-id="b0c39-110">**To**</span></span>|<span data-ttu-id="b0c39-111">**Sjá**</span><span class="sxs-lookup"><span data-stu-id="b0c39-111">**See**</span></span>|  
 |------------|-------------|  
-|<span data-ttu-id="551c5-112">Meðhöndla þjónustuvörur undir mörgum samningum.</span><span class="sxs-lookup"><span data-stu-id="551c5-112">Handle a service item under multiple contracts.</span></span> | [<span data-ttu-id="551c5-113">Margir samningar</span><span class="sxs-lookup"><span data-stu-id="551c5-113">Multiple Contracts</span></span>](service-multiple-contracts.md)|  
-|<span data-ttu-id="551c5-114">Stofna þjónustusamninga annað hvort handvirkt eða út frá þjónustusamningstilboði.</span><span class="sxs-lookup"><span data-stu-id="551c5-114">Create service contracts either manually, or from a service contract quote.</span></span>| [<span data-ttu-id="551c5-115">Búa til þjónustusamninga og þjónustusamningstilboð</span><span class="sxs-lookup"><span data-stu-id="551c5-115">Create Service Contracts and Service Contract Quotes</span></span>](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
-|<span data-ttu-id="551c5-116">Leiðrétta árlega upphæð í þjónustusamningi eða samningstilboði, vertu viss um að reikningsfæra rétta upphæð.</span><span class="sxs-lookup"><span data-stu-id="551c5-116">Adjust the annual amount of a service contract or contract quote, so make sure that you invoice the right amount.</span></span>|[<span data-ttu-id="551c5-117">Breyta árlegri upphæð þjónustusamnings eða samningstilboðs</span><span class="sxs-lookup"><span data-stu-id="551c5-117">Change the Annual Amount on Service Contracts or Contract Quotes</span></span>](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
+|<span data-ttu-id="b0c39-112">Meðhöndla þjónustuvörur undir mörgum samningum.</span><span class="sxs-lookup"><span data-stu-id="b0c39-112">Handle a service item under multiple contracts.</span></span> | [<span data-ttu-id="b0c39-113">Margir samningar</span><span class="sxs-lookup"><span data-stu-id="b0c39-113">Multiple Contracts</span></span>](service-multiple-contracts.md)|  
+|<span data-ttu-id="b0c39-114">Stofna þjónustusamninga annað hvort handvirkt eða út frá þjónustusamningstilboði.</span><span class="sxs-lookup"><span data-stu-id="b0c39-114">Create service contracts either manually, or from a service contract quote.</span></span>| [<span data-ttu-id="b0c39-115">Búa til þjónustusamninga og þjónustusamningstilboð</span><span class="sxs-lookup"><span data-stu-id="b0c39-115">Create Service Contracts and Service Contract Quotes</span></span>](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
+|<span data-ttu-id="b0c39-116">Leiðrétta árlega upphæð í þjónustusamningi eða samningstilboði, vertu viss um að reikningsfæra rétta upphæð.</span><span class="sxs-lookup"><span data-stu-id="b0c39-116">Adjust the annual amount of a service contract or contract quote, so make sure that you invoice the right amount.</span></span>|[<span data-ttu-id="b0c39-117">Breyta árlegri upphæð þjónustusamnings eða samningstilboðs</span><span class="sxs-lookup"><span data-stu-id="b0c39-117">Change the Annual Amount on Service Contracts or Contract Quotes</span></span>](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
 
-## <a name="see-also"></a><span data-ttu-id="551c5-118">Sjá einnig .</span><span class="sxs-lookup"><span data-stu-id="551c5-118">See also</span></span>
-[<span data-ttu-id="551c5-119">Áætla þjónustu</span><span class="sxs-lookup"><span data-stu-id="551c5-119">Planning Service</span></span>](service-plan-service.md)  
-[<span data-ttu-id="551c5-120">Þjónustuafhending</span><span class="sxs-lookup"><span data-stu-id="551c5-120">Delivering Service</span></span>](service-deliver-service.md)  
-[<span data-ttu-id="551c5-121">Þjónustustýring sett upp</span><span class="sxs-lookup"><span data-stu-id="551c5-121">Setting Up Service Management</span></span>](service-setup-service.md)  
-[<span data-ttu-id="551c5-122">Búa til þjónustusamninga og þjónustusamningstilboð</span><span class="sxs-lookup"><span data-stu-id="551c5-122">Create Service Contracts and Service Contract Quotes</span></span>](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
-
+## <a name="see-also"></a><span data-ttu-id="b0c39-118">Sjá einnig .</span><span class="sxs-lookup"><span data-stu-id="b0c39-118">See also</span></span>
+[<span data-ttu-id="b0c39-119">Áætla þjónustu</span><span class="sxs-lookup"><span data-stu-id="b0c39-119">Planning Service</span></span>](service-plan-service.md)  
+[<span data-ttu-id="b0c39-120">Þjónustuafhending</span><span class="sxs-lookup"><span data-stu-id="b0c39-120">Delivering Service</span></span>](service-deliver-service.md)  
+[<span data-ttu-id="b0c39-121">Þjónustustýring sett upp</span><span class="sxs-lookup"><span data-stu-id="b0c39-121">Setting Up Service Management</span></span>](service-setup-service.md)  
+[<span data-ttu-id="b0c39-122">Búa til þjónustusamninga og þjónustusamningstilboð</span><span class="sxs-lookup"><span data-stu-id="b0c39-122">Create Service Contracts and Service Contract Quotes</span></span>](service-how-to-create-service-contracts-and-service-contract-quotes.md)  

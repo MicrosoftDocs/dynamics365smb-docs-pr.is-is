@@ -1,0 +1,36 @@
+---
+title: Framlengja prufuútgáfunni | Microsoft Docs
+description: Ef þú þarft meiri tíma til að ákveða hvort þú gerist áskrifandi geturðu framlengt prufuútgáfunni.
+services: project-madeira
+documentationcenter: ''
+author: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: ''
+ms.date: 01/16/2018
+ms.author: bholtorf
+ms.openlocfilehash: 95a00ec61db3b65b2be729bf0b68da7af960d6ab
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800079"
+---
+# <a name="need-more-time-to-decide-whether-to-subscribe"></a><span data-ttu-id="64a41-103">Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?</span><span class="sxs-lookup"><span data-stu-id="64a41-103">Need More Time to Decide Whether to Subscribe?</span></span>
+<span data-ttu-id="64a41-104">Það er mikilvægt að taka réttar ákvarðanir þegar þú velur viðskiptaforrit og við vitum að það getur tekið tíma að kanna alla kima [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="64a41-104">It's important to make the right decision when choosing a business application, and we know that it can take time to explore all of the corners in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="64a41-105">Ef þú þarft meiri tíma til að gera upp hug þinn getur þú framlengt prufutímanum í aðra 30 daga.</span><span class="sxs-lookup"><span data-stu-id="64a41-105">If you need more time to finish your evaluation you can extend the trial period yourself for another 30 days.</span></span> <span data-ttu-id="64a41-106">Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn.</span><span class="sxs-lookup"><span data-stu-id="64a41-106">When the expiration date for your trial period is approaching we will display a notification to alert you when you sign in.</span></span> <span data-ttu-id="64a41-107">Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum.</span><span class="sxs-lookup"><span data-stu-id="64a41-107">The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period.</span></span> <span data-ttu-id="64a41-108">Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum.</span><span class="sxs-lookup"><span data-stu-id="64a41-108">The extra 30 days start the moment you choose **Extend Trial** in the guide.</span></span>
+
+<span data-ttu-id="64a41-109">Að framlengja prufutímanum sjálf/ur er aðeins hægt að gera í eitt skipti.</span><span class="sxs-lookup"><span data-stu-id="64a41-109">Extending the trial period yourself is a one time-thing though.</span></span> <span data-ttu-id="64a41-110">Þú getur ekki framlengt hann tvisvar sinnum, að minnsta kosti ekki þú sjálf/ur.</span><span class="sxs-lookup"><span data-stu-id="64a41-110">You cannot extend it twice, at least not yourself.</span></span> <span data-ttu-id="64a41-111">Ef þú hefur þegar framlengt tímabilið getur Microsoft samstarfsaðilinn þinn lengt það aftur.</span><span class="sxs-lookup"><span data-stu-id="64a41-111">If you have already extended the period, your Microsoft partner can extend it for you again.</span></span> <span data-ttu-id="64a41-112">Það er einnig aðeins hægt að gera í eitt skipti.</span><span class="sxs-lookup"><span data-stu-id="64a41-112">That's also a one-time thing.</span></span> <span data-ttu-id="64a41-113">Ef þú ert ekki þegar að vinna með samstarfsaðila, þá mun eftirfarandi tengill hjálpa þér að finna einn: [Hafa samband við samstarfsaðila](https://go.microsoft.com/fwlink/?linkid=2038439).</span><span class="sxs-lookup"><span data-stu-id="64a41-113">If you are not already working with a partner, the following link will help you find one: [Contact a partner](https://go.microsoft.com/fwlink/?linkid=2038439).</span></span>
+
+## <a name="what-happens-if-my-trial-period-is-expired"></a><span data-ttu-id="64a41-114">Hvað gerist ef prufutíminn minn rennur út?</span><span class="sxs-lookup"><span data-stu-id="64a41-114">What happens if my trial period is expired?</span></span>
+<span data-ttu-id="64a41-115">Ef fyrsta 30 daga prufutímabilið er útrunnið geturðu framlengt það sjálf/ur og haldið áfram eins og ekkert hafi í skorist.</span><span class="sxs-lookup"><span data-stu-id="64a41-115">If your first 30-day trial period is expired, you can extend it yourself and things will be business as usual.</span></span> <span data-ttu-id="64a41-116">Skráðu þig bara inn í sýnifyrirtækið og byrjaðu leiðbeiningarnar **Framlengja prufutímabil** úr tilkynningum.</span><span class="sxs-lookup"><span data-stu-id="64a41-116">Just sign in to the demonstration company and start the **Extend Trial Period** guide from the notification.</span></span> <span data-ttu-id="64a41-117">Ef þú hefur búið til þitt eigið fyrirtæki skaltu skrá þig út og skráðu þig inn aftur með skilríkjum fyrir það fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="64a41-117">If you have created your own company, sign out and then sign in again with the credentials for that company.</span></span> <span data-ttu-id="64a41-118">Ef framlengda prufutímabilið þitt er útrunnið geturðu fengið [áskrift](https://go.microsoft.com/fwlink/?linkid=828659) að [!INCLUDE[d365fin](includes/d365fin_md.md)] innan 90 daga og haldið áfram að vinna í fyrirtækinu sem þú stofnaðir.</span><span class="sxs-lookup"><span data-stu-id="64a41-118">If your extended trial period is expired, you can [subscribe](https://go.microsoft.com/fwlink/?linkid=828659) to [!INCLUDE[d365fin](includes/d365fin_md.md)] within 90 days and continue working in the company you created.</span></span> <span data-ttu-id="64a41-119">Eftir 90 daga munum við eyða fyrirtækinu þínu og gögnum.</span><span class="sxs-lookup"><span data-stu-id="64a41-119">After 90 days we will delete your company and data.</span></span> 
+
+## <a name="to-extend-your-trial-period"></a><span data-ttu-id="64a41-120">Til að framlengja prufutímabilið</span><span class="sxs-lookup"><span data-stu-id="64a41-120">To extend your trial period</span></span>
+1. <span data-ttu-id="64a41-121">Skráðu þig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="64a41-121">Sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
+2. <span data-ttu-id="64a41-122">Í tilkynningum efst í vinnusvæðinu skal velja **Framlengja prufuáskrift**.</span><span class="sxs-lookup"><span data-stu-id="64a41-122">In the notification at the top of the workspace, choose **Extend Trial**.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="64a41-123">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="64a41-123">See Also</span></span>
+[<span data-ttu-id="64a41-124">Stofna ný fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="64a41-124">Creating New Companies</span></span>](about-new-company.md)  
+[<span data-ttu-id="64a41-125">Aðgangur að forskoðun</span><span class="sxs-lookup"><span data-stu-id="64a41-125">Access to a Preview</span></span>](across-preview.md)  

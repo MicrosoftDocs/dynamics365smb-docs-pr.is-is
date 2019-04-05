@@ -1,48 +1,47 @@
 ---
-title: "Hvernig á að stofna framleiðslupantanahausa | Microsoft Docs"
-description: "Hægt er að búa til framl.pöntun handvirkt og fyrsta skrefið er að búa til framleiðslupöntunarhaus."
+title: Hvernig á að stofna framleiðslupantanahausa | Microsoft Docs
+description: Hægt er að búa til framl.pöntun handvirkt og fyrsta skrefið er að búa til framleiðslupöntunarhaus.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 13d699dbeb8fe2c3979a7b6bd330b14f077d2d3c
-ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799678"
 ---
-# <a name="create-production-order-headers"></a><span data-ttu-id="6b560-103">Gerð framleiðslupantanahausa</span><span class="sxs-lookup"><span data-stu-id="6b560-103">Create Production Order Headers</span></span>
-<span data-ttu-id="6b560-104">Hægt er að búa til framl.pöntun handvirkt og fyrsta skrefið er að búa til framleiðslupöntunarhaus.</span><span class="sxs-lookup"><span data-stu-id="6b560-104">You can create a production order manually, and the first step is to create a production order header.</span></span>
+# <a name="create-production-order-headers"></a><span data-ttu-id="9bb9b-103">Gerð framleiðslupantanahausa</span><span class="sxs-lookup"><span data-stu-id="9bb9b-103">Create Production Order Headers</span></span>
+<span data-ttu-id="9bb9b-104">Hægt er að búa til framl.pöntun handvirkt og fyrsta skrefið er að búa til framleiðslupöntunarhaus.</span><span class="sxs-lookup"><span data-stu-id="9bb9b-104">You can create a production order manually, and the first step is to create a production order header.</span></span>
 
-<span data-ttu-id="6b560-105">Framleiðslupantanir eru vanalega stofnaðar sjálfvirkt af áætlanaaðgerð til að uppfylla þekkta eftirspurn.</span><span class="sxs-lookup"><span data-stu-id="6b560-105">Production orders are typically created automatically by a planning function to fulfill a known demand.</span></span> <span data-ttu-id="6b560-106">Nánari upplýsingar er að finna í [áætlanagerð](production-planning.md).</span><span class="sxs-lookup"><span data-stu-id="6b560-106">For more information, see [Planning](production-planning.md).</span></span>   
+<span data-ttu-id="9bb9b-105">Framleiðslupantanir eru vanalega stofnaðar sjálfvirkt af áætlanaaðgerð til að uppfylla þekkta eftirspurn.</span><span class="sxs-lookup"><span data-stu-id="9bb9b-105">Production orders are typically created automatically by a planning function to fulfill a known demand.</span></span> <span data-ttu-id="9bb9b-106">Nánari upplýsingar er að finna í [áætlanagerð](production-planning.md).</span><span class="sxs-lookup"><span data-stu-id="9bb9b-106">For more information, see [Planning](production-planning.md).</span></span>   
 
-<span data-ttu-id="6b560-107">Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er búin til.</span><span class="sxs-lookup"><span data-stu-id="6b560-107">In the following procedure, a firm planned production order is created.</span></span> <span data-ttu-id="6b560-108">Einnig er hægt að búa til framl.pantanir með mismunandi stöðu.</span><span class="sxs-lookup"><span data-stu-id="6b560-108">You can also create production orders with a different status.</span></span>  
+<span data-ttu-id="9bb9b-107">Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er búin til.</span><span class="sxs-lookup"><span data-stu-id="9bb9b-107">In the following procedure, a firm planned production order is created.</span></span> <span data-ttu-id="9bb9b-108">Einnig er hægt að búa til framl.pantanir með mismunandi stöðu.</span><span class="sxs-lookup"><span data-stu-id="9bb9b-108">You can also create production orders with a different status.</span></span>  
 
-## <a name="to-create-a-production-order-header"></a><span data-ttu-id="6b560-109">Gerð framleiðslupantanahausa:</span><span class="sxs-lookup"><span data-stu-id="6b560-109">To create a production order header</span></span>  
-1.  <span data-ttu-id="6b560-110">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pantanir** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="6b560-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="6b560-111">Valið er **Nýtt** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="6b560-111">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="6b560-112">Í reitnum **númer**</span><span class="sxs-lookup"><span data-stu-id="6b560-112">In the **No.**</span></span> <span data-ttu-id="6b560-113">er sett næsta númer í röðinni.</span><span class="sxs-lookup"><span data-stu-id="6b560-113">field, insert the next number in the series.</span></span>  
-4.  <span data-ttu-id="6b560-114">Uppruni framleiðslupöntunarinnar er valinn í reitnum **Tegund uppruna** .</span><span class="sxs-lookup"><span data-stu-id="6b560-114">In the **Source Type** field, select the source of the production order.</span></span>
+## <a name="to-create-a-production-order-header"></a><span data-ttu-id="9bb9b-109">Gerð framleiðslupantanahausa:</span><span class="sxs-lookup"><span data-stu-id="9bb9b-109">To create a production order header</span></span>  
+1.  <span data-ttu-id="9bb9b-110">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pantanir** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="9bb9b-110">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Firm Planned Prod. Orders**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="9bb9b-111">Valið er **Nýtt** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="9bb9b-111">Choose the **New** action.</span></span>  
+3.  <span data-ttu-id="9bb9b-112">Í reitnum **númer**</span><span class="sxs-lookup"><span data-stu-id="9bb9b-112">In the **No.**</span></span> <span data-ttu-id="9bb9b-113">er sett næsta númer í röðinni.</span><span class="sxs-lookup"><span data-stu-id="9bb9b-113">field, insert the next number in the series.</span></span>  
+4.  <span data-ttu-id="9bb9b-114">Uppruni framleiðslupöntunarinnar er valinn í reitnum **Tegund uppruna** .</span><span class="sxs-lookup"><span data-stu-id="9bb9b-114">In the **Source Type** field, select the source of the production order.</span></span>
 
-    <span data-ttu-id="6b560-115">Hér geturðu valið að framleiða fyrir samsafn af vörum.</span><span class="sxs-lookup"><span data-stu-id="6b560-115">Here you can select to produce for a family of items.</span></span> <span data-ttu-id="6b560-116">Nánari upplýsingar eru í [Vinna með framleiðslusamsafn](production-how-work-family.md).</span><span class="sxs-lookup"><span data-stu-id="6b560-116">For more information, see [Work With Production Families](production-how-work-family.md).</span></span>
-5.  <span data-ttu-id="6b560-117">Í reitinn **Nr.** er valið vörunúmer, fjölskylda eða söluhaus sem búa á til þjónustupöntunina fyrir.</span><span class="sxs-lookup"><span data-stu-id="6b560-117">In the **Source No.** field, select the item number, family, or sales header for which the production order is to be generated.</span></span>  
-6.  <span data-ttu-id="6b560-118">Reitirnir **Magn** og **Gjalddagi** eru fylltir út í samræmi við óskir notandans.</span><span class="sxs-lookup"><span data-stu-id="6b560-118">Fill in the **Quantity** and **Due Date** fields according to your specifications.</span></span>  
+    <span data-ttu-id="9bb9b-115">Hér geturðu valið að framleiða fyrir samsafn af vörum.</span><span class="sxs-lookup"><span data-stu-id="9bb9b-115">Here you can select to produce for a family of items.</span></span> <span data-ttu-id="9bb9b-116">Nánari upplýsingar eru í [Vinna með framleiðslusamsafn](production-how-work-family.md).</span><span class="sxs-lookup"><span data-stu-id="9bb9b-116">For more information, see [Work With Production Families](production-how-work-family.md).</span></span>
+5.  <span data-ttu-id="9bb9b-117">Í reitinn **Nr.** er valið vörunúmer, fjölskylda eða söluhaus sem búa á til þjónustupöntunina fyrir.</span><span class="sxs-lookup"><span data-stu-id="9bb9b-117">In the **Source No.** field, select the item number, family, or sales header for which the production order is to be generated.</span></span>  
+6.  <span data-ttu-id="9bb9b-118">Reitirnir **Magn** og **Gjalddagi** eru fylltir út í samræmi við óskir notandans.</span><span class="sxs-lookup"><span data-stu-id="9bb9b-118">Fill in the **Quantity** and **Due Date** fields according to your specifications.</span></span>  
 
-<span data-ttu-id="6b560-119">Þegar framleiðsluskilyrði breytast, eins og t.d. íhlutir eða aðgerðir, geturðu snögglega enduráætlað framleiðslupöntunina.</span><span class="sxs-lookup"><span data-stu-id="6b560-119">When production requirements change, such as components or operations, you can quickly replan the production order.</span></span> <span data-ttu-id="6b560-120">Frekari upplýsingar, sjá [Enduráætla eða uppfæra framleiðslupantanir beint](production-how-to-replan-refresh-production-orders.md).</span><span class="sxs-lookup"><span data-stu-id="6b560-120">For more information, see [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md).</span></span> 
+<span data-ttu-id="9bb9b-119">Þegar framleiðsluskilyrði breytast, eins og t.d. íhlutir eða aðgerðir, geturðu snögglega enduráætlað framleiðslupöntunina.</span><span class="sxs-lookup"><span data-stu-id="9bb9b-119">When production requirements change, such as components or operations, you can quickly replan the production order.</span></span> <span data-ttu-id="9bb9b-120">Frekari upplýsingar, sjá [Enduráætla eða uppfæra framleiðslupantanir beint](production-how-to-replan-refresh-production-orders.md).</span><span class="sxs-lookup"><span data-stu-id="9bb9b-120">For more information, see [Replan or Refresh Production Orders Directly](production-how-to-replan-refresh-production-orders.md).</span></span> 
 
-## <a name="see-also"></a><span data-ttu-id="6b560-121">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="6b560-121">See Also</span></span>  
-<span data-ttu-id="6b560-122">[Framleiðsla](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="6b560-122">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="6b560-123">Uppsetning framleiðslu</span><span class="sxs-lookup"><span data-stu-id="6b560-123">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="6b560-124">[Áætlun](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="6b560-124">[Planning](production-planning.md)    </span></span>  
-[<span data-ttu-id="6b560-125">Birgðir</span><span class="sxs-lookup"><span data-stu-id="6b560-125">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="6b560-126">Innkaup</span><span class="sxs-lookup"><span data-stu-id="6b560-126">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="6b560-127">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6b560-127">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
-
+## <a name="see-also"></a><span data-ttu-id="9bb9b-121">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="9bb9b-121">See Also</span></span>  
+<span data-ttu-id="9bb9b-122">[Framleiðsla](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="9bb9b-122">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="9bb9b-123">Uppsetning framleiðslu</span><span class="sxs-lookup"><span data-stu-id="9bb9b-123">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="9bb9b-124">[Áætlun](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="9bb9b-124">[Planning](production-planning.md)    </span></span>  
+[<span data-ttu-id="9bb9b-125">Birgðir</span><span class="sxs-lookup"><span data-stu-id="9bb9b-125">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="9bb9b-126">Innkaup</span><span class="sxs-lookup"><span data-stu-id="9bb9b-126">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="9bb9b-127">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9bb9b-127">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
