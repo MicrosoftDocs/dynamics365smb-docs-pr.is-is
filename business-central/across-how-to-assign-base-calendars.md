@@ -1,23 +1,23 @@
 ---
-title: "Hvernig á að setja upp grunndagatal | Microsoft Docs"
-description: "Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, birgjum og stöðvum grunndagatali. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu."
+title: Hvernig á að setja upp grunndagatal | Microsoft Docs
+description: Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, birgjum og stöðvum grunndagatali. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b00871f4074af32500678642cae63850956bfce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800316"
 ---
 # <a name="set-up-base-calendars"></a>Setja upp grunndagatöl
 Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, birgjum og stöðvum grunndagatali. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu. Þegar nýtt grunndagatal er sett upp felst meginverkefnið í að tilgreina og skilgreina þá frídaga sem eiga að gilda.  
@@ -41,7 +41,7 @@ Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, bi
 
 > [!IMPORTANT]  
 >  Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageymsluna hefur áhrif á það hvernig dagsetningarnar eru reiknaðar út og sléttaðar til virkra daga.
-Tilgreinir dagsetningarformúlu fyrir þann tíma sem það tekur að fylla á vöruna. Hann er notaður til að reikna reitinn **Áætluð dagsetning innhreyfingar** ef reiknað er út áfram og reitinn **Pöntunardagsetning** ef reiknað er út afturábak. Sjá hlutann „Útreiknaður afhendingartími“.
+Tilgreinir dagsetningarformúlu fyrir þann tíma sem það tekur að fylla á vöruna. Hann er notaður til að reikna reitinn **Áætluð dagsetning innhreyfingar** ef reiknað er út áfram og reitinn **Pöntunardagsetning** ef reiknað er út afturábak. Sjá [Útreikn. afhendingartíma](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Útreikn. afhendingartíma
 Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageymsluna hefur áhrif á það hvernig dagsetningarnar eru reiknaðar út og sléttaðar til virkra daga. Í samræmi við það eru dagsetningarreitirnir tveir í innkaupapöntunarlínunum reiknaðir á eftirfarandi hátt við ólík skilyrði.
@@ -55,7 +55,7 @@ Hvers kyns grunndagatal sem skilgreint er fyrir lánadrottininn eða birgðageym
 > Auk útreiknings afhendingartíma sem hefur áhrif á ráðgerða móttökudagsetningu og pöntunardagsetningu, eins og sýnt er í töflunni hér að ofan, getur afgreiðslutíma vöruhúss og öryggisforskoti verið bætt við reiknireglurnar sem reikna gildið í reitnum **Áætluð dagsetning innhreyfingar**, sem hér segir: Ráðgerð dagsetning innhreyfingar + öryggisforskot + á innleið afgreiðslutími vöruhúss  = Áætluð dagsetning innhreyfingar.
 
 > [!Important]
-> Ef birgðageymslan notar dagatal sem er mjög frábrugðið dagatali lánardrottna er mikilvægt að setja upp sérstök dagatöl fyrir þá lánardrottna til að reikna réttan afhendingartíma. Upplýsingar um hvernig á að setja upp dagatöl lánardrottna eru að finna í hlutanum „Úthlutun grunndagatals“.
+> Ef birgðageymslan notar dagatal sem er mjög frábrugðið dagatali lánardrottna er mikilvægt að setja upp sérstök dagatöl fyrir þá lánardrottna til að reikna réttan afhendingartíma. Upplýsingar um hvernig á að setja upp dagatöl lánardrottna eru að finna í [Úthlutun grunndagatals](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
 
 Innihald **Biðtími Útreikningur** reitsins er afritað annað hvort úr birgðaspjaldinu eða birgðahaldseiningarspjaldinu, ef biðtími er skilgreindur fyrir vöruna, eða á síðunni **Vörulisti lánardrottins**, ef biðtíminn er skilgreindur fyrir lánardrottin.
 
@@ -119,4 +119,3 @@ Grunndagatöl eru tengd fyrirtæki notanda, viðskiptamönnum, lánardrottnum, b
 [Framleiðsla](production-manage-manufacturing.md)    
 [Birgðir](inventory-manage-inventory.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

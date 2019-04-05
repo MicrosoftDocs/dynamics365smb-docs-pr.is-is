@@ -1,6 +1,6 @@
 ---
-title: "Hönnunarupplýsingar - Vörujöfnun | Microsoft Docs"
-description: "Þetta efnisatriði lýsir því hvar birgðamagn og virði eru skráð þegar þú bókar birgðafærslu."
+title: Hönnunarupplýsingar - Vörujöfnun | Microsoft Docs
+description: Þetta efnisatriði lýsir því hvar birgðamagn og virði eru skráð þegar þú bókar birgðafærslu.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 12/21/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
-ms.contentlocale: is-is
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799939"
 ---
 # <a name="design-details-item-application"></a>Hönnunarupplýsingar: umsókn vöru
 Þegar þú bókar birgðafærslu er bókunarmagnið skráð í birgðabókarfærslurnar en bókun virðis í virðisfærslur. Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðabókun](design-details-inventory-posting.md)  
@@ -248,4 +248,3 @@ Vegna þess hvernig kostnaðarverð er reiknað út gæti skökk birgðajöfnun 
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

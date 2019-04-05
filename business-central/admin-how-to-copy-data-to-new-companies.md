@@ -1,23 +1,23 @@
 ---
-title: "Hvernig á að afrita gögn yfir í ný fyrirtæki | Microsoft Docs"
-description: "Hægt er að afrita títt notuð gildi úr fyrirliggjandi fyrirtæki í nýtt, svo fremi sem bæði fyrirtæki séu í saman gagnagrunni. Til dæmis, ef notandi er með staðlaðan lista yfir einkennakóta sem eru sameiginlegir öllum þjónustustjórnunarinnleiðingum, er hægt að afrita kótann auðveldlega frá einu fyrirtæki til annars."
+title: Hvernig á að afrita gögn yfir í ný fyrirtæki | Microsoft Docs
+description: Hægt er að afrita títt notuð gildi úr fyrirliggjandi fyrirtæki í nýtt, svo fremi sem bæði fyrirtæki séu í saman gagnagrunni. Til dæmis, ef notandi er með staðlaðan lista yfir einkennakóta sem eru sameiginlegir öllum þjónustustjórnunarinnleiðingum, er hægt að afrita kótann auðveldlega frá einu fyrirtæki til annars.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800702"
 ---
 # <a name="copy-data-to-new-companies"></a>Afrita gögn yfir í ný fyrirtæki
 Hægt er að afrita títt notuð gildi úr fyrirliggjandi fyrirtæki í nýtt, svo fremi sem bæði fyrirtæki séu í saman gagnagrunni. Til dæmis, ef notandi er með staðlaðan lista yfir einkennakóta sem eru sameiginlegir öllum þjónustustjórnunarinnleiðingum, er hægt að afrita kótann auðveldlega frá einu fyrirtæki til annars.  
@@ -33,4 +33,3 @@ Hægt er að afrita títt notuð gildi úr fyrirliggjandi fyrirtæki í nýtt, s
 [Nota skilgreiningu á ný fyrirtæki](admin-apply-configuration-to-new-companies.md)  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Úrræðaleita vandamál með innskráningu í sjálfsafgreiðslu | Microsoft Docs"
-description: "Kynntu þér algengustu ástæðurnar fyrir því af hverju þú getur hugsanlega ekki klárað innskráningu í Business Central, og hvernig hægt er að vinna í kringum þær."
+title: Úrræðaleita vandamál með innskráningu í sjálfsafgreiðslu | Microsoft Docs
+description: Kynntu þér algengustu ástæðurnar fyrir því af hverju þú getur hugsanlega ekki klárað innskráningu í Business Central, og hvernig hægt er að vinna í kringum þær.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 1774492a94b271843ff5ae5bdd11ad285f48c7a3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: de07dac85b9e24f50eb60570630feb6199089ec4
-ms.contentlocale: is-is
-ms.lasthandoff: 07/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800016"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Úrræðaleit innskráning í sjálfsafgreiðslu
 Innskráning fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] er auðvelt og er hægt að gera mjög skjótan hátt. Hægt er að stofna reikning án endurgjalds jafnvel þó að þú sért fyrirtæki sem þegar er til. Þessi grein fjallar um vandamál sem gætu komið upp við innskráningu.
@@ -33,7 +33,7 @@ Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gef
 | Persónulegir tölvupóstfang eins og nancy@gmail.com eru ekki studd. Þú færð skilaboð eins og þessi við innskráningu:<br /><br />**Þú færðir inn einka tölvupóstfang: vinsamlegast færðu inn vinnutölvupóstfang svo við getum geymt gögn fyrirtækis þíns á öruggan hátt.**<br> Eða <br> **Það lítur út eins og persónulegt netfang. Færðu inn póstfang svo við getum tengt þig við aðra í fyrirtækinu. Og ekki hafa áhyggjur. Við munum ekki deila netfanginu þínu með neinum.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Til að klára innskráninguna, reyndu aftur með því að nota tölvupóstfang sem þér var úthlutað af skólanum eða vinnunni. Ef þú getur enn ekki skrá sig og ert tilbúin/n til að ljúka ítarlegra uppsetningarferli, getur þú skrá sig fyrir nýjum Office 365 prufuáskrift og nota það netfang til að skrá þig inn. |
 | .gov eða .mil tölvupóstfang Þú færð skilaboð eins og eftirfarandi við innskráningu:<br /><br />**[!INCLUDE[d365fin](includes/d365fin_md.md)] ótiltækt: [!INCLUDE[d365fin](includes/d365fin_md.md)] er ekki tiltækt fyrir notendur með .gov eða .mil tölvupóst eins og stendur. Notaðu annað vinnu tölvupóstfang eða athugaðu aftur seinna.** <br>Eða <br>**Við getum ekki lokið við að skrá þig. Það lítur út fyrir að [!INCLUDE[d365fin](includes/d365fin_md.md)] er ekki í boði fyrir vinnu þína eða skóla.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki þennan .gov eða .mil póstföng eins og stendur. |
 | Sjálfsafgreiðslu innskráning er ekki virkjuð. Þú færð skilaboð eins og þessi við innskráningu:<br /><br />**Við getum ekki lokið við að skrá þig. Tölvudeildin þín hefur slökkt á skráningu fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hafðu samband við þá til að ljúka skráningu.** <br>Eða <br> **Það lítur út eins og persónulegt netfang. Færðu inn póstfang svo við getum tengt þig við aðra í fyrirtækinu. Og ekki hafa áhyggjur. Við munum ekki deila netfanginu þínu með neinum.** |Þjónustustjóri fyrirtækisins þíns hefur gert sjálfvirka skráningu óvirka fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til að klára innskráninguna, hafðu samband við tæknistjóra og biddu þá um að fara að leiðbeiningunum í síðunni fyrir neðan til að leyfa fyrirliggjandi notendum að innskrá sig í [!INCLUDE[d365fin](includes/d365fin_md.md)] og leyfa nýjum notendum að ganga til liðs við núverandi leigjanda. Þú gætir einnig upplifað þetta vandamál ef þú skráðir þig í Office 365 í gegnum félaga. |
-| Tölvupóstfang er ekki Office 365 kenni. Þú færð skilaboð eins og þessi við innskráningu:<br /><br />**Við getum ekki fundið þig á contoso.com. Notarðu annað auðkenni í vinnunni eða skólanum? Prófaðu að skrá þig inn og ef það virkar ekki skaltu hafa samband við tæknideildina þína.** |Fyrirtæki þitt notar kenni til að skrá sig inn í Office 365 og aðrar Microsoft þjónustur, sem eru aðrar en tölvupóstfang þitt. Til dæmis gæti netfangið þitt verið Nancy.Smith@contoso.com en auðkenni þitt nancys@contoso.com. Til að ljúka við innskráningu, notaðu kenni sem fyrirtæki þitt hefur úthlutað til að skrá sig inn í Office 365 eða aðrar Microsoft þjónustur. Ef þú veist ekki hvað það er, hafðu samband við tæknistjórann þinn. Ef þú getur enn ekki skrá sig og getur lokið ítarlegra uppsetningarferli, getur þú skrá sig fyrir nýjum Office 365 prufuáskrift og nota það netfang til að skrá þig inn. |
+| Tölvupóstfang er ekki Office 365 kenni. Þú færð skilaboð eins og þessi við innskráningu:<br /><br />**Við getum ekki fundið þig á contoso.com. Notarðu annað auðkenni í vinnunni eða skólanum? Prófaðu að skrá þig inn og ef það virkar ekki skaltu hafa samband við tæknideildina þína.** |Fyrirtæki þitt notar kenni til að skrá sig inn í Office 365 og aðrar Microsoft þjónustur, sem eru aðrar en tölvupóstfang þitt. Til dæmis gætu þitt tölvupóstfang verið Nancy.Smith@contoso.com en Notandakenni er nancys@contoso.com. Til að ljúka við innskráningu, notaðu kenni sem fyrirtæki þitt hefur úthlutað til að skrá sig inn í Office 365 eða aðrar Microsoft þjónustur. Ef þú veist ekki hvað það er, hafðu samband við tæknistjórann þinn. Ef þú getur enn ekki skrá sig og getur lokið ítarlegra uppsetningarferli, getur þú skrá sig fyrir nýjum Office 365 prufuáskrift og nota það netfang til að skrá þig inn. |
 | Ef Office 365 reikningurinn þinn er skráður í studdu land og þú ert að skrá þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] á meðan í öðru landi færðu skilaboð eins og eftirfarandi við innskráningu:<br /><br />**Þetta gekk ekki, við styðjum ekki land þitt eða svæði enn.**| Office 365 áskrift fyrirtækis þíns er skráð í tiltekið land í Office 365 stjórnunargáttinni. Upplifun innskráningar fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] notar tungumálið og landsstaðalinn sem núverandi vafri notar og þar af leiðandi geturðu fengið villuboðin þótt þú sért í studdu landi. Spurðu kerfisstjóra til að sannreyna land sem er tilgreint í forstillingu fyrirtækis í [Office 365 stjórnunargáttinni](https://portal.office.com/adminportal/home#/companyprofile). Ef til vill þarf að nota annan reikning fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 
 ## <a name="regional-availability"></a>Svæði í boði
@@ -63,4 +63,3 @@ Til að sjá lista yfir markaði sem nú eru studdir skal skoða skyggnuna [Alþ
 [Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Staðbundin virkni](about-localization.md)  
-

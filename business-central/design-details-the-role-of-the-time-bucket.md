@@ -1,24 +1,24 @@
 ---
-title: "Hönnunarupplýsingar - Hlutverk tímarammi | Microsoft Docs"
-description: "Tilgangurinn með tímarammanum er að safna saman eftirspurnartilvikum innan tímasíðunnar til að útbúa sameiginlega birgðapöntun."
+title: Hönnunarupplýsingar - Hlutverk tímarammi | Microsoft Docs
+description: Tilgangurinn með tímarammanum er að safna saman eftirspurnartilvikum innan tímasíðunnar til að útbúa sameiginlega birgðapöntun.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: ff748a192d8d1650a708ab70ec33ccc7bfd53c48
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799966"
 ---
 # <a name="design-details-the-role-of-the-time-bucket"></a>Hönnunarupplýsingar: Hlutverk tímaramma
 Tilgangurinn með tímarammanum er að safna saman eftirspurnartilvikum innan tímasíðunnar til að útbúa sameiginlega birgðapöntun.  
@@ -36,4 +36,3 @@ Tilgangurinn með tímarammanum er að safna saman eftirspurnartilvikum innan t�
  [Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)   
  [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
  [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)
-

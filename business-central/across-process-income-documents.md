@@ -1,8 +1,8 @@
 ---
-title: "Vinnsla skjala á innleið | Microsoft Docs"
-description: "Til að skrá ytra skjal, eins og t.d. PDF, í Business Central, verður fyrst að stofna eða ljúka við færslu skjals á innleið."
+title: Vinnsla skjala á innleið | Microsoft Docs
+description: Til að skrá ytra skjal, eins og t.d. PDF, í Business Central, verður fyrst að stofna eða ljúka við færslu skjals á innleið.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 62400d6e5f6e67aca59ce836e9f20400e7b37635
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800777"
 ---
 # <a name="processing-incoming-documents"></a>Vinnsla skjala á innleið
 Til að skrá ytra skjal í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður fyrst að stofna eða ljúka við færslu fyrir skjal á innleið. Þú getur gert þetta með handvirkt, eða þú getur tekið mynd af ytra skjal og síðan að búa til skjal á innleið með myndaskrá í viðhengi.
@@ -36,4 +36,3 @@ Til að skrá ytra skjal í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður 
 [Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

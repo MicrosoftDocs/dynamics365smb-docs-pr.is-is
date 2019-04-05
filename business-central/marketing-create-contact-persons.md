@@ -1,6 +1,6 @@
 ---
-title: "Stofna einstaklingstengiliði| Microsoft Docs"
-description: "Útskýrir hvað felst í verkhlutanum að setja upp tengiliðaspjald fyrir einstakling, til dæmis viðfang eða birgja, og hjálpar til við að skilgreina sambandið og móta samskiptin."
+title: Stofna einstaklingstengiliði| Microsoft Docs
+description: Útskýrir hvað felst í verkhlutanum að setja upp tengiliðaspjald fyrir einstakling, til dæmis viðfang eða birgja, og hjálpar til við að skilgreina sambandið og móta samskiptin.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 871e2c2fe75d5c14299651ab278aee9140430d19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
-ms.contentlocale: is-is
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799737"
 ---
 # <a name="creating-contact-persons"></a>Einstaklingstengiliðir stofnaðir
 Tengiliður er stofnaður með því að setja upp tengiliðaspjald fyrir einstaklinginn. Hægt er að stofna einstaklingstengiliði úr fyrirtækjatengiliðum sem þegar eru til, eða stofna sjálfstæða einstaklingstengiliði.
@@ -44,8 +45,6 @@ Hægt er að stofna tengiliðaspjald fyrir hvern tengilið sem vinnur hjá fyrir
 >   Efni reitanna sem voru valdir á hlutanum **erfðir** á síðunni **uppsetning markaðssetningar** er afritað úr fyrirtæki til einstaklinga innan þess fyrirtækis.
 
 ## <a name="see-also"></a>Sjá einnig
-[Fyrirtækjatengiliðir stofnaðir](marketing-create-contact-companies.md)  
-[Einstaklingstengiliðir stofnaðir](marketing-create-contact-persons.md)  
+[Stofna tengiliði](marketing-create-contact-companies.md)  
 [Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)  
 [Vinna með Business Central](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Vinna með skjöl á innleið| Microsoft Docs"
-description: "Hægt er að stjórna ytri viðskiptaskjölum á innleið, eins og greiðslukvittunum og PDF skrám, stjórna OCR verkum, og umbreyta skrám yfir í rafræn skjöl og færslur."
+title: Vinna með skjöl á innleið| Microsoft Docs
+description: Hægt er að stjórna ytri viðskiptaskjölum á innleið, eins og greiðslukvittunum og PDF skrám, stjórna OCR verkum, og umbreyta skrám yfir í rafræn skjöl og færslur.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 989fff07cb0608b8dbf6611a39163fc3cfe31459
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799439"
 ---
 # <a name="incoming-documents"></a>Skjöl á innleið
 Sumar viðskiptafærslur eru ekki skráðar í [!INCLUDE[d365fin](includes/d365fin_md.md)] upphaflega. Þess í stað ytri viðskipti skjal kemur í þitt fyrirtæki sem viðhengi eða pappír eintak sem þú grannskoða til skrá. Þetta er dæmigert við innkaup, þar sem slíkar skrár standa fyrir reikninga frá lánardrottnum eða greiðslukvittanir fyrir kostnað eða smáinnkaup.
@@ -47,4 +47,3 @@ Ferlið vegna skjal á innleið getur samanstaðið af eftirfarandi aðgerðir:
 ## <a name="see-also"></a>Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

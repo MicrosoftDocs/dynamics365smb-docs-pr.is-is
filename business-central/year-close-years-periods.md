@@ -1,8 +1,8 @@
 ---
-title: "Loka fjárhagsári og fjárhagstímabilum | Microsoft Docs"
-description: "Útskýrir verkhlutana sem felast í því að loka fjárhagsári og fjárhagstímabili, til dæmis að ganga úr skugga um að skjöl og færslubækur séu bókuð og staðfesta bankareikningsstöðu."
+title: Loka fjárhagsári og fjárhagstímabilum | Microsoft Docs
+description: Útskýrir verkhlutana sem felast í því að loka fjárhagsári og fjárhagstímabili, til dæmis að ganga úr skugga um að skjöl og færslubækur séu bókuð og staðfesta bankareikningsstöðu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799490"
 ---
 # <a name="closing-years-and-periods"></a>Loka árum og tímabilum
 Í lok reikningsársins verður að inna af hendi tiltekin stjórnunarverk, eins og að ganga úr skugga um að skjöl og færslubækur eru bókaðar, ganga úr skugga um að gjaldmiðilsgögn eru dagfærð, loka bókhaldi, og meira. Raunverulegt verk fara eftir fyrirtækinu.
@@ -42,4 +42,3 @@ Eftirfarandi tafla birtir yfirlit yfir verkhluta sem eru yfirleitt framkvæmdir 
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

@@ -1,23 +1,23 @@
 ---
-title: "Hönnunarupplýsingar - Vörurakning | Microsoft Docs"
-description: "Í þessu efnisatriði er að finna yfirlit yfir hönnunarupplýsingar fyrir vörurakningu."
+title: Hönnunarupplýsingar - Vörurakning | Microsoft Docs
+description: Í þessu efnisatriði er að finna yfirlit yfir hönnunarupplýsingar fyrir vörurakningu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/12/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799615"
 ---
 # <a name="design-details-item-tracking"></a>Hönnunarupplýsingar: vörurakning
 Með sífellt flóknara flæði vara í framboðskeðjum nú til dags eykst mikilvægi þess fyrirtæki að geta rakið vörur. Vöktun færsluflæði vöru lagaleg krafa fyrir birgja í heilbrigðis- og íðefnageiranum en í öðrum rekstri kann að vera gott að vakta vörur með ábyrgðir eða lokadag vegna þjónustu  við viðskiptamenn.  
@@ -33,4 +33,3 @@ Vörurakningarkerfi á að auðvelda fyrirtæki afgreiðslu á rað- og lotunúm
 [Hönnunarupplýsingar: vörurakning og áætlun](design-details-item-tracking-and-planning.md)  
 [Hönnunarupplýsingar: vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
 [Hönnunarupplýsingar: vörurakning í vöruhúsi](design-details-item-tracking-in-the-warehouse.md)
-

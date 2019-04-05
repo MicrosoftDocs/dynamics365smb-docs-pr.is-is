@@ -1,24 +1,24 @@
 ---
-title: "Hönnunarupplýsingar - Lota fyrir lotu | Microsoft Docs"
-description: "Lærið að nota lota fyrir lotu regluna til að gera upp pöntunarmagn á grunni eftispurnar."
+title: Hönnunarupplýsingar - Lota fyrir lotu | Microsoft Docs
+description: Lærið að nota lota fyrir lotu regluna til að gera upp pöntunarmagn á grunni eftispurnar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: 7bc65fdb33b94b313b7d2b5b046156ca1d0788a2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 712068b5fafb8c5334bf48ddfc9242d21c0995e9
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800018"
 ---
 # <a name="design-details-lot-for-lot"></a>Hönnunarupplýsingar: lota fyrir lotu
 Lota-fyrir-lotu reglan er sveigjanlegust vegna þess að kerfið bregst bara við raunverulegri eftirspurn og bregst auk þess við væntanlegri eftirspurn samkvæmt spám og standandi pöntunum og ákvarðar svo magn pantanan á grundvelli eftirspurnarinnar. Lota-fyrir-lotu reglan beinist að A- og B-vörum þar sem hægt er að samþykkja birgðir en ætti helst að forðast það.  
@@ -38,4 +38,3 @@ Með þessari reglu er einnig mögulegt að skilgreina öryggisbirgðir til að 
 [Hönnunarupplýsingar: Áætlunarfæribreytur](design-details-planning-parameters.md)   
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)
-

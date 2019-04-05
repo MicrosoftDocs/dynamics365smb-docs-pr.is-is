@@ -1,6 +1,6 @@
 ---
-title: "Röðun, leit og síun í listum | Microsoft Docs"
-description: "Vinna á skilvirkan hátt í listum með því að leita yfir gögnin þín, flokka dálka og hreinsa niðurstöður með öflugum síutáknum og flýtivísum."
+title: Röðun, leit og síun í listum | Microsoft Docs
+description: Vinna á skilvirkan hátt í listum með því að leita yfir gögnin þín, flokka dálka og hreinsa niðurstöður með öflugum síutáknum og flýtivísum.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.contentlocale: is-is
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800493"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Röðun, leit og síun í listum
 Það eru nokkrir hlutir sem munu hjálpa þér að skanna, finna og takmarka skrár í lista. Þar á meðal er röðun, leit og afmörkun. Þú getur notað suma eða alla þessa hluti samtímis til að finna eða greina gögnin þín fljótt.
@@ -164,7 +164,7 @@ Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#Keyboa
 |`23..`|Frá 23. þessa mánaðar – þessa árs 00:00:00 til loka tímans|  
 |`22..23`|Frá 22. þessa mánaðar – þessa árs 00:00:00 til 23. þessa mánaðar – þessa árs 23:59:59|  
 
-### <a name="124-eitheror"></a>(&#124;) Annaðhvort/eða  
+### <a name="124-eitheror"></a>(&#124;) Annaðhvort eða  
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
@@ -287,4 +287,3 @@ Notaðu `%myvendors` í lánardrottinn **Nr** reitnum, til að birta allar skrá
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Algengar spurningar um leit og síun](ui-search-filter-faq.md)
-

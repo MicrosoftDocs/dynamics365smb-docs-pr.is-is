@@ -1,25 +1,25 @@
 ---
-title: "Dynamics 365 endurskoðandi upplifun | Microsoft Docs"
-description: "Kynntu þér Accountant Hub fyrir Dynamics 365."
+title: Dynamics 365 endurskoðandi upplifun | Microsoft Docs
+description: Kynntu þér Accountant Hub fyrir Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799714"
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Hafist handa með [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Ef þú ert endurskoðandi með nokkra viðskiptamenn, geturðu notað [!INCLUDE [d365acc](includes/d365acc_md.md)] sem yfirlitssíðu og fengið þannig betra yfirlit yfir viðskiptamenn þína.  
 
-Þú getur fengið aðgang að [!INCLUDE [d365acc](includes/d365acc_md.md)] með því skrá þig af [Dynamics 365 — Accountant Hub á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
+Þú getur fengið aðgang að [!INCLUDE [d365acc](includes/d365acc_md.md)] með því skrá þig frá [Dynamics 365 — Accountant Hub á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]
 >  Þegar þú skráir þig fyrir [!INCLUDE [d365acc](includes/d365acc_md.md)] er nauðsynlegt að taka fram vinnunetfagnið, eins og t.d. <em>me@accountant.com</em>. Við mælum með því að þú sama netfang þegar þú starfar í [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)] viðskiptamanna þinna, svo þú getir auðveldlega skipt á milli viðskiptamanna. Netfangið verður að vera vinnunetfang sem er byggt á Active Directory.
@@ -89,5 +89,4 @@ Til að sækja verkefni skaltu einfaldlega velja það af listanum yfir verkefni
 [Velkomin(n) í [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
 [Greina fjárhagsskýrslur í Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)  
 [Endurskoðandi upplifun í [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
-[Dynamics 365 — Accountant Hub á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-
+[Dynamics 365 - Accountant Hub á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  

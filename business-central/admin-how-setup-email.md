@@ -1,7 +1,7 @@
 ---
-title: "Setja upp tölvupóst í Business Central | Microsoft Docs"
-description: "Lýsir því hvernig á að nota STMP-þjón fyrirtækisins til að senda og taka við tölvupósti í Business Central, einnig hvernig á að nota þær stillingar þjónsins sem voru stofnaðar með Office 365 áskrift."
-documentationcenter: 
+title: Setja upp tölvupóst í Business Central | Microsoft Docs
+description: Lýsir því hvernig á að nota STMP-þjón fyrirtækisins til að senda og taka við tölvupósti í Business Central, einnig hvernig á að nota þær stillingar þjónsins sem voru stofnaðar með Office 365 áskrift.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800337"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Setja upp tölvupóst handvirkt eða með því að nota Uppsetningu með aðstoð
 Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú að fylla út reitina á síðunni **SMTP-póstuppsetning**.
@@ -40,4 +40,3 @@ Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d3
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnhólf þitt í Outlook](admin-outlook.md)  
 [Fáðu [!INCLUDE[d365fin](includes/d365fin_md.md)] í fartækið þinn](install-mobile-app.md)
-

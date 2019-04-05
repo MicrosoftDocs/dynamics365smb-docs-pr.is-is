@@ -1,23 +1,23 @@
 ---
-title: "Greiðsluvikmörk og greiðsluafsláttarvikmörk | Microsoft Docs"
-description: "Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum."
+title: Greiðsluvikmörk og greiðsluafsláttarvikmörk | Microsoft Docs
+description: Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 83680cb4583cfe24deca310cb9c74ba9ab7b50f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799458"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk
 Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum. Hægt er að nota vikmörk greiðsluafsláttar til að veita greiðsluafslátt eftir að afsláttarmörk eru liðin.  
@@ -31,14 +31,14 @@ Stakt fylgiskjal hefur sömu greiðsluvikmörk hvort sem það er jafnað eitt o
 
 *dagsetning greiðsluafsláttar < greiðsludagsetning (í aðalfærslu) <= dagsetning greiðsluvikmarka*  
 
-Þessi regla gildir einnig til að ákvarða hvort birta eigi viðvaranir þegar greiðsluvikmörk eru notuð á mörg skjöl. Viðvörun um vikmörk greiðsluafsláttar birtist fyrir hverja færslu sem uppfyllir dagsetningarskilyrðin. Frekari upplýsingar, sjá „Dæmi 2 - Útreikningur vikmarka fyrir mörg skjöl“ hlutann.
+Þessi regla gildir einnig til að ákvarða hvort birta eigi viðvaranir þegar greiðsluvikmörk eru notuð á mörg skjöl. Viðvörun um vikmörk greiðsluafsláttar birtist fyrir hverja færslu sem uppfyllir dagsetningarskilyrðin. Frekari upplýsingar er að finna í [Dæmi 2 - Útreikningur vikmarka fyrir mörg skjöl](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
 
 Hægt er að velja að birta viðvörun sem byggist á mismunandi aðstæðum fyrir vikmörk.  
 
 - Fyrsta viðvörunin er fyrir vikmörk veitts greiðsluafsláttar. Tilkynnt er að hægt sé að samþykkja afslátt af síðbúnum greiðslum. Þá er hægt að velja hvort samþykkja skuli vikmörk frá greiðsludegi.  
 - Önnur viðvörunin er fyrir greiðsluvikmörkin. Tilkynnt er að hægt sé að loka öllum færslum þar sem mismunurinn er innan samtölu hámarksgreiðsluvikmarka fyrir jöfnuðu færslurnar. Þá er hægt að velja hvort samþykkja skuli vikmörk frá greiðsluupphæð.
 
-Nánari upplýsingar er að finna í „Hvernig á að gera viðvaranir greiðsluvikmarka virkar eða óvirkar“ hlutanum.     
+Nánari upplýsingar er að finna í [Að gera viðvaranir greiðsluvikmarka virkar eða óvirkar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
 
 ## <a name="to-set-up-tolerances"></a>Vikmörk sett upp  
 Með vikmörkum á dögum og upphæðum er hægt að loka reikningi þó að greiðsla nái ekki alveg upphæðinni á reikningnum, hvort sem um er að ræða að gjalddagi sé liðinn, vörum hafi verið skilað eða smávillu. Þetta á einnig við um endurgreiðslur og kreditreikninga.  
@@ -60,9 +60,9 @@ Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilg
 >  Nú hafa verið sett upp vikmörk fyrir heimagjaldmiðilinn eingöngu. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] á að vinna með frávik á greiðslum, kreditreikningum og endurgreiðslum í erlendum gjaldeyri þarf að keyra keyrsluna **Breyta greiðsluvikmörkum** með gildi í reitnum **Gjaldmiðilskóði**.  
 
 > [!NOTE]  
->  Ef fá á viðvörunarboð um greiðsluvikmörk í hvert skipti sem jöfnun er bókuð í vikmörkunum þarf að virkja viðvörun um greiðsluvikmörk. Nánari upplýsingar er að finna í „Hvernig á að gera viðvaranir greiðsluvikmarka virkar eða óvirkar“ hlutanum.  
+>  Ef fá á viðvörunarboð um greiðsluvikmörk í hvert skipti sem jöfnun er bókuð í vikmörkunum þarf að virkja viðvörun um greiðsluvikmörk. Nánari upplýsingar er að finna í hlutanum [Að gera viðvaranir greiðsluvikmarka virkar eða óvirkar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Ef gera á vikmörk viðskiptamanns eða lánardrottins óvirk þarf að loka á vikmörk á spjaldi viðkomandi viðskiptamanns eða lánardrottins. Frekari upplýsingar, sjá hlutann „Lokað á greiðsluvikmörk fyrir viðskiptavini“.  
+>  Ef gera á vikmörk viðskiptamanns eða lánardrottins óvirk þarf að loka á vikmörk á spjaldi viðkomandi viðskiptamanns eða lánardrottins. Frekari upplýsingar er að finna í [Lokað á greiðsluvikmörk fyrir viðskiptavini](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 >  Þegar vikmörk eru sett upp athugar [!INCLUDE[d365fin](includes/d365fin_md.md)] hvort einhverjar færslur séu opnar og reiknar vikmörk fyrir þær færslur að auki.
 
@@ -262,4 +262,3 @@ Venjulegar jöfnunarreglur
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

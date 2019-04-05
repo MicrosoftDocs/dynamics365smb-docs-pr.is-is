@@ -1,8 +1,8 @@
 ---
-title: "Hvernig á að: vinna með VSK í sölu og innkaupum | Microsoft Docs"
-description: "Þetta efnisatriði lýsir því hvernig framkvæma skal verk á borð leiðréttingu bókaðs VSK í ESB-löndum/svæðum, allar sölu- og innkaupafærslur falla undir VSK-útreikning. Í þessu efnisatriði er því lýst hvernig það er gert."
+title: 'Hvernig á að: vinna með VSK í sölu og innkaupum | Microsoft Docs'
+description: Þetta efnisatriði lýsir því hvernig framkvæma skal verk á borð leiðréttingu bókaðs VSK í ESB-löndum/svæðum, allar sölu- og innkaupafærslur falla undir VSK-útreikning. Í þessu efnisatriði er því lýst hvernig það er gert.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800290"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Unnið með VSK í sölu og innkaupum
-Ef þitt land eða svæði krefst þess að reiknaður sé VSK skattur á sölu- og innkaupafærslur svo hægt sé talið upphæðirnar fram til skattayfirvalda, geturðu sett upp [!INCLUDE[d365fin](includes/d365fin_md.md)] þannig að VSK verði reiknaður sjálfkrafa á sölu- og innkaupaskjölum. Frekari upplýsingar, sjá [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts] (finance-setup-vat.md).
+Ef þitt land eða svæði krefst þess að reiknaður sé VSK skattur á sölu- og innkaupafærslur svo hægt sé talið upphæðirnar fram til skattayfirvalda, geturðu sett upp [!INCLUDE[d365fin](includes/d365fin_md.md)] þannig að VSK verði reiknaður sjálfkrafa á sölu- og innkaupaskjölum. Frekari upplýsingar, sjá [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md).
 
 Það eru samt sem áður VSK-tengd verkefni sem þú getur innt af hendi handvirkt. Þú gætir t.d. þurft að leiðrétta bókaða upphæð ef þú uppgötvar að lánardrottinn notar annars konar sléttunaraðferð.
 
@@ -174,4 +174,3 @@ Til að skoða vottorðahóp byrjarðu á síðunni **Afhendingarvottorð** og u
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)   
 [Hvernig á að: Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)   
-

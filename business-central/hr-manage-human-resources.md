@@ -1,8 +1,8 @@
 ---
-title: "Nota virkni mannauðs| Microsoft Docs"
-description: "Hægt er að skrá nýja Starfsmenn eða breyta upplýsingum um núverandi starfsmenn, og skrá og greina fjarveru."
+title: Nota virkni mannauðs| Microsoft Docs
+description: Hægt er að skrá nýja Starfsmenn eða breyta upplýsingum um núverandi starfsmenn, og skrá og greina fjarveru.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 209a36d19d38f62aa94f77f8ef33b849c078dd67
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: a0254dad989b361883dd62f1f798686452941538
-ms.contentlocale: is-is
-ms.lasthandoff: 04/18/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800672"
 ---
 # <a name="manage-human-resources"></a>Hafa umsjón með mannauði
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að halda nákvæma skráningu starfsmanna. Hægt er að skrá og viðhalda upplýsingum um starfsmann, t.d. starfssamninga, trúnaðarupplýsingar, hæfi og tengiliðaupplýsingar starfsmanns.
@@ -37,4 +37,3 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)        
-

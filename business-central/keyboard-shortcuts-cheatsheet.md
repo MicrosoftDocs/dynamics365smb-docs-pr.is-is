@@ -1,6 +1,6 @@
 ---
-title: "Flýtitilvísanir flýtilykla"
-description: "Prentvænt tilvísunarblað sem inniheldur vinsælustu flýtilyklana."
+title: Flýtitilvísanir flýtilykla
+description: Prentvænt tilvísunarblað sem inniheldur vinsælustu flýtilyklana.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: f0a88ccadd5107130150e5cadda3e3e5d1cee4bf
-ms.contentlocale: is-is
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799833"
 ---
-
 # <a name="keyboard-shortcuts-quick-reference"></a>Flýtitilvísanir flýtilykla
 
 ||||  
@@ -27,4 +26,3 @@ ms.lasthandoff: 12/04/2018
 |**Afrita og líma**|Ctrl+C<br />Ctrl+V<br />F8|Afrita raðir<br />Líma raðir<br />Afrita reit hér að ofan í núverandi röð|
 |**Leita, sía og raða**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Víxla leit<br />Víxla síusvæði; setja áherslu á svæðasíur<br />Víxla síusvæði; setja áherslu á samtölusíur<br />Síur á völdum hólfgildum<br />Bættu við síu á völdum reit<br />Endurstilla afmarkanir|
 |**Forskoðun skýrslu**|Upp/niður<br />Hægri/vinstri<br />Ctrl+Heim/Loka<br />Upp/niður um síðu|Skruna upp og niður á síðunni<br />Skruna til hægri/vinstri <br />Fara á fyrstu/síðustu síðu<br />Fara á fyrri/næstu síðu|
-

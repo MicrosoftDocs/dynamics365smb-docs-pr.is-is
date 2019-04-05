@@ -1,8 +1,8 @@
 ---
-title: "Setja upp verðlagningu og kostnað fyrir þjónustu | Microsoft Docs"
-description: "Lærðu hvernig á að setja verð og aukakostnað fyrir þjónustu."
+title: Setja upp verðlagningu og kostnað fyrir þjónustu | Microsoft Docs
+description: Lærðu hvernig á að setja verð og aukakostnað fyrir þjónustu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 39d917ffcfb342aaea04b3668e032d548ef17ec9
-ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800114"
 ---
-
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Setja upp verðlagningu og aukakostnað fyrir þjónustu
 Hægt er að nota verðlagningareiginleika [!INCLUDE[d365fin](includes/d365fin_md.md)] til að setja upp og sérstilla forritið svo hægt sé að nota og stilla verðlagningu fyrir þjónustuvörur, viðgerðir og pantanir. Auðvelt er síðan að senda þessar verðlagningarákvarðanir yfir í reikningsfærsluferlið.  
   
@@ -68,4 +67,3 @@ Setja má upp hópa með þjónustuvöru sem á að njóta sömu sérþjónustuv
 ## <a name="see-also"></a>Sjá einnig
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Þjónustukerfi](service-service.md)  
-

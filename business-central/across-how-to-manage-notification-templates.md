@@ -1,24 +1,24 @@
 ---
-title: "Hvernig á að: Vinna með tilkynningasniðmát | Microsoft Docs"
-description: "Tilkynningar eru sendar til verkflæðisnotenda til að tilkynna þeim um skref sem þeir verað að taka eða upplýsa þá um stöðu verkflæðisskrefa. Notandi setur upp hverjir fá tilkynningar og hvenær með þvíað setja upp samþykktarnotendur, tilkynningaáætlun notenda og umrædd verkflæðisviðbrögð til að skilgreina móttakanda tilkynningar."
+title: 'Hvernig á að: Vinna með tilkynningasniðmát | Microsoft Docs'
+description: Tilkynningar eru sendar til verkflæðisnotenda til að tilkynna þeim um skref sem þeir verað að taka eða upplýsa þá um stöðu verkflæðisskrefa. Notandi setur upp hverjir fá tilkynningar og hvenær með þvíað setja upp samþykktarnotendur, tilkynningaáætlun notenda og umrædd verkflæðisviðbrögð til að skilgreina móttakanda tilkynningar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: sgroespe
 redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800732"
 ---
 # <a name="manage-notification-templates"></a>Vinna með tilkynningasniðmát
 Tilkynningar eru sendar til verkflæðisnotenda til að tilkynna þeim um skref sem þeir verað að taka eða upplýsa þá um stöðu verkflæðisskrefa. Notandi setur upp hverjir fá tilkynningar og hvenær með þvíað setja upp samþykktarnotendur, tilkynningaáætlun notenda og umrædd verkflæðisviðbrögð til að skilgreina móttakanda tilkynningar. Nánari upplýsingar er að finna í [Uppsetning Verkflæði Tilkynningar](across-setting-up-workflow-notifications.md).  
@@ -67,13 +67,13 @@ Tilkynningasniðmátið sem fyrir var eða nýja sniðmátið á síðunni **Til
 Færibreytugildi eru sjálfkrafa settar inn í tilkynningar í samræmi við tilkynningasniðmátið.  
 
 #### <a name="new-record"></a>Ný færsla  
- ![NAV&#95;notification&#95;template&#95;new&#95;record&#95;type](media/nav_notification_template_new_record.png "NAV_notification_template_new_record")  
+ ![NAV&#95;tilkynning&#95;sniðmát&#95;nýtt&#95;færsla&#95;gerð](media/nav_notification_template_new_record.png "NAV_notification_template_new_record")  
 
 #### <a name="approval"></a>Samþykki  
- ![NAV&#95;notification&#95;template&#95;approval&#95;type](media/nav_notification_template_approval_type.png "NAV_notification_template_approval_type")  
+ ![NAV&#95;tilkynning&#95;sniðmát&#95;samþykki&#95;gerð](media/nav_notification_template_approval_type.png "NAV_notification_template_approval_type")  
 
 #### <a name="overdue"></a>Komið fram yfir  
- ![NAV&#95;notification&#95;overdue&#95;type](media/nav_notification_overdue_type.png "NAV_notification_overdue_type")  
+ ![NAV&#95;tilkynning&#95;gjaldfallin&#95;gerð](media/nav_notification_overdue_type.png "NAV_notification_overdue_type")  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)   
@@ -83,4 +83,3 @@ Færibreytugildi eru sjálfkrafa settar inn í tilkynningar í samræmi við til
  [Búa til verkflæði](across-how-to-create-workflows.md)   
  [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)   
  [Verkflæði](across-workflow.md)   
-

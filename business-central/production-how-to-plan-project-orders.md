@@ -1,23 +1,23 @@
 ---
-title: "Hvernig á að áætla verkefnispantanir | Microsoft Docs"
-description: "Þessi áætlanagerð byrjar í sölupöntun og nýtir síðuna **Áætlun sölupöntunar**. Þegar framleiðslupöntun verkefnis er stofnuð er hægt að skipuleggja hana frekar með því að nota síðuna **Pantanaáætlun**."
+title: Hvernig á að áætla verkefnispantanir | Microsoft Docs
+description: Þessi áætlanagerð byrjar í sölupöntun og nýtir síðuna **Áætlun sölupöntunar**. Þegar framleiðslupöntun verkefnis er stofnuð er hægt að skipuleggja hana frekar með því að nota síðuna **Pantanaáætlun**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4cb63a7dc26e13c7947ba2ae071c3dff87c53e9d
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800714"
 ---
 # <a name="plan-project-orders"></a>Áætla verkefnispantanir
 Þessi áætlanagerð byrjar í sölupöntun og nýtir síðuna **Áætlun sölupöntunar**. Þegar framleiðslupöntun verkefnis er stofnuð er hægt að skipuleggja hana frekar með því að nota síðuna **Pantanaáætlun**.  
@@ -50,4 +50,3 @@ Pöntunarhausslínan fyrir verkefnispöntunina birtist með allar óuppfylltar e
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

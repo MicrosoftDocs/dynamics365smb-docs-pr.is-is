@@ -1,7 +1,7 @@
 ---
-title: "Vinna með viðskiptamenn með því nota Dynamics 365 for Sales| Microsoft Docs"
-description: "Hægt er að nota Dynamics 365 for Sales innan Business Central til að varpa gögnum og hafa óaðfinnanlegur samþætting og samstillingu í heildarferlinu."
-documentationcenter: 
+title: Stjórna viðskiptavinum með Dynamics 365 for Sales| Microsoft Docs
+description: Hægt er að nota Dynamics 365 for Sales innan Business Central til að varpa gögnum og hafa óaðfinnanlega samþættingu og samstillingu í heildarferlinu.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,15 +11,15 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 01/24/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: bba9fb9a83856cea43e4f4215e7c148b713252a9
-ms.contentlocale: is-is
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800782"
 ---
-# <a name="integrating-with-dynamics-365-for-sales"></a>Samþætting við Dynamics 365 for Sales
-Ef þú notar Dynamics 365 for Sales til að taka þátt í viðskiptum, getur þú notað [!INCLUDE[d365fin](includes/d365fin_md.md)] til þess að panta vinnslu og fjármál og hafa óaðfinnanlegur samþættingu í framhaldi af peningum.
+# <a name="integrating-with-dynamics-365-for-sales"></a>Tengir við Dynamics 365 for Sales
+Ef þú notar Dynamics 365 for Sales for Customer Engagement getur þú notað [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir vinnslu pöntunar og fjármála og hafa óaðfinnanlega samþættingu í heildarferlinu.
 
 > [!NOTE]
 > Þetta efnisatriði gerir ráð fyrir því að bæði [!INCLUDE[d365fin](includes/d365fin_md.md)] og samþætt Sales-lausn séu notuð í SaaS-umhverfi. Að blanda saman netútgáfu og staðbundinni útgáfu er mögulegt, en krefst ákveðinnar grunnstillingar. Nánari upplýsingar er að finna í [Undirbýr samþættingu við Dynamics 365 for Sales á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
@@ -31,7 +31,7 @@ Til dæmis getur sölumaðurinn í Sales notað verðlista frá [!INCLUDE[d365fi
 Á móti kemur að pantanavinnslur í [!INCLUDE[d365fin](includes/d365fin_md.md)] geta afgreitt sérkenni sölupantana sem eru fluttar sjálfkrafa eða handvirkt úr Sales, eins og að stofna og bóka sjálfkrafa gildar sölupöntunarlínur fyrir vörur eða tilföng sem voru færð inn í Sales sem innskriftarvörur. Frekari upplýsingar er að finna í hlutanum „Afgreiðsla sérstakra sölupöntunargagna“.
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] samþættir aðeins við Dynamics 365 for Sales. Önnur forrit eða lausnir innan Dynamics 365 sem breyta stöðluðu verkflæði eða gagnalíkani í Sales, til dæmis Project Service Automation, kunna að rjúfa samþættinguna milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og Sales.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] samþættar eingöngu við Dynamics 365 for Sales. Önnur forrit eða lausnir innan Dynamics 365 sem breyta stöðluðu verkflæði eða gagnalíkani í Sales, til dæmis Project Service Automation, kunna að rjúfa samþættinguna milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og Sales.
 
 ## <a name="standard-sales-entity-mapping-for-synchronization"></a>Stöðluð einingavörpun Sales fyrir samstillingu
 Sölueiningar, á borð við lykla, eru samþættir við jafngildar [!INCLUDE[d365fin](includes/d365fin_md.md)] færslugerðir, svo sem viðskiptamenn. Til að vinna með gögn Sales setur þú upp varpanir, sem kallast tengingar, á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] færslna og einingarfærslur Sales. T.d. mætti setja upp tengingu á milli tiltekins viðskiptamanns í [!INCLUDE[d365fin](includes/d365fin_md.md)] og samsvarandi lykils í Sales.
@@ -89,7 +89,7 @@ Eftirfarandi tafla sýnir varpanir frá Business Central töflum fyrir reitinn *
 |Bókaðir sölureikningar|Bókaðir sölureikningar eru samstilltir við sölureikninga. Áður en hægt er að samstilla reikning er betra að samstilla allar aðrar einingar sem geta verið hluti af reikningnum, frá sölumanni til verðlista. Gildið á kóða sölumanns í fyrirsögn reiknings skilgreinir eiganda tengdu einingarinnar í Sales.|
 
 ## <a name="setting-up-the-connection"></a>Uppsetning tengingarinnar
-Frá upphafssíðunni geturðu nálgast leiðbeiningar um uppsetningu með hjálp fyrir **Uppsetningu Microsoft Dynamics 365 tengingar** sem hjálpar þér að setja upp tengingu. Þegar því er lokið verður þú með hnökralausa tengingu á Sales-færslum við [!INCLUDE[d365fin](includes/d365fin_md.md)] skrár.  
+Frá Heimili geturðu nálgast uppsetningarleiðbeiningar um **Uppsetning Microsoft Dynamics 365 tengingar** sem hjálpar þér að setja upp tengingu. Þegar því er lokið verður þú með hnökralausa tengingu á Sales-færslum við [!INCLUDE[d365fin](includes/d365fin_md.md)] skrár.  
 
 > [!NOTE]  
 >   Eftirfarandi útskýrir uppsetningu með aðstoð, en þú getur framkvæmt sömu verkin handvirkt á síðunni **Uppsetning Sales-tengingar**.
@@ -107,7 +107,7 @@ Nánari upplýsingar er að finna í [Búa til notendur í Microsoft Dynamics 36
 Þessi reikningur er aðeins notaður meðan á uppsetningu stendur. Þegar lausnin er flutt inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] er reikningurinn ekki lengur þörf.
 
 ### <a name="setting-up-the-user-account-for-synchronization"></a>Setja upp notandareikning fyrir samstillingu
-Samþættingin byggist á sameiginlegum notendareikningi. Svo í Office 365 áskriftinni þinni verður þú að búa til hollur notandi sem verður notaður til samstillingar á milli tveggja þjónustunnar. Þessi reikningur verður þegar að vera gildur notandi í Sales, en þú þarft ekki að úthluta öryggishlutverkum til reikningsins vegna þess að uppsetningarhandbókin muni gera það fyrir þig. Þú verður að tilgreina þennan notandareikning einn eða fleiri sinnum í uppsetningarhandbókinni, háð því hversu mikið samstilling þú vilt virkja. Nánari upplýsingar er að finna í [Búa til notendur í Microsoft Dynamics 365 (á netinu) og úthluta öryggishlutverkum](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles).
+Samþættingin byggist á sameiginlegum notendareikningi. Svo í Office 365 áskriftinni þinni verður þú að búa til hollur notandi sem verður notaður til samstillingar á milli tveggja þjónustunnar. Þessi reikningur verður þegar að vera gildur notandi í Sales, en þú þarft ekki að úthluta öryggishlutverkum til reikningsins vegna þess að uppsetningarhandbókin muni gera það fyrir þig. Þú verður að tilgreina þennan notandareikning einn eða fleiri sinnum í uppsetningarhandbókinni, háð því hversu mikið samstilling þú vilt virkja. Nánari upplýsingar er að finna í [Búa til notendur í Microsoft Dynamics 365 (online) og úthluta öryggishlutverkum](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles).
 
 Ef þú velur að virkja *hlutafyrirkomulag*, verður aðgangur að notendareikningurinn að vera með aðgangstakkann fyrir vefþjónustu. Þetta er tvíþættur hlutur á [!INCLUDE[d365fin](includes/d365fin_md.md)] síðunni fyrir þennan notandareikning. Þú verður að velja **Breyta lykli vefþjónustu** og í uppsetningarhandbók Sales-tengingarinnar verður þú að tilgreina þann notanda sem notanda OData vefþjónustunnar.
 
@@ -137,22 +137,21 @@ Til dæmis, ef þú vilt sjá Sales reikninga sem viðskiptavini í [!INCLUDE[d3
 
 Til að kanna framvindu einstakra starfa í fullri samstillingu, skal fara á **Staða verkraðarfærslu**, **Í innri vinnslustöðu töflu**, eða **Úr innri vinnslustöðu töflu** á síðunni **CRM full samstilling tengslastjórnunar**.
 
-Frá síðunni **Uppsetning Microsoft Dynamics 365 tengingar** er hægt að fá upplýsingar um fulla samstillingu hvenær sem er. Héðan er einnig hægt að opna síðuna **Vörpun samþættingartöflu** til að sjá upplýsingar um töflurnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] og í Sales lausninni sem þarf að samstilla.
+Frá síðunni **Uppsetning á tengingu Microsoft Dynamics 365** er hægt að fá upplýsingar um fulla samstillingu hvenær sem er. Héðan er einnig hægt að opna síðuna **Vörpun samþættingartöflu** til að sjá upplýsingar um töflurnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] og í Sales lausninni sem þarf að samstilla.
 
 ## <a name="handling-special-sales-order-data"></a>Afgreiðsla sérstakra sölupöntunargagna
-Sölupantanir í Sales verða fluttar sjálfkrafa í [!INCLUDE[d365fin](includes/d365fin_md.md)] ef gátreiturinn **Stofna sölupantanir sjálfkrafa** á síðunni **Uppsetning Microsoft Dynamics 365-tengingar** er valinn. Á slíkum sölupöntunum er reiturinn **Heiti** í upprunalegu pöntuninni fluttur og honum varpað í reitinn **Utanaðkomandi fylgiskjalsnúmer** á sölupöntuninni í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Sölupantanir í Sales verða fluttar sjálfkrafa í [!INCLUDE[d365fin](includes/d365fin_md.md)] ef þú velur gátreitinn **Stofna sölupantanir sjálfkrafa** á síðunni **Uppsetning á tengingu Microsoft Dynamics 365**. Á slíkum sölupöntunum er reiturinn **Heiti** í upprunalegu pöntuninni fluttur og honum varpað í reitinn **Utanaðkomandi fylgiskjalsnúmer** á sölupöntuninni í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Þetta getur líka virkað ef upprunalega sölupöntunin inniheldur innskriftarvörur, þ.e.a.s. vörur eða forða sem er skráður í hvorugri vörunni. Í því tilviki verður þú að fylla út reitina **Gerð innskriftarvöru** og **Nr. innskriftarvöru** reitirnir á síðunni **Sölugrunnur**, til þess að slíkri óskráðri vörusölu sé varpað í tiltekið vöru-/forðanúmer fyrir fjárhagsgreiningu.
 
 Ef vörulýsingin í upprunalegu sölupöntuninni er mjög löng er stofnuð ný sölupöntunarlína af gerðinni Athugasemd til þess að rúma allan texta sölupöntunarinnar í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Sjá einnig
-[Undirbýr samþættingu við Dynamics 365 for Sales á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
+Í [Undirbýr samþættingu við Dynamics 365 for Sales á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).  
 [Umsjón með venslum](marketing-relationship-management.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
+[Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Vinna með notendur og heimildir](ui-how-users-permissions.md)    
 [Um borð stofnunina þína og notendur til Dynamics 365 (á netinu)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

@@ -1,8 +1,8 @@
 ---
-title: "Yfirlit yfir bókanir á skjölum og færslubókum | Microsoft Docs"
-description: "Útskýrir bókunaraðgerðir og hvernig þú getur bókað skjöl og færslubækur."
+title: Yfirlit yfir bókanir á skjölum og færslubókum | Microsoft Docs
+description: Útskýrir bókunaraðgerðir og hvernig þú getur bókað skjöl og færslubækur.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 139cc2d43dbebb3c6c2f386b2977ba67bbe438d6
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799537"
 ---
 # <a name="post-documents-and-journals"></a>bóka skjöl og færslubækur
 Bókun táknar reikningsaðgerðina að skrá viðskiptafærslur í hinar ýmsu höfuðbækur fyrirtækisins.
@@ -36,5 +36,4 @@ Eftirfarandi tafla lýsir skyldum verkum, með tenglum í efnisatriði þar sem 
 ## <a name="see-also"></a>Sjá einnig
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

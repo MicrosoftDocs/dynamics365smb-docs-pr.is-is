@@ -1,8 +1,8 @@
 ---
-title: "Verkhlutar nota tilföng og vinnublöð | Microsoft Docs"
-description: "Lýsir hvernig á að nota tilföng, vinnublöð og störf til að stjórna verkefnum."
+title: Verkhlutar nota tilföng og vinnublöð | Microsoft Docs
+description: Lýsir hvernig á að nota tilföng, vinnublöð og störf til að stjórna verkefnum.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 1de8a8feaa7ae9c7d2dd656a525be84cd5424dc6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 545c09e5b462dd712dffa68a27341b1acde17071
-ms.contentlocale: is-is
-ms.lasthandoff: 04/18/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800697"
 ---
 # <a name="project-management"></a>Verkefnastjórnun
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að framkvæma sameiginlega verkefnastjórnun verkefni, svo sem að stilla vinnu og tímasetningu auðlinda, auk þess að veita þær upplýsingar sem þarf til að stjórna kostnaðarhámarki og fylgjast með framförum. Hægt er að rekja véla- og starfsmannatíma í verkefninu með því að nota vinnuskýrslur. Sem verkefnastjóri fær maður góða yfirsýn, ekki aðeins yfir einstök verk heldur einnig yfir úthlutun starfsfólks, véla og annars forða sem notaður er í öllum verkefnum.
@@ -48,4 +48,3 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

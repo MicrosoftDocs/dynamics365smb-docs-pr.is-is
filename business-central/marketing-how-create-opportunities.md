@@ -1,8 +1,8 @@
 ---
-title: "Stofna sölutækifæri| Microsoft Docs"
-description: "Lýsir hvernig á að stofna tækifæri frá sölumanni eða tengilið í Business Central."
+title: Stofna sölutækifæri| Microsoft Docs
+description: Lýsir hvernig á að stofna tækifæri frá sölumanni eða tengilið í Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800213"
 ---
 # <a name="create-sales-opportunities"></a>Stofna sölutækifæri
 Hægt er að stofna tækifæri vegna sölutækifæra hjá tengiliðum. Tengja verður öll tækifæri við sölumann eða innkaupanda og þau verða að vera með tengilið.
@@ -46,4 +46,3 @@ Hægt er að stofna tækifæri af síðunni **Tækifæralisti**. En yfirleitt er
 [Sala](sales-manage-sales.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
 [Vinna með Business Central](ui-work-product.md)
-

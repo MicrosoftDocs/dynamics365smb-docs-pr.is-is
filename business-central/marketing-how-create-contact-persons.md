@@ -1,6 +1,6 @@
 ---
-title: "Stofna einstaklingstengiliði| Microsoft Docs"
-description: "Lýsir því hvernig skal stofna tengiliðaspjald fyrir hvern nýjan einstakling eða viðfang sem þú ert í viðskiptasamband við."
+title: Stofna einstaklingstengiliði| Microsoft Docs
+description: Lýsir því hvernig skal stofna tengiliðaspjald fyrir hvern nýjan einstakling eða viðfang sem þú ert í viðskiptasamband við.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
+ms.openlocfilehash: 983de37e20b69d6ce5d8630973d8fbac6403a346
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800065"
 ---
 # <a name="create-contact-persons"></a>Stofna einstaklingstengilið
 Hægt er að stofna tengiliðaspjald fyrir hvern tengilið sem vinnur hjá fyrirtækjum sem notandinn á í samskiptum við. Fyrir hvern fyrirtækjatengilið er hægt að færa inn eins marga einstaklingstengiliði og hver vill. Einnig er hægt að stofna tengiliðaspjöld fyrir einstaklinga sem á að skrá sem óháða.
@@ -37,11 +37,9 @@ Hægt er að stofna tengiliðaspjald fyrir hvern tengilið sem vinnur hjá fyrir
 >   Efni reitanna sem voru valdir á hlutanum **erfðir** á síðunni **uppsetning markaðssetningar** er afritað úr fyrirtæki til einstaklinga innan þess fyrirtækis.
 
 ## <a name="see-also"></a>Sjá einnig
-[Uppsetning tengslastjórnunar](marketing-setup-marketing.md)  
 [Pósthópum úthlutað á tengilið](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Setja upp starfsábyrgðir á tengiliði](marketing-job-responsibilities.md)  
 [Setja upp stjórnunarstig fyrir tengiliði](marketing-organizational-levels.md)  
 [Samstilla tengiliði við viðskiptavini, seljendur og bankareikninga](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)  
 [Vinna með Business Central](ui-work-product.md)  
-

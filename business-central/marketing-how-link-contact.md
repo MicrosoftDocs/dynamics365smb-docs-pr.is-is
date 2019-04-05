@@ -1,8 +1,8 @@
 ---
-title: "Tengiliðir samstilltir við viðskiptamenn og lánardrottna| Microsoft Docs"
-description: "Lýsir því hvernig skal samstilla tengilið við viðskiptamann, lánardrottinn eða bankareikning úr sama fyrirtæki, svo hægt sé að samræma sameiginleg gögn."
+title: Tengiliðir samstilltir við viðskiptamenn og lánardrottna| Microsoft Docs
+description: Lýsir því hvernig skal samstilla tengilið við viðskiptamann, lánardrottinn eða bankareikning úr sama fyrirtæki, svo hægt sé að samræma sameiginleg gögn.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ae6b02e7ce73d4a13cdc7dd42858ac791d4bf1c2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2613e32873c91fe24c4734456338bb1f7e18849d
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800395"
 ---
 # <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Tengja tengiliði við viðskiptamenn, lánardrottna og bankareikninga
 Hafir þú tengilið og annaðhvort viðskiptamann, lánardrottin eða bankareikning fyrir sama fyrirtækið er hægt að tengja þessa aðila saman. Það að tengja tvær einingar gerir kleift að samstilla gögnin sem eru sameiginleg þannig að sömu gögn séu á báðum stöðum.
@@ -34,4 +34,3 @@ Hafir þú tengilið og annaðhvort viðskiptamann, lánardrottin eða bankareik
 [Samstilla tengiliði við viðskiptavini, seljendur og bankareikninga](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

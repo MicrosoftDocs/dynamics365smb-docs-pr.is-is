@@ -1,21 +1,21 @@
 ---
-title: "Hvernig á að úthýsa framleiðslu til undirverktaka | Microsoft Docs"
-description: "Þegar innkaupapöntunin hefur verið stofnuð í Vinnublaði undirverktaka er hægt að bóka hana."
+title: Hvernig á að úthýsa framleiðslu til undirverktaka | Microsoft Docs
+description: Þegar innkaupapöntunin hefur verið stofnuð í Vinnublaði undirverktaka er hægt að bóka hana.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: bdb9d8c0d47fe53e9e5ea310a83854e69f545d9e
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799723"
 ---
 # <a name="subcontract-manufacturing"></a>Úthýsa framleiðslu til undirverktaka
 Úthýsing á völdum aðgerðum til lánardrottna er algeng í mörgum framleiðslufyrirtækjum. Undirverktakastarfsemi getur verið sjaldgæf hending eða mikill þáttur í öllum framleiðsluferlum.
@@ -103,4 +103,3 @@ Beinn kostnaður innkaupapöntunarinnar er bókaður í framleiðslupöntunina �
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

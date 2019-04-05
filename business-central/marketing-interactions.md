@@ -1,8 +1,8 @@
 ---
-title: "Vinna með samskipti við tengiliði| Microsoft Docs"
-description: "Hægt er að vinna með hvers kyns samskipti milli fyrirtækisins og tengiliða þess, t.d. bréf, símtöl, fundir og þess háttar."
+title: Vinna með samskipti við tengiliði| Microsoft Docs
+description: Hægt er að vinna með hvers kyns samskipti milli fyrirtækisins og tengiliða þess, t.d. bréf, símtöl, fundir og þess háttar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800094"
 ---
 # <a name="managing-interactions-with-contacts"></a>Unnið með Samskipti Við Tengiliði
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru allar gerðir af samskiptum milli fyrirtækis þíns og tengiliðanna. Til dæmis geta samskipti verið með bréfi, faxi, tölvupósti, síma, fundum, o.s.frv.
@@ -32,7 +32,7 @@ Tengslastjórnunargrunnur svæðið gerir mögulegt að skrá öll samskipti vi�
 Áður en hægt er að stofna og skrá samskipti þarf að setja upp samskiptasniðmát. Þegar samskipti eru stofnuð þarf að tilgreina á hvaða samskiptasniðmáti þau byggja. samskiptasniðmát er líkan sem lýsir grunneiginleikum samskipta.
 Þú setur upp samskiptasniðmát á síðunni **samskiptasniðmát**.
 
-Þegar upplýsingar um samskiptasniðmátið hafa verið færðar inn er hægt að búa til viðhengi, t.d. Microsoft Word skjal. Skrefin eru endurtekin til að setja upp eins mörg samskiptasniðmát og óskað er eftir.  
+Þegar upplýsingar um samskiptasniðmátið hafa verið færðar inn er hægt að búa til viðhengi, t.d. Microsoft Word-skjal. Skrefin eru endurtekin til að setja upp eins mörg samskiptasniðmát og óskað er eftir.  
 
 ## <a name="creating-interactions"></a>Samskipti stofnuð
 Samskipti eru skráð með tvennum hætti:
@@ -58,4 +58,3 @@ Hægt er að eyða samskiptaskráningarfærslum sem hafa verið afturkallaðar. 
 [Vinna með tengiliði](marketing-contacts.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Unnið með Business Central](ui-work-product.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Áætlanagerð með eða án birgðageymslna | Microsoft Docs"
-description: "Mikilvægt er að skilja áætlanir með eða án birgðageymslukóta í eftirspurnarlínum."
+title: Áætlanagerð með eða án birgðageymslna | Microsoft Docs
+description: Mikilvægt er að skilja áætlanir með eða án birgðageymslukóta í eftirspurnarlínum.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 211f990e21c8c0a5c6d1705de5345be20adae4d7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a2043b50e9f398839034c87e8f0fb42f68d8c036
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799554"
 ---
 # <a name="planning-with-or-without-locations"></a>Áætlanagerð með eða án birgðageymslna
 Varðandi áætlanir með eða án birgðageymslukóta í eftirspurnarlínum vinnur áætlanakerfið á einfaldan hátt þegar:  
@@ -146,4 +146,3 @@ Ef þörf í birgðageymslum er áætluð oft er eindregið mælt með að nota 
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

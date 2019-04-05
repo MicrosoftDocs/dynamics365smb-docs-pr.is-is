@@ -1,23 +1,23 @@
 ---
-title: "Hvernig á að undirbúa grunnstillingarpakka | Microsoft Docs"
-description: "Þegar nýtt fyrirtæki er skilgreint eru töflutengsl greind og unnin. Gögn eru flutt inn og notuð í réttri röð. Víddartöflur eru einnig fluttar inn ef þær eru teknar með í grunnstillingapakkanum"
+title: Hvernig á að undirbúa grunnstillingarpakka | Microsoft Docs
+description: Þegar nýtt fyrirtæki er skilgreint eru töflutengsl greind og unnin. Gögn eru flutt inn og notuð í réttri röð. Víddartöflur eru einnig fluttar inn ef þær eru teknar með í grunnstillingapakkanum
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800095"
 ---
 # <a name="prepare-a-configuration-package"></a>Undirbúa grunnstillingarpakka
 Þegar nýtt fyrirtæki er skilgreint eru töflutengsl greind og unnin. Gögn eru flutt inn og notuð í réttri röð. Víddartöflur eru einnig fluttar inn ef þær eru teknar með í grunnstillingapakkanum  
@@ -93,7 +93,7 @@ Nota skal skilgreiningarvinnublaðið til að safna og flokka upplýsingarnar se
 3.  Í reitnum **Tegund línu** veljið **Flokkur**. Færa skal inn lýsandi heiti í reitinn **Heiti**.  
 4.  Í reitnum **Tegund línu** veljið **Tafla**. Í reitnum **Kenni töflu** skal velja töflu sem á að taka með í vinnublaðinu.  
 
-Nú er hægt að úthluta töflunum til tiltekinna grunnstillingarpakka sem hafa verið stofnaðir eða stendur til að stofna. Nánari upplýsingar eru í kaflanum „Að úthluta töflu á grunnstillingarpakka.“
+Nú er hægt að úthluta töflunum til tiltekinna grunnstillingarpakka sem hafa verið stofnaðir eða stendur til að stofna. Nánari upplýsingar eru í [Að úthluta töflu á grunnstillingarpakka](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## <a name="to-work-with-promoted-tables"></a>Til að vinna með stighækkaðar töflur  
 1. Velja skal gátreitinn **Stighækkuð tafla** til að tilgreina töflu sem er oft notuð í uppsetningarferli fyrir hefðbundinn viðskiptavin, svo sem töfluna **Fjárhagsreikningur**. Þegar tafla hefur þetta merki, getur viðskiptavinur auðveldlega afmarkað vinnublað sitt til að sjá bara listann af stighækkuðum töflum sem þarfnast athygli.  
@@ -103,7 +103,7 @@ Nú er hægt að úthluta töflunum til tiltekinna grunnstillingarpakka sem hafa
 Eftir að hafa skilgreint töflurnar sem á að fara með sem hluta af grunnstillingu notanda, er auðveldlega hægt að úthluta töflunum til grunnstillingarpakkanna. Hægt er að úthluta töflu á aðeins einn pakka. Í eftirfarandi ferli verður að úthluta pakkanum innan grunnstillingarvinnublaðs.  
 
 > [!NOTE]  
->  Einnig er hægt að búa til pakka beint og bæta við töflum til að hann. Nánari upplýsingar eru í kaflanum „Að stofna grunnstillingarpakka.“
+>  Einnig er hægt að búa til pakka beint og bæta við töflum til að hann. Frekari upplýsingar er að finna í [Að stofna grunnstillingarpakka](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.
 2. Á grunnstillingarvinnublaðinu skal velja línu eða flokk af línum sem á að úthluta á grunnstillingarpakka og svo skal velja aðgerðina **Úthluta pakka**.  
@@ -139,4 +139,3 @@ Eftir að hafa skilgreint töflurnar sem á að fara með sem hluta af grunnstil
 [Uppsetning grunnstillingu fyrirtækis](admin-set-up-company-configuration.md)  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)
-

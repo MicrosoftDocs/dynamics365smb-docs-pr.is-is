@@ -1,6 +1,6 @@
 ---
-title: "Setja upp SEPA kreditfærsla | Microsoft Docs"
-description: "Kynntu þér hvernig á að setja upp SEPA-kreditfærslur í Business Central."
+title: Setja upp SEPA kreditfærsla | Microsoft Docs
+description: Kynntu þér hvernig á að setja upp SEPA-kreditfærslur í Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
+ms.openlocfilehash: 6c35fdb6e5e37eb521b6d51050a552e52b66ec5d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 103ebe376d3384eab119617b903f9a803f248462
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799741"
 ---
 # <a name="set-up-sepa-credit-transfer"></a>Setja upp SEPA-kreditfærslur
 Af síðunni **Greiðslubók** er hægt að flytja út greiðslur í skrá til upphals í netbanka til vinnslu á tengdum peningamillifærslum. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður SEPA-kreditfærslusniðið, en í heimalandi þínu / svæði geta önnur snið fyrir rafrænar greiðslur kunna að vera tiltækir.  
@@ -65,4 +65,3 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
 [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)  
 [Stofna ítrekaðar sölu- og innkaupalínur](sales-how-work-standard-lines.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)  
-

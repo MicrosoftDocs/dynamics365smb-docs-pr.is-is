@@ -1,8 +1,8 @@
 ---
-title: "Hönnunarupplýsingar - Pantanir | Microsoft Docs"
-description: "Þetta efnisatriði veitir upplýsingar um pöntun til pöntunar hlekki í framleiða eftir pöntun umhverfi."
+title: Hönnunarupplýsingar - Pantanir | Microsoft Docs
+description: Þetta efnisatriði veitir upplýsingar um pöntun til pöntunar hlekki í framleiða eftir pöntun umhverfi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, order
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
+ms.openlocfilehash: 4152dfb744215034383239ea98847fbf7b5751e9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 38272b0d777c276c372893082680d89fc33e060c
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800115"
 ---
 # <a name="design-details-order"></a>Hönnunarupplýsingar: pantanir
 Í framleiða eftir pöntun umhverfi, er vara keypt eða framleidd til eingöngu ná ákveðna eftirspurn. Venjulega tekur hún til A-vara og ástæða fyrir að velja Endurpöntunarstefnu pöntunar getur verið að eftirspurn er hverfandi, sem afhendingartími er óveruleg, eða nauðsynlegar eigindir mismunandi.  
@@ -40,4 +40,3 @@ Jafnvel þótt framleiðslufyrirtæki álíti sig framleiða eftir pöntun geur 
 [Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)   
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)
-

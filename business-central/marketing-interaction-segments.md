@@ -1,8 +1,8 @@
 ---
-title: "Vera upplýst(ur) um hluta og samskipti þeim tengdum| Microsoft Docs"
-description: "Kynntu þér hvernig skal stofna hluta og skilgreina hópa tengiliða og tiltaka samskipti fyrir hluta."
+title: Vera upplýst(ur) um hluta og samskipti þeim tengdum| Microsoft Docs
+description: Kynntu þér hvernig skal stofna hluta og skilgreina hópa tengiliða og tiltaka samskipti fyrir hluta.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800819"
 ---
 # <a name="managing-interactions-for-segments"></a>Vinna með samskipti fyrir hluta
 Síðan **Hluti** er eins konar vinnublað þar sem hægt er að:
@@ -52,4 +52,3 @@ Upplýsingar um samskiptin sem varða hlutann geta birst á **hlutahausnum**. Ti
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
 [Unnið með Business Central](ui-work-product.md)
-

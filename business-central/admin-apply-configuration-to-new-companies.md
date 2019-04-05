@@ -1,23 +1,23 @@
 ---
-title: "Nota skilgreiningu á ný fyrirtæki | Microsoft Docs"
-description: "Þegar búið er að stofna grunnstillingarpakka er næsta skrefið að virkja pakka til viðskiptamanns fyrir innleiðingu. Grunnstillingin er notuð með nýju auðu fyrirtæki."
+title: Nota skilgreiningu á ný fyrirtæki | Microsoft Docs
+description: Þegar búið er að stofna grunnstillingarpakka er næsta skrefið að virkja pakka til viðskiptamanns fyrir innleiðingu. Grunnstillingin er notuð með nýju auðu fyrirtæki.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c51c3af057e59505ad478b51a40c15605ec0d64b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: 68a0c21fd79d0fffcb2a7d7eb9aeb161f06fba33
-ms.contentlocale: is-is
-ms.lasthandoff: 06/11/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800699"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Nota skilgreiningu á ný fyrirtæki
 Þegar búið er að stofna grunnstillingarpakka er næsta skrefið að virkja pakka til viðskiptamanns fyrir innleiðingu. Þú vinnur með grunnstillingarpakkann innan fyrirtækis sem er nýtt og autt.  
@@ -35,4 +35,3 @@ ms.lasthandoff: 06/11/2018
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)
-

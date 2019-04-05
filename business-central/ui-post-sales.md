@@ -1,8 +1,8 @@
 ---
-title: "Hvernig skal bóka söluskjöl | Microsoft Docs"
-description: "Kynntu þér mismunandi bókunaraðferðir til að bóka söluskjöl."
+title: Hvernig skal bóka söluskjöl | Microsoft Docs
+description: Kynntu þér mismunandi bókunaraðferðir til að bóka söluskjöl.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7ada688f7946d7f857dc6d4a6518b8bcb4e5c707
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800011"
 ---
 # <a name="posting-sales"></a>Sölubókun
 Í **bókunarflokki** á söluskjali er hægt að velja milli eftirfarandi bókunaraðgerða:
@@ -46,5 +46,4 @@ Birgðafærsla er stofnuð í töflunni **birgðafærsla** fyrir hverja sölupö
 [Sala](sales-manage-sales.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

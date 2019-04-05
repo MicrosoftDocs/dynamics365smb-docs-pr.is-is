@@ -1,21 +1,21 @@
 ---
-title: "Hönnunarupplýsingar - Uppsetning vöruhúss | Microsoft Docs"
-description: "Vöruhúsavirkni í Business Central inniheldur mismunandi flækjustig, eins og skilgreint með leyfisheimildum í eindum í boði. Flækjustig vöruhússlausnar er einkum skilgreint með hólfauppsetningu á staðsetningarspjöldum, sem aftur eru leyfisstýrð, svo að aðgangur að hólfauppsetningarreitum ræðst að leyfinu."
+title: Hönnunarupplýsingar - Uppsetning vöruhúss | Microsoft Docs
+description: Vöruhúsavirkni í Business Central inniheldur mismunandi flækjustig, eins og skilgreint með leyfisheimildum í eindum í boði. Flækjustig vöruhússlausnar er einkum skilgreint með hólfauppsetningu á staðsetningarspjöldum, sem aftur eru leyfisstýrð, svo að aðgangur að hólfauppsetningarreitum ræðst að leyfinu.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800284"
 ---
 # <a name="design-details-warehouse-setup"></a>Hönnunarupplýsingar uppsetningvöruhúss
 Vöruhúsavirkni í [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur mismunandi flækjustig, eins og skilgreint með leyfisheimildum í eindum í boði. Flækjustig vöruhússlausnar er einkum skilgreint með hólfauppsetningu á staðsetningarspjöldum, sem aftur eru leyfisstýrð, svo að aðgangur að hólfauppsetningarreitum ræðst að leyfinu. Að auki, forritshlutir í leyfinu stjórna hvaða notandaviðmótskjal til að nota fyrir studda vörugeymsla starfsemi.  
@@ -37,7 +37,7 @@ Nánari upplýsingar um hverja einingu eru á [[!INCLUDE[d365fin](includes/d365f
 
 Eftirfarandi tafla sýnir hvaða eininga er krafist til að skilgreina mismunandi vöruhúsaflækjustig, hvaða viðmótsskjöl styðja hvaða stig og hvaða staðsetningarkóðar endurspegla þessi stig í [!INCLUDE[d365fin](includes/d365fin_md.md)] sýnigagnagrunninum.  
 
-|Flækjustig|Lýsing|Notendaviðmótsskjal|CRONUS birgðageymsla|Lágmarksþörf einda|  
+|Flækjustig|Description|Notendaviðmótsskjal|CRONUS Staðsetning|Lágmarksþörf einda|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
 |1|Engin sérstök vöruhúsaaðgerð.<br /><br /> Bókun móttöku/afhendingar úr pöntunum.|Röð|BLÁTT|Grunnbirgðir|  
 |2|Engin sérstök vöruhúsaaðgerð.<br /><br /> Bókun móttöku/afhendingar úr pöntunum.<br /><br /> Hólfkóði er áskilið.|Pöntun, með hólfkóða|SILFRAÐ|Grunnbirgðir/hólf|  
@@ -130,4 +130,3 @@ Frágangssniðmátinu má úthluta á vöru og á staðsetningu. Frágangssniðm
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)   
 [Hönnunarupplýsingar: Framboð í vöruhúsi](design-details-availability-in-the-warehouse.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Flytja út greiðslur í rafræna greiðsluskrá| Microsoft Docs"
-description: "Til að framkvæma greiðslur lánardrottins, þarf að virkja umskráningarþjónustu fyrir bankagögn, og hlaða upp skránni á netbankanum þínum til að millifæra fjármunina."
+title: Flytja út greiðslur í rafræna greiðsluskrá| Microsoft Docs
+description: Til að framkvæma greiðslur lánardrottins, þarf að virkja umskráningarþjónustu fyrir bankagögn, og hlaða upp skránni á netbankanum þínum til að millifæra fjármunina.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 14015c089e3cd6db19a12fe4eed72d523f3aefc5
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799826"
 ---
 # <a name="export-payments-to-a-bank-file"></a>Flytja út greiðslur í bankaskrá
 Þegar þú ert tilbúinn að inna af hendir greiðslur til lánardrottna, eða endurgreiðslur til starfsmanna, er hægt að flytja út skrá með greiðsluupplýsingum á línurnar á síðunni **Greiðslubók**. Þá er hægt að hlaða upp skránni í netbanka til að meðhöndla tengdan peningaflutning.
@@ -81,4 +81,3 @@ Hægt er að endurútflytja greiðsluskrár af síðunni **Skráningar kreditmil
 [Til greiðslu](payables-manage-payables.md)  
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

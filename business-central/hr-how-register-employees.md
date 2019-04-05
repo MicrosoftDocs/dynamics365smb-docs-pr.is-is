@@ -1,8 +1,8 @@
 ---
-title: "Uppsetning starfsmanna og breytingar á upplýsingum| Microsoft Docs"
-description: "Lýsir hvernig á að skrá nýja Starfsmenn eða breyta upplýsingum fyrir núverandi starfsmenn."
+title: Uppsetning starfsmanna og breytingar á upplýsingum| Microsoft Docs
+description: Lýsir hvernig á að skrá nýja Starfsmenn eða breyta upplýsingum fyrir núverandi starfsmenn.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 74750011c638cf3733e20d7ab996887108bc2159
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800452"
 ---
 # <a name="register-employees"></a>Skrá starfsmenn
 Til að nota eiginleikann Mannauður þarf fyrst að skrá hvern starfsmann með því að búa til spjald með öllum grunnupplýsingum og öðrum tengdum upplýsingum.
@@ -61,4 +61,3 @@ Hægt er að nota önnur aðsetur til að halda utan um aðsetur starfsmanns, ti
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)
-

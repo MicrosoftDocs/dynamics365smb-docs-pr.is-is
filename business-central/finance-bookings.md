@@ -1,6 +1,6 @@
 ---
-title: "Reikningsfærið bókanir í Business Central | Microsoft Docs"
-description: "Fræðist um hvernig á að magnreikningsfæra frá Microsoft Bookings í Business Central."
+title: Reikningsfærið bókanir í Business Central | Microsoft Docs
+description: Fræðist um hvernig á að magnreikningsfæra frá Microsoft Bookings í Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 01/07/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
-ms.contentlocale: is-is
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800594"
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Magnreikningsfærsla frá Microsoft Bookings í [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Magnreikningsfærsla fyrir Microsoft Bookings í [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Ef fyrirtækið þitt notar Bookings forritið í Office 365 geturðu framkvæmt magnreikningsfærslu fyrir fundi. Síðan **Óreikningsfærðar bókanir** í [!INCLUDE[d365fin](includes/d365fin_md.md)] býður upp á lista yfir fullunnar bókanir fyrirtækisins. Á þessari síðu getur valið snögglega þá fundi sem þú vilt reikningsfæra og búið til reikningsdrög fyrir þjónustu sem veitt var.  
 
 ## <a name="connect-to-bookings"></a>Tengjast Bookings
@@ -43,4 +43,3 @@ Notendaþjónustan varðandi reikningsfærða fundi í Bookings er einfaldari en
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Hvernig á að setja upp vinnu- og vélastöðvar | Microsoft Docs"
-description: "**Vinnustöðvarspjald** skipuleggur föst gildi og þarfir viðkomandi framleiðsluforða og stjórnar þannig afköstum framleiðslu þeirrar vinnustöðvar."
+title: Hvernig á að setja upp vinnu- og vélastöðvar | Microsoft Docs
+description: '**Vinnustöðvarspjald** skipuleggur föst gildi og þarfir viðkomandi framleiðsluforða og stjórnar þannig afköstum framleiðslu þeirrar vinnustöðvar.'
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b2db4a7750a9313cc5970ef480518cdbbdca959
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799825"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Setja upp vinnu- og vélastöðvar
 Kerfið greinir á milli þrennskonar afkastagetu: Henni er raðað eftir stigveldi: Á hverju stigi eru undirstig.  
@@ -48,22 +48,22 @@ Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skref
 
 9.  Í reitnum **Útreikningur kostn.verðs** er tilgreint hvort útreikningurinn hér að ofan sé byggður á tímafjölda:  **Tími**; eða fjölda framleiddra eininga:  **Einingar**.  
 10.  Gátmerki er sett í reitinn **Sérstakt kostn.verð** ef tilgreina á kostnaðarverð vinnustöðvar á leiðarlínunni sem vinnustöðin er notuð á. Slíkt kann að eiga við aðgerðir með verulegan mismun í kostnaði afkastagetu miðað við það sem er venjulega unnið í vinnustöðinni.  
-11.  Í reitnum **Birgðaskráningaraðferð** er valið hvort reikna á og bóka frálagsbókun á þessari vinnustöð handvirkt eða sjálfvirkt með annarri hvorri eftirfarandi aðferð.  
+11.  Í reitnum **Birgðaskráningaraðferð** er valið hvort reikna á og bóka frálagsbókun á þessari vinnustöð handvirkt eða sjálfvirkt með annarri hvorri eftirfarandi aðferð.
 
-    |Valkostur|Lýsing|  
-    |----------------------------------|---------------------------------------|  
-    |**Handvirkt**|Notkun er bókuð handvirkt í frálagsbókinni eða framleiðslubók.|
-    |**Framvirkt**|Notkun er reiknuð og bókuð sjálfvirkt þegar framleiðslupöntun er gefin út.|  
-    |**Afturvirkt**|Notkun er reiknuð og bókuð sjálfvirkt þegar framleiðslupöntun er lokið.|  
+|Valkostur|Lýsing|
+|------|-----------|
+|**Handvirkt**|Notkun er bókuð handvirkt í frálagsbókinni eða framleiðslubók.|
+|**Framvirkt**|Notkun er reiknuð og bókuð sjálfvirkt þegar framleiðslupöntun er gefin út.|
+|**Afturvirkt**|Notkun er reiknuð og bókuð sjálfvirkt þegar framleiðslupöntun er lokið.|
 
-    > [!NOTE]  
-    >  Ef nauðsyn krefur er hægt að hundsa birgðaskráningaraðferðina sem er valin hér og á spjaldinu **Vara** í einstökum aðgerðum með því að breyta stillingunum á leiðarlínum.
+> [!NOTE]
+> Ef nauðsyn krefur er hægt að hundsa birgðaskráningaraðferðina sem er valin hér og á spjaldinu **Vara** í einstökum aðgerðum með því að breyta stillingunum á leiðarlínum
 
 12.  Í reitinn **Mælieiningarkóti** er færð inn tímaeiningin sem kostnaðarútreikningar og skipulagning afkastagetu vinnustöðvarinnar eru gerð í.
     Til að geta fylgst stöðugt með notkun verður fyrst að setja upp mæliaðferð. Einingarnar sem eru færðar inn eru grunneiningar. Vinnslutíminn er til dæmis mældur í klukkustundum og mínútum.
 
-    > [!NOTE]  
-    > Ef valið er að nota Dagar Skal hafa það í huga að 1 dagur = 24 klukkustundir - en ekki 8 (vinnustundir).
+> [!NOTE]  
+> Ef valið er að nota Dagar Skal hafa það í huga að 1 dagur = 24 klukkustundir - en ekki 8 (vinnustundir).
 
 13.  Í reitnum **Geta** er tilgreint hvort vinnustöð er með fleiri en einn einstakling við vinnu og eina vél í vinnslu á sama tíma. Ef uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur ekki Vélastöðvaraðgerð verður gildið í þessum reit að vera **1**.  
 14.  Í reitinn **Skilvirkni** er fært inn hlutfall áætlaðra staðlaðra afkasta sem þessi vinnustöð afkastar í raun. Ef fært er inn **100** þýðir það að raunveruleg afköst vinnustöðvarinnar eru þau sömu og staðlaða afkastagetan.  
@@ -106,4 +106,3 @@ Við áætlum á tilföngum með takmarkaða getu tryggir kerfið að engin tilf
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

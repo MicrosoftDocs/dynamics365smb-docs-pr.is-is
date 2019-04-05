@@ -1,6 +1,6 @@
 ---
-title: "Hætta við Business Central | Microsoft Docs"
-description: "Lýsir hvernig á að fjarlægja eða eyða Business Central."
+title: Hætta við Business Central | Microsoft Docs
+description: Lýsir hvernig á að fjarlægja eða eyða Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800489"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Segja upp áskrift að, fjarlægja eða endurstilla [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Ef þú vilt hætta að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] geturðu lokað reikningnum þínum eða látið fjarlægja leyfið af reikningnum. Skrefin sem taka þarf eru mismunandi ef þú ert að nota ókeypis prufuútgáfu eða ef þú ert með mánaðarlega áskrift sem hluta af Office 365 reikningi.  
@@ -51,4 +51,3 @@ Viljirðu fela [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir forritavalmynd 
 [Flutningur viðskiptagagna í Excel](about-export-data.md)  
 [Office Portal](https://portal.office.com)  
 [Hve lengi er prufutímabilið og hvernig hætti ég við?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
-

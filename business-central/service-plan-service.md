@@ -1,8 +1,8 @@
 ---
-title: "Áætla þjónustuferli | Microsoft Docs"
-description: "Útskýrir verkhluta sem felur í sér uppsetningu á reglum og gildum til skilgreiningar á þjónustustefnu og þjónustuferlum."
+title: Áætla þjónustuferli | Microsoft Docs
+description: Útskýrir verkhluta sem felur í sér uppsetningu á reglum og gildum til skilgreiningar á þjónustustefnu og þjónustuferlum.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 2d7fd2c9d1387575254a7014c8a6f18c61c568d3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ee163532fbc7588e45b0fba76a3c578f129d4fe
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799912"
 ---
 # <a name="planning-services"></a>Áætla þjónustu
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að setja upp staðlaða verkhluta sem þarf til að uppfylla þjónustuþarfir fyrirtækisins. Til að gera þetta, verður að ákveða hvaða þjónustuvöru og tilboð þjónustufyrirtæki þitt styður og fyrir hvaða verð.   
@@ -41,4 +41,3 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Setja upp þjónustuvörur og íhluti þjónustuvara](service-how-setup-service-items.md)  
 [Setja upp stöður fyrir þjónustupantanir og viðgerðir](service-order-repair-status.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
-

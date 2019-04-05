@@ -1,24 +1,24 @@
 ---
-title: "Hönnunarupplýsingar - Hleðsla birgðaforstillinga | Microsoft Docs"
-description: "Til að raða út margar uppsprettur eftirspurn og framboð, áætlanagerð kerfi skipuleggur þá á tveggja tíma línur kallast skrá snið."
+title: Hönnunarupplýsingar - Hleðsla birgðaforstillinga | Microsoft Docs
+description: Til að raða út margar uppsprettur eftirspurn og framboð, áætlanagerð kerfi skipuleggur þá á tveggja tíma línur kallast skrá snið.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799659"
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Hönnunarupplýsingar: hleðsla birgðaforstillinga
 Til að raða út margar uppsprettur eftirspurn og framboð, áætlanagerð kerfi skipuleggur þá á tveggja tíma línur kallast skrá snið.  
@@ -103,4 +103,3 @@ Til að raða út margar uppsprettur eftirspurn og framboð, áætlanagerð kerf
  [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)   
  [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
  [Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)
-

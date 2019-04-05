@@ -1,6 +1,6 @@
 ---
 title: Hafist handa | Microsoft Docs
-description: "Lærðu um getu og vinnusviðsmyndir í Business Central, sem er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki."
+description: Lærðu um getu og vinnusviðsmyndir í Business Central, sem er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 12/03/2018
 ms.author: edupont
+ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
-ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
-ms.contentlocale: is-is
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800084"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Auðvelt er að skrá sig og hægt er að yfirfæra fyrirliggjandi viðskiptagögn úr eldra kerfinu. Til að hjálpa þér við áskriftina þína skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -36,7 +36,7 @@ Hér eru nokkur eldsnögg trix, sem gott er að vita af:
 
 Frekari upplýsingar er að finna í [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](across-business-functionality.md). Fyrir yfirlit yfir gildandi getu og hvað er framundan, skaltu skoða útgáfuupplýsingarnar okkar á [Microsoft Dynamics 365 Business Central útgáfuupplýsingar](https://go.microsoft.com/fwlink/?linkid=2047422).  
+Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](across-business-functionality.md). Fyrir yfirlit yfir gildandi getu og hvað er fram undan, skaltu skoða útgáfuupplýsingarnar okkar á [Microsoft Dynamics 365 Business Central útgáfuupplýsingar](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Mín hlutverk
 Síðan Mitt hlutverk byggist á hlutverkamiðaðri hönnun til að veita þér hraðan aðgang að viðskiptaferli og verkfærum viðskiptagreindar sem þú þarft til að sinna starfinu þínu. Endurskoðandi má til dæmis fylgjast með greiðslur og samþykktir og skoða vaxtareikninga afköst myndrit. Skoðaðu alls kyns Mín hlutverk með því að velja táknið **Stillingar** ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingartákn fyrir Mitt hlutverk") efst í hægra horninu, velja **Mínar stillingar** og síðan Mitt hlutverk sem á að skoða. Skrá sig aftur inn til að láta breytinguna taka gildi. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md).
@@ -83,9 +83,9 @@ Ef þú hefur fleiri spurningar mælum við með því að þú spyrjir samféla
 Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search). Einnig er hægt að hafa samband við [[!INCLUDE[d365fin](includes/d365fin_md.md)] Söluteymi](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Önnur Dynamics 365 forrit
-Fara á innihald um önnur Dynamics 365 forrit með því að velja [Dynamics 365](https://docs.microsoft.com/dynamics365) hlekkinn á bláa borðanum efst á þessari síðu. Einnig er hægt að læra meira á [Dynamics 365 Business Central vefsíðan](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Fara á innihald um önnur Dynamics 365 forrit með því að velja [Dynamics 365](https://docs.microsoft.com/dynamics365) hlekkinn á bláa borðanum efst á þessari síðu. Einnig er hægt að læra meira á [Dynamics 365 Business Central vefsíðunni ](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
-Ef þú ert endurskoðandi geturðu skráð þig fyrir [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] fyrir samþættingu við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
+Ef þú ert endurskoðandi geturðu skráð þig fyrir [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] fyrir samþættingu við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í [Velkomin í Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -94,9 +94,8 @@ Ef þú ert endurskoðandi geturðu skráð þig fyrir [!INCLUDE[d365acc_long](i
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem mitt viðskiptainnhólf í Outlook](admin-outlook.md)  
 [Fáðu [!INCLUDE[d365fin](includes/d365fin_md.md)] í farsímann þinn](install-mobile-app.md)  
 [Fylgigögn Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Microsoft Dynamics 365 Business Central útgáfuupplýsingar](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Microsoft Dynamics 365 Business Central Útgáfuupplýsingar](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

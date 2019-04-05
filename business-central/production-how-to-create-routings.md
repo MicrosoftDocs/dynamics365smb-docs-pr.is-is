@@ -1,23 +1,23 @@
 ---
-title: "Hvernig skal búa til leiðir | Microsoft Docs"
-description: "Leið hefur að geyma aðalgögn sem skráir ferlisþarfir vara. Þegar framleiðslupöntun er búin til fyrir vöru stjórnar leið hennar áætlanagerð yfir aðgerðir eins og sýnt er á síðunni **Leið framl.pöntunar** í framleiðslupöntuninni."
+title: Hvernig skal búa til leiðir | Microsoft Docs
+description: Leið hefur að geyma aðalgögn sem skráir ferlisþarfir vara. Þegar framleiðslupöntun er búin til fyrir vöru stjórnar leið hennar áætlanagerð yfir aðgerðir eins og sýnt er á síðunni **Leið framl.pöntunar** í framleiðslupöntuninni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6eb16bd42357646a9e88c4799a3f110be0e294eb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800688"
 ---
 # <a name="create-routings"></a>Stofna leiðir
 Framleiðslufyrirtæki nota leiðir til að stýra framleiðsluferlinu og gera sýnilegt.
@@ -43,11 +43,11 @@ Varðandi framleiðsluuppskriftir, er leiðunum úthlutað til endanlegrar framl
 6.  Í **Aðgerð Nr.**. reitinn er fært inn númer fyrstu aðgerðarinnar, t.d. **10**.  
 7.  Í reitnum **Tegund** er valið hvers konar forði er notaður, t.d. **Vinnustöð**.  
 8.  Í reitnum **númer** er forðinn sem á að nota valinn eða hann sleginn inn í reitinn.  
-9.  Í reitnum **Leiðartengilskóti** er hægt að slá inn kóta til að tengja íhlut við ákveðna aðgerð. Frekari upplýsingar, sjá hlutann „Stofna leiðartengla“.
-10.  Í reitunum **Keyrslutími** og **Uppsetn.tími** er færðir inn þeir vinnslutímar þarf til að framkvæma aðgerð.  
+9.  Í reitnum **Leiðartengilskóti** er hægt að slá inn kóta til að tengja íhlut við ákveðna aðgerð. Frekari upplýsingar er að finna í [Að stofna leiðartengla](production-how-to-create-routings.md#to-create-routing-links).
+10.  Í reitunum **Keyrslutími** og **Uppsetn.tími** er færðir inn þeir vinnslutímar þarf til að framkvæma aðgerð.
 
-    > [!NOTE]  
-    >  Uppsetningartími er reiknaður fyrir hverja framleiðslupöntun en keyrslutími fyrir hverja framleidda vöru.  
+    > [!NOTE]
+    > Uppsetningartími er reiknaður fyrir hverja framleiðslupöntun en keyrslutími fyrir hverja framleidda vöru.  
 
 11.  Í reitnum **Samþætt afkastageta** er tilgreint hversu margar einingar valda forðans eru notaðar til að framkvæma aðgerð. Til dæmis helminga tveir einstaklingar úthlutaðir á eina pökkunaraðgerð keyrslutímann.  
 12.  Haldið er áfram að fylla út línur fyrir allar aðgerðir sem koma við sögu í framleiðslu viðkomandi vöru.  
@@ -126,4 +126,3 @@ Gildistími útgáfunnar er tilgreindur í reitnum **Upphafsdagsetning**.
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

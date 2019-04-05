@@ -1,23 +1,23 @@
 ---
-title: "Hönnunarupplýsingar - töfluuppbygging | Microsoft Docs"
-description: "Til að skilja hvernig víddafærsla vistun og bókun er endurhannað, það er mikilvægt að skilja töflu uppbyggingu."
+title: Hönnunarupplýsingar - töfluuppbygging | Microsoft Docs
+description: Til að skilja hvernig víddafærsla vistun og bókun er endurhannað, það er mikilvægt að skilja töflu uppbyggingu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: b2e87b2ef999c04cc4c878d4ad087329d644b709
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 900605cd276698e3e6146d18e36ed18363b6c99c
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799829"
 ---
 # <a name="design-details-table-structure"></a>Hönnunarupplýsingar töfluuppbygging
 Til að skilja hvernig víddafærsla vistun og bókun er endurhannað, það er mikilvægt að skilja töflu uppbyggingu.  
@@ -26,9 +26,9 @@ Til að skilja hvernig víddafærsla vistun og bókun er endurhannað, það er 
  Þrír nýjjar töflur hafa verið hannað til að stjórna víddasamstæðufærslum.  
 
 ### <a name="table-480-dimension-set-entry"></a>Víddasamstæðufærsla í töflu 480  
- Tafla 480 **Víddasamstæðufærsla** er ný tafla. Ekki er hægt að breyta þessari töflu. Eftir að gögn hafa verið skrifuð í töfluna er ekki hægt að eyða þeim eða breyta. Eyðing ganga útheimtir samanburð við öll tilvik víddasamstæðukennisins í öllum gagnagrunninum, þar á meðal yfirlausnum.  
+ Ekki er hægt að breyta þessari töflu. Eftir að gögn hafa verið skrifuð í töfluna er ekki hægt að eyða þeim eða breyta.
 
-|Nr. reits|Heiti reits|Gagnagerð|Athugasemd|  
+|Nr. reits|Heiti reits|Gerð gagna|Athugasemd|  
 |---------------|----------------|---------------|-------------|  
 |1|**Auðkenni**|Heiltala|>0.0 er f´ratekið fyrir tóma víddarsamstæðuna. Tilvísunarreitur 3 í töflu 481.|  
 |2|**Víddarkóti**|Kóði 20|Töflutengsl við töflu 348|  
@@ -37,8 +37,8 @@ Til að skilja hvernig víddafærsla vistun og bókun er endurhannað, það er 
 |5|**Heiti víddar**|Texti 30|CalcField. Uppfletting í töflu 348|  
 |6|**Nafn víddagildis**|Texti 30|CalcField. Uppfletting í töflu 349|  
 
-#### <a name="table-481-dimension-set-tree-node"></a>Víddasamstæðutrjáhnútur í töflu 481  
- Tafla 481 **Víddasamstæðutrjáhnútur** er ný tafla. Ekki er hægt að breyta þessari töflu. Taflan er notuð til að leita að víddasamstæðu. Ef víddasamstæðan finnst ekki er ný samstæða búin til.  
+### <a name="table-481-dimension-set-tree-node"></a>Víddasamstæðutrjáhnútur í töflu 481  
+ Ekki er hægt að breyta þessari töflu. Taflan er notuð til að leita að víddasamstæðu. Ef víddasamstæðan finnst ekki er ný samstæða búin til.  
 
 |Nr. reits|Heiti reits|Gagnagerð|Athugasemd|  
 |---------------|----------------|---------------|-------------|  
@@ -47,10 +47,10 @@ Til að skilja hvernig víddafærsla vistun og bókun er endurhannað, það er 
 |3|**Auðkenni víddasamstæðu**|Heiltala|AutoIncrement. Notað í reitinn 1 í töflu 480.|  
 |4|**Í notkun**|Boole|Ósatt ef ekki í notkun|  
 
-##### <a name="table-482-reclas-dimension-set-buffer"></a>Endurflokkunarbiðsvæði víddasamstæðu í töflu 482  
- Tafla 482 **Endurflokkunarbiðsvæði víddasamstæðu** er ný tafla. Taflan er notuð til að breyta auðkenni víddasamstæðunnar. Þetta er nauðsynlegt við breytingar á víddargildiskóða og nýjum víddargildiskóða, til dæmis, í töflunni **Endurflokkunarbók vöru**.  
+### <a name="table-482-reclas-dimension-set-buffer"></a>Endurflokkunarbiðsvæði víddasamstæðu í töflu 482  
+ Taflan er notuð þegar þú breytir víddargildiskóða, til dæmis á færslu fjárhagsfærslu með því að nota síðuna **Endurflokkunarbók vöru**.  
 
-|Nr. reits|Heiti reits|Gagnagerð|Athugasemd|  
+|Nr. reits|Heiti reits|Gerð gagna|Athugasemd|  
 |---------------|----------------|---------------|-------------|  
 |1|**Víddarkóti**|Kóði 20|Töflutengsl við töflu 348|  
 |2|**Gildiskóti víddar**|Kóði 20|Töflutengsl við töflu 349.|  
@@ -71,7 +71,7 @@ Til að skilja hvernig víddafærsla vistun og bókun er endurhannað, það er 
 |---------------|----------------|---------------|-------------|  
 |480|**Auðkenni víddasamstæðu**|Heiltala|Tilvísanareitur 1 í töflu 480.|  
 
-#### <a name="changes-to-table-83-item-journal-line"></a>Breytingar á töflu 83 birgðabókarlínu  
+### <a name="changes-to-table-83-item-journal-line"></a>Breytingar á töflu 83 birgðabókarlínu  
  Tvö nýir reitir hafa verið bætt við töflu 83 **Birgðabókarlína**  
 
 |Nr. reits|Heiti reits|Gagnagerð|Athugasemd|  
@@ -79,14 +79,14 @@ Til að skilja hvernig víddafærsla vistun og bókun er endurhannað, það er 
 |480|**Auðkenni víddasamstæðu**|Heiltala|Tilvísanareitur 1 í töflu 480.|  
 |481|**Nýtt auðkenni víddasamstæðu**|Heiltala|Tilvísanareitur 1 í töflu 480.|  
 
-##### <a name="changes-to-table-349-dimension-value"></a>Breytingar á töflu 349 víddargildum  
+### <a name="changes-to-table-349-dimension-value"></a>Breytingar á töflu 349 víddargildum  
  Nýjum reit hefur verið bætt við töflu 349 **Víddargildi**.  
 
 |Nr. reits|Heiti reits|Gagnagerð|Athugasemd|  
 |---------------|----------------|---------------|-------------|  
 |12|**Víddargildi**|Heiltala|AutoIncrement. Notað fyrir tilvísanir í töflu 480 og töflu 481.|  
 
-###### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Töflur sem fá nýtt víddasamstæðukenni reitur 480  
+### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Töflur sem fá nýtt víddasamstæðukenni reitur 480  
  Nýjum reit, 480 **Auðkenni víddasamstæðu**, hefur verið bætt við eftirfarandi töflur. Fyrir töflurnar  sem vista bókuð gögn gefur reiturinn aðeins upp óbreytanlegt yfirlit yfir víddir, sem merkt er sem Kafa niður. Fyrir töflur sem vista vinnuskjöl er hægt að breyta reitnum. Biðminnistöflur í innri notkun þurfa ekki breytanlega eða óbreytanlega eiginleika.  
 
  Ekki er hægt að breyta reitnum 480 í eftirfarandi töflum.  
@@ -195,4 +195,3 @@ Til að skilja hvernig víddafærsla vistun og bókun er endurhannað, það er 
  [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)   
  [Hönnunarupplýsingar: Codeunit 408 víddarstjórnun](design-details-codeunit-408-dimension-management.md)   
  [Hönnunarupplýsingar: Kóðadæmi um breytt mynstur í Breytingar](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

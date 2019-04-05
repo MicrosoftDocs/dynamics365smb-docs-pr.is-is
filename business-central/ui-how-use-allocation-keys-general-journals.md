@@ -1,8 +1,8 @@
 ---
-title: "Nota úthlutunarlykla í færslubókum | Microsoft Docs"
-description: "Lærðu hvernig þú getur notað úthlutunarlykla í færslubókum."
+title: Nota úthlutunarlykla í færslubókum | Microsoft Docs
+description: Lærðu hvernig þú getur notað úthlutunarlykla í færslubókum.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: cost accounting
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 29252df5a45d76de7bfbf5f6dd4c1235cfd65e90
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799503"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Nota úthlutunarlykla í færslubókum
 Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. Úthlutunin getur verið í magni, prósentu eða upphæð.
@@ -25,10 +25,10 @@ Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar fær
 ## <a name="to-set-up-allocation-keys"></a>setja upp úthlutunarlykla
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Ítrekunarfærslubók** og veldu síðan tengda tengilinn.
 2. Veldu reitinn **Runuheiti** til að opna síðuna **Færslubókarkeyrslur**.
-3. Þú getur annað hvort breytt úthlutunum á fyrirliggjandi runu í listanum eða stofna nýja runu með úthlutunum.
+3. Þú getur annað hvort breytt úthlutunum á fyrirliggjandi runu í listanum eða stofnað nýja runu með úthlutunum.
    * Til að stofna nýja runu, velja **Nýtt** aðgerð og farið á næsta skref.
    * Til að breyta úthlutunum fyrir núverandi færslubók, veldu færslubók og farðu í skref 7.    
-4. Í reitnum **Heiti** er fært inn heiti fyrir keyrsluna, eins og Þrif. Í reitnum **Lýsing** færið inn lýsingu, eins og Hreinsa kostnaðarbók.
+4. Í reitnum **Heiti** er fært inn heiti fyrir keyrsluna, eins og Þrif. Í reitnum **Lýsing** skal færa inn lýsingu, eins og Hreinsa kostnaðarbók.
 5. Að því loknu er síðunni lokað. Ný, auð ítrekunarbók opnast.
 6. Reitirnir í línunni eru fylltir út.
 7. Valið er **úthluta** aðgerð.
@@ -47,4 +47,3 @@ Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar fær
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Að bóka skjöl og færslubækur](ui-post-documents-journals.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

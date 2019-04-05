@@ -1,8 +1,8 @@
 ---
-title: "Hönnunarupplýsingar: Takast á við pantanir fyrir upphafsdag | Microsoft Docs"
-description: "Þetta efni lýsir reglunum sem áætlanagerð gildir um pantanir í frystum svæðum."
+title: 'Hönnunarupplýsingar: Takast á við pantanir fyrir upphafsdag | Microsoft Docs'
+description: Þetta efni lýsir reglunum sem áætlanagerð gildir um pantanir í frystum svæðum.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: planning, frozen, design serial, lot
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 9fee9eff60b441ef2d4782a77a6fbbbe8b01af03
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4fc4afa14f9f2a989fae0b1ca8ee0e61fe24fd21
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800317"
 ---
 # <a name="design-details-dealing-with-orders-before-the-planning-starting-date"></a>Hönnunarupplýsingar: Takast á við pantanir fyrir upphafsdag
 Til að forðast að framboðsáætlun sýnir ómögulegt og því gagnslaus tillögur, vinnur áætlanakerfið tímabilið allt til áætlanagerðarupphafsdags sem fryst svæði þar sem ekkert er áætlað fyrir. Eftirfarandi regla gildir um fryst svæði:  
@@ -42,4 +42,3 @@ Ef raðnúmer/lotunúmer þarf eða pöntun-í-pöntun tengill er til staðar hu
 [Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs](design-details-balancing-demand-and-supply.md)   
 [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)   
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)
-

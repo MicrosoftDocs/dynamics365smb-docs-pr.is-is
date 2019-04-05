@@ -1,6 +1,6 @@
 ---
-title: "Hönnunarupplýsingar - áætlunarfæribreyta | Microsoft Docs"
-description: "Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í Business Central."
+title: Hönnunarupplýsingar - áætlunarfæribreyta | Microsoft Docs
+description: Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: aeafdd37a40d393fbb62501d67b14f3e351ea254
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800181"
 ---
 # <a name="design-details-planning-parameters"></a>Hönnunarupplýsingar: áætlunarfæribreyta
 Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í [!INCLUDE[d365fin](includes/d365fin_md.md)]  
@@ -26,10 +26,10 @@ ms.lasthandoff: 11/26/2018
 |-------------|---------------|  
 |Skilgreina ef varan á að vera áætluð|Endurpöntunarstefna = auð|  
 |Skilgreina hvenær á að endurpanta|Tímarammi<br /><br /> Endurpöntunarmark<br /><br /> Öryggisforskot|  
-|Skilgreina hve mikið á að endurpanta|Magn í öryggisbirgðum<br /><br /> Endurpöntunarstefna:<br /><br /> -   Fast endurpöntunarmagn plús endurpöntunarmagn.<br />-   Hámarksmagn plús Hámarksbirgðir<br />-   pöntunina þína inn.<br />-   Lota-fyrir-Lotu|  
+|Skilgreina hve mikið á að endurpanta|Magn í öryggisbirgðum<br /><br /> Endurpöntunarstefna:<br /><br /> -   Fast endurpöntunarmagn plús endurpöntunarmagn.<br />-   Hámarksmagn með Hámarksbirgðir<br />-   Pöntun<br />-   Lotu-fyrir-lotu|  
 |Fínstilling hvenær og hversu mikið aá endurpanta|Enduráætlunartímabil<br /><br /> Lotusöfnunartímabil<br /><br /> Hömlutímabil|  
 |Breyta framboðspöntununum|Lágmarksmagn pöntunar<br /><br /> Hámarksmagn pöntunar<br /><br /> Fjöldapanta|  
-|Afmarka áætluðu vöruna|Framleiðslustefna:<br /><br /> -   Framleiða á lager<br />-   Framleiða eftir pöntun|  
+|Afmarka áætluðu vöruna|Framleiðslustefna:<br /><br /> -   Á lager<br />-   Eftir pöntun|  
 
 ## <a name="define-if-the-item-will-be-planned"></a>Skilgreina ef varan á að vera áætluð  
 Til að fela vöru/ birgðahaldseining í áætlanagerð, verður það að hafa endurpöntunarstefnu, annars verður að skipuleggja handvirkt, til dæmis, með pantanaáætlun.  
@@ -44,7 +44,7 @@ Reiturinn **Tímarammi** er notaður í endurpöntunarstefnum (**Fast endurpönt
 
 Sjálfgefna öryggisforskotið á síðunni **Uppsetning framleiðslu** ætti að vera stillt á að minnsta kosti einn dag. Lokadagur eftirspurnar er vitað, en ekki lokatími. Áætlunargerðin er gerð afturvirkt til að mæta mikilli eftirspurn og, ef einginn afhendingartími er skilgreindur í öryggisskyni, gætu vörurnar komið of seint og ekki mætt eftirspurn.  
 
-Þrír viðbótar endurpöntunartímabilsreitir gegna einnig hlutverki í því að skilgreina hversu mikið þarf að endurpanta: **Enduráætlunartímabil**, **Lotusöfnunartímabil** og **Hömlutímabil**. Nánari upplýsingar er að finna „Fínstilla Hvenær og Hve mikið skal endurpanta“ hlutanum.  
+Þrír viðbótar endurpöntunartímabilsreitir gegna einnig hlutverki í því að skilgreina hversu mikið þarf að endurpanta: **Enduráætlunartímabil**, **Lotusöfnunartímabil** og **Hömlutímabil**. Nánari upplýsingar er að finna [Bjartsýni Hvenær og Hvernig Mikill að Endurraða](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## <a name="define-how-much-to-reorder"></a>Skilgreina hve mikið á að endurpanta  
 Ef áætlanakerfið greinir þörfina á að endurpanta er valin endurpöntunarstefna notuð til að ákvarða hvenær og hversu mikið á að panta.  
@@ -57,7 +57,7 @@ Ef áætlanakerfið greinir þörfina á að endurpanta er valin endurpöntunars
 4. Ef það er meiri brúttóeftirspurn til afhendingar fyrir lokadagsetningu framvirkt áætluðu pöntunartillögunnar og þessi eftirspurn færir núverandi áætlaðar tiltækar birgðir niður fyrir öryggisbirgðamagnið er pöntunarmagnið aukið til að bæta upp fyrir hallann. Ráðlögð birgðapöntun er því næst áætluð aftur á bak frá skiladegi vergrar eftirspurnar sem hefði farið út fyrir magn öryggisbirgða.  
 5. Ef ekki er fyllt út í reitinn **Tímarammi** verður eingöngu brúttóeftirspurn á sama gjalddaga bætt við.  
 
-     Eftirfarandi endurpöntunartímabilsreitir gegna einnig hlutverki í því að skilgreina hversu mikið þarf að endurpanta: **Enduráætlunartímabil**, **Lotusöfnunartímabil** og **Hömlutímabil**. Nánari upplýsingar er að finna „Fínstilla Hvenær og Hve mikið skal endurpanta“ hlutanum.  
+     Eftirfarandi endurpöntunartímabilsreitir gegna einnig hlutverki í því að skilgreina hversu mikið þarf að endurpanta: **Enduráætlunartímabil**, **Lotusöfnunartímabil** og **Hömlutímabil**. Nánari upplýsingar er að finna [Bjartsýni Hvenær og Hvernig Mikill að Endurraða](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ### <a name="reordering-policies"></a>Endurpöntunarstefnur  
 Eftirfarandi endurpöntunarstefnur stjórna því hversu mikið er endurpantað.  
@@ -118,4 +118,3 @@ Ef valkosturinn **Framleiða-eftir-pöntun** er notaður greinir áætlanakerfi�
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
 [Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs](design-details-balancing-demand-and-supply.md)   
 [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfis](design-details-central-concepts-of-the-planning-system.md)
-

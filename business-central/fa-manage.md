@@ -1,8 +1,8 @@
 ---
-title: "Eignastjórnun| Microsoft Docs "
-description: "Kynntu þér virkni eigna og fáðu yfirsýn yfir það hvernig skuli vinna með eignir."
+title: 'Eignastjórnun| Microsoft Docs '
+description: Kynntu þér virkni eigna og fáðu yfirsýn yfir það hvernig skuli vinna með eignir.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9569f01f286008b76667e3a524257ba1aac61f91
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800522"
 ---
 # <a name="fixed-assets"></a>Eignir
 Í kerfishlutanum Eignir í [!INCLUDE[d365fin](includes/d365fin_md.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.
@@ -57,4 +57,3 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

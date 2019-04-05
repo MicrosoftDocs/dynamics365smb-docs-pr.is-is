@@ -1,23 +1,23 @@
 ---
-title: "Undirbúa flutning á viðskiptamannagögnum | Microsoft Docs"
-description: "Eftir að búið er að flytja inn og nota uppsetningargögn í nýjan gagnagrunn, er hægt að hefja flutning á fyrirliggjandi aðalgögnum viðskiptamanns, t. d. vöru- og viðskiptamannanúmer og heitum. Til að tryggja að þessi gögn séu stofnuð hratt og nákvæmlega í nýja fyrirtækinu ætti að nota sniðmát til að skipuleggja gögnin."
+title: Undirbúa flutning á viðskiptamannagögnum | Microsoft Docs
+description: Eftir að búið er að flytja inn og nota uppsetningargögn í nýjan gagnagrunn, er hægt að hefja flutning á fyrirliggjandi aðalgögnum viðskiptamanns, t. d. vöru- og viðskiptamannanúmer og heitum. Til að tryggja að þessi gögn séu stofnuð hratt og nákvæmlega í nýja fyrirtækinu ætti að nota sniðmát til að skipuleggja gögnin.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/07/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7861925cc318a7d23c612bc640e6d7e60bc5eed3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799410"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Undirbúa flutning á viðskiptamannagögnum
 Eftir að búið er að flytja inn og nota uppsetningargögn í nýjan gagnagrunn, er hægt að hefja flutning á fyrirliggjandi aðalgögnum viðskiptamanns, t. d. vöru- og viðskiptamannanúmer og heitum. Til að tryggja að þessi gögn séu stofnuð hratt og nákvæmlega í nýja fyrirtækinu ætti að nota sniðmát til að skipuleggja gögnin.  
@@ -115,7 +115,7 @@ Hægt að nota skipulag gagna sem kemur fram í gagnasniðmátum til að umbreyt
 Eftirfarandi skref sýna hvernig eigi að stofna birgðaspjald úr vörugagnasniðmáti. Hægt er að stofna færslu frá hvaða gagnasniðmáti sem er með sömu aðferð.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingarsniðmát** og veldu síðan tengda tengilinn.  
-2. Velja skal sniðmátið **Vara** og síðan velja aðgerðina **Breyta**. Nánari upplýsingar eru í kaflanum „Að stofna gagnasniðmát.“
+2. Velja skal sniðmátið **Vara** og síðan velja aðgerðina **Breyta**. Nánari upplýsingar eru í [Að stofna gagnasniðmát](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Veljið aðgerðina **Stofna tilvik**. Birgðaspjald er stofnað.  
 4. Velja hnappinn **Í lagi**.  
 5. Til að yfirfara birgðaspjaldið veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda tengilinn.  
@@ -140,4 +140,3 @@ Sjálfgefin gildi í völdu viðskiptamannasniðmáti eru sett inn á viðskipta
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)  
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)
-

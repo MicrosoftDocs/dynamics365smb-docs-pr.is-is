@@ -1,23 +1,23 @@
 ---
-title: "Uppsetning grunnstillingu fyrirtækis | Microsoft Docs"
-description: "Innleiðingarferlið hefst með Business Central sem lausnin krefst. Allar þessar upplýsingar eru sameinaðar í grunnstillingarpakka."
+title: Uppsetning grunnstillingu fyrirtækis | Microsoft Docs
+description: Innleiðingarferlið hefst með Business Central sem lausnin krefst. Allar þessar upplýsingar eru sameinaðar í grunnstillingarpakka.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c96d0c5f188b3fb0df0c5d4578a0bdeed7fc7599
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 518acdc1733a526f1b0b4c5caa3a7644d762b72c
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800271"
 ---
 # <a name="set-up-company-configuration"></a>Uppsetning grunnstillingu fyrirtækis
 Innleiðingarferlið hefst með samstarfsaðili Microsoft. Samstarfsaðilinn er ábyrgur fyrir því að fara gegnum upplýsingar um skilgreiningar og stofna pakka sem viðskiptavinur getur auðveldlega notað. Áður en nýtt fyrirtæki er stofnað, er ráðlagt að áætla hvernig það muni vera grunnstillt. Hafa þarf í huga grunnuppsetningargögn og tegundir gagna sem [!INCLUDE[d365fin](includes/d365fin_md.md)] lausnin krefst. Allar þessar upplýsingar eru sameinaðar í grunnstillingarpakka.
@@ -40,4 +40,3 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)
-

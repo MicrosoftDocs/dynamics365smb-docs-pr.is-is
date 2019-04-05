@@ -1,8 +1,8 @@
 ---
-title: "Uppsetning bankaþjónustu| Microsoft Docs"
-description: "Hægt er að nota bankareikningsspjöld til að fylgjast með bankareikningunum þínum og setja upp bankastreymi, eins og t.d. Yodlee, fyrir gagnaskipti."
+title: Uppsetning bankaþjónustu| Microsoft Docs
+description: Hægt er að nota bankareikningsspjöld til að fylgjast með bankareikningunum þínum og setja upp bankastreymi, eins og t.d. Yodlee, fyrir gagnaskipti.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 092d8d3f114eac890c97eca520de7b9adbc37108
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9506abc4296b9c414e942c220f6fb40f0884ea32
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800461"
 ---
 # <a name="setting-up-banking"></a>Uppsetning bankaþjónustu
 Með því að nota bankareikningaspjöld er hægt að fylgjast með öllum bankareikningum, í hvaða gjaldmiðli sem er. Þegar bankareikningar hafa verið settir upp er einnig hægt að nota valkostinn prentskoðun.
@@ -35,4 +35,3 @@ Til að geta notað rafræna bankaþjónustu til að flytja inn bankayfirlit og 
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

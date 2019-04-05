@@ -1,6 +1,6 @@
 ---
-title: "Nota GetAddress.io UK Postcodes viðbætur | Microsoft Docs"
-description: "Sækja heimilisföng aðila á borð við viðskiptamenn, lánardrottna, starfsmann og bankastofnanir í Bretlandi með GetAddress.io þjónustunni."
+title: Nota GetAddress.io UK Postcodes viðbætur | Microsoft Docs
+description: Sækja heimilisföng aðila á borð við viðskiptamenn, lánardrottna, starfsmann og bankastofnanir í Bretlandi með GetAddress.io þjónustunni.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: af4be20798af59f01c870885b7e167fcb94d6bab
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800069"
 ---
-
 # <a name="the-getaddressio-uk-postcodes-extension"></a>Viðbótin GetAddress.io UK Postcodes
 GetAddress.io UK Postcodes viðbótin getur sparað tíma og komið í veg fyrir mistök þegar þú slærð inn heimilisföng fyrir aðila eins og viðskiptamenn, lánardrottna, bankareikninga og starfsmenn. Þegar þú ert til dæmis að búa til viðskiptamann velurðu einfaldlega póstnúmer og [!INCLUDE[d365fin](includes/d365fin_md.md)] sýnir lista yfir heimilisföng. Veldu heimilisfangið sem þú vilt heimilisfangareitir eru fylltir út.  
 
@@ -35,4 +34,3 @@ GetAddress.io UK Postcodes viðbótin getur sparað tíma og komið í veg fyrir
 
 ## <a name="see-also"></a>Sjá einnig
 [Setja upp GetAddress.io UK Postal Code viðbótina](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-

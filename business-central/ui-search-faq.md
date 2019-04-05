@@ -1,6 +1,6 @@
 ---
-title: "Algengar spurningar um Viðmótsleit | Microsoft Docs"
-description: "Þessi grein veitir svör við spurningum sem samstarfsaðilar og viðskiptamenn spyrja oft um Viðmótsleit."
+title: Algengar spurningar um Viðmótsleit | Microsoft Docs
+description: Þessi grein veitir svör við spurningum sem samstarfsaðilar og viðskiptamenn spyrja oft um Viðmótsleit.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 74cd6b136cf5785237640b124472cd26aeff97de
 ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.contentlocale: is-is
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800440"
 ---
 # <a name="tell-me-faq"></a>Algengar spurningar um Viðmótsleit
 Þetta efni svarar spurningum sem háþróaðir notendur okkar spyrja oft um nýja eiginleikann Viðmótsleit, sem hefur komið í stað fyrri leitareiginleika sem kallast **Finna síður og skýrslur**.
@@ -43,4 +43,3 @@ Hjálparefnin birtast á því tungumáli sem þú hefur tilgreint í **Stilling
 
 ## <a name="see-also"></a>Sjá einnig  
 [Að finna eiginleika og upplýsingar](ui-search.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Hvernig á að: Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæðum | Microsoft Docs"
-description: "Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota þrjú grunvöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi."
+title: 'Hvernig á að: Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæðum | Microsoft Docs'
+description: Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota þrjú grunvöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f11719cc9488adf84bca8cd5a23d28caaa75f4bf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800472"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
 Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota eftirfarandi vöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi:  
@@ -35,7 +35,7 @@ Til að nota þessar síður með innri aðgerðum, til dæmis til að tína og 
 - Skilgreina skipulag sjálfgefins hólfs fyrir íhluti og endanlegar vörur sem flæða til og frá aðgerðaforða.  
 - Gera skal á- og frá-hólf sem eru sérnýtt fyrir forða sérstakra aðgerða til að koma í veg fyrir að þær séu tíndar fyrir skjöl á útleið.
 
-Hólfakótar sem eru settir upp á birgðageymsluspjöldum skilgreina sjálfgefið vöruhúsaflæði fyrir tiltekna verkþætti, svo sem íhluti í samsetningardeild. Viðbótaraðgerðir eru til sem tryggja að þegar vörur eru settar í tiltekið hólf er ekki hægt að færa þær eða tína fyrir aðrar aðgerðir. Nánari upplýsingar má nálgast á „Að stofna sérstök íhlutahólf“.
+Hólfakótar sem eru settir upp á birgðageymsluspjöldum skilgreina sjálfgefið vöruhúsaflæði fyrir tiltekna verkþætti, svo sem íhluti í samsetningardeild. Viðbótaraðgerðir eru til sem tryggja að þegar vörur eru settar í tiltekið hólf er ekki hægt að færa þær eða tína fyrir aðrar aðgerðir. Nánari upplýsingar má nálgast í [Að stofna þar til gerð íhlutahólf](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
 
 Eftirfarandi ferli eru byggð á uppsetningu einfaldra vöruhúsaðgerða í kringum framleiðslusvæði. Skrefin eru svipuð fyrir önnur aðgerðasvið, svo sem samsetningu, þjónustustýringu og verk.  
 
@@ -142,4 +142,3 @@ Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

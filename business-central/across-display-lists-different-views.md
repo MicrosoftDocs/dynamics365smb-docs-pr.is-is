@@ -1,8 +1,8 @@
 ---
-title: "Stilltu fjölda smáatriða sem birtast á listum | Microsoft Docs"
-description: "Hægt er að birta listana sundurliðaða og fá þannig fram frekari upplýsingar, eða sem reiti sem auðvelt er að skanna sjónrænt."
+title: Stilltu fjölda smáatriða sem birtast á listum | Microsoft Docs
+description: Hægt er að birta listana sundurliðaða og fá þannig fram frekari upplýsingar, eða sem reiti sem auðvelt er að skanna sjónrænt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personalization
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 8f196f8df6683b0a7d11e75b8da53861facab0c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dcad65142e4f2c9fc9ab6c5ab01ed4bb057721a0
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799944"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Birting lista á mismunandi hátt
 Í efra hægra horni hvaða lista sem er í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tákn sem breyta því hvernig listinn er sýndur. Hægt er að skoða lista sem sundurliðaðan lista sem er stöðluð sýn. Einnig er hægt að skipta yfir í reitasýn, þar sem færri smáatriði eru birt fyrir viðkomandi skrá og færslum er raðað eins og reitum. Þessi sýn er mjög gagnleg til að fá yfirlit yfir margar færslur og er sérlega gagnleg í smærri tækjum þar sem auðvelt er að pikka á hverja færslu.
@@ -30,4 +30,3 @@ Hægt er að flytja inn mynd fyrir tiltekna vöru með því að fara í spjaldi
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
-

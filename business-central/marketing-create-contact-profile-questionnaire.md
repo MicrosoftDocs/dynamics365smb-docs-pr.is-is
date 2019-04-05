@@ -1,6 +1,6 @@
 ---
-title: "Nota forstillingar til að flokka tengiliði"
-description: "Setja upp spurningalista forstillingar til að auðvelda flokkun á viðskiptatengiliðum"
+title: Nota forstillingar til að flokka tengiliði
+description: Setja upp spurningalista forstillingar til að auðvelda flokkun á viðskiptatengiliðum
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
+ms.openlocfilehash: 1007bdb689b72cf3eccfc5c15c2df9e3c760d8b3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799909"
 ---
-
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Nota spurningalista forstillingar til að flokka viðskiptatengiliði
 Hægt er að setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn. Innan hvers spurningalista er hægt að setja upp þær mismunandi spurningar sem spyrja á tengiliðina.  
 
@@ -158,7 +157,4 @@ Svo er síðan **Upplýs. forstillingarspurningar** fylltur út sem hér segir:
 Þegar spurningalista forstillingar sem inniheldur þessa spurningu er úthlutað á tengilið færir kerfið sjálfkrafa viðeigandi svar fyrir tengiliðinn í forstillingarlínurnar á tengiliðaspjaldinu.
 
 ## <a name="see-also"></a>Sjá einnig
-[Einstaklingstengiliðir stofnaðir](marketing-create-contact-persons.md)  
-[Stofna einstaklingstengilið](marketing-how-create-contact-persons.md)  
-[Fyrirtækjatengiliðir stofnaðir](marketing-create-contact-companies.md)  
-
+[Stofna tengiliði](marketing-create-contact-companies.md)  

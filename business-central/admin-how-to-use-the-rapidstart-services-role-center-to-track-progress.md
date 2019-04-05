@@ -1,26 +1,26 @@
 ---
-title: "Hvernig á að nota Mitt hlutverk RapidStart Services innleiðara | Microsoft Docs"
-description: "Þegar RapidStart Services er notuð mælum við með því rekja vinnuna og nota Mitt hlutverk RapidStart Services innleiðara því hún býður upp á rétt samhengi fyrir grunnstillingarvinnuna."
+title: Hvernig á að nota Mitt hlutverk RapidStart Services innleiðara | Microsoft Docs
+description: Þegar RapidStart Services er notuð mælum við með því rekja vinnuna og nota Mitt hlutverk RapidStart Services innleiðara því hún býður upp á rétt samhengi fyrir grunnstillingarvinnuna.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
-ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799505"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Nota Mitt hlutverk RapidStart Services innleiðara
-Þegar RapidStart Services er notuð mælum við með því að nota Mitt hlutverk RapidStart Services innleiðara því hún býður upp á rétt samhengi fyrir grunnstillingarvinnuna. Nánari upplýsingar eru í kaflanum „Að breyta Mitt hlutverk“ í [Breyta grundvallarstillingum](ui-change-basic-settings.md).
+Þegar RapidStart Services er notuð mælum við með því að nota Mitt hlutverk RapidStart Services innleiðara því hún býður upp á rétt samhengi fyrir grunnstillingarvinnuna. Frekari upplýsingar er að finna í [Að breyta Hlutverkamiðstöð](ui-change-basic-settings.md#to-change-role-center).
 
 Þegar haldið er áfram með verkið, er hægt að úthluta hverri töflu stöðuna sem endurspeglar hvar notandi er staddur í ferlinu. [!INCLUDE[d365fin](includes/d365fin_md.md)] hendir síðan reiður á töflustöðunni í hlutanum **Aðgerðir** í Mitt hlutverk.  
 
@@ -46,4 +46,3 @@ Sjálfgefið er að þegar töflu er bætt við grunnstillingarvinnublaðið, er
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)
-

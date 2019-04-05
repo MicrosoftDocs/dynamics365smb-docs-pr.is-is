@@ -1,23 +1,23 @@
 ---
-title: "Hvernig á að: Breyta áætlunartillögum í myndrænu yfirliti | Microsoft Docs"
-description: "Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður þær eru færðar inn með því að keyra aðgerðina **Framkvæma aðgerðarboð**. Í stað þess að gera þetta í áætlunarvinnublaðinu er notað myndrænt yfirlit."
+title: 'Hvernig á að: Breyta áætlunartillögum í myndrænu yfirliti | Microsoft Docs'
+description: Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður þær eru færðar inn með því að keyra aðgerðina **Framkvæma aðgerðarboð**. Í stað þess að gera þetta í áætlunarvinnublaðinu er notað myndrænt yfirlit.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 35b8694710f031d99e4cfb6b5e0927266d7559b9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800490"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Breyta áætlunartillögum í myndrænu yfirliti
 Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður þær eru færðar inn með því að keyra aðgerðina **Framkvæma aðgerðarboð**. Í stað þess að gera þetta í áætlunarvinnublaðinu er notað myndrænt yfirlit.
@@ -42,7 +42,7 @@ Eftirfarandi ferli sýnir hvernig eigi að breyta framboðstillögum með því 
     Síðan **Vara til ráðstöfunar samkvæmt tímalínu** opnast með vörunúmerinu, staðsetningu og afbrigði vörunnar í völdum áætlunarlínum forvöldum í flýtiflipanum **Valkostir**. Flýtiflipinn **Tímalína** sýnir myndræna lýsingu á áætluðum birgðum vörunnar, að meðtöldum áætlunartillögum.  
 
 2.  Ganga þarf úr skugga um að reiturinn **Taka með áætlunartillögur** sé valinn.  
-3.  Finna ráðlagða framboðspöntun sem ætlunin er að breyta. Hægt er að auðkenna breytanlegar einingar með græna hringnum og disktákninu. Nánari upplýsingar um tákn eru í „Tákn og táknmyndir í flýtiflipa tímalínu“.  
+3.  Finna ráðlagða framboðspöntun sem ætlunin er að breyta. Hægt er að auðkenna breytanlegar einingar með græna hringnum og disktákninu. Nánari upplýsingar um mismunandi tákn er að finna í [Tákn og táknmyndir í flýtiflipa tímalínu](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
 4.  Setjið bendilinn yfir græna hringinn þar til hann stækkar og bendillinn breytist í færsluformið (fjórar örvar).  
 5.  Haldið inni músarhnappi á meðan bendillinn er færður til upp eða niður til að breyta magni. Haldið inni músarhnappi á meðan bendillinn er færður til vinstri eða hægri til að breyta lokadeginum.  
 6.  Auk þess að flytja einingar með því að draga og sleppa er hægt að breyta áætlunartillögum með því að nota ýmsar aðgerðir með fellilistanum. Opna skal flettilista fyrir grænan hring tillagðrar framboðseiningar og ein eftirfarandi aðgerða valin  
@@ -64,9 +64,9 @@ Til að virkja breytingar á framboðsáætluninni þarf að fylgja aðgerðarbo
  |Black cross|Pantanir (bæði framboð og eftirspurn).<br /><br /> -   Má ekki breyta.<br />-   Sjáanleg þegar reiturinn **Sýna áætlaðar birgðir** er valinn (appelsínugult myndrit).|  
  |Rauður hringur|Núverandi framboðspantanir sem eru ekki í áætlunartillögum.<br /><br /> -   Má ekki breyta.<br />-   Sjáanleg þegar reiturinn **Sýna áætlaðar birgðir** er valinn (appelsínugult myndrit).|  
  |Gul stjarna|Spá um eftirspurn.<br /><br /> -   Má ekki breyta.<br />-   Sjáanleg þegar reiturinn **Heiti spár** hefur gildi.<br /><br /> Ef bæði reitirnir **Sýna áætlaðar birgðir** og **Taka með áætlunartillögur** eru valdir hefur hver gul stjarna samsvarandi stjörnu í hinu línuritinu. Þetta sýnir hvernig tillaga um framboð uppfyllir eftirspurnarspána.|  
- |Grænn hringur með tákni sem lagað er eins og diskur með rauðum krossi|Tillögð framboðspöntun með aðgerðaboðunum *Hætta við*.<br /><br /> -   Má ekki breyta.<br />-   Sjáanleg þegar reiturinn **Taka með áætlunartillögur** er valinn (grænt línurit).|  
- |Grænn hringur með tákni sem lagað er eins og diskur með stjörnu|Tillagðar framboðspöntun með aðgerðaboðunum *Nýtt*.<br /><br /> -   Má breyta.<br />-   Sjáanleg þegar reiturinn **Taka með áætlunartillögur** er valinn (grænt línurit).|  
- |Grænn hringur með tákni sem lagað er eins og diskur með einni eða tveimur örvum|Tillagðar birgðapantanir með aðgerðarboðunum *Endurtímasetja*, *Breyta magni*, eða *Endurtímasetja og Breyta magni*<br /><br /> -   Má breyta.<br />-   Sjáanleg þegar reiturinn **Taka með áætlunartillögur** er valinn (grænt línurit).<br /><br /> Örvarnar endurspegla stefnu áætlunartillögu. Til dæmis endurspeglar vinstri ör ásamt upp ör aðgerðaboð *Endurtímasetja og Breyta magni* sem samanstanda af afturvirkri endurröðun og aukningu magns.|  
+ |Grænn hringur með tákni sem lagað er eins og diskur með rauðum krossi|Tillögð framboðspöntun með aðgerðaboðunum *Hætta við*.<br /><br /> -   Má ekki breyta.<br />-   Sjáanleg þegar reiturinn **Taka með áætlunartillögur** er valinn (grænt línurit)|  
+ |Grænn hringur með tákni sem lagað er eins og diskur með stjörnu|Tillagðar framboðspöntun með aðgerðaboðunum *Nýtt*.<br /><br /> -   Má breyta.<br />-   Sjáanleg þegar reiturinn **Taka með áætlunartillögur** er valinn (grænt línurit)|  
+ |Grænn hringur með tákni sem lagað er eins og diskur með einni eða tveimur örvum|Tillagðar birgðapantanir með aðgerðarboðunum *Endurtímasetja*, *Breyta magni*, eða *Endurtímasetja og Breyta magni*<br /><br /> -   Má breyta.<br />-   Sjáanleg þegar reiturinn **Taka með áætlunartillögur** er valinn (grænt línurit)<br /><br /> Örvarnar endurspegla stefnu áætlunartillögu. Til dæmis endurspeglar vinstri ör ásamt upp ör aðgerðaboð *Endurtímasetja og Breyta magni* sem samanstanda af afturvirkri endurröðun og aukningu magns.|  
 
 Þegar þú opnar flettilista á **Tímalína** birtast eftirfarandi aðgerðir, eftir því hvar er smellt.  
 
@@ -99,4 +99,3 @@ Auk lyklaborðsaðgerðanna sem áður var minnst á er einnig hægt að nota ef
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Notkun C5 gagnaflutningsviðbótar | Microsoft Docs"
-description: "Þessi viðbót er notuð til að flytja viðskiptamenn, lánardrottna, vörur og fjárhagsreikninga úr Microsoft Dynamics C5 2012 í Business Central."
+title: Notkun C5 gagnaflutningsviðbótar | Microsoft Docs
+description: Þessi viðbót er notuð til að flytja viðskiptamenn, lánardrottna, vörur og fjárhagsreikninga úr Microsoft Dynamics C5 2012 í Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: e35b4329c8f9b4672591531524c9391e1a8c4868
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5c89d841cdf0e92af4a3dc497cb9c807798e3924
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800319"
 ---
-
 # <a name="the-c5-data-migration-extension"></a>C5-gagnaflutningsviðbótin
 Þessi viðbót auðveldar flutning viðskiptamanna, lánardrottna, vara og fjárhagsreikninga úr Microsoft Dynamics C5 2012 í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hægt er að flytja elrdi færslur fyrir fjárhagsreikning.
 
@@ -96,6 +95,9 @@ Ef reikningar eru fluttir eru eftirfarandi gögn einnig flutt:
 > [!Note]
 > Sögulegar fjárhagsfærslur eru meðhöndlaðir aðeins öðruvísi. Þegar þú flytur gögn stillirðu færibreytuna **Núverandi tímabil**. Þessi færibreyta tilgreinir hvernig á að vinna úr fjárhagsfærslum. Færslur eftir þessa dagsetningu eru fluttar hver fyrir sig. Færslum fyrir þessa dagsetningu er safnað saman fyrir hvern reikning og fluttar sem ein upphæð. Segjum sem dæmi að það séu færslur á árunum 2015, 2016, 2017, 2018 og þú tilgreinir 1. janúar 2017 í reit núverandi tímabils. Fyrir hvern reikning verður upphæðum fyrir færslur á eða fyrir 31. desember 2016 safnað saman í eina færslubókarlínu fyrir hverja fjárhagsfærslu. Allar færslur eftir þennan dag verða fluttar hver fyrir sig.
 
+## <a name="file-size-requirements"></a>Kröfur um skráarstærð
+Stærsta skráin sem þú getur hlaðið upp til [!INCLUDE[d365fin](includes/d365fin_md.md)] er 150 MB. Ef skráin sem þú ert að flytja út úr C5 er stærri en það, skaltu íhuga að flytja gögn í mörgum skrám. Til dæmis, flytja eina eða tvær gerðir eininga úr C5, svo sem viðskiptavinum og lánardrottnum, í skrá, og síðan flytja út hluti í annarri skrá, og svo framvegis. Hægt er að flytja inn skrár hver í sínu lagi í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
 ## <a name="to-migrate-data"></a>Til að flytja gögn
 Það eru aðeins nokkur skref fólgin í því að flytja út gögn úr C5 og flytja þau inn í [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -148,4 +150,3 @@ Ein leið til að sannreyna að gögnin hafi verið rétt flutt inn er með þv�
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
 [Hafist handa](product-get-started.md)
-

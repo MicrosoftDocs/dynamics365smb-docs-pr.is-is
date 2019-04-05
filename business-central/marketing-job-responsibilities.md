@@ -1,8 +1,8 @@
 ---
-title: "Setja upp starfsábyrgð fyrir tengiliði| Microsoft Docs"
-description: "Hægt er að skilgreina starfsábyrgðarkóða og úthluta honum til tengiliðs til að gefa til kynna hvaða verkhluta tengiliður þinn ber ábyrgð á í sínu fyrirtæki, t.d. upplýsingatækni eða framleiðslu."
+title: Setja upp starfsábyrgð fyrir tengiliði| Microsoft Docs
+description: Hægt er að skilgreina starfsábyrgðarkóða og úthluta honum til tengiliðs til að gefa til kynna hvaða verkhluta tengiliður þinn ber ábyrgð á í sínu fyrirtæki, t.d. upplýsingatækni eða framleiðslu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 62d8f733dbfdb6b3da78368e553deef1ea208072
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799686"
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Setja upp starfsábyrgðir fyrir tengilið.
 Þú getur bætt við upplýsingum um starfsábygð tengiliðar til að gefa til kynna hvað tengiliðurinn er ábyrgur fyrir innan síns fyrirtækistil dæmis upplýsingatækni, stjórnun eða framleiðsla. Þessar upplýsingar er hægt að nota þegar færðar eru inn upplýsingar um tengiliði.
@@ -45,7 +45,5 @@ Fjöldi vinnuverkefna sem þú hefur úthlutað tengiliðnum birtist á **Fjöld
 Eftir að tengiliðum hefur verið úthlutað starfsábyrgðum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Frekari upplýsingar eru í [Bæta tengiliðum við hluta](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Sjá einnig
-[Einstaklingstengiliðir stofnaðir](marketing-create-contact-persons.md)  
-[Fyrirtækjatengiliðir stofnaðir](marketing-create-contact-companies.md)  
+[Stofna tengiliði](marketing-create-contact-companies.md)  
 [Unnið með Business Central](ui-work-product.md)
-

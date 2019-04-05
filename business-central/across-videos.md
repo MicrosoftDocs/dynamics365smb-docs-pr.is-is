@@ -1,8 +1,8 @@
 ---
-title: "Fræðslumyndbönd um hvernig á að nota Business Central | Microsoft Docs"
-description: "Veitir aðgang að myndböndum sem hjálpa þér að komast af stað og læra Hvernig á að framkvæma algeng verk"
+title: Fræðslumyndbönd um hvernig á að nota Business Central | Microsoft Docs
+description: Veitir aðgang að myndböndum sem hjálpa þér að komast af stað og læra Hvernig á að framkvæma algeng verk
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 71e92f587ac5697b96aca937e6a6d4b00dc41902
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: b9f8ba9113cdac79dfd8b20d99c194e834578a8e
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800710"
 ---
 # <a name="visit-our-video-library"></a>Skoðaðu myndbandasafnið okkar
 Vinsamlegast sýndu okkur þolinmæði á meðan við endurbyggjum fræðslumyndbandssafnið okkar. Hliðarverkun nýlegra úrbóta í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að við verðum að endurgera efni okkar þannig að það endurspegli nákvæmlega vöruna. 
@@ -35,7 +35,7 @@ Hægt er að nálgast myndböndin á ólíka vegu. Þegar þú byrjar [!INCLUDE[
 > [!Tip]  
 > Myndskeið í safninu birtast í ramma sem virðist vera mjög lítill. Til að stækka rammann skal velja örvartáknið sem bendir í tvær áttir efst í hægra horni rammans. Eftir það birtast myndskeið í stærri ramma þar til þau eru smækkuð aftur.
 
-Hægt er að skoða fræðslumyndböndin okkar, ásamt fullt af öðru efni, á YouTube rásinni sem var búin til fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. [Smelltu hér](https://go.microsoft.com/fwlink/?linkid=851533) ef þú vilt skoða rásina núna.
+Einnig er hægt að skoða fræðslumyndböndin okkar, ásamt fullt af öðru efni, á YouTube rásinni sem var búin til fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. [Smelltu hér](https://go.microsoft.com/fwlink/?linkid=851533) ef þú vilt skoða rásina núna.
 
 ## <a name="content-that-is-coming-soon"></a>Efni sem er væntanlegt
 Bara til að minnast á nokkur dæmi þá munu myndböndin sem við erum að uppfæra sýna hvernig eigi að:  
@@ -49,4 +49,3 @@ Bara til að minnast á nokkur dæmi þá munu myndböndin sem við erum að upp
 
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa](product-get-started.md)
-

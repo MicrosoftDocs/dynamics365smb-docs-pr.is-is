@@ -1,23 +1,23 @@
 ---
-title: "Flytja gögn viðskiptamanna | Microsoft Docs"
-description: "Hægt er að flytja núverandi gögn viðskiptamanna úr fyrirliggjandi ERP-kerfi yfir í Business Central með því að nota RapidStart Services. Hægt er að nota Excel. xlsx skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að opna þau beint í fyrirtækinu."
+title: Flytja gögn viðskiptamanna | Microsoft Docs
+description: Hægt er að flytja núverandi gögn viðskiptamanna úr fyrirliggjandi ERP-kerfi yfir í Business Central með því að nota RapidStart Services. Hægt er að nota Excel. xlsx skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að opna þau beint í fyrirtækinu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799415"
 ---
 # <a name="migrate-customer-data"></a>Flytja gögn viðskiptamanna
 Hægt er að flytja núverandi gögn um viðskiptavini úr fyrirliggjandi ERP-kerfi yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að nota gagnaflutningstæki RapidStart Services. Hægt er að nota Excel-skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að slá þau beint inn í fyrirtækið.
@@ -92,14 +92,14 @@ Ef taflan er auð mun gagnaflutningsskráin innihalda auð hólf fyrir þá reit
 
 - Ef sömu varpanir eru skilgreindar beint fyrir reit og í tengdu töflunni, en mismunandi gildi eru til staðar, þá mun vörpunin sem er skilgreind beint fyrir reitinn vera notuð yfir vörpunina sem er skilgreind fyrir töfluna sem reiturinn vísar í.  
 
-Í ferlunum sem fylgja ætti að athuga fyrirfram hvaða gildum á að halda við flutningsferlið. Til að framkvæma eftirfarandi ferli þarf að gagnaflutningsskrár (.xlsx) sem hafa verið fluttar úr [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í kaflanum „Að flytja út nauðsynlegar gagnaflutningsskrár.“
+Í ferlunum sem fylgja ætti að athuga fyrirfram hvaða gildum á að halda við flutningsferlið. Til að framkvæma eftirfarandi ferli þarf að gagnaflutningsskrár (.xlsx) sem hafa verið fluttar úr [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í [Að flytja út gagnaflutningsskrár](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.
 2. Opna skal pakkann fyrir fyrirtækið sem um ræðir.  
 3. Veljið töfluna sem á að varpa gildum fyrir og síðan á flipanum **Töflur** skal velja aðgerðina **Töflur**.  
 4. Fyrir hvern reit sem á að varpa skal velja aðgerðina **Vörpun**.  
 5. Í reitinn **Gamalt gildi** skal færa inn gildið sem á að breyta. Í reitinn **Nýtt gildi** skal færa inn nýtt gildi í stað gamla gildisins. Velja hnappinn **Í lagi**.  
-6. Innflutningur gagna viðskiptamanns Nánari upplýsingar eru í kaflanum „Að flytja inn gögn viðskiptamanns.“
+6. Innflutningur gagna viðskiptamanns Nánari upplýsingar eru í [Að flytja inn gögn viðskiptamanns](admin-migrate-customer-data.md#to-import-customer-data).
 7. Í reitnum **Fjölda pakkavillna** skal athuga hvort einhverjar villur eru tilkynntar. Ef það er, skaltu fara niður til að sjá villurnar. Síðan **Stilla pakkafærslur** opnast.
 8. Veljið aðgerðina **Sýna villur**. Þú færð eftirfarandi villu: **<option> er ekki gildur valkostur. Gildir valkostir eru <valid option list>**. Velja hnappinn **Í lagi**.  
 9. Til að nota vörpunina sem sett var upp skal velja aðgerðina **Nota gögn**.  
@@ -115,7 +115,7 @@ Eftirfarandi dæmi sýnir hvernig [!INCLUDE[d365fin](includes/d365fin_md.md)] in
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 2. Veljið töfluna sem á að bæta við fleiri gildum fyrir og síðan á flipanum **Töflur** skal velja aðgerðina **Reitir**.  
 3. Fyrir reitina þar sem [!INCLUDE[d365fin](includes/d365fin_md.md)] á að heimila viðbótargildi við flutning skal velja gátreitinn **Stofna kóða sem vantar**.  
-4. Innflutningur gagna viðskiptamanns Nánari upplýsingar eru í kaflanum „Að flytja inn gögn viðskiptamanns.“
+4. Innflutningur gagna viðskiptamanns Nánari upplýsingar eru í [Að flytja inn gögn viðskiptamanns](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Til að hreinsa upp og meðhöndla gögn fyrir jöfnun gagna
 Í sumum tilfellum kanntu að vilja hreinsa upp gögn viðskiptamanns áður en þau eru sett í gagnagrunninn. Til að gera það er hægt að nota runuvinnsluna **Grunnstilling pakka - Ferli** til að laga vandamál á borð við:  
@@ -134,7 +134,7 @@ Eftir að runuvinnslan hefur verið keyrð skal nota eftirfarandi ferli til að 
 
 Til að fá aðstoð með XML skal virkja flipann **Forritari** á Excel-borðanum og velja svo aðgerðina **Uppruni** til að sjá XML-skema flutningstöflunnar eins og hún kemur fyrir í Excel.
 
-Eftirfarandi ferli er byggt á Excel-vinnublaði sem hefur verið stofnað fyrir yfirfærslu. Nánari upplýsingar eru í kaflanum „Að flytja út nauðsynlegar gagnaflutningsskrár.“
+Eftirfarandi ferli er byggt á Excel-vinnublaði sem hefur verið stofnað fyrir yfirfærslu. Nánari upplýsingar eru í [Að flytja út gagnaflutningsskrár](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
 > Ekki breyta dálkum í Excel-vinnublöðunum. Ef gögnin eru færð, þeim breytt eða þeim eytt er ekki hægt að flytja vinnublaðið inn í [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -187,4 +187,3 @@ Gagnagrunnur fyrirtækis viðskiptavinar er nú uppsettur og grunngögn eru flut
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)
-

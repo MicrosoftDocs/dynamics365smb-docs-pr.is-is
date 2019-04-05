@@ -1,8 +1,8 @@
 ---
-title: "Umsjón hluta og val á tilteknum tengiliðum| Microsoft Docs"
-description: "Útskýrir hvernig skal stofna hluta til að velja tiltekinn hóp tengiliða út frá sérstökum forsendum, t.d. tengiliðir sem tilheyra tilteknum iðnaði sem þú vilt ná sambandi við."
+title: Umsjón hluta og val á tilteknum tengiliðum| Microsoft Docs
+description: Útskýrir hvernig skal stofna hluta til að velja tiltekinn hóp tengiliða út frá sérstökum forsendum, t.d. tengiliðir sem tilheyra tilteknum iðnaði sem þú vilt ná sambandi við.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: c49ccda1632eccabb412cfe44f59abd1ed2efc09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fab3aed9e8c426d6a8840177f63f74afe808428d
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800509"
 ---
 # <a name="managing-segments"></a>Umsjón hluta
 Hlutar eru stofnaðir til að velja hóp tengiliða í út frá tilteknum forsendum. Til dæmis getur hluti verið starfsgreinin sem tengiliðirnir tilheyra eða viðskiptatengsl við tengiliðina. Hægt er að stofna hluta til að velja tengiliðina sem miða á herferð á.
@@ -39,4 +39,3 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Vinna með tengiliði](marketing-contacts.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

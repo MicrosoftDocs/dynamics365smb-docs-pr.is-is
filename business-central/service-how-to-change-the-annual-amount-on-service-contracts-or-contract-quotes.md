@@ -1,21 +1,21 @@
 ---
-title: "Hvernig á að breyta Árlegri upphæð þjónustusamnings eða samningstilboðs | Microsoft Docs"
-description: "Hægt er að breyta upphæðinni sem verður reiknuð árlega á þjónustusamningum eða þjónustusamningstilboðum."
+title: Hvernig á að breyta Árlegri upphæð þjónustusamnings eða samningstilboðs | Microsoft Docs
+description: Hægt er að breyta upphæðinni sem verður reiknuð árlega á þjónustusamningum eða þjónustusamningstilboðum.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
-ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799676"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Breyta árlegri upphæð þjónustusamnings eða samningstilboðs
 Hægt er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs til að leiðrétta upphæðina sem verður reikningsfærð árlega.  
@@ -188,4 +188,3 @@ Að lokum verða þessi gögn í samningslínunum.
 ## <a name="see-also"></a>Sjá einnig  
 [Búa til þjónustusamninga og þjónustusamningstilboð](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
-

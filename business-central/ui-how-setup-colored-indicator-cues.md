@@ -1,8 +1,8 @@
 ---
-title: "Sérstilla sjónræn merki um virkni bendingar | Microsoft Docs"
-description: "Setja upp litaðan vísi á ramma bendingar til að útvega sérsniðið sjónrænt merki um virkni bendingar."
+title: Sérstilla sjónræn merki um virkni bendingar | Microsoft Docs
+description: Setja upp litaðan vísi á ramma bendingar til að útvega sérsniðið sjónrænt merki um virkni bendingar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: personalize, customize
 ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-how-set-up-colored-indicator-on-cues
+ms.openlocfilehash: 0547091220aa65562766c25fe6a06d456a2c96ad
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 366d762fbfbd2a61253b087577ef2810194e2c35
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800045"
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Setja upp litaðan vísi á bunka
 Þú getur sett upp Bunka sem birtast í Mitt hlutverk þannig að þeir innihaldi vísi sem breytir um lit eftir gagnagildum í bunkum.
@@ -46,4 +46,3 @@ Eftirfarandi tafla sýnir liti sem samsvara valkostir af sem **lágsviðsstíll*
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Viðskiptamenn settir inn í Dynamics 365 endurskoðandaupplifun | Microsoft Docs"
-description: "Kynntu þér hvernig fyrirliggjandi viðskiptamönnum er bætt við Accountant Hub for Dynamics 365."
+title: Viðskiptamenn settir inn í Dynamics 365 endurskoðandaupplifun | Microsoft Docs
+description: Kynntu þér hvernig fyrirliggjandi viðskiptamönnum er bætt við Accountant Hub fyrir Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800302"
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Bæta viðskiptamönnum við yfirlitið þitt í [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -42,4 +42,3 @@ Fyrirtæki sem nota [!INCLUDE [d365fin](includes/d365fin_md.md)] geta boðið þ
 ## <a name="see-also"></a>Sjá einnig
 [Hefjast handa í [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  
 [Úrræðaleit [!INCLUDE[d365acc](includes/d365acc_md.md)]](troubleshooting.md)  
-

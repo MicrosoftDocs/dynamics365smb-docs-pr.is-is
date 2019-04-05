@@ -1,21 +1,21 @@
 ---
-title: "Bókun þjónustu | Microsoft Docs"
-description: "Aðgerðin bókun þjónustu gerir skilvirka vinnslu á skjölum notandans mögulega og viðheldur árangursríkri stefnu í þjónustu við viðskiptamenn. Hægt er að búa til og uppfæra bókuð fylgiskjöl, og búa til fjárhagsfærslur í þjónustusvæði og öðrum einingum til þess að tryggja rétta uppfærslu."
+title: Bókun þjónustu | Microsoft Docs
+description: Aðgerðin bókun þjónustu gerir skilvirka vinnslu á skjölum notandans mögulega og viðheldur árangursríkri stefnu í þjónustu við viðskiptamenn. Hægt er að búa til og uppfæra bókuð fylgiskjöl, og búa til fjárhagsfærslur í þjónustusvæði og öðrum einingum til þess að tryggja rétta uppfærslu.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: b5dba16cae1e767c867544cfae21e12ac7d0f933
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800589"
 ---
 # <a name="service-posting"></a>Þjónustubókun
 Aðgerðin bókun þjónustu gerir skilvirka vinnslu á skjölum notandans mögulega og viðheldur árangursríkri stefnu í þjónustu við viðskiptamenn. Hægt er að búa til og uppfæra bókuð fylgiskjöl, og búa til fjárhagsfærslur í þjónustusvæði og öðrum einingum til þess að tryggja rétta uppfærslu.  
@@ -58,4 +58,3 @@ Eftirfarandi aðgerð notast við bókaðan þjónustureikning sem dæmi, en sam
 ## <a name="see-also"></a>Sjá einnig  
 [Bóka þjónustupantanir](service-how-to-post-service-orders.md)   
 [Stofna þjónustupantanir](service-how-to-create-service-orders.md)
-

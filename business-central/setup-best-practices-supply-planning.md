@@ -1,23 +1,23 @@
 ---
-title: "Uppsetning bestu venjur - Framboðsáætlun | Microsoft Docs"
-description: "Framboðsáætlun er mikilvægt rekstrarsvið. Þegar birgðaáætlun er sett upp og notuð rétt hjálpar hún fyrirtæki að forðast útskipun og minnka bæði pöntunar- og birgðakostnað."
+title: Uppsetning bestu venjur - Framboðsáætlun | Microsoft Docs
+description: Framboðsáætlun er mikilvægt rekstrarsvið. Þegar birgðaáætlun er sett upp og notuð rétt hjálpar hún fyrirtæki að forðast útskipun og minnka bæði pöntunar- og birgðakostnað.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 9b3b6dc26c7af1d2104c5509ba98ba75927cbcad
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8858758c6b4b680e13d54f0222201c67a03dafa3
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799807"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Uppsetning bestu venjur: Framboðsáætlun
 Framboðsáætlun er mikilvægt rekstrarsvið. Þegar birgðaáætlun er sett upp og notuð rétt hjálpar hún fyrirtæki að forðast útskipun og minnka bæði pöntunar- og birgðakostnað.  
@@ -37,4 +37,3 @@ Framboðsáætlun er mikilvægt rekstrarsvið. Þegar birgðaáætlun er sett up
  [Hönnunarupplýsingar: Áætlunarfæribreytur](design-details-planning-parameters.md)   
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

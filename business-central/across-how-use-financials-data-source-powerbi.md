@@ -1,6 +1,6 @@
 ---
-title: "Uppsetning skýrslugerðar fyrir Business Central í Power BI | Microsoft Docs"
-description: "Notandi getur gert gögnin sín aðgengileg sem gagnaveitu í Power BI og byggt upp öflugar skýrslur um stöðu síns reksturs."
+title: Uppsetning skýrslugerðar fyrir Business Central í Power BI | Microsoft Docs
+description: Notandi getur gert gögnin sín aðgengileg sem gagnaveitu í Power BI og byggt upp öflugar skýrslur um stöðu síns reksturs.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ca4c27eaa1fe66e9bee678d6ec197fee7b928bdd
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800448"
 ---
-# <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Notkun [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] Power BI gagnagjafi fyrir skýrslugerð
+# <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Notkun [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sem Power BI gagnagjafa fyrir skýrslugerð
 Notandi getur gert [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-gögnin sín aðgengileg sem gagnaveitu í Power BI og byggt upp öflugar skýrslur um stöðu síns reksturs.  
 
 Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] og hjá Power BI. Einnig þarf að sækja [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
@@ -38,7 +38,7 @@ Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin_long_md](in
 
 Áður en þú býrð til skýrsluna mælum við með að þú flytjir inn Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] þemaskrána.  Þemaskráin mun búa til litaspjald þannig að þú getir búið til skýrslur í sama litastíl og Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] efnispakkinn án þess að þurfa að skilgreina sérsniðna liti fyrir hvert myndefni.
 
-Frekari upplýsingar eru í [Power BI skjöl](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
+Frekari upplýsingar er að finna í [Power BI skráning](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptaupplýsingar](bi.md)  
@@ -46,5 +46,4 @@ Frekari upplýsingar eru í [Power BI skjöl](https://powerbi.microsoft.com/docu
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)   
 [Fjármál](finance.md)  
-[Tenging Power BI við [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  
-
+[Tengja Power BI við [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  

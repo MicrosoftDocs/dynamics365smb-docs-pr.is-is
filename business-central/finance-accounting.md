@@ -1,6 +1,6 @@
 ---
-title: "Upplifun Business Central endurskoðanda | Microsoft Docs"
-description: "Kynntu þér Endurskoðandagáttina fyrir Business Central og Mitt hlutverk endurskoðandi sem styður við innri og ytri endurskoðandann í fyrirtæki viðskiptamanns."
+title: Upplifun Business Central endurskoðanda | Microsoft Docs
+description: Kynntu þér Endurskoðandagáttina fyrir Business Central og Mitt hlutverk endurskoðandi sem styður við innri og ytri endurskoðandann í fyrirtæki viðskiptamanns.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 3a6b49b754eff669e9991e8c4245ef7acd2689db
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800537"
 ---
 # <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Endurskoðandi upplifun í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Engu skiptir hvernig endurskoðandi þú ert, þú getur nýtt þér **Endurskoðandi** Mitt hlutverk sem þitt Heim í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Héðan hefurðu aðgang að öllum síðum sem þú þarft í vinnunni.  
@@ -40,4 +40,3 @@ Ef þú ert endurskoðandi með nokkra viðskiptamenn, geturðu notað [!INCLUDE
 [Bjóða ytri endurskoðanda í þitt [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-invite-external-accountant.md)  
 [Velkomin(n) í [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
 [Dynamics 365 - Accountant Hub á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-

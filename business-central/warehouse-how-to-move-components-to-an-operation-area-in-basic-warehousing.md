@@ -1,23 +1,23 @@
 ---
-title: "Hvernig á að: færa íhluti á aðgerðasvæði í einfaldri grunngerð vöruhúsa | Microsoft Docs"
-description: "Ef vöruvinnsla fer fram í vöruhúsi gæti þurft að færa vörur á milli innri hólfa í samræmi við innri upprunaskjöl, svo sem framleiðslu-, samsetningar- eða þjónustupantanir úr birgðageymslu."
+title: 'Hvernig á að: færa íhluti á aðgerðasvæði í einfaldri grunngerð vöruhúsa | Microsoft Docs'
+description: Ef vöruvinnsla fer fram í vöruhúsi gæti þurft að færa vörur á milli innri hólfa í samræmi við innri upprunaskjöl, svo sem framleiðslu-, samsetningar- eða þjónustupantanir úr birgðageymslu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: a5f103ae832231be521e9faf1d9024cbbb393c33
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799996"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Færa íhluti á aðgerðasvæði í grunnskilgreiningu vöruhúss
 Ef vöruvinnsla fer fram í vöruhúsi gæti þurft að færa vörur á milli innri hólfa í samræmi við innri upprunaskjöl, svo sem framleiðslu-, samsetningar- eða þjónustupantanir úr birgðageymslu.  
@@ -44,7 +44,7 @@ Að öðru kostir getur starfsmaður í vöruhúsi stofnað hana með því að 
 > [!NOTE]  
 >  Ef hreyfing er til staðar fyrir samsetningarpöntun þegar vara er samsett úr sölupöntun er hægt að láta stofna birgðahreyfingaskjalið sjálfkrafa þegar birgðatínsluskjalið sem tekur við fullunnu samsetningarvörunni og bókar afhendingu er búið til. Til að setja þetta upp þarf að velja reitinn **Búa til hreyfingar sjálfvirkt** á **Uppsetning samsetningar** síunni.  
 >   
->  Nánari upplýsingar m samsetningapantanir og grunnskilgreiningar vöruhúsa eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Taka til fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md).  
+>  Nánari upplýsingar um samsetningarpantanir og almennar vöruhúsaaðgerðir eru í [Meðhöndlun á vörum samsetningpöntunar með birgðatínslum](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 Þessi verklýsing sýnir hvernig á að búa til birgðahreyfingu af síðunni **Birgðahreyfing** með því að vísa í útgefna samsetningarpöntun sem upprunaskjal. Ferlið er það sama þegar íhlutir eru færðir fyrir framleiðslupantanir og þjónustupantanir.  
 
@@ -79,4 +79,3 @@ Að öðru kostir getur starfsmaður í vöruhúsi stofnað hana með því að 
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

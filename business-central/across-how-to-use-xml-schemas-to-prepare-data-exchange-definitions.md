@@ -1,26 +1,26 @@
 ---
-title: "Búa til XMLports út frá XML-skemum | Microsoft Docs"
-description: "Notaðu XML skjöl til að setja upp ramma skjalaskipta."
+title: Búa til XMLports út frá XML-skemum | Microsoft Docs
+description: Notaðu XML skjöl til að setja upp ramma skjalaskipta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 91f21f3b6382aee410ea1de51f371999ac86281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fbbf44cd7a98598ed25dadeb4d6e3a8d37a0bfb0
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800428"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Nota XML-skema til að undirbúa skilgreiningar gagnaskipta
 Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptaumgjörð í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að nota XML-skema til að tilgreina hvaða gagnastök á að skiptast á við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þessi aðgerð er gerð á síðunni **XML-skemaskoðun** með því að hlaða XML-skemaskránni, velja viðeigandi gagnastök og ræsa því næst annað hvort skilgreiningu gagnaskipta eða XMLport.  
 
- Þegar búið er að skilgreina hvaða gagnastök á að hafa með, samkvæmt XML-skema, má nota aðgerðina **Mynda XML gátt** til að stofna XMLport-hlut.  
+ Þegar búið er að skilgreina hvaða gagnastök á að hafa með, samkvæmt XML-skema, má nota aðgerðina **Mynda XMLport** til að stofna XMLport-hlutinn.  
 
  Einnig er hægt að nota **Mynda gagnaskiptiskilgreiningu** aðgerð til að frumstilla gagnaskiptiskilgreiningu byggt á völdum gagnastökum sem síðan er lokið í Data Exchange Framework. Þetta stofnar færslu á síðunni **Bókunarskilgreiningar** þar sem haldið er áfram að skilgreina hvaða einingar í SEPA skráakortinu tengjast hvaða reitum í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -69,7 +69,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
     |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
     |**XML-skemakóði**|Tilgreiniað XML-skemaskrá sem var hlaðið í skrefi 5 í „Að hlaða inn XML-skemaskrá“ hlutanum.|  
-    |**Ný XMLport-númer**|Tilgreinið númer XMLport sem er búin til úr þessum XML-skema þegar þú velur **Mynda XMLport** aðgerðina.|  
+    |**Ný XMLport nr.**|Tilgreinið númer XMLport sem er búin til úr þessu XML-skema þegar þú velur **Mynda XMLport** aðgerðina.|  
 
      Línurnar eru nú fylltar hnútum sem tákna allar einingar í XML-skema. Hnútar fyrir einingar sem eru áskyldar samkvæmt XML-skemanu eru sjálfgefið valdir.  
 
@@ -119,17 +119,16 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 2.  Veljið viðkomandi XML-skema og veljið því næst á flipanum **Heima** í **Ferli** hópnum valkostinn **Opna XML skemaskoðun**.  
 
-3.  Í **Ný XMLport-númer** reitnum skal tilgreina númer sem nýja XMLport hlutnum verður gefið þegar það er myndað.  
+3.  Í **Ný XMLport nr.** reitnum skal tilgreina númer sem nýja XMLport-hlutnum verður gefið þegar hann er myndaður.  
 
 4.  Gangið úr skugga um að viðeigandi hnútar séu valdir. Nánari upplýsingar fást í hlutanum „Að velja eða hreinsa hnúta í XML-skema“.  
 
-5.  Á flipanum **Heim**, í flokknum **Vinna**, skal velja **Mynda XMLPort** og vista svo hlutinn sem .txt-skrá á viðeigandi stað.  
+5.  Á flipanum **Heim**, í flokknum **Vinna**, skal velja **Mynda XMLport** og vista svo hlutinn sem .txt-skrá á viðeigandi stað.  
 
-6. Flytja skal inn XMLport í [!INCLUDE[d365fin](includes/d365fin_md.md)] þróunarumhverfið og þýða hana.
+6. Flytja skal nýja XMLport í [!INCLUDE[d365fin](includes/d365fin_md.md)] þróunarumhverfið og þýða hana.
 
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)   
 [Flytja út greiðslur í bankaskrá](payables-how-export-payments-bank-file.md)   
 [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)   
 [Um gagnaskiptaramma](across-about-the-data-exchange-framework.md)
-

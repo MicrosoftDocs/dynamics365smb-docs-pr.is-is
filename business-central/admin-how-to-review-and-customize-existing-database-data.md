@@ -1,24 +1,24 @@
 ---
-title: "Hvernig á að fara yfir og sérstilla fyrirliggjandi gagnagrunnsgögn | Microsoft Docs"
-description: "Þegar grunnstillingarpakki fyrir lausn er stofnaður, er hægt að skoða og sérstilla tiltæk gagnagrunnsgögn svo þau falli betur að þörfum viðskiptavina. Gagnagrunnstaflan verður að tengjast síðu."
+title: Hvernig á að fara yfir og sérstilla fyrirliggjandi gagnagrunnsgögn | Microsoft Docs
+description: Þegar grunnstillingarpakki fyrir lausn er stofnaður, er hægt að skoða og sérstilla tiltæk gagnagrunnsgögn svo þau falli betur að þörfum viðskiptavina. Gagnagrunnstaflan verður að tengjast síðu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: admin-how-to-create-custom-company-configuration-packages
+ms.openlocfilehash: 1f49d437e03ecf45a234574530f1e65d93584dea
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 88b555066b3c41a8b162166f6d137eb8dc33f6de
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799805"
 ---
 # <a name="review-and-customize-existing-database-data"></a>Fara yfir og sérstilla fyrirliggjandi gagnagrunnsgögn
 Þegar grunnstillingarpakki fyrir lausn er stofnaður, er hægt að skoða og sérstilla tiltæk gagnagrunnsgögn svo þau falli betur að þörfum viðskiptavina. Gagnagrunnstaflan verður að tengjast síðu.  
@@ -38,4 +38,3 @@ ms.lasthandoff: 11/22/2018
 
 ## <a name="see-also"></a>Sjá einnig  
  [Vinna með grunnstillingu fyrirtækis í vinnublaði](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-

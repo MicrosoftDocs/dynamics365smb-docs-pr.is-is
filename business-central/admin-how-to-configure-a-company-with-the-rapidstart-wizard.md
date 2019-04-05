@@ -1,23 +1,23 @@
 ---
-title: "Hvernig á að grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti | Microsoft Docs"
-description: "Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að nota leiðsagnarforrit RapidStart Services."
+title: Hvernig á að grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti | Microsoft Docs
+description: Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að nota leiðsagnarforrit RapidStart Services.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 63120671100b7caac7f3cb08bd3fbbcd1d29ff5c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800300"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti
 Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að nota leiðsagnarforrit RapidStart Services.
@@ -33,7 +33,7 @@ Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að 
 
     1. Nota skilgreininguna með því að velja aðgerðina **Nota pakka**. Þetta flytur inn grunnstillingarpakkann og notar gagnagrunnsgögn pakkans á sama tíma.  
 
-    2. Fara skal yfir grunnstillinguna eftir virkjun hennar. Þessi valkostur gerir kleift að fara yfir upplýsingar um skilgreiningar og spurningalista frá félaga og flytja inn nauðsynleg aðalgögn fyrir fyrirtækið. Velja skal aðgerðina **Grunnstillingarvinnublað**. Nánari upplýsingar eru í kaflanum „Ljúka við grunnstillingarspurningalista“ í [Safna uppsetningargildum viðskiptamanns](admin-gather-customer-setup-values.md).  
+    2. Fara skal yfir grunnstillinguna eftir virkjun hennar. Þessi valkostur gerir kleift að fara yfir upplýsingar um skilgreiningar og spurningalista frá félaga og flytja inn nauðsynleg aðalgögn fyrir fyrirtækið. Velja skal aðgerðina **Grunnstillingarvinnublað**. Frekari upplýsingar er að finna í [Að ljúka við spurningalista grunnstillingar](admin-gather-customer-setup-values.md#to-complete-the-configuration-questionnaire).  
 
 6. Flýtiflipinn **Skref 5** er stækkaður. Tilgreinið Mitt hlutverk sem á að vera sjálfgefin fyrir nýja fyrirtækið.  
 
@@ -51,4 +51,3 @@ Síðan **Stofngögn** inniheldur upplýsingar sem hafa verið tilgreindar.
 [Nota skilgreiningu á ný fyrirtæki](admin-apply-configuration-to-new-companies.md)  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)
-

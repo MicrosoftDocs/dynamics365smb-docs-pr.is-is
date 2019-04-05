@@ -1,21 +1,21 @@
 ---
-title: "Hönnunarupplýsingar - vöruhúsakerfi | Microsoft Docs"
-description: "Þetta efnisatriði veitir yfirsýn yfir hönnunina, hugtökin og reglurnar á bak við eiginleika vöruhúsakerfisins í Business Central."
+title: Hönnunarupplýsingar - vöruhúsakerfi | Microsoft Docs
+description: Þetta efnisatriði veitir yfirsýn yfir hönnunina, hugtökin og reglurnar á bak við eiginleika vöruhúsakerfisins í Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 37c432a121c8105fbe982a4f8968094105530e3a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a55be802506d9d8cbaae1cea9801a85c61e7374f
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799846"
 ---
 # <a name="design-details-warehouse-management"></a>Hönnunarupplýsingar vöruhúsakerfi
 Þessi fylgiskjöl veita yfirlit yfir hugtökin og reglurnar sem eru notaðar í valkostum Vöruhúsakerfa í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Það útskýrir hönnun bak við helstu vörugeymsluaðgerðir og hvernig vörugeymslan vinnur með öðrum framboðskeðjuaðgerðum.  
@@ -30,4 +30,3 @@ Til að greina á milli mismunandi flækjustiga vörugeymsla, þetta Gögnunum e
 [Hönnunarupplýsingar: Framboð í vöruhúsi](design-details-availability-in-the-warehouse.md)  
 [Hönnunarupplýsingar: vöruhúsaflæði á innleið](design-details-outbound-warehouse-flow.md)  
 [Hönnunarupplýsingar: Sameining með birgðum](design-details-integration-with-inventory.md)
-

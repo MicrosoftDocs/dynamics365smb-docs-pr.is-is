@@ -1,8 +1,8 @@
 ---
-title: "Greining á sjóðstreymi| Microsoft Docs"
-description: "Lýsir hvernig á að nota feril bundins reiðufés, tekjur og útgjöld, sjóðstreymi og sjóðstreymisspá myndrit til að greina fortíð og framtíð streymi peninga inn og út úr fyrirtækinu þínu."
+title: Greining á sjóðstreymi| Microsoft Docs
+description: Lýsir hvernig á að nota feril bundins reiðufés, tekjur og útgjöld, sjóðstreymi og sjóðstreymisspá myndrit til að greina fortíð og framtíð streymi peninga inn og út úr fyrirtækinu þínu.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 686f678c7459c608f0ef0dccb7bf959bf843e5e6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ac5abf6fe38b60b385ac00d6e0ced982cd59df22
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800639"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Greining á sjóðstreymi í fyrirtækinu þínu
 Eins og þeir segja, reiðufé skiptir öllu. Gröfin á Hlutverkamiðstöð bókhaldara veita innsýn sem getur hjálpað þér að taka ákvarðanir um hvað þú átt að gera með peningana þína.  
@@ -53,4 +53,3 @@ Ef þú vilt skoða spáina, auk þess að spá færslum, geturðu einnig skoða
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md)  
-

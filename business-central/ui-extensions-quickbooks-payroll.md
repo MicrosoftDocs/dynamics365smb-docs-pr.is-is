@@ -1,8 +1,8 @@
 ---
-title: "Notkun á QuickBooks innflutningsviðbót fyrir launaskrár | Microsoft Docs"
-description: "Þetta efnisatriði lýsir því hvernig skal nota viðbótina til að flytja inn launafærslur úr QuickBooks."
+title: Notkun á QuickBooks innflutningsviðbót fyrir launaskrár | Microsoft Docs
+description: Þetta efnisatriði lýsir því hvernig skal nota viðbótina til að flytja inn launafærslur úr QuickBooks.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 01/09/2019
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
 ms.openlocfilehash: ac68f8a4d67224ad55b1c34ff9b2e4ffa2c372aa
-ms.contentlocale: is-is
-ms.lasthandoff: 01/15/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799870"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>QuickBooks-viðbótin fyrir innflutning á launaskrá
 Notaðu QuickBooks-viðbótin fyrir innflutning á launaskrá til að flytja inn launafærslur úr QuickBooks til fjárhagslykla í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til dæmis er þetta gagnlegt þegar þú ert að skipta frá QuickBooks í [!INCLUDE[d365fin](includes/d365fin_md.md)] eða ef þú útvistar launaskrána þína en vilt líka halda utan um það í [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -31,4 +31,3 @@ Frekari upplýsingar er að finna í [innflutningur launafærsla](finance-how-im
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum ](ui-extensions.md)    
 [Fjármál](finance.md)    
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

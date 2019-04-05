@@ -1,23 +1,23 @@
 ---
-title: "Hönnunarupplýsingar - Miðlægar hugmyndir áætlanakerfisins | Microsoft Docs"
-description: "Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru og tímabil sem áætlun gildir um og kemur síðan með tillögur að mögulegum aðgerðum sem notandi getur framkvæmt út frá eftirspurn/framboði og áætlunarfæribreytum vöru."
+title: Hönnunarupplýsingar - Miðlægar hugmyndir áætlanakerfisins | Microsoft Docs
+description: Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru og tímabil sem áætlun gildir um og kemur síðan með tillögur að mögulegum aðgerðum sem notandi getur framkvæmt út frá eftirspurn/framboði og áætlunarfæribreytum vöru.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 06dc378a045f9217cd54a53fef9747fbd9c7ba1b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800457"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfis
 Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru og tímabil sem áætlun gildir um. Þá, í samræmi við lágstigskóða (uppskriftarstaðsetningu), kallar runuvinnslan á kóðaeininguna, sem reiknar út birgðaáætlun með því að jafna framboð-eftirspurn og stinga upp á aðgerðum fyrir notandann. Ráðlagðar aðgerðir birtast sem línu á áætlunvinnublaðinu eða innkaupatillögunni.  
@@ -237,7 +237,7 @@ Viðvörun um frávik birtist ef áætlaðar birgðir eru undir öryggismarki bi
 Yfirleitt sjá sérstakar pöntunartillögur til þess að áætlaðar tiltækar birgðir séu aldrei undir öryggismarki birgða. Þetta þýðir að magnið sem var lagt til er rétt svo nóg til að anna öryggisbirgðum, án tillits til áætlunarfærslubreytum. Í einhverjum aðstæðum verða hins vegar pöntunarbreytur teknar með.  
 
 > [!NOTE]  
->  Áætlanakerfið kann að hafa gleypt varabirgðirnar vísvitandi og mun svo endurnýja þær samstundis. Nánari upplýsingar eru í hlutanum „Öryggisbirgðir má nota“ í [Hönnunarupplýsingar: hleðsla birgðaforstillinga](design-details-loading-the-inventory-profiles.md).
+>  Áætlanakerfið kann að hafa gleypt varabirgðirnar vísvitandi og mun svo endurnýja þær samstundis. Nánari upplýsingar er að finna í [Öryggisbirgðir má nota](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
 
 ### <a name="attention"></a>Athugið  
 Viðvörunin Til athugunar birtist við þrennar aðstæður:  
@@ -289,4 +289,3 @@ Hömlutíma má bæta við tilföng til að draga úr skiptingu reksturs Þetta 
 [Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)   
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
 [Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)
-

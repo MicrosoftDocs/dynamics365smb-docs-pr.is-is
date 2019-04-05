@@ -1,8 +1,8 @@
 ---
-title: "Þjónustustýring sett upp | Microsoft Docs"
-description: "Yfirlit yfir verkhluta til að setja upp Þjónustustýringu sem hentar því hvernig fyrirtæki þitt stýrir þjónustunni."
+title: Þjónustustýring sett upp | Microsoft Docs
+description: Yfirlit yfir verkhluta til að setja upp Þjónustustýringu sem hentar því hvernig fyrirtæki þitt stýrir þjónustunni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c4b8287c8e1c056bd45a30376e96aca1f8f4ddcc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 772022a8224ff81e332783d95e6cd27500a306fa
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799763"
 ---
-
 # <a name="setting-up-service-management"></a>Þjónustustýring sett upp
 Áður en þú getur byrjað að nota eiginleika Þjónustustýringarinnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] þarf hins vegar að setja upp nokkur atriði. Til dæmis er hægt að stofna kótun fyrir staðlaða þjónustu, einkenni, og bilunarkóta, og setja upp þjónustuvörur og þjónustuvörugerðir sem þjónustudeild fyrirtækisins þarfnast.  
 
@@ -47,4 +46,3 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## <a name="see-also"></a>Sjá einnig .
 [Þjónustukerfi](service-service.md)  
 [Hafist handa](product-get-started.md)  
-

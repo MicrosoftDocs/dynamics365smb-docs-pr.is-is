@@ -1,6 +1,6 @@
 ---
-title: "Lágmarkskröfur til notkunar Business Central | Microsoft Docs"
-description: "Lærðu um lágmarks kerfis- og útgáfukröfur til að nota Business Central."
+title: Lágmarkskröfur til notkunar Business Central | Microsoft Docs
+description: Lærðu um lágmarks kerfis- og útgáfukröfur til að nota Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8e69b29eff604a78151b6a6f3ad3564abb04a5b2
 ms.openlocfilehash: 650fb7c92e5d66d238462911011369201d102ea0
-ms.contentlocale: is-is
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800394"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
 Áður en þú ferð inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
@@ -23,8 +23,8 @@ ms.lasthandoff: 11/29/2018
 ## <a name="browsers"></a>Vafrar
 **Chrome fyrir Windows og Firefox fyrir Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfum þessara skjáborðsvafra.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfu af Safari á OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfu Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með Internet Explorer 11 (smíði 11.0.9600.17239) fyrir Windows 10 (32-bita og 64-bita útgáfur). Við mælum með að uppfæra í nýjustu útgáfu Internet Explorer sem er studdur fyrir þína útgáfu af Windows.  
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfu af Microsoft Edge.  
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með Internet Explorer 11 (smíði 11.0.9600.17239) fyrir Windows 10 (32-bita og 64-bita útgáfur). Við mælum með að uppfæra í nýjustu útgáfu Internet Explorer sem er studd fyrir þína útgáfu af Windows.  
 
 ## <a name="mobile-devices"></a>Fartæki
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir Windows er hægt að setja upp á tæki með að minnsta kosti 1GB RAM og Windows 10 Home, Pro, Enterprise eða Education (32-bita og 64-bita útgáfur).  
@@ -43,4 +43,3 @@ ms.lasthandoff: 11/29/2018
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa](product-get-started.md)  
 [Kerfiskröfur fyrir Dynamics 365 Business Central á staðnum](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  
-

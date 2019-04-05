@@ -1,6 +1,6 @@
 ---
 title: Stofna sandkassaumhverfi| Microsoft Docs
-description: "Stofna umhverfi þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa."
+description: Stofna umhverfi þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 10/01/2018
+ms.date: 02/15/2019
 ms.author: solsen
+ms.openlocfilehash: 91db02673c1e408927d9863af9ec6751bc33e480
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 81eb819295a8d2b03f9c53ecd98053d0b1041faa
-ms.contentlocale: is-is
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800246"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -27,48 +27,48 @@ Notandi verður að hafa áskrift að [!INCLUDE[d365fin](includes/d365fin_md.md)
 
 1. Skráðu þig inn í þitt framleiðslutilvik af [!INCLUDE[d365fin](includes/d365fin_md.md)] þjónustunni.
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sandkassaumhverfi** og veldu síðan tengda tengilinn.
-![Sandkassaumhverfi Uppsetning](./media/across-sandbox/sandbox-environment-setup.png)
+<!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
 3. Velja **Stofna**.  
   Annar flipi í vafranum mun opnast til að hægt sé að ljúka uppsetningunni á sandakassaumhverfinu.
 > [!NOTE]  
 >  Ef þú ert með sprettigluggavörn virka í vafranum, skaltu breyta henni þannig að vefslóðir frá *.businesscentral.dynamics.com aðsetrinu verði leyfðar.   
 
 4. Þegar sandkassaumhverfið er tilbúið, verður þér beint inn á leiðsagnarforrit sandkassaumhverfisins.
-![Sandkassi Velkomin(n) Leiðsagnarforrit](./media/across-sandbox/sandbox-wizard.png)
+<!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
 
 5. Veldu **Læra meira** til að lesa um dæmi sem hægt er að prófa í sandkassaumhverfinu. Eða veldu **Loka** til að halda áfram í Hlutverkamiðstöð í [!INCLUDE[d365fin](includes/d365fin_md.md)] sandkassatilvikinu þínu.
 6. Efst í Hlutverkamiðstöðinni birtist tilkynning til að upplýsa þig um að þetta sé sandkassaumhverfi. Einnig er hægt að sjá um hvaða gerð af umhverfi er að ræða í titilstiku biðlarans.
-![Sandkassi Hlutverkamiðstöð Tilkynning](./media/across-sandbox/sandbox-rolecenter-notification.png)  
-Búinn hefur verið til glænýr leigjandi í sandkassaumhverfinu. Þessi leigjandi er uppfullur af sjálfgefnum sýnigögnum fyrir CRONUS fyrirtækið. Engin gögn eru afrituð eða yfirhöfuð flutt frá framleiðsluumhverfinu á meðan stofnun sandkassans stendur.
-7.  Alltaf er hægt að fara til baka á **Sandkassaumhverfi** síðuna og endurstilla sandkassaumhverfið.
+<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> 
+Búinn hefur verið til nýr leigjandi í sandkassaumhverfinu. Þessi leigjandi er uppfullur af sjálfgefnum sýnigögnum fyrir CRONUS fyrirtækið. Engin gögn eru afrituð eða yfirhöfuð flutt frá framleiðsluumhverfinu á meðan stofnun sandkassans stendur.
+
+7. Alltaf er hægt að fara til baka á **Sandkassaumhverfi** síðuna og endurstilla sandkassaumhverfið.
 > [!NOTE]  
 >  Endurstilling sandkassaumhverfisins mun eyða því algerlega og síðan stofna það á ný með sjálfgefnum sýnigögnum.  
 
-8.  Notaðu Business Central gangsetjara smáforrita til að skipta á milli framleiðslu- og sandkassaumhverfisins.
-![Sandkassi  Dynamics365 Valmynd](./media/across-sandbox/sandbox-dynamics365-menu.png)
+8. Notaðu Business Central gangsetjara smáforrita til að skipta á milli framleiðslu- og sandkassaumhverfisins.
+<!-- ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
 
-9.  Það mögulegt fyrir stjórnanda eða annan notanda að takmarka eða jafnvel hindra aðganga sumra notenda að sandkassaumhverfinu. Þetta er hægt að gera með því að nota staðlaða öryggiseiginleika vörunnar, eins og t.d. Notandakort, Notendaflokkar og Heimildasamstæður.
+9. Það mögulegt fyrir stjórnanda eða annan notanda að takmarka eða jafnvel hindra aðganga sumra notenda að sandkassaumhverfinu. Þetta er hægt að gera með því að nota staðlaða öryggiseiginleika vörunnar, eins og t.d. Notandakort, Notendaflokkar og Heimildasamstæður.
 
-![Heimildasamstæður sandkassa](./media/across-sandbox/sandbox-permission-sets.png)
+<!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Ítarleg virkni í sandkassaumhverfinu
-### <a name="the-in-client-designer"></a>Hönnunarviðmót í-biðlara
-Í sandkassaumhverfi er í boði eiginleikinn hönnunarviðmót í-biðlara, sem þú getur virkjað með því að velja hönnunartáknið ![Hönnuður](./media/across-sandbox/sandbox-inclient-design-icon.png) á síðu.
+### <a name="designer"></a>Hönnuður
+Í sandkassaumhverfi er kveikt á **Hönnuður**, sem hægt er að virkja með því að velja hönnunartáknið ![Hönnuður](./media/across-sandbox/sandbox-inclient-design-icon.png) á síðu.
 
-![Hönnunarviðmót í-biðlara](./media/across-sandbox/sandbox-inclient-designer.png)
+<!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ### <a name="enable-the-advanced-user-experience"></a>Gera ítarlega notandaupplifun virka
 Mögulegt er að opna fyrir og prófa ítarlega (fulla) virkni [!INCLUDE[d365fin](includes/d365fin_md.md)] í sandkassa leigjanda með því að stilla **Upplifun** reitinn á **Upplýsingar um fyrirtæki** síðunni.
 
-![Sandkassaumhverfi Ítarlegt](./media/across-sandbox/sandbox-advanced.png)
+<!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->
 
-![Sandkassi Framleiðsla](./media/across-sandbox/sandbox-production.png)
+<!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
 Eftir að þú hefur opnað fyrir ítarlega virkni í sandkassi leigjandi, færðu aðgang að öllum stöðluðu forstillingunum og hlutverkamiðstöðvunum. Einnig er hægt að stofna matsfyrirtæki sem er að fullu uppsett, með sýnigögnum og aðgangi að ítarlegri svæðum vörunnar.
 
-![Sandkassi nýtt fyrirtæki](./media/across-sandbox/sandbox-newcompany.png)
+<!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

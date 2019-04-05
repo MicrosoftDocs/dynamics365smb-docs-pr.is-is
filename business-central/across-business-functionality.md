@@ -1,6 +1,6 @@
 ---
-title: "Fyrirtækjavirkni studd af Business Central | Microsoft Docs"
-description: "Býður upp á eiginleika í formi yfirlits yfir alla fyrirtækjavirkni og deildir sem eru studdar af kerfishlutum, svo sem fjármálum, birgðum og verkefnisstjórnun"
+title: Fyrirtækjavirkni studd af Business Central | Microsoft Docs
+description: Býður upp á eiginleika í formi yfirlits yfir alla fyrirtækjavirkni og deildir sem eru studdar af kerfishlutum, svo sem fjármálum, birgðum og verkefnisstjórnun
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
-ms.contentlocale: is-is
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799914"
 ---
 # <a name="business-functionality"></a>Viðskiptavirkni
 [!INCLUDE[d365fin](includes/d365fin_md.md)] veitir virkni fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega með heildsölu og sérþjónustu. Hins vegar eru flóknari ferli, s.s. samsetning, framleiðsla, þjónusta og beint vöruhúsakerfi einnig studd.
@@ -47,4 +47,3 @@ ms.lasthandoff: 01/22/2019
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

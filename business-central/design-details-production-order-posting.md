@@ -1,23 +1,23 @@
 ---
-title: "Hönnunarupplýsingar - Bókun framleiðslupöntunar | Microsoft Docs"
-description: "Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið."
+title: Hönnunarupplýsingar - Bókun framleiðslupöntunar | Microsoft Docs
+description: Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: b71f12ad075197f1630e681b826ec3dff1f4ddff
-ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800375"
 ---
 # <a name="design-details-production-order-posting"></a>Hönnunarupplýsingar: staða framleiðslupöntunar
 Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið. Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md). Hins vegar er kostnaðarrennsli fyrir samsetningarpantanir síður flókið, sérstaklega vegna þess að bókun samsetningarkostnaðar á sér aðeins stað einu sinni og myndar því ekki birgðir með verkum í vinnslu.
@@ -47,7 +47,7 @@ Verðmæti birgða er reiknað út með því að rekja kostnað við alla hækk
 ||Aukist|Minnkar|  
 |-|---------------|---------------|  
 |**Hráefnisbirgðir**|-   Nettóinnkaup á efni<br />-   Frálag undirsamsetninga<br />-   Neikvæð notkun|Efnisnotkun|  
-|**VÍV-birgðir**|-   Efnisnotkun<br />-   Afkastaveita<br />-   Sameiginl. kostn. framleiðslu|Frálag lokavara (kostnaður framleiddra vara)|  
+|**VÍV-birgðir**|-   Efnisnotkun<br />-   Afkastageta<br />-   Sameiginl. kostn. framleiðslu|Frálag lokavara (kostnaður framleiddra vara)|  
 |**Fullunnar vörur í birgðum**|Frálag lokavara (kostnaður framleiddra vara)|-   Sala (Kostnaður seldra vara)<br />-   Framleiðsluslaki|  
 |**Hráefnisbirgðir**|-   Nettóinnkaup á efni<br />-   Frálag undirsamsetninga<br />-   Neikvæð notkun|Efnisnotkun|  
 
@@ -112,4 +112,3 @@ Raunkostnaður er bókaður á framleiðslupöntunina og borinn saman við stað
  [Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md) [Fjármál](finance.md)  
  [Unnið með Business Central](ui-work-product.md)
-

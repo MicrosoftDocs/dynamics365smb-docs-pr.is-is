@@ -1,23 +1,23 @@
 ---
-title: "Uppsetning kostnaðarbókhald | Microsoft Docs"
-description: "Áður en byrjað er að vinna með kostnaðarbókhald þarf að framkvæma uppsetningarverkefni."
+title: Uppsetning kostnaðarbókhald | Microsoft Docs
+description: Áður en byrjað er að vinna með kostnaðarbókhald þarf að framkvæma uppsetningarverkefni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ca6f16a22c3eb84584e8e522a15eadac6b21ca6a
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799911"
 ---
 # <a name="setting-up-cost-accounting"></a>Uppsetning kostnaðarbókhalds
 Áður en byrjað er að vinna með kostnaðarbókhald þarf að framkvæma uppsetningarverkefni.
@@ -185,4 +185,3 @@ Fyrir hvern fjárhagsreikning er hægt að skilgreina sjálfgefið víddargildi 
 [Flytja og bóka kostnaðarfærslur](finance-transfer-and-post-cost-entries.md)   
 [Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,7 +1,7 @@
 ---
 title: Velkomin(n) | Microsoft Docs
-description: "Útskýrir uppsetningarleiðbeiningar með aðstoð, myndbönd, hjálparefni og síður og síður sem skal nota til undirbúnings fyrir viðskipti í Business Central."
-documentationcenter: 
+description: Útskýrir uppsetningarleiðbeiningar með aðstoð, myndbönd, hjálparefni og síður og síður sem skal nota til undirbúnings fyrir viðskipti í Business Central.
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 44d81c85b1519c3c916a4e6509121afda5b4d5a2
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799499"
 ---
 # <a name="getting-ready-for-doing-business"></a>Undirbúðu þig fyrir að gera viðskipti
 Til hamingju, þú ert búinn að setja upp þitt fyrsta fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -69,4 +69,3 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð O
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

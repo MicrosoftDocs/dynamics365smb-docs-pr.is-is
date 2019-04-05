@@ -1,6 +1,6 @@
 ---
-title: "Fjöltyngi og staðfæring | Microsoft Docs"
-description: "Kynntu þér áhrif tungumáls og landsstaðals á upplifun þína í Business Central."
+title: Fjöltyngi og staðfæring | Microsoft Docs
+description: Kynntu þér áhrif tungumáls og landsstaðals á upplifun þína í Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture
 ms.date: 11/19/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 218b1b825501d64bef9d65640f922e690df3108f
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800311"
 ---
 # <a name="changing-language-and-locale"></a>Breyting á tungumáli og landsstaðli
 
@@ -52,4 +52,3 @@ Hjálparefni fyrir grunnvirkni í [!INCLUDE[d365fin](includes/d365fin_md.md)] er
 ## <a name="see-also"></a>Sjá einnig  
 [Breyta grundvallarstillingum](ui-change-basic-settings.md)  
 [Hafist handa](product-get-started.md)  
-

@@ -1,7 +1,7 @@
 ---
-title: "Notkun Business Central án Outlook | Microsoft Docs"
-description: "Þú getur notað Business Central sem viðstkiptainnhólf þitt í Outlook því það er samþætt við Office 365. Þú getur líka unnið án Outlook í vafra eða á fartækinu þínu."
-documentationcenter: 
+title: Notkun Business Central án Outlook | Microsoft Docs
+description: Þú getur notað Business Central sem viðstkiptainnhólf þitt í Outlook því það er samþætt við Office 365. Þú getur líka unnið án Outlook í vafra eða á fartækinu þínu.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 49ed0eea3af363b368693b9df34bb6284ccc47ce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: adeb5f554014e64921cccb9dc926552a2321d333
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800645"
 ---
 # <a name="using-business-central-without-outlook"></a>Nota Business Central án Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur mikla samþættingu við Office 365 og þú getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)] sem fyrirtækisinnhólf í Outlook. En ef þú ert ekki með Outlook, geturðu unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)] í vafra eða á fartækinu þínu.  
@@ -30,4 +30,3 @@ Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfa
 [Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)  
 [Sækja Business Central í fartækið mitt](install-mobile-app.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)
-

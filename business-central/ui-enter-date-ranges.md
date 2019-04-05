@@ -1,7 +1,7 @@
 ---
-title: "Innsláttur dagsetninga og tíma í Business Central | Microsoft Docs"
-description: "Lærðu hvernig á að slá inn dagsetningar og tíma, þar á meðal ýmsar ábendingar um framleiðni, svo sem hraðskrift, segð og afmarkanir. Sía lista eða skýrslur niður í tiltekna dagsetningu eða tímabil."
-documentationcenter: 
+title: Innsláttur dagsetninga og tíma í Business Central | Microsoft Docs
+description: Lærðu hvernig á að slá inn dagsetningar og tíma, þar á meðal ýmsar ábendingar um framleiðni, svo sem hraðskrift, segð og afmarkanir. Sía lista eða skýrslur niður í tiltekna dagsetningu eða tímabil.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,13 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800009"
 ---
-
 # <a name="working-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tíma í dagatali
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] býður upp á margar leiðir til að slá inn dagsetningar og tíma, þar með talin öflugar aðgerðir sem flýta fyrir gagnaskráningu eða hjálpa þér að skrifa flókna dagatalssegðir. Það eru ýmsar staðir í forritinu þar sem þú getur slegið inn dagsetningar og tíma í reitum. Til dæmis, í sölupöntun, getur þú stillt afhendingardagsetningu. Þegar verið er að afmarka lista eða skýrslugögn er hægt að slá inn dagsetningar og tíma til að staðsetja aðeins þau gögn sem þú hefur áhuga á.
@@ -307,7 +306,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 |`0530`|05:30:00|
 |`5:30:5`|05:30:05|
 |`053005`|05:30:05|
-|`5:30:5,50`|05:30:050,5|
+|`5:30:5,50`|05:30:05.5|
 |`053005050`|05:30:05.05|
 
 Þú ættir að vera meðvitaðir um að millisekúndur séu túlkuð sem tugabrot. Þannig að, til dæmis, `3`, `30`, og `300` þýðir allt 300 millisekúndur, á meðan `03` þýðir `30` og `003` þýðir 3 millisekúndur.
@@ -372,4 +371,3 @@ Til dæmis, ef mælieiningin er klukkustund, er númerinu `5` breytt í 5 klukku
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Dagsetning útreiknings fyrir kaup.](purchasing-date-calculation-for-purchases.md)  
 [Skilgreining skilyrða í síum](ui-enter-criteria-filters.md)  
-

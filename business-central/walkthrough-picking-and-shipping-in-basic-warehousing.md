@@ -1,21 +1,21 @@
 ---
-title: "Tínsla og Afhending í Einfaldar grunngerð vöruhúss | Microsoft Docs"
-description: "Í Business Central, er hægt að framkvæma útleiðarferlið til að tína og afhenda á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins."
+title: Tínsla og Afhending í Einfaldar grunngerð vöruhúss | Microsoft Docs
+description: Í Business Central, er hægt að framkvæma útleiðarferlið til að tína og afhenda á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 1b07a3b064f1bc45a183d0a2d27b810312007a22
-ms.contentlocale: is-is
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799672"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss
 
@@ -55,7 +55,7 @@ Eftirfarandi kynning sýnir aðferð B í fyrri töflu.
 ## <a name="prerequisites"></a>Frumskilyrði  
 Til að ljúka þessari kynningu þarf:  
 
--   CRONUS  International Ltd. er uppsett.  
+-   CRONUS International Ltd. er uppsett.  
 -   Til að gera notanda að starfsmanni vöruhúss í SILVER staðsetningu á eftirfarandi hátt:  
 
     1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsfólk vöruhúss** og veldu síðan tengda tengilinn.  
@@ -70,13 +70,13 @@ Til að ljúka þessari kynningu þarf:
 
         |Tegund færslu|Vörunúmer|Staðsetningarkóði|Hólfkóti|Magn|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Auking|LS-81|SILFRAÐ|S-01-0001 **Athugið:**  Sjálfgefið hólf vörunnar í CRONUS.|20|  
+        |Auking|LS-81|SILFRAÐ|S-01-0001 **Athugið:** Sjálfgefið hólf vörunnar í CRONUS.|20|  
         |Auking|LS-81|SILFRAÐ|S-01-0002|20|  
 
     3.  Valið er **bóka** aðgerð og síðan hnappinn **Já**.  
 
 ## <a name="story"></a>Ferill  
-Stjórnandi vöruhússins hjá CRONUS, Ellen, setur upp SILVER-vöruhúss fyrir grunntínslur þar sem starfsmenn vöruhússins meðhöndla pantanir á útleið hverja fyrir sig. Sá sem vinnur pantanir, býr til sölupöntun með 30 einingum af vöru LS-81 sem afgreiða á til viðskiptamanns 10000 úr SILVER vöruhúsinu. Starfsmaður vöruhússins verður að vera fullviss um að afhendingin sé tilbúin og send til viðskiptamannsins. Öllum tengdum verkum er stjórnað af John á síðunni **Birgðatínsla** sem sjálfkrafa vísar í hólfin þar sem LS-81 er geymt.  
+Stjórnandi vöruhússins hjá CRONUS setur upp SILVER-vöruhúss fyrir grunntínslur þar sem starfsmenn vöruhússins meðhöndla pantanir á útleið hverja fyrir sig. Sá sem vinnur pantanir, býr til sölupöntun með 30 einingum af vöru LS-81 sem afgreiða á til viðskiptamanns 10000 úr SILVER vöruhúsinu. Starfsmaður vöruhússins verður að vera fullviss um að afhendingin sé tilbúin og send til viðskiptamannsins. Öllum tengdum verkum er stjórnað af John á síðunni **Birgðatínsla** sem sjálfkrafa vísar í hólfin þar sem LS-81 er geymt.  
 
 ## <a name="setting-up-the-location"></a>Uppsetning staðsetningarinnar  
 Uppsetning síðunnar **Birgðageymsluspjald** skilgreinir vöruhúsaflæði fyrirtækisins.  
@@ -131,4 +131,3 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
  [Hönnunarupplýsingar: vöruhúsaflæði á innleið](design-details-outbound-warehouse-flow.md)   
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

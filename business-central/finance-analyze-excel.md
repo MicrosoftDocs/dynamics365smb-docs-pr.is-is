@@ -1,6 +1,6 @@
 ---
-title: "Vinna með fjárhagsyfirlit í Excel. | Microsoft Docs"
-description: "Lærðu hvernig hægt er að opna fjárhagsskýrslurnar í Microsoft Excel frá Business Central til að fá betri greiningar."
+title: Vinna með fjárhagsyfirlit í Excel. | Microsoft Docs
+description: Lærðu hvernig hægt er að opna fjárhagsskýrslurnar í Microsoft Excel frá Business Central til að fá betri greiningar.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ef371dda59142f38aa50159ecf305880d34529b
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800222"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Greina fjárhagsskýrslur í Excel Microsoft Excel.
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] geturðu séð afkastavísa (KPIs) og fengið yfirlit yfir fjárhagsstöðu fyrirtækisins. Þú getur einnig opnað lista í Excel og greint gögnin þar. En þú getur einnig flutt út stórar fjárhagsskýrslur eins og t.d. efnahagsreikning eða rekstrarreikning til Excel, greint gögnin og prentað út skýrslurnar.  
@@ -46,4 +46,3 @@ Með innbótinni geturðu fengið fersk gögn frá [!INCLUDE[d365fin](includes/d
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
 [Vinna með Business Central](ui-work-product.md)  
-

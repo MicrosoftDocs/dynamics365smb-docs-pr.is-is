@@ -1,8 +1,8 @@
 ---
-title: "Birta venjulegar Power BI skýrslur| Microsoft Docs"
-description: "Hægt er að nota Power BI skýrslur til að öðlast frekari innsýn í gögnum í listum."
+title: Birta venjulegar Power BI skýrslur| Microsoft Docs
+description: Hægt er að nota Power BI skýrslur til að öðlast frekari innsýn í gögnum í listum.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,21 +12,21 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 2be3a29ad88c46f8b96b9f4bed34602da35fbcb7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 595e6fb7cc8239ea33cf57aadfd8b0f3419323e5
-ms.contentlocale: is-is
-ms.lasthandoff: 06/01/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799818"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Skoða listagögn í Power BI skýrslum í Business Central 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur stjórneiningu fyrir upplýsingakassa á mörgum veigamiklum listasíðum sem veita frekari innsýn í gögnin í listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Notandi getur stofnað sérsniðnar skýrslur til að birta í þessum stjórntakka en hér eru nokkrar grunnreglur sem fylgja skal við stofnun skýrslnanna til að tryggja að þær virki sem skyldi.  
 
 > [!NOTE]  
->   Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin](includes/d365fin_md.md)] og hjá Power BI. Einnig þarf að sækja [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Frekari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem gagnaveitu í Power BI](across-how-use-financials-data-source-powerbi.md).  
+>   Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin](includes/d365fin_md.md)] og hjá Power BI. Einnig þarf að sækja [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Frekari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Gagnamengi skýrslu
-Þegar skýrslan er stofnuð í Power BI Desktop tilgreina gögn uppruna veftengingar eða þjónustu sem inniheldur gögn sem tengjast sem á að tengja skýrslu með lista. Til dæmis ef notandi vill stofna skýrslu fyrir sölulista skal tryggja að gagnamengið innihaldi upplýsingar sem tengjast sölu.  
+Þegar skýrslan er stofnuð í Power BI Desktop skal tilgreina gagnaveitu eða vefþjónustu sem inniheldur gögnin sem tengjast listanum sem á að tengja skýrsluna við. Til dæmis ef notandi vill stofna skýrslu fyrir sölulista skal tryggja að gagnamengið innihaldi upplýsingar sem tengjast sölu.  
 
 Til að afmarka gögn í skýrslum á grundvelli færslunnar sem valin var á listasíðunni verður að nota aðallykil sem skýrslusíu. Aðallykillinn verður að vera hluti af gagnamenginu til að skýrslan verði rétt afmörkuð. Í flestum tilvikum er aðallykill fyrir lista reiturinn **Nr.** .  
 
@@ -76,4 +76,3 @@ Staðfestið að stærð skýrslu sé stillt á 325 x 310 pixla. Vista skal ský
 [Hafist handa](product-get-started.md)    
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Fjármál](finance.md)  
-

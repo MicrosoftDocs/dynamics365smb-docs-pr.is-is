@@ -1,6 +1,6 @@
 ---
-title: "Jafna greiðslur við ógreidd söluskjöl | Microsoft Docs"
-description: "Þú jafna upphæðir greiddar af viðskiptamönnum við tengt söluskjal og bóka svo greiðsluna til að uppfæra viðskiptamann, fjárhag og bankafærslur."
+title: Jafna greiðslur við ógreidd söluskjöl | Microsoft Docs
+description: Þú jafna upphæðir greiddar af viðskiptamönnum við tengt söluskjal og bóka svo greiðsluna til að uppfæra viðskiptamann, fjárhag og bankafærslur.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/17/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b437246b22583e8e040bef78811765297ae2e675
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00d7bb259ad8a8a494016746179b428b7975a8f
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "799764"
 ---
-# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Afstemma greiðslur viðskiptamanna handvirkt úr lista yfir ógreidd söluskjöl
+# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Afstemma greiðslur viðskiptamanna úr lista yfir ógreidd söluskjöl
 Þegar viðskiptamenn hafa greitt inn á rafrænan bankareikning, verður að jafna hverja greidda upphæð við tengt söluskjal og bóka svo greiðsluna til að uppfæra viðskiptamann, fjárhag og bankafærslur. Það fer eftir þörfum fyrirtækis þíns, þú getur fengið greitt og skráð þessi greiðslu á mismunandi vegu: handvirkt, sjálfkrafa og með greiðsluþjónustu.  
 
 > [!NOTE]  
 >   Þú getur framkvæmt sömu verk, þar á meðal greiðslur lánardrottins á síðunni **greiðsluafstemmingarbók** með því að nota aðgerð fyrir innflutning bankayfirlits, sjálfvirk jöfnun, og afstemming bankareiknings. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
-Síðan **Skrá greiðslur viðskiptamanns** er hönnuð til að styðja þig í verkum sem tengjast afstemmingu innri reikninga með því að nota raunverulegar reiðufjártölur til að ganga úr skugga um að greiðslur séu innheimtar á skilvirkan hátt frá viðskiptamönnum. Þetta greiðsluvinnsluverkfæri gerir þér kleift að staðfesta og bóka á skjótan hátt stakar- eða fastagreiðslur, meðhöndla greiðsluafslætti við mismunandi aðstæður og að finna ákveðin ógreidd fylgiskjöl sem greiðslur eru gerðar til.
+Síðan **Skrá greiðslur viðskiptamanns** er hönnuð til að styðja þig í verkum sem tengjast afstemmingu innri reikninga með því að nota raunverulegar reiðufjártölur til að ganga úr skugga um að greiðslur séu innheimtar á skilvirkan hátt frá viðskiptamönnum. Þetta greiðsluvinnsluverkfæri gerir þér kleift að staðfesta og bóka á skjótan hátt stakar greiðslur eða fastagreiðslur, meðhöndla greiðsluafslætti við mismunandi aðstæður og að finna ákveðin ógreidd fylgiskjöl sem greiðslur eru gerðar fyrir.
 
-Greiðslur fyrir mismunandi viðskiptamenn, sem hafa mismunandi borgunardagsetningu, verður að bóka sem einstaka greiðslur. Greiðslur fyrir sama viðskiptamann, sem hafa sömu borgunardagsetningu, er hægt að bóka sem fastagreiðslu. Þetta er gagnlegt, til dæmis, ef viðskiptamaður hefur gert staka greiðslu sem nær yfir marga sölureikninga.
+Greiðslur fyrir mismunandi viðskiptamenn, sem hafa mismunandi borgunardagsetningu, verður að bóka sem einstaka greiðslur. Greiðslur fyrir sama viðskiptamann, sem hafa sömu greiðsludagsetningu, er hægt að bóka sem fastagreiðslu. Þetta er gagnlegt, til dæmis, ef viðskiptamaður hefur gert staka greiðslu sem nær yfir marga sölureikninga.
 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Uppsetning greiðsluskráningarbókar
 Þar sem hægt er að bóka nokkrar greiðslutegundir á nokkra mótreikninga verður að velja mótreikning á síðunni **Uppsetning skráningar greiðslna** áður en greiðslur viðskiptamanns eru unnar. Ef alltaf er bókað á sama mótreikninginn, er hægt að stilla þann reikning sem sjálfgefinn og forðast þetta skref í hvert sinn sem síðan **Skrá greiðslur viðskiptamanna** er opnuð.  
@@ -54,9 +54,9 @@ Greiðsluupplýsingarnar eru bókaðar í fylgiskjölum og sýndar sem línur þ
 
 Greiðslufærslur eru bókaðar í fjárhags-, banka- og viðskipta- eða viðskiptamannareikningum. Hver greiðsla er jöfnuð við tengt bókað söluskjal.  
 
-## <a name="to-reconcile-lump-payments"></a>Stemma af fastagreiðslur
+## <a name="to-reconcile-lump-sum-payments"></a>Að stemma af fastagreiðslur
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skráning greiðslna** og veldu síðan tengda hlekkinn.
-2. Veljið gátreitinn **greiðsla framkvæmd** á línunum sem standa fyrir bókuðu fylgiskjölin fyrir sama viðskiptamanninn sem fastagreiðsla hefur verið gerð fyrir.  
+2. Veljið gátreitinn **Greiðsla framkvæmd** í línunum sem standa fyrir bókuðu fylgiskjölin fyrir sama viðskiptamanninn sem fastagreiðsla hefur verið gerð fyrir.  
 
     > [!NOTE]  
     >   Viðskiptamaðurinn í reitnum **Nafn** verður að vera eins í öllum línum sem verða bókaðar sem fastagreiðsla.  
@@ -65,19 +65,19 @@ Greiðslufærslur eru bókaðar í fjárhags-, banka- og viðskipta- eða viðsk
 3. Í reitnum **dagsetning móttöku**, færið inn dagsetninguna sem greiðslan var gerð á. Þessi dagsetning má vera önnur en vinnudagsetningin.  
 
     > [!NOTE]  
-    >   Þessi dagsetning verður að vera sú sama á öllum línum sem verða bókaðar sem fastagreiðslur.  
+    >   Þessi dagsetning verður að vera sú sama í öllum línum sem verða bókaðar sem fastagreiðslur.  
 4. Í reitnum **móttekin greiðsla**, færið inn upphæðir á margar línur sem ná samanlagt upp í fastagreiðsluupphæðina.  
 
     > [!TIP]  
-    >   Reynið að bóka eins margar fullnaðargreiðslur og mögulegt er í fastagreiðslunni. Færa inn upphæðir sem eru þær sömu og upphæðin í reitnum **Eftirstandandi upphæð** á eins margar línur og mögulegt er.  
-5. Endurtakið skref 2-4 fyrir aðrar línur sem standa fyrir bókuð skjöl fyrir sama viðskiptamanninn og fastagreiðsla hefur verið gerð fyrir.  
+    > Reynið að bóka eins margar fullnaðargreiðslur og mögulegt er í fastagreiðslunni. Færa inn upphæðir sem eru þær sömu og upphæðin í reitnum **Eftirstandandi upphæð** á eins margar línur og mögulegt er.  
+5. Endurtakið skref 2-4 fyrir aðrar línur sem standa fyrir bókuð skjöl fyrir sama viðskiptamann eða lánardrottin sem fastagreiðsla hefur verið gerð fyrir.  
 6. Valið er **bóka sem fastgreiðslu** aðgerð. Innfærðar Greiðsluupplýsingarnar eru bókaðar í fylgiskjölum og sýndar sem línur þar sem gátreiturinn **Greiðsla framkvæmd** er valinn.  
 
 Greiðslufærslur eru bókaðar í fjárhags-, banka- og viðskiptavinalykil. Hver greiðsla er jöfnuð við tengt bókað söluskjal.  
 
-Ef greiðsla í bankanum er ekki tilgreind með línu á síðunni **Skráning greiðslna**, getur það verið vegna þess að tengt fylgiskjal hefur enn ekki verið bókað. Í því tilviki, er hægt að nota leitareiginleika til að finna skjalið hratt og bóka það til að meðhöndla greiðsluna. Nánari upplýsingar má nálgast á „Til að finna tiltekið söluskjal sem er ekki reikningsfært að fullu“. hlutanum.  
+Ef greiðsla í bankanum er ekki tilgreind með línu á síðunni **Skráning greiðslna**, getur það verið vegna þess að tengt fylgiskjal hefur enn ekki verið bókað. Í því tilviki, er hægt að nota leitareiginleika til að finna skjalið hratt og bóka það til að meðhöndla greiðsluna. Frekari upplýsingar er að finna í [Til að finna tiltekið söluskjal sem er ekki reikningsfært að fullu](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að opna fyrirfram útfyllta færslubók á síðunni **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur. Frekari upplýsingar eru í hlutanum "Greiðslur skráðar eða bókaðar án tengdra fylgiskjala"  
+Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að opna fyrirfram útfyllta færslubók á síðunni **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur. Frekari upplýsingar eru í [Að skráð eða bóka greiðslu án tengdra fylgiskjala](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Meðhöndla greiðslur með afslætti handvirkt
 Ef samið hefur verið um greiðsluafslátt við viðskiptamanninn, getur greiðsluupphæðin verið lægri en reikningsupphæðin ef greiðslan á sér stað fyrir umsamda afsláttardagsetningu.  
@@ -187,4 +187,3 @@ Ef færslubókarlínan er óbókuð, bætir hún við gildinu úr reitnum **ób�
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,21 +1,21 @@
 ---
-title: "Kynning - Framkvæmd söluherferðar | Microsoft Docs"
-description: "Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvægur þáttur í uppsetningu herferðar hefur með val á markhópi hennar að gera. Í þessum tilgangi er búinn til í Business Central hluti eða hópur tengiliða með afmörkunum."
+title: Kynning - Framkvæmd söluherferðar | Microsoft Docs
+description: Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvægur þáttur í uppsetningu herferðar hefur með val á markhópi hennar að gera. Í þessum tilgangi er búinn til í Business Central hluti eða hópur tengiliða með afmörkunum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "800331"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Kynning: Framkvæmd söluherferðar
 Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvægur þáttur í uppsetningu herferðar hefur með val á markhópi hennar að gera. Í þessum tilgangi er búinn til í [!INCLUDE[d365fin](includes/d365fin_md.md)] hluti eða hópur tengiliða með afmörkunum.  
@@ -45,7 +45,7 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
  Áður en hægt er að framkvæma verk hér í kynningunni þarf að setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="story"></a>Ferill  
- Markaðsstjóri söludeildar CRONUS Ísland hf. er ábyrgur fyrir skipulagningu og framkvæmd herferða. Hann tekur einnig ákvarðanir um hvaða sölusýningum á að taka þátt í, auk þess að meta framvindu herferða.  
+ Markaðsstjóri söludeildar CRONUS er ábyrgur fyrir skipulagningu og framkvæmd herferða. Hann tekur einnig ákvarðanir um hvaða sölusýningum á að taka þátt í, auk þess að meta framvindu herferða.  
 
  Starfsmaður markaðsdeildarinnar sér um framleiðslu, dreifingu og birtingu markaðsefnis.  
 
@@ -199,4 +199,3 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 [Umsjón með venslum](marketing-relationship-management.md)  
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
