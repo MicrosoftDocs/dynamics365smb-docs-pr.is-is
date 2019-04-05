@@ -1,7 +1,7 @@
 ---
-title: "Búa til og stjórna vörulistaatriðum| Microsoft Docs"
-description: "Lýsir hvernig á að eiga viðskipti með hluti sem eru í lista seljanda yfir vörur en ekki í eigin lista yfir vörur."
-documentationcenter: 
+title: Búa til og stjórna vörulistaatriðum| Microsoft Docs
+description: Lýsir hvernig á að eiga viðskipti með hluti sem eru í lista seljanda yfir vörur en ekki í eigin lista yfir vörur.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: 780aabb1bcd37cfd912f84da7b956a146a918eef
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836136"
 ---
 # <a name="work-with-catalog-items"></a>Vinna með vörulistaatriði
 Þú getur boðið ákveðnar vörur til viðskiptamanna þinna til þæginda, sem þú vilt ekki stjórna í kerfinu þínu fyrr en þú byrjar að selja þær. Þegar þú vilt byrja að stjórna slíkum vörum í kerfinu þínu, getur þú breytt þeim í venjuleg birgðaspjöld á tvo vegu.
@@ -66,11 +66,10 @@ Stofnuð eru Nýtt birgðaspjald sem er forútfyllt með upplýsingum úr vörul
 Hægt er síðan að fylla inn í eða breyta reitum á nýja birgðaspjaldinu eins og þörf krefur. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Tilvísunarskrá yfir vöru er sjálfkrafa búin til fyrir lánardrottinn vörunnar á milli vörunúmers lánardrottins og nýja vörunúmers þíns.
+>   Tilvísunarskrá yfir vöru er sjálfkrafa búin til fyrir lánardrottinn vörunnar á milli vörunúmers lánardrottins og nýja vörunúmers þíns. Frekari upplýsingar er að finna í [Nota millivísanir vöru](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)|  
 [Birgðir](inventory-manage-inventory.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

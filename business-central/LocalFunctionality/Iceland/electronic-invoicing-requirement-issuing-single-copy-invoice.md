@@ -1,23 +1,23 @@
 ---
-title: "Kröfur fyrir rafræna reikningsfærslu við útgáfu reikninga í einriti"
-description: "Á Íslandi þarf að senda skýrslu til hins opinbera ef reikningur er prentaður oftar en einu sinni."
+title: Kröfur fyrir rafræna reikningsfærslu við útgáfu reikninga í einriti
+description: Á Íslandi þarf að senda skýrslu til hins opinbera ef reikningur er prentaður oftar en einu sinni.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f903ab6b6726cf8d628de62aea9fea2abeda27d0
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826783"
 ---
 # <a name="electronic-invoicing-requirement-issuing-single-copy-invoice"></a>Kröfur fyrir rafræna reikningsfærslu: Útgáfa reikninga í einriti
 Á Íslandi þarf að senda skýrslu til hins opinbera ef reikningur er prentaður oftar en einu sinni. Skýrslan inniheldur lagalegan texta þar sem staðfest er að reikningurinn sé búinn til í bókhalds- og áætlunarkerfi sem samræmist lögum.  
@@ -28,4 +28,3 @@ Lagalegur texti er settur inn á staðlaða bókaða reikninga (reikningur og kr
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning sölu](../../sales-setup-sales.md)  
-

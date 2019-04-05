@@ -1,6 +1,6 @@
 ---
-title: "Rekja aðgerðir notanda í breytingaskrá| Microsoft Docs"
-description: "Hægt er að virkja breytingaskrá svo að þú hafir yfirlit yfir allar breytingar sem gerðar hafa verið á gögnum í röktum töflum."
+title: Rekja aðgerðir notanda í breytingaskrá| Microsoft Docs
+description: Hægt er að virkja breytingaskrá svo að þú hafir yfirlit yfir allar breytingar sem gerðar hafa verið á gögnum í röktum töflum.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 11/14/2018
 ms.author: edupont
+ms.openlocfilehash: 2a71909faf66c13a0923a10bfc12369127642875
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 59afb06e9d43bdadc5ceacf563a9e6faf7439b7b
-ms.openlocfilehash: bc56e07a540c24f53b88651ad2b2ff5e1e56a571
-ms.contentlocale: is-is
-ms.lasthandoff: 12/05/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852886"
 ---
 # <a name="auditing-changes-in-business-central"></a>Endurskoðunarbreytingar í Business Central
 
@@ -41,7 +41,6 @@ Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráni
 ## <a name="see-also"></a>Sjá einnig
 [Breyta grundvallarstillingum](ui-change-basic-settings.md)  
 [Röðun](ui-sorting.md)  
-[Notkun Leit að síðu eða skýrslu](ui-search.md)  
+[Nota Viðmótsleit til að finna eiginleika og upplýsingar](ui-search.md)  
 [Vinna með notendur og heimildir](ui-how-users-permissions.md)    
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

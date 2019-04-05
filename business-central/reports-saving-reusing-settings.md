@@ -1,6 +1,6 @@
 ---
-title: "Jafna og leiðrétta vistaðar stillingar í skýrslum | Microsoft Docs"
-description: "Lýsir því hvernig not skal fyrirfram skilgreinda valmöguleika og afmarkanir til að sérstilla skýrslu, og ná fram réttum upplýsingum."
+title: Jafna og leiðrétta vistaðar stillingar í skýrslum | Microsoft Docs
+description: Lýsir því hvernig not skal fyrirfram skilgreinda valmöguleika og afmarkanir til að sérstilla skýrslu, og ná fram réttum upplýsingum.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: cbbb072c4be3ec41684e426451c394cfa978c390
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 9fd086831c0d145570d87c33c62a003c166aca87
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853118"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Vinna með vistaðar stillingar á skýrslum
 Þegar skýrslur eru keyrðar er notendum yfirleitt sýnd síða sem gerir þeim kleift að velja tiltekna valkosti og afmarkanir fyrir breytingar á gögnum sem eru í mynduðu skýrslunni. Þessi síða er kölluð beiðnisíða skýrslu. Skýrsla getur innihaldið eitt eða fleiri *vistaðar stillingar* sem notendur geta notað á skýrsluna úr beiðnisíðunni. *Vistuð stillingar* eru skoðaður fyrirfram skilgreind valkosti og afmarkanir. Notkun vistaðra stillinga er fljótleg og áreiðanleg leið til að búa til skýrslur sem innihalda rétt gögn. Nánari upplýsingar um það hvernig vistaðar stillingar eru notaðar eru í [Notkun vistaðra stillinga](ui-work-report.md#SavedSettings).
 
 Ef rétta heimildir, hægt er að skoða, stofna og breyta vistuð stillingar fyrir allar skýrslur fyrir alla notendur í fyrirtækinu. Hægt er að úthluta vistuð stillingar skýrslu fyrir einstaka notendur eða alla notendur í fyrirtækinu.
 
-<!-- 
+<!--
 ## Apply saved settings to a report
 1. Open the report.
 
@@ -53,5 +53,4 @@ Síðan birtir allar fyrirliggjandi vistunarstillingafærslur fyrir alla notendu
 > Aðgerð vistaðra stillinga á skýrslu er aðeins í boði þegar [eiginleikarnir SaveValues](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) á beiðnisíðunni skýrslunnar er stilltur á `Yes`. **SaveValues** eiginleiki er sett í þróunarumhverfi.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Unnið með Skýrslur](ui-work-report.md)  
-
+[Unnið með skýrslur og runuvinnslur](ui-work-report.md)  

@@ -1,23 +1,22 @@
 ---
-title: "Hvernig á að færa inn gögn í reiti | Microsoft Docs"
-description: "Það eru margar grunnaðgerðir sem auðvelda og flýta fyrir gagnainnfærslu. Öllum grunnaðgerðum við gagnainnslátt er lýst í þessu efnisatriði."
+title: Hvernig á að færa inn gögn í reiti | Microsoft Docs
+description: Það eru margar grunnaðgerðir sem auðvelda og flýta fyrir gagnainnfærslu. Öllum grunnaðgerðum við gagnainnslátt er lýst í þessu efnisatriði.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4354e28522d359cf9fa6178c4a1919831dcc52db
-ms.contentlocale: is-is
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852494"
 ---
-
 # <a name="entering-data"></a>Gagnainnfærsla
 Það eru margar grunnaðgerðir sem auðvelda og flýta fyrir gagnainnfærslu. Öllum grunnaðgerðum við gagnainnslátt er lýst í þessu efnisatriði.  
 
@@ -126,7 +125,7 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 |0530|05:30:00|  
 |5:30:5|05:30:05|  
 |053005|05:30:05|  
-|5:30:5,50|05:30:05,5|  
+|5:30:5,50|05:30:05.5|  
 |053005050|05:30:05.05|  
 
  Rita þarf tvær tölur fyrir hverja tímaeiningu ef skiltákn er ekki notað.  
@@ -145,7 +144,7 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 |11 12|11-gildandi mánuður-gildandi ár 12:00:00|  
 |1112 12|11-12-gildandi ár 12:00:00|  
 |d eða dagurinn í dag|dagurinn í dag 00:00:00|  
-|d tími|gildandi tími dagsins í dag|  
+|t tími|gildandi tími dagsins í dag|  
 |d 10:30|dagurinn í dag 10:30:00|  
 |d 03:03:03|dagurinn í dag 03:03:03|  
 |v eða vinnudagsetningin|vinnudagsetningin 00:00:00|  
@@ -258,6 +257,5 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 <!--OnPrem > [!CAUTION]  
 >  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
 ## <a name="see-also"></a>Sjá einnig  
- [Leita í, afmarka og raða gögnum](ui-enter-criteria-filters.md)  
+ [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

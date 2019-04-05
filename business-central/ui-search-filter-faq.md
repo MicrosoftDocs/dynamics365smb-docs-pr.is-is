@@ -1,6 +1,6 @@
 ---
-title: "Um leit og síun í Business Central"
-description: "Svarar algengum spurningum um leit og síun."
+title: Um leit og síun í Business Central
+description: Svarar algengum spurningum um leit og síun.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
+ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
-ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
-ms.contentlocale: is-is
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852057"
 ---
-
-# <a name="about-searching-and-filtering-in-included365finincludesd365finmdmd"></a>Um leit og síun í [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="searching-and-filtering-faq"></a>Algengar spurningar um leit og síun
 Þessi grein svarar algengum spurningum sem þú gætir haft um leit og síun.
 
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Er munur á leit og síun?
@@ -30,7 +29,7 @@ Já.
 Leit og síun hafa verið mjög fínstillt fyrir notendur sem kjósa mús-frjáls samskipti til að vinna á skilvirkan hátt með gögnum þeirra. Það eru margs konar flýtilyklar sem hægt er að nota í röð til að vinna í miklum hraða. Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Er síunarsvæðið í boði á öllum listum?
-Síunarsvæði er tiltæk á síðum þar sem listinn er aðal innihald síðunnar, svo sem vinnublað og listasíður, þar með talin listar sem hægt er að nálgast á yfirlitsstikunni. Síusvæðið er ekki enn tiltækur fyrir innbyggða listi, s.s. sölulínur á sölupöntunum eða fyrir listi með gagnvirka dálka (oft nefnt fylkissíður). 
+Síunarsvæði er tiltæk á síðum þar sem listinn er aðal innihald síðunnar, svo sem vinnublað og listasíður, þar með talin listar sem hægt er að nálgast á yfirlitsstikunni. Síusvæðið er ekki enn tiltækur fyrir innbyggða listi, s.s. sölulínur á sölupöntunum eða fyrir listi með gagnvirka dálka (oft nefnt fylkissíður).
 
 ## <a name="how-can-i-save-my-filters"></a>Hvernig get ég vistað síurnar mínar?
 
@@ -57,4 +56,3 @@ Sem stjórnandi á staðnum, eykur þú tímamörkin í leitum með því að br
 ## <a name="see-also"></a>Sjá einnig .
 [Hafist handa](product-get-started.md)  
 [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)
-

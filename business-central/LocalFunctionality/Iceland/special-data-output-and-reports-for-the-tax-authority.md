@@ -1,23 +1,23 @@
 ---
-title: "Sérstök gögn og skýrslur fyrir skattyfirvöld"
-description: "Þess er krafist í lögum að skattyfirvöldum sé send gagnaskrá á tilteknu sniði."
+title: Sérstök gögn og skýrslur fyrir skattyfirvöld
+description: Þess er krafist í lögum að skattyfirvöldum sé send gagnaskrá á tilteknu sniði.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 64dab1a8d77dcd00fafb01e94bc52eec0073122b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 92ce419b3bb8a1856a20b38b1238d04b6c149ad6
-ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826787"
 ---
 # <a name="special-data-output-and-reports-for-the-tax-authority"></a>Sérstök gögn og skýrslur fyrir skattyfirvöld
 Þess er krafist í lögum að skattyfirvöldum sé send gagnaskrá á tilteknu sniði.  
@@ -28,4 +28,3 @@ Fjárhagsreikningar eru tengdir fyrirfram skilgreindum reikningskótum hins opin
 
 ## <a name="see-also"></a>Sjá einnig
 [Senda VSK skýrslu inn til skattayfirvalda](../../finance-how-report-vat.md)
-

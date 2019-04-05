@@ -1,23 +1,23 @@
 ---
-title: "Hvernig á að varpa skattstofunúmerum í bókhaldslykla"
-description: "Fyrirtæki á Íslandi þurfa að senda gagnaskrá á fyrirfram tilgreindu formi til skattyfirvalda. Áður en hægt er að gera þetta þarf að varpa fyrirfram skilgreindum reikningskóða skattstofu (Internal Revenue Service) í fjárhagsreikning."
+title: Hvernig á að varpa skattstofunúmerum í bókhaldslykla
+description: Fyrirtæki á Íslandi þurfa að senda gagnaskrá á fyrirfram tilgreindu formi til skattyfirvalda. Áður en hægt er að gera þetta þarf að varpa fyrirfram skilgreindum reikningskóða skattstofu (Internal Revenue Service) í fjárhagsreikning.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 20d64022281c9248313710709626ab50c150a003
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 14de1b562880c5e67575036d525f4ff5560da084
-ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826793"
 ---
 # <a name="map-irs-numbers-to-chart-of-accounts"></a>Varpa skattstofunúmerum í bókhaldslykla
 Fyrirtæki á Íslandi þurfa að senda gagnaskrá á fyrirfram tilgreindu formi til skattyfirvalda. Áður en hægt er að gera þetta þarf að varpa fyrirfram skilgreindum reikningskóða skattstofu (Internal Revenue Service) í fjárhagsreikning.  
@@ -38,4 +38,3 @@ Fyrirtæki á Íslandi þurfa að senda gagnaskrá á fyrirfram tilgreindu formi
 
 ## <a name="see-also"></a>Sjá einnig  
  [Sérstök gögn og skýrslur fyrir skattyfirvöld](special-data-output-and-reports-for-the-tax-authority.md) 
-

@@ -1,23 +1,23 @@
 ---
-title: "Staðbundnar aðgerðir fyrir Ísland"
-description: "Þetta umræðuefni veitir tengla á lýsingu á eiginleikum sem eru sérstaklega fyrir íslenska útgáfu Dynamics 365 Business Central."
+title: Staðbundnar aðgerðir fyrir Ísland
+description: Þetta efnisatriði veitir tengla á lýsingar á eiginleikum sem eru sérstaklega fyrir íslenska útgáfu Dynamics 365 Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/12/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
 ms.openlocfilehash: 18f6a14453b0dc8810e992083abedc55b741440e
-ms.contentlocale: is-is
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826781"
 ---
 # <a name="iceland-local-functionality"></a>Staðbundnar aðgerðir fyrir Ísland
 Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslenskri útgáfu [!INCLUDE[d365fin](../../includes/d365fin_md.md)]
@@ -35,4 +35,3 @@ Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslensk
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
-

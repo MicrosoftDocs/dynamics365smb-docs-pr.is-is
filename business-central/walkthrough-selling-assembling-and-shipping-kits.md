@@ -1,23 +1,23 @@
 ---
 title: Kynning - Selja, setja saman og afhenda sett | Microsoft Docs
-description: "Til að styðja tímanlegar birgðir og getuna til að sérsníða vörur eftir þörfum viðskiptavina er hægt að búa til og tengja samsetningarpantanir sjálfkrafa um leið og sölupöntunarlínan er búin til. Tengingin milli sölueftirspurnarinnar og framboðssamsetningar gerir sölupantanagjörvum mögulegt að sérsníða samsetningaríhlutinn og lofar afhendingardagsetningum samkvæmt framboði íhluta. Auk þess bókast samsetningarfrálag og -notkun sjálfkrafa með afhendingu tengdu pöntunarinnar."
+description: Til að styðja tímanlegar birgðir og getuna til að sérsníða vörur eftir þörfum viðskiptavina er hægt að búa til og tengja samsetningarpantanir sjálfkrafa um leið og sölupöntunarlínan er búin til. Tengingin milli sölueftirspurnarinnar og framboðssamsetningar gerir sölupantanagjörvum mögulegt að sérsníða samsetningaríhlutinn og lofar afhendingardagsetningum samkvæmt framboði íhluta. Auk þess bókast samsetningarfrálag og -notkun sjálfkrafa með afhendingu tengdu pöntunarinnar.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
-ms.contentlocale: is-is
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852701"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Kynning: Selja, setja saman og afhenda sett
 
@@ -27,7 +27,7 @@ Til að styðja tímanlegar birgðir og getuna til að sérsníða vörur eftir 
 
 Sérstök virkni er til staðar til að stýra sendingu sameiningarpöntunarmagns, bæði í venjulegri og ítarlegri vöruhúsagrunnstillingu. Þegar starfsmenn sem bera ábyrgð á samsetningu ljúka við að setja saman magnið sem setja á saman í pöntun að hluta til eða í heild skrá þeir það í reitinn **Magn til afhendingar** í vöruhúsasendingarlínunni, í ítarskilgreiningum, og velja svo **Bóka afhend.** Niðurstaðan er að samsvarandi samsetningarfrálag er bókað, að meðtalinni tengdri íhlutanotkun, og söluafhending fyrir magnið er bókuð fyrir tengdu sölupöntunina. Þessi kynning skýrir ítarlega vöruhúsaferlið.  
 
-Í einfaldri vöruhúsagrunnstillingu, þegar magn samsetningarpöntunar er tilbúið til afhendingar, bókar starfsmaður í vöruhúsi birgðatínslu fyrir sölupöntunarlínuna. Þetta stofnar birgðahreyfingu fyrir íhlutina, bókar samsetningarfrálagið og sölupöntunarsendinguna. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í Birgðatínsla.  
+Í einfaldri vöruhúsagrunnstillingu, þegar magn samsetningarpöntunar er tilbúið til afhendingar, bókar starfsmaður í vöruhúsi birgðatínslu fyrir sölupöntunarlínuna. Þetta stofnar birgðahreyfingu fyrir íhlutina, bókar samsetningarfrálagið og sölupöntunarsendinguna. Nánari upplýsingar eru í [Meðhöndlun íhluta pantanasamsetninga við birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## <a name="about-this-walkthrough"></a>Um kynninguna  
 Þessi kynning fjallar um eftirfarandi verk:  
@@ -106,7 +106,7 @@ Fjarlægja skal sjálfgefinn afhendingartíma fyrir innri ferli á eftirfarandi 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Framleiðsluuppsetning** og veldu síðan tengda tengilinn.  
 2.  Á síðunni **Framleiðsluuppsetning** á flýtiflipanum **Áætlun** er gildið fjarlægt í reitnum **Sjálfgefið öryggisforskot**.  
 
-Stofna birgðir fyrir samsetningaríhluti með því að fara eftir hlutanum "Undirbúa sýnigögn" í þessari leiðsögn.  
+Stofna birgðir fyrir samsetningaríhluti með því að fara eftir [Undirbúa sýnigögn](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data).  
 
 ## <a name="story"></a>Ferill  
 Þann 23. janúar, tekur Súsanna, sem sér um úrvinnslu sölupantanna, við pöntun frá Verkstæðinu fyrir þrjár einingar af Setti B, sem er ATO-vara. Allar þrjár einingarnar eru sérsniðnar og verða að innihalda öflug skjákort og auka RAM-einingu. Diskadrifin eru uppfærð í DWD, vegna þess að CD drif eru ekki tiltæk. Súsanna veit að hægt er að setja einingarnar saman strax, þannig að hún lætur ráðlagða sendingardagsetningu vera 23. janúar  
@@ -135,7 +135,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
 Þegar sölupöntunin er bókuð síðar sem fullkomlega reikningsfærð eru sölupöntunin og tengdu samsetningarpantanirnar fjarlægðar.  
 
-## <a name="setting-up-the-sample-data"></a>Uppsetning sýnigagna  
+## <a name="prepare-sample-data"></a>Undirbúa sýnigögn  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðabækur vöruhúss** og veldu síðan tengda tengilinn.  
 2.  Velja reitinn **Heiti keyrslu** og velja síðan sjálfgefnu færslubókina.  
@@ -443,4 +443,3 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
  [Hönnunarupplýsingar: Innra vöruhúsaflæði](design-details-internal-warehouse-flows.md)   
  [Hönnunarupplýsingar: vöruhúsaflæði á innleið](design-details-outbound-warehouse-flow.md)   
  [Kynning: Sjálfvirk áætlun birgða](walkthrough-planning-supplies-automatically.md)
-

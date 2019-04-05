@@ -1,6 +1,6 @@
 ---
-title: "Úthlutun og stjórnun verkefna | Microsoft Docs"
-description: "Lærðu hvernig verkefnum er úthlutað á notendur, þar á meðal endurskoðandann þinn, í Business Central"
+title: Úthlutun og stjórnun verkefna | Microsoft Docs
+description: Lærðu hvernig verkefnum er úthlutað á notendur, þar á meðal endurskoðandann þinn, í Business Central
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852356"
 ---
-# <a name="defining-user-tasks"></a>Skilgreinir notandaverk
+# <a name="define-user-tasks"></a>Skilgreina notandaverk
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu búið til verkefni til að minna þig á hvað þarf að gera. Þú getur búið til verkefni fyrir þig, en þú getur einnig úthlutað verkefnum til annarra eða fengið verkefni frá öðrum í fyrirtækinu þínu.  
 
 ## <a name="managing-user-tasks"></a>Stjórnun notendaverkefna
@@ -41,4 +41,3 @@ Ef þú vilt eyða öllum eða einhverjum verkefnum í einu geturðu notað **Ey
 ## <a name="see-also"></a>Sjá einnig
 [Leit að síðu eða skýrslu](ui-search.md)  
 [Endurskoðandi upplifun í [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
-

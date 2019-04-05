@@ -1,26 +1,26 @@
 ---
-title: "Hvernig á að tengja úr skrám í ytri upplýsingar eða forrit | Microsoft Docs"
-description: "Setja tengil í skjal eða vefsíðu á tiltekna skrá, s.s. viðskiptavin eða fylgiskjal."
+title: Hvernig á að tengja úr skrám í ytri upplýsingar eða forrit | Microsoft Docs
+description: Setja tengil í skjal eða vefsíðu á tiltekna skrá, s.s. viðskiptavin eða fylgiskjal.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 3fbd9fa2e68ab84c7abb82bdef42b10e9e2cc93e
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853305"
 ---
-# <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Bæta við tengli á vefsíður, skjöl, eða forrit á skrám.
+# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Bæta við tenglum á vefsíður, skjöl, eða forrit á skrám.
 Á tilgreindri skrá, eins og t.d. viðskiptamanni, skjali eða sölupöntun, er hægt að bæta við tengli í ytra skjal, vefsíðu eða forrit. Einnig gæti verið þörf á tengli sem opnar nýjan auðan tölvupóst á tiltekinn viðtakanda þegar hann er valinn. Spjaldasíðan fyrir sumar skrár, s.s. viðskiptamanna- eða lánardrottnaspjöld, innihalda reitinn **Heimasíða** þar sem hægt er að færa inn vefslóð (URL). Til að hafa aðra tengla með er hægt að nota aðferðina sem lýst er í þessari grein.
 
-Annað dæmi gæti verið þegar þú tekur á móti prentuðum reikningum frá lánardrottnum. Hægt að skanna þá inn og geyma sem pdf-skrár á SharePoint-setri. Síðan hægt er að búa til tengil úr innkaupareikningi í [!INCLUDE[d365fin_md](includes/d365fin_md.md)] við viðkomandi reikning í SharePoint. Einnig er hægt að tengja af vöruspjaldi yfir á samsvarandi síðu í netvörulista lánardrottins.
+Annað dæmi gæti verið þegar þú tekur á móti prentuðum reikningum frá lánardrottnum. Hægt að skanna þá inn og geyma sem pdf-skrár á SharePoint svæði. Síðan hægt er að búa til tengil úr innkaupareikningi í [!INCLUDE[d365fin_md](includes/d365fin_md.md)] við viðkomandi reikning í SharePoint. Einnig er hægt að tengja af vöruspjaldi yfir á samsvarandi síðu í netvörulista lánardrottins.
 
 ## <a name="to-add-a-link-on-a-record"></a>Bæta tengli við skrá   
 
@@ -35,7 +35,7 @@ Annað dæmi gæti verið þegar þú tekur á móti prentuðum reikningum frá 
     -   Til að tengja skrá á þinni tölvu eða neti, færa inn fulla slóð og skráarheiti, eins og t.d. **C:My Documentsinvoice1.doc**.
     -   Til að tengja á vefsíðu, færa inn vefslóðina (URL) eins og t.d. **www.microsoft.com**.
     -   Til að tengja á vefsíðu, færa inn vefslóðina (URL) eins og t.d. **www.microsoft.com**.
-    -   Til að tengja forrit, færa inn tilgreindan streng til að opna forritið. Til dæmis, til að opna OneNote með tilgreindri síðu, færa inn **onenote:///C:My Documentstest.one**. Eða, til að opna Outlook með nýjum tómum tölvupósti til tiltekins viðtakanda skal færa inn **mailto:testalias**.  
+    -   Til að tengja forrit, færa inn tilgreindan streng til að opna forritið. Til dæmis, til að opna OneNote með tilgreindri síðu, skal færa inn **onenote:///C:My Documentstest.one**. Eða, til að opna Outlook með nýjum tómum tölvupósti til tiltekins viðtakanda skal færa inn **mailto:testalias**.  
 
 5.  Reiturinn **Lýsing** er fylltur út með upplýsingum um tengilinn.  
 
@@ -55,4 +55,3 @@ Ef notandi eyðir einni færslu, t.d. sölupöntunarlínu, sölupöntun eða vi�
 
 ## <a name="see-also"></a>Sjá einnig  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

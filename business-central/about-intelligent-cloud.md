@@ -1,6 +1,6 @@
 ---
-title: "Snjallský| Microsoft Docs"
-description: "Fáðu skýjaafrit af gögnum þínum svo þú hafir samband við snjallský."
+title: Snjallský| Microsoft Docs
+description: Fáðu skýjaafrit af gögnum þínum svo þú hafir samband við snjallský.
 author: bmeier94
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,17 +11,16 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 10/01/2018
 ms.author: bmeier
+ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abf01698e25ae04a2e34696fb2443ff7d413a26
-ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852127"
 ---
+# <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Aðgangur að snjallskýi með [!INCLUDE[prodshort](includes/prodshort.md)]
 
-# <a name="your-access-to-the-intelligent-cloud-with-includeprodlongincludesprodlongmd"></a>Aðgangur að snjallskýi með [!INCLUDE[prodlong](includes/prodlong.md)]
-
-Sem notandi [!INCLUDE[prodshort](includes/prodshort.md)] á netinu hefur þú fullan aðgang að atburðarásum á snjallskýi svo sem að breyta gögnum í Excel og ýta breytingum aftur á [!INCLUDE[prodshort](includes/prodshort.md)] eða þegar þú skoðar gögnin þín í Power BI. Hins vegar, meðan [!INCLUDE[prodshort](includes/prodshort.md)] er fyrst þjónusta við ský, þá geta þeir viðskiptamenn sem þurfa að keyra vinnuálag sitt að öllu leyti á staðnum eða á eigin snjallkerfi sem tengist skýinu, gert það.  
+Sem notandi [!INCLUDE[prodshort](includes/prodshort.md)] á netinu hefur þú fullan aðgang að atburðarásum á snjallskýi, svo sem að breyta gögnum í Excel og ýta breytingum aftur á [!INCLUDE[prodshort](includes/prodshort.md)] eða þegar þú skoðar gögnin þín í Power BI. Hins vegar, meðan [!INCLUDE[prodshort](includes/prodshort.md)] er fyrst þjónusta við ský, þá geta þeir viðskiptamenn sem þurfa að keyra vinnuálag sitt að öllu leyti á staðnum eða á eigin snjallkerfi sem tengist skýinu, gert það.  
 
 Ef þú hefur áhuga á [!INCLUDE[prodshort](includes/prodshort.md)] getur þú skráð þig fyrir ókeypis prufu á sjálfgefnu lausninni fyrir uppsetningu skýs eða þú getur valið að vinna með samstarfsaðila til að setja upp [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum eftir eigin vali á vélbúnaði. Þú getur þá ákveðið að tengjast skýinu með leigjanda þínum í skýinu. Þess vegna verða gögnin frá staðbundna uppsetta [!INCLUDE[prodshort](includes/prodshort.md)] afrituð í skýið fyrir atburðarásir snjallskýs.  
 
@@ -53,4 +52,3 @@ Síðan tengist einnig Power BI fyrir enn meiri innsýn.
 [Business Central snjallskýjaviðbót](ui-extensions-intelligent-cloud.md)  
 [Eftirlíking gagna viðbót](ui-extensions-data-replication.md)  
 [Tengjast við snjallský](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)  
-

@@ -1,8 +1,8 @@
 ---
-title: "Sérstillingarsíður | Microsoft Docs"
-description: "Lærðu hvernig á að aðlaga notendaviðmótið til að henta því hvernig þú vinnur."
+title: Sérstillingarsíður | Microsoft Docs
+description: Lærðu hvernig á að aðlaga notendaviðmótið til að henta því hvernig þú vinnur.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,16 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 65bd6d24395990d2b92b7eeea0c7b208f7311eef
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df4c40e38b3f7784f9f7603cddbfd9ac8681d952
-ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852310"
 ---
 # <a name="personalizing-your-workspace"></a>Sérstillingar verksvæðis
-<!--NAV in the Web client--> Þú getur sérstillt eða *sérsniðið* vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá.
+<!--NAV in the Web client-->
+Þú getur sérstillt eða *sérsniðið* vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá.
 
 Eftir tegund síðunnar og hvað hún inniheldur, þú getur:
 
@@ -29,7 +30,10 @@ Eftir tegund síðunnar og hvað hún inniheldur, þú getur:
 -   Breyta föstum svæðum dálka í lista. Föstu svæðin læsa einum eða fleiri dálkum vinstra megin á listanum þannig að þeir eru alltaf til staðar, jafnvel þegar þú flettir lárétt.
 -   Stilla breidd dálka í lista.
 -   Bæta við og færa og fjarlægja bunka (reiti).
--   Bæta við og fjarlægja hluta. Hlutar eru undirdeildir eða svæði á síðu sem innihalda hluti eins og marga reiti, aðra síðu, graf eða reiti.  
+-   Bæta við og fjarlægja hluta. Hlutar eru undirdeildir eða svæði á síðu sem innihalda hluti eins og marga reiti, aðra síðu, graf eða reiti.
+
+> [!NOTE]
+> Til viðbótar við það sem notendur geta sérsniðið, geta stjórnendur og stórnotendur hnekkt sérstillingum notenda og skilgreint hvaða aðgerðir eru aðgengilegar í öllum eða tilteknum fyrirtækjum. Frekari upplýsingar eru í [Sérstilling Business Central](ui-customizing-overview.md). 
 
 ## <a name="to-personalize-a-page"></a>Til að sérsníða síðu
 
@@ -79,4 +83,3 @@ Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Breyta grundvallarstillingum](ui-change-basic-settings.md)  
 [Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)  
-

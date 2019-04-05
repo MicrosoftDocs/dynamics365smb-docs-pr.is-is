@@ -1,8 +1,8 @@
 ---
-title: "Tímasetja skýrslu þannig að hún keyri á tilteknum degi og tíma | Microsoft Docs"
-description: "Kynntu þér hvernig skal setja skýrslu inn í verkröð og tímasetja hana þannig að hún sé unnin á tilteknum degi og tíma."
+title: Tímasetja skýrslu þannig að hún keyri á tilteknum degi og tíma | Microsoft Docs
+description: Kynntu þér hvernig skal setja skýrslu inn í verkröð og tímasetja hana þannig að hún sé unnin á tilteknum degi og tíma.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,20 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852425"
 ---
-# <a name="working-with-reports"></a>Unnið með Skýrslur
+# <a name="working-with-reports-and-batch-jobs"></a>Unnið með skýrslur og runuvinnslur
 Skýrsla safnar saman upplýsingum byggðum á sérstöku viðmiðssafni, og flokkar og birtir upplýsingarnar á sniði sem hægt er að prenta og er auðvelt að lesa. Til eru margar skýrslur sem má finna víðsvegar í forritinu. Skýrslurnar veita alla jafna upplýsingar sem tengjast samhengi síðunnar sem þú ert á. Til dæmis, síðan **Viðskiptamaður** inniheldur skýrslur fyrir efstu 10 viðskiptamennina og söluupplýsingar og fleira.
+
+Runuvinnslur gera meira og minna það sama og skýrslur en í þeim tilgangi að setja af stað ferli. Til dæmis býr runuvinnslan **Stofna innheimtubréf** til áminningarskjöl fyrir viðskiptavini með gjaldfallnar greiðslur.  
+
+> [!NOTE]
+> Þetta efnisatriði á að mestu leyti við um „skýrslu“, en svipaðar upplýsingar eiga við um runuvinnslur.
 
 Þú getur fundið skýrslurnar á flipanum **Skýrslur** á völdum síðum, eða þú getur notað ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") til að finna skýrslur eftir heiti.
 
@@ -29,6 +34,10 @@ Skýrsla safnar saman upplýsingum byggðum á sérstöku viðmiðssafni, og flo
 Þegar þú opnar skýrslu, birtist þér yfirleitt síða þar sem þú tilgreinir ýmsa valmöguleikar og afmarkanir sem ákvarða hvað skal hafa með í skýrslunni. Þessi síða er kölluð beiðnisíða skýrslu. Til dæmis, beiðnisíða skýrslu leyfir þér að búa til skýrslu fyrir sérstakan viðskiptamann tiltekið dagabil eða flokka röð upplýsinga í skýrslunni. Eftirfarandi er dæmi um beiðnisíðu skýrslu:
 
 ![Valkostir fyrir skýrslu](media/report_options.png "Valkostir fyrir skýrslu")
+
+> [!Caution]
+> Hlutinn **Sýna niðurstöður** á beiðnisíðu býður upp á almenna síunarmöguleika fyrir skýrslur. Þessar síur eru valfrjálsar.<br /><br /> Sumar skýrslur munu hunsa allar slíkar síur, sem þýðir að sama hvaða sía er stillt í hlutanum **Sýna niðurstöður**, verður útkoman skýrslunnar sú sama. Ekki er hægt að gefa upp lista yfir hvaða reitir eru hunsaðir í hvaða skýrslum, þannig að þú verður að gera tilraunir með síurnar þegar þú notar þær.<br /><br />
+**Dæmi**: Þegar þú notar runuvinnsluna **Sent innheimtubréf** verður sía fyrir reitinn **Færslur í viðskiptamannabók** í **Stig síðasta útgefins innheimtubréfs** hunsuð vegna þess að síurnar eru fastar fyrir þessa runuvinnslu.
 
 ### <a name="SavedSettings"></a>Nota vistaðar stillingar
 Með sumum skýrslum, allt eftir því hvernig þær eru hannaðar, kann skýrslusíðan að fela í sér **Vistaðar stillingar** hluta sem inniheldur eina eða fleiri færslur í **Nota sjálfgefið gildi frá** reitnum. Færslurnar í þessum reit eru kölluð *vistaðar stillingar*. Vistaðar stillingar eru í raun fyrirframskilgreindur flokkur valmöguleika og afmarkanna sem þú getur notað í skýrslunni áður en þú forskoðar og sendir hana til skráar. Vistaða stillingafærslan sem kallast **Síðast notaðir valkostir og afmarkanir** er alltaf tiltæk. Þessi færsla stillir skýrsluna til að nota valmöguleika og afmarkanir sem voru notaðar síðast þegar þú kíktir á skýrsluna.
@@ -47,9 +56,9 @@ Afmarkanir gefa þér sjágögn sem byggjast á tilgreint skilyrði. Afmarkanir 
 
 Eftir því hvaða gerð reits er að afmarka getur þú tilgreint síuskilyrði til að leita að nákvæmri samsvörun, hluta samsvörun, gildissvið og fleira. Aðstoð um hvernig síur eru settir upp eru í:
 -   [Afmörkun](ui-enter-criteria-filters.md#FilterCriteria)
--   [Færa inn dagsetningarsvið](ui-enter-date-ranges.md)
+-   [Unnið með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md)
 
-## <a name="previewing-a-report"></a>Forskoða skýrslu
+## <a name="previewing-a-report"></a>Forskoðun skýrslu
 Velja **Forskoðun** til að skoða skýrsluna í netvafranum. Benda á svæði í skýrslunni til að sýna valmyndin.  
 
 ![Forskoðunarstika skýrslu](media/report_viewer.png "Forskoðunarstika skýrslu")
@@ -71,7 +80,7 @@ Nota valmyndarslá til að:
 
 
 ## <a name="saving-a-report"></a>Vistar skýrslu
-Þú getur vistað skýrsluna á PDF-sniði, Microsoft Word skjali eða Microsoft Excel skjali með því að velja **Senda til**, og svo framkvæma þitt val.
+Þú getur vistað skýrsluna sem PDF-skjal, Microsoft Word-skjal eða Microsoft Excel-skjal með því að velja **Senda til** og síðan velja.
 
 ## <a name="ScheduleReport"></a> Tímasetja keyrslu skýrslu
 Hægt er að tímasetja skýrslu þannig að hún keyri á tilteknum degi og tíma. Tímasettar skýrslur eru færðar inn í verkröð og unnar á settum tíma, eins og önnur verk. Hægt er að velja að vista meðhöndlaða skýrslu í skrá, t.d. Excel, Word, eða PDF, prenta hana á völdum prentara, eða meðhöndla aðeins skýrsluna. Ef þú velur að vista skýrsluna í skrá þá er meðhöndlaða skýrslan send á svæðið **Skýrsluinnhólf** á Mitt hlutverk þar sem þú getur skoðað hana.
@@ -88,4 +97,3 @@ Hægt er að prenta skýrslu með hnappnum **Prenta** á valsíðunni sem birtis
 [Tilgreina prentaraval fyrir skýrslur](ui-specify-printer-selection-reports.md)  
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

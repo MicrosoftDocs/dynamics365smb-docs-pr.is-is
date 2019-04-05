@@ -1,7 +1,7 @@
 ---
-title: "Steypa saman gögnum frá mörgum fyrirtækjum | Microsoft Docs"
-description: "Fá yfirlit í formi samantektar á fjárhagslegri stöðu fyrirtækja þinna."
-documentationcenter: 
+title: Steypa saman gögnum frá mörgum fyrirtækjum | Microsoft Docs
+description: Fá yfirlit í formi samantektar á fjárhagslegri stöðu fyrirtækja þinna.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: bholtorf
+ms.openlocfilehash: feda9d1f681c40746db488027fdd8ae1d06a4d94
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832598"
 ---
-
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum
 Ef þú ert með fleiri en eitt fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)], getur Sameinuð prófjafnaðarskýrsla í Mitt hlutverk endurskoðanda gefið þér yfirsýn yfir fjárhagslega stöðu fyrirtækja þinna í heild.  
 
@@ -56,7 +55,10 @@ Ef þörf er á fleiri ítarlegum stillingum fyrir samstæðuna, geturðu sett u
 
 1. Skráðu þig inn samstæðufyrirtækið.
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **fyrirtækiseining** og veldu síðan tengda tengilinn.  
-3. Veljið **Nýtt** og fyllið svo inn í viðeigandi svæði.  
+3. Veljið **Nýtt** og fyllið svo inn í viðeigandi svæði. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!IMPORTANT]
+> Þegar reitirnir **Upphafsdagsetning** og **Lokadagsetning** eru fylltir út skaltu vera viss um að þú uppfyllir reglur GAAP hvað varðar fjárhagstímabil fyrirtækiseiningar gagnvart móðurfyrirtækinu.
 
 Ef fyrirtækið þitt notast við erlendan gjaldmiðil, er nauðsynlegt að tiltaka gengið sem nota skal í samstæðunni. Einnig verðu að slá inn samstæðuupplýsingar um fjárhagsreikninga fyrirtækiseiningarinnar. Þessum ferlum er lýst í eftirfarandi hlutum.
 
@@ -120,7 +122,31 @@ Ef þú átt aðeins hlut í fyrirtæki geturðu tengt prósentutölu, sem samsv
 1. Skráðu þig inn samstæðufyrirtækið.  
 2. Í **Hlutverkamiðstöð Endurskoðandi** skal velja **Keyra samstæðu** aðgerðina.  
 3. Fylltu út nauðsynlega reiti.  
-4. Í reitnum **Hvar** skal velja **Nafn fyrirtækis** og síðan velja samstæðufyrirtækið í **er**reitnum.  
+4. Í reitnum **Hvar** skal velja **Nafn fyrirtækis** og síðan velja samstæðufyrirtækið í **er**reitnum.
+
+## <a name="to-eliminate-repeated-transactions"></a>Að útiloka endurteknar færslur
+Þegar búið er að steypa saman öllum fyrirtækjum þarf að finna allar færslur sem eru skráðar oftar en einu sinni í öllum fyrirtækjum og síðan bóka losunarfærslur til að fjarlægja þær.
+
+Að vinna með samstæðulosanir er handvirkt ferli. Hægt er að fylgja eftirfarandi skrefum:
+1. Finndu færslur sem hugsanlega þarf að leiðrétta og sláðu inn almennar færslubókarlínur til að fjarlægja þær.
+2. Keyrðu skýrsluna **Samstæðuútilokanir fjárhags** til að hjálpa þér við að meta áhrif almennu færslubókarlínanna fyrir bókun.
+3. Bókaðu leiðréttar færslur.
+
+Skýrslan **Samstæðuútilokanir fjárhags** birtir bráðabirgða prófjöfnuð þar sem hægt er að herma eftir afleiðingum þess að útiloka færslur með því að bera saman færslur í samsteypufyrirtækinu við útilokanir sem hafa verið færðar inn í færslubókina.
+
+Áður en unnt er að taka fyrirtækiseiningu með í skýrslu, verður að setja hana upp á síðunni **Fyrirtækiseiningar** og velja þarf reitinn **Steypa saman**.
+
+Sérhver reikningur birtist einn sér í línu, (í framhaldi af uppbyggingu bókhaldslykils). Reikningur birtist ekki ef allar upphæðir standa á núlli. Eftirfarandi upplýsingar koma fram um hvern reikning:
+
+* Reikningsnúmer
+* Nafn lykils.
+* Hafi einn eða fleiri kóðar fyrirtækiseiningar verið valdir í reitnum **Kóði fyrirtækiseiningar** á beiðnisíðunni, birtist samtala samsteypufyrirtækis, að undanskildum völdum fyrirtækiseiningum og útilokunum. Hafi reiturinn **Kóði fyrirtækjaeiningar** ekki verið útfylltur birtist samtala samsteypufyrirtækis, að útilokunum undanskildum.
+* Hafi kóði fyrirtækiseiningar verið valinn í reitnum **Kóði fyrirtækiseiningar** á beiðnisíðunni, birtist samtala fyrir innfluttar færslur úr fyrirtækiseiningunni. Hafi reiturinn **Kóði fyrirtækjaeiningar** ekki verið útfylltur birtist samtala bókaðra útilokana í bókhaldi samsteypufyrirtækis.
+* Samtala samsteypufyrirtækis, að öllum fyrirtækjaeiningum og bókuðum útilokunum meðtöldum.
+* Útilokanir sem á að framkvæma í samsteypufyrirtækinu, þ.e. færslurnar í almennu færslubókinni sem er valin á beiðnisíðunni.
+* Bókunartexti afritaður eftir færslubók.
+* Samtala samsteypufyrirtækis eftir útilokanir, ef þær eru bókaðar.
+
 
 ## <a name="to-export-and-import-consolidated-data-between-databases"></a>Að flytja út og flytja inn sameinuð gögn milli gagnagrunna
 Ef gögn fyrirtækiseiningar eru í öðrum gagnagrunni þarf að flytja gögnin út í skrá áður en hægt er að hafa þau með í samstæðunni. Flytja þarf hvert fyrirtæki fyrir sig. Í þessum tilgangi skal nota runuvinnsluna **Útflutningur samstæðu**.  
@@ -138,4 +164,3 @@ Ef gögn fyrirtækiseiningar eru í öðrum gagnagrunni þarf að flytja gögnin
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Flutningur viðskiptagagna í Excel](about-export-data.md)
-

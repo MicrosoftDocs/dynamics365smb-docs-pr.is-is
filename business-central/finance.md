@@ -1,8 +1,8 @@
 ---
-title: "Fjármálastjórnun | Microsoft Docs"
-description: "Kynntu þér verkhlutana í því að setja upp fjármál í fyrirtækinu sem hentar öllum þínum þörfum tengdum bókhaldi, endurskoðun eða bókunum."
+title: Fjármálastjórnun | Microsoft Docs
+description: Kynntu þér verkhlutana í því að setja upp fjármál í fyrirtækinu sem hentar öllum þínum þörfum tengdum bókhaldi, endurskoðun eða bókunum.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: edupont
+ms.openlocfilehash: d095e710d33882cc39772c35a495b39e08e0c729
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e4cda1f4770117065d1650a0c51dbd46fdf8baac
-ms.contentlocale: is-is
-ms.lasthandoff: 05/17/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832529"
 ---
 # <a name="finance"></a>Fjármál
 [!INCLUDE[d365fin](includes/d365fin_md.md)] felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
@@ -33,7 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Láttu viðskiptavini þína senda inn greiðslu áður en þú afhendir þeim, eða senda inn greiðslu til lánardrottna þinna áður en þeir afhenda þér.|[Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)|
 | Stemma af bankareikninga og færa fjármuni milli bankareikninga. |[Stjórna bankareikningum](bank-manage-bank-accounts.md) |
 |Setja upp millifyrirtækjafélaga og vinna færslur, handvirkt eða sjálfvirkt, á milli lögaðila innan sama fyrirtækis.|[Vinna með millifyrirtækjafærslur](intercompany-manage.md)|
-|Sameinar aðalbókarfærslur frá mörgum fyrirtækjum í eitt sýndar „samstæðufyrirtæki" fyrir fjárhagsgreiningu.|[Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)|
+|Sameina aðalbókarfærslur frá mörgum fyrirtækjum í eitt sýndar „samstæðufyrirtæki" fyrir fjárhagsgreiningu.|[Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)|
 |Greina kostnaðinn sem hlýst af því að reka fyrirtækið með því að úthluta raunverulegum og áætluðum kostnaði aðgerða, deilda, afurða og verkefna til kostnaðarstaða.|[Kostnaðarreikningur](finance-manage-cost-accounting.md)|
 |Stjórna birgða- og framleiðslukostnaði, búa til skýrslu um kostnað og afstemma kostnað við færslubókina.|[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)|
 | Skilja fjárhag og bókhaldslykil. |[Skilja fjárhag og bókhaldslykil](finance-general-ledger.md) |
@@ -58,10 +58,8 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Innkaup](purchasing-manage-purchasing.md)  
 [Lokun fjárhagstímabila](year-close-years-periods.md)  
 [Stjórna verkum](projects-manage-projects.md)    
-[Gögn flutt inn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Gögn flutt inn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

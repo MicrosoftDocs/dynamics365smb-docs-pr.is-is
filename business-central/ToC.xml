@@ -6,7 +6,7 @@
     <Node Name="" DisplayName="Nota Business Central á fartækinu þínu" Page="install-mobile-app.html"/>
     <Node Name="" DisplayName="Samstilla við tengiliði í Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
     <Node Name="" DisplayName="Notkun Business Central sem fyrirtækjainnhólf í Outlook" Page="admin-outlook.html"/>
-    <Node Name="" DisplayName="Virkja viðskiptagögnin þín fyrir Power BI" Page="admin-powerbi.html"/>
+    <Node Name="" DisplayName="Gera viðskiptagögn þín virk fyrir Power BI" Page="admin-powerbi.html"/>
     <Node Name="" DisplayName="Nota Business Central sem Power BI gagnaveita" Page="across-how-use-financials-data-source-powerbi.html"/>
     <Node Name="" DisplayName="Sérstilling Business Central með viðbótum" Page="ui-extensions.html"/>
   </Node>
@@ -282,7 +282,7 @@
   </Node>
   <Node Name="" DisplayName="Starfsmannahald" Page="hr-manage-human-resources.html">
     <Node Name="" DisplayName="Hvernig á að: Skrá starfsmenn" Page="hr-how-register-employees.html"/>
-    <Node Name="" DisplayName="Hvernig á að: Halda utan um fjarvistir starfsmanna" Page="hr-how-manage-absence.html"/>
+    <Node Name="" DisplayName="Hvernig á að: Halda utan um fjarveru starfsmanna" Page="hr-how-manage-absence.html"/>
   </Node>
   <Node Name="" DisplayName="Áætlun" Page="production-planning.html">
     <Node Name="" DisplayName="Um áætlunaraðgerðir" Page="production-about-planning-functionality.html"/>

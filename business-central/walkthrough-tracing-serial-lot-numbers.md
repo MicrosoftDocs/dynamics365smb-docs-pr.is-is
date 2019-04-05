@@ -1,25 +1,25 @@
 ---
-title: "Kynning - Rekja rað- og lotunúmer | Microsoft Docs"
-description: "Þegar vörugallar koma upp þarf að greina villurnar og koma í veg fyrir að fyrirtækið sendi frá sér gölluðu vörurnar. Ef gölluð vara hefur þegar verið send út verður að rekja hana til þeirra sem fengu hana senda og innkalla vörurnar, ef þörf krefur."
+title: Kynning - Rekja rað- og lotunúmer | Microsoft Docs
+description: Þegar vörugallar koma upp þarf að greina villurnar og koma í veg fyrir að fyrirtækið sendi frá sér gölluðu vörurnar. Ef gölluð vara hefur þegar verið send út verður að rekja hana til þeirra sem fengu hana senda og innkalla vörurnar, ef þörf krefur.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: e6354b57e14af89c0c998447ff09d43e3902d0b4
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
-ms.contentlocale: is-is
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853164"
 ---
-# <a name="walkthrough-tracing-serial-lot-numbers"></a>Kynning: Rað-/lotunúmerarakning
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Kynning: Rað-/lotunúmerarakning
 
 **Athugið**: Framkvæma verður þessa kynningu í sýnifyrirtæki með valkostinum **Fullt mat - öll sýnigögn** sem er í boði í sandkassaumhverfinu. Nánari upplýsingar eru í [Sandkassaumhverfi stofnað](across-how-create-sandbox-environment.md).
 
@@ -50,7 +50,7 @@ Næsta verk gallastjórnunar er að ákvarða hvort röktu vörunum hefur verið
 Til að ljúka þessari kynningu þarf:  
 
 -   [!INCLUDE[d365fin](includes/d365fin_md.md)] Fyrirtækið.  
--   Að stofna nýjar vörur og viðskiptafærslur með því að fylgja leiðbeiningunum í hlutanum "Undirbúa sýnigögn", síðar í kynningunni.  
+-   Að stofna nýjar vörur og nokkrar viðskiptafærslur með því að fylgja [Undirbúa sýnigögn](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
 ## <a name="story"></a>Ferill  
 Gæðastjórinn Ríkharður er að sinna söluvöruskilum á vöru 1002, kappaksturshjóli. Viðskiptamaðurinn, Selangorian hf., kvartaði undan gallaðri logsuðu á grindinni. Verkfræðingar í gæðastjórnun hafa staðfest að grindin á hjólinu sem skilað var sé gölluð. Gæðastjórinn þarf nú að ákvarða:  
@@ -298,4 +298,3 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  
 [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)  
 [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
-

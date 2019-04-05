@@ -1,8 +1,8 @@
 ---
-title: "Vinna MF færslur á inn- og útleið | Microsoft Docs"
-description: "Færslur milli fyrirtækja sem berast þér rafrænt frá MF-félögum eru taldar upp í MF-innhólfinu, þar sem þú vinnur þær sjálfvirkt eða handvirkt."
+title: Vinna MF færslur á inn- og útleið | Microsoft Docs
+description: Færslur milli fyrirtækja sem berast þér rafrænt frá MF-félögum eru taldar upp í MF-innhólfinu, þar sem þú vinnur þær sjálfvirkt eða handvirkt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7bf0c1c22d2f43220d9b101a1a54757add900e9
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8432eea92738682bbdab55f8c3f6dae16f401149
-ms.contentlocale: is-is
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853282"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Stjórna millifyrirtækja innhólfsfærslur og úthólfsfærslur
 Allar færslur milli fyrirtækja sem berast þér rafrænt frá MF-félögum eru taldar upp í MF-innhólfinu.  
@@ -43,7 +43,7 @@ Hægt er að nota reitinn **Sýna uppruna færslu** til að afmarka síðuna **M
 #### <a name="returned-from-intercompany-partner"></a>Skilað af Millifyrirtækjafélaga  
  Ef færslunni var hafnað af Millifyrirtækja-félaga er eina valið að ógilda færsluna í innhólfinu. Síðan þarf að stofna leiðréttingarlínur eða bakfæra færslubókina eða fylgiskjalið í fyrirtækinu.  
 
-## <a name="re-creating-inbox-entries"></a>Innhólfsfærslur stofnaðar aftur  
+## <a name="recreating-inbox-entries"></a>Innhólfsfærslur stofnaðar aftur  
  Ef færsla var samþykkt í innhólfinu en fylgiskjalinu eða færslubókinni var síðan eytt án þess að bóka hana er hægt að stofna innhólfsfærsluna aftur og samþykkja hana aftur.  
 
 ## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Yfirlit yfir færslur milli fyrirtækja á tímabili  
@@ -105,4 +105,3 @@ Eftirfarandi ferli lýsir hvernig eigi að endurstofna innhólfsfærslur, en sö
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

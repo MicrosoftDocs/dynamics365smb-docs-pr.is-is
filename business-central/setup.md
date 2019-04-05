@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir verkhluta uppsetningu Business Central | Microsoft Docs
-description: "Útskýrir hvernig skal setja upp, forsníða og frumstilla Business Central eftir þínum þörfum."
+description: Útskýrir hvernig skal setja upp, forsníða og frumstilla Business Central eftir þínum þörfum.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
-ms.contentlocale: is-is
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852080"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Setur upp [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.
@@ -40,10 +40,20 @@ Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilte
 | Stilla hvernig á að tryggja, viðhalda og afskrifa eignir og hvernig þú skráir kostnað eigna í bókum fyrirtækisins. |[Uppsetning eigna](fa-setup.md) |
 |Tilgreina almennar reglur og gildi fyrir vöruhúsaferla og tiltekna meðhöndlun í hverri birgðageymslu.|[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)|
 |Undirbúa framleiðsluuppskrift og leiðir til að skilgreina hvernig endanlegar vörur eru framleiddar og undirbúa véla- og vinnustöðvar fyrir að framkvæma nauðsynlegar aðgerðir.|[Uppsetning framleiðslu](production-configure-production-processes.md)|
+|Komdu á staðlaðri þjónustu, einkennum og villukóðum og settu upp þjónustuvörurnar, tilföngin og skjöl sem þarf til að veita viðskiptavinum þjónustu.|[Þjónustustýring sett upp](service-setup-service.md)|
 |Lesið bestu starfsvenjur fyrir uppsetningar á vörum fyrir birgðakostnað og framboðsáætlanagerð.|[Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)|
-|Uppsetning SMTP-netþjóns til að virkja tölvupóstssamskipti inn og út af [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Setja upp tölvupóst handvirkt eða með því að nota uppsetningu með hjálp](admin-how-setup-email.md)|
+|Bættu gæði innleiðingar og styttu uppsetningartíma með verkfærasetti til að setja upp nýtt fyrirtæki með því að nota leiðsagnarforrit, sniðmát, vinnublöð og spurningalisti fyrir viðskiptavini.|[Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
+|Færðu upplýsingar viðskiptavina, lánardrottna, birgða og bankareikninga úr öðru kerfi yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md).|
+|Notaðu Business Central Outlook innbótina til að skoða fjárhagsgögn sem tengjast viðskiptamönnum og lánardrottnum, eða búðu til og sendu fjárhagsskjöl á borð við tilboð og reikninga.|[Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)|
+|Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Business Central gögnum með Power BI og Business Central efnispökkunum.|[Gera viðskiptagögn þín virk fyrir Power BI](admin-powerbi.md)|
+|Notandi getur notað Business Central-gögnin sín sem hluta af verkflæði í Microsoft Flow.|[Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)|
+|Gerðu Business Central gögnin þín aðgengileg sem gagnaveitu í PowerApps.|[Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota PowerApps.](across-how-use-financials-data-source-powerapps.md)|
+|Notaðu þar til gerðar Quickbooks færsluleiðbeiningar.|[Skipta úr QuickBooks App í Business Central](across-quickbooks-to-business-edition.md)|
+|Fá aðgang að Business Central gögnunum þínum úr fartækinu.|[Nota Business Central á fartækinu þínu](install-mobile-app.md)|
+|Gerðu magnreikningsfærslu á fundum sem eru stofnaðir í Bookings.|[Magnreikningsfærsla fyrir Microsoft Bookings](finance-bookings.md)|
+|Uppsetning SMTP-netþjóns til að virkja tölvupóstssamskipti inn og út af [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Setja upp tölvupóst handvirkt eða með því að nota Uppsetningu með aðstoð](admin-how-setup-email.md)|
 | Setjið upp einstaka kennitölu fyrir skrár, svo sem kort, skjöl og dagbókarlínur, til að fylgjast með þeim í kerfinu. |[Stofnun númeraraða](ui-create-number-series.md) |
-|Setja upp grunndagatal og úthluta því á fyrirtækið þitt og viðskiptafélaga, t.d viðskiptavini, lánardrottna eða birgðageymslur. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu.|[Uppsetning grunndagatals](across-how-to-assign-base-calendars.md)|  
+|Setja upp grunndagatal og úthluta því á fyrirtækið þitt og viðskiptafélaga, t.d viðskiptavini, lánardrottna eða birgðageymslur. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu.|[Setja upp grunndagatöl](across-how-to-assign-base-calendars.md)|  
 
 Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](includes/d365fin_md.md)] áskrift þinni. Frekari upplýsingar eru í [Stjórnun](admin-setup-and-administration.md).  
 
@@ -64,5 +74,3 @@ Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](incl
 [Hafist handa](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

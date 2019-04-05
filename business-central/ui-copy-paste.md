@@ -1,6 +1,6 @@
 ---
-title: "Afrita og líma gögn"
-description: "Afritaðu reiti og raðir úr Business Central síðum og límdu einhvers staðar annars staðar."
+title: Afrita og líma gögn
+description: Afritaðu reiti og raðir úr Business Central síðum og límdu einhvers staðar annars staðar.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 6f731940714a754275611026749afa4d79a94443
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e924eeb10e98b81035837ca498ec4f1a7b28bf60
-ms.contentlocale: is-is
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853072"
 ---
-
-# <a name="copying-and-pasting-in-included365finincludesd365finmdmd"></a>Afritun og líming í [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="copying-and-pasting"></a>Afrita og líma
 Þú getur afritað eina eða fleiri raðir úr lista eða einum reit á síðu og síðan líma það sem þú afritaðir á sömu síðu, aðra síðu eða ytri skjal (eins og Microsoft Excel og Outlook tölvupóst). Í stuttu máli, til að afrita, ýtirðu á CTRL+C (cmd+C í macOS) á lyklaborðinu þínu. Til að líma er stutt á CTRL+V (cmd+V í macOS).
 
 Það eru nokkrir aðrir flýtilyklar til að afrita og líma sem hjálpa þér að spara tíma þegar þú slærð inn gögn. Nánari upplýsingar um þetta er að finna í [Flýtilykla](keyboard-shortcuts.md#CopyRows).
@@ -72,4 +71,3 @@ Já. Hvort sem þú ert að afrita frá [!INCLUDE[d365fin](includes/d365fin_md.m
 [Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Algengar spurningar](across-faq.md)  
-
