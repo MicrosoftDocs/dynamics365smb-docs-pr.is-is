@@ -1,1 +1,0 @@
-<span data-ttu-id="7e297-101">Byrja á [ókeypis prufu!](https://go.microsoft.com/fwlink/?linkid=847861)</span><span class="sxs-lookup"><span data-stu-id="7e297-101">Start a [free trial!](https://go.microsoft.com/fwlink/?linkid=847861)</span></span>
