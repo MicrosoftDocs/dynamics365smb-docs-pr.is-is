@@ -1,1 +1,0 @@
-Eiginleikar Isabel er aðeins í boði fyrir uppsetningu á staðnum.
