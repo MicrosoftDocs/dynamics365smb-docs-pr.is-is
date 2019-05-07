@@ -10,33 +10,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 36400b3265517c29f68f7eb59d17d968334e0fb1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 53ee8bb7ee798c473e1053ea8413be28f9185d1b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800780"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911720"
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension"></a><span data-ttu-id="ccfe3-103">Envestnet Yodlee bankastreymisviðbótin</span><span class="sxs-lookup"><span data-stu-id="ccfe3-103">The Envestnet Yodlee Bank Feeds Extension</span></span>
-<span data-ttu-id="ccfe3-104">Til að stemma af á skjótan hátt greiðslur gerðar inn á bankareikninga þína, þá leyfir Envestnet Yodlee bankastreymiskerfið þér að tengja bankareikning kerfis þíns við netbankareikninginn þinn.</span><span class="sxs-lookup"><span data-stu-id="ccfe3-104">To quickly reconcile payments made to your bank accounts, the Envestnet Yodlee Bank Feeds service allows you to link your system bank account to your online bank account.</span></span> <span data-ttu-id="ccfe3-105">Þetta þýðir að síðustu bankayfirlitinu er sjálfkrafa eða handvirkt streymt inn í afstemmingarbók þína, og tryggir að þú ert alltaf að vinna úr síðustu greiðslunum með lágmarks hættu á villum.</span><span class="sxs-lookup"><span data-stu-id="ccfe3-105">This means that the latest bank statement is automatically or manually fed into your reconciliation journal, ensuring that you are always processing the latest payments with minimal risk of errors.</span></span>
+# <a name="the-envestnet-yodlee-bank-feeds-extension"></a><span data-ttu-id="90456-103">Envestnet Yodlee bankastreymisviðbótin</span><span class="sxs-lookup"><span data-stu-id="90456-103">The Envestnet Yodlee Bank Feeds Extension</span></span>
+<span data-ttu-id="90456-104">Til að stemma af á skjótan hátt greiðslur gerðar inn á bankareikninga þína, þá leyfir Envestnet Yodlee bankastreymiskerfið þér að tengja bankareikning kerfis þíns við netbankareikninginn þinn.</span><span class="sxs-lookup"><span data-stu-id="90456-104">To quickly reconcile payments made to your bank accounts, the Envestnet Yodlee Bank Feeds service allows you to link your system bank account to your online bank account.</span></span> <span data-ttu-id="90456-105">Þetta þýðir að síðustu bankayfirlitinu er sjálfkrafa eða handvirkt streymt inn í afstemmingarbók þína, og tryggir að þú ert alltaf að vinna úr síðustu greiðslunum með lágmarks hættu á villum.</span><span class="sxs-lookup"><span data-stu-id="90456-105">This means that the latest bank statement is automatically or manually fed into your reconciliation journal, ensuring that you are always processing the latest payments with minimal risk of errors.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ccfe3-106">Þessi virkni er aðeins studd í netútgáfu Business Central.</span><span class="sxs-lookup"><span data-stu-id="ccfe3-106">This functionality is only supported in the online version of Business Central.</span></span> <span data-ttu-id="ccfe3-107">Til að nota þessa virkni á staðnum verður þú að verða þér út um vörumerkjareikning frá Envestnet Yodlee.</span><span class="sxs-lookup"><span data-stu-id="ccfe3-107">To use this functionality on-premise, you must obtain a cobrand account from Envestnet Yodlee.</span></span>
+> <span data-ttu-id="90456-106">Þessi virkni er aðeins studd í netútgáfu Business Central.</span><span class="sxs-lookup"><span data-stu-id="90456-106">This functionality is only supported in the online version of Business Central.</span></span> <span data-ttu-id="90456-107">Til að nota þessa virkni á staðnum verður þú að verða þér út um vörumerkjareikning frá Envestnet Yodlee.</span><span class="sxs-lookup"><span data-stu-id="90456-107">To use this functionality on-premise, you must obtain a cobrand account from Envestnet Yodlee.</span></span>
 
-<span data-ttu-id="ccfe3-108">Envestnet Yodlee bankastreymisþjónusta veitir eftirfarandi kosti:</span><span class="sxs-lookup"><span data-stu-id="ccfe3-108">The Envestnet Yodlee Bank Feeds service provides the following benefits:</span></span>
+<span data-ttu-id="90456-108">Envestnet Yodlee bankastreymisþjónusta veitir eftirfarandi kosti:</span><span class="sxs-lookup"><span data-stu-id="90456-108">The Envestnet Yodlee Bank Feeds service provides the following benefits:</span></span>
 
-* <span data-ttu-id="ccfe3-109">Fjarlægir þörfina fyrir handvirkum innslætti.</span><span class="sxs-lookup"><span data-stu-id="ccfe3-109">Removes the need for manual entry.</span></span>
-* <span data-ttu-id="ccfe3-110">Bætir skilvirkni og nákvæmni þegar afstemming greiðslu er gerð.</span><span class="sxs-lookup"><span data-stu-id="ccfe3-110">Improves efficiency and accuracy when doing payment reconciliation.</span></span>
-* <span data-ttu-id="ccfe3-111">Styður fjölda banka.</span><span class="sxs-lookup"><span data-stu-id="ccfe3-111">Supports a large number of banks.</span></span>
-* <span data-ttu-id="ccfe3-112">Leyfir nýjustu upplýsingar um bankafærslur úr [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="ccfe3-112">Allows up-to-date information about bank transactions from within [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
-* <span data-ttu-id="ccfe3-113">Styður handvirka ásamt sjálfvirk bankastreymi.</span><span class="sxs-lookup"><span data-stu-id="ccfe3-113">Supports manual as well as automatic bank feeds.</span></span>
-* <span data-ttu-id="ccfe3-114">Gerir mögulega útvistun greiðsluafstemmingar til endurskoðanda með því að veita aðgang að bankayfirlitum.</span><span class="sxs-lookup"><span data-stu-id="ccfe3-114">Enables outsourcing of payment reconciliation to an accountant by providing access to bank statements.</span></span>
+* <span data-ttu-id="90456-109">Fjarlægir þörfina fyrir handvirkum innslætti.</span><span class="sxs-lookup"><span data-stu-id="90456-109">Removes the need for manual entry.</span></span>
+* <span data-ttu-id="90456-110">Bætir skilvirkni og nákvæmni þegar afstemming greiðslu er gerð.</span><span class="sxs-lookup"><span data-stu-id="90456-110">Improves efficiency and accuracy when doing payment reconciliation.</span></span>
+* <span data-ttu-id="90456-111">Styður fjölda banka.</span><span class="sxs-lookup"><span data-stu-id="90456-111">Supports a large number of banks.</span></span>
+* <span data-ttu-id="90456-112">Leyfir nýjustu upplýsingar um bankafærslur úr [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="90456-112">Allows up-to-date information about bank transactions from within [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
+* <span data-ttu-id="90456-113">Styður handvirka ásamt sjálfvirk bankastreymi.</span><span class="sxs-lookup"><span data-stu-id="90456-113">Supports manual as well as automatic bank feeds.</span></span>
+* <span data-ttu-id="90456-114">Gerir mögulega útvistun greiðsluafstemmingar til endurskoðanda með því að veita aðgang að bankayfirlitum.</span><span class="sxs-lookup"><span data-stu-id="90456-114">Enables outsourcing of payment reconciliation to an accountant by providing access to bank statements.</span></span>
 
-<span data-ttu-id="ccfe3-115">Frekari upplýsingar eru í [Setja upp Envestnet Yodlee bankastreymisþjónustu](bank-how-setup-bank-statement-service.md).</span><span class="sxs-lookup"><span data-stu-id="ccfe3-115">For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).</span></span>
+<span data-ttu-id="90456-115">Frekari upplýsingar eru í [Setja upp Envestnet Yodlee bankastreymisþjónustu](bank-how-setup-bank-statement-service.md).</span><span class="sxs-lookup"><span data-stu-id="90456-115">For more information, see [Set Up the Envestnet Yodlee Bank Feeds Service](bank-how-setup-bank-statement-service.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ccfe3-116">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="ccfe3-116">See Also</span></span>
-<span data-ttu-id="ccfe3-117">[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum ](ui-extensions.md)  </span><span class="sxs-lookup"><span data-stu-id="ccfe3-117">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  </span></span>  
-[<span data-ttu-id="ccfe3-118">Jafna greiðslur sjálfkrafa og afstemma bankareikninga</span><span class="sxs-lookup"><span data-stu-id="ccfe3-118">Applying Payments Automatically and Reconciling Bank Accounts</span></span>](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-<span data-ttu-id="ccfe3-119">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ccfe3-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="90456-116">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="90456-116">See Also</span></span>
+<span data-ttu-id="90456-117">[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum ](ui-extensions.md)  </span><span class="sxs-lookup"><span data-stu-id="90456-117">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)  </span></span>  
+[<span data-ttu-id="90456-118">Jafna greiðslur sjálfkrafa og afstemma bankareikninga</span><span class="sxs-lookup"><span data-stu-id="90456-118">Applying Payments Automatically and Reconciling Bank Accounts</span></span>](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+<span data-ttu-id="90456-119">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="90456-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
