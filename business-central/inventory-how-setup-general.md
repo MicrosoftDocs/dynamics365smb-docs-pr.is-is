@@ -10,28 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 11/06/2018
+ms.date: 04/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: dd7d3c34aca37bb60a81df3e461bdc19176c4b64
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 7baf0c8798a66e092c256059b77a8c9e78db48da
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800640"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928748"
 ---
-# <a name="set-up-general-inventory-information"></a><span data-ttu-id="90ce8-103">Setja upp almennar birgðaupplýsingar</span><span class="sxs-lookup"><span data-stu-id="90ce8-103">Set Up General Inventory Information</span></span>
-<span data-ttu-id="90ce8-104">Almennar birgðaupplýsingar eru tilgreindar á síðunni **Birgðagrunnur**.</span><span class="sxs-lookup"><span data-stu-id="90ce8-104">You specify your general inventory setup on the **Inventory Setup** page.</span></span>
+# <a name="set-up-general-inventory-information"></a><span data-ttu-id="04a43-103">Setja upp almennar birgðaupplýsingar</span><span class="sxs-lookup"><span data-stu-id="04a43-103">Set Up General Inventory Information</span></span>
+<span data-ttu-id="04a43-104">Almennar birgðaupplýsingar eru tilgreindar á síðunni **Birgðagrunnur**.</span><span class="sxs-lookup"><span data-stu-id="04a43-104">You specify your general inventory setup on the **Inventory Setup** page.</span></span>
 
-## <a name="to-set-up-general-inventory-information"></a><span data-ttu-id="90ce8-105">Til að setja upp almennar birgðaupplýsingar</span><span class="sxs-lookup"><span data-stu-id="90ce8-105">To set up general inventory information</span></span>
-1. <span data-ttu-id="90ce8-106">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning birgða** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="90ce8-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.</span></span>
-2. <span data-ttu-id="90ce8-107">Á síðunni **Birgðagrunnur** skal fylla út reitina eins og þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="90ce8-107">On the **Inventory Setup** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-set-up-general-inventory-information"></a><span data-ttu-id="04a43-105">Til að setja upp almennar birgðaupplýsingar</span><span class="sxs-lookup"><span data-stu-id="04a43-105">To set up general inventory information</span></span>
+1. <span data-ttu-id="04a43-106">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning birgða** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="04a43-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Inventory Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="04a43-107">Á síðunni **Birgðagrunnur** skal fylla út reitina eins og þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="04a43-107">On the **Inventory Setup** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-<span data-ttu-id="90ce8-108">Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í innkaupalínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar á síðunni **Birgðagrunnur** og fyrir staðsetninguna þína.</span><span class="sxs-lookup"><span data-stu-id="90ce8-108">If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory, on the **Inventory Setup** page, and for your location.</span></span> <span data-ttu-id="90ce8-109">Nánari upplýsingar er að finna í [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md).</span><span class="sxs-lookup"><span data-stu-id="90ce8-109">For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).</span></span>  
+<span data-ttu-id="04a43-108">Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í innkaupalínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar á síðunni **Birgðagrunnur** og fyrir staðsetninguna þína.</span><span class="sxs-lookup"><span data-stu-id="04a43-108">If you want to include warehouse handling time in the order promising calculation on the purchase line, you can set it up as a default for the inventory, on the **Inventory Setup** page, and for your location.</span></span> <span data-ttu-id="04a43-109">Nánari upplýsingar er að finna í [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md).</span><span class="sxs-lookup"><span data-stu-id="04a43-109">For more information, see [Calculate Order Promising Dates](sales-how-to-calculate-order-promising-dates.md).</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="90ce8-110">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="90ce8-110">See Also</span></span>
-[<span data-ttu-id="90ce8-111">Setja upp birgðir</span><span class="sxs-lookup"><span data-stu-id="90ce8-111">Set Up Inventory</span></span>](inventory-setup-inventory.md)  
-<span data-ttu-id="90ce8-112">[Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)  </span><span class="sxs-lookup"><span data-stu-id="90ce8-112">[Design Details: Costing Methods](design-details-costing-methods.md)  </span></span>  
-[<span data-ttu-id="90ce8-113">Stjórna birgðum</span><span class="sxs-lookup"><span data-stu-id="90ce8-113">Manage Inventory</span></span>](inventory-manage-inventory.md)  
-<span data-ttu-id="90ce8-114">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="90ce8-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="90ce8-115">Breyting á hvaða eiginleikar eru sýndir</span><span class="sxs-lookup"><span data-stu-id="90ce8-115">Changing Which Features are Displayed</span></span>](ui-experiences.md)  
-[<span data-ttu-id="90ce8-116">Almenn viðskiptavirkni</span><span class="sxs-lookup"><span data-stu-id="90ce8-116">General Business Functionality</span></span>](ui-across-business-areas.md)
+## <a name="see-also"></a><span data-ttu-id="04a43-110">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="04a43-110">See Also</span></span>
+[<span data-ttu-id="04a43-111">Setja upp birgðir</span><span class="sxs-lookup"><span data-stu-id="04a43-111">Set Up Inventory</span></span>](inventory-setup-inventory.md)  
+<span data-ttu-id="04a43-112">[Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)  </span><span class="sxs-lookup"><span data-stu-id="04a43-112">[Design Details: Costing Methods](design-details-costing-methods.md)  </span></span>  
+[<span data-ttu-id="04a43-113">Stjórna birgðum</span><span class="sxs-lookup"><span data-stu-id="04a43-113">Manage Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="04a43-114">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="04a43-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="04a43-115">Breyting á hvaða eiginleikar eru sýndir</span><span class="sxs-lookup"><span data-stu-id="04a43-115">Changing Which Features are Displayed</span></span>](ui-experiences.md)  
+[<span data-ttu-id="04a43-116">Almenn viðskiptavirkni</span><span class="sxs-lookup"><span data-stu-id="04a43-116">General Business Functionality</span></span>](ui-across-business-areas.md)
