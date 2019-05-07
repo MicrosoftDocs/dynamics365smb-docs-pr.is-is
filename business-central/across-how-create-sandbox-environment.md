@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 02/15/2019
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 91db02673c1e408927d9863af9ec6751bc33e480
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 113c081e60b825c48cfb85ae3475a713a1a1e215
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800246"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937947"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -38,8 +38,7 @@ Notandi verður að hafa áskrift að [!INCLUDE[d365fin](includes/d365fin_md.md)
 
 5. Veldu **Læra meira** til að lesa um dæmi sem hægt er að prófa í sandkassaumhverfinu. Eða veldu **Loka** til að halda áfram í Hlutverkamiðstöð í [!INCLUDE[d365fin](includes/d365fin_md.md)] sandkassatilvikinu þínu.
 6. Efst í Hlutverkamiðstöðinni birtist tilkynning til að upplýsa þig um að þetta sé sandkassaumhverfi. Einnig er hægt að sjá um hvaða gerð af umhverfi er að ræða í titilstiku biðlarans.
-<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> 
-Búinn hefur verið til nýr leigjandi í sandkassaumhverfinu. Þessi leigjandi er uppfullur af sjálfgefnum sýnigögnum fyrir CRONUS fyrirtækið. Engin gögn eru afrituð eða yfirhöfuð flutt frá framleiðsluumhverfinu á meðan stofnun sandkassans stendur.
+<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> Búinn hefur verið til nýr leigjandi í sandkassaumhverfinu. Þessi leigjandi er uppfullur af sjálfgefnum sýnigögnum fyrir CRONUS fyrirtækið. Engin gögn eru afrituð eða yfirhöfuð flutt frá framleiðsluumhverfinu á meðan stofnun sandkassans stendur.
 
 7. Alltaf er hægt að fara til baka á **Sandkassaumhverfi** síðuna og endurstilla sandkassaumhverfið.
 > [!NOTE]  

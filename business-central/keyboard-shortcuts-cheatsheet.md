@@ -8,21 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: f0a88ccadd5107130150e5cadda3e3e5d1cee4bf
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f06e032aa1d16deb0dc312d02b88115c2c1c5399
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799833"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "990154"
 ---
-# <a name="keyboard-shortcuts-quick-reference"></a>Flýtitilvísanir flýtilykla
+# <a name="pc-keyboard-shortcuts"></a>Flýtilyklar tölvu
 
 ||||  
 |----------------|-----------|----------------|
-|**Almennt**|Alt+Q<br />Alt+Upp<br />Dálklykill<br />SHIFT+DÁLKLYKILL<br />Alt+Niðurör<br />Alt+hægri ör<br />F5/Ctrl+F5<br />Esc|Opna **Segðu mér**<br />Opna ábendingu eða staðfestingarvillu<br />Færa áherslu á næstu stýringu<br />Færa áherslu á fyrri stýringu<br />Opna fellilista eða flettu upp<br />Sjá færslur fyrir reiknað gildi<br />Endurnýja/endurhlaða síðan<br />Loka núverandi síðu eða fellilista.|
-|**Skoða og velja raðir**| Heim/Loka<br />Ctrl+Heim/Loka <br />Ctrl+Upp/Niður<br />Ctrl+A <br />Ctrl+bil<br />Ctrl/Shift+Smelltu<br />Ctrl+Shift+Heim/Loka<br />Shift+Upp/Niður<br />Shift+síða upp/niður<br />Ctrl+Enter| Fara í fyrsta/síðasta reitinn<br />Fara í fyrstu/síðustu röð<br />Skoða án þess að tapa vali<br />Velja allt<br />Víxla raðavali<br /> Bæta röðinni/röðunum við valið<br />Framlengdu val í fyrsta/síðasta röð<br />Bæta við röðum fyrir ofan/neðan við val<br />Bættu öllum sýnilegum röðum fyrir ofan/neðan við val<br />Setja áherslu utan listans|
+|**Almennt**|Alt+Q<br />Alt+Upp<br />Alt+Niðurör<br />Alt+hægri ör<br />Ctrl+Alt+F1<br />Ctrl+F1<br />Esc<br />F5/Ctrl+F5<br />Tab/Shift+Tab<br />|Opna **Segðu mér**<br />Opna ábendingu eða staðfestingarvillu<br />Opna fellilista eða flettu upp<br />Sjá færslur fyrir reiknað gildi<br />Skoða síðuna<br />Opna hjálp fyrir síðuna<br />Loka núverandi síðu eða fellilista<br />Endurnýja/endurhlaða síðan<br />Færa áherslu á næstu/fyrri einingu|
+|**Skoða og <br />velja raðir**| Heim/Loka<br />Ctrl+Heim/Loka <br />Ctrl+Upp/Niður<br />Ctrl+A <br />Ctrl+bil<br />Ctrl/Shift+Smelltu<br />Ctrl+Shift+Heim/Loka<br />Shift+Upp/Niður<br />Shift+síða upp/niður<br />Ctrl+Enter| Fara í fyrsta/síðasta reitinn<br />Fara í fyrstu/síðustu röð<br />Skoða án þess að tapa vali<br />Velja allt<br />Víxla raðavali<br /> Bæta röðinni/röðunum við valið<br />Framlengdu val í fyrsta/síðasta röð<br />Bæta við röðum fyrir ofan/neðan við val<br />Velja sýnilegar raðir fyrir ofan/neðan <br />Setja áherslu utan listans|
 |**Afrita og líma**|Ctrl+C<br />Ctrl+V<br />F8|Afrita raðir<br />Líma raðir<br />Afrita reit hér að ofan í núverandi röð|
-|**Leita, sía og raða**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Víxla leit<br />Víxla síusvæði; setja áherslu á svæðasíur<br />Víxla síusvæði; setja áherslu á samtölusíur<br />Síur á völdum hólfgildum<br />Bættu við síu á völdum reit<br />Endurstilla afmarkanir|
+|**Leita, sía, <br />og raða**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Víxla leit<br />Víxla síusvæði; setja áherslu á svæðasíur<br />Víxla síusvæði; setja áherslu á samtölusíur<br />Síur á völdum hólfgildum<br />Bættu við síu á völdum reit<br />Endurstilla afmarkanir|
+|**Flýtifærsla**|Ctrl+Shift+Enter<br />Enter/Shift+Enter|Fara í næsta reit flýtifærslu utan lista<br />Fara í næsta/fyrri reit flýtifærslu|
 |**Forskoðun skýrslu**|Upp/niður<br />Hægri/vinstri<br />Ctrl+Heim/Loka<br />Upp/niður um síðu|Skruna upp og niður á síðunni<br />Skruna til hægri/vinstri <br />Fara á fyrstu/síðustu síðu<br />Fara á fyrri/næstu síðu|

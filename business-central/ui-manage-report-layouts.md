@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 64c2c714afc3e052d3323dbcbddce4ee3ab5c98d
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: ff9e2087f832d954ae403596744990a243af80c5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852402"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934305"
 ---
 # <a name="managing-report-and-document-layouts"></a>Stjórna útliti skýrslna og skjala
 Útlit skýrslu stjórnar efni og sniði skýrslunnar, þ.m.t. hvaða gagnareitir gagnasafn skýrslu birtast í henni, stöðu þeirra, textastíl, myndir og meira. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að breyta því hvaða útlit er notað í skýrslu, búa til nýtt útlit eða breyta fyrirliggjandi útliti.
@@ -32,7 +32,7 @@ Skýrsluútlit setur einkum eftirfarandi upp:
 * Fyrirtækjamerki og staðsetning þess.
 * Almennar síðustillingar, eins og spássíur og bakgrunnsmyndir.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] getur verið uppsett með mismunandi útliti sem hægt er að skipta á milli. Hægt er að nota eitt af innbyggðum skýrsluútlitum eða stofna sérsniðið skýrsluútlit og úthluta þeim á skýrslur eftir þörfum. Nánari upplýsingar er að finna í [Búa til sérsniðið skýrsluútlit eða skjalaútlit](ui-how-create-custom-report-layout.md).
+Skýrsla getur verið uppsett með mismunandi útliti sem hægt er að skipta á milli. Hægt er að nota eitt af innbyggðum skýrsluútlitum eða stofna sérsniðið skýrsluútlit og úthluta þeim á skýrslur eftir þörfum. Nánari upplýsingar er að finna í [Búa til sérsniðið skýrsluútlit eða skjalaútlit](ui-how-create-custom-report-layout.md).
 
 Það eru tvær gerðir skýrsluútlita sem hægt er að nota á skýrslur, Word og RDLC.
 

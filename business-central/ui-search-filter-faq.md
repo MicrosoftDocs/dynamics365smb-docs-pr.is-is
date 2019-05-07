@@ -4,18 +4,16 @@ description: Svarar algengum spurningum um leit og síun.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: mikebc
-ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852057"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969856"
 ---
 # <a name="searching-and-filtering-faq"></a>Algengar spurningar um leit og síun
 Þessi grein svarar algengum spurningum sem þú gætir haft um leit og síun.
@@ -36,7 +34,10 @@ Síunarsvæði er tiltæk á síðum þar sem listinn er aðal innihald síðunn
 Síurnar þínar og breytingar á fyrirfram skilgreindum síum eru muna í gegnum lotuna (meðan þú ert ennþá innskráður), jafnvel þótt þú ferð í burtu frá síðunni. Nú er ekki hægt að vista síur með varanlegum hætti. Ólíkt síum er ekki hægt að muna leitartexta þegar þú vafrar í burtu frá síðu.
 
 ## <a name="is-this-the-same-as-advanced-filters-and-limit-totals-in-microsoft-dynamics-nav"></a>Er þetta það sama og ítarlegar síur og takmarka heildarstærðir í Microsoft Dynamics NAV?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] byggir á þessum vinsælustu eiginleikum og skilar nútíma og mjög nothæfi reynslu til að finna og greina gögnin þín. Með fleiri flýtilyklum og kynningu á leit, [!INCLUDE[d365fin](includes/d365fin_md.md)] yfirfærir virkni sem er að finna í Dynamics NAV.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] byggir á þessum vinsælustu eiginleikum og skilar nútíma og mjög nothæfi reynslu til að finna og greina gögnin þín. Með fleiri flýtilyklum og kynningu á leit, [!INCLUDE[d365fin](includes/d365fin_md.md)] yfirfærir virkni sem er að finna í Dynamics NAV.  
+
+Sjá einnig [Er afmörkunarsvæðið tiltækt til að sía skýrslur?](#is-the-filter-pane-available-for-filtering-reports).  
 
 ## <a name="can-i-search-and-filter-using-the-companion-apps-and-outlook-addin"></a>Get ég leitað og síað með því að nota viðbótarforrit og Outlook viðbætur?
 Á mismunandi birtingastöðum, eins og fartækjum eða Outlook, getur þú leitað í listum en getur ekki síað á einstökum reitum í flestum tilfellum.
@@ -54,5 +55,6 @@ Við hjá Microsoft erum stöðugt að hlusta á viðbrögð frá fjölbreyttu s
 Sem stjórnandi á staðnum, eykur þú tímamörkin í leitum með því að breyta **tímamörk leitar** stillingunni á [!INCLUDE[prodshort](includes/prodshort.md)] þjóni. Nánari upplýsingar er að finna í [Stilling á Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) í Business Central Developer og IT Pro hjálp.
 
 ## <a name="see-also"></a>Sjá einnig .
+
 [Hafist handa](product-get-started.md)  
-[Röðun, leit og síun í listum](ui-enter-criteria-filters.md)
+[Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  

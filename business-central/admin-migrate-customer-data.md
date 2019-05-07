@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799415"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "953511"
 ---
 # <a name="migrate-customer-data"></a>Flytja gögn viðskiptamanna
 Hægt er að flytja núverandi gögn um viðskiptavini úr fyrirliggjandi ERP-kerfi yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að nota gagnaflutningstæki RapidStart Services. Hægt er að nota Excel-skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að slá þau beint inn í fyrirtækið.
@@ -101,7 +101,7 @@ Ef taflan er auð mun gagnaflutningsskráin innihalda auð hólf fyrir þá reit
 5. Í reitinn **Gamalt gildi** skal færa inn gildið sem á að breyta. Í reitinn **Nýtt gildi** skal færa inn nýtt gildi í stað gamla gildisins. Velja hnappinn **Í lagi**.  
 6. Innflutningur gagna viðskiptamanns Nánari upplýsingar eru í [Að flytja inn gögn viðskiptamanns](admin-migrate-customer-data.md#to-import-customer-data).
 7. Í reitnum **Fjölda pakkavillna** skal athuga hvort einhverjar villur eru tilkynntar. Ef það er, skaltu fara niður til að sjá villurnar. Síðan **Stilla pakkafærslur** opnast.
-8. Veljið aðgerðina **Sýna villur**. Þú færð eftirfarandi villu: **<option> er ekki gildur valkostur. Gildir valkostir eru <valid option list>**. Velja hnappinn **Í lagi**.  
+8. Veljið aðgerðina **Sýna villur**. Þú færð eftirfarandi villu: **XX er ekki gildur valkostur. Gildir valkostir eru: XX**. Velja hnappinn **Í lagi**.  
 9. Til að nota vörpunina sem sett var upp skal velja aðgerðina **Nota gögn**.  
 
 ### <a name="mapping-example"></a>Dæmi vörpunar  
@@ -153,7 +153,11 @@ Nú er hægt að flytja inn gagnaflutningskrár sem innihalda eldri gögn um vi�
 
 1. Opnið síðuna **Grunnstilling pakkaspjalds**.
 2. Veljið töfluna þar sem á að flytja inn gögn og síðan á flipanum **Töflur** skal velja aðgerðina **Flytja inn úr Excel**.
-3. Finna og opna skrána þaðan sem á að flytja gögn inn í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. Finna og opna skrána sem á að flytja inn gögn úr.
+4. Á síðunni **Forskoðun á innfluttum skilgreiningarpakka** skal yfirfara innihaldið sem verður flutt inn.
+
+    Síðan **Forskoðun á innfluttum skilgreiningarpakka** veitir yfirlit yfir innihald Excel-skráarinnar sem á að flytja inn. Hún gefur einnig til kynna hvort nýr skilgreiningarpakki sé búinn til eða fyrirliggjandi pakki sé uppfærður, og hvort nýjar línur (töflur) skilgreiningarpakka séu búnar til eða hvort fyrirliggjandi línur (töflur) eru uppfærðar.    
+5. Velja skal aðgerðina **Flytja inn**
 
 Gögn úr skránni eru flutt inn í töflu grunnstillingarsendingar. Í reitnum **Númer færslupakka** er hægt að sjá fjölda færslna sem hafa verið innfluttar. Auk þess sést fjöldi innflutningsvillna.
 

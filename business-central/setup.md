@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: edupont
-ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852080"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969833"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Setur upp [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.
@@ -27,7 +27,7 @@ Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum sem h
 > [!NOTE]
 > Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] með RapidStart Services sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Nánari upplýsingar er að finna í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilteknar viðskiptaferðir, handvirkt í viðbót við aðstoðaruppsetninguna. Eftirfarandi sýnir nokkrar aðgerðir sem hægt er að setja upp handvirkt.
+Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilteknar viðskiptaferðir, handvirkt í viðbót við leiðbeiningar um uppsetningu með hjálp. Eftirfarandi sýnir nokkrar aðgerðir sem hægt er að setja upp handvirkt.
 
 | Til | Sjá |
 | --- | --- |
@@ -58,18 +58,18 @@ Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilte
 Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](includes/d365fin_md.md)] áskrift þinni. Frekari upplýsingar eru í [Stjórnun](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Stjórnun](admin-setup-and-administration.md)  
 [Fjármál](finance.md)  
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Birgðir](inventory-manage-inventory.md)    
+[Birgðir](inventory-manage-inventory.md)  
 [Verkefnastjórnun](projects-manage-projects.md)  
-[Eignir](fa-manage.md)    
+[Eignir](fa-manage.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Framleiðsla](production-manage-manufacturing.md)  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Stjórnun](admin-setup-and-administration.md)  
 [Stofna ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Hafist handa](product-get-started.md)  
 

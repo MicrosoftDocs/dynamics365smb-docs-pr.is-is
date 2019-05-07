@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: upload, attach, attachments
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: f05d12481936e8159631e16f596710cfb13b3b6e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800314"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934561"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Hengja skrár við kort og skjöl
 Hægt er að hengja myndir, skjöl og aðrar gerðir af skrám við öll kort, svo sem birgðaspjald og verkspjald og þú getur hengt skrár við allar gerðir af sölu- og innkaupskjölum.

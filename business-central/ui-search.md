@@ -1,34 +1,36 @@
 ---
 title: Að finna eiginleika og upplýsingar | Microsoft Docs
-description: Þetta efni lýsir því hvernig á að nota leit til að finna aðgerðir, síður, skýrslur, skjöl og gögn.
-author: SusanneWindfeldPedersen
+description: Þetta efnisatriði lýsir því hvernig á að nota leit til að finna aðgerðir, síður, skýrslur, skjöl og gögn, ásamt öðrum forritum og ráðgjafarþjónustum.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d260f7cf5db0bbd7c70320d0bd1d33ee29650616
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 309146e68abe91a89f761be0957ae27718ee2a0d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800344"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934420"
 ---
 # <a name="using-tell-me-to-find-features-and-information"></a>Nota Viðmótsleit til að finna eiginleika og upplýsingar  
-Þetta efni lýsir ýmsar leiðir sem Viðmótsleit geta hjálpa þér að finna fljótt aðgerð, síðu, skýrslu eða læra hvernig á að gera eitthvað í [!INCLUDE[d365fin](includes/d365fin_md.md)] ef þú ert ekki viss.  
+Þetta efnisatriði lýsir því hvernig Viðmótsleit getur hjálpað þér að komast hratt á staði eins og aðgerðir, síður eða skýrslur, finna upplýsingar um hvernig á að ljúka ákveðnu verki og uppgötva önnur forrit og ráðgjafarþjónustur fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+  
 
-> [!VIDEO https://www.youtube.com/embed/W8egYiS445o]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-## <a name="find-pages-reports-actions-and-documentation"></a>Finna síður, skýrslur, aðgerðir og skjöl 
-Þegar þú þarft hjálp við að finna síðu, skýrslu, grein í skjölunum okkar eða aðgerð á síðunni sem er opin skaltu nota ![Segðu mér hvað þú vilt gera](media/ui-search/search.png "Leita að síðu eða skýrslu") **Segðu mér hvað þú vilt að gera** táknið til að leita að henni með nafni. Þú getur líka notað ALT + Q til að byrja að nota Viðmótsleit.
+Þegar þú þarft hjálp við að finna eitthvað skaltu nota ![Segðu mér hvað þú vilt gera](media/ui-search/search.png "Leita að síðu eða skýrslu") **Segðu mér hvað þú vilt að gera** táknið til að leita að því. Þú getur líka notað ALT + Q til að byrja að nota Viðmótsleit.
 
-Þegar þú byrjar að skrifa stafi birtir [!INCLUDE[d365fin](includes/d365fin_md.md)] strax samsvörun í fellilistanum. Niðurstöður í listanum breytast þegar þú skrifar fleiri stafi. Seinni dálkurinn í fellilistanum gefur til kynna almenna flokkinn af niðurstöðunni.   
+Þegar þú byrjar að skrifa stafi birtir [!INCLUDE[d365fin](includes/d365fin_md.md)] strax samsvörun. Niðurstöður í listanum breytast þegar þú skrifar fleiri stafi. Ef þú tekur eftir því að þegar þú slærð inn orðið „afurð“ og niðurstöðurnar innihalda „vörur“, er það vegna þess að Viðmótsleitin notar samheiti og önnur leitarorð til að auðvelda að finna aðgerðir, síður og skýrslur. 
+
+Hægri dálkurinn tilgreinir almennan flokk af niðurstöðum. Til dæmis, hvort það mun opna listasíðu eða er stjórnsýsluverk.  
 
 > [!NOTE]  
->   Þegar þú ýtir á **færslulykilinn** á lyklaborðinu þínu, [!INCLUDE[d365fin](includes/d365fin_md.md)] opnar niðurstöðuna sem er fyrst skráð. Ef þú vilt nota lyklaborðið skaltu nota dálkalykilinn og örvatakkana til að velja atriði í niðurstöðum.
+>   Ef þú vilt nota lyklaborðið skaltu nota dálkalykilinn og örvatakkana til að velja atriði í niðurstöðum. Ef þú ýtir á **færslulykilinn** á lyklaborðinu þínu án þess að velja niðurstöðu, opnar [!INCLUDE[d365fin](includes/d365fin_md.md)] niðurstöðuna sem er fyrst skráð.
 
 ### <a name="find-an-action-on-the-current-page"></a>Finndu aðgerð á núverandi síðu
 **Á núverandi síðu** hluti er hægt að finna og framkvæma aðgerðir á síðunni sem þú hefur opnað. Til dæmis, ef sölutilboðssíðan er opin og þú skrifar „viðskiptamaður", inniheldur hlutinn aðgerð sem opnar viðskiptamannskortið fyrir þann viðskiptamann sem valinn er í sölutilboði. 
@@ -47,6 +49,9 @@ Undir **Fylgiskjöl** muntu sjá greinar úr [!INCLUDE[d365fin](includes/d365fin
 
 > [!NOTE]  
 >   Fylgiskjöl fyrir viðbót þriðja aðila er ekki innifalið í niðurstöðum. 
+
+### <a name="get-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Fáðu meiri virkni með því að finna forrit á Microsoft AppSource
+Samfélag samstarfsaðila okkar er að þróa forrit á fullu sem bæta möguleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hlutinn **Fá frá Microsoft AppSource** birtir forrit fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem eru í boði á Microsoft AppSource og tengjast leitarorðinu sem þú leitaðir eftir.
 
 ## <a name="searching-for-data"></a>Leitar að gögnum
 **Segðu mér hvað þú vilt gera** eiginleikinn leitar ekki að gögnum, svo sem heiti viðskiptamanna, heimilisföng eða færslur. Í staðinn er hægt að leita að gögnum á listasíðum með því að velja ![Leitarlisti](media/ui-search/search-list.png "Tákn leitarlista") **Leita** táknið í vinstra horninu á listahausnum. Leitin á aðeins við um listann sem verið er að skoða. Nánari upplýsingar er að finna í [Flokkun, leit og síunarlistar](ui-enter-criteria-filters.md).

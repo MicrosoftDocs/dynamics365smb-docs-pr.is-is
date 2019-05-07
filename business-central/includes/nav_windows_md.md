@@ -1,0 +1,1 @@
+Dynamics NAV Biðlari tengudr við Business Central

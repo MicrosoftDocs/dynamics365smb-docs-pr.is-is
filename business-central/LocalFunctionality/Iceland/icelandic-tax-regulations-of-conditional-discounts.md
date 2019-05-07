@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: https://www.microsoft.com
-ms.openlocfilehash: 7c9e07d30d77cdf6bc195af7b98316c506ff668d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a9db0f4c37a99208b8dfc3e5c5aa4ef13e294f51
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826789"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932379"
 ---
 <!-- This topic is retired and redirects -->
 

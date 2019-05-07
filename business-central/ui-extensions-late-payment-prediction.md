@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800552"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935804"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Viðbót greiðsludráttarspár  
 Árangursrík stjórnun viðskiptakrafna er mikilvæg fyrir heildar fjárhagslega heilsu fyrirtækis. Viðbót greiðsludráttarspár getur hjálpað þér að draga úr útistandandi kröfum og fínstilla stefnu sjóðsins með því að spá fyrir um hvort sölureikningar verði greiddar á réttum tíma. Til dæmis, ef spá telur greiðsla vera sein, gætir þú ákveðið að lagfæra skilmála greiðslu eða greiðslumáta fyrir viðskiptamanninn.
@@ -55,7 +55,7 @@ On the **Late Payment Prediction Setup** page you can schedule updates to paymen
 ## <a name="building-your-own-predictive-model"></a>Búðu til eigin spálíkan
 Hefurðu áhuga á að byggja upp eigin spálíkan? Þú getur notað Azure-vélnámsstúdíó til að byggja upp eigin spálíkan og nota það í [!INCLUDE[d365fin](includes/d365fin_md.md)] . Til að nota eigin líkan þarftu að gerast áskrifandi að Azure-vélnám. Nánari upplýsingar er að finna í [Fylgiskjöl fyrir Azure-vélnámsstúdíó](https://go.microsoft.com/fwlink/?linkid=861765).  
 
-Við bjóðum hins vegar auðveldara leið fyrir þig til að búa til og nota eigin spálíkan. Þú getur deilt gögnum úr reikningum þínum með forspártilraun okkar í Azure-vélnámi og látið tilraun okkar búa til og þjálfa spálíkan byggt á gögnum þínum. Til að deila gögnum, á síðunni **Uppsetning greiðsludráttarspár** skal velja **Búa til mitt líkan** aðgerð. Eftir það mun spár byggjast á líkaninu og gögnunum þínum, ekki okkar.  
+Við bjóðum hins vegar auðveldara leið fyrir þig til að búa til og nota eigin spálíkan. Þú getur deilt gögnum úr reikningum þínum með [Forspártilraun okkar fyrir Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) í Azure-vélnámi og látið tilraun okkar búa til og þjálfa spálíkan byggt á gögnum þínum. Til að deila gögnum, á síðunni **Uppsetning greiðsludráttarspár** skal velja **Búa til mitt líkan** aðgerð. Eftir það mun spár byggjast á líkaninu og gögnunum þínum, ekki okkar.  
 
 > [!Note]
 >   Gæði líkansins er mikilvægt. Þegar forspártilraunin okkar notar gögnin þín til að þjálfa líkan ákvarðar það gæðagildi fyrir líkanið í prósentum. Gæði líkansins gefur til kynna hversu nákvæmar spár líkansins séu líklegar að vera. Nokkrir þættir geta haft áhrif á gæði líkansins. Til dæmis, þessar þættir gætu verið að ekki voru næg gögn eða að gögnin innihéldu ekki nógu mikinn breytileika. Hægt er að skoða gæði líkansins sem þú ert að nota núna á síðunni **Uppsetning greiðsludráttaspár**. Þú getur einnig tilgreint lágmarksþröskuld fyrir gæði líkansins. Líkön með gæðagildi fyrir neðan þröskuldinn munu ekki framleiða spár.  

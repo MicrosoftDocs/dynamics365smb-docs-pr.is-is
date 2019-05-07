@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799488"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932033"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Afstemma bankareikninga hvern fyrir sig
 Til að afstemma bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)] með yfirlitum sem koma frá bankanum þarf fyrst að fylla inn í vinstri rúðuna á síðunni **Að afstemma bankareikninga** með upplýsingum um bankayfirlit sem þú síðan jafnar (afstemmir) við færslur í höfuðbók bankareiknings í hægri rúðunni. Sniðug leið til að fylla út í bankayfirlitslínur er með því að flytja inn bankayfirlitsskrá eða streymi.

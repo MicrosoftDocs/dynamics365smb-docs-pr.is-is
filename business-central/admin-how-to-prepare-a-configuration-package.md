@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800095"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941635"
 ---
 # <a name="prepare-a-configuration-package"></a>Undirbúa grunnstillingarpakka
-Þegar nýtt fyrirtæki er skilgreint eru töflutengsl greind og unnin. Gögn eru flutt inn og notuð í réttri röð. Víddartöflur eru einnig fluttar inn ef þær eru teknar með í grunnstillingapakkanum  
+Þegar nýtt fyrirtæki er skilgreint eru töflutengsl greind og unnin. Gögn eru flutt inn og notuð í réttri röð. Víddartöflur eru einnig fluttar inn ef þær eru teknar með í grunnstillingapakkanum Nánari upplýsingar eru í [Að flytja inn gögn viðskiptamanns](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Til aðstoða viðskiptavininn við notkun á grunnstillingarpakkanum gætirðu viljað bæta við spurningalista eða spurningalistasafni við pakkann. Spurningalistinn getur aðstoða viðskiptavin í að skilja mismunandi uppsetningarvalkosti. Yfirleitt eru spurningalistar stofnaðir fyrir mikilvægar uppsetningartöflur þar sem viðskiptavinur gæti þurft frekari leiðsögn um hvernig velja skal viðeigandi stillingar. Nánari upplýsingar er að finna í [Safna uppsetningargildum viðskiptavinar](admin-gather-customer-setup-values.md).
 

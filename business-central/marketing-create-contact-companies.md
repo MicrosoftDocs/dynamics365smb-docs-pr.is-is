@@ -10,28 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaeb98aa5e3c48a92be71546be33b1494a751cb9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799516"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938966"
 ---
-# <a name="creating-contacts"></a>Stofnun tengiliða
-Fyrirtækið hefur reglulega samskipti við önnur fyrirtæki sem viðskiptatengsl gætu myndast við í framtíðinni. Þegar nýr tengiliður er stofnaður þarf að skrá þessar upplýsingar svo samskipti geti haldið áfram.
+# <a name="create-contacts"></a>Stofna tengiliði
+Þú hittir reglulega fólk frá öðrum fyrirtækjum sem getur þróast yfir í viðskiptatengsl, t.d. viðskiptamannatengsl. Þegar þannig nýr tengiliður verður til, verður að skrá eins miklar upplýsingar og hægt er í tengiliðaspjald svo samskipti geti haldið áfram.
 
-Með því að úthluta eins miklum gögnum og mögulegt er um tiltekið fyrirtæki eru skilvirkt samskipti tryggð. Til dæmis tryggir úthlutun viðeigandi starfsgreinahóps að tiltekin fyrirtæki séu höfð með í öllum viðeigandi samskiptum. Einnig er hægt að skilgreina viðskiptatengslin við tengilið. Tengiliður gæti til dæmis verið væntanlegur viðskiptamaður, banki eða verktaki.
+## <a name="person-or-company"></a>Einstaklingur eða fyrirtæki
+Þú getur valið um að setja upp tengilið sem einstakling eða fyrirtæki, fer venjulega eftir því hvort nafn tengiliðar er þekkt við stofnun. Þetta gerir þú þegar þú fyllir út reitinn **Gerð** á síðunni **Tengiliðaspjald**. Einnig er hægt að vinna með tengiliðaspjöld fyrir bæði fyrirtæki og einn eða fleiri einstaklinga sem vinna í fyrirtækinu. Þetta gerist sjálfkrafa þegar þú fyllir út reitinn **Heiti fyrirtækis** á tengiliðaspjaldi af gerðinni **Einstaklingur**.
 
-> [!NOTE]
-> Í reitnum **Gerð** á síðunni **Tengiliðaspjald** er hægt að setja upp tengilið sem einstakling eða fyrirtæki, fer venjulega eftir því hvort nafn tengiliðar er þekkt við stofnun. Virkni er sú sama fyrir báðar gerðirnar, nema fyrir nokkrar gerðir viðbótarupplýsinga sem hægt er að úthluta. Hægt er að breyta gildi reitsins seinna eða nota reitina í flýtiflipanum **Erfðir** á síðunni **Uppsetning markaðssetningar** til að stjórna því hvaða gögnum er deilt milli einstaklings og viðeigandi fyrirtækis.
-
-Hægt er að stofna tengilið fyrir hvern nýjan einstakling eða nýtt fyrirtæki sem notandinn á í samskiptum við, til dæmis viðskiptamann, lánardrottin, tilvonandi viðskiptamann, banka, lögfræðistofu, ráðgjafa og svo framvegis.
-
-Til eru tvær leiðir til að stofna nýjan tengilið:
- * Handvirkt.
- * Úr viðskiptavini, lánardrottni eða bankareikningi sem þegar eru til.
+Virknin er sú sama fyrir báðar gerðirnar, nema að valmöguleikarnir fyrir viðbótarupplýsingar breytist eftir því um hvora gerðina er að ræða. Til dæmis er aðeins hægt að úthluta starfsábyrgðir á einstakling og starfsgreinarhóp á fyrirtæki. Þetta er tilgreint í notendaviðmótinu með því að skyggja reitina og aðgerðirnar sem eiga ekki við. Hægt er að breyta gildi reitsins **Gerð** seinna eða nota reitina í flýtiflipanum **Erfðir** á síðunni **Uppsetning markaðssetningar** til að stjórna því hvaða gögnum er deilt milli einstaklings og viðeigandi fyrirtækis einstaklings. Nánari upplýsingar er að finna í [Uppsetning tengiliða](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Að búa til tengilið handvirkt
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.

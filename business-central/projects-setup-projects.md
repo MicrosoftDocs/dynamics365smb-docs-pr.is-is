@@ -1,8 +1,6 @@
 ---
 title: Setja upp forða, vinnuskýrslur og verk| Microsoft Docs
 description: Lýsir hvernig á að setja upp forða, vinnuskýrslur og verk til að stjórna verkefnum.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6089fa6ceb5198d280fa0c2240967c5728a2a3a9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dd297498918630e604a3e9f179c1f7f2a7c2df40
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800117"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937605"
 ---
 # <a name="setting-up-project-management"></a>Setja upp verkefnastjórnun
 Áður en þú getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)] til að stjórna verkefnum verður þú að setja upp tilföng, vinnuskýrslur og verk.
@@ -26,15 +24,18 @@ ms.locfileid: "800117"
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
-| Til | Sjá |
+| Til að | Sjá |
 | --- | --- |
+| Setja upp verkefnastjórnun.|[Stilla almennar upplýsingar fyrir verk](projects-how-setup-jobs.md#to-set-general-information-for-jobs)|
 | Að setja upp forða og tengdan kostnað og verð, annaðhvort fyrir einstaka forða, forðaflokka eða alla tiltæka forða fyrirtækisins. |[Setja upp forða](projects-how-setup-resources.md) |
 | Að gera forða kleift að skrá tímanotkun fyrir einstakling eða vél og gera stjórnanda kleift að skoða notkun og úthlutun. |[Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md) |
 | Að stofna verkspjöld og undirbúa verkhluta. Að setja upp verð fyrir vörur verks og verkforða og skilgreina bókunarflokka verks. |[Uppsetning verka](projects-how-setup-jobs.md) |
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Stjórna verkum](projects-manage-projects.md)  
+[Myndband: Hvernig á að stofna verk í Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Fjármál](finance.md)  
-[Innkaup](purchasing-manage-purchasing.md)         
-[Sala](sales-manage-sales.md)     
+[Innkaup](purchasing-manage-purchasing.md)  
+[Sala](sales-manage-sales.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

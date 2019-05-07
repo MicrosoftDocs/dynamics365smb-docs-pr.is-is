@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
-ms.openlocfilehash: d069a22603a969220a62e2c7458cb6259cfbc630
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 22530c8e1bd3f148f5f158e6210668020c24d387
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799698"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941563"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Setja upp önnur aðsetur fyrir viðskiptamenn
 Hægt er að velja annað aðsetur þangað sem stundum má senda tengiliðum póst og upplýsingar, til dæmis sumarbústaðinn þeirra. Hægt er að úthluta einu eða fleirum dagsetningarbilum á hvert annað aðsetur sem hefur verið fært inn fyrir tengiliðina til að tilgreina hvenær hvert þeirra er í gildi.

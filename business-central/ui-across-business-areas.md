@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac385409d72fea4ee43f7549a86da3516a299608
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853095"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939463"
 ---
 # <a name="general-business-functionality"></a>Almenn viðskiptavirkni
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tilteknar aðgerðir fyrir dæmigerð rekstrarsvið, s.s. fjármálasvið og sölur. Frekari upplýsingar eru í [Viðskiptavirkni](across-business-functionality.md).
@@ -40,6 +40,7 @@ Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að 
 |Hengja myndir, skjöl og aðrar tegundir af skrám við öll kort, svo sem hlutakort og vinnukort, og hengja skrár við allar tegundir af sölu- og innkaupskjölum.|[Hengja skrár við kort og skjöl](across-attach-document-master-data.md)|
 |Vinna með gögn Business Central í Excel.|[Flutningur viðskiptagagna í Excel](about-export-data.md)|
 |Skildu hvað gerist þegar þú velur aðgerðina **Bóka**.|[Að bóka skjöl og færslubækur](ui-post-documents-journals.md)|
+|Yfirfara niðurstöður bókunar áður en bókað er.|[Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md)| 
 |Lærðu að vinna með Færslubækur, sem eru notaðar til að bóka fjárhagsreikninga og aðra reikninga, svo sem banka-, viðskiptamanna-, lánardrottna- og eignareikninga. |[Vinna í færslubókum](ui-work-general-journals.md) |
 | tímasetja skýrslu þannig að hún keyri á tilteknum degi og tíma. |[Tímasetja keyrslu skýrslu](ui-work-report.md#ScheduleReport) |
 |Leyfðu kerfinu að hjálpa þér að ljúka verkum hraðar og réttar með því að forfylla í reiti eða klára línur með gögnum sem þú myndir annars þurfa að reikna og færa inn á eigin spýtur.|[Að láta Business Central leggja til gildi](ui-let-system-suggest-values.md)|
