@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af87183dfd9785bfbe3dd56794682d13a5057ada
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 85975b28dbe19702412a05bb927f3fe59bd8bfc3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800425"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915118"
 ---
 # <a name="creating-and-managing-contacts"></a>Stofnun og stjórnun tengiliða
 Ólíkir hópar í fyrirtækinu munu hafa viðskiptatengsl við ýmis fyrirtæki. Sem dæmi má nefna sölufulltrúa sem hittir reglulega væntanlega viðskiptamenn og skráir niðurstöður þessara heimsókna í vikulok.
@@ -29,7 +29,8 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Til | Sjá |
 | --- | --- |
 | Settu upp umsjón með tengiliðum áður en tengiliðir eru búnir til. |[Uppsetning tengiliða](marketing-setup-contacts.md) |
-| Stofna tengiliðaspjald fyrir hvern nýjan einstakling eða nýtt fyrirtæki sem þú átt samskipti við, t.d. viðskiptavin eða lánadrottin. |[Stofna tengiliði](marketing-create-contact-companies.md) |
+| Stofna tengiliðaspjald fyrir hvern nýjan einstakling eða nýtt fyrirtæki sem þú átt samskipti við, t.d. viðskiptavin eða lánadrottin. |[Stofna tengiliðo](marketing-create-contact-companies.md) |
+|Leystu misskilning þegar tvær eða fleiri færslur eru fyrir sama tengilið.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  

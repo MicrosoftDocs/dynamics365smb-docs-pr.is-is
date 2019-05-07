@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/11/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 499ac8e6e42eeafa12ddee650661200ff876805f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: cde720526fdad4c9e4352f08f649d6bd3fc51540
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800597"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912364"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Hönnunarupplýsingar Leitað að víddarsamsetningum
 Þegar þú lokar síðu eftir að hafa breytt víddasamstæðu metur [!INCLUDE[d365fin](includes/d365fin_md.md)] hvort þessi breytta víddasamstæða sé til. Ef samstæðan er ekki til er ný samstæða búin til og víddarsamsetningarkenninu er skilað.  
@@ -60,7 +60,7 @@ EXIT(DimSet.ID);
 
 ```  
 
- Hins vegar, til að varðveita getu [!INCLUDE[d365fin](includes/d365fin_md.md)] til að endurnefna vídd og víddargildi, er aukið við töflu 349 **Víddargildi** með heiltölureitnum **Víddargildiskenni**. Taflan breytir reitaparinu **Vídd** og **Víddargildi** í heiltölu gildi. Þegar þú endurnefnir víddir og víddargildi er gilum í heilum tölum ekki breytt.  
+Hins vegar, til að varðveita getu [!INCLUDE[d365fin](includes/d365fin_md.md)] til að endurnefna bæði vídd og víddargildi, er aukið við töflu 349 **Víddargildi** með heiltölureitnum **Víddargildiskenni**. Taflan breytir reitaparinu **Vídd** og **Víddargildi** í heiltölu gildi. Þegar þú endurnefnir víddir og víddargildi er gilum í heilum tölum ekki breytt.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  

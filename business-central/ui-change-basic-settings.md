@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 11/19/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799967"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916223"
 ---
 # <a name="changing-basic-settings"></a>Breyta grundvallarstillingum
 Í [**Stillingarnar mínar**](https://businesscentral.dynamics.com?page=9176 "Fara beint í notendastillingasíðu Business Central") síðunni er hægt að sjá og breyta grunnstililngum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Breytingar sem þú gerir munu aðeins hafa áhrif á vinnusvæðið þitt, ekki vinnusvæði annarra notenda.  
@@ -48,10 +48,21 @@ Sjálfgefin vinnudagsetning er yfirleitt dagurinn í dag. Þú gætir þúrft a�
 >   Skrifaðu **v** til að færa hratt inn vinnudagsetningu í dagsetningarreit. Skrifaðu **d** til að færa hratt inn núverandi dagsetningu í dagsetningarreit.
 
 > [!IMPORTANT]  
->   Vinnudagsetningunni er aðeins breytt þar til fyrirtækinu er lokað eða dagsetningin breytist. Ef annað fyrirtæki er opnað, eða þegar sama fyrirtækið er opnað aftur næsta dag og enn er þörf á að nota aðra dagsetningu en kerfisdagsetninguna þá verður að stilla vinnudagsetninguna aftur.
+>   Eftir að vinnudagsetningu er breytt, ef þú skráir þig út eða skiptir yfir í annað fyrirtæki, mun vinnudagsetningin fara aftur á sjálfgefna vinnudagsetningu. Svo næst þegar þú skráir þig inn eða skiptir aftur í upprunalega fyrirtækið gætir þú þurft að stilla vinnudagsetninguna aftur. 
 
+### <a name="work-date-indication"></a>Ábending um vinnudagsetningu
+<!--
+Whenever the work date is not set to the current day (today), there are two indicators on pages that you open for editing:
+
+- A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in. 
+
+- If you dismiss the reminder, the work date will appear in the title of the page.  
+-->
+Ef vinnudagsetning er ekki stillt á núverandi dag (daginn í dag), þá á öllum síðum þar sem hægt er að breyta gögnum, er núverandi vinnudagsetning sýnd efst í vinstra horninu á síðunni.
+  
 ## <a name="region"></a> Svæði
-**Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir.   
+
+**Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir.
 
 
 ## <a name="language"></a> Tungumál

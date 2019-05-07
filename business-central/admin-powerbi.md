@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f51de349c4b13eaabd185cdb728d59006dfe6db6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799521"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916375"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Gera viðskiptagögn þín virk fyrir Power BI
 Það er auðvelt að fá innsýn í [!INCLUDE[d365fin](includes/d365fin_md.md)] gögnin þín með Power BI og [!INCLUDE[d365fin](includes/d365fin_md.md)] efnispökkunum. Power BI sækir gögn þín og býr svo til út-fyrir-kassann yfirlit og skýrslur sem byggist á þeim gögnum.  
@@ -80,7 +80,7 @@ Til að flytja [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögn í
 - Skoða fyrirtæki í Excel-sniðmáti
 - Power BI Skýrslumerki
 
-**Microsoft Dynamics 365 Business Central - Verk**
+**Microsoft Dynamics 365 Business Central – Jobs**
 - Verklisti
 - Áætlunarlínur verks
 - Verkhlutalínur verks
@@ -94,7 +94,7 @@ Til að flytja [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögn í
 
 ## <a name="list-page-reports"></a>Listasíða skýrslna
 
-**Microsoft Dynamics 365 Business Central - Listi yfir viðskiptavini**
+**Microsoft Dynamics 365 Business Central – Customers List**
 - Sala vöru eftir viðskiptamönnum
 - Power BI Innkaupayfirlit vöru
 - Power BI Söluyfirlit vöru
@@ -109,7 +109,7 @@ Til að flytja [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögn í
 - ExcelTemplateViewCompany
 - Power BI Skýrslumerki
 
-**Microsoft Dynamics 365 Business Central - Vörulisti**
+**Microsoft Dynamics 365 Business Central – Items List**
 - Vörusala eftir viðskiptavini
 - Power BI Innkaupayfirlit vöru
 - Power BI Söluyfirlit vöru
@@ -117,12 +117,12 @@ Til að flytja [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögn í
 - ExcelTemplateViewCompany
 - Power BI Skýrslumerki
 
-**Microsoft Dynamics 365 Business Central - Verklisti**
+**Microsoft Dynamics 365 Business Central – Jobs List**
 - Power BI Verklisti
 - ExcelTemplateViewCompany
 - Power BI Skýrslumerki
 
-**Microsoft Dynamics 365 Business Central - Listi yfir innkaupareikninga**
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
 - Power BI Innkaupayfirlit
 - ExcelTemplateViewCompany
 - Power BI Skýrslumerki
@@ -133,7 +133,7 @@ Til að flytja [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögn í
 - Power BI Skýrslumerki
 
 
-**Microsoft Dynamics 365 Business Central - Lánardrottnalisti**
+**Microsoft Dynamics 365 Business Central – Vendors Listi**
 - Power BI Innkaupayfirlit vöru
 - Power BI Söluyfirlit vöru
 - Power BI Lánardrottnalisti

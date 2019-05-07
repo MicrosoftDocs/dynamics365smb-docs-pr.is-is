@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f374daae5d7135324ef4fc3da4845a992aa0ccb5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e16ebdd8fc7b1b147b17d395241b6e67bb008fd1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799814"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911341"
 ---
 # <a name="design-details"></a>Hönnunarupplýsingar
 Þetta innihald inniheldur nákvæmar tæknilegar upplýsingar um flókin eiginleikasvæði í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -25,12 +25,12 @@ ms.locfileid: "799814"
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Kynntu þér hönnunina fyrir vistun og bókun vídda, þ.m.t. kóðadæmi um hvernig eigi að flytja og uppfæra víddarkóða.|[Hönnunarupplýsingarn: Færslur víddarsamstæða](design-details-dimension-set-entries.md)|  
 |Lesið um hvernig áætlanakerfið virkar og hvernig á að leiðrétta reiknireglurnar til að uppfylla áætlunarþarfir í mismunandi umhverfi.|[Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)|  
 |Að skilja virkni kostnaðarforritsins, svo sem kostnaðaraðferð og kostnaðarleiðréttingu, og hvaða reikningsskilareglum sem þeir eru hannaðir fyrir.|[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)|  
 |Lesið um hugsunina á bak við ítarlega eiginleika og grunneiginleika vöruhúss og hvernig þeir falla að öðrum eiginleikum birgðakeðju.|[Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)|  
 |Lesið um sögulega og núgildandi hönnun vörurakningareiginleikans og hvernig hann fellur að frátekningarkerfinu til að taka með rað-/lotunúmer í framboðsútreikninga.|[Hönnunarupplýsingar: vörurakning](design-details-item-tracking.md)|  
-|Kynntu þér valkosti fyrir bókunarlínu færslubókar, þ.m.t. nýlegar breytingar á hönnun kóðaeiningar 12.|[Hönnunarupplýsingar: Bókunarlína færslubókar](design-details-general-journal-post-line.md)|  
+|Kynntu þér valkosti fyrir bókunarlínu færslubókar, þ.m.t. nýlegar breytingar á hönnun kóðaeiningar 12.|[Hönnunarupplýsingar: Bókunarlína færslubókar](design-details-general-journal-post-line.md)|
+|Kynntu þér hönnunina fyrir vistun og bókun vídda, þ.m.t. kóðadæmi um hvernig eigi að flytja og uppfæra víddarkóða.|[Hönnunarupplýsingar: Færslur víddarsamstæða](design-details-dimension-set-entries.md)| 
 
 ## <a name="see-also"></a>Sjá einnig  
  [Áætlun](production-planning.md)   
@@ -40,4 +40,3 @@ ms.locfileid: "799814"
  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
  ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-  

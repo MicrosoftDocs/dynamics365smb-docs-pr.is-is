@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 21042f9eb55413a6627dab830091686e06c34acc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800508"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915289"
 ---
 # <a name="business-intelligence"></a>Viðskiptaupplýsingar
 Fyrirtæki safna saman gríðarlegu magni gagna á hverjum degi. Slík gögn er varða atriði eins og sölutölur, innkaup, rekstrarkostnað, laun starfsmanna og fjárhagsáætlun, eru verðmætar upplýsingar eða viðskiptaupplýsingar fyrir þá sem taka ákvarðanir innan fyrirtækja. [!INCLUDE[d365fin](includes/d365fin_md.md)] býður ýmsar aðgerðir til að aðstoða fyrirtæki við að safna saman, meta og deila gögnum fyrirtækisins.
@@ -42,8 +42,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Fjármál](finance.md)    
 [Nota Business Central sem Power BI gagnaveita](across-how-use-financials-data-source-powerbi.md)  
 [Lokun fjárhagstímabila](year-close-years-periods.md)  
-[Gögn flutt inn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
+[Flytja inn gögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

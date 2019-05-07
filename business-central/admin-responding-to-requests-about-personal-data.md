@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 11/06/2018
+ms.date: 04/01/2019
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800409"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917383"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Svara beiðnum um persónuleg gögn  
 Skráðir aðilar geta óskað eftir nokkrum tegundum aðgerða varðandi persónuupplýsingar þeirra. Til dæmis, samkvæmt almennu persónuverndarreglugerðinni (GDPR), hafa íbúar ESB rétt til að óska eftir útflutningi, eyðingu og breytingu á persónuupplýsingum sínum. Þetta er þekkt sem *Beiðni skráðs einstaklings*. Ef þú hefur flokkað viðkvæmni gagna og ert viss um að þau séu rétt, getur kerfisstjóri brugðist við beiðnum með því að nota valkostina sem heyra undir **Gagnavernd** í **Stjórna notendum, notendaflokkum og heimildum** í Mínu hlutverki eða, ef þú notar Windows-biðlarann, í **Tæknistjóri** í Mínu hlutverki. Nánari upplýsingar um gagnaflokkun og flokkun á gagnatrúnaði í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er að finna í [Gagnaflokkun](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Flokkun á gagnatrúnaði](admin-classifying-data-sensitivity.md).  
@@ -51,7 +51,7 @@ Ef kringumstæður eru þannig að þú þarft að flytja út gögn sem eru ekki
 -   Bættu þessari töflu og venslum handvirkt við Rapid Start pakkann og flyttu hann beint út frá Rapid Start pakkanum - þetta er ástæðan fyrir því að við búum til Rapid Start pakka handa þér, svo þú getir fínpússað hann í aðstæðum líkt og þessum.
 
 ## <a name="handling-data-about-minors"></a>Meðhöndlun gagna um börn
-Ef tengiliðar er undir lögaldri samkvæmt lögum á þínu svæði getur þú bent á það með því að velja gátreitinn **Barn** á spjaldinu **Tengiliður**. Þegar þú gerir það verður gátreiturinn **Lokað fyrir vegna persónuverndar** valinn sjálfkrafa. Þegar þú færð samþykki foreldris eða forráðamanns getur þú valið gátreitinn **Samþykki foreldra fengið** til að opna aftur á tengiliðinn. Þó að þú getir unnið úr persónulegum gögnum fyrir ólögráða einstakling, getur þú ekki notað virknina fyrir persónugreiningu í Microsoft Dynamics 365 for Sales.
+Ef tengiliðar er undir lögaldri samkvæmt lögum á þínu svæði getur þú bent á það með því að velja gátreitinn **Barn** á spjaldinu **Tengiliður**. Þegar þú gerir það verður gátreiturinn **Lokað fyrir vegna persónuverndar** valinn sjálfkrafa. Þegar þú færð samþykki foreldris eða forráðamanns getur þú valið gátreitinn **Samþykki foreldra fengið** til að opna aftur á tengiliðinn. Þó að þú getir unnið úr persónulegum gögnum fyrir ólögráða einstakling, getur þú ekki notað virknina fyrir persónugreiningu í Dynamics 365 for Sales.
 
 > [!Note]
 > Breytingaskráin getur skráð upplýsingar eins og hvenær og af hverjum gátreiturinn **Samþykki foreldra fengið** var valinn. Stjórnandi getur sett það upp með því að nota leiðarvísinn **Uppsetning breytingaskrár** og einnig velja gátreitinn **Skrá breytingar á fengnu samþykki foreldris** á spjaldinu **Tengiliður**. Frekari upplýsingar eru í [Skráning breytinga](across-log-changes.md).  

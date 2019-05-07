@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 03/12/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 780aabb1bcd37cfd912f84da7b956a146a918eef
-ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
+ms.openlocfilehash: 4af4a4610fc42f4b413056cf85555b5c506ff8da
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836136"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915142"
 ---
 # <a name="work-with-catalog-items"></a>Vinna með vörulistaatriði
 Þú getur boðið ákveðnar vörur til viðskiptamanna þinna til þæginda, sem þú vilt ekki stjórna í kerfinu þínu fyrr en þú byrjar að selja þær. Þegar þú vilt byrja að stjórna slíkum vörum í kerfinu þínu, getur þú breytt þeim í venjuleg birgðaspjöld á tvo vegu.

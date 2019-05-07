@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: eae262341eb61e40f130caf45bb838a62aa67cf2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800581"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916575"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Stofna ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er vísað til hólfanna fyrir viðskiptagögn, sem tilheyra fyrirtækjaeiningu eða lögaðila, sem *fyrirtæki*. Þegar þú skráir þig í [!INCLUDE[d365fin](includes/d365fin_md.md)], færðu sýnifyrirtæki og autt fyrirtæki, *Mitt fyrirtæki*. Auðvelt er að skipta á milli fyrirtækja - þú opnar einungis **Mínar stillingar** og færir þig yfir í hitt fyrirtækið. En þú getur líka stofnað ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)], allt eftir þörfum þíns fyrirtækis. Þegar þú stofnar nýtt fyrirtæki, munu leiðbeiningar um uppsetningu með stuðningi hjálpa þér við grunnuppsetninguna. Þá geturðu flutt inn tilheyrandi gögn úr eldri kerfum eða öðrum fyrirtækjum í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Stofna nýtt fyrirtæki
-Ef þú ákveður að bæta fyrirtæki við þitt [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu notað **Stofna nýtt fyrirtæki** leiðsagnarforritið uppsetning með aðstoð til að komast af stað. Leiðsagnarforritið fyrir uppsetningu er tiltækt á síðunni **Fyrirtæki** og í uppflettingu í reitnum **Fyrirtæki** í **Mínar stillingar**.  
+Ef þú ákveður að bæta fyrirtæki við þitt [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu notað **Stofna nýtt fyrirtæki** leiðbeiningar um uppsetningu með hjálp til að komast af stað. Leiðsagnarforritið fyrir uppsetningu er tiltækt á síðunni **Fyrirtæki** og í uppflettingu í reitnum **Fyrirtæki** í **Mínar stillingar**.  
 
 Leiðsagnarforritið fyrir uppsetningu býður upp á þrenns konar sniðmát:
 

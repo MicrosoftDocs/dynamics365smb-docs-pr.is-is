@@ -10,31 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3a5806711b693dadbbaf033ffd769c5eabebe8de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: design-details-dimension-set-entries
+ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799916"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915648"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Hönnunarupplýsingar: Kóðadæmi um breytt mynstur í Breytingar
 Þetta efni gefur dæmi um kóða til að sýna breytt mynstur í víddakóða breytingar og flutning í fimm mismunandi aðstæður. Það ber saman kóðadæmin í fyrri útgáfum við kóða dæmi í Business Central.
 
 ## <a name="posting-a-journal-line"></a>Bókun færslubókarlínu  
 Helstu breytingar eru skráðar eins og hér segir:  
-  
+
 - Bókarlínuvíddartöflur eru fjarlægðar.  
-  
+
 - Víddasamstæðuauðkenni er stofnað í reitnum **Auðkenni víddasamstæðu**.  
-  
+
 **Eldri útgáfur**  
-  
+
 ```  
 ResJnlLine."Qty. per Unit of Measure" :=   
   SalesLine."Qty. per Unit of Measure";  
-  
+
 TempJnlLineDim.DELETEALL;  
 TempDocDim.RESET;  
 TempDocDim.SETRANGE(  
@@ -45,27 +46,27 @@ DimMgt.CopyDocDimToJnlLineDim(
   TempDocDim,TempJnlLineDim);  
 ResJnlPostLine.RunWithCheck(  
   ResJnlLine,TempJnlLineDim);  
-  
+
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
-  
+
 ResJnlLine."Qty. per Unit of Measure" :=   
   SalesLine."Qty. per Unit of Measure";  
-  
+
 ResJnlLine."Dimension Set ID" :=   
   SalesLine." Dimension Set ID ";  
 ResJnlPostLine.Run(ResJnlLine);  
-  
+
 ```  
-  
+
 ## <a name="posting-a-document"></a>Fylgiskjal bókað  
  Þegar þú bókar fylgiskjal í [!INCLUDE[d365fin](includes/d365fin_md.md)], þarftu ekki lengur að afrita víddir fylgiskjalsins.  
-  
+
  **Eldri útgáfur**  
-  
+
 ```  
 DimMgt.MoveOneDocDimToPostedDocDim(  
   TempDocDim,DATABASE::"Sales Line",  
@@ -75,19 +76,19 @@ DimMgt.MoveOneDocDimToPostedDocDim(
   DATABASE::"Sales Shipment Line",  
   SalesShptHeader."No.");  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 SalesShptLine."Dimension Set ID”  
   := SalesLine."Dimension Set ID”  
 ```  
-  
+
 ## <a name="editing-dimensions-from-a-document"></a>Vídd breytt úr skjali  
  Hægt er að breyta vídd úr skjali. Til dæmis er hægt að breyta sölupöntunarlínu.  
-  
+
  **Eldri útgáfur**  
-  
+
 ```  
 Table 37, function ShowDimensions:  
 TESTFIELD("Document No.");  
@@ -99,21 +100,21 @@ DocDim.SETRANGE("Line No.","Line No.");
 DocDimensions.SETTABLEVIEW(DocDim);  
 DocDimensions.RUNMODAL;  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 Table 37, function ShowDimensions:  
 "Dimension ID" :=   
   DimSetEntry.EditDimensionSet(  
     "Dimension ID");  
 ```  
-  
+
 ## <a name="showing-dimensions-from-posted-entries"></a>Sýna víddir frá bókuðum færslum  
  Hægt er að sýna víddir úr bókuðum færslum, svo sem sendingarlínum sölu.  
-  
+
  **Eldri útgáfur**  
-  
+
 ```  
 Table 111, function ShowDimensions:  
 TESTFIELD("No.");  
@@ -126,20 +127,20 @@ PostedDocDim.SETRANGE("Line No.","Line No.");
 PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
 PostedDocDimensions.RUNMODAL;  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 Table 111, function ShowDimensions:  
 DimSetEntry.ShowDimensionSet(  
   "Dimension ID");  
 ```  
-  
+
 ## <a name="getting-default-dimensions-for-a-document"></a>Uppsetning sjálfgefinna vídda fyrir skjal  
  Uppsetning sjálfgefinna vídda fyrir skjal, svop sem sölupöntunarlínu.  
-  
+
  **Eldri útgáfur**  
-  
+
 ```  
 Table 37, function CreateDim()  
 SourceCodeSetup.GET;  
@@ -168,9 +169,9 @@ IF "Line No." <> 0 THEN
     "Shortcut Dimension 1 Code",  
     "Shortcut Dimension 2 Code");  
 ```  
-  
+
  **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
-  
+
 ```  
 Table 37, function CreateDim()  
 SourceCodeSetup.GET;  

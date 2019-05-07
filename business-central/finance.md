@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 03/11/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: d095e710d33882cc39772c35a495b39e08e0c729
-ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
+ms.openlocfilehash: 1a2a48f357a553f8cd7836e0dd02ccaf8078c0db
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832529"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911553"
 ---
 # <a name="finance"></a>Fjármál
 [!INCLUDE[d365fin](includes/d365fin_md.md)] felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
@@ -58,7 +58,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Innkaup](purchasing-manage-purchasing.md)  
 [Lokun fjárhagstímabila](year-close-years-periods.md)  
 [Stjórna verkum](projects-manage-projects.md)    
-[Gögn flutt inn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
+[Flytja inn gögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

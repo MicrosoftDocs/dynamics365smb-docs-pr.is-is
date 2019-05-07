@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 45fb2f1ac2b9d26e74e625321a64b4a5033880bf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799474"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917094"
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
 Viðskiptamenn eru uppruni tekna. Þú verður að skrá þig hver viðskiptavinur sem þú selur sem viðskiptavinakort. Viðskiptamannaspjald inniheldur upplýsingarnar sem þarf til að selja vörur til viðskiptamannsins. Frekari upplýsingar eru í [Reikningsfæra sölur](sales-how-invoice-sales.md) og [Skrá nýja hluti](inventory-how-register-new-items.md).  
@@ -54,6 +54,7 @@ Ef nota á þetta viðskiptamannaspjald sem sniðmát þegar ný viðskiptamanna
 Viðskiptamannasniðmátinu verður bætt við lista viðskiptamannasniðmáta þannig að hægt er að nota það til að búa til ný viðskiptamannaspjöld.
 
 ## <a name="see-also"></a>Sjá einnig
+[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)  
 [Stofnun númeraraða](ui-create-number-series.md)  
 [Sala](sales-manage-sales.md)    
 [Uppsetning sölu](sales-setup-sales.md)    

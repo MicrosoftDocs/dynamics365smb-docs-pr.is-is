@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 911e3ebb67aa506055f2738be031443e622f8a1d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800544"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912875"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Hönnunarupplýsingar: vörurakning g frátekningar
 Samtímis notkun frátekninga og tiltekinnar vörurakningar er óalgengt, vegna þess að bæði búa til tenging milli framboðs og eftirspurnar. Nema þegar viðskiptamaður eða framleiðslustjóri óskar eftir tiltekinni lotu er sjaldnast ástæða til að taka frá birgðavörur sem þegar hafa vörurakningarnúmer fyrir tiltekna jöfnun. Þó það er hægt að taka frá vörur sem krefjast sérstakrar vörurakningar er þörf á sérstökum eiginleika til að forða framboðsárekstra á milli pantanavinnsla sem biðja um sömu röktu vörurnar.  

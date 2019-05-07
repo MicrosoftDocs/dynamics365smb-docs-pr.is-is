@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 72fcf1b698b464cd21107184cd2bb166a8612cae
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852287"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916150"
 ---
 # <a name="frequently-asked-questions"></a>Algengar spurningar
 
@@ -49,12 +49,15 @@ Ef þú hefur aðgang að Microsoft CustomerSource getur þú fengið aðgang a�
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er selt í gegnum samstarfsaðila og þú ættir að hafa samband við endursöluaðila til að fá aðstoð vegna tæknilegra vandamála. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðili þinn getur þá ekki leyst vandamálið, munu hann leggja fram þjónustubeiðni til Microsoft.  
 
-Ef þú hefur skráð þig fyrir prufuáskrift og hefur ekki enn keypt [!INCLUDE[d365fin](includes/d365fin_md.md)] þá hefur þú ekki endursöluaðila og getur ekki haft samband við þjónustudeild Microsoft.  
-
-Þú getur fudið Business Central samstarfsaðila á síðunni [Ég er að leita að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Frekari upplýsingar eru í [Hjálp og notendaþjónusta](product-help-and-support.md).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Af hverju lýsir Hjálp virkni sem ég hef ekki aðgang að?
-Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt á **Nauðsynleg**, þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
+Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt á **Nauðsynleg**, þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
+
+## <a name="where-is-the-save-button"></a>Hvar er hnappurinn til að vista?
+
+Enginn *vista* hnappur á síðunum eins og í öðrum forritum sem þú hugsanlega kannast við. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar gerðar eru breytingar á reit og farið er í annan reit sést **Vistar** efst í hægra horni síðunnar, sem breytist fljótt í **Vistað** ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað**.
+
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Hvaða netfang get ég notað með [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] krefst að notandi noti vinnu eða skóla netfang til að nýskrá. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.  

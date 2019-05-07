@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f5dbe1ec1dfa765ead07b7fcd0dd2c860d055ae1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799810"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916352"
 ---
 # <a name="design-details-cost-adjustment"></a>Hönnunarupplýsingar: kostnaðarleiðrétting
 Megintilgangurinn með kostnaðarleiðréttingu er að framsenda breytingar á kostnaði frá uppruna kostnaðar að viðtakendum kostnaðar í samræmi við aðferð kostnaðarútreiknings fyrir hverja vöru, til að fyrir liggi rétt verðmat birgða.  

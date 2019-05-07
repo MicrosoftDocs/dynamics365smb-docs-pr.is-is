@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/26/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800336"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914422"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Setja upp skilgreiningar gagnaskipta
 Hægt er að setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] til að skiptast á gögnum í tilgreindum töflum með gögnum á ytri skjölum, til dæmis senda og taka á móti rafrænum skjölum, flytja inn og flytja út bankagögn eða önnur gögn, t.d. launaskrá, gengi gjaldmiðils og vörulista. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).  
 
-Til að undirbúa gagnaskiptaskilgreiningu fyrir gagnaskrá eða straum er hægt að nota tengt XML-skema til að skilgreina hvaða gagnastak á að hafa með í flýtifliopanum **Dálkskilgreiningar**. Sjá skref 6 í hlutanum „Að lýsa sniði lína og dálka á skrá“. Frekari upplýsingar, sjá [Notkun XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+Til að undirbúa gagnaskiptaskilgreiningu fyrir gagnaskrá eða straum er hægt að nota tengt XML-skema til að skilgreina hvaða gagnastak á að hafa með í flýtifliopanum **Dálkskilgreiningar**. Sjá skref 6 í hlutanum [Að lýsa sniði lína og dálka í skránni](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Frekari upplýsingar, sjá [Notkun XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Venjulega er gagnaskiptaskilgreiningar settar upp á síðunni **skilgreiningar gagnaskipta**. Ef hins vegar er sett upp gagnaskiptaskilgreiningar fyrir þjónustu þar sem gengi gjaldmiðils endurnýjast þarf að hefja ferilinn í einfaldaða **Uppsetningarspjald fyrir uppfærslu gengis** síðunni.  
 
@@ -39,7 +39,10 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
 1. Á síðunni **Skilgreining gagnaskipta** skal lýsa sniði lína og dálka í skránni.  
 2. Á síðunni **Vörpun gagnaskipta** skal varpa dálkum í gagnaskránni á reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-     Þessu er lýst í eftirfarandi ferli.  
+Þessu er lýst í eftirfarandi ferli.  
+
+> [!TIP]
+> Til að sjá hvaða kóðaeiningar Microsoft notar í núverandi skilgreiningum í stöðluðu vörunni, skal yfirfara reitina þrjá fyrir **Codeunit** í hausnum á síðunni **Reitavörpun** fyrir hverja skilgreiningu.
 
 #### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a>Að lýsa sniði lína og dálka á skrá.  
 1. Í reitnum **Leit** skal færa inn **Gagnaskiptaskilgreiningar** og velja síðan viðkomandi tengil.  

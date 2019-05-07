@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 693373c91fcc2bc8d0ef4eb3acea99dd13d9eaa0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 16241459bd080b7f1982a42110a834433d9427ea
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800733"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913240"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Afstemma greiðslur með sjálfvirkri jöfnun
 Síðan **Greiðsluafstemmingarbók** tilgreinir greiðslur, annaðhvort greiðslur inn eða út, sem hafa verið skráðar sem færslur á netbankareikning og sem hægt er að jafna við tengdar opnar fjárhagsfærslur viðskiptavinar, lánardrottins, og bankareiknings. Línurnar í færslubókinni eru fylltar inn með því að flytja inn bankayfirlitið sem bankastreymi eða skrá.

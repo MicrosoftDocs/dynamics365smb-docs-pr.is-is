@@ -10,33 +10,77 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: ad3b4cf3be7031ab1c7c4699bed6020fe09bd2d1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 37cdf2d7dcc46b1286cbb7a5ad620547e364309e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800168"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "910863"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Stjórnun sérstillinga sem stjórnandi
-<!--NAV in the Web client--> Notendur geta sérsniðið vinnusvæði sitt að vild. Sem stjórnandi geturðu stjórnað og unnið með sérstillingar með því að slökkva á valkosti notenda til að sérstilla síður og hreinsa allar sérstillingar síðu sem notendur hafa gert.
 
-## <a name="disable-personalization-for-a-profile"></a>Slökkva á sérstillingu fyrir forstillingu
+ Notendur geta sérsniðið vinnusvæði sitt að vild. Sem stjórnandi stjórnar þú og hefur umsjón með sérstillingum með því að:
+
+-   Kveikja eða slökkva á eiginleika sérstillingar fyrir allt forritið (einungis fyrir uppsetningar á staðnum).
+-   Kveikja eða slökkva á eiginleika sérstillingar fyrir notendur af tilteknum prófíl.
+-   Hreinsa allar sérstillingar á síðu sem notendur hafa gert.
+
+## <a name="EnablePersonalization"></a>Kveikja eða slökkva á sérstillingum (aðeins á staðnum)
+
+Sjálfgefið er að slökkt sé á sérstillingu í biðlaranum. Þú kveikir eða slekkur á sérstillingum með því að breyta skilgreiningarskránni (navsettings.json) í tilviki fyrir vefþjón Business Central sem þjónar biðlaranum.
+
+1. Til að kveikja á sérstillingum skaltu bæta eftirfarandi línu við navsettings.json skrána:
+
+    ```
+    "PersonalizationEnabled": "true"
+    ```
+
+    Til að slökkva á sérstillingum skaltu fjarlægja þessa línu eða breyta henni í:
+
+    ```
+    "PersonalizationEnabled": "false"
+    ```
+
+    Nánari upplýsingar um hvernig skuli breyta navsettings.json skránni er að finna í [Breyta navsettings.json skránni beint](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).
+
+2. Búðu til og sæktu táknin fyrir forritið.
+
+    Þetta skref er valfrjálst og er ekki nauðsynlegt til að kveikja á sérstillingu. Hins vegar tryggir það að þróunaraðilar geti sérstillt nýjar síður sem eru stofnaðar.
+
+    1. Fyrst eru táknin búin til með því að keyra finsql.exe með `generatesymbolreference` skipuninni. Skráin finsql.exe er staðsett í uppsetningarmöppunni fyrir [!INCLUDE[server](includes/server.md)] og Dynamics NAV þróunarumhverfi (CSIDE). Til að búa til táknin skaltu opna skipanakvaðningu, breyta yfir í skráasafnið þar sem skráin er geymd og síðan keyra eftirfarandi skipun:
+
+        ```
+        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
+        ```
+    Dæmi:
+
+        ```
+        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
+        ```
+
+    Frekari upplýsingar er að finna í [Keyra C/SIDE og AL samhliða](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+
+    2. Skilgreindu [!INCLUDE[nav_server_md](includes/nav_server_md.md)] tilvik í **Virkja hleðslu á tilvísunum forritatákna við ræsingu þjóns** (EnableSymbolLoadingAtServerStartup). Frekari upplýsingar er að finna í [Skilgreining Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
+
+## <a name="to-disable-personalization-for-a-profile"></a>Að slökkva á sérstillingu fyrir prófíl
+
 Hægt er að koma í veg fyrir að allir notendur sem tilheyra tiltekinni forstillingu geti sérstillt síður sínar.
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Listi yfir forstillingar** og veldu síðan tengda tengilinn.
-2.  Veljið forstillinguna sem á að breyta í listanum.
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notandastillingar** og veldu síðan tengda tengilinn.
+2. Veljið forstillinguna sem á að breyta í listanum.
 3. Veljið gátreitinn **Afvirkja sérstillingar notanda** og smellið síðan á hnappinn **Í lagi**.
 
-## <a name="clear-user-personalizations"></a>Hreinsa sérstillingar notenda
+## <a name="to-clear-user-personalizations"></a>Að hreinsa sérstillingar notanda
 
 Þegar sérstillingar síðu er eytt fer síðan aftur í upprunalegt útlit áður en sérstillingin var gerð. Það eru tvær leiðir til að hreinsa sérstillingar sem notendur hafa gert á síðum: með **Eyða sérstillingum notanda** síðunni og **Sérstillingaspjald notanda**.
 
-### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Hreinsa sérstillingar notenda með því að nota síðuna Eyða sérstillingum notanda
+### <a name="to-clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Að hreinsa sérstillingar notenda með því að nota síðuna Eyða sérstillingum notanda
 
 Síðan **Eyða sérstillingum notanda** gerir þér kleift að hreinsa sérstillingar á einstaka síðum, eftir einstaka notendum.
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða sérstillingum notanda** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða sérstillingum notanda** og veldu síðan tengda tengilinn.
 
     Á síðunni er listi yfir allar síður sem hafa verið sérstilltar og sem notandinn tilheyrir.
 
@@ -47,17 +91,17 @@ Síðan **Eyða sérstillingum notanda** gerir þér kleift að hreinsa sérstil
 
     Notandinn mun sjá breytingarnar næst þegar hann skráir sig inn.
 
-### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Hreinsa sérstillingar notenda með því að nota síðuna Sérstillingaspjald notanda
+### <a name="to-clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Að hreinsa sérstillingar notenda með því að nota síðuna Sérstillingaspjald notanda
 
 Síðan **Sérstillingaspjald notanda** gerir þér kleift að hreinsa sérstillingar á öllum síðum fyrir tiltekinn notanda. Þetta krefst skrifleyfis fyrir töflu 2000000072 **Forstilling**.
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sérstillingar notanda** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sérstillingar notanda** og veldu síðan tengda tengilinn.
 
     Síðan **Sérstillingar notanda** sýnir alla notendur sem hugsanlega hafa sérstillt síður. Ef þú finnur ekki notanda á listanum þýðir það að hann hefur engar sérstilltar síður.
 
 2. Veljið notanda af listanum og veljið svo aðgerðina **Breyta**.
 
-3.  Í flipanum **Aðgerðir** veljið **Hreinsa sérstilltar síður**.
+3. Í flipanum **Aðgerðir** veljið **Hreinsa sérstilltar síður**.
 
     Notandinn mun sjá breytingarnar næst þegar hann skráir sig inn.
 

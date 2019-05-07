@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ddc6ab85e0db5065fffc6187c26ba4d67e1a1ee9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 01872122592db05ec49b765dd78b59e98b6239f6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799634"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916520"
 ---
 # <a name="set-up-salespeople"></a>Setja upp sölumenn
 Í mörgum fyrirtækjum þarf jafnan að fylgjast með starfi einstaklinga (t.d. sölumanna) svo hægt sé að nota upplýsingar sem þeim tengjast við að reikna sölulaun eða bónus, svo að dæmi sé tekið. Skoða, til dæmis skýrsluna um **sölulaun sölumanns**. Fyrirtæki gæti einnig viljað úthluta tengiliðum á viðeigandi sölumann.
