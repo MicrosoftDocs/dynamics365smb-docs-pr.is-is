@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799947"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929406"
 ---
-# <a name="count-adjust-and-reclassify-inventory"></a>Talning, breytingar og endurflokkun birgða
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Talning, breytingar og endurflokkun birgða með færslubókum
 Minnst einu sinni á hverju fjárhagsári þarf að telja raunbirgðir (það er, telja allar vörur á lager) til að athuga hvort magnið sem skráð er í kerfinu sé það sama og raunbirgðir á lager. Þegar búið er að finna út úr raunbirgðum þarf að bóka þær í fjárhag þegar fram fer mat á birgðum við lok tímabils.
 
 Þó að allar vörur í birgðum séu taldar minnst einu sinni á ári gæti þurft að telja sumar vörur oftar, kannski vegna þess hve verðmætar þær eru eða vegna þess að mikil hreyfing er á þeim og þær eru stór hluti af rekstrinum. Í þessum tilgangi geturðu úthlutað sérstökum talningatímabilum á þessar vörur. Sjá frekari upplýsingar í [Að framkvæma reglulega talningu](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
@@ -31,6 +31,10 @@ Ef nauðsynlegt er að breyta eigindum fyrir birgðafærslur er hægt að nota e
 
 ## <a name="to-perform-a-physical-inventory"></a>Að framkvæma Raunbirgðatalningu
 Gera verður úttekt á raunbirgðum, það er að telja hvað mikið er til í raun og veru af hverri vöru, til að sjá hvort magnið sem er skráð í kerfinu er í samræmi við vörutalningu í lok hvers reikningsárs, eða oftar. Ef munur er á þessu tvennu verður að bóka hann á birgðareikninginn áður en birgðir eru verðmetnar.
+
+> [!NOTE]
+> Þetta ferli útskýrir hvernig á að framkvæma talningu á efnislegum birgðum með færslubók, síðunni **Færslubók efnislegra birgða**. Einnig er hægt að framkvæma verkið með skjölum, síðunum **Pöntun efnislegra birgða** og **Skráning efnislegra birgða** sem veita meiri stjórn og styðja dreifingu á talningu til margra starfsmanna. Frekari upplýsingar er að finna í [Birgðatalning með skjölum](inventory-how-count-inventory-with-documents.md).<br /><br />
+> Athugaðu að ekki er hægt að nota skjalatengda virkni til að telja vörur í hólfum, vöruhúsafærslum.
 
 Að frátöldum efnislegu talningarverki felur heildarferlið í sér eftirfarandi þrjú verkefni:
 
@@ -222,6 +226,7 @@ Eftirfarandi dæmi byggist á staðsetningarkóði. Skrefin eru svipuð fyrir a�
 Nánari upplýsingar um flutning vara með fulla stjórn á magni sem sent er og móttekið eru í [Flytja birgðir milli staða](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Sjá einnig
+[CountInventory með skjölum](inventory-how-count-inventory-with-documents.md)  
 [Birgða](inventory-manage-inventory.md)
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)    
 [Sala](sales-manage-sales.md)  

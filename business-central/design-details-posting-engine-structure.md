@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 58a319db86be7a93467a624b56fafc0da122c7fb
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 76d59049191f91131df014771ef8546326a51439
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800039"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929005"
 ---
 # <a name="design-details-posting-engine-structure"></a>Hönnunarupplýsingar: Uppbygging bókunarvélar
 Bókunarviðmót og sumar aðrar aðgerðir í kóðaeiningu 12 nota aðgerðir bókunarvélar til að undirbúa og setja inn færslur í fjárhag og VKS. Bókunarvélin er einnig ábyrg fyrir stofnun fjárhags.  

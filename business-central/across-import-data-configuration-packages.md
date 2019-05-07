@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: f5ca69c1e542a9b5846c99b03103fd9b2be86499
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0d31e710c0b5d9e1dfa63c9c653b740fdcc12f11
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799566"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926533"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Innflutningur viðskiptagagna úr öðrum fjárhagskerfum
 Þegar notandi skráir sig í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að ákveða að búa til autt fyrirtæki svo hægt sé að hlaða upp eigin gögnum og prófa áfram nýja [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrirtækið. Það fer eftir því fjárhagskerfi sem fyrirtækið notar í dag hvernig og hvort hægt er að millifæra upplýsingar um viðskiptamenn, lánardrottna, birgðir og bankareikninga.  
@@ -31,6 +31,8 @@ Hægt er að flytja aðalgögn og sum færslugögn úr öðrum fjárhagskerfum �
 
 > [!NOTE]  
 > Fyrir stærri innleiðingarverk getur þú notað RapidStart Services fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)], sem er vítækt verkfærasafn til að setja upp nýjar lausnir sem byggjast á viðskiptakröfum viðskiptavina og uppsetningargögnum. RapidStart Services býður einnig upp á virkni til að flytja inn viðskiptagögn. Nánari upplýsingar er að finna í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+
+Til að flytja inn myndir af vörum er hægt að nota þar til gerða aðgerð á síðunni **Uppsetning birgða**. Frekari upplýsingar er að finna í [Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md).
 
 ## <a name="importing-data-from-configuration-packages"></a>Innflutningur gagna úr grunnstillingarpakka
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur stillingarpakka sem þú getur flutt út í Excel og sett upp gögnin þín þar. Síðan er hægt að flytja aftur inn gögnin úr Excel. Pakkinn samanstendur af 27 töflum, þar með talið aðalgögnum, svo sem viðskiptavinum, söluaðilum, hlutum og reikningum, öðrum grunnuppsetningartöflum eins og sendingarkostnaði og viðskiptatöflum eins og söluhaus og línum.  
@@ -78,6 +80,6 @@ Sjálfgefni grunnstillingarpakkinn styður eftirfarandi töflur:
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md)  
+[Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

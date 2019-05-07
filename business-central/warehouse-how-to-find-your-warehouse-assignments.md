@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8dafcb427cac506209e0858791f4c47a98d72a2e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f0ad51c742e67ba9be77117ea7538d8f56bb6f4e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800514"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927057"
 ---
 # <a name="find-your-warehouse-assignments"></a>Finna vöruhúsaúthlutanir
 Til að finna vöruhúsaúthlutanir þínar skaltu opna spjaldsíðuna fyrir valda vöru. Gluggi valins atriðis er opnaður Hafi vöruhúsaleiðbeiningar verið stofnaðar eru Taka- og Setja-línur sjáanlegar og hægt er að byrja á úthlutun. Í sumum vöruhúsum gæti yfirmaður verið búinn að úthluta tilteknum leiðbeiningum á hvern starfsmann. Frekari upplýsingar eru í [Setja upp vöruhússtarfsmenn](warehouse-how-to-set-up-warehouse-employees.md).

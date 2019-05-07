@@ -1,6 +1,6 @@
 ---
 title: Hvernig á að færa inn gögn í reiti | Microsoft Docs
-description: Það eru margar grunnaðgerðir sem auðvelda og flýta fyrir gagnainnfærslu. Öllum grunnaðgerðum við gagnainnslátt er lýst í þessu efnisatriði.
+description: Kynntu þér almenna eiginleika sem auðvelda þér að færa gögn inn í reiti.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,27 +8,66 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852494"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929074"
 ---
 # <a name="entering-data"></a>Gagnainnfærsla
-Það eru margar grunnaðgerðir sem auðvelda og flýta fyrir gagnainnfærslu. Öllum grunnaðgerðum við gagnainnslátt er lýst í þessu efnisatriði.  
 
-Í dæmunum í þessu efnisatriði er notast við sýnigögn.
+Margir almennir eiginleikar auðvelda þér að færa inn gögn með fljótlegri hætti og af meiri nákvæmni. Almennum eiginleikum við innslátt á gögnum er lýst í þessu efnisatriði.  
+
+<!-- The examples in this article use the demonstration data.-->
+
+## <a name="keyboard-shortcuts"></a>Flýtivísanir
+
+Nokkrir flýtilyklar gera þér kleift að vinna án músar og hraða gagnaskráningu þinni, sérstaklega mikið magn af færslum og endurteknum innsláttarverkum.
+
+Frekari upplýsingar er að finna í [Flýtilyklar á lyklaborði](keyboard-shortcuts.md). Fjallað er um nokkrar af þessum flýtileiðum í þessu efnisatriði.
+
+## <a name="QuickEntry"></a>Hraða gagnaskráningu með flýtifærslu
+
+Flýtifærsla er eiginleiki sem er hannaður fyrir gagnaskráningu þegar lyklaborð er notað. Flýtifærsla virkar á reiti (t.d. í spjaldsíðum) og í listum (röðum og dálkum). Það er gagnlegt þegar framkvæmd eru endurtekin innsláttarverk sem krefjast þess að búnar séu til margar færslur í röð, t.d. runa af sölupöntunum eða skráning á nýjum vörum.
+
+Hugsanlega kannastu við að nota Tab-lykilinn til að fara frá einum reit á síðu yfir á næsta breytanlega reit. Ókostur við að nota Tab er að hann fer alltaf yfir á næsta reit. <!-- even if the field is non-editable or seldom filled it in.-->Flýtifærsla gerir þér kleift að breyta þessari leið. Með flýtifærslu notarðu Enter til að fara aðeins á milli þeirra reita sem þú hefur áhuga á, sleppir óbreytanlegum reitum og reitum sem þú fyllir vanalega ekki út. Þú gætir hafa tekið eftir þessari hegðun á sumum síðum. Þetta er vegna þess að forritið ákveður nú þegar hvaða reiti skuli hafa með þegar ýtt er á Enter og hvaða reitum skuli sleppt. Hægt er að sérstilla flýtifærslu með því að sérstilla vinnusvæðið þitt og fínstilla hvernig þú færir inn gögn á hverri síðu.
+
+### <a name="how-quick-entry-works"></a>Hvernig flýtifærsla virkar
+
+Hægt er að merkja sérhvern reit sem annaðhvort *hafa með í flýtifærslu* eða *ekki hafa með í flýtifærslu*. Reitir sem eru hafðir með í flýtifærslu verða hluti af slóðinni þegar ýtt er á Enter; reitir sem ekki eru hafðir með í flýtifærslum verða ekki hluti af henni.
+
+Þegar þú hefur lokið við að færa gögn inn í reit ýtirðu einfaldlega á Enter til að staðfesta breytingarnar og ferð í næsta reit. Ef þú vilt snúa áttinni við og fara í fyrri reit skaltu ýta á Shift+Enter. Frekari upplýsingar um flýtileiðir er að finna í [Flýtivísanir flýtifærslu](keyboard-shortcuts.md#QuickEntry).
+
+#### <a name="tips-and-tricks"></a>Ábendingar og góð ráð
+Eftirfarandi veitir nokkrar gagnlegar upplýsingar um notkun á flýtifærslu.
+
+- Hún er í boði fyrir alla breytanlega reiti.
+- Hún virkar einnig fyrir bæði dálka og línur.
+- Hún kemur ekki í veg fyrir aðgang að öðrum einingum á síðu, t.d. aðgerðum. Þær eru enn aðgengilegar með því að nota Tab og Shift+Tab.  
+- Ekki þarf að útvíkka flýtiflipa til að flýtifærsla virki. Ef næsti reitur flýtifærslu er staðsettur í samandregnum flýtiflipa mun sá flýtiflipi sjálfkrafa stækka og setja fókus á tiltekinn reit.
+- Flýtifærsla virkar óháð því hvort reitir séu áskildir. Því er góð hugmynd að ganga úr skugga um að áskildir reitir séu hluti af flýtifærslu.
+- Sjálfgefið er að flestir reitir eru sjálfkrafa með í flýtifærslu. Í upphafi verður það líklega þitt verk að útiloka reiti úr flýtifærslu.
+
+### <a name="how-to-change-quick-entry-fields"></a>Hvernig á að breyta reitum flýtifærslu
+
+Til að breyta því hvaða reitir eru hafðir með eða ekki hafðir með í flýtifærslum á síðu, notarðu sérstillingu.
+
+1. Byrjaðu sérstillingu með því að velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingar") og síðan **Sérstilla**.
+2. Veldu reit sem þú vilt breyta, eða í listum, veldu samsvarandi dálkahaus, og veldu því næst annaðhvort **Hafa með í flýtifærslu** eða **Ekki hafa með í flýtifærslu**.
+
+Frekari upplýsingar um sérstillingu er að finna í [Sérstillingar vinnusvæðis](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Áskildir reitir
+
 Þegar þú slærð inn gögn á síðum, eru tilteknir reitir merktir með rauðri stjörnu. Rauða stjarnan merkir að fylla verður reitinn út til að ljúka tilteknu ferli sem notar reitinn, eins og að bóka færslu sem notar gildið í reitnum.  
 
 Jafnvel þótt reiturinn innihaldi rauða stjörnu er ekki nauðsynlegt að fylla út í reitinn áður en haldið er áfram í aðra reiti eða síðunni lokað. Rauða stjarnan er eingöngu áminning um að þú verðir útilokaður frá tilteknu ferli.  
 
+## <a name="finding-data-as-you-type"></a>Finna gögn um leið og ritað er
 
-## <a name="finding-data-as-you-type"></a>Finna gögn um leið og ritað er  
  Þegar byrjað er að slá inn stafi í reit birtist fellilisti með mögulegum gildum. Listinn breytist eftir því sem fleiri stafir eru slegnir inn og hægt er að velja rétt gildi þegar það birtist.  
 
  Margir af reitunum eru með örvahnapp niður sem hægt er að velja. Örin er valin til að fá lista yfir gögn sem tiltæk eru til að færa inn í reitinn. Hnappurinn hefur tvær aðgerðir, eftir því hver tegund reitsins er:  
@@ -37,32 +76,37 @@ Jafnvel þótt reiturinn innihaldi rauða stjörnu er ekki nauðsynlegt að fyll
 
 -   Fellival - Birtir safn valkosta sem í boði eru fyrir reitinn. Aðeins er hægt að velja einn kost.  
 
-<!--Onprem ## Copy Fields or Lines  
- Depending on the type of writable document, you can copy individual line fields or whole lines to other lines in the document. Read-only data, such as posted entries, cannot be copied.  
+## <a name="copying-and-pasting-fields-and-lines"></a>Afrita og líma reiti og línur
 
- Several database dependencies are used to determine if fields or lines can be copied. One way to determine these dependencies is to view the shortcut menu. The content of the shortcut menu indicates which copy functions are supported by displaying either of these functions:  
+Þú getur afritað eina eða fleiri raðir úr lista eða einum reit á síðu og síðan líma það sem þú afritaðir á sömu síðu, aðra síðu eða ytri skjal (eins og Microsoft Excel og Outlook tölvupóst). Í stuttu máli, til að afrita, ýtirðu á CTRL+C (cmd+C í macOS) á lyklaborðinu þínu. Til að líma er stutt á CTRL+V (cmd+V í macOS).
 
--   Copy Cell  
+Í lista, til að afrita reitinn í sama dálki og í röðinni fyrir ofan, og líma hann í núverandi röð, skal ýta á F8.
 
--   Copy Rows  
+Frekari upplýsingar er að finna í [Afrita og líma í Business Central](ui-copy-paste.md).
 
--   Paste Rows  
+## <a name="Focus"></a>Fókus settur á línuatriði
 
- For example, database records, such as lines on a sales order, and master data, such as cards on the **Items** page, cannot be duplicated. For this kind of data, the shortcut menu typically has the **Copy Cell** or **Copy Rows**  functions. If the **Paste** function is not available this indicates that you can only paste the data into external documents. Single fields on a sales line, however, can be copied to the same column in other sales lines.  
+Þegar unnið er með skjöl sem innihalda hluta línuatriðis, t.d. síða sölupöntunar eða reiknings, geturðu skipt yfirlitinu til að setja fókus á aðeins línuatriði, svo hluti línuatriða stækkar svo hann tekur yfir næstum allt vinnusvæðið - felur aðra hluta síðunnar nema aðgerðarsvæðið efst uppi. Þetta veitir þér betri yfirsýn yfir línuatriðin og gefur meira rými til að vinna í þeim. Þetta kemur sér sérstaklega vel þegar unnið er með langan lista af línuatriðum og hröð gagnaskráning er æskileg.
 
- Journal lines are very flexible and can be copied freely in the same journal, indicated by the presence of **Paste** on the shortcut menu.  
+Annar kostur er að það býður einnig upp á ítarlega síunarmöguleika, líkt og í hinum listunum, þannig að flettingar og leit í gegnum línuatriði verður enn auðveldari.
 
-> [!NOTE]  
->   If you copy a journal line or document line, the fields that are not in your view are not copied to the new line.
+### <a name="switch-the-focus-on-and-off"></a>Kveikja eða slökkva á fókus
 
-#### To copy previous field  
+Til að setja fókus á línuatriði skal velja hvar sem er í hluta línuatriða og síðan velja ![Tákn fyrir fókusstillingu](media/focus-mode.png "Tákn fyrir fókusstillingu") efst í hægra horninu eða ýta á Ctrl+Shift+F12.
 
--   To enter the value of the field immediately above the active field, select **Copy Previous** from the shortcut menu.-->
+Til að skipta yfir í venjulegt yfirlit skal velja ![Tákn fyrir fókusstillingu](media/focus-mode.png "Tákn fyrir fókusstillingu") eða ýta aftur á Ctrl+Shift+F12.
 
-## <a name="entering-quantities-by-calculation"></a>Magn slegið inn eftir útreikningum  
- Þegar tölur eru færðar inn í magnreiti, svo sem reitinn **Magn** í birgðabókarlínu, er hægt að færa inn reikniregluna í stað heiltölumagns.  
+### <a name="filtering-the-line-items"></a>Síun á línuatriðum
 
-## <a name="examples"></a>Dæmi  
+Til að byrja síun skal velja ![Tákn fyrir afmörkunarsvæði](media/open-filter-pane-icon.png "Tákn fyrir afmörkunarsvæði") efst í listanum eða ýta á **Shift+F3** til að opna afmörkunarsvæðið. Þú vinnur með afmörkunarsvæðið eins og þú gerir í öllum öðrum listum. Frekari upplýsingar er að finna í [Síun](ui-enter-criteria-filters.md#Filtering).
+
+Síun er sérstaklega hjálpleg þegar lengri skjöl eru skoðuð og greind. Ímyndaðu þér til dæmis að þú opnaðir bókaðan sölureikning og síar línuatriðin til að birta öll línuatriði sem eru með afslætti yfir 5% eða síar til að birta aðeins reiðhjólabúnað með „pro“ í heitinu.
+
+## <a name="entering-quantities-by-calculation"></a>Magn slegið inn eftir útreikningum
+
+Þegar tölur eru færðar inn í magnreiti, svo sem reitinn **Magn** í birgðabókarlínu, er hægt að færa inn reikniregluna í stað heiltölumagns.  
+
+### <a name="examples"></a>Dæmi  
 
 -   Ef tölurnar 19+19 eru slegnar inn er niðurstaðan í reitnum 38.  
 
@@ -73,6 +117,7 @@ Jafnvel þótt reiturinn innihaldi rauða stjörnu er ekki nauðsynlegt að fyll
 -   Ef tölurnar 12/4 eru slegnar inn er niðurstaðan í reitnum 3.  
 
 ## <a name="entering-negative-numbers"></a>Neikvæðar tölur er færðar inn
+
 Hægt er að færa inn neikvæðar tölur eftir tveimur leiðum. Númerið -20.5 má færa inn sem:  
 
 -   -20.5  
@@ -85,13 +130,17 @@ Hægt er að færa inn neikvæðar tölur eftir tveimur leiðum. Númerið -20.5
  Ef síðasti stafur segðarinnar er **+** eða **-**, mun öll segðin verða skráð með því formerki. Dæmi: **10-20+** mun gefa niðurstöðuna 10 en ekki -10.  
 
 ## <a name="entering-dates-and-times"></a>Dagsetning og tími færð inn
+
 Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir dagsetningar (dagsetningarreitir). Hægt er að færa inn dagsetningar með eða án skiltákna.
 
 > [!NOTE]  
 > Hvernig skal Færa inn dagsetningu og tíma fer eftir **Svæði** stillingunum þínum. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md).  
 
-### <a name="entering-dates"></a>Dagsetningar færðar inn  
- Í dagsetningarreit má færa inn tvær, fjórar, sex eða átta tölur:  
+### <a name="entering-dates"></a>Dagsetningar færðar inn
+
+Fyrir dagsetningareiti er annaðhvort hægt að nota dagsetningaval, sem gerir þér kleift að velja dagsetningu úr dagatali, eða hægt er að færa inn dagsetningar handvirkt. Þessi hluti veitir stutt yfirlit yfir hvernig skuli slá inn dagsetningar. Frekari upplýsingar er að finna í [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md).
+
+Fyrir handvirka færslu á dagsetningu er hægt að færa inn tvær, fjórar, sex eða átta tölur:  
 
 -   Ef aðeins tvær tölur eru færðar inn þá túlkar kerfið þær sem daginn og bætir við mánuði og ári vinnudagsetningar.  
 
@@ -99,24 +148,22 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 
 -   Ef sú dagsetning sem færa á inn er á bilinu 01/01/1930 til 31/12/2029 má færa árið inn í tveimur tölum; annars skal færa árið inn með fjórum tölum.  
 
- Einnig er hægt að færa inn dagsetningu sem vikudag ásamt vikunúmeri og hugsanlega ári (til dæmis Mán25 eða mán25 þýðir mánudagur í 25. viku).  
+Einnig er hægt að færa inn dagsetningu sem vikudag ásamt vikunúmeri og hugsanlega ári (til dæmis Mán25 eða mán25 þýðir mánudagur í 25. viku).  
 
- Hægt er að færa inn einn af tveimur kóðum í stað sérstakrar dagsetningar.  
+Hægt er að færa inn einn af þessum kóðum í stað sérstakrar dagsetningar.  
 
-|Kóði|Niðurstaða|  
+|Kóti|Niðurstaða|  
 |--------------|----------------|  
-|d|Þetta er dagurinn í dag (kerfisdagsetning tölvunnar).|  
-|v|Þetta er vinnudagurinn sem er settur upp í forritinu. Vinnudagsetningunni breytt úr valmyndinni [Breyta grunnstillingum](ui-change-basic-settings.md) Handhægt gæti verið að nota vinnudagsetningar ef verið er að nota margar færslur með aðra dagsetningu en dagsins í dag.|  
+|d|Þetta tilgreinir daginn í dag (kerfisdagsetning tölvunnar).|  
+|e|Þetta tilgreinir reikningstímabil þar sem `p`þýðir fyrsta reikningstímabilið, `p2` þýðir annað reikningstímabilið og svo framvegis. |
+|v|Þetta tilgreinir vinnudagsetninguna sem er uppsett í forritinu. Vinnudagsetningunni breytt úr valmyndinni [Breyta grunnstillingum](ui-change-basic-settings.md) Handhægt gæti verið að nota vinnudagsetningar ef verið er að nota margar færslur með aðra dagsetningu en dagsins í dag.|
+|c|Þetta tilgreinir að dagsetningin eftir `c`er lokunardagsetning, t.d. `C123101`.|  
 
-<!--Onprem ## Closing Date  
- When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.  
+## <a name="entering-times"></a>Tími færður inn
 
- To specify that a date is a closing date, put C just before the date: C123101. -->
+Þegar tímasetningar eru ritaðar er hægt að setja inn hvaða skiltákn sem er milli eininga en það er ekki nauðsynlegt. Ekki þarf að tilgreina mínútur, sekúndur eða FH/EH.  
 
-## <a name="entering-times"></a>Tími færður inn  
- Þegar tímasetningar eru ritaðar er hægt að setja inn hvaða skiltákn sem er milli eininga en það er ekki nauðsynlegt. Ekki þarf að tilgreina mínútur, sekúndur eða FH/EH.  
-
- Í eftirfarandi töflu birtast mismunandi leiðir til að færa inn tímasetningar og hvernig þær eru túlkaðar:  
+Í eftirfarandi töflu birtast mismunandi leiðir til að færa inn tímasetningar og hvernig þær eru túlkaðar:  
 
 |Færsla|Túlkun|  
 |---------------|------------------------|  
@@ -130,10 +177,11 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 
  Rita þarf tvær tölur fyrir hverja tímaeiningu ef skiltákn er ekki notað.  
 
-## <a name="entering-datetimes"></a>Dagsetning og tímasetning færð inn  
- Þegar dagsetning og tími eru færð inn verður að vera bil milli dags og tímasetningar.  
+## <a name="entering-datetimes"></a>Dagsetning og tímasetning færð inn
 
- Í eftirfarandi töflu birtast mismunandi leiðir til að færa inn dagsetningar og tímasetningar og hvernig þær eru túlkaðar:  
+Þegar dagsetning og tími eru færð inn verður að vera bil milli dags og tímasetningar.  
+
+Í eftirfarandi töflu birtast mismunandi leiðir til að færa inn dagsetningar og tímasetningar og hvernig þær eru túlkaðar:  
 
 |Færsla|Túlkun|  
 |---------------|------------------------|  
@@ -158,10 +206,11 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 |þr 10:30:00|Þriðjudagur yfirstandandi viku 10:30:00|  
 |þr 03:03:03|Þriðjudagur yfirstandandi viku 03:03:03|  
 
-## <a name="entering-duration"></a>Færið inn tímalengd  
- Hægt er að færa inn tímalengd sem tölu og mælieiningu.  
+## <a name="entering-duration"></a>Færið inn tímalengd
 
- Hér eru nokkur dæmi.  
+Hægt er að færa inn tímalengd sem tölu og mælieiningu.  
+
+Hér eru nokkur dæmi.  
 
 |Lengd|Mælieining**|  
 |------------------|-------------------------|  
@@ -192,70 +241,72 @@ Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir d
 |**Sample expression**|**Entries included**|  
 |---------------------------|--------------------------|  
 |12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|  -->
+|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
 
-## <a name="using-date-formulas"></a>Notkun dagsetningarreiknireglna  
- Dagsetningarregla er stutt, skammstöfuð samsetning stafa og tölustafa sem tilgreinir hvernig skal reikna út dagsetningar. Hægt er að færa dagsetningarreiknireglur í ólíka dagsetningarreiknireiti og í ítrekunartíðnireiti í ítrekunarbókum.  
+## Using Date Formulas
+
+ A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
 
 > [!NOTE]  
->  Dagurinn í dag, fyrir upphaf tímabilsins, er með í öllum reitum fyrir reiknireglur dagsetninga. Í samræmi við það, ef fært er inn 1V, til dæmis, er tímabilið í raun átta dagar þar sem dagurinn í dag er tekinn með. Til að tilgreina sjö daga tímabil (ein raunvika) að meðtalinni upphafsdagsetningu tímabilsins þarf að færa inn 6D eða 1W-1D.  
+>  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.  
 
- Hér eru nokkur dæmi um hvernig nota má dagsetningarreiknireglur:  
+ Here are some examples of how date formulas can be used:  
 
--   Dagsetningarreikniregla í ítrekunartíðnireitnum í ítrekunarbókum ákvarðar hversu oft færsla í færslubókarlínu er bókuð.  
+-   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
 
--   Dagsetningarreikniregla í reitnum Biðtími fyrir tiltekið innheimtustig ákvarðar það tímabil sem þarf að líða frá gjalddaga (eða frá dagsetningu fyrri innheimtubréfs) áður en innheimtubréf er búið til.  
+-   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
 
--   Dagsetningarreikniregla í reitnum Gjalddagaútreikningur ákvarðar hvernig kerfið reiknar gjalddaga á innheimtubréfinu.  
+-   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
 
- Dagsetningarreikniregla getur mest haft 20 stafi, bæði tölu- og bókstafi. Hægt er að nota eftirfarandi stafi sem skammstafanir fyrir tiltekinn tíma.  
-
-|||  
-|-|-|  
-|C|Gildandi|  
-|D|Dagar|  
-|W|Vikur|  
-|M|Mánuðir|  
-|F|Fjórðungar|  
-|Á|Ár|  
-
- Hægt er að rita dagsetningarreiknireglu á þrjá vegu.  
-
- Eftirfarandi dæmi sýnir hvernig núverandi og tímaeining.  
+ The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
 
 |||  
 |-|-|  
-|LV|Líðandi vika|  
-|LM|Líðandi mánuður|  
+|C|Current|  
+|D|Day(s)|  
+|W|Week(s)|  
+|M|Month(s)|  
+|Q|Quarter(s)|  
+|Y|Year(s)|  
 
- Eftirfarandi dæmi sýnir hvernig tala og tímaeining. Talan getur ekki verið hærri en 9999.  
+ You can construct a date formula in three ways.  
 
-|||  
-|-|-|  
-|10D|10 dögum eftir daginn í dag|  
-|2V|2 vikum eftir daginn í dag|  
-
- Eftirfarandi dæmi sýnir hvernig tímaeining og tala.  
-
-|||  
-|-|-|  
-|D10|Næsti 10. dagur mánaðar|  
-|VD4|Næsti 4. dagur viku (fimmtudagur)|  
-
- Eftirfarandi dæmi sýnir hvernig eigi að samræma þessi þrjú eyðublöð eins og þörf er á.  
+ The following example shows how current plus a time unit.  
 
 |||  
 |-|-|  
-|LM+10D|Líðandi mánuður + 10 dagar|  
+|CW|Current week|  
+|CM|Current month|  
 
- Eftirfarandi dæmi sýnir hvernig hægt er að nota mínustákn til að sýna gamla dagsetningu.  
+ The following example shows how a number and a time unit. A number cannot be larger than 9999.  
 
 |||  
 |-|-|  
-|-1Á|1 ári fyrir daginn í dag|  
+|10D|10 days from today|  
+|2W|2 weeks from today|  
 
-<!--OnPrem > [!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
+ The following example shows how a time unit and a number.  
+
+|||  
+|-|-|  
+|D10|The next 10th day of a month|  
+|WD4|The next 4th day of a week (Thursday)|  
+
+ The following example shows how you can combine these three forms as needed.  
+
+|||  
+|-|-|  
+|CM+10D|Current month + 10 days|  
+
+ The following example shows how you can use a minus sign to indicate a date in the past.  
+
+|||  
+|-|-|  
+|-1Y|1 year ago from today|
+
+[!CAUTION]  
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
+
 ## <a name="see-also"></a>Sjá einnig  
  [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

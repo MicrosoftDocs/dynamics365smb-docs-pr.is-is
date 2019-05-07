@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7fa51c4c5bc5370df07e6277c7c7e6403d71f5e2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f6583c75fcc3268b6e081122d1e5bbe2ad60acd8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800463"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923882"
 ---
 # <a name="track-packages"></a>Finna sendingar
 Fjöldi flutningsaðila veita þá þjónustu á Internetinu að hægt er að finna pakkningar sem eru í umsjá flutningsaðilans. Ef notast er við einn eða fleiri af þessum flutningsaðilum er hægt að setja upp ákveðnar grunnupplýsingar og nota sjálfvirkar leitaraðgerðir frá bókuðum afhendingum. Frekari upplýsingar er að finna í [Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md).  

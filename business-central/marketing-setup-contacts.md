@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71c48a677dbc684978271e19d67409dc07143f9d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799713"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918148"
 ---
-# <a name="setting-up-contacts"></a>Uppsetning tengiliða
+# <a name="set-up-contacts"></a>Uppsetning tengiliða
 Þegar tengiliðir eru stofnaðir má færa inn nákvæmar upplýsingar, eins og þær starfsgreinar sem tengiliðirnir tilheyra og viðskiptatengsl við tengiliðina.
 
 Áður en tengiliðir eru stofnaðir og upplýsingar skráðar um viðskiptatengsl þarf að setja upp kótana sem notaðir verða til að úthluta þessum upplýsingum til fyrirtækjatengiliða og einstaklinga. Hægt er að setja upp kóta fyrir pósthópa, starfsgreinahópa, viðskiptatengsl, veftengingar, stjórnunarstig og starfsábyrgð. Þú getur komið þessu á með því að velja aðgerðina **Nýr** þegar þú leitar uppi listana úr tengiliðaspjaldinu.  
@@ -151,10 +151,10 @@ Til að geta samstillt tengiliðaspjaldið við tengt spjald viðskiptavinar, l�
 
 Fyrir frekar upplýsingar, sjá [Tengiliðir samstilltir við viðskiptamenn, lánardrottna og bankareikninga](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Leita að tvíteknum tengiliðum þegar tengiliðir eru stofnaðir
-Hægt er að láta kerfið leita sjálfkrafa leita að tvítekningum í hvert sinn þegar stofnað er tengiliðafyrirtæki eða leita handvirkt eftir að tengiliðirnir hafa verið stofnaðir. Einnig er hægt að láta kerfið uppfæra leitarstrengi sjálfkrafa í hvert sinn sem tengiliðaupplýsingum er breytt eða tengiliður stofnaður. Notandinn ákveður sjálfur hver endurtekningarprósentan er, það er hlutfall strengja sem verða að vera eins hjá tveimur tengiliðum til þess að kerfið líti á þá sem tvítekningar.
+## <a name="searching-for-duplicate-contacts"></a>Leita að tvíteknum tengiliðum
+Hægt er að láta kerfið leita sjálfkrafa leita að tvítekningum í hvert sinn þegar stofnaður er tengiliður eða leitað er handvirkt eftir að tengiliðirnir hafa verið stofnaðir. Einnig er hægt að láta kerfið uppfæra leitarstrengi sjálfkrafa í hvert sinn sem tengiliðaupplýsingum er breytt eða tengiliður stofnaður. Notandinn ákveður sjálfur hver endurtekningarprósentan er, það er hlutfall strengja sem verða að vera eins hjá tveimur tengiliðum til þess að kerfið líti á þá sem tvítekningar. Þú setur þetta upp í flýtiflipanum **Tvítekningar** á síðunni **Uppsetning markaðssetningar**.
 
-Þú setur þetta upp í flýtiflipanum **Tvítekningar** á síðunni **Uppsetning markaðssetningar**.
+Þegar þú finnur tvítekinn tengilið geturðu notað síðuna **Sameina tvítekið** til að sameina hann í sameinaða tengiliðafærslu sem þú vilt halda. Frekari upplýsingar er að finna í [Sameina tvítekin atriði](sales-how-merge-duplicate-records.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  

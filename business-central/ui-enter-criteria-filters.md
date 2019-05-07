@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800493"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928070"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Röðun, leit og síun í listum
 Það eru nokkrir hlutir sem munu hjálpa þér að skanna, finna og takmarka skrár í lista. Þar á meðal er röðun, leit og afmörkun. Þú getur notað suma eða alla þessa hluti samtímis til að finna eða greina gögnin þín fljótt.
@@ -36,7 +36,8 @@ Til að raða á lista, geturðu annað hvort valið fyrirsagnatexta dálka til 
 >   Myndir, BLOB-reitir, FlowFilters og reitir sem tilheyra ekki töflu styðja ekki röðun.  
 
 ## <a name="searching"></a>Leit
-<!--## Searching by using the Quick Filter --> Efst á sérhverri listasíðu er ![Leita í lista](media/ui-search/search-list.png "Leita í listatákni") **Leita** tákn sem býður upp á fljótlega og auðvelda leið til að vinna gögnin niður í lista og sýna einungis þær skrár sem innihalda gögnin sem þú vilt sjá.
+<!--## Searching by using the Quick Filter -->
+ Efst á sérhverri listasíðu er ![Leita í lista](media/ui-search/search-list.png "Leita í listatákni") **Leita** tákn sem býður upp á fljótlega og auðvelda leið til að vinna gögnin niður í lista og sýna einungis þær skrár sem innihalda gögnin sem þú vilt sjá.
 
 Til að leita, skaltu einfaldlega velja leitartáknið, og síðan skrifa í boxið textann sem þú ert að leita að. Þú getur slegið inn stafi, númer og önnur tákn.
 
@@ -55,27 +56,6 @@ Hins vegar geturðu búið til nákvæmari leit með því að nota eftirfarandi
 
 Eftirfarandi tafla sýnir nokkur dæmi til að útskýra hvernig hægt er að nota leitina.
 
-
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
 |Leitarskilyrði|Finnur ...|
 |---------------|----------|
 |`man`<br />eða <br />`Man`|Allar skrár með reitum sem innihalda textann **man**, óháð því hvort notaðir eru há- eða lágstafir. Til dæmis, **Manchester**, **manual**, eða **Sportsman**. |
@@ -87,7 +67,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > Þú getur ýtt á F3 til að virkja og slökkva á leitarreitnum. Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="filtering"></a>Afmörkun
+## <a name="Filtering"> </a>Afmörkun
 Síun veitir háþróaðri og fjölhæfur leið til að stjórna hvaða skrár sem birtast á lista. Það eru tvær helstu munur á leit og síun, eins og lýst er í töflunni hér að neðan.
 
 || **Leit** | **Afmörkun** |
@@ -98,13 +78,14 @@ Síun veitir háþróaðri og fjölhæfur leið til að stjórna hvaða skrár s
 Síun gerir þér kleift að birta skrár fyrir tiltekna reikninga eða viðskiptamenn, dagsetningar, upphæð og aðrar upplýsingar með því að tilgreina síuviðmiðanir. Aðeins eru birtar þær færslur sem uppfylla skilyrðin. Ef þú tilgreinir skilyrði fyrir marga reiti, þá birtast aðeins skrár sem passa við öll skilyrði.
 
 ### <a name="working-in-the-filter-pane"></a>Vinna í síusvæðinu
+
+Til að birta afmörkunarsvæðið skal velja ![Tákn fyrir afmörkunarsvæði](media/open-filter-pane-icon.png "Tákn fyrir afmörkunarsvæði") efst í listanum eða ýta á **Shift+F3**. Fyrir lista innan Mitt hlutverk geturðu einnig valið niður-örina nálægt síðutitlinum í yfirlitsstikunni yfir listanum og síðan **Sýna síusvæði** eins og sýnt er hér:
+
+![Sýna síusvæði](media/open-filter-pane.png "Sýna síusvæði")
+
 Síusvæðið sýnir núverandi síur fyrir lista og gerir þér kleift að stilla eigin sérsniðna síur í einu eða fleiri reitum. Eftirfarandi mynd sýnir dæmi um síusvæði fyrir sölutilboðalista.
 
 ![Yfirlit yfir síusvæðið ](media/filter-pane-overview.png "Síutákn")
-
-Til að sýna síusvæðið skal nota **Shift+F3** flýtilykil. Fyrir lista innan Mitt hlutverk geturðu einnig valið niður-örina nálægt síðutitlinum í yfirlitsstikunni yfir listanum og síðan **Sýna síusvæði**.
-
-![Sýna síusvæði](media/open-filter-pane.png "Sýna síusvæði")
 
 Síusvæði er skipt í þrjá hluta: **Skoðanir**, **Sía listi eftir** og **Sía samtölur eftir**:
 
@@ -137,7 +118,7 @@ Til að velja reit til að sía skaltu gera eitt af eftirfarandi:
 Dálkar sem þegar eru með síur eru auðkenndar með ![Síutákn](media/ui-search/filter-icon.png "Síutákn") í dálkhausnum. Til að fjarlægja síu skaltu velja dálkhausinn og svo velja **Hreinsa síu** .
 
 
-### <a name="entering-filter-criteria-without-the-filter-pane"></a>Slá inn síuviðmiðanir án síusvæðisins
+### <a name="entering-filter-criteria-without-using-the-filter-pane"></a>Slá inn síuskilyrði án þess að nota síusvæðið
 Þú getur tilgreint einfaldar síur beint á listanum án þess að þurfa að nota síusvæðið.
 Með hvaða reit sem er valinn í röð, nota **Alt + F3** flýtilykil til að birta aðeins skrár sem hafa sama gildi. Þú getur síðan valið annan reit og notað sömu flýtileið aftur til að halda áfram að hreinsa síurnar. Ef valinn reitur er nú þegar síað, mun notkun á **Alt + F3** eyða þeirri síu.
 
@@ -146,7 +127,7 @@ Með hvaða reit sem er valinn í röð, nota **Alt + F3** flýtilykil til að b
 Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).
 
 
-## <a name="FilterCriteria"> </a>Afmörkunarviðmið og tákn
+## <a name="FilterCriteria"> </a>Síuskilyrði og tákn
 Þegar skilyrði eru sett er hægt að nota alla sömu tölustafi og bókstafi sem venjulega eru notaðir í reitnum. Ennfremur er hægt að nota sértákn til að afmarka niðurstöðurnar frekar. Í eftirfarandi töflum eru táknin sem hægt er að nota í afmarkanir. Fyrir dagsetningar og tíma er einnig hægt að vísa til [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md) til að fá nánari upplýsingar.
 
 > [!IMPORTANT]  
@@ -168,7 +149,7 @@ Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#Keyboa
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
-|„1200|1300“|Tölur með 1200 eða 1300|  
+|`1200|1300`|Tölur með 1200 eða 1300|  
 
 ### <a name="-not-equal-to"></a>(<>) Ekki jafnt og  
 
@@ -239,8 +220,8 @@ Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#Keyboa
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  
-|„5999|8100..8490“|Allar færslur með tölunni 5999 eða tölu á bilinu frá 8100 til og með 8490 er teknar með.|  
-|„.1299|1400 ..“|Telja með færslur með tölu sem er lægri eða jöfn 1299 eða tölu sem er jöfn 1400 eða hærri (allar tölur nema 1300 til 1399).|  
+|`5999|8100..8490`|Allar færslur með tölunni 5999 eða tölu á bilinu frá 8100 til og með 8490 er teknar með.|  
+|`..1299|1400..`|Telja með færslur með tölu sem er lægri eða jöfn 1299 eða tölu sem er jöfn 1400 eða hærri (allar tölur nema 1300 til 1399).|  
 |`>50&<100`|Telja með færslur með tölum sem eru hærri en 50 og lægri en 100 (tölurnar 51 til 99).|  
 
 
@@ -248,7 +229,7 @@ Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#Keyboa
 Þegar þú slærð inn síuviðmiðanir getur þú einnig skrifað orð sem hafa sérstaka þýðingu, sem kallast síumerki. Eftir að hafa slegið inn merkiorðið, er orðinu skipt út fyrir gildin sem það táknar. Þetta gerir síun auðveldara með því að draga úr þörfinni á að fara yfir á aðrar síðum til að fletta upp gildi sem þú vilt bæta við síuna. Taflan hér fyrir neðan lýsir sumum merkjunum sem þú getur slegið inn sem síuviðmiðanir.
 
 > [!TIP]
-> Stofnunin þín getur notað sérsniðna merki. Til að læra um öll merkin sem þú hefur aðgang að eða til að bæta við fleiri sérsniðnum merkjum, skaltu tala við stjórnandann þinn. Fyrir tæknilegar upplýsingar, sjá [Bæta við síumerkjum](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
+> Stofnunin þín getur notað sérsniðna merki. Til að læra um öll merkin sem þú hefur aðgang að eða til að bæta við fleiri sérsniðnum merkjum, skaltu tala við stjórnandann þinn. Fyrir tæknilegar upplýsingar, sjá [Bæta við síumerkjum](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
 
 ### <a name="me-or-userid-records-assigned-to-you"></a>(%me eða %userid) Skrám úthlutað til þín

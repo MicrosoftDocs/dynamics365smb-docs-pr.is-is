@@ -1,6 +1,6 @@
 ---
 title: Sýna hluti sem vefþjónustu | Microsoft Docs
-description: Birta hluti sem vefþjónustu til að þeir séu undir eins í boði á dreifikerfinu.
+description: Birta hluti sem vefþjónustu til að þeir séu undir eins í boði á Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: bb9623c00aa038b387179d46e6eb8a869552569e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 952f2b9dc301b6941d13b4c23ac55f83b781739f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799590"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922432"
 ---
 # <a name="publish-a-web-service"></a>Birta vefþjónustu
 
@@ -28,40 +28,46 @@ Eftirfarandi skref skýra hvernig vefþjónusta er búin til og gefin út.
 
 ### <a name="to-create-and-publish-a-web-service"></a>Til að stofna og gefa út vefþjónustu  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vefþjónusta** og veldu síðan tengda tengilinn.  
-2.  Á síðunni **Vefþjónusta** veljið **Nýtt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vefþjónusta** og veldu síðan tengda tengilinn.  
+2. Á síðunni **Vefþjónusta** veljið **Nýtt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    >  **Kótaeining** og **Síða** eru gildar tegundir fyrir SOAP-vefþjónustu. **Síða** og **Fyrirspurn** eru gildar gerðir fyrir OData-vefþjónustu.  
-    Ef gagnagrunnurinn inniheldur mörg fyrirtæki er hægt að velja Kenni hlutar sem á aðeins við eitt af fyrirtækjunum.  
-    Ef heiti þjónustunnar sýnilegt notendum vefþjónustunnar og það gegnir mikilvægu hlutverki í að auðkenna og þekkja vefþjónustuna. Því skaltu gefa henni merkingarbært heiti.
+    > **Kótaeining** og **Síða** eru gildar tegundir fyrir SOAP-vefþjónustu. **Síða** og **Fyrirspurn** eru gildar gerðir fyrir OData-vefþjónustu.  
+    > Ef gagnagrunnurinn inniheldur mörg fyrirtæki er hægt að velja Kenni hlutar sem á aðeins við eitt af fyrirtækjunum.  
+    > Ef heiti þjónustunnar sýnilegt notendum vefþjónustunnar og það gegnir mikilvægu hlutverki í að auðkenna og þekkja vefþjónustuna. Því skaltu gefa henni merkingarbært heiti.
 
-3.  Veldu gátreitinn í dálkinum **Útgefið**.  
+3. Veldu gátreitinn í dálkinum **Útgefið**.  
 
 Þegar vefþjónusta er gefin út sjást þær vefslóðir sem voru myndaðar fyrir hana í reitunum **OData-vefslóð** og **SOAP-vefslóð**. Hægt er að prófa vefþjónustuna strax með því að velja tengla í reitunum **OData-vefslóð** og **SOAP-vefslóð**. Einnig er hægt að afrita gildið í reitnum og vista það til notkunar síðar.  
+
+> [!IMPORTANT]
+> Fyrir kóðaeiningar sem eru birtar sem SOAP-vefþjónusta, verða aðferðirnar sem koma fram í kóðaeiningunni að vera merktar sem `[External]` í kóðanum.
 
 Eftir að þú birtir vefþjónustu, hafa ytri aðilar aðgang að henni. Hægt er að staðfesta að vefþjónustan sé tiltæk með því að nota vafra eða með því að velja tengilinn í reitunum **OData-vefslóð** og **SOAP-vefslóð** á síðunni **Vefþjónusta**. Eftirfarandi ferli sýnir hvernig hægt er að staðfesta aðgengi að vefþjónustunni fyrir notkun síðar.  
 
 ### <a name="to-verify-the-availability-of-a-web-service"></a>Til að staðfesta aðgengi að vefþjónustu  
 
-1.  Viðeigandi vefslóð er slegin inn í vafrann. Eftirfarandi tafla lýsir tegundum vefslóða sem hægt er að færa inn fyrir mismunandi vefþjónustugerðir.  
-> [!div class="mx-tdBreakAll"]
-> |Gerð|Málskipan|Dæmi|
-> |----------------|------|-------|
-> |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |
-> |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    Í reitnum fyrir heiti fyrirtækis er gerður greinarmunur á há- og lágstöfum.|
+1. Viðeigandi vefslóð er slegin inn í vafrann. Eftirfarandi tafla lýsir tegundum vefslóða sem hægt er að færa inn fyrir mismunandi vefþjónustugerðir.  
 
-2.  Fara skal yfir upplýsingarnar sem birtast í vafranum. Staðfesta skal að heiti vefþjónustunnar sem var búin til sjáist.  
+    > [!div class="mx-tdBreakAll"]
+    > |Tegund|Málskipan|Dæmi|
+    > |----------------|------|-------|
+    > |SOAP |https://api.businesscentral.dynamics.com/*útgáfa*/*leigjandi*/WS/*Fyrirtækisheiti*/*eining*/ |`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
+    > |OData V4|https://api.businesscentral.dynamics.com/*útgáfa*/*leigjandi*ODataV4/Fyrirtæki('*Fyrirtækisheiti*')/*eining*|`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Í reitnum fyrir heiti fyrirtækis er gerður greinarmunur á há- og lágstöfum.|
+
+2. Fara skal yfir upplýsingarnar sem birtast í vafranum. Staðfesta skal að heiti vefþjónustunnar sem var búin til sjáist.  
 
 Þegar þú ferð inn á vefþjónustu og vilt skrifa gögn aftur til [!INCLUDE[d365fin](includes/d365fin_md.md)], verður þú að taka fram heiti fyrirtækis. Hægt er að tilgreina fyrirtækið í URI-slóð eins og sýnt er í dæmunum eða tilgreina það í færibreytum fyrirspurnarinnar. Eftirfarandi vefslóðir vísa t.d. á sama OData vefþjónustuna og eru báðar gildar vefslóðir.  
 
-```  
-https://localhost:7048/server/OData/Company('CRONUS International Ltd.')/Customer  
-```  
+```
+https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS International Ltd.')/Customer  
+```
 
-```  
-https://localhost:7048/server/OData/Customer?company='CRONUS International Ltd.'  
-```  
+```
+https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS International Ltd.'  
+```
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Stjórnun](admin-setup-and-administration.md)  
+[Vefþjónustur Business Central fyrir þróunaraðila](/dynamics365/business-central/dev-itpro/webservices/web-services)  

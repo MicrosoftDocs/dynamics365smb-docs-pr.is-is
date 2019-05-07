@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: afaab918f2959ee32315988c81dee987499aa05a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: be056212ecfd610cbd7753a6ffc9babb08100359
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852241"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926891"
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Þegar viðskiptaverk eru unnin er vinna með gögn margvísleg: stofna færslur, slá inn gögn, raða og afmarka gögn, skrifa athugasemdir, auk úttöku gagna í önnur forrit.
@@ -39,7 +39,7 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða síðu sem er, ví
 |Kynntu þér hvernig á að hafa samskipti við Excel nánast hvaðan sem er í [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Skoða og breyta í Excel](across-work-with-excel.md)|
 |Fáðu tilkynningu um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu.|[Stjórnun tilkynninga](ui-smart-notifications.md)|
 | Breyta grundvallarstillingum eins og fyrirtæki, vinnudagsetningu og Mitt hlutverk. |[Breyta grundvallarstillingum](ui-change-basic-settings.md) |
-| Breyta hvaða reiti og aðgerðir eru sýndar í notendaviðmótinu til að passa viðskiptaferli fyrirtækisins. |[Sérstillir [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+| Breyta hvaða viðmótseiningar birtast og hvar eftir þörfum.|[Sérstillingar verksvæðis](ui-personalization-user.md) |
 |Skilgreina, forskoða, prenta eða vista skýrslur og skilgreina og keyra runuvinnslur.|[Unnið með skýrslur og runuvinnslur](ui-work-report.md)|
 | Stjórna efni og sniði skýrslna og skjala, þ.m.t. hvaða gagnareitir gagnasafns skýrslu birtast í henni, stöðu þeirra, textastíl, myndir og meira.|[Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md) |
 |Fræðast um eiginleika og nothæfni [!INCLUDE[d365fin](includes/d365fin_md.md)] sem auðveldar aðgengi fatlaðra.|[Aðgengi og Flýtivísanir](ui-accessibility.md)|
@@ -55,3 +55,4 @@ Hér er stutt myndband um hvernig á að komast um í [!INCLUDE[d365fin](include
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

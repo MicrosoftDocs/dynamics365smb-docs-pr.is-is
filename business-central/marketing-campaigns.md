@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e3ca7a52bb01b9d4a7b6417be14396cc616131ca
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800184"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929051"
 ---
 # <a name="managing-marketing-campaigns"></a>Stjórnun markaðsherferða
 Öflug markaðsáætlun gerir fyrirtækinu kleift að finna, vinna og halda viðskiptamönnum. Markaðsáætlun samanstendur af ýmsum söluherferðum og öðrum samskiptum í tengslum við sölur og markaðssetningaraðgerðir. Þegar söluherferð er skipulögð þarf að ákveða hvaða tengiliði skal miða á, hvaða gerð söluherferðar (t.d. vörusýningu eða beinan auglýsingapóst) skal nota og hvaða sölumen munu framkvæma hvert verk.

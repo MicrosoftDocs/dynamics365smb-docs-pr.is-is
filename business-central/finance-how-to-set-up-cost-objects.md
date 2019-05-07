@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/13/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 725ad9ed12dd32dc1cc3257c266efa274ea964a0
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800695"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923272"
 ---
 # <a name="set-up-cost-objects"></a>Uppsetning kostnaðarhluta
 Kostnaðurhlutir eru verkefni, afurðair eða þjónustur fyrirtækis. Myndrit kostnaðarhluta er svipað og víddarupplýsingar fyrir fjárhag. Hægt er að setja upp myndritið yfir kostnaðaríhluti á eftirfarandi hátt:  

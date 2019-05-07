@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/31/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 350ce32ffff947b8e6aa2182d69e238b5782802f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 33f8f1b0844532e32c391c3c474ad555204a600c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "799668"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927998"
 ---
 # <a name="business-process-walkthroughs"></a>Kynningar á viðskiptaferli
 Þessi kynning fjallar skref-fyrir-skref viðskiptaferla sem framkvæma má með því að nota CRONUS International Ltd. sýnifyrirtæki. Leiðbeiningarnar samanstanda af mörgum ferlum sem sum hver eru venjulega framkvæmd af einum notanda, meðan önnur fela í sér mörg ólík notandahlutverk. Til að líkja eftir vinnuumhverfinu innihalda sumar kynningarnar uppsetningarskref sem þarf að ljúka til að ljúka æfingunum eins og lýst er. Þessi skref leggja til innsýn inní hvers konar upplýsingum notendur þurfa að deila með sérfræðingum fyrirtækis síns.  

@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46ea7cb3402f65d897cc8519a062ebbf8fb9b383
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a116dd3394e8aae36661815d72db3a8b13265bcf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800131"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917768"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Vinna söluskil eða afturkallanir
 Ef viðskiptavinur vill skila eða endurgreiða fyrir vörur eða þjónustu sem þú hefur selt og fengið greiðslu fyrir verður þú að búa til og senda inn söluskuldbindingar sem tilgreinir umbeðnar breytingar. Til að taka réttar sölureikningsupplýsingar með, er hægt að stofna sölukreditreikning beint úr bókaða sölureikningnum eða þú getur stofnað nýja sölukreditreikning með afrituðum reikningsupplýsingum.
 
-Ef þú þarft meiri stjórn á söluskilaferlinu, eins og t.d. vöruhúsaskjöl fyrir vöruafgreiðsluna eða betra yfirlit yfir móttöku vara frá mörgum söluskjölum með einum vöruskilum, geturðu stofnað söluvöruskilapöntun. Söluvöruskilapöntun gefur út sjálfkrafa tengdan sölukreditreikning og önnur skilatengd skjöl, eins og skiptivörusölupöntun, ef þarf. Frekari upplýsingar er að finna í [Að stofna vöruskilapöntun byggða á einu eða fleiri bókuðu söluskjali](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).
+Ef þú þarft meiri stjórn á söluskilaferlinu, eins og t.d. vöruhúsaskjöl fyrir vöruafgreiðsluna eða betra yfirlit yfir móttöku vara frá mörgum söluskjölum með einum vöruskilum, geturðu stofnað söluvöruskilapöntun. Söluvöruskilapöntun gefur út sjálfkrafa tengdan sölukreditreikning og önnur skilatengd skjöl, eins og skiptivörusölupöntun, ef þarf. Frekari upplýsingar er að finna í [Að stofna vöruskilapöntun byggða á einu eða fleiri bókuðu söluskjali](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).
 
 > [!NOTE]  
 >   Ef sölureikningur hefur ekki verið greiddur þá geturðu notað **Rétt** eða **Hætta við** aðgerðirnar á bókaða sölureikningnum til að snúa við viðskiptum. Þessar aðgerðir virka aðeins fyrir ógreiddar reikningar og styðja ekki hluta skilar eða afpöntunar. Frekari upplýsingar eru í [Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md).
@@ -40,7 +40,7 @@ Til er tvenns konar virkni, til að úthluta bakfærslu nákvæms kostnaðar sj�
 
 |Virkni|Description|  
 |------------------|---------------------------------------|  
-|**Sækja bókaðar fylgiskjalalínur til að bakfæra** aðgerð á síðunni **Söluvöruskilapöntun**|Afritar línur úr einu eða fleiri bókuðum fylgiskjölum sem á að bakfæra til söluvöruskilapöntun. Frekari upplýsingar er að finna í [Að stofna vöruskilapöntun byggða á einum eða fleiri bókuðum sölureikningum](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).|  
+|**Sækja bókaðar fylgiskjalalínur til að bakfæra** aðgerð á síðunni **Söluvöruskilapöntun**|Afritar línur úr einu eða fleiri bókuðum fylgiskjölum sem á að bakfæra til söluvöruskilapöntun. Frekari upplýsingar er að finna í [Að stofna vöruskilapöntun byggða á einu eða fleiri bókuðu söluskjali](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
 |**Afrita skjal** aðgerð í **Sölukreditreikningur** og á síðunni **Söluvöruskilapöntun**|Afritar bæði haus og línur af einu bókuðu fylgiskjali sem á að bakfæra.<br /><br /> Krefst þess að **Nákvæm bakfærsla kostnaðar** gátreitur sé valinn á síðunni **Uppsetning fyrir Sölu & Viðskiptaskuldir**.|
 
 Til að úthluta nákvæmri bakfærslu kostnaðar, skal velja reitinn **Jafna frá birgðafærslu** á einhverja gerð skilaskjalslínu, og velja síðan númer upphaflega sölufærslunnar. Það tengir sölukreditreikninginn eða söluvöruskilapöntunina við upphaflega sölufærslu og tryggir að varan er metin út frá upphaflegu einingarverði.

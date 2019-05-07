@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852425"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921410"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Unnið með skýrslur og runuvinnslur
 Skýrsla safnar saman upplýsingum byggðum á sérstöku viðmiðssafni, og flokkar og birtir upplýsingarnar á sniði sem hægt er að prenta og er auðvelt að lesa. Til eru margar skýrslur sem má finna víðsvegar í forritinu. Skýrslurnar veita alla jafna upplýsingar sem tengjast samhengi síðunnar sem þú ert á. Til dæmis, síðan **Viðskiptamaður** inniheldur skýrslur fyrir efstu 10 viðskiptamennina og söluupplýsingar og fleira.
@@ -50,9 +50,9 @@ Notkun vistaðra stillinga er fljótleg og áreiðanleg leið til að búa til s
 ### <a name="setting-options-and-filters"></a>Valkostir og afmarkanir stillt
 Til að takmarka frekar hvaða gögn eru tekin með í skýrsluna má setja fleiri afmarkanir og valkosti.
 
-Afmarkanir gefa þér sjágögn sem byggjast á tilgreint skilyrði. Afmarkanir eru hópaðar saman með einingunni sem þeir tilheyra, t.d. **Viðskiptamaður** í teikningunni að ofan. Þú skilgreinir afmörkun með því að stilla **Hvar** reitinn á svæði sem þú vilt nota afmörkun og bæta síðan skilyrði í **er:** reitinn. Til dæmis, á teikningunni að ofan er ein afmörkun sem býr til skýrslu fyrir viðskiptamann sem **Nr.** jafngildir **01121212**.
+Afmarkanir gera þér kleift að birta gögn sem byggjast á tilgreindu skilyrði. Afmarkanir eru hópaðar saman með einingunni sem þeir tilheyra, t.d. **Viðskiptamaður** í teikningunni að ofan. Þú skilgreinir afmörkun með því að stilla **Hvar** reitinn á svæði sem þú vilt nota afmörkun og bæta síðan skilyrði í **er:** reitinn.
 
-Þú getur bætt við fleiri afmörkunum með því að stilla **Bæta við** reitinn. Þegar þú ert með meira en eina afmörkun eru aðeins niðurstöður sem uppfylla skilyrði fyrir allar afmarkanir teknar með í skýrslunni.
+Þú getur bætt við fleiri afmörkunum með því að fylla út í reitina **Og** og **er**. Þegar þú ert með meira en eina afmörkun eru aðeins niðurstöður sem uppfylla skilyrði fyrir allar afmarkanir teknar með í skýrslunni.
 
 Eftir því hvaða gerð reits er að afmarka getur þú tilgreint síuskilyrði til að leita að nákvæmri samsvörun, hluta samsvörun, gildissvið og fleira. Aðstoð um hvernig síur eru settir upp eru í:
 -   [Afmörkun](ui-enter-criteria-filters.md#FilterCriteria)
@@ -70,7 +70,7 @@ Nota valmyndarslá til að:
 -   Breyta stærð svo passi á síðu
 -   Velja texta
 
-    Þú getur afritað texta úr skýrslu og svo límt hann eitthvert annað, eins og á síðu í [!INCLUDE[d365fin](includes/d365fin_md.md)] eða Microsoft Word.  Ef þú notar mús, til dæmis, þá þrýstirðu niður og heldur þar sem þú vilt byrja, og færir svo músina til að velja eitt eða fleiri orð, setningar eða málsgreinar. Þú getur síðan hægrismellt og valið **Afrita**. Hægt er að líma valinn textann hvar sem er.
+    Þú getur afritað texta úr skýrslu og svo límt hann eitthvert annað, eins og á síðu í [!INCLUDE[d365fin](includes/d365fin_md.md)] eða Microsoft Word.  Ef þú notar mús, til dæmis, þá þrýstirðu niður og heldur þar sem þú vilt byrja, og færir svo músina til að velja eitt eða fleiri orð, setningar eða málsgreinar. Þú getur síðan hægrismellt með músarhnappinum og valið **Afrita**. Síðan geturðu límt valinn texta þar sem þú vilt hafa hann.
 -   Fletta skjali
 
     Hægt er að færa sjáanlega svæðið af skýrslunni í allar átti svo þú getir skoðað önnur svæði skýrslunnar. Þetta er nytsamlegt þegar þú eykur aðdrátt til að sjá upplýsingar.  Ef þú notar músina, til dæmis, þrýstirðu niður og heldur inni hnappinum hvar sem er á forskoðun skýrslunnar og svo hreyfirðu músina.

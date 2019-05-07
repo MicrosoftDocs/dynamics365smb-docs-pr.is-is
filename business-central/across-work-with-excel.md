@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 12/07/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 27c137ea6309d40cddc94bc676ec7ea27d5c01fa
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 68139f258595bcca2658e394a4251e30dfbe6510
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800000"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925041"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Skoða og breyta í Excel From Business Central 
 
@@ -43,6 +43,8 @@ Með síðum sem birta lista yfir færslur í línum og dálkum, eins og lista y
 >[!NOTE]
 >Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum er aðgerðin **Breyta í Excel** aðeins í boði ef stjórnandi hefur sett upp Excel-innbótina. Fyrir stjórnendur, ef þig langar að fræðast betur um hvernig eigi að setja upp Excel-innbót skal sjá [Setja upp Excel-innbótina](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-## <a name="see-also"></a>Sjá einnig
+### <a name="see-the-differences-between-the-options"></a>Sjá muninn á milli valkostanna 
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
+## <a name="see-also"></a>Sjá einnig
 [Unnið með Business Central](ui-work-product.md)  

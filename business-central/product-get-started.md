@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 12/03/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 80dcc6b46cdb89c846666963baffa6704daade28
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "800084"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925994"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Auðvelt er að skrá sig og hægt er að yfirfæra fyrirliggjandi viðskiptagögn úr eldra kerfinu. Til að hjálpa þér við áskriftina þína skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -73,7 +73,7 @@ Annar kostur er að finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsa
 
 ## <a name="getting-answers-to-questions"></a>Fá svör við spurningum
 
-Ef þú ert ekki viss um hvernig á að gera eitthvað í [!INCLUDE[d365fin](includes/d365fin_md.md)], getur þú vonandi fundið svarið annaðhvort með því að lesa ábendingar fyrir það svæði sem þú ert ekki viss um eða með því að lesa efnið með því að opna tengilinn *Frekari upplýsingar* í ábendingu. Þú getur líka nálgast fylgiskjölin með því að velja tengdan hlekk í hjálparvalmyndinni.  
+Ef þú ert ekki viss um hvernig á að gera eitthvað í [!INCLUDE[d365fin](includes/d365fin_md.md)], getur þú vonandi fundið svarið annaðhvort með því að lesa ábendingar fyrir það svæði sem þú ert ekki viss um eða með því að lesa efnið með því að opna tengilinn *Frekari upplýsingar* í ábendingu (notaðu flýtilykilinn Ctrl+F1). Þú getur líka nálgast fylgiskjölin með því að velja tengdan hlekk í [Hjálpar- og stuðningssíða](product-help-and-support.md).  
 
 Öllum svæðunum í [!INCLUDE[d365fin](includes/d365fin_md.md)] er lýst í ábendingum. Þú getur nálgast ábendingar með því að velja heiti svæðisins. Til dæmis, á síðu eins og **Viðskiptamannaspjald** getur þú einfaldlega valið heiti svæðisins til að lesa ábendinguna. Í lista eins og **Viðskiptamenn** eða línurnar í fylgiskjali á borð við sölupöntun, þarftu að velja fellivalmyndina hægra megin við heiti dálksins og síðan velja valmyndaratriðið **Hvað er þetta?**.  
 
@@ -88,14 +88,16 @@ Fara á innihald um önnur Dynamics 365 forrit með því að velja [Dynamics 36
 Ef þú ert endurskoðandi geturðu skráð þig fyrir [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] fyrir samþættingu við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í [Velkomin í Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem mitt viðskiptainnhólf í Outlook](admin-outlook.md)  
 [Fáðu [!INCLUDE[d365fin](includes/d365fin_md.md)] í farsímann þinn](install-mobile-app.md)  
+[Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Fylgigögn Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Útgáfuupplýsingar](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/training_link_md.md)]  

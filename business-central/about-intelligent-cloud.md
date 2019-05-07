@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 4bd30c2912c8a690431221e7983f5fe53b543322
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852127"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920914"
 ---
 # <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Aðgangur að snjallskýi með [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -38,7 +38,7 @@ Tenging við snjallský úr lausnum á staðnum krefst að stjórnandi þinn til
 Við hliðina á KPI-töflunum færðu innsýn í hugsanlega áhyggjuefni, þ.m.t. gjaldfallnar greiðslur. Veldu hvert innsýn til að kafa inn í gögnin.  
 
 > [!div class="mx-imgBorder"]
-> ![Snjallskýjainnsýn](media/across-intelligent-cloud/intelligentcloudinsights.png "Sýnir síðu snjallskýjainnsýnar í Business Central")
+> ![Snjallskýjainnsýn](media/across-intelligent-cloud/intelligentcloudApril19.png "Sýnir síðu snjallskýjainnsýnar í Business Central")
 
 Síðan tengist einnig Power BI fyrir enn meiri innsýn.
 
