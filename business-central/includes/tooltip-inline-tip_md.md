@@ -1,1 +1,1 @@
-<span data-ttu-id="54507-101">Haltu bendlinum yfir reit til að lesa stutta lýsingu.</span><span class="sxs-lookup"><span data-stu-id="54507-101">Hover over a field to read a short description.</span></span>
+<span data-ttu-id="551e5-101">Haltu bendlinum yfir reit til að lesa stutta lýsingu.</span><span class="sxs-lookup"><span data-stu-id="551e5-101">Hover over a field to read a short description.</span></span>

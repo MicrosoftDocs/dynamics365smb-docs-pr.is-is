@@ -1,1 +1,1 @@
-<span data-ttu-id="64cbc-101">Eiginleikar Isabel er aðeins í boði fyrir uppsetningu á staðnum.</span><span class="sxs-lookup"><span data-stu-id="64cbc-101">The Isabel features are available only for on-premises deployments.</span></span>
+<span data-ttu-id="37a8f-101">Eiginleikar Isabel er aðeins í boði fyrir uppsetningu á staðnum.</span><span class="sxs-lookup"><span data-stu-id="37a8f-101">The Isabel features are available only for on-premises deployments.</span></span>

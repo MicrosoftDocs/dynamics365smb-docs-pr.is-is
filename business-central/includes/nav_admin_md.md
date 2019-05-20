@@ -1,1 +1,1 @@
-<span data-ttu-id="abff7-101">Microsoft Dynamics NAV Netþjónsstjórnunartól</span><span class="sxs-lookup"><span data-stu-id="abff7-101">Microsoft Dynamics NAV Server Administration tool</span></span>
+<span data-ttu-id="a87bd-101">Microsoft Dynamics NAV Server Stjórnunarverkfæri</span><span class="sxs-lookup"><span data-stu-id="a87bd-101">Microsoft Dynamics NAV Server Administration tool</span></span>

@@ -11,34 +11,34 @@ ms.search.keywords: design, inventory, costing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: b484cc412084937072f5031185ba8c69078a616a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922793"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246410"
 ---
-# <a name="design-details-inventory-costing"></a><span data-ttu-id="8f27e-103">Hönnunarupplýsingar: Birgðakostnaður</span><span class="sxs-lookup"><span data-stu-id="8f27e-103">Design Details: Inventory Costing</span></span>
-<span data-ttu-id="8f27e-104">Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar fyrir hugtökin og reglurnar sem eru notaðar í Birgðarkostnaði [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="8f27e-104">This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+# <a name="design-details-inventory-costing"></a><span data-ttu-id="88f5e-103">Hönnunarupplýsingar: Birgðakostnaður</span><span class="sxs-lookup"><span data-stu-id="88f5e-103">Design Details: Inventory Costing</span></span>
+<span data-ttu-id="88f5e-104">Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar fyrir hugtökin og reglurnar sem eru notaðar í Birgðarkostnaði [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="88f5e-104">This documentation provides detailed technical insight to the concepts and principles that are used within the Inventory Costing features in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
 
-<span data-ttu-id="8f27e-105">Birgðakostnaður, einnig kostnaðarstýring, snýst um að skrá og tilkynna kostnað við starfsemi fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="8f27e-105">Inventory costing, also referred to as cost management, is concerned with recording and reporting business operating costs.</span></span>  
+<span data-ttu-id="88f5e-105">Birgðakostnaður, einnig kostnaðarstýring, snýst um að skrá og tilkynna kostnað við starfsemi fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="88f5e-105">Inventory costing, also referred to as cost management, is concerned with recording and reporting business operating costs.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="8f27e-106">Í þessum hluta</span><span class="sxs-lookup"><span data-stu-id="8f27e-106">In This Section</span></span>  
-[<span data-ttu-id="8f27e-107">Hönnunarupplýsingar: Aðferð kostnaðarútreiknings</span><span class="sxs-lookup"><span data-stu-id="8f27e-107">Design Details: Costing Methods</span></span>](design-details-costing-methods.md)  
-[<span data-ttu-id="8f27e-108">Hönnunarupplýsingar: Umsókn vöru</span><span class="sxs-lookup"><span data-stu-id="8f27e-108">Design Details: Item Application</span></span>](design-details-item-application.md)  
-[<span data-ttu-id="8f27e-109">Hönnunarupplýsingar: Þekkt vandamál birgðajöfnunar</span><span class="sxs-lookup"><span data-stu-id="8f27e-109">Design Details: Known Item Application Issue</span></span>](design-details-inventory-zero-level-open-item-ledger-entries.md)  
-[<span data-ttu-id="8f27e-110">Hönnunarupplýsingar: kostnaðarleiðrétting</span><span class="sxs-lookup"><span data-stu-id="8f27e-110">Design Details: Cost Adjustment</span></span>](design-details-cost-adjustment.md)  
-[<span data-ttu-id="8f27e-111">Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslum</span><span class="sxs-lookup"><span data-stu-id="8f27e-111">Design Details: Posting Date on Adjustment Value Entry</span></span>](design-details-inventory-adjustment-value-entry-posting-date.md)  
-[<span data-ttu-id="8f27e-112">Hönnunarupplýsingar: Væntanleg kostnaðarfærsla</span><span class="sxs-lookup"><span data-stu-id="8f27e-112">Design Details: Expected Cost Posting</span></span>](design-details-expected-cost-posting.md)  
-[<span data-ttu-id="8f27e-113">Hönnunarupplýsingar: Meðalkostnaður</span><span class="sxs-lookup"><span data-stu-id="8f27e-113">Design Details: Average Cost</span></span>](design-details-average-cost.md)  
-[<span data-ttu-id="8f27e-114">Hönnunarupplýsingar Frávik</span><span class="sxs-lookup"><span data-stu-id="8f27e-114">Design Details: Variance</span></span>](design-details-variance.md)  
-[<span data-ttu-id="8f27e-115">Hönnunarupplýsingar: sléttun</span><span class="sxs-lookup"><span data-stu-id="8f27e-115">Design Details: Rounding</span></span>](design-details-rounding.md)  
-[<span data-ttu-id="8f27e-116">Hönnunarupplýsingar: kostnaðaríhlutir</span><span class="sxs-lookup"><span data-stu-id="8f27e-116">Design Details: Cost Components</span></span>](design-details-cost-components.md)  
-[<span data-ttu-id="8f27e-117">Hönnunarupplýsingar: birgðahaldstími</span><span class="sxs-lookup"><span data-stu-id="8f27e-117">Design Details: Inventory Periods</span></span>](design-details-inventory-periods.md)  
-[<span data-ttu-id="8f27e-118">Hönnunarupplýsingar: birgðabókun</span><span class="sxs-lookup"><span data-stu-id="8f27e-118">Design Details: Inventory Posting</span></span>](design-details-inventory-posting.md)  
-[<span data-ttu-id="8f27e-119">Hönnunarupplýsingar: staða framleiðslupöntunar</span><span class="sxs-lookup"><span data-stu-id="8f27e-119">Design Details: Production Order Posting</span></span>](design-details-production-order-posting.md)  
-[<span data-ttu-id="8f27e-120">Hönnunarupplýsingar: Bókun samsetningarpöntunar</span><span class="sxs-lookup"><span data-stu-id="8f27e-120">Design Details: Assembly Order Posting</span></span>](design-details-assembly-order-posting.md)  
-[<span data-ttu-id="8f27e-121">Hönnunarupplýsingar: afstemming í fjárhagur</span><span class="sxs-lookup"><span data-stu-id="8f27e-121">Design Details: Reconciliation with the General Ledger</span></span>](design-details-reconciliation-with-the-general-ledger.md)  
-<span data-ttu-id="8f27e-122">[Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)
-[Hönnunarupplýsingar: Birgðavirði](design-details-inventory-valuation.md)</span><span class="sxs-lookup"><span data-stu-id="8f27e-122">[Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
+## <a name="in-this-section"></a><span data-ttu-id="88f5e-106">Í þessum hluta</span><span class="sxs-lookup"><span data-stu-id="88f5e-106">In This Section</span></span>  
+[<span data-ttu-id="88f5e-107">Hönnunarupplýsingar: Aðferð kostnaðarútreiknings</span><span class="sxs-lookup"><span data-stu-id="88f5e-107">Design Details: Costing Methods</span></span>](design-details-costing-methods.md)  
+[<span data-ttu-id="88f5e-108">Hönnunarupplýsingar: Umsókn vöru</span><span class="sxs-lookup"><span data-stu-id="88f5e-108">Design Details: Item Application</span></span>](design-details-item-application.md)  
+[<span data-ttu-id="88f5e-109">Hönnunarupplýsingar: Þekkt vandamál birgðajöfnunar</span><span class="sxs-lookup"><span data-stu-id="88f5e-109">Design Details: Known Item Application Issue</span></span>](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[<span data-ttu-id="88f5e-110">Hönnunarupplýsingar: kostnaðarleiðrétting</span><span class="sxs-lookup"><span data-stu-id="88f5e-110">Design Details: Cost Adjustment</span></span>](design-details-cost-adjustment.md)  
+[<span data-ttu-id="88f5e-111">Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslum</span><span class="sxs-lookup"><span data-stu-id="88f5e-111">Design Details: Posting Date on Adjustment Value Entry</span></span>](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[<span data-ttu-id="88f5e-112">Hönnunarupplýsingar: Væntanleg kostnaðarfærsla</span><span class="sxs-lookup"><span data-stu-id="88f5e-112">Design Details: Expected Cost Posting</span></span>](design-details-expected-cost-posting.md)  
+[<span data-ttu-id="88f5e-113">Hönnunarupplýsingar: Meðalkostnaður</span><span class="sxs-lookup"><span data-stu-id="88f5e-113">Design Details: Average Cost</span></span>](design-details-average-cost.md)  
+[<span data-ttu-id="88f5e-114">Hönnunarupplýsingar Frávik</span><span class="sxs-lookup"><span data-stu-id="88f5e-114">Design Details: Variance</span></span>](design-details-variance.md)  
+[<span data-ttu-id="88f5e-115">Hönnunarupplýsingar: sléttun</span><span class="sxs-lookup"><span data-stu-id="88f5e-115">Design Details: Rounding</span></span>](design-details-rounding.md)  
+[<span data-ttu-id="88f5e-116">Hönnunarupplýsingar: kostnaðaríhlutir</span><span class="sxs-lookup"><span data-stu-id="88f5e-116">Design Details: Cost Components</span></span>](design-details-cost-components.md)  
+[<span data-ttu-id="88f5e-117">Hönnunarupplýsingar: birgðahaldstími</span><span class="sxs-lookup"><span data-stu-id="88f5e-117">Design Details: Inventory Periods</span></span>](design-details-inventory-periods.md)  
+[<span data-ttu-id="88f5e-118">Hönnunarupplýsingar: birgðabókun</span><span class="sxs-lookup"><span data-stu-id="88f5e-118">Design Details: Inventory Posting</span></span>](design-details-inventory-posting.md)  
+[<span data-ttu-id="88f5e-119">Hönnunarupplýsingar: staða framleiðslupöntunar</span><span class="sxs-lookup"><span data-stu-id="88f5e-119">Design Details: Production Order Posting</span></span>](design-details-production-order-posting.md)  
+[<span data-ttu-id="88f5e-120">Hönnunarupplýsingar: Bókun samsetningarpöntunar</span><span class="sxs-lookup"><span data-stu-id="88f5e-120">Design Details: Assembly Order Posting</span></span>](design-details-assembly-order-posting.md)  
+[<span data-ttu-id="88f5e-121">Hönnunarupplýsingar: afstemming í fjárhagur</span><span class="sxs-lookup"><span data-stu-id="88f5e-121">Design Details: Reconciliation with the General Ledger</span></span>](design-details-reconciliation-with-the-general-ledger.md)  
+<span data-ttu-id="88f5e-122">[Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)
+[Hönnunarupplýsingar: Birgðavirði](design-details-inventory-valuation.md)</span><span class="sxs-lookup"><span data-stu-id="88f5e-122">[Design Details: Accounts in the General Ledger](design-details-accounts-in-the-general-ledger.md)
 [Design Details: Inventory Valuation](design-details-inventory-valuation.md)</span></span>  
-[<span data-ttu-id="8f27e-123">Hönnunarupplýsingar: Endurmat</span><span class="sxs-lookup"><span data-stu-id="8f27e-123">Design Details: Revaluation</span></span>](design-details-revaluation.md)
+[<span data-ttu-id="88f5e-123">Hönnunarupplýsingar: Endurmat</span><span class="sxs-lookup"><span data-stu-id="88f5e-123">Design Details: Revaluation</span></span>](design-details-revaluation.md)

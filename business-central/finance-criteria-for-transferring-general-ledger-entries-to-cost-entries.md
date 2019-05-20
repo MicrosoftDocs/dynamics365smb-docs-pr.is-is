@@ -4,45 +4,44 @@ description: Mikilvægt er að átta sig á skilyrðum fyrir því að flytja fj
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
-redirect_url: finance-transfer-and-post-cost-entries
 ms.openlocfilehash: 62d19b5ff112871f7f44f0945bdcfd38306ed8b3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931652"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242814"
 ---
-# <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a><span data-ttu-id="401e0-104">Skilyrði til að millifærslu fjárhagsfærslna í kostnaðarfærslur</span><span class="sxs-lookup"><span data-stu-id="401e0-104">Criteria for Transferring General Ledger Entries to Cost Entries</span></span>
-<span data-ttu-id="401e0-105">Mikilvægt er að átta sig á skilyrðum fyrir því að flytja fjárhagsfærslur til kostnaðarfærslna.</span><span class="sxs-lookup"><span data-stu-id="401e0-105">It is important to understand the criteria for transferring general ledger entries to cost entries.</span></span> <span data-ttu-id="401e0-106">Meðan á millifærslu stendur notar runuvinnslan **Millifæra fjárhagsfærslu til kostnaðarbókhalds** eftirfarandi skilyrði til að tilgreina hvort og hvernig fjárhagsfærslur eru fluttar.</span><span class="sxs-lookup"><span data-stu-id="401e0-106">During the transfer, the **Transfer GL Entries to CA** batch job uses the following criteria to determine if and how the general ledger entries are transferred.</span></span>  
+# <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a><span data-ttu-id="c5380-104">Skilyrði til að millifærslu fjárhagsfærslna í kostnaðarfærslur</span><span class="sxs-lookup"><span data-stu-id="c5380-104">Criteria for Transferring General Ledger Entries to Cost Entries</span></span>
+<span data-ttu-id="c5380-105">Mikilvægt er að átta sig á skilyrðum fyrir því að flytja fjárhagsfærslur til kostnaðarfærslna.</span><span class="sxs-lookup"><span data-stu-id="c5380-105">It is important to understand the criteria for transferring general ledger entries to cost entries.</span></span> <span data-ttu-id="c5380-106">Meðan á millifærslu stendur notar runuvinnslan **Millifæra fjárhagsfærslu til kostnaðarbókhalds** eftirfarandi skilyrði til að tilgreina hvort og hvernig fjárhagsfærslur eru fluttar.</span><span class="sxs-lookup"><span data-stu-id="c5380-106">During the transfer, the **Transfer GL Entries to CA** batch job uses the following criteria to determine if and how the general ledger entries are transferred.</span></span>  
 
-<span data-ttu-id="401e0-107">Fjárhagsfærslur eru fluttar ef:</span><span class="sxs-lookup"><span data-stu-id="401e0-107">General ledger entries are transferred if:</span></span>  
+<span data-ttu-id="c5380-107">Fjárhagsfærslur eru fluttar ef:</span><span class="sxs-lookup"><span data-stu-id="c5380-107">General ledger entries are transferred if:</span></span>  
 
--   <span data-ttu-id="401e0-108">Færslurnar hafa víddargildi sem samsvara annaðhvort kostnaðarstað eða kostnaðarhlut.</span><span class="sxs-lookup"><span data-stu-id="401e0-108">The entries have dimension values corresponding to either a cost center or a cost object.</span></span>  
--   <span data-ttu-id="401e0-109">Færslurnar hafa víddargildi sem samsvara kostnaðarstað og kostnaðarhlut.</span><span class="sxs-lookup"><span data-stu-id="401e0-109">The entries have dimension values that correspond to a cost center and a cost object.</span></span> <span data-ttu-id="401e0-110">Kostnaðarstaðurinn hefur forgang í þessum færslum.</span><span class="sxs-lookup"><span data-stu-id="401e0-110">For these entries, the cost center takes precedence.</span></span> <span data-ttu-id="401e0-111">Þetta hjálpar til við að forðast aðstæður þar sem kostnaðargerð birtist í bæði kostnaðarhlut og kostnaðarstað og er því talin tvisvar í tölfræðigögnum.</span><span class="sxs-lookup"><span data-stu-id="401e0-111">This helps avoid a situation where a cost type appears in both a cost object and a cost center and is therefore counted twice in the statistics.</span></span>  
--   <span data-ttu-id="401e0-112">Fylgiskjalsnúmerið í færslunum er autt, þannig að það birtist með fylgiskjalsnúmerinu 0000 í kostnaðarfærslunum.</span><span class="sxs-lookup"><span data-stu-id="401e0-112">The document number in the entries is empty, so it will appear with a document number of 0000 in the cost entries.</span></span>  
--   <span data-ttu-id="401e0-113">Færslurnar eru færðar í kostnaðartegund sem leyfir við blandaðar færslur og þessar færslur eru fluttar sem blönduð færsla, annaðhvort mánaðarlega eða daglega.</span><span class="sxs-lookup"><span data-stu-id="401e0-113">The entries are transferred to a cost type that allows for combined entries and these entries are transferred as a combined entry either monthly or daily.</span></span>  
+-   <span data-ttu-id="c5380-108">Færslurnar hafa víddargildi sem samsvara annaðhvort kostnaðarstað eða kostnaðarhlut.</span><span class="sxs-lookup"><span data-stu-id="c5380-108">The entries have dimension values corresponding to either a cost center or a cost object.</span></span>  
+-   <span data-ttu-id="c5380-109">Færslurnar hafa víddargildi sem samsvara kostnaðarstað og kostnaðarhlut.</span><span class="sxs-lookup"><span data-stu-id="c5380-109">The entries have dimension values that correspond to a cost center and a cost object.</span></span> <span data-ttu-id="c5380-110">Kostnaðarstaðurinn hefur forgang í þessum færslum.</span><span class="sxs-lookup"><span data-stu-id="c5380-110">For these entries, the cost center takes precedence.</span></span> <span data-ttu-id="c5380-111">Þetta hjálpar til við að forðast aðstæður þar sem kostnaðargerð birtist í bæði kostnaðarhlut og kostnaðarstað og er því talin tvisvar í tölfræðigögnum.</span><span class="sxs-lookup"><span data-stu-id="c5380-111">This helps avoid a situation where a cost type appears in both a cost object and a cost center and is therefore counted twice in the statistics.</span></span>  
+-   <span data-ttu-id="c5380-112">Fylgiskjalsnúmerið í færslunum er autt, þannig að það birtist með fylgiskjalsnúmerinu 0000 í kostnaðarfærslunum.</span><span class="sxs-lookup"><span data-stu-id="c5380-112">The document number in the entries is empty, so it will appear with a document number of 0000 in the cost entries.</span></span>  
+-   <span data-ttu-id="c5380-113">Færslurnar eru færðar í kostnaðartegund sem leyfir við blandaðar færslur og þessar færslur eru fluttar sem blönduð færsla, annaðhvort mánaðarlega eða daglega.</span><span class="sxs-lookup"><span data-stu-id="c5380-113">The entries are transferred to a cost type that allows for combined entries and these entries are transferred as a combined entry either monthly or daily.</span></span>  
 
-<span data-ttu-id="401e0-114">Fjárhagsfærslur eru ekki fluttar ef:</span><span class="sxs-lookup"><span data-stu-id="401e0-114">General ledger entries are not transferred if:</span></span>  
+<span data-ttu-id="c5380-114">Fjárhagsfærslur eru ekki fluttar ef:</span><span class="sxs-lookup"><span data-stu-id="c5380-114">General ledger entries are not transferred if:</span></span>  
 
--   <span data-ttu-id="401e0-115">Færslurnar hafa víddargildi sem samsvara ekki kostnaðarstað né kostnaðarhlut.</span><span class="sxs-lookup"><span data-stu-id="401e0-115">The entries have dimension values that do not correspond to a cost center or a cost object.</span></span>  
--   <span data-ttu-id="401e0-116">Færslurnar hafa upphæð núll.</span><span class="sxs-lookup"><span data-stu-id="401e0-116">The entries have an amount of zero.</span></span>  
--   <span data-ttu-id="401e0-117">Færslurnar hafa fjárhagsreikning sem hefur verið eytt.</span><span class="sxs-lookup"><span data-stu-id="401e0-117">The entries have a general ledger account that has been deleted.</span></span>  
--   <span data-ttu-id="401e0-118">Færslurnar hafa fjárhagsreikning sem er ekki af tegundinni **Rekstrarreikningur**.</span><span class="sxs-lookup"><span data-stu-id="401e0-118">The entries have a general ledger account that is not of the type **Income Statement**.</span></span>  
--   <span data-ttu-id="401e0-119">Færslurnar hafa fjárhagsreikning sem er ekki tengdur kostnaðartegund.</span><span class="sxs-lookup"><span data-stu-id="401e0-119">The entries have a general ledger account that is not assigned a cost type.</span></span>  
--   <span data-ttu-id="401e0-120">Færslurnar hafa bókunardagsetningu fyrir **Upphafsdagsetning fjárhagsmillifærslu**.</span><span class="sxs-lookup"><span data-stu-id="401e0-120">The entries have a posting date before the **Starting Date for G/L Transfer**.</span></span>  
--   <span data-ttu-id="401e0-121">Færslurnar hafa verið bókaðar með lokadagsetningu.</span><span class="sxs-lookup"><span data-stu-id="401e0-121">The entries have been posted with a closing date.</span></span> <span data-ttu-id="401e0-122">Þetta eru yfirleitt færslur sem stilla aftur stöðu rekstrarreiknings við lok hvers árs.</span><span class="sxs-lookup"><span data-stu-id="401e0-122">These are typically entries that set back the balance of the income statement at the end of the year.</span></span>  
+-   <span data-ttu-id="c5380-115">Færslurnar hafa víddargildi sem samsvara ekki kostnaðarstað né kostnaðarhlut.</span><span class="sxs-lookup"><span data-stu-id="c5380-115">The entries have dimension values that do not correspond to a cost center or a cost object.</span></span>  
+-   <span data-ttu-id="c5380-116">Færslurnar hafa upphæð núll.</span><span class="sxs-lookup"><span data-stu-id="c5380-116">The entries have an amount of zero.</span></span>  
+-   <span data-ttu-id="c5380-117">Færslurnar hafa fjárhagsreikning sem hefur verið eytt.</span><span class="sxs-lookup"><span data-stu-id="c5380-117">The entries have a general ledger account that has been deleted.</span></span>  
+-   <span data-ttu-id="c5380-118">Færslurnar hafa fjárhagsreikning sem er ekki af tegundinni **Rekstrarreikningur**.</span><span class="sxs-lookup"><span data-stu-id="c5380-118">The entries have a general ledger account that is not of the type **Income Statement**.</span></span>  
+-   <span data-ttu-id="c5380-119">Færslurnar hafa fjárhagsreikning sem er ekki tengdur kostnaðartegund.</span><span class="sxs-lookup"><span data-stu-id="c5380-119">The entries have a general ledger account that is not assigned a cost type.</span></span>  
+-   <span data-ttu-id="c5380-120">Færslurnar hafa bókunardagsetningu fyrir **Upphafsdagsetning fjárhagsmillifærslu**.</span><span class="sxs-lookup"><span data-stu-id="c5380-120">The entries have a posting date before the **Starting Date for G/L Transfer**.</span></span>  
+-   <span data-ttu-id="c5380-121">Færslurnar hafa verið bókaðar með lokadagsetningu.</span><span class="sxs-lookup"><span data-stu-id="c5380-121">The entries have been posted with a closing date.</span></span> <span data-ttu-id="c5380-122">Þetta eru yfirleitt færslur sem stilla aftur stöðu rekstrarreiknings við lok hvers árs.</span><span class="sxs-lookup"><span data-stu-id="c5380-122">These are typically entries that set back the balance of the income statement at the end of the year.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="401e0-123">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="401e0-123">See Also</span></span>  
-[<span data-ttu-id="401e0-124">Kostnaðarreikningur</span><span class="sxs-lookup"><span data-stu-id="401e0-124">Accounting for Costs</span></span>](finance-manage-cost-accounting.md)  
- <span data-ttu-id="401e0-125">[Flytja fjárhagsfærslur í kostnaðarfærslur](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md) </span><span class="sxs-lookup"><span data-stu-id="401e0-125">[Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md) </span></span>  
- <span data-ttu-id="401e0-126">[Flytja og bóka kostnaðarfærslur](finance-transfer-and-post-cost-entries.md) </span><span class="sxs-lookup"><span data-stu-id="401e0-126">[Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md) </span></span>  
- [<span data-ttu-id="401e0-127">Um kostnaðarbókhald</span><span class="sxs-lookup"><span data-stu-id="401e0-127">About Cost Accounting</span></span>](finance-about-cost-accounting.md)  
- <span data-ttu-id="401e0-128">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="401e0-128">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="c5380-123">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="c5380-123">See Also</span></span>  
+[<span data-ttu-id="c5380-124">Kostnaðarreikningur</span><span class="sxs-lookup"><span data-stu-id="c5380-124">Accounting for Costs</span></span>](finance-manage-cost-accounting.md)  
+ <span data-ttu-id="c5380-125">[Flytja fjárhagsfærslur í kostnaðarfærslur](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md) </span><span class="sxs-lookup"><span data-stu-id="c5380-125">[Transfer General Ledger Entries to Cost Entries](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md) </span></span>  
+ <span data-ttu-id="c5380-126">[Flytja og bóka kostnaðarfærslur](finance-transfer-and-post-cost-entries.md) </span><span class="sxs-lookup"><span data-stu-id="c5380-126">[Transferring and Posting Cost Entries](finance-transfer-and-post-cost-entries.md) </span></span>  
+ [<span data-ttu-id="c5380-127">Um kostnaðarbókhald</span><span class="sxs-lookup"><span data-stu-id="c5380-127">About Cost Accounting</span></span>](finance-about-cost-accounting.md)  
+ <span data-ttu-id="c5380-128">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c5380-128">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
