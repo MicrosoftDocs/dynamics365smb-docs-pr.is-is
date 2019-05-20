@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 04/01/2019
-ms.openlocfilehash: eb9d4ec76c0dbbd59763f7622ca51137c9563a91
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.openlocfilehash: e747757ec6942ede0e237e013703ebf6d3df189b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969879"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447015"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Skoðun á Síðum í Business Central
 
@@ -22,7 +22,7 @@ Eiginleiki fyrir eftirlit með síðu gerir þér kleift að ná í upplýsingar
 
 ## <a name="working-with-page-inspection"></a>Vinna með síðueftirlit
 
-Til að skoða síðu skal velja ![Stillingartákn](media/ui-experience/settings_icon_small.png) efst í hægra horninu, síðan velja **Skoða**. Eða hægt er að nota flýtileiðina **Ctrl+Alt+F1**.
+Þú byrjar síðueftirlit á **Hjálp og notendaþjónusta**. Veldu spurningamerkið efst í hægra horninu, svo **Hjálp og notendaþjónusta** og svo **Kanna síður og gögn**. Einnig er hægt að nota flýtilykilinn **Ctrl+Alt+F1**.
 
 Rúðan **Eftirlit með síðu** opnast á hliðinni. Eftirfarandi skýringarmynd sýnir rúðuna **Eftirlit með síðu** á síðunni **Sölupöntun**.
 

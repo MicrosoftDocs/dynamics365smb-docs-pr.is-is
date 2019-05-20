@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 68128de48b014e7ca44fba3909cf72dcf0d87135
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: c64b58c036395764191c05f47f8327c6479a4c6f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920416"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447038"
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
 Til að hjálpa þér að komast að komast fljótt af stað inniheldur [!INCLUDE[d365fin](includes/d365fin_md.md)] eru venjulegar stillingar fyrir flestar fjárhagslegar ferðir. Ef þú þarft að breyta stillingum til að henta fyrirtækinu þínu skaltu fara strax. Frá Mitt hlutverk er t.d. hægt að nota uppsetningarleiðbeiningar með hjálp til að setja upp söluskatt fyrir staðsetningu þína.  
@@ -44,7 +44,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Setjið upp viðskiptaupplýsingar (BI) töflur til að greina sjóðstreymi. |[Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md) |
 |Gera virka reikningsfærslu viðskiptamanns sem er ekki uppsettur í kerfið.|[Uppsetning staðgreiðsluviðskiptamanna](finance-how-to-set-up-cash-customers.md)|
 | Uppsetning á Intrastat skýrslugerð, og senda inn skýrsluna til yfirvalda. | [Setja upp og skrá Intrastat](finance-how-setup-report-intrastat.md)|
-|Undirbúa sameinaða prófjafnaðarskýrslu í hlutverki endurskoðanda til að fá fjárhagsyfirlit yfir mörg fyrirtæki.|[Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)|
 |Gakktu úr skugga um að færsla úr færslubók sé úthlutað á nokkra mismunandi reikninga þegar færslubókin er bókuð, annaðhvort magn, prósenta eða upphæð.|[Nota úthlutunarlykla í færslubókum](ui-how-use-allocation-keys-general-journals.md)|
 
 ## <a name="see-also"></a>Sjá einnig
