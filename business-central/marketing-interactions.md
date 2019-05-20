@@ -12,17 +12,15 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 7ef4416c695543cb93fcf0bed9501bfa4d04985d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: eedb7a319a11b740f6afa869d162f15c167ccc6d
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917190"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446785"
 ---
-# <a name="managing-interactions-with-contacts"></a>Unnið með Samskipti Við Tengiliði
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru allar gerðir af samskiptum milli fyrirtækis þíns og tengiliðanna. Til dæmis geta samskipti verið með bréfi, faxi, tölvupósti, síma, fundum, o.s.frv.
-
-Tengslastjórnunargrunnur svæðið gerir mögulegt að skrá öll samskipti við tengiliði svo að hægt sé að rekja sölu- og markaðssetningaraðgerðir sem beint hefur verið að tengiliðunum og bæta seinni tíma viðskiptatengsl við þá. Uppsetning forrits til að skrá samskipti samanstendur af þessum verkum:
+# <a name="record-interactions-with-contacts"></a>Skrá samskipti við tengiliði
+Uppsetning forrits til að skrá samskipti samanstendur af þessum verkum:
 
 * Samskiptasniðmát sett upp  
 * Stofna samskipti á tengiliði eða hluta  

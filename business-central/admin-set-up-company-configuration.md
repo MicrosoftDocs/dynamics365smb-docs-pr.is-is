@@ -13,16 +13,16 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e003f429122bd31ee35ef9b843682bfe8866407a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926464"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246700"
 ---
 # <a name="set-up-company-configuration"></a>Uppsetning grunnstillingu fyrirtækis
 Innleiðingarferlið hefst með samstarfsaðili Microsoft. Samstarfsaðilinn er ábyrgur fyrir því að fara gegnum upplýsingar um skilgreiningar og stofna pakka sem viðskiptavinur getur auðveldlega notað. Áður en nýtt fyrirtæki er stofnað, er ráðlagt að áætla hvernig það muni vera grunnstillt. Hafa þarf í huga grunnuppsetningargögn og tegundir gagna sem [!INCLUDE[d365fin](includes/d365fin_md.md)] lausnin krefst. Allar þessar upplýsingar eru sameinaðar í grunnstillingarpakka.
 
-RapidStart Services býður einnig upp á verkfæri sem verða notuð til að flytja eldri gögn, eins og viðskiptavinir og lánardrottnar.  
+RapidStart Services býður einnig upp á verkfæri sem verða notuð til að flytja eldri gögn, eins og viðskiptamenn og lánardrottnar.  
 
 Mælt er með að stofna skilgreiningarpakka með flestum uppsetningartöflunum útfylltum fyrirfram þannig að viðskiptavinir þurfi aðeins að breyta nokkrum stillingum eftir að pakkinn er notaður. Til dæmis þegar nýtt fyrirtæki er stofnað er töflurar **Númeraraðir** og **Númeraraðarlína** fyllt út með safni af númeraröðum og upphafsnúmerum. Samsvarandi **Númeraröð** svæði í uppsetningartöflum eru einnig fyllt út sjálfkrafa. Það þarf ekki að færa inn númeraraðir og önnur einföld uppsetningargögn. Einnig er hægt að breyta handvirkt öllum sjálfgefnum gögnum sem notuð eru með RapidStart Services með því að nota grunnstillingarvinnublaðið.  
 

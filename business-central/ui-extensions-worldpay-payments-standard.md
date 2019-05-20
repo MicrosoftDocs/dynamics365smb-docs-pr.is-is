@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: a61fd494235a3c939822c423d4b0044ad0709e4d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935613"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249285"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>WorldPay Payments Standard Viðbótin
 WorldPay Payments Standard Viðbótin gerir þér kleift að bjóða viðskiptavinum þægilega leið til að greiða í gegnum bankamillifærslu eða með kreditkortum. Greiðslur sem greiddar eru með greiðsluþjónustu munu yfirleitt einnig koma hraðar inn á bankareikninginn þinn.

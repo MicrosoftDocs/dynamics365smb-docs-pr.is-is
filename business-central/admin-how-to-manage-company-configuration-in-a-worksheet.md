@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 66b3f7fb4955d66202818a22aaa2a36235c77e9d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913411"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245282"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Vinna með grunnstillingu fyrirtækis í vinnublaði
 Skilgreiningarvinnublaðið er aðalstaðsetningin þar sem hægt er að áætla, rekja og framkvæma skilgreiningarvinnu. Hægt er að stofna vinnublað fyrir hvert fyrirtæki sem unnið er með eða stofna staðlað skilgreiningarvinnublað sem hægt er að nota þegar mörg eins fyrirtæki eru skilgreind.  

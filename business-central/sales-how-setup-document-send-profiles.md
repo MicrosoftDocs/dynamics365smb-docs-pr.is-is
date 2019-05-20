@@ -13,11 +13,11 @@ ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a6521a6f67fa39ded3b3baa863fc0d4341aa0524
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916942"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252436"
 ---
 # <a name="set-up-document-sending-profiles"></a>Setja upp sendisnið skjala
 Hægt er að setja upp hvern viðskiptavin með valinni aðferð við að senda söluskjöl til að þurfa ekki að velja sendingarvalkost í hvert skipti sem aðgerðin **Bóka og senda** er valin.

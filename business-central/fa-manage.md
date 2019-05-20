@@ -13,11 +13,11 @@ ms.search.keywords: machinery, buildings
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fabff17b66dd3d5a8c57537df34bddedba0d7248
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914634"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243849"
 ---
 # <a name="fixed-assets"></a>Eignir
 Í kerfishlutanum Eignir í [!INCLUDE[d365fin](includes/d365fin_md.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.

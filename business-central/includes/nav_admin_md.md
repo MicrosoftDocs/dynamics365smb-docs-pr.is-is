@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV Netþjónsstjórnunartól
+Microsoft Dynamics NAV Server Stjórnunarverkfæri

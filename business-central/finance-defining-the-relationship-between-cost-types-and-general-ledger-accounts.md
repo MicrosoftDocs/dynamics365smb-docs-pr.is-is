@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
 ms.openlocfilehash: c5b4549e330bd9b3369b6fe5b18361f6662291c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918031"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242630"
 ---
 # <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Skilgreining á venslum milli kostnaðargerða og fjárhagsreikninga
 Tengsl milli kostnaðartegundarinnar og almenna fjárhagslykilsins eru stofnuð í kostnaðartegundinni og í fjárhagsreikningnum.  

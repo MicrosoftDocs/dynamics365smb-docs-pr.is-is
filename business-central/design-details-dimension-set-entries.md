@@ -13,11 +13,11 @@ ms.search.keywords: design, dimensions, codeunit
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c6b66ecee87e1fd128733f541d46b97f44af0453
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935660"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242745"
 ---
 # <a name="design-details-dimension-set-entries"></a>Hönnunarupplýsingarn: Færslur víddarsamstæða
 Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar yfir hugtök og reglur víddarfærsluvistun og bókunareiginleika í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Skjölin byrja á því að lýsa hugmyndafræðilegum yfirlitum. Þá er tæknistrúktúr útskýrður. Einnig gefur það dæmi um kóða til undirbúnings fyrir víddarkóðaflutning og -uppfærslu úr útgáfum sem eru eldri en Dynamics NAV 2013R2.  

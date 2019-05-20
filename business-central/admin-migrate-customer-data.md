@@ -1,6 +1,6 @@
 ---
 title: Flytja gögn viðskiptamanna | Microsoft Docs
-description: Hægt er að flytja núverandi gögn viðskiptamanna úr fyrirliggjandi ERP-kerfi yfir í Business Central með því að nota RapidStart Services. Hægt er að nota Excel. xlsx skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að opna þau beint í fyrirtækinu.
+description: Hægt er að flytja núverandi gögn viðskiptamanns úr fyrirliggjandi ERP-kerfi yfir í Business Central með því að nota RapidStart Services. Hægt er að nota Excel. xlsx skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að opna þau beint í fyrirtækinu.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "953511"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247164"
 ---
 # <a name="migrate-customer-data"></a>Flytja gögn viðskiptamanna
-Hægt er að flytja núverandi gögn um viðskiptavini úr fyrirliggjandi ERP-kerfi yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að nota gagnaflutningstæki RapidStart Services. Hægt er að nota Excel-skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að slá þau beint inn í fyrirtækið.
+Hægt er að flytja núverandi gögn um viðskiptamenn úr fyrirliggjandi ERP-kerfi yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að nota RapidStart Services gagnaflutningstækni. Hægt er að nota Excel-skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að slá þau beint inn í fyrirtækið.
 
 Síðurnar **Flutningsyfirlit** og **Grunnstilling vinnublaðs** veita aðgang að aðgerðum og yfirlitum til að framkvæma öll verk sem snúa að gagnaflutningi. Mælt er með að ein tafla sé flutt í einu, til að meðhöndla tengsl í gögnunum. Við flutning er einnig unnið með aðalgagnatöflur, sem innihalda upplýsingar um viðskiptavini, lánardrottna, vörur, tengiliði og fjárhag.  
 
@@ -28,7 +28,7 @@ Síðurnar **Flutningsyfirlit** og **Grunnstilling vinnublaðs** veita aðgang a
 Þegar nýtt fyrirtæki er stofnað er hægt að flytja inn fyrirtækjastillingar fyrir nýja fyrirtækið. Stillingarnar úr .rapidstart skrá eru fluttar inn, sem afhendir innihald pakkans á samþjöppuðu formi. Samsvarandi safn sjálfgefinna gagnaflutningstaflna eru flutt inn. Gagnasamstæðan inniheldur aðalgagnatöflur og uppsetningargagnatöflur. Fyrsta verkið í gagnaflutningi er að meta hvort sjálfgefin flutningsuppsetning sé í samræmi við þarfir nýja fyrirtækisins.
 
 > [!NOTE]  
->  Ekki er hægt að endurnefna skrá sem ekki er þegar skilgreiningarpakki RapidStart Services sem .rapidstart skilgreiningarpakkaskrá og svo reyna að flytja hana inn. Ef það er reynt, munu koma upp villuboð.  
+>  Ekki er hægt að endurnefna skrá sem ekki er þegar RapidStart Services skilgreiningarpakki sem .rapidstart skilgreiningarpakkaskrá og svo reyna að færa hana inn. Ef það er reynt, munu koma upp villuboð.  
 
 Áður en hafist er handa þarf að ganga úr skugga um að notandi sé á Mitt hlutverk RapidStart Services innleiðara.
 

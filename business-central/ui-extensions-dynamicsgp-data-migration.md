@@ -12,11 +12,11 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: cf401500c34d8d40acc153a591229684770afa64
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917477"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250075"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Dynamics GP-Gagnaflutningaviðbótin 
 Þessi viðbót gerir það auðvelt að flytja viðskiptamenn, lánardrottna, birgðavörur, fjárhagsreikninga, opnar viðskiptaskuldir og færslur opinna viðskiptakrafna frá Dynamics GP til [!INCLUDE[prodshort](includes/prodshort.md)]. Ef fyrirtækið þitt notar Dynamics GP í dag getur þú flutt út viðeigandi skrár og síðan opnað leiðbeiningar um uppsetningu með hjálp til að bæta gögnunum við [!INCLUDE[prodshort](includes/prodshort.md)]. Flutningsviðbótin virkar fyrir allar studdar útgáfur af Microsoft Dynamics GP. Nánari upplýsingar eru í [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md).

@@ -11,11 +11,11 @@ ms.search.keywords: trade
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a8e2d016cc47192bbb05439fa61bab1f246a53bd
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924733"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252620"
 ---
 # <a name="sell-products"></a>Selja vörur
 Búinn er til sölureikningur eða sölupöntun til að skrá samkomulag við viðskiptamann um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum.

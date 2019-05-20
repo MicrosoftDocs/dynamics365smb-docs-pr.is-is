@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: daf11bb8f219367506cff4fff46caa4f75ec6c86
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938989"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239867"
 ---
 # <a name="copy-data-to-new-companies"></a>Afrita gögn yfir í ný fyrirtæki
 Hægt er að afrita títt notuð gildi úr fyrirliggjandi fyrirtæki í nýtt, svo fremi sem bæði fyrirtæki séu í saman gagnagrunni. Til dæmis, ef notandi er með staðlaðan lista yfir einkennakóta sem eru sameiginlegir öllum þjónustustjórnunarinnleiðingum, er hægt að afrita kótann auðveldlega frá einu fyrirtæki til annars.  

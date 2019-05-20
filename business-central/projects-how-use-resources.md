@@ -13,11 +13,11 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fc51b47b71d37daaccc4133d648c90b84d5a3494
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911766"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251746"
 ---
 # <a name="use-resources-for-jobs"></a>Nota tilföng fyrir verk
 Notkun forða er skráð í verkbókina til að fylgjast með kostnaði, verði og þeim verktegundum sem tengdar eru við verk. Frekari upplýsingar eru í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).

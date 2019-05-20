@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: jswymer
-ms.openlocfilehash: b0994b431d32e3e4c4bd992e0f4acc155ad50076
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 0392e39957455702bb1aae8eef38d872f803ee42
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928162"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446808"
 ---
 # <a name="managing-segments"></a>Umsjón hluta
 Hlutar eru stofnaðir til að velja hóp tengiliða í út frá tilteknum forsendum. Til dæmis getur hluti verið starfsgreinin sem tengiliðirnir tilheyra eða viðskiptatengsl við tengiliðina. Hægt er að stofna hluta til að velja tengiliðina sem miða á herferð á.
@@ -27,13 +27,13 @@ Hlutar eru búnir til í tveimur aðalskrefum:
 * Færa inn almennar upplýsingar um hlutann. Áður en hægt er að velja tengiliðina innan hluta verður að stofna hlutann.
 * Velja tengiliðina sem hlutinn á að innihalda.
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst. 
+Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
 | Til | Sjá |
 | --- | --- |
 | Stofna hluta sem leyfa val á hópi tengiliða. Til dæmis póstsendingar. |[Stofna hluta](marketing-how-create-segment.md) |
 | Stjórna tengiliðunum sem er úthlutað á hlutana. |[Bæta tengiliðum við hluta](marketing-add-contact-segment.md) |
-| Lærið að nota samskipti og hluta, þ.m.t. skráningu í annál. |[umsjón samskipta og hluta](marketing-interaction-segments.md) |
+| Lærðu að nota samskipti fyrir hluta, þ.m.t. skráningu í annál. |[Vinna með samskipti fyrir hluta](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  

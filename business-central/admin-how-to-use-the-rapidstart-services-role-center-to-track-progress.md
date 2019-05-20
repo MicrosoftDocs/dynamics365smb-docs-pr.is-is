@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912074"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245167"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Nota Mitt hlutverk RapidStart Services innleiðara
 Þegar RapidStart Services er notuð mælum við með því að nota Mitt hlutverk RapidStart Services innleiðara því hún býður upp á rétt samhengi fyrir grunnstillingarvinnuna. Frekari upplýsingar er að finna í [Að breyta Hlutverkamiðstöð](ui-change-basic-settings.md#to-change-role-center).
@@ -35,7 +35,7 @@ Sjálfgefið er að þegar töflu er bætt við grunnstillingarvinnublaðið, er
 Þegar snúið er aftur í Mitt hlutverk eru reitirnir í hlutanum **Aðgerðir** uppfærðir í samræmi við breytingarnar.  
 
 ## <a name="to-track-the-status-of-a-configuration-project"></a>Til að rekja stöðu skilgreiningarverkefnis  
-- Opnið Mitt hlutverk RapidStart Services.  
+- Opna RapidStart Services Mitt hlutverk.  
 
 Í hlutanum **Grunnstillingarsvæði** eru upplýsingar um svæðin og flokkana sýnd sem hafa verið settir upp. Ef engir flokkar eða svæði hafa verið sett upp inniheldur þessi hluti ekki gögn.  
 

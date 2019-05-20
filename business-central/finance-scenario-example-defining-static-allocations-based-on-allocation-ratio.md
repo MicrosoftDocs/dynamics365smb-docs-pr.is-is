@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
 ms.openlocfilehash: bd17923913355f883d14beb24136e97a839116e3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914846"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243389"
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Dæmi: Skilgreining fastrar úthlutunar á grundvelli úthlutunarhlutfalls
 Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun eða skilgreindu úthlutunarhlutfalli, s.s. 5:2:4.  

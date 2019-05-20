@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 75bd53acf885a79c1d3ea236240e2e7f2ca66829
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916683"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238786"
 ---
 # <a name="accounting-for-costs"></a>Bókhald fyrir kostnað
 Kostnaðarbókhald er notað til að hjálpa til við að kunna skil á kostnaði sem felst í því að reka fyrirtæki. Til að hefjast handa við kostnaðarbókhald skal skoða eftirfarandi efnisatriði  

@@ -4,21 +4,20 @@ description: Mikilvægt er að átta sig á skilyrðum fyrir því að flytja fj
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
-redirect_url: finance-transfer-and-post-cost-entries
 ms.openlocfilehash: 62d19b5ff112871f7f44f0945bdcfd38306ed8b3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931652"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242814"
 ---
 # <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Skilyrði til að millifærslu fjárhagsfærslna í kostnaðarfærslur
 Mikilvægt er að átta sig á skilyrðum fyrir því að flytja fjárhagsfærslur til kostnaðarfærslna. Meðan á millifærslu stendur notar runuvinnslan **Millifæra fjárhagsfærslu til kostnaðarbókhalds** eftirfarandi skilyrði til að tilgreina hvort og hvernig fjárhagsfærslur eru fluttar.  

@@ -12,11 +12,11 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917000"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241387"
 ---
 # <a name="extending-included365finincludesd365finmdmd"></a>Stækka [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er viðskiptahugbúnaður sem hjálpar fyrirtækjum að tengja fjármálin, sölur, þjónustu og aðgerðir sínar til að einfalda viðskiptaferla, bæta samskipti við viðskiptavini og taka betri ákvarðanir. [!INCLUDE[d365fin](includes/d365fin_md.md)] er fáanlegt í skýinu og handa notendum á alls kyns gerðum af tækjum, sem er alltaf uppfært. Með þessum nútíma viðskiptavettvangi getur þú auðveldlega og á fljótlegan hátt aðlagað, stækkað og smíðað forrit svo þau passi sérstaklega við þínar þarfir - með lítilli sem engri þróun á kóða.  

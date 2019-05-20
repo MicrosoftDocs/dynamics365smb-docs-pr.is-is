@@ -11,11 +11,11 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 90da4a9665de1f5f47ab99aa7567fc5ff65599d2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937295"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246771"
 ---
 # <a name="design-details-item-tracking-design"></a>Hönnunarupplýsingarn: vörurakning hönnun
 Í fyrstu útgáfu af vörurakningu í [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60 eru raðnúmer eða lotunúmer voru skráð beint á birgðabókarfærslur. Þessi hönnun veitir heildarupplýsingar um það hvað er til ráðstöfunar og einfalda rakningu fyrri færslna en vantar sveigjanleika og virkni.  

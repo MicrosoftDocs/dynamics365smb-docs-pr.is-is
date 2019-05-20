@@ -13,11 +13,11 @@ ms.search.keywords: design, general ledger, post
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 5fac91190e5a4cea0648f618ea2a9af0afc65fb6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917577"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246548"
 ---
 # <a name="general-journal-post-line-overview"></a>Yfirlit bókunarlínu færslubókar
 Kóðaeining 12, **Bókunarlína fjárhags**, er helsti forritahluti bókana í fjárhag og er eini staðurinn þar sem færslur í fjárhag, VSK, viðskiptamenn og lánardrottna eru settar inn. Kóðaeiningin er einnig notuð fyrir allar aðgerðir Jafna, Ógilda og Reverse.  

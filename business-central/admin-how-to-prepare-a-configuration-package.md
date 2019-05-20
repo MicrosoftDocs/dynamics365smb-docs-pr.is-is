@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941635"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245860"
 ---
 # <a name="prepare-a-configuration-package"></a>Undirbúa grunnstillingarpakka
 Þegar nýtt fyrirtæki er skilgreint eru töflutengsl greind og unnin. Gögn eru flutt inn og notuð í réttri röð. Víddartöflur eru einnig fluttar inn ef þær eru teknar með í grunnstillingapakkanum Nánari upplýsingar eru í [Að flytja inn gögn viðskiptamanns](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Til aðstoða viðskiptavininn við notkun á grunnstillingarpakkanum gætirðu viljað bæta við spurningalista eða spurningalistasafni við pakkann. Spurningalistinn getur aðstoða viðskiptavin í að skilja mismunandi uppsetningarvalkosti. Yfirleitt eru spurningalistar stofnaðir fyrir mikilvægar uppsetningartöflur þar sem viðskiptavinur gæti þurft frekari leiðsögn um hvernig velja skal viðeigandi stillingar. Nánari upplýsingar er að finna í [Safna uppsetningargildum viðskiptavinar](admin-gather-customer-setup-values.md).
 
-Ganga þarf úr skugga um að notandi sé á Mitt hlutverk RapidStart Services innleiðara. Nánari upplýsingar eru í [Nota Mitt hlutverk RapidStart Services innleiðara](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+Ganga þarf úr skugga um að notandi sé á RapidStart Services Mitt hlutverk innleiðara. Nánari upplýsingar eru í [Nota Mitt hlutverk RapidStart Services innleiðara](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
 
 > [!IMPORTANT]  
 >  Þegar skilgreiningarpakkar eru fluttir inn og út á milli tveggja gagnagrunna fyrirtækis ættu gagnagrunnarnir að hafa sama skema til að tryggja að öll gögn flytjist rétt yfir. Þetta merkir að gagnagrunnar ættu að hafa sama skipulag í töflum og reitum, þar sem töflur hafa sömu aðallykla og reitir hafa sama kenni og gagnagerðir.  

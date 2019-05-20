@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: bholtorf
-ms.openlocfilehash: c4536dca720be5d52bc860c9acce8d7f903314ff
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919076"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446992"
 ---
-# <a name="how-to-report-vat-to-a-tax-authority"></a>Hvernig á að: Senda VSK skýrslu inn til skattayfirvalda
+# <a name="report-vat-to-a-tax-authority"></a>Senda VSK skýrslu inn til skattayfirvalda
 Þetta efnisatriði lýsir skýrslunum í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem þú getur notað til að senda inn upplýsingar um virðisaukaskatt (VSK) upphæðir fyrir sölu og innkaup til skattayfirvalda á þínu svæði.
 
 Hægt er að nota eftirfarandi skýrslur :
@@ -110,7 +110,7 @@ Eftirfarandi tafla lýsir kóðaeiningunum sem þú þarft að stofna fyrir ský
 
 > [!Note]
 > Þegar stofnaðar eru kóðaeiningar fyrir skýrsluna skal veita gildinu athygli í reitnum **VSK skýrsla útgáfa**. Þessi reitur verður að endurspegla útgáfuna af skýrslunni sem er eða var send til skattayfirvalda. Þú gætir til dæmis fært inn **2017** í reitinn til að gefa til kynna að skýrslan samræmist þeim kröfum sem voru í gildi það ár. Til að finna núgildandi útgáfu skal hafa samband við skattayfirvöld.
- 
+
 ## <a name="see-also"></a>Sjá einnig .
 [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)  
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  

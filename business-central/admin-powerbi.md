@@ -8,27 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2019
+ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: f51de349c4b13eaabd185cdb728d59006dfe6db6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916375"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247500"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Gera viðskiptagögn þín virk fyrir Power BI
 Það er auðvelt að fá innsýn í [!INCLUDE[d365fin](includes/d365fin_md.md)] gögnin þín með Power BI og [!INCLUDE[d365fin](includes/d365fin_md.md)] efnispökkunum. Power BI sækir gögn þín og býr svo til út-fyrir-kassann yfirlit og skýrslur sem byggist á þeim gögnum.  
 
 Notandi verður að vera með gildan reikning hjá Dynamics 365 og hjá Power BI. Einnig verður þú að hlaða niður [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) ef þú vilt búa til þínar eigin Power BI skýrslur. Power BI efnispakki þarfnast heimildar í töflur þaðan sem gögn eru sótt úr. Frekari upplýsingar um kröfur er að finna hér að neðan.  
 
+> [!IMPORTANT]
+> Efnispakkar sem lýst er í þessari grein eru hannaðir til að nota Azure Active Directory sem sannvottunaraðferð. Ef þú notar [!INCLUDE [prodshort](includes/prodshort.md)] á staðnum og notar aðra sannvottunaraðferð getur Power BI ekki tengt gögnin þín.  
+
 Microsoft hefur gefið út eftirfarandi efnispakka:
 
-| Forrit | Description |
-| --- | --- |
-| Microsoft Business Central | Býður upp á yfirlit með fjárhagslegum lykilupplýsingum yfir tíma, eins og t.d. tekjur á móti útgjöldum, rekstrarframlegð og ferill bundins reiðufés.|
-| Microsoft Business Central - CRM | Býður upp á yfirlit með lykilupplýsingum um sölutækifæri og tengiliði.  |
-| Microsoft Business Central - Sales | Býður upp á yfirlit með lykilupplýsingum um sölutækifæri og tengiliði. |
+- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Viðskiptamannalisti  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Fjármál  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Vörulisti  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Störf  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Starfalisti  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Innkaupareikningar  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Sala  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Sölupantanalisti  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Lánardrottnalisti  
 
 ## <a name="using-the-dashboards"></a>Nota Yfirlitið
 Hver efnispakki býður upp á skýrslur sem þú getur nýtt þér:
@@ -47,14 +55,14 @@ Efnispakkinn er forstilltur til að vinna með sölugögnum og fjárhagsgögnum 
 1. Velja skal **Sækja gögn** neðst til vinstri á yfirlitssvæðinu.  
 ![Flett um til að sækja gögn](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-Þú gætir líka komið þér af stað inn í Dynamics 365 Business Edition. Frá hlutverkamiðstöðinni skal fletta að **Skýrsluval** í hluta Power BI hlutverkamiðstöðvar. Veldu annað hvort **Þjónusta** eða **Mitt fyrirtæki** frá borðanum. Þegar önnur hvor þessara aðgerða er valin verður þér vísað annað hvort á fyrirtækisgalleríð í Power BI eða þjónustusafnið í Power BI, sem einnig verður síað til að aðeins birta efnispakka sem tengjast [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Þú gætir líka komið þér af stað inn í [!INCLUDE [prodshort](includes/prodshort.md)]. Frá hlutverkamiðstöðinni skal fletta að **Skýrsluval** í hluta Power BI hlutverkamiðstöðvar. Veldu annað hvort **Þjónusta** eða **Mitt fyrirtæki** frá borðanum. Þegar önnur hvor þessara aðgerða er valin verður þér vísað annað hvort á fyrirtækisgalleríð í Power BI eða þjónustusafnið í Power BI, sem einnig verður síað til að aðeins birta efnispakka sem tengjast [!INCLUDE[prodshort](includes/prodshort.md)].
 
 2. Í **Þjónusta** reitnum er valið **Sækja**. Þá er síða opnuð með **AppSource** og **Forrit fyrir Power BI forrit**.  
 ![Velja efnispakka frá netþjónustum](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Veldu **Forrit** úr flipanum **Forrit fyrir Power BI forrit**, veldu efnispakkann **Microsoft Dynamics 365 Business Central** sem þú vilt nota og veldu síðan **Fá hann núna**.  
 ![Velja Dynamics 365 Business Central og velja Fá núna](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
 4. Þegar kvaðning birtist skal slá inn heiti *fyrirtækisins* í [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Þetta er ekki birtingarnafnið. Heiti fyrirtækis er hægt að finna á síðunni „Fyrirtæki“ innan þíns [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] tilviks.  
-![Velja Dynamics 365 Business Central og velja Fá núna](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+![Velja Dynamics 365 Business Central og velja Fá núna](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-business-central-finance.png)
 5. Þegar tengingu hefur verið komið á er yfirliti, skýrslu og gagnamengi sjálfkrafa hlaðið í Power BI vinnusvæðið. Þegar því lýkur munu reitirnir uppfærast með gögnum úr [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)] fyrirtækinu.
 ![Velja Dynamics 365 Business Central og velja Fá núna](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
@@ -68,7 +76,7 @@ Efnispakkinn er forstilltur til að vinna með sölugögnum og fjárhagsgögnum 
 ## <a name="system-requirements"></a>Kerfiskröfur
 Til að flytja [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögn í Power BI þarf notandi að hafa heimidlir á vefþjónustunni til að sækja gögnin. Vefþjónusta sem er áskilin fyrir hvern efnispakka inniheldur:
 
-## <a name="role-center-reports"></a>Skýrslur hlutverkamiðstöðvar
+### <a name="role-center-reports"></a>Skýrslur hlutverkamiðstöðvar
 
 **Microsoft Dynamics 365 Business Central – CRM**
 - Sölutækifæri
@@ -92,7 +100,7 @@ Til að flytja [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögn í
 - Skoða fyrirtæki í Excel-sniðmáti
 - Power BI Skýrslumerki
 
-## <a name="list-page-reports"></a>Listasíða skýrslna
+### <a name="list-page-reports"></a>Listasíða skýrslna
 
 **Microsoft Dynamics 365 Business Central – Customers List**
 - Sala vöru eftir viðskiptamönnum

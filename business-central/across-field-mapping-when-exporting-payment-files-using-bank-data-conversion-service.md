@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a322fe99a76555d438033919a2f6a1ace4e108db
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922528"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240908"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Reitarvörpun við útflutning greiðsluskrá með umskráningarþjónusta fyrir bankagögn
 Þegar þú flytur út greiðsluskrár með umskráningarþjónusta fyrir bankagögn, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum. Þjónustuveita er ábyrg fyrir persónuvernd gagnanna. Frekari upplýsingar um það hvernig umskráningarþjónusta fyrir bankagögn vinnur er [Um umgjörð gagnaskipta](across-about-the-data-exchange-framework.md).  

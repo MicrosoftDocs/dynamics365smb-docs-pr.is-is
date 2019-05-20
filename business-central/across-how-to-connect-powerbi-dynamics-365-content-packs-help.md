@@ -12,11 +12,11 @@ ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.openlocfilehash: b7e844f64a96ba02c1a5fa0231f7b6992f972677
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932834"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247399"
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Tengja Power BI við Dynamics 365 Business Central efnispakka
 Það er auðvelt að fá innsýn í Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögnin þín með Power BI og Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] efnispökkunum. Power BI sækir gögn þín og býr svo til út-fyrir-kassann yfirlit og skýrslur sem byggist á þeim gögnum.
@@ -83,7 +83,7 @@ Til að flytja [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögn í
 - ExcelTemplateViewCompany
 - Power BI Skýrslumerki 
 
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
+**Microsoft Dynamics 365 Business Central - Listi yfir fjárhagsfærslur**
 - Listi yfir upphæð fjárhags í Power BI
 - Power BI Áætluð upphæð fjárhags
 - ExcelTemplateViewCompany
@@ -107,13 +107,13 @@ Til að flytja [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögn í
 - ExcelTemplateViewCompany
 - Power BI Skýrslumerki
 
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
+**Microsoft Dynamics 365 Business Central - Sölupantanalisti**
 - Power BI Söluyfirlit
 - ExcelTemplateViewCompany
 - Power BI Skýrslumerki
 
 
-**Microsoft Dynamics 365 Business Central – Vendors List**
+**Microsoft Dynamics 365 Business Central – Vendors Listi**
 - Power BI Innkaupayfirlit vöru
 - Power BI Söluyfirlit vöru
 - Power BI Lánardrottnalisti

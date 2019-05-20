@@ -12,11 +12,11 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 6d1a1f17d66ec931ad075fe75936c4317898ccd7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934874"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250826"
 ---
 # <a name="customizing-business-central"></a>Sérstilling Business Central
 Það eru mismunandi leiðir til að sérstilla forritið til að gefa þér og samstarfsmönnum þínum aðgang að þeim eiginleikum, virkni og gögnum sem þú þarft mest á þann hátt sem hentar best daglegu starfi þínu. Það hvaða breytingar sjást veltur á því hvað þú gerir, eins og lýst er í þessari töflu.

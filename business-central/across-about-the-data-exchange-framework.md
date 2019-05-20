@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3c68b40f22503ced21130f57feec7c06b6b2c9f5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924357"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245943"
 ---
 # <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>Um gagnaskiptaramma í[!INCLUDE[d365fin](includes/d365fin_md.md)]
 Snið fyrir skrár vegna skipta á gögnum í skrám banka, rafræn skjöl, gengi gjaldmiðla og önnur með ERP-kerfi eru breytileg eftir gagnagjafa gagnaskrár og landi/svæði. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður ýmis skráarsnið fyrir bankaskrár og gagnaþjónustustaðla. Til að veita stuðning á öðrum rafrænu formi er notaður gagnaskiptarammi. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).    

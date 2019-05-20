@@ -11,11 +11,11 @@ ms.search.keywords: feature overview
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f6eebcc59922e44bd5293e1a2bd9ece58777432b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911743"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245190"
 ---
 # <a name="business-functionality"></a>Viðskiptavirkni
 [!INCLUDE[d365fin](includes/d365fin_md.md)] veitir virkni fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega með heildsölu og sérþjónustu. Hins vegar eru flóknari ferli, s.s. samsetning, framleiðsla, þjónusta og beint vöruhúsakerfi einnig studd.

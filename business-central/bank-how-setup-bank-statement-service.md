@@ -1,5 +1,5 @@
 ---
-title: Setja upp Yodlee bankastreymi| Microsoft Docs
+title: Setja upp Yodlee Bank Feeds| Microsoft Docs
 description: Hægt er að umreikna greiðsluupplýsingar í hvaða gagnasnið sem bankinn krefst og opna fyrir inn- og útflutning á bankaskrám.
 services: project-madeira
 documentationcenter: ''
@@ -13,20 +13,20 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941820"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246654"
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Setja upp Envestnet Yodlee bankastreymisþjónustu
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Setja upp Envestnet Yodlee Bank Feeds þjónustu
 Hægt er að flytja inn rafræn bankayfirlit frá bankanum til að fylla fljótlega út síðuna **Greiðsluafstemmingarbók** þannig að hægt sé að jafna greiðslur og stemma af bankareikninginn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
-> Envestnet Yodlee bankastreymisþjónusta er aðeins studd í netútgáfunni af Business Central. Til að nota þessa virkni á staðnum verður þú að verða þér út um vörumerkjareikning frá Envestnet Yodlee.<br /><br />
-> Envestnet Yodlee bankastreymisþjónusta er aðeins studd í BNA, Kanada og Bretlandi.
+> Envestnet Yodlee Bank Feeds þjónusta er aðeins studd í netútgáfunni af Business Central. Til að nota þessa virkni á staðnum verður þú að verða þér út um vörumerkjareikning frá Envestnet Yodlee.<br /><br />
+> Envestnet Yodlee Bank Feeds þjónusta er aðeins studd í BNA, Kanada og Bretlandi.
 
-Envestnet Yodlee bankastreymisþjónusta er uppsett sem viðbót við [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu og tilbúin til að verða virkjuð í studdum löndum. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).
+Envestnet Yodlee Bank Feeds þjónusta er uppsett sem viðbót við [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu og tilbúin til að verða virkjuð í studdum löndum. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).
 
 Þegar búið að virkja bankastreymisþjónustu, verður að tengja bankareikning við netbankareikning sem streymið kemur úr. Þú býrð til tengla frá bankareikningum í netbankareikninga í mismunandi eftirfarandi aðstæður:
 
@@ -55,7 +55,7 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
 2. Valinn er viðeigandi bankareikningur og síðan valið **stofna nýjan tengdan bankareikning**. **Stofnun tengla fyrir Bankareiknings** síðan opnast eftir smá stund.
 
     > [!NOTE]  
-    > Þessi síða sýnir raunverulega vefsíðu fyrir Bankastreymisþjónustu Envestnet Yodlee. Hugtök og virkni á síðunni mega ekki vera þau sömu og í þessu efnisatriði.  
+    > Þessi síða sýnir raunverulega vefsíðu fyrir Envestnet Yodlee Bank Feeds þjónustu. Hugtök og virkni á síðunni mega ekki vera þau sömu og í þessu efnisatriði.  
 3. Á síðunni **Stofnun tengla fyrir netbankareikninga** á flipanum **Tengja Reikning** skal nota leitaraðgerðina til að finna banka þar sem þú ert með einn eða fleiri netbankareikninga.
 4. Veljið nafn banka. **Skrá inn** svæðinu opnast.
 5. Sláðu inn notandanafn og aðgangsorð sem er notuð til að skrá inn í netbanka og velja síðan **Næst** hnapp.  

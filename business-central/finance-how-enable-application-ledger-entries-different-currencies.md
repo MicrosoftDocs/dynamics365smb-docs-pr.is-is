@@ -13,11 +13,11 @@ ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 1569ff45bbbf8c3bf63538abdab143f9851a23a6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919169"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239614"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum
 Ef keypt er af lánardrottni í einum gjaldmiðli og greitt í öðrum gjaldmiðli er hægt að jafna greiðsluna innkaupunum.

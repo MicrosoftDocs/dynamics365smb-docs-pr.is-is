@@ -1,6 +1,6 @@
 ---
 title: Hvernig á að grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti | Microsoft Docs
-description: Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að nota leiðsagnarforrit RapidStart Services.
+description: Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að nota RapidStart Services leiðsagnarforritið.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,19 +13,19 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3784b8e0cc0c0c07300895ce448ff82f9acc91c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919272"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239913"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti
-Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að nota leiðsagnarforrit RapidStart Services.
+Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að nota RapidStart Services leiðsagnarforritið.
 
-Í eftirfarandi aðgerð hefur viðskiptamanninum verið veitt grunnstillingarpakki, sem er síðan uppsettur á tölvu. Viðskiptavinurinn opnar nýja fyrirtækið, sem inniheldur engin viðskiptamannagögn. Notandi eða viðskiptavinur fylgir síðan skrefunum í leiðsagnarforriti RapidStart Services sem lýst er í þessu ferli, til að veita grunnupplýsingar um fyrirtækið. Leiðsagnarforritið flytur inn skilgreiningarpakkann og notar svo pakkann á fyrirtækið.  
+Í eftirfarandi aðgerð hefur viðskiptamanninum verið veitt grunnstillingarpakki, sem er síðan uppsettur á tölvu. Viðskiptavinurinn opnar nýja fyrirtækið, sem inniheldur engin viðskiptamannagögn. Notandi eða viðskiptamaður fylgir síðan skrefunum í leiðsagnarforriti RapidStart Services sem lýst er í þessu ferli, til að veita grunnupplýsingar um fyrirtækið. Leiðsagnarforritið flytur inn skilgreiningarpakkann og notar svo pakkann á fyrirtækið.  
 
 ## <a name="to-configure-a-new-company"></a>Til að grunnstilla nýtt fyrirtæki  
-1. Í Mitt hlutverk RapidStart Services innleiðara skal velja aðgerðina **Leiðsagnarforrit RapidStart**.  
+1. Í Mitt hlutverk RapidStart Services innleiðara skal velja aðgerðina **RapidStart leiðsagnarforrit**.  
 2. Útvíkka flýtiflipann **Skref 1** sem inniheldur almennar upplýsingar um nýja fyrirtækið. Færa inn viðeigandi upplýsingar um nýja fyrirtækið í reitina. Til er einn reitur sem verður að fylla út, **Heiti**. Aðrir reitir eru valfrjálsir.  
 3. Útvíkka flýtiflipann **Skref 2** sem inniheldur samskipta- og tengiliðaupplýsingar um nýja fyrirtækið. Færa inn viðeigandi upplýsingar um nýja fyrirtækið í reitina.
 4. Útvíkka flýtiflipann **Skref 3** sem inniheldur bankareiknings- og greiðsluupplýsingar um nýja fyrirtækið. Færa inn viðeigandi upplýsingar um nýja fyrirtækið í reitina.  

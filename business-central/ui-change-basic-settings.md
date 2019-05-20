@@ -11,11 +11,11 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916223"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250970"
 ---
 # <a name="changing-basic-settings"></a>Breyta grundvallarstillingum
 Í [**Stillingarnar mínar**](https://businesscentral.dynamics.com?page=9176 "Fara beint í notendastillingasíðu Business Central") síðunni er hægt að sjá og breyta grunnstililngum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Breytingar sem þú gerir munu aðeins hafa áhrif á vinnusvæðið þitt, ekki vinnusvæði annarra notenda.  

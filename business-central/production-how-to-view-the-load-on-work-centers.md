@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 4afcca772cb4cccd2a44d5808b95d510d1484cf3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941257"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252850"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Skoða álag á vinnu- og vélastöðvar
 Á síðunum **Vinnustöðvarspjald** og **Vélastöðvarspjald**, geturðu skoðað álag á vinnusal sem afleiðingu útgefinna og afgreiddra framleiðslupantana.    

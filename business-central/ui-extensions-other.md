@@ -12,11 +12,11 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: f3c08748cb6adc0abe90606ab4182a002dbb6dbf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913919"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249847"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Business Central viðbætur frá öðrum veitum
 Á [AppSource.microsoft.com](https://appsource.microsoft.com/), er hægt að fá viðbætur fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sumar viðbætur eru veittar af Microsoft, og aðrar viðbætur eru veittar af öðrum fyrirtækjum. Við vísum í vefsvæði sem þessi fyrirtæki veita fyrir frekari upplýsingar um viðbæturnar sem eru ekki birtar af Microsoft. Hægt er að skoða þessar upplýsingar á [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  

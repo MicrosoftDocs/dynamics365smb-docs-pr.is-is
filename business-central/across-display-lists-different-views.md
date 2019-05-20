@@ -13,11 +13,11 @@ ms.search.keywords: personalization
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: 2d20fc0849e90f74924ebc585662a9e461cc2313
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924877"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244378"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Birting lista á mismunandi hátt
 Í efra hægra horni hvaða lista sem er í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tákn sem breyta því hvernig listinn er sýndur. Hægt er að skoða lista sem sundurliðaðan lista sem er stöðluð sýn. Einnig er hægt að skipta yfir í reitasýn, þar sem færri smáatriði eru birt fyrir viðkomandi skrá og færslum er raðað eins og reitum. Þessi sýn er mjög gagnleg til að fá yfirlit yfir margar færslur og er sérlega gagnleg í smærri tækjum þar sem auðvelt er að pikka á hverja færslu.

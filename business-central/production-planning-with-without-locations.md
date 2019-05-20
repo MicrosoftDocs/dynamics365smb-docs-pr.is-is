@@ -4,20 +4,20 @@ description: Mikilvægt er að skilja áætlanir með eða án birgðageymslukó
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 09/04/2017
 ms.author: sgroespe
 ms.openlocfilehash: 3904bbd635386d1cd263053db1b106435c2b1ba0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922457"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252068"
 ---
 # <a name="planning-with-or-without-locations"></a>Áætlanagerð með eða án birgðageymslna
 Varðandi áætlanir með eða án birgðageymslukóta í eftirspurnarlínum vinnur áætlanakerfið á einfaldan hátt þegar:  

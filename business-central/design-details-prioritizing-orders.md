@@ -4,27 +4,26 @@ description: Kynntu þér hvernig skal forgangsraða til að mæta kröfum framb
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, priority, prioritize, order, sku, demand, supply
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
-redirect_url: design-details-balancing-demand-and-supply
 ms.openlocfilehash: 06eb5221369d8777330ae844adfb5d87658d591d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924211"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238625"
 ---
 # <a name="design-details-prioritizing-orders"></a>Hönnunarupplýsingar: forgangsraða Pantanir
 Innan tiltekinnar birgðahaldseiningar, táknar umbeðin eða tiltæk dagsetning hæsta forgang; eftirspurn í dag ætti að mæta áður en eftirspurn næstu viku er mætt. En auk þessarar heildarforgangs, mun áætlanakerfi einnig benda hvaða tegund af eftirspurn ætti að vera uppfyllt áður en önnur er uppfyllt. Eins mun það stinga upp á hvaða uppruna framboðs ætti að jafna áður en aðrar framboðsuppsprettur eru jafnaðar. Þetta er gert í samræmi við forgang pöntunar.  
-
+  
 Hlaðin eftirspurn og framboð hafa áhrif á forstillingu fyrir áætlaðar birgðir samkvæmt eftirfarandi forgangi:  
-
+  
 ## <a name="priorities-on-the-demand-side"></a>Forgangur eftirspurnarmegin  
 1. Þegar afhent: birgðafærsla  
 2. Vöruskilapöntun innkaupa  
@@ -35,10 +34,10 @@ Hlaðin eftirspurn og framboð hafa áhrif á forstillingu fyrir áætlaðar bir
 7. Flutningspantanir á útleið.  
 8. Standandi pöntun (sem hefur ekki þegar verið notuð í annarri sölupöntun)  
 9. Spá (sem hefur ekki þegar verið notuð í annarri sölupöntun)  
-
+  
 > [!NOTE]  
 >  Innkaupaskil eru yfirleitt ekki notuð í framboðsáætlun. Þau ætti að alltaf að taka úr lotunni sem á að skila. Ef ekki er tekið frá gegna innkaupaskil hlutverki í framboðinu og eru fremst í forgangsröðinni til að komast hjá því að áætlanakerfið leggi til birgðapöntun bara til að þjóna innkaupaskilum.  
-
+  
 ## <a name="priorities-on-the-supply-side"></a>Forgangur framboðsmegin  
 1. Þegar í birgðum: birgðafærsla (sveigjanleiki áætlunar = enginn)  
 2. Söluskilapöntun (sveigjanleiki í áætlun = enginn)  
@@ -46,16 +45,16 @@ Hlaðin eftirspurn og framboð hafa áhrif á forstillingu fyrir áætlaðar bir
 4. Framleiðslupöntun  
 5. Samsetningarpöntun  
 6. Innkaupapöntun  
-
+  
 ## <a name="priority-related-to-the-state-of-demand-and-supply"></a>Forgangur sem tengist stöðu eftirspurnar og framboðs  
 Burtséð frá forgangi sem fylgir gerð eftirspurnar og framboðs skilgreinir núverandi staða pantana í vinnsluferlinu einnig forgang. Til dæmis hafa vöruhúsaaðgerðir áhrif og staða sölu, innkaupa, flutnings, samsetningar og framleiðslupantana er tekin með í reikninginn:  
-
+  
 1. Að hluta meðhöndlað (Sveigjanleiki áætlunar = Enginn)  
 2. Þegar í vinnslu í vöruhúsi (sveigjanleiki áætlunar = enginn)  
 3. Útgefið - allar pantanategundir (áætlunarsveigjanleiki = ótakmarkað)  
 4. Fastáætluð framleiðslupöntun (sveigjanleiki áætlunar = ótakmarkaður)  
 5. Áætlað/opið – allar pantanagerðir (Sveigjanleiki áætlunar = Ótakmarkaður)  
-
+  
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs](design-details-balancing-demand-and-supply.md)   
 [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)   

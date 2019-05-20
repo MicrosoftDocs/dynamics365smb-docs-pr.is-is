@@ -13,11 +13,11 @@ ms.search.keywords: video, library, how to
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928565"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244887"
 ---
 # <a name="visit-our-video-library"></a>Skoðaðu myndbandasafnið okkar
 Vinsamlegast sýndu okkur þolinmæði á meðan við endurbyggjum fræðslumyndbandssafnið okkar. Hliðarverkun nýlegra úrbóta í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að við verðum að endurgera efni okkar þannig að það endurspegli nákvæmlega vöruna.

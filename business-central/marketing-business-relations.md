@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
 ms.openlocfilehash: ffeb19820b29453750ca9c03258d455dddff287c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941866"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239338"
 ---
 # <a name="setting-up-business-relations-on-contacts"></a>Uppsetning viðskiptatengsla í tengiliði
 Þú getur notað Viðskiptatengsl til að tilgreina þau viðskiptatengsl sem eru við tengiliðina, til dæmis viðföng, banka, ráðgjafa eða þjónustuaðila, og svo framvegis.

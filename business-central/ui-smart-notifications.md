@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: c70a8fd066ffd5d312716891aa4cdf7768cd102a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926677"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249216"
 ---
 # <a name="managing-notifications"></a>Stjórnun tilkynninga
 [!INCLUDE[d365fin](includes/d365fin_md.md)]getur hjálpað til við vinnuna með því að tilkynna um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu, eða þegar tiltækar birgðir eru lægri en magnið sem þú ert að fara að selja. Þessar tilkynningum eru sýndar sem óágengar ábendingar í tengslum við verkið sem þú ert að vinna, og þú getur valið að hunsa tilkynninguna eða séð frekari upplýsingar um málið.  

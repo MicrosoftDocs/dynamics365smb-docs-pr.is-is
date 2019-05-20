@@ -1,6 +1,6 @@
 ---
-title: Greiðsluafstemming með Envestnet Yodlee bankastreymisviðbót | Microsoft Docs
-description: Lýsir Envestnet Yodlee bankastreymisviðbótinni, sem tengist bankareikningum svo þú getir afstemmt greiðslur á fljótlegan máta.
+title: Greiðsluafstemming með Envestnet Yodlee Bank Feeds viðbót | Microsoft Docs
+description: Lýsir Envestnet Yodlee Bank Feeds viðbótinni, sem tengist bankareikningum svo þú getir afstemmt greiðslur á fljótlegan máta.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,19 +13,19 @@ ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 53ee8bb7ee798c473e1053ea8413be28f9185d1b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911720"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248204"
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Envestnet Yodlee bankastreymisviðbótin
-Til að stemma af á skjótan hátt greiðslur gerðar inn á bankareikninga þína, þá leyfir Envestnet Yodlee bankastreymiskerfið þér að tengja bankareikning kerfis þíns við netbankareikninginn þinn. Þetta þýðir að síðustu bankayfirlitinu er sjálfkrafa eða handvirkt streymt inn í afstemmingarbók þína, og tryggir að þú ert alltaf að vinna úr síðustu greiðslunum með lágmarks hættu á villum.
+# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Envestnet Yodlee Bank Feeds viðbótin
+Til að stemma af á skjótan hátt greiðslur gerðar inn á bankareikninga þína, þá leyfir Envestnet Yodlee Bank Feeds þjónustan þér að tengja bankareikning kerfis þíns við netbankareikninginn þinn. Þetta þýðir að síðustu bankayfirlitinu er sjálfkrafa eða handvirkt streymt inn í afstemmingarbók þína, og tryggir að þú ert alltaf að vinna úr síðustu greiðslunum með lágmarks hættu á villum.
 
 > [!NOTE]
 > Þessi virkni er aðeins studd í netútgáfu Business Central. Til að nota þessa virkni á staðnum verður þú að verða þér út um vörumerkjareikning frá Envestnet Yodlee.
 
-Envestnet Yodlee bankastreymisþjónusta veitir eftirfarandi kosti:
+Envestnet Yodlee Bank Feeds þjónusta veitir eftirfarandi kosti:
 
 * Fjarlægir þörfina fyrir handvirkum innslætti.
 * Bætir skilvirkni og nákvæmni þegar afstemming greiðslu er gerð.
@@ -34,7 +34,7 @@ Envestnet Yodlee bankastreymisþjónusta veitir eftirfarandi kosti:
 * Styður handvirka ásamt sjálfvirk bankastreymi.
 * Gerir mögulega útvistun greiðsluafstemmingar til endurskoðanda með því að veita aðgang að bankayfirlitum.
 
-Frekari upplýsingar eru í [Setja upp Envestnet Yodlee bankastreymisþjónustu](bank-how-setup-bank-statement-service.md).
+Frekari upplýsingar eru í [Setja upp Envestnet Yodlee Bank Feeds þjónustu](bank-how-setup-bank-statement-service.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum ](ui-extensions.md)    

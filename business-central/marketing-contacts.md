@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: sgroespe
-ms.openlocfilehash: 85975b28dbe19702412a05bb927f3fe59bd8bfc3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915118"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446946"
 ---
-# <a name="creating-and-managing-contacts"></a>Stofnun og stjórnun tengiliða
+# <a name="managing-contacts"></a>Vinna með tengiliði
 Ólíkir hópar í fyrirtækinu munu hafa viðskiptatengsl við ýmis fyrirtæki. Sem dæmi má nefna sölufulltrúa sem hittir reglulega væntanlega viðskiptamenn og skráir niðurstöður þessara heimsókna í vikulok.
 
 Alla ytri aðila sem fyrirtækið hefur viðskiptatengsl við (til dæmis viðskiptamenn, væntanlegir viðskiptamenn, lánadrottnar, lögfræðingar og ráðgjafar) ætti að skrá sem tengiliði. Með því að hafa þessi gögn skráð á einum stað er tryggt að allir hópar innan fyrirtækisins geta skoðað upplýsingarnar og nýtt þær á skilvirkan hátt. Samskipti við tengiliðina verða árangursríkari ef allar upplýsingar eru strax tiltækar. Til dæmis gæti starfsmaður í markaðsdeild viljað vita hvaða aðrar vörur tiltekinn viðskiptamaður hefur keypt áður en hann reynir að vekja áhuga hans á nýrri vöru.
@@ -30,6 +30,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | --- | --- |
 | Settu upp umsjón með tengiliðum áður en tengiliðir eru búnir til. |[Uppsetning tengiliða](marketing-setup-contacts.md) |
 | Stofna tengiliðaspjald fyrir hvern nýjan einstakling eða nýtt fyrirtæki sem þú átt samskipti við, t.d. viðskiptavin eða lánadrottin. |[Stofna tengiliðo](marketing-create-contact-companies.md) |
+|Setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn.|[Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)|
 |Leystu misskilning þegar tvær eða fleiri færslur eru fyrir sama tengilið.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Sjá einnig

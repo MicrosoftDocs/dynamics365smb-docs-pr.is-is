@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
 ms.openlocfilehash: d9c6b19d49ea9423762b0b4b5cf61eae0e325034
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "933981"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242216"
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Setja upp starfsábyrgðir fyrir tengilið.
 Þú getur bætt við upplýsingum um starfsábygð tengiliðar til að gefa til kynna hvað tengiliðurinn er ábyrgur fyrir innan síns fyrirtækistil dæmis upplýsingatækni, stjórnun eða framleiðsla. Þessar upplýsingar er hægt að nota þegar færðar eru inn upplýsingar um tengiliði.

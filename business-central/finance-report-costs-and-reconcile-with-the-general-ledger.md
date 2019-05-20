@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ebdf239e592faedd1502c8fff50dd91e474352f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: d92d732b99eedb06eb0185d1227252e1ace95334
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917720"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446877"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Tilkynna kostnað og afstemma við fjárhag
 Við lok mánaðarlegra, árlegra eða annarra bókhaldstímabila þarf að framkvæma röð kostnaðarstjórnunar- og endurskoðunarverkhluta til að tilkynna rétt og jafnað birgðavirði til fjármáladeildarinnar. Fyrir utan bókunarferlið sem færir einstakar vöruvirðisfærslur í sérstaka fjárhagsreikninga eru tiltækar margar skýrslur, rakningaraðgerðir og sérstakt afstemmingarverkfæri fyrir endurskoðandann eða stjórnandann sem ber ábyrgð á þessu mikilvæga verki.  
@@ -31,7 +31,6 @@ Við lok mánaðarlegra, árlegra eða annarra bókhaldstímabila þarf að fram
 |Skoða birgðamat valinna vara, þ.m.t. raunkostnað og væntanlegan kostnað þeirra á valinni dagsetningu.|**Verðm. birgða - Lýsing kostn.** skýrsla|  
 |Nota skýrslu til að finna ástæður fyrir kostnaðarfrávikum eða fá innsýn í kostnaðarhlut seldra vara.|**Sundurliðun kostnaðarhlutdeild** skýrsla|  
 |Bóka reglulega virðisfærslur um hreyfingar á þjónustuvörum úr birgðabókinni í viðeigandi fjárhagsreikninga til að afstemma fjárhaginn.|[Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Nota skal eina síðu til að endurskoða afstemmingu á milli birgðabókar og fjárhags.|[Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Ákveða VÍV-upphæð sem þarf að bóka í efnahagsreikninginn til skýrslugerðar í lok tímabils.|[Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Sjá einnig  
