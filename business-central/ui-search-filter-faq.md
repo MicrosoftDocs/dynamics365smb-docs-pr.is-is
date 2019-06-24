@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 04/05/2019
+ms.date: 06/03/2019
 ms.author: mikebc
-ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bf595cc54fa6d3d105770893864f655f82e04433
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249053"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620839"
 ---
 # <a name="searching-and-filtering-faq"></a>Algengar spurningar um leit og síun
 Þessi grein svarar algengum spurningum sem þú gætir haft um leit og síun.
@@ -27,7 +27,7 @@ Já.
 Leit og síun hafa verið mjög fínstillt fyrir notendur sem kjósa mús-frjáls samskipti til að vinna á skilvirkan hátt með gögnum þeirra. Það eru margs konar flýtilyklar sem hægt er að nota í röð til að vinna í miklum hraða. Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Er síunarsvæðið í boði á öllum listum?
-Síunarsvæði er tiltæk á síðum þar sem listinn er aðal innihald síðunnar, svo sem vinnublað og listasíður, þar með talin listar sem hægt er að nálgast á yfirlitsstikunni. Síusvæðið er ekki enn tiltækur fyrir innbyggða listi, s.s. sölulínur á sölupöntunum eða fyrir listi með gagnvirka dálka (oft nefnt fylkissíður).
+Síunarsvæði er tiltæk á síðum þar sem listinn er aðal innihald síðunnar, svo sem vinnublað og listasíður, þar með talin listar sem hægt er að nálgast á yfirlitsstikunni. Síunarsvæðið er ekki enn í boði fyrir lista sem birtast sem hlutar, t.d. upplýsingareitir eða hlutverkamiðstöð. Þegar listi er felldur inn á síðu, t.d. sölulínur á sölupöntun, er síunarsvæðið í boði þegar áherslan er sett á þann lista með hnappi áherslustillingar. Frekari upplýsingar er að finna í [Fókus á vörulínur](ui-enter-data.md#Focus).
 
 ## <a name="how-can-i-save-my-filters"></a>Hvernig get ég vistað síurnar mínar?
 

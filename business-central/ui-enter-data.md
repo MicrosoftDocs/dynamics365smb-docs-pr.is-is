@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: jswymer
-ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252459"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621161"
 ---
 # <a name="entering-data"></a>Gagnainnfærsla
 
@@ -39,7 +39,7 @@ Hugsanlega kannastu við að nota Tab-lykilinn til að fara frá einum reit á s
 
 Hægt er að merkja sérhvern reit sem annaðhvort *hafa með í flýtifærslu* eða *ekki hafa með í flýtifærslu*. Reitir sem eru hafðir með í flýtifærslu verða hluti af slóðinni þegar ýtt er á Enter; reitir sem ekki eru hafðir með í flýtifærslum verða ekki hluti af henni.
 
-Þegar þú hefur lokið við að færa gögn inn í reit ýtirðu einfaldlega á Enter til að staðfesta breytingarnar og ferð í næsta reit. Ef þú vilt snúa áttinni við og fara í fyrri reit skaltu ýta á Shift+Enter. Frekari upplýsingar um flýtileiðir er að finna í [Flýtivísanir flýtifærslu](keyboard-shortcuts.md#QuickEntry).
+Þegar þú hefur lokið við að færa gögn inn í reit ýtirðu einfaldlega á Enter til að staðfesta breytingarnar og ferð í næsta reit. Ef þú vilt snúa áttinni við og fara í fyrri reit skaltu ýta á Shift+Enter. Frekari upplýsingar um flýtileiðir er að finna í [Flýtivísanir flýtifærslu fyrir Fields](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Ábendingar og góð ráð
 Eftirfarandi veitir nokkrar gagnlegar upplýsingar um notkun á flýtifærslu.
@@ -90,7 +90,7 @@ Frekari upplýsingar er að finna í [Afrita og líma í Business Central](ui-co
 
 Annar kostur er að það býður einnig upp á ítarlega síunarmöguleika, líkt og í hinum listunum, þannig að flettingar og leit í gegnum línuatriði verður enn auðveldari.
 
-### <a name="switch-the-focus-on-and-off"></a>Kveikja eða slökkva á fókus
+### <a name="switching-the-focus-on-and-off"></a>Kveikja eða slökkva á fókus
 
 Til að setja fókus á línuatriði skal velja hvar sem er í hluta línuatriða og síðan velja ![Tákn fyrir fókusstillingu](media/focus-mode.png "Tákn fyrir fókusstillingu") efst í hægra horninu eða ýta á Ctrl+Shift+F12.
 

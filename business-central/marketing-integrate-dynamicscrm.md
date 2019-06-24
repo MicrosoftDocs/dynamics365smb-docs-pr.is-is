@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 30396e25dbf251e674744d1ba797c100b5762a46
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238027"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620862"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Að nota Dynamics 365 for Sales úr Business Central
 Ef þú notar Dynamics 365 for Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.
@@ -78,7 +78,11 @@ Sölutilboð sem eru virkjuð í [!INCLUDE[crm_md](includes/crm_md.md)] verða f
 Einnig er hægt að umbreyta handvirkt virkjuðum sölutilboðum úr [!INCLUDE[crm_md](includes/crm_md.md)] með því að nota aðgerðina **Vinna úr í [!INCLUDE[d365fin](includes/d365fin_md.md)]** á síðunni **Sölutilboð - Dynamics 365 for Sales**.
 Á slíkum sölutilboðum er reiturinn **Heiti** í upprunalega tilboðinu fluttur og honum varpað í reitinn **Utanaðkomandi fylgiskjalsnúmer** á sölupöntuninni í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Einnig er reiturinn **Virkt til** í tilboði fluttur og varpað í reitinn **Tilboð gildir til** í sölutilboði í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Sölutilboð fara í gegnum margar útgáfur áður en þau eru fullkláruð. Bæði handvirk og sjálfvirk úrvinnsla á sölutilboðum í [!INCLUDE[d365fin](includes/d365fin_md.md)] tryggir að fyrri útgáfur af sölutilboðum eru safnvistaðar áður en unnið er úr nýjum útgáfum sölutilboða úr [!INCLUDE[crm_md](includes/crm_md.md)].  
+Sölutilboð fara í gegnum margar útgáfur áður en þau eru fullkláruð. Bæði handvirk og sjálfvirk úrvinnsla á sölutilboðum í [!INCLUDE[d365fin](includes/d365fin_md.md)] tryggir að fyrri útgáfur af sölutilboðum eru safnvistaðar áður en unnið er úr nýjum útgáfum sölutilboða úr [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Meðhöndlun bókaðra sölureikninga, greiðsla viðskiptavina og tölfræði
+Eftir að hafa uppfyllt sölupantanir verða reikningar þeirra búnir til. Þegar sölupöntun er reikningsfærð er hægt að flytja bókaðan sölureikning til [!INCLUDE[crm_md](includes/crm_md.md)] ef valið er **Stofna reikning í [!INCLUDE[crm_md](includes/crm_md.md)]** á síðu bókaðs sölureiknings. Bókaðir reikningar eru fluttir til [!INCLUDE[crm_md](includes/crm_md.md)] með stöðuna **Reikningsfært**. Þegar greiðsla viðskiptavinar er móttekin fyrir sölureikning í [!INCLUDE[d365fin](includes/d365fin_md.md)] breytist staða sölureiknings í **Greitt** með stöðu ástæðu stillta á **Að hluta til**, ef greiddur að hluta til, eða **Að fullu** ef greiddur að fullu þegar **Uppfæra talnagögn lykils** er keyrt á síðu viðskiptavinar í [!INCLUDE[d365fin](includes/d365fin_md.md)]. **Uppfæra talnagögn lykils** endurhleður einnig gildi á borð við Stöðu og Samtals sala í [!INCLUDE[d365fin](includes/d365fin_md.md)] Upplýsingareitur fyrir talnagögn lykils í [!INCLUDE[crm_md](includes/crm_md.md)].
+Að öðrum kosti er hægt að láta áætlaðar vinnslur (Talnagögn um viðskiptavin og POSTEDSALESINV-INV) keyra bæði þessi ferli sjálfkrafa í bakgrunni. 
 
 ## <a name="see-also"></a>Sjá einnig
 Í [Undirbýr samþættingu við Dynamics 365 for Sales á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).  

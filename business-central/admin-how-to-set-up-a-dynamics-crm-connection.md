@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 28ce599b2067faa904f917f8fce7390202c98d7b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c95dee48b42fe5784c1d7d2fc6a11d5f487c7653
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245758"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621046"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Uppsetning á tengingu við Dynamics 365 for Sales
 Til að samþætta við [!INCLUDE[crm_md](includes/crm_md.md)] þarf að setja upp tengingu á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]. 
@@ -55,6 +55,9 @@ Fyrir allar auðkennisgerðir aðrar en Office 365-auðkenningu, er sett upp ten
 |**Virkja samþættingu sölupöntunar**|Þegar fólk stofnar sölupantanir í [!INCLUDE[crm_md](includes/crm_md.md)], skal afrita pantanir í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta krefst þess að þú veitir aðgangsupplýsingar fyrir notandareikning stjórnanda í [!INCLUDE[crm_md](includes/crm_md.md)]. Nánari upplýsingar er að finna í [Meðhöndlun á gögnum sölupöntunar](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
 |**Virkja Dynamics 365 for Sales-tengingu**|Virkja tenginguna við [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Dynamics 365 SDK útgáfa**|Þetta á aðeins við ef verið er að samþætta við útgáfu á staðnum af [!INCLUDE[crm_md](includes/crm_md.md)]. Þetta er hugbúnaðarþróunarpakki Dynamics 365 (einnig vísað í sem Xrm) sem er notaður tili að tengja [!INCLUDE[d365fin](includes/d365fin_md.md)] við [!INCLUDE[crm_md](includes/crm_md.md)]. Útgáfan verður að vera samhæf SDK-útgáfunni sem notuð er af [!INCLUDE[crm_md](includes/crm_md.md)] og sú sama eða nýrri og útgáfan sem er notuð af [!INCLUDE[crm_md](includes/crm_md.md)].|
+
+> [!Note]
+> **Setja upp Dynamics 365 for Sales tengingu** uppsetning með hjálp úthlutar sjálfkrafa öryggishlutverkunum **Samþættingarstjórnandi** og **Samþættingarnotandi** til notandareiknings sem er notaður fyrir samþættingu. 
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Að stofna eða vinna með tengingu handvirkt
 Eftirfarandi ferli útskýrir hvernig á að fylla út reitina á síðunni **Microsoft Dynamics 365 for Sales Uppsetning tengingar** handvirkt. Þetta er einnig síðan þar sem stillingum fyrir samþættingu er stjórnað.
@@ -103,6 +106,10 @@ Eftirfarandi ferli útskýrir hvernig á að fylla út reitina á síðunni **Mi
     >  Ef dulritun gagna er ekki virkjuð í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður spurt hvort þú viljir virkja hana. Til að virkja dulritun gagna skal velja **Já** og gefa nauðsynlegar upplýsingar. Annars skal velja **Nei**. Hægt er að virkja dulritun gagna seinna. Nánari upplýsingar eru í [Gögn dulrituð í Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) í Developer and IT Pro help.  
 
 7. Ef [!INCLUDE[crm_md](includes/crm_md.md)] samstilling er ekki þegar sett upp verður spurt hvort nota eigi sjálfgefna samstillingaruppsetningu. Velja skal **Já** eða **Nei** á grunni þess hvort halda eigi færslum samræmdum í [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+
+> [!Note]
+> Að tengjast við Dynamics 365 for Sales með síðunni **Microsoft Dynamics 365 for Sales Uppsetning tengingar** kann að krefjast þess að þú [úthlutir **Samþættingarstjórnandi** og **Samþættingarnotandi** öryggishlutverkum](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) til notandareiknings sem er notaður fyrir samþættingu. 
+
 
 ### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>Að aftengjast [!INCLUDE[crm_md](includes/crm_md.md)]  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Microsoft Dynamics 365 for Sales Uppsetning tengingar** og veldu síðan tengda tengilinn.

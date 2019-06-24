@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c318346c62b7776a550a77a2947173e33d5f17c0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3163389cb0818133fba9ab8c55b8d0cf662130f1
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246575"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620954"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-for-sales"></a>Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 for Sales
 Þetta efnisatriði veitir yfirlit um hvernig á að setja upp notendareikninga sem er krafist til að samþætta [!INCLUDE[crm_md](includes/crm_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -28,7 +28,7 @@ ms.locfileid: "1246575"
 Þú verður að bæta notandareikningi stjórnanda við fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem notandi í [!INCLUDE[crm_md](includes/crm_md.md)] og síðan uppfæra notandann sem stjórnanda í [!INCLUDE[crm_md](includes/crm_md.md)]. Notandareikningur stjórnanda verður einnig að verða með hlutverk sem sérstillandi kerfis og að minnsta kosti eitt annað notandahlutverk sem er ekki stjórnunarhlutverk, t.d. sölustjóri, í [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Uppsetning notandareiknings fyrir samþættinguna
-Þú verður að búa til þar til gerðan notandareikning í Office 365-áskriftinni þinni sem bæði [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] geta notað til að samstilla gögn. Þessi notandareikningur verður að geta skráð sig inn á [!INCLUDE[crm_md](includes/crm_md.md)], sem þýðir að þessi notandi verður að hafa leyfi fyrir [!INCLUDE[crm_md](includes/crm_md.md)]. Þessi reikningur má ekki vera gagnvirkur reikningur í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar um hvernig á að stofna notendur í [!INCLUDE[crm_md](includes/crm_md.md)] er að finna í [Stjórna öryggi, notendum og hópum](http://go.microsoft.com/fwlink/?LinkID=616518). Eftir að tengingin hefur verið sett upp mun [!INCLUDE[d365fin](includes/d365fin_md.md)] úthluta notandareikningi öryggishlutverki sem hann þarf í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Þú verður að búa til þar til gerðan notandareikning í Office 365-áskriftinni þinni sem bæði [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] geta notað til að samstilla gögn. Þessi notandareikningur verður að geta skráð sig inn á [!INCLUDE[crm_md](includes/crm_md.md)], sem þýðir að þessi notandi verður að hafa leyfi fyrir [!INCLUDE[crm_md](includes/crm_md.md)] og að minnsta kosti einu öryggishlutverki úthlutað fyrir það í [!INCLUDE[crm_md](includes/crm_md.md)] eins er lýst [hér](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). Frekari upplýsingar um hvernig á að stofna notendur í [!INCLUDE[crm_md](includes/crm_md.md)] er að finna í [Stjórna öryggi, notendum og hópum](http://go.microsoft.com/fwlink/?LinkID=616518). Eftir að tengingin hefur verið sett upp mun [!INCLUDE[d365fin](includes/d365fin_md.md)] úthluta notandareikningi öryggishlutverki sem hann þarf í [!INCLUDE[d365fin](includes/d365fin_md.md)] og hægt er að stilla þennan reikning á [ógagnvirka aðgangsstillingu](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) í [!INCLUDE[crm_md](includes/crm_md.md)]
 
 ![Uppsetningarleiðbeiningar með hjálp sem sýnir stað til að færa inn samstilltar innskráningarupplýsingar](media/sync-user-setup.png "Síða leiðsagnarforrits fyrir myndræna uppsetningu með aðstoð sem sýnir stað til að færa inn samstilltar innskráningarupplýsingar")
 

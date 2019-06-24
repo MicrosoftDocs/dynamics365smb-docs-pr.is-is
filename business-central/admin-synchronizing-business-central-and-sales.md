@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e52010384de83d95011cb29a88cad17a5eba817c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247141"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540224"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Samstilling gagna í Business Central og Dynamics 365 for Sales
 Við samþættingu [!INCLUDE[crm_md](includes/crm_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að ákveða hvort eigi að samstilla gögn á völdum svæðum af færslum [!INCLUDE[d365fin](includes/d365fin_md.md)] (t.d. viðskiptamenn, tengiliðir og sölumenn) við samsvarandi færslur í [!INCLUDE[d365fin](includes/d365fin_md.md)] (s.s. reikningar, tengiliðir og notendur). Háð gerð færslu, er hægt að samstilla gögn úr [!INCLUDE[crm_md](includes/crm_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)] eða öfugt. Frekari upplýsingar er að finna í [Samþætting við Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -38,7 +38,7 @@ Samstilling notar eftirfarandi einingar:
 |Áætluð samstilling|Samstilla allar breytingar á gögnum fyrir allar töfluvarpanir.<br /><br /> Hægt er að samstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] með áætluðu millibili með því að setja upp verk í verkröðinni.|[Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
 ## <a name="standard-sales-entity-mapping-for-synchronization"></a>Stöðluð einingavörpun Sales fyrir samstillingu
-Einingar í [!INCLUDE[crm_md](includes/crm_md.md)], t.d. reikningar, eru samþættir við jafngildar gerðir af einingum í [!INCLUDE[d365fin](includes/d365fin_md.md)], t.d. viðskiptamenn. Til að vinna með [!INCLUDE[crm_md](includes/crm_md.md)]-gögn eru tenglar settir upp, kallast tengingar, milli eininga í [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
+Einingar í [!INCLUDE[crm_md](includes/crm_md.md)], t.d. reikningar, eru samþættir við jafngildar gerðir af einingum í [!INCLUDE[d365fin](includes/d365fin_md.md)], t.d. viðskiptavini. Til að vinna með [!INCLUDE[crm_md](includes/crm_md.md)]-gögn eru tenglar settir upp, kallast tengingar, milli eininga í [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
 
 Eftirfarandi töflur birta staðlaða vörpun milli eininga í [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] sem [!INCLUDE[d365fin](includes/d365fin_md.md)] veitir.
 
@@ -46,17 +46,17 @@ Eftirfarandi töflur birta staðlaða vörpun milli eininga í [!INCLUDE[d365fin
 |-------------------------------------------|-----|-------------------------|--------------|
 |Sölumaður/innkaupaaðili|Notandi|[!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Tengiliðasía Sales: **Staða** er **Nei**, **Notandi með leyfi** er **Já**, stilling samþættingarnotanda er **Nei**|
 |Viðskiptamaður|Reikningur|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Afmörkun á reikningi Sales: **Venslagerð** er **Viðskiptamaður** og **Staða** er **Virk**.|
-|Tengiliður|Tengiliður|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] tengiliðarsía: **Gerð** er **Einstaklingur** og tengilið er úthlutað til fyrirtækis. Tengiliðasía Sales: Tengiliðnum er úthlutað á fyrirtæki og yfireining viðskiptamannsgerðar er **Reikningur**|
+|Tengiliður|Tengiliður|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] tengiliðasía: **Gerð** er **Einstaklingur** og tengilið er úthlutað á fyrirtæki. Tengiliðasía Sales: Tengiliðnum er úthlutað á fyrirtæki og yfireining viðskiptamannsgerðar er **Reikningur**|
 |Gjaldmiðill|Gjaldmiðill færslu|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Mælieining|Einingarflokkur|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Vara|Vara|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Tengiliðasía Sales: **Gerð afurðar** er **Birgðir Sales**|
 |Forði|Vara|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Tengiliðasía Sales: **Gerð afurðar** er **Þjónusta**|
 |Verðflokkur viðskiptamanna|Verðlisti|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Söluverð|Verðlisti vöru|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] tengiliðarsía: **Sölukóði** er ekki auður, **Sölugerð** er **Verðflokkur viðskiptamanns**|
+|Söluverð|Verðlisti vöru|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] tengiliðasía: **Sölukóði** er ekki auður, **Sölugerð** er **Verðflokkur viðskiptamanns**|
 |Tækifæri|Tækifæri|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 |Sölureikningshaus|Reikningsfæra|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Sölureikningslína|Reikningsfæra vöru|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
-|Sölupöntunarhaus|Sölupöntun|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Síur söluhauss: **Gerð skjals** er Pöntun, **Staða** er útgefin|
+|Sölupöntunarhaus|Sölupöntun|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Sía söluhauss: **Gerð skjals** er Pöntun, **Staða** er útgefin|
 |Athugasemdir sölupöntunar|Athugasemdir sölupöntunar|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Ábending fyrir stjórnendur: Skoðun á vörpunum einingar
@@ -85,7 +85,7 @@ Eftirfarandi tafla sýnir varpanir frá [!INCLUDE[d365fin](includes/d365fin_md.m
 |Tengiliður|Aðeins tengiliðir í [!INCLUDE[crm_md](includes/crm_md.md)] sem eru tengdir við reikningur verða stofnaðir í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Gildið á kóða sölumanns skilgreinir eiganda tengdu einingarinnar í [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Gjaldmiðlar|Gjaldmiðlar tengjast við færslugjaldmiðla í [!INCLUDE[crm_md](includes/crm_md.md)] sem byggja á ISO-kóðum. Aðeins gjaldmiðlar sem eru með staðlaður ISO-kóði verða tengdir og samstilltir við færslugjaldmiðla.|
 |Mælieiningar|Mælieiningar eru samstillar við einingahópa í [!INCLUDE[crm_md](includes/crm_md.md)]. Aðeins er hægt að skilgreina eina mælieiningu í einingahópnum.|
-|Birgðir|Þegar vörur eru samstilltar við [!INCLUDE[crm_md](includes/crm_md.md)] afurðir mun [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa stofna verðlista í [!INCLUDE[crm_md](includes/crm_md.md)]. Til að forðast samstillingarvillur ætti ekki að breyta þessum verðlisti handvirkt.|
+|Birgðir|Þegar vörur eru samstilltar við [!INCLUDE[crm_md](includes/crm_md.md)]-vörur mun [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa stofna verðlista í [!INCLUDE[crm_md](includes/crm_md.md)]. Til að forðast samstillingarvillur ætti ekki að breyta þessum verðlisti handvirkt.|
 |Sölumenn|Sölumenn eru tengdir kerfisnotendum í [!INCLUDE[crm_md](includes/crm_md.md)]. Notandinn verður að vera virkur og hafa leyfi og má ekki vera samþættingarnotandinn. Athugaðu að þetta er fyrsta taflan sem þarf að samstilla vegna þess að hún er notuð í viðskiptavinum, tengiliðum, tækifærum og sölureikningum.|
 |Forði|Tilföng eru samstillt við vörur [!INCLUDE[crm_md](includes/crm_md.md)] sem hafa þjónustu sem vörugerðina.|
 |Verðflokkar viðskm.|Verðflokkar viðskiptavinar eru samstilltir við verðlista Sales.|

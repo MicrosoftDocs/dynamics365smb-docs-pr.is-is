@@ -1,21 +1,21 @@
 ---
 title: Röðun, leit og síun í listum | Microsoft Docs
 description: Vinna á skilvirkan hátt í listum með því að leita yfir gögnin þín, flokka dálka og hreinsa niðurstöður með öflugum síutáknum og flýtivísum.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/03/2019
+ms.author: sgroespe
+ms.openlocfilehash: fc9cefd33f6ca11ee4f2936671a84071e142a1bd
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253954"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621184"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Röðun, leit og síun í listum
 Það eru nokkrir hlutir sem munu hjálpa þér að skanna, finna og takmarka skrár í lista. Þar á meðal er röðun, leit og afmörkun. Þú getur notað suma eða alla þessa hluti samtímis til að finna eða greina gögnin þín fljótt.
@@ -41,7 +41,7 @@ Til að raða á lista, geturðu annað hvort valið fyrirsagnatexta dálka til 
 
 Til að leita, skaltu einfaldlega velja leitartáknið, og síðan skrifa í boxið textann sem þú ert að leita að. Þú getur slegið inn stafi, númer og önnur tákn.
 
-### <a name="fine-tune-the-search"></a>Fínstilla leitina
+### <a name="fine-tuning-the-search"></a>Fínstilla leitina
 Almennt séð mun leitin reyna að finna samsvörun við textann í öllum reitum; hún gerir ekki greinarmun á hástöfum og lágstöfum (með öðrum orðum, óháð há- og lágstöfum) og mun finna textasamsvörun hvar sem er í reitnum (fremst, aftast eða í miðjunni).
 
 Hins vegar geturðu búið til nákvæmari leit með því að nota eftirfarandi sértákn:

@@ -51,7 +51,7 @@
 ## Notkun flýtilykla
 ### [Aðgengi og Flýtivísanir](ui-accessibility.md)
 ### [Flýtivísanir](keyboard-shortcuts.md)
-### [Flýtitilvísanir flýtilykla](keyboard-shortcuts-cheatsheet.md)
+### [Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur](keyboard-shortcuts-cheatsheet.md)
 
 # Uppsetning Business Central
 ## [Yfirlit](setup.md)
@@ -318,7 +318,7 @@
 ## [Búa til sandkassaumhverfi](across-how-create-sandbox-environment.md)
 ## Tengir við Dynamics 365 for Sales
 ### [Yfirlit](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Uppsetning samþættingar við Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Setja upp Dynamics 365 for Sales-tengingu](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Sérstilling Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
 ### [Breyta töfluvörpunum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)
@@ -330,11 +330,11 @@
 #### [Yfirlit](ui-extensions.md)
 #### [Sérstilling með viðbótum](ui-extensions.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
-#### [Gagnaafritun](ui-extensions-data-replication.md)
 #### [Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md)
 #### [Essential viðskiptainnsýn](ui-extensions-essential-business-insights.md)
 #### [Myndgreinandi](ui-extensions-image-analyzer.md)
-#### [Snjallský](ui-extensions-intelligent-cloud.md)
+#### [Snjallský](ui-extensions-data-replication.md)
+#### [Grunnur snjallskýs](ui-extensions-intelligent-cloud.md)
 #### [Microsoft Pay Greiðslur](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)
@@ -347,6 +347,7 @@
 #### [DK - C5 gagnaflutningur](ui-extensions-c5-data-migration.md)
 #### [DK - Skráarsnið skatts](ui-extensions-tax-file-formats-dk.md)
 #### [UK - GetAddress.io UK póstnúmer](ui-extensions-getaddressio.md)
+#### [Senda greiðslutilkynningu](ui-extensions-send-remittance-advice.md)
 #### [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)
 ### [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)
 ### [Stjórnun sérstillinga sem stjórnandi](ui-personalization-manage.md)
@@ -992,11 +993,7 @@
 #### [Stofna VSK-skýrslur](LocalFunctionality/Germany/how-to-create-vat-reports.md)
 #### [Leiðrétta VSK-skýrslur](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
 #### [Tilkynningar um VSK-útskatt](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
-#### [Búa til og senda inn ítarlegar tilkynningar um VSK-útskatt](LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md)
-#### [Rafræn innsending á ítarlegri tilkynningu á VSK-útskatti til ELSTER](LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)
 #### [Gefa upp VSK-VIES](LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md)
-#### [Yfirlit yfir ELSTER-innsendingu](LocalFunctionality/Germany/elster-transmission-overview.md)
-#### [Villuboð á rekli Elster-flutnings](LocalFunctionality/Germany/error-messages-of-the-elstertransferhandler.md)    
 ### Bankaþjónusta og greiðslur
 #### [Prenta skýrslur með lista yfir greiðslur lánardrottins](LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md)
 ### Core-fjármál

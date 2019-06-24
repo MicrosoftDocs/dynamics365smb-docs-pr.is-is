@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e13d59e939e71a252e08afc26d2fb1ec76b247c9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c98e4b893783c795a49e05ab04dc70b03161c6a
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238533"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594252"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Loka á vörur í sölum eða innkaupum
 Hægt er að loka fyrir vöru svo hún verði ekki slegin inn í sölu- eða innkaupalínur og hægt er að loka á að hún verði bókuð í færslu.  
@@ -28,7 +28,10 @@ Eftirfarandi tafla sýnir hvað gerist þegar vörum er lokað.
 |--------------------|------------|  
 |**Lokað fyrir sölu**|Ekki er hægt að slá vöruna inn í söluskjal eða færslubók söluvöru.|  
 |**Lokað fyrir innkaup**|Ekki er hægt að slá vöruna inn í innkaupaskjal eða færslubók innkaupavöru, eða í innkaupaáætlunarferli.|  
-|**Lokað**|Ekki er hægt að nota vöruna fyrir vörufærslu. Nánari upplýsingar um lokun á vöru í hvaða tilgangi sem er má sjá í vöruspjaldi.|  
+|**Lokað**|Ekki er hægt að nota vöruna fyrir vörufærslu.|  
+
+> [!NOTE]
+> Hægt er að skila útilokuðum vörum. Þetta þýðir að engar ofangreindra stillinga gilda þegar varan er notuð fyrir skilapantanir og kreditreikninga.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Til að loka á vöru svo hún verði ekki slegin inn í sölulínur  
 

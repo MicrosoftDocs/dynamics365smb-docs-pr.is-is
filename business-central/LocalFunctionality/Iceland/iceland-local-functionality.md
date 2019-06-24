@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 7df86c84d33ca4c8e94caa25b81d25a28e0c4942
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6b4af819f1de41bb0c659ca1c16e60ecb72cb006
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246307"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594147"
 ---
 # <a name="iceland-local-functionality"></a>Staðbundnar aðgerðir fyrir Ísland
 Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslenskri útgáfu [!INCLUDE[d365fin](../../includes/d365fin_md.md)]
 
 ## <a name="feature-availability"></a>Framboð á eiginleika
 
-* VSK og skattur
+* VSK
     * [Íslenskar skattareglugerðir fyrir skilyrtan afslátt](icelandic-tax-regulations-of-conditional-discounts.md) **Nú í boði**
     * [Prenta VSK-yfirlit á skjölum](how-to-print-vat-summary-information-on-documents.md) **Nú í boði**
     * [Sérstök gögn og skýrslur fyrir skattyfirvöld](special-data-output-and-reports-for-the-tax-authority.md) **Nú í boði**

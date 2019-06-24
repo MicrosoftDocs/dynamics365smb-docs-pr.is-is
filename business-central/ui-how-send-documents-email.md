@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c326b280e6539da69831fd4f9610540f1a1e139e
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249377"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594128"
 ---
 # <a name="send-documents-by-email"></a>Senda skjöl í tölvupósti
 Hægt er að nota aðgerðina Uppsetning skýrslu til að miðla efni fyrir sértæk viðskiptaskjöl sem fer sjálfkrafa inn í tölvupóst til að gefa upplýsingar um innihald viðskiptaskjala hratt og vel til viðskiptafélaga þinna. Frekari upplýsingar, sjá [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md).
@@ -54,7 +54,7 @@ Eftirfarandi ferli sýnir hvernig eigi að senda bókaðan sölureikning sem tö
 4. Velja hnappinn **Í lagi**. Síðan **Senda tölvupóst** opnast.
 5. Í reitnum **Til:** er fært inn gilt netfang. Sjálfgefna gildið°er netfang viðskiptamannsins.
 6. Lýsandi texti er færður inn í reitinn **Efni**. Sjálfgefna gildið er nafn og reikningsnúmer viðskiptamannsins.
-7. Í reitnum **Viðhengi** er myndaður reikningur sjálfgefið hengdur við sem PDF-skrá. Veljið uppflettingarhnappinn til að opna skrána eða til að tengja aðra skrá.
+7. Í reitnum **Viðhengi** er myndaður reikningur sjálfgefið hengdur við sem PDF-skrá.
 8. Í reitinn **Meginmál** skal slá inn stutt skilaboð til viðtakanda.
 
     Ef meginmál tölvupósts sértækt fyrir skjal er sett upp á síðunni **Skýrsluval - Sala** er reiturinn **Meginmálslínur** útfylltur sjálfkrafa. Frekari upplýsingar er að finna í [Að setja upp meginmálslínur tölvupósts sem eru sértækar fyrir sölureikninga](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).

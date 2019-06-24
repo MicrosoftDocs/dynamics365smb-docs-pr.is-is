@@ -10,17 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1175a7fe058de5f8e7876014d8a71227b7cc46d8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243941"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621069"
 ---
 # <a name="design-details-costing-methods"></a>Hönnunarupplýsingar: Aðferð kostn.útreiknings
-Það veltur á aðferð við kostnaðarútreikning hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikning. Kostnaðaraðferðin hefur líka áhrif á það hvernig kostnaðarflæðið er skráð, ásamt bókunardagsetningu og lotu. Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Það veltur á aðferð við kostnaðarútreikning hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikning. Kostnaðaraðferðin hefur líka áhrif á það hvernig kostnaðarflæðið er skráð, ásamt bókunardagsetningu og lotu.
+
+> [!NOTE]
+> Ekki er hægt að breyta aðferð kostnaðarútreiknings fyrir vöru ef birgðabókarfærslur eru til fyrir vöruna.<br /><br />
+> Upplýsingar birtast fljótlega hér um hjáleiðir til að breyta aðferð kostnaðarútreiknings við sérstakar aðstæður.
+
+Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 |Aðferð kostn.útreiknings|Description|Hvenær skal nota|  
 |--------------------|---------------------------------------|-----------------|  

@@ -1,8 +1,6 @@
 ---
 title: Tímasetja skýrslu þannig að hún keyri á tilteknum degi og tíma | Microsoft Docs
 description: Kynntu þér hvernig skal setja skýrslu inn í verkröð og tímasetja hana þannig að hún sé unnin á tilteknum degi og tíma.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 04/01/2019
+ms.date: 05/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 508a6406fe11099f19ce46c70147d62ba74278d1
+ms.sourcegitcommit: f4beaa63e2f32e2947de1c794c5619ed40a47301
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250688"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1586153"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Unnið með skýrslur og runuvinnslur
 Skýrsla safnar saman upplýsingum byggðum á sérstöku viðmiðssafni, og flokkar og birtir upplýsingarnar á sniði sem hægt er að prenta og er auðvelt að lesa. Til eru margar skýrslur sem má finna víðsvegar í forritinu. Skýrslurnar veita alla jafna upplýsingar sem tengjast samhengi síðunnar sem þú ert á. Til dæmis, síðan **Viðskiptamaður** inniheldur skýrslur fyrir efstu 10 viðskiptamennina og söluupplýsingar og fleira.
@@ -88,7 +86,12 @@ Hægt er að tímasetja skýrslu þannig að hún keyri á tilteknum degi og tí
 Hægt er að tímasetja skýrslu þegar skýrsla er opnuð. Valkosturinn **Áætlun** er valinn og síðan eru upplýsingar á borð við prentara, og tíma og dagsetningu færðar inn. Skýrslunni er síðan bætt við verkröðina og hún verður keyrð á tilgreindum tíma. Þegar skýrslan hefur verið meðhöndluð er varan fjarlægð úr verkröðinni. Ef þú vistaðir meðhöndlaða skýrsluna í skrá er hún aðgengileg á svæðinu **Skýrsluinnhólf**.
 
 ## <a name="PrintReport"></a>Prenta skýrslu
-Hægt er að prenta skýrslu með hnappnum **Prenta** á valsíðunni sem birtist þegar skýrslan er opnuð eða úr valmyndastikunni í Forskoðun.
+Hægt er að prenta skýrslu með hnappnum **Prenta** á valsíðunni sem birtist þegar skýrslan er opnuð eða úr valmyndastikunni í Forskoðun.  
+
+### <a name="printing-reports-in-thai"></a>Býr til skýrslu í Thai
+Sérstaklega fyrir taílensku útgáfuna af [!INCLUDE[prodshort](includes/prodshort.md)], hnappurinn **Prenta** getur ekki prentað skýrslur rétt vegna takmarkana á þjónustu sem býr til prentvænu PDF-skrána. Í staðinn getur þú opnað skýrsluna í Word og síðan vistað hana sem prentvæna PDF-skrá.  
+
+Að öðrum kosti geturðu beðið stjórnanda þinn um að búa til Word-skýrsluútlit fyrir mest notuðu skýrslurnar. Frekari upplýsingar, sjá [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md).  
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Breyta útliti og ásýnd skýrslu
 Útlit skýrslu stjórnar því hvað er birt í skýrslu, hvernig því er stillt upp og það stílfært. Ef þú vilt skipta yfir í annað útlit, sjá [Breyta hvaða útlit er nú notað í skýrslu](ui-how-change-layout-currently-used-report.md). Eða, ef þú vilt sérsníða þitt eigið skýrsluútlit, sjá [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md).

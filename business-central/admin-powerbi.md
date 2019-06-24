@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 79fa8f67a1b2d7ced65f002bd04fc69f61811c5e
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247500"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620977"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Gera viðskiptagögn þín virk fyrir Power BI
 Það er auðvelt að fá innsýn í [!INCLUDE[d365fin](includes/d365fin_md.md)] gögnin þín með Power BI og [!INCLUDE[d365fin](includes/d365fin_md.md)] efnispökkunum. Power BI sækir gögn þín og býr svo til út-fyrir-kassann yfirlit og skýrslur sem byggist á þeim gögnum.  
 
-Notandi verður að vera með gildan reikning hjá Dynamics 365 og hjá Power BI. Einnig verður þú að hlaða niður [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) ef þú vilt búa til þínar eigin Power BI skýrslur. Power BI efnispakki þarfnast heimildar í töflur þaðan sem gögn eru sótt úr. Frekari upplýsingar um kröfur er að finna hér að neðan.  
+Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes/prodshort.md)] og hjá Power BI. Einnig verður þú að hlaða niður [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) ef þú vilt búa til þínar eigin Power BI skýrslur. Power BI efnispakki þarfnast heimildar í töflur þaðan sem gögn eru sótt úr. Frekari upplýsingar um kröfur er að finna hér að neðan.  
 
 > [!IMPORTANT]
 > Efnispakkar sem lýst er í þessari grein eru hannaðir til að nota Azure Active Directory sem sannvottunaraðferð. Ef þú notar [!INCLUDE [prodshort](includes/prodshort.md)] á staðnum og notar aðra sannvottunaraðferð getur Power BI ekki tengt gögnin þín.  
@@ -28,15 +28,8 @@ Notandi verður að vera með gildan reikning hjá Dynamics 365 og hjá Power BI
 Microsoft hefur gefið út eftirfarandi efnispakka:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Viðskiptamannalisti  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Fjármál  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Vörulisti  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Störf  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Starfalisti  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Innkaupareikningar  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Sala  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Sölupantanalisti  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Lánardrottnalisti  
 
 ## <a name="using-the-dashboards"></a>Nota Yfirlitið
 Hver efnispakki býður upp á skýrslur sem þú getur nýtt þér:
@@ -88,64 +81,9 @@ Til að flytja [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] gögn í
 - Skoða fyrirtæki í Excel-sniðmáti
 - Power BI Skýrslumerki
 
-**Microsoft Dynamics 365 Business Central – Jobs**
-- Verklisti
-- Áætlunarlínur verks
-- Verkhlutalínur verks
-- Power BI Skýrslumerki
-- Skoða fyrirtæki í Excel-sniðmáti
-
 **Microsoft Dynamics 365 Business Central - Sales**
 - Stjórnborð sölu
 - Skoða fyrirtæki í Excel-sniðmáti
-- Power BI Skýrslumerki
-
-### <a name="list-page-reports"></a>Listasíða skýrslna
-
-**Microsoft Dynamics 365 Business Central – Customers List**
-- Sala vöru eftir viðskiptamönnum
-- Power BI Innkaupayfirlit vöru
-- Power BI Söluyfirlit vöru
-- Stjórnborð sölu
-- Power BI Viðskiptamannalisti
-- ExcelTemplateViewCompany
-- Power BI Skýrslumerki
-
-**Microsoft Dynamics 365 Business Central - Listi yfir fjárhagsfærslur**
-- Listi yfir upphæð fjárhags í Power BI
-- Power BI Áætluð upphæð fjárhags
-- ExcelTemplateViewCompany
-- Power BI Skýrslumerki
-
-**Microsoft Dynamics 365 Business Central – Items List**
-- Vörusala eftir viðskiptavini
-- Power BI Innkaupayfirlit vöru
-- Power BI Söluyfirlit vöru
-- Stjórnborð sölu
-- ExcelTemplateViewCompany
-- Power BI Skýrslumerki
-
-**Microsoft Dynamics 365 Business Central – Jobs List**
-- Power BI Verklisti
-- ExcelTemplateViewCompany
-- Power BI Skýrslumerki
-
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
-- Power BI Innkaupayfirlit
-- ExcelTemplateViewCompany
-- Power BI Skýrslumerki
-
-**Microsoft Dynamics 365 Business Central - Sölupantanalisti**
-- Power BI Söluyfirlit
-- ExcelTemplateViewCompany
-- Power BI Skýrslumerki
-
-
-**Microsoft Dynamics 365 Business Central – Vendors Listi**
-- Power BI Innkaupayfirlit vöru
-- Power BI Söluyfirlit vöru
-- Power BI Lánardrottnalisti
-- ExcelTemplateViewCompany
 - Power BI Skýrslumerki
 
 ## <a name="web-services"></a>Vefþjónusta
@@ -158,8 +96,7 @@ Power BI yfirlitið byggir á birtum vefþjónustum sem eru hér að ofan skrá�
 Algeng mistök eru að slá inn birtingarnafn fyrirtækis í stað nafn fyrirtækis. Til að finna nafn fyrirtækisins skal leita að **Fyrirtæki**. Svo skal nota reitinn **Nafn** þegar nafn fyrirtækisins er slegið inn.
 
 ### <a name="incorrect-user-name-and-password"></a>Rangt notandanafn og aðgangsorð  
-Notandanafn og aðgangsorð sem er notað til að tengjast verður það sama og er notað í Microsoft Office 365 reikningnum.  
-
+Notandanafn og aðgangsorð sem er notað til að skrá inn í Power BI verður það sama og er notað í Microsoft Office 365 reikningnum.  
 Efnispakkinn krefst þess einnig að Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] reikningur sé til staðar. Þegar upplýsingarnar hafa verið skráðar inn verða sjálfkrafa borin kennsl á alla Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] leigjendur sem notandinn hefur aðgang að. Ef notandinn hefur ekki leyfi eða prufuútgáfu að Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] reikningi munu villuboð birtast.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Lykillinn passaði ekki við neinar línur í töflunni
@@ -167,7 +104,7 @@ Ef þú slærð inn ógilt heiti fyrirtækis meðan á tengingarferlinu stendur 
 
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa með Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  
-[Power BI - Basic Concepts](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
+[Power BI - Grunnhugtök](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts)  
 [Viðskiptaupplýsingar](bi.md)  
 [Hafist handa](product-get-started.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  

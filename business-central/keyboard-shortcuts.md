@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240580"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621207"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 Þessi grein gefur yfirlit yfir nokkrar flýtivísanir sem hægt er að nota þegar þú ert að vinna með [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -105,8 +105,8 @@ Eftirfarandi tafla lýsir flýtivísunum sem hægt er að nota á listasíðu. A
 |Shift+síða upp<br />(Shift+Fn+uppör)|Stækkið valið af línum til að hafa með allar sýnilegar línur fyrir ofan núverandi val af línum.|Á ekki við.|
 |Shift+síða niður<br />(Shift+Fn+niðurör)|Stækkið valið af línum til að hafa með allar sýnilegar línur fyrir neðan núverandi val af línum.|Á ekki við.|
 |Ctrl+C<br />(Cmd + C)|Afritaðu valdar raðirnar yfir á klippiborðið.|Á ekki við.|
-|Ctrl+V<br />(Cmd + V)|Límdu valdar raðir úr klippiborðinu inn í núverandi síðu eða ytri skjal, eins og Microsoft Excel eða Outlook tölvupóst.<br /><br />Þú getur aðeins gert þetta í breytanlegum listum.|Á ekki við.|
-|F8|Afritaðu reitinn í sama dálk raðarinnar hér fyrir ofan og límdu það inn í núverandi röð.<br /><br />Þú getur aðeins gert þetta í breytanlegum listum. Með því að nota þennan flýtileið og ýta síðan á dálklykil geturðu fljótt fyllt út reiti í línuatriðum sem þú vilt að hafi sama gildi og röðin hér fyrir ofan.|Á ekki við.||
+|Ctrl+V<br />(Cmd + V)|Límdu valdar raðir úr klippiborðinu inn í núverandi síðu eða ytri skjal, eins og Microsoft Excel eða Outlook tölvupóst. Þú getur aðeins gert þetta í breytanlegum listum.|Á ekki við.|
+|F8|Afritaðu reitinn í sama dálk raðarinnar hér fyrir ofan og límdu það inn í núverandi röð. Þú getur aðeins gert þetta í breytanlegum listum. Með því að nota þennan flýtileið og ýta síðan á dálklykil geturðu fljótt fyllt út reiti í línuatriðum sem þú vilt að hafi sama gildi og röðin hér fyrir ofan.|Á ekki við.|
 
 ### <a name="KeyboardFilter"></a>Leit og síun lista
 

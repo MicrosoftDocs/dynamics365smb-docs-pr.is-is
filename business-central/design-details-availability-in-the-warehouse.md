@@ -10,19 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38218c497f7d3892b19d0b594ff3863004f69ac4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab0f0e921fd7a321975330062d19869efc7d8ec7
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246865"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620931"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Hönnunarupplýsingar: Framboð á lager
 Kerfið þarf að halda sífelldri stjórn á vörum til ráðstöfunar í vöruhúsinu þannig að vörur á útleið gangi vel og sé skilað á sem besta hátt.  
 
- Framboð er mismunandi eftir úthlutun á þeim hólfastigum þegar vöruhúsaaðgerðir, t.d. tiltektir og hreyfingar eiga sér stað og þegar frátekningarkerfið setur takmarkanir. Frekar flókið reiknirit staðfestir að öllu skilyrði eru uppfyllt áður en magni er úthlutað í tínslu fyrir útleiðarflæði.  
+Framboð er mismunandi eftir úthlutun á þeim hólfastigum þegar vöruhúsaaðgerðir, t.d. tiltektir og hreyfingar eiga sér stað og þegar frátekningarkerfið setur takmarkanir. Frekar flókið reiknirit staðfestir að öllu skilyrði eru uppfyllt áður en magni er úthlutað í tínslu fyrir útleiðarflæði.
+
+Ef eitt eða fleiri skilyrði eru ekki uppfyllt geta mismunandi villuboð verið sýndar, þar með talið almennu boðin „Ekkert að afgreiða.“ skilaboð. „Ekkert að afgreiða.“ skilaboð geta komið upp af mörgum ólíkum ástæðum, bæði í flæði á útleið og innleið, þar sem skjalalína, sem tengist með beinum eða óbeinum hætti, inniheldur reitinn **Magn til afgreiðslu**.
+
+> [!NOTE]
+> Upplýsingarnar birtast fljótlega hér um hugsanlegar ástæður og lausnir fyrir „Ekkert að afgreiða“. skilaboð.
 
 ## <a name="bin-content-and-reservations"></a>Innihald hólfs og frátekningar  
  Í hvaða uppsetningu af vöruhúsakerfi sem er, er magn vara bæði til sem vöruhúsafærslur, í vöruhúsanotkunarsvæði, og sem birgðabókarfærslur í birgðanotkunarsvæði. Þessar tvær færslugerðir innihalda mismunandi upplýsingar um það hvar vara er til og hvort hún er tiltæk. Vöruhúsafærslur skilgreina framboð vöru eftir hólfi og hólfagerð, sem kallast innihald hólfs. Birgðahöfuðbókarfærslur skilgreina hvort vara er laus með frátekningu hennar samkvæmt fylgiskjölum á útleið.  
@@ -72,4 +77,5 @@ Kerfið þarf að halda sífelldri stjórn á vörum til ráðstöfunar í vöru
  ![Tiltækt í frátekningu, fyrir úthlutanir í vöruhúsi](media/design_details_warehouse_management_availability_3.png "Tiltækt í frátekningu, fyrir úthlutanir í vöruhúsi")  
 
 ## <a name="see-also"></a>Sjá einnig  
- [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)
+ [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
+ [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
