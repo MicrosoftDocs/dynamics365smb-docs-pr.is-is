@@ -1,18 +1,18 @@
 ---
 title: Hjálp og stuðningur
-description: Finndu úrræði fyrir hjálp, leiðarvísi og aðstoð vegna afurðar og kynntu þér hvernig á að fá tæknilega aðstoð fyrir Business Central.
+description: Finndu ráðleggingar um hjálp, leiðarvísi og úrræðaleit vegna vöru og kynntu þér hvernig á að fá tæknilega aðstoð fyrir Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2019
-ms.openlocfilehash: e9051ae5c12a787eb40732ad133e8d21932df50d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 07/03/2019
+ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253678"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726955"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
@@ -47,7 +47,7 @@ Ef þú ert að nota prufuútgáfu af [!INCLUDE [prodshort](includes/prodshort.m
 
 ### <a name="capabilities-coming-soon"></a>Væntanlegir eiginleikar
 
-[!INCLUDE[prodshort](includes/prodshort.md)] er uppfært með stórum eiginleikauppfærslum á 6 mánaða fresti og með mánaðarlegum þjónustuuppfærslum. Veldu tengilinn til að skoða nýjustu útgáfuupplýsingar. Þú getur einnig fengið yfirlit yfir væntanlega og nýlega útgefna eiginleika í útgáfuupplýsingunum yfir Dynamics 365 á [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] er uppfært með stórum eiginleikauppfærslum á 6 mánaða fresti og með mánaðarlegum þjónustuuppfærslum. Veldu tengilinn til að skoða nýjustu útgáfuáætlunina. Þú getur einnig fengið yfirlit yfir væntanlega og nýlega útgefna eiginleika í útgáfuáætlun fyrir Dynamics 365 á [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
 
 Langtímayfirlitið, [!INCLUDE[prodshort](includes/prodshort.md)] [síða vegvísis](https://dynamics.microsoft.com/roadmap/business-central/), sýnir almennar forgangsraðanir fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á næstum árum.  
 

@@ -1,8 +1,6 @@
 ---
 title: Setja upp fyrirtæki með RapidStart Services| Microsoft Docs
 description: Hægt er að setja upp nýja fyrir tækið í Business Central með RapidStart Services sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera endurtekin verk sjálfvirk og einföld.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1e7976e19641bd49c1c1d94a31de902aea1a9769
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244314"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726929"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Uppsetning fyrirtækis með RapidStart Services
 Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] með RapidStart Services, sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld.  
@@ -39,7 +37,6 @@ Hægt er að nota eftirfarandi íhluti til að flýta uppsetningu á nýju fyrir
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Setja upp aðalnotandaviðmót RapidStart Services.|[Nota Mitt hlutverk RapidStart Services innleiðara](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
 |Stofna nýtt fyrirtæki og flytja grunnuppsetningargögn og sniðmát.|[Uppsetning grunnstillingu fyrirtækis](admin-set-up-company-configuration.md)|  
 |Virkja grunnstillingarpakkann til viðskiptamanns fyrir innleiðingu.|[Nota skilgreiningu á ný fyrirtæki](admin-apply-configuration-to-new-companies.md)|
 |Skilgreina og sannprófa uppsetningargildi fyrir öll grunnsvæði, svo sem upplýsingar fyrirtækis, fjárhag, birgða​sölu eða framleiðslu.|[Safna uppsetningargildum viðskiptamanns](admin-gather-customer-setup-values.md)|  

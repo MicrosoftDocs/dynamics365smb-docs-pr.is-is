@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/06/2019
 ms.author: bholtorf
-ms.openlocfilehash: c95dee48b42fe5784c1d7d2fc6a11d5f487c7653
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: dfcb664d352683566df233d6b9b95900f2d76a5a
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621046"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629643"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Uppsetning á tengingu við Dynamics 365 for Sales
-Til að samþætta við [!INCLUDE[crm_md](includes/crm_md.md)] þarf að setja upp tengingu á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]. 
+Til að samþætta við [!INCLUDE[crm_md](includes/crm_md.md)] þarf að setja upp tengingu á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
@@ -30,7 +30,7 @@ Til að samþætta við [!INCLUDE[crm_md](includes/crm_md.md)] þarf að setja u
 * Vefslóð fyrir [!INCLUDE[crm_md](includes/crm_md.md)]-forritið þitt. Fljótleg leið til að ná í vefslóðina er að opna [!INCLUDE[crm_md](includes/crm_md.md)] og afrita vefslóðina og svo líma hana í reitinn **Dynamics 365 for Sales Vefslóð** í [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] mun leiðrétta sniðið fyrir þig.  
 * Notandaheiti og aðgangsorð fyrir notandareikning sem er aðeins notaður fyrir samþættinguna.  
 * Notandaheiti og aðgangsorð reikningsins sem er með heimildir stjórnanda.  
-  
+
 > [!Note]
 > Þessi skref lýsa ferlinu fyrir netútgáfuna af [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -38,7 +38,7 @@ Til að samþætta við [!INCLUDE[crm_md](includes/crm_md.md)] þarf að setja u
 Fyrir allar auðkennisgerðir aðrar en Office 365-auðkenningu, er sett upp tengingin við Dynamics 365 for Sales á síðunni **Microsoft Dynamics 365 for Sales Uppsetning tengingar**. Fyrir auðkenningu Office 365 er einnig hægt að nota **Setja upp Dynamics 365 for Sales-tenging** leiðbeiningar um uppsetningu með hjálp, sem hjálpar til við að veita nauðsynlegar upplýsingar.
 
 ### <a name="to-use-an-assisted-setup-guide"></a>Til að nota leiðbeiningar um uppsetningu með hjálp
-**Setja upp Dynamics 365 for Sales-tengingu** leiðbeiningar um uppsetningu með hjálp getur auðveldað þér að setja upp tenginguna og gefa upp hvort eigi að virkja ítarlega eiginleika, t.d. tenging milli færslna. 
+**Setja upp Dynamics 365 for Sales-tengingu** leiðbeiningar um uppsetningu með hjálp getur auðveldað þér að setja upp tenginguna og gefa upp hvort eigi að virkja ítarlega eiginleika, t.d. tenging milli færslna.
 
 1. Veldu **Uppsetning og viðbætur** og veldu síðan **Uppsetning með hjálp**.
 2. Veldu **Setja upp Dynamics 365 for Sales-tengingu** til að hefja leiðbeiningar um uppsetningu með hjálp.
@@ -57,7 +57,7 @@ Fyrir allar auðkennisgerðir aðrar en Office 365-auðkenningu, er sett upp ten
 |**Dynamics 365 SDK útgáfa**|Þetta á aðeins við ef verið er að samþætta við útgáfu á staðnum af [!INCLUDE[crm_md](includes/crm_md.md)]. Þetta er hugbúnaðarþróunarpakki Dynamics 365 (einnig vísað í sem Xrm) sem er notaður tili að tengja [!INCLUDE[d365fin](includes/d365fin_md.md)] við [!INCLUDE[crm_md](includes/crm_md.md)]. Útgáfan verður að vera samhæf SDK-útgáfunni sem notuð er af [!INCLUDE[crm_md](includes/crm_md.md)] og sú sama eða nýrri og útgáfan sem er notuð af [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 > [!Note]
-> **Setja upp Dynamics 365 for Sales tengingu** uppsetning með hjálp úthlutar sjálfkrafa öryggishlutverkunum **Samþættingarstjórnandi** og **Samþættingarnotandi** til notandareiknings sem er notaður fyrir samþættingu. 
+> **Setja upp Dynamics 365 for Sales-tengingu** leiðbeiningar með hjálp úthlutar sjálfkrafa öryggishlutverkum **Samþættingarstjórnanda** og **Samþættingarnotanda** til notandareiknings sem er notaður í samþættingu. 
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Að stofna eða vinna með tengingu handvirkt
 Eftirfarandi ferli útskýrir hvernig á að fylla út reitina á síðunni **Microsoft Dynamics 365 for Sales Uppsetning tengingar** handvirkt. Þetta er einnig síðan þar sem stillingum fyrir samþættingu er stjórnað.
@@ -105,10 +105,14 @@ Eftirfarandi ferli útskýrir hvernig á að fylla út reitina á síðunni **Mi
     > [!NOTE]  
     >  Ef dulritun gagna er ekki virkjuð í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður spurt hvort þú viljir virkja hana. Til að virkja dulritun gagna skal velja **Já** og gefa nauðsynlegar upplýsingar. Annars skal velja **Nei**. Hægt er að virkja dulritun gagna seinna. Nánari upplýsingar eru í [Gögn dulrituð í Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) í Developer and IT Pro help.  
 
-7. Ef [!INCLUDE[crm_md](includes/crm_md.md)] samstilling er ekki þegar sett upp verður spurt hvort nota eigi sjálfgefna samstillingaruppsetningu. Velja skal **Já** eða **Nei** á grunni þess hvort halda eigi færslum samræmdum í [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+7. Ef [!INCLUDE[crm_md](includes/crm_md.md)] samstilling er ekki þegar sett upp verður spurt hvort nota eigi sjálfgefna samstillingaruppsetningu. Velja skal **Já** eða **Nei** á grunni þess hvort halda eigi færslum samræmdum í [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!Note]
-> Að tengjast við Dynamics 365 for Sales með síðunni **Microsoft Dynamics 365 for Sales Uppsetning tengingar** kann að krefjast þess að þú [úthlutir **Samþættingarstjórnandi** og **Samþættingarnotandi** öryggishlutverkum](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) til notandareiknings sem er notaður fyrir samþættingu. 
+> Ef tengst er við Dynamics 365 for Sales með síðunni **Microsoft Dynamics 365 for Sales Uppsetning tengingar** kann að reynast nauðsynlegt að úthluta öryggishlutverkum Samþættingarstjórnanda og Samþættingarnotanda til reikningsins sem er notaður í samþættingu. Frekari upplýsingar er að finna í [Úthluta öryggishlutverki á notanda](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+
+
+> [!Note]
+> Að tengjast við Dynamics 365 for Sales með síðunni **Microsoft Dynamics 365 for Sales Uppsetning tengingar** kann að krefjast þess að þú [úthlutir **Samþættingarstjórnandi** og **Samþættingarnotandi** öryggishlutverkum](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) til notandareiknings sem er notaður fyrir samþættingu.
 
 
 ### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>Að aftengjast [!INCLUDE[crm_md](includes/crm_md.md)]  
@@ -116,7 +120,7 @@ Eftirfarandi ferli útskýrir hvernig á að fylla út reitina á síðunni **Mi
 2. Á síðunni **Microsoft Dynamics 365 for Sales Uppsetning tengingar** skal hreinsa gátreitinn **Virkjað**.  
 
 <!--## Install the [!INCLUDE[d365fin](includes/d365fin_md.md) Integration Solution
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension? 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension?
 
 
 1.  From [!INCLUDE[d365fin](includes/d365fin_md.md)] installation media \(DVD\), copy the DynamicsNAVIntegrationSolution.zip file to your computer.  
@@ -137,11 +141,11 @@ Eftirfarandi ferli útskýrir hvernig á að fylla út reitina á síðunni **Mi
 
 5.  Assign the **Business Central Integration User** role to all users who will use the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution.  
 
-If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.--> 
+If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.-->
 
-<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection]() --> 
+<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection]() -->
 
-<!-- 
+<!--
 # View Item Availability - Support Matrix
 For most versions of [!INCLUDE[d365fin](includes/d365fin_md.md) and Dynamics 365 for Sales, you can view availability figures for items across the integrated products. The following table shows which version combinations support viewing item availability.
 
@@ -162,4 +166,3 @@ For more information, see [System Requirements for Business Central](../deployme
 
 ## <a name="see-also"></a>Sjá einnig  
 [Skoða stöðu á samstillingu](admin-how-to-view-synchronization-status.md)  
-

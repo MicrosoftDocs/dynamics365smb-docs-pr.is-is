@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 16f334548d9831507970a1b74ba5fa1716611380
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: de7acb10c76acc05fc6e6a5c708a8d412e4d9b30
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253724"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632730"
 ---
 # <a name="personalizing-your-workspace"></a>Sérstillingar verksvæðis
 
@@ -60,7 +60,7 @@ Hægt er að gera ýmsa hluti, háð því hvernig gerð af síðu þetta er og 
 |Sýndu reit í haus flýtiflipa þegar flýtiflipinn er minnkaður.|Veldu örvaroddinn og <b>Sýna þegar dregið saman</b>. <br /> <br />Ef þú sérð ekki þennan valkost þá er hann þegar settur. Í þessu tilfelli, til að hætta að sýna reitinn í haus flýtiflipans, skal velja <b>Sýna alltaf</b>.|*Flýtiflipi* er hugtakið sem er notað um flokk af reitum sem birtast undir sameiginlegri fyrirsögn. Notaðu valkostinn <b>Sýna þegar dregið saman</b> til að birta mikilvægustu reitina. Ef þú velur reit í hausnum, mun flýtiflipinn opnast og setja áhersluna á valinn reit.<br /><br />Þessi valkostur gildir aðeins ef síða er með fleiri en einn flýtiflipa. Ef aðeins er einn flýtiflipi er ekki hægt að minnka hann, þannig að valkosturinn <b>Sýna þegar dregið saman</b> er ekki fyrir hendi.|
 |Aðeins birta reit þegar þú velur **Sýna meira**.|Veldu örvaroddinn og <b>Sýna undir „Sýna meira“</b>. <br /> <br />Ef þú sérð ekki valkostinn <b>Sýna undir „Sýna meira“</b> er hann þegar settur. Í þessu tilviki, til að láta reit alltaf sjást, ekki bara þegar þú velur **Sýna meira** skaltu velja <b>Sýna alltaf</b>.||
 |Breyta föstum svæði í lista í annan dálk. |Veldu örina í dálknum sem þú vilt nota sem síðasta dálk í festu svæði og veldu síðan <b>Stilla Fast svæði</b>.<br /><br/>Ef þú vilt stilla föstu svæðinu aftur á upphaflega staðsetningu skaltu velja örina fyrir fasta dálkinn og velja <b>Hreinsa Fast svæði</b>. Athugaðu: Ekki er hægt að fjarlægja þetta fasta svæði.|Fast svæði tilgreinir dálkana sem birtast alltaf til vinstri, jafnvel þótt þú skrunir lárétt.|  
-|Breyta breidd á dálki.|Í töfluhausalínu skal draga hægri mörk dálks. <br /><br />Til að hámarka dálkbreiddina svo hún passi lengstu línu textans í dálknum skal tvísmella á hægri mörk hans.||
+|Breyta breidd á dálki.|Í haus listans skaltu draga jaðarinn milli dálkanna. <br /><br />Hægt er að tvísmella á jaðarinn milli dálkhausanna til að aðlaga stærðina sjálfkrafa, sem stillir breiddina á þægilega stærð fyrir lestur.||
 |Hoppa yfir reit þegar ýtt er á Enter.|Veldu örvaroddinn við hliðina á reitnum, eða dálkahaus í lista, og veldu **Útiloka frá flýtifærslu**. <br /><br /> Ef þú sérð ekki þennan valkost þá er reiturinn þegar stilltur þannig að honum verði sleppt. Í þessu tilfelli, til að hætta að sleppa reitnum, skal velja **Hafa með í flýtifærslu**. |Sjá [Hraða gagnaskráningu með flýtifærslu](ui-enter-data.md#QuickEntry)|
 
 ## <a name="Actions"></a>Sérstilling aðgerða

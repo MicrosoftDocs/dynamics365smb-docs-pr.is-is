@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/12/2019
 ms.author: jswymer
-ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250343"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629758"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Bæta við tenglum á vefsíður, skjöl, eða forrit á skrám.
 Á tilgreindri skrá, eins og t.d. viðskiptamanni, skjali eða sölupöntun, er hægt að bæta við tengli í ytra skjal, vefsíðu eða forrit. Einnig gæti verið þörf á tengli sem opnar nýjan auðan tölvupóst á tiltekinn viðtakanda þegar hann er valinn. Spjaldasíðan fyrir sumar skrár, s.s. viðskiptamanna- eða lánardrottnaspjöld, innihalda reitinn **Heimasíða** þar sem hægt er að færa inn vefslóð (URL). Til að hafa aðra tengla með er hægt að nota aðferðina sem lýst er í þessari grein.  
@@ -35,10 +35,9 @@ Annað dæmi gæti verið þegar þú tekur á móti prentuðum reikningum frá 
 
 4.  Í reitnum **Tengill aðsetur** færið inn
 
-    -   Til að tengja skrá á þinni tölvu eða neti, færa inn fulla slóð og skráarheiti, eins og t.d. **C:My Documentsinvoice1.doc**.
+    -   Til að tengja skrá á þinni tölvu eða neti, skaltu færa inn fulla slóð og skráarheiti, eins og t.d. **C:\My Documents\invoice1.doc**.
     -   Til að tengja á vefsíðu, færa inn vefslóðina (URL) eins og t.d. **www.microsoft.com**.
-    -   Til að tengja á vefsíðu, færa inn vefslóðina (URL) eins og t.d. **www.microsoft.com**.
-    -   Til að tengja forrit, færa inn tilgreindan streng til að opna forritið. Til dæmis, til að opna OneNote með tilgreindri síðu, skal færa inn **onenote:///C:My Documentstest.one**. Eða, til að opna Outlook með nýjum tómum tölvupósti til tiltekins viðtakanda skal færa inn **mailto:testalias**.  
+    -   Til að tengja forrit, færa inn tilgreindan streng til að opna forritið. Til dæmis til að opna OneNote með tiltekinni síðu skal slá inn **onenote:///C:\My Documents/test.one**. Eða, til að opna Outlook með nýjum tómum tölvupósti til tiltekins viðtakanda skal færa inn **mailto:testalias**.  
 
 5.  Reiturinn **Lýsing** er fylltur út með upplýsingum um tengilinn.  
 

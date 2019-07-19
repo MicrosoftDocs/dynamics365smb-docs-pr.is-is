@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245732"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629551"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Samstilla töfluvarpanir handvirkt
 Vörpun samþættingartöflu tengir [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflu (færslugerð), t.d. viðskiptamaður, við [!INCLUDE[crm_md](includes/crm_md.md)]-einingu, t.d. reikningur. Samstilling á vörpun samþættingartöflu gerir þér kleift að samþætta gögn í öllum færslum í [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflunni og [!INCLUDE[crm_md](includes/crm_md.md)]-einingunni sem eru tengdar. Að auki, þó háð grunnstillingu töfluvörpunar, getur samstilling búið til og tengt nýjar færslur á lausn endastaðar fyrir ótengdar færslur á upprunastaðnum.  
@@ -95,4 +95,4 @@ Með því að breyta vörpun samþættingartöflu fyrirfram er hægt að skilgr
 
 ## <a name="see-also"></a>Sjá einnig  
 [Sérstilling Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Uppsetning Dynamics 365 for Sales samþættingu í Business Central](admin-setting-up-integration-with-dynamics-sales.md)   
+[Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   

@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: edupont
-ms.openlocfilehash: d314b8ce94c5f8251298f0322acd2cdc4f6b15d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9248d39ed447f8c590db708567790edfd64da0db
+ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246733"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "1717585"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Notkun Business Central sem fyrirtækjainnhólf í Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kynnir möguleikann á að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum, ásamt því að semja og senda fjárhagsleg skjöl, svo sem tilboð og reikninga.  
 
 ## <a name="getting-the-add-in"></a>Að fá viðbótina
-Það er auðvelt að hefjast handa með [!INCLUDE[d365fin](includes/d365fin_md.md)]-innbótinni fyrir Outlook. Í uppsetningarleiðbeiningum með hjálp fyrir **Setjið upp fyrirtækjainnhólf í Outlook** er hægt að setja upp tenginguna fyrir sjálfan þig eða fyrirtækið þitt. Ef fyrirtækið þitt notar Office 365 verður þú að tilgreina Office 365 notandanafn þitt og lykilorð. Ef fyrirtækið þitt notar ekki Office 365, verður þú að gefa upp upplýsingar um Exchange Server sem þú notar. Innbót [!INCLUDE[d365fin](includes/d365fin_md.md)] er þá sjálfkrafa bætt við Outlook.  
+Það er auðvelt að hefjast handa með [!INCLUDE[d365fin](includes/d365fin_md.md)]-innbótinni fyrir Outlook. Í uppsetningarleiðbeiningum með hjálp fyrir **Setja upp fyrirtækjainnhólf í Outlook** er hægt að setja upp tenginguna fyrir sjálfan þig eða fyrirtækið þitt ef fyrirtækið notar Office 365. Sláðu einfaldlega inn notandanafn og lykilorð fyrir Office 365. Innbót [!INCLUDE[d365fin](includes/d365fin_md.md)] er þá sjálfkrafa bætt við Outlook. Frekari upplýsingar er að finna í [Lágmarkskröfur fyrir Outlook](product-requirements.md#outlook).  
 
 Þegar þú opnar Outlook muntu sjá tölvupóst frá Dynamics 365 Business Central Admin. Nýju innbótunum er bætt við Outlook-borðann, og í Outlook Web-forritinu er hægt að sjá [!INCLUDE[d365fin](includes/d365fin_md.md)]-innbæturnar beint fyrir ofan eða neðan meginmál tölvupóstskeytisins. Innbæturnar eru uppfærðar reglulega og þú munt fá tilkynningu um að ný útgáfa sé tilbúin fyrir þig í Outlook.  
 
@@ -50,7 +50,7 @@ Til dæmis, ef þú færð tölvupóstskeyti sem nefnir textann *S-QUO100*, skil
 ## <a name="adding-the-add-ins-manually"></a>Bæta við viðbótunum handvirkt
 Í sumum tilfellum fá viðbætur ekki sjálfkrafa bætt við Outlook. Jafnvel þótt þú eða samstarfsmaður hljóp aðstoðaruppsetningarhandbókina fyrir hönd fyrirtækisins, gæti [!INCLUDE[d365fin](includes/d365fin_md.md)] ekki birst í Outlook. Ef þú finnur fyrir þessu vandamáli geturðu bætt við [!INCLUDE[d365fin](includes/d365fin_md.md)] viðbótunum handvirkt.  
 
-Í fyrsta lagi verður þú að staðfesta að þú hafir aðgang að viðbótunum á Office 365 reikningnum þínum. Opnaðu einfaldlega Outlook Web Access í vafra og bættu síðan `/owa/#path=/options/manageapps` við slóðina í heimilisfangi. Þetta opnast á síðunni **Stjórna viðbótum**, þar sem þú getur virkjað [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir Outlook. Þá, þegar þú vafrar aftur til Outlook, ætti [!INCLUDE[d365fin](includes/d365fin_md.md)] að vera tiltæk.  
+Í fyrsta lagi verður þú að staðfesta að þú hafir aðgang að viðbótunum á Office 365 reikningnum þínum. Opnaðu einfaldlega Outlook í vafra og bættu síðan `/owa/#path=/options/manageapps` við slóðina í heimilisfangi. Þetta opnast á síðunni **Stjórna viðbótum**, þar sem þú getur virkjað [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir Outlook. Þá, þegar þú vafrar aftur til Outlook, ætti [!INCLUDE[d365fin](includes/d365fin_md.md)] að vera tiltæk.  
 
 Á svipaðan hátt í Outlook skjáborðsþjóninum getur þú staðfest að [!INCLUDE[d365fin](includes/d365fin_md.md)] er skráð á síðunni **Stjórna innbótum**.  
 

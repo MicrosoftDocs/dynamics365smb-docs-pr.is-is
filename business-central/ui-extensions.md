@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: d03d1aa3910dc73dc61c61bdd66725e8e8af3c66
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: e1f7d9891be4ae31fc3f98fb768bfddcd38582ca
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621115"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629873"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Sérstilling Business Central með viðbótum
 Þú getur breytt [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að setja viðbætur sem bæta við virkni, breyta hegðun eða gefa þér aðgang að nýjum netþjónustu, til dæmis.
@@ -48,24 +48,28 @@ Sumar viðbætur eru veittar af Microsoft, og aðrar viðbætur eru veittar af [
 
 Microsoft veitir eftirfarandi viðbætur:  
 
-* [Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
-* [QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)  
-* [Sölu- og birgðaspár](ui-extensions-sales-forecast.md)  
-* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)  
-* [Quickbooks-viðbótin fyrir innflutning á launaskrá](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
-* [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)  
-* [QuickBooks Online Gagnaflutningur](ui-extensions-quickbooks-online-data-migration.md)  
-* [Endurskoðandagátt](ui-extensions-accountant-portal.md)  
-* [Myndgreinandi](ui-extensions-image-analyzer.md)  
-* [Greiðslur og afstemmingar (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [C5 Gagnaflutningur](ui-extensions-c5-data-migration.md)  
-* [Essential viðskiptainnsýn](ui-extensions-essential-business-insights.md)  
-* [Greiðsludráttarspár](ui-extensions-late-payment-prediction.md  )
-* [Senda greiðslutilkynningu](ui-extensions-send-remittance-advice.md)
+* [Endurskoðandagátt fyrir Business Central](ui-extensions-accountant-portal.md)
+* [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
+* [Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Essential viðskiptainnsýn](ui-extensions-essential-business-insights.md)
+* [Myndgreinandi](ui-extensions-image-analyzer.md)
+* [Snjallský](ui-extensions-data-replication.md)
+* [Grunnur snjallskýs](ui-extensions-intelligent-cloud.md)
+* [Greiðsludráttarspár](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [QuickBooks gagnaflutningur](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online Gagnaflutningur](ui-extensions-quickbooks-online-data-migration.md)
+* [Quickbooks-viðbótin fyrir innflutning á launaskrá](ui-extensions-quickbooks-payroll.md)
+* [Sölu- og birgðaspár](ui-extensions-sales-forecast.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK - C5 gagnaflutningur](ui-extensions-c5-data-migration.md)
+* [DK - Greiðslur og afstemmingar](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK - Skráarsnið skatts](ui-extensions-tax-file-formats-dk.md)
+* [UK - GetAddress.io UK póstnúmer](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA - Senda greiðslutilkynningu](ui-extensions-send-remittance-advice.md)
+* [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)
 
 > [!NOTE]  
 >  Nýjar viðbætur eru ekki tiltækar í AppSource strax eftir að við tilkynnum um uppfærslu. Þú getur fylgst með viðbótum á [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
@@ -73,7 +77,7 @@ Microsoft veitir eftirfarandi viðbætur:
 ## <a name="see-also"></a>Sjá einnig
 [Stækka Dynamics 365 Business Central](about-develop-extensions.md)  
 [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)  
-[Setja upp Envestnet Yodlee Bank Feeds þjónustu](bank-how-setup-bank-statement-service.md)  
+[Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md)  
 [Virkja greiðslur viðskiptamanna gegnum PayPal](sales-how-enable-payment-service-extensions.md)  
 [Yfirfæra viðskiptagögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Setja upp GetAddress.io UK Postal Code viðbótina](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  

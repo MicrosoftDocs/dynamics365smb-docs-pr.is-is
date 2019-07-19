@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 04/01/2019
+ms.date: 06/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6903744c1be0492267c8dee307e4b012aed4ffa4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3ece1edb7ba18cb96099cba34065c96164390e82
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251033"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632707"
 ---
 # <a name="setting-up-sales"></a>Uppsetning sölu
 Áður en hægt er að hefjast handa við að stýra söluferlum þarf að grunnstilla reglur og gildi sem ráða sölureglum fyrirtækisins.
@@ -37,6 +37,7 @@ Uppsetning fjármálatendrar sölu, eins og greiðslumáti og gjaldmiðill, er f
 | Tilgreint er fyrir tiltekin viðskiptamann eða alla viðskiptamenn hvernig söluskjöl eru send sjálfkrafa þegar **Bóka og senda** |[Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md) |
 | Settu upp tölvupóst til að innihalda samantekt á upplýsingum í söluskjali sem er verið að senda. |[Senda skjöl í tölvupósti](ui-how-send-documents-email.md). |
 |Notaðu EB vefþjónustu til að staðfesta að VSK-númerin viðskiptamanna.|[Staðfesta VSK-skráningarnúmer](finance-setup-vat.md)|
+|Skilgreindu mismunandi inco-skilmála sem þú býður viðskiptamönnum upp á eða þá sem lánardrottnar þínir bjóða þér.|[Afhendingarmátar settir upp](sales-how-set-up-shipment-methods.md)|
 |Færa inn upplýsingar um mismunandi flutningsseljendur sem skipt er við, ásamt tengli á sendingarleitarþjónustu þeirra.|[Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Sjá einnig

@@ -1,6 +1,6 @@
 ---
-title: Skoða stöðu á samstillingu | Microsoft Docs
-description: Kynntu þér hvernig á að skoða stöðuna á stökum samstillingarverkum.
+title: Skoða stöðu á samstillingarverkum | Microsoft Docs
+description: Kynntu þér hvernig á að skoða stöðuna eftir samstillingu tengdra færslna.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,26 +8,41 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 11e29674c2d12031fdf4e7f66e767be4fcc74795
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 8d7421d5fee1a6498c204730f873c3746aafc637
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620885"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726745"
 ---
-# <a name="view-the-status-of-a-synchronization"></a>Skoða stöðu á samstillingu
-Hægt er að skoða stöðu stakra samstillingarverka sem keyrð hafa verið fyrir [!INCLUDE[crm_md](includes/crm_md.md)]-samþættingu. Þetta felur í sér samstillingarverk sem hafa verið í gangi frá verkröð og handvirk samstillingarverk sem voru gerðar á færslum frá [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta er gagnlegt við úrræðaleit á vandamálum samstillingar vegna þess að þú færð aðgang að upplýsingum um tilteknar villur.
+# <a name="view-the-status-of-synchronization-jobs"></a>Skoða stöðu samstillingarverka
+Notaðu síðuna **Samstillingarvillur í tengdum gögnum** til að skoða stöðu samstillingarverka sem hafa verið keyrðar fyrir tengdar færslur í [!INCLUDE[crm_md](includes/crm_md.md)]-samþættingu. Þetta felur í sér verk sem voru í gangi frá verkröð og handvirk samstillingarverk sem voru í gangi í færslum frá [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til dæmis er gagnlegt að skoða stöðu þeirra við úrræðaleit vegna þess að þú færð aðgang að upplýsingum um villur sem tengjast tengdum færslum. Venjulega koma þessar tegundir af villum upp vegna aðgerða notanda, t.d. þegar:  
 
-### <a name="to-view-synchronization-issues-for-coupled-records"></a>Til að skoða samstillingarvandamál fyrir tengdar færslur
+* Tveir einstaklingar gerðu breytingu á sömu færslunni í báðum viðskiptaforritunum.
+* Einhver eyddi færslu í öðru hvoru forritinu, en ekki í báðum.
+
+> [!Note]
+> Á síðunni **Samstillingarvillur í tengdum gögnum** er að finna upplýsingar um verk sem tengjast tengdum færslum. Ef leyst er úr öllum villunum en færslurnar eru enn ekki samstilltar gæti það haft eitthvað að gera með stillingu samþættingarinnar. Venjulega þarf stjórnandi þinn að leysa úr þess konar villum.   
+
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+
+## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Skoða og leysa úr samstillingarvillum fyrir tengdar færslur
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Samstillingarvilla í tengdum gögnum** og veldu síðan tengda tengilinn.
-2. Síðan **Samstillingarvillur í tengdum gögnum** sýnir vandamál sem komu upp þegar tengdar færslur voru samstilltar. Hægt er að sía og flokka færslur og grípa til aðgerða á borð við **Endurheimta** eða **Eyða færslum** til að leysa vandamál eitt af öðru.
+2. Síðan **Samstillingarvillur í tengdum gögnum** sýnir vandamál sem komu upp þegar tengdar færslur voru samstilltar. Eftirfarandi tafla inniheldur aðgerðir sem hægt er að nota til að leysa vandamál eitt í einu:
 
-### <a name="to-view-synchronization-log-for-specific-manually-synchronized-record"></a>Að skoða samstillingarkladda fyrir tiltekna (handvirkt samstillta) færslu
-1. Opnaðu til dæmis viðskiptamann, vöru eða einhverja aðra færslu sem samstillir gögn milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og Sales
+|Aðgerð|Description|
+|----|----|
+|**Fjarlægja tengingu**|Aftengir færslurnar og þær samstillast ekki lengur. Til að samstilla færslurnar á ný þarf að tengja þær aftur.|
+|**Reyna aftur**|Fyrir hverja færslu þar sem villa finnst er samstillingu sleppt nema vandamálið sé leyst handvirkt. Þegar reynt er aftur verður færslan höfð með í næstu samstillingu.|
+|**Samstilla**|Forritið reynir að leysa úr árekstri þar sem færslu var breytt í báðum viðskiptaforritunum. Hægt er að velja útgáfu færslunnar sem á að nota í báðum forritunum.|
+|**Endurheimta færslur** og **Eyða færslum**|Þetta er gagnlegt þegar færslu var eytt í einu af forritunum. Eyða færslum eyðir færslunni í forritinu þar sem hún er enn til staðar. Endurheimta býr færsluna til aftur í forritinu sem henni var eytt úr.|
+
+## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Að skoða samstillingarkladdann fyrir tiltekna (handvirkt samstillta) færslu
+1. Opnaðu til dæmis viðskiptamann, vöru eða einhverja aðra færslu sem samstillir gögn milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Veldu aðgerðina **Samstillingarkladdi** til að skoða samstillingarkladda fyrir valda færslu. Til dæmis tiltekinn viðskiptavin sem var samstilltur handvirkt.
 
 ## <a name="see-also"></a>Sjá einnig  
-[Uppsetning Dynamics 365 for Sales samþættingu í Business Central](admin-setting-up-integration-with-dynamics-sales.md)  
+[Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Að nota Dynamics 365 for Sales úr Business Central](marketing-integrate-dynamicscrm.md)

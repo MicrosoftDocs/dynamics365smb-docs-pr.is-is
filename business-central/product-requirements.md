@@ -1,6 +1,6 @@
 ---
 title: Lágmarkskröfur til notkunar Business Central | Microsoft Docs
-description: Lærðu um lágmarks kerfis- og útgáfukröfur til að nota Business Central.
+description: Lærðu um lágmarks kerfis- og útgáfukröfur til að nota Business Central á netinu.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: edupont
-ms.openlocfilehash: 42e0bd7555b99b8e9ba6748d77817c69eb55d009
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dff8f2e677c49f089ec2b7ee01dc1565ee4aa261
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252887"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711038"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
-Áður en þú ferð inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
+Áður en þú ferð inn í [!INCLUDE [prodshort](includes/prodshort.md)] á netinu mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
 
 ## <a name="browsers"></a>Vafrar
 **Chrome fyrir Windows og Firefox fyrir Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfum þessara skjáborðsvafra.  
@@ -33,13 +33,17 @@ ms.locfileid: "1252887"
 **Tækjastærð**: [!INCLUDE[d365fin](includes/d365fin_md.md)] er studd á smartphones með lágmarks skjár stærð 4 "og töflur með lágmarks skjár stærð 7".  
 
 ## <a name="outlook"></a>Outlook
-**Outlook forrit:** Til að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2016 eða síðar, Outlook Web App, OWA fyrir iPhone, OWA fyrir iPad eða OWA fyrir Android.  
+**Outlook forrit:** Til að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2016 eða síðar, Outlook Web App, OWA fyrir iPhone, OWA fyrir iPad eða OWA fyrir Android. Fyrirtækið þitt verður einnig að nota Office 365. Ekki er hægt að nota [!INCLUDE [prodshort](includes/prodshort.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum.  
 **Vafrar:** Þegar [!INCLUDE[d365fin](includes/d365fin_md.md)] er notað sem fyrirtækisinnhólf í Outlokk eða Outlook-vefforrit (OWA) krefst innbótin að tölvan þín keyri einn af skráðum studdum vöfrum sem eru tilteknir fyrr í þessari grein.  
 **Verkvangar:** Þegar þú notar [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In í OWA fyrir iPhone, OWA fyrir iPad og OWA fyrir Android þarf viðbótin að farsíminn þinn sé að keyra eitt af farsímum sem eru skráðir fyrir stuðning [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="excel"></a>Excel
 **Breyta í Excel:** Til að nota Excel-viðbótina til að gera breytingar í Excel og ýta breytingunum aftur í [!INCLUDE[d365fin](includes/d365fin_md.md)] þarftu Excel 2016 eða síðar. Frekari upplýsingar eru í [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md).  
 
+## <a name="using-business-central-on-premises"></a>Notkun Business Central á staðnum
+
+Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfiskröfurnar. Frekari upplýsingar er að finna í [Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central) og [Yfirlit uppsetningar](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa](product-get-started.md)  
-[Kerfiskröfur fyrir Dynamics 365 Business Central á staðnum](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  
+[Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  

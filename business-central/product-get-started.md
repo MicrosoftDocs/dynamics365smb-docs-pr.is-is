@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: eae085d430fb7341b8ac62f26033d68d9ea155cf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254081"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629942"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Auðvelt er að skrá sig og hægt er að yfirfæra fyrirliggjandi viðskiptagögn úr eldra kerfinu. Til að hjálpa þér við áskriftina þína skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -23,7 +23,7 @@ ms.locfileid: "1254081"
 Þegar þú skráir þig í forskoðunina á [!INCLUDE[d365fin](includes/d365fin_md.md)] færðu aðgang að sýnifyrirtæki. Sýndarfyrirtækið er með sýnigögn en þú getur til dæmis búið til þín eigin söluskjöl, eða sett upp bankareikning.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Fá að vita [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Í sýnifyrirtækisins mun myndefni útskýra grunnvirkni og hjálpa þér að prufa daglega verkhluta, eins og að búa til sölureikning og skoðun skýrslu. Ef þú hættir í leiðbeiningu, til dæmis til að skoða [!INCLUDE[d365fin](includes/d365fin_md.md)] á eigin vegum, en vilt fara aftur í hana, skaltu fara til baka í Mitt hlutverk og opna kynninguna Hafist handa. Ef þú vilt fá frekari aðstoð skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search).  
+Í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Í sýnifyrirtækisins mun myndefni útskýra grunnvirkni og hjálpa þér að prufa daglega verkhluta, eins og að búa til sölureikning og skoðun skýrslu. Ef þú hættir í leiðbeiningu, til dæmis til að skoða [!INCLUDE[d365fin](includes/d365fin_md.md)] á eigin vegum, en vilt fara aftur í hana, skaltu fara til baka í Mitt hlutverk og opna kynninguna Hafist handa. Ef þú vilt fá frekari aðstoð skaltu hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila.  
 
 > [!TIP]  
 > Þú getur farið aftur í Mitt hlutverk með því að velja heiti fyrirtækisins í efra vinstra horninu.
@@ -36,7 +36,11 @@ Hér eru nokkur eldsnögg trix, sem gott er að vita af:
 
 Frekari upplýsingar er að finna í [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](across-business-functionality.md). Fyrir yfirlit yfir gildandi getu og hvað er fram undan, skaltu skoða útgáfuupplýsingarnar okkar á [Microsoft Dynamics 365 Business Central útgáfuupplýsingar](https://go.microsoft.com/fwlink/?linkid=2047422).  
+Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](across-business-functionality.md).
+
+Áður en þú getur byrjað að nota virkni verður að gera ákveðna uppsetningu. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md). Athugaðu að hægt er að gera sum uppsetningarskrefin hálfsjálfvirkt með uppsetningarleiðbeiningar með hjálp.
+
+Fyrir yfirlit yfir núverandi möguleika og hvað er framundan, skaltu skoða útgáfuáætlunina okkar á [Microsoft Dynamics 365 Business Central útgáfuáætlun](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Mín hlutverk
 Síðan Mitt hlutverk byggist á hlutverkamiðaðri hönnun til að veita þér hraðan aðgang að viðskiptaferli og verkfærum viðskiptagreindar sem þú þarft til að sinna starfinu þínu. Endurskoðandi má til dæmis fylgjast með greiðslur og samþykktir og skoða vaxtareikninga afköst myndrit. Skoðaðu alls kyns Mín hlutverk með því að velja táknið **Stillingar** ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingartákn fyrir Mitt hlutverk") efst í hægra horninu, velja **Mínar stillingar** og síðan Mitt hlutverk sem á að skoða. Skrá sig aftur inn til að láta breytinguna taka gildi. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md).
@@ -96,7 +100,7 @@ Ef þú ert endurskoðandi geturðu skráð þig fyrir [!INCLUDE[d365acc_long](i
 [Fáðu [!INCLUDE[d365fin](includes/d365fin_md.md)] í farsímann þinn](install-mobile-app.md)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Fylgigögn Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Microsoft Dynamics 365 Business Central Útgáfuupplýsingar](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Microsoft Dynamics 365 Business Central útgáfuáætlun](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

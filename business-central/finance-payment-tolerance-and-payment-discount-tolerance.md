@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: def9338cea3a1998aafac671e304c55f83fdece7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7ca4f01d261915e2ecf6416ee1d9e85f50c73fb0
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242469"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629712"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk
 Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum. Hægt er að nota vikmörk greiðsluafsláttar til að veita greiðsluafslátt eftir að afsláttarmörk eru liðin.  
@@ -218,7 +218,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-![Margar reglur um greiðsluvikmörk 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Margar reglur um greiðsluvikmörk 2")  
+![Margar reglur um greiðsluvikmörk 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Margar reglur um greiðsluvikmörk 2")  
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -229,7 +229,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-![Margar reglur um greiðsluvikmörk 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Margar reglur um greiðsluvikmörk 3")  
+![Margar reglur um greiðsluvikmörk 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Margar reglur um greiðsluvikmörk 3")  
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
