@@ -2,4 +2,4 @@
 >
 > Viltu vita hvað er nýtt og á döfinni í Dynamics 365 Business Central?
 >
-> [Skoðaðu nýjustu útgáfuna af útgáfuáætlun](/business-applications-release-notes/April19/dynamics365-business-central/). Við höfum tekið saman öll smáatriði og það er jafnvel hægt að fá útgáfuupplýsingarnar sem PDF-skjal sem hægt er að nota í áætlunargerð.  
+> [Skoðaðu nýjustu útgáfuna af útgáfuáætlun](/dynamics365/release-plans/index). Við höfum tekið saman öll smáatriðin, enda á milli, frá hvirfli til ilja, sem hægt er að nota við áætlanagerð. Hægt er að fá útgáfuáætlun sem stakt PDF-skjal fyrir hverja útgáfu fyrir sig.  

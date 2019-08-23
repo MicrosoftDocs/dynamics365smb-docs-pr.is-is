@@ -9,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.reviewer: edupont
+ms.date: 07/16/2019
 ms.author: soalex
-ms.openlocfilehash: d990cb86fb1aa9f4f7f7fba43bed1a8be83647d1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4a1d3a9e480ee87d791b68f66b9afa6a2be67535
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246260"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755144"
 ---
 # <a name="compliance"></a>Reglufylgni
 Þetta efni inniheldur upplýsingar um reglufylgni í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -30,6 +31,6 @@ Reglufylgni er efnisatriði sem vekur sífellt meiri áhuga og í gegnum þróun
 |Lærðu um reglufylgni út frá forriti, eins og almennu persónuverndarreglugerðina og alþjóðlega reikningsskilastaðla og fleiri.|[Reglufylgni forrits](compliance-application-compliance.md)|  
 |Kynntu þér reglufylgni á þjónustustigi og aðferðirnar sem eru notaðar á verkvangi til að tryggja Business Central bestu reglufylgniþjónustu í sínum flokki.|[Reglufylgni þjónustu](compliance-service-compliance.md)|  
 |Sjá upplýsingar um mismunandi vottanir sem tengjast Business Central. Hér finnur þú upplýsingar um almennar vottanir og landsbundnar vottanir.|[Vottanir](compliance-certifications.md)|  
+|Kynntu þér skilmála þjónustustigssamnings og aðra þjónustuskilmála|[Þjónustuskilmálar](compliance-service-compliance.md#service-terms)|  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

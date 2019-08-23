@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/03/2019
-ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.date: 07/17/2019
+ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
+ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726955"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1755970"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
@@ -43,11 +43,11 @@ Ef þú ert að nota prufuútgáfu af [!INCLUDE [prodshort](includes/prodshort.m
 
 ### <a name="blog"></a>Blogg
 
-Á [Blogg Business Central](https://community.dynamics.com/business/b/financials) getur þú fræðst meira um nýja eiginleika [!INCLUDE[prodshort](includes/prodshort.md)], nýjar útgáfur forrita, ábendingar og ráð, ásamt uppfærslum um útgáfur í nýjum löndum.  
+Við ræðum um nýja möguleika á [bloggsvæði Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), þ.á.m. hvenær þeir eru gerðir aðgengilegir og hvort huga þurfi að einhverju.  
 
 ### <a name="capabilities-coming-soon"></a>Væntanlegir eiginleikar
 
-[!INCLUDE[prodshort](includes/prodshort.md)] er uppfært með stórum eiginleikauppfærslum á 6 mánaða fresti og með mánaðarlegum þjónustuuppfærslum. Veldu tengilinn til að skoða nýjustu útgáfuáætlunina. Þú getur einnig fengið yfirlit yfir væntanlega og nýlega útgefna eiginleika í útgáfuáætlun fyrir Dynamics 365 á [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] er uppfært með stórum eiginleikauppfærslum á 6 mánaða fresti og með mánaðarlegum þjónustuuppfærslum. Veldu tengilinn til að skoða nýjustu útgáfuáætlunina. Þú getur einnig fengið yfirlit yfir væntanlega og nýlega útgefna eiginleika í útgáfuáætlun fyrir Dynamics 365 á [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
 
 Langtímayfirlitið, [!INCLUDE[prodshort](includes/prodshort.md)] [síða vegvísis](https://dynamics.microsoft.com/roadmap/business-central/), sýnir almennar forgangsraðanir fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á næstum árum.  
 

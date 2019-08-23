@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f80d2e1a1a864d5aaff0660d21603f91c5ce229
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c0f2f591bf43113b160bd81cd37b03d6efc8d41e
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251516"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796791"
 ---
 # <a name="sales"></a>Sala
 Búinn er til sölureikningur eða sölupöntun til að skrá samkomulag við viðskiptamann um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum.
@@ -42,6 +42,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Stofna sölutilboð þar sem boðið er upp á vörur með umsemjanlegum skilmálum áður en tilboðinu er breytt í sölureikning. |[Gera sölutilboð](sales-how-make-offers.md) |
 | Stofna sölureikning til að skrá samkomulag við viðskiptamann um að selja vörur með tilteknum afhendingar- og greiðsluskilmálum. |[Reikningsfæra sölur](sales-how-invoice-sales.md) |
 | Vinna sölupöntun sem felur í sér sendingu eða beina sendingu. |[Selja vörur](sales-how-sell-products.md) |
+|Það sem gerist þegar söluskjöl eru bókuð.|[Sölubókun](ui-post-sales.md)|
 |Setja upp staðlaðar innkaupa- og sölulínur sem þú getur fært á fljótlegan hátt inn í skjöl, til dæmis fyrir endurteknar áfyllingapantanir.|[Stofna ítrekaðar sölu- og innkaupalínur](sales-how-work-standard-lines.md)|  
 | Tengja sölupöntun við innkaupapöntun til að selja vöru beinnar afhendingar vara sem verður afhent beint frá lánardrottni til viðskiptamanns þíns. |[Beinar sendingar](sales-how-drop-shipment.md) |
 |Láttu lánardrottinn afgreiða til þín vörulistaatriði í vöruhúsið svo þú getir afgreitt vöruna til viðskiptamannsins.|[Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)|

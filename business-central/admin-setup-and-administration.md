@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: edupont
-ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 41917ece38cf553582438d7c57ca3e09b82b21e9
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247187"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796712"
 ---
 # <a name="administration"></a>Stjórnun
 Almenn stjórnunarverk eru yfirleitt framkvæmd af einu hlutverki innan fyrirtækisins. Umfang þessara verka getur byggst á stærð fyrirtækisins og starfsábyrgð stjórnandans. Þessi verk geta falið í sér umsjón með gagnagrunnssamstillingu verkraða og póstraða, uppsetningu notenda og sérstillingu viðmóts.  
@@ -33,7 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Bæta við notendum, meðhöndla heimildir og aðgang að gögnum, úthluta hlutverkum.|[Að skilja forstillingar og Mitt hlutverk](admin-users-profiles-roles.md)|  
+|Bæta við notendum, meðhöndla heimildir og aðgang að gögnum, úthluta hlutverkum.|[Að skilja forstillingar (hlutverk) og Mitt hlutverk](admin-users-profiles-roles.md)|  
 |Úthluta heimildum til notendur, breyta heimildasöfnum og hópnotendum á heimildir.|[Vinna með notendur og heimildir](ui-how-users-permissions.md)|
 |Flokka gagnatrúnað fyrir reiti þannig að þú getir svarað beiðnum frá skráðum aðilum sem tengjast persónuupplýsingum þeirra.|[Flokkun gagnatrúnaðar](admin-classifying-data-sensitivity.md)|
 |Svara beiðnum frá skráðum aðilum sem tengjast persónuupplýsingum þeirra.|[Svara beiðnum um persónuleg gögn](admin-responding-to-requests-about-personal-data.md)|

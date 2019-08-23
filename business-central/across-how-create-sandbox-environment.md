@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 06/26/2019
 ms.author: solsen
-ms.openlocfilehash: 217310522d7e54eeaa9dbd50df4ff89b0d68517d
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 10ccbc7546aa5d03c3837997a721c63c3ce465da
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711084"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796666"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -72,7 +72,7 @@ Mögulegt er að opna fyrir og prófa ítarlega (fulla) virkni [!INCLUDE[d365fin
 
 <!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
-Eftir að þú hefur opnað fyrir ítarlega virkni í sandkassi leigjandi, færðu aðgang að öllum stöðluðu forstillingunum og hlutverkamiðstöðvunum. Einnig er hægt að stofna matsfyrirtæki sem er að fullu uppsett, með sýnigögnum og aðgangi að ítarlegri svæðum vörunnar.
+Eftir að þú hefur opnað fyrir ítarlega virkni í sandkassi leigjandi, færðu aðgang að öllum stöðluðu forstillingunum (hlutverk) og Mitt hlutverk. Einnig er hægt að stofna matsfyrirtæki sem er að fullu uppsett, með sýnigögnum og aðgangi að ítarlegri svæðum vörunnar.
 
 <!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 

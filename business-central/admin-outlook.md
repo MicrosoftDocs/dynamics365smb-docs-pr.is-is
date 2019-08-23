@@ -8,27 +8,30 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 06/28/2019
+ms.date: 07/12/2019
 ms.author: edupont
-ms.openlocfilehash: 9248d39ed447f8c590db708567790edfd64da0db
-ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
+ms.openlocfilehash: 578f33dace52383ce588494d35c875ceaf6ffc21
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "1717585"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740457"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Notkun Business Central sem fyrirtækjainnhólf í Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kynnir möguleikann á að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum, ásamt því að semja og senda fjárhagsleg skjöl, svo sem tilboð og reikninga.  
 
 ## <a name="getting-the-add-in"></a>Að fá viðbótina
-Það er auðvelt að hefjast handa með [!INCLUDE[d365fin](includes/d365fin_md.md)]-innbótinni fyrir Outlook. Í uppsetningarleiðbeiningum með hjálp fyrir **Setja upp fyrirtækjainnhólf í Outlook** er hægt að setja upp tenginguna fyrir sjálfan þig eða fyrirtækið þitt ef fyrirtækið notar Office 365. Sláðu einfaldlega inn notandanafn og lykilorð fyrir Office 365. Innbót [!INCLUDE[d365fin](includes/d365fin_md.md)] er þá sjálfkrafa bætt við Outlook. Frekari upplýsingar er að finna í [Lágmarkskröfur fyrir Outlook](product-requirements.md#outlook).  
+Það er auðvelt að hefjast handa með [!INCLUDE[d365fin](includes/d365fin_md.md)]-innbótinni fyrir Outlook. Í uppsetningarleiðbeiningum með hjálp fyrir **Setja upp fyrirtækjainnhólf í Outlook** er hægt að setja upp tenginguna fyrir sjálfan þig eða fyrirtækið þitt ef fyrirtækið notar Office 365. Sláðu einfaldlega inn notandanafn og lykilorð fyrir Office 365 ef þú ert beðið er um það og láttu okkur vita ef þú vilt fá sent sýnishorn af tölvupóstskeyti. Innbót [!INCLUDE[d365fin](includes/d365fin_md.md)] er þá sjálfkrafa bætt við Outlook. Frekari upplýsingar er að finna í [Lágmarkskröfur fyrir Outlook](product-requirements.md#outlook).  
 
-Þegar þú opnar Outlook muntu sjá tölvupóst frá Dynamics 365 Business Central Admin. Nýju innbótunum er bætt við Outlook-borðann, og í Outlook Web-forritinu er hægt að sjá [!INCLUDE[d365fin](includes/d365fin_md.md)]-innbæturnar beint fyrir ofan eða neðan meginmál tölvupóstskeytisins. Innbæturnar eru uppfærðar reglulega og þú munt fá tilkynningu um að ný útgáfa sé tilbúin fyrir þig í Outlook.  
+Þegar þú opnar Outlook muntu sjá tölvupóst frá *Dynamics 365 Business Central-stjórnanda*. Nýju innbótunum er bætt við Outlook-borðann og í vafranum er hægt að sjá [!INCLUDE[prodshort](includes/prodshort.md)]-innbæturnar beint fyrir ofan eða neðan meginmál tölvupóstskeytisins. Innbæturnar eru uppfærðar reglulega og þú munt fá tilkynningu um að ný útgáfa sé tilbúin fyrir þig í Outlook.  
+
+> [!TIP]
+> Ef þú notar nýja Outlook í vafra, geta [!INCLUDE [prodshort](includes/prodshort.md)]-innbæturnar verið faldar undir **Fleiri aðgerðir**.
 
 Sum fyrirtæki sem nota Office 365 takmarka heimildir notenda til að taka í notkun innbætur. Því þarf að ganga úr skugga um að þú hafir Office 365 áskrift sem felur í sér tölvupóst og gerir það mögulegt að nota innbætur. Ef þú samt prófa innbæturnar geturðu [prófað Office 365 endurgjaldslaust](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Notaðu viðbótina Talnagögn tengiliða
-Segjum að þú fáir tölvupóst frá viðskiptavini sem vill fá tilboð í sumum hlutum. Beint í Outlook, getur þú opnað [!INCLUDE[d365fin](includes/d365fin_md.md)] viðbótina, sem viðurkennir sendanda sem viðskiptavin, og opnar viðskiptavinakortið fyrir fyrirtæki hans. Í þessu yfirliti má sjá yfirlit yfir upplýsingar um viðskiptamann, auk þess sem hægt er að kafa niður fyrir nánari upplýsingar um tiltekin skjöl. Einnig má fá frekari upplýsingar um söluferil viðskiptamannsins. Ef það er nýr viðskiptavinur getur þú búið til þau sem nýr viðskiptavinur í [!INCLUDE[d365fin](includes/d365fin_md.md)] án þess að yfirgefa Outlook.  
+Segjum að þú fáir tölvupóst frá viðskiptavini sem vill fá tilboð í sumum hlutum. Beint í Outlook, getur þú opnað [!INCLUDE[d365fin](includes/d365fin_md.md)] viðbótina, sem viðurkennir sendanda sem viðskiptavin, og opnar viðskiptavinakortið fyrir fyrirtæki hans. Í þessu yfirliti má sjá yfirlit yfir upplýsingar um viðskiptamann, auk þess sem hægt er að kafa niður fyrir nánari upplýsingar um tiltekin skjöl. Einnig má fá frekari upplýsingar um söluferil viðskiptamannsins. Ef það er nýr tengiliður getur þú búið hann til sem nýjan viðskiptamann í [!INCLUDE[d365fin](includes/d365fin_md.md)] án þess að yfirgefa Outlook.  
 
 Í innbótinni er hægt að stofna sölutilboð og senda það aftur til þessa viðskiptamanns án þess að fara úr Outlook. Allar upplýsingar sem þarf að senda sölutilboðið eru tiltækar í viðskiptainnhólfinu í Outlook.  
 Þegar búið er að færa inn gögnin er hægt að bóka tilboðið. Síðan er hægt að senda það með tölvupósti. [!INCLUDE[d365fin](includes/d365fin_md.md)] býr til PDF-skrá með sölutilboðinu og tengir það við tölvupóstskilaboðin sem notandi býr til í innbótinni.  
@@ -50,11 +53,15 @@ Til dæmis, ef þú færð tölvupóstskeyti sem nefnir textann *S-QUO100*, skil
 ## <a name="adding-the-add-ins-manually"></a>Bæta við viðbótunum handvirkt
 Í sumum tilfellum fá viðbætur ekki sjálfkrafa bætt við Outlook. Jafnvel þótt þú eða samstarfsmaður hljóp aðstoðaruppsetningarhandbókina fyrir hönd fyrirtækisins, gæti [!INCLUDE[d365fin](includes/d365fin_md.md)] ekki birst í Outlook. Ef þú finnur fyrir þessu vandamáli geturðu bætt við [!INCLUDE[d365fin](includes/d365fin_md.md)] viðbótunum handvirkt.  
 
-Í fyrsta lagi verður þú að staðfesta að þú hafir aðgang að viðbótunum á Office 365 reikningnum þínum. Opnaðu einfaldlega Outlook í vafra og bættu síðan `/owa/#path=/options/manageapps` við slóðina í heimilisfangi. Þetta opnast á síðunni **Stjórna viðbótum**, þar sem þú getur virkjað [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir Outlook. Þá, þegar þú vafrar aftur til Outlook, ætti [!INCLUDE[d365fin](includes/d365fin_md.md)] að vera tiltæk.  
+Í fyrsta lagi verður þú að staðfesta að þú hafir aðgang að viðbótunum á Office 365 reikningnum þínum. Opnaðu einfaldlega Outlook í vafra, farðu í **Stillingar** og veldu síðan **Stjórna innbótum**. Þetta opnar síðuna **Stjórna innbótum**, þar sem þú getur virkjað [!INCLUDE[prodshort](includes/prodshort.md)] fyrir Outlook. Þá, þegar þú vafrar aftur til Outlook, ætti [!INCLUDE[prodshort](includes/prodshort.md)] að vera tiltæk.  
 
 Á svipaðan hátt í Outlook skjáborðsþjóninum getur þú staðfest að [!INCLUDE[d365fin](includes/d365fin_md.md)] er skráð á síðunni **Stjórna innbótum**.  
 
 Í báðum tilvikum, ef [!INCLUDE[d365fin](includes/d365fin_md.md)] er ennþá ekki tiltækt, verður þú að fá innskráningarskrárnar. Hafðu samband við kerfisstjóra Office 365 til að fá frekari upplýsingar.
+
+## <a name="using-other-email-accounts"></a>Notkun annarra tölvupóstreikninga
+
+Viðbæturnar eru ætlaðar til notkunar með Office 365. Ef þú notar [!INCLUDE [prodshort](includes/prodshort.md)] á staðnum veit stjórnandinn þinn hvort þú getir notað [!INCLUDE [prodshort](includes/prodshort.md)]-innbæturnar í Outlook. Nánari upplýsingar er að finna í [Hvaða netfang get ég notað með [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#what-email-address-can-i-use-with-) og [Eiginleikar sem krefjast ákveðinna aðstæðna](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -64,3 +71,5 @@ Til dæmis, ef þú færð tölvupóstskeyti sem nefnir textann *S-QUO100*, skil
 [Fjármál](finance.md)  
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
+[Lágmarkskröfur fyrir Outlook](product-requirements.md#outlook)  
+[Notkun innbóta í Outlook á vefnum](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

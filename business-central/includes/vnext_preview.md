@@ -1,0 +1,1 @@
+Þessi eiginleiki, eða hluti af eiginleikanum, er í forútgáfu og innihaldið er verk í vinnslu.

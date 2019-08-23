@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: bholtorf
-ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238901"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796850"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Unnið með VSK í sölu og innkaupum
 Ef þitt land eða svæði krefst þess að reiknaður sé VSK skattur á sölu- og innkaupafærslur svo hægt sé talið upphæðirnar fram til skattayfirvalda, geturðu sett upp [!INCLUDE[d365fin](includes/d365fin_md.md)] þannig að VSK verði reiknaður sjálfkrafa á sölu- og innkaupaskjölum. Frekari upplýsingar, sjá [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md).
@@ -55,34 +55,42 @@ Jafnvel þótt ein eða fleiri samsetningar hafi verið settar upp til að afgre
 
 Ef greiðsluafsláttur er reiknaður af reikningsupphæð sem inniheldur VSK er mögulegt að bakfæra greiðsluafsláttarhluta VSK þegar greiðsluafsláttur er veittur. Athygli er vakin á því að virkja þarf reitinn **Leiðrétta v. greiðsluafsl.** bæði í fjárhagsgrunni almennt og í VSK-bókunargrunni fyrir tilteknar samsetningar á VSK-viðskiptabókunarflokki og VSK-vörubókunarflokki.  
 
-#### <a name="to-manually-enter-vat-in-sales-documents"></a>Til að færa VSK handvirkt inn í söluskjöl  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Til að setja kerfið upp fyrir handvirka VSK-færslu í söluskjölum
+Eftirfarandi lýsir því hvernig á að virkja handvirkar VSK-breytingar á söluskjölum. Skrefin eru svipuð á síðunni **Uppsetning innkaupa og viðskiptaskulda**.
+
 1. Í glugganum **Uppsetning fjárhags** er tilgreindur **leyfður hámarks VSK-mismunur** milli upphæðarinnar sem reiknuð er af kerfinu og handvirkt reiknuðu upphæðarinnar.  
 2. Á síðunni **Uppsetning Sala & Útistandandi** skal setja gátmerki í reitinn **Leyfa VSK-mismun**.  
 
-#### <a name="to-adjust-vat-for-a-sales-document"></a>Breyting VSK fyrir söluskjöl:  
+### <a name="to-adjust-vat-for-a-sales-document"></a>Breyting VSK fyrir söluskjöl:  
 1. Viðeigandi sölupöntun er opnuð.  
 2. Veldu **Upplýsingar** aðgerðina.  
-3. Smellt er á flýtiflipann **Reikningsfæra**.  
+3. Í flýtiflipanum **Reikningsfærsla** skal velja gildið í reitnum **Nr. skattalína**.
+4. Breyttu reitnum **VSK-upphæð**.   
 
-    > [!NOTE]  
-    >  Heildarupphæð VSK fyrir reikninginn, sem flokkaður er samkvæmt kennimerki VSK, er birt í línunum. Hægt er að breyta upphæðinni handvirkt í reitnum **VSK-upphæð** í línum hvers kennimerkis VSK. Þegar **VSK-upphæð** er breytt gengur kerfið úr skugga um VSK hafi ekki verið breytt um meira en þá upphæð sem tilgreind er sem leyfður hámarksmismunur. Ef upphæðin er utan **Hám. VSK-mismunur leyfður** birtist viðvörun þar sem hámarksmismunur er tekinn fram. Ekki er hægt að halda áfram fyrr en upphæðin hefur verið leiðrétt. Smellt er á **Í lagi** og önnur **VSK-upphæð** sem er innan hámarksmismunar færð inn. Ef VSK-mismunur er jafn og eða lægri en hámarkið er VSK deilt hlutfallslega á milli fylgiskjalalínanna sem eru með sama kennimerki VSK.  
+> [!NOTE]  
+> Heildarupphæð VSK fyrir reikninginn, sem flokkaður er samkvæmt kennimerki VSK, er birt í línunum. Hægt er að breyta upphæðinni handvirkt í reitnum **VSK-upphæð** í línum hvers kennimerkis VSK. Þegar **VSK-upphæð** er breytt gengur kerfið úr skugga um VSK hafi ekki verið breytt um meira en þá upphæð sem tilgreind er sem leyfður hámarksmismunur. Ef upphæðin er utan **Hám. VSK-mismunur leyfður** birtist viðvörun þar sem hámarksmismunur er tekinn fram. Ekki er hægt að halda áfram fyrr en upphæðin hefur verið leiðrétt. Smellt er á **Í lagi** og önnur **VSK-upphæð** sem er innan hámarksmismunar færð inn. Ef VSK-mismunur er jafn og eða lægri en hámarkið er VSK deilt hlutfallslega á milli fylgiskjalalínanna sem eru með sama kennimerki VSK.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Reikna VSK handvirkt með því að nota Færslubækur  
 Einnig er hægt að breyta VSK-upphæðum í almennum færslubókum, sölu- og innkaupabókum. Þetta kann t.d. að reynast nauðsynlegt þegar lánardrottinsreikningur er færður inn í færslubók notanda og mismunur er á milli VSK-upphæðarinnar sem reiknuð er af [!INCLUDE[d365fin](includes/d365fin_md.md)] og VSK-upphæðarinnar sem er á mótteknum reikningi frá lánardrottninum.  
 
-#### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Áður en hægt er að færa VSK handvirkt inn í færslubók  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Til að setja kerfið upp fyrir handvirka VSK-færslu í almennum færslubókum
+Eftirfarandi skref þarf að klára áður en VSK er fært handvirkt inn í almenna færslubók.  
+
 1. Í glugganum **Uppsetning fjárhags** er tilgreindur **leyfður hámarks VSK-mismunur** milli upphæðarinnar sem reiknuð er af kerfinu og handvirkt reiknuðu upphæðarinnar.  
 2. Á síðunni **Sniðmát færslubókar** skal velja **Leyfa VSK-mismun** gátreitinn fyrir viðeigandi færslubók.  
 
-#### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Áður en VSK er fært handvirkt inn í sölu- og innkaupabækur  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Til að setja kerfið upp fyrir handvirka VSK-færslu í sölu- og innkaupabókum
+Eftirfarandi skref þarf að klára áður en VSK er fært handvirkt inn í sölu- eða innkaupabók.
+
 1. Á síðunni **Uppsetning innkaup & viðskiptaskuldir** skal velja **Leyfa VSK-mismun** gátreitinn.  
-2. Þegar uppsetningunni er lokið eins og lýst er hér að ofan er hægt að breyta reitnum **VSK-upphæð** í færslubókarlínunni eða reitnum  **Mótreikningur VSK-upph.** í sölu- eða innkaupabókarlínunum. [!INCLUDE[d365fin](includes/d365fin_md.md)] gengur úr skugga um að mismunurinn sé ekki meiri en tilgreint hámark.  
+2. Endurtaktu skref 1 fyrir síðuna **Uppsetning sölugrunns**.
+3. Þegar uppsetningunni er lokið eins og lýst er hér að ofan er hægt að breyta reitnum **VSK-upphæð** í færslubókarlínunni eða reitnum  **Mótreikningur VSK-upph.** í sölu- eða innkaupabókarlínunum. [!INCLUDE[d365fin](includes/d365fin_md.md)] gengur úr skugga um að mismunurinn sé ekki meiri en tilgreint hámark.  
 
     > [!NOTE]  
     > Ef mismunurinn er of mikill birtist viðvörun þar sem hámarksmismunurinn er tekinn fram. Ekki er hægt að halda áfram fyrr en upphæðin hefur verið leiðrétt. Smellt er á **Í lagi** og upphæð sem er innan hámarksmismunar færð inn. Ef VSK-mismunurinn er jafn og eða lægri en leyfilegt hámark birtir [!INCLUDE[d365fin](includes/d365fin_md.md)] mismuninn í reitnum **Mismunur á VSK**.  
 
-## <a name="to-post-import-vat-with-purchase-invoices"></a>Hvernig á að bóka VSK vegna innflutnings með innkaupareikningum
-Í stað þess að nota færslubók til að bóka VSK-reikning vegna innflutnings er hægt að nota innkaupareikning.  
+## <a name="posting-import-vat-with-purchase-invoices"></a>Bókun VSK vegna innflutnings með innkaupareikningum
+Í stað þess að nota færslubækur til að bóka VSK-reikning vegna innflutnings er hægt að nota innkaupareikning.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Til að setja upp innkaup fyrir bókun VSK-reikninga vegna innflutnings  
 1. Lánardrottnaspjald er sett upp fyrir innflutningsyfirvöld sem senda VSK-reikning vegna innflutnings. **Alm. viðsk.bókunarflokkur** og **VSK viðsk.bókunarflokkur** verða að vera uppsettir á sama hátt og fjárhagsreikningurinn fyrir VSK vegna innflutnings.  
@@ -102,7 +110,7 @@ Einnig er hægt að breyta VSK-upphæðum í almennum færslubókum, sölu- og i
 6. Í reitnum **Innk.verð án VSK** er VSK upphæðin tilgreind.  
 7. Bóka skal reikninginn.  
 
-## <a name="to-process-certificates-of-supply"></a>Vinna framboðsvottorð
+## <a name="processing-certificates-of-supply"></a>Vinnsla framboðsvottorða
 Þegar vörur eru seldar viðskiptamanni í öðru land/svæði innan Evrópusambandsins þarftu að senda viðskiptamanninum afhendingarvottorð sem hann þarf að skrifa undir og skila þér. Eftirfarandi ferli eru fyrir meðhöndlun framboðsvottorða fyrir söluafhendingar, en sömu skref gilda um þjónustuafhendingu vara og skilaafhendingar til lánardrottna.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Til að skoða upplýsingar afhendingarvottorðs  

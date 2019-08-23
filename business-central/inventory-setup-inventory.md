@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2019
+ms.date: 06/20/2019
 ms.author: SorenGP
-ms.openlocfilehash: 038e3a9bfdb66a8d714f4f9452f0322623e6ddc4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 53214df635c637e265c6d302498beee08e9b806c
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238510"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870524"
 ---
 # <a name="setting-up-inventory"></a>Uppsetning birgða
 Áður en hægt er að hefjast handa við að stýra vöruhúsaaðgerðum og birgðakostnaði þarf að grunnstilla reglur og gildi sem ráða birgðareglum fyrirtækisins.
@@ -32,6 +32,7 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 |Grunnstilla skilvirkt dreifingarlíkan með mismunandi birgðageymslur og ábyrgðarstöðvum sem hefur verið úthlutað til viðskiptafélaga eða starfsmanna.|[Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)|
 | Skipuleggja birgðir í mörgum birgðageymslum, þar með talið flutningsleiðir. |[Uppsetning birgðageymsla](inventory-how-register-new-items.md) |
 | Stofna birgðaspjöld fyrir birgðavörur, vörur sem ekki eru birgðir eða þjónustuvörur sem boðið er upp á. |[Skrá nýjar vörur](inventory-how-register-new-items.md) |
+|Notaðu virknina **Afrita vöru** til að búa til nýtt birgðaspjald með fljótlegum hætti sem byggt er á fyrirliggjandi birgðaspjaldi.|[Afrita fyrirliggjandi vörur í Búa til nýjar vörur](inventory-how-copy-items.md)|
 |Lærðu hvernig á að fylla inn **Tegund** reitinn á birgðaspjöldum í samræmi við viðskiptatilgang.|[Um vörutegundir](inventory-about-item-types.md)|
 |Setja upp margar mælieiningar fyrir vöru sem hægt er að nota sem mælieiningu til vara, til dæmis í sölu, við innkaup eða framleiðslufærslu.|[Setja upp mælieiningu vara](inventory-how-setup-units-of-measure.md)|
 |Sem viðbót við birgðaspjöld, skrá upplýsingar um vörur fyrir tiltekna birgðageymslu eða tiltekinn afbrigði.|[Setja upp birgðahaldseiningar](inventory-how-to-set-up-stockkeeping-units.md)|

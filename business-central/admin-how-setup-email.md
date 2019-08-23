@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 07/12/2019
 ms.author: edupont
-ms.openlocfilehash: b7f41e3630b818607dee18ad2b8afe6ba5daa3de
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f1afacec447e645136321b73b6dd3fab8b36fe0
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245836"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740480"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Setja upp tölvupóst handvirkt eða með því að nota Uppsetningu með aðstoð
 Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú að fylla út reitina á síðunni **SMTP-póstuppsetning**.
@@ -32,6 +32,36 @@ Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d3
 3. Þú getur einnig valið **Nota stillingar Office 365 Stillingar vefþjóns** aðgerðina til að setja inn upplýsingar sem eru þegar skilgreindar fyrir Office 365 áskriftina þína.
 4. Þegar allir reitir eru fylltir út velurðu aðgerðina **Prófa tölvupóstuppsetningu**.
 5. Þegar prófið hefur tekist skal loka síðunni.
+
+## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Notkun staðgengilsnetfang sendanda fyrir send tölvupóstskeyti
+Öll send tölvupóstskeyti úr [!INCLUDE[d365fin](includes/d365fin_md.md)] nota sjálfgefið netfang fyrir reikninginn sem var tilgreindur á SMTP-uppsetningarsíðu tölvupósts eins og lýst er hér að ofan. Þú getur hinsvegar notað möguleikana **Senda sem** eða **Senda fyrir hönd** á Exchange-þjóninum til að breyta netfangi sendanda fyrir skeyti á útleið. [!INCLUDE[d365fin](includes/d365fin_md.md)] notar sjálfgefinn reikning til að sannvotta fyrir Exchange, en mun annaðhvort skipta út netfangi sendanda með því sem þú tilgreinir eða breytir því með „fyrir hönd.“ 
+
+Eftirfarandi eru dæmi um hvernig Senda sem og Senda fyrir hönd eru notuð í [!INCLUDE[d365fin](includes/d365fin_md.md)].:
+
+ * Þegar þú sendir skjöl eins og innkaupa- eða sölupantanir til lánardrottna og viðskiptamanna viltu mögulega að það líti út fyrir að þeir hafi komið frá netfanginu _noreply@yourcompanyname.com_. 
+ * Þegar verkflæðið þitt sendir samþykktarbeiðni í tölvupósti með netfangi beiðanda.
+
+> [!Note]
+> Aðeins er hægt að nota einn reikning sem staðgengil fyrir netföng sendanda. Þú getur sem sagt ekki haft eitt staðgengilsnetfang fyrir innkaupferli og annað fyrir söluferli.
+
+### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Til að setja upp staðgengilsnetfang sendanda fyrir öll tölvupóstskeyti á útleið
+1. Í **Stjórnandamiðstöð Exchange** fyrir Office 365-reikninginn þinn skaltu finna pósthólfið sem nota á sem staðgengilsnetfang og síðan skaltu afrita eða skrifa hjá þér netfangið. Ef þú þarft nýtt netfang skaltu fara í Stjórnendamiðstöð Microsoft 365 til að búa til nýjan notanda og setja upp pósthólfið hans. 
+2. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP Uppsetning tölvupósts** og veldu síðan tengda tengilinn.
+3. Í reitnum **Senda sem** skal færa inn staðgengilsnetfangið.
+4. Afritaðu eða skráðu netfangið niður í reitinn **Notandakennið**.
+5. Í **Stjórnandamiðstöð Exchange** skaltu finna pósthólfið sem á að nota sem staðgengilsnetfang og færðu síðan inn netfangið úr reitnum **Notandakenni** í reitnum **Senda sem**. Frekari upplýsingar er að finna í [Stjórna heimildum fyrir viðtakendur](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+
+### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Til að nota staðgengilsnetfangið í samþykktarverkflæðum
+1. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP Uppsetning tölvupósts** og veldu síðan tengda tengilinn.
+2. Afritaðu eða skráðu netfangið niður í reitinn **Notandakennið**.
+3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **samþykki notandauppsetningar** og veldu síðan tengda tengilinn.
+4. Í **Stjórnandamiðstöð Exchange** skaltu finna pósthólfin fyrir hvern notanda sem kemur fyrir á síðunni **Notandauppsetning samþykktar** og í reitinn **Senda sem** skal færa inn netfangið úr reitnum **Notandakenni** á síðunni **SMTP uppsetning tölvupósts** í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar er að finna í [Stjórna heimildum fyrir viðtakendur](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+5. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP Uppsetning tölvupósts** og veldu síðan tengda tengilinn.
+6. Til að virkja skiptingu skal kveikja á víxlun **Leyfa að skipta um sendanda**.
+
+> [!Note]
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] ákvarðar hvaða netfang eigi að birta í eftirfarandi röð: <br><br> 1. Netfang tilgreint í reitnum **Tölvupóstur** á síðunni **Notandauppsetning samþykktar** fyrir skeyti í verkflæði. <br> 2. Netfang tilgreint í reitnum **Senda sem** á síðunni **SMTP uppsetning tölvupósts**. <br> 3. Netfang tilgreint í reitnum **Notandakenni** á síðunni **SMTP uppsetning tölvupósts**.
+
 
 ## <a name="see-also"></a>Sjá einnig  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

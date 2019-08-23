@@ -106,6 +106,7 @@
 ### [Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)
 ### [Uppsetning birgðageymsla](inventory-how-setup-locations.md)
 ### [Skrá nýjar vörur](inventory-how-register-new-items.md)
+### [Afrita fyrirliggjandi vörur í Búa til nýjar vörur](inventory-how-copy-items.md)
 ### [Um vörutegundir](inventory-about-item-types.md)
 ### [Setja upp mælieiningu vara](inventory-how-setup-units-of-measure.md)
 ### [Setja upp birgðahaldseiningar](inventory-how-to-set-up-stockkeeping-units.md)
@@ -302,7 +303,7 @@
 
 # Stjórnun
 ## [Yfirlit](admin-setup-and-administration.md)
-## [Skilja forstillingar og Mitt hlutverk](admin-users-profiles-roles.md)
+## [Að skilja notendur, hlutverk og forstillingar](admin-users-profiles-roles.md)
 ## [Vinna með notendur og heimildir](ui-how-users-permissions.md)
 ## [Flokkun gagnatrúnaðar](admin-classifying-data-sensitivity.md)
 ## [Svara beiðnum um persónuleg gögn](admin-responding-to-requests-about-personal-data.md)
@@ -834,7 +835,6 @@
 #### [Senda innheimtubréf](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
 #### [Prenta prófunarskýrslur fyrir innheimtubréf](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Almennt
-#### [Afrita fyrirliggjandi vörur í nýjar vörur](LocalFunctionality/Austria/how-to-copy-existing-items-to-new-items.md)
 #### [Prenta upplýsingar um fjárhagsgrunn](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 #### [Prenta sölu- og innkaupapantanir við fjöldabókun](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
@@ -856,7 +856,6 @@
 #### [Jafna CODA-yfirlit](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 #### [Flytja og bóka CODA-yfirlit sjálfvirkt](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
 #### [CODA-bankayfirlit](LocalFunctionality/Belgium/coda-bank-statements.md)
-#### [Sækja CODA-skrár frá Isabel-þjóni](LocalFunctionality/Belgium/how-to-download-coda-files-from-an-isabel-server.md)
 #### [Belgísk rafræn bankaviðskipti](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 #### [Setja upp rafræn bankaviðskipti](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
 #### [Setja upp samskiptareglur um útflutning](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
@@ -866,8 +865,6 @@
 #### [Búa til sniðmát og runur færslubókar](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 #### [Prófa rafrænar greiðslur](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
 #### [Búa til greiðslutillögur](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-#### [Isabel 6](LocalFunctionality/Belgium/isabel-6.md)
-#### [Hlaða upp greiðsluskrám á Isabel-þjón](LocalFunctionality/Belgium/how-to-upload-payment-files-to-an-isabel-server.md)
 #### [Flytja inn CODA-yfirlit](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### [Stjórna rafrænum greiðslulínum](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
 #### [Flytja og bóka CODA-yfirlit handvirkt](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
@@ -883,7 +880,6 @@
 #### [Flytja út og bóka lögheimili](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 #### [Búa til tillögur um lögheimili](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 #### [Samantekt á greiðslulínum og færslubókarlínum](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
-#### [Safnvista IBS-skráarfærslur](LocalFunctionality/Belgium/how-to-archive-ibs-log-entries.md)
 ### Core-fjármál
 #### [Jafna og ógilda fjárhagsfærslur](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Stofna fjárhagsbækur](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -1025,7 +1021,6 @@
 #### [Hafa með skráningarnúmer fyrirtækis á söluskýrslum og innkaupaskýrslum](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
 #### [Prenta sölu- og innkaupapantanir við fjöldabókun](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Prenta upplýsingar um fjárhagsgrunn](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
-#### [Afrita fyrirliggjandi vörur í nýjar vörur](LocalFunctionality/Germany/how-to-copy-existing-items-to-new-items.md)
 #### [Vottun á Business Central fyrir þýskan markað (skjalið er á þýsku)](https://go.microsoft.com/fwlink/?linkid=875256)
 
 ## Ísland
@@ -1242,7 +1237,7 @@
 #### [Hvernig á að: Losa, rekja og afskrifa eignir](LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md)
 #### [Hvernig á að: Skoða bókaðar færslur fyrir gjald eignar](LocalFunctionality/Russia/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)
 #### [Hvernig á að: Setja upp reikning óáþreifanlegra eigna](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
-#### [Hvernig á að: Reikningur fyrir kostnað þess að farga eign](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) 
+#### [Hvernig á að: Reikningur fyrir kostnað þess að farga eign](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 #### [Eignir sem ekki er hægt að afskrifa](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
 ### VSK
 #### [Yfirlit](LocalFunctionality/Russia/VAT.md)
@@ -1376,7 +1371,6 @@
 #### [Prenta prófunarskýrslur fyrir innheimtubréf](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
 ### Birgðir
 #### [Svissnesk birgðastjórnun](LocalFunctionality/Switzerland/swiss-inventory-management.md)
-#### [Afrita fyrirliggjandi vörur í nýjar vörur](LocalFunctionality/Switzerland/how-to-copy-existing-items-to-new-items.md)
 #### [Prenta birgðatínslulista úr sölupöntun](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 ### Almennt    
 #### [Flytja inn svissnesk póstnúmer](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)

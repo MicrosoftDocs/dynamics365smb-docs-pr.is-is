@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629942"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858290"
 ---
-# <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Auðvelt er að skrá sig og hægt er að yfirfæra fyrirliggjandi viðskiptagögn úr eldra kerfinu. Til að hjálpa þér við áskriftina þína skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Þegar þú skráir þig í forskoðunina á [!INCLUDE[d365fin](includes/d365fin_md.md)] færðu aðgang að sýnifyrirtæki. Sýndarfyrirtækið er með sýnigögn en þú getur til dæmis búið til þín eigin söluskjöl, eða sett upp bankareikning.  
 
-## <a name="get-to-know-included365finincludesd365finmdmd"></a>Fá að vita [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Fá að vita [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Í sýnifyrirtækisins mun myndefni útskýra grunnvirkni og hjálpa þér að prufa daglega verkhluta, eins og að búa til sölureikning og skoðun skýrslu. Ef þú hættir í leiðbeiningu, til dæmis til að skoða [!INCLUDE[d365fin](includes/d365fin_md.md)] á eigin vegum, en vilt fara aftur í hana, skaltu fara til baka í Mitt hlutverk og opna kynninguna Hafist handa. Ef þú vilt fá frekari aðstoð skaltu hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila.  
 
 > [!TIP]  
@@ -87,7 +87,7 @@ Ef þú hefur fleiri spurningar mælum við með því að þú spyrjir samféla
 Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search). Einnig er hægt að hafa samband við [[!INCLUDE[d365fin](includes/d365fin_md.md)] Söluteymi](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Önnur Dynamics 365 forrit
-Fara á innihald um önnur Dynamics 365 forrit með því að velja [Dynamics 365](https://docs.microsoft.com/dynamics365) hlekkinn á bláa borðanum efst á þessari síðu. Einnig er hægt að læra meira á [Dynamics 365 Business Central vefsíðunni ](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Fara á innihald um önnur Dynamics 365 forrit með því að velja [Dynamics 365](/dynamics365/) hlekkinn á bláa borðanum efst á þessari síðu. Einnig er hægt að læra meira á [Dynamics 365 Business Central vefsíðunni ](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
 Ef þú ert endurskoðandi geturðu skráð þig fyrir [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] fyrir samþættingu við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í [Velkomin í Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
 
@@ -99,7 +99,7 @@ Ef þú ert endurskoðandi geturðu skráð þig fyrir [!INCLUDE[d365acc_long](i
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem mitt viðskiptainnhólf í Outlook](admin-outlook.md)  
 [Fáðu [!INCLUDE[d365fin](includes/d365fin_md.md)] í farsímann þinn](install-mobile-app.md)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
-[Fylgigögn Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
+[Fylgigögn Dynamics 365](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central útgáfuáætlun](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 

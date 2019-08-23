@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 06/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c86cd9018caa59106468121e1d763d0974c96e
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 5f3bab58a2387f5bf21042da782756f7b36d4792
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629919"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740503"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Röðun, leit og síun í listum
 Það eru nokkrir hlutir sem munu hjálpa þér að skanna, finna og takmarka skrár í lista. Þar á meðal er röðun, leit og afmörkun. Þú getur notað suma eða alla þessa hluti samtímis til að finna eða greina gögnin þín fljótt.
@@ -128,10 +128,15 @@ Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#Keyboa
 
 
 ## <a name="FilterCriteria"> </a>Síuskilyrði og tákn
-Þegar skilyrði eru sett er hægt að nota alla sömu tölustafi og bókstafi sem venjulega eru notaðir í reitnum. Ennfremur er hægt að nota sértákn til að afmarka niðurstöðurnar frekar. Í eftirfarandi töflum eru táknin sem hægt er að nota í afmarkanir. Fyrir dagsetningar og tíma er einnig hægt að vísa til [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md) til að fá nánari upplýsingar.
+Þegar skilyrði eru sett er hægt að nota alla sömu tölustafi og bókstafi sem venjulega eru notaðir í reitnum. Ennfremur er hægt að nota sértákn (eða virknitákn) til að afmarka niðurstöðurnar enn frekar. Í eftirfarandi töflum eru táknin sem hægt er að nota í afmarkanir. Fyrir dagsetningar og tíma er einnig hægt að vísa til [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md) til að fá nánari upplýsingar.
 
 > [!IMPORTANT]  
->  Það geta verið tilvik þar sem gildi reita innihalda þessi tákn og þú vilt setja afmörkun á þau. Til að gera það, verðurðu að hafa með afmörkunarsegðina sem inniheldur táknið með gæsalöppum („“). Til dæmis, ef þú vilt sía á færslum sem byrja á textanum *S&R*, er síusegðin `'S&R*'`.  
+>  Það geta verið tilvik þar sem gildi reita innihalda þessi tákn og þú vilt setja afmörkun á þau. Til að gera það, verðurðu að hafa með afmörkunarsegðina sem inniheldur táknið með gæsalöppum („“). Til dæmis, ef þú vilt sía á færslum sem byrja á textanum *S&R*, er síusegðin `'S&R*'`.
+
+Eftirfarandi hlutar útskýra hvernig á að nota mismunandi virknitákn.
+
+> [!NOTE]
+> Ef fleiri en 200 virknitákn eru til staðar í einni síu safnar kerfið sjálfkrafa saman sumum virknitáknum innan sviga `()` fyrir úrvinnsluna. Þetta hefur engin áhrif á síunina eða niðurstöðurnar.  
 
 ### <a name="-interval"></a>(..) Bil
 
@@ -145,7 +150,7 @@ Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#Keyboa
 |`23..`|Frá 23. þessa mánaðar – þessa árs 00:00:00 til loka tímans|  
 |`22..23`|Frá 22. þessa mánaðar – þessa árs 00:00:00 til 23. þessa mánaðar – þessa árs 23:59:59|  
 
-### <a name="124-eitheror"></a>(&#124;) Annaðhvort eða  
+### <a name="124-eitheror"></a>(&#124;) Annaðhvort eða 
 
 |Dæmi|Sýndar færslur|  
 |-----------------------|-----------------------|  

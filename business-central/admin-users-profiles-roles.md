@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2019
+ms.date: 08/02/2019
 ms.author: edupont
-ms.openlocfilehash: fc52d943938616041881c55f70c510e4c63b5de6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 27a57490101195f8dc05cc39538260e7db5e46af
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245810"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858221"
 ---
-# <a name="understanding-users-profiles-and-role-centers"></a>Að skilja notendur, forstillingar og Mitt hlutverk
+# <a name="understanding-users-roles-and-profiles"></a>Að skilja notendur, hlutverk og notandasíður
 
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)], eru notendum bætt við af stjórnanda sem gefur einnig notendum aðgang að þeim svæðum [!INCLUDE[d365fin](includes/d365fin_md.md)] sem þeir þurfa í starfi sínu.  
 
-Aðgangur að virkni er stjórnað með *notendahópum* og *notandasíðum*. Sem stjórnandi geturðu bætt við og fjarlægt notendur sem hluta af [!INCLUDE[d365fin](includes/d365fin_md.md)] áskrift þinni og þú getur úthlutað leyfum til notenda í gegnum notendaflokka.  
+Aðgangur að virkni er stjórnað með *notendahópum* og *forstillingum (hlutverkum)*. Sem stjórnandi geturðu bætt við og fjarlægt notendur sem hluta af [!INCLUDE[d365fin](includes/d365fin_md.md)] áskrift þinni og þú getur úthlutað leyfum til notenda í gegnum notendaflokka.  
 
 ## <a name="adding-users"></a>Bæta við notendum
 
@@ -35,20 +35,20 @@ Síðan getur kerfisstjórinn úthlutað sérhverjum notanda og flokkum notenda 
 
 Fyrir uppsetningu á staðnum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] getur stjórnandi valið á milli mismunandi auðkenningarbúnaðs skilríkja fyrir notendur. Þegar þú býrð til notanda gefur þú síðan mismunandi upplýsingar eftir því hvaða skilríki þú notar í tilteknu [!INCLUDE[server](includes/server.md)] tilviki. Nánari upplýsingar er að finna í [Gerðir auðkenningar og persónuskilríkja](/dynamics365/business-central/dev-itpro/administration/users-credential-types) í stjórnunarhluta þróunaraðila og ITPro efni fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="profiles"></a>Forstillingar
+## <a name="profiles-roles"></a>Forstillingar (hlutverk)
 
-Fólkið í þínu fyrirtæki sem hefur aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)] er öllum úthlutað *Forstilling* sem veitir þeim aðgang að *Hlutverkamiðstöð*.
+Fólkið í þínu fyrirtæki sem hefur aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)] er öllu úthlutað hlutverk sem veitir því aðgang að *Hlutverkamiðstöð*.
 
-Forstillingar eru söfn [!INCLUDE[d365fin](includes/d365fin_md.md)] notenda sem hafa sömu hlutverkamiðstöð (Mitt hlutverk). Hlutverkamiðstöð er aðgangsstaður og heimasíða fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem gefur þér skjótan aðgang að mikilvægustu verkum þínum og birtir ýmsar innsýnir og afkastavísa um vinnu þína.  
+Forstillingar eru söfn [!INCLUDE[d365fin](includes/d365fin_md.md)] notenda sem deila sama hlutverkinu. Hlutverkamiðstöð er aðgangsstaður og heimasíða fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem gefur þér skjótan aðgang að mikilvægustu verkum þínum og birtir ýmsar innsýnir og afkastavísa um vinnu þína.  
 
 > [!NOTE]  
 >  Í núverandi útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu, er ekki hægt að bæta við, breyta eða eyða snið.  
 
-### <a name="CreateProfile"></a>Stofna forstillingu
+### <a name="CreateProfile"></a>Forstilling stofnuð
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forstillingalisti** og velja svo viðeigandi tengil.  
+1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forstillingar** og velja svo viðeigandi tengil.  
 
-2.  Á síðunni **Forstillingalisti** skal velja aðgerðina **Nýtt** til að opna síðuna **Nýtt forstillingarspjald**.  
+2.  Á síðunni **Forstillingar** skal velja aðgerðina **Nýtt** til að opna síðuna **Nýtt forstillingarspjald**.  
 
 3.  Í reitnum **Kenni forstillingar** færið inn nafn sem lýsir ætluðum hlutverk notenda.  
 
@@ -56,7 +56,7 @@ Forstillingar eru söfn [!INCLUDE[d365fin](includes/d365fin_md.md)] notenda sem 
 
 5.  Stilltu **Kenni fyrir Mitt hlutverk** reitinn á Mitt hlutverk sem þú vilt tengja við forstillinguna.  
 
-Ferlið til þess að breyta fyrirliggjandi forstillingu er hið sama, nema að valin er eldri forstilling á síðunni **Forstillingalisti** í stað þess að velja aðgerðina **Nýtt**.  
+Ferlið til þess að breyta fyrirliggjandi forstillingu er hið sama, nema að valin er eldri forstilling á síðunni **Forstillingar** í stað þess að velja aðgerðina **Nýtt**.  
 
 
 ### <a name="copy-a-profile"></a>Afrita forstillingu
@@ -78,7 +78,7 @@ Hægt er að flytja forstillingu inn og út sem XML-skrár til og frá [!INCLUDE
 
 -   Til að flytja út forstillingu er annaðhvort hægt að velja aðgerðina **Flytja út forstillingar** frá síðunni **Forstillingalisti** eða **Forstillingarspjald** eða leita að og opna síðuna **Flytja út forstillingar**. Vistið XML-skrána á stað í tölvu eða á neti.
 
--   Til að flytja inn forstillingu er annaðhvort hægt að velja aðgerðina **Flytja inn forstillingar** frá síðunni **Forstillingalisti** eða leita að og opna síðuna **Flytja inn forstillingar**. 
+-   Til að flytja inn forstillingu er annaðhvort hægt að velja aðgerðina **Flytja inn forstillingar** frá síðunni **Forstillingalisti** eða leita að og opna síðuna **Flytja inn forstillingar**.
 
     > [!NOTE]  
     >  Ekki er hægt að flytja inn forstillingu sem þegar er til í gagnagrunninum, jafnvel þótt XML-skráin hafi annað heiti eða annað innihald. Eyða verður forstillingumsem fyrir eru áður en hægt er að flytja inn nýju forstillinguna.

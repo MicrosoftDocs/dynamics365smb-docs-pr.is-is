@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: bholtorf
-ms.openlocfilehash: c9eace037f6a30fafdd5bc2a3af0af83da73b3f5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3f4741485a032dfef8b724ff4a18ed58c640778e
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244401"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796873"
 ---
 # <a name="defining-payment-methods"></a>Skilgreina Greiðsluhætti
-Greiðsluhættir skilgreina hvernig þú vilt að viðskiptavinir greiði þér og hvernig þú vilt greiða lánardrottnum þínum. Greiðslumátinn getur verið breytilegur fyrir hvern viðskiptavin eða lánardrottin. Dæmi um dæmigerða greiðsluhætti eru **banki**, **reiðufé**, **ávísun** eða **reikningur**. 
+Greiðsluhættir skilgreina hvernig þú vilt að viðskiptavinir greiði þér og hvernig þú vilt greiða lánardrottnum þínum. Greiðslumátinn getur verið breytilegur fyrir hvern viðskiptavin eða lánardrottin. Dæmi um dæmigerða greiðsluhætti eru **banki**, **reiðufé**, **ávísun** eða **reikningur**.
 
 Þú getur úthlutað greiðslumáta til viðskiptavina og lánardrottna þannig að sama aðferðin sé alltaf notuð á sölu- og innkaupskjölunum sem þú býrð til fyrir þá. Hægt er að breyta greiðslumátanum í sölu- og innkaupaskjalinu ef þörf krefur. Til dæmis, ef þú vilt greiða ákveðinn innkaupareikning í reiðufé frekar en með ávísun. Þetta breytir ekki sjálfgefna greiðslumátanum sem lánardrottninum er úthlutað.
 
-Sömu greiðsluaðferðir eru notaðar fyrir sölu- og innkaupaskjöl. Til dæmis er greiðslumátinn _reiðufé_ notaður bæði þegar þú greiðir og þegar þú færð greitt. [!INCLUDE[d365fin](includes/d365fin_md.md)] veit að þegar þú ert að búa til sölureikning þá býstu við að fá greiðslur og hið gagnstæða fyrir innkaupareikninga. 
+Sömu greiðsluaðferðir eru notaðar fyrir sölu- og innkaupaskjöl. Til dæmis er greiðslumátinn _reiðufé_ notaður bæði þegar þú greiðir og þegar þú færð greitt. [!INCLUDE[d365fin](includes/d365fin_md.md)] veit að þegar þú ert að búa til sölureikning þá býstu við að fá greiðslur og hið gagnstæða fyrir innkaupareikninga.
 
 Kreditreikningar vegna skila eru þó undantekningar vegna þess að peningar flæða í gagnstæða átt, frá þér til viðskiptavina og frá lánardrottni til þín. Þess vegna er sjálfgefnum greiðslumáta ekki úthlutað á kreditreikninga. Það er hins vegar til hjáleið ef þú hefur tilgreint greiðsluskilmála fyrir viðskiptavin eða lánardrottin. Þótt reiturinn **Reikna greiðsluafsl. af kreditreikn.** er ekki ætlaður fyrir þetta, ef þú velur gátreitinn á síðunni **Greiðsluskilmálar**, verður sjálfgefnum greiðslumáta bætt við þegar þú stofnar kreditreikning.
 
@@ -34,8 +34,9 @@ Kreditreikningar vegna skila eru þó undantekningar vegna þess að peningar fl
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Viðskiptavinum eða lánardrottnum úthlutaður greiðslumáti
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **viðskiptamaður** eða **Lánardrottinn** og veldu síðan tengda tengilinn.
-2. Í reitnum **Greiðslumáti** skal velja greiðslumátann sem á að nota að sjálfgefnu viðskiptavin eða lánardrottin.
+2. Í reitnum **Kóði greiðslumáta** skal velja greiðslumátann sem á að nota að sjálfgefnu viðskiptavin eða lánardrottin.
 
 ## <a name="see-also"></a>Sjá einnig
+[Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

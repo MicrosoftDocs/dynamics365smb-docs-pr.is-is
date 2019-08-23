@@ -1,8 +1,6 @@
 ---
 title: Birta venjulegar Power BI skýrslur| Microsoft Docs
 description: Hægt er að nota Power BI skýrslur til að öðlast frekari innsýn í gögnum í listum.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2019
+ms.date: 07/08/2019
 ms.author: edupont
-ms.openlocfilehash: 29c7b7656632d2103a16025848a6ddc82650353e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: acf9462db8b4f559a5fbc40381b4e5009cdac088
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241603"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755196"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Skoða listagögn í Power BI skýrslum í Business Central 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur stjórneiningu fyrir upplýsingakassa á mörgum veigamiklum listasíðum sem veita frekari innsýn í gögnin í listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Notandi getur stofnað sérsniðnar skýrslur til að birta í þessum stjórntakka en hér eru nokkrar grunnreglur sem fylgja skal við stofnun skýrslnanna til að tryggja að þær virki sem skyldi.  
+# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Skoða listagögn í Power BI skýrslum í Business Central
+
+[!INCLUDE[prodlong](includes/prodlong.md)] inniheldur stjórneiningu fyrir upplýsingakassa á mörgum veigamiklum listasíðum sem veita frekari innsýn í gögnin í listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Notandi getur stofnað sérsniðnar skýrslur til að birta í þessum stjórntakka en hér eru nokkrar grunnreglur sem fylgja skal við stofnun skýrslnanna til að tryggja að þær virki sem skyldi.  
 
 > [!NOTE]  
->   Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin](includes/d365fin_md.md)] og hjá Power BI. Einnig þarf að sækja [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Frekari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md).  
+> Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes/prodshort.md)] og hjá Power BI. Til að búa til sérsniðnar skýrslur verður þú einnig að hala niður [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Frekari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Gagnamengi skýrslu
 Þegar skýrslan er stofnuð í Power BI Desktop skal tilgreina gagnaveitu eða vefþjónustu sem inniheldur gögnin sem tengjast listanum sem á að tengja skýrsluna við. Til dæmis ef notandi vill stofna skýrslu fyrir sölulista skal tryggja að gagnamengið innihaldi upplýsingar sem tengjast sölu.  
@@ -50,7 +49,7 @@ Sömuleiðis, ef óskað er að bakgrunnur skýrslunnar renni saman við bakgrun
 Með Power BI er hægt að stofna eina skýrslu með mörgum síðum. Myndrænir þættir sem notandi vill sjá í listasíðum [!INCLUDE[d365fin](includes/d365fin_md.md)] verða að vera á fyrstu síðu skýrslunnar í Power BI.  
 
 > [!NOTE]  
->  Upplýsingakassi fyrir Power BI getur aðeins sýnt fyrstu síðuna í skýrslunni. Ef notandi vill sjá fleiri síður verður að víkka skýrsluna og nota flipana neðst í skýrslunni til að fletta á aðrar síður.  
+> Upplýsingakassi fyrir Power BI getur aðeins sýnt fyrstu síðuna í skýrslunni. Ef notandi vill sjá fleiri síður verður að víkka skýrsluna og nota flipana neðst í skýrslunni til að fletta á aðrar síður.  
 
 ## <a name="saving-your-report"></a>Vistar skýrsluna
 
@@ -72,7 +71,9 @@ Með Power BI er hægt að stofna eina skýrslu með mörgum síðum. Myndrænir
 Staðfestið að stærð skýrslu sé stillt á 325 x 310 pixla. Vista skal skýrsluna og síðan endurnýja listasíðuna.  
 
 ## <a name="see-also"></a>Sjá einnig
+
+[Gera viðskiptagögn þín virk fyrir Power BI](admin-powerbi.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
-[Hafist handa](product-get-started.md)    
-[Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
+[Hafist handa](product-get-started.md)  
+[Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Fjármál](finance.md)  

@@ -9,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.reviewer: edupont
+ms.date: 07/16/2019
 ms.author: soalex
-ms.openlocfilehash: a4dd426cbbe8aa45e3128814886e4d43797c46b3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1b1c0e0260db1dd8fec21ab2552b553ea2591df2
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244601"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755167"
 ---
 # <a name="service-compliance"></a>Reglufylgni þjónustu
 Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -25,12 +26,18 @@ Business Central er skýjaþjónusta á heimsvísu og keyrir á einu stærsta t�
 
 Finndu ítarlegan lista yfir [Framboð á reglufylgni í skýi fyrir Business Central hér](https://aka.ms/d365-compliance-list).
 
-Ef þú hefur áhuga á heildarlistanum yfir framboð á reglufylgni frá Microsoft skaltu skoða [þessa síðu](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
+Ef þú hefur áhuga á heildarlistanum yfir framboð á reglufylgni frá Microsoft skaltu skoða [Öryggismiðstöð Microsoft](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="service-terms"></a>þjónustuskilmála
+
+[!INCLUDE [prodshort](../includes/prodshort.md)] á netinu fellur undir [„Modern“-reglur um stuðningstíma](https://support.microsoft.com/en-us/help/30881/modern-lifecycle-policy). Skilmálum um þjónustustigssamning er lýst í skjali sem þú getur sótt úr hlutanum **Þjónustustigssamningar fyrir Microsoft Online Services** á síðunni [Leyfisskilmálar](https://www.microsoft.com/en-us/licensing/product-licensing/products).  
+
+Ennfremur geturðu fylgst með ástandi leigjanda þíns og tilgreint uppfærsluglugga í [Stjórnandamiðstöðu leigjanda](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+
+## <a name="see-also"></a>Sjá einnig
+
 [Reglufylgni](compliance-overview.md)  
 [Reglufylgni forrits](compliance-application-compliance.md)  
 [Vottanir](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

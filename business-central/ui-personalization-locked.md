@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 64995372f68ed2804bc165823dacc34ad6a3194d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251286"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796762"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Af hverju er síða læst og því ekki hægt að sérsníða hana
 
@@ -55,7 +55,7 @@ Ef táknið ![Sérstilling útilokuð](media/personalization-blocked-icon.png "S
 
 ![Sérstilla lás](media/personalization-blocked.png "Sérstilla lás")
 
-Ástæðan fyrir þessu er að Mitt hlutverk eða prófíll sem er sem stendur tengdur við notandareikninginn þinn breytir þessari síðu sérstaklega fyrir hlutverkið þitt. Vinsamlegast hafðu samband við stjórnandann til að fá aðstoð eða, ef eitthvað vit er í því, reyndu að skipta yfir í hlutverk (frá [**Mínar stillingar**](https://businesscentral.dynamics.com?page=9176 "Fara beint í síðuna fyrir notandastillingarnar þínar í Business Central")) sem felur í sér sérsniðið hlutverk fyrir þessa síðu.
+Ástæðan fyrir þessu er að Mitt hlutverk eða hlutverk sem er sem stendur tengt við notandareikninginn þinn breytir þessari síðu sérstaklega fyrir hlutverkið þitt. Vinsamlegast hafðu samband við stjórnandann til að fá aðstoð eða, ef eitthvað vit er í því, reyndu að skipta yfir í hlutverk (frá [**Mínar stillingar**](https://businesscentral.dynamics.com?page=9176 "Fara beint í síðuna fyrir notandastillingarnar þínar í Business Central")) sem felur í sér sérsniðið hlutverk fyrir þessa síðu.
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérstillingar verksvæðis](ui-personalization-manage.md)  

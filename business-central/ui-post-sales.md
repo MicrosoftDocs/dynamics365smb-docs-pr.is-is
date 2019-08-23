@@ -1,22 +1,21 @@
 ---
-title: Hvernig skal bóka söluskjöl | Microsoft Docs
-description: Kynntu þér mismunandi bókunaraðferðir til að bóka söluskjöl.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+title: Bókun söluskjala | Microsoft Docs
+description: Kynntu þér mismunandi bókunaraðferðir til að bóka söluskjöl og hvernig hægt er að uppfæra bókuð skjöl.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.reviewer: edupont
 ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: d1b2d29c4c5b8397bd6e9e05088e7ea50d68fd20
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.author: sgroespe
+ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247906"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796896"
 ---
 # <a name="posting-sales"></a>Sölubókun
 Í **bókunarflokki** á söluskjali er hægt að velja milli eftirfarandi bókunaraðgerða:
@@ -40,10 +39,12 @@ Birgðafærsla er stofnuð í töflunni **birgðafærsla** fyrir hverja sölupö
 > [!IMPORTANT]  
 >   Þegar pöntun er bókuð er hægt að búa til bæði afhendingu og reikning. Það er hægt að gera á sama tíma eða hvort í sínu lagi. Einnig er hægt að mynda hlutaafhendingu og gera hlutareikning með því að fylla út reitina **magn til að flytja** og/eða **magn til að reikningsfæra** í einstökum sölupöntunarlínum áður en bókað er. Bent er á að ekki er hægt að búa til reikning fyrir eitthvað sem ekki er afhent. Það er að segja, áður en hægt er að gera reikning verður afhending að vera skráð, nema afhending sé skráð um leið og reikningur er gerður.
 
-Þegar bókun er lokið hverfa bókuðu sölulínurnar úr pöntuninni. Skilaboð segja til um hvenær bókun er lokið. Að þessu loknu verður hægt að sjá bókuðu færslurnar í ýmsum af þeim síðum sem innihalda bókaðar færslur, eins og **Viðskiptamannafærslur**, **Fjárhagsfærslur**, **Birgðafærslur,**, **Bókuð söluafhending** og **Bók. sölureikningur**.
+Þegar bókun er lokið hverfa bókuðu sölulínurnar úr pöntuninni. Skilaboð segja til um hvenær bókun er lokið. Að þessu loknu verður hægt að sjá bókuðu færslurnar í ýmsum af þeim síðum sem innihalda bókaðar færslur, eins og **Viðskiptamannafærslur**, **Fjárhagsfærslur**, **Birgðafærslur,**, **Bókuð söluafhending** og **Bók. sölureikningur**.  
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Sala](sales-manage-sales.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
+[Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md)  
+[Nota Viðmótsleit til að finna eiginleika og upplýsingar](ui-search.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
