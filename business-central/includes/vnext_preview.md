@@ -1,0 +1,1 @@
+<span data-ttu-id="f051f-101">Þessi eiginleiki, eða hluti af eiginleikanum, er í forútgáfu og innihaldið er verk í vinnslu.</span><span class="sxs-lookup"><span data-stu-id="f051f-101">This feature, or part of the feature, is in preview and the content is work in progress.</span></span>
