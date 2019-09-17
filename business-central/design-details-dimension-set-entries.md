@@ -12,19 +12,17 @@ ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6b66ecee87e1fd128733f541d46b97f44af0453
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c97a03d9ce458cefe094b711bfe62a4b3c8e25d7
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242745"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970925"
 ---
-# <a name="design-details-dimension-set-entries"></a><span data-ttu-id="cd944-103">Hönnunarupplýsingarn: Færslur víddarsamstæða</span><span class="sxs-lookup"><span data-stu-id="cd944-103">Design Details: Dimension Set Entries</span></span>
-<span data-ttu-id="cd944-104">Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar yfir hugtök og reglur víddarfærsluvistun og bókunareiginleika í [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="cd944-104">This documentation provides detailed technical insight into the concepts and principles of the dimension-entry storing and posting functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="cd944-105">Skjölin byrja á því að lýsa hugmyndafræðilegum yfirlitum.</span><span class="sxs-lookup"><span data-stu-id="cd944-105">The documentation starts by describing conceptual overviews.</span></span> <span data-ttu-id="cd944-106">Þá er tæknistrúktúr útskýrður.</span><span class="sxs-lookup"><span data-stu-id="cd944-106">Then it explains the technical architecture.</span></span> <span data-ttu-id="cd944-107">Einnig gefur það dæmi um kóða til undirbúnings fyrir víddarkóðaflutning og -uppfærslu úr útgáfum sem eru eldri en Dynamics NAV 2013R2.</span><span class="sxs-lookup"><span data-stu-id="cd944-107">Finally, it provides code examples to prepare you for dimension code migration and upgrade from versions earlier than Dynamics NAV 2013R2.</span></span>  
+# <a name="design-details-dimension-set-entries"></a><span data-ttu-id="17695-103">Hönnunarupplýsingarn: Færslur víddarsamstæða</span><span class="sxs-lookup"><span data-stu-id="17695-103">Design Details: Dimension Set Entries</span></span>
+<span data-ttu-id="17695-104">Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar yfir hugtök og reglur víddarfærsluvistun og bókunareiginleika í [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="17695-104">This documentation provides detailed technical insight into the concepts and principles of the dimension-entry storing and posting functionality in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="cd944-108">Í þessum hluta</span><span class="sxs-lookup"><span data-stu-id="cd944-108">In This Section</span></span>  
-[<span data-ttu-id="cd944-109">Yfirlit yfir víddasamstæðufærslur</span><span class="sxs-lookup"><span data-stu-id="cd944-109">Dimension Set Entries Overview</span></span>](design-details-dimension-set-entries-overview.md)  
-[<span data-ttu-id="cd944-110">Hönnunarupplýsingar Leitað að víddarsamsetningum</span><span class="sxs-lookup"><span data-stu-id="cd944-110">Design Details: Searching for Dimension Combinations</span></span>](design-details-searching-for-dimension-combinations.md)  
-[<span data-ttu-id="cd944-111">Hönnunarupplýsingar töfluuppbygging</span><span class="sxs-lookup"><span data-stu-id="cd944-111">Design Details: Table Structure</span></span>](design-details-table-structure.md)  
-[<span data-ttu-id="cd944-112">Hönnunarupplýsingar: Kóðaeining 408 víddarstjórnun</span><span class="sxs-lookup"><span data-stu-id="cd944-112">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)  
-[<span data-ttu-id="cd944-113">Hönnunarupplýsingar: Kóðadæmi um breytt mynstur í Breytingar</span><span class="sxs-lookup"><span data-stu-id="cd944-113">Design Details: Code Examples of Changed Patterns in Modifications</span></span>](design-details-code-examples-of-changed-patterns-in-modifications.md)
+## <a name="in-this-section"></a><span data-ttu-id="17695-105">Í þessum hluta</span><span class="sxs-lookup"><span data-stu-id="17695-105">In This Section</span></span>  
+[<span data-ttu-id="17695-106">Yfirlit yfir víddasamstæðufærslur</span><span class="sxs-lookup"><span data-stu-id="17695-106">Dimension Set Entries Overview</span></span>](design-details-dimension-set-entries-overview.md)  
+[<span data-ttu-id="17695-107">Hönnunarupplýsingar Leitað að víddarsamsetningum</span><span class="sxs-lookup"><span data-stu-id="17695-107">Design Details: Searching for Dimension Combinations</span></span>](design-details-searching-for-dimension-combinations.md)  
+[<span data-ttu-id="17695-108">Hönnunarupplýsingar töfluuppbygging</span><span class="sxs-lookup"><span data-stu-id="17695-108">Design Details: Table Structure</span></span>](design-details-table-structure.md)  
