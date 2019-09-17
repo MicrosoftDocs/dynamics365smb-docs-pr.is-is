@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9706b5cc2438c49c143b7ded27447b4d6403e0dc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 051cb40676560bcb531c6708960986a69e7cfdf4
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246794"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970879"
 ---
 # <a name="dimension-set-entries-overview"></a>Yfirlit yfir víddasamstæðufærslur
 Í þessu efnisatriði er lýst hvernig víddasamstæðufærslur eru geymdar og bókaðar í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -38,7 +38,10 @@ Víddasamstæður eru geymdar í töflunni **Víddasamstæðufærsla** sem vídd
 
 Þegar ný færslubókarlína, skjalahaus eða skjalalína er stofnuð er hægt að tilgreina samsetningu víddargilda. Í stað þess að geyma hvert víddargildi í gagnagrunninum er kenni víddasamstæðu tengt færslubókarlínu, haus skjals eða línu skjals til að tilgreina víddasamstæðuna.  
 
-Þegar síðunni **Breyta Víddasamstæðufærslum** er breytt og lokað er gerð athugun til að sjá hvort samsetning víddargildanna sé til sem víddasafn í töflunni. Ef samsetningin kemur fyrir í töflunni er samsvarandi víddasamstæðukenni tengt við færslubókarlínuna, fylgiskjalshausinn eða fylgiskjalslínuna. Annars er nýrri víddasamstæðu bætt við töfluna og henni hennar bætt við línu færslubókar, haus fylgiskjals eða línu fylgiskjals.  
+Þegar síðunni **Breyta Víddasamstæðufærslum** er breytt og lokað er gerð athugun til að sjá hvort samsetning víddargildanna sé til sem víddasafn í töflunni. Ef samsetningin kemur fyrir í töflunni er samsvarandi víddasamstæðukenni tengt við færslubókarlínuna, fylgiskjalshausinn eða fylgiskjalslínuna. Annars er nýrri víddasamstæðu bætt við töfluna og henni hennar bætt við línu færslubókar, haus fylgiskjals eða línu fylgiskjals.
+
+## <a name="codeunit-408-dimension-management"></a>Codeunit 408 víddarstjórnun
+Codeunit 408, Víddastjórnun, er aðgerðasafn sem sér um algeng verkefni sem tengjast víddum, m.a. afritun úr einni töflu í aðra eða úr einu skjali í annað.
 
 ## <a name="performance-improvement"></a>Bætt afköst  
 Með því að vista víddasamstæður einu sinni í gagnagrunni, er gagnagrunnsbilinu haldið við og heildarafköst eru bætt.  
@@ -46,6 +49,4 @@ Með því að vista víddasamstæður einu sinni í gagnagrunni, er gagnagrunns
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)   
 [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)   
-[Hönnunarupplýsingar: Codeunit 408 víddarstjórnun](design-details-codeunit-408-dimension-management.md)   
-[Hönnunarupplýsingar: Kóðadæmi um breytt mynstur í Breytingar](design-details-code-examples-of-changed-patterns-in-modifications.md)   
-[Hönnunarupplýsingarn: Færslur víddarsamstæða](design-details-dimension-set-entries.md)   
+[Hönnunarupplýsingar: Færslur víddarsamstæða](design-details-dimension-set-entries.md)   

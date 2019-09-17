@@ -10,19 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: a0db1779172a9b2822ad4898e9dbf82e68b58622
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446946"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985740"
 ---
 # <a name="managing-contacts"></a>Vinna með tengiliði
-Ólíkir hópar í fyrirtækinu munu hafa viðskiptatengsl við ýmis fyrirtæki. Sem dæmi má nefna sölufulltrúa sem hittir reglulega væntanlega viðskiptamenn og skráir niðurstöður þessara heimsókna í vikulok.
-
-Alla ytri aðila sem fyrirtækið hefur viðskiptatengsl við (til dæmis viðskiptamenn, væntanlegir viðskiptamenn, lánadrottnar, lögfræðingar og ráðgjafar) ætti að skrá sem tengiliði. Með því að hafa þessi gögn skráð á einum stað er tryggt að allir hópar innan fyrirtækisins geta skoðað upplýsingarnar og nýtt þær á skilvirkan hátt. Samskipti við tengiliðina verða árangursríkari ef allar upplýsingar eru strax tiltækar. Til dæmis gæti starfsmaður í markaðsdeild viljað vita hvaða aðrar vörur tiltekinn viðskiptamaður hefur keypt áður en hann reynir að vekja áhuga hans á nýrri vöru.
+Starfsmenn í fyrirtækinu þínu komast reglulega í kynni við væntanleg viðskiptatengsl sem geta þróast yfir í formleg samskipti. Allir slíkir ytri tengiliðir og ítarlegar upplýsingar þeirra ættu að vera skráðar í kerfið svo að samskiptin verði árangursríkari og svo auðvelt sé að breyta þeim í formleg samskipti við viðskiptavin, lánardrottin eða banka.
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 

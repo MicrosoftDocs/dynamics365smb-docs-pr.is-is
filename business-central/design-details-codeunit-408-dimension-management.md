@@ -4,20 +4,21 @@ description: Kóðaeining 408 Víddastjórnun er aðgerðasafn sem sér um algen
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1b0238fb26b71310b1f02e15be7d7040832ca644
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: design-details-dimension-set-entries
+ms.openlocfilehash: f725e5baea27b47399a50d041757fde83657673c
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242584"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970971"
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Hönnunarupplýsingar: Codeunit 408 víddarstjórnun
 Kóðaeining 408 Víddastjórnun er aðgerðasafn sem sér um algeng verkefni sem tengjast víddum, m.a. afritun úr einni töflu í aðra eða úr einu skjali í annað. Þetta efnisatriði er listi yfir aðgerðir sem er breytt í Microsoft Dynamics NAV 2013 R2 og skilgreinir hvað þarf að gera við aðgerðirnar. Mörgum aðgerðum er eytt vegna þess að ekki er þörf á að afrita á milli víddatafla.  
@@ -192,4 +193,4 @@ Kóðaeining 408 Víddastjórnun er aðgerðasafn sem sér um algeng verkefni se
  [Hönnunarupplýsingar - Færslur víddarsamstæða yfirlit](design-details-dimension-set-entries-overview.md)   
  [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)   
  [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)   
- [Hönnunarupplýsingar: Kóðadæmi um breytt mynstur í Breytingar](design-details-code-examples-of-changed-patterns-in-modifications.md)
+ 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/17/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: 77be24dce0d34c712b87649f9ced21b947c77cbe
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796919"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921339"
 ---
 # <a name="posting-purchases"></a>Bókun innkaupa
 Í **bókunarflokki** á innkaupaskjali er hægt að velja milli eftirfarandi bókunaraðgerða:
@@ -43,10 +43,12 @@ Hægt er annað hvort að bóka, eða bóka og prenta. Ef valið er að bóka og
 
 Þegar bókun er lokið hverfa bókuðu innkaupalínurnar úr pöntuninni. Skilaboð segja til um hvenær bókun er lokið. Að þessu loknu má sjá bókuðu færslurnar í ýmsum af þeim síðum sem innihalda bókaðar færslur, eins og **Lánardrottinsfærslur**, **Fjárhagsfærslur**, **Birgðafærslur**, **Innkaupaafhendingar** og **Bókaðir innkaupareikningar** síður.
 
-## <a name="see-also"></a>Sjá einnig
+Þú getur breytt ákveðnum reitum í bókuðum innkaupaskjölum, t.d. reitnum **Greiðslutilvísun**. Frekari upplýsingar er að finna í [Breyta bókuðum skjölum](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Sjá einnig
+[Breyta bókuðum skjölum](across-edit-posted-document.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Bóka skjöl og færslubækur](ui-post-documents-journals.md)  
+[Bókun skjala og færslubóka](ui-post-documents-journals.md)  
 [Leiðrétta eða afturkalla ógreidda innkaupareikninga](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Nota Viðmótsleit til að finna eiginleika og upplýsingar](ui-search.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

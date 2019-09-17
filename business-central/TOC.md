@@ -217,9 +217,9 @@
 ## [Magnreikningsfærsla fyrir Microsoft Bookings](finance-bookings.md)
 ## [Nota sama Office 365-reikninginn í Business Central og í Microsoft Invoicing](about-reuse-company-invoicing.md)
 ## [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)
-## [Uppsetning tölvupósts](admin-how-setup-email.md)
+## [Setja upp tölvupóst](admin-how-setup-email.md)
 ## [Stofnun númeraraða](ui-create-number-series.md)
-## [Uppsetning grunndagatals](across-how-to-assign-base-calendars.md)
+## [Setja upp grunndagatöl](across-how-to-assign-base-calendars.md)
 
 # Almenn viðskiptavirkni
 ## [Yfirlit](ui-across-business-areas.md)
@@ -232,8 +232,9 @@
 ## [Bæta tenglum við vefsvæði, skjöl, eða forrit á skrám](ui-how-add-link-to-record.md)
 ## [Hengja skrár við kort og skjöl](across-attach-document-master-data.md)
 ## [Flutningur viðskiptagagna í Excel](about-export-data.md)
-## [Að bóka skjöl og færslubækur](ui-post-documents-journals.md)
+## [Bókun skjala og færslubóka](ui-post-documents-journals.md)
 ## [Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md)
+## [Breyta bókuðum skjölum](across-edit-posted-document.md)
 ## [Vinna í færslubókum](ui-work-general-journals.md)
 ## [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)
 ## [Að láta Business Central leggja til gildi](ui-let-system-suggest-values.md)
@@ -590,10 +591,12 @@
 ### [Yfirlit](marketing-manage-sales-opportunities.md)
 ### [Setja upp söluferla tækifæris og söluþrep](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Stofna tækifæri](marketing-how-create-opportunities.md)
+### [Fylgjast með tölvupóstsamskiptum](marketing-set-up-email-logging.md)
+
 ### [Meðhöndla sölutækifæri](marketing-processing-sales-opportunities.md)
-## [Stjórnun markaðsherferða](marketing-campaigns.md)
-## Samskipti við viðskiptamenn í gegnum Dynamics 365 for Sales
-### [Að nota Dynamics 365 for Sales úr Business Central](marketing-integrate-dynamicscrm.md)
+### [Setja upp tölvupóstsskráningu](marketing-set-up-email-logging.md)
+## [Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)
+## [Að nota Dynamics 365 for Sales úr Business Central](marketing-integrate-dynamicscrm.md)
 ### [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [Skoða stöðu á samstillingu](admin-how-to-view-synchronization-status.md)
 

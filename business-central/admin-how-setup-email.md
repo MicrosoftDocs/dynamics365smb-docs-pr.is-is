@@ -9,47 +9,49 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 07/12/2019
+ms.date: 09/09/2019
 ms.author: edupont
-ms.openlocfilehash: 5f1afacec447e645136321b73b6dd3fab8b36fe0
-ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
+ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1740480"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985935"
 ---
-# <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Setja upp tölvupóst handvirkt eða með því að nota Uppsetningu með aðstoð
-Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú að fylla út reitina á síðunni **SMTP-póstuppsetning**.
+# <a name="set-up-email"></a>Setja upp tölvupóst
+Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú að fylla út reitina á síðunni SMTP-póstuppsetning.
 
-> [!NOTE]  
->   Í stað þess að slá inn upplýsingar um SMTP-miðlara geturðu notað aðgerð til að slá þær inn með upplýsingum frá Office 365 áskriftinni þinni.
+Í stað þess að slá inn upplýsingar um SMTP-þjón handvirkt geturðu notað aðgerðina **Nota Office 365 þjónsstillingar** til að slá þær inn með upplýsingum úr Office 365 áskriftinni þinni.
 
 Þú getur annaðhvort sett upp tölvupóst handvirkt eða þú getur fengið hjálp með því að nota **Uppsetning tölvupósts** leiðbeiningar um uppsetningu með hjálp. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Til að setja upp tölvupóst
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP Uppsetning tölvupósts** og veldu síðan tengda tengilinn.
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+    > [!NOTE]
+    > Ef þú ert að nota reikning sem krefst tveggja þátta staðfestingar verður aðgangsorðið sem þú slærð inn í reitinn **Aðgangsorð** að vera það sama og þú notar fyrir Office 365 áskriftina þína og það verður að vera af gerðinni **Aðgangsorð fyrir forrit**.
 3. Þú getur einnig valið **Nota stillingar Office 365 Stillingar vefþjóns** aðgerðina til að setja inn upplýsingar sem eru þegar skilgreindar fyrir Office 365 áskriftina þína.
 4. Þegar allir reitir eru fylltir út velurðu aðgerðina **Prófa tölvupóstuppsetningu**.
 5. Þegar prófið hefur tekist skal loka síðunni.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Notkun staðgengilsnetfang sendanda fyrir send tölvupóstskeyti
-Öll send tölvupóstskeyti úr [!INCLUDE[d365fin](includes/d365fin_md.md)] nota sjálfgefið netfang fyrir reikninginn sem var tilgreindur á SMTP-uppsetningarsíðu tölvupósts eins og lýst er hér að ofan. Þú getur hinsvegar notað möguleikana **Senda sem** eða **Senda fyrir hönd** á Exchange-þjóninum til að breyta netfangi sendanda fyrir skeyti á útleið. [!INCLUDE[d365fin](includes/d365fin_md.md)] notar sjálfgefinn reikning til að sannvotta fyrir Exchange, en mun annaðhvort skipta út netfangi sendanda með því sem þú tilgreinir eða breytir því með „fyrir hönd.“ 
+Öll send tölvupóstskeyti úr [!INCLUDE[d365fin](includes/d365fin_md.md)] nota sjálfgefið netfang fyrir reikninginn sem var tilgreindur á SMTP-uppsetningarsíðu tölvupósts eins og lýst er hér að ofan. Þú getur hinsvegar notað möguleikana **Senda sem** eða **Senda fyrir hönd** á Exchange-þjóninum til að breyta netfangi sendanda fyrir skeyti á útleið. [!INCLUDE[d365fin](includes/d365fin_md.md)] notar sjálfgefinn reikning til að sannvotta fyrir Exchange, en mun annaðhvort skipta út netfangi sendanda með því sem þú tilgreinir eða breytir því með „fyrir hönd.“
 
 Eftirfarandi eru dæmi um hvernig Senda sem og Senda fyrir hönd eru notuð í [!INCLUDE[d365fin](includes/d365fin_md.md)].:
 
- * Þegar þú sendir skjöl eins og innkaupa- eða sölupantanir til lánardrottna og viðskiptamanna viltu mögulega að það líti út fyrir að þeir hafi komið frá netfanginu _noreply@yourcompanyname.com_. 
+ * Þegar þú sendir skjöl eins og innkaupa- eða sölupantanir til lánardrottna og viðskiptamanna viltu mögulega að það líti út fyrir að þeir hafi komið frá netfanginu _noreply@yourcompanyname.com_.
  * Þegar verkflæðið þitt sendir samþykktarbeiðni í tölvupósti með netfangi beiðanda.
 
 > [!Note]
 > Aðeins er hægt að nota einn reikning sem staðgengil fyrir netföng sendanda. Þú getur sem sagt ekki haft eitt staðgengilsnetfang fyrir innkaupferli og annað fyrir söluferli.
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Til að setja upp staðgengilsnetfang sendanda fyrir öll tölvupóstskeyti á útleið
-1. Í **Stjórnandamiðstöð Exchange** fyrir Office 365-reikninginn þinn skaltu finna pósthólfið sem nota á sem staðgengilsnetfang og síðan skaltu afrita eða skrifa hjá þér netfangið. Ef þú þarft nýtt netfang skaltu fara í Stjórnendamiðstöð Microsoft 365 til að búa til nýjan notanda og setja upp pósthólfið hans. 
+1. Í **Stjórnandamiðstöð Exchange** fyrir Office 365-reikninginn þinn skaltu finna pósthólfið sem nota á sem staðgengilsnetfang og síðan skaltu afrita eða skrifa hjá þér netfangið. Ef þú þarft nýtt netfang skaltu fara í Stjórnendamiðstöð Microsoft 365 til að búa til nýjan notanda og setja upp pósthólfið hans.
 2. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP Uppsetning tölvupósts** og veldu síðan tengda tengilinn.
 3. Í reitnum **Senda sem** skal færa inn staðgengilsnetfangið.
 4. Afritaðu eða skráðu netfangið niður í reitinn **Notandakennið**.
-5. Í **Stjórnandamiðstöð Exchange** skaltu finna pósthólfið sem á að nota sem staðgengilsnetfang og færðu síðan inn netfangið úr reitnum **Notandakenni** í reitnum **Senda sem**. Frekari upplýsingar er að finna í [Stjórna heimildum fyrir viðtakendur](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
+5. Í **Stjórnandamiðstöð Exchange** skaltu finna pósthólfið sem á að nota sem staðgengilsnetfang og færðu síðan inn netfangið úr reitnum **Notandakenni** í reitnum **Senda sem**. Frekari upplýsingar er að finna í [Stjórna heimildum fyrir viðtakendur](https://docs.microsoft.com/en-us/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Til að nota staðgengilsnetfangið í samþykktarverkflæðum
 1. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP Uppsetning tölvupósts** og veldu síðan tengda tengilinn.
@@ -64,6 +66,7 @@ Eftirfarandi eru dæmi um hvernig Senda sem og Senda fyrir hönd eru notuð í [
 
 
 ## <a name="see-also"></a>Sjá einnig  
+[Samnýtt pósthólf í Exchange Online](https://docs.microsoft.com/en-us/exchange/collaboration-exo/shared-mailboxes)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  

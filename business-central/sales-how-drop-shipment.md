@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 04/01/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7a87023445ea10aa19cc0cc4f60d76ce4cf3e365
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9555aabe515757b71426ddca2f90b37e561f96e2
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251223"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985815"
 ---
 # <a name="make-drop-shipments"></a>Beinar sendingar
 Bein afhending er afhending frá einum af lánardrottnum fyrirtækisins beint til einhvers af viðskiptamönnum fyrirtækisins.
 
-Þegar sölupöntun er merkt fyrir bein sending og þú býrð til innkaupapöntun sem tilgreinir viðskiptamaður í reitnum **Selt-til-Viðskm.nr.** Sviði, getur þú tengt tvö skjöl og þar með leiðbeint seljanda um að senda beint til viðskiptavinarins.
+Þegar sölupöntun er merkt sem bein afhending og þú býrð til innkaupapöntun sem tilgreinir viðskiptamanninn í reitnum **Sendist til**, **Heimilisfang viðskiptavinar**, geturðu tengt skjölin tvö saman og þar með gefið lánardrottninum fyrirmæli um að afhenda beint til viðskiptavinar.
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Sölupöntun fyrir beina afhendingu búin til
 Til að Undirbúa bein afhending, er stofnuð sölupöntun fyrir vöru sem venjulega, nema þarf tilgreina í sölulínunni að salan krefst beinnar sendingar.
@@ -34,7 +34,8 @@ Til að Undirbúa bein afhending, er stofnuð sölupöntun fyrir vöru sem venju
 Til að undirbúa beina sendingu fyrir vöru sem á að selja, stofnarðu innkaupapöntun sem venjulega, nema taka þarf fram í innkaupapöntun að senda verði til viðskiptamannsins, ekki til þíns sjálfs.
 
 1. Stofna innkaupapöntun. Ekki fylla inn í neina reiti á línunum. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
-2. Í reitnum **Selt til Viðskm.nr.**. er valinn viðskiptamaður sem selt er til.
+2. Í reitnum **Sendist til** skal velja **Heimilisfang viðskiptavinar**.
+3. Í reitnum **Viðskiptavinur** skal velja viðskiptavininn sem þú ert að selja til.
 3. Veljið aðgerðina **beinar sendingar** og veljið síðan aðgerðina **sækja sölupöntun**.
 4. Á síðunni **Sölulisti** er valin sölupöntun sem var útbúin í [Að stofna sölupöntun fyrir beina sendingu](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
 5. Velja hnappinn **Í lagi**.

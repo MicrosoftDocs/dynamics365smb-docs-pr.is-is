@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97b98a334428f697e83bf655c1ec15a3539d3dea
-ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
+ms.openlocfilehash: ab769498741a8da17b64eebb4bccf9e177d95e37
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "1701199"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985764"
 ---
 # <a name="make-check-payments"></a>Framkvæma ávísanagreiðslur
 Þú getur gefið út rafrænar og handvirkar ávísanir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Í báðum aðferðum er útgreiðslubók notuð til að gefa út tékka til lánardrottna. Einnig er hægt að ógilda tékka og skoða fjárhagsfærslur.
@@ -24,7 +24,7 @@ Eftirfarandi ferli sýnir hvernig á að greiða lánardrottni með tölvuávís
 
 Hægt er að greiða með tveimur gerðum af ávísunum. Fyrir báðar gerðir verður reiturinn **Mótreikningur nr.** eða **Tegund reiknings** að innihalda **Bankareikning**.
 
-- **Vélfærður tékki**: veldu þennan valkost ef  á að prenta tékka með upphæðinni í færslubókarlínunni. Þú þarft að prenta tékkana áður en þú bókar færslubókarlínurnar. Þú getur eingöngu valið **Vélfærður tékki** ef
+- **Vélfærður tékki**: veldu þennan valkost ef  á að prenta tékka með upphæðinni í færslubókarlínunni. Þú þarft að prenta tékkana áður en þú bókar færslubókarlínurnar.
 - **Handfærður tékki**  Þessi kostur er valinn ef handfærður tékki hefur verið búinn til og  á að búa til tékkafærslu sem samsvarar upphæðinni. Með því að nota þennan valkost er ekki hægt að prenta út ávísun.
 
 > [!NOTE]  

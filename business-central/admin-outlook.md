@@ -3,19 +3,19 @@ title: Notkun Business Central með Outlook| Microsoft Docs
 description: Þessi þjónusta er rækilega samþætt Office 365, sem gerir þér kleift að stjórna öllum fyrirtækja- og tölvupóstsamskiptum við viðskiptamenn og lánardrottna í Outlook.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 07/12/2019
+ms.date: 08/14/2019
 ms.author: edupont
-ms.openlocfilehash: 578f33dace52383ce588494d35c875ceaf6ffc21
-ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
+ms.openlocfilehash: 70299f86a1ebc3251780eb05f8b68afeff23fa5e
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1740457"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887692"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Notkun Business Central sem fyrirtækjainnhólf í Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kynnir möguleikann á að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum, ásamt því að semja og senda fjárhagsleg skjöl, svo sem tilboð og reikninga.  
@@ -53,9 +53,9 @@ Til dæmis, ef þú færð tölvupóstskeyti sem nefnir textann *S-QUO100*, skil
 ## <a name="adding-the-add-ins-manually"></a>Bæta við viðbótunum handvirkt
 Í sumum tilfellum fá viðbætur ekki sjálfkrafa bætt við Outlook. Jafnvel þótt þú eða samstarfsmaður hljóp aðstoðaruppsetningarhandbókina fyrir hönd fyrirtækisins, gæti [!INCLUDE[d365fin](includes/d365fin_md.md)] ekki birst í Outlook. Ef þú finnur fyrir þessu vandamáli geturðu bætt við [!INCLUDE[d365fin](includes/d365fin_md.md)] viðbótunum handvirkt.  
 
-Í fyrsta lagi verður þú að staðfesta að þú hafir aðgang að viðbótunum á Office 365 reikningnum þínum. Opnaðu einfaldlega Outlook í vafra, farðu í **Stillingar** og veldu síðan **Stjórna innbótum**. Þetta opnar síðuna **Stjórna innbótum**, þar sem þú getur virkjað [!INCLUDE[prodshort](includes/prodshort.md)] fyrir Outlook. Þá, þegar þú vafrar aftur til Outlook, ætti [!INCLUDE[prodshort](includes/prodshort.md)] að vera tiltæk.  
+Í fyrsta lagi verður þú að staðfesta að þú hafir aðgang að viðbótunum á Office 365 reikningnum þínum. Opnaðu einfaldlega Outlook í vafra, opnaðu skilaboð, veldu **Fleiri aðgerðir** (...) efst í skilaboðunum og síðan, neðst í listanum, skaltu velja **Sækja innbætur**. Þetta opnar síðuna **Innbætur fyrir Outlook** þar sem hægt er að virkja [!INCLUDE[prodshort](includes/prodshort.md)] fyrir Outlook. Þá, þegar þú vafrar aftur til Outlook, ætti [!INCLUDE[prodshort](includes/prodshort.md)] að vera tiltæk.  
 
-Á svipaðan hátt í Outlook skjáborðsþjóninum getur þú staðfest að [!INCLUDE[d365fin](includes/d365fin_md.md)] er skráð á síðunni **Stjórna innbótum**.  
+Á svipaðan hátt í Outlook skjáborðsþjóninum getur þú staðfest að [!INCLUDE[d365fin](includes/d365fin_md.md)] er skráð á síðunni **Sækja innbætur**.  
 
 Í báðum tilvikum, ef [!INCLUDE[d365fin](includes/d365fin_md.md)] er ennþá ekki tiltækt, verður þú að fá innskráningarskrárnar. Hafðu samband við kerfisstjóra Office 365 til að fá frekari upplýsingar.
 

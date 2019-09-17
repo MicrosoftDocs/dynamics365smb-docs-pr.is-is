@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 716e195b4e8c5b4150d7a288918c3fb84f6ac713
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: d0f1dfd88b30a4ec2e3a9bfd3366005a93d97f82
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726860"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917369"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Að nota Dynamics 365 for Sales úr Business Central
 Ef þú notar Dynamics 365 for Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.
@@ -65,7 +65,7 @@ Til að athuga framvindu á einstökum verkum í fullri samstillingu skal á sí
 Frá síðunni **Uppsetning á tengingu Microsoft Dynamics 365** er hægt að fá upplýsingar um fulla samstillingu hvenær sem er. Héðan er einnig hægt að opna síðuna **Vörpun samþættingartöflu** til að sjá upplýsingar um töflurnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] og Sales sem þarf að samstilla.
 
 ## <a name="handling-sales-order-data"></a>Meðhöndlun gagna sölupöntunar
-Sölupantanir sem einstaklingar senda inn í [!INCLUDE[crm_md](includes/crm_md.md)] verða færðar til [!INCLUDE[d365fin](includes/d365fin_md.md)] ef valinn er gátreiturinn **Stofna sölupantanir sjálfvirkt** á síðunni **Microsoft Dynamics 365 Uppsetning tengingar**.
+Sölupantanir sem einstaklingar senda inn í [!INCLUDE[crm_md](includes/crm_md.md)] verða sjálfkrafa færðar til [!INCLUDE[d365fin](includes/d365fin_md.md)] ef valinn er gátreiturinn **Stofna sölupantanir sjálfvirkt** á síðunni **Microsoft Dynamics 365 Uppsetning tengingar**.
 Einnig er hægt að umbreyta handvirkt innsendum sölupöntunum úr [!INCLUDE[crm_md](includes/crm_md.md)] með því að nota aðgerðina **Stofna í [!INCLUDE[d365fin](includes/d365fin_md.md)]** sem er tiltæk á síðunni **Sölupantanir - Dynamics 365 for Sales**.
 Á slíkum sölupöntunum er reiturinn **Heiti** í upprunalegu pöntuninni fluttur og honum varpað í reitinn **Utanaðkomandi fylgiskjalsnúmer** á sölupöntuninni í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -74,6 +74,9 @@ Einnig er hægt að umbreyta handvirkt innsendum sölupöntunum úr [!INCLUDE[cr
 Ef lýsingin á vörunni í upprunalegu sölupöntuninni er löng er stofnuð ný sölupöntunarlína af gerðinni **Athugasemd** til þess að rúma allan texta sölupöntunarinnar í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Uppfærslur á reitum sölupöntunarhauss, t.d. síðasta sendingardagsetning eða umbeðinn afhendingardagur, sem er varpað í SÖLUPÖNTUN-PÖNTUN **Vörpun samþættingartöflu** eru samstilltar reglubundið í [!INCLUDE[crm_md](includes/crm_md.md)]. Ferli eins og losun á sölupöntun og afhendingu eða reikningsfærslu á sölupöntun eru bókuð á tímalínu sölupöntunar í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Kynning á aðgerðastraumum](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+
+> [!NOTE]  
+> Reglubundin samstilling byggð á **Vörpun samþættingartöflu** SÖLUPÖNTUNAR-PÖNTUNAR virkar aðeins þegar samþætting sölupöntunar er virkjuð. Frekari upplýsingar er að finna í [Tengt við Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Aðeins sölupantanir búnar til úr innsendum sölupöntunum í [!INCLUDE[crm_md](includes/crm_md.md)] eru samstilltar. Frekari upplýsingar er að finna í [Virkja sölupöntunarferli samþættingar](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

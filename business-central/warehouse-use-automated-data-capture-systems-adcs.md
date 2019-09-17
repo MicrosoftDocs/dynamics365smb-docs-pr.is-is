@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 08/22/2019
 ms.author: sgroespe
-ms.openlocfilehash: 20ef2d88bb5f96326962efb53fd724b8fc706dc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 23561ba8ec0a93f8409abab483385a65d9853900
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248489"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917438"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Nota sjálfvirkt gagnatökukerfi (ADCS)
 
 > [!NOTE]
 > Í stöðluðu útgáfunni af [!INCLUDE[d365fin](includes/d365fin_md.md)] virkar ADCS aðeins í uppsetningu á staðnum. Hins vegar getur Microsoft samstarfsaðili fengið það til að virka í uppsetningu á netinu með PowerApps eða svipuðu forriti.
 
-Hægt er að nota sjálfvirka gagnatökukerfið (ADCS) til að skrá alla hreyfingu á vörum í vöruhúsinu og skrá sumar færslubókaraðgerðir, s.s. leiðréttingar á magni í birgðabók vöruhússins og raunbirgðir.  
+Hægt er að nota sjálfvirka gagnatökukerfið (ADCS) til að skrá alla hreyfingu á vörum í vöruhúsinu og skrá sumar færslubókaraðgerðir, s.s. leiðréttingar á magni í birgðabók vöruhússins og raunbirgðir. ADCS felur venjulega í sér strikamerkjaskönnun. 
 
 Ef nota á ADCS þarf að gefa öllum vörum í vöruhúsinu vörukenni. Einnig þarf að setja upp smáglugga, handtölvuaðgerðir, gagnaskipti og tilgreina stillingar fyrir svæði sem stýra ADCS Notandinn tilgreinir hvort eigi að nota í ADCS spjaldi birgðageymslunnar vöruhúsi.
 
@@ -100,7 +100,7 @@ Til að innleiða eða breyta virkni smágluggaaðgerðar þarf að búa til ný
     </xsl:template>  
     ```  
 2.  Í [!INCLUDE[d365fin](includes/d365fin_md.md)] þróunarumhverfi, opnið töflu 7702 og bætið við kóta fyrir nýjan lykil. Í þessu dæmi, er stofnaður lykil sem er með heitinu **F6**.  
-3.  Bæta við C/AL-kóta í viðeigandi aðgerð kótaeiningar viðeigandi smáglugga til að sjá um aðgerðalykilinn  
+3.  Bæta við C/AL-kóta í viðeigandi aðgerð smágluggamiðaðrar codeunit-kótaeiningar til að sjá um aðgerðalykilinn.  
 
 ### <a name="to-customize-miniform-functions"></a>Til að sérsníða aðgerðir smáglugga  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Smágluggar** og veldu síðan tengda tengilinn.  

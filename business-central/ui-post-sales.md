@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796896"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921431"
 ---
 # <a name="posting-sales"></a>Sölubókun
-Í **bókunarflokki** á söluskjali er hægt að velja milli eftirfarandi bókunaraðgerða:
+Undir valmyndinni **Bókun** í söluskjali er hægt að velja milli eftirfarandi bókunaraðgerða:
 
 * **Færsla**
-* **Prófunarskýrsla**
+* **Bóka og nýtt**
 * **Bóka og senda**
-* **Bóka og prenta**
-* **Bóka og senda í tölvupósti**
-* **Bóka runu**
 * **Forskoðun bókunar**
+* **Reikningsdrög**
+* **Bráðabirgðareikningur**
+* **Prófunarskýrsla**
 
 Þegar lokið hefur verið við allar línurnar og allar upplýsingar færðar á sölupöntunina er hægt að bóka hana. Þetta stofnar afhendingu og reikning.
 
@@ -41,9 +41,11 @@ Birgðafærsla er stofnuð í töflunni **birgðafærsla** fyrir hverja sölupö
 
 Þegar bókun er lokið hverfa bókuðu sölulínurnar úr pöntuninni. Skilaboð segja til um hvenær bókun er lokið. Að þessu loknu verður hægt að sjá bókuðu færslurnar í ýmsum af þeim síðum sem innihalda bókaðar færslur, eins og **Viðskiptamannafærslur**, **Fjárhagsfærslur**, **Birgðafærslur,**, **Bókuð söluafhending** og **Bók. sölureikningur**.  
 
-## <a name="see-also"></a>Sjá einnig
+Þú getur breytt tilteknum reitum í bókuðum söluskjölum, t.d. **Rakningarnúmer pakka**. . Frekari upplýsingar er að finna í [Breyta bókuðum skjölum](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
+[Breyta bókuðum skjölum](across-edit-posted-document.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md)  
 [Nota Viðmótsleit til að finna eiginleika og upplýsingar](ui-search.md)  

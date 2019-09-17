@@ -1,21 +1,21 @@
 ---
 title: Flýtivísanir
 description: Heill listi yfir flýtivísanir til að vinna skilvirkt með gögnin þín.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.date: 09/06/2019
+ms.author: sgroespe
+ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621207"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985911"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 Þessi grein gefur yfirlit yfir nokkrar flýtivísanir sem hægt er að nota þegar þú ert að vinna með [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -170,6 +170,12 @@ Eftirfarandi flýtileiðir eru eingöngu í boði á síðum vinnublaðs, eins o
 |Esc|Lokaðu dagatalinu án vals, halda núverandi dagsetningu.|
 |Síða niður|Fara í næsta mánuð.|
 |Síða upp|Fara í fyrri mánuð.|  
+
+## <a name="keyboard-shortcuts-in-date-fields"></a>Flýtilyklar í gagnareitum
+|Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
+|-----------------|-------|
+|d|Færðu inn daginn í dag. „T“ stendur fyrir „Í dag“.|
+|v|Færðu inn vinnudagsetninguna. Frekari upplýsingar er að finna í [Vinnudagsetning](ui-change-basic-settings.md#work-date)|
 
 ## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Flýtivísanir í forskoðun skýrslu
 

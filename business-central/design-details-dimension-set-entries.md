@@ -12,19 +12,17 @@ ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6b66ecee87e1fd128733f541d46b97f44af0453
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c97a03d9ce458cefe094b711bfe62a4b3c8e25d7
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242745"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970925"
 ---
 # <a name="design-details-dimension-set-entries"></a>Hönnunarupplýsingarn: Færslur víddarsamstæða
-Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar yfir hugtök og reglur víddarfærsluvistun og bókunareiginleika í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Skjölin byrja á því að lýsa hugmyndafræðilegum yfirlitum. Þá er tæknistrúktúr útskýrður. Einnig gefur það dæmi um kóða til undirbúnings fyrir víddarkóðaflutning og -uppfærslu úr útgáfum sem eru eldri en Dynamics NAV 2013R2.  
+Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar yfir hugtök og reglur víddarfærsluvistun og bókunareiginleika í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="in-this-section"></a>Í þessum hluta  
 [Yfirlit yfir víddasamstæðufærslur](design-details-dimension-set-entries-overview.md)  
 [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)  
 [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)  
-[Hönnunarupplýsingar: Kóðaeining 408 víddarstjórnun](design-details-codeunit-408-dimension-management.md)  
-[Hönnunarupplýsingar: Kóðadæmi um breytt mynstur í Breytingar](design-details-code-examples-of-changed-patterns-in-modifications.md)

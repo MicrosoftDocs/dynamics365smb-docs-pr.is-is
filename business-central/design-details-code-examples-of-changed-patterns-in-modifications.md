@@ -13,12 +13,12 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 59fce0a432c7f433552cff21ef304fa16fa85a8a
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243435"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970902"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Hönnunarupplýsingar: Kóðadæmi um breytt mynstur í Breytingar
 Þetta efni gefur dæmi um kóða til að sýna breytt mynstur í víddakóða breytingar og flutning í fimm mismunandi aðstæður. Það ber saman kóðadæmin í fyrri útgáfum við kóða dæmi í Business Central.
@@ -197,4 +197,3 @@ GetSalesHeader;
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingarn: Færslur víddarsamstæða](design-details-dimension-set-entries.md)   
 [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)   
-[Hönnunarupplýsingar: Kóðaeining 408 víddarstjórnun](design-details-codeunit-408-dimension-management.md)

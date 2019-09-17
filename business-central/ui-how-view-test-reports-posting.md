@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 16ce39ef0603e65acbd161c122ed48492290de3c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2a0de959150584e56c488335688950a79430da25
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249170"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921316"
 ---
 # <a name="view-test-reports-before-posting"></a>Skoða prufuskýrslur fyrir bókun
 Þegar á að bóka skjal, t.d. pöntun, reikning eða kreditreikning, er hægt að prófa skjalið til að tryggja að engin vandamál sem geta stöðvað bókunina séu til staðar.
@@ -32,6 +32,5 @@ ms.locfileid: "1249170"
 Allir hlutar innkaupareikningsins eru prófaðir og niðurstöðurnar birtar í skýrslu. Ef í skýrslunni koma fram villur eða upplýsingar vantar þá verður að laga það áður en innkaupareikningurinn er bókaður.
 
 ## <a name="see-also"></a>Sjá einnig
-[Bóka skjöl og færslubækur](ui-post-documents-journals.md)  
+[Að bóka skjöl og færslubækur](ui-post-documents-journals.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

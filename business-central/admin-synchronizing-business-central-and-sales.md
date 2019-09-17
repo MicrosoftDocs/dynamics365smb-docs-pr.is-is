@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629620"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917461"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Samstilling gagna í Business Central og Dynamics 365 for Sales
 Við samþættingu [!INCLUDE[crm_md](includes/crm_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að ákveða hvort eigi að samstilla gögn á völdum svæðum af færslum [!INCLUDE[d365fin](includes/d365fin_md.md)] (t.d. viðskiptamenn, tengiliðir og sölumenn) við samsvarandi færslur í [!INCLUDE[d365fin](includes/d365fin_md.md)] (s.s. reikningar, tengiliðir og notendur). Háð gerð færslu, er hægt að samstilla gögn úr [!INCLUDE[crm_md](includes/crm_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)] eða öfugt. Frekari upplýsingar er að finna í [Samþætting við Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -92,7 +92,7 @@ Eftirfarandi tafla sýnir varpanir frá [!INCLUDE[d365fin](includes/d365fin_md.m
 |Söluverð|Söluverð sem eru með verðflokk viðskiptavinar sem sölugerð og eru með skilgreindan sölukóða eru samstillt við verðlistalínur [!INCLUDE[crm_md](includes/crm_md.md)]|
 |Tækifæri|Tækifæri eru samstillt við tækifæri [!INCLUDE[crm_md](includes/crm_md.md)]. Gildið á kóða sölumanns skilgreinir eiganda tengdu einingarinnar í [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Bókaðir sölureikningar|Bókaðir sölureikningar eru samstilltir við sölureikninga. Áður en hægt er að samstilla reikning er betra að samstilla allar aðrar einingar sem geta verið hluti af reikningnum, frá sölumanni til verðlista. Gildið á kóða sölumanns í fyrirsögn reiknings skilgreinir eiganda tengdu einingarinnar í Sales.|
-|Sölupantanir|Útgefin sölupöntun (hausar) er samstillt við sölupöntun. Áður en hægt er að samstilla pöntun er betra að samstilla allar aðrar einingar sem geta verið hluti af pöntuninni, frá sölumanni til verðlista. Gildið á kóða sölumanns í pöntunarhaus skilgreinir eiganda tengdu einingarinnar í Sales.|  
+|Sölupantanir|Þegar samþætting sölupöntunar er virkjuð eru sölupantanir í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem eru búnar til úr innsendum sölupöntunum í [!INCLUDE[crm_md](includes/crm_md.md)] samstilltar við sölupantanir í TAKA MEÐ SÖLU þegar þær eru gefnar út. Áður en þú samstillir pantanir mælum við með að þú samstillir fyrst allar einingar sem koma við sögu í pöntuninni, t.d. sölufólk og verðlistar. Kóðareitur sölumanns í pöntunarhaus skilgreinir eiganda tengdu einingarinnar í [!INCLUDE[crm_md](includes/crm_md.md)].|  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md)   
