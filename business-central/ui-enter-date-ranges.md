@@ -2,21 +2,21 @@
 title: Innsláttur dagsetninga og tíma í Business Central | Microsoft Docs
 description: Lærðu hvernig á að slá inn dagsetningar og tíma, þar á meðal ýmsar ábendingar um framleiðni, svo sem hraðskrift, segð og afmarkanir. Sía lista eða skýrslur niður í tiltekna dagsetningu eða tímabil.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: c7e80edfd796056176d37ad12a56c76e64bb44e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 09/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
+ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250941"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "2000764"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tíma í dagatali
 
@@ -24,7 +24,7 @@ ms.locfileid: "1250941"
 
 ## <a name="check-your-region-and-language-settings"></a>Athugaðu svæði og tungumálastillingar
 
-[**Mínar stillingar**](https://businesscentral.dynamics.com?page=9176 "Farðu beint á notendastillingarsíðuna þína í Business Central") síðan tilgreinir **svæði** og **tungumál** sem þú notar í forritinu. Þessar stillingar hafa áhrif á hvernig þú slærð inn dagsetningar og tíma. 
+[**Mínar stillingar**](https://businesscentral.dynamics.com?page=9176 "Farðu beint á notendastillingarsíðuna þína í Business Central") síðan tilgreinir **svæði** og **tungumál** sem þú notar í forritinu. Þessar stillingar hafa áhrif á hvernig þú slærð inn dagsetningar og tíma.
 
 -   **Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir.
 
@@ -33,7 +33,7 @@ ms.locfileid: "1250941"
 > [!NOTE]
 > [!INCLUDE[d365fin](includes/d365fin_long_md.md)] notar gregoríska dagatalskerfið.
 
-<!-- 
+<!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
@@ -43,7 +43,7 @@ The following sections describe how you can enter dates, times, datetimes, durat
 
 Athugaðu að sniðið sem dagsetningar eru birtar á í prentuðum skýrslum eða skjölum sendum í tölvupósti eru ekki undir áhrifum af persónulegu vali þínu á svæðisstillingu.
 
-Til að vinna á afkastameiri hátt með dagsetningar og tíma geturðu notað eitthvað af þeim aðferðum eða sniði sem lýst er í eftirfarandi köflum. 
+Til að vinna á afkastameiri hátt með dagsetningar og tíma geturðu notað eitthvað af þeim aðferðum eða sniði sem lýst er í eftirfarandi köflum.
 
 ### <a name="picking-dates-from-the-calendar"></a>Velja dagsetningar úr dagatalinu
 
@@ -55,9 +55,9 @@ Sjá einnig [Flýtilyklar í dagsetningarvali dagatals](keyboard-shortcuts.md#ca
 
 ### <a name="day-week-year-pattern"></a>Dagur\-vika\-ár mynstur
 
-Þú getur slegið inn dagsetningu sem vikudag og síðan vikunúmer og, ef þú vilt, ár. Til dæmis þýðir `Mon25` eða `mon25` mánudagur í viku 25. Ef þú slærð ekki inn ár er ár vinnudagsetningar notað.
+Þú getur slegið inn dagsetningu sem vikudag og síðan vikunúmer og, ef þú vilt, ár. Til dæmis þýðir Mán25 eða mán25 mánudagur í viku 25. Ef þú slærð ekki inn ár er ár vinnudagsetningar notað.
 
-Í stað þess að slá inn allt orðið fyrir vikudaginn getur þú slegið inn hluta af orðinu, með því að byrja á byrjuninni. Ef um er að ræða árekstur (eins og til dæmis `s` sem gæti verið laugardagur eða sunnudagur) eru dagarnir metnir í samræmi við svæðisstillingu. Inntakið er fyrst metið út frá `workdate` og `today` einnig, svo hafðu þetta í huga þegar skammstafað er. Til dæmis, `t` þýðir nú þegar í dag, svo það getur ekki þýtt þriðjudagur eða fimmtudagur.
+Í stað þess að slá inn allt orðið fyrir vikudaginn getur þú slegið inn hluta af orðinu, með því að byrja á byrjuninni. Ef um er að ræða árekstur (eins og til dæmis f sem gæti verið fimmtudagur eða föstudagur) eru dagarnir metnir í samræmi við svæðisstillingu. Inntakið er fyrst metið út frá vinnudegi og deginum í dag einnig, svo hafðu þetta í huga þegar skammstafað er. Til dæmis þýðir d nú þegar í dag, svo það getur ekki þýtt þriðjudagur eða fimmtudagur.
 
 Vikunúmersskemað er alltaf ISO 8601, þar sem vika 1 er vikan sem inniheldur 4. janúar, eða vikan sem inniheldur fyrsta fimmtudag ársins.
 
@@ -73,11 +73,11 @@ Vikunúmersskemað er alltaf ISO 8601, þar sem vika 1 er vikan sem inniheldur 4
 
 ### <a name="today"></a>Í dag
 
-Sláðu inn orðið fyrir `today`, á tungumáli sem er stillt af **Tungumál** stillingu, sem stillir daginn á núverandi dagsetningu. Í stað þess að slá inn allt orðið geturðu slegið inn hluta af orðinu, með því að byrja á byrjuninni, eins og `t` eða `tod`, svo lengi sem það er ekki líka byrjun annars orðs.
+Sláðu inn orðið fyrir daginn í dag, á tungumáli sem er stillt í **Tungumál**, sem stillir daginn á núverandi dagsetningu. Í stað þess að slá inn allt orðið geturðu slegið inn hluta af orðinu, með því að byrja á byrjuninni, eins og t eða ídag, svo lengi sem það er ekki líka byrjun annars orðs.
 
 ### <a name="period"></a>Tímabil
 
-Til að sía á tilteknu fjárhagstímabili, sláðu inn í dagsetningarreit stafinn `p`, eða orðið `period`, og síðan númer sem tilgreinir fjárhagstímabilið, t.d. `p2` eða `period4`. Bókhaldstímabilið er miðað við fjárhagsár núverandi vinnudags sem er stillt í hlutverki þínu. Til dæmis, ef vinnudagur er **03/21/20**, þá `p1`, eða bara `p`, síar á fyrsta fjárhagstímabili fjárhagsársins 2020 (eins og `01/01/20..01/31/20`). `p15` síar á fimmtánda fjárhagstímabilinu frá upphafi fjárhagsársins 2020 (eins og `03/01/21..03/31/21`). 
+Til að sía á tilteknu fjárhagstímabili, sláðu inn í dagsetningarreit stafinn t, eða orðið tímabil, og síðan númer sem tilgreinir fjárhagstímabilið, t.d. t2 eða timabil4. Bókhaldstímabilið er miðað við fjárhagsár núverandi vinnudags sem er stillt í hlutverki þínu. Ef vinnudagur er til dæmis **21/03/20**, þá t1 eða aðeins t, síar á fyrsta fjárhagstímabili fjárhagsársins 2020 (eins og 01/01/20..31/01/20). t15 síar á fimmtánda fjárhagstímabilinu frá upphafi fjárhagsársins 2020 (eins og 01/03/21..31/03/21).
 
 Fjárhagstímabilin eru skilgreind á síðunni **Fjárhagstímabil**. Til að skoða eða breyta fjárhagstímabilum skaltu opna síðuna [hér](https://businesscentral.dynamics.com/?page=100).
 
@@ -95,7 +95,7 @@ Sjá einnig [Breyting grunnstillingar, svo sem vinnudagsetning](ui-change-basic-
 
 Þegar reikningsári er lokað er hægt að nota lokunardagsetningu til að sýna að færsla sé lokunarfærsla. Lokunardagsetning er í raun milli tveggja dagsetninga, til dæmis 31. des. og 1. jan.
 
-Til að tilgreina að dagsetning sé lokadagsetning skaltu setja `C` rétt fyrir dagsetningu, svo sem `C123101`. Þetta er hægt að nota ásamt öllum dagsetningarmynstri.
+Til að tilgreina að dagsetning sé lokadagsetning skaltu setja N rétt fyrir dagsetningu, svo sem N123101. Þetta er hægt að nota ásamt öllum dagsetningarmynstri.
 
 ### <a name="examples"></a>Dæmi
 
@@ -103,24 +103,24 @@ Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notu
 
 |**Færsla**      |**Túlkun**      |
 |---------------|------------------------|
-|`2018.12.31.`|2018.12.31.|
-|`181231`|2018.12.31.|
-|`18.12.31.`|2018.12.31.|
-|`18.12.31.`|2018.12.31.|
-|`20181231`|2018.12.31.|
-|`18/12,31`|2018.12.31.|
-|`11`|vinnudagsetning ár.vinnudagsetning mánuður.11.|
-|`1112`|vinnudagsetningarár.11.12.|
-|`t` eða `today`|dagurinn í dag|
-|`p4`|dagsetningabil sem felur í sér fjórða reikningstímabilið, svo sem `04/01/20..04/30/20`|
-|`w` eða `workdate`|vinnudagsetningin|
-|`m` eða `Monday`|Mánudagur vinnudagsetningarvikunnar|
-|`tu` eða `Tuesday`|Þriðjudagur vinnudagsetningarvikunnar|
-|`sa` eða `Saturday`|Laugardagur vinnudagsetningarvikunnar|
-|`s` eða `Sunday`|Sunnudagur vinnudagsetningarvikunnar|
-|`t23`|Þriðjudagur 23. viku vinnudagsetningarársins|
-|`t 23`|Þriðjudagur 23. viku vinnudagsetningarársins|
-|`t-1`|Þriðjudagur 1. viku vinnudagsetningarársins|
+|2018.12.31.|31/12/2018.|
+|311218|31/12/2018|
+|18.12.31.|31/12/2018|
+|18.12.31.|31/12/2018|
+|31122018|31/12/2018|
+|18/12,31|31/12/2018|
+|11|vinnudagsetning ár/vinnudagsetning mánuður/11.|
+|1112|vinnudagsetningarár/11/12.|
+|d eða dagurinn í dag|dagurinn í dag|
+|t4|dagsetningabil sem felur í sér fjórða reikningstímabilið, svo sem 01/04/20..30/04/20|
+|v eða vinnudagsetningin|vinnudagsetningin|
+|m eða mánudagur|Mánudagur vinnudagsetningarvikunnar|
+|þr eða þriðjudagur|Þriðjudagur vinnudagsetningarvikunnar|
+|la eða laugardagur|Laugardagur vinnudagsetningarvikunnar|
+|s eða sunnudagur|Sunnudagur vinnudagsetningarvikunnar|
+|þ23|Þriðjudagur 23. viku vinnudagsetningarársins|
+|þ 23|Þriðjudagur 23. viku vinnudagsetningarársins|
+|þ-1|Þriðjudagur 1. viku vinnudagsetningarársins|
 
 ##  <a name="BKMK_SettingDateRanges"></a> Stillingarbil
 
@@ -128,17 +128,17 @@ Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notu
 
 |**Merking**|**Dæmi um segð (dagsetning)**|**Gögn sem eru höfð með síunni**|
 |-----------|---------------------|--------------------|
-|Millibil|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Skrár með dagsetningar á milli og að meðtöldum 12 15 00 og 01 15 01.<br /><br />Færslur með dagsetningar 12 15 00 eða fyrr.<br /><br />Dagsetningabil sem inniheldur annað, þriðja og fjórða reikningstímabilið, svo sem `01/01/20..04/30/20`.|
-|Annaðhvort eða|`12 15 00|12 16 00`|Skrár með dagsetningar annaðhvort 12 15 00 eða 12 16 00. Ef það eru skrár með dagsetningar á báðum dögum verða þær allar birtar.|
-|Samsetning|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Skrár með dagsetningar 12 15 00 eða á dagsetningum á milli og að meðtöldum 12 01 00 og 12 10 00.  \nSkrár með dagsetningar 12 14 00 eða fyrr, eða 12 30 00 eða síðar, það er, allar skrár nema þær sem eru með dagsetningar á milli og að meðtöldum 12 15 00 og 12 29 00.|
+|Millibil|12 15 00..01 15 01<br /><br />..12 15 00<br /><br />t1..t4|Skrár með dagsetningar á milli og að meðtöldum 12 15 00 og 01 15 01.<br /><br />Færslur með dagsetningar 12 15 00 eða fyrr.<br /><br />Dagsetningabil sem inniheldur annað, þriðja og fjórða reikningstímabilið, svo sem 01/01/20..30/04/20.|
+|Annaðhvort eða|12 15 00|12 16 00|Skrár með dagsetningar annaðhvort 12 15 00 eða 12 16 00. Ef það eru skrár með dagsetningar á báðum dögum verða þær allar birtar.|
+|Samsetning|12 15 00|12 01 00..12 10 00  \n..12 14 00|12 30 00..|Skrár með dagsetningar 12 15 00 eða á dagsetningum á milli og að meðtöldum 12 01 00 og 12 10 00.  \Skrár með dagsetningar 12 14 00 eða fyrr, eða 12 30 00 eða síðar, það er, allar skrár nema þær sem eru með dagsetningar á milli og að meðtöldum 12 15 00 og 12 29 00.|
 
-Þú getur notað öll gild snið í síum dagsetningarbils. Til dæmis, `mon14 3..t 4p` beitt á reitarniðurstöður dagsetningartíma í síu frá kl. 03:00 á mánudag í viku 14 á núgildandi vinnudagsetningarári, innifalið, þar til í dag kl. 16:00, innifalið.
+Þú getur notað öll gild snið í síum dagsetningarbils. Til dæmis, mán14 3..t 4t beitt á reitarniðurstöður dagsetningartíma í síu frá kl. 03:00 á mánudag í viku 14 á núgildandi vinnudagsetningarári, innifalið, þar til í dag kl. 16:00, innifalið.
 
 ## <a name="using-date-formulas"></a>Notkun dagsetningarreiknireglna
 Dagsetningarregla er stutt, skammstöfuð samsetning stafa og tölustafa sem tilgreinir hvernig skal reikna út dagsetningar. Þú getur slegið inn dagsetningarformúlur í ýmsa reiknireiti fyrir dagsetningar eða síur.
 
 > [!NOTE]
->  Dagurinn í dag, fyrir upphaf tímabilsins, er með í öllum reitum fyrir reiknireglur dagsetninga. Í samræmi við það, ef fært er inn `1W`, til dæmis, er tímabilið í raun átta dagar þar sem dagurinn í dag er tekinn með. Til að tilgreina sjö daga tímabil \(eina sanna viku\) þ.m.t. upphafsdagsetningu tímabilsins, þá verður þú að slá inn `6D` eða `1W-1D` .
+>  Dagurinn í dag, fyrir upphaf tímabilsins, er með í öllum reitum fyrir reiknireglur dagsetninga. Í samræmi við það, ef til dæmis er fært inn 1V er tímabilið í raun átta dagar þar sem dagurinn í dag er tekinn með. Til að tilgreina sjö daga tímabil \(ein raunvika\) að meðtalinni upphafsdagsetningu tímabilsins þarf að færa inn 6D eða 1V-1D.
 
 Hér eru nokkur dæmi um hvernig nota má dagsetningarreiknireglur:
 
@@ -152,50 +152,50 @@ Dagsetningarformúlan getur innihaldið hámark 20 stafir, bæði tölur og bók
 
 |  Stafur  |  Merking  |
 |----------|----------------------|
-|`C`|Opið|
-|`D`|Dagur\(s\)|
-|`W`|Vika\(s\)|
-|`M`|Mánuður\(s\)|
-|`Q`|Fjórðungur\(s\)|
-|`Y`|Ár\(s\)|
+|N|Núverandi|
+|D|Dagur\(s\)|
+|V|Vika\(s\)|
+|M|Mánuður\(s\)|
+|F|Fjórðungur\(s\)|
+|Á|Ár\(s\)|
 
 Hægt er að rita dagsetningarreiknireglu á þrjá vegu.
 
-Eftirfarandi dæmi sýnir hvernig á að nota `C`, fyrir núverandi, og tímaeiningu.
+Eftirfarandi dæmi sýnir hvernig á að nota N, fyrir núverandi, og tímaeiningu.
 
 |  Segð  |  Merking  |
 |--------------|-----------|
-|`CW`|Líðandi vika|
-|`CM`|Líðandi mánuður|
+|LV|Núverandi vika|
+|LM|Líðandi mánuður|
 
 Eftirfarandi dæmi sýnir hvernig á að nota tölueiningu og tíma. Talan getur ekki verið hærri en 9999.
 
 |  Segð  |  Merking  |
 |--------------|-----------|
-|`10D`|10 dögum eftir daginn í dag|
-|`2W`|2 vikum eftir daginn í dag|
+|10D|10 dögum eftir daginn í dag|
+|2V|2 vikum eftir daginn í dag|
 
 Eftirfarandi dæmi sýnir hvernig á að nota tímaeiningu og tölu.
 
 |  Segð  |  Merking  |
 |--------------|-----------|
-|`D10`|Næsti 10. dagur mánaðar|
-|`WD4`|Næsti fjórði dagur viku \(fimmtudagur\)|
+|D10|Næsti 10. dagur mánaðar|
+|VD4|Næsti fjórði dagur viku \(fimmtudagur\)|
 
 Eftirfarandi dæmi sýnir hvernig eigi að samræma þessi þrjú eyðublöð eins og þörf er á.
 
 |  Segð  |  Merking  |
 |--------------|-----------|
-|`CM+10D`|Líðandi mánuður \+ 10 dagar|
+|LM+10D|Núverandi mánuður \+ 10 dagar|
 
 Eftirfarandi dæmi sýnir hvernig hægt er að nota mínustákn til að sýna gamla dagsetningu.
 
 |  Segð  |  Merking  |
 |--------------|-----------|
-|`-1Y`|1 ári fyrir daginn í dag|
+|-1Á|1 ári fyrir daginn í dag|
 
 > [!IMPORTANT]
->  Ef staðsetningin notar grunndagatal, er dagsetningarreiknireglan sem er til dæmis færð inn í reitinn **Afhendingartími** túlkuð samkvæmt vinnudögum. Til dæmis, `1W` þýðir sjö virkir dagar.
+>  Ef staðsetningin notar grunndagatal, er dagsetningarreiknireglan sem er til dæmis færð inn í reitinn **Afhendingartími** túlkuð samkvæmt vinnudögum. Til dæmis merkir 1B sjö vinnudaga.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -294,26 +294,26 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 |**Færsla**      |**Túlkun**      |
 |---------------|------------------------|
-|`05:23:17`|05:23:17|
-|`5`|05:00:00|
-|`5AM`|05:00:00|
-|`5P`|17:00:00|
-|`12`|12:00:00|
-|`12A`|00:00:00|
-|`12P`|12:00:00|
-|`17`|17:00:00|
-|`5:30`|05:30:00|
-|`0530`|05:30:00|
-|`5:30:5`|05:30:05|
-|`053005`|05:30:05|
-|`5:30:5,50`|05:30:05.5|
-|`053005050`|05:30:05.05|
+|05:23:17|05:23:17|
+|5|05:00:00|
+|5AM|05:00:00|
+|5P|17:00:00|
+|12|12:00:00|
+|12A|00:00:00|
+|12P|12:00:00|
+|17|17:00:00|
+|5:30|05:30:00|
+|0530|05:30:00|
+|5:30:5|05:30:05|
+|053005|05:30:05|
+|5:30:5,50|05:30:05.5|
+|053005050|05:30:05.05|
 
-Þú ættir að vera meðvitaðir um að millisekúndur séu túlkuð sem tugabrot. Þannig að, til dæmis, `3`, `30`, og `300` þýðir allt 300 millisekúndur, á meðan `03` þýðir `30` og `003` þýðir 3 millisekúndur.
+Þú ættir að vera meðvitaðir um að millisekúndur séu túlkuð sem tugabrot. Til dæmis þýðir 3, 30 og 300 þýðir allt 300 millisekúndur, á meðan 03 þýðir 30 og 003 þýðir 3 millisekúndur.
 
-Þú getur ekki látið `24:00` tákna miðnætti eða notað gildi sem er hærra en 24:00.
+Þú getur ekki látið 24:00 tákna miðnætti eða notað gildi sem er hærra en 24:00.
 
-Orðið fyrir „tími“ á tungumálinu sem notað er af [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verður metið við núverandi tíma á tölvunni þinni eða fartækinu. Þú getur slegið inn hvaða hluta orðsins sem er, með því að byrja á byrjuninni, eins og til dæmis `t` eða `TIM`.
+Orðið fyrir „tími“ á tungumálinu sem notað er af [!INCLUDE[d365fin](includes/d365fin_long_md.md)] verður metið við núverandi tíma á tölvunni þinni eða fartækinu. Þú getur slegið inn hvaða hluta orðsins sem er, með því að byrja á byrjuninni, eins og til dæmis T eða TÍM.
 
 ## <a name="entering-combined-dates-and-times"></a>Sláðu inn sameinaða dagsetningar og tíma
 Þegar þú slærð inn dagsetningartíma, sem er dagsetning og tími sameinuð í eitt reit, verður þú að slá inn bil milli dagsetningar og tíma. Dagsetningarhlutinn getur aðeins innihaldið bil í formi opinbers dagsetningarskiltákns þinna svæðisstillinga. Tíminn getur innihaldið bil í kringum f.h./e.h. vísirinn.
@@ -324,27 +324,27 @@ Eftirfarandi tafla sýnir nokkur dæmi um samsetningar dagsetninga og tíma. Sv�
 
 |**Færsla**      |**Túlkun**      |
 |---------------|------------------------|
-|`08-01-2016 05:48:12 PM`|08\-01\-2016 05:48:12 e.h.|
-|`131202 132455`|13\-12\-2002 13:24:55|
-|`1-12-02 10`|01\-12\-2002 10:00:00|
-|`1.12.02 5`|01\-12\-2002 05:00:00|
-|`1.12.02`|01\-12\-2002 00:00:00|
-|`11 12`|11\-vinnudagsetningarmánuður\-vinnudagsetningarár 12:00:00|
-|`1112 12`|11\-12\-vinnudagsetningarárið 12:00:00|
-|`t` eða `today`|dagurinn í dag 00:00:00|
-|`t 10:30`|dagurinn í dag 10:30:00|
-|`t 3:3:3`|dagurinn í dag 03:03:03|
-|`w` eða `workdate`|vinnudagsetningin 00:00:00|
-|`m` eða `Monday`|Mánudagur vinnudagsetningarvikunnar 00:00:00|
-|`tu` eða `Tuesday`|Þriðjudagur vinnudagsetningarvikunnar 00:00:00|
-|`sa` eða `Saturday`|Laugardagur vinnudagsetningarvikunnar 00:00:00|
-|`s` eða `Sunday`|Sunnudagur vinnudagsetningarvikunnar 00:00:00|
-|`tu 10:30`|Þriðjudagur vinnudagsetningarvikunnar 10:30:00|
-|`tu 3:3:3`|Þriðjudagur vinnudagsetningarvikunnar 03:03:03|
-|`t23 t`|Þriðjudagur 23. viku vinnudagsetningarársins, núgildandi tími dagsins|
-|`t23`|Þriðjudagur 23. viku vinnudagsetningarársins|
-|`t 23`|Í dag 23:00:00|
-|`t-1`|Þriðjudagur 1. viku vinnudagsetningarársins|
+|08-01-2016 05:48:12 PM|08/01/2016 05:48:12 e.h.|
+|131202 132455|13/12/2002 13:24:55|
+|1-12-02 10|01/12/2002 10:00:00|
+|1.12.02 5|01/12/2002 05:00:00|
+|1.12.02|01/12/2002 00:00:00|
+|11 12|11/vinnudagsetningarmánuður/vinnudagsetningarár 12:00:00|
+|1112 12|11/12/vinnudagsetningarárið 12:00:00|
+|d eða dagurinn í dag|dagurinn í dag 00:00:00|
+|d 10:30|dagurinn í dag 10:30:00|
+|d 03:03:03|dagurinn í dag 03:03:03|
+|v eða vinnudagsetningin|vinnudagsetningin 00:00:00|
+|m eða mánudagur|Mánudagur vinnudagsetningarvikunnar 00:00:00|
+|þr eða þriðjudagur|Þriðjudagur vinnudagsetningarvikunnar 00:00:00|
+|la eða laugardagur|Laugardagur vinnudagsetningarvikunnar 00:00:00|
+|s eða sunnudagur|Sunnudagur vinnudagsetningarvikunnar 00:00:00|
+|þr 10:30:00|Þriðjudagur vinnudagsetningarvikunnar 10:30:00|
+|þr 03:03:03|Þriðjudagur vinnudagsetningarvikunnar 03:03:03|
+|Þ23 Þ|Þriðjudagur 23. viku vinnudagsetningarársins, núgildandi tími dagsins|
+|þ23|Þriðjudagur 23. viku vinnudagsetningarársins|
+|þ 23|Í dag 23:00:00|
+|þ-1|Þriðjudagur 1. viku vinnudagsetningarársins|
 
 ## <a name="entering-duration"></a>Færið inn tímalengd
 Sumir reitir í forritinu tákna tímalengd eða magn liðins tíma, í stað tiltekins dagsetningar eða tíma. Hægt er að færa inn tímalengd sem tölu og mælieiningu.
@@ -353,21 +353,20 @@ Hér eru nokkur dæmi.
 
 |**Lengd**|**Mælieining**|
 |------------|-------------------|
-|`2h`|2 klst|
-|`6h 30 m`|6 klst 30 mín|
-|`6.5h`|6 klst 30 mín|
-|`90m`|1 klst 30 mín|
-|`2d 6h 30m`|2 dagar 6 klst 30 mín|
-|`2d 6h 30m 56s 600ms`|2 dagar 6 klst 30 mín 56 sek 600 millis|
+|2t|2 klst|
+|6t 30 m|6 klst 30 mín|
+|6,5t|6 klst 30 mín|
+|90m|1 klst 30 mín|
+|2d 6t 30m|2 dagar 6 klst 30 mín|
+|2d 6t 30m 56s 600ms|2 dagar 6 klst 30 mín 56 sek 600 millis|
 
 Einnig er hægt að færa inn tölu og þá er henni sjálfkrafa breytt í tímalengd. Tölunni sem færð er inn er breytt samkvæmt sjálfgefnu mælieiningunni sem hefur verið tilgreind fyrir reitinn tímalengd.
 
 Hægt er að sjá hvaða mælieining er notuð í reitnum tímalengd með því að færa inn tölu og sjá í hvaða mælieiningu kerfið færir hana í.
 
-Til dæmis, ef mælieiningin er klukkustund, er númerinu `5` breytt í 5 klukkustundir.
-
+Ef mælieiningin er til dæmis klukkustund, er númerinu 5 breytt í 5 klukkustundir.
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
-[Dagsetning útreiknings fyrir kaup.](purchasing-date-calculation-for-purchases.md)  
+[Dagsetning útreiknings fyrir kaup](purchasing-date-calculation-for-purchases.md)  
 [Skilgreining skilyrða í síum](ui-enter-criteria-filters.md)  
