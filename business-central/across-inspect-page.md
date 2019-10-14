@@ -8,13 +8,13 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
-ms.date: 04/01/2019
-ms.openlocfilehash: e747757ec6942ede0e237e013703ebf6d3df189b
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.date: 10/01/2019
+ms.openlocfilehash: 7bc5186103f05ad827d15933f586e2fac9b4a584
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1447015"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304878"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Skoðun á Síðum í Business Central
 
@@ -38,7 +38,7 @@ Ef upplýsingarnar sjást ekki sem þú býst við að sjá í rúðunni **Eftir
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Upplýsingar um stjórnun á aðgangi að síðueftirliti
 
-Sem stjórnandi er hægt að stýra aðgangi að ítarlegum upplýsingum sem eru sýndar í rúðunni **Eftirlit með síðu** með því að stilla heimildir sem notendur eru með. Til að veita aðgangsheimild notanda að ítarlegum upplýsingum skal gefa notendum heimildina **Keyra** í **Kerfis** hlutanum **5330**. Hægt er að veita þessa heimild með því að nota heimildasamstæðu (t.d. **D365 úrræðaleit**) eða notendaflokk (t.d. **D365 úrræðaleit**). Frekari upplýsingar um heimildir er að finna í [Stjórnun notenda og heimilda](ui-how-users-permissions.md).
+Sem stjórnandi er hægt að stýra aðgangi að ítarlegum upplýsingum sem eru sýndar í rúðunni **Eftirlit með síðu** með því að stilla heimildir sem notendur eru með. Til að veita aðgangsheimild notanda að ítarlegum upplýsingum skal gefa notendum heimildina **Keyra** í **Kerfis** hlutanum **5330**. Hægt er að veita þessa heimild með því að nota heimildasamstæðu (t.d. **D365 úrræðaleit**) eða notendaflokk (t.d. **D365 úrræðaleit**). Frekari upplýsingar um heimildir er að finna í [Stjórna notendum og heimildum](ui-how-users-permissions.md).
 
 Notendur sem fá heimildir í **Kerfishlutur 5330** geta enn opnað rúðuna **Eftirlit með síðu**, en þeir munu aðeins sjá reitina **Síða** og **Tafla** sem birta grunnupplýsingar sem hægt er að senda áfram til þjónustudeildar.
 

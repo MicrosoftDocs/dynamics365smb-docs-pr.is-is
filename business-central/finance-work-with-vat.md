@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796850"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301565"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Unnið með VSK í sölu og innkaupum
 Ef þitt land eða svæði krefst þess að reiknaður sé VSK skattur á sölu- og innkaupafærslur svo hægt sé talið upphæðirnar fram til skattayfirvalda, geturðu sett upp [!INCLUDE[d365fin](includes/d365fin_md.md)] þannig að VSK verði reiknaður sjálfkrafa á sölu- og innkaupaskjölum. Frekari upplýsingar, sjá [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md).
@@ -35,17 +35,17 @@ Ef selt er til smásöluneytenda, viltu kannski að verð í söluskjali sé me�
 ### <a name="including-or-excluding-vat-on-prices"></a>Taka með eða útiloka VSK í verði
 Ef gátreiturinn **Verð með VSK** er valinn á söluskjali eru reitirnir **Ein.verð** og **Línuupphæð** með VSK og Reitaheitin endurspegla einnig þetta. Sjálfgefið er VSK ekki tekið með í þessum reitum.  
 
-Ef reiturinn er ekki valinn fyllir kerfið út reitina **Ein.verð** og **Línuupphæð** án VSK. Reitaheitin endurspegla það.  
+Ef reiturinn er ekki valinn fyllir forritið út reitina **Ein.verð** og **Línuupphæð** án VSK. Reitaheitin endurspegla það.  
 
-Hægt er að setja upp sjálfgefna stillingu á **Verð með VSK** fyrir öll söluskjöl viðskiptamanns í reitnum **Verð með VSK** á spjaldinu **Viðskiptamaður**. Einnig er hægt að setja upp vöruverð þannig að þau séu með eða án VSK. Yfirleitt er vöruverð í birgðaspjaldi verð án VSK. Kerfið notar upplýsingarnar úr reitnum **Verð með VSK** í **birgðaspjaldinu** til að ákvarða einingarverðið fyrir söluskjölin.  
+Hægt er að setja upp sjálfgefna stillingu á **Verð með VSK** fyrir öll söluskjöl viðskiptamanns í reitnum **Verð með VSK** á spjaldinu **Viðskiptamaður**. Einnig er hægt að setja upp vöruverð þannig að þau séu með eða án VSK. Yfirleitt er vöruverð í birgðaspjaldi verð án VSK. Forritið notar upplýsingarnar úr reitnum **Verð með VSK** í **birgðaspjaldinu** til að ákvarða einingarverðið fyrir söluskjölin.  
 
-Eftirfarandi tafla birtir yfirlit yfir það hvernig kerfið reiknar upphæðir einingarverðs fyrir söluskjöl þegar engin verð eru sett upp á síðunni **Söluverð**:  
+Eftirfarandi tafla birtir yfirlit yfir það hvernig forritið reiknar upphæðir einingarverðs fyrir söluskjöl þegar engin verð eru sett upp á síðunni **Söluverð**:  
 
 |**Verð með VSK í birgðaspjaldi**|**Reiturinn Verð með VSK í söluhaus**|**Aðgerð framkvæmd**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |Ekkert gátmerki|Ekkert gátmerki|**Einingarverð** á birgðaspjaldinu er afritað í reitinn **Ein.verð án VSK** í sölulínunum.|  
-|Ekkert gátmerki|Gátmerki|Kerfið reiknar VSK-upphæð á einingu og bætir við **Ein.verð** á Vöruspjaldinu. Heildareiningarverðið er svo fært inn í reitinn **Ein. verð með Vsk** í sölulínunum.|  
-|Gátmerki|Ekkert gátmerki|Kerfið reiknar VSK-upphæðina sem er tekin í **Ein.verð** í birgðaspjaldinu með VSK-prósentunni sem tengist samsetningu VSK-viðskiptabókunarflokksins (verð) og VSK-vörubókunarflokksins. **Einingaverðið** í birgðaspjaldinu, mínus VSK-upphæðin, er því næst fært inn í reitinn **Ein.verð án VSK** í sölulínunum.|  
+|Ekkert gátmerki|Gátmerki|Forritið reiknar VSK-upphæð á einingu og bætir við **Ein.verð** á Vöruspjaldinu. Heildareiningarverðið er svo fært inn í reitinn **Ein. verð með Vsk** í sölulínunum.|  
+|Gátmerki|Ekkert gátmerki|Forritið reiknar VSK-upphæðina sem er tekin í **Ein.verð** í birgðaspjaldinu með VSK-prósentunni sem tengist samsetningu VSK-viðskiptabókunarflokksins (verð) og VSK-vörubókunarflokksins. **Einingaverðið** í birgðaspjaldinu, mínus VSK-upphæðin, er því næst fært inn í reitinn **Ein.verð án VSK** í sölulínunum.|  
 |Gátmerki|Gátmerki|**Einingarverðið** í birgðaspjaldinu er afritað í reitinn **Ein.verð með VSK** í sölulínunum.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Handvirk breyting VSK-upphæða í sölu- og innkaupaskjölum  
@@ -58,7 +58,7 @@ Ef greiðsluafsláttur er reiknaður af reikningsupphæð sem inniheldur VSK er 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Til að setja kerfið upp fyrir handvirka VSK-færslu í söluskjölum
 Eftirfarandi lýsir því hvernig á að virkja handvirkar VSK-breytingar á söluskjölum. Skrefin eru svipuð á síðunni **Uppsetning innkaupa og viðskiptaskulda**.
 
-1. Í glugganum **Uppsetning fjárhags** er tilgreindur **leyfður hámarks VSK-mismunur** milli upphæðarinnar sem reiknuð er af kerfinu og handvirkt reiknuðu upphæðarinnar.  
+1. Í glugganum **Uppsetning fjárhags** er tilgreindur **leyfður hámarks VSK-mismunur** milli upphæðarinnar sem reiknuð er af forritinu og handvirkt reiknuðu upphæðarinnar.  
 2. Á síðunni **Uppsetning Sala & Útistandandi** skal setja gátmerki í reitinn **Leyfa VSK-mismun**.  
 
 ### <a name="to-adjust-vat-for-a-sales-document"></a>Breyting VSK fyrir söluskjöl:  
@@ -68,7 +68,7 @@ Eftirfarandi lýsir því hvernig á að virkja handvirkar VSK-breytingar á sö
 4. Breyttu reitnum **VSK-upphæð**.   
 
 > [!NOTE]  
-> Heildarupphæð VSK fyrir reikninginn, sem flokkaður er samkvæmt kennimerki VSK, er birt í línunum. Hægt er að breyta upphæðinni handvirkt í reitnum **VSK-upphæð** í línum hvers kennimerkis VSK. Þegar **VSK-upphæð** er breytt gengur kerfið úr skugga um VSK hafi ekki verið breytt um meira en þá upphæð sem tilgreind er sem leyfður hámarksmismunur. Ef upphæðin er utan **Hám. VSK-mismunur leyfður** birtist viðvörun þar sem hámarksmismunur er tekinn fram. Ekki er hægt að halda áfram fyrr en upphæðin hefur verið leiðrétt. Smellt er á **Í lagi** og önnur **VSK-upphæð** sem er innan hámarksmismunar færð inn. Ef VSK-mismunur er jafn og eða lægri en hámarkið er VSK deilt hlutfallslega á milli fylgiskjalalínanna sem eru með sama kennimerki VSK.  
+> Heildarupphæð VSK fyrir reikninginn, sem flokkaður er samkvæmt kennimerki VSK, er birt í línunum. Hægt er að breyta upphæðinni handvirkt í reitnum **VSK-upphæð** í línum hvers kennimerkis VSK. Þegar **VSK-upphæð** er breytt gengur forritið úr skugga um VSK hafi ekki verið breytt um meira en þá upphæð sem tilgreind er sem leyfður hámarksmismunur. Ef upphæðin er utan **Hám. VSK-mismunur leyfður** birtist viðvörun þar sem hámarksmismunur er tekinn fram. Ekki er hægt að halda áfram fyrr en upphæðin hefur verið leiðrétt. Smellt er á **Í lagi** og önnur **VSK-upphæð** sem er innan hámarksmismunar færð inn. Ef VSK-mismunur er jafn og eða lægri en hámarkið er VSK deilt hlutfallslega á milli fylgiskjalalínanna sem eru með sama kennimerki VSK.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Reikna VSK handvirkt með því að nota Færslubækur  
 Einnig er hægt að breyta VSK-upphæðum í almennum færslubókum, sölu- og innkaupabókum. Þetta kann t.d. að reynast nauðsynlegt þegar lánardrottinsreikningur er færður inn í færslubók notanda og mismunur er á milli VSK-upphæðarinnar sem reiknuð er af [!INCLUDE[d365fin](includes/d365fin_md.md)] og VSK-upphæðarinnar sem er á mótteknum reikningi frá lánardrottninum.  
@@ -76,7 +76,7 @@ Einnig er hægt að breyta VSK-upphæðum í almennum færslubókum, sölu- og i
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Til að setja kerfið upp fyrir handvirka VSK-færslu í almennum færslubókum
 Eftirfarandi skref þarf að klára áður en VSK er fært handvirkt inn í almenna færslubók.  
 
-1. Í glugganum **Uppsetning fjárhags** er tilgreindur **leyfður hámarks VSK-mismunur** milli upphæðarinnar sem reiknuð er af kerfinu og handvirkt reiknuðu upphæðarinnar.  
+1. Í glugganum **Uppsetning fjárhags** er tilgreindur **leyfður hámarks VSK-mismunur** milli upphæðarinnar sem reiknuð er af forritinu og handvirkt reiknuðu upphæðarinnar.  
 2. Á síðunni **Sniðmát færslubókar** skal velja **Leyfa VSK-mismun** gátreitinn fyrir viðeigandi færslubók.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Til að setja kerfið upp fyrir handvirka VSK-færslu í sölu- og innkaupabókum

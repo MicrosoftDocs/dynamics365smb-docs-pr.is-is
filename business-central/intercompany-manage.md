@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 42a02a5ec6a519b43df1b147cd4ba94006bdcae0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8e7a26f3086249e1e36fe302e75141c44bbb46d7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241870"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308573"
 ---
 # <a name="managing-intercompany-transactions"></a>Vinna með millifyrirtækjafærslur
 Fyrirtækið gæti verið samansett úr mörgum dótturfyrirtækum án þess að hafa sama fjölda bókahalds- og stjórnunarteyma. Milli-fyrirtækjavirknin gerir þér kleift að stunda viðskipti við dóttur- og félagafyrirtæki á sama hátt og þú átt við ytri lánardrottna og viðskiptamenn. Færslur milli fyrirtækja eru aðeins færðar einu sinni í viðeigandi skjal. Notandinn getur notað þær aðgerðir sem hann er vanur, til dæmis stjórnun á útgjöldum og gjaldfærðum skuldum. Vörpunaraðgerðir fyrir bókhaldslykla og víddir tryggja að upplýsingarnar birtist á réttum stað.  
@@ -29,7 +29,7 @@ Fjórir helstu kostir milli fyrirtækjavirkninnar eru:
 - Fullt eftirlit með ferli endurskoðana, viðskipta og færslna  
 - Skilvirkar og hagkvæmar færslur í samskiptum við hlutdeildarfélög eða dótturfyrirtæki  
 
-Færsluskjölum má stjórna algjörlega. Til dæmis er hægt að hafna fylgiskjali sem sent hafa verið og, með þessum hætti, bakfæra bókanir sem voru rangar. Einnig er hægt að uppfæra innkaupapöntun þegar keypt er frá félaga eða hlutdeildarfyrirtæki, svo lengi sem sölufyrirtækið hefur ekki afhent vörur.  
+Færsluskjölum má stjórna algjörlega. Til dæmis er hægt að hafna fylgiskjali sem þú hefur fengið sent og því rangar bókanir Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar. Einnig er hægt að uppfæra innkaupapöntun þegar keypt er frá félaga eða hlutdeildarfyrirtæki, svo lengi sem sölufyrirtækið hefur ekki afhent vörur.  
 
 Þegar færsla er færð inn þarf ekki að tilgreina reikningana fyrir stök söfn bóka, heldur þarf aðeins að gefa upp kenni samstarfsfyrirtækisins. Milli-fyrirtækjavirknin býr til færslubókarlínur sem leiða til réttrar stöðu reikninga beggja fyrirtækjanna sem eiga hlut að færslu. Í Útistandandi og viðskiptaskuldir er MF-félagakóta úthlutað á hvaða viðskiptamann eða lánardrottin sem er. Pantanir og reikningar sem eiga við færslur til eða frá þessum félögum stofna þaðan í frá samsvarandi skjöl hjá fyrirtækjafélögum svo að staða reikninganna verði rétt.  
 

@@ -8,17 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 06/26/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 10ccbc7546aa5d03c3837997a721c63c3ce465da
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: d945a6b851c20479a4c8c83f38b8fc8ccdfd6765
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796666"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300426"
 ---
-[!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
-
 # <a name="creating-a-sandbox-environment"></a>Búa til sandkassaumhverfi
 Sandkassaumhverfi (Forskoðun) er tilvik af [!INCLUDE[d365fin](includes/d365fin_md.md)] ótengt framleiðslu. Sandkassaumhverfi er staðurinn, ótengdur framleiðslu, þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa þjónustuna í öruggu umhverfi án þess að eiga á hættu að hafa áhrif á gögnin eða stillingarnar í framleiðsluumhverfi þínu.
 
@@ -46,7 +44,7 @@ Notandi verður að hafa áskrift að [!INCLUDE[d365fin](includes/d365fin_md.md)
 
     > [!NOTE]
     > Sandkassaumhverfi sem er búið til á þennan hátt inniheldur aðeins sjálfgefin sýnigögn fyrir fyrirtækið CRONUS. Engin gögn eru afrituð eða yfirhöfuð flutt frá framleiðsluumhverfinu.<br /><br />
-    > Einnig er hægt að búa til sandkassaumhverfi sem inniheldur framleiðslugögnin. Þetta þarf að gera í gegnum stjórnendamiðstöðina. Frekari upplýsingar eru í [Stjórnun umhverfa](/business-central/dev-itpro/administration/tenant-admin-center-environments) í þróunar- og IT-pro hjálpinni.
+    > Einnig er hægt að búa til sandkassaumhverfi sem inniheldur framleiðslugögnin. Þetta þarf að gera í gegnum stjórnendamiðstöðina. Frekari upplýsingar eru í [Stjórnun umhverfa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) í þróunar- og IT-pro hjálpinni.
 
 6. Alltaf er hægt að fara til baka á **Sandkassaumhverfi** síðuna og endurstilla sandkassaumhverfið.
     > [!NOTE]  

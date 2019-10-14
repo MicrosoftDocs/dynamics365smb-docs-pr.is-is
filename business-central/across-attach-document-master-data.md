@@ -8,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: upload, attach, attachments
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: ui-how-add-link-to-record
+ms.openlocfilehash: 2b5ed5ade59e2cf3b8832da088d79adfba4ad7fa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240885"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300678"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Hengja skrár við kort og skjöl
 Hægt er að hengja myndir, skjöl og aðrar gerðir af skrám við öll kort, svo sem birgðaspjald og verkspjald og þú getur hengt skrár við allar gerðir af sölu- og innkaupskjölum.
 
 > [!Note]
-> Almennt er hámarksskráarstærð fyrir viðhengi 150 MB. Hins vegar geta mörkin verið lægri fyrir sumar aðgerðir. 
+> Almennt er hámarksskráarstærð fyrir viðhengi 150 MB. Hins vegar geta mörkin verið lægri fyrir sumar aðgerðir.
 
 ## <a name="to-attach-a-file-to-a-sales-order"></a>Að hengja skrá við sölupöntun
 Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll önnur sölu- og innkaupaskjöl og fyrir öll kort.

@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 07/08/2019
+ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 4223d3eba6253f87aee3f86b3a9dfe4107d48947
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: e17485563e331f7e78500650e174f6b2b57bbb8e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755265"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307973"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Gera viðskiptagögn þín virk fyrir Power BI
 
@@ -27,7 +27,7 @@ Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes
 > [!IMPORTANT]
 > Power BI forrit sem lýst er í þessari grein eru hannaðir til að nota Azure Active Directory sem sannvottunaraðferð nema annað sé tilgreint. Til að setja upp Power BI-forrit þarftu einnig að hafa Power BI-leyfi fagmanns.  Þegar Power BI-forritið er uppsett er hægt að deila því með öðrum notendum sem eru með hvaða leyfisgerð sem er.
 
-Microsoft hefur gefið út eftirfarandi forrit fyrir Power BI:
+[!INCLUDE [prodlong](includes/prodlong.md)] hefur gefið út eftirfarandi forrit fyrir Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
@@ -64,7 +64,7 @@ Forritin eru hönnuð til að vinna með gögn frá hvaða fyrirtæki sem er sem
 <!--    ![Choose apps from online services that you use.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)-->
 4. Velja skal **Forrit** í flipanum **Forrit fyrir Power BI** og velja forritið **Microsoft Dynamics 365 Business Central** sem á að nota og svo velja **Sækja núna**.  
 <!--    ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packspowerbi-dynamics365-for-financials-get-it-now.png)/-->
-5. Þegar óskað er eftir því skal færa inn heiti fyrirtækisins í [!INCLUDE[prodshort](includes/prodshort.md)] sem þú vilt tengjast við. Þetta er ekki birtingarnafnið. Þú getur fundið heiti fyrirtækisins á síðunni **Fyrirtæki** í [!INCLUDE[prodshort](includes/prodshort.md)]-tilvikinu þínu.  
+5. Þegar óskað er eftir því skal færa inn heiti fyrirtækisins í [!INCLUDE[prodshort](includes/prodshort.md)] forritið sem þú vilt tengjast við. Ef ekki hafa verið búin til mörg umhverfi skal slá inn **Framleiðsla**. Fyrir færibreytu fyrirtækisins skal ganga úr skugga um að verið sé að slá inn heitið og ekki birtingarnafnið. Þú getur fundið heiti fyrirtækisins á síðunni **Fyrirtæki** í [!INCLUDE[prodshort](includes/prodshort.md)]-tilvikinu þínu.  
 
     > [!NOTE]
     > Ef þú tengist [!INCLUDE [prodshort](includes/prodshort.md)] á staðnum, verður þú að tilgreina færibreytuna *Vefslóð þjónustu.*. Finndu þetta á síðunni **Vefþjónusta** í [!INCLUDE [prodshort](includes/prodshort.md)]. Skilgreina verður [!INCLUDE [server](includes/server.md)]-tilvikið þitt fyrir grunnvottun og gefa verður upp notanda og vefaðgangslykil hans sem er aðgangsorðið hans. Í eftirfarandi dæmi skaltu skipta út *myserver:7048* fyrir [!INCLUDE [server](includes/server.md)]-heitið þitt og *CRONUS%20US* fyrir heiti fyrirtækisins þíns.  
@@ -162,6 +162,10 @@ Power BI yfirlitið byggir á birtum vefþjónustum sem eru hér að ofan skrá�
 
 Power BI reikningur hefur ekki verið settur upp. Til þess að hafa gildan Power BI-reikning verður þú að vera með leyfi og að hafa skráð þig inn í Power BI svo hægt sé að búa til Power BI-vinnusvæðið þitt.  
 
+### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Skilaboð: Engar skýrslur eru virkar. Veljið Velja skýrslu til að sjá hvaða skýrslur er hægt að birta.
+
+Þessi skilaboð birtast ef sjálfgefna skýrslan tókst ekki að virkja Power BI vinnusvæði þitt eða skýrslan virkjaði en mistókst að uppfæra. Ef þetta gerist skal fara í skýrsluna á Power BI vinnusvæðinu, velja **gagnamengi**, **stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnamengið hefur verið endurnýjað er farið aftur í Business Central og valið handvirkt skýrsla úr **velja skýrslur** síðunni. 
+
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Þú þarft Power BI-leyfi fagmanns til að setja upp [!INCLUDE [prodshort](includes/prodshort.md)]-forritið í Power BI
 
 Aðeins er hægt að setja upp Power BI-forritin að hálfu notenda sem eru með Power BI-leyfi fagmanns. Þegar Power BI-forritið hefur verið uppsett geturðu deilt því með notendum sem eru ekki með Power BI-leyfi fagmanns.  
@@ -170,6 +174,7 @@ Aðeins er hægt að setja upp Power BI-forritin að hálfu notenda sem eru með
 
 Þessi villa gefur til kynna að ein eða fleiri færibreytur séu ekki gildar.
 
+- Tilgreind umhverfisfæribreyta samsvarar ekki neinni fyrirliggjandi [!INCLUDE [prodshort](includes/prodshort.md)] -framleiðslu eða sandkassaumhverfi. 
 - Tilgreind færibreyta fyrirtækis passar ekki við önnur [!INCLUDE [prodshort](includes/prodshort.md)]-fyrirtæki. Staðfestu heiti fyrirtækis á síðunni **Fyrirtæki** í [!INCLUDE [prodshort](includes/prodshort.md)].
 - Ef tengst er [!INCLUDE [prodshort](includes/prodshort.md)] á staðnum. þú hefur slegið inn vefslóð sem er ekki gild. Þú getur staðfest vefslóðina á síðunni **Vefþjónusta** í [!INCLUDE [prodshort](includes/prodshort.md)]  
 - Gátt er ekki opin til að leyfa beiðni að fara í gegnum eldvegginn.
@@ -200,10 +205,10 @@ Power BI-forritið sýnir aðeins gögn úr [!INCLUDE [prodshort](includes/prods
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Hafist handa með Power BI](/power-bi/service-get-started)  
-[Power BI - Grunnhugtök](/power-bi/service-basic-concepts)  
-[Forrit í Power BI](/power-bi/consumer/end-user-app)  
+[Power BI fyrir neytendur](/power-bi/consumer/end-user-consumer)  
+[„Nýtt útlit“ Power BI þjónustunnar](/power-bi/service-new-look)  
 [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Power BI fylgiskjöl](/power-bi/)  
 [Viðskiptaupplýsingar](bi.md)  
 [Hafist handa](product-get-started.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  

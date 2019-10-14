@@ -10,18 +10,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 57fef211c6e0336edca60985757626c23932a3ae
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ac871665486260c02ab01dda8d893e30b34e8c4d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252712"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312989"
 ---
 # <a name="manufacturing"></a>Framleiðsla
 > [!NOTE]
-> Virkni sem lýst er í þessu efni og undirviðfangsefni er aðeins sýnilegt í notendaviðmótinu ef þú hefur **Úrvals** upplifun. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
+> Virkni sem lýst er í þessu efni og undirviðfangsefni er aðeins sýnilegt í notendaviðmótinu ef þú hefur **Úrvals** upplifun. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
 Þegar eftirspurn hefur verið áætluð og efnið sent út samkvæmt framleiðsluuppskriftum, geta raunverulegar framleiðsluaðgerðir hafist og verið framkvæmdar í þeirri röð sem skilgreind er af framleiðslupöntunarleiðinni.  
 

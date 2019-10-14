@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985887"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316645"
 ---
 # <a name="collect-outstanding-balances"></a>Innheimta útistandandi skuldir
 Í stjórnun útistandandi skulda felst að kanna hvort upphæðir sem falla í gjalddaga eru greiddar tímanlega. Ef viðskiptamenn eru í vanskilum geturðu sent yfirlitsskýrslu Viðskiptamanns sem innheimtubréf. Þú getur einnig gefið út innheimtubréf.
@@ -161,6 +161,11 @@ Að auki getur sending innheimtubréfs leitt af sér VSK-færslur.
 
 Innheimtubréfið er annað hvort prentað út eða sent á tiltekið netfang sem PDF viðhengi.
 
+### <a name="to-cancel-an-issued-reminder"></a>Hætta við útgefið innheimtubréf
+Ef innheimtubréf voru gefin út fyrir mistök er hægt að hætta við þau áður en þau eru send út. Þetta er hægt að gera annaðhvort fyrir hvert bréf fyrir sig eða í lotu.
+1. Á síðunni **Send innheimtubréf** skal velja eina eða fleiri línu fyrir send innheimtubréf sem á að hætta við og velja svo aðgerðina **Hætta við**.
+2. Á síðunni **Hætta við útgefnar áminningar** skal fylla út reitina eftir þörfum og velja síðan hnappinn **Í lagi**.
+
 ## <a name="to-set-up-finance-charge-terms"></a>Setja upp vaxtaskilmála
 Stofna verður kóta fyrir hvern vaxtaútreikning. Síðan er hægt að færa þennan kóða inn í reitinn **Kóði vaxtaskilmála** á viðskiptamanna- eða lánadrottnaspjöldum.
 
@@ -243,6 +248,11 @@ Að auki getur sending vaxtareikningur leitt af sér VSK-færslur.
 4. Velja hnappinn **Í lagi**
 
 Vaxtareikningurinn er annað hvort prentað út eða sent á tiltekið netfang sem PDF viðhengi.
+
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>Til að hætta við útgefinn vaxtareikning
+Ef vaxtareikningar voru gefnir út fyrir mistök er hægt að hætta við þá áður en þeir eru sendir út. Þetta er hægt að gera annaðhvort fyrir hvern reikning fyrir sig eða í runu.
+1. Á síðunni **Útgefnir vaxtareikningar** skal velja eina eða fleiri línur fyrir útgefna vaxtareikninga sem á að hætta við og velja svo aðgerðina **Hætta við**.
+2. Á síðunni **Hætta við útgefna vaxtareikninga** skal fylla út reitina eftir þörfum og velja síðan hnappinn **Í lagi**.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Innheimtubréfa- og vaxtafærslur skoðaðar:  
 Þegar innheimtubréf er sent er innheimtubréfafærslu búin til á síðunni **Innheimtubréf/Vaxtafærsla** fyrir hverja innheimtubréfslínu sem inniheldur viðskiptamannafærslu. Hægt er að fá yfirlit yfir færslur innheimtubréfa fyrir ákveðinn viðskiptamann.    

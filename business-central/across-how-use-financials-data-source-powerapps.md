@@ -8,44 +8,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 05/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 67d7129e32ccde3154a02dd12b806d712f470833
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 4b8005154afb988cf25c6a04b7beeaafd199afca
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540270"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305025"
 ---
-# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota PowerApps.
+# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota PowerApps
 Notandi getur gert [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín aðgengileg sem gagnaveitu í PowerApps.  
 
 > [!NOTE]  
 >   Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin](includes/d365fin_md.md)] og hjá PowerApps.  
 
-## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>Til að bæta [!INCLUDE[d365fin](includes/d365fin_md.md)] við sem gagnaveitu í PowerApps
+## <a name="to-add-included365finincludesd365fin_mdmd-as-a-data-source-in-powerapps"></a>Til að bæta [!INCLUDE[d365fin](includes/d365fin_md.md)] við sem gagnaveitu í PowerApps
 1. Flettið í [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/) í vafranum og skráið ykkur svo inn.
-2. Á heimasíðunni skal velja sniðmátið **Byrja frá gögnum** til að búa til nýtt vinnusvæðaforrit. Þetta forrit verður hannað til notkunar í farsíma, en þú getur einnig valið að nota annað sniðmát.
+2. Á heimasíðunni skal velja **Forrit**, **Búa til forrit** og **Vinnusvæði** til að búa til nýtt vinnusvæðisforrit. Þetta forrit verður hannað til notkunar í farsíma, en þú getur einnig valið að nota annað sniðmát.
 
     Næsta skrefið til að búa til PowerApp er að velja gögn. Veldu örtáknið og veldu svo valkostinn **Ný tenging** á efri hluta síðunnar, vinstra megin.
 3. Úr lista yfir tiltækar tengingar skal velja **Business Central** og svo hnappinn **Stofna**.
 
-    PowerApps mun tengjast [!INCLUDE [prodshort](includes/prodshort.md)] með innskráningarupplýsingunum sem þú ert skráð(ur) inn með. Ef þú ert ekki stjórnandi á [!INCLUDE [prodshort](includes/prodshort.md)] þínu þarftu hugsanlega að skrá þig inn með öðrum reikningi.  
+    PowerApps mun tengjast [!INCLUDE [prodshort](includes/prodshort.md)] með því að nota skilríkin sem notandi er skráður inn í með. Ef þú ert ekki stjórnandi á [!INCLUDE [prodshort](includes/prodshort.md)] þínu þarftu hugsanlega að skrá þig inn með öðrum reikningi.  
 
-4. Ef þú hefur fleiri en eitt fyrirtæki í [!INCLUDE [prodshort](includes/prodshort.md)] þínu þarftu að velja fyrirtækið til að tengjast við. PowerApps birtir lista yfir *töflur* sem eru í boði frá [!INCLUDE [prodshort](includes/prodshort.md)]. Þessar svokölluðu töflur eru hluti af [!INCLUDE [prodshort](includes/prodshort.md)] API. Þú þarft ekki að stilla endapunkta sjálfur - [!INCLUDE [prodshort](includes/prodshort.md)] tengið fyrir PowerApps gerir það fyrir þig.  
+4.  PowerApps mun birta lista yfir *umhverfi og fyrirtæki* sem eru tiltæk í [!INCLUDE [prodshort](includes/prodshort.md)]. Velja skal umhverfi og fyrirtækið sem inniheldur gögnin sem á að tengjast við. Næst færðu að sjá lista yfir API. Veldu **API** sem þú vilt tengjast við.
 
-    Ef þú vilt hafa með gögn úr öðrum töflum í [!INCLUDE [prodshort](includes/prodshort.md)] í forritinu þínu verður þú að vinna með þróunaraðila til að skilgreina sérsniðið API í [!INCLUDE [prodshort](includes/prodshort.md)] og síðan nota þetta sérsniðna API í gegnum sérsniðinn tengil í PowerApps. Nánari upplýsingar má finna í [Stofna sérsniðin tengi frá grunni](/connectors/custom-connectors/define-blank).  
+Þessar svokölluðu töflur eru hluti af [!INCLUDE [prodshort](includes/prodshort.md)] API. Þú þarft ekki að grunnstilla endapunktana sjálf(ur) - [!INCLUDE [prodshort](includes/prodshort.md)] tengillinn fyrir PowerApps gerir það fyrir þig.  
 
-Nú hefur þér tekist að tengjast gögnum þínum í [!INCLUDE [prodshort](includes/prodshort.md)] og getur byrjað að byggja upp PowerApp. Hægt er að bæta við fleiri skjáum og tengjast við fleiri gögn úr [!INCLUDE [prodshort](includes/prodshort.md)]. Nánari upplýsingar er að finna í [Búa til vinnusvæðaforrit úr sniðmáti í PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive).  
+    If you want to include data from other tables in [!INCLUDE [prodshort](includes/prodshort.md)] in your app, then you must work with a developer to define a custom API in [!INCLUDE [prodshort](includes/prodshort.md)] and then consume that custom API through a custom connector in PowerApps. For more information, see [Create a custom connector from scratch](/connectors/custom-connectors/define-blank).  
 
-Þegar þú hefur hannað og smíðað forritið þitt getur þú deilt því með samstarfsmönnum þínum. Nánari upplýsingar er að finna í [Vista og birta vinnusvæðaforrit í PowerApps](/powerapps/maker/canvas-apps/save-publish-app).  
+Nú hefur þér tekist að tengjast gögnum þínum í [!INCLUDE [prodshort](includes/prodshort.md)] og getur byrjað að byggja upp PowerApp. Hægt er að bæta við fleiri skjáum og tengjast við fleiri gögn úr [!INCLUDE [prodshort](includes/prodshort.md)]. Frekari upplýsingar er að finna á [Búa til vinnusvæðisforrit úr sniðmáti í PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive).  
+
+Þegar þú hefur hannað og smíðað forritið þitt getur þú deilt því með samstarfsmönnum þínum. Frekari upplýsingar er að finna á [Vista og birta vinnusvæðisforrit í PowerApps](/powerapps/maker/canvas-apps/save-publish-app).  
 
 > [!NOTE]
 > Ef þú vilt tengjast við [!INCLUDE [prodshort](includes/prodshort.md)] á staðnum verður þú að velja tengilinn **Business Central (á staðnum)** í skrefi 3.  
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Búa til vinnusvæðaforrit úr sniðmáti í PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive)  
+[Búa til vinnusvæðisforrit úr sniðmáti í PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Hafist handa](product-get-started.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

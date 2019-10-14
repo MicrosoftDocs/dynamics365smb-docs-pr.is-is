@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a26cafc11479d7065645947f63fa93d28ddb824f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246018"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307445"
 ---
 # <a name="design-details-assembly-order-posting"></a>Hönnunarupplýsingar: Bókun samsetningarpöntunar
 Bókun samsetningarpöntunar byggir á sömu meginreglum og þegar bókun tengist sambærilegum aðgerðum á borð við sölupantanir og notkun/frálag framleiðslu. Hins vegar eru reglur sameinaðar að því leyti að samsetningarpantanir eru með eigið bókunarviðmót eins og fyrir sölupantanir á meðan raunveruleg bókun færslna fer fram í bakgrunninum sem beinar vöru- og forðabókarbókanir, eins og fyrir framleiðslunotkun, framleiðslu og afkastagetu.  
@@ -96,11 +96,11 @@ Upplýsingar um hvernig kostnaður frá samsetningu og framleiðslu eru bókaða
 
 Að auki, bókunarflokkur reitir á samsetningarpöntunarhaus og samsetningarpöntunarlína er fyllt út sjálgefið svona:  
 
-|Lögaðili|Tegund|VSK-vörubókunarfl.|Alm. vörubókunarflokkur|  
+|Lögaðili|Tegund|VSK-vörubókunarfl.|Almenn Vörubókunarflokkur|  
 |------------|----------|-------------------|------------------------------|  
-|Samsetningarpöntunarhaus|Vara|Birgðabókunarflokkur|Alm. vörubókunarflokkur|  
-|Samsetningarpöntunarlína|Vara|Birgðabókunarflokkur|Alm. vörubókunarflokkur|  
-|Samsetningarpöntunarlína|Forði||Alm. vörubókunarflokkur|  
+|Samsetningarpöntunarhaus|Vara|Birgðabókunarflokkur|Almenn Vörubókunarflokkur|  
+|Samsetningarpöntunarlína|Vara|Birgðabókunarflokkur|Almenn Vörubókunarflokkur|  
+|Samsetningarpöntunarlína|Forði||Almenn Vörubókunarflokkur|  
 
 Í samræmi er eingöngu raunverulegur kostnaður bókara í fjárhag og engir bráðabirgðareikningar eru útfylltir úr bókun samsetningarpöntunar. Frekari upplýsingar, sjá [Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)  
 

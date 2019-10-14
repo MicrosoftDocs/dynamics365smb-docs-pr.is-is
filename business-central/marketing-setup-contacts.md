@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8a3cce098b254111b219f94baf1c507d6edbcd23
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242271"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308717"
 ---
 # <a name="set-up-contacts"></a>Uppsetning tengiliða
 Þegar tengiliðir eru stofnaðir má færa inn nákvæmar upplýsingar, eins og þær starfsgreinar sem tengiliðirnir tilheyra og viðskiptatengsl við tengiliðina.
@@ -142,9 +142,9 @@ Vissar upplýsingar um tengiliðafyrirtæki eru þær sömu og um einstaklingste
 Frekari upplýsingar eru í [Stofna tengiliði](marketing-create-contact-companies.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Nota forskilgreind sjálfgildi á nýja tengiliði
-Hægt er að láta forritið tilgreina sjálfkrafa ákveðinn tungumálskóða, umsjónarsvæðiskóða, sölumannskóða og lands-/svæðiskóða sem sjálfgildi þegar nýir einstaklingstengiliðir eru stofnaðir. Einnig er hægt að færa inn sjálfgefinn söluferliskóta sem kerfið úthlutar sjálfkrafa á hvert nýtt tækifæri sem stofnað er. Þetta er sett upp í flýtiflipanum **Sjálfgildi** á síðunni **Uppsetning markaðssetningar**
+Hægt er að láta forritið tilgreina sjálfkrafa ákveðinn tungumálskóða, umsjónarsvæðiskóða, sölumannskóða og lands-/svæðiskóða sem sjálfgildi þegar nýir einstaklingstengiliðir eru stofnaðir. Einnig er hægt að færa inn sjálfgefinn söluferliskóta sem forritið úthlutar sjálfkrafa á hvert nýtt tækifæri sem stofnað er. Þetta er sett upp í flýtiflipanum **Sjálfgildi** á síðunni **Uppsetning markaðssetningar**
 
-Reitaerfðir skrifast yfir sjálfgildi sem sett hafa verið upp. Ef enska, til dæmis, hefur verið sett upp sem sjálfgefið tungumál en tungumál tengiliðafyrirtækisins er þýska, úthlutar kerfið þýsku sjálfkrafa sem tungumálakóta einstaklingstengiliðanna sem skráðir eru fyrir það fyrirtæki.
+Reitaerfðir skrifast yfir sjálfgildi sem sett hafa verið upp. Ef enska hefur til dæmis verið sett upp sem sjálfgefið tungumál en tungumál tengiliðafyrirtækisins er þýska, úthlutar forritið þýsku sjálfkrafa sem tungumálakóta einstaklingstengiliðanna sem skráðir eru fyrir það fyrirtæki.
 
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Tengiliðir samstilltir við viðskiptamenn, lánardrottna og bankareikninga
 Til að geta samstillt tengiliðaspjaldið við tengt spjald viðskiptavinar, lánardrottins eða bankareiknings verðurðu að fylla út viðeigandi reiti í hlutanum **Viðskiptatengslakóði fyrir** í flýtiflipanum **Samskipti** á síðunni **Uppsetning markaðssetningar**.  
@@ -152,7 +152,7 @@ Til að geta samstillt tengiliðaspjaldið við tengt spjald viðskiptavinar, l�
 Fyrir frekar upplýsingar, sjá [Tengiliðir samstilltir við viðskiptamenn, lánardrottna og bankareikninga](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Leita að tvíteknum tengiliðum
-Hægt er að láta kerfið leita sjálfkrafa leita að tvítekningum í hvert sinn þegar stofnaður er tengiliður eða leitað er handvirkt eftir að tengiliðirnir hafa verið stofnaðir. Einnig er hægt að láta kerfið uppfæra leitarstrengi sjálfkrafa í hvert sinn sem tengiliðaupplýsingum er breytt eða tengiliður stofnaður. Notandinn ákveður sjálfur hver endurtekningarprósentan er, það er hlutfall strengja sem verða að vera eins hjá tveimur tengiliðum til þess að kerfið líti á þá sem tvítekningar. Þú setur þetta upp í flýtiflipanum **Tvítekningar** á síðunni **Uppsetning markaðssetningar**.
+Hægt er að láta forritið leita sjálfkrafa leita að tvítekningum í hvert sinn þegar stofnaður er tengiliður eða leitað er handvirkt eftir að tengiliðirnir hafa verið stofnaðir. Einnig er hægt að láta forritið uppfæra leitarstrengi sjálfkrafa í hvert sinn sem tengiliðaupplýsingum er breytt eða tengiliður stofnaður. Notandinn ákveður sjálfur hver endurtekningarprósentan er, það er hlutfall strengja sem verða að vera eins hjá tveimur tengiliðum til þess að forritið líti á þá sem tvítekningar. Þú setur þetta upp í flýtiflipanum **Tvítekningar** á síðunni **Uppsetning markaðssetningar**.
 
 Þegar þú finnur tvítekinn tengilið geturðu notað síðuna **Sameina tvítekið** til að sameina hann í sameinaða tengiliðafærslu sem þú vilt halda. Frekari upplýsingar er að finna í [Sameina tvítekin atriði](sales-how-merge-duplicate-records.md).
 

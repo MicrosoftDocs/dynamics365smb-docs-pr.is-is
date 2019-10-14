@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: e3ca7a52bb01b9d4a7b6417be14396cc616131ca
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2b0cd58ebb61dba8fcdcb0f686a2afe88a5e9f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241821"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309365"
 ---
 # <a name="managing-marketing-campaigns"></a>Stjórnun markaðsherferða
 Öflug markaðsáætlun gerir fyrirtækinu kleift að finna, vinna og halda viðskiptamönnum. Markaðsáætlun samanstendur af ýmsum söluherferðum og öðrum samskiptum í tengslum við sölur og markaðssetningaraðgerðir. Þegar söluherferð er skipulögð þarf að ákveða hvaða tengiliði skal miða á, hvaða gerð söluherferðar (t.d. vörusýningu eða beinan auglýsingapóst) skal nota og hvaða sölumen munu framkvæma hvert verk.
@@ -39,7 +39,7 @@ Hægt er að stofna herferðarspjald fyrir hverja herferð sem fylgjast á með.
 > [!NOTE]  
 >   Til þess að virkja söluverð / lína afslætti verður þú að tilgreina hvort allt hlutinn eða aðeins nokkrir tengiliðir eru markmið herferðarinnar. Ef söluverðið/línuafslátturinn nær yfir alla tengiliðina í hlutanum reiturinn **Markhópur söluherferðar** valinn á flýtiflipanum **Söluherferð** á spjaldinu **Hluti**.
 
-Ef ekki er boðið upp á söluverð / lína afslátt fyrir alla tengiliðina í hlutanum geturðu hreinsað **herferðarmarkið** fyrir viðkomandi tengiliði. Ef þú getur ekki séð þetta reit geturðu bætt því við skoðunina þína. Frekari upplýsingar eru í [Sérstilling vinnusvæðisins þíns](ui-personalization-user.md).
+Ef ekki er boðið upp á söluverð / lína afslátt fyrir alla tengiliðina í hlutanum geturðu hreinsað **herferðarmarkið** fyrir viðkomandi tengiliði. Ef þú getur ekki séð þetta reit geturðu bætt því við skoðunina þína. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Framkvæma herferðir
 Meðan herferð stendur yfir eru öll samskipti við tengiliði eða hluta skráð. Þetta gerir notanda kleift að fá tölfræði og aðrar upplýsingar um kostnað og árangur herferðarinnar.

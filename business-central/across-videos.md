@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bfcf6190250ba05ac5556d5c7543df6c4e9fa34e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244887"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304733"
 ---
 # <a name="visit-our-video-library"></a>Skoðaðu myndbandasafnið okkar
 Vinsamlegast sýndu okkur þolinmæði á meðan við endurbyggjum fræðslumyndbandssafnið okkar. Hliðarverkun nýlegra úrbóta í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að við verðum að endurgera efni okkar þannig að það endurspegli nákvæmlega vöruna.
@@ -42,7 +42,7 @@ Bara til að minnast á nokkur dæmi þá munu myndböndin sem við erum að upp
 
 * Færa viðskiptagögn úr öðru fjármálaforriti yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Setja upp víddir svo hægt sé að rekja og greina ýmis gögn og einingar
-* Tengja [!INCLUDE[d365fin](includes/d365fin_md.md)] við Dynamics 365 for Sales
+* Tengja [!INCLUDE[d365fin](includes/d365fin_md.md)] með Dynamics 365 Sales
 * Setja upp verkflæði samþykktar  
 * Nota Power BI með [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Setja upp tölvupóst og senda gögn beint frá [!INCLUDE[d365fin](includes/d365fin_md.md)]  

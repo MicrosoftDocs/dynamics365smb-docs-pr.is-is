@@ -1,32 +1,29 @@
 ---
 title: Af hverju get ég ekki sérsniðið síðu | Microsoft Docs
 description: Útskýrir hvers vegna þú getur ekki sérstillt síðu og hvað þú getur gert til að opna hana svo þú getir sérsniðið hana.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796762"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315133"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Af hverju er síða læst og því ekki hægt að sérsníða hana
 
-Það eru tvö skilyrði sem koma í veg fyrir að þú sérsníðir síðu. Annaðhvort er blaðsíðan læst (eins og kemur fram í ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás")) eða hún er útilokuð (eins og kemur fram í ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð")).
+Það eru tvö skilyrði sem koma í veg fyrir að þú sérsníðir síðu. Annaðhvort er blaðsíðan læst (eins og kemur fram í ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás")) tákninu eða hún er útilokuð (eins og kemur fram í ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") tákninu).
 
 ## <a name="locked-from-personalizing"></a>Læst fyrir sérstillingar
 
-Ef táknið ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás") í borðanum **Sérstilling** þegar síða er opnuð (eins og sýnt er) merkir það að þú getir ekki gert neinar breytingar á sérstillingu síðunnar.
-
-![Sérstilla lás](media/personalization-locked.png "Sérstilla lás")
-
+Ef táknið ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás") í borðanum **Sérstilling** þegar síða er opnuð merkir það að þú getir ekki gert neinar breytingar á sérstillingu síðunnar.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -41,7 +38,7 @@ The page currently includes the last personalization changes that you made. If y
 
 ### <a name="unlocking-the-page"></a>Síða aflæst
 
-Ef þú vilt taka síðu úr lás og halda áfram að sérstilla hana skaltu velja ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás") og síðan **Taka úr lás**.  
+Ef þú vilt taka síðu úr lás og halda áfram að sérstilla hana skaltu velja táknið ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás") og síðan aðgerðina **Taka úr lás**.  
 
 Áður en síða er tekin úr lás skal hafa eftirfarandi í huga:
 
@@ -51,14 +48,14 @@ Ef þú vilt taka síðu úr lás og halda áfram að sérstilla hana skaltu vel
 
 ## <a name="blocked-from-personalizing"></a>Lokað fyrir sérstillingar
 
-Ef táknið ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") er í borðanum fyrir sérstillingu merkir það að þú getir ekki gert neinar sérstillingar á síðunni.
+Ef táknið ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") er í borðanum fyrir **sérstillingu** merkir það að þú getir ekki gert neinar sérstillingar á síðunni.
 
-![Sérstilla lás](media/personalization-blocked.png "Sérstilla lás")
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 
-Ástæðan fyrir þessu er að Mitt hlutverk eða hlutverk sem er sem stendur tengt við notandareikninginn þinn breytir þessari síðu sérstaklega fyrir hlutverkið þitt. Vinsamlegast hafðu samband við stjórnandann til að fá aðstoð eða, ef eitthvað vit er í því, reyndu að skipta yfir í hlutverk (frá [**Mínar stillingar**](https://businesscentral.dynamics.com?page=9176 "Fara beint í síðuna fyrir notandastillingarnar þínar í Business Central")) sem felur í sér sérsniðið hlutverk fyrir þessa síðu.
+Ástæðan fyrir þessu er að Mitt hlutverk eða hlutverk sem er sem stendur tengt við notandareikninginn þinn breytir þessari síðu sérstaklega fyrir hlutverkið þitt. Hafðu samband við stjórnanda til að fá aðstoð. Að öðrum kosti skal reyna að skipta yfir í Mitt hlutverk sem inniheldur hlutverkaleik fyrir þessa síðu. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).
 
 ## <a name="see-also"></a>Sjá einnig
-[Sérstillingar verksvæðis](ui-personalization-manage.md)  
-[Sérstillingum stjórnað](ui-personalization-manage.md)  
-[Breyta grundvallarstillingum](ui-change-basic-settings.md)  
+[Sérstilling verksvæðis](ui-personalization-user.md)  
+[Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  
+[Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  

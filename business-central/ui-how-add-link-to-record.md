@@ -1,59 +1,83 @@
 ---
-title: Hvernig á að tengja úr skrám í ytri upplýsingar eða forrit | Microsoft Docs
+title: Bæta við viðhengjum, tenglum og athugasemdum á færslum | Microsoft Docs
 description: Setja tengil í skjal eða vefsíðu á tiltekna skrá, s.s. viðskiptavin eða fylgiskjal.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/12/2019
-ms.author: jswymer
-ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629758"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315277"
 ---
-# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Bæta við tenglum á vefsíður, skjöl, eða forrit á skrám.
-Á tilgreindri skrá, eins og t.d. viðskiptamanni, skjali eða sölupöntun, er hægt að bæta við tengli í ytra skjal, vefsíðu eða forrit. Einnig gæti verið þörf á tengli sem opnar nýjan auðan tölvupóst á tiltekinn viðtakanda þegar hann er valinn. Spjaldasíðan fyrir sumar skrár, s.s. viðskiptamanna- eða lánardrottnaspjöld, innihalda reitinn **Heimasíða** þar sem hægt er að færa inn vefslóð (URL). Til að hafa aðra tengla með er hægt að nota aðferðina sem lýst er í þessari grein.  
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum
 
-> [!IMPORTANT]
-> Eins og er þá er þessi eiginleiki aðeins í boði í [!INCLUDE [prodshort](includes/prodshort.md)] fyrir virkjun á staðnum með eldri Dynamics NAV Windows biðlara.  
+Í upplýsingareitnum á flestum spjöldum og skjölum er hægt að hengja við skrár, bæta við tenglum og skrifa athugasemdir. Einnig er hægt að gera þetta á listasíðunni með því að velja tengda línu fyrir tengla og athugasemd.
 
-Annað dæmi gæti verið þegar þú tekur á móti prentuðum reikningum frá lánardrottnum. Hægt að skanna þá inn og geyma sem pdf-skrár á SharePoint svæði. Síðan hægt er að búa til tengil úr innkaupareikningi í [!INCLUDE[d365fin_md](includes/d365fin_md.md)] við viðkomandi reikning í SharePoint. Einnig er hægt að tengja af vöruspjaldi yfir á samsvarandi síðu í netvörulista lánardrottins.
+Til að skoða eða breyta einhverjum þessara tengdu upplýsingargerða verður fyrst að opna flipann **Viðhengi** í upplýsingareitnum. Talan fyrir aftan dálktitilinn gefur til kynna hversu margar viðhengdar skrár, tenglar eða upplýsingar eru til staðar fyrir kortið eða skjalið.
 
-## <a name="to-add-a-link-on-a-record"></a>Bæta tengli við skrá   
+Viðhengi, tenglar og athugasemdirnar eru hengd við sem spjaldið eða skjalið er unnið úr í öðrum stöðum, t.d. frá yfirstandandi sölupöntun á bókuðum sölureikningi. Athugið hins vegar að engin af viðhengisgerðunum er úttak úr kerfinu, til dæmis við prentun eða þegar verið er að vista í skrá.
 
-1.  Færslan sem á að tengja við er opnuð, t.d. viðskiptamannaspjald eða sölupöntun. Ef tengja á við sérstaka línu, t.d. færslubókarlínu, er hún valin.  
+## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Til að hengja skrá við innkaupareikning
+Hægt er að tengja allar gerðir skráa, sem innihalda texta, mynd eða myndskeið við spjald eða skjal. Þetta er til dæmis gagnlegt þegar óskað er eftir að vista reikning lánardrottins sem PDF-skrá á tengdum innkaupareikningi í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-2.  Velja aðgerðina **Tenglar** til að opna síðurnar **Tenglar** sem sýna alla núgildandi tengla sem hefur verið bætt við skrána.
+> [!NOTE]
+> Skrár sem eru hengdar við eiginleikann skjöl á innleið eru ekki teknar með á flipanum **Viðhengi**. Frekari upplýsingar er að finna í [Skjöl á innleið](across-income-documents.md).
 
-3. Til að bæta við nýjum tengli, skal velja **+nýr**.
+Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll önnur studd skjöl og kort.
 
-4.  Í reitnum **Tengill aðsetur** færið inn
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.
+2. Opnaðu sölupöntunina sem á að hengja skrá við.
+3. Í upplýsingareitnum skal opna flipann **Viðhengi**.
+4. Veljið gildið fyrir aftan reitinn **Skjöl**, eins og „0“.
+5. Á síðunni **Skjöl í viðhengi** í reitnum **Viðhengi** skal velja hnappinn **Velja skrá**.
+5. Veldu skrá frá hvaða staðsetningu sem er og veldu svo hnappinn **Opna**.
 
-    -   Til að tengja skrá á þinni tölvu eða neti, skaltu færa inn fulla slóð og skráarheiti, eins og t.d. **C:\My Documents\invoice1.doc**.
-    -   Til að tengja á vefsíðu, færa inn vefslóðina (URL) eins og t.d. **www.microsoft.com**.
-    -   Til að tengja forrit, færa inn tilgreindan streng til að opna forritið. Til dæmis til að opna OneNote með tiltekinni síðu skal slá inn **onenote:///C:\My Documents/test.one**. Eða, til að opna Outlook með nýjum tómum tölvupósti til tiltekins viðtakanda skal færa inn **mailto:testalias**.  
+Skráin er nú hengd við innkaupareikninginn.
 
-5.  Reiturinn **Lýsing** er fylltur út með upplýsingum um tengilinn.  
+## <a name="to-add-a-link-from-an-item-card"></a>Til að bæta við tengli af birgðaspjaldi
+Hægt er að bæta við tengli af korti eða skjali á einhverja vefslóð eða slóð. Þetta er gagnlegt, til dæmis þegar tengja á birgðaspjald við vörulista birgis.
 
-6.  Veldu hnappinn **Vista**.  
+Eftirfarandi aðferð er byggð á birgðaspjaldi. Skrefin eru svipuð fyrir öll önnur studd kort og skjöl.
 
-## <a name="to-delete-a-link-from-a-record"></a>Til að eyða tengli úr færslu:  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
+2. Veldu vöruna sem þú vilt bæta við tengli úr og veldu svo flipann **Viðhengi** í upplýsingareitnum.
+3. Í **Tenglar** skal velja **+** táknið.
+4. Í svæðinu **Veffang tengils** skal slá inn tengilinn.
 
-Til að eyða tengli, í **Tenglar** á síðunni geturðu valið **...** og svo **Eyða**.
+    - Til að tengja skrá á þinni tölvu eða neti, skaltu færa inn fulla slóð og skráarheiti, eins og t.d. **C:\My Documents\invoice1.doc**.
+    - Til að tengja á vefsíðu, færa inn vefslóðina (URL) eins og t.d. **www.microsoft.com**.
+    - Til að tengja forrit, færa inn tilgreindan streng til að opna forritið. Til að opna t.d. Outlook með nýjum tómum tölvupósti til tiltekins viðtakanda skal færa inn **mailto:testalias**.  
 
-Ef notandi eyðir einni færslu, t.d. sölupöntunarlínu, sölupöntun eða viðskiptamanni, er öllum tenglum þeirrar færslu líka eytt. Ef færslum er hins vegar eytt með runuvinnslu, t.d. runuvinnslunni **Eyða reikningsfærðum sölupöntunum**, eru tenglarnir geymdir áfram í töflunni . Til að eyða tenglunum úr gagnagrunninum þarf að keyra kótaeininguna **Eyða færslutenglum án tilvísana**. Til að gera þetta skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða færslutenglum án tilvísana** og veldu síðan tengda tengilinn.   
+5. Í reitinn **Lýsing** skal færa inn upplýsingar um tengilinn.  
+6. Velja hnappinn **Í lagi**.
 
-<!-- ### To run delete orphaned record links  
+Tengillinn er nú tengdur við birgðaspjaldið.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
+## <a name="to-write-a-note-on-a-sales-order"></a>Til að skrifa athugasemd á sölupöntun
+Hægt er að skrifa athugasemd á skjal eða kort, til dæmis til að skrifa sérstakar leiðbeiningar fyrir aðra notendur skjalsins eða kortsins. Hægt er að hafa skráartengla og vefslóðir með í athugasemdum.
 
-2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+> [!NOTE]
+> Athugasemdirnar á flipanum **Viðhengi** eru ekki tengdar virkni innri athugasemda, sem eru aðallega notaðar til að eiga samskipti á milli notenda verkflæðis. Nánari upplýsingar er að finna í [Uppsetning Verkflæði Tilkynningar](across-setting-up-workflow-notifications.md).
+
+Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll önnur studd skjöl og kort.
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.
+2. Veljið sölupöntunina sem á að afskrifa athugasemd við og veljið svo flipann **Viðhengi** í upplýsingareitnum.
+3. Í hlutanum **Athugasemdir** skal velja **+** táknið.
+4. Í reitinn **Athugasemd** skal færa inn hvaða texta sem er, t.d. „Þetta er áríðandi pöntun“.
+5. Velja hnappinn **Í lagi**.
+
+Athugasemdin er nú hengd við sölupöntunina.
 
 ## <a name="see-also"></a>Sjá einnig  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Skjöl á innleið](across-income-documents.md)  
+[Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)  

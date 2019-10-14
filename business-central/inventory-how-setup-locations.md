@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: d94f1bb2fe45263f013119954622b995e902b30f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1ad6b8333e13c01a1ed97ebdd9553f0e7fb31297
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244281"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309821"
 ---
 # <a name="set-up-locations"></a>Uppsetning birgðageymsla
 Ef vörur eru keyptar, geymdar eða seldar á fleiri en einum stað eða vöruhúsi þarf að setja hverja staðsetningu upp með staðsetningarspjaldi og skilgreina flutningsleiðir.
@@ -45,5 +45,5 @@ Nú er hægt að flytja birgðavörur milli tveggja staða. Nánari upplýsingar
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)    
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)  
+[Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)

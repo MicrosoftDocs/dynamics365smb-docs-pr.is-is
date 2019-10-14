@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 913537f5fad5732c729a5e00894400bedcf949b3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a1a339c57e47f3722050209acbe83e246ccdbbb6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249033"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310493"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Kynning: Rað-/lotunúmerarakning
 
@@ -78,7 +78,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 2.  Valið er **Nýtt** aðgerð.  
 3.  Í reitnum **númer** Í reitinn  er talan **2000** færð inn og síðan eru eftirfarandi reitir fylltir út.  
 
-    |Lýsing|Grunnmælieining|Alm. vörubókunarflokkur|VSK vörubókunarflokkur|Birgðabókunarflokkur|Vörurakningarkóti|  
+    |Lýsing|Grunnmælieining|Almenn Vörubókunarflokkur|VSK vörubókunarflokkur|Birgðabókunarflokkur|Vörurakningarkóti|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
     |Grind|STYKKI|HRÁEFNI|VSK25|HRÁEFNI|LOTALL|  
 
@@ -90,7 +90,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 6.  Velja **Nýtt**.  
 7.  Í reitnum **númer** Í reitinn  er talan **1002** færð inn og síðan eru eftirfarandi reitir fylltir út.  
 
-    |Lýsing|Grunnmælieining|Alm. vörubókunarflokkur|VSK vörubókunarflokkur|Birgðabókunarflokkur|Áfyllingarkerfi|Vörurakningarkóti|  
+    |Lýsing|Grunnmælieining|Almenn Vörubókunarflokkur|VSK vörubókunarflokkur|Birgðabókunarflokkur|Áfyllingarkerfi|Vörurakningarkóti|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
     |Kappaksturshjól|STYKKI|SMÁSALA|VSK25|LOKIÐ|Framl.pöntun|SNALLT|  
 

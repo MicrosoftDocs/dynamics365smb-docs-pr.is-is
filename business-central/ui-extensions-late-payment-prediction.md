@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 613d20e3b4132cdf797586441bff0688a2076692
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251332"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315503"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Viðbót greiðsludráttarspár  
 Árangursrík stjórnun viðskiptakrafna er mikilvæg fyrir heildar fjárhagslega heilsu fyrirtækis. Viðbót greiðsludráttarspár getur hjálpað þér að draga úr útistandandi kröfum og fínstilla stefnu sjóðsins með því að spá fyrir um hvort sölureikningar verði greiddar á réttum tíma. Til dæmis, ef spá telur greiðsla vera sein, gætir þú ákveðið að lagfæra skilmála greiðslu eða greiðslumáta fyrir viðskiptamanninn.
@@ -41,7 +41,7 @@ Ef þú virkjar viðbót verður **Greiðslur sem spáð er að munu dragast** f
 
 * **Greiðsludráttur** - Gefur til kynna hvort dráttur verði á greiðslu reikningsins.
 * **Áreiðanleiki spár** - Gefur til kynna hversu áreiðanlegt þú ættir að telja spánna vera. **Mikill** þýðir að spáin er að minnsta kosti 90% viss, **Miðlungs** er á milli 80 og 90% og **Lítill** er undir 80%.
-* **Áreiðanleiki spár %** - Sýnir raunverulega prósentu á bak við áreiðanleikamatið. Sjálfgefið er að þessi dálkur er ekki sýndur, en þú getur bætt því við ef þú vilt. Frekari upplýsingar eru í [Sérstilling vinnusvæðisins þíns](ui-personalization-user.md).
+* **Áreiðanleiki spár %** - Sýnir raunverulega prósentu á bak við áreiðanleikamatið. Sjálfgefið er að þessi dálkur er ekki sýndur, en þú getur bætt því við ef þú vilt. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 > [!Tip]
 > Síðan Viðskiptamannafærslur sýnir einnig Upplýsingakassa til hægri. Á meðan þú ert að yfirfara spár, geta upplýsingarnar í **Upplýsingar um viðskiptamenn** hlutanum verið gagnlegar. Þegar þú velur reikninginn í listanum birtir hlutinn upplýsingar um viðskiptamanninn. Það gerir þér jafnframt kleift að hefja aðgerðir strax. Ef viðskiptamaður setur til dæmis oft veskið sitt á rangan stað getur þú opnað viðskiptamannakortið frá Upplýsingakassanum og útilokað viðskiptamanninn frá framtíðarsölu.  

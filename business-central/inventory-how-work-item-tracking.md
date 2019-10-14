@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c7a5aa7d768a4fe2fae111b04ffc1fdab65d07dc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d3efa05fda5bcacd4eba0fa4f4f64888d91c46bf
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240373"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309605"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Vinna með rað- og lotunúmer
 Hægt er að úthluta rað- og lotunúmer við hvaða útleiðarskjal eða innleiðarskjal sem er og bókaðar færslur þess er síðan hægt að skoða í viðkomandi birgðafærslum. Þú framkvæmir vinnuna á síðunni **Vörurakningarlínur** sem hægt er að opna úr skjali á innleið eða útleið.
 
 Fylki magnreita efst á síðunni **Vörurakningarlínur** birtir magn og summu vörurakningarnúmera sem verið er að skilgreina á línunum. Magnið verður að samsvara því sem er í fylgiskjalslínunni, sem er sýnt með 0 undir **Óskilgreint** reitunum.
 
-Til að mæla afköst safnar kerfið ráðstöfunarupplýsingum af síðunni **Vörurakningarlínur** eingöngu einu sinni, þegar hann er opnaður. Þetta þýðir að kerfið uppfærir ekki ráðstöfunarupplýsingarnar á meðan síðan er höfð opin, jafnvel þó að breytingar eigi sér stað í birgðum eða í öðrum skjölum á þeim tíma.
+Til að mæla afköst safnar forritið ráðstöfunarupplýsingum af síðunni **Vörurakningarlínur** eingöngu einu sinni, þegar hann er opnaður. Þetta þýðir að forritið uppfærir ekki ráðstöfunarupplýsingarnar á meðan síðan er höfð opin, jafnvel þó að breytingar eigi sér stað í birgðum eða í öðrum skjölum á þeim tíma.
 
 Vörur með rað- eða lotunúmer er hægt að rekja bæði afturábak og áfram í aðfangakeðjunni. Þetta er nytsamlegt fyrir almennt gæðaeftirlit og vöruinnköllun. Frekari upplýsingar er að finna í [Rekja vörurakta vöru](inventory-how-to-trace-item-tracked-items.md).
 

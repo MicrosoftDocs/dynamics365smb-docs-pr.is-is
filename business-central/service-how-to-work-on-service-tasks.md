@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b4a47608bbcc191ec413f08e0969f1bbd6fc4041
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251171"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311645"
 ---
 # <a name="work-on-service-tasks"></a>Vinna við þjónustuverk
 Þegar búið er að stofna þjónustupöntun eða þjónustutilboð, skrá þjónustuvörulínur og úthluta forða til þjónustuvöru í pöntuninni eða tilboðinu má byrja að gera við þjónustuvöru og halda henni við.  
@@ -100,7 +100,7 @@ Til að rekja breytingar og fá myndrænt yfirlit yfir þjónustufyrirtækið m�
 2. Valin er línan sem inniheldur viðeigandi þjónustuvöru og síðan skal velja **Vörublað** aðgerðin.  
 3. Á síðunni **Þjónustuvörublað** er valið **Tengsl úrlausnar-/bilanakóða**. Síðan **Tengsl bilunar/úrlausnarkóða** opnast.  
 
-  >  [!Note]
+  >  [!NOTE]
   >  Afmarkanir eru settar á tengslin sem birtast á síðunni með því að afrita þjónustuvöruflokkinn og bilanakótana á síðunni **Þjónustuvörublað**.  
 
 4. Línan er fyllt út. Valin er samsetning bilana- og úrlausnarkóta og svo smellt á **Í lagi** til að afrita hana í þjónustuvöruna. Ef ekki finnst heppileg samsetning má búa til nýja á síðunni.  

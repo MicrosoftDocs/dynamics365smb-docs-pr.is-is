@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að færa inn gögn í reiti | Microsoft Docs
+title: Hvernig á að færa inn gögn í Business Central| Microsoft Docs
 description: Kynntu þér almenna eiginleika sem auðvelda þér að færa gögn inn í reiti.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000788"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311381"
 ---
 # <a name="entering-data"></a>Gagnainnfærsla
 
@@ -39,7 +39,7 @@ Hugsanlega kannastu við að nota Tab-lykilinn til að fara frá einum reit á s
 
 Hægt er að merkja sérhvern reit sem annaðhvort *hafa með í flýtifærslu* eða *ekki hafa með í flýtifærslu*. Reitir sem eru hafðir með í flýtifærslu verða hluti af slóðinni þegar ýtt er á Enter; reitir sem ekki eru hafðir með í flýtifærslum verða ekki hluti af henni.
 
-Þegar þú hefur lokið við að færa gögn inn í reit ýtirðu einfaldlega á Enter til að staðfesta breytingarnar og ferð í næsta reit. Ef þú vilt snúa áttinni við og fara í fyrri reit skaltu ýta á Shift+Enter. Frekari upplýsingar um flýtileiðir er að finna í [Flýtivísanir flýtifærslu fyrir Fields](keyboard-shortcuts.md#QuickEntry).
+Þegar þú hefur lokið við að færa gögn inn í reit ýtirðu einfaldlega á Enter til að staðfesta breytingarnar og ferð í næsta reit. Ef þú vilt snúa áttinni við og fara í fyrri reit skaltu ýta á Shift+Enter. Frekari upplýsingar um flýtileiðir er að finna í [Flýtileiðir flýtifærslu fyrir reiti](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Ábendingar og góð ráð
 Eftirfarandi veitir nokkrar gagnlegar upplýsingar um notkun á flýtifærslu.
@@ -51,14 +51,14 @@ Eftirfarandi veitir nokkrar gagnlegar upplýsingar um notkun á flýtifærslu.
 - Flýtifærsla virkar óháð því hvort reitir séu áskildir. Því er góð hugmynd að ganga úr skugga um að áskildir reitir séu hluti af flýtifærslu.
 - Sjálfgefið er að flestir reitir eru sjálfkrafa með í flýtifærslu. Í upphafi verður það líklega þitt verk að útiloka reiti úr flýtifærslu.
 
-### <a name="how-to-change-quick-entry-fields"></a>Hvernig á að breyta reitum flýtifærslu
+### <a name="to-change-quick-entry-fields"></a>Til að breyta reitum flýtifærslu
 
 Til að breyta því hvaða reitir eru hafðir með eða ekki hafðir með í flýtifærslum á síðu, notarðu sérstillingu.
 
-1. Byrjaðu sérstillingu með því að velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingar") og síðan **Sérstilla**.
+1. Byrjaðu sérstillingu með því að velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir mitt hlutverk") og síðan aðgerðina **Sérstilla**.
 2. Veldu reit sem þú vilt breyta, eða í listum, veldu samsvarandi dálkahaus, og veldu því næst annaðhvort **Hafa með í flýtifærslu** eða **Ekki hafa með í flýtifærslu**.
 
-Frekari upplýsingar um sérstillingu er að finna í [Sérstillingar vinnusvæðis](ui-personalization-user.md).
+Frekari upplýsingar um sérstillingu er að finna í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Áskildir reitir
 
@@ -76,19 +76,25 @@ Jafnvel þótt reiturinn innihaldi rauða stjörnu er ekki nauðsynlegt að fyll
 
 -   Fellival - Birtir safn valkosta sem í boði eru fyrir reitinn. Aðeins er hægt að velja einn kost.  
 
-## <a name="copying-and-pasting-fields-and-lines"></a>Afrita og líma reiti og línur
+## <a name="copying-and-pasting-faq-fields-and-lines"></a>Afrita og líma reiti og línur
 
 Þú getur afritað eina eða fleiri raðir úr lista eða einum reit á síðu og síðan líma það sem þú afritaðir á sömu síðu, aðra síðu eða ytri skjal (eins og Microsoft Excel og Outlook tölvupóst). Í stuttu máli, til að afrita, ýtirðu á CTRL+C (cmd+C í macOS) á lyklaborðinu þínu. Til að líma er stutt á CTRL+V (cmd+V í macOS).
 
 Í lista, til að afrita reitinn í sama dálki og í röðinni fyrir ofan, og líma hann í núverandi röð, skal ýta á F8.
 
-Frekari upplýsingar er að finna í [Afrita og líma í Business Central](ui-copy-paste.md).
+Frekari upplýsingar er að finna í [Afrita og líma algengar spurningar](ui-copy-paste.md).
+
+## <a name="filtering-line-items"></a>Síun á línuatriðum
+
+Til að byrja síun skal velja ![Tákn fyrir afmörkunarsvæði](media/open-filter-pane-icon.png "Tákn fyrir afmörkunarsvæði") efst í listanum eða ýta á Shift+F3 til að opna afmörkunarsvæðið. Þú vinnur með afmörkunarsvæðið eins og þú gerir í öllum öðrum listum. Frekari upplýsingar er að finna í [Síun](ui-enter-criteria-filters.md#Filtering).
+
+Síun er sérstaklega hjálpleg þegar lengri skjöl eru skoðuð og greind. Ímyndaðu þér til dæmis að þú opnaðir bókaðan sölureikning og síar línuatriðin til að birta öll línuatriði sem eru með afslætti yfir 5% eða síar til að birta aðeins reiðhjólabúnað með „pro“ í heitinu.
 
 ## <a name="Focus"></a>Fókus settur á línuatriði
 
-Þegar unnið er með skjöl sem innihalda hluta línuatriðis, t.d. síða sölupöntunar eða reiknings, geturðu skipt yfirlitinu til að setja fókus á aðeins línuatriði, svo hluti línuatriða stækkar svo hann tekur yfir næstum allt vinnusvæðið - felur aðra hluta síðunnar nema aðgerðarsvæðið efst uppi. Þetta veitir þér betri yfirsýn yfir línuatriðin og gefur meira rými til að vinna í þeim. Þetta kemur sér sérstaklega vel þegar unnið er með langan lista af línuatriðum og hröð gagnaskráning er æskileg.
+Þegar unnið er á skjölum sem innihalda vörulínuhluta, t.d. sölupöntun eða reikningssíðu, er hægt að skipta yfirlitinu til að einbeita sér eingöngu að vörulínunum. Hluti vörulínanna stækkar síðan þannig að það starfi nokkurn veginn allt vinnusvæðið, hylur aðra hluta síðunnar fyrir utan aðgerðasvæði efst. Þetta veitir þér betri yfirsýn yfir línuatriðin og gefur meira rými til að vinna í þeim.
 
-Annar kostur er að það býður einnig upp á ítarlega síunarmöguleika, líkt og í hinum listunum, þannig að flettingar og leit í gegnum línuatriði verður enn auðveldari.
+Þetta kemur sér sérstaklega vel þegar unnið er með langan lista af línuatriðum og hröð gagnaskráning er æskileg. Annar kostur er að það býður einnig upp á ítarlega síunarmöguleika, líkt og í hinum listunum, þannig að flettingar og leit í gegnum línuatriði verður enn auðveldari.
 
 ### <a name="switching-the-focus-on-and-off"></a>Kveikja eða slökkva á fókus
 
@@ -96,11 +102,16 @@ Til að setja fókus á línuatriði skal velja hvar sem er í hluta línuatrið
 
 Til að skipta yfir í venjulegt yfirlit skal velja ![Tákn fyrir fókusstillingu](media/focus-mode.png "Tákn fyrir fókusstillingu") eða ýta aftur á Ctrl+Shift+F12.
 
-### <a name="filtering-the-line-items"></a>Síun á línuatriðum
+## <a name="multitasking-across-multiple-pages"></a>Fjölvinnsla þvert á margar síður
+Þegar unnið er með mörg verk í einu eða þegar verið er að vinna með truflun á núverandi verki, svo sem að taka við símtali, er hægt að opna spjald- eða skjalssíðu í nýjum glugga. Þetta gerir notanda kleift að opna glugga fyrir yfirstandandi verk á meðan hafist er handa eða ljúka við annað verk í einum eða fleiri gluggum.
 
-Til að byrja síun skal velja ![Tákn fyrir afmörkunarsvæði](media/open-filter-pane-icon.png "Tákn fyrir afmörkunarsvæði") efst í listanum eða ýta á **Shift+F3** til að opna afmörkunarsvæðið. Þú vinnur með afmörkunarsvæðið eins og þú gerir í öllum öðrum listum. Frekari upplýsingar er að finna í [Síun](ui-enter-criteria-filters.md#Filtering).
+Til að opna núverandi spjald eða skjal í nýjum glugga skal velja ![Opna nýjan glugga](media/open-new-window-icon.png "Táknið opna nýjan glugga") efst í hægra horninu eða ýta á Alt+Shift+W.
 
-Síun er sérstaklega hjálpleg þegar lengri skjöl eru skoðuð og greind. Ímyndaðu þér til dæmis að þú opnaðir bókaðan sölureikning og síar línuatriðin til að birta öll línuatriði sem eru með afslætti yfir 5% eða síar til að birta aðeins reiðhjólabúnað með „pro“ í heitinu.
+> [!NOTE]
+> Þegar opnaðar eru aðrar síður úr spjaldi eða skjali sem opnað er í nýjum glugga opnast þessar síður í nýjum glugga, þó að ekki sé valið ![Opna nýjan glugga](media/open-new-window-icon.png "Opna nýtt gluggatákn").
+
+> [!NOTE]
+> Ef unnið er í Safari-vafranum gæti sprettigluggavörn valdið því að nýi glugginn opnist ekki. Ef þetta er tilfellið skal tilgreina vefslóð afurðarinnar sem heimilaða vefsvæði. Frekari upplýsingar er að finna í [Breyta sérstillingum í Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## <a name="entering-quantities-by-calculation"></a>Magn slegið inn eftir útreikningum
 
@@ -134,7 +145,7 @@ Hægt er að færa inn neikvæðar tölur eftir tveimur leiðum. Númerið -20.5
 Færa má inn dagsetningar og tíma í alla þá reiti sem ætlaðir eru fyrir dagsetningar (dagsetningarreitir). Hægt er að færa inn dagsetningar með eða án skiltákna.
 
 > [!NOTE]  
-> Hvernig skal Færa inn dagsetningu og tíma fer eftir **Svæði** stillingunum þínum. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md).  
+> Hvernig skal Færa inn dagsetningu og tíma fer eftir **Svæði** stillingunum þínum. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Dagsetningar færðar inn
 
@@ -185,7 +196,7 @@ Hægt er að færa inn einn af þessum kóðum í stað sérstakrar dagsetningar
 
 |Færsla|Túlkun|  
 |---------------|------------------------|  
-|131202 132455|13/12/02 13:24:55|  
+|`131202` 132455|13/12/02 13:24:55|  
 |1-12-02 10|01/12/02 10:00:00|  
 |1.12.02 5|01/12/02 05:00:00|  
 |1.12.02|01/12/02 00:00:00|  

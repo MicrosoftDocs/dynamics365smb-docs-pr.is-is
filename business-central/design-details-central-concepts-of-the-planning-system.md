@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 529f1c71111fd6ea0b93e7d29d2f5f6b6f1df3ae
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247493"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303749"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfis
 Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru og tímabil sem áætlun gildir um. Þá, í samræmi við lágstigskóða (uppskriftarstaðsetningu), kallar runuvinnslan á kóðaeininguna, sem reiknar út birgðaáætlun með því að jafna framboð-eftirspurn og stinga upp á aðgerðum fyrir notandann. Ráðlagðar aðgerðir birtast sem línu á áætlunvinnublaðinu eða innkaupatillögunni.  
@@ -26,7 +26,7 @@ Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru
 
 Reiknað er með að sá sem annast áætlanagerð í fyrirtæki, svo sem innkaupsaðili eða framleiðslustjóri, sé notandi áætlanakerfis. Áætlanakerfið hjálpar notandanum með því að framkvæma víðtæka en fremur einfalda útreikninga fyrir áætlun. Notandinn getur þá einbeitt sér að því að leysa úr erfiðari vandamálunum, líkt og því sem er frábrugðið því sem eðlilegt er.  
 
-Áætlanakerfið er knúið áfram af viðbúinni og raunverulegri eftirspurn viðskiptavina, svo sem spám og sölupöntunum. Ef áætlunarútreikningurinn er keyrður mun það leiða til þess að kerfið leggi til sérstakar aðgerðir fyrir notandann til að framkvæma varðandi mögulegt framboð frá lánardrottnum, samsetningar- eða framleiðsludeildum, eða millifærslur frá öðrum vöruhúsum. Þessar aðgerðir sem lagt er til kunna að vera til að stofna nýjar birgðapantanir, líkt og innkaupa eða framleiðslupöntun. Ef birgðapöntun eru þegar til gætu tillögurnar verið þess efnis að auka við pantanirnar eða flýta þeim til að koma til móts við eftirspurnarbreytingarnar.  
+Áætlanakerfið er knúið áfram af viðbúinni og raunverulegri eftirspurn viðskiptavina, svo sem spám og sölupöntunum. Ef áætlunarútreikningurinn er keyrður mun það leiða til þess að forritið leggi til sérstakar aðgerðir fyrir notandann til að framkvæma varðandi mögulegt framboð frá lánardrottnum, samsetningar- eða framleiðsludeildum, eða millifærslur frá öðrum vöruhúsum. Þessar aðgerðir sem lagt er til kunna að vera til að stofna nýjar birgðapantanir, líkt og innkaupa eða framleiðslupöntun. Ef birgðapöntun eru þegar til gætu tillögurnar verið þess efnis að auka við pantanirnar eða flýta þeim til að koma til móts við eftirspurnarbreytingarnar.  
 
 Annað markmið áætlunarkerfisins er að tryggja það að birgðamagnið hækki ekki að óþörfu. Í tilfelli minnkandi eftirspurnar mun áætlunarkerfið leggja til að annað hvort verði þeim birgðapöntunum sem eru fyrir hendi frestað, þær minnkaðar eða afpantaðar.  
 
@@ -66,7 +66,7 @@ Nánari upplýsingar eru í [Upplýsingar um hönnun: Frátekning, Vörurakning 
 ### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Breytilegar pöntunarrakningar vs. áætlanakerfi  
 Fljótt á litið kann það að virðast erfitt að greina á milli áætlunarkerfis og kvikrar pöntunarrakningar. Bæði sýna frálag í áætlanavinnublaði með því að leggja virkninni sem skipuleggjandi ætti að taka. Hins vegar er mismunandi hvernig þessi framleiðsla er framleidd.  
 
-Áætlanakerfið tekur á öllu mynstri  framboðs og eftirspurnar varðandi tiltekna vöru á öllum stigum uppskriftarstigveldisins með fram tímalínunni, en kvik pöntunarrakning tekur á stöðu pöntunarinnar sem virkjaði það. Þega eftirspurn og framboð er jafnað býr áætlanakerfið til tengla í notandavirkjuðu runustillingu, en kvik pöntunarrakning skapar tengla sjálfkrafa og samstundis, hvenær sem notandi slær inn eftirspurn eða framboð í kerfinu, svosem sölupöntun eða innkaupapöntun.  
+Áætlanakerfið tekur á öllu mynstri  framboðs og eftirspurnar varðandi tiltekna vöru á öllum stigum uppskriftarstigveldisins með fram tímalínunni, en kvik pöntunarrakning tekur á stöðu pöntunarinnar sem virkjaði það. Þegar eftirspurn og framboð er jafnað býr áætlanakerfið til tengla í notandavirkjuðu runustillingu, en kvik pöntunarrakning skapar tengla sjálfkrafa og samstundis, hvenær sem notandi slær inn eftirspurn eða framboð í forritinu, svosem sölupöntun eða innkaupapöntun.  
 
 Breytilegar pantanir setja tengil milli eftirspurnar og framboðs þegar gögn eru slegin inn, á fyrstu kemur fyrstur fær reglu. Þetta getur leitt til röskun í forgangsröðun. Til dæmis er hægt að tengja sölupöntun sem færð er inn fyrst, með skiladegi í næsta mánuði, við framboð í birgðum, en næsta sölupöntun með skiladegi á morgun getur kallað fram aðgerðaboð um að stofna nýja innkaupapöntun til að sinna henni, eins og sýnt er hér fyrir neðan.  
 
@@ -124,7 +124,7 @@ Ef notandi hefur slegið inn nýja sölupöntun eða breytt pöntun sem fyrir er
 
 Áætlanakerfið fylgist með slíkum tilvikum og úthlutar viðeigandi vörum til að gera áætlun.  
 
-Fyrir margar staðsetningar fer úthlutunin fram á vörustigi hverrar samsetningar staðsetningar. Ef, til dæmis, sölupöntun hefur verið búin til á aðeins einum stað, úthlutar forritið vörunni  á þeim tiltekna stað fyrir áætlanagerð.  
+Fyrir margar staðsetningar fer úthlutunin fram á vörustigi hverrar samsetningar staðsetningar. Ef, til dæmis, sölupöntun hefur verið búin til á aðeins einum stað, úthlutar forritið vörunni á þeim tiltekna stað fyrir áætlanagerð.  
 
 Ástæðan fyrir að velja vörur fyrir áætlun grundvallast á afköstum kerfisins. Ef engin breyting hefur orðið á framboðs- og eftirspurnarmynstri vörunnar leggur áætlanakerfið ekki til neinar ráðstafanir. Ef áætlun væri ekki úthlutað yrði kerfið að gera útreikninga fyrir allar vörur til að finna út hvernig á að áætla og það myndi ganga um of á kerfið.  
 
@@ -146,7 +146,7 @@ Eftirspurn og framboð geta haft afbrigðiskóða og staðsetningarkóða sem ve
 
 Kerfið meðhöndlar afbrigði og staðsetningarkóða sem vöruvídd á sölupöntunarlínu, birgðafærslu o.s.frv. Í samræmi reiknar það áætlun fyrir hverja samsetningu afbrigðis og birgðageymslu eins og samsetningin væri aðskilið vörunúmer.  
 
-Í stað þess að reikna hvaða fræðilega samsetningu af afbrigði og staðsetningu sem er, forritið reiknar aðeins þau samsetningar sem í raun fyrir hendi í gagnagrunninum.  
+Í stað þess að reikna hvaða fræðilega samsetningu af afbrigði og staðsetningu sem er reiknar forritið aðeins þær samsetningar sem í raun fyrir hendi í gagnagrunninum.  
 
 Frekari upplýsingar um hvernig áætlanakerfi vinna með staðsetningarkóða eftir pöntun eru í [Hönnunarupplýsingar: Eftirspurn í autt birgðageymslu](design-details-balancing-demand-and-supply.md).  
 
@@ -252,7 +252,7 @@ Viðvörunin Til athugunar birtist við þrennar aðstæður:
 ## <a name="error-logs"></a>Villuskrár  
 Á beiðnisíðunni Reikna áætlun getur notandinn valið **Stöðva og sýna fyrstu villu** reitinn til að láta áætlunarkeyrslu hætta þegar það rekst fyrsta villa. Um leið birtast skilaboð með upplýsingum um villuna. Ef villa er til staðar eru aðeins áætlunarlínur sem lokið var við fyrir villuna í áætlunarvinnublaðinu.  
 
-Ef reiturinn er ekki valinn heldur runuvinnslan Reikna áætlun áfram þangað til henni er lokið. Villur munu ekki trufla runuvinnsluna. Ef ein eða fleiri villur eru til staðar birtir kerfið skilaboð um hvaða vörur villurnar höfðu áhrif á. Síðan **Villukladdi áætlunar** opnast og birtir upplýsingar um villuna og tengla í þau skjöl eða birgðaspjöld sem hún hafði áhrif á.  
+Ef reiturinn er ekki valinn heldur runuvinnslan Reikna áætlun áfram þangað til henni er lokið. Villur munu ekki trufla runuvinnsluna. Ef ein eða fleiri villur eru til staðar birtir forritið skilaboð um hvaða vörur villurnar höfðu áhrif á. Síðan **Villukladdi áætlunar** opnast og birtir upplýsingar um villuna og tengla í þau skjöl eða birgðaspjöld sem hún hafði áhrif á.  
 
 ![Villuboð í áætlanavinnublaðinu](media/NAV_APP_supply_planning_1_error_log.png "Villuboð í áætlanavinnublaðinu")  
 

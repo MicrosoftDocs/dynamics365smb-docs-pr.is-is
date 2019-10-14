@@ -1,101 +1,129 @@
 ---
 title: Meðhöndla notendur og hlutverk | Microsoft Docs
 description: Lærið að meðhöndla notendur og Mitt hlutverk í Business Central.
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 08/02/2019
-ms.author: edupont
-ms.openlocfilehash: 27a57490101195f8dc05cc39538260e7db5e46af
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 00a07acfb455b9b1ddf714f7ca7e49a56a8aebbc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858221"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304236"
 ---
-# <a name="understanding-users-roles-and-profiles"></a>Að skilja notendur, hlutverk og notandasíður
+# <a name="manage-profiles"></a>Vinna með forstillingar
+Öllum notendum [!INCLUDE[d365fin](includes/d365fin_md.md)] er úthlutað forstillingu sem endurspeglar viðskiptahlutverk þeirra, deildina sem þeir vinna í eða aðra flokkun. Forstillingar gera stjórnendum kleift að skilgreina og stjórna því miðlægt hvað mismunandi gerðir notenda geta séð og gert í notendaviðmótinu svo þeir geti framkvæmt verk sín á skilvirkan hátt.
 
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)], eru notendum bætt við af stjórnanda sem gefur einnig notendum aðgang að þeim svæðum [!INCLUDE[d365fin](includes/d365fin_md.md)] sem þeir þurfa í starfi sínu.  
+> [!NOTE]
+> Dæmigerð notkun forstillingar er hlutverk. Forstilling er því heitið *Forstilling (hlutverk)* í notendaviðmóti.
 
-Aðgangur að virkni er stjórnað með *notendahópum* og *forstillingum (hlutverkum)*. Sem stjórnandi geturðu bætt við og fjarlægt notendur sem hluta af [!INCLUDE[d365fin](includes/d365fin_md.md)] áskrift þinni og þú getur úthlutað leyfum til notenda í gegnum notendaflokka.  
+Kerfisstjóri stofnar og stjórnar forstillingum á síðunni **Forstillingar (hlutverk)**. Hvert snið er með spjald þar sem hægt er að vinna með ýmsar stillingar fyrir tengda hlutverkið, svo sem hlutverksheiti, stillingar notanda og hvaða hlutverkamiðstöð sniðið notar. Frekari upplýsingar um notendastillingar og hlutverkamiðstöðvar er að finna í [Breyta grundvallarstillingum](ui-change-basic-settings.md).
 
-## <a name="adding-users"></a>Bæta við notendum
+Áður en hægt er að hafa umsjón með forstillingum notenda verða notendur að vera búnir að stofna þær og bæta við í gegnum Office 365 stjórnendamiðstöð. Síðan er hægt að úthluta heimildum á hvern notanda eða notendaflokk til að skilgreina hvaða eiginleika þeir mega skoða og/eða breyta. Frekari upplýsingar eru í [Stjórna notendum og heimildum](ui-how-users-permissions.md).
 
-Til að bæta við notendum í [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu, verður stjórnandi Office 365 í fyrirtækinu fyrst að búa til notendur í Office 365 stjórnendamiðstöðinni. Frekari upplýsingar, sjá [Bæta notendum við Office 365 for business](https://aka.ms/CreateOffice365Users).
+## <a name="page-customization"></a>Sérsnið síðna
+Hægt er að sérsníða síðuútlit fyrir forstillingu þannig að allir notendur sem hafa forstillingin hefur verið úthlutað á sjái sérsniðnar síður. Sem kerfisstjóri sérstillir þú síður með því að nota sömu virkni og notendur gera þegar þeir sérsníða. Frekari upplýsingar er að finna á [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md).
 
-Síðan getur kerfisstjórinn úthlutað sérhverjum notanda og flokkum notenda leyfi. Frekari upplýsingar eru í [Stjórna notendum og heimildum](ui-how-users-permissions.md).  
+## <a name="to-create-a-profile"></a>Forstilling stofnuð
+Ef ekki er hægt að afrita fyrirliggjandi forstillingu er hægt að stofna nýja handvirkt.
 
-Öflugustu heimildir sem notandi getur haft er SUPER-heimildasamstæðan. Hvert fyrirtæki verður að hafa að minnsta kosti einn notanda með þessa heimildasamstæðu, en það er best að gefa hverjum notanda heimildir sem samsvara vinnuþörfum hans í [!INCLUDE[prodshort](includes/prodshort.md)] og ekki meira en það. Þetta hjálpar til við að tryggja að notendur hafi aðeins aðgang að gögnum sem tengjast vinnu þeirra, til dæmis.  
+> [!NOTE]
+> Hægt er að afrita allar forstillingar en aðeins er hægt að afrita sérstillingar á síðunni ef þær eru stofnaðar af notanda.
 
-> [!TIP]
-> Það er best að ganga úr skugga um að Office 365 stjórnandinn hafi einnig SUPER-heimildasamstæðuna í [!INCLUDE[prodshort](includes/prodshort.md)] vegna þess að það auðveldar mörg stjórnunarverk, þar á meðal að setja upp samþættingu við önnur forrit.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forstillingar (hlutverk)** og velja svo viðeigandi tengil.  
+2. Velja skal síðuna **Forstillingar (hlutverk)** í aðgerðinni **Nýtt**.  
+3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="users-of-on-premises-deployments"></a>Notendur uppsetningar á staðnum
+## <a name="to-copy-a-profile"></a>Til að afrita forstillingu
+Til að spara tíma er hægt að búa til nýja forstillingu með því að afrita fyrirliggjandi forstillingu. Afritaðu eina sem er með svipaðar stillingar og sá sem á að búa til.
 
-Fyrir uppsetningu á staðnum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] getur stjórnandi valið á milli mismunandi auðkenningarbúnaðs skilríkja fyrir notendur. Þegar þú býrð til notanda gefur þú síðan mismunandi upplýsingar eftir því hvaða skilríki þú notar í tilteknu [!INCLUDE[server](includes/server.md)] tilviki. Nánari upplýsingar er að finna í [Gerðir auðkenningar og persónuskilríkja](/dynamics365/business-central/dev-itpro/administration/users-credential-types) í stjórnunarhluta þróunaraðila og ITPro efni fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. Opnaðu síðuna **Forstillingar (hlutverk)**, veldu línuna fyrir forstillinguna sem þú vilt afrita og veldu svo **Afrita forstillingu** aðgerðina.
+2. Fylltu út reitina **Auðkenni forstillingar** og **Birtingarnafn** og veldu síðan hnappinn **Í lagi**.
+3. Á **Forstillingar (hlutverk)** síðunni skaltu opna nýstofnaða notandaspjaldið og breyta síðan öðrum reitum eftir þörfum.
 
-## <a name="profiles-roles"></a>Forstillingar (hlutverk)
+## <a name="to-edit-a-profile"></a>Til að breyta forstillingu
+Hægt er að breyta forstillingu með því að breyta svæðunum á síðunni **Snið (hlutverk)**.
 
-Fólkið í þínu fyrirtæki sem hefur aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)] er öllu úthlutað hlutverk sem veitir því aðgang að *Hlutverkamiðstöð*.
+> [!NOTE]
+> Ekki er hægt að breyta forstillingu þegar notendur sem eru úthlutaðir á forstillinguna eru skráðir inn.
 
-Forstillingar eru söfn [!INCLUDE[d365fin](includes/d365fin_md.md)] notenda sem deila sama hlutverkinu. Hlutverkamiðstöð er aðgangsstaður og heimasíða fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem gefur þér skjótan aðgang að mikilvægustu verkum þínum og birtir ýmsar innsýnir og afkastavísa um vinnu þína.  
+## <a name="to-assign-a-profile-to-a-user"></a>Úthlutun forstillinga á notanda
+Notendur geta úthlutað sjálfum sér hlutverki (sem stendur fyrir forstillingu) með því að velja reitinn **Hlutverk** á síðunni **Mínar stillingar**. Kerfisstjóri getur gert það sama í gegnum síðuna **Forstillingar (hlutverk)**.
 
-> [!NOTE]  
->  Í núverandi útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu, er ekki hægt að bæta við, breyta eða eyða snið.  
+1. Á síðunni **Forstillingar (hlutverk)** skaltu velja forstillingu sem á að úthluta og síðan velja aðgerðina **Listi yfir sérstillingar notenda**.
+2. Á síðunni **Sérstillingar notanda** skal velja notandann sem á að úthluta forstillingunni og síðan velja aðgerðina **Breyta**.
+3. Í reitnum **Auðkenni forstillingar** skal velja viðeigandi forstillingu.
 
-### <a name="CreateProfile"></a>Forstilling stofnuð
+> [!NOTE]
+> Ef annarri forstillingu er úthlutað á notanda verða allar sérstillingar sem notandinn gerði með fyrra sniðinu varðveittar.
 
-1.  Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Forstillingar** og velja svo viðeigandi tengil.  
+## <a name="to-define-user-settings-for-a-profile"></a>Til að skilgreina notandastillingar fyrir forstillingu
+Á síðunni **Mínar stillingar** geta notendur skilgreint grunnhegðun reikningsins síns, svo sem hlutverkamiðstöð, tungumálið og hvaða tilkynningar þeir fá. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).
 
-2.  Á síðunni **Forstillingar** skal velja aðgerðina **Nýtt** til að opna síðuna **Nýtt forstillingarspjald**.  
+Sem kerfisstjóri er hægt að skilgreina þessar stillingar fyrir forstillingu og nota þannig stillingarnar fyrir alla notendur tengda hlutverkinu.
 
-3.  Í reitnum **Kenni forstillingar** færið inn nafn sem lýsir ætluðum hlutverk notenda.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forstillingar (hlutverk)** og veldu síðan tengda tengilinn.
+2. Velja skal línuna fyrir forstillinguna sem á að breyta notandastillingum fyrir, velja aðgerðina **Skoða** og síðan velja aðgerðina **Sérstillingar notanda**.
+3. Á síðunni **Sérstillingar notanda** skal opna spjaldið fyrir notandann sem á að breyta stillingum hjá.
+4. Á síðunni **Sérstillingaspjald notanda** skal breyta reitunum eftir þörfum.
 
-4.  Í reitinn **Lýsing** er slegin inn lýsing á kenni forstillingar, t.d. **Pantanavinnsla**.  
+## <a name="to-activate-a-profile"></a>Til að virkja forstillingu
+Þegar forstilling er stofnuð er hægt að velja aðra gátreiti sem skilgreina hvort, hvar og hvernig forstillingin og upplýsingarnar eru gerðar aðgengilegar fyrir notendur.
 
-5.  Stilltu **Kenni fyrir Mitt hlutverk** reitinn á Mitt hlutverk sem þú vilt tengja við forstillinguna.  
+1. Á síðunni **Forstilling (hlutverk)** skal velja eftirfarandi gátreiti:
+    - **Virkt** til að tilgreina hvort tengda hlutverkið sé sýnilegt á síðunni **Tiltæk hlutverk** fyrir notendur að velja úr.  
+    - **Nota sem sjálfgefna forstillingu** til að tilgreina forstillinguna sem á við notendur sem hafa ekki fengið úthlutað ákveðnu hlutverki.
+    - **Óvirkja sérstillingar** til að tilgreina hvort notendur tengdra hlutverka geti sérstillt vinnusvæði.
+    - **Sýna í hlutverkaleit** til að tilgreina hvort valmyndaratriði fyrir viðskiptaeiginleika sem höfð eru með í forstillingunni birtist í eiginleikayfirlitinu. Frekari upplýsingar er að finna í [Finna síður úr eiginleikayfirliti](ui-role-explorer.md).
 
-Ferlið til þess að breyta fyrirliggjandi forstillingu er hið sama, nema að valin er eldri forstilling á síðunni **Forstillingar** í stað þess að velja aðgerðina **Nýtt**.  
+    ## <a name="to-export-user-created-profiles"></a>Til að flytja út forstillingar búnar til af notendum
+    Hægt er að flytja út forstillingar sem hafa verið breytt annaðhvort af notanda eða af notendum, eins og gefið er til kynna af **(Búið til af notanda)** í reitnum **Uppruni**. Forstillingin er flutt út í zip-skrá sem inniheldur .al-skrár sem hægt er að endurnýta til að þróa viðbætur. Frekari upplýsingar er að finna í [Nota biðlarann til að stofna forstillingar og sérstillingar á síðunni](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
+    * Á **Forstillingar (hlutverk)** síðunni skaltu velja aðgerðina **Flytja út forstillingar búnar til að notendum**.
 
-### <a name="copy-a-profile"></a>Afrita forstillingu
-Afritun forstillingar getur sparað tíma ef nota á sambærilegar stillingar á forstillingu og eingöngu á að breyta nokkrum stillingum.
+    Zip-skrá með .al-skránum fyrir forstillingar sem nýlega hefur verið bætt við eða breytt er flutt út.
 
-1.  Opnaðu forstillinguna sem þú vilt afrita og veldu svo **Afrita forstillingu** aðgerðina.
+## <a name="to-delete-a-profile"></a>Til að eyða forstillingu
+Hægt er að eyða forstillingu með því að velja aðgerðina **Eyða** á **Forstillingar (hlutverk)** síðunni. Eftirfarandi takmarkanir gilda hins vegar:
 
-2.  Í reitnum **Nýtt kenni forstillingar** er slegið inn nafn á forstillingunni sem á að afrita.
+- Ekki er hægt að eyða forstillingum sem eiga uppruna sinn í viðbótum. Fyrst verður að fjarlægja viðbótina.
+- Forstillingin verður að vera óvirk. Þetta tryggir einnig að engir notendur sem forstillingin hefur verið úthlutað á séu skráðir inn þegar eytt er.
+- Aðeins er hægt að eyða einni forstillingu í einu.  
 
-3.  Stilltu **Nýtt umfang forstillingar** reitinn á eitt af eftirfarandi:
+## <a name="to-delete-all-personalizations-made-by-a-user"></a>Til að eyða öllum sérstillingum sem notandi gerði
+Hægt er að eyða öllum breytingum sem notandi hefur gert á síðum sem mynda vinnusvæðið. Þetta getur til dæmis komið sér vel ef starfsmaður hefur breytt hlutverki og þarf ekki lengur sérstillinguna. Með því að eyða sérstillingum fyrir notendur breytist síðuútlitið aftur í það sem er tilgreint í forstillingunni.
 
-    - **Kerfi** til að gera nýja forstillingu aðgengilega fyrir alla gagnagrunna leigjenda sem nota forritið.
-    - **Leigjandi** til að gera nýja forstillingu aðgengilega aðeins fyrir núverandi gagnagrunn leigjenda.
-4. Velja hnappinn **Í lagi** að því loknu.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sérstillingar notanda** og veldu síðan tengda tengilinn.
 
-### <a name="ExportImportProfile"></a>Útflutningur og innflutningur forstillinga
+    Síðan **Sérstillingar notanda** birtir alla notendur sem hafa gert sérstillingar.
 
-Hægt er að flytja forstillingu inn og út sem XML-skrár til og frá [!INCLUDE[d365fin](includes/d365fin_md.md)] gagnagrunninum. Inn- og útflutningur forstillingar getur sparað þér tíma þegar þú stillir notendaviðmótið þar sem þú endurnýjar núverandi uppsetningu stillingar í stað þess að þurfa að stilla forstillingu frá grunni. Ef þú ert með forstillingu sem er stillt í [!INCLUDE[d365fin](includes/d365fin_md.md)] gagnagrunni og vilt endurnýta allar eða nokkrar uppsetningarstillingar í öðrum gagnagrunni getur þú flutt sniðið út í XML-skrá. Þá er hægt að flytja inn XML-skrá forstillingarinnar í hinn gagnagrunninn.
+2. Opnaðu spjaldið fyrir notanda sem eyða á sérstillingum hjá.
+3. Á síðunni **Sérstillingaspjald notanda** skal velja aðgerðina **Hreinsa sérstilltar síður** og síðan samþykkja skilaboðin sem birtast.
 
--   Til að flytja út forstillingu er annaðhvort hægt að velja aðgerðina **Flytja út forstillingar** frá síðunni **Forstillingalisti** eða **Forstillingarspjald** eða leita að og opna síðuna **Flytja út forstillingar**. Vistið XML-skrána á stað í tölvu eða á neti.
+Notandinn mun sjá breytingarnar næst þegar hann skráir sig inn.
 
--   Til að flytja inn forstillingu er annaðhvort hægt að velja aðgerðina **Flytja inn forstillingar** frá síðunni **Forstillingalisti** eða leita að og opna síðuna **Flytja inn forstillingar**.
+Einnig er hægt að eyða öllum sérstillingum síðu fyrir forstillingu. Frekari upplýsingar er að finna í [Til að eyða öllum sérstillingum fyrir forstillingu](ui-personalization-manage.md#to-delete-all-customizations-for-a-profile).
 
-    > [!NOTE]  
-    >  Ekki er hægt að flytja inn forstillingu sem þegar er til í gagnagrunninum, jafnvel þótt XML-skráin hafi annað heiti eða annað innihald. Eyða verður forstillingumsem fyrir eru áður en hægt er að flytja inn nýju forstillinguna.
+## <a name="to-delete-personalizations-for-specific-pages"></a>Til að eyða sérstillingum fyrir tilteknar síður
+Hægt er að eyða öllum sérstillingum sem einn eða fleiri notendur hafa gert á síðum sem mynda vinnusvæði þeirra. Þetta getur komið sér vel, til dæmis ef breytt viðskiptaferli leiðir til þess að notendur muni ekki lengur nota sérstillingar. Með því að eyða sérstillingum fyrir notendur breytist síðuútlitið aftur í það sem er tilgreint í forstillingunni.
 
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sérstillingar notandasíðu** og veldu síðan tengda tengilinn.
 
-## <a name="configuration-and-personalization"></a>Grunnstilling og sérstillingar
-<!--The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
+    Á síðunni **Sérstillingar notandasíðu** er listi yfir allar síður sem hafa verið sérstilltar og notandinn sem þau tilheyra.
 
--   Configuration, performed by the administrator  
+    > [!Note]
+    > Gátmerki í **Eldri sérstilling** reitnum gefur til kynna að sérstillingin hafi verið gerð í eldri útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)], sem meðhöndlaði sérstillingu öðruvísi. Notendur sem reyna að sérstilla þessar síður eru útilokaðir frá því að gera það nema þeir velji að opna síðuna. Frekari upplýsingar eru í [Af hverju er síða læst og því ekki hægt að sérsníða hana](ui-personalization-locked.md).
 
--   Personalization, performed by users  
+2. Veldu línuna fyrir sérstillingu síðunnar sem á að eyða og veldu síðan aðgerðina **Eyða**.
 
-The administrator configures the user interface for multiple users by customizing the user interface for a profile that the users are assigned to.  -->
+Notandinn mun sjá breytingarnar næst þegar hann skráir sig inn.    
 
-Notendur sérsníða notendaviðmót sinnar útgáfu með því að sérsníða notendaviðmót undir eigin notandinafni. Stjórnandinn getur eytt þessari aðlögun. Frekari upplýsingar eru í [Sérstilling vinnusvæðisins þíns](ui-personalization-user.md).  
+Einnig er hægt að eyða einstaka sérstillingum síðu fyrir forstillingu. Frekari upplýsingar er að finna í [Til að eyða sérstillingum fyrir tilteknar síður fyrir forstillingu](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vinna með notendur og heimildir](ui-how-users-permissions.md)  
-[Stjórnun sérstillinga sem stjórnandi](ui-personalization-manage.md)  
-[Sérstillingar verksvæðis](ui-personalization-user.md)  
+[Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  
+[Sérstilling verksvæðis](ui-personalization-user.md)  

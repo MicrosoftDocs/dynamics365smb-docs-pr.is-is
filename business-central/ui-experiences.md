@@ -2,30 +2,30 @@
 title: Velja notandaupplifun til að sýna eða fela ítarlegri eiginleika | Microsoft Docs
 description: Kynntu þér hvað notandaupplifunin Grunnur og Úrvals þýða fyrir notandaviðmótið, notkunarsvið og fyrirtækið þitt.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2019
-ms.author: edupont
-ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 5866ce2bc125d7e21c6dbdf93984a87b07ae46b1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251424"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311357"
 ---
-# <a name="changing-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að hjálpa þér að reka fyrirtækið þitt, óháð því í hvaða geira þú ert. Í kjarna [!INCLUDE[d365fin](includes/d365fin_md.md)] að finna fjárhagsskýrslu og sölu og innkaupaferli. Þú bætir við reynslu í samræmi við þarfir fyrirtækis þíns með því að bæta við viðbótum frá AppSource eða með því að breyta upplifunarstillingum fyrir fyrirtækið þitt. Frekari upplýsingar eru í [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md), eða [Velja notandaupplifun til að sýna og fela eiginleika](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).
+# <a name="change-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að hjálpa þér að reka fyrirtækið þitt, óháð því í hvaða geira þú ert. Í kjarna [!INCLUDE[d365fin](includes/d365fin_md.md)] að finna fjárhagsskýrslu og sölu og innkaupaferli. Þú bætir við reynslu í samræmi við þarfir fyrirtækis þíns með því að breyta **upplifunarstillingum** fyrir fyrirtækið þitt eða með því að bæta við viðbótum frá AppSource. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Velja upplifun notanda eða Sýna eða Fela eiginleika
 Notandi reynsla ákvarðar hversu mikið af kjarna virkni er í boði þegar þú og samstarfsmenn þínir nota [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þú getur valið reynslu notenda fyrir fyrirtækið þitt á síðunni **Fyrirtækjaupplýsingar**, í reitnum **Reynsla**.
 
 > [!NOTE]  
-> Þessi stilling á við allir notendur í fyrirtækinu. Notendur geta sérstillt eigin upplifun enn frekar með því að breyta útliti síðu og efni. Frekari upplýsingar eru í [Sérstilling vinnusvæðisins þíns og síðna](ui-personalization-user.md).  
+> Þessi stilling á við allir notendur í fyrirtækinu. Notendur geta sérstillt eigin upplifun enn frekar með því að breyta útliti síðu og efni. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).  
 
 Eftirfarandi tafla lýsir þeim reynslu sem nú er að finna.
 
@@ -63,10 +63,11 @@ Nú er hægt að halda áfram til að velja nýju upplifunina.
 Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] gera ráð fyrir **Úrvalsútgáfu** sem þýðir að áskriftirnar ná yfir heildarumfang viðmótseininga. Textaskilaboð er settur í háþróaðan hjálparefni fyrir eiginleikum framleiðslu og þjónustustýringar þar sem fram kemur að þeir krefjast **úrvals** upplifunar.
 
 ## <a name="see-also"></a>Sjá einnig .
+[Sérstilling verksvæðis](ui-personalization-user.md)  
+[Sérstilling Business Central](ui-customizing-overview.md)
 [Stofna ný fyrirtæki](about-new-company.md)  
 [Vinna með notendur og heimildir](ui-how-users-permissions.md)    
-[Breyta grundvallarstillingum](ui-change-basic-settings.md)  
-[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
+[Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)] Leyfishandbók](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 

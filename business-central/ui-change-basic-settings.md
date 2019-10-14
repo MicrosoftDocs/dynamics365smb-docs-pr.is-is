@@ -1,78 +1,90 @@
 ---
 title: Skoða og breyta grunnstillingum | Microsoft Docs
 description: Lærðu hvernig þú getur breytt sumum grunnstillingum, til dæmis Mitt hlutverk, fyrirtæki eða vinnudagsetningu.
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: ecceb1fc9ccc5245ef5305d9723f26e6270de79e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250970"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311429"
 ---
-# <a name="changing-basic-settings"></a>Breyta grundvallarstillingum
-Í [**Stillingarnar mínar**](https://businesscentral.dynamics.com?page=9176 "Fara beint í notendastillingasíðu Business Central") síðunni er hægt að sjá og breyta grunnstililngum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Breytingar sem þú gerir munu aðeins hafa áhrif á vinnusvæðið þitt, ekki vinnusvæði annarra notenda.  
+# <a name="change-basic-settings"></a>Breyta grundvallarstillingum
+
+Á síðunni **Stillingar mínar** er hægt að sjá og breyta grunnstillingum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Breytingar sem þú gerir munu aðeins hafa áhrif á vinnusvæðið þitt, ekki vinnusvæði annarra notenda.  
 
 ## <a name="role-center"></a> Mitt hlutverk
 Mitt hlutverk táknar heimasíðuna, upphafssíðu sem er hönnuð fyrir þarfir tiltekins hlutverks í fyrirtækinu. Það fer eftir hlutverki þínu, en Mitt hlutverk gefur þér yfirlit yfir fyrirtækið, deildina þína eða persónuleg verkefnin þín. Það hjálpar þér líka að komast í daglegu verkefnin þín og finna vinnu sem þér er úthlutað.
 
 -   Efst gerir yfirlitið þér kleift að skipta á milli viðskiptavina, lánardrottna, vara og annarra mikilvægra lista yfir upplýsingar. Á svipaðan hátt leyfa aðgerðir þér að hefja verkefni, svo sem að búa til nýjan sölureikning, beint frá Mínu hlutverki.
 
--   Í miðjunni finnurðu **Aðgerðir**. Aðgerðir sýna núgildandi gögn og má smella eða ýta á þau til að skoða nákvæmari upplýsingar. Afkastavísa má setja upp til að sýna valin myndrit svo fáist myndræn framsetning af, til dæmis, fjárstreymi´ og tekjum og útgjöldum. Þú getur einnig byggt upp lista af uppáhalds viðskiptavinum á heimasíðunni fyrir reikninga sem þú ert oft í viðskiptum við eða þarft að veita sérstaka athygli.
+-   Í miðstöðinni birtist svæðið **Aðgerðir** sem sýnir núgildandi gögn og má smella eða ýta á þau til að skoða nákvæmari upplýsingar. Afkastavísa má setja upp til að sýna valin myndrit svo fáist myndræn framsetning af, til dæmis, fjárstreymi´ og tekjum og útgjöldum. Þú getur einnig gert lista yfir eftirlætisviðskiptamenn í Mínu hlutverki fyrir viðskiptareikninga sem þú átt oft í viðskiptum við eða sem þarf að sýna sérstaka athygli.
 
-### <a name="to-change-role-center"></a>Til að breyta Mitt hlutverk
-Sjálfgefið hlutverkamiðstöð er **Viðskiptastjórnandi**, en hægt er að velja annað Hlutverk sem uppfylla þörfum betur.
-1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingar tákn fyrir miðstöð") og velja síðan **Stillingar mínar**.
-2. Á síðunni **Mínar Stillingar** í **Mitt hlutverk** reitnum, skal velja Mitt hlutverk sem á að vera staðallinn. Veljið til dæmis **Bókari**.
+### <a name="to-change-the-role"></a>Til að breyta hlutverki
+Sjálfgefið hlutverk þitt er **Viðskiptastjórnandi**, en hægt er að velja annað hlutverk sem uppfyllir þarfir þínar betur.
+1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingar tákn fyrir miðstöð") og velja síðan aðgerðina **Stillingar mínar**.
+2. Á síðunni **Mínar stillingar** á svæðinu **Hlutverk**, skal velja hlutverkið sem á að nota sem sjálfgefið. Veljið til dæmis **Bókari**.
 3. Velja hnappinn **Í lagi**.
 
 ## <a name="company"></a>Fyrirtæki
 Fyrirtæki virkar sem geymsluhólf fyrir gögn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hægt er að hafa mörg fyrirtæki í gagnagrunni, en aðeins hægt að velja eitt í einu.
 
-Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn.
+Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn. Þú getur stofnað nýtt fyrirtæki með sérstilltum gögnum. Nánari upplýsingar eru í [Stofna ný fyrirtæki](about-new-company.md).
 
-> [!TIP]  
->   Ef þú vilt birta annað heiti á fyrirtækinu þínu í umsókninni (eins og á heimasíðunni Mitt hlutverk), settu reitinn **Heiti** á síðunni **Upplýsingar um fyrirtæki** eða reitinn **Birta heiti** inn á síðuna **Fyrirtæki**.  
+## <a name="to-change-the-company-name"></a>Til að breyta heiti fyrirtækis
+Heiti fyrirtækisins er alltaf birt efst í vinstra horninu og virkar sem aðgerð sem hægt er að velja til að fara til baka í Mitt hlutverk. Þú getur breytt þessu heiti á síðunni **Upplýsingar um fyrirtækið**.
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Upplýsingar um fyrirtæki** og veldu síðan tengda tengilinn.
+2. Heiti nýja fyrirtækisins er ritað í reitinn **Heiti**.
+3. Fara af síðunni. Kerfið endurræsir og sýnir heitið á nýja fyrirtækinu í horninu efst til vinstri.
+
+## <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a>Til að birta fyrirtækjamerkis fyrir flýtiaðgang að fyrirtækisupplýsingum  
+Hægt er að bæta við sérstilltum merkimiða efst í hægra horninu, þar sem hægt er að velja að fljótlegt sé að skoða upplýsingar um fyrirtæki og leigjandaupplýsingar í sprettiglugga.
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Upplýsingar um fyrirtæki** og veldu síðan tengda tengilinn.
+2. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Fyrirtækismerki**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+
+> [!NOTE]
+> Ef merki fyrirtækis er skilgreint, þá er ekki hægt að breyta heiti fyrirtækis eins og lýst er í [til að breyta heiti fyrirtækisins](ui-change-basic-settings.md#to-change-the-company-name)
 
 ## <a name="work-date"></a>Vinnudagsetning
-Sjálfgefin vinnudagsetning er yfirleitt dagurinn í dag. Þú gætir þúrft að breyta tímabundið vinnudagsetningu til að framkvæma verk, eins og að klára færslur fyrir dagsetningu sem er ekki núverandi dagsetning.
+Dagsetningin sem er algengust er dagurinn í dag. Þú gætir þurft að breyta tímabundið vinnudagsetningu til að framkvæma verk, eins og að klára færslur fyrir dagsetningu sem er ekki núverandi dagsetning.
 
 > [!TIP]  
->   Skrifaðu **v** til að færa hratt inn vinnudagsetningu í dagsetningarreit. Skrifaðu **d** til að færa hratt inn núverandi dagsetningu í dagsetningarreit.
+> Í öllum dagsetningarreitum skal slá inn **t** til að færa aftur inn daginn í dag og slá inn **w** til að færa fljótt inn vinnudagsetninguna sem er gildið í reitnum **Vinnudagsetning** á síðunni **Mínar stillingar**.
 
 > [!IMPORTANT]  
->   Eftir að vinnudagsetningu er breytt, ef þú skráir þig út eða skiptir yfir í annað fyrirtæki, mun vinnudagsetningin fara aftur á sjálfgefna vinnudagsetningu. Svo næst þegar þú skráir þig inn eða skiptir aftur í upprunalega fyrirtækið gætir þú þurft að stilla vinnudagsetninguna aftur. 
+>  Eftir að vinnudagsetningu er breytt, ef þú skráir þig út eða skiptir yfir í annað fyrirtæki, mun vinnudagsetningin fara aftur á sjálfgefna vinnudagsetningu. Svo næst þegar þú skráir þig inn eða skiptir aftur í upprunalega fyrirtækið gætir þú þurft að stilla vinnudagsetninguna aftur.
 
 ### <a name="work-date-indication"></a>Ábending um vinnudagsetningu
-<!--
-Whenever the work date is not set to the current day (today), there are two indicators on pages that you open for editing:
+Hvenær sem vinnudagsetningin er ekki stillt á dagsetninguna í dag, birtast tvær gerðir vísa á síðum sem hægt er að breyta og þar sem vinnudagsetningin er því mikilvæg:
 
-- A reminder appears at the top of the page that tells you what the work date is set to. The reminder provides a direct link to the work date setting on the **My Settings** page so you change the date if you want. From the reminder, you can also choose to dismiss the reminder for the rest of your session. Unless you change the work date to "today", the reminder will appear the next time you sign in. 
+- Áminning birtist efst á síðunni sem segir til um hvað vinnudagsetningin er stillt á. Áminningin býður upp á beina tengingu við verkdagsetningarstillingu á síðuna **Mínar stillingar** svo þú breytir dagsetningunni ef þú vilt. Í innheimtubréfinu er einnig hægt að velja að sleppa áminningu fyrir restina af lotunni. Ef vinnudagsetningunni er breytt í „í dag“ birtist áminning næst þegar þú skráir þig inn.
 
-- If you dismiss the reminder, the work date will appear in the title of the page.  
--->
-Ef vinnudagsetning er ekki stillt á núverandi dag (daginn í dag), þá á öllum síðum þar sem hægt er að breyta gögnum, er núverandi vinnudagsetning sýnd efst í vinstra horninu á síðunni.
-  
+- Ef áminningu er lokað birtist vinnudagsetningin í titli síðunnar.  
+--> Ef vinnudagsetning er ekki stillt á núverandi dag (daginn í dag), þá á öllum síðum þar sem hægt er að breyta gögnum, er núverandi vinnudagsetning sýnd efst í vinstra horninu á síðunni.
+
 ## <a name="region"></a> Svæði
 
 **Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir.
 
-
 ## <a name="language"></a> Tungumál
-Breyta birtingartungumáli. Þessi reitur birtist aðeins þegar meira en eitt tungumál er að velja úr. 
+Breyta birtingartungumáli. Þessi reitur birtist aðeins þegar meira en eitt tungumál er að velja úr.
 
 Upphafstungumálið er annaðhvort ákveðið af kerfisstjóra eða stillingum vafrans þegar þú skráir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tungumálið sem þú setur verður notað á öllum tækjum sem þú skráir þig inn í, svo sem síma eða spjaldtölvu.
 
 ## <a name="changing-when-i-receive-notifications"></a>Breyta þegar ég fæ tilkynningar
-Velja þennan hlekk til að skoða eða breyta tilkynningum um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu, eða þegar tiltækar birgðir eru lægri en magnið sem þú ert að fara að selja. Frekari upplýsingar, sjá [Snjall-tilkynningar](ui-smart-notifications.md).
+Velja þennan hlekk til að skoða eða breyta tilkynningum um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu, eða þegar tiltækar birgðir eru lægri en magnið sem þú ert að fara að selja. Nánari upplýsingar er að finna í [Stjórnun tilkynninga](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Sjá einnig
+[Stofna ný fyrirtæki](about-new-company.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)  
+[Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  

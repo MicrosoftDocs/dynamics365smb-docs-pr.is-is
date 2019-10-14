@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
-ms.openlocfilehash: 562664ad0fd443c3363d103572022e6d819ed357
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c195ffa8b798f13d92f78896f101a84b07728d08
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241783"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305357"
 ---
 # <a name="manage-notification-templates"></a>Vinna með tilkynningasniðmát
 Tilkynningar eru sendar til verkflæðisnotenda til að tilkynna þeim um skref sem þeir verað að taka eða upplýsa þá um stöðu verkflæðisskrefa. Notandi setur upp hverjir fá tilkynningar og hvenær með þvíað setja upp samþykktarnotendur, tilkynningaáætlun notenda og umrædd verkflæðisviðbrögð til að skilgreina móttakanda tilkynningar. Nánari upplýsingar er að finna í [Uppsetning Verkflæði Tilkynningar](across-setting-up-workflow-notifications.md).  

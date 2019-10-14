@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c68b40f22503ced21130f57feec7c06b6b2c9f5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e8dc6080f51c1598bb2a003e6b3899c017d2134e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245943"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300714"
 ---
-# <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a>Um gagnaskiptaramma í[!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="about-the-data-exchange-framework-in-included365finincludesd365fin_mdmd"></a>Um gagnaskiptaramma í[!INCLUDE[d365fin](includes/d365fin_md.md)]
 Snið fyrir skrár vegna skipta á gögnum í skrám banka, rafræn skjöl, gengi gjaldmiðla og önnur með ERP-kerfi eru breytileg eftir gagnagjafa gagnaskrár og landi/svæði. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður ýmis skráarsnið fyrir bankaskrár og gagnaþjónustustaðla. Til að veita stuðning á öðrum rafrænu formi er notaður gagnaskiptarammi. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).    
 
  Eftirfarandi skýringarmyndir sýna arkitektúr gagnaskiptarammans.  

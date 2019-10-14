@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a5e25c9df3ccd98436945b0070773d5b48eb54ac
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 327cd6e048ce4afcc6b58c2d546da4768ec03724
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247652"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314533"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Virkja Vörutínsla eftir FEFO
 Fyrst-fyrnt-fyrst-út (FEFO) er röðunaraðferð sem tryggir að elstu vörurnar, sem hafa elstu lokadagsetningarnar, eru tíndar fyrst.  
@@ -25,7 +25,7 @@ Fyrst-fyrnt-fyrst-út (FEFO) er röðunaraðferð sem tryggir að elstu vörurna
  Þessi aðgerð virkar aðeins ef eftirfarandi skilyrði eru uppfyllt:  
 
 -   Varan verður að hafa rað-/lotunúmer.  
--   Í vörurakningarkótauppsetningu vörunnar verður að velja reitinn **Vöruhúsarakning bundin við raðnúmer** eða reitinn **Vöruhúsarakning bundin við lotnúmer**.  
+-   Í vörurakningarkóðauppsetningu vörunnar verður að velja reitinn **SN sértæk rakning** eða reitinn **Lotusértæk rakning**.  
 -   Vöruna þarf að bóka á birgðir með lokadegi.  
 -   Á birgðageymsluspjaldinu verður reiturinn **Krefjast tínslu** að vera valinn.  
 -   Á birgðageymsluspjaldinu verður gátreiturinn **Tína eftir FEFO** að vera valinn.  
@@ -36,7 +36,7 @@ Fyrst-fyrnt-fyrst-út (FEFO) er röðunaraðferð sem tryggir að elstu vörurna
 > [!NOTE]  
 > Ef einhverjar vörur með rað-/lotunúmerum nota sértæka rakningu er fyrst tekið tillit til þeirra og undir þeim birtast eftirstandandi ósértak rað-/lotunúmer eftir FEFO.
 <br /><br />
-Ef tvær vörur með rað-/lotunúmeri hafa sömu fyrningadagsetningu velur kerfið vöruna með lægsta lotu- eða raðnúmerið.
+Ef tvær vörur með rað-/lotunúmeri hafa sömu fyrningadagsetningu velur forritið vöruna með lægsta lotu- eða raðnúmerið.
 <br /><br />
 Þegar vörur með rað-/lotunúmeri eru tíndar í birgðageymslum sem settar eru upp fyrir beinan frágang og tínslu er einungis magn í hólfum af tegundinni *Tínsla* tínt samkvæmt FEFO.  
 <br /><br />

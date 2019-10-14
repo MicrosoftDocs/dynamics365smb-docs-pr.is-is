@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0bf6da083b69d76c3f2ad75e8fb9b9d6bfdc5d9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b3f3cf5befb5bcca602b67cdc1f6de6d50ddd320
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248526"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313953"
 ---
 # <a name="plan-picks-in-worksheets"></a>Skipuleggja tínslur á vinnublaðinu
 Ef vöruhúsið er sett upp með bæði tínslu- og afhendingarvinnslu er hægt að velja að línurnar á afhendingarskjölum flytjist ekki sjálfkrafa í tínsluleiðbeiningar heldur verði þess í stað tiltækar á vinnublaði tínslunnar.  
@@ -25,7 +25,7 @@ Ef vöruhúsið er sett upp með bæði tínslu- og afhendingarvinnslu er hægt 
 > [!NOTE]  
 >  Hafi tínsluleiðbeiningar vöruhúss þegar verið stofnaðar og sameina á þær í stakar skilvirkar tínsluleiðbeiningar þarf að eyða hverri vöruhúsatínslu fyrir sig. Línurnar sem á að tína má nú lista á vinnublaðinu.  
 
-Á tínsluvinnublaðinu er hægt að setja upp tínslulista fyrir starfsmenn sem minnkar tímann sem starfsmaðurinn notar til að fara um vöruhúsið og tína vörur. Það eru reitir með upplýsingum varðandi tiltækt magn af vörum í hjáskipunarhólfunum. Þetta er gagnlegt við hjáskipun þegar skipuleggja á verkúthlutanir þar sem kerfið leggur alltaf til að tínt sé úr hjáskipunarhólfi á undan öðrum hólfum, óháð mælieiningum. Línurnar á vinnublaðinu geta komið úr ýmsum upprunaskjölum og þeim má raða eftir vöru, hillunúmeri., upprunaskjali, gjalddaga eða sendist-til aðsetri.  
+Á tínsluvinnublaðinu er hægt að setja upp tínslulista fyrir starfsmenn sem minnkar tímann sem starfsmaðurinn notar til að fara um vöruhúsið og tína vörur. Það eru reitir með upplýsingum varðandi tiltækt magn af vörum í hjáskipunarhólfunum. Þetta er gagnlegt við hjáskipun þegar skipuleggja á verkúthlutanir þar sem forritið leggur alltaf til að tínt sé úr hjáskipunarhólfi á undan öðrum hólfum, óháð mælieiningum. Línurnar á vinnublaðinu geta komið úr ýmsum upprunaskjölum og þeim má raða eftir vöru, hillunúmeri., upprunaskjali, gjalddaga eða sendist-til aðsetri.  
 
 Ef raðað er eftir gjalddaga er hægt að eyða öllum línum öðrum en þeim sem sinna þarf strax af vinnublaðinu. Minna áríðandi línum er ekki eytt þannig séð, heldur fara þær aftur á vinnublaðið **Tínsluval**. Þegar tínslan er stofnuð hefur línunum þegar verið raðað eftir gjalddaga og hægt er að úthluta tínslunni á tiltekinn starfsmann.  
 

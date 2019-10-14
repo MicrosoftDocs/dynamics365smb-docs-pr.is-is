@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: b816d7ff9f8446aa81746b980fd47b3b531e1396
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239030"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302552"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Greina fjárhagsskýrslur í Excel Microsoft Excel.
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] geturðu séð afkastavísa (KPIs) og fengið yfirlit yfir fjárhagsstöðu fyrirtækisins. Þú getur einnig opnað lista í Excel og greint gögnin þar. En þú getur einnig flutt út stórar fjárhagsskýrslur eins og t.d. efnahagsreikning eða rekstrarreikning til Excel, greint gögnin og prentað út skýrslurnar.  
@@ -36,7 +36,7 @@ Segjum sem svo að þú viljir grafa dýpra í sjóðstreymi þitt. Frá Hlutver
 
 Í Excel má sjá glugga þar sem gögnin eru sett upp fyrir þig á fyrstu vinnubókinni. Öll gögnin sem voru flutt út eru líka aðgengileg á öðrum vinnublöðum ef þú þarft á þeim að halda. Þú getur prentað út skýrsluna undir eins, eða breytt henni þar til þú hefur yfirlitið og upplýsingarnar sem þú sækist eftir. Notaðu [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel-innbótina til að afmarka og greina frekar gögn.  
 
-## <a name="the-included365finincludesd365finmdmd-excel-add-in"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Excel-innbótin
+## <a name="the-included365finincludesd365fin_mdmd-excel-add-in"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Excel-innbótin
 [!INCLUDE[d365fin](includes/d365fin_md.md)] Upplifun þín inniheldur innbót fyrir Excel. Það fer eftir áskriftinni, hvort þú ert skráður inn sjálfkrafa eða þarft að tiltaka sömu aðgangsupplýsingar og þú notar fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 Með innbótinni geturðu fengið fersk gögn frá [!INCLUDE[d365fin](includes/d365fin_md.md)], og þú getur ýtt breytingum aftur inn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Eiginleikin sem felur í sér að ýta gögnum aftur inn í gagnagrunninn er hins vegar óvirkur fyrir Excel fjárhagsskýrslur á listanum hér að ofan.  

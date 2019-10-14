@@ -1,115 +1,74 @@
 ---
-title: Stjórnun sérstillinga sem stjórnandi í Business Central | Microsoft Docs
-description: Lærðu hvernig á að aðlaga notendaviðmótið til að henta því hvernig þú vinnur.
+title: Sérsníða síður fyrir hlutverk | Microsoft Docs
+description: Kynntu þér hvernig á að sérsníða notandaviðmótið fyrir forstillingu (hlutverk) þannig að allir notendur þess sjái sérsniðið vinnusvæði.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 08/16/2019
-ms.author: jswymer
-ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887738"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310805"
 ---
-# <a name="managing-personalization-as-an-administrator"></a>Stjórnun sérstillinga sem stjórnandi
+# <a name="customize-pages-for-profiles"></a>Sérsníða síður fyrir forstillingar
+ Notendur geta sérstillt síður vinnusvæðisins síns sitt að vild. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
- Notendur geta sérsniðið vinnusvæði sitt að vild. Sem stjórnandi stjórnar þú og hefur umsjón með sérstillingum með því að:
+Stjórnendur geta sérstillt síður fyrir forstillingu samkvæmt tengdri viðskiptahlutverki eða deild, til dæmis, þannig að allir notendur sem hafa úthlutað forstillingunni sjái sérstillt síðuútlit. Stjórnandinn sérstillir síður með því að nota sömu virkni og notendur gera þegar þeir sérstilla síður.
 
--   Kveikja eða slökkva á eiginleika sérstillingar fyrir allt forritið (einungis fyrir uppsetningar á staðnum).
--   Kveikja eða slökkva á eiginleika sérstillingar fyrir notendur af tilteknum prófíl.
--   Hreinsa allar sérstillingar á síðu sem notendur hafa gert.
+> [!NOTE]
+> Dæmigerð notkun forstillingar er hlutverk. Forstilling er því heitið *Forstilling (hlutverk)* í notendaviðmóti.
 
-## <a name="EnablePersonalization"></a>Kveikja eða slökkva á sérstillingum (aðeins á staðnum)
+Sérstilling á síðu hefst á síðunni **Forstillingar (hlutverk)**, upphafspunkt stjórnanda til að stjórna notendaforstillingum á einstökum forstillingarspjöldum. Auk þess að sérsníða síðuútlitið er hægt að breyta ýmsum öðrum stillingum fyrir forstillingar á síðunni **Sérstilling (hlutverk)** fyrir hverja forstillingu. Frekari upplýsingar eru í [Unnið með forstillingar](admin-users-profiles-roles.md).
 
-Sjálfgefið er að slökkt sé á sérstillingu í biðlaranum. Þú kveikir eða slekkur á sérstillingum með því að breyta skilgreiningarskránni (navsettings.json) í tilviki fyrir vefþjón Business Central sem þjónar biðlaranum.
+## <a name="to-customize-pages-for-a-profile"></a>Til að sérsníða síður fyrir forstillingu
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forstillingar (hlutverk)** og veldu síðan tengda tengilinn.
+2. Velja skal línuna fyrir forstillinguna sem á að sérsníða síður fyrir og síðan velja aðgerðina **Breyta**.
+3. Veldu **Sérsníða síður** aðgerðina.
 
-1. Til að kveikja á sérstillingum skaltu bæta eftirfarandi línu við navsettings.json skrána:
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] opnast í nýjum vafraglugga fyrir valda forstillingu með borðanum **Sérstilla**. Borðinn **Sérsníða** býður upp á sömu virkni og borðinn **Sérstilling** sem er aðgengilegur notendum.
 
-    ```
-    "PersonalizationEnabled": "true"
-    ```
+4. Sérstilla síður í samræmi við þarfir hlutverks eða deildarinnar sem um ræðir á sama hátt og notandi myndi gera þegar hann sérstillir. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
-    Til að slökkva á sérstillingum skaltu fjarlægja þessa línu eða breyta henni í:
+    > [!NOTE]
+    > Til að skoða á meðan sérstillingu stendur skal nota Ctrl + Smella á aðgerð þegar hún er auðkennd með bendlinum.
 
-    ```
-    "PersonalizationEnabled": "false"
-    ```
+5. Þegar lokið er við að breyta útlitinu á einni eða fleiri síðum skal velja hnappinn **Lokið** á borðanum **Sérsníða** .
+6. Lokið vafraglugganum.
 
-    Nánari upplýsingar um hvernig skuli breyta navsettings.json skránni er að finna í [Breyta navsettings.json skránni beint](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).
+Sérstillingar fyrir síður er nú skráðar fyrir forstillinguna.
 
-2. Búðu til og sæktu táknin fyrir forritið.
+## <a name="to-view-all-customized-pages-for-a-profile"></a>Til að skoða allar sérstilltar síður fyrir forstillingu
+Hægt er að fá yfirlit yfir hvaða síður eru sérsniðnar fyrir forstillingu, til dæmis til að áætla hver á að sérsníða eða eyða.
 
-    Þetta skref er valfrjálst og er ekki nauðsynlegt til að kveikja á sérstillingu. Hins vegar tryggir það að þróunaraðilar geti sérstillt nýjar síður sem eru stofnaðar.
+- Á síðunni **Forstilling (hlutverk)** er hægt að velja aðgerðina **Sérsníða síður**.
 
-    1. Fyrst eru táknin búin til með því að keyra finsql.exe með `generatesymbolreference` skipuninni. Skráin finsql.exe er staðsett í uppsetningarmöppunni fyrir [!INCLUDE[server](includes/server.md)] og Dynamics NAV þróunarumhverfi (CSIDE). Til að búa til táknin skaltu opna skipanakvaðningu, breyta yfir í skráasafnið þar sem skráin er geymd og síðan keyra eftirfarandi skipun:
+## <a name="to-delete-all-customizations-for-a-profile"></a>Til að eyða öllum sérstillingum fyrir forstillingu
+Hægt er að hætta við sérstillingar sem þú hefur gert fyrir forstillingu. Sérstillingum sem notandi hefur sett inn með viðbót og sérstillingum sem notanda hefur gert verður ekki eytt. Hægt er að eyða öllum sérstillingum með annarri aðgerð. Frekari upplýsingar er að finna á [Eyða öllum sérstillingum sem notandi hefur gert](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
-        ```
-    Dæmi:
+- Á síðunni **Forstilling (hlutverk)** fyrir sérstillta forstillingu skal velja aðgerðina **Hreinsa sérstilltar síður**.
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
-        ```
+Útlitið á síðum fyrir forstillinguna er endurstillt á sjálfgefið útlit.  
 
-    Frekari upplýsingar er að finna í [Keyra C/SIDE og AL samhliða](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Til að eyða sérstillingum fyrir tilteknar síður forstillingar
+Hægt er að eyða einstökum sérstillingum síðu sem hafa verið gerðar fyrir forstillingu. Sérstillingum sem notandi hefur sett inn með viðbót og sérstillingum sem notanda hefur gert verður ekki eytt. Hægt er að eyða tilteknum sérstillingum síðu með annarri aðgerð. Frekari upplýsingar er að finna á [Eyða sérstillingum fyrir tilteknar síður](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-    2. Skilgreindu [!INCLUDE[nav_server_md](includes/nav_server_md.md)] tilvik í **Virkja hleðslu á tilvísunum forritatákna við ræsingu þjóns** (EnableSymbolLoadingAtServerStartup). Frekari upplýsingar er að finna í [Skilgreining Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
+1. Á síðunni **Forstilling (hlutverk)** er hægt að velja aðgerðina **Sérsníða síður**.
+2. Á síðunni **Sérstillingar forstillingar** skal velja á eða fleiri línur fyrir sérstillingar síðu sem á að eyða og velja svo aðgerðina **Eyða**.
 
-## <a name="to-disable-personalization-for-a-profile"></a>Að slökkva á sérstillingu fyrir prófíl
-
-Hægt er að koma í veg fyrir að allir notendur sem tilheyra tiltekinni forstillingu geti sérstillt síður sínar.
-
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notandastillingar** og veldu síðan tengda tengilinn.
-2. Veljið forstillinguna sem á að breyta í listanum.
-3. Veljið gátreitinn **Afvirkja sérstillingar notanda** og smellið síðan á hnappinn **Í lagi**.
-
-> [!NOTE]  
-> Í Business Central á netinu er aðeins hægt að slökkva á sérstillingu fyrir forstillingu leigjanda, ekki fyrir kerfisforstillingar. 
-
-## <a name="to-clear-user-personalizations"></a>Að hreinsa sérstillingar notanda
-
-Þegar sérstillingar síðu er eytt fer síðan aftur í upprunalegt útlit áður en sérstillingin var gerð. Það eru tvær leiðir til að hreinsa sérstillingar sem notendur hafa gert á síðum: með **Eyða sérstillingum notanda** síðunni og **Sérstillingaspjald notanda**.
-
-### <a name="to-clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Að hreinsa sérstillingar notenda með því að nota síðuna Eyða sérstillingum notanda
-
-Síðan **Eyða sérstillingum notanda** gerir þér kleift að hreinsa sérstillingar á einstaka síðum, eftir einstaka notendum.
-
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða sérstillingum notanda** og veldu síðan tengda tengilinn.
-
-    Á síðunni er listi yfir allar síður sem hafa verið sérstilltar og sem notandinn tilheyrir.
-
-    >[!NOTE]
-    > Gátmerki í **Eldri sérstilling** dálknum gefur til kynna að sérstillingin hafi verið gerð í eldri útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)], sem meðhöndlaði sérstillingu öðruvísi en er núna gert. Notendur sem reyna að sérstilla þessar síður eru útilokaðir frá því að gera það nema þeir velji að opna síðuna. Frekari upplýsingar eru í [Af hverju er síða læst og því ekki hægt að sérsníða hana](ui-personalization-locked.md).
-
-2. Veljið færsluna sem á að eyða og veljið síðna aðgerðina **Eyða**.
-
-    Notandinn mun sjá breytingarnar næst þegar hann skráir sig inn.
-
-### <a name="to-clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Að hreinsa sérstillingar notenda með því að nota síðuna Sérstillingaspjald notanda
-
-Síðan **Sérstillingaspjald notanda** gerir þér kleift að hreinsa sérstillingar á öllum síðum fyrir tiltekinn notanda. Þetta krefst skrifleyfis fyrir töflu 2000000072 **Forstilling**.
-
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sérstillingar notanda** og veldu síðan tengda tengilinn.
-
-    Síðan **Sérstillingar notanda** sýnir alla notendur sem hugsanlega hafa sérstillt síður. Ef þú finnur ekki notanda á listanum þýðir það að hann hefur engar sérstilltar síður.
-
-2. Veljið notanda af listanum og veljið svo aðgerðina **Breyta**.
-
-3. Í flipanum **Aðgerðir** veljið **Hreinsa sérstilltar síður**.
-
-    Notandinn mun sjá breytingarnar næst þegar hann skráir sig inn.
+Útlitinu á völdum síðum er breytt í breytingar sem gerðar voru.
 
 ## <a name="see-also"></a>Sjá einnig
-[Sérstillingar verksvæðis](ui-personalization-user.md)  
+[Sérstilling verksvæðis](ui-personalization-user.md)  
+[Vinna með forstillingar](admin-users-profiles-roles.md)  
+[Grunnstillingum breytt](ui-change-basic-settings.md)  
+[Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Breyta grundvallarstillingum](ui-change-basic-settings.md)  
-[Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)  

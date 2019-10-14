@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 165eddfa28f2a48597d64c4480288e9280124fe7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0257b3bdb68a92cdc1719f19a2fc4b73a9e33dc2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247235"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307767"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Undirbúa flutning á viðskiptamannagögnum
 Eftir að búið er að flytja inn og nota uppsetningargögn í nýjan gagnagrunn, er hægt að hefja flutning á fyrirliggjandi aðalgögnum viðskiptamanns, t. d. vöru- og viðskiptamannanúmer og heitum. Til að tryggja að þessi gögn séu stofnuð hratt og nákvæmlega í nýja fyrirtækinu ætti að nota sniðmát til að skipuleggja gögnin.  

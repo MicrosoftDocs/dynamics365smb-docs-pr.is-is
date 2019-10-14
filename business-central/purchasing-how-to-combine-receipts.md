@@ -1,5 +1,5 @@
 ---
-title: Hvernig skal sameina móttökur | Microsoft Docs
+title: Leyfa móttöku fleiri atriða en hafa verið pöntuð| Microsoft Docs
 description: Ef reikningsfæra á fleiri en eina innkaupamóttöku í einu er hægt að nota aðgerðina sameinaðar móttökur.
 services: project-madeira
 documentationcenter: ''
@@ -10,40 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5e1b04cc998319cc835b5dcc1547723c48be6763
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6076412504a8f9176503deced03ae92c7e8076c5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252876"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312437"
 ---
-# <a name="combine-receipts-on-a-single-invoice"></a>Sameina móttökur í einn reikning
-Ef reikningsfæra á fleiri en eina innkaupamóttöku í einu er hægt að nota aðgerðina **sameinaðar móttökur**.  
+# <a name="allow-receipt-of-more-items-than-ordered"></a>Leyfa móttöku fleiri atriða en hafa verið pöntuð
+Þegar þú tekur á móti fleiri vörum en þú pantaðir, viltu hugsanlega fá þær afhentar í stað þess að hætta við kvittunina. Til dæmis getur verið ódýrara að halda eftir umframbirgðum en að skila þeim eða seljandi kann að bjóða þér afslátt fyrir að halda þeim.
 
-Áður en hægt er að búa til sameinaða innkaupamóttöku, þarf að vera búið að bóka fleiri en eina móttöku frá sama lánardrottininn í sama gjaldmiðlinum. Það er að segja, það þarf að vera búið að fylla út tvær eða fleiri innkaupapantanir og bóka þær sem mótteknar en ekki reikningsfærðar.  
+Pantanavinnsla og starfsmenn í vöruhúsi verða að geta sinnt slíkum „umfram kvittunum“ án þess að fara í gegnum lengra ferli til að undirbúa og sækja samþykki fyrir nýja innkaupapöntun.
 
-Þegar innkaupareikningar eru sameinaðir og bókaðir á reikningi, er bókaður innkaupareikningur stofnaður fyrir reikningslínu(r). Reiturinn **Reikningsfært magn** á upprunalegri innkaupapöntun eða standandi innkaupapöntun er uppfærður á grundvelli reikningsfærða magnsins. Hins vegar er upprunalega innkaupaskjalinu ekki eytt jafnvel þó það hafi verið móttekið og reikningsfært að fullu og því verður að eyða innkaupaskjalinu.  
+## <a name="to-receive-more-items-than-specified-on-the-purchase-document"></a>Til að taka á móti fleiri vörum en tilgreindar eru í innkaupaskjalinu
 
-## <a name="to-combine-receipts"></a>Sameining móttakna:  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.  
-2. Valið er **Nýtt** aðgerð. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).  
-3. Á flýtiflipanum **Línur** skal velja **Sækja móttökulínur** aðgerðina.  
-4. Nokkrar móttökulínur eru valdar sem eiga að vera á reikningnum:  
-
-    Ef röng móttökulína var valin eða byrja á upp á nýtt er einfaldlega hægt að eyða línunum í innkaupareikningum og nota aftur aðgerðina **Sækja móttökulínur**.  
-5. Til að bóka reikningur er valið aðgerðin **bóka**.  
-
-## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Til að fjarlægja opnar innkaupapantanir eftir bókun sameinaðrar móttöku  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða** og veldu síðan tengda tengilinn.  
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-3. Velja hnappinn **Í lagi**.  
-
-Að öðrum kosti skal eyða einstökum pöntunum handvirkt.
-
-Skref 1 til 3 eru endurtekin fyrir öll skjöl sem urðu fyrir áhrifum, eins og auðar innikaupapantanir.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning innkaupagrunns** og veldu síðan tengda tengilinn.
+2.   
 
 ## <a name="see-also"></a>Sjá einnig  
 [Innkaup](purchasing-manage-purchasing.md)  
+[Móttaka vara](warehouse-how-receive-items.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

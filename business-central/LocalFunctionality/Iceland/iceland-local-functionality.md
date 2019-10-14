@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 6b4af819f1de41bb0c659ca1c16e60ecb72cb006
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: 84a179d56576c2f66b66150ad2fbf2b0f04e1cd1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594147"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301307"
 ---
 # <a name="iceland-local-functionality"></a>Staðbundnar aðgerðir fyrir Ísland
 Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslenskri útgáfu [!INCLUDE[d365fin](../../includes/d365fin_md.md)]

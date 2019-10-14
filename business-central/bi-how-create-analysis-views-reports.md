@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8744455f41897f00315968cc10f12f18bf042b9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c3b7ee476287b25740648758ff7b87ff13f22a7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245259"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303941"
 ---
 #  <a name="create-analysis-reports"></a>Stofna greiningarskýrslur
 Sölustjórar þurfa að greina veltu, brúttóhagnað og aðrar lykilstærðir varðandi sölu með reglulegu millibili. Innkaupaaðilar hafa meiri áhuga á að greina innkaupamagn, fylgjast með frammistöðu birgja og innkaupaverði. Vöru- og birgðastjórar þurfa hins vegar upplýsingar um birgðaveltu, greiningu á hreyfingu birgða og upplýsingar um birgðavirði.  
@@ -43,7 +43,7 @@ Síðan er hægt að setja upp dálka eins og þessa:
 ## <a name="setting-up-line-and-column-layouts"></a>Uppsetning á útliti lína og dálka  
  Á síðunni **Greiningarskýrsla** er hægt að skoða mismunandi útlit lína og dálka eftir því hvernig uppsetningin er. Línur eða línusniðmát eru sett upp á síðunni **Greiningarlínusniðmát**. Á þessari síðu er hægt að skilgreina heiti skýrslunnar og hlutanna sem á að sýna í línum hennar. Dálkarnir eru settir upp á síðunni **Greiningardálkssniðmát**. Á þessari síðu er hægt að tilgreina heiti dálkssniðmátsins og greiningarfæribreytanna sem á að sýna í skýrslunni sem dálka. Á síðunni **Greiningardálkssniðmát** sýnir hver lína dálk í skýrslunni. Athuga skal að greiningarlínur og greiningardálkar eru óháð hvort öðru.  
 
-Það fer eftir línunum og dálkunum sem hafa verið sett upp, en kerfið dregur saman niðurstöðu skýrslunnar á síðunni **Greiningarskýrsla** með eftirfarandi birtingu:  
+Það fer eftir línunum og dálkunum sem hafa verið sett upp, en forritið dregur saman niðurstöðu skýrslunnar á síðunni **Greiningarskýrsla** með eftirfarandi birtingu:  
 
 | |Sala gildandi mánaðar|Sala síðasta mánaðar|Sala síðasta mánaðar í %|  
 |-|-|-|-|  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 8d7421d5fee1a6498c204730f873c3746aafc637
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 022e364b6a40fe8df1f9c4e3425030d35f729e6a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726745"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304493"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Skoða stöðu samstillingarverka
 Notaðu síðuna **Samstillingarvillur í tengdum gögnum** til að skoða stöðu samstillingarverka sem hafa verið keyrðar fyrir tengdar færslur í [!INCLUDE[crm_md](includes/crm_md.md)]-samþættingu. Þetta felur í sér verk sem voru í gangi frá verkröð og handvirk samstillingarverk sem voru í gangi í færslum frá [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til dæmis er gagnlegt að skoða stöðu þeirra við úrræðaleit vegna þess að þú færð aðgang að upplýsingum um villur sem tengjast tengdum færslum. Venjulega koma þessar tegundir af villum upp vegna aðgerða notanda, t.d. þegar:  
@@ -44,5 +44,5 @@ Notaðu síðuna **Samstillingarvillur í tengdum gögnum** til að skoða stö�
 2. Veldu aðgerðina **Samstillingarkladdi** til að skoða samstillingarkladda fyrir valda færslu. Til dæmis tiltekinn viðskiptavin sem var samstilltur handvirkt.
 
 ## <a name="see-also"></a>Sjá einnig  
-[Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)  
-[Að nota Dynamics 365 for Sales úr Business Central](marketing-integrate-dynamicscrm.md)
+[Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
+[Nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md)

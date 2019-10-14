@@ -1,6 +1,6 @@
 ---
 title: Tengja og samstilla færslur handvirkt| Microsoft Docs
-description: Samstilling samþættingartöflu virkjar gagnasamþættingu í öllum færslum í töflu í Business Central og Dynamics 365 for Sales-einingu sem eru tengdar.
+description: Samstilling samþættingartöflu virkjar gagnasamþættingu í öllum færslum í töflu í Business Central og Dynamics 365 Sales einingu sem eru tengdar.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 6d1248ac77208e382c5594af57335df6ff824630
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 0c70b1ba34af32b7cf542149c8f15cb191761358
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726768"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308117"
 ---
 # <a name="couple-and-synchronize-records-manually"></a>Tengja og samstilla færslur handvirkt
 Þetta efnisatriði lýsir því hvernig á að tengja eina eða fleiri færslur í [!INCLUDE[d365fin](includes/d365fin_md.md)] við færslur í [!INCLUDE[crm_md](includes/crm_md.md)]. Að tengja færslur gerir þér kleift að skoða [!INCLUDE[crm_md](includes/crm_md.md)] upplýsingar úr [!INCLUDE[d365fin](includes/d365fin_md.md)] og öfugt. Tenging gerir þér einnig að samstilla gögn á milli færslna. Hægt er að tengja fyrirliggjandi færslur eða stofna og tengja nýjar færslur.
@@ -46,4 +46,4 @@ ms.locfileid: "1726768"
 3.  Ef hægt er að samstilla færslur ýmist úr [!INCLUDE[d365fin](includes/d365fin_md.md)] í [!INCLUDE[crm_md](includes/crm_md.md)] eða úr [!INCLUDE[crm_md](includes/crm_md.md)] í [!INCLUDE[d365fin](includes/d365fin_md.md)], skal velja valkostinn sem tilgreinir stefnu gagnauppfærslunnar og velja svo **Í lagi**.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Að nota Dynamics 365 for Sales úr Business Central](marketing-integrate-dynamicscrm.md)
+[Nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md)

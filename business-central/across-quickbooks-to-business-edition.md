@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 44c71104ddbc40c803d4b917279dd3cee8c8fc83
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7acaae83255002aa3f9964e5997518b0c9cc2224
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241026"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304829"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Skipta úr QuickBooks App í Dynamics 365 Business Central
 Fleiri og fleiri vaxandi fyrirtæki eru að skipta úr fjárhagsforritum á borð við QuickBooks Desktop og QuickBooks Online, sem eru hönnuð fyrir sprotafyrirtæki og önnur lítil fyrirtæki, í [!INCLUDE[d365fin](includes/d365fin_md.md)], sem einnig styður stærri og flóknari fyrirtæki. 

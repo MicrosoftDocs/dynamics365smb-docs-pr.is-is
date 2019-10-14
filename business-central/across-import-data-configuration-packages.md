@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0d31e710c0b5d9e1dfa63c9c653b740fdcc12f11
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e4399c16c28d97c0c1c6d8826af14e1b4a48e454
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245525"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304973"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Innflutningur viðskiptagagna úr öðrum fjárhagskerfum
 Þegar notandi skráir sig í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að ákveða að búa til autt fyrirtæki svo hægt sé að hlaða upp eigin gögnum og prófa áfram nýja [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrirtækið. Það fer eftir því fjárhagskerfi sem fyrirtækið notar í dag hvernig og hvort hægt er að millifæra upplýsingar um viðskiptamenn, lánardrottna, birgðir og bankareikninga.  
@@ -62,14 +62,14 @@ Sjálfgefni grunnstillingarpakkinn styður eftirfarandi töflur:
 -   Sölulína
 -   Innkaupahaus
 -   Innkaupalína
--   Fh.færslubókarlína
+-   Almenn Færslubókarlína
 -   Birgðabókarlína
 -   Bókunarflokkur viðskm.
 -   Bókunarflokkur lánardr.
 -   Birgðabókunarflokkur
 -   Mælieining
--   Alm. viðskiptabókunarflokkur
--   Alm. vörubókunarflokkur
+-   Almenn Viðskiptabókunarflokkur
+-   Almenn Afurðarbókunarflokkur
 -   Almennur bókunargrunnur
 -   Umsjónarsvæði
 -   Vöruflokkur

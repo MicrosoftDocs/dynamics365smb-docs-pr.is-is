@@ -9,17 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a650bb8dec324e94801da828d7e967b514ae3ca1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 65d4562e133d8fa2383bd1fb5092ea001d577396
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251378"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311405"
 ---
 # <a name="create-number-series"></a>Stofnun númeraraða
 Fyrir hvert fyrirtæki sem þú setur upp þarftu að úthluta einstökum kennitölum við hluti eins og aðalbókarreikninga, viðskiptavinar- og seljanda, reikninga og önnur skjöl. Númeraröð er ekki aðeins mikilvæg fyrir auðkenningu. Vel unnið númerakerfi gerir einnig auðveldara að stýra og greina fyrirtækið og getur fækkað villum sem upp koma í gagnafærslu.
+
+> [!Important]
+> Sjálfgefið er að eyður er ekki leyfð í númeraröðum vegna þess að nákvæmlega Ferill fjárhagsfærslna verður að vera tiltækur fyrir endurskoðun, samkvæmt lögum, og því verður að fylgja óbrotinn röð með engum Eydd númer.<br /><br />
+Ef þú vilt leyfa eyður í tilteknum númeraröðum skaltu fyrst ráðfæra þig við endurskoðanda eða aðalbókara til að tryggja að þú farir eftir lagalegum skilyrðum í þínu landi/svæði. Frekari upplýsingar er að finna í [Eyður í númeraröðum](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
 >   Við mælum með að þú notir sömu númeraraða kóða eins og þú sérð skráða á síðunni **nr. Raðarlisti** í CRONUS sýnifyrirtækinu. Codes eins og *P-INV +* gætu ekki skilað þér strax, en [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur marga sjálfgefna stillingar sem eru háð þessum númeraröðakóðum.
@@ -30,6 +34,9 @@ Númerakerfi er stofnað með því að setja upp einn eða fleiri kóta fyrir h
 
 Hægt er að nota fleiri en einn númeraraðarkóta fyrir hverja tegund frumgagna með því að nota númeraraðatengsl, til dæmis til að nota mismunandi númeraraðir fyrir mismunandi vöruflokka.
 
+## <a name="gaps-in-number-series"></a>Eyður í númeraröðum
+Ekki allar færslur sem stofnaðar eru í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru fjárhagsfærslur sem þarf að nota í röð númeraraðar. Viðskiptamannaspjald, sölutilboð og vöruhúsaaðgerðir eru dæmi um færslur sem eru úthlutaðar númeri úr númeraröðum en eru ekki háðar fjárhagsendurskoðun og/eða er hægt að eyða þeim. Til slíkrar númeraraðar er hægt að velja **Leyfa eyður í númeraröðum** í gátreitnum á síðunni **Númeraröð nr.**. Frekari upplýsingar eru í [Búa til nýja númeraröð](ui-create-number-series.md#to-create-a-new-number-series).
+
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Hegðun nr. reitur á skjölum og kortum
 Á sölu-, innkaupa og flutningsskjölum og á öllum kortum, **Nr.** hægt að fylla út sjálfkrafa með númeraröð eða handvirkt og hægt er að setja það upp svo það verði ósýnilegt.
 
@@ -38,7 +45,7 @@ Hægt er að nota fleiri en einn númeraraðarkóta fyrir hverja tegund frumgagn
 1. Ef aðeins ein númeraröð fyrir gerð skjals eða korts er til staðar þar sem gátreiturinn **Sjálfgefin nr.** er valinn og gátreiturinn **Handfærð nr.röð** er ekki valinn, þá er fyllt út í reitinn sjálfkrafa fyllt með næsta númeri í röðinni, og **Nr.** reiturinn verður ekki sýnilegur.
 
     > [!NOTE]  
-    > Ef númeraröðin virkar ekki, til dæmis vegna þess að hún hefur númerin hafa klárast, þá **Nr.** reitur verður sýnilegur og þú getur handvirkt slegið inn númer eða leyst vandann á síðunni **Listi númeraraða**.
+    > Ef númeraröðin virkar ekki, til dæmis vegna þess að hún hefur númerin hafa klárast, þá **Nr.** reitur verður sýnilegur og þú getur handvirkt slegið inn númer eða leyst vandann á síðunni **Númeraraðir**.
 
 2. Ef fleiri en ein númeraröð fyrir gerð skjals eða korts eru fyrir hendi og gátreiturinn **Sjálfgefin nr.** er ekki valinn fyrir númeraröðina sem er verið að úthluta, þá **Nr.** reiturinn er sýnilegur og þú getur skoðað síðuna **Listi númeraraða** og valið númeraröðina sem þú vilt nota. Næsta númer í röðinni er síðan sett í **Nr.** .
 
@@ -53,6 +60,9 @@ Hægt er að nota fleiri en einn númeraraðarkóta fyrir hverja tegund frumgagn
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Númeraraðir** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Fyllt er í reitina í nýju línunni. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Veljið aðgerðina **Línur**.
+5. Á síðunni **Númeraraðarlínur nr.** fyllið inn reitina til að skilgreina raunnotkun og innihald númeraraðarinnar sem var stofnuð í skrefi 2.
+6. Endurtakið skref 5 fyrir sem margar mismunandi notkun á númeraröðinni sem þörf er á. Reiturinn **Upphafsdagsetning** skilgreinir svæðið sem númeraröðin er virk.
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Til að setja upp hvar númeraröð er notuð
 Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölustaðinn. Skrefin eru svipuð fyrir önnur svæði.

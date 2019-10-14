@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 24b89662ed772280da8f5f8f08677f644f75922e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240281"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309917"
 ---
 # <a name="count-inventory-using-documents"></a>Birgðatalning með skjölum
 Hægt er að gera efnislega birgðatalningu á vörunum þínum með því að nota skjöl fyrir efnislega birgðapöntun og skráningu efnislegra birgða. Síðan **Pöntun efnislegra birgða** er notuð til að skipuleggja verk ítarlegrar birgðatalningar, t.d. ein á hverja staðsetningu. Síðan **Skráning efnislegra birgða** er notuð til að koma á framfæri og sækja rauntalningu á vörum. Hægt er að búa til margar skráningar fyrir eina pöntun, t.d. til að dreifa flokkum af vörum á mismunandi starfsmenn.
@@ -94,7 +94,7 @@ Sjálfgefið er að skráning sé stofnuð fyrir allar línurnar í tengdri pön
 
 Til að sjá væntanlegt magn og allan mismun í skráningu fyrir vörur með vörurakningu, skal velja aðgerðina **Línur** og síðan velja aðgerðina **Vörurakningarlínur** til að velja ýmis yfirlit fyrir rað- og lotunúmer sem koma fyrir í efnislegri birgðatalningu.
 
-Einnig er hægt að velja aðgerðina **Mismunur efnislegrar birgðapöntunar** til að skoða mismun milli væntanlegs magns og talins magns.
+Einnig er hægt að velja aðgerðina **Mismunur efnislegrar birgðapöntunar** aðgerðina til að skoða mismun milli væntanlegs magns og talins magns.
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Að finna tvíteknar pöntunarlínur efnislegra birgða
 

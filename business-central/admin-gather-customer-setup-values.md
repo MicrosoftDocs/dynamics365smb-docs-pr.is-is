@@ -1,8 +1,6 @@
 ---
 title: Safna uppsetningargildum viðskiptamanns | Microsoft Docs
-description: Grunnstillingarspurningalisti er notaður til að draga úr álagi við innleiðingarferli með því að straumlínulaga uppsetningarferlið fyrir nýja fyrirtækið. Hægt er að útbúa uppsetningarspurningalista í Business Central og senda svo til viðskiptavinar sem Excel .xls eða XML skrá.
-services: project-madeira
-documentationcenter: ''
+description: Grunnstillingarspurningalisti er notaður til að draga úr álagi við innleiðingarferli með því að straumlínulaga uppsetningarferlið fyrir nýja fyrirtækið. Hægt er að útbúa grunnstillingarspurningalista í Business Central og senda svo til viðskiptavinar sem Excel (.xlsx) eða XML-skrá.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245573"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304637"
 ---
 # <a name="gather-customer-setup-values"></a>Safna uppsetningargildum viðskiptamanns
 Grunnstillingarspurningalisti er notaður til að draga úr álagi við innleiðingarferli með því að straumlínulaga uppsetningarferlið fyrir nýja fyrirtækið. Hægt er að útbúa grunnstillingarspurningalista í [!INCLUDE[d365fin](includes/d365fin_md.md)] og senda svo til viðskiptavinar sem Excel .xls-skrá eða XML-skrá.  
@@ -75,7 +73,7 @@ Grunnstillingarspurningalistinn er notaður til að móta og skrá nákvæma umr
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarspurningalistinn** og veldu tengda tengilinn.  
 3. Veldu spurningalistann fyrir fyrirtækið og veldu síðan aðgerðina **Flytja út í Excel**, mögulega aðgerðina **Flytja út í XML**.
 4. Fáðu viðskiptavininn til að ljúka við grunnstillingarspurningalistann með því að færa svörin inn í Excel-vinnubókina. Til eru vinnublöð fyrir hvert spurningasvæði sem búið var til fyrir spurningalistann.   
-5. Veldu aðgerðina **Flytja inn úr Excel** og veldu .xlsx-skrána með svörum viðskiptavinarins.  
+5. Vistaðu Excel-vinnubókina sem *XML Data*. Veldu aðgerðina **Flytja inn úr XML** og veldu .xml-skrána með svörum viðskiptavinarins.
 6. Veldu aðgerðina **Spurningasvæði** til að hefja ferli villuleitar og bæta svörunum við grunnstillingarspurningalistann.  
 
 ## <a name="to-complete-a-questionnaire-from-the-configuration-worksheet"></a>Til að ljúka spurningalista úr grunstillingarvinnublaðinu  

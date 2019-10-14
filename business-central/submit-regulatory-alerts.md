@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: d4ceef0780306015795c0a2406245514c2a26de5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 482c0e9f7fe0fa787ab9d3e45f22abd07d009b3e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250320"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315709"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sendu inn viðvaranir um eftirlitseiginleika sem miðast við tiltekið land/svæði
 
@@ -21,13 +21,21 @@ Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Innsending lögboðinnar viðvörunar í LCS
 
-1. Farðu í https://lcs.dynamics.com og skráðu þig inn. Þú færð að sjá verkin sem þú hefur aðgang að
+1. Opnaðu https://lcs.dynamics.com og skráðu þig inn  
 
-2. Veldu verkið **Lögboðnar viðvaranir - um allan heim**. Þetta opnar verkið og sýnir ýmislegt sem tengist þessu verki
+    Þú sérð verkin sem þú hefur aðgang að
 
-3. Veldu **Viðvörunarþjónusta** hægra megin í hlutanum **Fleiri verkfæri**. Þar sérðu lista yfir viðvaranir með fyrirsögninni **Innsending á lögboðnum viðvörunum Dynamics**
+2. Veldu verkið **Lögboðnar viðvaranir - um allan heim**
 
-4. Þú getur bætt við nýrri viðvörun með því að smella á plústáknið **(+)** sem er efst á listanum. Þá birtast þér leiðbeiningar í fjórum skrefum um hvernig skuli búa til viðvörun. Leiðbeiningin samanstendur af eftirfarandi skrefum:
+    Þetta mun opna verkið og sýna ýmsa hluti sem tengjast þessu verki
+
+3. Veldu **Viðvörunarþjónusta** á hægri hlið í **fleiri verkfærum** hluta
+
+    Þú munt sjá lista yfir viðvaranir með fyrirsögninni **Senda inn lögboðna viðvörun í Dynamics**
+
+4. Hægt er að bæta við nýrri viðvörun með því að smella á plúsmerkið **(+)** efst á listanum
+
+    Þá birtist 4-þrepa leiðarvísir til að stofna viðvörunina. Leiðbeiningin samanstendur af eftirfarandi skrefum:
     - Leita að fyrirliggjandi vörum
 
         Leitaðu að upplýsingum sem þú telur að skipti máli fyrir viðvörunina sem þú ætlar að búa til. Ef þú finnur ekki viðeigandi leitarniðurstöður geturðu valið hnappinn **Senda inn lögboðna viðvörun** neðst á síðunni til að halda áfram með innsendingu á viðvörun.
@@ -44,7 +52,7 @@ Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að
         |Description  | Færðu inn stutta samantekt á lögunum. Lýsingin ætti að vera um vandamál sem tengjast skipulagsáætlun fyrirtækisins (ERP) svo notandinn geti almennilega skilið kröfurnar án þess að þurfa að lesa reglugerðina fyrst.|
         |Land  | Tilgreindu landið eða svæðið sem reglugerðin nær yfir.|
         |Iðnaður| Tilgreindu atvinnugreinina ef krafan á aðeins við um tilteknar atvinnugreinar. Veldu til dæmis **Opinberi geirinn**, **Smásala** eða **Framleiðsla**.|
-        |Tilvísun eiginleika  | Þetta skiptir ekki máli fyrir Dynamics 365 Business Central, en þú getur slegið inn tilvísun eiginleika ef þú þekkir hana. Listi yfir eiginleika fyrir tiltekið land er hægt að finna í [Staðfærslugátt](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
+        |Tilvísun eiginleika  | Þetta skiptir ekki máli fyrir Dynamics 365 Business Central, en þú getur slegið inn tilvísun eiginleika ef þú þekkir hana. Lista yfir eiginleika fyrir tiltekna landið er að finna í [Staðfærslugáttinni](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) á CustomerSource vefsvæðinu. |
         |Dagsetning þegar lög taka gildi  | Tilgreindu dagsetninguna þegar viðskiptavinir verða að fylgja lögunum.|
         |Dagsetning tilkynningar frá yfirvöldum  | Tilgreindu dagsetningu þegar yfirvöld tilkynntu breytinguna.|
         |Síðasta innlagningardagsetning  | Veldu tímamörk fyrir fyrstu innsendingu á nýju eða breyttu skýrslunni.|
@@ -66,7 +74,9 @@ Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Velkomin(n) í Business Central](index.md)  
+[Staðbundin virkni í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Breyta tungumáli og landsstaðli](about-locale-language.md)  
 [Hafist handa](product-get-started.md)  
+[Velkomin(n) í Business Central](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

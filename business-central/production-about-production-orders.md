@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b02aa262089d5c341fb3b535f2af82c7085e99ee
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6a99066c784a6526bf06c816431b912b1db73f06
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252965"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313433"
 ---
 # <a name="about-production-orders"></a>Um framleiðslupantanir
 Framleiðslupantanir eru notaðar til að sjá um umbreytingu keypts efnis yfir í framleiddar vörur. Framleiðslupantanir leiða verk í gegnum ýmsar vinnu- eða vélastöðvar í vinnusalnum.  
 
 Áður en haldið er áfram með framleiðslu framkvæma flesti fyrirtæki framboðsáætlun, vanalega einu sinni í viku, til að reikna út hversu margar framleiðslupantanir og innkaupapantanir eigi að framkvæma til að uppfylla sölueftirspurn þeirrar viku. Innkaupapantanir uppfylla íhlutina sem eru nauðsynlegir samkvæmt framleiðsluuppskriftinni til að framleiða endanlegar vörur.
 
-Framleiðslupantanir eru lykilhlutar framleiðsluvirkni kerfisins og þær innihalda eftirfarandi upplýsingar:  
+Framleiðslupantanir eru lykilhlutar framleiðsluvirkni forritsins og þær innihalda eftirfarandi upplýsingar:  
 
 -   Vörur sem áætlað er að framleiða  
 -   Efni sem nauðsynlegt er fyrir áætlaðar framleiðslupantanir.  
@@ -63,7 +63,7 @@ Frekari upplýsingar eru í [Rekja tengsl á milli framboðs og eftirspurnar](pr
 Framleiðslupantanir sem eru stofnaðar eftir öðrum leiðum eru ekki sjálfkrafa teknar frá og raktar.   
 
 ## <a name="production-order-status"></a>Staða framleiðslupöntunar  
-Staða framleiðslupöntunar stýrir því hvernig framleiðslupöntunin hagar sér innan kerfisins. Form og innihald framleiðslunnar ráðast af stöðu pöntunarinnar. Framleiðslupantanirnar eru birtar á ólíkum síðum eftir því hver staða þeirra er. Ekki er hægt að breyta stöðu framleiðslupöntunar handvirkt; nota þarf aðgerðina **Breyta stöðu**.  
+Staða framleiðslupöntunar stýrir því hvernig framleiðslupöntunin hagar sér innan forritsins. Form og innihald framleiðslunnar ráðast af stöðu pöntunarinnar. Framleiðslupantanirnar eru birtar á ólíkum síðum eftir því hver staða þeirra er. Ekki er hægt að breyta stöðu framleiðslupöntunar handvirkt; nota þarf aðgerðina **Breyta stöðu**.  
 
 ### <a name="simulated-production-order"></a>Hermd framleiðslupöntun  
 Hermda framleiðslupöntunin er einstök hvað varðar eftirfarandi eiginleika:  
@@ -115,9 +115,9 @@ Fullunna framleiðslupöntunin er einstök hvað varðar eftirfarandi eiginleika
 Hægt er að færa þessar upplýsingar handvirkt inn eða í gegnum sjálfvirka skýrslugerð, samkvæmt vörunum sem uppsettar eru í reitnum Birgðaskráningaaðferð.  
 
 ### <a name="material-consumption"></a>Efnisnotkun  
-Kerfið býður framleiðslufyrirtæki upp á marga valkosti til að færa inn efnisnotkun. Til dæmis er hægt að skrá efnisnotkun handvirkt, sem gæti hentað ef stöðugt er verið að skipta um íhluti eða ef meira er af úrtaki en búist var við.  
+Forritið býður framleiðslufyrirtæki upp á marga valkosti til að færa inn efnisnotkun. Til dæmis er hægt að skrá efnisnotkun handvirkt, sem gæti hentað ef stöðugt er verið að skipta um íhluti eða ef meira er af úrtaki en búist var við.  
 
-Hægt er að vinna efnisnotkun í gegnum Notkunarbókina en einnig er hægt að skrá hana sjálfvirkt í kerfinu, það heitir sjálfvirk skýrslugerð. Skýrslugerðaraðferðirnar eru:  
+Hægt er að vinna efnisnotkun í gegnum Notkunarbókina en einnig er hægt að skrá hana sjálfvirkt í forritinu, það heitir sjálfvirk skýrslugerð. Skýrslugerðaraðferðirnar eru:  
 
 -   Handvirkt  
 -   Framvirk  
@@ -143,7 +143,7 @@ Kosturinn við sjálfvirka birgðaskráningu er að hún dregur mjög úr gagnaf
 - Bakskráning allrar pöntunarinnar  
 
 #### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Sjálfvirk skýrslugerð - Framvirk birgðaskráning allrar pöntunarinnar  
-Ef framleiðslupöntunin er birgðaskráð framvirkt í upphafi verksins er hegðun kerfisins mjög svipuð handvirkri notkun. Meginmunurinn er sá að notkunin gerist sjálfvirkt.  
+Ef framleiðslupöntunin er birgðaskráð framvirkt í upphafi verksins er hegðun forritið mjög svipuð handvirkri notkun. Meginmunurinn er sá að notkunin gerist sjálfvirkt.  
 
 - Allt innihald framleiðsluuppskriftarinnar er notað og dregið af birgðaskrá á þeirri stundu sem útgefna framleiðslupöntunin er endurnýjuð.  
 - Notkunarmagnið er magnið við hverja samsetningu sem tekið er fram á framleiðsluuppskriftinni, margfaldað með fjölda þeirra yfirvara sem verið er að byggja.  
@@ -185,9 +185,9 @@ Engir íhlutir eru valdir þar til stöðu útgefnu framleiðslupöntunarinnar e
 Afturvirk birgðaskráning á allri framleiðslupöntuninni krefst sömu uppsetningar og fyrir framvirka söfnun: Skýrslugerðaraðferðin þarf að vera stillt á afturvirkt á hverju birgðaspjaldi til þess að allar vörur innan yfiruppskriftarinnar verði skráðar. Þar að auki þarf að fjarlægja alla leiðartengilskóta úr framleiðsluuppskriftinni.  
 
 ### <a name="production-output"></a>Framleiðslufrálag  
-Kerfið veitir þann möguleika að rekja það hversu miklum tíma er eytt í að vinna með framleiðslupöntun, og að skrá magn þess sem er framleitt. Þessar upplýsingar geta hjálpað þér við að meta á nákvæmari hátt kostnað framleiðslunnar. Framleiðendur sem nota staðlað kerfi við útreikning kostnaðar gætu líka viljað skrá raunverulegar upplýsingar til að gera sér kleift að þróa betri staðla.  
+Forritið veitir þann möguleika að rekja það hversu miklum tíma er eytt í að vinna með framleiðslupöntun, og að skrá magn þess sem er framleitt. Þessar upplýsingar geta hjálpað þér við að meta á nákvæmari hátt kostnað framleiðslunnar. Framleiðendur sem nota staðlað kerfi við útreikning kostnaðar gætu líka viljað skrá raunverulegar upplýsingar til að gera sér kleift að þróa betri staðla.  
 
-Hægt er að vinna frálag í gegnum Frálagsbókina en kerfið getur líka skráð það sjálfvirkt. Kerfið afritar birgðaskráningaraðferðina frá spjaldi Vélastöðvarinnar eða Vinnustöðvarinnar yfir á Framleiðslupöntunarleiðina þegar það endurnýjar. Eins og með efnisnotkun eru þrjár skýrslugerðaraðferðir fyrir frálag:  
+Hægt er að vinna frálag í gegnum Frálagsbókina en forritið getur líka skráð það sjálfvirkt. Forritið afritar birgðaskráningaraðferðina frá spjaldi Vélastöðvarinnar eða Vinnustöðvarinnar yfir á Framleiðslupöntunarleiðina þegar það endurnýjar. Eins og með efnisnotkun eru þrjár skýrslugerðaraðferðir fyrir frálag:  
 
 - Handvirk  
 - Framvirk  

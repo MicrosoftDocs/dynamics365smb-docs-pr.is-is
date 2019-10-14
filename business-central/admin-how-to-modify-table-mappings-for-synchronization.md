@@ -1,6 +1,6 @@
 ---
 title: Breyta töfluvörpunum fyrir samstillingu | Microsoft Docs
-description: Kynntu þér hvernig á að breyta töfluvörpunum sem eru notaðar þegar gögn eru samstillt milli Business Central og Dynamics 365 for Sales.
+description: Kynntu þér hvernig á að breyta töfluvörpunum sem eru notaðar þegar gögn eru samstillt milli Business Central og Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540201"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308075"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Breyta töfluvörpunum fyrir samstillingu
 Vörpun samþættingartöflu tengir töflu í [!INCLUDE[d365fin](includes/d365fin_md.md)] við samþættingartöflu fyrir eininguna [!INCLUDE[crm_md](includes/crm_md.md)]. Fyrir hverja einingu í [!INCLUDE[crm_md](includes/crm_md.md)] sem á að samstilla við samsvarandi gögn í [!INCLUDE[d365fin](includes/d365fin_md.md)]], verður að vera samsvarandi vörpun samþættingartöflu. Vörpun samþættingartöflu felur í sér nokkrar stillingar sem gera kleift að stjórna hvernig færslur í [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflu og [!INCLUDE[crm_md](includes/crm_md.md)]-einingu eru samstilltar af samsvarandi heildarsamþættingarverkum.  
@@ -33,7 +33,7 @@ Vörpun samþættingartöflu tengir töflu í [!INCLUDE[d365fin](includes/d365fi
 ## <a name="creating-new-records"></a>Nýjar færslur stofnaðar  
  Sjálfgefið eru aðeins skrár í [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] sem eru tengdar samstilltar eftir heildarsamstillingarverk. Hægt er að setja upp töfluvarpanir til að nýjar færslur verði stofnaðar á áfangastaðnum (t.d., [!INCLUDE[d365fin](includes/d365fin_md.md)]) fyrir hverja nýja færslu í upprunanum (t.d., [!INCLUDE[crm_md](includes/crm_md.md)]) sem ekki er þegar tengd.  
 
- Til dæmis notar samstillingarverkið SÖLUFÓLK – Dynamics 365 for Sales samstillingarverk fyrir Dynamics CRM töfluvörpunina SÖLUFÓLK. Samstillingarverkið afritar gögn úr notendafærslum í [!INCLUDE[crm_md](includes/crm_md.md)] yfir í sölufólksfærslur í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef töfluvörpun er sett upp til að stofna nýjar færslur er, fyrir hvern nýjan notanda í [!INCLUDE[crm_md](includes/crm_md.md)] sem er ekki þegar tengdur við sölumann í [!INCLUDE[d365fin](includes/d365fin_md.md)], stofnuð ný sölumannsfærsla í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Til dæmis notar samstillingarverkið SÖLUFÓLK – Dynamics 365 Sales samstillingarverk töfluvörpunina SÖLUFÓLK. Samstillingarverkið afritar gögn úr notendafærslum í [!INCLUDE[crm_md](includes/crm_md.md)] yfir í sölufólksfærslur í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef töfluvörpun er sett upp til að stofna nýjar færslur er, fyrir hvern nýjan notanda í [!INCLUDE[crm_md](includes/crm_md.md)] sem er ekki þegar tengdur við sölumann í [!INCLUDE[d365fin](includes/d365fin_md.md)], stofnuð ný sölumannsfærsla í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Til að stofna nýjar færslur við samstillingu  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Varpanir samþættingartöflu** og veldu síðan viðeigandi tengil.
@@ -59,6 +59,6 @@ Ef sett er upp sjálfgefinn samstillingargrunnur verða skilgreiningarsniðmáti
 3.  Stilla skal reitinn **Sniðmátskóði fyrir innri skilgreiningartöflu** á skilgreiningarsniðmátið til að nota fyrir nýjar færslur í [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="see-also"></a>Sjá einnig  
-[Um samstillingu Dynamics 365 Business Central við Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
-[Sérstilling Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
+[Um samþættingu Dynamics 365 Business Central við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
+[Samstilling Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  

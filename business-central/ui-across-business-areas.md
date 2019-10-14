@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 786b56fb247cc57062dfe98c29dce446dd77ccda
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921408"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315685"
 ---
 # <a name="general-business-functionality"></a>Almenn viðskiptavirkni
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tilteknar aðgerðir fyrir dæmigerð rekstrarsvið, s.s. fjármálasvið og sölur. Frekari upplýsingar eru í [Viðskiptavirkni](across-business-functionality.md).
@@ -37,11 +37,11 @@ Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að 
 |Safnvista sölu- og innkaupapantanir, tilboð, skilapantanir og standandi pantanir og þú notar skráða skjalið til að endurskapa skjalið sem það var safnvistað frá.|[Safnvista skjöl](across-how-to-archive-documents.md)|
 | Setja upp kóta fyrir staðaltexta svo hægt sé að lengja staðlaðan texta með því að bæta við línum og setja skilyrði fyrir notkun viðbótarlínanna. |[Bæta við lengdum vörutexta](ui-how-define-ext-text.md) |
 |Stofna verk til að minna þig á hvað þarf að gera. Þú getur búið til verkefni fyrir þig, en þú getur einnig úthlutað verkefnum til annarra eða fengið verkefni frá öðrum í fyrirtækinu þínu.|[Skilgreina verk notanda](across-user-tasks.md)|
-|Hengja myndir, skjöl og aðrar tegundir af skrám við öll kort, svo sem hlutakort og vinnukort, og hengja skrár við allar tegundir af sölu- og innkaupskjölum.|[Hengja skrár við kort og skjöl](across-attach-document-master-data.md)|
 |Vinna með gögn Business Central í Excel.|[Flutningur viðskiptagagna í Excel](about-export-data.md)|
-|Skildu hvað gerist þegar þú velur aðgerðina **Bóka**.|[Að bóka skjöl og færslubækur](ui-post-documents-journals.md)|
+|Skildu hvað gerist þegar þú velur aðgerðina **Bóka**.|[Bókun skjala og færslubóka](ui-post-documents-journals.md)|
+|Bókið margar sölur eða innkaupaskjöl saman, strax eða eins og áætlað var.|[Bóka mörg skjöl á sama tíma](ui-batch-posting.md)|  
 |Yfirfara niðurstöður bókunar áður en bókað er.|[Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md)|
-|Breyta völdum reitum fyrir bókuð sölu- eða innkaupaskjöl.|[Breyta bókuðum skjölum](across-edit-posted-document.md)| 
+|Breyta völdum reitum fyrir bókuð sölu- eða innkaupaskjöl.|[Breyta bókuðum skjölum](across-edit-posted-document.md)|
 |Lærðu að vinna með Færslubækur, sem eru notaðar til að bóka fjárhagsreikninga og aðra reikninga, svo sem banka-, viðskiptamanna-, lánardrottna- og eignareikninga. |[Vinna í færslubókum](ui-work-general-journals.md) |
 | tímasetja skýrslu þannig að hún keyri á tilteknum degi og tíma. |[Tímasetja keyrslu skýrslu](ui-work-report.md#ScheduleReport) |
 |Leyfðu kerfinu að hjálpa þér að ljúka verkum hraðar og réttar með því að forfylla í reiti eða klára línur með gögnum sem þú myndir annars þurfa að reikna og færa inn á eigin spýtur.|[Að láta Business Central leggja til gildi](ui-let-system-suggest-values.md)|

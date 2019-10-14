@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8daa5d57ed2f12daf3f3eef3572b2f7dbd39d92c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f27bb652009c740066dfa0ef3659bb9e53cfb0e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243412"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307349"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Kóðaeining 12 Breytingar: Breytingar á bókunaraðferðum í færslubók
 Eftirfarandi breytingar hafa verið settar í þessa útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -139,19 +139,19 @@ Eftirfarandi breytingar hafa verið settar í þessa útgáfu af [!INCLUDE[d365f
 |CheckCalcPmtDiscCVVend||Fært í Codeunit 426 Stjórnun greiðsluvikmarka|  
 |CheckCalcPmtDiscVend||Fært í Codeunit 426 Stjórnun greiðsluvikmarka|  
 |CheckCalcPmtDiscGenJnlVend||Fært í Codeunit 426 Stjórnun greiðsluvikmarka|  
-|Reverse|Reverse|Fært í Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ReverseCustLedgEntry|ReverseCustLedgEntry|Fært í Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ReverseVendLedgEntry|ReverseVendLedgEntry|Fært í Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Fært í Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ReverseVAT|ReverseVAT|Fært í Codeunit 17 Gen. Jnl.-Post Reverse|  
-|SetReversalDescription|SetReversalDescription|Fært í Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Fært í Codeunit 17 Gen. Jnl.-Post Reverse|  
-|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Fært í Codeunit 17 Gen. Jnl.-Post Reverse|  
-|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Fært í Codeunit 17 Gen. Jnl.-Post Reverse|  
-||CheckDimComb|Bætt í Codeunit 17 Gen. Jnl.-Post Reverse|  
-||CopyCustLedgEntry|Bætt í Codeunit 17 Gen. Jnl.-Post Reverse|  
-||CopyVendLedgEntry|Bætt í Codeunit 17 Gen. Jnl.-Post Reverse|  
-||CopyBankAccLedgEntry|Bætt í Codeunit 17 Gen. Jnl.-Post Reverse|  
+|Reverse|Reverse|Fært í Codeunit 17 færslubók bóka bakfærslur|  
+|ReverseCustLedgEntry|ReverseCustLedgEntry|Fært í Codeunit 17 færslubók bóka bakfærslur|  
+|ReverseVendLedgEntry|ReverseVendLedgEntry|Fært í Codeunit 17 færslubók bóka bakfærslur|  
+|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Fært í Codeunit 17 færslubók bóka bakfærslur|  
+|ReverseVAT|ReverseVAT|Fært í Codeunit 17 færslubók bóka bakfærslur|  
+|SetReversalDescription|SetReversalDescription|Fært í Codeunit 17 færslubók bóka bakfærslur|  
+|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Fært í Codeunit 17 færslubók bóka bakfærslur|  
+|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Fært í Codeunit 17 færslubók bóka bakfærslur|  
+|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Fært í Codeunit 17 færslubók bóka bakfærslur|  
+||CheckDimComb|Bætt í Codeunit 17 færslubók bóka bakfærslur|  
+||CopyCustLedgEntry|Bætt í Codeunit 17 færslubók bóka bakfærslur|  
+||CopyVendLedgEntry|Bætt í Codeunit 17 færslubók bóka bakfærslur|  
+||CopyBankAccLedgEntry|Bætt í Codeunit 17 færslubók bóka bakfærslur|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Uppfært|  
 |CollectAddjustment|CollectAdjustment|Uppfært|  
 |SetOverDimErr|SetOverDimErr|Uppfært|  
@@ -163,7 +163,7 @@ Eftirfarandi breytingar hafa verið settar í þessa útgáfu af [!INCLUDE[d365f
 |GetApplnRoundPrecision|GetApplnRoundPrecision|Uppfært|  
 |CheckDimValueForDisposal|CheckDimValueForDisposal|Uppfært|  
 |CalculateCurrentBalance|CalculateCurrentBalance|Uppfært|  
-|IncludeVATAmount||Fært í töflu 81 Almenn færslubókarlína|  
+|IncludeVATAmount||Fært í töflu 81 Almenn Færslubókarlína|  
 |CalcVATAmountFromVATEntry|CalcVATAmountFromVATEntry|Uppfært|  
 ||TotalVATAmountOnJnlLines|Bætt við|  
 ||SetGLRegReverse|Bætt við|  

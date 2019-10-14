@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e7bf29f6412c895ca1454ca007951b03a98669b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 49e67bbdcf67b750f0de0d0c890df00281e381e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248986"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310373"
 ---
 # <a name="cross-dock-items"></a>Hjáskipa vörur
 Hjáskipunaraðgerðin er tiltæk ef birgðageymslan hefur verið sett upp þannig að hún krefjist vöruhúsamóttöku-og frágangsvinnslu.  
@@ -34,7 +34,7 @@ Hafi reiturinn **Nota vinnublað frágangs** á birgðageymsluspjaldinu verið v
 
 Ef vöruhúsamóttakan er bókuð og reiturinn **Nota vinnublað frágangs** er ekki valinn birtast vörurnar sem á að hjáskipa á sérstökum línum á frágangsleiðbeiningunum. Reiturinn **Hjáskipunarupplýsingar** sem birtist í hverri frágangslínu sýnir hvort línan innihaldi hjáskipunarvörur, vörur úr sömu móttöku sem allar þarf að geyma eða vörur sem þarf að geyma sem koma úr móttökulínu þar sem hjáskipa á sumum varanna. Með þessum reit geta starfsmenn séð af hverju allt móttekna magnið fer ekki í geymslu.  
 
-Kerfið heldur ekki sérstakar færslur fyrir vörur sem hefur verið hjáskipað heldur skráir þær sem venjulegar frágangsleiðbeineiningar.  
+Forritið heldur ekki sérstakar færslur fyrir vörur sem hefur verið hjáskipað heldur skráir þær sem venjulegar frágangsleiðbeineiningar.  
 
 ## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Vöruhúsið sett upp fyrir hjáskipun  
 1.  Setja skal upp minnst eitt hjáskipunarhólf ef hólf eru notuð. Setja skal upp hjáskipunarsvæði ef notaður er beinn frágangur og tínsla.  
@@ -96,7 +96,7 @@ Ef hólf eru notuð er hægt að sjá uppfærða útreikninga á magni hverrar v
 
 Fyrst þarf að leita að vörum á hjáskipunarsvæðinu þegar vörur eru tíndar fyrir afhendingu. Hafi upprunaskjölin sem hjáskipun var byggð á verið skrifuð niður meðan á móttöku stóð hefur notandinn betri hugmynd um það hvort vöruna er að finna á hjáskipunarsvæðinu eða ekki.  
 
-Þegar framleiðslupöntun hefur verið gefin út eru línurnar tiltækar á vinnublaði tínslunnar og í reitnum  **Magn í hjáskipunarhólfi** sést hvort vörurnar sem beðið er eftir hafi borist og þær verið settar í hjáskipunarhólf. Þegar tínsluleiðbeiningar eru stofnaðar er lagt til að fyrst séu hjáskipunarvörur tíndar og aðeins eftir það verður leitað að vörum í geymsluhólfum.  
+Þegar framleiðslupöntun hefur verið gefin út eru línurnar tiltækar á vinnublaði tínslunnar og í reitnum **Magn í hjáskipunarhólfi** sést hvort vörurnar sem beðið er eftir hafi borist og þær verið settar í hjáskipunarhólf. Þegar tínsluleiðbeiningar eru stofnaðar leggur forritið til að fyrst séu hjáskipunarvörur tíndar og aðeins eftir það verður leitað að vörum í geymsluhólfum.  
 
 Ef hólf eru ekki notuð skal hafa hugfast að athuga hjáskipunarsvæðið annað veifið eða treysta á tilkynningar frá móttöku um það að vörur fyrir framleiðsluna hafi borist.  
 

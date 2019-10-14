@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 05/20/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c326b280e6539da69831fd4f9610540f1a1e139e
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: c0f39204777c551eb72af1f1556dcc72d82fff2c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594128"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310973"
 ---
 # <a name="send-documents-by-email"></a>Senda skjöl í tölvupósti
 Hægt er að nota aðgerðina Uppsetning skýrslu til að miðla efni fyrir sértæk viðskiptaskjöl sem fer sjálfkrafa inn í tölvupóst til að gefa upplýsingar um innihald viðskiptaskjala hratt og vel til viðskiptafélaga þinna. Frekari upplýsingar, sjá [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md).

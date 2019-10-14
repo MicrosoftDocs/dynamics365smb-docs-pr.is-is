@@ -3,21 +3,21 @@ title: Sérsniðið og innbyggt útlit fyrir skýrslur og skjöl | Microsoft Doc
 description: Nota útlitssnið skýrslu til að sérstilla skjöl, til dæmis að hafa persónulega leturgerð, lógó og síðustillingar PDF skjala sem þú sendir til viðskiptamanna.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 05/22/2019
-ms.author: solsen
-ms.openlocfilehash: e00ca327748ac84dc39e5de73c4bcaae97f26105
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594288"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315157"
 ---
 # <a name="managing-report-and-document-layouts"></a>Stjórna útliti skýrslna og skjala
 Útlit skýrslu stjórnar efni og sniði skýrslunnar, þ.m.t. hvaða gagnareitir gagnasafn skýrslu birtast í henni, stöðu þeirra, textastíl, myndir og meira. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að breyta því hvaða útlit er notað í skýrslu, búa til nýtt útlit eða breyta fyrirliggjandi útliti.
@@ -56,7 +56,7 @@ Almenna hönnunin fyrir Word og RDLC-útlit eru mjög svipaðar. Hins vegar er h
 
 Ferlið til að setja upp Word-skýrsluútlit og RDLC-skýrsluútlit á skýrslum er það sama. Helsti munurinn liggur í því hvernig útlitinu er breytt. Yfirleitt er auðveldara að búa til og breyta Word-skýrsluútliti en RDLC-útliti þar sem hægt er að nota Word. RDLC-skýrsluútlitum er breytt með SQL Server Report Builder sem ætlað er reyndari notendum.
 
-Fyrir upplýsingar um hvernig eigi að breyta útliti, sjá [Breyta því hvaða útlit er notað á skýrslum](ui-how-change-layout-currently-used-report.md).
+Upplýsingar um hvernig á að breyta því hvaða útlit er notað eru í [Breyta núverandi skýrsluútliti](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppfæra skýrsluútlit eða skjalaútlit](ui-update-report-layouts.md)  
@@ -64,4 +64,4 @@ Fyrir upplýsingar um hvernig eigi að breyta útliti, sjá [Breyta því hvaða
 [Búa til og breyta sérsniðnu skýrslu- eða skjalaútliti](ui-how-create-custom-report-layout.md)  
 [Flytja inn og út sérsniðið skýrsluútlit eða skjalaútlit](ui-how-import-and-export-report-layout.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
-[Unnið með skýrslur og runuvinnslur](ui-work-report.md)  
+[Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  

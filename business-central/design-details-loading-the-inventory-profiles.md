@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 09f74e83bdc467378144f586dd3a33a0fc1ba213
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a87250d836739eb3b01cc88a1b2bf3116396ccd0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242170"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303173"
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Hönnunarupplýsingar: hleðsla birgðaforstillinga
 Til að raða út margar uppsprettur eftirspurn og framboð, áætlanagerð kerfi skipuleggur þá á tveggja tíma línur kallast skrá snið.  
@@ -42,10 +42,10 @@ Til að raða út margar uppsprettur eftirspurn og framboð, áætlanagerð kerf
 ## <a name="item-dimensions-are-separated"></a>Vöruvíddir eru aðskildar.  
  Reikna verður út birgðaáætlunina út frá samsetningu vöruvídda, s.s. afbrigðis og staðsetningu. Hins vegar er engin ástæða til að reikna út fræðilega samsetningu. Aðeins þarf að reikna þær samsetningar sem bera eftirspurn og/eða framboð.  
 
- Áætlanakerfið stjórnar þessu með því að fara yfir alla forstillingu birgða. Þegar ný samsetning er fundin skapar kerfið innra eftirlitsskrá sem geymir raunveruleg samsetningarupplýsingar. Forritið setur birgðahaldseininguna inn sem stjórnunarfærslu eða sem ytri snigil. Niðurstaðan er að réttar áætlunarfæribreytur samkvæmt samsetningu afbrigðis og birgðageymslu eru valdar og forritið getur haldið áfram að innri lykkju.  
+ Áætlanakerfið stjórnar þessu með því að fara yfir alla forstillingu birgða. Þegar ný samsetning er fundin skapar forritið innra eftirlitsskrá sem geymir raunveruleg samsetningarupplýsingar. Forritið setur birgðahaldseininguna inn sem stjórnunarfærslu eða sem ytri snigil. Niðurstaðan er að réttar áætlunarfæribreytur samkvæmt samsetningu afbrigðis og birgðageymslu eru valdar og forritið getur haldið áfram að innri lykkju.  
 
 > [!NOTE]  
->  Forritið krefst þess ekki að notandi færi inn birgðahaldseiningarfærslu þegar færð er inn eftirspurn og/eða framboð fyrir tiltekna samsetningu afbrigðis og staðsetningar. Því, ef birgðahaldseining er ekki til fyrir tiltekna samsetningu, stofnar forritið tímabundna birgðahaldseiningarfærslu byggða á gögnum birgðaspjaldsins. Ef Birgðageymsla áskilin er stillt á Já á síðunni Birgðagrunnur verður annaðhvort að stofna birgðahaldseiningu eða stilla Íhlutir á staðnum á Já. Frekari upplýsingar, sjá [Hönnunarupplýsingar: Eftirspurn í autt birgðageymsla](design-details-demand-at-blank-location.md).  
+>  Forritið krefst þess ekki að notandi færi inn birgðahaldseiningarfærslu þegar færð er inn eftirspurn og/eða framboð fyrir tiltekna samsetningu afbrigðis og staðsetningar. Ef birgðahaldseining er ekki til fyrir tiltekna samsetningu stofnar forritið því tímabundna birgðahaldseiningarfærslu byggða á gögnum birgðaspjaldsins. Ef Birgðageymsla áskilin er stillt á Já á síðunni Birgðagrunnur verður annaðhvort að stofna birgðahaldseiningu eða stilla Íhlutir á staðnum á Já. Frekari upplýsingar, sjá [Hönnunarupplýsingar: Eftirspurn í autt birgðageymsla](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Raðnúmer-lotunúmer eru hlaðinn með lýsingarstigi  
  Eigindum í formi rað-/lotunúmers er hlaðið inn í birgðasnið ásamt eftirspurn og framboði sem þau eru úthlutuð á.  

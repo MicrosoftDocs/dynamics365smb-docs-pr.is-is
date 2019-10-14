@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3fabec129de3e59eff30f70d1084e3969fa9ddc
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921362"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310697"
 ---
 # <a name="posting-documents-and-journals"></a>Að bóka skjöl og færslubækur
 Bókun táknar reikningsaðgerðina að skrá viðskiptafærslur í hinar ýmsu höfuðbækur fyrirtækisins.
@@ -29,6 +29,7 @@ Eftirfarandi tafla lýsir skyldum verkum, með tenglum í efnisatriði þar sem 
 | --- | --- |
 | Fræðast um bókun innkaupaskjala. |[Bókun innkaupa](ui-post-purchases.md) |
 | Fræðast um bókun söluskjala. |[Sölubókun](ui-post-sales.md) |
+| Bókið margar sölur eða innkaupaskjöl saman, strax eða eins og áætlað var.|[Bóka mörg skjöl á sama tíma](ui-batch-posting.md)|
 | Fræðast um bókun færslubóka. |[Vinna í færslubókum](ui-work-general-journals.md) |
 | Forskoða, á síðu, færslurnar sem verða stofnaðar þegar þú bókar. |[Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md) |
 | Í skýrslu er hægt að forskoða færslur sem verða stofnaðar þegar bókað er. |[Skoða prufuskýrslur fyrir bókun](ui-how-view-test-reports-posting.md) |

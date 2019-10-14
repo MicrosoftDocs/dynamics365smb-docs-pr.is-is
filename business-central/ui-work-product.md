@@ -2,22 +2,22 @@
 title: Vinna með almenna virkni í Business Central | Microsoft Docs
 description: Lýsir þeirri almennu virkni sem þú notar til að vinna með gögn í Business Central, eins og t.d. að færa inn gildi, raða gögnum og breyta yfirliti.
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: be056212ecfd610cbd7753a6ffc9babb08100359
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 81ba616c55b364843a718e9b000bfee02a513ad1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249739"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310637"
 ---
-# <a name="working-with-included365finincludesd365finmdmd"></a>Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="working-with-included365finincludesd365fin_mdmd"></a>Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Þegar viðskiptaverk eru unnin er vinna með gögn margvísleg: stofna færslur, slá inn gögn, raða og afmarka gögn, skrifa athugasemdir, auk úttöku gagna í önnur forrit.
 
 Til dæmis er hægt að leiðrétta stærð og stöðu hvaða síðu sem er, víkka dálka og hækka dálkfyrirsagnir, og breyta flokkun gagna í dálkum. Ef nota þarf láréttu flettistikuna til að sjá alla dálka á listasíðu eða skjalalínum sést að það er fast lóðrétt svæði til að varna flettingu ákveðinna dálka.
@@ -29,18 +29,20 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða síðu sem er, ví
 
 | Til | Sjá |
 | --- | --- |
-| Finndu ákveðna síðu, skýrslu, aðgerð, efnisatriði hjálpar eða viðbót samstarfsaðila. |[Nota Viðmótsleit til að finna eiginleika og upplýsingar](ui-search.md) |
+|Finndu ákveðna síðu, skýrslu, aðgerð, efnisatriði hjálpar eða viðbót samstarfsaðila. |[Finndu síður og upplýsingar með Viðmótsleit](ui-search.md) |
+|Fáðu yfirlit yfir síður fyrir hlutverk þitt og fyrir önnur hlutverk og farðu á síður.|[Finna síður frá yfirliti yfir eiginleika](ui-role-explorer.md)|
 | Afmarka gögn í yfirlitum, skýrslum eða aðgerðum með því að nota sérstök tákn og stafi. |[Röðun, leit og síun í listum](ui-enter-criteria-filters.md) |
 |Kynntu þér hinar ýmsu almennu aðgerðir sem hjálpa þér að færa gögn inn fljótt og örugglega.|[Gagnainnfærsla](ui-enter-data.md)|
+|Kynntu þér hvernig á að afrita og líma göng með því að nota flýtilykla.|[Algengar spurningar um það að afrita og líma](ui-copy-paste.md)|
 | Skoða eða vinna úr gögnum á tilteknu dagsetningabili. |[Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md) |
-|Kynntu þér hvernig á að afrita og líma göng með því að nota flýtilykla.|[Afrita og líma](ui-copy-paste.md)|
 | Sjá hvaða reiti verður að fylla út. |[Greina áskilda reiti](ui-mandatory-fields.md) |
 |Skilja hvernig staðsetning tölvunnar hefur áhrif á notendaviðmótið og hjálparsíðuna og hvernig á að breyta tungumálinu.|[Breyta tungumáli og landsstaðli](about-locale-language.md)|
 |Kynntu þér hvernig á að hafa samskipti við Excel nánast hvaðan sem er í [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Skoða og breyta í Excel](across-work-with-excel.md)|
-|Fáðu tilkynningu um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu.|[Stjórnun tilkynninga](ui-smart-notifications.md)|
-| Breyta grundvallarstillingum eins og fyrirtæki, vinnudagsetningu og Mitt hlutverk. |[Breyta grundvallarstillingum](ui-change-basic-settings.md) |
-| Breyta hvaða viðmótseiningar birtast og hvar eftir þörfum.|[Sérstillingar verksvæðis](ui-personalization-user.md) |
-|Skilgreina, forskoða, prenta eða vista skýrslur og skilgreina og keyra runuvinnslur.|[Unnið með skýrslur og runuvinnslur](ui-work-report.md)|
+|Hengja við skrár, bæta við tenglum eða skrifa athugasemd á kort og skjöl.|[Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md)|
+| Breyta grundvallarstillingum eins og fyrirtæki, vinnudagsetningu og Mitt hlutverk. |[Grunnstillingum breytt](ui-change-basic-settings.md) |
+|Fáðu tilkynningu um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu.|[Stjórna tilkynningum](ui-smart-notifications.md)|
+| Breyta hvaða viðmótseiningar birtast og hvar eftir þörfum.|[Sérstilling verksvæðis](ui-personalization-user.md) |
+|Skilgreina, forskoða, prenta eða vista skýrslur og skilgreina og keyra runuvinnslur.|[Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)|
 | Stjórna efni og sniði skýrslna og skjala, þ.m.t. hvaða gagnareitir gagnasafns skýrslu birtast í henni, stöðu þeirra, textastíl, myndir og meira.|[Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md) |
 |Fræðast um eiginleika og nothæfni [!INCLUDE[d365fin](includes/d365fin_md.md)] sem auðveldar aðgengi fatlaðra.|[Aðgengi og Flýtivísanir](ui-accessibility.md)|
 

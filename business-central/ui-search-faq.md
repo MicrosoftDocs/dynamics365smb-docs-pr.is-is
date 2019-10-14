@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248013"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310757"
 ---
 # <a name="tell-me-faq"></a>Algengar spurningar um Viðmótsleit
-Þetta efni svarar spurningum sem háþróaðir notendur okkar spyrja oft um nýja eiginleikann Viðmótsleit, sem hefur komið í stað fyrri leitareiginleika sem kallast **Finna síður og skýrslur**.
+Þetta efnisatriði svarar spurningum sem reyndir notendur spyrja oft um eiginleika viðmótsleitar.
 
 ### <a name="are-all-actions-from-my-current-page-discoverable-in-tell-me"></a>Eru allar aðgerðir úr núverandi síðunni minni sýnilegar í Viðmótsleit?
 Nei. Aðgerðir í hlutum, svo sem sölulínur eða upplýsingakassar, birtast ekki í Viðmótsleit.
@@ -32,8 +32,8 @@ Aðgerðir, síður og skýrslur sem koma frá viðbótum eru sóttar með Viðm
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Hvað gerir þetta frábrugðið því sem áður var þekkt sem Síðuleit?
 Síðuleit hefur þróast í Viðmótsleit til að hjálpa þér að koma hlutum í verk fljótt. Síðuleit gæti aðeins hjálpað þér að vafra á síður eða skýrslur. Á tæknilegu stigi er Viðmótsleit ekki lengur byggt á eldra hugtakinu MenuSuite.
 
-### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>Ég nota á staðnum [!INCLUDE[d365fin](includes/d365fin_md.md)]. Felur það í sér Viðmótsleit?
-Þú getur notað Viðmótsleit í vefbiðlaranum á staðnum til að finna aðgerðir, síður og skýrslur en ekki skjöl, eða forrit og ráðgjafarþjónustu á AppSource. Notendur sem tengjast [!INCLUDE[d365fin](includes/d365fin_md.md)] frá Dynamics NAV biðlaranum halda áfram að nota Síðuleit.
+### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Ég nota á staðnum [!INCLUDE[d365fin](includes/d365fin_md.md)]. Felur það í sér Viðmótsleit?
+Þú getur notað Viðmótsleit í vefbiðlaranum á staðnum til að finna aðgerðir, síður og skýrslur en ekki skjöl, eða forrit og ráðgjafarþjónustu á AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Er Viðmótsleit aðgengileg fyrir alla myndaþætti?
 Viðmótsleit er aðeins í boði í vefbiðlaranum eða Windows skjáborðsforritinu.
@@ -41,5 +41,14 @@ Viðmótsleit er aðeins í boði í vefbiðlaranum eða Windows skjáborðsforr
 ### <a name="are-the-documentation-results-available-in-any-language"></a>Eru niðurstöður fyrir fylgiskjöl tiltæk á hvaða tungumáli sem er?
 Hjálparefnin birtast á því tungumáli sem þú hefur tilgreint í **Stillingarnar mínar**, ef hjálp er til staðar á því tungumáli.
 
+### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Hvers vegna sé ég ekki bókamerkistákn fyrir leitarniðurstöðurnar mínar?
+Bókamerkjatákn er ekki birt í glugganum „Viðmótsleit“ þegar sérstillingar eru óvirkar fyrir notandahlutverk.
+
+### <a name="is-the-bookmark-icon-available-for-reports"></a>Er bókamerkjatáknið í boði fyrir skýrslur?
+Fj. Aðeins er hægt að bókamerkja tengil á síðu eða einhverjar leitarniðurstöður sem birtast í hlutanum **Síður og verk** í glugganum Viðmótsleit.
+
+
 ## <a name="see-also"></a>Sjá einnig  
-[Að finna eiginleika og upplýsingar](ui-search.md)
+[Vista og sérsníða listayfirlit](ui-views.md)  
+[Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
+[Finna síður frá yfirliti yfir eiginleika](ui-role-explorer.md)

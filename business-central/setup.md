@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/05/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9ba3997b20c86c5ddd3bf3f21a6a9455b4f54ec6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251010"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311477"
 ---
-# <a name="setting-up-included365finincludesd365finmdmd"></a>Setur upp [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="setting-up-included365finincludesd365fin_mdmd"></a>Setur upp [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.
 
 Til dæmis er yfirlit yfir reikninga áfyllt með fjölda pósthólf sem eru tilbúnar til notkunar. Að sjálfsögðu geturðu breytt bókhaldslyklinum til að uppfylla þarfir þínar. Frekari upplýsingar eru í [Fjármál](finance.md).
@@ -47,7 +47,7 @@ Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilte
 |Notaðu Business Central Outlook innbótina til að skoða fjárhagsgögn sem tengjast viðskiptamönnum og lánardrottnum, eða búðu til og sendu fjárhagsskjöl á borð við tilboð og reikninga.|[Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)|
 |Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Business Central gögnum með Power BI og Business Central efnispökkunum.|[Gera viðskiptagögn þín virk fyrir Power BI](admin-powerbi.md)|
 |Notandi getur notað Business Central-gögnin sín sem hluta af verkflæði í Microsoft Flow.|[Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)|
-|Gerðu Business Central gögnin þín aðgengileg sem gagnaveitu í PowerApps.|[Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota PowerApps.](across-how-use-financials-data-source-powerapps.md)|
+|Gerðu Business Central gögnin þín aðgengileg sem gagnaveitu í PowerApps.|[Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota PowerApps](across-how-use-financials-data-source-powerapps.md)|
 |Notaðu þar til gerðar Quickbooks færsluleiðbeiningar.|[Skipta úr QuickBooks App í Business Central](across-quickbooks-to-business-edition.md)|
 |Fá aðgang að Business Central gögnunum þínum úr fartækinu.|[Nota Business Central á fartækinu þínu](install-mobile-app.md)|
 |Gerðu magnreikningsfærslu á fundum sem eru stofnaðir í Bookings.|[Magnreikningsfærsla fyrir Microsoft Bookings](finance-bookings.md)|

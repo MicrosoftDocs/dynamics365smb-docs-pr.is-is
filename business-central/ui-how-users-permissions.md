@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 51c8c4207d9b5311698c7c5575fc67d8c5b2df9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250113"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310901"
 ---
-# <a name="managing-users-and-permissions"></a>Vinna með notendur og heimildir
+# <a name="manage-users-and-permissions"></a>Vinna með notendur og heimildir
 Til að bæta notendum í [!INCLUDE[d365fin](includes/d365fin_md.md)], verður kerfisstjóri Office 365 í fyrirtækinu fyrst að stofna notendur í stjórnstöð Office 365. Frekari upplýsingar, sjá [Bæta notendum við Office 365 for business](https://aka.ms/CreateOffice365Users).
 
 Þegar notendur hafa verið búnir til í Office 365 er hægt að flytja þá inn á síðunni **Notendur** í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Notendum er úthlutað heimildarsöfnum samkvæmt áætlun sem notandanum er úthlutað í Office 365. Fyrir nánari upplýsingar um leyfisveitingu, sjá [Microsoft Dynamics 365 Business Central leyfishandbók](https://aka.ms/BusinessCentralLicensing).
@@ -28,15 +28,23 @@ Heimildasafn er safn heimildir fyrir tiltekna hluti í gagnagrunninum. Öllum no
 
 Frá **Notandakort** síðunni geturðu opnað **Virkar heimildir** síðuna til að sjá hvaða heimildir notandinn hefur og í gegnum hvaða heimildasamstæður þau eru veitt. Hér getur þú einnig breytt heimildarupplýsingum fyrir heimildarsamstæður af tegundinni **Notandaskilgreint**. Frekari upplýsingar er að finna í [Að fá yfirlit yfir leyfi notanda](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Stjórnendur geta notað **Notandauppsetningu** síðuna til að skilgreina tímabil þegar tilgreindir notendur geta bókað, og geta einnig tilgreint hvort kerfið skrái tímann sem notandinn er skráður inn.
+## <a name="users-in-on-premises-deployments"></a>Notendur í uppsetningu á staðnum
+Fyrir uppsetningu á staðnum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] getur stjórnandi valið á milli mismunandi auðkenningarbúnaðs skilríkja fyrir notendur. Þegar þú býrð til notanda gefur þú síðan mismunandi upplýsingar eftir því hvaða skilríki þú notar í tilteknu [!INCLUDE[server](includes/server.md)] tilviki. Nánari upplýsingar er að finna í [Gerðir auðkenningar og persónuskilríkja](/dynamics365/business-central/dev-itpro/administration/users-credential-types) í stjórnunarhluta þróunaraðila og ITPro efni fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Annað kerfi sem skilgreinir hvað notendur geta nálgast er upplifunarstillingin. Frekari upplýsingar, sjá [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
+## <a name="profiles"></a>Forstillingar
+Eftir að notendum hefur verið bætt við er hægt að skilgreina hvað þeir sjá í notandaviðmótinu og hvernig þeir nota leyfilega virkni sína á síðum. Þetta er gert með forstillingum, sem endurspegla hlutverk eða deildir sem þú úthlutar til ólíkra notenda. Frekari upplýsingar er að finna í [Vinna með forstillingar](admin-users-profiles-roles.md) og [Sérstillingar [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## <a name="to-add-a-user-in-business-central"></a>Að bæta við notanda í Business Central
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **notendur** og veldu síðan tengda tengilinn.
 2. Veldu **Fá notendur frá Office 365** aðgerð.
 
 Sérhver nýr notandi sem hefur verið búinn til fyrir Office 365 áskriftina þína verður honum bætt við á síðunni **Notendur**.
+
+## <a name="to-edit-or-delete-a-user"></a>Til að breyta eða eyða notanda
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **notendur** og veldu síðan tengda tengilinn.
+2. Velja skal notandann sem á að breyta og velja síðan aðgerðina **Breyta**.
+3. Á síðunni **Notandaspjald** skal breyta upplýsingunum eftir þörfum.    
+4. Til að eyða notanda, skal velja notandann sem á að eyða og veljið síðna aðgerðina **Eyða**.
 
 ## <a name="to-group-users-in-user-groups"></a>Til hópnotenda í notandaflokkum
 Þú getur sett upp notendahópa til að hjálpa þér að stjórna heimildasamstæðum fyrir hópa notenda í fyrirtæki þínu.
@@ -110,7 +118,7 @@ Til dæmis getur notandi haft heimild til að keyra kótaeiningu 80, Sala-bókun
 
 Hins vegar þarf notandi ekki að hafa ótakmarkaðan aðgang að töflunni Sölulína til að keyra kótaeininguna. Ef notandinn hefur óbeina heimild fyrir töflu sölulínu keyrir kóðaeiningin Sala-bókun án vandræða. Þegar notandi hefur óbeina heimild, getur sá notandi aðeins breytt töflunni Sölulína með því að keyra Sölubókun kóðaeiningunni eða annan hlut sem hefur heimild til að breyta töflunni Sölulína. Notandinn getur aðeins breytt töflunni Sölulína frá studdum forritssvæðum. Notandinn getur ekki keyrt eiginleikann óvart eða í sviksamlegum tilgangi á annan hátt.
 
-### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Að takmarka aðgang notanda að tilteknum færslum í töflu
+## <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Að takmarka aðgang notanda að tilteknum færslum í töflu
 Fyrir öryggi á færslustigi í [!INCLUDE[d365fin](includes/d365fin_md.md)] notarðu öryggissíur til að takmarka aðgang notanda að gögnum í töflu. Þú býrð til öryggissíur á töflugögnum. Öryggissía lýsir færslusafni í töflu sem notandi hefur aðgangsheimild að. Þú getur til dæmis tilgreint að notandi geti aðeins lesið færslur sem innihalda upplýsingar um tiltekinn viðskiptavin. Þetta þýðir að notandinn getur ekki nálgast færslur sem innihalda upplýsingar um aðra viðskiptavini. Nánari upplýsingar eru í [Að nota öryggissíur](/dynamics365/business-central/dev-itpro/security/security-filters) í Developer og IT Pro hjálpinni.
 
 
@@ -174,9 +182,14 @@ Eftirfarandi ferli útskýrir hvernig á að úthluta heimildasamstæðum til no
 > [!NOTE]  
 > Þegar þú breytir heimildasamstæðu munu breytingarnar einnig eiga við um aðra notendur sem hafa heimildarsamstæðuna úthlutað.
 
+## <a name="to-remove-a-users-access-to-the-system"></a>Til að fjarlægja aðgang notanda að kerfinu
+
+Kerfisstjóri getur fjarlægt aðgang notanda að kerfinu með því að stilla reitinn **Staða** á **Óvirkt**. Allar tilvísanir til notandans verða varðveittar, en notandinn getur ekki lengur skráð sig inn í kerfið og virkar lotur fyrir notandann verða stöðvaðar. Til að veita notandanum aðgang aftur skal stilla **Ástand** reitinn á **Virkt**.
+
 ## <a name="see-also"></a>Sjá einnig
 [Öryggi og vörn í Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Að skilja notendur, forstillingar og Mitt hlutverk](admin-users-profiles-roles.md)  
+[Vinna með forstillingar](admin-users-profiles-roles.md)  
+[Sérstillir [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Stjórnun](admin-setup-and-administration.md)  

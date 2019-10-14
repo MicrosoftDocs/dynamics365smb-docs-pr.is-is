@@ -1,6 +1,6 @@
 ---
 title: Handvirk samstilling á töfluvörpunum | Microsoft Docs
-description: Samstillingin afritar gögn milli Dynamics 365 for Sales-færslna og Business Central til að halda báðum kerfum uppfærðum.
+description: Samstillingin afritar gögn milli Dynamics 365 Sales færslna og Business Central til að halda báðum kerfum uppfærðum.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 4aa56deaef4cd32f58fe4ad17abbc72a58b94ed9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629551"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307939"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Samstilla töfluvarpanir handvirkt
 Vörpun samþættingartöflu tengir [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflu (færslugerð), t.d. viðskiptamaður, við [!INCLUDE[crm_md](includes/crm_md.md)]-einingu, t.d. reikningur. Samstilling á vörpun samþættingartöflu gerir þér kleift að samþætta gögn í öllum færslum í [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflunni og [!INCLUDE[crm_md](includes/crm_md.md)]-einingunni sem eru tengdar. Að auki, þó háð grunnstillingu töfluvörpunar, getur samstilling búið til og tengt nýjar færslur á lausn endastaðar fyrir ótengdar færslur á upprunastaðnum.  
@@ -39,13 +39,13 @@ Hvort og hvenær færsla er búin til fer eftir samstillingaráttinni. Til dæmi
 
 Verkin eru keyrð í eftirfarandi röð til að koma í veg fyrir tengsl tenginga milli eininga.  
 
-1.  GJALDMIÐILL – Dynamics 365 for Sales samstillingarverk  
-2.  SÖLUFÓLK – Dynamics 365 for Sales samstillingarverk  
-3.  MÆLIEINING - Dynamics 365 for Sales samstillingarverk  
-4.  VIÐSKIPTAMAÐUR - Dynamics 365 for Sales samstillingarverk  
-5.  TENGILIÐIR – Dynamics 365 for Sales samstillingarverk  
-6.  FORÐI-AFURÐ - Dynamics 365 for Sales samstillingarverk  
-7.  VARA-AFURÐ – Dynamics 365 for Sales samstillingarverk  
+1.  GJALDMIÐILL – samstillingarvinnsla Dynamics 365 Sales  
+2.  SALEPEOPLE - Dynamics 365 Sales samstillingarverk  
+3.  UNITOFMEASURE-samstillingarvinnsla Dynamics 365 Sales  
+4.  VIÐSKIPTAMAÐUR - samstillingarvinnsla Dynamics 365 Sales  
+5.  CONTACTS - Dynamics 365 Sales samstillingarverk  
+6.  TILFÖNG-AFURÐ fyrir samstillingarvinnslu Dynamics 365 Sales  
+7.  ITEM-PRODUCT - Dynamics 365 Sales samstillingarverk  
 
 > [!IMPORTANT]  
 >  Venjulega er aðeins notuð full samstilling þegar samþætting er sett upp fyrst milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] og aðeins ein af lausnunum inniheldur gögn, sem þú vilt afrita í hina lausnina. Full samstilling getur verið gagnleg í sýniumhverfi. Vegna þess að full samstilling býr til og tengir færslur milli lausna, er hægt að byrja fyrr á að vinna með samstillingu gagna milli færslna. Aftur á móti ætti aðeins að keyra fulla samstillingu ef þú vilt færslu í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir hverja færslu í [!INCLUDE[crm_md](includes/crm_md.md)] fyrir umbeðnar töfluvarpanir. Annars er hægt að fá óumbeðnar eða tvíteknar færslur í annaðhvort [!INCLUDE[d365fin](includes/d365fin_md.md)] eða [!INCLUDE[crm_md](includes/crm_md.md)].  
@@ -54,7 +54,7 @@ Verkin eru keyrð í eftirfarandi röð til að koma í veg fyrir tengsl tenging
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085502]
 
 ### <a name="to-run-a-full-synchronization"></a>Að keyra fulla samstillingu  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Microsoft Dynamics 365 for Sales Uppsetning tengingar** og veldu síðan tengda tengilinn.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Microsoft Dynamics 365 Sales uppsetning tengingar** og veldu síðan tengda tengilinn.
 2.  Veldu aðgerðina **Keyra fulla samstillingu** og síðan skal velja hnappinn **Já**.  
 3.  Þegar fullri samstillingu er lokið er hægt að tilgreina hvort leyfa eigi áætluðum samstillingarverkum að búa til nýjar færslur.  
 
@@ -65,15 +65,15 @@ Verkin eru keyrð í eftirfarandi röð til að koma í veg fyrir tengsl tenging
 Hægt er að skoða niðurstöður fullrar samstillingar á síðunni **Samstillingarverk samþættingar**. Frekari upplýsingar er að finna í [Skoða stöðu á samstillingu](admin-how-to-view-synchronization-status.md).  
 
 ## <a name="synchronizing-all-modified-records"></a>Samstilling á öllum breyttum færslum
-Hægt er að nota síðuna **Microsoft Dynamics 365 for Sales Uppsetning tengingar** til að samstilla breytingar á gögnum í vörpunum samþættingartöflu. Þetta er svipað og full samstilling. Það mun samstilla gögn í öllum tengdum færslum í [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflum og [!INCLUDE[crm_md](includes/crm_md.md)]-einingum sem eru skilgreindar í töfluvörpunum. Sjálfgefið er að einungis færslur verða samstilltar sem hefur verið breytt síðan þær voru síðast samstilltar. Töfluvarpanir eru samstilltar í eftirfarandi röð til að koma í veg fyrir tengingar hafi áhrif á hver aðra milli eininga:  
+Hægt er að nota síðuna **Uppsetning tengingar Microsoft Dynamics 365 Sales** til að samstilla breytingar á gögnum í vörpunum samþættingartöflu. Þetta er svipað og full samstilling. Það mun samstilla gögn í öllum tengdum færslum í [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflum og [!INCLUDE[crm_md](includes/crm_md.md)]-einingum sem eru skilgreindar í töfluvörpunum. Sjálfgefið er að einungis færslur verða samstilltar sem hefur verið breytt síðan þær voru síðast samstilltar. Töfluvarpanir eru samstilltar í eftirfarandi röð til að koma í veg fyrir tengingar hafi áhrif á hver aðra milli eininga:  
 
-1.  GJALDMIÐILL – Dynamics 365 for Sales samstillingarverk  
-2.  SÖLUFÓLK – Dynamics 365 for Sales samstillingarverk  
-3.  MÆLIEINING - Dynamics 365 for Sales samstillingarverk  
-4.  VIÐSKIPTAMAÐUR - Dynamics 365 for Sales samstillingarverk  
-5.  TENGILIÐIR – Dynamics 365 for Sales samstillingarverk  
-6.  FORÐI-AFURÐ \- Dynamics 365 for Sales samstillingarverk  
-7.  VARA-AFURÐ – Dynamics 365 for Sales samstillingarverk  
+1.  GJALDMIÐILL – samstillingarvinnsla Dynamics 365 Sales  
+2.  SALEPEOPLE - Dynamics 365 Sales samstillingarverk  
+3.  UNITOFMEASURE-samstillingarvinnsla Dynamics 365 Sales  
+4.  VIÐSKIPTAMAÐUR - samstillingarvinnsla Dynamics 365 Sales  
+5.  CONTACTS - Dynamics 365 Sales samstillingarverk  
+6.  RESOURCE-PRODUCT \- Dynamics 365 Sales samstillingarverk  
+7.  ITEM-PRODUCT - Dynamics 365 Sales samstillingarverk  
 
 Hægt er að skoða niðurstöður samstillingar á síðunni **Samstillingarverk samþættingar**. Frekari upplýsingar er að finna í [Skoða stöðu á samstillingu](admin-how-to-view-synchronization-status.md).  
 
@@ -81,7 +81,7 @@ Hægt er að skoða niðurstöður samstillingar á síðunni **Samstillingarver
 >  Með því að breyta vörpun samþættingartöflu fyrirfram er hægt að skilgreina samstillinguna með afmörkunum til að stýra því hvaða færslur eru samstilltar, eða skilgreint hana til að búa til nýjar færslur í viðtökustað lausnar fyrir ótengdar færslur á upprunastaðnum. Frekari upplýsingar er að finna í [Breyta töfluvörpunum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-records-for-all-tables"></a>Að samstilla færslur fyrir allar töflur  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Microsoft Dynamics 365 for Sales Uppsetning tengingar** og veldu síðan tengda tengilinn.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Microsoft Dynamics 365 Sales uppsetning tengingar** og veldu síðan tengda tengilinn.
 2.  Veldu aðgerðina **Samstilla breyttar færslur** og síðan **Já**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Samstilla stakar töfluvarpanir
@@ -94,5 +94,5 @@ Með því að breyta vörpun samþættingartöflu fyrirfram er hægt að skilgr
 2.  Veldu aðgerðina **Samstilla breyttar færslur** og síðan **Já**.  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Sérstilling Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+[Samstilling Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
+[Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   

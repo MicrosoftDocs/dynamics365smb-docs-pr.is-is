@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 13ab8097b9c6d75f838a58c347af31d560fa9374
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1bef0ad2a94e64ecf95614707b6746e6a381fcb0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242883"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307397"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Hönnunarupplýsingar: jöfnun framboðs og eftirspurnar
 Kjarni áætlanakerfisins felst í jafnvægi á milli eftirspurn og framboð með því að leggja til notandaaðgerðir til að endurskoða framboðspantanir við ójafnvægi. Þetta á sér stað á blöndu af afbrigði og staðsetningu.  
@@ -109,7 +109,7 @@ Varðandi pöntunarrakningu við áætlanagerð, það er mikilvægt að nefna a
 
 Með tímanum myndast ójafnvægi í pöntunarrakningartenglum þar sem pöntunarrakningarnetinu er ekki endurraðað fyrr en eftirspurnar- eða framboðstilvikum er lokað í raun og veru.  
 
-Áður framboðs og eftirspurn er jafnað eyðir forritið öllum pöntunarrakningartenglum. Við afstemmingu, þegar eftirspurn eða framboð er lokað, er nýjum pöntunarrakningartenglum komið á milli framboðs og eftirspurnar.  
+Áður en framboð og eftirspurn er jafnað eyðir forritið öllum pöntunarrakningartenglum. Við afstemmingu, þegar eftirspurn eða framboð er lokað, er nýjum pöntunarrakningartenglum komið á milli framboðs og eftirspurnar.  
 
 > [!NOTE]  
 >  Jafnvel þótt vara sé ekki sett upp fyrir kvika pöntunarrakningi býr áætlunarkerfið til jafnaða pöntunarrakningartengla eins og útskýrt er hér að ofan.  

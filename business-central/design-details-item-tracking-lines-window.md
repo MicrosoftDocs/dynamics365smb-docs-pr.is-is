@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0ddfa9b2d981f81f649240a08c26e8cca845bd1f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a5629a5995516b6c3b1e15d98e20c83769f5b73c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246130"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303269"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Hönnunarupplýsingar: síða vörurakningarlína
 Vörurakningarfærslur og frátekningarfærslur eru stofnaðar í frátekningarkerfi og framboð þeirra er reiknað eftir þörfum. Gögnum sem eru færð á síðuna **Vörurakningarlínur** er stjórnað í tímabundinni útgáfu af töflunni **Rakningarlýsing**. Þegar síðunni er lokað eru virku gögnin skuldbundin töflunni **Frátekningarfærsla** og söguleg gögn skuldbundin töflunni **Rakningarlýsing**. Frekari upplýsingar, sjá: [Hönnunarupplýsingar: Virk móti sögulegum vörurakningarfærslum](design-details-active-versus-historic-item-tracking-entries.md).  

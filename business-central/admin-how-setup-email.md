@@ -2,28 +2,28 @@
 title: Setja upp tölvupóst í Business Central | Microsoft Docs
 description: Lýsir því hvernig á að nota STMP-þjón fyrirtækisins til að senda og taka við tölvupósti í Business Central, einnig hvernig á að nota þær stillingar þjónsins sem voru stofnaðar með Office 365 áskrift.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 09/09/2019
-ms.author: edupont
-ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 90e119dc44a23bcd9dca7920d05538ac685a44f6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985935"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304613"
 ---
 # <a name="set-up-email"></a>Setja upp tölvupóst
 Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú að fylla út reitina á síðunni SMTP-póstuppsetning.
 
 Í stað þess að slá inn upplýsingar um SMTP-þjón handvirkt geturðu notað aðgerðina **Nota Office 365 þjónsstillingar** til að slá þær inn með upplýsingum úr Office 365 áskriftinni þinni.
 
-Þú getur annaðhvort sett upp tölvupóst handvirkt eða þú getur fengið hjálp með því að nota **Uppsetning tölvupósts** leiðbeiningar um uppsetningu með hjálp. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
+Þú getur annaðhvort sett upp tölvupóst handvirkt, eins og lýst er hér að neðan, eða þú getur fengið hjálp með því að nota **Uppsetning tölvupósts** leiðbeiningar um uppsetningu með hjálp. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Til að setja upp tölvupóst
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP Uppsetning tölvupósts** og veldu síðan tengda tengilinn.

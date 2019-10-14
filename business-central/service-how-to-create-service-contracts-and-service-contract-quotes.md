@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d3c3a460cd13d0af16e38564d4b2fb0de367ed53
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252206"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311693"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Vinna með þjónustusamninga og þjónustusamningstilboð
 Hægt er að stofna þjónustusamning annað hvort handvirkt eða úr þjónustusamningstilboði. Hægt er að nota þjónustusamningstilboð sem aðdraganda að þjónustusamningi þar sem fyrirtækið gerir viðskiptamanni tilboð og fær samþykki hans svo að unnt sé að breyta tilboðinu í þjónustusamning. Ferlið við stofnun þjónustusamnings annars vegar og þjónustusamningstilboðs er nokkuð svipað.  
@@ -28,7 +28,7 @@ Hægt er að stofna þjónustusamning annað hvort handvirkt eða úr þjónustu
 3. Fylla þarf út reitinn **Nr.**. . Þá birtist svargluggi, sem spyr hvort fylla eigi út í reitinn með almennum gögnum úr samningssniðmáti. Ef stofna á slíkan þjónustusamning eða þjónustusamningstilboð er hnappurinn **Já** valinn. Síðan **Þjónustusamn.sniðmát - Listi** opnast.  
 4. Velja skal viðeigandi sniðmát og velja svo **Í lagi** til að nota það til að stofna þjónustusamninginn eða þjónustusamningstilboðið.  
 5. Í **Númer viðskiptamanns** reitinn skal velja viðskiptavin.  
-6. Ef ekki á að dreifa upphæð ársmismunar sjálfkrafa skal velja **Heimila ójafnaðar upphæðir** gátreitinn. Gildin í reitunum **Árleg upphæð** og **Reiknuð árleg upphæð** eru ekki sjálfkrafa jöfnuð. Ef kerfið á sjálfkrafa að dreifa árlegum mismun sem gæti verið vegna breytingar á þjónustusamningi skal hafa gátreitinn **Heimila ójafnaðar upphæðir** auðan.  
+6. Ef ekki á að dreifa upphæð ársmismunar sjálfkrafa skal velja **Heimila ójafnaðar upphæðir** gátreitinn. Gildin í reitunum **Árleg upphæð** og **Reiknuð árleg upphæð** eru ekki sjálfkrafa jöfnuð. Ef forritið á sjálfkrafa að dreifa árlegum mismun sem gæti verið vegna breytingar á þjónustusamningi skal hafa gátreitinn **Heimila ójafnaðar upphæðir** auðan.  
 7. Bæta við samningslínum í þjónustusamninginn eða þjónustusamningstilboðið.  
 8. Aðrir reitir eru fylltir út eins og þörf er á.  
 

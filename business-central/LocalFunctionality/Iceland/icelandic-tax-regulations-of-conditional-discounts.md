@@ -1,23 +1,27 @@
 ---
 title: Íslenskar reglugerðir fyrir skilyrtan afslátt
 description: Á Íslandi er þess krafist samkvæmt lögum að gefa út kreditreikning ef skilyrtur afsláttur er veittur.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.prod: dynamics-nav-2018
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a9db0f4c37a99208b8dfc3e5c5aa4ef13e294f51
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: https://www.microsoft.com
+ms.openlocfilehash: 0b2fc9863307d80ca89f8fa6274d69f5ef47df0c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241708"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300171"
 ---
+<!-- This topic is retired and redirects -->
+
 # <a name="icelandic-tax-regulations-of-conditional-discounts"></a>Íslenskar reglugerðir fyrir skilyrtan afslátt
 Á Íslandi er þess krafist samkvæmt lögum að gefa út kreditreikning ef skilyrtur afsláttur er veittur.  
 

@@ -1,6 +1,6 @@
 ---
 title: Samstilling og samþætting gagna | Microsoft Docs
-description: Samstillingin afritar gögn milli færslna Dynamics 365 for Sales og Business Central og heldur gögnum í báðum kerfum uppfærðum.
+description: Samstillingin afritar gögn milli færslna Dynamics 365 Sales og Business Central og heldur gögnum í báðum kerfum uppfærðum.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: bbc7da12176d2a5c8ab9a2ccc153ea4053d59656
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917461"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304237"
 ---
-# <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Samstilling gagna í Business Central og Dynamics 365 for Sales
-Við samþættingu [!INCLUDE[crm_md](includes/crm_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að ákveða hvort eigi að samstilla gögn á völdum svæðum af færslum [!INCLUDE[d365fin](includes/d365fin_md.md)] (t.d. viðskiptamenn, tengiliðir og sölumenn) við samsvarandi færslur í [!INCLUDE[d365fin](includes/d365fin_md.md)] (s.s. reikningar, tengiliðir og notendur). Háð gerð færslu, er hægt að samstilla gögn úr [!INCLUDE[crm_md](includes/crm_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)] eða öfugt. Frekari upplýsingar er að finna í [Samþætting við Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
+# <a name="synchronizing-data-in-business-central-and-dynamics-365-sales"></a>Samstilling gagna í Business Central og Dynamics 365 Sales
+Við samþættingu [!INCLUDE[crm_md](includes/crm_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að ákveða hvort eigi að samstilla gögn á völdum svæðum af færslum [!INCLUDE[d365fin](includes/d365fin_md.md)] (t.d. viðskiptamenn, tengiliðir og sölumenn) við samsvarandi færslur í [!INCLUDE[d365fin](includes/d365fin_md.md)] (s.s. reikningar, tengiliðir og notendur). Háð gerð færslu, er hægt að samstilla gögn úr [!INCLUDE[crm_md](includes/crm_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)] eða öfugt. Frekari upplýsingar er að finna í [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 Samstilling notar eftirfarandi einingar:
 
@@ -77,11 +77,11 @@ Eftirfarandi tafla sýnir varpanir frá [!INCLUDE[d365fin](includes/d365fin_md.m
 Í eftirfarandi töflu er lýst reglum sem stjórna samstillingu á milli forritanna.
 
 > [!NOTE]  
-> Breytingar á gögnum í [!INCLUDE[crm_md](includes/crm_md.md)] sem voru gerðar af notandareikningi [!INCLUDE[crm_md](includes/crm_md.md)]-tengingar eru ekki samstilltar. Mælt er með því að gögnum sé ekki breytt á meðan reikningurinn er notaður. Nánari upplýsingar er að finna í [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Breytingar á gögnum í [!INCLUDE[crm_md](includes/crm_md.md)] sem voru gerðar af notandareikningi [!INCLUDE[crm_md](includes/crm_md.md)]-tengingar eru ekki samstilltar. Mælt er með því að gögnum sé ekki breytt á meðan reikningurinn er notaður. Nánari upplýsingar er að finna í [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Tafla|Regla|
 |-----|----|
-|Viðskiptavinum|Áður en hægt er að samstilla viðskiptamann við reikning verður sölumaðurinn sem er viðskiptamanni er úthlutaður að vera tengdur við notandi í [!INCLUDE[crm_md](includes/crm_md.md)]. Af þessum sökum skal, þegar samstillingarverkið VIÐSKIPTAMENN - Dynamics 365 for Sales er keyrt og þú setur það upp til að stofna nýjar færslur, skaltu ganga úr skugga um að samstilla sölumenn við notendur [!INCLUDE[crm_md](includes/crm_md.md)] áður en þú samstillir viðskiptamenn við reikninga í [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />VIÐSKIPTAMENN - Samstillingarverk fyrir Dynamics 365 for Sales samstillir aðeins reikninga sem hafa venslagerðina viðskiptamaður.|
+|Viðskiptavinum|Áður en hægt er að samstilla viðskiptamann við reikning verður sölumaðurinn sem er viðskiptamanni er úthlutaður að vera tengdur við notandi í [!INCLUDE[crm_md](includes/crm_md.md)]. Af þessum sökum skal, þegar VIÐSKIPTAMENN - Dynamics 365 Sales samstillingarverkið er keyrt og þú setur það upp til að stofna nýjar færslur, skaltu ganga úr skugga um að samstilla sölumenn við notendur [!INCLUDE[crm_md](includes/crm_md.md)] áður en þú samstillir viðskiptamenn við reikninga í [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />VIÐSKIPTAMENN - Samstillingarverk fyrir Dynamics 365 Sales samstillir aðeins reikninga sem hafa venslagerðina viðskiptamaður.|
 |Tengiliður|Aðeins tengiliðir í [!INCLUDE[crm_md](includes/crm_md.md)] sem eru tengdir við reikningur verða stofnaðir í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Gildið á kóða sölumanns skilgreinir eiganda tengdu einingarinnar í [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Gjaldmiðlar|Gjaldmiðlar tengjast við færslugjaldmiðla í [!INCLUDE[crm_md](includes/crm_md.md)] sem byggja á ISO-kóðum. Aðeins gjaldmiðlar sem eru með staðlaður ISO-kóði verða tengdir og samstilltir við færslugjaldmiðla.|
 |Mælieiningar|Mælieiningar eru samstillar við einingahópa í [!INCLUDE[crm_md](includes/crm_md.md)]. Aðeins er hægt að skilgreina eina mælieiningu í einingahópnum.|
@@ -97,4 +97,4 @@ Eftirfarandi tafla sýnir varpanir frá [!INCLUDE[d365fin](includes/d365fin_md.m
 ## <a name="see-also"></a>Sjá einnig  
 [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
-[Samþætting við Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+[Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

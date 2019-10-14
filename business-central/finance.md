@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446969"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301541"
 ---
 # <a name="finance"></a>Fjármál
 [!INCLUDE[d365fin](includes/d365fin_md.md)] felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
@@ -40,7 +40,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Bæta við víddum fyrir meiri viðskiptagreind. |[Unnið með víddir](finance-dimensions.md) |
 | Stofna fjárhagsáætlun til að spá fyrir um mismunandi fjármálaaðgerðir og úthluta víddum fyrir viðskiptaupplýsingar. |[Stofna fjárhagsáætlunum](finance-how-create-budgets.md) |
 |Skrá tekjur eða útgjöld beint í fjárhag án þess að bóka sérnýtt viðskiptaskjöl.|[Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)|
-|Bóka bakfærslur til að afturkalla virðisbókanir í færslubókinni eða magnbókanir á innkaupa- og söluskjöl. |[Bakfæra bókanir](finance-how-reverse-journal-posting.md)|
+|Bóka bakfærslur til að afturkalla virðisbókanir í færslubókinni eða magnbókanir á innkaupa- og söluskjöl. |[Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)|
 |úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. |[Úthluta kostnaði og tekjum](year-allocate-costs-income.md) |
 | Úthluta viðbótarkostnaði sem þú stofnar til í viðskiptum, eins og t.d. flutning og meðhöndlun, á viðeigandi vörur svo kostnaðurinn endurspeglist í birgðaverðmati. |[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md) |
 |Bóka persónuleg útgjöld starfsmanna sem hljótast af vinnutengdum aðgerðum og endurgreiða starfsmönnum með því að greiða inn á bankareikning þeirra.|[Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)|

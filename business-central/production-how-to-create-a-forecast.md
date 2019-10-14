@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5936343b9a1e1ebd7b871f11b0aeb9a7554636b4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253436"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314193"
 ---
 # <a name="create-a-demand-forecast"></a>Búa til eftirspurnarspá
 Þú getur búið til sölu- og framleiðsluspár á síðunni **Eftirspurnarspá**.  
@@ -27,7 +27,7 @@ Spárvirkni er notuð til að skapa áætlaða eftirspurn; raunveruleg eftirspur
 Spá gerir fyrirtækinu kleift að búa til "hvað ef" atburðarásir og áætla og mæta eftirspurn á skilvirkan máta sem borgar sig. Nákvæm spá getur breytt miklu um það hversu ánægðir viðskiptavinir eru hvað varðar dagsetningar pöntunarloforða og tímanlega afgreiðslu.  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Söluspár og Framleiðsluspár  
-Hægt er að nota spárvirknina í kerfinu til að búa til sölu- eða framleiðsluspár, saman eða hvort í sínu lagi. Til dæmis hafa flest fyrirtæki sem framleiða tilbúnar vörur ekki fullbúna birgðaskrá af því að hver vara er framleidd þegar hún er pöntuð. Það að gera ráð fyrir pöntunum (söluspáraðgerðir) skiptir máli varðandi ásættanlegan biðtíma eftir tilbúnu vörunum (framleiðsluspáraðgerðir). Til dæmis geta íhlutar með langa afhendingartíma tafið framleiðsluna ef þeir eru hvorki á pöntuninni né á birgðaskránni.  
+Hægt er að nota spárvirknina í forritinu til að búa til sölu- eða framleiðsluspár, saman eða hvort í sínu lagi. Til dæmis hafa flest fyrirtæki sem framleiða tilbúnar vörur ekki fullbúna birgðaskrá af því að hver vara er framleidd þegar hún er pöntuð. Það að gera ráð fyrir pöntunum (söluspáraðgerðir) skiptir máli varðandi ásættanlegan biðtíma eftir tilbúnu vörunum (framleiðsluspáraðgerðir). Til dæmis geta íhlutar með langa afhendingartíma tafið framleiðsluna ef þeir eru hvorki á pöntuninni né á birgðaskránni.  
 
 -   Söluspáin er besta tillaga söludeildarinnar um hvað verði selt í framtíðinni, tilgreind eftir vörum og tímabili. Hvað sem því líður er söluspáin ekki alltaf næg fyrir framleiðslu.  
 -   Framleiðsluspáin er vörn þess sem gerir áætlunina yfir magn vörunnar og skyldra undirtegunda framleiða skal á ákveðnum tímabilum til að standast áætlaða sölu.  

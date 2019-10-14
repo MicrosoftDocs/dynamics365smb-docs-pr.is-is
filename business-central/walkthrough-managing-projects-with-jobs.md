@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 570e001eb0f412599d66bda098563f772570cd29
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249630"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314821"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Kynning: Stýring verkefna með verkum
+
+**Athugið**: Framkvæma verður þessa kynningu í sýnifyrirtæki með valkostinum **Fullt mat - öll sýnigögn** sem er í boði í sandkassaumhverfinu. Nánari upplýsingar eru í [Sandkassaumhverfi stofnað](across-how-create-sandbox-environment.md).
+
 Þessi kynning kynnir verkstýringareiginleikana í verkum. Verk eru leiðir fyrir áætlunargerð um notkun á forða fyrirtækisins og rakningu á ýmsum kostnaði sem fylgir notkun forða í tilteknu verkefni. Verk ná yfir notkun á vinnutíma starfsmanna, vélastundir, birgðahluti og aðrar gerðir notkunar sem notandinn kann að vilja fylgjast með í verkferlum.  
 
  Kynningin nær til uppsetningar nýs verks og einnig til nokkurra algengari verkefna eins og að meðhöndlun á föstu verði, framkvæmd greiðslu með inngreiðslu, bókun sölureikninga vinnu og afritun.  
@@ -84,7 +87,7 @@ ms.locfileid: "1249630"
     - **Nafn**: **Trausti**  
     - **Gerð**: **Einstaklingur**  
 
-4.  Velja reitinn **Grunnmælieining**, og velja **Nýtt** aðgerð til að opna síðuna **Mælieining forða**. Í reitnum **Kóti** skal velja **Klukkustund**. Velja hnappinn **Í lagi**.  
+4.  Velja reitinn **Grunnmælieining**, og velja **Nýtt** aðgerð til að opna síðuna **Mælieining forða**. Í reitnum **Kóti** skal velja **Klukkustund**.  
 5.  Á flýtiflipanum **Reikningsfæra** eru eftirfarandi upplýsingar slegnar inn:  
 
     -   **Innkaupsverð**: **5**  
@@ -93,9 +96,9 @@ ms.locfileid: "1249630"
     -   **Alm. vörubókunarflokkur**: **Þjónusta**  
     -   **VSK vörubókunarflokkur**: **VSK 25**  
 
-6.  Velja hnappinn **Í lagi** til að vista breytingarnar.  
+6. Lokaðu síðunni.
 
- Í næsta ferli er stofnuð verkbókarkeyrsla fyrir viðkomandi ef bóka á notkun hans.  
+Í næsta ferli er stofnuð verkbókarkeyrsla fyrir viðkomandi ef bóka á notkun hans.  
 
 ### <a name="to-create-a-job-journal-batch"></a>Til að búa til verkbókarkeyrslu  
 
@@ -107,7 +110,7 @@ ms.locfileid: "1249630"
     -   **Lýsing**: **Trausti**  
     -   **Númeraröð**: **JJNL-GEN**  
 
-4.  Velja hnappinn **Í lagi** til að loka öllum opnum síðum.  
+4.  Velja hnappinn **Í lagi** til að vista breytingarnar.
 
 ## <a name="setting-up-a-job"></a>Uppsetning vinnu  
  Í þessu dæmi hefur CRONUS náð samningum við viðskiptamann, Progressive Home Furnishings, um að hanna fundar- og matsal þeirra. Viðskiptamaðurinn er staðsettur í Bandaríkjunum og verkefnið krefst sérstaks hugbúnaðar. Verkefnastjóri nær samkomulagi við viðskiptamanninn og stofnar verk sem nær yfir samkomulagið.  
@@ -123,7 +126,7 @@ ms.locfileid: "1249630"
 
 4.  Á flýtiflipanum **bókun** eru eftirfarandi upplýsingar slegnar inn:  
 
-    -   **Staða**: **Röð**  
+    -   **Staða**: **Áætlun**  
     -   **Bókunarflokkur verka**: **Uppsetning**  
     -   **VÍV-aðferð**: **Kostnaðarvirði**  
 
@@ -140,21 +143,21 @@ ms.locfileid: "1249630"
     -   **Kóti**: **Trausti**  
     -   **Einingarverð**: **20**  
 
-3.  Velja hnappinn **Í lagi** til að loka síðunni.  
+3.  Lokaðu síðunni.  
 4.  Velja aðgerðina **Vara**.  
 5.  Á síðunni **Verð vöru** eru eftirfarandi upplýsingar slegnar inn og sérsniðið verð:  
 
     1.  **Vörunr.**: **80201 (teikniforrit)**  
     2.  **Einingarverð**: **200**  
 
-6.  Velja hnappinn **Í lagi** til að loka síðunni.  
+6.  Lokaðu síðunni.  
 7.  Veldu aðgerðina **Fjárhagsreikningur**.  
 8.  Á síðunni **Fjárhagsreikningsverð verks** færið inn eftirfarandi upplýsingar og ferðakostnað, sem viðskiptavinur hefur samþykkt að greiða kostnaði og að auki 25 prósent:  
 
     1.  **Fjárhagsreikningur**: **8430 (Ferðir)**  
     2.  **Stuðull einingaverðs**:**1,25**  
 
-9. Velja hnappinn **Í lagi** til að loka síðunni.  
+9. Lokaðu síðunni.  
 
  Síðustu skrefin í uppsetningu verks eru að bæta við verkhlutana og áætlunarlínurnar sem eru hluti af hverju verki. Áætlunarlínurnar ákvarða hvað er reikningsfært á viðskiptamanninn.  
 
@@ -176,9 +179,9 @@ ms.locfileid: "1249630"
 
 -   **Áætlun**: Bætt við áætlun en ekki reikningsfært.  
 -   **Samningur**: Reikningsfærður, en ekki bætt við tímasetninguna.  
--   **Bæði áætlun og samningur**: Reikningsfærð og bætt við tímasetninguna.  
+-   **Bæði fjárhagsáætlun og reikningshæft**: Reikningsfært og bætt við áætlunina.  
 
- Í þessari kynningu. notar verkefnastjórinn **Bæði áætlun og samning**. Hann stofnar þrjár áætlunarlínur fyrir verk 1010 og tvær áætlunarlínur fyrir verk 1020.  
+ Í þessari kynningu. notar verkefnastjórinn **Bæði fjárhagsáætlun og reikningshæft**. Hann stofnar þrjár áætlunarlínur fyrir verk 1010 og tvær áætlunarlínur fyrir verk 1020.  
 
 ### <a name="to-create-planning-lines"></a>Til að stofna áætlunarlínur  
 
@@ -186,7 +189,7 @@ ms.locfileid: "1249630"
 
      **Lína 1**  
 
-    -   **Línu tegund**: **Bæði áætlun og samningur**  
+    -   **Tegund línu**: **Bæði fjárhagsáætlun og reikningshæft**  
     -   **Dagsetning áætlunar**: **(dagurinn í dag)**  
     -   **Gerð**: **Forði**  
     -   **Nr.**: **Trausti**  
@@ -194,7 +197,7 @@ ms.locfileid: "1249630"
 
      **Lína 2**  
 
-    -   **Tegund línu**: **Bæði áætlun og samningur**  
+    -   **Tegund línu**: **Bæði fjárhagsáætlun og reikningshæft**  
     -   **Dagsetning áætlunar**: **(dagurinn í dag)**  
     -   **Gerð**: **Forði**  
     -   **Nr.**: **Timothy**  
@@ -202,19 +205,19 @@ ms.locfileid: "1249630"
 
      **Lína 3**  
 
-    -   **Línu tegund**: **Bæði áætlun og samningur**  
+    -   **Tegund línu**: **Bæði fjárhagsáætlun og reikningshæft**  
     -   **Dagsetning áætlunar**: **(dagurinn í dag)**  
     -   **Gerð**: **Fjárhagsreikningur**  
     -   **Nr.**: **8430 (ferðalög)**  
     -   **Magn**: **2**  
     -   **Kostnaðarverð**:**400**  
 
-2.  Velja hnappinn **Í lagi** til að loka síðunni. Samtölurnar eru uppfærðar á síðunni **Verkhlutalínur verks**.  
+2.  Lokaðu síðunni. Samtölurnar eru uppfærðar á síðunni **Verkhlutalínur verks**.  
 3.  Veljið línu 1020 og veljið svo aðgerðina **Verkáætlunarlínur**. Eftirfarandi upplýsingar eru færðar inn:  
 
      **Lína 1**  
 
-    -   **Línu tegund**: **Bæði áætlun og samningur**  
+    -   **Tegund línu**: **Bæði fjárhagsáætlun og reikningshæft**  
     -   **Dagsetning áætlunar**: **(dagurinn í dag)**  
     -   **Gerð**: **Forði**  
     -   **Nr.**: **Trausti**  
@@ -222,13 +225,13 @@ ms.locfileid: "1249630"
 
      **Lína 2**  
 
-    -   **Línu tegund**: **Bæði áætlun og samningur**  
+    -   **Tegund línu**: **Bæði fjárhagsáætlun og reikningshæft**  
     -   **Dagsetning áætlunar**: **(dagurinn í dag)**  
     -   **Tegund**: **Vara**  
     -   **Nr.**: **80201 (Myndvinnsluforrit)**  
     -   **Magn**: **1**  
 
-4.  Velja hnappinn **Í lagi** til að loka síðunni. Samtölur eru uppfærðar á síðunni **Verkhlutalínur verks**.  
+4.  Lokaðu síðunni. Samtölur eru uppfærðar á síðunni **Verkhlutalínur verks**.  
 
 ## <a name="calculating-remaining-usage"></a>Útreikningur á notuðum eftirstöðvum  
  Tinna, sem er teymismeðlimur í verkefninu, hefur unnið í verkinu í nokkurn tíma og vill skrá tímana sína og notkun á verkið. Hún hefur verið unnið fleiri klukkutíma en það sem um var samið við viðskiptavininn. Hún notar keyrsluna **Reikna notaðar eftirstöðvar** til að reikna eftirstöðvar fyrir verk í verkbók. Keyrslan reiknar út, fyrir hvert verk, mismuninn milli áætlaðrar notkunar vöru, forða og fjárhagsútgjalda, og notkunar í raun samkvæmt bókuðum verkbókarfærslum. Eftirstandandi notkun er síðan sýnd í verkbókinni, og má bóka hana þaðan.  
@@ -242,9 +245,10 @@ ms.locfileid: "1249630"
 5.  Á flýtiflipanum **Valkostir** er **J00001** slegið inn í reitinn **Númer fylgiskjals**. Þetta gerir rakningu bókunar auðveldari á síðari stigum.  
 6.  Dagurinn í dag er færður inn sem bókunardagsetningin.  
 7.  Velja hnappinn **Í lagi**. Þetta myndar verkbókarlínurnar sem leiddar eru af áætlunarlínum sem Petra stofnaði fyrir Verkbókina.  
-8.  Velja hnappinn **Í lagi** á staðfestingarsíðunni. Mynduðum línum er bætt við verkbók.  
+8.  Veldu hnappinn **Í lagi** á staðfestingarsíðunni. Mynduðum línum er bætt við verkbók.  
 9. Ganga þarf úr skugga um að öll skjöl séu númeruð J00001 og velja svo **Bóka** aðgerðina. Velja **Já** til að staðfesta bókun.  
-10. Línurnar eru bókaðar. Velja hnappinn **Í lagi** til að loka síðunum.  
+
+Línurnar eru bókaðar.  
 
 ## <a name="creating-and-posting-a-job-sales-invoice"></a>Reikningur verksölu stofnaður og bókaður  
  Næst skal Trausti stofna nýjan reikning fyrir allt verkið eða fyrir hluta af verkinu. Einnig má hengja reikninginn við annan reikning fyrir sama viðskiptavin fyrir sama verkið. Í þessu tilfelli, er reikningar gerðir fyrir allt verkið, þar sem verkinu er lokið.  
@@ -293,16 +297,16 @@ ms.locfileid: "1249630"
 4.  Á síðunni **Verkhlutalínur** veljið línu 1120 og veljið svo aðgerðina **Verkáætlunarlínur**.  
 5.  Veljið aðgerðina **Nýtt** til að Búa til nýtt Ný lína er stofnuð með eftirfarandi upplýsingum:  
 
-    -   **Línu tegund**: **Bæði áætlun og samningur**  
+    -   **Tegund línu**: **Bæði fjárhagsáætlun og reikningshæft**  
     -   **Gerð**: **Forði**  
     -   **Nr.**: **Trausti**  
     -   **Magn**: **30**  
 
-7.  Velja hnappinn **Í lagi** til að loka síðunni.  
+7.  Lokaðu síðunni.  
 8.  Í reitnum **Tímasetning (heildarkostnaður)**, hægrismella á reitinn og velja **KafaNiður** aftur á síðunni **Verkhlutalínur verks**. Skoða breytingarnar á tímasetningunni. Sjá má að 30 klukkustundum hefur verið bætt við tímasetninguna.  
-9. Velja hnappinn **Í lagi** til að loka síðunum.  
+9. Loka síðunum.  
 
- Eftir að Trausta hefur verið bætt við tímasetninguna í þessa verkhlutalínu þá vinnur hann 25 klukkustundir við verkið. Þessar klukkustundir færir hún inn í Verkbókina.  
+Eftir að Trausta hefur verið bætt við tímasetninguna í þessa verkhlutalínu þá vinnur hann 25 klukkustundir við verkið. Þessar klukkustundir færir hún inn í Verkbókina.  
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Tímum bætt í Verkbókina  
 
@@ -333,9 +337,11 @@ ms.locfileid: "1249630"
     -   **Verk Nr.**: **Guildford**  
     -   **Verkhlutanr.**: **1120**  
 
-     Velja hnappinn **Í lagi** til að keyra útreikninginn. Fimm vinnustundir eru eftir fyrir Tinnu. Reiturinn **Línugerð** er auður sem gefur til kynna að tímarnir verða bókaðir vegna þess að vinnan hefur þegar farið fram.  
+7. Velja hnappinn **Í lagi** til að keyra útreikninginn.
 
-7.  Í glugganum **Verkbókakeyrslur** er ný lína stofnuð með eftirfarandi upplýsingum. Ganga þarf úr skugga um að bæði verknúmer séu í réttri númeraröð miðað við þau sem þegar hafa verið notuð:  
+    Fimm vinnustundir eru eftir fyrir Tinnu. Reiturinn **Línugerð** er auður sem gefur til kynna að tímarnir verða bókaðir vegna þess að vinnan hefur þegar farið fram.  
+
+8.  Í glugganum **Verkbókakeyrslur** er ný lína stofnuð með eftirfarandi upplýsingum. Ganga þarf úr skugga um að bæði verknúmer séu í réttri númeraröð miðað við þau sem þegar hafa verið notuð:  
 
     -   **Tegund línu**: **Áætlun**  
     -   **Verk Nr.**: **Guildford**  
@@ -346,17 +352,17 @@ ms.locfileid: "1249630"
 
      Með því að nota línugerðina **Áætlun** uppfærir kerfið áætlaðan kostnað og verð án uppfærslu samningskostnaðar og verðs sem er reikningsfært á viðskiptamanninn.  
 
-8.  Valið er **Bóka** aðgerðin. Velja hnappinn **Í lagi** til að loka síðunni.  
-9. Listinn **Verk** er opnaður.  
-10. Guildford verkið er valið og svo er valin **Verkhlutalínur verks** aðgerðina.  
-11. Lína 1120 er valin og í reitnum **Tímasetning (heildarkostnaður)** er hægrismellt á upphæðina. **Köfun** er valin til að skoða upplýsingarnar.  
+9.  Valið er **Bóka** aðgerðin. Velja hnappinn **Í lagi** til að loka síðunni.  
+10. Listinn **Verk** er opnaður.  
+11. Guildford verkið er valið og svo er valin **Verkhlutalínur verks** aðgerðina.  
+12. Lína 1120 er valin og í reitnum **Tímasetning (heildarkostnaður)** er hægrismellt á upphæðina. **Köfun** er valin til að skoða upplýsingarnar.  
 
      Sjá má að breytingarnar færast sjálfkrafa inn í línuna fyrir Verkhlutanúmer 1120. Í heildarkostnað áætlaðrar vinnu, fimm öðrum tíma viðbótartímar Trausta hefur verið bætt við tímasetninguna.  
 
-12. Velja hnappinn **Loka** til að loka síðunni.  
-13. Hægrismella skal á upphæðina í reitnum **Samningur (heildarkostnaður)** og velja **KafaNiður** til að skoða upplýsingarnar.  
+13. Velja hnappinn **Loka** til að loka síðunni.  
+14. Hægrismella skal á upphæðina í reitnum **Samningur (heildarkostnaður)** og velja **KafaNiður** til að skoða upplýsingarnar.  
 
-     Í heildarverði samnings koma aðeins fram hinir upphaflegu 30 tímar sem voru innifaldir í verkinu vegna þess að um það var samið við viðskiptamanninn.  
+Í heildarverði samnings koma aðeins fram hinir upphaflegu 30 tímar sem voru innifaldir í verkinu vegna þess að um það var samið við viðskiptamanninn.  
 
 ## <a name="copying-jobs"></a>Verk afrituð  
  Petra hefur náð samkomulagi við viðskiptamann, Selagorian hf, um að setja upp 10 fundarsali. Samningurinn er svipaður eldri verkum. Þess vegna mun spara tíma að afrita fyrra verkið.  
@@ -383,7 +389,7 @@ ms.locfileid: "1249630"
 
 5.  Velja hnappinn **Í lagi** til að afrita verkið og velja svo **Í lagi** til að loka staðfestingarsíðunni.  
 
-     Með því að bera saman verð, verkhlutalínur og áætlunarlínur fyrir verkin tvö má sjá að það tókst að afrita upplýsingarnar.  
+Með því að bera saman verð, verkhlutalínur og áætlunarlínur fyrir verkin tvö má sjá að það tókst að afrita upplýsingarnar.  
 
 ## <a name="making-payments-by-installments"></a>Framkvæma greiðslu með inngreiðslu  
  CRONUS hefur nýlega fengið stórt verkefni sem tekur um eitt ár að ljúka. Vegna þess hvað verkefnið þarfnast mikilla aðfanga setur verkefnastjórinn samninginn þannig upp, að farið er fram á að viðskiptamaðurinn borgi hluta af verðinu fyrirfram, hluta af verðinu þegar verkið er hálfnað og lokagreiðslu þegar því er lokið.  
@@ -397,7 +403,7 @@ ms.locfileid: "1249630"
     -   **Nr.**: **6630**  
     -   **Heiti**: **Greiðsla fyrir verk**  
 
-4.  Á flipanum **Bókun** er reiturinn **Alm. vörubókunarflokkur** fylltur út, velja **ÝMISL**. Velja hnappinn **Í lagi** til að loka síðunni.  
+4.  Á flipanum **Bókun** er reiturinn **Alm. vörubókunarflokkur** fylltur út, velja **ÝMISL**. Lokaðu síðunni.  
 5.  Á síðunni **Bókhaldslykill** veljið **Nr. 6630 greiðsla fyrir verk** og svo aðgerðina **Inndráttur bókhaldslykill**. Veljið **Já** til staðfestingar.  
 
  Eftirfarandi ferli sýnir hvernig eigi að stofna nýtt verk, stilla verðlagningu og síðan setja upp greiðslur með inngreiðslu. Í verkhlutalínu er hægt að stofna sérstakar línur fyrir greiðslur með inngreiðslum. Vinna sem lokið er við fyrir verkið sem er bætt við áætlunina eru færðar inn í notkunarlínurnar. Fyrir hverja greiðsluhlutalínu í áætlunarlínunum, er línugerðin Samningur, sem þýðir að reikningur verður sendur til viðskiptamanns. Færð er inn ný lína fyrir útborgunina. Í notkunarverklínuna er hægt að færa inn upplýsingar um vörur og forða sem notuð voru í verkið, sem mun auka við áætlunina, t.d. vinnutíma starfsmanna og vörur sem notaðar voru í verkið.  
@@ -417,7 +423,7 @@ ms.locfileid: "1249630"
     -   **Kóti**: **Trausti**  
     -   **Einingarverð**: **10**  
 
-     Velja hnappinn **Í lagi** til að loka síðunni.  
+     Lokaðu síðunni.  
 
 4.  Á spjaldinu **Verk** skal velja **Verkhlutalínur** aðgerðina.  
 
@@ -440,7 +446,7 @@ ms.locfileid: "1249630"
     -   **Magn**: **1**  
     -   **Einingarverð**: **5000**  
 
-     Velja hnappinn **Í lagi** til að loka síðunni.  
+     Lokaðu síðunni.  
 
 7.  Á síðunni **Verkhlutalínur** veljið **Verk 2000** og opnið **Áætlunarlínur verks**.  
 
@@ -449,9 +455,9 @@ ms.locfileid: "1249630"
     |Lína|Línugerð|Áætlunardagsetning|Tegund|Fj.|Magn|  
     |----------|---------------|-------------------|----------|---------|--------------|  
     |1|Tímasetning|(dagurinn í dag)|Forði|Tinna|120|  
-    |2|Tímasetning|(dagurinn í dag)|Atriði|70104|10|  
+    |2|Tímasetning|(dagurinn í dag)|Vara|70104|10|  
 
-     Velja hnappinn **Í lagi** til að loka síðunni. Á síðunni **Verkhlutalínur** er hægt að skoða áætlaðar upphæðir sem voru uppfærðar.  
+     Lokaðu síðunni. Á síðunni **Verkhlutalínur** er hægt að skoða áætlaðar upphæðir sem voru uppfærðar.  
 
 8.  Á síðunni **Verkhlutalínur verks** er verk **3000**.  
 9. Stofna áætlunarlínu með eftirfarandi upplýsingum:  
@@ -463,7 +469,7 @@ ms.locfileid: "1249630"
     -   **Magn**: **1**  
     -   **Einingarverð**: **5000**  
 
-     Velja hnappinn **Í lagi** til að loka síðunni.  
+     Lokaðu síðunni.  
 
 10. Stofna svipaða áætlunarlínufærslu fyrir verkhluta 4000.  
 

@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: /dynamics365/business-central/admin-set-up-company-configuration
 ROBOTS: NOINDEX
-ms.openlocfilehash: e1cfcc47d5fb1112c4422be93ab49a345e9a30ec
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: 908e460ae5a3fc8ecb804f27363a1cfad71d997c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726906"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307926"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Nota Mitt hlutverk RapidStart Services innleiðara
-Þegar RapidStart Services er notuð mælum við með því að nota Mitt hlutverk RapidStart Services innleiðara því hún býður upp á rétt samhengi fyrir grunnstillingarvinnuna. Frekari upplýsingar er að finna í [Að breyta Hlutverkamiðstöð](ui-change-basic-settings.md#to-change-role-center).
+Þegar RapidStart Services er notuð mælum við með því að nota Mitt hlutverk RapidStart Services innleiðara því hún býður upp á rétt samhengi fyrir grunnstillingarvinnuna. Nánari upplýsingar er að finna í [Að breyta hlutverkinu](ui-change-basic-settings.md#to-change-the-role).
 
 Þegar haldið er áfram með verkið, er hægt að úthluta hverri töflu stöðuna sem endurspeglar hvar notandi er staddur í ferlinu. [!INCLUDE[d365fin](includes/d365fin_md.md)] hendir síðan reiður á töflustöðunni í hlutanum **Aðgerðir** í Mitt hlutverk.  
 

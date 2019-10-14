@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c23e34cfe0a1684a4bd5b95b60f56f0e411608ab
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1fb7f049e253e70e9170c257848b3738dec9d176
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251804"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312173"
 ---
 # <a name="merge-duplicate-records"></a>Sameina tvíteknar færslur
 Með tímanum stofna ýmsir notendur nýjan viðskiptamann, lánardrottin eða tengiliðaspjöld, eða nýju færslurnar eru stofnaðar sjálfkrafa við flutning, og því getur gerst að viðskiptamaður, lánardrottinn eða tengiliður komi fram í kerfinu í fleiri en einni færslu. Í slíkum tilfellum er hægt að nota síðuna **Sameina tvítekið atriði** úr spjaldinu með færslunni sem á að halda í. Síðan veitir yfirlit yfir tvítekin reitargildi og býður upp á virkni til að velja hvaða gildum skuli halda eða fleygja þegar tvær færslur eru sameinaðar sem ein.

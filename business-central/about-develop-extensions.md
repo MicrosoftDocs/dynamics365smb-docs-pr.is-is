@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 369fcd1905d701f7262e1b4d444dc20321b393e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241387"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300882"
 ---
-# <a name="extending-included365finincludesd365finmdmd"></a>Stækka [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="extending-included365finincludesd365fin_mdmd"></a>Stækka [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er viðskiptahugbúnaður sem hjálpar fyrirtækjum að tengja fjármálin, sölur, þjónustu og aðgerðir sínar til að einfalda viðskiptaferla, bæta samskipti við viðskiptavini og taka betri ákvarðanir. [!INCLUDE[d365fin](includes/d365fin_md.md)] er fáanlegt í skýinu og handa notendum á alls kyns gerðum af tækjum, sem er alltaf uppfært. Með þessum nútíma viðskiptavettvangi getur þú auðveldlega og á fljótlegan hátt aðlagað, stækkað og smíðað forrit svo þau passi sérstaklega við þínar þarfir - með lítilli sem engri þróun á kóða.  
 
 Það eru fjölmargir kostir við að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem vettvang fyrir forritasmiði, sem eru t.a.m.:
@@ -30,7 +30,7 @@ Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er viðskiptahug
 * Auktu virði viðskipta og auktu stærð samninga við núverandi og nýja viðskiptavini
 * Afkastið meira á vettvangi sem tryggir nútímalega upplifun og býður upp á mikið umfang  
 * Fáðu innsýn í frammistöðu skráninganna þinna sem hægt er að bregðast við í gegnum samstarfsgátt skýsins eða birtingarferli Office-forritsins
-* Notið það samhliða snjallforritum fyrir rekstur, svo sem PowerApps, Flow, Power BI, Cortana Intelligence, og mörg fleiri  
+* Búnt með snjallviðskiptaforritum eins og PowerApps, Flow, Power BI, Azure AI og mörgum fleiri  
 
 Komdu með [!INCLUDE[d365fin](includes/d365fin_md.md)] þjónustu þína til Microsoft AppSource sem:
 
@@ -41,9 +41,9 @@ Nýju þróunarverkfærin gera þér kleift að búa til viðbætur fyrir [!INCL
 
 Finndu upplýsingar um forrit og ráðgjafarþjónustur sem eru í boði á [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
-Til að hjálpa viðskiptanotendum að byrja á fljótlegan hátt hefur Microsoft bætt við vörulista af ráðgjafarþjónustum fyrir lausnir sem byggjast á [!INCLUDE[d365fin](includes/d365fin_md.md)], Power BI og PowerApps til AppSource. Frekari upplýsingar um [Ráðgjafarþjónustur](/dynamics-nav/developer/readiness/readiness-consulting).
+Til að hjálpa notendum við að byrja á fljótlegan hátt hefur Microsoft bætt við vörulista yfir þjónustutilboð fyrir lausnir byggðar á [!INCLUDE[d365fin](includes/d365fin_md.md)], Power BI og PowerApps til AppSource. Frekari upplýsingar um [Ráðgjafarþjónustur](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 
-## <a name="choosing-which-services-to-offer-with-included365finincludesd365finmdmd"></a>Velja hvaða þjónustur til að bjóða með [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="choosing-which-services-to-offer-with-included365finincludesd365fin_mdmd"></a>Velja hvaða þjónustur til að bjóða með [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ### <a name="integrate-a-3rd-party-solution"></a>Samþætta lausnir þriðja aðila
 [!INCLUDE[d365fin](includes/d365fin_md.md)] birtir marga API sem eru tilbúnir til notkunar fyrir [Tengja forrit](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) til að búa til hnökralausa samþættingu milli þjónustu þinnar og [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þú getur sameinað þjónustur þínar með [!INCLUDE[d365fin](includes/d365fin_md.md)] og gefið viðskiptavinum þínum samþætta upplifun. Frekari upplýsingar um [Samþætta lausnir þriðja aðila](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
@@ -55,7 +55,7 @@ Búa til forrit sem sérhæfir sig í tiltekinni atvinnugrein. Með [Innleiða f
 Víkkaðu út upplifunina og möguleikana á [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að búa til [Viðbótarforrit](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps) sem samþættast við notendaupplifunina á [!INCLUDE[d365fin](includes/d365fin_md.md)]. Smíðaðu notandaviðmót sem byggir á því hvernig þú vilt að gögnin þín flæði á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og þjónustu þinnar. Frekari upplýsingar um [Þróun á láréttri lausn](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal).
 
 ### <a name="development-of-a-localization-solution"></a>Þróun á staðfærslulausn
-Fylgdu staðbundnum eftirlitseiginleikum með því að þróa fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)], sem aðlagar virk svæði að kröfum staðbundins markaðar ásamt [Dynamics 365 þýðingarþjónustunni](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview). Samstilltu kjarnastarfsemi staðbundinnar lagaskyldu og víkkaðu út núverandi virkni til að keppa á staðbundna markaðnum þínum með góðum árangri. Frekari upplýsingar um [Þróun á staðfærslulausn](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
+Fylgdu staðbundnum eftirlitseiginleikum með því að þróa fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)], sem aðlagar virk svæði að kröfum staðbundins markaðar ásamt [Dynamics 365 þýðingarþjónustunni](/dynamics365/unified-operations/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview). Samstilltu kjarnastarfsemi staðbundinnar lagaskyldu og víkkaðu út núverandi virkni til að keppa á staðbundna markaðnum þínum með góðum árangri. Frekari upplýsingar um [Þróun á staðfærslulausn](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### <a name="reseller-solution"></a>Lausn endursöluaðila
 Þar sem hvert fyrirtæki er einstakt, með [Sérstillingar leigjanda](/dynamics-nav/developer/readiness/readiness-customizing-tenants), getur þú lagað þig að því hvernig þú vinnur með einföldum ferlum þínum, hugtökum þínum og hvernig starfsmenn eða deildir tengjast og vinna saman. Að auki getur þú valið að endurselja og stilla [!INCLUDE[d365fin](includes/d365fin_md.md)] að þörfum hvers viðskiptavinar með því að veita [Ráðgjafarþjónustu](/dynamics-nav/developer/readiness/readiness-consulting). Eða notaðu Microsoft Flow, Power Apps og Power BI til að búa til [Sérsniðin verkflæði](/dynamics-nav/developer/readiness/readiness-no-code), forrit og skýrslur um innsýn í viðskipti án þess að þurfa að skrifa kóða. Frekari upplýsingar um [Endursöluaðili Dynamics 365 (VAR)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
@@ -76,7 +76,7 @@ Forritið sem er tilbúið til notkunar er hannað til að styðja þig við að
 
 Lærðu meira um hvernig þú getur byggt upp [!INCLUDE[d365fin](includes/d365fin_md.md)] tilboð í upplýsingunum [Forrit tilbúið til notkunar](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go). Ef þú hefur spurningar eða athugasemdir um forritið **Tilbúið til notkunar** geturðu [haft samband við okkur](mailto:dyn365bep@microsoft.com).
 
-## <a name="included365finincludesd365finmdmd-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Viðbætur sem Microsoft útvegar
+## <a name="included365finincludesd365fin_mdmd-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)] Viðbætur sem Microsoft útvegar
 Staðalútgáfan af vörunni inniheldur aukinn fjölda viðbóta sem Microsoft hefur þróað. Frekari upplýsingar skoða [Sérstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] Nota viðbætur](ui-extensions.md).
 
 ## <a name="see-also"></a>Sjá einnig

@@ -1,6 +1,6 @@
 ---
-title: Rekja aðgerðir notanda í breytingaskrá| Microsoft Docs
-description: Hægt er að virkja breytingaskrá svo að þú hafir yfirlit yfir allar breytingar sem gerðar hafa verið á gögnum í röktum töflum.
+title: Endurskoðun breytinga| Microsoft docs
+description: Hægt er að virkja breytingaskrá svo að þú hafir yfirlit yfir allar breytingar sem gerðar hafa verið á gögnum í röktum töflum. Þú getur einnig rakið aðgerðir með tilteknum gerðum aðgerðakladda.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fc14d11bf75ea39553c1ed04986273903874a0e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240442"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304931"
 ---
 # <a name="auditing-changes-in-business-central"></a>Endurskoðunarbreytingar í Business Central
 
@@ -38,9 +38,15 @@ Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráni
 
 Þegar breytingaskrá hefur verið sett upp, virkjuð og einhver hefur breytt gögnum skráir forritið breytinguna í breytingaskrárfærslu. Hægt er að skoða og afmarka breytingarnar á síðunni **Breytingaskrárfærslur**. Ef á að eyða færslum er hægt að gera það á síðunni **Eyða breytingaskrárfærslum** þar sem hægt er að stilla afmarkanir eftir dagsetningu og tíma.  
 
+## <a name="working-with-activity-logs"></a>Vinna með aðgerðakladda
+
+Á sumum síðum í [!INCLUDE [prodshort](includes/prodshort.md)] er hægt að skoða aðgerðarkladda sem sýnir stöðu og allar villur úr skrám sem þú flytur út úr eða flytur inn í [!INCLUDE [prodshort](includes/prodshort.md)].  
+
+Upplýsingarnar eru birtar á síðunni **aðgerðarkladdi** í samræmi við samhengið sem þær eru opnaðar úr. Hægt er að opna gluggann **skjalaskiptaþjónusta**, **skjal á innleið**, **bókaðan sölureikning** og **bókaðan sölukreditreikning** síður, til dæmis. Hægt er að tæma listann yfir kladdafærslur eða hreinsa lista yfir færslur sem eru eldri en 7 daga.  
+
 ## <a name="see-also"></a>Sjá einnig
-[Breyta grundvallarstillingum](ui-change-basic-settings.md)  
+[Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Röðun](ui-sorting.md)  
-[Nota Viðmótsleit til að finna eiginleika og upplýsingar](ui-search.md)  
+[Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
 [Vinna með notendur og heimildir](ui-how-users-permissions.md)    
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

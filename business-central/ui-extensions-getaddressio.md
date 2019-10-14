@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 5c83a5bc7fbe91b9ff0592c5129f5a7dd5887c2c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5fa6a6382d75bc29384ab31a78265fa2ed6954dc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250044"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311237"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension"></a>Viðbótin GetAddress.io UK Postcodes
 GetAddress.io UK Postcodes viðbótin getur sparað tíma og komið í veg fyrir mistök þegar þú slærð inn heimilisföng fyrir aðila eins og viðskiptamenn, lánardrottna, bankareikninga og starfsmenn. Þegar þú ert til dæmis að búa til viðskiptamann velurðu einfaldlega póstnúmer og [!INCLUDE[d365fin](includes/d365fin_md.md)] sýnir lista yfir heimilisföng. Veldu heimilisfangið sem þú vilt heimilisfangareitir eru fylltir út.  

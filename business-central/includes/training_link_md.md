@@ -1,1 +1,1 @@
-Fáðu [þjálfun!](/dynamics365/get-started/training/)
+Fáðu [þjálfun!](/learn/browse/?products=dynamics-business-central)

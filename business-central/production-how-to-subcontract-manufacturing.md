@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dac30e8c48e37464bc503fcc1d2961cc5721868
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253011"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313061"
 ---
 # <a name="subcontract-manufacturing"></a>Úthýsa framleiðslu til undirverktaka
 Úthýsing á völdum aðgerðum til lánardrottna er algeng í mörgum framleiðslufyrirtækjum. Undirverktakastarfsemi getur verið sjaldgæf hending eða mikill þáttur í öllum framleiðsluferlum.
 
-Kerfið býður upp á nokkur verkfæri til að sjá um starfsemi undirverktaka:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] býður upp á nokkur verkfæri til að sjá um starfsemi undirverktaka:  
 
 - Vinnustöðvar með úthlutaðan lánardrottin: Þessi aðgerð gerir það mögulegt að setja upp vinnustöð sem er tengd lánardrottni (undirverktaka). Þetta heitir vinnustöð undirverktaka. Hægt er að tiltaka vinnustöð undirverktaka í leiðaraðgerð, sem gerir það mögulegt að meðhöndla undirverktakastarfsemina auðveldlega. Þar að auki er hægt að ákvarða kostnað aðgerðarinnar á leiðar- eða vinnustöðvarstiginu.  
-- Kostnaður vinnustöðvar byggt á einingum eða tíma: Þessi aðgerð gerir það mögulegt að taka fram hvort kostnaður tengdur vinnustöðinni er byggður á framleiðslutímanum eða flatt gjald fyrir hverja einingu. Þó svo að undirverktakar noti yfirleitt flatt gjald fyrir hverja einingu til að fá borgað fyrir þjónustu sína getur kerfið ráðið við báða valkosti (framleiðslutíma og flatt gjald fyrir hverja einingu)  
-- Vinnublað undirverktakasamnings: Þessi aðgerð gerir það mögulegt að finna framleiðslupantanir með efni sem er tilbúið til sendingar til undirverktaka og að búa sjálfkrafa til innkaupapantanir fyrir aðgerðir undirverktaka frá leiðum framleiðslupöntunar. Þá bókar kerfið sjálfkrafa gjöldin fyrir innkaupapöntunina á framleiðslupöntunina á meðan á bókun innkaupapöntunarinnar stendur. Aðeins er hægt að fá aðgang að og nota framleiðslupantanir sem hafa stöðuna útgefin á vinnublaði undirverktaka.  
+- Kostnaður vinnustöðvar byggt á einingum eða tíma: Þessi aðgerð gerir það mögulegt að taka fram hvort kostnaður tengdur vinnustöðinni er byggður á framleiðslutímanum eða flatt gjald fyrir hverja einingu. Þó svo að undirverktakar noti yfirleitt flatt gjald fyrir hverja einingu til að fá borgað fyrir þjónustu sína getur forritið ráðið við báða valkosti (framleiðslutíma og flatt gjald fyrir hverja einingu).  
+- Vinnublað undirverktakasamnings: Þessi aðgerð gerir það mögulegt að finna framleiðslupantanir með efni sem er tilbúið til sendingar til undirverktaka og að búa sjálfkrafa til innkaupapantanir fyrir aðgerðir undirverktaka frá leiðum framleiðslupöntunar. Þá bókar forritið sjálfkrafa gjöldin fyrir innkaupapöntunina á framleiðslupöntunina á meðan á bókun innkaupapöntunarinnar stendur. Aðeins er hægt að fá aðgang að og nota framleiðslupantanir sem hafa stöðuna útgefin á vinnublaði undirverktaka.  
 
 ## <a name="subcontract-work-centers"></a>Vinnustöðvar undirverktaka  
 Vinnustöðvar undirverktaka eru  settar upp eins og venjulegar vinnustöðvar með viðbótarupplýsingar. Þeim er úthlutað á leiðir á sama hátt og aðrar vinnustöðvar.  

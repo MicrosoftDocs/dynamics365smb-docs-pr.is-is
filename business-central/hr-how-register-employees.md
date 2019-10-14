@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: db891aae40ff3d681173a7ced673a30fcf4e0629
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: db5b7bdf247919b12a6c803dd33f0f9ff8caf7cc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243895"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301493"
 ---
 # <a name="register-employees"></a>Skrá starfsmenn
 Til að nota eiginleikann Mannauður þarf fyrst að skrá hvern starfsmann með því að búa til spjald með öllum grunnupplýsingum og öðrum tengdum upplýsingum.
@@ -60,4 +60,4 @@ Hægt er að nota önnur aðsetur til að halda utan um aðsetur starfsmanns, ti
 [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)
+[Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)

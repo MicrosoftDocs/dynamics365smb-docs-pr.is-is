@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 07/08/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c86f1c3c40f80ec993d0a3a89154047ddf9e8126
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: b57b87dd8cdc9390ed5b1b7136107639f689c192
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755242"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304997"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>Notkun [!INCLUDE [prodlong](includes/prodlong.md)] sem Power BI gagnagjafa fyrir skýrslugerð
 
@@ -28,10 +28,7 @@ Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes
 1. Í Power BI Desktop, á vinstra yfirlitssvæðinu, skal velja **Sækja gögn**.
 2. Á síðunni **Ná í gögn** skal velja **Þjónusta á netinu**, velja **Microsoft Dynamics 365 Business Central** og síðan velja hnappinn **Tengjast**.
 3. Power BI birtir leiðsagnarforrit sem leiðbeinir þér gegnum tengingarferlið. Þú verður beðin/n um að skrá þig inn í [!INCLUDE [prodshort](includes/prodshort.md)]. Veljið **Skrá inn** og svo reikninginn sem ætlunin er að skrá sig inn á. Þetta ætti að vera sami reikningur og við innskráningu á [!INCLUDE [prodshort](includes/prodshort.md)].
-4. Veldu hnappinn **Tengjast** til að halda áfram. Leiðsagnarforrit Power BI sýnir lista yfir Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrirtæki og gagnaveitur. Þessar gagnaveitur tákna allar vefþjónustur sem notandi hefur birt úr hverju fyrirtæki í [!INCLUDE [prodshort](includes/prodshort.md)].
-
-  ![powerbi_webservices.png](media/across-how-use-financials-data-source-powerbi/powerbi_webservices.png)
-
+4. Veldu hnappinn **Tengjast** til að halda áfram. Power BI leiðsagnarforritið sýnir lista yfir Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)] umhverfi, fyrirtæki og gagnaveitur. Þessar gagnaveitur tákna allar vefþjónustur sem notandi hefur birt úr hverjum leigjanda/fyrirtæki í [!INCLUDE [prodshort](includes/prodshort.md)].
 5. Einnig er hægt að stofna nýja vefslóð vefþjónustu í [!INCLUDE [prodshort](includes/prodshort.md)] með því að nota aðgerðina **Stofna gagnamengi** á síðunni **Vefþjónustur** með því að nota Uppsetningu með hjálp fyrir **Setja upp skýrslugerð** eða með því að velja aðgerðina **Breyta í Excel** í hvaða lista sem er.
 6. Tilgreinið gögnin sem notandi vill bæta við gagnalíkanið þitt og veljið svo hnappinn **Hlaða**.
 7. Endurtaktu fyrri skref til að bæta við viðbótar [!INCLUDE [prodshort](includes/prodshort.md)] eða öðrum gögnum í Power BI gagnalíkanið þitt.

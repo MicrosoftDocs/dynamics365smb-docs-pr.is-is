@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Unnið með víddir" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="Hvernig á að: stofna fjárhagsáætlun" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="Hvernig á að: Bóka færslu beint í Fjárhag" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="Hvernig á að: Bakfæra bókanir." Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Hvernig á að Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="Hvernig á að: úthluta kostnaði og tekjum" Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="Hvernig á að: Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Hvernig á að: Skrá og endurgreiða starfsmannaútgjöld." Page="finance-how-record-reimburse-employee-expenses.html"/>

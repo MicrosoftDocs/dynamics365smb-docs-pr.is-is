@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c565f3f4419f8132ac643ca47c071b3791e147c2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240350"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309941"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Talning, breytingar og endurflokkun birgða með færslubókum
 Minnst einu sinni á hverju fjárhagsári þarf að telja raunbirgðir (það er, telja allar vörur á lager) til að athuga hvort magnið sem skráð er í kerfinu sé það sama og raunbirgðir á lager. Þegar búið er að finna út úr raunbirgðum þarf að bóka þær í fjárhag þegar fram fer mat á birgðum við lok tímabils.
@@ -68,7 +68,7 @@ Hægt er að framkvæma raunbirgðatalningu á aðra af eftirfarandi vegu eftir 
 6. Veljið aðgerðina **Reikna Birgðir**. Beiðnisíða keyrslunnar **Reikna vöruhúsabirgðir** opnast.  
 7.  Afmarkanirnar eru stillta til að takmarka vörurnar sem telja á í færslubókinni og síðan er smellt á **Í lagi**.
 
-    Stofnuð er sérstök lína í kerfinu fyrir hvert hólf sem uppfyllir skilyrði afmörkunarinnar. Á þessu stigi er enn hægt að eyða einhverjum línum en ef bóka á niðurstöðurnar sem raunbirgðir þarf að telja vöruna í öllum hólfum þar sem hún er geymd.    
+    Stofnuð er sérstök lína í forritinu fyrir hvert hólf sem uppfyllir skilyrði afmörkunarinnar. Á þessu stigi er enn hægt að eyða einhverjum línum en ef bóka á niðurstöðurnar sem raunbirgðir þarf að telja vöruna í öllum hólfum þar sem hún er geymd.    
 
      Ef aðeins er tími til að telja vöruna í sumum hólfum en ekki öllum er hægt að uppgötva ósamræmi, skrá það og bóka það síðar í birgðabókina með því að nota aðgerðina **Reikna vöruhúsaleiðréttingu**.  
 8.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruh.- raunbirgðabók** og veldu tengda tengilinn.  
@@ -76,7 +76,7 @@ Hægt er að framkvæma raunbirgðatalningu á aðra af eftirfarandi vegu eftir 
 10. Þegar talningu er lokið er talið magn ritað í reitinn **Magn (raunbirgðir)** í raunbirgðabók vöruhússins.  
 
     > [!NOTE]  
-    >  Í raunbirgðabók vöruhússins er reiturinn **Magn (reiknað)** sjálfkrafa fylltur út samkvæmt hólfafærslum vöruhúss og það magn afritað í reitinn **Magn (raunbirgðir)** á hverri línu. Ef magnið sem talið er af starfsmanni vöruhússins samsvarar ekki magninu sem fært er sjálfkrafa í reitinn Magn (raunbirgðir) þarf að rita magnið sem talið var.  
+    >  Í raunbirgðabók vöruhússins er reiturinn **Magn (reiknað)** sjálfkrafa fylltur út samkvæmt hólfafærslum vöruhúss og það magn afritað í reitinn **Magn (raunbirgðir)** á hverri línu. Ef magnið sem talið er af starfsmanni vöruhússins samsvarar ekki magninu sem forritið færði sjálfkrafa í reitinn Magn (raunbirgðir) þarf að slá inn magnið sem talið var.  
 
 11. Þegar allt talið magn hefur verið fært inn er valin aðgerðin **Skrá**.  
 
@@ -120,7 +120,7 @@ Starfsmenn geta nú haldið áfram að telja birgðir og skrá hugsanlegt misræ
 
 4.  Bóka skal færslubók án þess að magni sé breytt.  
 
-Magnið í birgðabókinni (birgðafærslur) og magnið í vöruhúsinu (vöruhúsafærslur) er nú á ný það sama fyrir þessar vörur og kerfið hefur uppfært dagsetningu síðustu talningar á vörunni eða birgðahaldseiningu.  
+Magnið í birgðabókinni (birgðafærslur) og magnið í vöruhúsinu (vöruhúsafærslur) er nú á ný það sama fyrir þessar vörur og forritið hefur uppfært dagsetningu síðustu talningar á vörunni eða birgðahaldseiningu.  
 
 ## <a name="to-perform-cycle-counting"></a>Að framkvæma reglulega talningu
 Þó að allar vörur í birgðum séu taldar minnst einu sinni á ári gæti þurft að telja sumar vörur oftar, kannski vegna þess hve verðmætar þær eru eða vegna þess að mikil hreyfing er á þeim og þær eru stór hluti af rekstrinum. Í þessum tilgangi geturðu úthlutað sérstökum talningatímabilum á þessar vörur.
@@ -159,7 +159,7 @@ Birgðatalningatímabilin sem á að nota eru sett upp og síðan er einu slíku
 3. Framkvæma raunbirgðatalningu. Frekari upplýsingar er að finna í [Að framkvæma raunbirgðatalningu](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
 
     > [!NOTE]  
-    >  Telja þarf vörurnar í öllum hólfunum sem innihalda þær vörur. Ef sumum af hólfalínunum sem kerfið sækir fyrir talningu á síðunni **Raunbirgðir vöruhúss** er eytt verða ekki taldar allar vörur í vöruhúsinu. Ef þess háttar ófullkomnar niðurstöður eru seinna bókaðar í Raunbirgðabók verður magnið sem bókað er rangt.  
+    >  Telja þarf vörurnar í öllum hólfunum sem innihalda þær vörur. Ef sumum af hólfalínunum sem forritið sækir fyrir talningu á síðunni **Raunbirgðir vöruhúss** er eytt verða ekki taldar allar vörur í vöruhúsinu. Ef þess háttar ófullkomnar niðurstöður eru seinna bókaðar í Raunbirgðabók verður magnið sem bókað er rangt.  
 
 ## <a name="to-adjust-the-inventory-of-one-item"></a>Leiðrétta birgðastöðu einnar vöru
 Eftir að búið er að telja vöru á birgðasvæði er hægt að nota eiginleikann **Leiðrétta birgðir** til að skrá raunverulegt magn í birgðum.

@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: f725e5baea27b47399a50d041757fde83657673c
-ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
+ms.openlocfilehash: 3b3cc817ac79fa18a5f0b68b97a54fab9ac6711b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "1970971"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307325"
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Hönnunarupplýsingar: Codeunit 408 víddarstjórnun
 Kóðaeining 408 Víddastjórnun er aðgerðasafn sem sér um algeng verkefni sem tengjast víddum, m.a. afritun úr einni töflu í aðra eða úr einu skjali í annað. Þetta efnisatriði er listi yfir aðgerðir sem er breytt í Microsoft Dynamics NAV 2013 R2 og skilgreinir hvað þarf að gera við aðgerðirnar. Mörgum aðgerðum er eytt vegna þess að ekki er þörf á að afrita á milli víddatafla.  

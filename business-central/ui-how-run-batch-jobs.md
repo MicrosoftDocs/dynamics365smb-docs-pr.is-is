@@ -10,19 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 0b9bf37f9054d767938b851e399a1b2c347f77c3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2387356fd3e80e5020b4d2e4857280dd4b99788a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249262"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315205"
 ---
-# <a name="run-batch-jobs"></a>Keyra runuvinnslur
+# <a name="run-batch-jobs-and-xmlports"></a>Keyra runuvinnslur og XMLports
 Keyrsla er forritabútur sem vinnur úr gögnum í einni keyrslu líkt og keyrslan **Leiðrétta gengi**. Til eru runuvinnslur sem framkvæma reikningstímabilsaðgerðir eins og lokun rekstrarreiknings í lok reikningsárs. Margar keyrslur vinna útreikningsvinnu, svo sem útreikning á vöxtum, leiðréttingu á gengi og útreikning á einingaverði.
 
 Keyrslu svipar til skýrslu fyrir utan það að keyrslan nýtir útkomuna til að uppfæra upplýsingar beint, án þess að prenta niðurstöðurnar.
+
+Hægt er að tímasetja hvenær runuvinnsla er keyrð. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
 ## <a name="to-run-a-batch-job"></a>Til að keyra keyrslu
 1. Til að opna beiðnisíðu fyrir viðkomandi runuvinnslu velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slærð inn heiti runuvinnslunnar og velur síðan tengda tengilinn.
@@ -32,4 +34,5 @@ Keyrslu svipar til skýrslu fyrir utan það að keyrslan nýtir útkomuna til a
 
 ## <a name="see-also"></a>Sjá einnig
 [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
+[Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

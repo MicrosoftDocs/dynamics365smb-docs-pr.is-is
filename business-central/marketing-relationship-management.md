@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 39e8a4bce8174116bbe7b63908007aa7873acc02
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 54cdb205f26de16397890e08b8918c66998af9b9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446739"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308796"
 ---
 # <a name="managing-relationships"></a>Stjórnun tengsla
 Tengslastjórnunareiginleikar [!INCLUDE[d365fin](includes/d365fin_md.md)] auðvelda stjórnun og stuðning við markaðssetningu og sölu. Þessir eiginleikar veita aðgang að fullkomnum og nákvæmum upplýsingum svo hægt sé að einbeita sér að þeim viðskiptamönnum/tengiliðum sem ná á til.
@@ -34,4 +34,4 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Skilgreindu hluta til að velja hóp tengiliða í út frá tilteknum forsendum, t.d. þeirri grein sem tengiliðirnir tilheyra.|[Umsjón hluta](marketing-segments.md)|
 |Meðhöndlaðu ábendingar með því að búa til tækifæri og tengdu þær við sölumenn svo hægt sé að fylgjast með mögulegri sölu.|[Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)|
 |Búðu til markaðsáætlun til að finna, vinna og halda viðskiptamönnum.|[Stjórnun markaðsherferða](marketing-campaigns.md)|
-|Notaðu Dynamics 365 for Sales fyrir tengsl við viðskiptavini og nota óaðfinnanlega samþættingu í heildarferlinu með því að nota Business Central fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.|[Samþætting við Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Notaðu Dynamics 365 Sales fyrir tengsl við viðskiptavini og nota óaðfinnanlega samþættingu í heildarferlinu með því að nota Business Central fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.|[Samþætting við Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|

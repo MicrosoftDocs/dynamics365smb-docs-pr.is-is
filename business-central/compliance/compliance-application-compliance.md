@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246888"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303873"
 ---
 # <a name="application-compliance"></a>Reglufylgni forrits
 Þetta efni inniheldur upplýsingar um reglufylgni forrits í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)], á borð við alþjóðlegan fjárhagsskilastaðal, staðbundnar aðgerðir, almennu persónuverndarreglugerðina og fleira. Traust á lausn í fyrirtækjarekstri er lykillinn að því að reka hagkvæmt fyrirtæki. Business Central gerir fyrirtækjum kleift að einfalda viðskiptaferla og einnig að fylgja auknum reglugerðum og skýrslukröfum á áreiðanlegan og hagkvæman hátt.
@@ -46,15 +46,18 @@ Business Central býður upp á samþættingu á rekstrar- og fjárhagsupplýsin
 ## <a name="gain-control-of-critical-information-processes-and-reports"></a>Fá stjórn á mikilvægum upplýsingum, ferlum og skýrslum
 
 ### <a name="manage-compliance-to-the-standards-that-matter"></a>Stjórna reglufylgni við staðla sem skipta máli
+
 Skila samþættum upplýsingar, samræmdum ferlum og verkfæri sem auðvelt er að nota til að hjálpa fólkinu þínu að uppfylla væntingar og staðla fjármálastjórnunar sem skiptir máli fyrir þinn tiltekna rekstur.
 
 ### <a name="tailor-account-schedules-to-your-needs"></a>Sníða fjárhagsskemu eftir þörfum þínum
+
 - Skilgreina skipulag á bókhaldslyklum fyrirtækis þíns sem byggist á viðskiptakröfum og viðeigandi reglugerðum
 - Stofna reikninga og meðhöndla flókna ferli sem tengjast fjölbreyttum viðskiptaerindum, þ.m.t. birgðamati, erlendum gjaldmiðlum, starfsþáttaskýrslum og frávik frá staðbundnum góðum reikningsskilavenjum (GAAP).
 - Stjórna hve miklar upplýsingar eru fyrir hverja skráða færslu og velja nákvæma skráningu fyrir tilteknar færslugerðir, t.d. eignir og viðskiptaskuldir.
-- Sníða áætlaða útreikninga og birta fyrir fjárhagsskýrslugerð, eða flytja upplýsingarnar til Microsoft® Office Excel® til frekari greiningar.
+- Sníða áætlaða útreikninga og birta fyrir fjárhagsskýrslugerð, eða flytja upplýsingarnar til Microsoft Excel til frekari greiningar.
 
 ### <a name="improve-information-validity"></a>Bæta upplýsingar um gildistíma
+
 - Skilgreina gagnareiti til að samþykkja aðeins upplýsingar á réttu sniði, svo sem réttan fjölda aukastafa eða mynstur bók- og tölustafa.
 - Hjálpa til við að tryggja að upplýsingar séu tilbúnar með forritsstýringum, t.d. krefjast þess að reikningsnúmer lánardrottins sé slegið inn áður en hægt er að bóka innkaupapöntun.
 - Draga úr hættu á ónákvæmum upplýsingum eða að átt sé við þær og hjálpa til við að vernda viðkvæmar upplýsingar með aðgang að upplýsingum sem miðast við starfshlutverk.
@@ -69,9 +72,10 @@ Skila samþættum upplýsingar, samræmdum ferlum og verkfæri sem auðvelt er a
 - Hraða sendingu fjárhagsupplýsinga til viðskiptavina, hluthafa, eftirlitsstofnana og almennings með XBRL-skjölum sem byggjast á XML sem styðja við skipti á fjárhagsupplýsingum yfir mismunandi hugbúnaði og tækni, þ.m.t. internetinu.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Hjálpa til við að tryggja skýra slóð færslna
+
 - Rekja gögn og upplýsingar bæði fram og til baka í gegnum kerfið, frá upprunastað til endanlegra fjárhagsskýrslna og til baka.
 - Auðkenna hvernig, hvenær og hver færði inn eða breytti upplýsingum, og á hvaða lykil fjárhagsfærslur hafa verið bókaðar.
-- Skoða gagnagrunnsbreytingar, þ.m.t. fyrri og endurskoðuð gögn, í breytingaskrá lausnar.
+- Skoða gagnagrunnsbreytingar, þ.m.t. fyrri og endurskoðuð gögn, í [Breytingaskrá](../across-log-changes.md) lausnarinnar.
 - Auka gagnsæi og nothæfi á slóð færslna og hraða upplýsingaaðgang fyrir endurskoðendur þriðja aðila með borun, leit, síun, skráningu og uppflettingu
 
 ## <a name="compliance-and-local-functionality"></a>Reglufylgni og staðbundin virkni
@@ -89,7 +93,8 @@ Microsoft er að búa til staðbundnar útgáfur af Business Central fyrir nokku
 > **Basel II: Áhrif skýrslugerðar og greiningar**  
 > Basel II, sem þróað er af Alþjóðagreiðslubankanum, hjálpar til við að tryggja öryggi í fjármálakerfinu á þremur meginsviðum: lágmarkskröfur um fjármagn, endurskoðunarferli og markaðssvið. Þrátt fyrir að samkomulagið gildi um fjármálastofnanir og miðar ekki á lítil og meðalstór fyrirtæki gæti Basel II haft einhver áhrif á þessi fyrirtæki í skýrslugerð og greiningu.
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Reglufylgni](compliance-overview.md)  
 [Reglufylgni þjónustu](compliance-service-compliance.md)  
 [Vottanir](compliance-certifications.md)  

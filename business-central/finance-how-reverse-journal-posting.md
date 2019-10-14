@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f2767fca96e1f3689fc4806d878381d02622f261
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 808459f9c77d797c58a5956a5641c97bc398734e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243734"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306218"
 ---
-# <a name="reverse-postings"></a>Bakfæra bókanir
+# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Bakfæra bókun Færslubókar og afturkalla kvittanir/sendingar
 Til að afturkalla ranga bókun færslubókar skal velja færsluna og búa til bakfærslu (færsla sem er alveg eins og upphaflega færslan en með andstæðu tákni í reitnum fyrir upphæð) með sama skjalanúmeri og bókunardagsetningu og upphaflega færslan. Þegar færsla hefur verið bakfærð þarf að búa til rétta færslu.
 
 Aðeins er hægt að bakfæra færslu sem er bókuð frá færslubókarlínu. Færslu er einungis hægt að bakfæra einu sinni.
 
-Frekari upplýsingar um bókun frá færslubók, sjá [Bóka færslur beint í fjárhag](finance-how-post-transactions-directly.md).
+Til að afturkalla móttöku-eða sendingarbókun, áður en hún er bókuð sem reikningsfærð er hægt að nota aðgerðina **afturkalla** á bókaða skjalinu. Hægt er að afturkalla magn af gerðinni **vara**.
 
 Ef magn hefur verið ranglega neikvætt bókað, t.d. ef innkaupapöntun hefur verið gerð með röngum stykkjafjölda og síðan bókað sem móttekið en ekki reikningsfært, er hægt að ógilda bókunina.
 
-Ef magn hefur verið ranglega jákvætt bókað, t.d. ef innkaupaskilapöntun hefur verið gerð með röngum stykkjafjölda og síðan bókað sem afgreitt en ekki reikningsfært, er hægt að ógilda bókunina.   
+Ef magn hefur verið ranglega jákvætt bókað, t.d. ef söluafhending eða innkaupaskilasending hefur verið gerð með röngum stykkjafjölda og síðan bókað sem afgreitt en ekki reikningsfært, er hægt að ógilda bókunina.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Að bakfæra færslubókarbókun fjárhagsfærslu
 Hægt er að bakfæra færslur af öllum síðum **Fjárhagsfærslur**. Eftirfarandi ferli byggist á **Fjárhagsfærslur** síðunni.
@@ -37,20 +37,29 @@ Hægt er að bakfæra færslur af öllum síðum **Fjárhagsfærslur**. Eftirfar
 3. Á síðunni **Bakfærðar viðskiptafærslur** skal velja viðeigandi línu og svo aðgerðina **Bakfæra**.
 4. Velja hnappinn **Já** á staðfestingarskilaboðunum.
 
+## <a name="to-post-a-negative-entry"></a>Að bóka neikvæða færslu  
+Hægt er að nota reitinn **Leiðrétting** til að bóka neikvæða debetfærslu í stað kreditfærslu, eða til að bóka neikvæða kreditfærslu í stað debetfærslu á reikningi. Til að uppfylla lagaskilyrði er þetta svæði sýnilegt að sjálfgefnu í öllum færslubókum. Reitirnir **Debetupphæð** og **Kreditupphæð** innihalda bæði upphaflegu færsluna og leiðréttu færsluna. Þessir reitir hafa engin áhrif á reikningsstöðuna.  
+
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **færslubækur** og veldu síðan tengda tengilinn  
+2.  Í reitnum **Heiti keyrslu** skal velja viðeigandi heiti keyrslu.  
+3.  Færið inn upplýsingar í viðkomandi reiti.  
+4.  Í færslubókarlínu sem á að virkja fyrir neikvæðar færslur skal velja gátreitinn **Leiðrétting**.  
+5.  Til að bóka færslubókina skal velja aðgerðina **Bóka** og síðan smella á hnappinn **Já**.
+
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Að afturkalla magnbókun í bókuðum innkaupamóttökum  
+Eftirfarandi lýsir því hvernig á að hætta við bókaða kvittun. Skrefin eru svipuð fyrir bókaðar sendingar.
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókaðar innkaupakvittanir** og veldu síðan tengda tengilinn.  
 2.  Opna bókuðu móttökuna sem á að afturkalla.  
 3.  Velja skal línuna eða línurnar sem þú vilt afturkalla.  
 4.  Veldu **Afturkalla móttöku** aðgerðina.
 
-    Leiðréttingarlína er sett inn undir völdu móttökulínuna.  
+Leiðréttingarlína er sett inn undir völdu móttökulínuna. Ef magnið móttekið í vöruhúsamóttöku er leiðréttingarlínan sett inn í bókuðu vöruhúsamóttökuna.  
 
-    Ef magnið móttekið í vöruhúsamóttöku er leiðréttingarlínan sett inn í bókuðu vöruhúsamóttökuna.  
-
-    Reitirnir **Móttekið magn** og **Móttekið magn, óreikningsfært** svæði í tengdri innkaupapöntun eru stilltir á núll.
+Reitirnir **Móttekið magn** og **Móttekið magn, óreikningsfært** svæði í tengdri innkaupapöntun eru stilltir á núll.
 
 ## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Hvernig skal afturkalla og endurgera magnbókun á bókaða skilaafhendingu.
+Eftirfarandi lýsir því hvernig á að afturkalla bókaða skilasendingu og endurbóka síðan innkaupaskilin með nýju magni.
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar skilaafhendingar** og veldu síðan tengda hlekkinn.  
 2.  Opna bókuðu skilaafhendinguna sem á að afturkalla.
@@ -67,16 +76,8 @@ Hægt er að bakfæra færslur af öllum síðum **Fjárhagsfærslur**. Eftirfar
 7.  Opna skilapöntunina sem um ræðir og velja síðan **Enduropna** aðgerðina.  
 8.  Leiðrétta færsluna í **Magn** reitnum og bóka skilapöntun innkaupa aftur.  
 
-## <a name="to-post-a-negative-entry"></a>Að bóka neikvæða færslu  
-Hægt er að nota reitinn **Leiðrétting** til að bóka neikvæða debetfærslu í stað kreditfærslu, eða til að bóka neikvæða kreditfærslu í stað debetfærslu á reikningi. Til að uppfylla lagaskilyrði er þetta svæði sýnilegt að sjálfgefnu í öllum færslubókum. Reitirnir **Debetupphæð** og **Kreditupphæð** innihalda bæði upphaflegu færsluna og leiðréttu færsluna. Þessir reitir hafa engin áhrif á reikningsstöðuna.  
-
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **færslubækur** og veldu síðan tengda tengilinn  
-2.  Í reitnum **Heiti keyrslu** skal velja viðeigandi heiti keyrslu.  
-3.  Færið inn upplýsingar í viðkomandi reiti.  
-4.  Í færslubókarlínu sem á að virkja fyrir neikvæðar færslur skal velja gátreitinn **Leiðrétting**.  
-5.  Til að bóka færslubókina skal velja aðgerðina **Bóka** og síðan smella á hnappinn **Já**.
-
 ## <a name="see-also"></a>Sjá einnig
+[Afturkalla samsetningarbókun](assembly-how-to-undo-assembly-posting.md)  
 [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Fjármál](finance.md)  

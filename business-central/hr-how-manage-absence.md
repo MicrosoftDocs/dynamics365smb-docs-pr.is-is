@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 29b1b29fa1115991b8a8bd569a476e977fba8dce
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e1f2c795ef3669770b9e00f30b8919570bd1b6a8
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238598"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301517"
 ---
 # <a name="manage-employee-absence"></a>Haldið utan um fjarvistir starfsmanna
 Til að geta haldið utan um fjarvistir starfsmanns er nauðsynlegt að skrá fjarveru á síðuna **Skráning fjarvista**. Þá er hægt að skoða þær á ýmsan hátt eins og þarf til greiningar og skráningar.
@@ -72,4 +72,4 @@ Hægt er að skrá fjarvistir starfsmanna daglega eða á einhverjum öðru tím
 [Hafa umsjón með mannauði](hr-manage-human-resources.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)
+[Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)

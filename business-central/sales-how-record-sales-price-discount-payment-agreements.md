@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 25dc281d83860742b9d699aeba9794f70f786202
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9814da8c8a29c29e5bfee5da85f6d9b522a03e9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252482"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312149"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Skrá sérstök söluverð og afslætti
 Skilgreina þarf ólíka verð- og greiðsluskilmála sem gilda þegar ólíkum viðskiptamönnum er selt þannig að umsamin gildi og reglur séu notuð í söluskjölum sem stofnuð eru fyrir viðskiptamennina.
@@ -75,7 +75,7 @@ Reikningsafsláttur er nú settur upp og úthlutað á umræddan viðskiptamann.
 
 Á síðunni **Reikningsafsláttur viðskm** er einnig hægt að leggja þjónustugjald á reikninga sem eru yfir tiltekinni upphæð.  
 
-Áður en hægt er að veita reikningsafslátt af sölu þarf að færa tilteknar upplýsingar í kerfið. Ákveða þarf:  
+Áður en hægt er að veita reikningsafslátt af sölu þarf að færa tilteknar upplýsingar í forritið. Ákveða þarf:  
 
 - hvaða viðskiptamönnum eigi að veita þessa tegund afsláttar.  
 - hvaða afsláttarprósentu eigi að nota.  

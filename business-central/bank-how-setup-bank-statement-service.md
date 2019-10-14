@@ -10,21 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/25/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1c27575cd218b4f7c3ac5098eaca96d9ab9a4a1b
-ms.sourcegitcommit: 73e955b8fec819e5212b6ca7d8bfff42fe2d5eb8
+ms.openlocfilehash: e688eb8aacba049c91cd0dcd83522e5bd5eec4f2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702883"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307589"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Setja upp Envestnet Yodlee Bank Feeds þjónustu
 Hægt er að flytja inn rafræn bankayfirlit frá bankanum til að fylla fljótlega út síðuna **Greiðsluafstemmingarbók** þannig að hægt sé að jafna greiðslur og stemma af bankareikninginn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
+> [!IMPORTANT]
+> Vegna nýju tilskipunar um greiðsluþjónustu í Evrópu (PSD2), eftir 14. september 2019, verður ekki hægt að flytja sjálfkrafa bankayfirlit frá bönkum í Bretlandi inn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Við bjóðum hugsanlega upp á þennan eiginleika aftur í framtíðinni.
+
 > [!NOTE]
 > Envestnet Yodlee Bank Feeds þjónustan er aðeins studd í netútgáfunni af Business Central. Til að nota þessa virkni á staðnum verður þú að verða þér út um vörumerkjareikning frá Envestnet Yodlee.<br /><br />
-> Envestnet Yodlee Bank Feeds þjónustan er aðeins studd í BNA, Kanada og Bretlandi.
+> Envestnet Yodlee Bank Feeds Þjónustan er aðeins studd í Bandaríkjunum og Kanada.
 
 > [!IMPORTANT]
 > Fyrir tæknilega aðstoð vegna virkni Envestnet Yodlee, hafðu samband við Microsoft Support. Ekki hafa samband við Envestnet Yodlee. Frekari upplýsingar eru í [Grunnstilling tæknilegrar aðstoðar Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).

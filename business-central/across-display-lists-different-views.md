@@ -1,31 +1,31 @@
 ---
 title: Stilltu fjölda smáatriða sem birtast á listum | Microsoft Docs
-description: Hægt er að birta listana sundurliðaða og fá þannig fram frekari upplýsingar, eða sem reiti sem auðvelt er að skanna sjónrænt.
+description: Hægt er að birta lista sem ítarlegar línur sem veita mestar upplýsingar, eða sem reiti sem auðvelt er skima yfir og geta innihaldið smámyndir.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: 2d20fc0849e90f74924ebc585662a9e461cc2313
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: bd82b37992a7664df1a85f7f5734e79a1e7c233e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244378"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300618"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Birting lista á mismunandi hátt
-Í efra hægra horni hvaða lista sem er í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tákn sem breyta því hvernig listinn er sýndur. Hægt er að skoða lista sem sundurliðaðan lista sem er stöðluð sýn. Einnig er hægt að skipta yfir í reitasýn, þar sem færri smáatriði eru birt fyrir viðkomandi skrá og færslum er raðað eins og reitum. Þessi sýn er mjög gagnleg til að fá yfirlit yfir margar færslur og er sérlega gagnleg í smærri tækjum þar sem auðvelt er að pikka á hverja færslu.
+Í efra hægra horni hvaða lista sem er í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tákn sem breyta því hvernig færslulistinn er sýndur. Hægt er að birta lista sem ítarlegar línur sem er tilvalið þegar vinna þarf með marga reiti eða breyta reitum í listanum. En einnig er hægt að skipta yfir í birtingu færslna á reitum, sem er samandregið og sýnir færri reiti á tiltekinni færslu. Þetta er mjög gagnlegt til að fá yfirlit yfir margar færslur og er sérlega gagnlegt í smærri tækjum þar sem allt er samanþjappaðra og auðveldara er að pikka á hverja færslu.
 
-## <a name="items-list"></a>Vörulisti
-Á listanum Vörur er hjálplegt að hafa myndir til að fá auðveldlega snögga yfirsýn yfir hvað er selt og sé síðan skipt yfir í reitasýnina fæst vörulisti sem hægt er að fletta í gegnum. Ef mynd er skilgreind fyrir tiltekna vöru er þriðji valkosturinn, til viðbótar við sundurliðaðan lista og reitasýn, stórir reitir. Þessi sýn birtir stórar myndir fyrir hverja færslu.
+## <a name="item-list"></a>Birgðalisti
+Á síðunni **Vörur** er hjálplegt að hafa myndir til að fá snögga yfirsýn yfir hvað er selt og sé síðan skipt yfir í reitina fæst vörulisti sem hægt er að fletta í gegnum. Í listum sem innihalda myndir, t.d. á síðunni **Vörur** er þriðji valkosturinn að sýna stóra reiti. Þetta birtir stórar myndir fyrir hverja færslu en sýnir einnig nokkra reiti.
 
-Hægt er að flytja inn mynd fyrir tiltekna vöru með því að fara í spjaldið **Vara** og velja hægra megin **Mynd** og velja síðan **Flytja inn**. Á sama hátt er hægt að flytja út mynd yfir í skrá eða eyða mynd fyrir vöruna.  
+Hægt er að flytja inn vörumyndir, ýmist eina í einu eða nokkrar í einu. Frekari upplýsingar er að finna í [Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md).  
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

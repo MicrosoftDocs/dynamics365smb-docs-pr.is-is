@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9e743a51e675431dc1759a6c3a58b7eb4de1ccc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245298"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300786"
 ---
 # <a name="changing-language-and-locale"></a>Breyting á tungumáli og landsstaðli
 
@@ -23,7 +23,7 @@ ms.locfileid: "1245298"
 
 Ef þú notar til dæmis kanadísku útgáfuna af [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu séð notandaviðmótið á ensku og frönsku, en samt er um að ræða kanadísku útgáfuna af [!INCLUDE[d365fin](includes/d365fin_md.md)] að öllu öðru leyti. Þetta er ekki það sama og til dæmis [!INCLUDE[d365fin](includes/d365fin_md.md)] í Bretlandi.  
 
-Til að breyta tungumáli viðmótsins skal fara á síðuna **Mínar stillingar**. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md#language).  
+Til að breyta tungumáli viðmótsins skal fara á síðuna **Mínar stillingar**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md#language).  
 
 Breytingar á textum sem geymdir eru sem forritsgögn falla ekki undir fjöltyngismöguleikann. Þá snýst málið um forritshönnun og venjur. Dæmi um slíkt eru heiti á vörum í birgðaskrá eða athugasemdir sem sendar eru viðskiptavinum. Með öðrum orðum, slíkur texti er ekki þýddur.  
 
@@ -38,9 +38,9 @@ Landsstaðall er frábrugðinn bæði tungumáli og lagalegum skilyrðum á sta�
 > [!IMPORTANT]  
 >  Þegar þú breytir stillingum landsstaðalsins, birtist langur listi yfir tungumál og landsstaðla. Samt sem áður, er aðeins stillingin fyrir landsstaðal notuð í núverandi útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Til að breyta landsstaðlinum, skal fara á síðuna **Mínar stillingar**. Frekari upplýsingar, sjá [Breyta grunnstillingum](ui-change-basic-settings.md).  
+Til að breyta landsstaðlinum, skal fara á síðuna **Mínar stillingar**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).  
 
-## <a name="languages-of-the-included365finincludesd365finmdmd-help"></a>Tungumál [!INCLUDE[d365fin](includes/d365fin_md.md)] hjálparinnar
+## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Tungumál [!INCLUDE[d365fin](includes/d365fin_md.md)] hjálparinnar
 Hjálparefni fyrir grunnvirkni í [!INCLUDE[d365fin](includes/d365fin_md.md)] er birt á Microsoft Docs vefsíðunni og er tiltækt á mörgum ólíkum tungumálum. Ef þú nálgast skjölin innanfrá [!INCLUDE[d365fin](includes/d365fin_md.md)], mun efnið birtast á þínu tungumáli. Ef tiltekin síða er ekki tiltæk á þínu tungumáli, verður hún birt á ensku.
 
 ### <a name="how-do-i-change-the-language"></a>Hvernig breyti ég tungumálinu?
@@ -50,5 +50,5 @@ Hjálparefni fyrir grunnvirkni í [!INCLUDE[d365fin](includes/d365fin_md.md)] er
 > Á listanum má sjá öll tungumál sem eru studd af Microsoft Docs vefsvæðinu. [!INCLUDE[d365fin](includes/d365fin_md.md)] er tiltækt í takmörkuðum fjölda landa/svæða, en Hjálparefnið er gert tiltækt á fleiri tungumálum. Hjálparefnið er aftur á móti ekki tiltækt á öllum tungumálum sem Microsoft Docs vefsvæðið styður.
 
 ## <a name="see-also"></a>Sjá einnig  
-[Breyta grundvallarstillingum](ui-change-basic-settings.md)  
+[Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Hafist handa](product-get-started.md)  

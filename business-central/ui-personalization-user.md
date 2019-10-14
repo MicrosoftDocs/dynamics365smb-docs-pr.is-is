@@ -1,89 +1,85 @@
 ---
 title: Sérstillingarsíður | Microsoft Docs
 description: Lærðu hvernig á að sérstilla notendaviðmótið til að henta því hvernig þú vinnur í Business Central.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: de7acb10c76acc05fc6e6a5c708a8d412e4d9b30
-ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
+ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 4f65a4908fee045190229c1423ef61c6c7bed8c7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "1632730"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315109"
 ---
-# <a name="personalizing-your-workspace"></a>Sérstillingar verksvæðis
+# <a name="personalize-your-workspace"></a>Sérstilling verksvæðis
+Þú getur sérstillt vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá.
 
-Þú getur sérstillt eða *sérsniðið* vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá.
+Hægt er að sérstilla allar gerðir síðna, þar á meðal síðuna Mitt hlutverk. Nánari upplýsingar um Mitt hlutverk er að finna í [Mitt hlutverk](ui-change-basic-settings.md#role-center).
 
-Hægt er að gera ýmsa hluti, háð því hvernig gerð af síðu þetta er og hvað hún inniheldur, t.d. færa til og fela reiti, dálka og aðgerðir, færa til og fela heilu partana og meira.
-<!--
--   Add, move, and remove fields.
--   Add, move, and remove columns in a list.
--   Change the freeze pane of columns in a list. The freeze pane locks one or more columns to the left side of a list so that are always present, even when you scroll horizontally.
--   Adjust the width of columns in a list.
--   Move and remove Cues (tiles).
--   Move and remove parts. Parts are subdivisions or areas on a page that contain things like multiple fields, another page, a chart, or tiles.
+Allt eftir gerð síðunnar og því sem hún inniheldur er hægt að gera ýmsar breytingar, svo sem að færa eða fela reiti, dálka, aðgerðir og hluta í heild sinni og bæta nýjum reitum við. Flestar sérstillingar verður að gera með því að virkja fyrst borðann **Sérstilla**, en mjög einfaldar leiðréttingar, eins og dálkabreidd er hægt að framkvæma strax á hvaða lista sem er.
 
--->
 > [!NOTE]
-> Til viðbótar við það sem notendur geta sérsniðið, geta stjórnendur og stórnotendur hnekkt sérstillingum notenda og skilgreint hvaða aðgerðir eru aðgengilegar í öllum eða tilteknum fyrirtækjum. Frekari upplýsingar eru í [Sérstilling Business Central](ui-customizing-overview.md).
+> Stjórnendur geta framkvæmt sömu útlitsbreytingar og notendur geta með því að sérstilla vinnusvæðið fyrir forstillingu sem mörgum notendum hefur verið úthlutað. Frekari upplýsingar er að finna á [Sérstilla síður fyrir hlutverk](ui-personalization-manage.md)<br /><br />
+Stjórnendur geta einnig hnekkt eða slökkt á sérstillingu notenda og hægt er að skilgreina hvaða eiginleikar eru tiltækir fyrir notendur til að sjá í öllum eða tilteknum fyrirtækjum. Frekari upplýsingar eru í [Sérstilling Business Central](ui-customizing-overview.md).
 
-## <a name="to-personalize-a-page"></a>Til að sérsníða síðu
+## <a name="to-change-the-width-of-a-column"></a>Til að breyta breidd á dálki
+Auðvelt er að breyta dálkum á hvaða lista sem er með því að draga mörkin á milli tveggja dálka til vinstri eða hægri.
+1. Í haus lista skal velja og draga mörkin á milli tveggja dálka.
+2. Að öðrum kosti er hægt að tvísmella á mörkin milli tveggja dálka til að sjálfvirk passi við breidd dálksins. Þessi breidd er stillt á ákjósanlega stærð fyrir læsileika.
 
-1. Í efra hægra horninu skaltu velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingartákn fyrir Mitt hlutverk") og velja síðan **Sérstilla**.
+Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd dálks geymdar á reikningnum þínum og fylgja þér, sama hvaða tæki þú notar til að skrá þig inn.
+
+## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Til að sérstilla síðu með borðanum **Sérstilla**
+1. Opna skal síðuna sem á að sérsníða.
+2. Í efra hægra horninu skaltu velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingartákn fyrir Mitt hlutverk") og velja síðan aðgerðina **Sérstilla**.
 
     Borðinn **Sérstillir** birtist efst til að tákna að hægt sé að byrja að gera breytingar.
 
-    ![Sérstillingar](media/ui_personalize_mode_small.png "Sérstillingar")
+    > [!NOTE]
+    > Til að skoða á meðan sérstillingu stendur skal nota Ctrl + Smella á aðgerð þegar hún er auðkennd með bendlinum.
 
-2. Fara á síðu sem þú vilt að sérsníða.
+    Ef þú sérð ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás") eða ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") í borðanum, geturðu ekki sérstillt síðuna. Frekari upplýsingar er að finna í [Af hverju er síða læst og því ekki hægt að sérstilla hana](ui-personalization-locked.md).
 
-    Ef þú sérð ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás") eða ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") í borðanum, geturðu ekki sérstillt síðuna. Frekari upplýsingar er að finna í [Af hverju get ég ekki sérsniðið síðuna](ui-personalization-locked.md).
-
-3. Bentu á svæði sem þú vilt sérstilla, svo sem reit eða dálkfyrirsögn í lista. Allt sem hægt er að sérstilla er auðkennt umsvifalaust með örvaroddi eða ramma. Sjáðu [næsti hluti](#What) fyrir upplýsingar um hvað þú getur gert.
-
-4. Þú getur haldið áfram að gera breytingar á sömu síðu eða opnað aðra síðu. Breytingarnar þínar eru sjálfkrafa vistaðar þegar þú gerir þær. Þegar þú hefur lokið við allt skaltu, í **Sérstilling** borðanum velja **Lokið**.
+3. Til að bæta við reit skal velja aðgerðina **+ Reitur**.
+4. Á svæðinu **Bæta reit við síðu** skal draga og sleppa reit í æskilega stöðu á síðunni.
+5. Til að breyta viðmótseiningu skal færa bendilinn á eininguna, eins og á aðgerð, reit eða hluta. Einingin er tafarlaust auðkennd með örvaroddi eða jaðri.
+6. Veldu eininguna og veldu annaðhvort **Færa**, **Fjarlægja**, **Fela**, **Sýna**, **Sýna undir „Sýna meira“**, **Sýna þegar fellt**, **Sýna alltaf**, **Stilla/hreinsa fast svæði** eða **Taka með/útiloka frá flýtifærslu**, allt eftir gerð og stöðu viðmótseiningarinnar. Frekari upplýsingar er að finna á [Hvað hægt er að sérstilla](#What).
+7. Þegar lokið er við að breyta útliti á einni eða fleiri síðum, skal velja hnappinn **Lokið** á borðanum **Sérstilla**.
 
 ## <a name="What"></a>Hvað er hægt að sérstilla
 
 |Hvað viltu gera|Hvernig á að gera það|Athugasemdir|
 |----|------------|-------|
-|Færðu eitthvað, eins og reit, dálk í lista, reit aðgerð eða hluta|Bentu hvar sem er á það sem þú vilt færa og dragðu það á nýja staðinn. Staðsetningin er auðkennd annaðhvort með þykkari láréttri eða lóðréttri línu.<br /><br />![Get ekki fært hingað tákn](media/personalization-cannot-move-here.png "Sérstillingarsnið - Get ekki fært hingað tákn") gefur til kynna að þú getir ekki fært eininguna yfir á valda staðsetningu.|Hlutar eru undirdeildir eða svæði á síðu sem innihalda hluti eins og marga reiti, aðra síðu, graf eða reiti.<br /><br />Frekari upplýsingar um sérstillingaraðgerð er að finna í [næsti hluti](ui-personalization-user.md#Actions). |
-|Feldu eitthvað, eins og reit, dálk í lista, reit eða hluta.|Veldu örvaroddinn og <b>Fela</b>.|Ef reiturinn sem þú felur er einnig sýndur í haus flýtiflipa þegar flýtiflipinn er dreginn saman, mun reiturinn ekki birtast þar lengur.|
-|Bæta við reit eða dálki.|Í <b>Sérstilla</b> borðanum velurðu <b>Meira</b> og svo <b>Reitur</b>.<br /></br><b>Bæta reit á síðu</b> svæðið opnast til hægri. Það birtir reitina sem hægt er að bæta við síðuna.<br /><br />Til að bæta við reit skaltu draga hann af svæðinu þangað sem þú vilt. Staðsetningin er auðkennd annaðhvort með þykkari láréttri eða lóðréttri línu.|Hver síða inniheldur fyrirfram skilgreint safn reita sem hægt er að birta. Notaðu þetta ferli til að bæta við reitum eða dálkum sem hafa ekki verið sýndir áður eða til að sýna reiti sem þú hefur falið.|
-|Sýndu reit í haus flýtiflipa þegar flýtiflipinn er minnkaður.|Veldu örvaroddinn og <b>Sýna þegar dregið saman</b>. <br /> <br />Ef þú sérð ekki þennan valkost þá er hann þegar settur. Í þessu tilfelli, til að hætta að sýna reitinn í haus flýtiflipans, skal velja <b>Sýna alltaf</b>.|*Flýtiflipi* er hugtakið sem er notað um flokk af reitum sem birtast undir sameiginlegri fyrirsögn. Notaðu valkostinn <b>Sýna þegar dregið saman</b> til að birta mikilvægustu reitina. Ef þú velur reit í hausnum, mun flýtiflipinn opnast og setja áhersluna á valinn reit.<br /><br />Þessi valkostur gildir aðeins ef síða er með fleiri en einn flýtiflipa. Ef aðeins er einn flýtiflipi er ekki hægt að minnka hann, þannig að valkosturinn <b>Sýna þegar dregið saman</b> er ekki fyrir hendi.|
+|Færðu eitthvað, eins og reit, dálk í lista, reit aðgerð eða hluta|Bentu hvar sem er á það sem þú vilt færa og dragðu það á nýja staðinn. Staðsetningin er auðkennd annaðhvort með þykkri láréttri eða lóðréttri línu.<br /><br />![Get ekki fært hingað tákn](media/personalization-cannot-move-here.png "Sérstillingarsnið - Get ekki fært hingað tákn") gefur til kynna að þú getir ekki fært eininguna yfir á valda staðsetningu.|Hlutar eru undirdeildir eða svæði á síðu sem innihalda hluti eins og marga reiti, aðra síðu, graf eða reiti.<br /><br />Frekari upplýsingar um sérstillingu aðgerðar er að finna í [Sérstilling aðgerða](ui-personalization-user.md#Actions). |
+|Feldu eitthvað eins og reit, dálk í lista, reit aðgerð eða hluta.|Veldu örvaoddinn og <b>Fela</b>.|Einingin er skyggð þegar þú ert í sérstilltri stillingu. Ef reiturinn sem þú felur er einnig sýndur í haus flýtiflipa þegar flýtiflipinn er dreginn saman, mun reiturinn ekki birtast þar lengur.|
+|Sýna faldar aðgerðir og reiti.|Til að skoða skyggða (falda) einingu skal velja örvaroddinn velja síðan <b>Sýna</b>.|Falinn eining er aftur sýnileg.|
+|Bæta við reit eða dálki.|Á borðanum <b>Sérstilling</b> er aðgerðin <b>+ Reitur</b> valin.<br /></br><b>Bæta reit á síðu</b> svæðið opnast til hægri. Það birtir reitina sem hægt er að bæta við síðuna.<br /><br />Til að bæta við reit skaltu draga hann af svæðinu þangað sem þú vilt. Staðsetningin er auðkennd annaðhvort með þykkri láréttri eða lóðréttri línu.|Hver síða inniheldur fyrirfram skilgreint safn reita sem hægt er að birta. Notaðu þetta ferli til að bæta við reitum eða dálkum sem hafa ekki verið sýndir áður eða til að sýna reiti sem þú hefur falið.|
+|Sýndu reit í haus flýtiflipa þegar flýtiflipinn er minnkaður.|Veldu örvaoddinn og veldu svo <b>Sýna þegar dregið saman</b>. <br /> <br />Ef þú sérð ekki þennan valkost þá er hann þegar settur. Í þessu tilfelli, til að hætta að sýna reitinn í haus flýtiflipans, skal velja <b>Sýna alltaf</b>.|*Flýtiflipi* er hugtakið sem er notað um flokk af reitum sem birtast undir sameiginlegri fyrirsögn. Notaðu valkostinn <b>Sýna þegar dregið saman</b> til að birta mikilvægustu reitina. Ef þú velur reit í hausnum, mun flýtiflipinn opnast og setja áhersluna á valinn reit.<br /><br />Þessi valkostur gildir aðeins ef síða er með fleiri en einn flýtiflipa. Ef aðeins er einn flýtiflipi er ekki hægt að minnka hann, þannig að valkosturinn <b>Sýna þegar dregið saman</b> er ekki fyrir hendi.|
 |Aðeins birta reit þegar þú velur **Sýna meira**.|Veldu örvaroddinn og <b>Sýna undir „Sýna meira“</b>. <br /> <br />Ef þú sérð ekki valkostinn <b>Sýna undir „Sýna meira“</b> er hann þegar settur. Í þessu tilviki, til að láta reit alltaf sjást, ekki bara þegar þú velur **Sýna meira** skaltu velja <b>Sýna alltaf</b>.||
-|Breyta föstum svæði í lista í annan dálk. |Veldu örina í dálknum sem þú vilt nota sem síðasta dálk í festu svæði og veldu síðan <b>Stilla Fast svæði</b>.<br /><br/>Ef þú vilt stilla föstu svæðinu aftur á upphaflega staðsetningu skaltu velja örina fyrir fasta dálkinn og velja <b>Hreinsa Fast svæði</b>. Athugaðu: Ekki er hægt að fjarlægja þetta fasta svæði.|Fast svæði tilgreinir dálkana sem birtast alltaf til vinstri, jafnvel þótt þú skrunir lárétt.|  
-|Breyta breidd á dálki.|Í haus listans skaltu draga jaðarinn milli dálkanna. <br /><br />Hægt er að tvísmella á jaðarinn milli dálkhausanna til að aðlaga stærðina sjálfkrafa, sem stillir breiddina á þægilega stærð fyrir lestur.||
+|Breyta föstum svæði í lista í annan dálk. |Veldu örina í dálknum sem þú vilt nota sem síðasta dálk í festu svæði og veldu síðan <b>Stilla Fast svæði</b>.<br /><br/>Ef þú vilt stilla fasta svæðinu aftur á upphaflega staðsetningu skaltu velja örina fyrir fasta dálkinn og velja <b>Hreinsa Fast svæði</b>. Athugaðu: Ekki er hægt að fjarlægja þetta fasta svæði.|Fast svæði tilgreinir dálkana sem birtast alltaf til vinstri, jafnvel þótt þú skrunir lárétt.|  
 |Hoppa yfir reit þegar ýtt er á Enter.|Veldu örvaroddinn við hliðina á reitnum, eða dálkahaus í lista, og veldu **Útiloka frá flýtifærslu**. <br /><br /> Ef þú sérð ekki þennan valkost þá er reiturinn þegar stilltur þannig að honum verði sleppt. Í þessu tilfelli, til að hætta að sleppa reitnum, skal velja **Hafa með í flýtifærslu**. |Sjá [Hraða gagnaskráningu með flýtifærslu](ui-enter-data.md#QuickEntry)|
+|Endurraða og fjarlægja yfirlit sem tákna síaða lista.|Veldu örvaoddinn við hliðina á yfirliti og veldu svo **Færa**, **Fjarlægja** eða **Fela**.|Sjá [Vista og sérsníða listayfirlit](ui-views.md)|
 
 ## <a name="Actions"></a>Sérstilling aðgerða
 
-Þú getur sérsniðið aðgerðarstikuna sem er staðsett efst á síðunni, eins og gefið er í skyn af auðkennda svæðinu í eftirfarandi skýringarmynd.
-
-![Sérsníða aðgerðarstiku](media/personalize-action-bar.png "Sérsníða aðgerðarstiku")
-
-Sérstilling gerir þér kleift að ákveða hvaða aðgerðir eigi að sýna á aðgerðarstikunni og hvar eigi að sýna þær. Þú getur sýnt, falið eða fært stakar aðgerðir eða hóp aðgerða. Sérstilling aðgerðarstikunnar er einfaldlega gerð á sama hátt og aðrar einingar vinnusvæðisins. Það sem þú hins vegar getur gert við aðgerð eða hóp aðgerða fer eftir því hvar aðgerðin eða hópur aðgerða er staðsettur í aðgerðarstikunni. Besta leiðin til að finna út úr þessu er með því að reyna hluti og leyfa skjánum að leiðbeina þér. Í eftirfarandi köflum verða sum þessara blæbrigða við sérstillingu aðgerðarstiku útskýrð.
-
-### <a name="action-bar-overview"></a>Yfirlit aðgerðarstiku
+Sérstilling gerir þér kleift að ákveða hvaða aðgerðir eigi að sýna á aðgerðarstikunni og hvar eigi að sýna þær. Þú getur sýnt, falið eða fært stakar aðgerðir eða hóp aðgerða. Sérstilling aðgerðarstikunnar er einfaldlega gerð á sama hátt og á öðrum viðmótseiningum. Það sem þú hins vegar getur gert við aðgerð eða hóp aðgerða fer eftir því hvar aðgerðin eða hópur aðgerða er staðsettur. Besta leiðin til að komast að því er að fara í sérsnið og láta svo örvaoddinn leiðbeina þér.
 
 Það eru nokkur hugtök sem þú ættir að kynna þér til að skilja betur sérstillingaraðgerðina: *aðgerðahópur* og *uppfærður flokkur*.  
 
-*Aðgerðahópur* er atriði sem víkkar út til að birta aðrar aðgerðir eða flokka. Til dæmis, í eftirfarandi skýringarmynd, **Bókun** er aðgerðahópur.
+*Aðgerðahópur* er eining sem víkkar út til að birta aðrar aðgerðir eða flokka. Til dæmis á síðunni **Sölupantanir** er aðgerðin **Aðgerðir** sem birtist þegar þú velur aðgerðina **Aðgerðir** aðgerðaflokkur.
 
-*Uppfærður flokkur* er aðgerðahópur sem birtist milli lóðréttu línanna tveggja `|` í aðgerðarstikunni. Flokkarnir innihalda yfirleitt algengustu aðgerðirnar sem eru notaðar, svo þú getir fundið þær fljótt. Til dæmis í eftirfarandi skýringarmynd, **Útgefið**, **Bókun**, **Reikningur** og **Fletting** eru uppfærðir flokkar.
+*Uppfærður flokkur* er aðgerðaflokkur sem birtist á undan lóðrétta línunni `|` á aðgerðastikunni. Flokkarnir innihalda yfirleitt algengustu aðgerðirnar sem eru notaðar, svo þú getir fundið þær fljótt. Til dæmis á síðunni **Sölupantanir** eru aðgerðirnar **Pöntun**, **Losun**, og **Bókun** uppfærðir flokkar.
 
-![Sérsníða aðgerðarstikuhóp](media/personalize-action-bar-group-clip.png "Sérsníða aðgerðarstikuhóp ")
-
-### <a name="to-remove-hide-and-show-actions-and-groups"></a>Til að fjarlægja, fela og sýna aðgerðir og flokka
-
-Til að sýna eða fela aðgerð eða aðgerðahóp skaltu velja hann og síðan velja úr einum af eftirfarandi valkostum:
+### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Til að fjarlægja, fela og sýna aðgerðir og aðgerðaflokka
+Þegar ætlunin er að sýna eða fela aðgerð skilgreina valkostirnir fyrir neðan örvaroddinn hvað sé hægt að gera miðað við ástand aðgerðarinnar.
+1. Veldu örvaoddinn fyrir aðgerð eða aðgerðahóp.
+2. Einn af eftirfarandi valkostum er valinn:
 
 |Valkostur|Það sem hann gerir|
 |------|------------
@@ -92,37 +88,36 @@ Til að sýna eða fela aðgerð eða aðgerðahóp skaltu velja hann og síðan
 |**Sýna**|Þessi valkostur birtist ef aðgerðin eða aðgerðahópurinn hefur verið falinn áður (skyggður). Að velja þennan valkost gerir að verkum að aðgerðin eða aðgerðahópurinn birtist í aðgerðarstikunni.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Til að færa aðgerðir og aðgerðahópa
+Þar sem þú getur sleppt aðgerðum eða aðgerðahópum er það gefið í skyn með láréttri línu milli tveggja aðgerða eða ramma utan um aðgerðahóp. Eftirfarandi takmarkanir eru til staðar:
 
-Til að færa aðgerð eða aðgerðahóp skaltu draga og sleppa honum á viðeigandi stað, rétt eins og með reiti og dálka.
+    - Þú getur fært einstaka aðgerðir í uppfærða flokka, en þú getur ekki endurraðað röðuninni á aðgerðum í flokknum.
+    - Þú getur ekki fært aðgerðahóp í uppfærðan flokk.
 
-Þar sem þú getur sleppt aðgerðum eða aðgerðahópum er gefið í skyn með láréttri línu milli aðgerðanna eða rammans utan um aðgerðahóp.
-
-- Þú getur fært einstaka aðgerðir í uppfærða flokka, en þú getur ekki endurraðað röðuninni á aðgerðum í flokknum.
-- Þú getur ekki fært aðgerðahóp í uppfærðan flokk.
-- Til að færa aðgerð eða aðgerðahóp í annan aðgerðahóp sem er tómur, dragðu aðgerðina eða aðgerðahópinn í nýja hópinn og slepptu honum í boxið **Sleppa aðgerð hér**.
-
-## <a name="additional-points-of-interest"></a>Aðrar áhugaverðar upplýsingar
-
-Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
-
-- Þegar þú gerir breytingar á kortasíðu sem þú opnar af lista munu breytingarnar taka gildi á öllum færslum sem þú opnar af þeim lista. Segjum til dæmis að þú opnir tiltekinn viðskiptavin af listasíðunni Viðskiptavinir og sértillir svo síðuna með því að bæta við reit. Þegar þú opnar aðra viðskiptavini af listanum birtist einnig reiturinn sem þú bættir við.
-- Breytingar sem þú gerir munu taka gildi í öllum Mitt hlutverk. Ef þú til dæmis gerir breytingu á listanum Viðskiptavinir þegar Mitt hlutverk er stillt á Viðskiptastjórnandi, munt þú einnig sjá breytinguna á Viðskiptavinalistanum þegar Mitt hlutverk er stillt á Sölupöntunarvinnsla.
-- Breytingar á síðu í svæði taka gildi á síðunni þar sem þær birtast.  
-- Aðeins er hægt að bæta við reitum og dálkum úr fyrirfram skilgreindum lista sem byggir á síðunni. Ekki er hægt að stofna nýja grunnstillingapakka.
+1. Til að færa aðgerð eða aðgerðahóp skaltu draga og sleppa honum á viðeigandi stað, rétt eins og með reiti og dálka.
+2. Til að færa aðgerð eða aðgerðahóp í annan aðgerðahóp sem er tómur, dragðu aðgerðina eða aðgerðahópinn í nýja hópinn og slepptu honum í boxið **Sleppa aðgerð hér**.
 
 ## <a name="to-clear-personalization"></a>Að hreinsa sérstillingu
+Á einhverjum tímapunkti gætir þig langað til að afturkalla sumar eða allar breytingar sérstillinga sem þú gerðir á síðu í gegnum tíðina.
 
-Á einhverjum tímapunkti gætir þig langað til að afturkalla sumar eða allar breytingar sérstillinga sem þú gerðir á síðu í gegnum tíðina. Til að gera þetta, í borðanum **Sérstilling**, skaltu velja **Meira**, **Hreinsa sérstillingar** og því næst velja einn af eftirfarandi valkostum. Hafðu í huga að ekki er hægt að afturkalla hreinsun á sérstillingum.
+1. Á borðanum **Sérstilling** er aðgerðin **Hreinsa sérstillingu** valin.
+2. Einn af eftirfarandi kostum er valinn: Hafðu í huga að ekki er hægt að afturkalla hreinsun á sérstillingum.
 
 |Valkostur|Það sem hann gerir|
 |------|------------
-|Aðeins aðgerðir|Hreinsar allar breytingar sérstillinga sem þú hefur gert á aðgerðarstiku síðunnar.|
-|Allar nema aðgerðir|Hreinsar allar breytingar sérstillinga sem þú hefur gert á síðunni nema þær sem voru gerðar á aðgerðarstikunni. Þetta felur í sér breytingar á reitum, dálkum og pörtum. |
-|Allt|Hreinsa allar breytingar sérstillinga sem hafa verið gerðar á síðunni þannig að síðan líti út eins og hún gerði í upphafi. Þetta felur í sér breytingar á aðgerðarstiku, reitum, dálkum og hlutum.|
+|**Aðeins aðgerðir**|Hreinsar allar breytingar sérstillinga sem þú hefur gert á aðgerðarstiku síðunnar.|
+|**Aðeins reitir, dálkar og hlutar**|Hreinsar allar breytingar sérstillinga sem þú hefur gert á síðunni nema þær sem voru gerðar á aðgerðarstikunni. Þetta felur í sér breytingar á reitum, dálkum og pörtum. |
+|**Allt**|Hreinsa allar breytingar sérstillinga sem hafa verið gerðar á síðunni þannig að síðan líti út eins og hún gerði í upphafi. Þetta felur í sér breytingar á aðgerðarstiku, reitum, dálkum og hlutum.|
+
+## <a name="additional-points-of-interest"></a>Aðrar áhugaverðar upplýsingar
+Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
+
+- Þegar þú gerir breytingar á kortasíðu sem þú opnar af lista munu breytingarnar taka gildi á öllum færslum sem þú opnar af þeim lista. Segjum til dæmis að þú opnir tiltekinn viðskiptavin af listasíðunni Viðskiptavinir og sértillir svo síðuna með því að bæta við reit. Þegar þú opnar aðra viðskiptavini af listanum birtist einnig reiturinn sem þú bættir við.
+- Breytingar sem þú gerir munu taka gildi í öllum Mitt hlutverk. Ef þú til dæmis gerir breytingu á listanum Viðskiptavinir þegar Mitt hlutverk er stillt á Viðskiptastjórnandi, munt þú einnig sjá breytinguna á síðunni **Viðskiptamenn** þegar Mitt hlutverk er stillt á Sölupöntunarvinnsla.
+- Breytingar á síðu í svæði taka gildi á síðunni þar sem þær birtast.  
+- Aðeins er hægt að bæta við reitum og dálkum úr fyrirfram skilgreindum lista sem byggir á síðunni. Ekki er hægt að stofna nýja grunnstillingapakka.
 
 ## <a name="see-also"></a>Sjá einnig
-
-[Sérstillingum stjórnað](ui-personalization-manage.md)  
+[Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Breyta grundvallarstillingum](ui-change-basic-settings.md)  
-[Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)  
+[Grunnstillingum breytt](ui-change-basic-settings.md)  
+[Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  

@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9ba3873284f5e40e46eeee8615974dd6053d4991
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 635e53040ab9920780cd1cf05a14f6dfa17496d9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249952"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314965"
 ---
 # <a name="working-with-general-journals"></a>Vinna í færslubókum
 
@@ -28,7 +28,7 @@ Flestar færslubækur eru byggðar á *Almennri færslubók* og þú getur unni�
 
 Nota færslubækur til bóka fjárhagsfærslur beint í fjárhagsreikninga og aðra reikninga, svo sem banka-, viðskiptamanna-, lánardrottna- og starfsmannareikninga. Bókun með almennri færslubók stofnar alltaf færslur á fjárhagsreikningum. Slíkt á við jafnvel í tilvikum þegar færslubókarlína er bókuð á reikning viðskiptamanns, vegna þess að færsla er bókuð í safnreikning færslubókar með bókunarflokki.
 
-Upplýsingarnar sem eru færðar inn í færslubók eru til bráðabirgða og það er hægt að breyta þeim í færslubókinni. Þegar færslubókin er bókuð, eru upplýsingarnar færðar í færslur á einstökum reikningum, þar sem ekki er hægt að breyta þeim. Það er samt sem áður hægt að ógilda bókaðar færslur og snúa við bókunum eða leiðrétta bókanir. Frekari upplýsingar eru í [Bakfæra bókanir](finance-how-reverse-journal-posting.md).
+Upplýsingarnar sem eru færðar inn í færslubók eru til bráðabirgða og það er hægt að breyta þeim í færslubókinni. Þegar færslubókin er bókuð, eru upplýsingarnar færðar í færslur á einstökum reikningum, þar sem ekki er hægt að breyta þeim. Það er samt sem áður hægt að ógilda bókaðar færslur og snúa við bókunum eða leiðrétta bókanir. Frekari upplýsingar er að finna í [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md).
 
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
@@ -60,7 +60,7 @@ Reiturinn ákvarðar hvernig upphæðin í færslubókarlínunni er meðhöndlu�
 | --- | --- |
 |Fast|Magnið í bókarlínunni er látið standa eftir bókun.|
 |Breytilegt|Magninu í bókarlínunni er eytt eftir bókun.|
-|Staða|Bókaða upphæðin á reikningnum í línunni deilist á reikningana sem eru tilgreindir fyrir línuna í töflunni Færslubók úthlutunar . Reikningsstaðan verður stillt á núll. Nauðsynlegt er að fylla út reitinn **Úthlutunar %** á síðunni **Úthlutanir**. Nánari upplýsingar eru í [Úthluta upphæðum ítrekunarbókar á nokkra reikninga](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
+|Staða|Bókaða upphæðin á reikningnum í línunni deilist á reikningana sem eru tilgreindir fyrir línuna í töflunni Færslubók úthlutunar. Reikningsstaðan verður stillt á núll. Nauðsynlegt er að fylla út reitinn **Úthlutunar %** á síðunni **Úthlutanir**. Nánari upplýsingar eru í [Úthluta upphæðum ítrekunarbókar á nokkra reikninga](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
 |Föst bakfærsla|Upphæðin í færslubókarlínunni helst eftir bókun og mótfærsla bókast næsta dag.|
 |Breytileg bakfærsla|Upphæðinni í færslubókarlínunni er eytt eftir bókun og mótfærsla bókast næsta dag.|
 |Bakfærð staða|Bókaða upphæðin á reikningnum í línunni verður úthlutað á reikningana sem eru tilgreindir fyrir línuna á síðunni **Úthlutanir**. Staðan á reikningnum verður sett á núll og mótfærsla bókast næsta dag.|
@@ -113,7 +113,7 @@ Leiga er greidd í hverjum mánuði þannig að leiguupphæð hefur verið fær�
     Ef ein eða fleiri staðlaðar birgðabækur hafa verið stofnaðar og skipta á einni þeirra út með nýjum vörubókalínum skal velja kótann sem óskað er eftir í reitnum Kóti.
 6. Veldu hnappinn **Í lagi** til að staðfesta að skrifa eigi yfir stöðluðu birgðabókina sem til er og skipta út öllu efni hennar.
 7. Velja skal reitinn **Vista ein.upphæð** ef vista á gildin í reitnum **Ein.upphæð** í staðlaðri birgðabók.
-8. Velja skal reitinn **Vista magn** ef kerfið á að vista gildin í reitnum **Magn**.
+8. Velja skal reitinn **Vista magn** ef forritið á að vista gildin í reitnum **Magn**.
 9. Velja hnappinn **Í lagi** til að vista stöðluðu birgðabókina.
 
 Þegar lokið hefur verið við að vista staðlaða birgðabókina opnast síðan Birgðabók þannig að hægt er að halda áfram og bóka hana, vitandi það að auðvelt er að stofna hana aftur næst þegar bóka þarf sömu eða svipaðar línur.
@@ -160,7 +160,7 @@ Gildi í **Skjal nr.** reitnum breytast þar sem þörf er á, þannig að núme
 
 ## <a name="see-also"></a>Sjá einnig
 [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  
-[Bakfæra bókanir](finance-how-reverse-journal-posting.md)  
+[Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)  
 [Úthluta kostnaði og tekjum](year-allocate-costs-income.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

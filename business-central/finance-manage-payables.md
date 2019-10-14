@@ -12,15 +12,15 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: f7556b204403f0abdb6361a0e1650b90e58810e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 36da19dbe011f3e26dc166955fb9c5f0decd3b94
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238877"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305765"
 ---
 # <a name="managing-payables"></a>Stjórna skuldum
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur það sem þú þarft til að stjórna viðskiptaskuldum.  
@@ -47,7 +47,7 @@ Ef þú bíður eftir að bóka greiðslur þar til bankinn þinn staðfestir a�
 
 * Í greiðslubók með tillögum að greiðslulínum geturðu flokkað með annað hvort dálkinum **Flutt út í greiðsluskrá** eða **Heildarupphæð flutt út** dálkunum og svo eytt greiðslutillögum fyrir opna reikninga þar sem greiðslur hafa þegar átt sér stað og þú vilt ekki greiða.
 
-    **Athugaðu** Þú gætir þurft að bæta þessum dálkum við listann. Frekari upplýsingar eru í [Sérstilling vinnusvæðisins þíns](ui-personalization-user.md).  
+    **Athugaðu** Þú gætir þurft að bæta þessum dálkum við listann. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).  
 * Einnig, á **Greiðslutillögur til lánardrottna** runuvinnslunni þar sem hægt er að tilgreina greiðslur sem á að taka með í greiðslubókinni er hægt að tilgreina að setja ekki inn greiðslulínur fyrir greiðslur sem hafa þegar verið fluttar út með því að velja **Sleppa útfluttum greiðslum** gátreitinn.
 
 ## <a name="see-also"></a>Sjá einnig

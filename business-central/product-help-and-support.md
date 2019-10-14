@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/17/2019
-ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.date: 10/01/2019
+ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1755970"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313613"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
@@ -43,7 +43,7 @@ Ef þú ert að nota prufuútgáfu af [!INCLUDE [prodshort](includes/prodshort.m
 
 ### <a name="blog"></a>Blogg
 
-Við ræðum um nýja möguleika á [bloggsvæði Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), þ.á.m. hvenær þeir eru gerðir aðgengilegir og hvort huga þurfi að einhverju.  
+Við ræðum um nýja möguleika á [bloggsvæði Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), þ.á.m. hvenær þeir eru gerðir aðgengilegir og hvort huga þurfi að einhverju.  
 
 ### <a name="capabilities-coming-soon"></a>Væntanlegir eiginleikar
 
@@ -70,20 +70,20 @@ Hlutinn **Úrræðaleit** birtir tæknilegar upplýsingar sem stjórnandinn þin
 
 ## <a name="report-a-problem"></a>Tilkynna um vandamál
 
-Gert er ráð fyrir að [!INCLUDE[prodshort](includes/prodshort.md)]-samstarfsaðilinn þinn hjálpi þér með tæknilega aðstoð. [!INCLUDE[prodshort](includes/prodshort.md)] er selt í gegnum samstarfsaðila og þessi hluti auðveldar þér að hafa samband endursöluaðilann þinn ef hann hefur sent inn netfang fyrir notendaþjónustu. Ef [!INCLUDE[prodshort](includes/prodshort.md)] samstarfsaðili þinn getur þá ekki leyst vandamálið, munu hann leggja fram þjónustubeiðni til Microsoft.  
+Endursöluaðili [!INCLUDE[prodshort](includes/prodshort.md)] mun veita þér tæknilega aðstoð. [!INCLUDE[prodshort](includes/prodshort.md)] er selt í gegnum samstarfsaðila og þessi hluti auðveldar þér að hafa samband endursöluaðilann þinn ef hann hefur sent inn samskiptaupplýsingar fyrir notendaþjónustu. Ef [!INCLUDE[prodshort](includes/prodshort.md)] samstarfsaðili þinn getur þá ekki leyst vandamálið, munu hann leggja fram þjónustubeiðni til Microsoft.  
 
 > [!NOTE]
 > Þessi hluti er eingöngu í boði ef greitt hefur verið fyrir [!INCLUDE [prodshort](includes/prodshort.md)]-áskrift. Ef þú hefur skráð þig fyrir prufuáskrift og hefur ekki enn keypt [!INCLUDE[prodshort](includes/prodshort.md)] þá hefur þú ekki endursöluaðila og getur ekki haft samband við þjónustudeild Microsoft. Hægt er að finna [!INCLUDE[prodshort](includes/prodshort.md)]-samstarfsaðila á síðunni [Ég er að leit að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-### <a name="support-email-address"></a>Netfang notendaþjónustu
+### <a name="support-contacts"></a>Stuðningstengiliðir
 
-Netfangið sem er sýnt í hlutanum **Tilkynna vandamál** getur verið fyrir einstakling eða hóp. Ef þú ert endursöluaðili [!INCLUDE[prodshort](includes/prodshort.md)] fyrir leigjanda geturðu sett upp þetta netfang á síðunni **Samskiptakort þjónustuvers**. Frekari upplýsingar er að finna í [Grunnstilling á tæknilegri aðstoð](/dynamics365/business-central/dev-itpro/technical-support) í efni þróunaraðila og ITpro fyrir [!INCLUDE [prodshort](includes/prodshort.md)].  
+Hlutinn **Tilkynna um vandamál** birtir netfang eða tengil til að þú getir haft samband við einstakling eða hóp þjónustuvers. Ef þú ert [!INCLUDE[prodshort](includes/prodshort.md)] endursöluaðili fyrir leigjanda getur þú sett upp samskiptaupplýsingar æskilegs stuðningsaðila í stjórnendamiðstöð. Frekari upplýsingar er að finna í [Skilgreining á þjónustuupplifun](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) í ITpro-efni fyrir [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-Til að láta samstarfsaðila vita um vandamál skal velja tengilinn. Þetta opnar nýjan tölvupóst í sjálfgefnum tölvupóstsritli og síðan er hægt að bæta við tæknilegum upplýsingum um Azure Active Directory-leigjandann þinn og öðrum upplýsingum sem skipta máli.  
+Til að láta samstarfsaðila vita um vandamál skal velja tengilinn til að annaðhvort senda tölvupóst eða opna stuðningssíðu hans í nýjum vafraglugga. Síðan geturðu bætt tæknilegum upplýsingum um Azure Active Directory leigjandann við úr hlutanum **Úrræðaleit** og öðrum upplýsingum sem þú telur eiga við.  
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Bloggfærsla: Finna réttar úrlausnir og veita endurgjöf](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Skjöl þróunaraðila og ITpro Business Central](/dynamics365/business-central/dev-itpro/)  
 [Úrlausnir fyrir hjálp og notendaþjónustu fyrir samstarfsaðila](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Grunnstilling tæknilegrar aðstoðar](/dynamics365/business-central/dev-itpro/technical-support)  
+[Tæknilegur stuðningur](/dynamics365/business-central/dev-itpro/technical-support)  

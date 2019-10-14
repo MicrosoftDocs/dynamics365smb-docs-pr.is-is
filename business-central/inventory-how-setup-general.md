@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 7baf0c8798a66e092c256059b77a8c9e78db48da
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bf81f57aad5178a7f875381b274e43cab50899ad
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240074"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309864"
 ---
 # <a name="set-up-general-inventory-information"></a>Setja upp almennar birgðaupplýsingar
 Almennar birgðaupplýsingar eru tilgreindar á síðunni **Birgðagrunnur**.
@@ -33,5 +33,5 @@ Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar re
 [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)    
 [Stjórna birgðum](inventory-manage-inventory.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Breyting á hvaða eiginleikar eru sýndir](ui-experiences.md)  
+[Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
