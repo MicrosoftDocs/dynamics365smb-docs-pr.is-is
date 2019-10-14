@@ -18,35 +18,39 @@
 
 # Unnið með Business Central
 ## [Yfirlit](ui-work-product.md)
-## [Að finna eiginleika og upplýsingar](ui-search.md)
+## [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)
+## [Finna síður frá yfirliti yfir eiginleika](ui-role-explorer.md)
 ## [Algengar spurningar um Viðmótsleit](ui-search-faq.md)
-## [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)
+## [Röðun, leit, og síun](ui-enter-criteria-filters.md)
 ## [Algengar spurningar um leit og síun](ui-search-filter-faq.md)
 ## [Gagnainnfærsla](ui-enter-data.md)
-## [Unnið með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md)
-## [Afrita og líma](ui-copy-paste.md)
+## [Algengar spurningar um að afrita og líma](ui-copy-paste.md)
+## [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md)
 ## [Greina áskilda reiti](ui-mandatory-fields.md)
 ## [Breyta tungumáli og landsstaðli](about-locale-language.md)
 ## [Skoða og breyta í Excel](across-work-with-excel.md)  
-## [Stjórnun tilkynninga](ui-smart-notifications.md)
-## [Breyta grundvallarstillingum](ui-change-basic-settings.md)
+## [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md)
+## [Grunnstillingum breytt](ui-change-basic-settings.md)
+## [Stjórna tilkynningum](ui-smart-notifications.md)
 ## Sérstilla Business Central
-### [Sérstillingar verksvæðis](ui-personalization-user.md)
+### [Sérstilling verksvæðis](ui-personalization-user.md)
 ### [Af hverju er síða læst og því ekki hægt að sérsníða hana](ui-personalization-locked.md)
+### [Vista og sérsníða listayfirlit](ui-views.md)
+### [Bæta síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md)
 ### [Birting lista á mismunandi hátt](across-display-lists-different-views.md)
-## Prentun skýrsla og keyrsla runuvinnslu
-### [Unnið með skýrslur og runuvinnslur](ui-work-report.md)
+## Prentun skýrsla og keyrsla runuvinnslu og XMLports
+### [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)
 ### [Tilgreina prentaraval fyrir skýrslur](ui-specify-printer-selection-reports.md)
-### [Tímasetja skýrslu eða runuvinnslu til að keyra](ui-work-report.md#ScheduleReport)
-### [Vinna með vistaðar stillingar á skýrslum](reports-saving-reusing-settings.md)
+### [Tímasetja keyrslu skýrslu](ui-work-report.md#ScheduleReport)
+### [Stjórna vistuðum stillingum fyrir skýrslur og runuvinnslur](reports-saving-reusing-settings.md)
 ### [Skoða prufuskýrslur fyrir bókun](ui-how-view-test-reports-posting.md)
-### [Keyra runuvinnslur](ui-how-run-batch-jobs.md)
-## Breyting á útliti skjala
+### [Keyra runuvinnslur og XML-gátt](ui-how-run-batch-jobs.md)
+## Breytið því hvernig skjöl og skýrslur líta út utanfrá
 ### [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)
 ### [Uppfæra skýrsluútlit eða skjalaútlit](ui-update-report-layouts.md)
 ### [Gera breytingar á Word-skýrsluútliti](ui-how-create-custom-report-layout.md)
 ### [Flytja inn og út skýrsluútlit eða skjalaútlit](ui-how-import-and-export-report-layout.md)
-### [Breyta hvaða útlit er nú notað í skýrslu](ui-how-change-layout-currently-used-report.md)
+### [Breyta núverandi skýrsluútliti](ui-how-change-layout-currently-used-report.md)
 ### [Bæta reitum við Word-skýrsluútlit](ui-how-add-fields-word-report-layout.md)
 ## Notkun flýtilykla
 ### [Aðgengi og Flýtivísanir](ui-accessibility.md)
@@ -211,7 +215,7 @@
 ## Notkun Flow með Business Central
 ### [Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)
 ### [Úrræðaleit samþættingar við Microsoft Flow - Umbeðin vefslóð of löng](across-troubleshooting-how-use-financials-data-source-flow.md)
-## [Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota PowerApps.](across-how-use-financials-data-source-powerapps.md)
+## [Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota PowerApps](across-how-use-financials-data-source-powerapps.md)
 ## [Skipta úr QuickBooks App í Business Central](across-quickbooks-to-business-edition.md)
 ## [Nota Business Central á fartækinu þínu](install-mobile-app.md)
 ## [Magnreikningsfærsla fyrir Microsoft Bookings](finance-bookings.md)
@@ -229,10 +233,9 @@
 ## [Safnvista skjöl](across-how-to-archive-documents.md)
 ## [Bæta við lengdum vörutexta](ui-how-define-ext-text.md)
 ## [Skilgreina verk notanda](across-user-tasks.md)
-## [Bæta tenglum við vefsvæði, skjöl, eða forrit á skrám](ui-how-add-link-to-record.md)
-## [Hengja skrár við kort og skjöl](across-attach-document-master-data.md)
 ## [Flutningur viðskiptagagna í Excel](about-export-data.md)
 ## [Bókun skjala og færslubóka](ui-post-documents-journals.md)
+## [Bóka mörg skjöl á sama tíma](ui-batch-posting.md)
 ## [Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md)
 ## [Breyta bókuðum skjölum](across-edit-posted-document.md)
 ## [Vinna í færslubókum](ui-work-general-journals.md)
@@ -304,8 +307,8 @@
 
 # Stjórnun
 ## [Yfirlit](admin-setup-and-administration.md)
-## [Að skilja notendur, hlutverk og forstillingar](admin-users-profiles-roles.md)
 ## [Vinna með notendur og heimildir](ui-how-users-permissions.md)
+## [Vinna með forstillingar](admin-users-profiles-roles.md)
 ## [Flokkun gagnatrúnaðar](admin-classifying-data-sensitivity.md)
 ## [Svara beiðnum um persónuleg gögn](admin-responding-to-requests-about-personal-data.md)
 ## [Stofna ný fyrirtæki](about-new-company.md)
@@ -318,17 +321,11 @@
 ## [Framlenging á prufuútgáfunni](admin-extend-trial.md)
 ## [Eftirlit með síðum](across-inspect-page.md)
 ## [Búa til sandkassaumhverfi](across-how-create-sandbox-environment.md)
-## Tengir við Dynamics 365 for Sales
-### [Yfirlit](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Setja upp Dynamics 365 for Sales-tengingu](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Sérstilling Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
-### [Breyta töfluvörpunum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Samstilla töfluvarpanir handvirkt](admin-manual-synchronization-of-table-mappings.md)
-### [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Úrræðaleit vegna samstillingarvillna](admin-troubleshoot-sales-synchronization.md)
 ## Sérstilling Business Central
 ### [Yfirlit](ui-customizing-overview.md)
+### [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)
+### [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)
+### [Setja upp litaðan vísi á bunka](admin-how-set-up-colored-indicator-on-cues.md)
 ### Sérstilling með viðbótum
 #### [Yfirlit](ui-extensions.md)
 #### [Sérstilling með viðbótum](ui-extensions.md)
@@ -354,9 +351,15 @@
 #### [UK - GetAddress.io UK póstnúmer](ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Senda greiðslutilkynningu](ui-extensions-send-remittance-advice.md)
 #### [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)
-### [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)
-### [Stjórnun sérstillinga sem stjórnandi](ui-personalization-manage.md)
-### [Setja upp litavísi á bunka](admin-how-set-up-colored-indicator-on-cues.md)
+## Samþætting við Dynamics 365 Sales
+### [Yfirlit](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Setja upp Dynamics 365 Sales tengingu](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Samstilling á Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+### [Breyta töfluvörpunum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Samstilla töfluvarpanir handvirkt](admin-manual-synchronization-of-table-mappings.md)
+### [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Úrræðaleit vegna samstillingarvillna](admin-troubleshoot-sales-synchronization.md)
 
 # Fjármál
 ## [Yfirlit](finance.md)
@@ -470,7 +473,7 @@
 ## [Unnið með víddir](finance-dimensions.md)
 ## [Stofna fjárhagsáætlunum](finance-how-create-budgets.md)
 ## [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)
-## [Bakfæra bókanir](finance-how-reverse-journal-posting.md)
+## [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)
 ## [Úthluta kostnaði og tekjum](year-allocate-costs-income.md)
 ## [Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)
 ## [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)
@@ -592,7 +595,6 @@
 ### [Setja upp söluferla tækifæris og söluþrep](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Stofna tækifæri](marketing-how-create-opportunities.md)
 ### [Fylgjast með tölvupóstsamskiptum](marketing-set-up-email-logging.md)
-
 ### [Meðhöndla sölutækifæri](marketing-processing-sales-opportunities.md)
 ### [Setja upp tölvupóstsskráningu](marketing-set-up-email-logging.md)
 ## [Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)
@@ -839,7 +841,6 @@
 #### [Prenta prófunarskýrslur fyrir innheimtubréf](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Almennt
 #### [Prenta upplýsingar um fjárhagsgrunn](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
-#### [Prenta sölu- og innkaupapantanir við fjöldabókun](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Belgía
 ### [Yfirlit](LocalFunctionality/Belgium/belgium-local-functionality.md)
@@ -1022,7 +1023,6 @@
 #### [Gengi gjaldmiðils](LocalFunctionality/Germany/currency-exchange-rates.md)
 #### [ESB-sölulisti í Þýskalandi](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 #### [Hafa með skráningarnúmer fyrirtækis á söluskýrslum og innkaupaskýrslum](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
-#### [Prenta sölu- og innkaupapantanir við fjöldabókun](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Prenta upplýsingar um fjárhagsgrunn](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 #### [Vottun á Business Central fyrir þýskan markað (skjalið er á þýsku)](https://go.microsoft.com/fwlink/?linkid=875256)
 
@@ -1074,7 +1074,6 @@
 #### [Setja upp upplýsingar um fyrirtæki](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 #### [Ítalskur undirverktaki](LocalFunctionality/Italy/italian-subcontracting.md)
 #### [Setja upp færslubókarsniðmát og runur](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
-#### [Tilkynna viðskipti við viðskiptavini og lánardrottna í löndum og svæðum á svörtum lista](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
 ## Mexíkó
 ### [Yfirlit](LocalFunctionality/Mexico/mexico-local-functionality.md)
@@ -1168,6 +1167,7 @@
 ## Noregur
 ### [Yfirlit](LocalFunctionality/Norway/norway-local-functionality.md)
 ### VSK
+#### [Norsk-stöðluð endurskoðunarskrá - (SAF-T) skattaumsjón](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 #### [Norsk VSK-skýrsla](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Norskir VSK-kóðar](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [Hvernig á að nota einn VSK-kóða í færslubókum](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1378,7 +1378,6 @@
 ### Almennt    
 #### [Flytja inn svissnesk póstnúmer](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Svissnesk innkaupaskjöl og sölupantanir](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
-#### [Prenta sölu- og innkaupapantanir við fjöldabókun](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Bretland
 ### [Yfirlit](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)

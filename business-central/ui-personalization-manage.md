@@ -1,115 +1,74 @@
 ---
-title: Stjórnun sérstillinga sem stjórnandi í Business Central | Microsoft Docs
-description: Lærðu hvernig á að aðlaga notendaviðmótið til að henta því hvernig þú vinnur.
+title: Sérsníða síður fyrir hlutverk | Microsoft Docs
+description: Kynntu þér hvernig á að sérsníða notandaviðmótið fyrir forstillingu (hlutverk) þannig að allir notendur þess sjái sérsniðið vinnusvæði.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 08/16/2019
-ms.author: jswymer
-ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887738"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310805"
 ---
-# <a name="managing-personalization-as-an-administrator"></a><span data-ttu-id="7f02a-103">Stjórnun sérstillinga sem stjórnandi</span><span class="sxs-lookup"><span data-stu-id="7f02a-103">Managing Personalization as an Administrator</span></span>
+# <a name="customize-pages-for-profiles"></a><span data-ttu-id="db711-103">Sérsníða síður fyrir forstillingar</span><span class="sxs-lookup"><span data-stu-id="db711-103">Customize Pages for Profiles</span></span>
+<span data-ttu-id="db711-104"> Notendur geta sérstillt síður vinnusvæðisins síns sitt að vild.</span><span class="sxs-lookup"><span data-stu-id="db711-104">Users can personalize pages that make up their workspace to suit their own preferences.</span></span> <span data-ttu-id="db711-105">Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).</span><span class="sxs-lookup"><span data-stu-id="db711-105">For more information, see [Personalize Your Workspace](ui-personalization-user.md).</span></span>
 
-<span data-ttu-id="7f02a-104"> Notendur geta sérsniðið vinnusvæði sitt að vild.</span><span class="sxs-lookup"><span data-stu-id="7f02a-104">Users can personalize their workspace to suit their own preferences.</span></span> <span data-ttu-id="7f02a-105">Sem stjórnandi stjórnar þú og hefur umsjón með sérstillingum með því að:</span><span class="sxs-lookup"><span data-stu-id="7f02a-105">As an administrator, you control and manage personalization by:</span></span>
+<span data-ttu-id="db711-106">Stjórnendur geta sérstillt síður fyrir forstillingu samkvæmt tengdri viðskiptahlutverki eða deild, til dæmis, þannig að allir notendur sem hafa úthlutað forstillingunni sjái sérstillt síðuútlit.</span><span class="sxs-lookup"><span data-stu-id="db711-106">Administrators can customize pages for a profile, according to the related business role or department, for example, so that all users that are assigned the profile will see the customized page layout.</span></span> <span data-ttu-id="db711-107">Stjórnandinn sérstillir síður með því að nota sömu virkni og notendur gera þegar þeir sérstilla síður.</span><span class="sxs-lookup"><span data-stu-id="db711-107">The administrator customizes pages by using the same functionality as users do when they personalize pages.</span></span>
 
--   <span data-ttu-id="7f02a-106">Kveikja eða slökkva á eiginleika sérstillingar fyrir allt forritið (einungis fyrir uppsetningar á staðnum).</span><span class="sxs-lookup"><span data-stu-id="7f02a-106">Enabling or disabling the personalization feature for the entire the application (on-premises installation only).</span></span>
--   <span data-ttu-id="7f02a-107">Kveikja eða slökkva á eiginleika sérstillingar fyrir notendur af tilteknum prófíl.</span><span class="sxs-lookup"><span data-stu-id="7f02a-107">Enabling or disabling the personalization feature for users of a specific profile.</span></span>
--   <span data-ttu-id="7f02a-108">Hreinsa allar sérstillingar á síðu sem notendur hafa gert.</span><span class="sxs-lookup"><span data-stu-id="7f02a-108">Clearing any page personalizations that users have made.</span></span>
+> [!NOTE]
+> <span data-ttu-id="db711-108">Dæmigerð notkun forstillingar er hlutverk.</span><span class="sxs-lookup"><span data-stu-id="db711-108">The typical business use of a profile is a role.</span></span> <span data-ttu-id="db711-109">Forstilling er því heitið *Forstilling (hlutverk)* í notendaviðmóti.</span><span class="sxs-lookup"><span data-stu-id="db711-109">A profile is therefore named *Profile (Role)* in the UI.</span></span>
 
-## <a name="EnablePersonalization"></a><span data-ttu-id="7f02a-109">Kveikja eða slökkva á sérstillingum (aðeins á staðnum)</span><span class="sxs-lookup"><span data-stu-id="7f02a-109">To enable or disable personalization (On-Premises Only)</span></span>
+<span data-ttu-id="db711-110">Sérstilling á síðu hefst á síðunni **Forstillingar (hlutverk)**, upphafspunkt stjórnanda til að stjórna notendaforstillingum á einstökum forstillingarspjöldum.</span><span class="sxs-lookup"><span data-stu-id="db711-110">Page customization starts from the **Profiles (Roles)** page, the administrator's starting point for managing users' profiles on individual profile cards.</span></span> <span data-ttu-id="db711-111">Auk þess að sérsníða síðuútlitið er hægt að breyta ýmsum öðrum stillingum fyrir forstillingar á síðunni **Sérstilling (hlutverk)** fyrir hverja forstillingu.</span><span class="sxs-lookup"><span data-stu-id="db711-111">In addition to customizing the page layout, you control various other settings for profiles on the **Profile (Role)** page for each profile.</span></span> <span data-ttu-id="db711-112">Frekari upplýsingar eru í [Unnið með forstillingar](admin-users-profiles-roles.md).</span><span class="sxs-lookup"><span data-stu-id="db711-112">For more information, see [Manage Profiles](admin-users-profiles-roles.md).</span></span>
 
-<span data-ttu-id="7f02a-110">Sjálfgefið er að slökkt sé á sérstillingu í biðlaranum.</span><span class="sxs-lookup"><span data-stu-id="7f02a-110">By default, personalization is not enabled in the client.</span></span> <span data-ttu-id="7f02a-111">Þú kveikir eða slekkur á sérstillingum með því að breyta skilgreiningarskránni (navsettings.json) í tilviki fyrir vefþjón Business Central sem þjónar biðlaranum.</span><span class="sxs-lookup"><span data-stu-id="7f02a-111">You enable or disable personalization by modifying the configuration file (navsettings.json) of the Business Central Web Server instance that serves the clients.</span></span>
+## <a name="to-customize-pages-for-a-profile"></a><span data-ttu-id="db711-113">Til að sérsníða síður fyrir forstillingu</span><span class="sxs-lookup"><span data-stu-id="db711-113">To customize pages for a profile</span></span>
+1. <span data-ttu-id="db711-114">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forstillingar (hlutverk)** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="db711-114">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles (Roles)**, and then choose the related link.</span></span>
+2. <span data-ttu-id="db711-115">Velja skal línuna fyrir forstillinguna sem á að sérsníða síður fyrir og síðan velja aðgerðina **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="db711-115">Select the line for the profile that you want to customize pages for, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="db711-116">Veldu **Sérsníða síður** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="db711-116">Choose the **Customize pages** action.</span></span>
 
-1. <span data-ttu-id="7f02a-112">Til að kveikja á sérstillingum skaltu bæta eftirfarandi línu við navsettings.json skrána:</span><span class="sxs-lookup"><span data-stu-id="7f02a-112">To enable personalization, add the following line in the navsettings.json file:</span></span>
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="db711-117">opnast í nýjum vafraglugga fyrir valda forstillingu með borðanum **Sérstilla**.</span><span class="sxs-lookup"><span data-stu-id="db711-117">opens on a new browser tab for the selected profile with the **Customizing** banner activated.</span></span> <span data-ttu-id="db711-118">Borðinn **Sérsníða** býður upp á sömu virkni og borðinn **Sérstilling** sem er aðgengilegur notendum.</span><span class="sxs-lookup"><span data-stu-id="db711-118">The **Customizing** banner offers the same functionality as the **Personalizing** banner that is available to users.</span></span>
 
-    ```
-    "PersonalizationEnabled": "true"
-    ```
+4. <span data-ttu-id="db711-119">Sérstilla síður í samræmi við þarfir hlutverks eða deildarinnar sem um ræðir á sama hátt og notandi myndi gera þegar hann sérstillir.</span><span class="sxs-lookup"><span data-stu-id="db711-119">Customize pages according to the needs of the role or department in question in the same way as a user would do when personalizing.</span></span> <span data-ttu-id="db711-120">Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).</span><span class="sxs-lookup"><span data-stu-id="db711-120">For more information, see [Personalize Your Workspace](ui-personalization-user.md).</span></span>
 
-    <span data-ttu-id="7f02a-113">Til að slökkva á sérstillingum skaltu fjarlægja þessa línu eða breyta henni í:</span><span class="sxs-lookup"><span data-stu-id="7f02a-113">To disable personalization, remove this line or change it to:</span></span>
+    > [!NOTE]
+    > <span data-ttu-id="db711-121">Til að skoða á meðan sérstillingu stendur skal nota Ctrl + Smella á aðgerð þegar hún er auðkennd með bendlinum.</span><span class="sxs-lookup"><span data-stu-id="db711-121">To navigate during personalization, use Ctrl + Click on an action if it is highlighted by the arrowhead.</span></span>
 
-    ```
-    "PersonalizationEnabled": "false"
-    ```
+5. <span data-ttu-id="db711-122">Þegar lokið er við að breyta útlitinu á einni eða fleiri síðum skal velja hnappinn **Lokið** á borðanum **Sérsníða** .</span><span class="sxs-lookup"><span data-stu-id="db711-122">When you have finished changing the layout on one or more pages, choose the **Done** button on the **Customizing** banner.</span></span>
+6. <span data-ttu-id="db711-123">Lokið vafraglugganum.</span><span class="sxs-lookup"><span data-stu-id="db711-123">Close the browser tab.</span></span>
 
-    <span data-ttu-id="7f02a-114">Nánari upplýsingar um hvernig skuli breyta navsettings.json skránni er að finna í [Breyta navsettings.json skránni beint](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).</span><span class="sxs-lookup"><span data-stu-id="7f02a-114">For more information about how to modify the navsettings.json file, see [Modify the navsettings.json file directly](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).</span></span>
+<span data-ttu-id="db711-124">Sérstillingar fyrir síður er nú skráðar fyrir forstillinguna.</span><span class="sxs-lookup"><span data-stu-id="db711-124">The customization of pages is now recorded for the profile.</span></span>
 
-2. <span data-ttu-id="7f02a-115">Búðu til og sæktu táknin fyrir forritið.</span><span class="sxs-lookup"><span data-stu-id="7f02a-115">Generate and download the application symbols.</span></span>
+## <a name="to-view-all-customized-pages-for-a-profile"></a><span data-ttu-id="db711-125">Til að skoða allar sérstilltar síður fyrir forstillingu</span><span class="sxs-lookup"><span data-stu-id="db711-125">To view all customized pages for a profile</span></span>
+<span data-ttu-id="db711-126">Hægt er að fá yfirlit yfir hvaða síður eru sérsniðnar fyrir forstillingu, til dæmis til að áætla hver á að sérsníða eða eyða.</span><span class="sxs-lookup"><span data-stu-id="db711-126">You can get an overview of which pages are customized for a profile, for example to plan which to customize further or delete.</span></span>
 
-    <span data-ttu-id="7f02a-116">Þetta skref er valfrjálst og er ekki nauðsynlegt til að kveikja á sérstillingu.</span><span class="sxs-lookup"><span data-stu-id="7f02a-116">This step is optional, and not required to enable personalization.</span></span> <span data-ttu-id="7f02a-117">Hins vegar tryggir það að þróunaraðilar geti sérstillt nýjar síður sem eru stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="7f02a-117">However, it ensures that new pages that are created by developers can be personalized.</span></span>
+- <span data-ttu-id="db711-127">Á síðunni **Forstilling (hlutverk)** er hægt að velja aðgerðina **Sérsníða síður**.</span><span class="sxs-lookup"><span data-stu-id="db711-127">On the **Profile (Role)** page, choose the **Customized Pages** action.</span></span>
 
-    1. <span data-ttu-id="7f02a-118">Fyrst eru táknin búin til með því að keyra finsql.exe með `generatesymbolreference` skipuninni.</span><span class="sxs-lookup"><span data-stu-id="7f02a-118">First, you generate the symbols by running finsql.exe with `generatesymbolreference` command.</span></span> <span data-ttu-id="7f02a-119">Skráin finsql.exe er staðsett í uppsetningarmöppunni fyrir [!INCLUDE[server](includes/server.md)] og Dynamics NAV þróunarumhverfi (CSIDE).</span><span class="sxs-lookup"><span data-stu-id="7f02a-119">The finsql.exe file is located in the installation folder for the [!INCLUDE[server](includes/server.md)] and Dynamics NAV Development Environment (CSIDE).</span></span> <span data-ttu-id="7f02a-120">Til að búa til táknin skaltu opna skipanakvaðningu, breyta yfir í skráasafnið þar sem skráin er geymd og síðan keyra eftirfarandi skipun:</span><span class="sxs-lookup"><span data-stu-id="7f02a-120">To generate the symbols, open a command prompt, change to the directory where the file is store, and the run the following command:</span></span>
+## <a name="to-delete-all-customizations-for-a-profile"></a><span data-ttu-id="db711-128">Til að eyða öllum sérstillingum fyrir forstillingu</span><span class="sxs-lookup"><span data-stu-id="db711-128">To delete all customizations for a profile</span></span>
+<span data-ttu-id="db711-129">Hægt er að hætta við sérstillingar sem þú hefur gert fyrir forstillingu.</span><span class="sxs-lookup"><span data-stu-id="db711-129">You can cancel all customizations that you have made for a profile.</span></span> <span data-ttu-id="db711-130">Sérstillingum sem notandi hefur sett inn með viðbót og sérstillingum sem notanda hefur gert verður ekki eytt.</span><span class="sxs-lookup"><span data-stu-id="db711-130">Customizations introduced with an extension and personalizations made by a user will not be deleted.</span></span> <span data-ttu-id="db711-131">Hægt er að eyða öllum sérstillingum með annarri aðgerð.</span><span class="sxs-lookup"><span data-stu-id="db711-131">You can delete all personalizations with another action.</span></span> <span data-ttu-id="db711-132">Frekari upplýsingar er að finna á [Eyða öllum sérstillingum sem notandi hefur gert](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).</span><span class="sxs-lookup"><span data-stu-id="db711-132">For more information, see [To delete all personalizations made by a user](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).</span></span>
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
-        ```
-    <span data-ttu-id="7f02a-121">Dæmi:</span><span class="sxs-lookup"><span data-stu-id="7f02a-121">For example:</span></span>
+- <span data-ttu-id="db711-133">Á síðunni **Forstilling (hlutverk)** fyrir sérstillta forstillingu skal velja aðgerðina **Hreinsa sérstilltar síður**.</span><span class="sxs-lookup"><span data-stu-id="db711-133">On the **Profile (Role)** page for a customized profile, choose the **Clear customized pages** action.</span></span>
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
-        ```
+<span data-ttu-id="db711-134">Útlitið á síðum fyrir forstillinguna er endurstillt á sjálfgefið útlit.</span><span class="sxs-lookup"><span data-stu-id="db711-134">The layout on pages for the profile is reset to the default layout.</span></span>  
 
-    <span data-ttu-id="7f02a-122">Frekari upplýsingar er að finna í [Keyra C/SIDE og AL samhliða](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).</span><span class="sxs-lookup"><span data-stu-id="7f02a-122">For more information, see [Running C/SIDE and AL Side-by-Side](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).</span></span>
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a><span data-ttu-id="db711-135">Til að eyða sérstillingum fyrir tilteknar síður forstillingar</span><span class="sxs-lookup"><span data-stu-id="db711-135">To delete customization for specific pages for a profile</span></span>
+<span data-ttu-id="db711-136">Hægt er að eyða einstökum sérstillingum síðu sem hafa verið gerðar fyrir forstillingu.</span><span class="sxs-lookup"><span data-stu-id="db711-136">You can delete individual page customizations that you have made for a profile.</span></span> <span data-ttu-id="db711-137">Sérstillingum sem notandi hefur sett inn með viðbót og sérstillingum sem notanda hefur gert verður ekki eytt.</span><span class="sxs-lookup"><span data-stu-id="db711-137">Customizations introduced with an extension and personalizations made by a user will not be deleted.</span></span> <span data-ttu-id="db711-138">Hægt er að eyða tilteknum sérstillingum síðu með annarri aðgerð.</span><span class="sxs-lookup"><span data-stu-id="db711-138">You can delete specific page personalizations with another action.</span></span> <span data-ttu-id="db711-139">Frekari upplýsingar er að finna á [Eyða sérstillingum fyrir tilteknar síður](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).</span><span class="sxs-lookup"><span data-stu-id="db711-139">For more information, see [To delete personalizations for specific pages](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).</span></span>
 
-    2. <span data-ttu-id="7f02a-123">Skilgreindu [!INCLUDE[nav_server_md](includes/nav_server_md.md)] tilvik í **Virkja hleðslu á tilvísunum forritatákna við ræsingu þjóns** (EnableSymbolLoadingAtServerStartup).</span><span class="sxs-lookup"><span data-stu-id="7f02a-123">Configure [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to **Enable loading application symbol references at server startup** (EnableSymbolLoadingAtServerStartup).</span></span> <span data-ttu-id="7f02a-124">Frekari upplýsingar er að finna í [Skilgreining Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).</span><span class="sxs-lookup"><span data-stu-id="7f02a-124">For more information, see [Configuring Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).</span></span>
+1. <span data-ttu-id="db711-140">Á síðunni **Forstilling (hlutverk)** er hægt að velja aðgerðina **Sérsníða síður**.</span><span class="sxs-lookup"><span data-stu-id="db711-140">On the **Profile (Role)** page, choose the **Customized Pages** action.</span></span>
+2. <span data-ttu-id="db711-141">Á síðunni **Sérstillingar forstillingar** skal velja á eða fleiri línur fyrir sérstillingar síðu sem á að eyða og velja svo aðgerðina **Eyða**.</span><span class="sxs-lookup"><span data-stu-id="db711-141">On the **Profile Customizations** page, select on or more lines for page customizations that you want to delete, and then choose the **Delete** action.</span></span>
 
-## <a name="to-disable-personalization-for-a-profile"></a><span data-ttu-id="7f02a-125">Að slökkva á sérstillingu fyrir prófíl</span><span class="sxs-lookup"><span data-stu-id="7f02a-125">To disable personalization for a profile</span></span>
+<span data-ttu-id="db711-142">Útlitinu á völdum síðum er breytt í breytingar sem gerðar voru.</span><span class="sxs-lookup"><span data-stu-id="db711-142">The layout on the selected pages is adjusted to the changes you made.</span></span>
 
-<span data-ttu-id="7f02a-126">Hægt er að koma í veg fyrir að allir notendur sem tilheyra tiltekinni forstillingu geti sérstillt síður sínar.</span><span class="sxs-lookup"><span data-stu-id="7f02a-126">You can prevent all users that belong to a specific profile from being able to personalize their pages.</span></span>
-
-1. <span data-ttu-id="7f02a-127">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notandastillingar** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="7f02a-127">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Profiles**, and then choose the related link.</span></span>
-2. <span data-ttu-id="7f02a-128">Veljið forstillinguna sem á að breyta í listanum.</span><span class="sxs-lookup"><span data-stu-id="7f02a-128">Select the profile in the list that you want to modify.</span></span>
-3. <span data-ttu-id="7f02a-129">Veljið gátreitinn **Afvirkja sérstillingar notanda** og smellið síðan á hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="7f02a-129">Select the **Disable personalization** check box, and then choose the **OK** button.</span></span>
-
-> [!NOTE]  
-> <span data-ttu-id="7f02a-130">Í Business Central á netinu er aðeins hægt að slökkva á sérstillingu fyrir forstillingu leigjanda, ekki fyrir kerfisforstillingar.</span><span class="sxs-lookup"><span data-stu-id="7f02a-130">In Business Central online, you can only disable personalization for a tenant profile, not for system profiles.</span></span> 
-
-## <a name="to-clear-user-personalizations"></a><span data-ttu-id="7f02a-131">Að hreinsa sérstillingar notanda</span><span class="sxs-lookup"><span data-stu-id="7f02a-131">To clear user personalizations</span></span>
-
-<span data-ttu-id="7f02a-132">Þegar sérstillingar síðu er eytt fer síðan aftur í upprunalegt útlit áður en sérstillingin var gerð.</span><span class="sxs-lookup"><span data-stu-id="7f02a-132">Clearing page personalization changes the page back to its original layout before any personalization was made.</span></span> <span data-ttu-id="7f02a-133">Það eru tvær leiðir til að hreinsa sérstillingar sem notendur hafa gert á síðum: með **Eyða sérstillingum notanda** síðunni og **Sérstillingaspjald notanda**.</span><span class="sxs-lookup"><span data-stu-id="7f02a-133">There are two ways to clear the personalizations that users have made to pages: using the **Delete User Personalization** page and using the **User Personalization Card** page.</span></span>
-
-### <a name="to-clear-user-personalizations-by-using-the-delete-user-personalization-page"></a><span data-ttu-id="7f02a-134">Að hreinsa sérstillingar notenda með því að nota síðuna Eyða sérstillingum notanda</span><span class="sxs-lookup"><span data-stu-id="7f02a-134">To clear user personalizations by using the Delete User Personalization page</span></span>
-
-<span data-ttu-id="7f02a-135">Síðan **Eyða sérstillingum notanda** gerir þér kleift að hreinsa sérstillingar á einstaka síðum, eftir einstaka notendum.</span><span class="sxs-lookup"><span data-stu-id="7f02a-135">The **Delete User Personalization** page enables you to clear personalizations on a per-page basis for each user individually.</span></span>
-
-1. <span data-ttu-id="7f02a-136">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða sérstillingum notanda** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="7f02a-136">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Delete User Personalization**, and then choose the related link.</span></span>
-
-    <span data-ttu-id="7f02a-137">Á síðunni er listi yfir allar síður sem hafa verið sérstilltar og sem notandinn tilheyrir.</span><span class="sxs-lookup"><span data-stu-id="7f02a-137">The page lists all the pages that have been personalized and the user it belongs to.</span></span>
-
-    >[!NOTE]
-    > <span data-ttu-id="7f02a-138">Gátmerki í **Eldri sérstilling** dálknum gefur til kynna að sérstillingin hafi verið gerð í eldri útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)], sem meðhöndlaði sérstillingu öðruvísi en er núna gert.</span><span class="sxs-lookup"><span data-stu-id="7f02a-138">A check mark in the **Legacy Personalization** columns indicates that the personalization was done in an older version of [!INCLUDE[d365fin](includes/d365fin_md.md)], which handled personalization different than it does now.</span></span> <span data-ttu-id="7f02a-139">Notendur sem reyna að sérstilla þessar síður eru útilokaðir frá því að gera það nema þeir velji að opna síðuna.</span><span class="sxs-lookup"><span data-stu-id="7f02a-139">Users who try to personalize these pages are locked from doing so unless they choose to unlock the page.</span></span> <span data-ttu-id="7f02a-140">Frekari upplýsingar eru í [Af hverju er síða læst og því ekki hægt að sérsníða hana](ui-personalization-locked.md).</span><span class="sxs-lookup"><span data-stu-id="7f02a-140">For more information, see [Why a page is locked from personalizing](ui-personalization-locked.md).</span></span>
-
-2. <span data-ttu-id="7f02a-141">Veljið færsluna sem á að eyða og veljið síðna aðgerðina **Eyða**.</span><span class="sxs-lookup"><span data-stu-id="7f02a-141">Select the entry that you want to delete, and then choose the **Delete** action.</span></span>
-
-    <span data-ttu-id="7f02a-142">Notandinn mun sjá breytingarnar næst þegar hann skráir sig inn.</span><span class="sxs-lookup"><span data-stu-id="7f02a-142">The user will see the changes the next time they sign-in.</span></span>
-
-### <a name="to-clear-user-personalizations-by-using-the-user-personalization-card-page"></a><span data-ttu-id="7f02a-143">Að hreinsa sérstillingar notenda með því að nota síðuna Sérstillingaspjald notanda</span><span class="sxs-lookup"><span data-stu-id="7f02a-143">To clear user personalizations by using the User Personalization Card page</span></span>
-
-<span data-ttu-id="7f02a-144">Síðan **Sérstillingaspjald notanda** gerir þér kleift að hreinsa sérstillingar á öllum síðum fyrir tiltekinn notanda.</span><span class="sxs-lookup"><span data-stu-id="7f02a-144">The **User Personalization Card** page enables you to clear the personalization on all pages for specific user.</span></span> <span data-ttu-id="7f02a-145">Þetta krefst skrifleyfis fyrir töflu 2000000072 **Forstilling**.</span><span class="sxs-lookup"><span data-stu-id="7f02a-145">This requires write permission to Table 2000000072 **Profile**.</span></span>
-
-1. <span data-ttu-id="7f02a-146">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sérstillingar notanda** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="7f02a-146">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **User Personalization**, and then choose the related link.</span></span>
-
-    <span data-ttu-id="7f02a-147">Síðan **Sérstillingar notanda** sýnir alla notendur sem hugsanlega hafa sérstillt síður.</span><span class="sxs-lookup"><span data-stu-id="7f02a-147">The **User Personalization** page lists all users who potentially have personalized pages.</span></span> <span data-ttu-id="7f02a-148">Ef þú finnur ekki notanda á listanum þýðir það að hann hefur engar sérstilltar síður.</span><span class="sxs-lookup"><span data-stu-id="7f02a-148">If you cannot find a user in the list, this means that they do not have any personalized pages.</span></span>
-
-2. <span data-ttu-id="7f02a-149">Veljið notanda af listanum og veljið svo aðgerðina **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="7f02a-149">Select the user from the list, and then choose the **Edit** action.</span></span>
-
-3. <span data-ttu-id="7f02a-150">Í flipanum **Aðgerðir** veljið **Hreinsa sérstilltar síður**.</span><span class="sxs-lookup"><span data-stu-id="7f02a-150">On the **Actions** tab, choose **Clear Personalized Pages**.</span></span>
-
-    <span data-ttu-id="7f02a-151">Notandinn mun sjá breytingarnar næst þegar hann skráir sig inn.</span><span class="sxs-lookup"><span data-stu-id="7f02a-151">The user will see the changes the next time they sign-in.</span></span>
-
-## <a name="see-also"></a><span data-ttu-id="7f02a-152">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="7f02a-152">See Also</span></span>
-[<span data-ttu-id="7f02a-153">Sérstillingar verksvæðis</span><span class="sxs-lookup"><span data-stu-id="7f02a-153">Personalizing Your Workspace</span></span>](ui-personalization-user.md)  
-<span data-ttu-id="7f02a-154">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7f02a-154">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="7f02a-155">Breyta grundvallarstillingum</span><span class="sxs-lookup"><span data-stu-id="7f02a-155">Changing Basic Settings</span></span>](ui-change-basic-settings.md)  
-[<span data-ttu-id="7f02a-156">Breyting á hvaða eiginleikar eru sýndir</span><span class="sxs-lookup"><span data-stu-id="7f02a-156">Changing Which Features are Displayed</span></span>](ui-experiences.md)  
+## <a name="see-also"></a><span data-ttu-id="db711-143">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="db711-143">See Also</span></span>
+[<span data-ttu-id="db711-144">Sérstilling verksvæðis</span><span class="sxs-lookup"><span data-stu-id="db711-144">Personalize Your Workspace</span></span>](ui-personalization-user.md)  
+[<span data-ttu-id="db711-145">Vinna með forstillingar</span><span class="sxs-lookup"><span data-stu-id="db711-145">Manage Profiles</span></span>](admin-users-profiles-roles.md)  
+[<span data-ttu-id="db711-146">Grunnstillingum breytt</span><span class="sxs-lookup"><span data-stu-id="db711-146">Change Basic Settings</span></span>](ui-change-basic-settings.md)  
+[<span data-ttu-id="db711-147">Breyta því hvaða eiginleikar eru sýndir</span><span class="sxs-lookup"><span data-stu-id="db711-147">Change Which Features are Displayed</span></span>](ui-experiences.md)  
+<span data-ttu-id="db711-148">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="db711-148">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  

@@ -10,27 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 1934467dd789b737fa4dc85c5321a3a79c4bd1bf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 65087f044c410f41ace0a218d810675e19c856d0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242975"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309413"
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="0c8f8-103">Skrá sjálfvirkt samskipti við tengiliði</span><span class="sxs-lookup"><span data-stu-id="0c8f8-103">Recording Interactions with Contacts Automatically</span></span>
-<span data-ttu-id="0c8f8-104">Hægt er að setja forritið upp til að skrá sjálfkrafa samskipti vegna sölu, innkaupa- og þjónustuskjöl, forsíður, tölvupóst og símtöl, eins og:</span><span class="sxs-lookup"><span data-stu-id="0c8f8-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
+# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="53ba7-103">Skrá sjálfvirkt samskipti við tengiliði</span><span class="sxs-lookup"><span data-stu-id="53ba7-103">Recording Interactions with Contacts Automatically</span></span>
+<span data-ttu-id="53ba7-104">Hægt er að setja forritið upp til að skrá sjálfkrafa samskipti vegna sölu, innkaupa- og þjónustuskjöl, forsíður, tölvupóst og símtöl, eins og:</span><span class="sxs-lookup"><span data-stu-id="53ba7-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
 
-* <span data-ttu-id="0c8f8-105">Prenta sölu- eða innkaupatilboð, pantanir, reikninga, kreditreikninga, forsíður.</span><span class="sxs-lookup"><span data-stu-id="0c8f8-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
-* <span data-ttu-id="0c8f8-106">Stofna söluþjónustubeiðnir.</span><span class="sxs-lookup"><span data-stu-id="0c8f8-106">Create sales service orders.</span></span>
-* <span data-ttu-id="0c8f8-107">Bóka söluþjónustubeiðnir.</span><span class="sxs-lookup"><span data-stu-id="0c8f8-107">Post sales service orders.</span></span>
-* <span data-ttu-id="0c8f8-108">Senda tölvupóst til tengiliða.</span><span class="sxs-lookup"><span data-stu-id="0c8f8-108">Send e-mails to your contacts.</span></span>
-* <span data-ttu-id="0c8f8-109">Hringja í tengiliði, að því gefnu að TAPI-samhæfur símabúnaður og rétt uppsetning séu fyrir hendi.</span><span class="sxs-lookup"><span data-stu-id="0c8f8-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
+* <span data-ttu-id="53ba7-105">Prenta sölu- eða innkaupatilboð, pantanir, reikninga, kreditreikninga, forsíður.</span><span class="sxs-lookup"><span data-stu-id="53ba7-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
+* <span data-ttu-id="53ba7-106">Stofna söluþjónustubeiðnir.</span><span class="sxs-lookup"><span data-stu-id="53ba7-106">Create sales service orders.</span></span>
+* <span data-ttu-id="53ba7-107">Bóka söluþjónustubeiðnir.</span><span class="sxs-lookup"><span data-stu-id="53ba7-107">Post sales service orders.</span></span>
+* <span data-ttu-id="53ba7-108">Senda tölvupóst til tengiliða.</span><span class="sxs-lookup"><span data-stu-id="53ba7-108">Send e-mails to your contacts.</span></span>
+* <span data-ttu-id="53ba7-109">Hringja í tengiliði, að því gefnu að TAPI-samhæfur símabúnaður og rétt uppsetning séu fyrir hendi.</span><span class="sxs-lookup"><span data-stu-id="53ba7-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
 
-<span data-ttu-id="0c8f8-110">Til að setja upp sjálfvirka skráningu þessara samskipta þarf að tilgreina samskiptasniðmát fyrir þau skjöl og aðgerðir með því að nota síðuna **Uppsetning samskiptasniðmáts**.</span><span class="sxs-lookup"><span data-stu-id="0c8f8-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** page.</span></span>  
-<span data-ttu-id="0c8f8-111">Til að opna síðuna **Uppsetning samskiptasniðmáts** Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning samskiptasniðmáts** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="0c8f8-111">To open the **Interaction Template Setup** page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
+<span data-ttu-id="53ba7-110">Til að setja upp sjálfvirka skráningu þessara samskipta þarf að tilgreina samskiptasniðmát fyrir þau skjöl og aðgerðir með því að nota síðuna **Uppsetning samskiptasniðmáts**.</span><span class="sxs-lookup"><span data-stu-id="53ba7-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** page.</span></span>  
+<span data-ttu-id="53ba7-111">Til að opna síðuna **Uppsetning samskiptasniðmáts** Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning samskiptasniðmáts** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="53ba7-111">To open the **Interaction Template Setup** page, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="0c8f8-112">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="0c8f8-112">See Also</span></span>
-[<span data-ttu-id="0c8f8-113">Skrá samskipti við tengiliði</span><span class="sxs-lookup"><span data-stu-id="0c8f8-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
-<span data-ttu-id="0c8f8-114">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0c8f8-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="53ba7-112">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="53ba7-112">See Also</span></span>
+[<span data-ttu-id="53ba7-113">Skrá samskipti við tengiliði</span><span class="sxs-lookup"><span data-stu-id="53ba7-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
+<span data-ttu-id="53ba7-114">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="53ba7-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  

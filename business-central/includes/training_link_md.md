@@ -1,1 +1,1 @@
-<span data-ttu-id="4d2af-101">Fáðu [þjálfun!](/dynamics365/get-started/training/)</span><span class="sxs-lookup"><span data-stu-id="4d2af-101">Get [training!](/dynamics365/get-started/training/)</span></span>
+<span data-ttu-id="6b9f7-101">Fáðu [þjálfun!](/learn/browse/?products=dynamics-business-central)</span><span class="sxs-lookup"><span data-stu-id="6b9f7-101">Get [training!](/learn/browse/?products=dynamics-business-central)</span></span>

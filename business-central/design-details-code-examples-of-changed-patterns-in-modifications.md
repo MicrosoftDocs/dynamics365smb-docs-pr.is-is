@@ -10,27 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: 59fce0a432c7f433552cff21ef304fa16fa85a8a
-ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
+ms.openlocfilehash: d4ed71c8c196ea6beff49f7a40fc1605fe999abd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "1970902"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303725"
 ---
-# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="98286-104">Hönnunarupplýsingar: Kóðadæmi um breytt mynstur í Breytingar</span><span class="sxs-lookup"><span data-stu-id="98286-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
-<span data-ttu-id="98286-105">Þetta efni gefur dæmi um kóða til að sýna breytt mynstur í víddakóða breytingar og flutning í fimm mismunandi aðstæður.</span><span class="sxs-lookup"><span data-stu-id="98286-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="98286-106">Það ber saman kóðadæmin í fyrri útgáfum við kóða dæmi í Business Central.</span><span class="sxs-lookup"><span data-stu-id="98286-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="02f27-104">Hönnunarupplýsingar: Kóðadæmi um breytt mynstur í Breytingar</span><span class="sxs-lookup"><span data-stu-id="02f27-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
+<span data-ttu-id="02f27-105">Þetta efni gefur dæmi um kóða til að sýna breytt mynstur í víddakóða breytingar og flutning í fimm mismunandi aðstæður.</span><span class="sxs-lookup"><span data-stu-id="02f27-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="02f27-106">Það ber saman kóðadæmin í fyrri útgáfum við kóða dæmi í Business Central.</span><span class="sxs-lookup"><span data-stu-id="02f27-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
 
-## <a name="posting-a-journal-line"></a><span data-ttu-id="98286-107">Bókun færslubókarlínu</span><span class="sxs-lookup"><span data-stu-id="98286-107">Posting a Journal Line</span></span>  
-<span data-ttu-id="98286-108">Helstu breytingar eru skráðar eins og hér segir:</span><span class="sxs-lookup"><span data-stu-id="98286-108">Key changes are listed as follows:</span></span>  
+## <a name="posting-a-journal-line"></a><span data-ttu-id="02f27-107">Bókun færslubókarlínu</span><span class="sxs-lookup"><span data-stu-id="02f27-107">Posting a Journal Line</span></span>  
+<span data-ttu-id="02f27-108">Helstu breytingar eru skráðar eins og hér segir:</span><span class="sxs-lookup"><span data-stu-id="02f27-108">Key changes are listed as follows:</span></span>  
 
-- <span data-ttu-id="98286-109">Bókarlínuvíddartöflur eru fjarlægðar.</span><span class="sxs-lookup"><span data-stu-id="98286-109">Journal line dimension tables are removed.</span></span>  
+- <span data-ttu-id="02f27-109">Bókarlínuvíddartöflur eru fjarlægðar.</span><span class="sxs-lookup"><span data-stu-id="02f27-109">Journal line dimension tables are removed.</span></span>  
 
-- <span data-ttu-id="98286-110">Víddasamstæðuauðkenni er stofnað í reitnum **Auðkenni víddasamstæðu**.</span><span class="sxs-lookup"><span data-stu-id="98286-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
+- <span data-ttu-id="02f27-110">Víddasamstæðuauðkenni er stofnað í reitnum **Auðkenni víddasamstæðu**.</span><span class="sxs-lookup"><span data-stu-id="02f27-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
 
-<span data-ttu-id="98286-111">**Eldri útgáfur**</span><span class="sxs-lookup"><span data-stu-id="98286-111">**Earlier Versions**</span></span>  
+<span data-ttu-id="02f27-111">**Eldri útgáfur**</span><span class="sxs-lookup"><span data-stu-id="02f27-111">**Earlier Versions**</span></span>  
 
 ```  
 ResJnlLine."Qty. per Unit of Measure" :=   
@@ -62,10 +62,10 @@ ResJnlPostLine.Run(ResJnlLine);
 
 ```  
 
-## <a name="posting-a-document"></a><span data-ttu-id="98286-112">Fylgiskjal bókað</span><span class="sxs-lookup"><span data-stu-id="98286-112">Posting a Document</span></span>  
- <span data-ttu-id="98286-113">Þegar þú bókar fylgiskjal í [!INCLUDE[d365fin](includes/d365fin_md.md)], þarftu ekki lengur að afrita víddir fylgiskjalsins.</span><span class="sxs-lookup"><span data-stu-id="98286-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
+## <a name="posting-a-document"></a><span data-ttu-id="02f27-112">Fylgiskjal bókað</span><span class="sxs-lookup"><span data-stu-id="02f27-112">Posting a Document</span></span>  
+ <span data-ttu-id="02f27-113">Þegar þú bókar fylgiskjal í [!INCLUDE[d365fin](includes/d365fin_md.md)], þarftu ekki lengur að afrita víddir fylgiskjalsins.</span><span class="sxs-lookup"><span data-stu-id="02f27-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
 
- <span data-ttu-id="98286-114">**Eldri útgáfur**</span><span class="sxs-lookup"><span data-stu-id="98286-114">**Earlier Versions**</span></span>  
+ <span data-ttu-id="02f27-114">**Eldri útgáfur**</span><span class="sxs-lookup"><span data-stu-id="02f27-114">**Earlier Versions**</span></span>  
 
 ```  
 DimMgt.MoveOneDocDimToPostedDocDim(  
@@ -84,10 +84,10 @@ SalesShptLine."Dimension Set ID”
   := SalesLine."Dimension Set ID”  
 ```  
 
-## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="98286-115">Vídd breytt úr skjali</span><span class="sxs-lookup"><span data-stu-id="98286-115">Editing Dimensions from a Document</span></span>  
- <span data-ttu-id="98286-116">Hægt er að breyta vídd úr skjali.</span><span class="sxs-lookup"><span data-stu-id="98286-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="98286-117">Til dæmis er hægt að breyta sölupöntunarlínu.</span><span class="sxs-lookup"><span data-stu-id="98286-117">For example, you can edit a sales order line.</span></span>  
+## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="02f27-115">Vídd breytt úr skjali</span><span class="sxs-lookup"><span data-stu-id="02f27-115">Editing Dimensions from a Document</span></span>  
+ <span data-ttu-id="02f27-116">Hægt er að breyta vídd úr skjali.</span><span class="sxs-lookup"><span data-stu-id="02f27-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="02f27-117">Til dæmis er hægt að breyta sölupöntunarlínu.</span><span class="sxs-lookup"><span data-stu-id="02f27-117">For example, you can edit a sales order line.</span></span>  
 
- <span data-ttu-id="98286-118">**Eldri útgáfur**</span><span class="sxs-lookup"><span data-stu-id="98286-118">**Earlier Versions**</span></span>  
+ <span data-ttu-id="02f27-118">**Eldri útgáfur**</span><span class="sxs-lookup"><span data-stu-id="02f27-118">**Earlier Versions**</span></span>  
 
 ```  
 Table 37, function ShowDimensions:  
@@ -110,10 +110,10 @@ Table 37, function ShowDimensions:
     "Dimension ID");  
 ```  
 
-## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="98286-119">Sýna víddir frá bókuðum færslum</span><span class="sxs-lookup"><span data-stu-id="98286-119">Showing Dimensions from Posted Entries</span></span>  
- <span data-ttu-id="98286-120">Hægt er að sýna víddir úr bókuðum færslum, svo sem sendingarlínum sölu.</span><span class="sxs-lookup"><span data-stu-id="98286-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
+## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="02f27-119">Sýna víddir frá bókuðum færslum</span><span class="sxs-lookup"><span data-stu-id="02f27-119">Showing Dimensions from Posted Entries</span></span>  
+ <span data-ttu-id="02f27-120">Hægt er að sýna víddir úr bókuðum færslum, svo sem sendingarlínum sölu.</span><span class="sxs-lookup"><span data-stu-id="02f27-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
 
- <span data-ttu-id="98286-121">**Eldri útgáfur**</span><span class="sxs-lookup"><span data-stu-id="98286-121">**Earlier Versions**</span></span>  
+ <span data-ttu-id="02f27-121">**Eldri útgáfur**</span><span class="sxs-lookup"><span data-stu-id="02f27-121">**Earlier Versions**</span></span>  
 
 ```  
 Table 111, function ShowDimensions:  
@@ -136,10 +136,10 @@ DimSetEntry.ShowDimensionSet(
   "Dimension ID");  
 ```  
 
-## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="98286-122">Uppsetning sjálfgefinna vídda fyrir skjal</span><span class="sxs-lookup"><span data-stu-id="98286-122">Getting Default Dimensions for a Document</span></span>  
- <span data-ttu-id="98286-123">Uppsetning sjálfgefinna vídda fyrir skjal, svop sem sölupöntunarlínu.</span><span class="sxs-lookup"><span data-stu-id="98286-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
+## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="02f27-122">Uppsetning sjálfgefinna vídda fyrir skjal</span><span class="sxs-lookup"><span data-stu-id="02f27-122">Getting Default Dimensions for a Document</span></span>  
+ <span data-ttu-id="02f27-123">Uppsetning sjálfgefinna vídda fyrir skjal, svop sem sölupöntunarlínu.</span><span class="sxs-lookup"><span data-stu-id="02f27-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
 
- <span data-ttu-id="98286-124">**Eldri útgáfur**</span><span class="sxs-lookup"><span data-stu-id="98286-124">**Earlier Versions**</span></span>  
+ <span data-ttu-id="02f27-124">**Eldri útgáfur**</span><span class="sxs-lookup"><span data-stu-id="02f27-124">**Earlier Versions**</span></span>  
 
 ```  
 Table 37, function CreateDim()  
@@ -194,6 +194,6 @@ GetSalesHeader;
 
 ```  
 
-## <a name="see-also"></a><span data-ttu-id="98286-125">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="98286-125">See Also</span></span>  
-<span data-ttu-id="98286-126">[Hönnunarupplýsingarn: Færslur víddarsamstæða](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="98286-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
-[<span data-ttu-id="98286-127">Hönnunarupplýsingar töfluuppbygging</span><span class="sxs-lookup"><span data-stu-id="98286-127">Design Details: Table Structure</span></span>](design-details-table-structure.md)   
+## <a name="see-also"></a><span data-ttu-id="02f27-125">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="02f27-125">See Also</span></span>  
+<span data-ttu-id="02f27-126">[Hönnunarupplýsingarn: Færslur víddarsamstæða](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="02f27-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+[<span data-ttu-id="02f27-127">Hönnunarupplýsingar töfluuppbygging</span><span class="sxs-lookup"><span data-stu-id="02f27-127">Design Details: Table Structure</span></span>](design-details-table-structure.md)   

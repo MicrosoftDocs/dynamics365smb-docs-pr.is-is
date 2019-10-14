@@ -9,24 +9,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: beadf2b83468da9d453d9be8aaa8a39723ab3309
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b876c4c9328705bc37e552d646fe3aed78e5617d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243653"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307901"
 ---
-# <a name="using-business-central-without-outlook"></a><span data-ttu-id="fd56a-103">Nota Business Central án Outlook</span><span class="sxs-lookup"><span data-stu-id="fd56a-103">Using Business Central without Outlook</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="fd56a-104">hefur mikla samþættingu við Office 365 og þú getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)] sem fyrirtækisinnhólf í Outlook.</span><span class="sxs-lookup"><span data-stu-id="fd56a-104">has deep integration with Office 365, and you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook.</span></span> <span data-ttu-id="fd56a-105">En ef þú ert ekki með Outlook, geturðu unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)] í vafra eða á fartækinu þínu.</span><span class="sxs-lookup"><span data-stu-id="fd56a-105">But if you do not have Outlook, you can work with [!INCLUDE[d365fin](includes/d365fin_md.md)] in the browser or on your mobile device.</span></span>  
+# <a name="using-business-central-without-outlook"></a><span data-ttu-id="975dc-103">Nota Business Central án Outlook</span><span class="sxs-lookup"><span data-stu-id="975dc-103">Using Business Central without Outlook</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="975dc-104">hefur mikla samþættingu við Office 365 og þú getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)] sem fyrirtækisinnhólf í Outlook.</span><span class="sxs-lookup"><span data-stu-id="975dc-104">has deep integration with Office 365, and you can use [!INCLUDE[d365fin](includes/d365fin_md.md)] as your business inbox in Outlook.</span></span> <span data-ttu-id="975dc-105">En ef þú ert ekki með Outlook, geturðu unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)] í vafra eða á fartækinu þínu.</span><span class="sxs-lookup"><span data-stu-id="975dc-105">But if you do not have Outlook, you can work with [!INCLUDE[d365fin](includes/d365fin_md.md)] in the browser or on your mobile device.</span></span>  
 
-## <a name="sending-email"></a><span data-ttu-id="fd56a-106">Senda Tölvupóst</span><span class="sxs-lookup"><span data-stu-id="fd56a-106">Sending Email</span></span>
-<span data-ttu-id="fd56a-107">Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfangi fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="fd56a-107">You can send documents such as invoices as email using your business email address.</span></span> <span data-ttu-id="fd56a-108">Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum með hjálp sem auðvelda þér að setja upp tölvupóst.</span><span class="sxs-lookup"><span data-stu-id="fd56a-108">From your Role Center, you can access an assisted setup guide that helps you set up email.</span></span> <span data-ttu-id="fd56a-109">Ef þú notar ekki Office 365 tölvupóstreikning, verður þú að tilgreina tæknilegar upplýsingar um tölvupóstþjóninn þinn.</span><span class="sxs-lookup"><span data-stu-id="fd56a-109">If you do not use an Office 365 email account, you must specify technical information about your mail server.</span></span> <span data-ttu-id="fd56a-110">Ef þú ert ekki með þessar upplýsingar tiltækar, hafðu samband við starfsfólk þitt sem veitir tækniþjónustu.</span><span class="sxs-lookup"><span data-stu-id="fd56a-110">If you do not have this information available, please contact your IT support staff.</span></span>  
+## <a name="sending-email"></a><span data-ttu-id="975dc-106">Senda Tölvupóst</span><span class="sxs-lookup"><span data-stu-id="975dc-106">Sending Email</span></span>
+<span data-ttu-id="975dc-107">Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfangi fyrirtækis.</span><span class="sxs-lookup"><span data-stu-id="975dc-107">You can send documents such as invoices as email using your business email address.</span></span> <span data-ttu-id="975dc-108">Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum með hjálp sem auðvelda þér að setja upp tölvupóst.</span><span class="sxs-lookup"><span data-stu-id="975dc-108">From your Role Center, you can access an assisted setup guide that helps you set up email.</span></span> <span data-ttu-id="975dc-109">Ef þú notar ekki Office 365 tölvupóstreikning, verður þú að tilgreina tæknilegar upplýsingar um tölvupóstþjóninn þinn.</span><span class="sxs-lookup"><span data-stu-id="975dc-109">If you do not use an Office 365 email account, you must specify technical information about your mail server.</span></span> <span data-ttu-id="975dc-110">Ef þú ert ekki með þessar upplýsingar tiltækar, hafðu samband við starfsfólk þitt sem veitir tækniþjónustu.</span><span class="sxs-lookup"><span data-stu-id="975dc-110">If you do not have this information available, please contact your IT support staff.</span></span>  
 
 
-## <a name="see-also"></a><span data-ttu-id="fd56a-111">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="fd56a-111">See Also</span></span>
-[<span data-ttu-id="fd56a-112">Hafist handa</span><span class="sxs-lookup"><span data-stu-id="fd56a-112">Getting Started</span></span>](product-get-started.md)  
-[<span data-ttu-id="fd56a-113">Notkun Business Central sem fyrirtækjainnhólf í Outlook</span><span class="sxs-lookup"><span data-stu-id="fd56a-113">Using Business Central as your Business Inbox in Outlook</span></span>](admin-outlook.md)  
-[<span data-ttu-id="fd56a-114">Sækja Business Central í fartækið mitt</span><span class="sxs-lookup"><span data-stu-id="fd56a-114">Getting Business Central on my Mobile Device</span></span>](install-mobile-app.md)  
-[<span data-ttu-id="fd56a-115">Senda skjöl í tölvupósti</span><span class="sxs-lookup"><span data-stu-id="fd56a-115">Send Documents by Email</span></span>](ui-how-send-documents-email.md)
+## <a name="see-also"></a><span data-ttu-id="975dc-111">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="975dc-111">See Also</span></span>
+[<span data-ttu-id="975dc-112">Hafist handa</span><span class="sxs-lookup"><span data-stu-id="975dc-112">Getting Started</span></span>](product-get-started.md)  
+[<span data-ttu-id="975dc-113">Notkun Business Central sem fyrirtækjainnhólf í Outlook</span><span class="sxs-lookup"><span data-stu-id="975dc-113">Using Business Central as your Business Inbox in Outlook</span></span>](admin-outlook.md)  
+[<span data-ttu-id="975dc-114">Sækja Business Central í fartækið mitt</span><span class="sxs-lookup"><span data-stu-id="975dc-114">Getting Business Central on my Mobile Device</span></span>](install-mobile-app.md)  
+[<span data-ttu-id="975dc-115">Senda skjöl í tölvupósti</span><span class="sxs-lookup"><span data-stu-id="975dc-115">Send Documents by Email</span></span>](ui-how-send-documents-email.md)
