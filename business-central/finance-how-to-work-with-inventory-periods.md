@@ -70,4 +70,4 @@ Hægt er að loka hvaða birgðatímabili sem er, að því gefnu að eftirfaran
 [Hönnunarupplýsingar: birgðahaldstími](design-details-inventory-periods.md)  
 [Fjármál](finance.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Unnið með Fjármál](ui-work-product.md)
+[Unnið með Financials](ui-work-product.md)
