@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 777133cb15b6949eafe20abf325556cd8b16bb9a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316054"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554789"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Umbreyta þjónustusamningum sem innihalda VSK upphæðir
 Þar sem breytingaverkfæri VSK-hlutfalls getur ekki umbreytt þjónustusamningum, verður að umbreyta þessum samningum handvirkt. Í þessu efnisatriði er lýst nokkrar öðrum aðferðum sem hægt er að nota við umbreytingar þjónustusamninga.  
@@ -32,9 +32,9 @@ ms.locfileid: "2316054"
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Samningastjórnun** og veldu síðan tengda tengilinn.  
 2. Undir **Listar**, skal velja **Þjónustusamningar**.  
 3. Stofna nýjan fyrirframgreiddan þjónustusamning. Færa inn upphafsdagsetninguna **01.01.2017** og reikningstímabilsár fyrir viðskiptavin **20000**.  
-4. Skrifa þarf undir þennan samning. Á flipanum **Heim**, í flokknum **Vinna**, skal velja **Undirrita samning**.  
+4. Veldu aðgerðina **Undirritun samnings** til að skrifa undir samninginn.  
 5. Stofna þjónustureikning.
-6. Reikningurinn er á lista sem óbókaður þjónustureikningur. Til að skoða þjónustureikninginn skal velja **Þjónusta**, velja **Samningakerfi** og smella svo á **Þjónustureikningar**.  
+6. Reikningurinn er á lista sem óbókaður þjónustureikningur. Til að skoða þjónustureikninginn skal velja aðgerðina **Þjónusta**, velja aðgerðina **Samningakerfi** og smella svo á aðgerðina **Þjónustureikningar**.  
 7. Bóka skal þjónustureikninginn.  
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ Eftirfarandi ferli lýsir því hvernig eigi að stofna nýjan kreditreikning me
 1. Keyra skal breytingarverkfæri VSK-hlutfalls 1. júlí 2017. Almenni vörubókunarflokkurinn eða VSK-vörubókunarflokkurinn breytist. Frekari upplýsingar, sjá [Vinna með VSK í sölu og innkaupum](finance-work-with-vat.md).  
 2. Eftir keyrslu breytingaverkfæris VSK-hlutfalls, skal færa inn lokadag samnings fyrir þjónustusamninginn. Nú er hægt að eyða þjónustusamningslínunni og stofna nýja línu sem er eins og sú eldri.  
 3. Stofna nýjan reikning fyrir tímabilið frá janúar 2017 til desember 2012 með nýjum VSK-taxta.  
-4. Til þess að stofna annan kreditreikning er farið á síðuna **Þjónustukreditreikningar** og valið **Nýr** til að stofna nýjan þjónustukreditreikning.  
+4. Til þess að stofna annan kreditreikning er farið á síðuna **Þjónustukreditreikningar** og aðgerðina **Nýr** valin til að stofna nýjan þjónustukreditreikning.  
 5. Velja aðgerðina **Sækja fyrirfr.gr, samn.færslur**.  
 6. Þegar umreikninginum er lokið, verða VSK og þjónustufjárhagsfærslur réttar.  
 

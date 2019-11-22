@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315877"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553843"
 ---
 # <a name="viewing-service-statistics"></a>Þjónustuupplýsingar skoðaðar
 Hægt er að nota tölfræði til að greina þjónustuskjöl og ákvarða hversu vel þú ert að stjórna þjónustuferlunum. Þú getur greint þjónustusamninga, vörur, tilboð, pantanir, reikninga og kreditreikninga með því að velja aðgerðina **Upplýsingar**. Fyrir þjónustuvörur og samninga, geturðu líka notað **Þjónustuvara Trendscape** eða **Samningur Trendscape** til að skoða yfirlit yfir þjónustufærslur fyrir sérstaka þjónustuvöru.   
@@ -93,7 +93,7 @@ Hagnaðar- eða tapfærslur samnings eru myndar í hvert sinn sem samningstilbo�
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Skoðun upplýsinga fyrir bókuð þjónustuskjöl
 Eiginleikinn Þjónustuupplýsingar gerir mögulegt að fá yfirlit yfir upplýsingar um innihald bókaðra þjónustuskjala, eins og til dæmis bókaðra afhendinga, bókaðra reikningsfærslna og bókaðra kreditreikninga.  
 
-Upplýsingarnar sem eiga við samsvarandi bókað þjónustuskjal eru sýndar á upplýsingasíðunni. Hægt er að opna viðeigandi upplýsingasíðu úr bókaðri þjónustuafhendingu, bókuðum þjónustureikningi eða bókuðum þjónustukreditreikningi. Fyrir hvert þessara skjalagerðir, í **Heima** flipanum í **Ferli** hóp, velja **Tölfræði**. Til dæmis af síðunni **Bókaðir þjónustureikningar**, á flipanum **Heim**, í flokknum **Vinnsla**, skal velja **Upplýsingar**.  
+Upplýsingarnar sem eiga við samsvarandi bókað þjónustuskjal eru sýndar á upplýsingasíðunni. Hægt er að opna viðeigandi upplýsingasíðu úr bókaðri þjónustuafhendingu, bókuðum þjónustureikningi eða bókuðum þjónustukreditreikningi. Veldu aðgerðina **Tölfræði** fyrir hverja skjalagerð. Á síðunni **Bókaðir þjónustureikningar** skaltu t.d. velja aðgerðina **Tölfræði**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Upplýsingar þjónustuafhendingar  
 Á síðunni **Upplýsingar þjónustuafhendingar** er hægt að fá yfirlit yfir bókaðar þjónustuafhendingar. Þar á meðal eru upplýsingar um efnislegt innihald afhendingar, eins og til dæmis magn afhentrar vöru, forðastundir eða kostnað og þyngd og rúmmál afhentrar vöru.  

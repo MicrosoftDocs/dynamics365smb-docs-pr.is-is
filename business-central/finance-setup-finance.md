@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 127d0dd747fa29926852be9e99e36d992e7d0ea1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305707"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798500"
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
 Til að hjálpa þér að komast að komast fljótt af stað inniheldur [!INCLUDE[d365fin](includes/d365fin_md.md)] eru venjulegar stillingar fyrir flestar fjárhagslegar ferðir. Ef þú þarft að breyta stillingum til að henta fyrirtækinu þínu skaltu fara strax. Frá Mitt hlutverk er t.d. hægt að nota uppsetningarleiðbeiningar með hjálp til að setja upp söluskatt fyrir staðsetningu þína.  
@@ -33,7 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Búðu til fjárhagsskema og skilgreindu lyklategundir til að skilgreina efni fjárhagsgrafa og skýrslna á borð við efnahagsreikning og skýrslur tekjuyfirlits.|[Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)|
 |Hægt er að setja upp vikmörk þannig að kerfið loki reikningi jafnvel þótt greiðsla, að meðteknum afslætti, nái ekki upp í fulla upphæð á reikningnum.|[Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Uppsetning fjárhagstímabila. |[Opna nýtt reikningsár](finance-how-open-new-fiscal-year.md) |
-| Skilgreinið hvernig VSK upphæðir, sem fengnar eru fyrir sölu, eru sendar inn til skattayfirvalda. |[Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)|
+| Skilgreinið hvernig VSK upphæðir, sem fengnar eru fyrir sölu, eru sendar inn til skattayfirvalda. |[Setja upp virðisaukaskatt (VSK)](finance-setup-vat.md)|
 |Undirbúa að nota óinnleystan VSK í tengslum við greiðslumátann reiðufé.|[Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé](finance-setup-unrealized-vat.md)|
 | Settu eiginleika sölu og innkaupa upp þannig að hægt sé að vinna með erlenda gjaldmiðla.|[Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Skilgreindu eina eða fleiri viðbótargjaldmiðla þannig að upphæðir séu sjálfkrafa skráðar í bæði SGM og í öðrum skýrslugjaldmiðli fyrir hverja fjárhagsfærslu og aðrar færslur.|[Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)|

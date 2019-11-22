@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 64c47b78555e1364bbc0e1d4be97ed4910bca04a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1a88456e91b3398ac9cae1b64ebdd80644b5d0aa
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305841"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554039"
 ---
 # <a name="work-with-inventory-periods"></a>Vinna við birgðatímabil
 Birgðatímabil skilgreina tímabil þar sem hægt er að bóka breytingar á birgðum. Birgðatímabil afmarkast af dagsetningunni sem því lýkur á. Þegar birgðatímabili er lokað er ekki hægt að bóka neinar breytingar á birgðum, hvorki áætluðum né reikningsfærðum fyrir þessa lokadagsetningu. Ekki er heldur hægt að bóka nein ný gildi við birgðir fyrir lokadagsetninguna. Ef birgðafærslur eru hafðar opnar í lokaða tímabilinu, sem þýðir jákvætt magn sem ekki er búið að jafna saman við færslur á útleið, er samt hægt að jafna magn á útleið við þessar færslur, jafnvel þó að tímabilið sé lokað.  
 
-Eftirfarandi hlutar útskýra hvernig á að standa að:  
+Eftirfarandi hlutar útskýra hvernig á að standa að:
 
 * Stofna birgðatímabil.  
 * Lokun birgðatímabila.  
@@ -45,7 +45,7 @@ Hægt er að loka hvaða birgðatímabili sem er, að því gefnu að eftirfaran
 Þetta þýðir að jafna þarf allt færslumagn á útleið, eins og magnið í sölupöntunum, millifærslum á útleið, sölureikningsfærslum, vöruskilum eða innkaupakreditreikningum við magn sem er fyrir í birgðum.  
 
 ### <a name="to-close-an-inventory-period"></a>Til að loka birgðatímabili  
-1. Áður en birgðatímabili er lokað er keyrslan **Leiðr. kostnað - Birgðafærslur** keyrð til að tryggja það að allar kostnaðarleiðréttingar séu bókaðar. Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Leiðrétta kostnað - Birgðafærslur**.  
+1. Áður en birgðatímabili er lokað er **Leiðr. kostnað - Birgðafærslur** aðgerðin valin til að tryggja það að allar kostnaðarleiðréttingar séu bókaðar.
 
      Keyrð er skýrslan **Loka birgðatímabili - Prófun** til að ákvarða hvort einhverjar opnar birgðafærslur á útleið eru innan birgðatímabilsins eða einhverjar vörur sem ekki hafa fengið kostnað sinn leiðréttan.  
 2. Velja skal **Loka birgðatímabili - Prófun** aðgerðina.  
@@ -70,4 +70,4 @@ Hægt er að loka hvaða birgðatímabili sem er, að því gefnu að eftirfaran
 [Hönnunarupplýsingar: birgðahaldstími](design-details-inventory-periods.md)  
 [Fjármál](finance.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Unnið með Financials](ui-work-product.md)
+[Unnið með Fjármál](ui-work-product.md)

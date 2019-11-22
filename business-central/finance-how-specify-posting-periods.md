@@ -13,22 +13,22 @@ ms.workload: na
 ms.search.keywords: user setup
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 14ffdb7d4be38949a31aebeb86e6312a5e3128aa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e51853d3378fe07680667f38bf729673da40a3c7
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306149"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767515"
 ---
 # <a name="specify-posting-periods"></a>Tilgreina bókunartímabil
 Notaðu staðartímabil til að tilgreina hvenær notendur geta sent í aðalbókina.  
 
 ## <a name="to-specify-posting-periods"></a>Bókunartímabil tilgreind
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning fjárhags** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Uppsetning fjárhags** skal tilgreina tímabilið með því að slá inn dagsetningar í reitunum **Leyfa bókun frá** og **Leyfa bókun til**.  
 
 > [!NOTE]  
->   Þessi bókunartímabil eiga við um fyrirtækið og alla notendur. Til að leyfa undantekningum er hægt að skilgreina mismunandi pósttímabil fyrir tiltekna notendur á síðunni **Uppsetning notanda**. Þessar færslutímar eru umfram þau sem tilgreind eru á síðunni **Uppsetning aðalbókar**. Frekari upplýsingar er að finna í [Til að setja upp tímaskorður notanda](ui-how-users-permissions.md#to-set-up-user-time-constraints).
+>   Þessi bókunartímabil eiga við um fyrirtækið og alla notendur. Til að leyfa undantekningum er hægt að skilgreina mismunandi pósttímabil fyrir tiltekna notendur á síðunni **Uppsetning notanda**. Þessar færslutímar eru umfram þau sem tilgreind eru á síðunni **Uppsetning aðalbókar**. Frekari upplýsingar er að finna í [Til að setja upp tímaskorður notanda](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  

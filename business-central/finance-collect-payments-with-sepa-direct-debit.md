@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fe015afa5508117fb7425042972e967d7a652485
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302501"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554303"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Innheimta greiðslur með SEPA-beingreiðslum
 Með samþykki viðskiptamanns er hægt að sækja greiðslur beint inn á bankareikninga viðskiptamanns út frá SEPA-sniðinu.  
@@ -43,13 +43,13 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
 * Setja upp umboð fyrir beingreiðslu sem endurspeglar samning þinn við viðskiptavininn um söfnun greiðslna á tilteknu samningstímabili.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Setja upp bankareikning fyrir SEPA-beingreiðslu  
-1. Í reitinn **Leita** skal færa inn **Bankareikningar** og velja síðan viðkomandi tengi.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bankareikningar** og veldu síðan tengda tengilinn.  
 2. Opnið bankareikning sem á að nota fyrir beingreiðslur.  
 3. Á flýtiflipanum **Færsla** í reitnum **SEPA – Útflutningssnið beinnar skuldfærslu** skal velja valkostinn fyrir SEPA-beingreiðslur.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Setja upp greiðslumáta viðskiptamanns fyrir SEPA-beingreiðslu  
-1. Í reitnum **Leit** skal færa inn **Greiðsluhættir** og velja síðan viðkomandi tengil.  
-2. Valið er **Nýtt** aðgerð.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslumáti** og veldu síðan tengda tengilinn.  
+2. Valið er aðgerðin **Nýtt**.  
 3. Setjið upp greiðsluaðferð. Fylla inn í reitina eins\- og lýst er í eftirfarandi töflu.  
 
     |Svæði|Lýsing|  
@@ -61,16 +61,16 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
     >  Sláið ekki inn gildi í **Mótreikningur nr.** reitinn.  
 
 4. Veldu hnappinn **Í lagi** til að loka síðunni **Greiðslumátar**.  
-5. Í reitinn **Leita** skal færa inn **Viðskiptamenn** og velja síðan viðkomandi tengi.  
+5. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  
 6. Opnið viðskiptamannaspjaldið fyrir viðskiptamanninn sem setja á upp innheimtu fyrir SEPA-beingreiðslur.  
 7. Veljið **Kóði greiðslumáta** reitinn og svo kóðann fyrir greiðslumátann sem var tilgreindur í skrefi 3.  
 8. Endurtakið skref 6 til 7 fyrir alla viðskiptamenn sem á að setja upp fyrir innheimtu SEPA-beingreiðslu.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Setja upp umboð fyrir beingreiðslu sem stendur fyrir samning viðskiptamannsins  
-1. Í reitinn **Leita** skal færa inn **Viðskiptamenn** og velja síðan viðkomandi tengi.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  
 2. Opnið spjaldið fyrir viðskiptamanninn sem á að setja upp fyrir SEPA-beingreiðslur.  
 3. Veldu aðgerðina **Bankareikningar**.  
-4. Á síðunni **Bankareikn.listi viðskiptam.** skal velja bankareikning viðskiptamanns sem mun nota beingreiðslu og svo, á flipanum **Heim** í flokknum **Vinnsla** skal velja **Umboð beingreiðslu**.  
+4. Á síðunni **Bankareikn.listi viðskiptam.** skal velja bankareikning viðskiptamanns sem mun nota beingreiðslu og svo aðgerðina **Umboð fyrir beingreiðslu**.  
 5. Á síðunni **SEPA-umboð fyrir beint debet** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
     |Svæði|Lýsing|  
@@ -97,7 +97,7 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
 ### <a name="to-create-a-direct-debit-collection"></a>Til að stofna innheimtu beingreiðslu  
 
  1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innheimta beingreiðslu** og veldu síðan tengda tengilinn.  
- 2. Á síðunni **Innheimta beingreiðslu** í flipanum **Heim** úr flokknum **Nýtt** skal velja **Stofna innheimtu beingreiðslu**.  
+ 2. Á síðunni **Innheimta beingreiðslu** skaltu velja aðgerðina **Stofna innheimtu beingreiðslu**.  
  3. Á síðunni **Stofna innheimtu beingreiðslu** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
      |Svæði|Description|  
@@ -115,8 +115,8 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
       Innheimtu beingreiðslu er bætt við síðuna **Innheimta beingreiðslu** og ein eða fleiri innheimtufærsla fyrir beingreiðslu er stofnuð.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Flytja út innheimtufærslu beingreiðslu í bankaskrá  
- 1. Á síðunni **Innheimta beingreiðslu** í flipanum **Heim** úr flokknum **Vinnsla** skal velja **Innheimtafærsla fyrir beingreiðslu**.  
- 2. Á síðunni **Innheimtafærsla fyrir beingreiðslu**, veljið færsluna sem á að flytja út og svo, á flipanum **Heim** í hópnum **Vinnsla**, veljið **Stofna beingreiðslu** skrá.  
+ 1. Á síðunni **Innheimta beingreiðslu** skaltu velja aðgerðina **Innheimtufærslur með beinni skuldfærslu**.  
+ 2. Á síðunni **Innheimtufærslur með beinni skuldfærslu** skal velja færsluna sem á að flytja út og svo aðgerðina **Stofna skrá með beinni skuldfærslu**.  
  3. Vistar útflutningsskrá á staðsetningu þaðan sem hún er send eða henni hlaðið upp í netbanka til úrvinnslu.  
 
       Á síðunni **Innheimtafærsla fyrir beingreiðslu** breytist reiturinn **Staða innheimtu beingreiðslu** í Skrá stofnuð. Á síðunni **SEPA tilskipun beingreiðslu** er reiturinn **Afgreiðsluborð** uppfærður um einn.  
@@ -125,12 +125,12 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
 
 ### <a name="to-reject-a-direct-debit-collection-entry"></a>Hafna innheimtufærslu beingreiðslu  
 
- * Á síðunni **Færsla innheimtu með beinni skuldfærslu** veljið færsluna sem ekki var meðhöndluð og svo, á flipanum **Heim** í hópnum **Vinnsla**, veljið **Hafna færslu**.  
+ * Á síðunni **Innheimtufærslur með beinni skuldfærslu** skal velja færsluna sem ekki var meðhöndluð og svo aðgerðina **Hafna færslu**.  
 
       Gildið í reitnum **Staða** á síðunni **Innheimtufærsla fyrir beingreiðslu** er breytt í **Hafnað**.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Loka innheimtu beingreiðslu  
- *  Á síðunni **Færsla innheimtu með beinni skuldfærslu**, veljið færsluna sem ekki var meðhöndluð og svo, á flipanum **Heim** í hópnum **Vinnsla**, veljið **Loka færslu**.  
+ *  Á síðunni **Innheimtufærslur með beinni skuldfærslu** skal velja færsluna sem var meðhöndluð og svo aðgerðina **Loka innheimtu**.  
 
       Tengd innheimta beingreiðslu er lokuð.  
 

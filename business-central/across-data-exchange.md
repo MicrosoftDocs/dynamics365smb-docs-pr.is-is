@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209516aff6195901f06705d2a2fb27d7144c4a0a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 700c0e8456185ffdf9c322f58b59337c8be44328
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300642"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692681"
 ---
 # <a name="exchanging-data-electronically"></a>Rafræn gagnaskipti
 Hægt er að nota Gagnaskiptarammann til að skiptast á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öllum öðrum gögnum á milli viðskiptafélaga.
@@ -32,15 +32,15 @@ Til dæmis, til að taka á móti reikningur frá lánardrottinn sem rafrænu PE
  Til að taka við, til dæmis, reikningi sem rafrænu OCR-skjali, er það meðhöndlað líkt og þegar rafrænt PEPPOL-skjal er móttekið. Móttaka og gagnaumbreyting rafrænna reikninga úr OCR er framkvæmt af gagnaskiptaumgjörðinni sem stendur fyrir gagnaskiptaskilgreiningu **PEPPOL - Reikningur**.  
 
 ## <a name="bank-files"></a>Bankaskrár  
- Skráasnið fyrir skipti bankagagna með ERP-kerfi er breytilegt eftir birgi skráarinnar og/eða landi/svæði. Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður innflutning og útflutning á SEPA-bankaskrám (Single Euro Payments Area) og umskráningarþjónustu fyrir bankagögn af hálfu ytri veitanda, AMC Consult. Til að veita stuðning á öðrum rafrænu formi er notað Data Exchange Framework.  
+Skráasnið fyrir skipti bankagagna með ERP-kerfi er breytilegt eftir birgi skráarinnar og landi eða svæði. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður innflutning og útflutning á SEPA-bankaskrám (Single Euro Payments Area) og AMC Banking 365 Fundamentals viðbótin gerir þér kleift að tengjast umskráningarþjónusta fyrir bankagögn af hálfu ytri veitanda, AMC Consult. Til að veita stuðning á öðrum rafrænu formi er notað Data Exchange Framework.  
 
-Til að flytja út kreditfærslur SEPA skal velja hnappinn **Flytja greiðslur út í skrá** á síðunni **Greiðslubók** og hlaða svo upp skránni til að vinna úr greiðslunum í bankanum. Fyrst þarf að setja upp mismunandi aðalgögn, t.d. bankareikning, lánardrottna og greiðslumáta. Gagnaumreikningurinn og útflutningur á SEPA-bankagögnum eru framkvæmdar af þartilgerðum codeunit og XMLport, táknað með **SEPA-kreditfærsla** bankauppsetningu innflutningur/útflutningur. Að öðrum kosti er hægt að setja upp umreikningsþjónusta fyrir bankagögn og látið hana sjá um útflutninginn, táknað með **Umreikningsþjónusta bankagagna - Kreditfærslur** gagnaskiptaskilgreiningu.  
+Til að flytja út kreditfærslur SEPA skal velja hnappinn **Flytja greiðslur út í skrá** á síðunni **Greiðslubók** og hlaða svo upp skránni til að vinna úr greiðslunum í bankanum. Fyrst þarf að setja upp mismunandi aðalgögn, t.d. bankareikning, lánardrottna og greiðslumáta. Gagnaumreikningurinn og útflutningur á SEPA-bankagögnum eru framkvæmdar af þartilgerðum codeunit og XMLport, táknað með **SEPA-kreditfærsla** bankauppsetningu innflutningur/útflutningur. Að öðrum kosti er hægt að setja upp viðbótina AMC Banking 365 Fundamentals og látið hana sjá um útflutninginn, táknað með **Umreikningsþjónusta bankagagna - Kreditfærslur** gagnaskiptaskilgreiningu.  
 
 Til að flytja út leiðbeiningar fyrir SEPA-beingreiðslur skal velja hnappinn **Flytja út beingreiðsluskrá** á síðunni **Innheimta beingreiðslu** og senda hana svo í bankann til að innheimta sjálfkrafa umræddar greiðslur viðskiptamanns. Fyrst þarf að setja upp bankareikninga, lánardrottna, umboð fyrir beingreiðslu og greiðslumáta. Gagnaumreikningurinn og útflutningur á SEPA-bankagögnum eru framkvæmdar af þartilgerðum codeunit og XMLport, táknað með **SEPA-beingreiðsla** bankauppsetningu innflutningur/útflutningur.  
 
-Til að flytja inn SEPA-bankayfirlit skal velja hnappinn Flytja inn bankayfirlit á síðunni **Greiðsluafstemmingarbók** og **Bankareikn. Afstemming** og halda svo áfram og leggja fram hverja bankayfirlitsfærslu til greiðslu eða í fjárhagsfærslur, handvirkt eða sjálfkrafa. Fyrst þarf að setja upp bankareikninga. Innflutningur og gagnaumbreyting SEPA-bankagagna er framkvæmt af gagnaskiptaumgjörðinni sem stendur fyrir gagnaskiptaskilgreiningu **SEPA CAMT**. Að öðrum kosti er hægt að setja upp umreikningsþjónusta fyrir bankagögn og látið hana sjá um innflutninginn, táknað með **Umreikningsþjónusta bankagagna - Bankayfirlit** gagnaskiptaskilgreiningu.  
+Til að flytja inn SEPA-bankayfirlit skal velja hnappinn Flytja inn bankayfirlit á síðunni **Greiðsluafstemmingarbók** og **Bankareikn. Afstemming** og halda svo áfram og leggja fram hverja bankayfirlitsfærslu til greiðslu eða í fjárhagsfærslur, handvirkt eða sjálfkrafa. Fyrst þarf að setja upp bankareikninga. Innflutningur og gagnaumbreyting SEPA-bankagagna er framkvæmt af gagnaskiptaumgjörðinni sem stendur fyrir gagnaskiptaskilgreiningu **SEPA CAMT**. Að öðrum kosti er hægt að setja upp AMC Banking 365 Fundamentals viðbótina og látið hana sjá um innflutninginn, táknað með **Umreikningsþjónusta bankagagna - Bankayfirlit** gagnaskiptaskilgreiningu.  
 
- Auk þess styðja staðbundnar útgáfur [!INCLUDE[d365fin](includes/d365fin_md.md)] ýmis önnur skráarsnið fyrir innflutning/útflutning á bankagögnum, launafærslum og öðrum gögnum. Nánari upplýsingar fást með því að skoða hjálparkaflann „Staðbundin virkni“ í útgáfu þíns lands af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Auk þess styðja staðbundnar útgáfur [!INCLUDE[d365fin](includes/d365fin_md.md)] ýmis önnur skráarsnið fyrir innflutning og útflutning á bankagögnum, launafærslum og öðrum gögnum. Nánari upplýsingar fást með því að skoða hjálparkaflann „Staðbundin virkni“ í útgáfu þíns lands af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="currency-exchange-rates"></a>Gengi gjaldmiðla  
 Hægt er að setja upp ytri þjónusta til að gæta þess að gengi gjaldmiðils sé rétt. Þjónustan sem veitir uppfært gengi gjaldmiðils er virk af skilgreiningu gagnaskipta. Til samræmis er síðan **Uppsetningarspjald fyrir uppfærslu gengis** samantekið yfirlit síðunnar **Gagnaskiptaskilgreining** fyrir skilgreiningu gagnaskipta sem um ræðir.  

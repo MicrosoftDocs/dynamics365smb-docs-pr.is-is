@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ce236dd274baa02cafac8bfdcb7f7cb1d08ce46
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310589"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553967"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Kynning: Selja, setja saman og afhenda sett
 
@@ -146,23 +146,23 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
     |80001|TÍNA|W-01-0001|20|  
     |80005|TÍNA|W-01-0001|20|  
     |80011|TÍNA|W-01-0001|20|  
-    |80014|PICK|V-01-0001|20|  
-    |80203|PICK|V-01-0001|20|  
-    |80209|PICK|V-01-0001|20|  
+    |80014|PICK|W-01-0001|20|  
+    |80203|TÍNA|W-01-0001|20|  
+    |80209|TÍNA|W-01-0001|20|  
 
-4.  Á flipanum **Heim**, í flokknum **Skráir**, skal velja **Skrá** og velja svo hnappinn **Já**.  
+4.  Veljið aðgerðina **Skrá** og svo hnappinn **Já**.  
 
     Næst skal samstilla nýja vöruhúsafærslur með birgðum.  
 
 5.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðabækur** og veldu síðan tengda tengilinn. Síðan **Birgðabók** opnast.  
-6.  Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Reikna vöruhúsaleiðréttingu**.  
+6.  Veldu aðgerðina **Reikna vöruhúsaleiðréttingu**.  
 7.  Á síðunni **Reikna vöruhúsaleiðréttingu** skal velja hnappinn **Í lagi**.  
-8.  Á síðunni **Birgðabók** á flipanum **Aðgerðir** í flokknum **Aðgerðir** skal velja **Bóka** og velja því næst hnappinn **Já**.  
+8.  Á síðunni **Birgðabók** skal velja aðgerðina **Bóka** og svo velja hnappinn **Já**.  
 
 ### <a name="creating-the-assembly-items"></a>Stofnun samsetningarvöru  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
-2.  Á flipanum **Heim** í flokknum **Stjórna** veljið **Nýtt**.  
+2.  Valið er aðgerðin **Nýtt**.  
 3.  Stofna fyrsta samsetningaríhlutinn sem byggður er á eftirfarandi upplýsingar.  
 
     |Svæði|Gildi:|  
@@ -177,7 +177,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
     > [!NOTE]  
     >  Sett A er yfirleitt úr samsetningu í birgðir og hefur því endurpöntunarstefnu til að gera það hluta af almennri framboðsáætlun.  
 
-4.  Á flipanum **Færsluleit**, í flokknum **Samsetning/framleiðsla**, skal velja **Samsetning** og síðan **Samsetningaruppskrift**.  
+4.  Velja skal **Samsetning** og svo **Samsetningaruppskrift**.  
 5.  Skilgreina samsetningaruppskrift fyrir sett A með eftirfarandi upplýsingum.  
 
     |**Tegund**|**Fj.**|**Magn á**|  
@@ -200,7 +200,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
     > [!NOTE]  
     >  Sett B er yfirleitt úr samsetningu eftir pöntun og því ekki með endurpöntunarstefnu, þar sem það ætti ekki að vera hluti af almennri framboðsáætlun.  
 
-7.  Á flipanum **Færsluleit**, í flokknum **Samsetning/framleiðsla**, skal velja **Samsetning** og síðan **Samsetningaruppskrift**.  
+7.  Velja skal **Samsetning** og svo **Samsetningaruppskrift**.  
 8.  Skilgreina samsetningaruppskrift fyrir sett B með eftirfarandi upplýsingum.  
 
     |**Tegund**|**Fj.**|**Magn á**|  
@@ -213,7 +213,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 ### <a name="selling-the-assembly-items"></a>Sala samsetningaríhluta  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
-2.  Á flipanum **Heim** í flokknum **Stjórna** veljið **Nýtt**.  
+2.  Valið er aðgerðin **Nýtt**.  
 3.  Stofna tvær sölupöntunarlínur fyrir viðskiptamann 62000, The Device Shop, á vinnudagsetningunni með eftirfarandi upplýsingum.  
 
     |**Tegund**|**Lýsing**|**Magn**|Magn til samsetningar til pöntunar|Afh.dags|  
@@ -259,14 +259,14 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
      Næst skal breyta afhendingardagsetningu síðari sölupöntunarlínu, samkvæmt samsetningaráætlun.  
 
 15. Á sölupöntunarlínunni fyrir 15 einingar af setti A, skal færa **01-27-2014** inn í reitinn **Afhendingardagsetning**.  
-16. Á flipanum **Aðgerðir** í flokknum **Afhending** veljið **Afhending**.  
-17. Á flipanum **Aðgerðir** í flokknum **Vöruhús** veljið **Stofnið vöruhúsaafhendingu**.  
+16. Valið er **Losa** aðgerð.  
+17. Veldu aðgerðina **Stofna vöruhúsasamsetningu**.  
 18. Loka sölupöntuninni.  
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Áætlanir fyrir ótiltækar ATS-vörur  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Áætlunarvinnublöð** og veldu síðan tengda tengilinn.  
-2.  Á flipanum **Aðgerð** í flokknum **Aðgerðir** veljið **Reikna endurgerðaráætlun**.  
+2.  Velja **Reikna áætlun endurgerðar** aðgerðina.  
 3.  Á síðunni **Reikna áætlun** stillið eftirfarandi afmarkanir.  
 
     |Upphafsdagur|Lokadagsetning|Númer|  
@@ -277,7 +277,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Ný áætlunarlína er stofnuð fyrir samsetningarpöntun sem þörf er á með tíu einingar, sem skila á 27. janúar. Engin þörf er á breytingum og því er hægt að stofna pöntunina núna.  
 
-5.  Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Framkvæma aðgerðarboð**.  
+5.  Veljið aðgerðina **Framkvæma aðgerðaboð**.  
 6.  Á síðunni **Framkvæma aðgerðarboð** veljið reitinn **Samsetningarpöntun** veljið síðan **Búa til samsetningarpantanir**.  
 7.  Velja hnappinn **Í lagi**.  
 
@@ -298,7 +298,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Næst skal stofna tínsluskjal fyrir alla ATO samsetningaríhluti sem þörf er fyrir á vöruhúsaafhendingunni.  
 
-3.  Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Stofna tínslu** og veljið svo hnappinn **Í lagi**.  
+3.  Veldu aðgerðina **Stofna tiltektarbeiðni** og síðan hnappinn **Í lagi**.  
 
     Næst skal framkvæma verk tínslumannsins.  
 
@@ -309,8 +309,8 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Næst skal skrá tínsluna án þess að breyta sjálfgefnum upplýsingum.  
 
-6.  Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Færa magn sjálfkrafa til afgreiðaslu**.  
-7.  Á flipanum **Heim**, í flokknum **Skráning**, skal velja **Skrá tínslu**.  
+6.  Velja aðgerðina **Færa sjálfkr. magn til afgr.**.  
+7.  Velja aðgerðina **Skrá tínslu**.  
 
     Fara skal aftur í afhendingar.  
 
@@ -335,7 +335,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
 12. Loka síðunni **Samsetningarpöntun** til að fara aftur á síðuna **Vöruhúsaafhending**.  
 13. Á afhendingarlínunni fyrir þrjár einingar af setti B, í reitinn **Magn til afhendingar** skal færa inn **3**.  
-14. Á flipanum **Aðgerðir** í flokknum **Bókun** veljið **Bóka afhendingu** og veljið svo **Afhenda**.  
+14. Veldu aðgerðina **Bóka afhendingu** og svo hnappinn **Afhenda**.  
 
     Ásamt þessari vöruhúsafhendingarbókun er full notkun og frálag magns tengdrar samsetningarpöntunar bókuð og reiturinn **Eftirstöðvar** er auður. Sölupöntunarlínan fyrir Sett B uppfærist til að sýna að einingarnar 3 eru afhentar.  
 
@@ -358,7 +358,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Næst skal skrá að samsetningarpöntunni sé lokið.  
 
-3.  Á flipanum **Færsluleit**, í flokknum **Vöruhús**, skal velja **Setja saman í p. vöruh. send. lína**.  
+3.  Veljið aðgerðina **Setja saman í p. vöruh. send. lína**.  
 4.  Á síðunni **Setja saman í pön. vöruh. send. lína** í reitnum **Magn til afhendingar**, færið inn **5** og síðan er síðunni lokað.  
 
     Takið eftir að á síðunni **Samsetningarpöntun** að svæðin **Magn til samsetningar** og **Magn til notkunar** eru nú fyllt út með frálags og notkunarmagni sem verður bókað með í sendingunni.  
@@ -374,8 +374,8 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Næst skal stofna tínsluskjal til að sækja íhlutina sem þörf er á.  
 
-3.  Á flipanum **Aðgerðir** í flokknum **Afhending** veljið **Afhending**.  
-4.  Á flipanum **Aðgerðir** í flokknum **Vörhús** veljið **Stofna vöruhúsatínslu** og veljið svo hnappinn **Í lagi**.  
+3.  Valið er **Losa** aðgerð.  
+4.  Veldu aðgerðina **Stofna vöruhúsatínslu** og síðan hnappinn **Í lagi**.  
 
     Næst skal framkvæma verk tínslumannsins.  
 
@@ -384,12 +384,12 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
      Haldið er áfram til að skrá tínsluna án þess að breyta sjálfgefnum upplýsingum.  
 
-7.  Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Færa magn sjálfkrafa til afgreiðaslu**.  
-8.  Á flipanum **Heim**, í flokknum **Skráning**, skal velja **Skrá tínslu**.  
+7.  Velja aðgerðina **Færa sjálfkr. magn til afgr.**.  
+8.  Velja aðgerðina **Skrá tínslu**.  
 
     Fara skal aftur í samsetningarpöntun til að framkvæma síðustu samsetningarverk.  
 
-9. Í glugganum **Samsetningarpöntun** á flipanum **Aðgerðir** í flokknum **Bókun** veljið **Bóka** og velja því næst hnappinn **Já**.  
+9. Í **Samsetningarpöntun** skal velja aðgerðina **Bóka** og svo hnappin **Já**.  
 
     Takið eftir að samsetningarpöntunin er fjarlægð af lista yfir opnar pantanir.  
 
@@ -402,7 +402,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Næsta skal velja vörur sem eftir standa.  
 
-3.  Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Stofna tínslu** og veljið svo hnappinn **Í lagi**.  
+3.  Veldu aðgerðina **Stofna tiltektarbeiðni** og síðan hnappinn **Í lagi**.  
 
     Næst skal framkvæma síðasta verk tínslumannsins fyrir þessa vöruhúsaafhendingu.  
 
@@ -413,8 +413,8 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Næst skal skrá tínsluna án þess að breyta sjálfgefnum upplýsingum.  
 
-6.  Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Færa magn sjálfkrafa til afgreiðaslu**.  
-7.  Á flipanum **Heim**, í flokknum **Skráir**, skal velja **Skrá tínslu** og velja svo hnappinn **Já**.  
+6.  Velja aðgerðina **Færa sjálfkr. magn til afgr.**.  
+7.  Veljið aðgerðina **Skrá tínslu** og svo hnappinn **Já**.  
 
     Fara skal aftur í vöruhúsaafhendingu til að framkvæma síðasta verk.  
 
@@ -422,7 +422,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Á síðunni **Vöruhúsaafhending** á línunni fyrir tíu einingar af setti A, athugið að í reitunum **Magn til afhendingar** og **Magn tínt** innihalda nú **10**.  
 
-9. Á flipanum **Aðgerðir** í flokknum **Bókun** veljið **Bóka afhendingu** og veljið svo **Afhenda**.  
+9. Veldu aðgerðina **Bóka afhendingu** og svo **Afhenda**.  
 
     Afhendingarskjal vöruhússins er fjarlægt, sem gefur til kynna að vöruhúsaaðgerðunum sem málinu tengjast sé lokið. Næst skal ganga úr skugga um að sölupöntunin hafi verið skráð.  
 
@@ -431,7 +431,7 @@ Sammy pakkar tíu ATS-einingar með ATO-einingunum fimm sem Linda setti saman fy
 
     Takið eftir að reiturinn **Magn afhent** inniheldur allt magnið í báðum línum.  
 
-    Þegar Tækjabúðin greiðir fyrir móttöku á tölvunum 18 úr CRONUS, eru sölupantanirnar og tengdar samsetningarpantanir fjarlægðar.  
+    Þegar Tækjabúð greiðir fyrir móttöku á tölvunum 18 úr CRONUS, eru sölupantanirnar og tengdar samsetningarpantanir fjarlægðar.  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir](assembly-assemble-to-order-or-assemble-to-stock.md)   

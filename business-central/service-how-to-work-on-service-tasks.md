@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311645"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553771"
 ---
 # <a name="work-on-service-tasks"></a>Vinna við þjónustuverk
 Þegar búið er að stofna þjónustupöntun eða þjónustutilboð, skrá þjónustuvörulínur og úthluta forða til þjónustuvöru í pöntuninni eða tilboðinu má byrja að gera við þjónustuvöru og halda henni við.  
@@ -31,7 +31,7 @@ Til að rekja breytingar og fá myndrænt yfirlit yfir þjónustufyrirtækið m�
 2. Ef fá á lista yfir verkhluta sem tilteknum forða eða forðaflokki er úthlutað til þarf að fylla út reitinn **Forðaafmörkun** eða **Forðaflokksafmörkun** og styðja á færslulykilinn.  
 3. Ef fá á lista yfir þjónustuverkhluta með tiltekinni svardagsetningu eða svardagsetningum á tilteknu tímabili þarf að fylla út reitinn **Dags. afmörkun svars** og styðja á færslulykilinn.  
 4. Ef fá á lista yfir verkhluta með tiltekna úthlutunarstöðu eða viðgerðarstöðu þarf að fylla út reitinn **Afm. úthlutunarstöðu** eða **Viðgerðarstöðukóti - afmörkun** og styðja á færslulykilinn.  
-5. Veljið þjónustuverkið sem á að vinna með. Á flipanum **Færsluleit**, í flokknum **Þjónustuverkhlutar**, skal velja hnappinn **Þjónustuvörublað**. Síðan **Þjónustuvörublað** opnast.  
+5. Veljið þjónustuverkið sem á að vinna með. Velja aðgerðina **Vöruvinnublað**. Síðan **Þjónustuvörublað** opnast.  
 6. Skrá staðlaður texti, varahlutir, forðastundir og kostnaður eins og við á með samsvarandi valkostum í  **Tegund**: <Blank> reitnum:  **Vara**, **Forði** og **Kostnaður**.  
 7. Í reitnum **Viðgerðastaða** veljið viðeigandi stöðu.  
 
@@ -43,7 +43,7 @@ Til að rekja breytingar og fá myndrænt yfirlit yfir þjónustufyrirtækið m�
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Opna skal þjónustupöntunina til að skrá þjónustuna fyrir, og velja vörulínuna.  
-3. Velja **Aðgerðir**, velja **Lína** og smella síðan á **Þjónustuvörublað**.  
+3. Veldu aðgerðina **Þjónustuvörublað**  
 4. Í línurnar skal tilgreina notaðar vörur, stofnaðan kostnað og stundir sem varið hefur verið í þjónustuna.  
 
    > [!NOTE]  

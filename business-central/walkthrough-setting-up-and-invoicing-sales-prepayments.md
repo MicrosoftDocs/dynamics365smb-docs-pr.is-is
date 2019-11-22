@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f1724f95652194e426a353b4ebb89c54ef384754
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310541"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554621"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu
 
@@ -169,7 +169,7 @@ Næsta dag hringir viðskiptamaðurinn í Súsönnu og gerir breytingar á pönt
 2.  Á línunni fyrir vöruna **1100** er **2** fært inn í reitinn **Magn**.  
 
     Flett er til að skoða fyrirframgreiðslureiti. Reiturinn **Línuupphæð fyrirframgreiðslu án VSK** inniheldur nú **630** og reiturinn **Reikn. fyrirfr.gr.upphæð. án VSK** inniheldur **315**. Þetta sýnir að til er önnur fyrirframgreiðsluupphæð sem hefur ekki verið reikningsfærð ennþá.  
-3.  Til að bóka reikning fyrir aðra fyrirframgreiðslu er farið í flipann **Aðgerðir** , flokkinn **Bókun** , **Fyrirframgreiðsla**valin og síðan **Bóka fyrirframgreiðslureikning**.  
+3.  Til að bóka reikning fyrir viðbótarupphæð fyrirframgreiðslu skal velja aðgerðina **Bóka fyrirframgreiðslureikning**.  
 
 ## <a name="applying-the-prepayments"></a>Jöfnun fyrirframgreiðslu  
 Viðskiptamaðurinn borgar fyrirframgreiðsluna og Árni, í innheimtudeildinni, skráir greiðsluna og jafnar hana við fyrirframgreiðslureikningana.  

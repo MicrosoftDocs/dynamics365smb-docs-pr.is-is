@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dbbc8ff96f381a5e52c67eac9dfe2c91ee17eb5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303989"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692729"
 ---
 # <a name="setting-up-banking"></a>Uppsetning bankaþjónustu
 Með því að nota bankareikningaspjöld er hægt að fylgjast með öllum bankareikningum, í hvaða gjaldmiðli sem er. Þegar bankareikningar hafa verið settir upp er einnig hægt að nota valkostinn prentskoðun.
@@ -28,7 +28,7 @@ Til að geta notað rafræna bankaþjónustu til að flytja inn bankayfirlit og 
 | --- | --- |
 | Setja upp bankareikningaspjöld fyrir hvern bankareikning svo að hægt sé að fylgjast með bankafærslum. |[Bankareikningar settir upp](bank-how-setup-bank-accounts.md) |
 | Setja upp utanaðkomandi þjónustu sem gerir kleift að flytja inn bankayfirlit sem bankastreymi til greiðslujöfnunar og bankaafstemmingar. |[Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md) |
-| Setja upp utanaðkomandi þjónustu sem gerir kleift að flytja út greiðslur til banka til vinnslu og flytja inn bankayfirlit sem bankaskrár til greiðslujöfnunar og bankaafstemmingar. |[Setja upp umskráningarþjónustu fyrir bankagögn](bank-how-setup-bank-data-conversion-service.md) |
+| Setja upp utanaðkomandi þjónustu sem gerir kleift að flytja út greiðslur til banka til vinnslu og flytja inn bankayfirlit sem bankaskrár til greiðslujöfnunar og bankaafstemmingar. |[Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórna bankareikningum](bank-manage-bank-accounts.md)  

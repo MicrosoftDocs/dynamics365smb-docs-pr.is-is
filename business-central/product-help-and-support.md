@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 10/01/2019
-ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/06/2019
+ms.openlocfilehash: e1c7d5f7880f283c0b26679572202aaa769a1227
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313613"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767658"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
@@ -73,7 +73,7 @@ Hlutinn **Úrræðaleit** birtir tæknilegar upplýsingar sem stjórnandinn þin
 Endursöluaðili [!INCLUDE[prodshort](includes/prodshort.md)] mun veita þér tæknilega aðstoð. [!INCLUDE[prodshort](includes/prodshort.md)] er selt í gegnum samstarfsaðila og þessi hluti auðveldar þér að hafa samband endursöluaðilann þinn ef hann hefur sent inn samskiptaupplýsingar fyrir notendaþjónustu. Ef [!INCLUDE[prodshort](includes/prodshort.md)] samstarfsaðili þinn getur þá ekki leyst vandamálið, munu hann leggja fram þjónustubeiðni til Microsoft.  
 
 > [!NOTE]
-> Þessi hluti er eingöngu í boði ef greitt hefur verið fyrir [!INCLUDE [prodshort](includes/prodshort.md)]-áskrift. Ef þú hefur skráð þig fyrir prufuáskrift og hefur ekki enn keypt [!INCLUDE[prodshort](includes/prodshort.md)] þá hefur þú ekki endursöluaðila og getur ekki haft samband við þjónustudeild Microsoft. Hægt er að finna [!INCLUDE[prodshort](includes/prodshort.md)]-samstarfsaðila á síðunni [Ég er að leit að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145).  
+> Þessi hluti er eingöngu í boði ef greitt hefur verið fyrir [!INCLUDE [prodshort](includes/prodshort.md)]-áskrift. Ef þú hefur skráð þig fyrir prufuáskrift og hefur ekki enn keypt [!INCLUDE[prodshort](includes/prodshort.md)] þá hefur þú ekki endursöluaðila og getur ekki haft samband við þjónustudeild Microsoft. Hægt er að finna [!INCLUDE[prodshort](includes/prodshort.md)]-samstarfsaðila á síðunni [Ég er að leit að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Frekari upplýsingar eru í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
 
 ### <a name="support-contacts"></a>Stuðningstengiliðir
 
@@ -83,6 +83,8 @@ Til að láta samstarfsaðila vita um vandamál skal velja tengilinn til að ann
 
 ## <a name="see-also"></a>Sjá einnig
 
+[Business Central námskrá](readiness/readiness-learning-catalog.md)  
+[Hvernig finn ég endursöluaðila?](across-faq.md#findpartner)  
 [Bloggfærsla: Finna réttar úrlausnir og veita endurgjöf](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Skjöl þróunaraðila og ITpro Business Central](/dynamics365/business-central/dev-itpro/)  
 [Úrlausnir fyrir hjálp og notendaþjónustu fyrir samstarfsaðila](/dynamics365/business-central/dev-itpro/help-and-support)  

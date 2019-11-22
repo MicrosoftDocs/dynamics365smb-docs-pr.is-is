@@ -8,22 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309461"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774844"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 Þessi grein gefur yfirlit yfir nokkrar flýtivísanir sem hægt er að nota þegar þú ert að vinna með [!INCLUDE[prodshort](includes/prodshort.md)].
 
+Yfirlit yfir algengustu flýtilykla á lyklaborði er að finna í [Flýtilyklar (aðeins tölvur)](keyboard-shortcuts-cheatsheet.md).
+
 > [!TIP]
-> Fyrir fljótlegt, prentvænt yfirlit yfir vinsælustu flýtileiðirnar fyrir tölvunotendur skal sjá [Flýtilyklar (aðeins tölvur)](keyboard-shortcuts-cheatsheet.md). Fyrir myndræna framsetningu skal velja eftirfarandi mynd:
+> Til að fá yfirlit yfir mest notuðu flýtileiðirnar skaltu velja eftirfarandi mynd og sækja PDF-skjalið.
 >
->[ ![Til að hlaða niður fyrir prentun skal hægrismella og velja vista mynd sem](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## <a name="overview"></a>Yfirlit
 Flýtivísanir aðstoða við aðgengi og geta auðveldað flettingar og gert þær skilvirkari yfir á önnur svæði og aðrar einingar á síðu. Þær eru studdar af flestum vöfrum en virknin getur þó verið örlítið öðruvísi.
@@ -47,11 +49,11 @@ Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi 
 |Alt+Shift+F2|Skipta á milli **Upplýsingar** og **Fylgiskjöl** í upplýsingakassanum.|
 |Alt+O|Bæta við nýrri athugasemd fyrir völdu færsluna, jafnvel þótt upplýsingareitur sé ekki opinn.|
 |Alt+Q<br />(Ctrl+Option+Q)|Opnaðu gluggann **Viðmótsleið**. Frekari upplýsingar er að finna í [Finna síður og upplýsingar með „Segðu mér“](ui-search.md).|
-|Alt+N |Opna síðu til að búa til nýja færslu. (Svipað og að velja aðgerðirnar **Nýtt** og **+**.)
-|Alt+Shift+N |Velja nýlega stofnaða síðu og opna nýja til að búa til nýja færslu.
+|Alt+N |Opna síðu til að búa til nýja færslu. (Svipað og að velja aðgerðirnar **Nýtt** og **+**.)|
+|Alt+Shift+N |Velja nýlega stofnaða síðu og opna nýja til að búa til nýja færslu. Á sama hátt bókar ALT+F9 skjal og býr til nýtt.|
 |Alt+T|Opna síðuna **Mínar stillingar**.|
-|Alt+hægri ör|Fletta upp viðbótarupplýsingum eða undirliggjandi gildum fyrir reit sem inniheldur hnappinn ![Valhnappur](media/assist-edit-icon.png "Hnappurinn valhnappur"). Þetta er notað þegar venjulegi fellilistahnappur (Alt+Niðurör) í sama reitnum er notaður í öðrum tilgangi.|
-|Shift+F12|Opnið eiginleikayfirlitið. Frekari upplýsingar er að finna í [Finna síður úr eiginleikayfirliti](ui-role-explorer.md).|
+|Alt+hægri ör|Fletta upp viðbótarupplýsingum eða undirliggjandi gildum fyrir reit sem inniheldur hnappinn ![Valhnappur](media/assist-edit-icon.png "AssistEdit hnappur"). Þetta er notað þegar venjulegi fellilistahnappur (Alt+Niðurör) í sama reitnum er notaður í öðrum tilgangi.|
+|Shift+F12|Opnaðu hlutverkaleit sem er yfirlit yfir eiginleika. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md)|
 |Ctrl+Alt+Shift+C|Birta upplýsingar í merki fyrirtækis.|
 |Ctrl+Alt+F1|Opna og loka glugganum fyrir síðueftirlit. Glugginn fyrir síðueftirlit sýnir upplýsingar um síðuna, t.d. upprunatöflu, reiti, síur, viðbætur og fleira.<br /><br />Frekari upplýsingar er að finna í [Eftirlit með síðum](across-inspect-page.md).|
 |Ctrl+C |Afrita gildið á reit. Ef reiturinn er í fókus og þú hefur ekki valið neinn texta í reitnum, mun þetta afrita allt gildið. Ef þú hefur valið hvaða texta sem er í reitnum mun það aðeins afrita valda textann.|

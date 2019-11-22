@@ -1,6 +1,6 @@
 ---
 title: Reitavörpun fyrir útflutning bankagreiðsluskráa | Microsoft Docs
-description: Þegar þú flytur út greiðsluskrár með umskráningarþjónusta fyrir bankagögn, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum.
+description: Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca6b3722220e008a3a8132054eed7ba29afd11f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300522"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692629"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Reitarvörpun við útflutning greiðsluskrá með umskráningarþjónusta fyrir bankagögn
-Þegar þú flytur út greiðsluskrár með umskráningarþjónusta fyrir bankagögn, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum. Þjónustuveita er ábyrg fyrir persónuvernd gagnanna. Frekari upplýsingar um það hvernig umskráningarþjónusta fyrir bankagögn vinnur er [Um umgjörð gagnaskipta](across-about-the-data-exchange-framework.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni
+Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum. Þjónustuveita er ábyrg fyrir persónuvernd gagnanna. Nánari upplýsingar um það eru í AMC Banking 365 Fundamentals viðbótina má finna í [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  Þegar þú flytur út greiðsluskrár með umskráningarþjónusta fyrir bankagögn, mun sá sem veitir þjónustuna geta séð eitthvað af gögnunum. Þjónustuveita, AMC Consult A/S, er ábyrg fyrir persónuvernd gagnanna. Frekari upplýsingar eru í [AMC-persónuverndarstefnu](https://go.microsoft.com/fwlink/?LinkId=510158).  
+>  Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir þjónustuna geta séð eitthvað af gögnunum. Þjónustuveita, AMC Consult A/S, er ábyrg fyrir persónuvernd gagnanna. Frekari upplýsingar eru í [AMC-persónuverndarstefnu](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-Í eftirfarandi töflu birtast reitirnir í [!INCLUDE[d365fin](includes/d365fin_md.md)] þaðan sem hægt er að flytja út gögn í aðra þjónustuveitu.  
+Eftirfarandi tafla inniheldur lista yfir reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)] þaðan sem hægt er að flytja út gögn.  
 
-|Varpaður reitur|Reitur í töflu|Tafla|Lýsing|  
+|Varpaður reitur|Reitur í töflu|Tafla|Description|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Númer lánveitanda|Númer lánveitanda|Bankareikningur|Kennimerki tengt við fyrirtækið þitt af bankanum til að taka við greiðslum|  
 |Bankareikningsnúmer sendanda|Númer bankareiknings/IBAN|Bankareikningur|Bankareikningsnúmer (IBAN eða annað) fyrirtækisins þíns sem er tilgreint á bankareikningsspjaldinu|  
@@ -65,10 +65,10 @@ ms.locfileid: "2300522"
 |Póstnúmer sendibanka|Póstnúmer|Bankareikningur|Póstnúmer bankareiknings sendanda sem er tilgreint á bankareikningsspjaldi|  
 |Sniðmát almennrar færslubókar|Heiti bókarsniðmáts|Almenn færslubókarlína|Sniðmát færslubókar sem er notað fyrir greiðslulínuna|  
 |Heiti færslubókarkeyrslu|Heiti bókarkeyrslu|Almenn færslubókarlína|Runuheiti færslubókar sem er notuð fyrir greiðslulínuna|  
-|Nafn sendibanka - umreikningur gagna|Nafn banka – gagnaumreikn.|Bankareikningur|Nafn bankareiknings sendanda sem er áskilið af umskráningarþjónustu fyrir bankagögn og tilgreint á bankareikningsspjaldinu|  
+|Nafn sendibanka - umreikningur gagna|Nafn banka – gagnaumreikn.|Bankareikningur|Nafn bankareiknings sendanda sem er áskilið af AMC Banking 365 Fundamentals viðbótinni og tilgreint á bankareikningsspjaldinu|  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)
-[Setja upp umreikningsþjónustu fyrir bankagögn](bank-how-setup-bank-data-conversion-service.md)   
+[Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md)   
 [Greiða með umreikningsþjónustu bankagagna eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

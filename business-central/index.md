@@ -7,14 +7,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9f84e224afa474cffd6c2956bd9ebf24169ce105
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 41dfc2ceb2fffb8f4ebb0eea50025ea50e0a0418
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301435"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767563"
 ---
 # <a name="welcome-to-included365fin_longincludesd365fin_long_mdmd"></a>Velkomin(n) í[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Forritið [!INCLUDE[d365fin](includes/d365fin_md.md)] er sveigjanlegt og fjölbreytt kerfi sem gerir fyrirtækjum kleift að halda utan um rekstur, þar á meðal fjármál, framleiðslu, sölu, afhendingu, verkefnastjórnun, þjónustu og meira til. Fyrirtæki geta auðveldlega bætt við eiginleikum sem henta landsvæði þeirra og sem má sérsníða fyrir sérhæfðustu atvinnugreinar.
@@ -36,6 +36,7 @@ ms.locfileid: "2301435"
 [Reglufylgni](compliance/compliance-overview.md)  
 [Dynamics 365 fylgigögn](/dynamics365/)  
 [Dynamics 365 Business Central á microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
+[Business Central námskrá](readiness/readiness-learning-catalog.md)  
 [Dynamics 365 Business Central Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 
 

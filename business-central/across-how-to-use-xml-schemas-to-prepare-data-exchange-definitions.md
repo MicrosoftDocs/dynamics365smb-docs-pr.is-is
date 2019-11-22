@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b00ed408bcdc5b98a7c23a8083109b140db175ae
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305117"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554447"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Nota XML-skema til að undirbúa skilgreiningar gagnaskipta
 Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptaumgjörð í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að nota XML-skema til að tilgreina hvaða gagnastök á að skiptast á við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þessi aðgerð er gerð á síðunni **XML-skemaskoðun** með því að hlaða XML-skemaskránni, velja viðeigandi gagnastök og ræsa því næst annað hvort skilgreiningu gagnaskipta eða XMLport.  
@@ -40,9 +40,9 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 1.  Ganga úr skugga um að viðeigandi XML-skemaskrá sé í boði. Skráarendingin er .xsd.  
 
-2.  Í reitnum **Leita** skal færa inn **XML-skema** og velja síðan viðkomandi tengi.  
+2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML skemu** og veldu síðan tengda tengilinn.  
 
-3.  Á flipanum **Heim** í flokknum **Nýtt** skal velja **Nýtt**.  
+3.  Valið er aðgerðin **Nýtt**.  
 
 4.  Fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
@@ -53,7 +53,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
      Reiturinn **Marknafnabil** tilgreinir hvaða nafnrými í XML-skemaskrá hefur verið hlaðið fyrir þessa línu.  
 
-5.  Á flipanum **Heim** í flokknum **Vinna** skal velja **Hlaða skema** og velja síðan XML-skemaskrána.  
+5.  Veldu aðgerðina **Hlaða skema** og veldu síðan XML-skemaskrána.  
 
      Þegar skránni er hlaðið eru allir hinir reitirnir á línunni fylltir út með upplýsingum úr skránni og gátreiturinn **Skema er hlaðið** valinn.  
 
@@ -62,7 +62,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Að velja eða hreinsa hnúta á XML-skema  
 
-1.  Í reitnum **Leita** skal færa inn **XML-skemaskoðun** og velja síðan viðkomandi tengi.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML-skemaskoðun** og veldu síðan tengda tengilinn.  
 
 2.  Fylla inn í reitina í hausnum eins og lýst er í eftirfarandi töflu.  
 
@@ -77,7 +77,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
      Að öðrum kosti skal hægrismella á hnútinn og velja svo **Stækka allt**.  
 
-4.  Á flipanum **Heim**, í flokknum **Skoða**, skal velja aðra hvora eftirfarandi aðgerða til að breyta því hvaða hnútar eru birtir.  
+4.  Veldu aðra hvora eftirfarandi aðgerða til að breyta því hvaða hnútar eru birtir.  
 
     |**Aðgerð**|Lýsing|  
     |----------------|---------------------------------------|  
@@ -85,7 +85,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
     |**Fela það sem ekki er áskilið**|Aðeins eru birtir hnútar sem standa fyrir einingar sem krafist samkvæmt XML-skemanu. Þessir tengipunktar eru vanalega táknaðir með **1** í reitnum **MinOccurs**.<br /><br /> Veldu **Sýna alla** að snúa við útsýni.|  
     |**Fela það sem ekki er valið**|Aðeins hnútar þar sem gátreiturinn **Valið** er valinn sjást.<br /><br /> Veldu **Sýna alla** að snúa við útsýni.|  
 
-5.  Á flipanum **Heim** í flokknum **Stjórna** skal velja **Breyta**.  
+5.  Veldu aðgerðina **Breyta**.  
 
 6.  Í **Valið** gátreitnum skal tilgreina fyrir hvern hnút ef stak á að vera stutt í gagnaskiptauppsetningu fyrir viðkomandi SEPA bankaskrá.  
 
@@ -100,13 +100,13 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Að búa til gagnaskiptaskilgreiningu sem byggist á XML-skema  
 
-1.  Í reitnum **Leita** skal færa inn **XML-skema** og velja síðan viðkomandi tengi.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML skemu** og veldu síðan tengda tengilinn.  
 
-2.  Veljið viðkomandi XML-skema og veljið því næst á flipanum **Heima** í **Ferli** hópnum valkostinn **Opna XML skemaskoðun**.  
+2.  Veldu viðeigandi XML-skema og veldu svo aðgerðina **Opna XML-skemaskoðun**.  
 
 3.  Gangið úr skugga um að viðeigandi hnútar séu valdir. Nánari upplýsingar fást í hlutanum „Að velja eða hreinsa hnúta í XML-skema“.  
 
-4.  Á síðunni **XML-skemaskoðun** í flipanum **Heim** í flokknum **Ferli** veljið **Mynda gagnaskiptaskilgreiningu**.  
+4.  Á síðunni **XML-skemaskoðun** skaltu velja aðgerðina **Mynda skilgreiningu gagnaskipta**.  
 
  Gagnaskiptaskilgreining er sett upp á síðunni **Bókunarskilgreiningar**, sem hægt er að ljúka með því að tilgreina hvaða stök í skránni varpast í hvaða reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -115,15 +115,15 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Að búa til XMLport sem byggir á XML-skema  
 
-1.  Í reitnum **Leita** skal færa inn **XML-skema** og velja síðan viðkomandi tengi.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML skemu** og veldu síðan tengda tengilinn.  
 
-2.  Veljið viðkomandi XML-skema og veljið því næst á flipanum **Heima** í **Ferli** hópnum valkostinn **Opna XML skemaskoðun**.  
+2.  Veldu viðeigandi XML-skema og veldu svo aðgerðina **Opna XML-skemaskoðun**.  
 
 3.  Í **Ný XMLport nr.** reitnum skal tilgreina númer sem nýja XMLport-hlutnum verður gefið þegar hann er myndaður.  
 
 4.  Gangið úr skugga um að viðeigandi hnútar séu valdir. Nánari upplýsingar fást í hlutanum „Að velja eða hreinsa hnúta í XML-skema“.  
 
-5.  Á flipanum **Heim**, í flokknum **Vinna**, skal velja **Mynda XMLport** og vista svo hlutinn sem .txt-skrá á viðeigandi stað.  
+5.  Veldu **búa til XMLport** aðgerðina og vistaðu svo hlutinn sem. txt-skrá á viðeigandi stað.  
 
 6. Flytja skal nýja XMLport í [!INCLUDE[d365fin](includes/d365fin_md.md)] þróunarumhverfið og þýða hana.
 

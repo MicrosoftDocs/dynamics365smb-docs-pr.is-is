@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 3a5fc25004ce7dd838369ff178b8d613fb984acd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313517"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649765"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
 Áður en þú ferð inn í [!INCLUDE [prodshort](includes/prodshort.md)] á netinu mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
@@ -33,9 +33,9 @@ ms.locfileid: "2313517"
 **Tækjastærð**: [!INCLUDE[d365fin](includes/d365fin_md.md)] er studd á smartphones með lágmarks skjár stærð 4 "og töflur með lágmarks skjár stærð 7".  
 
 ## <a name="outlook"></a>Outlook
-**Outlook forrit:** Til að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2016 eða síðar, Outlook Web App, OWA fyrir iPhone, OWA fyrir iPad eða OWA fyrir Android. Fyrirtækið þitt verður einnig að nota Office 365. Ekki er hægt að nota [!INCLUDE [prodshort](includes/prodshort.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum.  
-**Vafrar:** Þegar [!INCLUDE[d365fin](includes/d365fin_md.md)] er notað sem fyrirtækisinnhólf í Outlokk eða Outlook-vefforrit (OWA) krefst innbótin að tölvan þín keyri einn af skráðum studdum vöfrum sem eru tilteknir fyrr í þessari grein.  
-**Verkvangar:** Þegar þú notar [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook Add-In í OWA fyrir iPhone, OWA fyrir iPad og OWA fyrir Android þarf viðbótin að farsíminn þinn sé að keyra eitt af farsímum sem eru skráðir fyrir stuðning [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+**Outlook forrit:** Til að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2016 eða nýrra, Outlook í vafra, Outlook fyrir iPhone, Outlook fyrir iPad eða Outlook fyrir Android. Fyrirtækið þitt verður einnig að nota Office 365. Ekki er hægt að nota [!INCLUDE [prodshort](includes/prodshort.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum.  
+**Vafrar:** Þegar [!INCLUDE[d365fin](includes/d365fin_md.md)] er notað sem fyrirtækisinnhólf í Outlook í vafra krefst innbótin að tölvan þín keyri einn af skráðum studdum vöfrum sem eru tilteknir fyrr í þessari grein.  
+**Verkvangar:** Þegar þú notar [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-innbótina í Outlook fyrir iPhone, Outlook fyrir iPad eða Outlook fyrir Android þarf farsíminn þinn að keyra kerfi sem eru studd fyrir fartæki fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="excel"></a>Excel
 **Breyta í Excel:** Til að nota Excel-viðbótina til að gera breytingar í Excel og ýta breytingunum aftur í [!INCLUDE[d365fin](includes/d365fin_md.md)] þarftu Excel 2016 eða síðar. Frekari upplýsingar eru í [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md).  

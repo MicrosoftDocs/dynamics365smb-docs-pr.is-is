@@ -8,40 +8,45 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 10/24/2019
 ms.author: jswymer
-ms.openlocfilehash: 2474f83fd9fa137b40756a3d07ac025208f3ac6c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 71b4e5b7124f929255f1374b38cfbe28c9f12d2b
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308261"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692801"
 ---
-# <a name="viewing-and-editing-in-excel-from-business-central"></a>Skoða og breyta í Excel From Business Central 
+# <a name="viewing-and-editing-in-excel-from-business-central"></a>Skoða og breyta í Excel From Business Central
 
 Með síðum sem birta lista yfir færslur í línum og dálkum, eins og lista yfir viðskiptavini, sölupantanir eða reikninga, geturðu einnig skoðað færslur með Microsoft Excel. Til að gera þetta hefur þú tvo valkosti. Þú getur annaðhvort valið aðgerina **Opna í Excel** eða aðgerðina **Breyta í Excel** á síðunni. Munurinn á aðgerðunum tveimur er sem hér segir:  
 
 ## <a name="open-in-excel"></a>Opna í Excel
 
--    Með þessari aðgerð tekur Excel allar síur á síðunni til greina sem takmarka færslurnar sem eru sýndar. Þetta þýðir að Excel-vinnubókin mun innihalda sömu línur og dálka sem birtast á síðunni í [!INCLUDE[prodshort](includes/prodshort.md)].
+- Með þessari aðgerð tekur Excel allar síur á síðunni til greina sem takmarka færslurnar sem eru sýndar. Þetta þýðir að Excel-vinnubókin mun innihalda sömu línur og dálka sem birtast á síðunni í [!INCLUDE[prodshort](includes/prodshort.md)].
 
--    Þú getur gert breytingar á færslum í Excel, en þú getur ekki birt þær aftur í [!INCLUDE[prodshort](includes/prodshort.md)]. Þú getur aðeins vistað breytingarnar í Excel-skrá í tölvunni þinni. 
+- Þú getur gert breytingar á færslum í Excel, en þú getur ekki birt þær aftur í [!INCLUDE[prodshort](includes/prodshort.md)]. Þú getur aðeins vistað breytingarnar í Excel-skrá í tölvunni þinni. 
 
--    Þessi aðgerð virkar bæði í Windows og macOS. 
+- Þessi aðgerð virkar bæði í Windows og macOS. 
 
->[!NOTE]
->Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum er aðgerðin **Opna í Excel** ekki í boði ef aðgerðin **Breyta í Excel** er í boði.
+> [!NOTE]
+> **Open í Excel** aðgerðin er sjálfgefið tiltæk fyrir [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss. Ef þú setur hins vegar upp [!INCLUDE [prodshort](includes/prodshort.md)] innanhúss fyrir breytingar í Excel er **Opna í Excel** aðgerðinni skipt út fyrir aðgerðina **Breyta í Excel**.
 
 ## <a name="edit-in-excel"></a>Breyta í Excel
 
--    Með þessari aðgerð tekur Excel-vinnubókin síur á síðunni ekki til greina sem takmarka færslurnar sem eru sýndar. Þetta þýðir að Excel-vinnubókin mun innihalda allar tiltækar færslur og dálka, óháð því sem sýnt er á síðunni. 
+- Með þessari aðgerð tekur Excel flestar síur á síðunni til greina sem takmarka færslurnar sem eru sýndar. Þetta þýðir að Excel-vinnubókin mun innihalda næstum því sömu færslur og dálka.
 
--    Kosturinn við aðgerðina **Breyta í Excel** er að þú getur gert breytingar á færslum í Excel og síðan birt breytingarnar aftur í [!INCLUDE[prodshort](includes/prodshort.md)].
+- Kosturinn við aðgerðina **Breyta í Excel** er að þú getur gert breytingar á færslum í Excel og síðan birt breytingarnar aftur í [!INCLUDE[prodshort](includes/prodshort.md)].
 
--    Það virkar aðeins á Windows; ekki macOS.
+- Það virkar aðeins á Windows; ekki macOS.
 
->[!NOTE]
->Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum er aðgerðin **Breyta í Excel** aðeins í boði ef stjórnandi hefur sett upp Excel-innbótina. Fyrir stjórnendur, ef þig langar að fræðast betur um hvernig eigi að setja upp Excel-innbót skal sjá [Setja upp Excel-innbótina](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
+Þetta var endurbætt í 2019 útgáfutímabili 2. Frekari upplýsingar er að finna í [Endurbætur á Excel samþættingu](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration).
+
+> [!NOTE]
+> Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum er aðgerðin **Breyta í Excel** aðeins í boði ef stjórnandi hefur stillt Excel-innbótina. Ef stjórnendur langar að fræðast betur um hvernig eigi að setja upp Excel-innbótina má finna upplýsingar um það í [Setja upp Excel-innbótina fyrir Business Central Data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
+
+> [!NOTE]
+> Þessi eiginleiki er aðeins í boði fyrir vefbiðlarann fyrir [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss.
 
 ### <a name="see-the-differences-between-the-options"></a>Sjá muninn á milli valkostanna 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]

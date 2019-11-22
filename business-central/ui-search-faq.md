@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310757"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695096"
 ---
 # <a name="tell-me-faq"></a>Algengar spurningar um Viðmótsleit
 Þetta efnisatriði svarar spurningum sem reyndir notendur spyrja oft um eiginleika viðmótsleitar.
@@ -51,4 +51,4 @@ Fj. Aðeins er hægt að bókamerkja tengil á síðu eða einhverjar leitarnið
 ## <a name="see-also"></a>Sjá einnig  
 [Vista og sérsníða listayfirlit](ui-views.md)  
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
-[Finna síður frá yfirliti yfir eiginleika](ui-role-explorer.md)
+[Að finna síður með hlutverkaleit](ui-role-explorer.md)

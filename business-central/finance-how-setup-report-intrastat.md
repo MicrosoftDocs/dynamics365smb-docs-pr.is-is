@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cdf0eb137984bbc1988677ca53991d75659c022a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ddcc935a6ae539ad82894d6153f7c7f4b6fdeb48
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302189"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554159"
 ---
-# <a name="how-to-set-up-and-report-intrastat"></a>Hvernig skal: Setja upp og skrá Intrastat
+# <a name="set-up-and-report-intrastat"></a>Setja upp og skrá Intrastat
 Öll fyrirtæki í löndum innan Evrópusambandsins þurfa að gefa öðrum löndum/svæðum innan sambandsins skýrslur um viðskipti sín. Einnig þarf að gefa hagstofu viðkomandi lands/svæðis mánaðarlega skýrslu um hreyfingu vöru og skýrsluna þarf að afhenda skattayfirvöldum. Í kerfinu er þetta kallað Intrastat-skýrslur. **Intrastatbók** er notuð til að vinna reglulegar Intrastat-skýrslur.  
 
 ## <a name="required-and-optional-setups"></a>Áskilin og valfrjáls uppsetning
 Áður en þú getur notað Intrastat bókina til að gefa skýrslur í formi Intrastat upplýsinga, eru nokkrir hlutir sem þarf að setja upp.  
 
-* **Uppsetning Intrastat**: Uppsetningarsíða Intrastat er notuð til að virkja skýrslugerð intrastat og setja á sjálfgefnar stillingar fyrir hana. Hægt er að tilgreina hvort eigi að gefa Intrastat-skýrslu um afhendingum (sendingum), kvittunum (komum) eða bæði, háð mörkum sem staðbundnar reglugerðir segja til um. Einnig er hægt að setja á sjálfgefnar færslugerðir fyrir venjuleg fylgiskjöl eða fylgiskjöl vöruskila, notaðar samkvæmt einkennum skýrslugerðar fyrir færslur. 
+* **Uppsetning Intrastat**: Uppsetningarsíða Intrastat er notuð til að virkja skýrslugerð intrastat og setja á sjálfgefnar stillingar fyrir hana. Hægt er að tilgreina hvort eigi að gefa Intrastat-skýrslu um afhendingum (sendingum), kvittunum (komum) eða bæði, háð mörkum sem staðbundnar reglugerðir segja til um. Einnig er hægt að setja á sjálfgefnar færslugerðir fyrir venjuleg fylgiskjöl eða fylgiskjöl vöruskila, notaðar samkvæmt einkennum skýrslugerðar fyrir færslur.
 * **Sniðmát Instrastatbókar**: Nauðsynlegt er að setja upp sniðmát og keyrslur Intrastatbókarinnar sem notaðar verða. Þar sem Intrastat-skýrslugerð er framkvæmd mánaðarlega verður að stofna 12 intrastatbókarkeyrslur sem miðast við sama sniðmát.  
 * **Vörukóði**: Tolla- og skattyfirvöld hafa sett fram númerakóða sem flokka vörur og þjónustu. Þú tiltekur þessa kóða á vörum.
 * **Eðliskóðar færslu**: Lönd og svæði hafa ólíka kóða fyrir tegundir Instrastat viðskipti, eins og venjuleg innkaup og sala, skipti á skilavörum, og skipti á vörum sem ekki hefur verið skilað. Setja upp alla kóða sem eiga við í þínu landi/svæði. Þú notar þessa kóða í sölu- og innkaupaskjölum, og þegar þú vinnur vöruskil.  
@@ -47,8 +47,8 @@ Hægt er að flytja færsluna út í skrá sem þú getur sent til Instrat yfirv
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát Intrastatbókar** og veldu síðan tengda hlekkinn.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Stofna sniðmát fyrir hvert Instrastat form sem er notað.  
-3. Til að stofna keyrslu, skal velja **Færsluleit** og svo **Keyrslur**.  
-4. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Stofna sniðmát fyrir hvert Instrastat form sem er notað.  
+3. Til að búa til keyrslur skaltu velja aðgerðina **Runur**.  
+4. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Stofna sniðmát fyrir hvert Instrastat form sem er notað.  
 
 > [!Note]
 > Í reitinn **Upplýsingatímabil** er upplýsingatímabilið fært inn sem fjögurra stafa númer og tákna fyrstu tveir tölustafirnir árið og þeir sem á eftir koma mánuðinn. Til dæmis er 1706 fært inn fyrir júní 2017.
@@ -76,7 +76,7 @@ Allar vörur sem eru keyptar eða selda verða að hafa vörukóða.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleiak Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning Intrastat** og veldu síðan tengda hlekkinn.
 2. Veldu aðgerðina **Uppsetning Intrastat-gátlista**.
-3. Á síðunni **Uppsetning Intrastat-gátlista**, smelltu á **Reitarheiti** til að ná Intrastat skýrslureit sem þú vilt gera skyldu að fylla út. 
+3. Á síðunni **Uppsetning Intrastat-gátlista**, smelltu á **Reitarheiti** til að ná Intrastat skýrslureit sem þú vilt gera skyldu að fylla út.
 
 ## <a name="to-report-intrastat"></a>Setja fram Intrastat skýrslu
 Eftir að þú hefur fyllt út Intrastatbókina geturðu keyrt aðgerðina **Gátlistaskýrslu** til að ganga úr skugga um að allar upplýsingar í bókinni séu réttar. Lögboðnir reitir sem þú hefur stillt á síðunni **Uppsetning Intrastat-gátlista** sem vantar gildi verða sýndir í Villur og viðvörun upplýsingareit á síðunni **Intrastatbók**. Eftir það er hægt að intrastat-skýrsla prentuð á eyðublað eða stofnuð sem skrá og því næst send til skattayfirvalda viðkomandi landssvæðis.  
@@ -98,7 +98,7 @@ Prenta þarf skýrsluna **Intrastat – Eyðublað** til að fá upplýsingarnar
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Intrastatbækur** og veldu síðan tengda hlekkinn.  
 2. Á **Intrastat bók** síðunni, í reitnum **Heiti keyrslu** skal velja viðeigandi færslubókarkeyrslu.  
-3. Fylla skal handvirkt út í færslubókina, ef það hefur ekki verið gert nú þegar, eða velja **Leggja til línur**.  
+3. Fylla skal handvirkt út í færslubókina, ef það hefur ekki verið gert nú þegar, eða velja aðgerðina **Leggja til línur**.  
 4. Veljið aðgerðina **Prentar Intrastatbók**.  
 5. Á flýtiflipanum **Intrastatbókalína** er bætt við afmörkuninni **Tegund** til að velja einn af eftirfarandi valkostum: **Móttaka** eða **Afhending**.  
 6. Til að prenta skýrsluna skal velja **Senda til**.  
@@ -108,9 +108,9 @@ Hægt er að senda Intrastat-skýrsluna sem skrá. Áður en skráin er búin ti
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Intrastatbók** og veldu síðan tengda hlekkinn.  
 2. Á **Intrastat bók** síðunni, í reitnum **Heiti keyrslu** skal velja viðeigandi færslubókarkeyrslu.  
-3. Fylla skal handvirkt út í færslubókina, ef það hefur ekki verið gert nú þegar, eða velja **Leggja til línur**.  
+3. Fylla skal handvirkt út í færslubókina, ef það hefur ekki verið gert nú þegar, eða með því að velja aðgerðina **Leggja til línur**.  
 4. Aðgerðin **Stofna Skrá** er valin.  
-5. Á runuvinnslusíðunni skal velja **Í lagi**.  
+5. Á síðu runuvinnslunnar skaltu velja hnappinn **Í lagi**.  
 6. Velja **Vista**.  
 7. Flett er að möppunni þar sem vista á skrána og skráarheiti fært inn og síðan valið **Vista**.
 
@@ -119,7 +119,7 @@ Hægt er að senda Intrastat-skýrsluna sem skrá. Áður en skráin er búin ti
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Intrastatbækur** og veldu síðan tengda hlekkinn.  
 2. Í glugganum  er reiturinn **Heiti keyrslu** valinn til að sjá valkosti.  
-3. Veldu bókarkeyrslurnar sem á að eyða og svo **Eyða**.  
+3. Veldu bókarkeyrslurnar sem á að eyða og svo hnappinn **Eyða**.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármálastjórnun](finance.md)

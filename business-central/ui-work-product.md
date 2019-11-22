@@ -8,19 +8,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 81ba616c55b364843a718e9b000bfee02a513ad1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fbac11fc220184a2906ceed1811c7f5b0b7676b5
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310637"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774772"
 ---
 # <a name="working-with-included365finincludesd365fin_mdmd"></a>Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Þegar viðskiptaverk eru unnin er vinna með gögn margvísleg: stofna færslur, slá inn gögn, raða og afmarka gögn, skrifa athugasemdir, auk úttöku gagna í önnur forrit.
 
 Til dæmis er hægt að leiðrétta stærð og stöðu hvaða síðu sem er, víkka dálka og hækka dálkfyrirsagnir, og breyta flokkun gagna í dálkum. Ef nota þarf láréttu flettistikuna til að sjá alla dálka á listasíðu eða skjalalínum sést að það er fast lóðrétt svæði til að varna flettingu ákveðinna dálka.
+
+> [!TIP]
+> Til að fá prentvænt yfirlit yfir mest notuðu aðgerðirnar skaltu velja eftirfarandi mynd og sækja PDF-skjalið.
+>
+> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > Í viðbót við almennar aðgerðir notandaviðmótsins sem er lýst í þessum hluta, geturðu notað aðrar almennar aðgerðir sem eru viðskiptamiðaðri. Frekari upplýsingar er að finna í [Almenn viðskiptavirkni](ui-across-business-areas.md).
@@ -30,7 +35,7 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða síðu sem er, ví
 | Til | Sjá |
 | --- | --- |
 |Finndu ákveðna síðu, skýrslu, aðgerð, efnisatriði hjálpar eða viðbót samstarfsaðila. |[Finndu síður og upplýsingar með Viðmótsleit](ui-search.md) |
-|Fáðu yfirlit yfir síður fyrir hlutverk þitt og fyrir önnur hlutverk og farðu á síður.|[Finna síður frá yfirliti yfir eiginleika](ui-role-explorer.md)|
+|Fáðu yfirlit yfir síður fyrir hlutverk þitt og fyrir önnur hlutverk og farðu á síður.|[Að finna síður með hlutverkaleit](ui-role-explorer.md)|
 | Afmarka gögn í yfirlitum, skýrslum eða aðgerðum með því að nota sérstök tákn og stafi. |[Röðun, leit og síun í listum](ui-enter-criteria-filters.md) |
 |Kynntu þér hinar ýmsu almennu aðgerðir sem hjálpa þér að færa gögn inn fljótt og örugglega.|[Gagnainnfærsla](ui-enter-data.md)|
 |Kynntu þér hvernig á að afrita og líma göng með því að nota flýtilykla.|[Algengar spurningar um það að afrita og líma](ui-copy-paste.md)|

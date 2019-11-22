@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311693"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553917"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Vinna með þjónustusamninga og þjónustusamningstilboð
 Hægt er að stofna þjónustusamning annað hvort handvirkt eða úr þjónustusamningstilboði. Hægt er að nota þjónustusamningstilboð sem aðdraganda að þjónustusamningi þar sem fyrirtækið gerir viðskiptamanni tilboð og fær samþykki hans svo að unnt sé að breyta tilboðinu í þjónustusamning. Ferlið við stofnun þjónustusamnings annars vegar og þjónustusamningstilboðs er nokkuð svipað.  
@@ -73,7 +73,7 @@ Samningsþjónustukreditreikninga má nota þegar viðskiptamaður ógildir fyri
 
  Til að stofna handvirkt kreditreikning þegar samningslínur eru fjarlægðar úr þjónustusamningi er farið á síðuna **Þjónustusamningur** , flýtiflipann **Sundurl. reikningur**, skal velja gátreitinn **Sjálfvirkir kreditreikningar**.  
 
- Til að stofna handvirkt kreditreikning þegar samningslínur eru fjarlægðar úr þjónustusamningi er farið á síðuna **Þjónustusamningur**, flipann **Aðgerðir**, flokkinn **Aðgerðir** og **Kreditreikningur** valinn.  
+ Til að stofna handvirkt kreditreikning þegar samningslínur eru fjarlægðar úr þjónustusamningi er farið í síðuna **Þjónustusamningur** og aðgerðin **Kreditreikningur** valin.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Uppfærsla og mat á samningum
 Stundum þarf að breyta skilmálum samninga eftir að þeir eru stofnaðir. Yfirleitt er viðeigandi samningur opnaður á síðunni **Þjónustusamningur** og honum breytt eins og þurfa þykir.  
@@ -99,12 +99,12 @@ Nauðsyn gæti reynst að eyða samningslínum úr þjónustusamningi um leið o
 4. Veldu samningslínuna sem á að fjarlægja. Fylla inn í reitinn **Samningur útrunninn - dags.** með dagsetningunni þegar á að fjarlægja línuna. T.d. er hægt að færa inn dagsetninguna sem þjónustuvaran bilaði.  
 5. Veldu **Fjarlægja línur úr samningi**. Þá opnast síðan **Fjarlægja línur úr samningi**.  
 6. Fylltu út sjálfgefnar síur **Samningsnr.**, afmörkunin **Nr. þjónustuvöru** og afmörkunin **Tegund samnings**. Ef þörf krefur er hægt að setja fleiri afmarkanir eða breyta þeim sem fyrir eru.  
-7. Reitirnir á flýtiflipanum **Valkostir** eru fylltir út. Í reitnum **Aðgerð** er valið að **Eyða línum**.  
+7. Fylltu út reitirna á flýtiflipanum **Valkostir** og veldu svo aðgerðina **Eyða línum**.  
 
 > [!NOTE]  
 >  Ef samningurinn er ekki sundurliðaður þarf að uppfæra virðið í reitnum **Árleg upphæð** á flýtiflipanum **Sundurl. reikningur** á síðunni **Þjónustusamningur** svo að ljóst sé að þjónustuvaran hafi fallið út úr samningnum.  
 >   
->  Ef samningurinn er sundurliðaður og fyrirframgreiddur og búið er að bóka reikninga vegna hans er hægt að búa til kreditreikning fyrir samninginn. Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Stofna kreditreikning**. Þetta er óþarfa ef gátreiturinn í reitnum **Sjálfv. kreditreikningar** í flýtiflipanum **Reikningsupplýsingar** er valinn. Í því tilviki er kreditreikningur stofnaður sjálfkrafa næst þegar samningslína er fjarlægð.
+>  Ef samningurinn er sundurliðaður og fyrirframgreiddur og búið er að bóka reikninga vegna hans er hægt að búa til kreditreikning fyrir samninginn. Veljið aðgerðina **Stofna kreditreikning**. Þetta er óþarfa ef gátreiturinn í reitnum **Sjálfv. kreditreikningar** í flýtiflipanum **Reikningsupplýsingar** er valinn. Í því tilviki er kreditreikningur stofnaður sjálfkrafa næst þegar samningslína er fjarlægð.
 
 ## <a name="service-line-cost-and-value"></a>Kostnaður og gildi þjónustulínu
 Á þjónustusamningslínum eru upphæðirnar í **Línukostnaður** og **Línuvirði** reiknaðar á eins og lýst er í eftirfarandi töflum.

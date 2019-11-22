@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2019
-ms.openlocfilehash: 22471a6e0281f6f7aa4e9c9bbf0b2d9c5a0fd710
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8d25dc4c27be6069782ff30e785f884ee406d2e4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309293"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553943"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Nota spurningalista forstillingar til að flokka viðskiptatengiliði
 Hægt er að setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn. Innan hvers spurningalista er hægt að setja upp þær mismunandi spurningar sem spyrja á tengiliðina.  
@@ -24,11 +24,11 @@ Einnig er hægt að keyra spurningalistann til að svara sjálfkrafa nokkrum spu
 
 ## <a name="to-add-a-profile-questionnaire"></a>Til að bæta við spurningalista forstillingar
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning spurningalista** og veldu síðan tengda tengilinn.  
-2.  Á flipanum **Heim** í flokknum **Nýtt** skal velja **Nýtt**.  
-3.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2.  Veldu aðgerðina **Nýtt**.  
+3.  Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Til að bæta spurningum við spurningalista forstillingar
-1.  Veljið viðeigandi spurningalista forstillingar og síðan í flipanum **Heim**, í flokknum **Vinna úr**, skal velja **Breyta uppsetningu spurningalista**.  
+1.  Veldu viðeigandi spurningalista og veldu síðan aðgerðina **Breyta Breyta uppsetningu spurningalista**.  
 2.  Í fyrstu auðu línunni reitnum **Tegund**, veljið **Spurning** ritið spurninguna í reitinn **Lýsing**. Aðrir reitir í línunni eru fylltir út.  
 3.  Í næstu auðu línu er smellt á reitinn **Tegund**, valið **Svar** og svarið ritað í reitinn **Lýsing**.  
 4.  Í reitnum **Forgangur** veljið forganginn. Í reitunum **Frá virði** og **Til virðis** skilgreinið bil. Tengiliðir sem fá stig innan skilgreinda bilsins fá svarið.  

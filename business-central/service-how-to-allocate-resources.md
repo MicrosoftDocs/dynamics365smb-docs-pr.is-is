@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c0acb72f9c083b262251f249d1004b333b911c3c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b6b5173f23d2315bbaeb01018ae4ee1ba26712b6
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316049"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554824"
 ---
 # <a name="allocate-resources"></a>Úthluta forða
 Lykilþáttur þjónustukerfis er fólkið sem veitir þjónustuna. Hægt að setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] til að úthluta réttu fólki í viðeigandi verk. Úthlutun verka er hægt að byggja á þjónustusvæðinu sem starfsfólk er á eða því hvar þjónustan á sér stað. Auk þess er hægt að flokka forða saman þegar þjónustubeiðnum er svarað. Frekari upplýsingar eru í [Setja upp forðaúthlutun](service-how-setup-resource-allocation.md).
@@ -46,7 +46,7 @@ Oft gæti þurft að skoða lista yfir þjónustupantanir eða þjónustutilboð
 6. Veljið forða til að úthluta. Hægt er að byggja valið á því hvort forðinn sé hæfur í verkhlutann, hvort hann sé staðsettur á svæði viðskiptamanns og/eða hvort viðskiptamaðurinn vill hann helst.  
 7. Valin er dagsetning þegar forðinn er með nægar vinnustundir til ráðstöfunar til verksins og sem er nálægt svardegi þjónustupöntunar.  
 8. Í reitinn **Magn til úthlutunar** er færður inn stundafjöldinn sem á að úthluta forðanum til þjónustuverksins.  
-9. Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Úthlutun** til að úthluta völdum forða á valinni dagsetningu.  
+9. Smellt er á **Úthluta** til að úthluta tilteknum forða á tiltekinn dag.  
 
      Reiturinn **Staða** er sjálfkrafa stillt á **Virkt**.  
 
@@ -80,7 +80,7 @@ Hægt er að endurúthluta forða beint úr þjónustupöntun eða þjónustutil
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi þjónustupöntun.  
-3. Smellt er á þjónustuvörulínuna sem samsvarar þjónustuverkhlutanum sem á að úthluta forða.  Velja **Aðgerðir**, velja **Lína** og smella síðan á **Úthlutun forða**.  
+3. Smellt er á þjónustuvörulínuna sem samsvarar þjónustuverkhlutanum sem á að úthluta forða og svo valin **Úthlutun tilfanga** aðgerðin.  
 4. Á síðunni **Úthlutun forða** er valin úthlutunarfærslan með þjónustuverkhlutanum sem endurúthluta á forðanum til. Í reitnum **Forðanr.** er viðeigandi forði valinn. Hann kemur í staðinn fyrir forðanúmerið sem þegar er í reitnum.  
 5. Ýtið á færslulykilinn. Þá opnast svargluggi og spurt er hvort endurúthluta eigi færslunni. Fyllið út reitinn **Ástæðukóti** ef það á við og veljið hnappinn **Í lagi** til að staðfesta endurúthlutun.  
 6. Reitirnir **Úthlutunardags.** og **Úthlutaðar stundir** eru fylltir út. Nú sýnir færslan nýjan forða og staðan er **Virk**.
@@ -90,7 +90,7 @@ Ef forðinn sem þjónustuverkhluta er úthlutað getur ekki lokið við verkið
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afgreiðslustöð** og veldu síðan tengda tengilinn.  
 2. Í reitnum **Úthlutunarafmörkun** skal velja **Þarf að endurúthluta**. Nú sýnir síðan **Afgreiðslustöð** lista yfir þjónustupantanir sem fela í sér þjónustuverkhluta þar sem þarf að endurúthluta.  
-3. Velja skal viðeigandi þjónustupöntun. Á flipanum **Færsluleit**, í flokknum **Áætlun**, skal velja **Úthlutun forða**. Síðan **Úthlutun forða** opnast.  
+3. Veljið viðeigandi þjónustupöntun og velja svo aðgerðina **Forðaúthlutun**. Síðan **Úthlutun forða** opnast.  
 4. Valin er úthlutunarfærslu þess þjónustuverkhluta sem á að endurúthluta forða.  
 5. Í reitnum **Forðanr.** er viðeigandi forði valinn. Hann kemur í staðinn fyrir forðanúmerið sem þegar er í reitnum.  
 6. Ýtt er á færsluhnappinn. Svarglugginn **Ástæður endurúthlutunarfærslu** opnast og spyr hvort endurúthluta eigi þessari færslu. Fyllið út reitinn **Ástæðukóti** ef það á við og veljið hnappinn **Í lagi** til að staðfesta endurúthlutun.  
@@ -106,7 +106,7 @@ Ef forðinn sem þjónustuverkhluta er úthlutað getur ekki lokið við verkið
 ## <a name="to-register-resource-hours"></a>Forðastundir skráðar  
 Þegar unnið er við þjónustuvöru í þjónustupöntunum þarf að skrá forðastundir sem notaðar eru til þjónustunnar. Eftirfarandi ferli sýnir hvernig á að skrá forðastundir á síðunni **Þjónustuvörublað**.  
 
-Hægt er að nota sömu aðferð við að skrá stundirnar á síðunni **Þjónustulínur**, sem hægt er að opna úr glugganum Þjónustupöntun. Opna viðeigandi þjónustuspjald og velja síðan **Aðgerðir**, velja **Pöntun** og velja síðan **Þjónustulínur**.  
+Hægt er að nota sömu aðferð við að skrá stundirnar á síðunni **Þjónustulínur**, sem hægt er að opna úr glugganum Þjónustupöntun. Opnaðu viðkomandi þjónustuspjald og veldu svo aðgerðina **Þjónustulínur**.  
 
 Ef sami forði nýtist til allrar þjónustuvöru í þjónustupöntun má aðeins skrá heildarfjölda forðastunda fyrir eina vöru og síðan er forðalínunni skipt upp til að úthluta annarri þjónustuvöru forðastundum.
 
@@ -121,9 +121,9 @@ Eftirfarandi aðferð sýnir hvernig forðalínum er skipt upp á síðunni **Þ
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi þjónustupöntun.  
-3. Á flýtiflipanum **Línur** skal velja **Aðgerðir**, velja **Röð** og velja síðan **Þjónustulínur**. Síðan **Þjónustulínur** opnast.  
+3. Á flýtiflipanum **Línur** skal velja aðgerðina **Þjónustulínur**. Síðan **Þjónustulínur** opnast.  
 4. Smellt er á forðalínuna sem á að skipta. Efni reitsins **Magn** er deilt milli allrar þjónustuvöru í pöntuninni.  
-5. Í flipanum **Aðgerðir** veljið **Skipta forðalínu** aðgerðina. Veljið **Já** til staðfestingar.  
+5. Veljið aðgerðina **Skipta forðalínu**. Veljið **Já** til staðfestingar.  
 
     Forðafærslur eru stofnaðar fyrir aðra þjónustuvöru í pöntuninni með sama forðanúmeri og línan sem skipt var upp. Magn er magnið fyrir línuna sem skipt var upp deilt með fjölda þjónustuvöru í pöntuninni.  
 

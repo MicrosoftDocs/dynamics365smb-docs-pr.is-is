@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 10/21/2019
 ms.author: sgroespe
-ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315277"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649789"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum
 
@@ -47,14 +47,12 @@ Hægt er að bæta við tengli af korti eða skjali á einhverja vefslóð eða 
 
 Eftirfarandi aðferð er byggð á birgðaspjaldi. Skrefin eru svipuð fyrir öll önnur studd kort og skjöl.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Veldu vöruna sem þú vilt bæta við tengli úr og veldu svo flipann **Viðhengi** í upplýsingareitnum.
 3. Í **Tenglar** skal velja **+** táknið.
 4. Í svæðinu **Veffang tengils** skal slá inn tengilinn.
 
-    - Til að tengja skrá á þinni tölvu eða neti, skaltu færa inn fulla slóð og skráarheiti, eins og t.d. **C:\My Documents\invoice1.doc**.
-    - Til að tengja á vefsíðu, færa inn vefslóðina (URL) eins og t.d. **www.microsoft.com**.
-    - Til að tengja forrit, færa inn tilgreindan streng til að opna forritið. Til að opna t.d. Outlook með nýjum tómum tölvupósti til tiltekins viðtakanda skal færa inn **mailto:testalias**.  
+    Tengillinn verður að vera gild vefslóð eða slóð innra nets.
 
 5. Í reitinn **Lýsing** skal færa inn upplýsingar um tengilinn.  
 6. Velja hnappinn **Í lagi**.

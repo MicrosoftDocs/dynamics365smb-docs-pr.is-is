@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: 93a68509653aef29bb8f798e7fded70bab550e13
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315058"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695192"
 ---
 # <a name="searching-and-filtering-faq"></a>Algengar spurningar um leit og síun
 Þessi grein svarar algengum spurningum sem þú gætir haft um leit og síun.
@@ -52,5 +52,5 @@ Sem stjórnandi á staðnum, eykur þú tímamörkin í leitum með því að br
 ## <a name="see-also"></a>Sjá einnig .
 [Röðun, leit, og síun](ui-enter-criteria-filters.md)  
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
-[Finna síður frá yfirliti yfir eiginleika](ui-role-explorer.md)  
+[Að finna síður með hlutverkaleit](ui-role-explorer.md)  
 [Hafist handa](product-get-started.md)  

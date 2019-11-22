@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 369fcd1905d701f7262e1b4d444dc20321b393e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 497045b1c79f1ea27bebe994bbfbc39d5a29e1d9
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300882"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649813"
 ---
 # <a name="extending-included365finincludesd365fin_mdmd"></a>Stækka [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er viðskiptahugbúnaður sem hjálpar fyrirtækjum að tengja fjármálin, sölur, þjónustu og aðgerðir sínar til að einfalda viðskiptaferla, bæta samskipti við viðskiptavini og taka betri ákvarðanir. [!INCLUDE[d365fin](includes/d365fin_md.md)] er fáanlegt í skýinu og handa notendum á alls kyns gerðum af tækjum, sem er alltaf uppfært. Með þessum nútíma viðskiptavettvangi getur þú auðveldlega og á fljótlegan hátt aðlagað, stækkað og smíðað forrit svo þau passi sérstaklega við þínar þarfir - með lítilli sem engri þróun á kóða.  
@@ -58,10 +58,10 @@ Víkkaðu út upplifunina og möguleikana á [!INCLUDE[d365fin](includes/d365fin
 Fylgdu staðbundnum eftirlitseiginleikum með því að þróa fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)], sem aðlagar virk svæði að kröfum staðbundins markaðar ásamt [Dynamics 365 þýðingarþjónustunni](/dynamics365/unified-operations/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview). Samstilltu kjarnastarfsemi staðbundinnar lagaskyldu og víkkaðu út núverandi virkni til að keppa á staðbundna markaðnum þínum með góðum árangri. Frekari upplýsingar um [Þróun á staðfærslulausn](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### <a name="reseller-solution"></a>Lausn endursöluaðila
-Þar sem hvert fyrirtæki er einstakt, með [Sérstillingar leigjanda](/dynamics-nav/developer/readiness/readiness-customizing-tenants), getur þú lagað þig að því hvernig þú vinnur með einföldum ferlum þínum, hugtökum þínum og hvernig starfsmenn eða deildir tengjast og vinna saman. Að auki getur þú valið að endurselja og stilla [!INCLUDE[d365fin](includes/d365fin_md.md)] að þörfum hvers viðskiptavinar með því að veita [Ráðgjafarþjónustu](/dynamics-nav/developer/readiness/readiness-consulting). Eða notaðu Microsoft Flow, Power Apps og Power BI til að búa til [Sérsniðin verkflæði](/dynamics-nav/developer/readiness/readiness-no-code), forrit og skýrslur um innsýn í viðskipti án þess að þurfa að skrifa kóða. Frekari upplýsingar um [Endursöluaðili Dynamics 365 (VAR)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
+Þar sem hvert fyrirtæki er einstakt, með [Sérstillingar leigjanda](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants), getur þú lagað þig að því hvernig þú vinnur með einföldum ferlum þínum, hugtökum þínum og hvernig starfsmenn eða deildir tengjast og vinna saman. Að auki getur þú valið að endurselja og stilla [!INCLUDE[d365fin](includes/d365fin_md.md)] að þörfum hvers viðskiptavinar með því að veita [Ráðgjafarþjónustu](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting). Eða notaðu Microsoft Flow, Power Apps og Power BI til að búa til [Sérsniðin verkflæði](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-no-code), forrit og skýrslur um innsýn í viðskipti án þess að þurfa að skrifa kóða. Frekari upplýsingar um [Endursöluaðili Dynamics 365 (VAR)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
 
-## <a name="where-do-i-learn-more"></a>Hvar finn ég frekari upplýsingar?
-Til að fá frekari upplýsingar um tilboð Microsoft AppSource ráðgjafarþjónustu skal velja eftirfarandi tengla:
+## <a name="where-do-i-learn-more"></a>Hvar læri ég meira?
+Til að fá frekari upplýsingar um tilboð Microsoft AppSource ráðgjafarþjónustu, skal velja eftirfarandi tengla:
 
 [AppSource Ráðgjafartilboð](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)  
 [Hæfi samstarfsaðila](https://smp-cdn-prod.azureedge.net/documents/Microsoft%20AppSource%20Partner%20Listing%20Guidelines.pdf)  
@@ -70,7 +70,7 @@ Til að fá frekari upplýsingar um tilboð Microsoft AppSource ráðgjafarþjó
 ## <a name="the-ready-to-go-program"></a>Forritið sem er tilbúið til notkunar
 Forritið sem er tilbúið til notkunar er hannað til að styðja þig við að koma með [!INCLUDE[d365fin](includes/d365fin_md.md)] tilboðið þitt í Microsoft Appsource. Forritið inniheldur:
 
-- [Netnámskeið](https://aka.ms/ReadyToGoOnlineLearning)
+- [Netnámskeið](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-catalog)
 - [Þjálfun og vinnustofur](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
 - [Samvinnuvettvangur Microsoft](https://aka.ms/Collaborate)
 

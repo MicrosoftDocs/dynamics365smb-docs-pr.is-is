@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e78f5151694ce2fe5c37e6cfcc78ac69e5954dc1
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315301"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775596"
 ---
 # <a name="getting-ready-for-doing-business"></a>Undirbúðu þig fyrir að gera viðskipti
 Til hamingju, þú ert búinn að setja upp þitt fyrsta fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -49,7 +49,7 @@ Notaðu örvar til að fella saman hluta síðunnar og búa til pláss til að s
 Undir **Stillingar fyrirtækis** geturðu séð og breytt uppsetningarupplýsingum um núverandi fyrirtæki, mikið af þessu var forútfyllt hafirðu klárað **Setja upp fyrirtæki** aðstoðina með hjálp þegar þú skráðir þig í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Viljirðu breyta lógói fyrirtækis, samskiptaupplýsingum, bankastillingum, eða skattaupplýsingum, geturðu gert það af þessari síðu.    
 
 ## <a name="adding-users-and-permissions"></a>Bæta við notendum og heimildum
-Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð Office 365 Frekari upplýsingar, sjá [Bæta notendum við Office 365 fyrir fyrirtæki](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Þegar notendur hafa verið stofnaðir í Office 365 er hægt að flytja þá inn á síðuna **Notendur** með því velja aðgerðina **Sækja notendur úr Office 365**. Síðan geturðu haldið áfram að úthluta notendum heimildir og flokka þá í notendahópum. Frekari upplýsingar eru í [Stjórna notendum og heimildum](ui-how-users-permissions.md).  
+Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð Office 365 Frekari upplýsingar, sjá [Bæta notendum við Office 365 fyrir fyrirtæki](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Þegar notendur hafa verið stofnaðir í Office 365 er hægt að flytja þá inn á síðuna **Notendur** með því velja aðgerðina **Sækja notendur úr Office 365**. Síðan geturðu haldið áfram að úthluta notendum heimildir og flokka þá í notendahópum. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Fá Hjálp
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] muntu finna ábendingar sem hjálpa þér við að komast í gegnum hina ýmsu viðskiptaferli. Fyrir hverja reitarábendingu er hægt að ýta á Ctrl+F1 eða velja tengilinn **Fræðast meira** til að opna hjálpina fyrir síðuna sem um ræðir. Spurningamerki uppi hægra megin í horninu bendir þér einnig á hjálp fyrir vöruna.
@@ -60,6 +60,6 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr stjórnstöð O
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Vinna með notendur og heimildir](ui-how-users-permissions.md)
+[Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

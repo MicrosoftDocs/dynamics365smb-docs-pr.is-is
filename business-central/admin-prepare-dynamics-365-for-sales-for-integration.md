@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 54f2a90939a47cc34f7dbcea3509b5e0b0f2d598
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9f56e96b86fb7462799c9a9c655010ee2fb04381
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304373"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775308"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Samþætting við Dynamics 365 Sales
 Hlutverk sölumannsins er oft talið sýnilegasti hlutinn í viðskiptum. Hins vegar getur það gagnast sölumönnum að geta fengið innsýn í viðskiptin og séð hvað er að gerast á bak við tjöldin. Með því að samþætta [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] er hægt að veita sölufólkinu þessa innsýn með því að gera því kleift að skoða upplýsingar í [!INCLUDE[d365fin](includes/d365fin_md.md)] á meðan það vinnur í [!INCLUDE[crm_md](includes/crm_md.md)]. Þegar sölutilboð er undirbúið getur það til dæmis verið gagnlegt að vita hvort nægar birgðir séu til staðar til að uppfylla pöntunina. Frekari upplýsingar er að finna í [Að nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md).
@@ -52,7 +52,7 @@ Sjálfgefið er að uppsetningarleiðbeiningar með hjálp fyrir **Setja upp Dyn
 * Kerfisstjóri  
 * Lausnastilling  
 
-Frekari upplýsingar er að finna í [Uppsetning notendareikninga fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md), [Búa til notendur í Microsoft Dynamics 365 (online) og úthluta öryggishlutverkum](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) og [Vinna með notendur og heimildir](ui-how-users-permissions.md).  
+Frekari upplýsingar er að finna í [Uppsetning notendareikninga fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md), [Búa til notendur í Microsoft Dynamics 365 (online) og úthluta öryggishlutverkum](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) og [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
 
 Þessi reikningur er aðeins notaður einu sinni við uppsetninguna. Þegar lausnin er flutt inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] er ekki lengur þörf á reikningnum. Samþætting heldur áfram að nota notandareikninginn sem var sérstaklega búinn til fyrir samþættinguna.
 

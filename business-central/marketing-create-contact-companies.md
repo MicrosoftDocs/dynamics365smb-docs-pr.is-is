@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: f4bf8e694a7b034eb601c3bf39bd420ff61ab73a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf7ef0013cac921ec7ab7b1fa505a9c2f0852a33
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309317"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798572"
 ---
 # <a name="create-contacts"></a>Stofna tengiliði
 Þú hittir reglulega fólk frá öðrum fyrirtækjum sem getur þróast yfir í viðskiptatengsl, t.d. viðskiptamannatengsl. Þegar þannig nýr tengiliður verður til, verður að skrá eins miklar upplýsingar og hægt er í tengiliðaspjald svo samskipti geti haldið áfram.
@@ -33,7 +33,7 @@ Virknin er sú sama fyrir báðar gerðirnar, nema að valmöguleikarnir fyrir v
 
 ## <a name="to-create-a-contact-manually"></a>Að búa til tengilið handvirkt
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.
-2. Valið er **Nýtt** aðgerð.
+2. Valið er aðgerðin **Nýtt**.
 3. Í reitnum **númer** er fært inn númer fyrir tengiliðinn.
 
     Hafi númeraröð fyrir tengiliði verið sett upp á síðunni **Uppsetning markaðssetningar** er hægt að styðja á færslulykilinn til að færa inn næsta lausa tengiliðanúmer.  
@@ -109,4 +109,4 @@ Síða opnast með viðeigandi spjaldi.
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með tengiliði](marketing-contacts.md)  
 [Uppsetning tengiliða](marketing-setup-contacts.md)  
-[Unnið með Business Central](ui-work-product.md)
+[Vinna með Business Central](ui-work-product.md)

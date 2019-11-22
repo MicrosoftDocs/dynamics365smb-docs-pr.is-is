@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/01/2019
+ms.date: 10/22/2019
 ms.author: edupont
-ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300786"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692705"
 ---
 # <a name="changing-language-and-locale"></a>Breyting á tungumáli og landsstaðli
 
@@ -40,6 +40,10 @@ Landsstaðall er frábrugðinn bæði tungumáli og lagalegum skilyrðum á sta�
 
 Til að breyta landsstaðlinum, skal fara á síðuna **Mínar stillingar**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).  
 
+## <a name="application-version"></a>Útgáfa forrits
+
+Á síðunni **Hjálp og notendaþjónusta** er að finna þá útgáfu [!INCLUDE [prodshort](includes/prodshort.md)] sem fyrirtækið byggir á. Ef þú vilt byggja fyrirtæki á annarri útgáfu getur stjórnandinn þinn stofnað nýtt framleiðsluumhverfi. Frekari upplýsingar eru í [Stofna nýtt framleiðsluumhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) í Developer og IT Pro Help.  
+
 ## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Tungumál [!INCLUDE[d365fin](includes/d365fin_md.md)] hjálparinnar
 Hjálparefni fyrir grunnvirkni í [!INCLUDE[d365fin](includes/d365fin_md.md)] er birt á Microsoft Docs vefsíðunni og er tiltækt á mörgum ólíkum tungumálum. Ef þú nálgast skjölin innanfrá [!INCLUDE[d365fin](includes/d365fin_md.md)], mun efnið birtast á þínu tungumáli. Ef tiltekin síða er ekki tiltæk á þínu tungumáli, verður hún birt á ensku.
 
@@ -49,6 +53,8 @@ Hjálparefni fyrir grunnvirkni í [!INCLUDE[d365fin](includes/d365fin_md.md)] er
 > [!NOTE]  
 > Á listanum má sjá öll tungumál sem eru studd af Microsoft Docs vefsvæðinu. [!INCLUDE[d365fin](includes/d365fin_md.md)] er tiltækt í takmörkuðum fjölda landa/svæða, en Hjálparefnið er gert tiltækt á fleiri tungumálum. Hjálparefnið er aftur á móti ekki tiltækt á öllum tungumálum sem Microsoft Docs vefsvæðið styður.
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
+[Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Hafist handa](product-get-started.md)  

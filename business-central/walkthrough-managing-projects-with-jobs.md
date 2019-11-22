@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314821"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554717"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Kynning: Stýring verkefna með verkum
 
@@ -173,7 +173,7 @@ ms.locfileid: "2314821"
     |1020|Þróun|Bókun|  
     |1090|Ráðgjöf alls|Til-tala|  
 
-3.  Til að sýna að ákveðnir verkhlutar séu undirflokkar annarra verkhluta er farið í flipann **Aðgerðir**, flokkinn **Aðgerðir** og **Draga inn verkhluta verks** valið.  
+3.  Til að sýna að ákveðin verk séu undirflokkar annarra verka er flipinn **Draga inn verkhluta verks** valinn.  
 
  Áætlunarlína getur verið ein af eftirfarandi tegundum:  
 
@@ -261,7 +261,7 @@ Línurnar eru bókaðar.
 4.  Í flipanum  **Valkostir** er bókunardagsetningin færð inn og skilgreint hvort stofna eigi einn reikning fyrir hvert verk eða einn fyrir öll verk.  
 5.  Velja hnappinn **Í lagi** til að stofna reikninginn og velja svo **Í lagi** á staðfestingarsíðunni.  
 
- Eftir að Tricia stofnar reikninginn getur hún nálgast hann frá **Sala og Markaðssetning** undir **Vinnsla pantana** og gert aukavinnslu.  
+ Eftir að Tricia stofnar reikninginn getur hún t.d. nálgast hann frá Mitt hlutverk **Sölupöntunarvinnsla**. 
 
 ### <a name="to-post-a-new-sales-invoice"></a>Nýr sölureikningur bókaður  
 

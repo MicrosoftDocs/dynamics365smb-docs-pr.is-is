@@ -10,30 +10,30 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 8b1fd4a676d1efe508e6fd2dcb37a67b3c24cdb1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e0d2974c3f71d7bbcac46931208f1f492121f11c
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304349"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554351"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-sales"></a>Áætla samstillingu milli Business Central og Dynamics 365 Sales
 Hægt er að samstilla [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] með áætluðu millibili með því að setja upp verk í verkröðinni. Samstillingarverkin samstilla gögn í [!INCLUDE[d365fin](includes/d365fin_md.md)] færslum og [!INCLUDE[crm_md](includes/crm_md.md)] færslum sem hafa þegar verið tengdar. Eða fyrir færslur sem eru ekki þegar tengdar, allt eftir stefnu samstillingar og reglum, geta samstillingarverk stofnað og tengd nýjar færslur í lendingarkerfinu. Nokkur samstillingarverk eru í boði beint úr kassanum. Hægt er að skoða þau á síðunni **Verkraðarfærslur**. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 <!--
 > [!Note]
-> For the on-premeses version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the synchronization jobs are run by codeunit **5339 Integration synch Job Runner**.--> 
+> For the on-premeses version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the synchronization jobs are run by codeunit **5339 Integration synch Job Runner**.-->
 
 ## <a name="synchronization-process"></a>Samstillingarferli  
 Hvert verkraðarfærsla samstillingarverks notar sértæka vörpun samþættingartöflu sem tilgreinir hvaða [!INCLUDE[d365fin](includes/d365fin_md.md)] töflu og [!INCLUDE[crm_md](includes/crm_md.md)] einingu á að samstilla. Töfluvarpanir innihalda einnig nokkrar stillingar sem stýra því hvaða færslur í [!INCLUDE[d365fin](includes/d365fin_md.md)] töflunni [!INCLUDE[crm_md](includes/crm_md.md)] einingunni verða samstilltar.  
 
-Til að samstilla gögn verða [!INCLUDE[crm_md](includes/crm_md.md)] einingafærslur að vera tengdar við [!INCLUDE[d365fin](includes/d365fin_md.md)] færslur. Til dæmis verður [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamaður að vera tengdur við [!INCLUDE[crm_md](includes/crm_md.md)] reikning. Þú getur sett upp tengi handvirkt, áður en samstillingarverk eru keyrð, eða láta samstillingu störf setja upp tengi sjálfkrafa. Eftirfarandi listi lýsir því hvernig gögn eru samstillt milli [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)] og þegar þú ert að nota verkraðarfærslur samstillingarverka. Frekari upplýsingar er að finna í [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md). 
+Til að samstilla gögn verða [!INCLUDE[crm_md](includes/crm_md.md)] einingafærslur að vera tengdar við [!INCLUDE[d365fin](includes/d365fin_md.md)] færslur. Til dæmis verður [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamaður að vera tengdur við [!INCLUDE[crm_md](includes/crm_md.md)] reikning. Þú getur sett upp tengi handvirkt, áður en samstillingarverk eru keyrð, eða láta samstillingu störf setja upp tengi sjálfkrafa. Eftirfarandi listi lýsir því hvernig gögn eru samstillt milli [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)] og þegar þú ert að nota verkraðarfærslur samstillingarverka. Frekari upplýsingar er að finna í [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md).
 
 -   Sjálfgefið eru aðeins færslur í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem eru tengdar við færslur í [!INCLUDE[crm_md](includes/crm_md.md)] samstilltar. Þú getur breytt töfluvörpun á milli [!INCLUDE[crm_md](includes/crm_md.md)] einingar og [!INCLUDE[d365fin](includes/d365fin_md.md)] töflu þannig að heildasamstillingarverkin stofni nýjar færslur í endanlegum gagnagrunni fyrir hverja færslu í upprunagagnagrunninum sem ekki var tengd. Nýju færslur eru einnig tengdar við samsvarandi færslur í upptökum. Til dæmis, þegar þú samstillir viðskiptamenn við [!INCLUDE[crm_md](includes/crm_md.md)] reikninga er búinn til ný reikningsfærsla fyrir hvern viðskiptamann í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nýir reikningar eru sjálfkrafa tengdur við viðskiptamenn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þar sem samstillingu í þessu tilfelli er tvíátta, nýr viðskiptamaður er búinn til og tengdur fyrir hvern [!INCLUDE[crm_md](includes/crm_md.md)] reikning sem er ekki þegar tengdur.  
 
     > [!NOTE]  
     > Til eru reglur og afmarkanir sem ákvarða hvaða gögn eru samstillt. Frekari upplýsingar eru í [Samstillingarreglur](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
 
--   Þegar nýjar færslur eru stofnaðar í [!INCLUDE[d365fin](includes/d365fin_md.md)], nota þær annaðhvort sniðmát sem er skilgreint fyrir vörpun samþættingartöflunnar eða sjálfgefna sniðmátið sem tiltækt er fyrir færslugerðina. Reitirnir eru fylltir með gögnum úr [!INCLUDE[d365fin](includes/d365fin_md.md)] eða [!INCLUDE[crm_md](includes/crm_md.md)], fer eftir samstillingaráttinni. Frekari upplýsingar er að finna í [Hvernig á að: Breyta töfluvörpunum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md).  
+-   Þegar nýjar færslur eru stofnaðar í [!INCLUDE[d365fin](includes/d365fin_md.md)], nota þær annaðhvort sniðmát sem er skilgreint fyrir vörpun samþættingartöflunnar eða sjálfgefna sniðmátið sem tiltækt er fyrir færslugerðina. Reitirnir eru fylltir með gögnum úr [!INCLUDE[d365fin](includes/d365fin_md.md)] eða [!INCLUDE[crm_md](includes/crm_md.md)], fer eftir samstillingaráttinni. Frekari upplýsingar er að finna í [Breyta töfluvörpunum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
 -   Við síðari samstillingar, aðeins skrár sem hafa verið breytt eða bætt við eftir síðustu árangursríka samstillingu starf fyrir aðila verður uppfærður.  
 
@@ -56,7 +56,7 @@ Eftirfarandi tafla lýsir sjálfgefnu samstillingarverkunum.
 |SÖLUMENN - fyrir samstillingarvinnslu Dynamics 365 Sales|Samstillir [!INCLUDE[d365fin](includes/d365fin_md.md)] sölumenn við [!INCLUDE[crm_md](includes/crm_md.md)] notendur.|Frá [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)]|SÖLUMENN|
 |SALESPRC-PRODUCTPRICE-samstillingarvinnsla Dynamics 365 Sales|Samstillir [!INCLUDE[crm_md](includes/crm_md.md)] afurðarverð við [!INCLUDE[d365fin](includes/d365fin_md.md)] söluverð.||AFURÐARVERÐ-SÖLUVERÐ|
 |UNITOFMEASURE-samstillingarvinnsla Dynamics 365 Sales|Samstillir [!INCLUDE[crm_md](includes/crm_md.md)] einingahópa við [!INCLUDE[d365fin](includes/d365fin_md.md)] mælieiningar.|Frá [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|MÆLIEINING|  
-|Talnagögn viðskiptavinar - samstillingarvinnsla Dynamics 365 Sales|Uppfærir [!INCLUDE[crm_md](includes/crm_md.md)] reikninga með nýjustu [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamannagögnunum. Í [!INCLUDE[crm_md](includes/crm_md.md)] birtast upplýsingarnar í **Tölfræði fyrir Business Central-reikning** skjámynd flýtiyfirlits yfir reikninga sem eru tengdir við [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamenn.<br /><br /> Einnig er hægt að uppfæra þessi gögn handvirkt úr hverri viðskiptamannafærslu. Frekari upplýsingar er að finna í [Hvernig á að: Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Athugið:** Þessi verkraðarfærsla á aðeins við ef [!INCLUDE[d365fin](includes/d365fin_md.md)] samþættingarlausnin er sett upp í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Um samþættingarlausn Business Central](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Á ekki við.|Á ekki við.|   
+|Talnagögn viðskiptavinar - samstillingarvinnsla Dynamics 365 Sales|Uppfærir [!INCLUDE[crm_md](includes/crm_md.md)] reikninga með nýjustu [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamannagögnunum. Í [!INCLUDE[crm_md](includes/crm_md.md)] birtast upplýsingarnar í **Tölfræði fyrir Business Central-reikning** skjámynd flýtiyfirlits yfir reikninga sem eru tengdir við [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamenn.<br /><br /> Einnig er hægt að uppfæra þessi gögn handvirkt úr hverri viðskiptamannafærslu. Frekari upplýsingar er að finna í [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Athugið:** Þessi verkraðarfærsla á aðeins við ef [!INCLUDE[d365fin](includes/d365fin_md.md)] samþættingarlausnin er sett upp í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Um samþættingarlausn Business Central](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Á ekki við.|Á ekki við.|   
 
 ## <a name="to-view-the-synchronization-job-log"></a>Til að skoða kladda samstillingarverks  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Samstillingarkladdi samþættingar** og veldu síðan tengda tengilinn.
@@ -77,6 +77,3 @@ Eftirfarandi tafla lýsir sjálfgefnu samstillingarverkunum.
 [Samstilla töfluvarpanir handvirkt](admin-manual-synchronization-of-table-mappings.md)  
 [Áætla samstillingu milli Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Um samþættingu Dynamics 365 Business Central við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-
-
-

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4917142d6805824163e72e0403103e6974d856da
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 75bff4d303ac13c2ba76cb21a76de1ac6a08dca1
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310733"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695048"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finndu síður og upplýsingar með Viðmótsleit  
 Þetta efnisatriði lýsir því hvernig Viðmótsleit getur hjálpað þér að komast hratt á staði eins og aðgerðir, síður eða skýrslur, finna upplýsingar um hvernig á að ljúka ákveðnu verki og uppgötva önnur forrit og ráðgjafarþjónustur fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -23,13 +23,13 @@ ms.locfileid: "2310733"
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Þegar þú þarft hjálp við að finna eitthvað skaltu nota ![Segðu mér hvað þú vilt gera](media/ui-search/search.png "Leita að síðu eða skýrslu") **Segðu mér hvað þú vilt að gera** táknið til að leita að því. Þú getur líka notað ALT + Q til að byrja að nota Viðmótsleit.
+Þegar þú þarft hjálp við að finna eitthvað skaltu nota ![Segðu mér hvað þú vilt gera](media/ui-search/search.png "Leit að síðu eða skýrslu")**Segðu mér hvað þú vilt að gera** táknið til að leita að því. Þú getur líka notað ALT + Q til að byrja að nota Viðmótsleit.
 
 Þegar þú byrjar að skrifa stafi birtir [!INCLUDE[d365fin](includes/d365fin_md.md)] strax samsvörun. Niðurstöður í listanum breytast þegar þú skrifar fleiri stafi. Ef þú tekur eftir því að þegar þú slærð inn orðið „afurð“ og niðurstöðurnar innihalda **Vörur**, er það vegna þess að Viðmótsleitin notar samheiti og önnur leitarorð til að auðvelda að finna aðgerðir, síður og skýrslur.
 
 Hægri dálkurinn tilgreinir almennan flokk af niðurstöðum. Til dæmis, hvort það mun opna listasíðu eða er stjórnsýsluverk.  
 
-Neðst í glugganum **Viðmótsleit** er aðgerð sem heitir **kanna**, sem opnar yfirlit yfir eiginleika sem sýna alla tiltækir eiginleikar fyrir hlutverk þitt eða fyrir öll hlutverk. Frekari upplýsingar er að finna í [Finna síður úr eiginleikayfirliti](ui-role-explorer.md).
+Neðst í glugganum **Viðmótsleit** er aðgerð sem heitir **kanna**, sem opnar yfirlit yfir eiginleika sem sýna alla tiltækir eiginleikar fyrir hlutverk þitt eða fyrir öll hlutverk. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md)
 
 > [!NOTE]  
 >   Ef þú vilt nota lyklaborðið skaltu nota dálkalykilinn og örvatakkana til að velja atriði í niðurstöðum. Ef þú ýtir á færslulykilinn á lyklaborðinu þínu án þess að velja niðurstöðu, opnar [!INCLUDE[d365fin](includes/d365fin_md.md)] niðurstöðuna sem er fyrst skráð.
@@ -58,11 +58,11 @@ Undir **Fylgiskjöl** muntu sjá greinar úr [!INCLUDE[d365fin](includes/d365fin
 Samfélag samstarfsaðila okkar er að þróa forrit á fullu sem bæta möguleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hlutinn **Fá frá Microsoft AppSource** birtir forrit fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem eru í boði á Microsoft AppSource og tengjast leitarorðinu sem þú leitaðir eftir.
 
 ## <a name="searching-for-data"></a>Leitar að gögnum
-**Segðu mér hvað þú vilt gera** eiginleikinn leitar ekki að gögnum, svo sem heiti viðskiptamanna, heimilisföng eða færslur. Í staðinn er hægt að leita að gögnum á listasíðum með því að velja ![Leitarlisti](media/ui-search/search-list.png "Tákn leitarlista") **Leita** táknið í vinstra horninu á listahausnum. Leitin á aðeins við um listann sem verið er að skoða. Nánari upplýsingar er að finna í [Flokkun, leit og síunarlistar](ui-enter-criteria-filters.md).
+**Segðu mér hvað þú vilt gera** eiginleikinn leitar ekki að gögnum, svo sem heiti viðskiptamanna, heimilisföng eða færslur. Í staðinn er hægt að leita að gögnum á listasíðum með því að velja ![Leitarlisti](media/ui-search/search-list.png "Tákn fyrir leitarlista") **Leit** táknið í vinstra horninu á listahausnum. Leitin á aðeins við um listann sem verið er að skoða. Nánari upplýsingar er að finna í [Flokkun, leit og síunarlistar](ui-enter-criteria-filters.md).
 
 ## <a name="questions"></a>Einhverjar spurningar?
 Við höfum sýnt Viðmótsleit frá ýmsum hagsmunaaðilum, bent á spurningarnar sem þeir höfðu sameiginlegt og breytt athugasemdum okkar í lista yfir algengar spurningar. Ef þú hefur áhuga, sjáðu [Algengar spurningar Viðmótsleitar](ui-search-faq.md).
 
 ## <a name="see-also"></a>Sjá einnig
-[Unnið með Business Central](ui-work-product.md)  
+[Vinna með Business Central](ui-work-product.md)  
 [Bæta Síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md)

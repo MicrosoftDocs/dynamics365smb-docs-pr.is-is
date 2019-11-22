@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ed3790a5e74528866ef226872be99db9dec7d4f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e9543d9fc361f2948907bc0e84d37dd870139cd8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312389"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553867"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Taka við og umbreyta rafræn skjölum
 Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Til að taka á móti reikningur frá lánardrottinn sem rafrænu PEPPOL-skjali er skjalið unnið á síðunni Fylgiskjal á innleið til að breyta því í innkaupareikning eða almenna færslubókarlínu í [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -43,7 +43,7 @@ Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu raf
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skjöl á innleið** og veldu síðan tengda tengilinn.  
 
-2.  Velja línuna fyrir skjal á innleið sem táknar nýjan rafrænan reikning á innleið og svo, á flipanum **Heim** í hópnum **Stjórna** velja **Breyta**.  
+2.  Veldu línuna fyrir skjal á innleið sem táknar nýjan rafrænan reikning á innleið og veldu svo **Breyta** aðgerðina.  
 
      Á síðunni **Fylgiskjalsspjald á innleið** er tengd XML skrá fest við og flestir reitir forútfylltir með upplýsingum frá rafrænum reikningi. Frekari upplýsingar eru í [Stofna færslur skjala á innleið](across-how-create-income-document-records.md).  
 
@@ -51,7 +51,7 @@ Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu raf
 
 4.  Til að varpa texta á lánardrottinsreikningi á tiltekinn debetreikning skal, á flipanum **Aðgerðir** í flokknum **Almennt** velja **Varpa texta á reikning**, og fylla svo út síðuna **Vinnublað textavörpun á reikning**.  
 
-5.  Á flipanum **Aðgerðir** í flokknum **Almennt** veljið **Stofna skjal**.  
+5.  Veldu aðgerðina **Stofna skjal**.  
 
      Innkaupareikningur verður stofnaður í [!INCLUDE[d365fin](includes/d365fin_md.md)] og byggist á upplýsingar í rafrænt skjal.  
 
