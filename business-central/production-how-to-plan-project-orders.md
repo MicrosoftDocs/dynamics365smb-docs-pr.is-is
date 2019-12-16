@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að áætla verkefnispantanir | Microsoft Docs
 description: Þessi áætlanagerð byrjar í sölupöntun og nýtir síðuna **Áætlun sölupöntunar**. Þegar framleiðslupöntun verkefnis er stofnuð er hægt að skipuleggja hana frekar með því að nota síðuna **Pantanaáætlun**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a9a98b654ee28fad43feeb827f7d97310df6d4a8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c090843a5adcca7fcdb5ba857ca06172a805fe90
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313325"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877760"
 ---
 # <a name="plan-project-orders"></a>Áætla verkefnispantanir
 Þessi áætlanagerð byrjar í sölupöntun og nýtir síðuna **Áætlun sölupöntunar**. Þegar framleiðslupöntun verkefnis er stofnuð er hægt að skipuleggja hana frekar með því að nota síðuna **Pantanaáætlun**.  
@@ -29,7 +27,7 @@ ms.locfileid: "2313325"
 4.  Á síðunni **Áætlun sölupöntunar** er smellt á aðgerðina **Stofna framl.pöntun**.  
 5.  Á síðunni **Stofna pöntun úr sölu** í reitnum **Tegund pöntunar** er **Verkefnispöntun** valin.  
 6.  Velja hnappinn **Já**.  
-7.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **framleiðslupantanir** og veldu síðan tengda tengilinn.
+7.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Framleiðslupantanir** og veldu síðan tengda tengilinn.
 8. Opna skal nýstofnaða framleiðslupöntun.  
 
     Athugið að reiturinn **Tegund uppruna** í framleiðslupöntuninni inniheldur **Söluhaus** og hún hefur margar línur, eina fyrir hverja vöru sölulínu sem þarf að framleiða.  

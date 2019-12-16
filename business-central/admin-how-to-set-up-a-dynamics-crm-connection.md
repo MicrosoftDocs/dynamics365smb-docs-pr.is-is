@@ -1,8 +1,6 @@
 ---
 title: Tengjast við Dynamics 365 Sales | Microsoft docs
 description: Um samþættingu við Dynamics 365 Sales.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9e68f62a7fd79188e2461983837586bd4cd2c64b
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554375"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879284"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Uppsetning á tengingu við Dynamics 365 Sales
 Til að samþætta við [!INCLUDE[crm_md](includes/crm_md.md)] þarf að setja upp tengingu á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -52,7 +50,7 @@ Fyrir allar auðkennisgerðir aðrar en Office 365 auðkenningu, er sett upp ten
 |**Vefslóð fyrir vefþjónustu Dynamics 365 Business Central OData**|Ef vefþjónusta fyrir ráðstöfun á vöru er virkjuð verður vefslóð fyrir vefþjónustu OData útvegað fyrir þig.|
 |**Dynamics 365 Business Central Notandanafn fyrir vefþjónustu OData**|Heit á [!INCLUDE[d365fin](includes/d365fin_md.md)]-notandareikningi sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar í [!INCLUDE[d365fin](includes/d365fin_md.md)] í gegnum vefþjónustu OData.|
 |**Dynamics 365 Business Central Aðgangslykill vefþjónustu OData**|Aðgangslykill fyrir notandareikning sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar frá [!INCLUDE[d365fin](includes/d365fin_md.md)] í gegnum vefþjónustu OData. Lyklinum er úthlutað til notanda sem er valinn í reitnum **Dynamics 365 Business Central Notandanafn fyrir vefþjónustu OData**. Til að fá lykilinn skal velja hnappinn **Fletta upp gildi** við hliðina á notandanafninu, velja notandann, velja **Stjórna** og síðan **Breyta**. Á notandaspjaldinu skal velja **Aðgerðir**, **Sannvottun** og síðan velja **Breyta vefþjónustulykli**.|
-|**Virkja samþættingu sölupöntunar**|Þegar fólk býr til sölupantanir í [!INCLUDE[crm_md](includes/crm_md.md)] og uppfyllir pantanir í [!INCLUDE[d365fin](includes/d365fin_md.md)] samþættar þetta ferlið í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna á [Virkja sölupöntunarferli samþættingar](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Þetta krefst þess að þú veitir aðgangsupplýsingar fyrir notandareikning stjórnanda í [!INCLUDE[crm_md](includes/crm_md.md)]. Nánari upplýsingar er að finna í [Meðhöndlun á gögnum sölupöntunar](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
+|**Virkja samþættingu sölupöntunar**|Þegar fólk býr til sölupantanir í [!INCLUDE[crm_md](includes/crm_md.md)] og uppfyllir pantanir í [!INCLUDE[d365fin](includes/d365fin_md.md)] samþættar þetta ferlið í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna á [Virkja sölupöntunarferli samþættingar](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Þetta krefst þess að þú veitir aðgangsupplýsingar fyrir notandareikning stjórnanda í [!INCLUDE[crm_md](includes/crm_md.md)]. Nánari upplýsingar er að finna í [Meðhöndlun á gögnum sölupöntunar](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
 |**Virkja Dynamics 365 for Sales-tengingu**|Virkja tenginguna við [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Dynamics 365 SDK útgáfa**|Þetta á aðeins við ef verið er að samþætta við útgáfu á staðnum af [!INCLUDE[crm_md](includes/crm_md.md)]. Þetta er hugbúnaðarþróunarpakki Dynamics 365 (einnig vísað í sem Xrm) sem er notaður tili að tengja [!INCLUDE[d365fin](includes/d365fin_md.md)] við [!INCLUDE[crm_md](includes/crm_md.md)]. Útgáfan verður að vera samhæf SDK-útgáfunni sem notuð er af [!INCLUDE[crm_md](includes/crm_md.md)] og sú sama eða nýrri og útgáfan sem er notuð af [!INCLUDE[crm_md](includes/crm_md.md)].|
 
@@ -62,7 +60,7 @@ Fyrir allar auðkennisgerðir aðrar en Office 365 auðkenningu, er sett upp ten
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Að stofna eða vinna með tengingu handvirkt
 Eftirfarandi ferli útskýrir hvernig á að fylla út reitina á síðunni **Microsoft Dynamics 365 Sales uppsetning tengingar** handvirkt. Þetta er einnig síðan þar sem stillingum fyrir samþættingu er stjórnað.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Microsoft Dynamics 365 Uppsetning tengingar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Microsoft Dynamics 365 uppsetning tengingar** og veldu síðan tengda tengilinn.
 2. Færðu inn eftirfarandi upplýsingar fyrri tenginguna frá [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)].
 
 |Svæði|Description|
@@ -89,7 +87,7 @@ Eftirfarandi ferli útskýrir hvernig á að fylla út reitina á síðunni **Mi
 
 |Svæði|Description|
 |-----|-----|
-|**Kveikt er á samþættingu sölupöntunar**|Gerðu notendum kleift að senda inn sölupantanir og virkjuð tilboð í [!INCLUDE[crm_md](includes/crm_md.md)] og síðan skoða og vinna úr þeim í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta samþættar ferlið í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna á [Virkja sölupöntunarferli samþættingar](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
+|**Kveikt er á samþættingu sölupöntunar**|Gerðu notendum kleift að senda inn sölupantanir og virkjuð tilboð í [!INCLUDE[crm_md](includes/crm_md.md)] og síðan skoða og vinna úr þeim í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta samþættar ferlið í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna á [Virkja sölupöntunarferli samþættingar](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
 |**Stofna sölupantanir sjálfvirkt**|Stofna sölupöntun í [!INCLUDE[d365fin](includes/d365fin_md.md)] þegar notandi stofnar og sendir inn eina í [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Vinna sölutilboð sjálfkrafa**|Vinna úr sölutilboði í [!INCLUDE[d365fin](includes/d365fin_md.md)] þegar notandi stofnar og virkjar eitt slíkt í [!INCLUDE[crm_md](includes/crm_md.md)].|
 
@@ -108,11 +106,11 @@ Eftirfarandi ferli útskýrir hvernig á að fylla út reitina á síðunni **Mi
 7. Ef [!INCLUDE[crm_md](includes/crm_md.md)] samstilling er ekki þegar sett upp verður spurt hvort nota eigi sjálfgefna samstillingaruppsetningu. Velja skal **Já** eða **Nei** á grunni þess hvort halda eigi færslum samræmdum í [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!Note]
-> Ef tengst er við Dynamics 365 Sales með síðunni **Microsoft Dynamics 365 Sales uppsetning tengingar** kann að reynast nauðsynlegt að úthluta öryggishlutverkum Samþættingarstjórnanda og Samþættingarnotanda til reikningsins sem er notaður í samþættingu. Frekari upplýsingar er að finna í [Úthluta öryggishlutverki á notanda](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+> Ef tengst er við Dynamics 365 Sales með síðunni **Microsoft Dynamics 365 Sales uppsetning tengingar** kann að reynast nauðsynlegt að úthluta öryggishlutverkum Samþættingarstjórnanda og Samþættingarnotanda til reikningsins sem er notaður í samþættingu. Frekari upplýsingar er að finna í [Úthluta öryggishlutverki á notanda](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
 
 
 > [!Note]
-> Ef tengst er við Dynamics 365 Sales með síðunni **Microsoft Dynamics 365 Sales uppsetning tengingar** kann að reynast nauðsynlegt að [úthluta  **Samþættingarstjórnanda** og **Samþættingarnotanda** öryggishlutverkum](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) til notandareikningsins sem er notaður í samþættingu.
+> Ef tengst er við Dynamics 365 Sales með síðunni **Microsoft Dynamics 365 Sales uppsetning tengingar** kann að reynast nauðsynlegt að [úthluta  **Samþættingarstjórnanda** og **Samþættingarnotanda** öryggishlutverkum](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) til notandareikningsins sem er notaður í samþættingu.
 
 
 ### <a name="to-disconnect-from-includecrm_mdincludescrm_mdmd"></a>Að aftengjast [!INCLUDE[crm_md](includes/crm_md.md)]  
@@ -131,11 +129,11 @@ Eftirfarandi ferli útskýrir hvernig á að fylla út reitina á síðunni **Mi
 
      This step adds the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity and **[!INCLUDE[d365fin](includes/d365fin_md.md) Account Statistics** entity in the system and additional items such as [!INCLUDE[d365fin](includes/d365fin_md.md)] integration security roles.  
 
-     For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [http://go.microsoft.com/fwlink/?LinkID=616519](http://go.microsoft.com/fwlink/?LinkID=616519).  
+     For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [https://go.microsoft.com/fwlink/?LinkID=616519](https://go.microsoft.com/fwlink/?LinkID=616519).  
 
 3.  Optional: Set up the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity to display in the **Settings** area of [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-     This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **[!INCLUDE[d365fin](includes/d365fin_md.md) Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [View or edit entity information](http://go.microsoft.com/fwlink/?LinkID=616521).  
+     This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **[!INCLUDE[d365fin](includes/d365fin_md.md) Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [View or edit entity information](https://go.microsoft.com/fwlink/?LinkID=616521).  
 
 4.  Assign the **[!INCLUDE[d365fin](includes/d365fin_md.md) Integration Administrator** role to the user account for the connection to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

@@ -1,8 +1,6 @@
 ---
 title: Tilgreina litaða vísa til að sérstilla sjónræn merki um virkni bendingar fyrir fyrirtækið eða einstaka notendur | Microsoft Docs
 description: Sem stjórnandi geturðu sett upp bendingar sem birtast í Mitt hlutverk notenda þannig að það innihaldi vísi sem breytir um lit eftir gagnagildi í bendingum.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 3c6cfb1c012a2991477a874f9611460c0bd8e4d8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6d9cecac1a7e1ac0c65542ee4e2928ac2a27412f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308165"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880953"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Setja upp litaðan vísi á bunka fyrir fyrirtækið eða einstaka notendur
 Sem stjórnandi geturðu sett upp bendingar sem birtast í Mitt hlutverk notenda þannig að það innihaldi vísi sem breytir um lit eftir gagnagildi í bendingum.  
@@ -29,7 +27,7 @@ Vísirinn birtist sem stika efst í ramma bendingarinnar. Veitir sjónrænt merk
 Til að setja upp vísi tilgreinirðu allt að tvö þröskuldsgildi sem tilgreina þrjú svið gagnagilda (lágt, miðlungs og hátt) sem hægt er að nota annan lit (eða stíl) við.  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Til að setja upp litaða vísa í bendingum  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bunkauppsetning** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning bunka** og veldu síðan tengda tengilinn.  
   
      Síðan **Uppsetning bunka** birtist. Síðan birtir vísa sem nú eru uppsettir í bendingum. Vísar sem eiga við alla notendur í fyrirtækinu eru með auðan **Notandanafn** reit. Vísar sem gilda um tiltekinn notanda innhalda notandanafnið í **Notandanafn** reitnum.  
   

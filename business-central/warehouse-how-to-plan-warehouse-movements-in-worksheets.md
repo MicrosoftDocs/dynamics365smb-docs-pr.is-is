@@ -1,8 +1,6 @@
 ---
 title: 'Hvernig á að áætla vöruhúsahreyfingar á vinnublöðum | Microsoft '
 description: Hreyfingar eru áætlaðar á vinnublaðinu með hólfaáfyllingu eða með handvirkri áætlun á línum sem á að stofna sem hreyfingaleiðbeiningar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 28c76ad47fe42e9e506869816dced0c4e1194d6d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 108f6e21784c7fa779aa9b10a438813b0a0d1a72
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313905"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881799"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Áætla vöruhúsahreyfingar á vinnublöðum
 Hreyfingar eru áætlaðar á vinnublaðinu með hólfaáfyllingu eða með handvirkri áætlun á línum sem á að stofna sem hreyfingaleiðbeiningar.  

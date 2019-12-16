@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fea52bfa75d953b96aecc0f3e354806324f77d83
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306317"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808578"
 ---
 # <a name="select-a-check-layout"></a>Velja útlit ávísunar
 Hægt er að hanna tékka til þess að uppfylla staðla sem staðaryfirvöld setja. Hægt er að prenta tékkamyndir á Enska, frönsku eða Spænsku.
@@ -23,7 +23,7 @@ Hægt er að hanna tékka til þess að uppfylla staðla sem staðaryfirvöld se
 Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadískum tékkamyndsniðum annað á sniðinu tékki-svunta-tékki  eða á sniðinu svunta-svunta-tékki.
 
 ## <a name="to-select-a-check-layout"></a>Útlit ávísunar valið
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bankareikningar skýrsluvals** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningur skýrsluvals** og veldu síðan tengda tengilinn.
 2. Á síðunni **Skýrsluval - Bankareikningur** í reitnum **Notkun** skal velja **Reikningur**.
 3. Eitt af eftirfarandi skýrslukennum er valið:
 
@@ -36,10 +36,10 @@ Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadísk
 
 Þegar settar hafa verið upp útlit tékka er hægt að prenta tékka af síðunni **greiðslubók** . Nánari upplýsingar eru í [Vinna með tékka](payables-how-work-checks.md).
 
-Til að breyta einum af þessum sjálfgefnu útlitum ávísunar skal annaðhvort nota Word- eða RDLC-samþættingu. Frekari upplýsingar er að finna á [Búa til og breyta sérsniðnu skýrslu- eða skjalaútliti](ui-how-create-custom-report-layout.md).
+Til að breyta einum af þessum sjálfgefnu útlitum ávísunar skal annaðhvort nota Word- eða RDLC-samþættingu. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Sjá einnig
-[Búa til og breyta sérsniðnu skýrslu- eða skjalaútliti](ui-how-create-custom-report-layout.md)  
+[Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
 [Stjórnun bankareikninga](bank-manage-bank-accounts.md)   
 [Að klára Ferli í lok tímabila](year-how-complete-period-end-processes.md)  

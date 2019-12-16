@@ -1,8 +1,6 @@
 ---
 title: Hvernig skal Vinna með ábyrgðarstöðvar | Microsoft Docs
 description: Ábyrgðarstöðvar bjóða upp á umsjón með stjórnunarmiðstöðvum. Ábyrgðamiðstöð getur verið kostnaðarmiðstöð, hagnaðarmiðstöð, fjárfestingamiðstöð eða önnur fyrirtækisskilgreind stjórnunarmiðstöð.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 39b44713eb473e0a5220906a7caa5e7acdce24bc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ac4415423a7e40332d56193ea3a183bae329a48f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309509"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878222"
 ---
 # <a name="work-with-responsibility-centers"></a>Vinna með ábyrgðarstöðvar
 Ábyrgðarstöðvar bjóða upp á eiginleika sem felst í umsjón með stjórnunarmiðstöðvum. Ábyrgðarstöð getur verið kostnaðarstöð, framlegðarstöð, fjárfestingarstöð eða önnur stöð skilgreind út frá stjórnsýslu fyrirtækisins. Dæmi um ábyrgðarmiðstöðvar eru söluskrifstofur, innkaupadeild fyrir nokkrar birgðageymslur og verksmiðjuskipulagsdeild. Með því að nota þessa aðgerð, geta fyrirtæki t.d. sett upp notendasértæk birtingaform sölu- og innkaupaskjala sem varða eingöngu tiltekinnar ábyrgðastöðvar.  
@@ -29,12 +27,12 @@ Margar birgðageymslur gera fyrirtækjum kleift að stjórna birgðum sínum á 
 Ábyrgðastöðvar útvíkka margar birgðageymslur með því að gera notendum kleift að stjórna stjórnunarmiðstöðvum. Ábyrgðamiðstöð getur verið kostnaðarmiðstöð, hagnaðarmiðstöð, fjárfestingamiðstöð eða önnur fyrirtækisskilgreind stjórnunarmiðstöð. Dæmi um ábyrgðarmiðstöðvar eru söluskrifstofur, innkaupadeild fyrir nokkrar birgðageymslur og verksmiðjuskipulagsdeild. Með því að nota þessa aðgerð, geta fyrirtæki t.d. sett upp notendasértæk birtingaform sölu- og innkaupaskjala sem varða eingöngu tiltekinnar ábyrgðastöðvar.
 
 ## <a name="to-set-up-a-responsibility-center"></a>Uppsetning ábyrgðarstöðva  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **ábyrgðarstöðvar** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Ábyrgðarstöðvar** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Ef ábyrgðarstöðvar eru notaðar til að sjá um fyrirtækið getur verið gott að hafa sjálfgefna ábyrgðarstöð fyrir fyrirtækið.
-4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Upplýsingar um fyrirtæki** og veldu síðan tengda tengilinn.
+4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofngögn** og veldu síðan tengda tengilinn.
 5. Í **Ábyrgðastöð** reitnum er kóði ábyrgðarstöðvar færður inn.
 
 Kóðinn verður notuð í öllum innkaupa- sölu- og þjónustuskjölum ef notanda, viðskiptamanni eða lánardrottni hefur ekki sjálfgefna ábyrgðarstöð. Í öllum innkaupa- sölu- og þjónustuskjölum getur fært inn aðra ábyrgðastöð en þá sem er sjálfgefin.

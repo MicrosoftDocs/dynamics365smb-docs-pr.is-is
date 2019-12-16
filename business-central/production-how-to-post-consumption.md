@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að fjöldabóka notkun | Microsoft Docs
 description: Ef flæðiaðferðin er stillt á **Handvirk** þarf að bóka íhlutina handvirkt með notkunarbók.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d84d7d3961a466025b6e38665f88ee58baf153b3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9200256cec074e547bc594950b1eb2d975a8ad9b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313301"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877884"
 ---
 # <a name="batch-post-production-consumption"></a>Fjöldabóka framleiðslunotkun
 Ef flæðiaðferðin er stillt á **Handvirk** þarf að bóka íhlutina handvirkt með notkunarbók.
@@ -25,7 +23,7 @@ Ef flæðiaðferðin er stillt á **Handvirk** þarf að bóka íhlutina handvir
 Þú getur einnig stillt kerfið þannig að það bóki sjálfvirkt (*flæða*) íhluti þegar byrjar eða endar framleiðslupantanir. Nánari upplýsingar eru í [Leyfa flæði íhluta samkvæmt frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md).
 
 ## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Bóka notkun fyrir eina eða fleiri framleiðslupantanalínur  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **notkunarbók** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notkunarbók** og veldu síðan tengda tengilinn.  
 2.  Reitirnir eru fylltir út með framleiðslupöntunargögnunum og notkunargögnunum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Ef vörugeymslan þar sem íhlutirnir eru geymdir er sett upp þannig að hún noti hólf en krefjist ekki tínslu skal tengja kóta hólfs bókarlínunni inn í reitinn til að sýna hvaðan eigi að taka vörurnar í vöruhúsinu. Frekari upplýsingar eru í [Taka til fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md).  

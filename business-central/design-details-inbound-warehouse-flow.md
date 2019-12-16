@@ -1,8 +1,6 @@
 ---
 title: Hönnunarupplýsingar - vöruhúsaflæði á innleið | Microsoft Docs
 description: Flæðiá innleið í vöruhús byrjar þegar vörurnar koma í vöruhús á staðsetningu fyrirtækis, annað hvort frá utanaðkomandi aðila eða frá annarri staðsetningu fyrirtækis. Starfsmaður skráir vörurnar, yfirleitt með því að skanna strikamerki. Úr móttökusvæðinu eru vöruhúsaaðgerðir framkvæmdar á mismunandi flækjustigi til að koma vörunum inn á geymslusvæðið.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1b8a30732b0bf562e54d74c6477c95c36a5ab524
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c7dd9f8ed55465a45ef843ebf2a996b79b454f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303485"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880435"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Hönnunarupplýsingar: vöruhúsaflæði inn
 Flæðiá innleið í vöruhús byrjar þegar vörurnar koma í vöruhús á staðsetningu fyrirtækis, annað hvort frá utanaðkomandi aðila eða frá annarri staðsetningu fyrirtækis. Starfsmaður skráir vörurnar, yfirleitt með því að skanna strikamerki. Úr móttökusvæðinu eru vöruhúsaaðgerðir framkvæmdar á mismunandi flækjustigi til að koma vörunum inn á geymslusvæðið.  
@@ -53,7 +51,7 @@ Val á aðferð fer eftir samþykku verklagi fyrirtækisins og flækjustigi. Í 
 ## <a name="basic-warehouse-configurations"></a>Grunngerðir vöruhúss  
 Eftirfarandi skýringarmynd sýnir innflæði í vöruhús eftir skjalagerð grunngerðar vöruhúss. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
-![Innflæði í grunngerð vöruhúss](media/design_details_warehouse_management_inbound_basic_flow.png "Innflæði í grunngerð vöruhúss")  
+![Flæði á innleið í grunngerðir vöruhúss](media/design_details_warehouse_management_inbound_basic_flow.png "Flæði á innleið í grunngerðir vöruhúss")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Upprunaskjal losunar / Stofna Birgðafrágang  
 Þegar vörur berast í vöruhús, gefur notandi sem er ábyrgur fyrir móttöku út upprunaskjaliið, svo sem innkaupapöntun eða flutningspöntun á innleið, til að láta starfsmenn í vöruhúsi vita að mótteknar vörur megi ganga frá í birgðum. Að öðrum kosti stofnar notandinn birgðafrágangsskjöl fyrir stakar pantanalínur, með ýtingu, samkvæmta tilgreindum hólfum og magni sem á að meðhöndla.  
@@ -72,7 +70,7 @@ Jákvæðar birgðahöfuðbókarfærslur eru stofnaðar, vöruhúsafærslur eru 
 ## <a name="advanced-warehouse-configurations"></a>Grunngerðir í ítarlegu vöruhúsi  
 Eftirfarandi skýringarmynd sýnir innflæði í vöruhús eftir skjalagerð í grunngerð ítarlegs vöruhúss. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
-![Innflæði í grunngerð ítarlegs vöruhúss](media/design_details_warehouse_management_inbound_advanced_flow.png "Innflæði í grunngerð ítarlegs vöruhúss")  
+![Flæði á innleið í grunngerð ítarlegs vöruhúss](media/design_details_warehouse_management_inbound_advanced_flow.png "Flæði á innleið í grunngerð ítarlegs vöruhúss")  
 
 ### <a name="1-release-source-document"></a>1: Upprunaskjal losunar  
 Þegar vörur berast í vöruhús, gefur notandi sem er ábyrgur fyrir móttöku út upprunaskjalið, svo sem innkaupapöntun eða flutningspöntun á innleið, til að láta starfsmenn í vöruhúsi vita að mótteknar vörur megi ganga frá í birgðum.  

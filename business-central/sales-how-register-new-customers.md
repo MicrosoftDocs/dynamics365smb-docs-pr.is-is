@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d8ef273db1211228e71df30af77bc572a23f75d
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 1fcf6032b7084f0893d7a9ffa24c68b9ecb55c5f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577136"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877520"
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
 Viðskiptamenn eru uppruni tekna. Þú verður að skrá þig hver viðskiptavinur sem þú selur sem viðskiptavinakort. Viðskiptamannaspjald inniheldur upplýsingarnar sem þarf til að selja vörur til viðskiptamannsins. Frekari upplýsingar eru í [Reikningsfæra sölur](sales-how-invoice-sales.md) og [Skrá nýja hluti](inventory-how-register-new-items.md).  
@@ -27,7 +27,7 @@ Viðskiptamenn eru uppruni tekna. Þú verður að skrá þig hver viðskiptavin
 > [!NOTE]  
 >   Ef viðskiptamannasniðmát eru til fyrir mismunandi tegundir viðskipamanna, þá birtist sjálfkrafa síða þegar búið er til nýtt viðskiptamannaspjald og hægt er að velja viðeigandi sniðmát. Ef aðeins eitt viðskiptamanna sniðmát er fyrir hendi, nota ný viðskiptamannaspjöld alltaf það sniðmát.
 <br><br>
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3PZsM]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="to-create-a-new-customer-card"></a>Að stofna nýtt viðskiptamannaspjald
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  

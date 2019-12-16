@@ -1,8 +1,6 @@
 ---
 title: 'Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð | Microsoft Docs'
 description: Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginleika pöntunarrakningar og aðgerðaboða.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1408c3e97ffd54f516bf18823442f3f986131038
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306845"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878438"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð
 Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginleika pöntunarrakningar og aðgerðaboða.  
@@ -31,7 +29,7 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 
  Frátekningarkerfið myndar einnig skipulagsgrunn fyrir vörurakningarkerfið. Nánari upplýsingar eru í [Upplýsingar um hönnun: Vörurakning](design-details-item-tracking.md).  
 
- Nákvæmar upplýsingar um hvernig frátekningarkerfið virkar eru á hvítblaðinu í [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348).  
+ Nákvæmar upplýsingar um hvernig frátekningarkerfið virkar eru á hvítblaðinu í [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
 
 ## <a name="reservation"></a>Frátekning  
  Frátekning er fastur tengill sem tengir sérstaka eftirspurn og sérstakt framboð. Þessi tengill hefur beint áhrif á síðari birgðafærslu og tryggir rétta notkun vörufærsla vegna kostnaðar. Frátekning hnekkir sjálfgefinni aðferð kostnaðarútreiknings fyrir vöru. Nánari upplýsingar eru í „Upplýsingar um hönnun: Kostnaðarútreikningar“.  
@@ -184,7 +182,7 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 
  Reiturinn **lotunr.** er nú útfylltur í pöntunarrakningarfærslunni fyrir töflu 5407 vegna þess að lotunúmerunum var úthlutað á íhlutalínur framleiðslupöntunar.  
 
- Nákvæmar upplýsingar um hvernig frátekningarkerfið virkar í töflunni **Frátekningarfærsla** eru á hvítblaðinu „Taflan Frátekningarfærsla“ í [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348) (innskráning er nauðsynleg).
+ Nákvæmar upplýsingar um hvernig frátekningarkerfið virkar í töflunni **Frátekningarfærsla** eru á hvítblaðinu „Taflan Frátekningarfærsla“ í [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (innskráning er nauðsynleg).
 
 ## <a name="action-messaging"></a>Aðgerðarboð  
  Þegar pöntunarrakningarkerfi greinir ójafnvægi í pöntunarnetinu stofnar það sjálfkrafa aðgerðaboð til að tilkynna notanda um það. Aðgerðaboð eru kerfismynduð köll fyrir notanda aðgerðar sem tilgreina upplýsingar um ójafnvægi og tillögur um hvernig á að endurheimta jafnvægi í pöntunarneti. Þær birtast sem áætlunarlínur á síðunni **Áætlunarvinnublað** þegar **Sækja aðgerðaboð** er valið. Að auki eru aðgerðaskilaboð birt á áætlanagerðarlínur sem eru búnir til með áætlunarkeyrslu til að endurspegla tillögur skipulagningu kerfisins snýst um hvernig á að endurheimta jafnvægi við pantanakerfið. Í báðum tilvikum eru tillögur keyrðar á pöntunarnet, þegar þú velur **Framkvæma aðgerðaboð**  

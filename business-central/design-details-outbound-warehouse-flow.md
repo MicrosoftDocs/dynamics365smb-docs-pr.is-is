@@ -1,8 +1,6 @@
 ---
 title: Hönnunarupplýsingar - Vöruhúsaflæði á útleið | Microsoft Docs
 description: Flæði á útleið í vöruhúsinu hefst með beiðni úr losuðum upprunaskjölum um að flytja vöruna af staðsetningu vörushússins, annað hvort til að flytja hana til þriðja aðila eða á aðra staðsetningu fyrirtækisins. Úr geymslusvæðinu eru vöruhúsaaðgerðir framkvæmdar á mismunandi flækjustigi til að koma vörunum af afhendingarsvæðinu.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c5a3ce2049b1686da04842f7c73abb2255369ffa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 973c248473f2f2eebc10e095f619b51e48de7886
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306989"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880113"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Hönnunarupplýsingar: vöruhúsaflæði á innleið
 Flæði á útleið í vöruhúsinu hefst með beiðni úr losuðum upprunaskjölum um að flytja vöruna af staðsetningu vörushússins, annað hvort til að flytja hana til þriðja aðila eða á aðra staðsetningu fyrirtækisins. Úr geymslusvæðinu eru vöruhúsaaðgerðir framkvæmdar á mismunandi flækjustigi til að koma vörunum af afhendingarsvæðinu.  
@@ -54,7 +52,7 @@ Að auki eru eftirfarandi innri uppspretta gögn sem virka eins uppruni á útle
 ## <a name="basic-warehouse-configurations"></a>Grunngerðir vöruhúss  
  Eftirfarandi skýringarmynd sýnir útflæði í vöruhús eftir skjalagerð grunngerðar vöruhúss. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
- ![Útflæði í grunngerð vöruhúss](media/design_details_warehouse_management_outbound_basic_flow.png "Útflæði í grunngerð vöruhúss")  
+ ![Flæði á útleið í grunngerðir vöruhúss](media/design_details_warehouse_management_outbound_basic_flow.png "Flæði á útleið í grunngerðir vöruhúss")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Upprunaskjal losunar / Stofna birgðatínsla eða Hreyfing  
  Þegar notandi sem er ábyrgur fyrir Þegar notandi sem er ábyrgur fyrir upprunaskjölum, svo sem sölupantanavinnsla eða framleiðslustjóri, er tilbúinn fyrir vöruhúsastarfsemi á útleið, sleppir hann eða hún upprunaskjalinu til að  láta starfsmenn í vöruhúsi vita að hægt er að sækja seldar vörur eða íhluti og setja í tilgreind hólf. Að öðrum kosti, notandinn býr til birgðatínslu eða hreyfingarskjöl fyrir stakar pöntunarlínur með færslu, byggt á tilgreindum hólfum og magni til meðhöndlunar.  
@@ -76,7 +74,7 @@ Að auki eru eftirfarandi innri uppspretta gögn sem virka eins uppruni á útle
 ## <a name="advanced-warehouse-configurations"></a>Grunngerðir í ítarlegu vöruhúsi  
  Eftirfarandi skýringarmynd sýnir útflæði í vöruhús eftir skjalagerð í grunngerð ítarlegu vöruhúsi. Númerin í skýringarmyndinni samsvara skrefunum í hlutunum sem koma á eftir skýringarmyndinni.  
 
- ![Útflæði í grunngerð ítarlegs vöruhúss](media/design_details_warehouse_management_outbound_advanced_flow.png "Útflæði í grunngerð ítarlegs vöruhúss")  
+ ![Flæði á útleið í grunngerð ítarleg vöruhúsum](media/design_details_warehouse_management_outbound_advanced_flow.png "Flæði á útleið í grunngerð ítarleg vöruhúsum")  
 
 ### <a name="1-release-source-document"></a>1: Upprunaskjal losunar  
  Þegar notandi sem er ábyrgur fyrir upprunaskjölum, svo sem sölupantanavinnsla eða framleiðslustjóri, er tilbúinn fyrir vöruhúsastarfsemi á útleið, sleppir hann eða hún upprunaskjalinu til að  láta starfsmenn í vöruhúsi vita að hægt er að sækja seldar vörur eða íhluti og setja í tilgreind hólf.  

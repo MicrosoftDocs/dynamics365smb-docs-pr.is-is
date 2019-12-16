@@ -1,8 +1,6 @@
 ---
 title: Hönnunarupplýsingar - vöruhús yfirlit | Microsoft Docs
 description: Til að styðja við raunmeðhöndlun vara á svæði og hólfastigi, verða allar upplýsingar að rekja fyrir hverja færslu eða flutning í vöruhús. Þessu er stjórnað í töflunni **Vöruhúsafærsla**. Hver færsla er vistuð í birgðageymsluskrá.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1edf9c9f5b86a618e32820a261f1f9a4597b756a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 20e2d2529ab84184bb55366434b41126703c5107
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306653"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879945"
 ---
 # <a name="design-details-warehouse-overview"></a>Hönnunarupplýsingar yfirlit vöruhúss
 Til að styðja við raunmeðhöndlun vara á svæði og hólfastigi, verða allar upplýsingar að rekja fyrir hverja færslu eða flutning í vöruhús. Þessu er stjórnað í töflunni **Vöruhúsafærsla**. Hver færsla er vistuð í birgðageymsluskrá.  
@@ -30,7 +28,7 @@ Taflan **Innihald hólfs** er notuð til að meðhöndla allar mismunandi víddi
 
 Eftirfarandi mynd lýsir dæmigerðu vöruhúsaflæði.  
 
-![Yfirlit yfir Vöruhúsaferli](media/design_details_warehouse_management_overview.png "Yfirlit yfir Vöruhúsaferli")  
+![Yfirlit fyrir vöruhúsaferli](media/design_details_warehouse_management_overview.png "Yfirlit fyrir vöruhúsaferli")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Grunn- eða ítarleg vörugeymsla  
 Vöruhúsavirkni í [!INCLUDE[d365fin](includes/d365fin_md.md)] má framkvæma í mismunandi flækjustigum, allt eftir ferlum fyrirtækisins og pöntunarmagni. Aðalmunurinn er sá aðgerðir eru framkvæmdar pöntun fyrir pöntun í grunnvörugeymslu þegar þeim er steypt saman fyrir margfaldar pantanir í ítarlegu vöruhúsi.  

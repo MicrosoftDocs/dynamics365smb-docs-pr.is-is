@@ -1,8 +1,6 @@
 ---
 title: Hönnunarupplýsinga - Frávik | Microsoft Docs
 description: Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostnað, eins og lýst er í eftirfarandi formúlu.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f5b4d56c5afb728c915c95f763c75f4c5fe6d008
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55317d4ae474c17df08449ebadd97aa11856a2c8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306701"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882783"
 ---
 # <a name="design-details-variance"></a>Hönnunarupplýsingar Frávik
 Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostnað, eins og lýst er í eftirfarandi formúlu.  
@@ -40,7 +38,7 @@ Frávik er skilgreint sem mismunurinn á raunverulegum kostnaði og staðalkostn
 
  Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
 
- ![Innkaupafráviksútreikningur](media/design_details_inventory_costing_11_purchase_variance.png "Innkaupafráviksútreikningur")  
+ ![Útreikningur innkaupafrávika](media/design_details_inventory_costing_11_purchase_variance.png "Útreikningur innkaupafrávika")  
 
 ## <a name="determining-the-standard-cost"></a>Ákvarða staðalkostnað  
  Staðlaður kostnaður er notaður við útreikning fráviks og upphæð sem á að eignfæra. Þar sem staðalkostnaður er hægt að breyta með tímanum vegna útreikninga með handvirkri uppfærslu, þú þarft að hafa tímapunkt þegar staðalkostnaður er fastur fyrir fráviksútreikning. Þetta mark er þegar birgðaaukning er reikningsfærð. Fyrir framleiddar eða samsettar vörur er punkturinn þegra staðalkostnaður er ákvarðaður þegar kostnaður er jafnaður.  

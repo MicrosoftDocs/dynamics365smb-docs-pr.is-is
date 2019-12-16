@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að setja upp Dagatöl verkstæðis | Microsoft Docs
 description: Dagatal vinnustöðvar tilgreinir vinnudaga og -stundir, vaktir, frídaga og fjarvistir sem hafa áhrif á mögulega heildarafkastagetu, mælda í tíma, með tilliti til tilgreindra gilda skilvirkni og getu. Stofnun og virkjun dagatals vinnustöðvar þarfnast nokkurra undirbúningsskrefa.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1663f9092c21e1955f3e2531efc9935ba1c68982
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cc40361150d8368c46f9045451c0d542eff13779
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314073"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877952"
 ---
 # <a name="set-up-shop-calendars"></a>Setja upp dagatal verkstæðis
 Dagatal vinnustöðva eða véla tilgreinir vinnudaga og -stundir, vaktir, frídaga og fjarvistir sem hafa áhrif á mögulega heildarafkastagetu, mælda í tíma, með tilliti til tilgreindra gilda skilvirkni og getu.
@@ -35,7 +33,7 @@ Eftirfarandi lýsir því hvernig á að setja upp dagatöl vinnustöðva. Skref
 Jafnvel þótt vinnustöðvarnar noti ekki vaktaskipulag þarf að færa inn a.m.k. einn vaktakóta.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Dagatal verkstæðis sett upp  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Dagatal verkstæðis** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Dagatal verkstæðis** eða Lánardrottinn og veldu síðan tengda tengilinn.  
 2.  Númer er fært inn í reitinn **Kóti** á auðri línu til að auðkenna dagatal verkstæðis.  
 3.  Dagatali verkstæðisins er lýst í reitnum **Lýsing**.  
 4.  Velja aðgerðina **vinnudagar**.

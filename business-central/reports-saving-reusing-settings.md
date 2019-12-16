@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3ace06e81029ea38bf393502743716b66b10fe74
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a9bb72a85fb49b4316af2160e5823fbf77a18cbf
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316501"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881402"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Stjórna vistuðum stillingum fyrir skýrslur og runuvinnslur
 Þegar skýrslur eru keyrðar er notendum yfirleitt sýnd síða sem gerir þeim kleift að velja valkosti og síur fyrir breytingar á gögnum sem eru í mynduðu skýrslunni. Þessi síða er kölluð beiðnisíða. Skýrsla getur innihaldið eitt eða fleiri *vistaðar stillingar* sem notendur geta notað á skýrsluna úr beiðnisíðunni. *Vistuð stillingar* eru skoðaður fyrirfram skilgreind valkosti og afmarkanir. Notkun vistaðra stillinga er fljótleg og áreiðanleg leið til að búa til skýrslur sem innihalda rétt gögn. Frekari upplýsingar eru í [Nota vistaðar stillingar](ui-work-report.md#SavedSettings).
@@ -52,7 +52,7 @@ Síðan birtir allar fyrirliggjandi vistaðar stillingafærslur fyrir alla noten
 > Íhugaðu nafnið sem þú gefur færslu fyrir vistaðar stillingar. Ef þú býrð til færslu fyrir vistaðar stillingar fyrir alla notendur og þú gefur henni sama heiti og fyrirliggjandi færslu fyrir vistaðar stillingar sem er úthlutað á tiltekinn notanda, mun sá notandi ekki geta notað færsluna fyrir vistaðar stillingar sem er úthlutað á alla.  Undir **Vistaðar stillingar** á beiðnisíðu skýrslunnar mun notandinn sjá tvær vistaðar stillingar með sama heiti. Notandaskilgreinda færslan fyrir vistaðar stillingar verður notuð, sama hvor valmöguleikinn er valinn.
 
 > [!NOTE]
-> Aðgerð vistaðra stillinga á skýrslu er aðeins í boði þegar [eiginleikarnir SaveValues](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) á beiðnisíðunni skýrslunnar er stilltur á **Já**. **SaveValues** eiginleiki er sett í þróunarumhverfi.  
+> Aðgerð vistaðra stillinga á skýrslu er aðeins í boði þegar [eiginleikarnir SaveValues](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) á beiðnisíðunni skýrslunnar er stilltur á **Já**. **SaveValues** eiginleiki er sett í þróunarumhverfi.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  

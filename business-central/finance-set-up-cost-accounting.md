@@ -1,8 +1,6 @@
 ---
 title: Uppsetning kostnaðarbókhald | Microsoft Docs
 description: Áður en byrjað er að vinna með kostnaðarbókhald þarf að framkvæma uppsetningarverkefni.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a521280c3a3f3f38e06a37984401652d9fa9e50c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f65755d13ccfb445006fec9dc8c1697777db66c4
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301731"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882499"
 ---
 # <a name="setting-up-cost-accounting"></a>Uppsetning kostnaðarbókhalds
 Áður en byrjað er að vinna með kostnaðarbókhald þarf að framkvæma uppsetningarverkefni.
@@ -38,7 +36,7 @@ Myndrit kostnaðartegunda eru svipuð bókhaldslyklum í fjárhag. Hægt er að 
 -   Stofna nýja kostnaðartegund eða bæta nýjum kostnaðartegundum við fyrirliggjandi kostnaðartegund. Stofna þarf hverja nýja kostnaðartegund sérstaklega.  
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Til að flytja bókhaldslykil fjárhags yfir í kostnaðargerðir.  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit yfir kostnaðargerðir** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit kostnaðargerða** og veldu síðan tengda tengilinn.  
 2.  Velja skal aðgerðina **Sækja kostnaðargerðir úr bókhaldslykli**. Í svarglugganum er valið hnappinn **Já** til að staðfesta flutninginn. Aðgerðin notar bókhaldslykla til að stofna myndrit af kostnaðartegundum.  
 
     Myndrit kostnaðargerða inniheldur nú alla rekstrarreikninga í fjárhag og inniheldur fyrirsagnir og samtölur. Hægt er að breyta myndriti yfir kostnaðartegundir, eftir þörfum. Til dæmis er hægt að eyða tvíteknum fyrirliggjandi kostnaðartegundum.  
@@ -100,7 +98,7 @@ Kostnaðarstaðir eru deildir og framlegðarstöðvar sem bera ábyrgð á kostn
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Til að flytja víddargildi í fjárhag í myndrit yfir í kostnaðarstaði  
 1.  Setja upp vídd sem á að vera kostnaðarstaðarvíddin á síðunni **Uppfæra Kostnaðarbókhaldsvíddir**. Aðeins gildi úr þessari vídd er flutt.  
-2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit yfir kostnaðarstaði** og veldu síðan tengda tengilinn.  
+2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit fyrir kostnaðarstaði** og veldu síðan tengda tengilinn.  
 3.  Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Sækja úr víddinni kostnaðarstaðir** til að flytja víddargildi í myndriti kostnaðarstaðanna. Aðgerðin flytur víddargildin sem skilgreind voru í skrefi 1.  
 
     > [!NOTE]  
@@ -133,7 +131,7 @@ Kostnaðurhlutir eru verkefni, afurðair eða þjónustur fyrirtækis. Myndrit k
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Til að flytja víddargildi úr fjárhag í kostnaðarhluti  
 1.  Stilla vídd sem á að vera kostnaðarliðarvíddin á síðunni **Uppfæra CA víddir**. Aðeins gildi úr þessari vídd er flutt.  
-2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit yfir kostnaðarhluti** og veldu síðan tengda tengilinn.  
+2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit kostnaðarhluta** og veldu síðan tengda tengilinn.  
 3.  Veljið aðgerðina **Sækja kostnaðarhluti úr vídd** til að flytja víddargildi í myndriti kostnaðarhlutanna. Aðgerðin flytur víddargildin sem skilgreind voru í skrefi 1.  
 
     > [!NOTE]  

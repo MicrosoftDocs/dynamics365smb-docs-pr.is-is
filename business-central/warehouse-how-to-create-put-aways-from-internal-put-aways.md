@@ -1,8 +1,6 @@
 ---
 title: Hvernig skal búa til frágangur úr Innra frágangur | Microsoft Docs
 description: Þegar gengið hefur verið frá vörum og áður en þær eru tíndar til að fylla upp í framleiðslupöntun eða afhendingu eru þær geymdar í vöruhúsinu sem hluti af tiltækum birgðum.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 791b23bd158c8dffcf75c511cd2607ef59dae5a6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ad4d0a53f3a7c70ebfeecc9c513598a6ed8448c2
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310397"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881775"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Tína og ganga frá án upprunaskjals
 Þegar gengið hefur verið frá vörum og áður en þær eru tíndar til að fylla upp í framleiðslupöntun eða afhendingu eru þær geymdar í vöruhúsinu sem hluti af tiltækum birgðum.  
@@ -36,13 +34,13 @@ Við aðrar aðstæður, gæti framleiðslueiningin óvænt þurft að fá nokkr
 >  þegar birgðageymslan notar beinan frágang og tínslu og því hólfategundir er ekki hægt að færa vörur handvirkt inn og út úr hólfi af tegundinni RECEIVE því vörur sem eru í hólfi af þeirri gerð verður að skrá sem frágengnar áður en þær verða hluti af tiltækum birgðum.  
 
 ## <a name="to-create-an-internal-pick"></a>Að búa til Innahússtínslur  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innanhústínsla vöruhúss** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innanhústínsla vöruhúss** og veldu síðan tengda tengilinn.  
 2.  Fylla þarf út reitinn **Nr.**. reitinn og **Kóði til-hólfs** reitinn á flýtiflipanum **Almennt**. Reiturinn **Kóti til-hólfs** tilgreinir hólfið sem vörurnar eru sóttar í. Við framleiðslu væri þetta hólf innhólf framleiðslu eða opið búðarhólf. Annars skal velja Kóta til-hólfs með hólfi af tegund sem ekki er notuð við tínslu, oftast nær undirbúnings- eða afhendingarhólf eða hólf fyrir sérstök tilefni.  
 3.  Vara er valin í reitnum **Vörunr.** og magnið sem á að tína fært inn.  
 4. Veldu aðgerðina **Stofna tínslu**. Vöruhúsatínsluleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss.  
 
 ## <a name="to-create-an-internal-put-away"></a>Stofna innanhússfrágang  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innanhússfrágangur vöruhúss** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innanhússfrágangur vöruhúss** og veldu síðan tengda tengilinn.  
 2.  Fylla þarf út reitinn **Nr.**. og **Frá hólfakóða** reitina á flýtiflipanum **Almennt**. Reiturinn **Kóti frá-hólfs** tilgreinir hólfið þar sem vörurnar sem skila á í vöruhúsið, til dæmis úr framleiðslu, eru geymdar.  
 3.  Vörunúmerin og magnið er fært inn í línurnar.  
 4.  Veldu aðgerðina **Stofna frágang**. Leiðbeiningar um vöruhúsafrágang eru nú tilbúnar fyrir starfsmann vöruhúss.  

@@ -1,8 +1,6 @@
 ---
 title: Vöruhúsaaðgerðir | Microsoft Docs
 description: Eftir að tekið hefur verið á móti vörum og áður en vörur eru afhentar, fer röð vöruhúsaaðgerða fram til þess að tryggja að flæði gegnum vöruhúsið sé skilvirkt og til að skipuleggja og viðhalda birgðum fyrirtækisins.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b668ca6396aef8351f52b45b0ed667cccd0d446c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f09ff8999629f2fbb3378174823dc4eec478e8d0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314485"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881547"
 ---
 # <a name="warehouse-management"></a>Vöruhúsastjórnun
 Eftir að tekið hefur verið á móti vörum og áður en vörur eru afhentar, fer röð vöruhúsaaðgerða fram til þess að tryggja að flæði gegnum vöruhúsið sé skilvirkt og til að skipuleggja og viðhalda birgðum fyrirtækisins.

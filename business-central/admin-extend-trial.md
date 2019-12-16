@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/01/2019
+ms.date: 11/14/2019
 ms.author: bholtorf
-ms.openlocfilehash: bce2f8ec50fa836be87c0f1bd77a28e44b208167
-ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
+ms.openlocfilehash: 6468ab23e570066bfdc052461ff49f4ae3c03ad5
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "2764625"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808890"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?
 Það er mikilvægt að taka réttar ákvarðanir þegar þú velur viðskiptaforrit og við vitum að það getur tekið tíma að kanna alla kima [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef þú þarft meiri tíma til að gera upp hug þinn getur þú framlengt prufutímanum í aðra 30 daga. Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn. Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum. Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum.
@@ -31,6 +31,7 @@ Ef fyrsta 30 daga prufutímabilið er útrunnið geturðu framlengt það sjálf
 2. Í tilkynningum efst í vinnusvæðinu skal velja **Framlengja prufuáskrift**.
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Stofna ný fyrirtæki](about-new-company.md)  
-[Aðgangur að forskoðun](across-preview.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prufuútgáfa og áskrift](across-preview.md)  
 [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner)  

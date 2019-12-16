@@ -1,8 +1,6 @@
 ---
 title: Hvernig skal búa til verkflæði | Microsoft Docs
 description: Hægt er að stofna verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ef58cf6729ed5608fdbc6ac24093941bf41dc82
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305453"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881193"
 ---
 # <a name="create-workflows"></a>Búa til verkflæði
 Hægt er að stofna verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.  
@@ -27,12 +25,12 @@ Hægt er að stofna verkflæði sem tengja viðskiptaferlisverk sem framkvæmd e
 Þegar verkflæði eru stofnuð er hægt að afrita skref úr núgildandi verkflæði eða úr verkflæðissniðmátum. Verkflæðissniðmát eru óbreytanleg verkflæði sem eru til staðar í altæku útgáfunni af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kóði fyrir verkflæðissniðmát sem er bætt við af Microsoft eru merkt með "MS-", eins og í "MS-PIW". Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki eru studd verður Microsoft-samstarfsaðili að virkja þau með því að sérstilla forritakóðann.  
-  
+
 > [!NOTE]  
 >  Allar tilkynningar um verkflæðisskref eru sendar um verkröð. Ganga skal úr skugga um að verkröð í uppsetningu sé sett upp þannig að hún meðhöndli verkflæðistilkynningar og að **Byrja sjálfkrafa frá NAS** gátreiturinn sé valinn. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Til að stofna verkflæði  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **verkflæði** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkflæði** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð. Síðan **Verkflæði** opnast.  
 3. Í **Kóði** reitinn skal slá inn að hámarki 20 stafi til að auðkenna verkflæðið.  
 4. Til að stofna verkflæði úr verkflæðissniðmáti, skal velja á síðunni **Verkflæði** aðgerðina **Stofna verkflæði úr sniðmáti**. Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -58,7 +56,9 @@ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki 
 
         |Svæði|Description|  
         |----------------------------------|---------------------------------------|  
+        |**Tilkynna sendanda**|Tilgreindu hvort samþykkisbeiðandi fái tilkynningu í staðinn fyrir viðtakanda samþykkisbeiðninnar. Ef gátreiturinn er valinn er slökkt á reitnum **Notandaauðkenni viðtakanda** vegna þess að tilkynning berst til þess sem sendi beiðnina fær tilkynningu í staðinn. Heiti verkflæðissvars breytist til samræmis, í **Búa til tilkynningu fyrir &lt;Sendanda&gt;**. Ef gátreiturinn er ekki valinn er heiti verkflæðissvars **Búa til tilkynningu fyrir &lt;Notanda&gt;**.
         |**Notandaauðkenni viðtakanda**|Tilgreina þarf notanda sem tilkynningin verður að senda á. Athugið: Þessi valmöguleiki er aðeins tiltækur fyrir verkflæðisvörun með staðarhaldara fyrir tiltekinn notanda. Fyrir verkflæðissvör án staðgengils notenda er móttakandi tilkynningar yfirleitt skilgreinist eftir notandauppsetning samþykktar.|  
+        |**Færslugerð tilkynningar**|Tilgreinir hvort tilkynning verkflæðis hafi farið af stað vegna breytinga á færslu, samþykktarbeiðni eða því að gögn séu ekki til á réttum tíma.|
         |**Tengja marksíðu**|Tilgreina aðra síðu [!INCLUDE[d365fin](includes/d365fin_md.md)] sem tengill í tilkyninningunni opnar í stað þeirrar sjálfgefnu.|  
         |**Sérsniðinn tengill**|Tilgreinir vefslóð tengils sem er bætt við tilkyninninguna auk tengilsins við síðuna í [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  Til að tilgreina valkosti fyrir verkflæðissvar sem felur í sér að senda tilkynningu skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
@@ -91,7 +91,7 @@ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki 
 >  Ekki skal virkja verkflæði þar til víst er að verkflæði sé lokið að að umrædd verkflæðisskref geti hafist.  
 
 > [!TIP]  
->  Til að sjá tengsl á milli tafla sem eru notaðar í verkflæði, Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **verkflæði – töflutengsl** og veldu síðan tengda tengilinn.  
+>  Til að sjá tengsl á milli tafla sem eru notaðar í verkflæði, veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Tsegðu mér hvað þú vilt gera) og sláðu svo inn **Verkflæði – töflutengsl**.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)   
@@ -103,4 +103,3 @@ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki 
 [Uppsetning verkflæðis](across-set-up-workflows.md)   
 [Nota verkflæði](across-use-workflows.md)   
 [Verkflæði](across-workflow.md)      
-

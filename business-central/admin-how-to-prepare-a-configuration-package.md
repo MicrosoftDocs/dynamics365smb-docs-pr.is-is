@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að undirbúa grunnstillingarpakka | Microsoft Docs
 description: Þegar nýtt fyrirtæki er skilgreint eru töflutengsl greind og unnin. Gögn eru flutt inn og notuð í réttri röð. Víddartöflur eru einnig fluttar inn ef þær eru teknar með í grunnstillingapakkanum
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0f74b3472b081d7968336fd16b6ef6addccff861
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307997"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879251"
 ---
 # <a name="prepare-a-configuration-package"></a>Undirbúa grunnstillingarpakka
 Þegar nýtt fyrirtæki er skilgreint eru töflutengsl greind og unnin. Gögn eru flutt inn og notuð í réttri röð. Víddartöflur eru einnig fluttar inn ef þær eru teknar með í grunnstillingapakkanum Nánari upplýsingar eru í [Að flytja inn gögn viðskiptamanns](admin-migrate-customer-data.md#to-import-customer-data). 
@@ -32,7 +30,7 @@ Ganga þarf úr skugga um að notandi sé á RapidStart Services Mitt hlutverk i
 >  Hægt er að flytja inn skilgreiningapakka sem hefur verið fluttur út úr gagnagrunni sem hefur annað skemma en markgagnagrunnur. Allar töflur eða reitir sem eru í skilgreiningapakkanum en ekki í markgagnagrunninum verða hins vegar ekki fluttir inn. Töflur með öðrum aðallyklum og reitum með öðrum gagnagerðum verða heldur ekki fluttir inn. Sem dæmi má nefna að gögn munu ekki flytjast yfir ef skilgreiningapakki inniheldur töfluna **50000 Customer** sem hefur aðallykilinn **Code20** og gagnagrunnurinn sem flutt er inn í inniheldur töfluna **50000 Customer Bank Account** sem hefur aðallykilinn **Code20 + Code 20**.  
 
 ## <a name="to-create-a-configuration-package"></a>Til að búa til grunnstillingarpakka  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Almennt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Til að útiloka skilgreiningarspurningalista, skilgreiningarsniðmát og skilgreiningarvinnublaðatöflur úr pakkanum skal velja gátreitinn **Útiloka skilgreiningartöflur**. Annars verður þessum töflum sjálfkrafa bætt við listann yfir pakkatöflur þegar pakkinn er fluttur út.  
@@ -79,7 +77,7 @@ Hægt er að vista skjalið með nafni sem hefur sérstaka þýðingu fyrir nota
 ### <a name="to-copy-a-configuration-package"></a>Til að afrita grunnstillingarpakka  
 Þegar búið er að stofna pakka sem uppfyllir þarfir notanda er hægt að nota hann sem grunn til að stofna svipaða pakka. Þetta getur hraðað innleiðingartíma og styrkt endurtektarþátt á RapidStart Services.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 2. Veljið pakka af listanum og veljið svo aðgerðina **Afrita pakka**.  
 3. Í reitnum **Nýr sendingarkóti** er færður inn kóti fyrir nýjan pakka.  
 4. Veljið gátreitinn **Afrita gögn** ef einnig á að afrita gögn úr gagnagrunni fyrirliggjandi pakka.  

@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að keyra fulla áætlun, MPS og MRP | Microsoft Docs
 description: Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikning aðalframleiðsluáætlunar og efnisþarfa samkvæmt raunverulegri eftirspurn og eftirspurn samkvæmt spá. Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 226fb329b852075a26ad42e2f08a11f2f97ea733
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9a9ba92be649c8272822c3c332c6c4c330910df8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313133"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883191"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Keyra fulla áætlunargerð, MPS eða MRP
 Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikning aðalframleiðsluáætlunar og efnisþarfa samkvæmt raunverulegri eftirspurn og eftirspurn samkvæmt spá. Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.  

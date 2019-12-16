@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/17/2019
+ms.date: 11/22/2019
 ms.author: edupont
-ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649717"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879131"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Notkun Business Central sem fyrirtækjainnhólf í Outlook
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kynnir möguleikann á að stjórna samskiptum innan fyrirtækisins við viðskiptamenn og lánardrottna beint í Microsoft Outlook. Með [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook innbótinni er hægt að skoða fjárhagsleg gögn sem tengjast viðskiptamönnum og lánardrottnum, ásamt því að semja og senda fjárhagsleg skjöl, svo sem tilboð og reikninga.  
 
 ## <a name="getting-the-add-in"></a>Að fá viðbótina
@@ -26,9 +27,13 @@ ms.locfileid: "2649717"
 Þegar þú opnar Outlook muntu sjá tölvupóst frá *Dynamics 365 Business Central-stjórnanda*. Nýju innbótunum er bætt við Outlook-borðann og í vafranum er hægt að sjá [!INCLUDE[prodshort](includes/prodshort.md)]-innbæturnar beint fyrir ofan eða neðan meginmál tölvupóstskeytisins. Innbæturnar eru uppfærðar reglulega og þú munt fá tilkynningu um að ný útgáfa sé tilbúin fyrir þig í Outlook.  
 
 > [!TIP]
-> Ef þú notar nýja Outlook í vafra, geta [!INCLUDE [prodshort](includes/prodshort.md)]-innbæturnar verið faldar undir **Fleiri aðgerðir**.
+> Ef þú notar nýja Outlook á vefnum, geta [!INCLUDE [prodshort](includes/prodshort.md)]-innbæturnar verið faldar undir **Fleiri aðgerðir**. Ef þú notar innbótina oft er hægt að festa hana þannig að hún sjáist alltaf strax. Frekari upplýsingar eru í [Notkun innbóta í Outlook á vefnum](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16)  
 
-Ef þú vinnur með fleiri en eitt [!INCLUDE [prodshort](includes/prodshort.md)] fyrirtæki geturðu auðveldlega skipt á milli fyrirtækja í Outlook.
+Ef þú vinnur með fleiri en eitt [!INCLUDE [prodshort](includes/prodshort.md)] fyrirtæki geturðu auðveldlega skipt á milli fyrirtækja í Outlook. Í aðgerðastiku viðbótarinnar  skaltu velja **Fleiri aðgerðir** og þá geturðu séð valkostinn til að skipta á milli fyrirtækja.  
+
+<!--TEMP-->
+> [!NOTE]
+> Ef skipt er á milli fyrirtækja þarf [!INCLUDE [prodshort](includes/prodshort.md)] 2019 útgáfutímabil 2 eða nýrri að vera í [útgáfuáætluninni](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Sum fyrirtæki sem nota Office 365 takmarka heimildir notenda til að taka í notkun innbætur. Því þarf að ganga úr skugga um að þú hafir Office 365 áskrift sem felur í sér tölvupóst og gerir það mögulegt að nota innbætur. Ef þú samt prófa innbæturnar geturðu [prófað Office 365 endurgjaldslaust](https://products.office.com/try).  
 
@@ -74,4 +79,4 @@ Viðbæturnar eru ætlaðar til notkunar með Office 365. Ef þú notar [!INCLUD
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Lágmarkskröfur fyrir Outlook](product-requirements.md#outlook)  
-[Notkun innbóta í Outlook á vefnum](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Notkun innbóta í Outlook á vefnum](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

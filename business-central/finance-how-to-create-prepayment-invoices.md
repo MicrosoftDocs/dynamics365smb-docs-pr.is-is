@@ -1,8 +1,6 @@
 ---
 title: Hvernig skal búa til fyrirframgreiðslureikning | Microsoft Docs
 description: Lærið að fást við aðstæður þar sem þú eða lánardrottinn þinn krefjast fyrirframgreiðslu.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5841329a2e369be081c2728edf1837e85859f38e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ee10367990ebb0e60879ac885ad03072dd877c2a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302141"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879729"
 ---
 # <a name="create-prepayment-invoices"></a>Stofna fyrirframgreiðslureikninga
 Ef viðskiptamenn þurfa að leggja fram greiðslu áður en þeir fá pöntun afhenta eða ef lánardrottin fer fram á greiðslu áður en hann afhendir pöntun er hægt að nota aðgerð fyrirframgreiðslu.  

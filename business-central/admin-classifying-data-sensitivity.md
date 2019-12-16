@@ -8,15 +8,15 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2019
-ms.openlocfilehash: f2b5e3ded5c89f241d0c49ee8c6f9d196c6bae43
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7578cdff40111adcbf2401e6bed33ddf47641107
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308213"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880977"
 ---
 # <a name="classifying-data-sensitivity"></a>Flokkun á gagnatrúnaði
-Til að flokka reiti sem innihalda viðkvæm eða persónuleg gögn getur Microsoft samstarfsaðili stillt eiginleikann ```DataClassification``` á reitum. Þetta krefst aðgangs að gagnagrunnstöflum, annaðhvort í gegnum þróunarumhverfið eða með því að keyra Windows PowerShell forskrift. Nánari upplýsingar eru í [Flokkun gagna](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  
+Til að flokka reiti sem innihalda viðkvæm eða persónuleg gögn getur Microsoft samstarfsaðili stillt eiginleikann ```DataClassification``` á reitum. Þetta krefst aðgangs að gagnagrunnstöflum, annaðhvort í gegnum þróunarumhverfið eða með því að keyra Windows PowerShell forskrift. Nánari upplýsingar eru í [Flokkun gagna](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Sem viðskiptavinur getur þú bætt við öðru stigi flokkunar með því að tilgreina trúnaðarstig gagnanna sem þú geymir í stöðluðum og sérsniðnum reitum. Flokkun gagnatrúnaðar hjálpar til við að tryggja að þú veist hvar þú geymir persónuleg gögn í kerfinu þínu og auðveldar þér að svara beiðnum frá viðföngum gagnanna. Til dæmis, ef tengiliður eða viðskiptavinur biður þig um að flytja út persónuupplýsingar hans. Nánari upplýsingar eru í [Svara beiðnum um persónuleg gögn](admin-responding-to-requests-about-personal-data.md).
 
@@ -48,4 +48,5 @@ Til dæmis gerir vinnublað gagnaflokkunar þér kleift að gera hluti eins og:
 > Við höfum skilgreint dæmi um flokkun á viðkvæmni fyrir töflur og reiti í sýnifyrirtækinu Cronus. Þú getur notað þessar flokkanir til að fá hugmyndir um eigin flokkun á töflum og reitum.
 
 ## <a name="see-also"></a>Sjá einnig
-[Gagnaflokkun](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
+
+[Gagnaflokkun](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  

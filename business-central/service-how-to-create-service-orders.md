@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að stofna Þjónustupantanir | Microsoft Docs
 description: Hægt er að nota síðuna **Þjónustupöntun** til að stofna skjöl þar sem hægt er að færa inn upplýsingar um þjónustu, s.s. viðgerðir og viðhald, á þjónustuvörum að beiðni viðskiptamanns.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e27844b708982e76ce4dfcf15ec02f7190cd855
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311717"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877314"
 ---
 # <a name="create-service-orders"></a>Stofna þjónustupantanir
 Hægt er að nota síðuna **Þjónustupöntun** til að stofna skjöl þar sem hægt er að færa inn upplýsingar um þjónustu, s.s. viðgerðir og viðhald, á þjónustuvörum að beiðni viðskiptamanns.  
@@ -25,7 +23,7 @@ Hægt er að nota síðuna **Þjónustupöntun** til að stofna skjöl þar sem 
 Þegar stofnuð er þjónustupöntun þarf aðeins að fylla út í örfáa reiti. Sumir reitir eru valkvæðir og margir fyllast út sjálfkrafa þegar tengdir reitir eru fylltir út.  
 
 ## <a name="to-create-a-service-order"></a>Þjónustupöntun stofnuð:    
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Ný þjónustupöntun er stofnuð.  
 3. Í reitnum **númer** er fært inn númer fyrir þjónustupöntunina.  
 
@@ -40,7 +38,7 @@ Hægt er að nota síðuna **Þjónustupöntun** til að stofna skjöl þar sem 
 ## <a name="to-create-a-service-order-from-a-contract"></a>Þjónustupantanir stofnaðar út frá samningum  
 Hægt er að stofna þjónustupantanir sjálfkrafa til viðhalds þjónustuvöru á grunni þjónustusamnings.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofna samningsþjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofna samn.þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Á flýtiflipanum **Haus þjónustusamnings** eru færðar inn afmarkanirnar sem á að nota.  
 3. Farið er á flýtiflipann **Valkostir** og reitirnir **Upphafsdagsetning** og **Lokadagsetning** fylltir út með upphafs- og lokadagsetningu tímabilsins sem stofna á samningsþjónustupantanir fyrir. Keyrslan stofnar þjónustupantanir sem ná einnig til þjónustuvöru í þjónustusamningum með næstu áætluðu þjónustudagsetningum á tímabilinu.  
 
@@ -54,7 +52,7 @@ Hægt er að stofna þjónustupantanir sjálfkrafa til viðhalds þjónustuvöru
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] leitar að úthlutunarfærslum vegna allrar þjónustuvörunnar í þjónustutilboðinu sem er með stöðuna **Virkt**. Ef slík úthlutunarfærsla finnst er staða úthlutunar uppfærð úr Virk í **Þarf að endurúthluta**. Þegar þjónustuvörunni í þjónustupöntuninni er endurúthlutað er stöðu úthlutunarfærslna sem skráðar eru vegna tilboðsins uppfærðar í **Lokið.**   
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningstilboð** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningstilboð** og veldu síðan tengda tengilinn.  
 2. Veldu Þjónustutilboðið sem breytt á í þjónustupöntun.  
 3. Velja **búa til pöntun** aðgerð.  
 
@@ -81,7 +79,7 @@ Ef þú þarft að vera viss um að vara sé tiltæk fyrir þjónustupöntun, ge
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Setja inn línur byggðar á staðlaðir þjónustukóðar  
 Ef staðlaðir þjónustukótar hafa verið settir upp og þeim verið úthlutað fyrir þjónustuvöruflokka er hægt að setja inn staðlaðar línur tengdar stöðluðum þjónustukótum í þjónustuskjölum. Frekari upplýsingar eru í [Setja upp staðlaða þjónustukóða](service-how-setup-service-coding.md).   
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Ný þjónustupöntun er stofnuð.  
 3. Fyllið inn í svæðin eftir þörfum.  
 4. Fylla út þjónustuvörulínur með nauðsynlegum upplýsingum.  

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac77368b30d442d6524b5231252ba5f370d50233
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774724"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809349"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Úthluta leyfum til notenda og hópa
 [!INCLUDE[d365fin](includes/d365fin_md.md)] öryggiskerfið gerir þér kleift að stjórna því hvaða hluti notandi hefur aðgang að í hverjum gagnagrunni eða umhverfi fyrir sig. Þú getur tilgreint fyrir hvern notanda hvort hann geti lesið, breytt eða slegið inn gögn í valda gagnagrunnshluti. Frekari upplýsingar er að finna í [Gagnaöryggi](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) í hjálp Developer and ITPro fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Áður en þú úthlutar heimildum til notenda og notendaflokka þarftu að skilgreina hverjir geta skráð sig inn með því að búa til notendur samkvæmt leyfi eins og skilgreint er í stjórnendamiðstöð Office 365. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
+Áður en þú úthlutar heimildum til notenda og notendaflokka þarftu að skilgreina hverjir geta skráð sig inn með því að búa til notendur samkvæmt leyfi eins og skilgreint er í stjórnendamiðstöð Microsoft 365. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
 
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru tvö stig heimilda fyrir gagnagrunnshluti:
 - Heildarheimildir í samræmi við leyfi, einnig nefnt réttindi.

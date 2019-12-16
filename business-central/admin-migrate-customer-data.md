@@ -1,8 +1,6 @@
 ---
 title: Flytja gögn viðskiptamanna | Microsoft Docs
 description: Hægt er að flytja núverandi gögn viðskiptamanns úr fyrirliggjandi ERP-kerfi yfir í Business Central með því að nota RapidStart Services. Hægt er að nota Excel. xlsx skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að opna þau beint í fyrirtækinu.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7f2d1f354b789931bde76ed8869e326a34e53919
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304415"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896206"
 ---
 # <a name="migrate-customer-data"></a>Flytja gögn viðskiptamanna
 Hægt er að flytja núverandi gögn um viðskiptamenn úr fyrirliggjandi ERP-kerfi yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að nota RapidStart Services gagnaflutningstækni. Hægt er að nota Excel-skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að slá þau beint inn í fyrirtækið.
+
+> [!NOTE]
+> Ekki er hægt að flytja út/flytja inn svæði af gerðinni Blob með Excel.
 
 Síðurnar **Flutningsyfirlit** og **Grunnstilling vinnublaðs** veita aðgang að aðgerðum og yfirlitum til að framkvæma öll verk sem snúa að gagnaflutningi. Mælt er með að ein tafla sé flutt í einu, til að meðhöndla tengsl í gögnunum. Við flutning er einnig unnið með aðalgagnatöflur, sem innihalda upplýsingar um viðskiptavini, lánardrottna, vörur, tengiliði og fjárhag.  
 
@@ -40,7 +41,7 @@ Síðurnar **Flutningsyfirlit** og **Grunnstilling vinnublaðs** veita aðgang a
 > Töflur með öðrum aðallyklum og reitum sem hafa aðrar gagnagerðir verða heldur ekki fluttir inn. Sem dæmi má nefna að gögn munu ekki flytjast yfir ef skilgreiningapakki inniheldur töfluna **50000 Customer** sem hefur aðallykilinn **Code20** og gagnagrunnurinn sem flutt er inn í inniheldur töfluna **50000 Customer Bank Account** sem hefur aðallykilinn **Code20 + Code 20**.  
 
 1. Opna skal nýja fyrirtækið.  
-2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.  
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 3. Velja skal aðgerðina **Flytja inn pakka**. Farið er í .rapidstart pakkaskrána sem á að flytja inn og svo er valin aðgerðin **Opna**. Á meðan innflutningi stendur, er innihald pakkans afþjappað og pakkafærslan stofnuð.  
 
     Að innflutningi loknum er hægt að sjá fjölda grunnstillingartaflna sem hafa ferð fluttar inn í reitnum **Fjöldi taflna**.  
@@ -57,7 +58,7 @@ Ef val á töflum uppfyllir ekki þarfir fyrirtækisins er hægt að stofna eina
 ## <a name="to-create-a-data-migration-file"></a>Til að búa til gagnaflutningsskrá
 Hægt er að stofna nýjar gagnaflutningaskrár og sérsníða þær til stuðnings fyrirtækisins. Athugið að aðeins er hægt að nota skrá til að flytja reit sem er með eiginleikann **FieldClass** stilltan á **Venjulegt**.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakki** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakki** og veldu síðan tengda tengilinn.  
 2. Veljið og opnið pakkann sem á að nota til að flytja gögn og veljið svo aðgerðina **Ná í töflur**. Síðan **Sækja pakkatöflu** opnast.  
 3. Í reitnum **TableID** færið inn töflunúmer eða veljið töflu af listanum, til dæmis töflu 18, **Viðskiptamaður**. Reiturinn **Heiti töflu** útfyllist sjálfkrafa.  
 4. Veljið nýja flutningstöflu og síðan á flipanum **Töflur** skal velja aðgerðina **Reitir**. Síðan **Flutningsreitir** opnast.  
@@ -73,7 +74,7 @@ Ný innflutningstafla er stofnuð.
 ## <a name="to-export-data-migration-files"></a>Til að flytja út nauðsynlegar gagnaflutningsskrár.
 Eftir að hafa ákvarðað töflurnar sem á að millifæra gögn um viðskiptavini á, skal flytja skrárnar út.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 2. Veljið og opnið pakkann sem á að nota til útflutnings.
 3. Veljið töfluna eða töflurnar sem á að flytja út og veljið svo aðgerðina **Flytja út Flytja út í Excel**.
 4. Vista skal Excel-skrána sem flutt var út.  
@@ -94,7 +95,7 @@ Ef taflan er auð mun gagnaflutningsskráin innihalda auð hólf fyrir þá reit
 
 Í ferlunum sem fylgja ætti að athuga fyrirfram hvaða gildum á að halda við flutningsferlið. Til að framkvæma eftirfarandi ferli þarf að gagnaflutningsskrár (.xlsx) sem hafa verið fluttar úr [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í [Að flytja út gagnaflutningsskrár](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.
 2. Opna skal pakkann fyrir fyrirtækið sem um ræðir.  
 3. Veljið töfluna sem á að varpa gildum fyrir og síðan á flipanum **Töflur** skal velja aðgerðina **Töflur**.  
 4. Fyrir hvern reit sem á að varpa skal velja aðgerðina **Vörpun**.  
@@ -112,7 +113,7 @@ Eftirfarandi dæmi sýnir hvernig [!INCLUDE[d365fin](includes/d365fin_md.md)] in
 3. Þegar þú jafnar gögn mun vörpunin sem þú gafst upp fyrir reitinn **Kóði** í töflunni **Sölumaður/innkaupaaðili** einnig verða tekin með við vinnslu á reitunum **Kóði sölumanns** og **Kóði innkaupaaðila**.
 
 ## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Til að bæta viðbótargildum við [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 2. Veljið töfluna sem á að bæta við fleiri gildum fyrir og síðan á flipanum **Töflur** skal velja aðgerðina **Reitir**.  
 3. Fyrir reitina þar sem [!INCLUDE[d365fin](includes/d365fin_md.md)] á að heimila viðbótargildi við flutning skal velja gátreitinn **Stofna kóða sem vantar**.  
 4. Innflutningur gagna viðskiptamanns Nánari upplýsingar eru í [Að flytja inn gögn viðskiptamanns](admin-migrate-customer-data.md#to-import-customer-data).

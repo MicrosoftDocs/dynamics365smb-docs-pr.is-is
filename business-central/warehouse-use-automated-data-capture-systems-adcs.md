@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: dfabf797ae9ba85a5a241d88f9ba3f5deb16bd4c
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775476"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832336"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Nota sjálfvirkt gagnatökukerfi (ADCS)
 
 > [!NOTE]
-> Í stöðluðu útgáfunni af [!INCLUDE[d365fin](includes/d365fin_md.md)] virkar ADCS aðeins í uppsetningu á staðnum. Hins vegar getur Microsoft samstarfsaðili fengið það til að virka í uppsetningu á netinu með PowerApps eða svipuðu forriti.
+> Í stöðluðu útgáfunni af [!INCLUDE[d365fin](includes/d365fin_md.md)] virkar ADCS aðeins í uppsetningu á staðnum. Hins vegar getur Microsoft samstarfsaðili fengið það til að virka í uppsetningu á netinu með Power Apps eða svipuðu forriti.
 
 Hægt er að nota sjálfvirka gagnatökukerfið (ADCS) til að skrá alla hreyfingu á vörum í vöruhúsinu og skrá sumar færslubókaraðgerðir, s.s. leiðréttingar á magni í birgðabók vöruhússins og raunbirgðir. ADCS felur venjulega í sér skönnun á strikamerki.
 

@@ -1,8 +1,6 @@
 ---
 title: Úthlutunarstaða og viðgerðarstaða | Microsoft Docs
 description: Lærðu um sambandið á milli viðgerðarstaða þjónustuvöru og úthlutunarstaða úthlutunarfærslna fyrir þær.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cffd91900c5644ab31764290c0a3ff78a4685171
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d63aaf615a8611e6c0bfb640469253aef27ca453
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316237"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882807"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Úthlutunarstaða og viðgerðarstaða
 Viðgerðarstaða þjónustuvöru og úthlutarstaða úthlutunarfærslna vegna þjónustuvöru tengjast á vissan hátt í Þjónustukerfi. Úthlutunarstaðan breytist þegar viðgerðarstöðu þjónustuvöru er breytt úr  **Lokið** eða  **Hluta þjónustu lokið** og þegar þjónustutilboði er breytt í þjónustupöntun. Viðgerðarstaða þjónustuvöru breytist þegar hætt er við úthlutun þjónustuvöru eða henni er endurúthlutað til annars forða. Hægt er að skoða viðgerðastöðu þjónustuvöru á síðunni **Þjónustuverk** og hægt er að uppfæra viðgerðarstöðu í **Kóti viðgerðastöðu** á síðunni **Þjónustuvörublað**. Hægt er að skoða úthlutunarstöðuna í reitnum **Staða** á síðunni **Úthlutun forða**.  

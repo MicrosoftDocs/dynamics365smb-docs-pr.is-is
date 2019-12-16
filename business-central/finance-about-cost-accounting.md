@@ -1,8 +1,6 @@
 ---
 title: Um kostnaðarbókhald | Microsoft Docs
 description: Kostnaðarbókhald getur hjálpað til við að kunna skil á kostnaði sem felst í því að reka fyrirtæki.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 053a0ca21ff26b53cabcc8894ed1cd0e48c904b0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ab142468f152b6430d5454c29a5b663be954412
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302669"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879873"
 ---
 # <a name="about-cost-accounting"></a>Um kostnaðarbókhald
 Kostnaðarbókhald getur hjálpað til við að kunna skil á kostnaði sem felst í því að reka fyrirtæki. Kostnaðarbókhaldsupplýsingar er gerðar til að greina.  
@@ -39,7 +37,7 @@ Kostnaðarbókhald hefur eftirfarandi aðalíhluti:
 
 Eftirfarandi skýringarmynd sýnir verkflæðið í kostnaðarbókhaldi.  
 
-![Kostnaðar Bókhalds yfirlit](media/costaccountingoverview.png "KostnaðarBóhaldsYfirlit")  
+![Yfirlit fyrir kostnaðarbókhald](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kostnaðartegundir, kostnaðarstaðir og kostnaðarhlutir  
 Kostnaðartegundir , kostnaðarstaðir og kostnaðarhlutir eru skilgreindir til að greina kostnað, hvaðan hann kemur og hver eigi að bera kostnaðinn.  

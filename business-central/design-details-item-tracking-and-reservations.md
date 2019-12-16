@@ -1,8 +1,6 @@
 ---
 title: Hönnunarupplýsingar - vörurakning og frátekningar | Microsoft Docs
 description: Þetta efnisatriði fjallar um vörurakningu og frátekningar, og lýsir heildarhugmyndinni á bak við þetta tvennt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4e5818f5bafd737738a99b4627ab36548a7f0ec4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d7895b0068afaf73a113b6f656c1600ce2cc4a4a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303393"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880233"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Hönnunarupplýsingar: vörurakning g frátekningar
 Samtímis notkun frátekninga og tiltekinnar vörurakningar er óalgengt, vegna þess að bæði búa til tenging milli framboðs og eftirspurnar. Nema þegar viðskiptamaður eða framleiðslustjóri óskar eftir tiltekinni lotu er sjaldnast ástæða til að taka frá birgðavörur sem þegar hafa vörurakningarnúmer fyrir tiltekna jöfnun. Þó það er hægt að taka frá vörur sem krefjast sérstakrar vörurakningar er þörf á sérstökum eiginleika til að forða framboðsárekstra á milli pantanavinnsla sem biðja um sömu röktu vörurnar.  

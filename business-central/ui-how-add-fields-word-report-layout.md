@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að bæta reitum við Word-skýrsluútlit | Microsoft Docs
 description: Lýsir ferlinu við að bæta reitum í gagnasafni skýrslu við fyrirliggjandi Word-skýrsluútlit fyrir skýrslu.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0c16dbebe7f2bbfa5efebb246149d395d051b353
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5927a69199f72b09f133d63ac76bade7af361e8c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315325"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877016"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Bæta reitum við Word-skýrsluútlit
 Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndir. Þetta efnisatriði lýsir ferlinu við að bæta reitum í gagnasafni skýrslu við fyrirliggjandi Word-skýrsluútlit fyrir skýrslu. Reitum er bætt við með því að nota Word sérsniðinn XML-hluta fyrir skýrsluna og bæta við efnisstjórnun sem varpar í reiti gagnamengis skýrslunnar. Bæting reita þarfnast einhverrar þekkingar á gagnamengi skýrslunnar þannig að hægt er að bera kennsl á reitina sem á að bæta við útlitið.  
@@ -113,7 +111,7 @@ Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.
   
  Eftirfarandi mynd sýnir einfaldan sérsniðinn XML-hluta úr fyrri hluta í **XML-vörpun** svæðinu í Word skjali.  
   
- ![Hluti af XML vörpunarsvæði í word](media/nav_reportlayout_xmlmappingpane.png "NAV_SkýrslaÚtlit_XMLVörpunarSvæði")  
+ ![Hluti af XML vörpunarsvæði í word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Til að bæta merki eða reit við útlitið er sett inn efnisstjórnun sem varpar í eininguna á svæðinu **XML-vörpun**.  
   

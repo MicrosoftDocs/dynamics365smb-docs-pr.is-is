@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c85b58de2ec9e497e2578a6241b7f1499a81ae9
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315157"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809377"
 ---
 # <a name="managing-report-and-document-layouts"></a>Stjórna útliti skýrslna og skjala
 Útlit skýrslu stjórnar efni og sniði skýrslunnar, þ.m.t. hvaða gagnareitir gagnasafn skýrslu birtast í henni, stöðu þeirra, textastíl, myndir og meira. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að breyta því hvaða útlit er notað í skýrslu, búa til nýtt útlit eða breyta fyrirliggjandi útliti.
@@ -59,9 +59,10 @@ Ferlið til að setja upp Word-skýrsluútlit og RDLC-skýrsluútlit á skýrslu
 Upplýsingar um hvernig á að breyta því hvaða útlit er notað eru í [Breyta núverandi skýrsluútliti](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Sjá einnig
-[Uppfæra skýrsluútlit eða skjalaútlit](ui-update-report-layouts.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Búa til og breyta sérsniðnu skýrslu- eða skjalaútliti](ui-how-create-custom-report-layout.md)  
+[Uppfæra sérsniðið skýrsluútlit](ui-update-report-layouts.md)  
+[Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)  
 [Flytja inn og út sérsniðið skýrsluútlit eða skjalaútlit](ui-how-import-and-export-report-layout.md)  
+[Skilgreina sérstakt útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

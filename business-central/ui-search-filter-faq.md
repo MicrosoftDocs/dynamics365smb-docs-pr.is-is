@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 79fb96b0262eacfd67326236c7cf8468689c6b5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695192"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876872"
 ---
 # <a name="searching-and-filtering-faq"></a>Algengar spurningar um leit og síun
 Þessi grein svarar algengum spurningum sem þú gætir haft um leit og síun.
@@ -47,7 +47,7 @@ Við hjá Microsoft erum stöðugt að hlusta á viðbrögð frá fjölbreyttu s
 
 Það eru tímamörk um hversu langur leitaraðgerð getur tekið. Fyrst skaltu reyna að breyta leitarskilyrðum og leita aftur. Ef þú ert að nota [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum skaltu hafa samband við kerfisstjóra þína, því stjórnandi getur aukið tímamörk fyrir leit.
 
-Sem stjórnandi á staðnum, eykur þú tímamörkin í leitum með því að breyta **tímamörk leitar** stillingunni á [!INCLUDE[prodshort](includes/prodshort.md)] þjóni. Nánari upplýsingar er að finna í [Stilling á Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) í Business Central Developer og IT Pro hjálp.
+Sem stjórnandi á staðnum, eykur þú tímamörkin í leitum með því að breyta **tímamörk leitar** stillingunni á [!INCLUDE[prodshort](includes/prodshort.md)] þjóni. Nánari upplýsingar er að finna í [Stilling á Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) í Business Central Developer og IT Pro hjálp.
 
 ## <a name="see-also"></a>Sjá einnig .
 [Röðun, leit, og síun](ui-enter-criteria-filters.md)  

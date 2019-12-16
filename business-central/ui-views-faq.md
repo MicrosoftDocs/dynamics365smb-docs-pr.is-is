@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 01/01/2019
 ms.author: mikebc
-ms.openlocfilehash: d2caa1d9b84d99c0b43a70bca1c45da81138f7b9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6357a025c58df8e55bf7aaad5961190ad6ed3350
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316834"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881991"
 ---
 # <a name="list-views-faq"></a>Algengar spurningar um listayfirlit
 Þetta efnisatriði svarar spurningum sem reyndir notendur spyrja oft um vinnu með listayfirlit og vistun fyrir síur.  
@@ -58,7 +58,7 @@ Sum kerfisyfirlit geta haft einkvæm yfirlit á dálkum á listanum. Til dæmis 
 ### <a name="what-does-the-show-system-filters-link-do"></a>Hvað gerir tengillinn Sýna kerfisafmarkanir?
 Á sumum listasíðum birtir síusvæðið **Sýna kerfisafmarkanir** neðst á síusvæðinu þegar síðan inniheldur síur sem kerfið hefur tilgreint. Þessar sérstöku síur eru yfirleitt notaðar til að birta færslur sem eru byggðar á núverandi samhengi, svo sem þegar búið er að sía lista yfir pantanir fyrir tiltekinn viðskiptavin.
 
-Kerfissíur eru stilltar af þróunaraðila og nota síuhóp 0. Tæknilegar upplýsingar um kerfissíur má finna í [Aðgerðinni sía hópa](https://docs.microsoft.com/en-us/dynamics-nav/filtergroup-function--record-)
+Kerfissíur eru stilltar af þróunaraðila og nota síuhóp 0. Tæknilegar upplýsingar um kerfissíur má finna í [Aðferð síuhópa](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
 
 ### <a name="i-see-multiple-views-on-my-page-but-i-did-not-create-them-where-did-they-come-from"></a>Ég sé mörg yfirlit á síðunni minni en ég bjó þau ekki til. Hvaðan komu þau?
 Yfirlitin sem birtast á öllum listum eru samandregin persónuleg yfirlit þín ásamt kerfisskoðunum. Kerfisyfirlit kunna að koma úr viðskiptaforritinu, úr viðbótum eða kunna að vera sértæk ef listinn var sérsniðinn fyrir hlutverkið þitt.

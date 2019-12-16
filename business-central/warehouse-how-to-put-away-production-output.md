@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að ganga frá framleiðslufrálagi | Microsoft Docs
 description: Hvernig gengið er frá frálagi úr framleiðslu fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6d1684b170d050392b02a9b40070b17ff22ebd47
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d2a8e53d26ea6a6f0ab591b9695acb39024348b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314581"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881679"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Ganga frá framleiðslu eða samsetningarfrálagi
 Hvernig gengið er frá frálagi úr framleiðslu fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).  
@@ -29,14 +27,14 @@ Hvernig gengið er frá frálagi úr framleiðslu fer eftir því hvernig vöruh
 Fyrsti áfanginn í stofnun birgðafrágangs er að stofna innleiðarbeiðni í vöruhúsi. Þessi beiðni lætur vöruhúsið vita að frálag framleiðslu eða samsetningarpöntunar sé tilbúið til frágangs.
 
 ## <a name="to-create-the-inbound-warehouse-request"></a>Stofna innleiðarbeiðni í vöruhúsi:  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **útgefin framleiðslupöntun** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Losaðar framl.pöntun** og veldu síðan tengda tengilinn.  
 2.  Í framleiðslupöntuninni sem er tilbúin til frágangs, skal velja aðgerðina **Stofna vöruh.beiðni á innleið**.  
 
 > [!NOTE]  
 >  Einnig er hægt að stofna á vöruhúsabeiðni á innleið með því að gátreitinn **Stofna beiðni á innleið** þegar framleiðslupöntun er endurnýjuð. Frekari upplýsingar, sjá [Uppfæra eða enduráætla framleiðslupantanir](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Gengið frá frálagi með Birgðafrágangi  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **birgðafrágangur** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðafrágangur** og veldu síðan tengda tengilinn.  
 2.  Nýr birgðafrágangur er stofnaður. Nánari upplýsingar eru í [Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Til að komast í íhluti framleiðslupöntunarinnar, veldu aðgerðina **Sækja upprunaskjöl** og síðan er útgefna framleiðslupöntunin valin.  
 4.  Frágangslínurnar eru fylltar út.
@@ -49,7 +47,7 @@ Einnig er hægt að stofna **Birgðafrágang** beint úr útgefnu framleiðslup�
 Ef aðeins þarf að bóka uppsetningar- eða keyrslutíma við síðustu aðgerð skal stilla frálagsmagn síðustu aðgerðar á 0. Einnig er hægt að velja að bóka ekki síðustu línuna með því einfaldlega að eyða henni.  
 
 ## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Gengið frá frálagi með innanhússfrágangi vöruhúss
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innanhússfrágangur vöruhúss** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innanhússfrágangur vöruhúss** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.
 3. Í haus nýja innanhússfrágangsins þarf að tilgreina að minnsta kosti **kóta birgðageymslu**.  
 4. Fylla skal út eina línu fyrir hverja vöru sem flytja á í vöruhúsið. Aðeins þarf að fylla út í reitina **Vörunr.** og **Magn**.  

@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að setja upp birgðageymslur til að nota hólf | Microsoft Docs
 description: Hólf tákna grunnvöruhúsauppbyggingu og eru notuð til að gera tillögur að staðsetningu vöru. Þegar hólfin hafa verið stofnuð er hægt að skilgreina nánar hvaða innihald á að setja í hvert hólf eða nota hólfið sem fljótandi hólf án tiltekins innihalds.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f2d7ecc163737c103c91b2a28a6a8072fad89279
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a77e72df87778b965978e938c05ad2b7b6e773ff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310181"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881583"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Setja upp birgðageymslur til að þær noti hólf
 Hólf tákna grunnvöruhúsauppbyggingu og eru notuð til að gera tillögur að staðsetningu vöru. Þegar hólfin hafa verið stofnuð er hægt að skilgreina nánar hvaða innihald á að setja í hvert hólf eða nota hólfið sem fljótandi hólf án tiltekins innihalds.  
@@ -43,7 +41,7 @@ Ef nota á hólf í birgðageymslu þarf fyrst að virkja aðgerðina á spjaldi
 ## <a name="filling-the-consumption-bin"></a>Fylla út notkunarhólfið
 Þetta flæðirit sýnir hvernig reiturinn **Hólfkóði** í framleiðslupöntunaríhlutalínum er útfylltur samkvæmt uppsetningu staðsetningar.
 
-![Flæðirit hólfa](media/binflow.png "Hólfaflæði")  
+![Flæðirit hólfa](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Sjá einnig
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

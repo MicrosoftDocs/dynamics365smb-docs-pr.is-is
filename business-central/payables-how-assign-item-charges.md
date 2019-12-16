@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 054e6bd734227786c8f9702ffdbb15d06e987f88
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a113573ca1732472f5ec926f78273cdb4b94f989
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313709"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878139"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði
 Til að tryggja rétt verðmat, verða birgðavörurnar þínar að bera allan auka kostnað, eind og t.d. farmur, efnisleg meðhöndlun, tryggingar og flutningar sem viðskipti þín með vörurnar hafa í för með sér. Í innkaupum, þá samanstendur raunkostnaður innkeyptrar vöru af innkaupaverði frá lánardrottni og öllu beinu viðbótarvörugjaldi sem hægt er að leggja á einstaka móttöku eða endursendar afhendingar. Það getur verið fyrirtækjum jafnmikilvægt að kunna skil á kostnaði við afhendingu seldrar vöru eins og að vita raunkostnað aðkeyptrar vöru.
@@ -36,6 +36,11 @@ Hægt er að úthluta kostnaðarauka á bæði innkaupa- og söluskjöl á tvenn
 
 > [!NOTE]  
 >   Hægt er að úthluta kostnaðarauka á pantanir, reikninga og kreditreikninga fyrir bæði sölu og innkaup. Eftirfarandi ferli lýsir því hvernig á að vinna með kostnaðarauka fyrir innkaupareikning. Skrefin eru svipuð fyrir öll önnur innkaupa- og söluskjöl.
+
+## <a name="example"></a>Dæmi
+Þetta myndband sýnir hvernig á að meðhöndla viðbótarkostnað afhendingar sem hluta af birgðakostnaði.
+<br><br>  
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
 
 ## <a name="to-set-up-item-charge-numbers"></a>Uppsetning kostnaðaraukanúmera
 Vörugjaldsnúmer eru notuð til að greina á milli mismunandi vörugjalda sem notuð eru fyrir innkaupaskjöl í fyrirtækinu.

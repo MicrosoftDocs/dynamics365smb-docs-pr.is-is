@@ -1,8 +1,6 @@
 ---
 title: Hönnunarupplýsingar - Aðferð kostnaðarútreiknings | Microsoft Docs
 description: Það veltur á aðferð við kostnaðarútreikning hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikning. Kostnaðaraðferðin hefur líka áhrif á það hvernig kostnaðarflæðið er skráð, ásamt bókunardagsetningu og lotu.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f009b0e43a3d3424782f5c3f052033c813e3f18
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0dfd9e28d4db9b55c4f7d6aa5ee6c1f5a56d6a89
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303645"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880551"
 ---
 # <a name="design-details-costing-methods"></a>Hönnunarupplýsingar: Aðferð kostn.útreiknings
 Það veltur á aðferð við kostnaðarútreikning hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikning. Kostnaðaraðferðin hefur líka áhrif á það hvernig kostnaðarflæðið er skráð, ásamt bókunardagsetningu og lotu.
@@ -38,7 +36,7 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md
 
  Á meðfylgjandi mynd sést kostnaðarflæði gegnum birgðir fyrir hverja kostnaðarmatsaðferð.  
 
- ![Aðferð kostnaðarútreiknings](media/design_details_inventory_costing_7_costing_methods.png "Aðferð kostnaðarútreiknings")  
+ ![Kostnaðaraðferðir](media/design_details_inventory_costing_7_costing_methods.png "Kostnaðaraðferðir")  
 
  Aðferð kostnaðarútreiknings eru mismunandi í því hvernig þeir meta birgðaminnkun og hvort þær nota raunkostnað eða staðalkostnað vörubirgðir sem grunn matsins. Eftirfarandi tafla útskýrir mismunandi einkenni. (LIFO-aðferðin er útilokuð þar sem hún er mjög svipuð FIFO-aðferðinni.)  
 

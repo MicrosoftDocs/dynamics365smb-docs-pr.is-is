@@ -1,8 +1,6 @@
 ---
 title: Reikningsfæra fyrirframgreiðslur | Microsoft Docs
 description: Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyrirframgreiðslupöntun sölu- eða innkaupa áður en lokareikningsfærsla fer fram. Þú gætir krafist innborgunar áður en þú framleiðir vörur upp í pöntun eða krafist greiðslu áður en þú afhendir viðskiptamanni vörur. Með fyrirframgreiðslum getur þú reikningsfært og innheimt innborganir frá viðskiptamönnum eða sent lánardrottnum innborganir. Þannig má tryggja að allar greiðslur séu bókaðar á móti reikningi.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 81189f3a3476fba8754cbcd15445fa1d8450a20b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7034e88e5f9a46f3d593a532020acc40be3b437f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305789"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879657"
 ---
 # <a name="invoicing-prepayments"></a>Reikningsfærsla fyrirframgreiðslna
 Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyrirframgreiðslupöntun sölu- eða innkaupa áður en lokareikningsfærsla fer fram. Þú gætir krafist innborgunar áður en þú framleiðir vörur upp í pöntun eða krafist greiðslu áður en þú afhendir viðskiptamanni vörur. Með fyrirframgreiðslum getur þú reikningsfært og innheimt innborganir frá viðskiptamönnum eða sent lánardrottnum innborganir. Þannig má tryggja að allar greiðslur séu bókaðar á móti reikningi.  

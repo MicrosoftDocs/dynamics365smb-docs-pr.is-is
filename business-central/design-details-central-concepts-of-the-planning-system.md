@@ -1,8 +1,6 @@
 ---
 title: Hönnunarupplýsingar - Miðlægar hugmyndir áætlanakerfisins | Microsoft Docs
 description: Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru og tímabil sem áætlun gildir um og kemur síðan með tillögur að mögulegum aðgerðum sem notandi getur framkvæmt út frá eftirspurn/framboði og áætlunarfæribreytum vöru.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303749"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880593"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfis
 Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru og tímabil sem áætlun gildir um. Þá, í samræmi við lágstigskóða (uppskriftarstaðsetningu), kallar runuvinnslan á kóðaeininguna, sem reiknar út birgðaáætlun með því að jafna framboð-eftirspurn og stinga upp á aðgerðum fyrir notandann. Ráðlagðar aðgerðir birtast sem línu á áætlunvinnublaðinu eða innkaupatillögunni.  
@@ -57,7 +55,7 @@ Til dæmis ef notandi slær inn eða breytir sölupöntun mun kvika pöntunarrak
 
 Í samræmi er hægt að horfa á kvika pöntunarrakningu sem verkfæri fyrir notanda til að meta hvort samþykkja eigi pöntunartillögur fyrir framboð. Frá framboðshliðinni getur notandi séð hvaða eftirspurn hefur búið framboðið til og frá eftirspurnarhliðinni hvaða framboð á að sinna eftirspurninni.  
 
-![Dæmi um gangvirka pöntunarrakningu](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Dæmi um gangvirka pöntunarrakningu")  
+![Dæmi um gagnvirka rakningu pöntunar](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Dæmi um gagnvirka rakningu pöntunar")  
 
 Nánari upplýsingar eru í [Upplýsingar um hönnun: Frátekning, Vörurakning og aðgerðaboð](design-details-reservation-order-tracking-and-action-messaging.md).  
 

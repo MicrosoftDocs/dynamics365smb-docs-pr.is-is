@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að áætla frágang á vinnublöðum | Microsoft Docs
 description: Ef birgðageymslan krefst bæði frágangs- og móttökuvinnslu og áætla á frágangsleiðbeiningar fyrir margar móttökur, í stað þess að fara eftir leiðbeiningum sem forritið stofnar fyrir einstakar bókaðar móttökur, er hægt að nota frágangsvinnublaðið.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae631fc6383e9aec6edc5fcc432e614f39ee74e4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4537a7f6d450ec71e574c85cef1987232f792479
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314605"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876537"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Áætla frágang á vinnublöðum
 Ef birgðageymslan krefst bæði frágangs- og móttökuvinnslu og áætla á frágangsleiðbeiningar fyrir margar móttökur, í stað þess að fara eftir leiðbeiningum sem forritið stofnar fyrir einstakar bókaðar móttökur, er hægt að nota frágangsvinnublaðið.  
@@ -33,7 +31,7 @@ Ef gátmerki er ekki sett í þennan reit eru stofnar forritið frágangsleiðbe
 > 2.  Þessu er haldið áfram þar til línunum sem vinna á með á vinnublaðinu hefur verið eytt. Veljið nú **Vinnublöð frágangs** og haldið áfram að áætla.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Leiðbeiningar áætlaðar á vinnublaði frágangs:  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað frágangur** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað frágangs** og veldu síðan tengda tengilinn.  
 2.  Valið er **Sækja vöruhúsaskjöl** aðgerð. Síðan **Frágangsval** opnast.  
 
     Hægt er að sjá allar bókaðar móttökur og skráðan innanhússfrágang sem send hafa verið í frágangsaðgerðina, þar á meðal þá sem frágangsleiðbeiningar hafa þegar verið stofnaðar fyrir. Skjöl með frágangslínur sem gengið hefur verið frá að fullu og skráðar birtast ekki á þessum lista.  

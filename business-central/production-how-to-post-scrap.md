@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að bóka úrkast handvirkt | Microsoft Docs
 description: Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í afkastabókina. Bent er á að úrkastsmagnið eykur ekki afkastamagnið.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 340b66ed5d36e67ffc5c3afb05e38ea36e520e58
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 31bd5370a2e14e327efa337d5cff0786f93b18ae
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313229"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877798"
 ---
 # <a name="post-scrap-manually"></a>Bóka úrkast handvirkt
 Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í afkastabókina. 
@@ -26,7 +24,7 @@ Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í af
 > Bent er á að úrkastsmagnið eykur ekki afkastamagnið.  
 
 ## <a name="to-post-scrap-manually"></a>Úrkast bókað handvirkt:  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **frálagsbók** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Frálagsbók** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Úrkastsmagnið er fært í reitinn **Úrkastsmagn**.  
 4. Úrkastskótinn er færður inn í reitinn **Úrkastskóti**.  

@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að setja upp grunndagatal | Microsoft Docs
 description: Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, birgjum og stöðvum grunndagatali. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5e643adf2f66cd1e8d49d0d3b943b92ba749cccf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c9c4b89122f9c8b905a864d39a559b7214ee7c5c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305477"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881217"
 ---
 # <a name="set-up-base-calendars"></a>Setja upp grunndagatöl
 Hægt er að úthluta fyrirtækinu og viðskiptafélögum, viðskiptamönnum, birgjum og stöðvum grunndagatali. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu. Þegar nýtt grunndagatal er sett upp felst meginverkefnið í að tilgreina og skilgreina þá frídaga sem eiga að gilda.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Uppsetning grunndagatals  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunndagatal** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunndagatal** eða Lánardrottinn og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Reiturinn **Kóti** er fylltur út.  
 4. Velja skal **Viðhalda breytingum á Grunndagatali** aðgerðina.

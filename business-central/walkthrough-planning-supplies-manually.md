@@ -1,8 +1,6 @@
 ---
 title: Kynning - Handvirk áætlun birgða | Microsoft Docs
 description: Þessi kynning sýnir ferli áætlunar birgðapantana til að uppfylla nýja eftirspurn. Hægt er að hefja áætlun birgða með föstu millibili, t.d. á hverjum morgni eða á hverjum mánudegi, eða þegar tilkynning berst frá sölu eða framleiðslu, eftir því um hvers konar eftirspurn er að ræða.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cf3a0653b4094b9e7d90be2909572ed831863c4f
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 0da12af6eb5a165c717cd112735a91aebe3ae85d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554669"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876968"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Kynning: Handvirk áætlun birgða
 
@@ -69,7 +67,7 @@ Síðuna **Pantanaáætlun** er hægt að opna úr mörgum ólíkum staðsetning
 
 ### <a name="to-use-the-order-planning-page"></a>Að nota síðuna „Pantanaáætlun“  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **pantanaáætlun** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pantanaáætlun** og veldu síðan tengda tengilinn.  
 
      Eftir að síðan **Pantanaáætlun** opnast fyrst þarf að reikna áætlun til að sýna nýja eftirspurn frá því hún var reiknuð síðast.  
 

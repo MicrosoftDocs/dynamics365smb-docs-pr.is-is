@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að tína vörur fyrir vöruhúsaafhendingu | Microsoft Docs
 description: Þegar staðsetningin er sett þannig upp að það krefjist vöruhúsatínsluvinnslu og vöruhúsaafhendingarvinnslu eru vöruhúsatínsluskjöl notuð til að stofna og sjá um tínsluupplýsingar fyrir bókun vöruhúsaafhendingar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b136b5a1c06ee61313596f7613cb99fb4bf11e86
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d35c6dec3eee09ec72a09325dcc527c18dc9b8c4
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313977"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876680"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Tína vörur fyrir vöruhúsaafhendingu
 Þegar staðsetningin er sett þannig upp að það krefjist vöruhúsatínsluvinnslu og vöruhúsaafhendingarvinnslu eru vöruhúsatínsluskjöl notuð til að stofna og sjá um tínsluupplýsingar fyrir bókun vöruhúsaafhendingar.  
@@ -40,7 +38,7 @@ Einnig er hægt að stofna vöruhúsatínsluskjöl í eins og ýtingu á síðun
 >  Upplýsingar um almenna tínslu íhluta fyrir samsetningarpantanir, þar á meðal þegar samsetningaríhlutur er ekki hluti af söluafhendingu, eru í [Tína fyrir framleiðslu eða samsetningu](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Til að tína vörur fyrir vöruhúsaafhendingu  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínsla** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínslur** og veldu síðan tengda tengilinn.  
 
     Ef nauðsynlegt er að vinna í tiltekinni tínslu, er tínslan valin af lista eða listi afmarkaður til að vinna tínslu sem hafa verið úthlutað notandanum sérstaklega. Tínsluspjaldið er opnað.  
 2.  Ef reiturinn **Úthlutað notandakenni** er auður færir notandinn notandakennið inn til að auðkenna sig, ef þess þarf.  

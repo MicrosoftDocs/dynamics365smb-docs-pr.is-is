@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að vinna með birgðatímabil | Microsoft Docs
 description: Hægt er að stjórna tímarammanum þar sem fólk getur bókað breytingar á birgðum með því að skilgreina birgðatímabil.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1a88456e91b3398ac9cae1b64ebdd80644b5d0aa
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 8b2a34db5d4e40f99fceb844150312d6c6dffc55
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554039"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879633"
 ---
 # <a name="work-with-inventory-periods"></a>Vinna við birgðatímabil
 Birgðatímabil skilgreina tímabil þar sem hægt er að bóka breytingar á birgðum. Birgðatímabil afmarkast af dagsetningunni sem því lýkur á. Þegar birgðatímabili er lokað er ekki hægt að bóka neinar breytingar á birgðum, hvorki áætluðum né reikningsfærðum fyrir þessa lokadagsetningu. Ekki er heldur hægt að bóka nein ný gildi við birgðir fyrir lokadagsetninguna. Ef birgðafærslur eru hafðar opnar í lokaða tímabilinu, sem þýðir jákvætt magn sem ekki er búið að jafna saman við færslur á útleið, er samt hægt að jafna magn á útleið við þessar færslur, jafnvel þó að tímabilið sé lokað.  
@@ -29,7 +27,7 @@ Eftirfarandi hlutar útskýra hvernig á að standa að:
 * Enduropna birgðatímabil.  
 
 ## <a name="to-create-an-inventory-period"></a>Til að stofna birgðatímabil  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðahaldstími** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatímabil** og veldu síðan tengda tengilinn.  
 2. Stofnið nýja línu.  
 3. Í reitinn **Lokadagsetning** er slegin inn síðasta dagsetningin í birgðatímabilinu sem ætlunin er að skilgreina. Þegar tímabilinu er lokað verður ekki hægt að bóka breytingar á birgðum fyrir þessa dagsetningu.  
 4. Færa inn lýsandi heiti í reitinn **Heiti**. Velja hnappinn **Í lagi**.  
@@ -61,7 +59,7 @@ Hægt er að loka hvaða birgðatímabili sem er, að því gefnu að eftirfaran
 Þegar birgðatímabili hefur verið lokað er ekki hægt að eyða birgðatímabilinu. Hægt er hins vegar að enduropna það til að leyfa bókun áður en að lokadagsetningu birgðatímabilsins er komið. Enduropnun tímabils enduropnar líka öll birgðatímabil með lokadagsetningar seinni en það tímabil sem er enduropnað.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Til að enduropna birgðatímabil  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðahaldstími** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatímabil** og veldu síðan tengda tengilinn.  
 2. Velja skal birgðatímabilið sem á að enduropna.  
 3. Velja aðgerðina **Enduropna tímabili**. Staðfesta að það eigi að enduropna tímabilið.  
 4. Allir birgðahaldstímar með lokadagsetningu sem kemur síðar en valið tímabilið eru enduropnaðir.  

@@ -1,8 +1,6 @@
 ---
 title: Yfirlit bókunarlínu færslubókar | Microsoft Docs
 description: Þetta efnisatriði fjallar um breytingar á Kóðaeining 12, **Bókunarlína fjárhags**, sem er helsti forritahluti bókana í fjárhag og er eini staðurinn þar sem færslur í fjárhag, VSK, viðskiptamenn og lánardrottna eru settar inn.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5589aa476662a9dff69e95d70367ae4c5e45aaba
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9de46d66fe13a798dda812b74f19b9ed247b84fd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303557"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880401"
 ---
 # <a name="general-journal-post-line-overview"></a>Yfirlit bókunarlínu færslubókar
 Kóðaeining 12, **Bókunarlína fjárhags**, er helsti forritahluti bókana í fjárhag og er eini staðurinn þar sem færslur í fjárhag, VSK, viðskiptamenn og lánardrottna eru settar inn. Kóðaeiningin er einnig notuð fyrir allar aðgerðir Jafna, Ógilda og Reverse.  

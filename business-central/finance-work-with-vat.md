@@ -1,8 +1,6 @@
 ---
 title: 'Hvernig á að: vinna með VSK í sölu og innkaupum | Microsoft Docs'
 description: Þetta efnisatriði lýsir því hvernig framkvæma skal verk á borð leiðréttingu bókaðs VSK í ESB-löndum/svæðum, allar sölu- og innkaupafærslur falla undir VSK-útreikning. Í þessu efnisatriði er því lýst hvernig það er gert.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 24f9720c0dfb1641db347d6eca37d7e4f4c3a2ab
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e9e8ecf2c53a168fe0dee28a8e9dce8b2db11fa4
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554183"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882447"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Unnið með VSK í sölu og innkaupum
 Ef þitt land eða svæði krefst þess að reiknaður sé VSK skattur á sölu- og innkaupafærslur svo hægt sé talið upphæðirnar fram til skattayfirvalda, geturðu sett upp [!INCLUDE[d365fin](includes/d365fin_md.md)] þannig að VSK verði reiknaður sjálfkrafa á sölu- og innkaupaskjölum. Frekari upplýsingar, sjá [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md).
@@ -95,10 +93,10 @@ Eftirfarandi skref þarf að klára áður en VSK er fært handvirkt inn í söl
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Til að setja upp innkaup fyrir bókun VSK-reikninga vegna innflutnings  
 1. Lánardrottnaspjald er sett upp fyrir innflutningsyfirvöld sem senda VSK-reikning vegna innflutnings. **Alm. viðsk.bókunarflokkur** og **VSK viðsk.bókunarflokkur** verða að vera uppsettir á sama hátt og fjárhagsreikningurinn fyrir VSK vegna innflutnings.  
 2. **Alm. vörubókunarflokkur** búinn til fyrir VSK vegna innflutnings og **Sjálfg. VSK-vörubókunarfl.** fyrir VSK vegna innflutnings er settur upp fyrir tengdan **Alm. vörubókunarflokk**.  
-3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
+3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókhaldslykill** og veldu síðan tengda tengilinn.  
 4. Veldu fjárhagsreikning VSK-innflutnings og svo aðgerðina **Breyta**.  
 5. Á flýtiflipanum **Bókun** er uppsetningin **Almennur framleiðslubókunarflokkur** settur upp fyrir VSK innflutning. [!INCLUDE[d365fin](includes/d365fin_md.md)] fyllir sjálfkrafa inn í reitinn **VSK viðsk.bókunarflokkur.**.  
-6. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning almenns bókunargrunns** og veldu síðan tengda tengilinn.  
+6. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Almennur bókunargrunnur** og veldu síðan tengda tengilinn.  
 7. Búa til samsetningu **Alm. viðsk.bókunarflokks** fyrir VSK yfirvöld og **Alm. vörubókunarflokks** fyrir VSK vegna innflutnings. Fyrir þessa nýju samsetningu er fjárhagsreikningur fyrir VSK vegna innflutnings valinn í reitnum **Innkaupareikningur**.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Að stofna nýjan reikning fyrir lánardrottnayfirvald innflutninga þegar uppsetningunni er lokið  
@@ -114,7 +112,7 @@ Eftirfarandi skref þarf að klára áður en VSK er fært handvirkt inn í söl
 Þegar vörur eru seldar viðskiptamanni í öðru land/svæði innan Evrópusambandsins þarftu að senda viðskiptamanninum afhendingarvottorð sem hann þarf að skrifa undir og skila þér. Eftirfarandi ferli eru fyrir meðhöndlun framboðsvottorða fyrir söluafhendingar, en sömu skref gilda um þjónustuafhendingu vara og skilaafhendingar til lánardrottna.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Til að skoða upplýsingar afhendingarvottorðs  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar söluafhendingar** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar söluafhendingar** og veldu síðan tengda tengilinn.  
 2. Veldu viðeigandi sölusendingu til viðskiptamaður í öðru landi/svæði Evrópusambandsins  
 3. Velja skal **Upplýsingar um afhendingarvottorð**  
 4. Sjálfgefið er að ef uppsetning VSK-bókunarflokkur fyrir viðskiptamann hefur **Afhendingarvottorð áskilið** er gátreitur valinn og reiturinn **Staða** stilltur á **Áskilinn**. Hægt er að uppfæra reitinn til að tákna hvort vottorðið hafi borist frá viðskiptamanninum.  
@@ -133,7 +131,7 @@ Eftirfarandi skref þarf að klára áður en VSK er fært handvirkt inn í söl
     >  Hægt er að forskoða eða prenta skjalið. Þegar þú velur **Prenta afhendingarvottorð** og prentar skjalið, er gátreiturinn **Prentað** sjálfkrafa valinn. Að auki er staða vottorðsins uppfærð í **Áskilið** ef það er ekki þegar skilgreint. Þú setur inn prentaða vottorðið með sendingunni ef þurfa þykir.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Til að prenta afhendingarvottorð  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar söluafhendingar** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar söluafhendingar** og veldu síðan tengda tengilinn.  
 2. Veldu viðeigandi sölusendingu til viðskiptamaður í öðru landi/svæði Evrópusambandsins  
 3. Velja aðgerðina **Prenta afhendingarvottorð**.  
 
@@ -151,7 +149,7 @@ Eftirfarandi skref þarf að klára áður en VSK er fært handvirkt inn í söl
 8. Þú verður að senda prentaða afhendingarvottorðið til viðskiptamannsins til undirritunar.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Til að uppfæra stöðu afhendingarvottorðs fyrir sendingu.  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar söluafhendingar** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar söluafhendingar** og veldu síðan tengda tengilinn.  
 2. Veldu viðeigandi sölusendingu til viðskiptamaður í öðru landi/svæði Evrópusambandsins  
 3. Í reitnum **Staða** veljið viðeigandi valkost.  
 

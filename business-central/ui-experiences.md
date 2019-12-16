@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/08/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c9223176968d048d167b3b8509cab26343ee9f1
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 32de53150f90f2400962f33601a0fa45c059bd4c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775332"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882159"
 ---
 # <a name="change-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að hjálpa stjórnendum að reka fyrirtæki, óháð stærð og margbreytileika þeirra. Varan inniheldur ómissandi eiginleika á borð við fjárhagsskýrslugerð, sölu, kaup og birgðastjórnun. Þegar umsvif fyrirtækis aukast er hægt að kveikja á annarri virkni, t.d. fyrir framleiðslu og þjónustustjórnun.
@@ -40,10 +40,10 @@ Upplifanir sem hægt er að velja í [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Stillingin **Upplifun** gildir um alla notendur í fyrirtæki en hver notandi getur sérstillt eigin upplifun enn frekar með því að breyta útliti og efni á síðu. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Virkjar eiginleika úrvalsáskriftar eftir uppfærslu á áætlun
-Áætlunum er úthlutað til notenda í stjórnendamiðstöðinni Office 365 í tengslum við almennu vinnuna til að búa til notendur Business Central. Frekari upplýsingar, sjá [Bæta notendum við Office 365 fyrir fyrirtæki](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Áætlunum er úthlutað til notenda í Microsoft 365 stjórnendamiðstöðinni í tengslum við almennu vinnuna til að búa til notendur Business Central. Frekari upplýsingar er að finna í [Bæta stökum notendum eða mörgum í einu við Office 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Til að uppfæra breytingar á áætlunum í flokkum notenda
-Þegar þú hefur gert breytingu á áætlunum notenda í stjórnendamiðstöðinni Office 365, á borð við að úthluta fleiri notendum á úrvalsáskriftina, verður þú að endurspegla breytinguna í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Þegar þú hefur gert breytingu á áætlunum notenda í Microsoft 365 stjórnendamiðstöðinni, á borð við að úthluta fleiri notendum á úrvalsáskriftina, verður þú að endurspegla breytinguna í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Skráðu þig inn sem stjórnanda.
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: b38a48c4b9a57a863518a6cd701176a0635b552b
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: a23af49140b683c5383287b3057f024644c19133
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774700"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808866"
 ---
 # <a name="administration"></a>Stjórnun
 Almenn stjórnunarverk eru yfirleitt framkvæmd af einu hlutverki innan fyrirtækisins. Umfang þessara verka getur byggst á stærð fyrirtækisins og starfsábyrgð stjórnandans. Þessi verk geta falið í sér umsjón með gagnagrunnssamstillingu verkraða og póstraða, uppsetningu notenda og sérstillingu viðmóts.  
@@ -33,7 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Skilgreinið hverjir geta skráð sig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að búa til notendur í Office 365 stjórnendamiðstöð samkvæmt vöruleyfum.|[Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)| 
+|Skilgreinið hverjir geta skráð sig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að búa til notendur í Microsoft 365 stjórnendamiðstöð samkvæmt vöruleyfum.|[Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)| 
 |Úthluta heimildum til notendur, breyta heimildasöfnum og hópa notendur saman til að auðvelda heimildastjórnun.|[Úthluta leyfi til notenda og hópa](ui-how-users-permissions.md)|
 |Bæta við notendum, meðhöndla heimildir og aðgang að gögnum, úthluta hlutverkum.|[Vinna með forstillingar](admin-users-profiles-roles.md)|
 |Flokka gagnatrúnað fyrir reiti þannig að þú getir svarað beiðnum frá skráðum aðilum sem tengjast persónuupplýsingum þeirra.|[Flokkun gagnatrúnaðar](admin-classifying-data-sensitivity.md)|

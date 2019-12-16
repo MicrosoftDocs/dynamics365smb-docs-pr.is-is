@@ -1,8 +1,6 @@
 ---
 title: Tína vörur | Microsoft Docs
 description: Vöruhúsaaðgerðin að tína vörur áður en þær eru afhentar eða notaðar er framkvæmd með mismunandi hætti, eftir því hvernig vöruhúsakerfisaðgerðir eru grunnstilltar. Flækjustig [Uppsetningar](../configure-warehouse-processes.md) getur verið allt frá engum vöruhúsaaðgerðum, gegnum einfaldar grunngerðum vöruhúss með meðhöndlun pöntun fyrir pöntun í einni eða fleiri aðgerðum einvörðungu, til ítarlegra grunnstillinga þar sem allar vöruhúsaaðgerðir eru framkvæmdar í beinu verkflæði.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 23c01374b7b044c8f497126ef6409bf27b80dffe
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3922c9696c7b0a06e49c0bfc505343bdfb58b231
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313833"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881511"
 ---
 # <a name="pick-items"></a>Tína til vörur
 Vöruhúsaaðgerðin að tína vörur áður en þær eru afhentar eða notaðar er framkvæmd með mismunandi hætti, eftir því hvernig vöruhúsakerfisaðgerðir eru grunnstilltar. Flækjustigið getur verið allt frá engum vöruhúsaaðgerðum, gegnum einfaldar grunngerðum vöruhúss með meðhöndlun pöntun fyrir pöntun í einni eða fleiri aðgerðum einvörðungu, til ítarlegra grunnstillinga þar sem allar vöruhúsaaðgerðir eru framkvæmdar í beinu verkflæði. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).

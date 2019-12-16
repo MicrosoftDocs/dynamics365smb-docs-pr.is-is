@@ -1,8 +1,6 @@
 ---
 title: Hvernig skal setja upp staðalverk fyrir aðgerðir | Microsoft Docs
 description: Hægt er að færa inn lýsingar á staðalverkum.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,25 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 203b42ed7b9e4650cdf837825603ff4f4a5edf5e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a967136064b59cb0ff8ef7bdd9a3e8b684e54a8f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314217"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878024"
 ---
 # <a name="set-up-standard-routing-lines"></a>Setja upp staðlaðar leiðarlínur
 Notkun staðalverka einfaldar gerð og viðhald leiða. Gera þér kleift að bæta aukaupplýsingum fljótt við ítrekuð ferli.
 
 ## <a name="to-set-up-a-standard-task"></a>Setja upp staðlaðan verkhluta
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðalverkhlutar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðalverkhlutar** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velja **Verkfæri**, **Starfsmaður**, **Lýsing** eða **Verkfæri** aðgerðina.
 5. lýstu staðlaða verkhlutanum sem um ræðir á síðunni sem opnast.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Bæta stöðluðum verkhluta við aðgerð
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **leiðir** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leið** og veldu síðan tengda tengilinn.
 2. Viðeigandi leið er opnuð.
 3. Velja viðeigandi leiðarlínu, velja aðgerðina **Aðgerðir** og veljið síðan **Verkfæri**, **Starfsmaður**, **Lýsing** eða **Verkfæri** aðgerðina.
 

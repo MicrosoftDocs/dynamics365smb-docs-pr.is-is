@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að ganga frá vörum með vöruhúsafrágangi | Microsoft Docs
 description: Þegar birgðageymslan er sett þannig upp að hún krefst vöruhúsafrágangs- og vöruhúsamóttökuvinnslu eru vöruhúsafrágangsskjöl aðgerðin notuð til að stjórna frágangi á vörum.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 17743791d7694754f8b8eb97f6792a94b68176d2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f9c1e144e5574e04d1d5baec039d3f358839631e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310253"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881655"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ganga frá vörum með vöruhúsafrágangi
 Þegar birgðageymslan er sett þannig upp að hún krefst vöruhúsafrágangs- og vöruhúsamóttökuvinnslu eru vöruhúsafrágangsskjöl aðgerðin notuð til að stjórna frágangi á vörum.  
@@ -29,7 +27,7 @@ ms.locfileid: "2310253"
 Auk staðlaðra aðferða til að stofna vöruhúsafrágang eins og lýst er í þessu efnisatriði er hægt að hægt að stofna frágang úr tengdri bókaðri vöruhúsamóttöku. Þetta kemur að notum ef búið er að eyða frágangslínum, eða ef notuð hafa verið beinn frágangur og tínsla og ákvörðun hefur verið tekin um að nota ekki vinnublað frágangs, vegna þess að hægt að stofna eða endurstofna frágangsleiðbeiningar fyrir bókaðar móttökulínur.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Frágangur á vörum án beins frágangs og tínslu  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **frágangur** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Frágangur** og veldu síðan tengda tengilinn.  
 2.  Opnar vöruhúsafrágang sem er tilbúin til meðhöndlunar.  
 
     Hægt er að raða frágangslínunum eftir ýmsum skilyrðum, til dæmis vöru, hillunúmeri eða lokadagsetningu og betrumbæta þannig frágangsferlið.  
@@ -37,7 +35,7 @@ Auk staðlaðra aðferða til að stofna vöruhúsafrágang eins og lýst er í 
 4.  Þegar lokið hefur verið við að ganga frá vörunum er smellt á **Skrá frágang** aðgerðina til að skrá það að aðgerðinni sé lokið og gera vörurnar tiltækar fyrir tínslu.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Frágangur á vörum með beinum frágangi og tínslu  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **frágangur** og veldu síðan tengda tengilinn.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Frágangur** og veldu síðan tengda tengilinn.
     Hafi frágangsleiðbeiningar verið stofnaðar sést frágangur í vöruhúsi.  
 2.  Opnar vöruhúsafrágang sem á að vinna með.  
 3.  Ef það er krafa vöruhússins er kenni notanda fært inn í flýtiflipann **Almennt** þegar byrjað er að vinna við tiltekinn frágang.  
@@ -65,7 +63,7 @@ Tekið er mið af hólfaflokkuninni þegar fleiri en eitt hólf uppfylla skilyr�
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Til að búa til frágang úr bókaðri uppskrift  
  Ef birgðageymsla notar bæði frágangsvinnslu og móttökuvinnslu og búið er að eyða frágangslínum, eða ef notuð hafa verið beinn frágangur og tínsla og ákvörðun hefur verið tekin um að nota ekki vinnublað frágangs, þá er hægt að stofna eða endurstofna frágangsleiðbeiningar fyrir bókaðar móttökulínur.
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsamóttaka** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar vöruhúsamótt.** og veldu síðan tengda tengilinn.  
 2.  Velja skal bókaða móttöku sem hugsanlega þarf að ganga frá.  
 3.  Velja aðgerðina **Spjald**.  
 

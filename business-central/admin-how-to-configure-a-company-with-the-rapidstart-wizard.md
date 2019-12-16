@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti | Microsoft Docs
 description: Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að nota RapidStart Services leiðsagnarforritið.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a6bc660112edb7a316fcbb2f0bdfddd0f5e90634
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d26073d7b96b3c5970689c916edf18fccab6ca34
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308141"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878702"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti
 Fljótlegt er að skilgreina nýja fyrirtækið sem var stofnað með því að nota RapidStart Services leiðsagnarforritið.

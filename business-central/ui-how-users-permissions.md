@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 12/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: c64a14ed66668f8c3cbe09e8db3430a7dc25db5c
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 1d0b7b7363df88e52631b4ba6e2f495be13f7397
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774820"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896158"
 ---
 # <a name="create-users-according-to-licenses"></a>Búa til notendur samkvæmt leyfum
 Hér á eftir er lýst hvernig þú sem stjórnandi býrð til notendur og skilgreinir hverjir geta skráð sig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] og hvaða grundvallarréttindi mismunandi notendagerðir eru með samkvæmt leyfum.
@@ -34,14 +34,17 @@ Til að skilgreina hverjir geta skráð sig inn á [!INCLUDE[d365fin](includes/d
 
 Frekari upplýsingar er að finna í [Stjórnun Business Central á netinu](/dynamics365/business-central/dev-itpro/administration/tenant-administration) í hjálp Developer og ITPro.
 
-Þegar notendur með [!INCLUDE[d365fin](includes/d365fin_md.md)] leyfi hafa verið stofnaðir í Office 365 er hægt að flytja þá inn á **Notendur** síðuna í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því velja aðgerðina **Sækja notendur úr Office 365**.
+Þegar notendur með [!INCLUDE[d365fin](includes/d365fin_md.md)] leyfi hafa verið stofnaðir í Office 365 er hægt að flytja þá inn á **Notendur** síðuna í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því velja aðgerðina **Sækja nýja notendur úr Office 365**.
 
 ### <a name="to-add-a-user-in-business-central"></a>Að bæta við notanda í Business Central
 Til að bæta notendum frá Microsoft 365 Admin Center við [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu notarðu sérstaka innflutningsaðgerð.  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.
-2. Veldu **Fá notendur frá Office 365** aðgerð.
+2. Veldu **Fá nýja notendur úr Office 365** aðgerðina.
 
 Sérhver nýr notandi sem hefur verið búinn til fyrir Office 365 áskriftina þína verður honum bætt við á síðunni **Notendur**. Notendum er úthlutað heimildasamstæðum samkvæmt leyfi sem úthlutað er til notanda í Office 365. Síðan geturðu haldið áfram að úthluta notendum ítarlegri heimildum og flokka þá í notendahópa til að einfalda þér að úthluta heimildum. Nánari upplýsingar er að finna í [Til að úthluta heimildasamstæðu á notendur](ui-define-granular-permissions.md#to-assign-permission-sets-to-users)
+
+> [!NOTE]
+> Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, geturðu boðið þeim í þitt Business Central svo þeir geti unnið með þín fjárhagsgögn. Frekari upplýsingar eru í [Bjóða ytri endurskoðanda í þitt Business Central](finance-accounting.md#inviteaccountant)
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Til að fjarlægja aðgang notanda að kerfinu
 Í uppsetningu á netinu er hægt að fjarlægja aðgang notanda að kerfinu með því að stilla reitinn **Staða** á **Óvirkt**. Allar tilvísanir til notandans verða varðveittar, en notandinn getur ekki lengur skráð sig inn í kerfið og virkar lotur fyrir notandann verða stöðvaðar.
@@ -50,22 +53,38 @@ Sérhver nýr notandi sem hefur verið búinn til fyrir Office 365 áskriftina �
 2. Opnaðu síðuna **Notandaspjald** fyrir viðkomandi notanda og síðan, í reitnum **Staða**, skal velja **Óvirkt**.
 3. Til að veita notandanum aðgang aftur skal stilla **Ástand** reitinn á **Virkt**.
 
-Auk þess að óvirkja notanda geturðu tekið leyfið af notanda í Office 365 stjórnendamiðstöðinni. Þá getur notandinn ekki skráð sig inn. Nánari upplýsingar er að finna í [Leyfi tekin af notendum](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
+Auk þess að óvirkja notanda geturðu tekið leyfið af notanda í Microsoft 365 stjórnendamiðstöðinni. Þá getur notandinn ekki skráð sig inn. Nánari upplýsingar er að finna í [Leyfi tekin af notendum](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
 
 ### <a name="to-change-the-assigned-license-for-a-user"></a>Til að breyta úthlutuðu leyfi notanda
 Stundum gætirðu þurft að breyta leyfi sem er úthlutað til notanda. Ef þú ákveður til dæmis að nota þjónustukerfiseininguna og þarft því að uppfæra allar grunnáskriftir í úrvalsáskriftir. Eða ef ábyrgð notanda hefur breyst og nauðsynlegt er að skipta út Team Members-leyfi fyrir grunnáskrift.
 
-1. Breyttu leyfinu í stjórnendamiðstöð Office 365. Frekari upplýsingar er að finna í [Bæta stökum notendum eða mörgum í einu við Office 365](https://aka.ms/CreateOffice365Users).
+1. Breyttu leyfinu í Microsoft 365 stjórnendamiðstöð. Frekari upplýsingar er að finna í [Bæta stökum notendum eða mörgum í einu við Office 365](https://aka.ms/CreateOffice365Users).
 2. Skráðu þig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] sem stjórnandi.
 3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.
 4. Á síðunni **Notendur** skaltu velja aðgerðina **Endurhlaða alla notendaflokka**.
+
 Notendurnir verða færðir yfir í viðeigandi notendahóp og heimildasamstæðurnar verða uppfærðar. Frekari upplýsingar er að finna á[Til að stjórna heimildum í gegnum notendaflokka](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > Öllum venjulegum notendum í lausn verður að vera veitt sama leyfi, grunn eða úrvals.
 > Fyrir upplýsingar um leyfisveitingu, sjá [Microsoft Dynamics 365 Business Central leyfishandbók](https://aka.ms/BusinessCentralLicensing).
 
-## <a name="managing-users-and-licenses-in-online-deployments"></a>Umsjón með notendum og leyfum uppsetningum á netinu
+### <a name="synchronization-with-office-365"></a>Samstilling við Office 365
+Þegar leyfi er úthlutað til notanda í Office 365 eru tvær leiðir til að búa notandann til í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kerfið gerir það sjálfkrafa þegar notandinn skráir sig inn í fyrsta sinn en einnig getur stjórnandi bætt notandanum við með því að velja **Sækja notendur úr Office 365** aðgerðina á síðunni **Notendur**.
+
+Í báðum tilvikum er fjöldi viðbótarstillinga valinn sjálfkrafa. Þessi atriði eru talin upp í öðrum og þriðja dálkinum í töflunni hér að neðan.
+
+Ef þú breytir notandanum í Office 365 eftirá og þarft að samstilla breytingarnar við [!INCLUDE[d365fin](includes/d365fin_md.md)] geturðu notað mismunandi aðgerðir á síðunni **Notendur**, allt eftir því hvað nákvæmlega þú vilt samstilla. Þessi atriði eru talin upp í síðustu þremur dálkunum í töflunni hér að neðan.
+
+|Hvað gerist ef:|Fyrsta innskráning|Fá notendur frá Office 365|Uppfæra notendur úr Office 365|Endurheimta sjálfgefna notendahópa notanda|Uppfæra notendahópa|
+|-|-|-|-|-|-|
+|Umfang:|Núverandi notandi|Nýir notendur í Office 365|Margir notendur valdir|Einn notandi valinn  (fyrir utan núverandi)|Margir notendur valdir|
+|Bættu við nýjum notanda og úthlutaðu SUPER heimildasamstæðu.<br /><br />Kerfi|**X**|**X**| | | |
+|Uppfærðu notandafærslu í samræmi við raunverulegar upplýsingar í Office 365: Staða, fullt nafn, netfang tengiliðs, sannvottunarpóstur.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
+|Samstilltu notendaáskriftir (leyfi) með leyfum og hlutverkum sem eru úthlutuð í Office 365.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
+|Bættu notandanum við notendaflokka í samræmi við notendaáskriftir. Afturkalla SUPER heimildasamstæðu. Velja þarf a.m.k. eitt SUPER Ekki afturkalla frá [kerfisstjóra](/dynamics365/business-central/dev-itpro/administration/tenant-administration).)<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Skrifa yfir: Fjarlægðu notandann úr öðrum hópum. Fjarlægja heimildasamstæður á notendur handvirkt.|**X**<br /><br />Bæta við: Haltu núverandi aðild í notendaflokkunum og úthlutaðu heimildasamstæðunum óbreyttum. Aðeins bæta notanda við hópa ef þörf krefur.|
+
+## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Umsjón með notendum og leyfum í uppsetningu innanhúss
 Fyrir uppsetningu á staðnum er fjöldi notenda með leyfi tilgreindur í leyfisskránni (.flf). Þegar stjórnandi eða Microsoft-samstarfsaðili hleður upp leyfisskránni getur stjórnandinn tilgreint hvaða notendur geta skráð sig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Fyrir uppsetningar innanhúss býr stjórnandinn til, breytir og eyðir notendum beint af síðunni **Notendur**.

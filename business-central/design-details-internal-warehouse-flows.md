@@ -1,8 +1,6 @@
 ---
 title: Hönnunarupplýsingar - Innra vöruhúsaflæði | Microsoft Docs
 description: Flæði vara á milli hólfa innan fyrirtækis snýst um að tína íhluti og taka frá endanleg vara fyrir framleiðslu- eða samsetningupantanir og tilfallandi hreyfingar, svo sem áfyllingu hólfs, án tengslum við upprunaskjöl.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bce55cda1ba5fd5dd89ad75b224651df719d76d5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55f58acc0f65469261903c28b71942010d44c695
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303461"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880353"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Hönnunarupplýsingar: Innra vöruhúsaflæði
 Flæði vara á milli hólfa innan fyrirtækis snýst um að tína íhluti og taka frá endanleg vara fyrir framleiðslu- eða samsetningupantanir og tilfallandi hreyfingar, svo sem áfyllingu hólfs, án tengslum við upprunaskjöl. Umfang og eðli tengdra aðgerða eru mismunandi á milli grunnvörugeymslu og ítarlegri vörugeymslu.  
@@ -116,7 +114,7 @@ Flæði vara á milli hólfa innan fyrirtækis snýst um að tína íhluti og ta
 
  Eftirfarandi mynd sýnir þegar reiturinn **Hólfkóti** á efnisþáttalista er fylltur út út frá staðsetningu notanda eða uppsetningu vinnuvélar-/vinnustöðvarmiðstöðvar.  
 
- ![Yfirlit yfir hvenær/hvernig hólfakóðareitinn er fyllt inn](media/binflow.png "Yfirlit yfir hvenær/hvernig hólfakóðareitinn er fyllt inn")  
+ ![Yfirlit yfir hvenær/hvernig hólfakóðareitur er fylltur inn](media/binflow.png "Yfirlit yfir hvenær/hvernig hólfakóðareitur er fylltur inn")  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)

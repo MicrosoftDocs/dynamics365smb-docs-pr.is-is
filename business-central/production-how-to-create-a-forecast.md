@@ -1,8 +1,6 @@
 ---
 title: Hvernig skal búa til eftirspurnarspá | Microsoft Docs
 description: Þú getur búið til sölu- og framleiðsluspár á síðunni **Eftirspurnarspá**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314193"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883383"
 ---
 # <a name="create-a-demand-forecast"></a>Búa til eftirspurnarspá
 Þú getur búið til sölu- og framleiðsluspár á síðunni **Eftirspurnarspá**.  
@@ -53,7 +51,7 @@ Hægt er að líta á íhlutaspána sem valkostaspá í sambandi við yfirvöru.
 
 ## <a name="to-create-a-demand-forecast"></a>Til að búa til eftirspurnarspá
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **eftirspurnarspá** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eftirspurnarspá** og veldu síðan tengda tengilinn.  
 2.  Á **Almennt** flýtiflipanum skaltu velja spá í **Heiti eftirspurnarpár** reitnum. Margar spár geta verið til í kerfinu og þeim er skipt eftir heiti og spártegund.  
 3.  Í reitnum **Afmörkun staðsetningar** er staðsetningin valin sem þessi spá mun eiga við um.  
 4.  Í reitnum **Tegund spár** er valið **Vörusala**, **Íhlutur** eða  **Bæði**. Ef valin er **Vörusala** eða **Íhlutur**, er hægt að breyta magninu eftir tímabili. Ef þú velur **Bæði**, þá er ekki hægt að breyta magninu, en þú getur valið fellilistann og skoðað eftirspurnarspáfærslurnar.  

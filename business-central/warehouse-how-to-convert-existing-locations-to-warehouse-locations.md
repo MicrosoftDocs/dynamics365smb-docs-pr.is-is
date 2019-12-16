@@ -1,8 +1,6 @@
 ---
 title: 'Hvernig á að: Breyta fyrirliggjandi staðsetningum í vöruhúsastaðsetningar | Microsoft Docs'
 description: Hægt er að láta birgðageymslu sem til er nota svæði og hólf og vinna sem vöruhúsastað.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6319abc70c30117f7789852495501f0ef7605f49
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c6c7e157df93aa2d77153bb46584f53f97e3f98d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310448"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876704"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Breyta fyrirliggjandi staðsetningum í vöruhúsastaðsetningar
 Hægt er að láta birgðageymslu sem til er nota svæði og hólf og vinna sem vöruhúsastað.  
@@ -30,7 +28,7 @@ Hægt er að stofna svæði og hólf fyrir eða eftir umbreytinguna. Eina hólfi
 >  Til að hreinsa allar neikvæðar birgðir og öll opin vöruhúsaskjöl áður en birgðageymslu er umbreytt fyrir vöruhúsameðhöndlun skal keyra skýrslu til að finna vörurnar með neikvæðar birgður og opin vöruhúsaskjöl fyrir birgðageymsluna. Frekari upplýsingar eru í Athuga neikvæða birgðastöðu.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Birgðageymsla sett upp sem vöruhúsastaður  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Búa til staðsetningu vöruhúss** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofna vöruhúsastaðsetningu** og veldu síðan tengda tengilinn.  
 2.  Í reitnum **Kóti birgðageymslu** skal tilgreina birgðageymslu sem á að virkja fyrir úrvinnslu vöruhúss  
 3.  Í reitnum **Kóti leiðréttingarhólfs** skal tilgreina hólfinu í birgðageymslunni þar sem ósamstilltar vöruhúsafærslur eru geymdar. Frekari upplýsingar er að finna í [Að samstilla leiðréttar vöruhúsafærslur við tengdar birgðabókafærslur](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 

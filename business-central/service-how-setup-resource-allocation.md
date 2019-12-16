@@ -1,8 +1,6 @@
 ---
 title: Setja upp forðaúthlutun | Microsoft Docs
 description: Lærðu hvernig kerfið getur hjálpað til við að tryggja að þú úthlutir þjónustu til einhvers sem hefur nauðsynlega eiginleika til veita hana.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ee97797c9dabab188f1e6a2bbf2cb1f9846e7321
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58f12e81a76712b8fa7704f3819b942ee0ba9773
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316165"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877448"
 ---
 # <a name="set-up-resource-allocation"></a>Setja upp forðaúthlutun
 Til að tryggja að þjónustuverkhluti sé framkvæmdur svo vel sé, er mikilvægt að finna tilfang sem er hæft til starfans. Þú getur sett upp [!INCLUDE[d365fin](includes/d365fin_md.md)] svo það sé auðvelt að úthluta verkinu til einhvers sem er hæfur til þess. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er þetta nefnt _Forðaúthlutun_. Hægt er að úthluta til tilfanga út frá hæfni þeirra, tiltækileika, eða hvort þau eru á sama þjónustusvæði og viðskiptamaðurinn. 
@@ -30,10 +28,10 @@ Til að  nota forðaúthlutun skal setja upp:
 
 ## <a name="to-set-up-skills"></a>Uppsetning á hæfni
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hæfni** og veldu síðan tengda tengilinn.  
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-skills-to-service-items-and-resources"></a>Úthluta hæfni til þjónustuvöru og tilfanga
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvara** eða **Tilföng** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvörur** eða **Tilföng** og veldu síðan tengda tengilinn.  
 2. Opna spjaldið fyrir þjónustuvöru eða tilfang og síðan velja eitt af eftirfarandi:  
   
     * Fyrir þjónustuvöru, velja **Tilföng hæfni**.  
@@ -41,10 +39,10 @@ Til að  nota forðaúthlutun skal setja upp:
 
 ## <a name="to-set-up-zones"></a>Setja upp svæði
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Svæði** og veldu síðan tengda tengilinn.  
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-zones-to-customers-and-resources"></a>Úthluta svæðum til viðskiptamanna og tilfanga 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **viðskiptamenn** eða **Tilföng** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** eða **Tilföng** og veldu síðan tengda tengilinn.  
 2. Opna spjaldið fyrir þjónustuvöru eða tilfang og síðan velja eitt af eftirfarandi:  
   
     * Fyrir viðskiptamenn, velja svæði í **Þjónustusvæðiskóði** reitnum.  
@@ -63,7 +61,7 @@ Til að  nota forðaúthlutun skal setja upp:
 ## <a name="to-update-resource-capacity"></a>Uppfæra Forðageta  
 Ef til vill þarf að breyta forðagetu.  
   
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afkastaveita tilfanga** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forðageta** og veldu síðan tengda tengilinn.  
 2. Veljið tilfang og velja svo aðgerðina **Stilla afkastageta**.  
 3. Gera breytingar og velja svo **Uppfæra afkastagetu**.  
 

@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 11/06/2019
+ms.date: 12/06/2019
 ms.author: edupont
-ms.openlocfilehash: cf4fe3abc4a31619015520f2be598976b0fc8f5c
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775500"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896186"
 ---
 # <a name="frequently-asked-questions"></a>Algengar spurningar
 
@@ -20,7 +20,7 @@ ms.locfileid: "2775500"
 
 ## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] fáanlegt í mínu landi?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er fáanlegt á takmörkuðum fjölda markaða, en nýjum löndum er bætt við með staðfæringum sem eru leiddar af Microsoft eða samstarfsaðilum ársfjórðungslega. Nánari upplýsingar eru í [Studd lönd og þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er fáanlegt á takmörkuðum fjölda markaða, en nýjum löndum er bætt við með staðfæringum sem eru leiddar af Microsoft eða samstarfsaðilum ársfjórðungslega. Frekari upplýsingar eru í [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (aðeins í boði á ensku).  
 
 ## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>Hvernig fæ ég [!INCLUDE [prodshort](includes/prodshort.md)]?
 
@@ -84,7 +84,7 @@ Ef þú ert ekki með Office 365 áskrift og þú vilt ekki kaupa hana, þá þe
 [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu er fullsamþætt viðOffice 365 svo þú getur flett frjálslega á milli Office 365 forrita og [!INCLUDE[d365fin](includes/d365fin_md.md)] með forritaræsingu. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að opna gögn í Excel, prenta skýrslur með Word, og notandi getur unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögn í Outlook, til dæmis. Nánari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnboxið þitt í Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Get ég framlengt 30 daga prufutímabilið fyrir „Nýtt Fyrirtæki“?
-Já. Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn. Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum. Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum. Þú getur lengt prufutímann einu sinni sjálf/ur. Eftir það getur Microsoft samstarfsaðili lengt hann í aðra 30 daga. Frekari upplýsingar er að finna í [Framlengja prufutímabilinu](admin-extend-trial.md). 
+Já. Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn. Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum. Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum. Þú getur lengt prufutímann einu sinni sjálf/ur. Eftir það getur Microsoft samstarfsaðili lengt hann í aðra 30 daga. Frekari upplýsingar er að finna í [Framlengja prufutímabilinu](admin-extend-trial.md).
 
 > [!NOTE]
 > Það getur tekið allt að tvo virka daga að ljúka við framlengingarferli fyrir prufutímabilið.  
@@ -108,10 +108,12 @@ Ef þú ertu tilbúin/n til að kaupa [!INCLUDE [prodshort](includes/prodshort.m
 
 Ef þú vilt fá leiðsögn frá Microsoft skaltu hafa samband við [Teymi Microsoft Sales](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Endursöluaðilinn þinn mun einnig sjá um tæknilega aðstoð fyrir þig. Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).  
+Endursöluaðilinn þinn mun einnig sjá um tæknilega aðstoð fyrir þig. Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).
+
+## <a name="is-the-windows-client-supported"></a>Er Windows-biðlarinn studdur?
+Fyrstu útgáfur af [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum fylgir uppsettur biðlari frá Microsoft Dynamics NAV. Frá og með 2019 útgáfutímabili 2, er þessi eldri hluti, sem vísað er í sem „Windows-biðlarinn“ ekki lengur í boði fyrir [!INCLUDE[prodshort](includes/prodshort.md)]. Frekari upplýsingar eru í [Algengar spurningar um þróunaraðila og ITPro upplifun](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
 
 ## <a name="see-also"></a>Sjá einnig
-
 [Hafist handa](product-get-started.md)  
 [Algengar spurningar um Viðmótsleit](ui-search-faq.md)  
 [Algengar spurningar um leit og síun](ui-search-filter-faq.md)  
@@ -125,5 +127,7 @@ Endursöluaðilinn þinn mun einnig sjá um tæknilega aðstoð fyrir þig. Frek
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Business Central námskrá](readiness/readiness-learning-catalog.md)  
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
+[Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Algengar spurningar um þróunaraðila og ITPro upplifun](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: margoc
 ms.author: solsen
-ms.openlocfilehash: 40759a8ed442b4523066734868c86715d3dec5dd
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: de638f779f45eb3d6dcb637310c85e5675b69338
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767799"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832168"
 ---
 # <a name="sales-learning-catalog"></a>Námskrá sölu
 
@@ -23,7 +23,7 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 
 | Efni                                                                          | Description                                                                                                                                                                                                                                                                                              | Snið                                | Lengd              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Aðeins fyrir samstarfsaðila) Þessi lota gerir grein fyrir gildi Business Central. Business Central er sérlega gagnlegt vegna þess að það er samþættast við aðra skýjaþjónustu Microsoft, þ.m.t. Office 365 og hægt er að sérsníða það eða stækka fyrir tilteknar þarfir í iðnaði með PowerApps, Microsoft Flow og Power BI. | Myndband                                 | 8 mínútur 5 sekúndur |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Aðeins fyrir samstarfsaðila) Þessi lota gerir grein fyrir gildi Business Central. Business Central er sérlega gagnlegt vegna þess að það er samþættast við aðra skýjaþjónustu Microsoft, þ.m.t. Office 365 og hægt er að sérsníða það eða stækka fyrir tilteknar þarfir í iðnaði með Power Apps, Power Automate, og Power BI. | Myndband                                 | 8 mínútur 5 sekúndur |
 | [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/) | Skoða Dynamics 365 Business Central möguleika                                                                                                                                                                                                                                                        | Vefsvæði                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Þessi eining sýnir eiginleika forrita, ávinning og dæmi um Dynamics 365 Business Central í aðgerð.                                                                                                                                                                                                | Ókeypis námsleið á netinu á eigin hraða | 24 mínútur          |
 
@@ -40,7 +40,7 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 
 | Efni                                                                          | Description                                                                                                                                                                                                                                                                                               | Snið                                | Lengd              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Aðeins fyrir samstarfsaðila) Þessi lota gerir grein fyrir gildi Business Central. Business Central er sérlega gagnlegt vegna þess að það er samþættast við aðra skýjaþjónustu Microsoft, þ.m.t. Office 365 og hægt er að sérsníða það eða stækka fyrir tilteknar þarfir í iðnaði með PowerApps, Microsoft Flow og Power BI. | Myndband                                 | 8 mínútur 5 sekúndur |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Aðeins fyrir samstarfsaðila) Þessi lota gerir grein fyrir gildi Business Central. Business Central er sérlega gagnlegt vegna þess að það er samþættast við aðra skýjaþjónustu Microsoft, þ.m.t. Office 365 og hægt er að sérsníða það eða stækka fyrir tilteknar þarfir í iðnaði með Power Apps, Power Automate, og Power BI. | Myndband                                 | 8 mínútur 5 sekúndur |
 | [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/) | Skoða Dynamics 365 Business Central möguleika                                                                                                                                                                                                                                                        | Vefsvæði                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Þessi eining sýnir eiginleika forrita, ávinning og dæmi um Dynamics 365 Business Central í aðgerð.                                                                                                                                                                                                | Ókeypis námsleið á netinu á eigin hraða | 24 mínútur          |
 

@@ -1,8 +1,6 @@
 ---
 title: Dagsetning útreiknings fyrir sölu | Microsoft Docs
 description: Forritið reiknar sjálfkrafa daginn sem verður að panta vöru svo hún sé til í birgðum á tilteknum degi. Þetta er dagsetningin sem vænta má þess að vara sem pöntuð er á tilteknum degi verði tiltæk til tínslu.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0fa1f07b5da450a2e6f634bda07752efd0e35889
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6080fd58b299a0bda74c1cdd9ff5758d8805b3a8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312245"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881378"
 ---
 # <a name="date-calculation-for-sales"></a>Dagsetning útreiknings fyrir sölu.
 [!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar sjálfkrafa út hvenær hægt er að afhenda vöru á sölupöntunarlínu í fyrsta lagi.

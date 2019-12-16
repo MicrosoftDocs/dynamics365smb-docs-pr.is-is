@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að fjöldabóka framleiðslufrálag og keyrslutíma | Microsoft Docs
 description: Afkastsmagnið sýnir vinnuframvinduna í formi afgreidds magns.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cc4acf5fbaf10df3b833e310a83854e52b0d2b73
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a0eeb0a944a0feaee27fcb6d5891f83151499940
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313253"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877784"
 ---
 # <a name="batch-post-output-and-run-times"></a>Fjöldabóka frálag og keyrslutíma
 Afkastsmagnið sýnir vinnuframvinduna í formi afgreidds magns.  
@@ -26,7 +24,7 @@ Afkastsmagnið sýnir vinnuframvinduna í formi afgreidds magns.
 > Aðeins þegar afkastsmagn er bókað í síðustu aðgerðinni eru birgðir sjálfkrafa uppfærðar.  
 
 ## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Bóka frálagsmagn fyrir eina eða fleiri framleiðslupantanalínur
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **frálagsbók** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Frálagsbók** og veldu síðan tengda tengilinn.  
 2. Reitirnir eru fylltir út með framleiðslupöntunargögnunum og frálagsgögnunum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Ef aðgerðinni er lokið skal velja reitinn **Lokið**.  
 
@@ -37,7 +35,7 @@ Afkastsmagnið sýnir vinnuframvinduna í formi afgreidds magns.
 ## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Bóka keyrslutími fyrir eina eða fleiri framleiðslupantanalínur
 Keyrslutíminn sýnir vinnuframvinduna í formi nauðsynlegs vinnutíma.    
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **frálagsbók** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Frálagsbók** og veldu síðan tengda tengilinn.  
 2. Reitirnir eru fylltir út með framleiðslupöntunargögnunum og frálagsgögnunum.  
 3.  Ef aðgerðinni er lokið skal velja reitinn **Lokið**.  
 4. Velja **bóka** aðgerðina til að bóka tíma eytt á aðgerð. Afkastagetufærslur eru uppfærðar fyrir notaðar vinnu- eða vélastöðvar.

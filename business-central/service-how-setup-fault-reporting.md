@@ -1,8 +1,6 @@
 ---
 title: Uppsetning bilanatilkynninga í þjónustukerfi | Microsoft Docs
 description: Hvernig á að setja upp bilanatilkynningaferli.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8c3d770f1ee6e0c50439f5d0a4591c463b91631a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 26e8e5dcd7ca3e69a3f7fbdfbe8c93d866cbce7d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316189"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882932"
 ---
 # <a name="set-up-fault-reporting"></a>Setja upp bilanatilkynningar
 Bilanatilkynningar gera þér kleift að setja fram staðla tengda tilkynningum bilanaupplýsinga fyrir þjónustuvörur. Þú getur t.d. tilgreint hvert vandamálið er, einkennin sem þú sérð, ástæðu vandamálsins og hvernig skal leysa það.  
@@ -41,7 +39,7 @@ Til að ljúka uppsetningu bilanatilkynninga er einnig hægt að tilgreina hvað
 <!--this needs to go in a working with topic-->
  Hægt er að skoða algengustu viðgerðir á tilteknum vörubilunum þegar unnið er við þjónustu á vörunni ef búið er að skipuleggja upplýsingar um vensl bilana- og úrlausnarkóða. Nota skal keyrsluna **Setja inn tengsl bilana/úrlausnakóða** til að finna allar samsetningar bilana- og úrlausnarkóða í bókuðum þjónustupöntunum og skrá þær á síðuna **Tengsl bilunar/úrlausnarkóða**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Setja inn vensl bilana/úrlausnarkóða** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Setja inn tengsl bilana/úrlausnakóða** og veldu síðan tengda tengilinn.  
 2. Færðu inn dagsetningar til að skilgreina tímabilið sem keyrslan á að ná til.  
 3. Veljið gátreitinn **Tengsl byggð á þjónustuvöruflokki** til að flokka tengslin eftir þjónustuvöruflokkum.  
 4. Ef óskað er eftir því að varðveittar séu færslur sem þegar er búið að handfæra á síðunni **Tengsl bilana/úrlausnarkóða** skal velja gátreitinn **Varðveita handfærðar færslur**.  

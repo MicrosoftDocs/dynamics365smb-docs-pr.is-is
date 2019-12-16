@@ -1,8 +1,6 @@
 ---
 title: Hvernig skal virkja verkflæði | Microsoft Docs
 description: Þegar verkflæði hefur verið stofnað og það á örugglega að ræsast verður að virkja verkflæðið.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6a59947f212d0634c6b6918e751db6d8278925c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48e95e17938c240862c8c5391bf328aa78bae7aa
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305405"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881145"
 ---
 # <a name="enable-workflows"></a>Virkja verkflæði
 Þegar verkflæði hefur verið stofnað og það á örugglega að ræsast verður að virkja verkflæðið.  
@@ -25,7 +23,7 @@ ms.locfileid: "2305405"
  Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Frekari upplýsingar eru í [Búa til verkflæði](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>Að virkja verkflæði  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **verkflæði** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkflæði** og veldu síðan tengda tengilinn.  
 2.  Opnið verkflæði sem á að virkja.  
 3.  Á síðunni **Verkflæði** skal velja gátreitinn **Virkjað**.  
 

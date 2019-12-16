@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að setja upp hólfategundir | Microsoft Docs
 description: Hægt er að beina vöruflæðinu gegnum hólf sem skilgreind hafa verið fyrir tilteknar vöruhúsaaðgerðir. Notandinn úthlutar hverju hólfi grunnflæðisaðgerðir, og skilgreinir þannig hvernig hólfið verður notað í kerfinu, með því að úthluta því hólfategund.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c0339ec5d008f5994d64cf6162feda8144d06a67
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9876fdc5d68721e15ca449bfe8fd2d790ade9b97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310205"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881610"
 ---
 # <a name="set-up-bin-types"></a>Setja upp hólfategundir
 Hægt er að beina vöruflæðinu gegnum hólf sem skilgreind hafa verið fyrir tilteknar vöruhúsaaðgerðir. Notandinn úthlutar hverju hólfi grunnflæðisaðgerðir, og skilgreinir þannig hvernig hólfið verður notað í kerfinu, með því að úthluta því hólfategund.  
@@ -25,7 +23,7 @@ Hægt er að beina vöruflæðinu gegnum hólf sem skilgreind hafa verið fyrir 
 Til eru sex tegundir. Hægt er að reka vöruhúsið með öllum sex hólfategundunum sem mögulegar eru, eða nota aðeins hólfategundirnar RECEIVE, PUTPICK, SHIP og QC. Þessar fjórar hólfategundir gera kleift að gera tillögur um vöruflæði og gera notandanum kleift að skrá misræmi í birgðum.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Hólfategundir sem á að nota settar upp  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **gerðir hólfa** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hólfagerðir** og veldu síðan tengda tengilinn.  
 2.  Á síðunni **Hólfategundir** er 10 stafa kóði fyrir hólfategund stofnaður.  
 3.  Veljið aðgerðir sem hægt er að framkvæma með hverri tegund hólfa.  
 

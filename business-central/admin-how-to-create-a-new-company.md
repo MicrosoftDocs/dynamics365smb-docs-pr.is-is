@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að búa til nýtt fyrirtæki | Microsoft Docs
 description: Til að nota RapidStart Services eru stofnaðar töflur og síður en engin gögn eru í þeim.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 697613b170d3d7c2db33ab91acd660f2d09ddea1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bbd845f7974ce2d0b6ade27d290e1173fad42f37
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304589"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878890"
 ---
 # <a name="create-a-new-company"></a>Búa til nýtt fyrirtæki
 Til að nota RapidStart Services fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] skal fyrst stofna nýtt fyrirtæki þar sem framkvæma skal innleiðingu viðskiptamanns. Þegar nýtt fyrirtæki er stofnað eru staðlaðar [!INCLUDE[d365fin](includes/d365fin_md.md)] töflur og síður búnar til, en engin gögn eru í þeim.
@@ -28,7 +26,7 @@ Grunnstillingarpakkar dæma, þ.á.m. skrár sem miðast við land/svæði eru i
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Til að nota dæmið um BASICCONFIG grunnstillingarpakkann  
 1. Opna fyrirtækið CRONUS International Ltd. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).
-2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **grunnstillingapakkar** og veldu síðan tengda tengilinn.  
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 3. Velja skal BASICCONFIG-pakkann af listanum og síðan velja aðgerðina **Flytja út pakka**.  
 
 Notið eftirfarandi aðgerð til að búa til nýtt fyrirtæki og nota BASICCONFIC pakkann sem hluta ferlisins.  

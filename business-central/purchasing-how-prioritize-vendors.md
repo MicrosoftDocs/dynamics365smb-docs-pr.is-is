@@ -12,22 +12,22 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c37ff7d347788300bcd2c9e138ac8379fb12a78a
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 538a6f4b1ead61afde223391441bf097f3c26f77
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577160"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877592"
 ---
 # <a name="prioritize-vendors"></a>Forgangsraða lánardrottnum
 [!INCLUDE[d365fin](includes/d365fin_md.md)] getur lagt til ýmsar greiðslur til lánardrottna t.d. greiðslur sem eru bráðum á gjalddaga eða greiðslur sem hægt er að fá afslátt af. Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).
 
 Fyrst verður að forgangsraða lánardrottnum með því að úthluta númerum á þá.
 <br><br>
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PRGa]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa]
 
 ## <a name="to-prioritize-vendors"></a>Lánardrottnum forgangsraðað
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.
 2. Veljið viðeigandi lánardrottin og veljið því næst **Breyta**.
 3. Í reitinn **Forgangur** skal færa inn númer.
 

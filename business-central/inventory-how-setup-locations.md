@@ -12,17 +12,20 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 1ad6b8333e13c01a1ed97ebdd9553f0e7fb31297
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5554bb1576705cd1f3cbcddc7ef33da7b5db3796
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309821"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878316"
 ---
 # <a name="set-up-locations"></a>Uppsetning birgðageymsla
 Ef vörur eru keyptar, geymdar eða seldar á fleiri en einum stað eða vöruhúsi þarf að setja hverja staðsetningu upp með staðsetningarspjaldi og skilgreina flutningsleiðir.
 
 Síðan er hægt að búa til skjalalínur fyrir tilgreinda staðsetningu, skoða tiltækileika eftir staðsetningu og flytja birgðir milli staða. Frekari upplýsingar eru í [Stjórna birgðum](inventory-manage-inventory.md).
+<br><br>  
+  
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq]
 
 ## <a name="to-create-a-location-card"></a>Staðsetningarspjald búið til
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.
@@ -34,7 +37,7 @@ Síðan er hægt að búa til skjalalínur fyrir tilgreinda staðsetningu, skoð
 > Margir reitir á birgðageymsluspjaldinu vísa til meðhöndlunar vara í vöruhúsaferli á inn- og útleið. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
 ## <a name="to-create-a-transfer-route"></a>Flutningsleið búin til
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **flutningsleið** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Flutningsleiðir** og veldu síðan tengda tengilinn.
 2. Að öðrum kosti, frá hvaða síðu **Staðsetningarspjalds** sem er má velja aðgerðina **Flutningsleiðir**.
 3. Valið er **Nýtt** aðgerð.
 4. Á síðunni **Staðsetningarspjald** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

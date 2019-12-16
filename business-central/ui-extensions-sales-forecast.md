@@ -12,18 +12,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9b5cf95eb076a365dfefa318f990b944a4c458d2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0b1353631aa9e727c25fd6e47dcb7f5699f3e9e1
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315391"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877088"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Spá um sölu og birgðir viðbótina
 Birgðastjórnun er málamiðlun á milli notendaþjónustu og stjónun kostnaðar. Ein hliðin er sú að lágar birgðir krefjast minna veltufés, en, á hinn bóginn getur birgðaskortur hugsanlega leitt til tapaðrar sölu. Viðbótin fyrir sölu- og birgðaspá sér fyrir hugsanlegar sölur með því að nota söguleg gögn og veitir skýrt yfirlit yfir viðbúinn birgðaskort. Samkvæmt spá, aðstoðar viðbótin að stofna áfyllingarbeiðnir til lánardrottna þinna og sparar þér tíma.  
 
 ## <a name="setting-up-forecasting"></a>Spáruppsetning
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er tengingin við [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/) þegar sett upp fyrir þig. En hægt er að grunnstilla spá til að nota aðra tímabilsgerð til að gefa skýrslur samkvæmt, eins og að breyta úr spám samkvæmt mánuðum í spám samkvæmt ársfjórðungum. Einnig er hægt að velja fjölda tímabila sem á að reikna spá eftir, eftir því hversu grófgerð spáin á að vera. Við að leggja til að spá eftir mánuðum og með 12 mánaða sjóndeildarhring fyrir spána.  
+Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er tengingin við [Azure AI](https://azure.microsoft.com/overview/ai-platform/) þegar sett upp fyrir þig. En hægt er að grunnstilla spá til að nota aðra tímabilsgerð til að gefa skýrslur samkvæmt, eins og að breyta úr spám samkvæmt mánuðum í spám samkvæmt ársfjórðungum. Einnig er hægt að velja fjölda tímabila sem á að reikna spá eftir, eftir því hversu grófgerð spáin á að vera. Við að leggja til að spá eftir mánuðum og með 12 mánaða sjóndeildarhring fyrir spána.  
 
 ## <a name="using-the-forecasts"></a>Notkun spáa
 Þessi viðbót notar Azure AI til að spá fyrir um framtíðarsölu byggt á söluferli þínum til að hjálpa þér að komast hjá birgðaskorti. Til dæmis þegar valið er vöru á síðunni **Vörur** , í sýnir grafið á **vöruspá** svæðinu áætlaða sölu vörunnar á komandi tímabili. Þannig má sjá ef líklegt er að varan klárist fljótlega hjá þér.  

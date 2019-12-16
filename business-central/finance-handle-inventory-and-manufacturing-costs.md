@@ -1,8 +1,6 @@
 ---
 title: Meðhöndla birgða- og framleiðslukostnað | Microsoft Docs
 description: Þótt margar aðgerðir kostnaðarbókhalds felist í innri ferlum sem notandinn kemur ekki nálægt, til dæmis jöfnun færslna og sjálfvirk kostnaðarleiðrétting, eru nokkrir reitir, síður og skýrslur sem ætluð eru notendum sem vinna beint eða óbeint með kostnað vara eða aðgerða.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1f858457bcf667d158642fe42f3ea85e668adff3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8eceae6e325d4b5c1cf5cc4b0ba509c4624dd9f4
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306365"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879777"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Meðhöndla birgða- og framleiðslukostnað
 Þótt margar aðgerðir kostnaðarbókhalds felist í innri ferlum sem notandinn kemur ekki nálægt, til dæmis jöfnun færslna og sjálfvirk kostnaðarleiðrétting, eru nokkrir reitir, síður og skýrslur sem ætluð eru notendum sem vinna beint eða óbeint með kostnað vara eða aðgerða.  

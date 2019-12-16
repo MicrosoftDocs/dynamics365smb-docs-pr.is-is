@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c1ad25642cdbfd9367b1533f1a39d178fe08ebb2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 078313bb3f437734b6e52f51b6d6512ebf09f1df
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312461"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881427"
 ---
 # <a name="record-purchases"></a>Skrá innkaup
 Innkaupareikningur eða innkaupapöntun er stofnaður til að skrá kostnaðarverð keyptra vara og til að rekja viðskiptaskuldir. Ef stjórna þarf birgðum eru innkaupareikningar og innkaupapantanir líka notaðir til að uppfæra birgðastig gagnvirkt svo að hægt sé að lágmarka birgðakostnað og veita betri þjónustu við viðskiptavini. Innkaupakostnaður, að þjónustukostnaði meðtöldum, og birgðavirði af völdum bókunar innkaupareikninga eða -pantana verða hluti af framlegðartölum og öðrum fjárhagslegum afkastavísum í Mitt hlutverk.
@@ -34,6 +34,9 @@ Hægt er að leiðrétta eða afturkalla bókaðan innkaupareikning áður en l�
 Birgðaspjaldið getur verið af gerðinni **Birgðir**, **Þjónusta** og **Ekki birgðir** til að tilgreina hvort vara er raunbirgðaeining, launatímaeining eða efnisleg eining sem ekki er geymd í birgðum. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md). Innkaupareikningaferlið er það sama fyrir allar þrjár vörutegundir.
 
 Hægt er að fylla út  lánardrottnareitina í innkaupareikningunum með tveimur leiðum, eftir því hvort lánardrottinninn hefur þegar verið skráður.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt]
 
 ## <a name="to-create-a-purchase-invoice"></a>Að Stofna innkaupareikning
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.  

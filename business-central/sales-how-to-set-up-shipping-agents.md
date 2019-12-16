@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að setja upp flutningsaðila | Microsoft Docs
 description: Hægt er að setja upp kóta fyrir einstaka flutningsaðila og færa inn upplýsingar um þá.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27b362c9c9aabec842e28e631ca2b93c1515f2fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1c5b0940998531601f0ab1c604c31328ce2bd66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311981"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882855"
 ---
 # <a name="set-up-shipping-agents"></a>Uppsetning flutningsaðila
 Hægt er að setja upp kóta fyrir einstaka flutningsaðila og færa inn upplýsingar um þá.  
@@ -30,7 +28,7 @@ Hægt er að setja upp ótakmarkaðan fjölda af þjónustuatriðum fyrir hvern 
 Þegar flutningsþjónustu hefur verið úthlutað á sölupöntunarlínu verður afhendingartími þjónustunnar tekin með við útreikning á lofun á pöntun fyrir þá línu. Nánari upplýsingar er að finna í [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Uppsetning flutningsaðila  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **flutningsaðili** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Flutningsaðilar** og veldu síðan tengda tengilinn.  
 2.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Velja aðgerðina **Flutningsþjónusta**.
 4. Í **Flutningsþjónusta**, fyllið inn í reitina eftir þörfum.

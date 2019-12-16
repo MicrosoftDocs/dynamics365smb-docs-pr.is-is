@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að rekja pöntunarlínur til tengdra skjala | Microsoft Docs
 description: Þú getur skoðað skjöl sem tengjast sölupöntunarlínum og innkaupapöntunarlínum, þ.m.t. frá safnvistuðum pöntunarlínum. Viðeigandi skjöl sem hægt er að rekja fela í sér tilboð, afhendingar, móttökur og standandi pantanir. Þetta hjálpar þér að bera kennsl á skjöl sem notuð eru til að vinna úr pöntunum.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1c5190daaa7954e50db903d64455f07f3e3e6627
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e2ada84e547662a4466d33b8e0196bf7987c9c22
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308342"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881025"
 ---
 # <a name="track-document-lines"></a>Rekja skjalalínur
 Þú getur skoðað skjöl sem tengjast sölupöntunarlínum og innkaupapöntunarlínum, þ.m.t. frá safnvistuðum pöntunarlínum. Viðeigandi skjöl sem hægt er að rekja fela í sér tilboð, afhendingar, móttökur og standandi pantanir. Þetta hjálpar þér að bera kennsl á skjöl sem notuð eru til að vinna úr pöntunum.  

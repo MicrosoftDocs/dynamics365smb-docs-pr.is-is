@@ -1,8 +1,6 @@
 ---
 title: Uppsetning bestu venja - Endurpöntunarstefnur | Microsoft Docs
 description: Svæðið Endurpöntunarstefna á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46e4b5861242258769548cae5f214a8d7cb8f9a6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311525"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882231"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Uppsetning bestu venja: Endurpöntunarstefnur
 Svæðið **Endurpöntunarstefna** á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.  
@@ -32,7 +30,7 @@ Einn grundvöllur undir bestu venjur til að velja endurpöntunarstefnu er ABC-f
 
 ABC-flokkunin segir að spara megi vinnu og peninga með því að hafa lausari taum á vörum af lágu virði-magni en á vörum af háu virði-magni. Eftirfarandi mynd sýnir hvaða endurpöntunarstefna í [!INCLUDE[d365fin](includes/d365fin_md.md)] er best við fyrir A, B og C - vörur, í þessari röð.
 
-![ABC-flokkun](media/abc_classification.png "abc_flokkun")
+![ABC-flokkun](media/abc_classification.png "abc_classification")
 
 Eftirfarandi tafla gefur upp bestu venjur til að velja milli fjögurra stefna.  
 

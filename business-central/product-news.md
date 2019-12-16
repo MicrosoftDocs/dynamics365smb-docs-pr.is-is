@@ -7,12 +7,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: edcd3cdef966b8163b5c6a46c66337dd90812a67
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 119c3f77d1423daeed519ac22e805b59d689bf51
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313541"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883352"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Nýjungar í Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ Ef þú hefur ekki þegar gert það skaltu skrá þig fyrir [prufuútgáfu](htt
 
 Með reglulegu millibili uppfærum við [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótarfærni í grunnhugbúnaðinum og með nýjum viðbætur. Fyrir núverandi lista yfir Microsoft-viðbætur skal sjá [Sérstilling Business Central með viðbótum](ui-extensions.md).
 
-Til að sjá allar viðbætur sem [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðilar bjóða upp á skal sjá [AppSource, Business Central](http://go.microsoft.com/fwlink/?linkid=2081646).  
+Til að sjá allar viðbætur sem [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðilar bjóða upp á skal sjá [AppSource, Business Central](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 ## <a name="check-the-dynamics-365-blog"></a>Athugaðu bloggsíðu Dynamics 365
 
@@ -37,7 +37,7 @@ Fyrir samfélag samstarfsaðila birtum við upplýsingar um [Microsoft Dynamics 
 [Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
-[Verðlagning Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/#pricing)  
+[Verðlagning Business Central](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central Samfélag](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

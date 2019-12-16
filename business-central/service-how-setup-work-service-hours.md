@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að setja upp vinnustundir og þjónustustundir | Microsoft Docs
 description: Þú getur tilgreint venjulegan þjónustuvinnustundir í fyrirtækinu. Stuðst er við þessar þjónustustundir við útreikning á svardagsetningu og tíma vegna þjónustupantana og tilboða og til að senda viðvörunarboð vegna svartíma.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3adc4f10e8a5b9d26440bf47170f117de7e17310
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6aaf78756f091d70a1a33532afbafb14a5b29bc7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311765"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877280"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Setja upp vinnustundir og þjónustustundir
 Þjónustukerfi rekur yfirleitt forðastundir og stöðu þjónustupantana til að spá fyrir um vinnuálag og þjónustuþarfir. [!INCLUDE[d365fin](includes/d365fin_md.md)] er með innbyggð verkfæri sem hægt er að sérstilla til að skrá þessa gerð upplýsinga.  
@@ -38,7 +36,7 @@ Síðan **Sjálfgefinn þjónustutími** er notaður til að setja upp venjulega
 ## <a name="to-set-up-work-hour-templates"></a>Uppsetning vinnutímasniðmáta
 Nota má síðuna **Vinnutímasniðmát** til að setja upp sniðmát með dæmigerðum vinnustundum í fyrirtækinu. Til dæmis má stofna sniðmát fyrir tæknimenn í fullu starfi og í hlutastarfi. Vinnutímasniðmát má nota þegar getu er bætt við forða.  
   
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnustundasniðmát** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát vinnutíma** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -49,7 +47,7 @@ Hægt er að nota síðuna **Þjónustutími** til að setja upp tiltekna þjón
   
 Ef ekki eru tilgreindar sérstakar þjónustustundir vegna þjónustusamningsins er notaður sjálfgefinn þjónustutími vegna þjónustusamninga.  
   
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda tengilinn.  
 2. Opna skal þjónustusamning sem setja á upp sérststakar þjónustustundir fyrir og veldu **Þjónustustundir**.  
 4. Ef setja á upp þjónustustundir sem byggjast á sjálfgefnum þjónustutíma er smellt á **Afrita sjálfgefinn þjónustutíma** aðgerðina.  
 5. Breyta reitunum í þjónustutímafærslunum. Bæta við eða eyða færslum til að setja upp þjónustustundafjölda fyrir samninginn. Athugið að reitirnir **Dagur**, **Upphafstími** og **Lokatími** eru nauðsynlegir fyrir hverja línu.  

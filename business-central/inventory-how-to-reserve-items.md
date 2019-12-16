@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að taka frá vörur | Microsoft Docs
 description: Hægt er að taka vörur frá fyrir sölu-, innkaupa- og framleiðslupantanir. Hægt er að taka frá vörur í birgðum eða á innleið í opnum skjalalínum.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8e951085df03dbb2ca444a9ab62db87447ec1368
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a6e17d357aeb39f9a77266ae9e8593702080d389
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309749"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878280"
 ---
 # <a name="reserve-items"></a>Taka frá vörur
 Hægt er að taka vörur frá fyrir sölu-, innkaupa-, þjónustu, samsetningar- og framleiðslupantanir. Hægt er að taka frá vörur í birgðum eða á innleið í opnum skjalalínum eða færslubókarlínum. Þú framkvæmir vinnuna á síðunni **Frátekning**.

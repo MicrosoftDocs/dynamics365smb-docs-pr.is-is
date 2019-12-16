@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 11/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: b96b5cbff2ec182ab1a7254ee3384a6d1869e3c4
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775428"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809034"
 ---
 # <a name="manage-profiles"></a>Vinna með forstillingar
 Öllum notendum [!INCLUDE[d365fin](includes/d365fin_md.md)] er úthlutað forstillingu sem endurspeglar viðskiptahlutverk þeirra, deildina sem þeir vinna í eða aðra flokkun. Forstillingar gera stjórnendum kleift að skilgreina og stjórna því miðlægt hvað mismunandi gerðir notenda geta séð og gert í notendaviðmótinu svo þeir geti framkvæmt verk sín á skilvirkan hátt.
@@ -22,7 +22,7 @@ ms.locfileid: "2775428"
 
 Kerfisstjóri stofnar og stjórnar forstillingum á síðunni **Forstillingar (hlutverk)**. Hvert snið er með spjald þar sem hægt er að vinna með ýmsar stillingar fyrir tengda hlutverkið, svo sem hlutverksheiti, stillingar notanda og hvaða hlutverkamiðstöð sniðið notar. Frekari upplýsingar um notendastillingar og hlutverkamiðstöðvar er að finna í [Breyta grundvallarstillingum](ui-change-basic-settings.md).
 
-Áður en hægt er að hafa umsjón með forstillingum notenda verða notendur að vera búnir að stofna þær og bæta við í gegnum Office 365 stjórnendamiðstöð. Síðan er hægt að úthluta heimildum á hvern notanda eða notendaflokk til að skilgreina hvaða eiginleika þeir mega skoða og/eða breyta. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).
+Áður en hægt er að hafa umsjón með forstillingum notenda verða notendur að vera búnir að stofna þær og bæta við í gegnum Microsoft 365 stjórnendamiðstöð. Síðan er hægt að úthluta heimildum á hvern notanda eða notendaflokk til að skilgreina hvaða eiginleika þeir mega skoða og/eða breyta. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).
 
 ## <a name="page-customization"></a>Sérsnið síðna
 Hægt er að sérsníða síðuútlit fyrir forstillingu þannig að allir notendur sem hafa forstillingin hefur verið úthlutað á sjái sérsniðnar síður. Sem kerfisstjóri sérstillir þú síður með því að nota sömu virkni og notendur gera þegar þeir sérsníða. Frekari upplýsingar er að finna á [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md).

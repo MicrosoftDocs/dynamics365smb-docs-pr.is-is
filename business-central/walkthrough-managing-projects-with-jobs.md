@@ -1,8 +1,6 @@
 ---
 title: Kynning - Stýring verkefna með verkum | Microsoft Docs
 description: Þessi kynning kynnir verkstýringareiginleikana í verkum. Verk eru leiðir fyrir áætlunargerð um notkun á forða fyrirtækisins og rakningu á ýmsum kostnaði sem fylgir notkun forða í tilteknu verkefni. Verk ná yfir notkun á vinnutíma starfsmanna, vélastundir, birgðahluti og aðrar gerðir notkunar sem notandinn kann að vilja fylgjast með í verkferlum.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 333c32d29e7095e95520badd375a3abde9a87834
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554717"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882015"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Kynning: Stýring verkefna með verkum
 
@@ -79,7 +77,7 @@ ms.locfileid: "2554717"
 
 ### <a name="to-prepare-the-sample-data"></a>Til að undirbúa sýnigögnin  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tilföng** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forði** og veldu síðan tengda tengilinn.  
 2.  Veljið aðgerðina **Nýtt** til að Búa til nýtt forðaspjald.  
 3.  Á flýtiflipanum **Almennt** eru eftirfarandi upplýsingar slegnar inn:  
 
@@ -396,7 +394,7 @@ Með því að bera saman verð, verkhlutalínur og áætlunarlínur fyrir verki
 
 ### <a name="to-set-up-a-new-account"></a>Að setja upp nýjan reikning  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókhaldslykill** og veldu síðan tengda tengilinn.  
 2.  Á síðunni **Bókhaldslykill** skal velja aðgerðina **Nýtt** til að stofna nýtt spjald.  
 3.  Á spjaldið **Nýr fjárhagsreikningur** eru færðar inn eftirfarandi upplýsingar:  
 

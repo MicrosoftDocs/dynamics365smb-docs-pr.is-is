@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að reikna dagsetningu pöntunarloforðs | Microsoft Docs
 description: Pöntunarloforðsaðgerðin nýtist til að reikna fyrstu hugsanlegu dagsetningu fyrir sendingu eða afhendingu á vöru. Einnig eru búnar til innkaupatillögulínur fyrir dagsetningarnar sem eru samþykktar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 575d83652dde83c9b12358788a96d00c70ffcda3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0bd5943f9c917f02fd319c07e51c95afb2de0a75
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316333"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882975"
 ---
 # <a name="calculate-order-promising-dates"></a>Reikna dagsetningar pöntunarloforða
 Fyrirtæki verður að geta upplýst viðskiptamenn sína um afhendingardagsetningar pöntunar. Síðan **Línur pöntunarloforðs** gerir kleift að framkvæma þetta í sölupöntunarlínu.  
@@ -78,7 +76,7 @@ Pantanavinnsla lýkur CTP-ferlinu með því að samþykkja dagsetningarnar. Þe
 Auk ytri pantanaloforða sem hægt er að framkvæma á síðunni **Línur pöntunarloforða** er einnig hægt að lofa innri eða ytri afhendingardagsetningu fyrir uppskriftavörur. Frekari upplýsingar, sjá [Skoða tiltækileika vöru](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Uppsetning pöntunarloforðs  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning á pöntun lofað** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pöntunarloforðagrunnur** og veldu síðan tengda tengilinn.  
 2. Númer og tímaeiningarkóti er fært inn í reitinn **Mótfært (Tími)**. Einn af eftirfarandi kótum er valinn:  
 
     |Kóti|Lýsing|  
@@ -96,7 +94,7 @@ Auk ytri pantanaloforða sem hægt er að framkvæma á síðunni **Línur pönt
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Til að opna birgðarsíðuna til að færa inn afgreiðslutíma á vörum inn í vöruhús   
 Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í sölulínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar og birgðageymsluna sem um ræðir.    
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning birgða** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðauppsetning** og veldu síðan tengda tengilinn.  
 2. Á flýtiflipanum **Almennt** í reitnum **Afgr.tími vara á innl. í vöruh.** er færður inn sá dagafjöldi sem á taka með í útreikningi á því hvenær pöntunum er lofað.  
 
 > [!NOTE]  
@@ -113,7 +111,7 @@ Ef afgreiðslutími á vörum inn í vöruhús á að vera tekinn með þegar re
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Til að opna birgðarsíðuna til að færa inn afgreiðslutíma á vörum út úr vöruhúsi  
 Ef afgreiðslutími á vörum út úr vöruhúsi á að vera tekinn með þegar reiknað er út hvenær pöntun er lofað í sölulínu er hægt að setja þetta upp sem sjálfgefið fyrir birgðirnar.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning birgða** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðauppsetning** og veldu síðan tengda tengilinn.  
 2. Á flýtiflipanum **Almennt** í reitnum **Afgr.tími vara á útl. úr vöruh.** er færður inn sá dagafjöldi sem á taka með í útreikningi á því hvenær pöntunum er lofað.  
 
 > [!NOTE]  
@@ -129,12 +127,12 @@ Ef afgreiðslutími á vörum út úr vöruhúsi á að vera tekinn með þegar 
 
 ## <a name="to-make-an-item-critical"></a>Varan bundin:  
 Áður en vara er sett inn í útreikning pöntun lofað, verður að merkja hana sem mikilvægt. Þessi uppsetning tryggir að ó-mikilvægar vörur trufli ekki útreikning pöntunarloforða.   
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
 2.  Viðeigandi birgðaspjald er opnað.  
 3.  Á flýtiflipanum **Áætlun** skal velja svæðið **Bundið**.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Dagsetning pöntunarloforðs reiknuð:  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupöntun** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Glugginn sölupöntun er opnaður og sölupöntunarlínurnar sem forritið á að reikna valdar.  
 3.  Veldu aðgerðina **Pöntun lofað** og veldu svo aðgerðina **Pöntun lofað línur**.  
 4.  Veldu línu og síðan einn af eftirfarandi valmöguleikum:  
@@ -145,5 +143,5 @@ Ef afgreiðslutími á vörum út úr vöruhúsi á að vera tekinn með þegar 
 
 ## <a name="see-also"></a>Sjá einnig  
 [Sala](sales-manage-sales.md)  
-[Dagsetning útreiknings fyrir kaup.](purchasing-date-calculation-for-purchases.md)  
+[Dagsetning útreiknings fyrir kaup](purchasing-date-calculation-for-purchases.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að taka á móti vörum | Microsoft Docs
 description: Þegar vörur berast í vöruhús sem er sett upp fyrir vinnslu vöruhúsamóttöku þarf að sækja línur útgefna upprunaskjalsins sem hrintu móttöku þeirra af stað.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ea8d952f6ef88415b0fef27c1694ad7d29672e64
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d007c3a9433807f75e667e130c0b79355a4a051a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310455"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876745"
 ---
 # <a name="receive-items"></a>Móttaka vara
 Þegar vörur berast í vöruhús sem er ekki sett upp fyrir vinnslu vöruhúsamóttöku þarf einfaldlega að skrá móttökuna á viðeigandi viðskiptaskjal, eins og t.d. innkaupapöntun, sölvöruskilapöntun, eða millifærslupöntun á innleið.
@@ -26,7 +24,7 @@ ms.locfileid: "2310455"
 
 ## <a name="to-receive-items-with-a-purchase-order"></a>Vörur mótteknar með innkaupapöntun
 Eftirfarandi lýsir því hvernig skal taka á móti vörum með innkaupapöntun. Skrefin eru svipuð fyrir söluvöruskilapöntun og millifærslupantanir.  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.
 2. Opna innkaupapöntun sem þegar er til eða stofna nýja. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 3. Í reitnum **Magn til móttöku** er fært inn magnið sem hefur verið móttekið.
 
@@ -34,7 +32,7 @@ Eftirfarandi lýsir því hvernig skal taka á móti vörum með innkaupapöntun
 4. Valið er **Bóka** aðgerðin.
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Vörur mótteknar með vöruhúsamóttöku
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsamóttaka** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsamóttökur** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 
     Fyllt er út í reitina á flýtiflipanum **Almennt**. Þegar upprunaskjalalínur eru sóttar er eitthvað af upplýsingunum afritað í hverja línu.  

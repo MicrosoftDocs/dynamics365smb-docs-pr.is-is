@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að tína fyrir innri starfsemi með ítarlegum vöruhúsaaðgerðum | Microsoft Docs
 description: Í ítarlegri vöruhúsastillingu þar sem birgðageymslan notar tínslu auk afhendingar eru íhlutir tíndir fyrir framleiðslu- og samsetningarverkþætti á síðunni **Vöruhús - Tína**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 064ef2019c91d077a28612b4f322f65fb613c6a8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4272512046a3951eb933fb25c869d5e9d7a3b416
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314001"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876608"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss
 Í ítarlegri vöruhúsastillingu þar sem birgðageymslan notar tínslu auk afhendingar eru íhlutir tíndir fyrir framleiðslu- og samsetningarverkþætti á síðunni **Vöruhús - Tína**.  
@@ -42,7 +40,7 @@ Til að stofna tínslubeiðnir, bæði fyrir tog- og ýtidæmi, þurfa viðkoman
 |Samsetningarpöntun|Breyta stöðu í Útgefið.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Íhlutir tíndir úr tínsluvinnublöðunum  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað tínslu** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tínsluvinnublöð** og veldu síðan tengda tengilinn.  
 2.  Velja skal **Sækja vöruhúsaskjöl** og síðan velja íhlutalínurnar í útgefnu framleiðslupöntuninni.  
 3.  Línurnar eru skoðaðar, þeim raðað til að tryggja skilvirkni tínsluferðarinnar og þær sameinaðar öðrum vinnublaðslínum ef þarf, til að nýta tíma starfsmanna sem best.  
 4.  Veldu aðgerðina **Stofna tínslu**.  
@@ -54,7 +52,7 @@ Ef svæði innri starfsemi, s.s. framleiðsluvinnusalur, er sett upp með sjálf
 ## <a name="filling-the-consumption-bin"></a>Fylla út notkunarhólfið
 Þetta flæðirit sýnir hvernig reiturinn **Hólfkóði** í framleiðslupöntunaríhlutalínum er útfylltur samkvæmt uppsetningu staðsetningar.
 
-![Flæðirit hólfa](media/binflow.png "Hólfaflæði")  
+![Flæðirit hólfa](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Sjá einnig
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

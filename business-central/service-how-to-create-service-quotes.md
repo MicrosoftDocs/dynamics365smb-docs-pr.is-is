@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að búa til þjónustutilboð | Microsoft Docs
 description: Hægt er að nota síðuna **Þjónustutilboð** til að stofna skjöl þar sem hægt er að færa inn upplýsingar um þjónustu, s.s. viðgerðir og viðhald, á þjónustuvörum að beiðni viðskiptamanns. Hægt er að nota þjónustutilboð sem drög að þjónustupöntun og svo má breyta tilboðinu í þjónustupöntun.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e3689096a2bcdfed5ceb92a2fc9163549f2d53de
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e04c2dc74ab1ecc0c0041258ca1824f872caac8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315925"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877232"
 ---
 # <a name="create-service-quotes"></a>Stofna þjónustutilboð
 Þú getur hugsað um þjónustutilboð sem grunninn fyrir þjónustupöntunum. Þetta tvennt er í raun alveg eins. Bæði innihalda upplýsingar eins og þær hver viðskiptamaðurinn er, tegund pöntunar, varan sem þarf þjónustuna, reiknings- og afhendingarupplýsingar, og upplýsingar um hina raunverulegu þjónustuvinnu.
@@ -25,7 +23,7 @@ ms.locfileid: "2315925"
 Hægt er að nota þjónustutilboð sem drög að þjónustupöntun og svo má breyta tilboðinu í þjónustupöntun.  
   
 ## <a name="to-create-a-service-quote"></a>Þjónustutilboð búin til:  
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustutilboð** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustutilboð** og veldu síðan tengda tengilinn.  
 2. Stofna nýtt þjónustutilboð.  
 3. Í reitnum **númer** er fært inn númer fyrir þjónustutilboðið. Hafi númeraröð fyrir þjónustutilboð verið sett upp á síðunni **Þjónustukerfisgrunnur** er einnig hægt að styðja á færslulykilinn til að velja næsta lausa þjónustutilboðsnúmer.  
 4. Í **Númer viðskiptamanns**  reitnum, veljið viðeigandi viðskiptamann af listanum.  

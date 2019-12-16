@@ -1,8 +1,6 @@
 ---
 title: Þjónustuverðstjórnun | Microsoft Docs
 description: Þetta efnisatriði lýsir því hvernig skal nota besta verðið á þjónustupantanir, setja upp sérsniðna þjónustuverðsamninga fyrir viðskiptavini, bæta skilvirkni þjónustustarfsmanna og hraða reikningaferlinu.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 14ea816e6614a3e47cbc9e47a1adccf8eeddffbd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81670627f8658296da7c6c5b0f3e269b78228b0f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311573"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882303"
 ---
 # <a name="service-price-management"></a>Þjónustuverðstjórnun
 Þjónustuverðsstjórnaraðgerðin gerir kleift að setja besta verðið á þjónustupantanir, setja upp sérsniðna þjónustuverðsamninga fyrir viðskiptavini, bæta skilvirkni þjónustustarfsmanna og hraða reikningaferlinu.  

@@ -1,8 +1,6 @@
 ---
 title: Tilkynna kostnað og afstemma við fjárhag | Microsoft Docs
 description: Við lok mánaðarlegra, árlegra eða annarra bókhaldstímabila þarf að framkvæma röð kostnaðarstjórnunar- og endurskoðunarverkhluta til að tilkynna rétt og jafnað birgðavirði til fjármáladeildarinnar. Fyrir utan bókunarferlið sem færir einstakar vöruvirðisfærslur í sérstaka fjárhagsreikninga eru tiltækar margar skýrslur, rakningaraðgerðir og sérstakt afstemmingarverkfæri fyrir endurskoðandann eða stjórnandann sem ber ábyrgð á þessu mikilvæga verki.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: eafcf0bdd26e26903c17e43d37ca7e35b96f240c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 82c953ce7f32ae5304c8282f5caf8081f9e40a88
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301829"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879514"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Tilkynna kostnað og afstemma við fjárhag
 Við lok mánaðarlegra, árlegra eða annarra bókhaldstímabila þarf að framkvæma röð kostnaðarstjórnunar- og endurskoðunarverkhluta til að tilkynna rétt og jafnað birgðavirði til fjármáladeildarinnar. Fyrir utan bókunarferlið sem færir einstakar vöruvirðisfærslur í sérstaka fjárhagsreikninga eru tiltækar margar skýrslur, rakningaraðgerðir og sérstakt afstemmingarverkfæri fyrir endurskoðandann eða stjórnandann sem ber ábyrgð á þessu mikilvæga verki.  

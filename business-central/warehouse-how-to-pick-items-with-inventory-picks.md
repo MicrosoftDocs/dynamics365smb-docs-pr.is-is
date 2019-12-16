@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að tína vörur með Birgðatínslu | Microsoft Docs
 description: Ef birgðageymsla er sett upp þannig að krafist sé tínsluvinnslu en ekki afhendingarvinnslu skal nota birgðatínsluskjöl til að skrá og bóka tínslu og afhendingarupplýsingar fyrir upprunaskjöl.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 66b4d9c3f9f84e9342cffd9446a4b3992ff62a57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f6f157de1d3d65eddf7e2db9c40f27ec56443de
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310277"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876632"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Vörur tíndar með birgðatínslu
 Ef birgðageymsla er sett upp þannig að krafist sé tínsluvinnslu en ekki afhendingarvinnslu skal nota síðuna **birgðatínslu** til að skrá og bóka tínslu og afhendingarupplýsingar fyrir upprunaskjöl. Upprunaskjalið á útleið getur verið sölupöntun, innkaupaskilapöntun, millifærslupöntun á útleið eða framleiðslupöntun þar sem íhlutir eru tilbúnir til tínslu.
@@ -45,7 +43,7 @@ Hvað framleiðslupantanir ræðir er vöruhúsabeiðnin um tínslu á íhlutum 
 
 ## <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Birgðatínsla stofnaður á grundvelli upprunaskjals
 Nú þegar beiðnin hefur verið stofnuð getur starfsmaður vöruhússins stofnað nýja birgðatínslu á grundvelli útgefins upprunaskjals.
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínsla** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínslur** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3. Í reitnum **Upprunaskjal** er valin sú tegund upprunaskjalsins sem verið er að tína fyrir.  
 4. Í reitnum **Forðanr.** er forðaskjal valið.  

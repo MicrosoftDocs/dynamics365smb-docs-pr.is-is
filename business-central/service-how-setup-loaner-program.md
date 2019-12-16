@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að setja upp lánsbúnað | Microsoft Docs
 description: Þú getur sett upp lánsbúnað sem lána má viðskiptamönnum í stað þjónustuvöru á meðan hún er í þjónustu.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: aa614e87a6414cb0d96f1130f02d40898cc2f2e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 494f7c621a141b84f104ad855b2aa1e412aa837f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311861"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877472"
 ---
 # <a name="set-up-a-loaner-program"></a>Uppsetning lánsbúnaðarkerfis
 Stundum þarf að sjá viðskiptamönnum fyrir lánsbúnaði til notkunar meðan þjónustuhópurinn framkvæmir viðgerðir. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að setja upp lánsforrit, lána viðskiptamönnum vörur og rekja móttöku varanna til baka. Að auki getur bætt við athugasemd um lánsbúnaðinn á tvo vegu.  

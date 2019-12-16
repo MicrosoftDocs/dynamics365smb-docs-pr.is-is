@@ -1,8 +1,6 @@
 ---
 title: um Birgðakostnaður | Microsoft Docs
 description: Birgðakostnaði stjórnað snýst um skráningu og skýrslugerð rekstrarkostnaðar fyrirtækis. Það felur í sér skráningu framleiðslukostnaðar og vörukostnaðar, það er, virði vara.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fd2365f26ac762eb1f3edab534e87e163077771f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c7243b15ccd94fea5c0630e03f32dd94ab305402
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301970"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882615"
 ---
 # <a name="about-inventory-costing"></a>Um birgðakostnað
 Birgðakostnaði stjórnað snýst um skráningu og skýrslugerð rekstrarkostnaðar fyrirtækis. Það felur í sér skráningu framleiðslukostnaðar og vörukostnaðar, það er, virði vara.  
@@ -38,7 +36,7 @@ Birgðakostnaði stjórnað snýst um skráningu og skýrslugerð rekstrarkostna
 |Nánar um hvernig birgðavirði birtist í færslubókinni.|[Tilkynna kostnað og afstemma við fjárhag](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
 |Nánar um hvernig kostnaðaraukar eins og frakt og tryggingar geta lagt aukakostnaðarliði við kostnaðarverð vöru.|[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)|  
 |Nánar um hvernig birgðatímabil aðstoða fyrirtæki við að stýra birgðavirði á tilteknum tíma, með því að skilgreina styttri tímabil sem má loka fyrir bókun eftir því sem líður á almanaksárið.|[Vinna við birgðatímabil](finance-how-to-work-with-inventory-periods.md)|  
-|Skilja gagnverkið á bak við kostnaðarforritið, þar með talið hvað gerist þegar þegar bókuð er samsetning og framleiðslufærslur.|[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)|
+|Skilja gagnverkið á bak við kostnaðarforritið, þar með talið hvað gerist þegar þegar bókuð er samsetning og framleiðslufærslur.|[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Sjá einnig
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)    

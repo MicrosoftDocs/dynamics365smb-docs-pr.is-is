@@ -1,7 +1,6 @@
 ---
-title: Tengja gögn við flæði| Microsoft Docs
+title: Tengja gögn við Power Automate| Microsoft Docs
 description: Notandi getur gert Business Central-gögnin sín aðgengileg sem gagnaveitu og tiltekið OData vefslóð úr vefþjónustunni til að búa til sjálfvirkt verkflæði.
-documentationcenter: ''
 author: bmeier90
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,55 +8,57 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 10/01/2019
+ms.search.keywords: workflow, OData, Power App, SOAP
+ms.date: 11/20/2019
 ms.author: bmeier
-ms.openlocfilehash: a46692503b19ddad57c4a68d0f29b588d84f5c9e
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 24ca66c2d533f4a3e30eb1ebaca817915b95c370
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775452"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832023"
 ---
-# <a name="using-included365finincludesd365fin_mdmd-in-an-automated-workflow"></a>Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] í sjálfvirku verkflæði.
-Notandi getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögnin sín sem hluta af verkflæði í Microsoft Flow.
+# <a name="using-includeprodshortincludesprodshortmd-in-an-automated-workflow"></a>Nota [!INCLUDE[prodshort](includes/prodshort.md)] í sjálfvirku verkflæði.
+
+Notandi getur notað [!INCLUDE[prodshort](includes/prodshort.md)]-gögnin sín sem hluta af verkflæði í Microsoft Power Automate.
 
 > [!NOTE]
-> Til viðbótar við Microsoft Flow er hægt að nota verkflæðisvirknina innan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hafa skal í huga að þótt þetta séu tvö aðskilin verkflæðisforrit, þá eru öll Flow-sniðmát sem búin eru til með Microsoft Flow bætt við listann yfir verkflæðissniðmát innan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
+> Til viðbótar við Power Automate er hægt að nota verkflæðisvirknina innan [!INCLUDE[prodshort](includes/prodshort.md)]. Hafa skal í huga að þótt þetta séu tvö aðskilin verkflæðisforrit, þá eru öll flæðissniðmát sem búin eru til með Power Automate bætt við listann yfir verkflæðissniðmát innan [!INCLUDE[prodshort](includes/prodshort.md)]. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
 > [!NOTE]  
-> Notandi verður að vera með gildan reikning hjá [!INCLUDE[d365fin](includes/d365fin_md.md)] og hjá Flæði.  
+> Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes/prodshort.md)] og hjá Power Automate.  
 
-## <a name="to-add-included365finincludesd365fin_mdmd-as-a-data-source-in-flow"></a>Til að bæta [!INCLUDE[d365fin](includes/d365fin_md.md)]við sem gagnaveitu í flæði
-1. Flettið í [flow.microsoft.com](https://flow.microsoft.com/en-us/) í vafranum og skráið ykkur svo inn.
+## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-automate"></a>Til að bæta [!INCLUDE[prodshort](includes/prodshort.md)] við sem gagnaveitu í Power Automate
+
+1. Flettið í [flow.microsoft.com](https://flow.microsoft.com) í vafranum og skráið ykkur svo inn.
 2. Veldu **Mitt flæði** af borðanum efst á síðunni.
 3. Það eru þrjár leiðir til að búa til flæði; **Byrja á sniðmáti**, **Byrja á auðu** og **Byrja á tengli**. Sniðmát er fyrirframskilgreint flæði sem hefur verið búið til fyrir þig. Til að nota sniðmát skaltu einfaldlega velja það og búa til tengingu fyrir hverja þjónustu sem sniðmátið notar. Með valkostunum **Byrja á auðu** og **Byrja á tengli** er hægt að stofna nýtt flæði frá grunni.
 4. Til að búa til úr auðu skal á síðunni **Mitt flæði** velja valkostina **Byrja á auðu** og **Sjálfvirkt flæði**.
-5. Leitaðu að **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]** tengi.
+5. Leitaðu að **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]** tengi.
 6. Skilgreinið heiti og veljið kveikjuna sem á að nota fyrir flæðið.
-7. Farðu í lista yfir tiltækar kveikjur og veldu eina af [!INCLUDE[d365fin](includes/d365fin_md.md)] tiltækum kveikjum í boði:  
-    
-    *Þegar beðið er um samþykki lánardrottins*,    
-    *Þegar beðið er um samþykki fyrir almenna færslubókarlínu*,    
-    *Þegar færslu er eytt*,    
-    *Þegar færslu er breytt*,    
-    *Þegar færsla er stofnuð*,    
-    *Þegar færslu er breytt*,    
-    *Þegar beðið er um samþykki fyrir almenna færslubókarkeyrslu*,   
-    *Þegar beðið er um samþykki viðskiptavinar*,   
-    *Þegar beðið er um samþykki fyrir vöru*,    
-    *Þegar beðið er um samþykki innkaupaskjals*, eða     
-     *Þegar beðið er um samþykki söluskjals*.
-     
-8. Flæði biður þig um að velja umhverfi og fyrirtæki innan [!INCLUDE[d365fin](includes/d365fin_md.md)] leigjandann þíns, ásamt öllum þeim skilyrðum sem eru í gögnunum sem þú vilt hlusta á.
+7. Farðu í lista yfir tiltækar kveikjur og veldu eina af [!INCLUDE[prodshort](includes/prodshort.md)] tiltækum kveikjum í boði:  
 
-> [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)] tengillinn fyrir Microsoft Flow styður mörg framleiðslu- og sandkassaumhverfi. Ef ekki hafa verið stofnuð mörg framleiðslu- og sandkassaumhverfi er **Framleiðsla** eina tiltæki valkosturinn sem hægt er að velja. 
+    *Þegar beðið er um samþykki lánardrottins*,  
+    *Þegar beðið er um samþykki fyrir almenna færslubókarlínu*,  
+    *Þegar færslu er eytt*,  
+    *Þegar færslu er breytt*,  
+    *Þegar færsla er stofnuð*,  
+    *Þegar færslu er breytt*,  
+    *Þegar beðið er um samþykki fyrir almenna færslubókarkeyrslu*,  
+    *Þegar beðið er um samþykki viðskiptavinar*,  
+    *Þegar beðið er um samþykki fyrir vöru*,  
+    *Þegar beðið er um samþykki innkaupaskjals*, eða  
+    *Þegar beðið er um samþykki söluskjals*.
 
-Nú hefur notanda tekist að tengjast gögnum sínum í Business Central og getur byrjað að byggja upp flæðið.
+8. Power Automate biður þig um að velja umhverfi og fyrirtæki innan [!INCLUDE[prodshort](includes/prodshort.md)] leigjandann þíns, ásamt öllum þeim skilyrðum sem eru í gögnunum sem þú vilt hlusta á.
+
+    > [!NOTE]
+    > [!INCLUDE[prodshort](includes/prodshort.md)] tengillinn fyrir Power Automate styður mörg framleiðslu- og sandkassaumhverfi. Ef ekki hafa verið stofnuð mörg framleiðslu- og sandkassaumhverfi er **Framleiðsla** eina tiltæki valkosturinn sem hægt er að velja.  
+
+    Nú hefur notanda tekist að tengjast gögnum sínum í Business Central [!INCLUDE [prodshort](includes/prodshort.md)] og getur byrjað að byggja upp flæðið.
 
 9. Til að búa til úr sniðmáti skal velja valkostinn **Byrja á sniðmáti**.
-10. Leitaðu að sniðmáti **Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**.
+10. Leitaðu að sniðmáti **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**.
 11. Í lista yfir tiltæk sniðmát skal velja eitt af sniðmátunum og síðan **Búa til**.  
 
     *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] sölupöntun*,  
@@ -72,17 +73,18 @@ Nú hefur notanda tekist að tengjast gögnum sínum í Business Central og getu
     *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] lánardrottni*,  
     *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] færslubókarkeyrslu*, eða    
     *Biðja um samþykkt fyrir Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] færslubókarlínum*.  
-12. Flæði birtir lista yfir þjónustur sem notaðar eru í Flow-sniðmátinu og reynir að tengjast sjálfkrafa við þessar þjónustur. Ef notandi hefur ekki áður tengst þjónustu verður notandi beðinn um að skrá sig inn í hverja þá þjónustu sem hann þarf að tengjast. Grænt gátmerki mun birtast við hliðina á hverri þjónustu þegar tenging hefur verið gerð. Veldu **Halda áfram**.
-13. Flæði biður þig um velja umhverfi og fyrirtæki innan leigjandans [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Vegna þess að hvert skref í flæði er óháð því næsta, getur verið að þú þurfir að skilgreina umhverfið og fyrirtækið mörgum sinnum þegar þú notar [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-sniðmát.
+12. Power Automate birtir lista yfir þjónustur sem notaðar eru í flæðissniðmátinu og reynir að tengjast sjálfkrafa við þessar þjónustur. Ef notandi hefur ekki áður tengst þjónustu verður notandi beðinn um að skrá sig inn í hverja þá þjónustu sem hann þarf að tengjast. Grænt gátmerki mun birtast við hliðina á hverri þjónustu þegar tenging hefur verið gerð. Veldu **Halda áfram**.
+13. Power Automate biður þig um velja umhverfi og fyrirtæki innan leigjandans [!INCLUDE[prodshort](includes/prodshort.md)]. Vegna þess að hvert skref í flæði er óháð því næsta, getur verið að þú þurfir að skilgreina umhverfið og fyrirtækið mörgum sinnum þegar þú notar [!INCLUDE[prodshort](includes/prodshort.md)]Power Automate sniðmát.
 
-Frekari upplýsingar eru í [Flæðisskjöl](/flow/getting-started).
+Frekari upplýsingar er að finna í [Power Automate skráning](/power-automate/getting-started).
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Hafist handa](product-get-started.md)  
 [Verkflæði](across-workflow.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
-[Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md)   
-[Stjórna [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] vinnuflæði](across-use-workflows.md)  
+[Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
+[Stjórna [!INCLUDE[prodlong](includes/prodlong.md)] vinnuflæði](across-use-workflows.md)  
 [Notandauppsetning samþykktar](across-how-to-set-up-approval-users.md)  
-[Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Uppsetning [!INCLUDE[prodshort](includes/prodshort.md)]](setup.md)  
 [Fjármál](finance.md)  

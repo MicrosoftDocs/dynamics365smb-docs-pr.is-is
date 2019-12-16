@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7e8306ad65b41784e853dfc46a41c2deee997180
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 7ab77dd3c154c81172037e07fb6decf4ad907f5b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577232"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883095"
 ---
 # <a name="register-new-vendors"></a>Skráning nýrra lánardrottna
 Lánardrottnar veita vörurnar sem selja á. Hver lánardrottinn sem keypt er frá verður að vera skráður sem lánardrottnaspjald.
@@ -28,11 +28,12 @@ Lánardrottnaspjöld geyma upplýsingarnar sem þarf til að kaupa vörur frá l
 
 > [!NOTE]  
 >   Ef lánardrottnasniðmát er til fyrir mismunandi tegundir lánardrottna, þá birtist síða þegar búið er til nýtt lánardrottnaspjald þar sem hægt er að velja viðeigandi sniðmát. Ef aðeins eitt lánardrottnasniðmát er fyrir hendi, nota ný lánardrottnaspjöld alltaf það sniðmát.
-<br><br>
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PZtd]
+<br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd]
 
 ## <a name="to-create-a-new-vendor-card"></a>Að búa til nýtt lánardrottnaspjald.
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Lánardrottnar** skal velja **Nýtt**.
 
     Ef fleiri en eitt lánardrottnasniðmát er fyrir hendi, þá birtist sjálfkrafa síða með tiltækum lánardrottnasniðmátum. Í því tilviki, fylgið næstu tveimur skrefum.

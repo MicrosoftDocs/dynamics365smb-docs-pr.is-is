@@ -1,20 +1,20 @@
 ---
 title: Úrræðaleita vandamál með innskráningu í sjálfsafgreiðslu | Microsoft Docs
 description: Kynntu þér algengustu ástæðurnar fyrir því af hverju þú getur hugsanlega ekki klárað innskráningu í Business Central, og hvernig hægt er að vinna í kringum þær.
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/12/2019
 ms.author: edupont
-ms.openlocfilehash: d9021cb67176a8fbbb977234e38d02f375a80831
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2a1f923fed08b27152688ecc05c0aa9ff627eed
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310661"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809178"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Úrræðaleit innskráning í sjálfsafgreiðslu
 Innskráning fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] er auðvelt og er hægt að gera mjög skjótan hátt. Hægt er að stofna reikning án endurgjalds jafnvel þó að þú sért fyrirtæki sem þegar er til. Þessi grein fjallar um vandamál sem gætu komið upp við innskráningu.
@@ -28,7 +28,7 @@ Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gef
 Í mörgum tilfellum er innskráning í [!INCLUDE[d365fin](includes/d365fin_md.md)] möguleg með því að fylgja eftirfarandi innskráningarferli. Hins vegar eru nokkrar ástæður fyrir því að þú getur ekki verið fær um að ljúka sjálfsafgreiðslu innskráningu. Taflan hér að neðan er yfirlit yfir nokkrar af algengustu ástæðum fyrir því að vera ekki fær til að ljúka skráningunni og leiðir sem þú getur farið við að leysa þessi vandamál.
 
 | Einkenni/villuboð:  | Ástæða og leið framhjá |
-| --- | --- |
+| --------------------- | -------------------- |
 | Fyrir Office 365 tölvupóstföng sem eru ekki skráð í studdu landi færðu skilaboð eins og eftirfarandi við innskráningu:<br /><br />**Þetta gekk ekki, við styðjum ekki land þitt eða svæði enn.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] styður eins og er aðeins Office 365 tölvupóstföng sem eru skráð á takmörkuðum fjölda markaða. Nánari upplýsingar eru í [Svæði í boði](#regional-availability). |
 | Persónulegir tölvupóstfang eins og nancy@gmail.com eru ekki studd. Þú færð skilaboð eins og þessi við innskráningu:<br /><br />**Þú færðir inn einka tölvupóstfang: vinsamlegast færðu inn vinnutölvupóstfang svo við getum geymt gögn fyrirtækis þíns á öruggan hátt.**<br> Eða <br> **Það lítur út eins og persónulegt netfang. Færðu inn póstfang svo við getum tengt þig við aðra í fyrirtækinu. Og ekki hafa áhyggjur. Við munum ekki deila netfanginu þínu með neinum.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Til að klára innskráninguna, reyndu aftur með því að nota tölvupóstfang sem þér var úthlutað af skólanum eða vinnunni. Ef þú getur enn ekki skrá sig og ert tilbúin/n til að ljúka ítarlegra uppsetningarferli, getur þú skrá sig fyrir nýjum Office 365 prufuáskrift og nota það netfang til að skrá þig inn. |
 | .gov eða .mil tölvupóstfang Þú færð skilaboð eins og eftirfarandi við innskráningu:<br /><br />**[!INCLUDE[d365fin](includes/d365fin_md.md)] ótiltækt: [!INCLUDE[d365fin](includes/d365fin_md.md)] er ekki tiltækt fyrir notendur með .gov eða .mil tölvupóst eins og stendur. Notaðu annað vinnu tölvupóstfang eða athugaðu aftur seinna.** <br>Eða <br>**Við getum ekki lokið við að skrá þig. Það lítur út fyrir að [!INCLUDE[d365fin](includes/d365fin_md.md)] er ekki í boði fyrir vinnu þína eða skóla.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki þennan .gov eða .mil póstföng eins og stendur. |
@@ -37,29 +37,15 @@ Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gef
 | Ef Office 365 reikningurinn þinn er skráður í studdu land og þú ert að skrá þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] á meðan í öðru landi færðu skilaboð eins og eftirfarandi við innskráningu:<br /><br />**Þetta gekk ekki, við styðjum ekki land þitt eða svæði enn.**| Office 365 áskrift fyrirtækis þíns er skráð í tiltekið land í Office 365 stjórnunargáttinni. Upplifun innskráningar fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] notar tungumálið og landsstaðalinn sem núverandi vafri notar og þar af leiðandi geturðu fengið villuboðin þótt þú sért í studdu landi. Spurðu kerfisstjóra til að sannreyna land sem er tilgreint í forstillingu fyrirtækis í [Office 365 stjórnunargáttinni](https://portal.office.com/adminportal/home#/companyprofile). Ef til vill þarf að nota annan reikning fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 
 ## <a name="regional-availability"></a>Svæði í boði
-Til að sjá lista yfir markaði sem nú eru studdir skal skoða skyggnuna [Alþjóðlegt framboð á Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) og lendingarsíðuna [Staðbundin virkni](about-localization.md).
 
-<!-- [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+[!INCLUDE [prodshort](includes/prodshort.md)] er í boði í mörgum löndum eða svæðum með staðfæringu frá Microsoft eða samþykktum staðfæringaraðila. Tæmandi listi yfir studd lönd og svæði er að finna í [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-| Europe | North America |
-| --- | --- |
-| Australia | Canada |
-| Austria | |
-| Belgium | United States |
-| Denmark | |
-| Germany | |
-| Finland | |
-| France | |
-| Italy | |
-| Netherlands | |
-| New Zealand | |
-| Spain | |
-| Sweden | |
-| Switzerland | |
-| United Kingdom | |
--->
+Til að sjá yfirlit yfir markaði sem nú eru studdir í Dynamics 365 skal skoða skyggnuna [Alþjóðlegt framboð á Microsoft Dynamics 365](/dynamics365/get-started/availability). Yfirlit yfir staðbundna virkni í [!INCLUDE [prodshort](includes/prodshort.md)] er að finna á lendingarsíðunni [Staðbundin virkni](about-localization.md).  
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Velkomin(n) í [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Staðbundin virkni](about-localization.md)  
+[Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Alþjóðlegt framboð á Microsoft Dynamics 365](/dynamics365/get-started/availability)  

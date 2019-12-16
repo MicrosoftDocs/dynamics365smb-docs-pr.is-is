@@ -4,31 +4,26 @@ description: Lærðu um getu og vinnusviðsmyndir í Business Central, sem er vi
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2019
+ms.date: 11/14/2019
 ms.author: edupont
-ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: addf7e03759809bd487d87271625f6df60293031
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313589"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878072"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Auðvelt er að skrá sig og hægt er að yfirfæra fyrirliggjandi viðskiptagögn úr eldra kerfinu. Til að hjálpa þér við áskriftina þína skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Auðvelt er að skrá sig og hægt er að yfirfæra fyrirliggjandi viðskiptagögn úr eldra kerfinu.  
 
-Þegar þú skráir þig í forskoðunina á [!INCLUDE[d365fin](includes/d365fin_md.md)] færðu aðgang að sýnifyrirtæki. Sýndarfyrirtækið er með sýnigögn en þú getur til dæmis búið til þín eigin söluskjöl, eða sett upp bankareikning.  
+Til að hjálpa þér við áskriftina þína skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
+
+Þegar þú skráir þig á [!INCLUDE [prodshort](includes/prodshort.md)] færðu aðgang að sýnifyrirtæki. Sýndarfyrirtækið er með sýnigögn en þú getur til dæmis búið til ný söluskjöl, eða sett upp bankareikning. Ef þú vilt hins vegar nota [!INCLUDE [prodshort](includes/prodshort.md)] til að hjálpa þér að reka fyrirtækið þarftu að hafa samband við [!INCLUDE [prodshort](includes/prodshort.md)] endursöluaðila og kaupa áskrift. Frekari upplýsingar um prufur og áskriftir er að finna í [Prufuútgáfa og áskrift](across-preview.md).  
 
 ## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Fá að vita [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Í sýnifyrirtækisins mun myndefni útskýra grunnvirkni og hjálpa þér að prufa daglega verkhluta, eins og að búa til sölureikning og skoðun skýrslu. Ef þú hættir í leiðbeiningu, til dæmis til að skoða [!INCLUDE[d365fin](includes/d365fin_md.md)] á eigin vegum, en vilt fara aftur í hana, skaltu fara til baka í Mitt hlutverk og opna kynninguna Hafist handa. Ef þú vilt fá frekari aðstoð skaltu hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila.  
 
-> [!TIP]  
-> Þú getur farið aftur í Mitt hlutverk með því að velja heiti fyrirtækisins í efra vinstra horninu.
-
-Hér eru nokkur eldsnögg trix, sem gott er að vita af:  
+Í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Hér eru nokkur eldsnögg trix, sem gott er að vita af:  
 
 * [Finna atriði](ui-search.md)  
 * [Leitar-, afmörkunar- og röðunarlistar](ui-enter-criteria-filters.md)  
@@ -36,46 +31,34 @@ Hér eru nokkur eldsnögg trix, sem gott er að vita af:
 
 Frekari upplýsingar er að finna í [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
+> [!TIP]  
+> Þú getur alltaf farið aftur í Mitt hlutverk með því að velja heiti fyrirtækisins í efra vinstra horninu.
+
+Í sýnifyrirtækinu inniheldur hlutverkamiðstöðvarnar Business Manager og Accountant reitinn „Hafist handa“ og Vörumyndbönd. Báðir reitirnir opna síður þar sem hægt er að velja á milli mismunandi myndbanda sem hjálpa þér að hefjast handa með mismunandi hluti í [!INCLUDE [prodshort](includes/prodshort.md)]. Frekari myndbönd má finna á YouTube rásinni okkar. Frekari upplýsingar er að finna á [Skoðaðu myndbandasafnið okkar](across-videos.md). Einnig er hægt að finna netnámskeið fyrir grunnútgáfu [!INCLUDE [prodshort](includes/prodshort.md)] á [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Ef þú vilt fá frekari aðstoð skaltu hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila.  
+
 Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](across-business-functionality.md).
 
-Áður en þú getur byrjað að nota virkni verður að gera ákveðna uppsetningu. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md). Athugaðu að hægt er að gera sum uppsetningarskrefin hálfsjálfvirkt með uppsetningarleiðbeiningar með hjálp.
+Áður en þú getur byrjað að nota virkni verður að gera ákveðna uppsetningu. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+
+> [!TIP]
+> Sum uppsetningarskrefin er hægt að gera hálfsjálfvirkt með uppsetningarleiðbeiningar með hjálp.
 
 Fyrir yfirlit yfir núverandi möguleika og hvað er framundan, skaltu skoða útgáfuáætlunina okkar á [Microsoft Dynamics 365 Business Central útgáfuáætlun](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
-Einnig er hægt að finna netnámskeið á [Microsoft Learn](/learn/browse/?products=dynamics-business-central).  
-
 ## <a name="the-role-centers"></a>Mín hlutverk
-Síðan Mitt hlutverk byggist á hlutverkamiðaðri hönnun til að veita þér hraðan aðgang að viðskiptaferli og verkfærum viðskiptagreindar sem þú þarft til að sinna starfinu þínu. Endurskoðandi má til dæmis fylgjast með greiðslur og samþykktir og skoða vaxtareikninga afköst myndrit. Skoðaðu alls kyns Mín hlutverk með því að velja táknið **Stillingar** ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingartákn fyrir Mitt hlutverk") efst í hægra horninu, velja **Mínar stillingar** og síðan Mitt hlutverk sem á að skoða. Skrá sig aftur inn til að láta breytinguna taka gildi. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).
+Síðan Mitt hlutverk byggist á hlutverkamiðaðri hönnun til að veita þér hraðan aðgang að viðskiptaferli og verkfærum viðskiptagreindar sem þú þarft til að sinna starfinu þínu. Endurskoðandi má til dæmis fylgjast með greiðslur og samþykktir og skoða vaxtareikninga afköst myndrit. Kynntu þér hvað aðgang núverandi hlutverk þitt veitir þér með hlutverkaleit. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md) Skoðaðu alls kyns Mín hlutverk með því að velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") efst í hægra horninu, velja **Mínar stillingar** og síðan Mitt hlutverk sem á að skoða. Þú ert sjálfkrafa skráð(ur) út og inn aftur til að nota breytinguna. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).  
 
-Hvert Mitt hlutverk býður upp á hnappinn **Uppsetning og viðbætur**. Hér hefurðu aðgang að lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa, með því að setja upp valin svæði á fljótan hátt. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetningarsíðum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Sumar Mitt hlutverk síður bjóða upp á hnappinn **Uppsetning og viðbætur**. Hér hefurðu aðgang að lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa, með því að setja upp valin svæði á fljótan hátt. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetningarsíðum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
-> [!NOTE]  
->   Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Úrvals** upplifun gerir. Í fyrsta sinn sem þú skráir þig inn notarðu grunnupplifunina. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
-
-Á síðunni **Uppsetning með hjálp** er að finna eftirfarandi með upplifuninni **Mikilvægur**:
-
-| Uppsetning með hjálp | Description |
-| --- | --- |
-| Flytja viðskiptagögn |Gerir þér kleift að flytja fyrirliggjandi gögn fyrirtækisins, svo sem lánardrottna, viðskiptamenn og vörur úr Excel eða Quickbooks. |
-| Setja upp fyrirtæki notanda |Býr til nýja prufuútgáfu af fyrirtæki fyrir þig til að færa inn gögn í og prófa [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hafir þú lokið að fara í gegnum sýnikennsluna Hafist handa er þessu sennilega þegar **Lokið**. |
-| Uppsetning sjóðsstreymisspár |Setur upp myndrit fyrir Sjóðstreymisspá, þannig að hægt er að skoða fyrirsjánlegt sjóðstreymi inn í og út úr rekstrinum. Myndritið er tiltækur á **Endurskoðandi Mitt hlutverk**. |
-| Setja upp Verkflæði samþykktar |Setur upp möguleikann á að tilkynna samþykkjanda sjálfkrafa þegar notandi reynir að stofna eða breyta ákveðnum gildum í gögnum á borð við skjöl, dagbókarlínu eða kort, svo sem magni yfir tilteknu hámarki. |
-| Setja upp Verkflæði samþykktar viðskiptamanns |Setur upp möguleikann á að tilkynna samþykkjanda sjálfkrafa þegar notandi reynir að stofna eða breyta spjaldi viðskiptamanns. |
-| Setja upp tölvupóst |Undirbýr þig fyrir að senda tölvupóst beint frá t.d. sölupöntunum eða tengiliðum í [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
-| Setja upp tölvupóstsskráningu |Setur upp möguleikann á að skrá tölvupóstsamskipti í [!INCLUDE[d365fin](includes/d365fin_md.md)] til að fylgja eftir samskiptum. |
-| Setja upp Outlook fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] |Setur upp möguleikann á að nota og ræsa [!INCLUDE[d365fin](includes/d365fin_md.md)] úr Outlook. |
-| Setja upp skýrslugerð |Setur upp gagnasöfn sem hægt er að nota til að byggja upp kraftmiklar skýrslur með því að nota Excel eða Power BI, til dæmis. |
-| Setja upp Verkflæði samþykktar vöru |Setur upp möguleikann á að senda boð til samþykkjanda þegar notandi breytir eða stofnar vöru. |
-| Setja upp Verkflæði samþykktar greiðslu |Setur upp möguleikann á að senda boð til samþykkjanda þegar notandi sendir greiðslubókarlínur til samþykktar. |
-| Setja upp tengi í Business Central |Setur upp tengingu við Dynamics 365 Sales sem býður upp á að samstilla gögn, svo sem tengiliði og upplýsingar um sölupantanir. |
-| Uppsetning söluskatts |Hjálpar notanda af stað með sjálfgefnum skattflokkum og úthlutun á skattsvæðakóðum sem hægt er að úthluta á viðskiptavini og lánardrottna til að reikna sjálfkrafa söluskatt í sölu- eða innkaupaskjölum. |
+> [!NOTE]
+> Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Úrvals** upplifun gerir. Í fyrsta sinn sem þú skráir þig inn notarðu grunnupplifunina. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
 
 ## <a name="trying-things-out-in-your-own-company"></a>Prufukeyra hluti í þínu eigin fyrirtæki
 Ertu að hugsa um að gerast áskrifandi? Auðveldlega er hægt að fara út úr sýnifyrirtækinu, yfir í það að stofna og vinna í eigin fyrirtæki. Þetta er frábær leið til að byrja að færa sig í átt að áskrift. Uppsetningar fyrir fjármál fylgja; aðeins þarf að stofna eða flytja inn vörur þínar og þjónustu, viðskiptamenn og lánardrottna. Eftir það ertu tilbúinn til að bóka reikninga og nota verkfæri viðskiptagreindar til að greina fyrirtækið þitt. Hægt er að nota fyrirtækið án endurgjalds yfir 30-daga prufu tímabil. Ef þú gerist áskrifandi að [!INCLUDE[d365fin](includes/d365fin_md.md)] á þeim tíma, ertu þegar kominn af stað. Hægt er að halda áfram starfið sem var unnið á meðan á prufu tímabilinu stóð.  
 
 Til að stofna fyrirtæki til að prufukeyra hluti, farðu á **Mínar stillingar** valmyndina efst í hægra horninu og breyttu fyrirtækinu yfir í **Mitt fyrirtæki**. Til að breytingin taki gildi þarf að skrá sig út úr [!INCLUDE[d365fin](includes/d365fin_md.md)] og svo inn aftur. Uppsetningarleiðsögn með hjálp mun hjálpa þér að veita grunnupplýsingar um fyrirtækið. Þegar því er lokið skal kanna Mitt hlutverk og finna aðgerðina **Uppsetning með hjálp**.  
 
-Annar kostur er að finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search).  
+Einnig er hægt að hafa samband við endursöluaðila Dynamics 365. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
 
 ## <a name="getting-answers-to-questions"></a>Fá svör við spurningum
 
@@ -86,12 +69,13 @@ Ef þú ert ekki viss um hvernig á að gera eitthvað í [!INCLUDE[d365fin](inc
 Ef þú hefur fleiri spurningar mælum við með því að þú spyrjir samfélagið eða hafir samband við endursöluaðilann þinn. Frekari upplýsingar eru í [Hvert leita ég ef ég er með spurningar?](across-faq.md#where-do-i-go-if-i-have-questions).  
 
 ## <a name="ready-to-subscribe"></a>Viltu gerast áskrifandi?
-Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila [hér](https://www.microsoft.com/en-us/solution-providers/search). Einnig er hægt að hafa samband við [[!INCLUDE[d365fin](includes/d365fin_md.md)] Söluteymi](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi þarftu að hafa samband við Dynamics 365 endursöluaðila. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner) og [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prufuútgáfa og áskrift](across-preview.md).  
 
 ## <a name="other-dynamics-365-apps"></a>Önnur Dynamics 365 forrit
-Fara á innihald um önnur Dynamics 365 forrit með því að velja [Dynamics 365](/dynamics365/) hlekkinn á bláa borðanum efst á þessari síðu. Einnig er hægt að læra meira á [Dynamics 365 Business Central vefsíðunni ](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Fara á innihald um önnur Dynamics 365 forrit með því að velja [Dynamics 365](/dynamics365/) hlekkinn á svarta borðanum efst á þessari síðu. Einnig er hægt að læra meira á [Dynamics 365 Business Central vefsíðunni ](https://dynamics.microsoft.com/business-central/overview/).  
 
-Ef þú ert endurskoðandi geturðu skráð þig fyrir [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] fyrir samþættingu við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nánari upplýsingar eru í [Velkomin í Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).
+<!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -100,9 +84,11 @@ Ef þú ert endurskoðandi geturðu skráð þig fyrir [!INCLUDE[d365acc_long](i
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem mitt viðskiptainnhólf í Outlook](admin-outlook.md)  
 [Fáðu [!INCLUDE[d365fin](includes/d365fin_md.md)] í farsímann þinn](install-mobile-app.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prufuútgáfa og áskrift](across-preview.md)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Dynamics 365 Business Central Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
-[Fylgigögn Dynamics 365](/dynamics365/)  
+[Hvernig finn ég endursöluaðila?](across-faq.md#findpartner)
+[Dynamics 365 fylgigögn](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central útgáfuáætlun](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 

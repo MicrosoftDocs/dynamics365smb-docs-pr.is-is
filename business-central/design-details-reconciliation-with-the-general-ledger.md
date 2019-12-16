@@ -1,8 +1,6 @@
 ---
 title: Hönnunarupplýsingar - Afstemming í fjárhagur | Microsoft Docs
 description: Þetta efnisatriði lýsir afstemmingu í fjárhag Þegar birgðafærslur eins og söluafhendingar, framleiðslufrálag eða neikvæðar leiðréttingar eru bókaðar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d1d69b2aa03be59ec68e8198c794aca52ed7cb1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b87ff4652d8d73001c02c864efa638d80c8c9949
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306821"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880065"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Hönnunarupplýsingar: afstemming í fjárhagur
 Þegar birgðafærslur eins og söluafhendingar, framleiðslufrálag eða neikvæðar leiðréttingar eru bókaðar eru magnið og gildisbreytingarnar í birgðunum skráð í birgðafærslunum og virðisfærslurnar, hvort í sínu lagi. Næsta skrefið í ferlinu er að bóka birgðagildin í birgðareikningana í fjárhagnum.  
@@ -93,7 +91,7 @@ Eftirfarandi tafla sýnir hvernig vinnustöð er sett upp á vinnustöðvarspjal
     1. Beinn kostnaður er bókaður. (Notkun, Afkastaveita)  
     2. Óbeinn kostnaður eru reiknuð og staða. (Notkun, Afkastaveita)  
 
-        ![Niðurstöður afkastagetubókunar á fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_capacity.png "Niðurstöður afkastagetubókunar á fjárhagsreikninga")  
+        ![Niðurstöður afkastaveitubókana í fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_capacity.png "Niðurstöður afkastaveitubókana í fjárhagsreikninga")  
 7. Notandinn bókar væntanlegan kostnað einnar keðju. (frálag)  
 8. Notandinn lýkur framleiðslupöntuninni og keyrir **Kostnaðarleiðrétting - Birgðafærslur** runuvinnsluna. (frálag)  
 
@@ -115,7 +113,7 @@ Eftirfarandi tafla sýnir hvernig vinnustöð er sett upp á vinnustöðvarspjal
 
 9. Notandinn endurmetur keðjuna úr SGM 150.00 í SGM 140.00. (Leiðrétting/endurmat/Sléttun/millifærsla)  
 
-    ![Niðurstöður leiðréttingarbókunar á fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Niðurstöður leiðréttingarbókunar á fjárhagsreikninga")  
+    ![Niðurstöður leiðréttingabókana í fjárhagsreikninga](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Niðurstöður leiðréttingabókana í fjárhagsreikninga")  
 
 Frekari upplýsingar um vensl milli reikningsgerða og mismunandi gerðir virðisfærslna eru í [Hönnunarupplýsingar: Reikningar í fjárhag](design-details-accounts-in-the-general-ledger.md).  
 

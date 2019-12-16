@@ -3,29 +3,31 @@ title: Stofna og breyta sérsniðið útlit fyrir skýrslur og skjöl | Microsof
 description: Kynntu þér hvernig skal stofna þitt eigið útlitssnið til að sérsníða útlit skýrslu þegar hún er skoðuð, prentuð eða vistuð.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: f7d907393f765538512a547c8eaa6a3f8963de79
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: d83f243ee9b04c44886610d39c71ad6a4dae434a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311045"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882039"
 ---
-# <a name="create-and-modify-a-custom-report-or-document-layout"></a>Búa til og breyta sérsniðnu skýrslu- eða skjalaútliti
+# <a name="create-and-modify-custom-report-layouts"></a>Búa til og breyta sérsniðnum skýrsluútlitum
 Sjálfgefið er að skýrsla hafa innbyggt skýrsluútlit, sem getur verið RDLC-skýrsluútlit, Word-skýrsluútlit eða bæði. Ekki er hægt að breyta innbyggðu útliti. Þú getur einnig búið til þitt eigið sérsniðið útlit sem gerir þér kleift að breyta útliti skýrslu þegar hún er skoðuð, prentuð eða vistuð. Hægt er að búa til mörg sérsniðin skýrsluútlit fyrir sömu skýrsluna, og skipta svo á milli útlita fyrir skýrsluna eftir þörfum.
 
 > [!NOTE]  
 >   Í [!INCLUDE[d365fin](includes/d365fin_md.md)] táknar hugtakið "skýrsla" einnig utanaðkomandi skjöl, s.s. sölureikninga og pöntunarstaðfestingar sem þú sendir til viðskiptavina sem PDF skjöl.
 
 Til að búa til sérsniðið útlit geturðu búið til afrit af öðru sérsniðið útliti, eða bætt við nýju sérsniðnu útliti, sem í flestum tilfellum er byggt á innbyggða útlitinu. Þegar þú bætir við nýju sérsniðnu útliti geturðu valið að bæta við RDLC-skýrsluútliti, Word-skýrsluútliti eða bæði. Nýja sérsniðna útlitið verður sjálfkrafa byggt á innbyggða útlitinu fyrir skýrsluna ef það er til staðar. Ef ekkert innbyggt útlit fyrir gerðina er til þá er stofnað nýtt autt útlit, sem verður að breyta og hanna frá grunni. Frekari upplýsingar um RDLC- og Word-skýrsluútlit, innbyggð útlit, sérsniðið útlit og fleira eru í [stjórna skýrsluútliti](ui-manage-report-layouts.md).  
+
+Þegar sérsniðið skýrsluútlit er skilgreint er hægt að velja það af úr spjöldum viðskiptamanna og lánardrottna til að tilgreina að valið útlit á að nota fyrir skjöl sem þú býrð til fyrir viðskiptamanninn eða lánardrottinn. Frekari upplýsingar eru í [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md).
 
 ## <a name="to-create-a-custom-layout"></a>Til að búa til sérsniðið útlit
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.
@@ -68,7 +70,7 @@ Til að breyta skýrsluútliti úr , þarftu fyrst að flytja út skýrsluútlit
 
 5. Í svarglugganum **Flytja inn** skal velja **Velja** til að finna og velja skjalið sem skilgreinir skýrsluútlitið og svo velja **Opna**.
 
-##  <a name="MakeChangesToLayout"></a> Gera breytingar á Word-skýrsluútliti  
+##  <a name="MakeChangesToLayout"></a>Búa til og breyta sérsniðnum skýrsluútlitum  
 Til að gera almennar sniðsbreytingar og útlitsbreytingar, t.d. að breyta leturgerð, bæta við og breyta töflu eða að fjarlægja gagnareit, skal einfaldlega nota grunnbreytingarvalkosti Word, líkt og gert er fyrir öll önnur Word skjöl.
 
 Ef þú ert að hanna Word-skýrsluútlit frá grunni eða bæta við nýjum gagnareitum skaltu byrja með því að bæta við töflu sem er með raðir og dálka sem munu að endingu innihalda gagnareitina.
@@ -78,12 +80,12 @@ Ef þú ert að hanna Word-skýrsluútlit frá grunni eða bæta við nýjum gag
 
 ### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Innfelling leturgerða í Word Layouts fyrir samræmi
 
-Til að tryggja að skýrslur birtist alltaf og prentist með fyrirhuguðum leturgerðum, óháð hvar notendur opna eða prenta skýrslurnar, geturðu fellt inn leturgerðirnar í Word skjalinu. Hins vegar skaltu hafa í huga að innbyggðar leturgerðir geta verulega aukið stærð Word skjala. Nánari upplýsingar um innfellingu leturgerða í Word, sjá [Fella inn leturgerðir í Word, PowerPoint eða Excel](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+Til að tryggja að skýrslur birtist alltaf og prentist með fyrirhuguðum leturgerðum, óháð hvar notendur opna eða prenta skýrslurnar, geturðu fellt inn leturgerðirnar í Word skjalinu. Hins vegar skaltu hafa í huga að innbyggðar leturgerðir geta verulega aukið stærð Word skjala. Nánari upplýsingar um innfellingu leturgerða í Word, sjá [Fella inn leturgerðir í Word, PowerPoint eða Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
 ###  <a name="RemoveField"></a> Merkimiða- og gagnareitir fjarlægðir úr Word-útliti  
  Merkimiða- og gagnareitir skýrslu eru í efnisstjórnun í Word. Eftirfarandi mynd sýnir efnisstjórnun þegar hún er valin í Word skjalinu.  
 
- ![efnisstjórnun fyrir reit í Word skýrsluútliti](media/nav_wordreportlayouts_contentcontrol.png "NAV_Word_Skýrslu_Útlit_Efnisstjórnun")  
+ ![Efnisstjórnun fyrir reit í Word skýrsluútliti](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
 
  Heiti merkisins eða heiti gagnareits er birt í efnisstjórnun. Í dæminu er heiti reitsins CompanyAddr1.  
 

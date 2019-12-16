@@ -1,8 +1,6 @@
 ---
 title: Hvernig skal eyða kostnaðaráætlunarfærslum | Microsoft Docs
 description: Eyða kostnaðaráætlunarfærslum Keyrslan er notuð til að afturkalla kostnaðaráætlunarfærslur í kostnaðaráætlunardagbókinni.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a20895b02b00c64261e0a318949e2ba83bd15a56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 04510e87789e6d69b33009be7ebbaf7a405d0dff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302054"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882696"
 ---
 # <a name="delete-cost-budget-entries"></a>Eyða kostnaðaráætlunarfærslum
 **Eyða kostnaðaráætlunarfærslum** Keyrslan er notuð til að afturkalla kostnaðaráætlunarfærslur í kostnaðaráætlunardagbókinni.  
@@ -26,7 +24,7 @@ Til að koma í veg fyrir gloppur í kostnaðaráætlunarfærslum og kostnaðars
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Til að úthluta kostnaðaráætlunarfærslu  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða kostnaðaráætlanafærslum** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða kostnaðaráætlunarfærslum** og veldu síðan tengda tengilinn.  
 
     **Skráningarnr.** reiturinn felur í sér síðasta skráningarfærslunúmerið og því er ekki hægt að breyta.  
 

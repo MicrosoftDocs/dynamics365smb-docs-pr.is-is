@@ -1,8 +1,6 @@
 ---
 title: Þjónustuupplýsingar | Microsoft Docs
 description: Fáðu snöggt yfirlit yfir innihald alls þjónustuskjalsins, þ.m.t. pantanir, tilboð, reikninga eða kreditreikninga, sundurliðun á ákveðnum þjónustulínum og þjónustuvörur.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 95bed832d95647ea538324544c302054328cae66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553843"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877160"
 ---
 # <a name="viewing-service-statistics"></a>Þjónustuupplýsingar skoðaðar
 Hægt er að nota tölfræði til að greina þjónustuskjöl og ákvarða hversu vel þú ert að stjórna þjónustuferlunum. Þú getur greint þjónustusamninga, vörur, tilboð, pantanir, reikninga og kreditreikninga með því að velja aðgerðina **Upplýsingar**. Fyrir þjónustuvörur og samninga, geturðu líka notað **Þjónustuvara Trendscape** eða **Samningur Trendscape** til að skoða yfirlit yfir þjónustufærslur fyrir sérstaka þjónustuvöru.   
@@ -86,7 +84,7 @@ Hagnaðar- eða tapfærslur samnings eru myndar í hvert sinn sem samningstilbo�
 |**Hagn./tap samnings (ástæður)**|Ef skoða á hagnaðar-/tapfærslur eftir ástæðukóta.|  
 |**Hagn./tap samn. (ábyrgðarstöð)**|Ef skoða á hagnaðar-/tapfærslur eftir ábyrgðarstöð.|  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn heiti síðunnar sem á að birta og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") sláðu inn heiti síðunnar sem á að birta og veldu síðan tengda tengilinn.  
 2. Fylla inn í afmörkunarskilyrði sem á að nota. Til dæmis á síðunni **Hagn./tap samnings (ástæður)** skal velja gildi fyrir **Afmörkun ástæðukóða**.  
 3. Veljið aðgerðina **Sýna fylki**.
 

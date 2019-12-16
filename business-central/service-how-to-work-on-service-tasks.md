@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að vinna með þjónustuverkhluta | Microsoft Docs
 description: Þegar búið er að stofna þjónustupöntun eða þjónustutilboð, skrá þjónustuvörulínur og úthluta forða til þjónustuvöru í pöntuninni eða tilboðinu má byrja að gera við þjónustuvöru og halda henni við.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: a1f448bf0d446d8a7a6bcc1db9a1cd636ea8cdd6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553771"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882399"
 ---
 # <a name="work-on-service-tasks"></a>Vinna við þjónustuverk
 Þegar búið er að stofna þjónustupöntun eða þjónustutilboð, skrá þjónustuvörulínur og úthluta forða til þjónustuvöru í pöntuninni eða tilboðinu má byrja að gera við þjónustuvöru og halda henni við.  
@@ -27,7 +25,7 @@ ms.locfileid: "2553771"
 Til að rekja breytingar og fá myndrænt yfirlit yfir þjónustufyrirtækið má nota upplýsingaverkfæri [!INCLUDE[d365fin](includes/d365fin_md.md)] til að búa til myndrit og greiningar hratt og sjálfkrafa.  
 
 ## <a name="to-work-on-a-service-task"></a>Unnið við þjónustuverkhluta:  
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverk** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverk** og veldu síðan tengda tengilinn.
 2. Ef fá á lista yfir verkhluta sem tilteknum forða eða forðaflokki er úthlutað til þarf að fylla út reitinn **Forðaafmörkun** eða **Forðaflokksafmörkun** og styðja á færslulykilinn.  
 3. Ef fá á lista yfir þjónustuverkhluta með tiltekinni svardagsetningu eða svardagsetningum á tilteknu tímabili þarf að fylla út reitinn **Dags. afmörkun svars** og styðja á færslulykilinn.  
 4. Ef fá á lista yfir verkhluta með tiltekna úthlutunarstöðu eða viðgerðarstöðu þarf að fylla út reitinn **Afm. úthlutunarstöðu** eða **Viðgerðarstöðukóti - afmörkun** og styðja á færslulykilinn.  
@@ -41,7 +39,7 @@ Til að rekja breytingar og fá myndrænt yfirlit yfir þjónustufyrirtækið m�
 ## <a name="to-register-service-operations"></a>Skráning þjónustuaðgerða  
 Þegar þjónustupöntun er þjónustuð er hægt að skrá upplýsingar þar sem tilgreint er notaðar vörur, kostnaður sem stofnað hefur verið til og stundir sem búið er að eyða. Gögnin sem tilgreind eru geymd á síðunni **Þjónustuvörublað**. Hægt er að uppfæra gögnin eftir þörfum.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Opna skal þjónustupöntunina til að skrá þjónustuna fyrir, og velja vörulínuna.  
 3. Veldu aðgerðina **Þjónustuvörublað**  
 4. Í línurnar skal tilgreina notaðar vörur, stofnaðan kostnað og stundir sem varið hefur verið í þjónustuna.  
@@ -52,7 +50,7 @@ Til að rekja breytingar og fá myndrænt yfirlit yfir þjónustufyrirtækið m�
 ## <a name="to-register-spare-parts"></a>Varahlutir skráðir  
 Þegar unnið er við þjónustuvöru í þjónustupöntunum kann að þurfa að nota varahluti til þjónustunnar. Eftirfarandi ferli sýnir hvernig á að skrá varahluti á síðunni **Þjónustuvörublað**.  
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverk** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverk** og veldu síðan tengda tengilinn.
 2. Valin er línan sem inniheldur viðeigandi þjónustuvöru og síðan skal velja **Vörublað** aðgerðin.  
 3. Færð er inn ný þjónustulína.  
 4. Í reiturinn **Tegund** skal velja **Vara**.  
@@ -62,7 +60,7 @@ Til að rekja breytingar og fá myndrænt yfirlit yfir þjónustufyrirtækið m�
  Hægt er að nota svipaða aðferð til að skrá varahluti í síðuna **Þjónustulínur** sem hægt er að opna frá síðunni **Þjónustupöntun**.  
 
 ## <a name="to-register-spare-parts-from-a-service-order"></a>Til að skrá varahluti úr þjónustupöntun  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Opna þjónustupöntunina sem skrá á varahlutina fyrir.  
 3. Valin er línan sem inniheldur viðeigandi þjónustuvöru. Velja **Aðgerðir**, velja **Röð** og smella síðan á **Þjónustulínur**.  
 4. færð er inn ný þjónustulína.  
@@ -70,7 +68,7 @@ Til að rekja breytingar og fá myndrænt yfirlit yfir þjónustufyrirtækið m�
 ## <a name="to-replace-a-service-item-or-a-service-item-component"></a>Skipta um þjónustuvöru eða þjónustuvöruíhlut  
 Þegar veitt er þjónusta vegna þjónustuvöru sem er samsett úr íhlutum þarf kannski að skipta á gölluðum íhlut og nýjum. Í hvert sinn sem færður er inn varahlutur vegna þjónustuvöru úr íhlutum er hægt að velja um að skipta um íhlut eða stofna nýjan. Kerfið skráir ekki nýju vöruna sem íhlut þjónustuvörunnar fyrr en búið er að bóka þjónustulínuna eða þjónustupöntunina.
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverk** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverk** og veldu síðan tengda tengilinn.
 2. Valin er línan sem inniheldur þjónustuvöruna og síðan skal velja **Vörublað** aðgerðin.  
 3. Færð er inn ný þjónustulína.  
 4. Í reiturinn **Tegund** skal velja **Vara**.  
@@ -89,14 +87,14 @@ Til að rekja breytingar og fá myndrænt yfirlit yfir þjónustufyrirtækið m�
 ## <a name="to-change-the-response-time-for-a-service-item-line"></a>Svartíma fyrir þjónustuvörulínu breytt:  
 Þegar þú skráir þjónustuvörulínu í þjónustupöntun eða tilboði, háð því hvort þjónustuvaran er á þjónustusamningi er svartími í klst. sjálfkrafa færður inn og svardagsetning og tími reiknuð í samræmi við það. Hægt er að breyta svartíma í klst. og svardagsetningu og tíma ef þess er þörf.  
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** eða **Þjónustutilboð** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Þjónustupantanir** eða **Þjónustutilboð** og veldu síðan tengda tengilinn.  
 2. Velja skal þjónustupöntunina eða tilboðið til að opna spjaldið.  
 3. Á þjónustuvörulínunni sem viltu breyta svartímanum fyrir, annað hvort í reitnum **Svartími (klst.)** eða í reitunum **Svardagsetning** og **Svartími** er færð inn nýr svartími eða nýr svardagsetning og tími.  
 
 ## <a name="to-register-faultresolution-codes"></a>Skráning bilana- og úrlausnarkóta  
 Þegar gert hefur verið við þjónustuvöru er hægt að skrá bæði bilanakótann og úrlausnarkótann fyrir vöruna með því að velja samsetningu í þeim tengslum bilana- og úrlausnarkóta sem til eru. Nú birtast valdir bilana- og úrlausnarkóðar í samsvarandi reitum á síðunni **Þjónustuvörublað**. Einnig má skrá kóðana beint á þessa síðu.  
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverk** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverk** og veldu síðan tengda tengilinn.
 2. Valin er línan sem inniheldur viðeigandi þjónustuvöru og síðan skal velja **Vörublað** aðgerðin.  
 3. Á síðunni **Þjónustuvörublað** er valið **Tengsl úrlausnar-/bilanakóða**. Síðan **Tengsl bilunar/úrlausnarkóða** opnast.  
 

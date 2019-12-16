@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 93411d5469373a1084579b1235dcd2befdf921a8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 79e09037208233b378a4b464acce996537375e6c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554279"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879969"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Afskrifa eða greiða af eignum
 Afskriftir eru notaðar til að dreifa kostnaði við eignir eins og tæki og búnað á afskriftartíma þeirra. Tilgreina verður afskriftaraðferð fyrir hverja eign.  
@@ -36,11 +36,12 @@ Endurmat er notað til að laga virði að almennum verðbreytingum. Hægt er a�
 ## <a name="to-calculate-depreciation-automatically"></a>Afskriftir reiknaðar sjálfvirkt:
 Hægt er að keyra keyrsluna **Reikna afskriftir** mánaðarlega eða hvenær sem óskað er. Runuvinnslan hunsar eignir sem hafa verið seldar, eignir sem eru lokaðar eða óvirkar, eða nota handvirka afskriftaraðferð.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Reikna afskriftir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Reikna afskriftir** eða Lánardrottinn og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Velja hnappinn **Í lagi**.  
 
-    Keyrslan reiknar afskriftirnar og býr til línur í eignafjárhagsbók.  
+    Keyrslan reiknar afskriftirnar og býr til línur í eignafjárhagsbók.
+
 4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignafjárhagsbækur** og veldu síðan tengda tengilinn.  
 
     Á síðunni **eignafjárhagsbók** í reitnum **Fjöldi afskriftadaga** má sjá hve margir afskriftadagar hafa verið reiknaðir.  
@@ -53,7 +54,16 @@ Hægt er að keyra keyrsluna **Reikna afskriftir** mánaðarlega eða hvenær se
 4. Valið er **Setja inn mótreikn. eigna** aðgerð. Seinni færslubókarlína er búin til fyrir mótreiknings sem er sett upp fyrir bókun afskriftar. Frekari upplýsingar er að finna í [Að setja upp bókunarflokka eigna](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Veldu aðgerðina **Birta** til að birta færslubókina.  
 
+**Bókfært virði** á síðunni **Eignaspjald** er uppfært til samræmis.
+
 Ef settir hafa verið upp eignarúthlutunarlyklar til að úthluta upphæðum til mismunandi deilda eða verkefna, verða upphæðirnar úthlutað á meðan á bókun stendur. Frekari upplýsingar eru í [Uppsetning almennra eignaupplýsinga](fa-how-setup-general.md).  
+
+## <a name="to-manage-the-ending-book-value"></a>Til að stjórna bókfærðu lokavirði
+Í reitnum **Bókfært lokavirði** á síðunni **Eignaafskriftabækur** er hægt að tilgreina bókfært virði sem þú vilt að eignin þín eigi að hafa í núverandi afskriftabók eftir að hún hefur verið afskrifuð að fullu. Þú getur gert þetta handvirkt eða þú getur fyllt inn reitinn **Sjálfg. bókf. lokavirði** á tengdri **Afskriftabók** , sem verður síðan notuð til að fylla út í reitinn sjálfkrafa.
+
+> [!NOTE]
+> Ef síðasta afskrift þýðir að reiturinn **Bókvirði** á **Eignarspjaldi** sé núll er þessi upphæð sjálfkrafa dregin frá síðustu afskrift.<br /><br />
+> Ef gildið í **Bókfært virði** er hærra en núll eftir síðustu afskrift, til dæmis vegna sléttunarerfiðleika eða hrakvirðis, er gildið í reitnum **Bókfært lokavirði** á síðunni **Afskriftabækur** hundsað. Nánari upplýsingar er að finna í [Bóka hrakvirði með kaupverði](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Reikna út úthlutanir í eignafjárhagsbókum:
 Ef margar deildir nota eign er hægt að dreifa tímabilsafskriftum sjálfvirkt á deildirnar samkvæmt úthlutunartöflu sem notandi skilgreinir.  

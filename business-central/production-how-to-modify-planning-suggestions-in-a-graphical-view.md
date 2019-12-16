@@ -1,8 +1,6 @@
 ---
 title: 'Hvernig á að: Breyta áætlunartillögum í myndrænu yfirliti | Microsoft Docs'
 description: Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður þær eru færðar inn með því að keyra aðgerðina **Framkvæma aðgerðarboð**. Í stað þess að gera þetta í áætlunarvinnublaðinu er notað myndrænt yfirlit.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3aea6aa1aab6b5006bdc548b99bfa037e995de32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313373"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877928"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Breyta áætlunartillögum í myndrænu yfirliti
 Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður þær eru færðar inn með því að keyra aðgerðina **Framkvæma aðgerðarboð**. Í stað þess að gera þetta í áætlunarvinnublaðinu er notað myndrænt yfirlit.
@@ -37,7 +35,7 @@ Nánari upplýsingar um þær tegundir áætlunarlína sem birtast eru í reitnu
 Eftirfarandi ferli sýnir hvernig eigi að breyta framboðstillögum með því að draga og sleppa. Einnig er hægt að breyta reitunum **Skiladagur** og **Magn** á flýtiflipanum **Atviksbreytingar** og sjá strax breytingarnar á myndrænan hátt á flýtiflipanum **Tímalína** á síðunni **Áætlunarvinnublað**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Til að breyta ráðlögðum birgðapöntunum í myndræna yfirlitinu  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara til ráðstöfunar eftir tímalínu** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Til ráðstöfunar eftir tímalínu** og veldu síðan tengda tengilinn.  
 
     Síðan **Vara til ráðstöfunar samkvæmt tímalínu** opnast með vörunúmerinu, staðsetningu og afbrigði vörunnar í völdum áætlunarlínum forvöldum í flýtiflipanum **Valkostir**. Flýtiflipinn **Tímalína** sýnir myndræna lýsingu á áætluðum birgðum vörunnar, að meðtöldum áætlunartillögum.  
 

@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: a8acad8d0be760f567902587acada49ab68e740f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0506dad5f65766919405dd944d75b014957b509c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304932"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879428"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Skoða listagögn í Power BI skýrslum í Business Central
 
 [!INCLUDE[prodlong](includes/prodlong.md)] inniheldur stjórneiningu fyrir upplýsingakassa á mörgum veigamiklum listasíðum sem veita frekari innsýn í gögnin í listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Notandi getur stofnað sérsniðnar skýrslur til að birta í þessum stjórntakka en hér eru nokkrar grunnreglur sem fylgja skal við stofnun skýrslnanna til að tryggja að þær virki sem skyldi.  
 
 > [!NOTE]  
-> Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes/prodshort.md)] og hjá Power BI. Til að búa til sérsniðnar skýrslur verður þú einnig að hala niður [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Frekari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md).  
+> Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes/prodshort.md)] og hjá Power BI. Til að búa til sérsniðnar skýrslur verður þú einnig að hala niður [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Frekari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Gagnamengi skýrslu
 Þegar skýrslan er stofnuð í Power BI Desktop skal tilgreina gagnaveitu eða vefþjónustu sem inniheldur gögnin sem tengjast listanum sem á að tengja skýrsluna við. Til dæmis ef notandi vill stofna skýrslu fyrir sölulista skal tryggja að gagnamengið innihaldi upplýsingar sem tengjast sölu.  

@@ -1,8 +1,6 @@
 ---
 title: Hönnunarupplýsingar - Bókun samsetningarpöntunar | Microsoft Docs
 description: Bókun samsetningarpöntunar er byggð á sömu forsendum og bókun svipaðra aðgerða sölupantana og notkun/frálag framleiðslu. Hins vegar eru reglur sameinaðar að því leyti að samsetningarpantanir eru með eigið bókunarviðmót eins og fyrir sölupantanir á meðan raunveruleg bókun færslna fer fram í bakgrunninum sem beinar vöru- og forðabókarbókanir, eins og fyrir framleiðslunotkun, framleiðslu og afkastagetu.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4a64e6bf09914ebd24e7d00ac54a286a33cd2026
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307445"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880641"
 ---
 # <a name="design-details-assembly-order-posting"></a>Hönnunarupplýsingar: Bókun samsetningarpöntunar
 Bókun samsetningarpöntunar byggir á sömu meginreglum og þegar bókun tengist sambærilegum aðgerðum á borð við sölupantanir og notkun/frálag framleiðslu. Hins vegar eru reglur sameinaðar að því leyti að samsetningarpantanir eru með eigið bókunarviðmót eins og fyrir sölupantanir á meðan raunveruleg bókun færslna fer fram í bakgrunninum sem beinar vöru- og forðabókarbókanir, eins og fyrir framleiðslunotkun, framleiðslu og afkastagetu.  
@@ -114,7 +112,7 @@ Bókun sölupantanalína þar sem einn hluti er birgðamagn og annar er magn sam
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Hönnunarupplýsingar: staða framleiðslupöntunar](design-details-production-order-posting.md)   
- [Hönnunarupplýsingar: Aðferð kostn.útreiknings](design-details-costing-methods.md)  
+ [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

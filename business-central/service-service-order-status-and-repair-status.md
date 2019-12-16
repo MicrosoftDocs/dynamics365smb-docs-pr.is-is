@@ -1,8 +1,6 @@
 ---
 title: Staða þjónustupöntunar og staða viðgerða | Microsoft Docs
 description: Reitirnir Staða á síðunni Þjónustupöntun og þjónustuvöruviðgerðarstaðan sem vísað er til í reitnum Viðgerðarstöðukóti á síðunni Þjónustupöntun hafa ákveðið samband í Þjónustukerfi. Þjónustupöntunarstaðan sýnir viðgerðarstöðu allra þjónustuvara í þjónustupöntuninni.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f55e33490bb70fae2b37eda6fe0b43f982fe8493
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1333ee61a510a2b7a660f464addf7e0ad66ee7dc
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311597"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882327"
 ---
 # <a name="service-order-status-and-repair-status"></a>Þjónustupöntunarstaða og viðgerðarstaða
 Reitirnir **Staða** á síðunni **Þjónustupöntun** og þjónustuvöruviðgerðarstaðan sem vísað er til í reitnum **Viðgerðarstöðukóti** á síðunni **Þjónustupöntun** hafa ákveðið samband í Þjónustukerfi. Þjónustupöntunarstaðan sýnir viðgerðarstöðu allra þjónustuvara í þjónustupöntuninni.  

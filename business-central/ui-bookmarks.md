@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d52f1dce42bb8c3b84ff335eb07b6a12154fbcf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c39fb8e9c2b380674169a27d05a04f0f4b0d451
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316880"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832095"
 ---
 # <a name="add-a-page-action-to-your-role-center"></a>Bæta síðuaðgerð við Mitt hlutverk
 Með því að nota nýja bókamerkjatáknið er hægt að bæta aðgerðatengli við einhverja síðu úr yfirlitsvalmyndinni fyrir Mitt hlutverk. Hægt er að bæta við bókamerkinu frá marksíðunni sem merkir síðuna sem óskað er eftir að aðgerðin fyrir Mitt hlutverk opni.
@@ -24,15 +24,18 @@ Táknið fyrir bókamerki er sýnt efst í hægra horninu á öllum síðum og e
 
 ## <a name="to-add-a-role-center-action-from-the-target-page"></a>Til að bæta við aðgerð fyrir Mitt hlutverk frá marksíðu
 1. Opnaðu hvaða síðu sem er sem þú vilt fá aðgerð fyrir Mitt hlutverk.
-2. Velja ![Bókamerki](media/ui_bookmark_icon.png "Bókamerki") táknið.
+2. Velja táknið ![Bókamerki](media/ui_bookmark_icon.png "Bókamerki").
 
 Aðgerðarheitum eftir að síðunni hefur nú verið bætt við yfirlitsvalmyndina í Mitt hlutverk.
 
 ## <a name="to-add-a-role-center-action-from-the-tell-me-window"></a>Til að bæta við aðgerð hlutverkamiðstöðvar úr glugganum Viðmótsleit
 1. Opnaðu **Viðmótsleit** glugga og Sláðu inn, til dæmis **sölupantanirnar**.
-2. Farið yfir leitarniðurstöður fyrir **Sölupantanir** síðuna og veljið síðan ![Bókamerki](media/ui_bookmark_icon.png "Bókamerki") táknið.
+2. Farið yfir leitarniðurstöður fyrir **Sölupantanir** síðuna og veljið síðan táknið ![bókamerkið](media/ui_bookmark_icon.png "Bókamerki").
 
 Ef bókamerki er þegar til fyrir síðuna, þá er teiknið dimmt og verkfæratáknið segir „bókamerkt“.
+
+> [!NOTE]  
+> Þegar bókamerki er bætt við er hægt að nota alla þýdda texta sem voru í boði á þeim tíma. Ef nýjum þýddum texta er bætt við síðar er bókamerkti tengilinn ekki uppfærður.
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling verksvæðis](ui-personalization-user.md)  

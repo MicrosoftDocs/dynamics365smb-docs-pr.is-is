@@ -1,8 +1,6 @@
 ---
 title: Uppsetning bestu venjur - Framboðsáætlun | Microsoft Docs
 description: Framboðsáætlun er mikilvægt rekstrarsvið. Þegar birgðaáætlun er sett upp og notuð rétt hjálpar hún fyrirtæki að forðast útskipun og minnka bæði pöntunar- og birgðakostnað.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2cfb83468cd952f1528783a62a08732af2b9aeb9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cbda83a386aa288cb6a845fd16c2c7dfb5c24e5f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315733"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882202"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Uppsetning bestu venjur: Framboðsáætlun
 Framboðsáætlun er mikilvægt rekstrarsvið. Þegar birgðaáætlun er sett upp og notuð rétt hjálpar hún fyrirtæki að forðast útskipun og minnka bæði pöntunar- og birgðakostnað.  

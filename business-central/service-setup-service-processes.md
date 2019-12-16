@@ -1,8 +1,6 @@
 ---
 title: Setja upp þjónustustýringarferli | Microsoft Docs
 description: Lærið hvernig á að setja upp ferli sem hjálpar til við að skapa ánægju meðal viðskiptamanna með þjónustudeildina.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: eb83c1a2e90e81060355e15c9d0e81d321ed8ed0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315853"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877136"
 ---
 # <a name="configure-service-processes"></a>Grunnstilling þjónustuferlis
 Hér eru nokkur dæmi um stillingar sem hægt er að nota í þjónustustýringarferli:  

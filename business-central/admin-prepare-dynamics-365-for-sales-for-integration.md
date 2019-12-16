@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9f56e96b86fb7462799c9a9c655010ee2fb04381
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 09edf4a84720085d0accb008b0ae29f47fa38f60
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775308"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808770"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Samþætting við Dynamics 365 Sales
 Hlutverk sölumannsins er oft talið sýnilegasti hlutinn í viðskiptum. Hins vegar getur það gagnast sölumönnum að geta fengið innsýn í viðskiptin og séð hvað er að gerast á bak við tjöldin. Með því að samþætta [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] er hægt að veita sölufólkinu þessa innsýn með því að gera því kleift að skoða upplýsingar í [!INCLUDE[d365fin](includes/d365fin_md.md)] á meðan það vinnur í [!INCLUDE[crm_md](includes/crm_md.md)]. Þegar sölutilboð er undirbúið getur það til dæmis verið gagnlegt að vita hvort nægar birgðir séu til staðar til að uppfylla pöntunina. Frekari upplýsingar er að finna í [Að nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md).
@@ -34,7 +34,7 @@ Eftirfarandi skref veita yfirlit yfir skrefin til að samþætta [!INCLUDE[crm_m
 > [!Note]  
 > Þessi skref krefjast öryggishlutverksins **Kerfisstjóri** í [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. Í Office 365 stjórnendamiðstöðinni skal setja upp notandareikning til að tengja við og samstilla gögn við [!INCLUDE[crm_md](includes/crm_md.md)]. Nánari upplýsingar er að finna í [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
+1. Í Microsoft 365 stjórnendamiðstöðinni skal setja upp notandareikning til að tengja við og samstilla gögn við [!INCLUDE[crm_md](includes/crm_md.md)]. Nánari upplýsingar er að finna í [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 2. Úthluta leyfum fyrir [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)] notenda sem munu nota samþættu forritin.
 

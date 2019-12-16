@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 10/01/2019
+ms.date: 11/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: dc37aa410c9e9ba823894fad961b68897468b9ca
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 667adfcc9c470a9d4dbf26923fe5e6edfc7ed85a
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303437"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832192"
 ---
 # <a name="design-details-inventory-costing"></a>Hönnunarupplýsingar: Birgðakostnaður
 Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar fyrir hugtökin og reglurnar sem eru notaðar í Birgðarkostnaði [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -38,6 +38,6 @@ Birgðakostnaður, einnig kostnaðarstýring, snýst um að skrá og tilkynna ko
 [Hönnunarupplýsingar: staða framleiðslupöntunar](design-details-production-order-posting.md)  
 [Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)  
 [Hönnunarupplýsingar: afstemming í fjárhagur](design-details-reconciliation-with-the-general-ledger.md)  
-[Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)
+[Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)  
 [Hönnunarupplýsingar: Birgðavirði](design-details-inventory-valuation.md)  
 [Hönnunarupplýsingar: Endurmat](design-details-revaluation.md)

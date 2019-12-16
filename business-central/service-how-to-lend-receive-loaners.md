@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að lána Þjónustuvörur sem staðgengla | Microsoft Docs
 description: Hægt er að lána viðskiptamönnum lánsbúnað til að koma tímabundið í stað þjónustuvara sem tekið hefur verið við til þjónustu.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ab7950ca4b7d9239c6ab011fcff8a34392f8b800
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4b8ba590f2ee02fd0b9381381f5590641e46ac51
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311669"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882375"
 ---
 # <a name="lend-and-receive-loaners"></a>Lána og taka á móti lánsbúnaði
 Hægt er að lána viðskiptamönnum lánsbúnað til að koma tímabundið í stað þjónustuvara sem tekið hefur verið við til þjónustu.  
   
 ## <a name="to-lend-a-loaner-item"></a>Lánsbúnaðarvara lánuð    
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi spjald þjónustupöntunar.  
 3. Smellt er á þjónustuvörulínuna með þjónustuvörunni sem á að skipta á með lánsbúnaði.  
 4. Í **Nr. lánsbúnaðar** reitnum, veljið viðeigandi lánsbúnaðarvöru.  
@@ -32,7 +30,7 @@ Hægt er að lána viðskiptamönnum lánsbúnað til að koma tímabundið í s
 ## <a name="to-receive-a-loaner"></a>Tekið við lánsbúnaði  
 Þegar tekið er við lánsbúnaði frá viðskiptamanni þarf að skrá móttökuna. Það er gert á síðunni **Þjónustupöntun**, **Bókuð þjónustuafhending** og **Lánsbúnaðarspjald**. Þessi aðferð sýnir hvernig er tekið við lánsbúnaði á síðunni **Þjónustupöntun**.  
   
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi þjónustupöntun.  
 3. Valin er þjónustuvörulínan með lánsbúnaðinum sem taka á við.  
 4. Velja **Aðgerðir**, velja **Aðgerðir** og síðan smella á **Móttaka lánsbúnaðar**.  

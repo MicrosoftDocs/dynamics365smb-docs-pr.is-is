@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að tína fyrir framleiðslu með einföldum vöruhúsaaðgerðum | Microsoft Docs
 description: Þegar vöruhúsið krefst tínsluvinnslu en ekki afhendingarvinnslu er síðan **Birgðatínsla** notuð til að skipuleggja og skrá tínslu íhluta.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e58299e7edecc35c7757ebc91d1e444df299ee13
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 303f8007bbe1a953fb09c892e71f5e52dbcf74ee
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310301"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876656"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss
 Hátturinn við frágang tínsluíhluta fyrir framleiðslu fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).
@@ -39,7 +37,7 @@ Hátturinn við frágang tínsluíhluta fyrir framleiðslu fer eftir því hvern
 ## <a name="to-pick-components-in-basic-warehouse-configurations"></a>Tína íhluti í einfaldri vöruhúsagrunnstillingu
 Í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslan notar eingöngu tínslu, eru íhlutir tíndir fyrir framleiðsluaðgerðir með síðunni **Birgðatínsla**. Frekari upplýsingar, sjá [Tína vörur með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínsla** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínslur** og veldu síðan tengda tengilinn.  
 2.  Til að komast í íhluti framleiðslupöntunarinnar, veldu aðgerðina **Sækja upprunaskjöl** og síðan er útgefna framleiðslupöntunin valin.  
 3.  Tínslan er framkvæmd og síðan eru rauntínsluupplýsingarnar skráðar í reitnum **Tínt magn**.  
 4.  Þegar línurnar eru tilbúnar til bókunar er smellt á aðgerðina **Bóka**. Bókunin stofnar nauðsynlegar vöruhúsafærslur og bókar notkun varanna.  
@@ -71,7 +69,7 @@ Við blandaðar aðstæður, þar sem fyrst þarf að setja saman hluta magnsins
 ## <a name="filling-the-consumption-bin"></a>Fylla út notkunarhólfið
 Þetta flæðirit sýnir hvernig reiturinn **Hólfkóði** í framleiðslupöntunaríhlutalínum er útfylltur samkvæmt uppsetningu staðsetningar.
 
-![Flæðirit hólfa](media/binflow.png "Hólfaflæði")
+![Flæðirit hólfa](media/binflow.png "BinFlow")
 
 ## <a name="see-also"></a>Sjá einnig
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

@@ -11,18 +11,18 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: e17485563e331f7e78500650e174f6b2b57bbb8e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307973"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879107"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Gera viðskiptagögn þín virk fyrir Power BI
 
 Það er auðvelt að fá innsýn í [!INCLUDE[prodshort](includes/prodshort.md)] gögnin þín með [!INCLUDE[prodshort](includes/prodshort.md)] forritum fyrir Power BI. Power BI sækir gögn þín og býr svo til út-fyrir-kassann yfirlit og skýrslur sem byggist á þeim gögnum.  
 
-Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes/prodshort.md)] og hjá Power BI. Einnig verður þú að hlaða niður [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) ef þú vilt búa til þínar eigin Power BI skýrslur. Power BI forrit þarfnast heimildar í töflur þaðan sem gögn eru sótt úr. Frekari upplýsingar um kröfur er að finna hér að neðan.  
+Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes/prodshort.md)] og hjá Power BI. Einnig verður þú að hlaða niður [Power BI Desktop](https://powerbi.microsoft.com/desktop/) ef þú vilt búa til þínar eigin Power BI skýrslur. Power BI forrit þarfnast heimildar í töflur þaðan sem gögn eru sótt úr. Frekari upplýsingar um kröfur er að finna hér að neðan.  
 
 > [!IMPORTANT]
 > Power BI forrit sem lýst er í þessari grein eru hannaðir til að nota Azure Active Directory sem sannvottunaraðferð nema annað sé tilgreint. Til að setja upp Power BI-forrit þarftu einnig að hafa Power BI-leyfi fagmanns.  Þegar Power BI-forritið er uppsett er hægt að deila því með öðrum notendum sem eru með hvaða leyfisgerð sem er.
@@ -214,7 +214,7 @@ Power BI-forritið sýnir aðeins gögn úr [!INCLUDE [prodshort](includes/prods
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  
-[Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem PowerApps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
-[Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] í Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power Apps gagnaveitu](across-how-use-financials-data-source-powerapps.md)  
+[Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

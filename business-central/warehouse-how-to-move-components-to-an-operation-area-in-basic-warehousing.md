@@ -1,8 +1,6 @@
 ---
 title: 'Hvernig á að: færa íhluti á aðgerðasvæði í einfaldri grunngerð vöruhúsa | Microsoft Docs'
 description: Ef vöruvinnsla fer fram í vöruhúsi gæti þurft að færa vörur á milli innri hólfa í samræmi við innri upprunaskjöl, svo sem framleiðslu-, samsetningar- eða þjónustupantanir úr birgðageymslu.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ce7830c4fa7c40bb0da08ba27fac6b5a9121c50a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc3211ef873e3cf31768210e9659ae54dd59d10d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310349"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882879"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Færa íhluti á aðgerðasvæði í grunnskilgreiningu vöruhúss
 Ef vöruvinnsla fer fram í vöruhúsi gæti þurft að færa vörur á milli innri hólfa í samræmi við innri upprunaskjöl, svo sem framleiðslu-, samsetningar- eða þjónustupantanir úr birgðageymslu.  

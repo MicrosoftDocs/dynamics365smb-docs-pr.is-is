@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e61ffff9e081d561eb637a398f0bcb05ff69f70
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315613"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882183"
 ---
 # <a name="sorting-searching-and-filtering"></a>Röðun, leit og síun
 Það eru nokkrir hlutir sem munu hjálpa þér að skanna, finna og takmarka skrár í lista, skýrslu eða XMLport. Þar á meðal er röðun, leit og afmörkun. Þú getur notað suma eða alla þessa hluti samtímis til að finna eða greina gögnin þín fljótt.
@@ -23,7 +23,7 @@ ms.locfileid: "2315613"
 Fyrir skýrslur og XMLports er hægt að stilla síur eins og á lista til að afmarka hvaða gögn eigi að taka með í skýrslunni eða XMLport, en ekki er hægt að raða og leita.
 
 > [!TIP]
-> Þegar þú skoðar gögnin þín sem flísar getur þú leitað og notað grunn síun. Til að nota alla þessa öflugu eiginleika til að raða, leita og sía skaltu velja táknið ![Sýna sem lista](media/ui_show_as_list_icon.png "Sýna sem lista ör til vinstri") til að sýna færslurnar sem lista.
+> Þegar þú skoðar gögnin þín sem flísar getur þú leitað og notað grunn síun. Til að nota alla þessa öflugu eiginleika til að raða, leita og sía skaltu velja táknið ![Sýna sem lista](media/ui_show_as_list_icon.png "Sýna sem listaör til vinstri") til að sýna færslurnar sem lista.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -39,7 +39,7 @@ Til að raða á lista, geturðu annað hvort valið fyrirsagnatexta dálka til 
 
 ## <a name="searching"></a>Leit
 <!--## Searching by using the Quick Filter -->
-Efst á sérhverri listasíðu er ![Leita í lista](media/ui-search/search-list.png "Leita í listatákni") **Leita** aðgerðin sem býður upp á fljótlega og auðvelda leið til að vinna gögnin niður í lista og sýna einungis þær skrár sem innihalda gögnin sem þú vilt sjá.
+Efst á sérhverri listasíðu er ![Leita í lista](media/ui-search/search-list.png "Tákn fyrir leitarlista")**Leita** aðgerðin sem býður upp á fljótlega og auðvelda leið til að vinna gögnin niður í lista og sýna einungis þær skrár sem innihalda gögnin sem þú vilt sjá.
 
 Til að leita skaltu einfaldlega velja aðgerðina **Leita** og síðan skrifa í boxið textann sem þú ert að leita að. Þú getur slegið inn stafi, númer og önnur tákn.
 
@@ -111,7 +111,7 @@ Síusvæðið sýnir núverandi síur fyrir lista og gerir þér kleift að stil
   Sumar listar sem sýna reiknaðir reitir, svo sem upphæðir og fjölda, munu innihalda **Sía samtölur eftir** hlutann þar sem þú getur breytt ýmsum víddum sem hafa áhrif á útreikninga. Til að bæta við síu skal velja aðgerðina **+ Sía** , færa inn heiti reitsins sem á að sía listann eftir eða velja reit af fellilistanum.
 
   > [!NOTE]
-  > Síur í **Sía samtölur eftir** hlutanum eru stjórnað af FlowFilters í síðuhönnuninni. Fyrir tæknilegar upplýsingar, sjá [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Síur í **Sía samtölur eftir** hlutanum eru stjórnað af FlowFilters í síðuhönnuninni. Fyrir tæknilegar upplýsingar, sjá [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 Hægt er að stilla einfalda síu beint á lista innan með síusvæðinu, þ.e. síu sem sýnir aðeins færslur með sama gildi og í völdum reitum. Velja skal hólf á listanum, velja felliörina og velja síðan aðgerðina **Afmarka í þetta gildi**. Að öðrum kosti er stutt á **ALT + F3**.
 

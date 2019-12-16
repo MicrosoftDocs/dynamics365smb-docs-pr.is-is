@@ -1,8 +1,6 @@
 ---
 title: Stofnun kostnaðaráætlunar | Microsoft Docs
 description: Í þessu efnisatriði er að finna yfirlit yfir hvar skal stofna og greina kostnaðaráætlanir.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c107daa3725cf2f8b06039655738e8763cc0f6b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 33999778898c671a87638ef5868103ea34875ff8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306413"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879825"
 ---
 # <a name="creating-cost-budgets"></a>Stofna kostnaðaráætlanir
 Áætlunargerð í kostnaðarbókhaldi svipar til áætlunargerðar í fjárhag. Kostnaðaráætlun er stofnuð á grundvelli kostnaðartegund, rétt eins og áætlun fyrir fjárhag er stofnuð á grundvelli fjárhagsreiknings.  
@@ -26,7 +24,7 @@ Kostnaðaráætlun er stofnuð fyrir ákveðið tímabil, til dæmis reikningsá
 
 Nota skal eftirfarandi síður til að stofna og greina kostnaðaráætlanir. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið til að finna síðu og lesa síðan ábendingarnar á hverri þeirra.
 
-|Til|Sjá|  
+|Til að|Sjá|  
 |--------|---------|  
 |Flytja áætlun úr fjárhag.|**Afrita fjárhagsáætlun yfir í kostnaðarbókhald** runuvinnsla|  
 |Afrita kostnaðaráætlanir.|**Afrita kostnaðaráætlun** runuvinnsla|  

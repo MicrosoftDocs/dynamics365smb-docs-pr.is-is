@@ -1,8 +1,6 @@
 ---
 title: Setja upp verðlagningu og kostnað fyrir þjónustu | Microsoft Docs
 description: Lærðu hvernig á að setja verð og aukakostnað fyrir þjónustu.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 74f2cfce207fbc32aad1dc835ead2588e2aa62c1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58c54fd68d291a5d07765a57002e0918df78a1f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311837"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877377"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Setja upp verðlagningu og aukakostnað fyrir þjónustu
 Hægt er að nota verðlagningareiginleika [!INCLUDE[d365fin](includes/d365fin_md.md)] til að setja upp og sérstilla forritið svo hægt sé að nota og stilla verðlagningu fyrir þjónustuvörur, viðgerðir og pantanir. Auðvelt er síðan að senda þessar verðlagningarákvarðanir yfir í reikningsfærsluferlið.  
@@ -27,7 +25,7 @@ Hægt er að setja upp verðlagningarflokka og varpa þeim á ákveðin tímabil
 ## <a name="to-set-up-a-service-price-group"></a>Uppsetning þjónustuverðflokka
 Setja má upp hópa með þjónustuvöru sem á að njóta sömu sérþjónustuverðlagningar. Þjónustuverðflokkar eru úthlutaðir þjónustuvöru í þjónustuvörulínum. Einnig er hægt að úthluta þjónustuverðflokkum til þjónustuvöruflokka.  
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverðflokkar** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverðflokkar** og veldu síðan tengda tengilinn.  
 2. Nýr þjónustuverðflokkur er stofnaður.  
 3. Fyllt er í reitina **Kóti** og **Lýsing**.  
 4. Veldu aðgerðina **Uppsetning**.  
@@ -39,7 +37,7 @@ Setja má upp hópa með þjónustuvöru sem á að njóta sömu sérþjónustuv
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Uppsetning þjónustuverðleiðréttingarflokka  
 Þú getur setja upp verðleiðréttingaflokka til að leiðrétta þjónustuverðlagningu vegna þjónustuvöru. Til dæmis má setja upp verðleiðréttingarflokka sem leiðrétta verð á flutningi eða varahlutum.  
   
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverðleiðréttingarflokkar** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuverðleiðréttingarflokkar** og veldu síðan tengda tengilinn.  
 2. Nýr þjónustuverðleiðréttingarflokkur er stofnaður.  
 3. Fyllt er í reitina **Kóti** og **Lýsing**.  
 4. Í reitnum **Tegund** er færð inn tegund færslunnar sem á að leiðrétta.  
@@ -57,7 +55,7 @@ Setja má upp hópa með þjónustuvöru sem á að njóta sömu sérþjónustuv
 Þegar unnið er við þjónustuvöru og þjónustupöntunum getur þurft að skrá aukakostnað, eins og ferðakostnað til ákveðinna þjónustusvæða eða startkostnað. Þegar þú stofnar þjónustupöntun, geturðu fært inn þennan kostnað og lína með tegundina **Kostnaður** verður bætt við pöntunina. Að öðrum kosti, ef þú vilt úthluta kostnaðinum til allra þjónustupantana, geturðu sett upp sjálfvirkan kostnað. Ef þú vilt til dæmis alltaf úthluta startkostnaði.
   
 ### <a name="to-set-up-service-costs"></a>Setja upp þjónustukostnað
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustukostnaður** og veldu síðan tengda hlekkinn. 
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustukostnaður** og veldu síðan tengda tengilinn. 
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Tilgreina sjálfgefinn kostnaðar vegna þjónustupantana

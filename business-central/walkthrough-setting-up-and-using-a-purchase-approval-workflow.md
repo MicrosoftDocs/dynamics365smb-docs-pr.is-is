@@ -1,8 +1,6 @@
 ---
 title: Uppsetning og notkun verkflæðis innkaupasamþykktar | Microsoft Docs
 description: Hægt er að gera sjálfvirkt ferli samþykktar á nýjar eða breyttar færslur, t.d. skjöl, færslubókarlínur og spjöld viðskiptamanna með því að stofna verkflæði með skrefum fyrir viðkomandi samþykkjendur. Áður en samþykkisverkflæði eru stofnaðar verður að setja upp samþykkjandi og staðgengill samþykkjanda fyrir hvern notanda samþykktar. Einnig er hægt að setja samþykkjendur takmarkanir til að skilgreina hvaða sölu og innkaupafærslur eru heimilt að samþykkja. Samþykktarbeiðnir og aðrar tilkynningar er hægt að senda sem tölvupóst eða innri athugasemd. Fyrir hverja uppsetningu samþykktarnotanda má einnig setja upp hvenær þeim berast tilkynningar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: fe99b7cf27a294a0f8198740631acfe5fec8e21f
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: 8c3ce968c8ff13688b49a8253c72c09a34354e4f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798430"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881871"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa
 Hægt er að gera sjálfvirkt ferli samþykktar á nýjar eða breyttar færslur, t.d. skjöl, færslubókarlínur og spjöld viðskiptamanna með því að stofna verkflæði með skrefum fyrir viðkomandi samþykkjendur. Áður en samþykkisverkflæði eru stofnaðar verður að setja upp samþykkjandi og staðgengill samþykkjanda fyrir hvern notanda samþykktar. Einnig er hægt að setja samþykkjendur takmarkanir til að skilgreina hvaða sölu og innkaupafærslur eru heimilt að samþykkja. Samþykktarbeiðnir og aðrar tilkynningar er hægt að senda sem tölvupóst eða innri athugasemd. Fyrir hverja uppsetningu samþykktarnotanda má einnig setja upp hvenær þeim berast tilkynningar.

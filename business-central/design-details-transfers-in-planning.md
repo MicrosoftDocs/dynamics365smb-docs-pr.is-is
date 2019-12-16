@@ -1,8 +1,6 @@
 ---
 title: Hönnunarupplýsingar - Flutningur í áætlun | Microsoft Docs
 description: Þetta efnisatriði lýsir því hvernig á að nota flutningspantanir sem uppsprettu framboðs þegar verið er að áætla birgðastig.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 72a9455810b017510947b78e40c88116e9935d20
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 697630e03e3bbb59518ea3405524ad6de3765d7a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306725"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879993"
 ---
 # <a name="design-details-transfers-in-planning"></a>Hönnunarupplýsingar: Flutningur í áætlun
 Millifærslupantanir eru einnig uppspretta framboðs þegar unnið er á birgðahaldseiningarstigi. Þegar margar staðsetningar (vöruhús) eru notaðar er hægt að stilla áfyllingarkerfi birgðahaldseininga á Flutning og gefa þannig í skyn að staðsetningin verði áfyllt með því að flytja þangað varning af annarri staðsetningu. Í aðstæðum með fleiri vöruhús, fyrirtæki gætu haft keðju flutnings þar sem framboð til grænar staðsetningar er flutt frá gulum og framboð til gulra er flutt úr rauðum og svo framvegis. Í upphafi af keðjunni er áfyllingarkerfi Framl.pöntun eða innkaup.  
@@ -33,7 +31,7 @@ Millifærslupöntun lítur svipað út eins aðrar pantanir í forritinu. Hins v
 
 Eitt grundvallaratriði sem greinir millifærslur í áætlun frá innkaupa- og framleiðslupöntununum er að millifærslulína stendur samtímis fyrir eftirspurn og framboð. Sá hluti sem er á útleið, sem er fluttur af fyrri staðsetningunni, er eftirspurnin. Hlutinn á innleið, sem á að taka við á nýju staðsetningunni, er birgðir á þeirri staðsetningu.  
 
-![Innihald flutningspöntunarsíðu](media/nav_app_supply_planning_7_transfers3.png "Innihald flutningspöntunarsíðu")  
+![Innihald flutningspöntunarsíðu](media/nav_app_supply_planning_7_transfers3.png "Innihald flutningspöntunarsíðu")I  
 
 Þetta þýðir að þegar kerfið vinnur á framboðshlið flutningsins, verður það að gera svipaða breytingu á eftirspurnarhlið.  
 
@@ -49,7 +47,7 @@ Nema sveigjanleiki áætlunar sé enginn, ætti millifærslulína aldrei að me�
 ## <a name="planning-sequence"></a>Áætlunarröð  
 Eftirfarandi mynd sýnir hvernig millifærslustrengur gæti litið út.  
 
-![Dæmi um einfaldan flutningsflæði](media/nav_app_supply_planning_7_transfers4.png "Dæmi um einfaldan flutningsflæði")  
+![Dæmi um einfalt flutningsflæði](media/nav_app_supply_planning_7_transfers4.png "Dæmi um einfaldan flutningsflæði")  
 
 Í þessu dæmi, viðskiptamaður pantar vöru á græna staðsetningu. Birgðageymslan GRÆNT fær tilföng með millifærslu frá miðlæga vöruhúsinu RAUTT. Aðalvöruhús RED fæst með millifærslu frá framleiðslu á staðsetningu blár.  
 
@@ -74,7 +72,7 @@ Jafnvel þótt birgðahaldseiningareiginleikinn sé ekki notaður er hægt að n
 
 Til að styðja handvirka millifærslur greinir áætlunargerðin núverandi flutningspöntun og svo skipuleggur í hvaða röð á að vinna staðsetningar. Innbyrðis, mun áætlanakerfið stýra bráðabirgða birgðahaldseiningum sem innihalda flutningsstigskóða.  
 
-![Flytja stigakóða](media/nav_app_supply_planning_7_transfers7.png "Flytja stigakóða")  
+![Flutningsstigskóði](media/nav_app_supply_planning_7_transfers7.png "Flutningsstigskóði")  
 
 Ef fleiri millifærslur á tiltekinn stað eru til staðar skilgreinir fyrsta millifærslupöntunin áætlunarstefnuna. Millifærslur sem keyra í  í gagnstæða átt verður eytt.  
 

@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: a9378bd44dfbf0271987e748b03d7f2f3e17e1ac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ad70b9d321ac4c8ee9b1d7c8a00e7e192187093a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307469"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880713"
 ---
 # <a name="service-compliance"></a>Reglufylgni þjónustu
 Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -26,11 +26,11 @@ Business Central er skýjaþjónusta á heimsvísu og keyrir á einu stærsta t�
 
 Finndu ítarlegan lista yfir [Framboð á reglufylgni í skýi fyrir Business Central hér](https://aka.ms/d365-compliance-list).
 
-Ef þú hefur áhuga á heildarlistanum yfir framboð á reglufylgni frá Microsoft skaltu skoða [Öryggismiðstöð Microsoft](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
+Ef þú hefur áhuga á heildarlistanum yfir framboð á reglufylgni frá Microsoft skaltu skoða [Öryggismiðstöð Microsoft](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
 ## <a name="service-terms"></a>þjónustuskilmála
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] á netinu fellur undir [„Modern“-reglur um stuðningstíma](https://support.microsoft.com/en-us/help/30881/modern-lifecycle-policy). Skilmálum um þjónustustigssamning er lýst í skjali sem þú getur sótt úr hlutanum **Þjónustustigssamningar fyrir Microsoft Online Services** á síðunni [Leyfisskilmálar](https://www.microsoft.com/en-us/licensing/product-licensing/products).  
+[!INCLUDE [prodshort](../includes/prodshort.md)] á netinu fellur undir [„Modern“-reglur um stuðningstíma](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Skilmálum um þjónustustigssamning er lýst í skjali sem þú getur sótt úr hlutanum **Þjónustustigssamningar fyrir Microsoft Online Services** á síðunni [Leyfisskilmálar](https://www.microsoft.com/licensing/product-licensing/products).  
 
 Ennfremur geturðu fylgst með ástandi leigjanda þíns og tilgreint uppfærsluglugga í [Stjórnandamiðstöðu leigjanda](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

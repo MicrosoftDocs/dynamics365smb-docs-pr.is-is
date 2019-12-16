@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c33ef33a9eb660e7cde7da2d1e8a6dad76f18dd7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301709"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879490"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setja upp sjóðstreymisgreiningu
 Ef þú vilt fá aðstoð til að ákveða hvað þú átt að gera með féð þitt, skoðaðu töflurnar á Hlutverkamiðstöð bókhaldara:  
@@ -56,7 +56,7 @@ Til að hjálpa þér að komast, eru nokkrar reikningar og sjóðstreymisstilli
 Til að setja þetta upp skaltu leita að **sjóðstreymisreikningum**, velja tengilinn og fylla síðan inn reitina. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Endurtekur skrefin fyrir **Uppsetning sjóðstreymis**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Uppsetning sjóðsstreymisspáa
-**Sjóðstreymisspá** notar sjóðstreymisreikninga, sjóðstreymisskipulag og sjóðstreymisspár. Sumir eru til staðar, en þú getur sett upp þitt eigið með því að nota aðstoðarmaður uppsetningarleiðbeiningar. Leiðbeiningarnar hjálpar til við að tilgreina atriði hversu oft eigi að uppfæra spá, reikningar til að byggja á, upplýsingar um þegar greiða skatta og hvort kveikja eigi á [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/).  
+**Sjóðstreymisspá** notar sjóðstreymisreikninga, sjóðstreymisskipulag og sjóðstreymisspár. Sumir eru til staðar, en þú getur sett upp þitt eigið með því að nota aðstoðarmaður uppsetningarleiðbeiningar. Leiðbeiningarnar hjálpar til við að tilgreina atriði hversu oft eigi að uppfæra spá, reikningar til að byggja á, upplýsingar um þegar greiða skatta og hvort kveikja eigi á [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
 Sjóðstreymisspár geta notað Azure AI til að innihalda skjöl með gjalddaga í framtíðinni. Niðurstaðan er ítarlegri spá. Tengingin við Azure AI er þegar sett upp fyrir þig. Þú þarft bara að kveikja á því. Þegar þú skráir þig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] birtist tilkynning á bláum reit og veitir hlekkur til sjálfgefna sjóðstreymisuppsetningar. Tilkynningin birtist aðeins einu sinni. Ef þú lokar því, en ákveður að kveikja á Azure AI, getur þú notað uppsetningu með hjálp eða handvirkt ferli.  
 
@@ -74,7 +74,7 @@ Nota handvirkt ferli:
 
 1. Í Hlutverkamiðstöð bókhaldara skaltu leita að **Uppsetning sjóðstreymis** og velja svo tengdan tengil.  
 2. Stækkaðu **Azure AI** flýtiflipann og veldu gátreitinn **Kveikt á Azure AI**.  
-3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sjóðstreymisspá** og veldu síðan tengda tengilinn.
+3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sjóðstreymisspá** eða Lánardrottinn og veldu síðan tengda tengilinn.
 4. Á síðunni **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
 
 > [!TIP]  

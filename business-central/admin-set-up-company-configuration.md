@@ -1,8 +1,6 @@
 ---
 title: Uppsetning grunnstillingu fyrirtækis | Microsoft Docs
 description: Innleiðingarferlið hefst með Business Central sem lausnin krefst. Allar þessar upplýsingar eru sameinaðar í grunnstillingarpakka.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1863c6933cf5722c4a9940225ec59aabbdf84da
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ef6300121695a0c8836df58e31848024c87deb75
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304325"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879059"
 ---
 # <a name="set-up-company-configuration"></a>Uppsetning grunnstillingu fyrirtækis
 Innleiðingarferlið hefst með samstarfsaðili Microsoft. Samstarfsaðilinn er ábyrgur fyrir því að fara gegnum upplýsingar um skilgreiningar og stofna pakka sem viðskiptavinur getur auðveldlega notað. Áður en nýtt fyrirtæki er stofnað, er ráðlagt að áætla hvernig það muni vera grunnstillt. Hafa þarf í huga grunnuppsetningargögn og tegundir gagna sem [!INCLUDE[d365fin](includes/d365fin_md.md)] lausnin krefst. Allar þessar upplýsingar eru sameinaðar í grunnstillingarpakka.

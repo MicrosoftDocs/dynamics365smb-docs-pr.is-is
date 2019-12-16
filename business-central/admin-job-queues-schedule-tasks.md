@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 21e3defe178a3619df58d712c86935515e303692
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308405"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879203"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Nota verkraðir til að tímaraða verkhlutum
 Verkraðir í [!INCLUDE[d365fin](includes/d365fin_md.md)] gera notendum kleift að tímasetja og keyra tilteknar skýrslur og kótasöfn. Stilla má verk svo þau keyri einu sinni eða endurtekið. Til dæmis kann notandi að vilja keyra skýrslu yfir **Sölutölur sölumanns** vikulega, að rekja sölu sölumanns í hverri viku eða keyra kóðaeininguna **Úrvinnsla þjónustupóstraðar** daglega, til að tryggja að tölvupóstur sem bíður á leið til viðskiptamanna, varðandi þjónustupantanir þeirra, sé sendur út tímanlega.
@@ -33,7 +33,7 @@ Verkraðir eru áhrifaríkt verkfæri til að raða keyrslu viðskiptaferla í b
 
 Eftirfarandi ferli lýsir hvernig setja á upp bakgrunnsbókun fyrir sölupantanir. Skrefin eru svipuð fyrir innkaup og þjónustu.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning sölu & útistandandi** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölugrunnur** og veldu síðan tengda tengilinn.
 2. Á síðunni **Uppsetning sölu og útistandandi** skal velja gátreitinn **Bóka með verkröð**.
 3. Til að sía í verkraðarfærslum fyrir bókun sölupöntunar skal velja reitinn **Flokkakóði verkraðar** og velja flokkinn **Sölubókun**.
 
@@ -111,6 +111,9 @@ Verkraðarfærslur keyra á grundvelli heimilda. Þessar heimildir verða að le
 
 ## <a name="using-job-queues-effectively"></a>Að nota verkraðir á skilvirkan hátt  
 Verkraðarfærsluskrá er með marga reiti sem hafa þann tilgang að setja færibreytur í codeunit sem tilgreind hefur verið til keyrslu með verkröð. Þetta þýðir einnig að kóðaeiningar sem á að keyra með verkröðinni verður að tilgreina með skránni Verkraðarfærsla sem færibreytur í **OnRun** rofanum. Þetta stuðlar að auknu öryggi, þar sem þetta kemur í veg fyrir að notendur keyri tilviljanakenndar kóðaeiningar gegnum verkröðina. Þurfi notandi að senda færibreytur í skýrslu er eina leiðin til að gera það að vefja skýrslukeyrslunni í kótaeiningu sem þáttar inntaksbreyturnar og skráir þær í skýrsluna fyrir keyrslu hennar.  
+
+## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Tímastillir samstillingu á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]
+Ef þú hefur samþætt [!INCLUDE[d365fin](includes/d365fin_md.md)] við [!INCLUDE[crm_md](includes/crm_md.md)] geturðu notað verkröðina til að tímasetja hvenær þú vilt samstilla gögn fyrir færslurnar sem þú ert með í viðskiptaforritunum tveimur. Samstillingarvinnslur geta einnig búið til nýjar færslur í áfangaforritinu til að passa við þær sem eru í upprunanum, allt eftir stefnu og reglum sem þú hefur skilgreint fyrir samþættingu. Ef Sölumaður stofnar til dæmis nýjan tengilið í [!INCLUDE[crm_md](includes/crm_md.md)] getur samstillingarvinnslan búið til þann tengilið fyrir tengdan sölumann í [!INCLUDE[d365fin](includes/d365fin_md.md)]. [Áætla samstillingu milli Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 
 ## <a name="see-also"></a>Sjá einnig  
 [Stjórnun](admin-setup-and-administration.md)  

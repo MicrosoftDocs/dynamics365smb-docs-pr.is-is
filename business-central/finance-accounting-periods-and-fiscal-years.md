@@ -1,8 +1,6 @@
 ---
 title: Unnið með fjárhagstímabil og fjárhagsár | Microsoft Docs
 description: Lærðu hvernig á að vinna með fjárhagstímabil til að skilgreina hvenær fyrirtækið greinir frá fjárhagslegri frammistöðu.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d70694a571c051f6160a721c8fa06c91fe9c42d3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aab482918eacb7bea068a5c5f536c9e88bdd7b2c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302621"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879849"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Unnið með fjárhagstímabil og fjárhagsár
 Fjárhagstímabil, sem einnig eru þekkt sem skýrslutímabil, eru tímabil þar sem fyrirtæki eða stofnun greinir frá fjárhagslegri frammistöðu, t.d. með því að búa til rekstrarreikning eða efnahagsreikning. Venjulega tengjast fjárhagstímabil fjárhagsári fyrirtækis, sem geta innihaldið nokkur fjárhagstímabil, svo sem mánuði eða ársfjórðunga.
@@ -34,7 +32,7 @@ Hægt er að búa til mörg reikningstímabil saman með runuvinnslunni **Búa t
 ### <a name="how-to-create-accounting-periods-in-bulk"></a>Hvernig skal búa til mörg fjárhagstímabil saman
 Notaðu runuvinnsluna **Búa til fjárhagsár** til að skipta fjárhagsári niður í tímabil af jafnri lengd.  
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Reikningstímabil** og velja svo viðeigandi tengil.  
+1. Veldu táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn"), sláðu inn **Reikningstímabil** og veldu síðan viðeigandi tengil.  
 2. Veldu aðgerðina **Stofna ár**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. Í reitnum **Upphafsdagsetning** skal slá inn dagsetninguna sem fjárhagsárið byrjar á.  
 4. Í reitnum **Fjöldi tímabila** skal slá inn fjölda reikningstímabila sem fjárhagsárið á að skiptast niður í. Hægt er að velja allt að 365 tímabil fyrir hvert ár.  
@@ -44,7 +42,7 @@ Notaðu runuvinnsluna **Búa til fjárhagsár** til að skipta fjárhagsári ni�
 ### <a name="how-to-create-accounting-periods-manually"></a>Hvernig á að stofna reikningstímabil handvirkt
 Ef reikningstímabilin á fjárhagsárinu eru mismunandi löng, eins og 4-4-5 dagatalið sem notað er í smásölu, getur þú sett þau upp handvirkt.  
   
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Reikningstímabil** og velja svo viðeigandi tengil.  
+1. Veldu táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn"), sláðu inn **Reikningstímabil** og veldu síðan viðeigandi tengil.  
 2. Í reitnum **Upphafsdagsetning** skal slá inn dagsetninguna sem fjárhagsárið byrjar á. Reiturinn **Heiti** sýnir heiti mánaðar.  
 3. Veldu gátreitinn **Nýtt fjárhagsár** til að gefa til kynna að þetta sé fyrsta tímabilið á árinu. [!INCLUDE[d365fin](includes/d365fin_md.md)] mun nota þetta tímabil til að ákvarða hvaða tímabil skuli loka í árslok.
 4. Endurtakið skref 2 og 3 fyrir hin tímabilin sem eru eftir.  
@@ -55,7 +53,7 @@ Lokun fjárhagsárs er eitt verkanna fyrir lokun bóka. Eftir að fjárhagsári 
 > [!NOTE]  
 >  Þú verður alltaf að hafa að minnsta kosti eitt opið fjárhagsár. Þegar ári er lokað skal tryggja að nýtt ár hafi verið stofnað. Hafðu einnig í huga að eftir að einu ári er lokað er ekki hægt að breyta upphafsdagsetningunni á næsta ári.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Reikningstímabil** og velja svo viðeigandi tengil.  
+1. Veldu táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn"), sláðu inn **Reikningstímabil** og veldu síðan viðeigandi tengil.  
 2. Veldu aðgerðina **Loka ári**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bókun færslna á lokað fjárhagsár

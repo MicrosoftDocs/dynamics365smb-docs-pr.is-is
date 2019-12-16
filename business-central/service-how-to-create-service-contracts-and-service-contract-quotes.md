@@ -1,8 +1,6 @@
 ---
 title: 'Hvernig á að: Vinna með þjónustusamninga og þjónustusamningstilboð | Microsoft Docs'
 description: Hægt er að stofna þjónustusamning annað hvort handvirkt eða úr þjónustusamningstilboði. Hægt er að stofna samning út frá samningstilboði.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: ab81ad15ebae118106db1a32a7a45a9fbbc19cf7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553917"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882423"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Vinna með þjónustusamninga og þjónustusamningstilboð
 Hægt er að stofna þjónustusamning annað hvort handvirkt eða úr þjónustusamningstilboði. Hægt er að nota þjónustusamningstilboð sem aðdraganda að þjónustusamningi þar sem fyrirtækið gerir viðskiptamanni tilboð og fær samþykki hans svo að unnt sé að breyta tilboðinu í þjónustusamning. Ferlið við stofnun þjónustusamnings annars vegar og þjónustusamningstilboðs er nokkuð svipað.  
@@ -48,7 +46,7 @@ Fyrir samninga sem eru ekki sundurliðaðir, er reikningsfærð upphæð reiknu�
 * Reikningsfærð upphæð = (árleg upphæð ÷ fjöldi daga í ári) × fjöldi daga í upphafstímabili.  
 * Ef samningslínan rennur út áður en upphafstímabili lýkur verður lokadagsetningin einnig lokadagsetning upphafstímabilsins.    
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningstilboð** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningstilboð** og veldu síðan tengda tengilinn.  
 2. Opna skal þjónustusamningstilboð sem breyta á í þjónustusamning.  
 3. Velja **Gera samning** aðgerð.  
 4. Ef upphafsdagsetning samningsin er fyrir upphafstímabil næsta reikningstímabils geturðu stofnað þjónustureikning fyrir upphafstímabil samningsins. Velja **Já**.  
@@ -58,7 +56,7 @@ Fyrir samninga sem eru ekki sundurliðaðir, er reikningsfærð upphæð reiknu�
 ## <a name="to-create-contract-service-credit-memos"></a>Til að búa til Samningsþjónustukreditreikninga
 Samningsþjónustukreditreikninga má nota þegar viðskiptamaður ógildir fyrirframgreiddan þjónustusamning eða tekur þjónustuvöru úr fyrirframgreiddum samningi. Einnig nýtast þeir við að leiðrétta rangan þjónustureikning.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **þjónustukreditreikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustukreditreikningar** og veldu síðan tengda tengilinn.  
 2. Nýr þjónustukreditreikningur er stofnaður.  
 3. Fylla þarf út reitinn **Nr.**. .  
 4. Í **Númer viðskiptamanns** reitnum, er ritað númer viðskiptamannsins í þjónustusamninginn.  
@@ -66,7 +64,7 @@ Samningsþjónustukreditreikninga má nota þegar viðskiptamaður ógildir fyri
      Á **Reikningsfæra** sjást upplýsingar sem voru afritaðar af spjaldinu **Viðskiptamaður**. Ef bóka á kreditreikninginn á annan viðskiptamann en þann sem tilgreindur er á flýtiflipanum **Almennt** er fært inn númer þess viðskiptamanns í reitinn **Reikn.færist á viðskm.** reitinn. .  
 
     > [!NOTE]  
-    >  Hægt er að bera kreditreikninginn saman við skjalið sem var upphaflega bókað á síðunni **Bókaðir þjónustureikningar**. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaður þjónustureikningar** og veldu síðan tengda tengilinn.  
+    >  Hægt er að bera kreditreikninginn saman við skjalið sem var upphaflega bókað á síðunni **Bókaðir þjónustureikningar**. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðir þjónustureikningar** og veldu síðan tengda tengilinn.  
 
 5. Fylltir eru út **Bókunardags.** og **Dagsetning fylgiskjals**.  
 6. Í kreditreikningslínurnar eru færðar upplýsingar um vörurnar sem er skilað eða sem eru fjarlægðar, eða uppbót sem á að senda. Hægt er að nota keyrsluna **Sækja fyrirframgreiddar samningsfærslur**.  
@@ -83,7 +81,7 @@ Hægt er að breyta stöðu samningsins, sem í fyrstu er stillt á **Læst**, b
 ## <a name="to-add-a-contract-line-to-a-service-contract-or-contract-quote"></a>Samningslínum bætt við þjónustusamning eða samningstilboð:  
 Þegar viðskiptamaður kaupir nýja vöru og vill að hún sé innifalin í þjónustusamningi eða samningstilboði sem til er fyrir er hægt að skrá vöruna sem þjónustuvöru og bæta henni við samninginn eða samningstilboðið sem nýrri samningslínu.  
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi þjónustusamning eða þjónustusamningstilboð sem bæta á nýrri samningslínu við.  
 3. Veldu aðgerðina **Opna samning** til að opna þjónustusamninginn eða samningstilboðið þannig að hægt sé að gera breytingar.  
 4. Á flýtiflipanum **Sundurl. reikningur** skal velja reitinn **Heimila ójafnaðar upphæðir** ef breyta á árlegri upphæð og skipta mismun árlegrar upphæðar handvirkt í samningslínunum. Annars skal hreinsa gátreitinn í reitnum **Heimila ójafnaðar upphæðir**. Það verður til þess að kerfið velur að  skipta mismun árlegrar upphæðar sjálfkrafa í samningslínunum þegar árlegu upphæðinni hefur verið breytt.   
@@ -93,7 +91,7 @@ Hægt er að breyta stöðu samningsins, sem í fyrstu er stillt á **Læst**, b
 ## <a name="to-remove-contract-lines"></a>Samningslínur fjarlægðar  
 Nauðsyn gæti reynst að eyða samningslínum úr þjónustusamningi um leið og samsvarandi þjónustuvörur eru fjarlægðar úr þjónustusamningnum. Yfirleitt er fjarlægð samningslína sem er útrunnin eða sem svarar til þjónustuvörunnar sem hefur bilað.  
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda tengilinn.  
 2. Opna skal þjónustusamninginn sem fjarlægja á samningslínur úr.  
 3. Veldu aðgerðina **Opna samning** til að opna þjónustusamninginn þannig að hægt sé að gera breytingar.  
 4. Veldu samningslínuna sem á að fjarlægja. Fylla inn í reitinn **Samningur útrunninn - dags.** með dagsetningunni þegar á að fjarlægja línuna. T.d. er hægt að færa inn dagsetninguna sem þjónustuvaran bilaði.  
@@ -144,7 +142,7 @@ Verið getur að skipta þurfi um eiganda þjónustusamnings. Ef þjónustuvara 
 >   
 >  Gerum t.d. ráð fyrir að þjónustuvara nr. 8 innfalin í samningunum SC00003 og SC00015. Samningur SC00015 inniheldur einnig þjónustuvöru nr. 15 sem er einnig innifalin í samningi SC00080. Í þessu tilviki yrði eiganda breytt í öllum þremur samningunum og í þjónustuvörunum.  
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda hlekkinn. Opna skal viðeigandi þjónustusamning sem breyta á eiganda fyrir.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda tengilinn. Opna skal viðeigandi þjónustusamning sem breyta á eiganda fyrir.  
 2. Veldu aðgerðina **Opna samning** til að opna samninginn þannig að hægt sé að gera breytingar.  
 3. Veljið aðgerðina **Skipta um viðskiptavin**. Síðan **Breyta viðsk.mann í samningi** birtist.  
 4. Í **Samningsnr.** og **Þjónustuvörunr.** sjást númer samningsins og þjónustuvörunnar sem valinn viðskiptamaður á. Ef viðskiptamaðurinn á fleiri en einn samning sem felur í sér fleiri en eina þjónustuvöru þá verður gildið í þessum reitum **Mörg**. Til að sjá lista yfir tengda samninga eða þjónustuvörur skal velja þessi reitargildi.  
@@ -156,7 +154,7 @@ Verið getur að skipta þurfi um eiganda þjónustusamnings. Ef þjónustuvara 
 ## <a name="to-update-a-service-contract-price"></a>Til að uppfæra verð þjónustusamninga  
 Hægt er að uppfæra verð vegna þjónustusamninga með því að tilgreina prósentu verðuppfærslu.  
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppfæra verð þjónustusamninga** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppfæra þjónustusamningsverð** og veldu síðan tengda tengilinn.
 2. Velja þjónustusamninginn.  
 3. Á reitnum **Uppfæra til dags.**, er færð inn dagsetning. Keyrslan uppfærir verð vegna samninga sem á að uppfæra verðið á eða fyrir þennan dag.  
 4. Í reitinn **Verðuppfærslu %** er færð inn prósentan sem á að uppfæra verðið með.  
@@ -167,7 +165,7 @@ Ef tíðkast að greiða þjónustusamninga fyrirfram þarf reglubundið að bó
 
 Áður en hægt er að bóka fyrirframgreiddar samningsfærslur þarf að tilgreina númeraröð í reitnum **Nr.röð bók.fyrirfr.gr.skjala** á síðunni **Þjónustukerfisgrunnur**.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bóka fyrirfram greiddar samningsfærslur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bóka fyrirframgr. samn.færslur** og veldu síðan viðeigandi tengil.  
 2. Á **Bóka til dags.** er dagsetning færð inn. Keyrslan bókar fyrirframgreiddar þjónustufærslur með bókunardagsetningu fram að þessari dagsetningu.  
 4. Í reitnum **Bókunardags.** er færð inn dagsetningin sem á að nota sem bókunardagsetningu í færslubókarlínunni.  
 5. Í reitnum **Aðgerð** er valið **Bóka fyrirframgreiddar samningsfærslur**.  
@@ -185,7 +183,7 @@ Hugsanlega þarf að hætta við þjónustusamning þegar samningurinn er útrun
 > [!NOTE]  
 >  Þú getur ekki opnað samning eftir að honum hefur verið lokað.  
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi þjónustusamning til að hætta við hann.  
 3. Veldu aðgerðina **Opna samning** til að opna þjónustusamninginn þannig að hægt sé að gera breytingar.  
 4. Í reitnum **Ástæðukóti afturköllunar** veljið viðeigandi ástæðukóta. Til að bæta við fleiri ástæðukóðum skal velja **Ítarlegt**.  

@@ -1,8 +1,6 @@
 ---
 title: Kynning - Rekja rað- og lotunúmer | Microsoft Docs
 description: Þegar vörugallar koma upp þarf að greina villurnar og koma í veg fyrir að fyrirtækið sendi frá sér gölluðu vörurnar. Ef gölluð vara hefur þegar verið send út verður að rekja hana til þeirra sem fengu hana senda og innkalla vörurnar, ef þörf krefur.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a1a339c57e47f3722050209acbe83e246ccdbbb6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 23bbed9e19fa2a3fd99f45cfde24d6d16f31e795
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310493"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876824"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Kynning: Rað-/lotunúmerarakning
 
@@ -74,7 +72,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
 ### <a name="to-create-the-items"></a>Þjónustuvörur stofnaðar:  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Í reitnum **númer** Í reitinn  er talan **2000** færð inn og síðan eru eftirfarandi reitir fylltir út.  
 
@@ -110,7 +108,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
     Næst skal kaupa grindur frá Custom Metals incorporated.  
 
 ### <a name="to-purchase-components"></a>Til að kaupa íhluti  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Stofna innkaupapöntun fyrir lánardrottin, Custom Metals Incorporated, með því að fylla út í eftirfarandi línur.  
 
@@ -124,7 +122,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 7.  Veldu aðgerðina **Bóka**, veldu **Móttaka og reikningur** valkostinn og veldu síðan **Í lagi** hnappinn.  
 
     Næst skal kaupa grindur frá Coolwood Technologies.  
-8.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.  
+8.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.  
 9. Valið er **Nýtt** aðgerð.
 10. Stofna innkaupapöntun fyrir lánardrottin, Coolwood Technologies, með því að fylla út í eftirfarandi línur.  
 
@@ -228,7 +226,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
  Gæðastjórinn hefur þær upplýsingar frá söludeildinni að kappaksturshjólið sem skilað var, vara 1002, hafði raðnúmerið RAÐ1. Út frá þessum grunnupplýsingum veit hann hvar tilbúna kappaksturshjólið var síðast notað, í þessu tilfelli í söluafhendingunni til Selangorian hf. Síðan þarf hann að rekja slóð þess aftur að elsta upprunastaðnum til að komast að því úr hvaða lotu gallaða grindin kom og frá hvaða lánadrottni.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Til að komast að því hvaða lota innihélt gölluðu grindina og hvaðan hún kom  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vörurakning** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörurakning** og veldu síðan tengda tengilinn.  
 2.  Á síðunni **Vörurakning** er **RAÐ1** fært inn í reitinn **Raðnr.** og **1002** inn í reitinn **Birgðaafmörkun**.  
 3.  Halda skal sjálfgefnu stillingunni **Vara-eingöngu rakin** í reitnum **Sýna íhluti**, og halda sjálfgefnu rakningaraðferðinni **Notkun - uppruni** í **Rakningaraðferð**.  
 4.  Velja skal **Rekja** aðgerðina.  

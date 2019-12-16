@@ -1,8 +1,6 @@
 ---
 title: 'Hvernig á að: Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæðum | Microsoft Docs'
 description: Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota þrjú grunvöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b76a3fac1844db4d4eb11dd2ddc0b5d1cb604cca
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4ba00aab6c929975b806e6a69c89b36da937f4ca
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310229"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881617"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
 Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota eftirfarandi vöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi:  
@@ -63,7 +61,7 @@ Núna krefjast íhlutalínur framleiðslupöntunar með sjálfgefinn hólfakóta
 
 Þetta flæðirit sýnir hvernig reiturinn **Hólfkóði** í framleiðslupöntunaríhlutalínum er útfylltur samkvæmt uppsetningunni.  
 
-![Flæðirit hólfa](media/binflow.png "Hólfaflæði")    
+![Flæðirit hólfa](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Til að skilgreina sjálfgefna hólfaskipan í samsetningarsvæðinu
 Íhluti fyrir samsetningarpöntun er ekki hægt að tína eða bóka með birgðatínslum. Nota skal síðuna **Birgðahreyfing** í staðinn. Frekari upplýsingar eru í [Færa íhluti á aðgerðasvæði með einföldum vöruhúsaaðgerðum](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
@@ -73,7 +71,7 @@ Ef magn sölulínu tínslu og afhendingar er sett saman í pöntunina skal fylgj
 Nánari upplýsingar, sjá [Samsetningarstjórnun](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Til að setja það upp að birgðahreyfing sé sjálfkrafa búin til þegar birgðatínsla fyrir samsetningarvöru er stofnuð.
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **samsetningaruppsetning** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning samsetningar** og veldu síðan tengda tengilinn.
 2. Veljið gátreitinn **Stofna hreyfingar sjálfkrafa**.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Til að setja upp hólfið á samsetningarsvæðinu sem íhlutir eru sjálfgefið settir á áður en nota má þá við samsetningu.

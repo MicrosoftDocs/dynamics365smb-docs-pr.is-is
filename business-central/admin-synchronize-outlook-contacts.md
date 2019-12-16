@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c28118ad9aa894678e4630800c638cf252c4f524
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5690d09423deab5d56b848688f82061c7765e02c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307759"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879014"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Samstilla tengiliði í Business Central við tengiliði í Microsoft Outlook
 Þú getur séð sömu tengiliði í [!INCLUDE[d365fin](includes/d365fin_md.md)] eins og þú sérð í Outlook ef þú setur upp samstillingu tengiliðar. Til dæmis, ef þú ert sölumaður gætir þú gert eitthvað af vinnunni þinni í Outlook og eitthvað af vinnu þinni í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef tengiliðirnir eru þeir sömu á báðum stöðum er vinnan þín einfaldari.  
@@ -53,4 +53,4 @@ Ef þú ert vanur því að vinna með tengiliði í [!INCLUDE[d365fin](includes
 [Fjármál](finance.md)  
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Nota tengiliði (einstaklinga) í Outlook á vefnum](https://support.office.com/en-us/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
+[Nota tengiliði (einstaklinga) í Outlook á vefnum](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  

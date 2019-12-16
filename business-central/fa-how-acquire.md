@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e80887f9c1e1bd5641b496f3dfac01ddcd621f5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2609a18c26f968dab65037c684cc770666038e9a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302861"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882759"
 ---
 # <a name="acquire-fixed-assets"></a>Komast yfir eignir
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Afskriftabók þarf að setja upp og tengja hverri eign áður en hægt er að komast yfir hana.
@@ -80,7 +80,7 @@ Ef stofnkostnaður er til dæmis bókaður með rangri dagsetningu þarf að lei
 > [!IMPORTANT]  
 >   Ekki er hægt að nota aðgerðina **Bakfæra viðskipti** fyrir eignarfærslur.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hætta við eignafærslur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hætta við eignafærslur** eða Lánardrottinn og veldu síðan tengda tengilinn.
 2. Fyllið inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.
 4. Þegar röng færsla eða færslur eru ógiltir, skal halda áfram og bóka rétt kaupverð.
@@ -88,15 +88,15 @@ Ef stofnkostnaður er til dæmis bókaður með rangri dagsetningu þarf að lei
 Til að hætta við færslur fyrir margar eignir á sama tíma skal nota **hætta Við Eignafærslur** keyrsluna.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Bóka hrakvirði með kaupverði.
-Hægt er að bóka hrakvirði með stofnkostnaði af fjárhagsbók eigna.    
+Hægt er að bóka hrakvirði með stofnkostnaði af færslubók eigna.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hætta við eignafærslur** og veldu síðan tengda tengilinn.
-2. Stofna færslubókarlínunni kaupa. Nánari upplýsingar eru í [Bókun eignakaupa handvirkt með fjárhagsbók eigna](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignabækur** og veldu síðan tengda tengilinn.
+2. Á síðunni **Eignabækur** skaltu búa til kauplínuna. Nánari upplýsingar eru í [Bókun eignakaupa handvirkt með fjárhagsbók eigna](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 3. **Hrakvirðið** er fært sem kreditupphæð (með mínusmerki) í reitinn Hrakvirði í reikningslínunni.
 4. Valið er **Bóka** aðgerðin.
 
-> [!NOTE]  
->   Bókunartegundin **Hrakvirði** er aðeins valkostur á síðunni **Færslubók eigna**. Hún er ekki tiltæk á síðunni **Fjárhagsbók eigna** vegna þess að hrakvirði er aldrei bókað á fjárhag.
+> [!NOTE]
+> Ef hrakvirði er til staðar fyrir eign verður það gildi notað í afskriftabókun í stað gildis í reitnum **Bókfært lokavirði** á síðunni **Eignaafskriftarbækur** . Frekari upplýsingar eru í [Til að stjórna bókfærðu lokavirði](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
 ## <a name="see-also"></a>Sjá einnig
 [Eignir](fa-manage.md)  

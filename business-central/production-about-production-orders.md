@@ -1,8 +1,6 @@
 ---
 title: Um framleiðslupantanir | Microsoft Docs
 description: Framleiðslupantanir eru notaðar til að sjá um umbreytingu keypts efnis yfir í framleiddar vörur. Framleiðslupantanir (vinnu- eða verkpantanir) leiða verk í gegnum ýmsar aðgerðir (vinnu- eða vélastöðvar) í vinnusalnum.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6a99066c784a6526bf06c816431b912b1db73f06
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 316d8e05960b6f0581e4789a2b097d966e4dd2b6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313433"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878120"
 ---
 # <a name="about-production-orders"></a>Um framleiðslupantanir
 Framleiðslupantanir eru notaðar til að sjá um umbreytingu keypts efnis yfir í framleiddar vörur. Framleiðslupantanir leiða verk í gegnum ýmsar vinnu- eða vélastöðvar í vinnusalnum.  

@@ -10,15 +10,15 @@ ms.workload: na
 ms. search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 2b8913dddaa39b03c341a37e104de4469d0c5ca5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b2dde922cb737a53aec1c8fa2c0e3068c6dfc46b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315547"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882111"
 ---
 # <a name="the-accountant-portal-for-business-central-extension"></a>Endurskoðandagátt fyrir viðbót Business Central
-Þetta forrit hefur verið úrelt. Við mælum með því að þú setjir ekki upp viðbótina heldur skráir þig þess í stað fyrir [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] á [Business Central for Accountants á Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).
+Þetta forrit hefur verið úrelt. Við mælum með því að þú setjir ekki upp viðbótina heldur skráir þig þess í stað fyrir [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] á [Business Central for Accountants á Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants).
 
 Nánari upplýsingar eru í [Velkomin í Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).  
 

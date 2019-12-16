@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að ganga frá vörum með birgðafrágangi | Microsoft Docs
 description: Þegar birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki móttökuvinnslu skal nota fylgiskjalið **Birgðafrágangur** til að skrá og bóka frágang og afhendingarupplýsingar fyrir upprunaskjölin. Upprunaskjalið á innleið getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslupöntun þar sem úttakið er tilbúið til frágangs.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaf527802d9b49f84e0c4261d4658f01382efa45
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 35305a5adddf178748811dc66bbf5ed6047d77a1
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313878"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881703"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ganga frá vörum með birgðafrágangi
 Þegar birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki móttökuvinnslu skal nota fylgiskjalið **Birgðafrágangur** til að skrá og bóka frágang og afhendingarupplýsingar fyrir upprunaskjölin. Upprunaskjalið á innleið getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslu eða samsetningapöntun þar sem úttakið er tilbúið til frágangs.  
@@ -31,11 +29,11 @@ ms.locfileid: "2313878"
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Til að biðja um birgðafrágang með því að gefa út upprunaskjalið
 Ef um er að ræða innkaupapantanir, söluvöruskilapantanir og millifærslupantanir á innleið og samsetningapantanir er vöruhússbeiðnin stofnuð með því að gefa út pöntunina. Eftirfarandi lýsir því hvernig skal gera þetta frá innkaupapöntun.  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.
 2. Valin er innkaupapöntun sem á að gefa út og velja síðan aðgerðina **Gefa út**.  
 
     Ef um er að ræða framleiðslupantanir, er hægt að stofna vöruhúsabeiðni með því að stofna innleiðarbeiðni í útgefnu framleiðslupöntuninni.  
-3.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **útgefnar framleiðslupantanir** og veldu síðan tengda tengilinn.  
+3.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Útgefnar framleiðslupantanir** og veldu síðan tengda tengilinn.  
 4. Velja skal aðgerðina **Stofna vöruh.beiðni á innleið**.  
 
 > [!NOTE]  
@@ -45,7 +43,7 @@ Ef um er að ræða innkaupapantanir, söluvöruskilapantanir og millifærslupan
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Birgðafrágangur stofnaður á grundvelli upprunaskjals:
 Nú þegar beiðnin hefur verið stofnuð getur starfsmaður vöruhússins stofnað nýja birgðafrágang á grundvelli útgefins upprunaskjals.   
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **birgðafrágangur** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðafrágangur** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.  
 3. Í reitnum **Upprunaskjal** er valin sú tegund upprunaskjalsins sem verið er að ganga frá fyrir.  
 4. Í reitnum **Forðanr.** er forðaskjal valið.  

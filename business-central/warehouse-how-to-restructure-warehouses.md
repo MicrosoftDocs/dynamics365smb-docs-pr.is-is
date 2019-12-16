@@ -1,8 +1,6 @@
 ---
 title: Hvernig á að endurskipuleggja vöruhús | Microsoft Docs
 description: Hugsanlega þarf að endurskipuleggja vöruhúsið með nýjum hólfakótum og hólfaeinkennum.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d615322b183a0b99e16ed0802601dcffa1dc6dd1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5562e13a2b430c6f7d3e8875b5b87dbe8febf670
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313857"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876561"
 ---
 # <a name="restructure-warehouses"></a>Endurskipulagning vöruhúsa
 Hugsanlega þarf að endurskipuleggja vöruhúsið með nýjum hólfakótum og hólfaeinkennum. Ekki er ráðist í þess háttar aðgerðir oft en þær aðstæður geta komið upp að endurflokkun sé nauðsynleg til þess að ná fram eða viðhalda skilvirkni. Dæmi:  
@@ -33,7 +31,7 @@ Ef vöruhúsið er sett upp fyrir hólf en ekki beinan frágang og tínslu skal 
 2.  Á flýtiflipanum **Vöruhús** skal stilla reitinn **Sjálfgefið hólfaval** á **Síðast notaða hólf**.  
 3.  Allt innihald hólfanna sem til eru fyrir er flutt í nýju hólfin sem stofnuð voru.  
 
-    1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruendurflokkunarbók** og veldu síðan tengda tengilinn.  
+    1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruendurflokkunarbók** og veldu síðan tengda tengilinn.  
     2.  Veldu færslubókarlínu og svo **Sækja innihald hólfs** aðgerð.  
     3.  Á flýtiflipanum **Innihald hólfs** stillið afmarkanir í reitunum **Kóti birgðageymslu**, **Hólfkóti** og **Vörunr.** til að tilgreina efni sem á að færa.  
     4.  Velja **Í lagi** til að fylla út færslubókarlínu.  
