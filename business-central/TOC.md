@@ -16,14 +16,14 @@
 
 ## [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)
 ## [Yfirlit yfir Viðskiptavirkni](across-business-functionality.md)
-## [Prófa forskoðunarútgáfu](across-preview.md)
-## [Segja upp áskrift að, fjarlægja eða endurstilla Business Central](admin-cancel.md)
-## [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md)
+## [Prufuútgáfa og áskrift](across-preview.md)
+### [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md)
+### [Segja upp áskrift að eða fjarlægja Business Central](admin-cancel.md)
 ## [Aðgangur þinn að snjallskýi með Business Central](about-intelligent-cloud.md)
 ## [Skoðaðu myndbandasafnið okkar](across-videos.md)
-## [Gerast endursöluaðili](product-sell.md)
-## [Framlenging á Business Central](about-develop-extensions.md)
-## [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)
+## Endursöluaðilar og samstarfsaðilar
+### [Gerast endursöluaðili](product-sell.md)
+### [Framlenging á Business Central](about-develop-extensions.md)
 
 # Unnið með Business Central
 ## [Yfirlit](ui-work-product.md)
@@ -38,7 +38,7 @@
 ## [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md)
 ## [Greina áskilda reiti](ui-mandatory-fields.md)
 ## [Breyta tungumáli og landsstaðli](about-locale-language.md)
-## [Skoða og breyta í Excel](across-work-with-excel.md)  
+## [Skoða og breyta í Excel](across-work-with-excel.md)
 ## [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md)
 ## [Grunnstillingum breytt](ui-change-basic-settings.md)
 ## [Stjórna tilkynningum](ui-smart-notifications.md)
@@ -55,12 +55,13 @@
 ### [Stjórna vistuðum stillingum fyrir skýrslur og runuvinnslur](reports-saving-reusing-settings.md)
 ### [Skoða prufuskýrslur fyrir bókun](ui-how-view-test-reports-posting.md)
 ### [Keyra runuvinnslur og XML-gátt](ui-how-run-batch-jobs.md)
-## Breytið því hvernig skjöl og skýrslur líta út utanfrá
+## Breytir útliti skjala út á við
 ### [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)
-### [Uppfæra skýrsluútlit eða skjalaútlit](ui-update-report-layouts.md)
-### [Gera breytingar á Word-skýrsluútliti](ui-how-create-custom-report-layout.md)
-### [Flytja inn og út skýrsluútlit eða skjalaútlit](ui-how-import-and-export-report-layout.md)
 ### [Breyta núverandi skýrsluútliti](ui-how-change-layout-currently-used-report.md)
+### [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)
+### [Flytja sérsniðið skýrsluútlit inn og út](ui-how-import-and-export-report-layout.md)
+### [Uppfæra sérsniðið skýrsluútlit](ui-update-report-layouts.md)
+### [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md)
 ### [Bæta reitum við Word-skýrsluútlit](ui-how-add-fields-word-report-layout.md)
 ## Notkun flýtilykla
 ### [Aðgengi og Flýtivísanir](ui-accessibility.md)
@@ -222,10 +223,10 @@
 ### [Gera viðskiptagögn þín virk fyrir Power BI](admin-powerbi.md)
 ### [Skoða listagögn í Power BI skýrslum í Business Central](across-how-use-powerbi-reports-factbox.md)
 ### [Nota Business Central sem Power BI gagnaveita](across-how-use-financials-data-source-powerbi.md)
-## Notkun Flow með Business Central
+## Notkun Power Automate með Business Central
 ### [Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)
-### [Úrræðaleit samþættingar við Microsoft Flow - Umbeðin vefslóð of löng](across-troubleshooting-how-use-financials-data-source-flow.md)
-## [Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota PowerApps](across-how-use-financials-data-source-powerapps.md)
+## Notkun Power Apps með Business Central
+### [Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps.](across-how-use-financials-data-source-powerapps.md)
 ## [Skipta úr QuickBooks App í Business Central](across-quickbooks-to-business-edition.md)
 ## [Nota Business Central á fartækinu þínu](install-mobile-app.md)
 ## [Magnreikningsfærsla fyrir Microsoft Bookings](finance-bookings.md)
@@ -271,7 +272,7 @@
 #### [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md)
 #### [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)
 #### [Tilgreina hvenær og hvernig á að fá tilkynningar](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Búa til og breyta sérsniðnu skýrslu- eða skjalaútliti](ui-how-create-custom-report-layout.md)
+#### [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)
 #### [Setja upp tölvupóst](admin-how-setup-email.md)
 #### [Búa til verkflæði](across-how-to-create-workflows.md)
 #### [Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)
