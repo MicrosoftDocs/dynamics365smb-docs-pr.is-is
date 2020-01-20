@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2495292a967d81cd64694d3a238399e964c1d94f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d0f65eeb44b6a9a2608c05f6b7c71f989a0b9386
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316717"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953516"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Skrá sérstakt söluverð og sérstaka afslætti
 Skilgreina verður mismunandi verð- og afsláttarsamninga sem gilda þegar vörur eru keyptar frá mismunandi lánardrottnum svo að þeim reglum og gildum sem samkomulag hefur náðst um sé beitt á innkaupaskjöl sem gerð eru fyrir lánardrottininn.
@@ -34,7 +34,7 @@ Hvað varðar afslátt, er hægt að setja upp og nota tvær tegundir innkaupaaf
 Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu vöru og lánardrottins er einnig hægt að færa þessa grunnstillingu inn af birgðaspjaldinu, þar sem reglurnar og gildin eru skilgreind. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Að setja upp sérstakt innkaupsverð fyrir lánardrottin
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.
 2. Opna skal viðeigandi lánardrottnaspjald og velja síðan aðgerðina **Verð**.
 
     Reiturinn **Tegund innkaupa** er fylltur út fyrirfram með **Lánardrottinn**og í reitnum **Innkaupakóði**er númer lánardrottins.
@@ -42,7 +42,7 @@ Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu
 4. Fyllt er út lína fyrir hverja samsetningu sem lánardrottinn veitir innkaupalínuafsláttur fyrir.
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Að setja upp línuafslátt fyrir lánardrottin
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.
 2. Opna skal viðeigandi lánardrottinsspjald og veljið síðan aðgerðina **Línuafslættir**.
 
     Reiturinn **Tegund innkaupa** er fylltur út fyrirfram með **Lánardrottinn**og í reitnum **Innkaupakóði**er númer lánardrottins.
@@ -52,7 +52,7 @@ Vegna þess að innkaupalínuafslættir og innkaupaverð byggjast á samsetningu
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Að setja upp reikningsafslátt fyrir lánardrottin
 Þegar lánardrottnar þínir hafa veitt þér upplýsingar um hvaða reikningsafslætti þeir veita eru færðir inn reikningsafsláttarkóðar á lánardrottnaspjöldin og sett upp skilyrði fyrir hvern kóða.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.
 2. Opna skal spjald lánardrottins sem getur veitt reikningsafslátt.
 3. Í reitnum **Reikningsafsláttarkóði** er valinn kóði fyrir viðeigandi reikningsafsláttarskilmála sem forritið notar til að reikna reikningsafslátt fyrir lánardrottin.
 
@@ -120,6 +120,8 @@ Besta verð er lægsta leyfilega verð með hæsta leyfilega línuafslættinum �
     - Er krafa um gjaldmiðil til staðar í samningi um verð/afslátt sem er uppfyllt? Ef svo er, er lægsta verðið og hæsti línuafsláttur fyrir þann gjaldmiðil bætt við, jafnvel þótt SGM myndi veita betra verð. Ef ekkert verð/línuafsláttur er til í tilgreindum gjaldmiðilskóða, setur [!INCLUDE[d365fin](includes/d365fin_md.md)] inn lægsta verðið og hæsta línuafsláttinn í SGM.
 
 Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð eða einingaverð sótt af birgðaspjaldinu eða birgðahaldseiningarspjaldinu.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesset-up-prices-discounts-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning innkaupa](purchasing-setup-purchasing.md)  

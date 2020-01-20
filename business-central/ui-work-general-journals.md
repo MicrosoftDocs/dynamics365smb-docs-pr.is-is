@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 635e53040ab9920780cd1cf05a14f6dfa17496d9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5ea488bc03ffa64b0d6c4b5c1466ddf01ca52ab1
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314965"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953900"
 ---
 # <a name="working-with-general-journals"></a>Vinna í færslubókum
 
@@ -157,6 +157,8 @@ Eftirfarandi ferli byggist á glugganum **Færslubók**, en á við um allar að
 2. Þegar þú ert tilbúinn að bóka færslubókina, skal velja **Endurraða númerum skjals** aðgerðina.
 
 Gildi í **Skjal nr.** reitnum breytast þar sem þörf er á, þannig að númer fylgiskjala á stakri eða nokkrum færslubókarlínum eru í réttri röð. Hægt er að birta færslubókin eftir endurnúmerun skjala.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-journals-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)  

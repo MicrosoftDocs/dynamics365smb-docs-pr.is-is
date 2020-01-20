@@ -10,24 +10,37 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 398ca571c7b201ca80d252aaff958ee295890f4e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879251"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910613"
 ---
 # <a name="prepare-a-configuration-package"></a>Undirbúa grunnstillingarpakka
 Þegar nýtt fyrirtæki er skilgreint eru töflutengsl greind og unnin. Gögn eru flutt inn og notuð í réttri röð. Víddartöflur eru einnig fluttar inn ef þær eru teknar með í grunnstillingapakkanum Nánari upplýsingar eru í [Að flytja inn gögn viðskiptamanns](admin-migrate-customer-data.md#to-import-customer-data). 
 
 Til aðstoða viðskiptavininn við notkun á grunnstillingarpakkanum gætirðu viljað bæta við spurningalista eða spurningalistasafni við pakkann. Spurningalistinn getur aðstoða viðskiptavin í að skilja mismunandi uppsetningarvalkosti. Yfirleitt eru spurningalistar stofnaðir fyrir mikilvægar uppsetningartöflur þar sem viðskiptavinur gæti þurft frekari leiðsögn um hvernig velja skal viðeigandi stillingar. Nánari upplýsingar er að finna í [Safna uppsetningargildum viðskiptavinar](admin-gather-customer-setup-values.md).
 
-Ganga þarf úr skugga um að notandi sé á RapidStart Services Mitt hlutverk innleiðara. Nánari upplýsingar eru í [Nota Mitt hlutverk RapidStart Services innleiðara](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+## <a name="before-you-create-a-configuration-package"></a>Áður en grunnstillingapakki er búinn til
+Vert er að hafa í huga nokkur atriði áður en grunnstillingapakki er búinn til vegna þess að þeir hafa áhrif á möguleika þína eða viðskiptamanna þinni á innflutningi hans. 
 
-> [!IMPORTANT]  
->  Þegar skilgreiningarpakkar eru fluttir inn og út á milli tveggja gagnagrunna fyrirtækis ættu gagnagrunnarnir að hafa sama skema til að tryggja að öll gögn flytjist rétt yfir. Þetta merkir að gagnagrunnar ættu að hafa sama skipulag í töflum og reitum, þar sem töflur hafa sömu aðallykla og reitir hafa sama kenni og gagnagerðir.  
->   
->  Hægt er að flytja inn skilgreiningapakka sem hefur verið fluttur út úr gagnagrunni sem hefur annað skemma en markgagnagrunnur. Allar töflur eða reitir sem eru í skilgreiningapakkanum en ekki í markgagnagrunninum verða hins vegar ekki fluttir inn. Töflur með öðrum aðallyklum og reitum með öðrum gagnagerðum verða heldur ekki fluttir inn. Sem dæmi má nefna að gögn munu ekki flytjast yfir ef skilgreiningapakki inniheldur töfluna **50000 Customer** sem hefur aðallykilinn **Code20** og gagnagrunnurinn sem flutt er inn í inniheldur töfluna **50000 Customer Bank Account** sem hefur aðallykilinn **Code20 + Code 20**.  
+### <a name="tables-that-contain-posted-entries"></a>Töflur sem innihalda bókaðar færslur
+Ekki er hægt að flytja inn gögn í töflur sem innihalda bókaðar færslur, svo sem töflur fyrir viðskiptamanna-, lánardrottna- og birgðabókafærslur, þannig að ekki ætti að taka þessi gögn með í grunnstillingapakkanum. Hægt er að bæta færslum við þessar töflur eftir að grunnstillingapakkinn hefur verið færður inn með því að nota færslubækur til að bóka færslurnar. Frekari upplýsingar er að finna í [Bókun skjala og færslubóka](ui-post-documents-journals.md).
+
+### <a name="licensing"></a>Leyfisveiting
+Leyfið verður að innihalda töflurnar sem verið er að uppfæra. Ef óvissa ríkir um þetta getur síðan **Grunnstillingarvinnublað** komið að góðum notum. Ef leyfið inniheldur töfluna er gátreiturinn **Leyfð tafla** valinn.  
+
+### <a name="permissions"></a>Aðgangsheimildir
+Ferlið við að búa til og flytja inn grunnstillingapakka felur í sér eftirfarandi virkar heimildir fyrir allar töflur í pakkanum: 
+
+* Notandinn sem flytur út gögn fyrir grunnstillingapakka verður að hafa virku heimildina **Lesa**.
+* Notandinn sem flytur inn grunnstillingapakka verður að hafa virku heimildirnar **Setja inn** og **Breyta**.
+
+### <a name="database-schema"></a>Gagnagrunnsskema
+Þegar skilgreiningarpakkar eru fluttir inn og út á milli tveggja gagnagrunna fyrirtækis ættu gagnagrunnarnir að hafa sama skema til að tryggja að öll gögn flytjist rétt yfir. Þetta merkir að gagnagrunnar ættu að hafa sama skipulag í töflum og reitum, þar sem töflur hafa sömu aðallykla og reitir hafa sama kenni og gagnagerðir.  
+
+Hægt er að flytja inn skilgreiningapakka sem hefur verið fluttur út úr gagnagrunni sem hefur annað skemma en markgagnagrunnur. Allar töflur eða reitir sem eru í skilgreiningapakkanum en ekki í markgagnagrunninum verða hins vegar ekki fluttir inn. Töflur með öðrum aðallyklum og reitum með öðrum gagnagerðum verða heldur ekki fluttir inn. Sem dæmi má nefna að gögn munu ekki flytjast yfir ef skilgreiningapakki inniheldur töfluna **50000 Customer** sem hefur aðallykilinn **Code20** og gagnagrunnurinn sem flutt er inn í inniheldur töfluna **50000 Customer Bank Account** sem hefur aðallykilinn **Code20 + Code 20**.  
 
 ## <a name="to-create-a-configuration-package"></a>Til að búa til grunnstillingarpakka  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  

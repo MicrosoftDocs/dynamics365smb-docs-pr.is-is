@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8fc2bd353a80bf72f8bb9a0d282bec7c216fc0fa
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879490"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953708"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setja upp sjóðstreymisgreiningu
 Ef þú vilt fá aðstoð til að ákveða hvað þú átt að gera með féð þitt, skoðaðu töflurnar á Hlutverkamiðstöð bókhaldara:  
@@ -28,6 +28,9 @@ Ef þú vilt fá aðstoð til að ákveða hvað þú átt að gera með féð �
 * **Sjóðstreymispár**  
 
 Þetta efni lýsir hvar gögnin í töflunum koma frá og, ef nauðsyn krefur, hvað á að gera til að byrja að nota töflurnar.  
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc]
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Gröf ferils bundins reiðufés og tekjur og útgjöld
 Gröf **ferils bundins reiðufés** og **tekjur og útgjöld** eru tilbúin til notkunar, byggt á bókhaldslyklum og fjárhagsskema. Lyklarnir eru þar sem gögnin koma frá og fjárhagsskema reiknar út sambandið milli sölu og viðskiptakrafna. Sumir reikningar og fjárhagsskemu eru veitt. Þú getur notað þau eins og-er, breytt þeim og bætt við nýjum. Ef þú bætir fjárhagsreikningi við bókhaldslykil, til dæmis með því að flytja þær frá QuickBooks þarftu að varpa reikningunum á **Fjárhagsskema** síðuna fyrir eftirfarandi nöfn reikningsáætlunar:  
@@ -90,6 +93,8 @@ Nota handvirkt ferli:
 5. Gera API URL og API lykillinn athugasemd. Þú munt nota þessi skilríki fyrir sjóðstreymisuppsetningu.  
 6. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning sjóðstreymis** og veldu síðan tengda tengilinn.  
 7. Stækkaðu **Azure AI** flýtiflipann, og fylltu síðan inn reitina.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)  

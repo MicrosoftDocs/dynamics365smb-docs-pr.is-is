@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
+ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896206"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918215"
 ---
 # <a name="migrate-customer-data"></a>Flytja gögn viðskiptamanna
 Hægt er að flytja núverandi gögn um viðskiptamenn úr fyrirliggjandi ERP-kerfi yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að nota RapidStart Services gagnaflutningstækni. Hægt er að nota Excel-skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að slá þau beint inn í fyrirtækið.
@@ -31,13 +31,13 @@ Síðurnar **Flutningsyfirlit** og **Grunnstilling vinnublaðs** veita aðgang a
 > [!NOTE]  
 >  Ekki er hægt að endurnefna skrá sem ekki er þegar RapidStart Services skilgreiningarpakki sem .rapidstart skilgreiningarpakkaskrá og svo reyna að færa hana inn. Ef það er reynt, munu koma upp villuboð.  
 
-Áður en hafist er handa þarf að ganga úr skugga um að notandi sé á Mitt hlutverk RapidStart Services innleiðara.
+Áður en hafist er handa þarf að ganga úr skugga um að heimild til að keyra RapidStart Services-hlutina sé til staðar. Til dæmis er hægt að hafa SUPER-heimildasamstæðu eða vera innri eða úthlutaður stjórnandi. Einnig er mælt með því að notandi sé í hlutverki með tengla á RapidStart Services, svo sem stjórnunarhlutverk. Nánari upplýsingar er að finna í [Að breyta hlutverkinu](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
->  Við inn- og útflutning stillingapakka milli gagnagrunna tveggja fyrirtækja ættu gagnagrunnarnir að hafa sama skema til að ganga úr skugga um að öll gögn séu flutt rétt. Þetta merkir að gagnagrunnar ættu að hafa sama skipulag í töflum og reitum, þar sem töflur hafa sömu aðallykla og reitir hafa sama kenni og gagnagerðir.  
->   
+> Við inn- og útflutning stillingapakka milli gagnagrunna tveggja fyrirtækja ættu gagnagrunnarnir að hafa sama skema til að ganga úr skugga um að öll gögn séu flutt rétt. Þetta merkir að gagnagrunnar ættu að hafa sama skipulag í töflum og reitum, þar sem töflur hafa sömu aðallykla og reitir hafa sama kenni og gagnagerðir.  
+>
 >  Hægt er að flytja inn skilgreiningapakka sem hefur verið fluttur út úr gagnagrunni sem hefur annað skemma en markgagnagrunnur. Allar töflur eða reitir sem eru í skilgreiningapakkanum en ekki í markgagnagrunninum verða hins vegar ekki fluttir inn.
->   
+>
 > Töflur með öðrum aðallyklum og reitum sem hafa aðrar gagnagerðir verða heldur ekki fluttir inn. Sem dæmi má nefna að gögn munu ekki flytjast yfir ef skilgreiningapakki inniheldur töfluna **50000 Customer** sem hefur aðallykilinn **Code20** og gagnagrunnurinn sem flutt er inn í inniheldur töfluna **50000 Customer Bank Account** sem hefur aðallykilinn **Code20 + Code 20**.  
 
 1. Opna skal nýja fyrirtækið.  
@@ -56,7 +56,11 @@ Síðurnar **Flutningsyfirlit** og **Grunnstilling vinnublaðs** veita aðgang a
 Ef val á töflum uppfyllir ekki þarfir fyrirtækisins er hægt að stofna eina eða fleiri nýjar gagnaflutningsskrár. Ef skrárnar eru fullnægjandi er hægt að halda áfram með gagnaflutninginn með því að nota Excel- eða XML-skrár.
 
 ## <a name="to-create-a-data-migration-file"></a>Til að búa til gagnaflutningsskrá
-Hægt er að stofna nýjar gagnaflutningaskrár og sérsníða þær til stuðnings fyrirtækisins. Athugið að aðeins er hægt að nota skrá til að flytja reit sem er með eiginleikann **FieldClass** stilltan á **Venjulegt**.  
+
+Hægt er að stofna nýjar gagnaflutningaskrár og sérsníða þær til stuðnings fyrirtækisins.  
+
+> [!TIP]
+> Aðeins er hægt að nota skrá til að flytja reit sem er með eiginleikann **FieldClass** stilltan á **Venjulegt**.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakki** og veldu síðan tengda tengilinn.  
 2. Veljið og opnið pakkann sem á að nota til að flytja gögn og veljið svo aðgerðina **Ná í töflur**. Síðan **Sækja pakkatöflu** opnast.  

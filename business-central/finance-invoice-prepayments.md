@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7034e88e5f9a46f3d593a532020acc40be3b437f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f08e9549d83d689721657584eb95733cb8ac323c
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879657"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953756"
 ---
 # <a name="invoicing-prepayments"></a>Reikningsfærsla fyrirframgreiðslna
 Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyrirframgreiðslupöntun sölu- eða innkaupa áður en lokareikningsfærsla fer fram. Þú gætir krafist innborgunar áður en þú framleiðir vörur upp í pöntun eða krafist greiðslu áður en þú afhendir viðskiptamanni vörur. Með fyrirframgreiðslum getur þú reikningsfært og innheimt innborganir frá viðskiptamönnum eða sent lánardrottnum innborganir. Þannig má tryggja að allar greiðslur séu bókaðar á móti reikningi.  
@@ -29,6 +29,8 @@ Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyr
 |Setja upp bókunarflokka fyrirframgreiðslu, og setja upp sjálfgefna fyrirframgreiðsluprósentu fyrir viðskiptamenn, lánardrottna og vörur.|[Uppsetning fyrirframgreiðslu](finance-set-up-prepayments.md)|
 |Stofna pöntun, leiðrétta fyrirframgreiðsluupphæðirnar og gefa út reikning fyrir fyrirframgreiðsluupphæðunum.|[Stofna fyrirframgreiðslureikninga](finance-how-to-create-prepayment-invoices.md)|  
 |Gefa út viðbótarfyrirframgreiðslureikning, annaðhvort fyrir viðbótarvörum eða viðbótarinnborgun á upphaflegu pöntunina eða gefa út kreditfyrirframgreiðslureikning.|[Leiðrétta fyrirframgreiðslur](finance-how-to-correct-prepayments.md)|  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprepayment-invoices-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig  
 [Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

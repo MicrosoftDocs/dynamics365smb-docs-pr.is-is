@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 74e4c2e26ec4b51c00ece9ff8f56f7d556b74416
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302381"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952627"
 ---
 # <a name="working-with-dimensions"></a>Unnið með víddir
 Til að auðvelda greiningu á skjölum, svo sem sölupöntum, geturðu notað stærðir. Víddir eru eiginleikar og gildi sem flokkar færslur svo þú getir fylgst með og greina þær. Til dæmis má vísa til verkefnisins eða deildarinnar sem innganga kom frá.  
@@ -83,7 +83,7 @@ Mismunandi tegundir reikninga, eins og til dæmis viðskiptamannsreikningur og v
 ### <a name="to-set-up-dimension-combinations"></a>Að setja upp samsettar víddir  
 Til að forðast að bóka færslur með mótsagnarkenndum eða óviðkomandi víddum er hægt að loka eða takmarka tilteknar samsetningar tveggja vídda. Lokuð víddarsamsetning þýðir að ekki er hægt að bóka báðar víddir í sömu færslu sama hver víddargildin eru. Með takmarkaðri víddarsamsetningu er hægt að bóka báðar víddir í sömu færslu en aðeins með tilteknum víddargildasamsetningum.
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Víddasamsetningar** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Víddarsamsetningar** og veldu síðan tengda tengilinn.  
 2.  Á síðunni **Víddarsamsetningar** er smellt á reitinn fyrir samsetningu vídda og síðan valinn einn af eftirfarandi valkostum.  
 
     |Svæði|Description|
@@ -111,7 +111,7 @@ Hægt er að nota altækar víddir og flýtivísanir í víddir sem síu hvar se
 > [!Note]
 > Þegar þú bætir við eða breytir altækri vídd eða flýtivídd ertu sjálfkrafa skráður út og aftur inn svo nýja gildið er undirbúið til notkunar alls staðar í forritinu.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning fjárhags** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.
 2. Í flýtiflipanum **Víddir** skal fylla út reitina. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Að breyta altækum víddum
@@ -181,7 +181,7 @@ Altækar\-víddir eru alltaf skilgreindar og nefndar af fyrirtækjum. Til að sj
 
 Á fjárhagsfærslusíðu er hægt að sjá hvort altækar víddir hafi verið stofnaðar fyrir færslurnar. Altæku víddirnar tvær eru ólíkar hinum víddunum þar sem hægt er að nota þær sem afmarkanir hvar sem er innan [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókhaldslykill** og veldu síðan tengda tengilinn.  
 2.  Á síðunni **Bókhaldslykill** skal velja aðgerðina **Fjárhagsfærslur**.  
 3.  Til að sjá aðeins viðeigandi færslur þarf að setja inn eina eða fleiri afmarkanir á síðuna.  
 4.  Til að sjá allar víddir fyrir færslu skal velja færsluna og svo aðgerðina **Víddir**.  
@@ -208,6 +208,8 @@ Altækar\-víddir eru alltaf skilgreindar og nefndar af fyrirtækjum. Til að sj
 |Rangur víddargildiskóði fyrir sjálfgefna vídd þar sem reiturinn **Virðisbókun** inniheldur **Sami kóði**|-Veldu %1 %2 fyrir %3 %4.<br />-Veldu %1 %2 fyrir %3 %4 fyrir %5 %6|-Breyta reitnum **Virðisbókun** á síðunni **Sjálfgefin vídd**.<br />-Færðu inn nauðsynlegt víddargildi fyrir víddina sem stangast á í víddasamstæðunni.|
 |Víddargildiskóði sem ekki er auður fyrir auða sjálfgefna vídd þar sem reiturinn **Virðisbókun** inniheldur **Sami kóði**|-%1 %2 verður að vera auður.<br />-%1 %2 verður að vera auður fyrir %3 %4.|-Breyta reitnum **Virðisbókun** á síðunni **Sjálfgefin vídd**.<br />-Færðu inn auðan víddargildiskóða fyrir víddina sem stangast á í víddasamstæðunni.|
 |Óvæntur víddargildiskóði fyrir sjálfgefna vídd þar sem reiturinn **Virðisbókun** inniheldur **Enginn kóði**|-%1 %2 má ekki nefna.<br />-%1 %2 má ekki nefna fyrir %3 %4|-Breyta reitnum **Virðisbókun** á síðunni **Sjálfgefin vídd**.<br />-Fjarlægja línuna sem stangast á úr víddasamstæðunni.|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptaupplýsingar](bi.md)  

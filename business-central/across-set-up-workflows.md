@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ff257a13a995b9617bdae9de98830f50e45edee
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 96c39641c9665542c8c27b004bb27f92768d57dc
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879356"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910905"
 ---
 # <a name="setting-up-workflows"></a>Uppsetning verkflæðis
 Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði. Frekari upplýsingar eru í [Nota verkflæði](across-use-workflows.md).  
@@ -42,8 +42,14 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 |Lærið að setja upp verkflæði fyrir söluskjöl sem eru til samþykktar með því að fylgja verkferli frá upphafi til enda.|[Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Bæta við stuðningur fyrir sviðsmynd viðskipta sem þurfa ný verkflæðistilvik eða viðbrögð með því að sérsníða forritskóðann.|[Sýnikennsla: Innleiðing nýrra verkflæðistilvika og svörunar](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 
+## <a name="example-of-an-approval-workflow"></a>Dæmi um samþykktarverkflæði
+Þetta myndband sýnir hvernig á að setja upp verkflæði sem fer fram á að einhver óski eftir samþykki einhvers annars áður en hægt er að breyta upplýsingum um fyrirliggjandi viðskiptamann, eða búa til nýjan viðskiptamann.  
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI]
+
 ## <a name="see-also"></a>Sjá einnig  
  [Nota verkflæði](across-use-workflows.md)   
  [Verkflæði](across-workflow.md)   
- [Kynning: Uppsetning og notkun verkflæðis innkaupasamþykktar](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+ [Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Vinna með Business Central](ui-work-product.md)

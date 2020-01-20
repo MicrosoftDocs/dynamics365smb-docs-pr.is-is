@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 12/02/2019
+ms.date: 01/06/2020
 ms.author: edupont
-ms.openlocfilehash: c575c0e482ebe4d34c9b699b22747486651efe04
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: 9c409b3aa0301b959cde0681307cf8346fbe7a54
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896134"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943039"
 ---
 # <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Endurskoðandi upplifun í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Engu skiptir hvernig endurskoðandi þú ert, þú getur nýtt þér **Endurskoðandi** Mitt hlutverk sem þitt Heim í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Héðan hefurðu aðgang að öllum síðum sem þú þarft í vinnunni.  
@@ -26,33 +26,76 @@ Mitt hlutverk er yfirlit með aðgerðarreitum sem sýna þér lykiltölur í ra
 Ef þú þekkir ekki til [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu opnað myndbandalista frá Mitt hlutverk. Einnig er hægt að opna **Hafist handa** kynningu sem bendir á lykilsvæði.  
 
 ## <a name="inviteaccountant"></a>Bjóða ytri endurskoðanda í þitt [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, geturðu boðið þeim í þitt [!INCLUDE[d365fin](includes/d365fin_md.md)] svo þeir geti unnið með þín fjárhagsgögn.
+Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, getur kerfisstjórinn þinn boðið þeim í þitt [!INCLUDE[d365fin](includes/d365fin_md.md)] svo þeir geti unnið með þín fjárhagsgögn. [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur þrjú leyfi af gerðinni External Accountant. Nánari upplýsingar um leyfi er að finna í [Microsoft Dynamics 365 Business Central leiðarvísir](https://go.microsoft.com/fwlink/?LinkId=871590).
 
 Þegar endurskoðandi hefur fengið aðgang að þínu [!INCLUDE[d365fin](includes/d365fin_md.md)], getur hann notað **Endurskoðandi** Mitt hlutverk, sem veitir auðveldan aðgang að þeim síðum sem vinna þarf með.  
 
 Við höfum auðveldað þér að bjóða ytri endurskoðanda. Einfaldlega opnið síðuna **Notendur** og veljið síðan **Bjóða ytri endurskoðanda** aðgerðina í borðanum. Tölvupósturinn er tilbúinn fyrir þig, bættu vinnunetfangi endurskoðandans inn og sendu boðið.  
+
 > [!Note]  
 > SMTP tölvupósts verður að vera uppsettur. Frekari upplýsingar eru í [Setja upp tölvupóst](admin-how-setup-email.md).   
 
-![Bjóðið endurskoðanda](./media/finance-invite-accountant/invite-accountant.png)
+<!-- ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)-->
 
 > [!IMPORTANT]  
-> Netfang endurskoðanda verður að vera vinnunetfang sem byggist á Azure Active Directory. Ef endurskoðandinn notar aðra gerð netfangs er ekki hægt að sena boðið.  
+> Netfang endurskoðanda verður að vera vinnunetfang sem byggist á Azure Active Directory. Ef endurskoðandinn notar aðra gerð netfangs er ekki hægt að sena boðið. 
+> 
+> Þetta verk krefst aðgangs til að stjórna notendum og leyfum í Azure Active Directory, og notandinn sem sendir þetta boð verður að vera með hlutverkið **Altækur stjórnandi** eða **Notandastjórnandi** í Office 365 stjórnendamiðstöð. Frekari upplýsingar eru í [Um stjórnandahlutverk](/office365/admin/add-users/about-admin-roles) í Office 365 efni kerfisstjóra.  
 
-### <a name="behind-the-scenes"></a>Á bak við tjöldin
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur þrjú leyfi af gerðinni External Accountant. Ef fyrirtækið þitt notar ytri endurskoðanda geturðu veitt aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að úthluta þeim slíku leyfi. Nánari upplýsingar um leyfi er að finna í [Microsoft Dynamics 365 Busincess Central leiðarvísir](https://go.microsoft.com/fwlink/?LinkId=871590). 
+### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Endurskoðanda þínum er bætt við Office 365 í gegnum Azure-gátt'
 
-Ef áskriftin þín er enn með tiltæk leyfi getur kerfisstjóri eða endursöluaðili bætt við ytri notanda með Azure Portal og úthlutað þessum notanda leyfi External Accountant. Frekari upplýsingar er að finna á [Bæta við Azure Active Directory B2B samstarfsnotendum í Azure portal](/azure/active-directory/b2b/add-users-administrator).
+Ef stjórnandi þinn eða endursöluaðili vill ekki nota leiðarvísinn **Bjóða ytri endurskoðanda** geta þeir bætt við ytri notanda í Azure-gáttinni og úthlutað þessum notanda ytri heimild endurskoðanda. Frekari upplýsingar er að finna í [Stutt leiðbeining: Bæta gestanotendum við skráasafnið þitt í Azure-gáttinni](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
-Þú getur svo boðið endurskoðandanum inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að nota **Bjóða ytri bókara** leiðbeiningar um uppsetningu með hjálp. Þar sem þetta verk krefst hins vegar aðgangs til að stjórna notendum og leyfum í Azure Active Directory, verður notandinn sem sendir þetta boð að vera með hlutverkið **Altækur stjórnandi** eða **Notandastjórnandi** í Office 365 stjórnendamiðstöð. Frekari upplýsingar eru í [Um stjórnandahlutverk](/office365/admin/add-users/about-admin-roles) í Office 365 efni kerfisstjóra. 
+#### <a name="to-add-your-accountant-as-a-guest-user"></a>Til að bæta endurskoðandanum sem gestanotanda
+
+1. Opnið [Azure gáttina](https://portal.azure.com/).
+2. Veljið **Azure Active Directory** í vinstra svæðinu.
+3. Undir **Stjórna** skal velja **Notendur**.
+4. Veljið **Nýr gestanotandi**.
+5. Á síðunni **Nýr notandi** skal velja **Bjóða notanda** og bæta svo við upplýsingum um ytri endurskoðandann.  
+
+   Einnig er hægt að bjóða endurskoðandann velkominn með skilaboðum til að láta hann vita að verið sé að bæta honum við [!INCLUDE [prodshort](includes/prodshort.md)].
+
+6. Veljið **Bjóða** til að senda boðið sjálfkrafa. Tilkynning birtist efst til hægri með skilaboðunum **Tókst að bjóða notanda**. 
+7. Eftir að boð hefur verið sent er notandareikningi sjálfkrafa bætt við skráasafnið sem gestur.
+
+Næst verður að úthluta nýja gestanotandanum leyfi fyrir [!INCLUDE [prodshort](includes/prodshort.md)].
+
+#### <a name="to-give-your-accountant-access-to-your-include-prodshortincludesprodshortmd"></a>Að gefa endurskoðandanum aðgang að [!INCLUDE [prodshort](includes/prodshort.md)]
+
+1. Í Azure-gáttinni, í notanda sem var nýlega bætt við, skal velja **Forstilling** og síðan velja **Breyta**
+2. Uppfærið reitinn **Notkunarstaðsetning** í viðeigandi land og veljið síðan **Vista**.
+3. Veljið **Leyfi** og opnið síðan **Úthlutanir**.
+4. Veljið leyfið **Dynamics 365 Business Central Ytri endurskoðandi**.  
+
+    Ef þetta leyfi er ekki í boði verður að nota aðgengilegt **Dynamics 365 Business Central fyrir IW** leyfi í staðinn.
+5. Vistið verkefnið.
+
+Ef það tekst er leyfinu úthlutað til gestanotanda og gestareikningur er búinn til.
+
+### <a name="importing-the-new-user-into-include-prodshortincludesprodshortmd"></a>Nýr notandi fluttur inn í [!INCLUDE [prodshort](includes/prodshort.md)]
+
+Endurskoðandinn fær tölvupóst þar sem honum er tilkynnt að hann hafi fengið aðgang að Active Directory. Næst verður að veita þeim aðgang að rétta fyrirtækinu í [!INCLUDE [prodshort](includes/prodshort.md)].
+
+#### <a name="to-add-the-accountant-to-the-right-company"></a>Að bæta endurskoðandanum við rétt fyrirtæki
+
+1. Opnið [!INCLUDE [prodshort](includes/prodshort.md)] fyrirtækið sem gefa á endurskoðandanum aðgang að á [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.  
+3. Veldu **Fá nýja notendur úr Office 365** aðgerðina.
+
+Þetta flytur notandareikninginn sem var búinn til í Azure-gáttinni inn í fyrirtækið. Frekari upplýsingar eru í [Að bæta við notanda í Business Central](ui-how-users-permissions.md#to-add-a-user-in-business-central).  
+
+Ef á að veita aðgang að mörgum fyrirtækjum þarf að skrá sig inn í hvert fyrirtæki fyrir sig og endurtaka þetta ferli. Að öðrum kosti er hægt að uppfæra heimildaflokka fyrir notandaforstillingu endurskoðandans í [!INCLUDE [prodshort](includes/prodshort.md)], svo sem með því að úthluta þeim *D365 Bus Premium* notendaflokki. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
 
 ## <a name="accountant-hub"></a>Accountant Hub
+
 Ef þú ert endurskoðandi með nokkra viðskiptamenn, geturðu notað [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] til að fá betra yfirlit yfir viðskiptamenn þína. Þaðan hefurðu aðgang að sérhverjum leigjanda viðskiptamanna þinna í [!INCLUDE[d365fin](includes/d365fin_md.md)] og getur notað Endurskoðandi Mitt hlutverk eins og lýst er hér að ofan. Nánari upplýsingar er að finna í [Velkomin í [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
 > [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] er nú í opinberri útgáfu á takmörkuðum fjölda markaða.
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  

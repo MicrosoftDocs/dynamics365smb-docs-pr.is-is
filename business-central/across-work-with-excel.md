@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/24/2019
+ms.date: 01/13/2020
 ms.author: jswymer
-ms.openlocfilehash: 99fe339426b755b70983d8ec9345858357043347
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 9fd5c6c242932d75addcfa5c1811bdd1aff99a94
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808746"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953047"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Skoða og breyta í Excel From Business Central
 
@@ -25,9 +25,9 @@ Með síðum sem birta lista yfir færslur í línum og dálkum, eins og lista y
 
 - Með þessari aðgerð tekur Excel allar síur á síðunni til greina sem takmarka færslurnar sem eru sýndar. Þetta þýðir að Excel-vinnubókin mun innihalda sömu línur og dálka sem birtast á síðunni í [!INCLUDE[prodshort](includes/prodshort.md)].
 
-- Þú getur gert breytingar á færslum í Excel, en þú getur ekki birt þær aftur í [!INCLUDE[prodshort](includes/prodshort.md)]. Þú getur aðeins vistað breytingarnar í Excel-skrá í tölvunni þinni. 
+- Þú getur gert breytingar á færslum í Excel, en þú getur ekki birt þær aftur í [!INCLUDE[prodshort](includes/prodshort.md)]. Þú getur aðeins vistað breytingarnar í Excel-skrá í tölvunni þinni.
 
-- Þessi aðgerð virkar bæði í Windows og macOS. 
+- Þessi aðgerð virkar bæði í Windows og macOS.
 
 > [!NOTE]
 > **Open í Excel** aðgerðin er sjálfgefið tiltæk fyrir [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss. Ef þú setur hins vegar upp [!INCLUDE [prodshort](includes/prodshort.md)] innanhúss fyrir breytingar í Excel er **Opna í Excel** aðgerðinni skipt út fyrir aðgerðina **Breyta í Excel**.
@@ -48,10 +48,12 @@ Með síðum sem birta lista yfir færslur í línum og dálkum, eins og lista y
 > [!NOTE]
 > Þessi eiginleiki er aðeins í boði fyrir vefbiðlarann fyrir [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss.
 
-### <a name="see-the-differences-between-the-options"></a>Sjá muninn á milli valkostanna 
+### <a name="see-the-differences-between-the-options"></a>Sjá muninn á milli valkostanna
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með Business Central](ui-work-product.md)  

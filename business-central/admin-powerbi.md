@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bmeier
-ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879107"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952988"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Gera viðskiptagögn þín virk fyrir Power BI
 
@@ -164,7 +164,7 @@ Power BI reikningur hefur ekki verið settur upp. Til þess að hafa gildan Powe
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Skilaboð: Engar skýrslur eru virkar. Veljið Velja skýrslu til að sjá hvaða skýrslur er hægt að birta.
 
-Þessi skilaboð birtast ef sjálfgefna skýrslan tókst ekki að virkja Power BI vinnusvæði þitt eða skýrslan virkjaði en mistókst að uppfæra. Ef þetta gerist skal fara í skýrsluna á Power BI vinnusvæðinu, velja **gagnamengi**, **stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnamengið hefur verið endurnýjað er farið aftur í Business Central og valið handvirkt skýrsla úr **velja skýrslur** síðunni. 
+Þessi skilaboð birtast ef sjálfgefna skýrslan tókst ekki að virkja Power BI vinnusvæði þitt eða skýrslan virkjaði en mistókst að uppfæra. Ef þetta gerist skal fara í skýrsluna á Power BI vinnusvæðinu, velja **gagnamengi**, **stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnamengið hefur verið endurnýjað er farið aftur í Business Central og valið handvirkt skýrsla úr **velja skýrslur** síðunni.
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Þú þarft Power BI-leyfi fagmanns til að setja upp [!INCLUDE [prodshort](includes/prodshort.md)]-forritið í Power BI
 
@@ -174,7 +174,7 @@ Aðeins er hægt að setja upp Power BI-forritin að hálfu notenda sem eru með
 
 Þessi villa gefur til kynna að ein eða fleiri færibreytur séu ekki gildar.
 
-- Tilgreind umhverfisfæribreyta samsvarar ekki neinni fyrirliggjandi [!INCLUDE [prodshort](includes/prodshort.md)] -framleiðslu eða sandkassaumhverfi. 
+- Tilgreind umhverfisfæribreyta samsvarar ekki neinni fyrirliggjandi [!INCLUDE [prodshort](includes/prodshort.md)] -framleiðslu eða sandkassaumhverfi.
 - Tilgreind færibreyta fyrirtækis passar ekki við önnur [!INCLUDE [prodshort](includes/prodshort.md)]-fyrirtæki. Staðfestu heiti fyrirtækis á síðunni **Fyrirtæki** í [!INCLUDE [prodshort](includes/prodshort.md)].
 - Ef tengst er [!INCLUDE [prodshort](includes/prodshort.md)] á staðnum. þú hefur slegið inn vefslóð sem er ekki gild. Þú getur staðfest vefslóðina á síðunni **Vefþjónusta** í [!INCLUDE [prodshort](includes/prodshort.md)]  
 - Gátt er ekki opin til að leyfa beiðni að fara í gegnum eldvegginn.
@@ -202,6 +202,8 @@ Ef þú slærð inn ógilt heiti fyrirtækis meðan á tengingarferlinu stendur 
 ### <a name="i-only-see-data-for-a-single-company"></a>Ég sé bara gögn fyrir eitt fyrirtæki
 
 Power BI-forritið sýnir aðeins gögn úr [!INCLUDE [prodshort](includes/prodshort.md)] fyrirtækinu sem var skilgreint þegar Power BI-forritið var sett upp. Hægt er að bæta gögnum frá viðbótarfyrirtækjum við skýrslurnar með því að bæta við nýjum fyrirspurnum sem nota mismunandi fyrirtæki sem gagnaveitu.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 

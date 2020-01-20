@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2019
+ms.date: 12/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: c38666d6e3dcdaf2a5426795930887d726767190
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3618ad87377ebc47f183292207d2f25dc6c3ed34
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304014"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910421"
 ---
 # <a name="transfer-bank-funds"></a>Flytja bankainnstæður
-Stundum þarf að bóka millifærslu á upphæðum af einum bankareikningi yfir á annan. Til að gera þetta verður að bóka á færslu í færslubók. Verkið er misjafnt eftir því hvort bankareikningarnir nota sama gjaldmiðil eða mismunandi gjaldmiðla.
+Stundum þarf að millifæra upphæð af einum bankareikningi í [!INCLUDE[d365fin](includes/d365fin_md.md)] yfir á annan. Til að gera þetta verður að bóka færsluna á síðunni **Færslubók**. Verkið er misjafnt eftir því hvort bankareikningarnir nota sama gjaldmiðil eða mismunandi gjaldmiðla.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Millifærslur af einum bankareikningi á annan með sama gjaldmiðilskóða
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **færslubók** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Færslubók** og veldu síðan tengda tengilinn.
 2. Reitirnir **Bókunardagsetning** og **Númer fylgiskjals** eru fylltir út í færslubókarlínu.
 3. Í reitnum **Tegund reiknings** er valinn **Bankareikningur**.
 4. Í reitnum **Reikningur númer** skal velja bankann sem flytja á bankainnistæðuna frá.
@@ -36,7 +36,7 @@ Stundum þarf að bóka millifærslu á upphæðum af einum bankareikningi yfir 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Færslur milli bankareikninga bókaðar með gjaldmiðilskótum
 Til að færa fjármuni milli bankareikninga sem nota mismunandi gjaldmiðla, verður að bóka tvær færslubókarlínur.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **færslubók** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Færslubók** og veldu síðan tengda tengilinn.
 2. Búið til tvær færslubókarlínur og fyllið út reitina **Bókunardagsetning** og **Númer fylgiskjals**.
 3. Í fyrstu færslubókarlínunni skal færa inn **Bankareikningur** í reitnum **Tegund reiknings**.
 4. Í reitnum **Reikningur númer** skal velja bankann sem flytja á bankainnistæðuna frá.
@@ -54,7 +54,7 @@ Til að færa fjármuni milli bankareikninga sem nota mismunandi gjaldmiðla, ve
 13. Bóka skal færslubókina.
 
 ## <a name="see-also"></a>Sjá einnig
-[Stjórna bankareikningum](bank-manage-bank-accounts.md)  
+[Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

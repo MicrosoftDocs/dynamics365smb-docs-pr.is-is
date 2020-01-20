@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0e6d9bb39e36ca127ab9d64eb045ab4c64b91d30
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: ae6b75ee39f2e06c55dc1f498c7a0be113c045d3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880737"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910689"
 ---
 # <a name="set-up-bank-accounts"></a>Bankareikningar settir upp
 Þú notar bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)] til að fylgjast með bankafærslunum þínum. Hægt er að hafa reikninga í SGM eða erlendum gjaldmiðli. Þegar bankareikningar hafa verið settir upp er einnig hægt að nota valkostinn prentskoðun.<br><br>  
@@ -30,7 +30,7 @@ ms.locfileid: "2880737"
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Til að fylla út í reitinn **Staða** með onunarstöðu verður þú að bóka fjárhagsfærslu bankareiknings með upphæðinni. Hægt er að gera þetta með því að framkvæma afstemmingu bankareiknings. Frekari upplýsingar í [Afstemma Bankareikninga Sérstaklega](bank-how-reconcile-bank-accounts-separately.md). Einnig er hægt að tiltaka opnunarstöðu sem hluta af almennri gagnamyndun í nýjum fyrirtækjum með því að nota **Flytja viðskiptagögn** leiðbeiningar um uppsetningu með hjálp. Nánari upplýsingar er að finna í [Hafist handa](product-get-started.md).
+> Til að fylla út í reitinn **Staða** með onunarstöðu verður þú að bóka fjárhagsfærslu bankareiknings með upphæðinni. Hægt er að gera þetta með því að framkvæma afstemmingu bankareiknings. Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md). Einnig er hægt að tiltaka opnunarstöðu sem hluta af almennri gagnamyndun í nýjum fyrirtækjum með því að nota **Flytja viðskiptagögn** leiðbeiningar um uppsetningu með hjálp. Nánari upplýsingar er að finna í [Hafist handa](product-get-started.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Til að setja upp bankareikning þinn til að flytja inn eða flytja út bankaskrár
 Reitir á **Flutningur** flýtiflipanum á síðunni **Bankareikningsspjald** eru tengdir innflutningi og útflutningi á bankastraumum og skrám. Nánari upplýsingar um það eru í [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md) og [Uppsetning Envestnet Yodlee Bank Feeds þjónustunnar](bank-how-setup-bank-statement-service.md).
@@ -53,5 +53,5 @@ Reitir á **Flutningur** flýtiflipanum á síðunni **Bankareikningsspjald lán
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Uppsetning bókunarflokka](finance-posting-groups.md)  
-[Stjórna bankareikningum](bank-manage-bank-accounts.md)  
+[Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

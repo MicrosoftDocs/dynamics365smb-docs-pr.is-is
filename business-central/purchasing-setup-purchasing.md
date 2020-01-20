@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 66cdbd317d448d42ce46bf6a1d05c78432ffaeee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ceaf6828ac5067a0a34c4120627e0352dc90d2d
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316669"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954000"
 ---
 # <a name="setting-up-purchasing"></a>Uppsetning innkaupa
 Áður en hægt er að hefjast handa við að stýra kaupferlum þarf að grunnstilla reglur og gildi sem ráða kaupreglum fyrirtækisins.
@@ -34,6 +34,8 @@ Farið er nánar yfir uppsetningu kaupa sem tengjast fjármunum, svo sem greiðs
 | Skráið inn mismunandi afslætti og sérverð sem lánardrottinn veitir, sem fer eftir vörum, magni og/eða dagsetningum. |[Skráning innkaupaverðs, afsláttar og greiðslusamkomulags](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Lánardrottnum forgangsraðað |[Forgangsraða lánardrottnum](purchasing-how-prioritize-vendors.md) |
 | Kaupendur settir upp |[Setja upp kaupendur](purchasing-how-setup-purchasers.md) |
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 11/11/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0360396d0379ca325a8563fffbfead971b8ba7f1
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798524"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953684"
 ---
 # <a name="set-up-value-added-tax"></a>Setja upp virðisaukaskatt
 Neytendur og fyrirtæki greiða virðisaukaskatt (VSK) þegar þau kaupa vörur eða þjónustu. Upphæð VSK til greiðslu getur verið mismunandi, það fer eftir nokkrum þáttum. Í [!INCLUDE[d365fin](includes/d365fin_md.md)], setur þú upp VSK til að tilgreina taxtana til að nota til að reikna skattaupphæðir, byggt á eftirfarandi:
@@ -37,7 +37,8 @@ Mælt er með að nota VSK-uppsetningarleiðsögn með hjálp til að setja upp 
 
 Til að ræsa uppsetningleiðbeiningar með hjálp, fylgið þessum skrefum:
 1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Uppsetning með hjálp**.  
-2. Veljið **Uppsetning VSK**.
+2. Velja **Setja upp VSK** og ljúkið við skrefin.
+3. Þegar uppsetningu með hjálp er lokið skal fara á síðuna **VSK-bókunargrunnur** og skoða hvort fylla þurfi út viðbótarreiti samkvæmt staðbundinni landsútgáfu. Frekari upplýsingar er að finna í [Staðbundin virkni í Business Central](about-localization.md)  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Til að setja upp VSK-númer fyrir þitt land eða svæði
 Til að ganga úr skugga um að rétt VSK-númer séu slegin inn er hægt að skilgreina snið fyrir VSK-númer sem eru notuð í löndum eða svæðum þar sem viðskipti notanda eru stunduð. [!INCLUDE[d365fin](includes/d365fin_md.md)] mun birta villuboð þegar einhver gerir mistök eða nota snið sem er rangt fyrir landið eða svæðið.
@@ -269,7 +270,10 @@ Breytingarverkfæri VSK-hlutfalls er notað til að stjórna breytinum á stöð
 > [!IMPORTANT]  
 >  Eftir prófun á umreikningi er reiturinn **Umbreytt** í töflu **Breyting á VSK gengi í skráningarfærslu** valinn og reiturinn **Umbreytt dagsetning** í töflunni **Breyting á VSK gengi í skráningarfærslu** sýnir umreiknuðu dagsetninguna.  
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Sjá einnig  
-[Uppsetning á óinnleystum virðisaukaskatti](finance-setup-unrealized-vat.md)  
+[Uppsetning á óinnleystum virðisaukaskatti](finance-setup-unrealized-vat.md)      
 [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
+[Staðbundin virkni í Business Central](about-localization.md)

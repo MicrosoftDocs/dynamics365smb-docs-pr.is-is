@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 636b8a23d3952536a8cd8de92d44402baf4a56e5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878938"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953876"
 ---
 # <a name="assembly-management"></a>Samsetningardeild
 Til að styðja fyrirtæki sem selja viðskiptavinum sínum vörur þar sem íhlutir eru sameinaðir í einföldum ferlum án þess að framleiðsluaðgerðir séu nauðsynlekir inniheldur [!INCLUDE[d365fin](includes/d365fin_md.md)] eiginleika til að setja saman vörur sem samþættast með fyrirliggjandi eiginleikum, t.d. sölu, áætlunum, frátektum og vöruhúsaaðgerðum.  
@@ -45,6 +45,8 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Afturkalla bókaða samsetningarpöntun, til dæmis ef pöntunin var bókuð með mistökum sem þarf að leiðrétta.|[Afturkalla samsetningarbókun](assembly-how-to-undo-assembly-posting.md)|
 |Nánar um muninn á samsetningaruppskriftum og framleiðsluuppskriftum og viðeigandi vinnslumismun.|[Vinna með uppskriftir](inventory-how-work-BOMs.md)|
 |Nánar um hvernig samsetningarnotkun og frálag eru meðhöndluð við bókun samsetningarpantana og hvernig afleiddur vörukostnaður og forðakostnaður eru unnir og dreift á fjárhag.|[Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)|  
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  

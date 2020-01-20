@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: d2f7376909b2627c61456c9d7a8e9c1a81d20427
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c5aacb325eec2a8679aed845c496744e05535e30
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306173"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953732"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Setja upp annan skýrslugjaldmiðil
 Þar sem fyrirtæki starfa að auknum mæli í mörgum löndum/svæðum verður æ mikilvægara fyrir þau að geta skoðað eða skráð fjárhagsgögn í fleiri en einum gjaldmiðli.
@@ -64,7 +64,7 @@ Til að setja upp annan skýrslugjaldmiðil, verður þú að fylgja þessum skr
 Það verður að tilgreina hvernig á að leiðrétta upphæðir í fjárhag fyrir gengissveiflur milli SGM og hins skýrslugjaldmiðilsins fyrir hvern fjárhagsreikning.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Til að tilgreina aðferð gengisleiðréttingar fyrir alla fjárhagsreikninga  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókhaldslykill** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Bókhaldslykill** skal velja viðeigandi lykil og síðan velja aðgerðina **Breyta**.  
 3. Á síðunni **Fjárhagsspjald** skal velja viðeigandi aðferð í reitnum **Gengisleiðrétting**.  
 
@@ -81,7 +81,7 @@ Til að setja upp annan skýrslugjaldmiðil, verður þú að fylgja þessum skr
 4.  Síðunni **Fjárhagsspjald** lokað.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Tilgreina aðferð fyrir gengisleiðréttingu í VSK-færslum  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning fjárhags** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Fjárhagsgrunnur** skal velja viðeigandi aðferð í reitnum **VSK-gengisleiðrétting**.  
 3. Ef bókað er í öðrum skýrslugjaldmiðli má tilgreina í reitnum **VSK-gengisleiðrétting** hvernig þeir reikningar sem stofnaðir voru fyrir bókun VSK á síðunni **VSK-bókunargrunnur** eru leiðréttir fyrir gengissveiflur milli SGM og annars skýrslugjaldmiðils.  
 
@@ -96,7 +96,7 @@ Til að setja upp annan skýrslugjaldmiðil, verður þú að fylgja þessum skr
     |**Leiðrétta upphæð annars gjaldmiðils**|Annar skýrslugjaldmiðill er leiðréttur samkvæmt öllum gengishagnaði eða tapi. Gengishagnaður eða gengistap er bókað á fjárhagsreikninginn í reitinn **Upphæð annars gjaldmiðils** og á þá reikninga sem voru tilgreindir fyrir hagnað eða tap í reitunum **Reikningur orðins fjárh. hagnaðar** og **Reikningur orðins fjárh. taps** á síðunni **Gjaldmiðlar**.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Virkja annan skýrslugjaldmiðil  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning fjárhags** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Fjárhagsgrunnur** skal velja reitinn **Annar skýrslugjaldmiðill** til að velja annan skýrslugjaldmiðil sem á að nota.  
 3. Þegar farið er úr reitnum [!INCLUDE[d365fin](includes/d365fin_md.md)] birtast staðfestingarskilaboð sem lýsa því hvað gerist þegar annar skýrslugjaldmiðill er virkjaður.  
 4. Velja hnappinn **Já** til að staðfesta að virkja eigi gjaldmiðilinn.  
@@ -120,6 +120,8 @@ Einnig eru allar síðari færslur af sömu gerð skráðar bæði í SGM og ö�
 
 > [!NOTE]  
 >  Reiturinn **Annar skýrslugjaldmiðill** verður aðeins virkur eftir að valinn hefur verið hnappurinn **Í lagi** í keyrslunni **Leiðrétta annan skýrslugjaldmiðil**.  
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppfæra gengi](finance-how-update-currencies.md)  

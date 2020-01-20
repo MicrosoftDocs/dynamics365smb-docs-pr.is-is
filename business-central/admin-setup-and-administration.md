@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/07/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: a23af49140b683c5383287b3057f024644c19133
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 3388e30168e6f0da0dfee2b6dcd7e70cb7a62eac
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808866"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953564"
 ---
 # <a name="administration"></a>Stjórnun
 Almenn stjórnunarverk eru yfirleitt framkvæmd af einu hlutverki innan fyrirtækisins. Umfang þessara verka getur byggst á stærð fyrirtækisins og starfsábyrgð stjórnandans. Þessi verk geta falið í sér umsjón með gagnagrunnssamstillingu verkraða og póstraða, uppsetningu notenda og sérstillingu viðmóts.  
@@ -33,7 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Skilgreinið hverjir geta skráð sig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að búa til notendur í Microsoft 365 stjórnendamiðstöð samkvæmt vöruleyfum.|[Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)| 
+|Skilgreinið hverjir geta skráð sig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að búa til notendur í Microsoft 365 stjórnendamiðstöð samkvæmt vöruleyfum.|[Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)|
 |Úthluta heimildum til notendur, breyta heimildasöfnum og hópa notendur saman til að auðvelda heimildastjórnun.|[Úthluta leyfi til notenda og hópa](ui-how-users-permissions.md)|
 |Bæta við notendum, meðhöndla heimildir og aðgang að gögnum, úthluta hlutverkum.|[Vinna með forstillingar](admin-users-profiles-roles.md)|
 |Flokka gagnatrúnað fyrir reiti þannig að þú getir svarað beiðnum frá skráðum aðilum sem tengjast persónuupplýsingum þeirra.|[Flokkun gagnatrúnaðar](admin-classifying-data-sensitivity.md)|
@@ -47,6 +47,8 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Hægt er að dulrita gögn á [!INCLUDE[d365fin](includes/d365fin_md.md)] netþjóninum með því að stofna nýjan dulritunarlykil eða flytja inn fyrirliggjandi lykil sem virkjaður er á netþjóni.|[Stjórnun gagnadulritunar](admin-manage-data-encryption.md)|
 |Tengdu Dynamics 365 Sales við [!INCLUDE[d365fin](includes/d365fin_md.md)] til að fá hnökralausa samþættingu milli viðskiptavinatengsla og úrvinnslu pantana í heildarferlinu.|[Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Breyta hvaða reiti og aðgerðir eru sýndar í notandaviðmótinu til að passa viðskiptaferlum fyrirtækisins og víkka út lausnina með forritum.|[Sérstillir [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsdeploy-configure-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptavirkni](across-business-functionality.md)  

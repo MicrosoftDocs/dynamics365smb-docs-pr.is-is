@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 12/03/2019
+ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1d0b7b7363df88e52631b4ba6e2f495be13f7397
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896158"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943234"
 ---
 # <a name="create-users-according-to-licenses"></a>Búa til notendur samkvæmt leyfum
 Hér á eftir er lýst hvernig þú sem stjórnandi býrð til notendur og skilgreinir hverjir geta skráð sig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] og hvaða grundvallarréttindi mismunandi notendagerðir eru með samkvæmt leyfum.
@@ -83,6 +83,45 @@ Ef þú breytir notandanum í Office 365 eftirá og þarft að samstilla breytin
 |Uppfærðu notandafærslu í samræmi við raunverulegar upplýsingar í Office 365: Staða, fullt nafn, netfang tengiliðs, sannvottunarpóstur.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
 |Samstilltu notendaáskriftir (leyfi) með leyfum og hlutverkum sem eru úthlutuð í Office 365.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
 |Bættu notandanum við notendaflokka í samræmi við notendaáskriftir. Afturkalla SUPER heimildasamstæðu. Velja þarf a.m.k. eitt SUPER Ekki afturkalla frá [kerfisstjóra](/dynamics365/business-central/dev-itpro/administration/tenant-administration).)<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Skrifa yfir: Fjarlægðu notandann úr öðrum hópum. Fjarlægja heimildasamstæður á notendur handvirkt.|**X**<br /><br />Bæta við: Haltu núverandi aðild í notendaflokkunum og úthlutaðu heimildasamstæðunum óbreyttum. Aðeins bæta notanda við hópa ef þörf krefur.|
+
+## <a name="the-device-license"></a>Leyfi tækis
+Með Dynamics 365 Business Central tækjaleyfinu geta margir notendur notað tæki sem hefur leyfi samkvæmt tækjaleyfinu til að reka tæki á sölustað, tæki í verslun eða tæki í vöruhúsi. Frekari upplýsingar er að finna í [Microsoft Dynamics 365 Business Central leyfishandbók](https://aka.ms/BusinessCentralLicensing).
+
+Tækjaleyfið er innleitt samkvæmt líkani samhliða notenda. Þegar keyptur er X fjöldi af tækjaleyfum, geta allt að X fjöldi notenda frá tilgreindum hóp sem kallast Dynamics 365 Business Central tækjanotendur* skráð sig inn samtímis.
+
+Stjórnandi Office 365 fyrirtækisins eða samstarfsaðili Microsoft ætti að stofna tilgreindan tækjahóp og bæta tækjanotendum við sem meðlimum þess hóps. Þetta geta hann gert í [Microsoft 365 stjórnendamiðstöðinni](https://admin.microsoft.com/) eða í [Azure-gáttinni](https://portal.azure.com/).
+
+### <a name="device-user-limitations"></a>Takmarkanir tækjanotanda
+Notendur með tækjaleyfið geta ekki framkvæmt eftirfarandi verk í [!INCLUDE[d365fin](includes/d365fin_md.md)]:
+
+-   Setja upp vinnslur sem á að keyra sem áætluð verk í verkröðinni. Notendur tækis eru samhliða notendur og því er ekki hægt að tryggja að viðkomandi notandi sé staddur í kerfinu þegar verk er keyrt, sem krafist er.
+
+-   Tækjanotandi getur ekki verið fyrsti notandinn sem skráir sig inn. Notandi af gerðinni stjórnandi, fullur notandi eða ytri endurskoðandi verður að vera sá fyrsti sem skráir sig inn svo hann geti sett upp [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar eru í [Stjórnendur](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+
+### <a name="to-create-a-dynamics-365-business-central-device-users-group"></a>Að stofna Dynamics 365 Business Central hóp tækjanotenda
+1.  Í stjórnendamiðstöð Microsoft 365 skal fara á síðuna **Hópar**.
+2.  Velja skal aðgerðina **Bæta við hópi**.
+3.  Á síðunni **Velja gerð hóps** skal velja aðgerðina **Öryggi** og síðan velja aðgerðina **Bæta við**.
+4.  Á síðunni **Grunnur** skal slá inn *Dynamics 365 Business Central tækjanotendur* sem heiti hópsins.
+
+    > [!Note]
+    > Heiti flokksins verður að vera stafað nákvæmlega eins og að ofan, einnig í uppsetningu sem ekki er á ensku.
+5. Velja hnappinn **Loka**.
+
+> [!NOTE]
+> Einnig er hægt að stofna hóp af gerðinni Office 365. Frekari upplýsingar er að finna í [Bera saman hópa](https://docs.microsoft.com/office365/admin/create-groups/compare-groups)
+
+### <a name="to-add-members-to-the-group"></a>Bæta meðlimum við hópinn
+1.  Í stjórnendamiðstöð Microsoft 365 skal uppfæra síðuna **Hópar** svo að nýju hóparnir birtist.
+2.  Velja skal hópinn **Dynamics 365 Business Central tækjanotendur** og síðan aðgerðina **Skoða alla og hafa umsjón með meðlimum**.
+3.  Veljið aðgerðina **Bæta við meðlimum**.
+4.  Velja skal notendurna sem á að bæta við og síðan velja hnappinn **Vista**.
+5.  Veljið hnappinn **Loka** þrisvar sinnum.
+
+Hægt er að bæta við eins mörgum notendum við flokkinn Dynamics 365 Business Central og þörf er á. Fjöldi tækja sem notendur geta skráð sig inn á samtímis fer eftir fjölda keyptra tækjaleyfa.
+
+> [!NOTE]
+> Ekki þarf að úthluta [!INCLUDE[d365fin](includes/d365fin_md.md)] -leyfi til notenda sem eru meðlimir í hópi Dynamics 365 Business Central tækisnotenda.
 
 ## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Umsjón með notendum og leyfum í uppsetningu innanhúss
 Fyrir uppsetningu á staðnum er fjöldi notenda með leyfi tilgreindur í leyfisskránni (.flf). Þegar stjórnandi eða Microsoft-samstarfsaðili hleður upp leyfisskránni getur stjórnandinn tilgreint hvaða notendur geta skráð sig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)].

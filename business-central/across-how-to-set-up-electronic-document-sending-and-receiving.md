@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f5727e241d40e362e17d727d924a829f9b0c4ae
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 94f3a735887d4af23b3ec27ffb04e874dbc1924c
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305237"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952915"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Setja upp sendingu og móttöku rafrænna skjala
 Annar valkostur við að senda skrár sem viðhengi í tölvupósti er að senda og taka á móti viðskiptaskjölum á rafrænan hátt. Með rafrænu skjali er átt við staðlaða og \-samþykkta skrá sem stendur fyrir skrárfærslu, s.s. sölureikning sem hægt er að taka á móti og umbreyta í innkaupareikning í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Skipti rafrænna skjala á milli tveggja viðskiptafélaga er framkvæmd af ytri veitanda skjalaskiptaþjónustu. Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu og móttöku rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Stór þjónustuveitandi skjalaskiptaþjónustu er forstilltur og tilbúinn til uppsetningar fyrir fyrirtækið.  
@@ -135,6 +135,8 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
     |Svæði|Description|  
     |---------------------------------|---------------------------------------|  
     |**Fjárhagsreikningur fyrir línur sem eru ekki vörulínur**|Tilgreinir fjárhagsreikning sem er sjálfkrafa settur inn í innkaupalínu sem eru stofnaðar úr rafrænum skjölum þegar skjalalína skjals á innleið inniheldur ekki auðkennanlegt atriði. Allar línur skjala á innleið sem hafa ekki GTIN eða vörunúmer lánardrottins verður breytt í innkaupalína af gerðinni **Fjárhagsreikningur** og **Nr.** reiturinn í innkaupalínunni mun innihalda reikning sem valinn var í reitnum **Fjárhagsreikningur fyrir línur sem eru ekki vörulínur**.<br /><br /> Ef reiturinn **Fjárhagsreikningur fyrir línur sem eru ekki vörulínur** er hafður auður og skjal á innleið hefur línur án auðkennanlegra atriða verður innkaupaskjal ekki stofnað. Villuboð munu óska eftir því að fyllt sé í reitinn **Fjárhagsreikningur fyrir línur sem eru ekki vörulínur** áður en hægt er að ljúka verkinu.|  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig  
 [Rafræn gagnaskipti](across-data-exchange.md)   

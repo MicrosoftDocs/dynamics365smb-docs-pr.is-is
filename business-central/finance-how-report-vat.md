@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4560de9740d0b4918d685fb0278b905baf1a8ecd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e7671e54f95a48322df186b5aed5a81552f9f91f
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306231"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953780"
 ---
-# <a name="report-vat-to-a-tax-authority"></a>Senda VSK skýrslu inn til skattayfirvalda
+# <a name="report-vat-to-tax-authorities"></a>Senda VSK skýrslu inn til skattayfirvalda
 Þetta efnisatriði lýsir skýrslunum í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem þú getur notað til að senda inn upplýsingar um virðisaukaskatt (VSK) upphæðir fyrir sölu og innkaup til skattayfirvalda á þínu svæði.
 
 Hægt er að nota eftirfarandi skýrslur :
@@ -38,7 +38,7 @@ Skýrslan inniheldur eina línu fyrir hverja tegund af viðskiptum við viðskip
 
 B2B vörur og þjónusta tiltaka hvort þú seldir vörur eða þjónustu, og sért undir stjórn stillingarinnar **ESB Þjónusta** í uppsetningu bókunar á VSK. B2B Þríhliða vörur gefa það til kynna hvort þú stundaðir viðskipti við þriðja aðila og sért undir stjórn stillingarinnar **ESB þríhliða viðskipti** í söluskjölum, eins og sölupantanir, reikningar, kreditreikningar osfrv.  
 
-Eftir að skattayfirvöld fara yfir skýrsluna, munu þau senda tengilið fyrirtækisins tölvupóst. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er tengiliðurinn tiltekinn á síðunni **Upplýsingar um fyrirtækið**. Áður en þú sendir inn skýrsluna skaltu vera viss um að tengiliður hafi verið valinn. 
+Eftir að skattayfirvöld fara yfir skýrsluna, munu þau senda tengilið fyrirtækisins tölvupóst. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er tengiliðurinn tiltekinn á síðunni **Upplýsingar um fyrirtækið**. Áður en þú sendir inn skýrsluna skaltu vera viss um að tengiliður hafi verið valinn.
 
 ## <a name="about-the-vat-return-report"></a>Um skýrsluna um VSK skil
 Nota þessa skýrslu til að skila inn VSK fyrir sölu- og innkaupaskjöl, eins og innkaupa- og sölupantanir, reikninga og kreditreikninga. Upplýsingarnar koma fram með sama sniði í skýrslunni og á skýrslublaði frá tolla- og skattayfirvöldum.  
@@ -62,7 +62,7 @@ Til að skila VSK til skattayfirvalda á rafrænu formi, þarf að tengja [!INCL
     >   Ráðlegt er að er að prófa tenginguna. Til að gera það skal velja **Prufustilling** gátreitinn, svo undirbúa og senda inn VSK skýrslurnar eins og lýst er í _Að undirbúa og senda inn VSK skýrslu_ hlutanum. Þegar þjónustan er á Prufustillingu, prófar hún hvort skattayfirvöld geti tekið á móti skýrslunni, og staðan á skýrslunni mun gefa til kynna hvort prufuinnsendingin hafi heppnast. Mikilvægt er að muna að þetta er ekki raunveruleg innsending. Ef senda á skýrsluna inn í raun, þarf að að hreinsa gátreitinn **Prufustilling** og endurtaka innsendingarferlið.
 
 ## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Að setja upp VSK-skýrslur í [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning VSK-skýrsla** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-skýrsluuppsetning** og veldu síðan tengda tengilinn.  
 2. Ef þú vilt láta notendur breyta og endursenda skýrsluna, veldu þá gátreitinn **Breyta innsendum skýrslum**.  
 3. Númeraröðin sem á að nota fyrir hverja skýrslu er valin.  
 
@@ -110,6 +110,8 @@ Eftirfarandi tafla lýsir kóðaeiningunum sem þú þarft að stofna fyrir ský
 
 > [!Note]
 > Þegar stofnaðar eru kóðaeiningar fyrir skýrsluna skal veita gildinu athygli í reitnum **VSK skýrsla útgáfa**. Þessi reitur verður að endurspegla útgáfuna af skýrslunni sem er eða var send til skattayfirvalda. Þú gætir til dæmis fært inn **2017** í reitinn til að gefa til kynna að skýrslan samræmist þeim kröfum sem voru í gildi það ár. Til að finna núgildandi útgáfu skal hafa samband við skattayfirvöld.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig .
 [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)  

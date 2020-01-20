@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: e9543d9fc361f2948907bc0e84d37dd870139cd8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 8571e0cbaa7104d6db8fc29ca11530a2c42464de
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553867"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953492"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Taka við og umbreyta rafræn skjölum
 Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Til að taka á móti reikningur frá lánardrottinn sem rafrænu PEPPOL-skjali er skjalið unnið á síðunni Fylgiskjal á innleið til að breyta því í innkaupareikning eða almenna færslubókarlínu í [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -33,7 +33,7 @@ Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu raf
 > [!NOTE]  
 >  Þegar rafrænum skjölum sem koma úr OCR-þjónustu er breytt í skjöl eða færslubókarlínur í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður mörgum línum í upprunaskjalinu safnað saman í eina línu. Staka línan verður af gerðinni fjárhagsreikningur og **Lýsing** og **Nr.** (fjárhagsreiknings) reitir verða auðir. Gildið í reitnum **Upphæð** verður heildarupphæð allra lína í upprunaskjalinu, fyrir utan°virðisaukaskatt.  
 >   
->  Til að vera viss um að reitirnir **Lýsing** og **nr.**  hafi verið fylltir út geturðu valið hnappinn **Varpa texta á reikning** á síðunni **Fylgiskjöl á innleið** til að ákvarða að tilteknum reikningstexta sé alltaf varpað á tiltekinn debit- eða kreditreikning í fjárhagnum. Í framhaldinu verður reiturinn **Lýsing** í skjali eða færslubókarlínum sem stofnaður er úr rafrænu skjali fyrir þann lánardrottinn eða viðskiptamann fylltur út með viðkomandi texta og fjárhagsreikningurinn **Nr.** reiturinn með lyklinum.  
+>  Til að vera viss um að reitirnir **Lýsing** og **nr.** hafi verið fylltir út geturðu valið hnappinn **Varpa texta á reikning** á síðunni **Fylgiskjöl á innleið** til að ákvarða að tilteknum reikningstexta sé alltaf varpað á tiltekinn debit- eða kreditreikning í fjárhagnum. Í framhaldinu verður reiturinn **Lýsing** í skjali eða færslubókarlínum sem stofnaður er úr rafrænu skjali fyrir þann lánardrottinn eða viðskiptamann fylltur út með viðkomandi texta og fjárhagsreikningurinn **Nr.** reiturinn með lyklinum.  
 >   
 >  Í stað þess að varpa á fjárhagsreikning er líka hægt að varpa á bankareikning. Þetta er hagkvæmt, til dæmis, fyrir rafræn skjöl tengd útgjöldum sem eru nú þegar greitt þegar þú vilt stofna færslubókarlíni sem er tilbúin til að bóka á bankareikning.  
 
@@ -56,6 +56,8 @@ Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu raf
      Innkaupareikningur verður stofnaður í [!INCLUDE[d365fin](includes/d365fin_md.md)] og byggist á upplýsingar í rafrænt skjal.  
 
      Allar villur við villuleit, sem tengjast gjarnan gölluðum eða skemmdum gögnum í [!INCLUDE[d365fin](includes/d365fin_md.md)], verða sýndar á flýtiflipanum **Villuboð**.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig  
 [Stjórna skuldum](payables-manage-payables.md)  

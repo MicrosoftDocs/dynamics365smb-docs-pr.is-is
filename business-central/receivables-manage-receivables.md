@@ -10,27 +10,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba5214c357e3682a182ce91f3846aa22120af484
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 387b8269e5da978c25c1c5436f5a737fa055a78c
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312269"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954156"
 ---
 # <a name="managing-receivables"></a>Stjórnun útistandandi reikninga
 Reglulegt skref í fjárhag er að afstemma bankareikninga, sem merkir að þú þarft að jafna mótteknar greiðslur á viðskiptamann eða lánardrottnafærslur til að loka sölureikningum og innkaupakreditreikningum sem greiddum.
 
 Á meðan flestir viðskiptavinir í B2B umhverfi greiða einhvern tímann eftir afhendingu, bókaður sölureikningur er þá skilinn eftir opinn sem viðskiptakröfudeildin lokar (jafnar) þegar greiðsla berst, er hægt að greiða suma sölureikninga strax, til dæmis með PayPal. Slíkir reikningar eru strax settir sem greiddir þegar þeir eru bókaðir, þar af leiðandi birtast þeir ekki sem greiðslur sem þarf að vinna úr í viðskiptakröfum. Nánari upplýsingar má til dæmis finna í [Sölureikningar](sales-how-invoice-sales.md).  
 
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)] einn af hraðustu leiðum til að skrá greiðslur af síðunni **Greiðsluafstemmingarbók** með því að flytja inn bankareikningsskrá eða fæða. Greiðslur eru beittar til að opna viðskiptareikninga eða söluaðilum fyrir aðalbókanir á grundvelli gagna sem passa á milli greiðslu texta og færsluupplýsingar. Þú getur skoðað og breytt samsvörununum áður en þú sendir dagbókina og lokaðu færslureikningi bankareiknings fyrir færsluskrá þegar þú sendir dagbókina. Bankareikningurinn er sáttur þegar allar greiðslur eru sóttar.
+Í [!INCLUDE[d365fin](includes/d365fin_md.md)], ein sneggsta leiðin til að skrá greiðslur er á síðunni **Greiðsluafstemmingarbók** með því að flytja inn bankayfirlitsskrá eða straum. Greiðslur eru beittar til að opna viðskiptareikninga eða söluaðilum fyrir aðalbókanir á grundvelli gagna sem passa á milli greiðslu texta og færsluupplýsingar. Þú getur skoðað og breytt samsvörununum áður en þú sendir dagbókina og lokaðu færslureikningi bankareiknings fyrir færsluskrá þegar þú sendir dagbókina. Bankareikningurinn er sáttur þegar allar greiðslur eru sóttar.
 
 Aðrar síður eru til staðar þar sem þú getur annaðhvort jafnað greiðslur eða afstemmt bankareikninga:
 
-* Síðan **Afstemming bankareikninga** þar sem þú afstemmir bankareikninga með því að samsvara innfluttar bankayfirlitslínur við færslur í höfuðbók bankareiknings í kerfinu þínu. Hér geturðu líka afstemmt ávísanagreiðslur. Frekari upplýsingar í [Afstemma Bankareikninga Sérstaklega](bank-how-reconcile-bank-accounts-separately.md). Hér getur þú ekki jafnað greiðslur.
+* Síðan **Afstemming bankareikninga** þar sem þú afstemmir bankareikninga með því að samsvara innfluttar bankayfirlitslínur við færslur í höfuðbók bankareiknings í kerfinu þínu. Hér geturðu líka afstemmt ávísanagreiðslur. Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md). Hér getur þú ekki jafnað greiðslur.
 * Síðan **Skráning greiðslna**, þar sem þú getur jafnað greiðslur handvirkt sem voru greiddar í reiðufé, með ávísun eða bankafærslu gegn mynduðum lista af ógreiddum söluskjölum. Athugaðu að þessi virkni er aðeins í boði fyrir söluskrá. Hér getur þú ekki jafnað greiðslur á útleið og þú getur ekki afstemmt bankareikninga.
-* **Inngreiðslubók**, þar sem þú sendir handvirkt inn kvittanir til viðkomandi aðalbókar, viðskiptavina eða annan reikning með því að slá inn greiðslulínu. Þú getur annaðhvort sótt um kvittun eða endurgreiðslu í eina eða fleiri opna færslur áður en þú sendir inn kvittunarskýrslu dagbókina eða frá aðalbókarfærslunni. Hér getur þú ekki afstemmt bankareikninga.  
+* **Inngreiðslubók**, þar sem þú sendir handvirkt inn kvittanir til viðkomandi aðalbókar, viðskiptavina eða annan reikning með því að slá inn greiðslulínu. Þú getur annaðhvort sótt um kvittun eða endurgreiðslu í eina eða fleiri opna færslur áður en þú sendir inn kvittunarskýrslu dagbókina eða frá aðalbókarfærslunni. Hér getur þú ekki afstemmt bankareikninga.
+
+Síðurnar **Greiðsluafstemmingarbók** og **Afstemming bankareiknings** nota sjálfvirka jöfnunarreglu sem hægt er að setja upp á síðunni **Greiðslujöfnunarreglur**. Frekari upplýsingar eru í [Setja upp reglur fyrir sjálfvirka jöfnun á greiðslum](receivables-how-set-up-payment-application-rules.md).
 
 Aðrir þættir við stjórnun á viðskiptakröfum felar í sér að rukka útistandandi stöður, þ.á.m. vaxtareikninga og innheimtubréfa, og að setja upp bankareikninga svo hægt sé að draga greiðslur viðskiptavinar frá reikningi hans sjálfvirkt.
 
@@ -47,6 +49,9 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Vertu viss um kostnað afgreiddra vara, með því að úthluta viðbótar vörukostnaði, eins og farmur, efnisleg meðhöndlun, tryggingar og flutningar sem fellur til eftir sölu.|[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)|
 |Hægt er að setja upp vikmörk þannig að kerfið loki reikningi jafnvel þótt greiðsla, að meðteknum afslætti, nái ekki upp í fulla upphæð á reikningnum.|[Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Spá fyrir þegar greiðslur berast seint fyrir söluskjöl. | [Viðbót greiðsludráttarspár](ui-extensions-late-payment-prediction.md) |
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-customer-vendor-payments-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Stjórna skuldum](payables-manage-payables.md)  

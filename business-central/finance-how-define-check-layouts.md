@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 137d44db160d0f1e832cc344a779e6bf01a64bbd
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808578"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911135"
 ---
 # <a name="select-a-check-layout"></a>Velja útlit ávísunar
 Hægt er að hanna tékka til þess að uppfylla staðla sem staðaryfirvöld setja. Hægt er að prenta tékkamyndir á Enska, frönsku eða Spænsku.
@@ -41,7 +41,7 @@ Til að breyta einum af þessum sjálfgefnu útlitum ávísunar skal annaðhvort
 ## <a name="see-also"></a>Sjá einnig
 [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
-[Stjórnun bankareikninga](bank-manage-bank-accounts.md)   
+[Afstemming bankareikninga](bank-manage-bank-accounts.md)   
 [Að klára Ferli í lok tímabila](year-how-complete-period-end-processes.md)  
 [Unnið með [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)

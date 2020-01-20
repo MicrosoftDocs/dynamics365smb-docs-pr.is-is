@@ -5,6 +5,15 @@
 ## [Lágmarkskröfur](product-requirements.md)
 ## [Algengar spurningar](across-faq.md)
 ## [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)
+## [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)
+## [Yfirlit yfir Viðskiptavirkni](across-business-functionality.md)
+## [Aðgangur þinn að snjallskýi með Business Central](about-intelligent-cloud.md)
+## [Skoðaðu myndbandasafnið okkar](across-videos.md)
+## Prufuútgáfa og áskrift
+### [Yfirlit](across-preview.md)
+### [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md)
+### [Framlenging á prufuútgáfunni](admin-extend-trial.md)
+### [Segja upp áskrift að eða fjarlægja Business Central](admin-cancel.md)
 ## Finna þjálfun
 ### [Námskrá](readiness/readiness-learning-catalog.md)
 ### [Námskrá fyrir stjórnanda í fyrirtæki](readiness/readiness-learning-bus-decision-makers.md)
@@ -13,14 +22,6 @@
 ### [Námskrá kerfisráðgjafa](readiness/readiness-learning-functional-consultants.md)
 ### [Námskrá fyrir forsölu](readiness/readiness-learning-presales.md)
 ### [Námskrá sölu](readiness/readiness-learning-sales.md)
-
-## [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)
-## [Yfirlit yfir Viðskiptavirkni](across-business-functionality.md)
-## [Prufuútgáfa og áskrift](across-preview.md)
-### [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md)
-### [Segja upp áskrift að eða fjarlægja Business Central](admin-cancel.md)
-## [Aðgangur þinn að snjallskýi með Business Central](about-intelligent-cloud.md)
-## [Skoðaðu myndbandasafnið okkar](across-videos.md)
 ## Endursöluaðilar og samstarfsaðilar
 ### [Gerast endursöluaðili](product-sell.md)
 ### [Framlenging á Business Central](about-develop-extensions.md)
@@ -226,7 +227,7 @@
 ## Notkun Power Automate með Business Central
 ### [Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)
 ## Notkun Power Apps með Business Central
-### [Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps.](across-how-use-financials-data-source-powerapps.md)
+### [Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps](across-how-use-financials-data-source-powerapps.md)
 ## [Skipta úr QuickBooks App í Business Central](across-quickbooks-to-business-edition.md)
 ## [Nota Business Central á fartækinu þínu](install-mobile-app.md)
 ## [Magnreikningsfærsla fyrir Microsoft Bookings](finance-bookings.md)
@@ -314,7 +315,7 @@
 #### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Uppfæra gengi](finance-how-update-currencies.md)
 #### [Reitarvörpum við innflutning SEPA CAMT skráa](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Reitarvörpun við útflutning greiðsluskrá með umskráningarþjónusta fyrir bankagögn](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Reitavörpun fyrir AMC Banking 365 Fundamentals viðbótina](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Stjórnun
 ## [Yfirlit](admin-setup-and-administration.md)
@@ -369,7 +370,7 @@
 ### [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Setja upp Dynamics 365 Sales tengingu](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Samstilling á Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
-### [Breyta töfluvörpunum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Vörpun á töflum og reitum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Samstilla töfluvarpanir handvirkt](admin-manual-synchronization-of-table-mappings.md)
 ### [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Úrræðaleit vegna samstillingarvillna](admin-troubleshoot-sales-synchronization.md)
@@ -384,6 +385,7 @@
 #### [Endurskoða eða jafna greiðslur handvirkt eftir sjálfvirka jöfnun](receivables-how-review-apply-payments-auto-application.md)
 #### [Afstemma greiðslur sem ekki er hægt að nota sjálfkrafa](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+#### [Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum](receivables-how-set-up-payment-application-rules.md)
 ### [Afstemma greiðslur viðskiptamanna handvirkt úr lista yfir ógreidd söluskjöl](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Afstemma greiðslur viðskiptavinar með inngreiðslubók eða úr færslum í viðskiptamannabók](receivables-how-apply-sales-transactions-manually.md)
 ### [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)
@@ -415,7 +417,7 @@
 ### [Afstemma greiðslur lánardrottins með greiðslubók eða úr færslum í lánardrottnabók](payables-how-apply-purchase-transactions-manually.md)
 ### [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)
 ### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
-### [Loka á viðskiptamenn](receivables-how-block-customers.md)
+### [Loka á lánardrottna](payables-how-block-vendors.md)
 ### [Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)
 ### [Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Viðbót greiðsludráttarspár](ui-extensions-late-payment-prediction.md)
@@ -426,11 +428,10 @@
 ### [Stofna fyrirframgreiðslureikninga](finance-how-to-create-prepayment-invoices.md)
 ### [Leiðrétta fyrirframgreiðslur](finance-how-to-correct-prepayments.md)
 
-## Stjórnun bankareikninga
+## Afstemming bankareikninga
 ### [Yfirlit](bank-manage-bank-accounts.md)
+### [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md)
 ### [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-### [Afstemma bankareikninga hvern fyrir sig](bank-how-reconcile-bank-accounts-separately.md)  
-### [Flytja bankainnstæður](bank-how-transfer-bank-funds.md)
 
 ## Vinna með millifyrirtækjafærslur
 ### [Yfirlit](intercompany-manage.md)
@@ -473,7 +474,7 @@
 ### [Lokunartímabil](year-how-complete-period-end-processes.md)
 ### [Uppfæra gengi](finance-how-update-currencies.md)
 ### [Úthluta kostnaði og tekjum](year-allocate-costs-income.md)
-### [Tilkynna virðisaukaskatt til skattyfirvalda](finance-how-report-vat.md)
+### [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)
 ### [Undirbúningur skýrslna fyrir lokun](year-prepare-preclose-reports.md)
 ### [Bókum lokað](year-close-books.md)
 ### [Undirbúningur lokunaryfirlits](year-prepare-close-statement.md)
@@ -499,6 +500,7 @@
 ## [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)
 ## [Kynning: Gera sjóðstreymisspár með því að nota fjárhagsskemu](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
+## [Flytja bankainnstæður](bank-how-transfer-bank-funds.md)
 ## [Upplifun endurskoðanda í Business Central](finance-accounting.md)
 
 # Viðskiptaupplýsingar
@@ -924,10 +926,29 @@
 
 ## Tékkland
 ### [Yfirlit](LocalFunctionality/Czech/czech-local-functionality.md)
+### Core-fjármál  
+#### [Fjármál](LocalFunctionality/Czech/finance.md)
+#### [Aðgerðir árslokunar](LocalFunctionality/Czech/year-close-operations.md)
+#### [Jöfnun fjárhagsfærslna](LocalFunctionality/Czech/general-ledger-entries-application.md)
+#### [Uppfærsla gengis](LocalFunctionality/Czech/exchange-rate-update.md)
 ### VSK
+#### [Fjármál - VSK](LocalFunctionality/Czech/finance-vat.md)
 #### [VSK-eftirlitsskýrsla](LocalFunctionality/Czech/vat-control-report.md)
+### Eignir
+#### [Eignir](LocalFunctionality/Czech/fixed-assets.md)
 ### Bankaþjónusta og greiðslur
+#### [Bankaeiginleiki](LocalFunctionality/Czech/bank-feature.md)
+#### [Stjórnun afgreiðslukassa](LocalFunctionality/Czech/cash-desk-management.md)
 #### [Skráning sölu (EET)](LocalFunctionality/Czech/eet.md)
+#### [Ítarlegt](LocalFunctionality/Czech/advances.md)
+### Viðskiptaskuldir og útistandandi
+#### [Viðskiptaskuldir og útistandandi](LocalFunctionality/Czech/receivables-payables.md)
+#### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+### Birgðir
+#### [Birgðir](LocalFunctionality/Czech/inventory.md)
+### Almennt
+#### [Aukin notandastýring](LocalFunctionality/Czech/general.md)
+#### [Bestu venjur](LocalFunctionality/Czech/best-practices.md)
 
 ## Danmörk
 ### [Yfirlit](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1092,6 +1113,7 @@
 ## Mexíkó
 ### [Yfirlit](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Skattur
+#### [Setja upp og mynda DIOT-skýrslur](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [Mexíkóskur virðisaukaskattur](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Setja upp neysluskatt og innkaupaskatt](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Setja upp óinnleystan virðisaukaskatt og greiðsluafslátt sölu](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1423,7 +1445,6 @@
 #### [Viðbótin GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [Setja upp GetAddress.io UK Postcodes viðbótina](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Færa inn ytri fylgiskjalsnúmer](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-#### [Prenta skýrslur með upplýsingum um beinar sölur og innkaup](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## Bandaríkin
 ### [Yfirlit](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

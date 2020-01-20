@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: acdac865286577b30f9fe036cca8a50eb7e143a0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 890a6e87ec25293232f089b68e57a577fec6aa56
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878987"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918167"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Ábendingar og góð ráð: RapidStart Services
 Þegar fyrirtæki eru skilgreind með RapidStart Services, eru nokkur ráð sem hægt er að nýta sér til að hjálpa til við að láta innleiðinguna ganga snurðulaust fyrir sig.  
@@ -30,10 +30,10 @@ Til að hjálpa til við útfyllingu skilgreiningarspurningalista skal íhuga a�
 Mælt er með að nota gagnaflutningsverkfærin sem boðið er upp á til að færa bókarfærslur. Ef keyrsla er notuð til að stofna færslubókarlínur hefur hún takmarkað gildissvið og myndar sjálfgefna reiti í færslubók. Afganginum af færslubókinni þarf svo að ljúka handvirkt.  
 
 ## <a name="migrating-transactions"></a>Flutningur á færslum  
-Mælt er með því að opnunarstöður séu fluttar í skrefum í eftirfarandi röð.  
+Mælt er með því að opnunarstöður séu fluttar í skrefum í eftirfarandi röð. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
 
 1.  Flytja opnunarstöður fjárhags án þess að nota undirhöfuðbók fjárhagslykilsins. Nota tiltekna mótfærslureikninga fyrir upphafsjöfnuð, einn uppsettan fyrir hverja undirhöfuðbók. Setja upp mótfærslureikningana til að virkja beinar bókanir.  
-2.  Flytja opnar færslur í viðskiptamannabók.  
+2.  Flytja opnar færslur í viðskiptamannabók.  <!--work on these-->
 3.  Flytja opnar birgðafærslur.  
 4.  Flytja opnar eignafærslur.  
 

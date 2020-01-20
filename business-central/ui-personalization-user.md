@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f65a4908fee045190229c1423ef61c6c7bed8c7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315109"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953348"
 ---
 # <a name="personalize-your-workspace"></a>Sérstilling verksvæðis
 Þú getur sérstillt vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá.
@@ -37,14 +37,14 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 
 ## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Til að sérstilla síðu með borðanum **Sérstilla**
 1. Opna skal síðuna sem á að sérsníða.
-2. Í efra hægra horninu skaltu velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingartákn fyrir Mitt hlutverk") og velja síðan aðgerðina **Sérstilla**.
+2. Í efra hægra horninu skaltu velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og síðan velja aðgerðina **Sérstilla**.
 
     Borðinn **Sérstillir** birtist efst til að tákna að hægt sé að byrja að gera breytingar.
 
     > [!NOTE]
     > Til að skoða á meðan sérstillingu stendur skal nota Ctrl + Smella á aðgerð þegar hún er auðkennd með bendlinum.
 
-    Ef þú sérð ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás") eða ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") í borðanum, geturðu ekki sérstillt síðuna. Frekari upplýsingar er að finna í [Af hverju er síða læst og því ekki hægt að sérstilla hana](ui-personalization-locked.md).
+    Ef þú sérð ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás") eða ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") á borðanum er ekki hægt að sérstilla síðuna. Frekari upplýsingar er að finna í [Af hverju er síða læst og því ekki hægt að sérstilla hana](ui-personalization-locked.md).
 
 3. Til að bæta við reit skal velja aðgerðina **+ Reitur**.
 4. Á svæðinu **Bæta reit við síðu** skal draga og sleppa reit í æskilega stöðu á síðunni.
@@ -56,7 +56,7 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 
 |Hvað viltu gera|Hvernig á að gera það|Athugasemdir|
 |----|------------|-------|
-|Færðu eitthvað, eins og reit, dálk í lista, reit aðgerð eða hluta|Bentu hvar sem er á það sem þú vilt færa og dragðu það á nýja staðinn. Staðsetningin er auðkennd annaðhvort með þykkri láréttri eða lóðréttri línu.<br /><br />![Get ekki fært hingað tákn](media/personalization-cannot-move-here.png "Sérstillingarsnið - Get ekki fært hingað tákn") gefur til kynna að þú getir ekki fært eininguna yfir á valda staðsetningu.|Hlutar eru undirdeildir eða svæði á síðu sem innihalda hluti eins og marga reiti, aðra síðu, graf eða reiti.<br /><br />Frekari upplýsingar um sérstillingu aðgerðar er að finna í [Sérstilling aðgerða](ui-personalization-user.md#Actions). |
+|Færðu eitthvað, eins og reit, dálk í lista, reit aðgerð eða hluta|Bentu hvar sem er á það sem þú vilt færa og dragðu það á nýja staðinn. Staðsetningin er auðkennd annaðhvort með þykkri láréttri eða lóðréttri línu.<br /><br />![Get ekki fært hingað tákn](media/personalization-cannot-move-here.png "Snið sérstillingar - Geta ekki fært hingað táknið") gefur til kynna að þú getir ekki fært eininguna yfir á valda staðsetningu.|Hlutar eru undirdeildir eða svæði á síðu sem innihalda hluti eins og marga reiti, aðra síðu, graf eða reiti.<br /><br />Frekari upplýsingar um sérstillingu aðgerðar er að finna í [Sérstilling aðgerða](ui-personalization-user.md#Actions). |
 |Feldu eitthvað eins og reit, dálk í lista, reit aðgerð eða hluta.|Veldu örvaoddinn og <b>Fela</b>.|Einingin er skyggð þegar þú ert í sérstilltri stillingu. Ef reiturinn sem þú felur er einnig sýndur í haus flýtiflipa þegar flýtiflipinn er dreginn saman, mun reiturinn ekki birtast þar lengur.|
 |Sýna faldar aðgerðir og reiti.|Til að skoða skyggða (falda) einingu skal velja örvaroddinn velja síðan <b>Sýna</b>.|Falinn eining er aftur sýnileg.|
 |Bæta við reit eða dálki.|Á borðanum <b>Sérstilling</b> er aðgerðin <b>+ Reitur</b> valin.<br /></br><b>Bæta reit á síðu</b> svæðið opnast til hægri. Það birtir reitina sem hægt er að bæta við síðuna.<br /><br />Til að bæta við reit skaltu draga hann af svæðinu þangað sem þú vilt. Staðsetningin er auðkennd annaðhvort með þykkri láréttri eða lóðréttri línu.|Hver síða inniheldur fyrirfram skilgreint safn reita sem hægt er að birta. Notaðu þetta ferli til að bæta við reitum eða dálkum sem hafa ekki verið sýndir áður eða til að sýna reiti sem þú hefur falið.|
@@ -115,6 +115,8 @@ Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
 - Breytingar sem þú gerir munu taka gildi í öllum Mitt hlutverk. Ef þú til dæmis gerir breytingu á listanum Viðskiptavinir þegar Mitt hlutverk er stillt á Viðskiptastjórnandi, munt þú einnig sjá breytinguna á síðunni **Viðskiptamenn** þegar Mitt hlutverk er stillt á Sölupöntunarvinnsla.
 - Breytingar á síðu í svæði taka gildi á síðunni þar sem þær birtast.  
 - Aðeins er hægt að bæta við reitum og dálkum úr fyrirfram skilgreindum lista sem byggir á síðunni. Ekki er hægt að stofna nýja grunnstillingapakka.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  

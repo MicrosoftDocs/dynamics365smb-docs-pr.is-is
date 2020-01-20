@@ -12,17 +12,20 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01799b1881fbcdc6285e84f86f9db88a8c4196a7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 50198afaa8caae9a11a06a25357fa94ad26b0b8f
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312221"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943186"
 ---
 # <a name="make-drop-shipments"></a>Beinar sendingar
 Bein afhending er afhending frá einum af lánardrottnum fyrirtækisins beint til einhvers af viðskiptamönnum fyrirtækisins.
 
 Þegar sölupöntun er merkt sem bein afhending og þú býrð til innkaupapöntun sem tilgreinir viðskiptamanninn í reitnum **Sendist til**, **Heimilisfang viðskiptavinar**, geturðu tengt skjölin tvö saman og þar með gefið lánardrottninum fyrirmæli um að afhenda beint til viðskiptavinar.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM]
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Sölupöntun fyrir beina afhendingu búin til
 Til að Undirbúa bein afhending, er stofnuð sölupöntun fyrir vöru sem venjulega, nema þarf tilgreina í sölulínunni að salan krefst beinnar sendingar.

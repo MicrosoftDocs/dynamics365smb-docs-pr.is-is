@@ -10,22 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 73607d238e31cc42680fae008cfdf0ee143d08f3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879284"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910737"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Uppsetning á tengingu við Dynamics 365 Sales
-Til að samþætta við [!INCLUDE[crm_md](includes/crm_md.md)] þarf að setja upp tengingu á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
+Í þessu efnisatriði er lýst hvernig skal setja upp tengingu milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
+<br><br>  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## <a name="before-you-start"></a>Áður en byrjað er
-Áður en byrjað er að tengja forritin eru nokkrir þættir sem gagnlegt er að hafa tilbúna:  
+Áður en tengingin er búin til þarf að koma nokkrum upplýsingum á framfæri:  
 
-* Vefslóð fyrir [!INCLUDE[crm_md](includes/crm_md.md)]-forritið þitt. Fljótleg leið til að ná í vefslóðina er að opna [!INCLUDE[crm_md](includes/crm_md.md)] og afrita vefslóðina og svo líma hana í reitinn **Dynamics 365 Sales vefslóð** í [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] mun leiðrétta sniðið fyrir þig.  
+* Vefslóð fyrir [!INCLUDE[crm_md](includes/crm_md.md)]-forritið þitt. Fljótleg leið til að ná í vefslóðina er að opna [!INCLUDE[crm_md](includes/crm_md.md)], afrita vefslóðina og svo líma hana í reitinn **Dynamics 365 Sales vefslóð** í [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] mun leiðrétta sniðið fyrir þig.  
 * Notandaheiti og aðgangsorð fyrir notandareikning sem er aðeins notaður fyrir samþættinguna.  
 * Notandaheiti og aðgangsorð reikningsins sem er með heimildir stjórnanda.  
 

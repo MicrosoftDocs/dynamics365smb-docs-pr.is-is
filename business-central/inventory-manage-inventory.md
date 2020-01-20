@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1cbcc28483179929f64f182bdad3f5fab36603f7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 79a640a01dbd0c1ca82b5190e690a4ff71a136a0
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309533"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952699"
 ---
 # <a name="inventory"></a>Birgðir
 Fyrir hverja vöru sem þú ert að eiga viðskipti með þarftu að búa til hlutakort af tegundinni **Birgðir**. Vörur sem þú býður viðskiptamönnum en geymir ekki í birgðum er hægt að skrá sem vörulistaatriði sem hægt er að breyta í birgðavara þegar þörf krefur. Hægt að auka eða minnka magn vöru í birgðum með því að bóka beint í birgðafærslur, til dæmis þegar eftir raunbirgðatalningu eða ef þú skráir ekki innkaup.
@@ -27,6 +27,8 @@ Til að auka yfirlit yfir vörur og til að hjálpa þér að finna þær, getur
 
 > [!NOTE]
 > Raunmeðhöndlun birgða vísar til vöruhúsaaðgerða. Frekari upplýsingar eru í [Vöruhúsastjórnun](warehouse-manage-warehouse.md)
+
+Áætlanagerð fyrir vörur til að uppfylla eftirspurn fellur undir virkni framboðsáætlanagerðar. Nánari upplýsingar er að finna í [áætlanagerð](production-planning.md).  
 
 ## <a name="inventory-reconciliation"></a>Afstemming birgða
 Þegar birgðafærslur, til dæmis söluafhending, innkaupareikningur eða birgðaleiðrétting eru bókaðar eru breytingar á kostnaði hinnar leiðréttu vöru skráðar í virðisfærslum birgða. Til að endurspegla þessar breytingar á birgðavirði í ársreikningum, er birgðakostnaður bókaður sjálfkrafa á tengda birgðareikninga í fjárhag. Fyrir hverja birgðafærslu sem er bókuð er viðeigandi gildi bókað í birgðareikninginn, leiðréttingarreikninginn og KSV-reikninginn í fjárhagnum. Frekari upplýsingar eru í [Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
@@ -51,6 +53,8 @@ Til að auka yfirlit yfir vörur og til að hjálpa þér að finna þær, getur
 |Komast að því hvar rað- eða lotunúmer var notað í aðfangakeðju, til dæmis í innköllunaraðstæðum.|[Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)|
 |Loka á vörur svo þær verði ekki slegnar inn í sölu- eða innkaupalínur eða bókaðar í einhverri færslu.|[Loka vörum](inventory-how-block-items.md)|
 |Stjórna viðskiptaaðgerðum á söluskrifstofum, innkaupadeildum, eða komið fyrir áætlunarskrifstofum í mörgum birgðageymslum.|[Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md)|
+
+
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

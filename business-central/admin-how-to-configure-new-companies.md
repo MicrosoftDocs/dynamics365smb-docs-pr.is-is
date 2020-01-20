@@ -10,19 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: aade98d02744ef2e40b7d844c4bddea4d231fceb
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878582"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910809"
 ---
 # <a name="configure-new-companies"></a>Grunnstilla ný fyrirtæki
 Til að grunnstilla nýtt fyrirtæki innleiðingarlausn þinni er vanalega fylgt eftir þremur áföngum. Í fyrsta áfanganum er grunnstillingarpakkinn fluttur inn, sem er .rapidstart-skrá með grunnstillingarupplýsingum. Í öðrum áfanganum er grunnstillingarupplýsingum breytt og þær notaðar á nýja fyrirtækið. Í lokaáfanganum er farið yfir og villur lagaðar.  
 
 Eftirfarandi ferli gera ráð fyrir að grunnstillingarpakkar hafi verið stofnaðir og vistaðir. Nánari upplýsingar eru í [Undirbúa grunnstillingarpakka](admin-how-to-prepare-a-configuration-package.md).  
 
-Eftirfarandi ferli gerir ráð fyrir að þú hafir frumstillt og opnað nýja fyrirtækið og að þú sért að nota Mitt hlutverk RapidStart Services innleiðara.
+Eftirfarandi ferli gerir ráð fyrir að þú hafir frumstillt og opnað nýja fyrirtækið þitt og að þú sért í stjórnandahlutverkinu.
+
+## <a name="before-you-import-a-configuration-package"></a>Áður en grunnstillingarpakki er fluttur inn
+Áður en grunnstillingapakki er fluttur inn er góð hugmynd að ganga úr skugga um að eftirfarandi fullyrðingar séu réttar. Annars getur hvorki þú né viðskiptamaðurinn flutt inn grunnstillingapakkann.
+
+* Leyfið inniheldur töflurnar sem verið er að uppfæra. Ef óvissa ríkir um þetta getur **Grunnstillingarvinnublað** komið að góðum notum. Ef leyfið inniheldur töflurnar er gátreiturinn **Leyfðar töflur** valinn.  
+* Notandinn sem flytur inn grunnstillingarpakka hefur sett inn og breytt skilvirkum heimildum í allar töflurnar sem pakkinn mun uppfæra. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md). 
 
 ## <a name="to-import-a-configuration-package"></a>Til að flytja inn grunnstillingarpakka.  
 1. Nýja fyrirtækið er opnað í [!INCLUDE[d365fin](includes/d365fin_md.md)] gagnagrunninum.  

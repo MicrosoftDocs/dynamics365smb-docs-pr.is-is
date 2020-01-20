@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809349"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943210"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Úthluta leyfum til notenda og hópa
 [!INCLUDE[d365fin](includes/d365fin_md.md)] öryggiskerfið gerir þér kleift að stjórna því hvaða hluti notandi hefur aðgang að í hverjum gagnagrunni eða umhverfi fyrir sig. Þú getur tilgreint fyrir hvern notanda hvort hann geti lesið, breytt eða slegið inn gögn í valda gagnagrunnshluti. Frekari upplýsingar er að finna í [Gagnaöryggi](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) í hjálp Developer and ITPro fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -120,7 +120,7 @@ Nýja heimildasamstæðan, sem inniheldur öll heimildir afritaðs heimildasamst
 |Valkostur|Description|Flokkun|
 |------|-----------|
 |**Já**|Notandinn getur framkvæmt aðgerðina á hlutnum sem um ræðir.|Hæst|
-|**Óbeint**|Notandinn getur framkvæmt aðgerðina á hlutnum sem um ræðir en aðeins í gegnum aðra tengda hlut sem notandinn hefur fulla aðgang að.|Næst hæsta|
+|**Óbeint**|Notandinn getur framkvæmt aðgerðina á hlutnum sem um ræðir en aðeins í gegnum aðra tengda hlut sem notandinn hefur fulla aðgang að. Frekari upplýsingar um óbeinar heimildir er að finna í [Eiginleiki heimilda](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) í Developer og IT-Pro hjálpinni|Næst hæsta|
 |**Autt**|Notandinn getur ekki framkvæmt aðgerðina á hlutnum sem um ræðir.|Lægstur|
 
 ### <a name="example---indirect-permission"></a>Dæmi - Óbein heimild

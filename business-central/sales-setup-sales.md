@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 701556c09944c5dcce74543b550c9036c5cc77dd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311933"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953396"
 ---
 # <a name="setting-up-sales"></a>Uppsetning sölu
 Áður en hægt er að hefjast handa við að stýra söluferlum þarf að grunnstilla reglur og gildi sem ráða sölureglum fyrirtækisins.
@@ -39,6 +39,8 @@ Uppsetning fjármálatendrar sölu, eins og greiðslumáti og gjaldmiðill, er f
 |Notaðu EB vefþjónustu til að staðfesta að VSK-númerin viðskiptamanna.|[Staðfesta VSK-skráningarnúmer](finance-setup-vat.md)|
 |Skilgreindu mismunandi inco-skilmála sem þú býður viðskiptamönnum upp á eða þá sem lánardrottnar þínir bjóða þér.|[Afhendingarmátar settir upp](sales-how-set-up-shipment-methods.md)|
 |Færa inn upplýsingar um mismunandi flutningsseljendur sem skipt er við, ásamt tengli á sendingarleitarþjónustu þeirra.|[Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  

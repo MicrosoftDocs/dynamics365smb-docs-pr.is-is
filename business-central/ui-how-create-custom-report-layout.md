@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 11/15/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: d83f243ee9b04c44886610d39c71ad6a4dae434a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0b469458490d08475d81f767a88a99c84a4daad6
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882039"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953228"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Búa til og breyta sérsniðnum skýrsluútlitum
 Sjálfgefið er að skýrsla hafa innbyggt skýrsluútlit, sem getur verið RDLC-skýrsluútlit, Word-skýrsluútlit eða bæði. Ekki er hægt að breyta innbyggðu útliti. Þú getur einnig búið til þitt eigið sérsniðið útlit sem gerir þér kleift að breyta útliti skýrslu þegar hún er skoðuð, prentuð eða vistuð. Hægt er að búa til mörg sérsniðin skýrsluútlit fyrir sömu skýrsluna, og skipta svo á milli útlita fyrir skýrsluna eftir þörfum.
@@ -100,8 +100,7 @@ Til að tryggja að skýrslur birtist alltaf og prentist með fyrirhuguðum letu
 ### <a name="adding-data-fields"></a>Bæta við gagnareitum
 Að bæta við gagnareitum úr gagnamengi skýrslu er betri leið og kallar á þekkingu gagnamengis skýrslunnar. Upplýsingar um það hvernig reitum er bætt við fyrir gögn, merkjum, gögnum og myndum er að finna í [Bæta reitum við Word skýrsluútlit](ui-how-add-fields-word-report-layout.md).  
 
-###
-
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  

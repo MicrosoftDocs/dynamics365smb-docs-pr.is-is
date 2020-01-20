@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64b0f8f551ac505e2e289bc1abea719947cc058a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d5c47a7dbd4339eff85bd6fe70078f5e56009aa
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316309"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954093"
 ---
 # <a name="sales"></a>Sala
 Búinn er til sölureikningur eða sölupöntun til að skrá samkomulag við viðskiptamann um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum.
@@ -54,6 +54,8 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Upplýsa viðskiptamenn þína um afhendingardag pöntunar með því að reikna út annað hvort hægt að lofa eða tiltækt að lofa dasetninguna.|[Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md)|
 |Skráðu áætlanir þínar um sölu í framtíðinni, tilgreindri eftir vörum og tímabili, til að virka aðallega sem inntak í framleiðsluáætlun.|[Stofna spá](production-how-to-create-a-forecast.md)|
 |Leysa úr misskilningi þegar tvær eða fleiri færslur eru til fyrir sama viðskiptamann.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnpathssell-items-services-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning sölu](sales-setup-sales.md)  

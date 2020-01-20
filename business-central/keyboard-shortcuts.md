@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/07/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774844"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911122"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 Þessi grein gefur yfirlit yfir nokkrar flýtivísanir sem hægt er að nota þegar þú ert að vinna með [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -66,6 +66,7 @@ Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi 
 |Esc|Loka núverandi síðu eða fellilista.|
 |Dálklykill|Færa áhersluna á næstu stýringu eða einingu á síðu, t.d. aðgerðir, hnappa, reiti eða fyrirsagnir lista.|
 |SHIFT+DÁLKLYKILL|Færa brennidepil yfir á fyrri stjórnun eða einingu á síðu, svo sem aðgerðir, hnappa, reiti eða listahausa.|
+|J og N|Virkja **Já** og **Nei** hnappana í svargluggum. Þetta styður tungumál. Til dæmis skal ýta á J í Þýskalandi til að virkja **Ja**-hnappinn.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Flýtivísanir í listum
 
@@ -141,6 +142,7 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 |Alt+N |Opnaðu síðu til að búa til nýja færslu; á sama hátt og aðgerðin **Nýtt** er valin. |
 |Alt+Shift+N |Lokaðu síðu og opnaðu nýja til að stofna nýja færslu; á sama hátt og aðgerðin **Í lagi og nýtt** er valin. |
 |Alt+Shift+N |Opnið núverandi spjald eða skjal í nýjum glugga. Frekari upplýsingar er að finna í [Fjölvinnsla þvert á margar síður](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Ctrl+Enter|Vistið og lokið síðunni.|
 |Ctrl+niðurör|Opnaðu fyrri færslu fyrir einingu.|
 |Ctrl+uppör |Opnaðu færsluna á undan fyrir einingu.|
 |Ctrl+Insert |Setja inn nýja línu í skjal.|
@@ -173,7 +175,7 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |Ctrl+niðurör<br />(Cmd+niðurör)|Fara í næstu viku, sama vikudag.|
 |Færslulykill|Velja áhersludaginn.|
 |Ctrl+End<br />(Cmd+End)|Loka dagatalinu og eyða núverandi dagsetningu.|
-|Esc|Lokaðu dagatalinu án vals, halda núverandi dagsetningu.|
+|Esc|Loka dagatalinu án vals, halda núverandi dagsetningu.|
 |Síða niður|Fara í næsta mánuð.|
 |Síða upp|Fara í fyrri mánuð.|  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7c36c50387418f25f3d16f46cefcf275742e69d3
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 0ff91eff703f7f490a3c47cd515523f7fca0316e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692753"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911288"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Setja upp umskráningarþjónustu fyrir bankagögn
 Altæk þjónustuveita til að umreikna greiðsluupplýsingar í hvaða gagnaskráarsnið sem bankinn þinn þarf eru uppsett og tilbúið til að vera virkjað í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta er vísað til í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem umskráningarþjónusta fyrir bankagögn.
@@ -62,5 +62,5 @@ Listinn yfir bankagagnasnið sem eru studd af AMC Banking 365 Fundamentals viðb
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
-[Stjórna bankareikningum](bank-manage-bank-accounts.md)  
+[Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

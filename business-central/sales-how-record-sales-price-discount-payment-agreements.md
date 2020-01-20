@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 11/27/2019
+ms.date: 01/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 51c2260f4c8b5251cc466f8969921ee6cad92c1d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c41f331ebd1d49d03e8cf5177911c37accb05882
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883023"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953372"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Skrá sérstök söluverð og afslætti
 Skilgreina þarf ólíka verð- og greiðsluskilmála sem gilda þegar ólíkum viðskiptamönnum er selt þannig að umsamin gildi og reglur séu notuð í söluskjölum sem stofnuð eru fyrir viðskiptamennina.
@@ -89,7 +89,9 @@ Afsláttarprósentur eru tengdar við ákveðnar reikningsupphæðir á síðunn
 Til viðbótar við (eða í staðinn fyrir) afsláttarprósentu er hægt að tengja ákveðið þjónustugjald við ákveðna reikningsupphæð.  
 
 > [!TIP]  
->  Áður en hafist er handa við að setja upplýsingarnar inn í forritið er gott að útbúa uppkast af því afsláttarformi sem á að nota. Þannig er auðveldara að átta sig á því hvaða viðskiptamenn er hægt að tengja við sama reikningsafsláttarsíðu. Eftir því sem setja þarf upp færri síður, þeim mun fljótlegra er að færa inn grunnupplýsingarnar.  
+>  Áður en hafist er handa við að setja upplýsingarnar inn í forritið er gott að útbúa uppkast af því afsláttarformi sem á að nota. Þannig er auðveldara að átta sig á því hvaða viðskiptamenn er hægt að tengja við sama reikningsafsláttarsíðu. Eftir því sem setja þarf upp færri síður, þeim mun fljótlegra er að færa inn grunnupplýsingarnar.
+
+Frekari upplýsingar um afslætti á sölum er að finna í [Setja upp afslætti fyrir viðskiptamenn þína](/learn/modules/customer-discounts-dynamics-365-business-central/index) í Microsoft Learn.  
 
 ## <a name="best-price-calculation"></a>Útreikningur besta verðs
 Þegar notandi hefur skráð sérstakt verð og línuafslætti vegna sölu eða innkaupa tryggir [!INCLUDE[d365fin](includes/d365fin_md.md)] að hagnaður notanda af viðskiptum með vöru sé alltaf hámarkaður með því að reikna sjálfkrafa besta verð á sölu- og innkaupaskjölum og á færslubókarlínum fyrir verk og vörur.
@@ -114,7 +116,7 @@ Besta verð er lægsta leyfilega verð með hæsta leyfilega línuafslættinum �
 Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð eða einingaverð sótt af birgðaspjaldinu eða birgðahaldseiningarspjaldinu.
 
 ## <a name="to-copy-sales-prices"></a>Söluverð afritað:  
-Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota í verðflokki viðskiptamanna þarf að keyra **Leggja til söluverð á vinnublaði.**  keyrsla. Þú getur fundið aðgerð fyrir keyrsluna á síðunni **Vinnublað söluverðs**.    
+Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota í verðflokki viðskiptamanna þarf að keyra **Leggja til söluverð á vinnublaði.** keyrsla. Þú getur fundið aðgerð fyrir keyrsluna á síðunni **Vinnublað söluverðs**.    
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað söluverðs** og veldu síðan tengda tengilinn.  
 2.  Velja skal **Leggja til söluverð á vinnublaði** Aðgerð  
@@ -127,7 +129,7 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
 >  Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja þær á síðuna **Söluverð** skal velja aðgerðina **Innleiða verðbreytingar** á síðunni **Vinnublað söluverðs**.
 
 ## <a name="to-bulk-update-item-prices"></a>Til að magnuppfæra vöruverð   
-Ef magnuppfæra á vöruverð, t.d. hækka öll vöruverð um einhverja prósentu, er nauðsynlegt að keyra **Leggja til vöruverð á vinnublaði**  keyrsla. Þú getur fundið tengil á keyrsluna á síðunni **Vinnublað söluverðs**.     
+Ef magnuppfæra á vöruverð, t.d. hækka öll vöruverð um einhverja prósentu, er nauðsynlegt að keyra **Leggja til vöruverð á vinnublaði** keyrsla. Þú getur fundið tengil á keyrsluna á síðunni **Vinnublað söluverðs**.     
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað söluverðs** og veldu síðan tengda tengilinn.   
 2.  Veldu **Leggja til vöruverð á vinnublaði** Aðgerð   
@@ -139,6 +141,8 @@ Ef magnuppfæra á vöruverð, t.d. hækka öll vöruverð um einhverja prósent
 
 > [!NOTE]   
 >  Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja á þær í töfluna **Söluverð** , má nota keyrsluna **Innleiða verðbreytingar** í flipanum **Aðgerðir**, flokknum **Aðgerðir** á síðunni **Vinnublað söluverðs**.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesmanage-sales-prices-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning sölu](sales-setup-sales.md)  

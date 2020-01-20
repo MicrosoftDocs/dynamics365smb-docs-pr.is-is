@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: f2d17bebfec468ea8499bc0b739f232dc9a90d63
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6773f03a436d1a65eace851abb1e886bdccee55f
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304026"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953852"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Greina raunverulegar og áætlaðar upphæðir
 Hluti af því að safna saman, greina og deila upplýsingum fyrirtækis, er að skoða raunverulegar upphæðir í samanburði við áætlaðar upphæðir fyrir alla reikninga og nokkur tímabil.
@@ -27,7 +27,7 @@ Til að greina áætlaðar upphæðir, verður fyrst að búa til fjárhagsáæt
 ## <a name="to-view-a-gl-budget"></a>Til að skoða fjárhagsáætlun
 Í áætlun með víddum er hægt að setja afmarkanir á færslurnar og sjá tilteknar áætlanir.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsáætlun** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsáætlanir** og veldu síðan tengda tengilinn.
 2. Á síðunni **Fjárhagsáætlanir** skal velja þá áætlun sem á að skoða.  
 3. Efst á síðunni skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -43,7 +43,7 @@ Til að greina áætlaðar upphæðir, verður fyrst að búa til fjárhagsáæt
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Að skoða raunverulegar og áætlaðar upphæðir fyrir alla reikninga  
 Hægt er að skoða fjárhagsáætlanir og bera þær saman við raunverulegar upphæðir í mörgum svæðum í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókhaldslykill** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Bókhaldslykill**, skal velja aðgerðina **Fjárhagur staða/áætlun**.
 3. Efst á síðunni skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.  
 4. Til að sjá tilgreininguna sem birt upphæð samanstendur af skal velja reitinn.  
@@ -59,10 +59,12 @@ Bókhaldslykillinn er í dálkunum til vinstri. Af dálkunum fimm lengst til hæ
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Að skoða raunverulegar og áætlaðar upphæðir fyrir nokkur tímabil  
 Í stað þess að skoða raunverulegar og áætlaðar upphæðir á öllum reikningum innan ákveðins tímabils er hægt að skoða fjölda tímabila á stökum reikningi.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókhaldslykill** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Bókhaldslykill** veljið viðeigandi fjárhagsreikning, og veljið síðan aðgerðina **Fjárhagsreikningur staða/áætlun**.  
 3. Efst á síðunni skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.   
 4. Til að sjá tilgreiningu á birtri upphæð skal velja reitinn.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptaupplýsingar](bi.md)  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 277a35063bb006dc1dfe284c64a153c8ca0d71da
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 99be988a8e5cdea5392e9f105acade41f19e6da3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692897"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910713"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Setja upp Envestnet Yodlee Bank Feeds þjónustu
 Hægt er að flytja inn rafræn bankayfirlit frá bankanum til að fylla fljótlega út síðuna **Greiðsluafstemmingarbók** þannig að hægt sé að jafna greiðslur og stemma af bankareikninginn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -127,7 +127,7 @@ Ef vandamál eru til staðar fyrir tengdu bankareikninga á síðunni **Bankarei
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
-[Stjórna bankareikningum](bank-manage-bank-accounts.md)  
+[Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum ](ui-extensions.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

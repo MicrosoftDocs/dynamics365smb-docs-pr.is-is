@@ -10,19 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: fa8b324c0a63f7c00209579878b9739af8178041
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798500"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953660"
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
-Til að hjálpa þér að komast að komast fljótt af stað inniheldur [!INCLUDE[d365fin](includes/d365fin_md.md)] eru venjulegar stillingar fyrir flestar fjárhagslegar ferðir. Ef þú þarft að breyta stillingum til að henta fyrirtækinu þínu skaltu fara strax. Frá Mitt hlutverk er t.d. hægt að nota uppsetningarleiðbeiningar með hjálp til að setja upp söluskatt fyrir staðsetningu þína.  
+Áður en þú getur byrjað að reka fyrirtækið þitt verður þú að tilgreina reglur og sjálfgefin gildi fyrir það hvernig stjórna á fjárhagsferlum fyrir fyrirtækið. Fyrsta skrefið er að setja upp kjarna bókhaldsskráningar fyrirtækisins - bókhaldslyklana. Síðan eru settir upp bókunarflokkar, sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.
 
-Hins vegar eru nokkrir hlutir sem þú þarft til að setja upp sjálfan þig. Til dæmis, ef þú vilt nota mál sem grundvöll fyrir viðskipti upplýsingaöflun.  
+Hægt er að setja upp suma fjárhagsuppsetningu sjálfkrafa með uppsetningarleiðbeiningum með hjálp og suma verður að gera handvirkt. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).
+
+Hægt er að nota víddir til að bæta mismunandi gerðum upplýsinga við öll viðskipti. Hægt er að setja upp grunnvíddir fyrirtækisins, svo sem Verkefni og Deildir. Síðar er hægt að bæta við fleiri víddum eftir þörfum, og setja upp tímabundnar víddir sem nota á í takmarkaðan tíma, til dæmis í tengslum við söluherferð. Frekari upplýsingar er að finna í [Unnið með víddir](finance-dimensions.md).
+
+Ljúka þarf mörgum af uppsetningarverkhlutunum áður en hægt er að hefja skráningu fjárhagslegra samskipta, en hægt er að breyta flestum stillingum síðar. Sumir uppsetningarverkhlutarnir eru valfrjálsir, til dæmis eru Bókun m. fyrirtækja og Samstæður aðeins sett upp ef unnið er með mörg fyrirtæki. Suma uppsetningarverk, svo sem tilgreiningu tímabilsins þar sem bókanir eru leyfðar, þarf hugsanlega að endurtaka með reglulegu millibili.  
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
@@ -46,9 +50,11 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Uppsetning á Intrastat skýrslugerð, og senda inn skýrsluna til yfirvalda. | [Setja upp og skrá Intrastat](finance-how-setup-report-intrastat.md)|
 |Gakktu úr skugga um að færsla úr færslubók sé úthlutað á nokkra mismunandi reikninga þegar færslubókin er bókuð, annaðhvort magn, prósenta eða upphæð.|[Nota úthlutunarlykla í færslubókum](ui-how-use-allocation-keys-general-journals.md)|
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  
-[Stjórna bankareikningum](bank-manage-bank-accounts.md)  
+[Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Unnið með víddir](finance-dimensions.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)  

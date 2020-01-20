@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6e9456a17ccf8dc6c3e3e8ae8272baa03f43f7da
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: be39f8a56dc95ed48e339e89513a103d044faa08
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882663"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952675"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppfæra gengi
 Þar sem fyrirtæki starfa að auknum mæli í fleiri löndum/svæðum verður æ mikilvægara fyrir þau að geta átt viðskipti og skráð fjárhag sinn í fleiri en einum gjaldmiðli. Setja þarf upp kóða fyrir hvern gjaldmiðil sem notaður er ef keypt er eða selt í öðrum gjaldmiðlum en staðbundinn gjaldmiðill, ef eitthvað er útistandandi eða gjaldfallið í öðrum gjaldmiðlum, eða ef fjárhagsfærslur eru skráðar í mismunandi gjaldmiðlum.
@@ -62,6 +62,8 @@ Leiðréttingarfærslunum er úthlutað sjálfgefnu víddunum í reikningunum se
 2. Veldu aðgerðina **Uppfæra gengi**.
 
 Gildið í **Gengi** reitnum á síðunni **Gjaldmiðlar** er uppfært með nýjustu gengi gjaldmiðilsins.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)  

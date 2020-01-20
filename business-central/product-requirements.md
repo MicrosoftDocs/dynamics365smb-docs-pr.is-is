@@ -10,21 +10,27 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649765"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911240"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
 Áður en þú ferð inn í [!INCLUDE [prodshort](includes/prodshort.md)] á netinu mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
 
 ## <a name="browsers"></a>Vafrar
+
+### <a name="recommended-browsers"></a>Ráðlagðir vafrar
+
 **Chrome fyrir Windows og Firefox fyrir Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfum þessara skjáborðsvafra.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfu af Safari á OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfu af Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með Internet Explorer 11 (smíði 11.0.9600.17239) fyrir Windows 10 (32-bita og 64-bita útgáfur). Við mælum með að uppfæra í nýjustu útgáfu Internet Explorer sem er studd fyrir þína útgáfu af Windows.  
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfu af Microsoft Edge.
+
+### <a name="other-supported-browsers"></a>Aðrir studdir vafrar
+
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með Internet Explorer 11 (smíði 11.0.9600.17239) fyrir Windows 10 (32-bita og 64-bita útgáfur). Við mælum með að uppfæra í nýjustu útgáfu Internet Explorer sem er studd fyrir þína útgáfu af Windows. 
 
 ## <a name="mobile-devices"></a>Fartæki
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir Windows er hægt að setja upp á tæki með að minnsta kosti 1GB RAM og Windows 10 Home, Pro, Enterprise eða Education (32-bita og 64-bita útgáfur).  

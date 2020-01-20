@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: SorenGP
-ms.openlocfilehash: 2d29bd0902ade38a1901899af475377e18089316
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 86ddde5339631915a997cbbebe63a3a2d6d68835
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309485"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952603"
 ---
 # <a name="setting-up-inventory"></a>Uppsetning birgða
 Áður en hægt er að hefjast handa við að stýra vöruhúsaaðgerðum og birgðakostnaði þarf að grunnstilla reglur og gildi sem ráða birgðareglum fyrirtækisins.
@@ -38,6 +38,8 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 |Sem viðbót við birgðaspjöld, skrá upplýsingar um vörur fyrir tiltekna birgðageymslu eða tiltekinn afbrigði.|[Setja upp birgðahaldseiningar](inventory-how-to-set-up-stockkeeping-units.md)|
 | Úthlutaðu vörur í flokka og gefðu þeim eiginleika til að hjálpa þér og viðskiptavinum að finna vörur. |[Flokka vörur](inventory-how-categorize-items.md) |
 |Flytja inn margar myndir úr einni zip-skrá þar sem skrár hafa heiti í samræmi við vörunúmer.|[Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun birgða](inventory-manage-inventory.md)  

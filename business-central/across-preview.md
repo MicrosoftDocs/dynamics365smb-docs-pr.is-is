@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 11/14/2019
+ms.date: 12/10/2019
 ms.author: edupont
-ms.openlocfilehash: 8905a7dccc96f85a3803b1cf89862718d6a0df2e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 17f8a61507659f05e12bc7b5d4560bd50f344b0e
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879404"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2942991"
 ---
 # <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prufuútgáfa og áskrift
 
@@ -29,7 +29,7 @@ Ef þú lendir í erfiðleikum getur síðan [Algengar spurningar](across-faq.md
 
 ### <a name="try-out-your-own-company"></a>Prófaðu þitt eigið fyrirtæki
 
-Ef þú vilt prófa [!INCLUDE [prodshort](includes/prodshort.md)] með eigin gögn geturðu skipt yfir í ókeypis 30 daga prufutíma með auðu fyrirtæki til þess að þú getir flutt inn þín eigin gögn.  
+Ef þú vilt prófa [!INCLUDE [prodshort](includes/prodshort.md)] með eigin gögn geturðu skipt yfir í ókeypis 30 daga prufutíma með auðu fyrirtæki. **Setja upp fyrirtækiið mitt** uppsetningarleiðsögn með hjálp mun hjálpa þér að veita grunnupplýsingar um reksturinn. Möguleiki er á því að flytja inn gögn úr fyrirliggjandi viðskiptastjórnunarlausn þannig að hægt sé að meta [!INCLUDE [prodshort](includes/prodshort.md)] með eigin gögnum.  
 
 Ef 30 dagar nægja ekki er hægt að framlengja prufutímann. Nánari upplýsingar er að finna í [Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?](admin-extend-trial.md).  
 
@@ -72,11 +72,11 @@ Einnig er hægt að hafa samband við [[!INCLUDE[d365fin](includes/d365fin_md.md
 
 ## <a name="getting-started-with-sandboxes"></a>Hafist handa með sandkassa
 
-Sandkassaumhverfi getur verið leið fyrir þig til að æfa þig með [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þú getur hugsað um sandkassa sem umhverfi með enga framleiðslu sem þú getur notað ofan á framleiðslutilfelli af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Sandkassaumhverfi getur verið leið fyrir þig til að æfa þig með [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þú getur hugsað um sandkassa sem umhverfi með enga framleiðslu sem þú getur notað ofan á framleiðslutilfelli af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef þú vilt til dæmis nota ókeypis þjálfun á netinu frá [Microsoft Learn](/learn/browse/?products=dynamics-business-central) getur stjórnandinn þinn búið til sandkassaumhverfi svo þið samstarfsfélagarnir getið æft ykkur þar frekar en í framleiðsluumhverfinu.  
 
-Sandkassi gerir þér kleift að byggja upp og prófa viðbætur á öruggan hátt og þróa nýja virkni til að sérsníða þjónustuna án þess að hafa áhrif á gögnin og stillingar framleiðsluumhverfis. Ef þú vilt til dæmis nota ókeypis þjálfun á netinu frá [Microsoft Learn](/learn/browse/?products=dynamics-business-central) geturðu búið til sandkassaumhverfi og æft þig þar frekar en í framleiðsluumhverfinu.  
+EF þú ert þróunaraðili gerir sandkassi þér kleift að byggja upp og prófa viðbætur á öruggan hátt og þróa nýja virkni til að sérsníða þjónustuna án þess að hafa áhrif á gögnin og stillingar framleiðsluumhverfis.  
 
-Núna geta allir viðskiptavinir notað sandkassa. Nánari upplýsingar um hvernig á að hefjast handa með sandkassa skal sjá [Sandkassaumhverfi búið til](across-how-create-sandbox-environment.md).  
+Núna geta allir viðskiptavinir notað sandkassa, þ.m.t. fyrirtæki sem hafa skráð sig fyrir prufuútgáfu. Nánari upplýsingar um hvernig á að hefjast handa með sandkassa skal sjá [Sandkassaumhverfi búið til](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
 > Sandkassinn sem er búinn til á þennan hátt inniheldur sýnikennslugögn fyrir skáldaða fyrirtækið CRONUS. Engin gögn eru afrituð eða yfirhöfuð flutt frá framleiðsluumhverfinu.  
@@ -96,6 +96,7 @@ For example, you can use an API to build a connected app to exchange data betwee
 ## <a name="see-also"></a>Sjá einnig
 
 [Hafist handa](product-get-started.md)  
+[Framlenging á prufuútgáfunni](admin-extend-trial.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Algengar spurningar](across-faq.md)  
 [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner)  

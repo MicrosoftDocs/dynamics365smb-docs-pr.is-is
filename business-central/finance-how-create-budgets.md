@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: b999e8670c2d9208fb0a9f86d6c0ec26353207b6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302353"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953804"
 ---
 # <a name="create-gl-budgets"></a>Stofna fjárhagsáætlunum
 Hægt er að útbúa margar áætlanir fyrir sömu tímabil með því að stofna áætlanir undir aðskildum heitum. Fyrst er heiti áætlunar sett upp og áætlunarupphæðir færðar inn. Þá er heiti áætlunarinnar haft með við allar áætlunarfærslur sem stofnaðar eru.  
@@ -29,7 +29,7 @@ Fjárhagsáætlanir spila stórt hlutverk þegar kemur að viðskiptaupplýsingu
 Í kostnaðarbókhaldi vinnurðu með kostnaðaráætlun á svipaðan hátt. Frekari upplýsingar eru í [Stofna kostnaðaráætlun](finance-create-cost-budgets.md).    
 
 ## <a name="to-create-a-new-gl-budget"></a>Að búa til nýja fjárhagsáætlun  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsáætlun** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsáætlanir** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Breyta lista** og fyllið svo út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Velja skal aðgerðina **Breyta fjárhagsáætlun**.
 4. Efst á síðunni **Fjárhagsáætlun** skal fylla inn í reitina eins og þörf krefur, til að skilgreina hvað birtist.  
@@ -47,6 +47,8 @@ Eins og fyrir nánast allar aðrar síður getur þú flutt út gögn á síðum
 
 > [!NOTE]
 > Bókhaldslykillinn, sem fjárhagsáætlanir byggjast á, eru með línum af lyklagerðinni Fyrirsögn sem innihalda samtölu línanna fyrir neðan. Þegar þú flytur út fjárhagsáætlun eru gögn í öllum línum flutt út óháð gerð lykils. Hins vegar er aðeins hægt að flytja aftur inn gögn í línum af lyklagerðinni Bókun. Samkvæmt því: <br /><br /> **Þegar þú flytur inn fjárhagsáætlun verður öllum gildum sem voru til í fyrirsagnarlínum eytt.** <br /><br /> Þetta er til að koma í veg fyrir rangar samtölur eftir innflutning gagna sem hafa verið búin til eða breytt í Excel.<br /><br /> **Atburðarás**: Þú veist að nýi áætlaði launakostnaðurinn kemur til með að vera 1.200.000 SGM. Þú vilt að launadeildin áætli fyrir þessar þrjár tilteknu línur (af lyklagerðinni Bókun) fyrir starfsmenn í fullu starfi, starfsmenn í hlutastarfi og tímabundin aðstoð. Línurnar þrjár eru flokkaðar undir fyrirsagnarlínu launa.<br /><br />Þú slærð inn 1.200.000 í fyrirsagnarlínuna, flytur út fjárhagsáætlunina í Excel og sendir hana svo til launadeildarinnar og biður hana um að úthluta 1.200.000 SGM.<br /><br /> Launadeildin úthlutar upphæðinni á bókunarlyklana þrjá. Þegar þú flytur aftur inn í fjárhagsáætlun er fyllt út í lyklana þrjá með nýju Excel-gögnunum, sem verður samanlagt 1.200.000 SGM og fyrirsagnarlínan er auð.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Flutningur viðskiptagagna í Excel](about-export-data.md)  

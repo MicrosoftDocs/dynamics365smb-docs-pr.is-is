@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: 121212f41d5dadff53a10f828c88279865828788
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0746551b21f96dde6e938e6bdbcc573ded2066a
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316573"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911048"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Afstemma greiðslur með sjálfvirkri jöfnun
 Síðan **Greiðsluafstemmingarbók** tilgreinir greiðslur, annaðhvort greiðslur inn eða út, sem hafa verið skráðar sem færslur á netbankareikning og sem hægt er að jafna við tengdar opnar fjárhagsfærslur viðskiptavinar, lánardrottins, og bankareiknings. Línurnar í færslubókinni eru fylltar inn með því að flytja inn bankayfirlitið sem bankastreymi eða skrá.
@@ -33,7 +33,7 @@ Með aðgerðinni **varpa texta á reikning** er hægt að setja upp vörpun á 
 
 Svipað aðgerð er til til að stemma af umframupphæðir á greiðsluafstemmingarbókarlínum á sérstækum grundvelli. Frekari upplýsingar eru í [Afstemma greiðslur sem ekki er hægt að afstemma.](receivables-how-reconcile-payments-cannot-apply-auto.md)
 
-Þú notar aðgerðina **Sjálfvirk jöfnun**, annaðhvort sjálfvirkt þegar þú flytur inn bankaskrá eða streymi með greiðslufærslum eða þegar þú virkjar hana, til að jafna greiðslur við tengdar opnar færslur sem byggja á samsvörun texta á bankayfirlitslínu (færslubókarlínu) við texta í einni eða fleiri opnum færslum.
+Þú notar aðgerðina **Sjálfvirk jöfnun**, annaðhvort sjálfvirkt þegar þú flytur inn bankaskrá eða streymi með greiðslufærslum eða þegar þú virkjar hana, til að jafna greiðslur við tengdar opnar færslur sem byggja á samsvörun texta á bankayfirlitslínu (færslubókarlínu) við texta í einni eða fleiri opnum færslum. Frekari upplýsingar eru í [Setja upp reglur fyrir sjálfvirka jöfnun á greiðslum](receivables-how-set-up-payment-application-rules.md).
 
 Á færslubókarlínum þar sem greiðsla hefur verið jöfnuð sjálfvirkt við eina eða fleiri opnar færslur hefur reiturinn **áreiðanleiki samsvörunar** gildi á milli Lágt og Hátt til að tilgreina gæði gagnasamsvörunar sem ráðlögð greiðslujöfnun er byggð á. Að auki eru **Reikningsgerð** og **Reikningsnúmer** reitirnir fylltir með viðskiptamanninum eða lánardrottninum sem greiðslan er jöfnuð við. Ef þú hefur sett upp vörpun texta á reikning getur sjálfvirk jöfnunin leitt til áreiðanleiki samsvörunar upp á **Hátt - Vörpun texta á reikning**.
 
@@ -63,7 +63,7 @@ Fyrir hverja færslubókarlínu í **greiðsluafstemmingarbók** síðunni getur
 10. Þegar þú telur að allar greiðslur á færslubókarlínunum séu rétt jafnaðar eða stilltar á beina bókun velurðu aðgerðina **Bóka** og síðan velurðu einn af þessum valkostum:
 
     - **Bóka greiðslur og afstemma bankareikninga** - Til að bóka greiðslur sem jafnaðar og einnig loka tengdum færslum í höfuðbók bankareiknings sem afstemmdum.
-    - **Bóka aðeins greiðslur** - Til að bóka greiðslurnar sem jafnaðar, en skilja tengdar færslur í höfuðbók bankareiknings eftir opnar. Krafist er að þú afstemmir bankareikninginn sérstaklega, til dæmis: Frekari upplýsingar eru að finna í [Afstemma bankareikninga sérstaklega](bank-how-reconcile-bank-accounts-separately.md).
+    - **Bóka aðeins greiðslur** - Til að bóka greiðslurnar sem jafnaðar, en skilja tengdar færslur í höfuðbók bankareiknings eftir opnar. Krafist er að þú afstemmir bankareikninginn sérstaklega, til dæmis: Frekari upplýsingar eru að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).
     - **Prófunarskýrsla** - Til að yfirfara niðurstöður bókunar áður en þú bókar. Skýrslan fyrir **Bankareikningsyfirlit** birtist og sýnir sömu reitina og neðst á síðunni **Greiðsluafstemmingarbók**.
 
 Þegar greiðsluafstemmingarbók er bókuð er jöfnuðu opnu færslureikningunum lokað og tengdir reikningar viðskiptamannsins, lánardrottinsins eða almennir reikningar eru uppfærðir. Fyrir greiðslur á færslubókarlínum á grunni vörpunar texta á reikning eru tilteknir viðskiptamanna-, lánardrottna- og fjárhagsreikningar uppfærðir. Bankareikningsfærslur eru búnar til fyrir allar færslubókarlínur. Allar opnar fjárhagsfærslur bankareiknings sem tengjast jöfnuðum fjárhagsfærslum viðskiptavinar eða lánardrottins verða lokaðar þegar þú velur **Bóka Greiðslur og stemma Af Bankareikninga** aðgerð. Þetta þýðir að bankareikningurinn er sjálvirkt stemmdur af fyrir greiðslur sem bókaðar eru með færslubókinni.
@@ -71,7 +71,7 @@ Fyrir hverja færslubókarlínu í **greiðsluafstemmingarbók** síðunni getur
 Hægt er að bera gildið í **Staða á bankareikningi eftir bókun** reitnum saman við gildið í reitnum **Lokastaða yfirlits** til að sjá hvenær bankareikningurinn er afstemmdur út frá bókuðum greiðslum.
 
 > [!NOTE]  
->   Ef ekki á að afstemma bankareikninginn af síðunni **greiðsluafstemmingarbók** þá verðurðu að nota **afstemming bankareiknings** gluggann. Frekari upplýsingar í [Afstemma Bankareikninga Sérstaklega](bank-how-reconcile-bank-accounts-separately.md).
+>   Ef ekki á að afstemma bankareikninginn af síðunni **greiðsluafstemmingarbók** þá verðurðu að nota **afstemming bankareiknings** gluggann. Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skulda](receivables-manage-receivables.md)  

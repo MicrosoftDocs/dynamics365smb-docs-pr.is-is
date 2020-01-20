@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 5995e550b4d4c25296842a7d73a5f74acb91bd83
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692729"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910396"
 ---
 # <a name="setting-up-banking"></a>Uppsetning bankaþjónustu
 Með því að nota bankareikningaspjöld er hægt að fylgjast með öllum bankareikningum, í hvaða gjaldmiðli sem er. Þegar bankareikningar hafa verið settir upp er einnig hægt að nota valkostinn prentskoðun.
@@ -31,7 +31,7 @@ Til að geta notað rafræna bankaþjónustu til að flytja inn bankayfirlit og 
 | Setja upp utanaðkomandi þjónustu sem gerir kleift að flytja út greiðslur til banka til vinnslu og flytja inn bankayfirlit sem bankaskrár til greiðslujöfnunar og bankaafstemmingar. |[Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Sjá einnig
-[Stjórna bankareikningum](bank-manage-bank-accounts.md)  
+[Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

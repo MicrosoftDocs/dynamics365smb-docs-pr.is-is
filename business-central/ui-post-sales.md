@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: c389a93a71b251b5b0e11f4450251fdf68b64345
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 842aaeeb5665e8e02ef6873dd2210e03e415aade
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310781"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953972"
 ---
 # <a name="posting-sales"></a>Sölubókun
 Undir valmyndinni **Bókun** í söluskjali er hægt að velja milli eftirfarandi bókunaraðgerða:
@@ -44,6 +44,8 @@ Hægt er annað hvort að bóka, eða bóka og prenta. Ef valið er að bóka og
 Þegar bókun er lokið hverfa bókuðu sölulínurnar úr pöntuninni. Skilaboð segja til um hvenær bókun er lokið. Að þessu loknu verður hægt að sjá bókuðu færslurnar í ýmsum af þeim síðum sem innihalda bókaðar færslur, eins og **Viðskiptamannafærslur**, **Fjárhagsfærslur**, **Birgðafærslur,**, **Bókuð söluafhending** og **Bók. sölureikningur**.  
 
 Þú getur breytt tilteknum reitum í bókuðum söluskjölum, t.d. **Rakningarnúmer pakka**. . Frekari upplýsingar er að finna í [Breyta bókuðum skjölum](across-edit-posted-document.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesship-invoice-items-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  

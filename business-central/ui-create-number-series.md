@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 65d4562e133d8fa2383bd1fb5092ea001d577396
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ad00fffd79d35e7e1dc29134b75c4c5213891e0b
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311405"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953294"
 ---
 # <a name="create-number-series"></a>Stofnun númeraraða
 Fyrir hvert fyrirtæki sem þú setur upp þarftu að úthluta einstökum kennitölum við hluti eins og aðalbókarreikninga, viðskiptavinar- og seljanda, reikninga og önnur skjöl. Númeraröð er ekki aðeins mikilvæg fyrir auðkenningu. Vel unnið númerakerfi gerir einnig auðveldara að stýra og greina fyrirtækið og getur fækkað villum sem upp koma í gagnafærslu.
@@ -57,8 +57,8 @@ Ekki allar færslur sem stofnaðar eru í [!INCLUDE[d365fin](includes/d365fin_md
 > Ef þú þarft að virkja handvirka númerun á til dæmis nýjum birgðaspjöldum sem hafa verið stofnuð með gagnaflutningsferli sem hefur falið **Nr.** sjálfgefið, þá er farið á síðuna **Uppsetning birgða** og valinn reiturinn **Vörunr.** til að opna og stilla tengda númeraröð á **Handfærð nr.röð**.
 
 ## <a name="to-create-a-new-number-series"></a>Til að búa til nýja númeraröð
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Númeraraðir** og veldu síðan tengda tengilinn.
-2. Valið er **Nýtt** aðgerð.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Númeraröð** og veldu síðan tengda tengilinn.
+2. Valið er aðgerðin **Nýtt**.
 3. Fyllt er í reitina í nýju línunni. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Veljið aðgerðina **Línur**.
 5. Á síðunni **Númeraraðarlínur nr.** fyllið inn reitina til að skilgreina raunnotkun og innihald númeraraðarinnar sem var stofnuð í skrefi 2.
@@ -66,7 +66,7 @@ Ekki allar færslur sem stofnaðar eru í [!INCLUDE[d365fin](includes/d365fin_md
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Til að setja upp hvar númeraröð er notuð
 Eftirfarandi málsmeðferð sýnir hvernig á að setja númeraröð fyrir sölustaðinn. Skrefin eru svipuð fyrir önnur svæði.
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sala og útistandandi** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölugrunnur** og veldu síðan tengda tengilinn.
 2. Á síðunni **Sala**, í **Númeraröð**, veldu viðkomandi númeraröð fyrir hvert sölukort eða skjal.
 
 Völdu númerið verður nú notað til að fylla út **Nr.** Sviði á viðkomandi korti eða skjali, í samræmi við þær stillingar sem þú gerðir á númeraröðinni.
@@ -74,13 +74,15 @@ Völdu númerið verður nú notað til að fylla út **Nr.** Sviði á viðkoma
 ## <a name="to-create-relationships-between-number-series"></a>Stofnun tengsla milli númeraraða
 Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund grunnupplýsinga eða færslna er hægt að stofna tengsl milli kótanna. Með þessari aðgerð er auðvelt að velja á milli kóta þegar númer er notað.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Númeraraðir** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Númeraröð** og veldu síðan tengda tengilinn.
 2. Velja skal línuna með númeraröðinni sem á að stofna tengsl við. og veljið síðan **Tengsl**.
 3. Færður er inn í reitinn **Raðarkóti** kóti fyrir númeraröðina sem á að tengja við röðina sem valin var í 2. þrepi.
 4. Bætt er við línu fyrir hvern kóta sem á að tengja völdum númeraröðum.
 5. Lokaðu síðunni.
 
 Þegar eitthvað er sett upp eftir þetta sem þarfnast númers er hægt að nota tengslin sem voru stofnuð til að velja úr skyldum númeraröðum.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesnumber-series-trail-codes-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

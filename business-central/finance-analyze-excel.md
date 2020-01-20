@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 858116d656ef264c7c9445596c8b5345da944c8e
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302552"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952578"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Greina fjárhagsskýrslur í Excel Microsoft Excel.
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] geturðu séð afkastavísa (KPIs) og fengið yfirlit yfir fjárhagsstöðu fyrirtækisins. Þú getur einnig opnað lista í Excel og greint gögnin þar. En þú getur einnig flutt út stórar fjárhagsskýrslur eins og t.d. efnahagsreikning eða rekstrarreikning til Excel, greint gögnin og prentað út skýrslurnar.  
@@ -40,6 +40,8 @@ Segjum sem svo að þú viljir grafa dýpra í sjóðstreymi þitt. Frá Hlutver
 [!INCLUDE[d365fin](includes/d365fin_md.md)] Upplifun þín inniheldur innbót fyrir Excel. Það fer eftir áskriftinni, hvort þú ert skráður inn sjálfkrafa eða þarft að tiltaka sömu aðgangsupplýsingar og þú notar fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 Með innbótinni geturðu fengið fersk gögn frá [!INCLUDE[d365fin](includes/d365fin_md.md)], og þú getur ýtt breytingum aftur inn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Eiginleikin sem felur í sér að ýta gögnum aftur inn í gagnagrunninn er hins vegar óvirkur fyrir Excel fjárhagsskýrslur á listanum hér að ofan.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  

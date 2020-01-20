@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/15/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f24e6da71d32e162b107b0e0b9e01cb68cc302
-ms.sourcegitcommit: 23577ae8ecaaf09b58716c2b9f65e39c188e3661
+ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2810814"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910833"
 ---
 # <a name="set-up-email"></a>Setja upp tölvupóst
 Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú að fylla út reitina á síðunni SMTP-póstuppsetning.
@@ -30,7 +30,7 @@ Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d3
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > Ef þú ert að nota reikning sem krefst tveggja þátta staðfestingar verður aðgangsorðið sem þú slærð inn í reitinn **Aðgangsorð** að vera það sama og þú notar fyrir Office 365 áskriftina þína og það verður að vera af gerðinni **Aðgangsorð fyrir forrit**. Frekari upplýsingar er að finna í [Stjórna aðgangsorðum forrita fyrir tvíþætta staðfestingu](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+    > Ef þú ert að nota reikning sem krefst tveggja þátta staðfestingar verður aðgangsorðið sem þú slærð inn í reitinn **Aðgangsorð** að vera það sama og þú notar fyrir Office 365 áskriftina þína og það verður að vera af gerðinni **Aðgangsorð fyrir forrit**. Frekari upplýsingar er að finna í [Stjórna aðgangsorðum forrita fyrir tvíþætta staðfestingu](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
 3. Þú getur einnig valið **Nota stillingar Office 365 Stillingar vefþjóns** aðgerðina til að setja inn upplýsingar sem eru þegar skilgreindar fyrir Office 365 áskriftina þína.
 4. Þegar allir reitir eru fylltir út velurðu aðgerðina **Prófa tölvupóstuppsetningu**.
 5. Þegar prófið hefur tekist skal loka síðunni.
@@ -51,7 +51,7 @@ Eftirfarandi eru dæmi um hvernig Senda sem og Senda fyrir hönd eru notuð í [
 2. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP uppsetning tölvupósts**, og veldu síðan tengda tengilinn.
 3. Í reitnum **Senda sem** skal færa inn staðgengilsnetfangið.
 4. Afritaðu eða skráðu netfangið niður í reitinn **Notandakennið**.
-5. Í **Stjórnandamiðstöð Exchange** skaltu finna pósthólfið sem á að nota sem staðgengilsnetfang og færðu síðan inn netfangið úr reitnum **Notandakenni** í reitnum **Senda sem**. Frekari upplýsingar er að finna í [Stjórna heimildum fyrir viðtakendur](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. Í **Stjórnandamiðstöð Exchange** skaltu finna pósthólfið sem á að nota sem staðgengilsnetfang og færðu síðan inn netfangið úr reitnum **Notandakenni** í reitnum **Senda sem**. Nánari upplýsingar eru í [Nota EAC til að úthluta heimildum til einstakra pósthólfa](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Til að nota staðgengilsnetfangið í samþykktarverkflæðum
 1. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP uppsetning tölvupósts**, og veldu síðan tengda tengilinn.

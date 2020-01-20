@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: d007c3a9433807f75e667e130c0b79355a4a051a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 273da0c35e6c4ca376f38ceede1568f5df5b4b15
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876745"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953084"
 ---
 # <a name="receive-items"></a>Móttaka vara
 Þegar vörur berast í vöruhús sem er ekki sett upp fyrir vinnslu vöruhúsamóttöku þarf einfaldlega að skrá móttökuna á viðeigandi viðskiptaskjal, eins og t.d. innkaupapöntun, sölvöruskilapöntun, eða millifærslupöntun á innleið.
@@ -74,6 +74,8 @@ Ef vöruhúsafrágangur er ekki notaður, en hólf, skráir kerfið frágang var
 >  Ef aðgerðin **Bóka og prenta**, er notuð er móttakan bókuð ásamt því að frágangsleiðbeiningar sem sýna hvaða vörur á að setja í geymslu eru prentaðar.  
 >   
 >  Ef staðsetningin notar beinan frágang og tínslu notar kerfið frágangssniðmátin til að reikna út besta staðinn til að ganga frá vörunum. Þetta er síðan prentað í frágangsfyrirmælunum.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesreceive-invoice-dynamics-d365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

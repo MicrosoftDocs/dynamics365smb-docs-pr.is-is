@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2152e5535f35be234753895ca024791f912f6869
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301541"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911096"
 ---
 # <a name="finance"></a>Fjármál
 [!INCLUDE[d365fin](includes/d365fin_md.md)] felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
@@ -31,7 +31,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Jafna greiðslur á innleið, stemma af bankareikninga við jöfnun greiðslu og innheimta útistandandi skuldir. |[Stjórnun skulda](receivables-manage-receivables.md) |
 | Framkvæma greiðslur, jafna greiðslur á útleið og vinna með ávísanir. |[Stjórna skuldum](payables-manage-payables.md) |
 |Láttu viðskiptavini þína senda inn greiðslu áður en þú afhendir þeim, eða senda inn greiðslu til lánardrottna þinna áður en þeir afhenda þér.|[Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)|
-| Stemma af bankareikninga og færa fjármuni milli bankareikninga. |[Stjórna bankareikningum](bank-manage-bank-accounts.md) |
+| Stemma af bankareikninga og færa fjármuni milli bankareikninga. |[Afstemming bankareikninga](bank-manage-bank-accounts.md) |
 |Setja upp millifyrirtækjafélaga og vinna færslur, handvirkt eða sjálfvirkt, á milli lögaðila innan sama fyrirtækis.|[Vinna með millifyrirtækjafærslur](intercompany-manage.md)|
 |Greina kostnaðinn sem hlýst af því að reka fyrirtækið með því að úthluta raunverulegum og áætluðum kostnaði aðgerða, deilda, afurða og verkefna til kostnaðarstaða.|[Kostnaðarreikningur](finance-manage-cost-accounting.md)|
 |Stjórna birgða- og framleiðslukostnaði, búa til skýrslu um kostnað og afstemma kostnað við færslubókina.|[Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)|

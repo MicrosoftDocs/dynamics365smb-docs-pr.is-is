@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 23027c809571512c99d75860c108aa4a23ca5477
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 576e974221d6fb1e7aa92b200338e32b1339b4d3
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307565"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953828"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum
 Notaðu reikningsáætlanir til að fá innsýn í fjárhagsupplýsingar sem eru geymdar í bókhaldslyklum. Fjárhagsskemu eru notuð til að greina upphæðir í fjárhagsreikningi og bera saman fjárhagsfærslur og færslur í fjárhagsáætlunarskýrslu. Niðurstöðurnar birtast í myndritum í Mínu hlutverki, eins og myndrit sjóðstreymis, og í skýrslum á borð við tekjuyfirlit og skýrslum efnahagsreiknings.
@@ -45,7 +45,7 @@ Fjárhagsskemu í stöðluðu útgáfunni af [!INCLUDE[d365fin](includes/d365fin
 
 Á síðunni **Yfirlit fjárhagsskema** er þar sem fjárhagsskýrsla er forskoðuð sem fjárhagsskemað skilgreinir. Í eftirfarandi er mikilvægt að skilja að það sem er sett upp sem línur og dálkar fjárhagsskema er aðeins hægt að sjá og staðfesta á síðunni **Yfirlit fjárhagsskema**, sem er opnuð í fjárhagsskema með því að velja aðgerðina **Yfirlit**. Sjálf síðan **Fjárhagsskema** er aðeins uppsetningarsvæði.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **fjárhagsskema** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsskema** eða Lánardrottinn og veldu síðan tengda tengilinn.  
 2. Á síðunni **Heiti fjárhagsskema** skal velja aðgerðina **Nýtt** til að búa til nýtt heiti á fjárhagsskema.
 3. Að öðrum kosti skal velja aðgerðina **Afrita fjárhagsskema**, fylla í reitina tvo, og velja svo hnappinn **Í lagi**.
 4. Fyllið inn reitina eftir þörfum. Í reitnum **Sjálfgefin dálkauppsetning** skal velja fyrirliggjandi útlit. Hægt er að breyta því síðar.
@@ -77,7 +77,7 @@ Dálkauppsetningar eru notaðar til að skilgreina dálkana sem eiga að vera í
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Stofnun dálks sem reiknar prósentur:  
 Stundum getur verið þörf á dálkum í fjárhagsskema til að reikna prósentur heilda. Til dæmis, ef nokkrar línur skipta sölu eftir vídd kann að vera þörf á dálki sem birtir prósentu heildarsölu sem hver lína stendur fyrir.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **fjárhagsskema** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsskema** eða Lánardrottinn og veldu síðan tengda tengilinn.
 2. Á síðunni **Heiti fjárhagsskema** veljið fjárhagsskema.  
 3. Veljið aðgerðina **Breyta fjárhagsskema** til að setja upp fjárhagsskemalínu til að reikna heildina sem prósenturnar munu byggjast á.  
 4. Setjið inn línu beint fyrir ofan fyrstu línuna sem birta á prósentur fyrir.  
@@ -89,7 +89,7 @@ Stundum getur verið þörf á dálkum í fjárhagsskema til að reikna prósent
 ## <a name="to-set-up-account-schedules-with-overviews"></a>Uppsetning fjárhagsskema með yfirlitum  
 Hægt er að nota fjárhagsskema til að búa til reikning sem ber saman upphæðir fjárhagsreiknings og fjárhagsáætlunar.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **fjárhagsskema** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsskema** eða Lánardrottinn og veldu síðan tengda tengilinn.
 2. Á síðunni **Heiti fjárhagsskema** veljið fjárhagsskema.  
 3. Veljið aðgerðina **Breyta fjárhagsskema**.  
 4. Á síðunni **Fjárhagsskema** skal velja heiti sjálfgefins fjárhagsskema í reitnum **Heiti**.
@@ -192,6 +192,7 @@ Ef þú vilt reikna eftir venjulegum tímabilum þarf í staðinn að slá inn r
 > [!NOTE]
 > Það er ekki alltaf augljóst hvaða tímabil þú ert að bera saman vegna þess að þú getur stillt afmörkunardagsetningu í skýrslu sem nær yfir aðrar dagsetningar en reikningstímabilin sem endurspeglast í gögnum bókhaldslykilsins. Til dæmis stofnar þú fjárhagsskema þar sem þú vilt bera þetta tímabil saman við sama tímabil í fyrra, þannig að þú stillir reitinn **Afmörkunartímabil samanburðardagsetningar** á *-1FY*. Síðan keyrir þú skýrsluna 28. febrúar og setur afmörkunardagsetninguna á janúar og febrúar. Fyrir vikið ber fjárhagsskemað saman janúar og febrúar á þessu ári við janúar á síðasta ári, sem er eina reikningstímabilið sem hefur verið lokið á þessum tveimur árum.  
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-financial-reports-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptaupplýsingar](bi.md)  

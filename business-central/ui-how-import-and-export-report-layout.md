@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 97f66d28576586c4e09c0bc700785eac969d316a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8ec498030368aa2e6378068c88910b787c3632f8
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881967"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954043"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Flytja sérsniðið skýrsluútlit inn og út
 Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skrá í og úr staðsetningu á tölvu og neti. Til dæmis er hægt að flytja út skýrsluútlit og senda síðan skrána til einhvers annars til breytinga. Sá einstaklingur getur gert breytingarnar á útlitinu og skilað skránni til þín til að flytja aftur inn.  
@@ -48,6 +48,8 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 5.  Í svarglugganum **Flytja inn** skal velja skjalið sem skilgreinir skýrsluútlitið og svo velja **Opna** hnappinn.  
 
  Upprunalega sérsniðna skýrsluútlitinu er skipt út með innflutta skýrsluútlitinu.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig  
  [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md)   

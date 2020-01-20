@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ecceb1fc9ccc5245ef5305d9723f26e6270de79e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311429"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953303"
 ---
 # <a name="change-basic-settings"></a>Breyta grundvallarstillingum
 
@@ -30,7 +30,7 @@ Mitt hlutverk táknar heimasíðuna, upphafssíðu sem er hönnuð fyrir þarfir
 
 ### <a name="to-change-the-role"></a>Til að breyta hlutverki
 Sjálfgefið hlutverk þitt er **Viðskiptastjórnandi**, en hægt er að velja annað hlutverk sem uppfyllir þarfir þínar betur.
-1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingar tákn fyrir miðstöð") og velja síðan aðgerðina **Stillingar mínar**.
+1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan aðgerðina **Stillingar mínar**.
 2. Á síðunni **Mínar stillingar** á svæðinu **Hlutverk**, skal velja hlutverkið sem á að nota sem sjálfgefið. Veljið til dæmis **Bókari**.
 3. Velja hnappinn **Í lagi**.
 
@@ -42,14 +42,14 @@ Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn. 
 ## <a name="to-change-the-company-name"></a>Til að breyta heiti fyrirtækis
 Heiti fyrirtækisins er alltaf birt efst í vinstra horninu og virkar sem aðgerð sem hægt er að velja til að fara til baka í Mitt hlutverk. Þú getur breytt þessu heiti á síðunni **Upplýsingar um fyrirtækið**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Upplýsingar um fyrirtæki** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofngögn** og veldu síðan tengda tengilinn.
 2. Heiti nýja fyrirtækisins er ritað í reitinn **Heiti**.
 3. Fara af síðunni. Kerfið endurræsir og sýnir heitið á nýja fyrirtækinu í horninu efst til vinstri.
 
 ## <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a>Til að birta fyrirtækjamerkis fyrir flýtiaðgang að fyrirtækisupplýsingum  
 Hægt er að bæta við sérstilltum merkimiða efst í hægra horninu, þar sem hægt er að velja að fljótlegt sé að skoða upplýsingar um fyrirtæki og leigjandaupplýsingar í sprettiglugga.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Upplýsingar um fyrirtæki** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofngögn** og veldu síðan tengda tengilinn.
 2. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Fyrirtækismerki**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
@@ -83,6 +83,8 @@ Upphafstungumálið er annaðhvort ákveðið af kerfisstjóra eða stillingum v
 
 ## <a name="changing-when-i-receive-notifications"></a>Breyta þegar ég fæ tilkynningar
 Velja þennan hlekk til að skoða eða breyta tilkynningum um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu, eða þegar tiltækar birgðir eru lægri en magnið sem þú ert að fara að selja. Nánari upplýsingar er að finna í [Stjórnun tilkynninga](ui-smart-notifications.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Stofna ný fyrirtæki](about-new-company.md)  

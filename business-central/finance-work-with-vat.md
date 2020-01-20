@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: e9e8ecf2c53a168fe0dee28a8e9dce8b2db11fa4
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: cea6e77533d159884abf38a1e1e70aaebe21ea9c
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882447"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953636"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Unnið með VSK í sölu og innkaupum
 Ef þitt land eða svæði krefst þess að reiknaður sé VSK skattur á sölu- og innkaupafærslur svo hægt sé talið upphæðirnar fram til skattayfirvalda, geturðu sett upp [!INCLUDE[d365fin](includes/d365fin_md.md)] þannig að VSK verði reiknaður sjálfkrafa á sölu- og innkaupaskjölum. Frekari upplýsingar, sjá [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md).
@@ -176,6 +176,8 @@ Til að skoða vottorðahóp byrjarðu á síðunni **Afhendingarvottorð** og u
     >   
     > * Til að stofna vottorð afhendingarvottorðs handvirkt  
     > * Til að prenta afhendingarvottorð.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)   

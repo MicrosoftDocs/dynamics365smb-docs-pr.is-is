@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: c843f0fb6c8017817ada9dc5bf2af0ef68a5cc5a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: a069fb7df3738b1f42aa2ddc86ce95144c39daff
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878749"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952843"
 ---
 # <a name="using-include-prodlongincludesprodlongmd-as-power-bi-data-source-for-building-reports"></a>Notkun [!INCLUDE [prodlong](includes/prodlong.md)] sem Power BI gagnagjafa fyrir skýrslugerð
 
@@ -41,6 +41,8 @@ Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes
 Áður en þú býrð til skýrsluna mælum við með að þú flytjir inn [!INCLUDE [prodshort](includes/prodshort.md)] þemaskrána.  Þemaskráin mun búa til litaspjald þannig að þú getir búið til skýrslur í sama litastíl og [!INCLUDE [prodshort](includes/prodshort.md)] forrit án þess að þurfa að skilgreina sérsniðna liti fyrir hvert myndefni.
 
 Frekari upplýsingar er að finna í [Power BI skráning](/power-bi/consumer/power-bi-consumer-landing/).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 

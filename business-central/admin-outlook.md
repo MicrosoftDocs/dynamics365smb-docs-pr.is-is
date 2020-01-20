@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/22/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 5098087fc5d4ea821e32d644c159deeb5289b837
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879131"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953019"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Notkun Business Central sem fyrirtækjainnhólf í Outlook
 
@@ -69,6 +69,8 @@ Til dæmis, ef þú færð tölvupóstskeyti sem nefnir textann *S-QUO100*, skil
 ## <a name="using-other-email-accounts"></a>Notkun annarra tölvupóstreikninga
 
 Viðbæturnar eru ætlaðar til notkunar með Office 365. Ef þú notar [!INCLUDE [prodshort](includes/prodshort.md)] á staðnum veit stjórnandinn þinn hvort þú getir notað [!INCLUDE [prodshort](includes/prodshort.md)]-innbæturnar í Outlook. Nánari upplýsingar er að finna í [Hvaða netfang get ég notað með [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#what-email-address-can-i-use-with-) og [Eiginleikar sem krefjast ákveðinna aðstæðna](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 

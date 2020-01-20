@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46b18910efb1abb8df1ef1f427933f75deb3912c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8cf6c70c3794a5f231f9072d01d671afdebc54ca
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305261"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952940"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Setja upp skilgreiningar gagnaskipta
 Hægt er að setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] til að skiptast á gögnum í tilgreindum töflum með gögnum á ytri skjölum, til dæmis senda og taka á móti rafrænum skjölum, flytja inn og flytja út bankagögn eða önnur gögn, t.d. launaskrá, gengi gjaldmiðils og vörulista. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).  
@@ -110,7 +110,10 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
 > [!NOTE]  
 >  Tilgreind vörpun ræðst af tilgangi viðskipta í gagnaskránni sem á að skipta og staðbundnum tilbrigðum. Jafnvel SEPA-bankastaðallinn er einnig með staðbundin afbrigði. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður innflutning SEPA CAMT bankayfirlitsskrám \-út\-úr\-boxinu. Þetta er kemur fram í **SEPA CAMT** skilgreiningarfærslukóðanum fyrir gangaskipti á síðunni **Skilgreiningar gagnaskipta**. Upplýsingar um tilgreinda reitavörpun þessa SEPA CAMT stuðnings eru í [Reitavörpun við innflutning á SEPA CAMT skrám](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Að tengja dálka í gagnaskránni við reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)]   
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Að tengja dálka í gagnaskránni við reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+> [!TIP]
+> Stundum eru önnur gildi í reitunum sem á að varpa. Til dæmis, í einu viðskiptaforriti er tungumálakóðinn fyrir Bandaríkin „U.S.“ en í öðru er hann „US.“ Það þýðir að þú verður að umbreyta gildinu þegar þú skiptist á gögnum. Þetta gerist í gegnum breytingareglur sem eru skilgreindar fyrir svæðin. Frekari upplýsingar er að finna í [Umbreytingarreglur](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
+
 1. Á flýtiflipanum **Línuskilgreiningar** skal velja línuna sem á að varpa dálkum í reiti fyrir og velja svo **Reitavörpun**. Síðan **Vörpun gagnaskipta** opnast.  
 2. Á flýtiflipanum **Almennt** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
@@ -138,9 +141,44 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
 
 Gagnaskiptaskilgreining er tilbúin til virkjunar fyrir notendur. Frekari upplýsingar er að finna í [Setja upp Rafræn skjöl Sending Móttaka](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Setja upp SEPA kreditfærslu](finance-how-to-set-up-sepa-credit-transfer.md), [Hvernig á að: Setja upp SEPA beingreiðslu](finance-how-to-set-up-sepa-direct-debit.md), og [Setja upp umreikningsþjónustu fyrir bankagögn eða SEPA kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
-Þegar stofnuð hefur verið skilgreining gagngaskipta fyrir tiltekna gagnaskrá er hægt að flytja skilgreiningu gagnaskiptanna út sem xml-skrá sem hægt er að nota til að virkja í flýti innflutning á umræddri gagnaskrá. Þessu er lýst í eftirfarandi ferli.  
+### <a name="transformation-rules"></a>Umbreytingarreglur
+Ef gildin í reitunum sem verið er að skrá eru mismunandi verður að nota umbreytingarreglur fyrir skilgreiningar gagnaskipta til að gildin verði þau sömu. Umbreytingarreglur fyrir gagnaskiptaskilgreiningar eru skilgreindar með því að opna fyrirliggjandi skilgreiningu eða búa til nýja skilgreiningu og síðan í flýtiflipanum **Línuskilgreiningar** skal velja **Stjórna** og síðan **Reitavörpun**. Boðið er upp á forskilgreindar reglur, en einnig má búa til sínar eigin. Í eftirfarandi töflu er tegundum umbreytinga lýst sem hægt er að nota.
 
-### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Til að flytja gagnaskiptiskilgreiningu út sem XML skrá til afnota fyrir aðra  
+|Valkostur|Description|
+|---------|---------|
+|**Hástafir**|Gera alla stafi að hástöfum.|
+|**Lágstafir**|Gera alla stafi að lágstöfum.|
+|**Hástafir fremst í orði**|Breyta upphafsstaf hvers orðs í hástaf.|
+|**Klippa**|Fjarlægja tóm bil fyrir og eftir gildið.|
+|**Undirstrengur**|Umbreyta tilteknum hluta gildis. Til að tilgreina hvar eigi að hefja umbreytingu skal velja annaðhvort **Upphafsstaða** eða **Upphafstexti**. Upphafsstaða er tala sem táknar fyrsta stafinn sem á að umbreyta. Upphafstexti er bókstafurinn á undan stafnum sem á að skipta út. Ef ætlunin er að byrja á fyrsta stafnum í gildinu skal nota upphafsstöðu í staðinn. Til að tilgreina hvar eigi að stöðva umbreytinguna er annaðhvort valið **Lengd**, sem er fjöldi stafa sem á að skipta út, eða **Endatexti**, sem er sá stafur sem strax á eftir síðasta stafnum sem á að umbreyta.|
+|**Skipta um**|Finna skal gildi og skipta því út fyrir annað gildi. Þetta er gagnlegt til að skipta út einföldum gildunum, t.d. tilteknu orði.|
+|**Regluleg segð - Skipta út**|Nota skal reglubundna segð sem hluta af aðgerð til að finna og skipta út. Þetta er gagnlegt til að skipta út mörgum, eða ef til vill flóknari, gildum.|
+|**Fjarlægja stafi sem ekki eru bók-/tölustafir**|Eyddu stöfum sem eru ekki bókstafir eða tölustafir, t.d. tákn eða sérstafir.|
+|**Dagsetningarsnið**|Tilgreina hvernig á að birta dagsetningar. Til dæmis er hægt að umbreyta DD-MM-ÁÁÁÁ í ÁÁÁÁ-MM-DD.|
+|**Tugatölusnið**|Skilgreina reglur fyrir staðsetningu tugabrota og sléttunarnákvæmni.|
+|**Samsvörun í reglulegum segðum**|Nota skal reglulega segð til að finna eitt eða fleiri gildi. Þetta er svipað og **Undirstrengur** og **Regluleg segð - Skipta út** valmöguleikarnir.|
+|**Endurmat**|Þetta er ítarlegur valkostur sem krefst aðstoðar frá þróunaraðila. Það virkjar samþættingartilvik sem hægt er að gerast áskrifandi að ef áhugi er fyrir því að nota eigin umbreytingarkóða. Ef þú ert þróunaraðili og vilt nota þennan valkost skaltu sjá [dæmi](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option) hér að neðan.|
+|**Dag- og tímasetningasnið**|Skilgreina hvernig á að birta núverandi dagsetningu sem og tíma dags.|
+
+#### <a name="tip-for-developers-example-of-the-custom-option"></a>Ábending til þróunaraðila: Dæmi um sérstillta valkosti
+Eftirfarandi dæmi sýnir hvernig á að innleiða eigin umbreytingarkóða.
+
+```
+codeunit 60100 "Hello World"
+{
+    [EventSubscriber(ObjectType::Table, Database::"Transformation Rule", 'OnTransformation', '', false, false)]
+    procedure OnTransformation(TransformationCode: Code[20]; InputText: Text; var OutputText: Text)
+    begin
+        if TransformationCode = 'CUST' then
+            OutputText := InputText + ' testing';
+    end;
+}
+```
+Þegar búið er að skilgreina reglurnar er hægt að prófa þær. Í hlutanum **Prófun** skal slá inn dæmi um gildi sem á að umbreyta og síðan athuga niðurstöðurnar.
+
+### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Til að flytja gagnaskiptiskilgreiningu út sem XML skrá til afnota fyrir aðra
+Þegar stofnuð hefur verið skilgreining gagngaskipta fyrir tiltekna gagnaskrá er hægt að flytja skilgreiningu gagnaskiptanna út sem XML-skrá sem hægt er að flytja inn. Þessu er lýst í eftirfarandi ferli.  
+
 1. Í reitnum **Leit** skal færa inn **Gagnaskiptaskilgreiningar** og velja síðan viðkomandi tengil.  
 2. Velja gagnaskiptiskilgreininguna sem á að flytja út.  
 3. Velja skal aðgerðina **Skilgreining gagnaskipta í útflutningi**.  

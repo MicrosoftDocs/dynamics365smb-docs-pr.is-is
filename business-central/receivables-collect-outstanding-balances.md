@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 575e46f7988184f52cddf8e986a7aef05a61804b
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316645"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953468"
 ---
 # <a name="collect-outstanding-balances"></a>Innheimta útistandandi skuldir
 Í stjórnun útistandandi skulda felst að kanna hvort upphæðir sem falla í gjalddaga eru greiddar tímanlega. Ef viðskiptamenn eru í vanskilum geturðu sent yfirlitsskýrslu Viðskiptamanns sem innheimtubréf. Þú getur einnig gefið út innheimtubréf.
@@ -118,7 +118,7 @@ Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að 
 Á síðunni **Innheimtubréf** geturðu fyllt í flýtiflipann **Almennt** handvirkt og svo látið fylla í línurnar sjálfvirkt.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innheimtubréf** og veldu síðan tengda tengilinn.
-2. Valið er **Nýtt** aðgerð.
+2. Valið er aðgerðin **Nýtt**.
 3. Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt**.
 4. Veljið aðgerðina **Leggja til innheimtubr.línur**.
 5. Í runuvinnslunni **Leggja til innheimtubr.línur** skal fylla út reitina til að skilgreina hvernig og til hvaða aðila innheimtubréfin skulu stofnuð.
@@ -183,7 +183,7 @@ Hægt er að reikna vexti með því að nota annaðhvort regluna um meðaltal d
 
 Að auki er sérhver kóti í töflunni Vaxtaskilmálar tengdur undirtöflunni Vaxtatexti. Fyrir hvern vaxtagjalddaga er hægt að skilgreina byrjunar- og/eða lokatexta sem verður prentaður á vaxtareikninginn.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaxtaskilmálar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaxtaskilmálar** eða Lánardrottinn og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum.
 3. Eigi að nota fleiri en eina samsetningu vaxtaskilmálar þarf að setja upp kóta fyrir hverja þeirra.
 
@@ -259,6 +259,8 @@ Ef vaxtareikningar voru gefnir út fyrir mistök er hægt að hætta við þá �
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  
 2. Opna skal viðeigandi viðskiptamannaspjald og veljið síðan aðgerðina **fjárhagsfærslur**.
 3. Á síðunni **Færslur í viðskiptamannabók** er smellt er á línuna með bókarfærslunni sem á að skoða innheimtubréfafærslur fyrir og síðan er smellt á **Innheimtubréf/Vaxtafærslur**.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-financial-periodic-activities-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skulda](receivables-manage-receivables.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/21/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649789"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953276"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum
 
@@ -23,7 +23,10 @@ ms.locfileid: "2649789"
 
 Til að skoða eða breyta einhverjum þessara tengdu upplýsingargerða verður fyrst að opna flipann **Viðhengi** í upplýsingareitnum. Talan fyrir aftan dálktitilinn gefur til kynna hversu margar viðhengdar skrár, tenglar eða upplýsingar eru til staðar fyrir kortið eða skjalið.
 
-Viðhengi, tenglar og athugasemdirnar eru hengd við sem spjaldið eða skjalið er unnið úr í öðrum stöðum, t.d. frá yfirstandandi sölupöntun á bókuðum sölureikningi. Athugið hins vegar að engin af viðhengisgerðunum er úttak úr kerfinu, til dæmis við prentun eða þegar verið er að vista í skrá.
+Viðhengi, tenglar og athugasemdirnar eru hengd við sem spjaldið eða skjalið er unnið úr í öðrum stöðum, t.d. frá yfirstandandi sölupöntun á bókuðum sölureikningi. Hins vegar eru engar viðhengisgerðirnar úttak úr kerfinu, til dæmis við prentun eða þegar verið er að vista í skrá.
+
+> [!NOTE]
+> Þegar verið er að senda og reikningsfæra sölupöntun eða innkaupapöntun verður viðhengið aðeins hengt við endanlegan reikning þeirrar pöntunar. Sömuleiðis, þegar verið er að reikningsfæra með frestunaraðgerðinni, tengist viðhengið aðeins fjárhagsfærslum skjalsins en ekki fyrir frestunarfærslur.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Til að hengja skrá við innkaupareikning
 Hægt er að tengja allar gerðir skráa, sem innihalda texta, mynd eða myndskeið við spjald eða skjal. Þetta er til dæmis gagnlegt þegar óskað er eftir að vista reikning lánardrottins sem PDF-skrá á tengdum innkaupareikningi í [!INCLUDE[d365fin](includes/d365fin_md.md)].

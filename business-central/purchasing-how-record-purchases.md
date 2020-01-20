@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 078313bb3f437734b6e52f51b6d6512ebf09f1df
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0e91b685f6a8926322ab338b3c060fdac1ff8982
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881427"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954141"
 ---
 # <a name="record-purchases"></a>Skrá innkaup
 Innkaupareikningur eða innkaupapöntun er stofnaður til að skrá kostnaðarverð keyptra vara og til að rekja viðskiptaskuldir. Ef stjórna þarf birgðum eru innkaupareikningar og innkaupapantanir líka notaðir til að uppfæra birgðastig gagnvirkt svo að hægt sé að lágmarka birgðakostnað og veita betri þjónustu við viðskiptavini. Innkaupakostnaður, að þjónustukostnaði meðtöldum, og birgðavirði af völdum bókunar innkaupareikninga eða -pantana verða hluti af framlegðartölum og öðrum fjárhagslegum afkastavísum í Mitt hlutverk.
@@ -35,7 +35,7 @@ Birgðaspjaldið getur verið af gerðinni **Birgðir**, **Þjónusta** og **Ekk
 
 Hægt er að fylla út  lánardrottnareitina í innkaupareikningunum með tveimur leiðum, eftir því hvort lánardrottinninn hefur þegar verið skráður.
 <br><br>  
-  
+
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt]
 
 ## <a name="to-create-a-purchase-invoice"></a>Að Stofna innkaupareikning
@@ -79,6 +79,8 @@ Hægt er að fylla út  lánardrottnareitina í innkaupareikningunum með tveimu
 13. Þegar tekið er við innkeyptar vörur eða þjónustu velja **Bóka**.
 
 Innkaupin eru nú skráð í birgðafærslum og fjármálafærslum og greiðsla lánardrottins er virkjuð. Innkaupareikningurinn er fjarlægður af lista innkaupareikninga og skipt út fyrir nýtt fylgiskjal á lista bókaðra innkaupareikninga.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocessing-invoices-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  

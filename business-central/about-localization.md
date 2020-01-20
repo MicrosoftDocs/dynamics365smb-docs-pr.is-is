@@ -8,28 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: edupont
-ms.openlocfilehash: 830c12f64c3701b583cf9569f85c67224941f77f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 572e56b6d1ba95a427faed89c2f86471c0fea929
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881241"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952891"
 ---
-# <a name="local-functionality-in-included365fin_longincludesd365fin_long_mdmd"></a>Staðbundin virkni í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="local-functionality-in-includeprodlongincludesprodlongmd"></a>Staðbundin virkni í [!INCLUDE[prodlong](includes/prodlong.md)]
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur sameinaða staðfæringarstefnu sem inniheldur líkön sem eru bæði stýrð af Microsoft og samstarfsaðilum. Í þessum hluta geturðu séð lýsingar á virkni sem á við um löndin þar sem Microsoft veitir eftirfylgni við lög og reglugerðir og aðra staðbundna virkni.  
 
 Upplýsingar um studda markaði má finna á [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 ## <a name="local-functionality"></a>Staðbundin virkni
+
 Til að fá frekari upplýsingar um staðbundna virkni fyrir hvert land skaltu velja þann tengil sem á við:
 
 | Svæði | Land | Meiri upplýsingar |
 | --- | --- |--- |
 | Evrópa |  | |
 |        | Austurríki | [Staðbundnar aðgerðir Austurríkis](localfunctionality/austria/austria-local-functionality.md) |
-|        | Belgía |  [Staðbundnar aðgerðir fyrir Belgíu](localfunctionality/belgium/belgium-local-functionality.md) |
+|        | Belgía | [Staðbundnar aðgerðir fyrir Belgíu](localfunctionality/belgium/belgium-local-functionality.md) |
+|        | Tékkland | [Staðbundnar aðgerðir fyrir Tékkland](localfunctionality/czech/czech-local-functionality.md) |
 |        | Danmörk | [Staðbundnar aðgerðir fyrir Danmörku](localfunctionality/denmark/denmark-local-functionality.md) |
 |        | Þýskaland | [Staðbundnar aðgerðir fyrir Þýskaland](localfunctionality/germany/germany-local-functionality.md) |
 |        | Finnland | [Staðbundnar aðgerðir fyrir Finnland](localfunctionality/finland/finland-local-functionality.md) |

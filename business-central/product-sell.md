@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 10/01/2019
+ms.date: 12/20/2019
 ms.author: edupont
-ms.openlocfilehash: 964cbf52362db7a5f9131375925adbf8f941938d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 36185512ff17e7044dfc9bb6539d3f7b102472b5
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883335"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918143"
 ---
 # <a name="become-a-reseller-of-included365fin_longincludesd365fin_long_mdmd"></a>Gerast sölumaður [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Auka viðskiptatækifæri með [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
@@ -26,10 +26,7 @@ Ef þú sérhæfir þig í skýjalausnum, Office 365 SharePoint, iðnaðarlausnu
 
 ## <a name="get-started"></a>Hefjast handa
 
-Áætlunin „Tilbúið til notkunar“ er ein leið til að hefjast handa sem endursöluaðili [!INCLUDE [prodshort](includes/prodshort.md)]. Einnig er hægt að hafa samband við skrifstofu Microsoft í þínu landi eða svæði. Frekari upplýsingar um úrlausnir sem standa til boða í gegnum áætlunina „Tilbúið til notkunar“ er að finna í [aka.ms/readytogo](https://aka.ms/readytogo). Lærðu meira um að verða endursöluaðili á [Endurselja mismunandi lausnir](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).  
-
-Skráðu þig fyrir prufu á [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/business-central/overview/
-) og sendu endurgjöf á [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
+Áætlunin „Tilbúið til notkunar“ er ein leið til að hefjast handa sem endursöluaðili [!INCLUDE [prodshort](includes/prodshort.md)]. Einnig er hægt að hafa samband við skrifstofu Microsoft í þínu landi eða svæði. Frekari upplýsingar um úrlausnir sem standa til boða í gegnum áætlunina „Tilbúið til notkunar“ er að finna í [aka.ms/readytogo](https://aka.ms/readytogo), [Endurselja mismunandi lausnir](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) og [Hefjast handa sem endursöluaðili](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## <a name="see-also"></a>Sjá einnig
 
