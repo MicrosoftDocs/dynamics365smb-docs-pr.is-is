@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: db3a3cf0426c97ebebff9c4a486975c44b8d6510
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4f11ac5080c8601ce8ae46178bf5c1ed8bb646e1
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302741"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999572"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Setja upp eignaafskriftir
- Hægt er að nota ýmsar afskriftaaðferðir vegna reikningsskila og skattframtals. Mörg stórfyrirtæki nota beinlínuafskriftir í reikningsskilum vegna þess að með þeim er yfirleitt hægt að tilgreina hærri tekjur. Vegna tekjuskatts nota þó mörg fyrirtæki hraðafskriftaaðferð. Frekari upplýsingar eru í [afskriftaaðferðir](fa-depreciation-methods.md)
+ Hægt er að nota ýmsar afskriftaaðferðir vegna reikningsskila og skattframtals. Mörg stórfyrirtæki nota beinlínuafskriftir í reikningsskilum vegna þess að með þeim er yfirleitt hægt að tilgreina hærri tekjur. Vegna tekjuskatts nota þó mörg fyrirtæki hraðari afskriftaaðferð á borð við hlutfallslega afskrift. Afskriftaraðferð eignar er tilgreind með svæðinu **Afskriftaraðferð** á síðunni **Eignaspjald**. Frekari upplýsingar um hvað mismunandi aðferðir gera eru í [Afskriftaaðferðir](fa-depreciation-methods.md).
 
- Þegar stofnaðar hafa verið viðeigandi afskriftabækur verður að tengja eina eða fleiri afskriftabækur við hverja eign. Afskriftabók sem úthlutað er á eign er vísað til sem afskriftabók eigna. Í samræmi við það heitir síðan fyrir úthlutaðar afskriftabækur **Eignaafskriftabækur**.
+ Í afskriftabækur eru skilgreindar mismunandi leiðir til að reikna út afskriftir fyrir mismunandi eignir. Fyrir hverja bók er hægt að skilgreina sérstakar afskriftareglur. Til dæmis má tilgreina að eign skuli vera afskrifuð á þriggja ára tímabili í einni bók og á fimm ára tímabili í annarri bók.
+
+ Þegar stofnaðar hafa verið viðeigandi afskriftabækur verður að tengja eina eða fleiri afskriftabækur við hverja eign. Afskriftabók sem úthlutað er á eign er vísað til sem afskriftabók eigna. Setja má upp ótakmarkaðan fjölda afskriftabóka fyrir eign. 
 
 ## <a name="to-create-a-depreciation-book"></a>Stofna afskriftabók
 Í eignaafskriftabók er tilgreint hvernig eignir eru afskrifaðar. Ef gera á ráð fyrir margvíslegum afskriftaaðferðum má setja upp margar afskriftabækur.  

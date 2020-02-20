@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 33b2931e14cb7e41cc3e71c327d2237cd8308466
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1e45a480e8fdcc508de8ac82a6d2860147d76cec
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878198"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991785"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Nota Dynamics 365 Sales úr Business Central
 Ef þú notar Dynamics 365 Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.
@@ -76,7 +76,7 @@ Ef lýsingin á vörunni í upprunalegu sölupöntuninni er löng er stofnuð n�
 Uppfærslur á reitum sölupöntunarhauss, t.d. síðasta sendingardagsetning eða umbeðinn afhendingardagur, sem er varpað í SÖLUPÖNTUN-PÖNTUN **Vörpun samþættingartöflu** eru samstilltar reglubundið í [!INCLUDE[crm_md](includes/crm_md.md)]. Ferli eins og losun á sölupöntun og afhendingu eða reikningsfærslu á sölupöntun eru bókuð á tímalínu sölupöntunar í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Kynning á aðgerðastraumum](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
 > [!NOTE]  
-> Reglubundin samstilling byggð á **Vörpun samþættingartöflu** SÖLUPÖNTUNAR-PÖNTUNAR virkar aðeins þegar samþætting sölupöntunar er virkjuð. Frekari upplýsingar er að finna í [Tengt við Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Aðeins sölupantanir búnar til úr innsendum sölupöntunum í [!INCLUDE[crm_md](includes/crm_md.md)] eru samstilltar. Frekari upplýsingar er að finna í [Virkja sölupöntunarferli samþættingar](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Reglubundin samstilling byggð á **Vörpun samþættingartöflu** SÖLUPÖNTUNAR-PÖNTUNAR virkar aðeins þegar samþætting sölupöntunar er virkjuð. Frekari upplýsingar er að finna í [Tengjast við Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Aðeins sölupantanir búnar til úr innsendum sölupöntunum í [!INCLUDE[crm_md](includes/crm_md.md)] eru samstilltar. Frekari upplýsingar er að finna í [Virkja sölupöntunarferli samþættingar](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

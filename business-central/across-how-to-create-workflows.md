@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: bb7c64727979b7e8f53898c03781a24bcf8f40c4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881193"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991833"
 ---
 # <a name="create-workflows"></a>Búa til verkflæði
 Hægt er að stofna verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.  
@@ -59,7 +59,7 @@ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki 
         |**Tilkynna sendanda**|Tilgreindu hvort samþykkisbeiðandi fái tilkynningu í staðinn fyrir viðtakanda samþykkisbeiðninnar. Ef gátreiturinn er valinn er slökkt á reitnum **Notandaauðkenni viðtakanda** vegna þess að tilkynning berst til þess sem sendi beiðnina fær tilkynningu í staðinn. Heiti verkflæðissvars breytist til samræmis, í **Búa til tilkynningu fyrir &lt;Sendanda&gt;**. Ef gátreiturinn er ekki valinn er heiti verkflæðissvars **Búa til tilkynningu fyrir &lt;Notanda&gt;**.
         |**Notandaauðkenni viðtakanda**|Tilgreina þarf notanda sem tilkynningin verður að senda á. Athugið: Þessi valmöguleiki er aðeins tiltækur fyrir verkflæðisvörun með staðarhaldara fyrir tiltekinn notanda. Fyrir verkflæðissvör án staðgengils notenda er móttakandi tilkynningar yfirleitt skilgreinist eftir notandauppsetning samþykktar.|  
         |**Færslugerð tilkynningar**|Tilgreinir hvort tilkynning verkflæðis hafi farið af stað vegna breytinga á færslu, samþykktarbeiðni eða því að gögn séu ekki til á réttum tíma.|
-        |**Tengja marksíðu**|Tilgreina aðra síðu [!INCLUDE[d365fin](includes/d365fin_md.md)] sem tengill í tilkyninningunni opnar í stað þeirrar sjálfgefnu.|  
+        |**Tengja marksíðu**|Tilgreina aðra síðu [!INCLUDE[d365fin](includes/d365fin_md.md)] sem tengill í tilkyninningunni opnar í stað þeirrar sjálfgefnu.<br /><br />Athugið að síðan verður að hafa sömu upprunatöflu og viðkomandi færsla.|  
         |**Sérsniðinn tengill**|Tilgreinir vefslóð tengils sem er bætt við tilkyninninguna auk tengilsins við síðuna í [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  Til að tilgreina valkosti fyrir verkflæðissvar sem felur í sér að senda tilkynningu skal fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
@@ -91,7 +91,7 @@ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki 
 >  Ekki skal virkja verkflæði þar til víst er að verkflæði sé lokið að að umrædd verkflæðisskref geti hafist.  
 
 > [!TIP]  
->  Til að sjá tengsl á milli tafla sem eru notaðar í verkflæði, veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Tsegðu mér hvað þú vilt gera) og sláðu svo inn **Verkflæði – töflutengsl**.  
+>  Til að sjá tengsl á milli tafla sem eru notaðar í verkflæði, veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") og sláðu svo inn **Verkflæði – töflutengsl**.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Búa til verkflæði úr verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md)   

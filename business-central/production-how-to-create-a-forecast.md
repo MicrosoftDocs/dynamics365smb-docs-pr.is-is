@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 71d62cdd0e21d0eb2d10f5b33e30be91e92d0928
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883383"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999929"
 ---
 # <a name="create-a-demand-forecast"></a>Búa til eftirspurnarspá
 Þú getur búið til sölu- og framleiðsluspár á síðunni **Eftirspurnarspá**.  
@@ -51,18 +51,18 @@ Hægt er að líta á íhlutaspána sem valkostaspá í sambandi við yfirvöru.
 
 ## <a name="to-create-a-demand-forecast"></a>Til að búa til eftirspurnarspá
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eftirspurnarspá** og veldu síðan tengda tengilinn.  
-2.  Á **Almennt** flýtiflipanum skaltu velja spá í **Heiti eftirspurnarpár** reitnum. Margar spár geta verið til í kerfinu og þeim er skipt eftir heiti og spártegund.  
-3.  Í reitnum **Afmörkun staðsetningar** er staðsetningin valin sem þessi spá mun eiga við um.  
-4.  Í reitnum **Tegund spár** er valið **Vörusala**, **Íhlutur** eða  **Bæði**. Ef valin er **Vörusala** eða **Íhlutur**, er hægt að breyta magninu eftir tímabili. Ef þú velur **Bæði**, þá er ekki hægt að breyta magninu, en þú getur valið fellilistann og skoðað eftirspurnarspáfærslurnar.  
-5.  Tilgreind er **Dags.afmörkun** ef takmarka á það gagnamagn sem er sýnt.  
-6.  Í **Fylki eftirspurnarspár** flýtiflipanum, sláðu inn magn af **Söluvörum** sem er spáð eða **Íhlutur** spá fyrir mismunandi tímabil.  
-7.  Á flýtiflipanum **Valkostir fylkis** er tímabilið stillt í reitnum **Skoða eftir** til að skipta um það tímabil sem sýnt er í hverjum dálki . Eftirfarandi tímabil eru í boði: **Dagur**, **Vika**, **Mánuður**, **Fjórðungur**, **Ár** eða **Reikningstímabil** sem sett er upp í Fjármálastjórnun.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eftirspurnarspá** og veldu síðan tengda tengilinn.  
+2. Á **Almennt** flýtiflipanum skaltu velja spá í **Heiti eftirspurnarpár** reitnum. Margar spár geta verið til í kerfinu og þeim er skipt eftir heiti og spártegund.  
+3. Í reitnum **Afmörkun staðsetningar** er staðsetningin valin sem þessi spá mun eiga við um.
+4. Á reitnum **Skoða eftir** til að skipta um það tímabil sem sýnt er í hverjum dálki . Eftirfarandi tímabil eru í boði: **Dagur**, **Vika**, **Mánuður**, **Fjórðungur**, **Ár** eða **Reikningstímabil** sem sett er upp á fjármálasvæði notanda.    
 
-    > [!NOTE]  
-    >  Íhuga skal hvaða tímabil á að nota við seinni tíma spár, þannig að samræmi verði á milli tímabila. Þegar magn er fært inn í spá er það í gildi á fyrsta degi tímabilsins sem valið er. Ef t.d. mánuður er valinn, þá er magnið fært inn í spána á fyrsta degi mánaðarins. Ef fjórðungur er valin, er magn fært inn í spána á fyrsta degi fyrsta mánaðar fjórðungsins.  
+> [!NOTE]  
+>  Íhuga skal hvaða tímabil á að nota við seinni tíma spár, þannig að samræmi verði á milli tímabila. Þegar magn er fært inn í spá er það í gildi á fyrsta degi tímabilsins sem valið er. Ef t.d. mánuður er valinn, þá er magnið fært inn í spána á fyrsta degi mánaðarins. Ef fjórðungur er valin, er magn fært inn í spána á fyrsta degi fyrsta mánaðar fjórðungsins.
 
-8.  Í reitnum **Skoða sem** er magn spár valið sem á að sýna fyrir tímabilið. Ef valin er **Hreyfing**, þá birtist staða hreyfingar fyrir viðkomandi tímabil. Ef valin er **Staða til dags.**, þá birtist staða síðasta dags tímabilsins.  
+5. Í reitnum **Skoða sem** er magn spár valið sem á að sýna fyrir tímabilið. Ef valin er **Hreyfing**, þá birtist staða hreyfingar fyrir viðkomandi tímabil. Ef valin er **Staða til dags.**, þá birtist staða síðasta dags tímabilsins.  
+6. Í reitnum **Tegund spár** er valið **Vörusala**, **Íhlutur** eða  **Bæði**. Ef valin er **Vörusala** eða **Íhlutur**, er hægt að breyta magninu eftir tímabili. Ef þú velur **Bæði**, þá er ekki hægt að breyta magninu, en þú getur valið fellilistann og skoðað eftirspurnarspáfærslurnar.  
+7. Tilgreind er **Dags.afmörkun** ef takmarka á það gagnamagn sem er sýnt.  
+8. Á flýtiflipanum **Fylki fyrir eftirspurnarspá** skal færa inn áætlað magn með því að slá inn magnið í reitnum sem stendur fyrir vöru á tiltekinni dagsetningu eða tímabili. Athugið að í tómum reitum opnar uppflettihnappurinn auða síðu sem gefur til kynna að færa þurfi inn gildi handvirkt.   
 
 > [!NOTE]  
 >  Einnig er hægt að breyta núverandi spá. Á síðunni **Fylki eftirspurnarspár** veldu **Afrita eftirspurnarspá** aðgerðina og fylltu út síðuna **Eftirspurnarspá** með fyrirliggjandi spá. Hægt er að gera breytingar á magni eins og við á.  

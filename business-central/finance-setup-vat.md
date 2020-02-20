@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 1bdd140e43a29894978f7fa0f0a88957d7e102c3
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953684"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030149"
 ---
 # <a name="set-up-value-added-tax"></a>Setja upp virðisaukaskatt
 Neytendur og fyrirtæki greiða virðisaukaskatt (VSK) þegar þau kaupa vörur eða þjónustu. Upphæð VSK til greiðslu getur verið mismunandi, það fer eftir nokkrum þáttum. Í [!INCLUDE[d365fin](includes/d365fin_md.md)], setur þú upp VSK til að tilgreina taxtana til að nota til að reikna skattaupphæðir, byggt á eftirfarandi:
@@ -116,28 +116,6 @@ Eftirfarandi hlutar útskýra hvernig á að úthluta VSK-bókunarflokkum til ei
 * Á **Tilfang** spjaldinu, stækkið **Reikningagerð** flipann.  
 3. Veljið VSK-vörubókunarflokk.  
 
-## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Uppsetning á sniðmáti VSK-yfirlits og heiti VSK-yfirlits
-Skattayfirvöld geta breytt, og gera breytingar á, kröfum sínum hvað varðar bókun á VSK. Sniðmát VSK-yfirlita og Heiti VSK-yfirlita geta hjálpað þér að undirbúa fyrir komandi breytingar og gera umskiptin yfir í nýju kröfurnar þægilegri. Hægt er að nota sniðmát VSK-yfirlita til að skilgreina reitina sem á að hafa með í VSK-yfirliti, sem fyrir vikið skilgreinir útreikningana, og hægt er að búa til nýtt sniðmát VSK-yfirlits þegar kröfur breytast. Til dæmis gæti eitt sniðmát reiknað virðisaukaskatt fyrir þetta ár miðað við núverandi kröfur og annað sniðmát gæti reiknað út virðisaukaskatt miðað við kröfur fyrir næsta ár. Sniðmát eru einnig leið til að halda sögu um sniðmát VSK-yfirlita, til dæmis svo hægt sé að líta til baka og sjá hvernig VSK var reiknað út á fyrri árum.
-
-## <a name="to-define-a-vat-statements"></a>Að skilgreina VSK-yfirlit
-VSK-yfirlit bjóða upp á að reikna út VSK-uppgjörsupphæð á ákveðnu tímabili, til dæmis fyrir ársfjórðung.
-
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-yfirlit** og veldu síðan tengda tengilinn.  
-2. Veljið reitinn **Heiti** og veljið síðan **Nýtt** á síðunni **Heiti VSK-yfirlita**.
-3. Fylltu út nauðsynlega reiti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!Tip]
-> Hægt er að sía upplýsingarnar sem koma fram á yfirlitinu, fer eftir því hvað valið er í reitnum **Gerð**. **Samtala fjárhags** er gagnleg þegar þú vilt VSK af tilteknum lykli.
-**Samtala VSK-færslna** fær VSK frá lyklunum sem er úthlutað á valið í reitunum **Alm. bókunartegund**, **VSK viðsk.bókunarflokkur** og/eða **VSK-vörubókunarflokkur**. **Samtala línu** leyfir þér að slá inn gildi eða skilyrði flýtiafmörkunar í reitnum **Samtala línu**. Frekari upplýsingar er að finna í [Leita í, afmarka og raða gögnum](ui-enter-criteria-filters.md). **Lýsing** er oft notuð til að bæta við athugasemd við yfirlitið. Til dæmis er hægt að nota hana sem fyrirsögn þegar þú hefur notað samtölu línu.
-
-## <a name="to-preview-the-vat-statement"></a>Til að forskoða virðisaukaskattsyfirlitið
-Eftir að þú hefur skilgreint VSK-yfirlit geturðu forskoðað það til að ganga úr skugga um að það mæti kröfum þínum.
-
-1. Veljið **Forskoða**.
-2. Sett er afmörkun á dagsetningu til að takmarka yfirlitið við tiltekið tímabil. Nánari upplýsingar um hvernig á að sérsníða síðuna til að dagsetningarafmörkun birtist eru í [Leita í, afmarka og raða gögnum](ui-enter-criteria-filters.md).
-3. Hægt er að velja milli ýmissa valkosta til að skilgreina tegund VSK-færslna sem á að hafa með í yfirlitinu.
-4. Í línunum þar sem reiturinn **Tegund** innheldur **Samtala VSK-færslna** er hægt að sjá lista yfir VSK-færslur með því að smella á upphæðina í reitnum **Upphæð dálks**.   
-
 ## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Uppsetning á klausum til að útskýra VSK-undanþágur eða óhefðbundin VSK-hlutföll
 VSK-klausa er sett upp til að lýsa upplýsingum um hvaða tegund VSK er notuð. Reglur stjórnvalda gætu krafist þessara upplýsinga. Þegar búið er að setja upp VSK-ákvæði og tengja það við VSK-bókunaruppsetningu, birtist VSK-ákvæðið á öllum prentuðum söluskjölum sem nota VSK-bókunaruppsetningarflokkinn.
 
@@ -178,24 +156,6 @@ Til að setja upp kóða fyrir VSK vegna innflutnings, skal fylgja þessum skref
 5. Í reitnum **SK-Útreikningstegund** skal velja **Fullur VSK**.  
 6. Í **VSK-sölureikningur** reitinn skal færa inn fjárhagsreikningurinn sem á að nota til að bóka VSK vegna innflutnings. Allir aðrir reikninga eru valfrjáls.  
 
-## <a name="to-verify-vat-registration-numbers"></a>Staðfesta VSK-skráningarnúmer
-Mikilvægt er að þau VSK-númer sem þú hefur fyrir viðskiptamenn, lánardrottna og tengiliði séu gild. Fyrirtæki breyta til dæmis stundum stöðu skattaskuldar hjá sér, og í sumum lönd gætu skattayfirvöld farið fram á að fá skýrslur, til dæmis skýrsluyfirlit um sölu innan Evrópubandalagsins, sem inniheldur VSK-númerin sem þú ert að nota við í viðskiptum.
-
-Framkvæmdarstjórn Evrópusambandsins býður á vefsíðu sinni þjónustu VIES varðandi VSK Númerastaðfestingu, sem býðst öllum og er án endurgjalds. [!INCLUDE[d365fin](includes/d365fin_md.md)] getur sparað þér það skref og leyft þér að nota þjónustu VIES til að staðfesta og rekja VSK-númer viðskiptamanna, lánardrottna og tengiliði beint úr spjöldum viðskiptamaður, lánardrottinn og tengiliða. Þjónustan í [!INCLUDE[d365fin](includes/d365fin_md.md)] kallast **ESB VSK Skrá. Nr. Staðfestingarþjónusta**. Þjónustan er tiltæk í **Þjónustutengingar** síðunni og þú getur hafið notkun strax. Þjónustan er án endurgjalds og skráningar er ekki krafist.
-
-> [!Note]
-> Til að virkja VSK-skráningarnúmer innan ESB staðfestingarþjónustuna verður þú að hafa kerfisstjóraheimildir.
-
-Þegar þjónustu okkar er notuð, skráum við ferill VSK-númera og VSK-staðfestinga fyrir hvern viðskiptamann, lánadrottinn eða tengiliðar, í reitnum **VSK Skráning Skrá**, þannig að þú getur auðveldlega rekja þá. Skráin á sérstaklega við hvern viðskiptamann. Til dæmis kemur skráin að gagni við að sanna það að þú hafir staðfest að gildandi VSK-númer séu réttar. Þegar VSK-númer er staðfest, mun **Biðja um kennimerki** dálkurinn í skránni endurspegla að þú hafir framkvæmt hlutinn.
-
-Hægt er að skoða VSK-skráning skránna á spjöldunum fyrir viðskiptamann, lánardrottin eða tengilið, á **Reikningsfæra** Flýtiflipanum með því að velja hnappinn uppfletting á **VSK-númer**  
-
-Okkar þjónustu getur einnig sparað þér tíma þegar verið er að stofna viðskiptamann eða lánardrottin. Ef þú veist VSK-númer viðskiptamanns, geturðu fært það inn í reitinn **VSK-númer** á spjöldum viðskiptamanns eða lánardrottins, og við fyllum út nafn viðskiptamanns fyrir þig. Sumar lönd bjóða einnig upp á aðsetur fyrirtækis á skipulögðu sniði. Í þeim löndum, munum við fylla út aðsetur líka.  
-
-Það eru nokkur atriði sem vert er að athuga varðandi þjónustu VIES á VSK-númerastaðfestingu:
-
-* Þjónustan notar http-reglur, sem táknar að gagnaflutningur um þjónustuna er ekki dulkóðaður.  
-* Þú getur upplifað óvirkan tíma í þessari þjónustu sem Microsoft er ekki ábyrgt fyrir. Þjónustan er hluti af víðfemu ESB skráningarkerfi VSK-númera.
 
 ## <a name="using-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Nota bakfærðan VSK fyrir viðskipti milli ESB-landa eða svæða
 Sum fyrirtæki verða að nota bakfærðan VSK þegar þau eiga viðskipti við önnur fyrirtæki. Reglan gildir til dæmis fyrir innkaup frá ESB-löndum/svæðum og sölu til ESB-landa/svæða.  
@@ -219,61 +179,16 @@ Til að reikna VSK rétt fyrir sölu til ESB-landa/ svæða ætti að:
 ## <a name="understanding-vat-rounding-for-documents"></a>Að skilja VSK-sléttun fyrir fylgiskjöl
 Upphæðir í fylgiskjölum sem ekki hafa verið bókaðar eru sléttaðar og birtar á þann hátt sem samsvarar lokasléttun upphæða sem búið er að bóka. VSK er reiknaður fyrir heilt skjal, sem þýðir að VSK sem er reiknaður í fylgiskjali er byggður á summu allra lína með sama VSK-kenni í skjalinu.
 
-## <a name="understanding-the-vat-rate-conversion-process"></a>Að skilja umbreytingarferli VSK-hlutfalls.  
-VSK-hlutfall breytingarverkfærið umreiknar VSK-hlutfall fyrir aðalgögn, færslubækur og pantanir á mismunandi hátt. Valin aðalgögn og færslubækur verða uppfærð af nýja almenna vörubókunarflokknum eða VSK-vörubókunarflokki. Ef pöntun hefur verið afhent að fullu eða að hluta munu afhentar vörur halda almenna vörubókunarflokknum eða VSK-vörubókunarflokknum. Ný pöntunarlína verður stofnuð fyrir óafhentar vörur og uppfærð til að samræma núverandi og nýtt VSK eða almenna vörubókunarflokka. Úthlutanir kostnaðarauka, frátekningar og vörurakningarupplýsingar uppfærast einnig í samræmi við það.  
 
-Það eru hins vegar nokkrir hlutir sem verkfærið getur ekki umbreytt:
 
-* Sölu-eða innkaupapöntunum og reikningum þar sem sendingar hafa verið bókaðar. Þessi skjöl eru bókuð með gildandi VSK-hlutfalli.  
-* Skjölum sem hafa bókaða fyrirframgreiðslureikninga. Til dæmis gæti notandi hafa greitt eða móttekið fyrirframgreiðslur á reikningum sem eru ekki loknir áður en breytingaverkfærið VSK-hlutfall er notað. Í þessu tilviki verður mismunur á vsk sem er á gjalddaga og vsk sem hefur verið borgaður í fyrirframgreiðslum þegar reikningnum er lokið. Breytingarverkfæri VSK-hlutfalls sleppir þessum skjölum og það þarf að uppfæra þau handvirkt.  
-* Beinum afhendingum eða sérpöntunum.  
-* Sölu- eða innkaupapöntunum með samhæfingu vöruhúsa ef þær eru að hluta sendar eða mótteknar.  
-* Þjónustusamninga.  
 
-### <a name="to-prepare-vat-rate-change-conversions"></a>Til að undirbúa umreikning VSK-hlutfalls  
-Áður en breytingaverkfæri VSK-hlutfalls er sett upp þarf að velja úr eftirfarandi.
-
-* Ef mismunandi hlutföll eru notuð í færslum þarf að búa til nýjar fjárhagsreikninga fyrir hvert hlutfall eða nota gagnaafmarkanir til að flokka færslur eftir hlutfalli.  
-* Ef stofnaðir eru nýir fjárhagsreikningar þarf að stofna nýja almenna bókunarflokka.  
-* Til að fækka fylgiskjölum sem er breytt skal bóka eins mörg fylgiskjöl og mögulegt er og halda óbókuðum skjölum í lágmarki.  
-* Taka öryggisafrit af gögnum.
-
-### <a name="to-set-up-the-vat-rate-change-tool"></a>Til að setja upp breytingaverkfæri VSK-hlutfalls  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning VSK hlutfall breytingar** og veldu síðan tengda tengilinn.  
-2. Á flýtiflipunum **Aðalgögn**, **Færslubækur** og **Skjöl** skal velja gildi bókunarflokks af valkostalistanum fyrir nauðsynlega reiti.  
-
-### <a name="to-set-up-product-posting-group-conversion"></a>Til að setja upp vörubókunarflokksumbreytingar  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning VSK hlutfall breytingar** og veldu síðan tengda tengilinn.  
-2. Á síðunni **Uppsetning á breytingu VSK-hlutfalls** skal annaðhvort velja aðgerðina **Umreikna VSK-vörubókunarflokk** eða **Umreikna almennan vörubókunarflokk**.  
-3. Í reitnum **Frá kóða** er færður inn núverandi bókunarflokkur.  
-4. Í reitnum **Til kóða** er færður inn nýr bókunarflokkur.  
-
-### <a name="to-perform-vat-rate-change-conversion"></a>Til að umreikna VSK-hlutfall  
-Breytingarverkfæri VSK-hlutfalls er notað til að stjórna breytinum á stöðluðu VSK-hlutfalli. VSK og útreikningar almenns vörubókunarflokks eru notaðir til að breyta VSK-hlutfalli og viðhalda nákvæmum VSK-skýrslum. Eftirfarandi breytingar eru gerðar, allt eftir uppsetningu:  
-
-* VSK og almennum bókunarflokkum er umbreytt.  
-* Breytingar eru innleiddar í fjárhagsreikninga, viðskiptamenn, lánardrottna, opin skjöl, bókarlínum, o.s.frv.  
-
-> [!IMPORTANT]  
->  Áður en þú umreiknar VSK-hlutfallsbreytingu, er hægt að prófa umreikninginn. Til að gera það, skal fylgja eftirfarandi skrefum, en vertu viss um að hafa auða gátreitina **Framkvæma umreikning** og **VSK hlutfall breytingarverkfæri lokið**. Við prófun á umreikningi er reiturinn **Umbreytt** í töflu **Breyting á VSK gengi í skráningarfærslu** hreinsað og reiturinn **Umbreytt dagsetning** í töflunni **Breyting á VSK gengi í skráningarfærslu** auður. Þegar umreikningnum er lokið, skal velja **Breytingaskrárfærslur fyrir VSK-hlutfall** til að skoða niðurstöður af prufuumreikningnum. Staðfesta hverja færslu áður en umreikningur er framkvæmdur. Sérstaklega skal staðfesta færslur sem nota eldra VSK-hlutfall.     
-
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Breytingar á VSK-hlutfalli** og veldu síðan **Uppsetning breytinga á VSK-hlutfalli** hlekkinn.  
-2. Staðfesta að VSK-vörubókunarflokksumbreytingar eða almennar vörubókunarflokksumbreytingar hafi þegar verið settar upp.  
-3. Velja skal gátreitinn **Framkvæma umreikning**.  
-
-    > [!IMPORTANT]  
-    >  Hreinsa gátreitinn **breytingaverkfæri fyrir VSK gengi lokið**. Gátreiturinn er valinn sjálfvirkt þegar umreikningi vsk-stigs er lokið.  
-
-4. Velja skal **Umreikna** aðgerðina.  
-5. Þegar umreikningnum er lokið, skal velja aðgerðina **Breytingaskrárfærslur fyrir VSK-hlutfall** til að skoða niðurstöður umreiknings.  
-
-> [!IMPORTANT]  
->  Eftir prófun á umreikningi er reiturinn **Umbreytt** í töflu **Breyting á VSK gengi í skráningarfærslu** valinn og reiturinn **Umbreytt dagsetning** í töflunni **Breyting á VSK gengi í skráningarfærslu** sýnir umreiknuðu dagsetninguna.  
-
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+[Uppsetning á sniðmáti VSK-yfirlits og heiti VSK-yfirlits](finance-how-setup-vat-statement.md)   
 [Uppsetning á óinnleystum virðisaukaskatti](finance-setup-unrealized-vat.md)      
-[Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
-[Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
-[Staðbundin virkni í Business Central](about-localization.md)
+[Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)      
+[Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)    
+[Unnið með breytingaverkfæri VSK-hlutfalls](finance-how-use-vat-rate-change-tool.md)    
+[Staðfesta VSK-skráningarnúmer](finance-how-validate-vat-registration-number.md)  
+[Staðbundin virkni í Business Central](about-localization.md)  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)

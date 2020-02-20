@@ -1,0 +1,48 @@
+---
+title: Staðfesting VSK-númers | Microsoft Docs
+description: Staðfesting VSK-númers
+author: andregu
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: VAT, posting, tax, value-added tax
+ms.date: 01/06/2020
+ms.author: andregu
+ms.openlocfilehash: f4d5023acba2e0cc5600b3f6675c3dcc325489d7
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992228"
+---
+# <a name="validate-a-vat-registration-number"></a>Staðfesting VSK-númers
+
+## <a name="to-verify-vat-registration-numbers"></a>Staðfesta VSK-skráningarnúmer
+Mikilvægt er að þau VSK-númer sem þú hefur fyrir viðskiptamenn, lánardrottna og tengiliði séu gild. Fyrirtæki breyta til dæmis stundum stöðu skattaskuldar hjá sér, og í sumum lönd gætu skattayfirvöld farið fram á að fá skýrslur, til dæmis skýrsluyfirlit um sölu innan Evrópubandalagsins, sem inniheldur VSK-númerin sem þú ert að nota við í viðskiptum.
+
+Framkvæmdarstjórn Evrópusambandsins býður á vefsíðu sinni þjónustu VIES varðandi VSK Númerastaðfestingu, sem býðst öllum og er án endurgjalds. [!INCLUDE[d365fin](includes/d365fin_md.md)] getur sparað þér það skref og leyft þér að nota þjónustu VIES til að staðfesta og rekja VSK-númer viðskiptamanna, lánardrottna og tengiliði beint úr spjöldum viðskiptamaður, lánardrottinn og tengiliða. Þjónustan í [!INCLUDE[d365fin](includes/d365fin_md.md)] kallast **ESB VSK Skrá. Nr. Staðfestingarþjónusta**. Þjónustan er tiltæk í **Þjónustutengingar** síðunni og þú getur hafið notkun strax. Þjónustan er án endurgjalds og skráningar er ekki krafist.
+
+Til að virkja **Sannprófa VSK-skráningarnúmer innan ESB** skal opna færsluna á síðunni **Þjónustutenging**. Þegar á að vera búið að fylla út í reitinn **Endastöð þjónustu**. Ef ekki er hægt að nota aðgerðina **Stilla sjálfgefna endastöð**. Því næst skal stilla reitinn **Virkjað** og þá er allt klárt.
+
+> [!Note]
+> Til að virkja VSK-skráningarnúmer innan ESB staðfestingarþjónustuna verður þú að hafa kerfisstjóraheimildir.
+
+Þegar þjónustu okkar er notuð, skráum við ferill VSK-númera og VSK-staðfestinga fyrir hvern viðskiptamann, lánadrottinn eða tengiliðar, í reitnum **VSK Skráning Skrá**, þannig að þú getur auðveldlega rekja þá. Skráin á sérstaklega við hvern viðskiptamann. Til dæmis kemur skráin að gagni við að sanna það að þú hafir staðfest að gildandi VSK-númer séu réttar. Þegar VSK-númer er staðfest, mun **Biðja um kennimerki** dálkurinn í skránni endurspegla að þú hafir framkvæmt hlutinn.
+
+Hægt er að skoða VSK-skráning skránna á spjöldunum fyrir viðskiptamann, lánardrottin eða tengilið, á **Reikningsfæra** Flýtiflipanum með því að velja hnappinn uppfletting á **VSK-númer**  
+
+Okkar þjónustu getur einnig sparað þér tíma þegar verið er að stofna viðskiptamann eða lánardrottin. Ef þú veist VSK-númer viðskiptamanns, geturðu fært það inn í reitinn **VSK-númer** á spjöldum viðskiptamanns eða lánardrottins, og við fyllum út nafn viðskiptamanns fyrir þig. Sumar lönd bjóða einnig upp á aðsetur fyrirtækis á skipulögðu sniði. Í þeim löndum, munum við fylla út aðsetur líka.  
+
+Það eru nokkur atriði sem vert er að athuga varðandi þjónustu VIES á VSK-númerastaðfestingu:
+
+* Þjónustan notar http-reglur, sem táknar að gagnaflutningur um þjónustuna er ekki dulkóðaður.  
+* Þú getur upplifað óvirkan tíma í þessari þjónustu sem Microsoft er ekki ábyrgt fyrir. Þjónustan er hluti af víðfemu ESB skráningarkerfi VSK-númera.
+
+## <a name="see-also"></a>Sjá einnig  
+[Setja upp virðisaukaskatt](finance-setup-vat.md)  
+[Uppsetning á óinnleystum virðisaukaskatti](finance-setup-unrealized-vat.md)      
+[Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
+[Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
+[Staðbundin virkni í Business Central](about-localization.md)

@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 01/06/2020
 ms.author: edupont
-ms.openlocfilehash: 9c409b3aa0301b959cde0681307cf8346fbe7a54
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943039"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991857"
 ---
-# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Endurskoðandi upplifun í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="accountant-experiences-in-d365fin_long"></a>Endurskoðandi upplifun í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Engu skiptir hvernig endurskoðandi þú ert, þú getur nýtt þér **Endurskoðandi** Mitt hlutverk sem þitt Heim í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Héðan hefurðu aðgang að öllum síðum sem þú þarft í vinnunni.  
 
 ## <a name="accountant-role-center"></a>Endurskoðandi Mitt hlutverk
@@ -42,7 +42,7 @@ Við höfum auðveldað þér að bjóða ytri endurskoðanda. Einfaldlega opni�
 > 
 > Þetta verk krefst aðgangs til að stjórna notendum og leyfum í Azure Active Directory, og notandinn sem sendir þetta boð verður að vera með hlutverkið **Altækur stjórnandi** eða **Notandastjórnandi** í Office 365 stjórnendamiðstöð. Frekari upplýsingar eru í [Um stjórnandahlutverk](/office365/admin/add-users/about-admin-roles) í Office 365 efni kerfisstjóra.  
 
-### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Endurskoðanda þínum er bætt við Office 365 í gegnum Azure-gátt'
+### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Endurskoðanda þínum er bætt við Office 365 í gegnum Azure-gátt
 
 Ef stjórnandi þinn eða endursöluaðili vill ekki nota leiðarvísinn **Bjóða ytri endurskoðanda** geta þeir bætt við ytri notanda í Azure-gáttinni og úthlutað þessum notanda ytri heimild endurskoðanda. Frekari upplýsingar er að finna í [Stutt leiðbeining: Bæta gestanotendum við skráasafnið þitt í Azure-gáttinni](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
@@ -61,7 +61,7 @@ Ef stjórnandi þinn eða endursöluaðili vill ekki nota leiðarvísinn **Bjó�
 
 Næst verður að úthluta nýja gestanotandanum leyfi fyrir [!INCLUDE [prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-include-prodshortincludesprodshortmd"></a>Að gefa endurskoðandanum aðgang að [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Að gefa endurskoðandanum aðgang að [!INCLUDE [prodshort](includes/prodshort.md)]
 
 1. Í Azure-gáttinni, í notanda sem var nýlega bætt við, skal velja **Forstilling** og síðan velja **Breyta**
 2. Uppfærið reitinn **Notkunarstaðsetning** í viðeigandi land og veljið síðan **Vista**.
@@ -73,7 +73,7 @@ Næst verður að úthluta nýja gestanotandanum leyfi fyrir [!INCLUDE [prodshor
 
 Ef það tekst er leyfinu úthlutað til gestanotanda og gestareikningur er búinn til.
 
-### <a name="importing-the-new-user-into-include-prodshortincludesprodshortmd"></a>Nýr notandi fluttur inn í [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Nýr notandi fluttur inn í [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Endurskoðandinn fær tölvupóst þar sem honum er tilkynnt að hann hafi fengið aðgang að Active Directory. Næst verður að veita þeim aðgang að rétta fyrirtækinu í [!INCLUDE [prodshort](includes/prodshort.md)].
 

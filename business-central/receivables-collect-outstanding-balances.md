@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/13/2020
+ms.date: 01/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: 575e46f7988184f52cddf8e986a7aef05a61804b
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953468"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991977"
 ---
 # <a name="collect-outstanding-balances"></a>Innheimta útistandandi skuldir
 Í stjórnun útistandandi skulda felst að kanna hvort upphæðir sem falla í gjalddaga eru greiddar tímanlega. Ef viðskiptamenn eru í vanskilum geturðu sent yfirlitsskýrslu Viðskiptamanns sem innheimtubréf. Þú getur einnig gefið út innheimtubréf.
@@ -216,7 +216,10 @@ Vaxtareikningur er svipaður reikningi. Hægt er að fylla hausinn út handvirkt
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaxtareikningar** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Nýtt** og fyllið svo út reitina eins og þörf krefur.  
 3. Velja aðgerðina **Leggja til vaxtareikn.línur**.
-4. Á síðunni **Tillaga vaxtareikningur línur**, skal sett afmörkun á flýtiflipanum **Viðskm.færsla** eigi aðeins að búa til vaxtareikninga fyrir tilteknar færslur.  
+4. Á síðunni **Tillaga vaxtareikningur línur**, skal sett afmörkun á flýtiflipanum **Viðskm.færsla** eigi aðeins að búa til vaxtareikninga fyrir tilteknar færslur.
+
+    > [!NOTE]
+    > Þó að þau séu skráð hefur það engin áhrif að velja **Greiðsla** og **Kreditreikningur** sem síur **Skjalagerð** vegna þess að **Stinga upp á vaxtareikningslínum** vinnur aðeins með plúsupphæðir.
 5.  Veldu hnappinn **Í lagi** til að hefja keyrsluna.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Vaxtatexti uppfærður  
@@ -260,7 +263,7 @@ Ef vaxtareikningar voru gefnir út fyrir mistök er hægt að hætta við þá �
 2. Opna skal viðeigandi viðskiptamannaspjald og veljið síðan aðgerðina **fjárhagsfærslur**.
 3. Á síðunni **Færslur í viðskiptamannabók** er smellt er á línuna með bókarfærslunni sem á að skoða innheimtubréfafærslur fyrir og síðan er smellt á **Innheimtubréf/Vaxtafærslur**.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-financial-periodic-activities-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skulda](receivables-manage-receivables.md)  

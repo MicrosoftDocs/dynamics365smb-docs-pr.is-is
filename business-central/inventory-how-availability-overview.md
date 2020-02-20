@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: SorenGP
-ms.openlocfilehash: 73ed7ac7ef80aa9e85f4d87ee1adbd5ba53ba44f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58f4787a5e9bb845fc72b2ce6d9a1872c4245ee4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308597"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991905"
 ---
 # <a name="view-the-availability-of-items"></a>Skoða tiltækileika vöru
 Þegar um er að ræða viðskiptatengd verkefni er hægt að fá ítarlegar upplýsingar um hvenær og hvar vara er fáanleg, til dæmis þegar verið er að ræða við viðskiptavin um afhendingardag.
@@ -42,7 +42,7 @@ Ef þú notar vöruhúsaaðgerðir, eru framboð mismunandi eftir úthlutun á �
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Að skoða tiltækileika vöru samkvæmt því hvenær hún berst eða verður afgreidd
 Hægt er að skoða tiltækileika vöru samkvæmt áætluðum vörufærslum á síðunni **Til ráðstöfunar eftir atviki**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Opnið spjald þeirrar vöru sem á að skoða ráðstöfun fyrir.
 3. Veljið aðgerðina **Vara til ráðstöfunar eftir** og veljið svo aðgerðina **Atvik**.
 
@@ -52,7 +52,7 @@ Hægt er að skoða tiltækileika vöru samkvæmt áætluðum vörufærslum á s
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Að skoða tiltækileika vöru á mismunandi tímabilum
 Hægt er að skoða tiltækileika vöru samkvæmt tilgreindum tímabilum á síðunni **Til ráðstöfunar eftir tímabilum**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Opnið spjald þeirrar vöru sem á að skoða ráðstöfun fyrir.
 3. Veljið aðgerðina **Vara til ráðstöfunar eftir** og veljið svo aðgerðina **Tímabil**.
 
@@ -62,7 +62,7 @@ Hægt er að skoða tiltækileika vöru samkvæmt tilgreindum tímabilum á sí�
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Að skoða tiltækileika vöru eftir staðsetningunni sem hún er geymd á
 Tiltækileika vöru eftir staðsetningunni sem hún er geymd á má sjá á síðunni **Vara til ráðstöfunar eftir staðsetningu**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Opnið spjald þeirrar vöru sem á að skoða ráðstöfun fyrir.
 3. Veljið aðgerðina **Vara til ráðstöfunar eftir** og veljið svo aðgerðina **Staðsetning**.
 
@@ -73,7 +73,7 @@ Tiltækileika vöru eftir staðsetningunni sem hún er geymd á má sjá á sí�
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Að skoða tiltækileika allra vara eftir staðsetningunni sem þær eru geymdar á
 Hægt er að sjá tiltækileika allra vara á öllum stöðum á síðunni **Vörur eftir staðsetningu**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Veljið aðgerðina **Vörur eftir staðsetningu**.
 
     Síðan **Vörur eftir staðsetningu** sýnir hve margar vörur af hverri tegund fyrir sig eru tiltækar á öllum staðsetningum.
@@ -91,13 +91,16 @@ Hægt er að nota þessa síðu til að athuga hvort hægt sé að anna sölupö
 |**Get gert yfirmerki**|Sýnir hversu margar einingar hægt er að gera í undirsamsetningum í efstu vörunni. Reiturinn tilgreinir hversu margar tafarlausar yfireiningar hægt er að setja saman. Gildið er samkvæmt framboði vörunnar í línunni.|
 |**Get gert aðalvöru**|Sýnir hversu margar einingar efstu vörunnar hægt er að gera. Reiturinn tilgreinir hversu margar einingar af aðaluppskriftarvöru hægt er að setja saman. Gildið er samkvæmt framboði vörunnar í línunni.|
 
-### <a name="item-availability-by-bom-level-page"></a>Síðan „Framboð vöru eftir uppskriftarstigi“
+### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Til að skoða framboð vöru samkvæmt eftirspurn fyrir yfireiningu hennar
 Síðan **Framboð vöru eftir uppskriftarstigi** sýnir upplýsingar um vöruna á línu spjalds eða skjals sem glugginn er opnaður fyrir. Varan er alltaf sýnd í efstu línunni. Hægt er að skoða upplýsingar um aðrar vörur eða allar vörur með því að breyta gildinu í **Afmörkun vöru** reitnum.
 
 > [!NOTE]  
 >   Sjálfgefið sýna ráðstöfunartölur á línunum heildarráðstöfun allra vara undir söluhæstu vörunni Þessar tölur eru birtar í **Framboðsmagn** reitnum, og áherslan er á aðalvöruna. Hins vegar geta upplýsingar um hversu margar millivörur er hægt að búa til verið misvísandi. Til að fá raunverulega mynd af því hversu margar af birtum undirsamsetningum er hægt að búa til, þarf að hreinsa **Sýna heildarframboð** gátreitinn og skoða svo töluna í **Get gert yfirmerki** reitnum .
 
 Reiturinn **Flöskuháls** tilgreinir hvaða vara í skipulagi uppskriftarinnar kemur í veg fyrir að gert sé meira magn en það sem sýnt er í reitnum **Get gert aðalvöru**. Til dæmis getur flöskuhálsvaran verið innkeyptur íhlutur með áætlaðri móttökudagsetningu sem er kemur of seint til að gera viðbótareiningar af aðalvörunni fyrir dagsetninguna í reitnum **Verður að vera tilbúið fyrir þessa dagsetningu**.
+
+### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Til að skoða framboð vöru eftir mælieiningum hennar
+Síðan **Framboð á vöru eftir mælieiningu** sýnir vöruframboð eftir mismunandi mælieiningum sem hún er geymd í.
 
 ## <a name="assembly-availability-page"></a>Síðan „Samsetningarráðstöfun“
 Síðan **Samsetningaráðstöfun** birtir sundurliðaðar ráðstöfunarupplýsingarnar fyrir samsetningaríhluti. Það opnast:
@@ -121,5 +124,5 @@ Ef einn eða fleiri samsetningaríhlutir eru ekki tiltækir endurspeglast það 
 [Uppsetning birgðageymsla](inventory-how-setup-locations.md)  
 [Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)  
 [Selja vörur](sales-how-sell-products.md)      
-[Vinna með Business Central](ui-work-product.md)  
+[Unnið með Business Central](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)

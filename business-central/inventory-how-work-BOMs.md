@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: d47290db285090ce9c22f3ccb5535bf47fd0c8e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 266b2e67b8ab3814e940dce183865aaf2a021a94
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309677"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030125"
 ---
 # <a name="work-with-bills-of-material"></a>Vinna með uppskriftir
 Nota skal uppskriftir til að byggja upp yfirvöru sem verður að vera sett saman eða framleidd af tilföngum eða vélstöðvum úr íhlutum. Samsetningaruppskrift getur líka verið notuð til að selja yfirvöru sem sett, gert úr íhlutum hennar.
@@ -54,10 +54,17 @@ Að búa til samsetningaruppskrift er gert í tveimur hltuum:
 2. Á síðunni **Birgðaspjald** fyrir samsetningaríhluti, veldu **Samsetning** og svo **Samsetningaruppskrift**.
 3. Á síðunni **Samsetningaruppskrift** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Til að skoða íhluti samsetningaríhlutar sem ætlaður er samkvæmt uppskriftaruppbyggingunni
+## <a name="to-edit-assembly-boms"></a>Samsetningaruppskrift breytt
+Hægt er að breyta línum samsetningaruppskriftar hvenær sem er. En Hafðu í huga að UPPSKRIFTIN kann að vera í notkun í yfirstandandi sölu eða samsetningum yfireiningar sem breytingin kann að hafa áhrif á. Veljið aðgerðina **Notkunarstaðir** til að sjá í hvaða vöru er verið að nota hana og þá hvort það hafi áhrif á sölu- eða samsetningarpantanir.
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
+2. Veljið gildið **Já** í dálkinum **Samsetningaruppskrift**.
+3. Á síðunni **Samsetningaruppskrift** skal velja aðgerðina **Breyta lista** og fylla svo út reitina eins og þörf krefur.
+
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Til að skoða íhluti og aðföng sem ætluð eru samkvæmt uppskriftaruppbyggingunni
 Af síðunni **Samsetningaruppskrift** er hægt að opna annan gluaa sem sýnir íhluti og önnur tilföng samkvæmt uppskriftarstöðu undir samsetningaríhlutnum.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Opnaðu kortið fyrir samsetningarhlut. (**Samsetningaruppskrift** reiturinn á síðunni **Vörur** inniheldur **Já**.)
 3. Á síðunni **Birgðaspjald** fyrir veldu **Samsetning** og svo **Samsetningaruppskrift**.
 4. Á síðunni **Samsetningaruppskrift** velurðu aðgerðina **Sýna uppskrift**.

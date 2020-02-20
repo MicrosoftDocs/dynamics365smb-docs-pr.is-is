@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311381"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992085"
 ---
 # <a name="entering-data"></a>Gagnainnfærsla
 
@@ -55,7 +55,7 @@ Eftirfarandi veitir nokkrar gagnlegar upplýsingar um notkun á flýtifærslu.
 
 Til að breyta því hvaða reitir eru hafðir með eða ekki hafðir með í flýtifærslum á síðu, notarðu sérstillingu.
 
-1. Byrjaðu sérstillingu með því að velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir mitt hlutverk") og síðan aðgerðina **Sérstilla**.
+1. Byrjaðu sérstillingu með því að velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og síðan aðgerðina **Sérstilla**.
 2. Veldu reit sem þú vilt breyta, eða í listum, veldu samsvarandi dálkahaus, og veldu því næst annaðhvort **Hafa með í flýtifærslu** eða **Ekki hafa með í flýtifærslu**.
 
 Frekari upplýsingar um sérstillingu er að finna í [Sérstilling verksvæðis](ui-personalization-user.md).
@@ -86,7 +86,7 @@ Frekari upplýsingar er að finna í [Afrita og líma algengar spurningar](ui-co
 
 ## <a name="filtering-line-items"></a>Síun á línuatriðum
 
-Til að byrja síun skal velja ![Tákn fyrir afmörkunarsvæði](media/open-filter-pane-icon.png "Tákn fyrir afmörkunarsvæði") efst í listanum eða ýta á Shift+F3 til að opna afmörkunarsvæðið. Þú vinnur með afmörkunarsvæðið eins og þú gerir í öllum öðrum listum. Frekari upplýsingar er að finna í [Síun](ui-enter-criteria-filters.md#Filtering).
+Til að byrja síun skal velja ![Tákn fyrir afmörkunarsvæði](media/open-filter-pane-icon.png "Afmörkunarsvæðistákn") efst á listanum eða ýta á Shift+F3 til að opna afmörkunarsvæðið. Þú vinnur með afmörkunarsvæðið eins og þú gerir í öllum öðrum listum. Frekari upplýsingar er að finna í [Síun](ui-enter-criteria-filters.md#Filtering).
 
 Síun er sérstaklega hjálpleg þegar lengri skjöl eru skoðuð og greind. Ímyndaðu þér til dæmis að þú opnaðir bókaðan sölureikning og síar línuatriðin til að birta öll línuatriði sem eru með afslætti yfir 5% eða síar til að birta aðeins reiðhjólabúnað með „pro“ í heitinu.
 
@@ -98,20 +98,21 @@ Síun er sérstaklega hjálpleg þegar lengri skjöl eru skoðuð og greind. Ím
 
 ### <a name="switching-the-focus-on-and-off"></a>Kveikja eða slökkva á fókus
 
-Til að setja fókus á línuatriði skal velja hvar sem er í hluta línuatriða og síðan velja ![Tákn fyrir fókusstillingu](media/focus-mode.png "Tákn fyrir fókusstillingu") efst í hægra horninu eða ýta á Ctrl+Shift+F12.
+Til að setja fókus á línuatriði skal velja hvar sem er í hluta línuatriða og síðan velja ![Tákn fyrir fókusstillingu](media/focus-mode.png "Fókusstillingartákn") efst í hægra horninu eða ýta á Ctrl+Shift+F12.
 
-Til að skipta yfir í venjulegt yfirlit skal velja ![Tákn fyrir fókusstillingu](media/focus-mode.png "Tákn fyrir fókusstillingu") eða ýta aftur á Ctrl+Shift+F12.
+Til að skipta yfir í venjulegt yfirlit skal velja ![Tákn fyrir fókusstillingu](media/focus-mode.png "Fókusstillingartákn") eða ýta aftur á Ctrl+Shift+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Fjölvinnsla þvert á margar síður
 Þegar unnið er með mörg verk í einu eða þegar verið er að vinna með truflun á núverandi verki, svo sem að taka við símtali, er hægt að opna spjald- eða skjalssíðu í nýjum glugga. Þetta gerir notanda kleift að opna glugga fyrir yfirstandandi verk á meðan hafist er handa eða ljúka við annað verk í einum eða fleiri gluggum.
 
-Til að opna núverandi spjald eða skjal í nýjum glugga skal velja ![Opna nýjan glugga](media/open-new-window-icon.png "Táknið opna nýjan glugga") efst í hægra horninu eða ýta á Alt+Shift+W.
+Til að opna núverandi spjald eða skjal í nýjum glugga skal velja táknið ![Opna nýjan glugga](media/open-new-window-icon.png "Táknið „Opna nýjan glugga“") efst í hægra horninu eða ýta á Alt+Shift+W.
 
 > [!NOTE]
-> Þegar opnaðar eru aðrar síður úr spjaldi eða skjali sem opnað er í nýjum glugga opnast þessar síður í nýjum glugga, þó að ekki sé valið ![Opna nýjan glugga](media/open-new-window-icon.png "Opna nýtt gluggatákn").
+> Þegar opnaðar eru aðrar síður úr spjaldi eða skjali sem opnað er í nýjum glugga opnast þessar síður í nýjum glugga, þó að ekki sé valið ![Opna nýjan glugga](media/open-new-window-icon.png "Táknið „Opna nýjan glugga“").
 
 > [!NOTE]
-> Ef unnið er í Safari-vafranum gæti sprettigluggavörn valdið því að nýi glugginn opnist ekki. Ef þetta er tilfellið skal tilgreina vefslóð afurðarinnar sem heimilaða vefsvæði. Frekari upplýsingar er að finna í [Breyta sérstillingum í Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> Ef unnið er í Safari-vafranum gæti sprettigluggavörn valdið því að nýi glugginn opnist ekki. Ef þetta er tilfellið skal tilgreina vefslóð afurðarinnar sem heimilaða vefsvæði. Frekari upplýsingar er að finna í [Breyta sérstillingum í Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> Sama kann að gerast í öðrum vöfrum, svo sem Firefox. Frekari upplýsingar er að finna í [Stillingar sprettigluggavarnar í Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 ## <a name="entering-quantities-by-calculation"></a>Magn slegið inn eftir útreikningum
 

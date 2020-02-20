@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: bholtorf
-ms.openlocfilehash: d187398fe615574785a17b4a7eb122b7a18c557e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b38f5f97c7b5be46f1d6cd4d1bc898e72060417e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879681"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999620"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Greiða innkaupareikninga tímanlega
 Ef greiða þarf lánardrottni með peningum eða ávísun er hægt að bóka greiðsluna um leið og reikningurinn er bókaður.  
@@ -26,7 +26,7 @@ Ef greiða þarf lánardrottni með peningum eða ávísun er hægt að bóka gr
 3.  Ef á að greiða annaðhvort með peningum eða bankamillifærslu skal færa inn númer fjárhagssjóðsreikningsins eða bankareikningsins í reitinn **Númer mótreiknings**.  
 
 > [!IMPORTANT]  
->  Reitirnir **Tegund mótreiknings** og **Mótreikningur nr.** eru ekki í staðalútliti reikningshaussins. Til að bóka greiðslu á reikningi verður fyrst að setja þær inn með hönnunarbúnaðinum.  
+>  Reitirnir **Tegund mótreiknings** og **Mótreikningur nr.** eru ekki í staðalútliti reikningshaussins. Til að bóka greiðslu á reikningi verður fyrst að setja þær inn með hönnunarbúnaðinum. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md). 
 
 > [!NOTE]  
 >  Ef oft eru greiddir innkaupareikningar með peningum er gagnlegt að setja upp sérstaka greiðsluaðferð með mótreikningi og færa þessa aðferð í reitinn  **Greiðsluaðferð** á lánardrottnaspjaldinu. Mótreikningsnúmerið er sett sjálfkrafa í reikningshausinn í hvert sinn sem búinn er til nýr reikningur.  

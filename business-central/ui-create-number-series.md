@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ad00fffd79d35e7e1dc29134b75c4c5213891e0b
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: bd86c129f2c6161860505a1127c3160e1e2da8ad
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953294"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030077"
 ---
 # <a name="create-number-series"></a>Stofnun númeraraða
 Fyrir hvert fyrirtæki sem þú setur upp þarftu að úthluta einstökum kennitölum við hluti eins og aðalbókarreikninga, viðskiptavinar- og seljanda, reikninga og önnur skjöl. Númeraröð er ekki aðeins mikilvæg fyrir auðkenningu. Vel unnið númerakerfi gerir einnig auðveldara að stýra og greina fyrirtækið og getur fækkað villum sem upp koma í gagnafærslu.
@@ -35,7 +35,7 @@ Númerakerfi er stofnað með því að setja upp einn eða fleiri kóta fyrir h
 Hægt er að nota fleiri en einn númeraraðarkóta fyrir hverja tegund frumgagna með því að nota númeraraðatengsl, til dæmis til að nota mismunandi númeraraðir fyrir mismunandi vöruflokka.
 
 ## <a name="gaps-in-number-series"></a>Eyður í númeraröðum
-Ekki allar færslur sem stofnaðar eru í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru fjárhagsfærslur sem þarf að nota í röð númeraraðar. Viðskiptamannaspjald, sölutilboð og vöruhúsaaðgerðir eru dæmi um færslur sem eru úthlutaðar númeri úr númeraröðum en eru ekki háðar fjárhagsendurskoðun og/eða er hægt að eyða þeim. Til slíkrar númeraraðar er hægt að velja **Leyfa eyður í númeraröðum** í gátreitnum á síðunni **Númeraröð nr.**. Frekari upplýsingar eru í [Búa til nýja númeraröð](ui-create-number-series.md#to-create-a-new-number-series).
+Ekki allar færslur sem stofnaðar eru í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru fjárhagsfærslur sem þarf að nota í röð númeraraðar. Viðskiptamannaspjald, sölutilboð og vöruhúsaaðgerðir eru dæmi um færslur sem eru úthlutaðar númeri úr númeraröðum en eru ekki háðar fjárhagsendurskoðun og/eða er hægt að eyða þeim. Til slíkrar númeraraðar er hægt að velja **Leyfa eyður í númeraröðum** í gátreitnum á síðunni **Númeraröð nr.**. Einnig er hægt að breyta þessari stillingu eftir að búið er að stofna númeraröðina. Frekari upplýsingar eru í [Búa til nýja númeraröð](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Hegðun nr. reitur á skjölum og kortum
 Á sölu-, innkaupa og flutningsskjölum og á öllum kortum, **Nr.** hægt að fylla út sjálfkrafa með númeraröð eða handvirkt og hægt er að setja það upp svo það verði ósýnilegt.
@@ -82,7 +82,7 @@ Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund g
 
 Þegar eitthvað er sett upp eftir þetta sem þarfnast númers er hægt að nota tengslin sem voru stofnuð til að velja úr skyldum númeraröðum.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesnumber-series-trail-codes-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

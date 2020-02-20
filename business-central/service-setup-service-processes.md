@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3ca0221f755aa4bf3033cbab3469c6772c6d8413
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877136"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030221"
 ---
 # <a name="configure-service-processes"></a>Grunnstilling þjónustuferlis
 Hér eru nokkur dæmi um stillingar sem hægt er að nota í þjónustustýringarferli:  
@@ -27,8 +27,8 @@ Hér eru nokkur dæmi um stillingar sem hægt er að nota í þjónustustýringa
 * Talnaraðirnar sem á að nota fyrir þjónustutengd skjöl og vörur.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Að færa inn almennar og áskildar stillingar
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning þjónustu** og veldu síðan tengda tengilinn.
-2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Þjónustukerfisgrunnur** og veldu síðan tengda tengilinn.
+2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp bilanatilkynningar](service-how-setup-fault-reporting.md)  

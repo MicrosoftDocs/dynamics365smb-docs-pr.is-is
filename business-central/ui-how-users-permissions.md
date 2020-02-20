@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: e07636b6211eb57205d41d982bfbfb4bc2d5b330
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943234"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030053"
 ---
 # <a name="create-users-according-to-licenses"></a>Búa til notendur samkvæmt leyfum
 Hér á eftir er lýst hvernig þú sem stjórnandi býrð til notendur og skilgreinir hverjir geta skráð sig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] og hvaða grundvallarréttindi mismunandi notendagerðir eru með samkvæmt leyfum.
@@ -61,7 +61,7 @@ Stundum gætirðu þurft að breyta leyfi sem er úthlutað til notanda. Ef þú
 1. Breyttu leyfinu í Microsoft 365 stjórnendamiðstöð. Frekari upplýsingar er að finna í [Bæta stökum notendum eða mörgum í einu við Office 365](https://aka.ms/CreateOffice365Users).
 2. Skráðu þig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] sem stjórnandi.
 3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.
-4. Á síðunni **Notendur** skaltu velja aðgerðina **Endurhlaða alla notendaflokka**.
+4. Á síðunni **Notendur** skal velja aðgerðina **Endurheimta sjálfgefna notendahópa notanda**.
 
 Notendurnir verða færðir yfir í viðeigandi notendahóp og heimildasamstæðurnar verða uppfærðar. Frekari upplýsingar er að finna á[Til að stjórna heimildum í gegnum notendaflokka](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
@@ -87,7 +87,7 @@ Ef þú breytir notandanum í Office 365 eftirá og þarft að samstilla breytin
 ## <a name="the-device-license"></a>Leyfi tækis
 Með Dynamics 365 Business Central tækjaleyfinu geta margir notendur notað tæki sem hefur leyfi samkvæmt tækjaleyfinu til að reka tæki á sölustað, tæki í verslun eða tæki í vöruhúsi. Frekari upplýsingar er að finna í [Microsoft Dynamics 365 Business Central leyfishandbók](https://aka.ms/BusinessCentralLicensing).
 
-Tækjaleyfið er innleitt samkvæmt líkani samhliða notenda. Þegar keyptur er X fjöldi af tækjaleyfum, geta allt að X fjöldi notenda frá tilgreindum hóp sem kallast Dynamics 365 Business Central tækjanotendur* skráð sig inn samtímis.
+Tækjaleyfið er innleitt samkvæmt líkani samhliða notenda. Þegar keyptur er X fjöldi af tækjaleyfum, geta allt að X fjöldi notenda frá tilgreindum hóp sem kallast Dynamics 365 Business Central tækjanotendur skráð sig inn samtímis.
 
 Stjórnandi Office 365 fyrirtækisins eða samstarfsaðili Microsoft ætti að stofna tilgreindan tækjahóp og bæta tækjanotendum við sem meðlimum þess hóps. Þetta geta hann gert í [Microsoft 365 stjórnendamiðstöðinni](https://admin.microsoft.com/) eða í [Azure-gáttinni](https://portal.azure.com/).
 

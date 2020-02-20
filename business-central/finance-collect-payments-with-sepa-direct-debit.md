@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e3270864e184bdb7473a95fd1620ea98c3e3fbd2
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554303"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030197"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Innheimta greiðslur með SEPA-beingreiðslum
 Með samþykki viðskiptamanns er hægt að sækja greiðslur beint inn á bankareikninga viðskiptamanns út frá SEPA-sniðinu.  
@@ -32,7 +32,10 @@ Með samþykki viðskiptamanns er hægt að sækja greiðslur beint inn á banka
 >  Að safna greiðslum með SEPA-beingreiðslur, verður gengið á sölureikningi að vera EVRA.  
 
 ## <a name="setting-up-sepa-direct-debit"></a>Uppsetning SEPA-beingreiðslna
-Á síðunni **Innheimta beingreiðslu** er hægt að flytja út leiðbeiningar fyrir rafrænan banka til að innheimta beingreiðslu af bankareikningi viðskiptamanns á þinn bankareikning. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður SEPA-beingreiðslusniðið, en í heimalandi þínu / svæði geta önnur snið fyrir rafrænar greiðslur kunna að vera tiltækir.  
+Á síðunni **Innheimta beingreiðslu** er hægt að flytja út leiðbeiningar fyrir rafrænan banka til að innheimta beingreiðslu af bankareikningi viðskiptamanns á þinn bankareikning í samræmi við SEPA-beingreiðslusniðið.
+
+> [!NOTE]
+> Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður eingöngu SEPA-beingreiðslusniðið. Útgáfa þíns lands/svæðis kann að styðja önnur snið fyrir rafrænar greiðslur. Sjá undir **Staðbundin virkni** í efnisyfirlitinu.  
 
 Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar af [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að setja upp gagnaskiptaskilgreiningu með því að nota gagnaskiptaumgjörð. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -43,12 +46,12 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
 * Setja upp umboð fyrir beingreiðslu sem endurspeglar samning þinn við viðskiptavininn um söfnun greiðslna á tilteknu samningstímabili.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Setja upp bankareikning fyrir SEPA-beingreiðslu  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bankareikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.  
 2. Opnið bankareikning sem á að nota fyrir beingreiðslur.  
 3. Á flýtiflipanum **Færsla** í reitnum **SEPA – Útflutningssnið beinnar skuldfærslu** skal velja valkostinn fyrir SEPA-beingreiðslur.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Setja upp greiðslumáta viðskiptamanns fyrir SEPA-beingreiðslu  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslumáti** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslumáti** og veldu síðan tengda tengilinn.  
 2. Valið er aðgerðin **Nýtt**.  
 3. Setjið upp greiðsluaðferð. Fylla inn í reitina eins\- og lýst er í eftirfarandi töflu.  
 
@@ -96,7 +99,7 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
 
 ### <a name="to-create-a-direct-debit-collection"></a>Til að stofna innheimtu beingreiðslu  
 
- 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innheimta beingreiðslu** og veldu síðan tengda tengilinn.  
+ 1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Innheimta með beinni skuldfærslu** og veldu síðan tengda tengilinn.  
  2. Á síðunni **Innheimta beingreiðslu** skaltu velja aðgerðina **Stofna innheimtu beingreiðslu**.  
  3. Á síðunni **Stofna innheimtu beingreiðslu** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  
 
@@ -112,7 +115,7 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
 
  4. Velja hnappinn **Í lagi**.  
 
-      Innheimtu beingreiðslu er bætt við síðuna **Innheimta beingreiðslu** og ein eða fleiri innheimtufærsla fyrir beingreiðslu er stofnuð.  
+Innheimtu beingreiðslu er bætt við síðuna **Innheimta beingreiðslu** og ein eða fleiri innheimtufærsla fyrir beingreiðslu er stofnuð.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Flytja út innheimtufærslu beingreiðslu í bankaskrá  
  1. Á síðunni **Innheimta beingreiðslu** skaltu velja aðgerðina **Innheimtufærslur með beinni skuldfærslu**.  
@@ -142,7 +145,7 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
  Hægt að bóka greiðslukvittunina beint af síðunni **Innheimta fyrir beingreiðslur** eða af síðunni **Innheimtufærslur fyrir beingreiðslur**. Einnig er hægt að færa verkið á annan notanda með því að undirbúa tengdar færslubókarlínur.  
 
 ### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Bóka greiðslukvittun beingreiðslu af síðunni Innheimta beingreiðslur  
- 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innheimta beingreiðslu** og veldu síðan tengda tengilinn.  
+ 1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Innheimta með beinni skuldfærslu** og veldu síðan tengda tengilinn.  
  2. Veljið línu fyrir innheimtu beingreiðslu sem hefur verið flutt út í bankaskrá og meðhöndluð af bankanum.
  3. Valið er **bóka greiðslukvittanir** aðgerð.  
  4. Á síðunni **bóka innheimtu beingreiðslu** þarf að fylla reitina út eins og lýst er í eftirfarandi töflu.  

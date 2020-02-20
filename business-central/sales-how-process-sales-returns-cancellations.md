@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954004"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991929"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Vinna söluskil eða afturkallanir
 Ef viðskiptavinur vill skila eða endurgreiða fyrir vörur eða þjónustu sem þú hefur selt og fengið greiðslu fyrir verður þú að búa til og senda inn söluskuldbindingar sem tilgreinir umbeðnar breytingar. Til að taka réttar sölureikningsupplýsingar með, er hægt að stofna sölukreditreikning beint úr bókaða sölureikningnum eða þú getur stofnað nýja sölukreditreikning með afrituðum reikningsupplýsingum.
@@ -32,6 +32,9 @@ Auk upprunalega bókaðs sölureiknings, er hægt að jafna sölukreditreikning 
 Hægt er að senda bókaða sölukreditreikninga til viðskiptamannsins til að staðfesta vöruskil eða afturköllun og miðla því að virðið verði endurgreitt, til dæmis þegar vörum er skilað.
 
 Bókun innkaupareiknings mun einnig snúa við öllum kostnaðarauka sem var úthlutað á bókaða skjalið, þannig að vöruvirðisfærslurnar eru þær sömu og áður en kostnaðaraukanum var úthlutað.
+
+> [!NOTE]
+> Bókhaldsþættir söluvöruskila, svo sem greiðslur til viðskiptamanna sem endurgreiðsla, teljast bókhaldsverk og er ekki lýst hér. Nánari upplýsingar er að finna í [Stjórna skuldum](payables-manage-payables.md).
 
 ## <a name="inventory-costing"></a>Birgðakostnaður
 Til að varðveita rétt birgðaverðmat, eru vanalega setja skilavörur aftur inn í birgðum á því kostnaðarverði sem þær voru seldar á, en ekki núgildandi kostnaðarverði. Þetta er kallað nákvæm bakfærsla kostnaðar.
@@ -215,10 +218,11 @@ Hægt er að sameina vöruskilamóttökur sjálfvirkt og hafa möguleikann á a�
 
 Að öðrum kosti skal eyða einstökum söluvöruskilapöntunum handvirkt.   
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
+[Stjórna skuldum](payables-manage-payables.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

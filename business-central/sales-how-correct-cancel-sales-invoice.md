@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: c20dcb73b52a42d6070fdbcb32c726d2181c8c6b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 95653acf28c553d8331e2c086b7e84f1518bc3c0
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316477"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992049"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Ógreiddir sölureikningar leiðréttir eða afturkallaðir
 Hægt er að leiðrétta eða afturkalla bókaðann sölureikning. Þetta er gagnlegt þegar mistök eiga sér stað eða ef viðskiptamaðurinn biður um breytingu.
@@ -33,7 +33,7 @@ Hægt er að leiðrétta eða afturkalla bókaðann sölureikning. Þetta er gag
 Þegar hinn bókaður sölureikningur er leiðréttur eða afturkallaður, er hann jafnaður við allar fjárhags- og raunbirgðafærslur sem búnar voru til við bókun hins upphaflega sölureiknings. Þetta bakfærir hinn bókaða sölureikning í fjárhagslegum færslum og lætur hina leiðréttu bókaða sölukreditreikninga í endurskoðunarrakninguna.
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Bókaður sölureikningur leiðréttur
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðir sölureikningar** og veldu síðan tengda tengilinn.  
+1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Bókaðir sölureikningar** og veldu síðan tengda tengilinn.  
 2. Veljið bókaða sölureikninginn sem á að leiðrétta.
 
     > [!NOTE]  
@@ -45,7 +45,7 @@ Hægt er að leiðrétta eða afturkalla bókaðann sölureikning. Þetta er gag
 5. velja **sýna leiðréttan kreditreikning** aðgerðina til að skoða bókaða sölukreditreikninginn sem ógildir upphaflega bókaða sölureikninginn.
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Bókaður sölureikningur afturkallaður
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðir sölureikningar** og veldu síðan tengda tengilinn.  
+1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Bókaðir sölureikningar** og veldu síðan tengda tengilinn.  
 2. Veljið bókaða sölureikninginn sem á að afturkalla.
 
     > [!NOTE]  
@@ -54,6 +54,9 @@ Hægt er að leiðrétta eða afturkalla bókaðann sölureikning. Þetta er gag
 
     Sölukreditreikningur er búinn til sjálfkrafa og bókaður til að ógilda upphaflega bókaða sölureikninginn. Reiturinn **hætt við** á hinum upphaflega bókaða sölureikningi er breytt í **Já**.
 4. Velja **sýna leiðréttan kreditreikning** til að skoða bókaða sölukreditreikninginn sem ógildir upphaflega bókaða sölureikninginn.
+
+### <a name="partial-invoice-posting-also-supported"></a>Takmörkuð bókun reiknings er einnig studd
+Ef Afturköllunin tengist takmarkaðri bókun á reiknings er upprunaleg sölupöntunarlína uppfærð til að endurspegla afturkallað Reikningsfært magn. Reitirnir **Magn til reikningsf.** og **Reikn.fært magn** á tengdri sölupöntunarlínu er endurstilltir á gildin fyrir takmarkaða bókun.
 
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879203"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999784"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Nota verkraðir til að tímaraða verkhlutum
 Verkraðir í [!INCLUDE[d365fin](includes/d365fin_md.md)] gera notendum kleift að tímasetja og keyra tilteknar skýrslur og kótasöfn. Stilla má verk svo þau keyri einu sinni eða endurtekið. Til dæmis kann notandi að vilja keyra skýrslu yfir **Sölutölur sölumanns** vikulega, að rekja sölu sölumanns í hverri viku eða keyra kóðaeininguna **Úrvinnsla þjónustupóstraðar** daglega, til að tryggja að tölvupóstur sem bíður á leið til viðskiptamanna, varðandi þjónustupantanir þeirra, sé sendur út tímanlega.
@@ -31,6 +31,11 @@ Verkraðir eru áhrifaríkt verkfæri til að raða keyrslu viðskiptaferla í b
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] styður bakgrunnsbókun fyrir öll sölu-, innkaupa- og þjónustuskjöl.
 
+> [!NOTE]
+> Sum verk breyta sömu gögnum og ekki ætti að keyra þau samtímis þar sem það getur valdið árekstrum. Til dæmis munu bakgrunnsvinnslur fyrir söluskjöl reyna að breyta sömu gögnum á sama tíma. Verkraðarflokkar koma í veg fyrir að þessar gerðir árekstrar með því að tryggja að þegar ein vinnsla er keyrð muni önnur vinnsla sem tilheyrir sömu verkraðarflokki ekki keyra fyrr en henni lýkur. Til dæmis mun vinnsla sem tilheyrir flokki söluverkraðar bíða þar til öll önnur sölutengd verk eru búin. Verkraðarflokkur er tilgreindur á flýtiflipanum **Bókun í bakgrunni** á síðunni **Sölugrunnur**. 
+> 
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] bíður upp á verkraðarflokka fyrir sölu, innkaup og bókun í fjárhag. Mælt er með því að eitt þessara, eða eitt þess sem er búið til, sé alltaf tilgreint. Ef bilanir koma upp vegna árekstra skal íhuga að setja upp flokk fyrir allar sölur, innkaup og bakgrunnsbókun í fjárhag.
+
 Eftirfarandi ferli lýsir hvernig setja á upp bakgrunnsbókun fyrir sölupantanir. Skrefin eru svipuð fyrir innkaup og þjónustu.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölugrunnur** og veldu síðan tengda tengilinn.
@@ -41,7 +46,7 @@ Eftirfarandi ferli lýsir hvernig setja á upp bakgrunnsbókun fyrir sölupantan
 4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkraðarfærslur** og veldu síðan viðeigandi tengil.
 5. Á síðunni **Verkraðarfærslur** skal velja aðgerðina **Ný**.
 6. Í reitnum **Gerð hlutar sem á að keyra** skal velja **Codeunit**.  
-7. Í reitnum **Kenni hlutar til að keyra**, skal velja 88, **Bókun sölu í gegnum verkröð**.
+7. Í **Hlutakenni í keyrslu** skal velja **88**. Svæðin „Lýsing“ og „Hlutayfirskrift í keyrslu“ sýna sölubókun í gegnum verkröð.
 
     Engir aðrir reitir eiga við fyrir þessa atburðarás.
 8. Velja aðgerðina **Stilla stöðu á Tilbúin**.
@@ -112,7 +117,7 @@ Verkraðarfærslur keyra á grundvelli heimilda. Þessar heimildir verða að le
 ## <a name="using-job-queues-effectively"></a>Að nota verkraðir á skilvirkan hátt  
 Verkraðarfærsluskrá er með marga reiti sem hafa þann tilgang að setja færibreytur í codeunit sem tilgreind hefur verið til keyrslu með verkröð. Þetta þýðir einnig að kóðaeiningar sem á að keyra með verkröðinni verður að tilgreina með skránni Verkraðarfærsla sem færibreytur í **OnRun** rofanum. Þetta stuðlar að auknu öryggi, þar sem þetta kemur í veg fyrir að notendur keyri tilviljanakenndar kóðaeiningar gegnum verkröðina. Þurfi notandi að senda færibreytur í skýrslu er eina leiðin til að gera það að vefja skýrslukeyrslunni í kótaeiningu sem þáttar inntaksbreyturnar og skráir þær í skýrsluna fyrir keyrslu hennar.  
 
-## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Tímastillir samstillingu á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="scheduling-synchronization-between-d365fin-and-crm_md"></a>Tímastillir samstillingu á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]
 Ef þú hefur samþætt [!INCLUDE[d365fin](includes/d365fin_md.md)] við [!INCLUDE[crm_md](includes/crm_md.md)] geturðu notað verkröðina til að tímasetja hvenær þú vilt samstilla gögn fyrir færslurnar sem þú ert með í viðskiptaforritunum tveimur. Samstillingarvinnslur geta einnig búið til nýjar færslur í áfangaforritinu til að passa við þær sem eru í upprunanum, allt eftir stefnu og reglum sem þú hefur skilgreint fyrir samþættingu. Ef Sölumaður stofnar til dæmis nýjan tengilið í [!INCLUDE[crm_md](includes/crm_md.md)] getur samstillingarvinnslan búið til þann tengilið fyrir tengdan sölumann í [!INCLUDE[d365fin](includes/d365fin_md.md)]. [Áætla samstillingu milli Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 
 ## <a name="see-also"></a>Sjá einnig  

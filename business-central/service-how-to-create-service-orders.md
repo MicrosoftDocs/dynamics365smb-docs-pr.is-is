@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b941d451a5c3ef288128a271855958a954f70f9c
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877314"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030101"
 ---
 # <a name="create-service-orders"></a>Stofna þjónustupantanir
 Hægt er að nota síðuna **Þjónustupöntun** til að stofna skjöl þar sem hægt er að færa inn upplýsingar um þjónustu, s.s. viðgerðir og viðhald, á þjónustuvörum að beiðni viðskiptamanns.  
@@ -46,6 +46,8 @@ Hægt er að stofna þjónustupantanir sjálfkrafa til viðhalds þjónustuvöru
     >  Takmörk eru fyrir þeim dagafjölda sem má vera milli dagsetninga í hvert sinn sem keyrslan er framkvæmd. Þessi mörk eru stillt í reitnum **Hám.dagafj. samn.þjón.pantana** á síðunni **Þjónustukerfisgrunnur**.  
 
 4. Í reitnum **Aðgerð** er valið að **Stofna þjónustupöntun**.  
+    > [!NOTE]  
+    >  Ekki er hægt að stofna pöntun með mörgum þjónustuvörum ef það er stillt reitinn **Ein þjónustuvörulína á pöntun** á síðunni **Þjónustukerfisgrunnur**. 
 
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Þjónustutilboði breytt í þjónustupöntun:
 Þegar viðskiptamaður tekur tilboði um þjónustutilboð er því breytt í þjónustupöntun. Tilboðinu er eytt og ný þjónustupöntun er sett upp með sömu lýsingu og þjónustutilboðið. Svardagsetningin og tími vegna þjónustupöntunar eru endurreiknuð og staðan er stillt á **Í undirbúningi**. Viðgerðarstöðu þjónustuvörunnar í pöntuninni er breytt í **Upphafleg**.  
