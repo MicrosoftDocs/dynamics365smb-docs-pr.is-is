@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/07/2020
+ms.date: 02/11/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a2e134c072fd27d08c9ad2c90858eef507fe5e4
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: dfd06fce9aab0de6afb725ab4625138b62305a1a
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030173"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076783"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Setja upp skilgreiningar gagnaskipta
 Hægt er að setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] til að skiptast á gögnum í tilgreindum töflum með gögnum á ytri skjölum, til dæmis senda og taka á móti rafrænum skjölum, flytja inn og flytja út bankagögn eða önnur gögn, t.d. launaskrá, gengi gjaldmiðils og vörulista. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).  
@@ -124,7 +124,7 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
     |**Heiti**|Sláðu inn heiti fyrir vörpunaruppsetninguna.|  
     |**Kóðaeining forvörpunar**|Tilgreinið kóðaeining sem undirbúa vörpun á milli reita í [!INCLUDE[d365fin](includes/d365fin_md.md)] og ytri gögn.|  
     |**Vörpunarkóðaeining**|Tilgreinið kóðaeiningu sem er notað til að kortleggja tilgreind dálka eða XML-gagnastök í reiti í ​​[!INCLUDE[d365fin](includes/d365fin_md.md)]|  
-    |**Kóðaeining eftirávörpunar**|Tilgreinið kóðaeiningu sem lýkur vörpun á milli reita í [!INCLUDE[d365fin](includes/d365fin_md.md)] og ytri gagna. **Athugið:**  Þegar búnaður fyrir umreikningsþjónustu bankagagna er notaður umreiknar kóðaeiningin útflutt gögn úr [!INCLUDE[d365fin](includes/d365fin_md.md)] yfir í almennt snið sem er tilbúið til útflutnings. Til að flytja inn breytir kóðaeiningin ytri gögnum í snið sem hægt er að flytja inn í [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Kóðaeining eftirávörpunar**|Tilgreinið kóðaeiningu sem lýkur vörpun á milli reita í [!INCLUDE[d365fin](includes/d365fin_md.md)] og ytri gagna. **Athugið:** Þegar eiginleiki AMC Banking 365 Fundamentals viðbótarinnar er notaður umreiknar kóðaeiningin útflutt gögn úr [!INCLUDE[d365fin](includes/d365fin_md.md)] yfir í almennt snið sem er tilbúið til útflutnings. Til að flytja inn breytir kóðaeiningin ytri gögnum í snið sem hægt er að flytja inn í [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
 
 3.  Á flýtiflipanum **Reitavörpun** skal tilgrina hvaða dálkum á að varpa í hvaða reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að fylla út reitina sem lýst er í eftirfarandi töflu.  
 
@@ -139,7 +139,7 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
     |**Yfirskrift markreits**|Aðeins sýnilegur þegar **Nota sem millitöflu** reitur er valinn.<br /><br /> Tilgreinir heiti reits í marktöflu sem gildið í reitnum **Skýringartexti dálks** er varpað á, þegar notuð er millitafla fyrir gagnainnflutning.|  
     |**Valfrjálst**|Aðeins sýnilegur þegar **Nota sem millitöflu** reitur er valinn.<br /><br /> Tilgreinið hvort vörpun á að sleppa ef reitur er tómur. Ef þessi gátreitur er ekki valinn kemur útflutningsvilla upp ef reiturinn er auður.|  
 
-Gagnaskiptaskilgreining er tilbúin til virkjunar fyrir notendur. Frekari upplýsingar er að finna í [Setja upp Rafræn skjöl Sending Móttaka](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Setja upp SEPA kreditfærslu](finance-how-to-set-up-sepa-credit-transfer.md), [Hvernig á að: Setja upp SEPA beingreiðslu](finance-how-to-set-up-sepa-direct-debit.md), og [Setja upp umreikningsþjónustu fyrir bankagögn eða SEPA kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+Gagnaskiptaskilgreining er tilbúin til virkjunar fyrir notendur. Frekari upplýsingar er að finna í [Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Setja upp SEPA kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Rukka með SEPA beingreiðslu](finance-collect-payments-with-sepa-direct-debit.md), og [Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Umbreytingarreglur
 Ef gildin í reitunum sem verið er að skrá eru mismunandi verður að nota umbreytingarreglur fyrir skilgreiningar gagnaskipta til að gildin verði þau sömu. Umbreytingarreglur fyrir gagnaskiptaskilgreiningar eru skilgreindar með því að opna fyrirliggjandi skilgreiningu eða búa til nýja skilgreiningu og síðan í flýtiflipanum **Línuskilgreiningar** skal velja **Stjórna** og síðan **Reitavörpun**. Boðið er upp á forskilgreindar reglur, en einnig má búa til sínar eigin. Í eftirfarandi töflu er tegundum umbreytinga lýst sem hægt er að nota.
@@ -157,7 +157,7 @@ Ef gildin í reitunum sem verið er að skrá eru mismunandi verður að nota um
 |**Dagsetningarsnið**|Tilgreina hvernig á að birta dagsetningar. Til dæmis er hægt að umbreyta DD-MM-ÁÁÁÁ í ÁÁÁÁ-MM-DD.|
 |**Tugatölusnið**|Skilgreina reglur fyrir staðsetningu tugabrota og sléttunarnákvæmni.|
 |**Samsvörun í reglulegum segðum**|Nota skal reglulega segð til að finna eitt eða fleiri gildi. Þetta er svipað og **Undirstrengur** og **Regluleg segð - Skipta út** valmöguleikarnir.|
-|**Endurmat**|Þetta er ítarlegur valkostur sem krefst aðstoðar frá þróunaraðila. Það virkjar samþættingartilvik sem hægt er að gerast áskrifandi að ef áhugi er fyrir því að nota eigin umbreytingarkóða. Ef þú ert þróunaraðili og vilt nota þennan valkost skaltu sjá [dæmi](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option) hér að neðan.|
+|**Endurmat**|Þetta er ítarlegur valkostur sem krefst aðstoðar frá þróunaraðila. Það virkjar samþættingartilvik sem hægt er að gerast áskrifandi að ef áhugi er fyrir því að nota eigin umbreytingarkóða. Ef þú ert þróunaraðili og vilt nota þennan valkost skaltu sjá hlutann „Ábending til þróunaraðila: Dæmi um sérstillta valkosti“ dæmi hér að neðan.|
 |**Dag- og tímasetningasnið**|Skilgreina hvernig á að birta núverandi dagsetningu sem og tíma dags.|
 
 #### <a name="tip-for-developers-example-of-the-custom-option"></a>Ábending til þróunaraðila: Dæmi um sérstillta valkosti
@@ -196,8 +196,7 @@ codeunit 60100 "Hello World"
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Setja upp SEPA-kreditfærslur](finance-how-to-set-up-sepa-credit-transfer.md)  
-[Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-direct-debit.md)  
-[Greiða með umreikningsþjónustu bankagagna eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)  
+[Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0091f7ae1e6b22b6228ad903af783fb790faf99d
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: e6466690fb4be462f20cd967c35b2aee39486b61
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692609"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076756"
 ---
 # <a name="exchanging-data"></a>Gagnaskipti
 Hægt er að skipta á gögnum á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og ytri skráa í tengslum við algeng viðskiptaverk, s.s. að senda og taka á móti rafrænum skjölum og flytja inn og út bankaskrár.  
@@ -30,9 +30,9 @@ Hægt er að skipta á gögnum á milli [!INCLUDE[d365fin](includes/d365fin_md.m
 |Nota OCR-þjónustu til að breyta PDF eða myndaskrám í rafræn skjöl sem hægt er að breyta í færslur fyrir skjöl í [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)|  
 |Taka á móti rafrænum skjölum, annaðhvort úr OCR-þjónusta eða skjalaskiptaþjónusta, í stöðluðu sniði sem umbreytt er í viðeigandi innkaupaskjalsfærslu í [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Taka við og umbreyta rafræn skjölum](purchasing-how-to-receive-and-convert-electronic-documents.md)|  
 |Flytjið bankayfirlitsskrá inn á síðuna **greiðsluafstemmingarbók** sem fyrsta skrefið í afstemmingu greiðsla eða inn á síðuna **Afstemming bankareiknings** sem fyrsta skrefið í að afstemma bankareikninga.|[Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md)|  
-|Flytja greiðslur úr **greiðslubók** síðunni í bankaskrá sem er hlaðið upp á rafrænan bankareikning til vinnslu.|[Flytja út greiðslur í bankaskrá](payables-how-export-payments-bank-file.md)|
-|Gerðu rafrænar greiðslur í samræmi við SEPA-kreditfærslustaðla ESB.|[Greiða með umreikningsþjónustu bankagagna eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|  
-|Gefið bankanum fyrirmæli um að flytja greiðsluupphæðir af bankareikningum viðskiptavina á bankareikninga fyrirtækisins í samræmi við uppsetningu SEPA-beingreiðslna.|[Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|Flytja greiðslur úr **greiðslubók** síðunni í bankaskrá sem er hlaðið upp á rafrænan bankareikning til vinnslu.|[Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)|
+|Gerðu rafrænar greiðslur í samræmi við SEPA-kreditfærslustaðla ESB.|[Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|  
+|Gefið bankanum fyrirmæli um að flytja greiðsluupphæðir af bankareikningum viðskiptavina á bankareikninga fyrirtækisins í samræmi við uppsetningu SEPA-beingreiðslna.|[Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)|  
 |Nota gengi þjónustuveitu gjaldeyrisviðskipta til að uppfæra síðuna **Gengi**.|[Uppfæra gengi](finance-how-update-currencies.md)|  
 |Skoðið hvaða skráareiginleikar eru varpaðir á reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)] við innflutning SEPA CAMT yfirlitsskráa.|[Reitarvörpum við innflutning SEPA CAMT skráa](across-field-mapping-when-importing-sepa-camt-files.md)|  
 |Skoðaðu hvaða reitum í [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur verið varpað á skráareiginleika við útflutning greiðsluskráa með AMC Banking 365 Fundamentals viðbótinni.|[Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  

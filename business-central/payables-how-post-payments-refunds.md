@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 5f9301541e73b4137f6c241a18e2f25c4009fc76
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a35dc8fb1bd6725d4c1f62d387408234f7419b74
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314293"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076974"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Skrá greiðslur og endurgreiðslur í greiðslubókina
 
@@ -33,11 +33,11 @@ Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. 
 
 - Prenta ávísanir og senda greiðslur rafrænt til bankans
 
-    Til viðbótar við að skrá þig að greiðslan er hafi verið gerð, geturðu einnig notað síðuna **Greiðslubók** til að gera greiðsluna móttækilega fyrir frekari vinnslu hjá bankanum þínum. Frekari upplýsingar eru að finna í [Greiða greiðslu með ávísun](payables-how-work-checks.md) og [Greiða rafrænar greiðslur](payables-how-export-payments-bank-file.md).  
+    Til viðbótar við að skrá þig að greiðslan er hafi verið gerð, geturðu einnig notað síðuna **Greiðslubók** til að gera greiðsluna móttækilega fyrir frekari vinnslu hjá bankanum þínum. Frekari upplýsingar eru að finna í [Greiða greiðslu með ávísun](payables-how-work-checks.md) og [Greiða rafrænar greiðslur](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Til að greiða í greiðslubók
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslubók** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubækur** og veldu síðan tengda tengilinn.
 2. Opnaðu bókarkeyrsluna sem er notuð fyrir greiðslur.
 3. Ef þú veist hverjum á að borga eða endurgreiða skaltu fylla inn reitina handvirkt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Til að einnig jafna greiðsluna við tengdan reikning eða kreditreikning skaltu velja **Jöfnunarskjalsnúmer**. reitinn á síðunni **Jafna lánardr.færslur**, velja viðeigandi reikning eða kreditreikning og síðan velja hnappinn **Í lagi**.
@@ -50,7 +50,7 @@ Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. 
 
 ## <a name="see-also"></a>Sjá einnig
 [Framkvæma ávísanagreiðslur](payables-how-work-checks.md)  
-[Framkvæma rafrænar greiðslur](payables-how-export-payments-bank-file.md)  
+[Framkvæma rafrænar greiðslur](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Stjórna skuldum](payables-manage-payables.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md)  

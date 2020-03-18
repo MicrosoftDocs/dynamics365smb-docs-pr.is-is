@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882951"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076413"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs
 Til að skilja hvernig áætlanakerfi virkar, það er nauðsynlegt að skilja forgangsraðað markmið áætlanakerfisins, mikilvægasta sem eru að tryggja að:  
@@ -66,7 +66,7 @@ Ef fyrstu tiltæku birgðir eru undir núlli leggur áætlanakerfið til neyðar
 ## <a name="loading-the-inventory-profiles"></a>Hleðsla birgðaforstillinga
 Til að raða út margar uppsprettur eftirspurn og framboð, áætlanagerð kerfi skipuleggur þá á tveggja tíma línur kallast skrá snið.  
 
-Venjulegar gerðir eftirspurnar og framboðs ásamt gjalddögum á eða eftir ætlaða upphafsdagsetningu eru hlaðið inn í hverja birgðaforstillingu. Þegar hlaðið er mismunandi eftirspurn og framboð tegundir raðað í samræmi við heildarforgangsröðun, svo sem skiladaga, lágstigskóða, staðsetningu og afbrigði. Að auki er pantanaforgangsröðun beitt við mismunandi gerðir til þess að tryggja að mikilvægasta krafa er uppfyllt fyrst. Nánari upplýsingar eru í [Upplýsingar um hönnun: Forgangsröðun pantana](design-details-prioritizing-orders.md).  
+Venjulegar gerðir eftirspurnar og framboðs ásamt gjalddögum á eða eftir ætlaða upphafsdagsetningu eru hlaðið inn í hverja birgðaforstillingu. Þegar hlaðið er mismunandi eftirspurn og framboð tegundir raðað í samræmi við heildarforgangsröðun, svo sem skiladaga, lágstigskóða, staðsetningu og afbrigði. Að auki er pantanaforgangsröðun beitt við mismunandi gerðir til þess að tryggja að mikilvægasta krafa er uppfyllt fyrst. Frekari upplýsingar eru í [Forgangsröðun pantana](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 Eins og fyrr segir getur eftirspurn einnig verði neikvæð. Þetta þýðir að það ætti að meðhöndla sem framboð; Hins vegar, ólíkt eðlilegri gerðir af framboði, er neikvæð eftirspurn talin föst eftirspurn. Áætlanakerfið getur tekið það til greina en mun ekki leggja til neinar breytingar á því.  
 

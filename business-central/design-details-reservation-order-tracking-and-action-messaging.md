@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f179075a63ee42ba2cb61c3647b116536afd5a65
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878438"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076950"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð
 Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginleika pöntunarrakningar og aðgerðaboða.  
@@ -80,7 +80,7 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 
 -   Framleiðslupöntun í mörgum stigum þar sem reiturinn **Framleiðslustefna** viðkomandi yfir- og undirvöru er stilltur á **Eftir pöntun**. Áætlanakerfið býr til frátekningar á milli yfirframleiðslupöntun og undirliggjandi framleiðslupöntunum til að tryggja að pantanirnar verði unnar samtímis. Slíka frátekningarbinding hnekkir sjálfgefnum kostnaði og jöfnunaraðferð vöru.  
 
--   Framleiðsla, samsetning eða innkaupapöntun þar sem reiturinn **Framleiðslustefna** viðkomandi vöru er stilltur á **Pöntun**. Áætlanakerfið býr til frátekningar á milli eftirspurnar og ætlaðs framboð til að tryggja að tilgreint framboð verði búið til. Nánari upplýsingar eru í [Upplýsingar um hönnun: Pöntun](design-details-order.md).  
+-   Framleiðsla, samsetning eða innkaupapöntun þar sem reiturinn **Framleiðslustefna** viðkomandi vöru er stilltur á **Pöntun**. Áætlanakerfið býr til frátekningar á milli eftirspurnar og ætlaðs framboð til að tryggja að tilgreint framboð verði búið til. Nánari upplýsingar eru í [Pöntun](design-details-handling-reordering-policies.md#order).  
 
 -   Framleiðslupöntun sem stofnuð er með eiginleikanum **Sölupantanaáætlun** er tengd við sölupöntun með sjálfvirkri frátekningu.  
 

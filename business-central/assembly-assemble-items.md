@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 946b14c6d3a480bda217b9d78330343a8d772de1
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953876"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097721"
 ---
 # <a name="assembly-management"></a>Samsetningardeild
 Til að styðja fyrirtæki sem selja viðskiptavinum sínum vörur þar sem íhlutir eru sameinaðir í einföldum ferlum án þess að framleiðsluaðgerðir séu nauðsynlekir inniheldur [!INCLUDE[d365fin](includes/d365fin_md.md)] eiginleika til að setja saman vörur sem samþættast með fyrirliggjandi eiginleikum, t.d. sölu, áætlunum, frátektum og vöruhúsaaðgerðum.  
 
  Samsetningarvaran er skilgreind sem seljanleg vara sem inniheldur samsetningaruppskrift. Nánari upplýsingar er að finna í [Vinna með uppskrift.](inventory-how-work-BOMs.md)
 
- Samsetningarpantanir eru innri pantanir, rétt eins og framleiðslupantanir, sem eru notaðar til að stjórna samsetningarferli og til að tengja söluþarfirnar við viðeigandi vöruhúsaaðgerðir. Samsetningarpantanir eru ólíkar öðrum pöntunartegundum því þær fela í sér bæði frálag og notkun við bókun. Haus samsetningarpöntunarinnar hagar sér svipað og sölupöntunarlína og samsetningarpöntunarlínur haga sér svipað og notkunarfærslubókarlínur.  
+ Samsetningarpantanir eru innri pantanir, rétt eins og framleiðslupantanir, sem eru notaðar til að stjórna samsetningarferli og til að tengja söluþarfirnar við viðeigandi vöruhúsaaðgerðir. Samsetningarpantanir eru ólíkar öðrum pöntunartegundum því þær fela í sér bæði frálag og notkun við bókun. Haus samsetningarpöntunarinnar hagar sér svipað og frálagsbókarlína og samsetningarpöntunarlínur haga sér svipað og notkunarfærslubókarlínur.  
 
  Til að styðja tímanlega birgðaáætlun og getuna til að sérsníða vörur eftir þörfum viðskiptavina er hægt að búa til og tengja samsetningarpantanir sjálfkrafa um leið og sölupöntunarlínan er búin til. Tengingin milli sölueftirspurnarinnar og framboðssamsetningarinnar gerir sölupantanagjörvum kleift að sérsníða samsetningarvöruna hvenær sem er, lofa afhendingardagsetningum samkvæmt framboði íhluta og bóka frálag og afhendingu samsettu vörunnar beint úr sölupöntunarviðmóti. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -46,7 +46,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Nánar um muninn á samsetningaruppskriftum og framleiðsluuppskriftum og viðeigandi vinnslumismun.|[Vinna með uppskriftir](inventory-how-work-BOMs.md)|
 |Nánar um hvernig samsetningarnotkun og frálag eru meðhöndluð við bókun samsetningarpantana og hvernig afleiddur vörukostnaður og forðakostnaður eru unnir og dreift á fjárhag.|[Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  

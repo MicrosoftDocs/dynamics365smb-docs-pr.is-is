@@ -1,20 +1,20 @@
 ---
 title: Námskrá fyrir fyrirtækisnotanda
-description: Námskrá fyrir fyrirtækisnotanda
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/06/2019
+description: Finndu allt það nám sem er í boði fyrir Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: 00ee925575dbdfe6eb32e78e3051c7bb8c6d7d96
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: 51e8249f504e9182bf9e427e15629dd51fc804b5
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767891"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097769"
 ---
 # <a name="business-users-learning-catalog"></a>Námskrá fyrir fyrirtækisnotanda
+
+Fékkstu einfaldlega nýtt forrit til að nota?
 
 Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og frá einföldustu til ítarlegustu þátta. Ef efni er til á mörgum sniðum látum við þig vita svo þú getir valið það þjálfunarsnið sem hentar þínum þörfum best. 
 

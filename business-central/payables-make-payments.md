@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0606d5ab3130844be35bc7d0bcba210c83bf3e70
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 99da82d54a2e769c2ebbaf7d4c103791119517d9
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313637"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076463"
 ---
 # <a name="making-payments"></a>Framkvæma greiðslur
 
@@ -37,7 +37,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Bóka greiðslur til lánardrottna eða starfsmanna og endurgreiðslur til viðskiptamanna og valfrjálst jafna greiðslur til tengdra ógreiddra reikninga/kreditreikninga til að loka þeim sem greiddum.|[Skrá greiðslur og endurgreiðslur](payables-how-post-payments-refunds.md)|
 | Nota skal aðgerð á síðunni **Greiðslubók** til að leggja til lánardrottnagreiðslur samkvæmt völdum skilyrðum, eins og gjalddaga, afsláttarskilyrði og greiðslugetu þína. |[Greiðslutillögur til lánardr.](payables-how-suggest-vendor-payments.md) |
 | Gefið út tékka vegna lánardrottnagreiðslna eða endurgreiðslna til viðskiptavina, annað hvort sem útprent eða sem vélfærðan tékka. Ógilda tékka fyrir eða eftir bókun. |[Framkvæma ávísanagreiðslur](payables-how-work-checks.md) |
-|Gerðu rafrænar greiðslur í samræmi við SEPA-kreditfærslustaðla ESB.|[Greiða með umreikningsþjónustu bankagagna eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
+|Gerðu rafrænar greiðslur í samræmi við SEPA-kreditfærslustaðla ESB.|[Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Greiða lánardrottni með peningum eða ávísun og bóka greiðsluna um leið og reikningurinn er bókaður. |[Greiða innkaupareikninga tímanlega](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Gakktu úr skugga um að bankinn þinn eingöngu hreinsar staðfestar athuganir og magn með því að senda þeim skrá sem inniheldur seljanda, athugun og greiðsluupplýsingar. |[Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md) |
 

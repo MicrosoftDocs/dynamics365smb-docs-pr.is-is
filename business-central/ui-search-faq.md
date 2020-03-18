@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695096"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071911"
 ---
 # <a name="tell-me-faq"></a>Algengar spurningar um Viðmótsleit
 Þetta efnisatriði svarar spurningum sem reyndir notendur spyrja oft um eiginleika viðmótsleitar.
@@ -32,7 +32,7 @@ Aðgerðir, síður og skýrslur sem koma frá viðbótum eru sóttar með Viðm
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Hvað gerir þetta frábrugðið því sem áður var þekkt sem Síðuleit?
 Síðuleit hefur þróast í Viðmótsleit til að hjálpa þér að koma hlutum í verk fljótt. Síðuleit gæti aðeins hjálpað þér að vafra á síður eða skýrslur. Á tæknilegu stigi er Viðmótsleit ekki lengur byggt á eldra hugtakinu MenuSuite.
 
-### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Ég nota á staðnum [!INCLUDE[d365fin](includes/d365fin_md.md)]. Felur það í sér Viðmótsleit?
+### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Ég nota á staðnum [!INCLUDE[d365fin](includes/d365fin_md.md)]. Felur það í sér Viðmótsleit?
 Þú getur notað Viðmótsleit í vefbiðlaranum á staðnum til að finna aðgerðir, síður og skýrslur en ekki skjöl, eða forrit og ráðgjafarþjónustu á AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Er Viðmótsleit aðgengileg fyrir alla myndaþætti?
@@ -44,11 +44,9 @@ Hjálparefnin birtast á því tungumáli sem þú hefur tilgreint í **Stilling
 ### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Hvers vegna sé ég ekki bókamerkistákn fyrir leitarniðurstöðurnar mínar?
 Bókamerkjatákn er ekki birt í glugganum „Viðmótsleit“ þegar sérstillingar eru óvirkar fyrir notandahlutverk.
 
-### <a name="is-the-bookmark-icon-available-for-reports"></a>Er bókamerkjatáknið í boði fyrir skýrslur?
-Fj. Aðeins er hægt að bókamerkja tengil á síðu eða einhverjar leitarniðurstöður sem birtast í hlutanum **Síður og verk** í glugganum Viðmótsleit.
-
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vista og sérsníða listayfirlit](ui-views.md)  
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
-[Að finna síður með hlutverkaleit](ui-role-explorer.md)
+[Að finna síður með hlutverkaleit](ui-role-explorer.md)  
+[Síða eða skýrsla bókamerkt í Mitt hlutverk](ui-bookmarks.md)

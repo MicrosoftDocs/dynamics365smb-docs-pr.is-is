@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: dc88bfaac0fe65bfa5e5053529c5724b76787cac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92e2ad3723e2cb2b3b24f179d39462a98e9cc106
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308795"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076588"
 ---
 # <a name="process-sales-opportunities"></a>Meðhöndla sölutækifæri
 Þegar tækifæri er stofnað eru margar aðgerðir til að stjórna tækifæri og vinna það til enda.
@@ -27,7 +27,7 @@ Fyrirliggjandi sölutækifæri eru tiltæk á síðunni **Tækifæralisti**. Þa
 
 | Skoða tækifæri fyrir | Þá |
 | --- | --- |
-| Alla sölumenn og tengiliði |Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tækifæralisti** og veldu síðan tengda tengilinn. |
+| Alla sölumenn og tengiliði |Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Möguleikalisti** og veldu síðan tengda tengilinn. |
 | Tiltekin sölumaður |Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sölumenn** og veldu síðan tengda tengilinn. Veldu sölumaður, veldu aðgerðina **tækifæri**, og veldu síðan aðgerðina **listi**. |
 | Tiltekinn tengilið |Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn. Veldu tengilið úr listanum, og veldu svo aðgerðina **tækifæri**. |
 
@@ -50,7 +50,7 @@ Hægt er að stofna sölutilboð fyrir tengiliði sem ekki eru skráðir sem vi�
 2. Viðeigandi reitir eru fylltir út.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Sölupantanir stofnaðar fyrir tækifæri
-Hægt er að búa til sölupantanir úr sölutilboðunum sem stofnuð hafa verið fyrir tækifærin. Áður en hægt er að stofna sölupantanir fyrir tengiliði þarf að stofna tengiliðinn sem viðskiptamann. Fyrir frekar upplýsingar, sjá sjá [stofna Viðskiptamann, Lánadrottinn eða Bankareikning út frá tengilið](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+Hægt er að búa til sölupantanir úr sölutilboðunum sem stofnuð hafa verið fyrir tækifærin. Áður en hægt er að stofna sölupantanir fyrir tengiliði þarf að stofna tengiliðinn sem viðskiptamann. Frekari upplýsingar eru í [Stofna tengiliði](marketing-create-contact-companies.md).
 
 1. Á síðunni **Tækifæralisti** skal velja tækifærið sem sölutilboð hefur verið stofnað fyrir.
 2. Velja skal **Úthluta sölutilboði** aðgerð. Síðan **Sölutilboð** opnast, og sýnir hann sölutilboðið sem tækifærinu var úthlutað.

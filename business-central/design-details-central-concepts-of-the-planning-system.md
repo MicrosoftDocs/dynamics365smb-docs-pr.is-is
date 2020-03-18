@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b809743aa25aee409b9a71ca98da77ea64b58fb1
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880593"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076515"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfis
 Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru og tímabil sem áætlun gildir um. Þá, í samræmi við lágstigskóða (uppskriftarstaðsetningu), kallar runuvinnslan á kóðaeininguna, sem reiknar út birgðaáætlun með því að jafna framboð-eftirspurn og stinga upp á aðgerðum fyrir notandann. Ráðlagðar aðgerðir birtast sem línu á áætlunvinnublaðinu eða innkaupatillögunni.  
@@ -46,7 +46,7 @@ Allt framboð og eftirspurn fyrir upphafsdagsetningu áætlunartímabilsins ver�
 
 Með öðrum orðum, það er gert ráð fyrir að áætlun fyrir fortíðina er framkvæmd í samræmi við uppgefna áætlun.  
 
-Nánari upplýsingar eru í [Hönnunarupplýsingar: Takast á við pantanir fyrir upphafsdag](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Frekari upplýsingar eru í [Takast á við pantanir fyrir upphafsdag áætlanagerðar](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Breytilegar pöntunarrakningar (vörpum)  
 Breytilegar pöntunarrakningar, með samtímis stofnun aðgerðaskilaboða í áætlanavinnublaði, er ekki hluti af framboðsáætlanakerfi í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þessi eiginleiki tengir, í rauntíma, eftirspurnina og magnið sem uppfyllir hana, í hvert skipti sem framboð er stofnað eða því breytt.  
@@ -76,7 +76,7 @@ Hins vegar snýst áætlanakerfið um alla eftirspurn og framboð fyrir ákveðn
 
 Eftir áætlunarkeyrslu eru engin aðgerðaboð eftir í töflunni Aðgerðarboðafærsla þar sem þeim hefur verið skipt út fyrir áætlaðar aðgerðir í áætlanavinnublaðinu.  
 
-Sjá Pantanarakningartenglar við áætlunargerð í [Hönnunarupplýsingar: jöfnun framboðs og eftirspurnar](design-details-balancing-supply-with-demand.md) fyrir frekari upplýsingar.  
+Frekari upplýsingar eru í Pantanarakningartenglar við áætlunargerð í [Jöfnun framboðs við eftirspurn](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Röð og forgangur í áætlun  
 Þegar koma á á áætlun skiptir  röð útreikninga máli til að ljúka megi verkinu innan hæfilegs tíma. Að auki, forgangsröðun krafna og tilfanga gegna mikilvægu hlutverki við að afla sem bestum árangri.  
@@ -90,7 +90,7 @@ Sjá Pantanarakningartenglar við áætlunargerð í [Hönnunarupplýsingar: jö
 
 Tölurnar sýnir í hvaða röð kerfið gerir tillögur um framboðspantanir á efsta stigi og, að því gefnu að notandi vilja samþykkja þessar tillögur, fyrir hvaða lægra stigi sem er líka.  
 
-Frekari upplýsingar um hluti tengda framleiðslu eru í [Hönnunarupplýsingar: hleðsla birgðaforstillinga](design-details-loading-the-inventory-profiles.md).  
+Frekari upplýsingar um hluti tengda framleiðslu eru í [Hleðsla birgðaforstillinga](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ### <a name="locations--transfer-level-priority"></a>Birgðageymslur / Forgangur millifærslustigs  
 Fyrirtæki sem starfa á fleiri en einum stað getur þurft að áætla fyrir hverja staðsetningu fyrir sig. Til dæmis getur öryggisbirgðastig vöru og endurpöntunarstefna verið mismunandi frá einum stað til annars. Í þessu tilviki, verða að vera tilgreind áætlunarfæribreyta fyrir hverja vöru og einnig á stað.  
@@ -106,14 +106,14 @@ Nánari upplýsingar eru í [Hönnunarupplýsingar: Flutningur í áætlun](desi
 ### <a name="order-priority"></a>Forgangur pöntunar  
 Innan tiltekinnar birgðahaldseiningar, táknar umbeðin eða tiltæk dagsetning hæsta forgang; eftirspurn í dag ætti að mæta áður en eftirspurn næstu viku er mætt. En burtséð frá þessu einhvers konar forgang, mismunandi tegundir eftirspurnar og framboðs er raðað eftir mikilvægi  til að ákveða hvaða eftirspurn ætti að uppfylla fyrst. Á framboðshlið segir pöntunarforgangur til um hvaða uppsprettu framboðs á að jafna áður en aðrar uppsprettur framboðs eru jafnaðar.  
 
-Nánari upplýsingar eru í [Upplýsingar um hönnun: Forgangsröðun pantana](design-details-prioritizing-orders.md).  
+Frekari upplýsingar eru í [Forgangsröðun pantana](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 ## <a name="demand-forecasts-and-blanket-orders"></a>Eftirspurnarspá og standandi pantanir  
 Spá og standandi pöntun endurspegla bæði vænta eftirspurn. Standandi pöntunin, sem nær yfir ætluð kaup viðskiptamanns á tilteknum tíma, er ætlað að minnka óvissu í heildarspá. Standandi pöntunin er spá fyrir tiltekinn viðskiptamann ofan á ótilgreindri spá sem útskýrð er hér að neðan.  
 
 ![Áætlanagerð með spám](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Áætlanagerð með spám")  
 
-Nánari upplýsingar eru í hlutanum „Spá um eftirspurn er minnkuð eftir sölupöntunum“ í [Hönnunarupplýsingar: hleðsla birgðaforstillinga](design-details-loading-the-inventory-profiles.md).  
+Nánari upplýsingar eru í hlutanum „Spá um eftirspurn er minnkuð eftir sölupöntunum“ í [Hleðsla birgðaforstillinga](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ## <a name="planning-assignment"></a>Úthlutað á áætlun  
 Allar vörur ættu að vera áætlaðar en aftur á móti er engin ástæða til að reikna áætlun fyrir vöru nema eftirspurnar- eða framboðsmynstur hafi breyst síðan áætlun var síðast reiknuð.  
@@ -171,9 +171,9 @@ Rað/Lotunúmeraðar vöru án ákveðinna vörurakningaruppsetningar kunna að 
 
 Eftirspurn- framboð með raðnúmer / lotunúmeri, tiltekið eða ótiltekið, teljast forgangsmál og eru því undanþegin frystu svæði, sem þýðir að þau eru  áætlanagerð, jafnvel þótt það séu á tíma fyrir upphafsdag skipulagningar.  
 
-Nánari upplýsingar eru í hlutanum „Raðnúmer/lotunúmer eru hlaðin eftir lýsingarstigi“ í [Hönnunarupplýsingar: hleðsla birgðaforstillinga](design-details-loading-the-inventory-profiles.md).  
+Nánari upplýsingar eru í hlutanum „Raðnúmer/lotunúmer eru hlaðin eftir lýsingarstigi“ í [Hleðsla birgðaforstillinga](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-Frekari upplýsingar um hvernig áætlanakerfi jafnar eigindir eru í “Tenglar rað-/lotunúmers og pöntun-í-pöntun eru undanskildir frosna svæðinu” í [Hönnunarupplýsingar: Takast á við pantanir fyrir upphafsdag](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Frekari upplýsingar um hvernig áætlanakerfi jafnar eigindir eru í [Tenglar vöru-/raðnúmers og pöntun-í-pöntun eru undanskildir frosna svæðinu](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
 ## <a name="order-to-order-links"></a>Tenglar á milli pantana  
 Vinnsla á milli pantana merkir að vara er keypt, samsett eða framleidd til að uppfylla sérstaka eftirspurn. Venjulega tekur hún til A-vara og ástæða fyrir að velja þessa stefnu getur verið að eftirspurn er hverfandi, sem afhendingartími er óveruleg, eða nauðsynlegar eigindir mismunandi.  
@@ -223,14 +223,14 @@ Neyðarviðvörun birtist í tveimur aðstæðum:
 -   Þegar birgðir eru neikvæðar á upphafsdagsetningu áætlunar.  
 -   Þegar framboðs- eða eftirspurnaratvik eru til aftur í tíma.  
 
-Ef birgðir eru neikvæðar á upphafsdegi áætlunarinnar stingur kerfið upp á neyðarframboði með neikvæða magninu fyrir upphafsdagsetninguna. Upphafsdagsetningin og magn neyðarpöntunarinnar eru tiltekin í viðvörunartextanum. Frekari upplýsingar er að finna í [Hönnunarupplýsingar: Meðhöndlun Áætlaðrar Neikvæðra birgða](design-details-handling-projected-negative-inventory.md).  
+Ef birgðir eru neikvæðar á upphafsdegi áætlunarinnar stingur kerfið upp á neyðarframboði með neikvæða magninu fyrir upphafsdagsetninguna. Upphafsdagsetningin og magn neyðarpöntunarinnar eru tiltekin í viðvörunartextanum. Frekari upplýsingar er að finna í [Að takast á við áætlaða neikvæða birgðastöðu](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Allar skjalalínur með skiladagsetningar á undan upphafsdagsetningu áætlunarinnar eru settar í eina neyðarpöntun til að varan berist á áætlaðri upphafsdagsetningu.  
 
 ### <a name="exception"></a>Frávik  
 Viðvörun um frávik birtist ef áætlaðar birgðir eru undir öryggismarki birgða. Áætlunarkerfið stingur upp á framboðspöntun til að uppfylla eftirspurnina á lokadagsetningunni. Viðvörunartextinn segir til um magn í öryggisbirgðum fyrir vöruna og dagsetninguna sem það magn varð of lítið.  
 
-Þegar farið er undir öryggismagn í birgðum er það talið frávik þar sem það ætti ekki að gerast ef endurpöntunarmark hefur verið stillt rétt. Frekari upplýsingar er að finna í [Hönnunarupplýsingar: Hlutverk endurpöntunarmarks](design-details-the-role-of-the-reorder-point.md).  
+Þegar farið er undir öryggismagn í birgðum er það talið frávik þar sem það ætti ekki að gerast ef endurpöntunarmark hefur verið stillt rétt. Frekari upplýsingar eru í [Hlutverk endurpöntunarmarks](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
 Yfirleitt sjá sérstakar pöntunartillögur til þess að áætlaðar tiltækar birgðir séu aldrei undir öryggismarki birgða. Þetta þýðir að magnið sem var lagt til er rétt svo nóg til að anna öryggisbirgðum, án tillits til áætlunarfærslubreytum. Í einhverjum aðstæðum verða hins vegar pöntunarbreytur teknar með.  
 
@@ -242,10 +242,10 @@ Viðvörunin Til athugunar birtist við þrennar aðstæður:
 
 -   Upphafsdagsetning áætlunarinnar er á undan kerfisdagsetningunni.  
 -   Áætlunarlínan stingur upp á því að útgefinni innkaupa- eða framleiðslupöntun verði breytt.  
--   Áætlaðar birgðir eru umfram yfirflæðisstig á gjalddaga. Frekari upplýsingar er að finna í [Hönnunarupplýsingar: undir yfirflæðisstigi](design-details-staying-under-the-overflow-level.md).  
+-   Áætlaðar birgðir eru umfram yfirflæðisstig á gjalddaga. Frekari upplýsingar eru í [Að vera undir yfirflæðisstigi](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
 
 > [!NOTE]  
->  Í áætlunarlínum með viðvaranir er reiturinn **Samþykkja aðgerðarboð** ekki valinn þar sem sá sem gerir áætlunina á að kanna þessar línur nánar áður en lokið er við áætlunina.   
+>  Í áætlunarlínum með viðvaranir er reiturinn **Samþykkja aðgerðarboð** ekki valinn þar sem sá sem gerir áætlunina á að kanna þessar línur nánar áður en lokið er við áætlunina.  
 
 ## <a name="error-logs"></a>Villuskrár  
 Á beiðnisíðunni Reikna áætlun getur notandinn valið **Stöðva og sýna fyrstu villu** reitinn til að láta áætlunarkeyrslu hætta þegar það rekst fyrsta villa. Um leið birtast skilaboð með upplýsingum um villuna. Ef villa er til staðar eru aðeins áætlunarlínur sem lokið var við fyrir villuna í áætlunarvinnublaðinu.  

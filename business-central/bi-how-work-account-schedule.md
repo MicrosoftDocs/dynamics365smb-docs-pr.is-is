@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/13/2020
+ms.date: 02/12/2020
 ms.author: edupont
-ms.openlocfilehash: 576e974221d6fb1e7aa92b200338e32b1339b4d3
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 21e83f37405c01d5df00e6b392ded3ce3996d0c2
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953828"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071959"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum
 Notaðu reikningsáætlanir til að fá innsýn í fjárhagsupplýsingar sem eru geymdar í bókhaldslyklum. Fjárhagsskemu eru notuð til að greina upphæðir í fjárhagsreikningi og bera saman fjárhagsfærslur og færslur í fjárhagsáætlunarskýrslu. Niðurstöðurnar birtast í myndritum í Mínu hlutverki, eins og myndrit sjóðstreymis, og í skýrslum á borð við tekjuyfirlit og skýrslum efnahagsreiknings.
@@ -35,8 +35,12 @@ Einnig er hægt að bera saman tvö eða fleiri fjárhagsskemu og dálkauppsetni
 * Búa til eins mörg fjárhagsskemu og þörf er á, þar sem hver þeirra ber einstakt heiti.
 * Búa til uppsetningu skýrslu og prenta út skýrslurnar með núverandi tölum.
 
-## <a name="account-categories"></a>tegundir reikninga
-Hægt er að nota lykiltegundir til að breyta sniði fjárhagsskýrslna. Þegar lykiltegundir hafa verið settar upp á síðunni **Flokkar fjárhagsreikninga** og aðgerðin **Mynda fjárhagsskemu** er valin, eru undirliggjandi fjárhagsskemu fyrir kjarnaviðskiptaskýrslur uppfærð. Í næsta skipti sem ein af þessum skýrslum er keyrð, t.d. skýrsla stöðuyfirlits, er nýjum samtölum og undirfærslum bætt við sem byggjast á breytingunum. Frekari upplýsingar fást í [Reikningsflokkar](finance-general-ledger.md#account-categories).  
+## <a name="gl-account-categories"></a>Fjárhagsreikningsflokkar
+Hægt er að nota lykiltegundir fjárhagsreikninga til að breyta sniði fjárhagsskýrslna. Þegar lykiltegundir hafa verið settar upp á síðunni **Flokkar fjárhagsreikninga** og aðgerðin **Mynda fjárhagsskemu** er valin, eru undirliggjandi fjárhagsskemu fyrir kjarnaviðskiptaskýrslur uppfærð. Í næsta skipti sem ein af þessum skýrslum er keyrð, t.d. skýrsla **Stöðuyfirlits**, er nýjum samtölum og undirfærslum bætt við sem byggjast á breytingunum.
+
+> [!NOTE]
+> Lykilflokkar á efstu stigum, svo sem **Skuldir** hnútar eru fastir og ekki er hægt að bæta við eigin. Hins vegar er hægt að eyða og bæta við lykiltegundum á neðri stigum og breyta byggingu þeirra til að skilgreina hvernig tengt fjárhagsskema birtist í skýrslum.<br /><br />
+> Mælt er með því að stofna og skipuleggja eigin lægri flokka fjárhagsreikninga frá grunni, í stigveldi ef þörf er á, frekar en að reyna að endurraða þeim sem fyrir eru. Til dæmis er hægt að endurhanna **Skuldir** til að innihalda nýtt **Eigið fé** og síðan **Skammtímaskuldir** og **Langtímaskuldir**.
 
 ## <a name="to-create-a-new-account-schedule"></a>Að búa til nýtt fjárhagsskema  
 Fjárhagsskemu eru notuð til að greina upphæðir í fjárhagsreikningi eða bera saman fjárhagsfærslur og fjárhagsáætlunarfærslur. Hægt er til dæmis að skoða fjárhagsfærslur sem prósentuhlutfall af áætlunarfærslum.
@@ -192,7 +196,7 @@ Ef þú vilt reikna eftir venjulegum tímabilum þarf í staðinn að slá inn r
 > [!NOTE]
 > Það er ekki alltaf augljóst hvaða tímabil þú ert að bera saman vegna þess að þú getur stillt afmörkunardagsetningu í skýrslu sem nær yfir aðrar dagsetningar en reikningstímabilin sem endurspeglast í gögnum bókhaldslykilsins. Til dæmis stofnar þú fjárhagsskema þar sem þú vilt bera þetta tímabil saman við sama tímabil í fyrra, þannig að þú stillir reitinn **Afmörkunartímabil samanburðardagsetningar** á *-1FY*. Síðan keyrir þú skýrsluna 28. febrúar og setur afmörkunardagsetninguna á janúar og febrúar. Fyrir vikið ber fjárhagsskemað saman janúar og febrúar á þessu ári við janúar á síðasta ári, sem er eina reikningstímabilið sem hefur verið lokið á þessum tveimur árum.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-financial-reports-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptaupplýsingar](bi.md)  

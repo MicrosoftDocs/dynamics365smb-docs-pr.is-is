@@ -7,40 +7,40 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
+ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0ff91eff703f7f490a3c47cd515523f7fca0316e
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: c59f51b0ff1651a6f7cf2a1b347684f179bbda53
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911288"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076807"
 ---
-# <a name="set-up-the-bank-data-conversion-service"></a>Setja upp umskráningarþjónustu fyrir bankagögn
-Altæk þjónustuveita til að umreikna greiðsluupplýsingar í hvaða gagnaskráarsnið sem bankinn þinn þarf eru uppsett og tilbúið til að vera virkjað í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta er vísað til í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem umskráningarþjónusta fyrir bankagögn.
+# <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Setja upp AMC Banking 365 Fundamentals viðbótina
+Altæk þjónustuveita til að umreikna greiðsluupplýsingar í hvaða gagnaskráarsnið sem bankinn þinn þarf eru uppsett og tilbúið til að vera virkjað í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vísað er í þetta í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem AMC Banking 365 Fundamentals viðbót.
 
-Hægt er að flytja út greiðslulínur á síðunni **Greiðslubók** í skrá eða gagnastreymi sem þú síðan hleður upp í bankann þinn fyrir sjálfvirka vinnslu svo að þú þarft ekki að gera rafræn greiðsla í sitthvoru lagi. Frekari upplýsingar eru í [Flytja út greiðslur í bankaskrá](payables-how-export-payments-bank-file.md).
+Hægt er að flytja út greiðslulínur á síðunni **Greiðslubók** í skrá eða gagnastreymi sem þú síðan hleður upp í bankann þinn fyrir sjálfvirka vinnslu svo að þú þarft ekki að gera rafræn greiðsla í sitthvoru lagi. Frekari upplýsingar eru í [Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-Þú getur flutt inn bankareikningsskrár á síðuna **Greiðsluafstemmingarbók** með því að nota umskráningarþjónusta fyrir bankagögn til að umbreyta skrá sem þú færð frá bankanum í gagnastraum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] getur flutt inn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Þú getur flutt inn bankareikningsskrár á síðuna **Greiðsluafstemmingarbók** með því að nota AMC Banking 365 Fundamentals viðbótina til að umbreyta skrá sem þú færð frá bankanum í gagnastraum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] getur flutt inn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Í staðinn fyrir að flytja inn bankayfirlit með gagnagrunnþjónustu bankans geturðu notað Envestnet Yodlee Bank Feeds þjónustuna. Frekari upplýsingar eru í [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md).
+Í staðinn fyrir að flytja inn bankayfirlit með AMC Banking 365 Fundamentals viðbótinni geturðu notað Envestnet Yodlee Bank Feeds þjónustuna. Frekari upplýsingar eru í [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md).
 
 Til að flytja inn eða flytja út bankaskrár verður þú að setja upp eigin bankareikning og bankareikninga lánardrottna þinna. Nánari upplýsingar um það eru í [Setja upp bankareikninga](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
-> Umskráningarþjónusta fyrir bankagögn kann að setja hámark á það hversu margar línur má flytja út í einni skrá. Ef farið er yfir hámarkið munu koma upp villuboð. Mælt er með því að bankayfirlitsskrár fari ekki yfir 1.000 línur þar sem vinnslutími umreikningsþjónusta bankagagna kann þá að aukast til muna.
+> AMC Banking 365 Fundamentals viðbótin kann að setja hámark á það hversu margar línur má flytja út í einni skrá. Ef farið er yfir hámarkið munu koma upp villuboð. Mælt er með því að bankayfirlitsskrár fari ekki yfir 1.000 línur þar sem vinnslutími AMC Banking 365 Fundamentals viðbótarinnar kann þá að aukast til muna.
 
-## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Að skrá fyrirtækið fyrir umreikningsþjónustu bankagagna
+## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Að skrá fyrirtækið í AMC Banking 365 Fundamentals viðbótina
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning umreikningsþjónustu fyrir bankagögn** og veldu síðan tengda tengilinn.  
-2. Síðan **Uppsetning Umreikningsþjónusta fyrir bankagögn** opnast með þremur reitum útfylltum með viðeigandi vefslóðir frá veitanda umreikningsþjónustu fyrir bankagögn.
+2. Síðan **Uppsetning Umreikningsþjónusta fyrir bankagögn** opnast með þremur reitum útfylltum með viðeigandi vefslóðir frá veitanda AMC Banking 365 Fundamentals viðbótinni.
 
     > [!NOTE]  
-    >   Í CRONUS International Ltd. Sýnigagnagrunninum eru notandanafn og lykilorð reitirnir fylltar með sýnidæmum um innskráningarupplýsingar sem þú verður að skipta út með raunverulegum upplýsingum fyrirtækis þíns þegar þú skráir þig fyrir umreikningsþjónustu bankagagna.
+    >   Í CRONUS International Ltd. sýnigagnagrunninum eru notandanafn og lykilorð reitirnir fylltar með sýnidæmum um innskráningarupplýsingar sem þú verður að skipta út með raunverulegum upplýsingum fyrirtækis þíns þegar þú skráir þig fyrir AMC Banking 365 Fundamentals viðbótinni.
 3. Í **innskráningarvefslóð** reitnum, veldu vafrahnappinn til að opna innskráningarsíðu þjónustuveitunnar.  
 4. Á skráningarsíðu þjónustuveitu bankagagna skal slá inn notandanafn og aðgangsorð fyrir áskrift fyrirtækisins að þjónustunni og ljúka svo skráningarferlinu samkvæmt leiðbeiningum þjónustuveitunnar.
 
-    Fyrirtæki þitt er nú skráð fyrir umreikningsþjónustu bankagagna. Sláið inn notandanafn og aðgangsorð sem tilgreind voru fyrir þjónustuna í tengdum uppsetningarreitum í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+    Fyrirtæki þitt er nú skráð fyrir AMC Banking 365 Fundamentals viðbótinni. Sláið inn notandanafn og aðgangsorð sem tilgreind voru fyrir þjónustuna í tengdum uppsetningarreitum í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 5. Á síðunni **Uppsetning umreikningsþjónustu fyrir bankagögn** í **Notandanafn** reitnum, sláðu inn sama gildi sem þú færðir inn sem innskráningarnafn á síðu þjónustuveitunnar í 4. skrefi.
 6. Í reitnum **lykilorð**, sláðu inn sama gildi sem þú færðir inn í reitinn **Aðgangsorð** á síðu þjónustuveitunnar í 4. skrefi.
@@ -58,7 +58,7 @@ Listinn yfir bankagagnasnið sem eru studd af AMC Banking 365 Fundamentals viðb
 > [!NOTE]  
 >   Uppfærsla studdra bankagagnasniða á sér einnig stað þegar gildi er valið eða slegið inn í reitinn **Nafn banka - gagnaumreikningur** á bankareikningnum.
 
-Þú hefur nú skráð þig fyrir umreikningsþjónustu bankagagna. Halda áfram að endurspegla skráningarupplýsingar í öllum bankareikningum sem nota þjónustuna.
+Þú hefur nú skráð þig fyrir AMC Banking 365 Fundamentals viðbótinni. Halda áfram að endurspegla skráningarupplýsingar í öllum bankareikningum sem nota þjónustuna.
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  

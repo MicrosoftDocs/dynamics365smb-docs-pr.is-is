@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 0cafffa57e5e8d532b4f60fa3aafccadb23d24bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cad6f64ee74dd2c359f16e1bb723282c2a703b97
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311213"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076490"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Greiðslur og afstemmingar (DK) viðbótin
 Greiddu hratt og án mistaka með því að flytja út skrár sem eru sérstaklega sniðnar fyrir millifærslur með lánardrottni eða banka. Þessar skrár flýta fyrir greiðslu- og afstemmingum og útrýma villum sem geta komið upp þegar upplýsingar eru slegnar inn á bankasíðu.  
@@ -53,8 +53,8 @@ Nokkur skref eru nauðsynleg í upphafi.
 
 Að auki þarftu að úthluta lánardrottnum á staðbundinn **Alm. viðsk.bókunarflokkur** og **Bókunarflokk lánardrottins**. Stilling fyrir land/svæði fyrir lánardrottinn verður að vera Danmörk (DK). Nánari upplýsingar er að finna í [Uppsetning Bókunarflokka](finance-posting-groups.md).  
 
-### <a name="to-allow-included365finincludesd365fin_mdmd-to-export-payment-data"></a>Til að leyfa [!INCLUDE[d365fin](includes/d365fin_md.md)] að flytja út greiðslugögn
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslubók** og veldu síðan tengda tengilinn.  
+### <a name="to-allow-d365fin-to-export-payment-data"></a>Til að leyfa [!INCLUDE[d365fin](includes/d365fin_md.md)] að flytja út greiðslugögn
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubók** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Breyta greiðslubók** er valið **Banki**.  
 3. Veljið gátreitinn **Leyfa greiðsluútflutning**.  
 
@@ -67,12 +67,12 @@ Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[d365
 |Leyfja skilaboð til viðtakanda? | Já |Nei |Nei | Já |
 |Inniheldur greiðslutilvísunarnúmer? | Nr | Já, 16 stafir. | Já, 15 stafir. | Nr|
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.  
 2. Opnaðu kortið, víkkaðu **Greiðslur** flipann, í **Greiðslumáti** veldu greiðslumáta.  
 3. Nauðsynlegt er að ljúka öðrum reitum, allt eftir valinu. Lýsing samsetninga er að finna í töflunni hér að ofan.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Til að tilgreina sniðið sem á að nota fyrir bankareikning
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bankareikningar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.  
 2. Opna spjaldið fyrir bankareikninginn.  
 3. Á **Útflutningssnið greiðslu** skal velja sniðið fyrir útflutningsskrána.  
 
@@ -88,7 +88,7 @@ Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[d365
 5. Bóka skal reikninginn.
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Til að nota viðbótina til að flytja út greiðslugögn
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðslubók** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubækur** og veldu síðan tengda tengilinn.  
 2. Velja **Stinga upp á greiðslubókum lánardrottins** aðgerðina.  
 
     > [!Tip]
@@ -100,8 +100,6 @@ Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[d365
 
 ## <a name="see-also"></a>Sjá einnig .
 [Sérstilla Business Central fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
-[Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
-[Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-direct-debit.md)  
-[Bóka SEPA-greiðslukvittanir beingreiðslna](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)  
+[Bóka SEPA-greiðslukvittanir beingreiðslna](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  

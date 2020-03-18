@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832336"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097793"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Nota sjálfvirkt gagnatökukerfi (ADCS)
 
 > [!NOTE]
-> Í stöðluðu útgáfunni af [!INCLUDE[d365fin](includes/d365fin_md.md)] virkar ADCS aðeins í uppsetningu á staðnum. Hins vegar getur Microsoft samstarfsaðili fengið það til að virka í uppsetningu á netinu með Power Apps eða svipuðu forriti.
+> Sjálfvirkt gagnatökukerfi (ADCS) býður upp á leið fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] til að eiga samskipti við handtæki í gegnum vefþjónustu. Vinna þarf með Microsoft-samstarfsaðila sem geta gefið tengilinn á milli vefþjónustu og tiltekins handtækis. 
 
 Hægt er að nota sjálfvirka gagnatökukerfið (ADCS) til að skrá alla hreyfingu á vörum í vöruhúsinu og skrá sumar færslubókaraðgerðir, s.s. leiðréttingar á magni í birgðabók vöruhússins og raunbirgðir. ADCS felur venjulega í sér skönnun á strikamerki.
 
@@ -32,7 +32,23 @@ Magn upplýsinga sem birtar eru í handtölvunni er skilgreint í smágluggaupps
 - Textaupplýsingar.  
 - Skilaboð til að sýna staðfestingar eða villurnar um verkþætti sem framkvæmdir eru og skráðir af handtölvu notanda.
 
-Frekari upplýsingar eru í [Grunnstilla sjálfvirkt gagnatökukerfi](/dynamics-nav/Configuring-Automated-Data-Capture-System) í þróunar- og IT-pro hjálp.
+## <a name="to-enable-web-services-for-adcs"></a>Til að virkja vefþjónustu fyrir ADCS
+Tila ð nota sjálfvirkt gagnatökukerfi þarf að virkja ADCS-vefþjónustu.  
+
+## <a name="to-enable-and-publish-the-adcs-web-service"></a>Til að virkja og birta ADCS-vefþjónustuna  
+
+1. Veldu táknið ![ljósapera sem opnar eiginleikan „Viðmótsleit“](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **vefþjónusta** og veldu síðan tengda tengilinn.
+2. Valið er aðgerðin **Nýtt**.  
+3. Á síðunni **Vefþjónustur** skal færa inn eftirfarandi upplýsingar í nýrri línu:  
+
+    |Svæði|Gildi:|  
+    |---------------------------------|-----------|  
+    |**Gerð hlutar**|Codeunit|  
+    |**Kenni hlutar**|7714|  
+    |**Heiti þjónustu**|ADCS **mikilvægt:** þess er krafist að **ADCS** þjónustunni sé gefið heiti.|  
+
+5. Veljið gátreitinn **Útgefið**.  
+6. Velja hnappinn **Í lagi**.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>að setja vöruhús upp fyrir notkun ADCS  
 Ef nota á ADCS verður að tilgreina hvaða birgðageymslur nota tæknina.  
@@ -79,7 +95,8 @@ Hægt er að bæta hvaða notanda við sem notanda sjálfvirks gagnatökukerfis 
 ## <a name="to-create-and-customize-miniforms"></a>Hvernig á að búa til og sérsníða smáglugga
 Smágluggar eru notaðir til að gefa lýsa upplýsingum sem birtar eru á lófatækjum. Til dæmis er hægt að stofna smáglugga til að styðja vöruhúsaaðgerðina að tína vörur. Þegar búið er að stofna smáglugga er hægt að bæta við hann virkni fyrir algengar aðgerðir sem notandinn gerir með handtölvum, eins og flutningur upp eða niður línu.  
 
-Til að innleiða eða breyta virkni smágluggaaðgerðar þarf að búa til nýja kóðaeiningu eða breyta kóðaeiningu sem þegar er til að framkvæma aðgerðina eða svarið sem beðið er um. Hægt er að læra meira um aðgerðir ADCS með því að skoða codeunit eins og 7705, sem er í umsýslu kóðaeining fyrir innskráningu. Kótaeining 7705 sýnir hvernig smágluggi af spjaldtegund virkar.  
+> [!NOTE] 
+> Til að innleiða eða breyta virkni smágluggaaðgerðar þarf að búa til nýja kóðaeiningu fyrir reitinn **Afgreiðslukóðasafn** til að framkvæma aðgerðina eða svarið. Hægt er að fá frekari upplýsingar um ADCS-virkni með því að skoða kóðaeiningar, svo sem 7705, 7706, 7712 og 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Til að búa til smáglugga fyrir ADCS  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Smágluggar** og veldu síðan tengda tengilinn.  
@@ -92,25 +109,11 @@ Til að innleiða eða breyta virkni smágluggaaðgerðar þarf að búa til ný
 
 Þegar búið er að búa til smáglugga, eru næstu skref er að stofna aðgerðir og tengja virkni fyrir ýmsan lyklaborðsinnslátt.  
 
-### <a name="to-add-support-for-a-function-key"></a>Til að bæta við stuðningi fyrir aðgerðalykil  
-1.  Bæta við kóta sem svipar til eftirfarandi dæmis í xsl-skránni fyrir tengjuna. Þetta stofnar aðgerð fyrir **F6** lykil. Upplýsingarnar um lykilröðina má fá frá framleiðanda búnaðarins.  
-    ```xml  
-    <xsl:template match="Function[.='F6']">  
-      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
-    </xsl:template>  
-    ```  
-2.  Í [!INCLUDE[d365fin](includes/d365fin_md.md)] þróunarumhverfi, opnið töflu 7702 og bætið við kóta fyrir nýjan lykil. Í þessu dæmi, er stofnaður lykil sem er með heitinu **F6**.  
-3.  Bæta við C/AL-kóta í viðeigandi aðgerð smágluggamiðaðrar codeunit-kótaeiningar til að sjá um aðgerðalykilinn.  
-
 ### <a name="to-customize-miniform-functions"></a>Til að sérsníða aðgerðir smáglugga  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Smágluggar** og veldu síðan tengda tengilinn.  
 2.  Veljið smáglugga af listanum og veljið svo aðgerðina **Breyta**.  
 3.  Velja aðgerðina **Aðgerðir**.  
 4.  Í fellilistanum **Aðgerðakóði** skal velja kóða fyrir aðgerð sem á að tengja við smáglugga. Til dæmis er hægt að velja ESC, sem tengir aðgerðir við það að stutt er á ESC-lykilinn.  
-
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)] þróunarumhverfi, breytið kóta fyrir reitinn **Afgreiða kóðaeiningu** til að stofna eða breyta kóta til að framkvæma umbeðna aðgerð eða svar.
-
-Frekari upplýsingar eru í [Grunnstilla sjálfvirkt gagnatökukerfi](/dynamics-nav/Configuring-Automated-Data-Capture-System) í þróunar- og IT-pro hjálp.
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

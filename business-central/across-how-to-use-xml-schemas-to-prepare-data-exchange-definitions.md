@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 65392cc5f47353b9266d5198b739835fd329c204
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554447"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076684"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Nota XML-skema til að undirbúa skilgreiningar gagnaskipta
 Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptaumgjörð í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að nota XML-skema til að tilgreina hvaða gagnastök á að skiptast á við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þessi aðgerð er gerð á síðunni **XML-skemaskoðun** með því að hlaða XML-skemaskránni, velja viðeigandi gagnastök og ræsa því næst annað hvort skilgreiningu gagnaskipta eða XMLport.  
@@ -40,7 +40,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 1.  Ganga úr skugga um að viðeigandi XML-skemaskrá sé í boði. Skráarendingin er .xsd.  
 
-2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML skemu** og veldu síðan tengda tengilinn.  
+2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML-skema** og veldu síðan tengda tengilinn.  
 
 3.  Valið er aðgerðin **Nýtt**.  
 
@@ -100,7 +100,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Að búa til gagnaskiptaskilgreiningu sem byggist á XML-skema  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML skemu** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML-skema** og veldu síðan tengda tengilinn.  
 
 2.  Veldu viðeigandi XML-skema og veldu svo aðgerðina **Opna XML-skemaskoðun**.  
 
@@ -115,7 +115,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Að búa til XMLport sem byggir á XML-skema  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML skemu** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML-skema** og veldu síðan tengda tengilinn.  
 
 2.  Veldu viðeigandi XML-skema og veldu svo aðgerðina **Opna XML-skemaskoðun**.  
 
@@ -129,6 +129,6 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)   
-[Flytja út greiðslur í bankaskrá](payables-how-export-payments-bank-file.md)   
+[Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)   
 [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)   
 [Um gagnaskiptaramma](across-about-the-data-exchange-framework.md)

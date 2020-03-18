@@ -12,26 +12,26 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2be63cdb75a056beebb8648fa151b055a5a4f484
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: da0ef3338a32e797c9ebe21b051fb8cc8babcc6d
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308680"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076854"
 ---
 # <a name="setting-up-relationship-management"></a>Uppsetning tengslastjórnar
 Áður en þú byrjar að vinna með tengiliði og markaðssetningarhagsmuni, eru nokkrar ákvarðanir og skref sem þú ættir að taka til að setja upp hvernig markaðssviðið stjórnar ákveðna þætti hjá tengiliðunum þínum. Til dæmis er hægt að ákveða hvort eigi að samstilla tengiliðarspjald við viðskiptamannaspjald, lánardrottnaspjald, og bankareikningsspjald, hvernig númeraraðir eru skilgreindar eða hvaða stöðluðu kveðju á að nota þegar skrifuð eru skeyti til tengiliðanna.
 
 Með stjórnun tengiliða og gerð áætlunar til að finna, laða að og halda viðskiptamönnum má fínstilla rekstur fyrirtækisins og auka ánægju viðskiptamanna. Notkun góðs tengiliðastjórnunarkerfis hjálpar einnig til við stofnun og viðhald sambanda við viðskiptamenn. Samskipti eru lykillinn í slíkum samböndum. Nauðsynlegt er að geta sérsniðið samskipti við mögulega og núverandi viðskiptamenn, lánadrottna og viðskiptafélaga eftir þörfum þeirra, svo fyrirtæki dafni. Stofnun áætlunar og skilgreining á hvernig fyrirtækið notar tengiliðaupplýsingar er frumskref. Margir ólíkir hópar innan fyrirtækisins munu skoða þessar upplýsingar, og gott kerfi hjálpar öllum að auka framleiðni sína.
 
-Þú setur upp stjórnun markaðssetningar og tengiliðar á síðunni **Uppsetning markaðssetningar**. Til að opna síðuna **Uppsetning markaðssetningar** Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning markaðssetningar** og veldu síðan tengda tengilinn.
+Þú setur upp stjórnun markaðssetningar og tengiliðar á síðunni **Uppsetning markaðssetningar**. Til að opna síðuna **Uppsetning markaðssetningar** skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn **Uppsetning markaðssetningar** og velja síðan tengda tengilinn.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Afritar ákveðnar upplýsingar sjálfkrafa úr tengiliðafyrirtækjum yfir til tengiliða.
 Vissar upplýsingar um tengiliðafyrirtæki eru þær sömu og um einstaklingstengiliði sem vinna hjá fyrirtækjunum, til dæmis upplýsingar um aðsetur. Í hlutanum **Erfðir** á síðunni **Uppsetning markaðssetningar** geturðu stillt forritið til að afritað tiltekna reiti sjálfkrafa af fyrirtækistengiliðaspjaldinu á tengiliðaspjaldið í hvert sinn sem stofnaður er tengiliður fyrir tengiliðarfyrirtæki. Til dæmis er hægt að velja að afrita sölumannskóða, upplýsingar um aðsetur, upplýsinga um aðsetur (aðsetur, aðsetur 2, bæ, póstnúmer og sýslu) og samskiptaupplýsingar (faxnúmer, svarkóða á telex og símanúmer) og meira.
 
 Þegar einhverjum þessara reita er breytt á fyrirtækistengiliðaspjaldi breytir forritið þeim sjálfkrafa á einstaklingstengiliðaspjaldinu (nema efni reitsins á einstaklingstengiliðaspjaldinu hafi verið breytt handvirkt).
 
-Frekari upplýsingar eru í [Stofna einstaklingstengiliði](marketing-how-create-contact-persons.md).
+Frekari upplýsingar eru í [Stofna tengiliði](marketing-create-contact-companies.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Nota forskilgreind sjálfgildi á nýja tengiliði
 Hægt er að láta forritið tilgreina sjálfkrafa ákveðinn tungumálskóða, umsjónarsvæðiskóða, sölumannskóða og lands-/svæðiskóða sem sjálfgildi þegar nýir einstaklingstengiliðir eru stofnaðir. Einnig er hægt að færa inn sjálfgefinn söluferliskóta sem forritið úthlutar sjálfkrafa á hvert nýtt tækifæri sem stofnað er.
@@ -51,7 +51,7 @@ Eigi að samstilla tengiliðaspjaldið við viðskiptamannaspjald, lánardrottna
 Fyrir frekar upplýsingar, sjá [Tengiliðir samstilltir við viðskiptamenn, lánardrottna og bankareikninga](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts)
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Úthluta Númeraraðir á tengiliði og tækifæri
-Hægt er að setja upp númeraraðir fyrir tengiliði og tækifæri. Hafi númeraröð verið sett upp fyrir tengiliði færir kerfið sjálfkrafa inn  reitur á tengiliðaspjaldinu setur forritið sjálfkrafa inn næsta lausa tengiliðanúmer.
+Hægt er að setja upp númeraraðir fyrir tengiliði og tækifæri. Hafi númeraröð verið sett upp fyrir tengiliði færir kerfið sjálfkrafa inn númer. reitur á tengiliðaspjaldinu setur forritið sjálfkrafa inn næsta lausa tengiliðanúmer.
 
 Frekari upplýsingar um númeraraðir er að finna á [stofna númeraraðir](ui-create-number-series.md).
 

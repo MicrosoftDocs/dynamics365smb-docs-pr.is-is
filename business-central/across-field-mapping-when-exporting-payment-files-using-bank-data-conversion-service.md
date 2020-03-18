@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: f5b1d0e6d5466ee44ffcd1249087a743f01bf109
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692629"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076732"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni
 Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum. Þjónustuveita er ábyrg fyrir persónuvernd gagnanna. Nánari upplýsingar um það eru í AMC Banking 365 Fundamentals viðbótina má finna í [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md).  
@@ -71,4 +71,4 @@ Eftirfarandi tafla inniheldur lista yfir reiti í [!INCLUDE[d365fin](includes/d3
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)
 [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md)   
-[Greiða með umreikningsþjónustu bankagagna eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+[Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

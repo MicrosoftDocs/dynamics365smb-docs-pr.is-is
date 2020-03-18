@@ -1,6 +1,6 @@
 ---
-title: Bæta við bókamerkjatengli úr síðu í hlutverkamiðstöð | Microsoft Docs
-description: Kynntu þér hvernig á að bæta tengli af síðu við svæðið Mitt hlutverk.
+title: Bókamerkja tengil í síðu eða skýrslu í Mitt hlutverk | Microsoft Docs
+description: Kynntu þér hvernig á að bæta tengli við svæðið Mitt hlutverk.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,34 +8,76 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/20/2019
+ms.date: 02/12/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2c39fb8e9c2b380674169a27d05a04f0f4b0d451
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 644a4a64fa80ff98a073f28393fd0b8bb0e6ad54
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832095"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3072032"
 ---
-# <a name="add-a-page-action-to-your-role-center"></a>Bæta síðuaðgerð við Mitt hlutverk
-Með því að nota nýja bókamerkjatáknið er hægt að bæta aðgerðatengli við einhverja síðu úr yfirlitsvalmyndinni fyrir Mitt hlutverk. Hægt er að bæta við bókamerkinu frá marksíðunni sem merkir síðuna sem óskað er eftir að aðgerðin fyrir Mitt hlutverk opni.
+# <a name="bookmark-a-page-or-report-on-your-role-center"></a>Síða eða skýrsla bókamerkt í Mitt hlutverk
+Með bókamerkjatákni er hægt að bæta aðgerð sem opnar síðu úr yfirlitsvalmyndinni í Mitt hlutverk. Þetta gerir þér kleift að ná fljótt í eftirlætisefnið eða viðskiptaverkefnin þín. Hægt er að bæta við bókamerkinu frá marksíðunni eða skýrslu, sem merkir að skjárinn sem tengja á í Mitt hlutverk opnast.
 
-Táknið fyrir bókamerki er sýnt efst í hægra horninu á öllum síðum og einnig í **Segðu mér** -gluggi þar sem hægt er að nota bókamerki fyrir margar blaðsíður á skilvirkan hátt.
+Táknið fyrir bókamerki er sýnt efst í hægra horninu á síðu og einnig í **Viðmótsleit** glugga þar sem hægt er að nota bókamerki fyrir margar síður eða skýrslur. Ef bókamerki er þegar til fyrir síðuna, þá er teiknið dimmt og verkfæratáknið segir „bókamerkt“.
 
-## <a name="to-add-a-role-center-action-from-the-target-page"></a>Til að bæta við aðgerð fyrir Mitt hlutverk frá marksíðu
-1. Opnaðu hvaða síðu sem er sem þú vilt fá aðgerð fyrir Mitt hlutverk.
+## <a name="to-bookmark-the-target-page"></a>Til að bókamerkja marksíðu
+1. Opnaðu hvaða síðu sem er sem þú vilt fá tengil fyrir í Mitt hlutverk.
 2. Velja táknið ![Bókamerki](media/ui_bookmark_icon.png "Bókamerki").
 
-Aðgerðarheitum eftir að síðunni hefur nú verið bætt við yfirlitsvalmyndina í Mitt hlutverk.
+Aðgerð sem er nefnd eftir síðunni er nú bætt við yfirlitsvalmyndina í Mitt hlutverk.
 
-## <a name="to-add-a-role-center-action-from-the-tell-me-window"></a>Til að bæta við aðgerð hlutverkamiðstöðvar úr glugganum Viðmótsleit
+## <a name="to-bookmark-the-target-report"></a>Til að bókamerkja markskýrslu
+1. Opnaðu hvaða síðu skýrslubeiðna sem er sem þú vilt fá aðgerð fyrir Mitt hlutverk.
+2. Velja táknið ![Bókamerki](media/ui_bookmark_icon.png "Bókamerki").
+
+Aðgerð sem er nefnd eftir skýrslunni er nú bætt við yfirlitsvalmyndina í Mitt hlutverk.
+
+## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Til að bókamerkja síðu eða skýrslu úr glugganum „Viðmótsleit“
 1. Opnaðu **Viðmótsleit** glugga og Sláðu inn, til dæmis **sölupantanirnar**.
-2. Farið yfir leitarniðurstöður fyrir **Sölupantanir** síðuna og veljið síðan táknið ![bókamerkið](media/ui_bookmark_icon.png "Bókamerki").
+2. Farið yfir leitarniðurstöður fyrir **Sölupantanir** síðuna eða skýrslu og táknið ![Bókamerki](media/ui_bookmark_icon.png "Bókamerki") svo valið.
 
-Ef bókamerki er þegar til fyrir síðuna, þá er teiknið dimmt og verkfæratáknið segir „bókamerkt“.
+Aðgerð sem er nefnd eftir síðunni eða skýrslunni er nú bætt við yfirlitsvalmyndina í Mitt hlutverk.
 
-> [!NOTE]  
-> Þegar bókamerki er bætt við er hægt að nota alla þýdda texta sem voru í boði á þeim tíma. Ef nýjum þýddum texta er bætt við síðar er bókamerkti tengilinn ekki uppfærður.
+
+## <a name="frequently-asked-questions"></a>Algengar spurningar  
+
+- **Get ég endurskipulagt bókamerkin mín?**  
+Já. Hægt er að sérsníða Mitt hlutverk og færa aðgerðir inn í nákvæmari röð eða færa þær inn fyrirliggjandi flokka eða undirflokka.  
+Kynntu þér hvernig [Sérstilla verksvæði](ui-personalization-user.md).
+
+- **Hvernig fjarlægi ég bókamerki?**  
+Á marksíðunni eða skýrslunni skaltu velja bókamerkjatáknið aftur til að fjarlægja viðkomandi aðgerð úr Mitt hlutverk. Einnig er hægt að sérstilla Mitt hlutverk og fela aðgerðir tímabundið án þess að fjarlægja þær alveg.
+
+- **Hvar finn ég bókamerkið mitt?**  
+Þegar bókamerki er bætt við síðu eða skýrslur er nýju aðgerðinni bætt við efst á yfirlitsvalmyndina á núverandi heimaskjá (Mitt hlutverk). Ef þú ert með margar aðgerðir getur þurft að virkja hnappinn **Meira** til að birta þær allar þar sem nýju aðgerðinni er alltaf bætt við í lok þessara aðgerða.
+<!-- Should we add a screenshot here? -->
+
+- **Ég er ekki með bókamerkjatákn. Er eitthvað að?**  
+Möguleikinn á að bókamerkja síðu eða skýrslu er ein af mörgum sérstillingaraðgerðum í Business Central. Ef bókamerkjatákn er ekki birt er líklegt að stjórnandi hafi slökkt á sérstillingum.
+
+- **Hvers vegna er ekki hægt að bókamerkja ákveðnar síður eða skýrslur?**  
+Ekki er hægt að bókamerkja allar síður og skýrslur. Þegar síða eða skýrslur eru keyrðar innan sérstaks samhengis sem viðskiptaforritið stjórnar er bókamerkjatákn ekki birt. Til dæmis munu síður sem finnast ekki í glugganum **Viðmótsleit** en eru ræstar annars staðar ekki birta bókamerkjatákn. Á sama hátt birta síður skýrslubeiðna sem eru aðeins notaðar til að safna síum án þess að keyra skýrsluna ekki bókamerkjatákn.
+
+Sjá tæknilegar upplýsingar um [RunRequestPage](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) og [FilterPageBuilder](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+
+- **Þegar sérstillingar eru hreinsaðar, verða bókamerkin mín einnig hreinsuð?**  
+Já. Bókamerki eru í yfirlitsvalmynd. Ef breytingar á yfirlitsvalmyndinni eru hreinsaðar á einhverri síðu, eða allar sérstillingar í Mitt hlutverk, eru allar nýju aðgerðirnar þínar fjarlægðar varanlega.
+
+- **Hvers vegna heldur bókamerkjatáknið mitt áfram að gefa til kynna að það sé enn ekki bókamerkt?**  
+Þegar bókamerki er bætt við er nýju aðgerðinni bætt við yfirlitsvalmyndina á Mitt hlutverk og heimsóknir á síðuna eða skýrsluna eftir það sýna dökkt bókamerkjatákn. Ef þú sérstillir Mitt hlutverk og endurskipuleggur aðgerðir þínar með því að færa þær í hópa, er bókamerkjatáknið ekki lengur dökkt og hægt er að bæta öðru bókamerki við sömu síðu eða skýrslu. Þetta gerir þér kleift að bæta við mörgum aðgerðum á sömu síðu eða skýrslu og flokka þær í mismunandi flokka.
+
+- **Hvers vegna er tengill minn í skýrslu að birta aðra skýrslugerð?**  
+Sumum skýrslum kann að vera skipt út fyrir aðrar skýrslur eftir að viðbót hefur verið notuð í Business Central. Þegar staðgengill er notaðu er texti nýju aðgerðarinnar ekki uppfærður og mun halda áfram að birta heiti upprunalegu skýrslunnar, en fara þarf í nýrri skýrsluna. Til að leiðrétta texta nýju aðgerðarinnar er hægt að fjarlægja nýju aðgerðina og bæta henni við aftur.
+<!-- For more information on report substitution, see this link UNAVAILABLE AT THIS TIME -->
+
+- **Er bókamerking í boði fyrir XMLports?**  
+Fj. Eins og er ekki hægt að bæta við aðgerðum til að opna XMLports úr notandaviðmótinu.
+
+- **Verða bókamerkin mín þýdd þegar ég breyti tungumáli mínu í Business Central?**  
+Þegar nýrri aðgerð er bætt við er öllum þýddum texta sem var tiltækur á þeim tíma notað þegar verið er að bókamerkja. Ef nýjum þýddum texta er bætt við síðar mun nýja aðgerðin ekki innihalda nýrri þýðingarnar.
+
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling verksvæðis](ui-personalization-user.md)  

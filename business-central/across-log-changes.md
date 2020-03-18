@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: cffa7d23b7c09561914cc00a8a4b9820ed743c29
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: cb091a54b7b8da571117c807a621ed298842444c
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775356"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076660"
 ---
 # <a name="auditing-changes-in-business-central"></a>Endurskoðunarbreytingar í Business Central
 
@@ -46,7 +46,7 @@ Upplýsingarnar eru birtar á síðunni **aðgerðarkladdi** í samræmi við sa
 
 ## <a name="see-also"></a>Sjá einnig
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
-[Röðun](ui-sorting.md)  
+[Röðun, leit, og síun](ui-enter-criteria-filters.md)  
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
 [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md)    
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -1,20 +1,20 @@
 ---
 title: Námskrá kerfisráðgjafa
-description: Námskrá kerfisráðgjafa
-author: LoreleiShannon
-ms.custom: na
-ms.date: 11/06/2019
+description: Finndu allt það nám sem er í boði fyrir Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.author: solsen
-ms.openlocfilehash: a9c0ba279a61bb2c09fbc221c4f1772229fe52e2
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.author: v-lshann
+ms.openlocfilehash: fa3ec715fdf018ff73a9560c1aa32167cdf11764
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767822"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097552"
 ---
 # <a name="functional-consultant-learning-catalog"></a>Námskrá kerfisráðgjafa
+
+Ert þú sérfræðingur fyrirtækjaléns?
 
 Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og frá einföldustu til ítarlegustu þátta. Ef efni er til á mörgum sniðum látum við þig vita svo þú getir valið það þjálfunarsnið sem hentar þínum þörfum best. 
 

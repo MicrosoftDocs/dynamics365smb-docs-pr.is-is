@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e128e5a4f08364ccea9ae0aa4e284943688404c4
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882231"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076439"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Uppsetning bestu venja: Endurpöntunarstefnur
 Svæðið **Endurpöntunarstefna** á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.  
@@ -42,11 +42,7 @@ Eftirfarandi tafla gefur upp bestu venjur til að velja milli fjögurra stefna.
 |**Hámarksmagn**|Notist fyrir C vörur með háan birgðakostnað eða geymslutakmarkanir.<br /><br /> Sameina við eina eða fleiri pöntunarbreytur (lágmarks-/hámarkspöntunarmagn eða fjöldapanta).|C vörur, eins og tebollar, eru verðlitlar vörur með mikilli og reglulegri pöntunartíðni. Besta endurpöntunarstefnan fyrir C-vörur er sú sem tryggir stöðugan fáanleika með því að vera alltaf yfir endurpöntunarpunkti, en undir hámarks birgðamagni.<br /><br /> Til að breyta ráðlagðri röð gætirðu viljað lækka pöntunarmagnið niður í tiltekið hámarksmagn pöntunar, hækkað í tiltekið lágmarksmagn pöntunar, eða sléttað til að passa við tilgreint pöntunarmargfeldi. **Athugið:** Ef endurpöntunarmark er notað haldast birgðir á milli þess og hámarksmagns.|  
 
 ## <a name="see-also"></a>Sjá einnig  
- [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)   
- [Hönnunarupplýsingar: Endurpöntunarstefnur](design-details-reordering-policies.md)   
- [Hönnunarupplýsingar: pantanir](design-details-order.md)   
- [Hönnunarupplýsingar: lota fyrir lotu](design-details-lot-for-lot.md)   
- [Hönnunarupplýsingar: Fast Magn endurpöntunar](design-details-fixed-reorder-qty.md)   
- [Hönnunarupplýsingar: Hámarksmagn](design-details-maximum-qty.md)   
+ [Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)   
+ [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
  [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

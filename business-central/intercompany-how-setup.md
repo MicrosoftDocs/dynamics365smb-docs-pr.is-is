@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2019
+ms.date: 02/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: e6f44cfc8dc5eb3591aadd520a4ec58086d5f823
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1d284783f389ea8e60027d02cc225b16c44b9d03
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300092"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097673"
 ---
 # <a name="set-up-intercompany"></a>Uppsetning milli fyrirtækja
 Til að senda viðskipti (til dæmis sölubókarlínu) frá einu fyrirtæki og láta stofna samsvarandi viðskipti (til dæmis innkaupabókarlínu) í fyrirtækisfélaganum þurfa fyrirtækin að koma sér saman um sameiginlegan bókhaldslykil og víddir sem nota á í viðskiptum milli fyrirtækjanna. Bókhaldslykillinn milli fyrirtækja gæti til dæmis verið einfölduð útgáfa af bókhaldslykli móðurfyrirtækisins. Hvert fyrirtæki varpar heildarbókhaldslykli sínum á sameiginlega bókhaldslykilinn milli fyrirtækja, og hvert fyrirtæki varpar víddum sínum á víddirnar milli fyrirtækja.  
@@ -27,8 +27,8 @@ Ef MF-línur eru stofnaðar eða mótteknar er hægt að nota eigin vörunúmer 
 Ef gerðar verða sölufærslur milli fyrirtækja sem innihalda forða þarf að fylla út reitinn **Nr. innk.reikn. MF-félaga** á forðaspjaldi fyrir hvern viðkomandi forða. Þetta er númer fjárhagsreikningsins milli fyrirtækja sem magnið fyrir þennan forða verður bókað í fyrirtækisfélaganum. Frekari upplýsingar eru í [Setja upp tilföng](projects-how-setup-resources.md).
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Setja upp fyrirtæki fyrir millifyrirtækjafærslur
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Upplýsingar um fyrirtæki** og veldu síðan tengda tengilinn.  
-2. Á síðunni **Fyrirtækjaupplýsingar** skal fylla inn í reitina **MF-félagakóði**, **MF-innhólfstegund**.  og **MF-innhólfsupplýsingar**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofngögn** og veldu síðan tengda tengilinn.  
+2. Á síðunni **Fyrirtækjaupplýsingar** skal fylla inn í reitina **MF-félagakóði**, **MF-innhólfstegund**. og **MF-innhólfsupplýsingar**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>Setja millifyrirtækjafélaga
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Millifyrirtækjafélagar** og veldu síðan tengda tengilinn.
@@ -36,7 +36,7 @@ Ef gerðar verða sölufærslur milli fyrirtækja sem innihalda forða þarf að
 3. Á síðunni **Millifyrirtækjafélagi** skal fylla út reitina eins og þörf krefur.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Hvernig á að: Setja upp lánardrottna og viðskiptamenn millifyrirtækis
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **lánardrottnar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.
 2. Að öðrum kosti geturðu nálgast lánardrottinn frá reitnum **Lánardrottinn nr.** á síðunni **Millifyrirtækjafélagi**.
 3. Opna spjaldið fyrir lánardrottinn sem er millifyrirtækjafélagi. Nánari upplýsingar eru í [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md).
 4. Í reitnum **Kóði millifyrirtækjafélaga** er valinn viðeigandi kóði fyrir millifyrirtækjafélaga.
@@ -50,13 +50,13 @@ Ef fyrirtækið þitt er móðurfyrirtækið og er með skilgreinandi bókhaldsl
 Ef fyrirtækið þitt er dótturfyrirtæki og hefur fengið XML-skrá með bókhaldslykli sem hópurinn notar sem sameiginlega viðmiðun er þessari aðferð fylgt [Hvernig á að flytja inn Bókhaldslykill milli fyrirtækja](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Skilgreinandi bókhaldslykill milli fyrirtækja er settur upp.
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarlykill milli fyrirtækja** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **MF-bókhaldslykill** og veldu síðan tengda tengilinn.
 2. Á síðunni **MF-bókhaldslyklar** skal færa inn hvern reikning í línu á síðunni.  
 3. Ef MF-bókhaldslykillinn verður eins og eða svipaður og venjulegi bókhaldslykillinn er hægt að láta fylla síðuna út sjálfkrafa með því að velja **Afrita frá bókhaldslykli** aðgerðina. Hægt er að breyta nýju línunni eins og þurfa þykir.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>MF-bókhaldslykill er fluttur út
 Til að leyfa millifyrirtækjafélögum þínum að flytja inn skilgreinandi bókhaldslykilinn, verður að flytja hann út í skrá.      
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarlykill milli fyrirtækja** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **MF-bókhaldslykill** og veldu síðan tengda tengilinn.
 2. Á síðunni **MF-bókhaldslyklar** skal velja aðgerðina **Flytja út** og síðan velja hnappinn **Vista**.
 3. Skrárheitið og staðsetningin þar sem vista á XML-skrána eru valin og síðan smellt á **Vista**.  
 
@@ -73,7 +73,7 @@ Eftir að MF-bókhaldslykill sem millifyrirtækjafélagar hafa samþykkt að not
 
 Ef reikningar í bókhaldslykli milli fyrirtækja hafa sömu reikningsnúmer og samsvarandi reikningar í bókhaldslyklinum er hægt að varpa reikningunum.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarlykill milli fyrirtækja** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **MF-bókhaldslykill** og veldu síðan tengda tengilinn.  
 2. Línurnar sem á að varpa sjálfkrafa eru valdar og svo er valin aðgerðin **Varpa á reikning með sama nr.**.  
 3. Fyrir hvern fjárhagsreikning milli fyrirtækja sem ekki var varpað sjálfkrafa, skal fylla í reitinn **Varpa á Fjárhagsreikning nr.**.  
 
@@ -82,7 +82,7 @@ Ef reikningar í bókhaldslykli milli fyrirtækja hafa sömu reikningsnúmer og 
 
 Þegar fjárhagsreikningur er síðan færður inn í reitinn **Nr. Mótreiknings** í línu milli fyrirtækja með **MF-félaga** í reitnum **Tegund reiknings** er sjálfkrafa fyllt í reitinn **MF-félagi fjárhagsreikningur**.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókhaldslykill** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókhaldslykill** og veldu síðan tengda tengilinn.  
 2. Á línuna fyrir fjárhagsreikning sem er notaður fyrir millifyrirtækjafærslur, í reitnum **Sjálfgefinn fjárhagsreikningur MP félaga** skal færa inn MF-fjárhagsreikninginn sem félaginn á að bóka í við bókun í fjárhagsreikninga í línunni.  
 3. Skref 2 er endurtekið fyrir hvern reikning sem oft er færður inn í reitinn **Mótreikningur nr.** í línu í færslubók eða fylgiskjali milli fyrirtækja.
 
@@ -94,7 +94,7 @@ Ef fyrirtækið þitt er móðurfyrirtækið og er með skilgreinandi safn milli
 Ef fyrirtæki þitt er dótturfyrirtæki og þú færð XML-skrá með MF-víddum sem hópurinn notar sem sameiginlega viðmiðun er þessari aðferð fylgt [Hvernig á að flytja inn millifyrirtækjavíddir](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Skilgreina MF-víddir
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Víddir bókhalds innan samstæðu** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **MF-víddir** og veldu síðan tengda tengilinn.  
 2. Á síðunni **MF-víddir** er hver vídd er færð inn í línu á síðunni.
 
     Ef MF-víddirnar verða eins eða svipaðar og víddir fyrirtækisins er hægt að fylla síðuna sjálfkrafa út með því að nota aðgerðina **Afrita úr víddum** og breyta síðan línunum sem verða til.  
@@ -103,7 +103,7 @@ Ef fyrirtæki þitt er dótturfyrirtæki og þú færð XML-skrá með MF-víddu
 
 ### <a name="to-import-the-intercompany-dimensions"></a>Millifyrirtækjavíddir fluttar inn  
 Þegar til er skrá sem inniheldur skilgreinandi MF-víddir, geta millifyrirtækjafélagar flutt hana inn til að vera vissir um að hafa sömu víddirnar.  
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Víddir bókhalds innan samstæðu** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **MF-víddir** og veldu síðan tengda tengilinn.  
 2. Á síðunni **MF-víddir** veljið aðgerðina **Flytja inn**.  
 3. Skrárheiti og staðsetning XML-skrárinnar eru tilgreind og smellt á **Opna**.  
 
@@ -114,9 +114,11 @@ Línurnar á síðunni **MF-víddir** og síðunni **MF-víddargildi** eru flutt
 
 Ef einhver af víddunum milli fyrirtækja hefur sama kóta og samsvarandi víddir í víddatöflu fyrirtækisins er hægt að láta forritið varpa víddunum sjálfkrafa, og þá er hægt að varpa reikningunum sjálfkrafa.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Víddir bókhalds innan samstæðu** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **MF-víddir** og veldu síðan tengda tengilinn.
 2. Á síðunni **MF-víddir** eru línurnar sem á að varpa sjálfkrafa eru valdar og svo er **Varpa á víddir með sama kóða** aðgerðin valin.
 3. Fyrir hverja vídd milli fyrirtækja sem er ekki varpað sjálfkrafa, skal fylla út í reitinn **Varpa á víddarkóta**.
+
+    Hugsanlega þarf að bæta reitnum við yfirlitið. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 4. Veljið aðgerðina **MF-víddargildi**.
 5. Á síðunni **MF-víddargildi** er reiturinn **Varpa á víddargildiskóða** fylltur út.
 

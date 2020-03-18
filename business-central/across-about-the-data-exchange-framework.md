@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4ce48121b36ecd3f153d846f346c52b39a0c64bb
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 154d72032171fa6fbe223ba4f152f868d577c8c7
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999905"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076708"
 ---
 # <a name="about-the-data-exchange-framework"></a>Um gagnaskiptaramma
 Hægt er að nota Data Exchange Framework til að stjórna skiptum á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öllum öðrum gögnum á milli viðskiptafélaga.
@@ -40,13 +40,13 @@ Sem kerfisstjóri eða Microsoft-samstarfsaðili er hægt að nota rammann í n�
   Til að taka við, til dæmis, reikningi sem rafrænu OCR-skjali, er það meðhöndlað líkt og þegar rafrænt PEPPOL-skjal er móttekið. Móttaka og gagnaumbreyting rafrænna reikninga úr OCR er framkvæmt af gagnaskiptaumgjörðinni sem stendur fyrir gagnaskiptaskilgreiningu **PEPPOL - Reikningur**.  
 
  ## <a name="bank-files"></a>Bankaskrár  
- Skráasnið fyrir skipti bankagagna með ERP-kerfi er breytilegt eftir birgi skráarinnar og landi eða svæði. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður innflutning og útflutning á SEPA-bankaskrám (Single Euro Payments Area) og AMC Banking 365 Fundamentals viðbótin gerir þér kleift að tengjast umskráningarþjónusta fyrir bankagögn af hálfu ytri veitanda, AMC Consult. Til að veita stuðning á öðrum rafrænu formi er notað Data Exchange Framework.  
+ Skráasnið fyrir skipti bankagagna með ERP-kerfi er breytilegt eftir birgi skráarinnar og landi eða svæði. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður innflutning og útflutning á SEPA-bankaskrám (Single Euro Payments Area) og AMC Banking 365 Fundamentals viðbótin gerir þér kleift að tengjast AMC Banking 365 Fundamentals viðbót af hálfu ytri veitanda, AMC Consult. Til að veita stuðning á öðrum rafrænu formi er notað Data Exchange Framework.  
 
- Til að flytja út kreditfærslur SEPA skal velja hnappinn **Flytja greiðslur út í skrá** á síðunni **Greiðslubók** og hlaða svo upp skránni til að vinna úr greiðslunum í bankanum. Fyrst þarf að setja upp mismunandi aðalgögn, t.d. bankareikning, lánardrottna og greiðslumáta. Gagnaumreikningurinn og útflutningur á SEPA-bankagögnum eru framkvæmdar af þartilgerðum codeunit og XMLport, táknað með **SEPA-kreditfærsla** bankauppsetningu innflutningur/útflutningur. Að öðrum kosti er hægt að setja upp viðbótina AMC Banking 365 Fundamentals og látið hana sjá um útflutninginn, táknað með **Umreikningsþjónusta bankagagna - Kreditfærslur** gagnaskiptaskilgreiningu.  
+ Til að flytja út kreditfærslur SEPA skal velja hnappinn **Flytja greiðslur út í skrá** á síðunni **Greiðslubók** og hlaða svo upp skránni til að vinna úr greiðslunum í bankanum. Fyrst þarf að setja upp mismunandi aðalgögn, t.d. bankareikning, lánardrottna og greiðslumáta. Gagnaumreikningurinn og útflutningur á SEPA-bankagögnum eru framkvæmdar af þartilgerðum codeunit og XMLport, táknað með **SEPA-kreditfærsla** bankauppsetningu innflutningur/útflutningur. Að öðrum kosti er hægt að setja upp viðbótina AMC Banking 365 Fundamentals og láta hana sjá um útflutninginn, táknað með **AMC Banking 365 Fundamentals viðbót - Kreditfærslur** gagnaskiptaskilgreiningu.  
 
  Til að flytja út leiðbeiningar fyrir SEPA-beingreiðslur skal velja hnappinn **Flytja út beingreiðsluskrá** á síðunni **Innheimta beingreiðslu** og senda hana svo í bankann til að innheimta sjálfkrafa umræddar greiðslur viðskiptamanns. Fyrst þarf að setja upp bankareikninga, lánardrottna, umboð fyrir beingreiðslu og greiðslumáta. Gagnaumreikningurinn og útflutningur á SEPA-bankagögnum eru framkvæmdar af þartilgerðum codeunit og XMLport, táknað með **SEPA-beingreiðsla** bankauppsetningu innflutningur/útflutningur.  
 
- Til að flytja inn SEPA-bankayfirlit skal velja hnappinn Flytja inn bankayfirlit á síðunni **Greiðsluafstemmingarbók** og **Bankareikn. Afstemming** og halda svo áfram og leggja fram hverja bankayfirlitsfærslu til greiðslu eða í fjárhagsfærslur, handvirkt eða sjálfkrafa. Fyrst þarf að setja upp bankareikninga. Innflutningur og gagnaumbreyting SEPA-bankagagna er framkvæmt af gagnaskiptaumgjörðinni sem stendur fyrir gagnaskiptaskilgreiningu **SEPA CAMT**. Að öðrum kosti er hægt að setja upp AMC Banking 365 Fundamentals viðbótina og látið hana sjá um innflutninginn, táknað með **Umreikningsþjónusta bankagagna - Bankayfirlit** gagnaskiptaskilgreiningu.  
+ Til að flytja inn SEPA-bankayfirlit skal velja hnappinn Flytja inn bankayfirlit á síðunni **Greiðsluafstemmingarbók** og **Bankareikn. Afstemming** og halda svo áfram og leggja fram hverja bankayfirlitsfærslu til greiðslu eða í fjárhagsfærslur, handvirkt eða sjálfkrafa. Fyrst þarf að setja upp bankareikninga. Innflutningur og gagnaumbreyting SEPA-bankagagna er framkvæmt af gagnaskiptaumgjörðinni sem stendur fyrir gagnaskiptaskilgreiningu **SEPA CAMT**. Að öðrum kosti er hægt að setja upp AMC Banking 365 Fundamentals viðbótina og látið hana sjá um innflutninginn, táknað með  **AMC Banking365 Fundamentals viðbót - Bankayfirlit** gagnaskiptaskilgreiningu.  
 
  Auk þess styðja staðbundnar útgáfur [!INCLUDE[d365fin](includes/d365fin_md.md)] ýmis önnur skráarsnið fyrir innflutning og útflutning á bankagögnum, launafærslum og öðrum gögnum. Nánari upplýsingar fást með því að skoða hjálparkaflann „Staðbundin virkni“ í útgáfu þíns lands af [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

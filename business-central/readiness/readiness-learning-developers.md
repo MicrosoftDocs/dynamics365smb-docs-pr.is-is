@@ -1,21 +1,20 @@
 ---
 title: Námsskrá þróunaraðila
-description: Námsskrá þróunaraðila
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/19/2019
+description: Finndu allt námsefni sem er í boði fyrir Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.reviewer: margoc
-ms.author: solsen
-ms.openlocfilehash: cdca386a3feb505364152b831d3e105b94db6c43
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.author: v-lshann
+ms.openlocfilehash: 05c2f4426f8d84f5e478a7ca7f63bd6ab64eeb6a
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832240"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097841"
 ---
-# <a name="developer-learning-catalog"></a>Námsskrá þróunaraðila
+# <a name="developers-learning-catalog"></a>Námsskrá þróunaraðila
+
+Þarftu að skrifa kóða til að samþættast við önnur gögn, víkka virkni grunnkerfisins eða byggja flókið forrit?
 
 Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og frá einföldustu til ítarlegustu þátta. Ef efni er til á mörgum sniðum látum við þig vita svo þú getir valið það þjálfunarsnið sem hentar þínum þörfum best. 
 
