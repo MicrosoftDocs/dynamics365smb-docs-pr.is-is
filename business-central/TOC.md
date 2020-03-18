@@ -47,7 +47,7 @@
 ### [Sérstilling verksvæðis](ui-personalization-user.md)
 ### [Af hverju er síða læst og því ekki hægt að sérsníða hana](ui-personalization-locked.md)
 ### [Vista og sérsníða listayfirlit](ui-views.md)
-### [Bæta síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md)
+### [Síða eða skýrsla bókamerkt í Mitt hlutverk](ui-bookmarks.md)
 ### [Birting lista á mismunandi hátt](across-display-lists-different-views.md)
 ## Prentun skýrsla og keyrsla runuvinnslu og XMLports
 ### [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)
@@ -64,6 +64,7 @@
 ### [Uppfæra sérsniðið skýrsluútlit](ui-update-report-layouts.md)
 ### [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md)
 ### [Bæta reitum við Word-skýrsluútlit](ui-how-add-fields-word-report-layout.md)
+### [Tiltækar leturgerðir](ui-fonts.md)
 ## Notkun flýtilykla
 ### [Aðgengi og Flýtivísanir](ui-accessibility.md)
 ### [Flýtivísanir](keyboard-shortcuts.md)
@@ -297,8 +298,7 @@
 #### [Setja upp skjöl á innleið](across-how-setup-income-documents.md)
 #### [Uppfæra gengi](finance-how-update-currencies.md)
 #### [Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [Setja upp SEPA-kreditfærslur](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Setja upp SEPA-beingreiðslur](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md)
 #### [Setja upp bankayfirlitsþjónustu](bank-how-setup-bank-statement-service.md)
 #### [Bankareikningar settir upp](bank-how-setup-bank-accounts.md)
@@ -310,8 +310,8 @@
 #### [Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)
 #### [Taka við og umbreyta rafræn skjölum](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md)
-#### [Flytja út greiðslur í bankaskrá](payables-how-export-payments-bank-file.md)
-#### [Greiða með umreikningsþjónustu bankagagna eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Uppfæra gengi](finance-how-update-currencies.md)
 #### [Reitarvörpum við innflutning SEPA CAMT skráa](across-field-mapping-when-importing-sepa-camt-files.md)
@@ -403,7 +403,7 @@
 #### [Skrá greiðslur og endurgreiðslur](payables-how-post-payments-refunds.md)
 #### [Greiðslutillögur til lánardr.](payables-how-suggest-vendor-payments.md)
 #### [Framkvæma ávísanagreiðslur](payables-how-work-checks.md)
-#### [Greiða með umreikningsþjónustu bankagagna eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Greiða innkaupareikninga tímanlega](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md)
 ### Jafna greiðslur sjálfkrafa og afstemma bankareikninga
@@ -918,7 +918,6 @@
 #### [Setja upp neysluskatt og innkaupaskatt](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 ### Bankaþjónusta og greiðslur
 #### [Búa til innborganir](LocalFunctionality/Canada/how-to-create-deposits.md)
-#### [Stjórna skuldaupplýsingum viðskiptavinar](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
 #### [Framkvæma rafrænar greiðslur](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Almennt
 #### [Prenta skýrslur úrræðaleitar](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
@@ -1064,7 +1063,6 @@
 ## Ísland
 ### [Yfirlit](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### VSK
-#### [Íslenskar skattareglugerðir fyrir skilyrtan afslátt](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Prenta VSK-yfirlit á skjölum](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Sérstök gögn og skýrslur fyrir skattyfirvöld](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 ### Rafræn reikningsfærsla
@@ -1459,7 +1457,6 @@
 #### [Afstemma bankareikninga](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 #### [Framkvæma rafrænar greiðslur](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Almennt
-#### [Hvernig á að vinna með skuldaupplýsingar viðskiptavina](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Prenta skýrslur úrræðaleitar](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Senda inn lögboðnar viðvaranir](submit-regulatory-alerts.md)
 # Reglufylgni
