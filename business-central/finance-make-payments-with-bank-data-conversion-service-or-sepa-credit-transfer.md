@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: aa4ce82cd1a156561fa2dc929c45e231730fb084
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: e37341605465a23427b1011e3830ae62b37a46ed
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992001"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076878"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu
 Á síðunni **Greiðslubók** er hægt að meðhöndla greiðslur til lánardrottna með því að flytja út skrá með greiðsluupplýsingum á færslubókarlínur. Þá er hægt að hlaða upp skránni í netbanka til að meðhöndla tengdan peningaflutning. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður SEPA-kreditfærslusniðið, en í heimalandi þínu / svæði geta önnur snið fyrir rafrænar greiðslur kunna að vera tiltækir.
@@ -142,7 +142,6 @@ Hægt er að endurútflytja greiðsluskrár af síðunni **Skráningar kreditmil
 
 ## <a name="see-also"></a>Sjá einnig  
 [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md)  
-[Setja upp SEPA-kreditfærslur](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Stjórna skuldum](payables-manage-payables.md)   
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)   

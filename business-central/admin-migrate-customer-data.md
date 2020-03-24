@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
-ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
+ms.openlocfilehash: 2da58a4f5a3655fc2153647d80c5d69e1356b503
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2918215"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097697"
 ---
 # <a name="migrate-customer-data"></a>Flytja gögn viðskiptamanna
 Hægt er að flytja núverandi gögn um viðskiptamenn úr fyrirliggjandi ERP-kerfi yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að nota RapidStart Services gagnaflutningstækni. Hægt er að nota Excel-skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að slá þau beint inn í fyrirtækið.
@@ -31,7 +31,7 @@ Síðurnar **Flutningsyfirlit** og **Grunnstilling vinnublaðs** veita aðgang a
 > [!NOTE]  
 >  Ekki er hægt að endurnefna skrá sem ekki er þegar RapidStart Services skilgreiningarpakki sem .rapidstart skilgreiningarpakkaskrá og svo reyna að færa hana inn. Ef það er reynt, munu koma upp villuboð.  
 
-Áður en hafist er handa þarf að ganga úr skugga um að heimild til að keyra RapidStart Services-hlutina sé til staðar. Til dæmis er hægt að hafa SUPER-heimildasamstæðu eða vera innri eða úthlutaður stjórnandi. Einnig er mælt með því að notandi sé í hlutverki með tengla á RapidStart Services, svo sem stjórnunarhlutverk. Nánari upplýsingar er að finna í [Að breyta hlutverkinu](ui-change-basic-settings.md#to-change-the-role).  
+Áður en hafist er handa þarf að ganga úr skugga um að heimild til að keyra RapidStart Services-hlutina sé til staðar. Til dæmis er hægt að hafa SUPER eða D365 RAPIDSTART heimildasamstæðu. Einnig er mælt með því að notandi sé í hlutverki með tengla á RapidStart Services, svo sem stjórnunarhlutverk. Nánari upplýsingar er að finna í [Að breyta hlutverkinu](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
 > Við inn- og útflutning stillingapakka milli gagnagrunna tveggja fyrirtækja ættu gagnagrunnarnir að hafa sama skema til að ganga úr skugga um að öll gögn séu flutt rétt. Þetta merkir að gagnagrunnar ættu að hafa sama skipulag í töflum og reitum, þar sem töflur hafa sömu aðallykla og reitir hafa sama kenni og gagnagerðir.  
@@ -116,7 +116,7 @@ Eftirfarandi dæmi sýnir hvernig [!INCLUDE[d365fin](includes/d365fin_md.md)] in
 2. Bætið við viðbótartöflum við pakkann, t.d. **Viðskiptavinur** og **Lánardrottinn**. Töflurnar vísuðu báðar í töfluna **Sölumaður/innkaupaaðili** í gegnum reitina **Kóði sölumanns** og **Innkaupakóði** í þeirri röð.  
 3. Þegar þú jafnar gögn mun vörpunin sem þú gafst upp fyrir reitinn **Kóði** í töflunni **Sölumaður/innkaupaaðili** einnig verða tekin með við vinnslu á reitunum **Kóði sölumanns** og **Kóði innkaupaaðila**.
 
-## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Til að bæta viðbótargildum við [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-d365fin"></a>Til að bæta viðbótargildum við [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 2. Veljið töfluna sem á að bæta við fleiri gildum fyrir og síðan á flipanum **Töflur** skal velja aðgerðina **Reitir**.  
 3. Fyrir reitina þar sem [!INCLUDE[d365fin](includes/d365fin_md.md)] á að heimila viðbótargildi við flutning skal velja gátreitinn **Stofna kóða sem vantar**.  

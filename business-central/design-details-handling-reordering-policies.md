@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0708a78be4dbd70d8555b8c088fedd88d3fb5459
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e5960f9673892428466fa5302af50e3a866edf5b
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880473"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076540"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur
 Til þess að vara geti tekið þátt í birgðaáætlunargerð verður að tilgreina endurpöntunarstefnu. Eftirfarandi fjórar endurpöntunarstefnur eru til:  
@@ -275,7 +275,7 @@ Burtséð frá notkun pöntunarstefnu er hægt að nota tengil á milli pantana 
 Jafnvel þótt framleiðslufyrirtæki álíti sig framleiða eftir pöntun geur verið best að nota endurpöntunarstefnuna lota fyrir lotu ef vörurnar eru staðlaðar án afbrigða í eigindum. Niðurstaðan er að kerfið mun nota óáætlaðar birgðir og safna aðeins sölupöntunum með sömu afhendingardagsetningu eða innan tilgreinds tímaramma.  
 
 #### <a name="order-to-order-links-and-past-due-dates"></a>Tenglar á milli pantana og liðnir skiladagar  
-Ólíkt flestum framboð-eftirspurn settum eru tengdar pantanir með skiladag á undan upphafsdagsetningu áætlunar áætlaðar að fullu af kerfinu. Viðskiptaástæðan fyrir þessa undanþágu er að tiltekin pör eftirspurnar og framboðs þurfa að vera samstillt fram að framkvæmdinni. Nánari upplýsingar um frosna svæðið sem eiga við um flestar gerðir framboðs og eftirspurnar eru í [Hönnunarupplýsingar: Takast á við pantanir fyrir upphafsdagsetningu áætlunar](design-details-dealing-with-orders-before-the-planning-starting-date.md).
+Ólíkt flestum framboð-eftirspurn settum eru tengdar pantanir með skiladag á undan upphafsdagsetningu áætlunar áætlaðar að fullu af kerfinu. Viðskiptaástæðan fyrir þessa undanþágu er að tiltekin pör eftirspurnar og framboðs þurfa að vera samstillt fram að framkvæmdinni. Nánari upplýsingar um frosna svæðið sem eiga við um flestar gerðir framboðs og eftirspurnar eru í [Takast á við pantanir fyrir upphafsdagsetningu áætlunar](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).
 
 ### <a name="lot-for-lot"></a>Lotu-fyrir-lotu
 Lota-fyrir-lotu reglan er sveigjanlegust vegna þess að kerfið bregst bara við raunverulegri eftirspurn og bregst auk þess við væntanlegri eftirspurn samkvæmt spám og standandi pöntunum og ákvarðar svo magn pantanan á grundvelli eftirspurnarinnar. Lota-fyrir-lotu reglan beinist að A- og B-vörum þar sem hægt er að samþykkja birgðir en ætti helst að forðast það.  
