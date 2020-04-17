@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9a9ba92be649c8272822c3c332c6c4c330910df8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0b82f92c03aeee11b663d7888c79f4cc78f2c7fc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883191"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191500"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Keyra fulla áætlunargerð, MPS eða MRP
 Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikning aðalframleiðsluáætlunar og efnisþarfa samkvæmt raunverulegri eftirspurn og eftirspurn samkvæmt spá. Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.  

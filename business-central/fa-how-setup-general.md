@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 898167c1b76a757dc4b6b06f8df64eef3a3c2b59
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 57e0bef687225ff6a510aa54ec1c5c938ea96ab4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554255"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184293"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Uppsetning almennra eignaupplýsinga
 Áður en hægt er að vinna með eignir, þarf að setja upp sjálfgefna fjárhagsreikninga, úthlutunarlykla, færslubókarsniðmát og keyrslur fyrir bókun á eign og endurflokkun og hægt er að flokka eignir í eignaflokka, til dæmis Áþreifanlegar og Óáþreifanlegar.
@@ -28,7 +28,7 @@ Skilgreina almenna virkni eða aðgerðina eign og setja upp númeraröð skjala
 ## <a name="to-set-up-fixed-asset-posting-groups"></a>Setja upp bókunarflokka eigna
 Bókunarflokkar eru notaðir til að skilgreina flokka eigna. Færslur í þessum bókunarflokkum eru bókaðar á sömu fjárhagsreikninga.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **eignabókunarflokkar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignarbókunarflokkar** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.
 3. Á síðunni **eignabókunarflokkaspjald** þarf að fylla reitina út eftir þörfum.
 
@@ -43,7 +43,7 @@ Hægt er að úthluta færslum á ýmsar deildir og/eða verkefni samkvæmt úth
 
 Úthlutunarlyklar gilda um eignaflokka en ekki um stakar eignir.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **eignabókunarflokkar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignarbókunarflokkar** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Eignabókunarflokkar** skal velja aðgerðina **Úthlutanir** og velja síðan bókunarflokk.
 3. Á síðunni **eignaúthlutanir** þarf að fylla reitina út eftir þörfum.
 4. Endurtaktu skref 2 og 3 fyrir hverja bókunargerð sem ætlunin er að skilgreina úthlutunarlykla fyrir.
@@ -53,45 +53,45 @@ Sniðmát er fyrirfram skilgreind uppsetning á færslubók. Í sniðmáti eru u
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] býr sjálfkrafa til sniðmát færslubókar eignar í fyrsta sinn sem síðan **Færslubók eignar** er opnuð, en hægt er að setja upp önnur sniðmát færslubókar.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sniðmát færslubókar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát eignabóka** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
 
 ## <a name="to-set-up-fixed-asset-journal-batches"></a>Setja upp keyrslur eignabóka
 Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fyrir hvert færslubókarsniðmát. Starfsmenn geta til dæmis verið með eigin bókarkeyrslur sem nota upphafsstafi starfsmannsins sem heiti bókarkeyrslu. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sniðmát færslubókar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát eignabóka** og veldu síðan tengda tengilinn.  
 2. Valin er viðeigandi sniðmát færslubókar og veldu svo **keyrslur** aðgerðina.
 3. Á síðunni **eignabókarkeyrslur** þarf að fylla reitina út eftir þörfum.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Setja upp keyrslur endurflokkunarsniðmáta
 Hægt er að nota eignaendurflokkunarbókina til að flytja eignir, skipta þeim upp eða sameina þær. [!INCLUDE[d365fin](includes/d365fin_md.md)] býr sjálfkrafa til sniðmát endurflokkunarbókar eignar í fyrsta sinn sem síðan **Endurflokkunarbók eignar** er opnuð, en hægt er að setja upp önnur sniðmát endurflokkunarbókar. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sniðmát eignaendurflokkunarbókar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát eignaendurflokkunarbóka** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Setja upp endurflokkunarkeyrslur eignabóka
 Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fyrir hvert sniðmát endurflokkunarbókar. Starfsmenn geta til dæmis verið með eigin endurflokkunarbókarkeyrslur sem nota upphafsstafi starfsmannsins sem heiti bókarkeyrslu. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sniðmát eignaendurflokkunarbókar** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát eignaendurflokkunarbóka** og veldu síðan tengda tengilinn.  
 2. Valin er viðeigandi sniðmát færslubókar og veldu svo **keyrslur** aðgerðina.
 3. Á síðunni **keyrslur eignaendurflokkunarbókar** þarf að fylla reitina út eftir þörfum.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Uppsetning eignaflokkskóða
 Flokkskóðana er hægt að nota við aðalflokkun eigna, eins og til dæmis í áþreifanlegar og óáþreifanlegar eignir.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **eignarflokkar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignaflokkar** og veldu síðan tengda tengilinn.
 2. Færðir eru inn kótar og heiti á flokkunum sem búa á til.
 
 ## <a name="to-set-up-fixed-asset-subclass-codes"></a>Uppsetning eignaundirflokkskóða
 Kóðar eignaundirflokks eru notaðir til að flokka eignir, s.s. í byggingar, ökutæki, húsbúnað eða vélbúnað.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Undirflokkar eigna** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignaundirflokkar** og veldu síðan tengda tengilinn.
 2. Færðir eru inn kótar og heiti á flokkunum sem búa á til.
 
 ## <a name="to-set-up-fixed-asset-location-codes"></a>Staðsetningarkóðar eigna eru settir þannig upp:
 Eignastaðsetningarkóta eru notaðir til að skrá staðsetningu eignarinnar, s.s. í söludeild, móttöku, stjórnunardeild, framleiðsludeild eða vöruhúsi. Þessar upplýsingar koma að gagni við vátryggingar og birgðir.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **birgðageymslur eigna** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar eigna** og veldu síðan tengda tengilinn.
 2. Færðir eru inn kóðar og heiti á staðsetningum eigna sem búa á til.
 
 ## <a name="to-register-opening-entries"></a>Skráning opnunarfærslna

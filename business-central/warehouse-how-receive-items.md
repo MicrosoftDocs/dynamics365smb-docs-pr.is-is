@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 273da0c35e6c4ca376f38ceede1568f5df5b4b15
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9345c30b1419e49300746076c48c8d44e9d4a6d1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953084"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189940"
 ---
 # <a name="receive-items"></a>Móttaka vara
 Þegar vörur berast í vöruhús sem er ekki sett upp fyrir vinnslu vöruhúsamóttöku þarf einfaldlega að skrá móttökuna á viðeigandi viðskiptaskjal, eins og t.d. innkaupapöntun, sölvöruskilapöntun, eða millifærslupöntun á innleið.
@@ -28,8 +28,14 @@ Eftirfarandi lýsir því hvernig skal taka á móti vörum með innkaupapöntun
 2. Opna innkaupapöntun sem þegar er til eða stofna nýja. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 3. Í reitnum **Magn til móttöku** er fært inn magnið sem hefur verið móttekið.
 
-    Gildið í reitnum **Móttekið magn** er uppfært. Ef um er að ræða móttöku að hluta, getur þetta magn verið lægra en gildið í svæðinu **Magn**.
+  > [!NOTE]
+  > Ef móttekið magn er hærra en pantað er á innkaupapöntuninni, samkvæmt reitnum **Magn**, og lánardrottinn hefur verið settur upp til að leyfa umframmóttökur, þá er reiturinn **Umframmóttaka** notaður til að meðhöndla umframmagn. Frekari upplýsingar er að finna í [Tekið á móti fleiri vörum en pantað er](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
 4. Valið er **Bóka** aðgerðin.
+
+  Gildið í reitnum **Móttekið magn** er uppfært. Ef um er að ræða móttöku að hluta, getur þetta magn verið lægra en gildið í svæðinu **Magn**.
+
+> [!NOTE]
+> Ef vöruhúsaskjal er notað til að bóka móttökuna er ekki hægt að nota aðgerðina **Bóka** á innkaupapöntuninni. Í staðinn hefur starfsmaður vöruhúss þegar bókað magn innkaupapöntunar sem móttekið. Frekari upplýsingar er að finna í [Vörur mótteknar með vöruhúsamóttöku](warehouse-how-receive-items.md#to-receive-items-with-a-warehouse-receipt).
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Vörur mótteknar með vöruhúsamóttöku
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsamóttökur** og veldu síðan tengda tengilinn.  
@@ -40,7 +46,7 @@ Eftirfarandi lýsir því hvernig skal taka á móti vörum með innkaupapöntun
     Fyrir grunngerð vöruhúss með beinan frágangur og tínsla ef birgðageymslan er með sjálfgefið svæði og hólf fyrir móttökur eru reitirnir **Svæðiskóði** og **Hólfakóði** fylltir út sjálfkrafa en hægt er að breyta þeim eftir þörfum.  
 
     > [!NOTE]  
-    >  Ef taka á á móti vörum með öðrum vöruhúsaflokkskótum en flokkskóta hólfsins í reitnum **Hólfkóti** í fylgiskjalshausnum verður að eyða innihaldi reitsins **Hólfkóti** í hausnum áður en upprunaskjalslínurnar eru sóttar fyrir vörurnar.  
+    > Ef taka á á móti vörum með öðrum vöruhúsaflokkskótum en flokkskóta hólfsins í reitnum **Hólfkóti** í fylgiskjalshausnum verður að eyða innihaldi reitsins **Hólfkóti** í hausnum áður en upprunaskjalslínurnar eru sóttar fyrir vörurnar.  
 3.  Valið er **Sækja upprunaskjöl** aðgerð. Síðan **Upprunaskjöl** opnast.
 
     Í nýrri eða opinni vöruhúsamóttöku er hægt að nota síðuna **Afmörkun til að sækja upprunaskjal** til að sækja þær línur útgefna upprunaskjalsins sem segja til um hvaða vörur á að taka við eða afhenda.
@@ -73,9 +79,45 @@ Ef vöruhúsafrágangur er ekki notaður, en hólf, skráir kerfið frágang var
 > [!NOTE]  
 >  Ef aðgerðin **Bóka og prenta**, er notuð er móttakan bókuð ásamt því að frágangsleiðbeiningar sem sýna hvaða vörur á að setja í geymslu eru prentaðar.  
 >   
->  Ef staðsetningin notar beinan frágang og tínslu notar kerfið frágangssniðmátin til að reikna út besta staðinn til að ganga frá vörunum. Þetta er síðan prentað í frágangsfyrirmælunum.  
+>  Ef staðsetningin notar beinan frágang og tínslu notar kerfið frágangssniðmátin til að reikna út besta staðinn til að ganga frá vörunum. Þetta er síðan prentað í frágangsfyrirmælunum.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesreceive-invoice-dynamics-d365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
+## <a name="to-receive-more-items-than-ordered"></a>Tekið á móti fleiri vörum en pantað er
+Þegar þú tekur á móti fleiri vörum en þú pantaðir, viltu hugsanlega fá þær afhentar í stað þess að hætta við kvittunina. Til dæmis getur verið ódýrara að halda eftir umframbirgðum en að skila þeim eða seljandi kann að bjóða þér afslátt fyrir að halda þeim.
+
+### <a name="to-set-up-over-receipts"></a>Uppsetning umframmóttöku
+Skilgreina verður prósentu sem leyfilegt er að fara umfram pantað magn við móttöku. Þetta er skilgreint undir kóða umframmóttöku, sem inniheldur prósentuna í reitnum **Vikmarkaprósenta umframmóttöku**. Síðan er hægt að úthluta kóðanum á spjöld viðkomandi vara og/eða lánardrottna.  
+
+Eftirfarandi lýsir því hvernig skal setja upp og úthluta kóða umframmóttöku á vöru. Skrefin eru svipuð fyrir lánardrottinn.
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
+2. Opna skal birgðaspjald fyrir vöru sem talið er að sé stundum afhent með hærra magni en pantað er.
+2. Velja skal uppflettingarhnappinn í reitnum **Kóði umframmóttöku**.
+3. Valið er aðgerðin **Nýtt**.
+4. Á síðunni **Kóðar umframmóttöku** skal stofna eina eða fleiri línur sem skilgreina mismunandi reglur umframmóttöku. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+5. Veljið línu og smellið á hnappinn **Í lagi**.
+
+Kóði umframmóttöku er úthlutaður á vöruna. Allar innkaupapantanir eða vöruhúsamóttökur á vörunni leyfa nú móttöku á meira en pöntuðu magni samkvæmt uppgefinni vikmarkaprósentu umframmóttöku.
+
+> [!NOTE]
+> Hægt er að setja upp samþykktarverkflæði til að krefjast þess að umframmóttökur verði samþykktar áður en unnið er með þær. Í slíku tilfelli þarf að velja gátreitinn **Samþykktar krafist** á síðunni **Kóðar umframmóttöku**. Sérhæft verkflæðissvar, **Samþykkja umframmóttöku**, er til staðar í hefðbundnu verkflæðigögnunum í þessu skyni. Frekari upplýsingar eru í [Búa til verkflæði](across-how-to-create-workflows.md).
+
+### <a name="to-perform-an-over-receipt"></a>Umframmóttaka framkvæmd
+Í innkaupalínum og vöruhúsamóttökulínum er reiturinn **Magn umframmóttöku** notaður til að skrá magn umframmóttöku, sem þýðir magn sem fer umfram gildið í reitnum **Magn** fyrir pantað magn.
+
+Þegar unnið er úr umframmóttöku er hægt að hækka gildið í reitnum **Magn til móttöku** upp í móttekið raunmagn. Reiturinn **Magn umframmóttöku** er þá uppfærður til að sýna umframmagnið. Önnur leið er að færa inn umframmagnið í reitinn **Magn umframmóttöku**. Reiturinn **Magn til móttöku** er þá uppfærður til að sýna pantað magn ásamt umframmagni. Eftirfarandi ferli útskýrir hvernig á að fylla út reitinn **Magn til móttöku**.  
+
+1. Í innkaupapöntun eða fylgiskjali vöruhúsamóttöku, þar sem móttekið magn er hærra en pantað magn, skal færa inn raunverulegt móttekið magn í reitinn **Magn til móttöku**.
+
+    Ef aukningin er innan vikmarka sem tilgreind eru af úthlutuðum kóða umframmóttöku verður reiturinn **Magn umframmóttöku** uppfærður til að sýna magnið sem gildið í reitnum **Magn** eykst um.
+
+    Ef aukningin er meiri en sem nemur tilgreindum vikmörkum verður umframmóttaka ekki leyfð. Í slíkum tilfellum er hægt að kanna hvort til sé annar kóði umframmóttöku sem leyfir hana. Annars er aðeins hægt að taka á móti pöntuðu magni og afgreiða þarf umframmagnið á annan hátt, t.d. með því að skila því til lánardrottins.
+
+2. Bókið kvittunina eins og aðrar kvittanir.
+
+> [!NOTE]
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] felur ekki í sér virkni til að ræsa sjálfkrafa fjármálastjórnun á umframmóttökum. Þetta þarf að vinna handvirkt í samkomulagi við lánardrottin, til dæmis getur lánardrottinn framsent nýjan eða uppfærðan reikning.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

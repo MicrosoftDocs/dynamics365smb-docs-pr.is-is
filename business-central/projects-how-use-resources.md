@@ -10,17 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8d637a21a795db46554a45c688bf7ad081533e4a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1c91caed8fb682af4c754aef83801083a714d4f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312701"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193806"
 ---
 # <a name="use-resources-for-jobs"></a>Nota tilföng fyrir verk
 Notkun forða er skráð í verkbókina til að fylgjast með kostnaði, verði og þeim verktegundum sem tengdar eru við verk. Frekari upplýsingar eru í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).
+
+> [!NOTE]
+> Einnig er hægt að kaupa ytri forða, t.d. til að senda reikning á lánardrottin fyrir afhenta vinnu. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 
 Einnig er hægt að bóka notkun forða í forðabók. Færslur sem bókaðar eru í forðabók hafa engin áhrif á fjárhag.
 
@@ -35,7 +38,7 @@ Forða er úthlutað á verk með því að búa til verkáætlunarlínur fyrir 
 ## <a name="to-adjust-resource-prices"></a>Til að leiðrétta forðaverð
 Ef breyta á kostnaði eða verði á mörgum tegundum forða er hægt að nota keyrslu.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stilla forðakostnað/verð** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leiðrétta forðakostnað/verð** og veldu síðan tengda tengilinn.
 2. Fyllið út reitina í línu eins og þörf krefur og veljið svo hnappinn **Í lagi**.
 
 > [!NOTE]  

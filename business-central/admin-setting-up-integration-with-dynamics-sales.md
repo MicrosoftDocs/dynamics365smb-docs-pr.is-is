@@ -1,5 +1,5 @@
 ---
-title: Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales | Microsoft Docs
+title: Uppsetning á notendareikningum fyrir samþættingu við Common Data Service | Microsoft Docs
 description: Kynntu þér hvernig á að setja upp notendareikninga sem forritin nota til að skiptast á gögnum og sem fólk notar til að fá aðgang að og samstilla gögn í forritunum.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,129 +8,126 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 64dd9d1e4645b845c02872a8bc09f0925f4fa33c
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: ad10aa53b4fe6a8b9b65ad798c206fa251e08a7a
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910560"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196496"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales
-Þetta efnisatriði veitir yfirlit um hvernig á að setja upp notendareikninga sem er krafist til að samþætta [!INCLUDE[crm_md](includes/crm_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Uppsetning á notendareikningum fyrir samþættingu við Common Data Service
+Þetta efnisatriði veitir yfirlit um hvernig á að setja upp notendareikninga sem er krafist til að samþætta [!INCLUDE[d365fin](includes/cds_long_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
-
-## <a name="setting-up-the-administrator-user-account-in-sales"></a>Uppsetning á notandareikningi stjórnanda í Sales
-Þú verður að bæta notandareikningi stjórnanda við fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem notandi í [!INCLUDE[crm_md](includes/crm_md.md)] og síðan uppfæra notandann sem stjórnanda í [!INCLUDE[crm_md](includes/crm_md.md)]. Notandareikningur stjórnanda verður einnig að verða með hlutverk sem sérstillandi kerfis og að minnsta kosti eitt annað notandahlutverk sem er ekki stjórnunarhlutverk, t.d. sölustjóri, í [!INCLUDE[crm_md](includes/crm_md.md)].
+## <a name="setting-up-the-administrator-user-account"></a>Uppsetning á notandareikningi stjórnanda
+Þú verður að bæta við notandareikningi stjórnanda fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem notandi í [!INCLUDE[d365fin](includes/cds_long_md.md)]. Þegar tengingin er sett upp á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] notum við þennan reikning í eitt skipti til að setja upp og grunnstilla nokkra nauðsynlega íhluti. <!--Verify this-->
 
 ## <a name="setting-up-the-user-account-for-the-integration"></a>Uppsetning notandareiknings fyrir samþættinguna
-Þú verður að búa til þar til gerðan notandareikning í Office 365-áskriftinni þinni sem bæði [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] geta notað til að samstilla gögn. Þessi notandareikningur verður að geta skráð sig inn á [!INCLUDE[crm_md](includes/crm_md.md)], sem þýðir að þessi notandi verður að hafa leyfi fyrir [!INCLUDE[crm_md](includes/crm_md.md)] og að minnsta kosti einu öryggishlutverki úthlutað í [!INCLUDE[crm_md](includes/crm_md.md)] eins og er útskýrt [hér](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). Frekari upplýsingar um hvernig á að stofna notendur í [!INCLUDE[crm_md](includes/crm_md.md)] er að finna í [Stjórna öryggi, notendum og hópum](https://go.microsoft.com/fwlink/?LinkID=616518). Eftir að tengingin hefur verið sett upp mun [!INCLUDE[d365fin](includes/d365fin_md.md)] úthluta notandareikningi öryggishlutverki sem hann þarf í [!INCLUDE[d365fin](includes/d365fin_md.md)] og hægt er að stilla þennan reikning á [ógagnvirka aðgangsstillingu](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) í [!INCLUDE[crm_md](includes/crm_md.md)]
+Þú verður að búa til þar til gerðan notandareikning í Office 365-áskriftinni þinni sem bæði [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] geta notað til að samstilla gögn. Þessi notandareikningur verður að geta skráð sig inn á [!INCLUDE[d365fin](includes/cds_long_md.md)], sem þýðir að þessi notandi verður að hafa leyfi fyrir [!INCLUDE[d365fin](includes/cds_long_md.md)] og að minnsta kosti einu öryggishlutverki úthlutað í [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--not sure that this applies as described [here](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). For more information about how to create users in [!INCLUDE[d365fin](includes/cds_long_md.md)], see [Manage security, users, and teams](https://go.microsoft.com/fwlink/?LinkID=616518). --> Eftir að tengingin hefur verið sett upp mun [!INCLUDE[d365fin](includes/d365fin_md.md)] úthluta notandareikningi öryggishlutverki sem hann þarf í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-![Uppsetningarleiðbeiningar með hjálp sem sýnir stað til að færa inn samstilltar innskráningarupplýsingar](media/sync-user-setup.png "Uppsetningarleiðbeiningar með hjálp sem sýnir stað til að færa inn samstilltar innskráningarupplýsingar")
+<!--![Assisted setup guide showing place to enter synchronization user credentials](media/sync-user-setup.png "Visualization assisted setup wizard page showing place to enter synchronization user credentials")-->
 
 > [!IMPORTANT]  
-> Ekki nota stjórnandareikning fyrir [!INCLUDE[crm_md](includes/crm_md.md)] fyrir samstillingu. Það mun eyðileggja samstillinguna.
-> Einnig, til að forðast stöðuga samstillingu, er breytingum á gögnum sem notandareikningur samþættingar gerir ekki samstilltar. <!--What changes would this account make?--> Eftir að tenging er gerð, er mælt með því að setja aðgangsstillinguna fyrir notandareikninginn fyrir samþættingu á ógagnvirka stillingu í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Stofna ógagnvirkan notandareikning](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+> Ekki nota stjórnandareikning fyrir [!INCLUDE[d365fin](includes/cds_long_md.md)] fyrir samstillingu. Það mun eyðileggja samstillinguna.
 
-## <a name="setting-up-accounts-for-salespeople"></a>Uppsetning reikninga fyrir sölumenn
-Stofna verður notendareikninga í [!INCLUDE[crm_md](includes/crm_md.md)] fyrir sölufólk úr [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til að auðvelda þetta býður stjórnendamiðstöð Microsoft 365 Excel sniðmát sem þú getur notað. Á síðunni **Virkir notendur** skal velja **Fleiri** og síðan **Flytja inn marga notendur**. Veldu **Niðurhala CSV-skrá með eingöngu hausum** og síðan færa inn upplýsingarnar fyrir sölufólkið. Til að sjá dæmi skal velja **Niðurhala CSV-skrá með eingöngu hausum og dæmi um notandaupplýsingar**. Eftir að upplýsingar um notendur hafa verð færðar inn er næsta skrefið í innflutningsferlinu að úthluta notendum leyfum að Dynamics 365 Customer Engagement-áskriftinni.  
+## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>Heimildir og öryggishlutverk fyrir notandareikninga í [!INCLUDE[d365fin](includes/cds_long_md.md)]
+Þegar CDS-grunnsamþættingarlausn er sett upp eru heimildir fyrir notandareikning samþættingar grunnstilltar. Ef þessum heimildum er breytt þarf mögulega að endurstilla þær. Hægt er að gera það með því að setja CDS-grunnsamþættingarlausnina upp aftur með því að velja **Endurvirkja samþættingarlausn** á síðunni **Common Data Service Uppsetning tengingar**. Öryggishlutverk fyrir CDS-samþættingu Business Central er virkjað.
 
-Eftir að notendur hafa verið fluttir inn og þeim úthlutað leyfum fyrir Dynamics 365 Customer Engagement, verður að úthluta notendum hlutverkinu **Sölumaður** í [!INCLUDE[crm_md](includes/crm_md.md)].
 
-![Að tengja sölumenn við notendur í Dynamics 365 Sales](media/couple-salespeople.png "Myndræn framsetning á tengingu sölumanna við notendur í Dynamics 365 Sales")
+<!--
+The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
-## <a name="minimum-permissions-for-user-accounts-in-includecrm_mdincludescrm_mdmd"></a>Lágmarksheimildir fyrir notendareikninga í [!INCLUDE[crm_md](includes/crm_md.md)]
-Þegar heimildir samþættingarlausnar eru settar upp eru heimildir fyrir notandareikning samþættingar grunnstilltar í [!INCLUDE[crm_md](includes/crm_md.md)]. Ef þessum heimildum er breytt þarf mögulega að endurstilla þær. Hægt er að gera það með því að setja samþættingarlausnina upp aftur eða endurstilla þær handvirkt. Eftirfarandi töflur sýna lágmarksheimildir fyrir notendareikningana í [!INCLUDE[crm_md](includes/crm_md.md)].
+### Minimum Permissions for the Administrator
+The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
 
-### <a name="integration-administrator"></a>Samþættingarstjórnandi
-Eftirfarandi tafla sýnir lágmarksheimildir í hverjum flipa fyrir hvert öryggishlutverk sem stjórnandi þarf að hafa.
-
-##### <a name="customization"></a>Sérsnið
-|Öryggishlutverk|Aðgangsstig|Dynamics NAV 2018 og eldri|Business Central <br> Október 2018|Business Central <br> Apríl 2019|
+##### Customization
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Líkanadrifið forrit|Altæk|||Lesa|
-|Samsetning viðbótar|Altæk|Lesa|Lesa|Lesa|
-|Gerð viðbótar|Altæk|Lesa|Lesa|Lesa|
-|Tengsl|Altæk|||Lesa|
-|SDK-skilaboð|Altæk|Lesa|Lesa|Lesa|
-|Skref SDK-skilaboðavinnslu|Altæk|Lesa|Lesa|Lesa|
-|Mynd af skrefi SDK-skilaboðavinnslu|Altæk|Lesa|Lesa|Lesa|
-|Kerfi frá|Altæk|||Skrifa|
+|Model Driven App|Global|||Read|
+|Plugin Assembly|Global|Read|Read|Read|
+|Plugin Type|Global|Read|Read|Read|
+|Relationship|Global|||Read|
+|SDK Message|Global|Read|Read|Read|
+|SDK Message Proessing Step|Global|Read|Read|Read|
+|SDK Message Proessing Step Image|Global|Read|Read|Read|
+|System From|Global|||Write|
 
-##### <a name="custom-entities"></a>Sérsniðnar einingar
-|Öryggishlutverk|Aðgangsstig|Dynamics NAV 2018 og eldri|Business Central <br> Október 2018|Business Central <br> Apríl 2019|
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2020|
 |----|----|-----|----|----|
-|Talnagögn reiknings fyrir Business Central|Altæk|Lesa|Lesa|Lesa|
-|Business Central-tenging|Altæk|Búa til, lesa, skrifa, eyða|Búa til, lesa, skrifa, eyða|Búa til, lesa, skrifa, eyða|
-|Bókunarskilgreining|Altæk|||Skrifa|
+|Business Central Account Statistics|Global|Read|Read|Read|
+|Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
+|Post Configuration|Global|||Write|
 
-#### <a name="integration-user"></a>Samþættingarnotandi
-Eftirfarandi tafla sýnir lágmarksheimildir í hverjum flipa fyrir hvert öryggishlutverk sem notandi samþættingar þarf að vera með.
+#### Integration User
+The following table displays the minimum permissions on each tab for each security role that is required for the integration user.
 
-##### <a name="core-records"></a>Grunnfærslur
-|Öryggishlutverk|Aðgangsstig|Dynamics NAV 2018 og eldri|Business Central <br> Október 2018|Business Central <br> Apríl 2019|
+##### Core Records
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Reikningur|Altæk|Búa til, lesa, skrifa, skeyta, skeyta við, úthluta|Búa til, lesa, skrifa, skeyta, skeyta við, úthluta|Búa til, lesa, skrifa, skeyta, skeyta við, úthluta|
-|Aðgerðarspjald|Altæk||Lesa|Lesa|
-|Tenging|Altæk|Lesa|Lesa|Lesa|
-|Tengiliður|Altæk|Búa til, lesa, skrifa, skeyta, skeyta við|Búa til, lesa, skrifa, skeyta, skeyta við|Búa til, lesa, skrifa, skeyta, skeyta við|
-|Athugasemd|Altæk|||Búa til, lesa, skrifa, eyða viðbót, úthluta|
-|Tækifæri|Altæk||Búa til, lesa, skrifa, skeyta, skeyta við|Búa til, lesa, skrifa, skeyta, skeyta við|
-|Færsla|Altæk|||Búa til, lesa, skeyta við|
-|Viðmótseining notanda|Notandi|Búa til, lesa, skrifa|Búa til, lesa, skrifa|Búa til, lesa, skrifa|
+|Account|Global|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|
+|Action Card|Global||Read|Read|
+|Connection|Global|Read|Read|Read|
+|Contact|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Note|Global|||Create, Read, Write, Delete Append, Assign|
+|Opportunity|Global||Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Post|Global|||Create, Read, Append To|
+|User Entity UI|User|Create, Read, Write|Create, Read, Write|Create, Read, Write|
 
-##### <a name="sales"></a>Sölur
-|Öryggishlutverk|Aðgangsstig|Dynamics NAV 2018 og eldri|Business Central <br> Október 2018|Business Central <br> Apríl 2019|
+##### Sales
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Reikningsfæra|Altæk|Búa til, lesa, skrifa, skeyta, skeyta við|Búa til, lesa, skrifa, skeyta, skeyta við|Búa til, lesa, skrifa, skeyta, skeyta við|
-|Röð|Altæk|Lesa, skrifa, skeyta við|Lesa, skrifa, skeyta við|Lesa, skrifa, skeyta, skeyta við, úthluta|
-|Vara|Altæk|Búa til, lesa, skrifa, skeyta, skeyta við|Búa til, lesa, skrifa, skeyta, skeyta við|Búa til, lesa, skrifa, skeyta, skeyta við|
-|Eiginleiki|Altæk|Lesa|Lesa|Lesa|
-|Tengsl eiginleika|Altæk|Lesa|Lesa|Lesa|
-|Stillingaratriði fyrir valkost eiginleika|Altæk|Lesa|Lesa|Lesa|
-|Tilboð|Altæk|Lesa|Lesa|Lesa|
+|Invoice|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Order|Global|Read, Write, Append To|Read, Write, Append To|Read, Write, Append, Append To, Assign|
+|Product|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Property|Global|Read|Read|Read|
+|Property Association|Global|Read|Read|Read|
+|Property Option Set Item|Global|Read|Read|Read|
+|Quote|Global|Read|Read|Read|
 
-##### <a name="service"></a>Þjónusta
-|Öryggishlutverk|Aðgangsstig|Dynamics NAV 2018 og eldri|Business Central <br> Október 2018|Business Central <br> Apríl 2019|
+##### Service
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Kassi|Altæk|Lesa|Lesa|Lesa|
+|Case|Global|Read|Read|Read|
 
-##### <a name="business-management"></a>Viðskiptastjórnun
-|Öryggishlutverk|Aðgangsstig|Dynamics NAV 2018 og eldri|Business Central <br> Október 2018|Business Central <br> Apríl 2019|
+##### Business Management
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Gjaldmiðill|Altæk|Búa til, lesa, skrifa|Búa til, lesa, skrifa|Búa til, lesa, skrifa|
-|Fyrirtæki|Altæk|Lesa, skrifa|Lesa, skrifa|Lesa, skrifa|
-|Öryggishlutverk|Altæk|||Lesa|
-|Notandi|Altæk|Búa til, lesa, skrifa, skeyta, skeyta við|Búa til, lesa, skrifa, skeyta, skeyta við|Búa til, lesa, skrifa, skeyta, skeyta við|
-|Notandastillingar|Altæk|Búa til, lesa, skrifa, eyða, skeyta við|Búa til, lesa, skrifa, eyða, skeyta við|Búa til, lesa, skrifa, eyða, skeyta við|
-|Koma fram fyrir hönd annars notanda|Altæk|Já|Já|Já|
+|Currency|Global|Create, Read, Write|Create, Read, Write|Create, Read, Write|
+|Organization|Global|Read, Write|Read, Write|Read, Write|
+|Security Role|Global|||Read|
+|User|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|User Settings|Global|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|
+|Act on Behalf of Another User|Global|Yes|Yes|Yes|
 
-##### <a name="customization"></a>Sérsnið
-|Öryggishlutverk|Aðgangsstig|Dynamics NAV 2018 og eldri|Business Central <br> Október 2018|Business Central <br> Apríl 2019|
+##### Customization
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Svæði|Altæk||Lesa|Lesa|
-|Samsetning viðbótar|Altæk|Lesa|Lesa|Lesa|
-|Gerð viðbótar|Altæk|Lesa|Lesa|Lesa|
-|SDK-skilaboð|Altæk|Lesa|Lesa|Lesa|
-|Skref SDK-skilaboðavinnslu|Altæk|Lesa|Lesa|Lesa|
-|Veftilföng|Altæk|Lesa|Lesa|Lesa|
+|Field|Global||Read|Read|
+|Plug-in Assembly|Global|Read|Read|Read|
+|Plug-in Type|Global|Read|Read|Read|
+|SDK Message|Global|Read|Read|Read|
+|SDK Message Processing Step|Global|Read|Read|Read|
+|Web Resource|Global|Read|Read|Read|
 
-##### <a name="custom-entities"></a>Sérsniðnar einingar
-|Öryggishlutverk|Aðgangsstig|Dynamics NAV 2018 og eldri|Business Central <br> Október 2018|Business Central <br> Apríl 2019|
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Talnagögn reiknings fyrir Dynamics 365 Business Central|Altæk|Búa til, lesa, skrifa, skeyta við|Búa til, lesa, skrifa, skeyta við|Búa til, lesa, skrifa, skeyta við|
-|Dynamics 365 Business Central-Tenging|Altæk|Lesa|Lesa|Lesa|
+|Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
+|Dynamics 365 Business Central Connection|Global|Read|Read|Read|
 
-### <a name="product-availability-user"></a>Notandi afurðaframboðs
-Hægt er að leyfa sölufólki að skoða birgðastöðu fyrir vörurnar sem það selur með því að veita þeim heimildir sem eru útskýrðar í eftirfarandi töflu.
+### Product Availability User
+You can allow sales people to view inventory levels for the items they sell by granting them the permissions described in the following table.
 
-##### <a name="custom-entities"></a>Sérsniðnar einingar
-|Öryggishlutverk|Aðgangsstig|Dynamics NAV 2018 og eldri|Business Central <br> Október 2018|Business Central <br> Apríl 2019|
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Talnagögn reiknings fyrir Dynamics 365 Business Central|Altæk|Búa til, lesa, skrifa, skeyta við|Búa til, lesa, skrifa, skeyta við|Búa til, lesa, skrifa, skeyta við|
-|Dynamics 365 Business Central-Tenging|Altæk|Lesa|Lesa|Lesa|
+|Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
+|Dynamics 365 Business Central Connection|Global|Read|Read|Read|
+
+-->
 
 ## <a name="see-also"></a>Sjá einnig  
+[Samþætting við Common Data Service](admin-common-data-service.md)  
 [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ded3c6ba3fe0b2632597ffe717141aa41a2c42cf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e3e879a2f768e8260693d160c419b006159ed46
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315973"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192484"
 ---
 # <a name="planning-services"></a>Áætla þjónustu
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að setja upp staðlaða verkhluta sem þarf til að uppfylla þjónustuþarfir fyrirtækisins. Til að gera þetta, verður að ákveða hvaða þjónustuvöru og tilboð þjónustufyrirtæki þitt styður og fyrir hvaða verð.   
@@ -30,7 +30,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |------------|-------------|  
 |Ákvarða verðlagningu fyrir þjónustuna sem þú veitir.|[Stjórna þjónustuverðlagningu](service-service-price-management.md)|
 |Setja upp og sérstilla þjónustuvörur og þjónustuhópa. Í þessu felst að ákveða hvaða hæfni hentar hvaða þjónustu og leiðbeiningar við úrræðaleit.| [Stofna þjónustuatriði](service-how-to-create-service-items.md)|  
-|Vita hvernig skal stjórna stöðu viðgerða á þjónustupöntunum og hvernig skal tilgreina forgang þeirra.|[Skilja þjónustupöntun og viðgerðarstöðu](service-service-order-status-and-repair-status.md).|  
+|Vita hvernig skal stjórna stöðu viðgerða á þjónustupöntunum og hvernig skal tilgreina forgang þeirra.|[Skilja þjónustupöntun og viðgerðarstöðu](service-service-order-status-and-repair-status.md)|  
 |Skilja sambandið á milli stöðu viðgerða og áhrifanna sem þau hafa á úthlutaðan forða og öfugt.|[Skilja úthlutunarstaða og viðgerðarstaða](service-allocation-status-and-repair-status.md)|  
 |Nota tölfræðiupplýsingar til að greina þjónustuferli. | [Þjónustuupplýsingar skoðaðar](service-service-statistics.md) |
 

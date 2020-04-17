@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6089a51a0ef27175988ed0c00fdb353cd3c7e96c
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: ca384d58046bd0c798038878a3ed93f5a00eeec5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692945"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189844"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Envestnet Yodlee Bank Feeds Viðbótin
 Til að stemma af á skjótan hátt greiðslur gerðar inn á bankareikninga þína, þá leyfir Envestnet Yodlee Bank Feeds þjónustan þér að tengja bankareikning kerfis þíns við netbankareikninginn þinn. Þetta þýðir að síðustu bankayfirlitinu er sjálfkrafa eða handvirkt streymt inn í afstemmingarbók þína, og tryggir að þú ert alltaf að vinna úr síðustu greiðslunum með lágmarks hættu á villum.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 82c953ce7f32ae5304c8282f5caf8081f9e40a88
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1fae944598a988c739978f69bace612c57de0ef6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879514"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182925"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Tilkynna kostnað og afstemma við fjárhag
 Við lok mánaðarlegra, árlegra eða annarra bókhaldstímabila þarf að framkvæma röð kostnaðarstjórnunar- og endurskoðunarverkhluta til að tilkynna rétt og jafnað birgðavirði til fjármáladeildarinnar. Fyrir utan bókunarferlið sem færir einstakar vöruvirðisfærslur í sérstaka fjárhagsreikninga eru tiltækar margar skýrslur, rakningaraðgerðir og sérstakt afstemmingarverkfæri fyrir endurskoðandann eða stjórnandann sem ber ábyrgð á þessu mikilvæga verki.  

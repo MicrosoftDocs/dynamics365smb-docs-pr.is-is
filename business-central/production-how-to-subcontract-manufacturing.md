@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e3d72eecf3f0d4e92b0255dffdece8dcb795cf96
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553795"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191452"
 ---
 # <a name="subcontract-manufacturing"></a>Úthýsa framleiðslu til undirverktaka
 Úthýsing á völdum aðgerðum til lánardrottna er algeng í mörgum framleiðslufyrirtækjum. Undirverktakastarfsemi getur verið sjaldgæf hending eða mikill þáttur í öllum framleiðsluferlum.
@@ -52,7 +52,7 @@ Síðan **Vinnublað undirverktakasamninga** virkar eins og **Áætlunarvinnubla
 >  Aðeins er hægt að fá aðgang að og nota framleiðslupantanir sem hafa stöðuna **Útgefin** á vinnublaði undirverktaka.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Útreikningur Vinnublaðs undirverktakasamnings  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vinnublað undirverktakasamninga** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað undirverktakasamnings** og veldu síðan tengda tengilinn.  
 2.  Til að reikna út vinnublaðið er smellt á aðgerðina **Útreikningur verktakasamninga**.  
 3.  Á síðunni **Reikna út undirverktaka** er hægt að stilla afmarkanir fyrir aðgerðir undirverktaka eða vinnustöðvar þar sem þær eru framkvæmdar til að reikna aðeins viðeigandi framleiðslupantanir.  
 4.  Velja hnappinn **Í lagi**.  
@@ -60,7 +60,7 @@ Síðan **Vinnublað undirverktakasamninga** virkar eins og **Áætlunarvinnubla
     Fara yfir línurnar á síðunni **Vinnublað undirverktakasamninga**. Upplýsingarnar á þessu vinnublaði koma frá framleiðslupöntuninni og leiðarlínum framleiðslupöntunarinnar og flæðir til innkaupapöntunarinnar þegar það skjal er búið til. Hægt er að eyða röð úr vinnublaðinu án þess að hafa áhrif á upphaflegu upplýsingarinnar, líkt og gert er við önnur vinnublöð. Upplýsingarnar birtast aftur í næsta skipti sem aðgerðin **Reikna undirverktakasamninga** er keyrð.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Að búa til Framleiðslupöntun undirverktakans  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vinnublað undirverktakasamninga** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað undirverktakasamnings** og veldu síðan tengda tengilinn.  
 2.  Veljið aðgerðina **Framkvæma aðgerðaboð**.  
 3.  Hakað er í reitinn **Prenta pantanir** til að prenta innkaupapöntunina þegar hún er stofnuð.  
 4.  Velja hnappinn **Í lagi**.  

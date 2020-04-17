@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 973c248473f2f2eebc10e095f619b51e48de7886
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c9f76990f9f6a314de6ac18352b5353773bb8fe0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880113"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184941"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Hönnunarupplýsingar: vöruhúsaflæði á innleið
 Flæði á útleið í vöruhúsinu hefst með beiðni úr losuðum upprunaskjölum um að flytja vöruna af staðsetningu vörushússins, annað hvort til að flytja hana til þriðja aðila eða á aðra staðsetningu fyrirtækisins. Úr geymslusvæðinu eru vöruhúsaaðgerðir framkvæmdar á mismunandi flækjustigi til að koma vörunum af afhendingarsvæðinu.  

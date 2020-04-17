@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/17/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: b0b3179e8931dbf4c647a7bf66ed1b9de45589ce
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991929"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193588"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Vinna söluskil eða afturkallanir
 Ef viðskiptavinur vill skila eða endurgreiða fyrir vörur eða þjónustu sem þú hefur selt og fengið greiðslu fyrir verður þú að búa til og senda inn söluskuldbindingar sem tilgreinir umbeðnar breytingar. Til að taka réttar sölureikningsupplýsingar með, er hægt að stofna sölukreditreikning beint úr bókaða sölureikningnum eða þú getur stofnað nýja sölukreditreikning með afrituðum reikningsupplýsingum.
@@ -44,7 +44,7 @@ Til er tvenns konar virkni, til að úthluta bakfærslu nákvæms kostnaðar sj�
 |Virkni|Description|  
 |------------------|---------------------------------------|  
 |**Sækja bókaðar fylgiskjalalínur til að bakfæra** aðgerð á síðunni **Söluvöruskilapöntun**|Afritar línur úr einu eða fleiri bókuðum fylgiskjölum sem á að bakfæra til söluvöruskilapöntun. Frekari upplýsingar er að finna í [Að stofna vöruskilapöntun byggða á einu eða fleiri bókuðu söluskjali](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
-|**Afrita skjal** aðgerð í **Sölukreditreikningur** og á síðunni **Söluvöruskilapöntun**|Afritar bæði haus og línur af einu bókuðu fylgiskjali sem á að bakfæra.<br /><br /> Krefst þess að **Nákvæm bakfærsla kostnaðar** gátreitur sé valinn á síðunni **Uppsetning fyrir Sölu & Viðskiptaskuldir**.|
+|**Afrita úr skjali** aðgerð á síðunum **Sölukreditreikningur** og **Söluvöruskilapöntun**|Afritar bæði haus og línur af einu bókuðu fylgiskjali sem á að bakfæra.<br /><br /> Krefst þess að **Nákvæm bakfærsla kostnaðar** gátreitur sé valinn á síðunni **Uppsetning fyrir Sölu & Viðskiptaskuldir**.|
 
 Til að úthluta nákvæmri bakfærslu kostnaðar, skal velja reitinn **Jafna frá birgðafærslu** á einhverja gerð skilaskjalslínu, og velja síðan númer upphaflega sölufærslunnar. Það tengir sölukreditreikninginn eða söluvöruskilapöntunina við upphaflega sölufærslu og tryggir að varan er metin út frá upphaflegu einingarverði.
 
@@ -76,7 +76,7 @@ Bókuðu söluskjölin sem jafnað var við kreditreikninginn eru nú bakfærði
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölukreditreikningar** og veldu síðan tengda tengilinn.
 2. Veljið aðgerðina **Nýtt** til að opna nýjan auðan sölukreditreikning.
 3. Í reitnum **Viðskiptamaður** er fært inn nafn núverandi viðskiptamanns.
-4. Valið er **Afrita fylgiskjal** aðgerð.
+4. Aðgerðin **Afrita úr fylgiskjali** er valin.
 5. Á síðunni **Afrita söluskjal** í reitnum **Gerð skjals** skal velja **Bókaður reikningur**.
 6. Velja reitinn **Númer fylgiskjals** til að opna síðuna **Bókaðar sölureikningar** og síðan velja bókaða sölureikninginn sem inniheldur línur sem á að bakfæra.
 7. Veljið gátreitinn **Endurreikna línur**, ef bókaða sölureikningslínan sem var afrituð á að uppfærast með breytingum á vöruverði og kostnaðarverði síðan reikningurinn var bókaður.
@@ -90,7 +90,7 @@ Bókuðu söluskjölin sem jafnað var við kreditreikninginn eru nú bakfærði
 4. Á flýtiflipanum **Línur** skal fylla þessar línur út handvirkt, eða afrita upplýsingar úr öðrum fylgiskjölum til að fylla út línurnar sjálfvirkt:
 
     - Hægt er að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** til að afrita eina eða fleiri bókaðar fylgiskjalalínur frá einu eða fleiri bókuðum fylgiskjölum. Þessi aðgerð bakfærir alltaf nákvæmlega kostnaðinn úr bókuðu fylgiskjalslínunni. Þessu aðgerð er lýst í eftirfarandi skrefum.    
-    - Nota aðgerðina **Afrita skjal** til að afrita fyrirliggjandi fylgiskjal í vöruskilapöntun. Þessi aðgerð er notuð til að afrita allt fylgiskjalið. Það er annað hvort bókað fylgiskjal eða fylgiskjal sem hefur ekki enn verið bókað. Þessi aðgerð gerir aðeins kleift að bakfæra kostnað á nákvæman hátt þegar **Nákvæm bakfærsla kostnaða áskilin** gátreiturinn er valinn á síðunni **Uppsetning fyrir Sölu & Útistandandi**.  
+    - Nota aðgerðina **Afrita úr skjali** til að afrita fyrirliggjandi fylgiskjal í vöruskilapöntun. Þessi aðgerð er notuð til að afrita allt fylgiskjalið. Það er annað hvort bókað fylgiskjal eða fylgiskjal sem hefur ekki enn verið bókað. Þessi aðgerð gerir aðeins kleift að bakfæra kostnað á nákvæman hátt þegar **Nákvæm bakfærsla kostnaða áskilin** gátreiturinn er valinn á síðunni **Uppsetning fyrir Sölu & Útistandandi**.  
 
 5. Velja aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra**.
 6. Efst á síðunni **Bókaðar línur söluskjals** er valið gátmerki **Sýna eingöngu bakfæranlegar línur** ef eingöngu á að birta línur sem eru með magn sem enn hefur ekki verið skilað. Til dæmis ef bókað magn sölureiknings hefur verið skilað kann ekki að vera æskilegt að skila magninu í nýtt fylgiskjal söluvöruskila.

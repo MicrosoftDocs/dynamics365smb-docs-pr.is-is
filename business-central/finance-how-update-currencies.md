@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: be39f8a56dc95ed48e339e89513a103d044faa08
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 252636417dab633b8b95a15f206d1be82fc78a32
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952675"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183189"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppfæra gengi
 Þar sem fyrirtæki starfa að auknum mæli í fleiri löndum/svæðum verður æ mikilvægara fyrir þau að geta átt viðskipti og skráð fjárhag sinn í fleiri en einum gjaldmiðli. Setja þarf upp kóða fyrir hvern gjaldmiðil sem notaður er ef keypt er eða selt í öðrum gjaldmiðlum en staðbundinn gjaldmiðill, ef eitthvað er útistandandi eða gjaldfallið í öðrum gjaldmiðlum, eða ef fjárhagsfærslur eru skráðar í mismunandi gjaldmiðlum.
@@ -47,7 +47,7 @@ Leiðréttingarfærslunum er úthlutað sjálfgefnu víddunum í reikningunum se
 > [!Important]
 > Áður en hægt er að nota keyrsluna verður að færa inn gengið sem á að nota til þess að leiðrétta gengismun gjaldeyrisins. Þetta er gert á síðunni **Gengi gjaldmiðla**.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Setja upp þjónustu um gengi gjaldmiðils
 Þú getur notað ytri þjónustu til að halda gjaldeyrisviðskiptum þínum uppfærðum, t.d. FloatRates.
@@ -63,7 +63,7 @@ Leiðréttingarfærslunum er úthlutað sjálfgefnu víddunum í reikningunum se
 
 Gildið í **Gengi** reitnum á síðunni **Gjaldmiðlar** er uppfært með nýjustu gengi gjaldmiðilsins.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)  

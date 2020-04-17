@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 62fc3227c02656713afa1f890f7ea8acbce524be
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 23759b874f7a92bf9ff91cd0822ac8f9bb716ab1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952771"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183525"
 ---
 # <a name="set-up-and-report-intrastat"></a>Setja upp og skrá Intrastat
 Öll fyrirtæki í löndum innan Evrópusambandsins þurfa að gefa öðrum löndum/svæðum innan sambandsins skýrslur um viðskipti sín. Einnig þarf að gefa hagstofu viðkomandi lands/svæðis mánaðarlega skýrslu um hreyfingu vöru og skýrsluna þarf að afhenda skattayfirvöldum. Í kerfinu er þetta kallað Intrastat-skýrslur. **Intrastatbók** er notuð til að vinna reglulegar Intrastat-skýrslur.  
@@ -121,7 +121,7 @@ Hægt er að senda Intrastat-skýrsluna sem skrá. Áður en skráin er búin ti
 2. Í glugganum  er reiturinn **Heiti keyrslu** valinn til að sjá valkosti.  
 3. Veldu bókarkeyrslurnar sem á að eyða og svo hnappinn **Eyða**.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármálastjórnun](finance.md)

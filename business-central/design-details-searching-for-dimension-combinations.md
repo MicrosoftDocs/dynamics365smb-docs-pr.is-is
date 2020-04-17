@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e118ad07537cdaa0d6ed526ab8e91461cd430f08
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3fe943fd3c2925f1c80107e23b389cd09958a47b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303005"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184701"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Hönnunarupplýsingar Leitað að víddarsamsetningum
 Þegar þú lokar síðu eftir að hafa breytt víddasamstæðu metur [!INCLUDE[d365fin](includes/d365fin_md.md)] hvort þessi breytta víddasamstæða sé til. Ef samstæðan er ekki til er ný samstæða búin til og víddarsamsetningarkenninu er skilað.  
@@ -26,7 +26,7 @@ ms.locfileid: "2303005"
 ### <a name="example-1"></a>Dæmi 1  
  Eftirfarandi skýringarmynd leitartré með sex víddasamstæðum. Aðeins eru einkennandi víddasamstæðufærslur sýndar á myndinni.  
 
- ![Dæmi um trjáskipulag víddar](media/nav2013_dimension_tree.png "Dæmi um trjáskipulag víddar")  
+ ![Dæmi um víddartrjáskipulag](media/nav2013_dimension_tree.png "Dæmi um trjáskipulag víddar")  
 
  Eftirfarandi tafla lýsir a fullgerðum lista víddasamstæðufærsla sem mynda hverja víddasamstæðu.  
 
@@ -45,7 +45,7 @@ ms.locfileid: "2303005"
 
  Fyrst mun [!INCLUDE[d365fin](includes/d365fin_md.md)] einnig uppfæra töfluna **Trjáhnútur víddasamstæðu** til að tryggja að leitartréð líti eins út og eftirfarandi teikning. Því verður víddasamstæða 7 undireining víddasamstæðu 5.  
 
- ![Dæmi um trjáskipulag víddar í NAV 2013](media/nav2013_dimension_tree_example2.png "Dæmi um trjáskipulag víddar í NAV 2013")  
+ ![Dæmi um  trjáskipulag víddar í NAV 2013](media/nav2013_dimension_tree_example2.png "Dæmi um  trjáskipulag víddar í NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Finna auðkenni víddasamstæðu  
  Á hugmyndastigi eru **Yfireining**, **Vídd og** **Víddargildi** í leitartrénu sameinuð og notuð sem aðallykill vegna þess að [!INCLUDE[d365fin](includes/d365fin_md.md)] fer yfir tréð á sama hátt og víddarfærslurnar. GET-eiginleikinn (skrá) er notaður til að leita að auðkenni víddasamstæðu. Eftirfarandi kóðadæmi sýnir hvernig á að finna auðkenni víddasamstæðu þegar það eru víddagildi eru þrjú.  

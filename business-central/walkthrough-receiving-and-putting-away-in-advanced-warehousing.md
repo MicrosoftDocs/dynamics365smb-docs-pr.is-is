@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 4027fd2d7ce3e514aa451279c8800453ba62711b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553893"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195652"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Kynning: Móttaka og Frágangur í ítarlegri grunngerð vöruhúss
 
@@ -58,7 +58,7 @@ Til að ljúka þessari kynningu þarf:
 -   CRONUS International Ltd. er uppsett.  
 -   Notandi verður að starfsmanni vöruhúss í hvítri birgðageymslu á eftirfarandi hátt:  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsfólk vöruhúss** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsastarfsmenn** og veldu síðan tengda tengilinn.  
 2.  Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur**.  
 3.  Í reitnum **Birgðageymslu kóti** færið inn HVÍTT.  
 4.  Veljið reitinn **Sjálfgefið**.  
@@ -86,7 +86,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 
 ### <a name="to-create-the-purchase-orders"></a>Innkaupapantanir stofnaðar  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Stofna innkaupapöntun fyrir lánardrottinn 10000 á vinnudeginum (23. Janúar) með eftirfarandi innkaupapöntunarlínum.  
 
@@ -117,7 +117,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 Á síðunni **Vöruhús móttaka** er hægt að meðhöndla margar pantanir á innleið fyrir upprunaskjöl, til dæmis innkaupapantanir.  
 
 ### <a name="to-receive-the-items"></a>Vörurnar mótteknar  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vöruhúsamóttaka** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsamóttökur** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
 3.  Í reitnum **Birgðageymslu kóti** færið inn HVÍTT.  
 4.  Velja skal **Nota afmarkanir til að sækja uppr.skjöl.** aðgerðina.  
@@ -135,7 +135,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 Á síðunni **Frágangur vöruhúss** er hægt að vinna með frágang fyrir tiltekið vöruhúsamóttökuskjal sem nær til margra upprunaskjala. Eins og í öllum vöruhúsaaðgerðaskjölum eru Taka- og Setja-línur fyrir hverja vöru í frágangi vöruhúss. Í eftirfarandi aðgerð er hólfkótinn í Taka-línunum sjálfgefna móttökuhólfið í HVÍTU staðsetningunni W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Til að ganga frá vörunum  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **frágangur** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Frágangur** og veldu síðan tengda tengilinn.  
 2.  Veldu eina frágangsskjal vöruhúss á listanum og veldu svo aðgerðina **Breyta**.  
 
     Vöruhúsafrágangsskjölin opnast með átta Taka- eða Setja-línum fyrir innkaupapöntunarlínurnar fjórar.

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 10/01/2019
-ms.openlocfilehash: 8d25dc4c27be6069782ff30e785f884ee406d2e4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 04/01/2020
+ms.openlocfilehash: 9cf4817cd85951f193ffadbcd3e7ebc971bcca36
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553943"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181581"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Nota spurningalista forstillingar til að flokka viðskiptatengiliði
 Hægt er að setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn. Innan hvers spurningalista er hægt að setja upp þær mismunandi spurningar sem spyrja á tengiliðina.  

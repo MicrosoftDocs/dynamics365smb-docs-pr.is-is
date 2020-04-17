@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 01decbd2ab4f3ed664c62e29d8bed6655758b315
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7285bf6984cc4f245282dcc129e66f097e11c5f2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316811"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189412"
 ---
 # <a name="save-and-personalize-list-views"></a>Vista og sérsníða listayfirlit
 Þegar búið er að setja afmörkun á lista og ætlunin er að geyma síuna síðar er hægt að vista hana sem yfirlit. Frekari upplýsingar um síulista er að finna í [Síur stilltar á lista](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -24,9 +24,9 @@ Ef Yfirlit er til staðar, birtist flokkurinn **Yfirlit** efst í síuglugganum.
 
 ## <a name="to-save-a-view"></a>Til að vista yfirlit
 1. Opnaðu hvaða listasíðu sem er.
-2. Til að byrja síun skal velja ![Tákn fyrir afmörkunarsvæðið](media/open-filter-pane-icon.png "Tákn fyrir afmörkunarsvæðið") efst í listanum eða ýta á Shift+F3 til að opna afmörkunarsvæðið.
+2. Veldu ![Tákn fyrir afmörkunarsvæði](media/open-filter-pane-icon.png "Afmörkunarsvæðistákn") efst á listanum eða ýttu á Shift+F3 til að opna afmörkunarsvæðið.
 3. Veldu eina eða fleiri nýjar síur. Nánari upplýsingar eru í [Síur stilltar á lista](ui-enter-criteria-filters.md#setting-filters-on-lists).
-4. Þegar búið er að stilla síurnar skal velja ![Vista yfirlit](media/save_view_icon.png "Vista yfirlit") táknið.
+4. Þegar búið er að stilla síurnar skal velja táknið ![Vista yfirlit](media/save_view_icon.png "Vista yfirlit").
 
     Ef sett er afmörkun fyrir listayfirlit sem þegar hefur verið vistað sem yfirlit verður fyrirliggjandi yfirlit uppfært við vistun.
 5. Ef verið er að vista nýtt yfirlit skal færa inn heiti fyrir yfirlitið í hólfinu **Allt (afrit)** t.d. „vörur sem ég á“.

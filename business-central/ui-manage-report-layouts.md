@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 79e3f15169f592c5e90aacfd3307794f226adeb2
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 419c6d48d7370f7bcd6dc21c21ed3bd8d3833b00
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953204"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195463"
 ---
 # <a name="managing-report-and-document-layouts"></a>Stjórna útliti skýrslna og skjala
 Útlit skýrslu stjórnar efni og sniði skýrslunnar, þ.m.t. hvaða gagnareitir gagnasafn skýrslu birtast í henni, stöðu þeirra, textastíl, myndir og meira. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að breyta því hvaða útlit er notað í skýrslu, búa til nýtt útlit eða breyta fyrirliggjandi útliti.
@@ -58,7 +58,7 @@ Ferlið til að setja upp Word-skýrsluútlit og RDLC-skýrsluútlit á skýrslu
 
 Upplýsingar um hvernig á að breyta því hvaða útlit er notað eru í [Breyta núverandi skýrsluútliti](ui-how-change-layout-currently-used-report.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppfæra sérsniðið skýrsluútlit](ui-update-report-layouts.md)  

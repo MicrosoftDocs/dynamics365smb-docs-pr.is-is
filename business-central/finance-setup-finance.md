@@ -1,8 +1,6 @@
 ---
 title: Setja upp fjármálaferli| Microsoft Docs
 description: Kynntu þér verkhlutana í því að setja upp fjármál í fyrirtækinu sem hentar öllum þínum þörfum tengdum bókhaldi, endurskoðun eða bókunum.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: fa8b324c0a63f7c00209579878b9739af8178041
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 400506fe0b39944e683fd5e65e6b710ffdb9089b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953660"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182733"
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
 Áður en þú getur byrjað að reka fyrirtækið þitt verður þú að tilgreina reglur og sjálfgefin gildi fyrir það hvernig stjórna á fjárhagsferlum fyrir fyrirtækið. Fyrsta skrefið er að setja upp kjarna bókhaldsskráningar fyrirtækisins - bókhaldslyklana. Síðan eru settir upp bókunarflokkar, sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.
@@ -36,7 +34,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Tilgreinið bókunarhópa sem kortleggja aðila eins og viðskiptavini, seljendur, atriði, auðlindir og sölu- og kaupskjöl til almennra reikninga. |[Uppsetning bókunarflokka](finance-posting-groups.md)|
 |Búðu til fjárhagsskema og skilgreindu lyklategundir til að skilgreina efni fjárhagsgrafa og skýrslna á borð við efnahagsreikning og skýrslur tekjuyfirlits.|[Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)|
 |Hægt er að setja upp vikmörk þannig að kerfið loki reikningi jafnvel þótt greiðsla, að meðteknum afslætti, nái ekki upp í fulla upphæð á reikningnum.|[Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Uppsetning fjárhagstímabila. |[Opna nýtt reikningsár](finance-how-open-new-fiscal-year.md) |
+| Uppsetning fjárhagstímabila. |[Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md) |
 | Skilgreinið hvernig VSK upphæðir, sem fengnar eru fyrir sölu, eru sendar inn til skattayfirvalda. |[Setja upp virðisaukaskatt (VSK)](finance-setup-vat.md)|
 |Undirbúa að nota óinnleystan VSK í tengslum við greiðslumátann reiðufé.|[Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé](finance-setup-unrealized-vat.md)|
 | Settu eiginleika sölu og innkaupa upp þannig að hægt sé að vinna með erlenda gjaldmiðla.|[Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -50,7 +48,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Uppsetning á Intrastat skýrslugerð, og senda inn skýrsluna til yfirvalda. | [Setja upp og skrá Intrastat](finance-how-setup-report-intrastat.md)|
 |Gakktu úr skugga um að færsla úr færslubók sé úthlutað á nokkra mismunandi reikninga þegar færslubókin er bókuð, annaðhvort magn, prósenta eða upphæð.|[Nota úthlutunarlykla í færslubókum](ui-how-use-allocation-keys-general-journals.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b6c11e58694e68918ab5f4d5bd48bd7a43beb8f1
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 74d161636d9110fcc366733245951e3044662e80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953252"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193816"
 ---
 # <a name="change-the-current-report-layout"></a>Breyta núverandi skýrsluútliti
 Skýrsla getur verið sett upp með fleiri en eitt skýrsluútliti, sem þú getur svo skipt milli eins og þörf er á.
@@ -55,7 +55,7 @@ Heiti á völdu sérsniðnu útliti er nú sýnt í reitnum **Sérstillt útlit*
 
 Nú er hægt að fara á spjöld viðskiptamanna og lánardrottna til að tilgreina hvaða útlit á að nota fyrir önnur skjöl sem eru búin til fyrir viðkomandi viðskiptamann eða lánardrottinn, eins og staðfestingu á pöntun eða greiðsluáminningar. Frekari upplýsingar eru í [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  

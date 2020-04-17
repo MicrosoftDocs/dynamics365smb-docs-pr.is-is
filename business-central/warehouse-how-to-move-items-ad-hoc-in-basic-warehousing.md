@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 223f91bbefbb15a5ab1a576c84ace007c6b76075
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8944c01f032444b98efaf482c00d198127570c4e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314025"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193084"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa
 Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekki móttöku- eða sendingarhólfa, á sérstakra krafna frá upprunaskjali. Þessar tilfallandi hreyfingar gætu verið gerðar, til dæmis til að endurskipuleggja vöruhúsið, til að færa vörur í skoðunarsvæði eða til að flytja aukavörur í og úr framleiðslusvæði án kerfistengsla við upprunaskjal framleiðslupöntunar.  
@@ -29,7 +29,7 @@ Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekk
 >  Í ítarlegri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Beinn frágangur og tínsla** er síðan **Vinnublað hreyfingar**, **Innri vöruhúsatínsla** eða **Innri vöruhúsafrágangur** notuð til að færa vörur á milli hólfa eftir þörfum.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Til að færa vörur sem innri hreyfingu  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **innri hreyfing** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innri hreyfing** og veldu síðan tengda tengilinn.  
 2.  Á flýtiflipanum **Almennt** er reiturinn **Nr.** fylltur út reitinn, annaðhvort með því að fara úr reitnum eða með því að velja hnappinn **AðstoðBreyta** til að velja úr númeraröð.  
 3.  Í reitnum **Kóti birgðageymslu** er færð inn birgðageymslan þar sem hreyfingin á sér stað.  
 
@@ -58,7 +58,7 @@ Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekk
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Til að færa vörur með vöruendurflokkunarbók
 Í staðinn fyrir að nota vöruhúsahreyfing skjöl, geturðu skráð vöruhreyfingu með því að endurflokka hólfakóða varanna. Nánari upplýsingar er að finna í [Telja, leiðrétta og endurflokka birgðir með færslubókum](inventory-how-count-adjust-reclassify.md).   
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Endurröðunarbók vöru**, og veldu síðan tengda hlekkinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðaendurflokkunarbók** og veldu síðan tengda tengilinn.  
 2.  Fyrir hverja bókunarlínu skal skilgreina úr og í hvaða hólf flytja skal vörur með því að fylla út reitna **Hólfakóti** og **Nýr hólfakóti**.  
 
     1.  Ef flytja á allt innihald hólfs yfir í annað hólf, skal velja aðgerðina **Sækja innihald hólfs**.  

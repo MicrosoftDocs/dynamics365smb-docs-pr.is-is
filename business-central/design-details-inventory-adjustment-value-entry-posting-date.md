@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2595efa188aed593bf1d112f984acf411446959b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 843e0590bbcff22b5d0ad40fcae5dd51c64eae3a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307133"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185277"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslu
 Þessi grein veitir leiðbeiningar fyrir notendur birgðakostnaðarvirkni í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tilgreind grein veitir leiðbeiningar um hvernig runuvinnslan **Leiðréttur kostnaður - Birgðafærslur** ber kennsl á og úthlutar bókunardagsetningu fyrir virðisfærslurnar sem runuvinnslan er að búa til.  
@@ -41,7 +41,7 @@ Hér að neðan táknar fyrsta virðisfærslan (379) sendinguna og bera þær s�
 
  Þriðja virðisfærslan (391) er leiðrétting á reikningsfærðri virðisfærslu (381)  
 
- ![Staða virðisfærslna í atburðarás](media/helene/TechArticleAdjustcost2.png "Staða virðisfærslna í atburðarás")  
+ ![Staða virðisfærslna í atburðarásinni](media/helene/TechArticleAdjustcost2.png "Staða virðisfærslna í atburðarásinni")  
 
  Skref 1: Leiðréttingarvirðisfærsla sem á að búa til er úthlutað sömu bókunardagsetningu og færslan sem hún leiðréttir, sýnt hér að framan með virðisfærslu 391.  
 
@@ -69,7 +69,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
  Upphaflega úthlutaða bókunardagsetningin var 6. september eins og sýnt er í skrefi 1. Í 2. skrefi ber runuvinnslan Leiðrétta kostnað - Birgðafærslur kennsl 10. september sem fyrstu leyfilegu bókunardagsetninguna og úthlutar þess vegna 10. september á leiðréttingarvirðisfærsluna fyrir neðan.  
 
- ![Staða virðisfærslna í atburðarás 2](media/helene/TechArticleAdjustcost5.png "Staða virðisfærslna í atburðarás 2")
+ ![Staða virðisfærslna í atburðarásinni 2](media/helene/TechArticleAdjustcost5.png "Staða virðisfærslna í atburðarásinni 2")
 
  Við höfum nú yfirfarið hugtakið fyrir úthlutun bókunardagsetninga á virðisfærslur sem eru búnar til af runuvinnslu Leiðrétts kostnaðar - Birgðafærslna.  
 
@@ -173,7 +173,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
  Eftirfarandi birgðahöfuðbók og virðisfærslur hafa verið bókaðar:  
 
-![Yfirlit yfir birgðahöfuðbók og virðisfærslur 1 sem urðu til](media/helene/TechArticleAdjustcost9.png "Yfirlit yfir birgðahöfuðbók og virðisfærslur 1 sem urðu til")
+![Yfirlit yfir birgðahöfuðbók og virðisfærslur sem urðu til 1](media/helene/TechArticleAdjustcost9.png "Yfirlit yfir birgðahöfuðbók og virðisfærslur sem urðu til 1")
 
  ![Yfirlit yfir birgðahöfuðbók og virðisfærslur sem urðu til 2](media/helene/TechArticleAdjustcost10.png "Yfirlit yfir birgðahöfuðbók og virðisfærslur sem urðu til 2")
 
@@ -314,7 +314,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
      Bóka kvittun og reikningsfæra.  
 
-   ![Yfirlit yfir birgðahöfuðbók og virðisfærslur 4 sem urðu til](media/helene/TechArticleAdjustcost12.png "Yfirlit yfir birgðahöfuðbók og virðisfærslur 4 sem urðu til")
+   ![Yfirlit yfir birgðahöfuðbók og virðisfærslur sem urðu til 4](media/helene/TechArticleAdjustcost12.png "Yfirlit yfir birgðahöfuðbók og virðisfærslur sem urðu til 4")
 
  Skýrsla birgðavirðis er prentuð frá og með dagsetningunni 31. desember 2013  
 
@@ -364,4 +364,4 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
-[Hönnunarupplýsingar: Birgðajöfnun](design-details-item-application.md)  
+[Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  

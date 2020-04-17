@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/17/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911240"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190084"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
 Áður en þú ferð inn í [!INCLUDE [prodshort](includes/prodshort.md)] á netinu mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
@@ -30,13 +30,13 @@ ms.locfileid: "2911240"
 
 ### <a name="other-supported-browsers"></a>Aðrir studdir vafrar
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með Internet Explorer 11 (smíði 11.0.9600.17239) fyrir Windows 10 (32-bita og 64-bita útgáfur). Við mælum með að uppfæra í nýjustu útgáfu Internet Explorer sem er studd fyrir þína útgáfu af Windows. 
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með Internet Explorer 11 (smíði 11.0.9600.17239) fyrir Windows 10 (32-bita og 64-bita útgáfur). Við mælum með að uppfæra í nýjustu útgáfu Internet Explorer sem er studd fyrir þína útgáfu af Windows. Einnig er hægt að keyra nýja Edge og hafa enn aðgang að vefsvæðum sem krefjast Internet Explorer. Frekari upplýsingar er að finna í [Microsoft Edge fylgiskjöl](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Fartæki
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir Windows er hægt að setja upp á tæki með að minnsta kosti 1GB RAM og Windows 10 Home, Pro, Enterprise eða Education (32-bita og 64-bita útgáfur).  
 **iOS:** [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir iPad og iPhone krefst iOS 10.0 eða nýrri.  
 **Android:** [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir Android spjaldtölvu og Android síma geta verið uppsett á tækjum með að minnsta kosti 1GB RAM og Android 6.0 eða hærra.  
-**Tækjastærð**: [!INCLUDE[d365fin](includes/d365fin_md.md)] er studd á smartphones með lágmarks skjár stærð 4 "og töflur með lágmarks skjár stærð 7".  
+**Tækjastærð:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er studd á snjallsímum með lágmarks skjárstærð 4" og spjaldtöflum með lágmarks skjárstærð 7".  
 
 ## <a name="outlook"></a>Outlook
 **Outlook forrit:** Til að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2016 eða nýrra, Outlook í vafra, Outlook fyrir iPhone, Outlook fyrir iPad eða Outlook fyrir Android. Fyrirtækið þitt verður einnig að nota Office 365. Ekki er hægt að nota [!INCLUDE [prodshort](includes/prodshort.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum.  

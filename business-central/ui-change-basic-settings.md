@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953303"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194596"
 ---
 # <a name="change-basic-settings"></a>Breyta grundvallarstillingum
 
 Á síðunni **Stillingar mínar** er hægt að sjá og breyta grunnstillingum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Breytingar sem þú gerir munu aðeins hafa áhrif á vinnusvæðið þitt, ekki vinnusvæði annarra notenda.  
 
-## <a name="role-center"></a> Mitt hlutverk
+## <a name="role-center"></a><a name="role-center"></a> Mitt hlutverk
 Mitt hlutverk táknar heimasíðuna, upphafssíðu sem er hönnuð fyrir þarfir tiltekins hlutverks í fyrirtækinu. Það fer eftir hlutverki þínu, en Mitt hlutverk gefur þér yfirlit yfir fyrirtækið, deildina þína eða persónuleg verkefnin þín. Það hjálpar þér líka að komast í daglegu verkefnin þín og finna vinnu sem þér er úthlutað.
 
 -   Efst gerir yfirlitið þér kleift að skipta á milli viðskiptavina, lánardrottna, vara og annarra mikilvægra lista yfir upplýsingar. Á svipaðan hátt leyfa aðgerðir þér að hefja verkefni, svo sem að búa til nýjan sölureikning, beint frá Mínu hlutverki.
@@ -34,7 +34,7 @@ Sjálfgefið hlutverk þitt er **Viðskiptastjórnandi**, en hægt er að velja 
 2. Á síðunni **Mínar stillingar** á svæðinu **Hlutverk**, skal velja hlutverkið sem á að nota sem sjálfgefið. Veljið til dæmis **Bókari**.
 3. Velja hnappinn **Í lagi**.
 
-## <a name="company"></a>Fyrirtæki
+## <a name="company"></a><a name="company"></a>Fyrirtæki
 Fyrirtæki virkar sem geymsluhólf fyrir gögn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hægt er að hafa mörg fyrirtæki í gagnagrunni, en aðeins hægt að velja eitt í einu.
 
 Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn. Þú getur stofnað nýtt fyrirtæki með sérstilltum gögnum. Nánari upplýsingar eru í [Stofna ný fyrirtæki](about-new-company.md).
@@ -42,7 +42,7 @@ Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn. 
 ## <a name="to-change-the-company-name"></a>Til að breyta heiti fyrirtækis
 Heiti fyrirtækisins er alltaf birt efst í vinstra horninu og virkar sem aðgerð sem hægt er að velja til að fara til baka í Mitt hlutverk. Þú getur breytt þessu heiti á síðunni **Upplýsingar um fyrirtækið**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofngögn** og veldu síðan tengda tengilinn.
+1. Veljið táknið ![Sprocket til að opna táknið valmyndarstillingar](media/ui-experience/settings_icon_small.png) og veljið síðan aðgerðina **Upplýsingar um fyrirtæki**.
 2. Heiti nýja fyrirtækisins er ritað í reitinn **Heiti**.
 3. Fara af síðunni. Kerfið endurræsir og sýnir heitið á nýja fyrirtækinu í horninu efst til vinstri.
 
@@ -55,7 +55,7 @@ Hægt er að bæta við sérstilltum merkimiða efst í hægra horninu, þar sem
 > [!NOTE]
 > Ef merki fyrirtækis er skilgreint, þá er ekki hægt að breyta heiti fyrirtækis eins og lýst er í [til að breyta heiti fyrirtækisins](ui-change-basic-settings.md#to-change-the-company-name)
 
-## <a name="work-date"></a>Vinnudagsetning
+## <a name="work-date"></a><a name="work-date"></a>Vinnudagsetning
 Dagsetningin sem er algengust er dagurinn í dag. Þú gætir þurft að breyta tímabundið vinnudagsetningu til að framkvæma verk, eins og að klára færslur fyrir dagsetningu sem er ekki núverandi dagsetning.
 
 > [!TIP]  
@@ -72,19 +72,21 @@ Hvenær sem vinnudagsetningin er ekki stillt á dagsetninguna í dag, birtast tv
 - Ef áminningu er lokað birtist vinnudagsetningin í titli síðunnar.  
 --> Ef vinnudagsetning er ekki stillt á núverandi dag (daginn í dag), þá á öllum síðum þar sem hægt er að breyta gögnum, er núverandi vinnudagsetning sýnd efst í vinstra horninu á síðunni.
 
-## <a name="region"></a> Svæði
+## <a name="region"></a><a name="region"></a> Svæði
 
 **Svæði** stillingin ákvarðar hvernig dagsetningar, tímasetningar, númer og gjaldmiðlar eru sýndir eða forsniðnir.
 
-## <a name="language"></a> Tungumál
+## <a name="language"></a><a name="language"></a> Tungumál
 Breyta birtingartungumáli. Þessi reitur birtist aðeins þegar meira en eitt tungumál er að velja úr.
 
 Upphafstungumálið er annaðhvort ákveðið af kerfisstjóra eða stillingum vafrans þegar þú skráir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tungumálið sem þú setur verður notað á öllum tækjum sem þú skráir þig inn í, svo sem síma eða spjaldtölvu.
 
+Fleiri tungumál fyrir [!INCLUDE[prodshort](includes/prodshort.md)] er hægt að setja upp úr AppSource. Þótt öll studd tungumál viðmóts séu sýnd á listanum verður stjórnandi að setja upp viðeigandi tungumálaforrit í leigjandann áður en notendur geta skipt yfir í nýja tungumálið í [!INCLUDE[prodshort](includes/prodshort.md)].  
+
 ## <a name="changing-when-i-receive-notifications"></a>Breyta þegar ég fæ tilkynningar
 Velja þennan hlekk til að skoða eða breyta tilkynningum um tiltekin tilvik eða breytingar á stöðu, líkt og þegar þú ert að fara að reikningsfæra viðskiptamann sem er með gjaldfallna stöðu, eða þegar tiltækar birgðir eru lægri en magnið sem þú ert að fara að selja. Nánari upplýsingar er að finna í [Stjórnun tilkynninga](ui-smart-notifications.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Stofna ný fyrirtæki](about-new-company.md)  

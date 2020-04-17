@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 02/07/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071983"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195388"
 ---
 # <a name="personalize-your-workspace"></a>Sérstilling verksvæðis
 Þú getur sérstillt vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá.
@@ -35,7 +35,7 @@ Auðvelt er að breyta dálkum á hvaða lista sem er með því að draga mörk
 
 Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd dálks geymdar á reikningnum þínum og fylgja þér, sama hvaða tæki þú notar til að skrá þig inn.
 
-## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Til að sérstilla síðu með borðanum **Sérstilla**
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Hefja sérstillingu á síðu með borðanum **Sérstilla**
 1. Opna skal síðuna sem á að sérsníða.
 2. Í efra hægra horninu skaltu velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og síðan velja aðgerðina **Sérstilla**.
 
@@ -52,7 +52,7 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 6. Veldu eininguna og veldu annaðhvort **Færa**, **Fjarlægja**, **Fela**, **Sýna**, **Sýna undir „Sýna meira“**, **Sýna þegar fellt**, **Sýna alltaf**, **Stilla/hreinsa fast svæði** eða **Taka með/útiloka frá flýtifærslu**, allt eftir gerð og stöðu viðmótseiningarinnar. Frekari upplýsingar er að finna á [Hvað hægt er að sérstilla](#What).
 7. Þegar lokið er við að breyta útliti á einni eða fleiri síðum, skal velja hnappinn **Lokið** á borðanum **Sérstilla**.
 
-## <a name="What"></a>Hvað er hægt að sérstilla
+## <a name="what-you-can-personalize"></a><a name="What"></a>Hvað er hægt að sérstilla
 
 |Hvað viltu gera|Hvernig á að gera það|Athugasemdir|
 |----|------------|-------|
@@ -67,9 +67,10 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 |Endurraða og fjarlægja yfirlit sem tákna síaða lista.|Veldu örvaoddinn við hliðina á yfirliti og veldu svo **Færa**, **Fjarlægja** eða **Fela**.|Sjá [Vista og sérsníða listayfirlit](ui-views.md)|  
 |Bæta nýrri aðgerð við síðu eða skýrslu í Mitt hlutverk.|Af marksíðu, síður skýrslubeiðna eða glugga Viðmótsleitar skal velja bókamerkjatákn.|Sjá [Síða eða skýrsla bókamerkt í Mitt hlutverk](ui-bookmarks.md)|
 
-## <a name="Actions"></a>Sérstilling aðgerða
 
-Sérstilling gerir þér kleift að ákveða hvaða aðgerðir eigi að sýna á aðgerðarstikunni og hvar eigi að sýna þær. Þú getur sýnt, falið eða fært stakar aðgerðir eða hóp aðgerða. Sérstilling aðgerðarstikunnar er einfaldlega gerð á sama hátt og á öðrum viðmótseiningum. Það sem þú hins vegar getur gert við aðgerð eða hóp aðgerða fer eftir því hvar aðgerðin eða hópur aðgerða er staðsettur. Besta leiðin til að komast að því er að fara í sérsnið og láta svo örvaoddinn leiðbeina þér.
+## <a name="personalizing-actions"></a><a name="Actions"></a>Sérstilling aðgerða
+
+Sérstilling gerir þér kleift að ákveða hvaða aðgerðir á að sýna á yfirlits- og aðgerðarstikunni og í hlutverkamiðstöðvum og hvar á að sýna þær. Þú getur sýnt, falið eða fært stakar aðgerðir eða hóp aðgerða. Sérstilling yfirlits- og aðgerðarstika er einfaldlega gerð á sama hátt og á öðrum viðmótseiningum. Það sem þú hins vegar getur gert við aðgerð eða hóp aðgerða fer eftir því hvar aðgerðin eða hópur aðgerða er staðsettur. Besta leiðin til að komast að því er að fara í sérsnið og láta svo örvaoddinn leiðbeina þér.
 
 Það eru nokkur hugtök sem þú ættir að kynna þér til að skilja betur sérstillingaraðgerðina: *aðgerðahópur* og *uppfærður flokkur*.  
 
@@ -87,9 +88,9 @@ Sérstilling gerir þér kleift að ákveða hvaða aðgerðir eigi að sýna á
 
 |Valkostur|Það sem hann gerir|
 |------|------------
-|**Fjarlægja**|Þessi valkostur birtist ef valin aðgerð er einnig sýnd einhvers staðar annars staðar í aðgerðarstikunni. Ef þessi valkostur er valinn eyðist aðgerðin úr valdri staðsetningu svo hún birtist ekki lengur. Aðgerðin eða aðgerðahópurinn verður áfram í hinni staðsetningunni. |
-|**Fela**|Þessi valkostur birtist ef aðgerðin eða aðgerðahópurinn er ekki staðsettur á neinum öðrum stað í aðgerðarstikunni. Eins og **Fjarlægja**, að velja þennan valkost gerir að verkum að aðgerðin eða aðgerðahópurinn hverfur úr aðgerðarstikunni. Hins vegar í sérstillingarsniðinu, verður aðgerðin eða aðgerðahópurinn enn sýndur í núverandi staðsetningu, fyrir utan að hann er skyggður.|
-|**Sýna**|Þessi valkostur birtist ef aðgerðin eða aðgerðahópurinn hefur verið falinn áður (skyggður). Að velja þennan valkost gerir að verkum að aðgerðin eða aðgerðahópurinn birtist í aðgerðarstikunni.|
+|**Fjarlægja**|Þessi valkostur birtist ef valin aðgerð er einnig sýnd einhvers staðar annars staðar í yfirlits- eða aðgerðarstikunni. Ef þessi valkostur er valinn eyðist aðgerðin úr valdri staðsetningu svo hún birtist ekki lengur. Aðgerðin eða aðgerðahópurinn verður áfram í hinni staðsetningunni. |
+|**Fela**|Þessi valkostur birtist ef aðgerðin eða aðgerðahópurinn er ekki staðsettur á neinum öðrum stað í yfirlits- eða aðgerðarstikunni. Eins og **Fjarlægja**, að velja þennan valkost gerir að verkum að aðgerðin eða aðgerðahópurinn hverfur úr yfirlits- eða aðgerðarstikunni. Hins vegar í sérstillingarsniðinu, verður aðgerðin eða aðgerðahópurinn enn sýndur í núverandi staðsetningu, fyrir utan að hann er skyggður.|
+|**Sýna**|Þessi valkostur birtist ef aðgerðin eða aðgerðahópurinn hefur verið falinn áður (skyggður). Að velja þennan valkost gerir að verkum að aðgerðin eða aðgerðahópurinn birtist í yfirlits- eða aðgerðarstikunni.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Til að færa aðgerðir og aðgerðahópa
 Þar sem þú getur sleppt aðgerðum eða aðgerðahópum er það gefið í skyn með láréttri línu milli tveggja aðgerða eða ramma utan um aðgerðahóp. Eftirfarandi takmarkanir eru til staðar:
@@ -100,6 +101,18 @@ Sérstilling gerir þér kleift að ákveða hvaða aðgerðir eigi að sýna á
 1. Til að færa aðgerð eða aðgerðahóp skaltu draga og sleppa honum á viðeigandi stað, rétt eins og með reiti og dálka.
 2. Til að færa aðgerð eða aðgerðahóp í annan aðgerðahóp sem er tómur, dragðu aðgerðina eða aðgerðahópinn í nýja hópinn og slepptu honum í boxið **Sleppa aðgerð hér**.
 
+
+## <a name="personalizing-parts"></a><a name="Parts"></a>Sérstilling hluta
+
+Hlutar eru svæði á síðu sem eru vanalega samsettir úr mörgum reitum, gröfum eða öðru efni og hægt er að auðkenna þau með litríkum ramma þegar lögð er áhersla á hlutann. Til dæmis er heimaskjár hlutverkamiðstöðvar með marga hluta. Vegna vel skilgreindra marka þeirra er hægt að sérsníða allan hlutann sem og innihald hans.
+
+- Til að færa hluta skal draga og sleppa honum á æskilegan stað. Lituð lína gefur til kynna gildar stöður á skjánum. Til dæmis er aðeins hægt að færa FactBox við hlið annars FactBox á FactBox-svæðinu.
+- Hægt er að fela hluta með því að velja valkostinn **Fela** undir örvaroddinum.
+- Þegar þú ætlar að sérsníða eða fara á nýja síðu birtast allir hlutir sem voru faldir á síðunni með sérstakri birtingu til að gefa til kynna að þeir séu faldir. Hægt er að sýna þann hluta með því að velja valkostinn **Sýna** undir örvaroddinum.
+
+Hægt er að hreinsa allar breytingar sérstillingar sem voru gerðar innan einstaks hlutar með því að velja valkostinn **Hreinsa sérstillingar** undir örvaroddi hlutans. Hreinsun sérstillinga á hluta hefur aðeins áhrif á breytingar á innihaldi þess hlutar, ekki staðsetningu eða sýnileika hlutans á síðunni.  
+
+
 ## <a name="to-clear-personalization"></a>Að hreinsa sérstillingu
 Á einhverjum tímapunkti gætir þig langað til að afturkalla sumar eða allar breytingar sérstillinga sem þú gerðir á síðu í gegnum tíðina.
 
@@ -109,9 +122,9 @@ Sérstilling gerir þér kleift að ákveða hvaða aðgerðir eigi að sýna á
 |Valkostur|Það sem hann gerir|
 |------|------------
 |**Aðeins yfirlitsvalmynd**|Hreinsar allar breytingar sérstillinga sem þú hefur gert á yfirlitsvalmyndinni sem er deilt í Mitt hlutverk og á öðrum síðum. Þetta felur í sér allar nýjar aðgerðir sem var bætt við sem bókamerki, og allar breytingar á tenglum og flokkum í valmyndinni.|  
-|**Aðeins aðgerðir**|Hreinsar allar breytingar sérstillinga sem þú hefur gert á aðgerðarstiku síðunnar.|
-|**Aðeins reitir, dálkar og hlutar**|Hreinsar allar breytingar sérstillinga sem þú hefur gert á síðunni nema þær sem voru gerðar á aðgerðarstikunni. Þetta felur í sér breytingar á reitum, dálkum og pörtum. |
-|**Allt**|Hreinsa allar breytingar sérstillinga sem hafa verið gerðar á síðunni þannig að síðan líti út eins og hún gerði í upphafi. Þetta felur í sér breytingar á aðgerðarstiku, reitum, dálkum og hlutum.|
+|**Aðeins aðgerðir**|Hreinsar allar sérstilltar breytingar sem þú hefur gert á yfirlits- eða aðgerðarstiku síðunnar.|
+|**Aðeins reitir, dálkar og hlutar**|Hreinsar allar sérstilltar breytingar sem þú hefur gert á síðunni nema þær sem eru á yfirlits- eða aðgerðarstikunni. Þetta felur í sér breytingar á reitum, dálkum og pörtum. |
+|**Allt**|Hreinsa allar breytingar sérstillinga sem hafa verið gerðar á síðunni þannig að síðan líti út eins og hún gerði í upphafi. Þetta felur í sér breytingar á yfirlits- og aðgerðarstikum, reitum, dálkum og pörtum.|
 
 ## <a name="additional-points-of-interest"></a>Aðrar áhugaverðar upplýsingar
 Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.

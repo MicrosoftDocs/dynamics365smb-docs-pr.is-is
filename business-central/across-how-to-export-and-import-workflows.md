@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e4fda3ed6e3a29eb035b4e8509a0e9ea89b21a3c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d309940d177491ce24f49884f388a5c233147fa
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305381"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188277"
 ---
 # <a name="export-and-import-workflows"></a>Flytja verkflæði inn og út
 Til að flytja verkflæði í annan [!INCLUDE[d365fin](includes/d365fin_md.md)] gagnagrunnur, t.d. til að spara tíma þegar stofnað ný verkflæði, er hægt að flytja út og inn verkflæði.  
@@ -25,13 +25,13 @@ Til að flytja verkflæði í annan [!INCLUDE[d365fin](includes/d365fin_md.md)] 
  Á síðunni **Verkflæði** er hægt að stofna verkflæði með því að skrá viðkomandi skref í línurnar. Hvert skref samanstendur af atburði verkflæðis, breytt eftir atburður skilyrði, og verkflæðissvar, breytt eftir svarvalkostir. Þú skilgreinir skref í verkflæði með því að fylla út í reiti á verkflæðislínum úr föstum listum yfir tilvik og svör gildi sem standa fyrir verkflæðissviðsmyndir sem eru studd af kóða forritsins. Frekari upplýsingar eru í [Búa til verkflæði](across-how-to-create-workflows.md).  
 
 ## <a name="to-export-a-workflow"></a>Til að flytja út verkflæði  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **verkflæði** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkflæði** og veldu síðan tengda tengilinn.  
 2.  Veljið Verkflæði og smellið á hnappinn **Flytja út í skrá**.  
 3.  Á síðunni **Flytja út skrá** skal velja hnappinn **Vista**.  
 4.  Á síðunni **Flytja út** skal velja staðsetningu skrána og svo hnappinn **Vista**.  
 
 ## <a name="to-import-a-workflow"></a>Til að flytja inn verkflæði  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **verkflæði** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkflæði** og veldu síðan tengda tengilinn.  
 2.  Aðgerðin **Flytja inn úr skrá** er valin.  
 3.  Á síðunni **Flytja inn** skal velja XML-skrá sem inniheldur verkflæðið og velja svo hnappinn **opna**.  
 

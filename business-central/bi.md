@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7253e4fc4e4f1418a7c9bd1e2ac5e19298e4fb57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6f8935ed6a8ca2ac806dd746a0376210d5e8abbf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308337"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185997"
 ---
 # <a name="business-intelligence"></a>Viðskiptaupplýsingar
 Fyrirtæki safna saman gríðarlegu magni gagna á hverjum degi. Slík gögn er varða atriði eins og sölutölur, innkaup, rekstrarkostnað, laun starfsmanna og fjárhagsáætlun, eru verðmætar upplýsingar eða viðskiptaupplýsingar fyrir þá sem taka ákvarðanir innan fyrirtækja. [!INCLUDE[d365fin](includes/d365fin_md.md)] býður ýmsar aðgerðir til að aðstoða fyrirtæki við að safna saman, meta og deila gögnum fyrirtækisins.
@@ -37,6 +37,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Setja upp greiningaryfirlit, til að greina gögn með víddum.|[Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)|
 |Búa til ný greiningaryfirlit fyrir sölu, innkaup og birgðir og búa til greiningarsniðmát.|[Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)|
 |Gera virka fjárhagsskýrslugerð fyrir alþjóðleg bókhaldsfyrirtæki með stöðluðu XBRL.|[Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)|
+|Breyta ástæðu aðgangs að gagnagrunni fyrir skýrslur, síður af API-gerð og fyrirspurnir til að draga úr álagi og auka afköst.|[Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)    

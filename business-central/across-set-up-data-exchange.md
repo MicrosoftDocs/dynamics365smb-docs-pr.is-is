@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e0074d3e3a1869a8f377c6ff3d8faad97f781077
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 37ca9da29fdfc19253850e431362dfd199a20484
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076636"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187653"
 ---
 # <a name="setting-up-data-exchange"></a>Setja upp gagnaskipti
 Áður en hægt er að senda og taka á móti rafrænum skjölum eða flytja inn og út bankaskrár verður að setja upp gagnaskiptaumgjörð til að vinna úr umræddum skjölum. Auk þess verður að setja upp tengd svæði, t.d. viðskiptamenn sem fá senda rafræna reikninga eða AMC Banking 365 Fundamentals viðbótina í tilvikum þar sem nota þarf utanaðkomandi þjónustuaðili til að umbreyta bankaskrám. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).  
@@ -30,7 +30,7 @@ ms.locfileid: "3076636"
 |Setja upp forstillta OCR-þjónustu til að breyta PDF eða myndaskrár í rafræn skjöl sem hægt er að breyta í færslur fyrir skjöl í [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Setja upp skjöl á innleið](across-how-setup-income-documents.md)|  
 |Setja upp eina af tveimur forstilltum þjónustu til að fá nýjasta gengi gjaldmiðils á síðunni **Gengi gjaldmiðils**.|[Uppfæra gengi](finance-how-update-currencies.md)|  
 |Setja upp mismunandi aðalgögn, t.d. upplýsingar um fyrirtækið, viðskiptavini, lánardrottna, atriði, og mælieiningar, sem tengjast vörpunargögnum í [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
-|Setja upp bankareikning, lánardrottin og greiðslubók fyrir SEPA-millifærslur.|[Setja upp SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
+|Setja upp bankareikning, lánardrottin og greiðslubók fyrir SEPA-millifærslur.|[Setja upp SEPA-kreditfærslur](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Undirbúið bankareikningssnið, greiðsluaðferðir og samninga við viðskiptavini um SEPA-beingreiðslur.|[Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)|  
 |Setja upp sannvottun notanda og slóðina á veitu AMC Banking 365 Fundamentals viðbótarinnar sem er nauðsynleg til að umbreyta bankaskrám á snið bankans þíns.|[Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md)|  
 |Setja upp og virkja utanaðkomandi þjónustu sem gerir kleift að flytja inn bankayfirlit beint sem bankastreymi.|[Setja upp bankayfirlitsþjónustu](bank-how-setup-bank-statement-service.md)|  

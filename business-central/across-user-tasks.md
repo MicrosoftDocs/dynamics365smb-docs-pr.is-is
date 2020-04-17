@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f8c2ce255e9dac1fd7d832afb310ca0ae80e47ec
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 828a6e91a55786603b019e29e49d0e14bf4f57f0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308287"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187581"
 ---
 # <a name="define-user-tasks"></a>Skilgreina notandaverk
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu búið til verkefni til að minna þig á hvað þarf að gera. Þú getur búið til verkefni fyrir þig, en þú getur einnig úthlutað verkefnum til annarra eða fengið verkefni frá öðrum í fyrirtækinu þínu.  

@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809034"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186501"
 ---
 # <a name="manage-profiles"></a>Vinna með forstillingar
 Öllum notendum [!INCLUDE[d365fin](includes/d365fin_md.md)] er úthlutað forstillingu sem endurspeglar viðskiptahlutverk þeirra, deildina sem þeir vinna í eða aðra flokkun. Forstillingar gera stjórnendum kleift að skilgreina og stjórna því miðlægt hvað mismunandi gerðir notenda geta séð og gert í notendaviðmótinu svo þeir geti framkvæmt verk sín á skilvirkan hátt.
@@ -79,12 +79,23 @@ Sem kerfisstjóri er hægt að skilgreina þessar stillingar fyrir forstillingu 
     - **Óvirkja sérstillingar** til að tilgreina hvort notendur tengdra hlutverka geti sérstillt vinnusvæði.
     - **Sýna í hlutverkaleit** til að tilgreina hvort aðgerðir fyrir viðskiptaeiginleika sem eru hafðar með í forstillingunni sem birtist í eiginleikayfirliti hlutverkaleitar. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md)
 
-## <a name="to-export-user-created-profiles"></a>Til að flytja út forstillingar búnar til af notendum
-Hægt er að flytja út forstillingar sem hafa verið breytt annaðhvort af notanda eða af notendum, eins og gefið er til kynna af **(Búið til af notanda)** í reitnum **Uppruni**. Forstillingin er flutt út í zip-skrá sem inniheldur .al-skrár sem hægt er að endurnýta til að þróa viðbætur. Frekari upplýsingar er að finna í [Nota biðlarann til að stofna forstillingar og sérstillingar á síðunni](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## <a name="to-export-profiles"></a>Flytja út forstillingar
+Hægt er að flytja út forstillingar úr [!INCLUDE[d365fin](includes/d365fin_md.md)], til dæmis til að endurnýta þær í öðrum leigjanda. Forstillingarnar eru fluttar út í zip-skrá sem inniheldur .al-skrár sem hægt er að endurnýta til að þróa viðbætur. Frekari upplýsingar er að finna í [Nota biðlarann til að stofna forstillingar og sérstillingar á síðunni](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-* Á **Forstillingar (hlutverk)** síðunni skaltu velja aðgerðina **Flytja út forstillingar búnar til að notendum**.
+* Á síðunni **Forstillingar (hlutverk)** skal velja aðgerðina **Flytja út forstillingar**.
 
-Zip-skrá með .al-skránum fyrir forstillingar sem nýlega hefur verið bætt við eða breytt er flutt út.
+Zip-skrá með .al-skránum fyrir allar forstillingar er flutt út.
+
+## <a name="to-import-profiles"></a>Flytja inn forstillingar
+Hægt er að flytja inn forstillingar sem hafa verið fluttar út úr [!INCLUDE[d365fin](includes/d365fin_md.md)]. Skrefin eru meira eða minna þau sömu og við útflutning forstillinga nema í hina áttina. Frekari upplýsingar er að finna í [Flytja út forstillingar](admin-users-profiles-roles.md#to-export-profiles).
+
+1. Á síðunni **Forstillingar (hlutverk)** skal velja aðgerðina **Flytja inn forstillingar**.
+2. Fylgdu skrefunum í leiðsögninni **Flytja inn forstillingar**.
+
+    Ef aðeins á að flytja inn valdar forstillingar skal nota gátreitinn **Valið** til að gefa til kynna hverjar á að flytja inn.
+3. Velja skal hnappinn **Flytja inn valið**.
+
+Zip-skrá með .al-skrár fyrir valdar forstillingar er flutt inn.
 
 ## <a name="to-delete-a-profile"></a>Til að eyða forstillingu
 Hægt er að eyða forstillingu með því að velja aðgerðina **Eyða** á **Forstillingar (hlutverk)** síðunni. Eftirfarandi takmarkanir gilda hins vegar:

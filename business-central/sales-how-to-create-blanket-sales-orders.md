@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: edd9e1d65c4bbfadf5c74e296ed1a9c6cffd1dfb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d6037b7310eba798696d0aca7881b4927f1d14b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316357"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194836"
 ---
 # <a name="work-with-blanket-sales-orders"></a>Vinna með standandi sölupantanir
 Standandi sölupöntun er rammi fyrir langtíma samning milli viðkomandi og viðskiptamanns.
@@ -29,20 +29,21 @@ Dæmi um hvenær standandi sölupöntun er hægt að nota er ef viðskiptamaður
 > [!NOTE]
 > Standandi innkaupapöntun virka á svipaðan hátt og standandi sölupantanir. Þetta fylgiskjal nær eingöngu yfir standandi sölupantanir.
 
-## <a name="to-create-a-blanket-sales-order"></a>Til að búa til standandi sölupöntun.  
+## <a name="to-create-a-blanket-sales-order"></a>Til að búa til standandi sölupöntun.
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Standandi sölupantanir** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Reiturinn **Pöntunardags.** er hafður auður. Þegar nokkrar sölupantanir eru stofnaðar úr standandi pöntun notar kerfið eiginlegu vinnudagsetninguna fyrir pöntunardagsetningu sölupöntunarinnar.
-5. Á flýtiflipanum **Línur** skal stofna sérstaka línu fyrir hverja afhendingu. Til dæmis ef viðskiptamaðurinn vill skipta 1000 einingum niður á fjórar vikur þarf að færa inn fjórar línur, hver upp á 250.   
+4. Reiturinn **Pöntunardags.** er hafður auður. Þegar nokkrar sölupantanir eru stofnaðar úr standandi pöntun notar kerfið eiginlegu vinnudagsetninguna fyrir pöntunardagsetningu sölupöntunarinnar.
+5. Á flýtiflipanum **Línur** skal stofna sérstaka línu fyrir hverja afhendingu. Til dæmis ef viðskiptamaðurinn vill skipta 1000 einingum niður á fjórar vikur þarf að færa inn fjórar línur, hver upp á 250.  
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Stofnun sölupöntunar úr standandi sölupöntun  
 
-1.  Til að stofna pöntun fyrir einhverjar línur í standandi sölupöntun skal fjarlægja magnið úr reitnum **Magn til afhendingar** í öllum línum sem ekki á að flytja á þessum tíma.  
-2.  Þegar komið er að því að stofna pantanir skal velja aðgerðina **Búa til pöntun** og síðan velja **Já**. Skilaboð birtast um að standandi pöntunin hafi fengið pöntunarnúmer. Takið eftir að standandi pöntuninni hefur ekki verið eytt.  
-3.  Velja hnappinn **Í lagi**.  
-4.  Til að birta niðurstöður fyrri skrefa skal velja aðgerðina **, Lína**, velja **Óbókaðar línur**, og velja síðan aðgerðina **Pantanir**.  
-5.  Á síðunni **Sölulínur** er viðeigandi sölupöntun valin, velja aðgerðina **Lína** og velja svo **Sýna fylgiskjal** aðgerðina.  
+1. Til að stofna pöntun fyrir einhverjar línur í standandi sölupöntun skal fjarlægja magnið úr reitnum **Magn til afhendingar** í öllum línum sem ekki á að flytja á þessum tíma.  
+2. Þegar komið er að því að stofna pantanir skal velja aðgerðina **Búa til pöntun** og síðan velja **Já**. Skilaboð birtast um að standandi pöntunin hafi fengið pöntunarnúmer. Takið eftir að standandi pöntuninni hefur ekki verið eytt.  
+3. Velja hnappinn **Í lagi**.  
+4. Til að birta niðurstöður fyrri skrefa skal velja aðgerðina **, Lína**, velja **Óbókaðar línur**, og velja síðan aðgerðina **Pantanir**.  
+5. Á síðunni **Sölulínur** er viðeigandi sölupöntun valin, velja aðgerðina **Lína** og velja svo **Sýna fylgiskjal** aðgerðina.  
 
 Eftirfarandi á við sölupantanir eftir að þær hafa verið stofnaðar úr standandi sölupöntunum:  
 

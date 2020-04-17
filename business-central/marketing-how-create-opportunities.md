@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 209df24710837e3407498c600ec77bea3f76690d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0971998feed22b61dbcb948dda719e7e40287e63
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309125"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181533"
 ---
 # <a name="create-sales-opportunities"></a>Stofna sölutækifæri
 Hægt er að stofna tækifæri vegna sölutækifæra hjá tengiliðum. Tengja verður öll tækifæri við sölumann eða innkaupanda og þau verða að vera með tengilið.
@@ -45,4 +45,4 @@ Hægt er að stofna tækifæri af síðunni **Tækifæralisti**. En yfirleitt er
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
-[Vinna með Business Central](ui-work-product.md)
+[Unnið með Business Central](ui-work-product.md)

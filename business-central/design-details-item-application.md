@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9f4ef853d62e76ce3ade8062a341eb4336116028
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303509"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185157"
 ---
 # <a name="design-details-item-application"></a>Hönnunarupplýsingar: umsókn vöru
 Þegar þú bókar birgðafærslu er bókunarmagnið skráð í birgðabókarfærslurnar en bókun virðis í virðisfærslur. Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðabókun](design-details-inventory-posting.md)  
@@ -189,7 +189,7 @@ Eftirfarandi tafla sýnir áhrif nákvæmrar kostnaðarbakfærslu í virðisfær
 Þegar runuvinnslan **Kostnaðarleiðrétting - Birgðafærslur** er keyrð er aukinn kostnaður við innkaupafærsluna vegna kostnaðarauka áframsendur á sölufærsluna færslu nr. 2. Sölufærslan framsendir svo þennan aukna kostnað á sölukreditfærslu (færsla númer 3). Endanleg niðurstaða er sú að kostnaður er rétt bakfærður.  
 
 > [!NOTE]  
->  Ef verið er að vinna með skil eða kreditreikninga og settur hefur verið upp reiturinn **Nákvæm og lögbundin bakfærsla kostnaðar** annaðhvort á síðunni **Uppsetning fyrir Innkaup & Viðskiptaskuldir** eða glugganum **Sala & Útistandandi kröfur**, eins og við á í viðkomandi aðstæðum, fyllir [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa út í mismunandi jöfnunarfærslureiti þegar aðgerðin **Afrita fylgiskjal** er notuð. Til að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eru allir reitir fylltir út sjálfkrafa.  
+>  Ef verið er að vinna með skil eða kreditreikninga og settur hefur verið upp reiturinn **Nákvæm og lögbundin bakfærsla kostnaðar** annaðhvort á síðunni **Uppsetning fyrir Innkaup & Viðskiptaskuldir** eða glugganum **Sala & Útistandandi kröfur**, eins og við á í viðkomandi aðstæðum, fyllir [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa út í mismunandi jöfnunarfærslureiti þegar aðgerðin **Afrita úr fylgiskjali** er notuð. Til að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eru allir reitir fylltir út sjálfkrafa.  
 
 > [!NOTE]  
 >  Ef Þú bókar færslu með fastri jöfnun og birgðahöfuðbók sem bókuð er er lokað, sem merkir að eftirstandandi magn er núll, verður eldri jöfnunin afgerð sjálfkrafa og notar birgðafærsluna með föstu jöfnuninni sem þú hefur valið.  

@@ -28,7 +28,7 @@
 
 # Unnið með Business Central
 ## [Yfirlit](ui-work-product.md)
-## [Prentvænt yfirlitsblað](ui-work-product.md)
+## [Prentvænt yfirlitsblað](ui-work-product.md#cheatsheet)
 ## [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)
 ## [Að finna síður með hlutverkaleit](ui-role-explorer.md)
 ## [Algengar spurningar um Viðmótsleit](ui-search-faq.md)
@@ -43,6 +43,7 @@
 ## [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md)
 ## [Grunnstillingum breytt](ui-change-basic-settings.md)
 ## [Stjórna tilkynningum](ui-smart-notifications.md)
+## [Ábendingar um frammistöðu fyrir fyrirtækisnotendur](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Sérstilla Business Central
 ### [Sérstilling verksvæðis](ui-personalization-user.md)
 ### [Af hverju er síða læst og því ekki hægt að sérsníða hana](ui-personalization-locked.md)
@@ -51,7 +52,7 @@
 ### [Birting lista á mismunandi hátt](across-display-lists-different-views.md)
 ## Prentun skýrsla og keyrsla runuvinnslu og XMLports
 ### [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)
-### [Tilgreina prentaraval fyrir skýrslur](ui-specify-printer-selection-reports.md)
+### [Setja upp prentara](ui-specify-printer-selection-reports.md)
 ### [Tímasetja keyrslu skýrslu](ui-work-report.md#ScheduleReport)
 ### [Stjórna vistuðum stillingum fyrir skýrslur og runuvinnslur](reports-saving-reusing-settings.md)
 ### [Skoða prufuskýrslur fyrir bókun](ui-how-view-test-reports-posting.md)
@@ -78,7 +79,7 @@
 ### [Uppsetning bókunarflokka](finance-posting-groups.md)
 ### [Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)
 ### [Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)
-### [Opna nýtt reikningsár](finance-how-open-new-fiscal-year.md)
+### [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)
 ### [Setja upp virðisaukaskatt (VSK)](finance-setup-vat.md)
 ### [Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé](finance-setup-unrealized-vat.md)
 ### [Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -322,6 +323,7 @@
 ## [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
 ## [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)
 ## [Vinna með forstillingar](admin-users-profiles-roles.md)
+## [Setja upp prentara](ui-specify-printer-selection-reports.md)
 ## [Flokkun gagnatrúnaðar](admin-classifying-data-sensitivity.md)
 ## [Svara beiðnum um persónuleg gögn](admin-responding-to-requests-about-personal-data.md)
 ## [Stofna ný fyrirtæki](about-new-company.md)
@@ -367,13 +369,17 @@
 #### [Microsoft Business Central viðbætur frá öðrum veitum](ui-extensions-other.md)
 ## Samþætting við Dynamics 365 Sales
 ### [Yfirlit](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Setja upp Dynamics 365 Sales tengingu](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Samstilling á Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+## Tengir við Common Data Service
+### [Yfirlit](admin-common-data-service.md)
+### [Gagnaeignarhaldslíkön](admin-cds-company-concept.md)
+### [Uppsetning á notendareikningum fyrir samþættingu við Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
+### [Tengjast við Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Sérstilling Business Central og Common Data Service](admin-synchronizing-business-central-and-sales.md)
 ### [Vörpun á töflum og reitum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Samstilla töfluvarpanir handvirkt](admin-manual-synchronization-of-table-mappings.md)
 ### [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Úrræðaleit vegna samstillingarvillna](admin-troubleshoot-sales-synchronization.md)
+<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Fjármál
 ## [Yfirlit](finance.md)
@@ -511,6 +517,7 @@
 ## [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)
 ## [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)
 ## [Stofna skýrslur með XBRL](bi-create-reports-with-xbrl.md)
+## [Stjórna ástæðu fyrir aðgangi að gagnagrunni](admin-data-access-intent.md)
 
 # Sölur
 ## [Yfirlit](sales-manage-sales.md)
@@ -1390,7 +1397,7 @@
 #### [Svissneskur virðisaukaskattur](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [VSK-hlutföll fyrir Sviss](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Bankaþjónusta og greiðslur
-#### QR-kóði á svissneskum greiðsluseðlum
+#### Stjórnun QR-reiknings (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Loka LSV-safni](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Flytja út greiðslur með LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Flytja inn ESR-greiðslur](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)

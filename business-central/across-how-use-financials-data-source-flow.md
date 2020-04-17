@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 24ca66c2d533f4a3e30eb1ebaca817915b95c370
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832023"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187941"
 ---
-# <a name="using-includeprodshortincludesprodshortmd-in-an-automated-workflow"></a>Nota [!INCLUDE[prodshort](includes/prodshort.md)] í sjálfvirku verkflæði.
+# <a name="using-prodshort-in-an-automated-workflow"></a>Nota [!INCLUDE[prodshort](includes/prodshort.md)] í sjálfvirku verkflæði.
 
 Notandi getur notað [!INCLUDE[prodshort](includes/prodshort.md)]-gögnin sín sem hluta af verkflæði í Microsoft Power Automate.
 
@@ -28,7 +28,7 @@ Notandi getur notað [!INCLUDE[prodshort](includes/prodshort.md)]-gögnin sín s
 > [!NOTE]  
 > Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes/prodshort.md)] og hjá Power Automate.  
 
-## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-automate"></a>Til að bæta [!INCLUDE[prodshort](includes/prodshort.md)] við sem gagnaveitu í Power Automate
+## <a name="to-add-prodshort-as-a-data-source-in-power-automate"></a>Til að bæta [!INCLUDE[prodshort](includes/prodshort.md)] við sem gagnaveitu í Power Automate
 
 1. Flettið í [flow.microsoft.com](https://flow.microsoft.com) í vafranum og skráið ykkur svo inn.
 2. Veldu **Mitt flæði** af borðanum efst á síðunni.

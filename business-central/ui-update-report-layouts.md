@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba71b9bfb23a4512e160e7b10aa065a1712aeb4d
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0faaff33db107f61c56d13f7f0c979e4935cb65f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953108"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189388"
 ---
 # <a name="update-custom-report-layouts"></a>Uppfæra sérsniðið skýrsluútlit
 Stundum þarf að uppfæra sérsniðið skýrsluútlit sem er notað í skýrslu. Þetta er nauðsynlegt þegar breyting hefur verið gerð á hönnun gagnasafns skýrslu, til dæmis ef reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnasafni skýrslunnar. Ef skýrsluútlit krefst uppfærslu birtast villuboð þegar reynt er að forskoða, prenta eða vista skýrsluna.  
@@ -42,7 +42,7 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
  Breytingar á skýrsluútliti eru prófaðar en ekki notaðar fyrir raunveruleg skýrsluútlit. Síðan **Uppfærslukladdi skýrsluútlits** birtist og sýnir stöðu á mögulegum uppfærslum fyrir hvert skýrsluútlit. Ef villur koma upp fyrir skýrsluútlit er hægt að opna skýrsluútlit beint til að breyta og lagfæra villur. Frekari upplýsingar eru í [Villur leiðréttar](ui-update-report-layouts.md#FixErrors).  
 
-##  <a name="UpdateLimitations"></a> Takmarkanir á uppfærslum sérsniðins skýrsluútlits  
+##  <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a> Takmarkanir á uppfærslum sérsniðins skýrsluútlits  
  Nokkrar gerðir af breytingum getur sjálfvirk uppfærsla notað í sérsniðnu skýrsluútliti, til dæmis ef reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnasafni skýrslunnar. Sjálfvirk uppfærsla getur hins vegar ekki ráðið við eftirfarandi breytingar á skýrsluútliti.  
 
 1.  Reitir, merkimiðar eða gagnavörur sem hefur verið eytt.  
@@ -53,7 +53,7 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
  Ef uppfærsluferlið greinir þessi vandamál er ekki hægt að nota uppfærsluna. Laga verður þessi vandamál handvirkt, t.d. með því að breyta skýrsluútliti í Word eða með forritun og notkun á uppfærslukóðaeiningum.  
 
-##  <a name="FixErrors"></a> Villur leiðréttar  
+##  <a name="fixing-errors"></a><a name="FixErrors"></a> Villur leiðréttar  
  Ef þú færð ennþá villuboð við uppfærslu eða prófun á uppfærslu skýrsluútlits þá muntu líklega þurfa að breyta skýrsluútliti til að laga vandamálið. Lesa skal villuboðin til ráða orsök vandamálsins.  
 
  Algengasta vandamálið er þegar reitur sem er notaður í útlitinu hefur verið fjarlægður úr gagnamengi skýrslunnar. Í þessu tilviki er lína í villuboðunum sem segir til um að vara hafi verið fjarlægð. Til að laga þetta þarf að breyta útlitinu og fjarlægja viðkomandi reit.  
@@ -62,7 +62,7 @@ Ef engar villur koma upp er uppfærslan notuð í skýrsluútliti. Ef villur kom
 
 Eftir að útlitinu er breytt skaltu reyna að uppfæra það afur.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig  
  [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 37dfdf4805e5d11f2ede11f8b0454407debe9940
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e45850539b84e2762d93140e47ae336f2ec6efda
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306965"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184893"
 ---
 # <a name="design-details-planning-parameters"></a>Hönnunarupplýsingar: áætlunarfæribreyta
 Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í [!INCLUDE[d365fin](includes/d365fin_md.md)]  
@@ -80,7 +80,7 @@ Til að fá skynsamlegar framboðsáætlun, skipuleggjandi mun fínstilla áætl
 
 Tímasetning enduráætlunartímabils, hömlutímabils og lotusöfnunartímabils byggir á birgðadegi. Tímaramminn byggir á upphafsdagsetningu áætlanagerðar eins og sést á eftirfarandi skýringarmynd.  
 
-![Tímarammaeiningar](media/supply_planning_5_time_bucket_elements.png "Tímarammaeiningar")  
+![Einingar tímaramma](media/supply_planning_5_time_bucket_elements.png "Einingar tímaramma")  
 
 Í eftirfarandi dæmum, svarta örvar tákna núverandi framboð (upp) og eftirspurn (niður). Rauðar, grænar og appelsínuguldar örvar eru áætlunartillögur.  
 
@@ -98,7 +98,7 @@ Tímasetning enduráætlunartímabils, hömlutímabils og lotusöfnunartímabils
 
 **Dæmi 4**: Eftirspurn er á hömlutímabilinu og framboðið er áfram á sömu dagsetningu. Hins vegar er núverandi framboðsmagn ekki nóg til að svara eftirspurn á lotusöfnunartímabilinu, svo lögð er til breytingaraðgerð á magni fyrir núverandi birgðir.  
 
-![Hömlutímabil, lotusöfnunartímabil og magnbreyting](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Hömlutímabil, lotusöfnunartímabil og magnbreyting")  
+![Hömlutímabil, lotusöfnunartímabil og breyting á magni](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Hömlutímabil, lotusöfnunartímabil og breyting á magni")  
 
 **Sjálfgefin gildi:** Sjálfgefin gildi reitarins **Tímarammi** og þriggja endurpantanatímabilsreita eru auð. Fyrir alla reiti nema reitinn **Hömlutímabil** þetta merkir 0D núll dagar. Ef reiturinn **Hömlutímabil** er auður verður altæka gildið í reitnum **Sjálfgefið hömlutímabil** á síðunni **Uppsetning framleiðslu** notað.  
 
@@ -117,4 +117,4 @@ Ef valkosturinn **Framleiða-eftir-pöntun** er notaður greinir áætlanakerfi�
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
 [Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs](design-details-balancing-demand-and-supply.md)   
-[Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfis](design-details-central-concepts-of-the-planning-system.md)
+[Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)

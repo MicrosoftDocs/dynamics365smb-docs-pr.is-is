@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba14e98e8387981d108b4a8440419f617fa3b3d8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c9822e35ea4ad6ad1b32894bbe0b980bf70149ae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877184"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192532"
 ---
 # <a name="multiple-contracts"></a>Margir samningar
 Það ræðst af þjónustustigssamkomulagi við viðskiptavin hvort afgreiða verður þjónustuvöru í fleiri en einum þjónustusamningi.  
@@ -38,7 +38,7 @@ Hægt er að stofna þjónustusamning eða samningstilboð handvirkt fyrir þjó
 Þegar valið er að bæta þjónustuvöru í samningslínu sem er skráð í öðrum þjónustusamningum eða samningstilboðum birtir kerfið viðvörun þar sem segir að þjónustuvaran tilheyri þegar einum eða fleirum þjónustusamningum eða samningstilboðum. Ef þessi viðvörun er staðfest eru allar viðeigandi upplýsingar um þjónustuvöru afritaðar í nýstofnaða samningslínu.  
   
 ## <a name="copying-documents"></a>Afritun skjala  
-Hægt er að stofna þjónustusamning eða samningstilboð sjálfkrafa fyrir þjónustuvörur sem þegar eru skráðar í öðrum þjónustusamningum eða samningstilboðum með aðgerðinni **Afrita skjal**.  
+Hægt er að stofna þjónustusamning eða samningstilboð sjálfkrafa fyrir þjónustuvörur sem þegar eru skráðar í öðrum þjónustusamningum eða samningstilboðum með aðgerðinni **Afrita úr skjali**.  
   
 ## <a name="creating-service-orders-for-multiple-contracts"></a>Þjónustupantanir stofnaðar út frá mörgum samningum  
 Hægt er að stofna þjónustupöntun handvirkt fyrir þjónustuvöru sem skráð er í marga virka samninga. Þjónustusamningur er virkur þegar hann er undirritaður og ekki útrunninn.  

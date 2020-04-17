@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 50fbfe2cfa10885ad126153b0602bf953a105d9f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882183"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194452"
 ---
 # <a name="sorting-searching-and-filtering"></a>Röðun, leit og síun
 Það eru nokkrir hlutir sem munu hjálpa þér að skanna, finna og takmarka skrár í lista, skýrslu eða XMLport. Þar á meðal er röðun, leit og afmörkun. Þú getur notað suma eða alla þessa hluti samtímis til að finna eða greina gögnin þín fljótt.
@@ -69,7 +69,7 @@ Eftirfarandi tafla sýnir nokkur dæmi til að útskýra hvernig hægt er að no
 > [!TIP]
 > Þú getur ýtt á **F3** til að virkja og slökkva á leitarreitnum. Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="Filtering"> </a>Afmörkun
+## <a name="filtering"></a><a name="filtering"></a>Afmörkun
 Síun veitir háþróaðri og fjölhæfur leið til að stjórna hvaða skrár sem birtast á lista eða eru innifaldar í skýrslu eða XMLport. Það eru tvær helstu munur á leit og síun, eins og lýst er í töflunni hér að neðan.
 
 || **Leit** | **Afmörkun** |
@@ -132,7 +132,7 @@ Dálkar sem þegar eru með síur eru auðkenndar með tákninu ![Síutákn](med
 > [!TIP]
 > Finna og greina gögnin þín fljótar með því að nota samsetningar flýtilykla. Til dæmis, veldu reit, notaðu **Shift + Alt + F3** til að bæta reitnum við síusvæðið, sláðu inn síuviðmiðin, notaðu **Ctrl + Enter** til að fara aftur í raðirnar, veldu annað reit og notaðu **Alt + F3** til að sía í það gildi. Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Síuskilyrði og tákn
+### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Síuskilyrði og tákn
 Þegar skilyrði eru sett er hægt að nota alla sömu tölustafi og bókstafi sem venjulega eru notaðir í reitnum. Ennfremur er hægt að nota sértákn (eða virknitákn) til að afmarka niðurstöðurnar enn frekar. Í eftirfarandi töflum eru táknin sem hægt er að nota í síum. Fyrir dagsetningar og tíma er einnig hægt að vísa til [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md) til að fá nánari upplýsingar.
 
 > [!IMPORTANT]  
@@ -231,7 +231,7 @@ Eftirfarandi hlutar útskýra hvernig á að nota mismunandi virknitákn.
 |`..1299|1400..`|Telja með færslur með tölu sem er lægri eða jöfn 1299 eða tölu sem er jöfn 1400 eða hærri (allar tölur nema 1300 til 1399).|  
 |`>50&<100`|Telja með færslur með tölum sem eru hærri en 50 og lægri en 100 (tölurnar 51 til 99).|  
 
-### <a name="FilterTokens"> </a>Síumerki
+### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Síumerki
 Þegar þú slærð inn síuviðmiðanir getur þú einnig skrifað orð sem hafa sérstaka þýðingu, sem kallast síumerki. Eftir að hafa slegið inn merkiorðið, er orðinu skipt út fyrir gildin sem það táknar. Þetta gerir síun auðveldara með því að draga úr þörfinni á að fara yfir á aðrar síðum til að fletta upp gildi sem þú vilt bæta við síuna. Taflan hér fyrir neðan lýsir sumum merkjunum sem þú getur slegið inn sem síuviðmiðanir.
 
 > [!TIP]

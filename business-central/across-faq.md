@@ -5,24 +5,24 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/12/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb470cd72c3352ca5de9fc27264b30b67abbadec
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 9c6e162e8b8146c59c135b669566594ca67be7dc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910929"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188685"
 ---
 # <a name="frequently-asked-questions"></a>Algengar spurningar
 
 Þessi hluti inniheldur svör við algengum spurningum um nýskráningu fyrir prufuáskrift, kaup á áskrift og notkun á [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kynntu þér líka hvernig þú færð tæknilega aðstoð.  
 
-## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] fáanlegt í mínu landi?
+## <a name="is-d365fin-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] fáanlegt í mínu landi?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er fáanlegt á takmörkuðum fjölda markaða, en nýjum löndum er bætt við með staðfæringum sem eru leiddar af Microsoft eða samstarfsaðilum ársfjórðungslega. Frekari upplýsingar eru í [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (aðeins í boði á ensku).  
 
-## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>Hvernig fæ ég [!INCLUDE [prodshort](includes/prodshort.md)]?
+## <a name="how-do-i-get-prodshort"></a>Hvernig fæ ég [!INCLUDE [prodshort](includes/prodshort.md)]?
 
 Hægt er að skrá sig fyrir prufuáskrift til að skoða [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [free_trial_md](includes/free_trial_md.md)] Ef þú vilt fá meiri tíma til að skoða, [geturðu lengt áskriftartímann](#can-i-extend-my-30-day-new-company-trial-period).  
 
@@ -35,9 +35,9 @@ Ef spurningar vakna um [!INCLUDE[d365fin](includes/d365fin_md.md)] sem ekki er h
 
 Frá heimasíðu samfélagsins er einnig hægt að finna tengla á bloggin okkar þar er einnig hægt að finna ábendingar og ráð. Frekari upplýsingar eru í [Microsoft Dynamics 365 Business Central á bloggsíðu Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og eldri [Dynamics 365 Business Central bloggsíðu](https://community.dynamics.com/business/b/financials).  
 
-Að lokum geturðu haft samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] endursöluaðilann þinn. Nánari upplýsingar er að finna í [Hvernig fæ ég tæknilega aðstoð?](across-faq.md#how-do-i-get-technical-support-for-) hlutanum og [Hvernig finn ég endursöluaðila?](#findpartner).  
+Að lokum geturðu haft samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] endursöluaðilann þinn. Nánari upplýsingar er að finna í [Hvernig fæ ég tæknilega aðstoð?](across-faq.md#hdigetsupport) hlutanum og [Hvernig finn ég endursöluaðila?](#findpartner).  
 
-## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Af hverju finn ég ekki eiginleikann í mínu [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="why-cant-i-find-that-capability-in-my-d365fin"></a>Af hverju finn ég ekki eiginleikann í mínu [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Ertu búin(n) að lesa um nýjan eiginleika í útgáfuáætlun eða á blogginu okkar nýlega? Ef svo er, getur verið að [!INCLUDE[d365fin](includes/d365fin_md.md)] þitt hafi ekki verið uppfært að nýjustu útgáfu enn. Hægt er að athuga hvaða útgáfu [!INCLUDE[d365fin](includes/d365fin_md.md)] byggir á síðunni [Hjálp og notendaþjónusta](product-help-and-support.md).  
 
 Ef eiginleikinn er settur fram sem viðbót í AppSource, er töf á milli þess að eiginleikinn sé kynntur og að hann sé tiltækur í AppSource.  
@@ -45,14 +45,14 @@ Ef eiginleikinn er settur fram sem viðbót í AppSource, er töf á milli þess
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Er einhver munur á uppsetningu á staðnum og skýjaútgáfu Business Central?
 Já. Sumir skýjatengdir eiginleikar geta hugsanlega keyrt á staðnum í einhverjum tilfellum og aðrir eru alls ekki studdir. Frekari upplýsingar er að finna í [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
-## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Get ég fengið þjálfun í [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="can-i-get-training-in-d365fin"></a>Get ég fengið þjálfun í [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Já, þú getur það! Hægt er að finna ókeypis netnámskeið á [Microsoft Learn vefsvæðinu](/learn/browse/?products=dynamics-business-central). Frekari upplýsingar eru í [Business Central námskrá](readiness/readiness-learning-catalog.md). Einnig er hægt að biðja endursöluaðilann um frekari þjálfun. Ef þú veist ekki hver það er skaltu skoða hlutann [Hvernig finn ég endursöluaðila?](#findpartner).  
 
 Frekari upplýsingar um þjálfun í sem Microsoft veitir fyrir Microsoft 365 er að finna á síðunni [Microsoft Dynamics 365 þjálfun](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 Viðbótarefni er veitt af [!INCLUDE [prodshort](includes/prodshort.md)]-samfélaginu, t.d. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) sem er skrifað af samstarfsaðila.  
 
-## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Hvernig fæ ég tæknilegan stuðning fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="how-do-i-get-technical-support-for-d365fin"></a><a name="hdigetsupport"></a>Hvernig fæ ég tæknilegan stuðning fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er selt í gegnum samstarfsaðila og þú ættir að hafa samband við endursöluaðila til að fá aðstoð vegna tæknilegra vandamála. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðili þinn getur þá ekki leyst vandamálið, munu hann leggja fram þjónustubeiðni til Microsoft.  
 
@@ -65,8 +65,7 @@ Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt 
 
 Enginn *vista* hnappur á síðunum eins og í öðrum forritum sem þú hugsanlega kannast við. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar gerðar eru breytingar á reit og farið er í annan reit sést **Vistar** efst í hægra horni síðunnar, sem breytist fljótt í **Vistað** ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað**.
 
-
-## <a name="what-email-address-can-i-use-with-included365finincludesd365fin_mdmd"></a>Hvaða netfang get ég notað með [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="what-email-address-can-i-use-with-d365fin"></a><a name="email"></a>Hvaða netfang get ég notað með [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] krefst að notandi noti vinnu eða skóla netfang til að nýskrá. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.  
 
 Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gefa til kynna að þú eigir að nota vinnu eða skóla netfang. Nánari upplýsingar sjá [Úrræðaleit sjálfsafgreiðslu nýskráning](ui-troubleshoot-self-signup.md).  
@@ -91,7 +90,7 @@ Já. Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að lát
 
 Frekari upplýsingar um hvernig má finna endursöluaðila eru í [Hvernig finn ég endursöluaðila?](#findpartner).  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Kerfisstjórinn okkar hefur flutt mig í aðra áskrift til að úthluta mér öðru hlutverki, en get ég áfram skoðað sömu upphafssíðuna í [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-d365fin"></a>Kerfisstjórinn okkar hefur flutt mig í aðra áskrift til að úthluta mér öðru hlutverki, en get ég áfram skoðað sömu upphafssíðuna í [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Þetta er svolítið flókið, en svo virðist sem kerfisstjórinn þinn hafi ekki breytt hlutverki þinni og úthlutað notendaflokkum sem passa við nýja leyfið. Í hnotskurn, aðgangur notanda að [!INCLUDE[d365fin](includes/d365fin_md.md)] ræðst af þeirri gerð áskriftar (leyfis) sem notandi er með - sú gerð ræður heimildum, úthlutuðum hlutverkum notanda og sjálfgefinni upphafssíðu. Notandi getur breytt núverandi hlutverki sínu handvirkt í Mínar stillingar en ef notandi er fluttur í aðra áskrift, til dæmis úr Fyrirtækjaáskrift í Áskrift fyrir hópmeðlimi, sér hann hugsanlega eldri upphafssíðu af því að heimildunum var ekki breytt.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Get ég hætt við áskriftina?
@@ -100,7 +99,7 @@ Já, en gögnum getur verið eytt eða þau varðveitt, allt eftir því hvernig
 ## <a name="can-i-use-multi-factor-authentication"></a>Er hægt að nota fjölþætta sannvottun?
 Auðvitað. Ef þú gerir það gætirðu þurft lykilorð forrits til að geta sent tölvupóst. Lykilorð forrits gefa forriti eða tæki aðgang að netfanginu þínu. Skrefin til að fá aðgangsorð fyrir forrit eru breytileg eftir tölvupóstsveitunni þinni. Frekari upplýsingar er að finna í hjálp þjónustuaðila þíns. Til dæmis, ef þú notar Outlook, skaltu skoða [Búa til aðgangsorð fyrir forrit fyrir Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
-## <a name="findpartner"></a>Hvernig finn ég endursöluaðila?
+## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Hvernig finn ég endursöluaðila?
 
 [!INCLUDE [prodshort](includes/prodshort.md)] er selt og innleitt gegnum alþjóðlegt net Dynamics 365-samstarfsaðila sem sérþekkingu í greininni. Hafðu samband við samstarfsaðila til að fá ítarlegt mat, ráðgjafarþjónustu og meiri upplýsingar um verð. Frekari upplýsingar er að finna í hlutanum **Verðlagning** á síðunni [Dynamics 365 Business Central á microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
 

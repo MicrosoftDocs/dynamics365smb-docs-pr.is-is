@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9c540b04b7dcda7cd3b656a86679228af08261c9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 408dfeaeb56f271a2b9b3d5cf515e41abeaf78e8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310925"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195556"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Nota úthlutunarlykla í færslubókum
 Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. Úthlutunin getur verið í magni, prósentu eða upphæð.
@@ -45,5 +45,5 @@ Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar fær
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna í færslubókum](ui-work-general-journals.md)  
-[Að bóka skjöl og færslubækur](ui-post-documents-journals.md)  
+[Bókun skjala og færslubóka](ui-post-documents-journals.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

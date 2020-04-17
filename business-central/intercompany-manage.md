@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8e7a26f3086249e1e36fe302e75141c44bbb46d7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bb8147038b1f6aba0758b36bb139727a65c9c3eb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308573"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182373"
 ---
 # <a name="managing-intercompany-transactions"></a>Vinna með millifyrirtækjafærslur
 Fyrirtækið gæti verið samansett úr mörgum dótturfyrirtækum án þess að hafa sama fjölda bókahalds- og stjórnunarteyma. Milli-fyrirtækjavirknin gerir þér kleift að stunda viðskipti við dóttur- og félagafyrirtæki á sama hátt og þú átt við ytri lánardrottna og viðskiptamenn. Færslur milli fyrirtækja eru aðeins færðar einu sinni í viðeigandi skjal. Notandinn getur notað þær aðgerðir sem hann er vanur, til dæmis stjórnun á útgjöldum og gjaldfærðum skuldum. Vörpunaraðgerðir fyrir bókhaldslykla og víddir tryggja að upplýsingarnar birtist á réttum stað.  

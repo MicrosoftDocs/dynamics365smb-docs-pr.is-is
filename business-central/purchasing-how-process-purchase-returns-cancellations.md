@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 53bc73248b8c69e8c2fcd03270f7698f7f6f503a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: fc2a3a372ac82ce936418f793cdd33eb3b0ea4b9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953540"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193973"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Meðhöndlun innkaupaskila eða afturkallana
 Ef skila á vörum til lánardrottins eða afturkalla þjónustu sem hefur verið keypt, er hægt að búa til og bóka kreditreikning sem tilgreinir breytingarnar sem óskað er eftir vegna hins upphaflega innkaupareiknings. Til að taka réttar innkaupareikningsupplýsingar með, er hægt að stofna innkaupakreditreikning beint úr bókaða innkaupareikningnum eða þú getur stofnað nýja innkaupakreditreikning með afrituðum reikningsupplýsingum.
@@ -43,7 +43,7 @@ Til er tvenns konar virkni, til að úthluta bakfærslu nákvæms kostnaðar sj�
 |Virkni|Description|  
 |------------------|---------------------------------------|  
 |**Sækja bókaðar fylgiskjalalínur til að bakfæra** aðgerð á síðunni **vöruskilapöntun innkaupa**|Afritar línur úr einu eða fleiri bókuðum fylgiskjölum sem á að bakfæra til vöruskilapöntun innkaupa. Frekari upplýsingar er að finna í [Til að stofna skilapöntun innkaupa byggða á einu eða fleiri bókuðu innkaupaskjali](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).|  
-|**Afrita skjal** aðgerð í **Innkaupakreditreikningur** og á síðunni **Vöruskilapöntun innkaupa**|Afritar bæði haus og línur af einu bókuðu fylgiskjali sem á að bakfæra.<br /><br /> Krefst þess að **Nákvæm bakfærsla kostnaðar** gátreitur sé valinn á síðunni **Uppsetning fyrir Innkaup & Viðskiptaskuldir**.|
+|**Afrita úr skjali** aðgerð á síðunum **Innkaupakreditreikningur** og **Vöruskilapöntun innkaupa**|Afritar bæði haus og línur af einu bókuðu fylgiskjali sem á að bakfæra.<br /><br /> Krefst þess að **Nákvæm bakfærsla kostnaðar** gátreitur sé valinn á síðunni **Uppsetning fyrir Innkaup & Viðskiptaskuldir**.|
 
 Til að úthluta nákvæmri bakfærslu kostnaðar, skal velja reitinn **Jafna frá birgðafærslu** á einhverja gerð skilaskjalslínu, og velja síðan númer upphaflega innkaupafærslunnar. Það tengir innkaupakreditreikning eða vöruskilapöntun innkaupa við upphaflega innkaupafærslu og tryggir að varan sé metin út frá upphaflegu einingarverði.
 
@@ -73,7 +73,7 @@ Innkaupakreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupakreditreikningar** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð til að opna ný auður innkaupakreditreikningur.
 3. Í reitnum **lánardrottins** er fært inn nafn núverandi lánardrottins.
-4. Valið er **Afrita fylgiskjal** aðgerð.
+4. Aðgerðin **Afrita úr fylgiskjali** er valin.
 5. Á síðunni **afrita innkaupaskjal** í **Gerð fylgiskjals** velurðu **Bókaður reikningur**.
 6. Velja reitinn **Númer fylgiskjals** til að opna síðuna **Bókaðir innkaupareikningar** og velja síðan bókaða innkaupareikninginn sem inniheldur línur sem á að bakfæra.
 7. Veljið gátreitinn **Endurreikna línur**, ef bókaða innkaupakreditreikningslínan sem var afrituð á að uppfærast með breytingum á vöruverði og kostnaðarverði síðan reikningurinn var bókaður.
@@ -87,7 +87,7 @@ Innkaupakreditreikningurinn er fjarlægður og skipt út fyrir nýtt fylgiskjal 
 4. Á flýtiflipanum **Línur** skal fylla þessar línur út handvirkt, eða afrita upplýsingar úr öðrum fylgiskjölum til að fylla út línurnar sjálfvirkt:
 
     - Hægt er að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** til að afrita eina eða fleiri bókaðar fylgiskjalalínur frá einu eða fleiri bókuðum fylgiskjölum. Þessi aðgerð bakfærir alltaf nákvæmlega kostnaðinn úr bókuðu fylgiskjalslínunni. Þessu aðgerð er lýst í eftirfarandi skrefum.    
-    - Nota aðgerðina **Afrita skjal** til að afrita fyrirliggjandi fylgiskjal í vöruskilapöntun. Þessi aðgerð er notuð til að afrita allt fylgiskjalið. Það er annað hvort bókað fylgiskjal eða fylgiskjal sem hefur ekki enn verið bókað. Þessi aðgerð gerir aðeins kleift að bakfæra kostnað á nákvæman hátt þegar **Nákvæm bakfærsla kostnaða áskilin** gátreiturinn er valinn á síðunni **Uppsetning fyrir Sölu & Útistandandi**.  
+    - Nota aðgerðina **Afrita úr skjali** til að afrita fyrirliggjandi fylgiskjal í vöruskilapöntun. Þessi aðgerð er notuð til að afrita allt fylgiskjalið. Það er annað hvort bókað fylgiskjal eða fylgiskjal sem hefur ekki enn verið bókað. Þessi aðgerð gerir aðeins kleift að bakfæra kostnað á nákvæman hátt þegar **Nákvæm bakfærsla kostnaða áskilin** gátreiturinn er valinn á síðunni **Uppsetning fyrir Sölu & Útistandandi**.  
 
 4. Velja aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra**.
 5. Efst á síðunni **Bókaðar línur innkaupaskjals** er valið gátmerki **Sýna eingöngu bakfæranlegar línur** ef eingöngu á að birta línur sem eru með magn sem enn hefur ekki verið skilað. Til dæmis ef bókað magn innkaupareiknings hefur verið skilað kann ekki að vera æskilegt að skila magninu í nýtt fylgiskjal vöruskila innkaupa.
@@ -181,7 +181,7 @@ Ef skila á vörum sem eru í mismunandi innkaupapöntunum til eins lánardrotti
 2.  Fyllið út aðra reitina að þörfum og smellið veljið síðan hnappinn **Í lagi**.  
 3.  Að öðrum kosti skal eyða einstökum vöruskilapöntunum innkaupa handvirkt.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Innkaup](purchasing-manage-purchasing.md)  

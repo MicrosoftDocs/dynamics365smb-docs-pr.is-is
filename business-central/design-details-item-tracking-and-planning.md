@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bc6b919a2c54fc4c500f46b1ad7972350b72e1e0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f43523794af06ed5709ec2738cda8bad68fd1b7d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880257"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185133"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Hönnunarupplýsingar: vörurakning og áætlun
 Vegna þess að þær eru geymdar í frátekningarkerfi, eru vörurakningarnúmer að fullu samstillt við pöntunarrakningarfærslur. Þetta þýðir að vörur með pöntunarrakningarfærslur má úthluta vörurakningarnúmerum. Hins vegar geta vörur með vörurakningarnúmerum orðið vörurakningarfærslur. Nánari upplýsingar eru í [Hönnunarupplýsingar: Vörurakningarhönnun](design-details-item-tracking-design.md).

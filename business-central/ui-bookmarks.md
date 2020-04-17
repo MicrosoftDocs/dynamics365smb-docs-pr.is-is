@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/12/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 644a4a64fa80ff98a073f28393fd0b8bb0e6ad54
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 5d70097cb570217cd4a7be0538474252c31ef46e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3072032"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194644"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Síða eða skýrsla bókamerkt í Mitt hlutverk
 Með bókamerkjatákni er hægt að bæta aðgerð sem opnar síðu úr yfirlitsvalmyndinni í Mitt hlutverk. Þetta gerir þér kleift að ná fljótt í eftirlætisefnið eða viðskiptaverkefnin þín. Hægt er að bæta við bókamerkinu frá marksíðunni eða skýrslu, sem merkir að skjárinn sem tengja á í Mitt hlutverk opnast.

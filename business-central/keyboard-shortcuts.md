@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911122"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181745"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 Þessi grein gefur yfirlit yfir nokkrar flýtivísanir sem hægt er að nota þegar þú ert að vinna með [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -38,7 +38,7 @@ Flestar flýtileiðirnar eru þær sömu hvort sem stýrikerfið er Windows eða
 > [!NOTE]
 > Auk altækra flýtilykla sem lýst er í þessu efnisatriði er hægt að nálgast fjölda sértækra flýtilykla. Til dæmis í almennri útgáfu af [!INCLUDE[prodshort](includes/prodshort.md)], F9 bókar skjal og CTRL+F7 sýnir fjárhagslegar færslur fyrir skrá. (Þetta getur verið annað í lausninni þinni.) Flýtilykillinn er sýndur í ábendingunni fyrir aðgerðina sem um ræðir.
 
-##  <a name="Keyboard"></a> Almennar flýtivísanir
+##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Almennar flýtivísanir
 Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi einingar á síðu, svo sem aðgerðir, fellilista, uppflettingar og fleira. Fyrir nánari upplýsingar um flýtivísanir til að fletta í færslum þegar farið er inn í lista skal sjá næsta kafla.
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
@@ -83,7 +83,8 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |Alt+N|Settu inn nýja línu í breytanlegum lista á borð við síðuna **Fjárhagsáætlanir**.|Sama.|
 |Shift+F10 |Opnaðu valmynd valkosta sem eru í boði fyrir valda röð.|Sama.|
 
-### <a name="navigateshortcuts">Flett milli raða og dálka</a>
+### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts">Flett milli raða og dálka</a>
+Hnitanet sem innihalda línur og dálka eru til á mörgum síðugerðum í [!INCLUDE[prodshort](includes/prodshort.md)], svo sem listasíður og **Línur** sem hlutar skjala. Flutningur frá einu hólfi til annars yfir hnitanet er að fullu virkt fyrir lyklaborð.
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta í listayfirliti |Til að gera þetta í reitayfirliti |
 |-----------------|-------|-------|
@@ -93,16 +94,17 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |End<br />(Alt+Hægri ör)|Færðu í síðasta reitinn í röðinni.|Fara í síðasta reitinn í línunni.|
 |Innfært|Opna skrána sem tengist reitnum.<br /><br />Á aðeins við ef síðuspjald tengist færslunni.|Opnar færsluna.<br /><br />Á aðeins við ef síðuspjald tengist færslunni.|
 |Ctrl+Enter|Fara yfir í næsta hluta fyrir utan listann.|Fara yfir í næsta hluta fyrir utan listann.|
+|Síða upp<br />(Fn+Uppör)|Skruna til að birta samstæðuraðir fyrir ofan núverandi línur í yfirliti. |Skrunar til að birta hóp flísa fyrir ofan núverandi flísar í yfirliti. |
+|Síða niður<br />(Fn+ör niður)|Skruna til að birta samstæðuraðir fyrir neðan núverandi línur í yfirliti.|Skruna til að birta hóp flísa fyrir neðan núverandi flísar í yfirliti.|
 |Niður ör|Fara í sama dálk í reitinn í línunni fyrir neðan. |Fara í sama dálk í svæðinu í línunni fyrir neðan. |
 |ÖR UPP|Fara í sama dálki í reitinn í línunni fyrir ofan.| Fara í sama dálk í svæðinu í línunni fyrir ofan.  |
 |Hægri ör|Í lista sem aðeins er leyfður lesaðgangur að, farðu í sömu röð í næsta reit til hægri.<br /><br />Í breytanlegum listi, farðu til hægri innan núverandi reits.| Fara í sömu röð í næsta reit til hægri. |
 |Vinstri ör|Í lista sem aðeins er leyfður lesaðgangur að, farðu í sömu röð í fyrri reit til vinstri. <br /><br />Í breytanlegum lista, farðu til vinstri innan núverandi reits.| Fara í sömu röð í fyrra svæði til vinstri. |
-|Síða upp<br />(Fn+Uppör)|Skruna til að birta samstæðuraðir fyrir ofan núverandi línur í yfirliti. |Skrunar til að birta hóp flísa fyrir ofan núverandi flísar í yfirliti. |
-|Síða niður<br />(Fn+Ör niður)|Skruna til að birta samstæðuraðir fyrir neðan núverandi línur í yfirliti.|Skruna til að birta hóp flísa fyrir neðan núverandi flísar í yfirliti.|
 |Dálklykill|Í breytanlegum lista, farðu í sömu röð til næsta reit til hægri.|Á ekki við.||
 |SHIFT+DÁLKLYKILL|Í breytanlegum lista, farðu í sömu röð í fyrri reit til vinstri. | Á ekki við. |
 
-### <a name="CopyRows">Val, afritun og líming</a>
+
+### <a name="selecting-copying-and-pasting"></a><a name="CopyRows">Val, afritun og líming</a>
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta í listayfirliti |Til að gera þetta í reitayfirliti |
 |-----------------|-------|-------|
@@ -120,7 +122,7 @@ Eftirfarandi tafla lýsir flýtilyklum sem hægt er að nota á listasíðu. Að
 |Shift+síða niður<br />(Shift+Fn+niðurör)|Stækkið valið af línum til að hafa með allar sýnilegar línur fyrir neðan núverandi val af línum.|Á ekki við.|
 |F8|Afritaðu reitinn í sama dálk raðarinnar hér fyrir ofan og límdu það inn í núverandi röð. Þú getur aðeins gert þetta í breytanlegum listum. Með því að nota þennan flýtileið og ýta síðan á dálklykil geturðu fljótt fyllt út reiti í línuatriðum sem þú vilt að hafi sama gildi og röðin hér fyrir ofan.|Á ekki við.|
 
-### <a name="KeyboardFilter"></a>Leit og síun lista
+### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Leit og síun lista
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
 |-----------------|-------|
@@ -138,7 +140,7 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
 |----------------|-----------|
-|Alt+F6|Víxla draga saman/víkka út fyrir gildandi flýtiflipa.|
+|Alt+F6|Víxla draga saman/útvíkka fyrir gildandi flýtiflipa eða hluta (undirsíða).|
 |Alt+N |Opnaðu síðu til að búa til nýja færslu; á sama hátt og aðgerðin **Nýtt** er valin. |
 |Alt+Shift+N |Lokaðu síðu og opnaðu nýja til að stofna nýja færslu; á sama hátt og aðgerðin **Í lagi og nýtt** er valin. |
 |Alt+Shift+N |Opnið núverandi spjald eða skjal í nýjum glugga. Frekari upplýsingar er að finna í [Fjölvinnsla þvert á margar síður](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -151,7 +153,7 @@ Eftirfarandi flýtileiðir eru í boði á spjaldsíðum, svo sem **Viðskiptama
 |F6|Fara í næsta flýtiflipa eða hluta (undirsíða).|
 |Shift+F6|Fara í fyrri flýtiflipa eða hluta (undirsíðu).|
 
-## <a name="QuickEntry"></a>Flýtileiðir flýtifærslu fyrir reiti
+## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Flýtileiðir flýtifærslu fyrir reiti
 
 Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, skjölum og listasíðum. Á listum er ekki hægt að nota flýtileiðir þegar listinn er í reitayfirliti. Nánari upplýsingar um flýtifærslu er að finna í [Hröðun gagnaskráningu með flýtifærslu](ui-enter-data.md#QuickEntry).
 
@@ -161,7 +163,7 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |Shift+Enter|Staðfestu gildið í núverandi reit og farðu í fyrri reit flýtifærslu.||
 |Ctrl+Shift+Enter|Staðfestu gildið í núverandi dálki og farðu í næsta reit flýtifærslu út fyrir listann.<br /><br />Þessi flýtileið gildir um innbyggða lista á síðu, svo sem vörulínur í sölupöntun. Það gerir þér kleift að komast fljótt út úr listanum og halda áfram að slá inn gögn í öðrum reitum á síðunni.|
 
-## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Flýtivísanir í dagatalinu (Dagsetningarval)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Flýtivísanir í dagatalinu (Dagsetningarval)
 
 Þegar þú setur dagsetningarreit getur þú annaðhvort slegið inn dagsetninguna handvirkt eða opnað dagatal (dagsetningarval) sem leyfir þér að velja þann dag sem þú vilt. Eftirfarandi tafla lýsir flýtivísunum fyrir dagatalið.
 
@@ -185,7 +187,7 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |d|Færðu inn daginn í dag. „T“ stendur fyrir „Í dag“.|
 |v|Færðu inn vinnudagsetninguna. Frekari upplýsingar er að finna í [Vinnudagsetning](ui-change-basic-settings.md#work-date)|
 
-## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Flýtivísanir í forskoðun skýrslu
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Flýtivísanir í forskoðun skýrslu
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
 |-----------------|-------|

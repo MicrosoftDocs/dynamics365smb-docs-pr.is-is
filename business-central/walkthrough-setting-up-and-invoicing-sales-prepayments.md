@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 95e361d2c7e6901e4650a02b4e30df86bf6b3e45
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554621"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193396"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu
 
@@ -67,7 +67,7 @@ Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyr
 Eftirfarandi aðgerðir lýsa hvernig Pála framkvæmir þessi verk.  
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Uppsetning númeraraða fyrir fyrirframgreiðslur  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning sölu & útistandandi** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölugrunnur** og veldu síðan tengda tengilinn.  
 2.  Á síðunni **Sölugrunnur** þarf að stækka flýtiflipann **Númeraröð**.  
 3.  Ganga þarf úr skugga um að númeraraðirnar fyrir bókaða fyrirframgreiðslureikninga (í reitnum **Bókuð fyrirframgr.reikn.nr.**) séu þær sömu og fyrir bókaða sölureikninga (**Nr.röð bókaðra reikninga**) og númeraraðirnar fyrir bókaða kreditreikninga fyrirframgreiðslu (**Bókuð kr.reikn.nr. fyrirframgr.**) séu þær sömu og fyrir bókaða kreditreikninga (**Nr.röð bókaðra kreditreikninga**).  
 
@@ -85,7 +85,7 @@ Pála vill að allir viðskiptamenn þurfi að borga 20% fyrirfram fyrir vöru 1
 2.  Opna spjaldið fyrir viðskiptamann 20000 (Selangorian).
 3.  **30** er slegið inn í reitinn **Fyrirframgreiðsla %**.  
 4.  Velja hnappinn **Í lagi** til að loka viðskiptamannaspjaldinu.  
-5.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
+5.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
 6.  Opna spjaldið fyrir viðskiptamann 1100.
 7.  Veljið aðgerðina **Fyrirframgreiðsluprósenta**.  
 8.  Tvær línur á síðunni **Prósentur fyrirframgreiðslu sölu** eru fylltar út á eftirfarandi hátt.  
@@ -101,7 +101,7 @@ Pála vill að allir viðskiptamenn þurfi að borga 20% fyrirfram fyrir vöru 1
 9. Loka öllum síðum.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Til að tilgreina lykil fyrir sölufyrirframgreiðslur í alm. bókunargrunni  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning almenns bókunargrunns** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Almennur bókunargrunnur** og veldu síðan tengda tengilinn.  
 2.  Veljið línuna þar sem reiturinn **Alm. viðsk.bókunarflokkur** er stilltur á **ÚTFL** og reiturinn **Alm. vörubókunarflokkur** er stilltur á **SMÁSALA** og veljið síðan aðgerðina **Breyta**.  
 3.  Á síðunni **Alm. bókunargrunnsspjald** í reitnum **Fyrirframgreiðslureikn. sölu** skal tilgreina viðeigandi reikning.  
 4.  Velja hnappinn **Í lagi**.  
@@ -176,7 +176,7 @@ Viðskiptamaðurinn borgar fyrirframgreiðsluna og Árni, í innheimtudeildinni,
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Jöfnun greiðslu við fyrirframgreiðslureikninga  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **inngreiðslubók** og veldu síðan tengda tengilinn.  
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Inngreiðslubækur** og veldu síðan tengda tengilinn.  
 2.  Færslubókarlínan er fyllt út með eftirfarandi upplýsingum.  
 
     |Heiti reits|Innfært|  
@@ -205,7 +205,7 @@ Viðskiptamaðurinn borgar fyrirframgreiðsluna og Árni, í innheimtudeildinni,
 
 Árni geta skoðað ferilinn til að staðfesta að sölureikningurinn var stofnaður eins og til var ætlast.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðir sölureikningar** og veldu síðan tengda tengilinn.  
+1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Bókaðir sölureikningar** og veldu síðan tengda tengilinn.  
 
 ## <a name="next-steps"></a>Næstu þrep  
 Í þessari kynningu var farið í gegnum uppsetningu á vinnslu fyrirframgreiðslna í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sett var upp sjálfgefin fyrirframgreiðsluprósentu á viðskiptamenn og vörur, auk þess sem notaðar voru mismunandi aðferðir til að reikna fyrirframgreiðslur á pöntun. Einni heildarupphæð fyrirframgreiðslu var úthlutað á pöntun og upphæð fyrirframgreiðslu var reiknuð sem hlutfall af pöntuninni í heild sinni.  

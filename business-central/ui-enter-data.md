@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992085"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194428"
 ---
 # <a name="entering-data"></a>Gagnainnfærsla
 
@@ -29,7 +29,7 @@ Nokkrir flýtilyklar gera þér kleift að vinna án músar og hraða gagnaskrá
 
 Frekari upplýsingar er að finna í [Flýtilyklar á lyklaborði](keyboard-shortcuts.md). Fjallað er um nokkrar af þessum flýtileiðum í þessu efnisatriði.
 
-## <a name="QuickEntry"></a>Hraða gagnaskráningu með flýtifærslu
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Hraða gagnaskráningu með flýtifærslu
 
 Flýtifærsla er eiginleiki sem er hannaður fyrir gagnaskráningu þegar lyklaborð er notað. Flýtifærsla virkar á reiti (t.d. í spjaldsíðum) og í listum (röðum og dálkum). Það er gagnlegt þegar framkvæmd eru endurtekin innsláttarverk sem krefjast þess að búnar séu til margar færslur í röð, t.d. runa af sölupöntunum eða skráning á nýjum vörum.
 
@@ -86,11 +86,11 @@ Frekari upplýsingar er að finna í [Afrita og líma algengar spurningar](ui-co
 
 ## <a name="filtering-line-items"></a>Síun á línuatriðum
 
-Til að byrja síun skal velja ![Tákn fyrir afmörkunarsvæði](media/open-filter-pane-icon.png "Afmörkunarsvæðistákn") efst á listanum eða ýta á Shift+F3 til að opna afmörkunarsvæðið. Þú vinnur með afmörkunarsvæðið eins og þú gerir í öllum öðrum listum. Frekari upplýsingar er að finna í [Síun](ui-enter-criteria-filters.md#Filtering).
+Til að byrja síun skal velja ![Tákn fyrir afmörkunarsvæði](media/open-filter-pane-icon.png "Afmörkunarsvæðistákn") efst á listanum eða ýta á Shift+F3 til að opna afmörkunarsvæðið. Þú vinnur með afmörkunarsvæðið eins og þú gerir í öllum öðrum listum. Frekari upplýsingar er að finna í [Síun](ui-enter-criteria-filters.md#filtering).
 
 Síun er sérstaklega hjálpleg þegar lengri skjöl eru skoðuð og greind. Ímyndaðu þér til dæmis að þú opnaðir bókaðan sölureikning og síar línuatriðin til að birta öll línuatriði sem eru með afslætti yfir 5% eða síar til að birta aðeins reiðhjólabúnað með „pro“ í heitinu.
 
-## <a name="Focus"></a>Fókus settur á línuatriði
+## <a name="focusing-on-line-items"></a><a name="Focus"></a>Fókus settur á línuatriði
 
 Þegar unnið er á skjölum sem innihalda vörulínuhluta, t.d. sölupöntun eða reikningssíðu, er hægt að skipta yfirlitinu til að einbeita sér eingöngu að vörulínunum. Hluti vörulínanna stækkar síðan þannig að það starfi nokkurn veginn allt vinnusvæðið, hylur aðra hluta síðunnar fyrir utan aðgerðasvæði efst. Þetta veitir þér betri yfirsýn yfir línuatriðin og gefur meira rými til að vinna í þeim.
 
@@ -113,6 +113,11 @@ Til að opna núverandi spjald eða skjal í nýjum glugga skal velja táknið !
 > [!NOTE]
 > Ef unnið er í Safari-vafranum gæti sprettigluggavörn valdið því að nýi glugginn opnist ekki. Ef þetta er tilfellið skal tilgreina vefslóð afurðarinnar sem heimilaða vefsvæði. Frekari upplýsingar er að finna í [Breyta sérstillingum í Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Sama kann að gerast í öðrum vöfrum, svo sem Firefox. Frekari upplýsingar er að finna í [Stillingar sprettigluggavarnar í Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+
+Önnur leið til að gera margt í einu er að opna [!INCLUDE[d365fin](includes/d365fin_md.md)] í tveimur eða fleiri vafragluggum. Þegar þetta er gert ætti að búa til nýjan flipa og síðan afrita/líma vefslóð upprunalega flipans í nýja flipann. Þetta býr til nýja lotu.   
+
+> [!NOTE]
+> Ekki skal nota aðgerðina **Tvítekning** í vafranum til að búa til nýjan flipa því að það getur leitt til þess að aðgerðir í einum flipa útiloki aðgerðir í öðrum flipa vegna þess að þeir tilheyra sömu lotunni.
 
 ## <a name="entering-quantities-by-calculation"></a>Magn slegið inn eftir útreikningum
 
@@ -197,7 +202,7 @@ Hægt er að færa inn einn af þessum kóðum í stað sérstakrar dagsetningar
 
 |Færsla|Túlkun|  
 |---------------|------------------------|  
-|`131202` 132455|13/12/02 13:24:55|  
+|`131202` 132455|13-12-02 13:24:55|  
 |1-12-02 10|01/12/02 10:00:00|  
 |1.12.02 5|01/12/02 05:00:00|  
 |1.12.02|01/12/02 00:00:00|  

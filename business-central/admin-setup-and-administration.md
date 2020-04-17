@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/30/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f71c3fa29ab12c13395c07d5919fc14e86511e75
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 9094d2f77dff8372ece8bd5a5b434f63042d3adc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999688"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186645"
 ---
 # <a name="administration"></a>Stjórnun
 Almenn stjórnunarverk eru yfirleitt framkvæmd af einu hlutverki innan fyrirtækisins. Umfang þessara verka getur byggst á stærð fyrirtækisins og starfsábyrgð stjórnandans. Þessi verk geta falið í sér umsjón með gagnagrunnssamstillingu verkraða og póstraða, uppsetningu notenda og sérstillingu viðmóts.  
@@ -36,6 +36,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Skilgreinið hverjir geta skráð sig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að búa til notendur í Microsoft 365 stjórnendamiðstöð samkvæmt vöruleyfum.|[Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)|
 |Úthluta heimildum til notendur, breyta heimildasöfnum og hópa notendur saman til að auðvelda heimildastjórnun.|[Úthluta leyfi til notenda og hópa](ui-how-users-permissions.md)|
 |Bæta við notendum, meðhöndla heimildir og aðgang að gögnum, úthluta hlutverkum.|[Vinna með forstillingar](admin-users-profiles-roles.md)|
+|Setja upp prentara og tilgreina hvaða skýrslur á að prenta á hvaða prentara.|[Setja upp prentara](ui-specify-printer-selection-reports.md)|
 |Flokka gagnatrúnað fyrir reiti þannig að þú getir svarað beiðnum frá skráðum aðilum sem tengjast persónuupplýsingum þeirra.|[Flokkun gagnatrúnaðar](admin-classifying-data-sensitivity.md)|
 |Svara beiðnum frá skráðum aðilum sem tengjast persónuupplýsingum þeirra.|[Svara beiðnum um persónuleg gögn](admin-responding-to-requests-about-personal-data.md)|
 |Nýtt fyrirtækiseining sem notar sniðmát er sett upp.|[Stofna ný fyrirtæki](about-new-company.md)|

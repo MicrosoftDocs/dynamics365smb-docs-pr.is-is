@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bc55e2ec51285f540c117983af51704f7059abd9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303873"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185973"
 ---
 # <a name="application-compliance"></a>Reglufylgni forrits
 Þetta efni inniheldur upplýsingar um reglufylgni forrits í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)], á borð við alþjóðlegan fjárhagsskilastaðal, staðbundnar aðgerðir, almennu persónuverndarreglugerðina og fleira. Traust á lausn í fyrirtækjarekstri er lykillinn að því að reka hagkvæmt fyrirtæki. Business Central gerir fyrirtækjum kleift að einfalda viðskiptaferla og einnig að fylgja auknum reglugerðum og skýrslukröfum á áreiðanlegan og hagkvæman hátt.

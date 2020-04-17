@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: db5b7bdf247919b12a6c803dd33f0f9ff8caf7cc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 264ae00ff26156bd0d740d015664f260bd062f4a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301493"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182565"
 ---
 # <a name="register-employees"></a>Skrá starfsmenn
 Til að nota eiginleikann Mannauður þarf fyrst að skrá hvern starfsmann með því að búa til spjald með öllum grunnupplýsingum og öðrum tengdum upplýsingum.
@@ -30,14 +30,14 @@ Eftirfarandi aðferðir lýsa því hvernig á að búa til fyrsta starfsmannasp
 > Hægt er að endurgreiða starfsmönnum fyrir útgjöld þeirra í viðskiptaerindum. Til þess þarf að fylla inn í reitina á flýtiflipanum **Greiðslur** á síðunni **starfsmannaspjald**. Nánari upplýsingar eru í [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Uppsetning starfsmanns
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsfólk** og veldu síðan tengda tengilinn.
-2. Valið er **Nýtt** aðgerð.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsmenn** og veldu síðan tengda tengilinn.
+2. Valið er aðgerðin **Nýtt**.
 3. Á síðunni **Starfsmannaspjald** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Setja inn mynd af starfsmanni.
 Ef þú ert með mynd af starfsmanni í .bmp sniði, getur þú sett það á starfsmannaspjaldið.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsfólk** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsmenn** og veldu síðan tengda tengilinn.
 2. Opnaðu kortið fyrir viðkomandi starfsmann.
 3. Í **Mynd starfsmanns** velurðu fellilistann og svo **Flytja inn**.
 4. Á síðunni **Velja mynd til að hlaða upp** velurðu hnappinn **Velja**.
@@ -50,7 +50,7 @@ Myndin er sett inn í **Starfsmannamynd**.
 
 Hægt er að nota önnur aðsetur til að halda utan um aðsetur starfsmanns, til dæmis ef hann er staðsettur í útlöndum, í langri viðskiptaferð eða er á sumardvalarstað.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsfólk** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsmenn** og veldu síðan tengda tengilinn.
 2. Opnaðu kortið fyrir viðkomandi starfsmann.
 3. Veldu aðgerðina **Annað aðsetur**
 4. Á síðunni **Skrá yfir önnur aðsetur** skal fylla út reitina eins og þörf krefur.

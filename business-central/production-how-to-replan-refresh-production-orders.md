@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c8c1885abb3913f4bec3246234a08ebe75bd1718
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: eec002d4c813e92633cceb3f074c5ba4f2c4742b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313181"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191572"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Enduráætla eða uppfæra framleiðslupantanir beint
 Aðgerðin **Enduráætla** er venjulega notuð eftir íhlutum, sem standa fyrir undirliggjandi framleiðslupantanir, hefur verið bætt við eða þeim breytt. Þessi áætlunaraðgerð reiknar breytingar sem gerðar eru á íhlutum og leiðarlínum. Hún tekur með vörur í neðri framleiðsluuppskriftum og kann að stofna nýjar framleiðslupantanir fyrir þær.  

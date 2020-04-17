@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9774c3472a70967f6b0250e2f02e817f26e9b710
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315133"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195724"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Af hverju er síða læst og því ekki hægt að sérsníða hana
 
-Það eru tvö skilyrði sem koma í veg fyrir að þú sérsníðir síðu. Annaðhvort er blaðsíðan læst (eins og kemur fram í ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás")) tákninu eða hún er útilokuð (eins og kemur fram í ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") tákninu).
+Það eru tvö skilyrði sem koma í veg fyrir að þú sérsníðir síðu. Annaðhvort er síðan læst (eins og kemur fram í ![Sérstilla lás](media/personalization-lock-icon.png "Sérstilla lás")) tákninu) eða hún er útilokuð (eins og kemur fram í ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") tákninu).
 
 ## <a name="locked-from-personalizing"></a>Læst fyrir sérstillingar
 
@@ -48,7 +48,7 @@ Ef þú vilt taka síðu úr lás og halda áfram að sérstilla hana skaltu vel
 
 ## <a name="blocked-from-personalizing"></a>Lokað fyrir sérstillingar
 
-Ef táknið ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") er í borðanum fyrir **sérstillingu** merkir það að þú getir ekki gert neinar sérstillingar á síðunni.
+Ef táknið ![Sérstilling útilokuð](media/personalization-blocked-icon.png "Sérstilling útilokuð") í borðanum **Sérstilling** merkir það að þú getir ekki gert neinar sérstillingar á síðunni.
 
 <!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 

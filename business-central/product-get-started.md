@@ -5,23 +5,23 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4ae2faf57007bef9525134fbdc1232e8c0103d56
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954260"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190156"
 ---
-# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="getting-started-with-d365fin_long"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Auðvelt er að skrá sig og hægt er að yfirfæra fyrirliggjandi viðskiptagögn úr eldra kerfinu.  
 
 Til að hjálpa þér við áskriftina þína skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
 
 Þegar þú skráir þig á [!INCLUDE [prodshort](includes/prodshort.md)] færðu aðgang að sýnifyrirtæki. Sýndarfyrirtækið er með sýnigögn en þú getur til dæmis búið til ný söluskjöl, eða sett upp bankareikning. Ef þú vilt hins vegar nota [!INCLUDE [prodshort](includes/prodshort.md)] til að hjálpa þér að reka fyrirtækið þarftu að hafa samband við [!INCLUDE [prodshort](includes/prodshort.md)] endursöluaðila og kaupa áskrift. Frekari upplýsingar um prufur og áskriftir er að finna í [Prufuútgáfa og áskrift](across-preview.md).  
 
-## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Fá að vita [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="get-to-know-d365fin"></a>Fá að vita [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Hér eru nokkur eldsnögg trix, sem gott er að vita af:  
 
@@ -38,20 +38,20 @@ Frekari upplýsingar er að finna í [Unnið með [!INCLUDE[d365fin](includes/d3
 
 Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](across-business-functionality.md).
 
-Áður en þú getur byrjað að nota virkni verður að gera ákveðna uppsetningu. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Áður en þú getur byrjað að nota virkni verður að gera ákveðna uppsetningu. Til að hefjast handa þarf einfaldlega að velja táknið ![Sprocket til að opna táknið stillingavalmynd](media/ui-experience/settings_icon_small.png) og síðan aðgerðina **Uppsetning með hjálp**. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!TIP]
-> Sum uppsetningarskrefin er hægt að gera hálfsjálfvirkt með uppsetningarleiðbeiningar með hjálp.
+> Sum uppsetningarskrefin er hægt að gera hálfsjálfvirkt með uppsetningarleiðbeiningar með hjálp. Önnur áskilin handvirk uppsetning, og hægt er að finna lista á síðunni **Ítarlegar stillingar**.
+
+<!--Some Role Center pages provide a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+
+> [!NOTE]
+> The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).  -->
 
 Fyrir yfirlit yfir núverandi möguleika og hvað er framundan, skaltu skoða útgáfuáætlunina okkar á [Microsoft Dynamics 365 Business Central útgáfuáætlun](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Mín hlutverk
 Síðan Mitt hlutverk byggist á hlutverkamiðaðri hönnun til að veita þér hraðan aðgang að viðskiptaferli og verkfærum viðskiptagreindar sem þú þarft til að sinna starfinu þínu. Endurskoðandi má til dæmis fylgjast með greiðslur og samþykktir og skoða vaxtareikninga afköst myndrit. Kynntu þér hvað aðgang núverandi hlutverk þitt veitir þér með hlutverkaleit. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md) Skoðaðu alls kyns Mín hlutverk með því að velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") efst í hægra horninu, velja **Mínar stillingar** og síðan Mitt hlutverk sem á að skoða. Þú ert sjálfkrafa skráð(ur) út og inn aftur til að nota breytinguna. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).  
-
-Sumar Mitt hlutverk síður bjóða upp á hnappinn **Uppsetning og viðbætur**. Hér hefurðu aðgang að lista yfir aðstoð við uppsetningu sem auðveldar þér að hefjast handa, með því að setja upp valin svæði á fljótan hátt. Ef svæði er ekki tengt við uppsetningarleiðsögn, veljið þá **Handvirk uppsetning** aðgerðir til að fá aðgang að uppsetningarsíðum þar sem þú getur fyllt inn í uppsetningareiti fyrir öll svæði handvirkt. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
-
-> [!NOTE]
-> Listi yfir uppsetningarleiðbeiningar, viðbætur og þjónustu sem í boði, eru mismunandi eftir notandaupplifuninni sem þú velur fyrir fyrirtækið þitt. **Grunn** upplifun veitir aðgang að færri upplifunum en **Úrvals** upplifun gerir. Í fyrsta sinn sem þú skráir þig inn notarðu grunnupplifunina. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
 
 ## <a name="trying-things-out-in-your-own-company"></a>Prufukeyra hluti í þínu eigin fyrirtæki
 Ertu að hugsa um að gerast áskrifandi? Auðveldlega er hægt að fara út úr sýnifyrirtækinu, yfir í það að stofna og vinna í eigin fyrirtæki. Þetta er frábær leið til að byrja að færa sig í átt að áskrift. Uppsetningar fyrir fjármál fylgja; aðeins þarf að stofna eða flytja inn vörur þínar og þjónustu, viðskiptamenn og lánardrottna. Eftir það ertu tilbúinn til að bóka reikninga og nota verkfæri viðskiptagreindar til að greina fyrirtækið þitt. Hægt er að nota fyrirtækið án endurgjalds yfir 30-daga prufu tímabil. Ef þú gerist áskrifandi að [!INCLUDE[d365fin](includes/d365fin_md.md)] á þeim tíma, ertu þegar kominn af stað. Hægt er að halda áfram starfið sem var unnið á meðan á prufu tímabilinu stóð.  
@@ -77,7 +77,7 @@ Fara á innihald um önnur Dynamics 365 forrit með því að velja [Dynamics 36
 
 <!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsget-started-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 

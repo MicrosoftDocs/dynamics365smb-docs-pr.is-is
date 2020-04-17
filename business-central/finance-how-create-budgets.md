@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b18322180f833a63b7f4565bd4000bdc3bd4f571
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953804"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183717"
 ---
 # <a name="create-gl-budgets"></a>Stofna fjárhagsáætlunum
 Hægt er að útbúa margar áætlanir fyrir sömu tímabil með því að stofna áætlanir undir aðskildum heitum. Fyrst er heiti áætlunar sett upp og áætlunarupphæðir færðar inn. Þá er heiti áætlunarinnar haft með við allar áætlunarfærslur sem stofnaðar eru.  
@@ -48,7 +48,7 @@ Eins og fyrir nánast allar aðrar síður getur þú flutt út gögn á síðum
 > [!NOTE]
 > Bókhaldslykillinn, sem fjárhagsáætlanir byggjast á, eru með línum af lyklagerðinni Fyrirsögn sem innihalda samtölu línanna fyrir neðan. Þegar þú flytur út fjárhagsáætlun eru gögn í öllum línum flutt út óháð gerð lykils. Hins vegar er aðeins hægt að flytja aftur inn gögn í línum af lyklagerðinni Bókun. Samkvæmt því: <br /><br /> **Þegar þú flytur inn fjárhagsáætlun verður öllum gildum sem voru til í fyrirsagnarlínum eytt.** <br /><br /> Þetta er til að koma í veg fyrir rangar samtölur eftir innflutning gagna sem hafa verið búin til eða breytt í Excel.<br /><br /> **Atburðarás**: Þú veist að nýi áætlaði launakostnaðurinn kemur til með að vera 1.200.000 SGM. Þú vilt að launadeildin áætli fyrir þessar þrjár tilteknu línur (af lyklagerðinni Bókun) fyrir starfsmenn í fullu starfi, starfsmenn í hlutastarfi og tímabundin aðstoð. Línurnar þrjár eru flokkaðar undir fyrirsagnarlínu launa.<br /><br />Þú slærð inn 1.200.000 í fyrirsagnarlínuna, flytur út fjárhagsáætlunina í Excel og sendir hana svo til launadeildarinnar og biður hana um að úthluta 1.200.000 SGM.<br /><br /> Launadeildin úthlutar upphæðinni á bókunarlyklana þrjá. Þegar þú flytur aftur inn í fjárhagsáætlun er fyllt út í lyklana þrjá með nýju Excel-gögnunum, sem verður samanlagt 1.200.000 SGM og fyrirsagnarlínan er auð.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Flutningur viðskiptagagna í Excel](about-export-data.md)  

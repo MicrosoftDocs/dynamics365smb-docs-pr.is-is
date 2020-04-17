@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6fbb4e458b0e4f9068b234748a3921dbca6b3222
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1041dda83552af3c2c805c08518600d89f0467fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300594"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188733"
 ---
 # <a name="edit-posted-documents"></a>Breyta bókuðum fylgiskjölum
 Stundum þarf að uppfæra bókað skjal vegna þess að upplýsingar sem skipta máli fyrir skjalið hafa breyst. Á bókuðu söluskjali getur þetta til dæmis verið rakningarnúmer pakka frá flutningsaðilanum. Á bókuðu innkaupaskjali getur þetta verið texti greiðslutilvísunar.
@@ -37,7 +37,7 @@ Eftirfarandi viðbótarskjölum er hægt að breyta í völdum landsútgáfum:
 ## <a name="to-edit-a-posted-sales-shipment"></a>Breyta bókaðri söluafhendingu
 Eftirfarandi útskýrir hvernig á að breyta bókaðri söluafhendingu. Skrefin eru svipuð í hinum studdu skjölunum.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar söluafhendingar** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar söluafhendingar** og veldu síðan tengda tengilinn.
 2. Veldu skjalið sem á að breyta og síðan aðgerðina **Uppfæra skjal**. Að öðrum kosti skaltu opna skjalið og velja síðan aðgerðina.
 3. Á síðunni **Bókuð söluafhending - uppfæra** skaltu breyta **Rakningarnr. pakka** reitnum, sem dæmi.
 4. Velja hnappinn **Í lagi**.

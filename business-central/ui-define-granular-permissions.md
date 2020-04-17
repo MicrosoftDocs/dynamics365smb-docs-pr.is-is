@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943210"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194476"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Úthluta leyfum til notenda og hópa
 [!INCLUDE[d365fin](includes/d365fin_md.md)] öryggiskerfið gerir þér kleift að stjórna því hvaða hluti notandi hefur aðgang að í hverjum gagnagrunni eða umhverfi fyrir sig. Þú getur tilgreint fyrir hvern notanda hvort hann geti lesið, breytt eða slegið inn gögn í valda gagnagrunnshluti. Frekari upplýsingar er að finna í [Gagnaöryggi](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) í hjálp Developer and ITPro fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -130,18 +130,18 @@ Til dæmis getur notandi haft heimild til að keyra kótaeiningu 80, Sala-bókun
 Hins vegar þarf notandi ekki að hafa ótakmarkaðan aðgang að töflunni Sölulína til að keyra kótaeininguna. Ef notandinn hefur óbeina heimild fyrir töflu sölulínu keyrir kóðaeiningin Sala-bókun án vandræða. Þegar notandi hefur óbeina heimild, getur sá notandi aðeins breytt töflunni Sölulína með því að keyra Sölubókun kóðaeiningunni eða annan hlut sem hefur heimild til að breyta töflunni Sölulína. Notandinn getur aðeins breytt töflunni Sölulína frá studdum forritssvæðum. Notandinn getur ekki keyrt eiginleikann óvart eða í sviksamlegum tilgangi á annan hátt.
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Að stofna eða breyta heimildum með skráning við aðgerðir þínar
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Heimildasamstæður** og veldu síðan tengda tengilinn.
-2.  Einnig, á síðunni **Notendur**, veldu aðgerðina **Heimildarsöfn**.
-3.  Á síðunni **Heimildarsöfn**, veldu aðgerðina **Nýtt**.
-4.  Fyllið í reitina eftir þörfum í nýrri línu.
-5.  Veljið aðgerðina **Heimildir**.
-6.  Á síðunni **Heimildir** skal velja aðgerðina **Skrá heimildir** og velja svo aðgerðina **Byrja**.
+1.    Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Heimildasamstæður** og veldu síðan tengda tengilinn.
+2.    Einnig, á síðunni **Notendur**, veldu aðgerðina **Heimildarsöfn**.
+3.    Á síðunni **Heimildarsöfn**, veldu aðgerðina **Nýtt**.
+4.    Fyllið í reitina eftir þörfum í nýrri línu.
+5.    Veljið aðgerðina **Heimildir**.
+6.    Á síðunni **Heimildir** skal velja aðgerðina **Skrá heimildir** og velja svo aðgerðina **Byrja**.
 
     Þetta setur af stað skráningarferli sem heldur utan um allar aðgerðir þínar í notandaviðmótinu.
-7.  Farðu á hinar ýmsu síður og aðgerðir í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem þú vilt að notendur með þessa heimildasamstæðu fái aðgang að. Þú verður að ljúka verkinu sem ætlunin er að skrá heimildir fyrir.
-8.  Þegar á að ljúka við skráningu er farið aftur á síðuna **Heimildir** og svo valið **Stöðva** aðgerðina.
-9.  Velja **Já** hnappinn til að bæta skráð heimildir við nýja heimildasafnið.
-10. Fyrir hvern hlutar á skráningar listanum, tilgreinið ef notendur geta sett inn, breytt eða eytt skráningum í skráningartöflunum.
+7.    Farðu á hinar ýmsu síður og aðgerðir í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem þú vilt að notendur með þessa heimildasamstæðu fái aðgang að. Þú verður að ljúka verkinu sem ætlunin er að skrá heimildir fyrir.
+8.    Þegar á að ljúka við skráningu er farið aftur á síðuna **Heimildir** og svo valið **Stöðva** aðgerðina.
+9.    Velja **Já** hnappinn til að bæta skráð heimildir við nýja heimildasafnið.
+10.    Fyrir hvern hlutar á skráningar listanum, tilgreinið ef notendur geta sett inn, breytt eða eytt skráningum í skráningartöflunum.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Öryggisafmarkanir - Að takmarka aðgang notanda að tilteknum færslum í töflu
 Fyrir öryggi á færslustigi í [!INCLUDE[d365fin](includes/d365fin_md.md)] notarðu öryggissíur til að takmarka aðgang notanda að gögnum í töflu. Þú býrð til öryggissíur á töflugögnum. Öryggissía lýsir færslusafni í töflu sem notandi hefur aðgangsheimild að. Þú getur til dæmis tilgreint að notandi geti aðeins lesið færslur sem innihalda upplýsingar um tiltekinn viðskiptavin. Þetta þýðir að notandinn getur ekki nálgast færslur sem innihalda upplýsingar um aðra viðskiptavini. Nánari upplýsingar eru í [Að nota öryggissíur](/dynamics365/business-central/dev-itpro/security/security-filters) í Developer og IT Pro hjálpinni.
@@ -204,5 +204,4 @@ Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað, 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Stjórnun](admin-setup-and-administration.md)  
 [Bæta notendum við Office 365 fyrir fyrirtæki](https://aka.ms/CreateOffice365Users)  
-[Microsoft Dynamics 365 Business Central Leyfishandbók](https://aka.ms/BusinessCentralLicensing)  
 [Öryggi og vernd í Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) í Developer og ITPro hjálp

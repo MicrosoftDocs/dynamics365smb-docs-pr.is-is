@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/20/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991977"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190684"
 ---
 # <a name="collect-outstanding-balances"></a>Innheimta útistandandi skuldir
 Í stjórnun útistandandi skulda felst að kanna hvort upphæðir sem falla í gjalddaga eru greiddar tímanlega. Ef viðskiptamenn eru í vanskilum geturðu sent yfirlitsskýrslu Viðskiptamanns sem innheimtubréf. Þú getur einnig gefið út innheimtubréf.

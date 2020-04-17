@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ac4415423a7e40332d56193ea3a183bae329a48f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 9aea2f4af1e7b8095d6768de94ae6b3c46479f80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878222"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181797"
 ---
 # <a name="work-with-responsibility-centers"></a>Vinna með ábyrgðarstöðvar
 Ábyrgðarstöðvar bjóða upp á eiginleika sem felst í umsjón með stjórnunarmiðstöðvum. Ábyrgðarstöð getur verið kostnaðarstöð, framlegðarstöð, fjárfestingarstöð eða önnur stöð skilgreind út frá stjórnsýslu fyrirtækisins. Dæmi um ábyrgðarmiðstöðvar eru söluskrifstofur, innkaupadeild fyrir nokkrar birgðageymslur og verksmiðjuskipulagsdeild. Með því að nota þessa aðgerð, geta fyrirtæki t.d. sett upp notendasértæk birtingaform sölu- og innkaupaskjala sem varða eingöngu tiltekinnar ábyrgðastöðvar.  

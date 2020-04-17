@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952627"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183789"
 ---
 # <a name="working-with-dimensions"></a>Unnið með víddir
 Til að auðvelda greiningu á skjölum, svo sem sölupöntum, geturðu notað stærðir. Víddir eru eiginleikar og gildi sem flokkar færslur svo þú getir fylgst með og greina þær. Til dæmis má vísa til verkefnisins eða deildarinnar sem innganga kom frá.  
@@ -209,7 +209,7 @@ Altækar\-víddir eru alltaf skilgreindar og nefndar af fyrirtækjum. Til að sj
 |Víddargildiskóði sem ekki er auður fyrir auða sjálfgefna vídd þar sem reiturinn **Virðisbókun** inniheldur **Sami kóði**|-%1 %2 verður að vera auður.<br />-%1 %2 verður að vera auður fyrir %3 %4.|-Breyta reitnum **Virðisbókun** á síðunni **Sjálfgefin vídd**.<br />-Færðu inn auðan víddargildiskóða fyrir víddina sem stangast á í víddasamstæðunni.|
 |Óvæntur víddargildiskóði fyrir sjálfgefna vídd þar sem reiturinn **Virðisbókun** inniheldur **Enginn kóði**|-%1 %2 má ekki nefna.<br />-%1 %2 má ekki nefna fyrir %3 %4|-Breyta reitnum **Virðisbókun** á síðunni **Sjálfgefin vídd**.<br />-Fjarlægja línuna sem stangast á úr víddasamstæðunni.|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Viðskiptaupplýsingar](bi.md)  

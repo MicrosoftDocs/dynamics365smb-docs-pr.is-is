@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5927a69199f72b09f133d63ac76bade7af361e8c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: d5aba21a9b98ef98b31dc4bc4dfa0bb853d7891a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877016"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193924"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Bæta reitum við Word-skýrsluútlit
 Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndir. Þetta efnisatriði lýsir ferlinu við að bæta reitum í gagnasafni skýrslu við fyrirliggjandi Word-skýrsluútlit fyrir skýrslu. Reitum er bætt við með því að nota Word sérsniðinn XML-hluta fyrir skýrsluna og bæta við efnisstjórnun sem varpar í reiti gagnamengis skýrslunnar. Bæting reita þarfnast einhverrar þekkingar á gagnamengi skýrslunnar þannig að hægt er að bera kennsl á reitina sem á að bæta við útlitið.  
@@ -23,7 +23,7 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
 > [!NOTE]  
 >  Ekki er hægt að breyta innbyggðu skýrsluútliti<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-##  <a name="OpenXMLPart"></a>Til að opna sérsniðinn XML-hluta fyrir skýrsluna í Word  
+##  <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>Til að opna sérsniðinn XML-hluta fyrir skýrsluna í Word  
   
 1.  Ef það er ekki þegar opið skal opna Word-sniðmátsskjal fyrir skýrslu í Word.  
   

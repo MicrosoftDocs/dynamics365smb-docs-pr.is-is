@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: cdf0498d81780360d026b56ba624645449aee02b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2b35eaf967a19f14ba97b7d494b2691702e97f53
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301306"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181144"
 ---
 # <a name="special-data-output-and-reports-for-the-tax-authority"></a>Sérstök gögn og skýrslur fyrir skattyfirvöld
 Þess er krafist í lögum að skattyfirvöldum sé send gagnaskrá á tilteknu sniði.  

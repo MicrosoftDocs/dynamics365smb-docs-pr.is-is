@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 01/29/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f11ac5080c8601ce8ae46178bf5c1ed8bb646e1
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 4567bdc42cc7ef9434957d77b2675db78a7fd6f2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999572"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184317"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Setja upp eignaafskriftir
  Hægt er að nota ýmsar afskriftaaðferðir vegna reikningsskila og skattframtals. Mörg stórfyrirtæki nota beinlínuafskriftir í reikningsskilum vegna þess að með þeim er yfirleitt hægt að tilgreina hærri tekjur. Vegna tekjuskatts nota þó mörg fyrirtæki hraðari afskriftaaðferð á borð við hlutfallslega afskrift. Afskriftaraðferð eignar er tilgreind með svæðinu **Afskriftaraðferð** á síðunni **Eignaspjald**. Frekari upplýsingar um hvað mismunandi aðferðir gera eru í [Afskriftaaðferðir](fa-depreciation-methods.md).

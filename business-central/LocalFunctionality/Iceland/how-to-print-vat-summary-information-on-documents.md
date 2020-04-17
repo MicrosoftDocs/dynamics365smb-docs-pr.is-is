@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: fee764e4e752b74bae5782405b3b5b6545e21f5f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 612b6e6c177358c3eb9b5b06031a5acaba7f22ec
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878916"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181145"
 ---
 # <a name="print-vat-summary-information-on-documents"></a>Prenta VSK-yfirlit á skjölum
 Ef virðisaukaskattur er reiknaður eru upplýsingar um samantekt VSK-upplýsinga yfirleitt prentaðar á sölu- og innkaupaskjöl. Á Íslandi prentar [!INCLUDE[d365fin](../../includes/d365fin_md.md)] hins vegar ekki samantekt VSK-upplýsinga ef aðeins er notaður einn VSK-sölukóði í skjalinu. Hægt er að breyta þessari hegðun með því að nota valkostinn **Sýna alltaf VSK-yfirlit**.  

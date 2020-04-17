@@ -1,8 +1,6 @@
 ---
 title: Yfirlit yfir verkhluta lokun bóka | Microsoft Docs
 description: Kynntu þér ferlið þegar bókum er lokað fyrir fjárhagsárið eða tímabilið og hvað gerist eftir að þú lokar við enda árs.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: db4ec1033a830cb72b602691797d2b1ff637c2e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0482c797fcc4f7b0ba590cfe757bd616d652d18a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310109"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195852"
 ---
 # <a name="closing-the-books"></a>Bókum lokað
 Þegar búið er að ganga úr skugga um að allir reikningar séu uppfærðir og búið er að úthluta kostnaði og tekjum, má loka bókunum fyrir reikningsárið eða tímabilið.
@@ -54,5 +52,6 @@ Kerfið býr svo til lokunarfærslu, en bókar færsluna ekki sjálfkrafa. Hægt
 Hægt er að bóka á fyrra reikningsár jafnvel eftir lokun rekstrarreiknings ef keyrslan Loka rekstrarreikningi er keyrð aftur síðar.
 
 ## <a name="see-also"></a>Sjá einnig
-[Opna nýtt reikningsár](finance-how-open-new-fiscal-year.md)  
+
+[Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

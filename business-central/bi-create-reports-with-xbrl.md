@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9aec5c57c66ce39bc9d314dc257e2a801ed961ea
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 4fd911a708a929a9c73270c05b7729d17d84ec13
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952747"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186141"
 ---
 # <a name="create-reports-with-xbrl"></a>Stofna skýrslur með XBRL
 XBRL (eXtensible Business Reporting Language) er XML-miðað tölvumál fyrir viðskiptaskýrslugerð og gerir fyrirtækjum kleift að vinna úr og deila gögnum sínum á árangursríkan og nákvæman hátt. XBRL-áætlunin býður fjölda hugbúnaðarfyrirtækja sem framleiða bókhalds- og áætlunarkerfi og alþjóðlegum endurskoðendafyrirtækum altæka viðskiptaskýrslugerð. Markmið áætlunarinnar er að búa til staðal fyrir samræmda skýrslugerð viðskiptaupplýsinga fyrir banka, fjárfesta og ríkisstofnanir. Slíkar viðskiptaskýrslur geta falið í sér eftirfarandi atriði:  
@@ -105,7 +105,7 @@ Fyrsta skrefið þegar beita á XBLR-aðgerðum er að flytja inn flokkunina í 
 6.  Til að flytja inn tenglagrunninn skal velja aðgerðina **Flytja inn**.  
 7.  Velja **Já** til að tengja tenglagrunninn við skemað.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármál](finance.md)    

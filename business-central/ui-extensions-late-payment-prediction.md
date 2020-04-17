@@ -8,33 +8,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 613d20e3b4132cdf797586441bff0688a2076692
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 79b57454d0e4ac1bcdad9817b53f1b273e416658
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315503"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194164"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Viðbót greiðsludráttarspár  
 Árangursrík stjórnun viðskiptakrafna er mikilvæg fyrir heildar fjárhagslega heilsu fyrirtækis. Viðbót greiðsludráttarspár getur hjálpað þér að draga úr útistandandi kröfum og fínstilla stefnu sjóðsins með því að spá fyrir um hvort sölureikningar verði greiddar á réttum tíma. Til dæmis, ef spá telur greiðsla vera sein, gætir þú ákveðið að lagfæra skilmála greiðslu eða greiðslumáta fyrir viðskiptamanninn.
 
-## <a name="what-are-predictions-based-on"></a>Á hverju eru spár byggðar?  
-Viðbót greiðsludráttarspár notar spálíkan sem við þróuðum í Azure-vélnámsstúdíói og þjálfuðum með því að nota gögn sem eru dæmigerð fyrir fjölda lítilla og meðalstórra fyrirtækja. Þó að við höfum nú þegar þjálfað og metið það, þá mun spálíkan okkar halda áfram að læra af gögnum þínum. Því meira sem þú notar líkanið og því fleiri gögn sem þú færir inn í það, því nákvæmari spár verða. Sjálfgefið er að viðbótin metur líkanið og uppfærir spárnar vikulega. Hins vegar er hægt að uppfæra spár þegar þú vilt með því að velja **Uppfæra spár** aðgerð á síðunni **Færslur í viðskiptamannabók**.  
-
-> [!Note]
-> Við notum smá af reikningstíma þinn í hverri viku þegar við metum líkanið og uppfærum spár þínar. Til viðbótar við handvirkt uppfærslu spár þínar eru aðrar aðgerðir sem neyta reikningstíma þegar þú þjálfar líkanið (sem þú gætir gert ef þú hefur nýlega bætt við gögnum) og þegar þú metur líkanið (sem lítur á gæði líkansins).
-
 ## <a name="getting-started"></a>Hafist handa
-Viðbótin er ókeypis í [!INCLUDE[d365fin](includes/d365fin_md.md)] og við bjóðum áskrift á Azure-vélnámi. Áskriftin býður upp á 30 mínútur af reikningstíma á mánuði. Ef þú þarft meira en það geturðu búið til eigin fspálíkan og notað það í staðinn. Nánari upplýsingar er að finna í kaflanum sem heitir _Smíðaðu þitt eigið spálíkan_ síðar í þessu efnisatriði.  
 
 Þegar þú opnar bókað söluskjal birtist tilkynning efst á síðunni. Til að nota Viðbót greiðsludráttarspár geturðu tekið þátt með því að velja **Virkja** í tilkynningunni. Einnig er hægt að setja upp viðbótina handvirkt. Til dæmis, ef þú iðrast þess að hafna tilkynningunni.  
 
 Til að virkja viðbótina handvirkt skaltu fylgja þessum skrefum:
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustutengingar** og veldu síðan tengda hlekkinn.  
-2. Veldu **Uppsetning greiðsludráttarspár** valkostinn og síðan fylltu inn reitina eftir þörfum.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning greiðsludráttarspár** og veldu síðan tengda tengilinn.  
+2. Fyllið inn reitina eftir þörfum.
+
+> [!Note]
+> Ef ákveðið er að virkja viðbótina handvirkt skal hafa í huga að [!INCLUDE[d365fin](includes/d365fin_md.md)] leyfir þér ekki að gera það ef gæði líkansins eru léleg. Gæði líkansins gefur til kynna hversu nákvæmar spár líkansins eru líklegar til að verða. Nokkrir þættir geta haft áhrif á gæði líkansins. Til dæmis getur verið að ekki hafi verið nægjanlega mikið af gögnum eða að þau voru ekki nógu fjölbreytt. Hægt er að skoða gæði líkansins sem þú ert að nota núna á síðunni **Uppsetning greiðsludráttaspár**. Þú getur einnig tilgreint lágmarksþröskuld fyrir gæði líkansins.   
 
 ## <a name="viewing-all-payment-predictions"></a>Skoðar allar greiðsluspár
 Ef þú virkjar viðbót verður **Greiðslur sem spáð er að munu dragast** flís tiltæk í **Viðskiptastjórnandi** í Mitt hlutverk. Flísin sýnir fjölda greiðslna sem spáð er að dragist, og gerir þér kleift að opna **viðskiptamannafærslur** síðuna þar sem þú getur grafið dýpra í bókaða reikninga. Það eru þrjár dálkar sem veita skal eftirtekt:  
@@ -52,21 +48,64 @@ Ef þú virkjar viðbót verður **Greiðslur sem spáð er að munu dragast** f
 <!--## Scheduling Payment Predictions
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
-## <a name="building-your-own-predictive-model"></a>Búðu til eigin spálíkan
-Hefurðu áhuga á að byggja upp eigin spálíkan? Þú getur notað Azure-vélnámsstúdíó til að byggja upp eigin spálíkan og nota það í [!INCLUDE[d365fin](includes/d365fin_md.md)] . Til að nota eigin líkan þarftu að gerast áskrifandi að Azure-vélnám. Nánari upplýsingar er að finna í [Fylgiskjöl fyrir Azure-vélnámsstúdíó](https://go.microsoft.com/fwlink/?linkid=861765).  
+## <a name="design-details"></a>Hönnunarupplýsingar
+Microsoft notar og rekur margar forspárþjónustur á netinu á öllu svæðum þar sem [!INCLUDE[d365fin](includes/d365fin_md.md)] er í boði. Aðgangur að þessum vefþjónustum er innifalinn í [!INCLUDE[d365fin](includes/d365fin_md.md)] áskriftinni. Frekari upplýsingar er að finna í Microsoft Dynamics 365 Business Central leyfishandbók. Leiðbeiningarnar eru í boði til niðurhals á vefsvæði [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).
 
-Við bjóðum hins vegar auðveldara leið fyrir þig til að búa til og nota eigin spálíkan. Þú getur deilt gögnum úr reikningum þínum með [Forspártilraun okkar fyrir Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) í Azure-vélnámi og látið tilraun okkar búa til og þjálfa spálíkan byggt á gögnum þínum. Til að deila gögnum, á síðunni **Uppsetning greiðsludráttarspár** skal velja **Búa til mitt líkan** aðgerð. Eftir það mun spár byggjast á líkaninu og gögnunum þínum, ekki okkar.  
+Vefþjónustan starfar á þremur stillingum:
+- Þjálfa líkan. Vefþjónustan þjálfar líkanið á grunni gagnamengis sem er útvegað.
+- Leggja mat á líkan. Vefþjónustan athugar hvort líkanið skili áreiðanlegum gögnum fyrir uppgefið gagnamengi.
+- Spá Vefþjónustan notar líkanið á uppgefið gagnamengi til að spá fyrir.
 
+Þessar vefþjónustur eru stöðulausar, sem þýðir að þær nota gögn aðeins til að reikna út spár samkvæmt eftirspurn. Þær vita ekki gögn. 
+
+> [!NOTE]  
+>   Einnig er hægt að nota eigin forspárþjónustu á netinu. Nánari upplýsingar er að finna í [Búa til og nota eigin forspárþjónustu á netinu fyrir spá um greiðsludrátt](#AnchorText). 
+
+### <a name="data-required-to-train-and-evaluate-the-model"></a>Gögn sem þarf til að þjálfa og meta líkanið 
+Fyrir hverja **Viðskiptamannafærslu** sem er með tengdan **Bókaðan sölureikning**:
+- Upphæð (SGM) með sköttum
+- Greiðsluskilmálar í dögum eru reiknaðir út sem **Gjalddagi** mínus **Bókunardagsetning**.
+- Hvort um jafnaðan kreditreikning er að ræða. 
+
+Þar að auki er uppsöfnuðum gögnum bætt við færsluna úr öðrum reikningum sem eru tengdir sama viðskiptamanninum. Þetta felur í sér eftirfarandi:
+
+- Heildarfjöldi og upphæð greiddra reikninga
+- Heildarfjöldi og upphæð reikninga sem voru greiddir seint
+- Heildarfjöldi og upphæð útistandandi reikninga
+- Heildarfjöldi og upphæð útistandandi reikninga sem eru þegar komnir á tíma
+- Hversu mörgum dögum of seint að meðaltali
+- Hlutfall: Fjöldi greiddur of seint/Greiddir reikningar
+- Hlutfall: Upphæð greidd of seint/Greiddir reikningar
+- Hlutfall: Fjöldi útistandandi komnir á tíma/Útistandandi reikningar
+- Hlutfall: Upphæð útistandandi komnir á tíma/Útistandandi reikningar
 > [!Note]
->   Gæði líkansins er mikilvægt. Þegar forspártilraunin okkar notar gögnin þín til að þjálfa líkan ákvarðar það gæðagildi fyrir líkanið í prósentum. Gæði líkansins gefur til kynna hversu nákvæmar spár líkansins séu líklegar að vera. Nokkrir þættir geta haft áhrif á gæði líkansins. Til dæmis, þessar þættir gætu verið að ekki voru næg gögn eða að gögnin innihéldu ekki nógu mikinn breytileika. Hægt er að skoða gæði líkansins sem þú ert að nota núna á síðunni **Uppsetning greiðsludráttaspár**. Þú getur einnig tilgreint lágmarksþröskuld fyrir gæði líkansins. Líkön með gæðagildi fyrir neðan þröskuldinn munu ekki framleiða spár.  
+> Upplýsingar um viðskiptamanninn eru ekki í gagnamenginu.
 
-### <a name="to-use-your-model-instead-of-ours"></a>Að nota líkanið þitt í stað okkar  
-Ef þú býrð til eigin líkan í Azure-vélnámsstúdíói, án þess að nota verkfæri í [!INCLUDE[d365fin](includes/d365fin_md.md)], verður þú að gefa upp innskráningarupplýsingar þína svo að [!INCLUDE[d365fin](includes/d365fin_md.md)] hafi aðgang að líkaninu. Það eru nokkrar skref til að gera þetta:
+### <a name="standard-model-and-my-model"></a>Staðlað líkan og Líkanið mitt
+Viðbót greiðsludráttarspár inniheldur spálíkan sem er þjálfað í að nota gögn sem eru dæmigerð fyrir lítil og upp í meðalstór fyrirtæki. Þegar byrjað er á því að bóka reikninga og taka við greiðslum, mun [!INCLUDE[d365fin](includes/d365fin_md.md)] meta hvort staðlaða líkanið passi við viðskiptaflæðið. 
 
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning greiðsludráttaspár**, og veldu síðan tengda hlekkinn.  
-2. Veldu **Nota Azure-áskriftina mína** gátreitinn.  
-3. Í **Valið líkan** reitinn, veldu **Mitt líkan**.  
-4. Í **Innskráningarupplýsingar fyrir líkanið mitt** flýtiflipanum, sláðu inn API slóðina og API lykil fyrir líkanið.  
+Ef svo virðist sem ferli notanda stemmi ekki við staðlaða líkanið er samt hægt að nota viðbótina en nauðsynlegt er að fá fleiri gögn. Haltu bara áfram að nota [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!Note]
+> Við notum smá af reikningstíma þínum í hverri viku þegar við metum og endurþjálfum líkanið. 
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] keyrir þjálfun og mat sjálfkrafa þegar nógu margir greiddir reikningar og seinir reikningar eru í boði, en þú getur hins vegar keyrt þetta handvirkt hvenær sem þú vilt.
+
+#### <a name="to-train-and-use-your-model"></a>Að þjálfa og nota líkanið
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning greiðsludráttarspár** og veldu síðan tengda tengilinn.  
+2. Í **Valið líkan** reitinn, veldu **Mitt líkan**.
+3. Veldu aðgerðina **Búa til líkanið mitt** til að þjálfa líkan í gögnunum þínum.  
+
+## <a name="create-and-use-your-own-predictive-web-service-for-late-payment-prediction"></a><a name="AnchorText"> </a>Búa til og nota eigin greiðsludráttarspá á netinu til að spá fyrir um greiðsludrátt
+Þú getur einnig búið til þína eigin spáþjónustu á netinu sem byggir á almennu líkani sem heitir **Forspártilraun fyrir Dynamics 365 Business Central**. Þetta líkan er aðgengilegt á netinu í Azure AI. Fylgið eftirfarandi skrefum til að fá aðgang að reitunum:  
+
+1. Opnaðu vafra og farðu á [Azure AI Gallery](https://go.microsoft.com/fwlink/?linkid=2086310).  
+2. Leita að **Forspártilraun fyrir Dynamics 365 Business Central**, og opna svo líkanið í Azure Machine Learning Studio.  
+3. Nota á reikninginn í Microsoft að undirrita fyrir workspace er og afrita síðan líkaninu sem.  
+4. Keyrslan líkaninu og út og þjónustu veftengingar.  
+5. Gera API URL og API lykillinn athugasemd. Þú munt nota þessi skilríki fyrir sjóðstreymisuppsetningu.  
+6. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning greiðsludráttarspár** og veldu síðan tengda tengilinn.  
+7. Veldu **Nota Azure-áskriftina mína** gátreitinn.
+8. Í **Innskráningarupplýsingar fyrir líkanið mitt** flýtiflipanum, sláðu inn API slóðina og API lykil fyrir líkanið.  .  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Fylgiskjöl fyrir Azure-vélnámsstúdíó](https://go.microsoft.com/fwlink/?linkid=861765)  

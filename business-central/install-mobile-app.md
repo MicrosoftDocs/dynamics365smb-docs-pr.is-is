@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef36a7c26b6d0fafb272989ccfc77fc4e54bf9e4
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 62626d7ff081da64d64299cafb4b5e8c5483f182
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953612"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182493"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Nota Business Central á fartækinu þínu
 Fá aðgang að gögnum [!INCLUDE[d365fin](includes/d365fin_md.md)] úr fartæki. Hægt er að skoða viðskiptagögn, nota eiginleika eins og senda í Excel eða Office 365, skoða nýjustu myndrit og afkastavísa (KPI), sölutilboð og reikninga í tölvupósti, og taka myndir með eigin myndavél og tengja þær. Fylgið skrefunum hér að neðan til að sækja smáforritið og hefjist handa.
@@ -29,7 +29,7 @@ Fá aðgang að gögnum [!INCLUDE[d365fin](includes/d365fin_md.md)] úr fartæki
 
 Nú ætti notandi að hafa aðgang að [!INCLUDE[d365fin](includes/d365fin_md.md)] og geta skoðað og breytt gögnum.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Hafist handa](product-get-started.md)  

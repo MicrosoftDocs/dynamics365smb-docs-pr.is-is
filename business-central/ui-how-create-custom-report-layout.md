@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0b469458490d08475d81f767a88a99c84a4daad6
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: defa6662a66e23d70d519861dbacd6d5036da589
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953228"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189964"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Búa til og breyta sérsniðnum skýrsluútlitum
 Sjálfgefið er að skýrsla hafa innbyggt skýrsluútlit, sem getur verið RDLC-skýrsluútlit, Word-skýrsluútlit eða bæði. Ekki er hægt að breyta innbyggðu útliti. Þú getur einnig búið til þitt eigið sérsniðið útlit sem gerir þér kleift að breyta útliti skýrslu þegar hún er skoðuð, prentuð eða vistuð. Hægt er að búa til mörg sérsniðin skýrsluútlit fyrir sömu skýrsluna, og skipta svo á milli útlita fyrir skýrsluna eftir þörfum.
@@ -51,7 +51,7 @@ Til að búa til sérsniðið útlit geturðu búið til afrit af öðru sérsni
 
 Sérsniðna útlitið hefur verið búið til. Þá er hægt að breyta sérsniðna útlitinu eftir þörfum.
 
-## <a name="ModifyCustomLayout"></a>Breyta sérsniðnu útliti
+## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Breyta sérsniðnu útliti
 Til að breyta skýrsluútliti úr , þarftu fyrst að flytja út skýrsluútlit sem skrá á staðsetningu í tölvunni þinni eða neti, og svo opna útflutta skjalið í og gera breytingarnar. Þegar þú hefur lokið við að gera breytingarnar flyturðu inn skýrsluútlitið.
 
 ### <a name="to-modify-a-custom-layout"></a>Skýrsluútliti sérsniðnu breytt
@@ -70,7 +70,7 @@ Til að breyta skýrsluútliti úr , þarftu fyrst að flytja út skýrsluútlit
 
 5. Í svarglugganum **Flytja inn** skal velja **Velja** til að finna og velja skjalið sem skilgreinir skýrsluútlitið og svo velja **Opna**.
 
-##  <a name="MakeChangesToLayout"></a>Búa til og breyta sérsniðnum skýrsluútlitum  
+##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a>Búa til og breyta sérsniðnum skýrsluútlitum  
 Til að gera almennar sniðsbreytingar og útlitsbreytingar, t.d. að breyta leturgerð, bæta við og breyta töflu eða að fjarlægja gagnareit, skal einfaldlega nota grunnbreytingarvalkosti Word, líkt og gert er fyrir öll önnur Word skjöl.
 
 Ef þú ert að hanna Word-skýrsluútlit frá grunni eða bæta við nýjum gagnareitum skaltu byrja með því að bæta við töflu sem er með raðir og dálka sem munu að endingu innihalda gagnareitina.
@@ -82,7 +82,7 @@ Ef þú ert að hanna Word-skýrsluútlit frá grunni eða bæta við nýjum gag
 
 Til að tryggja að skýrslur birtist alltaf og prentist með fyrirhuguðum leturgerðum, óháð hvar notendur opna eða prenta skýrslurnar, geturðu fellt inn leturgerðirnar í Word skjalinu. Hins vegar skaltu hafa í huga að innbyggðar leturgerðir geta verulega aukið stærð Word skjala. Nánari upplýsingar um innfellingu leturgerða í Word, sjá [Fella inn leturgerðir í Word, PowerPoint eða Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="RemoveField"></a> Merkimiða- og gagnareitir fjarlægðir úr Word-útliti  
+###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Merkimiða- og gagnareitir fjarlægðir úr Word-útliti  
  Merkimiða- og gagnareitir skýrslu eru í efnisstjórnun í Word. Eftirfarandi mynd sýnir efnisstjórnun þegar hún er valin í Word skjalinu.  
 
  ![Efnisstjórnun fyrir reit í Word skýrsluútliti](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
@@ -100,7 +100,7 @@ Til að tryggja að skýrslur birtist alltaf og prentist með fyrirhuguðum letu
 ### <a name="adding-data-fields"></a>Bæta við gagnareitum
 Að bæta við gagnareitum úr gagnamengi skýrslu er betri leið og kallar á þekkingu gagnamengis skýrslunnar. Upplýsingar um það hvernig reitum er bætt við fyrir gögn, merkjum, gögnum og myndum er að finna í [Bæta reitum við Word skýrsluútlit](ui-how-add-fields-word-report-layout.md).  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97e0a8743cc9c86f37432c0b7d6cd5351883176b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e6d277656ab5b159aaca93e03a333ba6232c3bcc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312773"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191177"
 ---
 # <a name="set-up-jobs"></a>Setja upp verk
 
@@ -44,7 +44,7 @@ Ef þú velur reitinn **Beita notkunartengli að sjálfgefnu** getur þú skoða
 >  
 > Ef rakning verknotkunar er *ekki* virk, annaðhvort á síðunni **Uppsetning verka** eða í tilteknu verki og reiturinn **Línugerð** í færslubókarlínu verks er auður munu engar verkáætlunarlínur vera stofnaðar þegar bókaðar eru færslubókarlínur verks. Frekari upplýsingar eru í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Uppsetning verks** og velja svo viðeigandi tengil.
+1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, slá inn **Uppsetning verka** og velja svo viðeigandi tengil.
 2. Veldu **Beita notkunartengli að sjálfgefnu** gátreitinn.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Til að setja upp verð fyrir verkforða
@@ -92,7 +92,7 @@ Einn þáttur við að áætla verk er að ákveða hvaða bókunarlykla á að 
 > [!NOTE]  
 >   Nauðsynlega reikninga verður að stofna í bókhaldslykli áður en bókunarflokkar eru stofnaðir. Frekari upplýsingar eru í [Setja upp eða breyta bókhaldslykli](finance-setup-chart-accounts.md).  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **bókunarflokkar verka** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarflokkar verka** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Nýtt** og fyllið út reiti reiknings eins og lýst er í eftirfarandi töflu.  
 
 | Reikningsreitur. | Lýsing |

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff34a7a8a1086b41d2df2a75955017fc82866fb6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315589"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194404"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tíma í dagatali
 
@@ -48,7 +48,7 @@ Til að vinna á afkastameiri hátt með dagsetningar og tíma geturðu notað e
 
 Allir reitir sem sýna dagbókartákn geta verið stilltar með dagsetningarvali dagatals. Til að birta dagsetningarval dagatals skaltu virkja dagatalstáknið eða ýta á Ctrl + Home flýtilykilinn í reitnum.
 
-![Dagsetningarreitir](media/ui-date-field.png "Dæmi um dagsetningarreit")
+![Dagsetningasvæði](media/ui-date-field.png "Dæmi um dagsetningarreit")
 
 Sjá einnig [Flýtilyklar í dagsetningarvali dagatals](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -121,7 +121,7 @@ Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notu
 |þ 23|Þriðjudagur 23. viku vinnudagsetningarársins|
 |þ-1|Þriðjudagur 1. viku vinnudagsetningarársins|
 
-##  <a name="BKMK_SettingDateRanges"></a> Stillingarbil
+##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Stillingarbil
 
 Á listum, samtölum og skýrslum er hægt að stilla síur á dagsetningar, tímum og tímabilum sem innihalda upphafsgildi og mögulega endanlegt gildi til að birta aðeins gögnin sem eru í því bili. Stöðluðu reglurnar eiga við um það hvernig þú stillir dagsetningarsvið.
 
@@ -323,13 +323,13 @@ Eftirfarandi tafla sýnir nokkur dæmi um samsetningar dagsetninga og tíma. Sv�
 
 |**Færsla**      |**Túlkun**      |
 |---------------|------------------------|
-|08-01-2016 05:48:12 PM|08/01/2016 05:48:12 e.h.|
-|131202 132455|13/12/2002 13:24:55|
-|1-12-02 10|01/12/2002 10:00:00|
-|1.12.02 5|01/12/2002 05:00:00|
-|1.12.02|01/12/2002 00:00:00|
-|11 12|11/vinnudagsetningarmánuður/vinnudagsetningarár 12:00:00|
-|1112 12|11/12/vinnudagsetningarárið 12:00:00|
+|08-01-2016 05:48:12 PM|08\-01\-2016 05:48:12 e.h.|
+|131202 132455|13\-12\-2002 13:24:55|
+|1-12-02 10|01\-12\-2002 10:00:00|
+|1.12.02 5|01\-12\-2002 05:00:00|
+|1.12.02|01\-12\-2002 00:00:00|
+|11 12|11\-vinnudagsetningarmánuður\-vinnudagsetningarár 12:00:00|
+|1112 12|11\-12\-vinnudagsetningarárið 12:00:00|
 |d eða dagurinn í dag|dagurinn í dag 00:00:00|
 |d 10:30|dagurinn í dag 10:30:00|
 |d 03:03:03|dagurinn í dag 03:03:03|

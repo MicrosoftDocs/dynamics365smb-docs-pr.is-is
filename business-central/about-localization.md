@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 01/10/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 572e56b6d1ba95a427faed89c2f86471c0fea929
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 8566856ade03531ce01f0fca35828d9af4fe785d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952891"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188877"
 ---
-# <a name="local-functionality-in-includeprodlongincludesprodlongmd"></a>Staðbundin virkni í [!INCLUDE[prodlong](includes/prodlong.md)]
+# <a name="local-functionality-in-prodlong"></a>Staðbundin virkni í [!INCLUDE[prodlong](includes/prodlong.md)]
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hefur sameinaða staðfæringarstefnu sem inniheldur líkön sem eru bæði stýrð af Microsoft og samstarfsaðilum. Í þessum hluta geturðu séð lýsingar á virkni sem á við um löndin þar sem Microsoft veitir eftirfylgni við lög og reglugerðir og aðra staðbundna virkni.  
 

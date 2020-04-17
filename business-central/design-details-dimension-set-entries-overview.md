@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ed544486af6949932814bf97d99293f1ef17ee2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f35184a6a69ed0fa1ccd504525a19af6bd9c5955
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303581"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185517"
 ---
 # <a name="dimension-set-entries-overview"></a>Yfirlit yfir víddasamstæðufærslur
 Í þessu efnisatriði er lýst hvernig víddasamstæðufærslur eru geymdar og bókaðar í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -34,7 +34,7 @@ Eftirfarandi dæmi sýnir víddasamstæðu sem hefur þrjár víddasamstæðufæ
 ## <a name="dimension-set-entries"></a>Víddasamstæðufærslur  
 Víddasamstæður eru geymdar í töflunni **Víddasamstæðufærsla** sem víddasamstæðufærslur með sama víddasamstæðukenni.  
 
-![Flæði víddarsamstæða færslna](media/dimensionentrynav7.png "Flæði víddarsamstæða færslna")  
+![Flæði víddasamstæðufærslna](media/dimensionentrynav7.png "Flæði víddasamstæðufærslna")  
 
 Þegar ný færslubókarlína, skjalahaus eða skjalalína er stofnuð er hægt að tilgreina samsetningu víddargilda. Í stað þess að geyma hvert víddargildi í gagnagrunninum er kenni víddasamstæðu tengt færslubókarlínu, haus skjals eða línu skjals til að tilgreina víddasamstæðuna.  
 

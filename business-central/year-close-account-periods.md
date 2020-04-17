@@ -1,8 +1,6 @@
 ---
 title: Loka fjárhagstímabilum fyrir fjárhagsár | Microsoft Docs
 description: Lýsir því hvernig skal loka fjárhagstímabilum sem mynda fjárhagsárið.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ba6cd85d50f9d2b4d98fb45cbd38bcc57e08e3a2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a696f45446f93dba2dedb0976ff646dd6e4b12b1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313809"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195876"
 ---
 # <a name="close-accounting-periods"></a>Loka fjárhagstímabilum
 Þegar reikningsári er lokið þarf að loka tímabilunum sem það skiptist í.
@@ -39,7 +37,8 @@ Enda þótt reikningsári hafi verið lokað er enn hægt að bóka fjárhagsfæ
 Þegar reikningsári hefur verið lokað verður að loka reikningum á rekstrarreikningi og færa ársniðurstöður yfir á reikning á efnahagsreikningi. Hægt er að endurtaka þetta í hvert sinn sem lokaða reikningsárið er bókað.
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Bókum lokað](year-close-books.md)  
 [Bóka lokafærslu ársloka](year-how-post-year-end-close-entry.md)  
-[Opna nýtt reikningsár](finance-how-open-new-fiscal-year.md)  
+[Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

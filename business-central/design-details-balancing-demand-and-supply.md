@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076413"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185709"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs
 Til að skilja hvernig áætlanakerfi virkar, það er nauðsynlegt að skilja forgangsraðað markmið áætlanakerfisins, mikilvægasta sem eru að tryggja að:  
@@ -37,7 +37,7 @@ Til að skilja hvernig áætlanakerfi virkar, það er nauðsynlegt að skilja f
   Áætlunarfæribreytur og birgðastig eru aðrar gerðir eftirspurnar og framboðs, sem fara í gegnum samþætta jöfnun til að fylla á birgðavörur. Nánari upplýsingar eru í [Upplýsingar um hönnun: Afgreiðsla endurpöntunarstefna](design-details-handling-reordering-policies.md).
 
 ## <a name="the-concept-of-balancing-in-brief"></a>Hugmyndin um Jafnvægi í hnotskurn
-  Eftirspurn er gefið af viðskiptavinum fyrirtækisins. Framboð er það sem fyrirtækið getur búið til og fjarlægy til að koma á jafnvægi. Áætlanakerfið byrjar á óháðri eftirspurn og rekur sig svo aftur að framboðinu.  
+  Eftirspurn er gefin af viðskiptavinum fyrirtækisins. Framboð er það sem fyrirtækið getur búið til og fjarlægy til að koma á jafnvægi. Áætlanakerfið byrjar á óháðri eftirspurn og rekur sig svo aftur að framboðinu.  
 
    Forstillingar birgða eru notaðar til að taka upplýsingar um eftirspurn og búnað, magn og tímastillingu. Þessar forstillingar mynda tvær hliðar afstemmingarskalans.  
 
@@ -99,7 +99,7 @@ Við jöfnun les áætlanakerfið framboð með rað- og lotunúmerum sem fast o
 
 Önnur ástæða fyrir því að rað-/lotunúmerað framboð er ósveigjanlegt er að rað-/lotunúmerum er alla jafna úthlutað það seint í ferlinu að það myndi valda ruglingi að stinga upp á breytingum.  
 
-Staða rað-/lotunúmera er ekki innan [frosna svæðisins](design-details-dealing-with-orders-before-the-planning-starting-date.md). Ef eftirspurn og framboð er ekki samstillt leggur áætlanakerfið til breytingar eða leggur til nýjar pantanir, óháð upphafsdegi áætlanagerðarinnar.  
+Staða rað-/lotunúmera er ekki innan *frosna svæðisins*. Ef eftirspurn og framboð er ekki samstillt leggur áætlanakerfið til breytingar eða leggur til nýjar pantanir, óháð upphafsdegi áætlanagerðarinnar.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Tenglar á milli pantana eru aldrei rofnir  
 Við áætlun pöntun-í-pöntun vöru má ekki nota tengdu birgðirnar fyrir neina aðra eftirspurn nema þá sem þær voru upphaflega ætlaðar. Tengd eftirspurn ætti ekki að falla undir neitt annað tilviljanakennt framboð, jafnvel þótt það sé tiltækt í tíma og magni við núverandi kringumstæður. Til dæmis er ekki hægt að nota samsetningarpöntun sem tengd er við sölupöntun í aðstæðum þar sem vara er sett saman fyrir pöntun fyrir nokkra aðra eftirspurn.  
@@ -117,7 +117,7 @@ Eftirspurn og framboð úr pöntun í pöntun þarf að vera í nákvæmu jafnv�
 ### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Íhlutaþörf er hlaðið samkvæmt breytingum á framleiðslupöntun  
 Við meðhöndlun framleiðslupantana verður  áætlanakerfið að fylgjast með nauðsynlegum íhlutum áður en þeim er hlaðið í eftirspurnarforstillinguna. Íhlutalínur sem leiða af breyttri framleiðslupöntun koma í stað upprunalegu pöntunarinnar. Þetta tryggir að áætlanakerfið tvítaki aldrei áætlunarlínurnar fyrir íhluti.  
 
-###  <a name="BKMK_SafetyStockMayBeConsumed"></a> Öryggisbirgðir má nota  
+###  <a name="safety-stock-may-be-consumed"></a><a name="BKMK_SafetyStockMayBeConsumed"></a> Öryggisbirgðir má nota  
 Öryggisbirgðamagn er aðallega eftirspurnargerð og þess vegna hlaðið inn í birgðaforstillinguna í upphafsdagsetningu áætlanagerðar.  
 
 Öryggisbirgðir er birgðamagn sett til hliðar til að bæta upp fyrir óvissu í eftirspurn á áfyllingearafhendingartíma. Hins vegar má nota það ef það er nauðsynlegt að taka af því til að svara eftirspurn. Í þessu tilfelli tryggir áætlunarkerfið að öryggisbirgðir séu endurnýjaðar með því að leggja til afhendingarpöntun til þess að fylla á magn öryggisbirgða á þeim degi er þær verða notaðar. Þessi áætlunarlína mun sýna  fráviksviðvöruntákn sem skýrir að öryggisbirgðir hafi verið notaðar að hluta eða að fullu vegna frávikspöntunar fyrir magn sem vantaði.  

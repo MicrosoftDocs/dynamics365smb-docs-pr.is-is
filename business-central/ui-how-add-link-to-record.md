@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: c5d9dcc46e05cef21961e20008227a1a35b737af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953276"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193875"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum
 
@@ -34,7 +34,7 @@ Hægt er að tengja allar gerðir skráa, sem innihalda texta, mynd eða myndske
 > [!NOTE]
 > Skrár sem eru hengdar við eiginleikann skjöl á innleið eru ekki teknar með á flipanum **Viðhengi**. Frekari upplýsingar er að finna í [Skjöl á innleið](across-income-documents.md).
 
-Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll önnur studd skjöl og kort.
+Eftirfarandi ferli byggist á innkaupareikningur. Skrefin eru svipuð fyrir öll önnur studd skjöl og kort.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.
 2. Opnaðu sölupöntunina sem á að hengja skrá við.
@@ -44,6 +44,16 @@ Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll önnu
 5. Veldu skrá frá hvaða staðsetningu sem er og veldu svo hnappinn **Opna**.
 
 Skráin er nú hengd við innkaupareikninginn.
+
+## <a name="to-save-a-document-as-a-pdf-attachment"></a>Vista skjal sem PDF-viðhengi
+Í hvert sinn sem vista þarf skjal sem skrá er hægt að nota aðgerðina **Hengja við sem PDF** til að ná í núverandi innihald skjals sem PDF-skrá hengda við FactBox skjalsins. Þetta er gagnlegt, til dæmis þegar skjöl fylgja mörgum skrefum í ferli, svo sem söluferli eða samþykktarverkflæði og ætlunin er að vísa til útprentunar af fyrra skrefi.
+
+Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll studd skjöl.
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.
+2. Veldu sölupöntun og veldu síðan aðgerðina **Hengja við sem PDF**.
+
+PDF-skrá með núverandi innihaldi sölupöntunarinnar er bætt við flipann **Viðhengi** í FactBox. 
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Til að bæta við tengli af birgðaspjaldi
 Hægt er að bæta við tengli af korti eða skjali á einhverja vefslóð eða slóð. Þetta er gagnlegt, til dæmis þegar tengja á birgðaspjald við vörulista birgis.

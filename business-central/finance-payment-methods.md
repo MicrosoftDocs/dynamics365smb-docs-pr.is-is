@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 753b9f30648059a68c22b524008e21c6c866d19c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 708ae474b15724e151cba367842091763544a434
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882543"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182973"
 ---
 # <a name="defining-payment-methods"></a>Skilgreina Greiðsluhætti
 Greiðsluhættir skilgreina hvernig þú vilt að viðskiptavinir greiði þér og hvernig þú vilt greiða lánardrottnum þínum. Greiðslumátinn getur verið breytilegur fyrir hvern viðskiptavin eða lánardrottin. Dæmi um dæmigerða greiðsluhætti eru **banki**, **reiðufé**, **ávísun** eða **reikningur**.
@@ -26,7 +26,7 @@ Sömu greiðsluaðferðir eru notaðar fyrir sölu- og innkaupaskjöl. Til dæmi
 
 Kreditreikningar vegna skila eru þó undantekningar vegna þess að peningar flæða í gagnstæða átt, frá þér til viðskiptavina og frá lánardrottni til þín. Þess vegna er sjálfgefnum greiðslumáta ekki úthlutað á kreditreikninga. Það er hins vegar til hjáleið ef þú hefur tilgreint greiðsluskilmála fyrir viðskiptavin eða lánardrottin. Þótt reiturinn **Reikna greiðsluafsl. af kreditreikn.** er ekki ætlaður fyrir þetta, ef þú velur gátreitinn á síðunni **Greiðsluskilmálar**, verður sjálfgefnum greiðslumáta bætt við þegar þú stofnar kreditreikning. <br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
 ## <a name="to-set-up-a-payment-method"></a>Greiðsluaðferðir settar upp
 [!INCLUDE[d365fin](includes/d365fin_md.md)] veitir nokkrar greiðsluaðferðir sem fyrirtæki nota oft. Þó er hægt að bæta við eins mörgum og þörf krefur.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4e04c2dc74ab1ecc0c0041258ca1824f872caac8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0d4c8bba7814e33eb353ea39b3681aa52be53f40
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877232"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189868"
 ---
 # <a name="create-service-quotes"></a>Stofna þjónustutilboð
 Þú getur hugsað um þjónustutilboð sem grunninn fyrir þjónustupöntunum. Þetta tvennt er í raun alveg eins. Bæði innihalda upplýsingar eins og þær hver viðskiptamaðurinn er, tegund pöntunar, varan sem þarf þjónustuna, reiknings- og afhendingarupplýsingar, og upplýsingar um hina raunverulegu þjónustuvinnu.

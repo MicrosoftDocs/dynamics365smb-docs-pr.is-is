@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8d34ef54ebfe16b59149036d59c2ce6e264baefb
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 2f6d9b02e3364d34339ea7176c08fdff7de5eb90
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877256"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195076"
 ---
 # <a name="set-up-service-offerings"></a>Setja upp þjónustutilboð
 Þegar þjónustukerfi er sett upp þarf að ákveða hvaða þjónustu skal bjóða viðskiptamönnum og tímasetja þessa þjónustu. Þjónusta er gerð vinnu sem framkvæmd er af einum eða fleiri starfsmönnum og veitt viðskiptamanni. Þjónusta gæti til dæmis verið viðgerð á tölvu. Þjónustuvara er útbúnaðurinn eða varan sem þarfnast þjónustu, til dæmis tölvan sem þarf að gera við, uppsett hjá tilteknum viðskiptamanni. Getur sett upp þjónusta sem hluta af tengdum viðgerðar- eða viðhaldshlutum.  

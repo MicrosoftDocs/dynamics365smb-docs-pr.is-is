@@ -9,21 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 71c31fc15027d1f2d571afe97ae79f95709c9f06
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bae0ddeb2a3b22d4f29c04628a54754f4d608ec9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312413"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191020"
 ---
 # <a name="request-quotes"></a>Biðja um tilboð
 Hægt er að nota innkaupabeiðni sem uppkast fyrir innkaupapöntun og síðan er hægt að breyta pöntuninni í innkaupareikning eða pöntun.
 
 
 ## <a name="to-create-a-purchase-quote"></a>Stofna nýja innkaupabeiðni.
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Kauptilboð** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupabeiðni** og veldu síðan tengda tengilinn.
 2. Stofna nýtt skjal á sama hátt og þú býrð til innkaupapöntun. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Innkaupabeiðnum umbreytt í innkaupapantanir:

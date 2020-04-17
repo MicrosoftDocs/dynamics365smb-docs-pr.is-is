@@ -1,6 +1,6 @@
 ---
 title: Setja upp útvaldar aðferðir við að senda söluskjöl | Microsoft Docs
-description: Lýsir því hvernig setja skal upp aðferðir við senda söluskjöl samkvæmt óskum viðskiptamanna, t.d. tölvupóstur, PDF, rafræn skjöl osfrv.
+description: Lýsir því hvernig setja skal upp aðferðir við að senda söluskjöl samkvæmt óskum viðskiptamanna, t.d. tölvupóstur, PDF, rafræn skjöl osfrv.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: email, PDF, electronic document
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e541fbf541ec317ea6517587159144a5ccf84058
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 32a7a00dc5d348fe6d177986dd0d966fca885528
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911168"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193948"
 ---
 # <a name="set-up-document-sending-profiles"></a>Setja upp sendisnið skjala
 Hægt er að setja upp hvern viðskiptavin með valinni aðferð við að senda söluskjöl til að þurfa ekki að velja sendingarvalkost í hvert skipti sem aðgerðin **Bóka og senda** er valin.
@@ -27,7 +27,7 @@ Hægt er að setja upp hvern viðskiptavin með valinni aðferð við að senda 
 Þegar aðgerðin **Bóka og senda** er valin á söluskjali mun svarglugginn **Bóka og senda staðfestingu** sýna sendingarsnið sem er í notkun, annað hvort það sem er sett upp fyrir viðskiptamann eða það sem er sjálfgefið fyrir alla viðskiptamenn. Í svarglugga er hægt að breyta sendingarsniði fyrir þetta söluskjalið. Frekari upplýsingar eru í [Reikningsfæra sölur](sales-how-invoice-sales.md).
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
 
 ## <a name="to-set-up-a-document-sending-profile"></a>Að setja upp sendingarsnið skjala
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forstilling skjalasendingar** og veldu síðan tengda tengilinn.

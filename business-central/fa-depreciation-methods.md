@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 261fc147c4e940e4fce69e5a302d1d501f9c5597
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 549334bf04427a44473319a9d7cfe1a7c2a12b54
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302885"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184509"
 ---
 # <a name="depreciation-methods"></a>Afskriftaaðferðir
 Tiltækar eru átta afskriftaaðferðir:  
@@ -231,7 +231,7 @@ Notandaskilgreindu aðferðina má einnig nota til að afskrifa eftir fjölda ei
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Uppsetning afskriftaaðferða sem notandi skilgreinir
 Á síðunni **Afskriftatöfluspjald** er hægt að setja upp notendaskilgreinda afskriftaaðferðir. Til dæmis er hægt að setja upp afskriftir sem byggjast á fjölda eininga.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **afskriftartöflur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftartöflur** og veldu síðan tengda tengilinn.  
 2. Á síðunni **listi yfir afskriftartöflur** skal velja aðgerðina **Nýtt**.  
 3. Á síðunni **kort afskriftartöflu** skal fylla inn í svæðin eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

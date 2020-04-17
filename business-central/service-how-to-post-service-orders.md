@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: cc2f6261b778c9cd4fc62ae2c0b44003a3b1bf80
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: a73b8eef1aaad9be585e580047d337f04f3527b4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877208"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192580"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bóka þjónustupantanir og kreditreikninga
 Þegar þjónustupöntun hefur verið búin til, allar upplýsingar færðar inn og breytingar gerðar er hægt að bóka þjónustupöntunina. Í pöntuninni þarf að vera að minnsta kosti ein þjónustuvörulína og ein þjónustulína áður en hægt er að bóka þjónustupöntunina. Ef pöntunin inniheldur meira en eina þjónustulínu mun forritið bóka allar línurnar í einu.  

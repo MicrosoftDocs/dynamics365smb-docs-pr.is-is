@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 00aef090b99ee41962ed59fd6050b6f17be77ed5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: db3d7dd3b7efdd10aa22e3aa4ca0ff445428bbd2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305069"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187965"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Bæta við athugasemdum við kort og skjöl
 Þú getur bætt við aukaupplýsingum í fjárhagsreikninga, viðskiptamannakort eða sölupantanir til að senda undanþágur eða sérstakar samningar til annarra notenda.
@@ -31,7 +31,7 @@ Athugasemdir um áframhaldandi skjöl eru fluttar til tengda skjalsins. Til dæm
 Eftirfarandi lýsir því hvernig á að bæta athugasemd við birgðaspjald. Skrefin eru svipuð fyrir öll önnur kort og skjöl, nema á skjalalínum er aðgerðin **Athugasemdir** sett í valmyndina aðgerðarlínur.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Til að bæta athugasemdum við birgðaspjald
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Viðeigandi birgðaspjald er opnað.
 3. Skal velja **Athugasemd** aðgerð.
 4. Á síðunni **Athugasemdablað** skaltu slá inn hvaða texta sem er og þá velja hnappinn **Í lagi**.

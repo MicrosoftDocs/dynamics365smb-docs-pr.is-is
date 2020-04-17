@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 3e66c2d6beb24c82fcd314caeac00f3c7b20412a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 5a13d461bd4764173e7d674ef35f5fa32f11318b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953156"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184005"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Greining á sjóðstreymi í fyrirtækinu þínu
 Eins og þeir segja, reiðufé skiptir öllu. Gröfin á Hlutverkamiðstöð bókhaldara veita innsýn sem getur hjálpað þér að taka ákvarðanir um hvað þú átt að gera með peningana þína.  
@@ -49,7 +49,7 @@ Ef þú vilt skoða spáina, auk þess að spá færslum, geturðu einnig skoða
 2. Veldu sjóðstreymisspá, og veldu síðan **Sjóðstreymisvinnublað**.  
 3. Í á **Sjóður Flæði Vinnublað** síðunni, velja sem **Vinnublað Tillögulínur** aðgerð.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning Fjármála](finance-setup-finance.md)  

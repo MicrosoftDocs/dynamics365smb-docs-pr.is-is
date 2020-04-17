@@ -1,6 +1,6 @@
 ---
 title: Handvirk samstilling á töfluvörpunum | Microsoft Docs
-description: Samstillingin afritar gögn milli Dynamics 365 Sales færslna og Business Central til að halda báðum kerfum uppfærðum.
+description: Samstillingin afritar gögn milli Common Data Service-eininga og Business Central til að halda báðum kerfum uppfærðum.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,53 +8,44 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4aa56deaef4cd32f58fe4ad17abbc72a58b94ed9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 015084b999f7488339c98605018bff2bc9a4ded2
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307939"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196712"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Samstilla töfluvarpanir handvirkt
-Vörpun samþættingartöflu tengir [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflu (færslugerð), t.d. viðskiptamaður, við [!INCLUDE[crm_md](includes/crm_md.md)]-einingu, t.d. reikningur. Samstilling á vörpun samþættingartöflu gerir þér kleift að samþætta gögn í öllum færslum í [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflunni og [!INCLUDE[crm_md](includes/crm_md.md)]-einingunni sem eru tengdar. Að auki, þó háð grunnstillingu töfluvörpunar, getur samstilling búið til og tengt nýjar færslur á lausn endastaðar fyrir ótengdar færslur á upprunastaðnum.  
+Vörpun samþættingartöflu tengir [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflu (færslugerð), t.d. viðskiptamaður, við [!INCLUDE[d365fin](includes/cds_long_md.md)]-einingu, t.d. reikningur. Samstilling á vörpun samþættingartöflu gerir þér kleift að samþætta gögn í öllum færslum í [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflunni og [!INCLUDE[d365fin](includes/cds_long_md.md)]-einingunni sem eru tengdar. Að auki, þó háð grunnstillingu töfluvörpunar, getur samstilling búið til og tengt nýjar færslur á lausn endastaðar fyrir ótengdar færslur á upprunastaðnum.  
 
 Að samstilla varpanir samþættingartöflu handvirkt getur verið gagnlegt við fyrstu uppsetningu á samþættingu og greiningu á villum samstillingar.  
 
 Þetta efnisatriði útskýrir þrjár aðferðir til að samstilla varpanir samþættingartöflu handvirkt. Hver aðferð býður upp á mismunandi stig samstillingar.
 
 ## <a name="run-a-full-synchronization"></a>Keyra fulla samstillingu
-Full samstilling keyrir öll samstillingarverk samþættingar fyrir samstillingu á [!INCLUDE[d365fin](includes/d365fin_md.md)]-færslum og [!INCLUDE[crm_md](includes/crm_md.md)]-einingum, eins og það er skilgreint á síðunni **Vörpun samþættingartöflu**. 
+Full samstilling keyrir öll samstillingarverk samþættingar fyrir samstillingu á [!INCLUDE[d365fin](includes/d365fin_md.md)]-færslum og [!INCLUDE[d365fin](includes/cds_long_md.md)]-einingum, eins og það er skilgreint á síðunni **Vörpun samþættingartöflu**. 
 
-Full samstilling framkvæmir eftirfarandi aðgerðir fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] eða [!INCLUDE[crm_md](includes/crm_md.md)]-færslur sem eru:
+Full samstilling framkvæmir eftirfarandi aðgerðir fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] eða [!INCLUDE[d365fin](includes/cds_long_md.md)]-færslur sem eru:
 
 * Ekki tengdar, ný samsvarandi færsla verður búin til og tengd í andstæðri lausn.
-Hvort og hvenær færsla er búin til fer eftir samstillingaráttinni. Til dæmis, við samstillingu gagna frá [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamönnum við [!INCLUDE[crm_md](includes/crm_md.md)] reikninga , ef til er viðskiptamaður sem er ekki tengdur við reikning, verður nýr reikningur sjálfkrafa stofnaður í [!INCLUDE[crm_md](includes/crm_md.md)] og tengdur við viðskiptamanninn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hið andstæða á við þegar samstillingaráttin er frá [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Fyrir hvern reikning sem er ekki nú þegar tengdur við viðskiptamann, verður nýr viðskiptamaður búinn til í [!INCLUDE[d365fin](includes/d365fin_md.md)] og tengdur við reikninginn í [!INCLUDE[crm_md](includes/crm_md.md)].  
+Hvort og hvenær færsla er búin til fer eftir samstillingaráttinni. Til dæmis, við samstillingu gagna frá [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamönnum við [!INCLUDE[d365fin](includes/cds_long_md.md)] reikninga , ef til er viðskiptamaður sem er ekki tengdur við reikning, verður nýr reikningur sjálfkrafa stofnaður í [!INCLUDE[d365fin](includes/cds_long_md.md)] og tengdur við viðskiptamanninn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hið andstæða á við þegar samstillingaráttin er frá [!INCLUDE[d365fin](includes/cds_long_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Fyrir hvern reikning sem er ekki nú þegar tengdur við viðskiptamann, verður nýr viðskiptamaður búinn til í [!INCLUDE[d365fin](includes/d365fin_md.md)] og tengdur við reikninginn í [!INCLUDE[d365fin](includes/cds_long_md.md)].  
 
      > [!NOTE]  
      >  Til að ná þessu fram, hreinsar fulla samstillingin tímabundið valkostinn **Samst. aðeins tengdar færslur** í vörpun samþættingartöflu sem samstillingarverkið notar. Undir lok ferlisins fyrir fulla samstillingu verður spurt hvort eigi að halda þessum valkosti hreinsuðum fyrir öll verk.  
 
-* Tengt, er samstillingaráttin (t.d. frá [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)] eða frá [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)]) ákveðin fyrirfram af vörpunum samþættingartöflu. Frekari upplýsingar er að finna í [Stöðluð einingavörpun Sales fyrir samstillingu](admin-synchronizing-business-central-and-sales.md#standard-sales-entity-mapping-for-synchronization).  
-
-Verkin eru keyrð í eftirfarandi röð til að koma í veg fyrir tengsl tenginga milli eininga.  
-
-1.  GJALDMIÐILL – samstillingarvinnsla Dynamics 365 Sales  
-2.  SALEPEOPLE - Dynamics 365 Sales samstillingarverk  
-3.  UNITOFMEASURE-samstillingarvinnsla Dynamics 365 Sales  
-4.  VIÐSKIPTAMAÐUR - samstillingarvinnsla Dynamics 365 Sales  
-5.  CONTACTS - Dynamics 365 Sales samstillingarverk  
-6.  TILFÖNG-AFURÐ fyrir samstillingarvinnslu Dynamics 365 Sales  
-7.  ITEM-PRODUCT - Dynamics 365 Sales samstillingarverk  
+* Tengt, er samstillingaráttin (t.d. frá [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[d365fin](includes/cds_long_md.md)] eða frá [!INCLUDE[d365fin](includes/cds_long_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)]) ákveðin fyrirfram af vörpunum samþættingartöflu. Frekari upplýsingar er að finna í [Stöðluð einingavörpun fyrir samstillingu](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization).  
 
 > [!IMPORTANT]  
->  Venjulega er aðeins notuð full samstilling þegar samþætting er sett upp fyrst milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] og aðeins ein af lausnunum inniheldur gögn, sem þú vilt afrita í hina lausnina. Full samstilling getur verið gagnleg í sýniumhverfi. Vegna þess að full samstilling býr til og tengir færslur milli lausna, er hægt að byrja fyrr á að vinna með samstillingu gagna milli færslna. Aftur á móti ætti aðeins að keyra fulla samstillingu ef þú vilt færslu í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir hverja færslu í [!INCLUDE[crm_md](includes/crm_md.md)] fyrir umbeðnar töfluvarpanir. Annars er hægt að fá óumbeðnar eða tvíteknar færslur í annaðhvort [!INCLUDE[d365fin](includes/d365fin_md.md)] eða [!INCLUDE[crm_md](includes/crm_md.md)].  
-
-### <a name="see-the-process-for-a-full-synchronization"></a>Sjá ferlið fyrir fulla samstillingu
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085502]
+>  Venjulega er aðeins notuð full samstilling þegar samþætting er sett upp fyrst milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] og aðeins ein af lausnunum inniheldur gögn, sem þú vilt afrita í hina lausnina. Full samstilling getur verið gagnleg í sýniumhverfi. Vegna þess að full samstilling býr til og tengir færslur milli lausna, er hægt að byrja fyrr á að vinna með samstillingu gagna milli færslna. Aftur á móti ætti aðeins að keyra fulla samstillingu ef þú vilt færslu í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir hverja færslu í [!INCLUDE[d365fin](includes/cds_long_md.md)] fyrir umbeðnar töfluvarpanir. Annars er hægt að fá óumbeðnar eða tvíteknar færslur í annaðhvort [!INCLUDE[d365fin](includes/d365fin_md.md)] eða [!INCLUDE[d365fin](includes/cds_long_md.md)].  
 
 ### <a name="to-run-a-full-synchronization"></a>Að keyra fulla samstillingu  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Microsoft Dynamics 365 Sales uppsetning tengingar** og veldu síðan tengda tengilinn.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Common Data Service Uppsetning tengingar** og veldu síðan tengda tengilinn.
+
+    > [!NOTE]
+    > Ef ætlunin er að keyra fulla samstillingu fyrir einingar í gegnum Dynamics 365 Sales skal nota síðuna **Microsoft Dynamics 365 Sales uppsetning tengingar** í staðinn.
+
 2.  Veldu aðgerðina **Keyra fulla samstillingu** og síðan skal velja hnappinn **Já**.  
 3.  Þegar fullri samstillingu er lokið er hægt að tilgreina hvort leyfa eigi áætluðum samstillingarverkum að búa til nýjar færslur.  
 
@@ -65,15 +56,13 @@ Verkin eru keyrð í eftirfarandi röð til að koma í veg fyrir tengsl tenging
 Hægt er að skoða niðurstöður fullrar samstillingar á síðunni **Samstillingarverk samþættingar**. Frekari upplýsingar er að finna í [Skoða stöðu á samstillingu](admin-how-to-view-synchronization-status.md).  
 
 ## <a name="synchronizing-all-modified-records"></a>Samstilling á öllum breyttum færslum
-Hægt er að nota síðuna **Uppsetning tengingar Microsoft Dynamics 365 Sales** til að samstilla breytingar á gögnum í vörpunum samþættingartöflu. Þetta er svipað og full samstilling. Það mun samstilla gögn í öllum tengdum færslum í [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflum og [!INCLUDE[crm_md](includes/crm_md.md)]-einingum sem eru skilgreindar í töfluvörpunum. Sjálfgefið er að einungis færslur verða samstilltar sem hefur verið breytt síðan þær voru síðast samstilltar. Töfluvarpanir eru samstilltar í eftirfarandi röð til að koma í veg fyrir tengingar hafi áhrif á hver aðra milli eininga:  
+Hægt er að nota síðuna **Uppsetning CDS-tengingar** til að samstilla breytingar á gögnum í vörpunum samþættingartöflu. Þetta er svipað og full samstilling. Það mun samstilla gögn í öllum tengdum færslum í [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflum og [!INCLUDE[d365fin](includes/cds_long_md.md)]-einingum sem eru skilgreindar í töfluvörpunum. Sjálfgefið er að einungis færslur verða samstilltar sem hefur verið breytt síðan þær voru síðast samstilltar. Samstillingarverk samstilla töfluvörpunum í eftirfarandi röð til að koma í veg fyrir að tengingar hafi áhrif á hver aðra milli eininga:  
 
-1.  GJALDMIÐILL – samstillingarvinnsla Dynamics 365 Sales  
-2.  SALEPEOPLE - Dynamics 365 Sales samstillingarverk  
-3.  UNITOFMEASURE-samstillingarvinnsla Dynamics 365 Sales  
-4.  VIÐSKIPTAMAÐUR - samstillingarvinnsla Dynamics 365 Sales  
-5.  CONTACTS - Dynamics 365 Sales samstillingarverk  
-6.  RESOURCE-PRODUCT \- Dynamics 365 Sales samstillingarverk  
-7.  ITEM-PRODUCT - Dynamics 365 Sales samstillingarverk  
+1.  GJALDMIÐLAR  
+2.  SÖLUMENN  
+3.  Lánardrottinn  
+4.  VIÐSKIPTAMAÐUR  
+5.  TENGILIÐIR  
 
 Hægt er að skoða niðurstöður samstillingar á síðunni **Samstillingarverk samþættingar**. Frekari upplýsingar er að finna í [Skoða stöðu á samstillingu](admin-how-to-view-synchronization-status.md).  
 
@@ -85,12 +74,12 @@ Hægt er að skoða niðurstöður samstillingar á síðunni **Samstillingarver
 2.  Veldu aðgerðina **Samstilla breyttar færslur** og síðan **Já**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Samstilla stakar töfluvarpanir
-Hægt er að nota síðuna **Vörpun samþættingartöflu** til að keyra samstillingarverk fyrir tilteknar töfluvarpanir. Þetta mun samstilla gögn í öllum tengdum færslum í [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflu og [!INCLUDE[crm_md](includes/crm_md.md)]-einingu sem eru skilgreindar í töfluvörpun. Sjálfgefið er að einungis færslur verða samstilltar sem hefur verið breytt síðan þær voru síðast samstilltar.  
+Hægt er að nota síðuna **Vörpun samþættingartöflu** til að keyra samstillingarverk fyrir tilteknar töfluvarpanir. Þetta mun samstilla gögn í öllum tengdum færslum í [!INCLUDE[d365fin](includes/d365fin_md.md)]-töflu og [!INCLUDE[d365fin](includes/cds_long_md.md)]-einingu sem eru skilgreindar í töfluvörpun. Sjálfgefið er að einungis færslur verða samstilltar sem hefur verið breytt síðan þær voru síðast samstilltar.  
 
 Með því að breyta vörpun samþættingartöflu fyrirfram er hægt að skilgreina samstillingarverkið til að búa til nýjar færslur í viðtökustað lausnar fyrir ótengdar færslur á upprunastaðnum.
 
 ### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>Að samstilla færslur fyrir vörpun samþættingartöflu  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Varpanir samþættingartöflu** og veldu síðan viðeigandi tengil.
+1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörpun samþættingartöflu** og veldu síðan tengda tengilinn.
 2.  Veldu aðgerðina **Samstilla breyttar færslur** og síðan **Já**.  
 
 ## <a name="see-also"></a>Sjá einnig  

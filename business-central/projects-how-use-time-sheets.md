@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0df593988b7db1f7f02a4c8868df448b8fb1bbc0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3bc9a348dba8b9265730dd2723b045a10809139b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312677"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191092"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Nota vinnuskýrslur fyrir verk
 Nota skal keyrsluna **Stofna vinnuskýrslur** til að setja upp vinnuskýrslur fyrir tilgreindan fjölda tímabila eða vikna. Notandi verður að hafa heimildir til að hægt sé að búa til vinnuskýrslur.
@@ -29,7 +29,7 @@ Eftir að búið er að samþykkja vinnuskýrslufærslur fyrir verk er hægt að
 ## <a name="to-create-a-time-sheet"></a>Til að búa til vinnuskýrslu
 Hægt er að nota keyrsluna **Stofna vinnuskýrslur** til að setja upp vinnuskýrslur fyrir tilgreindan fjölda tímabila eða vikna. Eigandi vinnuskýrslunnar getur þá opnað hana og skráð tíma sem eytt hefur verið í verk.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vinnuskýrslur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnuskýrslur** og veldu síðan tengda tengilinn.
 2. Á síðunni **Vinnuskýrslulisti** skal velja aðgerðina **Stofna vinnuskýrslur**.
 3. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -43,14 +43,14 @@ Hægt er að nota keyrsluna **Stofna vinnuskýrslur** til að setja upp vinnusk�
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Til að afrita áætlunarlínur verks á vinnuskýrslu
 Eftirfarandi ferli lýsir því hvernig eigi að flýtistofna verkáætlunarlínur á vinnuskýrslu.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vinnuskýrslur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnuskýrslur** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Vinnuskýrslulisti** skal velja vinnuskýrslu fyrir viðeigandi tímabil og svo **Breyta vinnuskýrslu** aðgerðina.  
 3. Veljið aðgerðina **Stofna línur úr verkáætlun**. Allar verkáætlunarlínur í tímabili vinnublaðsins eru afritaðar í vinnublaðið fyrir manneskjuna eða vélina í **Tilfang nr.** reitinn á vinnublaðsins.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Til að skilgreina tegundir vinnu og bæta tegund vinnu við vinnuskýrslu
 Hægt er að skilgreina tegund vinnu fyrir allar vinnuskýrslulínur fyrir verk. Með þeim hætti er hægt að bæta við upplýsingum sem þarf til að rukka viðskiptavininn og fyrir mismunandi tegundir af vinnu.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vinnuskýrslur** og veldu síðan tengda tengilinn.   
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnuskýrslur** og veldu síðan tengda tengilinn.   
 2. Opnið viðeigandi vinnuskýrslu.
 3. Veljið reitinn **Lýsing**.  
 4. Á síðunni **Upplýsingar um verk á vinnuskýrslulínu** skal velja reitinn **Vinnutegundarkóði** og velja vinnutegund af listanum, t.d. **Mílur**.  
@@ -61,7 +61,7 @@ Hægt er að skilgreina tegund vinnu fyrir allar vinnuskýrslulínur fyrir verk.
 ## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Til að endurnýta vinnuskýrslulínur í öðrum vinnuskýrslum
 Ef upplýsingar tímablaðs haldast óbreyttar á milli tímabila má spara tíma með því að afrita línur úr fyrra tímabili. Síðan er tímanotkunin fyrir nýja tímabilið færð inn.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vinnuskýrslur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnuskýrslur** og veldu síðan tengda tengilinn.  
 2. Opnið vinnuskýrsluna fyrir tímabil sem er síðar en tímabilið fyrir fyrirliggjandi vinnuskýrslu með línum.  
 3. Veljið aðgerðina **Afrita línur úr fyrri vinnuskýrslu**.
 
@@ -70,7 +70,7 @@ Línurnar eru afritaðar, með upplýsingum eins og gerð og lýsingu. Til dæmi
 ## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Til að fylla út vinnuskýrslulínur og senda til samþykktar
 Vinnuskýrsluskráning er rakin í klukkustundum, sem er stöðluð grunnmælieining fyrir forða. Sjálfgefið er að vinnuskýrsla sýni sameiginlega vinnudaga frá mánudegi til föstudags.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **vinnuskýrslur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnuskýrslur** og veldu síðan tengda tengilinn.  
 2. Veljið vinnuskýrslu fyrir viðeigandi tímabil og veljið svo aðgerðina **Breyta tímaskýrslu**.  
 3. Fyllið í reitina í línu eins og þörf krefur. Færið inn fjölda stunda sem forðinn notar hvern dag vikunnar.
 
@@ -93,7 +93,7 @@ Senda þarf vinnuskýrslu til samþykkis áður en hægt er að nota hana. Hægt
 * Vinnuskýrslustjóri getur samþykkt allar vinnuskýrslur.
 * Einstaklingurinn sem er tilgreindur í reitnum **Notandakenni samþykkjanda vinnuskýrslu** á forðaspjaldi getur samþykkt vinnuskýrslur viðkomandi forða. Frekari upplýsingar eru í [Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **stjórnandi vinnuskýrslur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnuskýrslur verkstjóra** eða vinnuskýrslur og veldu síðan tengda tengilinn.
 2. Veljið vinnuskýrslu úr listanum.  
 3. Á síðunni **Vinnuskýrsla** skal velja aðgerðina **Samþykkja** og síðan aðgerðina **Allar sendar línur** til að samþykkja allar línur eða aðgerðina **Aðeins valdar línur** til að samþykkja aðeins línurnar sem eru valdar á síðunni **Vinnuskýrsla**.
 4. Velja hnappinn **Í lagi**.  
@@ -105,7 +105,7 @@ Senda þarf vinnuskýrslu til samþykkis áður en hægt er að nota hana. Hægt
 Þegar búið er að samþykkja eða hafna vinnuskýrslu er ekki hægt að breyta henni nema hún sé enduropnuð fyrst. Eftirfarandi ferli lýsir því hvernig á að enduropna vinnuskýrslu sem hefur verið samþykkt eða hafnað.
 
 ## <a name="to-reopen-a-time-sheet"></a>Til að enduropna vinnuskýrslu
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **stjórnandi vinnuskýrslur** eða **vinnuskýrslur** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **stjórnandi vinnuskýrslur** eða **Vinnuskýrslur** og veldu síðan tengda tengilinn.
 2. Opnið vinnuskýrslu úr listanum.  
 
     > [!NOTE]  
@@ -116,7 +116,7 @@ Senda þarf vinnuskýrslu til samþykkis áður en hægt er að nota hana. Hægt
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Til að bóka vinnuskýrslulínur í forðabók
 Eftir að búið er að samþykkja vinnuskýrslufærslur fyrir forða, er hægt að bóka þær á viðeigandi forðabók.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **forðabók** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forðabók** og veldu síðan tengda tengilinn.  
 2. Veljið aðgerðina **Stinga upp á línum úr vinnuskýrslum**.  
 3. Fyllið inn í svæðin eftir þörfum.  
 4. Velja hnappinn **Í lagi**. Færslur fyrir notkun eru stofnaðar í forðabókinni þar sem hægt er að breyta upplýsingunum eftir þörfum.  

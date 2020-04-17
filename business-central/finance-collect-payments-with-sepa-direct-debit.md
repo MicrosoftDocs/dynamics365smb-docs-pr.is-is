@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/04/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e3270864e184bdb7473a95fd1620ea98c3e3fbd2
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: 9cc15893963672f14aef33b8bd35560957a826ea
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030197"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183909"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Innheimta greiðslur með SEPA-beingreiðslum
-Með samþykki viðskiptamanns er hægt að sækja greiðslur beint inn á bankareikninga viðskiptamanns út frá SEPA-sniðinu.  
+Með samþykki viðskiptamanns er hægt að sækja greiðslur beint inn á bankareikninga viðskiptamanns samkvæmt SEPA-sniðinu.  
 
- Setjið fyrst upp útflutningssnið bankaskráarinnar með leiðbeiningum til bankans um beingreiðsluaðgerð. Síðan, settu upp greiðslumáta viðskiptamanns. Að síðustu skal setja upp umboð fyrir beingreiðslu sem endurspeglar samning þinn við viðskiptavininn um söfnun greiðslna á tilteknu samningstímabili.  
+ Setjið fyrst upp útflutningssnið bankaskráarinnar með leiðbeiningum til bankans um beingreiðsluaðgerð. Síðan skal setja upp greiðslumáta viðskiptamanns. Að síðustu skal setja upp umboð fyrir beingreiðslu sem endurspeglar samning þinn við viðskiptavininn um söfnun greiðslna á tilteknu samningstímabili.  
 
  Til að gefa bankanum fyrirmæli um að flytja greiðsluupphæðir af bankareikningi viðskiptamannsins á reikning fyrirtækis þíns, stofnarðu innheimtufærslu beingreiðslu sem inniheldur upplýsingar um bankareikninga, sölureikningana sem um ræðir og umboð fyrir beingreiðslu. Flytjið svo út XML-skrá sem byggir á innheimtufærslu sem er send til úrvinnslu í banka. Bankinn lætur vita af greiðslum sem ekki er hægt að meðhöndla og þá þarf að hafna viðkomandi innheimtufærslur fyrir beingreiðslur.  
 
@@ -110,7 +110,7 @@ Til að opna fyrir útflutning af skráasniði bankaskrár sem ekki eru studdar 
      |**Gerð viðskiptafélaga**|Tilgreina ef innheimta beingreiðslu er gerð fyrir viðskiptamenn af gerðinni **Fyrirtæki** eða **Einstaklingur**.|  
      |**Aðeins viðskiptamenn með gilt umboð**|Tilgreina ef innheimta beingreiðslu er stofnuð fyrir viðskiptamenn sem hafa gilt umboð fyrir beingreiðslu. **Athugið:** Beingreiðsla er stofnuð þó svo reiturinn **Kenni umboðs með beinni skuldfærslu** sé ekki útfylltur á sölureikningnum.|  
      |**Aðeins reikningar með gilt umboð**|Tilgreina ef innheimta beingreiðslu er stofnuð eingöngu fyrir sölureikninga ef gilt umboð fyrir beingreiðslu er valið í reitnum **Kenni umboðs með beinni skuldfærslu** reitinn á sölureikningnum.|  
-     |**Númer bankareiknings**|Tilgreina hvaða bankareikningar fyrirtækis þíns hin innheimta greiðsla verður flutt á úr bankareikningi viðskiptamanns.|  
+     |**Númer bankareiknings**|Tilgreina hvaða bankareikningar fyrirtækis þíns innheimt greiðsla verður flutt til úr bankareikningi viðskiptamanns.|  
      |**Heiti Bankareiknings**|Tilgreinir nafn bankareiknings sem þú velur í **bankareikningsnúmer** reitnum. Þessi reitur er fylltur út sjálfkrafa.|  
 
  4. Velja hnappinn **Í lagi**.  
@@ -137,7 +137,7 @@ Innheimtu beingreiðslu er bætt við síðuna **Innheimta beingreiðslu** og ei
 
       Tengd innheimta beingreiðslu er lokuð.  
 
- Þá er hægt að bóka greiðslukvittanir fyrir viðkomandi sölureikninga. Hægt er að gera þetta á sama hátt og greiðslukvittanir eru vanalega bókaðar, s.s. á síðunni **Skráning greiðslna**, en einnig er hægt að bóka tengdu greiðslukvittunina beint af síðunni **Innheimtufærslur fyrir beingreiðslu**. Frekari upplýsingar er að finna í [Bóka SEPA-greiðslukvittanir beingreiðslna](finance-how-to-post-sepa-direct-debit-payment-receipts.md).
+ Þá er hægt að bóka greiðslukvittanir fyrir viðkomandi sölureikninga. Hægt er að gera þetta á sama hátt og greiðslukvittanir eru vanalega bókaðar, s.s. á síðunni **Skráning greiðslna**, en einnig er hægt að bóka tengdu greiðslukvittunina beint af síðunni **Innheimtufærslur fyrir beingreiðslu**. Nánari upplýsingar má nálgast á [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
 
 ## <a name="posting-sepa-direct-debit-payment-receipts"></a>Bókun SEPA-greiðslukvittana beingreiðslna
  Þegar innheimta beingreiðslu er meðhöndluð af bankanum er hægt að bóka kvittanir greiðslunnar fyrir sölureikninganna. Frekari upplýsingar, sjá [Stofna SEPA-innheimtufærslur fyrir beingreiðslur og flytja út í bankaskrá](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  

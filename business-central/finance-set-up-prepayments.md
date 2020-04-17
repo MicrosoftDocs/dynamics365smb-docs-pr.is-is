@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: prepayment
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c594da7c8cc11a08420f6bf8a5fb16cccb5ec0b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c1e129947d6230578b5c553fd985030e2f5ebc5c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305621"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182829"
 ---
 # <a name="set-up-prepayments"></a>Uppsetning fyrirframgreiðslu
 Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun afhenta eða ef lánardrottinn fer fram á greiðslu áður en hann afhendir pöntun er hægt að nota aðgerðina Fyrirframgreiðsla. Með þessari verkun getur þú reikningsfært og innheimt innborganir frá viðskiptamönnum eða sent lánardrottnum innborganir, og verið viss að allar hlutagreiðslur séu bókaðar til móts við reikning. Nánari upplýsingar eru í [Búa til fyrirframgreiðslureikninga](finance-how-to-create-prepayment-invoices.md).
@@ -27,7 +27,7 @@ Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun af
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Bæta fyrirframgreiðslureikningum við almennan bókunargrunn  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning almenns bókunargrunns** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Almennur bókunargrunnur** og veldu síðan tengda tengilinn.
 2. Á síðunni **Uppsetning almennar bókunar** er fyllt út í eftirfarandi reiti:  
 
     - **Fyrirframgreiðslureikn. sölu**  
@@ -40,7 +40,7 @@ Ef almennir fjárhagsreikningar hafa ekki enn verið settir upp fyrir fyrirframg
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Uppsetning númeraraðar fyrir fylgiskjöl fyrirframgreiðslu  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning sölu & útistandandi** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölugrunnur** og veldu síðan tengda tengilinn.
 2. Á síðunni **Uppsetning Sala & útistandandi** er fyllt út í eftirfarandi reiti:  
 
    - **Bókuð fyrirframgr.reikn.nr.**
@@ -58,7 +58,7 @@ Ef almennir fjárhagsreikningar hafa ekki enn verið settir upp fyrir fyrirframg
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Að setja upp fyrirframgreiðsluprósentu fyrir vörur, viðskiptamenn og lánardrottna  
 Fyrir vöru er hægt að setja upp sjálfgefna fyrirframgreiðsluprósentu fyrir alla viðskiptamenn, tiltekinn viðskiptamann eða verðflokk viðskiptamanns.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Veljið Atriði og veljið svo aðgerðina **Fyrirframgreiðsluprósenta**.  
 3. Á síðunni **Sala fyrirframgreiðsluprósenta** skal fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

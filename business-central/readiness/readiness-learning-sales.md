@@ -2,15 +2,15 @@
 title: Vörulisti samstarfsaðila vegna sölu og markaðssetningar
 description: Finndu allt það nám sem er í boði fyrir Business Central.
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 0e5dd14a9d7da8ea6dc25623f15338ace7d11e80
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 6c9a8952a5f0bc0144665eedd92f5c8c2384a344
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097624"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190735"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Vörulisti samstarfsaðila vegna sölu og markaðssetningar
 
@@ -18,7 +18,7 @@ Berð þú ábyrgð á því að hjálpa viðskiptavinum þínum að kaupa rétt
 
 Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og frá einföldustu til ítarlegustu þátta. Ef efni er til á mörgum sniðum látum við þig vita svo þú getir valið það þjálfunarsnið sem hentar þínum þörfum best.  
 
-## Fyrirtækisvirði<a name="busvalue"></a>
+## <a name="business-value"></a>Fyrirtækisvirði<a name="busvalue"></a>
 
 | Efni                                                                          | Description                                                                                                                                                                                                                                                                                              | Snið                                | Lengd              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -26,7 +26,7 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 | [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/) | Skoða Dynamics 365 Business Central möguleika                                                                                                                                                                                                                                                        | Vefsvæði                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Þessi eining sýnir eiginleika forrita, ávinning og dæmi um Dynamics 365 Business Central í aðgerð.                                                                                                                                                                                                | Ókeypis námsleið á netinu á eigin hraða | 24 mínútur          |
 
-## Hafist handa<a name="get-started"></a>
+## <a name="getting-started"></a>Hafist handa<a name="get-started"></a>
 
 | Efni                                                                                                                             | Description                                                                                                                                                                                                                                                                                               | Snið                                | Lengd              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -35,7 +35,7 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 | [Sýndu fagleg vinnubrögð með gögnum í Business Central](https://docs.microsoft.com/learn/paths/work-pro-data-dynamics-365-business-central)                                    | Ertu rétt að byrja að nota Business Central? Þessi námsbraut mun hjálpa þér að undirbúa þig fyrir gagnagerðir Business Central og hvernig hægt er að finna upplýsingar sem þú þarft í forritinu.                                                                                                           | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 27 mínútur  |
 | [Spilunarlisti Business Central YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube lendingarsíða fyrir Dynamics 365 Business Central-myndbönd                                                                                                                                                                                                                                             | YouTube Myndbönd                        |                     |
 
-## Fyrirtækisvirði<a name="busvalue"></a>
+## <a name="business-value"></a>Fyrirtækisvirði<a name="busvalue"></a>
 
 | Efni                                                                          | Description                                                                                                                                                                                                                                                                                               | Snið                                | Lengd              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -43,7 +43,7 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 | [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/) | Skoða Dynamics 365 Business Central möguleika                                                                                                                                                                                                                                                        | Vefsvæði                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Þessi eining sýnir eiginleika forrita, ávinning og dæmi um Dynamics 365 Business Central í aðgerð.                                                                                                                                                                                                | Ókeypis námsleið á netinu á eigin hraða | 24 mínútur          |
 
-## Stækkaðu fyrirtækið þitt<a name="grow"></a>
+## <a name="grow-your-business"></a>Stækkaðu fyrirtækið þitt<a name="grow"></a>
 
 | Efni                                                                                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Snið                                | Lengd                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

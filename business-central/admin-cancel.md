@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 11/14/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: c0df60e72db192f72cbda18882f99f6f66aabe4f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f48f5785ffc62b124b26764da5e86838c1e01dfa
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878630"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187437"
 ---
-# <a name="unsubscribe-or-remove-includeprodshortincludesprodshortmd"></a>Segja upp áskrift að eða fjarlægja [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="unsubscribe-or-remove-prodshort"></a>Segja upp áskrift að eða fjarlægja [!INCLUDE[prodshort](includes/prodshort.md)]
 
 Ef þú vilt hætta að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] geturðu lokað reikningnum þínum eða látið fjarlægja leyfið af reikningnum. Skrefin sem taka þarf eru mismunandi ef þú notar ókeypis prufuútgáfu í stað þess að vera með áskrift.  
 
-## <a name="closing-your-free-trial-of-includeprodshortincludesprodshortmd"></a>Loka ókeypis prufuáskriftinnni þinni af [!INCLUDE[prodshort](includes/prodshort.md)]
+## <a name="closing-your-free-trial-of-prodshort"></a>Loka ókeypis prufuáskriftinnni þinni af [!INCLUDE[prodshort](includes/prodshort.md)]
 
 Ef þú skráðir þig fyrir ókeypis prufuútgáfa og þú vilt ekki halda áfram með [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu lokað reikningnum þínum hvenær sem er. Við mælum með að þú flytjir út öll gögn áður en þú lokar reikningnum þínum. 
 
@@ -29,7 +29,7 @@ Ef þú skráðir þig fyrir ókeypis prufuútgáfa og þú vilt ekki halda áfr
 
 Ef þú skráðir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] án þess að notaOffice 365 viðskiptareikning hefur þú ekki stjórnandaréttindi að Office 365. Í staðinn verður þú að segja upp áskrift með því að hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] afskráningarteymið með því að senda tölvupóst á cancelbusinesscentra@microsoft.com. Þú verður að tiltaka heiti [!INCLUDE[d365fin](includes/d365fin_md.md)] leigjandans í skilaboðunum svo að við getum greint þig. Þessar upplýsingar má finna á síðunni **Hjálp og notendaþjónusta**. Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).  
 
-## <a name="unsubscribing-by-removing-included365finincludesd365fin_mdmd-from-your-office-365-experience"></a>Ljúka áskrift með því að fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] úr Office 365 upplifun þinni
+## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Ljúka áskrift með því að fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] úr Office 365 upplifun þinni
 
 Ef fyrirtækið þitt gerist áskrifandi að [!INCLUDE [prodshort](includes/prodshort.md)] en þú sem notandi vilt ekki lengur hafa aðgang þarftu að biðja kerfisstjóra eða Dynamics 365 endursöluaðila um að fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] leyfið af Office 365 notandareikningnum þínum. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] er fjarlægt úr notandareikningnum þínum og fyrirtæki þitt heldur áfram áskriftinni munu samstarfsaðilar þínir enn hafa aðgang að sameiginlegum gögnum í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrirtækinu.  
 
@@ -37,7 +37,7 @@ Ef fyrirtækið þitt vill hætta í áskrift af [!INCLUDE[d365fin](includes/d36
 
 Notandareikninga og leyfi er stýrt í glugganum [Microsoft 365 stjórnendamiðstöð](https://admin.microsoft.com/). Aðeins kerfisstjórar geta fjarlægt [!INCLUDE[d365fin](includes/d365fin_md.md)] leyfi af reikningum notenda eða fjarlægt áskriftina af reikningi fyrirtækis þíns.  
 
-## <a name="removing-included365finincludesd365fin_mdmd-from-your-app-launcher"></a>Fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] úr forritavalmynd þinni
+## <a name="removing-d365fin-from-your-app-launcher"></a>Fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] úr forritavalmynd þinni
 Viljirðu fela [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir forritavalmynd þinni, geturðu einfaldlega tekið það burt. Þetta fjarlægir engin gögn, og hættir ekki við áskriftina þína.  
 
 ## <a name="see-also"></a>Sjá einnig

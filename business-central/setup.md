@@ -8,24 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 80f33734365ad52b59e77d89e35af81d5a798fcb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832360"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194668"
 ---
-# <a name="setting-up-included365finincludesd365fin_mdmd"></a>Setur upp [!INCLUDE[d365fin](includes/d365fin_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.
+# <a name="setting-up-prodshort"></a>Setur upp [!INCLUDE[prodshort](includes/prodshort.md)]
+
+[!INCLUDE[prodshort](includes/prodshort.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.
 
 Til dæmis er yfirlit yfir reikninga áfyllt með fjölda pósthólf sem eru tilbúnar til notkunar. Að sjálfsögðu geturðu breytt bókhaldslyklinum til að uppfylla þarfir þínar. Frekari upplýsingar eru í [Fjármál](finance.md).
 
-Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningarsíðum með hjálp og handvirkum uppsetningarsíðum eru í [Undirbúningur fyrir viðskipti](ui-get-ready-business.md).
-
-> [!NOTE]
-> Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] með RapidStart Services, sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Nánari upplýsingar er að finna í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+Frá ![Sprocket tákninu til að opna Stillingavalmynd](media/ui-experience/settings_icon_small.png), er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[prodshort](includes/prodshort.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningarsíðum með hjálp og handvirkum uppsetningarsíðum eru í [Undirbúningur fyrir viðskipti](ui-get-ready-business.md).
 
 Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilteknar viðskiptaferðir, handvirkt í viðbót við leiðbeiningar um uppsetningu með hjálp. Eftirfarandi sýnir nokkrar aðgerðir sem hægt er að setja upp handvirkt.
 
@@ -47,7 +45,7 @@ Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilte
 |Notaðu Business Central Outlook innbótina til að skoða fjárhagsgögn sem tengjast viðskiptamönnum og lánardrottnum, eða búðu til og sendu fjárhagsskjöl á borð við tilboð og reikninga.|[Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)|
 |Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Business Central gögnum með Power BI og Business Central efnispökkunum.|[Gera viðskiptagögn þín virk fyrir Power BI](admin-powerbi.md)|
 |Notandi getur notað Business Central-gögnin sín sem hluta af verkflæði í Power Automate.|[Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)|
-|Gerðu Business Central gögnin þín aðgengileg sem gagnaveitu í Power Apps.|[Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps.](across-how-use-financials-data-source-powerapps.md)|
+|Gerðu Business Central gögnin þín aðgengileg sem gagnaveitu í Power Apps.|[Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Notaðu þar til gerðar Quickbooks færsluleiðbeiningar.|[Skipta úr QuickBooks App í Business Central](across-quickbooks-to-business-edition.md)|
 |Fá aðgang að Business Central gögnunum þínum úr fartækinu.|[Nota Business Central á fartækinu þínu](install-mobile-app.md)|
 |Gerðu magnreikningsfærslu á fundum sem eru stofnaðir í Bookings.|[Magnreikningsfærsla fyrir Microsoft Bookings](finance-bookings.md)|
@@ -56,6 +54,9 @@ Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilte
 |Setja upp grunndagatal og úthluta því á fyrirtækið þitt og viðskiptafélaga, t.d viðskiptavini, lánardrottna eða birgðageymslur. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu.|[Setja upp grunndagatöl](across-how-to-assign-base-calendars.md)|  
 
 Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](includes/d365fin_md.md)] áskrift þinni. Frekari upplýsingar eru í [Stjórnun](admin-setup-and-administration.md).  
+
+> [!NOTE]
+> Sem stjórnandi geturðu sett upp nýja fyrir tækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] með RapidStart Services, sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Nánari upplýsingar er að finna í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 ## <a name="see-also"></a>Sjá einnig
 

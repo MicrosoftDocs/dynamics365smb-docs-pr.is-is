@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 5e6e034aa6a071751893ebae477cb3e22b2635bb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774796"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195364"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Að finna síður með hlutverkaleit
 Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir þitt hlutverk, og fyrir önnur hlutverk ef farið er skrefi lengra. Í eftirfarandi fylgigögnum er þetta yfirlit yfir eiginleika kallað *Hlutverkaleit*.
@@ -27,7 +27,9 @@ Hægt er að opna hlutverkaleit úr Mitt hlutverk og öllum listasíðum og úr 
 - Í Mitt hlutverk eða einhverri listasíðu skal velja ![Valmyndarhnappinn](media/ui_menu_button.png "Valmyndarhnappur")til hægri á yfirlitsstikunni eða ýta á Shift+F12.
 - Í glugganum **Viðmótsleit** skaltu velja aðgerðina **skoða** neðst.
 
-Til að fá yfirlit yfir viðskiptaeiginleikana sem eru í boði fyrir öll önnur hlutverk, til viðbótar við notanda, skal velja aðgerðina **Skoða allt** á síðunni sem táknar hlutverkaleit.
+Veldu aðgerðina **Finna** efst í hlutverkaleitinni til að staðsetja á fljótvirkan hátt heiti eiginleika sem innihalda tiltekinn lið.
+
+Veldu aðgerðina **Skoða öll** efst í hlutverkaleitinni til að fá yfirlit yfir viðskiptaeiginleika sem eru í boði fyrir öll hlutverk, þ.m.t. þitt eigið.
 
 > [!NOTE]
 > Aðeins aðgerðir hlutverkamiðstöðvar fyrir forstillingar þar sem gátreiturinn **Sýna í hlutverkaleit** er valinn munu birtast í stækkaðri útgáfu af hlutverkaleitinni (sýnt með aðgerðinni **Skoða öll**). Frekari upplýsingar eru í [Unnið með forstillingar](admin-users-profiles-roles.md).

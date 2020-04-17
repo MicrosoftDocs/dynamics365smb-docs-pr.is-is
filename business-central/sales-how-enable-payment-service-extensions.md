@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7bd02b7d802faa3b0766d6689eaa223ba3e3573a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 18ed3b77ffa369d4d9f3bd66ea54b81adb0c88e3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316453"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191812"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Virkja greiðslur viðskiptamanna um greiðsluþjónustur
 Í stað þess að innheimta með millifærslu eða kreditkorti geta viðskiptamenn þínir greitt þér af reikningnum sínum með greiðsluþjónustu, svo sem Microsoft Pay, PayPal eða WorldPay.  
@@ -24,8 +24,8 @@ Eftir að þú hefur virkjað greiðsluþjónustu í [!INCLUDE[d365fin](includes
 
 Microsoft Pay, PayPal Payments Standard og WorldPay Payments Standard-viðbætur eru settar upp í [!INCLUDE[d365fin](includes/d365fin_md.md)], og eru tilbúnar fyrir þig til að virkja.  
 
-## <a name="to-enable-a-payment-service-in-included365finincludesd365fin_mdmd"></a>Til að virkja greiðsluþjónustu í [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **greiðsluþjónusta** og veldu síðan tengda tengilinn.  
+## <a name="to-enable-a-payment-service-in-d365fin"></a>Til að virkja greiðsluþjónustu í [!INCLUDE[d365fin](includes/d365fin_md.md)]
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðsluþjónustur** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Greiðsluþjónustur** skal velja aðgerðina **Nýtt**.  
 3. Veljið greiðsluþjónustu og lokið svo síðunni.  
 4. Á síðunni **Greiðsluþjónustur** skal velja aðgerðina **uppsetning**.  

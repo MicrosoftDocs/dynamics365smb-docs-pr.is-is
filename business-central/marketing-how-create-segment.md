@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 81ad24b93bc217694f7be608c966e8b69e8330bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 779ff0a12611606e70d0a310b260a8e20031f628
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309101"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181498"
 ---
 # <a name="create-segments"></a>Stofna hluta
 Hægt er að stofna hluta til að velja saman flokk tengiliða til dæmis ef stofna á samskipti sem varða marga tengiliði eins og póstsendingar.
 
 ## <a name="to-create-a-segment"></a>Hlutar stofnaðir:
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **hlutar** og veldu síðan tengda tengilinn.
-2. Valið er **Nýtt** aðgerð.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hlutar** og veldu síðan tengda tengilinn.
+2. Valið er aðgerðin **Nýtt**.
 3. Í hlutanum **Almennt** , í á reitnum **númer** er fært inn númer fyrir hlutann.
 
     Hafi númeraröð verið sett upp fyrir hluta á síðunni **Uppsetning markaðssetningar** er hægt að ýta á Færslulykilinn til að velja næsta tiltæka hlutanúmer.

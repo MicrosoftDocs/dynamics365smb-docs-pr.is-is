@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5e7312e6e660d74089b0dce43ddf015be60ab446
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f5b472dca560ba12eb0461842878d622c6eaee3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315496"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194188"
 ---
 # <a name="the-image-analyzer-extension"></a>Myndgreiningarviðbót
 Viðbótin fyrir Myndgreinandann notar öflugar myndgreiningaraðferðir frá Tölvusjón API for Microsoft Cognitive Services til að greina eigindir á myndunum sem þú flytur inn fyrir vörur og tengiliði, svo þú getir auðveldlega endurskoðað þær og úthlutað þeim. Fyrir vörur, þá geta eigindir sagt til um hvort varan er borð eða bíll, og hvort hún er rauð eða blá. Fyrir tengiliði, þá geta eigindir verið kyn eða aldur.
@@ -46,7 +46,7 @@ Viðbótin fyrir Myndgreinandann er innbyggð í [!INCLUDE[d365fin](includes/d36
 1. Gert er eitt af eftirfarandi til að virkja viðbótina fyrir myndgreinandann:
 
 * Vöru- eða tengiliðaspjald er opnað. Á tilkynningastikunni skal velja **Greina myndir**, og svo er skrefunum í Uppsetningu með aðstoð fylgt.  
-* Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustutengingar** og veldu síðan **Uppsetning myndagreiningar**. Á gátreitnum skal velja **Virkja myndgreinanda**, og svo er skrefunum í Uppsetningu með aðstoð fylgt.  
+* Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustutengingar** og veldu síðan **Uppsetning myndgreiningar**. Á gátreitnum skal velja **Virkja myndgreinanda**, og svo er skrefunum í Uppsetningu með aðstoð fylgt.  
 
     > [!TIP]  
     > Á **Uppsetning myndgreiningar** síðunni geturðu líka breytt áreiðanleikastiginu fyrir tillögur um eigindir. Ef þú vilt til dæmis auka áreiðanleikann, þá geturðu slegið inn hærri prósentu.
@@ -54,7 +54,7 @@ Viðbótin fyrir Myndgreinandann er innbyggð í [!INCLUDE[d365fin](includes/d36
 ## <a name="to-analyze-an-image-of-an-item"></a>Að greina mynd af vöru
 Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður en þú virkjaðir viðbótina fyrir Myndgreinandann.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
 2. Veljið vöruna og veljið svo aðgerðina **Greina mynd**.  
 3. Síðan **Eigindir myndgreinanda** birtir þær eigindir sem finnast, áreiðanleikastigið og aðrar upplýsingar um eigindina. Nota **Aðgerð til að framkvæma** valkostina til að tilgreina hvað skal gera við eigindina.  
 
@@ -74,7 +74,7 @@ Ef greiningin leggur til eigind sem þú vilt ekki sjá, geturðu sett þá eigi
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Nota þinn eigin aðgang fyrir Tölvusjón API
 Þú getur líka notað þinn eigin aðgang fyrir Tölvusjón API, til dæmis ef þú vilt greina fleiri myndir en við leyfum.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleiak Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning myndgreiningar** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning myndgreiningar** og veldu síðan tengda tengilinn.  
 2. Færið inn **API URI** og **API lykil** sem þú fékkst fyrir Tölvusjón API.  
 
     > [!NOTE]  
@@ -83,7 +83,7 @@ Ef greiningin leggur til eigind sem þú vilt ekki sjá, geturðu sett þá eigi
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Til að sjá hversu margar greiningar þú hefur skilið eftir á núverandi tímabil
 Þú getur skoðað hversu margar greiningar þú hefur framkvæmt, og hversu margar þú getur enn gert, á núverandi tímabili.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleiak Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning myndgreiningar** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning myndgreiningar** og veldu síðan tengda tengilinn.  
 2. **Gerð marka**, **Gildi marka** og **Framkvæmdar greiningar** veita upplýsingar um notkun.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Hætta að nota viðbót fyrir Myndgreinanda

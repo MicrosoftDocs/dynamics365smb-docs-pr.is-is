@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1583c17b63df4c4db37eec20ab204ef235d47512
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 6e7968f7e37e2bf1e1495331cf863aef34e7e7e4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952964"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188972"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Flutningur viðskiptagagna í Excel
 Ef ætlunin er að vinna með gögn frá [!INCLUDE[d365fin](includes/d365fin_md.md)] í Excel, er hægt að opna alla lista í Excel og vinna með þá þar. Með sama hætti, ef notandi vill hætta í áskrift að [!INCLUDE[d365fin](includes/d365fin_md.md)] getur hann flutt gögnin sín út í Excel svo hann geti tekið þau með sér.
@@ -66,7 +66,7 @@ Við mælum með að notandi íhugi einnig að flytja út gögn af eftirfarandi 
 > [!NOTE]  
 >   Ef notandi hefur sett upp fleiri en eitt fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður einnig að flytja út viðeigandi gögn úr hverju fyrirtæki.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsögn áskriftar að [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  

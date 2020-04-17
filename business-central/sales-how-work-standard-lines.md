@@ -10,31 +10,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a85fb48251d5c1465dcd4be7aaf868d857a07fd4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e85d870c73a4c7e5baec449c63f80cc5a4dadf5e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311957"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195268"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Stofna ítrekaðar sölu- og innkaupalínur
 Ef þú þarft oft að stofna innkaupa- og sölulínur með svipuðum upplýsingum, geturðu sett upp staðlaðar línur, sem þú getur svo fært inn í ítrekuð sölu- og innkaupaskjöl, til dæmis fyrir endurteknar áfyllingapantanir.  
 
 Eftirfarandi ferli sýna hvernig skal vinna með staðlaðar sölulínur á sölureikningi. Það virkar á svipaðan hátt fyrir öll önnur söluskjöl og innkaupaskjöl.  
 
-## <a name="to-set-up-standard-sales-lines"></a>Hvernig á að setja upp staðlaðar sölulínur  
-1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðlaðar sölulínur** og veldu síðan tengda tengilinn.  
-2. Á síðunni **Staðlaðar sölulínur** skal velja aðgerðina **Nýtt**.  
+## <a name="to-set-up-recurring-sales-lines"></a>Uppsetning endurtekinna sölulína  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Endurteknar sölulínur** og veldu síðan tengda tengilinn.  
+2. Á síðunni **Endurteknar sölulínur** skal velja aðgerðina **Nýtt**.  
 3. Fyllt er út í reiti eftir því sem er nauðsynlegt í flýtiflipanum **Almennt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Á flýtiflipanum **Línur** skal færa inn upplýsingar í reitina til að undirbúa sölulínur sem endurspegla hinar stöðluðu línur sem þú býst við að nota sem endurteknar línur í söluskjölum.  
 
 > [!NOTE]
-> Þú getur ekki skilgreint verð á stöðluðum sölulínum vegna þess að verð, afslættir o.s.frv. er reiknað út á raunverulegu söluskjölunum eftir að þú hefur sett inn staðlaðar sölulínur.
+> Þú getur ekki skilgreint verð á endurteknum sölulínum vegna þess að verð, afslættir o.s.frv. er reiknað út á raunverulegu söluskjölunum eftir að þú hefur sett inn endurteknar sölulínur.
 
-## <a name="to-assign-standard-sales-lines-to-a-customer"></a>Stöðluðum sölulínum úthlutað á viðskiptamenn
-Úthlutaðu einum eða fleiri stöðluðum sölulínum til viðskiptavina þannig að hægt sé að setja þá inn á söluskjöl fyrir þann viðskiptavin.
+## <a name="to-assign-recurring-sales-lines-to-a-customer"></a>Endurteknum sölulínum úthlutað á viðskiptamann
+Úthlutaðu einum eða fleiri endurteknum sölulínum til viðskiptamanns þannig að hægt sé að setja þá inn á söluskjöl fyrir þann viðskiptamann.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
 2. Opna spjaldið fyrir viðeigandi viðskiptamann.
@@ -50,7 +50,7 @@ Eftirfarandi ferli sýna hvernig skal vinna með staðlaðar sölulínur á söl
 |**Spyrja alltaf**|Tilkynning birtist og allar núverandi endurteknar sölulínur eru sýndar þannig að hægt er að velja eina.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Endurteknar sölulínur settar inn í sölureikning
-Ef endurteknar sölulínur eru til fyrir viðskiptavininn getur þú sett þær inn á allar gerðir söluskjala, t.d. sölureikning. Ef þú hefur virkjað tilkynninguna sem um ræðir, færðu að vita ef endurteknar sölulínur eru til staðar.
+Ef endurteknar sölulínur eru til fyrir viðskiptamanninn getur þú sett þær inn á allar gerðir söluskjala, t.d. sölureikning. Ef þú hefur virkjað valkostina **Spyrja alltaf** verður látið vita ef endurteknar sölulínur eru til.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Reikningar** og veldu síðan tengda tengilinn.
 2. Opnið sölureikningur sem á að setja eina eða fleiri staðlaðar sölulínur inn í.
 3. Veljið aðgerðina **Sækja endurteknar sölulínur**.
@@ -67,7 +67,7 @@ Hægt er að nota runuvinnsluna **Stofna ítrekaða sölureikninga** til að sto
 > [!NOTE]
 > Á síðunni **Endurteknar sölulínur** er einnig hægt að tilgreina greiðsluaðferð fyrir beingreiðslu og beingreiðsluumboð. Sölureikningar sem eru stofnaðir með runuvinnslunni **Stofna ítrekaða sölureikninga** munu þá innihalda upplýsingar sem krafist er til að innheimta greiðslu fyrir sölureikninga með SEPA-beingreiðslu. Nánari upplýsingar má nálgast á [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Búa til ítrekaða Sölureikningar** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Búa til endurtekna sölureikninga** og veldu síðan tengda tengilinn.
 2. Á síðunni **Búa til ítrekaða sölureikningar** skaltu fylla inn reitina eftir þörfum.
 3. Í **Kóði** síureit skal slá inn kóðann fyrir staðlaðar sölulínur sem eru úthlutað til viðskiptamanns sem þú vilt búa til sölureikninga fyrir.
 4. Velja hnappinn **Í lagi**.

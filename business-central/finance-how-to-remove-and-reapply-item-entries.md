@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 81565950191b40f2c54646d17f02ee857856c436
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: cf3ed7552d3b9bfef3c787e03357279f4ad4fc93
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882691"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183333"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjarlægja og endurjafna birgðabókafærslur
 Á síðunni **Vinnublað jöfnunar** er hægt að skoða og breyta handvirkt tilteknum birgðajöfnunarfærslum sem eru stofnaðar sjálfkrafa við birgðafærslur.  
@@ -28,7 +28,7 @@ Eftirfarandi dæmi gætu krafist þess að birgðafærslur séu ógildar eða en
 - Röng föst jöfnun var gerð.
 - Skila þarf vöru sem búið er að jafna sölu við.
 
-Nota skal skjal til að endurjafna birgðahöfuðbókarfærslu, ef það er hægt. Ef gera þarf til dæmis vöruskil á vöru sem þegar er búið að jafna sölu við er hægt að gera endurjöfnunina með því að stofna og bóka vöruskilaskjalið með réttri jöfnun í reitinn **Jafna birgðafærslu** á innkaupaskilalínunni. Hægt er að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eða aðgerðina **Afrita skjal** í innkaupaskilaskjalinu til að gera þetta auðveldara. Þegar fylgiskjalið er birgðahöfuðbókafærslan endurjöfnuð sjálfkrafa. Nánari upplýsingar er að finna í [Vinna úr innkaupaskilum eða afturköllunum](purchasing-how-process-purchase-returns-cancellations.md).
+Nota skal skjal til að endurjafna birgðahöfuðbókarfærslu, ef það er hægt. Ef gera þarf til dæmis vöruskil á vöru sem þegar er búið að jafna sölu við er hægt að gera endurjöfnunina með því að stofna og bóka vöruskilaskjalið með réttri jöfnun í reitinn **Jafna birgðafærslu** á innkaupaskilalínunni. Hægt er að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eða aðgerðina **Afrita úr skjali** í innkaupaskilaskjalinu til að gera þetta auðveldara. Þegar fylgiskjalið er birgðahöfuðbókafærslan endurjöfnuð sjálfkrafa. Nánari upplýsingar er að finna í [Vinna úr innkaupaskilum eða afturköllunum](purchasing-how-process-purchase-returns-cancellations.md).
 
 Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á fasta jöfnun, skal nota síðuna **Vinnublað jöfnunar** til að leiðrétta jöfnun.
 

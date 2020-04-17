@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 15b0afcf04ad279000de227523f977fdb695fe01
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 32998248de254facdb225d60a0c8b55066b2707c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316788"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192100"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bóka mörg skjöl á sama tíma
 Í stað þess að bóka eitt skjal í einu er hægt að velja mörg óbókuð skjöl í lista fyrir bókun án tafar eða fyrir fjöldabókun samkvæmt áætlun, svo sem við lok dags. Þetta getur komið sér vel ef aðeins yfirmaður getur bókað skjöl sem aðrir notendur hafa búið til eða til að koma í veg fyrir vandamál tengd afköstum þegar bókun er gerð á vinnutíma.
@@ -23,7 +23,7 @@ ms.locfileid: "2316788"
 ## <a name="to-post-multiple-purchase-orders-immediately"></a>Til að bóka margar innkaupapantanir strax
 Eftirfarandi ferli útskýrir hvernig á að bóka margar innkaupapantanir strax. Skrefin eru svipuð fyrir öll innkaupa- og söluskjöl.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.
 2. Á síðunni **Innkaupapantanir** skal velja allar pantanir sem á að bóka:
 3. Í reitnum **númer** skal velja þrjá lóðrétta punkta til að opna efnisvalmynd og síðan velja aðgerðina **Velja fleira**.
 4. Veldu gátreitinn fyrir allar línurnar sem tákna pantanir sem á að bóka á sama tíma.
@@ -36,7 +36,7 @@ Eftirfarandi ferli útskýrir hvernig á að fjöldabóka innkaupapantanir. Skre
 > [!NOTE]
 > Fjöldabókun á skjölum gerist í bakgrunninum eins og það er skilgreint af verkraðarfærslu, sem þarf fyrst að setja upp. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda hlekkinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Innkaupapantanir** skal velja allar pantanir sem á að bóka:
 3. Í reitnum **númer** skal velja þrjá lóðrétta punkta til að opna efnisvalmynd og síðan velja aðgerðina **Velja fleira**.
 4. Veldu gátreitinn fyrir allar línurnar sem tákna pantanir sem á að bóka á sama tíma.

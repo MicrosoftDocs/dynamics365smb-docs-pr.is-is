@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0b93073c8d8c6ad639d27644719c4c5b40cda6fe
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9539cbf3926a782bdaaf49a7054358e653c5e1ac
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952651"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183021"
 ---
 # <a name="accounting-for-costs"></a>Bókhald fyrir kostnað
 Kostnaðarbókhald er notað til að hjálpa til við að kunna skil á kostnaði sem felst í því að reka fyrirtæki. Til að hefjast handa við kostnaðarbókhald skal skoða eftirfarandi efnisatriði  
@@ -30,7 +30,7 @@ Kostnaðarbókhald er notað til að hjálpa til við að kunna skil á kostnað
 |Um ferlið að stofna kostnaðaráætlanir.|[Stofna kostnaðaráætlanir](finance-create-cost-budgets.md)|
 |Hætta við kostnaðaráætlunarfærslur úr kostnaðaráætlunarskrá.|[Eyða kostnaðaráætlunarfærslum](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-cost-accounting-dynamics-365-business-central"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig  
 [Fjármál](finance.md)  

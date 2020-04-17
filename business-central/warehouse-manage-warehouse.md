@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f09ff8999629f2fbb3378174823dc4eec478e8d0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0af922e2af27cc810b3ba77207c271b8f6a4a22f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881547"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195959"
 ---
 # <a name="warehouse-management"></a>Vöruhúsastjórnun
 Eftir að tekið hefur verið á móti vörum og áður en vörur eru afhentar, fer röð vöruhúsaaðgerða fram til þess að tryggja að flæði gegnum vöruhúsið sé skilvirkt og til að skipuleggja og viðhalda birgðum fyrirtækisins.
@@ -32,7 +32,7 @@ Birgðatengd verk talningar, leiðréttingar og endurflokkunar á vörum kann a�
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Skrá móttöku vara í vöruhúsabirgðageymslum, annað hvort með innkaupapöntun eingöngu, í einfaldri birgðageymsluuppsetningu, eða með vöruhúsamóttöku, ef skyldi vera sjálfvirkt vöruhúsaferli, að hluta eða í heild, í birgðageymslunni.|[Móttaka vara](warehouse-how-receive-items.md)|
+|Skrá móttöku vara í vöruhúsabirgðageymslum (þar með talið umframmóttökum), annað hvort með innkaupapöntun eingöngu, í einfaldri birgðageymsluuppsetningu, eða með vöruhúsamóttöku, ef skyldi vera sjálfvirkt vöruhúsaferli, að hluta eða í heild, í birgðageymslunni.|[Móttaka vara](warehouse-how-receive-items.md)|
 |Tengja framhjá frágangs- og tínsluferlinu til að flýta vöru beint frá móttöku eða framleiðslu yfir í afhendingu.|[Hjáskipa vörur](warehouse-how-to-cross-dock-items.md)|    
 |Ganga frá vörum sem eru mótteknar vegna innkaupa, söluvöruskila, flutnings eða framleiðslufrálagi samkvæmt tilgreindu aðgerðaflæði vöruhúss.|[Gengið frá vörum](warehouse-put-away-items.md)|
 |Færa vörur milli hólfa í vöruhúsinu.|[Færa vörur](warehouse-move-items.md)|

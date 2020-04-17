@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e3d77e5f9a018325855594da62fc4a45f711e30b
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 2ae58d97e4207d7125be5e3f0936fce20cf39006
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554231"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184389"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Flytja, skipta upp eða sameina eignir
 Þú notar eignaendurflokkunarbókina til að flytja til eignir, skipta þeim upp og sameina þær. Skoða eða prenta útkomu eignaendurflokkunar með skýrslunni **Bókfært Virði eignar 02** skýrslu.
@@ -26,7 +26,7 @@ ms.locfileid: "2554231"
 
 1. Uppsetning nýrrar eignar. Nýr deild er færður inn í reitinn **Deildarkóði**.
 2. Úthluta eigna-/afskriftabók á nýju eignina. Nánari upplýsingar eru í [Komast yfir eignir](fa-how-acquire.md).
-3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **eignaendurflokkunarbók** og veldu síðan tengda tengilinn.
+3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignaendurflokkunarbækur** og veldu síðan tengda tengilinn.
 4. Stofna endurflokkunarbók þar sem **Eignanr.** reiturinn inniheldur upphaflega eign og **Nýtt Eignanr.** reiturinn inniheldur nýju eignina sem á að færa.  
 5. Valið er **endurflokka** aðgerð.
 
@@ -41,7 +41,7 @@ Hægt er að skipta einni eign í margar eignir, til dæmis þegar þörf er á 
 
 1. Uppsetning tveggja nýrra eigna. Nýr deild er færður inn í reitinn **Deildarkóði**.
 2. Úthluta eigna-/afskriftabók á nýju eignirnar. Nánari upplýsingar eru í [Komast yfir eignir](fa-how-acquire.md).
-3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **eignaendurflokkunarbók** og veldu síðan tengda tengilinn.
+3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignaendurflokkunarbækur** og veldu síðan tengda tengilinn.
 4. Búa til tvö endurflokkunarbókarlínur, ein fyrir hverja nýja eign.
 5. Í fyrstu línunni er færð inn önnur eignin í reitinn **Nýtt Eignanr.** og 25 í **Endurflokka kaupverð %** reitinn.
 6. Í annarri línunni er færð inn þriðja eignin í reitinn **Nýtt Eignanr.** og 40 í **Endurflokka kaupverð %** reitinn.
@@ -55,7 +55,7 @@ Hægt er að skipta einni eign í margar eignir, til dæmis þegar þörf er á 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>Sameina tvær eignir í eina
 Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir skiptum eignum í eina deild. Ef búið er að bóka kaupverð og afskriftir fyrir eignina sem á að færa, verða þessi gildi sameinuð í eina staka eign.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **eignaendurflokkunarbók** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignaendurflokkunarbækur** og veldu síðan tengda tengilinn.
 2. Stofna endurflokkunarbók þar sem **Eignanr.** reiturinn inniheldur eignina sem á að færa/sameina og **Nýtt Eignanr.** reiturinn inniheldur eignina sem hún verður sameinuð við.
 3. Láttu Reiturinn **Endurflokka kaupverðs %** auðan til að flytja/sameina allt kaupverð.    
 4. Veldu **Endurflokka kaupverð** og **Endurflokka Afskriftir** gátreiti.
@@ -66,7 +66,7 @@ Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir s
 7. Á síðunni **fjárhagsbók eigna** er valið **Bóka** aðgerð til að bóka endurflokkun sem framkvæmd var í skrefi 2 til og með 5.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Skoða breytt bókfært afskriftarvirði vegna endurflokkunar eigna.
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókað virði eignar 02** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókfært virði eigna 02** og veldu síðan tengda tengilinn.
 2. Fyllið inn í svæðin eftir þörfum.
 3. Veljið hnappinn **Prenta** eða **Forskoðun**.  
 

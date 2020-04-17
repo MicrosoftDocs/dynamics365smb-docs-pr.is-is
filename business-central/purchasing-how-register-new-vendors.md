@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7ab77dd3c154c81172037e07fb6decf4ad907f5b
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e780967fda8e5c4e8b3a1f2e5e3ed3a05418507d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883095"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191044"
 ---
 # <a name="register-new-vendors"></a>Skráning nýrra lánardrottna
 Lánardrottnar veita vörurnar sem selja á. Hver lánardrottinn sem keypt er frá verður að vera skráður sem lánardrottnaspjald.
@@ -30,7 +30,7 @@ Lánardrottnaspjöld geyma upplýsingarnar sem þarf til að kaupa vörur frá l
 >   Ef lánardrottnasniðmát er til fyrir mismunandi tegundir lánardrottna, þá birtist síða þegar búið er til nýtt lánardrottnaspjald þar sem hægt er að velja viðeigandi sniðmát. Ef aðeins eitt lánardrottnasniðmát er fyrir hendi, nota ný lánardrottnaspjöld alltaf það sniðmát.
 <br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="to-create-a-new-vendor-card"></a>Að búa til nýtt lánardrottnaspjald.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.  

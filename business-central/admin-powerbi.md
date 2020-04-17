@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952988"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186885"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Gera viðskiptagögn þín virk fyrir Power BI
 
@@ -25,18 +25,15 @@ ms.locfileid: "2952988"
 Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes/prodshort.md)] og hjá Power BI. Einnig verður þú að hlaða niður [Power BI Desktop](https://powerbi.microsoft.com/desktop/) ef þú vilt búa til þínar eigin Power BI skýrslur. Power BI forrit þarfnast heimildar í töflur þaðan sem gögn eru sótt úr. Frekari upplýsingar um kröfur er að finna hér að neðan.  
 
 > [!IMPORTANT]
-> Power BI forrit sem lýst er í þessari grein eru hannaðir til að nota Azure Active Directory sem sannvottunaraðferð nema annað sé tilgreint. Til að setja upp Power BI-forrit þarftu einnig að hafa Power BI-leyfi fagmanns.  Þegar Power BI-forritið er uppsett er hægt að deila því með öðrum notendum sem eru með hvaða leyfisgerð sem er.
+> Power BI forrit sem lýst er í þessari grein eru hannaðir til að nota Azure Active Directory sem sannvottunaraðferð nema annað sé tilgreint. Einnig þarftu [Power BI Pro-leyfi](/power-bi/service-features-license-type) til að deila efninu þínu og einnig þeir sem þú deilir efninu með, eða efnið verður að vera á vinnusvæði með [Premium réttindi](/power-bi/service-premium-what-is). Nánari upplýsingar eru í [Aðferðir við að deila vinnu þinn í Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
 [!INCLUDE [prodlong](includes/prodlong.md)] hefur gefið út eftirfarandi forrit fyrir Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Sales  
-- [!INCLUDE [prodlong](includes/prodlong.md)](á staðnum) - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)](á staðnum) - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)](á staðnum) - Sales  
 
-## <a name="using-the-include-prodshortincludesprodshortmd-dashboards-in-power-bi"></a>Notkun [!INCLUDE [prodshort](includes/prodshort.md)]-yfirlita í Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Notkun [!INCLUDE [prodshort](includes/prodshort.md)]-yfirlita í Power BI
 
 Hvert forrit býður upp á skýrslur sem þú getur nýtt þér:
 
@@ -81,7 +78,7 @@ Forritin eru hönnuð til að vinna með gögn frá hvaða fyrirtæki sem er sem
 - [Velja reit](/power-bi/service-dashboard-tiles) til opna undirliggjandi skýrslu.  
 - Sjálfgefið er að gagnasafnið þitt uppfærist ekki sjálfkrafa. Hægt er að breyta uppfærsluáætluninni eða uppfæra hana hvenær sem er í            **Uppfæra núna**. Frekari upplýsingar eru í [Grunnstilla uppfærsluáætlun](/power-bi/refresh-scheduled-refresh).
 
-## <a name="power-bi-in-include-prodshortincludesprodshortmd"></a>Power BI í [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI í [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Heimasíðan þín á [!INCLUDE [prodshort](includes/prodshort.md)] getur innihaldið Power BI stjórnunareiningu sem hægt er að grunnstilla svo Power BI-skýrslur birtist á heimasíðunni þinni.
 
@@ -164,11 +161,11 @@ Power BI reikningur hefur ekki verið settur upp. Til þess að hafa gildan Powe
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Skilaboð: Engar skýrslur eru virkar. Veljið Velja skýrslu til að sjá hvaða skýrslur er hægt að birta.
 
-Þessi skilaboð birtast ef sjálfgefna skýrslan tókst ekki að virkja Power BI vinnusvæði þitt eða skýrslan virkjaði en mistókst að uppfæra. Ef þetta gerist skal fara í skýrsluna á Power BI vinnusvæðinu, velja **gagnamengi**, **stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnamengið hefur verið endurnýjað er farið aftur í Business Central og valið handvirkt skýrsla úr **velja skýrslur** síðunni.
+Þessi skilaboð birtast ef sjálfgefna skýrslan tókst ekki að virkja Power BI vinnusvæði þitt eða skýrslan virkjaði en mistókst að uppfæra. Ef þetta gerist skal fara í skýrsluna á Power BI vinnusvæðinu, velja **Gagnamengi**, **Stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnamengið hefur verið endurnýjað er farið aftur í Business Central og valið handvirkt skýrsla úr **velja skýrslur** síðunni.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Þú þarft Power BI-leyfi fagmanns til að setja upp [!INCLUDE [prodshort](includes/prodshort.md)]-forritið í Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Þú þarft Power BI-leyfi fagmanns til að setja upp [!INCLUDE [prodshort](includes/prodshort.md)]-forritið í Power BI
 
-Aðeins er hægt að setja upp Power BI-forritin að hálfu notenda sem eru með Power BI-leyfi fagmanns. Þegar Power BI-forritið hefur verið uppsett geturðu deilt því með notendum sem eru ekki með Power BI-leyfi fagmanns.  
+Þú þarft [Power BI-leyfi fagmanns](/power-bi/service-features-license-type) til að deila efninu þínu og einnig fólkið sem þú deilir því með, eða efnið verður að vera á vinnusvæði með [Premium réttindi](/power-bi/service-premium-what-is). Nánari upplýsingar eru í [Aðferðir við að deila vinnu þinn í Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
 ### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>„Sannprófun færibreyta tókst ekki, vinsamlegast vertu viss um að allar færibreytur séu gildar“
 
@@ -179,9 +176,9 @@ Aðeins er hægt að setja upp Power BI-forritin að hálfu notenda sem eru með
 - Ef tengst er [!INCLUDE [prodshort](includes/prodshort.md)] á staðnum. þú hefur slegið inn vefslóð sem er ekki gild. Þú getur staðfest vefslóðina á síðunni **Vefþjónusta** í [!INCLUDE [prodshort](includes/prodshort.md)]  
 - Gátt er ekki opin til að leyfa beiðni að fara í gegnum eldvegginn.
 
-### <a name="login-failed"></a>Innskráning mistókst
+### <a name="cannot-sign-in"></a>Get ekki skráð mig inn
 
-Ef þú færð „innskráning mistókst“ þegar þú skráir þig inn með innskráningarupplýsingum [!INCLUDE [prodshort](includes/prodshort.md)] er það líklega út af einu af eftirfarandi vandamálum:
+Ef þú færð „innskráning mistókst“ þegar þú skráir þig inn með [!INCLUDE [prodshort](includes/prodshort.md)] notandaskilríkjum er það líklega út af einu af eftirfarandi vandamálum:
 
 - Reikningur sem verið er að nota er ekki með heimildir til að sækja [!INCLUDE [prodshort](includes/prodshort.md)] gögnin úr reikningnum þínum. Staðfestu að þú sért með heimildir fyrir nauðsynlegum gögnum í [!INCLUDE [prodshort](includes/prodshort.md)] og reyndu aftur.
 - Þú hefur valið aðra sannvottunargerð en grunngerðina ef tengst er við [!INCLUDE [prodshort](includes/prodshort.md)] á staðnum.
@@ -203,7 +200,7 @@ Ef þú slærð inn ógilt heiti fyrirtækis meðan á tengingarferlinu stendur 
 
 Power BI-forritið sýnir aðeins gögn úr [!INCLUDE [prodshort](includes/prodshort.md)] fyrirtækinu sem var skilgreint þegar Power BI-forritið var sett upp. Hægt er að bæta gögnum frá viðbótarfyrirtækjum við skýrslurnar með því að bæta við nýjum fyrirspurnum sem nota mismunandi fyrirtæki sem gagnaveitu.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 

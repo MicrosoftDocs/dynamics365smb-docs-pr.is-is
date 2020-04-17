@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: fc2c2de39c3391a430adda72a841b01897235f68
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999784"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196688"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Nota verkraðir til að tímaraða verkhlutum
 Verkraðir í [!INCLUDE[d365fin](includes/d365fin_md.md)] gera notendum kleift að tímasetja og keyra tilteknar skýrslur og kótasöfn. Stilla má verk svo þau keyri einu sinni eða endurtekið. Til dæmis kann notandi að vilja keyra skýrslu yfir **Sölutölur sölumanns** vikulega, að rekja sölu sölumanns í hverri viku eða keyra kóðaeininguna **Úrvinnsla þjónustupóstraðar** daglega, til að tryggja að tölvupóstur sem bíður á leið til viðskiptamanna, varðandi þjónustupantanir þeirra, sé sendur út tímanlega.
@@ -117,8 +117,8 @@ Verkraðarfærslur keyra á grundvelli heimilda. Þessar heimildir verða að le
 ## <a name="using-job-queues-effectively"></a>Að nota verkraðir á skilvirkan hátt  
 Verkraðarfærsluskrá er með marga reiti sem hafa þann tilgang að setja færibreytur í codeunit sem tilgreind hefur verið til keyrslu með verkröð. Þetta þýðir einnig að kóðaeiningar sem á að keyra með verkröðinni verður að tilgreina með skránni Verkraðarfærsla sem færibreytur í **OnRun** rofanum. Þetta stuðlar að auknu öryggi, þar sem þetta kemur í veg fyrir að notendur keyri tilviljanakenndar kóðaeiningar gegnum verkröðina. Þurfi notandi að senda færibreytur í skýrslu er eina leiðin til að gera það að vefja skýrslukeyrslunni í kótaeiningu sem þáttar inntaksbreyturnar og skráir þær í skýrsluna fyrir keyrslu hennar.  
 
-## <a name="scheduling-synchronization-between-d365fin-and-crm_md"></a>Tímastillir samstillingu á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]
-Ef þú hefur samþætt [!INCLUDE[d365fin](includes/d365fin_md.md)] við [!INCLUDE[crm_md](includes/crm_md.md)] geturðu notað verkröðina til að tímasetja hvenær þú vilt samstilla gögn fyrir færslurnar sem þú ert með í viðskiptaforritunum tveimur. Samstillingarvinnslur geta einnig búið til nýjar færslur í áfangaforritinu til að passa við þær sem eru í upprunanum, allt eftir stefnu og reglum sem þú hefur skilgreint fyrir samþættingu. Ef Sölumaður stofnar til dæmis nýjan tengilið í [!INCLUDE[crm_md](includes/crm_md.md)] getur samstillingarvinnslan búið til þann tengilið fyrir tengdan sölumann í [!INCLUDE[d365fin](includes/d365fin_md.md)]. [Áætla samstillingu milli Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+## <a name="scheduling-synchronization-between-d365fin-and-d365fin"></a>Tímastillir samstillingu á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)]
+Ef þú hefur samþætt [!INCLUDE[d365fin](includes/d365fin_md.md)] við [!INCLUDE[d365fin](includes/cds_long_md.md)] geturðu notað verkröðina til að tímasetja hvenær þú vilt samstilla gögn fyrir færslurnar sem þú ert með í viðskiptaforritunum tveimur. Samstillingarvinnslur geta einnig búið til nýjar færslur í áfangaforritinu til að passa við þær sem eru í upprunanum, allt eftir stefnu og reglum sem þú hefur skilgreint fyrir samþættingu. Ef Sölumaður stofnar til dæmis nýjan tengilið í [!INCLUDE[crm_md](includes/crm_md.md)] getur samstillingarvinnslan búið til þann tengilið fyrir tengdan sölumann í [!INCLUDE[d365fin](includes/d365fin_md.md)]. [Áætla samstillingu milli Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 
 ## <a name="see-also"></a>Sjá einnig  
 [Stjórnun](admin-setup-and-administration.md)  

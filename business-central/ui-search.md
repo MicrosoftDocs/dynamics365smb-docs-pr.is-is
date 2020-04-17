@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 13b3e82d184e83841ea5daeb32c735e5383b3e02
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 37ee56fef2f7424e0655303f2a6111a8b3eae94f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953948"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195316"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finndu síður og upplýsingar með Viðmótsleit  
 Þetta efnisatriði lýsir því hvernig Viðmótsleit getur hjálpað þér að komast hratt á staði eins og aðgerðir, síður eða skýrslur, finna upplýsingar um hvernig á að ljúka ákveðnu verki og uppgötva önnur forrit og ráðgjafarþjónustur fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -63,7 +63,7 @@ Samfélag samstarfsaðila okkar er að þróa forrit á fullu sem bæta mögulei
 ## <a name="questions"></a>Einhverjar spurningar?
 Við höfum sýnt Viðmótsleit frá ýmsum hagsmunaaðilum, bent á spurningarnar sem þeir höfðu sameiginlegt og breytt athugasemdum okkar í lista yfir algengar spurningar. Ef þú hefur áhuga, sjáðu [Algengar spurningar Viðmótsleitar](ui-search-faq.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesuser-interface-dynamics-365-business-centralindex"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með Business Central](ui-work-product.md)  

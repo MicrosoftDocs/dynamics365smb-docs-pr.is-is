@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: dbd14c11d726aae802d5008c681eeb9ffcd55438
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b45fe3d89502e5a4e42bc43cc4679afe1b13699d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314329"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191692"
 ---
 # <a name="using-pre-closing-reports"></a>Nota skýrslur fyrir lokun
 Margar staðlaðar skýrslur eru í boði til að sannreyna nákvæmni reikninganna áður en bókum er lokað í lok ársins eða í lok tímabils. Til dæmis má nota skýrsluna **Viðskiptamaður - Prófjöfnuður** til að votta að upphæð bókunarflokks viðskiptamanna sé jöfn upphæð á samsvarandi reikningi færslubókar á tilteknu tímabili.

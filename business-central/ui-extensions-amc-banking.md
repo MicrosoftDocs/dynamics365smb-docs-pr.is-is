@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 10/14/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9c9d927fb13d68c195bd457eb6bd2cbbfe078ea2
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: 493abf6f7309d6eb0274f4f416e6e5aea782b031
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767539"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194356"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Notkun AMC Banking 365 Fundamentals viðbótarinnar
 AMC Banking 365 Fundamentals viðbótin gerir það auðveldar sendingu gagna til bankans þíns og eykur áreiðanlega þeirra. Viðbótin tengir [!INCLUDE[d365fin](includes/d365fin_md.md)] við AMC Banking 365 Fundamentals fyrir Microsoft Dynamics 365 Business Central þjónustu sem getur breytt bankagögnum úr [!INCLUDE[d365fin](includes/d365fin_md.md)] í snið sem yfir 600 bankar í heiminum krefjast. Þannig er til dæmis auðveldara að millifæra greiðslur og kreditfærslur til lánardrottna með því að slá greiðslurnar inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] og hlaða þeim svo upp í bankann þinn. Sniðin geta einnig jafnað út bankaafstemmingarferli. Frekari upplýsingar er að finna í [AMC Banking fyrir Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).

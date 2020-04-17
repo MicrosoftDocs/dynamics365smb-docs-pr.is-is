@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309917"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182205"
 ---
 # <a name="count-inventory-using-documents"></a>Birgðatalning með skjölum
 Hægt er að gera efnislega birgðatalningu á vörunum þínum með því að nota skjöl fyrir efnislega birgðapöntun og skráningu efnislegra birgða. Síðan **Pöntun efnislegra birgða** er notuð til að skipuleggja verk ítarlegrar birgðatalningar, t.d. ein á hverja staðsetningu. Síðan **Skráning efnislegra birgða** er notuð til að koma á framfæri og sækja rauntalningu á vörum. Hægt er að búa til margar skráningar fyrir eina pöntun, t.d. til að dreifa flokkum af vörum á mismunandi starfsmenn.
@@ -36,9 +36,9 @@ Birgðatalning með því að nota skjöl samanstendur af eftirfarandi skrefum:
 ## <a name="to-create-a-physical-inventory-order"></a>Að stofna pöntun efnislegra birgða
 Pöntun efnislegra birgða er ítarlegt skjal sem samanstendur af pöntunarhaus efnislegra birgða og nokkrum pöntunarlínum efnislegra birgða. Upplýsingarnar á haus efnislegra birgða útskýrir hvernig á að gera talningu á efnislegum birgðum. Pöntunarlínur efnislegra birgða innihalda upplýsingarnar um vörurnar og staðsetningar þeirra.
 
-Til að stofna pöntunarlínur efnislegra birgða er venjulega notuð virknin **Reikna línur** til að endurspegla núverandi birgðir sem línur í pöntuninni. Að öðrum kosti er hægt að nota virknina **Afrita skjal** til að fylla út línurnar með innihaldi annarrar opinnar eða bókaðrar pöntunar efnislegra birgða. Eftirfarandi ferli útskýrir eingöngu hvernig á að nota virknina **Reikna línur**.
+Til að stofna pöntunarlínur efnislegra birgða er venjulega notuð virknin **Reikna línur** til að endurspegla núverandi birgðir sem línur í pöntuninni. Að öðrum kosti er hægt að nota virknina **Afrita úr skjali** til að fylla út línurnar með innihaldi annarrar opinnar eða bókaðrar pöntunar efnislegra birgða. Eftirfarandi ferli útskýrir eingöngu hvernig á að nota virknina **Reikna línur**.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pantanir efnislegra birgða** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pantanir raunbirgða** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Fylltu út nauðsynlega reiti í flýtiflipanum **Almennt**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Veldu aðgerðina **Reikna línur**.
@@ -98,7 +98,7 @@ Einnig er hægt að velja aðgerðina **Mismunur efnislegrar birgðapöntunar** 
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Að finna tvíteknar pöntunarlínur efnislegra birgða
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pantanir efnislegra birgða** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pantanir raunbirgða** og veldu síðan tengda tengilinn.
 2. Opnaðu pöntun efnislegra birgða sem á að skoða tvíteknar línur fyrir.
 3. Veldu aðgerðina **Sýna tvíteknar línur**.
 
@@ -111,7 +111,7 @@ Eftir að pöntun efnislegra birgða er lokið og stöðu hennar er breytt í **
 - Hver pöntunarlína efnislegra birgða hefur verið talin af að minnsta kosti einni skráningarlínu birgða.
 - Gátreitirnir **Í skráningarlínum** og **Væntanlegt magn reiknað** hafa verið valdir fyrir allar pöntunarlínur efnislegra birgða.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pantanir efnislegra birgða** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pantanir raunbirgða** og veldu síðan tengda tengilinn.
 2. Veldu pöntun efnislegra birgða sem á að ljúka við og veldu síðan aðgerðina **Breyta**.
 
     Á síðunni **Pöntun efnislegra birgða** er skoðað magnið sem er skráð í reitinn **Skráð magn (grunnur)**.
@@ -125,7 +125,7 @@ Birgðabókafærslurnar sem eiga við eru uppfærðar ásamt öllum tengdum vör
 ### <a name="to-view-posted-physical-inventory-orders"></a>Að skoða bókaðar pantanir efnislegra birgða
 Eftir bókun verður pöntun efnislegra birgða eytt og hægt er að skoða og meta skjalið sem bókuð pöntun efnislegra birgða ásamt skráningum þess á efnislegum birgðum og öllum athugasemdum sem hafa verið gerðar.
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar efnislegar birgðapantanir** og veldu síðan tengda tengilinn.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar pantanir raunbirgða** og veldu síðan tengda tengilinn.
 2. Á síðunni **Bókaðar efnislegar birgðapantanir** skal velja bókuð pöntun efnislegra birgða sem á að skoða og síðan velja aðgerðina **Skoða**.
 3. Til að skoða lista yfir tengdar skráningar efnislegra birgða skal velja aðgerðina **Skráningar**.
 

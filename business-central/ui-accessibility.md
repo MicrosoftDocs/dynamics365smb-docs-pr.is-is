@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb898a459bdf5d0b4ced3baadd2a245cd23b8f38
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1098e0998369e15bd9484ba33b808b9b435b538c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311453"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192124"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Aðgengi og Flýtivísanir
 Þetta efnisatriði veitir upplýsingar um eiginleikana sem auðvelda aðgengi fatlaðra að [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður eftirfarandi aðgengiseiginleika:  
@@ -48,18 +48,18 @@ ms.locfileid: "2311453"
 
 -->
 
-##  <a name="Navigation"></a> Leiðsögn  
+##  <a name="navigation"></a><a name="Navigation"></a> Leiðsögn  
  Þú getur flett á milli flipa og aðgerða í borðanum, þættir í yfirlitsstiku og aðrar stýringar á [!INCLUDE[d365fin](includes/d365fin_md.md)] síðum og skýrslum með lyklaborðinu. Til að færa áherslu frá einum flipa, aðgerð eða stýringu annað styðjið á TAB-lykil til að fara áfram. Ýttu á Shift + Tab til að færa til baka.  
 
  Með því að nota fliparöðun geturðu einnig skipt á milli aðal vafrasíðu og svarglugga sem óska eftir staðfestingu, til dæmis, eða innskráningarsíðu.  
 
-##  <a name="Headings"></a> Yfirskrift  
+##  <a name="headings"></a><a name="Headings"></a> Yfirskrift  
  HTML-uppruni fyrir efni [!INCLUDE[d365fin](includes/d365fin_md.md)] notar merki til að hjálpa notendum aðstoðartækni að skilja uppbyggingu og innihald síðunnar. Til dæmis, á listasíðum, eru dálkarnir skilgreindir í TH-merkjum og dálkur fyrirsagnir eru settar með TITLE eigind inni í merkinu. Skýringarmyndir fyrir þætti, svo sem FastTabs, FactBoxes og reitir eru í fyrirsagnamerkjum (H1, H2, H3 og H4).  
 
-##  <a name="Images"></a> Mynd og tenglar  
+##  <a name="image-and-links"></a><a name="Images"></a> Mynd og tenglar  
  Lýsandi texti fyrir myndir er stillt með ALT-eigind inni í IMG-merkinu. Lýsandi texti fyrir tengla er stillt með ALT-eigind inni í A-merkinu.  
 
-##  <a name="AssistiveTech"></a> Aðstoðartækni  
+##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Aðstoðartækni  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] styður ýmis konar aðstoðartækni, svo sem mikla skerpu, skjálesara og raddgreiningarhugbúnaður. Sum aðstoðartækni kann ekki að virka vel með ákveðnum þáttum á síðum [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="for-more-accessibility-information"></a>Fyrir frekari upplýsingar um aðgengi  

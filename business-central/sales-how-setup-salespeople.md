@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ef0e1db9e4af18ad209c111c951c98a46b0aabe9
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e1e53372298462356e6d48dab0e973262abadeb3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877568"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193852"
 ---
 # <a name="set-up-salespeople"></a>Setja upp sölumenn
 Í mörgum fyrirtækjum þarf jafnan að fylgjast með starfi einstaklinga (t.d. sölumanna) svo hægt sé að nota upplýsingar sem þeim tengjast við að reikna sölulaun eða bónus, svo að dæmi sé tekið. Skoða, til dæmis skýrsluna um **sölulaun sölumanns**. Fyrirtæki gæti einnig viljað úthluta tengiliðum á viðeigandi sölumann.
 
 Þegar þú hefur sett upp sölumann á síðunni **Sölumenn** er hægt að velja hann í reitnum **Sölumannskóði** í öllum viðeigandi færslum, svo sem fjárhagsreikningum, viðskiptamanns-, lánardrottins-, tengiliða-, og söluherferðarspjöldum. Síðan þegar þú bókar eða setur upp reikninga, kreditreikninga, bókarlínum, vaxtaaðgerða o.s.frv. er sölumannskóðinn færður í fjárhagsfærslur sem úr þessu öllu koma.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm)]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Uppsetning sölumannskóða
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sölumenn** og veldu síðan tengda tengilinn.
