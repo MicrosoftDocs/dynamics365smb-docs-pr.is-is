@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0def7cba6f3929304094b3d213a8745ea97721ea
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 29be6613c251316f8b6eec5478677302d2806ca3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314917"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189436"
 ---
-# <a name="add-and-view-notes-on-records"></a><span data-ttu-id="ebb94-104">Bæta við og skoða athugasemdir við færslur</span><span class="sxs-lookup"><span data-stu-id="ebb94-104">Add and View Notes on Records</span></span>
- <span data-ttu-id="ebb94-105">Þú</span><span class="sxs-lookup"><span data-stu-id="ebb94-105">You</span></span> <!--OnPrem and your colleagues --><span data-ttu-id="ebb94-106">getur bætt athugasemdum við færslur í forritinu.</span><span class="sxs-lookup"><span data-stu-id="ebb94-106">can add notes to records in the application.</span></span> <span data-ttu-id="ebb94-107">Margar síður, sérstaklega þær sem sýna færslulista eins og t.d. síðan **Sölupantanir**, innihalda aðgerðina **Athugasemdir** eða upplýsingareitinn **Athugasemdir**.</span><span class="sxs-lookup"><span data-stu-id="ebb94-107">Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox.</span></span> <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
+# <a name="add-and-view-notes-on-records"></a><span data-ttu-id="98a76-104">Bæta við og skoða athugasemdir við færslur</span><span class="sxs-lookup"><span data-stu-id="98a76-104">Add and View Notes on Records</span></span>
+ <span data-ttu-id="98a76-105">Þú</span><span class="sxs-lookup"><span data-stu-id="98a76-105">You</span></span> <!--OnPrem and your colleagues --><span data-ttu-id="98a76-106">getur bætt athugasemdum við færslur í forritinu.</span><span class="sxs-lookup"><span data-stu-id="98a76-106">can add notes to records in the application.</span></span> <span data-ttu-id="98a76-107">Margar síður, sérstaklega þær sem sýna færslulista eins og t.d. síðan **Sölupantanir**, innihalda aðgerðina **Athugasemdir** eða upplýsingareitinn **Athugasemdir**.</span><span class="sxs-lookup"><span data-stu-id="98a76-107">Many pages, particularly those that display a list of records, such as the **Sales Orders** page, include the **Notes** action or the **Notes** FactBox.</span></span> <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
- >  <span data-ttu-id="ebb94-108">Þessi eiginleiki er ekki tiltækur sem stendur.</span><span class="sxs-lookup"><span data-stu-id="ebb94-108">This feature is currently not available.</span></span>  
+ >  <span data-ttu-id="98a76-108">Þessi eiginleiki er ekki tiltækur sem stendur.</span><span class="sxs-lookup"><span data-stu-id="98a76-108">This feature is currently not available.</span></span>  
 
 <!--OnPrem
 > [!NOTE]  
@@ -47,5 +47,5 @@ ms.locfileid: "2314917"
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## <a name="see-also"></a><span data-ttu-id="ebb94-109">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="ebb94-109">See Also</span></span>
-<span data-ttu-id="ebb94-110">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ebb94-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="98a76-109">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="98a76-109">See Also</span></span>
+<span data-ttu-id="98a76-110">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="98a76-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  

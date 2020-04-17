@@ -10,28 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5995e550b4d4c25296842a7d73a5f74acb91bd83
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: ea9b5753e159d16b1e0348053ea71816934cbe43
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910396"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186165"
 ---
-# <a name="setting-up-banking"></a><span data-ttu-id="dad9c-103">Uppsetning bankaþjónustu</span><span class="sxs-lookup"><span data-stu-id="dad9c-103">Setting Up Banking</span></span>
-<span data-ttu-id="dad9c-104">Með því að nota bankareikningaspjöld er hægt að fylgjast með öllum bankareikningum, í hvaða gjaldmiðli sem er.</span><span class="sxs-lookup"><span data-stu-id="dad9c-104">Using bank account cards, you can keep track of all your bank accounts, in any currency.</span></span> <span data-ttu-id="dad9c-105">Þegar bankareikningar hafa verið settir upp er einnig hægt að nota valkostinn prentskoðun.</span><span class="sxs-lookup"><span data-stu-id="dad9c-105">After you have set up the bank accounts, you can also use the check printing option.</span></span>
+# <a name="setting-up-banking"></a><span data-ttu-id="7c981-103">Uppsetning bankaþjónustu</span><span class="sxs-lookup"><span data-stu-id="7c981-103">Setting Up Banking</span></span>
+<span data-ttu-id="7c981-104">Með því að nota bankareikningaspjöld er hægt að fylgjast með öllum bankareikningum, í hvaða gjaldmiðli sem er.</span><span class="sxs-lookup"><span data-stu-id="7c981-104">Using bank account cards, you can keep track of all your bank accounts, in any currency.</span></span> <span data-ttu-id="7c981-105">Þegar bankareikningar hafa verið settir upp er einnig hægt að nota valkostinn prentskoðun.</span><span class="sxs-lookup"><span data-stu-id="7c981-105">After you have set up the bank accounts, you can also use the check printing option.</span></span>
 
-<span data-ttu-id="dad9c-106">Til að geta notað rafræna bankaþjónustu til að flytja inn bankayfirlit og flytja út greiðslur verður að setja upp og virkja viðkomandi þjónustu.</span><span class="sxs-lookup"><span data-stu-id="dad9c-106">To use electronic banking services to import bank statements and  export payments, you must set up and enable the involved services.</span></span>
+<span data-ttu-id="7c981-106">Til að geta notað rafræna bankaþjónustu til að flytja inn bankayfirlit og flytja út greiðslur verður að setja upp og virkja viðkomandi þjónustu.</span><span class="sxs-lookup"><span data-stu-id="7c981-106">To use electronic banking services to import bank statements and  export payments, you must set up and enable the involved services.</span></span>
 
-| <span data-ttu-id="dad9c-107">Til</span><span class="sxs-lookup"><span data-stu-id="dad9c-107">To</span></span> | <span data-ttu-id="dad9c-108">Sjá</span><span class="sxs-lookup"><span data-stu-id="dad9c-108">See</span></span> |
+| <span data-ttu-id="7c981-107">Til</span><span class="sxs-lookup"><span data-stu-id="7c981-107">To</span></span> | <span data-ttu-id="7c981-108">Sjá</span><span class="sxs-lookup"><span data-stu-id="7c981-108">See</span></span> |
 | --- | --- |
-| <span data-ttu-id="dad9c-109">Setja upp bankareikningaspjöld fyrir hvern bankareikning svo að hægt sé að fylgjast með bankafærslum.</span><span class="sxs-lookup"><span data-stu-id="dad9c-109">Set up bank account cards for each of your bank accounts, so you can keep track of banking transactions.</span></span> |[<span data-ttu-id="dad9c-110">Bankareikningar settir upp</span><span class="sxs-lookup"><span data-stu-id="dad9c-110">Set Up Bank Accounts</span></span>](bank-how-setup-bank-accounts.md) |
-| <span data-ttu-id="dad9c-111">Setja upp utanaðkomandi þjónustu sem gerir kleift að flytja inn bankayfirlit sem bankastreymi til greiðslujöfnunar og bankaafstemmingar.</span><span class="sxs-lookup"><span data-stu-id="dad9c-111">Set up an external service that enables you to import bank statements as bank feeds for payment application and bank reconciliation.</span></span> |[<span data-ttu-id="dad9c-112">Setja upp Envestnet Yodlee Bank Feeds þjónustuna</span><span class="sxs-lookup"><span data-stu-id="dad9c-112">Set Up the Envestnet Yodlee Bank Feeds Service</span></span>](bank-how-setup-bank-statement-service.md) |
-| <span data-ttu-id="dad9c-113">Setja upp utanaðkomandi þjónustu sem gerir kleift að flytja út greiðslur til banka til vinnslu og flytja inn bankayfirlit sem bankaskrár til greiðslujöfnunar og bankaafstemmingar.</span><span class="sxs-lookup"><span data-stu-id="dad9c-113">Set up an external service that enables you to export your payments to the bank for processing  and import bank statements as bank files for payment application and bank reconciliation.</span></span> |[<span data-ttu-id="dad9c-114">Notkun AMC Banking 365 Fundamentals viðbótarinnar</span><span class="sxs-lookup"><span data-stu-id="dad9c-114">Using the AMC Banking 365 Fundamentals extension</span></span>](ui-extensions-amc-banking.md) |
+| <span data-ttu-id="7c981-109">Setja upp bankareikningaspjöld fyrir hvern bankareikning svo að hægt sé að fylgjast með bankafærslum.</span><span class="sxs-lookup"><span data-stu-id="7c981-109">Set up bank account cards for each of your bank accounts, so you can keep track of banking transactions.</span></span> |[<span data-ttu-id="7c981-110">Bankareikningar settir upp</span><span class="sxs-lookup"><span data-stu-id="7c981-110">Set Up Bank Accounts</span></span>](bank-how-setup-bank-accounts.md) |
+| <span data-ttu-id="7c981-111">Setja upp utanaðkomandi þjónustu sem gerir kleift að flytja inn bankayfirlit sem bankastreymi til greiðslujöfnunar og bankaafstemmingar.</span><span class="sxs-lookup"><span data-stu-id="7c981-111">Set up an external service that enables you to import bank statements as bank feeds for payment application and bank reconciliation.</span></span> |[<span data-ttu-id="7c981-112">Setja upp Envestnet Yodlee Bank Feeds þjónustuna</span><span class="sxs-lookup"><span data-stu-id="7c981-112">Set Up the Envestnet Yodlee Bank Feeds Service</span></span>](bank-how-setup-bank-statement-service.md) |
+| <span data-ttu-id="7c981-113">Setja upp utanaðkomandi þjónustu sem gerir kleift að flytja út greiðslur til banka til vinnslu og flytja inn bankayfirlit sem bankaskrár til greiðslujöfnunar og bankaafstemmingar.</span><span class="sxs-lookup"><span data-stu-id="7c981-113">Set up an external service that enables you to export your payments to the bank for processing  and import bank statements as bank files for payment application and bank reconciliation.</span></span> |[<span data-ttu-id="7c981-114">Notkun AMC Banking 365 Fundamentals viðbótarinnar</span><span class="sxs-lookup"><span data-stu-id="7c981-114">Using the AMC Banking 365 Fundamentals extension</span></span>](ui-extensions-amc-banking.md) |
 
-## <a name="see-also"></a><span data-ttu-id="dad9c-115">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="dad9c-115">See Also</span></span>
-[<span data-ttu-id="dad9c-116">Afstemming bankareikninga</span><span class="sxs-lookup"><span data-stu-id="dad9c-116">Reconciling Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
-[<span data-ttu-id="dad9c-117">Stjórnun skulda</span><span class="sxs-lookup"><span data-stu-id="dad9c-117">Managing Receivables</span></span>](receivables-manage-receivables.md)  
-[<span data-ttu-id="dad9c-118">Stjórna skuldum</span><span class="sxs-lookup"><span data-stu-id="dad9c-118">Managing Payables</span></span>](payables-manage-payables.md)  
-<span data-ttu-id="dad9c-119">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="dad9c-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="7c981-115">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="7c981-115">See Also</span></span>
+[<span data-ttu-id="7c981-116">Afstemming bankareikninga</span><span class="sxs-lookup"><span data-stu-id="7c981-116">Reconciling Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="7c981-117">Stjórnun skulda</span><span class="sxs-lookup"><span data-stu-id="7c981-117">Managing Receivables</span></span>](receivables-manage-receivables.md)  
+[<span data-ttu-id="7c981-118">Stjórna skuldum</span><span class="sxs-lookup"><span data-stu-id="7c981-118">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="7c981-119">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7c981-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

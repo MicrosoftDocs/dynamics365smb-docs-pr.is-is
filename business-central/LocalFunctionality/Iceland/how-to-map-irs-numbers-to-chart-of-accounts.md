@@ -10,31 +10,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1334a84f6af329d3e0dde9c4c8642009627103ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 60b231bb5096753899d1bd249f78478a05d04858
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301308"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181146"
 ---
-# <a name="map-irs-numbers-to-chart-of-accounts"></a><span data-ttu-id="9e41b-104">Varpa skattstofunúmerum í bókhaldslykla</span><span class="sxs-lookup"><span data-stu-id="9e41b-104">Map IRS Numbers to Chart of Accounts</span></span>
-<span data-ttu-id="9e41b-105">Fyrirtæki á Íslandi þurfa að senda gagnaskrá á fyrirfram tilgreindu formi til skattyfirvalda.</span><span class="sxs-lookup"><span data-stu-id="9e41b-105">Companies in Iceland are required to send the tax authority a data file in a predefined format.</span></span> <span data-ttu-id="9e41b-106">Áður en hægt er að gera þetta þarf að varpa fyrirfram skilgreindum reikningskóða skattstofu (Internal Revenue Service) í fjárhagsreikning.</span><span class="sxs-lookup"><span data-stu-id="9e41b-106">Before you can do this, you must map predefined Internal Revenue Service (IRS) account codes to general ledger accounts.</span></span>  
+# <a name="map-irs-numbers-to-chart-of-accounts"></a><span data-ttu-id="84c36-104">Varpa skattstofunúmerum í bókhaldslykla</span><span class="sxs-lookup"><span data-stu-id="84c36-104">Map IRS Numbers to Chart of Accounts</span></span>
+<span data-ttu-id="84c36-105">Fyrirtæki á Íslandi þurfa að senda gagnaskrá á fyrirfram tilgreindu formi til skattyfirvalda.</span><span class="sxs-lookup"><span data-stu-id="84c36-105">Companies in Iceland are required to send the tax authority a data file in a predefined format.</span></span> <span data-ttu-id="84c36-106">Áður en hægt er að gera þetta þarf að varpa fyrirfram skilgreindum reikningskóða skattstofu (Internal Revenue Service) í fjárhagsreikning.</span><span class="sxs-lookup"><span data-stu-id="84c36-106">Before you can do this, you must map predefined Internal Revenue Service (IRS) account codes to general ledger accounts.</span></span>  
 
-## <a name="to-create-an-internal-revenue-service-number"></a><span data-ttu-id="9e41b-107">Til að stofna skattstofunúmer</span><span class="sxs-lookup"><span data-stu-id="9e41b-107">To create an Internal Revenue Service number</span></span>  
+## <a name="to-create-an-internal-revenue-service-number"></a><span data-ttu-id="84c36-107">Til að stofna skattstofunúmer</span><span class="sxs-lookup"><span data-stu-id="84c36-107">To create an Internal Revenue Service number</span></span>  
 
-1.  <span data-ttu-id="9e41b-108">Velja skal ![Leit að síðu eða skýrslu](../../media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **Skattstofunúmer** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="9e41b-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IRS Number**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="9e41b-109">Valið er **Nýtt** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="9e41b-109">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="9e41b-110">Á nýju línunni skaltu slá inn númer í reitinn **Skattstofunúmer** og gefa upp heiti í reitinn **Nafn**.</span><span class="sxs-lookup"><span data-stu-id="9e41b-110">On the new line, enter a number in the **IRS number** field, and provide a name in the **Name** field.</span></span>  
-4.  <span data-ttu-id="9e41b-111">Veldu gátreitinn **Öfugt forskeyti** ef neikvæðu forskeyti á að snúa við á stöðu fjárhagsreiknings sem skattstofunúmerið er varpað á.</span><span class="sxs-lookup"><span data-stu-id="9e41b-111">Select the **Reverse Prefix** check box if you want the negative operator to be reversed on the balance of the general ledger account that the IRS number is mapped to.</span></span>  
-5.  <span data-ttu-id="9e41b-112">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="9e41b-112">Choose the **OK** button.</span></span>  
+1.  <span data-ttu-id="84c36-108">Velja skal ![Leit að síðu eða skýrslu](../../media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, slá inn **Skattstofunúmer** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="84c36-108">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **IRS Number**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="84c36-109">Valið er aðgerðin **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="84c36-109">Choose the **New** action.</span></span>  
+3.  <span data-ttu-id="84c36-110">Á nýju línunni skaltu slá inn númer í reitinn **Skattstofunúmer** og gefa upp heiti í reitinn **Nafn**.</span><span class="sxs-lookup"><span data-stu-id="84c36-110">On the new line, enter a number in the **IRS number** field, and provide a name in the **Name** field.</span></span>  
+4.  <span data-ttu-id="84c36-111">Veldu gátreitinn **Öfugt forskeyti** ef neikvæðu forskeyti á að snúa við á stöðu fjárhagsreiknings sem skattstofunúmerið er varpað á.</span><span class="sxs-lookup"><span data-stu-id="84c36-111">Select the **Reverse Prefix** check box if you want the negative operator to be reversed on the balance of the general ledger account that the IRS number is mapped to.</span></span>  
+5.  <span data-ttu-id="84c36-112">Velja hnappinn **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="84c36-112">Choose the **OK** button.</span></span>  
 
-## <a name="to-map-an-irs-number-to-a-general-ledger-account"></a><span data-ttu-id="9e41b-113">Til að varpa skattstofunúmeri í fjárhagsreikning</span><span class="sxs-lookup"><span data-stu-id="9e41b-113">To map an IRS number to a general ledger account</span></span>  
+## <a name="to-map-an-irs-number-to-a-general-ledger-account"></a><span data-ttu-id="84c36-113">Til að varpa skattstofunúmeri í fjárhagsreikning</span><span class="sxs-lookup"><span data-stu-id="84c36-113">To map an IRS number to a general ledger account</span></span>  
 
-1.  <span data-ttu-id="9e41b-114">Velja skal ![Leit að síðu eða skýrslu](../../media/ui-search/search_small.png "Leit að síðu eða skýrslu táknið") tákn, slá inn **bókhaldslykill** og velja svo viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="9e41b-114">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="9e41b-115">Veldu fjárhagsreikning sem er með **Tegund reiknings** af gerðinni **Bókun**.</span><span class="sxs-lookup"><span data-stu-id="9e41b-115">Select a general ledger account that has an **Account Type** of **Posting**.</span></span>  
-3.  <span data-ttu-id="9e41b-116">Í reitnum **Skattstofunúmer** velurðu skattstofunúmer af listanum.</span><span class="sxs-lookup"><span data-stu-id="9e41b-116">In the **IRS Number** field, select an IRS number from the list.</span></span>  
+1.  <span data-ttu-id="84c36-114">Velja skal ![Leita að síðu eða skýrslu](../../media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, slá inn **Bókhaldslykill** og velja síðan viðeigandi tengil.</span><span class="sxs-lookup"><span data-stu-id="84c36-114">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Chart of Accounts**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="84c36-115">Veldu fjárhagsreikning sem er með **Tegund reiknings** af gerðinni **Bókun**.</span><span class="sxs-lookup"><span data-stu-id="84c36-115">Select a general ledger account that has an **Account Type** of **Posting**.</span></span>  
+3.  <span data-ttu-id="84c36-116">Í reitnum **Skattstofunúmer** velurðu skattstofunúmer af listanum.</span><span class="sxs-lookup"><span data-stu-id="84c36-116">In the **IRS Number** field, select an IRS number from the list.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="9e41b-117">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="9e41b-117">See Also</span></span>  
- [<span data-ttu-id="9e41b-118">Sérstök gögn og skýrslur fyrir skattyfirvöld</span><span class="sxs-lookup"><span data-stu-id="9e41b-118">Special Data Output and Reports for the Tax Authority</span></span>](special-data-output-and-reports-for-the-tax-authority.md) 
+## <a name="see-also"></a><span data-ttu-id="84c36-117">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="84c36-117">See Also</span></span>  
+ [<span data-ttu-id="84c36-118">Sérstök gögn og skýrslur fyrir skattyfirvöld</span><span class="sxs-lookup"><span data-stu-id="84c36-118">Special Data Output and Reports for the Tax Authority</span></span>](special-data-output-and-reports-for-the-tax-authority.md) 

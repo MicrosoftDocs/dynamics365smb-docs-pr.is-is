@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: efd4d06d0d16b81ca3640af46a797c359098cc08
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 91e2f135f97e8d1e80edce3c6e45e08a080e826f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306671"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184725"
 ---
-# <a name="design-details-warehouse-management"></a><span data-ttu-id="f648c-103">Hönnunarupplýsingar vöruhúsakerfi</span><span class="sxs-lookup"><span data-stu-id="f648c-103">Design Details: Warehouse Management</span></span>
-<span data-ttu-id="f648c-104">Þessi fylgiskjöl veita yfirlit yfir hugtökin og reglurnar sem eru notaðar í valkostum Vöruhúsakerfa í [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="f648c-104">This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="f648c-105">Það útskýrir hönnun bak við helstu vörugeymsluaðgerðir og hvernig vörugeymslan vinnur með öðrum framboðskeðjuaðgerðum.</span><span class="sxs-lookup"><span data-stu-id="f648c-105">It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.</span></span>  
+# <a name="design-details-warehouse-management"></a><span data-ttu-id="58aaf-103">Hönnunarupplýsingar vöruhúsakerfi</span><span class="sxs-lookup"><span data-stu-id="58aaf-103">Design Details: Warehouse Management</span></span>
+<span data-ttu-id="58aaf-104">Þessi fylgiskjöl veita yfirlit yfir hugtökin og reglurnar sem eru notaðar í valkostum Vöruhúsakerfa í [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="58aaf-104">This documentation gives an overview of the concepts and principles that are used in the Warehouse Management features in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="58aaf-105">Það útskýrir hönnun bak við helstu vörugeymsluaðgerðir og hvernig vörugeymslan vinnur með öðrum framboðskeðjuaðgerðum.</span><span class="sxs-lookup"><span data-stu-id="58aaf-105">It explains the design behind central warehouse features and how warehousing integrates with other supply chain features.</span></span>  
 
-<span data-ttu-id="f648c-106">Til að greina á milli mismunandi flækjustiga vörugeymsla, þetta Gögnunum er skipt í tvo almenna hópa, grunn og Ítarleg vöruhús, táknuð með kafla titla.</span><span class="sxs-lookup"><span data-stu-id="f648c-106">To differentiate the different complexity levels of the warehousing, this documentation is divided into two general groups, Basic and Advanced warehouse configurations, indicated by section titles.</span></span> <span data-ttu-id="f648c-107">Þessi einfalda aðgreining nær yfir mismunandi flækjustig samkvæmt skilgreiningu vörueinda og staðsetningaruppsetniingu.</span><span class="sxs-lookup"><span data-stu-id="f648c-107">This simple differentiation covers different complexity levels as defined by product granules and location setup.</span></span> <span data-ttu-id="f648c-108">Nánari upplýsingar eru í [Upplýsingar um hönnun: Uppsetning vöruhúss](design-details-warehouse-setup.md).</span><span class="sxs-lookup"><span data-stu-id="f648c-108">For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).</span></span>  
+<span data-ttu-id="58aaf-106">Til að greina á milli mismunandi flækjustiga vörugeymsla, þetta Gögnunum er skipt í tvo almenna hópa, grunn og Ítarleg vöruhús, táknuð með kafla titla.</span><span class="sxs-lookup"><span data-stu-id="58aaf-106">To differentiate the different complexity levels of the warehousing, this documentation is divided into two general groups, Basic and Advanced warehouse configurations, indicated by section titles.</span></span> <span data-ttu-id="58aaf-107">Þessi einfalda aðgreining nær yfir mismunandi flækjustig samkvæmt skilgreiningu vörueinda og staðsetningaruppsetniingu.</span><span class="sxs-lookup"><span data-stu-id="58aaf-107">This simple differentiation covers different complexity levels as defined by product granules and location setup.</span></span> <span data-ttu-id="58aaf-108">Nánari upplýsingar eru í [Upplýsingar um hönnun: Uppsetning vöruhúss](design-details-warehouse-setup.md).</span><span class="sxs-lookup"><span data-stu-id="58aaf-108">For more information, see [Design Details: Warehouse Setup](design-details-warehouse-setup.md).</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="f648c-109">Í þessum hluta</span><span class="sxs-lookup"><span data-stu-id="f648c-109">In This Section</span></span>  
-[<span data-ttu-id="f648c-110">Hönnunarupplýsingar yfirlit vöruhúss</span><span class="sxs-lookup"><span data-stu-id="f648c-110">Design Details: Warehouse Overview</span></span>](design-details-warehouse-overview.md)  
-[<span data-ttu-id="f648c-111">Hönnunarupplýsingar uppsetningvöruhúss</span><span class="sxs-lookup"><span data-stu-id="f648c-111">Design Details: Warehouse Setup</span></span>](design-details-warehouse-setup.md)  
-[<span data-ttu-id="f648c-112">Hönnunarupplýsingar: vöruhúsaflæði inn</span><span class="sxs-lookup"><span data-stu-id="f648c-112">Design Details: Inbound Warehouse Flow</span></span>](design-details-inbound-warehouse-flow.md)  
-[<span data-ttu-id="f648c-113">Hönnunarupplýsingar: Innra vöruhúsaflæði</span><span class="sxs-lookup"><span data-stu-id="f648c-113">Design Details: Internal Warehouse Flows</span></span>](design-details-internal-warehouse-flows.md)  
-[<span data-ttu-id="f648c-114">Hönnunarupplýsingar: Framboð í vöruhúsi</span><span class="sxs-lookup"><span data-stu-id="f648c-114">Design Details: Availability in the Warehouse</span></span>](design-details-availability-in-the-warehouse.md)  
-[<span data-ttu-id="f648c-115">Hönnunarupplýsingar: vöruhúsaflæði á innleið</span><span class="sxs-lookup"><span data-stu-id="f648c-115">Design Details: Outbound Warehouse Flow</span></span>](design-details-outbound-warehouse-flow.md)  
-[<span data-ttu-id="f648c-116">Hönnunarupplýsingar: Sameining með birgðum</span><span class="sxs-lookup"><span data-stu-id="f648c-116">Design Details: Integration with Inventory</span></span>](design-details-integration-with-inventory.md)
+## <a name="in-this-section"></a><span data-ttu-id="58aaf-109">Í þessum hluta</span><span class="sxs-lookup"><span data-stu-id="58aaf-109">In This Section</span></span>  
+[<span data-ttu-id="58aaf-110">Hönnunarupplýsingar yfirlit vöruhúss</span><span class="sxs-lookup"><span data-stu-id="58aaf-110">Design Details: Warehouse Overview</span></span>](design-details-warehouse-overview.md)  
+[<span data-ttu-id="58aaf-111">Hönnunarupplýsingar uppsetningvöruhúss</span><span class="sxs-lookup"><span data-stu-id="58aaf-111">Design Details: Warehouse Setup</span></span>](design-details-warehouse-setup.md)  
+[<span data-ttu-id="58aaf-112">Hönnunarupplýsingar: vöruhúsaflæði inn</span><span class="sxs-lookup"><span data-stu-id="58aaf-112">Design Details: Inbound Warehouse Flow</span></span>](design-details-inbound-warehouse-flow.md)  
+[<span data-ttu-id="58aaf-113">Hönnunarupplýsingar: Innra vöruhúsaflæði</span><span class="sxs-lookup"><span data-stu-id="58aaf-113">Design Details: Internal Warehouse Flows</span></span>](design-details-internal-warehouse-flows.md)  
+[<span data-ttu-id="58aaf-114">Hönnunarupplýsingar: Framboð í vöruhúsi</span><span class="sxs-lookup"><span data-stu-id="58aaf-114">Design Details: Availability in the Warehouse</span></span>](design-details-availability-in-the-warehouse.md)  
+[<span data-ttu-id="58aaf-115">Hönnunarupplýsingar: vöruhúsaflæði á innleið</span><span class="sxs-lookup"><span data-stu-id="58aaf-115">Design Details: Outbound Warehouse Flow</span></span>](design-details-outbound-warehouse-flow.md)  
+[<span data-ttu-id="58aaf-116">Hönnunarupplýsingar: Sameining með birgðum</span><span class="sxs-lookup"><span data-stu-id="58aaf-116">Design Details: Integration with Inventory</span></span>](design-details-integration-with-inventory.md)
