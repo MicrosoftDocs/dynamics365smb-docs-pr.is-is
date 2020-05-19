@@ -70,6 +70,7 @@
 ### [Aðgengi og Flýtivísanir](ui-accessibility.md)
 ### [Flýtivísanir](keyboard-shortcuts.md)
 ### [Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur](keyboard-shortcuts-cheatsheet.md)
+## [Úrræðaleit: aðgangur að myndavél og staðsetningu](ui-troubleshooting-camera-location.md)
 
 # Uppsetning Business Central
 ## [Yfirlit](setup.md)
@@ -82,6 +83,7 @@
 ### [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)
 ### [Setja upp virðisaukaskatt (VSK)](finance-setup-vat.md)
 ### [Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé](finance-setup-unrealized-vat.md)
+### [Uppsetning upprunakóða og ástæðukóða fyrir endurskoðunarslóðir](finance-setup-trail-codes.md)
 ### [Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)
 ### [Uppfæra gengi](finance-how-update-currencies.md)
@@ -335,7 +337,10 @@
 ## [Stjórnun gagnadulritunar](admin-manage-data-encryption.md)
 ## [Framlenging á prufuútgáfunni](admin-extend-trial.md)
 ## [Eftirlit með síðum](across-inspect-page.md)
+## [Gagnagrunnslásar skoðaðir](admin-view-database-locks.md)
+## [Skoðun töfluupplýsinga](admin-view-table-information.md)
 ## [Búa til sandkassaumhverfi](across-how-create-sandbox-environment.md)
+## [Virkjun nýrra eiginleika fyrir tíma](admin-feature-management.md)
 ## Sérstilling Business Central
 ### [Yfirlit](ui-customizing-overview.md)
 ### [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)
@@ -525,6 +530,7 @@
 ## [Gera sölutilboð](sales-how-make-offers.md)
 ## [Reikningsfæra sölur](sales-how-invoice-sales.md)
 ## [Selja vörur](sales-how-sell-products.md)
+## [Prenta tiltektarlistann](sales-how-print-picking-list.md)
 ## [Sölubókun](ui-post-sales.md)
 ## [Stofna ítrekaðar sölu- og innkaupalínur](sales-how-work-standard-lines.md)
 ## [Beinar sendingar](sales-how-drop-shipment.md)
@@ -642,7 +648,7 @@
 ## [Keyra fulla áætlunargerð, MPS eða MRP](production-how-to-run-mps-and-mrp.md)
 ## [Enduráætla eða uppfæra framleiðslupantanir beint](production-how-to-replan-refresh-production-orders.md)
 ## [Rekja tengsl milli eftirspurnar og framboðs](production-how-track-demand-supply.md)
-## [Breyta áætlunartillögum í myndrænu yfirliti](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+<!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 # Samsetningardeild
 ## [Yfirlit](assembly-assemble-items.md)
@@ -816,7 +822,7 @@
 ## Ástralía
 ### [Yfirlit](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Skattur
-#### [Skattur](LocalFunctionality/Australia/tax.md)
+#### [Yfirlit](LocalFunctionality/Australia/tax.md)
 #### [Staðgreiðsluskattur](LocalFunctionality/Australia/withholding-tax.md)
 #### [Setja upp staðgreiðsluskatt](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 #### [Setja upp tekjuflokka fyrir staðgreiðsluskatt](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -874,7 +880,7 @@
 #### [Prenta reglubundnar VSK-skýrslur](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 #### [Setja upp belgíska tollflokka](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Belgísk Intrastat-skýrslugerð](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-#### [Setja upp stofnananúmer Intrastat](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
+#### [Setja upp stofnananúmer Intrastat](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
 #### [Prenta skýrslu Intrastat-eyðublaðs](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Setja upp skýrslugerðir](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Flytja út yfirlýsingar þriðju aðila Intrastat](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
@@ -1241,7 +1247,7 @@
 #### [Setja upp OCR-greiðslur](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [Flytja inn og bóka OCR-greiðslur](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [Prenta prófunarskýrslu OCR-bókar](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-### Core-fjármál    
+### Core-fjármál
 #### [Jafna fjárhagsfærslur í lokuðum tímabilum](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### Almennt
 #### [Endurteknar pantanir](LocalFunctionality/Norway/recurring-orders.md)  
@@ -1427,7 +1433,7 @@
 ### Birgðir
 #### [Svissnesk birgðastjórnun](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Prenta birgðatínslulista úr sölupöntun](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-### Almennt    
+### Almennt
 #### [Flytja inn svissnesk póstnúmer](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Svissnesk innkaupaskjöl og sölupantanir](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 
