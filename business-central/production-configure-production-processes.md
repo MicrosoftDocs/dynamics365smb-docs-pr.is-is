@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: d559eb54b727a60c2135a10ec23fc31b33241832
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190636"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324343"
 ---
 # <a name="setting-up-manufacturing"></a>Uppsetning framleiðslu
 Til að geta umbreytt efni í tilbúna vöru þarf framleiðsluforði, líkt og uppskriftir, leiðir, vélar og starfsmenn á vélum, að vera settur upp í kerfinu.
@@ -24,11 +24,14 @@ Til að geta umbreytt efni í tilbúna vöru þarf framleiðsluforði, líkt og 
 
 Þegar framleiðsla hefur verið sett upp, er hægt að skipuleggja og framkvæma framleiðsluskipanir. Frekari upplýsingar eru í [Áætlunargerð](production-planning.md) og [Framleiðsla](production-manage-manufacturing.md).  
 
+
+
  Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  
-|Grunnstilla framleiðslumöguleikana, til dæmis ákvarða vinnustundir í vinnusal og velja áætlunarreglur.|**Framleiðslugrunnur** síðan.|  
+|Grunnstilla framleiðslumöguleikana, til dæmis ákvarða vinnustundir í vinnusal og velja áætlunarreglur.|**Framleiðslugrunnur** síðan.|
+|PlanningÁ flipanum **Áætlun** á síðunni **Framleiðsluuppsetning** , skaltu stilla altækar færibreytur áætlunar sem hnekkja færibreytum á einstökum birgðaspjöldum.|[Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)|
 |Skilgreina staðlaða vinnuviku í framleiðsludeildinni út frá upphafi og enda hvers vinnudags og tengdrar vaktar.|[Stofna dagatal verkstæðis](production-how-to-create-work-center-calendars.md)|  
 |Skipuleggja föst gildi og skilyrði framleiðsluforða í vinnu- eða vélastöðvum til að stýra frálagi framleiðslu sem fram fer í þeim.|[Setja upp vinnu- og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md)|
 |Raða framleiðsluaðgerðir í þá röð sem krafist er og úthluta þeim til vinnu- og vélastöðva með þeim fjölda vinnustunda sem telst nauðsynlegur.|[Stofna leiðir](production-how-to-create-routings.md)|

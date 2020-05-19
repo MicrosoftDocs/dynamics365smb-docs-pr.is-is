@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 05/11/2020
 ms.author: edupont
-ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184029"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372617"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Endurskoðandi upplifun í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Engu skiptir hvernig endurskoðandi þú ert, þú getur nýtt þér **Endurskoðandi** Mitt hlutverk sem þitt Heim í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Héðan hefurðu aðgang að öllum síðum sem þú þarft í vinnunni.  
@@ -40,7 +40,7 @@ Við höfum auðveldað þér að bjóða ytri endurskoðanda. Einfaldlega opni�
 > [!IMPORTANT]  
 > Netfang endurskoðanda verður að vera vinnunetfang sem byggist á Azure Active Directory. Ef endurskoðandinn notar aðra gerð netfangs er ekki hægt að sena boðið. 
 > 
-> Þetta verk krefst aðgangs til að stjórna notendum og leyfum í Azure Active Directory, og notandinn sem sendir þetta boð verður að vera með hlutverkið **Altækur stjórnandi** eða **Notandastjórnandi** í Office 365 stjórnendamiðstöð. Frekari upplýsingar eru í [Um stjórnandahlutverk](/office365/admin/add-users/about-admin-roles) í Office 365 efni kerfisstjóra.  
+> Þetta verk krefst aðgangs til að stjórna notendum og leyfum í Azure Active Directory, og notandinn sem sendir þetta boð verður að vera með hlutverkið **Altækur stjórnandi** eða **Notandastjórnandi** í Microsoft 365 stjórnendamiðstöð. Frekari upplýsingar er að finna í [Um stjórnandahlutverk](/microsoft-365/admin/add-users/about-admin-roles) í stjórnandaefni Microsoft 365.  
 
 ### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Endurskoðanda þínum er bætt við Office 365 í gegnum Azure-gátt
 

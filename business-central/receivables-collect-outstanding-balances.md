@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2020
+ms.date: 04/02/2020
 ms.author: sgroespe
-ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b7c1ad6a19869c5d79f7da34e89e25b2b9456aa
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190684"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262119"
 ---
 # <a name="collect-outstanding-balances"></a>Innheimta útistandandi skuldir
 Í stjórnun útistandandi skulda felst að kanna hvort upphæðir sem falla í gjalddaga eru greiddar tímanlega. Ef viðskiptamenn eru í vanskilum geturðu sent yfirlitsskýrslu Viðskiptamanns sem innheimtubréf. Þú getur einnig gefið út innheimtubréf.
@@ -123,11 +123,12 @@ Innheimtubréf líkist reikningi. Þegar innheimtubréf er búið til þarf að 
 4. Veljið aðgerðina **Leggja til innheimtubr.línur**.
 5. Í runuvinnslunni **Leggja til innheimtubr.línur** skal fylla út reitina til að skilgreina hvernig og til hvaða aðila innheimtubréfin skulu stofnuð.
 6. Veljið gátreiturinn **Taka færslur í bið með** ef á áminningum eiga að birtast opnar færslur gjaldfallnar í bið.
+7. Veldu gátreitinn **Aðeins færslur með gjaldföllnum upphæðum** ef þú vilt að áminningarnar innihaldi aðeins opnar færslur sem eru komnar fram yfir á tíma. Aðeins reikningar og greiðslur verða sýndar þar sem þetta eru færslurnar þar sem greiðslur viðskiptamanna kunna að vera gjaldfallnar.
 
     > [!Important]
-    > Opnar færslur sem eru á bið verða settar inn, þrátt fyrir stillingar í gátreitur Aðeins færslur með gjaldföllnum upphæðum.
+    > Opnar færslur sem eru á bið verða settar inn, þrátt fyrir stillingar í gátreitur **Aðeins færslur með gjaldföllnum upphæðum**.
 
-7. Velja hnappinn **Í lagi**.
+8. Velja hnappinn **Í lagi**.
 
 ## <a name="to-replace-reminder-texts"></a>Texta innheimtubréfs skipt út.  
 Nokkrar leiðir eru í boði til að ákvarða hvaða texti birtist á prentuðu innheimtubréfi. Í einstaka tilvikum gæti þurft að skipta út byrjunar- og endatexta gildandi stigs með texta af öðru stigi.

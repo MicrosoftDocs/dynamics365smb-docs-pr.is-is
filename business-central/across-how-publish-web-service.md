@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/21/2020
 ms.author: edupont
-ms.openlocfilehash: 04af1a52bb0a2e14a2775efe6e3a6ccf77441d29
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3a0526451bb386f38eaf93c10ffd86937ea7b765
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188493"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324079"
 ---
 # <a name="publish-a-web-service"></a>Birta vefþjónustu
 
@@ -40,8 +40,8 @@ Eftirfarandi skref skýra hvernig vefþjónusta er búin til og gefin út.
 
 Þegar vefþjónusta er gefin út sjást þær vefslóðir sem voru myndaðar fyrir hana í reitunum **OData-vefslóð** og **SOAP-vefslóð**. Hægt er að prófa vefþjónustuna strax með því að velja tengla í reitunum **OData-vefslóð** og **SOAP-vefslóð**. Einnig er hægt að afrita gildið í reitnum og vista það til notkunar síðar.  
 
-> [!IMPORTANT]
-> Fyrir kóðaeiningar sem eru birtar sem SOAP-vefþjónusta, verða aðferðirnar sem koma fram í kóðaeiningunni að vera merktar sem `[External]` í kóðanum.
+> [!NOTE]
+> Ef hlutirnir sem þú hefur birt sem vefþjónustur eiga ekki að vera aðgengilegir frá [!INCLUDE [prodshort](includes/prodshort.md)] online verður þú að merkja aðferðirnar í kóðanum sem `[Scope('OnPrem')]`. Frekari upplýsingar má sjá í [Umfangseigind](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Eftir að þú birtir vefþjónustu, hafa ytri aðilar aðgang að henni. Hægt er að staðfesta að vefþjónustan sé tiltæk með því að nota vafra eða með því að velja tengilinn í reitunum **OData-vefslóð** og **SOAP-vefslóð** á síðunni **Vefþjónusta**. Eftirfarandi ferli sýnir hvernig hægt er að staðfesta aðgengi að vefþjónustunni fyrir notkun síðar.  
 
@@ -52,8 +52,8 @@ Eftir að þú birtir vefþjónustu, hafa ytri aðilar aðgang að henni. Hægt 
     > [!div class="mx-tdBreakAll"]
     > |Tegund|Málskipan|Dæmi|
     > |----------------|------|-------|
-    > |SOAP|https://api.businesscentral.dynamics.com/*útgáfa*/*leigjandi*/framleiðsla/WS/*fyrirtækisheiti*/*lögaðili*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|
-    > |OData V4|https://api.businesscentral.dynamics.com/*útgáfa*/*leigjandi*/framleiðsla/ODataV4/fyrirtæki(„*fyrirtækisheiti*“)/*lögaðili*|https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company(„CRONUS%20USA%2C%20Inc.“)/InvoiceDocument<br/>    Í reitnum fyrir heiti fyrirtækis er gerður greinarmunur á há- og lágstöfum.|
+    > |SOAP|`https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/WS/*CompanyName*/*entity*/` |`https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
+    > |OData V4|`https://api.businesscentral.dynamics.com/*version*/*tenant*/Production/ODataV4/Company('*CompanyName*')/*entity*`|`https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Í reitnum fyrir heiti fyrirtækis er gerður greinarmunur á há- og lágstöfum.|
 
 2. Fara skal yfir upplýsingarnar sem birtast í vafranum. Staðfesta skal að heiti vefþjónustunnar sem var búin til sjáist.  
 

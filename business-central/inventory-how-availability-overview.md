@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: fc7a0c6f750958cb35b2a85ed9d548f2e8219484
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f95544f2090185512d94e9a8ce10975304f0ec2f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182325"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324247"
 ---
 # <a name="view-the-availability-of-items"></a>Skoða tiltækileika vöru
 Þegar um er að ræða viðskiptatengd verkefni er hægt að fá ítarlegar upplýsingar um hvenær og hvar vara er fáanleg, til dæmis þegar verið er að ræða við viðskiptavin um afhendingardag.
@@ -80,9 +80,9 @@ Hægt er að sjá tiltækileika allra vara á öllum stöðum á síðunni **Vö
 3. Veljið gildið á svæðinu **Magn á lager** til að skoða birgðafærslur sem mynda gildið.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Að skoða framboð vöru eftir notkun hennar í samsetningu eða uppskrifta
-Ef til er vara í samsetningu eða Uppskriftir, annaðhvort sem yfirvöru eða íhlutur, þá er hægt að skoða hversu margar einingar af henni sé krafist á síðunni **Framboð vöru eftir Uppskriftarstigi**. Síðan sýnir hve margar einingar af yfirvöru er hægt að gera á grundvelli framboðs undirvara á undirliggjandi línum. Allar vörur sem hafa samsetningu eða framleiðsluuppskrift birtast á síðunni sem samanbrjótanleg línu. Hægt er að stækka línuna til að birta undirliggjandi íhluti og undirsamsetningar á lægri stigum ásamt eigin uppskriftum.
+Ef atriði er hluti af samsetningum eða framleiðsluuppskriftum sem annaðhvort yfirvara eða íhlutur er hægt að sjá hversu margar einingar eru nauðsynlegar á síðunni **Vara til ráðstöfunar eftir uppskriftarstigi**. Síðan sýnir hve margar einingar af yfirvöru er hægt að gera á grundvelli framboðs undirvara á undirliggjandi línum. Allar vörur sem hafa samsetningu eða framleiðsluuppskrift birtast á síðunni sem samanbrjótanleg línu. Hægt er að stækka línuna til að birta undirliggjandi íhluti og undirsamsetningar á lægri stigum ásamt eigin uppskriftum.
 
-Hægt er að nota þessa síðu til að athuga hvort hægt sé að anna sölupöntun fyrir vöru á tiltekinni dagsetningu með því að skoða núverandi framboð ásamt magni sem íhlutir hennar geta annað. Einnig er hægt að nota síðuna til að auðkenna flöskuhálsa í tengdum uppskriftum.
+Hægt er að nota þennan glugga til að athuga hvort hægt sé að anna sölupöntun fyrir vöru á tiltekinni dagsetningu með því að skoða núverandi framboð ásamt magni sem íhlutir hennar geta annað. Einnig er hægt að nota síðuna til að auðkenna flöskuhálsa í tengdum uppskriftum.
 
 Í hverri línu á síðunni fyrir bæði yfir- og undirvörur, tilgreinið tölur til ráðstöfunar i eftirfarandi lykilsvæðum. Hægt er að nota þessar tölur til að gefa fyrirheit um hversu margar einingar af yfirvöru hægt er að afhenda ef tengt samsetningarferli er ræst.
 
@@ -99,8 +99,11 @@ Síðan **Framboð vöru eftir uppskriftarstigi** sýnir upplýsingar um vöruna
 
 Reiturinn **Flöskuháls** tilgreinir hvaða vara í skipulagi uppskriftarinnar kemur í veg fyrir að gert sé meira magn en það sem sýnt er í reitnum **Get gert aðalvöru**. Til dæmis getur flöskuhálsvaran verið innkeyptur íhlutur með áætlaðri móttökudagsetningu sem er kemur of seint til að gera viðbótareiningar af aðalvörunni fyrir dagsetninguna í reitnum **Verður að vera tilbúið fyrir þessa dagsetningu**.
 
-### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Til að skoða framboð vöru eftir mælieiningum hennar
-Síðan **Framboð á vöru eftir mælieiningu** sýnir vöruframboð eftir mismunandi mælieiningum sem hún er geymd í.
+## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Til að skoða framboð vöru eftir mælieiningum hennar
+Síðan **Framboð á vöru eftir mælieiningu** sýnir vöruframboð eftir mælieiningum sem varan er geymd í.
+
+> [!NOTE]  
+> Til að halda þessum upplýsingum nákvæmum verður þú að umreikna mælieiningar vörunnar. Ef þú kaupir til dæmis vöru á einni mælieiningu, eins og kassa, og þú selur vörur í annarri einingu, eins og stykkjum, verður þú að nota birgðabók til að umbreyta mælieiningum eða „taka vörurnar úr kassanum“. Hægt er að nota neikvæða leiðréttingarvörulínu til að minnka birgðir á mælieiningu innkaupa, til dæmis reiti, og jákvæða leiðréttingu til að auka birgðir á mælieiningu sölu, til dæmis stykki. 
 
 ## <a name="assembly-availability-page"></a>Síðan „Samsetningarráðstöfun“
 Síðan **Samsetningaráðstöfun** birtir sundurliðaðar ráðstöfunarupplýsingarnar fyrir samsetningaríhluti. Það opnast:

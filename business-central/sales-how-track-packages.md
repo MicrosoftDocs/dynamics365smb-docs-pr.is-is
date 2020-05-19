@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4dfb4a530ebcbfd9bcede5e6280fa33360b952a6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41584b676db045bdf7317ced9b519f0784b41453
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192628"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262095"
 ---
 # <a name="track-packages"></a>Finna sendingar
 Fjöldi flutningsaðila veita þá þjónustu á Internetinu að hægt er að finna pakkningar sem eru í umsjá flutningsaðilans. Ef notast er við einn eða fleiri af þessum flutningsaðilum er hægt að setja upp ákveðnar grunnupplýsingar og nota sjálfvirkar leitaraðgerðir frá bókuðum afhendingum. Frekari upplýsingar er að finna í [Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md).  
@@ -24,8 +24,9 @@ Fjöldi flutningsaðila veita þá þjónustu á Internetinu að hægt er að fi
 ## <a name="to-track-a-package"></a>Sendingaleit
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókuð söluafhending** og veldu síðan tengda tengilinn.
 2. Viðeigandi afhending er opnuð.
-3. Í **Rakningarnúmer pakka** reitinn er ritað pakkanúmerið sem flutningsaðilinn lagði í té.
-4. Velja aðgerðina **Rekja pakka**.
+3. Veldu aðgerðina **Uppfæra fylgiskjal**.
+4. Í **Rakningarnúmer pakka** reitinn er ritað pakkanúmerið sem flutningsaðilinn lagði í té. Uppfærðu **Flutningsaðili** ef þörf er á og lokaðu síðunni.
+5. Velja aðgerðina **Rekja pakka**.
 
 Sjálfgefinn vafri opnar rakningarsíðu flutningsaðila.
 

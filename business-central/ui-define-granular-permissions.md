@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6fe5cff52d3ed8c2404e12b3e37703c8e8db8bb
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194476"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324031"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Úthluta leyfum til notenda og hópa
 [!INCLUDE[d365fin](includes/d365fin_md.md)] öryggiskerfið gerir þér kleift að stjórna því hvaða hluti notandi hefur aðgang að í hverjum gagnagrunni eða umhverfi fyrir sig. Þú getur tilgreint fyrir hvern notanda hvort hann geti lesið, breytt eða slegið inn gögn í valda gagnagrunnshluti. Frekari upplýsingar er að finna í [Gagnaöryggi](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) í hjálp Developer and ITPro fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -106,6 +106,26 @@ Heimildasamstæður sem notendur búa til, ný eða sem afrit, eru af gerðinni 
 
 Nýja heimildasamstæðan, sem inniheldur öll heimildir afritaðs heimildasamstæðu, er bætt við sem ný lína á síðunni **heimildasamstæða**. Nú er hægt að breyta heimild í nýju heimildasamstæðunni. Athugaðu að línurnar eru flokkaðar í stafrófsröð innan hvers tegundar.
 
+### <a name="to-export-and-import-a-permission-set"></a>Til að flytja út og flytja inn heimildasamstæðu
+Til að setja upp heimildir á skjótan máta geturðu flutt inn heimildasamstæður sem þú hefur flutt út frá öðrum [!INCLUDE[d365fin](includes/d365fin_md.md)]-leigjanda.
+
+Í umhverfi margra leigjenda er heimildasamstæða flutt inn í tiltekinn leigjanda, þ.e. umfang innflutningsins er „Leigjandi“.
+
+1. Á leigjanda 1, á síðunni **Heimildasamstæður** skaltu velja línuna eða línurnar fyrir heimildasamstæður sem á að flytja út og velja síðan aðgerðina **Flytja út heimildasamstæður**.
+
+    XML-skrá er útbúin í niðurhalsmöppunni á tölvunni þinni. Hún er sjálfgefið nefnd „Export Permission Sets.xml“
+
+2. Á leigjanda 2, á síðunni **Heimildasamstæður** skaltu aðgerðina **Flytja inn heimildasamstæður**.
+3. Á síðunni **Flytja inn heimildasamstæður** þarf að íhuga hvort sameina á fyrirliggjandi heimildasamstæður nýjum heimildasamstæðum í XML-skránni.
+
+    Ef þú velur ekki gátreitinn **Uppfæra fyrirliggjandi heimildir** eru fyrirliggjandi heimildir með sama heiti og þær sem eru í XML-skránni sameinaðar innfluttum heimildasamstæðum.
+
+    Ef þú velur ekki gátreitinn **Uppfæra fyrirliggjandi heimildir** er heimildunum með sama heiti og þeim sem eru til í XML-skránni sleppt við innflutninginn. Í þeim tilvikum verður þér tilkynnt um heimildasamstæður sem er sleppt.
+
+4. Á staðfestingarsíðunni **Innflutningur** skaltu finna og velja xml-skrána sem á að flytja inn og velja svo aðgerðina **Opna**.
+
+Heimildasamstæðurnar eru fluttar inn.
+
 ## <a name="to-create-or-modify-permissions-manually"></a>Til að stofna eða breyta heimildum handvirkt
 Þetta ferli útskýrir hvernig á að bæta við eða breyta heimildum handvirkt. Þú getur einnig fengið heimildir sem eru myndaðar sjálfkrafa úr aðgerðum þínum í notendaviðmótinu. Nánari upplýsingar er að finna í [Að búa til eða breyta heimildum með því að skrá aðgerðir þínar](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
 
@@ -187,6 +207,9 @@ Eftirfarandi ferli útskýrir hvernig á að úthluta heimildasamstæðum til no
 2. Á síðunni **Notendur** skal velja viðeigandi notanda, og þá velja aðgerðina **Heimildasamstæða eftir notendahópum**.
 3. Á síðunni **heimildasamstæða eftir notanda** veldu **[nafn notendaflokks]** gátreitinn á línu fyrir viðkomandi heimildasamstæðu til að tengja samstæðuna við notandann.
 4. Veldu **Allir notendahópar** gátreitinn til að úthluta heimildasamstæðunni til allra notenda.
+
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Til að fjarlægja úreltar heimildir úr öllum heimildasamstæðum
+1. Á síðunni **Heimildasamstæður** skal velja aðgerðina **Fjarlægja úreltar heimildir**.
 
 ## <a name="to-set-up-user-time-constraints"></a>Til að setja upp tímaskorður notanda
 Stjórnendur geta skilgreint tímabil þegar tilgreindir notendur geta bókað, og geta einnig tilgreint hvort kerfið skrái tímann sem notandinn er skráður inn. Stjórnendur geta einnig úthlutað ábyrgðarstöðvum á notendur. Frekari upplýsingar eru í [Vinna með ábyrgðarstöðvar](inventory-responsibility-centers.md).

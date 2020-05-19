@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
 ms.date: 01/17/2020
 ms.author: bholtorf
-ms.openlocfilehash: ccd371711a53c598279fcc981c5581be5ee9bdaf
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196871"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324055"
 ---
 # <a name="data-ownership-models"></a>Eignarhaldslíkön gagna
 [!INCLUDE[d365fin](includes/cds_long_md.md)] krefst þess að tilgreindur sé eigandi fyrir gögnin sem eru geymd. Frekari upplýsingar er að finna í [Eignarhald einingar](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) í Power Apps fylgiskjalinu. Þegar samþætting er sett upp á milli [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)] þarf að velja eitt af tveimur eignarhaldslíkönum fyrir færslur sem eru samstilltar:
@@ -34,6 +34,9 @@ Vegna þess að fyrirtækiseiningar skortir lagaleg og viðskiptaleg áhrif, er 
 * Við stofnum sjálfgefna viðskiptaeiningu sem er með sama heiti og fyrirtækið. Til dæmis Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Við búum til aðskilið eigendateymi með sama heiti og fyrirtækið og tengjum það við viðskiptaeininguna. Heiti teymisins fær forskeytið „BCI -.“ Til dæmis BCI - Cronus International Ltd. (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Færslur sem eru búnar til og samstilltar við [!INCLUDE[d365fin](includes/cds_long_md.md)] er úthlutað á teymið „BCI-eigandi“ sem er tengt við viðskiptaeininguna.
+
+> [!NOTE]
+> Ef þú endurnefnir fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)] er heiti fyrirtækisins, starsemi og teymis sem við búum til sjálfkrafa í [!INCLUDE[d365fin](includes/cds_long_md.md)] ekki uppfærð. Þar sem aðeins auðkenni fyrirtækisins er notað til samþættingar hefur þetta ekki áhrif á samstillingu. Ef þú vilt að heitin passi saman verður þú að uppfæra fyrirtækið, fyrirtækiseininguna og teymið í [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 Eftirfarandi mynd sýnir dæmi um þessa gagnauppsetningu í [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
@@ -56,11 +59,17 @@ Samstilling ákvarðar hvaða teymi skal eiga færslur. Þessu er stjórnað af 
 > [!NOTE]
 > Færslur verða skrifvarðar eftir að fyrirtæki er bætt við og því skal gæta þess að velja rétt fyrirtæki.
 
-### <a name="choosing-a-different-business-unit"></a>Að velja aðra viðskiptaeiningu
-Hægt er að breyta vali viðskiptaeiningar. Ef önnur eining er valin, til dæmis sú sem var búin til fyrr í CDS, mun hún halda upprunalegu heiti. Það verður sem sagt ekki bætt viðskeyti við fyrirtækiskennið. Við búum til teymi sem notast við hefðbundna nafngift.
+## <a name="choosing-a-different-business-unit"></a>Að velja aðra viðskiptaeiningu
+Þú getur breytt vali á fyrirtækiseiningu ef þú ert að nota eignarhaldslíkan Teams. Ef þú notar eignarhaldalíkan einstaklings er sjálfgefinn fyrirtækiseining alltaf valin. 
+
+Ef þú velur aðra fyrirtækiseiningu, til dæmis einhverja þú varst bj+óst til áður í [!INCLUDE[d365fin](includes/cds_long_md.md)], mun hún halda upprunalegu heiti sínu. Það verður sem sagt ekki bætt viðskeyti við fyrirtækiskennið. Við búum til teymi sem notast við hefðbundna nafngift.
+
+Þegar fyrirtækiseiningu er breytt er aðeins hægt að velja fyrirtækiseiningar sem eru einu stigi fyrir neðan rótarfyrirtækiseiningu.
 
 ## <a name="person-ownership"></a>Eignarhald einstaklings
-Ef valið er eignarhaldslíkan einstaklings þarf að tilgreina alla sölumenn sem munu vera með nýjar færslur. Viðskiptaeiningin og teymið er búið til samkvæmt lýsingunni í kaflanum hér á undan.  
+Ef valið er eignarhaldslíkan einstaklings þarf að tilgreina alla sölumenn sem munu vera með nýjar færslur. Fyrirtækiseiningin og teymið eru útbúin eins og lýst er í hlutanum [Eignarhald teymis](admin-cds-company-concept.md#team-ownership).
+
+Sjálfgefna fyrirtækiseiningin er notuð þegar einstaklingseignarhaldslíkan er valið og ekki er hægt að velja aðra fyrirtækiseiningu. Þessi hópur sem tengist sjálfgefinni fyrirtækiseiningu mun fá færslur fyrir algengar einingar, eins og vörueininguna, sem tengist ekki sérstökum sölumönnum.
 
 ## <a name="see-also"></a>Sjá einnig
 [Um [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

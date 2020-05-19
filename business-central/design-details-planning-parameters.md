@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: e45850539b84e2762d93140e47ae336f2ec6efda
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184893"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272039"
 ---
 # <a name="design-details-planning-parameters"></a>Hönnunarupplýsingar: áætlunarfæribreyta
 Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í [!INCLUDE[d365fin](includes/d365fin_md.md)]  
@@ -26,10 +26,10 @@ ms.locfileid: "3184893"
 |-------------|---------------|  
 |Skilgreina ef varan á að vera áætluð|Endurpöntunarstefna = auð|  
 |Skilgreina hvenær á að endurpanta|Tímarammi<br /><br /> Endurpöntunarmark<br /><br /> Öryggisforskot|  
-|Skilgreina hve mikið á að endurpanta|Magn í öryggisbirgðum<br /><br /> Endurpöntunarstefna:<br /><br /> -   Fast endurpöntunarmagn plús endurpöntunarmagn.<br />-   Hámarksmagn með Hámarksbirgðir<br />-   Pöntun<br />-   Lotu-fyrir-lotu|  
+|Skilgreina hve mikið á að endurpanta|Magn í öryggisbirgðum<br /><br /> Endurpöntunarstefna:<br /><br /> -   Fast endurpöntunarmagn plús endurpöntunarmagn.<br />-   Hámarksmagn plús Hámarksbirgðir<br />-   pöntunina þína inn.<br />-   Lota-fyrir-Lotu|  
 |Fínstilling hvenær og hversu mikið aá endurpanta|Enduráætlunartímabil<br /><br /> Lotusöfnunartímabil<br /><br /> Hömlutímabil|  
 |Breyta framboðspöntununum|Lágmarksmagn pöntunar<br /><br /> Hámarksmagn pöntunar<br /><br /> Fjöldapanta|  
-|Afmarka áætluðu vöruna|Framleiðslustefna:<br /><br /> -   Á lager<br />-   Eftir pöntun|  
+|Afmarka áætluðu vöruna|Framleiðslustefna:<br /><br /> -   á lager<br />-   eftir pöntun|  
 
 ## <a name="define-if-the-item-will-be-planned"></a>Skilgreina ef varan á að vera áætluð  
 Til að fela vöru/ birgðahaldseining í áætlanagerð, verður það að hafa endurpöntunarstefnu, annars verður að skipuleggja handvirkt, til dæmis, með pantanaáætlun.  
@@ -77,6 +77,8 @@ Til að fá skynsamlegar framboðsáætlun, skipuleggjandi mun fínstilla áætl
 |**Enduráætlunartímabil**|Þessi reitur er notaður til að ákvarða hvort aðgerðaboðin ættu að enduráætla fyrirliggjandi pöntun eða hætta við hana og stofna nýja. Fyrirliggjandi pöntun verður enduráætluð innan eins enduráætlunartímabils fyrir núgildandi framboð og fram að einu enduráætlunartímabili eftir núgildandi framboð.|  
 |**Lotusöfnunartímabil**|Með endurpöntunarstefnunni Runu-fyrir-runu er þessi reitur notaður til að safna saman margfeldi birgðaþarfa í eina birgðapöntun. Frá dagsetningu fyrstu eftirspurnar safnast öll eftirspurn í eftirfarandi lotusöfnunartímabili saman í eina afhendingarpöntun sem skráð er á dagsetningu fyrstu eftirspurnar. Eftirspurn sem er utan lotusöfnunartímabilsins fellur ekki undir framboðið.|  
 |**Hömlutímabil**|Þessi reitur er notaður til að forðast smávægilegar enduráætlanir núverandi birgða fram í tímann. Breytingar frá birgðadegi þar til eitt hömlutímabil frá birgðadegi mun ekki mynda nein aðgerð skilaboð.<br /><br /> Hömlutímabilið tilgreinir tímabil þar sem áætlunarkerfið á ekki að stinga upp á að núverandi birgðapantanir verði færðar fram á við. Þetta takmarkar fjölda óverulegra enduráætlana á núverandi framboðs við seinni dagsetningu, ef nýja áætlaða dagsetningin er innan hömlunartímabilsins.<br /><br /> Niðurstaðan er að jákvætt delta á milli áætlaðrar nýrrar framboðsdagsetningar og upphaflegrar framboðsdagsetningar verður alltaf stærra en hömlunartímabilið.|  
+> [!NOTE]
+> Með endurpöntunarstefnunni lotu-fyrir-lotu verður gildið í reitnum **Lotusöfnunartímabil** að vera jafnt eða stærra en gildið í reitnum **Hömlutímabil** . Að öðrum kosti verður hömlutímabilið stytt sjálfkrafa í áætlunarrútínunni til að stemma við lotusöfnunartímabilið.  
 
 Tímasetning enduráætlunartímabils, hömlutímabils og lotusöfnunartímabils byggir á birgðadegi. Tímaramminn byggir á upphafsdagsetningu áætlanagerðar eins og sést á eftirfarandi skýringarmynd.  
 

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a322144f9c55d87ad615122ad321572c476de1ef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 42f89bc4f62cdcb4b2abcd9c919006a65451330b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183045"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262239"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk
-Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum. Hægt er að nota vikmörk greiðsluafsláttar til að veita greiðsluafslátt eftir að afsláttarmörk eru liðin.  
+Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum. Til dæmis eru greiðsluvikmörk yfirleitt fyrir litlar upphæðir sem myndi kosta meira að leiðrétta en að samþykkja. Hægt er að nota vikmörk greiðsluafsláttar til að veita greiðsluafslátt eftir að afsláttarmörk eru liðin.  
 
 Hægt er að nota greiðsluvikmörk þannig að allar útistandandi upphæðir hafa leyfilegt hámark greiðsluvikmarka. Ef greiðsluvikmörk eru uppfyllt verður greiðsluupphæðin greind. Ef greiðsluupphæðin er vangreiðsla mun vangreiðslan loka öllum eftirstöðvum. Sundurliðuð fjárhagsfærsla er bókuð á greiðslufærsluna þannig að engar eftirstöðvar eru eftir á jöfnuðu reikningsfærslunni. Ef skilyrði um greiðsluvikmörk eru uppfyllt og greiðsluupphæðin er ofgreiðsla þá verður sundurliðuð fjárhagsfærsla bókuð á greiðslufærsluna þannig að engar eftirstöðvar eru eftir á greiðslufærslunni.
 
@@ -36,7 +36,10 @@ Hægt er að velja að birta viðvörun sem byggist á mismunandi aðstæðum fy
 - Fyrsta viðvörunin er fyrir vikmörk veitts greiðsluafsláttar. Tilkynnt er að hægt sé að samþykkja afslátt af síðbúnum greiðslum. Þá er hægt að velja hvort samþykkja skuli vikmörk frá greiðsludegi.  
 - Önnur viðvörunin er fyrir greiðsluvikmörkin. Tilkynnt er að hægt sé að loka öllum færslum þar sem mismunurinn er innan samtölu hámarksgreiðsluvikmarka fyrir jöfnuðu færslurnar. Þá er hægt að velja hvort samþykkja skuli vikmörk frá greiðsluupphæð.
 
-Nánari upplýsingar er að finna í [Að gera viðvaranir greiðsluvikmarka virkar eða óvirkar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
+> [!NOTE]
+> Ef viðvörunarboðin eru virkjuð er hægt að velja hvernig á að vinna úr greiðslum sem eru innan vikmarka. Ef skilaboðin eru ekki virkjuð og vikmörk eru ekki tilgreind verður reikningum með upphæðum sem eru innan vikmarka lokað sjálfkrafa og ekki er hægt að velja að skilja eftir upphæðina sem eftir er. 
+
+Nánari upplýsingar er að finna í [Að gera viðvaranir greiðsluvikmarka virkar eða óvirkar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
 ## <a name="to-set-up-tolerances"></a>Vikmörk sett upp  
 Með vikmörkum á dögum og upphæðum er hægt að loka reikningi þó að greiðsla nái ekki alveg upphæðinni á reikningnum, hvort sem um er að ræða að gjalddagi sé liðinn, vörum hafi verið skilað eða smávillu. Þetta á einnig við um endurgreiðslur og kreditreikninga.  
@@ -67,7 +70,7 @@ Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilg
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Til að virkja eða slökkva á greiðsluvikmarkaviðvörun
 Viðvörun um vikmörk greiðslu birtist þegar jöfnun er bókuð með stöðu sem er innan heimilla vikmarka. Hægt er að velja um hvernig staðan skuli bókuð og skráð.    
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.  
-2. Á síðunni **Uppsetning fjárhags** er smellt á flýtiflipann **Jöfnun**, síðan er gátreiturinn **Viðvörun um greiðsluvikmörk** valinn til að virkja viðvörunina. Ef gera á viðvörunina óvirka er gátmerkið fjarlægt.  
+2. Á síðunni **Fjárhagsgrunnur** á flipanum **Jöfnun** skaltu kveikja á **Viðvörun um greiðsluvikmörk** til að virkja viðvörunina. Til að gera viðvörunina óvirka skaltu slökkva á þessu.  
 
 > [!NOTE]  
 >  Sjálfgefinn valkostur fyrir **Viðvörun um greiðsluvikmörk** síðuna er **Láta stöðu standa sem eftirstöðvar**. Sjálfgefinn valkostur fyrir **Viðvörun um vikmörk greiðsluafsláttar** síðuna er **Hafna síðbúnum greiðsluafslætti**.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/30/2020
 ms.author: jswymer
-ms.openlocfilehash: 33b5a3ff604b0ddf7525b89d7a8a82bcfdd7f653
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196383"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333909"
 ---
 # <a name="managing-database-access-intent"></a>Umsjón með ástæðu aðgangs að gagnagrunni 
 
@@ -29,7 +29,7 @@ Hægt er að setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] til að nota 
 
 Síðan **Listi yfir ástæður fyrir aðgangi að gagnagrunni** gerir þér kleift að hnekkja fyrirframskilgreindri ástæðu fyrir aðgangi að gagnagrunni fyrir hluti þegar þeir eru keyrðir.
 
-Í gagnagrunni er þessi eiginleiki þekktur sem *lesa útvíkkun*. Frekari upplýsingar um lesa útvíkkun og ástæðu fyrir aðgangi að gagnagrunni í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna í [Nota lesa útvíkkun fyrir aukin afköst](https://review.docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview?branch=tfs337368-readscaleout) í [!INCLUDE[d365fin](includes/d365fin_md.md)] Developer og IT Pro hjálp.
+Í gagnagrunni er þessi eiginleiki þekktur sem *lesa útvíkkun*. Frekari upplýsingar um lesa útvíkkun og ástæðu fyrir aðgangi að gagnagrunni í [!INCLUDE[prodshort](includes/prodshort.md)] er að finna í [Nota lesa útvíkkun fyrir aukin afköst](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) í [!INCLUDE[prodshort](includes/prodshort.md)] Developer og IT Pro hjálp.
 
 ## <a name="to-change-the-database-access-intent"></a>Breyta ástæðu fyrir aðgangi að gagnagrunni
 

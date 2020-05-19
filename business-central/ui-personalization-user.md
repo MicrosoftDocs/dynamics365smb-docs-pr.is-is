@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195388"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262191"
 ---
 # <a name="personalize-your-workspace"></a>Sérstilling verksvæðis
 Þú getur sérstillt vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá.
@@ -66,7 +66,7 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 |Hoppa yfir reit þegar ýtt er á Enter.|Veldu örvaroddinn við hliðina á reitnum, eða dálkahaus í lista, og veldu **Útiloka frá flýtifærslu**. <br /><br /> Ef þú sérð ekki þennan valkost þá er reiturinn þegar stilltur þannig að honum verði sleppt. Í þessu tilfelli, til að hætta að sleppa reitnum, skal velja **Hafa með í flýtifærslu**. |Sjá [Hraða gagnaskráningu með flýtifærslu](ui-enter-data.md#QuickEntry)|
 |Endurraða og fjarlægja yfirlit sem tákna síaða lista.|Veldu örvaoddinn við hliðina á yfirliti og veldu svo **Færa**, **Fjarlægja** eða **Fela**.|Sjá [Vista og sérsníða listayfirlit](ui-views.md)|  
 |Bæta nýrri aðgerð við síðu eða skýrslu í Mitt hlutverk.|Af marksíðu, síður skýrslubeiðna eða glugga Viðmótsleitar skal velja bókamerkjatákn.|Sjá [Síða eða skýrsla bókamerkt í Mitt hlutverk](ui-bookmarks.md)|
-
+|Byrja alltaf að birta listann sem stækkaðan eða dreginn saman|Veldu hnappinn Stækka allt eða Fella allt saman efst í vinstra horni listans, eða veldu Stækka allt eða Fella allt saman í valmynd fyrsta dálksins. |Á við um stiveldislista sem hægt er að fella saman|
 
 ## <a name="personalizing-actions"></a><a name="Actions"></a>Sérstilling aðgerða
 

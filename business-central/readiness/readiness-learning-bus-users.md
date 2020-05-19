@@ -2,15 +2,15 @@
 title: Námskrá fyrir fyrirtækisnotanda
 description: Finndu allt það nám sem er í boði fyrir Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: c169bde62c9ff2bf32160801d258d034d0187371
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190852"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271943"
 ---
 # <a name="business-users-learning-catalog"></a>Námskrá fyrir fyrirtækisnotanda
 
@@ -33,7 +33,7 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 | [Nota kostnaðarbókhald í Microsoft Dynamics 365 Business Central](/learn/paths/use-cost-accounting-dynamics-365-business-central/)                                     | Þarftu að nota kostnaðarbókhald í fyrirtækinu þínu? Þessi námsleið getur komið þér af stað með kostnaðarbókhald í Business Central. Þar er uppsetning kostnaðarbókhalds útskýrð, hvernig á að búa til aðalgögn fyrir kostnaðarbókhald, hvernig á að millifæra færslur og úthluta kostnaði á flokk lykla.   | Ókeypis námsleið á netinu á eigin hraða | 3 klukkustundir 16 mínútur |
 | [Nota færslubækur í Microsoft Dynamics 365 Business Central](/learn/paths/use-journals-dynamics-365-business-central/)                                                   | Þarftu að búa til og bóka færslur færslubókar í Business Central? Þá er þessi leið fyrir þig. Uppsetning færslubókarsniðmáts. stofnun færslur færslubókar sem inniheldur endurteknar færslur og bókun færslna er allt saman útskýrt í einingum þessarar námsleiðar.                  | Ókeypis námsleið á netinu á eigin hraða | 2 klukkustundir 1 mínúta   |
 | [Afstemma bankareikninga í Microsoft Dynamics 365 Business Central](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)                             | Viltu komast að því hvernig á að afstemma bankareikninga í Business Central? Fjallað er um eiginleika bankaafstemmingar og afstemmingarbækur í þessari námsleið.                                                                                                                           | Ókeypis námsleið á netinu á eigin hraða | 1 klukkustund 3 mínútur   |
-| [Nota marga gjaldmiðla í Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Vinnur þú með marga gjaldmiðla? Ef þú gerir það mun þessi leið hjálpa þér að skilja skrefin sem þú þarft að klára til að setja upp og nota marga gjaldmiðla, vinna úr greiðslum og reikningum í mismunandi gjaldmiðlum og laga gengi þegar þörf krefur.                                             | Ókeypis námsleið á netinu á eigin hraða | 3 klukkustundir 4 mínútur  |
+| [Nota marga gjaldmiðla í Microsoft Dynamics 365 Business Central](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Vinnur þú með marga gjaldmiðla? Ef þú gerir það mun þessi leið hjálpa þér að skilja skrefin sem þú þarft að klára til að setja upp og nota marga gjaldmiðla, vinna úr greiðslum og reikningum í mismunandi gjaldmiðlum og laga gengi þegar þörf krefur.                                             | Ókeypis námsleið á netinu á eigin hraða | 3 klukkustundir 4 mínútur  |
 | [Búa til fjárhagsskýrslur í Microsoft Dynamics 365 Business Central](/learn/paths/create-financial-reports-dynamics-365-business-central/)                           | Berð þú ábyrgð á því að búa til fjárhagsskýrslur úr Business Central? Í þessari námsleið er fjallað um að búa til fjárhagsáætlanir og notkun fjárhagsskemu, vídda og eXtensible business reporting language (XBRL) til að búa til fjárhagsskýrslur sem venjulega eru nauðsynlegar fyrir flest fyrirtæki. | Ókeypis námsleið á netinu á eigin hraða | 3 klukkustundir 44 mínútur |
 | [Vinna úr reglubundnum fjárhagsaðgerðum í Microsoft Dynamics 365 Business Central](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/) | Berð þú ábyrgð á lokunarferli tímabils og ársloka? Ljúktu þessari einingu þar sem fjallað er um hvernig á að senda innheimtubréf og vaxtareikninga til viðskiptamanna. Þar er einnig fjallað um úrvinnslu Intrastat og skýrslugerð og lokun reikningsárs.                                                     | Ókeypis námsleið á netinu á eigin hraða | 3 klukkustundir 3 mínútur  |
 ## <a name="trade"></a>Viðskipti<a name="trade"></a>

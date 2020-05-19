@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 04/01/2020
+ms.date: 05/04/2020
 ms.author: edupont
-ms.openlocfilehash: 6e7968f7e37e2bf1e1495331cf863aef34e7e7e4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188972"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333885"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Flutningur viðskiptagagna í Excel
 Ef ætlunin er að vinna með gögn frá [!INCLUDE[d365fin](includes/d365fin_md.md)] í Excel, er hægt að opna alla lista í Excel og vinna með þá þar. Með sama hætti, ef notandi vill hætta í áskrift að [!INCLUDE[d365fin](includes/d365fin_md.md)] getur hann flutt gögnin sín út í Excel svo hann geti tekið þau með sér.
@@ -64,7 +64,14 @@ Við mælum með að notandi íhugi einnig að flytja út gögn af eftirfarandi 
 * Sölumenn  
 
 > [!NOTE]  
->   Ef notandi hefur sett upp fleiri en eitt fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður einnig að flytja út viðeigandi gögn úr hverju fyrirtæki.
+> Ef notandi hefur sett upp fleiri en eitt fyrirtæki í [!INCLUDE[prodshort](includes/prodshort.md)] verður einnig að flytja út viðeigandi gögn úr hverju fyrirtæki.
+
+> [!NOTE]
+> Þú verður að hafa að minnsta kosti eina af eftirfarandi heimildum til að opna eða breyta gögnum í Excel:
+>    - Heimildasamstæða *D365 Excel útflutningsaðgerð*  
+>    - Kerfisheimild 6110 *Leyfa útflutning aðgerðar í Excel*.  
+
+Frekari upplýsingar er að finna í [Að fá yfirlit yfir leyfi notanda](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

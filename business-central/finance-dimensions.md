@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183789"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262167"
 ---
 # <a name="working-with-dimensions"></a>Unnið með víddir
 Til að auðvelda greiningu á skjölum, svo sem sölupöntum, geturðu notað stærðir. Víddir eru eiginleikar og gildi sem flokkar færslur svo þú getir fylgst með og greina þær. Til dæmis má vísa til verkefnisins eða deildarinnar sem innganga kom frá.  
@@ -106,7 +106,8 @@ Til að forðast að bóka færslur með mótsagnarkenndum eða óviðkomandi v�
 Hægt er að nota altækar víddir og flýtivísanir í víddir sem síu hvar sem er í [!INCLUDE[d365fin](includes/d365fin_md.md)], þ.m.t. í skýrslum, runuvinnslum og greiningaryfirlitum. Alltaf er hægt að setja altækar víddir og flýtivísanir í víddir beint inn án þess að opna fyrst síðuna **Víddir**. Í færslubókar- og skjalalínum er hægt að velja altækar víddir og flýtivísanir í víddir í reit í línunni. Hægt er að setja upp tvær altækar víddir og átta flýtivísanir í víddir. Veldu víddirnar sem þú notar mest.
 
 > [!Important]  
-> Breyting á altækri vídd eða flýtivídd krefst þess að færslur sem bókaðar eru með vídd séu uppfærðar. Hægt er að framkvæma þetta verk með virkninni **Breyta altækum víddum**, en það getur verið tímafrekt og haft áhrif á afköst. Þess vegna skaltu velja altækar víddir og flýtivísanir í víddir vandlega svo þú þurfir ekki að breyta þeim seinna.
+> Breyting á altækri vídd eða flýtivídd krefst þess að færslur sem bókaðar eru með vídd séu uppfærðar. Hægt er að framkvæma þetta verk með virkninni **Breyta altækum víddum** en það getur verið tímafrekt og getur haft áhrif á afköst og töflur kunna að vera læstar meðan á uppfærslunni stendur. Þess vegna skaltu velja altækar víddir og flýtivísanir í víddir vandlega svo þú þurfir ekki að breyta þeim seinna. <br /><br />
+> Frekari upplýsingar er að finna í [Til að breyta altækri vídd](finance-dimensions.md#to-change-global-dimensions).
 
 > [!Note]
 > Þegar þú bætir við eða breytir altækri vídd eða flýtivídd ertu sjálfkrafa skráður út og aftur inn svo nýja gildið er undirbúið til notkunar alls staðar í forritinu.
@@ -115,8 +116,24 @@ Hægt er að nota altækar víddir og flýtivísanir í víddir sem síu hvar se
 2. Í flýtiflipanum **Víddir** skal fylla út reitina. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Að breyta altækum víddum
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Breyta altækum víddum** og veldu síðan tengda tengilinn.
-2. Haltu bendlinum yfir aðgerðir og reiti á síðunni til að kynna þér hvernig á að breyta altækum víddum og flýtivísunum í víddir.
+Breyting á altækri vídd eða flýtivídd uppfærir allar færslur sem bókaðar eru með vídd. Þar sem þetta ferli kann að vera tímafrekt og getur haft áhrif á afköst eru tvær mismunandi stillingar til staðar til að aðlaga ferlið að stærð gagnagrunnsins.  
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.
+2. Veldu aðgerðina **Breyta altækum víddum**.
+3. Efst á síðunni skaltu velja einn af eftirfarandi valkostum til að skilgreina í hvaða stillingu runuvinnslan er keyrð.
+
+    |Valkostur|Description|
+    |-|-|
+    |**Í röð**|(Sjálfgefið) Allri víddarbreytingunni er lokið í einni færslu þar sem allar færslur eru færðar í víddirnar sem þær höfðu áður en breytingin átti sér stað.<br /><br />Mælt er með þessum valkosti ef fyrirtækið inniheldur tiltölulega fáar færslur þar sem það tekur stystan tíma að ljúka. Ferlið læsir mörgum töflum og lokar fyrir aðra notendur þangað til það er gert. Athugaðu að í stórum gagnagrunnum er hugsanlega ekki hægt að ljúka þessu ferli í þessari stillingu. Í því tilfelli skaltu nota valkostinn **Samhliða**.|
+    |**Samhliða**|(Veldu gátreitinn **Samhliða vinnsla**.) Víddarbreytingin er keyrð í mörgum bakgrunnskeyrslum og aðgerðinni er skipt niður í margar færslur.<br /><br />Mælt er með þessum valkosti fyrir stóra gagnagrunna eða fyrirtæki með margar færslur þar sem það tekur stystu stund að ljúka. Athugið að með þessari stillingu hefst uppfærslan ekki ef fleiri en ein gagnagrunnslota er virk.|  
+
+4. Í reitunum **Altæk vídd 1 - Kóði** og/eða **Altæk vídd 2 - Kóði** skaltu slá inn nýju víddina/víddirnar. Núverandi víddir birtast gráar á bak við reitina.
+5. Ef **Röð** var valið skaltu velja aðgerðina **Byrja**.
+6. Ef þú hefur valið stillinguna **Samhliða** skaltu velja aðgerðina **Undirbúa**.
+
+    Flipinn **Skráarfærslur** er fylltur út með upplýsingum um víddirnar sem verður breytt.
+7. Skráðu þig út af [!INCLUDE[d365fin](includes/d365fin_md.md)] og skráðu þig svo aftur inn.
+8. Veldu aðgerðina **Ræsa** til að hefja samhliða vinnslu víddarbreytinganna.
 
 ### <a name="example-of-dimension-setup"></a>Dæmi um uppsetningu víddar
 Segjum sem svo, að fyrirtækið vilji rekja færslur út frá skipulagseiningum og landfræðilegum staðsetningum. Til þess að gera það, er hægt að setja upp tvær víddir á síðunni **Víddir**:

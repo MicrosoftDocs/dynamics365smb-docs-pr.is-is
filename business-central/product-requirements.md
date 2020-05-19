@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2020
+ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190084"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372593"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
 Áður en þú ferð inn í [!INCLUDE [prodshort](includes/prodshort.md)] á netinu mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
@@ -24,12 +24,13 @@ ms.locfileid: "3190084"
 
 ### <a name="recommended-browsers"></a>Ráðlagðir vafrar
 
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfu af Microsoft Edge.  
 **Chrome fyrir Windows og Firefox fyrir Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfum þessara skjáborðsvafra.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfu af Safari á OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með núverandi útgáfu af Microsoft Edge.
 
 ### <a name="other-supported-browsers"></a>Aðrir studdir vafrar
 
+**Microsoft Edge Eldra:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannaður til að vinna með eldri útgáfu af Microsoft Edge.  
 **Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með Internet Explorer 11 (smíði 11.0.9600.17239) fyrir Windows 10 (32-bita og 64-bita útgáfur). Við mælum með að uppfæra í nýjustu útgáfu Internet Explorer sem er studd fyrir þína útgáfu af Windows. Einnig er hægt að keyra nýja Edge og hafa enn aðgang að vefsvæðum sem krefjast Internet Explorer. Frekari upplýsingar er að finna í [Microsoft Edge fylgiskjöl](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Fartæki
@@ -45,6 +46,13 @@ ms.locfileid: "3190084"
 
 ## <a name="excel"></a>Excel
 **Breyta í Excel:** Til að nota Excel-viðbótina til að gera breytingar í Excel og ýta breytingunum aftur í [!INCLUDE[d365fin](includes/d365fin_md.md)] þarftu Excel 2016 eða síðar. Frekari upplýsingar eru í [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md).  
+
+## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Notkun stjórnunarmiðstöðvar Business Central
+Stjórnunarmiðstöðin er hönnuð til að vinna með núverandi útgáfu af eftirfarandi vöfrum:
+- Nýi Microsoft Edge
+- Chrome fyrir Windows
+- Firefox fyrir Windows
+- Safari fyrir macOS
 
 ## <a name="using-business-central-on-premises"></a>Notkun Business Central á staðnum
 

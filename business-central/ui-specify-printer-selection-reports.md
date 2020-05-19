@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189484"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272087"
 ---
 # <a name="set-up-printers"></a>Setja upp prentara
 Vegna þess að [!INCLUDE[prodshort](includes/prodshort.md)] er skýjaþjónusta nær hún ekki til staðbundinna prentara sem eru tengdir vélum notanda. Hins vegar er hægt að tengjast skýjavirkum prenturum. Í almennri útgáfu af [!INCLUDE[prodshort](includes/prodshort.md)] er skýjaprentari með heitið **Tölvupóstsprentari** uppsettur sem viðbót og er tilbúinn til notkunar eftir upphaflega uppsetningu.
@@ -27,6 +27,9 @@ Ef skýjaprentari er ekki uppsettur, eða ef uppsettur prentari mistekst, er pre
 Á síðunni **Prentarastjórnun** er hægt að skoða uppsetta prentara. Þegar búið er að setja upp einn eða fleiri prentara er hægt að opna síðuna **Prentaraval** til að setja upp fyrir notandareikninginn hvaða tilteknu skýrslur á að prenta fyrir tiltekinn prentara.
 
 Þegar prentari er settur upp og úthlutaður á tilteknar skýrslur er hægt að prenta skýrslu með því að velja hnappinn **Prenta** á síðu skýrslubeiðni. Frekari upplýsingar er að finna í [Prenta skýrslu](ui-work-report.md#PrintReport).
+
+### <a name="sizing-print-jobs"></a>Stærð prentverka stillt
+Skýjaprentun er hönnuð fyrir skjöl af hæfilegri stærð. Flestar skýjaþjónustur, þ.m.t. PrintNode og HP ePrint, eru með 10 MB hámark fyrir hvert verk. Ef þú þarft að prenta stærri skýrslur gætirðu þurft að skipta þeim í margar útprentanir.
 
 ## <a name="to-set-up-a-printer"></a>Uppsetning prentara
 Á síðunni **Prentarastjórnun** er hægt að skoða prentarana sem eru settir upp og hægt er að fá aðgang að síðunni **Stillingar** fyrir hvern prentara til að breyta fyrirliggjandi uppsetningu eða setja upp nýjan prentara.

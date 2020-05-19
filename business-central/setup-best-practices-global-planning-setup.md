@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c19f527f4d9c06aa28212e7519fee67c6dfd042b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3897602d405f13b5de4a1bc401cc409cb5ef58ec
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192222"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271895"
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Uppsetning bestu venjur: Uppsetning altækra áætlanna
 Flýtiflipinn **Áætlun** á síðunni **Framleiðslugrunnur** inniheldur nokkra reiti sem skilgreina altækar reglur fyrir framboðsáætlun.  
@@ -28,7 +28,7 @@ Flýtiflipinn **Áætlun** á síðunni **Framleiðslugrunnur** inniheldur nokkr
 |Íhlutir í birgðageymslu|Ef vörur eru ekki eru skilgreindar sem birgðahaldseiningar skal velja birgðageymslukóta aðalvöruhúss.|Þetta á einnig við ef aðeins er notuð innkaupatillögubók.|  
 |Autt yfirflæðisstig|Velja skal **Leyfa sjálfgefinn útreikning** ef þú kemur frá Microsoft Dynamics NAV 5.0 eða eldri.|Notist eingöngu ef leyfa á öllum eða nokkrum af vörunum að flæða yfir endurpöntunarmarkið.|  
 |Sjálfgefið hömlutímabil|Stilla á milli 1D og 5D.<br /><br /> Ef þú hefur ekki gert áætlanir áður í [!INCLUDE[d365fin](includes/d365fin_md.md)] skaltu stilla lengra tímabil.|Þegar notendur þekkja ólíkar ástæður aðgerðaboða betur skal stytta hömlutímabilið til að leyfa fleiri tillögur um breytingar.|  
-|Sjálfgefið hömlu magn|Stilla á milli 5 og 20 prósent af lotustærð vörunnar.||  
+|Sjálfgefið hömlu magn %|Stilla á milli 5 og 20 prósent af lotustærð vörunnar.||  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)   
