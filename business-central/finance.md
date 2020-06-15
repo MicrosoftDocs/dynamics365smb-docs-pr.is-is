@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8424d94b25ce56ceae65b04e41071c1a70f520ea
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182613"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410748"
 ---
 # <a name="finance"></a>Fjármál
 [!INCLUDE[d365fin](includes/d365fin_md.md)] felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
@@ -45,6 +45,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Úthluta viðbótarkostnaði sem þú stofnar til í viðskiptum, eins og t.d. flutning og meðhöndlun, á viðeigandi vörur svo kostnaðurinn endurspeglist í birgðaverðmati. |[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md) |
 |Bóka persónuleg útgjöld starfsmanna sem hljótast af vinnutengdum aðgerðum og endurgreiða starfsmönnum með því að greiða inn á bankareikning þeirra.|[Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)|
 | Sjá tekjur og útgjöld á öðrum tíma en þegar færslur voru bókaðar. |[Fresta tekjum og öðrum útgjöldum](finance-how-defer-revenue-expenses.md)|
+| Frekari upplýsingar um tiltæka valmöguleika sem gera þér kleift að senda greiðslureikninga til viðskiptavina þinna og skrá endurteknar tekjur. |[Endurteknar (áskrift) tekjur](finance-recurring-invoicing.md)|
 |Læra hvernig skal nota viðbótar gjaldmiðla og uppfæra gengi gjaldmiðla sjálfvirkt. |[Uppfæra gengi](finance-how-update-currencies.md)|
 | Flytja inn launafærslur úr launaveitu í fjárhag. |[Flytja inn launafærslur](finance-how-import-payroll-transactions.md)|
 |Notaðu aðgerðir til að reikna VSK skattur á sölu- og innkaupafærslur svo hægt sé talið upphæðirnar fram til skattayfirvalda.|[Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)|

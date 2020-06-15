@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2020
-ms.openlocfilehash: b78c728cd92ed8c4bc4e41da189c4ddfd877b1b6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/04/2020
+ms.openlocfilehash: 787d2ec0d838e89943dc375db8d43c33be193d0b
+ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190132"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428372"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
@@ -68,9 +68,11 @@ Gakktu úr skugga um að þú leitir í lista yfir innsendar tillögur. Líklegt
 
 Hlutinn **Úrræðaleit** birtir tæknilegar upplýsingar sem stjórnandinn þinn eða samstarfsaðili [!INCLUDE[prodshort](includes/prodshort.md)] getur notað til að afblokka notendur. Þetta felur í sér upplýsingar um nýjustu villuboð, núverandi útgáfu af [!INCLUDE[prodshort](includes/prodshort.md)] og tengil til að opna síðuna **Eftirlit með síðu**. Frekari upplýsingar er að finna í [Eftirlit með síðum í Business Central](across-inspect-page.md).  
 
+Sem innri stjórnandi hefurðu aðgang að stjórnunarstöðinni þar sem hægt er að halda úrræðaleit áfram. Frekari upplýsingar er að finna í [Skoðun tæknilegra upplýsinga](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) í stjórnunarefninu.  
+
 ## <a name="report-a-problem"></a>Tilkynna um vandamál
 
-Endursöluaðili [!INCLUDE[prodshort](includes/prodshort.md)] mun veita þér tæknilega aðstoð. [!INCLUDE[prodshort](includes/prodshort.md)] er selt í gegnum samstarfsaðila og þessi hluti auðveldar þér að hafa samband endursöluaðilann þinn ef hann hefur sent inn samskiptaupplýsingar fyrir notendaþjónustu. Ef [!INCLUDE[prodshort](includes/prodshort.md)] samstarfsaðili þinn getur þá ekki leyst vandamálið, munu hann leggja fram þjónustubeiðni til Microsoft.  
+Endursöluaðili [!INCLUDE[prodshort](includes/prodshort.md)] mun veita þér tæknilega aðstoð. [!INCLUDE[prodshort](includes/prodshort.md)] er selt í gegnum samstarfsaðila og þessi hluti auðveldar þér að hafa samband endursöluaðilann þinn ef hann hefur sent inn samskiptaupplýsingar fyrir notendaþjónustu. Ef [!INCLUDE[prodshort](includes/prodshort.md)] samstarfsaðili þinn getur þá ekki leyst vandamálið, munu hann leggja fram þjónustubeiðni til Microsoft. Frekari upplýsingar er að finna í [Senda stuðningsvandamál til Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) í efni fyrir stjórnendur.  
 
 > [!NOTE]
 > Þessi hluti er eingöngu í boði ef greitt hefur verið fyrir [!INCLUDE [prodshort](includes/prodshort.md)]-áskrift. Ef þú hefur skráð þig fyrir prufuáskrift og hefur ekki enn keypt [!INCLUDE[prodshort](includes/prodshort.md)] þá hefur þú ekki endursöluaðila og getur ekki haft samband við þjónustudeild Microsoft. Hægt er að finna [!INCLUDE[prodshort](includes/prodshort.md)]-samstarfsaðila á síðunni [Ég er að leit að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Frekari upplýsingar eru í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73390a2857714e87378affb34409500d8f1436d3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195052"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402558"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Breyta árlegri upphæð þjónustusamnings eða samningstilboðs
 Hægt er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs til að leiðrétta upphæðina sem verður reikningsfærð árlega.  
@@ -80,45 +80,7 @@ Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilbo�
     * Línuafsl. % = Afsl.upphæð línu / Línuvirði * 100  
     * Framlegð = Línuupphæð - Línukostnaður  
 
-### <a name="distribution-based-on-line-amount"></a>Drefing byggð á línuupphæð
-Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs gæti verið gott að skipta mismuninum milli nýrra og reiknaðra árlegra upphæða í samningslínunum. Skipting eftir línuupphæð er sjálfvirk aðferð sem getur hjálpað til við að skipta mismuni nýju og reiknuðu ársupphæðanna milli línuupphæða í samningslínunum. Skiptingin verður hlutfallsleg eftir línuupphæðarhlut þeirra í reiknuðu ársupphæðinni. Eftirfarandi listi yfir skref í skiptingarferlinu fyrir hverja samningslínu lýsir grunnhugmyndinni að baki þessari aðferð:  
-
-1. Línuupphæðarprósentan er reiknuð á eftirfarandi hátt: efninu í reitnum **Línuupphæð** er deilt í samtölu gilda í reitnum **Reiknuð árleg upphæð** í öllum samningslínum.  
-2. Gildið í reitnum **Línuupphæð** er uppfært með því að bæta því við mismuninn milli nýju og reiknuðu ársupphæðarinnar, sem er margfaldaður með línuupphæðarprósentunni.  
-3. Efnið í reitunum **Afsl.upphæð línu**, **Línuafsl. %** og **Framlegð** er uppfært með tilliti til við nýja virðið í reitnum **Línuafsláttarupphæð** á eftirfarandi hátt:  
-
-    * Afsl.upphæð línu = Línuvirði - Línuupphæð  
-    * Línuafsl. % = Afsl.upphæð línu / Línuvirði * 100  
-    * Framlegð = Línuupphæð - Línukostnaður  
-
 Skrefin eru endurtekin fyrir hverja samningslínu.  
-
-#### <a name="example"></a>Dæmi  
-Gátreiturinn **Heimila ójafnaðar upphæðir** er ekki valinn í þjónustusamningnum sem inniheldur þrjár samningslínur með þessum upplýsingum.  
-
-|Vara|Línukostnaður|Línuvirði|Línuafsl. %|Afsl.upphæð línu|Línuupphæð|Framlegð|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Vara 1|15,00|17,00|3,00|0,51|25,00|1,49|  
-|Vara 2|20,00|23,00|Ekkert|0,00|55,10|3,00|  
-|Vara 3|24,00|27,00|3,00|0,81|112,70|2,19|  
-
-Virðið í reitnum **Árleg upphæð** er það sama og í reitnum **Reiknuð árleg upphæð** sem er alltaf stillt á samtölu línuupphæðanna. Í þessu tilviki er það jafnt og eftirfarandi: 16,49 +23,00 +26,19 = 65,68.  
-
-Er **Árleg upphæð** er breytt í 60 reiknast framlegðarprósenta hverrar samningslínu:  
-
-* Vara 1 – 5 / (5 + 5.1 +12.7) = 0.2193 %  
-* Vara 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
-* Vara 3 – 12.7 / (5 + 5.1 + 12.7) = 0.557  
-
-Þá er gildið í reitnum **Línuupphæð** uppfærð í hverri samningslínu með reiknireglunni: Línuupphæð = Línuupphæð + mismunur milli nýju og reiknuðu ársupphæðanna * Prósenta Að því loknu eru gildin í reitunum Afsl.upphæð línu, Línuafsl. Að því loknu eru gildin í reitunum **Afsl.upphæð línu**, **Línuafsl. %** og **Framlegð** uppfærð með reiknireglunum sem lýst er að framan.  
-
-Að lokum verða þessi gögn í samningslínunum.  
-
-|Vara|Línukostnaður|Línuvirði|Línuafsl. %|Afsl.upphæð línu|Línuupphæð|Framlegð|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Vara 1|15,00|17,00|11,41|1,94|15,06|0,06|  
-|Vara 2|20,00|23,00|8.65|1.99|21.01|1.01|  
-|Vara 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   Línuafsl. % = Afsl.upphæð línu / Línuvirði * 100  
 
 #### <a name="example"></a>Dæmi  
 Gátreiturinn **Heimila ójafnaðar upphæðir** er ekki valinn í þjónustusamningnum sem inniheldur þrjár samningslínur með þessum upplýsingum.  

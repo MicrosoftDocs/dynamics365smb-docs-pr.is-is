@@ -8,37 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbcadecf7648a1ddd6d41d968dcdf26d78b79001
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cd2a282e95e324e3adbf06cb72c53467f63c227b
+ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184533"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435232"
 ---
 # <a name="design-details-warehouse-setup"></a>Hönnunarupplýsingar uppsetningvöruhúss
+
 Vöruhúsavirkni í [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur mismunandi flækjustig, eins og skilgreint með leyfisheimildum í eindum í boði. Flækjustig vöruhússlausnar er einkum skilgreint með hólfauppsetningu á staðsetningarspjöldum, sem aftur eru leyfisstýrð, svo að aðgangur að hólfauppsetningarreitum ræðst að leyfinu. Að auki, forritshlutir í leyfinu stjórna hvaða notandaviðmótskjal til að nota fyrir studda vörugeymsla starfsemi.  
 
 Eftirfarandi vöruhússtengdu eindir eru til:  
 
--   Grunnbirgðir (4010)  
--   Hólf (4170)  
--   Frágangur (4180)  
--   Vöruhúsamóttaka (4190)  
--   Taka til (4200)  
--   Vöruhúsaafhending (4210)  
--   Vöruhúsastjórnunarkerfi (4620)  
--   Innri tínslur og frágangur (4630)  
--   Sjálfvirkt gagnatökukerfi (4640) 
--   Uppsetning hólfs (4660)  
+- Grunnbirgðir (4010)  
+- Hólf (4170)  
+- Frágangur (4180)  
+- Vöruhúsamóttaka (4190)  
+- Taka til (4200)  
+- Vöruhúsaafhending (4210)  
+- Vöruhúsastjórnunarkerfi (4620)  
+- Innri tínslur og frágangur (4630)  
+- Sjálfvirkt gagnatökukerfi (4640)
+- Uppsetning hólfs (4660)  
 
 Nánari upplýsingar um hverja einingu eru á [[!INCLUDE[d365fin](includes/d365fin_md.md)] Verðblöð](https://go.microsoft.com/fwlink/?LinkId=238341) (ViðskiptafélagiUppruni Reikningur nauðsynlegur).  
 
 Eftirfarandi tafla sýnir hvaða eininga er krafist til að skilgreina mismunandi vöruhúsaflækjustig, hvaða viðmótsskjöl styðja hvaða stig og hvaða staðsetningarkóðar endurspegla þessi stig í [!INCLUDE[d365fin](includes/d365fin_md.md)] sýnigagnagrunninum.  
 
 |Flækjustig|Description|Notendaviðmótsskjal|CRONUS Staðsetning|Lágmarksþörf einda|  
-|----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
+|----------------|-----------|-----------|---------------|---------------------------|  
 |1|Engin sérstök vöruhúsaaðgerð.<br /><br /> Bókun móttöku/afhendingar úr pöntunum.|Röð|BLÁTT|Grunnbirgðir|  
 |2|Engin sérstök vöruhúsaaðgerð.<br /><br /> Bókun móttöku/afhendingar úr pöntunum.<br /><br /> Hólfkóði er áskilið.|Pöntun, með hólfkóða|SILFRAÐ|Grunnbirgðir/hólf|  
 |3 <br /><br /> **Athugið**: Jafnvel þótt stillingarnar séu kallaðar **Krefjast tínslu** og **Krefjast frágangs**, geturðu samt sem áður bókað móttöku og afhendingu beint frá uppruna viðskiptaskjala í birgðageymslum þar sem þú velur þessa gátreiti.|Grunnvöruhúsastarfsemi, pöntun fyrir pöntun.<br /><br /> Bókun móttöku/afhendingar úr birgðafrágangi/tínsluskjölum. <br /><br /> Hólfkóði er áskilið.|Birgðafrágangur/birgðahreyfing/birgðatínsla með hólfkóða|(Silfrað + Þarf að ganga frá eða tína)|Grunnbirgðir/hólf/Frágangur/Tiltekt|  
@@ -46,9 +47,10 @@ Eftirfarandi tafla sýnir hvaða eininga er krafist til að skilgreina mismunand
 |5|Ítarlegar vöruhúsaaðgerðir, fyrir margar pantanir.<br /><br /> Samsett bókun taka við/senda byggð á skráningum í vöruhúsi frágangur/tiltekt.<br /><br /> Hólfkóði er áskilið.|Vöruhúsamóttaka/vöruhúsafrágangur/vöruhúsatiltekt/vöruhúsaafhending/tiltektarvinnublað/frágangsvinnublað, með hólfkóða|(GRÆNT + Hólf áskilið)|Grunnbirgðir / Hólf / vöruhúsamóttaka / Frágangur / Tiltekt / vöruhúsaafhending|  
 |6 <br /><br /> **Athugið**: Þetta stig er kallað „WMS“ þar sem það krefst ítarlegustu eindarinnar, Vöruhúsakerfisins.|Ítarlegar vöruhúsaaðgerðir, fyrir margar pantanir<br /><br /> Samsett bókun taka við/senda byggð á skráningum í vöruhúsi frágangur/tiltekt<br /><br /> Hólfkóði er áskilið.<br /><br /> Svæðis- eða flokkakóði er valfrjáls.<br /><br /> Starfsmenn í vöruhúsi stjórnað af verkflæði<br /><br /> Áætlun áfyllingar hólfs<br /><br /> Hólfaflokkun<br /><br /> Uppsetning hólfs eftir getu<br /><br /> Niðurröðun  <!-- Hand-held device integration -->|Vöruhúsamóttaka/vöruhúsafrágangur/vöruhúsatiltekt/vöruhúsaafhending/vöruhúsahreyfing/tiltektarvinnublað/frágangsvinnublað/ vöruhúsatiltekt Innanhúss/vöruhúsafrágangur innanhúss, með hólfa/flokk/svæðiskóða<br /><br /> Ýmsar vinnublöð fyrir hólfastjórnun<br /><br /> ADCS-skjáir|HVÍTT|Grunnbirgðir/Hólf/Frágangur/vöruhúsamóttaka/Tiltekt/Vöruhúsasending/Vöruhúsastjórnkerfi/Innri tiltekt og frágangur/Hólfauppsetning/<!-- Automated Data Capture System/ -->Uppsetning hólfs|  
 
-Dæmi um hvernig notandaviðmótsskjölunum er beitt á vöruhúsaflækjustig eru í [Hönnunarupplýsingar: Vöruhúsaflæði á innleið](design-details-outbound-warehouse-flow.md).  
+Dæmi um hvernig notandaviðmótsskjölunum er beitt á vöruhúsaflækjustig eru í [Hönnunarupplýsingar: Vöruhúsaflæði á innleið](design-details-inbound-warehouse-flow.md).  
 
-## <a name="bin-and-bin-content"></a>Hólf og Innihald hólfs  
+## <a name="bin-and-bin-content"></a>Hólf og Innihald hólfs
+
 Hólf er geymslutæki sem hannað fyrir geymslu tiltekinna hluta. Það er minnsta geymslueiningin í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vörumagn í hólfum er kallað innihald hólfs. Uppfletting í reitnum **Vara** eða reitnum **Hólfakóði** á vöruhúsatengdri skjalalínu sýnir reiknað framboð vöru í hólfi.  
 
 Innhaldi hólfs er hægt að veita eiginleikann Fast, Sérstakt eða Sjálfgefið til að tilgreina hvernig innihald hólfsins verður notað. Vísað er í hólf með ekkert af þessu sem fljótandi hólf.  
@@ -64,7 +66,8 @@ Sjálfgefinn hólfaeiginleiki er notuð af kerfinu til að benda á hólf fyrir 
 
 Aðeins er hægt að hafa eitt hólf fyrir hverja staðsetningu.  
 
-## <a name="bin-type"></a>Tegund hólfs  
+## <a name="bin-type"></a>Tegund hólfs
+
 Í vöruhúsauppsetningum getur þú takmarka vöruhúsaaðgerðir sem eru leyfðar fyrir hólf með því að úthluta tegund hólfs á það. Eftirfarandi hólfagerðir eru til:  
 
 |Tegund hólfs|Lýsing|  
@@ -79,9 +82,10 @@ Aðeins er hægt að hafa eitt hólf fyrir hverja staðsetningu.
 Fyrir allar hólfagerðir nema PICK, PUTPICK og PUTAWAY er engin önnur aðgerð leyfileg fyrir hólfið en skilgreint er í hólfagerðinni. Til dæmis er aðeins hægt að nota hólf af gerðinni **Móttaka** til að taka á móti vörum í eða taka vörur úr.  
 
 > [!NOTE]  
->  Aðeins er leyfð hreyfing í hólf af gerðinni MÓTTAKA og GÆÐAEFTIRLIT. Á sama hátt, er aðeins hægt að gera hreyfingar úr hólfum af gerðinni afhending og gæðaeftirlit.  
+> Aðeins er leyfð hreyfing í hólf af gerðinni MÓTTAKA og GÆÐAEFTIRLIT. Á sama hátt, er aðeins hægt að gera hreyfingar úr hólfum af gerðinni afhending og gæðaeftirlit.  
 
-## <a name="bin-ranking"></a>Hólfaflokkun  
+## <a name="bin-ranking"></a>Hólfaflokkun
+
 Í háþróaður vörugeymsla, getur þú sjálfvirkan og hagræða hvernig vörur eru innheimt í frágangs og tínsluvinnublöðum með því að raða hólfum svo vörur eru lagðar til sem teknar eða staðsettar samkvæmt röðunarskilyrðum til að nota vöruhúsaplássið sem best.  
 
 Frágangsferlar eru fínstilltir samkvæmt hólfaflokkun með því að stinga upp á hærra skráðum hólfum á undan lægra skráðum. Á sama hátt eru tínsluferlar fínstilltir með því að stinga fyrst upp á vörum úr hólfum með háa hólfaflokkun. Enn fremur er stungið upp á hólfaáfyllingu frá lægri stigs hólfum til hærri stigs hólfa.  
@@ -98,9 +102,10 @@ Ef stilla á hámarksmagn af tiltekinni vöru sem á að geyma í sérstöku hó
 Áður en þú setur afkastahömlur á innihald hólfs í hólfi, verður þú fyrst að ganga úr skugga um að UOM og vídd hlutarins hafi verið sett upp á birgðaspjaldinu.  
 
 > [!NOTE]  
->  Aðeins er hægt að vinna með margar mælieiningar í uppsetningum vöruhúsakerfa. Í öllum öðrum stillingum getur innihald hólfs aðeins verið í grunnmælieiningunni. Í öllum viðskiptum með mælieiningu hærri en grunnmælieiningu vörunnar, er magn er breytt í grunnmælieiningu.  
+> Aðeins er hægt að vinna með margar mælieiningar í uppsetningum vöruhúsakerfa. Í öllum öðrum stillingum getur innihald hólfs aðeins verið í grunnmælieiningunni. Í öllum viðskiptum með mælieiningu hærri en grunnmælieiningu vörunnar, er magn er breytt í grunnmælieiningu.  
 
-## <a name="zone"></a>Svæði  
+## <a name="zone"></a>Svæði
+
 Í ítarlegt vörugeymsla, hólf má flokka á svæðum til að stjórna hvernig verkflæði vörugeymsla starfsemi er beint.  
 
 Svæðin gæti verið móttökusvæði eða lagersvæði og hvert svæði getur samanstaðið af einu eða fleiri hólfum.  
@@ -114,19 +119,23 @@ Flestum eiginleikum sem úthlutað er á svæði verður sjálfgefið úthlutað
 
 Í flæði á innleið er flokkakóði aðeins auðkenndur á innleiðarlínum þar sem vöruflokkakóðinn passar ekki við sjálfgefið móttökuhólf. Ef réttum sjálfgefnum hólfum er ekki úthlutað er ekki hægt að taka við magninu.  
 
-## <a name="location"></a>Birgðageymsla  
+## <a name="location"></a>Birgðageymsla
+
 Birgðageymsla er efnisleg bygging eða staður sem birgðir eru fluttar á, geymdar í og afhentar úr, mögulega skipulögð með hólfum. Birgðageymsla getur verið vöruhús, þjónustubifreið, sýningarsalur, verksmiðja eða svæði innan verksmiðju.  
 
-## <a name="first-expired-first-out"></a>Fyrst útrunnið fyrst út  
+## <a name="first-expired-first-out"></a>Fyrst útrunnið fyrst út
+
 Ef gátreiturinn **Tína eftir FEFO** er valinn á flýtiflipanum **Hólfareglur** á staðsetningarkortinu, þá eru vöruraktar vörur teknar til samkvæmt lokadegi þeirra. Vörurnar sem hafa elstu lokadagsetningarnar eru teknar til fyrst.  
 
 Vöruhúsaaðgerðir í öllum tiltektar og hreyfingarskjölum eru flokkuð samkvæmt FEFO, nema vörurnar sem um ræðir hafa þegar raðnúmeri / lotunúmeri úthlutað. Ef aðeins hluti magnsins í línunni er þegar með úthlutuð lotu- eða raðnúmer notar kerfið FEFO til þess að raða því magni sem eftir stendur.  
 
 Við tínslu FEFO er tiltækum vörum sem renna fyrst út safnað á tímabundinn vörurakningarlista eftir lokadegi. Ef tvær vörur með rað-/lotunúmeri hafa sömu fyrningadagsetningu velur kerfið vöruna með lægsta lotu- eða raðnúmerið. Ef rað- eða lotunúmerin eru þær sömu þá velur forritið þá vöru sem fyrst var skráð. Hefðbundin skilyrði fyrir vöruvali í tínsluhólfum, eins og Hólfaflokkun og Skipta einingum, eru notuð á þennan tímabundna FEFO-vörurakningarlista.  
 
-## <a name="put-away-template"></a>Frágangssniðmát  
+## <a name="put-away-template"></a>Frágangssniðmát
+
 Frágangssniðmátinu má úthluta á vöru og á staðsetningu. Frágangssniðmátið tilgreinir bálk forgangsreglna sem verður að virða þegar frágangur er stofnaður. Til dæmis getur frágangssniðmát krafist þess að vara sé sett í hólf með hólfinnihaldi sem stemmir við mælieininguna og ef svipað hólf með nægu plássi finnst ekki verður að setja vöruna í tómt hólf.  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)   
 [Hönnunarupplýsingar: Framboð í vöruhúsi](design-details-availability-in-the-warehouse.md)

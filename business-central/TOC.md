@@ -99,7 +99,7 @@
 ### [Yfirlit](bank-setup-banking.md)
 ### [Bankareikningar settir upp](bank-how-setup-bank-accounts.md)
 ### [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md)
-### [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md)
+### [Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)
 ### [Velja útlit ávísunar](finance-how-define-check-layouts.md)
 
 ## Uppsetning sölu
@@ -302,7 +302,7 @@
 #### [Uppfæra gengi](finance-how-update-currencies.md)
 #### [Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
-#### [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md)
+#### [Nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md)
 #### [Setja upp bankayfirlitsþjónustu](bank-how-setup-bank-statement-service.md)
 #### [Bankareikningar settir upp](bank-how-setup-bank-accounts.md)
 #### [Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
@@ -318,7 +318,7 @@
 #### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Uppfæra gengi](finance-how-update-currencies.md)
 #### [Reitarvörpum við innflutning SEPA CAMT skráa](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Reitavörpun fyrir AMC Banking 365 Fundamentals viðbótina](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Reitarvörpun fyrir AMC Banking 365 Fundamentals viðbótina](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Stjórnun
 ## [Yfirlit](admin-setup-and-administration.md)
@@ -364,7 +364,7 @@
 #### [QuickBooks Online Gagnaflutningur](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks-viðbótin fyrir innflutning á launaskrá](ui-extensions-quickbooks-payroll.md)
 #### [Sölu- og birgðaspár](ui-extensions-sales-forecast.md)
-#### [AMC Banking 365 Fundamentals viðbót](ui-extensions-amc-banking.md)
+#### [AMC Banking 365 Fundamentals Viðbót](ui-extensions-amc-banking.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK - C5 gagnaflutningur](ui-extensions-c5-data-migration.md)
 #### [DK - Greiðslur og afstemmingar](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -544,6 +544,7 @@
 ## [Dagsetning útreiknings fyrir sölu.](sales-date-calculation-for-sales.md)
 ## [Stofna spá](production-how-to-create-a-forecast.md)
 ## [Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)
+## [Vinna með endurteknar tekjur](finance-recurring-invoicing.md)
 
 # Innkaup
 ## [Yfirlit](purchasing-manage-purchasing.md)

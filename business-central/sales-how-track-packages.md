@@ -1,27 +1,27 @@
 ---
 title: Hvernig á að rekja pakka | Microsoft Docs
 description: Nota rakningarþjónustu flutningsaðila til að sjá stöðuna á sendingu.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: rfq
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 41584b676db045bdf7317ced9b519f0784b41453
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.date: 05/28/2020
+ms.author: edupont
+ms.openlocfilehash: a655768234c262ff98a753b28dfbbd53d1bc1749
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262095"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410693"
 ---
 # <a name="track-packages"></a>Finna sendingar
-Fjöldi flutningsaðila veita þá þjónustu á Internetinu að hægt er að finna pakkningar sem eru í umsjá flutningsaðilans. Ef notast er við einn eða fleiri af þessum flutningsaðilum er hægt að setja upp ákveðnar grunnupplýsingar og nota sjálfvirkar leitaraðgerðir frá bókuðum afhendingum. Frekari upplýsingar er að finna í [Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md).  
+
+Fjöldi flutningsaðila veita þá þjónustu á Internetinu að hægt er að finna pakkningar sem eru í umsjá flutningsaðilans. Ef notast er við einn eða fleiri af þessum flutningsaðilum er hægt að setja upp ákveðnar grunnupplýsingar og nota sjálfvirkar leitaraðgerðir frá bókuðum afhendingum, bókuðum sölureikningum, bókuðum sölukreditreikningum og bókuðum vöruskilamóttökum. Frekari upplýsingar er að finna í [Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md).  
+
+Eftirfarandi ferli sýnir hvernig á að rekja pakka frá bókaðri sölusendingu, en sömu skref gilda um rakningu pakka úr bókaða sölureikningnum, bókuðum sölukreditreikningi og bókuðum móttökukvittunum.  
 
 ## <a name="to-track-a-package"></a>Sendingaleit
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókuð söluafhending** og veldu síðan tengda tengilinn.
 2. Viðeigandi afhending er opnuð.
 3. Veldu aðgerðina **Uppfæra fylgiskjal**.
@@ -31,6 +31,7 @@ Fjöldi flutningsaðila veita þá þjónustu á Internetinu að hægt er að fi
 Sjálfgefinn vafri opnar rakningarsíðu flutningsaðila.
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md)  
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  

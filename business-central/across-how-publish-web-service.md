@@ -4,18 +4,15 @@ description: Birta hluti sem vefþjónustu til að þeir séu undir eins í boð
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/21/2020
+ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: 3a0526451bb386f38eaf93c10ffd86937ea7b765
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324079"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402454"
 ---
 # <a name="publish-a-web-service"></a>Birta vefþjónustu
 
@@ -23,7 +20,8 @@ Vefþjónustur eru létt leið til að gera virkni forrita aðgengilega ýmsum u
 
 Þú setur upp vefþjónustu í [!INCLUDE[d365fin](includes/d365fin_md.md)] biðlaranum. Þá verður að gefa vefþjónustuna út til að hún geti tekið við þjónustubeiðnum á netinu. Notendur geta fundið vefþjónustu með því að beina vafra að staðsetningu vefþjóns og biðja um lista yfir þjónustu í boði. Þegar gefa á út vefþjónustu verður hún samstundis virk á netinu fyrir sannvottaða notendur. Allir heimilaðir notendur geta opnað lýsigögn fyrir vefþjónustu, en aðeins notendur með nægilegar heimildir geta opnað raungögn.
 
-## <a name="creating-and-publishing-a-web-service"></a>Vefþjónusta stofnuð og gefin út  
+## <a name="creating-and-publishing-a-web-service"></a>Vefþjónusta stofnuð og gefin út
+
 Eftirfarandi skref skýra hvernig vefþjónusta er búin til og gefin út.  
 
 ### <a name="to-create-and-publish-a-web-service"></a>Til að stofna og gefa út vefþjónustu  
@@ -71,3 +69,4 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS Int
 
 [Stjórnun](admin-setup-and-administration.md)  
 [Vefþjónustur Business Central fyrir þróunaraðila](/dynamics365/business-central/dev-itpro/webservices/web-services)  
+[OData beiðnitakmörk](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#ODataServices)  
