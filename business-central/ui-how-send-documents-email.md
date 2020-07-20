@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 05/13/2020
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402507"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527986"
 ---
 # <a name="send-documents-by-email"></a>Senda skjöl í tölvupósti
 
@@ -65,7 +65,7 @@ Eftirfarandi ferli sýnir hvernig eigi að senda bókaðan sölureikning sem tö
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Skjöl sem eru merkt sem prentuð þegar þau eru send
 
-Sum skjöl í [!INCLUDE [prodshort](includes/prodshort.md)] eru með reit sem tilgreinir hversu oft skjalið hefur verið prentað. Reiturinn er einnig uppfærður ef ekki er hægt að prenta skjalið en hægt er að senda það í tölvupósti. Reiturinn nær jafnvel að uppfæra ef skjalið er ekki í raun sent, t.d. þegar fyrirtækið hefur ekki sett upp tölvupóst, eða Þegar tengiliðurinn sem á að senda skjalið er ekki með tölvupóstfangið sem er skráð. Í öllum aðstæðum, varðandi [!INCLUDE [prodshort](includes/prodshort.md)], er skjalið prentað vegna þess að PDF-skjal er myndað.  
+Sum skjöl í [!INCLUDE[prodshort](includes/prodshort.md)] eru með reit sem tilgreinir hversu oft skjalið hefur verið prentað. Reiturinn er einnig uppfærður ef ekki er hægt að prenta skjalið en hægt er að senda það í tölvupósti. Reiturinn nær jafnvel að uppfæra ef skjalið er ekki í raun sent, t.d. þegar fyrirtækið hefur ekki sett upp tölvupóst, eða Þegar tengiliðurinn sem á að senda skjalið er ekki með tölvupóstfangið sem er skráð. Í öllum aðstæðum, varðandi [!INCLUDE[prodshort](includes/prodshort.md)], er skjalið prentað vegna þess að PDF-skjal er myndað.  
 
 Notandinn getur ekki séð þessa mynduðu skrá en þess vegna er reiturinn uppfærður.
 

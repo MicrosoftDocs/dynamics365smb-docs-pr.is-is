@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6d277656ab5b159aaca93e03a333ba6232c3bcc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 358c7ed4068ca90637082f61e24bcff25cef61a3
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191177"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527961"
 ---
 # <a name="set-up-jobs"></a>Setja upp verk
 
-Sem verkefnisstjóri getur þú sett upp verk sem skilgreina verkefnin sem þú stjórnar í [!INCLUDE [prodshort](includes/prodshort.md)]. Á síðunni **Uppsetning verka** verður að tilgreina hvernig á að nota tiltekna verkeiginleika.
+Sem verkefnisstjóri getur þú sett upp verk sem skilgreina verkefnin sem þú stjórnar í [!INCLUDE[prodshort](includes/prodshort.md)]. Á síðunni **Uppsetning verka** verður að tilgreina hvernig á að nota tiltekna verkeiginleika.
 
 Fyrir hvert verk tilgreinir þú þá einstök verkspjöld með upplýsingum um verð fyrir vörur, forða og fjárhagsreikninga verks og setja þarf upp verkbókunarflokka.
 

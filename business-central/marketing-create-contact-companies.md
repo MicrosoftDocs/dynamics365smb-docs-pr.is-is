@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a6be696756643496954b8ee0940efff7996f352
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 67b11d9c763ef4688af35a3f9cd83ee8c364fcee
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181605"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528438"
 ---
 # <a name="create-contacts"></a>Stofna tengiliði
 Þú hittir reglulega fólk frá öðrum fyrirtækjum sem getur þróast yfir í viðskiptatengsl, t.d. viðskiptamannatengsl. Þegar þannig nýr tengiliður verður til, verður að skrá eins miklar upplýsingar og hægt er í tengiliðaspjald svo samskipti geti haldið áfram.
@@ -37,7 +37,7 @@ Virknin er sú sama fyrir báðar gerðirnar, nema að valmöguleikarnir fyrir v
 3. Í reitnum **númer** er fært inn númer fyrir tengiliðinn.
 
     Hafi númeraröð fyrir tengiliði verið sett upp á síðunni **Uppsetning markaðssetningar** er hægt að styðja á færslulykilinn til að færa inn næsta lausa tengiliðanúmer.  
-5. Önnur svæði eru fyllt út eins og þörf krefur. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Önnur svæði eru fyllt út eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Tengiliðir stofnaðir úr viðskiptamanni, lánadrottni eða bankareikning:
 Ef þú ert með viðskiptavini, lánardrottna og bankareikninga sem þú vilt búa tengiliðaspjöld fyrir, geturðu notað runuvinnsluna **Stofna tengiliði úr** til að stofna tengiliði á grunni fyrirliggjandi gagna. Þegar tengiliður er stofnaður á þennan hátt eru tengiliðaupplýsingarnar samstilltar eftir á við upplýsingar um viðeigandi viðskiptamann, lánadrottin eða bankareikning. Fyrir frekar upplýsingar, sjá [Tengiliðir samstilltir við viðskiptamenn, lánardrottna og bankareikninga](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts)

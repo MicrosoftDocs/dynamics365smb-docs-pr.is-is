@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372593"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528714"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
-Áður en þú ferð inn í [!INCLUDE [prodshort](includes/prodshort.md)] á netinu mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
+Áður en þú ferð inn í [!INCLUDE[prodshort](includes/prodshort.md)] á netinu mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
 
 ## <a name="browsers"></a>Vafrar
 
@@ -40,7 +40,7 @@ ms.locfileid: "3372593"
 **Tækjastærð:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er studd á snjallsímum með lágmarks skjárstærð 4" og spjaldtöflum með lágmarks skjárstærð 7".  
 
 ## <a name="outlook"></a>Outlook
-**Outlook forrit:** Til að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2016 eða nýrra, Outlook í vafra, Outlook fyrir iPhone, Outlook fyrir iPad eða Outlook fyrir Android. Fyrirtækið þitt verður einnig að nota Office 365. Ekki er hægt að nota [!INCLUDE [prodshort](includes/prodshort.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum.  
+**Outlook forrit:** Til að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2016 eða nýrra, Outlook í vafra, Outlook fyrir iPhone, Outlook fyrir iPad eða Outlook fyrir Android. Fyrirtækið þitt verður einnig að nota Office 365. Ekki er hægt að nota [!INCLUDE[prodshort](includes/prodshort.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum.  
 **Vafrar:** Þegar [!INCLUDE[d365fin](includes/d365fin_md.md)] er notað sem fyrirtækisinnhólf í Outlook í vafra krefst innbótin að tölvan þín keyri einn af skráðum studdum vöfrum sem eru tilteknir fyrr í þessari grein.  
 **Verkvangar:** Þegar þú notar [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-innbótina í Outlook fyrir iPhone, Outlook fyrir iPad eða Outlook fyrir Android þarf farsíminn þinn að keyra kerfi sem eru studd fyrir fartæki fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

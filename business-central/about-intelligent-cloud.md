@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: e3fccf0fbbc0031c0b2bf4dc73059bece1c465f4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188925"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528864"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Innsýn með [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
@@ -24,7 +24,7 @@ Sem notandi [!INCLUDE[prodshort](includes/prodshort.md)] á netinu hefur þú fu
 
 Ef þú hefur áhuga á [!INCLUDE[prodshort](includes/prodshort.md)] getur þú skráð þig fyrir ókeypis prufu á netinu, eða þú getur valið að vinna með samstarfsaðila til að setja upp [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum eftir eigin vali á vélbúnaði. Þú getur þá ákveðið að fá snjalla innsýn með því að tengjast leigjanda í skýinu. Þess vegna verða gögnin frá staðbundna uppsetta [!INCLUDE[prodshort](includes/prodshort.md)] afrituð í skýið fyrir atburðarásir snjallskýs.  
 
-Tenging við snjallský úr lausnum á staðnum krefst að stjórnandi þinn tilgreini upplýsingar um gagnagrunninn. Verkfærin sem notuð eru til að tengja uppsetningu innanhúss við [!INCLUDE [prodshort](includes/prodshort.md)] online eru þau sömu sem eru einnig notuð til flutnings frá staðnum á netið. Frekari upplýsingar er að finna í [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) í efnisstjórnunarefninu fyrir [!INCLUDE[prodshort](includes/prodshort.md)].  
+Tenging við snjallský úr lausnum á staðnum krefst að stjórnandi þinn tilgreini upplýsingar um gagnagrunninn. Verkfærin sem notuð eru til að tengja uppsetningu innanhúss við [!INCLUDE[prodshort](includes/prodshort.md)] online eru þau sömu sem eru einnig notuð til flutnings frá staðnum á netið. Frekari upplýsingar er að finna í [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) í efnisstjórnunarefninu fyrir [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Skoða snjallskýjainnsýn í [!INCLUDE[prodshort](includes/prodshort.md)] á netinu
 

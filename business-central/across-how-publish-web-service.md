@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 9650539c44a464aab238914ca5d3d65cb8b5c0b8
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402454"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528186"
 ---
 # <a name="publish-a-web-service"></a>Birta vefþjónustu
 
@@ -39,7 +39,7 @@ Eftirfarandi skref skýra hvernig vefþjónusta er búin til og gefin út.
 Þegar vefþjónusta er gefin út sjást þær vefslóðir sem voru myndaðar fyrir hana í reitunum **OData-vefslóð** og **SOAP-vefslóð**. Hægt er að prófa vefþjónustuna strax með því að velja tengla í reitunum **OData-vefslóð** og **SOAP-vefslóð**. Einnig er hægt að afrita gildið í reitnum og vista það til notkunar síðar.  
 
 > [!NOTE]
-> Ef hlutirnir sem þú hefur birt sem vefþjónustur eiga ekki að vera aðgengilegir frá [!INCLUDE [prodshort](includes/prodshort.md)] online verður þú að merkja aðferðirnar í kóðanum sem `[Scope('OnPrem')]`. Frekari upplýsingar má sjá í [Umfangseigind](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
+> Ef hlutirnir sem þú hefur birt sem vefþjónustur eiga ekki að vera aðgengilegir frá [!INCLUDE[prodshort](includes/prodshort.md)] online verður þú að merkja aðferðirnar í kóðanum sem `[Scope('OnPrem')]`. Frekari upplýsingar má sjá í [Umfangseigind](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Eftir að þú birtir vefþjónustu, hafa ytri aðilar aðgang að henni. Hægt er að staðfesta að vefþjónustan sé tiltæk með því að nota vafra eða með því að velja tengilinn í reitunum **OData-vefslóð** og **SOAP-vefslóð** á síðunni **Vefþjónusta**. Eftirfarandi ferli sýnir hvernig hægt er að staðfesta aðgengi að vefþjónustunni fyrir notkun síðar.  
 

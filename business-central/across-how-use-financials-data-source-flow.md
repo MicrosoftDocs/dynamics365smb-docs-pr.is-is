@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187941"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528989"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>Nota [!INCLUDE[prodshort](includes/prodshort.md)] í sjálfvirku verkflæði.
 
@@ -55,7 +55,7 @@ Notandi getur notað [!INCLUDE[prodshort](includes/prodshort.md)]-gögnin sín s
     > [!NOTE]
     > [!INCLUDE[prodshort](includes/prodshort.md)] tengillinn fyrir Power Automate styður mörg framleiðslu- og sandkassaumhverfi. Ef ekki hafa verið stofnuð mörg framleiðslu- og sandkassaumhverfi er **Framleiðsla** eina tiltæki valkosturinn sem hægt er að velja.  
 
-    Nú hefur notanda tekist að tengjast gögnum sínum í Business Central [!INCLUDE [prodshort](includes/prodshort.md)] og getur byrjað að byggja upp flæðið.
+    Nú hefur notanda tekist að tengjast gögnum sínum í Business Central [!INCLUDE[prodshort](includes/prodshort.md)] og getur byrjað að byggja upp flæðið.
 
 9. Til að búa til úr sniðmáti skal velja valkostinn **Byrja á sniðmáti**.
 10. Leitaðu að sniðmáti **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**.

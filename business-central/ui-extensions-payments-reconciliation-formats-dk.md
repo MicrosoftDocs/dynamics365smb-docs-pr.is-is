@@ -1,8 +1,6 @@
 ---
 title: Notkun greiðslna og afstemmingar (DK) viðbótarinnar | Microsoft Docs
 description: Þessi viðbót gerir það auðvelt að flytja út skrár sem eru forstilltar til að uppfylla kröfur banka um rafræna skráningu.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: bholtorf
-ms.openlocfilehash: aa738f326782bacdc5450bbd78ea0dffb5646fa5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7e8a56492c1c848f4f3b371e1411c11f159c3cf3
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194068"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496751"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Greiðslur og afstemmingar (DK) viðbótin
+
 Greiddu hratt og án mistaka með því að flytja út skrár sem eru sérstaklega sniðnar fyrir millifærslur með lánardrottni eða banka. Þessar skrár flýta fyrir greiðslu- og afstemmingum og útrýma villum sem geta komið upp þegar upplýsingar eru slegnar inn á bankasíðu.  
 
 Þessi viðbót styður skráarsnið fyrir nokkra danska banka. Þegar þú flytur út greiðsluupplýsingar í skrá pakkar viðbótin gögnunum inn í sniðið sem bankinn fer fram á. Dæmi um þetta eru sniðin Bankdata-V3, BEC, SDC og FIK, sem margir mismunandi bankar nota, og sum sem eru sérhæfðari fyrir tiltekna banka á borð við Danske Bank og Nordea. Viðbótin inniheldur einnig nokkur snið til að flytja inn og afstemma bankareikninga.  
@@ -44,6 +43,7 @@ Greiddu hratt og án mistaka með því að flytja út skrár sem eru sérstakle
 * SDC-CSV  
 
 ## <a name="to-set-up-the-extension"></a>Til að setja upp viðbótina
+
 Nokkur skref eru nauðsynleg í upphafi.  
 
 * Leyfa útflutning greiðslugagna. Til að vernda gögnin þín er þetta ekki í boði.  
@@ -54,15 +54,17 @@ Nokkur skref eru nauðsynleg í upphafi.
 Að auki þarftu að úthluta lánardrottnum á staðbundinn **Alm. viðsk.bókunarflokkur** og **Bókunarflokk lánardrottins**. Stilling fyrir land/svæði fyrir lánardrottinn verður að vera Danmörk (DK). Nánari upplýsingar er að finna í [Uppsetning Bókunarflokka](finance-posting-groups.md).  
 
 ### <a name="to-allow-d365fin-to-export-payment-data"></a>Til að leyfa [!INCLUDE[d365fin](includes/d365fin_md.md)] að flytja út greiðslugögn
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubók** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Breyta greiðslubók** er valið **Banki**.  
 3. Veljið gátreitinn **Leyfa greiðsluútflutning**.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Til að tilgreina greiðslumáta lánardrottins
+
 Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður.
 
-||Gerð 01 | Gerð 04 | Gerð 71 | Gerð 73 |
-|----|---|---|---|---|
+|Samsetning|Gerð 01 | Gerð 04 | Gerð 71 | Gerð 73 |
+|----|--------|---------|---------|---------|
 |Númer gíróreiknings eða FIK-lánardrottins? | Númer gíróreiknings | Númer gíróreiknings | Númer FIK-lánardrottins | Númer FIK-lánardrottins|
 |Leyfja skilaboð til viðtakanda? | Já |Nei |Nei | Já |
 |Inniheldur greiðslutilvísunarnúmer? | Nr | Já, 16 stafir. | Já, 15 stafir. | Nr|
@@ -72,11 +74,13 @@ Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[d365
 3. Nauðsynlegt er að ljúka öðrum reitum, allt eftir valinu. Lýsing samsetninga er að finna í töflunni hér að ofan.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Til að tilgreina sniðið sem á að nota fyrir bankareikning
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.  
 2. Opna spjaldið fyrir bankareikninginn.  
 3. Á **Útflutningssnið greiðslu** skal velja sniðið fyrir útflutningsskrána.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Velja FIK eða Gírógreiðsluupplýsingar fyrir reikninga lánardrottins
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.
 2. Veljið lánardrottinn. Munið að þetta verður að vera danskur lánardrottinn með heimilisfang í Danmörku.
 3. Búa til reikning. Reitirnir **Greiðslumáti** og **Númer lánardrottins** eru fylltir út samkvæmt stillingum á lánardrottnaspjaldinu. Hægt er að breyta þeim ef óskað er.
@@ -88,6 +92,7 @@ Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[d365
 5. Bóka skal reikninginn.
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Til að nota viðbótina til að flytja út greiðslugögn
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubækur** og veldu síðan tengda tengilinn.  
 2. Velja **Stinga upp á greiðslubókum lánardrottins** aðgerðina.  
 
@@ -99,6 +104,7 @@ Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[d365
 5. Veldu **Export** aðgerðina.  
 
 ## <a name="see-also"></a>Sjá einnig .
+
 [Sérstilla Business Central fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
 [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  

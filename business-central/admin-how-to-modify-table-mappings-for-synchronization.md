@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0a6d6e08db723979fa938488bb0df6fb08a5c4d1
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: 0b814c18c328ea0647e38b6a837577b277ca4e63
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271991"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527936"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Vörpun á töflum og reitum fyrir samstillingu
 Grunnurinn að því að samstilla gögn í [!INCLUDE[d365fin](includes/d365fin_md.md)] við gögn í [!INCLUDE[d365fin](includes/cds_long_md.md)] er að varpa töflum og reitum sem innihalda gögnin í báðar áttir. Vörpun gerist í samþættingartöflum. 
 
 ## <a name="mapping-integration-tables"></a>Vörpun samþættingartaflna
-Samþættingartafla er tafla í gagnagrunninum [!INCLUDE[d365fin](includes/d365fin_md.md)] sem stendur fyrir einingu í, á borð við lykil, í [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Samþættingartöflur innihalda reiti sem samsvara reitum í töflunni fyrir eininguna [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Til dæmis tengist samþættingartafla lykils við einingu lykils í [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Það verður að vera vörpun samþættingartöflu fyrir hverja einingu í [!INCLUDE [cds_short_md](includes/cds_short_md.md)] sem á að samstilla við gögn í [!INCLUDE[prodshort](includes/prodshort.md)].
+Samþættingartafla er tafla í gagnagrunninum [!INCLUDE[d365fin](includes/d365fin_md.md)] sem stendur fyrir einingu í, á borð við lykil, í [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Samþættingartöflur innihalda reiti sem samsvara reitum í töflunni fyrir eininguna [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Til dæmis tengist samþættingartafla lykils við einingu lykils í [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Það verður að vera vörpun samþættingartöflu fyrir hverja einingu í [!INCLUDE[cds_short_md](includes/cds_short_md.md)] sem á að samstilla við gögn í [!INCLUDE[prodshort](includes/prodshort.md)].
 
 Þegar tengingin er stofnuð á milli forrita setur [!INCLUDE[d365fin](includes/d365fin_md.md)] upp einhverja sjálfgefna töflu- og reitavörpun. Hægt er að breyta töfluvörpunum ef vilji er fyrir því. Frekari upplýsingar er að finna í [Stöðluð einingavörpun fyrir samstillingu](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization). Ef sjálfgefnum vörpunum hefur verið breytt og ætlunin er að bakfæra breytingarnar skal, á síðunni **[!INCLUDE[d365fin](includes/cds_long_md.md)] Upppsetning tengingar**, velja **Nota sjálfgefna samstillingaruppsetningu**.
 

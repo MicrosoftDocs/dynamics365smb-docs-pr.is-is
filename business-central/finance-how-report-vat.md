@@ -8,24 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7365886f09e1e3d1b67dcbea82594f3d3599f25a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f12d12bf4fb6a12a0abe52101f30a16a182bd1b2
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183885"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528211"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Senda VSK skýrslu inn til skattayfirvalda
-Þetta efnisatriði lýsir skýrslunum í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem þú getur notað til að senda inn upplýsingar um virðisaukaskatt (VSK) upphæðir fyrir sölu og innkaup til skattayfirvalda á þínu svæði.
+Þetta efnisatriði lýsir skýrslunum í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem þú getur notað til að senda inn upplýsingar um virðisaukaskatt (VSK) upphæðir fyrir sölu og innkaup til skattayfirvalda á þínu svæði. 
 
 Hægt er að nota eftirfarandi skýrslur :
 
 * Í **Sölulisti EC** Evrópubandalag (EC) söluyfirlitsskýrslu eru listar yfir VSK-upphæðir sem þú hefur safnað upp fyrir sölu til VSK-skráðra viðskiptamanna innan landa Evrópusambandsins (EU).  
-* **VSK skil** skýrslan inniheldur VSK fyrir sölu og innkaup til viðskiptamanna í öllum löndum sem notast við VSK.
+* **VSK skil** skýrslan inniheldur VSK fyrir sölu og innkaup til viðskiptamanna og frá lánardrottnum í öllum löndum sem notast við VSK.
 
 Ef þú vilt skoða allan feril VSK færslna, þá býr hver VSK-bókun til færslu á **VSK-færslur** síðunni. Þessar færslur eru notaðar til að reikna VSK-upphæðir s.s. greiðslur og endurgreiðslur á tilteknu tímabili. Til að skoða VSK-færslur veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-færslur** og veldu síðan tengda hlekkinn.
+
+> [!NOTE]
+> Hverju [!INCLUDE[d365fin](includes/d365fin_md.md)] umhverfi er ætlað að halda utan um eftirlitsskýrslugerð í einu landi. Hollenska útgáfan af [!INCLUDE[d365fin](includes/d365fin_md.md)] sér til dæmis um VSK-skýrslugerð í Hollandi en ekki í öðrum löndum. Á sama hátt höndlar útgáfa í Bandaríkjunum [!INCLUDE[d365fin](includes/d365fin_md.md)] 1099 skýrslugerð í Bandaríkjunum og styður ekki VAT skýrslur í öðrum löndum, nema með viðbót sem umhverfi samstarfsaðila þíns eða breytingu á kóða tiltekins viðskiptavinar.
 
 ## <a name="about-the-ec-sales-list-report"></a>Um EC söluyfirlitsskýrslu
 Í Bretlandi þurfa öll fyrirtæki sem selja vörur og þjónustu fyrir meira en tiltekna upphæð á ári hverju til VSK skráðra viðskiptavina, líka þeirra sem eru í öðrum löndum innan ESB, að skila inn rafrænni söluyfirlitsskýrslu Evrópubandalaga (EC) á XML formi í gegnum vefsíðu þarlendra skattayfirvalda (HMRC). Söluyfirlitsskýrsla Evrópubandalaga (EC) virkar aðeins í löndum innan ESB.
@@ -59,7 +62,7 @@ Til að skila VSK til skattayfirvalda á rafrænu formi, þarf að tengja [!INCL
 2. Fylltu út nauðsynlega reiti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    >   Ráðlegt er að er að prófa tenginguna. Til að gera það skal velja **Prufustilling** gátreitinn, svo undirbúa og senda inn VSK skýrslurnar eins og lýst er í _Að undirbúa og senda inn VSK skýrslu_ hlutanum. Þegar þjónustan er á Prufustillingu, prófar hún hvort skattayfirvöld geti tekið á móti skýrslunni, og staðan á skýrslunni mun gefa til kynna hvort prufuinnsendingin hafi heppnast. Mikilvægt er að muna að þetta er ekki raunveruleg innsending. Ef senda á skýrsluna inn í raun, þarf að að hreinsa gátreitinn **Prufustilling** og endurtaka innsendingarferlið.
+    > Ráðlegt er að er að prófa tenginguna. Til að gera það skal velja **Prufustilling** gátreitinn, svo undirbúa og senda inn VSK skýrslurnar eins og lýst er í _Að undirbúa og senda inn VSK skýrslu_ hlutanum. Þegar þjónustan er á Prufustillingu, prófar hún hvort skattayfirvöld geti tekið á móti skýrslunni, og staðan á skýrslunni mun gefa til kynna hvort prufuinnsendingin hafi heppnast. Mikilvægt er að muna að þetta er ekki raunveruleg innsending. Ef senda á skýrsluna inn í raun, þarf að að hreinsa gátreitinn **Prufustilling** og endurtaka innsendingarferlið.
 
 ## <a name="to-set-up-vat-reports-in-d365fin"></a>Að setja upp VSK-skýrslur í [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-skýrsluuppsetning** og veldu síðan tengda tengilinn.  
@@ -76,7 +79,7 @@ Til að skila VSK til skattayfirvalda á rafrænu formi, þarf að tengja [!INCL
 4. Til að staðfesta og undirbúa skýrsluna til innsendingar skal velja aðgerðina **Losa**.  
 
     > [!NOTE]  
-    >   [!INCLUDE[d365fin](includes/d365fin_md.md)] staðfestir hvort skýrslan sé rétt sett upp. Ef staðfestingin mistekst, eru villurnar sýndar í **Villur og viðvaranir** svo hægt sé að gera viðeigandi breytingar. Ef skilaboðin snúast um stillingu sem vantar í [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu smellt á skilaboðin til að opna síðuna sem inniheldur upplýsingarnar sem þarf að leiðrétta.  
+    > [!INCLUDE[d365fin](includes/d365fin_md.md)] staðfestir hvort skýrslan sé rétt sett upp. Ef staðfestingin mistekst, eru villurnar sýndar í **Villur og viðvaranir** svo hægt sé að gera viðeigandi breytingar. Ef skilaboðin snúast um stillingu sem vantar í [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu smellt á skilaboðin til að opna síðuna sem inniheldur upplýsingarnar sem þarf að leiðrétta.  
 5. Til að senda skýrsluna inn skal velja aðgerðina **Innsending**.  
 
 Eftir að þú skilar inn skýrslunni, fylgist [!INCLUDE[d365fin](includes/d365fin_md.md)] með þjónustunni og heldur skrá yfir samskipti þín. Reiturinn **Staða** gefur til kynna hvar skýrslan er stödd í ferlinu. Þegar t.d. yfirvöld fara yfir skýrsluna, breytist staða skýrslunnar yfir í **Heppnaðist**. Ef skattayfirvöld finna mistök í skýrslunni sem þú sendir þeim, mun staða skýrslunnar breytast yfir í **Mistókst**. Þú getur skoðað villur undir **Villur og viðvaranir**, leiðrétt þær og svo sent skýrsluna inn aftur. Til að skoða allar EC söluyfirlitsskýrslur þínar, farðu á **EC söluyfirlitsskýrslur** síðuna.  

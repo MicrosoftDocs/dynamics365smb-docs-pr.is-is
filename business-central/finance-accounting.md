@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 06/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
-ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
+ms.openlocfilehash: 7f78fbcb4c0f37e9c6230004c70cd9d1625b8768
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413644"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528111"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Endurskoðandi upplifun í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Öll fyrirtæki verða að færa bókhald og staðfesta endurskoðunina. Sum fyrirtæki ráða endurskoðanda utan frá og önnur eru með endurskoðanda á launaskrá hjá sér. Engu skiptir hvernig endurskoðandi þú ert, þú getur nýtt þér **Endurskoðandi** Mitt hlutverk sem þitt Heim í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Héðan hefurðu aðgang að öllum síðum sem þú þarft í vinnunni.  
@@ -54,14 +54,14 @@ Ef stjórnandi þinn eða endursöluaðili vill ekki nota leiðarvísinn **Bjó�
 4. Veljið **Nýr gestanotandi**.
 5. Á síðunni **Nýr notandi** skal velja **Bjóða notanda** og bæta svo við upplýsingum um ytri endurskoðandann.  
 
-   Einnig er hægt að bjóða endurskoðandann velkominn með skilaboðum til að láta hann vita að verið sé að bæta honum við [!INCLUDE [prodshort](includes/prodshort.md)].
+   Einnig er hægt að bjóða endurskoðandann velkominn með skilaboðum til að láta hann vita að verið sé að bæta honum við [!INCLUDE[prodshort](includes/prodshort.md)].
 
 6. Veljið **Bjóða** til að senda boðið sjálfkrafa. Tilkynning birtist efst til hægri með skilaboðunum **Tókst að bjóða notanda**. 
 7. Eftir að boð hefur verið sent er notandareikningi sjálfkrafa bætt við skráasafnið sem gestur.
 
-Næst verður að úthluta nýja gestanotandanum leyfi fyrir [!INCLUDE [prodshort](includes/prodshort.md)].
+Næst verður að úthluta nýja gestanotandanum leyfi fyrir [!INCLUDE[prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Að gefa endurskoðandanum aðgang að [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Að gefa endurskoðandanum aðgang að [!INCLUDE[prodshort](includes/prodshort.md)]
 
 1. Í Azure-gáttinni, í notanda sem var nýlega bætt við, skal velja **Forstilling** og síðan velja **Breyta**
 2. Uppfærið reitinn **Notkunarstaðsetning** í viðeigandi land og veljið síðan **Vista**.
@@ -73,26 +73,26 @@ Næst verður að úthluta nýja gestanotandanum leyfi fyrir [!INCLUDE [prodshor
 
 Ef það tekst er leyfinu úthlutað til gestanotanda og gestareikningur er búinn til.
 
-### <a name="importing-the-new-user-into-prodshort"></a>Nýr notandi fluttur inn í [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Nýr notandi fluttur inn í [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Endurskoðandinn fær tölvupóst þar sem honum er tilkynnt að hann hafi fengið aðgang að Active Directory. Næst verður að veita þeim aðgang að rétta fyrirtækinu í [!INCLUDE [prodshort](includes/prodshort.md)].
+Endurskoðandinn fær tölvupóst þar sem honum er tilkynnt að hann hafi fengið aðgang að Active Directory. Næst verður að veita þeim aðgang að rétta fyrirtækinu í [!INCLUDE[prodshort](includes/prodshort.md)].
 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Að bæta endurskoðandanum við rétt fyrirtæki
 
-1. Opnið [!INCLUDE [prodshort](includes/prodshort.md)] fyrirtækið sem gefa á endurskoðandanum aðgang að á [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
+1. Opnið [!INCLUDE[prodshort](includes/prodshort.md)] fyrirtækið sem gefa á endurskoðandanum aðgang að á [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.  
 3. Veldu **Fá nýja notendur úr Office 365** aðgerðina.
 
 Þetta flytur notandareikninginn sem var búinn til í Azure-gáttinni inn í fyrirtækið. Frekari upplýsingar eru í [Að bæta við notanda í Business Central](ui-how-users-permissions.md#adduser).  
 
-Ef á að veita aðgang að mörgum fyrirtækjum þarf að skrá sig inn í hvert fyrirtæki fyrir sig og endurtaka þetta ferli. Að öðrum kosti er hægt að uppfæra heimildaflokka fyrir notandaforstillingu endurskoðandans í [!INCLUDE [prodshort](includes/prodshort.md)], svo sem með því að úthluta þeim *D365 Bus Premium* notendaflokki. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
+Ef á að veita aðgang að mörgum fyrirtækjum þarf að skrá sig inn í hvert fyrirtæki fyrir sig og endurtaka þetta ferli. Að öðrum kosti er hægt að uppfæra heimildaflokka fyrir notandaforstillingu endurskoðandans í [!INCLUDE[prodshort](includes/prodshort.md)], svo sem með því að úthluta þeim *D365 Bus Premium* notendaflokki. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
 
 <!--## Accountant Hub
 
 If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
+> [!INCLUDE[d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
 
 ## <a name="see-also"></a>Sjá einnig
 

@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0f8cc20f9f5f9afcd3db5fbeb3dc6d12ad8d6cad
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189342"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496724"
 ---
 # <a name="working-with-d365fin"></a>Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Þegar viðskiptaverk eru unnin er vinna með gögn margvísleg: stofna færslur, slá inn gögn, raða og afmarka gögn, skrifa athugasemdir, auk úttöku gagna í önnur forrit.
@@ -26,7 +26,7 @@ Til dæmis er hægt að leiðrétta stærð og stöðu hvaða síðu sem er, ví
 > [!TIP]
 > Til að fá prentvænt yfirlit yfir mest notuðu aðgerðirnar skaltu velja eftirfarandi mynd og sækja PDF-skjalið.
 >
-> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
+> [ ![Tákn fyrir PDF-skrána](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Tákn sem opnar PDF")
 
 ## <a name="links-to-learn-more"></a>Tenglar til að fá frekari upplýsingar
 

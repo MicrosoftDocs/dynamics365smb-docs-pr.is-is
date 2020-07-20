@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 06/04/2020
-ms.openlocfilehash: 787d2ec0d838e89943dc375db8d43c33be193d0b
-ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
+ms.date: 07/01/2020
+ms.openlocfilehash: 7d9ad42f501d3fe7a810fba7573488e8988e7406
+ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428372"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3532645"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
@@ -22,7 +22,7 @@ ms.locfileid: "3428372"
 
 ## <a name="finding-answers"></a>Finna svör
 
-Kaflinn **Finna það** veitir tengla á algengustu staðina til að finna svör við spurningum þínum. Tenglarnir flokkast niður í fjóra flokka og eru útskýrðir í eftirfarandi undirköflum. Suma tenglana getur [!INCLUDE [prodshort](includes/prodshort.md)]-samstarfsaðilinn þinn grunnstillt og fyrir vikið getur hegðunin verið örlítið öðruvísi.  
+Kaflinn **Finna það** veitir tengla á algengustu staðina til að finna svör við spurningum þínum. Tenglarnir flokkast niður í fjóra flokka og eru útskýrðir í eftirfarandi undirköflum. Suma tenglana getur [!INCLUDE[prodshort](includes/prodshort.md)]-samstarfsaðilinn þinn grunnstillt og fyrir vikið getur hegðunin verið örlítið öðruvísi.  
 
 ### <a name="product-help"></a>Hjálp fyrir afurð
 
@@ -33,13 +33,13 @@ Kaflinn **Finna það** inniheldur tvo tengla á hjálp fyrir afurð:
   Þessi tengill er myndaður sjálfkrafa. Ef [!INCLUDE[prodshort](includes/prodshort.md)] finnur ekki viðeigandi tengil birtist lendingarsíðan á [Docs.microsoft.com](index.md) fyrir sjálfgefna útgáfu af [!INCLUDE[prodshort](includes/prodshort.md)]. Til dæmis getur þetta gerst ef síðan var hluti af forriti sem bætti ekki vörpun samhengishjálpar við [!INCLUDE[prodshort](includes/prodshort.md)].  
 - Lendingarsíða hjálpar fyrir [!INCLUDE[prodshort](includes/prodshort.md)]  
 
-  Virkni í sjálfgefnu útgáfunni af [!INCLUDE[prodshort](includes/prodshort.md)] er lýst á svæðinu [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central). Auk sjálfgefnu útgáfunnar geturðu stækkað og sérstillt [!INCLUDE[prodshort](includes/prodshort.md)] með forritum frá AppSource. Öll forrit bjóða upp á tengla við viðkomandi afurðarhjálp svo þú getir alltaf fundið leiðarvísi fyrir mismunandi verkflæði í þinni útgáfu af [!INCLUDE [prodshort](includes/prodshort.md)].  
+  Virkni í sjálfgefnu útgáfunni af [!INCLUDE[prodshort](includes/prodshort.md)] er lýst á svæðinu [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central). Frekari upplýsingar er að finna í hlutanum [Nota vefsvæðið docs.microsoft.com til að fá frekari upplýsingar](#using-the-docsmicrosoftcom-site-to-learn-more). Auk sjálfgefnu útgáfunnar geturðu stækkað og sérstillt [!INCLUDE[prodshort](includes/prodshort.md)] með forritum frá AppSource. Öll forrit bjóða upp á tengla við viðkomandi afurðarhjálp svo þú getir alltaf fundið leiðarvísi fyrir mismunandi verkflæði í þinni útgáfu af [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ### <a name="community"></a>Samfélag
 
 Í [Umræðusvæði Business Central](https://community.dynamics.com/business/f) geturðu sent inn spurningu og fræðst meira frá öðrum samfélagsmeðlimum [!INCLUDE[prodshort](includes/prodshort.md)]. Samstarfsaðilar og starfsfólk Microsoft taka þátt í umræðunni.  
 
-Ef þú ert að nota prufuútgáfu af [!INCLUDE [prodshort](includes/prodshort.md)] og ert ekki enn með samstarfsaðila, getur samfélagið hjálpað þér að afblokka þig ef þú ert með spurningar.  
+Ef þú ert að nota prufuútgáfu af [!INCLUDE[prodshort](includes/prodshort.md)] og ert ekki enn með samstarfsaðila, getur samfélagið hjálpað þér að afblokka þig ef þú ert með spurningar.  
 
 ### <a name="blog"></a>Blogg
 
@@ -53,10 +53,10 @@ Langtímayfirlitið, [!INCLUDE[prodshort](includes/prodshort.md)] [síða vegví
 
 ## <a name="do-more-with-your-trial"></a>Gera meira með prufuútgáfunni
 
-Þessi kafli gefur þér flýtileiðir á Microsoft AppSource þar sem þú getur fundið lausnir og þjónustur frá samstarfsaðilum [!INCLUDE [prodshort](includes/prodshort.md)]. Notaðu tenglana til að kanna alla eiginleika [!INCLUDE [prodshort](includes/prodshort.md)] áður en þú ákveður hvort þú viljir kaupa áskrift. Einnig er hægt að finna tengil til að hafa samband við söluteymið.
+Þessi kafli gefur þér flýtileiðir á Microsoft AppSource þar sem þú getur fundið lausnir og þjónustur frá samstarfsaðilum [!INCLUDE[prodshort](includes/prodshort.md)]. Notaðu tenglana til að kanna alla eiginleika [!INCLUDE[prodshort](includes/prodshort.md)] áður en þú ákveður hvort þú viljir kaupa áskrift. Einnig er hægt að finna tengil til að hafa samband við söluteymið.
 
 > [!NOTE]
-> Þessi hluti er aðeins í boði í prufuumhverfum. Ef þú hefur nú þegar keypt [!INCLUDE [prodshort](includes/prodshort.md)] er þessi hluti ekki lengur sýnilegur.
+> Þessi hluti er aðeins í boði í prufuumhverfum. Ef þú hefur nú þegar keypt [!INCLUDE[prodshort](includes/prodshort.md)] er þessi hluti ekki lengur sýnilegur.
 
 ## <a name="give-feedback"></a>Senda inn ábendingu
 
@@ -68,26 +68,76 @@ Gakktu úr skugga um að þú leitir í lista yfir innsendar tillögur. Líklegt
 
 Hlutinn **Úrræðaleit** birtir tæknilegar upplýsingar sem stjórnandinn þinn eða samstarfsaðili [!INCLUDE[prodshort](includes/prodshort.md)] getur notað til að afblokka notendur. Þetta felur í sér upplýsingar um nýjustu villuboð, núverandi útgáfu af [!INCLUDE[prodshort](includes/prodshort.md)] og tengil til að opna síðuna **Eftirlit með síðu**. Frekari upplýsingar er að finna í [Eftirlit með síðum í Business Central](across-inspect-page.md).  
 
-Sem innri stjórnandi hefurðu aðgang að stjórnunarstöðinni þar sem hægt er að halda úrræðaleit áfram. Frekari upplýsingar er að finna í [Skoðun tæknilegra upplýsinga](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) í stjórnunarefninu.  
+Sem innri stjórnandi hefurðu aðgang að stjórnunarstöðinni þar sem hægt er að halda úrræðaleit áfram. Hægt er að skoða fjarmælingar, stjórna umhverfum og hægt er að stjórna notandalotum. Frekari upplýsingar er að finna í [Skoðun tæknilegra upplýsinga](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) og [Stjórnun umhverfa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) í stjórnunarefninu.  
 
 ## <a name="report-a-problem"></a>Tilkynna um vandamál
 
 Endursöluaðili [!INCLUDE[prodshort](includes/prodshort.md)] mun veita þér tæknilega aðstoð. [!INCLUDE[prodshort](includes/prodshort.md)] er selt í gegnum samstarfsaðila og þessi hluti auðveldar þér að hafa samband endursöluaðilann þinn ef hann hefur sent inn samskiptaupplýsingar fyrir notendaþjónustu. Ef [!INCLUDE[prodshort](includes/prodshort.md)] samstarfsaðili þinn getur þá ekki leyst vandamálið, munu hann leggja fram þjónustubeiðni til Microsoft. Frekari upplýsingar er að finna í [Senda stuðningsvandamál til Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) í efni fyrir stjórnendur.  
 
 > [!NOTE]
-> Þessi hluti er eingöngu í boði ef greitt hefur verið fyrir [!INCLUDE [prodshort](includes/prodshort.md)]-áskrift. Ef þú hefur skráð þig fyrir prufuáskrift og hefur ekki enn keypt [!INCLUDE[prodshort](includes/prodshort.md)] þá hefur þú ekki endursöluaðila og getur ekki haft samband við þjónustudeild Microsoft. Hægt er að finna [!INCLUDE[prodshort](includes/prodshort.md)]-samstarfsaðila á síðunni [Ég er að leit að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Frekari upplýsingar eru í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
+> Þessi hluti er eingöngu í boði ef greitt hefur verið fyrir [!INCLUDE[prodshort](includes/prodshort.md)]-áskrift. Ef þú hefur skráð þig fyrir prufuáskrift og hefur ekki enn keypt [!INCLUDE[prodshort](includes/prodshort.md)] þá hefur þú ekki endursöluaðila og getur ekki haft samband við þjónustudeild Microsoft. Hægt er að finna [!INCLUDE[prodshort](includes/prodshort.md)]-samstarfsaðila á síðunni [Ég er að leit að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Frekari upplýsingar eru í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
 
 ### <a name="support-contacts"></a>Stuðningstengiliðir
 
-Hlutinn **Tilkynna um vandamál** birtir netfang eða tengil til að þú getir haft samband við einstakling eða hóp þjónustuvers. Ef þú ert [!INCLUDE[prodshort](includes/prodshort.md)] endursöluaðili fyrir leigjanda getur þú sett upp samskiptaupplýsingar æskilegs stuðningsaðila í stjórnendamiðstöð. Frekari upplýsingar er að finna í [Skilgreining á þjónustuupplifun](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) í ITpro-efni fyrir [!INCLUDE [prodshort](includes/prodshort.md)].  
+Hlutinn **Tilkynna um vandamál** birtir netfang eða tengil til að þú getir haft samband við einstakling eða hóp þjónustuvers. Ef þú ert [!INCLUDE[prodshort](includes/prodshort.md)] endursöluaðili fyrir leigjanda getur þú sett upp samskiptaupplýsingar æskilegs stuðningsaðila í stjórnendamiðstöð. Frekari upplýsingar er að finna í [Skilgreining á þjónustuupplifun](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) í stjórnunarefni fyrir [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Til að láta samstarfsaðila vita um vandamál skal velja tengilinn til að annaðhvort senda tölvupóst eða opna stuðningssíðu hans í nýjum vafraglugga. Síðan geturðu bætt tæknilegum upplýsingum um Azure Active Directory leigjandann við úr hlutanum **Úrræðaleit** og öðrum upplýsingum sem þú telur eiga við.  
+
+## <a name="using-the-docsmicrosoftcom-site-to-learn-more"></a>Nota vefsvæðið docs.microsoft.com til að fá frekari upplýsingar
+
+Vefsvæðið docs.microsoft.com er sjálfgefin staðsetning fyrir frekari upplýsingar um möguleika [!INCLUDE[prodshort](includes/prodshort.md)]. Vefsvæðið hýsir [hugmyndafræðilegt efni um viðskiptaaðgerðir](index.md), [fylgiskjöl fyrir þróunaraðila](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview), [einingar lærdómsferla og netkennslu](/learn/browse/?expanded=dynamics&products=dynamics-business-central) yfir marga notandasíður og margt fleira. Í þessum hluta er hægt að fá upplýsingar um hvernig á að vafra um efni viðskiptaaðgerða.  
+
+### <a name="content-on-the-site"></a>Efni á vefsvæðinu
+
+Efnið sem Microsoft gefur út undir hugmyndina um notandahjálpina *Frekari upplýsingar* er að hluta til ætlað til að svara þessum spurningum sem notandaviðmótið getur ekki svarað, t.d. hvar þessi síða passar inn í stærra verkflæðið, eða hvað kemur næst, eða hvaða annar kostur er í boði o.s.frv. Í vörunni er hægt að fá aðgang að þessu efni annaðhvort í gegnum tengilinn *Frekari upplýsingar* í ábendingum eða með því að nota flýtilykilinn *Ctrl+F1*.  
+
+Yfirlitssvæðið til vinstri, efnisyfirlitið, greinaflokkar eftir rekstrarsviði. Til dæmis, ef þú lest greinina [Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md) og síðan sýnir efnisyfirlitið þér að einnig sé til grein sem heitir [Leiðrétta eða afturkalla ógreidda innkaupareikninga](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Báðar greinarnar eru í flokknum sem kallast *Innkaup*, sem fléttar saman greinar sem tengjast innkaupaeiningunni í [!INCLUDE [prodshort](includes/prodshort.md)].  
+
+Efnisyfirlitið inniheldur efnisflokk sem lýsir staðbundnum aðgerðum fyrir lönd sem Microsoft styður. Ef þú sérð ekki landið þitt skráð þar, er það líklega vegna þess að landið er staðfært hjá samstarfsaðila. Frekari upplýsingar eru í [Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+
+Efni staðbundinna aðgerða lýsir möguleikunum í [!INCLUDE [prodshort](includes/prodshort.md)] sem geta hjálpað þér að fylgja studdum markaði, t.d. skattaskýrslum og öðrum skýrslum. Í sumum tilfellum er munurinn á milli sjálfgefinnar útgáfu og landsmiðaðrar útgáfu ekki sýnilegur notendum. Í öðrum tilvikum verða notendur að setja upp skýrslugerð eða rafræna reikningsfærslu á sérstakan hátt. Ef ekki er hægt að finna lýsingu á tilteknum hnappi eða aðgerð í sjálfgefnum hluta efnisins á vefsvæðinu docs.microsoft.com er vonandi hægt að finna hana í hlutanum *Staðbundin virkni*.  
+
+### <a name="finding-other-content"></a>Annað efni fundið
+
+Ef viðkomandi grein svarar ekki spurningum þínum er hægt að finna annað efni á tvennan hátt:
+
+- Nota reitinn **Afmarka eftir titli** í efnisyfirlitinu vinstra megin á vefsvæðinu
+
+  Með þessum hætti er hægt að afmarka eftir orðum sem notuð eru í titlum hinna ýmsu greina. Til dæmis geturðu skrifað *reikningur* og síðan valið einn af tenglunum sem boðið er upp á, t.d. [Setja upp sléttun reiknings](finance-set-up-invoice-rounding.md) eða [Stofna fyrirframgreiðslureikninga](finance-how-to-create-prepayment-invoices.md).  
+
+  Fyrir neðan hvern tengil er hægt að sjá hvar þessi grein er í efnisyfirlitinu. Þannig getur þú auðveldlega séð hvort greinin er í innkaupahlutanum eða hlutanum fyrir staðbundna virkni Ástralíu sem dæmi.  
+- Nota reitinn **Leita** efst hægra megin á vefsvæðinu
+
+  Þannig er hægt að leita að hverju sem er. Svæðið leitar þá í öllu efninu að leitarorðinu eða orðasambandinu. Leitið aftur að *reikningur* og flettið í gegnum listann yfir hundruð greina í [!INCLUDE [prodshort](includes/prodshort.md)]-efninu sem notar það orð einhvers staðar í textanum.  
+
+### <a name="languages"></a>Tungumál
+
+Efni um viðskiptaaðgerðir er gefið út á mörgum tungumálum. Þegar vefsvæðið docs.microsoft.com er heimsótt beint úr vörunni, sést efnið á því tungumáli sem þú hefur tilgreint í [!INCLUDE [prodshort](includes/prodshort.md)], nema ef það tungumál er ekki í boði á vefsvæðinu docs.microsoft.com.  
+
+Hægt er að breyta tungumálinu með því að breyta vefslóðinni eða nota skiptihnapp tungumáls neðst í vinstra horni vefsvæðisins.  
+
+Efnið er heimilað á ensku og birt á vefslóðum með *en-us* sem tungumálakóðann. Þegar nýjar upplýsingar eru birtar á ensku eru þær sendar til þýðinga á studd tungumál. Í sumum tilfellum er ekki hægt að lesa þetta nýja efni á eigin tungumáli í allt að 4 vikur, en í flestum tilfellum tekur það aðeins eina viku eða tvær. Þú getur alltaf skoðað nýjustu upplýsingarnar með því að skipta yfir í tungumálið *en-us*.  
+
+Fyrir hvert tungumál er efnisyfirlit þýtt, en efnið í hlutanum *Staðbundin virkni* er á ensku nema fyrir landið sem samsvarar núverandi tungumáli. Til dæmis í dönsku útgáfunni af docs.microsoft.com vefsvæðinu (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`) er hægt að sjá færslur fyrir ástralska staðbundna virkni á dönsku í efnisyfirlitinu, en greinarnar eru á ensku. Aðeins greinarnar fyrir danska staðbundna virkni eru þýddar á dönsku.  
+
+### <a name="providing-feedback"></a>Senda ábendingar
+
+Á docs.microsoft.com, er hver grein með tvo hnappa neðst í greininni. Hnappurinn *Ábending um vöru* fer með þig á hugmyndasvæðið og hnappurinn *Skráðu þig inn til að gefa ábendingu um fylgiskjal* gerir þér kleift að senda inn ábendingu um efnið í gegnum GitHub. Í báðum tilfellum verður þú að stofna reikning ef þú átt ekki slíkan. Fyrir *ábending um vöru* verður þú að skrá þig inn með tölvupóstsreikningi vinnunnar eða fyrirtækisins. Til að fá *aðgang að GitHub* er hægt að nota hvaða netfang sem er þegar reikningur er stofnaður.  
+
+Við fögnum framlagi þínu, bæði sem pull-beiðnum með ábendingum eða leiðréttingum um efnið og sem GitHub-vandamál með villum eða spurningum. En hafið það í huga að ábending og framlag til *dynamics365smb-docs* repo er um efnið en ekki vöruna.  
+
+> [!IMPORTANT]
+> Microsoft tekur við pull-beiðnum fyrir *dynamics365smb-docs* repo eingöngu, ekki fyrir repo á sérstöku tungumáli. Ef þú ert með ábendingar um þýðingar getur þú gefið upp GitHub-vandamál í viðeigandi repo.  
+
+### <a name="navigating-to-other-parts-of-the-site"></a>Farið á aðra hluta síðunnar
+
+Docs.microsoft.com hýsir efni fyrir aðrar vörur sem og aðrar gerðir efnis. Notið tenglana efst á vefsvæðinu til að komast á svæðið [Fræðsla](/learn/) eða á [Útgáfuáætlanir Dynamics 365](/dynamics365/release-plans/) sem dæmi. Einnig er hægt að finna tengil á svæðið [Samfélag Dynamics 365](https://community.dynamics.com/) sem dæmi.  
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Business Central námskrá](readiness/readiness-learning-catalog.md)  
 [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner)  
-[Bloggfærsla: Finna réttar úrlausnir og veita endurgjöf](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
-[Skjöl þróunaraðila og ITpro Business Central](/dynamics365/business-central/dev-itpro/)  
+[Bloggfærsla: Finna réttar úrlausnir og veita endurgjöf](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
+[Þróunaraðili Business Central og skjalastjórnun](/dynamics365/business-central/dev-itpro/)  
 [Úrlausnir fyrir hjálp og notendaþjónustu fyrir samstarfsaðila](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Tæknilegur stuðningur](/dynamics365/business-central/dev-itpro/technical-support)  

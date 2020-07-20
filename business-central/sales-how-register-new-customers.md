@@ -1,8 +1,6 @@
 ---
 title: Stofna viðskiptamannaspjald til að skrá nýja viðskiptamenn | Microsoft Docs
 description: Lýsir því hvernig skal stofna viðskiptamannaspjald til að skrá upplýsingar um alla nýja viðskiptamenn eða biðlara sem selt er til.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,26 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/27/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3b56b4009e08085bb232b050790aa03acf2aa4cf
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: cc48c7c55edac8af9333dd04661a828c528621b8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324271"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503974"
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
+
 Viðskiptamenn eru uppruni tekna. Þú verður að skrá þig hver viðskiptavinur sem þú selur sem viðskiptavinakort. Viðskiptamannaspjald inniheldur upplýsingarnar sem þarf til að selja vörur til viðskiptamannsins. Frekari upplýsingar eru í [Reikningsfæra sölur](sales-how-invoice-sales.md) og [Skrá nýja hluti](inventory-how-register-new-items.md).  
 
 Áður en hægt er að skrá nýja viðskiptamenn þarf að setja upp ýmsar sölukóða sem hægt er að velja úr þegar fyllt eru út viðskiptamannaspjöld. Nánari upplýsingar er að finna í [Uppsetning sölu](sales-setup-sales.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
+## <a name="adding-new-customers"></a>Bæta við nýjum viðskiptavinum
+
+Til að skrá nýjan viðskiptavin þarf að fylla út viðskiptamannsspjald. Hægt er að búa til sniðmátum fyrir mismunandi forstillingar viðskiptavina eða hægt er að bæta við viðskiptavinum án sniðmáta.  
+
 > [!NOTE]  
 > Ef viðskiptamannasniðmát eru til fyrir mismunandi tegundir viðskipamanna, þá birtist sjálfkrafa síða þegar búið er til nýtt viðskiptamannaspjald og hægt er að velja viðeigandi sniðmát. Ef aðeins eitt viðskiptamanna sniðmát er fyrir hendi, nota ný viðskiptamannaspjöld alltaf það sniðmát.  
 
-## <a name="to-create-a-new-customer-card"></a>Að stofna nýtt viðskiptamannaspjald
+### <a name="to-create-a-new-customer-card"></a>Að stofna nýtt viðskiptamannaspjald
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Viðskiptamenn** skal velja aðgerðina **Nýtt**.
 
@@ -44,12 +48,10 @@ Viðskiptamenn eru uppruni tekna. Þú verður að skrá þig hver viðskiptavin
 
 Viðskiptamaðurinn hefur nú verið skráður og viðskiptamannaspjaldið má nú nota í söluskjölum.
 
-### <a name="deleting-customer-cards"></a>Eyðir viðskiptavinaspjöldum
-Ef þú hefur bókað færslu fyrir viðskiptavin er ekki hægt að eyða spjaldinu þar sem hugsanlega þarf að nota fjárhagsfærslurnar í endurskoðun. Til að eyða viðskiptamannaspjöldum með fjárhagsfærslum skaltu hafa samband við samstarfsaðila Microsoft til að gera það með kóða.
+Ef nota á þetta viðskiptamannaspjald sem sniðmát þegar ný viðskiptamannaspjöld eru búin til, vistið það sem sniðmát. Nánari upplýsingar eru í eftirfarandi kafla.  
 
-Ef nota á þetta viðskiptamannaspjald sem sniðmát þegar ný viðskiptamannaspjöld eru búin til, vistið það sem sniðmát. Nánari upplýsingar eru í eftirfarandi kafla.
+### <a name="to-save-the-customer-card-as-a-template"></a>Til að vista viðskiptamannaspjaldið sem sniðmát
 
-## <a name="to-save-the-customer-card-as-a-template"></a>Til að vista viðskiptamannaspjaldið sem sniðmát
 1. Á síðunni **Viðskiptamannaspjald** skal velja aðgerðina **Vista sem sniðmát**. Síðan **Viðskiptamannasniðmát** opnast og sýnir viðskiptamannaspjaldið sem sniðmát.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Til að endurnota víddir í sniðmátum, veljið aðgerðina **Víddir**. Síðan **Víddarsniðmát** opnast og sýnir alla víddarkóða sem settir eru upp fyrir viðskiptamanninn.
@@ -58,10 +60,15 @@ Ef nota á þetta viðskiptamannaspjald sem sniðmát þegar ný viðskiptamanna
 
 Viðskiptamannasniðmátinu verður bætt við lista viðskiptamannasniðmáta þannig að hægt er að nota það til að búa til ný viðskiptamannaspjöld.
 
+## <a name="deleting-customer-cards"></a>Eyðir viðskiptavinaspjöldum
+
+Ef þú hefur bókað færslu fyrir viðskiptavin er ekki hægt að eyða spjaldinu þar sem hugsanlega þarf að nota fjárhagsfærslurnar í endurskoðun. Til að eyða viðskiptamannaspjöldum með fjárhagsfærslum skaltu hafa samband við samstarfsaðila Microsoft til að gera það með kóða.  
+
 ## <a name="see-also"></a>Sjá einnig
+
 [Skilgreina Greiðsluhætti](finance-payment-methods.md)  
 [Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)  
 [Stofnun númeraraða](ui-create-number-series.md)  
-[Sala](sales-manage-sales.md)    
-[Uppsetning sölu](sales-setup-sales.md)    
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Sala](sales-manage-sales.md)  
+[Uppsetning sölu](sales-setup-sales.md)  
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

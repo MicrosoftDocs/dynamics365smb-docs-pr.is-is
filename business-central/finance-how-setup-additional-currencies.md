@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d1c9d1f61f2ab89d58d0c3f4a8c512fe6ea0f1
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183549"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528839"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Setja upp annan skýrslugjaldmiðil
 Þar sem fyrirtæki starfa að auknum mæli í mörgum löndum/svæðum verður æ mikilvægara fyrir þau að geta skoðað eða skráð fjárhagsgögn í fleiri en einum gjaldmiðli.
@@ -103,7 +103,7 @@ Til að setja upp annan skýrslugjaldmiðil, verður þú að fylgja þessum skr
 5. Keyrslan **Leiðrétta annan skýrslugjaldm.** opnast.
 
     Keyrslan umreiknar upphæðir í sgm sem eru í gildandi færslum yfir í annan skýrslugjaldmiðil. Keyrslan notar sjálfgefið gengi sem er afritað úr því gengi sem er gilt á vinnudagsetningunni á síðunni **Gengi gjaldmiðils**. Afgangsupphæðir sem koma upp í umreikningi á SGM yfir í aukalega skýrslugjaldmiðilinn eru bókaðar í reikninga fjárhagslegs hagnaðar eða fjárhagslegs taps, sem tilgreindir eru á síðunni **Gjaldmiðlar**. Bókunardagsetningin og skjalanúmer þessara færslna eru þau sömu og í upphaflegu fjárhagsfærslunni. Eftir að allar afgangsfærslurnar hafa verið bókaðar bókar keyrslan sléttunarfærslu á lokadagsetningu hvers lokaðs árs í reikning óráðstafaðs eigin fjár. Það tryggir að lokastaða tekjureiknings hvers lokaðs árs sé 0 í bæði SGM og öðrum skýrslugjaldmiðli.
-6. Fyllið inn reitina eftir þörfum. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+6. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Veldu hnappinn **Í lagi** til að ræsa keyrsluna.  
 
 Eftir keyrsluna verða upphæðir í eftirfarandi færslum sem fyrir eru færðar bæði í SGM og öðrum skýrslugjaldmiðli:  

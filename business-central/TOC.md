@@ -38,10 +38,11 @@
 ## [Algengar spurningar um að afrita og líma](ui-copy-paste.md)
 ## [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md)
 ## [Greina áskilda reiti](ui-mandatory-fields.md)
-## [Breyta tungumáli og landsstaðli](about-locale-language.md)
+## [Breyta tungumáli og svæði](about-locale-language.md)
 ## [Skoða og breyta í Excel](across-work-with-excel.md)
 ## [Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum](ui-how-add-link-to-record.md)
 ## [Grunnstillingum breytt](ui-change-basic-settings.md)
+## [Skipta yfir í annað fyrirtæki eða umhverfi](ui-organization-switch.md)
 ## [Stjórna tilkynningum](ui-smart-notifications.md)
 ## [Ábendingar um frammistöðu fyrir fyrirtækisnotendur](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Sérstilla Business Central
@@ -128,7 +129,7 @@
 ### [Skrá nýjar vörur](inventory-how-register-new-items.md)
 ### [Afrita fyrirliggjandi vörur í Búa til nýjar vörur](inventory-how-copy-items.md)
 ### [Um vörutegundir](inventory-about-item-types.md)
-### [Setja upp mælieiningu vara](inventory-how-setup-units-of-measure.md)
+### [Setja upp mælieiningar](inventory-how-setup-units-of-measure.md)
 ### [Setja upp birgðahaldseiningar](inventory-how-to-set-up-stockkeeping-units.md)
 ### [Flokka vörur](inventory-how-categorize-items.md)
 ### [Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)
@@ -216,7 +217,7 @@
 #### [Afrita gögn yfir í ný fyrirtæki](admin-how-to-copy-data-to-new-companies.md)
 #### [Stofna opnunarstöður færslubókar](admin-how-to-create-journal-opening-balances.md)
 ### [Safna saman uppsetningargildum viðskiptamanns](admin-gather-customer-setup-values.md)
-### [Undirbúa flutning á viðskiptamannagögnum](admin-use-templates-to-prepare-customer-data-for-migration.md)
+### [Undirbúa flutning á viðskiptamannagögnum með sniðmátum](admin-use-templates-to-prepare-customer-data-for-migration.md)
 ### [Flytja gögn viðskiptamanna](admin-migrate-customer-data.md)
 ### [Búa til sérstillta grunnstillingarpakka fyrirtækja](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Ábendingar og góð ráð: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
@@ -325,6 +326,7 @@
 ## [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)
 ## [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)
 ## [Vinna með forstillingar](admin-users-profiles-roles.md)
+## [Stjórna notendastillingum og kjörstillingum](admin-manage-user-settings-preferences.md)
 ## [Setja upp prentara](ui-specify-printer-selection-reports.md)
 ## [Flokkun gagnatrúnaðar](admin-classifying-data-sensitivity.md)
 ## [Svara beiðnum um persónuleg gögn](admin-responding-to-requests-about-personal-data.md)
@@ -348,7 +350,6 @@
 ### [Setja upp litaðan vísi á bunka](admin-how-set-up-colored-indicator-on-cues.md)
 ### Sérstilling með viðbótum
 #### [Yfirlit](ui-extensions.md)
-#### [Sérstilling með viðbótum](ui-extensions.md)
 #### [Endurskoðandagátt fyrir Business Central](ui-extensions-accountant-portal.md)
 #### [Ceridian Payroll](ui-extensions-ceridian-payroll.md)
 #### [Dynamics GP Gagnafærsla](ui-extensions-dynamicsgp-data-migration.md)
@@ -384,7 +385,6 @@
 ### [Samstilla töfluvarpanir handvirkt](admin-manual-synchronization-of-table-mappings.md)
 ### [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Úrræðaleit vegna samstillingarvillna](admin-troubleshoot-sales-synchronization.md)
-<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Fjármál
 ## [Yfirlit](finance.md)
@@ -508,6 +508,7 @@
 ## [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)
 ## [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)
 ## [Umbreyta þjónustusamningum sem innihalda VSK upphæðir](service-how-to-convert-service-contracts.md)
+## [Stjórna breytingum á VSK-hlutfalli](finance-how-use-vat-rate-change-tool.md)
 ## [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)
 ## [Kynning: Gera sjóðstreymisspár með því að nota fjárhagsskemu](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
@@ -626,7 +627,6 @@
 ### [Stofna tækifæri](marketing-how-create-opportunities.md)
 ### [Fylgjast með tölvupóstsamskiptum](marketing-set-up-email-logging.md)
 ### [Meðhöndla sölutækifæri](marketing-processing-sales-opportunities.md)
-### [Setja upp tölvupóstsskráningu](marketing-set-up-email-logging.md)
 ## [Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)
 ## [Að nota Dynamics 365 for Sales úr Business Central](marketing-integrate-dynamicscrm.md)
 ### [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md)
@@ -768,6 +768,7 @@
 ## Hönnunarupplýsingar: Birgðakostnaður
 ### [Yfirlit](design-details-inventory-costing.md)
 ### [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)  
+### [Hönnunarupplýsingar: Breyta kostnaðarútreikningi fyrir vörur](design-details-changing-costing-methods.md)
 ### [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
 ### [Hönnunarupplýsingar: Þekkt vandamál birgðajöfnunar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ### [Hönnunarupplýsingar: kostnaðarleiðrétting](design-details-cost-adjustment.md)  
@@ -1404,7 +1405,7 @@
 #### [Svissneskur virðisaukaskattur](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [VSK-hlutföll fyrir Sviss](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Bankaþjónusta og greiðslur
-#### Stjórnun QR-reiknings (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
+#### [QR-reikningastjórnun](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Loka LSV-safni](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Flytja út greiðslur með LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Flytja inn ESR-greiðslur](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)

@@ -7,19 +7,19 @@ ms.topic: get-started-article
 ms.search.keywords: setup wizard
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190156"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528739"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Auðvelt er að skrá sig og hægt er að yfirfæra fyrirliggjandi viðskiptagögn úr eldra kerfinu.  
 
 Til að hjálpa þér við áskriftina þína skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
 
-Þegar þú skráir þig á [!INCLUDE [prodshort](includes/prodshort.md)] færðu aðgang að sýnifyrirtæki. Sýndarfyrirtækið er með sýnigögn en þú getur til dæmis búið til ný söluskjöl, eða sett upp bankareikning. Ef þú vilt hins vegar nota [!INCLUDE [prodshort](includes/prodshort.md)] til að hjálpa þér að reka fyrirtækið þarftu að hafa samband við [!INCLUDE [prodshort](includes/prodshort.md)] endursöluaðila og kaupa áskrift. Frekari upplýsingar um prufur og áskriftir er að finna í [Prufuútgáfa og áskrift](across-preview.md).  
+Þegar þú skráir þig á [!INCLUDE[prodshort](includes/prodshort.md)] færðu aðgang að sýnifyrirtæki. Sýndarfyrirtækið er með sýnigögn en þú getur til dæmis búið til ný söluskjöl, eða sett upp bankareikning. Ef þú vilt hins vegar nota [!INCLUDE[prodshort](includes/prodshort.md)] til að hjálpa þér að reka fyrirtækið þarftu að hafa samband við [!INCLUDE[prodshort](includes/prodshort.md)] endursöluaðila og kaupa áskrift. Frekari upplýsingar um prufur og áskriftir er að finna í [Prufuútgáfa og áskrift](across-preview.md).  
 
 ## <a name="get-to-know-d365fin"></a>Fá að vita [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -34,7 +34,7 @@ Frekari upplýsingar er að finna í [Unnið með [!INCLUDE[d365fin](includes/d3
 > [!TIP]  
 > Þú getur alltaf farið aftur í Mitt hlutverk með því að velja heiti fyrirtækisins í efra vinstra horninu.
 
-Í sýnifyrirtækinu inniheldur hlutverkamiðstöðvarnar Business Manager og Accountant reitinn „Hafist handa“ og Vörumyndbönd. Báðir reitirnir opna síður þar sem hægt er að velja á milli mismunandi myndbanda sem hjálpa þér að hefjast handa með mismunandi hluti í [!INCLUDE [prodshort](includes/prodshort.md)]. Frekari myndbönd má finna á YouTube rásinni okkar. Frekari upplýsingar er að finna á [Skoðaðu myndbandasafnið okkar](across-videos.md). Einnig er hægt að finna netnámskeið fyrir grunnútgáfu [!INCLUDE [prodshort](includes/prodshort.md)] á [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Ef þú vilt fá frekari aðstoð skaltu hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila.  
+Í sýnifyrirtækinu inniheldur hlutverkamiðstöðvarnar Business Manager og Accountant reitinn „Hafist handa“ og Vörumyndbönd. Báðir reitirnir opna síður þar sem hægt er að velja á milli mismunandi myndbanda sem hjálpa þér að hefjast handa með mismunandi hluti í [!INCLUDE[prodshort](includes/prodshort.md)]. Frekari myndbönd má finna á YouTube rásinni okkar. Frekari upplýsingar er að finna á [Skoðaðu myndbandasafnið okkar](across-videos.md). Einnig er hægt að finna netnámskeið fyrir grunnútgáfu [!INCLUDE[prodshort](includes/prodshort.md)] á [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Ef þú vilt fá frekari aðstoð skaltu hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila.  
 
 Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](across-business-functionality.md).
 

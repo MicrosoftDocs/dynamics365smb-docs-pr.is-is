@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50fbfe2cfa10885ad126153b0602bf953a105d9f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 786b782bd1cba3d75ce42776fa5df84ae89e624e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194452"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529114"
 ---
 # <a name="sorting-searching-and-filtering"></a>Röðun, leit og síun
 Það eru nokkrir hlutir sem munu hjálpa þér að skanna, finna og takmarka skrár í lista, skýrslu eða XMLport. Þar á meðal er röðun, leit og afmörkun. Þú getur notað suma eða alla þessa hluti samtímis til að finna eða greina gögnin þín fljótt.
@@ -68,6 +68,9 @@ Eftirfarandi tafla sýnir nokkur dæmi til að útskýra hvernig hægt er að no
 
 > [!TIP]
 > Þú getur ýtt á **F3** til að virkja og slökkva á leitarreitnum. Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).
+
+> [!NOTE]  
+> Leit mun ekki passa við gildi í myndum, BLOB-reitum, Flow-síum, FlowFields-reitum og öðrum reitum sem eru ekki hluti af töflu. 
 
 ## <a name="filtering"></a><a name="filtering"></a>Afmörkun
 Síun veitir háþróaðri og fjölhæfur leið til að stjórna hvaða skrár sem birtast á lista eða eru innifaldar í skýrslu eða XMLport. Það eru tvær helstu munur á leit og síun, eins og lýst er í töflunni hér að neðan.

@@ -5,16 +5,17 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34e72f5b80f4516dcd7e9061f263a8f08b06b0d7
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186501"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528514"
 ---
 # <a name="manage-profiles"></a>Vinna með forstillingar
+
 Öllum notendum [!INCLUDE[d365fin](includes/d365fin_md.md)] er úthlutað forstillingu sem endurspeglar viðskiptahlutverk þeirra, deildina sem þeir vinna í eða aðra flokkun. Forstillingar gera stjórnendum kleift að skilgreina og stjórna því miðlægt hvað mismunandi gerðir notenda geta séð og gert í notendaviðmótinu svo þeir geti framkvæmt verk sín á skilvirkan hátt.
 
 > [!NOTE]
@@ -130,9 +131,15 @@ Hægt er að eyða öllum sérstillingum sem einn eða fleiri notendur hafa gert
 
 2. Veldu línuna fyrir sérstillingu síðunnar sem á að eyða og veldu síðan aðgerðina **Eyða**.
 
-Notandinn mun sjá breytingarnar næst þegar hann skráir sig inn.    
+Notandinn mun sjá breytingarnar næst þegar hann skráir sig inn.  
 
 Einnig er hægt að eyða einstaka sérstillingum síðu fyrir forstillingu. Frekari upplýsingar er að finna í [Til að eyða sérstillingum fyrir tilteknar síður fyrir forstillingu](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+
+## <a name="managing-user-sessions"></a>Stjórna lotum notenda
+
+Sem kerfisstjóri á [!INCLUDE[prodshort](includes/prodshort.md)] ánetinu er hægt að stjórna notandalotum í stjórnunarstöðinni. Frekari upplýsingar er að finna í [Stjórnun lota](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) í stjórnunarefninu.  
+
+Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum er t.d. hægt að stjórna lotum með því að nota SQL Server Management Studio. Frekari upplýsingar er að finna í [tæknileg fylgiskjöl SQL Server](/sql/sql-server/?view=sql-server-ver15).  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  

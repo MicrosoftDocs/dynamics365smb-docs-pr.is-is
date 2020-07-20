@@ -1,8 +1,6 @@
 ---
-title: Setja upp Yodlee Bank Feeds| Microsoft Docs
+title: Setja upp Yodlee bankastreymi
 description: Hægt er að umreikna greiðsluupplýsingar í hvaða gagnasnið sem bankinn krefst og opna fyrir inn- og útflutning á bankaskrám.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,23 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 04/01/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 39e31cad30c1e55c651abd818a52ea8b0a6941cf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6de088c47fda309d5c4d2832ffe4199cd5331bf8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186237"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503393"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Setja upp Envestnet Yodlee Bank Feeds þjónustu
+
 Hægt er að flytja inn rafræn bankayfirlit frá bankanum til að fylla fljótlega út síðuna **Greiðsluafstemmingarbók** þannig að hægt sé að jafna greiðslur og stemma af bankareikninginn. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!IMPORTANT]
-> Vegna nýju tilskipunar um greiðsluþjónustu í Evrópu (PSD2), eftir 14. september 2019, verður ekki hægt að flytja sjálfkrafa bankayfirlit frá bönkum í Bretlandi inn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Við bjóðum hugsanlega upp á þennan eiginleika aftur í framtíðinni.
+> Vegna tilskipunar um greiðsluþjónustu í Evrópu (PSD2), eftir 14. september 2019, verður ekki hægt að flytja sjálfkrafa bankayfirlit frá bönkum í Bretlandi inn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Við bjóðum hugsanlega upp á þennan eiginleika aftur í framtíðinni.
 
 > [!NOTE]
-> Envestnet Yodlee Bank Feeds þjónustan er aðeins studd í netútgáfunni af Business Central. Til að nota þessa virkni á staðnum verður þú að verða þér út um vörumerkjareikning frá Envestnet Yodlee.<br /><br />
+> Envestnet Yodlee Bank Feeds þjónustan er aðeins studd í netútgáfunni af Business Central. Til að nota þessa virkni á staðnum verður þú að verða þér út um vörumerkjareikning frá Envestnet og þú verður að bæta við kóða til að samþætta við Yodlee API.
+>
 > Envestnet Yodlee Bank Feeds Þjónustan er aðeins studd í Bandaríkjunum og Kanada.
 > Aðeins bankar sem eru búsettir í þessum löndum eru studdir, jafnvel þó að bankar frá öðrum löndum kunni að birtast í Envestnet Yodlee Bank Feeds valglugga banka í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

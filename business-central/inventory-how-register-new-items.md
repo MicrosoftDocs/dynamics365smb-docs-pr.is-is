@@ -1,7 +1,6 @@
 ---
 title: Stofna birgðaspjald fyrir vörur eða þjónustu| Microsoft Docs
 description: Þú býrð til spjöld fyrir þjónustu sem þú selur sem klukkutíma og fyrir efnislegar vörur eins og t.d. samsetningaríhlutir, fullunnar vörur eða hráefni sem þú selur úr birgðum.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/27/2020
+ms.date: 07/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: 506576c6ecbc707dd44ce23294ce7eb8b6e89329
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 84880df39dd573e24c11e81321f023e24cd1094a
+ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324151"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535341"
 ---
 # <a name="register-new-items"></a>Skrá nýjar vörur
+
 Vörur, ásamt öðrum framleiðsluvörum, eru grundvöllur fyrirtækisins, vörurnar eða þjónustan sem þú stundar viðskipti með. Hver vara verður að vera skráð sem birgðaspjald.
 
 Birgðaspjald inniheldur upplýsingarnar sem þarf til að kaupa, selja, geyma og tilkynna vörur.
@@ -34,11 +34,12 @@ Vörur sem þú býður viðskiptamönnum þínum en þú vilt ekki stjórna í 
 > [!NOTE]  
 > Ef vörusniðmát er til fyrir mismunandi vörutegundir, þá birtist síða þar sem búið er til nýtt birgðaspjald og hægt er að velja viðeigandi sniðmát. Ef aðeins eitt vörusniðmát er fyrir hendi, nota ný birgðaspjöld alltaf það sniðmát.
 
-Eftirfarandi ferli skýrir hvernig á að búa til birgðaspjald frá grunni. Einnig er hægt að búa til ný birgðaspjöld með því að afrita birgðaspjald sem þegar er til staðar. Frekari upplýsingar er að finna í [Afrita fyrirliggjandi vörur í Búa til nýjar vörur](inventory-how-copy-items.md).<br><br>  
+Eftirfarandi ferli skýrir hvernig á að búa til birgðaspjald frá grunni. Einnig er hægt að búa til ný birgðaspjöld með því að afrita birgðaspjald sem þegar er til staðar. Frekari upplýsingar er að finna í [Afrita fyrirliggjandi vörur í Búa til nýjar vörur](inventory-how-copy-items.md).  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>Að búa til nýtt vöruspjald
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Vörur** skal velja aðgerðina **Nýtt**.
 
@@ -56,12 +57,10 @@ Eftirfarandi ferli skýrir hvernig á að búa til birgðaspjald frá grunni. Ei
 
 Varan hefur nú verið skráð og birgðaspjaldið má nú nota í skjölum vegna kaupa og sölu.
 
-Ef nota á þetta birgðaspjald sem sniðmát þegar ný birgðaspjöld eru búin til, vistið það sem sniðmát. Nánari upplýsingar eru í eftirfarandi kafla.
+Ef nota á þetta birgðaspjald sem sniðmát þegar ný birgðaspjöld eru búin til, vistið það sem sniðmát. Nánari upplýsingar eru í eftirfarandi kafla.  
 
-### <a name="deleting-item-cards"></a>Eyða birgðaspjöldum
-Ef þú hefur bókað færslu fyrir vöru er ekki hægt að eyða spjaldinu þar sem hugsanlega þarf að nota fjárhagsfærslurnar birgðirverðmat eða endurskoðun. Til að eyða birgðaspjöldum með fjárhagsfærslum skaltu hafa samband við samstarfsaðila Microsoft til að gera það í gegnum kóða.
+### <a name="to-save-the-item-card-as-a-template"></a>Til að vista birgðaspjald sem sniðmát
 
-## <a name="to-save-the-item-card-as-a-template"></a>Til að vista birgðaspjald sem sniðmát
 1. Á síðunni **Birgðaspjald** skal velja aðgerðina **Vista sem sniðmát**. Síðan **Vörusniðmát** opnast og sýnir birgðaspjaldið sem sniðmát.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Til að endurnota víddir í sniðmátum, veljið aðgerðina **Víddir**. Síðan **Víddarsniðmát** opnast og sýnir alla víddarkóða sem settir eru upp fyrir vöruna.
@@ -70,22 +69,38 @@ Ef þú hefur bókað færslu fyrir vöru er ekki hægt að eyða spjaldinu þar
 
 Vörusniðmátinu verður bætt við lista vörusniðmáta þannig að hægt er að nota það til að búa til ný birgðaspjöld.
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>Margir lánardrottnar settir upp fyrir vörur  
+### <a name="items-used-in-production-orders"></a>Vörur notaðar í framleiðslupöntunum
+
+Ef skrá á vörur sem eru svo notaðar í framleiðslupöntunum er áfyllingarkerfið tilgreint sem *Framl. pöntun* á flipanum **Áfylling**. Frekari upplýsingar eru í [Um framleiðslupantanir](production-about-production-orders.md).  
+
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Margir lánardrottnar settir upp fyrir vörur
+
 Ef sama varan er keypt frá fleiri en einum lánardrottni þarf að færa inn upplýsingar um hvern lánardrottinn eins og verð, afhendingartími, afsláttur o.s.frv.  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
-2.  Velja skal viðeigandi vöru og síðan aðgerðina **Breyta**.  
-3.  Veljið **Lánardrottinn** aðgerðina.  
-4.  Velja reitinn **Nr. lánardrottins** og síðan velja þann lánardrottinn sem setja á upp fyrir vöruna.  
-5.  Einnig er hægt að fylla inn í þá reiti sem eftir eru.  
-6.  Endurtakið skref 2 til 5 fyrir hvern þann lánardrottinn sem þú vilt kaupa vöru af.
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
+2. Velja skal viðeigandi vöru og síðan aðgerðina **Breyta**.  
+3. Veljið **Lánardrottinn** aðgerðina.  
+4. Velja reitinn **Nr. lánardrottins** og síðan velja þann lánardrottinn sem setja á upp fyrir vöruna.  
+5. Einnig er hægt að fylla inn í þá reiti sem eftir eru.  
+6. Endurtakið skref 2 til 5 fyrir hvern þann lánardrottinn sem þú vilt kaupa vöru af.
 
 Lánardrottnarnir munu nú birtast á síðunni **Vörulisti lánardrottins**, sem þú opnar frá birgðaspjaldinu, þannig að þú getir auðveldlega valið annan lánardrottin.
 
+## <a name="categories-attributes-and-variants"></a>Flokkar, eigindir og afbrigði
+
+[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
+
+## <a name="deleting-item-cards"></a>Eyða birgðaspjöldum
+
+Ef þú hefur bókað færslu fyrir vöru er ekki hægt að eyða spjaldinu þar sem hugsanlega þarf að nota fjárhagsfærslurnar birgðirverðmat eða endurskoðun. Til að eyða birgðaspjöldum með fjárhagsfærslum skaltu hafa samband við samstarfsaðila Microsoft til að gera það í gegnum kóða.
+
 ## <a name="see-also"></a>Sjá einnig
+
 [Birgðir](inventory-manage-inventory.md)  
+[Setja upp mælieiningar](inventory-how-setup-units-of-measure.md)  
 [Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Stofnun númeraraða](ui-create-number-series.md)  
+[Uppsetning bókunarflokka](finance-posting-groups.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

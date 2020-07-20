@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/05/2020
 ms.author: sgroespe
-ms.openlocfilehash: 593fd5544f544b793b14fe14e4faf69f13d21ed6
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: 62bd4575c94f97fc363a73ad2fbfce0846c9146a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339947"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528614"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Breyta áætlunartillögum í myndrænu yfirliti
 
-Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður þær eru færðar inn með því að keyra aðgerðina **Framkvæma aðgerðarboð**. Í stað þess að gera þetta í áætlunarvinnublaðinu er notað myndrænt yfirlit. Þetta er hins vegar ekki stutt eins og er í [!INCLUDE [prodshort](includes/prodshort.md)].  
+Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður þær eru færðar inn með því að keyra aðgerðina **Framkvæma aðgerðarboð**. Í stað þess að gera þetta í áætlunarvinnublaðinu er notað myndrænt yfirlit. Þetta er hins vegar ekki stutt eins og er í [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 

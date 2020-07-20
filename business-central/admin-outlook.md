@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cad495da807695b99e6ca052031ccbbc330c1db5
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186900"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529264"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Notkun Business Central sem fyrirtækjainnhólf í Outlook
 
@@ -27,13 +27,13 @@ ms.locfileid: "3186900"
 Þegar þú opnar Outlook muntu sjá tölvupóst frá *Dynamics 365 Business Central-stjórnanda*. Nýju innbótunum er bætt við Outlook-borðann og í vafranum er hægt að sjá [!INCLUDE[prodshort](includes/prodshort.md)]-innbæturnar beint fyrir ofan eða neðan meginmál tölvupóstskeytisins. Innbæturnar eru uppfærðar reglulega og þú munt fá tilkynningu um að ný útgáfa sé tilbúin fyrir þig í Outlook.  
 
 > [!TIP]
-> Ef þú notar nýja Outlook á vefnum, geta [!INCLUDE [prodshort](includes/prodshort.md)]-innbæturnar verið faldar undir **Fleiri aðgerðir**. Ef þú notar innbótina oft er hægt að festa hana þannig að hún sjáist alltaf strax. Frekari upplýsingar eru í [Notkun innbóta í Outlook á vefnum](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16)  
+> Ef þú notar nýja Outlook á vefnum, geta [!INCLUDE[prodshort](includes/prodshort.md)]-innbæturnar verið faldar undir **Fleiri aðgerðir**. Ef þú notar innbótina oft er hægt að festa hana þannig að hún sjáist alltaf strax. Frekari upplýsingar eru í [Notkun innbóta í Outlook á vefnum](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16)  
 
-Ef þú vinnur með fleiri en eitt [!INCLUDE [prodshort](includes/prodshort.md)] fyrirtæki geturðu auðveldlega skipt á milli fyrirtækja í Outlook. Í aðgerðastiku viðbótarinnar  skaltu velja **Fleiri aðgerðir** og þá geturðu séð valkostinn til að skipta á milli fyrirtækja.  
+Ef þú vinnur með fleiri en eitt [!INCLUDE[prodshort](includes/prodshort.md)] fyrirtæki geturðu auðveldlega skipt á milli fyrirtækja í Outlook. Í aðgerðastiku viðbótarinnar  skaltu velja **Fleiri aðgerðir** og þá geturðu séð valkostinn til að skipta á milli fyrirtækja.  
 
 <!--TEMP-->
 > [!NOTE]
-> Ef skipt er á milli fyrirtækja þarf [!INCLUDE [prodshort](includes/prodshort.md)] 2019 útgáfutímabil 2 eða nýrri að vera í [útgáfuáætluninni](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> Ef skipt er á milli fyrirtækja þarf [!INCLUDE[prodshort](includes/prodshort.md)] 2019 útgáfutímabil 2 eða nýrri að vera í [útgáfuáætluninni](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Sum fyrirtæki sem nota Office 365 takmarka heimildir notenda til að taka í notkun innbætur. Því þarf að ganga úr skugga um að þú hafir Office 365 áskrift sem felur í sér tölvupóst og gerir það mögulegt að nota innbætur. Ef þú samt prófa innbæturnar geturðu [prófað Office 365 endurgjaldslaust](https://products.office.com/try).  
 
@@ -68,7 +68,7 @@ Til dæmis, ef þú færð tölvupóstskeyti sem nefnir textann *S-QUO100*, skil
 
 ## <a name="using-other-email-accounts"></a>Notkun annarra tölvupóstreikninga
 
-Viðbæturnar eru ætlaðar til notkunar með Office 365. Ef þú notar [!INCLUDE [prodshort](includes/prodshort.md)] á staðnum veit stjórnandinn þinn hvort þú getir notað [!INCLUDE [prodshort](includes/prodshort.md)]-innbæturnar í Outlook. Nánari upplýsingar er að finna í [Hvaða netfang get ég notað með [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) og [Eiginleikar sem krefjast ákveðinna aðstæðna](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+Viðbæturnar eru ætlaðar til notkunar með Office 365. Ef þú notar [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum veit stjórnandinn þinn hvort þú getir notað [!INCLUDE[prodshort](includes/prodshort.md)]-innbæturnar í Outlook. Nánari upplýsingar er að finna í [Hvaða netfang get ég notað með [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) og [Eiginleikar sem krefjast ákveðinna aðstæðna](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

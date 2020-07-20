@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 950e471b635c6b188ef6bc0e0a08331df47c86bf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 65ae47563a55e94a726a2608c71718beedba2ceb
+ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193300"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535366"
 ---
 # <a name="ship-items"></a>Senda vörur
+
 Þegar vörur eru afhentar út frá vöruhús sem er ekki sett upp fyrir vinnslu vöruhúsaafhendingu, þarf einfaldlega að skrá afhendinguna á viðeigandi viðskiptaskjal, eins og t.d. sölupöntun, þjónustupöntun, vöruskilapöntun innkaupa, eða millifærslupöntun á útleið.
 
 Þegar þú afhendir vörur frá vöruhúsi sem er sett upp fyrir vinnslu vöruhúsaafhendingu, er hægt að afhenda vörur aðeins á grunni upprunaskjala sem aðrar fyrirtækiseiningar hafa gefið út á vöruhúsið til aðgerðar.
@@ -26,29 +27,37 @@ ms.locfileid: "3193300"
 > Ef vöruhúsið notar hjáskipun og hólf fyrir hverja línu er hægt að skoða magn vara sem hafa verið settar í hjáskipunarhólf. Forritið reiknar þetta magn sjálfkrafa í hvert sinn sem reitirnir í afhendingunni eru uppfærðir. Ef þær vörur tengjast afhendingunni sem verið er að undirbúa er hægt að stofna tínslu fyrir allar línurnar og ljúka síðan afhendingunni. Frekari upplýsingar eru í [Hjáskipunarvörur](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Afhenda vörur með sölupöntun
-Eftirfarandi lýsir því hvernig skal taka á móti vörum með innkaupapöntun. Skrefin eru svipuð fyrir Vöruskilapöntun innkaupa, þjónustupantanir og millifærslupantanir á útleið.  
+
+Eftirfarandi lýsir því hvernig skal afgreiða vörur í sölupöntun. Skrefin eru svipuð fyrir Vöruskilapöntun innkaupa, þjónustupantanir og millifærslupantanir á útleið.  
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.
 2. Opna sölupöntun sem þegar er til eða stofna nýja. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
-3. Í reitnum **Magn til afhendingar** er fært inn magnið sem hefur verið móttekið.
+3. Í reitnum **Magn til afhendingar** er fært inn magnið sem hefur verið afhent.
 
     Gildið í reitnum **Afhent magn** er uppfært. Ef um er að ræða afhendingu að hluta, getur þetta magn verið lægra en gildið í svæðinu **Magn**.
 4. Valið er **Bóka** aðgerðin.
 
+> [!NOTE]
+> Ef fyrirtækið notar ekki sölupantanir gerir [!INCLUDE [prodshort](includes/prodshort.md)] ráð fyrir að allt magn hafi verið sent þegar sölureikningurinn er bókaður. Ef þessi brýtur í bága við það hvernig fyrirtækið virkar er mælt með notkun sölupantana og skráningu sendinga eins og útskýrt er í þessari grein.
+
 ## <a name="to-ship-items-with-a-warehouse-shipment"></a>Afhenda vörur með vöruhúsaafhendingu
+
 Fyrst er stofnað afhendingarskjal frá viðskiptaupprunaskjali. Síðan er tilgreindar vörur teknar til fyrir afhendinguna.
 
 ### <a name="to-create-a-warehouse-shipment"></a>Stofna vöruhúsaafhendingu
-Vanalega stofnar starfsmaður sem er ábyrgur fyrir afhendingu vöruhúsaafhendingu.
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsaafhendingar** og veldu síðan tengda tengilinn.  
-2.  Valið er **Nýtt** aðgerð.  
+
+Vanalega stofnar starfsmaðurinn sem er ábyrgur fyrir afhendingu vöruhúsaafhendingu. Eftirfarandi ferli lýsir því hvernig á að stofna sendinguna handvirkt í sjálfgefinni útgáfu af [!INCLUDE[prodshort](includes/prodshort.md)], en fyrirtækið gæti verið með sjálfvirkan hluta ferlisins, svo sem notkun handskanna eða áfestra skanna sem eru studdir af ytri veitum.  
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsaafhendingar** og veldu síðan tengda tengilinn.  
+2. Valið er **Nýtt** aðgerð.  
 
     Fyllt er út í reitina á flýtiflipanum **Almennt**. Þegar upprunaskjalalínur eru sóttar er eitthvað af upplýsingunum afritað í hverja línu.  
 
     Fyrir grunngerð vöruhúss með beinan frágangur og tínsla ef birgðageymslan er með sjálfgefið svæði og hólf fyrir afhendingu eru reitirnir **Svæðiskóði** og **Hólfakóði** fylltir út sjálfkrafa en hægt er að breyta þeim eftir þörfum.  
 
     > [!NOTE]  
-    >  Ef afhenda á vörur með öðrum vöruhúsaflokkskótum en flokkskóta hólfsins í reitnum **Hólfkóti** í fylgiskjalshausnum verður að eyða innihaldi reitsins **Hólfkóti** í hausnum áður en upprunaskjalslínurnar eru sóttar fyrir vörurnar.  
-3.  Valið er **Sækja upprunaskjöl** aðgerð. Síðan **Upprunaskjöl** opnast.
+    > Ef afhenda á vörur með öðrum vöruhúsaflokkskótum en flokkskóta hólfsins í reitnum **Hólfkóti** í fylgiskjalshausnum verður að eyða innihaldi reitsins **Hólfkóti** í hausnum áður en upprunaskjalslínurnar eru sóttar fyrir vörurnar.  
+3. Valið er **Sækja upprunaskjöl** aðgerð. Síðan **Upprunaskjöl** opnast.
 
     Í nýrri eða opinni vöruhúsaafhendingu er hægt að nota síðuna **Afmörkun til að sækja upprunaskjal** til að sækja þær línur útgefna upprunaskjalsins sem segja til um hvaða vörur á að afhenda.
 
@@ -61,17 +70,19 @@ Vanalega stofnar starfsmaður sem er ábyrgur fyrir afhendingu vöruhúsaafhendi
 
     Skilgreindar afmörkunarsamsetningar eru vistaðar á síðunni **Afmarkanir til að sækja upprunaskjöl** þar til þeirra er næst þörf. Hægt er að búa til ótakmarkaðan fjölda af afmörkunarsamsetningum. Hægt er að breyta skilyrði hvenær sem er með því að smella á **Breyta** aðgerðina.
 
-4.  Valin eru þau upprunaskjöl sem afhenda á vörur fyrir og smellt á **Í lagi** hnappinn.  
+4. Valin eru þau upprunaskjöl sem afhenda á vörur fyrir og smellt á **Í lagi** hnappinn.  
 
 Línurnar úr upprunaskjölunum birtast á síðunni **Vöruhúsaafhending**. Reiturinn **Magn til afhendingar** hefur verið fylltur út með eftirstöðvum hverrar línu en hægt er að breyta magninu eftir þörfum. Ef gildinu í reitnum  **Hólfkóti** er eytt á flýtiflipanum **Almennt** áður en línurnar eru sóttar þarf að færa inn viðkomandi hólfkóta í hverri afhendingarlínu.  
 
 > [!NOTE]  
->  Ekki er hægt að afhenda fleiri vörur en talan í reitnum **Magn eftirstöðva** á upprunaskjalslínunni segir til um. Til að afhenda fleiri vörur skal sækja annað upprunaskjal sem inniheldur línu fyrir vöruna með því að nota afmörkun til að sækja upprunaskjöl með vörunni.  
+> Ekki er hægt að afhenda fleiri vörur en talan í reitnum **Magn eftirstöðva** á upprunaskjalslínunni segir til um. Til að afhenda fleiri vörur skal sækja annað upprunaskjal sem inniheldur línu fyrir vöruna með því að nota afmörkun til að sækja upprunaskjöl með vörunni.  
 
 Þegar línurnar sem á að senda eru komnar er hægt að hefja ferlið sem sendir línurnar til starfsmanna vöruhússins til tínslu.
 
 ### <a name="to-pick-and-ship"></a>Tínt og sent:
-Vanalega stofnar starfsmaður vöruhússins, sem ber ábyrgð á tínslu, tínsluskjal eða opnar eitt slíkt sem þegar er til.
+
+Vanalega stofnar starfsmaður vöruhússins, sem ber ábyrgð á tínslu, tínsluskjal eða opnar eitt slíkt sem þegar er til.  
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsaafhendingar** og veldu síðan tengda tengilinn.
 2. Valin er Vöruhúsaafhending sem á að Tína fyrir og veldu síðan aðgerðina **Stofna tínslu**.
 3. Fylla inn í reitina á beiðnisíðunni og velja svo hnappinn **Í lagi**. Fylgiskjal Birgðatínslu vöruhúss er stofnað.
@@ -96,10 +107,11 @@ Einnig er hægt að nota tínsluvinnublaðið til að sameina nokkrar tínslulei
 > [!NOTE]
 > Ef verið er að bíða eftir tilteknum vörum í vöruhúsinu, og hjáskipunarvirkni er notuð reiknar [!INCLUDE[d365fin](includes/d365fin_md.md)] í hverri afhendingar- eða tínslublaðslínu magnið af vörunni sem er í hjáskipunarhólfinu. Það uppfærir þennan reit í hvert skipti sem farið er úr afhendingarskjali eða vinnublaði eða þau opnuð. Frekari upplýsingar eru í [Hjáskipunarvörur](warehouse-how-to-cross-dock-items.md).
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
-[Samsetningardeild](assembly-assemble-items.md)    
+[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
+[Samsetningardeild](assembly-assemble-items.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

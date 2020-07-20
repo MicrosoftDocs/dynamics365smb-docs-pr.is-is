@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6db170f8cf0b214a4ec85fc835eb8b98f071f203
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 201716238ddd42ac19cd769a8635d726e27e1509
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187714"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528814"
 ---
 # <a name="auditing-changes-in-business-central"></a>Endurskoðunarbreytingar í Business Central
 
@@ -40,7 +40,7 @@ Síðan **Uppsetning breytingaskrár** er notaður til að gera breytingaskráni
 
 ## <a name="working-with-activity-logs"></a>Vinna með aðgerðakladda
 
-Á sumum síðum í [!INCLUDE [prodshort](includes/prodshort.md)] er hægt að skoða aðgerðarkladda sem sýnir stöðu og allar villur úr skrám sem þú flytur út úr eða flytur inn í [!INCLUDE [prodshort](includes/prodshort.md)].  
+Á sumum síðum í [!INCLUDE[prodshort](includes/prodshort.md)] er hægt að skoða aðgerðarkladda sem sýnir stöðu og allar villur úr skrám sem þú flytur út úr eða flytur inn í [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Upplýsingarnar eru birtar á síðunni **aðgerðarkladdi** í samræmi við samhengið sem þær eru opnaðar úr. Hægt er að opna gluggann **skjalaskiptaþjónusta**, **skjal á innleið**, **bókaðan sölureikning** og **bókaðan sölukreditreikning** síður, til dæmis. Hægt er að tæma listann yfir kladdafærslur eða hreinsa lista yfir færslur sem eru eldri en 7 daga.  
 

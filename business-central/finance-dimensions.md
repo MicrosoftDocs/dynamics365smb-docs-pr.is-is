@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: 2d5285fdfbe8c1a07a766a3fbbe268a4ecbfef0a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262167"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528889"
 ---
 # <a name="working-with-dimensions"></a>Unnið með víddir
 Til að auðvelda greiningu á skjölum, svo sem sölupöntum, geturðu notað stærðir. Víddir eru eiginleikar og gildi sem flokkar færslur svo þú getir fylgst með og greina þær. Til dæmis má vísa til verkefnisins eða deildarinnar sem innganga kom frá.  
@@ -113,7 +113,7 @@ Hægt er að nota altækar víddir og flýtivísanir í víddir sem síu hvar se
 > Þegar þú bætir við eða breytir altækri vídd eða flýtivídd ertu sjálfkrafa skráður út og aftur inn svo nýja gildið er undirbúið til notkunar alls staðar í forritinu.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.
-2. Í flýtiflipanum **Víddir** skal fylla út reitina. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Í flýtiflipanum **Víddir** skal fylla út reitina. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Að breyta altækum víddum
 Breyting á altækri vídd eða flýtivídd uppfærir allar færslur sem bókaðar eru með vídd. Þar sem þetta ferli kann að vera tímafrekt og getur haft áhrif á afköst eru tvær mismunandi stillingar til staðar til að aðlaga ferlið að stærð gagnagrunnsins.  

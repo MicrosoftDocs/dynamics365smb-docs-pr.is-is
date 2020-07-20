@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186093"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496826"
 ---
 #  <a name="create-analysis-reports"></a>Stofna greiningarskýrslur
 Sölustjórar þurfa að greina veltu, brúttóhagnað og aðrar lykilstærðir varðandi sölu með reglulegu millibili. Innkaupaaðilar hafa meiri áhuga á að greina innkaupamagn, fylgjast með frammistöðu birgja og innkaupaverði. Vöru- og birgðastjórar þurfa hins vegar upplýsingar um birgðaveltu, greiningu á hreyfingu birgða og upplýsingar um birgðavirði.  
@@ -41,9 +41,9 @@ Síðan er hægt að setja upp dálka eins og þessa:
 - Sala síðasta mánaðar í prósentum  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Uppsetning á útliti lína og dálka  
- Á síðunni **Greiningarskýrsla** er hægt að skoða mismunandi útlit lína og dálka eftir því hvernig uppsetningin er. Línur eða línusniðmát eru sett upp á síðunni **Greiningarlínusniðmát**. Á þessari síðu er hægt að skilgreina heiti skýrslunnar og hlutanna sem á að sýna í línum hennar. Dálkarnir eru settir upp á síðunni **Greiningardálkssniðmát**. Á þessari síðu er hægt að tilgreina heiti dálkssniðmátsins og greiningarfæribreytanna sem á að sýna í skýrslunni sem dálka. Á síðunni **Greiningardálkssniðmát** sýnir hver lína dálk í skýrslunni. Athuga skal að greiningarlínur og greiningardálkar eru óháð hvort öðru.  
+ Á siðunni **Greiningarskýrsla** er hægt að skoða mismunandi línu- og dálkaútlit í samræmi við línurnar eða línusniðmátin sem eru sett upp á síðunni **Greiningarlínusniðmát**. Hægt er að skilgreina heiti skýrslunnar og hlutanna sem á að sýna í línum hennar. Dálkarnir eru settir upp á síðunni **Greiningardálkssniðmát**. Hægt er að tilgreina heiti dálkssniðmátsins og greiningarfæribreytanna sem á að sýna í skýrslunni sem dálka. Á síðunni **Greiningardálkssniðmát** sýnir hver lína dálk í skýrslunni. Athuga skal að greiningarlínur og greiningardálkar eru óháð hvort öðru.  
 
-Það fer eftir línunum og dálkunum sem hafa verið sett upp, en forritið dregur saman niðurstöðu skýrslunnar á síðunni **Greiningarskýrsla** með eftirfarandi birtingu:  
+Það fer eftir línunum og dálkunum sem hafa verið sett upp, mun [!INCLUDE[d365fin](includes/d365fin_md.md)] draga saman niðurstöðu skýrslunnar á síðunni **Greiningarskýrsla** eins og sýnt er í eftirfarandi töflu.  
 
 | |Sala gildandi mánaðar|Sala síðasta mánaðar|Sala síðasta mánaðar í %|  
 |-|-|-|-|  

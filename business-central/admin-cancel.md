@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f48f5785ffc62b124b26764da5e86838c1e01dfa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187437"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528413"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>Segja upp áskrift að eða fjarlægja [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -31,7 +31,7 @@ Ef þú skráðir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] án þe
 
 ## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Ljúka áskrift með því að fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] úr Office 365 upplifun þinni
 
-Ef fyrirtækið þitt gerist áskrifandi að [!INCLUDE [prodshort](includes/prodshort.md)] en þú sem notandi vilt ekki lengur hafa aðgang þarftu að biðja kerfisstjóra eða Dynamics 365 endursöluaðila um að fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] leyfið af Office 365 notandareikningnum þínum. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] er fjarlægt úr notandareikningnum þínum og fyrirtæki þitt heldur áfram áskriftinni munu samstarfsaðilar þínir enn hafa aðgang að sameiginlegum gögnum í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrirtækinu.  
+Ef fyrirtækið þitt gerist áskrifandi að [!INCLUDE[prodshort](includes/prodshort.md)] en þú sem notandi vilt ekki lengur hafa aðgang þarftu að biðja kerfisstjóra eða Dynamics 365 endursöluaðila um að fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] leyfið af Office 365 notandareikningnum þínum. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] er fjarlægt úr notandareikningnum þínum og fyrirtæki þitt heldur áfram áskriftinni munu samstarfsaðilar þínir enn hafa aðgang að sameiginlegum gögnum í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrirtækinu.  
 
 Ef fyrirtækið þitt vill hætta í áskrift af [!INCLUDE[d365fin](includes/d365fin_md.md)], getur Dynamics 365 endursöluaðilinn fjarlægt áskriftina af reikningi fyrirtækisins. Frekari upplýsingar er að finna í [Stjórnun Business Central á netinu](/dynamics365/business-central/dev-itpro/administration/tenant-administration) í Developer og IT-pro efni.  
 

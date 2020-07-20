@@ -1,7 +1,7 @@
 ---
 title: Hönnunarupplýsingar - Aðferð kostnaðarútreiknings | Microsoft Docs
-description: Það veltur á aðferð við kostnaðarútreikning hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikning. Kostnaðaraðferðin hefur líka áhrif á það hvernig kostnaðarflæðið er skráð, ásamt bókunardagsetningu og lotu.
-author: SorenGP
+description: Í þessu efnisatriði er því lýst hvernig aðferð við kostnaðarútreikning hefur áhrif á það hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikning.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 66ae7f2bb4c8a8cc6705be9c4b0fdd183eecd3e9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: 8333e3127a009a04d63fceb8ec17530f83de10d0
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185589"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496676"
 ---
 # <a name="design-details-costing-methods"></a>Hönnunarupplýsingar: Aðferð kostn.útreiknings
 Það veltur á aðferð við kostnaðarútreikning hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikning. Kostnaðaraðferðin hefur líka áhrif á það hvernig kostnaðarflæðið er skráð, ásamt bókunardagsetningu og lotu.

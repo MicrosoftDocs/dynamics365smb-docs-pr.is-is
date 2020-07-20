@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2020
+ms.date: 07/03/2020
 ms.author: solsen
-ms.openlocfilehash: 59b659ca458e6cfe7c13ef5094dbbf80a144c369
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d85ec46d5514c91e9a6b1403b5f90a7094d9deba
+ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188565"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535435"
 ---
-# <a name="creating-a-sandbox-environment-in-prodshort"></a>Búa til sandkassaumhverfi í [!INCLUDE [prodshort](includes/prodshort.md)]
+# <a name="creating-a-sandbox-environment-in-prodshort"></a>Búa til sandkassaumhverfi í [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Með [!INCLUDE [prodshort](includes/prodshort.md)] geturðu auðveldlega búið til öruggt hverfi þar sem hægt er að prófa, þjálfa eða leysa úr málum án þess að það trufli verkferla eða viðskiptagögn fyrirtækisins. Slíkt umhverfi sem ekki er hægt að framleiða í er kallað *sandkassi*. Sandkassaumhverfi er staðurinn, ótengdur framleiðslu, þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa þjónustuna í öruggu umhverfi án þess að eiga á hættu að hafa áhrif á gögnin eða stillingarnar í framleiðsluumhverfi þínu.  
+Með [!INCLUDE[prodshort](includes/prodshort.md)] geturðu auðveldlega búið til öruggt hverfi þar sem hægt er að prófa, þjálfa eða leysa úr málum án þess að það trufli verkferla eða viðskiptagögn fyrirtækisins. Slíkt umhverfi sem ekki er hægt að framleiða í er kallað *sandkassi*. Sandkassaumhverfi er staðurinn, ótengdur framleiðslu, þar sem hægt er að kanna, læra, búa til sýni, þróa og prófa þjónustuna í öruggu umhverfi án þess að eiga á hættu að hafa áhrif á gögnin eða stillingarnar í framleiðsluumhverfi þínu.  
 
-Kerfisstjórinn þinn getur búið til sandkassaumhverfi í [Stjórnandamiðstöð](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), en ef þú vilt prófa eitthvað á fljótlegan hátt geturðu búið til sandkassaumhverfi úr [!INCLUDE [prodshort](includes/prodshort.md)].  
+Kerfisstjórinn þinn getur búið til sandkassaumhverfi í [Stjórnandamiðstöð](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), en ef þú vilt prófa eitthvað á fljótlegan hátt geturðu búið til sandkassaumhverfi úr [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 > [!NOTE]
 > Tæknilega séð eru sandkassaumhverfi mjög frábrugðin framleiðsluumhverfi, jafnvel þótt stjórnandi búi til sandkassa sem inniheldur framleiðslugögn. Til dæmis er ekki hægt að nota sandkassa fyrir viðmið og ekki er hægt að biðja um útflutning á gagnagrunni. Ef þú vilt búa til sandkassa sem viðmið getur stjórnandi þinn búið til sérhæft framleiðsluumhverfi í stjórnunarmiðstöðinni. Frekari upplýsingar er að finna á [Gerðir umhverfis](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
 
-## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Til að búa til sandkassaumhverfi í [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Til að búa til sandkassaumhverfi í [!INCLUDE[prodshort](includes/prodshort.md)]
 
 1. Skráðu þig inn í þitt framleiðslutilvik af [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -67,22 +67,31 @@ Stjórnandi eða annar notandi getur að takmarkað eða jafnvel hindrað aðgan
 
 Sandkassaumhverfið er ekki síst gagnlegt vegna þess að það felur í sér nokkra handhægan eiginleika.
 
+### <a name="to-enable-the-advanced-user-experience"></a>Gera ítarlega notandaupplifun virka
+
+Mögulegt er að virkja og prófa fulla virkni af staðalútgáfu [!INCLUDE[d365fin](includes/d365fin_md.md)] í sandkassa leigjanda með því að stilla svæðið **Upplifun** á síðunni **Upplýsingar um fyrirtæki** á *Premium*. Leitaðu að síðunni **Upplýsingar um fyrirtæki** á valmynd :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Stillingartáknsins":::.  
+
+Eftir að þú hefur opnað fyrir notendaupplifunina *Premium*, færðu aðgang að öllum stöðluðu forstillingunum (hlutverkum) og Mitt hlutverk í stöðluðu útgáfunni. Einnig er hægt að stofna matsfyrirtæki sem er að fullu uppsett, með sýnigögnum og aðgangi að ítarlegri svæðum vörunnar. Að öðrum kosti er hægt að hafa samskipti við endursöluaðila til að fá sýniútgáfu af þeim eiginleikum. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
+
+### <a name="to-enable-complete-sample-data"></a>Til að virkja fullbúin sýnigögn
+
+Í sandkassaumhverfi getur þú einnig stofnað nýtt fyrirtæki með valkostinum **Ítarlegt mat - Heildarsýnigögn** til að hægt sé að fá þjálfun eða fara í gegnum kynningar sem krefjast viðbótarsýnigagna, svo sem [Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
+
+#### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Til að stofna fyrirtæki með fullkláruð sýnigögn í sandkassa
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fyrirtæki** og veldu síðan tengda tengilinn.  
+2. Veldu aðgerðina **Nýtt** og síðan **Stofna nýtt fyrirtæki**.  
+3. Á síðunni **Uppsetningarleiðbeiningar fyrir fyrirtæki** skaltu smella á **Áfram**.  
+4. Tilgreinið heiti fyrir nýja fyrirtækið og síðan á svæðinu **Veldu gögn og uppsetningu til að hefjast handa** veljið **Ítarlegt mat - Heildarsýnigögn**.  
+5. Ljúkið við leiðbeiningar um uppsetningu með hjálp.  
+
+Þegar leiðbeiningum um uppsetningu með hjálp er lokið er hægt að fletta í gegnum nýja fyrirtækið með öllum sýnigögnunum. Nánari upplýsingar eru í [Stofna ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).  
+
 ### <a name="designer"></a>Hönnuður
 
 Í sandkassaumhverfi er kveikt á **Hönnuður**. Hægt er að virkja Hönnuð með því að velja hönnunartáknið ![Hönnuður](./media/across-sandbox/sandbox-inclient-design-icon.png) á síðu eða með því að velja **Hanna** valmyndaratriðið í stillingavalmyndinni ![Stillingar](media/ui-experience/settings_icon_small.png).
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
-
-### <a name="to-enable-the-advanced-user-experience"></a>Gera ítarlega notandaupplifun virka
-Mögulegt er að opna fyrir og prófa fulla virkni af staðalútgáfu [!INCLUDE[d365fin](includes/d365fin_md.md)] í sandkassa leigjanda með því að stilla **Upplifun** reitinn á **Upplýsingar um fyrirtæki** síðunni.
-
-<!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->
-
-<!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
-
-Eftir að þú hefur opnað fyrir notendaupplifunina *Premium*, færðu aðgang að öllum stöðluðu forstillingunum (hlutverkum) og Mitt hlutverk í stöðluðu útgáfunni. Einnig er hægt að stofna matsfyrirtæki sem er að fullu uppsett, með sýnigögnum og aðgangi að ítarlegri svæðum vörunnar. Að öðrum kosti er hægt að hafa samskipti við endursöluaðila til að fá sýniútgáfu af þeim eiginleikum. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
-
-<!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 
 ## <a name="see-also"></a>Sjá einnig
 

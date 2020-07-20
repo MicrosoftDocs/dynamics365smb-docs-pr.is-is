@@ -7,16 +7,16 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d759db09e7e3835a07b9e9138f31da48adc8851
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 496c6bad5e309064ae2d6e7d15591578b1d46c6a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190108"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528764"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Nýjungar í Dynamics 365 Business Central
 
-[!include [release notes](includes/release-notes.md)]
+[!INCLUDE[release notes](includes/release-notes.md)]
 
 Þú getur alltaf skoðað útgáfuáætlunina til að fá yfirlit yfir nýja væntanlega virkni. Hér í skjölunum geturðu síðan fundið efnisatriðin sem geta hjálpað þér að fræðast um nýja og núverandi eiginleika í [!INCLUDE[prodlong](includes/prodlong.md)].  
 
@@ -30,7 +30,7 @@ Til að sjá allar viðbætur sem [!INCLUDE[d365fin](includes/d365fin_md.md)] sa
 
 Við ræðum um nýja möguleika á [bloggsvæði Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/), þ.á.m. hvenær þeir eru gerðir aðgengilegir og hvort huga þurfi að einhverju.  
 
-Fyrir samfélag samstarfsaðila birtum við upplýsingar um [Microsoft Dynamics 365 Business Central á bloggsíðu Dynamics 365 fyrir samstarfsaðila](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og í [Þróunaraðili og IT-pro aðstoð fyrir [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
+Fyrir samfélag samstarfsaðila birtum við upplýsingar um [Microsoft Dynamics 365 Business Central á bloggsíðu Dynamics 365 fyrir samstarfsaðila](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og í [Þróunaraðili og IT-pro aðstoð fyrir [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
 
 ## <a name="see-also"></a>Sjá einnig
 

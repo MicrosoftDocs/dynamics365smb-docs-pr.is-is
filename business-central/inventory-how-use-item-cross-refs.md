@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 89a99080723ee57270583ee2f277250d767b8dde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1b914c3c1c5e640894f1ee48639c547421c27be4
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181941"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484035"
 ---
 # <a name="use-item-cross-references"></a>Nota millivísanir vöru
 Ef sett er upp millivísun milli vörulýsingar sem er notuð fyrir vöru og lýsingu sem lánardrottinn þessarar vöru notar, þá er vörulýsing lánardrottins sjálfkrafa færð inn fyrir innkaupaskjöl lánardrottins þegar **Millivísunarnr.** er fyllt út. . Sama virknin gildir um númer viðskiptavina í söluskjölum.
@@ -25,12 +25,17 @@ Ef sett er upp millivísun milli vörulýsingar sem er notuð fyrir vöru og lý
 Eftirfarandi ferli sýna hvernig á að nota millivísanir vöru innkaupamegin. Skrefin eru svipuð sölumegin.
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Að setja upp millivísun vöru í vörulýsingu lánardrottins
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Opnaðu spjaldið fyrir vöru þar sem á að búa til millivísun á vörulýsingu sem lánardrottinn notar fyrir þessa vöru.
 3. Veldu aðgerðina **Millivísanir**.
+
+     Ef ekki er hægt að finna aðgerðina **Millivísanir** skal velja til að skoða fleiri valkosti og finna þær undir **skoða** **Virkni**.
+  
 4. Í nýrri línu á síðunni **Færslur fyrir millivísun vöru** skal fylla í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 ## <a name="to-enter-a-vendors-item-description-on-a-purchase-order"></a>Að færa vörulýsingu lánardrottins inn á innkaupapöntun
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.
 2. Stofnaðu innkaupapöntun fyrir lánardrottin sem þú setur upp millivísun vöru fyrir í ferlinu hér á undan.
 3. Stofnaðu innkaupalínu fyrir vöruna sem þú setur upp millivísun vöru fyrir í ferlinu hér á undan.

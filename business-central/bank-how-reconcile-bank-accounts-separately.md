@@ -1,8 +1,6 @@
 ---
 title: Afstemma bankareikninga | Microsoft Docs
 description: Lýsir því hvernig birgðavirði er stemmt af við fjárhaginn.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: e53c1f7b0b2af4a94579863197ec7348c9b6ff18
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4ccd976829fe1d6e3221964cf9ff97aff1d2c19d
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186309"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484085"
 ---
 # <a name="reconcile-bank-accounts"></a>Afstemma bankareikninga
+
 Bankaafstemming er framkvæmd til að ganga úr skugga um að ýmsar viðskiptafærslur og útgjöld endurspeglist rétt í bókum fyrirtækisins. Þetta er gert með því að bera saman og jafna færslur á innri bankareikningum við bankafærslur í bankanum þínum og síðan bóka stöðurnar á innri bankareikningana svo að samtölur verði í boði fyrir fjármálastjóra. Bankaafstemming er einnig hagkvæm leið til að uppgötva og leysa úr greiðslum sem vantar upp á og bókhaldsvillum.
 
 Eftirfarandi lýsir því hvernig á að framkvæma bankaafstemmingu með síðunni **Afstemming bankareiknings**.
@@ -28,7 +27,7 @@ Eftirfarandi lýsir því hvernig á að framkvæma bankaafstemmingu með síðu
 > Einnig er hægt að stemma af bankareikninga á síðunni **Greiðsluafstemmingarbók** í tengslum við greiðsluvinnslu. Allar opnar fjárhagsfærslur bankareiknings sem tengjast jöfnuðum fjárhagsfærslum viðskiptavinar eða lánardrottins verða lokaðar þegar þú velur **Bóka Greiðslur og stemma Af Bankareikninga** aðgerð. Þetta þýðir að bankareikningurinn er sjálvirkt stemmdur af fyrir greiðslur sem bókaðar eru með færslubókinni. Nánari upplýsingar er að finna í [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]  
-> Í norður-amerískum útgáfum getur þú einnig unnið þetta á síðunni **Vinnublað bankaafstemmingar** sem hentar betur fyrir ávísanir og innborganir en býður ekki upp á innflutning á bankayfirlitsskrám. Til að nota þennan glugga í staðinn fyrir gluggann **Afstemming bankareikninga** skaltu afvelja reitinn **Bankareikn.afstemming með sjálfvirkri jöfnun** á síðunni **Fjárhagsgrunnur**. Frekari upplýsingar er hægt að finna í hlutanum „Afstemma bankareikninga“ sem heyrir undir staðbundnar aðgerðir Bandaríkjanna.
+> Í norður-amerískum útgáfum getur þú einnig unnið þetta á síðunni **Vinnublað bankaafstemmingar** sem hentar betur fyrir ávísanir og innborganir en býður ekki upp á innflutning á bankayfirlitsskrám. Til að nota þennan glugga í staðinn fyrir gluggann **Afstemming bankareikninga** skaltu afvelja reitinn **Bankareikn.afstemming með sjálfvirkri jöfnun** á síðunni **Fjárhagsgrunnur**. Frekari upplýsingar er hægt að finna í [Afstemma bankareikninga](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) sem heyrir undir staðbundnar aðgerðir Bandaríkjanna.
 
 Línur síðunnar **Afstemming bankareiknings** skiptast í tvö svæði. **BankaYfirlitslínur** svæðinu sýnir annað hvort innfluttra bankafærslur eða fjárhagsfærslur með útistandandi greiðslur. **Bankareikningsfærslur** svæðið sýnir fjárhagsfærslur á innri bankareikning.
 
@@ -55,6 +54,7 @@ Hægt er að fylla á **Bankayfirlitslínur** svæðið á síðunni **afstemmin
 * Handvirkt, með því að nota **Leggja til línur** aðgerðina til að fylla í svæðið **Bankayfirlitslínur** samkvæmt reikningum í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem eru með útistandandi greiðslur.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Fylla inn í línur bankaafstemmingar með því að flytja inn bankayfirlit.
+
 Svæðið **Bankayfirlitslínur** verður fylllt út með bankafærslum í samræmi við innflutta skrá eða streymi sem bankinn lætur í té.
 
 Til að virkja innflutning bankayfirlits, verður þú að setja upp og virkja Envestnet Yodlee Bank Feed þjónustu og tengja síðan bankareikningana við viðkomandi netbankareikninga. Frekari upplýsingar eru í [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md).
@@ -68,7 +68,9 @@ Til að virkja innflutning bankayfirlits, verður þú að setja upp og virkja E
 7. Staðsetja skal skrána og velja svo hnappinn **Opna** til að flytja inn bankafærslurnar á línurnar á svæðinu **Bankayfirlitslínur** á síðunni **Afstemming bankareiknings**.
 
 ## <a name="to-fill-bank-reconciliation-lines-with-the-suggest-lines-function"></a>að fylla út línur í bankaafstemmingu með aðgerðin Tillögulínur
+
 Svæðið **Bankayfirlitslínur** verður fyllt út samkvæmt reikningum í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem eru með útistandandi greiðslur.  
+
 1. Á síðunni **Afstemming bankareiknings** er valið á **Tillögulínur** aðgerð.
 2. Í reitinn **Upphafsdagsetning** er færð inn fyrsta bókunardagsetning fyrir fjárhagsfærslurnar sem á að stemma af.
 3. Í reitinn **lokadagsetning** er færð inn bókunardagsetning fyrir fjárhagsfærslurnar sem á að stemma af.
@@ -76,6 +78,7 @@ Svæðið **Bankayfirlitslínur** verður fyllt út samkvæmt reikningum í [!IN
 5. Velja hnappinn **Í lagi**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>að jafna sjálfkrafa bankayfirlitslínur og bankareikningsfærslur
+
 Síðan **Afstemming bankareiknings** býður upp á sjálfvirkar samsvörunaraðgerðir sem byggja á samsvörun texta í bankayfirlitslínu (vinstri rúðunni) við texta í einni eða fleiri fjárhagsfærslum bankareiknings (hægri rúðunni). Athugaðu að þú getur skrifað yfir ráðlagðar sjálfvirkar jafnanir og þú getur valið að nota ekki sjálfvirkar jafnanir yfirhöfuð. Frekari upplýsingar er að finna í [Að jafna handvirkt bankayfirlitslínur við bankareikningsfærslur](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
 1. Á síðunni **Afstemming bankareiknings** er valið **jafna sjálfkrafa**. Síðan **Jafna bankafærslur** opnast.
@@ -88,6 +91,7 @@ Síðan **Afstemming bankareiknings** býður upp á sjálfvirkar samsvörunara�
 4. Til að fjarlægja jöfnun skal velja bankareikningslínu og velja svo aðgerðina **fjarlægja jöfnun**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Að jafna handvirkt bankayfirlitslínur og bankareikningsfærslur
+
 1. Á síðunni **Afstemming bankareiknings** skal velja tvær ójafnaðar línur í **Bankayfirlitslínur** svæðinu.
 2. Á svæðinu **bankareikningsfærslur** skal velja eina eða fleiri bankareikningsfærslur sem hægt er að jafna við valda bankayfirlitslínu. Til að velja margar línur skal halda inni Ctrl-lyklinum.
 3. Velja **Handvirk jöfnun** aðgerð.
@@ -97,6 +101,7 @@ Síðan **Afstemming bankareiknings** býður upp á sjálfvirkar samsvörunara�
 5. Til að fjarlægja jöfnun skal velja bankareikningslínu og velja svo aðgerðina **fjarlægja jöfnun**.
 
 ## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines-with"></a>Að stofna fjárhagsfærslur sem vantar til að jafna bankayfirlitslínur við
+
 Stundum geta verið vextir eða kostnaður á bankayfirlitinu. Slíkar bankayfirlitslínur geta ekki verið jafnaðar vegna þess að engar tilsvarandi fjárhagsfærslur eru til í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þú verður þá að bóka færslubókarlínu fyrir hverja færslu til að stofna tilsvarandi fjárhagsfærslu sem það má jafna við.
 
 1. Á síðunni **Afstemming bankareiknings** er valið aðgerðin **Flytja í almenna færslubók**.  
@@ -105,15 +110,16 @@ Stundum geta verið vextir eða kostnaður á bankayfirlitinu. Slíkar bankayfir
     Síðan **almenn færslubók** opnast og inniheldur nýjar færslubókarlínur fyrir allar bankayfirlitslínur með fjárhagsfærslur sem vantar.
 3. Kláraðu færslubókarlína með viðeigandi upplýsingar, eins og mótreikningur. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).  
 4. Til að yfirfara niðurstöður bókunar áður en þú bókar skaltu velja aðgerina **Prófunarskýrsla**. Skýrslan **Bankareikningsyfirlit** opnast og sýnir sömu reitina og í hausnum á síðunni **Afstemming bankareiknings**.
-4. Valið er **Bóka** aðgerðin.
+5. Valið er **Bóka** aðgerðin.
 
     Þegar færslan er bókuð skal halda áfram og jafna bankayfirlitslínu við hana.
-5. Uppfærðu eða opnaðu aftur **afstemming bankareiknings** síðuna. Nýji fjárhagsfærslan birtist í **bankareikningsfærslur** svæðinu.
-6. Jafnaðu bankayfirlitslínu með bankareikningsfærslu, annað hvort handvirkt eða sjálfkrafa.
+6. Uppfærðu eða opnaðu aftur **afstemming bankareiknings** síðuna. Nýji fjárhagsfærslan birtist í **bankareikningsfærslur** svæðinu.
+7. Jafnaðu bankayfirlitslínu með bankareikningsfærslu, annað hvort handvirkt eða sjálfkrafa.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  

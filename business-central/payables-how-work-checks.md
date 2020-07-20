@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190228"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503799"
 ---
 # <a name="make-check-payments"></a>Framkvæma ávísanagreiðslur
+
 Þú getur gefið út rafrænar og handvirkar ávísanir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Í báðum aðferðum er útgreiðslubók notuð til að gefa út tékka til lánardrottna. Einnig er hægt að ógilda tékka og skoða fjárhagsfærslur.
 
 Eftirfarandi ferli sýnir hvernig á að greiða lánardrottni með tölvuávísunum með því að jafna greiðsluna við viðeigandi reikning lánardrottins, prenta út ávísunina og síðan bóka greiðsluna sem greidda. Þetta leiðir til jákvæðra lánardrottnafærslna, jafnaðar við neikvæðar bankafjárhagsfærslur og raunverulegar ávísanir fyrir úrvinnslu í bankanum.
@@ -30,7 +31,8 @@ Hægt er að greiða með tveimur gerðum af ávísunum. Fyrir báðar gerðir v
 > [!NOTE]  
 > Til að ganga úr skugga um að bankinn þinn eingöngu taki við fullgildum ávísunum og upphæðum, geturðu sent þeim skrá sem inniheldur seljanda, ávísun og greiðsluupplýsingar. Nánari upplýsingar er að finna í [Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md).
 
-Prentarinn verður að vera rétt stilltur með tékkaeyðublöðum, og þú verður að skilgreina hvaða útlit tékka á að nota. Frekari upplýsingar er að finna í [Veja útlit ávísunar](finance-how-define-check-layouts.md)
+> [!IMPORTANT]
+> Prentarinn verður að vera rétt stilltur með tékkaeyðublöðum, og þú verður að skilgreina hvaða útlit tékka á að nota. Frekari upplýsingar er að finna í [Velja útlit ávísunar](finance-how-define-check-layouts.md). Að öðrum kosti er t.d. hægt að senda ávísunina sem PDF-skrá.  
 
 Hægt er að prenta allt að 10 reikninga á síðu fyrir ávísanabút. Ef ávísun á við um meira en 10 reikninga, ógildum við stubbinn á fyrstu síðunni og prentum orðið ÓGILD á ávísunina þegar þú prentar hana. Við prentum síðan afganginn af reikningunum og heildarupphæð ávísunar á seinni blaðsíðunni.
 
@@ -43,7 +45,7 @@ Eftirfarandi dæmi sýnir hvernig á að greiða lánardrottni með ávísun. Sk
 4. Í reitnum **Tegund bankagreiðslu** skal velja **Vélfærður tékki**.
 5. Veldu aðgerðina **Prenta ávísun**.
 6. Á síðunni **Athuga** skal fyllt í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Veldu hnappinn **Senda til**, veldu valkostinn **PDF-skjal** og veldu síðan hnappinn **Í lagi**.
+7. Ef prentarinn er settur upp til að prenta ávísanir skal velja hnappinn **Prenta**. Veldu hnappinn **Senda til**, veldu valkostinn **PDF-skjal** og veldu síðan hnappinn **Í lagi** og prentaðu út PDF-skjalið.
 
     Raunverulegu ávísanirnar er nú hægt að fara með í bankann til vinnslu. Haltu áfram að bóka greiðsluna eins og hún er jöfnuð við lánardrottin og þar af leiðandi greidd í kerfinum.
 8. Valið er **Bóka** aðgerðin.

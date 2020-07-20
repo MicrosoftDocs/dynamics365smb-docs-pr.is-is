@@ -8,36 +8,36 @@ ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9acd4840c9e7c2f4aa2a8f5087b2f58708ca7cb0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 805a8be94ccd38ffa696fe19157a08f4772c9ef3
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187749"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529089"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prufuútgáfa og áskrift
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er í boði í fjölmörgum löndum um allan heim. Hægt er að skrá sig fyrir prufuáskrift til að skoða [!INCLUDE [prodshort](includes/prodshort.md)]. Þegar þú ert tilbúin(n) geturðu talað við endurseljanda um áskrift.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er í boði í fjölmörgum löndum um allan heim. Hægt er að skrá sig fyrir prufuáskrift til að skoða [!INCLUDE[prodshort](includes/prodshort.md)]. Þegar þú ert tilbúin(n) geturðu talað við endurseljanda um áskrift.  
 
 Ef þú vinnur ekki með samstarfsaðila skaltu skoða [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
 
 ## <a name="getting-started-with-a-trial"></a>Hafist handa með prufuútgáfu
 
-Hægt er að skrá sig fyrir prufuáskrift [hér](https://go.microsoft.com/fwlink/?linkid=847861). Við mælum með því að þú vinnir með [endursöluaðila](across-faq.md#findpartner) til að hjálpa fyrirtækinu þínu að hefjast handa með [!INCLUDE [prodshort](includes/prodshort.md)].  
+Hægt er að skrá sig fyrir prufuáskrift [hér](https://go.microsoft.com/fwlink/?linkid=847861). Við mælum með því að þú vinnir með [endursöluaðila](across-faq.md#findpartner) til að hjálpa fyrirtækinu þínu að hefjast handa með [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Prufuáskriftinni inniheldur það tungumál og virkni sem land þitt eða svæði þurfa. Frekari upplýsingar má finna í [Breyta tungumáli og landsstaðli](about-locale-language.md).  
 
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Þegar þú skráir þig fyrst inn á sýnifyrirtækið færðu aðgang að síðunni Hafist handa með tenglum á myndbönd sem geta aðstoðað þig við að hefjast handa. Nánari upplýsingar er að finna í [Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
 
-Ef þú lendir í erfiðleikum getur síðan [Algengar spurningar](across-faq.md) hjálpað þér að svara spurningum þínum. Ef þér tekst ekki að skrá þig fyrir prufuáskrift getur [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md) aðstoðað þig. Þú getur einnig haft samband við [samstarfsaðila](across-faq.md#findpartner) og beðið hann um að búa til ókeypis prufu eða öðruvísi forútgáfu af [!INCLUDE [prodshort](includes/prodshort.md)] fyrir þig.  
+Ef þú lendir í erfiðleikum getur síðan [Algengar spurningar](across-faq.md) hjálpað þér að svara spurningum þínum. Ef þér tekst ekki að skrá þig fyrir prufuáskrift getur [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md) aðstoðað þig. Þú getur einnig haft samband við [samstarfsaðila](across-faq.md#findpartner) og beðið hann um að búa til ókeypis prufu eða öðruvísi forútgáfu af [!INCLUDE[prodshort](includes/prodshort.md)] fyrir þig.  
 
 ### <a name="try-out-your-own-company"></a>Prófaðu þitt eigið fyrirtæki
 
-Ef þú vilt prófa [!INCLUDE [prodshort](includes/prodshort.md)] með eigin gögn geturðu skipt yfir í ókeypis 30 daga prufutíma með auðu fyrirtæki. **Setja upp fyrirtækiið mitt** uppsetningarleiðsögn með hjálp mun hjálpa þér að veita grunnupplýsingar um reksturinn. Möguleiki er á því að flytja inn gögn úr fyrirliggjandi viðskiptastjórnunarlausn þannig að hægt sé að meta [!INCLUDE [prodshort](includes/prodshort.md)] með eigin gögnum. Við mælum hins vegar ekki með því að þú notir ókeypis prufutíma til að hjálpa þér að reka fyrirtækið þitt. Hafðu samband við [endursöluaðila](across-faq.md#findpartner) til að fá frekari upplýsingar um hvernig hafist er handa með [!INCLUDE [prodshort](includes/prodshort.md)].  
+Ef þú vilt prófa [!INCLUDE[prodshort](includes/prodshort.md)] með eigin gögn geturðu skipt yfir í ókeypis 30 daga prufutíma með auðu fyrirtæki. **Setja upp fyrirtækiið mitt** uppsetningarleiðsögn með hjálp mun hjálpa þér að veita grunnupplýsingar um reksturinn. Möguleiki er á því að flytja inn gögn úr fyrirliggjandi viðskiptastjórnunarlausn þannig að hægt sé að meta [!INCLUDE[prodshort](includes/prodshort.md)] með eigin gögnum. Við mælum hins vegar ekki með því að þú notir ókeypis prufutíma til að hjálpa þér að reka fyrirtækið þitt. Hafðu samband við [endursöluaðila](across-faq.md#findpartner) til að fá frekari upplýsingar um hvernig hafist er handa með [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Ef 30 dagar nægja ekki er hægt að framlengja prufutímann. Nánari upplýsingar er að finna í [Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?](admin-extend-trial.md).  
 
-### <a name="setting-up-your-company-in-prodshort"></a>Setja upp fyrirtæki notanda í [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="setting-up-your-company-in-prodshort"></a>Setja upp fyrirtæki notanda í [!INCLUDE[prodshort](includes/prodshort.md)]
 
 Til að hjálpa til við að setja upp fyrirtækið inniheldur síðan **Uppsetning með hjálp** leiðbeiningar með uppsetningarleiðarvísum sem geta hjálpað þér. Það fer eftir hlutverkinu þínu og landi eða svæði hvaða uppsetningarleiðbeiningar með hjálp sjást í eftirfarandi töflu:
 
@@ -55,7 +55,7 @@ Til að hjálpa til við að setja upp fyrirtækið inniheldur síðan **Uppsetn
 | Setja upp Dynamics 365 Sales tengingu |Setur upp tengingu við Dynamics 365 Sales sem býður upp á að samstilla gögn, svo sem tengiliði og upplýsingar um sölupantanir. |
 | Uppsetning sjóðsstreymisspár |Setur upp myndrit fyrir Sjóðstreymisspá, þannig að hægt er að skoða fyrirsjánlegt sjóðstreymi inn í og út úr rekstrinum. Myndritið er tiltækur á **Endurskoðandi Mitt hlutverk**. |
 | Setja upp skýrslugerðargögn|Setur upp gagnasöfn sem hægt er að nota til að byggja upp kraftmiklar skýrslur með því að nota Excel eða Power BI, til dæmis. |
-| Bjóða ytri bókara |Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, geturðu boðið þeim í þitt [!INCLUDE [prodshort](includes/prodshort.md)] svo þeir geti unnið með þín fjárhagsgögn. |
+| Bjóða ytri bókara |Ef þú notar ytri endurskoðanda til að hafa umsjón með bókhaldinu og fjárhagsskýrslugerð, geturðu boðið þeim í þitt [!INCLUDE[prodshort](includes/prodshort.md)] svo þeir geti unnið með þín fjárhagsgögn. |
 
 **Uppsetning með hjálp** síðan getur innihaldið aðrar færslur. Þegar farið er í gegnum uppsetningu verður uppsetningin merkt sem **Lokið**. Þú getur sett upp fleiri svæði fyrirtækisins með því að nota handvirka uppsetningu. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -64,13 +64,13 @@ Til að hjálpa til við að setja upp fyrirtækið inniheldur síðan **Uppsetn
 Ef þú hefur bætt gögnum við [!INCLUDE[prodshort](includes/prodshort.md)] ókeypis prufuútgáfuna þína og þú vilt byrja að nýju með nýja upplifun getur þú stofnað nýtt matsfyrirtæki og síðan eytt fyrsta fyrirtækinu. Opnaðu síðuna **Fyrirtæki** og veldu **Nýtt** til að hefja uppsetningarleiðbeiningar **Stofna nýtt fyrirtæki** með hjálp. Leiðbeiningarnar geta hjálpað þér að setja upp nýtt tilraunafyrirtæki með sýnigögnum. Þú getur einnig búið til afrit af núverandi fyrirtækinu þínu, skráð þig út og skráð þig inn í nýja fyrirtækið þitt.  
 
 > [!IMPORTANT]
-> Þegar þú deilir [!INCLUDE [prodshort](includes/prodshort.md)] með öðru fólki úr þinni stofnun þá verðurðu að vera viss um að annað fólk sé ekki skráð inn þegar þú eyðir fyrirtæki.  
+> Þegar þú deilir [!INCLUDE[prodshort](includes/prodshort.md)] með öðru fólki úr þinni stofnun þá verðurðu að vera viss um að annað fólk sé ekki skráð inn þegar þú eyðir fyrirtæki.  
 
 ## <a name="getting-started-with-a-subscription"></a>Hafist handa með áskrift
 
-Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila. Frekari upplýsingar eru í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner). Endursöluaðili getur hjálpað þér að setja upp [!INCLUDE [prodshort](includes/prodshort.md)] í samræmi við fyrirtækið þitt, þar á meðal flutt inn gögn úr fyrra kerfi. Einnig er hægt að sérstilla [!INCLUDE [prodshort](includes/prodshort.md)] með því að bæta við forritum frá [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila. Frekari upplýsingar eru í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner). Endursöluaðili getur hjálpað þér að setja upp [!INCLUDE[prodshort](includes/prodshort.md)] í samræmi við fyrirtækið þitt, þar á meðal flutt inn gögn úr fyrra kerfi. Einnig er hægt að sérstilla [!INCLUDE[prodshort](includes/prodshort.md)] með því að bæta við forritum frá [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
 
-[!INCLUDE [prodshort](includes/prodshort.md)] online notar Office 365. Ef fyrirtækið þitt notar aðra gerð af tölvupóstuppsetningu getur verið að endursöluaðili geti aðstoðað þig við að flytja, eða látið þig vita ef þú ættir að nota [!INCLUDE [prodshort](includes/prodshort.md)] innanhúss.  
+[!INCLUDE[prodshort](includes/prodshort.md)] online notar Office 365. Ef fyrirtækið þitt notar aðra gerð af tölvupóstuppsetningu getur verið að endursöluaðili geti aðstoðað þig við að flytja, eða látið þig vita ef þú ættir að nota [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss.  
 
 Einnig er hægt að hafa samband við [[!INCLUDE[d365fin](includes/d365fin_md.md)] Söluteymi](https://go.microsoft.com/fwlink/?linkid=828707).  
 
@@ -85,7 +85,7 @@ Núna geta allir viðskiptavinir notað sandkassa, þ.m.t. fyrirtæki sem hafa s
 > [!NOTE]
 > Sandkassinn sem er búinn til á þennan hátt inniheldur sýnikennslugögn fyrir skáldaða fyrirtækið CRONUS. Engin gögn eru afrituð eða yfirhöfuð flutt frá framleiðsluumhverfinu.  
 
-Stjórnandi [!INCLUDE [prodshort](includes/prodshort.md)] og endursöluaðili geta stofnað fleiri umhverfi í stjórnunarmiðstöðinni. Frekari upplýsingar eru í [Stjórnunarmiðstöð Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
+Stjórnandi [!INCLUDE[prodshort](includes/prodshort.md)] og endursöluaðili geta stofnað fleiri umhverfi í stjórnunarmiðstöðinni. Frekari upplýsingar eru í [Stjórnunarmiðstöð Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 
 ## <a name="see-also"></a>Sjá einnig
 

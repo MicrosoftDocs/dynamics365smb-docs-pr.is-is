@@ -1,7 +1,6 @@
 ---
 title: Setja upp tölvupóst í Business Central | Microsoft Docs
 description: Lýsir því hvernig á að nota STMP-þjón fyrirtækisins til að senda og taka við tölvupósti í Business Central, einnig hvernig á að nota þær stillingar þjónsins sem voru stofnaðar með Office 365 áskrift.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.date: 06/15/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36f9c561cd2bde8256e9bbb9694c89cd780b67ad
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187269"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528388"
 ---
 # <a name="set-up-email"></a>Setja upp tölvupóst
+
 Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú að fylla út reitina á síðunni **SMTP-póstuppsetning**.
 
 Í stað þess að slá inn upplýsingar um SMTP-þjón handvirkt geturðu notað aðgerðina **Nota Office 365 þjónsstillingar** til að slá þær inn með upplýsingum úr Office 365 áskriftinni þinni.
@@ -26,6 +26,7 @@ Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d3
 Þú getur annaðhvort sett upp tölvupóst handvirkt, eins og lýst er hér að neðan, eða þú getur fengið hjálp með því að nota **Uppsetning tölvupósts** leiðbeiningar um uppsetningu með hjálp. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Til að setja upp tölvupóst
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP uppsetning tölvupósts** og veldu síðan tengda tengilinn.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -36,6 +37,7 @@ Til að senda og taka á móti tölvupósti innan [!INCLUDE[d365fin](includes/d3
 5. Þegar prófið hefur tekist skal loka síðunni.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Notkun staðgengilsnetfang sendanda fyrir send tölvupóstskeyti
+
 Öll send tölvupóstskeyti úr [!INCLUDE[d365fin](includes/d365fin_md.md)] nota sjálfgefið netfang fyrir reikninginn sem var tilgreindur á SMTP-uppsetningarsíðu tölvupósts eins og lýst er hér að ofan. Þú getur hinsvegar notað möguleikana **Senda sem** eða **Senda fyrir hönd** á Exchange-þjóninum til að breyta netfangi sendanda fyrir skeyti á útleið. [!INCLUDE[d365fin](includes/d365fin_md.md)] notar sjálfgefinn reikning til að sannvotta fyrir Exchange, en mun annaðhvort skipta út netfangi sendanda með því sem þú tilgreinir eða breytir því með „fyrir hönd.“
 
 Eftirfarandi eru dæmi um hvernig Senda sem og Senda fyrir hönd eru notuð í [!INCLUDE[d365fin](includes/d365fin_md.md)].:
@@ -54,6 +56,7 @@ Eftirfarandi eru dæmi um hvernig Senda sem og Senda fyrir hönd eru notuð í [
 5. Í **Stjórnandamiðstöð Exchange** skaltu finna pósthólfið sem á að nota sem staðgengilsnetfang og færðu síðan inn netfangið úr reitnum **Notandakenni** í reitnum **Senda sem**. Nánari upplýsingar eru í [Nota EAC til að úthluta heimildum til einstakra pósthólfa](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Til að nota staðgengilsnetfangið í samþykktarverkflæðum
+
 1. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **SMTP uppsetning tölvupósts**, og veldu síðan tengda tengilinn.
 2. Afritaðu eða skráðu netfangið niður í reitinn **Notandakennið**.
 3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notandauppsetning samþykktar** og veldu síðan tengda tengilinn.
@@ -64,6 +67,13 @@ Eftirfarandi eru dæmi um hvernig Senda sem og Senda fyrir hönd eru notuð í [
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] ákvarðar hvaða netfang eigi að birta í eftirfarandi röð: <br><br> 1. Netfang tilgreint í reitnum **Tölvupóstur** á síðunni **Notandauppsetning samþykktar** fyrir skeyti í verkflæði. <br> 2. Netfang tilgreint í reitnum **Senda sem** á síðunni **SMTP uppsetning tölvupósts**. <br> 3. Netfang tilgreint í reitnum **Notandakenni** á síðunni **SMTP uppsetning tölvupósts**.
 
+## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Setja upp almenningsmöppur og reglur fyrir tölvupóstsskráningu á Exchange Online
+
+Fáðu meira út úr samskiptum sölumanna við núverandi eða mögulega viðskiptavini þína með því að rekja tölvupóstsamskipti og breyta þeim síðan í möguleg tækifæri. Frekari upplýsingar eru í [Fylgstu með tölvupóstsamskiptum milli sölufólks og tengiliða](marketing-set-up-email-logging.md).  
+
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+
+Næst tengir þú [!INCLUDE[prodshort](includes/prodshort.md)] við Exchange Online. Frekari upplýsingar eru í [Fylgstu með tölvupóstsamskiptum milli sölufólks og tengiliða](marketing-set-up-email-logging.md).  
 
 ## <a name="see-also"></a>Sjá einnig
 

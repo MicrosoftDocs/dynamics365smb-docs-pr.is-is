@@ -1,7 +1,7 @@
 ---
 title: Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir | Microsoft Docs
 description: Samsetningarvörur er hægt að veita annað hvort með því að setja þær saman í pöntun eða setja þær saman í birgðir til að geyma þar til þeirra er óskað í sölupöntun.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186813"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496801"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
 Samsetningarvörur geta verið veittar í eftirfarandi tvo ferla:  
@@ -66,11 +66,11 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 
  Í samsetningaraðstæðum er gildið í **Magn afhent** ekki afritað í reitinn **Magn sett saman** í haus samsetningarpöntunar. Í staðinn er sjálfgefið gildi sett inn í reitinn **Magn sett saman** sem er reiknað út frá reitnum **Magn afhent** samkvæmt forskilgreindri reglu sem tryggir að magn samsetningarpöntunar sé afhent fyrst.  
 
- Eigi að víkja frá þessu sjálfgildi, til dæmis ef aðeins á að setja saman meira eða minna en magnið í reitnum **Magn afhent**, má breyta reitnum **Magn sett saman** en þó aðeins samkvæmt reglunum hér að neðan  
+ Eigi að víkja frá þessu sjálfgildi, til dæmis ef aðeins á að setja saman meira eða minna en magnið í reitnum **Magn afhent**, má breyta reitnum **Magn sett saman** en þó aðeins samkvæmt reglunum hér að neðan.  
 
  Dæmi um það hvers vegna breyta ætti magni til að setja saman, er að notandi vill bóka afhendingu að hluta á birgðamagni áður en samsetningarfrálagið er afhent.  
 
- Eftirfarandi útskýrir reglurnar sem skilgreina lágmarks- og hámarksgildi sem hægt er að færa handvirkt inn í **Magn sett saman** til að víkja frá sjálfgildinu í samsetningardæmi. Taflan sýnir samsetningardæmi þar sem reiturinn **Magn afhent** í tengdu sölupöntunarlínunni er breytt úr 7 í 4 og **Magn sett saman** verður þess vegna að sjálfgefnu 4.  
+ Eftirfarandi tafla útskýrir reglurnar sem skilgreina lágmarks- og hámarksgildi sem hægt er að færa inn í reitinn **Magn til samsetningar** til að víkja frá sjálfgildinu í samsetningardæmi. Taflan sýnir samsetningardæmi þar sem reiturinn **Magn afhent** í tengdu sölupöntunarlínunni er breytt úr 7 í 4 og **Magn sett saman** verður þess vegna að sjálfgefnu 4.  
 
 ||Sölupantanalína|Samsetningarpöntunarhaus|  
 |-|----------------------|---------------------------|  

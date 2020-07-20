@@ -1,7 +1,6 @@
 ---
 title: Framlengja prufuútgáfunni | Microsoft Docs
 description: Ef þú þarft meiri tíma til að ákveða hvort þú gerist áskrifandi geturðu framlengt prufuútgáfunni.
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/06/2020
+ms.date: 07/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f65503bf00afbe03c542bb486b32b4c18de7c198
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: 78993c655ff4912e212588269f897a39e8441924
+ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339899"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3532620"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?
+
 Það er mikilvægt að taka réttar ákvarðanir þegar þú velur viðskiptaforrit og við vitum að það getur tekið tíma að kanna alla kima [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef þú þarft meiri tíma til að gera upp hug þinn getur þú framlengt prufutímanum í aðra 30 daga. Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn. Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum. Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum.
 
 Að framlengja prufutímanum sjálf/ur er aðeins hægt að gera í eitt skipti. Þú getur ekki framlengt hann tvisvar sinnum, að minnsta kosti ekki þú sjálf/ur. Ef þú hefur þegar framlengt tímabilið getur Microsoft samstarfsaðilinn þinn lengt það aftur. Það er einnig aðeins hægt að gera í eitt skipti. Ef þú vinnur ekki með samstarfsaðila skaltu skoða [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
@@ -34,15 +34,18 @@ Að framlengja prufutímanum sjálf/ur er aðeins hægt að gera í eitt skipti.
 
     Ef þú hunsaðir tilkynninguna verður þú að skrá þig út og inn aftur.
 
+> [!TIP]
+> Ef ekki er hægt að sjá tilkynninguna er hægt að þvinga [!INCLUDE [prodshort](includes/prodshort.md)] til að keyra **Framlengja prufuáskrift** leiðbeiningar um uppsetningu með hjálp með því að bæta ```?page=1828``` færibreytunni við vefslóðina, líkt og í eftirfarandi dæmi: [https://businesscentral.dynamics.com/?page=1828](https://businesscentral.dynamics.com/?page=1828)
+
 ## <a name="what-happens-if-my-trial-period-is-expired"></a>Hvað gerist ef prufutíminn minn rennur út?
 
 Ef fyrsta 30 daga prufuáskriftin rennur út geturðu framlengt hana sjálf/ur eins og lýst er hér að ofan og allt helst óbreytt. Skráðu þig bara inn í sýnifyrirtækið og byrjaðu leiðbeiningarnar **Framlengja prufutímabil** úr tilkynningum.  
 
 Ef þú hefur búið til þitt eigið fyrirtæki skaltu skrá þig út og skráðu þig inn aftur með skilríkjum fyrir það fyrirtæki.  
 
-Ef fyrirtækið þitt hefur stofnað til samstarfs við endursöluaðila, geta þeir skráð sig inn á [!INCLUDE [prodshort](includes/prodshort.md)] sem skipaður stjórnandi og keyrt sömu leiðbeininguna **Framlengja prufutíma**. Frekari upplýsingar eru í [Framlenging prufuútgáfu (sem stjórnandi)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
+Ef fyrirtækið þitt hefur stofnað til samstarfs við endursöluaðila, geta þeir skráð sig inn á [!INCLUDE[prodshort](includes/prodshort.md)] sem skipaður stjórnandi og keyrt sömu leiðbeininguna **Framlengja prufutíma**. Frekari upplýsingar eru í [Framlenging prufuútgáfu (sem stjórnandi)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
 
-Eftir þessa seinni viðbót þar sem fyrirtækið er með allt að 90 daga prufuáskrift verður þú annaðhvort að gerast áskrifandi að [!INCLUDE [prodshort](includes/prodshort.md)] eða yfirgefa [!INCLUDE [prodshort](includes/prodshort.md)]. Ef þú ákveður að halda ekki áfram mælum við með því að þú flytjir út öll gögn sem þú reiðir þig á í rekstrinum.
+Eftir þessa seinni viðbót þar sem fyrirtækið er með allt að 90 daga prufuáskrift verður þú annaðhvort að gerast áskrifandi að [!INCLUDE[prodshort](includes/prodshort.md)] eða yfirgefa [!INCLUDE[prodshort](includes/prodshort.md)]. Ef þú ákveður að halda ekki áfram mælum við með því að þú flytjir út öll gögn sem þú reiðir þig á í rekstrinum.
 
 Ef framlengda prufutímabilið þitt er útrunnið geturðu fengið [áskrift](https://go.microsoft.com/fwlink/?linkid=828659) að [!INCLUDE[prodshort](includes/prodshort.md)] innan 90 daga og haldið áfram að vinna í fyrirtækinu sem þú stofnaðir. 90 dögum eftir að framlengda prufuáskriftin rennur út eyðum við fyrirtækinu þínu og gögnum nema þú gerist áskrifandi.  
 

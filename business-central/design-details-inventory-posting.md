@@ -8,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: e0f93f0835b20413df2b6827a3a30e54c1fb7309
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0603e98bcbfb834de3ab96dcb73f3e33e22e0f0b
+ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185229"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3486472"
 ---
 # <a name="design-details-inventory-posting"></a>Hönnunarupplýsingar: birgðabókun
+
 Hver birgðafærsla, svo sem innkaupakvittun eða sölusending bókar tvær færslur af mismunandi gerðum.  
 
 |Tegund færslu|Description|  
-|----------------|---------------------------------------|  
+|----------|-----------|  
 |Magn|Endurspeglar breytingu á magni í birgðum. Þessar upplýsingar eru geymdar í birgðafærslum.<br /><br /> Með birgðajöfnunarfærslum.|  
 |Gildi|Endurspeglar breytingu á birgðavirði. Þessar upplýsingar eru geymdar í virðisfærslum.<br /><br /> Ein virðisfærsla eða fleiri eru til fyrir hverja birgðafærslu eða afkastahöfuðbókarfærslu.<br /><br /> Upplýsingar um afkastagildisfærslur sem tengjast notkun framleiðslu- eða samsetningartilfanga eru í [Hönnunarupplýsingar: Bókun framleiðslupöntunar](design-details-production-order-posting.md).|  
 
@@ -33,86 +34,87 @@ Hver birgðafærsla, svo sem innkaupakvittun eða sölusending bókar tvær fær
 
  ![Færsluflæði þegar sætt er saman við fjárhag](media/design_details_inventory_costing_1_entry_flow.png "Færsluflæði þegar sætt er saman við fjárhag")  
 
-## <a name="example"></a>Dæmi  
- Eftirfarandi dæmi sýnir hvernig vörubókarfærslur, virðisfærslur og vörujöfnunarfærslur mynda fjárhagsfærslur.  
+## <a name="example"></a>Dæmi
+
+Eftirfarandi dæmi sýnir hvernig vörubókarfærslur, virðisfærslur og vörujöfnunarfærslur mynda fjárhagsfærslur.  
 
  Innkaupapöntun er bókuð sem móttekin og reikningsfærð fyrir 10 vörur með beinum einingarkostnaði sem nemur SGM 7 og sameiginlegum kostnaði sem nemur SGM 1. Bókunardagsetningin er 01-01-20. Eftirfarandi færslur eru stofnaðar.  
 
- **Birgðafærslur**  
+### <a name="item-ledger-entries-1"></a>Birgðafærslur (1)
 
-|Bókunardags.|Tegund færslu|Kostnaðarupphæð (raunverul.)|Magn|Færslunr.|  
-|------------------|----------------|----------------------------|--------------|---------------|  
+|Bókunardagsetning|Tegund færslu|Kostnaðarupphæð (raunverul.)|Magn|Færslunr.|  
+|------------|----------|--------------------|--------|---------|  
 |01-01-20|Innkaup|80,00|10|1|  
 
- **Virðisfærslur**  
+### <a name="value-entries-1"></a>Virðisfærslur (1)
 
-|Bókunardags.|Tegund færslu|Kostnaðarupphæð (raunverul.)|Birgðafærslunr.|Færslunr.|  
-|------------------|----------------|----------------------------|---------------------------|---------------|  
+|Bókunardagsetning|Tegund færslu|Kostnaðarupphæð (raunverul.)|Birgðafærsla nr.|Færslunr.|  
+|------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Beinn kostnaður|70,00|1|1|  
 |01-01-20|Óbeinn kostnaður|10,00|1|2|  
 
- **Birgðajöfnunarfærslur**  
+### <a name="item-application-entries-1"></a>Birgðajöfnunarfærslur (1)
 
-|Færslunr.|Birgðafærslunr.|Birgðafærslunr. vöru á innleið|Birgðafærslunr. vöru á útleið|Magn|  
-|---------------|---------------------------|----------------------------|-----------------------------|--------------|  
+|Færslunr.|Birgðafærsla nr.|Birgðafærslunr. vöru á innleið|Birgðafærslunr. vöru á útleið|Magn|  
+|---------|---------------------|----------------------|-----------------------|--------|  
 |1|1|1|0|10|  
 
  Næst er bókuð sala 10 eininga vörunnar með bókunardagsetningunni 01-15-20.  
 
- **Birgðafærslur**  
+### <a name="item-ledger-entries-2"></a>Birgðafærslur (2)
 
-|Bókunardags.|Tegund færslu|Kostnaðarupphæð (raunverul.)||Magn|Færslunr.|  
-|------------------|----------------|----------------------------|-|--------------|---------------|  
-|01-15-20|Sala|-80,00||-10|2|  
+|Bókunardagsetning|Tegund færslu|Kostnaðarupphæð (raunverul.)|Magn|Færslunr.|  
+|------------|----------|--------------------|--------|---------|  
+|01-15-20|Sala|-80,00|-10|2|  
 
- **Virðisfærslur**  
+### <a name="value-entries-2"></a>Virðisfærslur (2)
 
-|Bókunardags.|Tegund færslu|Kostnaðarupphæð (raunverul.)|Birgðafærslunr.|Færslunr.|  
-|------------------|----------------|----------------------------|---------------------------|---------------|  
+|Bókunardagsetning|Tegund færslu|Kostnaðarupphæð (raunverul.)|Birgðafærsla nr.|Færslunr.|  
+|------------|----------|--------------------|---------------------|---------|  
 |01-15-20|Beinn kostnaður|-80,00|2|3|  
 
- **Birgðajöfnunarfærslur**  
+### <a name="item-application-entries-2"></a>Birgðajöfnunarfærslur (2)
 
-|Færslunr.|Birgðafærslunr.|Birgðafærslunr. vöru á innleið|Birgðafærslunr. vöru á útleið|Magn|  
-|---------------|---------------------------|----------------------------|-----------------------------|--------------|  
+|Færslunr.|Birgðafærsla nr.|Birgðafærslunr. vöru á innleið.|Birgðafærslunr. vöru á útleið.|Magn|  
+|---------|---------------------|----------------------|-----------------------|--------|  
 |2|2|1|2|-10|  
 
- Að lokum bókhaldstímabils, skaltu keyra runuvinnslurnar **Bóka birgðakostnað í fjárhag** til að afstemma þessar birgðafærslur við fjárhaginn.  
+Að lokum bókhaldstímabils, skaltu keyra runuvinnslurnar **Bóka birgðakostnað í fjárhag** til að afstemma þessar birgðafærslur við fjárhaginn.  
 
  Frekari upplýsingar, sjá [Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)  
 
  Eftirfarandi töflur sýna niðurstöður afstemmingar birgðafærsla í þessu dæmi við fjárhag.  
 
- **Virðisfærslur**  
+### <a name="value-entries-3"></a>Virðisfærslur (3)  
 
-|Bókunardags.|Tegund færslu|Kostnaðarupphæð (raunverul.)|Kostnaður bókaður í fjárhag|Birgðafærslunr.|Færslunr.|  
-|------------------|----------------|----------------------------|-------------------------|---------------------------|---------------|  
+|Bókunardagsetning|Tegund færslu|Kostnaðarupphæð (raunverul.)|Kostnaður bókaður í fjárhag|Birgðafærslunr.|Færslunr.|  
+|------------|----------|--------------------|------------------|---------------------|---------|  
 |01-01-20|Beinn kostnaður|70,00|70,00|1|1|  
 |01-01-20|Óbeinn kostnaður|10,00|10,00|1|2|  
 |01-15-20|Beinn kostnaður|-80,00|-80,00|2|3|  
 
- **Fjárhagsfærslur**  
+### <a name="general-ledger-entries-3"></a>Fjárhagsfærslur (3)
 
-|Bókunardags.|Fjárhagsreikningur|Reikningur nr. (En-US sýnishorn)||Upphæð|Færslunr.|  
-|------------------|------------------|---------------------------------|-|------------|---------------|  
-|01-01-20|[Reikningur birgða]|2130||70,00|1|  
-|01-01-20|[Jöfnunareikn. beins kostnaðar]|7291||-70,00|2|  
-|01-01-20|[Reikningur birgða]|2130||10,00|3|  
-|01-01-07|[Jöfnunarreikn. sam. kostn.]|7292||-10,00|4|  
-|01-15-20|[Reikningur birgða]|2130||-80,00|5|  
-|01-15-20|[Kostnaður seldra vara]|7290||80,00|6|  
+|Bókunardagsetning|Fjárhagur|Reikningur nr. (En-US sýnishorn)|Upphæð|Færslunr.|  
+|------------|-----------|------------------------|------|---------|  
+|01-01-20|[Reikningur birgða]|2130|70,00|1|  
+|01-01-20|[Jöfnunareikn. beins kostnaðar]|7291|-70,00|2|  
+|01-01-20|[Reikningur birgða]|2130|10,00|3|  
+|01-01-07|[Jöfnunarreikn. sam. kostn.]|7292|-10,00|4|  
+|01-15-20|[Reikningur birgða]|2130|-80,00|5|  
+|01-15-20|[Kostnaður seldra vara]|7290|80,00|6|  
 
 > [!NOTE]  
->  Bókunardagsetning fjárhagsfærslnanna er sú sama og fyrir tengdar virðisfærslur.  
->   
->  Reiturinn **Bókaður kostnaður í fjárhag** í töflunni **Virðisfærsla** er útfylltur.  
+> Bókunardagsetning fjárhagsfærslnanna er sú sama og fyrir tengdar virðisfærslur.  
+> 
+> Reiturinn **Bókaður kostnaður í fjárhag** í töflunni **Virðisfærsla** er útfylltur.  
 
  Tengslin milli virðisfærslna og fjárhagsfærslna eru geymd í töflunni **Fjárhagur - Birgðahöfuðbók tengls**.  
 
- **TengslaFærslur í  tengslatöflu fjárhagsbirgðabók**  
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Tengslafærslur í fjárhag - tengslatafla fjárhagsbirgðabókar (3)
 
 |Fjárhagsfærslunr.|Virðisfærslunr.|Fjárhagsdagbók nr.|  
-|--------------------|---------------------|-----------------------|  
+|-------------|---------------|----------------|  
 |1|1|1|  
 |2|1|1|  
 |3|2|1|  
@@ -120,14 +122,16 @@ Hver birgðafærsla, svo sem innkaupakvittun eða sölusending bókar tvær fær
 |5|3|1|  
 |6|3|1|  
 
-## <a name="assembly-and-production-posting"></a>Samsetning og framleiðslubókun  
+## <a name="assembly-and-production-posting"></a>Samsetning og framleiðslubókun
+
 Afkasta- og forðafærslur endurspegla tímann sem er bókaður sem notaður í vöru eða samsetningu. Þessi framleiðslukostnaður er bókaður sem virðisfærslur í fjárhag ásamt tengdum efniskostnaði í svipaðri uppsetningu og lýst er fyrir færslur í birgðahöfuðbók í þessu efnisatriði.  
 
 Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md).  
 
-## <a name="see-also"></a>Sjá einnig  
- [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
- [Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)   
+## <a name="see-also"></a>Sjá einnig
+
+ [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
+ [Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)  
  [Hönnunarupplýsingar: kostnaðaríhlutir](design-details-cost-components.md) [Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
- [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

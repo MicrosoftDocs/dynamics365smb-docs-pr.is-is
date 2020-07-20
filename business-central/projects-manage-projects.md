@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1a9aea8ef63874b63bfd608d04b16dd3da4c7c35
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190012"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529039"
 ---
 # <a name="project-management"></a>Verkefnastjórnun
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að framkvæma sameiginlega verkefnastjórnun verkefni, svo sem að stilla vinnu og tímasetningu auðlinda, auk þess að veita þær upplýsingar sem þarf til að stjórna kostnaðarhámarki og fylgjast með framförum. Hægt er að rekja véla- og starfsmannatíma í verkefninu með því að nota vinnuskýrslur. Sem verkefnastjóri fær maður góða yfirsýn, ekki aðeins yfir einstök verk heldur einnig yfir úthlutun starfsfólks, véla og annars forða sem notaður er í öllum verkefnum.
@@ -36,7 +36,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 ## <a name="get-started-with-projects"></a>Hafist handa með verkefni
 
-Verkefnastjórnun er nógu flókin út af fyrir sig, en að fræðast um hvernig á að stofna verk og hafa umsjón með verki í vinnslu í nýju verkfæri getur verið enn ein flækjan. Til að hjálpa þér að hefjast handa með verkefnastjórnun í [!INCLUDE [prodshort](includes/prodshort.md)] geturðu horft á [myndband um stofnun á verkum](https://www.youtube.com/watch?v=VqaPWr7BWmw) á [!INCLUDE [prodshort](includes/prodshort.md)] YouTube rásinni.  
+Verkefnastjórnun er nógu flókin út af fyrir sig, en að fræðast um hvernig á að stofna verk og hafa umsjón með verki í vinnslu í nýju verkfæri getur verið enn ein flækjan. Til að hjálpa þér að hefjast handa með verkefnastjórnun í [!INCLUDE[prodshort](includes/prodshort.md)] geturðu horft á [myndband um stofnun á verkum](https://www.youtube.com/watch?v=VqaPWr7BWmw) á [!INCLUDE[prodshort](includes/prodshort.md)] YouTube rásinni.  
 
 ## <a name="see-also"></a>Sjá einnig
 

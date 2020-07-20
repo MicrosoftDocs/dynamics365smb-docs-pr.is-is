@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c64d93769cd2c824cdad54df8ddb3de5e9004f81
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185904"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528336"
 ---
 # <a name="service-compliance"></a>Reglufylgni þjónustu
 Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -30,7 +30,7 @@ Ef þú hefur áhuga á heildarlistanum yfir framboð á reglufylgni frá Micros
 
 ## <a name="service-terms"></a>þjónustuskilmála
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] á netinu fellur undir [„Modern“-reglur um stuðningstíma](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Skilmálum um þjónustustigssamning er lýst í skjali sem þú getur sótt úr hlutanum **Þjónustustigssamningar fyrir Microsoft Online Services** á síðunni [Leyfisskilmálar](https://www.microsoft.com/licensing/product-licensing/products).  
+[!INCLUDE[prodshort](../includes/prodshort.md)] á netinu fellur undir [„Modern“-reglur um stuðningstíma](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Skilmálum um þjónustustigssamning er lýst í skjali sem þú getur sótt úr hlutanum **Þjónustustigssamningar fyrir Microsoft Online Services** á síðunni [Leyfisskilmálar](https://www.microsoft.com/licensing/product-licensing/products).  
 
 Ennfremur geturðu fylgst með ástandi leigjanda þíns og tilgreint uppfærsluglugga í [Stjórnandamiðstöðu leigjanda](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

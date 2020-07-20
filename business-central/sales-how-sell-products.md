@@ -8,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 04/27/2020
+ms.date: 07/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9a2fdbaafd2a6668d7fb4edf42c25438bd881e98
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 529985b477da5079beadc5c4014aa9bdfd3ecb6c
+ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324439"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "3534797"
 ---
 # <a name="sell-products"></a>Selja vörur
+
 Búinn er til sölureikningur eða sölupöntun til að skrá samkomulag við viðskiptamann um að selja tilteknar vörur með tilteknum afhendingar- og greiðsluskilmálum.
 
 > [!NOTE]  
->   Þú notar sölupantanir ef söluferlið krefst þess að hægt að afhenda hluta pöntunarmagns , til dæmis þar sem allt magnið er ekki tiltæk í einu. Ef vara er seld með því að afhenda beint frá lánardrottni til viðskiptamanns, sem bein sending þarf að einnig nota sölupantanir. Frekari upplýsingar eru í [Beinar sendingar](sales-how-drop-shipment.md). Frá öllum sjónarhornum séð virka sölupantanir á sama hátt og sölureikningar. Frekari upplýsingar eru í [Reikningsfæra sölur](sales-how-invoice-sales.md).
+> Notaðu sölupantanir ef söluferlið krefst þess að hægt að afhenda hluta pöntunarmagns, til dæmis þar sem allt magnið er ekki tiltæk í einu. Ef sölureikningar eru notaðir gerir [!INCLUDE [prodshort](includes/prodshort.md)] ráð fyrir að allt magn sé bókað þegar reikningurinn er bókaður. Ef vara er seld með því að afhenda beint frá lánardrottni til viðskiptamanns, sem bein sending þarf að einnig nota sölupantanir. Frekari upplýsingar eru í [Beinar sendingar](sales-how-drop-shipment.md). Frá öllum sjónarhornum séð virka sölupantanir á sama hátt og sölureikningar. Frekari upplýsingar eru í [Reikningsfæra sölur](sales-how-invoice-sales.md).
 
 Hægt er að semja við viðskiptamanninn með því að gera fyrst sölutilboð, sem hægt er að breyta í sölupöntun þegar samkomulag hefur náðst um söluna. Frekari upplýsingar er að finna í [Búa til sölutilboð](sales-how-make-offers.md).
 

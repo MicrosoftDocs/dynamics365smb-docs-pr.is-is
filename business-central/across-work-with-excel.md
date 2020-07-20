@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 07/03/2020
 ms.author: jswymer
-ms.openlocfilehash: 2c6600ac7fe9f6e0aa44554883209039faabbd99
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f782b3ce19baa29d9268f3fdf742d2aa6112957f
+ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187509"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "3534593"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Skoða og breyta í Excel From Business Central
 
@@ -30,7 +30,7 @@ Með síðum sem birta lista yfir færslur í línum og dálkum, eins og lista y
 - Þessi aðgerð virkar bæði í Windows og macOS.
 
 > [!NOTE]
-> **Open í Excel** aðgerðin er sjálfgefið tiltæk fyrir [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss. Ef þú setur hins vegar upp [!INCLUDE [prodshort](includes/prodshort.md)] innanhúss fyrir breytingar í Excel er **Opna í Excel** aðgerðinni skipt út fyrir aðgerðina **Breyta í Excel**.
+> **Open í Excel** aðgerðin er sjálfgefið tiltæk fyrir [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss. Ef þú setur hins vegar upp [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss fyrir breytingar í Excel er **Opna í Excel** aðgerðinni skipt út fyrir aðgerðina **Breyta í Excel**.
 
 ## <a name="edit-in-excel"></a>Breyta í Excel
 
@@ -40,15 +40,15 @@ Með síðum sem birta lista yfir færslur í línum og dálkum, eins og lista y
 
 - Það virkar aðeins á Windows; ekki macOS.
 
-- Hægt er að skipta um fyrirtæki sem unnið er með. Til að gera þetta skal velja **Valkostir** táknið, ![Valkostir Excel-innbótar](media/cogwheel.png "Valkostir Excel-innbótar") í svæði Excel-innbótar og síðan velja fyrirtækið í reitnum **Fyrirtæki**. 
+- Hægt er að skipta um fyrirtæki sem unnið er með. Til að gera þetta skal velja **Valkostir** táknið, ![Valkostir Excel-innbótar](media/cogwheel.png "Valkostir Excel-innbótar") í svæði Excel-innbótar og síðan velja fyrirtækið í reitnum **Fyrirtæki**.  
 
     > [!IMPORTANT]
     > Þegar skipt er um fyrirtæki skal ganga úr skugga um að reiturinn **Umhverfi** sé ekki auður. Ef svo er skal stilla hann á einn af tiltækum valkostum, annars virkar innbótin ekki sem skyldi.  
 
-Excel-innbótin var endurbætt árið 2019 á útgáfutímabili 2. Frekari upplýsingar er að finna í [Endurbætur á Excel samþættingu](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration).
+Ef verið er að gera breytingar á innbótinni verður að endurhlaða hana svo hægt sé að uppfæra tenginguna. Til að endurhlaða skal nota valmyndina ![Excel-innbót](media/excel-addin-menu.png "Valkostir Excel-innbótar") efst í hægra horni innbótarinnar.
 
 > [!NOTE]
-> Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum er aðgerðin **Breyta í Excel** aðeins í boði ef stjórnandi hefur stillt Excel-innbótina og aðeins í boði fyrir vefbiðlara. Ef stjórnendur langar að fræðast betur um hvernig eigi að setja upp Excel-innbótina má finna upplýsingar um það í [Setja upp Excel-innbótina fyrir Business Central Data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin). Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum.
+> Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum er aðgerðin **Breyta í Excel** aðeins í boði ef stjórnandi hefur stillt Excel-innbótina og aðeins í boði fyrir vefbiðlara. Ef stjórnendur langar að fræðast betur um hvernig eigi að setja upp Excel-innbótina má finna upplýsingar um það í [Setja upp Excel-innbótina fyrir Business Central Data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
 ### <a name="see-the-differences-between-the-options"></a>Sjá muninn á milli valkostanna
 <br><br>  
@@ -58,4 +58,6 @@ Excel-innbótin var endurbætt árið 2019 á útgáfutímabili 2. Frekari uppl�
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Unnið með Business Central](ui-work-product.md)  
+[Endurbætur á Excel-samþættingu í 2019 útgáfu 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  

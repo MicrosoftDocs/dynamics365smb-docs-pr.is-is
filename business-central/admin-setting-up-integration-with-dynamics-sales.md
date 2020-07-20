@@ -10,30 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ad10aa53b4fe6a8b9b65ad798c206fa251e08a7a
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 9cd00cd3b3cb55ce3af35bd82284570b86720d63
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196496"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484262"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Uppsetning á notendareikningum fyrir samþættingu við Common Data Service
 Þetta efnisatriði veitir yfirlit um hvernig á að setja upp notendareikninga sem er krafist til að samþætta [!INCLUDE[d365fin](includes/cds_long_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="setting-up-the-administrator-user-account"></a>Uppsetning á notandareikningi stjórnanda
-Þú verður að bæta við notandareikningi stjórnanda fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem notandi í [!INCLUDE[d365fin](includes/cds_long_md.md)]. Þegar tengingin er sett upp á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] notum við þennan reikning í eitt skipti til að setja upp og grunnstilla nokkra nauðsynlega íhluti. <!--Verify this-->
-
-## <a name="setting-up-the-user-account-for-the-integration"></a>Uppsetning notandareiknings fyrir samþættinguna
-Þú verður að búa til þar til gerðan notandareikning í Office 365-áskriftinni þinni sem bæði [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] geta notað til að samstilla gögn. Þessi notandareikningur verður að geta skráð sig inn á [!INCLUDE[d365fin](includes/cds_long_md.md)], sem þýðir að þessi notandi verður að hafa leyfi fyrir [!INCLUDE[d365fin](includes/cds_long_md.md)] og að minnsta kosti einu öryggishlutverki úthlutað í [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--not sure that this applies as described [here](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). For more information about how to create users in [!INCLUDE[d365fin](includes/cds_long_md.md)], see [Manage security, users, and teams](https://go.microsoft.com/fwlink/?LinkID=616518). --> Eftir að tengingin hefur verið sett upp mun [!INCLUDE[d365fin](includes/d365fin_md.md)] úthluta notandareikningi öryggishlutverki sem hann þarf í [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-<!--![Assisted setup guide showing place to enter synchronization user credentials](media/sync-user-setup.png "Visualization assisted setup wizard page showing place to enter synchronization user credentials")-->
-
-> [!IMPORTANT]  
-> Ekki nota stjórnandareikning fyrir [!INCLUDE[d365fin](includes/cds_long_md.md)] fyrir samstillingu. Það mun eyðileggja samstillinguna.
+Þú verður að bæta við notandareikningi stjórnanda fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem notandi í [!INCLUDE[d365fin](includes/cds_long_md.md)]. Þegar tengingin er sett upp á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] notum við þennan reikning í eitt skipti til að setja upp og grunnstilla nokkra nauðsynlega íhluti. 
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>Heimildir og öryggishlutverk fyrir notandareikninga í [!INCLUDE[d365fin](includes/cds_long_md.md)]
-Þegar CDS-grunnsamþættingarlausn er sett upp eru heimildir fyrir notandareikning samþættingar grunnstilltar. Ef þessum heimildum er breytt þarf mögulega að endurstilla þær. Hægt er að gera það með því að setja CDS-grunnsamþættingarlausnina upp aftur með því að velja **Endurvirkja samþættingarlausn** á síðunni **Common Data Service Uppsetning tengingar**. Öryggishlutverk fyrir CDS-samþættingu Business Central er virkjað.
-
+Þegar CDS-grunnsamþættingarlausn er sett upp eru heimildir fyrir notandareikning samþættingar grunnstilltar. Ef þeim heimildum er breytt handvirkt er hægt að endurstilla þær. Hægt er að gera það með því að setja CDS-grunnsamþættingarlausnina upp aftur með því að velja **Endurvirkja samþættingarlausn** á síðunni **Common Data Service Uppsetning tengingar**. Öryggishlutverk fyrir CDS-samþættingu Business Central er virkjað.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
@@ -60,8 +51,8 @@ The following table displays the minimum permissions on each tab for each securi
 |Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
 |Post Configuration|Global|||Write|
 
-#### Integration User
-The following table displays the minimum permissions on each tab for each security role that is required for the integration user.
+### Minimum Permissions for automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user
+The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user.
 
 ##### Core Records
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|

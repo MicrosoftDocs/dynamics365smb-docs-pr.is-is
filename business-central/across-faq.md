@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: edupont
-ms.openlocfilehash: 9c6e162e8b8146c59c135b669566594ca67be7dc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188685"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528086"
 ---
 # <a name="frequently-asked-questions"></a>Algengar spurningar
 
@@ -22,13 +22,13 @@ ms.locfileid: "3188685"
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er fáanlegt á takmörkuðum fjölda markaða, en nýjum löndum er bætt við með staðfæringum sem eru leiddar af Microsoft eða samstarfsaðilum ársfjórðungslega. Frekari upplýsingar eru í [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (aðeins í boði á ensku).  
 
-## <a name="how-do-i-get-prodshort"></a>Hvernig fæ ég [!INCLUDE [prodshort](includes/prodshort.md)]?
+## <a name="how-do-i-get-prodshort"></a>Hvernig fæ ég [!INCLUDE[prodshort](includes/prodshort.md)]?
 
-Hægt er að skrá sig fyrir prufuáskrift til að skoða [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [free_trial_md](includes/free_trial_md.md)] Ef þú vilt fá meiri tíma til að skoða, [geturðu lengt áskriftartímann](#can-i-extend-my-30-day-new-company-trial-period).  
+Hægt er að skrá sig fyrir prufuáskrift til að skoða [!INCLUDE[prodshort](includes/prodshort.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Ef þú vilt fá meiri tíma til að skoða, [geturðu lengt áskriftartímann](#can-i-extend-my-30-day-new-company-trial-period).  
 
-Til þess að búa þig undir að stunda viðskipti í [!INCLUDE [prodshort](includes/prodshort.md)] geturðu opnað uppsetningarleiðbeiningar með hjálp, myndskeið eða hjálp fyrir valda uppsetningu verka. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
+Til þess að búa þig undir að stunda viðskipti í [!INCLUDE[prodshort](includes/prodshort.md)] geturðu opnað uppsetningarleiðbeiningar með hjálp, myndskeið eða hjálp fyrir valda uppsetningu verka. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
 
-Ef þú ertu tilbúin/n til að kaupa [!INCLUDE [prodshort](includes/prodshort.md)], geturðu fundið [!INCLUDE [prodshort](includes/prodshort.md)] samstarfsaðila á síðunni [Ég er að leita að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](#findpartner).  
+Ef þú ertu tilbúin/n til að kaupa [!INCLUDE[prodshort](includes/prodshort.md)], geturðu fundið [!INCLUDE[prodshort](includes/prodshort.md)] samstarfsaðila á síðunni [Ég er að leita að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](#findpartner).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Hvert leita ég ef ég er með spurningar?
 Ef spurningar vakna um [!INCLUDE[d365fin](includes/d365fin_md.md)] sem ekki er hægt að finna svar við í þessu skjali er hægt að spyrja Business Central-samfélagið. Frekari upplýsingar er að finna í [Dynamics 365 Business Central samfélag](https://community.dynamics.com/business).  
@@ -50,7 +50,7 @@ Já, þú getur það! Hægt er að finna ókeypis netnámskeið á [Microsoft L
 
 Frekari upplýsingar um þjálfun í sem Microsoft veitir fyrir Microsoft 365 er að finna á síðunni [Microsoft Dynamics 365 þjálfun](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
-Viðbótarefni er veitt af [!INCLUDE [prodshort](includes/prodshort.md)]-samfélaginu, t.d. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) sem er skrifað af samstarfsaðila.  
+Viðbótarefni er veitt af [!INCLUDE[prodshort](includes/prodshort.md)]-samfélaginu, t.d. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) sem er skrifað af samstarfsaðila.  
 
 ## <a name="how-do-i-get-technical-support-for-d365fin"></a><a name="hdigetsupport"></a>Hvernig fæ ég tæknilegan stuðning fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
@@ -101,18 +101,26 @@ Auðvitað. Ef þú gerir það gætirðu þurft lykilorð forrits til að geta 
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Hvernig finn ég endursöluaðila?
 
-[!INCLUDE [prodshort](includes/prodshort.md)] er selt og innleitt gegnum alþjóðlegt net Dynamics 365-samstarfsaðila sem sérþekkingu í greininni. Hafðu samband við samstarfsaðila til að fá ítarlegt mat, ráðgjafarþjónustu og meiri upplýsingar um verð. Frekari upplýsingar er að finna í hlutanum **Verðlagning** á síðunni [Dynamics 365 Business Central á microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+[!INCLUDE[prodshort](includes/prodshort.md)] er selt og innleitt gegnum alþjóðlegt net Dynamics 365-samstarfsaðila sem sérþekkingu í greininni. Hafðu samband við samstarfsaðila til að fá ítarlegt mat, ráðgjafarþjónustu og meiri upplýsingar um verð. Frekari upplýsingar er að finna í hlutanum **Verðlagning** á síðunni [Dynamics 365 Business Central á microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
 
-Ef þú ertu tilbúin/n til að kaupa [!INCLUDE [prodshort](includes/prodshort.md)], geturðu fundið [!INCLUDE [prodshort](includes/prodshort.md)] samstarfsaðila á síðunni [Ég er að leita að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Einnig er hægt að finna lausnir og þjónustu frá samstarfsaðilum í [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
+Ef þú ertu tilbúin/n til að kaupa [!INCLUDE[prodshort](includes/prodshort.md)], geturðu fundið [!INCLUDE[prodshort](includes/prodshort.md)] samstarfsaðila á síðunni [Ég er að leita að úrlausnaraðila](https://go.microsoft.com/fwlink/?linkid=2038145). Einnig er hægt að finna lausnir og þjónustu frá samstarfsaðilum í [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
 
 Ef þú vilt fá leiðsögn frá Microsoft skaltu hafa samband við [Teymi Microsoft Sales](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Endursöluaðilinn þinn mun einnig sjá um tæknilega aðstoð fyrir þig. Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).
+Endursöluaðilinn þinn mun einnig sjá um tæknilega aðstoð fyrir þig. Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Hvers vegna eru nýjar upplýsingar ekki í boði á mínu tungumáli?
+
+Á docs.microsoft.com svæðinu er efni um viðskiptaaðgerðir er gefið út á mörgum tungumálum. Efnið er heimilað á ensku og birt á vefslóðum með *en-us* sem tungumálakóðann. Þegar nýjar upplýsingar eru birtar á ensku eru þær sendar til þýðinga á studd tungumál. Þetta þýðir að þú getur ekki lesið þetta nýja efni á þínu eigin tungumáli í allt að 4 vikur.  
+
+Við skiljum vandamálin sem þetta getur valdið og við hvetjum notendur til að leita á ensku ef þeir geta ekki fundið það á sínu eigin tungumáli.  
 
 ## <a name="is-the-windows-client-supported"></a>Er Windows-biðlarinn studdur?
+
 Fyrstu útgáfur af [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum fylgir uppsettur biðlari frá Microsoft Dynamics NAV. Frá og með 2019 útgáfutímabili 2, er þessi eldri hluti, sem vísað er í sem „Windows-biðlarinn“ ekki lengur í boði fyrir [!INCLUDE[prodshort](includes/prodshort.md)]. Frekari upplýsingar eru í [Algengar spurningar um Windows-biðlarann og Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Hafist handa](product-get-started.md)  
 [Algengar spurningar um Viðmótsleit](ui-search-faq.md)  
 [Algengar spurningar um leit og síun](ui-search-filter-faq.md)  

@@ -1,8 +1,6 @@
 ---
 title: Samþætting við Dynamics 365 Sales| Microsoft Docs
 description: Kynntu þér hvernig þú sækir Dynamics 365 Business Central tilbúið til að samþætta við Dynamics 365 Sales.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: bholtorf
-ms.openlocfilehash: b4e3181564f351979bcb22512ab02a9a43456bde
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: c42393145fc921c85570e0829c0953757981b53e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196568"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529014"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Samþætting við Dynamics 365 Sales
+
 Hlutverk sölumannsins er oft talið sýnilegasti hlutinn í viðskiptum. Hins vegar getur það gagnast sölumönnum að geta fengið innsýn í viðskiptin og séð hvað er að gerast á bak við tjöldin. Með því að samþætta [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] er hægt að veita sölufólkinu þessa innsýn með því að gera því kleift að skoða upplýsingar í [!INCLUDE[d365fin](includes/d365fin_md.md)] á meðan það vinnur í [!INCLUDE[crm_md](includes/crm_md.md)]. Þegar sölutilboð er undirbúið getur það til dæmis verið gagnlegt að vita hvort nægar birgðir séu til staðar til að uppfylla pöntunina. Frekari upplýsingar er að finna í [Að nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
-> Þetta efnisatriði útskýrir ferlið við samþættingu á vefútgáfum af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)] í gegnum [!INCLUDE[d365fin](includes/cds_long_md.md)]. Frekari upplýsingar um grunnstillingu á staðnum er að finna í [Undirbúningur Dynamics 365 Sales fyrir samþættingu á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration.md).
+> Þetta efnisatriði útskýrir ferlið við samþættingu á vefútgáfum af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)] í gegnum [!INCLUDE[d365fin](includes/cds_long_md.md)]. Frekari upplýsingar um grunnstillingu á staðnum er að finna í [Undirbúningur Dynamics 365 Sales fyrir samþættingu á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## <a name="integrating-through-common-data-service"></a>Samþætting í gegnum Common Data Service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er einnig samþætt við [!INCLUDE[d365fin](includes/cds_long_md.md)], sem auðveldar tengingu og samstillingu gagna við önnur Dynamics 365 forrit, t.d. [!INCLUDE[crm_md](includes/crm_md.md)] eða jafnvel forrit sem þú smíðar. Ef samþætting er gerð í fyrsta skipti er mælt með því að gera hana í gegnum [!INCLUDE[d365fin](includes/cds_long_md.md)]. Frekari upplýsingar er að finna í [Samþætting við Common Data Service](admin-common-data-service.md).
@@ -52,7 +51,7 @@ Hægt er að nota uppsetningarleiðbeiningar með hjálp til að setja upp tengi
 4. Einnig eru ítarlegar stillingar sem geta aukið öryggi og virkjað viðbótarmöguleika, t.d. úrvinnsla sölupöntunar og skoðun á birgðastöðum. Eftirfarandi tafla lýsir ítarlegum stillingum.  
 
 |Svæði|Description|
-|-----|-----|
+|-----|-----------|
 |**Flytja inn Dynamics 365 Sales Solution**|Virkja þetta til að setja upp og grunnstilla samþættingarlausnina í [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic-->|
 |**Birta vefþjónustuna „Vara til ráðstöfunar“**|Gera fólki sem er að nota [!INCLUDE[crm_md](includes/crm_md.md)] kleift að skoða framboð á vörum (afurðum) í birgðum í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta krefst [!INCLUDE[d365fin](includes/d365fin_md.md)]-notandareiknings með aðgangslykli vefþjónustu. Úthlutun lykilsins er ferli í tveimur skrefum. Í notandareikningnum í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þú að velja aðgerðina **Breyta vefþjónustulykli**. Í uppsetningarleiðbeiningum með hjálp fyrir uppsetningu Dynamics 365 Sales tengingar verður að tilgreina vefslóðina fyrir OData-vefþjónustu Dynamics 365 Business Central og veita [!INCLUDE[d365fin](includes/d365fin_md.md)] aðgangsupplýsingar notanda fyrir aðgang að þjónustunni. Nánari upplýsingar er að finna í [Vefþjónustur OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**Vefslóð vefþjónustu Business Central OData**|Ef vefþjónustan er virkjuð til að skoða vörur til ráðstöfunar færðu útvegaða vefslóð fyrir vefþjónustu OData.|
@@ -66,9 +65,9 @@ Hægt er að nota uppsetningarleiðbeiningar með hjálp til að setja upp tengi
 Færðu inn eftirfarandi upplýsingar fyrri tenginguna frá [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 |Svæði|Description|
-|-----|-----|
+|-----|-----------|
 |**Dynamics 365 Sales vefslóð**|Vefslóð fyrir [!INCLUDE[crm_md](includes/crm_md.md)]-tilvikið þitt. Þetta gerir notendum kleift að opna samsvarandi færslur í [!INCLUDE[d365fin](includes/d365fin_md.md)] úr færslum í [!INCLUDE[crm_md](includes/crm_md.md)], svo sem reikningi eða vöru. [!INCLUDE[d365fin](includes/d365fin_md.md)]-færslur opnast í [!INCLUDE[d365fin](includes/d365fin_md.md)].|
-|**Kveikt er á vefþjónustunni Vara til ráðstöfunar**|Gera fólki sem er að nota [!INCLUDE[crm_md](includes/crm_md.md)] kleift að skoða framboð á vörum (afurðum) í birgðum í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef þetta er virkjað þarf einnig að útvega notandanafn og aðgangslykli fyrir [!INCLUDE[crm_md](includes/crm_md.md)] til að nota til að senda fyrirspurn á vefþjónustu OData um framboð á vörum (afurðum). Nánari upplýsingar er að finna í [Vefþjónustur OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services.md).|
+|**Kveikt er á vefþjónustunni Vara til ráðstöfunar**|Gera fólki sem er að nota [!INCLUDE[crm_md](includes/crm_md.md)] kleift að skoða framboð á vörum (afurðum) í birgðum í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef þetta er virkjað þarf einnig að útvega notandanafn og aðgangslykli fyrir [!INCLUDE[crm_md](includes/crm_md.md)] til að nota til að senda fyrirspurn á vefþjónustu OData um framboð á vörum (afurðum). Nánari upplýsingar er að finna í [Vefþjónustur OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**Vefslóð fyrir vefþjónustu Dynamics 365 Business Central OData**|Ef vefþjónusta fyrir ráðstöfun á vöru er virkjuð verður vefslóð fyrir vefþjónustu OData útvegað fyrir þig. Stillið þennan reit á vefslóð fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] tilvikið sem nota á.<br /><br /> Til að endurstilla reitinn á sjálfgefna vefslóð fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)], skal velja aðgerðina **Endurstilla vefslóð vefbiðlara**.<br /><br /> Þessi reitur á aðeins við ef [!INCLUDE[d365fin](includes/d365fin_md.md)] samþættingarlausn er sett upp í [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Dynamics 365 Business Central Notandanafn fyrir vefþjónustu OData**|Heiti notandareiknings sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar frá [!INCLUDE[d365fin](includes/d365fin_md.md)] í gegnum vefþjónustu OData.|
 |**Dynamics 365 Business Central Aðgangslykill vefþjónustu OData**|Aðgangslykill fyrir notandareikning sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar frá [!INCLUDE[d365fin](includes/d365fin_md.md)] í gegnum vefþjónustu OData. Lyklinum er úthlutað til notanda sem er valinn í reitnum **Dynamics 365 Business Central Notandanafn fyrir vefþjónustu OData**. Til að fá lykilinn skal velja hnappinn **Fletta upp gildi** við hliðina á notandanafninu, velja notandann, velja **Stjórna** og síðan **Breyta**. Á notandaspjaldinu skal velja **Aðgerðir**, **Sannvottun** og síðan velja **Breyta vefþjónustulykli**.|
@@ -92,7 +91,7 @@ Einingar í [!INCLUDE[crm_md](includes/crm_md.md)], t.d. pantanir, eru samþætt
 Eftirfarandi töflur birta staðlaða vörpun milli eininga í [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] sem [!INCLUDE[d365fin](includes/d365fin_md.md)] veitir.
 
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[crm_md](includes/crm_md.md)]|Stefna samstillingar|Sjálfgefin sía|
-|-------------------------------------------|-----|-------------------------|--------------|
+|-------------------------------------------|--------------------------------------|-----------------|--------------|
 |Mælieining|Einingarflokkur|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Vara|Vara|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Tengiliðasía Sales: **Gerð afurðar** er **Birgðir Sales**|
 |Forði|Vara|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Tengiliðasía Sales: **Gerð afurðar** er **Þjónusta**|
@@ -122,7 +121,7 @@ Eftirfarandi töflur birta staðlaða vörpun milli eininga í [!INCLUDE[d365fin
 |Sölupantanir|Þegar samþætting sölupöntunar er virkjuð eru sölupantanir í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem eru búnar til úr innsendum sölupöntunum í [!INCLUDE[crm_md](includes/crm_md.md)] samstilltar við sölupantanir í TAKA MEÐ SÖLU þegar þær eru gefnar út. Áður en þú samstillir pantanir mælum við með að þú samstillir fyrst allar einingar sem koma við sögu í pöntuninni, t.d. sölufólk og verðlistar. Kóðareitur sölumanns í pöntunarhaus skilgreinir eiganda tengdu einingarinnar í [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 ### <a name="synchronization-jobs-for-a-sales-integration"></a>Samstillingarverk fyrir samþættingu Sales
-Verkin eru keyrð í eftirfarandi röð til að koma í veg fyrir tengsl tenginga milli eininga. Þetta eru aukaleg verk sem eru í boði úr Common Data Service. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](/dynamics365/business-central/admin-job-queues-schedule-tasks.md).
+Verkin eru keyrð í eftirfarandi röð til að koma í veg fyrir tengsl tenginga milli eininga. Þetta eru aukaleg verk sem eru í boði úr Common Data Service. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
 1. UNITOFMEASURE-samstillingarvinnsla Dynamics 365 Sales  
 2. TILFÖNG-AFURÐ fyrir samstillingarvinnslu Dynamics 365 Sales  

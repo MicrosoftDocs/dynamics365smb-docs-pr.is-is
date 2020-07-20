@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8152299efea0ef07e1506d5897ff9cd27d21d21a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182205"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529064"
 ---
 # <a name="count-inventory-using-documents"></a>Birgðatalning með skjölum
 Hægt er að gera efnislega birgðatalningu á vörunum þínum með því að nota skjöl fyrir efnislega birgðapöntun og skráningu efnislegra birgða. Síðan **Pöntun efnislegra birgða** er notuð til að skipuleggja verk ítarlegrar birgðatalningar, t.d. ein á hverja staðsetningu. Síðan **Skráning efnislegra birgða** er notuð til að koma á framfæri og sækja rauntalningu á vörum. Hægt er að búa til margar skráningar fyrir eina pöntun, t.d. til að dreifa flokkum af vörum á mismunandi starfsmenn.
@@ -40,7 +40,7 @@ Til að stofna pöntunarlínur efnislegra birgða er venjulega notuð virknin **
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Pantanir raunbirgða** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
-3. Fylltu út nauðsynlega reiti í flýtiflipanum **Almennt**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fylltu út nauðsynlega reiti í flýtiflipanum **Almennt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Veldu aðgerðina **Reikna línur**.
 5. Veldu valkostina eins og þörf er á.
 6. Stilltu síur, til dæmis til að aðeins innihalda undirsafn af vörum sem á að telja með fyrstu skráningunni.

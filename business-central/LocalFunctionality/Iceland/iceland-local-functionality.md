@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: bholtorf
-ms.openlocfilehash: 153ce7c82eff97a22963bea926b857e7aca1f655
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 424596e86ab978b17e8d8431c5b36812af2f31a4
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181143"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454323"
 ---
 # <a name="iceland-local-functionality"></a>Staðbundnar aðgerðir fyrir Ísland
+
 Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslenskri útgáfu [!INCLUDE[d365fin](../../includes/d365fin_md.md)]
 
 ## <a name="feature-availability"></a>Framboð á eiginleika
@@ -34,6 +35,8 @@ Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslensk
     * [Eyðing bókaðra reikninga og kreditreikninga](deleting-posted-invoices-and-credit-memos.md) **Nú í boði**
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Unnið með [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]
