@@ -1,5 +1,5 @@
 ---
-title: Notkun á QuickBooks Flutningsviðbót | Microsoft Docs
+title: QuickBooks Online flutningsviðbót | Microsoft Docs
 description: Lýsir því hvernig skal nota viðbótina til að flytja viðskiptamenn, lánardrottna, vörur og reikninga frá QuickBooks Online til Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: c3e5415c5da03c4dd9a2228cc21b7c08a9beeec3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 33de4d2b6d75f79c140c7c2fdf5b84b7a77521d6
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189724"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617787"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>QuickBooks Online gagnaflutningsviðbótin
+
 Þessi viðbót er innifalin í **Gagnaflutningur** uppsetningu með aðstoð til að aðstoða þig við að flytja mikilvæg viðskiptagögn frá QuickBooks Online til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta er t.d. gagnlegt þegar fyrirtækið þitt er að vaxa, og þú hefur ákveðið að uppfæra stjórnunarforrit fyrirtækisins með því að byrja að nota [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Hvaða gögn get ég flutt inn frá QuickBooks Online?
+
 Þú getur flutt inn eftirfarandi gögn úr QuickBooks Online til [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 * Viðskiptavinum
@@ -34,9 +36,10 @@ ms.locfileid: "3189724"
 Við flytjum aðeins fullar upphæðir í sölu- og innkaupaskjöl. Við uppfærum ekki upphæðir greiddar að hluta. Ef viðskiptamaður hefur t.d. borgað 300 af 500 dollurum á sölureikningi, flytjum við fulla upphæð eða 500. Ef þú hefur fengið greiddan hluta af greiðslum, þarf að uppfæra þær handvirkt, annað hvort áður eða eftir að þú flytur gögn. Við mælum með því að þú jafnir útistandandi færslur áður en þú flytur gögn, bara til þess að gera eftirleikinn auðveldari.
 
 > [!NOTE]  
->   Við flytjum ekki innkaupapantanir eða sölupantanir.
+> Við flytjum ekki innkaupapantanir eða sölupantanir.
 
 ## <a name="before-you-start"></a>Verður að byrja fyrir
+
 Mikilvægur hluti flutningsferlisins er að tilgreina reikningana sem flytja á færslur til. Það er tilvalið að skipuleggja vörpunina áður en þú flytur gögn. Til dæmis, reikningana sem þú bókar færslurnar fyrir:  
 
 * Sala vöru eða þjónustu til viðskiptamanna.
@@ -48,13 +51,15 @@ Mikilvægur hluti flutningsferlisins er að tilgreina reikningana sem flytja á 
 Ef færslur í QuickBooks Online hafa skattaupphæðir, þarf að setja upp skattareikning fyrir þína skattalögsögu í [!INCLUDE[d365fin](includes/d365fin_md.md)] áður en þú getur bókað færslur.
 
 ## <a name="how-do-i-start-using-the-extension"></a>Hvernig byrja ég að nota viðbótina?
+
 Auðvelt er að hefjast handa Það eina sem þú þarft að gera er að keyra **Gagnaflutingur** uppsetningu með aðstoðarleiðbeiningum. Svona er það gert:
 
 1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Uppsetning með hjálp** og veldu síðan **Flytja viðskiptagögn**.
 2. Fylgdu leiðbeiningunum fyrir hvert skrefi í Uppsetningu með aðstoð.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Hvað geri ég eftir gagnaflutninginn?
-Þegar gagnaflutningi er lokið, hafa færslur stöðuna **Óbókaðar**, svo þú getur endurskoðað þær og gert leiðréttingar. Til að endurskoða færslurnar, skal farið á síðuna þar þú myndir venjulega finna þær. Til dæmis, til að endurskoða óbókaða sölureikninga, skal farið á síðuna **Sölureikningar**. Til að endurskoða greiðslubækur, skal fara á síðuna **Greiðslubækur**.   
+
+Þegar gagnaflutningi er lokið, hafa færslur stöðuna **Óbókaðar**, svo þú getur endurskoðað þær og gert leiðréttingar. Til að endurskoða færslurnar, skal farið á síðuna þar þú myndir venjulega finna þær. Til dæmis, til að endurskoða óbókaða sölureikninga, skal farið á síðuna **Sölureikningar**. Til að endurskoða greiðslubækur, skal fara á síðuna **Greiðslubækur**.  
 
 Það eru einkum nokkrir hlutir sem þú þarft að gera:
 
@@ -63,5 +68,6 @@ Auðvelt er að hefjast handa Það eina sem þú þarft að gera er að keyra *
 * Staðfesta upphafsstöðu reikninga í fjárhagnum. QuickBooks Online geymir ekki núgildandi stöðu fyrir alla reikninga, og því gætirðu þurft að leiðrétta upphafstöður.
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  

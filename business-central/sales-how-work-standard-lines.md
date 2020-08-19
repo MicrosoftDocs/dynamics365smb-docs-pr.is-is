@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 05/25/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4da1195333f6b36866f55ee02123f75df4778de0
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 70ce34984a98631d20c2d836164f9328fbb15a2a
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402556"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577177"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Stofna ítrekaðar sölu- og innkaupalínur
 Ef þú þarft oft að stofna innkaupa- og sölulínur með svipuðum upplýsingum, geturðu sett upp staðlaðar línur, sem þú getur svo fært inn í ítrekuð sölu- og innkaupaskjöl, til dæmis fyrir endurteknar áfyllingapantanir.  
@@ -31,6 +31,8 @@ Eftirfarandi ferli sýna hvernig skal vinna með staðlaðar sölulínur á söl
 
 > [!NOTE]
 > Þú getur ekki skilgreint verð á endurteknum sölulínum vegna þess að verð, afslættir o.s.frv. er reiknað út á raunverulegu söluskjölunum eftir að þú hefur sett inn endurteknar sölulínur.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="to-assign-recurring-sales-lines-to-a-customer"></a>Endurteknum sölulínum úthlutað á viðskiptamann
 

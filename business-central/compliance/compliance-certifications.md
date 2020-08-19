@@ -9,34 +9,40 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: soalex
-ms.openlocfilehash: 1dde92217278ad8f4b5f8805afe052b06d6fc64b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8593958c57f508597cfa082bdbee4d518cc51d1b
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185949"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611410"
 ---
-# <a name="certifications"></a>Vottanir  
+# <a name="certifications"></a>Vottanir
+
 Þetta efni inniheldur upplýsingar um vottanir í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-## <a name="country-certifications-and-accreditations"></a>Landsvottanir og faggildingar
-Í sumum löndum þarf bókhaldshugbúnaður að vera vottaður í samræmi við staðbundnar skattareglur og fjárhagslegar kröfur. Sum lönd beita þessu sem endurtekinnar kröfu á hverju ári og önnur sem einnar kröfu til að fara eftir. Hér að neðan er listi yfir núverandi lönd þar sem Business Central hefur fengið vottun. Athugaðu að aðeins nokkur lönd gera kröfu um þetta.  
-- Frakkland (vottun skattaeftirlits) [(tengill á vottun í Frakklandi)](https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf) 
-- Þýskaland (nær einnig til Austurríkis og Sviss) [(hlekkur á vottun í Þýskalandi)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)
+## <a name="countryregion-specific-certifications-and-accreditations"></a>Vottanir og faggildingar tiltekins lands/svæðis
+
+Í sumum löndum eða svæðum þarf bókhaldshugbúnaður að vera vottaður í samræmi við staðbundnar skattareglur og fjárhagslegar kröfur. Sum lönd beita þessu sem endurtekinnar kröfu á hverju ári og önnur sem einnar kröfu til að fara eftir. Hér að neðan er listi yfir núverandi lönd/svæði þar sem Business Central hefur fengið vottun.
+
+> [!NOTE]
+> Aðeins nokkur lönd gera kröfu um þetta.
+
+- Frakkland (vottun skattaeftirlits) [(tengill á vottun í Frakklandi)](https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf)  
+- Þýskaland (nær einnig til Austurríkis og Sviss) [(hlekkur á vottun í Þýskalandi)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
 
 > [!NOTE]  
->  **Vottanir í löndum þar sem Microsoft gefur ekki út staðfærðar útgáfur**  
-> Í löndum þar sem Microsoft gefur ekki út staðfærða útgáfu er það yfirleitt í höndum samstarfsaðila að fá vottun á vöru Business Central, þ.m.t. staðfærslu samstarfsaðila og eftirlitseiginleika að auki.
+> Í löndum/svæðum þar sem Microsoft gefur ekki út staðfærða útgáfu er það yfirleitt í höndum samstarfsaðila að fá vottun á vöru Business Central, þ.m.t. staðfærslu samstarfsaðila og eftirlitseiginleika að auki.
 
-## <a name="other-certifications"></a>Aðrar vottanir  
+## <a name="other-certifications"></a>Aðrar vottanir
+
 Business Central sem skýjaþjónusta hefur fengið vottanir á borð við ISO 27001 og fleira. Ítarlegur listi yfir þessar vottanir eru á [þessari síðu (PDF)](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Reglufylgni](compliance-overview.md)  
 [Reglufylgni forrits](compliance-application-compliance.md)  
 [Reglufylgni þjónustu](compliance-service-compliance.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

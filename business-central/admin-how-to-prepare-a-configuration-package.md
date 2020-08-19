@@ -1,7 +1,7 @@
 ---
 title: Hvernig á að undirbúa grunnstillingarpakka | Microsoft Docs
 description: Lærðu núna til að grunnstilla RapidStart grunnstillingarpakka sem getur hjálpað við að setja upp ný fyrirtæki á grundvelli fyrirliggjandi gagna.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: bholtorf
+ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535973"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666998"
 ---
 # <a name="prepare-a-configuration-package"></a>Undirbúa grunnstillingarpakka
 
@@ -30,6 +30,12 @@ Vert er að hafa í huga nokkur atriði áður en grunnstillingapakki er búinn 
 ### <a name="tables-that-contain-posted-entries"></a>Töflur sem innihalda bókaðar færslur
 
 Ekki er hægt að flytja inn gögn í töflur sem innihalda bókaðar færslur, svo sem töflur fyrir viðskiptamanna-, lánardrottna- og birgðabókafærslur, þannig að ekki ætti að taka þessi gögn með í grunnstillingapakkanum. Hægt er að bæta færslum við þessar töflur eftir að grunnstillingapakkinn hefur verið færður inn með því að nota færslubækur til að bóka færslurnar. Frekari upplýsingar er að finna í [Bókun skjala og færslubóka](ui-post-documents-journals.md).
+
+### <a name="table-names-that-contain-special-characters"></a>Töfluheiti sem innihalda sérstafi
+
+Farðu varlega ef ert með töflur eða reiti sem hafa sama tímabundna heitið en eru aðgreind með sérstöfum, t.d. %, &, <, >, (, og ). Til dæmis getur taflan "XYZ" innihaldið reitina „Svæði 1“ og „Svæði 1%“.
+
+XML-úrvinnslan samþykkir aðeins suma sérstafi og fjarlægir þá sem hún samþykkir ekki. Ef sértákn á borð við %-merkið í „Svæði 1%“ er fjarlægt, verða til tvær eða fleiri töflur eða reitir með sama heitinu og villa kemur upp þegar grunnstillingapakki er fluttur út eða inn. 
 
 ### <a name="licensing"></a>Leyfisveiting
 

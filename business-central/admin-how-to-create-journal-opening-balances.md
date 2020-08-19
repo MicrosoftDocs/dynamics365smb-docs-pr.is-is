@@ -8,29 +8,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2c42e87db1e0dd792d9b4444db3cfe5d1a05ed48
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5360b3a8a72387cda8d0e640562a118ca1f20ff4
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187149"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577127"
 ---
 # <a name="create-journal-opening-balances"></a>Stofna opnunarstöður færslubókar
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur margar keyrslur sem fylgja til aðstoðar við flutningi á gömlum reikningstöðum til nýlega grunnstillts fyrirtækis. Auðvelt er að flytja þessi gögn með færslubók viðskiptavinar, færslubók lánardrottins, birgðabókinni og fjárhagsbók.
 
 Fyrsta skrefið er að stofna grunnstillingarpakka sem inniheldur uppsetningartöflurnar fyrir þessar færslubækur. Eftirfarandi aðferð gerir ráð fyrir því að þessu skrefi sé lokið. Frekari upplýsingar eru í [Setja upp grunnstillingu fyrirtækis](admin-set-up-company-configuration.md). Ferlið lýsir næstu skrefum, en í þeim felst að nota pakkann sem samstarfsaðili veitir.  
 
 Áður en hafist er handa þarf að ganga úr skugga um að notandi sé á hlutverkasíðu stjórnunar því hún býður upp á rétt samhengi fyrir grunnstillingarvinnuna. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).
 
-## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Til að jafna færslurnar í færslubók við nýtt fyrirtæki  
+## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Til að jafna færslurnar í færslubók við nýtt fyrirtæki
+
 1. Grunnstilla nýtt fyrirtæki og nota grunnstillingarpakka í því. Frekari upplýsingar eru í [Grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
 
     Nýja fyrirtækið inniheldur ekki upplýsingar um opnunarstöður færslubóka.  
 
 2. Opna grunnstillingarvinnublaðið og flytja inn fyrirliggjandi gögn um viðskiptavini, vörur, lánardrottna og fjárhag. Frekari upplýsingar eru í [Yfirfæra gögn viðskiptamanns](admin-migrate-customer-data.md).  
-3. Til dæmis skal velja aðgerðina **Stofna fjárhagsbókarlínur fjárhagsreiknings**.  
+
+    Nú ertu með aðalgögn á sínum stað. Næst skal bæta við opnunarstöðum. Eftirfarandi skref lýsa því hvernig á að stofna færslubókarlínur fyrir fjárhagsreikninga, en það sama gildir um stofnun færslubókarlína fyrir viðskiptamenn, lánardrottna og vörur.  
+3. Velja skal aðgerðina **Stofna fjárhagsbókarlínur fjárhagsreiknings**.  
 4. Fylla inn í flýtiflipann **Valkostir** þar sem við á, og setja afmarkanir eftir þörfum. Til dæmis í reitinn **Bókarsniðmát** er fært inn heiti.  
 5. Velja hnappinn **Í lagi**. Færslurnar eru nú í færslubók, en upphæðirnar eru auður.  
 6. Flytja út færslubókartöflua í Excel og færa handvirkt inn upplýsingar um bókunina og mótreikninginn úr gömlum gögnum.
@@ -39,7 +43,11 @@ Fyrsta skrefið er að stofna grunnstillingarpakka sem inniheldur uppsetningart�
 9. Yfirfara skal upplýsingarnar og síðan velja aðgerðina **Bóka**.  
 10. Endurtaka skal skrefin til að flytja inn og bóka aðrar opnunarstöður.  
 
-## <a name="see-also"></a>Sjá einnig  
+> [!TIP]
+> Hægt er að nota sömu runuvinnslur til að bæta við opnunarstöðum í hvert sinn sem nýr viðskiptamaður eða lánardrottinn sem þú hefur stundað viðskipti með áður en er ekki skráður í [!INCLUDE [prodshort](includes/prodshort.md)]. Leitið einfaldlega að viðkomandi verki og veljið síðan viðkomandi tengil.
+
+## <a name="see-also"></a>Sjá einnig
+
 [Nota skilgreiningu á ný fyrirtæki](admin-apply-configuration-to-new-companies.md)  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Stjórnun](admin-setup-and-administration.md)
+[Stjórnun](admin-setup-and-administration.md)  

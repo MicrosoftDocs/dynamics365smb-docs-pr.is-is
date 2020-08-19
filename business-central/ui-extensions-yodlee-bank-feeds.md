@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ca384d58046bd0c798038878a3ed93f5a00eeec5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7ef9d8e7904b51956960973e06ca6d936acb1aa0
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189844"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666873"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Envestnet Yodlee Bank Feeds Viðbótin
 Til að stemma af á skjótan hátt greiðslur gerðar inn á bankareikninga þína, þá leyfir Envestnet Yodlee Bank Feeds þjónustan þér að tengja bankareikning kerfis þíns við netbankareikninginn þinn. Þetta þýðir að síðustu bankayfirlitinu er sjálfkrafa eða handvirkt streymt inn í afstemmingarbók þína, og tryggir að þú ert alltaf að vinna úr síðustu greiðslunum með lágmarks hættu á villum.
@@ -40,6 +40,9 @@ Envestnet Yodlee Bank Feeds þjónustan veitir eftirfarandi ávinning:
 * Leyfir nýjustu upplýsingar um bankafærslur úr [!INCLUDE[d365fin](includes/d365fin_md.md)].
 * Styður handvirka ásamt sjálfvirk bankastreymi.
 * Gerir mögulega útvistun greiðsluafstemmingar til endurskoðanda með því að veita aðgang að bankayfirlitum.
+
+## <a name="available-bank-feeds"></a>Bankastreymi í boði
+Hægt er að skoða hvort banki sé studdur með því að setja upp og tengjast við Envestnet Yodlee Bank Feeds-þjónustuna. Bankinn mun birtast á listanum ef hann er studdur af Envestnet Yodlee.
 
 Frekari upplýsingar eru í [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md).
 

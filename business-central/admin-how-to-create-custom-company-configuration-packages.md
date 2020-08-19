@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8bbd9b07976dc4d54f8bee9f5eb8c23270c5a10c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c133a678d3628fa8274399d22e7f53b73740e3d8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187173"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666848"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Búa til sérstillta grunnstillingarpakka fyrirtækja
 Eftir því sem fyrirtækið vex, er líklegt að treyst verði á safn fyrirtækjategunda sem verður notað með flestum af viðskiptamönnum fyrirtækisins. Hægt er að auðvelda innleiðingarferlið með því að breyta þessum tegundum í grunnstillingarpakka fyrir fyrirtæki sem hægt er að nota aftur.  
@@ -38,6 +38,11 @@ Almennt eru grunnstillingarpakkar stofnaðir fyrir hverja virkni, s.s. framleið
 -   Birgðabókunargrunnur  
 
 Til að sjá heildarlista yfir uppsetningartöflur skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Handvirk uppsetning** og veldu síðan tengda tengilinn.  
+
+> [!IMPORTANT]
+> Farðu varlega ef þú velur töflur eða reiti sem hafa sama tímabundna heitið en eru aðgreind með sérstöfum, t.d. %, &, <, >, (, og ). Til dæmis getur taflan "XYZ" innihaldið reitina „Svæði 1“ og „Svæði 1%“.
+>
+> XML-úrvinnslan samþykkir aðeins suma sérstafi og fjarlægir þá sem hún samþykkir ekki. Ef sértákn á borð við %-merkið í „Svæði 1%“ er fjarlægt, verða til tvær eða fleiri töflur eða reitir með sama heitinu og villa kemur upp þegar grunnstillingapakki er fluttur út eða inn.
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Til að búa til sérstilltan grunnstillingarpakka fyrirtækis  
 1.  Búa til nýtt fyrirtæki. Frekari upplýsingar eru í [Stofna ný fyrirtæki í Business Central](about-new-company.md).  

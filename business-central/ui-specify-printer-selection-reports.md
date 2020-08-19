@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272087"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549868"
 ---
 # <a name="set-up-printers"></a>Setja upp prentara
 Vegna þess að [!INCLUDE[prodshort](includes/prodshort.md)] er skýjaþjónusta nær hún ekki til staðbundinna prentara sem eru tengdir vélum notanda. Hins vegar er hægt að tengjast skýjavirkum prenturum. Í almennri útgáfu af [!INCLUDE[prodshort](includes/prodshort.md)] er skýjaprentari með heitið **Tölvupóstsprentari** uppsettur sem viðbót og er tilbúinn til notkunar eftir upphaflega uppsetningu.
@@ -55,7 +55,11 @@ Ef viðbót tölvupóstsprentara er notuð verða öll eða sum prentverk send t
 Nauðsynlegt er að gera allar nauðsynlegar persónuverndarráðstafanir, þar á meðal að tryggja að prentlausnin fyrir tölvupóst hafi rétt skilgreindar heimildir, persónuverndarstillingar og varðveislureglur. Það er á ábyrgð notanda að gefa upp rétt, staðfest og starfhæft netfang. Frekari upplýsingar er að finna í [Yfirlýsing Microsoft um persónuvernd](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## <a name="to-select-which-printers-print-which-reports"></a>Til að velja hvaða prentara prenta hvaða skýrslur
+
 Á síðunni **Prentaraval** er hægt að setja upp fyrir notandareikninginn hvaða skýrslur eru prentaðar með hvaða prentara. Þetta er gagnlegt ef unnið er með mismunandi skýrslur sem krefjast mismunandi prentara vegna staðsetningar þeirra í fyrirtækinu eða útprentunarmöguleika.
+
+> [!IMPORTANT]
+> Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum getur síðan **Prentaraval** aðeins verið notuð fyrir prentara sem prentaraviðbótin skilgreinir. Ekki er hægt að nota hana fyrir staðbundna prentara.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Prentaraval** og veldu síðan tengda tengilinn. Að öðrum kosti er hægt að velja prentara á síðunni **Prentarastjórnun** og velja síðan aðgerðina **Prentaraval**.
 2. Velja skal aðgerðina **Nýtt** til að bæta við prentaravali fyrir tiltekna skýrslu.
@@ -76,7 +80,7 @@ Tilgreind skýrsla er nú uppsett til prentunar í völdum sjálfgefnum prentara
 |Prenta skýrslu í tilteknum prentara fyrir alla notendur |Tilgreinið gildi í reitunum **Kenni skýrslu** og **Prentaraheiti** og skiljið reitinn **Kenni notanda** eftir auðan.|
 |Prenta allar skýrslur í tilteknum prentara fyrir tiltekinn notanda|Tilgreinið gildi í reitunum **Kenni notanda** og **Prentaraheiti** og skiljið reitinn **Kenni skýrslu** eftir auðan.|
 |Stilla sjálfgefinn prentara fyrir allar skýrslur|Tilgreinið gildi í reitnum **Prentaraheiti** og skiljið reitina **Kenni notanda** og **Kenni skýrslu** eftir auða.|
-|Prenta tiltekna skýrslu í sjálfgefnum prentara notandans|Tilgreinið gildi í reitnum **Kenni skýrslu** og skiljið reitina **Prentaraheiti** og **Kenni notanda** eftir auða.|
+|Prenta tiltekna skýrslu á sjálfgefnum prentara notanda|Tilgreinið gildi í reitnum **Kenni skýrslu** og skiljið reitina **Prentaraheiti** og **Kenni notanda** eftir auða.|
 |Prenta tiltekna skýrslu í tilteknum prentara fyrir tiltekinn notanda|Tilgreinið gildi í öllum þremur reitunum.|
 
 > [!NOTE]

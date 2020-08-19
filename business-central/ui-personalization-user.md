@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: dfc7b91c50297c130a4a6d50401c7adb53bd608b
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262191"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666948"
 ---
 # <a name="personalize-your-workspace"></a>Sérstilling verksvæðis
 Þú getur sérstillt vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá.
@@ -27,6 +27,11 @@ Allt eftir gerð síðunnar og því sem hún inniheldur er hægt að gera ýmsa
 > [!NOTE]
 > Stjórnendur geta framkvæmt sömu útlitsbreytingar og notendur geta með því að sérstilla vinnusvæðið fyrir forstillingu sem mörgum notendum hefur verið úthlutað. Frekari upplýsingar er að finna á [Sérstilla síður fyrir hlutverk](ui-personalization-manage.md)<br /><br />
 Stjórnendur geta einnig hnekkt eða slökkt á sérstillingu notenda og hægt er að skilgreina hvaða eiginleikar eru tiltækir fyrir notendur til að sjá í öllum eða tilteknum fyrirtækjum. Frekari upplýsingar eru í [Sérstilling Business Central](ui-customizing-overview.md).
+
+## <a name="video-overview"></a>Yfirlit myndbands
+Eftirfarandi myndband sýnir nokkrar af þeim leiðum sem hægt er að sérsníða hlutverkamiðstöð notanda.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
 
 ## <a name="to-change-the-width-of-a-column"></a>Til að breyta breidd á dálki
 Auðvelt er að breyta dálkum á hvaða lista sem er með því að draga mörkin á milli tveggja dálka til vinstri eða hægri.

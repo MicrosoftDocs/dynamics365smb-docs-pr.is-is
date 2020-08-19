@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5270d0a45b6da568506db8ae9b166be57d391f17
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185109"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617547"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Hönnunarupplýsingar: vörurakning g frátekningar
+
 Samtímis notkun frátekninga og tiltekinnar vörurakningar er óalgengt, vegna þess að bæði búa til tenging milli framboðs og eftirspurnar. Nema þegar viðskiptamaður eða framleiðslustjóri óskar eftir tiltekinni lotu er sjaldnast ástæða til að taka frá birgðavörur sem þegar hafa vörurakningarnúmer fyrir tiltekna jöfnun. Þó það er hægt að taka frá vörur sem krefjast sérstakrar vörurakningar er þörf á sérstökum eiginleika til að forða framboðsárekstra á milli pantanavinnsla sem biðja um sömu röktu vörurnar.  
   
 Hugmyndin um bindingu eftir áætlun tryggir ósértæk pöntun á raðnúmer eða lotunúmer lauslega fram að bókun. Á bókunartíma getur frátekningarkerfið stokkað ótilgreindar frátekningar til að tryggja að föst jöfnun sé möguleg á móti rað- eða lotunúmeri sem búið er að tína. Á meðan eru rað- eða lotunúmer gerð tiltæk fyrir sérstaka frátekningu í öðrum skjölum sem krefjast tiltekins rað- eða lotunúmers.  
@@ -25,7 +26,7 @@ Hugmyndin um bindingu eftir áætlun tryggir ósértæk pöntun á raðnúmer e�
 Ótilgreind frátekning er frátekning þar sem notanda er sama hvaða vara er tínd og sérstök frátekning er hið gagnstæða.  
   
 > [!NOTE]  
->  Aðgerðin fyrir bindingu á eftir áætlun tengist aðeins vörum sem eru stilltar með tilgreindir vörurakningu og á aðeins við um fyrirvaran gagnvart birgðum, ekki gagnvart búnaðarpöntunum á innleið.  
+> Aðgerðin fyrir bindingu á eftir áætlun tengist aðeins vörum sem eru stilltar með tilgreindir vörurakningu og á aðeins við um fyrirvaran gagnvart birgðum, ekki gagnvart búnaðarpöntunum á innleið.  
   
 Frátekning vörurakningarnúmera fellur í tvo flokka, eins og sýnt er í eftirfarandi töflu.  
   
@@ -36,11 +37,9 @@ Frátekning vörurakningarnúmera fellur í tvo flokka, eins og sýnt er í efti
   
 Aðalmunurinn á tilgreindum og ótilgreindum frátekningum er skilgreindur með tilvist raðnúmera eða lotunúmer eftirspurnarmegin, eins og sýnt er í eftirfarandi töflu.  
   
-||||  
-|-|-|-|  
-||**Framboð**|**Eftirspurn**|  
-|**Sérstakt**|Rað- eða lotunúmer.|Rað- eða lotunúmer.|  
-|**Ekki sérstatk**|Rað- eða lotunúmer.|Ekkert rað- eða lotunúmer.|  
+|<!--blank -->|**Framboð**|**Eftirspurn**|  
+|**Tiltekið**|Rað- eða lotunúmer.|Rað- eða lotunúmer.|  
+|**Ótiltekið**|Rað- eða lotunúmer.|Ekkert rað- eða lotunúmer.|  
   
 Þegar þú tekur frá birgðamagn úr skjalalínu skjala á útleið fyrir vöru sem er með úthlutuð vörurakningarnúmer og er sett upp með sértæka vörurakningu leiðir síðan **Frátekning** þig í gegnum mismunandi verkflæði, allt eftir því hversu mikla þörf þú hefur fyrir rað- eða lotunúmer.  
   

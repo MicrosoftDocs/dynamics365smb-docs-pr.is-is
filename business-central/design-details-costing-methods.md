@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8333e3127a009a04d63fceb8ec17530f83de10d0
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496676"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617912"
 ---
 # <a name="design-details-costing-methods"></a>Hönnunarupplýsingar: Aðferð kostn.útreiknings
+
 Það veltur á aðferð við kostnaðarútreikning hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikning. Kostnaðaraðferðin hefur líka áhrif á það hvernig kostnaðarflæðið er skráð, ásamt bókunardagsetningu og lotu.
 
 > [!NOTE]
@@ -26,13 +27,13 @@ ms.locfileid: "3496676"
 
 Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
-|Aðferð kostn.útreiknings|Description|Hvenær skal nota|  
-|--------------------|---------------------------------------|-----------------|  
-|FIFO|Kostnaðarverð vöru er raunvirði sérhverrar innhreyfingar vörunnar, valið samkvæmt FIFO-reglunni.<br /><br /> Fyrir verðmat birgða, er gert ráð fyrir að vörur sem settar voru fyrst í birgðir seljist fyrst.|Í umhverfi fyrirtækja þar sem vörukostnaður er stöðugt.<br /><br /> (Þegar verð hækkar sýnir efnahagsreikningurinn hærra virði. Þetta þýðir að skattaskuldir aukast, en möguleikar til að fá lánsfé aukast.<br /><br /> Notið með vörum með takmarkaðan endingartíma, þar sem elstu vörurnar þarf að selja áður en þær fara fram yfir síðasta söludag.|  
-|LIFO|Kostnaðarverð vöru er raunvirði sérhverrar innhreyfingar vörunnar, valin samkvæmt LIFO-reglunni.<br /><br /> Fyrir verðmat birgða, er gert ráð fyrir að vörur sem settar voru síðast í birgðir seljist fyrst.|Óheimilt í mörgum löndum, þar sem það getur verið notað til að minnka hagnað.<br /><br /> (Þegar verð hækkar, lækkar virðið á rekstarreikningnum. Þetta þýðir að skattaskuldir minnka, en möguleikar til að fá lánsfé rýrna.|  
-|Meðaltal|Kostnaðarverð vöru er reiknað sem meðaleiningaverð vara á hverjum tímapunkti eftir innkaup.<br /><br /> Fyrir verðmat birgða er gert ráð fyrir að allar birgðir séu seldar samtímis.|Í umhverfi fyrirtækja þar sem vörukostnaður er óstöðugur.<br /><br /> Þar sem birgðum er raðað eða blandað saman og er ekki hægt að aðskilja, til dæmis kemísk efni.|  
-|Sérstakt|Kostnaðarverð vöru er nákvæmur kostnaður þegar tekið var við vörunni.|Í framleiðslu eða viðskiptum með vörur sem auðvelt er að bera kennsl á og hafa frekar hátt kostnaðarverð.<br /><br /> Notist fyrir vörur sem falla undir reglugerð.<br /><br /> Notið fyrir vörur með raðnúmer.|  
-|Staðall|Kostnaðarverð vöru er byggt á áætlun.<br /><br /> Þegar raunkostnaður er innleystur síðar, verður að breyta staðlaða kostnaðarverðinu í raunkostnaðinn, í gegnum fráviksgildi.|Þar sem kostnaðarstýring er mikilvæg.<br /><br /> Í endurtekingaframleiðslu, til að meta kostnaðinn á beinu efni, beinni framleiðslu og sameiginlegs kostnaðar.<br /><br /> Í öguðu umhverfi og þar sem starfsfólkið viðheldur gæðastaðli.|  
+| Aðferð kostn.útreiknings | Description | Hvenær skal nota |
+|--|--|--|
+| FIFO | Kostnaðarverð vöru er raunvirði sérhverrar innhreyfingar vörunnar, valið samkvæmt FIFO-reglunni.<br /><br /> Fyrir verðmat birgða, er gert ráð fyrir að vörur sem settar voru fyrst í birgðir seljist fyrst. | Í umhverfi fyrirtækja þar sem vörukostnaður er stöðugt.<br /><br /> (Þegar verð hækkar sýnir efnahagsreikningurinn hærra virði. Þetta þýðir að skattaskuldir aukast, en möguleikar til að fá lánsfé aukast.<br /><br /> Notið með vörum með takmarkaðan endingartíma, þar sem elstu vörurnar þarf að selja áður en þær fara fram yfir síðasta söludag. |
+| LIFO | Kostnaðarverð vöru er raunvirði sérhverrar innhreyfingar vörunnar, valin samkvæmt LIFO-reglunni.<br /><br /> Fyrir verðmat birgða, er gert ráð fyrir að vörur sem settar voru síðast í birgðir seljist fyrst. | Óheimilt í mörgum löndum, þar sem það getur verið notað til að minnka hagnað.<br /><br /> (Þegar verð hækkar, lækkar virðið á rekstarreikningnum. Þetta þýðir að skattaskuldir minnka, en möguleikar til að fá lánsfé rýrna. |
+| Meðaltal | Kostnaðarverð vöru er reiknað sem meðaleiningaverð vara á hverjum tímapunkti eftir innkaup.<br /><br /> Fyrir verðmat birgða er gert ráð fyrir að allar birgðir séu seldar samtímis. | Í umhverfi fyrirtækja þar sem vörukostnaður er óstöðugur.<br /><br /> Þar sem birgðum er raðað eða blandað saman og er ekki hægt að aðskilja, til dæmis kemísk efni. |
+| Sérstakt | Kostnaðarverð vöru er nákvæmur kostnaður þegar tekið var við vörunni. | Í framleiðslu eða viðskiptum með vörur sem auðvelt er að bera kennsl á og hafa frekar hátt kostnaðarverð.<br /><br /> Notist fyrir vörur sem falla undir reglugerð.<br /><br /> Notið fyrir vörur með raðnúmer. |
+| Staðlað | Kostnaðarverð vöru er forstillt samkvæmt áætlun.<br /><br /> Þegar raunkostnaður er innleystur síðar, verður að breyta staðlaða kostnaðarverðinu í raunkostnaðinn, í gegnum fráviksgildi. | Þar sem kostnaðarstýring er mikilvæg.<br /><br /> Í endurtekingaframleiðslu, til að meta kostnaðinn á beinu efni, beinni framleiðslu og sameiginlegs kostnaðar.<br /><br /> Í öguðu umhverfi og þar sem starfsfólkið viðheldur gæðastaðli. |
 
  Á meðfylgjandi mynd sést kostnaðarflæði gegnum birgðir fyrir hverja kostnaðarmatsaðferð.  
 
@@ -40,7 +41,7 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md
 
  Aðferð kostnaðarútreiknings eru mismunandi í því hvernig þeir meta birgðaminnkun og hvort þær nota raunkostnað eða staðalkostnað vörubirgðir sem grunn matsins. Eftirfarandi tafla útskýrir mismunandi einkenni. (LIFO-aðferðin er útilokuð þar sem hún er mjög svipuð FIFO-aðferðinni.)  
 
-||FIFO|Meðaltal|Staðall|Sérstakt|  
+|<!--blank -->|FIFO|Meðaltal|Staðall|Sérstakt|  
 |-|----------|-------------|--------------|--------------|  
 |Almennir eiginleikar|Auðskilið|Byggt á tímabilsvalkostum: **Dagur**/**/Vika/**/**Mánuður**/**/Ársfjórðungur/**/**Reikningstímabil**.<br /><br /> Hægt að reikna út á vöru , eða á vörueiningu/staðsetningu/afbrigði.|Einfalt í notkun en þarf gott viðhald.|Krefst vörurakningar á bæði færslur á innleið og útleið.<br /><br /> Venjulega notað fyrir vörur með raðnúmer.|  
 |Jöfnun/Leiðrétting|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Leiðrétting framsendir kostnað í samræmi við jöfnun magns.|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Kostnaður er reiknaður og sendur á **dagsetningu mats**|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Jöfnun byggist á FIFO.|Allar jafnanir eru fastar.|  
@@ -67,7 +68,7 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md
 ### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun  
  **FIFO**/**LIFO**/**Meðaltal**/**Sérstakt**  
 
- Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem grunn fyrir verðmati (**FIFO (fyrst inn - fyrst út)**, **LIFO (síðast inn - fyrst út)**, **Meðaltal** eða **Tilgreint**), er birgðaaukning metin á kaupverði vörunnar.  
+ Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem grunn fyrir verðmat (**FIFO (fyrst inn - fyrst út)**, **LIFO (síðast inn - fyrst út)**, **Meðaltal** eða **Tilgreint**), er birgðaaukning metin á kaupverði vörunnar.  
 
  Eftirfarandi tafla sýnir hvernig birgðir sem aukast eru metnar fyrir allar kostnaðarmatsaðferðir utan **Staðlað**.  
 
@@ -79,7 +80,7 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md
 
  **Staðlað**  
 
- Þegar notuð er kostnaðaraðferðin **Staðlað** er birgðaaukning metin á því staðalverði sem er í gildi.  
+ Þegar notuð er kostnaðaraðferðin **Staðlað** er birgðaaukning metin á því staðalverði vörunnar sem er í gildi.  
 
  Eftirfarandi tafla sýnir hvernig birgðir sem aukast eru metnar fyrir kostnaðarmatsaðferðina **Staðlað**.  
 

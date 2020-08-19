@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: ebdd92cf957df4c21d20c7809ddf10096404ba91
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496826"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617680"
 ---
 #  <a name="create-analysis-reports"></a>Stofna greiningarskýrslur
 Sölustjórar þurfa að greina veltu, brúttóhagnað og aðrar lykilstærðir varðandi sölu með reglulegu millibili. Innkaupaaðilar hafa meiri áhuga á að greina innkaupamagn, fylgjast með frammistöðu birgja og innkaupaverði. Vöru- og birgðastjórar þurfa hins vegar upplýsingar um birgðaveltu, greiningu á hreyfingu birgða og upplýsingar um birgðavirði.  
@@ -45,7 +45,7 @@ Síðan er hægt að setja upp dálka eins og þessa:
 
 Það fer eftir línunum og dálkunum sem hafa verið sett upp, mun [!INCLUDE[d365fin](includes/d365fin_md.md)] draga saman niðurstöðu skýrslunnar á síðunni **Greiningarskýrsla** eins og sýnt er í eftirfarandi töflu.  
 
-| |Sala gildandi mánaðar|Sala síðasta mánaðar|Sala síðasta mánaðar í %|  
+|- |Sala gildandi mánaðar|Sala síðasta mánaðar|Sala síðasta mánaðar í %|  
 |-|-|-|-|  
 |Tölvur| | | |  
 |Skjáir| | | |  

@@ -9,35 +9,42 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: soalex
-ms.openlocfilehash: bc55e2ec51285f540c117983af51704f7059abd9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c4c3beda4ef5febd6b938b61fcd9f6fac774d10e
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185973"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611485"
 ---
 # <a name="application-compliance"></a>Reglufylgni forrits
+
 Þetta efni inniheldur upplýsingar um reglufylgni forrits í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)], á borð við alþjóðlegan fjárhagsskilastaðal, staðbundnar aðgerðir, almennu persónuverndarreglugerðina og fleira. Traust á lausn í fyrirtækjarekstri er lykillinn að því að reka hagkvæmt fyrirtæki. Business Central gerir fyrirtækjum kleift að einfalda viðskiptaferla og einnig að fylgja auknum reglugerðum og skýrslukröfum á áreiðanlegan og hagkvæman hátt.
 
-## <a name="data-privacy"></a>Gagnavernd  
+## <a name="data-privacy"></a>Gagnavernd
+
 Business Central styður framtak í persónuvernd á borð við almennu persónuverndarreglugerðina (GDPR) sem tók gildi 25. maí 2018. Lestu meira um [Business Central styður GDPR](../admin-responding-to-requests-about-personal-data.md).  
 
 Ef þú ert þróunaraðili fyrir Business Central-viðbætur verður þú að vita um gagnaflokkun. Sjá [þessa síðu](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
 Ef þú vilt læra meira um almennu persónuverndarreglugerðina í víðara samhengi Dynamics 365 skaltu skoða [þennan lista yfir rannsóknarskýrslur](/dynamics365/get-started/gdpr/).
 
-## <a name="accounting-processes-and-controls-to-aid-compliance"></a>Bókhaldsferli og stýringar til að stuðla að reglufylgni  
+## <a name="accounting-processes-and-controls-to-aid-compliance"></a>Bókhaldsferli og stýringar til að stuðla að reglufylgni
+
 Fyrirtæki standa frammi fyrir auknum áskorunum í fjárhagsbókhaldi á hverju ári. Það fer eftir atvinnugrein, mörkuðum, landfræðilegri staðsetningu og fjármögnunarþörfum, en stofnun getur verið háð staðbundnum almennum viðurkenndum reikningsskilareglum (GAAP) og einum eða fleiri af:
+
 - Sarbanes-Oxley-lögin (SOX), bandarísk lög samþykkt árið 2002 til að vernda fjárfesta með því að bæta nákvæmni og áreiðanleika fyrirtækjaupplýsinga.
 - Kaflinn um alþjóðlegan fjárhagsskilastaðal í kafla alþjóðlega reikningsskilastaðals Evrópusambandsins (IAS/IFRS) sem tók gildi árið 2005 og leggur fram alþjóðlega reikningsskilastaðla fyrir skráningu, mat, samstæðu og skýrslugerð.
 - Nýja Basel-samkomulagið (Basel II), samþykkt árið 2006, til að takast á við áhættur fjármálastofnana og stuðla að meiri stöðugleika í öllu fjármálakerfinu.
 
 ## <a name="good-practices-with-technology"></a>Góðar starfsvenjur með tækni
+
 Reglufylgni veltur ekki einungis á nákvæmum upplýsingum og viðeigandi bókhaldsferlum heldur einnig á fólkinu sem setur upp og stjórnar þeim ferlum. Skilvirk lausn í fyrirtækjarekstri getur auðveldað reglufylgni með því að hjálpa til við að stjórna gildum og aðgengilegum upplýsingum í gegnum gagnsæ ferli sem hafa verið sett upp í samræmi við staðla atvinnugreinar og regluverks.
 
-## <a name="realize-the-benefits-of-an-integrated-business-management-solution"></a>Gera sér grein fyrir ávinningi af samþættri lausn í fyrirtækjarekstri  
+## <a name="realize-the-benefits-of-an-integrated-business-management-solution"></a>Gera sér grein fyrir ávinningi af samþættri lausn í fyrirtækjarekstri
+
 Business Central býður upp á samþættingu á rekstrar- og fjárhagsupplýsingum í rauntíma í öllu fyrirtækinu þínu svo hægt sé að:
+
 - Fylgjast með fjárhagsgögnum með sérsniðnum fjárhagsskemu fyrir sjóðstreymi, tekjur, efnahagsreikninga, eignir, fjármagnsskipan, afkastavísa og meira.
 - Hjálpa til við að tryggja nákvæmni með öryggi sem byggir á hlutverki og stillanlegum forritastýringum sem koma í veg fyrir ógilda eða tvítekna gagnaskráningu.
 - Búa til fjárhagsskýrslur á fljótan og auðveldan hátt í samræmi við gildandi reglur.
@@ -66,6 +73,7 @@ Skila samþættum upplýsingar, samræmdum ferlum og verkfæri sem auðvelt er a
 - Tímasetja handvirka eða sjálfvirka öryggisafritun til að vernda upplýsingar frá rafmagnsbilunum
 
 ### <a name="comply-quickly-with-discovery-requests-and-reporting-demands"></a>Framfylgja fljótt leitarbeiðnum og skýrslukröfum
+
 - Spara tíma þegar þú býrð til staðlaðar skýrslur sem nota algengar viðskiptafæribreytur og skilyrði til að fullnægja dæmigerðum skýrslugerðarþörfum, allt frá samantekt pantana til aldursgreiningar viðskiptakrafa.
 - Framkvæma flóknar yfirferðir með einfaldri eða ítarlegri aðgerð viðskiptagreiningar.
 - Búa til sérsniðnar skýrslur og sýna í vöru og með því að nýta samþættingu við Microsoft PowerBI.
@@ -79,10 +87,11 @@ Skila samþættum upplýsingar, samræmdum ferlum og verkfæri sem auðvelt er a
 - Auka gagnsæi og nothæfi á slóð færslna og hraða upplýsingaaðgang fyrir endurskoðendur þriðja aðila með borun, leit, síun, skráningu og uppflettingu
 
 ## <a name="compliance-and-local-functionality"></a>Reglufylgni og staðbundin virkni
-Microsoft er að búa til staðbundnar útgáfur af Business Central fyrir nokkur lönd. Þessar staðbundnu útgáfur leggja fyrst og fremst áhersla á eftirlitseiginleika á skatta- og fjármálasviði en geta stundum verið hluti af öðrum þáttum forritsins. Ef þú vilt sjá hvað er byggt í staðbundnum landsútgáfum af Business Central skaltu skoða **Staðbundin virkni** í valmyndinni og velja land til að fræðast um sértæka virkni fyrir land.
+
+Microsoft býr til staðbundnar útgáfur af Business Central fyrir takmarkaðan fjölda markaða. Þessar staðbundnu útgáfur leggja fyrst og fremst áhersla á eftirlitseiginleika á skatta- og fjármálasviði en geta stundum verið hluti af öðrum þáttum forritsins. Ef þú vilt sjá hvað er búið til í staðbundnum landsútgáfum af Business Central skaltu skoða **Staðbundin virkni** í valmyndinni á þessu vefsvæði og velja land til að fræðast um staðbundna virkni. Frekari upplýsingar er að finna í [Staðbundin virkni](../about-localization.md).  
 
 > [!NOTE]  
->  **Sarbanes-Oxley: Sannprófar gögn og ferla**  
+> **Sarbanes-Oxley: Sannprófar gögn og ferla**  
 > Í Sarbanes-Oxley-lögum eru settir staðlar fyrir allar stjórnir bandarískra fyrirtækja, stjórnendur og opinber endurskoðendafyrirtæki, þar með talið mat og birtingu á fullnægjandi innra eftirliti fyrirtækis á reikningsskilum. Skjalfesting og prófun mikilvægra handvirkra og sjálfvirkra stýringa táknar mikla skuldbindingu á tíma og fjármagni fyrir fyrirtæki. Business Central er sérstaklega hentugt fyrir dótturfélög stærri stofnana og getur hjálpað litlum til meðalstórra fyrirtækja að framfylgja Sarbanes-Oxley-lögunum.
 
 > [!NOTE]  

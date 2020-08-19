@@ -1,5 +1,5 @@
 ---
-title: Afstemma greiðslur með sjálfvirkri jöfnun| Microsoft Docs
+title: Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum
 description: Á síðunni fyrir greiðslujöfnunarreglur eru settar upp reglur til að stjórna því hvernig greiðslur/bankafærslur eiga að vera sjálfkrafa jafnaðar við tengdar opnar fjárhagsfærslur þegar þú notar aðgerðina Notað sjálfkrafa á síðunni Greiðsluafstemmingarbók.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b655032a17aa617ccbaba2ac3dfd5413d4ca4326
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191932"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617574"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum
+
 Á síðunni **Greiðslujöfnunarreglur** seturðu upp reglur til að stjórna því hvernig greiðslutexti (á bankafærslu) er sjálfkrafa jafnaður við texta á opnum færslum í eftirfarandi tveimur ferlum:
+
 - Jafna greiðslur sjálfkrafa við tengda opna (ógreidda) reikninga, kreditreikninga eða aðrar færslur þegar aðgerðin **Nota sjálfkrafa** er notuð á síðunni **Greiðsluafstemmingarbók**. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
 - Jafna sjálfkrafa bankafærslur við tengdar, innri fjárhagsfærslur bankareiknings þegar þú velur aðgerðina **Jafna sjálfkrafa** á síðunni **Afstemming bankareiknings**. Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).

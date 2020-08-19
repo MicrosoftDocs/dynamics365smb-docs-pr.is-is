@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 8566856ade03531ce01f0fca35828d9af4fe785d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6d9cbf61160a2f8d64cfc7cd6b65aae4bd84a881
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188877"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611535"
 ---
 # <a name="local-functionality-in-prodlong"></a>Staðbundin virkni í [!INCLUDE[prodlong](includes/prodlong.md)]
 
@@ -25,7 +25,7 @@ Upplýsingar um studda markaði má finna á [Framboð eftir löndum/svæðum og
 
 ## <a name="local-functionality"></a>Staðbundin virkni
 
-Til að fá frekari upplýsingar um staðbundna virkni fyrir hvert land skaltu velja þann tengil sem á við:
+Til að fræðast um staðbundna virkni fyrir hvert land/svæði skal velja viðeigandi tengil:
 
 | Svæði | Land | Meiri upplýsingar |
 | --- | --- |--- |
@@ -54,9 +54,11 @@ Til að fá frekari upplýsingar um staðbundna virkni fyrir hvert land skaltu v
 |        | Nýja-Sjáland | [Staðbundnar aðgerðir fyrir Nýja-Sjáland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Önnur lönd
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er einnig í boði á öðrum mörkuðum með staðfæringarforritum. Ef samstarfsaðili Microsoft hefur þróað staðfæringarforrit fyrir landið þitt geturðu fundið það í [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er einnig í boði á öðrum mörkuðum með staðfæringarforritum. Ef samstarfsaðili Microsoft hefur þróað staðfært forrit fyrir land/svæði notanda, er hægt að finna það í [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Hafist handa](product-get-started.md)  
 [Reglufylgni](compliance/compliance-overview.md)  
 [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

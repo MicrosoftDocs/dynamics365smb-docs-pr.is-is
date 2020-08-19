@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8b332e50d722ff56625fce45a9617ea67ec2201a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf893e2f8ea7eaeee9867566da92461eef7a9578
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184197"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666798"
 ---
 # <a name="fixed-assets"></a>Eignir
 Í kerfishlutanum Eignir í [!INCLUDE[d365fin](includes/d365fin_md.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.
@@ -47,6 +47,11 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Reikna út afskriftir, bóka afskriftir og greina afskriftir í eignaskýrslur. |[Afskrifa eða greiða af eignum](fa-how-depreciate-amortize.md) |
 | Bóka afskráningarfærslur, skoða afskráningarbókarfærslur og bóka afskráningar að hluta. |[Afskrá eða innkalla eignir](fa-how-dispose-retire.md) |
 | Stjórna fjárhagsáætlana eigna, áætlun stofnkostnaðar, áætlun afskráninga eigna og áætlun afskrifta. |[Umsjón fjárhagsáætlana fyrir eignir](fa-how-manage-budgets.md) |
+
+## <a name="video-overview"></a>Yfirlit myndbands
+Eftirfarandi myndband fjallar um grunnatriði eigna.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS]
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning eigna](fa-setup.md)  

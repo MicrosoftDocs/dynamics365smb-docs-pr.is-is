@@ -10,21 +10,22 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: soalex
-ms.openlocfilehash: f11428a5375627b5ec5529e2d667b598494fb5a9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bca6f46e252ee2db679295386c559d5f2b948a83
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185911"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611435"
 ---
 # <a name="compliance"></a>Reglufylgni
+
 Þetta efni inniheldur upplýsingar um reglufylgni í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
 Reglufylgni er efnisatriði sem vekur sífellt meiri áhuga og í gegnum þróun Business Central höfum við tryggt að varan styrkir viðskiptavini og samstarfsaðila á víðtækan hátt og felur ekki í sér hindranir varðandi reglufylgni. Þvert á móti inniheldur Business Central virkni og er byggt á verkvangi sem gerir það auðvelt fyrir viðskiptavini að fara eftir reglufylgni og regluverki.
 
-Í þessum kafla er hægt að lesa meira um nálgun okkar á reglufylgni séð út frá forriti, þjónustu og tilteknu landi.
+Í þessum kafla er hægt að lesa meira um nálgun okkar á reglufylgni séð út frá forriti, þjónustu og staðbundnum kröfum.
 
 |**Til að**|**Sjá**|  
 |------------|-------------|  

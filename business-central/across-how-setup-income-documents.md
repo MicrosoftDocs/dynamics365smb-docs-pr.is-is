@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/23/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 09047315c701bd2076f59b6c3f4840ba95eb06cc
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.openlocfilehash: 7438502e14d1aa0eecdd56db0eb4ae2f2790413a
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503545"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677117"
 ---
 # <a name="set-up-incoming-documents"></a>Setja upp skjöl á innleið
 
@@ -23,7 +23,7 @@ Ef stofnaðar eru færslubókarlínur úr færslum skjala á innleið verður a�
 
 Ef notendur eiga ekki að geta stofnað reikninga eða færslubókarlínur úr færslum skjala á innleið nema skjöl séu fyrst samþykkt verður að setja upp samþykkjendur verkflæðis.
 
-Til að breyta PDF og myndaskrám í rafræn skjöl sem er hægt að breyta í til dæmis innkaupareikninga innan [!INCLUDE[d365fin](includes/d365fin_md.md)], verður að fyrst að setja upp eiginleikann OCR og virkja þjónustuna.
+Til að breyta PDF og myndaskrám í rafræn skjöl sem er hægt að breyta í til dæmis innkaupareikninga innan [!INCLUDE[d365fin](includes/d365fin_md.md)], verður að fyrst að setja upp eiginleikann OCR og virkja þjónustuna. Veljið uppfærslupakka sem er viðeigandi fyrir fyrirtækið og/eða landið/svæðið. Að öðrum kosti er hægt að stofna færslur handvirkt til að tákna ytri skjölin.  
 
 Þegar eiginleikinn Skjöl á innleið er uppsettur, er hægt að nota ólíkar aðgerðir til að yfirfara kostnaðarkvittanir, sýsla með OCR-verk og breyta skjölum á innleið, handvirkt eða sjálfvirkt, yfir í viðkomandi skjöl eða færslubókarlínur. Ytri skrárnar er hægt að hengja við tengd skjöl á öllum stigum úrvinnslunnar, þ.m.t. við bókuð skjöl og við færslur lánardrottins, viðskiptamanns eða fjárhags sem verða til. Nánari upplýsingar er að finna í [Vinna skjöl á innleið](across-process-income-documents.md).
 
@@ -38,7 +38,7 @@ Að verður að setja það upp ef þjónusta er notuð til að umbreyta PDF-skr
 
 ## <a name="to-set-up-approvers-of-incoming-document-records"></a>Að setja upp samþykkjendur fyrir skjöl á innleið
 
-Samþykkjendur skjala á innleið verða að vera uppsettir sem notendur sem samþykkja verkflæði.
+Það má setja upp samþykktarferli fyrir skjöl á innleið. Samþykkjendur skjala á innleið verða að vera uppsettir sem notendur sem samþykkja verkflæði.
 
 Áður en hægt er að stofna verkflæði sem fela í sér samþykktarskref verður að setja upp verkflæðisnotendur sem taka þátt í samþykktarferli. Á síðunni **Uppsetning fyrir samþykki notanda** er einnig hægt að stilla takmörk upphæðar fyrir tilteknar gerðir beiðna og skilgreina staðgengilssamþykkjendur sem samþykktarbeiðnir eru sendar til þegar upphaflegur samþykkjandi er fjarverandi. Frekari upplýsingar eru í [Setja upp notendur samþykktar](across-how-to-set-up-approval-users.md).
 

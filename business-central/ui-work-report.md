@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 19811dadb284ee9e629c9dc518df5cb989175fdb
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 11c3fa284a457db1de272a3d92ebc7fc873ad933
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454330"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549893"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Unnið með skýrslur, runuvinnslur og XMLports
 
@@ -50,7 +50,7 @@ Notkun vistaðra stillinga er fljótleg og áreiðanleg leið til að búa til s
 
 ## <a name="previewing-a-report"></a>Forskoðun skýrslu
 
-Veljið hnappinn **Forskoða** til að skoða skýrslugerðina í. Notaðu valmyndastikuna í skýrsluforskoðun til að:
+Veljið hnappinn **Forskoða** til að skoða skýrsluna á síðu skýrslubeiðni. Notaðu valmyndastikuna í skýrsluforskoðun til að:
 
 - Fara gegnum síður
 - Auka aðdrátt og minnka
@@ -77,19 +77,34 @@ Hægt er að tímasetja eða runuvinna skýrslu þannig að hún keyri á tiltek
 Hægt er að velja að vista meðhöndlaða skýrslu í skrá, t.d. Excel, Word, eða PDF, prenta hana á völdum prentara, eða meðhöndla aðeins skýrsluna. Ef þú velur að vista skýrsluna í skrá þá er meðhöndlaða skýrslan send á svæðið **Skýrsluinnhólf** á Mitt hlutverk þar sem þú getur skoðað hana.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Prenta skýrslu
-Hægt er að prenta skýrslu með því að velja hnappinn **Prenta** á síðu skýrslubeiðni eða í valmyndastiku á síðunni **Forskoðun**.
 
-Vegna þess að [!INCLUDE[prodshort](includes/prodshort.md)] er skýjaþjónusta nær hún ekki til staðbundinna prentara sem eru tengdir vélum notanda. Hins vegar er hægt að tengjast skýjavirkum prenturum. Í almennri útgáfu af [!INCLUDE[prodshort](includes/prodshort.md)] er skýjaprentari með heitið **Tölvupóstsprentari** uppsettur sem viðbót og er tilbúinn til notkunar eftir upphaflega uppsetningu.
+Prentuð er skýrsla með því að velja hnappinn **Prenta** á síðu skýrslubeiðni eða í valmyndastiku á síðunni **Forskoðun**.
 
-Ef skýjaprentari er ekki uppsettur, eða ef uppsettur prentari mistekst, er prentun valin sjálfkrafa fyrir prentvalkosti vafrans. Þetta er gefið í skyn með þessu gildi í reitnum **Prentari** á síðu skýrslubeiðna: *(ekkert, vafrinn sér um þetta)*.
+### <a name="printer-selection"></a>Val á prentara
 
-Á síðunni **Prentarastjórnun** er hægt að skoða uppsetta prentara. Frekari upplýsingar eru í [Setja upp prentara](ui-specify-printer-selection-reports.md).
+Skýrslan prentast á prentaranum sem sýndur er í reitnum **Valinn prentari** á síðu skýrslubeiðni. Ekki er hægt að breyta prentaranum á þessari síðu.
+
+Valinn prentari er annaðhvort stilltur á síðunni **Prentaraval** eða sjálfgefni prentarinn sem settur er upp á síðunni **Prentarastjórnun**. Ef ætlunin er að nota annan prentara skal skoða [Setja upp prentara](ui-specify-printer-selection-reports.md).
+
+Ef enginn prentari er tilgreindur á síðunni **Prentaraval** eða stilltur sem sjálfgefinn á síðunni **Prentarastjórnun** er prenteiginleiki vafrans notaður. Í slíku tilfelli birtist **Vafrinn** í reitnum **Valinn prentari** á síðu skýrslubeiðni. 
+
+### <a name="browser-printing"></a>Prentun í vafra
+
+Vegna þess að [!INCLUDE[prodshort](includes/prodshort.md)] er skýjaþjónusta nær hún ekki til staðbundinna prentara sem eru tengdir tölvum notanda. Hins vegar er hægt að tengjast skýjavirkum prenturum. Í almennri útgáfu af [!INCLUDE[prodshort](includes/prodshort.md)] er skýjaprentari með heitið **Tölvupóstsprentari** uppsettur sem viðbót og er tilbúinn til notkunar eftir upphaflega uppsetningu.
+
+Ef skýjaprentari er ekki uppsettur, eða ef uppsettur prentari mistekst, er prentun valin sjálfkrafa fyrir prentvalkosti vafrans.
 
 > [!NOTE]
-> Ekki er hægt að breyta reitnum **Prentari** á síðu skýrslubeiðni. Til að nota annan prentara verður að velja hann af síðunni **Prentarastjórnun**.
+> Prentmöguleikar vafrans vinna óháð [!INCLUDE[prodshort](includes/prodshort.md)]. Allar prentarastillingar sem kunna að hafa verið settar upp úr prenturum í [!INCLUDE[prodshort](includes/prodshort.md)] flytjast ekki yfir í prentmöguleika vafrans.
 
+<!-- 
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
+-->
 ### <a name="printing-reports-in-thai"></a>Prenta skýrslur á taílensku
-Sérstaklega fyrir taílensku útgáfuna af [!INCLUDE[prodshort](includes/prodshort.md)], hnappurinn **Prenta** getur ekki prentað skýrslur rétt vegna takmarkana á þjónustu sem býr til prentvænu PDF-skrána. Í staðinn getur þú opnað skýrsluna í Word og síðan vistað hana sem prentvæna PDF-skrá.  
+Sérstaklega fyrir taílensku útgáfuna af [!INCLUDE[prodshort](includes/prodshort.md)], getur hnappurinn **Prenta** ekki prentað skýrslur rétt vegna takmarkana á þjónustunni sem býr til prentanlegt PDF-skjal. Í staðinn getur þú opnað skýrsluna í Word og síðan vistað hana sem prentvæna PDF-skrá.  
 
 Að öðrum kosti geturðu beðið stjórnanda þinn um að búa til Word-skýrsluútlit fyrir mest notuðu skýrslurnar. Frekari upplýsingar, sjá [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md).  
 

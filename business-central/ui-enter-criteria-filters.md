@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 06/26/2020
+ms.date: 07/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 786b782bd1cba3d75ce42776fa5df84ae89e624e
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 9bdaa604841156763739adf5411469c58a74eb1e
+ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529114"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "3619432"
 ---
 # <a name="sorting-searching-and-filtering"></a>Röðun, leit og síun
+
 Það eru nokkrir hlutir sem munu hjálpa þér að skanna, finna og takmarka skrár í lista, skýrslu eða XMLport. Þar á meðal er röðun, leit og afmörkun. Þú getur notað suma eða alla þessa hluti samtímis til að finna eða greina gögnin þín fljótt.
 
-Fyrir skýrslur og XMLports er hægt að stilla síur eins og á lista til að afmarka hvaða gögn eigi að taka með í skýrslunni eða XMLport, en ekki er hægt að raða og leita.
+Fyrir skýrslur og XMLport, líkt og í listum, er hægt að stilla síur til að afmarka hvaða gögn eigi að taka með í skýrslunni eða XMLport, en ekki er hægt að raða og leita.
 
 > [!TIP]
 > Þegar þú skoðar gögnin þín sem flísar getur þú leitað og notað grunn síun. Til að nota alla þessa öflugu eiginleika til að raða, leita og sía skaltu velja táknið ![Sýna sem lista](media/ui_show_as_list_icon.png "Sýna sem listaör til vinstri") til að sýna færslurnar sem lista.
@@ -30,20 +31,23 @@ When you want to search for data, such as customer names, addresses, or product 
 -->
 
 ## <a name="sorting"></a>Röðun
+
 Með Röðun er auðvelt og fljótlegt að fá yfirsýn yfir gögnin. Ef þú ert með marga viðskiptamenn til dæmis, er hægt að velja að raða þeim eftir **númeri Viðskiptamanns**, **Bókunarflokkum viðskiptavinar**, **Gjaldmiðilskóði**, **LandsSvæðiskóða**, eða **skráningarnúmer Söluskatts** til að fá það yfirlit sem þú þarft.
 
 Til að raða á lista, geturðu annað hvort valið fyrirsagnatexta dálka til að skipta á milli hækkandi og lækkandi röðunar, eða valið felliörina í dálkafyrirsögninni, og síðan valið **Hækkandi** eða **Lækkandi**.  
 
 > [!NOTE]  
->   Myndir, BLOB-reitir, FlowFilters og reitir sem tilheyra ekki töflu styðja ekki röðun.  
+> Myndir, BLOB-reitir, FlowFilters og reitir sem tilheyra ekki töflu styðja ekki röðun.  
 
 ## <a name="searching"></a>Leit
+
 <!--## Searching by using the Quick Filter -->
 Efst á sérhverri listasíðu er ![Leita í lista](media/ui-search/search-list.png "Tákn fyrir leitarlista")**Leita** aðgerðin sem býður upp á fljótlega og auðvelda leið til að vinna gögnin niður í lista og sýna einungis þær skrár sem innihalda gögnin sem þú vilt sjá.
 
 Til að leita skaltu einfaldlega velja aðgerðina **Leita** og síðan skrifa í boxið textann sem þú ert að leita að. Þú getur slegið inn stafi, númer og önnur tákn.
 
 ### <a name="fine-tuning-the-search"></a>Fínstilla leitina
+
 Almennt mun leit reyna að finna samsvarandi texta í öllum reitum. Leitin mun ekki gera greinarmun á hástöfum og lágstöfum (óháð há- og lágstöfum) og mun finna textasamsvörun hvar sem er í reitnum (fremst, aftast eða í miðjunni).
 
 Hins vegar geturðu búið til nákvæmari leit með því að nota sértákn.
@@ -70,9 +74,10 @@ Eftirfarandi tafla sýnir nokkur dæmi til að útskýra hvernig hægt er að no
 > Þú getur ýtt á **F3** til að virkja og slökkva á leitarreitnum. Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).
 
 > [!NOTE]  
-> Leit mun ekki passa við gildi í myndum, BLOB-reitum, Flow-síum, FlowFields-reitum og öðrum reitum sem eru ekki hluti af töflu. 
+> Leit mun ekki passa við gildi í myndum, BLOB-reitum, Flow-síum, FlowFields-reitum og öðrum reitum sem eru ekki hluti af töflu.
 
 ## <a name="filtering"></a><a name="filtering"></a>Afmörkun
+
 Síun veitir háþróaðri og fjölhæfur leið til að stjórna hvaða skrár sem birtast á lista eða eru innifaldar í skýrslu eða XMLport. Það eru tvær helstu munur á leit og síun, eins og lýst er í töflunni hér að neðan.
 
 || **Leit** | **Afmörkun** |
@@ -85,6 +90,7 @@ Síun gerir þér kleift að birta skrár fyrir tiltekna reikninga eða viðskip
 Fyrir lista eru síurnar sýndar á afmörkunarsvæði sem birtist til vinstri á listanum þegar það er virkjað. Fyrir skýrslur, runuvinnslur og XMLport eru síurnar sýnilegar beint á beiðnisíðunni.
 
 ### <a name="filtering-with-option-fields"></a>Sía með valsvæðum
+
 Fyrir „venjulega“ reiti sem innihalda gögn, uppsetningardagsetningu eða viðskiptagögn er hægt að stilla síur bæði með því að velja gögn og með því að slá inn síugildi og hægt er að nota tákn til að skilgreina ítarleg síuskilyrði. Nánari upplýsingar eru í [Færa inn síuskilyrði](ui-enter-criteria-filters.md#entering-filter-criteria).
 
 Fyrir reiti af gerðinni **Valkostir** er hins vegar aðeins hægt að stilla síu með því að velja einn eða fleiri valkosti úr fellilista með tiltækum valkostum. Dæmi um valkostsreit er reiturinn **Staða** á síðunni **Sölupantanir**.
@@ -93,6 +99,7 @@ Fyrir reiti af gerðinni **Valkostir** er hins vegar aðeins hægt að stilla s�
 > Þegar margir valkostir eru valdir sem síugildi er venslin á milli valkostanna skilgreind sem *EÐA*. Til dæmis, ef þú velur báða gátreitina **Opið** og **Losað** á afmörkunarsvæðinu **Staða** á síðunni **Sölupantanir**, þýðir það að sölupantanir sem eru annaðhvort opnar eða losaðar eru birtar.
 
 ### <a name="setting-filters-on-lists"></a>Afmarkanir stilltar á lista
+
 Á listum eru síur stilltar með því að nota afmörkunarsvæði. Til að birta afmörkunarsvæðið fyrir lista skal velja felliörina við hliðina á heiti síðunnar og velja síðan **Sýna afmörkunarsvæði**. Að öðrum kosti er stutt á **Shift+F3**.
 
 Til að birta afmörkunarsvæðið fyrir dálk á lista skal velja felliörina og velja síðan aðgerðina **Afmörkun**. Að öðrum kosti er stutt á **Shift+F3**. Afmörkunarsvæðið opnast með völdum dálki sem sýndur er sem afmörkunarsvæðið í hlutanum **Afmarka lista**.
@@ -119,6 +126,7 @@ Síusvæðið sýnir núverandi síur fyrir lista og gerir þér kleift að stil
 Hægt er að stilla einfalda síu beint á lista innan með síusvæðinu, þ.e. síu sem sýnir aðeins færslur með sama gildi og í völdum reitum. Velja skal hólf á listanum, velja felliörina og velja síðan aðgerðina **Afmarka í þetta gildi**. Að öðrum kosti er stutt á **ALT + F3**.
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Afmarkanir stilltar í skýrslum, runuvinnslum og XMLports
+
 Fyrir skýrslur og XMLports eru síurnar sýnilegar beint á beiðnisíðunni. Beiðnisíðan sýnir síðustu notuðu síur samkvæmt valinu í reitnum **Nota sjálfgildi úr**. Frekari upplýsingar eru í [Nota vistaðar stillingar](ui-work-report.md#SavedSettings).
 
 Helsti **Sía**-hlutinn sýnir sjálfgefna síureiti sem notaðir eru til að afmarka hvaða færslur á að taka með í skýrslu eða XMLport. Til að bæta við síu skal velja aðgerðina **+ Sía** , færa inn heiti reitsins sem á að sía eftir eða velja reit af fellilistanum.
@@ -126,6 +134,7 @@ Helsti **Sía**-hlutinn sýnir sjálfgefna síureiti sem notaðir eru til að af
 Í hlutanum **Afmarka samtölur eftir** er hægt að breyta ýmsum víddunum sem hafa áhrif á útreikninga í skýrslu eða XMLport. Til að bæta við síu skal velja aðgerðina **+ Sía** , færa inn heiti reitsins sem á að sía eftir eða velja reit af fellilistanum.
 
 ## <a name="entering-filter-criteria"></a>Færa inn síuskilyrði
+
 Bæði í síuglugganum og á beiðnisíðu er hægt að færa inn síuskilyrðin í reitinn undir síureitnum.
 
 Gerð síureits ákvarðar hvaða skilyrði er hægt að færa inn. Til dæmis, að sía reit sem hefur fasta gildi mun einungis leyfa þér að velja úr þeim gildum. Nánari upplýsingar um sérstaka síu tákn sjá [Sía viðmiðanir](#FilterCriteria) og [Síumerki](#FilterTokens).
@@ -136,10 +145,11 @@ Dálkar sem þegar eru með síur eru auðkenndar með tákninu ![Síutákn](med
 > Finna og greina gögnin þín fljótar með því að nota samsetningar flýtilykla. Til dæmis, veldu reit, notaðu **Shift + Alt + F3** til að bæta reitnum við síusvæðið, sláðu inn síuviðmiðin, notaðu **Ctrl + Enter** til að fara aftur í raðirnar, veldu annað reit og notaðu **Alt + F3** til að sía í það gildi. Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).
 
 ### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Síuskilyrði og tákn
+
 Þegar skilyrði eru sett er hægt að nota alla sömu tölustafi og bókstafi sem venjulega eru notaðir í reitnum. Ennfremur er hægt að nota sértákn (eða virknitákn) til að afmarka niðurstöðurnar enn frekar. Í eftirfarandi töflum eru táknin sem hægt er að nota í síum. Fyrir dagsetningar og tíma er einnig hægt að vísa til [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md) til að fá nánari upplýsingar.
 
 > [!IMPORTANT]  
->  Það geta verið tilvik þar sem gildi reita innihalda þessi tákn og þú vilt setja afmörkun á þau. Til að gera það, verðurðu að hafa með afmörkunarsegðina sem inniheldur táknið með gæsalöppum („“). Til dæmis, ef þú vilt sía á færslum sem byrja á textanum *S&R*, er síusegðin `'S&R*'`.
+> Það geta verið tilvik þar sem gildi reita innihalda þessi tákn og þú vilt setja afmörkun á þau. Til að gera það, verðurðu að hafa með afmörkunarsegðina sem inniheldur táknið með gæsalöppum („“). Til dæmis, ef þú vilt sía á færslum sem byrja á textanum *S&R*, er síusegðin `'S&R*'`.
 
 Eftirfarandi hlutar útskýra hvernig á að nota mismunandi virknitákn.
 
@@ -273,6 +283,7 @@ Notaðu `%myvendors` í lánardrottinn **Nr** reitnum, til að birta allar skrá
 |`%myvendors`|Lánardrottnar í **Mínir lánardrottnar** í Mitt hlutverk. |  
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Algengar spurningar um leit og síun](ui-search-filter-faq.md)  
 [Vista og sérsníða listayfirlit](ui-views.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

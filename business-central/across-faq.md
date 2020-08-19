@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/25/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528086"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611585"
 ---
 # <a name="frequently-asked-questions"></a>Algengar spurningar
 
 Þessi hluti inniheldur svör við algengum spurningum um nýskráningu fyrir prufuáskrift, kaup á áskrift og notkun á [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kynntu þér líka hvernig þú færð tæknilega aðstoð.  
 
-## <a name="is-d365fin-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] fáanlegt í mínu landi?
+## <a name="is-d365fin-available-in-my-countryregion"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] fáanlegt í landinu/svæðinu mínu?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er fáanlegt á takmörkuðum fjölda markaða, en nýjum löndum er bætt við með staðfæringum sem eru leiddar af Microsoft eða samstarfsaðilum ársfjórðungslega. Frekari upplýsingar eru í [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (aðeins í boði á ensku).  
 
@@ -108,6 +108,10 @@ Ef þú ertu tilbúin/n til að kaupa [!INCLUDE[prodshort](includes/prodshort.md
 Ef þú vilt fá leiðsögn frá Microsoft skaltu hafa samband við [Teymi Microsoft Sales](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 Endursöluaðilinn þinn mun einnig sjá um tæknilega aðstoð fyrir þig. Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).  
+
+## <a name="where-do-i-find-that-line-number"></a>Hvar finn ég þetta línunúmer?
+
+Skjöl á borð við sölupöntun eða innkaupareikninga samanstanda af hausum og línum. Hver lína er með tölu sem [!INCLUDE [prodshort](includes/prodshort.md)] notar til að auðkenna þessa tilteknu línu. Þar af leiðandi gæti þú séð viðvörun eða villuboð um að eitthvað sé athugavert við línunúmer 1000 sem dæmi. Í sjálfgefinni útgáfu af [!INCLUDE [prodshort](includes/prodshort.md)] eru línunúmer falin. Ef ætlunin er að nota línunúmerin, þarf að sérstilla núverandi síðu og bæta við **Línunr.** . Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
 
 ## <a name="why-is-new-information-not-available-in-my-language"></a>Hvers vegna eru nýjar upplýsingar ekki í boði á mínu tungumáli?
 

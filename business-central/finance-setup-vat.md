@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7ca1937b34b157a4b76314b5ad38f7918ac7dded
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bbaf458e39ec45dcbcb34bd50e38feb70fd8426b
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182781"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611668"
 ---
 # <a name="set-up-value-added-tax"></a>Setja upp virðisaukaskatt
+
 Neytendur og fyrirtæki greiða virðisaukaskatt (VSK) þegar þau kaupa vörur eða þjónustu. Upphæð VSK til greiðslu getur verið mismunandi, það fer eftir nokkrum þáttum. Í [!INCLUDE[d365fin](includes/d365fin_md.md)], setur þú upp VSK til að tilgreina taxtana til að nota til að reikna skattaupphæðir, byggt á eftirfarandi:
 
 * Hverjum selt er  
@@ -28,22 +29,26 @@ Neytendur og fyrirtæki greiða virðisaukaskatt (VSK) þegar þau kaupa vörur 
 Hægt er að setja upp VSK-útreikning handvirkt, en það getur verið bæði snúið og tímafrekt. Til að auðvelda, útveguðum við uppsetningarleiðsögn með hjálp sem nefnist **VSK Uppsetning** sem hjálpar til við verkstig. Mælt er með að nota uppsetningarleiðsögn til að setja upp VSK.
 
 > [!NOTE]  
->   Hægt er að nota leiðbeiningarnar, aðeins ef þú hefur stofnað Mitt fyrirtæki, og hefur ekki bókað færslur sem innihalda VSK. Annars er mjög auðvelt að nota mismunandi VSK taxta af misgáning og gera VSK-skýrslum ónákvæmt.  
+> Hægt er að nota leiðbeiningarnar, aðeins ef þú hefur stofnað Mitt fyrirtæki, og hefur ekki bókað færslur sem innihalda VSK. Annars er mjög auðvelt að nota mismunandi VSK taxta af misgáning og gera VSK-skýrslum ónákvæmt.  
 
 Ef þú vilt setja upp VSK-útreikning sjálfur eða vilt aðeins fá upplýsingar um hvert skref, er í þessu efnisatriði lýsingar á öll þrep.
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Nota VSK-uppsetningarleiðsögnina með hjálp til að setja upp VSK (ráðlagt)
+
 Mælt er með að nota VSK-uppsetningarleiðsögn með hjálp til að setja upp VSK í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Til að ræsa uppsetningleiðbeiningar með hjálp, fylgið þessum skrefum:
+
 1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Uppsetning með hjálp**.  
 2. Velja **Setja upp VSK** og ljúkið við skrefin.
-3. Þegar uppsetningu með hjálp er lokið skal fara á síðuna **VSK-bókunargrunnur** og skoða hvort fylla þurfi út viðbótarreiti samkvæmt staðbundinni landsútgáfu. Frekari upplýsingar er að finna í [Staðbundin virkni í Business Central](about-localization.md)  
+3. Þegar uppsetningu með hjálp er lokið skal fara á síðuna **VSK-bókunargrunnur** og skoða hvort fylla þurfi út viðbótarreiti samkvæmt staðbundnum kröfum í þinni útgáfu af [!INCLUDE [prodshort](includes/prodshort.md)]. Frekari upplýsingar er að finna í [Staðbundin virkni í Business Central](about-localization.md)  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Til að setja upp VSK-númer fyrir þitt land eða svæði
+
 Til að ganga úr skugga um að rétt VSK-númer séu slegin inn er hægt að skilgreina snið fyrir VSK-númer sem eru notuð í löndum eða svæðum þar sem viðskipti notanda eru stunduð. [!INCLUDE[d365fin](includes/d365fin_md.md)] mun birta villuboð þegar einhver gerir mistök eða nota snið sem er rangt fyrir landið eða svæðið.
 
 Til að setja upp VSK-númer skal fylgja eftirfarandi skrefum:
+
 1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Lönd/svæði**.
 2. Velja skal landið eða svæðið og svo agðerðina **Snið VSK-númers**.
 3. Í reitnum **Snið** skal skilgreina sniðin með því að slá inn einn eða fleiri eftirfarandi stafa:  

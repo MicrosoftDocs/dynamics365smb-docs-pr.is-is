@@ -8,33 +8,37 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1041dda83552af3c2c805c08518600d89f0467fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 58cbec2b697a0fdabd5749000ea94145d07fc62f
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188733"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611510"
 ---
 # <a name="edit-posted-documents"></a>Breyta bókuðum fylgiskjölum
+
 Stundum þarf að uppfæra bókað skjal vegna þess að upplýsingar sem skipta máli fyrir skjalið hafa breyst. Á bókuðu söluskjali getur þetta til dæmis verið rakningarnúmer pakka frá flutningsaðilanum. Á bókuðu innkaupaskjali getur þetta verið texti greiðslutilvísunar.
 
 Þú framkvæmir breytinguna í breytanlegri útgáfu af upprunalega skjalinu, sem er merkt með „**- Uppfæra**“ í titli síðunnar. Síðan inniheldur undirsafn reitanna úr upprunalega skjalinu, þar sem sumir reitir eru óbreytanlegir og aðeins sýndir til upplýsingar.
 
-Virknin er í boði fyrir eftirfarandi skjöl í öllum landsútgáfum:
+Virknin er í boði fyrir eftirfarandi skjöl á öllum studdum mörkuðum:
+
 - Bókuð söluafhending
 - Bókaður innkaupareikningur
 - Bókuð skilaafhending
 - Bókuð vöruskilamóttaka
 
-Eftirfarandi viðbótarskjölum er hægt að breyta í völdum landsútgáfum:
+Eftirfarandi viðbótarskjölum er hægt að breyta í tilteknum löndum eða svæðum:
+
 - ES: Bókaður sölureikningur, bókaður sölukreditreikningur, bókaður innkaupakreditreikningur
 - APAC: Bókaður sölukreditreikningur, bókaður innkaupakreditreikningur
 - RU: Bókaður sölukreditreikningur
 - IT: Bókuð millifærsluafhending, bókuð þjónustuafhending
 
 ## <a name="to-edit-a-posted-sales-shipment"></a>Breyta bókaðri söluafhendingu
+
 Eftirfarandi útskýrir hvernig á að breyta bókaðri söluafhendingu. Skrefin eru svipuð í hinum studdu skjölunum.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar söluafhendingar** og veldu síðan tengda tengilinn.
@@ -45,7 +49,8 @@ Eftirfarandi útskýrir hvernig á að breyta bókaðri söluafhendingu. Skrefin
 Bókuð söluafhending er uppfærð.
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Bókun skjala og færslubóka](ui-post-documents-journals.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: a5fc9b13e28b51d776fad6d02feae4624b756c4c
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496801"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617937"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
 Samsetningarvörur geta verið veittar í eftirfarandi tvo ferla:  
@@ -36,7 +36,7 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 
 Í samsetningarpöntunarferlinu er varan samsett út frá sölupöntuninni og með beinan tengil milli samsetningarpöntunarinnar og sölupöntunarinnar.  
 
-Þegar vara sem setja á saman í pöntun er sett inn í sölulínu er samsetningarpöntun sjálfkrafa búin til með haus sem byggir á sölulínunni og með línur sem byggja á samsetningaruppskrift vörunnar margfaldarði með pöntunarmagninu. Hægt er að nota síðuna **Setja saman í pöntunarlínur** til að sjá tengdar samsetningarpöntunarlínur til að auðvelda sérstillingu á samsetningaríhlut og á afhendingardegi sem byggist á upplýsingum um framboð íhluta. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
+Þegar vara sem setja á saman í pöntun er sett inn í sölulínu er samsetningarpöntun sjálfkrafa búin til með haus sem byggir á sölulínunni og með línur sem byggja á samsetningaruppskrift vörunnar margfaldaðri með pöntunarmagninu. Hægt er að nota síðuna **Setja saman í pöntunarlínur** til að sjá tengdar samsetningarpöntunarlínur til að auðvelda sérstillingu á samsetningaríhlut og á afhendingardegi sem byggist á upplýsingum um framboð íhluta. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Þótt það sé ekki hluti af sjálfgefnu ferli er hægt að selja birgðamagn ásamt sameiningarpöntunarmagninu. Frekari upplýsingar eru í [Selja birgðavörur í flæðum samsetningar í pöntun](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
@@ -72,7 +72,7 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 
  Eftirfarandi tafla útskýrir reglurnar sem skilgreina lágmarks- og hámarksgildi sem hægt er að færa inn í reitinn **Magn til samsetningar** til að víkja frá sjálfgildinu í samsetningardæmi. Taflan sýnir samsetningardæmi þar sem reiturinn **Magn afhent** í tengdu sölupöntunarlínunni er breytt úr 7 í 4 og **Magn sett saman** verður þess vegna að sjálfgefnu 4.  
 
-||Sölupantanalína|Samsetningarpöntunarhaus|  
+|-|Sölupantanalína|Samsetningarpöntunarhaus|  
 |-|----------------------|---------------------------|  
 ||**Magn**|**Magn til afhendingar**|**Magn til samsetningar til pöntunar**|**Afhent magn**|**Magn**|**Magn til samsetningar**|**Samsett magn**|**Eftirstöðvar (magn)**|  
 |Byrjun|10|7|7|0|7|7|0|7|  

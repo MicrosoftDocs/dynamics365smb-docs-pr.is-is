@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d6440c4cf2f7b5e41f320fcbb1d72d353ae4f5e9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 48d8e3baf3adfbd4836cadb638949e54555a39c9
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188014"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577379"
 ---
 # <a name="track-document-lines"></a>Rekja skjalalínur
 Þú getur skoðað skjöl sem tengjast sölupöntunarlínum og innkaupapöntunarlínum, þ.m.t. frá safnvistuðum pöntunarlínum. Viðeigandi skjöl sem hægt er að rekja fela í sér tilboð, afhendingar, móttökur og standandi pantanir. Þetta hjálpar þér að bera kennsl á skjöl sem notuð eru til að vinna úr pöntunum.  
@@ -28,6 +28,8 @@ Eftirfarandi ferli sýnir hvernig skal rekja með sölupöntunarlínu. Skrefin e
 3.  Valin er lína og svo skal velja aðgerðina **Rakning skjalalínu**.
 4. Á síðunni **Rakning skjalalínu** skal velja skjalið sem á að skoða og svo velja aðgerðina **Sýna** til að sjá tengdar línur.
 5. Til að skoða allt skjalið fyrir valda skjalalínu skal velja aðgerðina **Sýna skjal**.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  

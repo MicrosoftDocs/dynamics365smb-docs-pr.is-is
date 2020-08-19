@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185157"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617628"
 ---
 # <a name="design-details-item-application"></a>Hönnunarupplýsingar: umsókn vöru
+
 Þegar þú bókar birgðafærslu er bókunarmagnið skráð í birgðabókarfærslurnar en bókun virðis í virðisfærslur. Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðabókun](design-details-inventory-posting.md)  
 
 Að auki vörujöfnun er gert til að tengja kostnað viðtakanda kostnaðar við kostnaðaruppruna il að gefa upp kostnaðarframsendingu samkvæmt kostnaðaraðferð. Nánari upplýsingar eru í [Upplýsingar um hönnun: Kostnaðarútreikningar](design-details-costing-methods.md).  
@@ -40,15 +41,15 @@ Hvort magnjöfnun eða kostnaðarjöfnun er gerð fer eftir stefnu birgðafærsl
 
 Eftirfarandi tafla sýnir, byggt á meginjöfnunarreitum í birgðafærslulínum, hvernig kostnaður flæðir samkvæmt átt færslunnar. Það sýnir einnig hvenær og hvers vegna vörujöfnun umsókn er af taginu magni eða kostnað.  
 
-||Jafna í birgðafærslu|Jafna frá birgðafærslu|  
+|-|Jafna í birgðafærslu|Jafna frá birgðafærslu|  
 |-|--------------------------------|----------------------------------|  
 |Jöfnun fyrir færslu á útleið|Færslan á útleið sækir kostnaðinn úr opnu færslunni á innleið.<br /><br /> **Magnjöfnun**|Ekki stutt|  
 |Jöfnun fyrir færslu á innleið|Færslan á innleið flytur kostnaðinn inn í opnu færsluna á útleið.<br /><br /> Færslan á innleið er uppruni kostnaðar.<br /><br /> **Magnjöfnun**|Færslan á innleið sækir kostnaðinn úr færslunni á útleið. **Athugið:**  Við gerð á þessari föstu jöfnun, er færsla á innleið meðhöndluð sem vöruskil. Því mun færsla á útleið sem var notuð vera opin. <br /><br /> Færslan á innleið er EKKI uppruni kostnaðar.<br /><br /> **Jöfnun kostnaðar**|  
 
 > [!IMPORTANT]  
->  Söluskil eru EKKI talin kostnaðaruppruni við fasta jöfnun.  
->   
->  Sölufærslur eru áfram opnar þar til raunveruleg tilföng eru bókuð.  
+> Söluskil eru EKKI talin kostnaðaruppruni við fasta jöfnun.  
+>
+> Sölufærslur eru áfram opnar þar til raunveruleg tilföng eru bókuð.  
 
 Vörufærsla skrári eftirfarandi upplýsinagr.  
 
@@ -71,7 +72,7 @@ Eftirfarandi tafla sýnir vörujöfnunarfærslu sem var búin til innkaupakvittu
 |01-01-20|1|0|10|1|  
 
 ## <a name="inventory-decrease"></a>Birgðaminnkun  
-Þegar birgðaminnkun er bókuð er vörujöfnunarfærsla stofnuð til að tengja birgðaminnkunina við birgðaaukningu. Þessi tengill er búinn til með því að nota aðferð kostnaðarútreiknings til leiðsagnar. Fyrir vörur sem nota kostnaðarútreikninginn FIFO (fyrst inn - fyrst út), Staðlað og Meðaltal er tengingin byggð á fyrst inn, fyrst út reglunni. Birgðaminnkuninni er jafnað á birgðaaukninguna miðað við síðustu bókunardagsetningu. Fyrir vörur sem nota kostnaðarútreikninginn LIFO (síðast inn - fyrst út) er tengingin byggð á síðast inn - fyrst út reglunni. Birgðaminnkuninni er jafnað á birgðaaukninguna miðað við síðustu bókunardagsetningu.  
+Þegar birgðaminnkun er bókuð er vörujöfnunarfærsla stofnuð til að tengja birgðaminnkunina við birgðaaukningu. Þessi tengill er búinn til með því að nota aðferð kostnaðarútreiknings á vörunni til leiðsagnar. Fyrir vörur sem nota kostnaðarútreikninginn FIFO (fyrst inn - fyrst út), Staðlað og Meðaltal er tengingin byggð á fyrst inn, fyrst út reglunni. Birgðaminnkuninni er jafnað á birgðaaukninguna miðað við síðustu bókunardagsetningu. Fyrir vörur sem nota kostnaðarútreikninginn LIFO (síðast inn - fyrst út) er tengingin byggð á síðast inn - fyrst út reglunni. Birgðaminnkuninni er jafnað á birgðaaukninguna miðað við síðustu bókunardagsetningu.  
 
 Í töflunni **Birgðafærsla** sýnir reiturinn **Eftirstandandi magn** þá upphæð sem hefur enn ekki verið úthlutað. Ef magn eftirstöðva er meira en 0 er gátreiturinn **Opna** valinn.  
 
@@ -126,7 +127,7 @@ Eftirfarandi dæmi, sem sýnir áhrif fastrar jöfnunar, er byggt á eftirfarand
 
 Eftirfarandi tafla sýnir áhrif atburðarásarinnar í virðisfærslum vörunnar.  
 
-|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna birgðafærslu|Virt skv. meðalinnkaupsverði|Birgðafærslunr.|Færslunr.|  
+|Bókunardagsetning|Birgðafærslutegund|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna birgðafærslu|Virt skv. meðalinnkaupsverði|Birgðafærslunr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Innkaup|1|200.00||Nr|1|1|  
 |01-01-20|Innkaup|1|1000.00||Nei|2|2|  
@@ -136,7 +137,7 @@ Eftirfarandi tafla sýnir áhrif atburðarásarinnar í virðisfærslum vörunna
 
 Ef notandi hefði ekki gert fasta jöfnun á milli innkaupakreditreikningsins og innkaupanna með röngu innkaupsverði (skref 2 í fyrri atburðarás) hefði kostnaðurinn verið leiðréttur á annan hátt.  
 
-Eftirfarandi tafla sýnir áhrif í virðisfærslum vörunnar ef skref 2 í fyrri atburðarás er framkvæmt án fastrar jöfnunar.  
+Eftirfarandi tafla sýnir áhrifin á virðisfærslum vörunnar ef skref 2 í fyrri atburðarás er framkvæmt án fastrar jöfnunar.  
 
 |Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna birgðafærslu|Virt skv. meðalinnkaupsverði|Birgðafærslunr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -163,9 +164,9 @@ Eftirfarandi dæmi, sem sýnir hvernig föst jöfnun tryggir nákvæma bakfærsl
 3.  Notandinn bókar sölukreditreikning fyrir skilavöruna sem gildir um sölufærsluna, til að bakfæra kostnaðinn rétt.  
 4.  Flutningskostnaður, tengdur innkaupapöntun sem var bókuð fyrr, er móttekinn. Notandinn bókar það sem kostnaðarauka.  
 
-Eftirfarandi tafla sýnir áhrif atburðarásaskrefa 1 til 3 í virðisfærslum vörunnar.  
+Eftirfarandi tafla sýnir niðurstöðu úr skrefi 1 til 3 í atburðarásinni fyrir virðisfærslur vörunnar.  
 
-|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærslunr.|Færslunr.|  
+|Bókunardagsetning|Birgðafærslutegund|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærslunr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Innkaup|1|1000.00||1|1|  
 |02-01-20|Sala|-1|1000.00||2|2|  
@@ -177,9 +178,9 @@ Eftirfarandi tafla sýnir virðisfærsluna sem kemur til vegna atburðarásarskr
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |04-01-20|(Kostnaðarauki)|1|100.00||1|4|  
 
-Eftirfarandi tafla sýnir áhrif nákvæmrar kostnaðarbakfærslu í virðisfærslum vörunnar.  
+Eftirfarandi tafla sýnir hvaða áhrif nákvæm bakfærsla kostnaðar hefur á virðisfærslur vörunnar.  
 
-|Bókunardagsetning|Tegund birgðafærslu|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærslunr.|Færslunr.|  
+|Bókunardagsetning|Birgðafærslutegund|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna frá birgðafærslu|Birgðafærslunr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Innkaup|1|1000.00||1|1|  
 |02-01-20|Sala|-1|1100.00||2|2|  
@@ -204,9 +205,9 @@ Eftirfarandi dæmi, sem sýnir hvernig millifærslufærslur eru jafnaðar, byggi
 2. Notandinn kaupir vöru aftur með kostnaði upp á SGM 20.00.  
 3. Notandinn flytur vöruna úr staðsetningunni BLÁTT í RAUTT.  
 
-Eftirfarandi tafla sýnir áhrif millifærslu í virðisfærslum vörunnar.  
+Eftirfarandi tafla sýnir hvaða áhrif flutningurinn hefur á virðisfærslur vörunnar.  
 
-|Bókunardagsetning|Tegund birgðafærslu|Staðsetningarkóði|Virt magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
+|Bókunardagsetning|Birgðafærslutegund|Kóti birgðageymslu |Virt magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|Innkaup|BLÁTT|1|10.00|1|  
 |01-01-20|Innkaup|BLÁTT|1|20.00|2|  
@@ -219,9 +220,9 @@ Eftirfarandi dæmi, sem sýnir hvernig millifærslufærslur eru jafnaðar, byggi
 1. Notandinn kaupir vöruna með staðalkostnaði upp á SGM 10.00.  
 2. Notandinn flytur vöruna úr staðsetningunni BLÁTT í RAUTT með staðalkostnaði upp á SGM 12.00.  
 
-Eftirfarandi tafla sýnir áhrif millifærslu í virðisfærslum vörunnar.  
+Eftirfarandi tafla sýnir hvaða áhrif flutningurinn hefur á virðisfærslur vörunnar.  
 
-|Bókunardagsetning|Tegund birgðafærslu|Staðsetningarkóði|Virt magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
+|Bókunardagsetning|Birgðafærslutegund|Kóti birgðageymslu |Virt magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
 |01-01-20|Innkaup|BLÁTT|1|10.00|1|  
 |02-01-20|Millifærsla|BLÁTT|-1|10,00|2|  
@@ -230,11 +231,11 @@ Eftirfarandi tafla sýnir áhrif millifærslu í virðisfærslum vörunnar.
 Þar sem gildi upprunalegu birgðaaukningar er mælt í staðbundinni mynt 10,00, er millifærsla metin á þeim kostnaði, ekki staðbundinni mynt 12.00.  
 
 ## <a name="reapplication"></a>Endurjöfnun  
-Vegna þess hvernig kostnaðarverð er reiknað út gæti skökk birgðajöfnun leitt til skekkts meðalinnkaupaverðs og skekkts kostnaðarverðs. Eftirfarandi atburðarás getur valdið röngum vörujöfnunum sem krefst þess að vörujafnanir séu afturkallaðar og vörubókarfærslur endurjafnaðar.  
+Vegna þess hvernig kostnaðarverð vöru er reiknað út gæti skökk vörujöfnun leitt til skekkts meðalkostnaðar og einingarkostnaðar. Eftirfarandi atburðarás getur valdið röngum vörujöfnunum sem krefst þess að vörujafnanir séu afturkallaðar og vörubókarfærslur endurjafnaðar.  
 
 * Gleymst hefur að gera fasta jöfnun.  
 * Röng föst jöfnun var gerð.  
-* Æskilegt er að hnekkja jöfnuninni sem var stofnuð sjálfkrafa við bókun samkvæmt aðferð kostnaðarútreiknings.  
+* Æskilegt er að hnekkja jöfnuninni sem var stofnuð sjálfkrafa við bókun samkvæmt aðferð kostnaðarútreiknings fyrir vöruna.  
 * Skila þarf vöru sem búið er að jafna sölu við handvirkt án þess að nota aðgerðina**Sækja bókaðar fylgiskjalalínur til að bakfæra** og því verður að afturkalla þessa jöfnun.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] býður upp á eiginleika til að greina og leiðrétta jöfnun vöru. Þetta er framkvæmt á síðunni **Vinnublað fyrir jöfnun**.  

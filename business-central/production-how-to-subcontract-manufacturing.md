@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2d0558febd8bd895bbc591f4165a7a8fdda8600
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191452"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677309"
 ---
 # <a name="subcontract-manufacturing"></a>Úthýsa framleiðslu til undirverktaka
 Úthýsing á völdum aðgerðum til lánardrottna er algeng í mörgum framleiðslufyrirtækjum. Undirverktakastarfsemi getur verið sjaldgæf hending eða mikill þáttur í öllum framleiðsluferlum.
@@ -71,13 +71,6 @@ Vinnublaðslínunni sem var breytt í innkaupapöntun er eytt af vinnublaðinu. 
 
 ## <a name="posting-subcontract-purchase-orders"></a>Bókun innkaupapantana undirverktaka  
 Þegar Innkaupapantanir undirverktaka hafa verið stofnaðar er hægt að bóka þær. Við móttöku pöntunarinnar bókast Afkastagetufærsla á framleiðslupöntunina og þegar reikningur er gerður bókast beinn kostnaður af innkaupapöntuninni á framleiðslupöntunina.  
-
-Forritið bókar sjálfkrafa færslu frálagsbókarlínu fyrir framleiðslupöntunina þegar tekið er á móti innkaupapöntuninni. Þetta á aðeins við ef undirverktakakaaðgerðin er síðasta aðgerðin á leið framleiðslupöntuninni.  
-
-> [!CAUTION]  
->  Bókar frálag sjálfkrafa fyrir framleiðslupöntun sem er í gangi, þegar úthýstar vörur sem mótteknar eru, eru óæskilegar. Ástæðan fyrir þessu gæti verið að afkastamagnið sem bókað er gæti verið annað en raunverulega magnið og að bókunardagsetningin á sjálfvirka frálaginu sé villandi.  
->   
->  Til að forðast að áætlað frálag framleiðslupöntunar sé bókað þegar innkaup undirverktaka eru móttekin, sjáið til þess að undirverktakakaaðgerðin sé ekki sú síðasta. Að öðrum kosti er færð inn ný lokaaðgerð fyrir loka frálagsmagnið.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Til að bóka innkaupapöntun undirverktaka  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.  

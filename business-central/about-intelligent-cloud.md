@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 04/01/2020
+ms.date: 07/13/2020
 ms.author: bmeier
-ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8948864c1e3d00f3955b0952fd70048c13f4585c
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528864"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577257"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Innsýn með [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
 Sem notandi [!INCLUDE[prodshort](includes/prodshort.md)] á netinu hefur þú fullan aðgang að atburðarásum á snjallskýi, svo sem að breyta KPI sem byggja á vélnámi, eða þegar þú skoðar gögnin þín í Power BI. Hins vegar, meðan [!INCLUDE[prodshort](includes/prodshort.md)] er fyrst þjónusta við ský, þá geta þeir viðskiptamenn sem þurfa að keyra vinnuálag sitt að öllu leyti á staðnum eða á eigin snjallkerfi sem tengist skýinu, gert það.  
 
-Ef þú hefur áhuga á [!INCLUDE[prodshort](includes/prodshort.md)] getur þú skráð þig fyrir ókeypis prufu á netinu, eða þú getur valið að vinna með samstarfsaðila til að setja upp [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum eftir eigin vali á vélbúnaði. Þú getur þá ákveðið að fá snjalla innsýn með því að tengjast leigjanda í skýinu. Þess vegna verða gögnin frá staðbundna uppsetta [!INCLUDE[prodshort](includes/prodshort.md)] afrituð í skýið fyrir atburðarásir snjallskýs.  
+Ef þú hefur áhuga á [!INCLUDE[prodshort](includes/prodshort.md)] getur þú skráð þig fyrir ókeypis prufu á netinu, eða þú getur valið að vinna með samstarfsaðila til að setja upp [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum eftir eigin vali á vélbúnaði. Þú getur þá ákveðið að fá snjalla innsýn með því að tengjast leigjanda í skýinu. Gögnin frá uppsetningu [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum afritast þar af leiðandi í skýið fyrir aðstæður sem tengjast snjallskýi.  
 
 Tenging við snjallský úr lausnum á staðnum krefst að stjórnandi þinn tilgreini upplýsingar um gagnagrunninn. Verkfærin sem notuð eru til að tengja uppsetningu innanhúss við [!INCLUDE[prodshort](includes/prodshort.md)] online eru þau sömu sem eru einnig notuð til flutnings frá staðnum á netið. Frekari upplýsingar er að finna í [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) í efnisstjórnunarefninu fyrir [!INCLUDE[prodshort](includes/prodshort.md)].  
 
@@ -49,6 +49,5 @@ Síðan tengist einnig Power BI fyrir enn meiri innsýn.
 ## <a name="see-also"></a>Sjá einnig
 
 [Velkomin(n) í Business Central](index.md)  
-[Business Central snjallskýjaviðbót](ui-extensions-intelligent-cloud.md)  
-[Eftirlíking gagna viðbót](ui-extensions-data-replication.md)  
+[Snjallskýsviðbætur fyrir flutningi í skýi](ui-extensions-data-replication.md)  
 [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
