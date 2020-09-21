@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 805a8be94ccd38ffa696fe19157a08f4772c9ef3
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529089"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693100"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prufuútgáfa og áskrift
 
@@ -68,7 +68,7 @@ Ef þú hefur bætt gögnum við [!INCLUDE[prodshort](includes/prodshort.md)] ó
 
 ## <a name="getting-started-with-a-subscription"></a>Hafist handa með áskrift
 
-Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila. Frekari upplýsingar eru í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner). Endursöluaðili getur hjálpað þér að setja upp [!INCLUDE[prodshort](includes/prodshort.md)] í samræmi við fyrirtækið þitt, þar á meðal flutt inn gögn úr fyrra kerfi. Einnig er hægt að sérstilla [!INCLUDE[prodshort](includes/prodshort.md)] með því að bæta við forritum frá [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Í hvert sinn sem þú skráir þig inn á prufu tímabilinu, mun tilkynning á blátt flettistiku efst á skjánum sýna eftirstöðvar tíma. Ef þú ákveður að gerast áskrifandi skaltu finna [!INCLUDE[d365fin](includes/d365fin_md.md)] samstarfsaðila. Frekari upplýsingar eru í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner). Endursöluaðili getur hjálpað þér að setja upp [!INCLUDE[prodshort](includes/prodshort.md)] í samræmi við fyrirtækið þitt, þar á meðal flutt inn gögn úr fyrra kerfi. Einnig er hægt að sérstilla [!INCLUDE[prodshort](includes/prodshort.md)] með því að bæta við forritum frá [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prodshort](includes/prodshort.md)] online notar Office 365. Ef fyrirtækið þitt notar aðra gerð af tölvupóstuppsetningu getur verið að endursöluaðili geti aðstoðað þig við að flytja, eða látið þig vita ef þú ættir að nota [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: e6ee18367ad229ab56d694d0bbac23e1959b1a5f
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619411"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701993"
 ---
 # <a name="connect-to-common-data-service"></a>Tengjast við Common Data Service
 
@@ -71,7 +71,7 @@ Eftirfarandi ferli útskýrir hvernig á að setja upp tenginguna handvirkt á s
     |Svæði|Description|
     |-----|-----|
     |**[!INCLUDE[d365fin](includes/d365fin_md.md)] Notendur verða að varpa í CDS-notendur**|Ef eignarhaldslíkan einstaklings er notað, skal tilgreina hvort [!INCLUDE[d365fin](includes/d365fin_md.md)] notandareikningar verða að hafa samsvarandi notandareikninga í [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. **Office 365 Sannvottunarnetfang** fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir notandann verður að vera sama og **Aðalnetfang** fyrir [!INCLUDE[crm_md](includes/crm_md.md)] notandann.<br /><br /> Ef þetta gildi er stillt á **Já**, [!INCLUDE[d365fin](includes/d365fin_md.md)] munu notendur sem ekki hafa samsvarandi [!INCLUDE[crm_md](includes/crm_md.md)] notandareikning ekki geta notað [!INCLUDE[d365fin](includes/d365fin_md.md)] samþættingu í notandaviðmótinu. Aðgangur að [!INCLUDE[crm_md](includes/crm_md.md)] gögnum beint úr [!INCLUDE[d365fin](includes/d365fin_md.md)] er veittur fyrir hönd [!INCLUDE[crm_md](includes/crm_md.md)] notandareikningsins.<br /><br /> Ef þetta gildi er stillt á **Nei**, munu allir [!INCLUDE[d365fin](includes/d365fin_md.md)] notendur geta notað [!INCLUDE[crm_md](includes/crm_md.md)] samþættingu í notandaviðmótinu. Aðgangur að [!INCLUDE[crm_md](includes/crm_md.md)] gögnum er veittur fyrir hönd notanda [!INCLUDE[crm_md](includes/crm_md.md)]-tengingar (samþættingar).|
-    |**Núverandi sölumaður Business Central er varpað í notanda**|Gefur til kynna hvort notandareikningnum þínum sé varpað í reikning í [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field|-->
+    |**Núverandi sölumaður Business Central er varpað í notanda**|Gefur til kynna hvort notandareikningurinn þinn sé varpað í reikning í [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field-->|
 
 4. Til að prófa stillingar tengingar skal velja **Tenging** og síðan **Prófa tengingu**.  
 

@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Iceland, post, invoice, credit memo
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 81bac94fd78f4335d4a0043b708499bbdcd68777
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: a8250c591aff1ff231956b2b757c5c691460b5cb
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181148"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779097"
 ---
 # <a name="deleting-posted-invoices-and-credit-memos"></a>Eyðing bókaðra reikninga og kreditreikninga
 Í samræmi við löggjöf á Íslandi er ekki hægt að eyða sölu- og innkaupareikningum og kreditreikningum eftir að þeir hafa verið bókaðir. Á [!INCLUDE[d365fin](../../includes/d365fin_md.md)] er skipunin **Eyða** ekki í boði fyrir þessa gerð bókaðra fylgiskjala.

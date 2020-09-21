@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2020
+ms.date: 09/02/2020
 ms.author: bholtorf
-ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
+ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528489"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3765947"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 
@@ -166,7 +166,7 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |Shift+Enter|Staðfestu gildið í núverandi reit og farðu í fyrri reit flýtifærslu.||
 |Ctrl+Shift+Enter|Staðfestu gildið í núverandi dálki og farðu í næsta reit flýtifærslu út fyrir listann.<br /><br />Þessi flýtileið gildir um innbyggða lista á síðu, svo sem vörulínur í sölupöntun. Það gerir þér kleift að komast fljótt út úr listanum og halda áfram að slá inn gögn í öðrum reitum á síðunni.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Flýtivísanir í dagatalinu (Dagsetningarval)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a> Flýtivísanir í dagatalinu (Dagsetningarval)
 
 Þegar þú setur dagsetningarreit getur þú annaðhvort slegið inn dagsetninguna handvirkt eða opnað dagatal (dagsetningarval) sem leyfir þér að velja þann dag sem þú vilt. Eftirfarandi tafla lýsir flýtivísunum fyrir dagatalið.
 
@@ -185,12 +185,13 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |Síða upp|Fara í fyrri mánuð.|  
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Flýtilyklar í gagnareitum
+
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|
 |d|Færðu inn daginn í dag. „T“ stendur fyrir „Í dag“.|
 |v|Færðu inn vinnudagsetninguna. Frekari upplýsingar er að finna í [Vinnudagsetning](ui-change-basic-settings.md#work-date)|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Flýtivísanir í forskoðun skýrslu
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Flýtivísanir í forskoðun skýrslu
 
 |Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
 |--------------------------------|----------|

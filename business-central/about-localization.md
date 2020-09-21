@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 07/21/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 6d9cbf61160a2f8d64cfc7cd6b65aae4bd84a881
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 180c28057fd7da133f2f0770ba515d3eabb1af05
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611535"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693125"
 ---
 # <a name="local-functionality-in-prodlong"></a>Staðbundin virkni í [!INCLUDE[prodlong](includes/prodlong.md)]
 
@@ -55,7 +55,7 @@ Til að fræðast um staðbundna virkni fyrir hvert land/svæði skal velja við
 
 ### <a name="other-countries"></a>Önnur lönd
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er einnig í boði á öðrum mörkuðum með staðfæringarforritum. Ef samstarfsaðili Microsoft hefur þróað staðfært forrit fyrir land/svæði notanda, er hægt að finna það í [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er einnig í boði á öðrum mörkuðum með staðfæringarforritum. Ef samstarfsaðili Microsoft hefur þróað staðfært forrit fyrir land/svæði notanda, er hægt að finna það í [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## <a name="see-also"></a>Sjá einnig
 

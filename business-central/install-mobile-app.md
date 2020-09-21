@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: aabbba7c6cf5aa84797369c8fefad1ef79fa805f
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.openlocfilehash: 558f457291b3e182444eeb78fab24fe80766e70b
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666823"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693075"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Nota Business Central á fartækinu þínu
 Fá aðgang að gögnum [!INCLUDE[d365fin](includes/d365fin_md.md)] úr fartæki. Hægt er að skoða viðskiptagögn, nota eiginleika eins og senda í Excel eða Office 365, skoða nýjustu myndrit og afkastavísa (KPI), sölutilboð og reikninga í tölvupósti, og taka myndir með eigin myndavél og tengja þær. Fylgið skrefunum hér að neðan til að sækja smáforritið og hefjist handa.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>Að sækja smáforritið í fartæki
 1. Setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)] forritið í fartækið með því að hlaða því niður úr Windows Store, App Store eða Google Play.  

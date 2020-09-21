@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1e129947d6230578b5c553fd985030e2f5ebc5c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cde057fe727290a816f748b0c115ef865b2465a3
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182829"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701866"
 ---
 # <a name="set-up-prepayments"></a>Uppsetning fyrirframgreiðslu
 Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun afhenta eða ef lánardrottinn fer fram á greiðslu áður en hann afhendir pöntun er hægt að nota aðgerðina Fyrirframgreiðsla. Með þessari verkun getur þú reikningsfært og innheimt innborganir frá viðskiptamönnum eða sent lánardrottnum innborganir, og verið viss að allar hlutagreiðslur séu bókaðar til móts við reikning. Nánari upplýsingar eru í [Búa til fyrirframgreiðslureikninga](finance-how-to-create-prepayment-invoices.md).
@@ -20,6 +20,11 @@ Ef viðskiptavinir þurfa inna greiðslu af hendi áður en þeir fá pöntun af
 Áður en þú getur bókað fyrirframgreiðslureikning verður þú að setja upp bókunarreikningana í fjárhag og númeraraðir fyrir fyrirframgreiðsluskjöl. Þú verður að tilgreina reikning fyrir fyrirframgreiðslur sem tengjast sölu og reikningi fyrir fyrirframgreiðslur sem tengjast innkaupum. Þú getur tilgreint sömu bókunarreikninga til notkunar fyrir allar fyrirframgreiðslur sem tengjast öllum almennum viðskiptabókunarflokkum eða almennum vörubókunarflokkum, eða þú getur tilgreint tiltekna reikninga fyrir tilteknar bókunarflokka fyrir sölu og innkaup. Þetta fer eftir kröfum fyrirtækisins þíns varðandi rakningu fyrirframgreiðslna.  
 
 Þú getur tilgreint prósentu línuupphæðarinnar sem verður reikningsfærð, fyrir viðskiptamann eða lánardrottin fyrir allar vörur eða valdar vörur. Þegar uppsetningu er lokið er hægt að búa til fyrirframgreiðslureikninga úr sölu- og innkaupapöntunum. Þú getur notað skilgreindu prósenturnar fyrir hverja sölu- eða innkaupalínu eða breytt upphæðunum á reikningnum eins og þarf. Til dæmis er hægt að tilgreina heildarupphæð fyrir alla pöntunina.  
+
+> [!NOTE]
+> Mælt er með því að ekki sé notuð 100% prósenta fyrirframgreiðslu í eftirfarandi tilvikum:
+> * Ef þú ert í Norður-Ameríku. Vegna þess hvernig skattar eru reiknaðir er prósenta fyrirframgreiðslu 100% sem getur leitt til vandamál með fyrirframgreiðslureikninga.
+> * Á öllum svæðum, ef greiðsluafsláttur er handvirkt dreginn frá reikningi. Fyrirframgreiðsluprósenta 100% mun ekki sjálfkrafa skilja eftir upphæð sem draga þarf afsláttinn frá. 
 
 Þar sem fyrirframgreidd upphæð tilheyrir kaupanda þar til hann hefur móttekið vörur eða þjónustu þarf að setja upp fjárhagsreikninga til að geyma fyrirframgreiðsluupphæðir þar til lokareikningurinn er bókaður. Sölufyrirframgreiðslur þarf að skrá í skuldareikning þar til vörurnar eru afhentar. Fyrirframgreiðslur innkaupa þarf að skrá í eignareikning þar til vörurnar eru mótteknar. Auk þess þarf að setja upp sérstakan fjárhagsreikning fyrir hvert VSK-kenni.  
 

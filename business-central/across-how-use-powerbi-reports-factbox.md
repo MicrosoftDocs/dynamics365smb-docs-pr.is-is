@@ -1,7 +1,7 @@
 ---
-title: Birta venjulegar Power BI skýrslur| Microsoft Docs
+title: Birta sérstillta Power BI-skýrslur fyrir Business Central Data| Microsoft docs
 description: Hægt er að nota Power BI skýrslur til að öðlast frekari innsýn í gögnum í listum.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,64 +9,74 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2020
-ms.author: edupont
-ms.openlocfilehash: 15b9f17b0b7748df977eef3837fb75122eb8d1ae
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: jswymer
+ms.openlocfilehash: 5d3acaf05952a61845eb8bb72b2556f2e54f8208
+ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187845"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3697699"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Skoða listagögn í Power BI skýrslum í Business Central
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Býr til Power BI skýrslur til að birta listagögn í [!INCLUDE[prodshort](includes/prodshort.md)]
 
-[!INCLUDE[prodlong](includes/prodlong.md)] inniheldur stjórneiningu fyrir upplýsingakassa á mörgum veigamiklum listasíðum sem veita frekari innsýn í gögnin í listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Notandi getur stofnað sérsniðnar skýrslur til að birta í þessum stjórntakka en hér eru nokkrar grunnreglur sem fylgja skal við stofnun skýrslnanna til að tryggja að þær virki sem skyldi.  
+[!INCLUDE[prodlong](includes/prodlong.md)] inniheldur stjórneiningu fyrir upplýsingakassa á mörgum veigamiklum listasíðum sem veita frekari innsýn í gögnin í listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Hægt er að búa til sérsniðnar skýrslur til að birta í þessari stjórnun. Hins vegar eru fáar reglur til staðar til að tryggja að skýrslur virki eins og til er ætlast.  
 
-> [!NOTE]  
-> Notandi verður að vera með gildan reikning hjá [!INCLUDE[prodshort](includes/prodshort.md)] og hjá Power BI. Til að búa til sérsniðnar skýrslur verður þú einnig að hala niður [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Frekari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md).  
+## <a name="prerequisites"></a>Frumskilyrði
 
-## <a name="report-data-set"></a>Gagnamengi skýrslu
-Þegar skýrslan er stofnuð í Power BI Desktop skal tilgreina gagnaveitu eða vefþjónustu sem inniheldur gögnin sem tengjast listanum sem á að tengja skýrsluna við. Til dæmis ef notandi vill stofna skýrslu fyrir sölulista skal tryggja að gagnamengið innihaldi upplýsingar sem tengjast sölu.  
+- Power BI-Reikningur.
+- Power BI Desktop.
 
-Til að afmarka gögn í skýrslum á grundvelli færslunnar sem valin var á listasíðunni verður að nota aðallykil sem skýrslusíu. Aðallykillinn verður að vera hluti af gagnamenginu til að skýrslan verði rétt afmörkuð. Í flestum tilvikum er aðallykill fyrir lista reiturinn **Nr.** .  
+Frekari upplýsingar um það hvernig þú hefst handa má finna í [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md).
+
+## <a name="defining-the-report-data-set"></a>Skilgreining gagnasamstæðu skýrslu
+
+Tilgreina gagnagjafann sem inniheldur gögnin sem tengjast listanum. Ef þú vilt t.d. stofna skýrslu fyrir sölulista skal tryggja að gagnamengið innihaldi upplýsingar sem tengjast sölu.  
 
 ## <a name="defining-the-report-filter"></a>Skilgreining á afmörkun skýrslu
-Skýrslan þarf að vera með grunnafmörkun skýrslu (ekki síðu eða myndræna afmörkun og ekki ítarlega afmörkun) til að vera rétt afmörkuð í stjórntakka upplýsingakassa í Power BI. Afmörkunin sem er flutt yfir í Power BI skýrsluna af hverri listasíðu byggir á aðallyklinum, eins og lýst er í fyrri hluta.  
 
-Til að skilgreina afmörkun í skýrslunni er aðallykill af listanum yfir tiltæki reitir valinn og síðan er sá reitur dregill og sleppt yfir í hlutann **Afmörkun skýrslu**.  
+Til að gera gagnauppfærslu í valinni færslu á listanum er síu bætt við skýrslu. Sían verður að innihalda reit gagnagjafans sem er notaður sem *aðallykill*. Í flestum tilvikum er aðallykill fyrir lista reiturinn **Nr.** .
+
+Til að skilgreina afmörkun í skýrslunni er aðallykill af listanum yfir tiltæki reitir valinn og síðan er sá reitur dregill og sleppt yfir í hlutann **Afmörkun skýrslu**. Sían verður að vera grunnskýrslusía. Það getur ekki verið síða, sjónrænt eða ítarleg sía. 
 
 ![Afmörkun skýslu stillt fyrir Aðgerðaskráningu sölureikninga](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
 
-## <a name="report-size-and-color"></a>Stærð og litur skýrslu
-Stærð skýrslu verður að stilla á 325 sinnum 310 pixla. Þetta er áskilið til að kvörðun skýrslunnar verði rétt í því rými sem stjórntakki upplýsingakassa fyrir Power BI leyfir. Til að skilgreina stærð skýrslu skal staðsetja fókus utan svæðis fyrir útlit skýrslu og velja svo tákn fyrir málningarrúllu.
+## <a name="setting-the-report-size-and-color"></a>Stærð og litur skýrslu valin
+
+Stærð skýrslu verður að stilla á 325 sinnum 310 pixla. Þessi stærð býður upp á rétta kvörðun á skýrslu í tiltæku bili í Power BI stjórnun upplýsingareits í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til að skilgreina stærð skýrslu skal staðsetja fókus utan svæðis fyrir útlit skýrslu og velja svo tákn fyrir málningarrúllu.
 
 ![Breidd og hæð skýrslu stillt fyrir Aðgerðaskráningu sölureikninga](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
 
 Hægt er að breyta breidd og hæð skýrslunnar með því að velja **Sérsníða** í reitnum **Tegund**.
 
-Sömuleiðis, ef óskað er að bakgrunnur skýrslunnar renni saman við bakgrunnslit stjórntakka upplýsingakassa Power BI skal skilgreina bakgrunnslit sem *E5E5E5*. Þetta er valfrjálst.  
+Ef bakgrunnur skýringarinnar á að vera með bakgrunnslit Power BI upplýsingareitsins skal stilla bakgrunnslit skýrslu á *#FFFFFF*. 
 
-## <a name="reports-with-multiple-pages"></a>Skýrslur með mörgum síðum
-Með Power BI er hægt að stofna eina skýrslu með mörgum síðum. Myndrænir þættir sem notandi vill sjá í listasíðum [!INCLUDE[d365fin](includes/d365fin_md.md)] verða að vera á fyrstu síðu skýrslunnar í Power BI.  
+## <a name="using-reports-with-multiple-pages"></a>Notkun á skýrslum með mörgum síðum
 
-> [!NOTE]  
-> Upplýsingakassi fyrir Power BI getur aðeins sýnt fyrstu síðuna í skýrslunni. Ef notandi vill sjá fleiri síður verður að víkka skýrsluna og nota flipana neðst í skýrslunni til að fletta á aðrar síður.  
+Með Power BI er hægt að stofna eina skýrslu með mörgum síðum. Fyrir skýrslur sem birtast með listasíðum mælum við hins vegar ekki með því að þær séu með fleiri en eina síðu. Power BI upplýsingareiturinn sýnir aðeins fyrstu síðu skýrslunnar.
 
-## <a name="saving-your-report"></a>Vistar skýrsluna
+## <a name="naming-the-report"></a>Gefa skýrslunni heiti
 
-Þegar skýrslan er vistuð er gott verklag að skýrsluheitið innihaldi heiti listasíðunnar sem notandi vill birta skýrsluna á. Til dæmis verður orðið *Lánardrottinn* að koma fyrir einhvers staðar í skýrsluheiti fyrir skýrslur sem notandi vill að verði tiltækar á lista yfir lánardrottna.  
+Gefa skal skýrslunni heiti sem inniheldur heiti listasíðunnar sem tengist skýrslunni. Ef skýrsla er t.d. fyrir listasíðuna **Lánardrottinn** skal innihalda orðið *lánardrottinn* einhvers staðar í heitinu.  
 
-Þetta er ekki skilyrði en mun flýta fyrir ferlinu þegar skýrslur eru valdar. Þegar síða fyrir val á skýrslum er opnuð af listasíðu setjum við inn afmörkun byggða á síðuheitinu til að takmarka hversu margar skýrslur verða birtar.  Hægt er að fjarlægja afmörkunina til að birta heildarlista yfir skýrslur sem eru tiltækar notanda í Power BI.  
+Þessi nafnavenja er ekki skilyrði. Hins vegar gerir það val á skýrslum í [!INCLUDE[d365fin](includes/d365fin_md.md)] fljótlegri. Þegar skýrsluvalssíða opnast af listasíðu er hún síuð sjálfkrafa út frá síðuheitinu. Þessi sía er búin til að takmarka skýrslurnar sem eru birtar. Einnig er hægt að fjarlægja afmörkunina til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.  
 
-## <a name="troubleshooting"></a>Úrræðaleit
+## <a name="fixing-problems"></a>Vandamál lagfærð
+
 Þessi hluti veitir hjáleið fyrir flest dæmigerð vandamál sem komið geta upp þegar Power BI-skýrsla er búin til.  
 
-**Notandi sér enga skýrslu á síðunni Velja skýrslu sem hann vill velja.** Ef notandi getur ekki valið skýrslu er hugsanlega hægt að staðfesta heiti skýrslunnar til að tryggja að heitið innihaldi heiti listasíðunnar. Einnig er hægt að fjarlægja afmörkunina til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.  
+#### <a name="you-cant-see-a-report-on-the-select-report-page"></a>Ekki er hægt að sjá skýrslur á síðunni „Velja skýrslur“
 
-**Skýrslan er sótt en er auð, ekki afmörkuð eða afmörkuð með röngum hætti** Sannprófa verður að skýrsluafmörkunin innihaldi réttan aðallykil. Yfirleitt er þetta **Nr.** reitur, en í töflunni **Fjárhagsfærsla**, til dæmis, verður að nota **Færslunr.** reitinn.
+Það er líklega vegna þess að heiti skýrslunnar inniheldur ekki heiti listasíðunnar. Hreinsaðu síuna til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.  
 
-**Skýrslunni er hlaðið upp en sýnir síðu sem notandi átti ekki von á að sjá** Sannprófa verður að skýrslan sem notandi vill að birtist sé fyrsta síðan í skýrslunni.  
+#### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Verið er að hlaða skrá en hún er tóm, ekki síuð eða síuð á rangan hátt
 
-**Skýrsla er birt með óæskilegum gráum jöðrum, er of lítil eða of stór**
+Sannprófa verður að skýrsluafmörkunin innihaldi réttan aðallykil. Yfirleitt er þessi reitur **Nr.** reitur, en í töflunni **Fjárhagsfærsla**, til dæmis, verður að nota **Færslunr.** reitinn.
+
+#### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Skýrslu er hlaðið inn, en hún sýnir síðu sem þú bjóst ekki við
+
+Sannprófa verður að skýrslan sem notandi vill að birtist sé fyrsta síðan í skýrslunni.  
+
+#### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Skýrsla birtist með óæskilegum gráum ramma eða hún er of lítill eða of stór
 
 Staðfestið að stærð skýrslu sé stillt á 325 x 310 pixla. Vista skal skýrsluna og síðan endurnýja listasíðuna.  
 

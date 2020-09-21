@@ -227,9 +227,17 @@
 ### [Samstilla við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Nota Business Central án Outlook](admin-no-outlook.md)
 ## Notkun Power BI með Business Central
-### [Gera viðskiptagögn þín virk fyrir Power BI](admin-powerbi.md)
-### [Skoða listagögn í Power BI skýrslum í Business Central](across-how-use-powerbi-reports-factbox.md)
-### [Nota Business Central sem Power BI gagnaveita](across-how-use-financials-data-source-powerbi.md)
+### [Kynning](admin-powerbi.md)
+### Stjórnandi
+#### [Yfirlit yfir samþættingu](admin-powerbi-overview.md)
+#### [Virkjun Power BI Samþættingar](admin-powerbi-setup.md)
+### Hönnuður
+#### [Að hefjast handa við að búa til skýrslur](across-how-use-financials-data-source-powerbi.md)
+#### [Stofna skýrslur til að birta listagögn](across-how-use-powerbi-reports-factbox.md)
+### Neytendur
+#### [Unnið með Power BI Skýrslur í Business Central](across-working-with-powerbi.md)
+#### [Unnið með Business Central Data í Power BI](across-working-with-business-central-in-powerbi.md)
+#### [Notkun Business Central-forrita í Power BI](across-powerbi-business-central-apps.md)
 ## Notkun Power Automate með Business Central
 ### [Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)
 ## Notkun Power Apps með Business Central
@@ -424,8 +432,6 @@
 #### [Endurskoða eða jafna greiðslur handvirkt eftir sjálfvirka jöfnun](receivables-how-review-apply-payments-auto-application.md)
 #### [Afstemma greiðslur sem ekki er hægt að nota sjálfkrafa](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Varpa texta um endurteknar greiðslur í reikninga fyrir sjálfvirka afstemmingu](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-### [Afstemma greiðslur viðskiptamanna handvirkt úr lista yfir ógreidd söluskjöl](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-### [Afstemma greiðslur viðskiptavinar með inngreiðslubók eða úr færslum í viðskiptamannabók](receivables-how-apply-sales-transactions-manually.md)
 ### [Afstemma greiðslur lánardrottins með greiðslubók eða úr færslum í lánardrottnabók](payables-how-apply-purchase-transactions-manually.md)
 ### [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)
 ### [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)
@@ -1170,7 +1176,6 @@
 #### [Búa til og flytja út greiðslusögu](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 #### [Flytja inn og afstemma bankayfirlit](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 ### Core-fjármál
-#### [Fjárhagur](LocalFunctionality/Netherlands/general-ledger.md)
 #### [Jafna og ógilda fjárhagsfærslur](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Nauðsynlegar lýsingar í fjárhagsfærslum](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 ### Innkaup

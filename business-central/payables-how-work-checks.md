@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503799"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777987"
 ---
 # <a name="make-check-payments"></a>Framkvæma ávísanagreiðslur
 
@@ -47,7 +47,7 @@ Eftirfarandi dæmi sýnir hvernig á að greiða lánardrottni með ávísun. Sk
 6. Á síðunni **Athuga** skal fyllt í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Ef prentarinn er settur upp til að prenta ávísanir skal velja hnappinn **Prenta**. Veldu hnappinn **Senda til**, veldu valkostinn **PDF-skjal** og veldu síðan hnappinn **Í lagi** og prentaðu út PDF-skjalið.
 
-    Raunverulegu ávísanirnar er nú hægt að fara með í bankann til vinnslu. Haltu áfram að bóka greiðsluna eins og hún er jöfnuð við lánardrottin og þar af leiðandi greidd í kerfinum.
+    Þá er hægt að senda efnislegar ávísanir á lánardrottna til úrvinnslu. Haltu áfram að bóka greiðsluna eins og hún er jöfnuð við lánardrottin og þar af leiðandi greidd í kerfinum.
 8. Valið er **Bóka** aðgerðin.
 
 Lánardrottnafærslur og fjárhagsfærslur sem eru jafnaðar að fullu eru stofnaðar.
@@ -61,7 +61,11 @@ Hægt er að ógilda tékka sem eftir á að bóka þegar þær hafa verið pren
 1. Á síðunni **Greiðslubók** er valið **Ógildur tékki** og síðan valið hvaða tékka á að ógilda.
 
 ## <a name="to-void-checks"></a>Tékkar ógiltir:
+
 Þegar tékkagreiðslur hafa verið bókaðar, geturðu aðeins afturkallað (ógilt) tékka úr bankafærslum sem fengust út úr þessu.
+
+> [!IMPORTANT]
+> Ef ávísunin er jöfnuð á reikning, skal fyrst hætta við val hennar fyrst svo að hægt sé að greiða reikninginn og ógilda síðan ávísunina. Ef ávísunin var prentuð og ekki notuð til að greiða reikning skaltu velja **Eingöngu ógilda ávísun** eins og lýst er í þessum hluta.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.
 2. Veldu viðeigandi bankareikning, veldu **breyta** aðgerðina og veldu síðan **tékkafærslur** aðgerðina.

@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a558976667050484d444333953657497b376b1ba
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 6918229fd10ca35e802f36f1a40ba6cfec090074
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676804"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779093"
 ---
 # <a name="map-irs-numbers-to-chart-of-accounts"></a>Varpa skattstofunúmerum í bókhaldslykla
 Fyrirtæki á Íslandi þurfa að senda gagnaskrá á fyrirfram tilgreindu formi til skattyfirvalda. Áður en hægt er að gera þetta þarf að varpa fyrirfram skilgreindum reikningskóða skattstofu (Internal Revenue Service) í fjárhagsreikning.  

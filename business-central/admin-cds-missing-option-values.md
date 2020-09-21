@@ -8,12 +8,12 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 42ad388e6c07ca259d4ef6095b9f8c908b509407
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196870"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693025"
 ---
 # <a name="handling-missing-option-values"></a>Meðhöndlun gilda sem vantar fyrir valkosti
 [!INCLUDE[d365fin](includes/cds_long_md.md)] inniheldur aðeins þrjá valkostarreiti sem innihalda valgildi sem hægt er að varpa í [!INCLUDE[d365fin](includes/d365fin_md.md)] reiti af gerð valkostar<!-- Option type, not enum? @Onat can you vertify this? --> fyrir sjálfvirka samstillingu. Við samstillingu eru óvarpaðir valkostir hunsaðir og valkostina sem vantar er komið fyrir í tengdri [!INCLUDE[d365fin](includes/d365fin_md.md)] töflu og bætt við kerfistöfluna **Vörpun CDS-valkosta** til að meðhöndla handvirkt seinna. Til dæmis með því að bæta við valkostunum sem vantar í aðrahvora vöruna og síðan uppfæra vörpunina. Í þessum hluta er því lýst hvernig það virkar.
@@ -99,6 +99,9 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 
 > [!IMPORTANT]  
 > Nota verður sömu auðkennisgildi valkostar úr [!INCLUDE[d365fin](includes/cds_long_md.md)] þegar bætt er við [!INCLUDE[d365fin](includes/d365fin_md.md)] fasttextann. Annars mistekst samstillingin.
+
+> [!IMPORTANT]  
+> Ekki skal nota stafinn "," í fasttextagildi og skjátexta. Þetta er sem stendur ekki stutt af [!INCLUDE[d365fin](includes/d365fin_md.md)] keyrslunni.
 
 > [!NOTE]
 > Fyrstu tíu stafirnir á nýjum heitum og myndatextum valgilda verða að vera einkvæmir. Til dæmis kemur upp villa ef tveir valkostir heita „Transfer 20 working days“ og „Transfer 20 calendar days“ vegna þess að báðir eru með fyrstu 10 stafina „Transfer 2“. Nefndu þá til dæmis „TRF20 WD“ og „TRF20 CD.“

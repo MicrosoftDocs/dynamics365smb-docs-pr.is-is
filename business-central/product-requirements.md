@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 05/06/2020
+ms.date: 08/25/2020
 ms.author: edupont
-ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 65d8295c6beb4fe918ad11434bc9813c34e81a93
+ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528714"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3731219"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
 Áður en þú ferð inn í [!INCLUDE[prodshort](includes/prodshort.md)] á netinu mælum við með að þú sannvottir að tölvan þín eða fartæki uppfylli eða sé með meira en lágmarks kerfiskröfur fyrir vöruna. Þessi grein sýnir lista með kröfum.  
@@ -32,6 +32,9 @@ ms.locfileid: "3528714"
 
 **Microsoft Edge Eldra:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannaður til að vinna með eldri útgáfu af Microsoft Edge.  
 **Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að vinna með Internet Explorer 11 (smíði 11.0.9600.17239) fyrir Windows 10 (32-bita og 64-bita útgáfur). Við mælum með að uppfæra í nýjustu útgáfu Internet Explorer sem er studd fyrir þína útgáfu af Windows. Einnig er hægt að keyra nýja Edge og hafa enn aðgang að vefsvæðum sem krefjast Internet Explorer. Frekari upplýsingar er að finna í [Microsoft Edge fylgiskjöl](/deployedge/edge-ie-mode).
+
+> [!IMPORTANT]
+> Frá apríl 2021, verða Internet Explorer 11 og Edge Legacy ekki lengur studd. Við mælum með því að skipta yfir í einn af ráðlögðum vöfrum eins fljótt og auðið er.
 
 ## <a name="mobile-devices"></a>Fartæki
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir Windows er hægt að setja upp á tæki með að minnsta kosti 1GB RAM og Windows 10 Home, Pro, Enterprise eða Education (32-bita og 64-bita útgáfur).  
