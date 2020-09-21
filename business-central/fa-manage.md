@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf893e2f8ea7eaeee9867566da92461eef7a9578
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.author: edupont
+ms.openlocfilehash: fdcced8a62cb64f28d3e4d274271c4cf8f27d0d7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666798"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780261"
 ---
 # <a name="fixed-assets"></a>Eignir
 Í kerfishlutanum Eignir í [!INCLUDE[d365fin](includes/d365fin_md.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.
@@ -51,7 +51,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## <a name="video-overview"></a>Yfirlit myndbands
 Eftirfarandi myndband fjallar um grunnatriði eigna.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning eigna](fa-setup.md)  

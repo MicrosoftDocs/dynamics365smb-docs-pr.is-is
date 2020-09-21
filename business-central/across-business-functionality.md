@@ -1,5 +1,5 @@
 ---
-title: Fyrirtækjavirkni studd af Business Central | Microsoft Docs
+title: Fyrirtækjavirkni studd af Business Central
 description: Býður upp á eiginleika í formi yfirlits yfir alla fyrirtækjavirkni og deildir sem eru studdar af kerfishlutum, svo sem fjármálum, birgðum og verkefnisstjórnun
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5bdc19028a6859d1bee795de766416ada535b474
-ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
+ms.date: 08/27/2020
+ms.author: edupont
+ms.openlocfilehash: 7c78106eaf843435ea41e06c0388cd54e1e3dde4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499517"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780762"
 ---
 # <a name="business-functionality"></a>Viðskiptavirkni
 [!INCLUDE[d365fin](includes/d365fin_md.md)] veitir virkni fyrir algenga viðskiptaferla í litlum og meðalstórum fyrirtækjum, aðallega með heildsölu og sérþjónustu. Hins vegar eru flóknari ferli, s.s. samsetning, framleiðsla, þjónusta og beint vöruhúsakerfi einnig studd.
