@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
-ms.author: sgroespe
-ms.openlocfilehash: 99aab6de06cd50d53b977ed37a863cad28fab8fa
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 038ecb0122e58cfdca3ff62ac93554fab01dcdb6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542668"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786597"
 ---
 # <a name="receive-items"></a>Móttaka vara
 
@@ -33,6 +33,7 @@ Eftirfarandi lýsir því hvernig skal taka á móti vörum með innkaupapöntun
 
   > [!NOTE]
   > Ef móttekið magn er hærra en pantað er á innkaupapöntuninni, samkvæmt reitnum **Magn**, og lánardrottinn hefur verið settur upp til að leyfa umframmóttökur, þá er reiturinn **Umframmóttaka** notaður til að meðhöndla umframmagn. Frekari upplýsingar er að finna í [Tekið á móti fleiri vörum en pantað er](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+
 4. Valið er **Bóka** aðgerðin.
 
   Gildið í reitnum **Móttekið magn** er uppfært. Ef um er að ræða móttöku að hluta, getur þetta magn verið lægra en gildið í svæðinu **Magn**.
