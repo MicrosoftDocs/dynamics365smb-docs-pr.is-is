@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: 37815e275e478663a310ee052d16afde973d32ef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 805439e0cc50fe0b9dc3132050eb7c7041ffe7a7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182085"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785947"
 ---
 # <a name="set-up-locations"></a>Uppsetning birgðageymsla
 Ef vörur eru keyptar, geymdar eða seldar á fleiri en einum stað eða vöruhúsi þarf að setja hverja staðsetningu upp með staðsetningarspjaldi og skilgreina flutningsleiðir.
