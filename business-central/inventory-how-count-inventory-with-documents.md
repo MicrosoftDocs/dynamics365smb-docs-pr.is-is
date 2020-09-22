@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8152299efea0ef07e1506d5897ff9cd27d21d21a
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: ae40390d2aa095739154a635c0e4fdf77933e648
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529064"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782119"
 ---
 # <a name="count-inventory-using-documents"></a>Birgðatalning með skjölum
 Hægt er að gera efnislega birgðatalningu á vörunum þínum með því að nota skjöl fyrir efnislega birgðapöntun og skráningu efnislegra birgða. Síðan **Pöntun efnislegra birgða** er notuð til að skipuleggja verk ítarlegrar birgðatalningar, t.d. ein á hverja staðsetningu. Síðan **Skráning efnislegra birgða** er notuð til að koma á framfæri og sækja rauntalningu á vörum. Hægt er að búa til margar skráningar fyrir eina pöntun, t.d. til að dreifa flokkum af vörum á mismunandi starfsmenn.

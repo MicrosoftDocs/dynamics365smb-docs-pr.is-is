@@ -1,5 +1,5 @@
 ---
-title: Búa til XMLports út frá XML-skemum | Microsoft Docs
+title: Nota XML-skema til að undirbúa skilgreiningar gagnaskipta
 description: Notaðu XML skjöl til að setja upp ramma skjalaskipta.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,43 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 60b1e7ad420e805e27ad27d8aa7c66fb1274e7b5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 09/01/2020
+ms.author: edupont
+ms.openlocfilehash: e244afdb7690ad10eeb99f0c8004cb171469744b
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188000"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781961"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Nota XML-skema til að undirbúa skilgreiningar gagnaskipta
-Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptaumgjörð í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að nota XML-skema til að tilgreina hvaða gagnastök á að skiptast á við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þessi aðgerð er gerð á síðunni **XML-skemaskoðun** með því að hlaða XML-skemaskránni, velja viðeigandi gagnastök og ræsa því næst annað hvort skilgreiningu gagnaskipta eða XMLport.  
 
- Þegar búið er að skilgreina hvaða gagnastök á að hafa með, samkvæmt XML-skema, má nota aðgerðina **Mynda XMLport** til að stofna XMLport-hlutinn.  
+Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptaumgjörð í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að nota XML-skema til að tilgreina hvaða gagnastök á að skiptast á við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þessi aðgerð er gerð á síðunni **XML-skemaskoðun** með því að hlaða XML-skemaskránni, velja viðeigandi gagnastök og ræsa skilgreiningu gagnaskipta.  
 
- Einnig er hægt að nota **Mynda gagnaskiptiskilgreiningu** aðgerð til að frumstilla gagnaskiptiskilgreiningu byggt á völdum gagnastökum sem síðan er lokið í Data Exchange Framework. Þetta stofnar færslu á síðunni **Bókunarskilgreiningar** þar sem haldið er áfram að skilgreina hvaða einingar í SEPA skráakortinu tengjast hvaða reitum í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).  
+ Þegar búið er að skilgreina hvaða gagnastök á að hafa með er hægt að nota **Mynda skilgreiningu gagnaskipta** aðgerð til að frumstilla gagnaskiptiskilgreiningu byggt á völdum gagnastökum sem síðan er lokið í Data Exchange Framework. Þetta stofnar færslu á síðunni **Bókunarskilgreiningar** þar sem haldið er áfram að skilgreina hvaða einingar í SEPA skráakortinu tengjast hvaða reitum í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).  
 
  Þetta efnisatriði inniheldur eftirfarandi ferli:  
 
--   Til að hlaða XML-skemaskrá  
+- Til að hlaða XML-skemaskrá  
 
--   Að velja eða hreinsa hnúta á XML-skema  
+- Að velja eða hreinsa hnúta á XML-skema  
 
--   Að búa til gagnaskiptaskilgreiningu sem byggist á XML-skema  
+- Að búa til gagnaskiptaskilgreiningu sem byggist á XML-skema  
 
--   Að búa til XMLport fyrir skrá sem byggir á XML-skema  
+## <a name="to-load-an-xml-schema-file"></a>Til að hlaða XML-skemaskrá
 
--   Að flytja inn XMLport í hlutahönnuð  
+1. Ganga úr skugga um að viðeigandi XML-skemaskrá sé í boði. Skráarendingin er .xsd.  
 
-### <a name="to-load-an-xml-schema-file"></a>Til að hlaða XML-skemaskrá  
+2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML-skema** og veldu síðan tengda tengilinn.  
 
-1.  Ganga úr skugga um að viðeigandi XML-skemaskrá sé í boði. Skráarendingin er .xsd.  
+3. Valið er aðgerðin **Nýtt**.  
 
-2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML-skema** og veldu síðan tengda tengilinn.  
-
-3.  Valið er aðgerðin **Nýtt**.  
-
-4.  Fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
+4. Fylla inn í reitina eins og lýst er í eftirfarandi töflu.  
 
     |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
@@ -53,7 +48,7 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
      Reiturinn **Marknafnabil** tilgreinir hvaða nafnrými í XML-skemaskrá hefur verið hlaðið fyrir þessa línu.  
 
-5.  Veldu aðgerðina **Hlaða skema** og veldu síðan XML-skemaskrána.  
+5. Veldu aðgerðina **Hlaða skema** og veldu síðan XML-skemaskrána.  
 
      Þegar skránni er hlaðið eru allir hinir reitirnir á línunni fylltir út með upplýsingum úr skránni og gátreiturinn **Skema er hlaðið** valinn.  
 
@@ -62,22 +57,22 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Að velja eða hreinsa hnúta á XML-skema  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML-skemaskoðun** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML-skemaskoðun** og veldu síðan tengda tengilinn.  
 
-2.  Fylla inn í reitina í hausnum eins og lýst er í eftirfarandi töflu.  
+2. Fylla inn í reitina í hausnum eins og lýst er í eftirfarandi töflu.  
 
     |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
-    |**XML-skemakóði**|Tilgreiniað XML-skemaskrá sem var hlaðið í skrefi 5 í „Að hlaða inn XML-skemaskrá“ hlutanum.|  
+    |**XML-skemakóði**|Tilgreinið XML-skemaskrá sem var hlaðið í skrefi 5 í „Að hlaða inn XML-skemaskrá“ hlutanum.|  
     |**Ný XMLport nr.**|Tilgreinið númer XMLport sem er búin til úr þessu XML-skema þegar þú velur **Mynda XMLport** aðgerðina.|  
 
      Línurnar eru nú fylltar hnútum sem tákna allar einingar í XML-skema. Hnútar fyrir einingar sem eru áskyldar samkvæmt XML-skemanu eru sjálfgefið valdir.  
 
-3.  Á fyrstu línunni, í dálknum **Heiti hnútar**, skal stækka hnútinn **Fylgkskjal** og stækka svo smám saman undirliggjandi hnúta sem á að skoða.  
+3. Á fyrstu línunni, í dálknum **Heiti hnútar**, skal stækka hnútinn **Fylgkskjal** og stækka svo smám saman undirliggjandi hnúta sem á að skoða.  
 
      Að öðrum kosti skal hægrismella á hnútinn og velja svo **Stækka allt**.  
 
-4.  Veldu aðra hvora eftirfarandi aðgerða til að breyta því hvaða hnútar eru birtir.  
+4. Veldu aðra hvora eftirfarandi aðgerða til að breyta því hvaða hnútar eru birtir.  
 
     |**Aðgerð**|Lýsing|  
     |----------------|---------------------------------------|  
@@ -85,50 +80,40 @@ Til að virkja innflutningur/útflutningur gagna í skrá í gegnum gagnaskiptau
     |**Fela það sem ekki er áskilið**|Aðeins eru birtir hnútar sem standa fyrir einingar sem krafist samkvæmt XML-skemanu. Þessir tengipunktar eru vanalega táknaðir með **1** í reitnum **MinOccurs**.<br /><br /> Veldu **Sýna alla** að snúa við útsýni.|  
     |**Fela það sem ekki er valið**|Aðeins hnútar þar sem gátreiturinn **Valið** er valinn sjást.<br /><br /> Veldu **Sýna alla** að snúa við útsýni.|  
 
-5.  Veldu aðgerðina **Breyta**.  
+5. Veldu aðgerðina **Breyta**.  
 
-6.  Í **Valið** gátreitnum skal tilgreina fyrir hvern hnút ef stak á að vera stutt í gagnaskiptauppsetningu fyrir viðkomandi SEPA bankaskrá.  
+6. Í **Valið** gátreitnum skal tilgreina fyrir hvern hnút ef stak á að vera stutt í gagnaskiptauppsetningu fyrir viðkomandi SEPA bankaskrá.  
 
     > [!NOTE]  
     >  Þegar þú velur áskilinn undirhnút eru allir yfirhnútar fyrir ofan undirhnútinn einnig valdir.  
 
-7.  Veldu aðgerðina **Velja allar áskildar einingar** til að endurvelja alla hnúta sem tákna einingar sem eru áskildar samkvæmt XML-skema.  
+7. Veldu aðgerðina **Velja allar áskildar einingar** til að endurvelja alla hnúta sem tákna einingar sem eru áskildar samkvæmt XML-skema.  
 
-8.  Veldu **Afvelja allt** aðgerð til að hreinsa allt val.  
+8. Veldu **Afvelja allt** aðgerð til að hreinsa allt val.  
 
      Reiturinn **Val** tilgreinir að hnúturinn hefur tvo eða fleiri systkinahnúta sem valkosti.  
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Að búa til gagnaskiptaskilgreiningu sem byggist á XML-skema  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML-skema** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML-skema** og veldu síðan tengda tengilinn.  
 
-2.  Veldu viðeigandi XML-skema og veldu svo aðgerðina **Opna XML-skemaskoðun**.  
+2. Veldu viðeigandi XML-skema og veldu svo aðgerðina **Opna XML-skemaskoðun**.  
 
-3.  Gangið úr skugga um að viðeigandi hnútar séu valdir. Nánari upplýsingar fást í hlutanum „Að velja eða hreinsa hnúta í XML-skema“.  
+3. Gangið úr skugga um að viðeigandi hnútar séu valdir. Nánari upplýsingar fást í hlutanum „Að velja eða hreinsa hnúta í XML-skema“.  
 
-4.  Á síðunni **XML-skemaskoðun** skaltu velja aðgerðina **Mynda skilgreiningu gagnaskipta**.  
+4. Á síðunni **XML-skemaskoðun** skaltu velja aðgerðina **Mynda skilgreiningu gagnaskipta**.  
 
  Gagnaskiptaskilgreining er sett upp á síðunni **Bókunarskilgreiningar**, sem hægt er að ljúka með því að tilgreina hvaða stök í skránni varpast í hvaða reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
->  Einnig er hægt að nota **Sækja skráaskipan** virknina á **Bókunarskilgreining** síðunni sem notar virkni **XML-skemaskoðun** til að fylla út í flýtiflipann **Dálkaskilgreiningar**.  
+> Einnig er hægt að nota **Sækja skráaskipan** virknina á **Bókunarskilgreining** síðunni sem notar virkni **XML-skemaskoðun** til að fylla út í flýtiflipann **Dálkaskilgreiningar**.  
 
-### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Að búa til XMLport sem byggir á XML-skema  
+> [!NOTE]
+> Í 2019 útgáfutímabili 1 og fyrri útgáfum var hægt að búa til XMLport sem byggðist á skemanu og síðan flutt inn í lausnina. Þetta er ekki lengur stutt.
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **XML-skema** og veldu síðan tengda tengilinn.  
+## <a name="see-also"></a>Sjá einnig
 
-2.  Veldu viðeigandi XML-skema og veldu svo aðgerðina **Opna XML-skemaskoðun**.  
-
-3.  Í **Ný XMLport nr.** reitnum skal tilgreina númer sem nýja XMLport-hlutnum verður gefið þegar hann er myndaður.  
-
-4.  Gangið úr skugga um að viðeigandi hnútar séu valdir. Nánari upplýsingar fást í hlutanum „Að velja eða hreinsa hnúta í XML-skema“.  
-
-5.  Veldu **búa til XMLport** aðgerðina og vistaðu svo hlutinn sem. txt-skrá á viðeigandi stað.  
-
-6. Flytja skal nýja XMLport í [!INCLUDE[d365fin](includes/d365fin_md.md)] þróunarumhverfið og þýða hana.
-
-## <a name="see-also"></a>Sjá einnig  
-[Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)   
-[Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)   
-[Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)   
-[Um gagnaskiptaramma](across-about-the-data-exchange-framework.md)
+[Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)  
+[Flytja út greiðslur í bankaskrá](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+[Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)  
+[Um gagnaskiptaramma](across-about-the-data-exchange-framework.md)  

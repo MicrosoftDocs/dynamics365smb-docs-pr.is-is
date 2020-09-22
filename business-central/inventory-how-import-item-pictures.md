@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8478a6fc2a4860f2cd5a2b5a01d6680fbaea3130
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: acd08841a8fe26be7fcc3442a8453af4e0108c36
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182181"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782094"
 ---
 # <a name="import-multiple-item-pictures"></a>Flytja inn margar vörumyndir
 Hægt er að flytja inn margar vörumyndir í einu. Gefðu einfaldlega myndaskránum þínum heiti sem samsvarar vörunúmerunum þínum, þjappaðu þeim í ZIP-skrá og notaðu síðan síðuna **Flytja inn vörumyndir** til að stýra því hvaða vörumyndir á að flytja inn.

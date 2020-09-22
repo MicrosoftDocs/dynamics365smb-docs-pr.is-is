@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cc1317961be7896250a883da5c58d1f7eb5cf326
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 603a4bc69accd326ec7cc2540efe39ba7660fdca
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194500"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782369"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna
 Þegar sérsniðið skýrsluútlit er skilgreint er hægt að velja það af úr spjöldum viðskiptamanna og lánardrottna til að tilgreina hvaða útlit á að nota fyrir mismunandi tegundir skjala sem þú býrð til fyrir viðskiptamanninn eða lánardrottinn. Gildið í reitnum **Notkun** skilgreinir fyrir hvaða ferli skjalaútlitið verður notað, eins og **Áminning**, **Afhending** og **Staðfesting**.

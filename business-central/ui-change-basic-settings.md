@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194596"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782444"
 ---
 # <a name="change-basic-settings"></a>Breyta grundvallarstillingum
 
@@ -67,10 +67,11 @@ Dagsetningin sem er algengust er dagurinn í dag. Þú gætir þurft að breyta 
 ### <a name="work-date-indication"></a>Ábending um vinnudagsetningu
 Hvenær sem vinnudagsetningin er ekki stillt á dagsetninguna í dag, birtast tvær gerðir vísa á síðum sem hægt er að breyta og þar sem vinnudagsetningin er því mikilvæg:
 
-- Áminning birtist efst á síðunni sem segir til um hvað vinnudagsetningin er stillt á. Áminningin býður upp á beina tengingu við verkdagsetningarstillingu á síðuna **Mínar stillingar** svo þú breytir dagsetningunni ef þú vilt. Í innheimtubréfinu er einnig hægt að velja að sleppa áminningu fyrir restina af lotunni. Ef vinnudagsetningunni er breytt í „í dag“ birtist áminning næst þegar þú skráir þig inn.
+* Áminning birtist efst á síðunni sem segir til um hvað vinnudagsetningin er stillt á. Áminningin býður upp á beina tengingu við verkdagsetningarstillingu á síðuna **Mínar stillingar** svo þú breytir dagsetningunni ef þú vilt. Í innheimtubréfinu er einnig hægt að velja að sleppa áminningu fyrir restina af lotunni. Ef vinnudagsetningunni er breytt í „í dag“ birtist áminning næst þegar þú skráir þig inn.
 
-- Ef áminningu er lokað birtist vinnudagsetningin í titli síðunnar.  
---> Ef vinnudagsetning er ekki stillt á núverandi dag (daginn í dag), þá á öllum síðum þar sem hægt er að breyta gögnum, er núverandi vinnudagsetning sýnd efst í vinstra horninu á síðunni.
+* Ef áminningu er lokað birtist vinnudagsetningin í titli síðunnar.  
+
+Ef vinnudagsetning er ekki stillt á núverandi dag (daginn í dag), þá á öllum síðum þar sem hægt er að breyta gögnum, er núverandi vinnudagsetning sýnd efst í vinstra horninu á síðunni.
 
 ## <a name="region"></a><a name="region"></a> Svæði
 
