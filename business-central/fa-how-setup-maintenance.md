@@ -10,43 +10,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b3ecec35e4dc99d330424a009218fad5009ce7d5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 79f893007ab2c81140744a042fed24d1b932a4da
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780236"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917213"
 ---
-# <a name="set-up-fixed-asset-maintenance"></a><span data-ttu-id="b90d7-103">Uppsetning eignarviðhalds</span><span class="sxs-lookup"><span data-stu-id="b90d7-103">Set Up Fixed Asset Maintenance</span></span>
-<span data-ttu-id="b90d7-104">Til að halda utan um viðhald eigna, þarf fyrst að setja upp nokkrar almennar viðhaldsupplýsingar, bókunarlykil viðhaldskostnaðar og viðhaldskóta fyrir tegundir vinnu, svo sem Venjubundin Þjónusta eða Viðgerð.</span><span class="sxs-lookup"><span data-stu-id="b90d7-104">To manage fixed asset maintenance, you must first set up some general maintenance information, a posting account for maintenance costs, and maintenance codes for types of work, such as Routine Service or Repair.</span></span>
+# <a name="set-up-fixed-asset-maintenance"></a><span data-ttu-id="74b04-103">Uppsetning eignarviðhalds</span><span class="sxs-lookup"><span data-stu-id="74b04-103">Set Up Fixed Asset Maintenance</span></span>
+<span data-ttu-id="74b04-104">Til að halda utan um viðhald eigna, þarf fyrst að setja upp nokkrar almennar viðhaldsupplýsingar, bókunarlykil viðhaldskostnaðar og viðhaldskóta fyrir tegundir vinnu, svo sem Venjubundin Þjónusta eða Viðgerð.</span><span class="sxs-lookup"><span data-stu-id="74b04-104">To manage fixed asset maintenance, you must first set up some general maintenance information, a posting account for maintenance costs, and maintenance codes for types of work, such as Routine Service or Repair.</span></span>
 
-## <a name="to-set-up-general-maintenance-information"></a><span data-ttu-id="b90d7-105">Uppsetning almennra viðhaldsupplýsinga:</span><span class="sxs-lookup"><span data-stu-id="b90d7-105">To set up general maintenance information</span></span>
-<span data-ttu-id="b90d7-106">Ef settir eru upp reitir fyrir viðhald er hægt að bóka viðhaldskostnað úr eignabók.</span><span class="sxs-lookup"><span data-stu-id="b90d7-106">If you set up the fields for maintenance, you can post maintenance expenses from the fixed asset journal.</span></span>
+## <a name="to-set-up-general-maintenance-information"></a><span data-ttu-id="74b04-105">Uppsetning almennra viðhaldsupplýsinga:</span><span class="sxs-lookup"><span data-stu-id="74b04-105">To set up general maintenance information</span></span>
+<span data-ttu-id="74b04-106">Ef settir eru upp reitir fyrir viðhald er hægt að bóka viðhaldskostnað úr eignabók.</span><span class="sxs-lookup"><span data-stu-id="74b04-106">If you set up the fields for maintenance, you can post maintenance expenses from the fixed asset journal.</span></span>
 
-1. <span data-ttu-id="b90d7-107">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="b90d7-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
-2. <span data-ttu-id="b90d7-108">Valin er eignin fyrir hverja skilgreina á vátryggingasvið fyrir, og velja síðan **Breyta** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="b90d7-108">Select the fixed asset that you to define insurance coverage for, and then choose the **Edit** action.</span></span>
-3. <span data-ttu-id="b90d7-109">Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Viðhald**.</span><span class="sxs-lookup"><span data-stu-id="b90d7-109">On the **Maintenance** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. <span data-ttu-id="74b04-107">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="74b04-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="74b04-108">Valin er eignin fyrir hverja skilgreina á vátryggingasvið fyrir, og velja síðan **Breyta** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="74b04-108">Select the fixed asset that you to define insurance coverage for, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="74b04-109">Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Viðhald**.</span><span class="sxs-lookup"><span data-stu-id="74b04-109">On the **Maintenance** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-maintenance-codes"></a><span data-ttu-id="b90d7-110">Uppsetning viðhaldskóta</span><span class="sxs-lookup"><span data-stu-id="b90d7-110">To set up maintenance codes</span></span>
-<span data-ttu-id="b90d7-111">Þegar viðhaldskostnaður er bókaður úr færslubók fyllt í reitinn **viðhaldskóði** til að skrá hvers konar viðhald hefur verið framkvæmt eins og venjubundin þjónusta eða viðgerð.</span><span class="sxs-lookup"><span data-stu-id="b90d7-111">When you post maintenance costs from a general journal, you fill in the **Maintenance Code** field to record what kind of maintenance has been performed, such as routine service or repair.</span></span>
+## <a name="to-set-up-maintenance-codes"></a><span data-ttu-id="74b04-110">Uppsetning viðhaldskóta</span><span class="sxs-lookup"><span data-stu-id="74b04-110">To set up maintenance codes</span></span>
+<span data-ttu-id="74b04-111">Þegar viðhaldskostnaður er bókaður úr færslubók fyllt í reitinn **viðhaldskóði** til að skrá hvers konar viðhald hefur verið framkvæmt eins og venjubundin þjónusta eða viðgerð.</span><span class="sxs-lookup"><span data-stu-id="74b04-111">When you post maintenance costs from a general journal, you fill in the **Maintenance Code** field to record what kind of maintenance has been performed, such as routine service or repair.</span></span>
 
-1. <span data-ttu-id="b90d7-112">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðhald** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="b90d7-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Maintenance**, and then choose the related link.</span></span>
-2. <span data-ttu-id="b90d7-113">Á síðunni **Viðhald** skal setja upp kóða fyrir mismunandi tegundir viðhaldsvinnu.</span><span class="sxs-lookup"><span data-stu-id="b90d7-113">On the **Maintenance** page, set up codes for different types of maintenance work.</span></span>
+1. <span data-ttu-id="74b04-112">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðhald** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="74b04-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Maintenance**, and then choose the related link.</span></span>
+2. <span data-ttu-id="74b04-113">Á síðunni **Viðhald** skal setja upp kóða fyrir mismunandi tegundir viðhaldsvinnu.</span><span class="sxs-lookup"><span data-stu-id="74b04-113">On the **Maintenance** page, set up codes for different types of maintenance work.</span></span>
 
-## <a name="to-set-up-maintenance-expense-accounts"></a><span data-ttu-id="b90d7-114">Uppsetning reikninga viðhaldskostnaðar</span><span class="sxs-lookup"><span data-stu-id="b90d7-114">To set up maintenance expense accounts</span></span>
-<span data-ttu-id="b90d7-115">Til að bóka viðhaldskostnað, verður fyrst að Færa inn reikningsnúmer á síðuna **Eignabókunarflokkar**.</span><span class="sxs-lookup"><span data-stu-id="b90d7-115">To post maintenance costs, you must first enter an account number on the **FA Posting Groups** page.</span></span>
+## <a name="to-set-up-maintenance-expense-accounts"></a><span data-ttu-id="74b04-114">Uppsetning reikninga viðhaldskostnaðar</span><span class="sxs-lookup"><span data-stu-id="74b04-114">To set up maintenance expense accounts</span></span>
+<span data-ttu-id="74b04-115">Til að bóka viðhaldskostnað, verður fyrst að Færa inn reikningsnúmer á síðuna **Eignabókunarflokkar**.</span><span class="sxs-lookup"><span data-stu-id="74b04-115">To post maintenance costs, you must first enter an account number on the **FA Posting Groups** page.</span></span>
 
-1. <span data-ttu-id="b90d7-116">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignarbókunarflokkar** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="b90d7-116">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups**, and then choose the related link.</span></span>
-2. <span data-ttu-id="b90d7-117">Reiturinn **Reikningur viðhaldskostnaðar** er fylltur út fyrir hvern bókunarhóp.</span><span class="sxs-lookup"><span data-stu-id="b90d7-117">Fill in the **Maintenance Expense Account** field for each posting group.</span></span>
+1. <span data-ttu-id="74b04-116">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignarbókunarflokkar** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="74b04-116">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups**, and then choose the related link.</span></span>
+2. <span data-ttu-id="74b04-117">Reiturinn **Reikningur viðhaldskostnaðar** er fylltur út fyrir hvern bókunarhóp.</span><span class="sxs-lookup"><span data-stu-id="74b04-117">Fill in the **Maintenance Expense Account** field for each posting group.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="b90d7-118">Til að skilgreina að viðhaldskostnaði er úthlutað á deildir eða verkefni, eru settir upp úthlutunarlyklar.</span><span class="sxs-lookup"><span data-stu-id="b90d7-118">To define that maintenance costs are allocated to departments or projects, set up an allocation keys.</span></span> <span data-ttu-id="b90d7-119">Frekari upplýsingar eru í [Setja upp almenna eiginleika eigna](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="b90d7-119">For more information, see [Set Up General Fixed Assets Features](fa-how-setup-general.md).</span></span>
+>   <span data-ttu-id="74b04-118">Til að skilgreina að viðhaldskostnaði er úthlutað á deildir eða verkefni, eru settir upp úthlutunarlyklar.</span><span class="sxs-lookup"><span data-stu-id="74b04-118">To define that maintenance costs are allocated to departments or projects, set up an allocation keys.</span></span> <span data-ttu-id="74b04-119">Frekari upplýsingar eru í [Setja upp almenna eiginleika eigna](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="74b04-119">For more information, see [Set Up General Fixed Assets Features](fa-how-setup-general.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="b90d7-120">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="b90d7-120">See Also</span></span>
-[<span data-ttu-id="b90d7-121">Uppsetning eigna</span><span class="sxs-lookup"><span data-stu-id="b90d7-121">Setting Up Fixed Assets</span></span>](fa-setup.md)  
-[<span data-ttu-id="b90d7-122">Eignir</span><span class="sxs-lookup"><span data-stu-id="b90d7-122">Fixed Assets</span></span>](fa-manage.md)  
-[<span data-ttu-id="b90d7-123">Fjármál</span><span class="sxs-lookup"><span data-stu-id="b90d7-123">Finance</span></span>](finance.md)  
-[<span data-ttu-id="b90d7-124">Hafist handa</span><span class="sxs-lookup"><span data-stu-id="b90d7-124">Getting Started</span></span>](product-get-started.md)  
-<span data-ttu-id="b90d7-125">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b90d7-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="74b04-120">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="74b04-120">See Also</span></span>
+[<span data-ttu-id="74b04-121">Uppsetning eigna</span><span class="sxs-lookup"><span data-stu-id="74b04-121">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="74b04-122">Eignir</span><span class="sxs-lookup"><span data-stu-id="74b04-122">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="74b04-123">Fjármál</span><span class="sxs-lookup"><span data-stu-id="74b04-123">Finance</span></span>](finance.md)  
+[<span data-ttu-id="74b04-124">Hafist handa</span><span class="sxs-lookup"><span data-stu-id="74b04-124">Getting Started</span></span>](product-get-started.md)  
+<span data-ttu-id="74b04-125">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="74b04-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
