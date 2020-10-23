@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 424596e86ab978b17e8d8431c5b36812af2f31a4
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 3d4629c1c0ef38010e96ec02691030d53384e1dc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454323"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920030"
 ---
 # <a name="iceland-local-functionality"></a>Staðbundnar aðgerðir fyrir Ísland
 

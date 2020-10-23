@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 78c79073c8b9c412e0f814a55c50d5d671ed7dde
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6f8f24e096a91cefad81e6b9b1bab094bf956570
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779095"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920038"
 ---
 # <a name="electronic-invoicing-requirement-issuing-single-copy-invoice"></a>Kröfur fyrir rafræna reikningsfærslu: Útgáfa reikninga í einriti
 Á Íslandi þarf að senda skýrslu til hins opinbera ef reikningur er prentaður oftar en einu sinni. Skýrslan inniheldur lagalegan texta þar sem staðfest er að reikningurinn sé búinn til í bókhalds- og áætlunarkerfi sem samræmist lögum.  

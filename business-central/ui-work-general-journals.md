@@ -1,24 +1,25 @@
 ---
 title: Nota færslubækur til að bóka beint í fjárhag| Microsoft Docs
 description: Kynntu þér hvernig skal nota færslubækur til að bóka fjárhagsfærslur í fjárhagsreikninga og aðra reikninga, eins og banka- og lánardrottnareikninga.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/10/2020
+ms.search.keywords: journals, recurring, accrual
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 669985f08dd497ecec925eef126fff262067b947
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785247"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920698"
 ---
 # <a name="working-with-general-journals"></a>Vinna í færslubókum
 
-Flestar fjárhagsfærslur eru bókaðar í fjárhag gegnum sérstök viðskiptaskjöl, eins og innkaupareikninga og sölupantanir. Einnig er hægt að vinna úr viðskiptaaðgerðum, svo sem kaupum, greiðslum eða endurgreiðslum vegna útgjalda starfsmanna með því að bóka færslubókarlínur í ýmsum færslubókum í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Flestar fjárhagsfærslur eru bókaðar í fjárhag gegnum sérstök viðskiptaskjöl, eins og innkaupareikninga og sölupantanir. Einnig er hægt að vinna úr viðskiptaaðgerðum, svo sem kaupum, greiðslum, notkun ítrekunarbóka til að bóka ítrekanir eða endurgreiðslum vegna útgjalda starfsmanna með því að bóka færslubókarlínur í ýmsum færslubókum í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Flestar færslubækur eru byggðar á *Almennri færslubók* og þú getur unnið úr öllum færslum á síðunni **Almenn færslubók**. Frekari upplýsingar, sjá [Bóka færslu beint yfir í Fjárhag](finance-how-post-transactions-directly.md).  
 
@@ -44,6 +45,27 @@ Fyrir hvert sniðmát færslubókar, geturðu sett upp þína eigin færslbók s
 
 > [!TIP]
 > Til að bæta við eða fjarlægja reiti í færslubókum skal nota borðann **Sérsníða**. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
+
+### <a name="validating-general-journal-batches"></a>Staðfesta almennar færslubókarkeyrslur
+Til að hjálpa til við að koma í veg fyrir tafir við bókun er hægt að kveikja á bakgrunnsathugun sem lætur vita þegar mistök eru gerð í fjárhagsbókinni sem verið er að vinna í sem kemur í veg fyrir að hægt sé að bóka færslubókina. Á síðunni **Færslubókarkeyrsla** er hægt að velja að láta **Athugun á villu í bakgrunni** [!INCLUDE[d365fin](includes/d365fin_md.md)] villuleita fjárhagsbækur, svo sem almennar bækur eða greiðslubækur, meðan verið er að vinna í þeim. 
+
+Þegar staðfesting er valin birtist **Athugun á færslubók** upplýsingareiturinn við hliðina á færslubókarlínunum og sýnir vandamál í núverandi línu og allri rununni. Staðfesting kemur upp þegar verið er að hlaða fjárhagsbókarkeyrslu, og þegar önnur færslubókarlína er valin. **Heildarfjöldi vandamála** reiturinn í upplýsingareitnum sýnir heildarfjölda vandamála sem [!INCLUDE[d365fin](includes/d365fin_md.md)] fann og hægt er að velja hann til að opna yfirlit yfir vandamálin. 
+
+Hægt er að nota **Sýna línur með vandamál** og **Sýna allar línur** aðgerðirnar til að skipta á milli færslubókarlína sem eru með vandamál og þeirra sem eru það ekki. Nýi **Upplýsingar færslubókarlínu** gátreiturinn veitir flýtiyfirlit og aðgang að gögnum úr færslubókarlínum, svo sem fjárhagsreikningi, viðskiptamanni eða lánardrottni, sem og bókunaruppsetningu fyrir tiltekna lykla.     
+
+### <a name="reversing-journals-to-correct-mistakes"></a>Bakfæra færslubækur til að leiðrétta mistök
+Þegar unnið er með færslubækur sem eru með margar línur og eitthvað fer úrskeiðis er mikilvægt að það sé einfalt að leiðrétta mistökin. Á síðunni **Bókuð færslubók** eru aðgerðir sem kynnu að gagnast.
+
+* **Afrita valdar línur í færslubók** - Afrita aðeins línurnar sem þú velur.
+* **Afrita fjárhagsdagbók í færslubók** - Afrita allar línur sem tilheyra sömu fjárhagsdagbók.
+
+Þessar aðgerðir gera þér kleift að búa til afrit af almennri færslubókarlínu eða runu og tilgreina svo eftirfarandi:
+
+* Bókin sem afrita á línurnar í
+* Hvort með gagnstæðum formerkjum (bakfærslubók)
+* Önnur bókunardagsetning eða fylgiskjalsnúmer
+
+Til að leyfa að færslubækur séu afritaðar í bókaðar færslubækur, á síðunni **Sniðmát færslubóka**, skal velja gátreitinn **Afrita í bókaðar færslubókarlínur** . Þegar búið er að leyfa fólki að afrita bókaðar færslubækur er hægt að slökkva á afritun fyrir tilteknar runur.
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Að skilja aðalreikninga og mótreikninga
 Ef stofnaðir voru sjálfgefnir mótreikningar fyrir bókakeyrslur á síðunni **Færslubækur**, eru mótreikningarnir fylltir út sjálfkrafa þegar fyllt er í reitinn **Reikningur nr** Að öðrum kosti er fyllt í reitinn **Reikningur nr.** og reitinn **Mótreikningur nr.** handvirkt. Jákvæð upphæð í reitnum **Upphæð** er tekin út af aðalreikningnum og lögð inn á mótreikninginn. Neikvæð upphæð er lögð inn á aðalreikninginn og tekin út af mótreikningnum.
@@ -99,6 +121,18 @@ Ef reiturinn ítrekunarmáti í ítrekunarbók er stilltur á **Staða** eða **
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Dæmi: Úthlutun á leigugreiðslum til mismunandi deilda
 Leiga er greidd í hverjum mánuði þannig að leiguupphæð hefur verið færð inn á sjóðsreikning í ítrekunarbókarlínu. Á síðunni **Úthlutanir** er hægt að skipta kostnaðinum á milli deilda (deildarvídd) í samræmi við fermetrafjölda sem hver og ein hefur til umráða. Útreikningurinn byggist á úthlutunarprósentu fyrir hverja línu. Færa má nokkra reikninga í mismunandi úthlutunarlínum (ef leigunni er jafnframt skipt niður á nokkra reikninga), eða færa á sama reikning, með mismunandi víddargildiskóðum fyrir víddina Deild í hverri línu.
+
+### <a name="reversal-date-calculation"></a>Útreikningur bakfærsludags
+Þegar endurteknar færslubækur eru notaðar til að bóka uppsöfnun við lok tímabils er mikilvægt að hafa fulla stjórn á bakfærslum. Á síðunni **Ítrekunarfærslubækur** gerir reiturinn **Útreikningur bakfærsludags** þér kleift að stjórna dagsetningunni þegar bakfærslur verða bókaðar þegar ítrekunaraðferðir bakfærslu eru notaðar.
+
+#### <a name="example"></a>Dæmi
+Uppsafnanir eru yfirleitt bókaðar með föstum, breytilegum eða bakfærslum á færslubókarlínunni. Bókunardagsetning bókuðu upphæðarinnar á lykli í færslubókarlínu er reiknuð út með ítrekunartíðni. Bókunardagsetning mótfærslunnar er reiknuð með því að nota **Útreikningur bakfærsludags**, á eftirfarandi hátt:
+
+* Ef reiturinn er auður er mótfærslan bókuð næsta dag.
+* Ef reiturinn inniheldur dagsetningarformúlu (til dæmis **5D** fyrir fimm daga) verður mótfærslan bókuð með bókunardagsetningu sem er reiknuð með því að nota útreikning bakfærsludagsetningar.
+
+> [!NOTE]
+> Sjálfgefið er að reiturinn **Útreikningur bakfærsludags** sé ekki tiltækur á síðunni **Ítrekunarfærslubækur**. Til að nota svæðið þarf að bæta því við með því að sérsníða síðuna. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 ## <a name="working-with-standard-journals"></a>Vinna með Staðlaðar færslubækur
 Þegar bókarlínur sem líklegt er að verði stofnaðar aftur hafa verið stofnaðar er hægt að vista þær sem staðlaða færslubók áður en bókin er bókuð. Þessi virkni gildir um birgðabækur og almennar færslubækur.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1742447287273a1661ccb87056ca93abbbab76b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a9cdea97b9753adbbe8128b674dc4161178bc6f8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787572"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917427"
 ---
 # <a name="design-details-item-tracking-design"></a>Hönnunarupplýsingarn: vörurakning hönnun
 Í fyrstu útgáfu af vörurakningu í [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60 eru raðnúmer eða lotunúmer voru skráð beint á birgðabókarfærslur. Þessi hönnun veitir heildarupplýsingar um það hvað er til ráðstöfunar og einfalda rakningu fyrri færslna en vantar sveigjanleika og virkni.  

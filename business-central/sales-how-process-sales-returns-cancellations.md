@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 947bc883994d82cfb25f7d757d501d95e722916a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cab1663aa1e584780f7544f0bd9b61c9038b5922
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780911"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926114"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Vinna söluskil eða afturkallanir
 Ef viðskiptavinur vill skila eða endurgreiða fyrir vörur eða þjónustu sem þú hefur selt og fengið greiðslu fyrir verður þú að búa til og senda inn söluskuldbindingar sem tilgreinir umbeðnar breytingar. Til að taka réttar sölureikningsupplýsingar með, er hægt að stofna sölukreditreikning beint úr bókaða sölureikningnum eða þú getur stofnað nýja sölukreditreikning með afrituðum reikningsupplýsingum.
@@ -216,13 +216,15 @@ Hægt er að sameina vöruskilamóttökur sjálfvirkt og hafa möguleikann á a�
 2.  Tilgreinið í **Nr.**. afmörkunarreitnum hvaða vöruskilapöntunum á að eyða.  
 3.  Velja hnappinn **Í lagi**.  
 
-Að öðrum kosti skal eyða einstökum söluvöruskilapöntunum handvirkt.   
+Að öðrum kosti skal eyða einstökum söluvöruskilapöntunum handvirkt.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
+[Meðhöndlun innkaupaskila eða afturkallana](purchasing-how-process-purchase-returns-cancellations.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

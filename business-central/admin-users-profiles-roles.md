@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 06/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d44ccf98ac02e24d1cd136bf1a0fe31b5bf0437
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786097"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922293"
 ---
 # <a name="manage-profiles"></a>Vinna með forstillingar
 
@@ -67,7 +67,7 @@ Notendur geta úthlutað sjálfum sér hlutverki (sem stendur fyrir forstillingu
 Sem kerfisstjóri er hægt að skilgreina þessar stillingar fyrir forstillingu og nota þannig stillingarnar fyrir alla notendur tengda hlutverkinu.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forstillingar (hlutverk)** og veldu síðan tengda tengilinn.
-2. Velja skal línuna fyrir forstillinguna sem á að breyta notandastillingum fyrir, velja aðgerðina **Skoða** og síðan velja aðgerðina **Sérstillingar notanda**.
+2. Velja skal línuna fyrir forstillinguna sem á að breyta notandastillingum fyrir og síðan velja aðgerðina **Listi sérstillingar notanda**.
 3. Á síðunni **Sérstillingar notanda** skal opna spjaldið fyrir notandann sem á að breyta stillingum hjá.
 4. Á síðunni **Sérstillingaspjald notanda** skal breyta reitunum eftir þörfum.
 
@@ -139,7 +139,7 @@ Einnig er hægt að eyða einstaka sérstillingum síðu fyrir forstillingu. Fre
 
 Sem kerfisstjóri á [!INCLUDE[prodshort](includes/prodshort.md)] ánetinu er hægt að stjórna notandalotum í stjórnunarstöðinni. Frekari upplýsingar er að finna í [Stjórnun lota](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) í stjórnunarefninu.  
 
-Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum er t.d. hægt að stjórna lotum með því að nota SQL Server Management Studio. Frekari upplýsingar er að finna í [tæknileg fylgiskjöl SQL Server](/sql/sql-server/?view=sql-server-ver15).  
+Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum er t.d. hægt að stjórna lotum með því að nota SQL Server Management Studio. Frekari upplýsingar er að finna í [tæknileg fylgiskjöl SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
