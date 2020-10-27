@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 774c45d50ac56cb0e950ea8687ee86d24cfb9b0a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2382fa440c67881411fe67e596a62aaf5d431426
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782594"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912747"
 ---
 # <a name="general-business-functionality"></a>Almenn viðskiptavirkni
 Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tilteknar aðgerðir fyrir dæmigerð rekstrarsvið, s.s. fjármálasvið og sölur. Frekari upplýsingar eru í [Viðskiptavirkni](across-business-functionality.md).
@@ -38,7 +38,7 @@ Til að styðja verk sem eru sértæk fyrir viðskiptasvið þitt, er hægt að 
 | Setja upp kóta fyrir staðaltexta svo hægt sé að lengja staðlaðan texta með því að bæta við línum og setja skilyrði fyrir notkun viðbótarlínanna. |[Bæta við lengdum vörutexta](ui-how-define-ext-text.md) |
 |Stofna verk til að minna þig á hvað þarf að gera. Þú getur búið til verkefni fyrir þig, en þú getur einnig úthlutað verkefnum til annarra eða fengið verkefni frá öðrum í fyrirtækinu þínu.|[Skilgreina verk notanda](across-user-tasks.md)|
 |Vinna með gögn Business Central í Excel.|[Flutningur viðskiptagagna í Excel](about-export-data.md)|
-|Skildu hvað gerist þegar þú velur aðgerðina **Bóka**.|[Bókun skjala og færslubóka](ui-post-documents-journals.md)|
+|Skildu hvað gerist þegar þú velur aðgerðina **Bóka** .|[Bókun skjala og færslubóka](ui-post-documents-journals.md)|
 |Bókið margar sölur eða innkaupaskjöl saman, strax eða eins og áætlað var.|[Bóka mörg skjöl á sama tíma](ui-batch-posting.md)|  
 |Yfirfara niðurstöður bókunar áður en bókað er.|[Forskoða Bókunarniðurstöður](ui-how-preview-post-results.md)|
 |Breyta völdum reitum fyrir bókuð sölu- eða innkaupaskjöl.|[Breyta bókuðum skjölum](across-edit-posted-document.md)|

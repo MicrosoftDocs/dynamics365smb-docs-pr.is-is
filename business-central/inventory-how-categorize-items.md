@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d474f4e4b8381795405e11b1c3513cbf8a7ed90
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a5698746fe52ff7ff6ca38e1207f09ded0742c96
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777592"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914105"
 ---
 # <a name="categorize-items"></a>Flokka vörur
 
@@ -28,15 +28,17 @@ Til að finna vörur eftir eiginleika er hægt að úthluta vörueigindum á vö
 
 ## <a name="to-create-an-item-category"></a>Að búa til vöruflokka
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruflokkar** og veldu síðan tengda tengilinn.
-2. Á síðunni **vöruflokkar** skal velja aðgerðina **Nýtt**.
-3. Á síðunni **vöruflokkaspjald**, á flipanum **Almennt**, eru eftirfarandi reitir fylltir út. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Á síðunni **vöruflokkar** skal velja aðgerðina **Nýtt** .
+3. Á síðunni **vöruflokkaspjald** , á flipanum **Almennt** , eru eftirfarandi reitir fylltir út. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Í **eigindir** Flýtiflipanum skal tilgreina hvers kyns vörueigindum fyrir vöruflokk. Frekari upplýsingar er að finna í [Að úthluta vörueigindum á vöruflokka](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
 
 > [!NOTE]  
-> Hafi vöruflokkur yfirvöruflokk eins og gefið er til kynna með reitnum **yfirtegund** þá eru allar vörueigindir sem eru úthlutaðar á þann yfirflokk vöru forútfylltar á flýtiflipanum **eigindir**.
+> Hafi vöruflokkur yfirvöruflokk eins og gefið er til kynna með reitnum **yfirtegund** þá eru allar vörueigindir sem eru úthlutaðar á þann yfirflokk vöru forútfylltar á flýtiflipanum **eigindir** .
 
 > [!NOTE]  
 > Vörueigindir sem á að úthluta á vöruflokk mun sjálfkrafa gilda um vöruna sem vöruflokknum er úthlutað á.
+
+Ef þú skiptir um skoðun varðandi vöruflokk, getur þú eytt honum. Ef honum hefur hinsvegar verið úthlutað á vöru þarf að fjarlægja þá úthlutun áður en vöruflokknum er eytt.
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Að úthluta vöruflokki á vöru.
 

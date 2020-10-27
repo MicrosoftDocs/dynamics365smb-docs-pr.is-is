@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 49860fff57d4fb1ea79ca77d5401aaf1b3ecf8b7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 50b2a25ca18773340e10b52529ba484843cad7f1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784560"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910306"
 ---
 # <a name="set-up-service-contracts"></a>Setja upp þjónustusamninga
 Áður en þú vinnur með samninga verður þú að setja upp eftirfarandi: 
@@ -33,7 +33,7 @@ ms.locfileid: "3784560"
 ## <a name="to-set-up-a-service-contract-account-group"></a>Uppsetning reikningsflokkaþjónustusamninga  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarflokkur þjónustusamninga** og veldu síðan tengda tengilinn.  
 2. Nýr reikningsflokkur þjónustusamninga er stofnaður.   
-3. Fyllt er í reitina **Kóti** og **Lýsing**. Í þessum reitum er lýsing á þjónustureikningsflokknum.  
+3. Fyllt er í reitina **Kóti** og **Lýsing** . Í þessum reitum er lýsing á þjónustureikningsflokknum.  
 4. Reiturinn **Reikn. Eftirágreiddra samninga** er fylltur út, velja skal númer fjárhagsreikningsins fyrir reikninginn sem er ekki fyrirframgreiddur.  
 5. Í reiturinn **Reikn. Fyrirframgreiddra samninga** skal velja númer fjárhagsreikningsins fyrir reikninginn sem er fyrirframgreiddur.  
 
@@ -44,15 +44,15 @@ ms.locfileid: "3784560"
   
      Hafi númeraröð fyrir þjónustupantanir verið sett upp á síðunni **Þjónustukerfisgrunnur** er einnig hægt að styðja á færslulykilinn þannig að kerfið færi inn næsta lausa samningssniðmátsnúmer. Hinir reitirnir eru fylltir út, ef það á við.  
   
-4. Á flýtiflipanum **Reikningur** er fyllt út reitinn **Kóði fyrir reikningaflokk þjónustusamninga**, **Reikningstímabil** o. s. frv. Hinir reitirnir eru fylltir út, ef það á við.  
+4. Á flýtiflipanum **Reikningur** er fyllt út reitinn **Kóði fyrir reikningaflokk þjónustusamninga** , **Reikningstímabil** o. s. frv. Hinir reitirnir eru fylltir út, ef það á við.  
 5. Velja aðgerðina **Þjónustuafsláttur** til að bæta við samningsafslætti.  
 
 ## <a name="to-set-up-a-customer-template"></a>Uppsetning sniðmáts viðskiptamanns  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamannasniðmát** og veldu síðan tengda tengilinn.  
 2. Nýtt  sniðmátsspjald viðskiptamannser stofnað.  
-3. Á flýtiflipanum **Almennt** er ritaður kóti og lýsing fyrir sniðmát viðskiptamanns í reitina **Kóti** og **Lýsing**. 
-4. Aðrir reitir, til dæmis **Landssvæðis kóði**, **Umsjónarsvæðiskóði** og **Kóði tungumáls**, eru notaðir sem leitarskilyrði og þá má fylla út.  
-5. Fylla þarf út reitina **Alm. viðsk.bókunarflokkur** og **Bókunarflokkur viðskm.**.  
+3. Á flýtiflipanum **Almennt** er ritaður kóti og lýsing fyrir sniðmát viðskiptamanns í reitina **Kóti** og **Lýsing** . 
+4. Aðrir reitir, til dæmis **Landssvæðis kóði** , **Umsjónarsvæðiskóði** og **Kóði tungumáls** , eru notaðir sem leitarskilyrði og þá má fylla út.  
+5. Fylla þarf út reitina **Alm. viðsk.bókunarflokkur** og **Bókunarflokkur viðskm.** .  
 
 ## <a name="see-also"></a>Sjá einnig
 [Þjónustustýring sett upp](service-setup-service.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 06/17/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: da2ea0e51ef65eb432cc67f36db230bfea178c03
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d47214392e3c0e48f436475a79407a752a95583d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528664"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914565"
 ---
 # <a name="changing-language-and-region"></a>Breyta tungumáli og svæði
 
@@ -23,10 +23,10 @@ ms.locfileid: "3528664"
 
 Ef þú notar til dæmis kanadísku útgáfuna af [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu séð notandaviðmótið á ensku, þýsku og frönsku, eða öðru tungumáli, en samt er um að ræða kanadísku útgáfuna af [!INCLUDE[d365fin](includes/d365fin_md.md)] að öllu öðru leyti. Það er ekki það sama t.d. [!INCLUDE[d365fin](includes/d365fin_md.md)] í Bretlandi þar sem virkni hefur verið aðlöguð gagnvart kröfum þess markaðar.  
 
-Til að breyta tungumáli viðmótsins skal fara á síðuna **Mínar stillingar**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md#language). 
+Til að breyta tungumáli viðmótsins skal fara á síðuna **Mínar stillingar** . Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> Val á tungumálum verður endurstillt á stillinguna á Office 365 sniðinu ef stjórnandi stillir notendur úr Office 365 í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Val á tungumálum verður endurstillt á stillinguna á Microsoft 365  sniðinu ef stjórnandi stillir notendur úr Microsoft 365  í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Breytingar á textum sem geymdir eru sem forritsgögn falla ekki undir fjöltyngismöguleikann. Þá snýst málið um forritshönnun og venjur. Dæmi um slíkt eru heiti á vörum í birgðaskrá eða athugasemdir sem sendar eru viðskiptavinum. Með öðrum orðum, slíkur texti er ekki þýddur.  
 
@@ -36,12 +36,12 @@ Breytingar á textum sem geymdir eru sem forritsgögn falla ekki undir fjöltyng
 ## <a name="changing-the-region"></a>Breyta svæði
 Svæði er frábrugðinn bæði tungumáli og lagalegum skilyrðum á staðbundnum mörkuðum. Svæði segir til um hvernig gögn þín birtast hvað varðar skiltákn kommu, samstillingu til vinstri eða hægri, og nokkra aðra tiltekna hluti. Svæði kveður einnig á um kerfiseiningar í vafranum, eins og til dæmis aðgerðina að búa til nýtt atriði á lista.  
 
-Þú getur breytt svæðinu í vafraglugganum sem þú ert að vinna með í [!INCLUDE[d365fin](includes/d365fin_md.md)]. stillingin á við þig en ekki aðra notendur í fyrirtækinu.  Athugið að val á svæði verður endurstillt á stillinguna í Office-sniðinu ef stjórnandi þinni stillir notendur úr Office 365 í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Þú getur breytt svæðinu í vafraglugganum sem þú ert að vinna með í [!INCLUDE[d365fin](includes/d365fin_md.md)]. stillingin á við þig en ekki aðra notendur í fyrirtækinu.  Athugið að val á svæði verður endurstillt á stillinguna í Office-sniðinu ef stjórnandi þinni stillir notendur úr Microsoft 365 í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]  
 >  Þegar þú breytir svæði birtist langur listi yfir tungumál og svæði. Val á svæði hefur hins vegar ekki áhrif á tungumál.  
 
-Til að breyta svæðinu skal fara á síðuna **Mínar stillingar**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).  
+Til að breyta svæðinu skal fara á síðuna **Mínar stillingar** . Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).  
 
 ## <a name="application-version"></a>Útgáfa forrits
 

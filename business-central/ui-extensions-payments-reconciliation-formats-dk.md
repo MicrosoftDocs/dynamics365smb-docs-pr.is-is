@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 06/19/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7e8a56492c1c848f4f3b371e1411c11f159c3cf3
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496751"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912322"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Greiðslur og afstemmingar (DK) viðbótin
 
@@ -51,13 +51,13 @@ Nokkur skref eru nauðsynleg í upphafi.
 * Tilgreina greiðslumáta fyrir hvern lánardrottininn. Greiðslumátar skilgreina hvernig þú borgar reikninga frá lánardrottninum. Til dæmis Banki, Staðgreiðsla, Ávísun eða Reikningur.  
 * Tilgreina gerð sniðsins sem á að nota fyrir hvern bankareikning. Til dæmis NORDEA, DANSKEBANK, SDC og svo framvegis.  
 
-Að auki þarftu að úthluta lánardrottnum á staðbundinn **Alm. viðsk.bókunarflokkur** og **Bókunarflokk lánardrottins**. Stilling fyrir land/svæði fyrir lánardrottinn verður að vera Danmörk (DK). Nánari upplýsingar er að finna í [Uppsetning Bókunarflokka](finance-posting-groups.md).  
+Að auki þarftu að úthluta lánardrottnum á staðbundinn **Alm. viðsk.bókunarflokkur** og **Bókunarflokk lánardrottins** . Stilling fyrir land/svæði fyrir lánardrottinn verður að vera Danmörk (DK). Nánari upplýsingar er að finna í [Uppsetning Bókunarflokka](finance-posting-groups.md).  
 
 ### <a name="to-allow-d365fin-to-export-payment-data"></a>Til að leyfa [!INCLUDE[d365fin](includes/d365fin_md.md)] að flytja út greiðslugögn
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubók** og veldu síðan tengda tengilinn.  
-2. Á síðunni **Breyta greiðslubók** er valið **Banki**.  
-3. Veljið gátreitinn **Leyfa greiðsluútflutning**.  
+2. Á síðunni **Breyta greiðslubók** er valið **Banki** .  
+3. Veljið gátreitinn **Leyfa greiðsluútflutning** .  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Til að tilgreina greiðslumáta lánardrottins
 
@@ -100,7 +100,7 @@ Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[d365
     > Ef þú vilt aðeins flytja út tilteknar greiðslur skaltu nota afmörkunarvalkosti gagna.  
 
 3. Ef það er nauðsynlegt er hægt að bæta við afmörkunum til að flytja aðeins tilteknar greiðslur.  
-4. Í reitnum **Tegund bankagreiðslu** skal velja **Rafræn greiðsla**.  
+4. Í reitnum **Tegund bankagreiðslu** skal velja **Rafræn greiðsla** .  
 5. Veldu **Export** aðgerðina.  
 
 ## <a name="see-also"></a>Sjá einnig .

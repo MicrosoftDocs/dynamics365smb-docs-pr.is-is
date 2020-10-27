@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb3357d2d102dceba9896731c651174a4962bab6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787247"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911006"
 ---
 # <a name="design-details-revaluation"></a>Hönnunarupplýsingar: Endurmat
 Hægt er að endurmeta birgðir á grundvelli virðisgrundvallar sem endurspeglar nákvæmast birgðavirði. Einnig er hægt að bakfæra endurmat, þannig að kostnaður við seldar vörur(kostnaður seldra vara) sé rétt uppfærður fyrir vöru sem hefur þegar verið seld. Vörur sem nota hefðbundna aðferð kostnaðarútreiknings og hafa ekki verið reikningsfærðar að fullu er einnig hægt að endurmeta.  
@@ -41,7 +41,7 @@ Eftirfarandi dæmi sýnir þegar VÍV-vara verður hluti birgða. Dæmið er byg
 
 ![VÍV birgðir og endurmat](media/design_details_inventory_costing_10_revaluation_wip.png "VÍV birgðir og endurmat")  
 
-**1Q**: Notandinn bókar innkaupatenglana sem móttekna. Eftirfarandi tafla sýnir afleidda birgðafærslu.  
+**1Q** : Notandinn bókar innkaupatenglana sem móttekna. Eftirfarandi tafla sýnir afleidda birgðafærslu.  
 
 |Bókunardags.|Vara|Tegund færslu|Magn|Færslunr.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -50,13 +50,13 @@ Eftirfarandi dæmi sýnir þegar VÍV-vara verður hluti birgða. Dæmið er byg
 > [!NOTE]  
 >  Nú er vara sem notar hefðbundna aðferð kostnaðarútreiknings í boði fyrir endurmat.  
 
-**1V**: Notandinn bókar innkaupatengla sem reikningsfærða og tenglarnir verða hluti birgða, fjárhagslega séð. Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
+**1V** : Notandinn bókar innkaupatengla sem reikningsfærða og tenglarnir verða hluti birgða, fjárhagslega séð. Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
 
 |Bókunardags.|Tegund færslu|Dagsetning mats|Kostnaðarupphæð (raunverul.)|Birgðafærslunr.|Færslunr.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Beinn kostnaður|01-01-20|150,00|1|1|  
 
- **2Q + 2 V**: Notandinn bókar innkaupatengla sem notaða í framleiðslu járnkeðju. Fjárhagslega séð verða tenglarnir hluti af birgðum VÍV.  Eftirfarandi tafla sýnir afleidda birgðafærslu.  
+ **2Q + 2 V** : Notandinn bókar innkaupatengla sem notaða í framleiðslu járnkeðju. Fjárhagslega séð verða tenglarnir hluti af birgðum VÍV.  Eftirfarandi tafla sýnir afleidda birgðafærslu.  
 
 |Bókunardags.|Vara|Tegund færslu|Magn|Færslunr.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -70,13 +70,13 @@ Eftirfarandi tafla sýnir afleidda virðisfærslu.
 
 Virðisdagsetningin er stillt á dagsetningu bókunar fyrir notkun (02-01-20) sem regluleg birgðaminnkun.  
 
-**3Q**: Notandinn bókar keðjuna sem frálag og lokar framleiðslupöntuninni. Eftirfarandi tafla sýnir afleidda birgðafærslu.  
+**3Q** : Notandinn bókar keðjuna sem frálag og lokar framleiðslupöntuninni. Eftirfarandi tafla sýnir afleidda birgðafærslu.  
 
 |Bókunardags.|Vara|Tegund færslu|Magn|Færslunr.|  
 |------------------|----------|----------------|--------------|---------------|  
 |02-15-20|KEÐJA|Frálag|1|3|  
 
-**3V**: Notandinn keyrir runuvinnsluna **Leiðrétta kostnað - Birgðafærslur**, sem bókar keðjuna sem reikningsfærða tila ð sýna að öll efnisnotkun hefur verið reikningsfærð að fullu. Fjárhagslega séð eru tenglarnir ekki lengur hluti af birgðum VÍV þegar frálagið er reikningsfært og jafnað að fullu. Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
+**3V** : Notandinn keyrir runuvinnsluna **Leiðrétta kostnað - Birgðafærslur** , sem bókar keðjuna sem reikningsfærða tila ð sýna að öll efnisnotkun hefur verið reikningsfærð að fullu. Fjárhagslega séð eru tenglarnir ekki lengur hluti af birgðum VÍV þegar frálagið er reikningsfært og jafnað að fullu. Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
 
 |Bókunardags.|Tegund færslu|Dagsetning mats|Kostnaðarupphæð (raunverul.)|Birgðafærslunr.|Færslunr.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
@@ -92,9 +92,9 @@ Endurmetanlegt magn XE „Endurmetanlegt magn“  XE „Magn, Endurmetanlegt“ 
 
 Við útreikning á endurreiknanlegu magni fyrir vörur sem nota staðlaða aðferð kostnaðarútreiknings eru teknar með birgðahöfuðbókarfærslur sem hafa ekki verið alveg innheimtar. Færslurnar eru þá endurmetnar þegar endurmatið er bókað. Þegar þú reikningsfærir endurmetnu færsluna eru eftirfarandi virðisfærslur stofnaðar:  
 
--   Vanaleg virðisdagsetning reikningsins með færslugerðinni **Beinn kostnaður**. Kostnaðurupphæð á þessari færslu er bein kostnaður frá upptökum línu.  
--   Virðisfærsla með færslugerðinni **Frávik**. Þessi færsla skráir muninn milli reikningsfærðs kostnaðar og endurmetins staðalkostnaðar.  
--   Virðisfærsla með færslugerðinni **Endurmat**. Þessi færsla sýnir bakfærslu á endurmati væntanlegs kostnaðar.  
+-   Vanaleg virðisdagsetning reikningsins með færslugerðinni **Beinn kostnaður** . Kostnaðurupphæð á þessari færslu er bein kostnaður frá upptökum línu.  
+-   Virðisfærsla með færslugerðinni **Frávik** . Þessi færsla skráir muninn milli reikningsfærðs kostnaðar og endurmetins staðalkostnaðar.  
+-   Virðisfærsla með færslugerðinni **Endurmat** . Þessi færsla sýnir bakfærslu á endurmati væntanlegs kostnaðar.  
 
 ### <a name="example"></a>Dæmi  
 Eftirfarandi dæmi, sem byggir á framleiðslu á keðju í síðasta dæmi, sýnir hvernig þrjár tegundir af færslum eru búnar til. Þetta er byggt á eftirfarandi atburðarás:  
@@ -103,7 +103,7 @@ Eftirfarandi dæmi, sem byggir á framleiðslu á keðju í síðasta dæmi, sý
 2.  Notandinn bókar endurmat tenglanna með nýju einingaverði upp á SGM 3.00 sem uppfærir staðalkostnað í SGM 3.00.  
 3.  Notandinn bókar upprunaleg kaup tenglanna samkvæmt reikningi, sem býr til eftirfarandi:  
 
-    1.  Reikningsfærð virðisfærsla með færslugerð **Beinn kostnaður**.  
+    1.  Reikningsfærð virðisfærsla með færslugerð **Beinn kostnaður** .  
     2.  Virðisfærsla með færslugerð **Endurmat** til að skrá bakfærslu endurmats áætlaðs kostnaðar.  
     3.  Virðisfærsla með færslugerðinni Frávik, skráir mismun milli reikningsfærðs kostnaðar og endurmetins staðalkostnaðar.  
 Eftirfarandi tafla sýnir afleiddar virðisfærslur.  

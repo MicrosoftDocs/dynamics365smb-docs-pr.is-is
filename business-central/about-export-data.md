@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 05/04/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: e8b62e04b3b1d44ba53572559c66acc1c05da8c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333885"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914615"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Flutningur viðskiptagagna í Excel
 Ef ætlunin er að vinna með gögn frá [!INCLUDE[d365fin](includes/d365fin_md.md)] í Excel, er hægt að opna alla lista í Excel og vinna með þá þar. Með sama hætti, ef notandi vill hætta í áskrift að [!INCLUDE[d365fin](includes/d365fin_md.md)] getur hann flutt gögnin sín út í Excel svo hann geti tekið þau með sér.
 
 ## <a name="opening-lists-in-excel"></a>Opnar lista í Excel
-Hægt er að opna gögn í Excel úr hvaða færslubók, lista eða vinnublaði sem er. Notandinn opnar bara síðuna sem hann vill nota og velur svo **Opna í Excel**. Til dæmis, opnar lista yfir viðskiptamenn (leitar að **Viðskiptamenn**), og velur svo **Opna í Excel**. Vafrinn sendir áminningu um að opna að vista myndaða Excel-vinnubók.  
+Hægt er að opna gögn í Excel úr hvaða færslubók, lista eða vinnublaði sem er. Notandinn opnar bara síðuna sem hann vill nota og velur svo **Opna í Excel** . Til dæmis, opnar lista yfir viðskiptamenn (leitar að **Viðskiptamenn** ), og velur svo **Opna í Excel** . Vafrinn sendir áminningu um að opna að vista myndaða Excel-vinnubók.  
 
 > [!NOTE]
 > Notaðu þennan valkost þegar þú vilt ekki gera breytingar og birta þessar breytingar aftur í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -42,7 +42,7 @@ Að sjálfsögðu er hægt að flytja út allar síður en það gæti verið me
 * Bankar  
 * Birgðir  
 
-Ef notandi vill einnig hafa allar fjárhagsfærslur með líka er það mjög mikið magn af gögnum og útflutningur mun því oft taka meira en nokkrar mínútur. Fjárhagsfærslurnar eru sýndar á síðunni **Fjárhagsfærslur**.  
+Ef notandi vill einnig hafa allar fjárhagsfærslur með líka er það mjög mikið magn af gögnum og útflutningur mun því oft taka meira en nokkrar mínútur. Fjárhagsfærslurnar eru sýndar á síðunni **Fjárhagsfærslur** .  
 
 Við mælum með að notandi íhugi einnig að flytja út gögn af eftirfarandi síðum:  
 
@@ -69,7 +69,7 @@ Við mælum með að notandi íhugi einnig að flytja út gögn af eftirfarandi 
 > [!NOTE]
 > Þú verður að hafa að minnsta kosti eina af eftirfarandi heimildum til að opna eða breyta gögnum í Excel:
 >    - Heimildasamstæða *D365 Excel útflutningsaðgerð*  
->    - Kerfisheimild 6110 *Leyfa útflutning aðgerðar í Excel*.  
+>    - Kerfisheimild 6110 *Leyfa útflutning aðgerðar í Excel* .  
 
 Frekari upplýsingar er að finna í [Að fá yfirlit yfir leyfi notanda](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 

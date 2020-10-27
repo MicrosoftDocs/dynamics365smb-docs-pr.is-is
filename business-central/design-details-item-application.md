@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b13bc643a93d7558c4760791af81a9a6cc6190b2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 14aae820463718357d3bac69524751833f5dd79d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787672"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913664"
 ---
 # <a name="design-details-item-application"></a>Hönnunarupplýsingar: umsókn vöru
 
@@ -35,7 +35,7 @@ Hægt er að færa vörunotkun í reitinn á eftirfarandi hátt:
 |Aðferð|Description|Jöfnunargerð|  
 |------------|---------------------------------------|----------------------|  
 |Sjálfvirkt|Á sér stað sem framsending almenns kostnaðar samkvæmt aðferð kostnaðarútreiknings.|Magnjöfnun|  
-|Fast|Gerðar af notanda þegar:<br /><br /> -   Vinnsla skilar<br />-   Bókun leiðréttinga<br />-   Ógildir magnbókun<br />-   Búa til beina sendingar **Athugið:** Hægt er að nota fasta jöfnun annað hvort handvirkt með því að slá inn færslunúmer í reitinn **Jafna frá birgðafærslu** eða með því að nota aðgerð, svo sem **Sækja bókaðar fylgiskjalalínur til að bakfæra**.|Magnjöfnun<br /><br /> Kostnaðarjöfnun **Athugið:**  Kostnaðarjöfnun gerist aðeins í færslum á innleið þar sem reiturinn **Jafna frá birgðafærslu** er fylltur út til að stofna fasta jöfnun. Sjá næstu töflu.|  
+|Fast|Gerðar af notanda þegar:<br /><br /> -   Vinnsla skilar<br />-   Bókun leiðréttinga<br />-   Ógildir magnbókun<br />-   Búa til beina sendingar **Athugið:** Hægt er að nota fasta jöfnun annað hvort handvirkt með því að slá inn færslunúmer í reitinn **Jafna frá birgðafærslu** eða með því að nota aðgerð, svo sem **Sækja bókaðar fylgiskjalalínur til að bakfæra** .|Magnjöfnun<br /><br /> Kostnaðarjöfnun **Athugið:**  Kostnaðarjöfnun gerist aðeins í færslum á innleið þar sem reiturinn **Jafna frá birgðafærslu** er fylltur út til að stofna fasta jöfnun. Sjá næstu töflu.|  
 
 Hvort magnjöfnun eða kostnaðarjöfnun er gerð fer eftir stefnu birgðafærslunnar og hvort vörujöfnunin er gerð sjálfvirkt eða fast, í tengslum við sértæk ferli.  
 
@@ -190,7 +190,7 @@ Eftirfarandi tafla sýnir hvaða áhrif nákvæm bakfærsla kostnaðar hefur á 
 Þegar runuvinnslan **Kostnaðarleiðrétting - Birgðafærslur** er keyrð er aukinn kostnaður við innkaupafærsluna vegna kostnaðarauka áframsendur á sölufærsluna færslu nr. 2. Sölufærslan framsendir svo þennan aukna kostnað á sölukreditfærslu (færsla númer 3). Endanleg niðurstaða er sú að kostnaður er rétt bakfærður.  
 
 > [!NOTE]  
->  Ef verið er að vinna með skil eða kreditreikninga og settur hefur verið upp reiturinn **Nákvæm og lögbundin bakfærsla kostnaðar** annaðhvort á síðunni **Uppsetning fyrir Innkaup & Viðskiptaskuldir** eða glugganum **Sala & Útistandandi kröfur**, eins og við á í viðkomandi aðstæðum, fyllir [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa út í mismunandi jöfnunarfærslureiti þegar aðgerðin **Afrita úr fylgiskjali** er notuð. Til að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eru allir reitir fylltir út sjálfkrafa.  
+>  Ef verið er að vinna með skil eða kreditreikninga og settur hefur verið upp reiturinn **Nákvæm og lögbundin bakfærsla kostnaðar** annaðhvort á síðunni **Uppsetning fyrir Innkaup & Viðskiptaskuldir** eða glugganum **Sala & Útistandandi kröfur** , eins og við á í viðkomandi aðstæðum, fyllir [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa út í mismunandi jöfnunarfærslureiti þegar aðgerðin **Afrita úr fylgiskjali** er notuð. Til að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eru allir reitir fylltir út sjálfkrafa.  
 
 > [!NOTE]  
 >  Ef Þú bókar færslu með fastri jöfnun og birgðahöfuðbók sem bókuð er er lokað, sem merkir að eftirstandandi magn er núll, verður eldri jöfnunin afgerð sjálfkrafa og notar birgðafærsluna með föstu jöfnuninni sem þú hefur valið.  
@@ -236,9 +236,9 @@ Vegna þess hvernig kostnaðarverð vöru er reiknað út gæti skökk vörujöf
 * Gleymst hefur að gera fasta jöfnun.  
 * Röng föst jöfnun var gerð.  
 * Æskilegt er að hnekkja jöfnuninni sem var stofnuð sjálfkrafa við bókun samkvæmt aðferð kostnaðarútreiknings fyrir vöruna.  
-* Skila þarf vöru sem búið er að jafna sölu við handvirkt án þess að nota aðgerðina**Sækja bókaðar fylgiskjalalínur til að bakfæra** og því verður að afturkalla þessa jöfnun.  
+* Skila þarf vöru sem búið er að jafna sölu við handvirkt án þess að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** og því verður að afturkalla þessa jöfnun.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] býður upp á eiginleika til að greina og leiðrétta jöfnun vöru. Þetta er framkvæmt á síðunni **Vinnublað fyrir jöfnun**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] býður upp á eiginleika til að greina og leiðrétta jöfnun vöru. Þetta er framkvæmt á síðunni **Vinnublað fyrir jöfnun** .  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Þekkt vandamál birgðajöfnunar](design-details-inventory-zero-level-open-item-ledger-entries.md)  

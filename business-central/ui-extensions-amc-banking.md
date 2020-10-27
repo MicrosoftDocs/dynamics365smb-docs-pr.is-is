@@ -1,5 +1,5 @@
 ---
-title: Notkun AMC Banking 365 Fundamentals viðbótarinnar | Microsoft skjöl
+title: Að nota AMC Banking 365 Fundamentals-viðbótina | Microsoft Docs
 description: Skiptast á gögnum við bankann á greiðlegan hátt með því að umbreyta gögnum í það snið sem krafist er.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 493abf6f7309d6eb0274f4f416e6e5aea782b031
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8eb45d8c65a09ac56617f84a41543c38a4518fa9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194356"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912397"
 ---
-# <a name="using-the-amc-banking-365-fundamentals-extension"></a>Notkun AMC Banking 365 Fundamentals viðbótarinnar
+# <a name="using-the-amc-banking-365-fundamentals-extension"></a>Nota AMC Banking 365 Fundamentals viðbótina
 AMC Banking 365 Fundamentals viðbótin gerir það auðveldar sendingu gagna til bankans þíns og eykur áreiðanlega þeirra. Viðbótin tengir [!INCLUDE[d365fin](includes/d365fin_md.md)] við AMC Banking 365 Fundamentals fyrir Microsoft Dynamics 365 Business Central þjónustu sem getur breytt bankagögnum úr [!INCLUDE[d365fin](includes/d365fin_md.md)] í snið sem yfir 600 bankar í heiminum krefjast. Þannig er til dæmis auðveldara að millifæra greiðslur og kreditfærslur til lánardrottna með því að slá greiðslurnar inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] og hlaða þeim svo upp í bankann þinn. Sniðin geta einnig jafnað út bankaafstemmingarferli. Frekari upplýsingar er að finna í [AMC Banking fyrir Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
 
 > [!Note]
 > AMC Banking hefur byggt aukalegar viðbætur sem virka með [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þetta efnisatriði lýsir aðeins Fundamental-viðbótinni.
 
 ## <a name="using-our-demonstration-account"></a>Notkun á sýnireikningi okkar
-[!INCLUDE[d365fin](includes/d365fin_md.md)] fylgir með sýnireikningi sem gerir þér kleift að prófa AMC Banking 365 Fundamentals-viðbótina. Við bjóðum upp á sjálfgefnar stillingar fyrir tengingu við AMC Banking, þar sem bankareikningar eru tilgreindir til að sækja gögn frá [!INCLUDE[d365fin](includes/d365fin_md.md)], auk nokkurra gagnaskiptaskilgreininga. Þú getur skoðað tengingarstillingarnar á síðunni **AMC Banking Uppsetning**. Fyrir bankareikninga bætir viðbótin gildum í reitina **Heiti banka**, **Nr. á skilaboðum kreditfærslu**, **Innflutningssnið bankayfirlits** og **Greiðsluútflutningssnið** á bankareikningspjöldum.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fylgir með sýnireikningi sem gerir þér kleift að prófa AMC Banking 365 Fundamentals-viðbótina. Við bjóðum upp á sjálfgefnar stillingar fyrir tengingu við AMC Banking, þar sem bankareikningar eru tilgreindir til að sækja gögn frá [!INCLUDE[d365fin](includes/d365fin_md.md)], auk nokkurra gagnaskiptaskilgreininga. Þú getur skoðað tengingarstillingarnar á síðunni **AMC Banking Uppsetning** . Fyrir bankareikninga bætir viðbótin gildum í reitina **Heiti banka** , **Nr. á skilaboðum kreditfærslu** , **Innflutningssnið bankayfirlits** og **Greiðsluútflutningssnið** á bankareikningspjöldum.
 
-Við veitum stillingarnar en til að prófa viðbótina verður þú að keyra leiðbeiningar um uppsetningu með hjálp til að nota þær. Til að keyra leiðarvísinn, á síðunni **AMC Banking Uppsetning**, skaltu velja aðgerðina **Uppsetning með hjálp**.
+Við veitum stillingarnar en til að prófa viðbótina verður þú að keyra leiðbeiningar um uppsetningu með hjálp til að nota þær. Til að keyra leiðarvísinn, á síðunni **AMC Banking Uppsetning** , skaltu velja aðgerðina **Uppsetning með hjálp** .
 
 > [!Note]
 > Einhverjar takmarkanir eru á sýnireikningnum. Til dæmis þegar greiðslum er umbreytt mun upphæðin í umbreyttu skránni ekki passa við raunverulegu upphæðina. Í staðin verður upphæðin alltaf fimm einingar af gjaldmiðlinum sem þú notar fyrir greiðslur.  
@@ -44,12 +44,12 @@ Að hefjast handa felur aðeins í sér nokkur einföld skref og leiðbeiningar 
 
 Nánari upplýsingar er að finna í [Til að afrita heimildasamstæðu](ui-define-granular-permissions.md#to-copy-a-permission-set).
 
-Fyrir hverja nýja heimildasamstæðu skal aðeins veita heimildina **Lesa** fyrir **AMC Banking Uppsetningartafla (20101)**. Nánari upplýsingar er að finna í [Að búa til eða breyta heimildum handvirkt](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
+Fyrir hverja nýja heimildasamstæðu skal aðeins veita heimildina **Lesa** fyrir **AMC Banking Uppsetningartafla (20101)** . Nánari upplýsingar er að finna í [Að búa til eða breyta heimildum handvirkt](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>Til að tengja viðbótina við AMC Banking
 1. Fá einingu og þjónustuáætlun fyrir AMC Banking. Til að gera það skaltu fara á [AMC leyfissíðuna](https://license.amcbanking.com/register).
-2. Í [!INCLUDE[d365fin](includes/d365fin_md.md)], veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **AMC Banking uppsetning**, og veldu síðan tengda tengilinn.  
-3. Á síðunni **AMC Banking Uppsetning**, skaltu velja aðgerðina **Uppsetning með hjálp**.
+2. Í [!INCLUDE[d365fin](includes/d365fin_md.md)], veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **AMC Banking uppsetning** , og veldu síðan tengda tengilinn.  
+3. Á síðunni **AMC Banking Uppsetning** , skaltu velja aðgerðina **Uppsetning með hjálp** .
 4. Ljúka skal skrefunum í leiðbeiningum um uppsetningu með hjálp.
 
 ### <a name="to-connect-bank-accounts-to-the-extension"></a>Til að tengja bankareikninga við viðbótina
@@ -75,7 +75,7 @@ Ef þú notar þessa viðbót þarf aðeins að flytja út gögn á síðunni **
 2. Stofna skal færslubókarlínurnar sem á að flytja út.  
 
    > [!Note]
-   > Fyrir hverja línu skaltu muna að velja **Rafræn greiðsla** í reitnum **Tegund bankagreiðslu**.
+   > Fyrir hverja línu skaltu muna að velja **Rafræn greiðsla** í reitnum **Tegund bankagreiðslu** .
 3. Veldu **Export** aðgerðina.
 
 ### <a name="to-import-and-apply-the-converted-file"></a>Til að flytja inn og nota umbreyttu skrána

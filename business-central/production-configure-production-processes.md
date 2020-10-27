@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b491287a3d59ffe220e91246fd6fbccbb9768115
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6888c3cd599b9c85f67615e7f090d72e8cf5fa23
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786922"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915411"
 ---
 # <a name="setting-up-manufacturing"></a>Uppsetning framleiðslu
 Til að geta umbreytt efni í tilbúna vöru þarf framleiðsluforði, líkt og uppskriftir, leiðir, vélar og starfsmenn á vélum, að vera settur upp í kerfinu.

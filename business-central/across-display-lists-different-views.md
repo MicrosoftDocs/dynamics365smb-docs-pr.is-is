@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb9c29f6123edc4cad2b5e34381db574fab3685a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 702e5e565eb1b5efcbadf74dd3856e60186a1bf3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784258"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914381"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Birting lista á mismunandi hátt
 Í efra hægra horni hvaða lista sem er í [!INCLUDE[d365fin](includes/d365fin_md.md)] er að finna tákn sem breyta því hvernig færslulistinn er sýndur. Hægt er að birta lista sem ítarlegar línur sem er tilvalið þegar vinna þarf með marga reiti eða breyta reitum í listanum. En einnig er hægt að skipta yfir í birtingu færslna á reitum, sem er samandregið og sýnir færri reiti á tiltekinni færslu. Þetta er mjög gagnlegt til að fá yfirlit yfir margar færslur og er sérlega gagnlegt í smærri tækjum þar sem allt er samanþjappaðra og auðveldara er að pikka á hverja færslu.

@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 349c930a5103814d6d7befc3a4e8135bc92081b0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: da0469ddb00e0c29fc04dc421a21724dc247b80b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192148"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912797"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sendu inn viðvaranir um eftirlitseiginleika sem miðast við tiltekið land/svæði
 
@@ -48,10 +48,10 @@ Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að
 
         |Svæði        |Description                               |
         |-------------|------------------------------------------|
-        |Titill  | Færðu inn lýsandi titil til að gefa til kynna um hvað málið snýst. Færðu til dæmis inn *Breytingar á reikningsskjali frá og með 1. júlí 2019*. |
+        |Titill  | Færðu inn lýsandi titil til að gefa til kynna um hvað málið snýst. Færðu til dæmis inn *Breytingar á reikningsskjali frá og með 1. júlí 2019* . |
         |Description  | Færðu inn stutta samantekt á lögunum. Lýsingin ætti að vera um vandamál sem tengjast skipulagsáætlun fyrirtækisins (ERP) svo notandinn geti almennilega skilið kröfurnar án þess að þurfa að lesa reglugerðina fyrst.|
         |Land  | Tilgreindu landið eða svæðið sem reglugerðin nær yfir.|
-        |Iðnaður| Tilgreindu atvinnugreinina ef krafan á aðeins við um tilteknar atvinnugreinar. Veldu til dæmis **Opinberi geirinn**, **Smásala** eða **Framleiðsla**.|
+        |Iðnaður| Tilgreindu atvinnugreinina ef krafan á aðeins við um tilteknar atvinnugreinar. Veldu til dæmis **Opinberi geirinn** , **Smásala** eða **Framleiðsla** .|
         |Tilvísun eiginleika  | Þetta skiptir ekki máli fyrir Dynamics 365 Business Central, en þú getur slegið inn tilvísun eiginleika ef þú þekkir hana. Lista yfir eiginleika fyrir tiltekna landið er að finna í [Staðfærslugáttinni](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) á CustomerSource vefsvæðinu. |
         |Dagsetning þegar lög taka gildi  | Tilgreindu dagsetninguna þegar viðskiptavinir verða að fylgja lögunum.|
         |Dagsetning tilkynningar frá yfirvöldum  | Tilgreindu dagsetningu þegar yfirvöld tilkynntu breytinguna.|

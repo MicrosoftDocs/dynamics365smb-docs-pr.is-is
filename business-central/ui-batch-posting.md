@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/18/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c04dac37b043995a9b78e2f662f9411c3cf9ae1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1fd25f8b07a359414f62ef4757162f8a73889c27
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782519"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912722"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bóka mörg skjöl á sama tíma
 
@@ -27,9 +27,9 @@ Eftirfarandi ferli útskýrir hvernig á að bóka margar innkaupapantanir strax
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.
 2. Á síðunni **Innkaupapantanir** skal velja allar pantanir sem á að bóka:
-3. Í reitnum **númer** skal velja þrjá lóðrétta punkta til að opna efnisvalmynd og síðan velja aðgerðina **Velja fleira**.
+3. Í reitnum **númer** skal velja þrjá lóðrétta punkta til að opna efnisvalmynd og síðan velja aðgerðina **Velja fleira** .
 4. Veldu gátreitinn fyrir allar línurnar sem tákna pantanir sem á að bóka á sama tíma.
-5. Veldu **Bókun** aðgerðina og svo aðgerðina **Bóka**.
+5. Veldu **Bókun** aðgerðina og svo aðgerðina **Bóka** .
 6. Velja hnappinn **Já** á staðfestingarskilaboðunum.
 
 ## <a name="to-batch-post-multiple-purchase-orders"></a>Til að runubóka marga innkaupapantanir
@@ -41,12 +41,12 @@ Eftirfarandi ferli útskýrir hvernig á að fjöldabóka innkaupapantanir. Skre
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Innkaupapantanir** skal velja allar pantanir sem á að bóka:
-3. Í reitnum **númer** skal velja þrjá lóðrétta punkta til að opna efnisvalmynd og síðan velja aðgerðina **Velja fleira**.
+3. Í reitnum **númer** skal velja þrjá lóðrétta punkta til að opna efnisvalmynd og síðan velja aðgerðina **Velja fleira** .
 4. Veldu gátreitinn fyrir allar línurnar sem tákna pantanir sem á að bóka á sama tíma.
-5. Veldu **Bókun** aðgerðina og svo aðgerðina **Fjöldabóka**.
+5. Veldu **Bókun** aðgerðina og svo aðgerðina **Fjöldabóka** .
 6. Á síðunni **Innkaupapöntun fjöldabókunar** þarf að fylla reitina út eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Velja hnappinn **Í lagi**.
-8. Til að skoða möguleg vandamál sem komu upp við fjöldabókun á skjölum skal opna síðuna **Skráning villuboða**.
+7. Velja hnappinn **Í lagi** .
+8. Til að skoða möguleg vandamál sem komu upp við fjöldabókun á skjölum skal opna síðuna **Skráning villuboða** .
 
 Innkaupapöntunum verður nú bætt við valda verkraðarfærslu, sem skilgreinir hvenær skjölin eru bókuð. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 

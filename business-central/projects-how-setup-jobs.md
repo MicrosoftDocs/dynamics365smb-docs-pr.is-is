@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 358c7ed4068ca90637082f61e24bcff25cef61a3
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 0309ea14145758b4ae07ee034679fa4a0ef497db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527961"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915336"
 ---
 # <a name="set-up-jobs"></a>Setja upp verk
 
@@ -30,14 +30,14 @@ Fyrir hvert verk tilgreinir þú þá einstök verkspjöld með upplýsingum um 
 
 ### <a name="to-set-up-job-usage-tracking"></a>Til að setja upp notkunarrakningu verka
 
-Þegar verið er að framkvæma verk gæti verið gagnlegt að vita hvernig notkunin er rakin á móti áætluninni. Til að gera þetta á auðveldan hátt, er hægt að búa til tengil milli verkáætlunarlínunnar og hinnar eiginlegu notkunar. Þetta leyfir þér að rekja kostnað þinn og sjá auðveldlega hversu mikið af vinnu á eftir að vinna. Sjálfgefið er að áætlunarlína verktegundar sé **Áætlun**, en ef línutegundin **Bæði fjárhagsáætlun og reikningshæft** er notuð hefur það svipuð áhrif.
+Þegar verið er að framkvæma verk gæti verið gagnlegt að vita hvernig notkunin er rakin á móti áætluninni. Til að gera þetta á auðveldan hátt, er hægt að búa til tengil milli verkáætlunarlínunnar og hinnar eiginlegu notkunar. Þetta leyfir þér að rekja kostnað þinn og sjá auðveldlega hversu mikið af vinnu á eftir að vinna. Sjálfgefið er að áætlunarlína verktegundar sé **Áætlun** , en ef línutegundin **Bæði fjárhagsáætlun og reikningshæft** er notuð hefur það svipuð áhrif.
 
 Ef þú velur reitinn **Beita notkunartengli að sjálfgefnu** getur þú skoðað upplýsingar á verkáætlunarlínu. Hægt er að stilla magn forða, vöru eða fjárhagsreiknings og gefa svo upp hvaða magn á að færa í verkbókina. Í reitnum **Eftirstöðvar (magn)** í verkáætlunarlínunni sést hvað á eftir að flytja og bóka í verkbókina.
 
 > [!TIP]  
-> Hægt er að gera rakningu verknotkunar virka eða óvirka fyrir tiltekið verk. Gildi reitsins **Nota notkunartengil** á stöku verkspjaldinu hunsar stillinguna á síðunni **Uppsetning verka**.  
+> Hægt er að gera rakningu verknotkunar virka eða óvirka fyrir tiltekið verk. Gildi reitsins **Nota notkunartengil** á stöku verkspjaldinu hunsar stillinguna á síðunni **Uppsetning verka** .  
 
-Þegar **Beita notkunartengli að sjálfgefnu** gátreiturinn er valinn og gerð verkáætlunarlínu er **Reikningshæf**, er búin til verkáætlunarlína af gerðinni **Fjárhagsáætlun** eftir að þú hefur bókað færslubókarlínu verks.
+Þegar **Beita notkunartengli að sjálfgefnu** gátreiturinn er valinn og gerð verkáætlunarlínu er **Reikningshæf** , er búin til verkáætlunarlína af gerðinni **Fjárhagsáætlun** eftir að þú hefur bókað færslubókarlínu verks.
 
 > [!IMPORTANT]
 > Ef rakning verknotkunar er virk, annaðhvort á síðunni **Uppsetning verka** eða í tilteknu verki og reiturinn **Línugerð** í færslubókarlínu verks er auður mun nýjar verkáætlunarlínur af línugerðinni **Fjárhagsáætlun** vera stofnaðar þegar bókaðar eru færslubókarlínur verks.  
@@ -51,10 +51,10 @@ Ef þú velur reitinn **Beita notkunartengli að sjálfgefnu** getur þú skoða
 Sérstök verð má setja upp fyrir forða verks. Síðan **Forðaverð verks** er notuð til þess.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
-2. Veljið viðeigandi verk og veljið svo aðgerðina **Forði**.
+2. Veljið viðeigandi verk og veljið svo aðgerðina **Forði** .
 3. Á síðunni **Forðaverð verks** þarf að fylla reitina út eftir þörfum.
 
-Viðbótarupplýsingar í reitunum **Verkhlutanr.**, **Tegund vinnu**, **Gjaldmiðilskóti**, **Línuafsl. %** og **Stuðull einingarverðs** verða notaðar í verkáætlunarlínum og notkunarbókum þegar þessi forði er sleginn inn og honum bætt við verkið.  
+Viðbótarupplýsingar í reitunum **Verkhlutanr.** , **Tegund vinnu** , **Gjaldmiðilskóti** , **Línuafsl. %** og **Stuðull einingarverðs** verða notaðar í verkáætlunarlínum og notkunarbókum þegar þessi forði er sleginn inn og honum bætt við verkið.  
 
 Virðið í reitnum **Einingarverð** fyrir forðann verður notað í verkáætlunarlínum og verkbókum þegar þessi forði, forði sem úthlutað er á forðahóp, eða einhver annar forði er færður inn.  
 
@@ -65,10 +65,10 @@ Virðið í reitnum **Einingarverð** fyrir forðann verður notað í verkáæt
 Sérstök verð má setja upp fyrir vörur verka. Síðan **Verð vöru** er notup til þess.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
-2. Veljið viðeigandi verk og veljið svo aðgerðina **Vara**.
+2. Veljið viðeigandi verk og veljið svo aðgerðina **Vara** .
 3. Á síðunni **Vöruverð verks** þarf að fylla reitina út eftir þörfum.
 
-Viðbótarupplýsingarnar í reitunum **Verkhlutanr.**, **Gjaldmiðilskóti** og **Línuafsl.** verða notaðar í verkáætlunarlínum og verkbókum þegar þessi vara er slegin inn eða henni bætt við verk.  
+Viðbótarupplýsingarnar í reitunum **Verkhlutanr.** , **Gjaldmiðilskóti** og **Línuafsl.** verða notaðar í verkáætlunarlínum og verkbókum þegar þessi vara er slegin inn eða henni bætt við verk.  
 
 Gildið í reitnum **Einingarverð** fyrir vöruna verður notað í verkáætlunarlínum og verkbókum þegar þessi vara er slegin inn.  
 
@@ -79,10 +79,10 @@ Gildið í reitnum **Einingarverð** fyrir vöruna verður notað í verkáætlu
 Hægt er að setja upp ákveðið verð fyrir fjárhagsleg útgjöld í verki. Síðan **Verð fjárhagsreiknings verks** er notuð til þess.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
-2. Veljið viðeigandi verk og veljið svo aðgerðina **Fjárhagsreikningur**.  
+2. Veljið viðeigandi verk og veljið svo aðgerðina **Fjárhagsreikningur** .  
 3. Á síðunni **Fjárhagsreikningsverð verks** þarf að fylla reitina út eftir þörfum.
 
-Viðbótarupplýsingar í reitunum **Verkhlutanr.**, **Gjaldmiðilskóti**, **Línuafsl. %**, **Stuðull einingarverðs** og **Kostn.verð** verða notaðar í verkáætlunarlínum og verkbókum þegar þessi fjárhagsreikningur er sleginn inn og honum bætt við verk.  
+Viðbótarupplýsingar í reitunum **Verkhlutanr.** , **Gjaldmiðilskóti** , **Línuafsl. %** , **Stuðull einingarverðs** og **Kostn.verð** verða notaðar í verkáætlunarlínum og verkbókum þegar þessi fjárhagsreikningur er sleginn inn og honum bætt við verk.  
 
 Gildið í reitnum **Einingarverð** fyrir verkkostnað fjárhags verður notað í verkáætlunarlínum og verkbókum þegar þessi fjárhagsreikningur er sleginn inn.
 

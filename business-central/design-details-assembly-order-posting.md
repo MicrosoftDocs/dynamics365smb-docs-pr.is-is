@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 22a31f050c1b1a25e17076c3f1469d97b638add5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5194d1a24b987f0b7ef88d9b535eb00d3203a9b9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788247"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915686"
 ---
 # <a name="design-details-assembly-order-posting"></a>Hönnunarupplýsingar: Bókun samsetningarpöntunar
 Bókun samsetningarpöntunar byggir á sömu meginreglum og þegar bókun tengist sambærilegum aðgerðum á borð við sölupantanir og notkun/frálag framleiðslu. Hins vegar eru reglur sameinaðar að því leyti að samsetningarpantanir eru með eigið bókunarviðmót eins og fyrir sölupantanir á meðan raunveruleg bókun færslna fer fram í bakgrunninum sem beinar vöru- og forðabókarbókanir, eins og fyrir framleiðslunotkun, framleiðslu og afkastagetu.  
@@ -72,7 +72,7 @@ Eftirfarandi mynd sýnir leiðréttingarfærsluuppbyggingu og hvernig samsetning
 ![Samsetningartengt færsluflæði á meðan kostnaðarleiðréttingu stendur](media/design_details_assembly_posting_3.png "Samsetningartengt færsluflæði á meðan bókun stendur")  
 
 ### <a name="performing-the-adjustment"></a>Leiðrétting  
-Dreifing greindra breytinga á efni og tilfangakostnaði í samsetningarúttaksfærslum er framkvæmd í runuvinnslunni **Leiðr. kostnað – Birgðafærslur**. Það inniheldur aðgerðina gera margstiga jöfnun, sem samanstendur af eftirfarandi tveimur þáttum:  
+Dreifing greindra breytinga á efni og tilfangakostnaði í samsetningarúttaksfærslum er framkvæmd í runuvinnslunni **Leiðr. kostnað – Birgðafærslur** . Það inniheldur aðgerðina gera margstiga jöfnun, sem samanstendur af eftirfarandi tveimur þáttum:  
 
 -   Leiðrétta samsetningarpöntun – framsendir kostnað vegna efnis og forða í samsetningfrálagsfærslu. Línur 5 og 6 í reiknireglunni hér að neðan eru ábyrgar fyrir því.  
 -   Leiðréttingar á einu stigi – framsendir kostnað fyrir stakar vörur með viðkomandi aðferð kostnaðarútreiknings. Línur 9 og 10 í reikniriti hér á eftir eru ábyrgar fyrir því.  
@@ -89,7 +89,7 @@ Upplýsingar um hvernig kostnaður frá samsetningu og framleiðslu eru bókaða
 
 Þetta næst með eftirfarandi gagnastrúktúr.  
 
--   Í **Tegund** reitnum á birgðabókarlínum, í töflunum **Afkastabókarfærsla** og **Virðisfærsla**, *Forði* er notað til að auðkenna samsetningarforðafærslur.  
+-   Í **Tegund** reitnum á birgðabókarlínum, í töflunum **Afkastabókarfærsla** og **Virðisfærsla** , *Forði* er notað til að auðkenna samsetningarforðafærslur.  
 -   Í reitnum  **færslugerð birgðabókar** á birgðabókarlínum í töflunum **Afkastabókarfærsla** og **Virðisfærsla** er *Samsetningarfrálag* og *Samsetningarnotkun* eru notuð til að bera kennsl á vörufærslur úttakssamsetningar og notaða samsetningaríhlutarfærslur.  
 
 Að auki, bókunarflokkur reitir á samsetningarpöntunarhaus og samsetningarpöntunarlína er fyllt út sjálgefið svona:  
@@ -105,7 +105,7 @@ Að auki, bókunarflokkur reitir á samsetningarpöntunarhaus og samsetningarpö
 ## <a name="assemble-to-order"></a>Samsetning til pöntunar  
 Birgðafærslan sem myndast við bókun á sölu fyrir samsetningu-til-pöntunar er fastjöfnuð við tengda birgðafærslu fyrir samsetningarfrálagið. Í samræmi við það, er kostnaður við samsetningarpöntunarsölu fenginn úr samsetningarpöntun sem hún var tengd við.  
 
-Birgðahöfuðbókarfærslur af gerðinni Sala, sem leiða af bókun magns sem er sett saman í pöntun, eru merktar með **Já** í reitnum **Setja saman í pöntun**.  
+Birgðahöfuðbókarfærslur af gerðinni Sala, sem leiða af bókun magns sem er sett saman í pöntun, eru merktar með **Já** í reitnum **Setja saman í pöntun** .  
 
 Bókun sölupantanalína þar sem einn hluti er birgðamagn og annar er magn samsetningarpöntunar býr til aðskildar birgðabókarfærslur; eina fyrir birgðamagn og aðra fyrir magn samsetningarpöntunar.  
 

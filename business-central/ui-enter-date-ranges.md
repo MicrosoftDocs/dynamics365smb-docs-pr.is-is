@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 122c1e602f9f7d1c50115ba1e6ba515694fc84a1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785422"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912472"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tíma í dagatali
 
@@ -72,19 +72,19 @@ Vikunúmersskemað er alltaf ISO 8601, þar sem vika 1 er vikan sem inniheldur 4
 
 ### <a name="today"></a>Í dag
 
-Sláðu inn orðið fyrir daginn í dag, á tungumáli sem er stillt í **Tungumál**, sem stillir daginn á núverandi dagsetningu. Í stað þess að slá inn allt orðið geturðu slegið inn hluta af orðinu, með því að byrja á byrjuninni, eins og t eða ídag, svo lengi sem það er ekki líka byrjun annars orðs.
+Sláðu inn orðið fyrir daginn í dag, á tungumáli sem er stillt í **Tungumál** , sem stillir daginn á núverandi dagsetningu. Í stað þess að slá inn allt orðið geturðu slegið inn hluta af orðinu, með því að byrja á byrjuninni, eins og t eða ídag, svo lengi sem það er ekki líka byrjun annars orðs.
 
 ### <a name="period"></a>Tímabil
 
-Til að sía á tilteknu fjárhagstímabili, sláðu inn í dagsetningarreit stafinn t, eða orðið tímabil, og síðan númer sem tilgreinir fjárhagstímabilið, t.d. t2 eða timabil4. Bókhaldstímabilið er miðað við fjárhagsár núverandi vinnudags sem er stillt í hlutverki þínu. Ef vinnudagur er til dæmis **21/03/20**, þá t1 eða aðeins t, síar á fyrsta fjárhagstímabili fjárhagsársins 2020 (eins og 01/01/20..31/01/20). t15 síar á fimmtánda fjárhagstímabilinu frá upphafi fjárhagsársins 2020 (eins og 01/03/21..31/03/21).
+Til að sía á tilteknu fjárhagstímabili, sláðu inn í dagsetningarreit stafinn t, eða orðið tímabil, og síðan númer sem tilgreinir fjárhagstímabilið, t.d. t2 eða timabil4. Bókhaldstímabilið er miðað við fjárhagsár núverandi vinnudags sem er stillt í hlutverki þínu. Ef vinnudagur er til dæmis **21/03/20** , þá t1 eða aðeins t, síar á fyrsta fjárhagstímabili fjárhagsársins 2020 (eins og 01/01/20..31/01/20). t15 síar á fimmtánda fjárhagstímabilinu frá upphafi fjárhagsársins 2020 (eins og 01/03/21..31/03/21).
 
-Fjárhagstímabilin eru skilgreind á síðunni **Fjárhagstímabil**. Til að skoða eða breyta fjárhagstímabilum skaltu opna síðuna [hér](https://businesscentral.dynamics.com/?page=100).
+Fjárhagstímabilin eru skilgreind á síðunni **Fjárhagstímabil** . Til að skoða eða breyta fjárhagstímabilum skaltu opna síðuna [hér](https://businesscentral.dynamics.com/?page=100).
 
 ### <a name="current-work-date"></a>Núverandi vinnudagsetning
 
 Eiginleiki vinnudagsetningarinnar gerir þér kleift að skrá færslur með því að nota dagsetningu sem er frábrugðið núverandi dagsetningu.
 
-Orðið fyrir „vinnudagsetning“ á tungumálinu sem er stillt með stillingunni **Tungumál** færir dagsetninguna í núverandi vinnudagsetningu, sem er tilgreind á síðunni **Mínar stillingar**. Í stað þess að slá inn allt orðið geturðu slegið inn hluta af orðinu, með því að byrja á byrjuninni, eins og til dæmis „v“ fyrir „vinnu“.
+Orðið fyrir „vinnudagsetning“ á tungumálinu sem er stillt með stillingunni **Tungumál** færir dagsetninguna í núverandi vinnudagsetningu, sem er tilgreind á síðunni **Mínar stillingar** . Í stað þess að slá inn allt orðið geturðu slegið inn hluta af orðinu, með því að byrja á byrjuninni, eins og til dæmis „v“ fyrir „vinnu“.
 
 Ef þú hefur ekki skilgreint vinnudagsetningu, verður núverandi dagsetning notuð sem vinnudagsetning. Handhægt gæti verið að nota vinnudagsetningar ef verið er að nota margar færslur með aðra dagsetningu en dagsins í dag.
 
@@ -98,7 +98,7 @@ Til að tilgreina að dagsetning sé lokadagsetning skaltu setja N rétt fyrir d
 
 ### <a name="examples"></a>Dæmi
 
-Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notuð. Það er gert ráð fyrir svæðisstillingum sem sníðir dagsetningar samkvæmt: **ár.mánuður.dagur.**, viku sem hefst á mánudag og ensku.
+Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notuð. Það er gert ráð fyrir svæðisstillingum sem sníðir dagsetningar samkvæmt: **ár.mánuður.dagur.** , viku sem hefst á mánudag og ensku.
 
 |**Færsla**      |**Túlkun**      |
 |---------------|------------------------|

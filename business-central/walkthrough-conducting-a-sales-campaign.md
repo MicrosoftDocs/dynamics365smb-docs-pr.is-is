@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d8c494183e1b59adac4d85b7520a737804589439
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6138bc80b96e55c559067abad2957044d2e7c87f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789243"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914836"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Kynning: Framkvæmd söluherferðar
 Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvægur þáttur í uppsetningu herferðar hefur með val á markhópi hennar að gera. Í þessum tilgangi er búinn til í [!INCLUDE[d365fin](includes/d365fin_md.md)] hluti eða hópur tengiliða með afmörkunum.  
@@ -63,9 +63,9 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 ### <a name="to-set-up-a-campaign"></a>Uppsetning herferðar  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Herferðir** og veldu síðan tengda tengilinn.  
-2.  Til að búa til nýja herferð skal velja aðgerðina **Nýtt**. Á söluherferðarspjaldinu er stutt á Færslulykilinn til að söluherferðarnúmer verði sjálfkrafa sett inn.  
-3.  Í reitinn **Lýsing** er færð inn lýsing á herferðinni, t.d. **FUTURUS - sölusýning**.  
-4.  Veldu reitinn **Stöðukóti** og veldu stöðukóta af listanum sem opnast á síðunni **Staða söluherferðar**.  
+2.  Til að búa til nýja herferð skal velja aðgerðina **Nýtt** . Á söluherferðarspjaldinu er stutt á Færslulykilinn til að söluherferðarnúmer verði sjálfkrafa sett inn.  
+3.  Í reitinn **Lýsing** er færð inn lýsing á herferðinni, t.d. **FUTURUS - sölusýning** .  
+4.  Veldu reitinn **Stöðukóti** og veldu stöðukóta af listanum sem opnast á síðunni **Staða söluherferðar** .  
 5.  Reitirnir **Upphafsdags.** og **Lokadags.** í herferðinni eru fylltir út eins og með þarf.  
 
 ## <a name="selecting-the-target-audience"></a>Val á markhópi  
@@ -74,8 +74,8 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 ### <a name="to-create-a-segment-with-the-relevant-contacts"></a>Stofnun hluta með viðeigandi tengiliðum  
 
 1.  Skal velja **Hluti** aðgerð.  
-2.  Til að búa til nýjan hluta skal velja aðgerðina **Nýtt**. Á hlutaspjaldinu er stutt á Færslulykilinn til að hlutanúmer verði sjálfkrafa sett inn.  
-3.  Í flýtiflipann **Almennt** í reitnum **Lýsing** er t.d. skrifað **Gestir á sölusýningunni FUTURUS**.  
+2.  Til að búa til nýjan hluta skal velja aðgerðina **Nýtt** . Á hlutaspjaldinu er stutt á Færslulykilinn til að hlutanúmer verði sjálfkrafa sett inn.  
+3.  Í flýtiflipann **Almennt** í reitnum **Lýsing** er t.d. skrifað **Gestir á sölusýningunni FUTURUS** .  
 
      Þegar almennar upplýsingar um hlutann hafa verið færðar inn eru tengiliðir valdir fyrir hann.  
 
@@ -84,23 +84,23 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
      Afmarkanir eru notaðar til að bæta við tengiliðum samkvæmt þeim skilyrðunum sem best henta. T.d er hægt að velja að afmarka við ábyrgðarstöðu tengiliðar, viðskiptatengsl tengiliðarfyrirtækisins eða iðnaðinn sem það tilheyrir. Í þessari kynningu er afmörkunin **Starfsábyrgð** valin til að velja tengiliði.  
 
 4.  Á síðunni **Hluti** skal velja **Bæta við tengiliðum** aðgerðina til að opna **Bæta við tengiliðum** afmörkunina.  
-5.  Á flýtiflipanum **Starfsábyrgð** er afmörkunin **Innkaup** valin sem **Starfsábyrgðarkóti** og svo er smellt á **Í lagi**.  
+5.  Á flýtiflipanum **Starfsábyrgð** er afmörkunin **Innkaup** valin sem **Starfsábyrgðarkóti** og svo er smellt á **Í lagi** .  
 
      Síðan **Hluti** inniheldur nú lista yfir tengiliði sem valdir voru samkvæmt valinni afmörkun. Á flýtifliðanum **Almennt** í reitnum **Fjöldi lína** er hægt að skoða á einu augabraði fjölda tengiliða sem uppfylla þessi skilyrði.  
 
     > [!NOTE]  
     >  Hægt er að vista hlutaskilyrði til notkunar síðar.
 
-    1.  Á síðunni **Hluti** skal velja aðgerðina **Hluti** og síðan velja aðgerðina **Vista skilyrði**.  
+    1.  Á síðunni **Hluti** skal velja aðgerðina **Hluti** og síðan velja aðgerðina **Vista skilyrði** .  
     2.  Á síðunni **Vista hlutaskilyrði** er færður inn kóti fyrir hlutann. Í reitinn **Lýsing** er færð inn lýsing á hlutaskilyrðunum.
-    3.  Velja hnappinn **Í lagi**.  
+    3.  Velja hnappinn **Í lagi** .  
 
 ## <a name="mining-the-data"></a>Gagnaskoðun  
  Markaðsstjórinn skoðar hlutaða tengiliðalistann betur og áttar sig á því að hann er alltof langur. Hann ákveður að grisja listann niður í raunverulega hugsanlega viðskiptamenn til að miðað sé á réttan markhóp. Þetta ferli endurskoðunar og samdráttar á gögnum er einnig kallað gagnaskoðun.  
 
 ### <a name="to-remove-contacts-from-the-segment"></a>Tengiliðir fjarlægðir úr hluta  
 
-1.  Á síðunni **Hluti** skal velja aðgerðina **Tengiliðir** og síðan velja **Fækka tengiliðum** til að opna síðuna **Eyða tengiliðum - Fækka**.  
+1.  Á síðunni **Hluti** skal velja aðgerðina **Tengiliðir** og síðan velja **Fækka tengiliðum** til að opna síðuna **Eyða tengiliðum - Fækka** .  
 2.  Á flýtiflipanum **Viðskiptatengsl** er afmörkunin **VIÐF** valin sem **Viðskiptatengslakóti** og svo er hnappurinn **Í lagi** valinn.  
 
      Síðan **Hluti** inniheldur nú styttan lista yfir tengiliði og í reitnum **Fjöldi lína** er hægt að sjá fjölda tengiliða sem uppfyllir nýju skilyrðin.  
@@ -108,7 +108,7 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
     > [!NOTE]  
     >  Ef það þarf að afturkalla þessa fækkun á tengiliðum er aðgerðin **Til baka** valin. Með öðrum orðum er hægt að afturkalla síðustu hlutun.  
     >   
-    >  Á síðunni **Hluti** skal velja aðgerðina **Hluti** og síðan velja aðgerðina **Fara til baka**.  
+    >  Á síðunni **Hluti** skal velja aðgerðina **Hluti** og síðan velja aðgerðina **Fara til baka** .  
     >   
     >  Tengiliðunum sem voru rétt í þessu fjarlægðir er aftur bætt á tengiliðalistann.  
 
@@ -117,7 +117,7 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>Tenging hluta við herferð  
 
-1.  Á síðunni **Hluti** á flýtiflipanum **Herferð** er reiturinn **Herferð** valinn til að velja herferðina sem tengja á við hlutann, t.d. **CP0001**.  
+1.  Á síðunni **Hluti** á flýtiflipanum **Herferð** er reiturinn **Herferð** valinn til að velja herferðina sem tengja á við hlutann, t.d. **CP0001** .  
 2.  Þar sem hlutinn er markhópur herferðarinnar er gátreiturinn **Markhópur söluherferðar** valinn.  
 
 ## <a name="sending-letters-and-email-messages-to-contacts"></a>Sending bréfa og tölvupósts til tengiliða  
@@ -125,26 +125,26 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 
 ### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>Til að nota hluta til að senda bréf á tengilið  
 
-1.  Spjaldið **Hluti** er opnað fyrir **Gestir á sölusýningunni FUTURUS**.  
+1.  Spjaldið **Hluti** er opnað fyrir **Gestir á sölusýningunni FUTURUS** .  
 2.  Á flýtiflipanum **Samskipti** í reitnum **Kóti samskiptasniðmáts** er sniðmátið Viðskiptabréf, kóti **FBR** valið.  
-3.  Í reitinn **Efni (sjálfgefið)** skal slá inn eftirfarandi textadæmi: **Takk fyrir heimsóknina á sölusýningunni**.  
+3.  Í reitinn **Efni (sjálfgefið)** skal slá inn eftirfarandi textadæmi: **Takk fyrir heimsóknina á sölusýningunni** .  
 
     > [!NOTE]  
     >  Þetta sniðmát er tengt fleiri en einu viðhengdu skjali, sem hvert fyrir sig er skrifað á mismunandi tungumáli. Tungumál í þessu dæmi eru m.a. enska og danska.  
 
-4.  Velja reitinn **Tungumálakóði sjálfgefinn** til að opna síðuna **Tungumál hlutasamskipta**. Veljið tungumálakóta og smellið á hnappinn **Í lagi**.  
-5.  Hægt er að birta skjalið á völdu tungumáli. Veljið aðgerðina **Viðhengi** og svo aðgerðina **Opna**.  
+4.  Velja reitinn **Tungumálakóði sjálfgefinn** til að opna síðuna **Tungumál hlutasamskipta** . Veljið tungumálakóta og smellið á hnappinn **Í lagi** .  
+5.  Hægt er að birta skjalið á völdu tungumáli. Veljið aðgerðina **Viðhengi** og svo aðgerðina **Opna** .  
 
-     Til að bregðast við þessum boðum sem biðja um leyfi til að ræsa Word skal velja valkostinn **Leyfa fyrir þessa biðlarasetu**.  
+     Til að bregðast við þessum boðum sem biðja um leyfi til að ræsa Word skal velja valkostinn **Leyfa fyrir þessa biðlarasetu** .  
 
      Við það opnast tengda Word skjalið svo hægt sé að skoða það. Einnig er hægt að nota tækifærið til að breyta og breyta stafnum. Loka Word þegar því er lokið.  
 
 6.  Efni bréfsins er fært inn í reitinn **Efni** á því tungumáli sem er valið fyrir sniðmátið.  
-7.  Veldu aðgerðina **kladdi**.
+7.  Veldu aðgerðina **kladdi** .
 8.  Velja gátreitinn **Senda viðhengi** til að láta prenta viðhengin.  
 
-    1. Velja gátreitinn **Stofna eftirfylgnihluta**.  
-    2. Velja hnappinn **Í lagi** til að hefja runuvinnsluna **Skrá hluta**.  
+    1. Velja gátreitinn **Stofna eftirfylgnihluta** .  
+    2. Velja hnappinn **Í lagi** til að hefja runuvinnsluna **Skrá hluta** .  
 
 9. Viðhengi hafa verið send. Þegar ferlinu er lokið skal velja hnappinn **Í lagi** fyrir skilaboðin sem tilkynna að hlutinn hafi verið skráður.  
 
@@ -157,13 +157,13 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 ### <a name="to-send-an-email-message-to-a-contact"></a>Til að senda tölvupóstskeyti á tengilið  
 
 1.  Á flýtiflipanum **Samskipti** í reitnum **Kóti samskiptasniðmáts** er sniðmátið Viðskiptabréf, kóti **FBR** valið.  
-2.  Í reitinn **Efni (sjálfgefið)** skal slá inn eftirfarandi textadæmi: **Takk fyrir heimsóknina á sölusýningunni**.  
-3.  Í reitnum **Tegund samskipta** veljið **Tölvupóstur**.  
+2.  Í reitinn **Efni (sjálfgefið)** skal slá inn eftirfarandi textadæmi: **Takk fyrir heimsóknina á sölusýningunni** .  
+3.  Í reitnum **Tegund samskipta** veljið **Tölvupóstur** .  
 4.  Tilgreinið tungumálastillingar eins og í síðustu aðgerð.  
-5.  Veldu aðgerðina **kladdi**. Síðan **Skrá hluta** opnast.  
+5.  Veldu aðgerðina **kladdi** . Síðan **Skrá hluta** opnast.  
 6.  Velja gátreitinn **Senda viðhengi** til að láta senda viðhengin í tölvupósti.  
-7.  Velja gátreitinn **Stofna eftirfylgnihluta**.  
-8.  Velja hnappinn **Í lagi**.  
+7.  Velja gátreitinn **Stofna eftirfylgnihluta** .  
+8.  Velja hnappinn **Í lagi** .  
 
      Bókstafir eru sjálfkrafa sendir með tölvupósti og hlutinn er skráður. Þar sem hlutinn hefur verið skráður, er hann ekki lengur í lista yfir hluti en er vistaður í lista yfir skráða hluti. Til að sjá þann lista velurðu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skráðir hlutar** og veldu síðan tengda tengilinn.  
 
@@ -174,14 +174,14 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 
 ### <a name="to-register-campaign-responses"></a>Skráning svara við herferð  
 
-1.  Á síðunni **Hluti** skal stækka flýtiflipann **Samskipti**.  
-2.  Velja reitinn **Kóti samskiptasniðmáts**.  
+1.  Á síðunni **Hluti** skal stækka flýtiflipann **Samskipti** .  
+2.  Velja reitinn **Kóti samskiptasniðmáts** .  
 
      Það er ekki til samskiptasniðmát fyrir skráningu svara við herferð. Því skal búa til nýtt sniðmát.  
 
-3.  Á síðunni **Samskiptasniðmát** skal velja aðgerðina **Nýtt**.  
+3.  Á síðunni **Samskiptasniðmát** skal velja aðgerðina **Nýtt** .  
 4.  Í reitinn **Kóti** er **SVÖR** fært inn og í reitinn **Lýsing** er **Svör við herferð** fært inn.  
-5.  Velja hnappinn **Í lagi**.  
+5.  Velja hnappinn **Í lagi** .  
 6.  Þetta samskiptasniðmát er valið í reitnum **Kóti samskiptasniðmáts** og skilaboðin sem spyrja hvort uppfæra eigi hlutalínurnar með sama kóta samskiptasniðmáts eru samþykkt.  
 
      Nú er hægt að tilgreina að þessir tengiliðir hafi svarað herferðinni:  
@@ -190,10 +190,10 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 9. Reiturinn **Svörun söluherferðar** er valinn og fylgjandi skilaboð samþykkt.  
 
      Hlutinn er skráður til að tryggja að samskiptin séu skráð.  
-10. Á síðunni **Hluti** skal velja aðgerðina **Skrá**.  
+10. Á síðunni **Hluti** skal velja aðgerðina **Skrá** .  
 11. Á síðunni **Skrá hluta** er gátreiturinn **Senda viðhengi** afvalinn og svo er hnappurinn **Í lagi** valinn og skilaboðin sem fylgja samþykkt.  
 
-     Um leið og hlutinn er skráður er sjálfkrafa stofnuð færsla fyrir herferðina til að skrá þessa aðgerð á síðunni **Söluherferðarfærslur**.  
+     Um leið og hlutinn er skráður er sjálfkrafa stofnuð færsla fyrir herferðina til að skrá þessa aðgerð á síðunni **Söluherferðarfærslur** .  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Umsjón með venslum](marketing-relationship-management.md)  

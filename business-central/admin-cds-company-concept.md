@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
-ms.date: 01/17/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 4f8e5959098e01cd08134a37ae706aa852d88729
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324055"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911659"
 ---
 # <a name="data-ownership-models"></a>Eignarhaldslíkön gagna
 [!INCLUDE[d365fin](includes/cds_long_md.md)] krefst þess að tilgreindur sé eigandi fyrir gögnin sem eru geymd. Frekari upplýsingar er að finna í [Eignarhald einingar](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) í Power Apps fylgiskjalinu. Þegar samþætting er sett upp á milli [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)] þarf að velja eitt af tveimur eignarhaldslíkönum fyrir færslur sem eru samstilltar:
@@ -54,7 +54,7 @@ Hins vegar er 1:1 vörpunin milli viðskiptaeininga, fyrirtækis og teymis aðei
 
 Í þessu dæmi er ný EUR (Evrópa) rót viðskiptaeiningar búin til í [!INCLUDE[d365fin](includes/cds_long_md.md)] sem yfireining fyrir bæði Cronus DE (Þýskaland) og Cronus ES (Spánn). EUR viðskiptaeiningin er ekki tengd samstillingu. Hins vegar getur hún gefið meðlimum EUR söluteymis aðgang að reikningsgögnum bæði í Cronus DE og Cronus ES með því að stilla gagnasýnileika á **Yfir-/undirstig viðskiptaeiningar** í tengdu öryggishlutverki í [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
-Samstilling ákvarðar hvaða teymi skal eiga færslur. Þessu er stjórnað af reitnum **Sjálfgefið eigendateymi** í BCI - <ID> færslunni. Þegar BCI - <ID> færsla er virkjuð fyrir samstillingu búum við sjálfkrafa til tengda viðskiptaeiningu og eigendateymi (ef það er ekki þegar til) og stillum reitinn **Sjálfgefið eigendateymi**. Þegar samstilling er virkjuð fyrir einingu geta stjórnendur breytt eigendateyminu, en alltaf verður að úthluta teymi.
+Samstilling ákvarðar hvaða teymi skal eiga færslur. Þessu er stjórnað af reitnum **Sjálfgefið eigendateymi** í BCI - <ID> færslunni. Þegar BCI - <ID> færsla er virkjuð fyrir samstillingu búum við sjálfkrafa til tengda viðskiptaeiningu og eigendateymi (ef það er ekki þegar til) og stillum reitinn **Sjálfgefið eigendateymi** . Þegar samstilling er virkjuð fyrir einingu geta stjórnendur breytt eigendateyminu, en alltaf verður að úthluta teymi.
 
 > [!NOTE]
 > Færslur verða skrifvarðar eftir að fyrirtæki er bætt við og því skal gæta þess að velja rétt fyrirtæki.
@@ -70,6 +70,8 @@ Ef þú velur aðra fyrirtækiseiningu, til dæmis einhverja þú varst bj+óst 
 Ef valið er eignarhaldslíkan einstaklings þarf að tilgreina alla sölumenn sem munu vera með nýjar færslur. Fyrirtækiseiningin og teymið eru útbúin eins og lýst er í hlutanum [Eignarhald teymis](admin-cds-company-concept.md#team-ownership).
 
 Sjálfgefna fyrirtækiseiningin er notuð þegar einstaklingseignarhaldslíkan er valið og ekki er hægt að velja aðra fyrirtækiseiningu. Þessi hópur sem tengist sjálfgefinni fyrirtækiseiningu mun fá færslur fyrir algengar einingar, eins og vörueininguna, sem tengist ekki sérstökum sölumönnum.
+
+Þegar sölumenn í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru tengdir við notendur í [!INCLUDE[d365fin](includes/cds_long_md.md)], mun [!INCLUDE[d365fin](includes/d365fin_md.md)] bæta notandanum við sjálfgefna hópinn í [!INCLUDE[d365fin](includes/cds_long_md.md)]. Hægt er að staðfesta að notendum hafi verið bætt við með því að skoða dálkinn **Sjálfgefinn hópmeðlimur** á síðunni **Notendur - Common Data Service** . Ef notandanum er ekki bætt við er hægt að bæta honum handvirkt við með því að nota aðgerðina **Bæta tengdum notendum við hóp** . Frekari upplýsingar er að finna í [Samstilling gagna í Business Central við Common Data Service](admin-synchronizing-business-central-and-sales.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Um [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

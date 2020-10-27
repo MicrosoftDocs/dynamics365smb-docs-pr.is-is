@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/04/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0232ef89cd708c33d1db716a337edc8cb97c58d3
-ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
+ms.openlocfilehash: f874548d0d84a3fbb215dfb8c81d4b7daeb5edfe
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435184"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915636"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Flytja, skipta upp eða sameina eignir
 
@@ -70,7 +70,7 @@ Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir s
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir, bókfært virði 02** og veldu síðan tengda tengilinn.
 2. Fyllið inn reitina eftir þörfum.
-3. Veljið hnappinn **Prenta** eða **Forskoðun**.  
+3. Veljið hnappinn **Prenta** eða **Forskoðun** .  
 
 ## <a name="see-also"></a>Sjá einnig
 

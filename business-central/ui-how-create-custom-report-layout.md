@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 07/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f8d8b40e77e53dad7855721f23cf4cb33a669c4e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ee4d805ce0fc51e96e4d6956a2bcf1537830730f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782700"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914961"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Búa til og breyta sérsniðnum skýrsluútlitum
 
@@ -47,9 +47,9 @@ Til að búa til sérsniðið útlit geturðu búið til afrit af öðru sérsni
    1. Valið er **Nýtt** aðgerð. Síðan **Setja inn innbyggt útlit fyrir skýrslu** birtist. Reitirnir **Auðkenni** og **Heiti** eru fylltir inn sjálfkrafa.
    2. Til að bæta við sérsniðnu Word-skýrsluútliti skaltu velja **Setja inn Word-útlit** gátreitinn.
    3. Til að bæta við sérsniðnu RDLC-skýrsluútliti skaltu velja **Setja inn RDLC-útlit** gátreitinn.
-   4. Velja hnappinn **Í lagi**.  
+   4. Velja hnappinn **Í lagi** .  
 
-    Nýja sérsniðna útlitið birtist nú á síðunni **Sérsniðið skýrsluútlit**. Ef nýtt útlit byggir á innbyggðu útliti er það með orðin **Afrit af innbyggðu útiliti** í reitnum **Lýsing**. Ef ekkert innbyggt útlit var til staðar fyrir skýrsluna þá er nýja útlitið með orðin **Nýtt útlit** í reitnum **Lýsing**, sem táknar að sérsniðna útlitið er autt.
+    Nýja sérsniðna útlitið birtist nú á síðunni **Sérsniðið skýrsluútlit** . Ef nýtt útlit byggir á innbyggðu útliti er það með orðin **Afrit af innbyggðu útiliti** í reitnum **Lýsing** . Ef ekkert innbyggt útlit var til staðar fyrir skýrsluna þá er nýja útlitið með orðin **Nýtt útlit** í reitnum **Lýsing** , sem táknar að sérsniðna útlitið er autt.
 6. Reiturinn **Heiti fyrirtækis** er sjálfgefið auður, sem táknar að sérsniðið útlit er í boði fyrir skýrsluna í öllum fyrirtækjum. Til að gera sérsniðið útlit aðeins aðgengilegt fyrir tiltekið fyrirtæki, skal velja **Breyta** og stilla síðan reitinn **Heiti fyrirtækis** á það fyrirtæki sem þú vilt.
 
 Sérsniðna útlitið hefur verið búið til. Þá er hægt að breyta sérsniðna útlitinu eftir þörfum.
@@ -60,7 +60,7 @@ Til að breyta skýrsluútliti úr , þarftu fyrst að flytja út skýrsluútlit
 
 ### <a name="to-modify-a-custom-layout"></a>Skýrsluútliti sérsniðnu breytt
 
-1.  Þú flytur út sérsniðið útlit á síðunni **sérsniðið skýrsluútlit**. Ef þessi síða er ekki þegar opinn, skal leita að og opna síðuna **Val á skýrsluútliti** og veldu röðina fyrir skýrsluna sem þú vilt breyta útlitið fyrir, og veldu svo **Sérsniðið útlit** aðgerðina.  
+1.  Þú flytur út sérsniðið útlit á síðunni **sérsniðið skýrsluútlit** . Ef þessi síða er ekki þegar opinn, skal leita að og opna síðuna **Val á skýrsluútliti** og veldu röðina fyrir skýrsluna sem þú vilt breyta útlitið fyrir, og veldu svo **Sérsniðið útlit** aðgerðina.  
 2.  Á síðunni **Sérsniðið skýrsluútlit** skal velja útlitið sem þú vilt breyta, veldu **Flytja út útlit** aðgerðina og svo velja **Vista** eða **Vista sem** til að vista skýrsluútlitsskjalið á staðsetningu í tölvunni eða á netkerfi.  
 
 3.  Opnaðu skýrsluútlitsskjalið sem þú vistaðir og gerðu breytingar.
@@ -71,9 +71,9 @@ Til að breyta skýrsluútliti úr , þarftu fyrst að flytja út skýrsluútlit
 
       Mundu að vista breytingar þegar lokið.
 
-4.  Farið aftur á síðuna **Sérsniðið skýrsluútlit**, veljið skýrsluútlit sem var flutt út og breytt og veljið svo **Flytja inn útlit** aðgerðina.  
+4.  Farið aftur á síðuna **Sérsniðið skýrsluútlit** , veljið skýrsluútlit sem var flutt út og breytt og veljið svo **Flytja inn útlit** aðgerðina.  
 
-5. Í svarglugganum **Flytja inn** skal velja **Velja** til að finna og velja skjalið sem skilgreinir skýrsluútlitið og svo velja **Opna**.
+5. Í svarglugganum **Flytja inn** skal velja **Velja** til að finna og velja skjalið sem skilgreinir skýrsluútlitið og svo velja **Opna** .
 
 ##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a>Búa til og breyta sérsniðnum skýrsluútlitum
 
@@ -82,7 +82,7 @@ Til að gera almennar sniðsbreytingar og útlitsbreytingar, t.d. að breyta let
 Ef þú ert að hanna Word-skýrsluútlit frá grunni eða bæta við nýjum gagnareitum skaltu byrja með því að bæta við töflu sem er með raðir og dálka sem munu að endingu innihalda gagnareitina.
 
 > [!TIP]  
-> Sýna hnitanetslínur töflu þannig að jaðrar töfluhólfanna sjáist. Loka skal hnitanetslínum þegar breytingum er lokið. Til að sýna eða fela töfluhnitalínur velurðu töfluna og svo, undir **Útlit** á flipanum **Tafla** velurðu **Skoða hnitalínur**.
+> Sýna hnitanetslínur töflu þannig að jaðrar töfluhólfanna sjáist. Loka skal hnitanetslínum þegar breytingum er lokið. Til að sýna eða fela töfluhnitalínur velurðu töfluna og svo, undir **Útlit** á flipanum **Tafla** velurðu **Skoða hnitalínur** .
 
 ### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Innfelling leturgerða í Word Layouts fyrir samræmi
 
@@ -98,7 +98,7 @@ Til að tryggja að skýrslur birtist alltaf og prentist með fyrirhuguðum letu
 
 ### <a name="to-remove-a-label-or-data-field"></a>Til að fjarlægja merki eða gagnareit  
 
-1. Hægri-smellir á reitinn sem á að eyða og svo **Fjarlægja efnisstýringu**.  
+1. Hægri-smellir á reitinn sem á að eyða og svo **Fjarlægja efnisstýringu** .  
 
      Efnisstjórnunin er fjarlægð en reitarheitið er til staðar sem texti.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a5fc9b13e28b51d776fad6d02feae4624b756c4c
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 746aa6c0146205cbc3f3ed1796b084825bbfdbdf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617937"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915711"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
 Samsetningarvörur geta verið veittar í eftirfarandi tvo ferla:  
@@ -41,7 +41,7 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 > [!NOTE]  
 >  Þótt það sé ekki hluti af sjálfgefnu ferli er hægt að selja birgðamagn ásamt sameiningarpöntunarmagninu. Frekari upplýsingar eru í [Selja birgðavörur í flæðum samsetningar í pöntun](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
- Til að virkja þetta ferli er verður reiturinn **Samsetningarregla** á birgðaspjaldinu að vera **Sameina í pöntun**.  
+ Til að virkja þetta ferli er verður reiturinn **Samsetningarregla** á birgðaspjaldinu að vera **Sameina í pöntun** .  
 
 ## <a name="assemble-to-stock"></a>Setja saman í birgðir  
  Yfirleitt er *setja saman í birgðir* notað fyrir vörur sem á að setja saman á undan sölu, s.s. þegar söluherferð fyrir sett er undirbúin og þau geymd í birgðum áður en þær eru pantaðar. Þessar vörur eru yfirleitt staðlaðar vörur eins og innpökkuð sett sem þú býður ekki upp á að séu sérsniðin eftir beiðni viðskiptavina.  
@@ -53,7 +53,7 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 > [!NOTE]  
 >  Þótt það sé ekki hluti af sjálfgefnu ferli er hægt að setja saman vörur til pöntunar jafnvel þótt hún sé gerð til að vera sett saman á lager. Frekari upplýsingar eru í [Selja vörur sem eru settar saman í pöntun og birgðavörur saman](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
- Til að virkja þetta ferli er verður reiturinn **Samsetningarregla** á birgðaspjaldinu að vera **Setja saman í birgðir**.  
+ Til að virkja þetta ferli er verður reiturinn **Samsetningarregla** á birgðaspjaldinu að vera **Setja saman í birgðir** .  
 
 ## <a name="combination-scenarios"></a>Samsetningaraðstæður  
  Almenn reglu í samsetningarstjórnun er að þegar samsetningarpöntunarmagn er sameinað í sölupöntunarlínu, verður að afhenda það á undan birgðamagninu.  
@@ -66,7 +66,7 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 
  Í samsetningaraðstæðum er gildið í **Magn afhent** ekki afritað í reitinn **Magn sett saman** í haus samsetningarpöntunar. Í staðinn er sjálfgefið gildi sett inn í reitinn **Magn sett saman** sem er reiknað út frá reitnum **Magn afhent** samkvæmt forskilgreindri reglu sem tryggir að magn samsetningarpöntunar sé afhent fyrst.  
 
- Eigi að víkja frá þessu sjálfgildi, til dæmis ef aðeins á að setja saman meira eða minna en magnið í reitnum **Magn afhent**, má breyta reitnum **Magn sett saman** en þó aðeins samkvæmt reglunum hér að neðan.  
+ Eigi að víkja frá þessu sjálfgildi, til dæmis ef aðeins á að setja saman meira eða minna en magnið í reitnum **Magn afhent** , má breyta reitnum **Magn sett saman** en þó aðeins samkvæmt reglunum hér að neðan.  
 
  Dæmi um það hvers vegna breyta ætti magni til að setja saman, er að notandi vill bóka afhendingu að hluta á birgðamagni áður en samsetningarfrálagið er afhent.  
 

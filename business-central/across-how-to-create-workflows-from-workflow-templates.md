@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c5e3f26e45a4c990a3614011e21fe8d661973035
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b2ee2dcba364f7b89bae49c3f15f098c51d2c5a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784735"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913547"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Búa til verkflæði úr verkflæðissniðmátum
 Hægt er að búa til verkflæði með verkflæðissniðmátum til að spara tíma þegar ný verkflæði eru stofnuð.  
@@ -30,8 +30,8 @@ Hægt er að búa til verkflæði með verkflæðissniðmátum til að spara tí
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>Hvernig á að búa til verkflæði úr verkflæðissniðmátum  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkflæði** og veldu síðan tengda tengilinn.  
-2.  Velja skal aðgerðina **Stofna verkflæði úr sniðmáti**. Síðan **Sniðmát verkflæðis** opnast.  
-3.  Veljið verkflæðissniðmát og smellið á hnappinn **Í lagi**.  
+2.  Velja skal aðgerðina **Stofna verkflæði úr sniðmáti** . Síðan **Sniðmát verkflæðis** opnast.  
+3.  Veljið verkflæðissniðmát og smellið á hnappinn **Í lagi** .  
 
      Síðan **Verkflæði** opnast fyrir nýtt verkflæði sem inniheldur allar upplýsingarnar úr völdu sniðmáti. Við gildið í reitnum **Kóði** er bætt við t.d. „-01“ til að gefa til kynna að þetta sé fyrsta verkflæðið sem er stofnað úr verkflæðissniðmátinu.  
 4.  Haldið áfram til að stofna verkflæði með því að breyta verkflæðisskrefum eða bæta við nýjum skrefum. Frekari upplýsingar eru í [Búa til verkflæði](across-how-to-create-workflows.md).  

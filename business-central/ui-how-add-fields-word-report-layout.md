@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d5aba21a9b98ef98b31dc4bc4dfa0bb853d7891a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 192ce7cfea150e78bfdcac6961e529046c920e21
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193924"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915011"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Bæta reitum við Word-skýrsluútlit
 Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndir. Þetta efnisatriði lýsir ferlinu við að bæta reitum í gagnasafni skýrslu við fyrirliggjandi Word-skýrsluútlit fyrir skýrslu. Reitum er bætt við með því að nota Word sérsniðinn XML-hluta fyrir skýrsluna og bæta við efnisstjórnun sem varpar í reiti gagnamengis skýrslunnar. Bæting reita þarfnast einhverrar þekkingar á gagnamengi skýrslunnar þannig að hægt er að bera kennsl á reitina sem á að bæta við útlitið.  
@@ -33,11 +33,11 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
   
      Sjálfgefið er að **Hönnuður** er ekki sýnilegur í borðanum. Frekari upplýsingar eru í [Sýna flipann Hönnuður á borðanum](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
-3.  Á flipanum **Developer** skal velja **XML-vörpunarsvæði**.  
+3.  Á flipanum **Developer** skal velja **XML-vörpunarsvæði** .  
   
-4.  Á svæðinu **XML-vörpun**, á fellilistanum **Sérsniðinn XML-hluti** velurðu sérsniðinn XML-hluta fyrir ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> skýrslu, sem er venjulega neðst á listanum. Heiti sérstillta XML-hlutans er á eftirfarandi sniði:  
+4.  Á svæðinu **XML-vörpun** , á fellilistanum **Sérsniðinn XML-hluti** velurðu sérsniðinn XML-hluta fyrir ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> skýrslu, sem er venjulega neðst á listanum. Heiti sérstillta XML-hlutans er á eftirfarandi sniði:  
   
-     urn:microsoft-dynamics-nav/reports/*skýrslu_heiti*/*/Kenni*  
+     urn:microsoft-dynamics-nav/reports/ *skýrslu_heiti*/*/Kenni*  
   
      *skýrsluheiti* er heitið sem er skýrslunni er úthlutað<!--OnPrem as specified by the report's [Name Property-duplicate](../FullExperience/nav_dev_long_md.md)]-->.  
   
@@ -49,7 +49,7 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
   
 1.  Setja skal bendilinn á skjalið þar sem þú vilt setja inn stjórnhnapp.  
   
-2.  Á svæðinu **XML-vörpun** skal hægrismella á stjórnhnappinn sem á að bæta við, velja **Fella inn í efnisstjórnun** og velja svo **Ósniðinn texti**.  
+2.  Á svæðinu **XML-vörpun** skal hægrismella á stjórnhnappinn sem á að bæta við, velja **Fella inn í efnisstjórnun** og velja svo **Ósniðinn texti** .  
   
     > [!NOTE]  
     >  Ekki er hægt að bæta við reit með því að slá handvirkt inn heiti gagnamengisreits í efnisstjórnun. Þú verður að nota **XML-vörpun** svæðið til að varpa reitunum.  
@@ -62,18 +62,18 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
   
 2.  Veldu alla röðina.  
   
-3.  Á svæðinu **XML-vörpun** skal hægrismella á stjórnhnappinn sem samsvarar skýrslugagnaatriðinu sem inniheldur reitina sem á að endurtaka, velja **Fella inn í efnisstjórnun** og velja svo **Endurtaka**.  
+3.  Á svæðinu **XML-vörpun** skal hægrismella á stjórnhnappinn sem samsvarar skýrslugagnaatriðinu sem inniheldur reitina sem á að endurtaka, velja **Fella inn í efnisstjórnun** og velja svo **Endurtaka** .  
   
 4.  Bættu endurtekna reitinum við röð svona:  
   
     1.  Bendillinn er settur á dálk.  
   
-    2.  Á svæðinu **XML-vörpun** skal hægrismella á stjórnhnappinn sem á að bæta við, velja **Fella inn í efnisstjórnun** og velja svo **Ósniðinn texti**.  
+    2.  Á svæðinu **XML-vörpun** skal hægrismella á stjórnhnappinn sem á að bæta við, velja **Fella inn í efnisstjórnun** og velja svo **Ósniðinn texti** .  
   
     3.  Endurtakið skref a og b fyrir hvern reit.  
   
 ## <a name="adding-image-fields"></a>Bæat avið myndareitum  
- Gagnasafn skýrslu getur innihaldið reit sem inniheldur mynd, t.d. fyrirtækjamerki eða mynd af hlut. Til að bæta við mynd úr skýrslugagnamenginu er sett inn efnisstjórnunin **Mynd**.  
+ Gagnasafn skýrslu getur innihaldið reit sem inniheldur mynd, t.d. fyrirtækjamerki eða mynd af hlut. Til að bæta við mynd úr skýrslugagnamenginu er sett inn efnisstjórnunin **Mynd** .  
   
  Myndir birtast efst í hægra horni efnisstýringar og laga stærð sína sjálfvirkt þannig að þær passi við mörk efnisstjórnunar.  
   
@@ -84,12 +84,12 @@ Gagnasafn skýrslu getur samanstaðið af reitum sem birta merki, gögn og myndi
   
 1.  Setja skal bendilinn á skjalið þar sem þú vilt setja inn stjórnhnapp.  
   
-2.  Á svæðinu **XML-vörpun** skal hægrismella á stjórnhnappinn sem á að bæta við, velja **Fella inn í efnisstjórnun** og velja svo **Mynd**.  
+2.  Á svæðinu **XML-vörpun** skal hægrismella á stjórnhnappinn sem á að bæta við, velja **Fella inn í efnisstjórnun** og velja svo **Mynd** .  
   
 3.  Til að auka eða minnka myndastærðina dregurðu stærðarhandfang frá eða að miðju efnisstjórnunar.  
 
 ## <a name="custom-xml-part-overview"></a>Sérsniðinn XML-hluti yfirlit
-Word-skýrsluútlit byggja á *sérsniðnum XML-hlutum*. Sérsniðinn XML-hluti fyrir skýrslu samanstendur af þáttum sem samsvara gagnahlutum, dálkum og merkingum sem saman mynda gagnamengi skýrslunnar. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->Sérsniðinn XML-hluti er notaður til að varpa gögnunum í skýrslu þegar skýrslan er keyrð.
+Word-skýrsluútlit byggja á *sérsniðnum XML-hlutum* . Sérsniðinn XML-hluti fyrir skýrslu samanstendur af þáttum sem samsvara gagnahlutum, dálkum og merkingum sem saman mynda gagnamengi skýrslunnar. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->Sérsniðinn XML-hluti er notaður til að varpa gögnunum í skýrslu þegar skýrslan er keyrð.
 
   
 ### <a name="xml-structure-of-custom-xml-part"></a>XML bygging sérsniðins XML-hluta  
@@ -113,7 +113,7 @@ Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.
   
  ![Hluti af XML vörpunarsvæði í word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
--   Til að bæta merki eða reit við útlitið er sett inn efnisstjórnun sem varpar í eininguna á svæðinu **XML-vörpun**.  
+-   Til að bæta merki eða reit við útlitið er sett inn efnisstjórnun sem varpar í eininguna á svæðinu **XML-vörpun** .  
   
 -   Til að búa til endurteknar raðir af dálkum skal setja inn **Endurtekna** efnisstjórnun fyrir yfirgögn einingarinnar, og bæta svo við efnisstjórnun fyrir dálkana.  
   

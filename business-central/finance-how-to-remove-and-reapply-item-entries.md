@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 258e17fc2ddd698f0ab74c2ee7afec7b78c63c6e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f90f17fa962bc8a18ea3ba1c30b01af52463ede4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788651"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915586"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjarlægja og endurjafna birgðabókafærslur
 Á síðunni **Vinnublað jöfnunar** er hægt að skoða og breyta handvirkt tilteknum birgðajöfnunarfærslum sem eru stofnaðar sjálfkrafa við birgðafærslur.  
@@ -46,10 +46,10 @@ Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á f
 3.  Færa inn afmarkanir á flýtiflipanum **Almennt** til að að einfalda leit að birgðafærslu sem gera á jöfnunarbreytingu á.  
 4.  Valin er birgðabókarfærsla og svo **Jafnaðar færslur** aðgerðina. Síðan **Skoða jafnaðar færslur – Jafnaðar færslur** opnast og birtir birgðafærsluna eða birgðafærslurnar sem eru jafnaðar við völdu færsluna.  
 5.  Valin er sú birgðafærsla sem á að fjarlægja jöfnun af.  
-6.  Valið er **fjarlægja jöfnun** aðgerð. Þetta fjarlægir birgðajöfnunarfærsluna sem tengir birgðafærslurnar og færir hana á síðunni **Skoða jafnaðar færslur - ójafnaðar færslur**.  
-7.  Loka síðunni **Skoða jafnaðar færslur - Jafnaðar færslur**.  
+6.  Valið er **fjarlægja jöfnun** aðgerð. Þetta fjarlægir birgðajöfnunarfærsluna sem tengir birgðafærslurnar og færir hana á síðunni **Skoða jafnaðar færslur - ójafnaðar færslur** .  
+7.  Loka síðunni **Skoða jafnaðar færslur - Jafnaðar færslur** .  
 
- Reiturinn **Eftirstöðvar (magn)** í birgðafærslunum tveimur hækka sem samsvarar því magni sem afjafnað var. Fjarlægða birgðafærslan er nú tiltæk til endurjöfnunar á síðunni **Skoða jafnaðar færslur – ójafnaðar færslur**.  
+ Reiturinn **Eftirstöðvar (magn)** í birgðafærslunum tveimur hækka sem samsvarar því magni sem afjafnað var. Fjarlægða birgðafærslan er nú tiltæk til endurjöfnunar á síðunni **Skoða jafnaðar færslur – ójafnaðar færslur** .  
 
 > [!IMPORTANT]  
 >  Ekki ætti að skilja jöfnunarfærslur eftir ójafnaðar í lengri tíma þar sem aðrir notendur geta ekki unnið úr vörum fyrr en jöfnunarfærslurnar eru endurjafnaðar eða síðunni **Vinnublaðsjöfnun** er lokað. Eftirfarandi villuboð birtast ef reynt er að framkvæma aðgerðir sem fela í sér jöfnunarfærslu sem er gerð óvirk handvirkt.  
@@ -59,12 +59,12 @@ Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á f
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Að endurjafna birgðajöfnunarfærslu með jöfnunarvinnublaðinu  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað jöfnunar** og veldu síðan tengda tengilinn.  
 2.  Síðan **Vinnublaðsjöfnun** opnast og sýnir núverandi vörufærslur í færslubók fyrir allar vörur.  
-3.  Til að endurjafna færslunum sem voru fjarlægðar síðan vinnublaðið var opnað skal velja birgðabókarfærsluna sem á að endurjafna og svo aðgerðina **Endurjafna**.  
+3.  Til að endurjafna færslunum sem voru fjarlægðar síðan vinnublaðið var opnað skal velja birgðabókarfærsluna sem á að endurjafna og svo aðgerðina **Endurjafna** .  
 
     > [!NOTE]  
     >  Þessi endurjöfnun á upphaflegu stöðunni verður einnig sjálfkrafa þegar síðunni **Vinnublaðsjöfnun** er lokað.  
 4.  Til að jafna tiltækri opinni birgðabókarfærslu við aðra færslu skal velja birgðabókarfærsluna sem jafna á við. Valið er **Ójafnaðar Færslur** aðgerð. Síðan **Skoða jafnaðar færslur-ójafnaðar færslur** opnast.  
-5.  Velja skal eina eða fleiri birgðafærslur sem jafna á við færsluna sem valin var á síðunni **Vinnublaðsjöfnun** og smella síðan á **Í lagi**.  
+5.  Velja skal eina eða fleiri birgðafærslur sem jafna á við færsluna sem valin var á síðunni **Vinnublaðsjöfnun** og smella síðan á **Í lagi** .  
 
      Forritið stofnar birgðajöfnunarfærslu á milli birgðafærslnanna tveggja. Dregið er úr reitunum **Eftirstöðvar (magn)** í færslunum tveimur sem samsvarar jafnaða magninu.  
 

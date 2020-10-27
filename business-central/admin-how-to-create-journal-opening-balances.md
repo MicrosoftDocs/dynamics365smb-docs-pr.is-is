@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9984d61e97ff6c04733bd10818deb1d6cf57a66c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783627"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915762"
 ---
 # <a name="create-journal-opening-balances"></a>Stofna opnunarstöður færslubókar
 
@@ -34,13 +34,13 @@ Fyrsta skrefið er að stofna grunnstillingarpakka sem inniheldur uppsetningart�
 2. Opna grunnstillingarvinnublaðið og flytja inn fyrirliggjandi gögn um viðskiptavini, vörur, lánardrottna og fjárhag. Frekari upplýsingar eru í [Yfirfæra gögn viðskiptamanns](admin-migrate-customer-data.md).  
 
     Nú ertu með aðalgögn á sínum stað. Næst skal bæta við opnunarstöðum. Eftirfarandi skref lýsa því hvernig á að stofna færslubókarlínur fyrir fjárhagsreikninga, en það sama gildir um stofnun færslubókarlína fyrir viðskiptamenn, lánardrottna og vörur.  
-3. Velja skal aðgerðina **Stofna fjárhagsbókarlínur fjárhagsreiknings**.  
+3. Velja skal aðgerðina **Stofna fjárhagsbókarlínur fjárhagsreiknings** .  
 4. Fylla inn í flýtiflipann **Valkostir** þar sem við á, og setja afmarkanir eftir þörfum. Til dæmis í reitinn **Bókarsniðmát** er fært inn heiti.  
-5. Velja hnappinn **Í lagi**. Færslurnar eru nú í færslubók, en upphæðirnar eru auður.  
+5. Velja hnappinn **Í lagi** . Færslurnar eru nú í færslubók, en upphæðirnar eru auður.  
 6. Flytja út færslubókartöflua í Excel og færa handvirkt inn upplýsingar um bókunina og mótreikninginn úr gömlum gögnum.
 7. Flytja inn og nota töfluupplýsingar í nýja fyrirtækinu. Færslubókarlínurnar eru tilbúnar til bókunar.  
-8. Á grunnstillingarvinnublaðinu skal velja töflu færslubókarlínu og síðan velja aðgerðina **Gagnagrunnsgögn**.  
-9. Yfirfara skal upplýsingarnar og síðan velja aðgerðina **Bóka**.  
+8. Á grunnstillingarvinnublaðinu skal velja töflu færslubókarlínu og síðan velja aðgerðina **Gagnagrunnsgögn** .  
+9. Yfirfara skal upplýsingarnar og síðan velja aðgerðina **Bóka** .  
 10. Endurtaka skal skrefin til að flytja inn og bóka aðrar opnunarstöður.  
 
 > [!TIP]

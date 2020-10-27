@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3f98cd6423b67fd9bbcc6081d06eca4cb21e81c7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782444"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912672"
 ---
 # <a name="change-basic-settings"></a>Breyta grundvallarstillingum
 
@@ -29,10 +29,10 @@ Mitt hlutverk táknar heimasíðuna, upphafssíðu sem er hönnuð fyrir þarfir
 -   Í miðstöðinni birtist svæðið **Aðgerðir** sem sýnir núgildandi gögn og má smella eða ýta á þau til að skoða nákvæmari upplýsingar. Afkastavísa má setja upp til að sýna valin myndrit svo fáist myndræn framsetning af, til dæmis, fjárstreymi´ og tekjum og útgjöldum. Þú getur einnig gert lista yfir eftirlætisviðskiptamenn í Mínu hlutverki fyrir viðskiptareikninga sem þú átt oft í viðskiptum við eða sem þarf að sýna sérstaka athygli.
 
 ### <a name="to-change-the-role"></a>Til að breyta hlutverki
-Sjálfgefið hlutverk þitt er **Viðskiptastjórnandi**, en hægt er að velja annað hlutverk sem uppfyllir þarfir þínar betur.
-1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan aðgerðina **Stillingar mínar**.
-2. Á síðunni **Mínar stillingar** á svæðinu **Hlutverk**, skal velja hlutverkið sem á að nota sem sjálfgefið. Veljið til dæmis **Bókari**.
-3. Velja hnappinn **Í lagi**.
+Sjálfgefið hlutverk þitt er **Viðskiptastjórnandi** , en hægt er að velja annað hlutverk sem uppfyllir þarfir þínar betur.
+1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan aðgerðina **Stillingar mínar** .
+2. Á síðunni **Mínar stillingar** á svæðinu **Hlutverk** , skal velja hlutverkið sem á að nota sem sjálfgefið. Veljið til dæmis **Bókari** .
+3. Velja hnappinn **Í lagi** .
 
 ## <a name="company"></a><a name="company"></a>Fyrirtæki
 Fyrirtæki virkar sem geymsluhólf fyrir gögn í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hægt er að hafa mörg fyrirtæki í gagnagrunni, en aðeins hægt að velja eitt í einu.
@@ -40,17 +40,17 @@ Fyrirtæki virkar sem geymsluhólf fyrir gögn í [!INCLUDE[d365fin](includes/d3
 Sjálfgefið fyrirtæki er kallað CRONUS og inniheldur aðeins kynningargögn. Þú getur stofnað nýtt fyrirtæki með sérstilltum gögnum. Nánari upplýsingar eru í [Stofna ný fyrirtæki](about-new-company.md).
 
 ## <a name="to-change-the-company-name"></a>Til að breyta heiti fyrirtækis
-Heiti fyrirtækisins er alltaf birt efst í vinstra horninu og virkar sem aðgerð sem hægt er að velja til að fara til baka í Mitt hlutverk. Þú getur breytt þessu heiti á síðunni **Upplýsingar um fyrirtækið**.
+Heiti fyrirtækisins er alltaf birt efst í vinstra horninu og virkar sem aðgerð sem hægt er að velja til að fara til baka í Mitt hlutverk. Þú getur breytt þessu heiti á síðunni **Upplýsingar um fyrirtækið** .
 
-1. Veljið táknið ![Sprocket til að opna táknið valmyndarstillingar](media/ui-experience/settings_icon_small.png) og veljið síðan aðgerðina **Upplýsingar um fyrirtæki**.
-2. Heiti nýja fyrirtækisins er ritað í reitinn **Heiti**.
+1. Veljið táknið ![Sprocket til að opna táknið valmyndarstillingar](media/ui-experience/settings_icon_small.png) og veljið síðan aðgerðina **Upplýsingar um fyrirtæki** .
+2. Heiti nýja fyrirtækisins er ritað í reitinn **Heiti** .
 3. Fara af síðunni. Kerfið endurræsir og sýnir heitið á nýja fyrirtækinu í horninu efst til vinstri.
 
 ## <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a>Til að birta fyrirtækjamerkis fyrir flýtiaðgang að fyrirtækisupplýsingum  
 Hægt er að bæta við sérstilltum merkimiða efst í hægra horninu, þar sem hægt er að velja að fljótlegt sé að skoða upplýsingar um fyrirtæki og leigjandaupplýsingar í sprettiglugga.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofngögn** og veldu síðan tengda tengilinn.
-2. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Fyrirtækismerki**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+2. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **Fyrirtækismerki** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
 > Ef merki fyrirtækis er skilgreint, þá er ekki hægt að breyta heiti fyrirtækis eins og lýst er í [til að breyta heiti fyrirtækisins](ui-change-basic-settings.md#to-change-the-company-name)
@@ -59,7 +59,7 @@ Hægt er að bæta við sérstilltum merkimiða efst í hægra horninu, þar sem
 Dagsetningin sem er algengust er dagurinn í dag. Þú gætir þurft að breyta tímabundið vinnudagsetningu til að framkvæma verk, eins og að klára færslur fyrir dagsetningu sem er ekki núverandi dagsetning.
 
 > [!TIP]  
-> Í öllum dagsetningarreitum skal slá inn **t** til að færa aftur inn daginn í dag og slá inn **w** til að færa fljótt inn vinnudagsetninguna sem er gildið í reitnum **Vinnudagsetning** á síðunni **Mínar stillingar**.
+> Í öllum dagsetningarreitum skal slá inn **t** til að færa aftur inn daginn í dag og slá inn **w** til að færa fljótt inn vinnudagsetninguna sem er gildið í reitnum **Vinnudagsetning** á síðunni **Mínar stillingar** .
 
 > [!IMPORTANT]  
 >  Eftir að vinnudagsetningu er breytt, ef þú skráir þig út eða skiptir yfir í annað fyrirtæki, mun vinnudagsetningin fara aftur á sjálfgefna vinnudagsetningu. Svo næst þegar þú skráir þig inn eða skiptir aftur í upprunalega fyrirtækið gætir þú þurft að stilla vinnudagsetninguna aftur.

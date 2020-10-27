@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b93999ec3e8520dedd1601efad7fc00d4d625317
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a4f73de177129f5bc33808e6acf74bd273ae0d33
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788626"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915561"
 ---
 # <a name="set-up-cash-customers"></a>Uppsetning staðgreiðsluviðskiptamanna
 Ekki er hægt að gera reikning án viðskiptamannsnúmers. Þetta á við þó svo að selt sé gegn staðgreiðslu og ekki sé þörf á að skrá upplýsingar í viðskiptamannareikning.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Uppsetning staðgreiðsluviðskiptamanna  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamaður** og veldu síðan tengda tengilinn.  
-2.  Stofna nýtt spjald **Viðskiptamaður**. Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).
-3.  Í reitnum **númer** er ritað **Reiðufé**, til dæmis.  
-4.  Í reitinn **Heiti** er til dæmis ritað **Staðgreitt við sölu**.  
-5.  Á flýtiflipanum **Reikningsfærsla** þarf að fylla út reitina **Bókunarflokkur viðskiptam.** og **Alm. viðsk.bókunarflokkur**.  
+2.  Stofna nýtt spjald **Viðskiptamaður** . Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).
+3.  Í reitnum **númer** er ritað **Reiðufé** , til dæmis.  
+4.  Í reitinn **Heiti** er til dæmis ritað **Staðgreitt við sölu** .  
+5.  Á flýtiflipanum **Reikningsfærsla** þarf að fylla út reitina **Bókunarflokkur viðskiptam.** og **Alm. viðsk.bókunarflokkur** .  
 
  Nú hefur verið stofnaður viðskiptamaður með nægar upplýsingar til reikningsfærslu.  
 

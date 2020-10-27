@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 06/30/2020
-ms.openlocfilehash: 278797e8a1647fff8fd607cf075657c960004e65
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.date: 10/01/2020
+ms.openlocfilehash: 85823e93b1d239bf4e59ec6a8872cdc4a2cef9c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529389"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911581"
 ---
 # <a name="integrating-with-common-data-service"></a>Tengir við Common Data Service
 
@@ -31,7 +31,7 @@ Eftirfarandi skref veita yfirlit yfir skrefin til að samþætta [!INCLUDE[d365f
 3. Samstilltu gögn milli forrita. Frekari upplýsingar er að finna í [Samstilling Business Central og Common Data Service](admin-synchronizing-business-central-and-sales.md). 
 
 ## <a name="getting-started-with-d365fin"></a>Hafist handa með [!INCLUDE[d365fin](includes/cds_long_md.md)]
-Til að hefjast handa með [!INCLUDE[d365fin](includes/cds_long_md.md)] þarf Microsoft Power Apps reikning. Ef þú ert ekki þegar með Power Apps-reikning er hægt að fá einn ókeypis með því að fara á [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og velja tengilinn **Hefjumst handa ókeypis**. Frekari upplýsingar um hvernig hafist er handa með [!INCLUDE[d365fin](includes/cds_long_md.md)] er að finna í einingunni [Hafist handa með Common Data Service](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) úr Microsoft Learn.
+Til að hefjast handa með [!INCLUDE[d365fin](includes/cds_long_md.md)] þarf Microsoft Power Apps reikning. Ef þú ert ekki þegar með Power Apps-reikning er hægt að fá einn ókeypis með því að fara á [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og velja tengilinn **Hefjumst handa ókeypis** . Frekari upplýsingar um hvernig hafist er handa með [!INCLUDE[d365fin](includes/cds_long_md.md)] er að finna í einingunni [Hafist handa með Common Data Service](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) úr Microsoft Learn.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Gagnasamstilling í báðar áttir eða aðra áttina
 Háð viðskiptaþörfum, er hægt að setja upp samþættinguna til að samstilla gögn annaðhvort til eða frá einu Dynamics 365 viðskiptaforriti til annars, eða í báðar áttir í næstum rauntíma í gegnum [!INCLUDE[d365fin](includes/cds_long_md.md)]. Ef þú til dæmis samþættar [!INCLUDE[d365fin](includes/d365fin_md.md)] við [!INCLUDE[crm_md](includes/crm_md.md)] í gegnum [!INCLUDE[d365fin](includes/cds_long_md.md)] getur sölumaður búið til sölupöntun í [!INCLUDE[crm_md](includes/crm_md.md)] og pöntunin verður samstillt við [!INCLUDE[d365fin](includes/d365fin_md.md)]. Á móti, úr [!INCLUDE[crm_md](includes/crm_md.md)], getur sölumaður skoðað upplýsingar úr [!INCLUDE[d365fin](includes/d365fin_md.md)] um framboð vörunnar í pöntuninni. 

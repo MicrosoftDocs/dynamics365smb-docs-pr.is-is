@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 00b7958c9402ff47e1daf8ddd9b55b7623f7fe6a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9e750f5c68361d0582ce59784bab41337d331152
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183501"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913639"
 ---
 # <a name="set-up-a-vat-statement"></a>Uppsetning VSK-yfirlits
 
@@ -26,23 +26,23 @@ Skattayfirvöld geta breytt, og gera breytingar á, kröfum sínum hvað varðar
 VSK-yfirlit bjóða upp á að reikna út VSK-uppgjörsupphæð á ákveðnu tímabili, til dæmis fyrir ársfjórðung.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **VSK-yfirlit** og veldu síðan tengda tengilinn.  
-2. Veljið reitinn **Heiti** og veljið síðan **Nýtt** á síðunni **Heiti VSK-yfirlita**.
+2. Veljið reitinn **Heiti** og veljið síðan **Nýtt** á síðunni **Heiti VSK-yfirlita** .
 3. Fylltu út nauðsynlega reiti. Yfirleitt þyrfti að vera stilling fyrir hverja samsetningu VSK viðsk.bókunarflokkur / VSK-vörubókunarflokkur. Fyrir línunúmer er skynsamlegt að nota jafngildar tölur eða kóða eins og í opinberu VSK-yfirliti [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
 > [!Tip]
-> Hægt er að sía upplýsingarnar sem koma fram á yfirlitinu, fer eftir því hvað valið er í reitnum **Gerð**. **Samtala fjárhags** er gagnleg þegar þú vilt VSK af tilteknum lykli.
-**Samtala VSK-færslna** fær VSK frá lyklunum sem er úthlutað á valið í reitunum **Alm. bókunartegund**, **VSK viðsk.bókunarflokkur** og/eða **VSK-vörubókunarflokkur**. **Samtala línu** leyfir þér að slá inn gildi eða skilyrði flýtiafmörkunar í reitnum **Samtala línu**. Frekari upplýsingar er að finna í [Leita í, afmarka og raða gögnum](ui-enter-criteria-filters.md). **Lýsing** er oft notuð til að bæta við athugasemd við yfirlitið. Til dæmis er hægt að nota hana sem fyrirsögn þegar þú hefur notað samtölu línu.
+> Hægt er að sía upplýsingarnar sem koma fram á yfirlitinu, fer eftir því hvað valið er í reitnum **Gerð** . **Samtala fjárhags** er gagnleg þegar þú vilt VSK af tilteknum lykli.
+**Samtala VSK-færslna** fær VSK frá lyklunum sem er úthlutað á valið í reitunum **Alm. bókunartegund** , **VSK viðsk.bókunarflokkur** og/eða **VSK-vörubókunarflokkur** . **Samtala línu** leyfir þér að slá inn gildi eða skilyrði flýtiafmörkunar í reitnum **Samtala línu** . Frekari upplýsingar er að finna í [Leita í, afmarka og raða gögnum](ui-enter-criteria-filters.md). **Lýsing** er oft notuð til að bæta við athugasemd við yfirlitið. Til dæmis er hægt að nota hana sem fyrirsögn þegar þú hefur notað samtölu línu.
 
 ## <a name="to-preview-the-vat-statement"></a>Til að forskoða virðisaukaskattsyfirlitið
 Eftir að þú hefur skilgreint VSK-yfirlit geturðu forskoðað það til að ganga úr skugga um að það mæti kröfum þínum.
 > [!Tip]
-> Best er að vera með einn hluta í VSK-yfirliti með því að nota **Gerð** **Samtala VSK-færslu** og annan hluta hér að neðan með því að nota **Gerð** **Samtala fjárhags** til að stemma af upphæðir á grundvelli **VSK-færslu** í samræmi við upphæðina á **fjárhagsreikningunum**. Einnig er hægt að nota skýrsluna **Fjárhagur - VSK-afstemming** í þessum tilgangi.
+> Best er að vera með einn hluta í VSK-yfirliti með því að nota **Gerð** **Samtala VSK-færslu** og annan hluta hér að neðan með því að nota **Gerð** **Samtala fjárhags** til að stemma af upphæðir á grundvelli **VSK-færslu** í samræmi við upphæðina á **fjárhagsreikningunum** . Einnig er hægt að nota skýrsluna **Fjárhagur - VSK-afstemming** í þessum tilgangi.
 
-1. Veljið **Forskoða**.
+1. Veljið **Forskoða** .
 2. Sett er afmörkun á dagsetningu til að takmarka yfirlitið við tiltekið tímabil. Nánari upplýsingar um hvernig á að sérsníða síðuna til að dagsetningarafmörkun birtist eru í [Leita í, afmarka og raða gögnum](ui-enter-criteria-filters.md).
 3. Hægt er að velja milli ýmissa valkosta til að skilgreina tegund VSK-færslna sem á að hafa með í yfirlitinu.
-4. Í línunum þar sem reiturinn **Tegund** innheldur **Samtala VSK-færslna** er hægt að sjá lista yfir VSK-færslur með því að smella á upphæðina í reitnum **Upphæð dálks**.
+4. Í línunum þar sem reiturinn **Tegund** innheldur **Samtala VSK-færslna** er hægt að sjá lista yfir VSK-færslur með því að smella á upphæðina í reitnum **Upphæð dálks** .
 5. Hægt er að nota sérstillingu til að sýna fleiri svæði á línunum. Til dæmis „Áætlaða grunnupphæð“ og „Áætluð VSK-upphæð“ ef áætlaður VSK er notaður.
 
 ## <a name="see-also"></a>Sjá einnig  

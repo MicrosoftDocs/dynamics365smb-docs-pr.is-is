@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 78993c655ff4912e212588269f897a39e8441924
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.openlocfilehash: 0af6881b98aae103a6d37ce16b06dfb316c4a9f0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532620"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911531"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?
 
@@ -29,8 +29,8 @@ Að framlengja prufutímanum sjálf/ur er aðeins hægt að gera í eitt skipti.
 
     Skráðu þig inn með tölvupóstsreikningnum sem þú notaðir þegar þú skráðir þig fyrir prufuútgáfunni.  
 
-    Ef þú hefur skráð þig inn með tölvupóstsreikningi úr [30 daga prufuáskrift af Office 365](/microsoft-365/commerce/sign-up-for-office-365-trial) verður þú fyrst að framlengja Office 365 prufutímann þinn eða kaupa Office 365 áskrift. Frekari upplýsingar er að finna í [Framlengja prufuáskrift fyrir Office 365 fyrir viðskipti](/microsoft-365/commerce/extend-your-trial).
-2. Í tilkynningum efst í vinnusvæðinu skal velja **Framlengja prufuáskrift**.
+    Ef þú hefur skráð þig inn með tölvupóstsreikningi úr [30 daga prufuáskrift af Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial) verður þú fyrst að framlengja Microsoft 365 prufutímann þinn eða kaupa Microsoft 365  áskrift. Frekari upplýsingar er að finna í [Framlengja prufuáskrift fyrir Microsoft 365  fyrir viðskipti](/microsoft-365/commerce/extend-your-trial).
+2. Í tilkynningum efst í vinnusvæðinu skal velja **Framlengja prufuáskrift** .
 
     Ef þú hunsaðir tilkynninguna verður þú að skrá þig út og inn aftur.
 
@@ -43,7 +43,7 @@ Ef fyrsta 30 daga prufuáskriftin rennur út geturðu framlengt hana sjálf/ur e
 
 Ef þú hefur búið til þitt eigið fyrirtæki skaltu skrá þig út og skráðu þig inn aftur með skilríkjum fyrir það fyrirtæki.  
 
-Ef fyrirtækið þitt hefur stofnað til samstarfs við endursöluaðila, geta þeir skráð sig inn á [!INCLUDE[prodshort](includes/prodshort.md)] sem skipaður stjórnandi og keyrt sömu leiðbeininguna **Framlengja prufutíma**. Frekari upplýsingar eru í [Framlenging prufuútgáfu (sem stjórnandi)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
+Ef fyrirtækið þitt hefur stofnað til samstarfs við endursöluaðila, geta þeir skráð sig inn á [!INCLUDE[prodshort](includes/prodshort.md)] sem skipaður stjórnandi og keyrt sömu leiðbeininguna **Framlengja prufutíma** . Frekari upplýsingar eru í [Framlenging prufuútgáfu (sem stjórnandi)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
 
 Eftir þessa seinni viðbót þar sem fyrirtækið er með allt að 90 daga prufuáskrift verður þú annaðhvort að gerast áskrifandi að [!INCLUDE[prodshort](includes/prodshort.md)] eða yfirgefa [!INCLUDE[prodshort](includes/prodshort.md)]. Ef þú ákveður að halda ekki áfram mælum við með því að þú flytjir út öll gögn sem þú reiðir þig á í rekstrinum.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 113370eaad1696fd21944d4896f7e2d9fdf41531
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 823403fc34ad57cb170fc39bd9533b53c4008950
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780611"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910881"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk
 Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum. Til dæmis eru greiðsluvikmörk yfirleitt fyrir litlar upphæðir sem myndi kosta meira að leiðrétta en að samþykkja. Hægt er að nota vikmörk greiðsluafsláttar til að veita greiðsluafslátt eftir að afsláttarmörk eru liðin.  
@@ -44,7 +44,7 @@ Nánari upplýsingar er að finna í [Að gera viðvaranir greiðsluvikmarka vir
 ## <a name="to-set-up-tolerances"></a>Vikmörk sett upp  
 Með vikmörkum á dögum og upphæðum er hægt að loka reikningi þó að greiðsla nái ekki alveg upphæðinni á reikningnum, hvort sem um er að ræða að gjalddagi sé liðinn, vörum hafi verið skilað eða smávillu. Þetta á einnig við um endurgreiðslur og kreditreikninga.  
 
-Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilgreina bókunaraðferðir fyrir vikmörk greiðsluafsláttar og greiðsluvikmörk og keyra síðan keyrsluna **Breyta greiðsluvikmörkum**.  
+Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilgreina bókunaraðferðir fyrir vikmörk greiðsluafsláttar og greiðsluvikmörk og keyra síðan keyrsluna **Breyta greiðsluvikmörkum** .  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Almennur bókunargrunnur** og veldu síðan tengda tengilinn.  
 2. Á síðunni **almennur bókunargrunnur** eru settir upp debet- og kreditreikningar greiðsluvikmarka sölu og debet- og kreditreikningar greiðsluvikmarka innkaupa.  
 3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarflokkar viðskiptamanns** og veldu síðan tengda tengilinn.    
@@ -52,13 +52,13 @@ Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilg
 5. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarflokkur lánardrottins** og veldu síðan tengda tengilinn.  
 6. Á síðunni **Bókunarflokk lánardrottna** eru debet og kredit greiðsluvikmarkareikningar settir upp.  
 7. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.  
-8. Opna síðuna **Uppsetning fjárhags**.  
-9. Á flýtiflipanum **Jöfnun** fyllið út **Greiðsluafslátt greiðsluvikmarka**, **Greiðsluafslátt biðtíma** og svæðið **Bókun greiðsluvikmarka**.   
-10. Veljið aðgerðina **Breyta greiðsluvikmörkum**.
-11. Á síðunni **Breyta greiðsluvikmörkum** þarf að fylla út reitina **Vikmarkaprósenta greiðslu** og **Hám.upph. greiðsluvikmarka** og smella síðan á **Í lagi**.
+8. Opna síðuna **Uppsetning fjárhags** .  
+9. Á flýtiflipanum **Jöfnun** fyllið út **Greiðsluafslátt greiðsluvikmarka** , **Greiðsluafslátt biðtíma** og svæðið **Bókun greiðsluvikmarka** .   
+10. Veljið aðgerðina **Breyta greiðsluvikmörkum** .
+11. Á síðunni **Breyta greiðsluvikmörkum** þarf að fylla út reitina **Vikmarkaprósenta greiðslu** og **Hám.upph. greiðsluvikmarka** og smella síðan á **Í lagi** .
 
 > [!IMPORTANT]  
->  Nú hafa verið sett upp vikmörk fyrir heimagjaldmiðilinn eingöngu. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] á að vinna með frávik á greiðslum, kreditreikningum og endurgreiðslum í erlendum gjaldeyri þarf að keyra keyrsluna **Breyta greiðsluvikmörkum** með gildi í reitnum **Gjaldmiðilskóði**.  
+>  Nú hafa verið sett upp vikmörk fyrir heimagjaldmiðilinn eingöngu. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] á að vinna með frávik á greiðslum, kreditreikningum og endurgreiðslum í erlendum gjaldeyri þarf að keyra keyrsluna **Breyta greiðsluvikmörkum** með gildi í reitnum **Gjaldmiðilskóði** .  
 
 > [!NOTE]  
 >  Ef fá á viðvörunarboð um greiðsluvikmörk í hvert skipti sem jöfnun er bókuð í vikmörkunum þarf að virkja viðvörun um greiðsluvikmörk. Nánari upplýsingar er að finna í hlutanum [Að gera viðvaranir greiðsluvikmarka virkar eða óvirkar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
@@ -73,13 +73,13 @@ Viðvörun um vikmörk greiðslu birtist þegar jöfnun er bókuð með stöðu 
 2. Á síðunni **Fjárhagsgrunnur** á flipanum **Jöfnun** skaltu kveikja á **Viðvörun um greiðsluvikmörk** til að virkja viðvörunina. Til að gera viðvörunina óvirka skaltu slökkva á þessu.  
 
 > [!NOTE]  
->  Sjálfgefinn valkostur fyrir **Viðvörun um greiðsluvikmörk** síðuna er **Láta stöðu standa sem eftirstöðvar**. Sjálfgefinn valkostur fyrir **Viðvörun um vikmörk greiðsluafsláttar** síðuna er **Hafna síðbúnum greiðsluafslætti**.
+>  Sjálfgefinn valkostur fyrir **Viðvörun um greiðsluvikmörk** síðuna er **Láta stöðu standa sem eftirstöðvar** . Sjálfgefinn valkostur fyrir **Viðvörun um vikmörk greiðsluafsláttar** síðuna er **Hafna síðbúnum greiðsluafslætti** .
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Lokað á greiðsluvikmörk viðskiptavina  
 Sjálfgildið fyrir greiðsluvikmörk er heimilað. Ef greiðsluvikmörk eiga ekki að vera heimil fyrir tiltekin viðskiptamann eða lánardrottinn skal loka á vikmörk á viðkomandi viðskiptamanns- eða lánardrottinsspjaldi. Eftirfarandi sýnir hvernig farið er að þessu fyrir viðskiptamann. Skrefin eru svipuð fyrir lánardrottinn.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamaður** eða **Lánardrottinn** og veldu síðan tengda tengilinn.  
-2. Á flýtiflipanum **Greiðslur** skal velja gátreitinn **Loka fyrir vikmörk greiðslu**.  
+2. Á flýtiflipanum **Greiðslur** skal velja gátreitinn **Loka fyrir vikmörk greiðslu** .  
 
 > [!NOTE]  
 >  Ef viðskiptamaður eða lánardrottinn hafa opnar færslur verður að loka á greiðsluvikmörk í opnum færslum.

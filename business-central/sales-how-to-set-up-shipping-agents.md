@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ea5d9fce1c10cf3c07c833efbe19b208f0c5a7c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0144c5283d6c5b860cb14522c08acec2f769df8d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788876"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910556"
 ---
 # <a name="set-up-shipping-agents"></a>Uppsetning flutningsaðila
 Hægt er að setja upp kóta fyrir einstaka flutningsaðila og færa inn upplýsingar um þá.  
@@ -30,8 +30,8 @@ Hægt er að setja upp ótakmarkaðan fjölda af þjónustuatriðum fyrir hvern 
 ## <a name="to-set-up-a-shipping-agent"></a>Uppsetning flutningsaðila  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Flutningsaðilar** og veldu síðan tengda tengilinn.  
 2.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
-3.  Velja aðgerðina **Flutningsþjónusta**.
-4. Í **Flutningsþjónusta**, fyllið inn í reitina eftir þörfum.
+3.  Velja aðgerðina **Flutningsþjónusta** .
+4. Í **Flutningsþjónusta** , fyllið inn í reitina eftir þörfum.
 
 > [!NOTE]  
 >  Ef flutningsaðila er eytt úr pantanalínunni eyðir kerfið einnig flutningsþjónustukótanum úr línunni. Efni reita sem byggja að hluta á flutningsþjónustunni er endurreiknað.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ed022ead8151d7a17269fd0282fa54cc9acd34dc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 638b1f560dc28374e0e8d5afbc94f6ef8d416c83
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777517"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913147"
 ---
 # <a name="service-order-status-and-repair-status"></a>Þjónustupöntunarstaða og viðgerðarstaða
 Reitirnir **Staða** á síðunni **Þjónustupöntun** og þjónustuvöruviðgerðarstaðan sem vísað er til í reitnum **Viðgerðarstöðukóti** á síðunni **Þjónustupöntun** hafa ákveðið samband í Þjónustukerfi. Þjónustupöntunarstaðan sýnir viðgerðarstöðu allra þjónustuvara í þjónustupöntuninni.  
@@ -28,19 +28,19 @@ Reitirnir **Staða** á síðunni **Þjónustupöntun** og þjónustuvöruviðge
 * Staða þjónustupöntunar sem allar viðgerðarstöður tengjast. Frekari upplýsingar eru í Þjónustupöntunarstaða.  
 * Forgangsröð fyrir hvern valkost þjónustupöntunarstöðu. Frekari upplýsingar eru í Forgangur.  
 
- Þegar þjónustutilboði er breytt í þjónustupöntun breytir kerfið viðgerðarstöðu hverrar þjónustuvöru í pöntuninni í **Byrjun** og stöðu þjónustupöntunar í **Í undirbúningi**.  
+ Þegar þjónustutilboði er breytt í þjónustupöntun breytir kerfið viðgerðarstöðu hverrar þjónustuvöru í pöntuninni í **Byrjun** og stöðu þjónustupöntunar í **Í undirbúningi** .  
 
 ## <a name="specifying-service-order-status-for-repair-status"></a>Þjónustupöntunarstaða tilgreind fyrir viðgerðarstöðu  
-Hver viðgerðarstaða er tengt tiltekinni þjónustupöntunarstöðu. Valkostirnir fyrir þjónustupöntunarstöðuna eru **Í undirbúningi**, **Í vinnslu**, **Bið** og **Lokið**. Viðgerðarstöðuvalkostir eru eftirfarandi: **Byrjun**, **Í vinnslu**, **Verki vísað**, **Hluta þjónustu lokið**, **Tilboði lokið**, **Beðið eftir viðskiptavini**, **Varahlutur pantaður**, **Varahlutur móttekinn** og **Lokið**.  
+Hver viðgerðarstaða er tengt tiltekinni þjónustupöntunarstöðu. Valkostirnir fyrir þjónustupöntunarstöðuna eru **Í undirbúningi** , **Í vinnslu** , **Bið** og **Lokið** . Viðgerðarstöðuvalkostir eru eftirfarandi: **Byrjun** , **Í vinnslu** , **Verki vísað** , **Hluta þjónustu lokið** , **Tilboði lokið** , **Beðið eftir viðskiptavini** , **Varahlutur pantaður** , **Varahlutur móttekinn** og **Lokið** .  
 
 ### <a name="pending"></a>Í undirbúningi  
-Þjónustupöntunarstaðan **Í undirbúningi** gefur til kynna að þjónustan geti hafist eða haldið áfram hvenær sem er. Því er hægt að tengja viðgerðarstöðuvalkostina **Byrjun**, **Verki vísað**, **Hluta þjónustu lokið** og **Varahlutur móttekinn** við þjónustupöntunarstöðuna.  
+Þjónustupöntunarstaðan **Í undirbúningi** gefur til kynna að þjónustan geti hafist eða haldið áfram hvenær sem er. Því er hægt að tengja viðgerðarstöðuvalkostina **Byrjun** , **Verki vísað** , **Hluta þjónustu lokið** og **Varahlutur móttekinn** við þjónustupöntunarstöðuna.  
 
 ### <a name="in-process"></a>Í vinnslu  
 Þjónustupöntunarstaðan **Í vinnslu** gefur til kynna að þjónustan sé í vinnslu. Því er hægt að tengja viðgerðarstöðuvalkostina **Í vinnslu** og **Varahlutur pantaður** við þjónustupöntunarstöðuna. Ef staðan **Varahlutur pantaður** er tengd við þjónustupöntunarstöðuna **Í vinnslu** verður einnig að tengja stöðuna **Varahlutur móttekinn** við þessa þjónustupöntunarstöðu.  
 
 ### <a name="on-hold"></a>Bið  
-Þjónustupöntunarstaðan **Bið** gefur til kynna að þjónustan sé um stundarsakir í bið þar sem beðið sé eftir viðbrögðum frá viðskiptavini eða varahlutum áður en þjónustan getur hafist. Því er hægt að tengja viðgerðarstöðuvalkostina **Tilboði lokið**, **Varahlutur pantaður** og **Beðið eftir viðskiptavini** við þjónustupöntunarstöðuna.  
+Þjónustupöntunarstaðan **Bið** gefur til kynna að þjónustan sé um stundarsakir í bið þar sem beðið sé eftir viðbrögðum frá viðskiptavini eða varahlutum áður en þjónustan getur hafist. Því er hægt að tengja viðgerðarstöðuvalkostina **Tilboði lokið** , **Varahlutur pantaður** og **Beðið eftir viðskiptavini** við þjónustupöntunarstöðuna.  
 
 ### <a name="finished"></a>Lokið  
 Þjónustupöntunarstaðan **Lokið** gefur til kynna að þjónustunni sé lokið. Því er viðgerðarstaðan **Lokið** tengd við þessa stöðu.  
@@ -58,7 +58,7 @@ Dæmigerð úthlutun forgangsraðar gæti verið sem hér segir:
 * Bið - Í meðallagi lítill  
 * Lokið - Lítill  
 
-Ef ein þjónustuvara er til dæmis með viðgerðarstöðuna **Byrjun** tengda við þjónustupöntunarstöðuna **Í undirbúningi**, önnur er með viðgerðarstöðuna **Í vinnslu**, tengda við þjónustupöntunarstöðuna **Í vinnslu** og sú þriðja er með viðgerðarstöðuna **Varahlutur pantaður**, tengda við þjónustupöntunarstöðuna **Bið**, verður útkoman staðan **Í vinnslu** þar sem hún er með mestan forgang.  
+Ef ein þjónustuvara er til dæmis með viðgerðarstöðuna **Byrjun** tengda við þjónustupöntunarstöðuna **Í undirbúningi** , önnur er með viðgerðarstöðuna **Í vinnslu** , tengda við þjónustupöntunarstöðuna **Í vinnslu** og sú þriðja er með viðgerðarstöðuna **Varahlutur pantaður** , tengda við þjónustupöntunarstöðuna **Bið** , verður útkoman staðan **Í vinnslu** þar sem hún er með mestan forgang.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp stöður fyrir þjónustupantanir og viðgerðir](service-order-repair-status.md)  

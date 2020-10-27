@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7e08a4487c9ae6782555530adc0c0cf4cfc5458e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c67ea33937ded164626e4c403522a7dc1f3dca0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786897"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912572"
 ---
 # <a name="sorting-searching-and-filtering"></a>Röðun, leit og síun
 
@@ -32,9 +32,9 @@ When you want to search for data, such as customer names, addresses, or product 
 
 ## <a name="sorting"></a>Röðun
 
-Með Röðun er auðvelt og fljótlegt að fá yfirsýn yfir gögnin. Ef þú ert með marga viðskiptamenn til dæmis, er hægt að velja að raða þeim eftir **númeri Viðskiptamanns**, **Bókunarflokkum viðskiptavinar**, **Gjaldmiðilskóði**, **LandsSvæðiskóða**, eða **skráningarnúmer Söluskatts** til að fá það yfirlit sem þú þarft.
+Með Röðun er auðvelt og fljótlegt að fá yfirsýn yfir gögnin. Ef þú ert með marga viðskiptamenn til dæmis, er hægt að velja að raða þeim eftir **númeri Viðskiptamanns** , **Bókunarflokkum viðskiptavinar** , **Gjaldmiðilskóði** , **LandsSvæðiskóða** , eða **skráningarnúmer Söluskatts** til að fá það yfirlit sem þú þarft.
 
-Til að raða á lista, geturðu annað hvort valið fyrirsagnatexta dálka til að skipta á milli hækkandi og lækkandi röðunar, eða valið felliörina í dálkafyrirsögninni, og síðan valið **Hækkandi** eða **Lækkandi**.  
+Til að raða á lista, geturðu annað hvort valið fyrirsagnatexta dálka til að skipta á milli hækkandi og lækkandi röðunar, eða valið felliörina í dálkafyrirsögninni, og síðan valið **Hækkandi** eða **Lækkandi** .  
 
 > [!NOTE]  
 > Myndir, BLOB-reitir, FlowFilters og reitir sem tilheyra ekki töflu styðja ekki röðun.  
@@ -64,11 +64,11 @@ Eftirfarandi tafla sýnir nokkur dæmi til að útskýra hvernig hægt er að no
 
 |Leitarskilyrði|Finnur ...|
 |---------------|----------|
-|`man`<br />eða <br />`Man`|Allar skrár með reitum sem innihalda textann **man**, óháð því hvort notaðir eru há- eða lágstafir. Til dæmis, **Manchester**, **manual**, eða **Sportsman**. |
-|`'Man'`|Allar skrár með reitum sem innihalda aðeins **Man**, í samræmi við há- og lágstafi.|
+|`man`<br />eða <br />`Man`|Allar skrár með reitum sem innihalda textann **man** , óháð því hvort notaðir eru há- eða lágstafir. Til dæmis, **Manchester** , **manual** , eða **Sportsman** . |
+|`'Man'`|Allar skrár með reitum sem innihalda aðeins **Man** , í samræmi við há- og lágstafi.|
 |`Man*`|Allar skrár með reitum sem byrja á textanum <b>Man</b>, í samræmi við há- og lágstafi. Til dæmis, **Manchester** en ekki **manual** eða **Sportsman** .|
-|`@Man*`|Allar skrár með reitum sem byrja með **man**, óháð því hvort notaðir eru há- eða lágstafir. Til dæmis, **Manchester** og **manual**, en ekki **Sportsman**.|
-|`@*man`|Allar skrár sem endar með **man**, óháð því hvort notaðir eru há- eða lágstafir. Til dæmis **Sportsman**, en ekki **Manchester** eða **manual**.|
+|`@Man*`|Allar skrár með reitum sem byrja með **man** , óháð því hvort notaðir eru há- eða lágstafir. Til dæmis, **Manchester** og **manual** , en ekki **Sportsman** .|
+|`@*man`|Allar skrár sem endar með **man** , óháð því hvort notaðir eru há- eða lágstafir. Til dæmis **Sportsman** , en ekki **Manchester** eða **manual** .|
 
 > [!TIP]
 > Þú getur ýtt á **F3** til að virkja og slökkva á leitarreitnum. Frekari upplýsingar er að finna í [Flýtilyklar](keyboard-shortcuts.md#KeyboardFilter).
@@ -93,20 +93,20 @@ Fyrir lista eru síurnar sýndar á afmörkunarsvæði sem birtist til vinstri �
 
 Fyrir „venjulega“ reiti sem innihalda gögn, uppsetningardagsetningu eða viðskiptagögn er hægt að stilla síur bæði með því að velja gögn og með því að slá inn síugildi og hægt er að nota tákn til að skilgreina ítarleg síuskilyrði. Nánari upplýsingar eru í [Færa inn síuskilyrði](ui-enter-criteria-filters.md#entering-filter-criteria).
 
-Fyrir reiti af gerðinni **Valkostir** er hins vegar aðeins hægt að stilla síu með því að velja einn eða fleiri valkosti úr fellilista með tiltækum valkostum. Dæmi um valkostsreit er reiturinn **Staða** á síðunni **Sölupantanir**.
+Fyrir reiti af gerðinni **Valkostir** er hins vegar aðeins hægt að stilla síu með því að velja einn eða fleiri valkosti úr fellilista með tiltækum valkostum. Dæmi um valkostsreit er reiturinn **Staða** á síðunni **Sölupantanir** .
 
 > [!NOTE]
-> Þegar margir valkostir eru valdir sem síugildi er venslin á milli valkostanna skilgreind sem *EÐA*. Til dæmis, ef þú velur báða gátreitina **Opið** og **Losað** á afmörkunarsvæðinu **Staða** á síðunni **Sölupantanir**, þýðir það að sölupantanir sem eru annaðhvort opnar eða losaðar eru birtar.
+> Þegar margir valkostir eru valdir sem síugildi er venslin á milli valkostanna skilgreind sem *EÐA* . Til dæmis, ef þú velur báða gátreitina **Opið** og **Losað** á afmörkunarsvæðinu **Staða** á síðunni **Sölupantanir** , þýðir það að sölupantanir sem eru annaðhvort opnar eða losaðar eru birtar.
 
 ### <a name="setting-filters-on-lists"></a>Afmarkanir stilltar á lista
 
-Á listum eru síur stilltar með því að nota afmörkunarsvæði. Til að birta afmörkunarsvæðið fyrir lista skal velja felliörina við hliðina á heiti síðunnar og velja síðan **Sýna afmörkunarsvæði**. Að öðrum kosti er stutt á **Shift+F3**.
+Á listum eru síur stilltar með því að nota afmörkunarsvæði. Til að birta afmörkunarsvæðið fyrir lista skal velja felliörina við hliðina á heiti síðunnar og velja síðan **Sýna afmörkunarsvæði** . Að öðrum kosti er stutt á **Shift+F3** .
 
-Til að birta afmörkunarsvæðið fyrir dálk á lista skal velja felliörina og velja síðan aðgerðina **Afmörkun**. Að öðrum kosti er stutt á **Shift+F3**. Afmörkunarsvæðið opnast með völdum dálki sem sýndur er sem afmörkunarsvæðið í hlutanum **Afmarka lista**.
+Til að birta afmörkunarsvæðið fyrir dálk á lista skal velja felliörina og velja síðan aðgerðina **Afmörkun** . Að öðrum kosti er stutt á **Shift+F3** . Afmörkunarsvæðið opnast með völdum dálki sem sýndur er sem afmörkunarsvæðið í hlutanum **Afmarka lista** .
 
-Síusvæðið sýnir núverandi síur fyrir lista og gerir þér kleift að stilla eigin sérsniðna síur í einu eða fleiri reitum með því að velja aðgerðina **+ Sía**.
+Síusvæðið sýnir núverandi síur fyrir lista og gerir þér kleift að stilla eigin sérsniðna síur í einu eða fleiri reitum með því að velja aðgerðina **+ Sía** .
 
- Síusvæði er skipt í þrjá hluta: **Skoðanir**, **Sía listi eftir** og **Sía samtölur eftir**:
+ Síusvæði er skipt í þrjá hluta: **Skoðanir** , **Sía listi eftir** og **Sía samtölur eftir** :
 
 - **Yfirlit**
 
@@ -123,13 +123,13 @@ Síusvæðið sýnir núverandi síur fyrir lista og gerir þér kleift að stil
   > [!NOTE]
   > Síur í **Sía samtölur eftir** hlutanum eru stjórnað af FlowFilters í síðuhönnuninni. Fyrir tæknilegar upplýsingar, sjá [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
-Hægt er að stilla einfalda síu beint á lista innan með síusvæðinu, þ.e. síu sem sýnir aðeins færslur með sama gildi og í völdum reitum. Velja skal hólf á listanum, velja felliörina og velja síðan aðgerðina **Afmarka í þetta gildi**. Að öðrum kosti er stutt á **ALT + F3**.
+Hægt er að stilla einfalda síu beint á lista innan með síusvæðinu, þ.e. síu sem sýnir aðeins færslur með sama gildi og í völdum reitum. Velja skal hólf á listanum, velja felliörina og velja síðan aðgerðina **Afmarka í þetta gildi** . Að öðrum kosti er stutt á **ALT + F3** .
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Afmarkanir stilltar í skýrslum, runuvinnslum og XMLports
 
-Fyrir skýrslur og XMLports eru síurnar sýnilegar beint á beiðnisíðunni. Beiðnisíðan sýnir síðustu notuðu síur samkvæmt valinu í reitnum **Nota sjálfgildi úr**. Frekari upplýsingar eru í [Nota vistaðar stillingar](ui-work-report.md#SavedSettings).
+Fyrir skýrslur og XMLports eru síurnar sýnilegar beint á beiðnisíðunni. Beiðnisíðan sýnir síðustu notuðu síur samkvæmt valinu í reitnum **Nota sjálfgildi úr** . Frekari upplýsingar eru í [Nota vistaðar stillingar](ui-work-report.md#SavedSettings).
 
-Helsti **Sía**-hlutinn sýnir sjálfgefna síureiti sem notaðir eru til að afmarka hvaða færslur á að taka með í skýrslu eða XMLport. Til að bæta við síu skal velja aðgerðina **+ Sía** , færa inn heiti reitsins sem á að sía eftir eða velja reit af fellilistanum.
+Helsti **Sía** -hlutinn sýnir sjálfgefna síureiti sem notaðir eru til að afmarka hvaða færslur á að taka með í skýrslu eða XMLport. Til að bæta við síu skal velja aðgerðina **+ Sía** , færa inn heiti reitsins sem á að sía eftir eða velja reit af fellilistanum.
 
 Í hlutanum **Afmarka samtölur eftir** er hægt að breyta ýmsum víddunum sem hafa áhrif á útreikninga í skýrslu eða XMLport. Til að bæta við síu skal velja aðgerðina **+ Sía** , færa inn heiti reitsins sem á að sía eftir eða velja reit af fellilistanum.
 
@@ -149,7 +149,7 @@ Dálkar sem þegar eru með síur eru auðkenndar með tákninu ![Síutákn](med
 Þegar skilyrði eru sett er hægt að nota alla sömu tölustafi og bókstafi sem venjulega eru notaðir í reitnum. Ennfremur er hægt að nota sértákn (eða virknitákn) til að afmarka niðurstöðurnar enn frekar. Í eftirfarandi töflum eru táknin sem hægt er að nota í síum. Fyrir dagsetningar og tíma er einnig hægt að vísa til [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md) til að fá nánari upplýsingar.
 
 > [!IMPORTANT]  
-> Það geta verið tilvik þar sem gildi reita innihalda þessi tákn og þú vilt setja afmörkun á þau. Til að gera það, verðurðu að hafa með afmörkunarsegðina sem inniheldur táknið með gæsalöppum („“). Til dæmis, ef þú vilt sía á færslum sem byrja á textanum *S&R*, er síusegðin `'S&R*'`.
+> Það geta verið tilvik þar sem gildi reita innihalda þessi tákn og þú vilt setja afmörkun á þau. Til að gera það, verðurðu að hafa með afmörkunarsegðina sem inniheldur táknið með gæsalöppum („“). Til dæmis, ef þú vilt sía á færslum sem byrja á textanum *S&R* , er síusegðin `'S&R*'`.
 
 Eftirfarandi hlutar útskýra hvernig á að nota mismunandi virknitákn.
 

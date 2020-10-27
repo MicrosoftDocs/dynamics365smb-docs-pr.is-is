@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc25efa746e7dd3282159b13ecea66ec66ac5e82
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1e4de0f59788bb49ebaead7a4ee2516ff32147eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785397"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912447"
 ---
 # <a name="change-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er hannað til að hjálpa stjórnendum að reka fyrirtæki, óháð stærð og margbreytileika þeirra. Varan inniheldur ómissandi eiginleika á borð við fjárhagsskýrslugerð, sölu, kaup og birgðastjórnun. Þegar umsvif fyrirtækis aukast er hægt að kveikja á annarri virkni, t.d. fyrir framleiðslu og þjónustustjórnun.
@@ -40,21 +40,21 @@ Upplifanir sem hægt er að velja í [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Stillingin **Upplifun** gildir um alla notendur í fyrirtæki en hver notandi getur sérstillt eigin upplifun enn frekar með því að breyta útliti og efni á síðu. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Virkjar eiginleika úrvalsáskriftar eftir uppfærslu á áætlun
-Áætlunum er úthlutað til notenda í Microsoft 365 stjórnendamiðstöðinni í tengslum við almennu vinnuna til að búa til notendur Business Central. Frekari upplýsingar er að finna í [Bæta stökum notendum eða mörgum í einu við Office 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Áætlunum er úthlutað til notenda í Microsoft 365 stjórnendamiðstöðinni í tengslum við almennu vinnuna til að búa til notendur Business Central. Frekari upplýsingar er að finna í [Bæta stökum notendum eða mörgum í einu við Microsoft 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Til að uppfæra breytingar á áætlunum í flokkum notenda
 Þegar þú hefur gert breytingu á áætlunum notenda í Microsoft 365 stjórnendamiðstöðinni, á borð við að úthluta fleiri notendum á úrvalsáskriftina, verður þú að endurspegla breytinguna í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Skráðu þig inn sem stjórnanda.
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.
-3. Á síðunni **Notendur** skaltu velja aðgerðina **Endurhlaða alla notendaflokka**.
+3. Á síðunni **Notendur** skaltu velja aðgerðina **Endurhlaða alla notendaflokka** .
 
 Allar nýjar upplýsingar um áætlanir notenda og úthlutuðum notendaflokkum þeirra hafa nú verið uppfærðar samkvæmt breytingum áætlunarinnar.
 
 ### <a name="to-select-the-premium-experience"></a>Til að velja úrvalsupplifunina
 Nú er hægt að halda áfram til að velja nýju upplifunina.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofngögn** og veldu síðan tengda tengilinn.
-2. Á síðunni **Fyrirtækjaupplýsingar** í flýtiflipanum **Notandaupplifun** skal velja úrvalsáskrift í reitnum **Upplifun**.
+2. Á síðunni **Fyrirtækjaupplýsingar** í flýtiflipanum **Notandaupplifun** skal velja úrvalsáskrift í reitnum **Upplifun** .
 
 ## <a name="help-assumes-premium-experience"></a>Hjálp gerir ráð fyrir úrvalsupplifun
 Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] gera ráð fyrir **Úrvalsútgáfu** sem þýðir að áskriftirnar ná yfir heildarumfang viðmótseininga.

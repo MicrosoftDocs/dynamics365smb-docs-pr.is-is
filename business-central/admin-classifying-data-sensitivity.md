@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 04/01/2020
-ms.openlocfilehash: e1b199c16bb39feb4ecbef9b36ccd49a5c32e3c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 10/01/2020
+ms.openlocfilehash: 8d26a8a2f6ec5ffe17f38d5dc429e50efe08ea7e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187413"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911631"
 ---
 # <a name="classifying-data-sensitivity"></a>Flokkun á gagnatrúnaði
 Til að flokka reiti sem innihalda viðkvæm eða persónuleg gögn getur Microsoft samstarfsaðili stillt eiginleikann ```DataClassification``` á reitum. Þetta krefst aðgangs að gagnagrunnstöflum, annaðhvort í gegnum þróunarumhverfið eða með því að keyra Windows PowerShell forskrift. Nánari upplýsingar eru í [Flokkun gagna](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
@@ -36,7 +36,7 @@ Eftirfarandi tafla lýsir stigum gagnatrúnaðar sem þú getur úthlutað.
 Að flokka viðkvæmni á miklu magni reita, einn reit í einu, tekur langan tíma. Til að hjálpa til við að flýta því ferli bjóðum við upp á verkfæri sem hægt er að nota til að magnflokka viðkvæmni reita og síðan fínstilla flokkanir fyrir tiltekna reiti. Hægt er að finna verkfæri á vinnublaði gagnaflokkunar sem er í boði í Mitt hlutverk fyrir stjórnun notenda, notendaflokka og heimildir. Þú verður að vera kerfisstjóri til að nota vinnublaðið.
 
 > [!Important]
-> Þegar þú opnar vinnublað gagnaflokkunar í fyrsta skipti verður það tómt. Þú verður að keyra leiðbeiningar gagnaflokkunar til að búa til lista yfir reiti. Til að byrja leiðbeiningarnar skal velja aðgerðina **Setja upp gagnaflokkanir**.
+> Þegar þú opnar vinnublað gagnaflokkunar í fyrsta skipti verður það tómt. Þú verður að keyra leiðbeiningar gagnaflokkunar til að búa til lista yfir reiti. Til að byrja leiðbeiningarnar skal velja aðgerðina **Setja upp gagnaflokkanir** .
 
 Til dæmis gerir vinnublað gagnaflokkunar þér kleift að gera hluti eins og:  
 

@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 02/03/2020
-ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.date: 10/01/2020
+ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693025"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911668"
 ---
 # <a name="handling-missing-option-values"></a>Meðhöndlun gilda sem vantar fyrir valkosti
 [!INCLUDE[d365fin](includes/cds_long_md.md)] inniheldur aðeins þrjá valkostarreiti sem innihalda valgildi sem hægt er að varpa í [!INCLUDE[d365fin](includes/d365fin_md.md)] reiti af gerð valkostar<!-- Option type, not enum? @Onat can you vertify this? --> fyrir sjálfvirka samstillingu. Við samstillingu eru óvarpaðir valkostir hunsaðir og valkostina sem vantar er komið fyrir í tengdri [!INCLUDE[d365fin](includes/d365fin_md.md)] töflu og bætt við kerfistöfluna **Vörpun CDS-valkosta** til að meðhöndla handvirkt seinna. Til dæmis með því að bæta við valkostunum sem vantar í aðrahvora vöruna og síðan uppfæra vörpunina. Í þessum hluta er því lýst hvernig það virkar.
@@ -36,7 +36,7 @@ Síðan **Vörpun samþættingartöflu** inniheldur þrjár varpanir fyrir reiti
 | Flutningsaðili: FULLLOAD   | 6            | Fullt álag            |
 | Flutningsaðili: WILLCALL   | 7            | Mun hringja            |
 
-Efni síðunnar **Vörpun CDS-valkosta** byggist á fasttextagildum í töflunni **CDS-reikningur**. Í [!INCLUDE[d365fin](includes/cds_long_md.md)], er eftirfarandi reitum í reikningseiningunni varpað í reiti viðskiptavina- og lánardrottnafærslna:
+Efni síðunnar **Vörpun CDS-valkosta** byggist á fasttextagildum í töflunni **CDS-reikningur** . Í [!INCLUDE[d365fin](includes/cds_long_md.md)], er eftirfarandi reitum í reikningseiningunni varpað í reiti viðskiptavina- og lánardrottnafærslna:
 
 - **Aðsetur 1: Flutningsskilmálar** af gagnagerðinni fasttexti, þar sem gildi eru skilgreind á eftirfarandi hátt:
 
@@ -109,7 +109,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-d365fin-option-mapping"></a>Uppfæra vörpun [!INCLUDE[d365fin](includes/cds_long_md.md)] valkostar
 Nú er hægt að endurgera vörpunina milli [!INCLUDE[d365fin](includes/cds_long_md.md)] valkosta og [!INCLUDE[d365fin](includes/d365fin_md.md)] færslna.
 
-Á síðunni **Vörpun samþættingartöflu** skal velja línuna fyrir vörpun **Greiðsluskilmálar** og síðan velja aðgerðina **Samstilla breyttar færslur**. Síðan **Vörpun CDS-valkosta** er uppfærð með viðbótarfærslunum hér að neðan.
+Á síðunni **Vörpun samþættingartöflu** skal velja línuna fyrir vörpun **Greiðsluskilmálar** og síðan velja aðgerðina **Samstilla breyttar færslur** . Síðan **Vörpun CDS-valkosta** er uppfærð með viðbótarfærslunum hér að neðan.
 
 |         Færsla                 | Gildi valkosts   | Yfirskrift valkostsgildis |
 |--------------------------------|----------------|----------------------|

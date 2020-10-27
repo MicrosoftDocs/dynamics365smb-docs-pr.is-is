@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: db110bd117236fb44cbbd46195b8b1ab8d5d848e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2e8dcdaa2cf275ff439257bc7146f90ab753f32f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784335"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915311"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bóka þjónustupantanir og kreditreikninga
 Þegar þjónustupöntun hefur verið búin til, allar upplýsingar færðar inn og breytingar gerðar er hægt að bóka þjónustupöntunina. Í pöntuninni þarf að vera að minnsta kosti ein þjónustuvörulína og ein þjónustulína áður en hægt er að bóka þjónustupöntunina. Ef pöntunin inniheldur meira en eina þjónustulínu mun forritið bóka allar línurnar í einu.  
@@ -52,7 +52,7 @@ Hægt er að bóka notkun aðeins ef línan inniheldur magn sem hefur verið afh
 
 ## <a name="to-batch-post-service-orders"></a>Þjónustupantanir fjöldabókaðar:
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
-2. Veljið aðgerðina **Fjöldabókun**.  
+2. Veljið aðgerðina **Fjöldabókun** .  
 3.  Hægt er að stilla afmörkun til að velja ákveðin pöntunarnúmer eða röð af pöntunarnúmerum fyrir keyrsluna.  
 4.  Smellt er á **Í lagi** til að hefja keyrsluna.  
 
@@ -60,11 +60,11 @@ Hægt er að bóka notkun aðeins ef línan inniheldur magn sem hefur verið afh
 Þegar búið er að búa til þjónustukreditreikning og fylla hann út er hægt að bóka kreditreikninginn. Ef einhverjar villur eða skortur á upplýsingum um kreditreikninginn kemur í ljós við bókun er ferlið rofið með villuboðum.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustukreditreikningar** og veldu síðan tengda tengilinn.  
-2. Nýr þjónustukreditreikningur er stofnaður. Valið er aðgerðin **Nýtt**.  
+2. Nýr þjónustukreditreikningur er stofnaður. Valið er aðgerðin **Nýtt** .  
 3. Fyllið inn í reitina eftir þörfum.  
 4. Valið er **Bóka** aðgerðin. Ef á að prenta kreditreikninginn um leið og bókað er, skal velja **Bóka og prenta** aðgerðina í staðinn.  
 5. Til þess að prófa kreditreikninga áður en þeir eru bókaðir er **Prófunarskýrsla** valin. Þegar skýrslan er keyrð eru bókunardagsetningar sem tilgreindar eru í skjalinu staðfestar.  
-6. Til þess að fjöldabóka nokkra kreditreikninga í einu. er hægt að nota keyrsluna **Fjöldabóka kreditreikninga þjónustu**. Hún getur verið gagnleg ef þarf að bóka marga kreditreikninga.  
+6. Til þess að fjöldabóka nokkra kreditreikninga í einu. er hægt að nota keyrsluna **Fjöldabóka kreditreikninga þjónustu** . Hún getur verið gagnleg ef þarf að bóka marga kreditreikninga.  
 
 > [!NOTE]  
 >  Brýnt er að færa inn allar nauðsynlegar upplýsingar á kreditreikningana áður en þeir eru fjöldabókaðir. Annars er ekki víst að þær bókist. Þegar fjöldabókun er lokið birtast skilaboð um hve margir þjónustukreditreikningar voru bókaðir.  
@@ -74,26 +74,26 @@ Eftirfarandi aðferð lýsir hvernig á að bóka vörur, forðastundir og/eða 
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Opna skal þjónustupöntunina sem bóka á notkun fyrir.  
-3. Veljið þjónustuvöruna. Veljið aðgerðina **Þjónustulínur**.  
-4. Finnið færslurnar sem þörf og tilgreinið magnið sem þú munt bóka notkunina fyrir í reitnum **Magn til notkunar**. Magnið má ekki vera meira en magnið sem þegar hefur verið afhent og það eftirstandandi magn sem ekki er reikningsfært eftir hlutabókun þessarar afhendingar.  
+3. Veljið þjónustuvöruna. Veljið aðgerðina **Þjónustulínur** .  
+4. Finnið færslurnar sem þörf og tilgreinið magnið sem þú munt bóka notkunina fyrir í reitnum **Magn til notkunar** . Magnið má ekki vera meira en magnið sem þegar hefur verið afhent og það eftirstandandi magn sem ekki er reikningsfært eftir hlutabókun þessarar afhendingar.  
 
     > [!NOTE]  
-    >  Til þess að láta forritið skrá notkun í sambandi við verk, eru reitirnir **Verk nr.**, **Nr. verkhluta verks** og **Verklínutegund** fylltir út í þjónustulínunni.  
+    >  Til þess að láta forritið skrá notkun í sambandi við verk, eru reitirnir **Verk nr.** , **Nr. verkhluta verks** og **Verklínutegund** fylltir út í þjónustulínunni.  
 
-5. Veljið línunum sem á að bóka og og síðan valið **Bóka** aðgerð. Á síðunni sem opnast skal velja **Afhenda og nota**.  
+5. Veljið línunum sem á að bóka og og síðan valið **Bóka** aðgerð. Á síðunni sem opnast skal velja **Afhenda og nota** .  
 
-Þjónustan er bókuð sem notuð ýmist að hluta eða að fulla, eftir gildinu í reitnum **Magn til notkunar**, og viðeigandi færslubókarfærslur eru búnar til. Þar að auki eru bókuð þjónustuafhendingarfylgiskjöl uppfærð í réttri tímaröð og með notuðu magni. Magnið sem við á verður jafnframt uppfært í þjónustulínum pöntunarinnar.  
+Þjónustan er bókuð sem notuð ýmist að hluta eða að fulla, eftir gildinu í reitnum **Magn til notkunar** , og viðeigandi færslubókarfærslur eru búnar til. Þar að auki eru bókuð þjónustuafhendingarfylgiskjöl uppfærð í réttri tímaröð og með notuðu magni. Magnið sem við á verður jafnframt uppfært í þjónustulínum pöntunarinnar.  
 
 ## <a name="to-post-shipments-from-service-orders"></a>Bókun afhendinga úr þjónustupöntunum:  
 Þegar sundurliðun þjónustu hefur verið tilgreind er hægt að stilla og bóka magn notaðra vara, stunda sem eytt hefur verið kostnaðar sem fram er kominn. [!INCLUDE[d365fin](includes/d365fin_md.md)] Gerir í framhaldi af því nauðsynlegar breytingar sem gefa til kynna nýja birgðastöðu og gildandi stöðu þeirrar pöntunar sem er í vinnslu hverju sinni.  
 
 Eftirfarandi ferli sýnir hvernig eigi að bóka afhendingu þjónustulínuvara í birgðageymslum sem eru ekki settar upp þannig að þær krefjist meðhöndlunar vöruhúss.  
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupöntun** og veldu síðan tengda tengilinn. 2. á síðunni fyrir völdu þjónustupöntunina er smellt á **Aðgerðir**, **Pöntun**, **Þjónustulínur**.  
-3. Á síðunni **Þjónustulínur** er leitað að færslunum sem þörf er á og þvínæst er magn til bókunar í reitnum **Magn til afhendingar**.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupöntun** og veldu síðan tengda tengilinn. 2. á síðunni fyrir völdu þjónustupöntunina er smellt á **Aðgerðir** , **Pöntun** , **Þjónustulínur** .  
+3. Á síðunni **Þjónustulínur** er leitað að færslunum sem þörf er á og þvínæst er magn til bókunar í reitnum **Magn til afhendingar** .  
 
    > [!NOTE]  
-   >  Gildið fyrir magn til afhendingar veltur á því hvort ætlunin er að bóka afhendingu að hluta til eða til fulls. Ef afhending til fulls er valin verður gildið í reitnum **Magn til afhendingar** að vera hið sama og gildið í reitnum **Magn**. Ef afhending að hluta er bókuð verður að tilgreina magnið sem ætlunin var að afhenda í byrjun. Hafi hluti þjónustunnar þegar verið afhentur verður að skrá gildið í reitnum **Afhent magn**. Hámarksmagn sem hægt er að færa inn í reitinn **Magn til afhendingar** er fjöldi eininga sem á eftir að afhenda.  
+   >  Gildið fyrir magn til afhendingar veltur á því hvort ætlunin er að bóka afhendingu að hluta til eða til fulls. Ef afhending til fulls er valin verður gildið í reitnum **Magn til afhendingar** að vera hið sama og gildið í reitnum **Magn** . Ef afhending að hluta er bókuð verður að tilgreina magnið sem ætlunin var að afhenda í byrjun. Hafi hluti þjónustunnar þegar verið afhentur verður að skrá gildið í reitnum **Afhent magn** . Hámarksmagn sem hægt er að færa inn í reitinn **Magn til afhendingar** er fjöldi eininga sem á eftir að afhenda.  
 
 4. Valið er **Bóka** aðgerðin. á síðunni sem birtist velurðu **Afgreiða** hnappinn.
 
@@ -108,8 +108,8 @@ Upplýsingar um afhendingu þjónustulínuvara með ítarlegum vöruhúsaaðger�
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar þjónustuafhendingar** og veldu síðan tengda tengilinn.  
 2. Opna skal bókuðu þjónustuafhendinguna sem ranga notkunin var bókuð fyrir.  
-3. Veldu aðgerðina **Þjónustuafhendingarlínur**.  
-4. Veldu línur sem innihalda ranga notkun, og veldu svo aðgerðina **Afturkalla notkun**.  
+3. Veldu aðgerðina **Þjónustuafhendingarlínur** .  
+4. Veldu línur sem innihalda ranga notkun, og veldu svo aðgerðina **Afturkalla notkun** .  
 
  Þjónustuafhendingarlína er færð inn með neikvæðu virði í magnreitum fyrir valdar línur.  
   
@@ -125,8 +125,8 @@ Ef nauðsynlegt er að vinna með þjónustubeiðni í umtalsverðan tíma án �
 Eftirfarandi ferli lýsir bókun afhendingar beint úr þjónustupöntun í birgðageymslum án þess að meðhöndlun vöruhúss hafi verið sett upp. Ef birgðageymslan er sett upp þannig að hún krefjist vöruhúsaafgreiðslu fer bókun afhendingar fram í öðru vöruhúsaskjali, eftir birgðageymsluuppsetningu.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
-2. Veljið þjónustupöntunina og velja svo aðgerðina **þjónustulína**.  
-4. Á línu/m sem ætlunin er að bóka á að fylla út reitina **Magn til afhendingar**, **Magn til reikningsf.** og **Magn til notkunar**, háð því hvernig ætlunin er að bóka línurnar.  
+2. Veljið þjónustupöntunina og velja svo aðgerðina **þjónustulína** .  
+4. Á línu/m sem ætlunin er að bóka á að fylla út reitina **Magn til afhendingar** , **Magn til reikningsf.** og **Magn til notkunar** , háð því hvernig ætlunin er að bóka línurnar.  
 5. Valið er **Bóka** aðgerðin.
 
 ## <a name="see-also"></a>Sjá einnig  

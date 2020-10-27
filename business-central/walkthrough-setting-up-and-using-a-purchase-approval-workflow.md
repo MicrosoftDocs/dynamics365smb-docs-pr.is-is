@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9254d7b32d96fc97dd1c6facba567f92bbb630b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 25d94f27f1a440342c8e24310b5c853aa832b4db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786647"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910206"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa
 Hægt er að gera sjálfvirkt ferli samþykktar á nýjar eða breyttar færslur, t.d. skjöl, færslubókarlínur og spjöld viðskiptamanna með því að stofna verkflæði með skrefum fyrir viðkomandi samþykkjendur. Áður en samþykkisverkflæði eru stofnaðar verður að setja upp samþykkjandi og staðgengill samþykkjanda fyrir hvern notanda samþykktar. Einnig er hægt að setja samþykkjendur takmarkanir til að skilgreina hvaða sölu og innkaupafærslur eru heimilt að samþykkja. Samþykktarbeiðnir og aðrar tilkynningar er hægt að senda sem tölvupóst eða innri athugasemd. Fyrir hverja uppsetningu samþykktarnotanda má einnig setja upp hvenær þeim berast tilkynningar.
@@ -47,7 +47,7 @@ Til að sannprófa verkflæði samþykktar, skráir Sean sig fyrir inn í [!INCL
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Til að setja upp þig sjálfan og Alicia sem notendur samþykki  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notandauppsetning samþykktar** og veldu síðan tengda tengilinn.  
-2.  Á síðunni **Notandauppsetning samþykktar** skal velja aðgerðina **Nýtt**.  
+2.  Á síðunni **Notandauppsetning samþykktar** skal velja aðgerðina **Nýtt** .  
 
     > [!NOTE]  
     >  Setja verður upp samþykkjanda áður en hægt er að setja upp notendur sem þurfa sem samþykki þess samþykkjanda. Því verður að setja upp sjálfan þig áður en þú setur upp Alicia.  
@@ -63,22 +63,22 @@ Til að sannprófa verkflæði samþykktar, skráir Sean sig fyrir inn í [!INCL
 Í þessari kynningu er notandanum tilkynnt með innri athugasemd um beiðnir til að samþykkja. Einnig er hægt að senda tilkynningar um samþykki í tölvupósti. Frekari upplýsingar eru í [Tilgreina hvenær og hvernig á að fá tilkynningar](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 #### <a name="to-set-up-how-and-when-you-are-notified"></a>Til að setja upp hvernig og hvenær þú færð tilkynningu  
-1.  Á síðunni **Notandauppsetning samþykktar** velur notandi línuna fyrir sjálfa(n) sig og svo aðgerðina **Tilkynningagrunnur**.  
-2.  Á síðunni **Uppsetning tilkynninga** í reitnum **Tilkynningagerð** skal velja **Samþykki**.  
-3.  Í reitnum **Aðferð tilkynningar** skal velja **Athugasemd**.  
-6.  Á síðunni **Tilkynningagrunnur** skal velja aðgerðina **Áætlun tilkynninga**.  
-7.  Á síðunni **Tilkynningaáætlun** í reitnum **Endurtekning** skal velja **Samstundis**.  
+1.  Á síðunni **Notandauppsetning samþykktar** velur notandi línuna fyrir sjálfa(n) sig og svo aðgerðina **Tilkynningagrunnur** .  
+2.  Á síðunni **Uppsetning tilkynninga** í reitnum **Tilkynningagerð** skal velja **Samþykki** .  
+3.  Í reitnum **Aðferð tilkynningar** skal velja **Athugasemd** .  
+6.  Á síðunni **Tilkynningagrunnur** skal velja aðgerðina **Áætlun tilkynninga** .  
+7.  Á síðunni **Tilkynningaáætlun** í reitnum **Endurtekning** skal velja **Samstundis** .  
 
 ## <a name="creating-the-approval-workflow"></a>Stofna samþykktarverkflæði  
  Stofna samþykktarverkflæði fyrir innkaupapöntun með því að afrita skref úr verkflæðissniðmáti fyrir samþykktarverkflæði innkaupapöntunar. Hafið fyrirliggjandi verkflæðisþrep óbreyttar og virkið þau síðan í verkflæði.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Til að stofnaog virkja samþykktarverkflæði innkaupapöntunar  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkflæði** og veldu síðan tengda tengilinn.  
-2.  Á síðunni **Verkflæði** skal velja aðgerðina **Nýtt verkflæði úr sniðmáti**.  
-3.  Á síðunni **Verkflæðissniðmát** skal velja verkflæðissniðmát með heitinu „Samþykktarverkflæði innkaupapöntunar“ og velja síðan hnappinn **Í lagi**.  
+2.  Á síðunni **Verkflæði** skal velja aðgerðina **Nýtt verkflæði úr sniðmáti** .  
+3.  Á síðunni **Verkflæðissniðmát** skal velja verkflæðissniðmát með heitinu „Samþykktarverkflæði innkaupapöntunar“ og velja síðan hnappinn **Í lagi** .  
 
     Síðan **Verkflæði** opnast fyrir nýtt verkflæði sem inniheldur allar upplýsingarnar úr völdu sniðmáti. Við gildið í reitnum **Kóði** er bætt við „-01“ til að gefa til kynna að þetta sé fyrsta verkflæðið sem er stofnað úr verkflæðissniðmátinu Samþykktarverkflæði innkaupapöntunar.  
-5.  Á haus síðunnar **Verkflæði** skal velja gátreitinn **Virkjað**.  
+5.  Á haus síðunnar **Verkflæði** skal velja gátreitinn **Virkjað** .  
 
 ## <a name="using-the-approval-workflow"></a>Að nota samþykktarverkflæði  
 Nota nýja verkflæðið, verkflæði samþykktar fyrir Innkaupapöntun, með því að skrá þig fyrst inn sem Alicia í [!INCLUDE[d365fin](includes/d365fin_md.md)] til að fara fram á samþykki á innkaupapöntun. Síðan skaltu skrá þig inn sjálf(ur), skoða athugasemdina í hlutverkamiðstöð, fylgja tenglinum á samþykktarbeiðnina og síðan samþykkja beiðni.  
@@ -86,19 +86,19 @@ Nota nýja verkflæðið, verkflæði samþykktar fyrir Innkaupapöntun, með þ
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Til að óska eftir samþykki á innkaupapöntun, sem Alicia  
 1. Skrá inn sem Alicia.
 2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.  
-3.  Velja skal línu fyrir opna innkaupapöntun 106001 og svo aðgerðina **Breyta**.  
+3.  Velja skal línu fyrir opna innkaupapöntun 106001 og svo aðgerðina **Breyta** .  
 4.  Á síðunni **Innkaupapöntun** skal velja **Senda samþykktarbeiðni** aðgerðina.  
 
-Takið eftir að gildið í reitnum **Staða** hefur breyst í **Bíður samþykktar**.  
+Takið eftir að gildið í reitnum **Staða** hefur breyst í **Bíður samþykktar** .  
 
 ### <a name="to-approve-the-purchase-order-as-sean"></a>Til að samþykkja innkaupapöntun, sem Sean  
 1. Skrá inn sem Sean.
-2. Á Mitt hlutverk, í svæðinu **Sjálfsafgreiðsla** skaltu velja reitinn **Beiðnir til að samþykkja**.
-3. Á síðunni **Beiðnir til að samþykkja** skaltu velja línuna um innkaupapöntunina frá Alicia go velja svo aðgerðina **Samþykkja**.  
+2. Á Mitt hlutverk, í svæðinu **Sjálfsafgreiðsla** skaltu velja reitinn **Beiðnir til að samþykkja** .
+3. Á síðunni **Beiðnir til að samþykkja** skaltu velja línuna um innkaupapöntunina frá Alicia go velja svo aðgerðina **Samþykkja** .  
 
-Gildið í reitnum **Staða** í Alicia á innkaupapöntun breytist í **Útgefin**.  
+Gildið í reitnum **Staða** í Alicia á innkaupapöntun breytist í **Útgefin** .  
 
-Nú hefur þú sett upp og prófa einfalt samþykktarverkflæðis samkvæmt fyrstu tvö skref í verkflæði samþykktarverkflæðis innkaupapöntunar. Hægt er að auðveldlega að framlengja þessu verkflæði sjálfkrafa til að bóka innkaupapöntun Alicia sjálfvirkt þegar Sean samþykkir það. Til að gera þetta þarf að virkja verkflæði fyrir innkaupareikningsverkflæði þar sem svar við útgefnar innkaupareikningur er til að bóka hann. Fyrst þarf að breyta skilyrðum tilviksins á fyrsta skrefið verkflæði (innkaup) úr **Reikningur** í **Pöntun**.  
+Nú hefur þú sett upp og prófa einfalt samþykktarverkflæðis samkvæmt fyrstu tvö skref í verkflæði samþykktarverkflæðis innkaupapöntunar. Hægt er að auðveldlega að framlengja þessu verkflæði sjálfkrafa til að bóka innkaupapöntun Alicia sjálfvirkt þegar Sean samþykkir það. Til að gera þetta þarf að virkja verkflæði fyrir innkaupareikningsverkflæði þar sem svar við útgefnar innkaupareikningur er til að bóka hann. Fyrst þarf að breyta skilyrðum tilviksins á fyrsta skrefið verkflæði (innkaup) úr **Reikningur** í **Pöntun** .  
 
 Almenna útgáfan af [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur númer sniðmáts verkflæðis fyrir dæmi sem eru studd af forritskóðanum. Megnið af þeim eru fyrir samþykkisverkflæði.  
 

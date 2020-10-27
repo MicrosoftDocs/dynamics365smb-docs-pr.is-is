@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: rfq
-ms.date: 05/28/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a655768234c262ff98a753b28dfbbd53d1bc1749
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410693"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910656"
 ---
 # <a name="track-packages"></a>Finna sendingar
 
@@ -24,9 +24,9 @@ Eftirfarandi ferli sýnir hvernig á að rekja pakka frá bókaðri sölusending
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókuð söluafhending** og veldu síðan tengda tengilinn.
 2. Viðeigandi afhending er opnuð.
-3. Veldu aðgerðina **Uppfæra fylgiskjal**.
+3. Veldu aðgerðina **Uppfæra fylgiskjal** .
 4. Í **Rakningarnúmer pakka** reitinn er ritað pakkanúmerið sem flutningsaðilinn lagði í té. Uppfærðu **Flutningsaðili** ef þörf er á og lokaðu síðunni.
-5. Velja aðgerðina **Rekja pakka**.
+5. Velja aðgerðina **Rekja pakka** .
 
 Sjálfgefinn vafri opnar rakningarsíðu flutningsaðila.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7aafe33ac70546378abd90cc98aea3b1a326c77
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d53932be1597a96ced906ed7546ce8ff011639e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782469"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912622"
 ---
 # <a name="copy-and-paste-faq"></a>Algengar spurningar um að afrita og líma
 Þú getur afritað eina eða fleiri raðir (færslur) úr lista eða einum reit á síðu og síðan líma það sem þú afritaðir á sömu síðu, aðra síðu eða ytri skjal (eins og Microsoft Excel og Outlook tölvupóst). Í stuttu máli, til að afrita, ýtirðu á CTRL+C (cmd+C í macOS) á lyklaborðinu þínu. Til að líma er stutt á CTRL+V (cmd+V í macOS).
@@ -38,7 +38,7 @@ Til að afrita eina röð, veldu hana og ýttu á Ctrl+C.
 
 Ef þú vilt afrita fleiri línur, geturðu:
 - Ýttu á Ctrl+Smelltu á aðra röð eða ýttu á Shift+Smelltu til að velja röðina og allar raðir á milli. Sjá [Flýtilykla](keyboard-shortcuts.md#CopyRows) fyrir fleiri músar- og lyklaborðs samsetningar til að velja raðir.
-- Veldu ![Sýna fleiri valkosti](media/show-more-options-icon.png "Sýna tákn fyrir fleiri valkosti") í fyrsta dálki í röð, veldu **Veldu Meira**, veldu gátreitinn við hliðina á hverri röð sem þú vilt afrita og ýttu síðan á Ctrl+C.
+- Veldu ![Sýna fleiri valkosti](media/show-more-options-icon.png "Sýna tákn fyrir fleiri valkosti") í fyrsta dálki í röð, veldu **Veldu Meira** , veldu gátreitinn við hliðina á hverri röð sem þú vilt afrita og ýttu síðan á Ctrl+C.
 
 ## <a name="how-do-i-paste-rows"></a>Hvernig líma ég raðir?
 Veljið auða línu, með bendilinn í hvaða hólfi sem er, og ýtið svo á Crtl+V.

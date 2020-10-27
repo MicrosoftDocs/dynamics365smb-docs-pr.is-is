@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a014a3c75ab0e0b2f27b519287651bf55a572157
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a0d0e5f18acf9830fe77a87f9e1c8982da47c257
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789276"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913122"
 ---
 # <a name="service-posting"></a>Þjónustubókun
 Aðgerðin bókun þjónustu gerir skilvirka vinnslu á skjölum notandans mögulega og viðheldur árangursríkri stefnu í þjónustu við viðskiptamenn. Hægt er að búa til og uppfæra bókuð fylgiskjöl, og búa til fjárhagsfærslur í þjónustusvæði og öðrum einingum til þess að tryggja rétta uppfærslu.  
@@ -23,7 +23,7 @@ Aðgerðin bókun þjónustu gerir skilvirka vinnslu á skjölum notandans mögu
 > [!NOTE]  
 >  Eftirfarandi lýstir þjónustubókun burtséð frá því hvernig vörur eru efnislega meðhöndlaðar í vöruhúsinu.  
 >   
->  Í þeim birgðageymslum sem ekki þurfa vöruhúsaafgreiðslu er bókun framkvæmd beint af síðunni **Þjónustulínur**. Í birgðageymslum sem nota vöruhúsaafgreiðslu eru bókunaraðgerðirnar, fyrir utan Afhenda og Nota, framkvæmdar óbeint með ýmsum afhendingaraðgerðum vöruhúsa, eftir uppsetningu. Frekari upplýsingar, sjá [Tína vörur með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  Í þeim birgðageymslum sem ekki þurfa vöruhúsaafgreiðslu er bókun framkvæmd beint af síðunni **Þjónustulínur** . Í birgðageymslum sem nota vöruhúsaafgreiðslu eru bókunaraðgerðirnar, fyrir utan Afhenda og Nota, framkvæmdar óbeint með ýmsum afhendingaraðgerðum vöruhúsa, eftir uppsetningu. Frekari upplýsingar, sjá [Tína vörur með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Afhenda  
 Afhendingarvalkosturinn gerir kleift að skrá viðkomandi vörur og tímasetningu færslu í línur þjónustupöntunarinnar þegar þjónustu er lokið. Bókuð afhending er búin til og einingin Birgðir og aðrar einingar eru uppfærðar í [!INCLUDE[d365fin](includes/d365fin_md.md)] og gefur þannig til kynna að vörurnar hafi verið fjarlægðar úr birgðum og sendar viðskiptamanni. Einkum eru framleiddar birgðafærslur, virðisfærslur, þjónustufærslur og ábyrgðarfærslur.  
@@ -42,16 +42,16 @@ Með valkostinum Afhenda og nota er hægt að skrá og bóka vörur, kostnað e�
 > [!NOTE]  
 >  Þjónustubókunaraðferðin gerir kleift að stofna hlutabókun. Hægt er að stofna afhendingu að hluta eða reikning að hluta með því að útfylla reitinn **Magn til afhendingar** og reitinn **Magn til reikningsfærslu** í hverri þjónustulínu í þjónustubeiðnunum áður en þær eru bókaðar. Bent er á að ekki er hægt að búa til reikning fyrir eitthvað sem ekki er afhent. Það er, áður en hægt er að gefa út reikning verður að skrá afhendingu eða velja að afhenda og stofna reikning á sama tíma.  
 
-Að bókun lokinni er hægt að skoða bókuð þjónustuskjöl í samsvarandi síðum **Bókuð þjónustuafhending** og **Bókaður þjónustureikningur**. Bókaðar færslur sem búnar hafa verið til er hægt að sjá á ýmsum síðum með bókuðum færslum, svo sem **Fjárhagsfærslur**, **Birgðafærslur**, **Vöruhúsafærslur**, **Þjónustufærslur**, **Verkfærslur** og **Ábyrgðarfærslur**.  
+Að bókun lokinni er hægt að skoða bókuð þjónustuskjöl í samsvarandi síðum **Bókuð þjónustuafhending** og **Bókaður þjónustureikningur** . Bókaðar færslur sem búnar hafa verið til er hægt að sjá á ýmsum síðum með bókuðum færslum, svo sem **Fjárhagsfærslur** , **Birgðafærslur** , **Vöruhúsafærslur** , **Þjónustufærslur** , **Verkfærslur** og **Ábyrgðarfærslur** .  
 
 ## <a name="to-view-information-about-a-posted-service-document"></a>Viðbótarupplýsingar um bókuð þjónustuskjöl skoðaðar  
-Þegar þjónustureikningur, þjónustuafhending eða þjónustukreditreikningur er bókaður flytjast upplýsingarnar á síðuna **Bókaður þjónustureikningur**, **Bókuð þjónustuafhending** eða **Bókaður þjónustukreditreikningur**, eftir því sem við á. Ekki er hægt að færa inn, breyta eða eyða nokkru á þessum síðum. Hægt er að prenta afhendingu, reikning eða kreditreikning á þessum síðum.  
+Þegar þjónustureikningur, þjónustuafhending eða þjónustukreditreikningur er bókaður flytjast upplýsingarnar á síðuna **Bókaður þjónustureikningur** , **Bókuð þjónustuafhending** eða **Bókaður þjónustukreditreikningur** , eftir því sem við á. Ekki er hægt að færa inn, breyta eða eyða nokkru á þessum síðum. Hægt er að prenta afhendingu, reikning eða kreditreikning á þessum síðum.  
 
 Eftirfarandi aðgerð notast við bókaðan þjónustureikning sem dæmi, en sama aðferðin á við bókaðar þjónustuafhendingar og bókaða kreditreikninga.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaður þjónustureikningur** og veldu síðan tengda tengilinn.  
 2. Opna bókaða þjónustureikninginn sem á að skoða.  
-3. Til að fá yfirlit yfir bókaðan reikning er valin aðgerðin **Tölfræðilegar upplýsingar**.  
+3. Til að fá yfirlit yfir bókaðan reikning er valin aðgerðin **Tölfræðilegar upplýsingar** .  
 
     Síðan **Upplýsingar um þjónustupöntun** opnast. Síðan sýnir upplýsingar á borð við magn, upphæð, VSK, kostnað, framlegð og hámarksskuld viðskiptamanns fyrir bókaða fylgiskjalið.
 

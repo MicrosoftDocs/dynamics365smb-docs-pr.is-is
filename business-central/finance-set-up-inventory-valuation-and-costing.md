@@ -4,27 +4,29 @@ description: Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatri�
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a615e4b605267f12913dbcfee8e8a00e659369e4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780411"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910731"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Uppsetning birgðaverðmats og kostnaðar
-Til að ganga úr skugga um að birgðakostnaður sé skráður rétt, er nauðsynlegt að setja upp ýmsa reiti og síður áður en þú byrjar að framkvæma vörufærslur.
+
+Til að ganga úr skugga um að birgðakostnaður sé skráður rétt, er nauðsynlegt að setja upp ýmsa reiti og síður áður en þú byrjar að framkvæma vörufærslur. Yfirleitt velja fyrirtæki tiltekna aðferð við útreikning kostnaðar og nota hana birgðavörur, til dæmis til að fylgjast með virði á vörum og birgðum.  
+
+> [!TIP]
+> Til að sjá kynningu á kostnaðarútreikningi í [!INCLUDE [prodshort](includes/prodshort.md)] skal skoða [Um birgðakostnað](finance-learn-about-costing.md).
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
 |**Til að**|**Sjá**|  
-|------------|-------------|  
-|Velja kostnaðaraðferð fyrir hverja vöru til að stýra því hvernig upphaflegur kostnaður hennar er notaður til að meta birgðavirði og kostnað seldra vara.|[Skrá nýjar vörur](inventory-how-register-new-items.md)|  
+|------------|-------------|
+|Tilgreinið sjálfgefna aðferð kostnaðarútreiknings fyrir fyrirtækið til að stýra því hvernig upphaflegur kostnaður er notaður til að meta birgðavirði og kostnað seldra vara.|[Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md)|  
+|Tilgreinið aðferð kostnaðarútreiknings á einstökum vörum ef hún krefst annars konar aðferðar við kostnaðarútreikning.|[Skrá nýjar vörur](inventory-how-register-new-items.md)|  
 |Tryggja að kostnaður sé sjálfkrafa bókaður á fjárhag hvenær sem birgðafærsla er bókuð.|Reiturinn **Sjálfvirk kostnaðarbókun** á síðunni **Uppsetning birgða**|  
 |Tryggja að áætlaður kostnaður sé bókaður á fjárhag til að geta séð af bráðabirgðafjárhagsreikningum áætlaðar upphæðir sem eru fallnar í gjalddaga og kostnað seldra vara áður en þær eru reikningsfærðar í raun.|Reiturinn **Áætluð kostnaðarbókun í fjárhag** á síðunni **Uppsetning birgða**|  
 |Setja kerfið þannig upp að leiðrétt sé sjálfvirkt vegna allra kostnaðarbreytinga í hvert sinn sem birgðafærslur eru bókaðar.|[Leiðr. kostnað vara](inventory-how-adjust-item-costs.md)|  
@@ -35,7 +37,13 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Tryggja að innkaupaskil sé jafnað á upphaflegu færsluna á innleið til að varðveita birgðavirði.|Reiturinn **Nákvæmar kostnaðarbakfærslur áskildar** á síðunni **Innkaup & viðskiptaskuldir**|
 |Setja upp sléttunarreglur sem á að nota þegar vöruverð er leiðrétt eða lagt til eða þegar staðlaður kostnaður er leiðréttur eða lagður til.|**Sléttunaraðferð** síða|  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
-[Vinna með Business Central](ui-work-product.md)  
+[Setja upp almennar birgðaupplýsingar](inventory-how-setup-general.md)  
+[Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Uppsetning bestu venjur: Aðferð kostnaðarútreiknings](setup-best-practices-costing-method.md)  
+[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
+[Hönnunarupplýsingar: Breyta kostnaðarútreikningi fyrir vörur](design-details-changing-costing-methods.md)  
+[Unnið með Business Central](ui-work-product.md)  
 [Fjármál](finance.md)  

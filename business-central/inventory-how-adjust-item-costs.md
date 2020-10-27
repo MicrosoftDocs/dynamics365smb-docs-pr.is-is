@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4ec1d07793b90e180bd22b57dc45c717b456e317
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b8d764bcbf1a7f6a2bc97130eddbdc1a644f9f1c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780061"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914165"
 ---
 # <a name="adjust-item-costs"></a>Leiðr. kostnað vara
 Kostnaðarverð vöru (birgðavirði) sem er keypt og seld síðar getur breyst á líftímanum, til dæmis vegna þess að kostnað við frakt er bætt við innkaupakostnaðinn þegar varan hefur verið seld. Kostnaðaraðlögun er sérstaklega viðeigandi í aðstæðum þar sem þú selur vörur áður en þú reiknar kaupin á þeim vörum. Til þess að vita alltaf rétt birgðavirði verður því að leiðrétta kostnaðarverð vöru reglubundið. Þetta tryggir að sölu- og hagnaðartölur séu réttar og afkastavísar (KPI) fjárhags séu réttir. Nánari upplýsingar, sjá [Upplýsingar um hönnun: Kostnaðarleiðrétting](design-details-cost-adjustment.md)
@@ -39,7 +39,7 @@ Kostnaðarleiðréttingin vinnur aðeins virðisfærslur sem hafa ekki verið la
 ## <a name="to-adjust-item-costs-manually"></a>Til að uppfæra birgðakostnað verks handvirkt
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leiðr. kostnað - Birgðafærslur** og veldu síðan tengda tengilinn.
 2. Á síðunni **Leiðr. Kostnað - Birgðafærslur** skal tilgreina hvaða vörur á að leiðrétta kostnað fyrir.
-3. Velja hnappinn **Í lagi**.
+3. Velja hnappinn **Í lagi** .
 
 ## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Almennar breytingar gerðar í Innk.verð:
 Ef breyta þarf innkaupaverðinu fyrir marga hluti er hægt að nota **Leiðrétta vörukostnað/verð** keyrsluna.  
@@ -47,10 +47,10 @@ Ef breyta þarf innkaupaverðinu fyrir marga hluti er hægt að nota **Leiðrét
  Keyrslan breytir innihaldi reitsins **Einingarverð** á birgðaspjaldinu. Keyrslan breytir efni reitsins á sama hátt fyrir allar vörur eða valdar vörur. Keyrslan margfaldar gildið í reitnum með leiðréttingarstuðli sem notandi tilgreinir.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leiðrétta vörukostnað/verð** og veldu síðan tengda tengilinn.  
-2. Í reitnum **Leiðr. reit**, skal tilgreina hvaða vöru eða birgðahaldseiningarspjald reit á að leiðrétta.  
+2. Í reitnum **Leiðr. reit** , skal tilgreina hvaða vöru eða birgðahaldseiningarspjald reit á að leiðrétta.  
 3. Í reitnum **Leiðréttingarstuðull** skal tilgreina stuðulinn sem gildinu verður breytt eftir. Til dæmis færa inn **1,5** til að hækka gildið um 50%.  
 4. Á flýtiflipanum **Vara** skal setja upp afmarkanir til að tilgreina, til dæmis, hvaða vörur á að vinna með runuvinnslunni.  
-5. Velja hnappinn **Í lagi**.  
+5. Velja hnappinn **Í lagi** .  
 
 ## <a name="understanding-unit-cost-calculation"></a>Skilja útreikning kostnaðarverðs
 Sem regla er gildið í reitnum **kostnaðarverð** á birgðaspjaldinu byggt á stöðluðu kostnaðarverði vöru og staðlaðri aðferð við kostnaðarútreikning. Fyrir vörur með öllum öðrum aðferðum við kostnaðarútreikning er þetta byggt á útreikningi á fáanlegum birgðum (reikningsfærður kostnaður og væntanlegur kostnaður) deilt með tiltæku magni.  
