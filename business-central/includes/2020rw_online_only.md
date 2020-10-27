@@ -1,0 +1,1 @@
+> <span data-ttu-id="ada50-101">**Á VIÐ UM:** Business Central Online (2020 útgáfutímabil 2 og nýrri)</span><span class="sxs-lookup"><span data-stu-id="ada50-101">**APPLIES TO:** Business Central online (2020 release wave 2 and later)</span></span>
