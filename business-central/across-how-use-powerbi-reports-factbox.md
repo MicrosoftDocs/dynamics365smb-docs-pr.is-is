@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5d3acaf05952a61845eb8bb72b2556f2e54f8208
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697699"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968386"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Býr til Power BI skýrslur til að birta listagögn í [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -34,21 +34,21 @@ Tilgreina gagnagjafann sem inniheldur gögnin sem tengjast listanum. Ef þú vil
 
 ## <a name="defining-the-report-filter"></a>Skilgreining á afmörkun skýrslu
 
-Til að gera gagnauppfærslu í valinni færslu á listanum er síu bætt við skýrslu. Sían verður að innihalda reit gagnagjafans sem er notaður sem *aðallykill*. Í flestum tilvikum er aðallykill fyrir lista reiturinn **Nr.** .
+Til að gera gagnauppfærslu í valinni færslu á listanum er síu bætt við skýrslu. Sían verður að innihalda reit gagnagjafans sem er notaður sem *aðallykill* . Í flestum tilvikum er aðallykill fyrir lista reiturinn **Nr.** .
 
-Til að skilgreina afmörkun í skýrslunni er aðallykill af listanum yfir tiltæki reitir valinn og síðan er sá reitur dregill og sleppt yfir í hlutann **Afmörkun skýrslu**. Sían verður að vera grunnskýrslusía. Það getur ekki verið síða, sjónrænt eða ítarleg sía. 
+Til að skilgreina afmörkun í skýrslunni er aðallykill af listanum yfir tiltæki reitir valinn og síðan er sá reitur dregill og sleppt yfir í hlutann **Afmörkun skýrslu** . Sían verður að vera grunnskýrslusía sem er skilgreind fyrir allar síður. Það getur ekki verið síða, sjónrænt eða ítarleg sía.
 
-![Afmörkun skýslu stillt fyrir Aðgerðaskráningu sölureikninga](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter.png)
+![Afmörkun skýslu stillt fyrir Aðgerðaskráningu sölureikninga](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 
 ## <a name="setting-the-report-size-and-color"></a>Stærð og litur skýrslu valin
 
 Stærð skýrslu verður að stilla á 325 sinnum 310 pixla. Þessi stærð býður upp á rétta kvörðun á skýrslu í tiltæku bili í Power BI stjórnun upplýsingareits í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til að skilgreina stærð skýrslu skal staðsetja fókus utan svæðis fyrir útlit skýrslu og velja svo tákn fyrir málningarrúllu.
 
-![Breidd og hæð skýrslu stillt fyrir Aðgerðaskráningu sölureikninga](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing.png)
+![Breidd og hæð skýrslu stillt fyrir Aðgerðaskráningu sölureikninga](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
-Hægt er að breyta breidd og hæð skýrslunnar með því að velja **Sérsníða** í reitnum **Tegund**.
+Hægt er að breyta breidd og hæð skýrslunnar með því að velja **Sérsníða** í reitnum **Tegund** .
 
-Ef bakgrunnur skýringarinnar á að vera með bakgrunnslit Power BI upplýsingareitsins skal stilla bakgrunnslit skýrslu á *#FFFFFF*. 
+Ef bakgrunnur skýringarinnar á að vera með bakgrunnslit Power BI upplýsingareitsins skal stilla bakgrunnslit skýrslu á *#FFFFFF* . 
 
 ## <a name="using-reports-with-multiple-pages"></a>Notkun á skýrslum með mörgum síðum
 
@@ -70,7 +70,7 @@ Gefa skal skýrslunni heiti sem inniheldur heiti listasíðunnar sem tengist sk�
 
 #### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Verið er að hlaða skrá en hún er tóm, ekki síuð eða síuð á rangan hátt
 
-Sannprófa verður að skýrsluafmörkunin innihaldi réttan aðallykil. Yfirleitt er þessi reitur **Nr.** reitur, en í töflunni **Fjárhagsfærsla**, til dæmis, verður að nota **Færslunr.** reitinn.
+Sannprófa verður að skýrsluafmörkunin innihaldi réttan aðallykil. Yfirleitt er þessi reitur **Nr.** reitur, en í töflunni **Fjárhagsfærsla** , til dæmis, verður að nota **Færslunr.** reitinn.
 
 #### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Skýrslu er hlaðið inn, en hún sýnir síðu sem þú bjóst ekki við
 

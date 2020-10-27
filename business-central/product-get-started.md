@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d040507dad53ad6e9ba5407dcf457e04afa751c7
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528739"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970439"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Hafist handa með [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er viðskiptahugbúnaður fyrir lítil og meðalstór fyrirtæki sem gerir viðskiptaferli sjálfvirk og einföld og auðveldar stjórnun fyrirtækisins. Auðvelt er að skrá sig og hægt er að yfirfæra fyrirliggjandi viðskiptagögn úr eldra kerfinu.  
@@ -38,10 +38,10 @@ Frekari upplýsingar er að finna í [Unnið með [!INCLUDE[d365fin](includes/d3
 
 Þegar þú ert tilbúinn að byrja að vinna og vilt skoða einhver af þeim viðskiptaferlum sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður, sjá [Viðskiptavirkni](across-business-functionality.md).
 
-Áður en þú getur byrjað að nota virkni verður að gera ákveðna uppsetningu. Til að hefjast handa þarf einfaldlega að velja táknið ![Sprocket til að opna táknið stillingavalmynd](media/ui-experience/settings_icon_small.png) og síðan aðgerðina **Uppsetning með hjálp**. Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Áður en þú getur byrjað að nota virkni verður að gera ákveðna uppsetningu. Til að hefjast handa þarf einfaldlega að velja táknið ![Sprocket til að opna táknið stillingavalmynd](media/ui-experience/settings_icon_small.png) og síðan aðgerðina **Uppsetning með hjálp** . Nánari upplýsingar er einnig að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!TIP]
-> Sum uppsetningarskrefin er hægt að gera hálfsjálfvirkt með uppsetningarleiðbeiningar með hjálp. Önnur áskilin handvirk uppsetning, og hægt er að finna lista á síðunni **Ítarlegar stillingar**.
+> Sum uppsetningarskrefin er hægt að gera hálfsjálfvirkt með uppsetningarleiðbeiningar með hjálp. Önnur áskilin handvirk uppsetning, og hægt er að finna lista á síðunni **Ítarlegar stillingar** .
 
 <!--Some Role Center pages provide a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -56,7 +56,7 @@ Síðan Mitt hlutverk byggist á hlutverkamiðaðri hönnun til að veita þér 
 ## <a name="trying-things-out-in-your-own-company"></a>Prufukeyra hluti í þínu eigin fyrirtæki
 Ertu að hugsa um að gerast áskrifandi? Auðveldlega er hægt að fara út úr sýnifyrirtækinu, yfir í það að stofna og vinna í eigin fyrirtæki. Þetta er frábær leið til að byrja að færa sig í átt að áskrift. Uppsetningar fyrir fjármál fylgja; aðeins þarf að stofna eða flytja inn vörur þínar og þjónustu, viðskiptamenn og lánardrottna. Eftir það ertu tilbúinn til að bóka reikninga og nota verkfæri viðskiptagreindar til að greina fyrirtækið þitt. Hægt er að nota fyrirtækið án endurgjalds yfir 30-daga prufu tímabil. Ef þú gerist áskrifandi að [!INCLUDE[d365fin](includes/d365fin_md.md)] á þeim tíma, ertu þegar kominn af stað. Hægt er að halda áfram starfið sem var unnið á meðan á prufu tímabilinu stóð.  
 
-Til að stofna fyrirtæki til að prufukeyra hluti, farðu á **Mínar stillingar** valmyndina efst í hægra horninu og breyttu fyrirtækinu yfir í **Mitt fyrirtæki**. Til að breytingin taki gildi þarf að skrá sig út úr [!INCLUDE[d365fin](includes/d365fin_md.md)] og svo inn aftur. Uppsetningarleiðsögn með hjálp mun hjálpa þér að veita grunnupplýsingar um fyrirtækið. Þegar því er lokið skal kanna Mitt hlutverk og finna aðgerðina **Uppsetning með hjálp**.  
+Til að stofna fyrirtæki til að prufukeyra hluti, farðu á **Mínar stillingar** valmyndina efst í hægra horninu og breyttu fyrirtækinu yfir í **Mitt fyrirtæki** . Til að breytingin taki gildi þarf að skrá sig út úr [!INCLUDE[d365fin](includes/d365fin_md.md)] og svo inn aftur. Uppsetningarleiðsögn með hjálp mun hjálpa þér að veita grunnupplýsingar um fyrirtækið. Þegar því er lokið skal kanna Mitt hlutverk og finna aðgerðina **Uppsetning með hjálp** .  
 
 Einnig er hægt að hafa samband við endursöluaðila Dynamics 365. Nánari upplýsingar er að finna í [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
 
@@ -64,7 +64,7 @@ Einnig er hægt að hafa samband við endursöluaðila Dynamics 365. Nánari upp
 
 Ef þú ert ekki viss um hvernig á að gera eitthvað í [!INCLUDE[d365fin](includes/d365fin_md.md)], getur þú vonandi fundið svarið annaðhvort með því að lesa ábendingar fyrir það svæði sem þú ert ekki viss um eða með því að lesa efnið með því að opna tengilinn *Frekari upplýsingar* í ábendingu (notaðu flýtilykilinn Ctrl+F1). Þú getur líka nálgast fylgiskjölin með því að velja tengdan hlekk í [Hjálpar- og stuðningssíða](product-help-and-support.md).  
 
-Öllum svæðunum í [!INCLUDE[d365fin](includes/d365fin_md.md)] er lýst í ábendingum. Þú getur nálgast ábendingar með því að velja heiti svæðisins. Til dæmis, á síðu eins og **Viðskiptamannaspjald** getur þú einfaldlega valið heiti svæðisins til að lesa ábendinguna. Í lista eins og **Viðskiptamenn** eða línurnar í fylgiskjali á borð við sölupöntun, þarftu að velja fellivalmyndina hægra megin við heiti dálksins og síðan velja valmyndaratriðið **Hvað er þetta?**.  
+Öllum svæðunum í [!INCLUDE[d365fin](includes/d365fin_md.md)] er lýst í ábendingum. Þú getur nálgast ábendingar með því að velja heiti svæðisins. Til dæmis, á síðu eins og **Viðskiptamannaspjald** getur þú einfaldlega valið heiti svæðisins til að lesa ábendinguna. Í lista eins og **Viðskiptamenn** eða línurnar í fylgiskjali á borð við sölupöntun, þarftu að velja fellivalmyndina hægra megin við heiti dálksins og síðan velja valmyndaratriðið **Hvað er þetta?** .  
 
 Ef þú hefur fleiri spurningar mælum við með því að þú spyrjir samfélagið eða hafir samband við endursöluaðilann þinn. Frekari upplýsingar eru í [Hvert leita ég ef ég er með spurningar?](across-faq.md#where-do-i-go-if-i-have-questions).  
 
@@ -74,8 +74,6 @@ Ef þú hefur fleiri spurningar mælum við með því að þú spyrjir samféla
 
 ## <a name="other-dynamics-365-apps"></a>Önnur Dynamics 365 forrit
 Fara á innihald um önnur Dynamics 365 forrit með því að velja [Dynamics 365](/dynamics365/) hlekkinn á svarta borðanum efst á þessari síðu. Einnig er hægt að læra meira á [Dynamics 365 Business Central vefsíðunni ](https://dynamics.microsoft.com/business-central/overview/).  
-
-<!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
 

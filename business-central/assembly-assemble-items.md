@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03b80cc7dd0ae37ba06f453e07bf585a4728039d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4d8ce273a2db6c682a205c767e28aee3792ea14b
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782269"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968306"
 ---
 # <a name="assembly-management"></a>Samsetningardeild
 Til að styðja fyrirtæki sem selja viðskiptavinum sínum vörur þar sem íhlutir eru sameinaðir í einföldum ferlum án þess að framleiðsluaðgerðir séu nauðsynlekir inniheldur [!INCLUDE[d365fin](includes/d365fin_md.md)] eiginleika til að setja saman vörur sem samþættast með fyrirliggjandi eiginleikum, t.d. sölu, áætlunum, frátektum og vöruhúsaaðgerðum.  
@@ -28,7 +28,7 @@ Til að styðja fyrirtæki sem selja viðskiptavinum sínum vörur þar sem íhl
 
  Í eina sölupöntunarlínu er hægt að selja magn sem er tiltækt og sem nauðsynlegt er að tekin séu úr birgðum ásamt magni sem verður að setja saman í pöntunina. Tilteknar reglur eru til staðar til að stýra dreifingu á slíku magni til að tryggja að sameiningarpöntunarmagnið fái forgang yfir birgðamagn í hlutaafhendingum. Nánari upplýsingar eru í hlutanum „Samsetningaraðstæður“ [Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
- Sérstakar virkni er til staðar til að stýra sendingu af sameiningarpantanamagni. Þegar magn samsetningar í pöntun er tilbúið til afhendingar bókar starfsmaðurinn í vöruhúsinu sem stjórnar birgðatínslu fyrir sölupöntunarlínuna sem um ræðir. Þetta stofnar síðan birgðahreyfingu fyrir íhlutina, bókar samsetningarfrálagið og sölupöntunarsendinguna. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga í birgðatínslu” í [Tína vörur með Birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).
+ Sérstakar virkni er til staðar til að stýra sendingu af sameiningarpantanamagni. Þegar magn samsetningar í pöntun er tilbúið til afhendingar bókar starfsmaðurinn í vöruhúsinu sem stjórnar birgðatínslu fyrir sölupöntunarlínuna sem um ræðir. Þetta stofnar síðan birgðahreyfingu fyrir íhlutina, bókar samsetningarfrálagið og sölupöntunarsendinguna. Nánari upplýsingar eru í hlutanum „Meðhöndlun íhluta pantanasamsetninga við birgðatínslu” í [Tína vörur með Birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
 
@@ -48,10 +48,14 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
+[Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)  
+[Kynning: Handvirk áætlun birgða](walkthrough-planning-supplies-manually.md)  
+[Kynning: Selja, setja saman og afhenda sett](walkthrough-selling-assembling-and-shipping-kits.md)  
 [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410748"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970465"
 ---
 # <a name="finance"></a>Fjármál
 [!INCLUDE[d365fin](includes/d365fin_md.md)] felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
@@ -54,7 +54,12 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Fylgstu með sjóðstreymi þínu. |[Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md) |
 |Fylgist með ferli frá upphafi til enda um það hvernig hægt er að nota reikningsáætlanir til að búa til sjóðstreymisspár.|[Kynning: Gera sjóðstreymisspár með því að nota fjárhagsskemu](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Vinna með fjárhagsskýrslur og yfirlit í Excel. |[Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md) |
-|Lærðu hvernig á að nota Hlutverkamiðstöð endurskoðanda, bjóða ytri endurskoðanda og nota Accountant Hub til að stjórna mörgum reikningum fyrir marga viðskiptamenn.|[Upplifun endurskoðanda í Business Central](finance-accounting.md)|  
+|Kynnið ykkur hvernig á að nota Hlutverkamiðstöð endurskoðanda, bjóða ytri endurskoðanda og nota fyrirtækjamiðstöðina til að stjórna reikningum fyrir marga viðskiptamenn.|[Upplifun endurskoðanda í Business Central](finance-accounting.md)|  
+
+## <a name="take-a-video-tour"></a>Horfa á kynningarmyndband
+Eftirfarandi myndband kynnir nokkra af helstu möguleikum í stjórnun fjármála. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning Fjármála](finance-setup-finance.md)  
