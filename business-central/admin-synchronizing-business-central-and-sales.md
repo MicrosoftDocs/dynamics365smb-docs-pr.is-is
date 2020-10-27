@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 9d3f4e86a0da5c26a84ca79b1712f2f240e347a2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617705"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922443"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Samstilling gagna í Business Central með Common Data Service
 
@@ -43,11 +43,14 @@ Einingar í [!INCLUDE[d365fin](includes/cds_long_md.md)], t.d. reikningar, eru s
 
 Eftirfarandi töflur birta staðlaða vörpun milli eininga í [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] sem [!INCLUDE[d365fin](includes/d365fin_md.md)] veitir.
 
+> [!TIP]
+> Hægt er að endurstilla breytingar á grunnstillingu sem gerðar voru á vörpunum samþættingartöflu og reita í sjálfgefnar stillingar með því að velja varpanirnar og velja síðan **Nota sjálfgefinn samstillingargrunn** .
+
 | [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Stefna samstillingar | Sjálfgefin sía |
 |---------------------------------------------|----------------------------------------------|---------------------------|----------------|
-| Sölumaður/innkaupaaðili | Notandi | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] tengiliðasía: **Staða** er **Nei**, **Notandi með leyfi** er **Já**, stilling samþættingarnotanda er **Nei** |
-| Viðskiptamaður | Reikningur | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] reikningssía: **Gerð vensla** er **Viðskiptavinur** og **Staða** er **Virkur**. [!INCLUDE[d365fin](includes/d365fin_md.md)] sía: **Lokað** er autt (viðskiptavinur er ekki útilokaður). |
-| Lánardrottinn | Reikningur | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] afmörkun á reikningi: **Venslagerð** er **Lánardrottinn** og **Staða** er **Virk**. [!INCLUDE[d365fin](includes/d365fin_md.md)] sía: **Lokað** er autt (lánardrottinn er ekki útilokaður). |
+| Sölumaður/innkaupaaðili | Notandi | [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] tengiliðasía: **Staða** er **Nei** , **Notandi með leyfi** er **Já** , stilling samþættingarnotanda er **Nei** |
+| Viðskiptamaður | Reikningur | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] reikningssía: **Gerð vensla** er **Viðskiptavinur** og **Staða** er **Virkur** . [!INCLUDE[d365fin](includes/d365fin_md.md)] sía: **Lokað** er autt (viðskiptavinur er ekki útilokaður). |
+| Lánardrottinn | Reikningur | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] afmörkun á reikningi: **Venslagerð** er **Lánardrottinn** og **Staða** er **Virk** . [!INCLUDE[d365fin](includes/d365fin_md.md)] sía: **Lokað** er autt (lánardrottinn er ekki útilokaður). |
 | Tengiliður | Tengiliður | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/d365fin_md.md)] tengiliðasía: **Gerð** er **Einstaklingur** og tengilið er úthlutað á fyrirtæki. [!INCLUDE[d365fin](includes/cds_long_md.md)] tengiliðasía: Tengiliðnum er úthlutað á fyrirtæki og yfireining viðskiptamannsgerðar er **Reikningur** |
 | Gjaldmiðill | Gjaldmiðill færslu | [!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] |  |
 

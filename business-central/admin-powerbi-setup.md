@@ -1,6 +1,6 @@
 ---
-title: Virkjun Power BI samþættingar við Business Central| Microsoft docs
-description: Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Business Central gögnum með Business Central forritunum fyrir Power BI.
+title: Virkjun Power BI samþættingar við Business Central
+description: Fáið upplýsingar um hvernig á að setja upp tenginguna við Power BI til að fá innsýn, viðskiptagreind og KPI (afkastavísa) úr gögnum Business Central með forriti Business Central fyrir Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 92b3bb1d04c58332db20c978928fe1b04ed2ab37
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: ce4b45dbe80ab1972c92cde144b457eeeaff3402
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697770"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927073"
 ---
 # <a name="enabling-power-bi-integration-with-prodshort"></a>Virkjun Power BI samþættingar við [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -27,8 +27,8 @@ Með [!INCLUDE[prodshort](includes/prodshort.md)] fá notendur ókeypis Power BI
 
 |Power-leyfi|Skoða skýrslur|Stofna skýrslur|Deila skýrslum|Uppfæra skýrslur| [!INCLUDE[prodshort](includes/prodshort.md)] Forrit|
 |-------------|--------||
-|Power BI laus|![ávísun](media/check.png)|![ávísun](media/check.png)|(takmarkað)|(takmarkað)||
-|Power BI Pro|![ávísun](media/check.png)|![ávísun](media/check.png)|![ávísun](media/check.png)|(ítarlegt)|![ávísun](media/check.png)|
+|Power BI laus|![hak](media/check.png)|![annað hak](media/check.png)|(takmarkað)|(takmarkað)||
+|Power BI Pro|![enn eitt hakið](media/check.png)|![þetta er hak](media/check.png)|![aftur hak](media/check.png)|(ítarlegt)|![síðasta hakið](media/check.png)|
 
 Frekari upplýsingar er að finna í [Leyfi fyrir Power BI þjónustunni fyrir notendur í fyrirtækinu](/power-bi/admin/service-admin-licensing-organization) eða [Skráning á þjónustunni Power BI sem einstaklingur](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 

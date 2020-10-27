@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 37ee56fef2f7424e0655303f2a6111a8b3eae94f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 11efef293064aa5624bc0a5af2c59002ccd914d6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195316"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923371"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finndu síður og upplýsingar með Viðmótsleit  
 Þetta efnisatriði lýsir því hvernig Viðmótsleit getur hjálpað þér að komast hratt á staði eins og aðgerðir, síður eða skýrslur, finna upplýsingar um hvernig á að ljúka ákveðnu verki og uppgötva önnur forrit og ráðgjafarþjónustur fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -25,11 +25,11 @@ ms.locfileid: "3195316"
 
 Þegar þú þarft hjálp við að finna eitthvað skaltu nota ![Segðu mér hvað þú vilt gera](media/ui-search/search.png "Leit að síðu eða skýrslu")**Segðu mér hvað þú vilt að gera** táknið til að leita að því. Þú getur líka notað ALT + Q til að byrja að nota Viðmótsleit.
 
-Þegar þú byrjar að skrifa stafi birtir [!INCLUDE[d365fin](includes/d365fin_md.md)] strax samsvörun. Niðurstöður í listanum breytast þegar þú skrifar fleiri stafi. Ef þú tekur eftir því að þegar þú slærð inn orðið „afurð“ og niðurstöðurnar innihalda **Vörur**, er það vegna þess að Viðmótsleitin notar samheiti og önnur leitarorð til að auðvelda að finna aðgerðir, síður og skýrslur.
+Þegar þú byrjar að skrifa stafi birtir [!INCLUDE[d365fin](includes/d365fin_md.md)] strax samsvörun. Niðurstöður í listanum breytast þegar þú skrifar fleiri stafi. Ef þú tekur eftir því að þegar þú slærð inn orðið „afurð“ og niðurstöðurnar innihalda **Vörur** , er það vegna þess að Viðmótsleitin notar samheiti og önnur leitarorð til að auðvelda að finna aðgerðir, síður og skýrslur.
 
 Hægri dálkurinn tilgreinir almennan flokk af niðurstöðum. Til dæmis, hvort það mun opna listasíðu eða er stjórnsýsluverk.  
 
-Neðst í glugganum **Viðmótsleit** er aðgerð sem heitir **kanna**, sem opnar yfirlit yfir eiginleika sem sýna alla tiltækir eiginleikar fyrir hlutverk þitt eða fyrir öll hlutverk. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md)
+Neðst í glugganum **Viðmótsleit** er aðgerð sem heitir **kanna** , sem opnar yfirlit yfir eiginleika sem sýna alla tiltækir eiginleikar fyrir hlutverk þitt eða fyrir öll hlutverk. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md)
 
 > [!NOTE]  
 >   Ef þú vilt nota lyklaborðið skaltu nota dálkalykilinn og örvatakkana til að velja atriði í niðurstöðum. Ef þú ýtir á færslulykilinn á lyklaborðinu þínu án þess að velja niðurstöðu, opnar [!INCLUDE[d365fin](includes/d365fin_md.md)] niðurstöðuna sem er fyrst skráð.

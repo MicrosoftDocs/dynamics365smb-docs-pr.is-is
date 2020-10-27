@@ -8,22 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617912"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927023"
 ---
 # <a name="design-details-costing-methods"></a>Hönnunarupplýsingar: Aðferð kostn.útreiknings
 
 Það veltur á aðferð við kostnaðarútreikning hvort raunverulegt eða áætlað virði nýtist og sé notað við kostnaðarútreikning. Kostnaðaraðferðin hefur líka áhrif á það hvernig kostnaðarflæðið er skráð, ásamt bókunardagsetningu og lotu.
 
 > [!NOTE]
-> Ekki er hægt að breyta aðferð kostnaðarútreiknings fyrir vöru ef birgðabókarfærslur eru til fyrir vöruna.<br /><br />
-> Upplýsingar birtast fljótlega hér um hjáleiðir til að breyta aðferð kostnaðarútreiknings við sérstakar aðstæður.
+> Ekki er hægt að breyta aðferð kostnaðarútreiknings fyrir vöru ef birgðabókarfærslur eru til fyrir vöruna. Frekari upplýsingar er að finna í [Hönnunarupplýsingar: Breyta kostnaðarútreikningi fyrir vörur](design-details-changing-costing-methods.md).
 
 Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -41,10 +40,10 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md
 
  Aðferð kostnaðarútreiknings eru mismunandi í því hvernig þeir meta birgðaminnkun og hvort þær nota raunkostnað eða staðalkostnað vörubirgðir sem grunn matsins. Eftirfarandi tafla útskýrir mismunandi einkenni. (LIFO-aðferðin er útilokuð þar sem hún er mjög svipuð FIFO-aðferðinni.)  
 
-|<!--blank -->|FIFO|Meðaltal|Staðall|Sérstakt|  
+|Tegund|FIFO|Meðaltal|Staðlað|Sérstakt|  
 |-|----------|-------------|--------------|--------------|  
-|Almennir eiginleikar|Auðskilið|Byggt á tímabilsvalkostum: **Dagur**/**/Vika/**/**Mánuður**/**/Ársfjórðungur/**/**Reikningstímabil**.<br /><br /> Hægt að reikna út á vöru , eða á vörueiningu/staðsetningu/afbrigði.|Einfalt í notkun en þarf gott viðhald.|Krefst vörurakningar á bæði færslur á innleið og útleið.<br /><br /> Venjulega notað fyrir vörur með raðnúmer.|  
-|Jöfnun/Leiðrétting|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Leiðrétting framsendir kostnað í samræmi við jöfnun magns.|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Kostnaður er reiknaður og sendur á **dagsetningu mats**|Jöfnun rekur **eftirstandandi magn**.<br /><br /> Jöfnun byggist á FIFO.|Allar jafnanir eru fastar.|  
+|Almennir eiginleikar|Auðskilið|Byggt á tímabilsvalkostum: **Dagur**/**/Vika/**/**Mánuður**/**/Ársfjórðungur/**/**Reikningstímabil** .<br /><br /> Hægt að reikna út á vöru , eða á vörueiningu/staðsetningu/afbrigði.|Einfalt í notkun en þarf gott viðhald.|Krefst vörurakningar á bæði færslur á innleið og útleið.<br /><br /> Venjulega notað fyrir vörur með raðnúmer.|  
+|Jöfnun/Leiðrétting|Jöfnun rekur **eftirstandandi magn** .<br /><br /> Leiðrétting framsendir kostnað í samræmi við jöfnun magns.|Jöfnun rekur **eftirstandandi magn** .<br /><br /> Kostnaður er reiknaður og sendur á **dagsetningu mats**|Jöfnun rekur **eftirstandandi magn** .<br /><br /> Jöfnun byggist á FIFO.|Allar jafnanir eru fastar.|  
 |Endurmat|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að gera á vöru eingöngu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Uppreiknar innheimt og óreikningsfærðan magn.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|Uppreiknar reikningsfært magn eingöngu.<br /><br /> Er hægt að reikna út á vöru eða birgðafærslu.<br /><br /> Er hægt að gera aftur á bak í tíma.|  
 |Ýmislegt|Ef birgðaminnkun er endurdagsett eru færslur sem fyrir eru EKKI endurjafnaðar til að setja fram rétt FIFO-kostnaðarflæði.|Ef birgðaaukning eða -minnkun er endurdagsett er meðalkostnaðurinn endurreiknaður og allar færslur sem verða fyrir áhrifum eru leiðréttar.<br /><br /> Ef tímabili eða gerð útreikninga er breytt verður að leiðrétta allar færslur sem verða fyrir áhrifum.|Notaðu síðuna **Staðlað vinnublað** til að uppfæra reglulega og taka saman staðalkostnaði.<br /><br /> Er EKKI studd á birgðahaldseiningu.<br /><br /> Engar sögulegar færslur eru til staðar fyrir staðlaðan kostnað.|Hægt er að nota sértæka vörurakninguán þess að nota Tilgreinda aðferð kostnaðarútreiknings. Kostnaðurinn mun þá EKKI fylgja lotunúmerinu, heldur kostnaðaráætlun valinnar aðferðar kostnaðarútreiknings.|  
 
@@ -68,9 +67,9 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md
 ### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Áhrif aðferða við kostnaðarútreikning til að meta birgðaminnkun  
  **FIFO**/**LIFO**/**Meðaltal**/**Sérstakt**  
 
- Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem grunn fyrir verðmat (**FIFO (fyrst inn - fyrst út)**, **LIFO (síðast inn - fyrst út)**, **Meðaltal** eða **Tilgreint**), er birgðaaukning metin á kaupverði vörunnar.  
+ Fyrir vörur með kostnaðarútreikninga sem nota raunverulegan kostnað sem grunn fyrir verðmat ( **FIFO (fyrst inn - fyrst út)** , **LIFO (síðast inn - fyrst út)** , **Meðaltal** eða **Tilgreint** ), er birgðaaukning metin á kaupverði vörunnar.  
 
- Eftirfarandi tafla sýnir hvernig birgðir sem aukast eru metnar fyrir allar kostnaðarmatsaðferðir utan **Staðlað**.  
+ Eftirfarandi tafla sýnir hvernig birgðir sem aukast eru metnar fyrir allar kostnaðarmatsaðferðir utan **Staðlað** .  
 
 |Bókunardags.|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -82,7 +81,7 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md
 
  Þegar notuð er kostnaðaraðferðin **Staðlað** er birgðaaukning metin á því staðalverði vörunnar sem er í gildi.  
 
- Eftirfarandi tafla sýnir hvernig birgðir sem aukast eru metnar fyrir kostnaðarmatsaðferðina **Staðlað**.  
+ Eftirfarandi tafla sýnir hvernig birgðir sem aukast eru metnar fyrir kostnaðarmatsaðferðina **Staðlað** .  
 
 |Bókunardags.|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -97,7 +96,7 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md
 
  Kostnaður seldra vara er reiknuð með virði fyrstu birgðakaupa.  
 
- Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **FIFO (fyrst inn - fyrst út)**.  
+ Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **FIFO (fyrst inn - fyrst út)** .  
 
 |Bókunardags.|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -111,7 +110,7 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md
 
  Kostnaður seldra vara er reiknuð með virði síðustu birgðakaupa.  
 
- Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **LIFO (fyrst inn - fyrst út)**.  
+ Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **LIFO (fyrst inn - fyrst út)** .  
 
 |Bókunardags.|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -121,9 +120,9 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md
 
  **Meðaltal**  
 
- Aðferð við útreikning meðalkostnaðari **Meðaltal**metur birgðaminnkun með því að reikna út vegið meðaltal eftirstandandi birgða á síðasta degi meðalkostnaðartímabils þar sem birgðaminnkun var bókuð. Nánari upplýsingar eru í [Upplýsingar um hönnun: Meðalkostnaður](design-details-average-cost.md).  
+ Aðferð við útreikning meðalkostnaðari **Meðaltal** metur birgðaminnkun með því að reikna út vegið meðaltal eftirstandandi birgða á síðasta degi meðalkostnaðartímabils þar sem birgðaminnkun var bókuð. Nánari upplýsingar eru í [Upplýsingar um hönnun: Meðalkostnaður](design-details-average-cost.md).  
 
- Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **Meðaltal**.  
+ Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **Meðaltal** .  
 
 |Bókunardags.|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -135,7 +134,7 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md
 
  Fyrir vörur sem nota aðferðina **Staðlað** til kostnaðarútreiknings er birgðaminnkun metin svipað og í kostnaðarútreikningnum **FIFO (fyrst inn - fyrst út)** nema að verðmat er byggt á staðalkostnaði, ekki raunverulegur kostnaður.  
 
- Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **Staðlað**.  
+ Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **Staðlað** .  
 
 |Bókunardags.|Magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |------------------|--------------|----------------------------|---------------|  
@@ -149,7 +148,7 @@ Eftirfarandi aðferðir eru studdar í [!INCLUDE[d365fin](includes/d365fin_md.md
 
  Fyrir vörur sem nota aðferðina **Tilgreint** við kostnaðarútreikning er birgðaminnkun metin á grunni birgðaaukningarinnar sem er tengt í með föstu jöfnuninni.  
 
- Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **Sérstakt**.  
+ Eftirfarandi tafla sýnir hvernig birgðir sem minnka eru metnar fyrir kostnaðarmatsaðferðina **Sérstakt** .  
 
 |Bókunardags.|Magn|Kostnaðarupphæð (raunverul.)|Jafna færslu|Færslunr.|  
 |------------------|--------------|----------------------------|-----------------------|---------------|  

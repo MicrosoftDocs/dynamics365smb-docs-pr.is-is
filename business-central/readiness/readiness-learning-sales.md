@@ -1,16 +1,16 @@
 ---
 title: Vörulisti samstarfsaðila vegna sölu og markaðssetningar
-description: Finndu allt það nám sem er í boði fyrir Business Central.
+description: Finnið allt það nám sem er í boði fyrir sölu- og markaðshlutverk samstarfsaðila í Business Central.
 author: loreleishannonmsft
-ms.date: 04/30/2020
+ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: 4b6fd743dd65cacb3d3e9ffa91b46cb9cc69cbd1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781486"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926648"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Vörulisti samstarfsaðila vegna sölu og markaðssetningar
 
@@ -22,7 +22,7 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 
 | Efni     | Description    | Snið                                | Lengd              |
 |-------------|----------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Aðeins fyrir samstarfsaðila) Þessi lota gerir grein fyrir gildi Business Central. Business Central er sérlega gagnlegt vegna þess að það er samþættast við aðra skýjaþjónustu Microsoft, þ.m.t. Office 365 og hægt er að sérsníða það eða stækka fyrir tilteknar þarfir í iðnaði með Power Apps, Power Automate og Power BI. | Myndband                                 | 8 mínútur 5 sekúndur |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Aðeins fyrir samstarfsaðila) Þessi lota gerir grein fyrir gildi Business Central. Business Central er sérlega gagnlegt vegna þess að það er samþættast við aðra skýjaþjónustu Microsoft, þ.m.t. Microsoft 365 og hægt er að sérsníða það eða stækka fyrir tilteknar þarfir í iðnaði með Power Apps, Power Automate og Power BI. | Myndband                                 | 8 mínútur 5 sekúndur |
 | [Skoða Dynamics 365 Business Central möguleika](https://dynamics.microsoft.com/business-central/capabilities/) | Skoða Dynamics 365 Business Central möguleika    | Vefsvæði    |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Þessi eining sýnir eiginleika forrita, ávinning og dæmi um Dynamics 365 Business Central í aðgerð.    | Ókeypis námsleið á netinu á eigin hraða | 24 mínútur          |
 
@@ -43,7 +43,6 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 | [Leita að sögum viðskiptavina](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Finndu tilvísunarsögur viðskiptamanna fyrir Dynamics 365 Business Central á [https://customer.microsoft.com](https://customer.microsoft.com).  | Vefsvæði |                       |
 | [Áætlun skýjalausnarþjónustu](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Aðeins fyrir samstarfsaðila) Um áætlun skýjalausnarþjónustu     | Vefsvæði |                       |
 | [Markaðssetning í Skýjaheimi](https://mbspartner.microsoft.com/OSS/Topic/19) | (Aðeins fyrir samstarfsaðila) Umfjöllun um hvernig skuli hámarka venjur við markaðssetningu og endurhugsa grundvallarhugmyndir um markaðssetningu fyrir skýjamiðað umhverfi verður meginatriðið í því hvort fyrirtækið þitt haldi áfram á beinu brautinni eða ekki. Þessi röð myndbanda og tilfanga býður upp á bestu venjur í markaðssetningu, leiðsögn um efni, hagnýtar ábendingar og gagnleg verkfæri til að nota grunnhugmyndir um markaðssetningu í skýi til að auka eftirspurn eftir þínum lausnum. | Efnisatriði | 35 mínútur |
-| [Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)        | (Aðeins fyrir samstarfsaðila) Umfjöllun um hvernig skuli hámarka venjur við markaðssetningu og endurhugsa grundvallarhugmyndir um markaðssetningu fyrir skýjamiðað umhverfi verður meginatriðið í því hvort fyrirtækið þitt haldi áfram á beinu brautinni eða ekki. Þessi röð myndbanda og tilfanga býður upp á bestu venjur í markaðssetningu, leiðsögn um efni, hagnýtar ábendingar og gagnleg verkfæri til að nota grunnhugmyndir um markaðssetningu í skýi til að auka eftirspurn eftir þínum lausnum.   | Efnisatriði    | 35 mínútur            |
 | [Áætlun skýjalausnarþjónustu - sala á skýjalausnum í eftirspurn](https://docs.microsoft.com/partner-center/csp-overview)  | Áætlun skýjalausnarþjónustu (CSP) auðveldar þér að fara úr því að endurselja leyfi og yfir í taka meiri þátt í rekstri viðskiptamanna þinna.   | Vefsvæði      |                       |
 | [Áætlun skýjalausnarþjónustu - samanburður á stuðningsáætlunum samstarfsaðila](https://partner.microsoft.com/support/partnersupport) | Horfðu á þetta myndband til að sjá hvernig þú getur valið rétta stuðningsáætlun fyrir fyrirtækið þitt. Sjáðu síðan samanburð hlið við hlið hér að neðan.    | Vefsvæði                               |                       |
 | [Hraðari sala með SureStep í skýi](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Aðeins fyrir samstarfsaðila) Söluferlið fyrir hraðari sölu með SureStep í skýi er byggt á þörfum nútímakaupanda og kappkostar við að höfða til tilfinninga og reynslu snemma í söluferlinu. Þessi röð myndbanda og tilfanga útskýrir hefðbundið söluferli sem er sérstaklega hannað til að koma í stað dæmigerðra lausna í sölutækni með tímafrekum skýringum sem yfirleitt leiða til mjög sérhæfðrar vörukynningar, flókinna söluferla og löngum innleiðingarverkum. Safn tilfanga inniheldur fjölda sérstilltra sniðmáta svo þú getur búið til þitt eigið safn af sölum til að styðja við hraðari sölu. | Vefsvæði     |                       |

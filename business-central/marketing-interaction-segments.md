@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: faab1c6273d3e7c09c44f42104da55296859139e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6a363007ece179430949d0fc0c62cb9df3fc9dac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181437"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923646"
 ---
 # <a name="manage-interactions-for-segments"></a>Vinna með samskipti fyrir hluta
 Síðan **Hluti** er eins konar vinnublað þar sem hægt er að:
@@ -37,10 +37,10 @@ Hægt er að stofna hluta með nokkrum leiðum:
 ## <a name="interactions"></a>Samskipti
 Á síðunni **Hluti** er hægt að stofna samskipti fyrir marga tengiliði samtímis. Til dæmis er hægt að blanda hluta við Microsoft Word skjal þannig að hægt sé að senda öllum tengiliðum í hlutanum bréf.
 
-Upplýsingar um samskiptin sem varða hlutann geta birst á **hlutahausnum**. Til dæmis má ákveða hvaða samskiptasniðmát eigi að nota fyrir alla tengiliði, tilgreina lýsingu, tegund samskipta, og svo framvegis. Þó er hægt að breyta þessum upplýsingum í hlutalínu einstakra tengiliða, til dæmis með því að tilgreina aðra lýsingu fyrir ákveðin tengilið. Ef verið er að blanda hluta við Microsoft Word skjal er hægt að sérsníða skjalið fyrir einn eða fleiri tengiliði í hlutanum með því, til dæmis, að bæta sérsniðnum athugasemdum við skjalið.
+Upplýsingar um samskiptin sem varða hlutann geta birst á **hlutahausnum** . Til dæmis má ákveða hvaða samskiptasniðmát eigi að nota fyrir alla tengiliði, tilgreina lýsingu, tegund samskipta, og svo framvegis. Þó er hægt að breyta þessum upplýsingum í hlutalínu einstakra tengiliða, til dæmis með því að tilgreina aðra lýsingu fyrir ákveðin tengilið. Ef verið er að blanda hluta við Microsoft Word skjal er hægt að sérsníða skjalið fyrir einn eða fleiri tengiliði í hlutanum með því, til dæmis, að bæta sérsniðnum athugasemdum við skjalið.
 
 ## <a name="logging"></a>Skráning
-Þegar smellt er á **Skrá** á síðunni **Hluti** skráir forritið samskiptin í gluggann **Samskiptaskráningarfærsla** og skráir hlutann. Þegar hlutinn hefur verið skráður er aðeins hægt að nálgast hann á síðunni **Skráðir hlutar**.
+Þegar smellt er á **Skrá** á síðunni **Hluti** skráir forritið samskiptin í gluggann **Samskiptaskráningarfærsla** og skráir hlutann. Þegar hlutinn hefur verið skráður er aðeins hægt að nálgast hann á síðunni **Skráðir hlutar** .
 
 Á síðunni **Skráðir hlutar** er hægt ákveða að stofna eftirfylgnihluta með sömu tengiliðum og í skráða hlutanum.
 

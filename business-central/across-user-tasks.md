@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e1e6520aeb39a77ecfcbf652b8c328d1595d6f6f
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577202"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922618"
 ---
 # <a name="define-user-tasks"></a>Skilgreina notandaverk
 
@@ -25,7 +25,7 @@ ms.locfileid: "3577202"
 
 Síðan **Notandaverkefni** sýnir öll verkefni og auðvelt er að búa til og úthluta nýjum verkefnum. Þegar þú býrð til verkefni getur þú tilgreint upphafsdag og lokadag og þú getur bætt við tengli á síðuna eða skýrsluna í [!INCLUDE[d365fin](includes/d365fin_md.md)] þar sem notandinn verður að framkvæma verkið.  
 
-Þú getur til dæmis búið til verkefni fyrir sjálfa(n) þig eða samstarfsfélaga til að skoða alla bókaða sölureikninga. Í því tilviki tengir þú verkefnið við síðu 143, **Bókaðir sölureikningar**. Í eftirfarandi skjáskotum er einhver að búa til verk fyrir MeganB til að yfirfara bókaða sölureikninga.  
+Þú getur til dæmis búið til verkefni fyrir sjálfa(n) þig eða samstarfsfélaga til að skoða alla bókaða sölureikninga. Í því tilviki tengir þú verkefnið við síðu 143, **Bókaðir sölureikningar** . Í eftirfarandi skjáskotum er einhver að búa til verk fyrir MeganB til að yfirfara bókaða sölureikninga.  
 
 :::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Dæmi um notandaverkefni":::
 

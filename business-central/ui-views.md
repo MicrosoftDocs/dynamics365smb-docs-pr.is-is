@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5037168780e14d7774843223726bb6092ff2d306
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 93d1fffed38ce57e76b6451be071700c1ce07b2c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778261"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925502"
 ---
 # <a name="save-and-personalize-list-views"></a>Vista og sérsníða listayfirlit
 Þegar búið er að setja afmörkun á lista og ætlunin er að geyma síuna síðar er hægt að vista hana sem yfirlit. Frekari upplýsingar um síulista er að finna í [Síur stilltar á lista](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -32,7 +32,7 @@ Ef Yfirlit er til staðar, birtist flokkurinn **Yfirlit** efst í síuglugganum.
 5. Ef verið er að vista nýtt yfirlit skal færa inn heiti fyrir yfirlitið í hólfinu **Allt (afrit)** t.d. „vörur sem ég á“.
 6. Ýttu á færslulykilinn eða færðu bendilinn úr textareitnum til að samþykkja heitið.
 
-Ef ekki er gefið upp nafn verður það nefnt **Allt (afrit)**.
+Ef ekki er gefið upp nafn verður það nefnt **Allt (afrit)** .
 
 ## <a name="to-rename-or-remove-a-view"></a>Til að endurnefna eða fjarlægja yfirlit
 1. Til að skoða núverandi yfirlit sem birtir listann skal velja táknið ![Sýna fleiri valkosti](media/show-more-options-icon.png "Sýna fleiri valkosti") til að sjá hvaða valkostir eru í boði.

@@ -1,8 +1,6 @@
 ---
 title: Stofna og viðhalda tengiliðum fyrirtækis| Microsoft Docs
 description: Settir eru upp sem tengiliðir allir ytri aðilar sem fyrirtækið hefur viðskiptatengsl við (til dæmis viðföng, viðskiptamenn, lánadrottnar og ráðgjafar).
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e1c951a3eb0a8b519ac5c0f7c5112cb40272219
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ea0bf893088694115e5cb54f2b9500bb4eacf6ac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779262"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922769"
 ---
 # <a name="managing-contacts"></a>Vinna með tengiliði
+
 Starfsmenn í fyrirtækinu þínu komast reglulega í kynni við væntanleg viðskiptatengsl sem geta þróast yfir í formleg samskipti. Allir slíkir ytri tengiliðir og ítarlegar upplýsingar þeirra ættu að vera skráðar í kerfið svo að samskiptin verði árangursríkari og svo auðvelt sé að breyta þeim í formleg samskipti við viðskiptavin, lánardrottin eða banka.
+
+Notið listann **Tengiliðir** til að hafa umsjón með tengiliðum. Þaðan er hægt að stofna tækifæri og vinna með önnur samskipti við einstaka tengiliði. Einnig er hægt að skoða talnagögn um tengiliði og hægt er að opna ýmsar skýrslur. Frekari upplýsingar um hvernig á að finna réttan tengilið í listanum er að finna í [Röðun, leit, og síun](ui-enter-criteria-filters.md).  
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
@@ -32,5 +33,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Leystu misskilning þegar tvær eða fleiri færslur eru fyrir sama tengilið.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
+[Röðun, leit, og síun](ui-enter-criteria-filters.md)  
 [Unnið með Business Central](ui-work-product.md)  

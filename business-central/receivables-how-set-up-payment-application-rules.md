@@ -8,26 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 255f7c66dc040f10aeae76b5ed08920ad8c1f77f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 37b999dd9000ac9833798f827f85bfd945878638
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782750"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926398"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum
 
 Á síðunni **Greiðslujöfnunarreglur** seturðu upp reglur til að stjórna því hvernig greiðslutexti (á bankafærslu) er sjálfkrafa jafnaður við texta á opnum færslum í eftirfarandi tveimur ferlum:
 
-- Jafna greiðslur sjálfkrafa við tengda opna (ógreidda) reikninga, kreditreikninga eða aðrar færslur þegar aðgerðin **Nota sjálfkrafa** er notuð á síðunni **Greiðsluafstemmingarbók**. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
+- Jafna greiðslur sjálfkrafa við tengda opna (ógreidda) reikninga, kreditreikninga eða aðrar færslur þegar aðgerðin **Nota sjálfkrafa** er notuð á síðunni **Greiðsluafstemmingarbók** . Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
-- Jafna sjálfkrafa bankafærslur við tengdar, innri fjárhagsfærslur bankareiknings þegar þú velur aðgerðina **Jafna sjálfkrafa** á síðunni **Afstemming bankareiknings**. Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).
+- Jafna sjálfkrafa bankafærslur við tengdar, innri fjárhagsfærslur bankareiknings þegar þú velur aðgerðina **Jafna sjálfkrafa** á síðunni **Afstemming bankareiknings** . Frekari upplýsingar er að finna í [Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md).
 
 Hægt er að setja upp greiðslujöfnunarreglur með því að velja hvaða gerðir gagna á greiðsluafstemmingarbókarlínu verða að passa við gögn á einni eða fleiri opinni færslu áður en tengda greiðslan er sjálfkrafa jöfnuð við opnu færslurnar. Gæði hverrar sjálfvirkrar jöfnunar er sýnd sem gildið **Lágt** til **Hátt** í reitnum **Áreiðanleiki jöfnunar** á síðunni **Greiðsluafstemmingarbók** samkvæmt greiðslujöfnunarreglunni sem var notuð.
 
-Hver röð á síðunni **Greiðslujöfnunarreglur** stendur fyrir greiðslujöfnunarreglu. Reglur eru notaðar í þeirri röð sem tilgreind er í reitnum **Flokkunarröð**. Ef margar reglur eru notaðar á sama tíma þá er áreiðanleiki samsvörunar af hæstu reglu notaður.
+Hver röð á síðunni **Greiðslujöfnunarreglur** stendur fyrir greiðslujöfnunarreglu. Reglur eru notaðar í þeirri röð sem tilgreind er í reitnum **Flokkunarröð** . Ef margar reglur eru notaðar á sama tíma þá er áreiðanleiki samsvörunar af hæstu reglu notaður.
 
 Sjálfvirk virkni jöfnunar byggir á vörpunarskilyrðum með forgangi. Fyrst reynir fallið, í forgangsröð, að para saman texta í reitunum fimm sem merktir eru **Tengdur aðili** á færslubókarlínu með texta í bankareikningi, nafni eða aðsetri viðskiptamanna eða lánardrottna með ógreidd skjöl sem tákna opnar færslur. Síðan reynir aðgerðin að para saman texta í reitunum **Færslutexti** og **Viðbótarfærsluupplýsingar** í færslubókarlínu við texta í reitunum **Nr. ytra skjals** og **Nr. fylgiskjals** í opnum færslum. Að lokum reynir aðgerðin að tengja upphæðina í reitnum **Upphæð yfirlits** í færslubókarlínu við upphæðina á opnum færslum.
 
@@ -46,7 +46,7 @@ Auk jöfnunarskilyrðanna í töflunni gildir eftirfarandi um merki greiðsluupp
 |Svæði|Description|
 |-|-|
 |**Áreiðanleiki samsvörunar**|Tilgreinir áreiðanleikamat þitt á jöfnunarreglu sem er tilgreind fyrir línuna. <br /></br>Gildi sem þú skilgreinir í þessum reit birtist í reitnum **Áreiðanleiki samsvörunar** á síðunni **Greiðsluafstemmingarbók** í samræmi við gæði sjálfvirkrar greiðslujöfnunar í færslubókarlínunni.|
-|**Forgangur**|Tilgreinir forgang jöfnunarreglunnar í tengslum við aðrar jöfnunarreglur sem eru skilgreindar sem línur á síðunni **Greiðslujöfnunarreglur**. 1 táknar hæsta forgang.|
+|**Forgangur**|Tilgreinir forgang jöfnunarreglunnar í tengslum við aðrar jöfnunarreglur sem eru skilgreindar sem línur á síðunni **Greiðslujöfnunarreglur** . 1 táknar hæsta forgang.|
 |**Samsvörun fannst fyrir tengdan aðila**|Tilgreinir hversu miklar upplýsingar um viðskiptamann eða lánardrottin, t.d heimilisfang, borgarheiti og bankareikningsnúmer, á færslubókarlínu greiðsluafstemmingar þurfa að passa við upplýsingar um opnu færsluna áður en jöfnunarreglan verður notuð til að jafna sjálfvirkt greiðslu sjálfkrafa við opnu færsluna.|
 |**Samsvörun fannst fyrir skjalsnr./nr. ytra skjals**|Tilgreinir hvort texti á færslubókarlínu greiðsluafstemmingar þarf að samsvara gildinu í reitnum **Nr. fylgiskjals** eða reitnum **Númer ytra skjals** á opnu færslunni áður en jöfnunarreglan verður notuð til að jafna sjálfvirkt greiðslu við opnu færsluna.|
 |**Samsvörun fannst fyrir upphæð með vikmörkum**|Tilgreinir hversu margar færslur fyrir viðskiptamann eða lánardrottin þurfa að samsvara upphæðinni með greiðsluvikmörkum áður en jöfnunarreglan verður notuð til að jafna sjálfvirkt greiðslu við opnu færsluna.|

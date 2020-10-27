@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: f782b3ce19baa29d9268f3fdf742d2aa6112957f
-ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
+ms.openlocfilehash: b25413c8f0479aaccfc67ae96f2870690f993dfa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534593"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927273"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Skoða og breyta í Excel From Business Central
 
@@ -30,7 +30,7 @@ Með síðum sem birta lista yfir færslur í línum og dálkum, eins og lista y
 - Þessi aðgerð virkar bæði í Windows og macOS.
 
 > [!NOTE]
-> **Open í Excel** aðgerðin er sjálfgefið tiltæk fyrir [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss. Ef þú setur hins vegar upp [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss fyrir breytingar í Excel er **Opna í Excel** aðgerðinni skipt út fyrir aðgerðina **Breyta í Excel**.
+> **Open í Excel** aðgerðin er sjálfgefið tiltæk fyrir [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss. Ef þú setur hins vegar upp [!INCLUDE[prodshort](includes/prodshort.md)] innanhúss fyrir breytingar í Excel er **Opna í Excel** aðgerðinni skipt út fyrir aðgerðina **Breyta í Excel** .
 
 ## <a name="edit-in-excel"></a>Breyta í Excel
 
@@ -40,7 +40,7 @@ Með síðum sem birta lista yfir færslur í línum og dálkum, eins og lista y
 
 - Það virkar aðeins á Windows; ekki macOS.
 
-- Hægt er að skipta um fyrirtæki sem unnið er með. Til að gera þetta skal velja **Valkostir** táknið, ![Valkostir Excel-innbótar](media/cogwheel.png "Valkostir Excel-innbótar") í svæði Excel-innbótar og síðan velja fyrirtækið í reitnum **Fyrirtæki**.  
+- Hægt er að skipta um fyrirtæki sem unnið er með. Til að gera þetta skal velja **Valkostir** táknið, ![Valkostir Excel-innbótar](media/cogwheel.png "Valkostir Excel-innbótar") í svæði Excel-innbótar og síðan velja fyrirtækið í reitnum **Fyrirtæki** .  
 
     > [!IMPORTANT]
     > Þegar skipt er um fyrirtæki skal ganga úr skugga um að reiturinn **Umhverfi** sé ekki auður. Ef svo er skal stilla hann á einn af tiltækum valkostum, annars virkar innbótin ekki sem skyldi.  
@@ -59,5 +59,6 @@ Ef verið er að gera breytingar á innbótinni verður að endurhlaða hana svo
 
 ## <a name="see-also"></a>Sjá einnig
 
+[Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
 [Unnið með Business Central](ui-work-product.md)  
 [Endurbætur á Excel-samþættingu í 2019 útgáfu 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  

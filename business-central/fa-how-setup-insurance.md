@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f0711159c2a78b81932d429b6e8ff5c915fafaa
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e7396b4acfbed7199e1364287cfb7e8dcbe57c19
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788597"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924229"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Uppsetning vátryggingar eignar.
 Til að stjórna vátryggingasviði eigna, þarf fyrst að setja upp nokkrar almennar vátryggingaupplýsingar og vátryggingarspjald á hvert tryggingaskírteini.
@@ -42,7 +42,7 @@ Hægt er að safna saman upplýsingum um hverja vátryggingu á vátryggingaspja
 3. Fyllið inn reitina eftir þörfum.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Uppsetning vátryggingabókasniðmáta
-[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar sjálfkrafa vátryggingarsniðmát í fyrsta skipti sem þú opnar síðuna **Vátryggingabók**, en þú getur sett upp viðbótarsniðmát færslubókar. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] skapar sjálfkrafa vátryggingarsniðmát í fyrsta skipti sem þú opnar síðuna **Vátryggingabók** , en þú getur sett upp viðbótarsniðmát færslubókar. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát vátryggingabóka** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
@@ -55,7 +55,7 @@ Hægt er að setja upp keyrslur í sniðmáti vátryggingabókar. Gildin í keyr
 3. Á síðunni **vátryggingarbókarkeyrslur** þarf að fylla reitina út eftir þörfum.
 
 > [!NOTE]  
->   Tölur hafa sérstaka þýðingu í færslubókarheitum. Ef tala er í heiti færslubókarsniðmáts, hækkar hún sjálfkrafa um einn í hvert sinn sem færslubókin er bókuð. Ef til dæmis HH1 er fært inn í reitinn **Heiti**, mun færslubókarheitið breytast í HH2 eftir bókun.
+>   Tölur hafa sérstaka þýðingu í færslubókarheitum. Ef tala er í heiti færslubókarsniðmáts, hækkar hún sjálfkrafa um einn í hvert sinn sem færslubókin er bókuð. Ef til dæmis HH1 er fært inn í reitinn **Heiti** , mun færslubókarheitið breytast í HH2 eftir bókun.
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning eigna](fa-setup.md)  

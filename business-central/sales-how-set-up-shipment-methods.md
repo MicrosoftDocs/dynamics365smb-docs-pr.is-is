@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoterms
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 117af16fe6536f8db49eb3066e7e06a88450897f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 48a75bd1d5a47e6e91ed64868f15743713e40ec4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780861"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926048"
 ---
 # <a name="set-up-shipment-methods"></a>Afhendingarmátar settir upp
 Afhendingarmátar, einnig kallaðir inco-skilmálar, ráðast oft á vörunum, viðskiptamönnum og lánardrottnum. Ef viðskiptamaður býr til dæmis á eyju getur hann valið um að fá vörur alltaf sendar með flugi eða skipi. Sumir viðskiptamenn gætu þurft afhendingu næsta dag. Sumir gætu viljað sækja pöntunina. Á viðskiptamanna- og lánardrottnaspjöldunum má tilgreina hvernig afhendingin á að vera.
 
-Þú setur upp lýsingu og kóða fyrir hvern afhendingarmáta á síðunni **Afhendingarmátar**. Hægt er til dæmis að stofna kóðann FOB og skrá Free on Board í reitinn **Lýsing**. Síðan er hægt að skrá kóðann í reitina fyrir **Kóði afhendingarmáta** annars staðar í kerfinu, t.d. á viðskiptamannaspjald. Síðan þegar þú stofnar nýjar pantanir, reikninga, kreditreikninga, o.s.frv. færir kerfið inn lýsinguna sem kóðinn stendur fyrir. Hægt er að breyta honum í skjalinu eftir þörfum.
+Þú setur upp lýsingu og kóða fyrir hvern afhendingarmáta á síðunni **Afhendingarmátar** . Hægt er til dæmis að stofna kóðann FOB og skrá Free on Board í reitinn **Lýsing** . Síðan er hægt að skrá kóðann í reitina fyrir **Kóði afhendingarmáta** annars staðar í kerfinu, t.d. á viðskiptamannaspjald. Síðan þegar þú stofnar nýjar pantanir, reikninga, kreditreikninga, o.s.frv. færir kerfið inn lýsinguna sem kóðinn stendur fyrir. Hægt er að breyta honum í skjalinu eftir þörfum.
 
 ## <a name="to-set-up-a-shipment-code"></a>Uppsetning afhendingarkóða
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sendingaraðferð** og veldu síðan tengda tengilinn.
-2. Á síðunni **Afhendingarmátar** skal velja aðgerðina **Nýr**.
+2. Á síðunni **Afhendingarmátar** skal velja aðgerðina **Nýr** .
 3. Á nýju línunni skal tilgreina kóða og lýsingu fyrir afhendingarmáta.
 
 ## <a name="see-also"></a>Sjá einnig

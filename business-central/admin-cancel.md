@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8c70989e841da98594e8bc0c2436dbed8cda997b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528413"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927148"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>Segja upp áskrift að eða fjarlægja [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -25,13 +25,13 @@ Ef þú vilt hætta að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] geturð
 
 Ef þú skráðir þig fyrir ókeypis prufuútgáfa og þú vilt ekki halda áfram með [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu lokað reikningnum þínum hvenær sem er. Við mælum með að þú flytjir út öll gögn áður en þú lokar reikningnum þínum. 
 
-Þú verður að biðja kerfisstjóra Office 365 um að fjarlægja prufuáskriftina af reikningi fyrirtækisins í [Microsoft 365 stjórnendamiðstöðinni](https://admin.microsoft.com/). 
+Þú verður að biðja kerfisstjóra Microsoft 365 um að fjarlægja prufuáskriftina af reikningi fyrirtækisins í [Microsoft 365 stjórnendamiðstöðinni](https://admin.microsoft.com/). 
 
-Ef þú skráðir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] án þess að notaOffice 365 viðskiptareikning hefur þú ekki stjórnandaréttindi að Office 365. Í staðinn verður þú að segja upp áskrift með því að hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] afskráningarteymið með því að senda tölvupóst á cancelbusinesscentra@microsoft.com. Þú verður að tiltaka heiti [!INCLUDE[d365fin](includes/d365fin_md.md)] leigjandans í skilaboðunum svo að við getum greint þig. Þessar upplýsingar má finna á síðunni **Hjálp og notendaþjónusta**. Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).  
+Ef þú skráðir þig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] án þess að nota Microsoft 365 viðskiptareikning hefur þú ekki stjórnandaréttindi að Microsoft 365. Í staðinn verður þú að segja upp áskrift með því að hafa samband við [!INCLUDE[d365fin](includes/d365fin_md.md)] afskráningarteymið með því að senda tölvupóst á cancelbusinesscentra@microsoft.com. Þú verður að tiltaka heiti [!INCLUDE[d365fin](includes/d365fin_md.md)] leigjandans í skilaboðunum svo að við getum greint þig. Þessar upplýsingar má finna á síðunni **Hjálp og notendaþjónusta** . Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).  
 
-## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Ljúka áskrift með því að fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] úr Office 365 upplifun þinni
+## <a name="unsubscribing-by-removing-d365fin-from-your-microsoft-365-experience"></a>Ljúka skal áskrift með því að fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] úr Microsoft 365
 
-Ef fyrirtækið þitt gerist áskrifandi að [!INCLUDE[prodshort](includes/prodshort.md)] en þú sem notandi vilt ekki lengur hafa aðgang þarftu að biðja kerfisstjóra eða Dynamics 365 endursöluaðila um að fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] leyfið af Office 365 notandareikningnum þínum. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] er fjarlægt úr notandareikningnum þínum og fyrirtæki þitt heldur áfram áskriftinni munu samstarfsaðilar þínir enn hafa aðgang að sameiginlegum gögnum í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrirtækinu.  
+Ef fyrirtækið þitt gerist áskrifandi að [!INCLUDE[prodshort](includes/prodshort.md)] en þú sem notandi vilt ekki lengur hafa aðgang þarftu að biðja kerfisstjóra eða Dynamics 365 endursöluaðila um að fjarlægja [!INCLUDE[d365fin](includes/d365fin_md.md)] leyfið af Microsoft 365 notandareikningnum þínum. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] er fjarlægt úr notandareikningnum þínum og fyrirtæki þitt heldur áfram áskriftinni munu samstarfsaðilar þínir enn hafa aðgang að sameiginlegum gögnum í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrirtækinu.  
 
 Ef fyrirtækið þitt vill hætta í áskrift af [!INCLUDE[d365fin](includes/d365fin_md.md)], getur Dynamics 365 endursöluaðilinn fjarlægt áskriftina af reikningi fyrirtækisins. Frekari upplýsingar er að finna í [Stjórnun Business Central á netinu](/dynamics365/business-central/dev-itpro/administration/tenant-administration) í Developer og IT-pro efni.  
 

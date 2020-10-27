@@ -2,19 +2,19 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 06/25/2020
+ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: 8c5f4205128d52ec88f432cea7ece98e0310546d
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: a62a1a628f22ff47fa86a64a72f5b1834960dc72
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528011"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931272"
 ---
-Áður en hægt er að setja upp tölvupóstsskráningu þarf að undirbúa Exchange Online með [opnum möppum](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019). Hægt er að gera þetta í [Exchange stjórnendamiðstöðinni](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019) eða nota [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps).  
+Áður en hægt er að setja upp tölvupóstsskráningu þarf að undirbúa Exchange Online með [opnum möppum](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). Hægt er að gera þetta í [Exchange stjórnendamiðstöðinni](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ) eða nota [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
 > [!TIP]
-> Ef þú vilt nota [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps) getur þú fengið innblástur hvernig á að setja upp forskrift í sýnisforskrift sem við birtum í [BCTech-geymslunni](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
+> Ef þú vilt nota [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ) getur þú fengið innblástur hvernig á að setja upp forskrift í sýnisforskrift sem við birtum í [BCTech-geymslunni](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
 
 Eftirfarandi listi lýsir helstu skrefum til að fá frekari upplýsingar um tengla.  
 
@@ -26,7 +26,7 @@ Eftirfarandi listi lýsir helstu skrefum til að fá frekari upplýsingar um ten
   |Valin hlutverk  |Opnar möppur            |
   |Valdir meðlimir|Tölvupóstur notandareiknings sem Business Central mun nota til að keyra verk tölvupóstsskráningar|
 
-  Frekari upplýsingar eru í [Stjórna hlutverkahópum](/exchange/permissions/role-groups?view=exchserver-2019).
+  Frekari upplýsingar eru í [Stjórna hlutverkahópum](/exchange/permissions/role-groups?view=exchserver-2019&preserve-view=true).
 
 - Stofnið nýtt pósthólf með opna möppu á grundvelli upplýsinganna í eftirfarandi töflu:
 
@@ -43,15 +43,15 @@ Eftirfarandi listi lýsir helstu skrefum til að fá frekari upplýsingar um ten
     - ```\Email Logging\Queue\```
     - ```\Email Logging\Storage\```
 
-  Nánari upplýsingar má finna í [Búa til opna möppu](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019).
+  Nánari upplýsingar má finna í [Búa til opna möppu](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019&preserve-view=true).
 
 - Virkja tölvupóst fyrir *biðröð* opinnar möppu
 
-  Frekari upplýsingar er að finna á [Kveika eða slökkva á tölvupósti fyrir opna möppu](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019)
+  Frekari upplýsingar er að finna á [Kveika eða slökkva á tölvupósti fyrir opna möppu](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019&preserve-view=true)
 
 - Þegar tölvupóstur er virkjaður er hægt að senda tölvupóst á *biðröð* opnu möppunnar með Outlook eða Exchange Management Shell
 
-  Frekari upplýsingar er að finna á [Heimila ónafngreindum notendum að senda tölvupóst í opna möppu þar sem búið er að virkja tölvupóst](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder)
+  Frekari upplýsingar er að finna á [Heimila ónafngreindum notendum að senda tölvupóst í opna möppu þar sem búið er að virkja tölvupóst](/exchange/collaboration/public-folders/mail-enable-or-disable#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?view=exchserver-2019&preserve-view=true)
 
 - Stillið notanda tölvupóstsskráningar sem eiganda að báðum opnu möppunum, opnu möppunum *Biðröð* og *Geymsla* með Outlook eða Exchange Management Shell á grundvelli upplýsinganna sem birtast í eftirfarandi töflu:
 
@@ -69,7 +69,7 @@ Eftirfarandi listi lýsir helstu skrefum til að fá frekari upplýsingar um ten
   |Regla fyrir móttekinn tölvupóst |Skrá tölvupóst sem sendur er til þessa fyrirtækis|*Sendandi* er staðsettur *utan fyrirtækis* og *viðtakandinn* er staðsettur *innan fyrirtækis*|Sendu falið afrit til netfangsins sem tilgreint er fyrir *biðröð* opnu möppurnar|
   |Regla fyrir sendan tölvupóst | Skrá tölvupóst sem sendur er frá þessu fyrirtæki |*Sendandi* er staðsettur *innan fyrirtækisins* og *viðtakandinn* er staðsettur *utan fyrirtækis*|Sendu falið afrit til netfangsins sem tilgreint er fyrir *biðröð* opnu möppurnar|
   
-  Frekari upplýsingar er að finna á [Reglum um póstflæði í Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) og [Aðgerðum reglu um póstflæði í Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-action).
+  Frekari upplýsingar er að finna á [Reglum um póstflæði í Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) og [Aðgerðum reglu um póstflæði í Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
 > Ef gerðar eru breytingar á Exchange Management Shell verða breytingarnar sýnilegar í stjórnunarmiðstöð Exchange eftir nokkra töf. Einnig verða breytingar sem gerðar hafa verið í Exchange í boði í [!INCLUDE[prodshort](prodshort.md)] eftir seinkun.

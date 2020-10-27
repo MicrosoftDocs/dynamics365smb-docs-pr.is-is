@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 45916dc92513a223ca74cb3d76629fb36b8afa39
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9ea6568f858dd154b7126f6444b45e4e548c6d18
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189508"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923346"
 ---
 # <a name="manage-notifications"></a>Stjórna tilkynningum
 
@@ -32,9 +32,9 @@ Að auki gera sumar tilkynningar notendum kleift að tiltaka skilyrðin fyrir se
 
 Kveikt eða slökkt á tilkynningum og skilyrði gilda aðeins um þig.  
 
-1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan aðgerðina **Stillingar mínar**.  
-2. Á síðunni **Mínar stillingar**, í reitnum **Tilkynningar** skaltu velja *Breyta þegar ég fæ tilkynningar.* .  
-3. Á síðunni sem birtist skaltu kveikja eða slökkva á tilkynningu með því að velja eða hreinsa reitinn **Kveikt**.  
+1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan aðgerðina **Stillingar mínar** .  
+2. Á síðunni **Mínar stillingar** , í reitnum **Tilkynningar** skaltu velja *Breyta þegar ég fæ tilkynningar.* .  
+3. Á síðunni sem birtist skaltu kveikja eða slökkva á tilkynningu með því að velja eða hreinsa reitinn **Kveikt** .  
 4. Til að tilgreina skilyrði þess að tilkynning sé send skal velja tengilinn **Skoða upplýsingar afmörkunar** og fylla síðan inn reitina.  
 
 ## <a name="see-also"></a>Sjá einnig

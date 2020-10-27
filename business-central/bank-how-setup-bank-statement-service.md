@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0fb173ee064b5b62ff110fb33dc8ecbc82d0afcd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f4927fb91195e88e71a73a6fce774d9dfb0ff685
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783250"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924429"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Setja upp Envestnet Yodlee Bank Feeds þjónustu
 
@@ -55,11 +55,11 @@ Envestnet Yodlee Bank Feeds Þjónustan er sett upp sem viðbót við [!INCLUDE[
 Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við tendan netbankareikning. Sjá næsta ferli..  
 
 > [!NOTE]
-> Ef þú notar uppsetningarleiðbeiningarnar **Uppsetning fyrirtækis** með hjálp, virkjar þú þjónustuna með því að velja gátreitinn **Nota bankastreymisþjónustu**. Frekari upplýsingar eru í [Stofna ný fyrirtæki í Business Central](about-new-company.md).
+> Ef þú notar uppsetningarleiðbeiningarnar **Uppsetning fyrirtækis** með hjálp, virkjar þú þjónustuna með því að velja gátreitinn **Nota bankastreymisþjónustu** . Frekari upplýsingar eru í [Stofna ný fyrirtæki í Business Central](about-new-company.md).
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Stofna nýjan tengdan bankareikning
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.
-2. Valinn er viðeigandi bankareikningur og síðan valið **stofna nýjan tengdan bankareikning**. **Stofnun tengla fyrir Bankareiknings** síðan opnast eftir smá stund.
+2. Valinn er viðeigandi bankareikningur og síðan valið **stofna nýjan tengdan bankareikning** . **Stofnun tengla fyrir Bankareiknings** síðan opnast eftir smá stund.
 
     > [!NOTE]  
     > Þessi síða sýnir raunverulega vefsíðu fyrir Envestnet Yodlee Bank Feeds þjónustuna. Hugtök og virkni á síðunni mega ekki vera þau sömu og í þessu efnisatriði.  
@@ -72,7 +72,7 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
     > Ef þú ert með fleiri en einn netbankareikning í bankanum, verður að stofna fleiri bankareikninga í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir þá. Sjá skref 8 til 10.  
 
     Þegar vinnslunni er lokið, birtist bankaheitið í **Mínir reikningar** svæðinu á **Tengt** flipanum. Númerið í svigunum gefur til kynna hversu margir netbankareikningar voru tengdir.  
-7. Velja hnappinn **Í lagi**.
+7. Velja hnappinn **Í lagi** .
 
     Ef aðeins er verið að tengja einn netbankareikning mun síðan **Bankareikningsspjald** opnast og birta heiti netbankareikningsins. Í þessu tilfelli er tenging bankareiknings lokið. Allt sem er eftir er að setja upp bankareikninginn. Nánari upplýsingar um það eru í [Setja upp bankareikninga](bank-how-setup-bank-accounts.md).
 
@@ -83,18 +83,18 @@ Bankastreymisþjónusta verður virkjuð þegar þú tengir bankareikning við t
 
     Ef bankareikningur er til í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem á að tengja annan netbankareikning við, skal fylgja næsta skrefi.  
 9. Á síðunni **Stofnun tengla fyrir bankareikning** skal velja línuna fyrir netbankareikning, og velja síðan **tengja í fyrirliggjandi Bankareikningur** aðgerð.
-10. Á síðunni **Listi yfir bankareikninga** er valinn bankareikningur sem á að tengja við og smellt á **Í lagi**.
+10. Á síðunni **Listi yfir bankareikninga** er valinn bankareikningur sem á að tengja við og smellt á **Í lagi** .
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Til að tengja bankareikning í netbankareikning
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.
-2. velja línuna fyrir bankareikning sem er ekki tengdur við netbankareikningur, og velja síðan **tengja í netbankareikning** aðgerð. Síðan **Stofnun tengla fyrir netbankareikning** opnast með heiti bankans sem var forútfylltur í svæðinu **Tengja reikning**.
+2. velja línuna fyrir bankareikning sem er ekki tengdur við netbankareikningur, og velja síðan **tengja í netbankareikning** aðgerð. Síðan **Stofnun tengla fyrir netbankareikning** opnast með heiti bankans sem var forútfylltur í svæðinu **Tengja reikning** .
 3. Veljið nafn banka. **Skrá inn** svæðinu opnast.
 4. Sláðu inn notandanafn og aðgangsorð sem er notuð til að skrá inn í netbanka og velja síðan **Næst** hnapp.  
 
     Bankastreymisþjónusta undirbýr að tengja bankareikning í [!INCLUDE[d365fin](includes/d365fin_md.md)] við viðkomandi netbankareikning.  
 
     Þegar vinnslunni er lokið á árangursríkan hátt, birtist bankaheiti á **Mínar Reikninga** svæðinu í á **Tengt** flipanum. Ef bankinn er með fleiri en einn bankareikning, er aðeins bankareikningurinn sem þú valdir í skrefi 2 tengdur.  
-5. Velja hnappinn **Í lagi**.
+5. Velja hnappinn **Í lagi** .
 
 Á síðunni **Bankareikningayfirlit** er valinn **tengt** gátreiturinn .
 

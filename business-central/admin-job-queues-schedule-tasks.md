@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/09/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6816ba11203e697ff833b9ea96aa85139fbcffe9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5e8c611ed5d542436f470781c92d17095ecd1f5d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783602"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924579"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Nota verkraðir til að tímaraða verkhlutum
 
@@ -32,18 +32,18 @@ Verkraðir eru áhrifaríkt verkfæri til að raða keyrslu viðskiptaferla í b
 Eftirfarandi ferli lýsir hvernig setja á upp bakgrunnsbókun fyrir sölupantanir. Skrefin eru svipuð fyrir Kaup í innkaup.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölugrunnur** og veldu síðan tengda tengilinn.
-2. Á síðunni **Uppsetning sölu og útistandandi** skal velja gátreitinn **Bóka með verkröð**.
+2. Á síðunni **Uppsetning sölu og útistandandi** skal velja gátreitinn **Bóka með verkröð** .
 3. Veldu **Flokkakóði verkraðar** svæðið tilgreindu síðan **SALESPOST** koðann.
 
     > [!NOTE]
-    > Sum verk breyta sömu gögnum og ekki ætti að keyra þau samtímis þar sem það getur valdið árekstrum. Til dæmis munu bakgrunnsvinnslur fyrir söluskjöl reyna að breyta sömu gögnum á sama tíma. Verkraðarflokkar koma í veg fyrir að þessar gerðir árekstrar með því að tryggja að þegar ein vinnsla er keyrð muni önnur vinnsla sem tilheyrir sömu verkraðarflokki ekki keyra fyrr en henni lýkur. Til dæmis mun vinnsla sem tilheyrir flokki söluverkraðar bíða þar til öll önnur sölutengd verk eru búin. Verkraðarflokkur er tilgreindur á flýtiflipanum **Bókun í bakgrunni** á síðunni **Sölugrunnur**.
+    > Sum verk breyta sömu gögnum og ekki ætti að keyra þau samtímis þar sem það getur valdið árekstrum. Til dæmis munu bakgrunnsvinnslur fyrir söluskjöl reyna að breyta sömu gögnum á sama tíma. Verkraðarflokkar koma í veg fyrir að þessar gerðir árekstrar með því að tryggja að þegar ein vinnsla er keyrð muni önnur vinnsla sem tilheyrir sömu verkraðarflokki ekki keyra fyrr en henni lýkur. Til dæmis mun vinnsla sem tilheyrir flokki söluverkraðar bíða þar til öll önnur sölutengd verk eru búin. Verkraðarflokkur er tilgreindur á flýtiflipanum **Bókun í bakgrunni** á síðunni **Sölugrunnur** .
     >
     > [!INCLUDE[d365fin](includes/d365fin_md.md)] bíður upp á verkraðarflokka fyrir sölu, innkaup og bókun í fjárhag. Mælt er með því að eitt þessara, eða eitt þess sem er búið til, sé alltaf tilgreint. Ef bilanir koma upp vegna árekstra skal íhuga að setja upp flokk fyrir allar sölur, innkaup og bakgrunnsbókun í fjárhag.
 
-    Ef þú vilt einnig að söluskjöl verði prentuð þegar þau eru bókuð skal velja gátreitinn **Bóka & Prenta með verkröð** á síðunni **Uppsetning sölu og útistandandi**.  
+    Ef þú vilt einnig að söluskjöl verði prentuð þegar þau eru bókuð skal velja gátreitinn **Bóka & Prenta með verkröð** á síðunni **Uppsetning sölu og útistandandi** .  
 
     > [!IMPORTANT]  
-    > Ef þú setur upp verk sem mun bóka og prenta skjöl, og prentarinn sýnir svarglugga, svo sem beiðni um auðkennisupplýsingar eða viðvörun um að blek sé að klárast, bókast fylgiskjalið en prentast ekki út. Samsvarandi verkraðarfærsla rennur á endanum út á tíma og reiturinn **Staða** stillist á **Villa**. Ekki er mælt með notkun prentarauppsetningar sem krefst samskipta við svarglugga prentara samhliða bakgrunnsbókunar.
+    > Ef þú setur upp verk sem mun bóka og prenta skjöl, og prentarinn sýnir svarglugga, svo sem beiðni um auðkennisupplýsingar eða viðvörun um að blek sé að klárast, bókast fylgiskjalið en prentast ekki út. Samsvarandi verkraðarfærsla rennur á endanum út á tíma og reiturinn **Staða** stillist á **Villa** . Ekki er mælt með notkun prentarauppsetningar sem krefst samskipta við svarglugga prentara samhliða bakgrunnsbókunar.
 
     Næst þegar söluskjöl eru bókuð þarf stofnar [!INCLUDE [prodshort](includes/prodshort.md)] sjálfkrafa verkraðarafærslu fyrir hvert fylgiskjal og keyrir vinnslurnar í bakgrunni, eina í einu.
 
@@ -53,14 +53,14 @@ Eftirfarandi ferli lýsir hvernig setja á upp bakgrunnsbókun fyrir sölupantan
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Til að stofna færslu verkraðar fyrir bókun runu á sölupöntunum
 
-Einnig er hægt að fresta bókunum þar til það hentar fyrirtækinu. Til dæmis getur það verið gagnlegt í fyrirtæki að keyra tilteknar vinnslur þegar flestum gagnafærslum fyrir daginn er lokið. Þú getur náð þessu fram með því að láta verkröðina keyra mismunandi bókunarskrár í runu, eins og t.d. skrárnar **Bókunarsölupantanir í runu**, **Fjöldabóka sölureikninga**, og Bókunarsölukreditreikningar í runu. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður bakgrunnsbókun fyrir öll sölu-, innkaupa- og þjónustuskjöl.
+Einnig er hægt að fresta bókunum þar til það hentar fyrirtækinu. Til dæmis getur það verið gagnlegt í fyrirtæki að keyra tilteknar vinnslur þegar flestum gagnafærslum fyrir daginn er lokið. Þú getur náð þessu fram með því að láta verkröðina keyra mismunandi bókunarskrár í runu, eins og t.d. skrárnar **Bókunarsölupantanir í runu** , **Fjöldabóka sölureikninga** , og Bókunarsölukreditreikningar í runu. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður bakgrunnsbókun fyrir öll sölu-, innkaupa- og þjónustuskjöl.
 
 Eftirfarandi ferli sýnir hvernig á að setja upp skýrsluna **Fjöldabóka sölupantanir** til að bóka sjálfkrafa sölupantanir kl. 16:00 á virkum dögum.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkraðarfærslur** og veldu síðan viðeigandi tengil.  
 2. Valið er **Nýtt** aðgerð.  
-3. Í reitnum **Gerð hlutar sem á að keyra** skal velja **Skýrsla**.  
-4. Í reitnum **Kenni hlutar sem á að keyra**, skal velja 296, **Fjöldabóka sölupantanir**.
+3. Í reitnum **Gerð hlutar sem á að keyra** skal velja **Skýrsla** .  
+4. Í reitnum **Kenni hlutar sem á að keyra** , skal velja 296, **Fjöldabóka sölupantanir** .
 
    Einnig er hægt að nota eftirfarandi skýrslur:
   
@@ -77,14 +77,14 @@ Eftirfarandi ferli sýnir hvernig á að setja upp skýrsluna **Fjöldabóka sö
    * 6004 **Fjöldabóka þjónustureikninga**
    * 6001 **Fjöldabóka þjónustupantanir**
 
-5. Veldu gátreitinn **Beiðnisíða skýrslu**.
-6. Á beiðnisíðunni **Fjöldabóka sölupantanir** skal skilgreina hvað er innifalið við sjálfvirka bókun á sölupöntunum og síðan velja hnappinn **Í lagi**.
+5. Veldu gátreitinn **Beiðnisíða skýrslu** .
+6. Á beiðnisíðunni **Fjöldabóka sölupantanir** skal skilgreina hvað er innifalið við sjálfvirka bókun á sölupöntunum og síðan velja hnappinn **Í lagi** .
 
     > [!IMPORTANT]
-    > Munið að stilla strangar síur; annars bókar [!INCLUDE [prodshort](includes/prodshort.md)] öll skjöl, jafnvel þau sem ekki eru tilbúin. Íhugið að setja síu á svæðið **Staða** fyrir *Losað*, og síu á **Bókunardagsetning** fyrir gildið *.. í dag*. Nánari upplýsingar er að finna í [Flokkun, leit og síun](ui-enter-criteria-filters.md).
-7. Veldu alla gátreitina frá **Keyra á mánudögum** til og með **Keyra á föstudögum**.
+    > Munið að stilla strangar síur; annars bókar [!INCLUDE [prodshort](includes/prodshort.md)] öll skjöl, jafnvel þau sem ekki eru tilbúin. Íhugið að setja síu á svæðið **Staða** fyrir *Losað* , og síu á **Bókunardagsetning** fyrir gildið *.. í dag* . Nánari upplýsingar er að finna í [Flokkun, leit og síun](ui-enter-criteria-filters.md).
+7. Veldu alla gátreitina frá **Keyra á mánudögum** til og með **Keyra á föstudögum** .
 8. Í reitinn **Upphafstími** skal slá inn kl. 16:00.
-9. Velja aðgerðina **Stilla stöðu á Tilbúin**.
+9. Velja aðgerðina **Stilla stöðu á Tilbúin** .
 
 Sölupantanir sem eru innan tilgreindra síu verða nú bókaðar í hverri viku kl. 16:00.
 
@@ -106,10 +106,10 @@ Gögn sem verða til þegar verkröð er keyrð eru geymd í gagnagrunninum svo 
 
 ### <a name="to-view-status-for-any-job"></a>Til að skoða stöðu fyrir hvaða verk sem er
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkraðarfærslur** og veldu síðan viðeigandi tengil.
-2. Á síðunni **Verkraðarfærslur** skal velja færslu verkraðar og síðan velja aðgerðina **Skráarfærslur**.  
+2. Á síðunni **Verkraðarfærslur** skal velja færslu verkraðar og síðan velja aðgerðina **Skráarfærslur** .  
 
 ### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Til að skoða stöðu úr sölu- eða innkaupaskjali
-1. Úr skjalinu sem þú reyndir að bóka með verkröðinni skal velja bakgrunnsbókun **Staða verkraðar** sem mun innihalda **Villu**.
+1. Úr skjalinu sem þú reyndir að bóka með verkröðinni skal velja bakgrunnsbókun **Staða verkraðar** sem mun innihalda **Villu** .
 2. Fara skal yfir villuboðin og leysa vandann.
 
 ## <a name="the-my-job-queue-part"></a>Hlutinn fyrir Mína verkröð
@@ -118,7 +118,7 @@ Hlutinn **Mín verkröð** í hlutverkamiðstöðinni þinni sýnir færslur ver
 Sá hluti sýnir hvaða skjöl með auðkenni þitt í reitnum **Úthlutuð notandakenni** er verið að vinna úr eða eru í röð, þ.á.m. þau sem tengjast bakgrunnsbókun. Hlutinn gefur til kynna á svipstundu hvort um villu hafi verið að ræða við bókun skjals eða hvort það hafi verið villur í verkraðarfærslu. Hlutinn býður einnig upp á að hætta við bókun skjals ef hún er ekki í gangi.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Til að skoða villu ú hlutanum Mín verkröð
-1. Í færslu með stöðuna **Villa** skal velja aðgerðina **Sýna villu**.
+1. Í færslu með stöðuna **Villa** skal velja aðgerðina **Sýna villu** .
 2. Fara skal yfir villuboðin og leysa vandann.
 
 ## <a name="security"></a>Öryggi  

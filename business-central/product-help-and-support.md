@@ -6,19 +6,19 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/01/2020
-ms.openlocfilehash: 7d9ad42f501d3fe7a810fba7573488e8988e7406
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.date: 10/01/2020
+ms.openlocfilehash: 607e34730cbca4992212c293a73ff077b0b081a9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532645"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925106"
 ---
 # <a name="resources-for-help-and-support"></a>Tilföng fyrir hjálp og notendaþjónustu
 
 Í [!INCLUDE[prodlong](includes/prodlong.md)], veitir valmyndaratriði hjálpar (spurningamerkið efst í hægra horninu) þér aðgang að síðunni **Hjálp og stuðningur** þar sem þú getur fundið tengla á úrræði sem geta hjálpað þér að finna svör við spurningum þínum. Einnig er hægt að sjá hvernig skal hafa samband við tæknilega aðstoð fyrir [!INCLUDE[prodshort](includes/prodshort.md)].  
 
-Þessi síða lýsir þeim úrræðum sem þú hefur aðgang að í mismunandi köflum á síðunni **Hjálp og stuðningur**.  
+Þessi síða lýsir þeim úrræðum sem þú hefur aðgang að í mismunandi köflum á síðunni **Hjálp og stuðningur** .  
 
 ## <a name="finding-answers"></a>Finna svör
 
@@ -66,7 +66,7 @@ Gakktu úr skugga um að þú leitir í lista yfir innsendar tillögur. Líklegt
 
 ## <a name="troubleshooting"></a>Úrræðaleit
 
-Hlutinn **Úrræðaleit** birtir tæknilegar upplýsingar sem stjórnandinn þinn eða samstarfsaðili [!INCLUDE[prodshort](includes/prodshort.md)] getur notað til að afblokka notendur. Þetta felur í sér upplýsingar um nýjustu villuboð, núverandi útgáfu af [!INCLUDE[prodshort](includes/prodshort.md)] og tengil til að opna síðuna **Eftirlit með síðu**. Frekari upplýsingar er að finna í [Eftirlit með síðum í Business Central](across-inspect-page.md).  
+Hlutinn **Úrræðaleit** birtir tæknilegar upplýsingar sem stjórnandinn þinn eða samstarfsaðili [!INCLUDE[prodshort](includes/prodshort.md)] getur notað til að afblokka notendur. Þetta felur í sér upplýsingar um nýjustu villuboð, núverandi útgáfu af [!INCLUDE[prodshort](includes/prodshort.md)] og tengil til að opna síðuna **Eftirlit með síðu** . Frekari upplýsingar er að finna í [Eftirlit með síðum í Business Central](across-inspect-page.md).  
 
 Sem innri stjórnandi hefurðu aðgang að stjórnunarstöðinni þar sem hægt er að halda úrræðaleit áfram. Hægt er að skoða fjarmælingar, stjórna umhverfum og hægt er að stjórna notandalotum. Frekari upplýsingar er að finna í [Skoðun tæknilegra upplýsinga](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) og [Stjórnun umhverfa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) í stjórnunarefninu.  
 
@@ -89,13 +89,13 @@ Vefsvæðið docs.microsoft.com er sjálfgefin staðsetning fyrir frekari upplý
 
 ### <a name="content-on-the-site"></a>Efni á vefsvæðinu
 
-Efnið sem Microsoft gefur út undir hugmyndina um notandahjálpina *Frekari upplýsingar* er að hluta til ætlað til að svara þessum spurningum sem notandaviðmótið getur ekki svarað, t.d. hvar þessi síða passar inn í stærra verkflæðið, eða hvað kemur næst, eða hvaða annar kostur er í boði o.s.frv. Í vörunni er hægt að fá aðgang að þessu efni annaðhvort í gegnum tengilinn *Frekari upplýsingar* í ábendingum eða með því að nota flýtilykilinn *Ctrl+F1*.  
+Efnið sem Microsoft gefur út undir hugmyndina um notandahjálpina *Frekari upplýsingar* er að hluta til ætlað til að svara þessum spurningum sem notandaviðmótið getur ekki svarað, t.d. hvar þessi síða passar inn í stærra verkflæðið, eða hvað kemur næst, eða hvaða annar kostur er í boði o.s.frv. Í vörunni er hægt að fá aðgang að þessu efni annaðhvort í gegnum tengilinn *Frekari upplýsingar* í ábendingum eða með því að nota flýtilykilinn *Ctrl+F1* .  
 
-Yfirlitssvæðið til vinstri, efnisyfirlitið, greinaflokkar eftir rekstrarsviði. Til dæmis, ef þú lest greinina [Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md) og síðan sýnir efnisyfirlitið þér að einnig sé til grein sem heitir [Leiðrétta eða afturkalla ógreidda innkaupareikninga](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Báðar greinarnar eru í flokknum sem kallast *Innkaup*, sem fléttar saman greinar sem tengjast innkaupaeiningunni í [!INCLUDE [prodshort](includes/prodshort.md)].  
+Yfirlitssvæðið til vinstri, efnisyfirlitið, greinaflokkar eftir rekstrarsviði. Til dæmis, ef þú lest greinina [Kaupa vörur fyrir sölu](purchasing-how-purchase-products-sale.md) og síðan sýnir efnisyfirlitið þér að einnig sé til grein sem heitir [Leiðrétta eða afturkalla ógreidda innkaupareikninga](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Báðar greinarnar eru í flokknum sem kallast *Innkaup* , sem fléttar saman greinar sem tengjast innkaupaeiningunni í [!INCLUDE [prodshort](includes/prodshort.md)].  
 
 Efnisyfirlitið inniheldur efnisflokk sem lýsir staðbundnum aðgerðum fyrir lönd sem Microsoft styður. Ef þú sérð ekki landið þitt skráð þar, er það líklega vegna þess að landið er staðfært hjá samstarfsaðila. Frekari upplýsingar eru í [Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-Efni staðbundinna aðgerða lýsir möguleikunum í [!INCLUDE [prodshort](includes/prodshort.md)] sem geta hjálpað þér að fylgja studdum markaði, t.d. skattaskýrslum og öðrum skýrslum. Í sumum tilfellum er munurinn á milli sjálfgefinnar útgáfu og landsmiðaðrar útgáfu ekki sýnilegur notendum. Í öðrum tilvikum verða notendur að setja upp skýrslugerð eða rafræna reikningsfærslu á sérstakan hátt. Ef ekki er hægt að finna lýsingu á tilteknum hnappi eða aðgerð í sjálfgefnum hluta efnisins á vefsvæðinu docs.microsoft.com er vonandi hægt að finna hana í hlutanum *Staðbundin virkni*.  
+Efni staðbundinna aðgerða lýsir möguleikunum í [!INCLUDE [prodshort](includes/prodshort.md)] sem geta hjálpað þér að fylgja studdum markaði, t.d. skattaskýrslum og öðrum skýrslum. Í sumum tilfellum er munurinn á milli sjálfgefinnar útgáfu og landsmiðaðrar útgáfu ekki sýnilegur notendum. Í öðrum tilvikum verða notendur að setja upp skýrslugerð eða rafræna reikningsfærslu á sérstakan hátt. Ef ekki er hægt að finna lýsingu á tilteknum hnappi eða aðgerð í sjálfgefnum hluta efnisins á vefsvæðinu docs.microsoft.com er vonandi hægt að finna hana í hlutanum *Staðbundin virkni* .  
 
 ### <a name="finding-other-content"></a>Annað efni fundið
 
@@ -116,7 +116,7 @@ Efni um viðskiptaaðgerðir er gefið út á mörgum tungumálum. Þegar vefsv�
 
 Hægt er að breyta tungumálinu með því að breyta vefslóðinni eða nota skiptihnapp tungumáls neðst í vinstra horni vefsvæðisins.  
 
-Efnið er heimilað á ensku og birt á vefslóðum með *en-us* sem tungumálakóðann. Þegar nýjar upplýsingar eru birtar á ensku eru þær sendar til þýðinga á studd tungumál. Í sumum tilfellum er ekki hægt að lesa þetta nýja efni á eigin tungumáli í allt að 4 vikur, en í flestum tilfellum tekur það aðeins eina viku eða tvær. Þú getur alltaf skoðað nýjustu upplýsingarnar með því að skipta yfir í tungumálið *en-us*.  
+Efnið er heimilað á ensku og birt á vefslóðum með *en-us* sem tungumálakóðann. Þegar nýjar upplýsingar eru birtar á ensku eru þær sendar til þýðinga á studd tungumál. Í sumum tilfellum er ekki hægt að lesa þetta nýja efni á eigin tungumáli í allt að 4 vikur, en í flestum tilfellum tekur það aðeins eina viku eða tvær. Þú getur alltaf skoðað nýjustu upplýsingarnar með því að skipta yfir í tungumálið *en-us* .  
 
 Fyrir hvert tungumál er efnisyfirlit þýtt, en efnið í hlutanum *Staðbundin virkni* er á ensku nema fyrir landið sem samsvarar núverandi tungumáli. Til dæmis í dönsku útgáfunni af docs.microsoft.com vefsvæðinu (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`) er hægt að sjá færslur fyrir ástralska staðbundna virkni á dönsku í efnisyfirlitinu, en greinarnar eru á ensku. Aðeins greinarnar fyrir danska staðbundna virkni eru þýddar á dönsku.  
 

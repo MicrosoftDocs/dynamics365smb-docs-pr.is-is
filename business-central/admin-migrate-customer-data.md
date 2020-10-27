@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 33d5caec7086d12b9a2450fc36224987c5a97642
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e25082286f53c5b0458359d5f5c895b03c6f6bcf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783527"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927123"
 ---
 # <a name="migrate-customer-data"></a>Flytja gögn viðskiptamanna
 Hægt er að flytja núverandi gögn um viðskiptamenn úr fyrirliggjandi ERP-kerfi yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að nota RapidStart Services gagnaflutningstækni. Hægt er að nota Excel-skrár til að flytja gögnin. Einnig er hægt að færa gögn handvirkt með því að slá þau beint inn í fyrirtækið.
@@ -38,20 +38,20 @@ Síðurnar **Flutningsyfirlit** og **Grunnstilling vinnublaðs** veita aðgang a
 >
 >  Hægt er að flytja inn skilgreiningapakka sem hefur verið fluttur út úr gagnagrunni sem hefur annað skemma en markgagnagrunnur. Allar töflur eða reitir sem eru í skilgreiningapakkanum en ekki í markgagnagrunninum verða hins vegar ekki fluttir inn.
 >
-> Töflur með öðrum aðallyklum og reitum sem hafa aðrar gagnagerðir verða heldur ekki fluttir inn. Sem dæmi má nefna að gögn munu ekki flytjast yfir ef skilgreiningapakki inniheldur töfluna **50000 Customer** sem hefur aðallykilinn **Code20** og gagnagrunnurinn sem flutt er inn í inniheldur töfluna **50000 Customer Bank Account** sem hefur aðallykilinn **Code20 + Code 20**.  
+> Töflur með öðrum aðallyklum og reitum sem hafa aðrar gagnagerðir verða heldur ekki fluttir inn. Sem dæmi má nefna að gögn munu ekki flytjast yfir ef skilgreiningapakki inniheldur töfluna **50000 Customer** sem hefur aðallykilinn **Code20** og gagnagrunnurinn sem flutt er inn í inniheldur töfluna **50000 Customer Bank Account** sem hefur aðallykilinn **Code20 + Code 20** .  
 
 1. Opna skal nýja fyrirtækið.  
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
-3. Velja skal aðgerðina **Flytja inn pakka**. Farið er í .rapidstart pakkaskrána sem á að flytja inn og svo er valin aðgerðin **Opna**. Á meðan innflutningi stendur, er innihald pakkans afþjappað og pakkafærslan stofnuð.  
+3. Velja skal aðgerðina **Flytja inn pakka** . Farið er í .rapidstart pakkaskrána sem á að flytja inn og svo er valin aðgerðin **Opna** . Á meðan innflutningi stendur, er innihald pakkans afþjappað og pakkafærslan stofnuð.  
 
-    Að innflutningi loknum er hægt að sjá fjölda grunnstillingartaflna sem hafa ferð fluttar inn í reitnum **Fjöldi taflna**.  
-4. Til að fara yfir lista grunnstillingartafla er valin aðgerðin **Skoða**.  
-5. Til að nota pakkann skal velja aðgerðina **Nota pakka**.  
+    Að innflutningi loknum er hægt að sjá fjölda grunnstillingartaflna sem hafa ferð fluttar inn í reitnum **Fjöldi taflna** .  
+4. Til að fara yfir lista grunnstillingartafla er valin aðgerðin **Skoða** .  
+5. Til að nota pakkann skal velja aðgerðina **Nota pakka** .  
 
     > [!NOTE]  
     >  Gagnaflutningsupplýsingar byggjast á skilgreiningarsniðmátum, ef slíkt er tilgreint. Uppfæra þarf sniðmátið fyrst til að breyta lista reita.  
 
-6.  Til að fara yfir reitaval skal velja töflu og því næst á flipanum **Línur** skal velja aðgerðina **Reitir**. Bera saman og skoða fjölda reita sem eru tiltækir þeim fjölda reita hverra gögn hafa verið jöfnuð.  
+6.  Til að fara yfir reitaval skal velja töflu og því næst á flipanum **Línur** skal velja aðgerðina **Reitir** . Bera saman og skoða fjölda reita sem eru tiltækir þeim fjölda reita hverra gögn hafa verið jöfnuð.  
 
 Ef val á töflum uppfyllir ekki þarfir fyrirtækisins er hægt að stofna eina eða fleiri nýjar gagnaflutningsskrár. Ef skrárnar eru fullnægjandi er hægt að halda áfram með gagnaflutninginn með því að nota Excel- eða XML-skrár.
 
@@ -60,13 +60,13 @@ Ef val á töflum uppfyllir ekki þarfir fyrirtækisins er hægt að stofna eina
 Hægt er að stofna nýjar gagnaflutningaskrár og sérsníða þær til stuðnings fyrirtækisins.  
 
 > [!TIP]
-> Aðeins er hægt að nota skrá til að flytja reit sem er með eiginleikann **FieldClass** stilltan á **Venjulegt**.  
+> Aðeins er hægt að nota skrá til að flytja reit sem er með eiginleikann **FieldClass** stilltan á **Venjulegt** .  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakki** og veldu síðan tengda tengilinn.  
-2. Veljið og opnið pakkann sem á að nota til að flytja gögn og veljið svo aðgerðina **Ná í töflur**. Síðan **Sækja pakkatöflu** opnast.  
-3. Í reitnum **TableID** færið inn töflunúmer eða veljið töflu af listanum, til dæmis töflu 18, **Viðskiptamaður**. Reiturinn **Heiti töflu** útfyllist sjálfkrafa.  
-4. Veljið nýja flutningstöflu og síðan á flipanum **Töflur** skal velja aðgerðina **Reitir**. Síðan **Flutningsreitir** opnast.  
-5. Hreinsið gátreitinn **Reitur hafður með** fyrir alla reiti sem ekki á að flytja inn og veljið síðan aðgerðina **Safn haft með** eða **Hreinsa það sem haft er með**.  
+2. Veljið og opnið pakkann sem á að nota til að flytja gögn og veljið svo aðgerðina **Ná í töflur** . Síðan **Sækja pakkatöflu** opnast.  
+3. Í reitnum **TableID** færið inn töflunúmer eða veljið töflu af listanum, til dæmis töflu 18, **Viðskiptamaður** . Reiturinn **Heiti töflu** útfyllist sjálfkrafa.  
+4. Veljið nýja flutningstöflu og síðan á flipanum **Töflur** skal velja aðgerðina **Reitir** . Síðan **Flutningsreitir** opnast.  
+5. Hreinsið gátreitinn **Reitur hafður með** fyrir alla reiti sem ekki á að flytja inn og veljið síðan aðgerðina **Safn haft með** eða **Hreinsa það sem haft er með** .  
 
 > [!IMPORTANT]  
 >  Ef gátreiturinn **Innifela svæði** er sjálfgefið valinn er hann hluti af aðallyklinum. Ekki ætti að hreinsa valið, annars koma inn villur og ekki er hægt að flytja færsluna út.  
@@ -80,7 +80,7 @@ Eftir að hafa ákvarðað töflurnar sem á að millifæra gögn um viðskiptav
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
 2. Veljið og opnið pakkann sem á að nota til útflutnings.
-3. Veljið töfluna eða töflurnar sem á að flytja út og veljið svo aðgerðina **Flytja út Flytja út í Excel**.
+3. Veljið töfluna eða töflurnar sem á að flytja út og veljið svo aðgerðina **Flytja út Flytja út í Excel** .
 4. Vista skal Excel-skrána sem flutt var út.  
 5. Þetta ferli er endurtekið fyrir allar viðeigandi gagnaflutningstöflur. Ef margar töflur eru valdar í einu verða gögn þeirra fluttar í eina sameiginlega vinnubók.  
 
@@ -101,25 +101,25 @@ Ef taflan er auð mun gagnaflutningsskráin innihalda auð hólf fyrir þá reit
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.
 2. Opna skal pakkann fyrir fyrirtækið sem um ræðir.  
-3. Veljið töfluna sem á að varpa gildum fyrir og síðan á flipanum **Töflur** skal velja aðgerðina **Töflur**.  
-4. Fyrir hvern reit sem á að varpa skal velja aðgerðina **Vörpun**.  
-5. Í reitinn **Gamalt gildi** skal færa inn gildið sem á að breyta. Í reitinn **Nýtt gildi** skal færa inn nýtt gildi í stað gamla gildisins. Velja hnappinn **Í lagi**.  
+3. Veljið töfluna sem á að varpa gildum fyrir og síðan á flipanum **Töflur** skal velja aðgerðina **Töflur** .  
+4. Fyrir hvern reit sem á að varpa skal velja aðgerðina **Vörpun** .  
+5. Í reitinn **Gamalt gildi** skal færa inn gildið sem á að breyta. Í reitinn **Nýtt gildi** skal færa inn nýtt gildi í stað gamla gildisins. Velja hnappinn **Í lagi** .  
 6. Innflutningur gagna viðskiptamanns Nánari upplýsingar eru í [Að flytja inn gögn viðskiptamanns](admin-migrate-customer-data.md#to-import-customer-data).
 7. Í reitnum **Fjölda pakkavillna** skal athuga hvort einhverjar villur eru tilkynntar. Ef það er, skaltu fara niður til að sjá villurnar. Síðan **Stilla pakkafærslur** opnast.
-8. Veljið aðgerðina **Sýna villur**. Þú færð eftirfarandi villu: **XX er ekki gildur valkostur. Gildir valkostir eru: XX**. Velja hnappinn **Í lagi**.  
-9. Til að nota vörpunina sem sett var upp skal velja aðgerðina **Nota gögn**.  
+8. Veljið aðgerðina **Sýna villur** . Þú færð eftirfarandi villu: **XX er ekki gildur valkostur. Gildir valkostir eru: XX** . Velja hnappinn **Í lagi** .  
+9. Til að nota vörpunina sem sett var upp skal velja aðgerðina **Nota gögn** .  
 
 ### <a name="mapping-example"></a>Dæmi vörpunar  
 Eftirfarandi dæmi sýnir hvernig [!INCLUDE[d365fin](includes/d365fin_md.md)] innleiðir vörpunarskilgreiningar.  
 
-1. Búið til grunnstillingartöflu sem er með töfluna **Sölumaður/innkaupaaðili**. Skilgreina vörpun fyrir reitinn **Kóði**.  
-2. Bætið við viðbótartöflum við pakkann, t.d. **Viðskiptavinur** og **Lánardrottinn**. Töflurnar vísuðu báðar í töfluna **Sölumaður/innkaupaaðili** í gegnum reitina **Kóði sölumanns** og **Innkaupakóði** í þeirri röð.  
-3. Þegar þú jafnar gögn mun vörpunin sem þú gafst upp fyrir reitinn **Kóði** í töflunni **Sölumaður/innkaupaaðili** einnig verða tekin með við vinnslu á reitunum **Kóði sölumanns** og **Kóði innkaupaaðila**.
+1. Búið til grunnstillingartöflu sem er með töfluna **Sölumaður/innkaupaaðili** . Skilgreina vörpun fyrir reitinn **Kóði** .  
+2. Bætið við viðbótartöflum við pakkann, t.d. **Viðskiptavinur** og **Lánardrottinn** . Töflurnar vísuðu báðar í töfluna **Sölumaður/innkaupaaðili** í gegnum reitina **Kóði sölumanns** og **Innkaupakóði** í þeirri röð.  
+3. Þegar þú jafnar gögn mun vörpunin sem þú gafst upp fyrir reitinn **Kóði** í töflunni **Sölumaður/innkaupaaðili** einnig verða tekin með við vinnslu á reitunum **Kóði sölumanns** og **Kóði innkaupaaðila** .
 
 ## <a name="to-add-additional-values-to-d365fin"></a>Til að bæta viðbótargildum við [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingapakkar** og veldu síðan tengda tengilinn.  
-2. Veljið töfluna sem á að bæta við fleiri gildum fyrir og síðan á flipanum **Töflur** skal velja aðgerðina **Reitir**.  
-3. Fyrir reitina þar sem [!INCLUDE[d365fin](includes/d365fin_md.md)] á að heimila viðbótargildi við flutning skal velja gátreitinn **Stofna kóða sem vantar**.  
+2. Veljið töfluna sem á að bæta við fleiri gildum fyrir og síðan á flipanum **Töflur** skal velja aðgerðina **Reitir** .  
+3. Fyrir reitina þar sem [!INCLUDE[d365fin](includes/d365fin_md.md)] á að heimila viðbótargildi við flutning skal velja gátreitinn **Stofna kóða sem vantar** .  
 4. Innflutningur gagna viðskiptamanns Nánari upplýsingar eru í [Að flytja inn gögn viðskiptamanns](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Til að hreinsa upp og meðhöndla gögn fyrir jöfnun gagna
@@ -131,8 +131,8 @@ Eftirfarandi dæmi sýnir hvernig [!INCLUDE[d365fin](includes/d365fin_md.md)] in
 Eftir að runuvinnslan hefur verið keyrð skal nota eftirfarandi ferli til að meðhöndla gögnin.  
 
 1. Opna skal grunnstillingapakka fyrir fyrirtækið.  
-2. Veljið aðgerðina **Vinna gögn**.  
-3. Til að nota vörpunina sem sett var upp skal velja aðgerðina **Nota gögn**.
+2. Veljið aðgerðina **Vinna gögn** .  
+3. Til að nota vörpunina sem sett var upp skal velja aðgerðina **Nota gögn** .
 
 ## <a name="to-migrate-customer-data"></a>Að flytja gögn viðskiptamanna
 Þegar innflutningstafla hefur verið flutt út, er næsta skrefið að færa inn gömul gögn viðskiptamanns. Til að einfalda verk er hægt að nýta XML-meðhöndlunarverkfærin sem byggð eru inn í Excel. Einnig er hægt að nota Excel innbyggðar aðgerðir til aðstoða við gagnsnið og að setja gögn í réttan flokk.
@@ -156,8 +156,8 @@ Nú er hægt að flytja inn gagnaflutningskrár sem innihalda eldri gögn um vi�
 ## <a name="to-import-customer-data"></a>Til að flytja inn viðskiptamannagögn
 Þegar gögn um viðskiptavini eru færður inn í gagnaflutningsskrárnar í Excel, eru skrárnar fluttar inn í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Opnið síðuna **Grunnstilling pakkaspjalds**.
-2. Veljið töfluna þar sem á að flytja inn gögn og síðan á flipanum **Töflur** skal velja aðgerðina **Flytja inn úr Excel**.
+1. Opnið síðuna **Grunnstilling pakkaspjalds** .
+2. Veljið töfluna þar sem á að flytja inn gögn og síðan á flipanum **Töflur** skal velja aðgerðina **Flytja inn úr Excel** .
 3. Finna og opna skrána sem á að flytja inn gögn úr.
 4. Á síðunni **Forskoðun á innfluttum skilgreiningarpakka** skal yfirfara innihaldið sem verður flutt inn.
 
@@ -173,23 +173,23 @@ Viðskiptamannagögn verður að sannprófa áður en færslurnar eru settar í 
 >  Ógild gögn eru yfirleitt ekki búin til í gagnagrunninum. Hins vegar gæti lokast á forritið einstaka sinnum ef innflutt flutningstafla inniheldur villur.  
 
 1. Á síðunni **Flutningsyfirlit** er farið yfir reitinn **Fjöldi flutningsvilla** til að sjá hvort einhverjar villur komu upp í innflutningi.  
-2. Ef villur eru til staðar skal velja flutningstöfluna og svo í flipanum **Töflur** skal velja aðgerðina **Villur**. **Ógilt** gátreiturinn er valinn fyrir hverja færslu sem villa er í.  
-3. Til að fara yfir villur skal velja línu og síðan velja aðgerðina **Sýna villu**.  
+2. Ef villur eru til staðar skal velja flutningstöfluna og svo í flipanum **Töflur** skal velja aðgerðina **Villur** . **Ógilt** gátreiturinn er valinn fyrir hverja færslu sem villa er í.  
+3. Til að fara yfir villur skal velja línu og síðan velja aðgerðina **Sýna villu** .  
 
     **Villutexti** svæðið hefur að geyma ástæðuna fyrir villunni. **Yfirskrift reits** svæðið hefur að geyma yfirskrift svæðisins þar sem villuna er að finna.  
 4.  Til að leiðrétta villu eða uppfæra á annan hátt á síðunni **Flutningsyfirlit** skal velja aðgerðina **Flutningsfærsla** og svo á síðunni **Flutningsfærsla** skal lagfæra færsluna sem er með villuna.  
 
-Þegar leiðrétting er gerð, er færslan fjarlægð af lista yfir færslur á síðunni **Flutningsgagnavillur**.  
+Þegar leiðrétting er gerð, er færslan fjarlægð af lista yfir færslur á síðunni **Flutningsgagnavillur** .  
 
 Nú er hægt að nota gögn viðskiptavinar í gagnagrunninum.  
 
 ## <a name="to-apply-customer-data"></a>Til að nota gögn viðskiptamanna
 Þegar allar innfluttar gagnaflutningsfærslur sem eru gildar og villulausar eru komnar er hægt að nota færslurnar á [!INCLUDE[d365fin](includes/d365fin_md.md)] gagnagrunninn.  
 
-1. Opnaðu síðuna **Skilgreiningarpakkar**.  
-2. Veljið töfluna fyrir gagnaflutningsskrána sem á að nota og veljið síðan aðgerðina **Nota gögn**.
+1. Opnaðu síðuna **Skilgreiningarpakkar** .  
+2. Veljið töfluna fyrir gagnaflutningsskrána sem á að nota og veljið síðan aðgerðina **Nota gögn** .
 
-Hægt er að sjá fjölda gagnagrunnsfærslna sem stofnaðar hafa verið í reitnum **Fjöldi gagnagrunnsfærslna**. Hægt er að staðfesta að réttar færslur hafi verið búnar til með því að velja tengilinn í reitnum **Fj. gagnagrunnsfærslna**.  
+Hægt er að sjá fjölda gagnagrunnsfærslna sem stofnaðar hafa verið í reitnum **Fjöldi gagnagrunnsfærslna** . Hægt er að staðfesta að réttar færslur hafi verið búnar til með því að velja tengilinn í reitnum **Fj. gagnagrunnsfærslna** .  
 
 Gagnagrunnur fyrirtækis viðskiptavinar er nú uppsettur og grunngögn eru flutt inn. Næstu skref í innleiðingarferlinu eru að þjálfa notendur, skilgreina ferli, útbúa frekari gögn, sérsníða skýrslur o.s.frv.
 

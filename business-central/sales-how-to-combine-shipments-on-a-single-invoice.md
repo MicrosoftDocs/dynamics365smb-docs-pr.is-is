@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6af01d93f378a7ea96d2ff8f693115804bdd167f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 19b6cb69d33d76d4263ad75a666eba14deaeeae8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788951"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925948"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Sameina afhendingar einn reikning
 Eigi að reikningsfæra fleiri en eina afhendingu saman er hægt að nota eiginleikann sameina afhendingar.  
@@ -25,23 +25,23 @@ Eigi að reikningsfæra fleiri en eina afhendingu saman er hægt að nota eiginl
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Að sameina afhendingar handvirkt í einn reikning  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölureikningar** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð. Frekari upplýsingar eru í [Reikningsfæra sölur](sales-how-invoice-sales.md).
-3. Í reitnum **Selt til Viðskm.nr.**. reitnum er viðskiptamaðurinn sem fær reikninginn fyrir afhentar vörur tilgreindur.  
+3. Í reitnum **Selt til Viðskm.nr.** . reitnum er viðskiptamaðurinn sem fær reikninginn fyrir afhentar vörur tilgreindur.  
 4. Á flýtiflipanum **Línur** skal velja **Sækja afhendingarlínur** aðgerðina.  
 5. Afhendingarlínan sem á að vera á reikningnum er valin:  
 
-    - Til að setja allar línur inn eru allar línur valda og svo smellt á **Í lagi**.  
-    - Til að setja sérstakar línur inn eru línurnar valdar og svo smellt á **Í lagi**. Hægt er að nota Ctrl-takkanum til að velja margar línur sem ekki eru samliggjandi.  
+    - Til að setja allar línur inn eru allar línur valda og svo smellt á **Í lagi** .  
+    - Til að setja sérstakar línur inn eru línurnar valdar og svo smellt á **Í lagi** . Hægt er að nota Ctrl-takkanum til að velja margar línur sem ekki eru samliggjandi.  
 
     Ef röng afhendingarlína var valin eða byrja á aftur er línunum einfaldlega eytt í reikningnum aðgerðin **Sækja afhendingarlínur** keyrð aftur.  
-7. Til að bóka reikningur er valið aðgerðin **bóka**.  
+7. Til að bóka reikningur er valið aðgerðin **bóka** .  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Til að sameina afhendingar sjálfkrafa á einn reikning  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] mun aðeins velja sölupantanir þar sem **Sameina afhendingar** er valið. 
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sameina afhendingar** og veldu síðan tengda tengilinn. Síðan fyrir keyrslubeiðniglugga opnast.  
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Velja skal gátreitinn **Bóka reikninga**.  
-4. Velja hnappinn **Í lagi**.  
+3. Velja skal gátreitinn **Bóka reikninga** .  
+4. Velja hnappinn **Í lagi** .  
 
 > [!NOTE]  
 >  Bóka þarf reikninga handvirkt ef gátreiturinn **Bóka reikninga** var ekki valinn í keyrslunni.  
@@ -52,8 +52,8 @@ Eigi að reikningsfæra fleiri en eina afhendingu saman er hægt að nota eiginl
 Þegar afhendingar eru reikningsfærðar á þennan hátt eru pantanir sem afhendingar voru bókaðar úr enn til staðar, jafnvel þótt þær hafi verið afhentar og reikningsfærðar að fullu.   
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða reikningsfærðum sölupöntunum** og veldu síðan tengda tengilinn.  
-2. Tilgreinið í **Nr.**. afmörkunarreitnum hvaða sölupantanir á að eyða.  
-3. Velja hnappinn **Í lagi**.  
+2. Tilgreinið í **Nr.** . afmörkunarreitnum hvaða sölupantanir á að eyða.  
+3. Velja hnappinn **Í lagi** .  
 
 Að öðrum kosti skal eyða einstökum sölupöntunum handvirkt.  
 

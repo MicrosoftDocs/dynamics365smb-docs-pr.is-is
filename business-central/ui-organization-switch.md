@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 362a994ccda698a4bf91e42c27532af95f9c9c27
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.openlocfilehash: 24ea6b353a22ae00ca98901c080c031870f66168
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535310"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925598"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Skipta yfir í annað fyrirtæki eða umhverfi
 
@@ -23,7 +23,7 @@ ms.locfileid: "3535310"
 
 ## <a name="switch-to-another-environment"></a>Skipta yfir í annað umhverfi
 
-Þegar þú ert skráð(ur) inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] eru umhverfin sem hægt er að opna aðgengilegt á heimasíðu Dynamics 365. Hægt er að opna síðuna með því að velja **forritavalmyndina** táknið ![forritavalmynd](media/app-launcher-icon.png "Forritavalmynd býður upp á aðgang að fleiri eiginleikum") og velja **Dynamics 365**. Til að fara í sjálfgefið fyrirtæki í því umhverfi skal velja reitinn. Einn reitur verður að vera til staðar fyrir hverja gerð af umhverfi. Ef þú ert með fleiri en eitt umhverfi af tiltekinni gerð þegar þú velur reitinn getur þú valið umhverfið sem á að opna.
+Þegar þú ert skráð(ur) inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] eru umhverfin sem hægt er að opna aðgengilegt á heimasíðu Dynamics 365. Hægt er að opna síðuna með því að velja **forritavalmyndina** táknið ![forritavalmynd](media/app-launcher-icon.png "Forritavalmynd býður upp á aðgang að fleiri eiginleikum") og velja **Dynamics 365** . Til að fara í sjálfgefið fyrirtæki í því umhverfi skal velja reitinn. Einn reitur verður að vera til staðar fyrir hverja gerð af umhverfi. Ef þú ert með fleiri en eitt umhverfi af tiltekinni gerð þegar þú velur reitinn getur þú valið umhverfið sem á að opna.
 
 Eftirfarandi mynd sýnir reiti til að fá aðgang að framleiðslu-og sandkassaumhverfi á heimasíðu Dynamics 365.
 
@@ -33,13 +33,13 @@ Eftirfarandi mynd sýnir reiti til að fá aðgang að framleiðslu-og sandkassa
 
 Þegar þú ert skráð(ur) inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] er fljótlegt að skipta yfir í annað fyrirtæki. Þegar búið er að skipta yfir verður fyrirtækið sem þú velur sjálfgefið fyrirtæki og birtist næst þegar þú skráir þig inn.
 
-1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan aðgerðina **Stillingar mínar**.
+1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan aðgerðina **Stillingar mínar** .
 
     > [!TIP]
     > Einnig er hægt að nota flýtilykilinn Alt+T til að opna síðuna Mínar stillingar á skjótan hátt.
 
 2. Á síðunni **Mínar stillingar** á svæðinu **Fyrirtæki** er valið fyrirtæki.  
-3. Velja hnappinn **Í lagi**.
+3. Velja hnappinn **Í lagi** .
 
 > [!TIP]
 > Góð aðferð við að fara beint í sjálfgefna fyrirtækið þegar þú skráir þig inn og ekki þurfa að tilgreina umhverfið er að bæta vefslóðinni á eftirlætislistann þinn eftir að þú skráir þig inn.

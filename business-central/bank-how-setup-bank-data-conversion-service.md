@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ffd2837365ec6cfb93528aa422603a68bc5d6788
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: af42c1b65480a1ae28387b7207eca09a79bfe75d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779787"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924454"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Setja upp AMC Banking 365 Fundamentals-viðbótina
 Altæk þjónustuveita til að umreikna greiðsluupplýsingar í hvaða gagnaskráarsnið sem bankinn þinn þarf eru uppsett og tilbúið til að vera virkjað í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vísað er í þetta í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem AMC Banking 365 Fundamentals-viðbót.
@@ -43,7 +43,7 @@ Til að flytja inn eða flytja út bankaskrár verður þú að setja upp eigin 
     Fyrirtæki þitt er nú skráð fyrir AMC Banking 365 Fundamentals-viðbótinni. Sláið inn notandanafn og aðgangsorð sem tilgreind voru fyrir þjónustuna í tengdum uppsetningarreitum í [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 5. Á síðunni **Uppsetning umreikningsþjónustu fyrir bankagögn** í **Notandanafn** reitnum, sláðu inn sama gildi sem þú færðir inn sem innskráningarnafn á síðu þjónustuveitunnar í 4. skrefi.
-6. Í reitnum **lykilorð**, sláðu inn sama gildi sem þú færðir inn í reitinn **Aðgangsorð** á síðu þjónustuveitunnar í 4. skrefi.
+6. Í reitnum **lykilorð** , sláðu inn sama gildi sem þú færðir inn í reitinn **Aðgangsorð** á síðu þjónustuveitunnar í 4. skrefi.
 
 > [!NOTE]  
 > Innskráningargögnin þín eru sjálfkrafa dulrituð.
@@ -51,9 +51,9 @@ Til að flytja inn eða flytja út bankaskrár verður þú að setja upp eigin 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Til að skoða eða uppfæra listann yfir studd bankagagnasnið
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning umreikningsþjónustu fyrir bankagögn** og veldu síðan tengda tengilinn.
 2. Á síðunni **uppsetning umreikningsþjónustu fyrir bankagögn** , skal velja **Nafn banka – umskráningarlisti gagna** til að opna lista yfir nöfn banka sem standa fyrir bankagagnasnið sem eru studd af umskráningarþjónustunni.
-3. Á síðunni **Nafn banka – gagnaumreikningslisti**, veldu aðgerðina **Uppfæra nafnalista banka**.
+3. Á síðunni **Nafn banka – gagnaumreikningslisti** , veldu aðgerðina **Uppfæra nafnalista banka** .
 
-Listinn yfir bankagagnasnið sem eru studd af AMC Banking 365 Fundamentals-viðbótinni er nú uppfærður. Þetta er listinn yfir nöfn banka, afmörkuð eftir landi/svæði, sem hægt er að velja úr í reitnum **Nafn banka - gagnaumreikningur** á síðunni **Bankareikningsspjald**.
+Listinn yfir bankagagnasnið sem eru studd af AMC Banking 365 Fundamentals-viðbótinni er nú uppfærður. Þetta er listinn yfir nöfn banka, afmörkuð eftir landi/svæði, sem hægt er að velja úr í reitnum **Nafn banka - gagnaumreikningur** á síðunni **Bankareikningsspjald** .
 
 > [!NOTE]  
 >   Uppfærsla studdra bankagagnasniða á sér einnig stað þegar gildi er valið eða slegið inn í reitinn **Nafn banka - gagnaumreikningur** á bankareikningnum.

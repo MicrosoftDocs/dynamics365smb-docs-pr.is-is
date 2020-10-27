@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f0eb7a1562a8300bd7181ef6470c70f60934470
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 718d4378a897b187ba3073449869184fef5cec98
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528639"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924829"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps
 
@@ -27,16 +27,16 @@ Notandi getur gert [!INCLUDE[prodshort](includes/prodshort.md)]-gögnin sín að
 ## <a name="to-add-prodshort-as-a-data-source-in-power-apps"></a>Til að bæta [!INCLUDE[prodshort](includes/prodshort.md)] við sem gagnaveitu í Power Apps
 
 1. Flettið í [powerapps.microsoft.com](https://powerapps.microsoft.com/) í vafranum og skráið ykkur svo inn.
-2. Á heimasíðunni, í hlutanum **Byrja frá gögnum** skal velja **Aðrir gagnagjafar**.  
+2. Á heimasíðunni, í hlutanum **Byrja frá gögnum** skal velja **Aðrir gagnagjafar** .  
 
     Þetta opnar Power Apps Studio. Í fyrstu innskráningu þarf að tilgreina land/svæði.  
-3. Úr lista yfir tiltækar tengingar skal velja **Business Central** og svo hnappinn **Stofna**.
+3. Úr lista yfir tiltækar tengingar skal velja **Business Central** og svo hnappinn **Stofna** .
 
     Power Apps mun tengjast [!INCLUDE[prodshort](includes/prodshort.md)] með því að nota skilríkin sem notandi er skráður inn í með. Ef þú ert ekki stjórnandi á [!INCLUDE[prodshort](includes/prodshort.md)] þínu þarftu hugsanlega að skrá þig inn með öðrum reikningi.  
 
-4. Power Apps mun birta lista yfir *umhverfi og fyrirtæki* sem eru tiltæk í [!INCLUDE[prodshort](includes/prodshort.md)]. Velja skal umhverfi og fyrirtækið sem inniheldur gögnin sem á að tengjast við, svo sem *FRAMLEIÐSLA - Fyrirtækið mitt*.  
+4. Power Apps mun birta lista yfir *umhverfi og fyrirtæki* sem eru tiltæk í [!INCLUDE[prodshort](includes/prodshort.md)]. Velja skal umhverfi og fyrirtækið sem inniheldur gögnin sem á að tengjast við, svo sem *FRAMLEIÐSLA - Fyrirtækið mitt* .  
 
-5. Næst verður settur fram listi yfir töflur sem verða fyrir áhrifum sem hluti af API fyrir umhverfið þitt. Velja töfluna sem á að tengjast við og síðan **Tengjast**.
+5. Næst verður settur fram listi yfir töflur sem verða fyrir áhrifum sem hluti af API fyrir umhverfið þitt. Velja töfluna sem á að tengjast við og síðan **Tengjast** .
 
 Þessar svokölluðu töflur verða skráðar sem endastöðvar með [!INCLUDE[prodshort](includes/prodshort.md)] tengli fyrir Power Apps.  
 

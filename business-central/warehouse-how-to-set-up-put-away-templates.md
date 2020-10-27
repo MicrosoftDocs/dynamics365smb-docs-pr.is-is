@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8e6f248768f558f3bc5e12002234ffb56b006759
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2c8cd73e1dd47549cab57e9fd44fe52232437175
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780011"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925298"
 ---
 # <a name="set-up-put-away-templates"></a>Setja upp frágangssniðmát
 
@@ -31,10 +31,10 @@ Hægt er að setja upp fleiri en eitt frágangssniðmát og velja eitt þeirra f
 4. Stutt lýsing er færð inn ef vill.  
 5. Fyrsta línan er fyllt út með hólfaþörfunum sem á fyrst og fremst að uppfylla þegar tillaga er gerð um frágang.
 
-    Ef e.d. er óskað eftir sjálfgefinni frágangsaðferð sem á að byggja á föstum hólfum skal velja svæðið **Finna fast hólf**. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+    Ef e.d. er óskað eftir sjálfgefinni frágangsaðferð sem á að byggja á föstum hólfum skal velja svæðið **Finna fast hólf** . [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 6. Önnur línan er fyllt út með hólfaþörfunum sem ættu að vera annar kostur til að uppfylla þegar hólf er fundið fyrir frágang. Seinni línan er aðeins notuð ef hólf sem uppfyllir skilyrðin í fyrstu línunni finnst ekki.  
 7. Haldið er áfram að fylla út línur þar til lýst hefur verið öllum viðunandi hólfastaðsetningum á að nota í frágangi.  
-8. Í síðustu línunni í frágangssniðmátinu skal velja gátreitinn **Finna fljótandi hólf**.  
+8. Í síðustu línunni í frágangssniðmátinu skal velja gátreitinn **Finna fljótandi hólf** .  
 
 Hægt er að stofna mismunandi frágangssniðmát og nota þau eftir hentugleikum. Fyrst er notast við frágangssniðmátið sem valið hefur verið fyrir vöruna eða birgðahaldseininguna. Ef þeir reitir eru ekki fylltir út, er frágangssniðmátið sem valið er fyrir vöruhúsið á flýtiflipanum **Hólfareglur** á birgðageymsluspjaldinu notað.  
 

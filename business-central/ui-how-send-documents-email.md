@@ -5,15 +5,15 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 05/13/2020
+ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 72ed1cba131e76eba2020e4cca9c900b9b2ed45c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527986"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923421"
 ---
 # <a name="send-documents-by-email"></a>Senda skjöl í tölvupósti
 
@@ -25,22 +25,22 @@ Hægt er að senda nær allar skjalategundir sem viðhengi í tölvupóstskilabo
 
 Úr öllum studdum skjölum er tölvupóstur virkjaður með því að velja aðgerðina **Senda** í bókuðum skjölum, eða aðgerðina **Bóka og senda** í skjölum sem eftir á að bóka.
 
-Ef reiturinn **Tölvupóstur** á síðunni **Senda skjal til** er stilltur á **Já (Biðja um Stillingar)**, mun síðan **Senda tölvupóst** opnast með tengiliðinn fyrirfram skráðan í reitnum **Til:** og skjalið hengt við sem PDF-skrá. Í reitnum **Meginmál** er annað hvort hægt að færa textann inn handvirkt eða hafa reitinn fylltur út með fyrirfram uppsettum meginmálslínum sem eru sértækar fyrir skjalið.
+Ef reiturinn **Tölvupóstur** á síðunni **Senda skjal til** er stilltur á **Já (Biðja um Stillingar)** , mun síðan **Senda tölvupóst** opnast með tengiliðinn fyrirfram skráðan í reitnum **Til:** og skjalið hengt við sem PDF-skrá. Í reitnum **Meginmál** er annað hvort hægt að færa textann inn handvirkt eða hafa reitinn fylltur út með fyrirfram uppsettum meginmálslínum sem eru sértækar fyrir skjalið.
 
 Eftirfarandi ferli sýnir hvernig á að setja skýrsluna **Sala - Reikningur** upp til að nota fyrir meginmálslínur tölvupósts sem eru sértækar fyrir skjalið þegar bókaðir sölureikningar eru sendir í tölvupósti.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Að setja upp meginmálslínur tölvupósts sem eru sértækar fyrir sölureikninga.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skýrsluval - Sala** og veldu síðan tengda tengilinn.
-2. Á síðunni **Skýrsluval - Sala** í reitnum **Notkun** skal velja **Reikningur**.
+2. Á síðunni **Skýrsluval - Sala** í reitnum **Notkun** skal velja **Reikningur** .
 3. Í nýrri línu í reitnum **Skýrslukenni** skal velja t.d. staðlaða skýrslu 1306.
-4. Veljið gátreitinn **Nota fyrir meginmál tölvupósts**.
+4. Veljið gátreitinn **Nota fyrir meginmál tölvupósts** .
 5. Veljið reitinn **Útlitsauðkenni meginmáls tölvupósts** og veljið síðan útlit úr fellilistanum.
 
     Skýrsluútlit skilgreinir bæði stílsnið og innihald meginmáls tölvupósts, þar á meðal staðlaðan texta sem fer á undan skjalaupplýsingum í meginmáli tölvupóstsins. Þú sérð allar tiltækar skýrsluútlit ef valið er **Velja úr tæmandi listi** hnappurinn á fellilistanum.
 6. Til að skoða eða breyta útlitinu sem meginmál tölvupósts er byggt á, veldu útlit á síðunni **Sérsniðið skýrsluútlit** og veldu síðan **Breyta útliti** aðgerðina.
 7. Til að hægt sé að bjóða viðskiptamönnum að greiða rafrænt fyrir sölur er hægt að setja upp tengda rafræna greiðsluþjónustu, til dæmis PayPal, og láta PayPal upplýsingar og tengla í meginmál tölvupóstsins. Nánari upplýsingar eru í [Virkja greiðslur viðskiptamanns gegnum PayPal](sales-how-enable-payment-service-extensions.md).
-8. Velja hnappinn **Í lagi**.
+8. Velja hnappinn **Í lagi** .
 
 Nú þegar t.d. er valið aðgerðin **Senda** á síðunni **Bókaður sölureikningur** munu meginmálslínur tölvupósts innihalda upplýsingar fylgiskjals skýrslu 1306 og á eftir fylgir sérsniðinn staðlaður texti í samræmi við skýrsluútlitið sem valið var í 5. þrepi.
 
@@ -49,11 +49,11 @@ Eftirfarandi ferli sýnir hvernig eigi að senda bókaðan sölureikning sem tö
 ## <a name="to-send-documents-by-email"></a>Að senda fylgiskjöl með tölvupósti
 
 1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Bókaðir sölureikningar** og veldu síðan tengda tengilinn.
-2. Veljið viðeigandi bókaðan sölureikning og veljið síðan aðgerðina **Senda**. Síðan **Senda skjal til** opnast.
-3. Í reitnum **Tölvupóstur** skal velja **Já (biðja um stillingar)**. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).
-4. Velja hnappinn **Í lagi**. Síðan **Senda tölvupóst** opnast.
+2. Veljið viðeigandi bókaðan sölureikning og veljið síðan aðgerðina **Senda** . Síðan **Senda skjal til** opnast.
+3. Í reitnum **Tölvupóstur** skal velja **Já (biðja um stillingar)** . Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).
+4. Velja hnappinn **Í lagi** . Síðan **Senda tölvupóst** opnast.
 5. Í reitnum **Til:** er fært inn gilt netfang. Sjálfgefna gildið°er netfang viðskiptamannsins.
-6. Lýsandi texti er færður inn í reitinn **Efni**. Sjálfgefna gildið er nafn og reikningsnúmer viðskiptamannsins.
+6. Lýsandi texti er færður inn í reitinn **Efni** . Sjálfgefna gildið er nafn og reikningsnúmer viðskiptamannsins.
 7. Í reitnum **Viðhengi** er myndaður reikningur sjálfgefið hengdur við sem PDF-skrá.
 8. Í reitinn **Meginmál** skal slá inn stutt skilaboð til viðtakanda.
 
@@ -61,7 +61,7 @@ Eftirfarandi ferli sýnir hvernig eigi að senda bókaðan sölureikning sem tö
 9. Veldu hnappinn **Í lagi** til að senda tölvupóstinn.
 
 > [!NOTE]  
-> Ef þú vilt ekki tilgreina stillingar tölvupósts í hvert sinn sem skjal er sent í tölvupósti er hægt að velja **Já (nota sjálfgefnar stillingar)** valkostinn í **Tölvupóstur** reitnum á síðunni **Senda skjal til**. Í því tilfelli mun síðan **Senda tölvupóst** ekki opnast. Sjá skref 4. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
+> Ef þú vilt ekki tilgreina stillingar tölvupósts í hvert sinn sem skjal er sent í tölvupósti er hægt að velja **Já (nota sjálfgefnar stillingar)** valkostinn í **Tölvupóstur** reitnum á síðunni **Senda skjal til** . Í því tilfelli mun síðan **Senda tölvupóst** ekki opnast. Sjá skref 4. Frekari upplýsingar er að finna á [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Skjöl sem eru merkt sem prentuð þegar þau eru send
 

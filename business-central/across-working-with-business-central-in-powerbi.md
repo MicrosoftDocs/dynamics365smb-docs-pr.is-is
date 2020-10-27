@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 07/10/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: bdcbcb0fa82d799e29cfcdbb034e231635510656
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 99628b761a3d5f79941a78c00a999a5b8131869e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697771"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927223"
 ---
 # <a name="working-with-prodshort-data-in-power-bi"></a>Unnið með [!INCLUDE [prodshort](includes/prodshort.md)] gögn í Power BI
 
@@ -29,7 +29,7 @@ Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skrá
 
 Þegar þú ert með Power BI-reikning geturðu skráð þig inn á [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/).
 
-Power BI þjónustan hýsir allar skýrslur sem eru í boði. Til að sjá skýrslu skal velja **Vinnusvæðið mitt** > **Skýrslur**. Veljið svo skýrsluna sem á að skoða.
+Power BI þjónustan hýsir allar skýrslur sem eru í boði. Til að sjá skýrslu skal velja **Vinnusvæðið mitt** > **Skýrslur** . Veljið svo skýrsluna sem á að skoða.
 
 Með [!INCLUDE[prodshort](includes/prodshort.md)] á netinu er sjálfkrafa hægt að hafa sjálfgefnar skýrslur á vinnusvæðinu. Ef stofna á eigin skýrslur er hægt að nota Power BI Desktop til að stofna skýrslur og birta þær síðan á eigin vinnusvæði. Frekari upplýsingar er að finna í [Hafist handa með skýrslur í Power BI Desktop til að birta [!INCLUDE [prodlong](includes/prodlong.md)] gögn](across-how-use-financials-data-source-powerbi.md).
 
@@ -37,15 +37,15 @@ Ef þú ert að nota [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum þ
 
 ## <a name="get-the-latest-data"></a>Fá nýjustu gögnin
 
-Hver Power BI skýrsla byggir á gagnasafni sem fær gögn frá [!INCLUDE[prodshort](includes/prodshort.md)] uppruna. Þú vilt ganga úr skugga um að gögnin í Power BI-skýrslunum séu uppfærð með gögnunum í [!INCLUDE[prodshort](includes/prodshort.md)]. Þetta hugtak er nefnt *uppfærsla*.  Ekki er víst að endurnýjun gerist sjálfkrafa, allt eftir því hvernig fyrirtækið hefur sett upp Power BI. Það eru tvær leiðir til að uppfæra gögn: handvirkt eða með því að tímasetja uppfærslu. Handvirk endurnýjun fer fram eftir þörfum. Áætluð endurnýjun gerir þér kleift að uppfæra sjálfkrafa á skilgreindum tímabilum.
+Hver Power BI skýrsla byggir á gagnasafni sem fær gögn frá [!INCLUDE[prodshort](includes/prodshort.md)] uppruna. Þú vilt ganga úr skugga um að gögnin í Power BI-skýrslunum séu uppfærð með gögnunum í [!INCLUDE[prodshort](includes/prodshort.md)]. Þetta hugtak er nefnt *uppfærsla* .  Ekki er víst að endurnýjun gerist sjálfkrafa, allt eftir því hvernig fyrirtækið hefur sett upp Power BI. Það eru tvær leiðir til að uppfæra gögn: handvirkt eða með því að tímasetja uppfærslu. Handvirk endurnýjun fer fram eftir þörfum. Áætluð endurnýjun gerir þér kleift að uppfæra sjálfkrafa á skilgreindum tímabilum.
 
 ### <a name="refresh-manually"></a>Uppfæra handvirkt
 
-Í skoðunarrúðunni, undir **Gagnasafn**, skal velja **Fleiri valkostir (...)** við hliðina á gagnasafni og velja svo **Uppfæra núna**.
+Í skoðunarrúðunni, undir **Gagnasafn** , skal velja **Fleiri valkostir (...)** við hliðina á gagnasafni og velja svo **Uppfæra núna** .
 
 ### <a name="schedule-a-refresh"></a>Áætla uppfærslu
 
-Í skoðunarrúðunni, undir Gagnasafn, skal velja Fleiri valkostir (...) við hliðina á gagnasafn og velja svo **Uppfæra núna**. Fylltu út upplýsingarnar í **Tímasetja uppfærslu** og veldu **Not**.
+Í skoðunarrúðunni, undir Gagnasafn, skal velja Fleiri valkostir (...) við hliðina á gagnasafn og velja svo **Uppfæra núna** . Fylltu út upplýsingarnar í **Tímasetja uppfærslu** og veldu **Not** .
 
 Frekari upplýsingar eru í [Grunnstilla uppfærsluáætlun](/power-bi/connect-data/refresh-scheduled-refresh)
 
@@ -53,11 +53,11 @@ Frekari upplýsingar eru í [Grunnstilla uppfærsluáætlun](/power-bi/connect-d
 
 Hægt er að dreifa Power BI skýrslum á meðal notenda sem. pbix-skrám. Ef þú ert með .pbix-skrá er hægt að hlaða skránni upp á vinnusvæði. Til að hlaða upp skýrslu skal gera eftirfarandi:
 
-1. Á nýja vinnusvæðinu skal velja **Sækja gögn**.
+1. Á nýja vinnusvæðinu skal velja **Sækja gögn** .
 
-2. Í reitnum Skrár skal velja **Sækja**.
+2. Í reitnum Skrár skal velja **Sækja** .
 
-3. Veldu **Staðbundin skrá**, farðu þangað sem hún er vistuð og veldu **Opna**.
+3. Veldu **Staðbundin skrá** , farðu þangað sem hún er vistuð og veldu **Opna** .
 
 Frekari upplýsingar er að finna á [Hlaða upp skýrslu á þjónustu](/power-bi/paginated-reports/paginated-reports-quickstart-aw#upload-the-report-to-the-service).
 
@@ -71,7 +71,7 @@ Frekari upplýsingar er að finna á [Hlaða upp skýrslu á þjónustu](/power-
 
 Þegar skýrsla er á vinnusvæðinu er hægt að deila henni með öðrum í fyrirtækinu.
 
-Til að deila skýrslu, í listaskýrslum, eða í opinni skýrslu skal velja **Deila**. Á hlutanum **Deila skýrslu** skal slá inn fullt netfang fyrir einstaklinga eða hóp viðtakenda sem á að deila með. Fylgdu leiðbeiningunum á skjánum til að ljúka deilingunni. Frekari upplýsingar er að finna á [Deila stjórnborði eða skýrslu](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+Til að deila skýrslu, í listaskýrslum, eða í opinni skýrslu skal velja **Deila** . Á hlutanum **Deila skýrslu** skal slá inn fullt netfang fyrir einstaklinga eða hóp viðtakenda sem á að deila með. Fylgdu leiðbeiningunum á skjánum til að ljúka deilingunni. Frekari upplýsingar er að finna á [Deila stjórnborði eða skýrslu](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 > [!NOTE]
 > Þú verður að hafa  [Power BI Pro-leyfi](/power-bi/service-features-license-type) og fólkið sem þú deilir með einnig. Efnið verður að vera á vinnusvæði með [Premium réttindi](/power-bi/service-premium-what-is). Nánari upplýsingar eru í [Aðferðir við að deila vinnu þinn í Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).

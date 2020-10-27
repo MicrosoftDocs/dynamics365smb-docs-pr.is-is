@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f1c082a24348b106a0bcbd0e48084f7ce88b435
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f628ceefb6894f8ca2f05e6345ac4f3b19f3235e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779612"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923261"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Færa íhluti á aðgerðasvæði í grunnskilgreiningu vöruhúss
 Ef vöruvinnsla fer fram í vöruhúsi gæti þurft að færa vörur á milli innri hólfa í samræmi við innri upprunaskjöl, svo sem framleiðslu-, samsetningar- eða þjónustupantanir úr birgðageymslu.  
@@ -23,19 +23,19 @@ Ef vöruvinnsla fer fram í vöruhúsi gæti þurft að færa vörur á milli in
 > [!NOTE]  
 >  Upplýsingar um hvernig færa á vörur á milli hólfa án upprunaskjala eru í Innri hreyfing.  
 
-Í ítarlegri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Beinn frágangur og tínsla**, er hægt að nota síðuna **Vinnublað hreyfingar** til að færa vörur milli hólfa. Nánari upplýsingar eru í [Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Í ítarlegri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Beinn frágangur og tínsla** , er hægt að nota síðuna **Vinnublað hreyfingar** til að færa vörur milli hólfa. Nánari upplýsingar eru í [Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Í einfaldri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitina **Hólf áskilið** og **Krefjast tínslu** er hægt að skrá hreyfingar vara á svæði innri starfsemi samkvæmt innri upprunaskjölum á eftirfarandi hátt:  
 
--   Með síðunni **Birgðahreyfing**.  
--   Með síðunni **Birgðatínsla**.  
+-   Með síðunni **Birgðahreyfing** .  
+-   Með síðunni **Birgðatínsla** .  
 
 > [!NOTE]  
 >  Birgðatínslur bóka einnig neikvæðar birgðafærslur sem notkun og eru aðeins studdar fyrir framleiðsluíhluti. Sjá síðuna Birgðatínsla fyrir frekari upplýsingar  
 
 Til að fá nánari upplýsingar um birgðahreyfingar, sjá síðuna Birgðahreyfingar.  
 
-Tvö mismunandi hlutverk geta stofnað upphafsbirgðahreyfinguna. Samsetningarstarfsmaður, til dæmis, getur stofnað hana úr útgefinni samsetningarpöntun þannig að hún birtist á lista starfsmanns í vöruhúsi yfir verk sem á eftir að gera. Ef búa á til birgðahreyfingu fyrir samsetningarpöntunarlínur sem eru tilbúnar til að láta flytja íhluti í tilgreind hólf sín notar samsetningarstarfsmaðurinn aðgerðina **Stofna birgðahreyfingu**.  
+Tvö mismunandi hlutverk geta stofnað upphafsbirgðahreyfinguna. Samsetningarstarfsmaður, til dæmis, getur stofnað hana úr útgefinni samsetningarpöntun þannig að hún birtist á lista starfsmanns í vöruhúsi yfir verk sem á eftir að gera. Ef búa á til birgðahreyfingu fyrir samsetningarpöntunarlínur sem eru tilbúnar til að láta flytja íhluti í tilgreind hólf sín notar samsetningarstarfsmaðurinn aðgerðina **Stofna birgðahreyfingu** .  
 
 Að öðru kostir getur starfsmaður í vöruhúsi stofnað hana með því að benda á samsetningarpöntunina sem um ræðir. Þessu er lýst í eftirfarandi ferli.  
 
@@ -50,10 +50,10 @@ Að öðru kostir getur starfsmaður í vöruhúsi stofnað hana með því að 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðahreyfing** og veldu tengda tengilinn.  
 2.  Á flýtiflipanum **Almennt** er reiturinn **Nr.** fylltur út . Hægt er að ýta á færslulykilinn til að velja úr númeraröð.  
 3.  Í reitnum **Kóti birgðageymslu** er færð inn birgðageymslan þar sem hreyfingin á sér stað.  
-4.  Valið er **Sækja upprunaskjöl** aðgerð. Að öðrum kosti er fyllt út í reitinn **Upprunaskjal** og valið svo hnappurinn **AssistEdit** í reitnum **Upprunanúmer**.  
-5.  Á síðunni **Upprunaskjöl** er valin samsetningarpöntun sem á að færa íhluta í og veljið svo hnappinn **Í lagi**.  
+4.  Valið er **Sækja upprunaskjöl** aðgerð. Að öðrum kosti er fyllt út í reitinn **Upprunaskjal** og valið svo hnappurinn **AssistEdit** í reitnum **Upprunanúmer** .  
+5.  Á síðunni **Upprunaskjöl** er valin samsetningarpöntun sem á að færa íhluta í og veljið svo hnappinn **Í lagi** .  
 
-    Fyrir hvern nauðsynlegan íhlut sem hægt er að flytja, eru ein Taka-lína og ein Setja-lína mynduð á síðunni **Birgðahreyfingar**. Allir reitir nema reiturinn **Magn til afgreiðslu** eru fylltir út fyrirfram samkvæmt upprunaskjalslínunum. Reiturinn **Magn til afgreiðslu** er stilltur á núll þar til magnið sem raunverulega hefur verið flutt er fært inn.  
+    Fyrir hvern nauðsynlegan íhlut sem hægt er að flytja, eru ein Taka-lína og ein Setja-lína mynduð á síðunni **Birgðahreyfingar** . Allir reitir nema reiturinn **Magn til afgreiðslu** eru fylltir út fyrirfram samkvæmt upprunaskjalslínunum. Reiturinn **Magn til afgreiðslu** er stilltur á núll þar til magnið sem raunverulega hefur verið flutt er fært inn.  
 
     Hægt er að breyta hólfakóðanum á Taka-línunni, en aðeins í samræmi við ráðstöfunarmagn. Ef hnappurinn **AssistEdit** er valinn á reitnum **Hólfkóti** í Taka-línu mun síðan **Innihald hólfs** opnast og aðeins sýna hólf þarf sem íhluturinn er tiltækur.  
 
@@ -61,7 +61,7 @@ Að öðru kostir getur starfsmaður í vöruhúsi stofnað hana með því að 
 6.  Í reitnum **Magn til afgreiðslu** er fært inn að fullu eða að hluta til magnið sem raunverulega hefur verið flutt. Gildið á línum Taka og Setja verður að vera það sama. Annars er ekki hægt að skrá hreyfinguna.  
 
     > [!NOTE]  
-    >  Eins og í öðrum vöruhúsaaðgerðum er hægt að skipta Setja-línu með því að velja **Aðgerðir** og svo **Skipta línu**. Í því tilviki verður samtala uppskiptu Setja-línanna tveggja að vera jöfn magninu í Taka-línunni.  
+    >  Eins og í öðrum vöruhúsaaðgerðum er hægt að skipta Setja-línu með því að velja **Aðgerðir** og svo **Skipta línu** . Í því tilviki verður samtala uppskiptu Setja-línanna tveggja að vera jöfn magninu í Taka-línunni.  
 
 7.  Þegar allt er til reiðu til að skrá hreyfingar sem hafa verið framkvæmdar er aðgerðin **Skrá birgðahreyfingu** valin.  
 

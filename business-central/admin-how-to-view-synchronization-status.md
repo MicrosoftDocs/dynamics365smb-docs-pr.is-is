@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2371c61c36a17df93ccc1a24c588b12613f5c380
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: c185ab8fecc8f8d70dad7696a5fb5f67207717aa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196616"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924604"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Skoða stöðu samstillingarverka
 Notaðu síðuna **Samstillingarvillur í tengdum gögnum** til að skoða stöðu samstillingarverka sem hafa verið keyrðar fyrir tengdar færslur í Common Data Service eða [!INCLUDE[crm_md](includes/crm_md.md)] samþættingum. Þetta felur í sér verk sem voru í gangi frá verkröð og handvirk samstillingarverk sem voru í gangi í færslum frá [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til dæmis er gagnlegt að skoða stöðu þeirra við úrræðaleit vegna þess að þú færð aðgang að upplýsingum um villur sem tengjast tengdum færslum. Venjulega koma þessar tegundir af villum upp vegna aðgerða notanda, t.d. þegar:  
@@ -34,10 +34,13 @@ Notaðu síðuna **Samstillingarvillur í tengdum gögnum** til að skoða stö�
 
 |Aðgerð|Description|
 |----|----|
-|**Fjarlægja tengingu**|Aftengir færslurnar og þær samstillast ekki lengur. Til að samstilla færslurnar á ný þarf að tengja þær aftur.|
-|**Reyna aftur**|Fyrir hverja færslu þar sem villa finnst er samstillingu sleppt nema vandamálið sé leyst handvirkt. Þegar reynt er aftur verður færslan höfð með í næstu samstillingu.|
-|**Samstilla**|Forritið reynir að leysa úr árekstri þar sem færslu var breytt í báðum viðskiptaforritunum. Hægt er að velja útgáfu færslunnar sem á að nota í báðum forritunum.|
+|**Fjarlægja tengingu**|Aftengir færslurnar og þær samstillast ekki lengur. Til að endurræsa samstillinguna þarf að tengja þær aftur. |
+|**Reyna aftur** og **Reyna allt**|Fyrir hverja færslu þar sem villa finnst er samstillingu sleppt nema vandamálið sé leyst. Þegar reynt er aftur verður valin færsla höfð með í næstu samstillingu og **Reyna allt aftur** inniheldur allar færslurnar.|
+|**Samstilla**|Forritið reynir að leysa úr árekstri þar sem færslu var breytt í báðum viðskiptaforritunum. Hægt er að velja útgáfu færslunnar sem á að nota.|
 |**Endurheimta færslur** og **Eyða færslum**|Þetta er gagnlegt þegar færslu var eytt í einu viðskiptaforritanna. Eyða færslum eyðir færslunni í forritinu þar sem hún er enn til staðar. Endurheimt býr færsluna til aftur í viðskiptaforritinu sem henni var eytt úr.|
+
+> [!NOTE]
+> Til að draga úr þeim fjölda árekstra sem þarf að leysa er hægt að setja upp varpanir samþættingartöflu til að nota þessar aðgerðir sjálfkrafa. Frekari upplýsingar er að finna í [Vörpun samþættingartaflna](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Að skoða samstillingarkladdann fyrir tiltekna (handvirkt samstillta) færslu
 1. Opnaðu til dæmis viðskiptamann, vöru eða einhverja aðra færslu sem samstillir gögn milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og Common Data Service eða [!INCLUDE[crm_md](includes/crm_md.md)].

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6168b8a14bc520f811db231e9d8f885e7372a3d6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1222f3b7ed3c71ded3f653bb121b920c170c40f5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185205"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924263"
 ---
 # <a name="design-details-known-item-application-issue"></a>Hönnunarupplýsingar: Þekkt vandamál birgðajöfnunar
 Þessi grein fjallar um vandamál þar sem birgðastaðan er núll þótt opnar birgðafærslur séu til staðar í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -106,7 +106,7 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
 
  Fyrir atburðarás 2, auðkennið vandann á annan hvorn eftirfarandi hátt:  
 
--   Leitið að opinni birgðafærsla á útleið og birgðafærslu á innleið með sama númeri í reitnum **Skjalanr.** og Já í reitnum **Leiðrétting**. Sjá eftirfarandi dæmi um þannig birgðafærslu.  
+-   Leitið að opinni birgðafærsla á útleið og birgðafærslu á innleið með sama númeri í reitnum **Skjalanr.** og Já í reitnum **Leiðrétting** . Sjá eftirfarandi dæmi um þannig birgðafærslu.  
 
 |Færslunr.|Bókunardagsetning|Tegund færslu|Gerð skjals|Nr. fylgiskjals|Vörunr.|Staðsetningarkóði|Magn|Kostnaðarupphæð (raunverul.)|Reikningsfært magn|Eftirstöðvar (magn)|Opið|Leiðréttingarfærsla|  
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
@@ -120,7 +120,7 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
 
  Í báðum atburðarásum, auðkennið viðkomandi kostnaðarjöfnun sem hér segir:  
 
-1.  Opnið töfluna **Birgðajöfnunarfærsla**.  
+1.  Opnið töfluna **Birgðajöfnunarfærsla** .  
 
 2.  Afmarkið reitinn **Birgðafærslunr.** með því að nota númer birgðafærslunnar á söluvöruskilum.  
 

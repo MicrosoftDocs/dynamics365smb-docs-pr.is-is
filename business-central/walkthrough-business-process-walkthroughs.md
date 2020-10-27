@@ -1,6 +1,6 @@
 ---
 title: Kynningar á viðskiptaferlum | Microsoft Docs
-description: Þessi kynning fjallar skref-fyrir-skref viðskiptaferla sem framkvæma má með því að nota CRONUS International Ltd. sýnifyrirtæki. Leiðbeiningarnar samanstanda af mörgum ferlum sem sum hver eru venjulega framkvæmd af einum notanda, meðan önnur fela í sér mörg ólík notandahlutverk. Til að líkja eftir vinnuumhverfinu innihalda sumar kynningarnar uppsetningarskref sem þarf að ljúka til að ljúka æfingunum eins og lýst er. Þessi skref leggja til innsýn inní hvers konar upplýsingum notendur þurfa að deila með sérfræðingum fyrirtækis síns.
+description: Þessi kynning fjallar skref-fyrir-skref viðskiptaferla sem framkvæma má með því að nota CRONUS International Ltd. sýnifyrirtæki.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d278175606927cc1ee1ee2dda86099f6f080822c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788372"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923321"
 ---
 # <a name="business-process-walkthroughs"></a>Kynningar á viðskiptaferli
 
@@ -39,7 +39,8 @@ ms.locfileid: "3788372"
 |Skipuleggja verkefni frá upphafi til enda. **Krefst fullkominnar sýnigagna**|[Kynning: Stýring verkefna með verkum](walkthrough-managing-projects-with-jobs.md)|  
 |Skýrsla um kostnað verks. **Krefst fullkominnar sýnigagna**|[Kynning: Útreikningur á VÍV fyrir verk](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Tínsla vörur fyrir afhendingu í einföldum vöruhúsagrunnstillingum. **Krefst fullkominnar sýnigagna**|[Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Framkvæma gallastjórnun. **Krefst fullkominnar sýnigagna**|[Kynning: Rað-/lotunúmerarakning](walkthrough-tracing-serial-lot-numbers.md)|  
+|Framkvæma gallastjórnun. **Krefst fullkominnar sýnigagna**|[Kynning: Rað-/lotunúmerarakning](walkthrough-tracing-serial-lot-numbers.md)|
+|Flytjið út viðskiptagögn vegna endurskoðunar í Þýskalandi.|[Kynning: Gagnaútflutningur fyrir stafræna endurskoðun](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 ## <a name="see-also"></a>Sjá einnig
 

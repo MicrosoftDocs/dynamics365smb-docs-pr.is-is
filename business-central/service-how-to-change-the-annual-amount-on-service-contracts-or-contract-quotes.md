@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: aecd53065e9567678a2d87c8d6bd21956c6251c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402558"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925723"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Breyta árlegri upphæð þjónustusamnings eða samningstilboðs
 Hægt er að breyta árlegri upphæð þjónustusamnings eða samningstilboðs til að leiðrétta upphæðina sem verður reikningsfærð árlega.  
@@ -41,7 +41,7 @@ Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilbo�
 
 1. Mismuninum milli gildanna í reitunum ný **Árleg upphæð** og **Reiknuð árleg upphæð** er deilt í fjölda samningslína í þjónustusamningnum eða samningstilboðinu.  
 2. Gildið í reitnum **Línuupphæð** er uppfært með því að bæta við niðurstöðu fyrri aðgerðar.  
-3. Efnið í reitunum **Afsl.upphæð línu**, **Línuafsl. %** og **Framlegð** er uppfært með tilliti til við nýja virðið í reitnum **Línuupphæð** á eftirfarandi hátt:   
+3. Efnið í reitunum **Afsl.upphæð línu** , **Línuafsl. %** og **Framlegð** er uppfært með tilliti til við nýja virðið í reitnum **Línuupphæð** á eftirfarandi hátt:   
     * Afsl.upphæð línu = Línuvirði - Línuupphæð.  
     * Línuafsl. % = Afsl.upphæð línu / Línuvirði * 100.  
     * Framlegð = Línuupphæð - Línukostnaður.  
@@ -59,7 +59,7 @@ Gátreiturinn **Heimila ójafnaðar upphæðir** er ekki valinn í þjónustusam
 
 Virðið í reitnum **Árleg upphæð** er það sama og í reitnum **Reiknuð árleg upphæð** sem er alltaf stillt á samtölu línuupphæðanna. Í þessu tilviki er það jafnt og eftirfarandi: 40 +45 +63 = 148.  
 
-Ef **Árlegri upphæð** er breytt í 139 reiknar kerfið upphæðina sem þarf að bæta við hverja **Línuupphæð**. Þessi upphæð er reiknuð með því að draga **Reiknuð árleg upphæð** frá nýja gildinu í reitnum **Árleg upphæð** og deila útkomunni með fjölda samningslína í þjónustusamningnum. Í þessu tilviki verður það jafnt og eftirfarandi: (139 - 148) / 3 = -3. Þá er síðustu reiknuðu tölunni bætt við hvert virði í reitnum **Línuupphæð** og virðin í reitunum **Línuafsl.%**, **Afsl.upphæð línu** og **Framlegð** eru uppfærð í samræmi við reiknireglurnar í ferlinu sem lýst er hér að framan.  
+Ef **Árlegri upphæð** er breytt í 139 reiknar kerfið upphæðina sem þarf að bæta við hverja **Línuupphæð** . Þessi upphæð er reiknuð með því að draga **Reiknuð árleg upphæð** frá nýja gildinu í reitnum **Árleg upphæð** og deila útkomunni með fjölda samningslína í þjónustusamningnum. Í þessu tilviki verður það jafnt og eftirfarandi: (139 - 148) / 3 = -3. Þá er síðustu reiknuðu tölunni bætt við hvert virði í reitnum **Línuupphæð** og virðin í reitunum **Línuafsl.%** , **Afsl.upphæð línu** og **Framlegð** eru uppfærð í samræmi við reiknireglurnar í ferlinu sem lýst er hér að framan.  
 
 Að lokum verða þessi gögn í samningslínunum.  
 
@@ -74,7 +74,7 @@ Ef valið er að breyta árlegri upphæð þjónustusamnings eða samningstilbo�
 
 1. Línuupphæðarprósentan er reiknuð á eftirfarandi hátt: efninu í reitnum **Línuupphæð** er deilt í samtölu gilda í reitnum **Reiknuð árleg upphæð** í öllum samningslínum.  
 2. Gildið í reitnum **Línuupphæð** er uppfært með því að bæta því við mismuninn milli nýju og reiknuðu ársupphæðarinnar, sem er margfaldaður með línuupphæðarprósentunni.  
-3. Efnið í reitunum **Afsl.upphæð línu**, **Línuafsl. %** og **Framlegð** er uppfært með tilliti til við nýja virðið í reitnum **Línuafsláttarupphæð** á eftirfarandi hátt:  
+3. Efnið í reitunum **Afsl.upphæð línu** , **Línuafsl. %** og **Framlegð** er uppfært með tilliti til við nýja virðið í reitnum **Línuafsláttarupphæð** á eftirfarandi hátt:  
 
     * Afsl.upphæð línu = Línuvirði - Línuupphæð  
     * Línuafsl. % = Afsl.upphæð línu / Línuvirði * 100  
@@ -99,7 +99,7 @@ Er **Árleg upphæð** er breytt í 60 reiknast framlegðarprósenta hverrar sam
 * Vara 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
 * Vara 3 – 12.7 / (5 + 5.1 + 12.7) = 0.557  
 
-Þá er gildið í reitnum **Línuupphæð** uppfærð í hverri samningslínu með reiknireglunni: Línuupphæð = Línuupphæð + mismunur milli nýju og reiknuðu ársupphæðanna * Prósenta Að því loknu eru gildin í reitunum Afsl.upphæð línu, Línuafsl. Að því loknu eru gildin í reitunum **Afsl.upphæð línu**, **Línuafsl. %** og **Framlegð** uppfærð með reiknireglunum sem lýst er að framan.  
+Þá er gildið í reitnum **Línuupphæð** uppfærð í hverri samningslínu með reiknireglunni: Línuupphæð = Línuupphæð + mismunur milli nýju og reiknuðu ársupphæðanna * Prósenta Að því loknu eru gildin í reitunum Afsl.upphæð línu, Línuafsl. Að því loknu eru gildin í reitunum **Afsl.upphæð línu** , **Línuafsl. %** og **Framlegð** uppfærð með reiknireglunum sem lýst er að framan.  
 
 Að lokum verða þessi gögn í samningslínunum.  
 
@@ -137,7 +137,7 @@ Virðið í reitnum **Árleg upphæð** er það sama og í reitnum **Reiknuð �
 * Vara 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
 * Vara 3 – 12.7 / (5 + 5.1 + 12.7) = 0.557  
 
-Þá er gildið í reitnum **Línuupphæð** uppfærð í hverri samningslínu með reiknireglunni: Línuupphæð = Línuupphæð + mismunur milli nýju og reiknuðu ársupphæðanna * Prósenta Að því loknu eru gildin í reitunum Afsl.upphæð línu, Línuafsl. Að því loknu eru gildin í reitunum **Afsl.upphæð línu**, **Línuafsl. %** og **Framlegð** uppfærð með reiknireglunum úr skrefi 3 í ferlinu sem lýst er að framan.  
+Þá er gildið í reitnum **Línuupphæð** uppfærð í hverri samningslínu með reiknireglunni: Línuupphæð = Línuupphæð + mismunur milli nýju og reiknuðu ársupphæðanna * Prósenta Að því loknu eru gildin í reitunum Afsl.upphæð línu, Línuafsl. Að því loknu eru gildin í reitunum **Afsl.upphæð línu** , **Línuafsl. %** og **Framlegð** uppfærð með reiknireglunum úr skrefi 3 í ferlinu sem lýst er að framan.  
 
 Að lokum verða þessi gögn í samningslínunum.  
 

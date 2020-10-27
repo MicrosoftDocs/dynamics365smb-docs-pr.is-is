@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/07/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 46c94de4b1852549aea9fb7d2279fe045e33df1f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5e12f68f56c5ffe06bf37c51b2e85ea1074a4c92
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789026"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926099"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Skrá sérstök söluverð og afslætti
 
@@ -40,7 +40,7 @@ Af því að söluverð og afsláttur á sölulínur byggist á samsetningu vör
 ## <a name="to-set-up-a-sales-price-for-a-customer"></a>Að setja upp söluverð fyrir viðskiptamann
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
-2. Opna skal viðeigandi viðskiptamannaspjald og veljið síðan aðgerðina **Verð**.
+2. Opna skal viðeigandi viðskiptamannaspjald og veljið síðan aðgerðina **Verð** .
 
     Á síðunni **Söluverð** er reiturinn **Tegund sölu** útfylltur með **Viðskiptamaður** og reiturinn **Sölukóði** með númeri viðskiptamannsins.
 3. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyllt er út lína fyrir hverja samsetningu sem veitir sérstakt söluverð fyrir viðskiptamanninn.
@@ -48,7 +48,7 @@ Af því að söluverð og afsláttur á sölulínur byggist á samsetningu vör
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Sölulínuafsláttur stofnaður fyrir viðskiptamann
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
-2. Opna skal viðeigandi viðskiptamannaspjald og veljið svo aðgerðina **Línuafslættir**.
+2. Opna skal viðeigandi viðskiptamannaspjald og veljið svo aðgerðina **Línuafslættir** .
 
     Á síðunni **Sölulínuafslættir** er reiturinn **Tegund sölu** útfylltur með **Viðskiptamaður** og reiturinn **Sölukóði** með númeri viðskiptamannsins.
 3. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyllt er út lína fyrir hverja samsetningu sem veitir sérstakan sölulínuafslátt fyrir viðskiptamanninn.
@@ -71,7 +71,7 @@ Eftir að ákveðið hefur verið hvaða viðskiptamenn geti fengið reikningsaf
 
 Næsta skref er að setja upp nýja skilmála fyrir sölureikningsafslætti.
 
-1. Á síðunni **Viðskiptamannaspjald** skal velja aðgerðina **Reikningsafslættir**. Síðan **Reikningsafsl. viðskm.** opnast.
+1. Á síðunni **Viðskiptamannaspjald** skal velja aðgerðina **Reikningsafslættir** . Síðan **Reikningsafsl. viðskm.** opnast.
 2. Í reitnum **Gjaldmiðilskóði** er færður inn kóðinn fyrir gjaldmiðilinn sem reikningsafsláttarskilyrði í línunni eiga við um. Reiturinn er skilinn eftir auður ef setja á upp reikningsafsláttarskilyrði í ISK.
 3. Í reitinn **Lágmarksupphæð** er færð inn lágmarksupphæð sem reikningur þarf að hafa til að hægt sé að fá afslátt.
 4. Í reitnum **Afsláttar %** skal slá inn reikningsafslátt sem prósentu af reikningsupphæð.
@@ -90,11 +90,11 @@ Reikningsafsláttur er nú settur upp og úthlutað á umræddan viðskiptamann.
 - hvaða viðskiptamönnum eigi að veita þessa tegund afsláttar.  
 - hvaða afsláttarprósentu eigi að nota.  
 
-Ef þú reikningsfærir afslætti til að verða reiknaðir sjálfvirkt, geturðu tilgreint þetta á síðunni **Uppsetning Sala & Útistandandi**.  
+Ef þú reikningsfærir afslætti til að verða reiknaðir sjálfvirkt, geturðu tilgreint þetta á síðunni **Uppsetning Sala & Útistandandi** .  
 
 Við hvern viðskiptamann er hægt að tilgreina hvort veita eigi reikningsafslátt ef skilyrðum er fullnægt (það er, ef reikningurinn nær ákveðinni upphæð). Skilmála um reikningsafslátt innlendra viðskiptamanna má tilgreina í staðbundinn gjaldmiðill og í erlendum gjaldmiðli hjá erlendum viðskiptamönnum.  
 
-Afsláttarprósentur eru tengdar við ákveðnar reikningsupphæðir á síðunni **Reikningsafsláttur viðskiptamanns**. Hægt er að færa inn hvaða prósentutölu sem er inn á hverja síðu. Hver viðskiptamaður getur haft sína eigin síðu, eða þá að hægt er að tengja nokkra viðskiptamenn saman á síðu.  
+Afsláttarprósentur eru tengdar við ákveðnar reikningsupphæðir á síðunni **Reikningsafsláttur viðskiptamanns** . Hægt er að færa inn hvaða prósentutölu sem er inn á hverja síðu. Hver viðskiptamaður getur haft sína eigin síðu, eða þá að hægt er að tengja nokkra viðskiptamenn saman á síðu.  
 
 Til viðbótar við (eða í staðinn fyrir) afsláttarprósentu er hægt að tengja ákveðið þjónustugjald við ákveðna reikningsupphæð.  
 
@@ -128,7 +128,7 @@ Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð e�
 
 ## <a name="to-copy-sales-prices"></a>Söluverð afritað:
 
-Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota í verðflokki viðskiptamanna þarf að keyra **Leggja til söluverð á vinnublaði.** keyrslan sem er opnuð á síðunni **Vinnublað söluverðs**.  
+Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota í verðflokki viðskiptamanna þarf að keyra **Leggja til söluverð á vinnublaði.** keyrslan sem er opnuð á síðunni **Vinnublað söluverðs** .  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað söluverðs** og veldu síðan tengda tengilinn.  
 2. Velja skal **Leggja til söluverð á vinnublaði** Aðgerð  
@@ -138,22 +138,22 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
 6. Veldu hnappinn **Í lagi** til að setja nýtt verð í línurnar á síðunni **Vinnublað söluverðs** með nýju verðtillögunum og gefður til kynna að það gildi fyrir þá tegund sölu sem var valin.  
 
 > [!NOTE]  
-> Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja þær á síðuna **Söluverð** skal velja aðgerðina **Innleiða verðbreytingar** á síðunni **Vinnublað söluverðs**.
+> Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja þær á síðuna **Söluverð** skal velja aðgerðina **Innleiða verðbreytingar** á síðunni **Vinnublað söluverðs** .
 
 ## <a name="to-bulk-update-item-prices"></a>Til að magnuppfæra vöruverð
 
-Ef magnuppfæra á vöruverð, t.d. hækka öll vöruverð um einhverja prósentu, er nauðsynlegt að keyra **Leggja til vöruverð á vinnublaði** keyrsla. Þú getur fundið tengil á keyrsluna á síðunni **Vinnublað söluverðs**.  
+Ef magnuppfæra á vöruverð, t.d. hækka öll vöruverð um einhverja prósentu, er nauðsynlegt að keyra **Leggja til vöruverð á vinnublaði** keyrsla. Þú getur fundið tengil á keyrsluna á síðunni **Vinnublað söluverðs** .  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað söluverðs** og veldu síðan tengda tengilinn.  
 2. Veldu **Leggja til vöruverð á vinnublaði** Aðgerð  
 3. Á flýtiflipanum **Vara** er reiturinn **Nr.** fylltur út eða **Birgðabókunarflokkur** eða aðrir reitir með upprunalegu vöruverði sem á að uppfæra.  
 4. Efst á beiðnisíðunni er fyllt út í **Tegund sölu** og **Kóta sölu** með gerðinni og heitinu sem afrita á söluverðið í.
-5. Ef þú vilt að keyrslan leiðrétti sjálfkrafa tillögur að vöruverðum skal slá inn leiðréttingu í reitinn **Leiðréttingarstuðull**. Til dæmis myndir þú slá inn 1,15 í **Leiðréttingarstuðull** fyrir 15% hækkun á vöruverði.  
+5. Ef þú vilt að keyrslan leiðrétti sjálfkrafa tillögur að vöruverðum skal slá inn leiðréttingu í reitinn **Leiðréttingarstuðull** . Til dæmis myndir þú slá inn 1,15 í **Leiðréttingarstuðull** fyrir 15% hækkun á vöruverði.  
 6. Ef stofna á nýtt verð í keyrslunni er reiturinn **Stofna nýtt verð** valinn.  
 7. Veldu hnappinn **Í lagi** til að setja nýtt verð í línurnar á síðunni **Vinnublað söluverðs** með nýju verðtillögunum og gefður til kynna að það gildi fyrir þá tegund **Hlutar** sem var valinn.  
 
 > [!NOTE]
-> Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja á þær í töfluna **Söluverð** , má nota keyrsluna **Innleiða verðbreytingar** í flipanum **Aðgerðir**, flokknum **Aðgerðir** á síðunni **Vinnublað söluverðs**.
+> Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja á þær í töfluna **Söluverð** , má nota keyrsluna **Innleiða verðbreytingar** í flipanum **Aðgerðir** , flokknum **Aðgerðir** á síðunni **Vinnublað söluverðs** .
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 

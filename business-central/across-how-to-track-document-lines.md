@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ee77fe46999d6b586d7c524232ba4883f9c18340
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 056cb7d0aec55ae939c09adb47477343908c2e6c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781986"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924979"
 ---
 # <a name="track-document-lines"></a>Rekja skjalalínur
 Þú getur skoðað skjöl sem tengjast sölupöntunarlínum og innkaupapöntunarlínum, þ.m.t. frá safnvistuðum pöntunarlínum. Viðeigandi skjöl sem hægt er að rekja fela í sér tilboð, afhendingar, móttökur og standandi pantanir. Þetta hjálpar þér að bera kennsl á skjöl sem notuð eru til að vinna úr pöntunum.  
@@ -25,9 +25,9 @@ Eftirfarandi ferli sýnir hvernig skal rekja með sölupöntunarlínu. Skrefin e
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Opnuð er sölupöntun sem þú vilt rekja frá.  
-3.  Valin er lína og svo skal velja aðgerðina **Rakning skjalalínu**.
+3.  Valin er lína og svo skal velja aðgerðina **Rakning skjalalínu** .
 4. Á síðunni **Rakning skjalalínu** skal velja skjalið sem á að skoða og svo velja aðgerðina **Sýna** til að sjá tengdar línur.
-5. Til að skoða allt skjalið fyrir valda skjalalínu skal velja aðgerðina **Sýna skjal**.
+5. Til að skoða allt skjalið fyrir valda skjalalínu skal velja aðgerðina **Sýna skjal** .
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 

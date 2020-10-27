@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 82b5f3ec52be27c4fbe60a6a63a0cfc5f6f1bd7c
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: db8b05aa74583d8ba74fcfeb8fae1d3c28893fac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196544"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922393"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Úrræðaleit vegna samstillingarvillna
 Margir hreyfanlegir hlutir taka þátt í samþættingu [!INCLUDE[d365fin](includes/d365fin_md.md)] við Common Data Service og stundum fer eitthvað úrskeiðis. Þetta efnisatriði bendir á nokkrar dæmigerðar villur sem koma upp og gefur ýmis ráð um hvernig á að laga þær.
@@ -29,7 +29,7 @@ Villur koma oft upp annaðhvort vegna þess að notandi hefur gert eitthvað vi�
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
-Villur sem tengjast því hvernig samþættingin er sett upp þurfa venjulega á athygli stjórnanda að halda. Hægt er að skoða þessar villur á síðunni **Villur í samstillingu samþættingar**. Dæmigerð vandamál eru til að mynda:  
+Villur sem tengjast því hvernig samþættingin er sett upp þurfa venjulega á athygli stjórnanda að halda. Hægt er að skoða þessar villur á síðunni **Villur í samstillingu samþættingar** . Dæmigerð vandamál eru til að mynda:  
   
 * Heimildum og hlutverkum sem notanda er úthlutað eru ekki rétt.  
 * Reikningur stjórnanda var tilgreindur sem samþættingarnotandinn.  
@@ -50,6 +50,9 @@ Hægt er að afmarka færslur sem eiga að vera samstilltar með því að bera 
 Áreksturinn gerist vegna þess að viðtökufærslunni var einnig breytt – Tímastimpill færslunnar er nýlegri en tímastimpill Sölusamþættingarfærslu. Viðtökustaðarathugunin er aðeins framkvæmd fyrir tvístefnutöflur. 
 
 Þessar færslur eru nú fluttar á síðuna „Samst.færslur sem var sleppt“ sem er opnuð er úr á tengingaruppsetningarsíðu Microsoft Dynamics í Business Central. Þar er hægt að tilgreina breytingarnar sem á að halda og samstilla síðan færslurnar aftur.
+
+## <a name="remove-couplings-between-records"></a>Fjarlægja tengingu milli færslna
+Þegar eitthvað fer úrskeiðis í samþættingunni og nauðsynlegt er að aftengja færslur til að stöðva samstillingu þeirra á milli, þá er hægt að gera slíkt fyrir eina eða fleiri færslur í einu. Á síðunni **Vörpun samþættingartöflu** er hægt að velja **Aftengja** og síðan **Eyða tengingu** . Einnig er hægt á síðunni **Samstillingarvillur í tengdum gögnum** að velja villurnar og síðan velja **Fjarlægja tengingar** . 
 
 ## <a name="see-also"></a>Sjá einnig
 [Samþætting við Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  
