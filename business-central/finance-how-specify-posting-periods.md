@@ -11,26 +11,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: edb98b03710adb41e316262166bdfc81b191e055
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 722a972de9a9cf38fb6a8d95436737c40f0906cf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785647"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920498"
 ---
-# <a name="specify-posting-periods"></a><span data-ttu-id="6f18a-103">Tilgreina bókunartímabil</span><span class="sxs-lookup"><span data-stu-id="6f18a-103">Specify Posting Periods</span></span>
-<span data-ttu-id="6f18a-104">Notaðu staðartímabil til að tilgreina hvenær notendur geta sent í aðalbókina.</span><span class="sxs-lookup"><span data-stu-id="6f18a-104">Use posting periods to specify when users can post to the general ledger.</span></span>  
+# <a name="specify-posting-periods"></a><span data-ttu-id="4654a-103">Tilgreina bókunartímabil</span><span class="sxs-lookup"><span data-stu-id="4654a-103">Specify Posting Periods</span></span>
+<span data-ttu-id="4654a-104">Notaðu staðartímabil til að tilgreina hvenær notendur geta sent í aðalbókina.</span><span class="sxs-lookup"><span data-stu-id="4654a-104">Use posting periods to specify when users can post to the general ledger.</span></span>  
 
-## <a name="to-specify-posting-periods"></a><span data-ttu-id="6f18a-105">Bókunartímabil tilgreind</span><span class="sxs-lookup"><span data-stu-id="6f18a-105">To specify posting periods</span></span>
-1. <span data-ttu-id="6f18a-106">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="6f18a-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="6f18a-107">Á síðunni **Uppsetning fjárhags** skal tilgreina tímabilið með því að slá inn dagsetningar í reitunum **Leyfa bókun frá** og **Leyfa bókun til**.</span><span class="sxs-lookup"><span data-stu-id="6f18a-107">On the **General Ledger Setup** page, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.</span></span>  
+## <a name="to-specify-posting-periods"></a><span data-ttu-id="4654a-105">Bókunartímabil tilgreind</span><span class="sxs-lookup"><span data-stu-id="4654a-105">To specify posting periods</span></span>
+1. <span data-ttu-id="4654a-106">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="4654a-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup** , and then choose the related link.</span></span>  
+2. <span data-ttu-id="4654a-107">Á síðunni **Uppsetning fjárhags** skal tilgreina tímabilið með því að slá inn dagsetningar í reitunum **Leyfa bókun frá** og **Leyfa bókun til** .</span><span class="sxs-lookup"><span data-stu-id="4654a-107">On the **General Ledger Setup** page, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.</span></span>  
 
 > [!NOTE]  
->   <span data-ttu-id="6f18a-108">Þessi bókunartímabil eiga við um fyrirtækið og alla notendur.</span><span class="sxs-lookup"><span data-stu-id="6f18a-108">These posting periods apply to the company and to all users.</span></span> <span data-ttu-id="6f18a-109">Til að leyfa undantekningum er hægt að skilgreina mismunandi pósttímabil fyrir tiltekna notendur á síðunni **Uppsetning notanda**.</span><span class="sxs-lookup"><span data-stu-id="6f18a-109">To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page.</span></span> <span data-ttu-id="6f18a-110">Þessar færslutímar eru umfram þau sem tilgreind eru á síðunni **Uppsetning aðalbókar**.</span><span class="sxs-lookup"><span data-stu-id="6f18a-110">These posting periods overrule those specified on the **General Ledger Setup** page.</span></span> <span data-ttu-id="6f18a-111">Frekari upplýsingar er að finna í [Til að setja upp tímaskorður notanda](ui-define-granular-permissions.md#to-set-up-user-time-constraints).</span><span class="sxs-lookup"><span data-stu-id="6f18a-111">For more information, see [To set up user time constraints](ui-define-granular-permissions.md#to-set-up-user-time-constraints).</span></span>
+>   <span data-ttu-id="4654a-108">Þessi bókunartímabil eiga við um fyrirtækið og alla notendur.</span><span class="sxs-lookup"><span data-stu-id="4654a-108">These posting periods apply to the company and to all users.</span></span> <span data-ttu-id="4654a-109">Til að leyfa undantekningum er hægt að skilgreina mismunandi pósttímabil fyrir tiltekna notendur á síðunni **Uppsetning notanda** .</span><span class="sxs-lookup"><span data-stu-id="4654a-109">To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page.</span></span> <span data-ttu-id="4654a-110">Þessar færslutímar eru umfram þau sem tilgreind eru á síðunni **Uppsetning aðalbókar** .</span><span class="sxs-lookup"><span data-stu-id="4654a-110">These posting periods overrule those specified on the **General Ledger Setup** page.</span></span> <span data-ttu-id="4654a-111">Frekari upplýsingar er að finna í [Til að setja upp tímaskorður notanda](ui-define-granular-permissions.md#to-set-up-user-time-constraints).</span><span class="sxs-lookup"><span data-stu-id="4654a-111">For more information, see [To set up user time constraints](ui-define-granular-permissions.md#to-set-up-user-time-constraints).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="6f18a-112">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="6f18a-112">See Also</span></span>
-[<span data-ttu-id="6f18a-113">Fjármál</span><span class="sxs-lookup"><span data-stu-id="6f18a-113">Finance</span></span>](finance.md)  
-[<span data-ttu-id="6f18a-114">Að klára Ferli í lok tímabila</span><span class="sxs-lookup"><span data-stu-id="6f18a-114">Completing Period-End Processes</span></span>](year-how-complete-period-end-processes.md)  
-<span data-ttu-id="6f18a-115">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6f18a-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="4654a-112">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="4654a-112">See Also</span></span>
+[<span data-ttu-id="4654a-113">Fjármál</span><span class="sxs-lookup"><span data-stu-id="4654a-113">Finance</span></span>](finance.md)  
+[<span data-ttu-id="4654a-114">Að klára Ferli í lok tímabila</span><span class="sxs-lookup"><span data-stu-id="4654a-114">Completing Period-End Processes</span></span>](year-how-complete-period-end-processes.md)  
+<span data-ttu-id="4654a-115">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="4654a-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

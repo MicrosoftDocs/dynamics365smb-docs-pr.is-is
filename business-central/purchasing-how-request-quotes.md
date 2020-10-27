@@ -9,32 +9,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bc7bb92185d979871298a3312019e3116fecdab5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 34a063feaeaef390c9eee8023d42a912a29582f8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782927"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918899"
 ---
-# <a name="request-quotes"></a><span data-ttu-id="f485d-103">Biðja um tilboð</span><span class="sxs-lookup"><span data-stu-id="f485d-103">Request Quotes</span></span>
-<span data-ttu-id="f485d-104">Hægt er að nota innkaupabeiðni sem uppkast fyrir innkaupapöntun og síðan er hægt að breyta pöntuninni í innkaupareikning eða pöntun.</span><span class="sxs-lookup"><span data-stu-id="f485d-104">A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.</span></span>
+# <a name="request-quotes"></a><span data-ttu-id="e80e3-103">Biðja um tilboð</span><span class="sxs-lookup"><span data-stu-id="e80e3-103">Request Quotes</span></span>
+<span data-ttu-id="e80e3-104">Hægt er að nota innkaupabeiðni sem uppkast fyrir innkaupapöntun og síðan er hægt að breyta pöntuninni í innkaupareikning eða pöntun.</span><span class="sxs-lookup"><span data-stu-id="e80e3-104">A purchase quote can be used as a preliminary draft for a purchase order, and the order can then be converted to a purchase invoice or an order.</span></span>
 
 
-## <a name="to-create-a-purchase-quote"></a><span data-ttu-id="f485d-105">Stofna nýja innkaupabeiðni.</span><span class="sxs-lookup"><span data-stu-id="f485d-105">To create a purchase quote</span></span>
-1. <span data-ttu-id="f485d-106">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupabeiðni** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="f485d-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Quotes**, and then choose the related link.</span></span>
-2. <span data-ttu-id="f485d-107">Stofna nýtt skjal á sama hátt og þú býrð til innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="f485d-107">Create a new document, in the same way as you make a purchase order.</span></span> <span data-ttu-id="f485d-108">Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="f485d-108">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
+## <a name="to-create-a-purchase-quote"></a><span data-ttu-id="e80e3-105">Stofna nýja innkaupabeiðni.</span><span class="sxs-lookup"><span data-stu-id="e80e3-105">To create a purchase quote</span></span>
+1. <span data-ttu-id="e80e3-106">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupabeiðni** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="e80e3-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Quotes** , and then choose the related link.</span></span>
+2. <span data-ttu-id="e80e3-107">Stofna nýtt skjal á sama hátt og þú býrð til innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="e80e3-107">Create a new document, in the same way as you make a purchase order.</span></span> <span data-ttu-id="e80e3-108">Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="e80e3-108">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
 
-## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a><span data-ttu-id="f485d-109">Innkaupabeiðnum umbreytt í innkaupapantanir:</span><span class="sxs-lookup"><span data-stu-id="f485d-109">To convert a purchase quote to a purchase order</span></span>
-<span data-ttu-id="f485d-110">Þegar þú hefur samþykkt tilboð lánardrottins, geturðu breytt því í innkaupareikning eða pöntun til að vinna innkaupin.</span><span class="sxs-lookup"><span data-stu-id="f485d-110">When you have accepted the vendor's quote, you can convert it to a purchase invoice or order to process the purchase.</span></span>
+## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a><span data-ttu-id="e80e3-109">Innkaupabeiðnum umbreytt í innkaupapantanir:</span><span class="sxs-lookup"><span data-stu-id="e80e3-109">To convert a purchase quote to a purchase order</span></span>
+<span data-ttu-id="e80e3-110">Þegar þú hefur samþykkt tilboð lánardrottins, geturðu breytt því í innkaupareikning eða pöntun til að vinna innkaupin.</span><span class="sxs-lookup"><span data-stu-id="e80e3-110">When you have accepted the vendor's quote, you can convert it to a purchase invoice or order to process the purchase.</span></span>
 
-1. <span data-ttu-id="f485d-111">Opna innkaupabeiðni sem er tilbúin til breytinga og velja síðan **búa til pöntun** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="f485d-111">Open a purchase quote that is ready to convert, and then choose the **Make Order** action.</span></span>
+1. <span data-ttu-id="e80e3-111">Opna innkaupabeiðni sem er tilbúin til breytinga og velja síðan **búa til pöntun** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="e80e3-111">Open a purchase quote that is ready to convert, and then choose the **Make Order** action.</span></span>
 
-<span data-ttu-id="f485d-112">Innkaupabeiðnin er fjarlægt úr gagnagrunninum.</span><span class="sxs-lookup"><span data-stu-id="f485d-112">The purchase quote is removed from the database.</span></span> <span data-ttu-id="f485d-113">Innkaupareikningur eða innkaupapöntun er stofnaður byggður á upplýsingum í innkaupabeiðni þar sem hægt er að vinna innkaupin.</span><span class="sxs-lookup"><span data-stu-id="f485d-113">A purchase invoice or a purchase order is created based on the information in the purchase quote in which you can process the purchase.</span></span> <span data-ttu-id="f485d-114">Í reitnum **Tilboðsnúmer** á innkaupareikningnum eða innkaupapöntuninni er hægt að sjá fjölda innkaupabeiðna sem hann var búinn til úr.</span><span class="sxs-lookup"><span data-stu-id="f485d-114">In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.</span></span>
+<span data-ttu-id="e80e3-112">Innkaupabeiðnin er fjarlægt úr gagnagrunninum.</span><span class="sxs-lookup"><span data-stu-id="e80e3-112">The purchase quote is removed from the database.</span></span> <span data-ttu-id="e80e3-113">Innkaupareikningur eða innkaupapöntun er stofnaður byggður á upplýsingum í innkaupabeiðni þar sem hægt er að vinna innkaupin.</span><span class="sxs-lookup"><span data-stu-id="e80e3-113">A purchase invoice or a purchase order is created based on the information in the purchase quote in which you can process the purchase.</span></span> <span data-ttu-id="e80e3-114">Í reitnum **Tilboðsnúmer** á innkaupareikningnum eða innkaupapöntuninni er hægt að sjá fjölda innkaupabeiðna sem hann var búinn til úr.</span><span class="sxs-lookup"><span data-stu-id="e80e3-114">In the **Quote No.** field on the purchase invoice or purchase order, you can see the number of the purchase quote that it was made from.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="f485d-115">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="f485d-115">See Also</span></span>
-[<span data-ttu-id="f485d-116">Innkaup</span><span class="sxs-lookup"><span data-stu-id="f485d-116">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="f485d-117">Uppsetning innkaupa</span><span class="sxs-lookup"><span data-stu-id="f485d-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="f485d-118">Senda skjöl í tölvupósti</span><span class="sxs-lookup"><span data-stu-id="f485d-118">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
-<span data-ttu-id="f485d-119">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f485d-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="e80e3-115">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="e80e3-115">See Also</span></span>
+[<span data-ttu-id="e80e3-116">Innkaup</span><span class="sxs-lookup"><span data-stu-id="e80e3-116">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="e80e3-117">Uppsetning innkaupa</span><span class="sxs-lookup"><span data-stu-id="e80e3-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="e80e3-118">Senda skjöl í tölvupósti</span><span class="sxs-lookup"><span data-stu-id="e80e3-118">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+<span data-ttu-id="e80e3-119">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e80e3-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
