@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787622"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922093"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Hönnunarupplýsingar: vörurakning g frátekningar
 
@@ -36,10 +36,11 @@ Frátekning vörurakningarnúmera fellur í tvo flokka, eins og sýnt er í efti
 |Ótilgreint|Ekki er valið sértækt rað- eða lotunúmer þegar birgðavara er tekin frá úr eftirspurn, svo sem sölupöntun.<br /><br /> Þetta er staða sem er sett á frátekningarfærsla fyrir rað- eða lotunúmer sem eru ekki tilgreind sérstaklega. **Athugið:** Eftirspurn ber ekki raðnúmer eða lotunúmer. <br /><br /> Til dæmis ef taka á frá fötu af blárri málningu úr hvaða lotu sem er í fyrir sölupöntun. Dós með blárri málningu með handahófskenndu rað- eða lotunúmeri er afhent viðskiptamanni.|  
   
 Aðalmunurinn á tilgreindum og ótilgreindum frátekningum er skilgreindur með tilvist raðnúmera eða lotunúmer eftirspurnarmegin, eins og sýnt er í eftirfarandi töflu.  
-  
-|<!--blank -->|**Framboð**|**Eftirspurn**|  
-|**Tiltekið**|Rað- eða lotunúmer.|Rað- eða lotunúmer.|  
-|**Ótiltekið**|Rað- eða lotunúmer.|Ekkert rað- eða lotunúmer.|  
+
+| Tegund            | Framboð                | Eftirspurn                   |
+|-----------------|-----------------------|--------------------------|
+| **Sérstakt**    | Rað- eða lotunúmer. | Rað- eða lotunúmer.    |
+| **Ekki sérstatk** | Rað- eða lotunúmer. | Ekkert rað- eða lotunúmer. |
   
 Þegar þú tekur frá birgðamagn úr skjalalínu skjala á útleið fyrir vöru sem er með úthlutuð vörurakningarnúmer og er sett upp með sértæka vörurakningu leiðir síðan **Frátekning** þig í gegnum mismunandi verkflæði, allt eftir því hversu mikla þörf þú hefur fyrir rað- eða lotunúmer.  
   

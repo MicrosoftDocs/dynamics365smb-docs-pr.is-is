@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7b5041ecca410616035fcd98df121ad924d405e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 697b83fd7e6e2b220b2851d5a1770ed9f74a9bdd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787497"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917377"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Hönnunarupplýsingar: bókunarstrúktúr vörurakningar
 Til að jafna með birgðakostnaðarvirkni og til að fá einfaldari og öflugri lausn, erubirgðabókarfærslur notaðar sem aðalflutningsaðili vörurakningarnúmera.  
@@ -25,12 +25,12 @@ Vörurakningarnúmer í rekstrareiningum innan og utan pöntunarnets eru tilgrei
 Síðan fyrir **vörurakningarlínur** endurheimtir upplýsingar úr T337 og úr birgðafærslum og sýnir þær í bráðabirgðatöflunni **Rakningarlýsing** (T336). T336 heldur einnig tímabundnum gögnum á **Síðu vörurakningarlína** fyrir vörurakningarmagn sem á eftir að reikningsfæra.  
   
 ## <a name="one-to-many-relation"></a>Tengsl eins í marga  
-Taflan **Birgðafærslutengsl**, sem skal nota til að tengja bókaða fylgiskjalslínu við tengdar birgðafærslur, samanstendur af tveimur meginhlutum:  
+Taflan **Birgðafærslutengsl** , sem skal nota til að tengja bókaða fylgiskjalslínu við tengdar birgðafærslur, samanstendur af tveimur meginhlutum:  
   
 * Bendill á bókuðu skjalalínuna, reiturinn **Pöntunarlínunr.** .  
-* Færslunúmer bendir til birgðahöfuðbókarfærslu, reitsins **Birgðafærslunr.**.  
+* Færslunúmer bendir til birgðahöfuðbókarfærslu, reitsins **Birgðafærslunr.** .  
   
-Virkni núverandi **Færslunr.** reitar, sem tengir birgðafærslu við bókaða skjalalínu, meðhöndlar dæmigerð tengsl tveggja eininga þegar engin vörurakningarnúmer eru til staðar á bókuðu skjalalínunni. Ef vörurakningarnúmer eru til er reiturinn **Færslunr.** skilinn eftir auður, og tengslin einn-á-móti-mörgum eru meðhöndluð af töflunni **Tengsl birgðafærslu**. Ef bókaða skjalalínan er með vörurakningarnúmer en tengist aðeins einni birgðafærslu sér reiturinn **Færslunr.** um tengslin og engin færsla er skráð í töflunni **Tengsl birgðafærslu**.  
+Virkni núverandi **Færslunr.** reitar, sem tengir birgðafærslu við bókaða skjalalínu, meðhöndlar dæmigerð tengsl tveggja eininga þegar engin vörurakningarnúmer eru til staðar á bókuðu skjalalínunni. Ef vörurakningarnúmer eru til er reiturinn **Færslunr.** skilinn eftir auður, og tengslin einn-á-móti-mörgum eru meðhöndluð af töflunni **Tengsl birgðafærslu** . Ef bókaða skjalalínan er með vörurakningarnúmer en tengist aðeins einni birgðafærslu sér reiturinn **Færslunr.** um tengslin og engin færsla er skráð í töflunni **Tengsl birgðafærslu** .  
   
 ## <a name="codeunits-80-and-90"></a>Kóðaeiningar 80 og 90  
 Til að skipta birgðahöfuðbókarfærslum við bókun, er kóðinn í kóðaeiningu 80 og kóðaeiningu 90, er með lykkjum sem keyra í gegnum altæka tímabundnar færslubreytur. Þessi kóði kallar á kóðaeiningu 22 með birgðarbókarlínu. Þessar breytur eru frumstilltar þegar vörurakningarnúmer eru til fyrir skjalalínuna. Til að halda kóðann einfalt, þessi lykkjuuppbyggingu er alltaf notuð. Ef engin vörurakningarnúmer eru til staðar fyrir skjalalínuna er ein færsla sett inn og lykkjan er einungis unnin einu sinni.  

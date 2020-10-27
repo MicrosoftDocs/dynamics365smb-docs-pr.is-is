@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/08/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cf0418f4182e9d66da88af9262dd807a34dd3572
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1dd6c3085c0cb8696b6e7011fbea3c3cd9a1c86e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782319"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920448"
 ---
 # <a name="add-extended-text"></a>Bæta við lengdum texta
 
@@ -24,9 +24,9 @@ Hægt er að víkka lýsinguna fyrir vörur, lagerbirgðir, fjárhagslykla og ti
 
 ## <a name="to-define-extended-text-for-an-description"></a>Til að skilgreina lengdan texta fyrir lýsingu
 
-1. Opnið spjaldið fyrir vöru sem bæta á við texta fyrir og veljið aðgerðina **Lengdur texti**.
-2. Fyllt er í reitina **Kóti** og **Lýsing**.
-3. Veldu **Nýtt**.
+1. Opnið spjaldið fyrir vöru sem bæta á við texta fyrir og veljið aðgerðina **Lengdur texti** .
+2. Fyllt er í reitina **Kóti** og **Lýsing** .
+3. Veldu **Nýtt** .
 4. Fylltu í reitinn **Tungumálakóði** eða veldu gátreitinn **Allir tungumálakóðar** ef notaðir eru tungumálakóðar.
 5. Reitirnir **Upphafsdagsetning** og **Lokadagsetning** eru fylltir út ef afmarka á tímabil fyrir lengdan texta.
 6. Í reitnum **Texti** skal skrifa lengdan texta.
@@ -38,7 +38,7 @@ Nú er hægt að bæta þessum lengda texta við skjöl. Eftirfarandi ferli úts
 ## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Að bæta við lengdum vörutexta í sölupöntunarlínu
 
 1. Opnið sölupöntun með sölulínu fyrir vöru sem hefur lengdan texta skilgreindan. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
-2. Veljið viðkomandi línu og veljið síðan aðgerðina **Bæta við lengdum texta**.
+2. Veljið viðkomandi línu og veljið síðan aðgerðina **Bæta við lengdum texta** .
 
 ## <a name="see-also"></a>Sjá einnig
 

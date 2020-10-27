@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8cf4d954171e663ed065128a91c313f6e38b9148
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: dbe63d653120eb9e6450af401558414cf2057b1d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787922"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922243"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefnur
 Til þess að vara geti tekið þátt í birgðaáætlunargerð verður að tilgreina endurpöntunarstefnu. Eftirfarandi fjórar endurpöntunarstefnur eru til:  
@@ -81,7 +81,7 @@ Eftirfarandi sýnir mynd af þessari meginreglu:
 
      Þetta eykur áætlað birgðastig (A: +0 => +4 eða B: +2 = +6).  
 
-7. Kerfið gerir endanlega athugum: Er einhver minnkunaráminning? Já, það er eitt á dagsetningunni **Da**.  
+7. Kerfið gerir endanlega athugum: Er einhver minnkunaráminning? Já, það er eitt á dagsetningunni **Da** .  
 8. Kerfi bætir við minnkunaráminningu -3 við áætlað birgðastig, annað hvort A: +4 -3 = 1 eða B: +6 -3 = +3.  
 9. Í tilviki A býr kerfið til framvirkt áætlaða pöntun sem hefst á degi **Da**  
 
@@ -195,14 +195,14 @@ Endurpöntunarmarkið endurspeglar ætlaða eftirspurn á afhendingartíma vöru
 
  ![Viðbragðsáætlun til að koma í veg fyrir neikvæða birgðastöðu](media/nav_app_supply_planning_2_negative_inventory.png "Viðbragðsáætlun til að koma í veg fyrir neikvæða birgðastöðu")  
 
-1.  Framboð **A**, fyrstu áætlaðar birgðir, er undir pöntunarmark.  
-2.  Nýtt framsendingaráætlað framboð er stofnað (**C**).  
+1.  Framboð **A** , fyrstu áætlaðar birgðir, er undir pöntunarmark.  
+2.  Nýtt framsendingaráætlað framboð er stofnað ( **C** ).  
 
      (Magn = Hámarksbirgðir – Áætlað birgðastig)  
-3.  Framboð **A** er lokað með eftirspurn **B**, sem er ekki að öllu leyti annað.  
+3.  Framboð **A** er lokað með eftirspurn **B** , sem er ekki að öllu leyti annað.  
 
      (Eftirspurn **B** gæti reynt að áætla framboð C en það gerist ekki samkvæmt tímaramma.)  
-4.  Nýtt framboð (**D**) er stofnað til að uppfylla eftirstandandi magn eftirspurnar **B**  
+4.  Nýtt framboð ( **D** ) er stofnað til að uppfylla eftirstandandi magn eftirspurnar **B**  
 5.  Eftirspurn **B** er lokað (búa til áminningu fyrir áætluðum birgðum).  
 6.  Nýjar birgðir **D** eru lokaðar.  
 7.  Áætlaðar birgðir er athugaðar. Endurpöntunarmarki hefur ekki verið náð.  
@@ -234,7 +234,7 @@ Birgðapantanri sem eru búnar til sérstaklega til að mæta pöntunarmark er �
 Pantanabreytingarnar, Lágmarksmagn pöntunar, Hámarksmagn pöntunar og Margföld pöntun, ættu ekki að gegna stóru hlutverki þegar notuð er stefnan um fast pöntunarmagn. Hins vegar reiknar áætlanakerfið enn með þessum breytingalyklum og minnkar magnið í tilgreint hámarkspöntunarmagn (og býr til tvær eða fleiri birgðir til að ná heildarpöntunarmagninu), eykur pöntunina í tilgreint lágmarkspöntunarmagn, eða námundar pöntunarmagnið upp til að ná tiltekinni margfaldri pöntun.  
 
 #### <a name="combines-with-calendars"></a>Sameinast dagbók  
-Áður en ný birgðapöntun er lögð til að mæta endurpöntunarmarki, kannar áætlanakerfið hvort pöntunin sé áætluð á frídegi, samkvæmt öllum dagatölum sem eru skilgreind í **Grunndagatalskóði** reitnum á síðunni **Fyrirtækjaupplýsingar** og **Birgðageymslukort**.  
+Áður en ný birgðapöntun er lögð til að mæta endurpöntunarmarki, kannar áætlanakerfið hvort pöntunin sé áætluð á frídegi, samkvæmt öllum dagatölum sem eru skilgreind í **Grunndagatalskóði** reitnum á síðunni **Fyrirtækjaupplýsingar** og **Birgðageymslukort** .  
 
 Ef fyrirhuguð dagsetning er frídagur, færir áætlanakerfið pöntunina áfram á næsta virka dag. Þetta getur orsakað pöntun sem uppfyllir endurpöntunarmark en uppfyllir ekki einhverja tiltekna eftirspurn. Fyrir svona ójafna eftirspurn, býr áætlanakerfið til auka framboð.  
 
@@ -258,7 +258,7 @@ Kerfið tryggir að áætlaðar birgðir nái a.m.k. endurpöntunarmarkinu - ef 
 Það fer eftir uppsetningu, getur það verið best að sameina það hámarksmagn stefnu með breytingalyklum til að tryggja lágmarksupphæð þess magn eða sléttun innkaupaeiningar, eða kljúfa það í fleiri lotur samkvæmt skilgreiningu hámarksmagns.  
 
 ### <a name="combines-with-calendars"></a>Sameinast dagbók  
-Áður en ný birgðapöntun er lögð til að mæta endurpöntunarmarki, kannar áætlanakerfið hvort pöntunin sé áætluð á frídegi, samkvæmt öllum dagatölum sem eru skilgreind í **Grunndagatalskóði** reitnum á síðunni **Fyrirtækjaupplýsingar** og **Birgðageymslukort**.  
+Áður en ný birgðapöntun er lögð til að mæta endurpöntunarmarki, kannar áætlanakerfið hvort pöntunin sé áætluð á frídegi, samkvæmt öllum dagatölum sem eru skilgreind í **Grunndagatalskóði** reitnum á síðunni **Fyrirtækjaupplýsingar** og **Birgðageymslukort** .  
 
 Ef fyrirhuguð dagsetning er frídagur, færir áætlanakerfið pöntunina áfram á næsta virka dag. Þetta getur orsakað pöntun sem uppfyllir endurpöntunarmark en uppfyllir ekki einhverja tiltekna eftirspurn. Fyrir svona ójafna eftirspurn, býr áætlanakerfið til auka framboð.
 
@@ -282,7 +282,7 @@ Lota-fyrir-lotu reglan er sveigjanlegust vegna þess að kerfið bregst bara vi�
 
 Að sumu leyti er lota fyrir lotu stefnan eins og pantanastefnan en er með almenna nálgun á vörur; það getur samþykkt magn í birgðum, og það flokkareftirspurn og samsvarandi framboð í tímarömmum skilgreindum af notanda.  
 
-Tímaramminn er skilgreindum í reitnum **Tímarammi**. Kerfið vinnur með lágmarks tímaramma upp á einn dag, þar sem það er minnsta tímamælieining fyrir birgðir og eftirspurn í kerfin (þó svo að í raun geti tímamælieining á framleiðslupöntunum og íhlutaþörfum verið sekúndur).  
+Tímaramminn er skilgreindum í reitnum **Tímarammi** . Kerfið vinnur með lágmarks tímaramma upp á einn dag, þar sem það er minnsta tímamælieining fyrir birgðir og eftirspurn í kerfin (þó svo að í raun geti tímamælieining á framleiðslupöntunum og íhlutaþörfum verið sekúndur).  
 
 Tímaramminn setur einnig takmörkun á það hvenær birgðapöntun er enduráætluð til að mæta tiltekinni eftirspurn. Ef framboð er innan tímarammans verður það enduráætlað inn eða út til að svara eftirspurninni. Annars, ef það liggur fyrr, mun það valda óþarfa uppsöfnun birgða og ætti að afturkalla. Ef það er síðar verður nýtt framboð stofnað í staðinn.  
 

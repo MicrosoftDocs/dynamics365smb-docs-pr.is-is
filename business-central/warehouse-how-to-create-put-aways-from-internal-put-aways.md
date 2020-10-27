@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9e0352854010a88a96f1f5c92baa62dc84fa004e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 93e517c5fb3c9419b6505ccd3d6e56a325bdd43c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779687"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918364"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Tína og ganga frá án upprunaskjals
 Þegar gengið hefur verið frá vörum og áður en þær eru tíndar til að fylla upp í framleiðslupöntun eða afhendingu eru þær geymdar í vöruhúsinu sem hluti af tiltækum birgðum.  
@@ -35,15 +35,15 @@ Við aðrar aðstæður, gæti framleiðslueiningin óvænt þurft að fá nokkr
 
 ## <a name="to-create-an-internal-pick"></a>Að búa til Innahússtínslur  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innanhústínsla vöruhúss** og veldu síðan tengda tengilinn.  
-2.  Fylla þarf út reitinn **Nr.**. reitinn og **Kóði til-hólfs** reitinn á flýtiflipanum **Almennt**. Reiturinn **Kóti til-hólfs** tilgreinir hólfið sem vörurnar eru sóttar í. Við framleiðslu væri þetta hólf innhólf framleiðslu eða opið búðarhólf. Annars skal velja Kóta til-hólfs með hólfi af tegund sem ekki er notuð við tínslu, oftast nær undirbúnings- eða afhendingarhólf eða hólf fyrir sérstök tilefni.  
+2.  Fylla þarf út reitinn **Nr.** . reitinn og **Kóði til-hólfs** reitinn á flýtiflipanum **Almennt** . Reiturinn **Kóti til-hólfs** tilgreinir hólfið sem vörurnar eru sóttar í. Við framleiðslu væri þetta hólf innhólf framleiðslu eða opið búðarhólf. Annars skal velja Kóta til-hólfs með hólfi af tegund sem ekki er notuð við tínslu, oftast nær undirbúnings- eða afhendingarhólf eða hólf fyrir sérstök tilefni.  
 3.  Vara er valin í reitnum **Vörunr.** og magnið sem á að tína fært inn.  
-4. Veldu aðgerðina **Stofna tínslu**. Vöruhúsatínsluleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss.  
+4. Veldu aðgerðina **Stofna tínslu** . Vöruhúsatínsluleiðbeiningar eru nú tilbúnar fyrir starfsmann vöruhúss.  
 
 ## <a name="to-create-an-internal-put-away"></a>Stofna innanhússfrágang  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innanhússfrágangur vöruhúss** og veldu síðan tengda tengilinn.  
-2.  Fylla þarf út reitinn **Nr.**. og **Frá hólfakóða** reitina á flýtiflipanum **Almennt**. Reiturinn **Kóti frá-hólfs** tilgreinir hólfið þar sem vörurnar sem skila á í vöruhúsið, til dæmis úr framleiðslu, eru geymdar.  
+2.  Fylla þarf út reitinn **Nr.** . og **Frá hólfakóða** reitina á flýtiflipanum **Almennt** . Reiturinn **Kóti frá-hólfs** tilgreinir hólfið þar sem vörurnar sem skila á í vöruhúsið, til dæmis úr framleiðslu, eru geymdar.  
 3.  Vörunúmerin og magnið er fært inn í línurnar.  
-4.  Veldu aðgerðina **Stofna frágang**. Leiðbeiningar um vöruhúsafrágang eru nú tilbúnar fyrir starfsmann vöruhúss.  
+4.  Veldu aðgerðina **Stofna frágang** . Leiðbeiningar um vöruhúsafrágang eru nú tilbúnar fyrir starfsmann vöruhúss.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b939f217e4d0122c8663d096b412806a952eea8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: df67abf85f02b26b1ccaa29735cb9dab28a1d076
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779587"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915969"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa
 Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekki móttöku- eða sendingarhólfa, á sérstakra krafna frá upprunaskjali. Þessar tilfallandi hreyfingar gætu verið gerðar, til dæmis til að endurskipuleggja vöruhúsið, til að færa vörur í skoðunarsvæði eða til að flytja aukavörur í og úr framleiðslusvæði án kerfistengsla við upprunaskjal framleiðslupöntunar.  
 
-Í einfaldri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Hólf áskilið** og hugsanlega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá**, er hægt að skrá tilfallandi hreyfingar án upprunaskjala á eftirfarandi hátt:  
+Í einfaldri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Hólf áskilið** og hugsanlega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** , er hægt að skrá tilfallandi hreyfingar án upprunaskjala á eftirfarandi hátt:  
 
-- Með síðunni **Innri hreyfing**.  
-- Með síðunni **Vöruh.endurflokkunarbók**.  
+- Með síðunni **Innri hreyfing** .  
+- Með síðunni **Vöruh.endurflokkunarbók** .  
 
 > [!NOTE]  
->  Í ítarlegri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Beinn frágangur og tínsla** er síðan **Vinnublað hreyfingar**, **Innri vöruhúsatínsla** eða **Innri vöruhúsafrágangur** notuð til að færa vörur á milli hólfa eftir þörfum.  
+>  Í ítarlegri vöruhúsagrunnstillingu, þ.e. birgðageymslum sem nota uppsetningarreitinn **Beinn frágangur og tínsla** er síðan **Vinnublað hreyfingar** , **Innri vöruhúsatínsla** eða **Innri vöruhúsafrágangur** notuð til að færa vörur á milli hólfa eftir þörfum.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Til að færa vörur sem innri hreyfingu  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innri hreyfing** og veldu síðan tengda tengilinn.  
@@ -44,7 +44,7 @@ Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekk
     >  Þar sem reiturinn **Vörunr.** og reiturinn **Kóti frá-hólfs** eru tengdir geta gildi þeirra breyst innbyrðis háð hinum þegar öðrum hvorum reitnum er breytt.  
 
     Reiturinn **Kóði til-hólfs** er fylltur með gildinu sem fært var inn í hausinn en hægt er að breyta því á línunni í hvaða annan hólfakóða sem er ekki lokaður eða frátekinn í ákveðnum tilgangi. Nánari upplýsingar um hvernig sérnýtt hólf eru útbúin eru í Sérnýtt.  
-7.  Þegar búið er að skilgreina hvaða hólf á að færa vörur í og úr skal færa flutningsmagnið inn í reitinn **Magn**.  
+7.  Þegar búið er að skilgreina hvaða hólf á að færa vörur í og úr skal færa flutningsmagnið inn í reitinn **Magn** .  
 
     > [!NOTE]  
     >  Magn verður að vera tiltækt í kóta Frá hólfs.  
@@ -59,9 +59,9 @@ Stundum getur verið þörf á því að færa vörur á milli innri hólfa, ekk
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Til að færa vörur með vöruendurflokkunarbók
 Í staðinn fyrir að nota vöruhúsahreyfing skjöl, geturðu skráð vöruhreyfingu með því að endurflokka hólfakóða varanna. Nánari upplýsingar er að finna í [Telja, leiðrétta og endurflokka birgðir með færslubókum](inventory-how-count-adjust-reclassify.md).   
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðaendurflokkunarbók** og veldu síðan tengda tengilinn.  
-2.  Fyrir hverja bókunarlínu skal skilgreina úr og í hvaða hólf flytja skal vörur með því að fylla út reitna **Hólfakóti** og **Nýr hólfakóti**.  
+2.  Fyrir hverja bókunarlínu skal skilgreina úr og í hvaða hólf flytja skal vörur með því að fylla út reitna **Hólfakóti** og **Nýr hólfakóti** .  
 
-    1.  Ef flytja á allt innihald hólfs yfir í annað hólf, skal velja aðgerðina **Sækja innihald hólfs**.  
+    1.  Ef flytja á allt innihald hólfs yfir í annað hólf, skal velja aðgerðina **Sækja innihald hólfs** .  
     2.  Færðar eru inn afmarkanir til þess að finna hólfið sem á að flytja innihald úr og síðan er hnappurinn **Í lagi** valinn. Færslubókarlínur eru fylltar út með efni hólfsins.  
 3.  Aðrir reitir eru fylltir út fyrir hverja færslubókarlínu.   
 4.  Bóka skal endurflokkunarbók.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: daff9e471ce62f4885703a1fd11bbf35620360f9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6a9db4249cdf5814bc04653a1987d17f8f94ecb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189676"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918614"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Spá um sölu og birgðir viðbótina
 Birgðastjórnun er málamiðlun á milli notendaþjónustu og stjónun kostnaðar. Ein hliðin er sú að lágar birgðir krefjast minna veltufés, en, á hinn bóginn getur birgðaskortur hugsanlega leitt til tapaðrar sölu. Viðbótin fyrir sölu- og birgðaspá sér fyrir hugsanlegar sölur með því að nota söguleg gögn og veitir skýrt yfirlit yfir viðbúinn birgðaskort. Samkvæmt spá, aðstoðar viðbótin að stofna áfyllingarbeiðnir til lánardrottna þinna og sparar þér tíma.  
@@ -42,14 +42,14 @@ Einnig má nota viðbótina til að leggja til þegar þarf að fylla á birgði
 >   Einnig er hægt að nota eigin forspárþjónustu á netinu í stað okkar. Nánari upplýsingar er að finna í [Búa til og nota eigin forspárþjónustu á netinu fyrir sölu- og birgðaspá](#AnchorText). 
 
 ### <a name="data-required-for-forecast"></a>Gögn eru nauðsynleg fyrir forspá
-Til að spá fyrir um sölu í framtíðinni þarf vefþjónustan magnbundin gögn um fyrri sölur. Þessi gögn koma úr reitunum **Bókunardagsetning**, **Vörunr.** og **Magn** á síðunni **Birgðabókafærslur**, þar sem:
+Til að spá fyrir um sölu í framtíðinni þarf vefþjónustan magnbundin gögn um fyrri sölur. Þessi gögn koma úr reitunum **Bókunardagsetning** , **Vörunr.** og **Magn** á síðunni **Birgðabókafærslur** , þar sem:
 -    Færslugerðin er „Sala“.
 - Bókunardagsetningin er á milli dagsetningar sem er reiknuð út frá gildum í reitunum **Eldri tímabil** og **Tímabilsgerð** á síðunni **Uppsetning sölu- og birgðaspár** og vinnudagsetningarinnar.
 
-Áður en vefþjónustan er notuð þjappar [!INCLUDE[d365fin](includes/d365fin_md.md)] færslum eftir **Vörunr.** og **Bókunardagsetning** samkvæmt gildinu í reitnum **Tímabilsgerð** á síðunni **Uppsetning sölu- og birgðaspár**.
+Áður en vefþjónustan er notuð þjappar [!INCLUDE[d365fin](includes/d365fin_md.md)] færslum eftir **Vörunr.** og **Bókunardagsetning** samkvæmt gildinu í reitnum **Tímabilsgerð** á síðunni **Uppsetning sölu- og birgðaspár** .
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-sales-and-inventory-forecasts"></a><a name="AnchorText"> </a>Búa til og nota eigin forspárþjónustu á netinu fyrir sölu- og birgðaspá
-Þú getur einnig búið til þína eigin fyrirsjáanlega vefþjónustu byggt á opinberu líkani sem heitir **Spárlíkan fyrir Microsoft Business Central**. Þetta líkan er aðgengilegt á netinu í Azure AI. Fylgið eftirfarandi skrefum til að fá aðgang að reitunum:  
+Þú getur einnig búið til þína eigin fyrirsjáanlega vefþjónustu byggt á opinberu líkani sem heitir **Spárlíkan fyrir Microsoft Business Central** . Þetta líkan er aðgengilegt á netinu í Azure AI. Fylgið eftirfarandi skrefum til að fá aðgang að reitunum:  
 
 1. Opnaðu vafra og farðu á [Azure AI Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Leita að **Forspármódel fyrir Microsoft Business Central** og opna svo líkanið í Azure Machine Learning Studio.  

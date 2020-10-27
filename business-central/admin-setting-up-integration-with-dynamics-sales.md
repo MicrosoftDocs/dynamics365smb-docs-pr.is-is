@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9cd00cd3b3cb55ce3af35bd82284570b86720d63
-ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
+ms.openlocfilehash: d396e5fc9073d753bb9782394a922c26242b472a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3484262"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917777"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Uppsetning á notendareikningum fyrir samþættingu við Common Data Service
 Þetta efnisatriði veitir yfirlit um hvernig á að setja upp notendareikninga sem er krafist til að samþætta [!INCLUDE[d365fin](includes/cds_long_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -24,7 +24,7 @@ ms.locfileid: "3484262"
 Þú verður að bæta við notandareikningi stjórnanda fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem notandi í [!INCLUDE[d365fin](includes/cds_long_md.md)]. Þegar tengingin er sett upp á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] notum við þennan reikning í eitt skipti til að setja upp og grunnstilla nokkra nauðsynlega íhluti. 
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>Heimildir og öryggishlutverk fyrir notandareikninga í [!INCLUDE[d365fin](includes/cds_long_md.md)]
-Þegar CDS-grunnsamþættingarlausn er sett upp eru heimildir fyrir notandareikning samþættingar grunnstilltar. Ef þeim heimildum er breytt handvirkt er hægt að endurstilla þær. Hægt er að gera það með því að setja CDS-grunnsamþættingarlausnina upp aftur með því að velja **Endurvirkja samþættingarlausn** á síðunni **Common Data Service Uppsetning tengingar**. Öryggishlutverk fyrir CDS-samþættingu Business Central er virkjað.
+Þegar CDS-grunnsamþættingarlausn er sett upp eru heimildir fyrir notandareikning samþættingar grunnstilltar. Ef þeim heimildum er breytt handvirkt er hægt að endurstilla þær. Hægt er að gera það með því að setja CDS-grunnsamþættingarlausnina upp aftur með því að velja **Endurvirkja samþættingarlausn** á síðunni **Common Data Service Uppsetning tengingar** . Öryggishlutverk fyrir CDS-samþættingu Business Central er virkjað.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].

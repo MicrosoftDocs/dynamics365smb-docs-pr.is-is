@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c837d3c4c1fd4ba1922ee90611dcec3b15ba9233
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4e760818349cf59a9c85d0a0d22b72baefd99af6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785472"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919489"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Afstemma birgðakostnað í fjárhag
 Þegar birgðafærslur, til dæmis söluafhending, innkaupareikningur eða birgðaleiðrétting eru bókaðar eru breytingar á kostnaði hinnar leiðréttu vöru skráðar í virðisfærslum birgða. Til að endurspegla þessar breytingar á birgðavirði í ársreikningum, er birgðakostnaður bókaður sjálfkrafa á tengda birgðareikninga í fjárhag. Fyrir hverja birgðafærslu sem er bókuð er viðeigandi gildi bókað í birgðareikninginn, leiðréttingarreikninginn og KSV-reikninginn í fjárhagnum.
 
-Sjálfvirk kostnaðarbókun er skilgreind í reitnum **Sjálfvirk kostnaðarbókun** á síðunni **Uppsetning birgða**.
+Sjálfvirk kostnaðarbókun er skilgreind í reitnum **Sjálfvirk kostnaðarbókun** á síðunni **Uppsetning birgða** .
 
 Þó svo birgðakostnaður sé bókaður sjálfkrafa í fjárhag þarf samt að tryggja að kostnaður vara sé framsendur á viðeigandi sölufærslur á útleið, sérstaklega þar sem vörur eru seldar áður en reikningur er gefinn út fyrir kaupunum. Í kerfinu er þetta kallað kostnaðarleiðrétting. Vörukostnaður er sjálfkrafa leiðréttur þegar vörufærslur eru bókaðar en einnig er hægt að leiðrétta vörukostnað handvirkt. Nánari upplýsingar eru í [Leiðrétta kostnað](inventory-how-adjust-item-costs.md).
 
@@ -32,7 +32,7 @@ Sjálfvirk kostnaðarbókun er skilgreind í reitnum **Sjálfvirk kostnaðarbók
 > [!NOTE]  
 > Þegar þessi keyrsla er keyrð gæti kerfið rekist á villur sem hafa með uppsetningu sem vantar að gera eða ósamhæfa víddaruppsetningu. Ef keyrslan rekst á villur í víddaruppsetningunni hefur hún þessar villur að engu og notar víddir virðisfærslunnar. Í tilfelli annarra villna hoppar runuvinnslan yfir bókun virðisfærslnanna og telur þær upp við lok skýrslunnar í hluta sem heitir “Færslur sem hoppað var yfir.” Til að bóka þessar færslur þarf að laga villurnar.
 
-Hægt er að sjá lista af villum áður en bókunarrunuvinnslan er keyrð með því að keyra skýrsluna **Bóka birgðabreytingar - Prófun**. Prófunarskýrslan telur upp allar þær villur sem finnast meðan á bókuninni stendur. Þá er hægt að laga villurnar og keyra bókunarkeyrslu birgðakostnaðar án þess að sleppa neinum færslum.
+Hægt er að sjá lista af villum áður en bókunarrunuvinnslan er keyrð með því að keyra skýrsluna **Bóka birgðabreytingar - Prófun** . Prófunarskýrslan telur upp allar þær villur sem finnast meðan á bókuninni stendur. Þá er hægt að laga villurnar og keyra bókunarkeyrslu birgðakostnaðar án þess að sleppa neinum færslum.
 
 Til að fá yfirlit yfir það hvaða gildi var hægt að bóka í fjárhaginn án þess að framkvæma bókunina er hægt að keyra keyrsluna **Bóka birgðabreytingar** án þess að bóka gildin raunverulega í fjárhaginn. Hægt er að gera þetta með því að taka hakið úr reitnum **Bóka** á beiðnisíðunni. Á þennan hátt framleiðir kerfið bara skýrslu sem sýnir gildin sem eru tilbúin til bókunar í fjárhaginn þegar keyrslan er keyrð, en eru ekki bókuð.
 
@@ -49,13 +49,13 @@ Síðan **Birgðir - Fjárhagsafstemmingar** veitir eftirfarandi:
 
 Í dálkinum **Heiti** lengst til vinstri í grindinni sjást ýmsar tegundir fjárhagsreikninga sem tengjast birgðunum.
 
-Dálkarnir **Birgðir**, **Birgðir (Bráðabirgða)**, og **VÍV birgðir** sýna reikningsfært, óreikningsfært, og samtölu VÍV fyrir hverja tegund fjárhagsreiknings. Þær eru reiknaðar með virðisfærslum, það er, samtölunum er varpað í þær gerðir fjárhagsreikninga þar sem þær munu enda þegar þær eru bókaðar endanlega í fjárhag.
+Dálkarnir **Birgðir** , **Birgðir (Bráðabirgða)** , og **VÍV birgðir** sýna reikningsfært, óreikningsfært, og samtölu VÍV fyrir hverja tegund fjárhagsreiknings. Þær eru reiknaðar með virðisfærslum, það er, samtölunum er varpað í þær gerðir fjárhagsreikninga þar sem þær munu enda þegar þær eru bókaðar endanlega í fjárhag.
 
 Dálkurinn **Samtala** sýnir summu (feitletraða) virðisfærsluupphæða í þremur birgðadálkum.
 
 **Samtala fjárhags** sýnir upphæðirnar (feitletraðar) fyrir hverja tegund fjárhagsreiknings í fjárhag. Þær eru reiknaðar með fjárhagsfærslum, það er tákna birgðakostnað sem þegar hefur verið bókaður í Fjárhag.
 
-Dálkurinn **Mismunur** sýnir muninn á gildinu í reitunum **Samtala fjárhags** og **Samtala**.
+Dálkurinn **Mismunur** sýnir muninn á gildinu í reitunum **Samtala fjárhags** og **Samtala** .
 
 Efst á síðunni **Birgðir - Afstemming fjárhags** er hægt að færa inn afmarkanir til að afmarka t.d. tímabil sem sækja á upplýsingar fyrir.
 

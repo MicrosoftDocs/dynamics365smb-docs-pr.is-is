@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 32e9ea2c4902a579a36134d1ac69ca4b1c06de8f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5bed47fc3109d622f4078e36e29aa04678bd22f9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780636"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918052"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Reitarvörpum við innflutning SEPA CAMT skráa
 [!INCLUDE[d365fin](includes/d365fin_md.md)] styður svæðisbundinn SEPA-staðall (sameiginlegt evrópskt greiðslusvæði) fyrir innflutning SEPA-bankayfirlita (CAMT-snið). Frekari upplýsingar eru í [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md).  
@@ -57,7 +57,11 @@ ms.locfileid: "3780636"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Óskipulagt|Texti|Upplýsingarnar til að gera samsvörun / afstemmingu á færslu með þeim vörum sem greiðsla er ætlað að stemma af, svo sem viðskiptareikningar í reikningskröfukerfi í ómótaðan formi||6|Lýsing|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texti|Viðbótarupplýsingar um færslu||16|Færsluupplýsingar|  
 
- Stök í hnútnum **Færsla** sem eru flutt inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] en ekki tengd við neina reiti eru vistuð í töflunni **Bókunarskipti Dálkur Skilgreining**. Notendur geta skoðað þessar einingar á síðunum **Greiðsluafstemmingarbók**, **Greiðslujafnanir** og **Afstemming bankareiknings** með því að velja **Upplýsingar um bankayfirlitslínu** aðgerðina. Frekari upplýsingar eru í [Afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md).  
+ Stök í hnútnum **Færsla** sem eru flutt inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] en ekki tengd við neina reiti eru vistuð í töflunni **Bókunarskipti Dálkur Skilgreining** . Notendur geta skoðað þessar einingar á síðunum **Greiðsluafstemmingarbók** , **Greiðslujafnanir** og **Afstemming bankareiknings** með því að velja **Upplýsingar um bankayfirlitslínu** aðgerðina. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
+
+> [!IMPORTANT]
+> Í innflutningi á CAMT-bankayfirlitum, býst [!INCLUDE[d365fin](includes/d365fin_md.md)] við að hver færsla sé einkvæm, sem þýðir að reiturinn **Færslukenni** sem kemur úr merkinu *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* í CAMT-skránni, verður að vera einkvæmt innan opnu afstemmingar bankareikningsins. Ef upplýsingarnar eru ekki til staðar, hunsar [!INCLUDE[d365fin](includes/d365fin_md.md)] greiðsluna. Ef fyrri bankaafstemming á sama bankareikningi var bókuð með sama færslukenninu eins og í núverandi innflutningi, afstemmist núverandi færsla ekki sjálfkrafa en er enn hægt að flytja inn.
+
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)  

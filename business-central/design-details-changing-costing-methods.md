@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0560e2bf900af4b49d0ce299dfa751a5c41ea54e
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617732"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917527"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Hönnunarupplýsingar: Breyta kostnaðarútreikningi fyrir vörur
 
@@ -60,7 +60,7 @@ Nánari upplýsingar eru í [Upplýsingar um hönnun: Kostnaðarútreikningar](d
 
 ### <a name="define-a-default-costing-method"></a>Skilgreina sjálfgefna aðferð kostnaðarútreiknings
 
-Til að reyna að koma í veg fyrir hugsanleg mistök er hægt að tilgreina sjálfgefna aðferð kostnaðarútreiknings fyrir nýjar vörur. Þegar einhver stofnar nýja vöru mun [!INCLUDE[d365fin](includes/d365fin_md.md)] stinga upp á sjálfgefinni aðferð kostnaðarútreiknings. Sjálfgefin aðferð er tilgreind í reitnum **Sjálfgefin aðferð kostnaðarútreiknings** á síðunni **Birgðauppsetning**. 
+Til að reyna að koma í veg fyrir hugsanleg mistök er hægt að tilgreina sjálfgefna aðferð kostnaðarútreiknings fyrir nýjar vörur. Þegar einhver stofnar nýja vöru mun [!INCLUDE[d365fin](includes/d365fin_md.md)] stinga upp á sjálfgefinni aðferð kostnaðarútreiknings. Sjálfgefin aðferð er tilgreind í reitnum **Sjálfgefin aðferð kostnaðarútreiknings** á síðunni **Birgðauppsetning** . 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Gera grein fyrir vörunum sem breyta á aðferð kostnaðarútreiknings fyrir og númera þær aftur
 
@@ -68,7 +68,7 @@ Til að reyna að koma í veg fyrir hugsanleg mistök er hægt að tilgreina sj�
 
 ### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a>Búa til nýjar vörur með gömlu talnaröðinni og afrita aðalgögnin í runu
 
-Búið til nýju vörurnar með því að nota núverandi talnaröð. Að undanskildum reitnum **Aðferð kostnaðarútreiknings** ættu nýju vörurnar að innihalda sömu aðalgögnin og fyrirliggjandi vörur. Til að flytja aðalgögnin fyrir vöruna, og tengd gögn úr öðrum eiginleikum, skal nota aðgerðina **Afrita vöru** á síðunni **Birgðaspjald**. Frekari upplýsingar er að finna í [Afrita fyrirliggjandi vörur í Búa til nýjar vörur](inventory-how-copy-items.md).
+Búið til nýju vörurnar með því að nota núverandi talnaröð. Að undanskildum reitnum **Aðferð kostnaðarútreiknings** ættu nýju vörurnar að innihalda sömu aðalgögnin og fyrirliggjandi vörur. Til að flytja aðalgögnin fyrir vöruna, og tengd gögn úr öðrum eiginleikum, skal nota aðgerðina **Afrita vöru** á síðunni **Birgðaspjald** . Frekari upplýsingar er að finna í [Afrita fyrirliggjandi vörur í Búa til nýjar vörur](inventory-how-copy-items.md).
 
 Þegar búið er að stofna nýju vörurnar og flytja aðalgögnin skal úthluta réttri aðferð kostnaðarútreiknings.
 
@@ -79,20 +79,20 @@ Til að koma nýju vörunum að fullu í gagnið þarf að afrita handvirkt sum 
 |Svæði  |Hvað á að afrita  |Hvernig á að afrita það  |
 |---------|---------|---------|
 |Birgðir     |Birgðahaldseiningar (BHE)         |Athugið hvort birgðahaldseining sé tilgreind fyrir upprunalegu vöruna. Ef áætlunarfæribreytur hafa verið slegnar inn fyrir hvert birgðahaldseiningaspjald þarf að stofna handvirkt birgðahaldseininguna fyrir nýju vöruna. Ef færibreyturnar eru ekki tilgreindar, er hægt að nota runuvinnsluna **Stofna birgðahaldseiningu** af síðunni **Birgðaspjald** til að stofna gögnin.        |
-|     |Staðgengilsvörur         |Athugið hvort einhverjar staðgengilsvörur séu skilgreindar fyrir upprunalegu vöruna. Ef svo er skal flytja gögnin yfir í nýju vöruna. Til að skoða staðgengilsvörur skal nota aðgerðina **Staðgenglar** á síðunni **Birgðaspjald**.         |
+|     |Staðgengilsvörur         |Athugið hvort einhverjar staðgengilsvörur séu skilgreindar fyrir upprunalegu vöruna. Ef svo er skal flytja gögnin yfir í nýju vöruna. Til að skoða staðgengilsvörur skal nota aðgerðina **Staðgenglar** á síðunni **Birgðaspjald** .         |
 |     |Greiningarskýrslur         |Farið yfir skýrslur vörugreininga, sölugreininga og innkaupagreininga. Fyrir þá sem vísa til upprunalegra vara, er annaðhvort hægt að stofna nýja greiningarskýrslu með tilvísun í nýju vöruna (halda upprunalegri greiningarskýrslu til að nota sem feril) eða leiðrétta skýrslurnar þannig að þær vísi til nýju varanna.         |
 |     |Staðlaðar færslubækur         |Athugið hvort staðlaðar færslubækur vísi í upprunalegu vöruna og flytji gögnin til nýju vörunnar þegar á þarf að halda. Þessar upplýsingar finnast í stöðluðum færslubókum, sem eru aðgengilegar í birgðabókinni.          |
-|Sölur     |Fyrirframgreiðsluprósenta sölu         | Athugið hvort einhverjar fyrirframgreiðsluprósentur sölu eru skilgreindar fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða fyrirframgreiðsluprósentur, á síðunni **Birgðaspjald**, skal velja **Sölur** og síðan **Fyrirframgreiðsluprósentur**.        |
-|Innkaup     |Fyrirframgreiðsluprósenta innkaupa         |Athugið hvort einhverjar fyrirframgreiðsluprósentur innkaupa eru skilgreindar fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða fyrirframgreiðsluprósentur, á síðunni **Birgðaspjald**, skal velja **Innkaup** og síðan **Fyrirframgreiðsluprósentur**.                 |
+|Sölur     |Fyrirframgreiðsluprósenta sölu         | Athugið hvort einhverjar fyrirframgreiðsluprósentur sölu eru skilgreindar fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða fyrirframgreiðsluprósentur, á síðunni **Birgðaspjald** , skal velja **Sölur** og síðan **Fyrirframgreiðsluprósentur** .        |
+|Innkaup     |Fyrirframgreiðsluprósenta innkaupa         |Athugið hvort einhverjar fyrirframgreiðsluprósentur innkaupa eru skilgreindar fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða fyrirframgreiðsluprósentur, á síðunni **Birgðaspjald** , skal velja **Innkaup** og síðan **Fyrirframgreiðsluprósentur** .                 |
 |Vöruhús     |Innihald hólfs         |Yfirfarið innihald hólfs sem skilgreint er fyrir upprunalega vöru. Ef dálkar á borð við lágmarks Magn, hámarks Magn, sjálfgefið og sérstakt hafa verið slegnir inn handvirkt og ef svo er þarf að stofna hólfainnihald fyrir nýju vöruna. Ef svo er ekki þarf ekki að grípa til neinna aðgerða. [!INCLUDE[d365fin](includes/d365fin_md.md)] vinnur með færslurnar þegar vöruhúsaskjöl og færslubækur eru skráðar.|
-|Vinnsla     |Verð verks         |Athugið hvort verð verka eru skilgreind fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Þessar upplýsingar eru aðgengilegar á síðunni **Verkspjald** í hlutanum **Upplýsingar um verk - fjöldi verða** á **Upplýsingakassasvæði**.         |
-|Þjónusta     |Hæfnistilfangaþjónusta         |Athugið hvort hæfnistilfangaþjónusta er skilgreind fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða hæfnistilfangaþjónustu skal nota aðgerðina **Hæfnistilfang** á síðunni **Birgðaspjald**.          |
-|     |Þættir þjónustuvöru         |Athugið hvort þættir eru skilgreindir fyrir upprunalegu þjónustuvöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða þætti þjónustuvöru, á síðunni **Birgðaspjald**, skal nota aðgerðina **Þjónustuvara** til að opna lista yfir tengdar þjónustuvörur og síðan velja aðgerðina **Þættir**.          |
-|Framleiðsla     |Framl.uppskriftir         |Athugið hvort einhverjar framleiðsluuppskriftir innihaldi upprunalegu vöruna og skiptið henni út fyrir nýju vöruna. Til að skipta út upprunalegu vörunni, á síðunni **Framleiðsluuppskriftir**, skal velja aðgerðina **Skipta út vöru framleiðsluuppskriftar**.         |
+|Vinnsla     |Verð verks         |Athugið hvort verð verka eru skilgreind fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Þessar upplýsingar eru aðgengilegar á síðunni **Verkspjald** í hlutanum **Upplýsingar um verk - fjöldi verða** á **Upplýsingakassasvæði** .         |
+|Þjónusta     |Hæfnistilfangaþjónusta         |Athugið hvort hæfnistilfangaþjónusta er skilgreind fyrir upprunalegu vöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða hæfnistilfangaþjónustu skal nota aðgerðina **Hæfnistilfang** á síðunni **Birgðaspjald** .          |
+|     |Þættir þjónustuvöru         |Athugið hvort þættir eru skilgreindir fyrir upprunalegu þjónustuvöruna og flytjið gögnin yfir í nýju vöruna. Til að skoða þætti þjónustuvöru, á síðunni **Birgðaspjald** , skal nota aðgerðina **Þjónustuvara** til að opna lista yfir tengdar þjónustuvörur og síðan velja aðgerðina **Þættir** .          |
+|Framleiðsla     |Framl.uppskriftir         |Athugið hvort einhverjar framleiðsluuppskriftir innihaldi upprunalegu vöruna og skiptið henni út fyrir nýju vöruna. Til að skipta út upprunalegu vörunni, á síðunni **Framleiðsluuppskriftir** , skal velja aðgerðina **Skipta út vöru framleiðsluuppskriftar** .         |
 |Samsetning     |Samsetningaruppskrift         |Athugið hvort einhverjar framleiðsluuppskriftir innihaldi upprunalegu vöruna og skiptið henni út handvirkt fyrir nýju vöruna.         |
 
 > [!IMPORTANT]
-> Ef nýja aðferð kostnaðarútreikningsins er stöðluð ætti að slá inn gildi í reitinn **Staðlað kostnaðarverð** á síðunni **Birgðaspjald**. Hægt er að nota síðuna **Vinnublað staðlaðs kostnaðarverðs** til að stilla kostnaðarhlutdeildina á viðeigandi hátt. Frekari upplýsingar eru í [Uppfæra staðlað kostnaðarverð](finance-how-to-update-standard-costs.md).
+> Ef nýja aðferð kostnaðarútreikningsins er stöðluð ætti að slá inn gildi í reitinn **Staðlað kostnaðarverð** á síðunni **Birgðaspjald** . Hægt er að nota síðuna **Vinnublað staðlaðs kostnaðarverðs** til að stilla kostnaðarhlutdeildina á viðeigandi hátt. Frekari upplýsingar eru í [Uppfæra staðlað kostnaðarverð](finance-how-to-update-standard-costs.md).
 
 ### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Ákvarða birgðamagnið sem á að færa frá upprunalegu vörunni og yfir á nýju vöruna
 
@@ -138,7 +138,7 @@ Stofnið og bókið samsetningarpantanir til að flytja kostnað og birgðamagn 
 > Samsetningarpöntun getur aðeins meðhöndlað eina birgðahaldseiningu fyrir vöru hverju sinni. Stofna þarf samsetningarpöntun fyrir hverja samsetningu birgðahaldseiningar sem er með magn í birgðum.
 
 > [!NOTE]
-> Fyrir vöruhúsastaðsetningu gæti þurft að stofna tiltektir áður en hægt er að bóka samsetningarpöntunina. Til að rannsaka það skal fara yfir uppsetningu fyrir tiltekt á síðunni **Birgðageymsluspjald**. Frekari upplýsingar eru í [Setja upp vörur og birgðageymslur fyrir beinan frágang og tínslu](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
+> Fyrir vöruhúsastaðsetningu gæti þurft að stofna tiltektir áður en hægt er að bóka samsetningarpöntunina. Til að rannsaka það skal fara yfir uppsetningu fyrir tiltekt á síðunni **Birgðageymsluspjald** . Frekari upplýsingar eru í [Setja upp vörur og birgðageymslur fyrir beinan frágang og tínslu](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
 
 ### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Meðhöndla birgðamagnið sem er úthlutað samkvæmt eftirspurn
 
@@ -165,7 +165,7 @@ Eftirfarandi tafla sýnir virk svæði þar sem hugsanlega er útistandandi magn
 
 ### <a name="block-the-original-item-from-further-use"></a>Útiloka upprunalega vöru frá frekari notkun
 
-Þegar birgðastaða fyrir upprunalega vöru er núll er hægt að útiloka vöruna til að koma í veg fyrir að hún sé notuð í nýjum færslum. Til að útiloka vöruna, á síðunni **Birgðaspjald**, skal kveikja á víxlhnappnum **Útilokað**. Frekari upplýsingar er að finna í [Loka á vörur í sölum eða innkaupum](inventory-how-block-items.md).
+Þegar birgðastaða fyrir upprunalega vöru er núll er hægt að útiloka vöruna til að koma í veg fyrir að hún sé notuð í nýjum færslum. Til að útiloka vöruna, á síðunni **Birgðaspjald** , skal kveikja á víxlhnappnum **Útilokað** . Frekari upplýsingar er að finna í [Loka á vörur í sölum eða innkaupum](inventory-how-block-items.md).
 
 ## <a name="summary"></a>Samantekt
 

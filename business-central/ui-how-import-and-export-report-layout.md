@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b44d728414e7b1b4b7d07807abbe4a1dc5769a2e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: eed31b7eebaace7ada63470bf15a2e4efe741325
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782675"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918513"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Flytja sérsniðið skýrsluútlit inn og út
 Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skrá í og úr staðsetningu á tölvu og neti. Til dæmis er hægt að flytja út skýrsluútlit og senda síðan skrána til einhvers annars til breytinga. Sá einstaklingur getur gert breytingarnar á útlitinu og skilað skránni til þín til að flytja aftur inn.  
@@ -27,9 +27,9 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
 
-2.  Veldu röðina fyrir skýrsluna sem er með sérsniðna skýrsluútlitið sem þú vilt flytja út og svo aðgerðina **Sérstillt útlit**.  
+2.  Veldu röðina fyrir skýrsluna sem er með sérsniðna skýrsluútlitið sem þú vilt flytja út og svo aðgerðina **Sérstillt útlit** .  
 
-3.  Á síðunni **Skýrsluútlit** skal velja skýrsluútlit sem flytja á út í skrá og svo aðgerðina **Flytja út útlit**.  
+3.  Á síðunni **Skýrsluútlit** skal velja skýrsluútlit sem flytja á út í skrá og svo aðgerðina **Flytja út útlit** .  
 
 4.  Í svarglugganum **Flytja út skrá** skal velja hnappinn **Vista** og vista svo skrána í tölvu eða á neti.  
 
@@ -41,9 +41,9 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 
 2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
 
-3.  Veldu röðina fyrir skýrsluna sem þú vilt flytja inn skýrsluútlitið og svo aðgerðina **Sérstillt útlit**.  
+3.  Veldu röðina fyrir skýrsluna sem þú vilt flytja inn skýrsluútlitið og svo aðgerðina **Sérstillt útlit** .  
 
-4.  Á síðunni **Skýrsluútlit** skal velja útlit sem flytja á inn í skrána og svo aðgerðina **Flytja inn útlit**.  
+4.  Á síðunni **Skýrsluútlit** skal velja útlit sem flytja á inn í skrána og svo aðgerðina **Flytja inn útlit** .  
 
 5.  Í svarglugganum **Flytja inn** skal velja skjalið sem skilgreinir skýrsluútlitið og svo velja **Opna** hnappinn.  
 

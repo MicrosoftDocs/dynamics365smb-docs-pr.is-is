@@ -1,1 +1,2 @@
-Þessi eiginleiki, eða hluti af eiginleikanum, er í forútgáfu og innihaldið er verk í vinnslu.
+> [!Note]
+> Eiginleikarnir sem þessi síða útskýrir eru í forútgáfu, sem þýðir að þeir eru ekki alveg tilbúnir. Við gefum út eiginleika í forútgáfu til að veita samstarfsaðilum og viðskiptamönnum snemmbúinn aðgang að þeim, þannig að þeir geti veitt okkur gagnlegar ábendingar. Forskoðunareiginleikar eru oft með takmarkaða virkni og yfirleitt ætti ekki að nota þá í framleiðsluumhverfi.

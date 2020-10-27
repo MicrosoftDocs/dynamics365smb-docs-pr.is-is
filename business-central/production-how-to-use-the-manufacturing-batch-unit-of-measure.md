@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c4c1b32d304ee66fa3737bda08f852359ff48fe1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 91e77f25c111ffda32e94b82f23c7d56433e16cf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784083"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921519"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Vinna með mælieiningu framleiðslukeyrslu
 Ef vara er sett á lager eftir einni mælieiningu en framleidd eftir annarri er framleiðslupöntun stofnuð sem notar mælieiningu framleiðslukeyrslu til að reikna út rétt magn íhluta meðan á keyrslunni **Endurnýjun framleiðslupöntunar** stendur. Dæmi um útreikning með mælieiningu framleiðslukeyrslu er þegar framleiddur hlutur er merktur á lager í stykkjum en framleiddur í tonnum.  
@@ -27,21 +27,21 @@ Ef vara er sett á lager eftir einni mælieiningu en framleidd eftir annarri er 
 4.  Fyrir hverja framleiðsluuppskriftarlínu í reitnum **Magn á** er slegið inn magnið af þessum vöruíhlut sem þarf til að stofna þessa keyrslumælieiningu.  
 5.  Opna **Birgðaspjald** fyrir vöruna sem á í hlut.  
 
-    Á flýtiflipanum **Áfyllingu**, í reitnum **Framleiðsluuppskriftarnr.**, er framleiðsluuppskriftin valin sem stofnuð var fyrir ofan.  
+    Á flýtiflipanum **Áfyllingu** , í reitnum **Framleiðsluuppskriftarnr.** , er framleiðsluuppskriftin valin sem stofnuð var fyrir ofan.  
 6.  Stofnaður er framleiðslupöntunarhaus með því að nota vöruna sem er sett upp með mælieiningu framleiðslukeyrslu. Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
 7.  Veldu aðgerðina **Uppfæra** og veldu síðan **Í lagi** hnappinn.  
 
-Á flýtiflipanum **Línur** skal velja aðgerðina **Lína**, og velja svo aðgerðina **Íhlutir** til að skoða niðurstöðurnar. Forritið reiknar út rétt magn íhluta sem þarf til að fullnægja framleiðsluuppskriftinni á grundvelli mælieiningu framleiðslukeyrslu.  
+Á flýtiflipanum **Línur** skal velja aðgerðina **Lína** , og velja svo aðgerðina **Íhlutir** til að skoða niðurstöðurnar. Forritið reiknar út rétt magn íhluta sem þarf til að fullnægja framleiðsluuppskriftinni á grundvelli mælieiningu framleiðslukeyrslu.  
 
 ## <a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a>Til að reikna út Mælieiningu framleiðslukeyrslu á Framleiðslupöntun:  
 1.  Stofnaður er framleiðslupöntunarhaus með því að nota vöruna sem er sett upp með mælieiningu framleiðslukeyrslu.  
 2.  Í reitnum **Vörunr.** í Framleiðslupöntunarlínunni er slegið inn sama vörunúmer og notað er í hausnum.  
 3.  Í reitnum **Magn** er slegið inn sama magn og er notað í hausnum.  
 4.  Í reitnum **Mælieiningarkóti** er mælieiningarkóti framleiðslukeyrslu valinn.  
-5.  Velja aðgerðina **Uppfæra**.
-6.  Á flýtiflipanum **Reikna** skal hreinsa gátreitinn **Línur**.  
-7.  Velja hnappinn **Í lagi**.  
-8.  Á flýtiflipanum **Línur** skal velja aðgerðina **Lína**, og velja svo aðgerðina **Íhlutir** til að skoða niðurstöðurnar. Rétt magn íhluta sem þarf til að fullnægja framleiðsluuppskriftinni er reiknað út á grundvelli mælieiningu framleiðslukeyrslu.  
+5.  Velja aðgerðina **Uppfæra** .
+6.  Á flýtiflipanum **Reikna** skal hreinsa gátreitinn **Línur** .  
+7.  Velja hnappinn **Í lagi** .  
+8.  Á flýtiflipanum **Línur** skal velja aðgerðina **Lína** , og velja svo aðgerðina **Íhlutir** til að skoða niðurstöðurnar. Rétt magn íhluta sem þarf til að fullnægja framleiðsluuppskriftinni er reiknað út á grundvelli mælieiningu framleiðslukeyrslu.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Stofna leiðir](production-how-to-create-routings.md)  

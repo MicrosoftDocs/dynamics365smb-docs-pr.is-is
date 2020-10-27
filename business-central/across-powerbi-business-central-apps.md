@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b4430118eb8075ceded16bdc375479e61a132f96
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: 292f78f16b77940fa16a6ffc25bd79dbca0684e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697769"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915861"
 ---
 # <a name="using-the-prodshort-apps-in-power-bi"></a>Með [!INCLUDE [prodshort](includes/prodshort.md)]-forritunum í Power BI
 
@@ -67,25 +67,25 @@ Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skrá
 
     Einnig er hægt að hefjast handa úr [!INCLUDE [prodshort](includes/prodshort.md)]. Frá heimasíðunni skaltu fara í **Skýrsluval** í hlutanum Power BI. Veldu annað hvort **Þjónusta** eða **Mitt fyrirtæki** frá borðanum. Annaðhvort opnast Fyrirtækjagalleríið í Power BI eða Microsoft AppSource, afmarkað til að sýna aðeins forrit sem tengjast [!INCLUDE[prodshort](includes/prodshort.md)].
 
-3. Í **Þjónusta** reitnum er valið **Sækja**.
+3. Í **Þjónusta** reitnum er valið **Sækja** .
 
     Í þessu skrefi opnast **Power BI Forrit** Page, sem gerir þér kleift að fletta upp Power BI forriti sem er í boði í **AppSource .**  
 
-4. Í kassanum **Leit** skal færa inn **Dynamics 365 Business Central**.
-5. Veldu forrit sem þú vilt nota, veldu **Sækja það núna** og svo **Setja upp**.  
+4. Í kassanum **Leit** skal færa inn **Dynamics 365 Business Central** .
+5. Veldu forrit sem þú vilt nota, veldu **Sækja það núna** og svo **Setja upp** .  
 
     Þegar því er lokið verður forritið í boði af yfirlitsvalmyndinni **Forrit** í Power BI.
 
 ## <a name="connect-the-prodshort-app-to-your-data"></a>Tengdu [!INCLUDE[prodshort](includes/prodshort.md)]-forritið við gögnin þín
 
-1. Í **Forrit** skal velja Business Central-forritið og síðan **Tengja**.
+1. Í **Forrit** skal velja Business Central-forritið og síðan **Tengja** .
 2. Þegar beðið er um það skal fylla út **Heiti fyrirtækis** og **Umhverfi** með upplýsingum um [!INCLUDE[prodshort](includes/prodshort.md)] tilvik sem á að tengjast við.
 
     - Fyrir **Heiti fyrirtækis** skal nota fullt heiti, ekki birtingarheiti. Þú getur fundið heiti fyrirtækisins á síðunni **Fyrirtæki** í [!INCLUDE[prodshort](includes/prodshort.md)]. 
-    - Fyrir **Umhverfi**, ef þú hefur ekki búið til mörg umhverfi, skaltu færa inn **Framleiðsla**.
+    - Fyrir **Umhverfi** , ef þú hefur ekki búið til mörg umhverfi, skaltu færa inn **Framleiðsla** .
 
-3. Veldu **Áfram**.
-4. Veldu **Innskráning**.
+3. Veldu **Áfram** .
+4. Veldu **Innskráning** .
 5. Þegar beðið er um það skal færa inn notandanafn og aðgangsorð fyrir innskráningu í [!INCLUDE[prodshort](includes/prodshort.md)].
 6. Þegar tenging hefur náðst er yfirliti og skýrslum bætt við Power BI-vinnusvæðið þitt. Þegar þessu er lokið sýna reitirnir gögn af [!INCLUDE[prodshort](includes/prodshort.md)] fyrirtækinu þínu.
 
@@ -101,7 +101,7 @@ Power BI-Reikningur hefur ekki verið settur upp. Þú verður að hafa leyfi ti
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Skilaboð: Engar skýrslur eru virkar. Veljið Velja skýrslu til að sjá hvaða skýrslur er hægt að birta.
 
-Þessi skilaboð birtast ef ekki tókst að virkja sjálfgefna skýrslu á Power BI vinnusvæði. Eða að skýrslan var virkjuð en ekki tókst að uppfæra hana. Ef þetta vandamál kemur upp skal fara í skýrsluna á Power BI vinnusvæðinu, velja **Gagnasafn**, **Stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnasafnið hefur verið endurnýjað er farið aftur í [!INCLUDE[prodshort](includes/prodshort.md)] og valið skýrslu handvirkt af **Velja skýrslur** síðunni.
+Þessi skilaboð birtast ef ekki tókst að virkja sjálfgefna skýrslu á Power BI vinnusvæði. Eða að skýrslan var virkjuð en ekki tókst að uppfæra hana. Ef þetta vandamál kemur upp skal fara í skýrsluna á Power BI vinnusvæðinu, velja **Gagnasafn** , **Stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnasafnið hefur verið endurnýjað er farið aftur í [!INCLUDE[prodshort](includes/prodshort.md)] og valið skýrslu handvirkt af **Velja skýrslur** síðunni.
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Þú þarft Power BI-leyfi fagmanns til að setja upp [!INCLUDE[prodshort](includes/prodshort.md)]-forritið í Power BI
 
@@ -130,7 +130,7 @@ Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum kann vandamálið
 
 ### <a name="incorrect-company-name"></a>Rangt fyrirtækjaheiti
 
-Algeng mistök eru að slá inn birtingarnafn fyrirtækis í stað nafn fyrirtækis. Til að finna nafn fyrirtækisins skal leita að **Fyrirtæki**. Svo skal nota reitinn **Nafn** þegar nafn fyrirtækisins er slegið inn.
+Algeng mistök eru að slá inn birtingarnafn fyrirtækis í stað nafn fyrirtækis. Til að finna nafn fyrirtækisins skal leita að **Fyrirtæki** . Svo skal nota reitinn **Nafn** þegar nafn fyrirtækisins er slegið inn.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Lykillinn passaði ekki við neinar línur í töflunni
 
@@ -149,7 +149,7 @@ Power BI-forritið sýnir aðeins gögn úr [!INCLUDE[prodshort](includes/prodsh
 - Prófaðu [að slá inn spurningu í reitinn Spurningar og svör](/power-bi/service-q-and-a-tips) efst á yfirlitinu.
 - [Breyta reitum](/power-bi/service-dashboard-edit-tile) á yfirlitinu.  
 - [Velja reit](/power-bi/service-dashboard-tiles) til opna undirliggjandi skýrslu.  
-- Sjálfgefið er að gagnasafnið sé ekki áætlað til endurnýjunar. Hægt er að breyta uppfærsluáætluninni eða uppfæra hana hvenær sem er í **Uppfæra núna**. Frekari upplýsingar eru í [Grunnstilla uppfærsluáætlun](/power-bi/refresh-scheduled-refresh).
+- Sjálfgefið er að gagnasafnið sé ekki áætlað til endurnýjunar. Hægt er að breyta uppfærsluáætluninni eða uppfæra hana hvenær sem er í **Uppfæra núna** . Frekari upplýsingar eru í [Grunnstilla uppfærsluáætlun](/power-bi/refresh-scheduled-refresh).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a1e2e8ceee41c2c6ed517d000fc7c3a4a6aa274c
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: e339033e8529f59f548e8bf71fd683f9a2a17eba
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697673"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917877"
 ---
 # <a name="prodshort-and-power-bi"></a>[!INCLUDE[prodshort](includes/prodshort.md)] og Power BI
 
@@ -31,10 +31,10 @@ ms.locfileid: "3697673"
 
 |Sérkenni|Description|Beinlínutengt|Á staðnum|Meiri upplýsingar|
 |-------|-----------|--------------|-----------|----------------|
-|Skoða [!INCLUDE[prodshort](includes/prodshort.md)] gögn í Power BI|Hægt er að skoða gögn úr [!INCLUDE[prodshort](includes/prodshort.md)] í skýrslum á Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] á netinu inniheldur nokkrar fyrirframskilgreindar Power BI skýrslur. Eða fyrirtækið kann að hafa gert einhverjar sérsniðnar skýrslur fyrir þig.|![ávísun](media/check.png)|![ávísun](media/check.png)|[Sjá...](across-working-with-powerbi.md)|
-|Skoðaðu Power BI-skýrslur í [!INCLUDE[prodshort](includes/prodshort.md)] -biðlaranum.| Power BI skýrslur sem birta [!INCLUDE[prodshort](includes/prodshort.md)] gögn er hægt að fella beint inn í hluta [!INCLUDE[prodshort](includes/prodshort.md)] síðna. Hægt er að skipta hlutanum til að birta allar skýrslur sem þú hefur aðgang að. |![ávísun](media/check.png)|![athuga](media/check.png)<sup>[*](#onprem)</sup>|[Sjá...](across-working-with-business-central-in-powerbi.md).|
-|Stofna skýrslur og mælaborð í Power BI sem birta [!INCLUDE[prodshort](includes/prodshort.md)]-gögn.|Notaðu Power BI Desktop til að búa til þínar eigin skýrslur og mælaborð. Hægt er að birta skýrslurnar á eigin Power BI-þjónustu eða deila þeim með öðrum innan fyrirtækisins.|![ávísun](media/check.png)|![ávísun](media/check.png)|[Sjá...](across-how-use-financials-data-source-powerbi.md)
-|[!INCLUDE[prodshort](includes/prodshort.md)] forrit í Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] gefur út þrjú forrit fyrir Power BI á Microsoft AppSource. Þessi forrit búa til ítarlegar skýrslur og mælaborð í Power BI þjónustunni til að skoða [!INCLUDE[prodshort](includes/prodshort.md)] -gögn. Tiltæk forrit eru meðal annars: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] - CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Sales </li></ul>  |![ávísun](media/check.png)||[Sjá...](across-powerbi-business-central-apps.md)
+|Skoða [!INCLUDE[prodshort](includes/prodshort.md)] gögn í Power BI|Hægt er að skoða gögn úr [!INCLUDE[prodshort](includes/prodshort.md)] í skýrslum á Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] á netinu inniheldur nokkrar fyrirframskilgreindar Power BI skýrslur. Eða fyrirtækið kann að hafa gert einhverjar sérsniðnar skýrslur fyrir þig.|![Vinna á netinu](media/check.png)|![Vinnur á staðnum](media/check.png)|[Sjá...](across-working-with-powerbi.md)|
+|Skoðaðu Power BI-skýrslur í [!INCLUDE[prodshort](includes/prodshort.md)] -biðlaranum.| Power BI skýrslur sem birta [!INCLUDE[prodshort](includes/prodshort.md)] gögn er hægt að fella beint inn í hluta [!INCLUDE[prodshort](includes/prodshort.md)] síðna. Hægt er að skipta hlutanum til að birta allar skýrslur sem þú hefur aðgang að. |![vinnur á netinu](media/check.png)|![Vinnur á staðnum](media/check.png)<sup>[*](#onprem)</sup>|[Sjá...](across-working-with-business-central-in-powerbi.md).|
+|Stofna skýrslur og mælaborð í Power BI sem birta [!INCLUDE[prodshort](includes/prodshort.md)]-gögn.|Notaðu Power BI Desktop til að búa til þínar eigin skýrslur og mælaborð. Hægt er að birta skýrslurnar á eigin Power BI-þjónustu eða deila þeim með öðrum innan fyrirtækisins.|![Vinna á netinu](media/check.png)|![vinnur á staðnum](media/check.png)|[Sjá...](across-how-use-financials-data-source-powerbi.md)
+|[!INCLUDE[prodshort](includes/prodshort.md)] forrit í Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] gefur út þrjú forrit fyrir Power BI á Microsoft AppSource. Þessi forrit búa til ítarlegar skýrslur og mælaborð í Power BI þjónustunni til að skoða [!INCLUDE[prodshort](includes/prodshort.md)] -gögn. Tiltæk forrit eru meðal annars: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] - CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] - Sales </li></ul>  |![Vinna á netinu](media/check.png)||[Sjá...](across-powerbi-business-central-apps.md)
 
 <a name="onprem"><sup>*</sup></a> Þessi eiginleiki krefst skráðs forrits fyrir Business Central í Microsoft Azure. Frekari upplýsingar er að finna á [Skráning Business Central innanhúss í Azure AD fyrir samþættingu við aðrar þjónustur](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 

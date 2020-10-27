@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2ca7c9d062ec4f6e6f30111b06e1899921e6405
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: befc5fc1c79f3cd24f5f1af9437aebab01b62945
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782949"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918864"
 ---
 # <a name="set-up-purchasers"></a>Setja upp kaupendur
 Ef nokkrir innkaupaaðilar vinna í fyrirtækinu er hægt að setja þá upp á síðu og úthluta hverjum þeirra kóða. Síðan er hægt að nota kótana til að undirbúa upplýsingar og afmarka upplýsingar í prentuðum skýrslum.<br><br>  
@@ -26,7 +26,7 @@ Ef nokkrir innkaupaaðilar vinna í fyrirtækinu er hægt að setja þá upp á 
 
 ## <a name="to-set-up-purchasers"></a>Innkaupaaðilar settir upp
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölumenn/innkaupaaðilar** og veldu síðan tengda tengilinn.
-2. Á síðunni **Sölumenn/innkaupaaðilar** skal velja **Nýtt**.
+2. Á síðunni **Sölumenn/innkaupaaðilar** skal velja **Nýtt** .
 3. Fyllið út í reitina á síðunni **sölumenn/innkaupaaðilar** eins og nauðsynlegt er. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Lánardrottnum úthlutað innkaupaaðilar:

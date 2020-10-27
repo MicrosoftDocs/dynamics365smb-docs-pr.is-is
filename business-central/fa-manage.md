@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fdcced8a62cb64f28d3e4d274271c4cf8f27d0d7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780261"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920623"
 ---
 # <a name="fixed-assets"></a>Eignir
 Í kerfishlutanum Eignir í [!INCLUDE[d365fin](includes/d365fin_md.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.
@@ -31,7 +31,7 @@ Hægt er að skrá viðhaldskostnað fyrir hverja eign og næstu þjónustudagse
 Tengja má hverja eign einum eða fleiri vátryggingarskilmálum. Auðvelt er því að sannprófa að upphæðir í vátryggingarskilmálum séu í samræmi við verðmæti eignanna sem þeir eiga við. Það auðveldar því eftirlit með árlegum iðgjöldum af vátryggingum.
 
 > [!NOTE]  
->   Hægt er að skrá eignafærslur á síðunni **Fjárhagsbók eigna** eða á síðunni **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á síðuna **Fjárhagsbók eigna**. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).
+>   Hægt er að skrá eignafærslur á síðunni **Fjárhagsbók eigna** eða á síðunni **Færslubók eigna** , allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á síðuna **Fjárhagsbók eigna** . Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).
 
 Áður en þú getur byrjað að stjórna eignum, verður þú að setja upp sjálfgefið gildi, eignabókhald, bókunarflokka, úthlutunarlykla, færslubækur og bókunargerðir. Nánari upplýsingar eru í [Uppsetning eigna](fa-setup.md).
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b60d7c0b0e42d33e039f32a9b8f23a9816cb1bf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 353b2074edf80ddba705004e62a86e47943a4366
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190300"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916777"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Skrá greiðslur og endurgreiðslur í greiðslubókina
 
@@ -40,13 +40,13 @@ Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubækur** og veldu síðan tengda tengilinn.
 2. Opnaðu bókarkeyrsluna sem er notuð fyrir greiðslur.
 3. Ef þú veist hverjum á að borga eða endurgreiða skaltu fylla inn reitina handvirkt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Til að einnig jafna greiðsluna við tengdan reikning eða kreditreikning skaltu velja **Jöfnunarskjalsnúmer**. reitinn á síðunni **Jafna lánardr.færslur**, velja viðeigandi reikning eða kreditreikning og síðan velja hnappinn **Í lagi**.
+4. Til að einnig jafna greiðsluna við tengdan reikning eða kreditreikning skaltu velja **Jöfnunarskjalsnúmer** . reitinn á síðunni **Jafna lánardr.færslur** , velja viðeigandi reikning eða kreditreikning og síðan velja hnappinn **Í lagi** .
 
     Mörg reiti, svo sem **Skjalaupphæð** og **Gjalddagi** reitir, eru nú fylltir inn með upplýsingum úr völdu skjalinu.
-5. Annar valkostur er að nota aðgerðina **Greiðslutillögur til lánardrottna**. Allar jöfnunarupplýsingar og upphæðir eru síðan einnig færðar inn í færslubókarlínur. Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).
+5. Annar valkostur er að nota aðgerðina **Greiðslutillögur til lánardrottna** . Allar jöfnunarupplýsingar og upphæðir eru síðan einnig færðar inn í færslubókarlínur. Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).
 
     Skilaboð munu leiðbeina þér í að fylla út nauðsynlega reiti á réttan hátt.
-6.  Þegar öllum greiðslubókarlínum er lokið skal velja aðgerðina **Bóka**.
+6.  Þegar öllum greiðslubókarlínum er lokið skal velja aðgerðina **Bóka** .
 
 ## <a name="see-also"></a>Sjá einnig
 [Framkvæma ávísanagreiðslur](payables-how-work-checks.md)  

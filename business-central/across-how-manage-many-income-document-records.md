@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d59987e7bb826b1230f726f40854c36404037c9a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e75dc8824965d3bfdf3c12ba5b0787e9fb066532
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780536"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919639"
 ---
 # <a name="manage-many-incoming-document-records"></a>Vinna með margar færslur skjala á innleið
 Þegar þú býrð til eða vinnur færslur fyrir skjal á innleið, getur fjöldi lína á síðunni **Skjöl á innleið** vaxið að marki þar sem þú tapar yfirsýn. Þess vegna getur þú stillt færslur fyrir skjal á innleið sem unnið, til að fjarlægja þá úr sjálfgefna yfirlitinu. Þegar valið er **Sýna Allt** aðgerð, geturðu skoðað bæði unnar og óunnar færslur.
@@ -40,12 +40,12 @@ ms.locfileid: "3780536"
 >   Einnig má framkvæma þessa aðgerð fyrir einstaka færslu á síðunni **Spjald fyrir skjöl á innleið** .
 
 ## <a name="to-view-all-incoming-document-records"></a>Skoða allar færslur fyrir skjöl á innleið.
-1. Á síðunni **Skjal á innleið** skal velja aðgerðina **sýna allt**.
+1. Á síðunni **Skjal á innleið** skal velja aðgerðina **sýna allt** .
 
 Allar færslur skjala á innleið eru birtar , þar á meðal þær þar sem **unnið** gátreiturinn er ekki valinn.
 
 ## <a name="to-add-incoming-document-records-to-the-default-view"></a>Bæta við færslu skjals á innleið við sjálfgefna yfirlitinu
-1. Á síðunni **Skjal á innleið** skal velja aðgerðina **sýna allt**.
+1. Á síðunni **Skjal á innleið** skal velja aðgerðina **sýna allt** .
 2. velja færslu eina eða fleiri línur fyrir færslur fyrir skjöl á innleið sem þú vilt að birtist í sjálfgefna yfirlitinu.
 3. Valið er **Setja upp óunnið** aðgerð.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7e24351bb7382d01a060326ec8e592af555870a7
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 2f1b79cdf04075159b5e464e384bace89d9f933c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619385"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917802"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-common-data-service"></a>Áætla samstillingu milli Business Central og Common Data Service
 
@@ -29,7 +29,7 @@ Nokkur samstillingarverk eru í boði beint úr kassanum. Verkin eru keyrð í e
 4. VIÐSKIPTAMAÐUR - Common Data Service samstillingarverk.
 5. SÖLUFÓLK - Common Data Service samstillingarverk.
 
-Hægt er að skoða verkin á síðunni **Verkraðarfærslur**. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
+Hægt er að skoða verkin á síðunni **Verkraðarfærslur** . Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).
 
 ## <a name="default-synchronization-job-queue-entries"></a>Sjálfgefnar Verkraðarfærslur samstillingar
 
@@ -51,7 +51,7 @@ Til að samstilla gögn verða [!INCLUDE[cds_long_md](includes/cds_long_md.md)] 
 
 - **Samstilla aðeins tengdar færslur** gátreiturinn stjórnar því hvort nýjar færslur séu stofnaðar þegar þú samstillir. Sjálfgefið er að gátreiturinn sé valinn, sem merkir að aðeins færslur sem eru tengdar eru samstilltar. Í vörpun samþættingartöflu getur þú breytt töfluvörpun á milli [!INCLUDE[cds_long_md](includes/cds_long_md.md)] einingar og [!INCLUDE[d365fin](includes/d365fin_md.md)] töflu þannig að heildasamstillingarverkin stofni nýjar færslur í endanlegum gagnagrunni fyrir hverja færslu í upprunagagnagrunninum sem ekki var tengd. Frekari upplýsingar eru í [Stofna nýjar færslur](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
 
-    **Dæmi** Ef þú hreinsar  gátreitinn **Samstilla aðeins tengdar færslur**, þegar þú samstillir viðskiptamenn[!INCLUDE[d365fin](includes/d365fin_md.md)] með reikninga í [!INCLUDE[cds_long_md](includes/cds_long_md.md)], er nýr reikningur búinn til hvern viðskiptamann [!INCLUDE[d365fin](includes/d365fin_md.md)] og hann tengdur sjálfkrafa. Auk þessa, þar sem samstilling í þessu tilfelli er tvíátta, er nýr viðskiptamaður búinn til og tengdur fyrir hvern [!INCLUDE[cds_long_md](includes/cds_long_md.md)] reikning sem er ekki þegar tengdur.  
+    **Dæmi** Ef þú hreinsar  gátreitinn **Samstilla aðeins tengdar færslur** , þegar þú samstillir viðskiptamenn[!INCLUDE[d365fin](includes/d365fin_md.md)] með reikninga í [!INCLUDE[cds_long_md](includes/cds_long_md.md)], er nýr reikningur búinn til hvern viðskiptamann [!INCLUDE[d365fin](includes/d365fin_md.md)] og hann tengdur sjálfkrafa. Auk þessa, þar sem samstilling í þessu tilfelli er tvíátta, er nýr viðskiptamaður búinn til og tengdur fyrir hvern [!INCLUDE[cds_long_md](includes/cds_long_md.md)] reikning sem er ekki þegar tengdur.  
 
     > [!NOTE]  
     > Til eru reglur og afmarkanir sem ákvarða hvaða gögn eru samstillt. Frekari upplýsingar eru í [Samstillingarreglur](admin-synchronizing-business-central-and-sales.md).
@@ -88,7 +88,7 @@ Til dæmis er sjálfgefið að GJALDMIÐILL verkraðarfærsla, sem samstillir gj
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Til að skoða kladda samstillingarverks úr töfluvörpunum
 
 1. Veldu :::image type="icon" source="media/ui-search/search_small.png" border="false"::: táknið, sláðu inn **Vörpun samþættingartöflu** og veldu síðan tengda tengilinn.
-2. Á síðunni **Vörpun samþættingartöflu** skal velja færslu og síðan velja **Kladdi fyrir samstillingarverk samþættingar**.  
+2. Á síðunni **Vörpun samþættingartöflu** skal velja færslu og síðan velja **Kladdi fyrir samstillingarverk samþættingar** .  
 
 ## <a name="to-view-the-synchronization-error-log"></a>Til að skoða villukladda samstillingar
 

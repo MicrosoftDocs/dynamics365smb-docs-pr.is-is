@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/06/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ed2d7c8dd8a8a2fe4744c670197a3ac0a7ec38fa
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8f4bd2978652366ecd18109377f4ebeeebfbb4a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782294"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922343"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Undirbúa flutning á viðskiptamannagögnum með sniðmátum
 
@@ -35,7 +35,7 @@ Hins vegar hægt að stofna sniðmátsskipulag fyrir hvaða töflu sem er í [!I
 
 Þegar viðskiptavinagögn eru flutt inn úr skrá, t.d. fyrir vörur, eru nauðsynlegu reitsgögnin sem tilgreind hafa verið tekin úr tengda gagnasniðmátinu. Þegar ný vara er stofnuð þarf aðeins færa inn almennar upplýsingar eins og vöruheiti, lýsingu og verð og síðan safna afganginum af nauðsynlegu gögnunum úr völdu gagnasniðmáti.
 
-Þegar ný aðalgagnafærsla er búin til, til dæmis viðskiptavinarspjald, eru sumir reitir nauðsynlegir og það verður að fylla þá út. Hægt er að flokka flesta nauðsynlega reiti, til dæmis bókunarflokka og greiðsluskilmála, til að gera stofnun aðalgagnafærsla auðveldari og stöðugri. Til dæmis er hægt að flokka áskilda reiti fyrir töflu 18, **Viðskiptamaður**, og tegundirnar **Innlent**, **Erlent** eða **Flytja út**.
+Þegar ný aðalgagnafærsla er búin til, til dæmis viðskiptavinarspjald, eru sumir reitir nauðsynlegir og það verður að fylla þá út. Hægt er að flokka flesta nauðsynlega reiti, til dæmis bókunarflokka og greiðsluskilmála, til að gera stofnun aðalgagnafærsla auðveldari og stöðugri. Til dæmis er hægt að flokka áskilda reiti fyrir töflu 18, **Viðskiptamaður** , og tegundirnar **Innlent** , **Erlent** eða **Flytja út** .
 
 > [!NOTE]
 > Ekki er hægt að flytja út/flytja inn svæði af gerðinni Blob með Excel.
@@ -48,7 +48,7 @@ Hins vegar hægt að stofna sniðmátsskipulag fyrir hvaða töflu sem er í [!I
 > Einnig er hægt að nota gagnasniðmát til að stofna nýjar færslur á skjótan hátt. Þá má nota til að stofna gögn á fljótlegri og nákvæmari hátt. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarsniðmát** og veldu síðan tengda tengilinn.  
-2. Á síðunni **Grunnstillingarsniðmát** skal velja gagnasniðmát af listanum og veljið svo aðgerðina **Breyta**.  
+2. Á síðunni **Grunnstillingarsniðmát** skal velja gagnasniðmát af listanum og veljið svo aðgerðina **Breyta** .  
 
 Ef sjálfgefin sniðmát uppfylla ekki þarfir fyrirtækisins er hægt að stofna ný sniðmát eða bæta reitum við sjálfgefið sniðmát. Ef sjálfgefin sniðmát eru fullnægjandi er hægt að nota þau til að stofna færslur samkvæmt aðalgagnagrunni.
 
@@ -57,7 +57,7 @@ Ef sjálfgefin sniðmát uppfylla ekki þarfir fyrirtækisins er hægt að stofn
 Hægt er að stofna nýtt gagnasniðmát ef sjálfgefin sniðmát henta ekki nýja fyrirtækinu.  
 
 > [!TIP]
-> Ef stofna á fleiri en eitt gæti verið gagnlegt að taka upp nafnavenju fyrir reitinn **Kóði**.
+> Ef stofna á fleiri en eitt gæti verið gagnlegt að taka upp nafnavenju fyrir reitinn **Kóði** .
 
 Hvert sniðmát er samsett úr haus og línu fyrir hvern reit sem á að taka með í sniðmátinu. Þegar sniðmát er stofnað er hægt að tilgreina við hvaða reiti skal alltaf jafna við gögn af tiltekinni gerð. Til dæmis er hægt að stofna mismunandi sniðmát viðskiptamanns sem eiga við mismunandi tegundir viðskiptamanna. Þegar viðskiptavinurinn er stofnaður með sniðmáti er hægt að nota sniðmátsgögn til að fylla ákveðna reiti út fyrirfram.
 
@@ -65,25 +65,25 @@ Hvert sniðmát er samsett úr haus og línu fyrir hvern reit sem á að taka me
 
 Hægt er að búa til nýtt gagnasniðmát á einfaldan hátt með því að afrita upplýsingar úr fyrirliggjandi gagnasniðmáti sem svo er breytt.
 
-1. Opna skal síðuna **Grunnstillingarsniðmát**.
+1. Opna skal síðuna **Grunnstillingarsniðmát** .
 2. Valið er **Nýtt** aðgerð.
 3. Reiturinn **Kóti** er fylltur út.
-4. Velja skal **Afrita skilgreiningarsniðmát**.
-5. Á síðunni **Grunnstillingarsniðmát** skal velja sniðmát til að afrita og svo hnappinn **Í lagi**.
+4. Velja skal **Afrita skilgreiningarsniðmát** .
+5. Á síðunni **Grunnstillingarsniðmát** skal velja sniðmát til að afrita og svo hnappinn **Í lagi** .
 
 Töflukenni, töfluheiti og línur fyrirliggjanda gagnasniðmáta eru sett í nýja sniðmátið.
 
 ### <a name="to-create-a-data-template-header-manually"></a>Til að stofna gagnasniðmátshaus handvirkt
 
-1. Opna skal síðuna **Grunnstillingarsniðmát**.
+1. Opna skal síðuna **Grunnstillingarsniðmát** .
 2. Valið er **Nýtt** aðgerð.
 3. Reiturinn **Kóti** er fylltur út.
 4. Í reitnum **Töfluauðkenni** skal færa inn töfluna sem þetta sniðmát á við um. Reiturinn **Heiti töflu** útfyllist sjálfkrafa þegar reiturinn **Töflukenni** er stilltur.
 
 ### <a name="to-create-a-data-template-line-manually"></a>Til að stofna gagnasniðmátslínu handvirkt
 
-1. I fyrstu línunni skal velja reitinn **Heiti reits**. Síðan **Reitalisti** sýnir lista með reitum í töflunni.
-2. Veljið reit og smellið á hnappinn **Í lagi**. Fyllt er út í reitinn **Yfirskrift reits** með reitarheiti.
+1. I fyrstu línunni skal velja reitinn **Heiti reits** . Síðan **Reitalisti** sýnir lista með reitum í töflunni.
+2. Veljið reit og smellið á hnappinn **Í lagi** . Fyllt er út í reitinn **Yfirskrift reits** með reitarheiti.
 3. Í reitnum **Sjálfgefið gildi** skal færa inn viðeigandi gildi. Í sumum getur hentað að nota gildi sem ekki er tiltækt í gagnagrunninum. Í því tilviki er hægt að velja gátreitinn **Sleppa tengslaathugun** til að hægt sé að nota gögn án villna.
 
     > [!TIP]  
@@ -94,7 +94,7 @@ Töflukenni, töfluheiti og línur fyrirliggjanda gagnasniðmáta eru sett í n�
     > [!NOTE]
     > Gátreiturinn er einungis til upplýsinga. Enginn viðskiptagrunnur er nauðsynlegur. Til dæmis geta notendur ekki reikningsfært og bókað reikning ef bókunarflokkar hafa ekki verið settir upp. Þar sem bókunarflokka er krafist er hægt að velja gátreitinn **Áskilið** fyrir þessa reiti til að láta notanda fylla þá út og því koma í veg fyrir bókunarvillur síðar.
 5. Í reitnum **Tilvísun** eru færðar inn upplýsingar um reitinn eftir þörfum.
-6. Velja hnappinn **Í lagi**.
+6. Velja hnappinn **Í lagi** .
 
 ## <a name="to-export-to-a-template-in-excel"></a>Að flytja út í sniðmát í Excel
 
@@ -103,7 +103,7 @@ Hægt er að stofna Excel-vinnubók með fljótlegum hætti til að nota sem sni
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarvinnublað** og veldu síðan tengda tengilinn.
 2. Bæta töflu við listann, eða velja fyrirliggjandi töflu. Nánari upplýsingar eru í [Vinna með grunnstillingu fyrirtækis í vinnublaði](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Veldu aðgerðina **Sýna reiti** til að skilgreina reitina úr töflunni sem á að taka með í sniðmátinu.
-4. Veljið aðgerðina **Flytja út í sniðmát**.
+4. Veljið aðgerðina **Flytja út í sniðmát** .
 5. Nefna og vista Excel-skrána. Excel-vinnubókin opnast sjálfkrafa.
 
 Nú er hægt að færa inn gögn um viðskiptavini í Excel-vinnublaðið. Ef margar töflur hafa verið fluttar út verður hver tafla á eigin vinnublaði. Vistið vinnubókina áður en haldið er áfram í næsta skref.
@@ -113,9 +113,9 @@ Nú er hægt að færa inn gögn um viðskiptavini í Excel-vinnublaðið. Ef ma
 
 ## <a name="to-import-from-a-template-in-excel"></a>Til að flytja inn úr sniðmáti í Excel
 
-1. Á síðunni **Grunnstillingarvinnublað** skal velja aðgerðina **Flytja inn úr sniðmáti**.
-2. Fara í vinnublað sniðmáts sem notandi bjó til og velja síðan aðgerðina **Opna**.
-3. Til að bæta samansöfnuðum viðskiptamannagögnum við gagnagrunninn skal velja aðgerðina **Nota gögn**.
+1. Á síðunni **Grunnstillingarvinnublað** skal velja aðgerðina **Flytja inn úr sniðmáti** .
+2. Fara í vinnublað sniðmáts sem notandi bjó til og velja síðan aðgerðina **Opna** .
+3. Til að bæta samansöfnuðum viðskiptamannagögnum við gagnagrunninn skal velja aðgerðina **Nota gögn** .
 
 Þegar gögnum er jafnað úr sniðmáti í Excel á töflu sem hefur einnig skilgreiningarsniðmát tengt við sig í skilgreiningarpakkanum eru sjálfgefnu reitsgildin úr grunnstillingarsniðmátinu líka jöfnuð.
 
@@ -126,14 +126,14 @@ Hvers kyns skrá með gögnum sem eru notuð á þennan hátt er lokin, vegna þ
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Til að búa til færslu úr grunnstillingarsniðmáti
 
-Hægt að nota skipulag gagna sem kemur fram í gagnasniðmátum til að umbreyta upplýsingum í skráningar í gagnagrunninum, eina af annarri. Til þess er notuð aðgerðin **Stofna tilvik**. Þetta er smáútgáfa af gagnaflutningsferlinu og getur verið gagnleg við gerð frumgerða eða meðhöndlun minni gagnastofnunarverkhluta.  
+Hægt að nota skipulag gagna sem kemur fram í gagnasniðmátum til að umbreyta upplýsingum í skráningar í gagnagrunninum, eina af annarri. Til þess er notuð aðgerðin **Stofna tilvik** . Þetta er smáútgáfa af gagnaflutningsferlinu og getur verið gagnleg við gerð frumgerða eða meðhöndlun minni gagnastofnunarverkhluta.  
 
 Eftirfarandi skref sýna hvernig eigi að stofna birgðaspjald úr vörugagnasniðmáti. Hægt er að stofna færslu frá hvaða gagnasniðmáti sem er með sömu aðferð.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Grunnstillingarsniðmát** og veldu síðan tengda tengilinn.  
-2. Velja skal sniðmátið **Vara** og síðan velja aðgerðina **Breyta**. Nánari upplýsingar eru í [Að stofna gagnasniðmát](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
-3. Veljið aðgerðina **Stofna tilvik**. Birgðaspjald er stofnað.  
-4. Velja hnappinn **Í lagi**.  
+2. Velja skal sniðmátið **Vara** og síðan velja aðgerðina **Breyta** . Nánari upplýsingar eru í [Að stofna gagnasniðmát](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
+3. Veljið aðgerðina **Stofna tilvik** . Birgðaspjald er stofnað.  
+4. Velja hnappinn **Í lagi** .  
 5. Til að yfirfara nýja birgðaspjaldið veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** og veldu síðan tengda tengilinn.  
 6. Opna skal nýja birgðaspjaldið.  
 7. Útvíkka mismunandi flýtiflipa og staðfesta að upplýsingarnar voru rétt stofnaðar á þeim.  
@@ -148,8 +148,8 @@ Hægt er að setja inn gagnasniðmát við allar skrár sem er í [!INCLUDE[d365
 Eftirfarandi ferli byggist á nýju viðskiptamannaspjaldi.  
 
 1. Stofna viðskiptavin. Frekari upplýsingar eru í [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md).
-2. Á síðunni **Viðskiptamannaspjald** skal velja aðgerðina **Nota sniðmát**.  
-3. Á síðunni **Viðskiptamannasniðmát** skal velja eitt af sniðmátunum og síðan smella á hnappinn **Í lagi**.  
+2. Á síðunni **Viðskiptamannaspjald** skal velja aðgerðina **Nota sniðmát** .  
+3. Á síðunni **Viðskiptamannasniðmát** skal velja eitt af sniðmátunum og síðan smella á hnappinn **Í lagi** .  
 
 Sjálfgefin gildi í völdu viðskiptamannasniðmáti eru sett inn á viðskiptamannaspjaldið.
 

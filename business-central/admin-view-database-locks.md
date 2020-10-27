@@ -1,23 +1,22 @@
 ---
 title: Skoða gagnagrunnslása
+description: Kynntu þér hvernig hægt er að skoða upplýsingar um alla gagnagrunnslása beint úr viðmóti biðlara í Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: abee0f31d66f648f4b0be567d8599b31c536a193
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 6880ffa9a2ab42c1af7c22f9cace64697c9f905b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324103"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922318"
 ---
 # <a name="viewing-database-locks"></a>Gagnagrunnslásar skoðaðir
-
-## <a name="about-locks"></a>Um lása
 
 Gagnagrunnslæsing stjórnar aðgangi margra notenda að sömu gögnunum samtímis. Til að verja færslu gegn öðrum færslum sem breyta sömu gögnunum, setur fyrsta færslan lás á gögnin. Lásin helst á þar til færslunni er lokið.
 

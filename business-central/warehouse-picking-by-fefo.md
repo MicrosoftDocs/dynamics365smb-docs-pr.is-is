@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 721b980f8c52e07356fe47bc69aaec90c7fc185f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a34af93c4aae2d87d17fcad4f0526783a01e8b64
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784922"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915944"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Virkja Vörutínsla eftir FEFO
 Fyrst-fyrnt-fyrst-út (FEFO) er röðunaraðferð sem tryggir að elstu vörurnar, sem hafa elstu lokadagsetningarnar, eru tíndar fyrst.  
@@ -23,11 +23,11 @@ Fyrst-fyrnt-fyrst-út (FEFO) er röðunaraðferð sem tryggir að elstu vörurna
  Þessi aðgerð virkar aðeins ef eftirfarandi skilyrði eru uppfyllt:  
 
 -   Varan verður að hafa rað-/lotunúmer.  
--   Í vörurakningarkóðauppsetningu vörunnar verður að velja reitinn **Vöruhúsarakning bundin við raðnúmer** eða reitinn **Vöruhúsarakning bundin við lotnúmer**.  
+-   Í vörurakningarkóðauppsetningu vörunnar verður að velja reitinn **Vöruhúsarakning bundin við raðnúmer** eða reitinn **Vöruhúsarakning bundin við lotnúmer** .  
 -   Vöruna þarf að bóka á birgðir með lokadegi.  
 -   Á birgðageymsluspjaldinu verður reiturinn **Krefjast tínslu** að vera valinn.  
 -   Á birgðageymsluspjaldinu verður gátreiturinn **Tína eftir FEFO** að vera valinn.  
--   Á birgðageymsluspjaldinu þarf að velja gátreitinn **Hólf áskilið**.  
+-   Á birgðageymsluspjaldinu þarf að velja gátreitinn **Hólf áskilið** .  
 
  Þegar öll skilyrðin eru uppfyllt er rað-/lotunúmerum til tínslu raðað með þá elstu fyrst í öllum tínslum og hreyfingum, fyrir utan vörur sem nota raðnúmers- eða lotubundna rakningu.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79416d72d8ded71025270b4408e8425e0be2c827
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 953be4038a65917e10bca1921d9ff4f80f584b28
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781161"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920773"
 ---
 # <a name="acquire-fixed-assets"></a>Komast yfir eignir
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Afskriftabók þarf að setja upp og tengja hverri eign áður en hægt er að komast yfir hana.
@@ -33,7 +33,7 @@ Eftirfarandi ferli sýnir hvernig á að stofna eign og komast svo yfir hana me�
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir** og veldu síðan tengda tengilinn.  
 2. Velja sem **Nýtt** aðgerð og síðan fyllt út í reitina á **Almenna** Flýtiflipanum eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **afskriftabók**. Þetta skref úthlutar afskriftabók á eigninni.  
+3. Fyllt er út í reiti eftir því sem við á í flýtiflipanum **afskriftabók** . Þetta skref úthlutar afskriftabók á eigninni.  
 4. Ef það þarf að úthluta fleiri en einni afskriftabók á eign skal velja **bæta Við Fleiri Afskriftabækur** aðgerð. Frekari upplýsingar er að finna í [Úthluta afskriftarbók á eign](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
 
     Þegar allir reitir sem þarf til að komast yfir eign eru fylltir út, birtist **hægt er að komast yfir eignina. Komast yfir** tilkynning efst á síðunni.
@@ -43,12 +43,12 @@ Eftirfarandi ferli sýnir hvernig á að stofna eign og komast svo yfir hana me�
 > [!NOTE]  
 >   Einnig má bóka kaupverð sem lánsfé. Í því tilfelli skal muna að gildið í reitnum **kaupverð með VSK** á að vera með mínusmerki til að tilgreina lánið.
 
-Þegar valið er **Ljúka**, er fyllt í reitinn **Bókfært virði** á síðunni **Eignaspjald** sem gefur til kynna að eignin var keypt á tilgreindu kaupverði.  
+Þegar valið er **Ljúka** , er fyllt í reitinn **Bókfært virði** á síðunni **Eignaspjald** sem gefur til kynna að eignin var keypt á tilgreindu kaupverði.  
 
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Uppsetning íhlutalista fyrir aðaleignir:
 Hægt er að flokka eignir í aðaleignir og íhluti þeirra. Í framleiðslutæki gætu til dæmis verið margir hlutir sem þarf að flokka á þennan hátt.  
 
-Setja verður bæði aðaleignina og íhluti hennar upp sem einstök eignaspjöld. Þegar íhlutalistinn hefur verið settur upp fyllir [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa í reitina**Aðaleign/íhlutur** og **Íhlutir aðaleignar** á eignarspjöldunum.
+Setja verður bæði aðaleignina og íhluti hennar upp sem einstök eignaspjöld. Þegar íhlutalistinn hefur verið settur upp fyllir [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa í reitina **Aðaleign/íhlutur** og **Íhlutir aðaleignar** á eignarspjöldunum.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir** og veldu síðan tengda tengilinn.
 2. Valin er eignin sem er aðaleignin er valin síðan **íhlutir aðaleignar** aðgerð.
@@ -59,13 +59,13 @@ Setja verður bæði aðaleignina og íhluti hennar upp sem einstök eignaspjöl
 7. Valinn er **Leyfa Bókun á Aðaleignir** gátreitinn.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Bókun eignakaupa handvirkt með fjárhagsbók eigna.
-Eftirfarandi ferli sýnir hvernig á að komast yfir eign handvirkt með því að stofna og bóka línur á síðunni **Fjárhagsbók eigna**. Einnig má komast yfir eign sjálfkrafa með því að nota síðuna **aðstoð við eignakaup**. Frekari upplýsingar er að finna í skrefi 5 í [Stofna eign og komast yfir hana sjálfkrafa](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically).
+Eftirfarandi ferli sýnir hvernig á að komast yfir eign handvirkt með því að stofna og bóka línur á síðunni **Fjárhagsbók eigna** . Einnig má komast yfir eign sjálfkrafa með því að nota síðuna **aðstoð við eignakaup** . Frekari upplýsingar er að finna í skrefi 5 í [Stofna eign og komast yfir hana sjálfkrafa](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically).
 
 > [!NOTE]  
 >   Einnig má bóka kaupverð sem lánsfé. Í því tilfelli muna sem gildið í reitnum **upphæð** að vera með mínusmerki til að tilgreina kredit.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignafjárhagsbækur** og veldu síðan tengda tengilinn.
-2. Á síðunni **Fjárhagsbók eigna** í reitnum **Eignabókunartegund** er valið **Kaupverð**.
+2. Á síðunni **Fjárhagsbók eigna** í reitnum **Eignabókunartegund** er valið **Kaupverð** .
 3. Fyllið inn í eftirstandandi reiti eftir þörfum.
 4. Valið er **Bóka** aðgerðin.  
 

@@ -4,14 +4,14 @@ description: Kynntu þér hvernig hægt er að leita úrræða og finna lausnir 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 07/21/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62a60610b565cc37c812023dd2bea08c3f5c8834
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 6e261b1ec22f24638b29ec28531008362475a484
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611722"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916627"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Viðvaranir og villuboð í Dynamics 365 Business Central
 
@@ -19,7 +19,7 @@ ms.locfileid: "3611722"
 
 ## <a name="in-product-user-assistance"></a>Notendaaðstoð í vörunni
 
-Sjálfgefna útgáfan af [!INCLUDE [prodshort](includes/prodshort.md)] inniheldur lýsingar fyrir flesta reiti, dálka og aðgerðir sem hægt er að opna þegar heitið er valið. Ásamt lýsandi myndatextum og leiðbeinandi texta, eru þessar ábendingar, eða skýringartextar, sem stendur okkar innleiðing af *innfelldri notendaaðstoð*, sem er mikilvægur þáttur í hugbúnaði í dag.  
+Sjálfgefna útgáfan af [!INCLUDE [prodshort](includes/prodshort.md)] inniheldur lýsingar fyrir flesta reiti, dálka og aðgerðir sem hægt er að opna þegar heitið er valið. Ásamt lýsandi myndatextum og leiðbeinandi texta, eru þessar ábendingar, eða skýringartextar, sem stendur okkar innleiðing af *innfelldri notendaaðstoð* , sem er mikilvægur þáttur í hugbúnaði í dag.  
 
 Ef spurningar vakna um reit eða annan þátt notandaviðmótsins, skal velja heitið og stutt lýsing birtist. Veldu tengilinn *Frekari upplýsingar* ef þetta nægir ekki.  
 

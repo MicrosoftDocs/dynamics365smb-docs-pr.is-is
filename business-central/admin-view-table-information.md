@@ -1,19 +1,20 @@
 ---
 title: Skoða töfluupplýsingar
+description: Kynntu þér hvernig hægt er að skoða upplýsingar um gagnagrunnstöflur beint úr viðmóti biðlara í Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: de93063a60e6b64405b1491a67489c8bfa4657ad
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: 72e220aa310515c665ce85bd43f4ebd3aac157d0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275319"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922268"
 ---
 # <a name="viewing-table-information"></a>Skoðun töfluupplýsinga
 
@@ -33,7 +34,7 @@ Eftirfarandi tafla lýsir upplýsingunum sem eru veittar fyrir hverja töflu:
 |Töfluheiti|Heiti töflunnar.|
 |Nr. töflu.|Kenni töflunnar|
 |Fj. fjöldi færslna|Heildarfjöldi færslna sem eru vistaðar í töflunni.|
-|Stærð færslu|Meðalstærð færslu í KB/færslu. Gildið er reiknað með eftirfarandi formúlu: 1024(stærð)/(fjöldi færslna). |
+|Stærð færslu|Meðalstærð færslu í KB/færslu. Gildið er reiknað með eftirfarandi formúlu: 1024(Size)/(No. færslna). |
 
 ## <a name="see-also"></a>Sjá einnig
 

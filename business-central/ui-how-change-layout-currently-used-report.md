@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9dc74627139ceed4f475686d57b64737e7e42b47
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5a062f9a18b6c0e965a06a7d4b18ff1e983f05db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789351"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916044"
 ---
 # <a name="change-the-current-report-layout"></a>Breyta núverandi skýrsluútliti
 Skýrsla getur verið sett upp með fleiri en eitt skýrsluútliti, sem þú getur svo skipt milli eins og þörf er á.
@@ -34,9 +34,9 @@ Með hliðsjón af útlitinu sem er í boði fyrir skýrslu er hægt að velja a
    Síðan **Val á útliti skýrslu** sýnir allar skýrslur sem eru í boði fyrir fyrirtæki sem er tiltekið í reitnum **Fyrirtæki** efst á síðunni. Reiturinn **Valið útlit** tilgreinir útlitið sem er verið að nota á skýrsluna.
 2. Stilltu reitinn **Fyrirtæki** efst á síðunni á fyrirtækið með skýrsluna.
 3. Til að breyta útliti sem er notað í skýrslu skal velja röðina fyrir skýrsluna og stilla svo **Valið útlit** reitinn á einn af eftirfarandi valkostum:
-   * **RDLC (innbyggt)**, notar innbyggt RDLC skýrsluútlit í skýrslunni.
-   * **Word (innbyggt)**, notar innbyggt Word skýrsluútlit í skýrslunni.
-   * **Sérsniðið**, notar sérsniðið útlit í skýrslu.  
+   * **RDLC (innbyggt)** , notar innbyggt RDLC skýrsluútlit í skýrslunni.
+   * **Word (innbyggt)** , notar innbyggt Word skýrsluútlit í skýrslunni.
+   * **Sérsniðið** , notar sérsniðið útlit í skýrslu.  
 
 > [!NOTE]
 > Ef þú velur skýrsluútlit af gerðinni **RDLC (innbyggt)** eða **Word (innbyggt)** og færð villuboð um að skýrslan vilji ekki útlit af sérstakri gerð, verðurðu að velja annað útlit eða búa til sérsniðin skýrsla af þeirri gerð sem þú vilt nota. Sjá næsta ferli..
@@ -48,8 +48,8 @@ Einnig gæti þurft að breyta sérsniðnu útliti í notkun. Nánari upplýsing
 
 Öll sérsniðin skýrsluútlit sem eru til fyrir skýrsluútlit í fyrirtæki eru talin upp á síðunni **Sérsniðin skýrsluútlit** . Á síðunni **Val á útliti skýrslu** er hægt að sjá hvaða sérsniðnu útlit eru í boði fyrir hverja skýrslu í gátreitnum **Sérstillt útlit** .
 
-1. Á síðunni **Val á útliti skýrslu**, í línunni fyrir útlit skýrslunnar sem þú vilt breyta skaltu velja uppflettihnappinn í reitnum **Lýsing á sérstilltu útliti** .
-2. Á síðunni **Sérsniðin skýrsluútlit** skal velja línuna yfir sérsniðna útlitið sem á að nota og veljið svo hnappinn **Í lagi**.
+1. Á síðunni **Val á útliti skýrslu** , í línunni fyrir útlit skýrslunnar sem þú vilt breyta skaltu velja uppflettihnappinn í reitnum **Lýsing á sérstilltu útliti** .
+2. Á síðunni **Sérsniðin skýrsluútlit** skal velja línuna yfir sérsniðna útlitið sem á að nota og veljið svo hnappinn **Í lagi** .
 
 Heiti á völdu sérsniðnu útliti er nú sýnt í reitnum **Sérstillt útlit** og verður notað næst þegar skýrslan eða skjalið er forskoðað, prentað eða sent.
 

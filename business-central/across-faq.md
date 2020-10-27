@@ -4,15 +4,15 @@ description: Svarar algengum spurningum um hvernig á að skrá sig fyrir eða k
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 07/21/2020
+ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 57e16c820da7879d92223050979b6f9c6a770644
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611585"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918102"
 ---
 # <a name="frequently-asked-questions"></a>Algengar spurningar
 
@@ -59,11 +59,11 @@ Viðbótarefni er veitt af [!INCLUDE[prodshort](includes/prodshort.md)]-samféla
 Nánari upplýsingar er að finna í hlutanum [Hjálp og notendaþjónusta](product-help-and-support.md) og [Hvernig finn ég endursöluaðila?](#findpartner).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Af hverju lýsir Hjálp virkni sem ég hef ekki aðgang að?
-Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt á **Nauðsynleg**, þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
+Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt á **Nauðsynleg** , þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
 ## <a name="where-is-the-save-button"></a>Hvar er hnappurinn til að vista?
 
-Enginn *vista* hnappur á síðunum eins og í öðrum forritum sem þú hugsanlega kannast við. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar gerðar eru breytingar á reit og farið er í annan reit sést **Vistar** efst í hægra horni síðunnar, sem breytist fljótt í **Vistað** ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað**.
+Enginn *vista* hnappur á síðunum eins og í öðrum forritum sem þú hugsanlega kannast við. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar gerðar eru breytingar á reit og farið er í annan reit sést **Vistar** efst í hægra horni síðunnar, sem breytist fljótt í **Vistað** ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað** .
 
 ## <a name="what-email-address-can-i-use-with-d365fin"></a><a name="email"></a>Hvaða netfang get ég notað með [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] krefst að notandi noti vinnu eða skóla netfang til að nýskrá. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.  
@@ -72,15 +72,15 @@ Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gef
 
 Ef ætlunin er að virkja [!INCLUDE[d365fin](includes/d365fin_md.md)] á staðnum þá er hægt að nota aðrar sannvottunaraðferðir. Frekari upplýsingar er að finna í [Uppsetning á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="do-i-have-to-buy-office-365"></a>Þarf ég að kaupa Office 365
-Númer Ef notandi vill upplifa [!INCLUDE[d365fin](includes/d365fin_md.md)] að fullu samþætt við Office 365 er hægt að skrá sig í 1 mánaðar ókeypis prufutímabil fyrir Office 365 [hér](https://products.office.com/try).  
+## <a name="do-i-have-to-buy-microsoft-365"></a>Þarf ég að kaupa Microsoft 365
+Fj. Ef notandi vill upplifa [!INCLUDE[d365fin](includes/d365fin_md.md)] sem að fullu samþætt við Microsoft 365 er hægt að skrá sig í 1 mánaðar ókeypis prufutímabil fyrir Office 365 [hér](https://products.office.com/try).  
 
-Ef reikningurinn sem þú skráir þig með er ekki Office 365-vinnureikningur (t.d. joe@mysolution.com) og þú ert með Office 365-áskrift, þá geturðu tengt lénið þitt (*mysolution.com*) við Office 365-áskriftina. Nánari upplýsingar er að finna í [Fá hjálp við Office 365 lén](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Ef reikningurinn sem þú skráir þig með er ekki Microsoft 365-vinnureikningur (t.d. joe@mysolution.com) og þú ert með Microsoft 365-áskrift, þá geturðu tengt lénið þitt ( *mysolution.com* ) við Microsoft 365-áskriftina. Nánari upplýsingar er að finna í [Fá hjálp við Microsoft 365 lén](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
-Ef þú ert ekki með Office 365 áskrift og þú vilt ekki kaupa hana, þá þegar þú skráir þig, úthlutum við nýju Azure Active Directory leigjanda fyrir þig þannig að þú hafir aðgang að Azure-gáttinni þar sem þú hefur aðgang að ítarlegum stjórnunarverkfærum.  
+Ef þú ert ekki með Microsoft 365 áskrift og þú vilt ekki kaupa hana, þá þegar þú skráir þig, úthlutum við nýju Azure Active Directory leigjanda fyrir þig þannig að þú hafir aðgang að Azure-gáttinni þar sem þú hefur aðgang að ítarlegum stjórnunarverkfærum.  
 
-## <a name="what-is-the-integration-with-office-365-about"></a>Hvað er samþættingin við Office 365 um?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu er fullsamþætt viðOffice 365 svo þú getur flett frjálslega á milli Office 365 forrita og [!INCLUDE[d365fin](includes/d365fin_md.md)] með forritaræsingu. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að opna gögn í Excel, prenta skýrslur með Word, og notandi getur unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögn í Outlook, til dæmis. Nánari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnboxið þitt í Outlook](admin-outlook.md).  
+## <a name="what-is-the-integration-with-microsoft-365-about"></a>Hvað er Samþættingin við Microsoft 365 um?
+[!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu er fullsamþætt við Microsoft 365 svo þú getur flett frjálslega á milli Microsoft 365 forrita og [!INCLUDE[d365fin](includes/d365fin_md.md)] með forritaræsingu. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að opna gögn í Excel, prenta skýrslur með Word, og notandi getur unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]-gögn í Outlook, til dæmis. Nánari upplýsingar, sjá [Nota [!INCLUDE[d365fin](includes/d365fin_md.md)] sem viðskiptainnboxið þitt í Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Get ég framlengt 30 daga prufutímabilið fyrir „Nýtt Fyrirtæki“?
 Já. Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn. Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum. Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum. Þú getur lengt prufutímann einu sinni sjálf/ur. Eftir það getur Microsoft samstarfsaðili lengt hann í aðra 30 daga. Frekari upplýsingar er að finna í [Framlengja prufutímabilinu](admin-extend-trial.md).
@@ -97,7 +97,7 @@ Frekari upplýsingar um hvernig má finna endursöluaðila eru í [Hvernig finn 
 Já, en gögnum getur verið eytt eða þau varðveitt, allt eftir því hvernig notandi skráði sig fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar, sjá [Hætta við [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Er hægt að nota fjölþætta sannvottun?
-Auðvitað. Ef þú gerir það gætirðu þurft lykilorð forrits til að geta sent tölvupóst. Lykilorð forrits gefa forriti eða tæki aðgang að netfanginu þínu. Skrefin til að fá aðgangsorð fyrir forrit eru breytileg eftir tölvupóstsveitunni þinni. Frekari upplýsingar er að finna í hjálp þjónustuaðila þíns. Til dæmis, ef þú notar Outlook, skaltu skoða [Búa til aðgangsorð fyrir forrit fyrir Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Auðvitað. Ef þú gerir það gætirðu þurft lykilorð forrits til að geta sent tölvupóst. Lykilorð forrits gefa forriti eða tæki aðgang að netfanginu þínu. Skrefin til að fá aðgangsorð fyrir forrit eru breytileg eftir tölvupóstsveitunni þinni. Frekari upplýsingar er að finna í hjálp þjónustuaðila þíns. Til dæmis, ef þú ert að nota Outlook skaltu skoða [Búa til forritsaðgangsorð fyrir Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Hvernig finn ég endursöluaðila?
 

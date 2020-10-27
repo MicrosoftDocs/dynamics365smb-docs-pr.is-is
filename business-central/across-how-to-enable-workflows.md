@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 185e35e9b9f44e8cc18b10adf0dc359c3dce1ef0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b04f9edd37c96efb9ee6b215d85335c743de6214
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784233"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916319"
 ---
 # <a name="enable-workflows"></a>Virkja verkflæði
 Þegar verkflæði hefur verið stofnað og það á örugglega að ræsast verður að virkja verkflæðið.  
@@ -25,7 +25,7 @@ ms.locfileid: "3784233"
 ## <a name="to-enable-a-workflow"></a>Að virkja verkflæði  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkflæði** og veldu síðan tengda tengilinn.  
 2.  Opnið verkflæði sem á að virkja.  
-3.  Á síðunni **Verkflæði** skal velja gátreitinn **Virkjað**.  
+3.  Á síðunni **Verkflæði** skal velja gátreitinn **Virkjað** .  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Búa til verkflæði](across-how-to-create-workflows.md)   

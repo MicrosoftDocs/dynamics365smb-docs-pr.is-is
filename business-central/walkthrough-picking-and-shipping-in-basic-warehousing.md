@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d607037d76f0778aa0f1037ac9540cfd3d497dbd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786822"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918489"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss
 
@@ -62,9 +62,9 @@ Til að ljúka þessari kynningu þarf:
 - Til að gera þig að starfsmanni vöruhúss í SILVER staðsetningu skal fylgja eftirfarandi skrefum:  
 
   1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsmenn vöruhúss** og veldu síðan tengda tengilinn.  
-  2. Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur**.  
+  2. Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur** .  
   3. Í reitnum **Staðsetningarkóði** er fært inn SILVER.  
-  4. Veljið reitinn **Sjálfgefið**.  
+  4. Veljið reitinn **Sjálfgefið** .  
 
 - Gerið vöru LS-81 tiltæka í SILFUR staðsetningu á eftirfarandi hátt:  
 
@@ -76,7 +76,7 @@ Til að ljúka þessari kynningu þarf:
         |Auking|LS-81|SILVER|S-01-0001|20|  
         |Auking|LS-81|SILVER|S-01-0002|20|  
 
-  3. Valið er **bóka** aðgerð og síðan hnappinn **Já**.  
+  3. Valið er **bóka** aðgerð og síðan hnappinn **Já** .  
 
 ## <a name="story"></a>Ferill
 
@@ -90,7 +90,7 @@ Uppsetning síðunnar **Birgðageymsluspjald** skilgreinir vöruhúsaflæði fyr
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
 2. SILVER-staðsetningarspjaldið er opnað.  
-3. Á flipanum **Vöruhús** skal velja gátreitinn **Krefjast tínslu**.  
+3. Á flipanum **Vöruhús** skal velja gátreitinn **Krefjast tínslu** .  
 
 ## <a name="creating-the-sales-order"></a>Stofna sölupöntunina
 
@@ -119,17 +119,17 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
 ### <a name="to-pick-and-ship-items"></a>Til að tína og senda vörur
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínslur** og veldu síðan tengda tengilinn.  
-2. Valið er aðgerðin **Nýtt**.  
+2. Valið er aðgerðin **Nýtt** .  
 
     Gakktu úr skugga um að **Nr.** reiturinn á flýtiflipanum **Almennt** er fylltur út.
-3. Veljið reitinn **Upprunaskjal** og svo **Sölupöntun**.  
-4. Veldu reitinn **Upprunanr.**, velja línuna fyrir sölu til viðskiptamanns 10000 og skal velja svo hnappinn **Í lagi**.  
+3. Veljið reitinn **Upprunaskjal** og svo **Sölupöntun** .  
+4. Veldu reitinn **Upprunanr.** , velja línuna fyrir sölu til viðskiptamanns 10000 og skal velja svo hnappinn **Í lagi** .  
 
     Að öðrum kosti, valið er **Sækja upprunaskjal** aðgerð og síðan sölupöntun.  
-5. Velja aðgerðina **Færa sjálfkr. magn til afgr.**.  
+5. Velja aðgerðina **Færa sjálfkr. magn til afgr.** .  
 
     Að öðrum kosti, í reitnum **Magn til afgreiðslu** er fært inn 10 og 20 í birgðatínslulínurnar tvær, í þeirri röð.  
-6. Veldu aðgerðina **Bóka**, veldu **Afhenda** og veldu síðan **Í lagi** hnappinn.  
+6. Veldu aðgerðina **Bóka** , veldu **Afhenda** og veldu síðan **Í lagi** hnappinn.  
 
     Tínsla hátalaranna 30 úr hólfum S-01-0001 og S-01-0002 er nú skráð og neikvæð birgðafærsla er stofnuð sem endurspeglar hina bókuðu söluafhendingu.  
 

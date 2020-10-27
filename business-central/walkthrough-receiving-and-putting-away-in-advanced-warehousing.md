@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a54bcb1131e2b5df0fd98ece66701c9f601ce41
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c200d178a00716de99bd88475346ff4396c9bebf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786747"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918389"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Kynning: Móttaka og Frágangur í ítarlegri grunngerð vöruhúss
 
@@ -59,9 +59,9 @@ Til að ljúka þessari kynningu þarf:
 -   Notandi verður að starfsmanni vöruhúss í hvítri birgðageymslu á eftirfarandi hátt:  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsastarfsmenn** og veldu síðan tengda tengilinn.  
-2.  Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur**.  
+2.  Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur** .  
 3.  Í reitnum **Birgðageymslu kóti** færið inn HVÍTT.  
-4.  Veljið reitinn **Sjálfgefið**.  
+4.  Veljið reitinn **Sjálfgefið** .  
 
 ## <a name="story"></a>Ferill  
 Ellen, stjórnandi vöruhúss í CRONUS International Ltd. stofnar tvær innkaupapantanir fyrir fylgihlutavörur frá lánardrottnum 10000 og 20000 sem afhenda á til WHITE vöruhúss. Þegar vörur eru afhentar í vöruhúsið notar Sammy, sem ber ábyrgð á móttöku vara frá lánardrottnum 10000 og 20000, afmörkun til að stofna móttökulínur fyrir innkaupapantanir sem koma frá tveimur lánardrottnum. Sammi skráir vörurnar sem mótteknar í einni vöruhúsamóttöku og gerir þær tiltækar til sölu eða annarrar ráðstöfunar. Jón í vöruhúsinu tekur hlutina úr móttökuhólfinu og gengur frá þeim. Hann setur allar einingarnar í sjálfgefið hólf, nema 40 af 100 mótteknum lömum sem hann flytur í samsetningardeildina með því að skipta frágangslínunni. Þegar John skráir fráganginn er hólfainnihald uppfært og vörurnar gerðar tiltækar til tínslu úr vöruhúsinu.  
@@ -77,7 +77,7 @@ Uppsetning síðunnar **Birgðageymsluspjald** skilgreinir vöruhúsaflæði fyr
 
     Þetta þýðir að birgðageymslan er sett upp fyrir hæsta flækjustig, eins og sést á því að allir gátreitir fyrir vöruhúsaafgreiðslu eru valdir.  
 
-4.  Athugasemd á flýtiflipanum **Hólf** um að hólf séu tilgreind í reitunum **Hólfkóti móttöku** og **Hólfkóti afhendingar**.  
+4.  Athugasemd á flýtiflipanum **Hólf** um að hólf séu tilgreind í reitunum **Hólfkóti móttöku** og **Hólfkóti afhendingar** .  
 
 Þetta þýðir að þegar vöruhúsamóttaka er stofnuð er þessi hólfkóti sjálfgefið afritaður í haus vöruhúsamóttökuskjalsins og í línur vöruhúsafrágangsins sem verður til.  
 
@@ -121,13 +121,13 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 2.  Valið er **Nýtt** aðgerð.  
 3.  Í reitnum **Birgðageymslu kóti** færið inn HVÍTT.  
 4.  Velja skal **Nota afmarkanir til að sækja uppr.skjöl.** aðgerðina.  
-5.  Í reitnum **Kóti** skal færa inn **AUKABÚNAÐUR**.  
-6.  Í reitnum **Lýsing** eru slegnir inn **Lánardrottnar 10000 og 20000**.  
-7.  Velja aðgerðina **Breyta**.  
-8.  Í flýtiflipanum **Innkaup** í reitinn **Kaupa-frá lánardrottinn nr. Afmörkun** er fært inn **10000&#124;20000**.  
-9. Velja skal aðgerðina **Keyra**. Fyllt er út í vöruhúsamóttöku með fjórum línum sem standa fyrir innkaupapantanalínur þeirra lánardrottna sem hafa verið tilgreindir. Reiturin **Magn til móttöku** er fylltur vegna þess að þú valdir ekki gátreitinn **Ekki fylla magn til afgreiðslu** á síðunni **Afmarkanir til að sækja upprunaskjöl**.  
+5.  Í reitnum **Kóti** skal færa inn **AUKABÚNAÐUR** .  
+6.  Í reitnum **Lýsing** eru slegnir inn **Lánardrottnar 10000 og 20000** .  
+7.  Velja aðgerðina **Breyta** .  
+8.  Í flýtiflipanum **Innkaup** í reitinn **Kaupa-frá lánardrottinn nr. Afmörkun** er fært inn **10000&#124;20000** .  
+9. Velja skal aðgerðina **Keyra** . Fyllt er út í vöruhúsamóttöku með fjórum línum sem standa fyrir innkaupapantanalínur þeirra lánardrottna sem hafa verið tilgreindir. Reiturin **Magn til móttöku** er fylltur vegna þess að þú valdir ekki gátreitinn **Ekki fylla magn til afgreiðslu** á síðunni **Afmarkanir til að sækja upprunaskjöl** .  
 10. Ef ætlunin er að nota síu eins og lýst var fyrr í þessum hluta skal velja **Sækja upprunaskjal** aðgerðina og velja svo innkaupapantanir frá viðkomandi lánardrottnum.  
-11. Veljið **Bóka móttöku** og svo hnappinn **Já**.  
+11. Veljið **Bóka móttöku** og svo hnappinn **Já** .  
 
     Jákvæðar birgðafærslur eru stofnaðar og sýna bókaðar innkaupamóttökur fylgihluta frá lánardrottnum 10000 og 20000 og vörurnar eru tilbúnar til frágangs í móttökuhólfi vöruhússins.  
 
@@ -136,7 +136,7 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 
 ### <a name="to-put-the-items-away"></a>Til að ganga frá vörunum  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Frágangur** og veldu síðan tengda tengilinn.  
-2.  Veldu eina frágangsskjal vöruhúss á listanum og veldu svo aðgerðina **Breyta**.  
+2.  Veldu eina frágangsskjal vöruhúss á listanum og veldu svo aðgerðina **Breyta** .  
 
     Vöruhúsafrágangsskjölin opnast með átta Taka- eða Setja-línum fyrir innkaupapöntunarlínurnar fjórar.
 
@@ -144,12 +144,12 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 
 3.  Veldu aðra línuna í **Frágangur vöruhúss** síðunni, Setja-línuna fyrir vöru 70200.  
 4.  Breyttu gildinu úr 100 í 60 í **Magn til afgreiðslu** reitnum.  
-5.  Á flýtiflipanum **Línur** skal velja **Aðgerðir** og síðan **Skipta línu**. Ný lína er sett inn fyrir vöru 70200 með 40 í **Magn til afgreiðslu** reitnum.  
-6.  Í reitinn **Hólfkóti** skal færa inn W-02-0001. Sjálfkrafa er fyllt út í reitinn **Kóti þjónustusvæðis**.  
+5.  Á flýtiflipanum **Línur** skal velja **Aðgerðir** og síðan **Skipta línu** . Ný lína er sett inn fyrir vöru 70200 með 40 í **Magn til afgreiðslu** reitnum.  
+6.  Í reitinn **Hólfkóti** skal færa inn W-02-0001. Sjálfkrafa er fyllt út í reitinn **Kóti þjónustusvæðis** .  
 
     Næst skal skrá fráganginn.  
 
-7.  Veljið aðgerðina **Skrá frágang** og svo hnappinn **Já**.  
+7.  Veljið aðgerðina **Skrá frágang** og svo hnappinn **Já** .  
 
     Gengið er frá mótteknum fylgihlutum í sjálfgefnum hólfum varanna og 40 lamir eru færðar í samsetningardeild. Nú er hægt að tína mótteknar vörur fyrir innri eftirspurn, svo sem samsetningarpantanir, eða ytri eftirspurn, svo sem söluafhendingar.  
 

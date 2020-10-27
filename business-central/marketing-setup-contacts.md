@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82b5ec1e1be1cf39b2b1f0c55cefbedc259a0d41
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3096bdcdf7ed6570e28d0e636b7dc8f1b28113c4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781536"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916069"
 ---
 # <a name="set-up-contacts"></a>Uppsetning tengiliða
 Þegar tengiliðir eru stofnaðir má færa inn nákvæmar upplýsingar, eins og þær starfsgreinar sem tengiliðirnir tilheyra og viðskiptatengsl við tengiliðina.
@@ -30,9 +30,9 @@ Með uppsetningu þessara upplýsinga eykst skipulag við stofnun tengiliða, og
 Starfsgreinahópar eru notaðir til að tilgreina tegund starfsgreinar sem tengiliðirnir tilheyra, til dæmis smásöluaðilar eða bílgreinaiðnaðurinn.
 
 > [!NOTE]
-> Þetta er eingöngu mögulegt fyrir tengiliði af gerðinni **Fyrirtæki**.
+> Þetta er eingöngu mögulegt fyrir tengiliði af gerðinni **Fyrirtæki** .
 
-Kóði starfsgreinarhópsins skilgreinir tegund eða flokk hópsins, til dæmis ADVERT fyrir auglýsingar eða Press fyrir sjónvarp og útvarp. Hægt er að hafa nokkrar starfsgreinarhópakóða. Til að skilgreina starfsgreinarhópa skal nota síðuna **Starfsgreinarhópar**.
+Kóði starfsgreinarhópsins skilgreinir tegund eða flokk hópsins, til dæmis ADVERT fyrir auglýsingar eða Press fyrir sjónvarp og útvarp. Hægt er að hafa nokkrar starfsgreinarhópakóða. Til að skilgreina starfsgreinarhópa skal nota síðuna **Starfsgreinarhópar** .
 
 1. Opnaðu viðeigandi tengiliðarspjald.
 2. Valið er **Fyrirtæki** aðgerð, og síðan **starfsgreinarhópar** aðgerð. Síðan **Starfsgreinahópar tengiliða** birtist.
@@ -40,14 +40,14 @@ Kóði starfsgreinarhópsins skilgreinir tegund eða flokk hópsins, til dæmis 
 
 Skrefin eru endurtekin til að úthluta eins mörgum starfsgreinahópum og óskað er. Einnig má nota sömu aðferð til að úthluta Starfsgreinahópar úr Tengiliðalista.
 
-Fjöldi starfsgreinahópa sem þú hefur úthlutað tengiliðnum birtist á **Fjöldi starfsgreinahópa** reitnum í **Hlutunarviðmið** hlutanum á síðunni **Tengiliðarspjald**.
+Fjöldi starfsgreinahópa sem þú hefur úthlutað tengiliðnum birtist á **Fjöldi starfsgreinahópa** reitnum í **Hlutunarviðmið** hlutanum á síðunni **Tengiliðarspjald** .
 
 Þegar tengiliðum hefur verið úthlutað starfsgreinarhópum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Frekari upplýsingar eru í [Bæta tengiliðum við hluta](marketing-add-contact-segment.md).
 
 ## <a name="to-assign-mailing-groups-to-a-contact"></a> Pósthópum úthlutað á tengiliði
 pósthópana sem nota má til að auðkenna tengiliðahópa sem eiga að fá sömu upplýsingar. Til dæmi er hægt að setja upp pósthóp með þeim tengiliðum sem eiga að fá tilkynningu um að skrifstofan hafi flutt, eða annan hóp til að senda gjafir á hátíðum.
 
-Pósthópskóði skilgreinir tegund eða flokk hóps, eins og Move fyrir flutning skrifstofu, GIFT fyrir hátíðsgjöf. Hægt er að hafa nokkrar starfsgreinarhópakóða. Til að skilgreina starfsgreinarhópa skal nota síðuna **Pósthópar**.
+Pósthópskóði skilgreinir tegund eða flokk hóps, eins og Move fyrir flutning skrifstofu, GIFT fyrir hátíðsgjöf. Hægt er að hafa nokkrar starfsgreinarhópakóða. Til að skilgreina starfsgreinarhópa skal nota síðuna **Pósthópar** .
 
 1. Opnaðu viðeigandi tengiliðarspjald.
 2. Valið er **Pósthópar** aðgerð. Síðan **Pósthópar tengiliða** birtist.
@@ -55,7 +55,7 @@ Pósthópskóði skilgreinir tegund eða flokk hóps, eins og Move fyrir flutnin
 
 Skrefin eru endurtekin til að úthluta eins mörgum pósthópum og óskað er. Einnig má nota sömu aðferð til að úthluta pósthópum úr Tengiliðalisti.
 
-Fjöldi pósthópa sem þú hefur úthlutað tengiliðnum birtist í **Fjöldi pósthópa** í hlutanum **hlutaaðgerðin** á síðunni **Tengiliðaspjald**.
+Fjöldi pósthópa sem þú hefur úthlutað tengiliðnum birtist í **Fjöldi pósthópa** í hlutanum **hlutaaðgerðin** á síðunni **Tengiliðaspjald** .
 
 Eftir að tengiliðum hefur verið úthlutað pósthópum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Frekari upplýsingar eru í [Bæta tengiliðum við hluta](marketing-add-contact-segment.md).
 
@@ -63,10 +63,10 @@ Eftir að tengiliðum hefur verið úthlutað pósthópum er hægt að nota þes
 Hægt er að velja annað aðsetur þangað sem tengiliður vill stundum fá sendan póst og upplýsingar, t.d. sumarbústaðinn. Hægt er að úthluta einu eða fleirum dagsetningarbilum á hvert annað aðsetur sem hefur verið fært inn fyrir tengiliðina til að tilgreina hvenær hvert þeirra er í gildi.
 
 1. Opnaðu viðeigandi tengiliðarspjald.
-2. Veljið aðgerðina **Annað aðsetur** og veljið síðan aðgerðina **Spjald**.
+2. Veljið aðgerðina **Annað aðsetur** og veljið síðan aðgerðina **Spjald** .
 
     Til að skilgreina að annað aðsetur á við á tilteknu tímabili skaltu velja aðgerðina **Dagsetningabil** í staðinn.
-3. Á síðunni **Listi yfir annað aðsetur tengiliðar** skal færa inn nýtt aðsetur og fylla út reitina á síðunni **Annað aðsetur tengiliðar**.
+3. Á síðunni **Listi yfir annað aðsetur tengiliðar** skal færa inn nýtt aðsetur og fylla út reitina á síðunni **Annað aðsetur tengiliðar** .
 
 Skrefin eru endurtekin til að úthluta eins mörgum öðrum aðsetrum og óskað er. Tilgreina má eitt eða fleiri dagsetningarsvið fyrir hvert annað aðsetur.
 
@@ -74,17 +74,17 @@ Skrefin eru endurtekin til að úthluta eins mörgum öðrum aðsetrum og óska�
 Þú getur bætt við upplýsingum um starfsábygð tengiliðar til að gefa til kynna hvað tengiliðurinn er ábyrgur fyrir innan síns fyrirtækistil dæmis upplýsingatækni, stjórnun eða framleiðsla. Þessar upplýsingar er hægt að nota þegar færðar eru inn upplýsingar um tengiliði.
 
 > [!NOTE]
-> Þetta er eingöngu mögulegt fyrir tengiliði af gerðinni **Einstaklingur**.
+> Þetta er eingöngu mögulegt fyrir tengiliði af gerðinni **Einstaklingur** .
 
-Starfsábyrgðarkóði skilgreinir tegund eða flokk verks, eins og markaðssetning eða innkaup. Hægt er að hafa nokkra starfsábyrgðarkóða. Til að skilgreina starfsábyrgð á að nota síðuna **starfsábyrgð**-.
+Starfsábyrgðarkóði skilgreinir tegund eða flokk verks, eins og markaðssetning eða innkaup. Hægt er að hafa nokkra starfsábyrgðarkóða. Til að skilgreina starfsábyrgð á að nota síðuna **starfsábyrgð** -.
 
 1. Opnaðu viðeigandi tengiliðarspjald.
-2. Veljið aðgerðina **Einstaklingur** og veljið síðan aðgerðina **starfsábyrgðir**. Síðan **Starfsábyrgðir tengiliðar** birtist.
+2. Veljið aðgerðina **Einstaklingur** og veljið síðan aðgerðina **starfsábyrgðir** . Síðan **Starfsábyrgðir tengiliðar** birtist.
 3. Í reitnum **Starfsábyrgðarkóði** veljið starfsábyrgð sem á að úthluta.
 
 Skrefin eru endurtekin til að úthluta eins mörgum starfsábyrgðum og óskað er. Einnig má nota sömu aðferð til að úthluta Starfsábyrgð úr Tengiliðalisti.
 
-Fjöldi vinnuverkefna sem þú hefur úthlutað tengiliðnum birtist á **Fjöldi starfsábyrgða** í hlutanum **Hlutunarviðmið** á síðunni **Tengiliður**.
+Fjöldi vinnuverkefna sem þú hefur úthlutað tengiliðnum birtist á **Fjöldi starfsábyrgða** í hlutanum **Hlutunarviðmið** á síðunni **Tengiliður** .
 
 Eftir að tengiliðum hefur verið úthlutað starfsábyrgðum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Frekari upplýsingar eru í [Bæta tengiliðum við hluta](marketing-add-contact-segment.md).
 
@@ -92,7 +92,7 @@ Eftir að tengiliðum hefur verið úthlutað starfsábyrgðum er hægt að nota
 Hægt er að úthluta stjórnunarstigum á tengiliði til að tilgreina hvaða stöðu þeir hafa innan fyrirtækis, til dæmis forstjóri. Þessar upplýsingar er hægt að nota þegar færðar eru inn upplýsingar um tengiliði.
 
 > [!NOTE]
-> Þetta er eingöngu mögulegt fyrir tengiliði af gerðinni **Einstaklingur**.
+> Þetta er eingöngu mögulegt fyrir tengiliði af gerðinni **Einstaklingur** .
 
 Viðskiptatengslakóði skilgreinir tegund eða flokk stjórnunarstigs, eins og framkvæmdastjóri eða fjármálastjóri. Hægt er að hafa nokkra viðskiptatengslakóða. Síðan **Stjórnunarstig** er notuð til að skilgreina stjórnunarstigið.
 
@@ -107,12 +107,12 @@ Eftir að tengiliðum hefur verið úthlutað starfsábyrgðum er hægt að nota
 Hægt er að nota veftengingar með tengiliðafyrirtækjum til að þekkja t.d. leitarvélar og vefsvæði á netinu sem óskað er eftir að nota til að leita að upplýsingum um tengiliðina. Þegar veftengingu er úthlutað er tilgreint hvaða leitarvél og leitarorð kerfið eigi að nota til að finna umbeðnar upplýsingar.
 
 > [!NOTE]
-> Þetta er eingöngu mögulegt fyrir tengiliði af gerðinni **Fyrirtæki**.
+> Þetta er eingöngu mögulegt fyrir tengiliði af gerðinni **Fyrirtæki** .
 
 Þegar veftengingu er úthlutað er tilgreint hvaða leitarvél og leitarorð kerfið eigi að nota til að finna umbeðnar upplýsingar.
 
 1. Opnaðu viðeigandi tengiliðarspjald.
-2. Veljið aðgerðina **Fyrirtæki** og veljið síðan aðgerðina **Veftenging**. Síðan **Veftenglar tengiliða** birtist.
+2. Veljið aðgerðina **Fyrirtæki** og veljið síðan aðgerðina **Veftenging** . Síðan **Veftenglar tengiliða** birtist.
 3. Í reitnum **Veftengingarkóði** skal velja veftenginguna sem á að úthluta.
 4. Í reitinn **Leitarorð** er fært inn leitarorðið sem á að nota til að finna upplýsingarnar.
 
@@ -122,15 +122,15 @@ Skrefin eru endurtekin til að úthluta eins mörgum veftengingum og óskað er.
 Þú getur notað Viðskiptatengsl til að tilgreina þau viðskiptatengsl sem eru við tengiliðina, til dæmis viðföng, banka, ráðgjafa eða þjónustuaðila, og svo framvegis.
 
 > [!NOTE]
-> Þetta er eingöngu mögulegt fyrir tengiliði af gerðinni **Fyrirtæki**.
+> Þetta er eingöngu mögulegt fyrir tengiliði af gerðinni **Fyrirtæki** .
 
 1. Opnaðu viðeigandi tengiliðarspjald.
 2. Valið er **Fyrirtæki** aðgerð, og síðan **Viðskiptatengsl** aðgerð.
-3. Á síðunni **Viðskiptatengsl tengiliða**, í reitnum **Viðskiptatengslakóði** eru valin þau viðskiptatengsl sem á að úthluta.
+3. Á síðunni **Viðskiptatengsl tengiliða** , í reitnum **Viðskiptatengslakóði** eru valin þau viðskiptatengsl sem á að úthluta.
 
 Skrefin eru endurtekin til að úthluta eins mörgum viðskiptatengslum og óskað er.
 
-Fjöldi viðskiptatengsla sem tengiliðnum hefur verið úthlutað er birtur í reitnum **Fjöldi viðskiptatengsla** á hlutanum **Hlutun** á síðunni **tengiliður**.
+Fjöldi viðskiptatengsla sem tengiliðnum hefur verið úthlutað er birtur í reitnum **Fjöldi viðskiptatengsla** á hlutanum **Hlutun** á síðunni **tengiliður** .
 
 Þegar tengiliðum hefur verið úthlutað viðskiptatengslum er hægt að nota þessar upplýsingar til að velja tengiliði í hluta. Frekari upplýsingar eru í [Bæta tengiliðum við hluta](marketing-add-contact-segment.md).
 
@@ -147,12 +147,12 @@ Hægt er að láta forritið tilgreina sjálfkrafa ákveðinn tungumálskóða, 
 Reitaerfðir skrifast yfir sjálfgildi sem sett hafa verið upp. Ef enska hefur til dæmis verið sett upp sem sjálfgefið tungumál en tungumál tengiliðafyrirtækisins er þýska, úthlutar forritið þýsku sjálfkrafa sem tungumálakóta einstaklingstengiliðanna sem skráðir eru fyrir það fyrirtæki.
 
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Tengiliðir samstilltir við viðskiptamenn, lánardrottna og bankareikninga
-Til að geta samstillt tengiliðaspjaldið við tengt spjald viðskiptavinar, lánardrottins eða bankareiknings verðurðu að fylla út viðeigandi reiti í hlutanum **Viðskiptatengslakóði fyrir** í flýtiflipanum **Samskipti** á síðunni **Uppsetning markaðssetningar**.  
+Til að geta samstillt tengiliðaspjaldið við tengt spjald viðskiptavinar, lánardrottins eða bankareiknings verðurðu að fylla út viðeigandi reiti í hlutanum **Viðskiptatengslakóði fyrir** í flýtiflipanum **Samskipti** á síðunni **Uppsetning markaðssetningar** .  
 
-Fyrir frekar upplýsingar, sjá [Tengiliðir samstilltir við viðskiptamenn, lánardrottna og bankareikninga](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+Fyrir frekar upplýsingar, sjá [Tengiliðir samstilltir við viðskiptamenn, lánardrottna og bankareikninga](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Leita að tvíteknum tengiliðum
-Hægt er að láta forritið leita sjálfkrafa leita að tvítekningum í hvert sinn þegar stofnaður er tengiliður eða leitað er handvirkt eftir að tengiliðirnir hafa verið stofnaðir. Einnig er hægt að láta forritið uppfæra leitarstrengi sjálfkrafa í hvert sinn sem tengiliðaupplýsingum er breytt eða tengiliður stofnaður. Notandinn ákveður sjálfur hver endurtekningarprósentan er, það er hlutfall strengja sem verða að vera eins hjá tveimur tengiliðum til þess að forritið líti á þá sem tvítekningar. Þú setur þetta upp í flýtiflipanum **Tvítekningar** á síðunni **Uppsetning markaðssetningar**.
+Hægt er að láta forritið leita sjálfkrafa leita að tvítekningum í hvert sinn þegar stofnaður er tengiliður eða leitað er handvirkt eftir að tengiliðirnir hafa verið stofnaðir. Einnig er hægt að láta forritið uppfæra leitarstrengi sjálfkrafa í hvert sinn sem tengiliðaupplýsingum er breytt eða tengiliður stofnaður. Notandinn ákveður sjálfur hver endurtekningarprósentan er, það er hlutfall strengja sem verða að vera eins hjá tveimur tengiliðum til þess að forritið líti á þá sem tvítekningar. Þú setur þetta upp í flýtiflipanum **Tvítekningar** á síðunni **Uppsetning markaðssetningar** .
 
 Þegar þú finnur tvítekinn tengilið geturðu notað síðuna **Sameina tvítekið** til að sameina hann í sameinaða tengiliðafærslu sem þú vilt halda. Frekari upplýsingar er að finna í [Sameina tvítekin atriði](sales-how-merge-duplicate-records.md).
 

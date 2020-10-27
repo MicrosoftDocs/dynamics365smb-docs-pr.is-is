@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bda110a8d97376b283461bb0c2c6a6b7f334ba4d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 72c947263ccf736d9432c52b6256868ad346ad09
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783275"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918731"
 ---
 # <a name="setting-up-purchasing"></a>Uppsetning innkaupa
 Áður en hægt er að hefjast handa við að stýra kaupferlum þarf að grunnstilla reglur og gildi sem ráða kaupreglum fyrirtækisins.
@@ -32,6 +32,9 @@ Farið er nánar yfir uppsetningu kaupa sem tengjast fjármunum, svo sem greiðs
 | Skráið inn mismunandi afslætti og sérverð sem lánardrottinn veitir, sem fer eftir vörum, magni og/eða dagsetningum. |[Skráning innkaupaverðs, afsláttar og greiðslusamkomulags](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Lánardrottnum forgangsraðað |[Forgangsraða lánardrottnum](purchasing-how-prioritize-vendors.md) |
 | Kaupendur settir upp |[Setja upp kaupendur](purchasing-how-setup-purchasers.md) |
+
+> [!TIP]
+> Það fer eftir landfræðilegri staðsetningu þinni hvaða reiti sumar síður innihalda sem ekki er lýst í greinunum sem eru gefnar upp hér vegna þess að þær gilda um staðbundna virkni eða sérstillingar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 

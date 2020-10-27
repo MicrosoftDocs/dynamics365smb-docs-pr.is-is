@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 663d1c846e957be1b3d85a95a56a6f7f6cc940e8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7e2c8aeda1d71c7f01e7999dd540ce9194806dc5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787322"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917302"
 ---
 # <a name="design-details-production-order-posting"></a>Hönnunarupplýsingar: staða framleiðslupöntunar
 Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið. Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md). Hins vegar er kostnaðarrennsli fyrir samsetningarpantanir síður flókið, sérstaklega vegna þess að bókun samsetningarkostnaðar á sér aðeins stað einu sinni og myndar því ekki birgðir með verkum í vinnslu.
@@ -44,10 +44,10 @@ Verðmæti birgða er reiknað út með því að rekja kostnað við alla hækk
 
 ||Aukist|Minnkar|  
 |-|---------------|---------------|  
-|**Hráefnisbirgðir**|-   Nettóinnkaup á efni<br />-   Frálag undirsamsetninga<br />-   Neikvæð notkun|Efnisnotkun|  
-|**VÍV-birgðir**|-   Efnisnotkun<br />-   Afkastageta<br />-   Sameiginl. kostn. framleiðslu|Frálag lokavara (kostnaður framleiddra vara)|  
-|**Fullunnar vörur í birgðum**|Frálag lokavara (kostnaður framleiddra vara)|-   Sala (Kostnaður seldra vara)<br />-   Framleiðsluslaki|  
-|**Hráefnisbirgðir**|-   Nettóinnkaup á efni<br />-   Frálag undirsamsetninga<br />-   Neikvæð notkun|Efnisnotkun|  
+|**Hráefnisbirgðir**|-   Nettóinnkaup á efni<br />-   Frálag grunnsamsetninga<br />-   Neikvæð notkun|Efnisnotkun|  
+|**VÍV-birgðir**|-   Efnisnotkun<br />-   Hámarksnotkun<br />-   Framleiðslukostnaður|Frálag lokavara (kostnaður framleiddra vara)|  
+|**Fullunnar vörur í birgðum**|Frálag lokavara (kostnaður framleiddra vara)|-   Sala (konstaður seldra vara)<br />-   Neikvætt frálag|  
+|**Hráefnisbirgðir**|-   Nettóinnkaup á efni<br />-   Frálag grunnsamsetninga<br />-   Neikvæð notkun|Efnisnotkun|  
 
 Gildi aukningar og minnkunar eru skráð í mismunandi gerðum framleiddra birgða á sama hátt og fyrir keyptar birgðir. Í hverst sinn sem færsla með birgðaaukningu eða birgðaminnkun fer fram er búin til birgðafærsla og samsvarandi fjárhagsfærsla fyrir upphæðina. Nánari upplýsingar, sjá [Upplýsingar um hönnun: Birgðabókun](design-details-inventory-posting.md)  
 
@@ -103,7 +103,7 @@ Raunkostnaður er bókaður á framleiðslupöntunina og borinn saman við stað
 
     > [!NOTE]  
     >  Þetta er frábrugðið færslum samsetningarpöntunar, þar sem raunkostnaður er alltaf bókaður. Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md).  
-2.  Þegar framleiðslupöntun er stillt á **fullunninn** er hún reikningsfærð með því að keyra runuvinnsluna **Leiðr. kostnað-Birgðafærslur**. Niðurstaðan er sú að heildarkostnaður pöntunar er reiknaður samkvæmt stöðluðum kostnaði notaðra efna og afkasta. Frávik frá reiknuðum staðalkostnaði og raunverulegum framleiðslukostnaði eru reiknuð og bókuð.  
+2.  Þegar framleiðslupöntun er stillt á **fullunninn** er hún reikningsfærð með því að keyra runuvinnsluna **Leiðr. kostnað-Birgðafærslur** . Niðurstaðan er sú að heildarkostnaður pöntunar er reiknaður samkvæmt stöðluðum kostnaði notaðra efna og afkasta. Frávik frá reiknuðum staðalkostnaði og raunverulegum framleiðslukostnaði eru reiknuð og bókuð.  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   

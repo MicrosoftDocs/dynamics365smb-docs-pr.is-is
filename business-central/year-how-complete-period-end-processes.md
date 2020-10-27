@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 2c1836d133c36ba5a8bf44bae0443c252bc13d8e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6526760c78cb11d8454b7f5390c6fefe713647d2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191764"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918239"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Yfirlit yfir verkhluta sem felur í sér lokun fjárhagstímabila
 [!INCLUDE[d365fin](includes/d365fin_md.md)] þvingar þig ekki til að loka tímabilum, en það eru margar aðgerðir í lokunartíma (lok mánaðar) sem þú getur gert. Þetta efni gefur yfirlit yfir valfrjáls ferli og starfsemi fyrir lokunartímabil.  
@@ -30,7 +30,7 @@ ms.locfileid: "3191764"
 * Ítrekunarbækur eru uppfærðar og bókaðar.  
   <!--* Process Consolidations-->
 * Fjárhagsskema keyrt sem hér segir:  
-  * Síðan **Fjárhagsskema** er opnaður og smellt á aðgerðina **Prenta**.  
+  * Síðan **Fjárhagsskema** er opnaður og smellt á aðgerðina **Prenta** .  
 
 ## <a name="sales-and-receivables"></a>Sala and útistandandi
 * Allar sölupantanir, reikningar, kreditreikningar og vöruskilapantanir eru bókaðar.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b039c15a3e55135576dfe6341248bde936d58093
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 30c78ba04d58a2e2c2227ec638724c85cb1236c7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788147"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917552"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Hönnunarupplýsingar: Jöfnun eftirspurnar og framboðs
 Til að skilja hvernig áætlanakerfi virkar, það er nauðsynlegt að skilja forgangsraðað markmið áætlanakerfisins, mikilvægasta sem eru að tryggja að:  
@@ -99,7 +99,7 @@ Við jöfnun les áætlanakerfið framboð með rað- og lotunúmerum sem fast o
 
 Önnur ástæða fyrir því að rað-/lotunúmerað framboð er ósveigjanlegt er að rað-/lotunúmerum er alla jafna úthlutað það seint í ferlinu að það myndi valda ruglingi að stinga upp á breytingum.  
 
-Staða rað-/lotunúmera er ekki innan *frosna svæðisins*. Ef eftirspurn og framboð er ekki samstillt leggur áætlanakerfið til breytingar eða leggur til nýjar pantanir, óháð upphafsdegi áætlanagerðarinnar.  
+Staða rað-/lotunúmera er ekki innan *frosna svæðisins* . Ef eftirspurn og framboð er ekki samstillt leggur áætlanakerfið til breytingar eða leggur til nýjar pantanir, óháð upphafsdegi áætlanagerðarinnar.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Tenglar á milli pantana eru aldrei rofnir  
 Við áætlun pöntun-í-pöntun vöru má ekki nota tengdu birgðirnar fyrir neina aðra eftirspurn nema þá sem þær voru upphaflega ætlaðar. Tengd eftirspurn ætti ekki að falla undir neitt annað tilviljanakennt framboð, jafnvel þótt það sé tiltækt í tíma og magni við núverandi kringumstæður. Til dæmis er ekki hægt að nota samsetningarpöntun sem tengd er við sölupöntun í aðstæðum þar sem vara er sett saman fyrir pöntun fyrir nokkra aðra eftirspurn.  
@@ -209,7 +209,7 @@ Ef notandinn vill útiloka núverandi birgðapöntun frá tillögum áætlanager
 
 Almennt gildir að allt framboð hefur áætlunarsveigjanleika sem takmarkast af skilyrðum hverrar af leiðbeinandi aðgerðum.  
 
--   **Endurtímasetja út**: Dagsetning núverandi framboðspöntunar er hægt að Endurtímasetja út til að mæta skiladegi, nema  
+-   **Endurtímasetja út** : Dagsetning núverandi framboðspöntunar er hægt að Endurtímasetja út til að mæta skiladegi, nema  
 
     -   Taflan táknar birgðir (alltaf á degi núll).  
     -   Það er með pöntun fyrir pöntun tengda við aðra eftirspurn.  
@@ -219,7 +219,7 @@ Almennt gildir að allt framboð hefur áætlunarsveigjanleika sem takmarkast af
     -   Birgðapöntunin hefur þegar verið tengd við aðra eftirspurn á fyrri dagsetningu  
     -   Nauðsynleg enduráætlunagerð er svo minniháttar að notanda finnst hún óþörf.  
 
--   **Endurtímasetja inn**: Dagsetning núverandi framboðspöntunar sem er hægt að gera tímaáætlun á, nema í eftirfarandi skilyrðum:  
+-   **Endurtímasetja inn** : Dagsetning núverandi framboðspöntunar sem er hægt að gera tímaáætlun á, nema í eftirfarandi skilyrðum:  
 
     -   Það er beintengt við einhverja aðra eftirspurn.  
     -   Hún liggur utan enduráætlunarsíðunnar sem skilgreind er með tímarammanum.  
@@ -227,18 +227,18 @@ Almennt gildir að allt framboð hefur áætlunarsveigjanleika sem takmarkast af
 > [!NOTE]  
 >  Við áætlun vöru með endurpöntunarmarki, er alltaf hægt að áætla birgðapöntunina ef nauðsynlegt er. Þetta er algengt í birgðapöntun sem er dagsett í framtíðinni sem eru ræstar af endurpöntunarmarki.  
 
--   **Auka magn**: Magn núverandi framboðspöntunar má auka til að mæta eftirspurn nema framboð þess er tengt beint við eftirspurn með Pöntun fyrir pöntun tengil.  
+-   **Auka magn** : Magn núverandi framboðspöntunar má auka til að mæta eftirspurn nema framboð þess er tengt beint við eftirspurn með Pöntun fyrir pöntun tengil.  
 
 > [!NOTE]  
 >  Jafnvel þótt hægt sé að auka við birgðapöntunina getur það verið takmarkað vegna skilgreinds hámarks pöntunarmagns.  
 
--   **Minnka Magn**: Núverandi birgðapöntun með afgang miðað við núverandi eftirspurn getur lækkað til að mæta eftirspurn.  
+-   **Minnka Magn** : Núverandi birgðapöntun með afgang miðað við núverandi eftirspurn getur lækkað til að mæta eftirspurn.  
 
 > [!NOTE]  
 >  Jafnvel þótt hægt væri að minnka magnið getur samt verið afgangur miðað við eftirspurnina vegna skilgreinds lágmarks pöntunarmagns við fjöldapantanir.  
 
--   **Hætta**: Sem sérstök atvik af lækkun magnsaðgerð, er hægt að hætta við birgðapöntun ef það hefur verið lækkað niður í núll.  
--   **Nýtt**: Ef engin framboðspöntun er til staðar eða fyrirliggjandi pöntun er ekki hægt að breyta til að uppfylla nauðsynlegt magn á settum skiladegi er stungið upp á nýrri framboðspöntun.  
+-   **Hætta** : Sem sérstök atvik af lækkun magnsaðgerð, er hægt að hætta við birgðapöntun ef það hefur verið lækkað niður í núll.  
+-   **Nýtt** : Ef engin framboðspöntun er til staðar eða fyrirliggjandi pöntun er ekki hægt að breyta til að uppfylla nauðsynlegt magn á settum skiladegi er stungið upp á nýrri framboðspöntun.  
 
 ### <a name="determining-the-supply-quantity"></a>Ákvarða framboðsmagn  
 Áætlunarfæribreytur sem tilgreindar voru af notanda stjórna áætluðu magni fyrir hverja framboðspöntun.  

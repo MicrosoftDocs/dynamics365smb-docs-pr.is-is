@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48986fc36332c4bbca3f84208261fe8215e58f92
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: edfcb7904f540edad7f471511de9047c511a2cb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781861"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921593"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Enduráætla eða uppfæra framleiðslupantanir beint
 Aðgerðin **Enduráætla** er venjulega notuð eftir íhlutum, sem standa fyrir undirliggjandi framleiðslupantanir, hefur verið bætt við eða þeim breytt. Þessi áætlunaraðgerð reiknar breytingar sem gerðar eru á íhlutum og leiðarlínum. Hún tekur með vörur í neðri framleiðsluuppskriftum og kann að stofna nýjar framleiðslupantanir fyrir þær.  
@@ -37,7 +37,7 @@ Hægt er að setja framleiðslulínur inn handvirkt eða nota aðgerðina sem re
 ## <a name="to-replan-a-production-order"></a>Enduráætla Framleiðslupöntun  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pantanir** og veldu síðan tengda tengilinn.  
 2.  Opna framleiðslupöntunina sem á að enduráætla.  
-3.  Á flýtiflipanum **Línur** skal velja aðgerðina **Línur**, og velja svo aðgerðina **Íhlutir**.  
+3.  Á flýtiflipanum **Línur** skal velja aðgerðina **Línur** , og velja svo aðgerðina **Íhlutir** .  
 4.  Íhlut, sem er framleidd vara epa millivara, er bætt við.  
 5.  Frá framleiðslupöntuninni, veldu **Enduráætla** aðgerðina.  
 
@@ -67,7 +67,7 @@ Ef framleiðslupöntunarlínunum, íhlutum eða leiðarlínum hefur verið breyt
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pöntun** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð. Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
-3.  Velja aðgerðina **Uppfæra**.
+3.  Velja aðgerðina **Uppfæra** .
 4. Á síðunni **Uppfæra framleiðslupöntun** velurðu einn af eftirfarandi kostum:
 
     |Valkostur|Description|  

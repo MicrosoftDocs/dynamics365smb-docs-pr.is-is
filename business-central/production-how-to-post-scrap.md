@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0adc08f7fa30f4ceb88531ea45948c6da36d3c72
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2cfc545e328da020ce8ecd4dc7a79e6303902636
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789326"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916552"
 ---
 # <a name="post-scrap-manually"></a>Bóka úrkast handvirkt
 Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í afkastabókina. 
@@ -26,8 +26,8 @@ Ef úrkast er framleitt við vinnsluna er einnig hægt að færa það inn í af
 ## <a name="to-post-scrap-manually"></a>Úrkast bókað handvirkt:  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Frálagsbók** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Úrkastsmagnið er fært í reitinn **Úrkastsmagn**.  
-4. Úrkastskótinn er færður inn í reitinn **Úrkastskóti**.  
+3. Úrkastsmagnið er fært í reitinn **Úrkastsmagn** .  
+4. Úrkastskótinn er færður inn í reitinn **Úrkastskóti** .  
 5. Velja **bóka** aðgerðina til að bóka sérstakt úrkast á aðgerð.  
 
 ## <a name="see-also"></a>Sjá einnig  

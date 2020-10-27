@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/09/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0cbfbf6730a62b1c0f0e743362075a2085cf3813
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6d62db7673a37cd115caedc778b3fea1cf5b3ce8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788447"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916244"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Unnið með fjárhagstímabil og fjárhagsár
 
@@ -36,11 +36,11 @@ Hægt er að búa til mörg reikningstímabil saman með runuvinnslunni **Búa t
 Notaðu runuvinnsluna **Búa til fjárhagsár** til að skipta fjárhagsári niður í tímabil af jafnri lengd.  
 
 1. Veldu táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn"), sláðu inn **Reikningstímabil** og veldu síðan viðeigandi tengil.  
-2. Veldu aðgerðina **Stofna ár**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
+2. Veldu aðgerðina **Stofna ár** .  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. Í reitnum **Upphafsdagsetning** skal slá inn dagsetninguna sem fjárhagsárið byrjar á.  
 4. Í reitnum **Fjöldi tímabila** skal slá inn fjölda reikningstímabila sem fjárhagsárið á að skiptast niður í. Hægt er að velja allt að 365 tímabil fyrir hvert ár.  
 5. Í reitinn **Lengd tímabils** skal slá inn tímalengd fyrir hvert tímabil. Sem dæmi, 1M fyrir einn mánuð, 1V fyrir eina viku og 1Y fyrir eitt ár.  
-6. Velja **Í lagi**.  
+6. Velja **Í lagi** .  
 
 ### <a name="how-to-create-accounting-periods-manually"></a>Hvernig á að stofna reikningstímabil handvirkt
 
@@ -59,7 +59,7 @@ Lokun fjárhagsárs er eitt verkanna fyrir lokun bóka. Eftir að fjárhagsári 
 > Þú verður alltaf að hafa að minnsta kosti eitt opið fjárhagsár. Þegar ári er lokað skal tryggja að nýtt ár hafi verið stofnað. Hafðu einnig í huga að eftir að einu ári er lokað er ekki hægt að breyta upphafsdagsetningunni á næsta ári.
 
 1. Veldu táknið ![Leita að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn"), sláðu inn **Reikningstímabil** og veldu síðan viðeigandi tengil.  
-2. Veldu aðgerðina **Loka ári**.  
+2. Veldu aðgerðina **Loka ári** .  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bókun færslna á lokað fjárhagsár
 

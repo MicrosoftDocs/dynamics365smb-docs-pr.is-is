@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1248a4932194de68c05ca4343836d345b5284b16
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d7da8009b1bb7522bba0b6d59fa2bf3629abc28
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190180"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916652"
 ---
 # <a name="managing-payables"></a>Stjórna skuldum
 
-Stór hluti af stjórnun viðskiptaskulda er að borga lánardrottnum þínum eða endurgreiða starfsmönnum útgjöld. Þú getur notað aðgerðir til að bæta við greiðslumörkum fyrir innkaupareikninga sem eru komnir á gjalddaga á síðunni **Greiðslubók**. Til að senda viðskipti í bankann þinn, getur þú flutt margar greiðslubókalínur í skrá og síðan hlaðið skránum inn í bankann þinn. Einnig er hægt að framkvæma greiðslur með tékka, þar með talið senda tékka sem rafræn greiðsla
+Stór hluti af stjórnun viðskiptaskulda er að borga lánardrottnum þínum eða endurgreiða starfsmönnum útgjöld. Þú getur notað aðgerðir til að bæta við greiðslumörkum fyrir innkaupareikninga sem eru komnir á gjalddaga á síðunni **Greiðslubók** . Til að senda viðskipti í bankann þinn, getur þú flutt margar greiðslubókalínur í skrá og síðan hlaðið skránum inn í bankann þinn. Einnig er hægt að framkvæma greiðslur með tékka, þar með talið senda tékka sem rafræn greiðsla
 
 Annar dæmigerður verkefni er að jafna útgjöld við tengdar fjárhagsfærslur lánardrottna og starfsmanna, til þess að loka innkaupareikningum, innkaupakreditreikningum eða starfsmannareikningnum sem greiddir. Þú getur gert þetta á síðunni **Greiðsluafstemmingarbók** með því að flytja inn bankareikningsskrá til að skrá greiðslur. Greiðslurnar eru jafnaðar við opinn lánardrottinn, viðskiptamann eða starfsmanna fjárhagsfærslur með því að láta greiðslu texta og færsluupplýsingar passa saman. Það eru ýmsar leiðir til að skoða og breyta leikjunum áður en þú sendir dagbókina. Þú getur valið að loka öllum opnum bankareikningsfærslum sem tengjast jöfnuðu fjárhagsfærslunum þegar þú bókar færslubókina. Bankareikningurinn er sjálfkrafa sáttur þegar allar greiðslur eru sóttar.
 

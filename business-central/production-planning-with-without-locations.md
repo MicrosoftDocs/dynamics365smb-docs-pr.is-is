@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2d9afd30c3b81912797ad95871256207d135b673
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2cf9c34434136578b6ab31841c5bb7f69f72ae18
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783983"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921468"
 ---
 # <a name="planning-with-or-without-locations"></a>Áætlanagerð með eða án birgðageymslna
 Varðandi áætlanir með eða án birgðageymslukóta í eftirspurnarlínum vinnur áætlanakerfið á einfaldan hátt þegar:  
@@ -30,7 +30,7 @@ Ef hins vegar eftirspurnarlínur eru stundum með birgðageymslukóta og stundum
 
 Í áætlunarkeyrslu leitar kerfið að 3 uppsetningargildum í röð og áætlar samkvæmt þeim:  
 
-1.  Er gátmerki í reitnum **Birgðageymsla áskilin**?  
+1.  Er gátmerki í reitnum **Birgðageymsla áskilin** ?  
 
     Ef já:  
 
@@ -50,7 +50,7 @@ Ef hins vegar eftirspurnarlínur eru stundum með birgðageymslukóta og stundum
 
     Ef nei:  
 
-    Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* , Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar. (Vörur sem nota endurpöntunarstefnuna  *Pöntun* nota  *Pöntun* ásamt öðrum stillingum).  
+    Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* , Taka með birgðir =  *Já* , allar aðrar áætlunarfæribreytur = tómar. (Vörur sem nota endurpöntunarstefnuna  *Pöntun* nota  *Pöntun* ásamt öðrum stillingum).  
 
 > [!NOTE]  
 >  Þessi lágmarksvalkostur nær aðeins yfir nákvæma eftirspurn. Allar skilgreindar áætlunarfæribreytur eru hunsaðar.  
@@ -59,7 +59,7 @@ Sjá frávik í dæmunum hér fyrir neðan.
 
 ## <a name="demand-at-blank-location"></a>Eftirspurn í "Tómri birgðageymslu"  
 Jafnvel þó merkt sé við reitinn **Birgðageymsla áskilin** er heimilt að stofna línur í kerfinu án birgðageymslukóta – einnig kallað *TÓM* birgðageymsla. Þetta er frávik í kerfinu því það er með mismunandi uppsetningargildi sem stillt eru á að vinna með birgðageymslur (sjá ofangreint) og niðurstaðan verður sú að áætlunarkerfið stofnar ekki áætlunarlínu fyrir svona eftirspurnarlínu. Ef ekki er merkt við reitinn **Birgðageymsla áskilin** en einhver af uppsetningargildum birgðageymsla eru til er það einnig talið vera frávik og eftirspurnarkerfið bregst við með því að leggja til „lágmarksvalkostinn“:   
-Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram *Pöntun)*, Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = Auðar.  
+Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram *Pöntun)* , Taka með birgðir =  *Já* , allar aðrar áætlunarfæribreytur = Auðar.  
 
 Sjá frávik í uppsetningardæmunum hér fyrir neðan.  
 
@@ -79,7 +79,7 @@ Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðaspjaldinu.
 
 #### <a name="case-13-demand-is-at--green-location"></a>Dæmi 1.3: Eftirspurn er í birgðageymslunni  *GRÆNT*  
 
-Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.  
+Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun* ), Taka með birgðir =  *Já* , allar aðrar áætlunarfæribreytur = tómar.  
 
 #### <a name="case-14-demand-is-at--blank-location"></a>Dæmi 1.4: Eftirspurn er í birgðageymslunni  *TÓMT*  
 
@@ -93,7 +93,7 @@ Vörunni er ekki áætlað þar sem engin birgðageymsla er skilgreind í eftirs
 
 #### <a name="case-21-demand-is-at--red-location"></a>Dæmi 2.1: Eftirspurn er í birgðageymslunni  *RAUTT*  
 
-Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.  
+Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun* ), Taka með birgðir =  *Já* , allar aðrar áætlunarfæribreytur = tómar.  
 
 #### <a name="case-22-demand-is-at--blue-location"></a>Dæmi 2.2: Eftirspurn er í birgðageymslunni  *RAUTT*  
 
@@ -107,7 +107,7 @@ Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðaspjaldinu.
 
 #### <a name="case-31-demand-is-at--red-location"></a>Dæmi 3.1: Eftirspurn er í birgðageymslunni  *RAUTT*  
 
-Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.  
+Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun* ), Taka með birgðir =  *Já* , allar aðrar áætlunarfæribreytur = tómar.  
 
 #### <a name="case-32-demand-is-at--blue-location"></a>Dæmi 3.2: Eftirspurn er í birgðageymslunni  *RAUTT*  
 
@@ -115,7 +115,7 @@ Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðaspjaldinu.
 
 #### <a name="case-33-demand-is-at--blank-location"></a>Dæmi 3.3: Eftirspurn er í birgðageymslunni  *TÓMT*  
 
-Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.  
+Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun* ), Taka með birgðir =  *Já* , allar aðrar áætlunarfæribreytur = tómar.  
 
 ### <a name="setup-4"></a>Uppsetning 4:  
 
@@ -125,7 +125,7 @@ Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *P�
 
 #### <a name="case-41-demand-is-at--blue-location"></a>Dæmi 4.1: Eftirspurn er í birgðageymslunni  *BLÁTT*  
 
-Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.  
+Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun* ), Taka með birgðir =  *Já* , allar aðrar áætlunarfæribreytur = tómar.  
 
 #### <a name="case-42-demand-is-at--blank-location"></a>Dæmi 4.2: Eftirspurn er í birgðageymslunni  *TÓMT*  
 

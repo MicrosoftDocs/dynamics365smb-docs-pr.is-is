@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cfe028d21086269f1492aefde31fe6b659d06b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788122"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917502"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfis
 Aðgerðir áætlanagerðar eru í runuvinnslu sem velur fyrst viðkomandi vöru og tímabil sem áætlun gildir um. Þá, í samræmi við lágstigskóða (uppskriftarstaðsetningu), kallar runuvinnslan á kóðaeininguna, sem reiknar út birgðaáætlun með því að jafna framboð-eftirspurn og stinga upp á aðgerðum fyrir notandann. Ráðlagðar aðgerðir birtast sem línu á áætlunvinnublaðinu eða innkaupatillögunni.  
@@ -92,6 +92,14 @@ Tölurnar sýnir í hvaða röð kerfið gerir tillögur um framboðspantanir á
 
 Frekari upplýsingar um hluti tengda framleiðslu eru í [Hleðsla birgðaforstillinga](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
+#### <a name="optimizing-performance-for-low-level-calculations"></a>Fínstilla afköst fyrir lágstigsútreikninga
+Útreikningar á lágstigskóða geta haft áhrif á afköst kerfis. Til að draga úr áhrifunum er hægt að gera **Útreikning á breytilegum lágstigskóða** óvirkan á síðunni **Framleiðsluuppsetning** . Þegar það er gert leggur [!INCLUDE[d365fin](includes/d365fin_md.md)] til að stofnuð sé endurtekin verkraðarfærsla sem mun uppfæra lágstigskóða daglega. Hægt er að ganga úr skugga um að vinnslan keyri utan vinnutíma með því að tilgreina upphafstíma í reitnum **Fyrsti upphafsdagur/tími** .
+
+Einnig er hægt að virkja reiknireglu sem hraðar útreikningi á lágstigskóða með því að velja **Fínstilla útreikning fyrir lágstigskóða** á síðunni **Framleiðsluuppsetning** . 
+
+> [!IMPORTANT]
+> Ef valið er að fínstilla afköst notar [!INCLUDE[d365fin](includes/d365fin_md.md)] nýjar útreikningsaðferðir til að ákvarða lágstigskóða. Ef um er að ræða viðbót sem treystir á þau tilvik sem notast er við í gamla útreikningunum, getur viðbótin hætt að virka.   
+
 ### <a name="locations--transfer-level-priority"></a>Birgðageymslur / Forgangur millifærslustigs  
 Fyrirtæki sem starfa á fleiri en einum stað getur þurft að áætla fyrir hverja staðsetningu fyrir sig. Til dæmis getur öryggisbirgðastig vöru og endurpöntunarstefna verið mismunandi frá einum stað til annars. Í þessu tilviki, verða að vera tilgreind áætlunarfæribreyta fyrir hverja vöru og einnig á stað.  
 
@@ -156,7 +164,7 @@ Tengill á milli pantana á milli eftirspurnar og framboðs er önnur gerð eigi
 ### <a name="specific-attributes"></a>Tilgreindir eiginleikar  
 Ákveðin eigindir á eftirspurn eru sérstakar og verður að passa nákvæmlega við samsvarandi framboð. Eftirfarandi tvær sérstakar eigindir eru til:  
 
--   Krefjast raðnúmer/lotunúmer sem krefjast sérstaks forrits (**SN sértæk rakning** eða **lotusértæk rakning** gátreitur er valinn á síðunni **vörurakningarkóðaspjald** fyrir vörurakningarkóða sem er notað af hlutnum.)  
+-   Krefjast raðnúmer/lotunúmer sem krefjast sérstaks forrits ( **SN sértæk rakning** eða **lotusértæk rakning** gátreitur er valinn á síðunni **vörurakningarkóðaspjald** fyrir vörurakningarkóða sem er notað af hlutnum.)  
 -   Tenglar í framboðspantanir stofnaðir handvirkt eða sjálfvirkt fyrir tiltekna eftirspurn (tenglar á milli pantana).  
 
 Fyrir þessar eigindir beitir áætlanakerfið eftirfarandi reglum:  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd4e78bac5390cfbcdb5496ad7e747e87cab593f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ac927f9ef676cbfa433265346f69c92552802fce
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779911"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919239"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Búa til framleiðslupantanir úr sölupöntunum
 Hægt er að búa til framleiðslupantanir fyrir framleiðsluvörur beint frá sölupöntunum.  
@@ -24,8 +24,8 @@ Hægt er að búa til framleiðslupantanir fyrir framleiðsluvörur beint frá s
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Veldu sölupöntun sem þú vilt búa til framleiðslupöntun fyrir.  
-3.  Veldu aðgerðina **Áætlun**. Á síðunni **Áætlun sölupöntunar** er hægt að skoða magn vörunnar í sölupöntuninni sem er til ráðstöfunar.  
-4.  Veldu aðgerðina **Stofna framl.pöntun**.  
+3.  Veldu aðgerðina **Áætlun** . Á síðunni **Áætlun sölupöntunar** er hægt að skoða magn vörunnar í sölupöntuninni sem er til ráðstöfunar.  
+4.  Veldu aðgerðina **Stofna framl.pöntun** .  
 5.  Velja skal stöðu og pöntunartegund.  
 6.  Velja **Já** til að búa til framleiðslupöntunina.
 
