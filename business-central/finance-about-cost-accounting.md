@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d8628953230b27ae84ee363d41c43873c81cb11c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1e65f73e0c876cd19750d88144e93c1157268e28
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919550"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751056"
 ---
 # <a name="about-cost-accounting"></a>Um kostnaðarbókhald
 Kostnaðarbókhald getur hjálpað til við að kunna skil á kostnaði sem felst í því að reka fyrirtæki. Kostnaðarbókhaldsupplýsingar er gerðar til að greina.  
@@ -72,4 +72,4 @@ Flestar skýrslur og talnagögn eru byggð á bókuðum kostnaðurfærslum. Hæg
  [Kostnaðarreikningur](finance-manage-cost-accounting.md)  
  [Fjármál](finance.md)   
  [Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)  
- [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

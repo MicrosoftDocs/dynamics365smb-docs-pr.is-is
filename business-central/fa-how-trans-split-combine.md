@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f874548d0d84a3fbb215dfb8c81d4b7daeb5edfe
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b8bbaf958e749c5fb1598da181675b0eb33cb9f4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915636"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749194"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Flytja, skipta upp eða sameina eignir
 
@@ -70,7 +70,7 @@ Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir s
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir, bókfært virði 02** og veldu síðan tengda tengilinn.
 2. Fyllið inn reitina eftir þörfum.
-3. Veljið hnappinn **Prenta** eða **Forskoðun** .  
+3. Veljið hnappinn **Prenta** eða **Forskoðun**.  
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -78,4 +78,4 @@ Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir s
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
 [Hafist handa](product-get-started.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

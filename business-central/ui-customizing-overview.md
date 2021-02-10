@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a9ef59ddec127b8c87dbfb055870ce033fcd01b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ec80608757a8865cdea62af54ceda855e673942a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912597"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747644"
 ---
 # <a name="customize-business-central"></a>Sérstilla Business Central
 Það eru mismunandi leiðir til að sérstilla forritið til að gefa þér og samstarfsmönnum þínum aðgang að þeim eiginleikum, virkni og gögnum sem þú þarft mest á þann hátt sem hentar best daglegu starfi þínu. Það hvaða breytingar sjást veltur á því hvað þú gerir, eins og lýst er í þessari töflu.
@@ -31,9 +31,9 @@ ms.locfileid: "3912597"
 |Virkja liti í hlutverkamiðstöðvum til að merkja mikilvægi.|Setjið upp Bunka sem birtast í hlutverkamiðstöð notenda þannig að þeir innihaldi vísi sem breytir um lit eftir gildum í bunkum.|Notendur í tilteknu fyrirtæki.|[Setja upp litaðan vísi á bunka](admin-how-set-up-colored-indicator-on-cues.md)|
 |Setja upp viðbót|Viðbætur eru líkt og smáforrit sem bæta við virkni, breyta hegðun, veita þér aðgang að nýjum netþjónustum og fleira. Til dæmis veitir Microsoft viðbót sem veitir samþættingu við PayPal Payments Standard.|Allir notendur í öllum fyrirtækjum.|[Sérstilling með viðbótum](ui-extensions.md)|
 > [!NOTE]
-> Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] gera ráð fyrir **Úrvalsútgáfu** sem þýðir að áskriftirnar ná yfir heildarumfang viðmótseininga. Þess vegna geta notendur með **Grunnútgáfu** stundum lesið um virkni og viðmótseiginleika sem ekki eru sýnilegir í notendaviðmóti þeirra. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
+> Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[prod_short](includes/prod_short.md)] gera ráð fyrir **Úrvalsútgáfu** sem þýðir að áskriftirnar ná yfir heildarumfang viðmótseininga. Þess vegna geta notendur með **Grunnútgáfu** stundum lesið um virkni og viðmótseiginleika sem ekki eru sýnilegir í notendaviðmóti þeirra. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
 ## <a name="see-also"></a>Sjá einnig
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

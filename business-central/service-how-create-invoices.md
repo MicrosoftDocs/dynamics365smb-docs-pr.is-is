@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4cdc60905f03b5fab6ae43b8a5a99cda352e03c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 201138673bdc085d6097117b947359802ec17921
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925831"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748081"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Stofna Þjónustureikninga eða kreditreikninga
-Auðveld reikningsfærsla þjónustupantana er lykileiginleiki [!INCLUDE[prodshort](includes/prodshort.md)]. Hægt er að setja [!INCLUDE[prodshort](includes/prodshort.md)] kerfið upp þannig að þjónustutæknimaður á vettvangi geti stofnað reikning fyrir þjónustu sem ekki er tengd samningi eða pöntun. Einnig er hægt að setja upp [!INCLUDE[prodshort](includes/prodshort.md)] til að reikningsfæra þjónustusamninga reglulega. Reikningstímabil samnings ræður tíðni reikningsfærslu.
+Auðveld reikningsfærsla þjónustupantana er lykileiginleiki [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að setja [!INCLUDE[prod_short](includes/prod_short.md)] kerfið upp þannig að þjónustutæknimaður á vettvangi geti stofnað reikning fyrir þjónustu sem ekki er tengd samningi eða pöntun. Einnig er hægt að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að reikningsfæra þjónustusamninga reglulega. Reikningstímabil samnings ræður tíðni reikningsfærslu.
 
 ## <a name="to-invoice-several-service-contracts"></a>Að reikningsfæra nokkra þjónustusamninga
 
@@ -26,7 +26,7 @@ Auðveld reikningsfærsla þjónustupantana er lykileiginleiki [!INCLUDE[prodsho
 2. Færa skal inn þær afmarkanir sem á að nota.  
 3. Í reitnum **Bókunardags.** er færð inn dagsetningin sem á að nota sem bókunardagsetningu á þjónustureikningum.  
 4. Í reitnum **Reikningsfæra til dags.** er færð inn dagsetningin sem á að reikningsfæra samninga til. Í keyrslunni verða samningar með næstu dags. reiknings að þessari dagsetningu.  
-5. Í reitnum **Aðgerð** er valið að **Stofna reikninga** .  
+5. Í reitnum **Aðgerð** er valið að **Stofna reikninga**.  
 6. Smellt er á **Í lagi** til að stofna þjónustureikningana.  
   
 Einnig er hægt að reikningsfæra þjónustusamning beint af síðunni **Þjónustusamningur** ef næsta reikningsdags. samningsins er á undan vinnudagsetningunni.
@@ -34,28 +34,28 @@ Einnig er hægt að reikningsfæra þjónustusamning beint af síðunni **Þjón
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Til að reikningsfæra þjónustusamning úr síðunni Þjónustusamningur   
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda tengilinn.  
 2. Velja skal þjónustusamninginn sem á að reikningsfæra og opna samningsspjaldið.  
-3. Veldu aðgerðina **Stofna þjónustureikning** . 
+3. Veldu aðgerðina **Stofna þjónustureikning**. 
 4. Smellt er á **Já** til að stofna þjónustureikningana.  
   
   > [!NOTE]  
-  > Ekki er hægt að stofna þjónustureikninga fyrir þjónustusamning þegar gildið í reitnum **Breyta stöðu** er **Opið** .  
+  > Ekki er hægt að stofna þjónustureikninga fyrir þjónustusamning þegar gildið í reitnum **Breyta stöðu** er **Opið**.  
 
 ## <a name="to-post-an-invoice-from-a-service-order"></a>Bókun reikninga úr þjónustupöntunum  
 Eftirfarandi aðferð lýsir hvernig á að skilgreina þann þátt þjónustunnar sem verður skrifaður á reikning viðskiptamanns.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustupantanir** og veldu síðan tengda tengilinn.  
 2. Velja skal þjónustupöntunina sem á að reikningsfæra og opna pöntunarspjaldið.  
-3. Veljið aðgerðina **Þjónustulínur** .  
+3. Veljið aðgerðina **Þjónustulínur**.  
 4. Finndu færslurnar sem þörf er á og tilgreindu magnið sem á að skrifa á reikning viðskiptamanns í reitnum **Magn til reikningsf.**   
   
    > [!NOTE]  
-   > Hægt er að reikningsfæra á viðskiptamann fyrir skráða þjónustu að hluta til eða til fulls. Ef valið er að reikningsfæra til fulls verður gildið í reitnum  **Magn til reikningsf.** að vera jafnt og gildið í reitnum  **Magn** . Hægt er að bóka reikning til fulls með afhendingu til fulls og hægt er að bóka reikning til fulls fyrir afhendingu til fulls sem þegar er búið að bóka en hefur hvorki verið reikningsfærð né notuð áður.  
+   > Hægt er að reikningsfæra á viðskiptamann fyrir skráða þjónustu að hluta til eða til fulls. Ef valið er að reikningsfæra til fulls verður gildið í reitnum  **Magn til reikningsf.** að vera jafnt og gildið í reitnum  **Magn**. Hægt er að bóka reikning til fulls með afhendingu til fulls og hægt er að bóka reikning til fulls fyrir afhendingu til fulls sem þegar er búið að bóka en hefur hvorki verið reikningsfærð né notuð áður.  
    >  
-   > Ef reikningur að hluta er bókaður eru tvær leiðir til þess að tilgreina magnið sem á að reikningsfæra. Ef þjónustan er bókuð með valkostinum **Afhenda og reikningsfæra** verður gildið í reitnum **Magn til reikningsf.** að vera jafnt og gildið í reitnum **Magn til afhendingar** . Ef ætlunin er að reikningsfæra bókaða afhendingu má magn til reikningsfærslu ekki vera meira en gildið í reitnum **Afhent magn** .  
+   > Ef reikningur að hluta er bókaður eru tvær leiðir til þess að tilgreina magnið sem á að reikningsfæra. Ef þjónustan er bókuð með valkostinum **Afhenda og reikningsfæra** verður gildið í reitnum **Magn til reikningsf.** að vera jafnt og gildið í reitnum **Magn til afhendingar**. Ef ætlunin er að reikningsfæra bókaða afhendingu má magn til reikningsfærslu ekki vera meira en gildið í reitnum **Afhent magn**.  
   
-5. Veldu **Bóka** , og svo annað hvort **Reikning** eða **Afhenda og reikningsfæra** . Til að fá nánari upplýsingar um valkosti sjá [Bókun í þjónustukerfi](service-service-posting.md).  
+5. Veldu **Bóka**, og svo annað hvort **Reikning** eða **Afhenda og reikningsfæra**. Til að fá nánari upplýsingar um valkosti sjá [Bókun í þjónustukerfi](service-service-posting.md).  
   
- Þjónustulínan sem valin hefur verið er bókuð. Hægt er að bóka margar þjónustulínur í einu með því að velja þær allar og velja **Bóka** . Ef það er gert þarf að tryggja að allar nauðsynlegar upplýsingar hafi verið færðar inn í línurnar sem á að bóka.  
+ Þjónustulínan sem valin hefur verið er bókuð. Hægt er að bóka margar þjónustulínur í einu með því að velja þær allar og velja **Bóka**. Ef það er gert þarf að tryggja að allar nauðsynlegar upplýsingar hafi verið færðar inn í línurnar sem á að bóka.  
   
  Þegar pöntun er bókuð með valkostinum **Reikningur** er bókaður þjónustureikningur stofnaður ásamt tilheyrandi fjárhagsfærslum og viðkomandi reitir í þjónustulínum pöntunarinnar uppfærðir. Þar að auki eru bókuð afhendingarfylgiskjöl uppfærð með magninu sem búið er að reikningsfæra. Ef bókunarmöguleikinn **Afhenda og reikningsfæra** er jafnframt stofnuð bókuð afhending.
 
@@ -64,18 +64,18 @@ Ef þjónustupöntun er bókuð með valkostinum **Reikningur** eða **Afhenda o
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustureikningar** og veldu síðan tengda tengilinn.  
 2. Nýr þjónustureikningur er stofnaður.  
-3. Fylla þarf út reitinn **Nr.** . .  
+3. Fylla þarf út reitinn **Nr.**. .  
   
     > [!NOTE]  
     >  Hafi númeraröð fyrir þjónustureikninga verið sett upp á síðunni **Þjónustukerfisgrunnur** er hægt að styðja á færslulykilinn til að velja næsta lausa þjónustureikningsnúmer.  
   
 4. Í **Númer viðskiptamanns** reitinn er fært inn númer viðskiptamanns. Veljið viðeigandi viðskiptamann af listanum.  
   
-    Fyllt er í viðskiptavinareiti með upplýsingum úr spjaldinu **Viðskiptavinur** .  
+    Fyllt er í viðskiptavinareiti með upplýsingum úr spjaldinu **Viðskiptavinur**.  
   
 5. Dagsetning er færð inn í reitinn **Bókunardags.** Þessi dagsetning mun birtast á bókuðum færslum. Þessi dagsetning mun birtast á bókuðum færslum. Þessi reitur er fylltur út með gildandi vinnudagsetningu, en hægt er að breyta honum handvirkt.  
-6. Fylla skal út reitinn **Dagsetning fylgiskjals** . Dagsetningin sem færð er inn mun birtast á prentaða reikningnum og verður notuð til þess að reikna út gjalddaga.  
-7. Fylla inn í þjónustulínur reikningsins. Fylla inn í reitina **Tegund** , **Nr.** og **Magn** til þess að skrá vörur, magn og kostnað sem notað hefur verið í þjónustu. 
+6. Fylla skal út reitinn **Dagsetning fylgiskjals**. Dagsetningin sem færð er inn mun birtast á prentaða reikningnum og verður notuð til þess að reikna út gjalddaga.  
+7. Fylla inn í þjónustulínur reikningsins. Fylla inn í reitina **Tegund**, **Nr.** og **Magn** til þess að skrá vörur, magn og kostnað sem notað hefur verið í þjónustu. 
 
 ## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Til að stofna reikning sem sameinar bókaðar sendingarlínur úr einni eða fleiri þjónustupöntunum 
 Ef til vill þarf að stofna þjónustureikning fyrir þjónustu sem þegar hefur verið afhent, annað hvort úr einni eða fleiri þjónustupöntunum, en ekki verið reikningsfærð ennþá eða notuð. Hægt er að fylla reikningslínurnar út sjálfkrafa ásamt völdum bókuðum afhendingarlínum fyrir tilgreindan viðskiptamann.  

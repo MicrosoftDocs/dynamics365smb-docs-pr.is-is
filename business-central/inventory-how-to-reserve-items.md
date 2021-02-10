@@ -10,28 +10,28 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cd2ff853ba4e98115988b318663714ef4a842719
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: caa9a0445a001620d403d5298921bf9a25b35a94
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919415"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750031"
 ---
 # <a name="reserve-items"></a>Taka frá vörur
-Hægt er að taka vörur frá fyrir sölu-, innkaupa-, þjónustu, samsetningar- og framleiðslupantanir. Hægt er að taka frá vörur í birgðum eða á innleið í opnum skjalalínum eða færslubókarlínum. Þú framkvæmir vinnuna á síðunni **Frátekning** .
+Hægt er að taka vörur frá fyrir sölu-, innkaupa-, þjónustu, samsetningar- og framleiðslupantanir. Hægt er að taka frá vörur í birgðum eða á innleið í opnum skjalalínum eða færslubókarlínum. Þú framkvæmir vinnuna á síðunni **Frátekning**.
 
-Hver lína á síðunni **Frátekning** , sem þú opnar til að taka frá vörur, sýnir upplýsingar um eina tegund línu (sölu-, innkaupa-, bókar-) eða birgðafærslu. Línurnar lýsa því hver margar vörur er hægt að taka frá fyrir hverja tegund línu eða færslu.
+Hver lína á síðunni **Frátekning**, sem þú opnar til að taka frá vörur, sýnir upplýsingar um eina tegund línu (sölu-, innkaupa-, bókar-) eða birgðafærslu. Línurnar lýsa því hver margar vörur er hægt að taka frá fyrir hverja tegund línu eða færslu.
 
 ## <a name="to-reserve-items-for-sales"></a>Vörur teknar frá fyrir sölu
 Eftirfarandi lýsir því hvernig skal taka frá vörur frá sölupöntun. Skrefin eru svipuð fyrir innkaupa-, þjónustu og samsetningarpöntun.  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
-2.  Í sölupöntun í flýtiflipanum **Línur** veljið aðgerðina **Taka frá** . Síðan **Frátekning** opnast.  
+2.  Í sölupöntun í flýtiflipanum **Línur** veljið aðgerðina **Taka frá**. Síðan **Frátekning** opnast.  
 3. Smellt er á línuna þar sem taka á vörurnar frá.  
 4. Ein af eftirfarandi aðgerðum er valinn.  
 
     |**Virkni**|**Lýsing**|
     |------------------|---------------------|  
-    |**Sjálfvirk frátekning**|Vörur teknar sjálfkrafa frá á síðunni **Frátekning** .|  
+    |**Sjálfvirk frátekning**|Vörur teknar sjálfkrafa frá á síðunni **Frátekning**.|  
     |**Taka frá í gildandi línu**|Vörur teknar frá úr skjalinu á línunni sem hefur verið valin.|  
     |**Hætta við frátekningu í gildandi línu**|Hætt við að taka vörur frá úr skjalinu á línunni sem hefur verið valin.|
 
@@ -45,8 +45,8 @@ Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er notuð.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pöntun** og veldu síðan tengda tengilinn.  
 2. Opna fastáætluðu framleiðslupöntunina sem taka á frá yfirvörur fyrir.  
 3. Viðkomandi framleiðslupöntunarlína er valin.  
-4. Á flýtiflipanum **Línur** veljið aðgerðina **Taka frá** .
-5. Á síðunni **Frátekning** er valin línan **Sölulína, Pöntun** og síðan smellt á aðgerðina **Taka frá af gildandi línu** .  
+4. Á flýtiflipanum **Línur** veljið aðgerðina **Taka frá**.
+5. Á síðunni **Frátekning** er valin línan **Sölulína, Pöntun** og síðan smellt á aðgerðina **Taka frá af gildandi línu**.  
 
 Magnið sem fært var inn í fastáætluðu framleiðslupöntunarlínuna hefur verið frátekið.
 
@@ -57,26 +57,26 @@ Eftirfarandi aðferð sýnir hvernig fastáætluð framl.pöntun er notuð.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pöntun** og veldu síðan tengda tengilinn.  
 2. Opna fastáætluðu framleiðslupöntunina sem taka á frá íhlutavörur fyrir.  
 3. Viðkomandi framleiðslupöntunarlína er valin.  
-4. Á flýtiflipanum **Línur** skal velja **Lína** og velja svo **Íhlutir** .  
+4. Á flýtiflipanum **Línur** skal velja **Lína** og velja svo **Íhlutir**.  
 5. Viðeigandi íhlutarlínu er valin.  
-6. Á flýtiflipanum **Línur** veljið aðgerðina **Taka frá** .  
-7. Á síðunni **Frátekning** er valin línan og síðan smellt á aðgerðina **Taka frá af gildandi línu** .  
+6. Á flýtiflipanum **Línur** veljið aðgerðina **Taka frá**.  
+7. Á síðunni **Frátekning** er valin línan og síðan smellt á aðgerðina **Taka frá af gildandi línu**.  
 
 Magnið sem fært var inn í fastáætluðu framleiðsluíhlutalínuna hefur verið frátekið.
 
 ## <a name="to-change-a-reservation"></a>Frátekningu breytt:  
 Stundum er þörf á að breyta frátekningu á vöru.   
-1. Á skjalalínunni sem frátekningin beindist að, á flýtiflipanum **Línur** veljið aðgerðina **Taka frá** .  
-2. Á síðunni **Frátekning** skal velja aðgerðina **Frátekningarfærslur** .
-3. Síðan **Frátekningarfærslur** , uppfærðu reitinn **Magn** í línunni sem á að breyta.
-4. Staðfesta eftirfarandi skilaboð með því að velja hnappinn **Í lagi** .
+1. Á skjalalínunni sem frátekningin beindist að, á flýtiflipanum **Línur** veljið aðgerðina **Taka frá**.  
+2. Á síðunni **Frátekning** skal velja aðgerðina **Frátekningarfærslur**.
+3. Síðan **Frátekningarfærslur**, uppfærðu reitinn **Magn** í línunni sem á að breyta.
+4. Staðfesta eftirfarandi skilaboð með því að velja hnappinn **Í lagi**.
 
 ## <a name="to-cancel-a-reservation"></a>Hætt við frátekningu á vörum  
 Stundum er þörf á að hætta við frátekningu á vöru.   
-1. Úr fylgiskjalslínunni þar sem á að hætta við frátekningu, á flýtiflipanum **Línur** skal velja aðgerðina **Taka frá** .  
+1. Úr fylgiskjalslínunni þar sem á að hætta við frátekningu, á flýtiflipanum **Línur** skal velja aðgerðina **Taka frá**.  
 2. Á síðunni **Frátekning** skal velja **Frátekningarfærslur** aðgerðina.  
-3.  Á síðunni **Frátekningarfærslur** er valin aðgerðin **Hætta við frátekningu** .  
-4.  Staðfesta eftirfarandi skilaboð með því að velja hnappinn **Í lagi** .  
+3.  Á síðunni **Frátekningarfærslur** er valin aðgerðin **Hætta við frátekningu**.  
+4.  Staðfesta eftirfarandi skilaboð með því að velja hnappinn **Í lagi**.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Til að taka frá tiltekið rað- eða lotunúmer  
 Hægt að taka frá tiltekin raðnúmer eða lotunúmer í útleiðarskjölum fyrir vörur með línurakningu, svo sem sölupantanir eða framleiðsluíhlutalista. Þetta getur til dæmis átt við ef þörf er fyrir framleiðsluíhlutina úr tiltekinni lotu til að tryggja samræmi við fyrri framleiðslukeyrslur eða vegna þess að viðskiptavinur hefur beðið um ákveðið raðnúmer. Frekari upplýsingar, sjá [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md).
@@ -98,4 +98,4 @@ Eftirfarandi ferli byggist á sölupöntun.
 [Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Hönnunarupplýsingar - vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
 [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

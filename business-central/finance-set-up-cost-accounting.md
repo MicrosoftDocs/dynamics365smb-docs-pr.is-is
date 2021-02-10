@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d39d30891d822c25b0ce4aaec84bbbbc714ae311
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 194e9acb40233e23470aee6e61f6cabc503cea72
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910756"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746642"
 ---
 # <a name="setting-up-cost-accounting"></a>Uppsetning kostnaðarbókhalds
 Áður en byrjað er að vinna með kostnaðarbókhald þarf að framkvæma uppsetningarverkefni.
@@ -37,7 +37,7 @@ Myndrit kostnaðartegunda eru svipuð bókhaldslyklum í fjárhag. Hægt er að 
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Til að flytja bókhaldslykil fjárhags yfir í kostnaðargerðir.  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit kostnaðargerða** og veldu síðan tengda tengilinn.  
-2.  Velja skal aðgerðina **Sækja kostnaðargerðir úr bókhaldslykli** . Í svarglugganum er valið hnappinn **Já** til að staðfesta flutninginn. Aðgerðin notar bókhaldslykla til að stofna myndrit af kostnaðartegundum.  
+2.  Velja skal aðgerðina **Sækja kostnaðargerðir úr bókhaldslykli**. Í svarglugganum er valið hnappinn **Já** til að staðfesta flutninginn. Aðgerðin notar bókhaldslykla til að stofna myndrit af kostnaðartegundum.  
 
     Myndrit kostnaðargerða inniheldur nú alla rekstrarreikninga í fjárhag og inniheldur fyrirsagnir og samtölur. Hægt er að breyta myndriti yfir kostnaðartegundir, eftir þörfum. Til dæmis er hægt að eyða tvíteknum fyrirliggjandi kostnaðartegundum.  
 
@@ -49,13 +49,13 @@ Myndrit kostnaðartegunda eru svipuð bókhaldslyklum í fjárhag. Hægt er að 
 2.  Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  Hægt er að setja upp og viðhalda kostnaðargerðum á síðunni **Kostnaðargerð spjald** eða á síðunni **Myndrit yfir kostnaðargerðir** . Í þessu ferli eru settar upp kostnaðartegundir á síðunni **Myndrit yfir kostnaðargerðir** .
+    >  Hægt er að setja upp og viðhalda kostnaðargerðum á síðunni **Kostnaðargerð spjald** eða á síðunni **Myndrit yfir kostnaðargerðir**. Í þessu ferli eru settar upp kostnaðartegundir á síðunni **Myndrit yfir kostnaðargerðir**.
 
-3.  Þegar búið er að stofna öll kostnaðargerðir, skal velja aðgerðina **Draga inn kostnaðargerðir** . Í svarglugganum, veljið hnappinn **Já** .  
+3.  Þegar búið er að stofna öll kostnaðargerðir, skal velja aðgerðina **Draga inn kostnaðargerðir**. Í svarglugganum, veljið hnappinn **Já**.  
 4.  Tengja nýju tegund kostnaðar í samsvarandi almennan fjárhagslykil.  
 
     > [!IMPORTANT]  
-    >  Ef skilgreiningar hafa verið færðar í **Samtala** reitina fyrir línutegundina **Loka-upphæð** áður en aðgerðin **Inndráttur kostnaðargerða** er framkvæmd þarf að færa skilgreiningarnar inn aftur því að aðgerðin skrifar yfir gildin í öllum **Loka-Upphæð** -reitum.  
+    >  Ef skilgreiningar hafa verið færðar í **Samtala** reitina fyrir línutegundina **Loka-upphæð** áður en aðgerðin **Inndráttur kostnaðargerða** er framkvæmd þarf að færa skilgreiningarnar inn aftur því að aðgerðin skrifar yfir gildin í öllum **Loka-Upphæð**-reitum.  
 
 ### <a name="to-update-cost-types"></a>Til að uppfæra kostnaðargerðir  
 1.  Á síðunni **Uppsetning kostnaðarbókhalds** skal velja hvort uppfæra eigi myndrit yfir kostnaðartegundir sjálfkrafa þegar bókhaldslykillinn breytist.  
@@ -87,8 +87,8 @@ Til eru n:1 vensl milli fjárhagsreikninga og kostnaðargerðar. Nokkrir fjárha
 Kostnaðartegund má ekki hafa tengsl við fjárhagsreikninga ef annað af eftirfarandi skilyrðum á við:  
 
 * Reikningar fyrir rekstarbókhald, eins og Reikn. vextir og Afskriftir, taka einungis kostnað frá rekstrarbókhaldi.  
-* Aukakostnaðartegundir, t.d. kostnaðargerðir 9901, 9902 og 9903 í [!INCLUDE[d365fin](includes/d365fin_md.md)]-gagnagrunninum, eru notaðir sem kredit- og debetreikningar fyrir úthlutanir.  
-* Hjálparreikningurinn, 9920 í [!INCLUDE[d365fin](includes/d365fin_md.md)] gagnagrunninn, inniheldur raunverulegar uppsafnanir sem sýna muninn milli kostnaðar og gjalda úr fjárhag.
+* Aukakostnaðartegundir, t.d. kostnaðargerðir 9901, 9902 og 9903 í [!INCLUDE[prod_short](includes/prod_short.md)]-gagnagrunninum, eru notaðir sem kredit- og debetreikningar fyrir úthlutanir.  
+* Hjálparreikningurinn, 9920 í [!INCLUDE[prod_short](includes/prod_short.md)] gagnagrunninn, inniheldur raunverulegar uppsafnanir sem sýna muninn milli kostnaðar og gjalda úr fjárhag.
 
 ## <a name="setting-up-cost-centers"></a>Uppsetning kostnaðarstaða
 Kostnaðarstaðir eru deildir og framlegðarstöðvar sem bera ábyrgð á kostnaði og tekjum. Myndrit kostnaðarstaða er svipað og víddarupplýsingar fyrir fjárhag. Hægt er að setja upp myndritið yfir kostnaðarstaði á eftirfarandi hátt:  
@@ -97,7 +97,7 @@ Kostnaðarstaðir eru deildir og framlegðarstöðvar sem bera ábyrgð á kostn
 -   Stofna nýjan kostnaðarstað sem er óháður fjárhagnum eða bæta nýjum kostnaðarstað við kostnaðarstað sem fyrir er. Stofna þarf hvern kostnaðarstað sérstaklega.  
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Til að flytja víddargildi í fjárhag í myndrit yfir í kostnaðarstaði  
-1.  Setja upp vídd sem á að vera kostnaðarstaðarvíddin á síðunni **Uppfæra Kostnaðarbókhaldsvíddir** . Aðeins gildi úr þessari vídd er flutt.  
+1.  Setja upp vídd sem á að vera kostnaðarstaðarvíddin á síðunni **Uppfæra Kostnaðarbókhaldsvíddir**. Aðeins gildi úr þessari vídd er flutt.  
 2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit fyrir kostnaðarstaði** og veldu síðan tengda tengilinn.  
 3.  Í flipanum **Aðgerðir** í flokknum **Eiginleikar** veljið **Sækja úr víddinni kostnaðarstaðir** til að flytja víddargildi í myndriti kostnaðarstaðanna. Aðgerðin flytur víddargildin sem skilgreind voru í skrefi 1.  
 
@@ -107,18 +107,18 @@ Kostnaðarstaðir eru deildir og framlegðarstöðvar sem bera ábyrgð á kostn
 Myndrit kostnaðarstaða inniheldur nú öll tilgreind víddargildi úr fjárhag og inniheldur titla og samtölur.  
 
 ### <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Til að stofna nýja kostnaðarstaði á síðunni Myndrit fyrir kostnaðarstaði  
-Hægt er að setja upp og vinna með kostnaðarstaði í **Kostnaðarstaðaspjald** spjaldinu eða á síðunni **Myndrit fyrir kostnaðarstaði** . Í þessu ferli eru settir upp kostnaðarstaðir á síðunni **Myndrit fyrir kostnaðarstaði** .  
+Hægt er að setja upp og vinna með kostnaðarstaði í **Kostnaðarstaðaspjald** spjaldinu eða á síðunni **Myndrit fyrir kostnaðarstaði**. Í þessu ferli eru settir upp kostnaðarstaðir á síðunni **Myndrit fyrir kostnaðarstaði**.  
 
 1. Opnaðu síðuna **Myndrit yfir kostnaðarstaði** í breytingarstillingu.  
 2. Í reitinn **Kóði** er færður inn kóti kostnaðarstaðarins. Allir kostnaðarstaðir verða að hafa kóta.  
 3. Í reitinn **Heiti** er fært inn heiti kostnaðarstaðarins.  
 4. Velja fellilistaörina í reitnum **Línugerð** til að tilgreina tilgang kostnaðarstaðarins.  
 
-    - Fylla þarf út í reitinn **Samtala** fyrir kostnaðarstaði af gerðinni **Samtals** . Nota skal virkinn **eða** , sem er lóðrétt lína ( **&#124;** ) til að stilla svið kostnaðarstaða.  
+    - Fylla þarf út í reitinn **Samtala** fyrir kostnaðarstaði af gerðinni **Samtals**. Nota skal virkinn **eða**, sem er lóðrétt lína (**&#124;**) til að stilla svið kostnaðarstaða.  
     - Fyrir kostnaðarstaði af línutegundinni **Til-tala** er sjálfkrafa fyllt út í reitinn þegar inndráttarvirknin er notuð.  
-5.  Fyllið upp í reitina **Röðunarpöntun** og **Undirflokkar kostnaðar** .  
+5.  Fyllið upp í reitina **Röðunarpöntun** og **Undirflokkar kostnaðar**.  
 6.  Velja næstu tómu línu til að stofna nýjan kostnaðarstað og endurtaka síðan þrep 2 til 5.  
-7.  Þegar búið er að setja upp alla kostnaðarstað skal velja aðgerðina **Draga inn kostnaðarstaði** . Velja hnappinn **Já** .  
+7.  Þegar búið er að setja upp alla kostnaðarstað skal velja aðgerðina **Draga inn kostnaðarstaði**. Velja hnappinn **Já**.  
 
 > [!IMPORTANT]  
 >  Ef skilgreiningar voru færðar inn í **Samtölur** reitina fyrir **Loka-samtala** kostnaðarstaði áður en inndráttaraðgerðin var keyrð þarf að færa þær inn aftur. Aðgerðin skrifar yfir gildin í öllum **Til - tala** reitum.
@@ -130,7 +130,7 @@ Kostnaðurhlutir eru verkefni, afurðair eða þjónustur fyrirtækis. Myndrit k
 * Stofna nýjan kostnaðarhlut sem er óháður fjárhagnum eða bæta nýjum kostnaðarhlut við kostnaðarhlut sem fyrir er. Stofna þarf hvern kostnaðaríhlut sérstaklega.  
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Til að flytja víddargildi úr fjárhag í kostnaðarhluti  
-1.  Stilla vídd sem á að vera kostnaðarliðarvíddin á síðunni **Uppfæra CA víddir** . Aðeins gildi úr þessari vídd er flutt.  
+1.  Stilla vídd sem á að vera kostnaðarliðarvíddin á síðunni **Uppfæra CA víddir**. Aðeins gildi úr þessari vídd er flutt.  
 2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Myndrit kostnaðarhluta** og veldu síðan tengda tengilinn.  
 3.  Veljið aðgerðina **Sækja kostnaðarhluti úr vídd** til að flytja víddargildi í myndriti kostnaðarhlutanna. Aðgerðin flytur víddargildin sem skilgreind voru í skrefi 1.  
 
@@ -140,27 +140,27 @@ Kostnaðurhlutir eru verkefni, afurðair eða þjónustur fyrirtækis. Myndrit k
 Myndrit kostnaðarhluta inniheldur nú öll tilgreind víddargildi úr fjárhag og inniheldur titla og samtölur.  
 
 ### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Til að stofna nýja kostnaðarhluti á síðunni myndrit fyrir kostnaðarliði  
-Hægt er að setja upp og vinna með kostnaðarliði í **Kostnaðarliðaspjald** spjaldinu eða á síðunni **Myndrit fyrir kostnaðarliði** . Í þessu ferli eru settir upp kostnaðarliðir á síðunni **Myndrit fyrir kostnaðarliði** .  
+Hægt er að setja upp og vinna með kostnaðarliði í **Kostnaðarliðaspjald** spjaldinu eða á síðunni **Myndrit fyrir kostnaðarliði**. Í þessu ferli eru settir upp kostnaðarliðir á síðunni **Myndrit fyrir kostnaðarliði**.  
 
 1.  Opnaðu síðuna **Myndrit yfir kostnaðarliði** í breytingarstillingu.  
 2.  Í reitinn **Kóði** er færður inn kóti kostnaðarliða. Allir kostnaðarhlutir verða að hafa kóta.  
 3.  Í reitinn **Heiti** er færður inn heiti kostnaðarliða.  
 4.  Velja fellilistaörina í reitnum **Línugerð** til að tilgreina tilgang kostnaðarhlutarins.  
 
-    * Fyrir kostnaðarhluti af línutegundinni **Samtals** skal fylla út reitinn **Samtals frá/til** . Nota skal virkinn **eða** , sem er lóðrétt lína ( **&#124;** ) til að stilla svið kostnaðarhluta.  
+    * Fyrir kostnaðarhluti af línutegundinni **Samtals** skal fylla út reitinn **Samtals frá/til**. Nota skal virkinn **eða**, sem er lóðrétt lína (**&#124;**) til að stilla svið kostnaðarhluta.  
     * Fyrir kostnaðarhluti af línutegundinni **Til-tala** er sjálfkrafa fyllt út í reitinn þegar inndráttarvirknin er notuð.  
-5.  Fyllið upp í reitinn **Röðunarpöntun** .  
+5.  Fyllið upp í reitinn **Röðunarpöntun**.  
 6.  Velja næstu tómu línu til að stofna nýjan kostnaðarhlut og endurtaka síðan þrep 2 til 5.  
-7.  Þegar búið er að setja upp alla kostnaðarhlutina, skal velja aðgerðina **Draga inn kostnaðarhluti** . Velja hnappinn **Já** .  
+7.  Þegar búið er að setja upp alla kostnaðarhlutina, skal velja aðgerðina **Draga inn kostnaðarhluti**. Velja hnappinn **Já**.  
 
 > [!IMPORTANT]  
 >  Ef skilgreiningar voru færðar inn í reitina **Samtals frá/til** fyrir **Loka-upphæð** kostnaðarhluti áður en inndráttaraðgerðin var keyrð þarf að færa þær inn aftur. Aðgerðin skrifar yfir gildin í öllum **Til - tala** reitum.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Skilgreining kostnaðarstaði og kostnaðarhluti fyrir bókhaldslykil
-Hægt er að flytja útgjalda- og tekjufærslur sjálfkrafa úr fjárhag í kostnaðarbókhald, annað hvort fyrir hverja fjarhagsfærslu eða með keyrslu. Þegar flutningurinn er framkvæmdur flytur [!INCLUDE[d365fin](includes/d365fin_md.md)] aðeins færslur sem þegar eru tengdar við kostnaðarstað eða kostnaðarhlut. Til að búa til merkingarbæran flutning þarf að tryggja að kostnaðarstaðir og kostnaðarhlutir séu rétt skilgreindir.  
+Hægt er að flytja útgjalda- og tekjufærslur sjálfkrafa úr fjárhag í kostnaðarbókhald, annað hvort fyrir hverja fjarhagsfærslu eða með keyrslu. Þegar flutningurinn er framkvæmdur flytur [!INCLUDE[prod_short](includes/prod_short.md)] aðeins færslur sem þegar eru tengdar við kostnaðarstað eða kostnaðarhlut. Til að búa til merkingarbæran flutning þarf að tryggja að kostnaðarstaðir og kostnaðarhlutir séu rétt skilgreindir.  
 
 ### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Skilgreining sjálfgefin víddargildi fyrir fjárhagslykla  
-Fyrir hvern fjárhagsreikning er hægt að skilgreina sjálfgefið víddargildi í töflunni **Sjálfgefið víddargildi** . Eftirfarandi dæmi sýnir hvernig eigi að skilgreina að það ætti alltaf að vera kostnaðarstaður DEILDAR, en aldrei kostnaðarhlutur VERKEFNIS þegar bókað er á almennan fjárhagslykil.  
+Fyrir hvern fjárhagsreikning er hægt að skilgreina sjálfgefið víddargildi í töflunni **Sjálfgefið víddargildi**. Eftirfarandi dæmi sýnir hvernig eigi að skilgreina að það ætti alltaf að vera kostnaðarstaður DEILDAR, en aldrei kostnaðarhlutur VERKEFNIS þegar bókað er á almennan fjárhagslykil.  
 
 |**Víddarkóti**|**Virðisbókun**|  
 |------------------------------------------|-----------------------------------------|  
@@ -182,4 +182,4 @@ Fyrir hvern fjárhagsreikning er hægt að skilgreina sjálfgefið víddargildi 
 [Kostnaðarreikningur](finance-manage-cost-accounting.md)  
 [Flytja og bóka kostnaðarfærslur](finance-transfer-and-post-cost-entries.md)   
 [Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

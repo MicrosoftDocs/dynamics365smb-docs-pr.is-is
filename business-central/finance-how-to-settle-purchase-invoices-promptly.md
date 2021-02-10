@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: bac023393d95623a2731ef1b2ada7d30b135063b
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: fb442c7b1e9e7bdcb727ca6de157657e370e254f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968360"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746842"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Greiða innkaupareikninga tímanlega
 
@@ -24,8 +24,8 @@ Ef greiða þarf lánardrottni með peningum eða ávísun er hægt að bóka gr
 ## <a name="to-settle-purchase-invoices-promptly"></a>Innkaupareikningar gerðir skjótt upp
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.  
-2. Valið er aðgerðin **Nýtt** .  
-3. Ef á að greiða annaðhvort með peningum eða bankamillifærslu skal færa inn númer fjárhagssjóðsreikningsins eða bankareikningsins í reitinn **Númer mótreiknings** .  
+2. Valið er aðgerðin **Nýtt**.  
+3. Ef á að greiða annaðhvort með peningum eða bankamillifærslu skal færa inn númer fjárhagssjóðsreikningsins eða bankareikningsins í reitinn **Númer mótreiknings**.  
 
 > [!IMPORTANT]  
 > Reitirnir **Tegund mótreiknings** og **Mótreikningur nr.** eru ekki í staðalútliti reikningshaussins. Til að bóka greiðslu á reikningi verður fyrst að hafa samband við samstarfsaðila Microsoft sem getur bætt reitunum við með kóða.  
@@ -36,4 +36,4 @@ Ef greiða þarf lánardrottni með peningum eða ávísun er hægt að bóka gr
 
 [Stjórna skuldum](payables-manage-payables.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

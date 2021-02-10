@@ -5,29 +5,30 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2020
+ms.date: 10/29/2020
 ms.author: edupont
-ms.openlocfilehash: 7ed69f86a941a216ef948488d3756c06f298549d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e8a1e6de5cc8889f144e08db8ed77e4543cb9b4c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927683"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752056"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni
 
-Sumir vinna í mörgum fyrirtækjum í [!INCLUDE [prodshort](includes/prodshort.md)], og sumir vinna einnig fyrir fleiri en eina stofnun, svo sem ytri endurskoðendur eða starfsmenn og stjórnendur samsteypa með mörgum dótturfyrirtækjum. Fyrir þessa notendur, og marga aðra, þjónar fyrirtækjamiðstöðin hlutverki lendingarsíðu fyrir stjórnun vinnu yfir hin ýmsu umhverfi sem unnið er í, yfir fyrirtæki, umhverfi og svæði.  
+Sumir vinna í mörgum fyrirtækjum í [!INCLUDE [prod_short](includes/prod_short.md)], og sumir vinna einnig fyrir fleiri en eina stofnun, svo sem ytri endurskoðendur eða starfsmenn og stjórnendur samsteypa með mörgum dótturfyrirtækjum. Fyrir þessa notendur, og marga aðra, þjónar fyrirtækjamiðstöðin hlutverki lendingarsíðu fyrir stjórnun vinnu yfir hin ýmsu umhverfi sem unnið er í, yfir fyrirtæki, umhverfi og svæði.  
 
-Hægt er að opna fyrirtækjamiðstöðina með því að kveikja á hlutverkinu **Fyrirtækjamiðstöð** í mínum stillingum eða með því að opna síðuna **Fyrirtækjamiðstöð** . Hægt er að gera sömu vinnu á báðum stöðum en aðgerðir eru örlítið öðruvísi staðsettar í valmyndum.  
+Hægt er að opna fyrirtækjamiðstöðina með því að kveikja á hlutverkinu **Fyrirtækjamiðstöð** í mínum stillingum eða með því að opna síðuna **Fyrirtækjamiðstöð**. Hægt er að gera sömu vinnu á báðum stöðum en aðgerðir eru örlítið öðruvísi staðsettar í valmyndum.  
+
+> [!NOTE]
+> Hægt er að tengja fyrirtækjamiðstöð við eins mörg fyrirtæki og þörf krefur. Hins vegar er aðeins hægt að tengja fyrirtækjamiðstöð við fyrirtæki sem eru hýst á [!INCLUDE [prod_short](includes/prod_short.md)] á netinu.
 
 ## <a name="company-hub-home-page"></a>Heimasíða fyrirtækjamiðstöðvar
 
-Ef notað er hlutverkið **Fyrirtækjamiðstöð** sýnir heimasíðan lista yfir fyrirtæki sem þú hefur aðgang að , þ.m.t. upplýsingar um gögn afkastavísa (KPI) og tengla til að opna hvert fyrirtæki fyrir sig. Þú getur sérstillt yfirlitssíðuna til að birta gagnapunktana sem þú vilt sjá með því að bæta við eða fjarlægja dálka. Þú vilt kannski sjá, sem dæmi, ógreidda skatta, hversu mörg opin söluskjöl sérhvert fyrirtæki er með, eða þann fjölda innkaupareikninga sem þarf að greiða í næstu viku. Hægt er að laga yfirlitið að þörfum þínum. Ef þú hefur bætt við mörgum fyrirtækjum er hægt að nota afmarkanir til skipuleggja yfirlitið.  
-
-Veljið aðgerðina **Fyrirtækjamiðstöð** til að opna fyrirtækjamiðstöðina þar sem hægt er að vinna betur með hvert fyrirtæki fyrir sig.  
+Ef notað er hlutverkið **Fyrirtækjamiðstöð** sýnir heimasíðan lista yfir fyrirtæki sem þú hefur aðgang að , þ.m.t. upplýsingar um gögn afkastavísa (KPI) og tengla til að opna hvert fyrirtæki fyrir sig. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Veljið aðgerðina **Fyrirtækjamiðstöð** til að opna fyrirtækjamiðstöðina þar sem hægt er að vinna betur með hvert fyrirtæki fyrir sig.  
 
 > [!TIP]
-> Til að fá aðgang að tilteknu fyrirtæki í [!INCLUDE [prodshort](includes/prodshort.md)] skal velja heiti fyrirtækisins eða velja valmyndaratriðið **Fara í fyrirtæki** - þú ert skráður sjálfkrafa inn í nýjum vafraglugga.
+> Til að fá aðgang að tilteknu fyrirtæki í [!INCLUDE [prod_short](includes/prod_short.md)] skal velja heiti fyrirtækisins eða velja valmyndaratriðið **Fara í fyrirtæki** - þú ert skráður sjálfkrafa inn í nýjum vafraglugga.
 
 :::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Aðgerðir fyrir fyrirtæki sem er skráð í fyrirtækjamiðstöðinni":::
 
@@ -52,7 +53,7 @@ Otherwise, close the details pane and continue to the next company.  -->
 
 ## <a name="assigned-tasks"></a>Úthlutuð verkefni
 
-Í [!INCLUDE [prodshort](includes/prodshort.md)] er hægt að úthluta verkefnum á sjálfan þig og aðra, og aðrir geta úthlutað verkefnum á þig. Fyrirtækjamiðstöðin veitir þér yfirsýn yfir úthlutuð verk fyrir hvert fyrirtæki og þú hefur einnig aðgang að lista yfir öll úthlutuð verk með því að velja **Notandaverkefni mín** á síðunni **Heim** .  
+Í [!INCLUDE [prod_short](includes/prod_short.md)] er hægt að úthluta verkefnum á sjálfan þig og aðra, og aðrir geta úthlutað verkefnum á þig. Fyrirtækjamiðstöðin veitir þér yfirsýn yfir úthlutuð verk fyrir hvert fyrirtæki og þú hefur einnig aðgang að lista yfir öll úthlutuð verk með því að velja **Notandaverkefni mín** á síðunni **Heim**.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
@@ -70,22 +71,22 @@ Frekari upplýsingar um fyrirtæki og umhverfi er að finna í [Umhverfistenglar
 
 ## <a name="access-the-company-hub"></a>Aðgangur að fyrirtækjamiðstöðinni
 
-Til að fá aðgang að fyrirtækjamiðstöðinni verður þú að hafa aðgang í gegnum annaðhvort notendaflokkinn *D365 COMPANY HUB* eða í gegnum heimildasamstæðuna *D365 COMPANY HUB* . Einnig þarf að hafa aðgang að fyrirtækjum sem eru skráð í fyrirtækjamiðstöðinni, sem þýðir að þú verður að vera notandi í þessum fyrirtækjum. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)  
+Til að fá aðgang að fyrirtækjamiðstöðinni verður þú að hafa aðgang í gegnum annaðhvort notendaflokkinn *D365 COMPANY HUB* eða í gegnum heimildasamstæðuna *D365 COMPANY HUB*. Einnig þarf að hafa aðgang að fyrirtækjum sem eru skráð í fyrirtækjamiðstöðinni, sem þýðir að þú verður að vera notandi í þessum fyrirtækjum. Nánari upplýsingar er að finna í [Búa til notendur samkvæmt leyfum](ui-how-users-permissions.md)  
 
 > [!IMPORTANT]
-> Fyrirtækjamiðstöðin er listi yfir öll fyrirtæki, þannig að sérhverjum notanda sem veittur er aðgangur að fyrirtækjamiðstöðinni mun geta séð öll fyrirtæki í eigin [!INCLUDE [prodshort](includes/prodshort.md)]-leigjanda og alla afkastavísa fyrir fyrirtækin sem þeir hafa aðgang að.
+> Fyrirtækjamiðstöðin er listi yfir öll fyrirtæki, þannig að sérhverjum notanda sem veittur er aðgangur að fyrirtækjamiðstöðinni mun geta séð öll fyrirtæki í eigin [!INCLUDE [prod_short](includes/prod_short.md)]-leigjanda og alla afkastavísa fyrir fyrirtækin sem þeir hafa aðgang að.
 
-Ef ekki er hægt að finna fyrirtækjamiðstöðina og þú veist að þú hefur fengið aðgang að henni skaltu hafa samband við stjórnandann ef fyrirtækjamiðstöðin er sýnd á síðunni **Viðbótastjórnun** . Frekari upplýsingar eru í [Sérstilling Business Central með viðbótum](ui-extensions.md).  
+Ef ekki er hægt að finna fyrirtækjamiðstöðina og þú veist að þú hefur fengið aðgang að henni skaltu hafa samband við stjórnandann ef fyrirtækjamiðstöðin er sýnd á síðunni **Viðbótastjórnun**. Frekari upplýsingar eru í [Sérstilling Business Central með viðbótum](ui-extensions.md).  
 
 ## <a name="set-up-the-company-hub"></a>Setja upp fyrirtækjamiðstöðina
 
 Til að nota fyrirtækjamiðstöðina þarf að bæta einu eða fleiri fyrirtækjum við stjórnborðið. Frekari upplýsingar er að finna í [Bæta fyrirtækjum við fyrirtækjamiðstöðina](company-hub-add-company.md).  
 
-En til að bæta við fyrirtæki verður þú að hafa fengið aðgang að einu eða fleiri tilvikum af [!INCLUDE [prodshort](includes/prodshort.md)] auk fyrirtækisins sem þú notar fyrirtækjamiðstöðina í.  
+En til að bæta við fyrirtæki verður þú að hafa fengið aðgang að einu eða fleiri tilvikum af [!INCLUDE [prod_short](includes/prod_short.md)] auk fyrirtækisins sem þú notar fyrirtækjamiðstöðina í.  
 
-Til dæmis, ef þú ert endurskoðandi getur viðskiptavinir þínir boðið þér í [!INCLUDE [prodshort](includes/prodshort.md)]. Frekari upplýsingar eru í [Bjóða ytri endurskoðanda í þitt Business Central](finance-accounting.md#inviteaccountant).  
+Til dæmis, ef þú ert endurskoðandi getur viðskiptavinir þínir boðið þér í [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Bjóða ytri endurskoðanda í þitt Business Central](finance-accounting.md#inviteaccountant).  
 
-Stjórnendur geta notað sömu uppsetningarleiðbeiningar með aðstoð til að bæta þér við [!INCLUDE [prodshort](includes/prodshort.md)], eða þeir geta bætt þér við þér í viðeigandi Azure AD-reikning í stjórnendamiðstöð Microsoft 365. Frekari upplýsingar er að finna í [Stjórna notendum og hópum](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Stjórnendur geta notað sömu uppsetningarleiðbeiningar með aðstoð til að bæta þér við [!INCLUDE [prod_short](includes/prod_short.md)], eða þeir geta bætt þér við þér í viðeigandi Azure AD-reikning í stjórnendamiðstöð Microsoft 365. Frekari upplýsingar er að finna í [Stjórna notendum og hópum](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
 ## <a name="see-also"></a>Sjá einnig .
 

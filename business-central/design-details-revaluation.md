@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5ece03828aad360b03a4c2cc4e0b47a6f603e8dc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911006"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751206"
 ---
 # <a name="design-details-revaluation"></a>Hönnunarupplýsingar: Endurmat
 Hægt er að endurmeta birgðir á grundvelli virðisgrundvallar sem endurspeglar nákvæmast birgðavirði. Einnig er hægt að bakfæra endurmat, þannig að kostnaður við seldar vörur(kostnaður seldra vara) sé rétt uppfærður fyrir vöru sem hefur þegar verið seld. Vörur sem nota hefðbundna aðferð kostnaðarútreiknings og hafa ekki verið reikningsfærðar að fullu er einnig hægt að endurmeta.  
 
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er eftirfarandi sveigjanleiki studdur varðandi endurmat:  
+Í [!INCLUDE[prod_short](includes/prod_short.md)] er eftirfarandi sveigjanleiki studdur varðandi endurmat:  
 
 -   Endurmetanlegt magn er hægt að reikna fyrir allar dagsetningar, líka aftur í tímann.  
 -   Fyrir vörur sem nota kostnaðarútreikninginn Staðlað eru áætlaðar kostnaðarfærslur hafðar með í endurmatinu.  
@@ -41,7 +41,7 @@ Eftirfarandi dæmi sýnir þegar VÍV-vara verður hluti birgða. Dæmið er byg
 
 ![VÍV birgðir og endurmat](media/design_details_inventory_costing_10_revaluation_wip.png "VÍV birgðir og endurmat")  
 
-**1Q** : Notandinn bókar innkaupatenglana sem móttekna. Eftirfarandi tafla sýnir afleidda birgðafærslu.  
+**1Q**: Notandinn bókar innkaupatenglana sem móttekna. Eftirfarandi tafla sýnir afleidda birgðafærslu.  
 
 |Bókunardags.|Vara|Tegund færslu|Magn|Færslunr.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -50,13 +50,13 @@ Eftirfarandi dæmi sýnir þegar VÍV-vara verður hluti birgða. Dæmið er byg
 > [!NOTE]  
 >  Nú er vara sem notar hefðbundna aðferð kostnaðarútreiknings í boði fyrir endurmat.  
 
-**1V** : Notandinn bókar innkaupatengla sem reikningsfærða og tenglarnir verða hluti birgða, fjárhagslega séð. Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
+**1V**: Notandinn bókar innkaupatengla sem reikningsfærða og tenglarnir verða hluti birgða, fjárhagslega séð. Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
 
 |Bókunardags.|Tegund færslu|Dagsetning mats|Kostnaðarupphæð (raunverul.)|Birgðafærslunr.|Færslunr.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Beinn kostnaður|01-01-20|150,00|1|1|  
 
- **2Q + 2 V** : Notandinn bókar innkaupatengla sem notaða í framleiðslu járnkeðju. Fjárhagslega séð verða tenglarnir hluti af birgðum VÍV.  Eftirfarandi tafla sýnir afleidda birgðafærslu.  
+ **2Q + 2 V**: Notandinn bókar innkaupatengla sem notaða í framleiðslu járnkeðju. Fjárhagslega séð verða tenglarnir hluti af birgðum VÍV.  Eftirfarandi tafla sýnir afleidda birgðafærslu.  
 
 |Bókunardags.|Vara|Tegund færslu|Magn|Færslunr.|  
 |------------------|----------|----------------|--------------|---------------|  
@@ -70,31 +70,31 @@ Eftirfarandi tafla sýnir afleidda virðisfærslu.
 
 Virðisdagsetningin er stillt á dagsetningu bókunar fyrir notkun (02-01-20) sem regluleg birgðaminnkun.  
 
-**3Q** : Notandinn bókar keðjuna sem frálag og lokar framleiðslupöntuninni. Eftirfarandi tafla sýnir afleidda birgðafærslu.  
+**3Q**: Notandinn bókar keðjuna sem frálag og lokar framleiðslupöntuninni. Eftirfarandi tafla sýnir afleidda birgðafærslu.  
 
 |Bókunardags.|Vara|Tegund færslu|Magn|Færslunr.|  
 |------------------|----------|----------------|--------------|---------------|  
 |02-15-20|KEÐJA|Frálag|1|3|  
 
-**3V** : Notandinn keyrir runuvinnsluna **Leiðrétta kostnað - Birgðafærslur** , sem bókar keðjuna sem reikningsfærða tila ð sýna að öll efnisnotkun hefur verið reikningsfærð að fullu. Fjárhagslega séð eru tenglarnir ekki lengur hluti af birgðum VÍV þegar frálagið er reikningsfært og jafnað að fullu. Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
+**3V**: Notandinn keyrir runuvinnsluna **Leiðrétta kostnað - Birgðafærslur**, sem bókar keðjuna sem reikningsfærða tila ð sýna að öll efnisnotkun hefur verið reikningsfærð að fullu. Fjárhagslega séð eru tenglarnir ekki lengur hluti af birgðum VÍV þegar frálagið er reikningsfært og jafnað að fullu. Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
 
 |Bókunardags.|Tegund færslu|Dagsetning mats|Kostnaðarupphæð (raunverul.)|Birgðafærslunr.|Færslunr.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Beinn kostnaður|01-01-20|150,00|2|2|  
 |02-01-20|Beinn kostnaður|02-01-20|-150,00|2|2|  
-|02-15-20|Beinn kostnaður|02-15-20|150.00|3|3|  
+|02-15-20|Beinn kostnaður|02-15-20|150,00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Áætlaður kostnaður í endurmati  
-Endurmetanlegt magn XE „Endurmetanlegt magn“  XE „Magn, Endurmetanlegt“   er reiknað sem summa magns XE „magn“  fyrir fullreikningsfærðar XE „Reikningur“ birgðahöfuðbók XE „Birgðahöfuðbók“  færslur með sömu bókunardagsetningu eða eldri en endurmats XE „Endurmat“  dagsetningin. Þetta þýðir að þegar sumar vörur eru móttekin/flutt en ekki reikningsfærðar er ekki hægt að reikna birgðavirði þeirra XE „Birgðavirði“. Vörur sem nota hefðbundna aðferð kostnaðarútreiknings eru ekki takmarkaðar að þessu leyti. XE „Virði“  
+Endurmetanlegt magn er reiknað sem summa magns fyrir fullreikningsfærðar birgðahöfuðbókarfærslur með sömu bókunardagsetningu eða eldri en endurmatsdagsetningin. Þetta þýðir að þegar sumar vörur eru móttekin / flutt en ekki reikningfærðar er ekki hægt að reikna birgðavirði þeirra. Vörur sem nota hefðbundna aðferð kostnaðarútreiknings eru ekki takmarkaðar að þessu leyti.  
 
 > [!NOTE]  
->  Önnur gerð áætlaðs kostnaðar sem hægt er að endurmeta eru VÍV-birgðir, eftir tilteknum reglum. Nánari upplýsingar eru í hlutanum „VÍG-birgðir endurmat“ í þessu efnisatriði.  
+>  Önnur gerð áætlaðs kostnaðar sem hægt er að endurmeta eru VÍV-birgðir, eftir tilteknum reglum. Frekari upplýsingar eru í [VÍV endurmat á birgðum](design-details-revaluation.md#wip-inventory-revaluation).  
 
 Við útreikning á endurreiknanlegu magni fyrir vörur sem nota staðlaða aðferð kostnaðarútreiknings eru teknar með birgðahöfuðbókarfærslur sem hafa ekki verið alveg innheimtar. Færslurnar eru þá endurmetnar þegar endurmatið er bókað. Þegar þú reikningsfærir endurmetnu færsluna eru eftirfarandi virðisfærslur stofnaðar:  
 
--   Vanaleg virðisdagsetning reikningsins með færslugerðinni **Beinn kostnaður** . Kostnaðurupphæð á þessari færslu er bein kostnaður frá upptökum línu.  
--   Virðisfærsla með færslugerðinni **Frávik** . Þessi færsla skráir muninn milli reikningsfærðs kostnaðar og endurmetins staðalkostnaðar.  
--   Virðisfærsla með færslugerðinni **Endurmat** . Þessi færsla sýnir bakfærslu á endurmati væntanlegs kostnaðar.  
+-   Vanaleg virðisdagsetning reikningsins með færslugerðinni **Beinn kostnaður**. Kostnaðurupphæð á þessari færslu er bein kostnaður frá upptökum línu.  
+-   Virðisfærsla með færslugerðinni **Frávik**. Þessi færsla skráir muninn milli reikningsfærðs kostnaðar og endurmetins staðalkostnaðar.  
+-   Virðisfærsla með færslugerðinni **Endurmat**. Þessi færsla sýnir bakfærslu á endurmati væntanlegs kostnaðar.  
 
 ### <a name="example"></a>Dæmi  
 Eftirfarandi dæmi, sem byggir á framleiðslu á keðju í síðasta dæmi, sýnir hvernig þrjár tegundir af færslum eru búnar til. Þetta er byggt á eftirfarandi atburðarás:  
@@ -103,7 +103,7 @@ Eftirfarandi dæmi, sem byggir á framleiðslu á keðju í síðasta dæmi, sý
 2.  Notandinn bókar endurmat tenglanna með nýju einingaverði upp á SGM 3.00 sem uppfærir staðalkostnað í SGM 3.00.  
 3.  Notandinn bókar upprunaleg kaup tenglanna samkvæmt reikningi, sem býr til eftirfarandi:  
 
-    1.  Reikningsfærð virðisfærsla með færslugerð **Beinn kostnaður** .  
+    1.  Reikningsfærð virðisfærsla með færslugerð **Beinn kostnaður**.  
     2.  Virðisfærsla með færslugerð **Endurmat** til að skrá bakfærslu endurmats áætlaðs kostnaðar.  
     3.  Virðisfærsla með færslugerðinni Frávik, skráir mismun milli reikningsfærðs kostnaðar og endurmetins staðalkostnaðar.  
 Eftirfarandi tafla sýnir afleiddar virðisfærslur.  
@@ -114,9 +114,9 @@ Eftirfarandi tafla sýnir afleiddar virðisfærslur.
 |2.|01-20-20|Endurmat|01-20-20|150,00|0,00|1|2|  
 |3.a.|01-15-20|Beinn kostnaður|01-15-20|-300,00|0,00|1|3|  
 |3.b.|01-15-20|Endurmat|01-20-20|-150,00|0,00|1|4|  
-|3.c.|01-15-20|Frávik|01-15-20|0,00|450,00|1|5|  
+|3.c.|01-15-20|Frávik|01-15-20|0.00|450,00|1|5|  
 
-## <a name="determining-if-an-inventory-decrease-is-affected-by-revaluation"></a>Ákvarða, hvort birgðaminnkun verður fyrir áhrifum af endurmati  
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Ákvarðað hvort birgðaminnkun verður fyrir áhrifum af endurmati  
 Dagsetning bókunar eða endurmats er notað til að ákvarða hvort birgðaminnkun verður fyrir áhrifum af endurmati.  
 
 Eftirfarandi tafla sýnir skilyrði sem eru notuð fyrir vöru sem ekki notar meðalkostnaðarmatsaðferð.  
@@ -163,13 +163,13 @@ Eftirfarandi tafla sýnir afleiddar virðisfærslur.
 ## <a name="wip-inventory-revaluation"></a>VÍV endurmat á birgðum  
 Endurmat VÍV-birgða felst í að endurmeta íhluti sem eru skráðir sem hluti af VÍV-birgðum á þeim tíma af endurmati.  
 
-Sé það haft í huga er mikilvægt að koma á fót hefðum um það hvenær vara telst vera hluti af VÍV-birgðum frá fjárhagslegu sjónarmiði. Í [!INCLUDE[d365fin](includes/d365fin_md.md)], er til eftirfarandi hefð:  
+Sé það haft í huga er mikilvægt að koma á fót hefðum um það hvenær vara telst vera hluti af VÍV-birgðum frá fjárhagslegu sjónarmiði. Í [!INCLUDE[prod_short](includes/prod_short.md)], er til eftirfarandi hefð:  
 
 -   Keyptur íhlutur verður hluti af hráefnisbirgðum frá bókun innkaupa sem reikningsfærðra.  
 -   Keyptur/hálfsamsettur íhlutur verður hluti VÍV-birgða frá bókun notkunar hans í tengslum við framleiðslupöntun.  
 -   Keyptur/hálfsamsettur íhlutur er áfram hluti VÍV-birgða þar til framleiðslupöntun (framleidd vara) er reikningsfærð.  
 
-Það hvernig virðisdagsetningin fyrir virðisfærslu notkunar er stillt fylgir sömu reglum og fyrir birgðir sem ekki eru VÍV. Nánari upplýsingar eru í hlutanum „Ákvarðað hvort birgðaminnkun verður fyrir áhrifum af endurmati“ í þessu efnisatriði.  
+Það hvernig virðisdagsetningin fyrir virðisfærslu notkunar er stillt fylgir sömu reglum og fyrir birgðir sem ekki eru VÍV. Frekari upplýsingar eru í [Ákvarðað hvort birgðaminnkun verður fyrir áhrifum af endurmati](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
 
 VÍG-birgðir er hægt að endurmeta svo framarlega sem endurmatsdagsetningin er ekki eftir bókunardagsetningu samsvarandi birgðabókarfærslna af gerðinni Notkun og svo fremi sem samsvarandi framleiðslupöntun hefur ekki enn verið reikningsfærð.  
 
@@ -181,4 +181,4 @@ VÍG-birgðir er hægt að endurmeta svo framarlega sem endurmatsdagsetningin er
  [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)   
  [Hönnunarupplýsingar: Birgðavirði](design-details-inventory-valuation.md) [Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
- [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

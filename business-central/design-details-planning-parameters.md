@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: planning, design
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7eddf4c988c6edc3ae1a0dbfd045fa7b4f5b4b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b041eb6c573c9f50b09eb741ee2ceead154f8161
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921993"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751281"
 ---
 # <a name="design-details-planning-parameters"></a>Hönnunarupplýsingar: áætlunarfæribreyta
-Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+Þetta efni lýsir mismunandi áætlunarfæribreytum sem þú getur notað í [!INCLUDE[prod_short](includes/prod_short.md)]  
 
 Áætlunarkerfið stjórnar vöruframboði ákvarðast af ýmsum stillingum á birgðaspjaldinu eða birgðahaldseiningunni og stillingum í uppsetningu framleiðslu. Eftirfarandi tafla sýnir hvernig þessar færibreytur eru notaðar fyrir áætlanagerð.  
 
@@ -37,14 +37,14 @@ Til að fela vöru/ birgðahaldseining í áætlanagerð, verður það að hafa
 ## <a name="define-when-to-reorder"></a>Skilgreina hvenær á að endurpanta  
 Endurpöntunartillögur eru almennt gefin út aðeins þegar spáð tiltækt magn hefur farið niður fyrir tiltekið magn. Þetta magn er skilgreint með endurpöntunarmark. Annars er það núll. Núll má leiðrétta með því að færa inn öryggisbirgðamagn. Ef notandi hefur skilgreint öryggisafhendingartíma veldur það því að tillagan verður afhent á tímabilinu á undan gjalddaganum sem krafist er.  
 
-Reiturinn **Tímarammi** er notaður í endurpöntunarstefnum ( **Fast endurpöntunarmagn** og **Hámarksmagn** ), þar sem birgðastig er athugað eftir hvern tímaramma. Fyrsti tímaramminn hefst á upphafsdegi áætlunar.  
+Reiturinn **Tímarammi** er notaður í endurpöntunarstefnum (**Fast endurpöntunarmagn** og **Hámarksmagn**), þar sem birgðastig er athugað eftir hvern tímaramma. Fyrsti tímaramminn hefst á upphafsdegi áætlunar.  
 
 > [!NOTE]  
->  Þegar tímarammi er reiknaður út hunsar áætlanakerfið öll vinnudagatöl sem eru skilgreind í **Grunndagatalskóði** reitnum á síðunum **Fyrirtækjaupplýsingar** og **Birgðageymslukort** .  
+>  Þegar tímarammi er reiknaður út hunsar áætlanakerfið öll vinnudagatöl sem eru skilgreind í **Grunndagatalskóði** reitnum á síðunum **Fyrirtækjaupplýsingar** og **Birgðageymslukort**.  
 
 Sjálfgefna öryggisforskotið á síðunni **Uppsetning framleiðslu** ætti að vera stillt á að minnsta kosti einn dag. Lokadagur eftirspurnar er vitað, en ekki lokatími. Áætlunargerðin er gerð afturvirkt til að mæta mikilli eftirspurn og, ef einginn afhendingartími er skilgreindur í öryggisskyni, gætu vörurnar komið of seint og ekki mætt eftirspurn.  
 
-Þrír viðbótar endurpöntunartímabilsreitir gegna einnig hlutverki í því að skilgreina hversu mikið þarf að endurpanta: **Enduráætlunartímabil** , **Lotusöfnunartímabil** og **Hömlutímabil** . Nánari upplýsingar er að finna [Bjartsýni Hvenær og Hvernig Mikill að Endurraða](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
+Þrír viðbótar endurpöntunartímabilsreitir gegna einnig hlutverki í því að skilgreina hversu mikið þarf að endurpanta: **Enduráætlunartímabil**, **Lotusöfnunartímabil** og **Hömlutímabil**. Nánari upplýsingar er að finna [Bjartsýni Hvenær og Hvernig Mikill að Endurraða](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## <a name="define-how-much-to-reorder"></a>Skilgreina hve mikið á að endurpanta  
 Ef áætlanakerfið greinir þörfina á að endurpanta er valin endurpöntunarstefna notuð til að ákvarða hvenær og hversu mikið á að panta.  
@@ -57,7 +57,7 @@ Ef áætlanakerfið greinir þörfina á að endurpanta er valin endurpöntunars
 4. Ef það er meiri brúttóeftirspurn til afhendingar fyrir lokadagsetningu framvirkt áætluðu pöntunartillögunnar og þessi eftirspurn færir núverandi áætlaðar tiltækar birgðir niður fyrir öryggisbirgðamagnið er pöntunarmagnið aukið til að bæta upp fyrir hallann. Ráðlögð birgðapöntun er því næst áætluð aftur á bak frá skiladegi vergrar eftirspurnar sem hefði farið út fyrir magn öryggisbirgða.  
 5. Ef ekki er fyllt út í reitinn **Tímarammi** verður eingöngu brúttóeftirspurn á sama gjalddaga bætt við.  
 
-     Eftirfarandi endurpöntunartímabilsreitir gegna einnig hlutverki í því að skilgreina hversu mikið þarf að endurpanta: **Enduráætlunartímabil** , **Lotusöfnunartímabil** og **Hömlutímabil** . Nánari upplýsingar er að finna [Bjartsýni Hvenær og Hvernig Mikill að Endurraða](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
+     Eftirfarandi endurpöntunartímabilsreitir gegna einnig hlutverki í því að skilgreina hversu mikið þarf að endurpanta: **Enduráætlunartímabil**, **Lotusöfnunartímabil** og **Hömlutímabil**. Nánari upplýsingar er að finna [Bjartsýni Hvenær og Hvernig Mikill að Endurraða](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ### <a name="reordering-policies"></a>Endurpöntunarstefnur  
 Eftirfarandi endurpöntunarstefnur stjórna því hversu mikið er endurpantað.  
@@ -86,19 +86,19 @@ Tímasetning enduráætlunartímabils, hömlutímabils og lotusöfnunartímabils
 
 Í eftirfarandi dæmum, svarta örvar tákna núverandi framboð (upp) og eftirspurn (niður). Rauðar, grænar og appelsínuguldar örvar eru áætlunartillögur.  
 
-**Dæmi 1** : Breytta dagsetningin er utan enduráætlunartímabilsins sem veldur því að hætt er við núverandi framboð. Nýtt framboð er lagt til til að ná yfir eftirspurn í lotusöfnunartímabilinu.  
+**Dæmi 1**: Breytta dagsetningin er utan enduráætlunartímabilsins sem veldur því að hætt er við núverandi framboð. Nýtt framboð er lagt til til að ná yfir eftirspurn í lotusöfnunartímabilinu.  
 
 ![Enduráætlunar- og lotusöfnunartímabil](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Enduráætlunar- og lotusöfnunartímabil")  
 
-**Dæmi 2** : Breytta dagsetningin er á enduráætlunartímabilinu, sem veldur því að núverandi framboð er enduráætlað. Nýtt framboð er lagt til til að ná yfir eftirspurn utan lotusöfnunartímabilsins.  
+**Dæmi 2**: Breytta dagsetningin er á enduráætlunartímabilinu, sem veldur því að núverandi framboð er enduráætlað. Nýtt framboð er lagt til til að ná yfir eftirspurn utan lotusöfnunartímabilsins.  
 
 ![Enduráætlunartímabil, lotusöfnunartímabil og enduráætlun](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Enduráætlunartímabil, lotusöfnunartímabil og enduráætlun")  
 
-**Dæmi 3** : Eftirspurn er á hömlutímabilinu og framboðsmagnið á lotusöfnunartímabilinu stemmir við framboðsmagnið. Næsta eftirspurn er óvarin og stungið er upp á nýrri eftirspurn.  
+**Dæmi 3**: Eftirspurn er á hömlutímabilinu og framboðsmagnið á lotusöfnunartímabilinu stemmir við framboðsmagnið. Næsta eftirspurn er óvarin og stungið er upp á nýrri eftirspurn.  
 
 ![Hömlu- og lotusöfnunartímabil](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Hömlu- og lotusöfnunartímabil")  
 
-**Dæmi 4** : Eftirspurn er á hömlutímabilinu og framboðið er áfram á sömu dagsetningu. Hins vegar er núverandi framboðsmagn ekki nóg til að svara eftirspurn á lotusöfnunartímabilinu, svo lögð er til breytingaraðgerð á magni fyrir núverandi birgðir.  
+**Dæmi 4**: Eftirspurn er á hömlutímabilinu og framboðið er áfram á sömu dagsetningu. Hins vegar er núverandi framboðsmagn ekki nóg til að svara eftirspurn á lotusöfnunartímabilinu, svo lögð er til breytingaraðgerð á magni fyrir núverandi birgðir.  
 
 ![Hömlutímabil, lotusöfnunartímabil og breyting á magni](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Hömlutímabil, lotusöfnunartímabil og breyting á magni")  
 

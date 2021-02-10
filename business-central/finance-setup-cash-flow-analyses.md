@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 401f471fe8af79c2373547a7ec6f51dc6366bd78
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e64ee514f8b837f2c9e1114511122bcf6e160a64
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923045"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746567"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Setja upp sjóðstreymisgreiningu
 Ef þú vilt fá aðstoð til að ákveða hvað þú átt að gera með féð þitt, skoðaðu töflurnar á Hlutverkamiðstöð bókhaldara:  
@@ -44,7 +44,7 @@ Gröf **ferils bundins reiðufés** og **tekjur og útgjöld** eru tilbúin til 
 
 **Athugaðu** Það er góð hugmynd að halda útreikningum sem eru veittar fyrir reikningsáætlunina.  
 
-Sláðu inn reikninga í reitinn **Samtals** fyrir **Heildartekjur** , **Samtala viðskiptakrafna** , **Samtala viðskiptaskulda** og **Samtals birgðir** . Til að varpa á nokkra reikninga, eða fleiri en einn reikning, skaltu slá inn reikningsnúmer aðskilin með ".." eða með lóðrétt striki. Til dæmis **1111..4444** eða **2222|3333|5555** .  
+Sláðu inn reikninga í reitinn **Samtals** fyrir **Heildartekjur**, **Samtala viðskiptakrafna**, **Samtala viðskiptaskulda** og **Samtals birgðir**. Til að varpa á nokkra reikninga, eða fleiri en einn reikning, skaltu slá inn reikningsnúmer aðskilin með ".." eða með lóðrétt striki. Til dæmis **1111..4444** eða **2222|3333|5555**.  
 
 **Ábending** Staðfestu kortlagninguna þína með því að velja **Yfirlit** aðgerðina.  
 
@@ -56,12 +56,12 @@ Sjóðstreymi er byggt á eftirfarandi:
 
 Til að hjálpa þér að komast, eru nokkrar reikningar og sjóðstreymisstillingar veittar. Þú getur bætt við, breytt eða fjarlægt þau.  
 
-Til að setja þetta upp skaltu leita að **sjóðstreymisreikningum** , velja tengilinn og fylla síðan inn reitina. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Endurtekur skrefin fyrir **Uppsetning sjóðstreymis** .  
+Til að setja þetta upp skaltu leita að **sjóðstreymisreikningum**, velja tengilinn og fylla síðan inn reitina. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Endurtekur skrefin fyrir **Uppsetning sjóðstreymis**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Uppsetning sjóðsstreymisspáa
 **Sjóðstreymisspá** notar sjóðstreymisreikninga, sjóðstreymisskipulag og sjóðstreymisspár. Sumir eru til staðar, en þú getur sett upp þitt eigið með því að nota aðstoðarmaður uppsetningarleiðbeiningar. Leiðbeiningarnar hjálpar til við að tilgreina atriði hversu oft eigi að uppfæra spá, reikningar til að byggja á, upplýsingar um þegar greiða skatta og hvort kveikja eigi á [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
-Sjóðstreymisspár geta notað Azure AI til að spá fyrir um komandi skjöl. Niðurstaðan er ítarlegri spá. Tengingin við Azure AI er þegar sett upp fyrir þig. Þú þarft bara að kveikja á því. Þegar þú skráir þig inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] birtist tilkynning á bláum reit og veitir hlekkur til sjálfgefna sjóðstreymisuppsetningar. Tilkynningin birtist aðeins einu sinni. Ef þú lokar því, en ákveður að kveikja á Azure AI, getur þú notað uppsetningu með hjálp eða handvirkt ferli.  
+Sjóðstreymisspár geta notað Azure AI til að spá fyrir um komandi skjöl. Niðurstaðan er ítarlegri spá. Tengingin við Azure AI er þegar sett upp fyrir þig. Þú þarft bara að kveikja á því. Þegar þú skráir þig inn á [!INCLUDE[prod_short](includes/prod_short.md)] birtist tilkynning á bláum reit og veitir hlekkur til sjálfgefna sjóðstreymisuppsetningar. Tilkynningin birtist aðeins einu sinni. Ef þú lokar því, en ákveður að kveikja á Azure AI, getur þú notað uppsetningu með hjálp eða handvirkt ferli.  
 
 > [!NOTE]  
 >   Að öðrum kosti er hægt að nota eigin fyrirsjáanlega vefþjónustu. Nánari upplýsingar er að finna í [Búa til og nota eigin fyrirsjáanlega vefþjónustu fyrir sjóðstreymisspár](#AnchorText).  
@@ -71,20 +71,20 @@ Uppsetning assisted leiðbeiningum nota til:
 1. Í Hlutverkamiðstöð bókhaldara undir **Sjóðstreymisspá** skal velja **Opna uppsetningu með hjálp** aðgerðina.  
 2. Fylltu út reitina í hverju skrefi leiðarvísisins.  
 3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sjóðstreymisspá** og veldu síðan tengda tengilinn.
-4. Á síðunni **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá** .  
+4. Á síðunni **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
 
 Nota handvirkt ferli:  
 
 1. Í Hlutverkamiðstöð bókhaldara skaltu leita að **Uppsetning sjóðstreymis** og velja svo tengdan tengil.  
-2. Stækkaðu **Azure AI** flýtiflipann og veldu gátreitinn **Kveikt á Azure AI** .  
+2. Stækkaðu **Azure AI** flýtiflipann og veldu gátreitinn **Kveikt á Azure AI**.  
 3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sjóðstreymisspá** eða Lánardrottinn og veldu síðan tengda tengilinn.
-4. Á síðunni **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá** .  
+4. Á síðunni **Sjóðstreymisspá** skal velja aðgerðina **Endurreikna spá**.  
 
 > [!TIP]  
 >   Íhugaðu lengd tímabila sem þjónustan er notaður í útreikningum hennar. Frekari gögn sem veita verður því nákvæmari á predictions. Líka watch út fyrir mikið frávik í tímabil. Þeir eru einnig hefur predictions. Ef Azure AI finnur ekki næg gögn eða gögnin breytast við lotu mun þjónustan ekki framkvæma forspá.  
 
 ## <a name="design-details"></a>Hönnunarupplýsingar
-Áskriftum að [!INCLUDE[d365fin](includes/d365fin_md.md)] fylgir aðgangur að nokkrum forspárþjónustum á netinu á öllum stöðum þar sem [!INCLUDE[d365fin](includes/d365fin_md.md)] er í boði. Frekari upplýsingar er að finna í Microsoft Dynamics 365 Business Central leyfishandbók. Leiðbeiningarnar eru í boði til niðurhals á vefsvæði [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
+Áskriftum að [!INCLUDE[prod_short](includes/prod_short.md)] fylgir aðgangur að nokkrum forspárþjónustum á netinu á öllum stöðum þar sem [!INCLUDE[prod_short](includes/prod_short.md)] er í boði. Frekari upplýsingar er að finna í Microsoft Dynamics 365 Business Central leyfishandbók. Leiðbeiningarnar eru í boði til niðurhals á vefsvæði [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
 
 Þessar vefþjónustur eru óháðar fylkjum, sem þýðir að þær nota aðeins gögn til að reikna eftirspurnarspár. Þær vita ekki gögn.
 
@@ -95,28 +95,28 @@ Nota handvirkt ferli:
 Til að spá fyrir um tekjur og útgjöld í framtíðinni þurfa vefþjónustur á eldri gögnum að halda frá útistandandi, viðskiptaskuldum og sköttum.
 
 #### <a name="receivables"></a>Útistandandi:
-Reitirnir **Gjalddagi** , **Upphæð (SGM)** síðunnar **Færslur í viðskiptamannabók** , þar sem:
+Reitirnir **Gjalddagi**, **Upphæð (SGM)** síðunnar **Færslur í viðskiptamannabók**, þar sem:
 - Tegund skjals er reikningur eða kreditreikningur.
 - Gjalddagi er á milli dagsetningar sem er reiknuð út frá gildunum í reitunum **Eldri tímabil** og **Tímabilsgerð** á síðunni **Uppsetning sjóðstreymis** og vinnudagsetningarinnar.
 
-Áður en forspárþjónusta á netinu er notuð þjappar [!INCLUDE[d365fin](includes/d365fin_md.md)] færslum eftir **Gjalddaga** út frá gildinu í reitnum **Tímabilsgerð** á síðunni **Uppsetning sjóðstreymis** .
+Áður en forspárþjónusta á netinu er notuð þjappar [!INCLUDE[prod_short](includes/prod_short.md)] færslum eftir **Gjalddaga** út frá gildinu í reitnum **Tímabilsgerð** á síðunni **Uppsetning sjóðstreymis**.
 
 #### <a name="payables"></a>Viðskiptaskuldir:
-Reitirnir **Gjalddagi** , **Upphæð (SGM)** á síðunni **Lánardrottnafærslur** , þar sem:
+Reitirnir **Gjalddagi**, **Upphæð (SGM)** á síðunni **Lánardrottnafærslur**, þar sem:
 - Tegund skjals er „Reikningur“ eða „Kreditreikningur“.
 - Gjalddagi er á milli dagsetningar sem er reiknuð út frá gildum í reitunum **Eldri tímabil** og **Tímabilsgerð** á síðunni **Uppsetning sjóðstreymis** og vinnudagsetningarinnar.
 
-Áður en forspárþjónusta á netinu er notuð þjappar [!INCLUDE[d365fin](includes/d365fin_md.md)] færslum eftir **Gjalddaga** út frá gildinu í reitnum **Tímabilsgerð** á síðunni **Uppsetning sjóðstreymis** .
+Áður en forspárþjónusta á netinu er notuð þjappar [!INCLUDE[prod_short](includes/prod_short.md)] færslum eftir **Gjalddaga** út frá gildinu í reitnum **Tímabilsgerð** á síðunni **Uppsetning sjóðstreymis**.
 
 #### <a name="tax"></a>Skattur:
-Reitirnir **Dagsetning skjals** , **Upphæð** á síðunni **Fjárhagsfærslur VSK (skatts)** , þar sem:
+Reitirnir **Dagsetning skjals**, **Upphæð** á síðunni **Fjárhagsfærslur VSK (skatts)**, þar sem:
 - Tegund skjals er „sala“.
 - Dagsetning skjals er á milli dagsetningar sem er reiknuð út frá gildum í reitunum **Eldri tímabil** og **Tímabilsgerð** á síðunni **Uppsetning sjóðstreymis** og vinnudagsetningarinnar.
 
-Áður en forspárþjónusta á netinu er notuð þjappar [!INCLUDE[d365fin](includes/d365fin_md.md)] færslum eftir **Dagsetning skjals** út frá gildinu í reitnum **Tímabilsgerð** á síðunni **Uppsetning sjóðstreymis** .
+Áður en forspárþjónusta á netinu er notuð þjappar [!INCLUDE[prod_short](includes/prod_short.md)] færslum eftir **Dagsetning skjals** út frá gildinu í reitnum **Tímabilsgerð** á síðunni **Uppsetning sjóðstreymis**.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"> </a>Búa til og nota eigin fyrirsjáanlega vefþjónustu fyrir sjóðstreymisspár
-Þú getur einnig búið til þína eigin fyrirsjáanlega vefþjónustu byggt á opinberu líkani sem heitir **Spárlíkan fyrir Microsoft Business Central** . Þetta líkan er aðgengilegt á netinu í Azure AI. Fylgið eftirfarandi skrefum til að fá aðgang að reitunum:  
+Þú getur einnig búið til þína eigin fyrirsjáanlega vefþjónustu byggt á opinberu líkani sem heitir **Spárlíkan fyrir Microsoft Business Central**. Þetta líkan er aðgengilegt á netinu í Azure AI. Fylgið eftirfarandi skrefum til að fá aðgang að reitunum:  
 
 1. Opnaðu vafra og farðu á [Azure AI Gallery](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Leita að **Forspármódel fyrir Microsoft Business Central** og opna svo líkanið í Azure Machine Learning Studio.  
@@ -131,4 +131,4 @@ Reitirnir **Dagsetning skjals** , **Upphæð** á síðunni **Fjárhagsfærslur 
 ## <a name="see-also"></a>Sjá einnig
 [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

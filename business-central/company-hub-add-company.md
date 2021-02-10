@@ -5,31 +5,34 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: accountant, accounting, company hub
-ms.date: 10/01/2020
+ms.date: 10/29/2020
 ms.author: edupont
-ms.openlocfilehash: 773731ecc860e7d1ea0d13bbf9e6896a746544be
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a1832ae903af633756dd7fc2301e8a7ac21924de
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927685"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752106"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Bæta fyrirtækjum við fyrirtækjamiðstöðina
 
-Með fyrirtækjamiðstöðinni er hægt að fá nálgast vinnuna í gegnum mörg fyrirtæki í mörgum [!INCLUDE [prodshort](includes/prodshort.md)]-umhverfum. Hægt er að bæta umhverfi og fyrirtækjum við handvirkt, ef fyrirtækin birtast ekki sjálfkrafa í fyrirtækjamiðstöðinni.  
+Með fyrirtækjamiðstöðinni er hægt að fá nálgast vinnuna í gegnum mörg fyrirtæki í mörgum [!INCLUDE [prod_short](includes/prod_short.md)]-umhverfum. Hægt er að bæta umhverfi og fyrirtækjum við handvirkt, ef fyrirtækin birtast ekki sjálfkrafa í fyrirtækjamiðstöðinni.  
 
-Á lendingarsíðu fyrirtækjamiðstöðvar finnur þú valmyndina **Uppsetning** þaðan sem hægt er að opna síðuna **Umhverfistenglar** . Veljið **Nýtt** og fyllið svo inn í viðeigandi svæði. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+Á lendingarsíðu fyrirtækjamiðstöðvar finnur þú valmyndina **Uppsetning** þaðan sem hægt er að opna síðuna **Umhverfistenglar**. Veljið **Nýtt** og fyllið svo inn í viðeigandi svæði. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+
+> [!NOTE]
+> Hægt er að tengja fyrirtækjamiðstöð við eins mörg fyrirtæki og þörf krefur. Hins vegar er aðeins hægt að tengja fyrirtækjamiðstöð við fyrirtæki sem eru hýst á [!INCLUDE [prod_short](includes/prod_short.md)] á netinu.
 
 ## <a name="environment-links"></a>Umhverfistenglar
 
-Tengilll á umhverfi er spjald þar sem tilgreint er [!INCLUDE [prodshort](includes/prodshort.md)]-umhverfi sem hýsir eitt eða fleiri fyrirtæki sem notandi starfar í. Gögnin á spjaldi hvers umhverfis fyrir sig eru tilgreind af þér og þú getur breytt þeim að vild. Aftur á móti er reiturinn **Tengill umhverfis** mikilvægur - þannig færð þú aðgang að hverju fyrirtæki fyrir sig í [!INCLUDE [prodshort](includes/prodshort.md)]. Notið aðgerðina **Prófa tenginguna** á borðanum til að sannreyna hvort réttur tengill hafi verið sleginn inn. Tengilinn sem þarf að færa inn bendir á umhverfi sem hýsir fyrirtækið sem verið er að bæta við og hann verður að innihalda kennið fyrir Azure Active Directory (Azure AD) eða lénsheiti fyrirtækisins. Ef þeir hafa til dæmis tilgreint aðsetur á borð við MyBusiness.com, þá er tengillinn á [!INCLUDE [prodshort](includes/prodshort.md)] þeirra ```https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1```. Annars mun hann líta einhvern veginn svona út: ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```  
+Tengilll á umhverfi er spjald þar sem tilgreint er [!INCLUDE [prod_short](includes/prod_short.md)]-umhverfi sem hýsir eitt eða fleiri fyrirtæki sem notandi starfar í. Gögnin á spjaldi hvers umhverfis fyrir sig eru tilgreind af þér og þú getur breytt þeim að vild. Aftur á móti er reiturinn **Tengill umhverfis** mikilvægur - þannig færð þú aðgang að hverju fyrirtæki fyrir sig í [!INCLUDE [prod_short](includes/prod_short.md)]. Notið aðgerðina **Prófa tenginguna** á borðanum til að sannreyna hvort réttur tengill hafi verið sleginn inn. Tengilinn sem þarf að færa inn bendir á umhverfi sem hýsir fyrirtækið sem verið er að bæta við og hann verður að innihalda kennið fyrir Azure Active Directory (Azure AD) eða lénsheiti fyrirtækisins. Ef þeir hafa til dæmis tilgreint aðsetur á borð við MyBusiness.com, þá er tengillinn á [!INCLUDE [prod_short](includes/prod_short.md)] þeirra ```https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1```. Annars mun hann líta einhvern veginn svona út: ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```  
 
 Tengillinn er notaður þegar fyrirtækið er valið í fyrirtækjamiðstöðinni.  
 
 :::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Aðgerðir fyrir fyrirtæki sem er skráð í fyrirtækjamiðstöðinni":::
 
 > [!TIP]
-> Ef unnið er í ókeypis prufuútgáfunni af [!INCLUDE [prodshort](includes/prodshort.md)], er auðvelt að bæta fyrirtækjum við í leigjandanum. Hægt er að finna tengil umhverfis með því að afrita Azure Active Directory-kennið úr hlutanum **Úrræðaleit** á síðu hjálpar og notendaþjónustu. Heiti umhverfis er líklega sjálfgefið gildi, FRAMLEIÐSLA. Bætið þessum upplýsingum við **Tengil umhverfis** , t.d. ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, og veljið svo **Prófa tenginguna** . Tilraunafyrirtækinu verður bætt við listann.
+> Ef unnið er í ókeypis prufuútgáfunni af [!INCLUDE [prod_short](includes/prod_short.md)], er auðvelt að bæta fyrirtækjum við í leigjandanum. Hægt er að finna tengil umhverfis með því að afrita Azure Active Directory-kennið úr hlutanum **Úrræðaleit** á síðu hjálpar og notendaþjónustu. Heiti umhverfis er líklega sjálfgefið gildi, FRAMLEIÐSLA. Bætið þessum upplýsingum við **Tengil umhverfis**, t.d. ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, og veljið svo **Prófa tenginguna**. Tilraunafyrirtækinu verður bætt við listann.
 >
 > Ef þú hefur verið farið yfir í þrjátíu daga tilraunafyrirtæki, Fyrirtækið mitt, geturðu bætt því við listann með því að velja aðgerðina **Endurhlaða / Endurhlaða öllum fyrirtækjum** í listanum.
 

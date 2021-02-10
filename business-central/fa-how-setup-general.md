@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4c75ec6637999e11d9741974ed844222401e4298
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9dabf51c3961690b9faa19ee58a809013427ad47
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920648"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749245"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Uppsetning almennra eignaupplýsinga
 Áður en hægt er að vinna með eignir, þarf að setja upp sjálfgefna fjárhagsreikninga, úthlutunarlykla, færslubókarsniðmát og keyrslur fyrir bókun á eign og endurflokkun og hægt er að flokka eignir í eignaflokka, til dæmis Áþreifanlegar og Óáþreifanlegar.
@@ -51,7 +51,7 @@ Hægt er að úthluta færslum á ýmsar deildir og/eða verkefni samkvæmt úth
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Setja upp sniðmát eignabóka
 Sniðmát er fyrirfram skilgreind uppsetning á færslubók. Í sniðmáti eru upplýsingar um ferilskóta, skýrslur og númeraraðir. Frekari upplýsingar, sjá [Vinna með almennar færslubækur](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] býr sjálfkrafa til sniðmát færslubókar eignar í fyrsta sinn sem síðan **Færslubók eignar** er opnuð, en hægt er að setja upp önnur sniðmát færslubókar.  
+[!INCLUDE[prod_short](includes/prod_short.md)] býr sjálfkrafa til sniðmát færslubókar eignar í fyrsta sinn sem síðan **Færslubók eignar** er opnuð, en hægt er að setja upp önnur sniðmát færslubókar.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát eignabóka** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
@@ -64,7 +64,7 @@ Hægt er að setja upp margar bókarkeyrslur sem eru sérstakar færslubækur fy
 3. Á síðunni **eignabókarkeyrslur** þarf að fylla reitina út eftir þörfum.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Setja upp keyrslur endurflokkunarsniðmáta
-Hægt er að nota eignaendurflokkunarbókina til að flytja eignir, skipta þeim upp eða sameina þær. [!INCLUDE[d365fin](includes/d365fin_md.md)] býr sjálfkrafa til sniðmát endurflokkunarbókar eignar í fyrsta sinn sem síðan **Endurflokkunarbók eignar** er opnuð, en hægt er að setja upp önnur sniðmát endurflokkunarbókar. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
+Hægt er að nota eignaendurflokkunarbókina til að flytja eignir, skipta þeim upp eða sameina þær. [!INCLUDE[prod_short](includes/prod_short.md)] býr sjálfkrafa til sniðmát endurflokkunarbókar eignar í fyrsta sinn sem síðan **Endurflokkunarbók eignar** er opnuð, en hægt er að setja upp önnur sniðmát endurflokkunarbókar. Frekari upplýsingar eru í [vinna með almenn færslubók](ui-work-general-journals.md).  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sniðmát eignaendurflokkunarbóka** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
@@ -95,7 +95,7 @@ Eignastaðsetningarkóta eru notaðir til að skrá staðsetningu eignarinnar, s
 2. Færðir eru inn kóðar og heiti á staðsetningum eigna sem búa á til.
 
 ## <a name="to-register-opening-entries"></a>Skráning opnunarfærslna
-Ef verið er að nota eignirnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] í fyrsta sinn, verður að setja upp fjárhagskerfishlutann áður en eignir eru settar upp. Hvernig þetta er gert fer eftir því hvort eignir séu hluti af fjárhag.  
+Ef verið er að nota eignirnar í [!INCLUDE[prod_short](includes/prod_short.md)] í fyrsta sinn, verður að setja upp fjárhagskerfishlutann áður en eignir eru settar upp. Hvernig þetta er gert fer eftir því hvort eignir séu hluti af fjárhag.  
 
  Eftirfarandi aðferð er notuð ef bóka á eignafærslur í fjárhag.  
 
@@ -105,12 +105,12 @@ Ef verið er að nota eignirnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] �
 
     Virkja fjárhagssamþættingu með því að fylgja næstu skrefum. Fyrst skal ganga úr skugga um að slökkt sé á fjárhagssamþættingu fyrir allar afskriftarbækur, og svo bóka opnu færslurnar og að lokum kveikja á fjárhagssamþættingu.  
 4. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftabækur** og veldu síðan tengda tengilinn.  
-5. Veldu viðeigandi afskriftabók og síðan aðgerðina **Breyta** til að opna síðuna **Afskriftabókarspjald** .
+5. Veldu viðeigandi afskriftabók og síðan aðgerðina **Breyta** til að opna síðuna **Afskriftabókarspjald**.
 6. Ganga skal úr skugga um að á flýtiflipanum **Heildun** séu allir reitir auðir með því að hreinsa öll gátmerki. Ef um er að ræða fleiri en eina afskriftabók er skal óvirkja fjárhagsheildun fyrir hverja þeirra.  
 7. Í eignabókinni eru færðar eftirfarandi línur fyrir hverja eign:
    * Færð er inn lína með stofnkostnaðinum.
    * Lína með uppsafnaðar afskriftir til loka fyrra fjárhagsárs.
-   * Lína með uppsafnaðar afskriftir frá upphafi yfirstandandi reikningsárs til dagsetningarinnar sem [!INCLUDE[d365fin](includes/d365fin_md.md)] er stillt á og setur af stað útreikning á afskriftunum.
+   * Lína með uppsafnaðar afskriftir frá upphafi yfirstandandi reikningsárs til dagsetningarinnar sem [!INCLUDE[prod_short](includes/prod_short.md)] er stillt á og setur af stað útreikning á afskriftunum.
 
     Ef aðrar mótfærslur eru opnar eru einnig hægt að færa þær inn núna, til dæmis niðurfærsla og uppfærsla.  
 8. Þegar lokið er við að færa inn og bókað færslubókarlínur fyrir hverja eign, skal kveikja á fjárhagsheildun í afskriftarbókunum.
@@ -122,4 +122,4 @@ Ef eignirnar eru ekki samþættar fjárhag er sleppt lið 6 og 8.
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
 [Hafist handa](product-get-started.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

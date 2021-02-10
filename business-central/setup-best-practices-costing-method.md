@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf342b4cfcc59f51c2aae8ca6e36f25d7f3f5e35
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1b08ebbdd24e821f5ed528d9956f2753c84fbc05
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912950"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747844"
 ---
 # <a name="setup-best-practices-costing-method"></a>Uppsetning bestu venjur: Aðferð kostnaðarútreiknings
 
@@ -23,7 +23,7 @@ ms.locfileid: "3912950"
 
  Til að tryggja hagkvæmni birgða er mikilvægt að stilla hina réttu aðferð kostnaðarútreiknings samkvæmt tegund vöru og viðskiptaumhverfi.  
 
- Eftirfarandi tafla gefur upp bestu venjur um uppsetningu reitsins **Kostnaðaraðferð** . Nánari upplýsingar eru í [Upplýsingar um hönnun: Kostnaðarútreikningar](design-details-costing-methods.md).  
+ Eftirfarandi tafla gefur upp bestu venjur um uppsetningu reitsins **Kostnaðaraðferð**. Nánari upplýsingar eru í [Upplýsingar um hönnun: Kostnaðarútreikningar](design-details-costing-methods.md).  
 
 |Uppsetning valkostar|Bestu starfsvenjur|Athugasemd|  
 |------------------|-------------------|-------------|  
@@ -37,4 +37,4 @@ ms.locfileid: "3912950"
  [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)   
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
- [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

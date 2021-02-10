@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a402e9cdcaa7eea55b693f697db3b47138cdd02
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917077"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746992"
 ---
 # <a name="select-a-check-layout"></a>Velja útlit ávísunar
 Hægt er að hanna tékka til þess að uppfylla staðla sem staðaryfirvöld setja. Hægt er að prenta tékkamyndir á Enska, frönsku eða Spænsku.
@@ -24,7 +24,7 @@ Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadísk
 
 ## <a name="to-select-a-check-layout"></a>Útlit ávísunar valið
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningur skýrsluvals** og veldu síðan tengda tengilinn.
-2. Á síðunni **Skýrsluval - Bankareikningur** í reitnum **Notkun** skal velja **Reikningur** .
+2. Á síðunni **Skýrsluval - Bankareikningur** í reitnum **Notkun** skal velja **Reikningur**.
 3. Eitt af eftirfarandi skýrslukennum er valið:
 
 | Kenni skýrslu | Skýrsluheiti | Description |
@@ -39,15 +39,15 @@ Tékkar eru hannaðir til að vera prentaðir bæði í Bandrískum og kanadísk
 Til að breyta einum af þessum sjálfgefnu útlitum ávísunar skal annaðhvort nota Word- eða RDLC-samþættingu. Nánari upplýsingar er að finna í [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>Nota MICR og öryggisletur
-Netútgáfan af [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur foruppsettar leturgerðir á netþjónum sem hægt er að nota þegar útlit ávísana er skilgreint. Eftirfarandi lýsir því hvaða leturgerðir eru í boði og inniheldur tengla á ítarlegar upplýsingar þriðju aðila í leturgerðum.
+Netútgáfan af [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur foruppsettar leturgerðir á netþjónum sem hægt er að nota þegar útlit ávísana er skilgreint. Eftirfarandi lýsir því hvaða leturgerðir eru í boði og inniheldur tengla á ítarlegar upplýsingar þriðju aðila í leturgerðum.
 
 > [!Important]
-> MICR og öryggisleturgerðir ávísana í Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] eru leyfisveitt í leturgerðarpakka frá IDAutomation.com, Inc. Aðeins má nota þessar vörur sem hluta af og í tengslum við Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> MICR og öryggisleturgerðir ávísana í Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)] eru leyfisveitt í leturgerðarpakka frá IDAutomation.com, Inc. Aðeins má nota þessar vörur sem hluta af og í tengslum við Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Í uppfærslu 15.3 og nýrri eru Magnetic Ink Character Recognition (MICR) leturgerðir uppsettar og tilbúnar til notkunar. Bæði E-13B og CMC-7 staðallinn eru studdir. Auk MICR-leturgerða eru sérstakar öryggisleturgerðir í boði til að búa til texta, heiti, upphæðir og gjaldmiðilstáknin dollara, evrur, pund, og Yen, sem erfitt er að breyta þegar búið er að prenta ávísunina.
 
 > [!NOTE]
-> Af öryggis-og lagaástæðum er ekki hægt að hlaða upp sérstilltum leturgerðum í [!INCLUDE[d365fin](includes/d365fin_md.md)] umhverfinu.
+> Af öryggis-og lagaástæðum er ekki hægt að hlaða upp sérstilltum leturgerðum í [!INCLUDE[prod_short](includes/prod_short.md)] umhverfinu.
 
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B lýsingar
 Eftirfarandi er samantekt skilgreininga fyrir MICR E-13B leturgerðir sem kunna að vera gagnlegar þegar leturgerðir eru kvarðaðar fyrir ávísunarútliti með tilteknum MICR-prenturum.
@@ -60,7 +60,7 @@ Eftirfarandi er samantekt skilgreininga fyrir MICR E-13B leturgerðir sem kunna 
 Hægt er að finna alla lýsinguna á leturgerðum MICR E-13B í fylgiskjölum birgis hér: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7 lýsingar
-Eftirfarandi CMC-7 letur er tiltækt á [!INCLUDE[d365fin](includes/d365fin_md.md)] online:
+Eftirfarandi CMC-7 letur er tiltækt á [!INCLUDE[prod_short](includes/prod_short.md)] online:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
@@ -83,7 +83,7 @@ Eftirfarandi er samantekt skilgreininga fyrir öryggisleturgerðir ávísana sem
 
 Hægt er að finna alla lýsinguna á öryggisleturgerðum ávísana í fylgiskjölum birgis hér: (https://www.idautomation.com/security-fonts/).
 
-Leturgerðir í öðrum tilgangi má einnig finna í [!INCLUDE[prodshort](includes/prodshort.md)]. Frekari upplýsingar er að finna á [Leturgerðir í boði](ui-fonts.md)
+Leturgerðir í öðrum tilgangi má einnig finna í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna á [Leturgerðir í boði](ui-fonts.md)
 
 ## <a name="see-also"></a>Sjá einnig
 [Búa til og breyta sérsniðnum skýrsluútlitum](ui-how-create-custom-report-layout.md)  
@@ -91,5 +91,5 @@ Leturgerðir í öðrum tilgangi má einnig finna í [!INCLUDE[prodshort](includ
 [Stjórna skuldum](payables-manage-payables.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)   
 [Að klára Ferli í lok tímabila](year-how-complete-period-end-processes.md)  
-[Unnið með [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)

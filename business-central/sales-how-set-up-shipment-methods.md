@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48a75bd1d5a47e6e91ed64868f15743713e40ec4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f1916724c995f875d15b931e919d07d2253dcdb1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926048"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748295"
 ---
 # <a name="set-up-shipment-methods"></a>Afhendingarmátar settir upp
 Afhendingarmátar, einnig kallaðir inco-skilmálar, ráðast oft á vörunum, viðskiptamönnum og lánardrottnum. Ef viðskiptamaður býr til dæmis á eyju getur hann valið um að fá vörur alltaf sendar með flugi eða skipi. Sumir viðskiptamenn gætu þurft afhendingu næsta dag. Sumir gætu viljað sækja pöntunina. Á viðskiptamanna- og lánardrottnaspjöldunum má tilgreina hvernig afhendingin á að vera.
 
-Þú setur upp lýsingu og kóða fyrir hvern afhendingarmáta á síðunni **Afhendingarmátar** . Hægt er til dæmis að stofna kóðann FOB og skrá Free on Board í reitinn **Lýsing** . Síðan er hægt að skrá kóðann í reitina fyrir **Kóði afhendingarmáta** annars staðar í kerfinu, t.d. á viðskiptamannaspjald. Síðan þegar þú stofnar nýjar pantanir, reikninga, kreditreikninga, o.s.frv. færir kerfið inn lýsinguna sem kóðinn stendur fyrir. Hægt er að breyta honum í skjalinu eftir þörfum.
+Þú setur upp lýsingu og kóða fyrir hvern afhendingarmáta á síðunni **Afhendingarmátar**. Hægt er til dæmis að stofna kóðann FOB og skrá Free on Board í reitinn **Lýsing**. Síðan er hægt að skrá kóðann í reitina fyrir **Kóði afhendingarmáta** annars staðar í kerfinu, t.d. á viðskiptamannaspjald. Síðan þegar þú stofnar nýjar pantanir, reikninga, kreditreikninga, o.s.frv. færir kerfið inn lýsinguna sem kóðinn stendur fyrir. Hægt er að breyta honum í skjalinu eftir þörfum.
 
 ## <a name="to-set-up-a-shipment-code"></a>Uppsetning afhendingarkóða
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sendingaraðferð** og veldu síðan tengda tengilinn.
-2. Á síðunni **Afhendingarmátar** skal velja aðgerðina **Nýr** .
+2. Á síðunni **Afhendingarmátar** skal velja aðgerðina **Nýr**.
 3. Á nýju línunni skal tilgreina kóða og lýsingu fyrir afhendingarmáta.
 
 ## <a name="see-also"></a>Sjá einnig
@@ -36,4 +36,4 @@ Afhendingarmátar, einnig kallaðir inco-skilmálar, ráðast oft á vörunum, v
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

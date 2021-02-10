@@ -1,6 +1,6 @@
 ---
-title: 'Hönnunarupplýsingar - Kóðaeining 12 Breytingar: Vörpun altækra breyta fyrir bókunarlínu færslubókar | Microsoft Docs'
-description: Eftirfarandi breytingar hafa verið settar í þessa útgáfu af Business Central.
+title: Breytingar á vörpun altækra breyta fyrir bókun í Codeunit 12
+description: Í fyrri útgáfum var codeunit 12 breytt til að bæta afköst í bókun úr almennri færslubók. Upplýsingar um breytingar á altækum breytum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: 513518f7e76fcdbb43563d225c683a8bd97e5e4e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0fc79ba982e17b9295f0f611ca34b4eb615001f3
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917452"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367760"
 ---
-# <a name="codeunit-12-changes-mapping-global-variables-for-general-journal-post-line"></a>Kóðaeining 12 Breytingar: Vörpun altækra breyta fyrir bókunarlínu færslubókar
-Eftirfarandi breytingar hafa verið settar í þessa útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# <a name="historical-changes-to-codeunit-12-mapping-global-variables-for-general-journal-post-line"></a>Breytingar á kóðaeiningu 12: Vörpun altækra breyta fyrir bókunarlínu færslubókar
+
+Eftirfarandi breytingar hafa verið gerðar í útgáfu af [!INCLUDE [navnow_md](includes/navnow_md.md)].  
 
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Athugasemd**|  
 |----------------------------------------|----------------------------------------|-----------------|  

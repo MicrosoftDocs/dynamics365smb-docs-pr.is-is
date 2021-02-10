@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d92b4fc380dfaaf5b4fe2705367dff359eae6e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7a5230f26b3e0db8896125d1a8dbf2d8ff322777
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926973"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751156"
 ---
 # <a name="setting-up-fixed-assets"></a>Uppsetning eigna
 Áður en þú getur unnið með eignir þarftu að skilgreina nokkur atriði:  
@@ -27,7 +27,7 @@ ms.locfileid: "3926973"
 Taflan hér að neðan inniheldur tengla í frekari upplýsingar. Eftir að þú hefur sett þessi atriði upp geturðu byrjað á ýmsum verkefnum. Frekari upplýsingar eru í [Eignir](fa-manage.md).  
 
 > [!NOTE]  
->   Hægt er að skrá eignafærslur á síðunum **Fjárhagsbók eigna** eða í **Færslubók eigna** , allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á síðuna **Fjárhagsbók eigna** .  
+>   Hægt er að skrá eignafærslur á síðunum **Fjárhagsbók eigna** eða í **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á síðuna **Fjárhagsbók eigna**.  
 
 Þegar þú virkjar aðgerð eignar í **Fjárhagsheildun** hlutanum á síðunni **Afskriftabókarspjald** verður síðan **Fjárhagsbók eigna** notuð til að bóka færslur á aðgerðinni.
 
@@ -45,4 +45,4 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
 [Hafist handa](product-get-started.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

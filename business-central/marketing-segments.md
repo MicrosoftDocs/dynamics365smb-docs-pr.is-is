@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5782a49732550d6f8ffc516634a4b45ec7e22e6d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5fe1054825058c30e0a26e11e258804e7256bfcb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923571"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749831"
 ---
 # <a name="managing-segments"></a>Umsjón hluta
 Hlutar eru stofnaðir til að velja hóp tengiliða í út frá tilteknum forsendum. Til dæmis getur hluti verið starfsgreinin sem tengiliðirnir tilheyra eða viðskiptatengsl við tengiliðina. Hægt er að stofna hluta til að velja tengiliðina sem miða á herferð á.
@@ -38,4 +38,4 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## <a name="see-also"></a>Sjá einnig
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Vinna með tengiliði](marketing-contacts.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

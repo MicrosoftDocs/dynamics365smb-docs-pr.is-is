@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b759aef09fc2a19ac06a829a64a9ed0ea9b1efa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3b90cb523449367672be71abe0a7cf02effcde5a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926503"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748544"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Afstemma greiðslur með sjálfvirkri jöfnun
 
@@ -24,7 +24,7 @@ Síðan **Greiðsluafstemmingarbók** tilgreinir greiðslur, annaðhvort greiðs
 > [!NOTE]
 > Síðan býður upp á sjálfvirkar samsvörunaraðgerðir sem jafna greiðslur við tengdar opnar færslur þeirra sem byggja á samsvörun texta í bankayfirlitslínu (færslubókarlínu) við texta í einni eða fleiri opnum færslum í höfuðbók bankareiknings (hægri rúðunni). Athugaðu að þú getur skrifað yfir ráðlagðar sjálfvirkar jafnanir og þú getur valið að nota ekki sjálfvirkar jafnanir yfirhöfuð. Frekari upplýsingar er að finna í 7 skrefi.
 
-Greiðsluafstemmingarbók tengist einum bankareikningi í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem endurspeglar netbankareikninginn þar sem greiðslufærslurnar eru skráðar. Allar opnar fjárhagsfærslur bankareiknings sem tengjast jöfnuðum fjárhagsfærslum viðskiptavinar eða lánardrottins verða lokaðar þegar þú velur **Bóka Greiðslur og stemma Af Bankareikninga** aðgerð. Þetta þýðir að bankareikningurinn er sjálvirkt stemmdur af fyrir greiðslur sem bókaðar eru með færslubókinni.
+Greiðsluafstemmingarbók tengist einum bankareikningi í [!INCLUDE[prod_short](includes/prod_short.md)] sem endurspeglar netbankareikninginn þar sem greiðslufærslurnar eru skráðar. Allar opnar fjárhagsfærslur bankareiknings sem tengjast jöfnuðum fjárhagsfærslum viðskiptavinar eða lánardrottins verða lokaðar þegar þú velur **Bóka Greiðslur og stemma Af Bankareikninga** aðgerð. Þetta þýðir að bankareikningurinn er sjálvirkt stemmdur af fyrir greiðslur sem bókaðar eru með færslubókinni.
 
 Ef þú vilt flytja inn bankayfirlit sem bankastreymi, verður þú að virkja Envestnet Yodlee Bank Feeds þjónustu , og tengja síðan bankareikningana við viðkomandi netbankareikninga. greiðsluafstemmingarbók greinir síðan sjálfkrafa bankastreymi þegar þú velur aðgerðina **flytja inn bankafærslur**. Þar að auki er hægt að setja upp bankareikning til að flytja sjálfkrafa inn ný bankayfirlitsstreymi á hverri klukkustund. Færslur fyrir greiðslur sem þegar hafa verið bókaðar sem jöfnuð og/eða stemmt af verða ekki fluttar inn. Frekari upplýsingar eru í [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md).
 
@@ -75,4 +75,4 @@ Hægt er að bera gildið í **Staða á bankareikningi eftir bókun** reitnum s
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

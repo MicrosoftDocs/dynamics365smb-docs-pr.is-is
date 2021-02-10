@@ -12,26 +12,26 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e863f3140301fe31c029ecbf207a3b255d90c5d8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920623"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747242"
 ---
 # <a name="fixed-assets"></a>Eignir
-Í kerfishlutanum Eignir í [!INCLUDE[d365fin](includes/d365fin_md.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.
+Í kerfishlutanum Eignir í [!INCLUDE[prod_short](includes/prod_short.md)] fæst yfirlit yfir eignir fyrirtækisins og trygging fyrir réttum afskriftum eftir tímabilum. Með honum er einnig hægt að fylgjast með viðhaldskostnaði, sjá um vátryggingar, bóka viðskipti með eignir, búa til ýmsar skýrslur og kalla fram tölulegar upplýsingar.
 
 Setja verður upp spjald fyrir hverja eign með upplýsingum um eignina. Hægt er að setja byggingar eða framleiðslubúnað sem aðaleign með íhlutalista upp og hægt er að flokka þær á ýmsa vegu, eins og eftir flokki, deild eða staðsetningu. Síðan getur hafist komast yfir, viðhalda og selja eignir. Hægt er einnig að setja upp áætlaðar eignir. Með því er hægt að taka með áætluð eignakaup og -sölu í skýrslum.
 
-Til að henda reiður á afskriftir eigna líkt og öðrum fjárhagsfærslum tengd eignum, seturðu upp einn eða fleiri afskriftabækur fyrir hverja eign í fyrirtækinu. Afskriftar er gert með því að keyra skýrslu til að reikna reglulegar afskriftir og fylla út í færslubók með afleiddum færslum, tilbúnar til bókunar. [!INCLUDE[d365fin](includes/d365fin_md.md)] styður nokkrar afskriftaraðferðir. Frekari upplýsingar eru í [afskriftaaðferðir](fa-depreciation-methods.md) Hægt er að setja upp margar afskriftabækur fyrir hverja eign í mismunandi tilgangi, eins og eina fyrir skattaskýrsla og annað til innri skýrslugerð.
+Til að henda reiður á afskriftir eigna líkt og öðrum fjárhagsfærslum tengd eignum, seturðu upp einn eða fleiri afskriftabækur fyrir hverja eign í fyrirtækinu. Afskriftar er gert með því að keyra skýrslu til að reikna reglulegar afskriftir og fylla út í færslubók með afleiddum færslum, tilbúnar til bókunar. [!INCLUDE[prod_short](includes/prod_short.md)] styður nokkrar afskriftaraðferðir. Frekari upplýsingar eru í [afskriftaaðferðir](fa-depreciation-methods.md) Hægt er að setja upp margar afskriftabækur fyrir hverja eign í mismunandi tilgangi, eins og eina fyrir skattaskýrsla og annað til innri skýrslugerð.
 
 Hægt er að skrá viðhaldskostnað fyrir hverja eign og næstu þjónustudagsetningu. Eftirlit með viðhaldskostnaði getur skipt máli vegna fjárhagsáætlunar og ákvörðunartöku um það hvort endurnýja skuli eign.
 
 Tengja má hverja eign einum eða fleiri vátryggingarskilmálum. Auðvelt er því að sannprófa að upphæðir í vátryggingarskilmálum séu í samræmi við verðmæti eignanna sem þeir eiga við. Það auðveldar því eftirlit með árlegum iðgjöldum af vátryggingum.
 
 > [!NOTE]  
->   Hægt er að skrá eignafærslur á síðunni **Fjárhagsbók eigna** eða á síðunni **Færslubók eigna** , allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á síðuna **Fjárhagsbók eigna** . Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).
+>   Hægt er að skrá eignafærslur á síðunni **Fjárhagsbók eigna** eða á síðunni **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Hjálp fyrir Eignir lýsir einungis hvernig nota á síðuna **Fjárhagsbók eigna**. Frekari upplýsingar eru í [Uppsetning afskriftir eigna](fa-how-setup-depreciation.md).
 
 Áður en þú getur byrjað að stjórna eignum, verður þú að setja upp sjálfgefið gildi, eignabókhald, bókunarflokka, úthlutunarlykla, færslubækur og bókunargerðir. Nánari upplýsingar eru í [Uppsetning eigna](fa-setup.md).
 
@@ -58,7 +58,7 @@ Eftirfarandi myndband fjallar um grunnatriði eigna.
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Fjármál](finance.md)  
 [Hafist handa](product-get-started.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

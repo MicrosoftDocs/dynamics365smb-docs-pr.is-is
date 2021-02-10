@@ -10,23 +10,29 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c185ab8fecc8f8d70dad7696a5fb5f67207717aa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 614106792985487beeaa9dc6e995e97970996e48
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924604"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752613"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Skoða stöðu samstillingarverka
-Notaðu síðuna **Samstillingarvillur í tengdum gögnum** til að skoða stöðu samstillingarverka sem hafa verið keyrðar fyrir tengdar færslur í Common Data Service eða [!INCLUDE[crm_md](includes/crm_md.md)] samþættingum. Þetta felur í sér verk sem voru í gangi frá verkröð og handvirk samstillingarverk sem voru í gangi í færslum frá [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til dæmis er gagnlegt að skoða stöðu þeirra við úrræðaleit vegna þess að þú færð aðgang að upplýsingum um villur sem tengjast tengdum færslum. Venjulega koma þessar tegundir af villum upp vegna aðgerða notanda, t.d. þegar:  
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-* Tveir einstaklingar gerðu breytingu á sömu færslunni í báðum viðskiptaforritunum.
-* Einhver eyddi færslu í öðru hvoru forritinu, en ekki í báðum.
+Notaðu síðuna **Samstillingarvillur í tengdum gögnum** til að skoða stöðu samstillingarverka sem hafa verið keyrðar fyrir tengdar færslur í Dataverse eða [!INCLUDE[crm_md](includes/crm_md.md)] samþættingum. Þetta felur í sér verk sem voru í gangi frá verkröð og handvirk samstillingarverk sem voru í gangi í færslum frá [!INCLUDE[prod_short](includes/prod_short.md)]. Til dæmis er gagnlegt að skoða stöðu þeirra við úrræðaleit vegna þess að þú færð aðgang að upplýsingum um villur sem tengjast tengdum færslum. Venjulega koma þessar tegundir af villum upp vegna aðgerða notanda, t.d. þegar:  
+
+* Tveir einstaklingar gerðu breytingu á sömu gögnunum í báðum viðskiptaforritunum.
+* Einhver eyddi gögnum í öðru hvoru forritinu, en ekki í báðum.
 
 > [!Note]
 > Á síðunni **Samstillingarvillur í tengdum gögnum** er að finna upplýsingar um verk sem tengjast tengdum færslum. Ef leyst er úr öllum villunum en færslurnar eru enn ekki samstilltar gæti það haft eitthvað að gera með stillingu samþættingarinnar. Venjulega þarf stjórnandi þinn að leysa úr þess konar villum.   
 
+<!--
+
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+
+-->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Skoða og leysa úr samstillingarvillum fyrir tengdar færslur
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Samstillingarvillur í tengdum gögnum** og veldu síðan tengda tengilinn.
@@ -36,14 +42,14 @@ Notaðu síðuna **Samstillingarvillur í tengdum gögnum** til að skoða stö�
 |----|----|
 |**Fjarlægja tengingu**|Aftengir færslurnar og þær samstillast ekki lengur. Til að endurræsa samstillinguna þarf að tengja þær aftur. |
 |**Reyna aftur** og **Reyna allt**|Fyrir hverja færslu þar sem villa finnst er samstillingu sleppt nema vandamálið sé leyst. Þegar reynt er aftur verður valin færsla höfð með í næstu samstillingu og **Reyna allt aftur** inniheldur allar færslurnar.|
-|**Samstilla**|Forritið reynir að leysa úr árekstri þar sem færslu var breytt í báðum viðskiptaforritunum. Hægt er að velja útgáfu færslunnar sem á að nota.|
-|**Endurheimta færslur** og **Eyða færslum**|Þetta er gagnlegt þegar færslu var eytt í einu viðskiptaforritanna. Eyða færslum eyðir færslunni í forritinu þar sem hún er enn til staðar. Endurheimt býr færsluna til aftur í viðskiptaforritinu sem henni var eytt úr.|
+|**Samstilla**|Forritið reynir að leysa úr árekstri þar sem gögnum var breytt í báðum viðskiptaforritunum. Hægt er að velja gögnin sem á að nota.|
+|**Endurheimta færslur** og **Eyða færslum**|Þetta er gagnlegt þegar færslu var eytt í einu viðskiptaforritanna. Eyða færslum eyðir færslunni eða línunni í forritinu þar sem hún er enn til staðar. Endurheimt færsla býr færsluna eða línuna til aftur í viðskiptaforritinu sem henni var eytt úr.|
 
 > [!NOTE]
 > Til að draga úr þeim fjölda árekstra sem þarf að leysa er hægt að setja upp varpanir samþættingartöflu til að nota þessar aðgerðir sjálfkrafa. Frekari upplýsingar er að finna í [Vörpun samþættingartaflna](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Að skoða samstillingarkladdann fyrir tiltekna (handvirkt samstillta) færslu
-1. Opnaðu til dæmis viðskiptamann, vöru eða einhverja aðra færslu sem samstillir gögn milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og Common Data Service eða [!INCLUDE[crm_md](includes/crm_md.md)].
+1. Opnaðu til dæmis viðskiptamann, vöru eða einhverja aðra færslu sem samstillir gögn milli [!INCLUDE[prod_short](includes/prod_short.md)] og Dataverse eða [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Veldu aðgerðina **Samstillingarkladdi** til að skoða samstillingarkladda fyrir valda færslu. Til dæmis tiltekinn viðskiptavin sem var samstilltur handvirkt.
 
 ## <a name="see-also"></a>Sjá einnig  

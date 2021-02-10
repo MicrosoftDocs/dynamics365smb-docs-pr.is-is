@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: reconcile
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d5610e86ea06b6edd2ef0ae4cb7c1473dd096e9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7eb749c17ea9f17b3ef7c7c29c5dc9037fcbaf9c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924354"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752331"
 ---
 # <a name="reconciling-bank-accounts"></a>Afstemming bankareikninga
 
@@ -24,16 +24,16 @@ Ljúka ætti bankaafstemmingu með reglulegu millibili fyrir alla bankareikninga
 Hægt er að framkvæma verkið á síðunni **Afstemming bankareiknings** þar sem þú jafnar (afstemmir) bankayfirlitslínur í vinstri rúðunni við innri fjárhagsfærslur bankareikningsins þíns í hægri rúðunni. Annars er hægt að framkvæma þetta verk á síðunni **Greiðsluafstemmingarbók** sem hluti af úrvinnslu greiðslnanna sem koma fram á bankayfirliti. Á báðum síðunum geturðu fyllt út upplýsingar um bankayfirlit með því að flytja inn skrá eða straum og þú getur notað sjálfvirkar jöfnunarráðleggingar.
 
 > [!NOTE]  
-> Í norður-amerískum útgáfum getur þú einnig framkvæmt bankaafstemmingu á síðunni **Vinnublað bankaafstemmingar** sem er hentar betur fyrir ávísanir og innborganir en býður ekki upp á innflutning á bankayfirlitsskrám. Til að nota þennan glugga í staðinn fyrir gluggann **Afstemming bankareikninga** skaltu afvelja reitinn **Bankareikn.afstemming með sjálfvirkri jöfnun** á síðunni **Fjárhagsgrunnur** . Frekari upplýsingar er hægt að finna í hlutanum [Afstemma bankareikninga](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) sem heyrir undir staðbundnar aðgerðir Bandaríkjanna.
+> Í norður-amerískum útgáfum getur þú einnig framkvæmt bankaafstemmingu á síðunni **Vinnublað bankaafstemmingar** sem er hentar betur fyrir ávísanir og innborganir en býður ekki upp á innflutning á bankayfirlitsskrám. Til að nota þennan glugga í staðinn fyrir gluggann **Afstemming bankareikninga** skaltu afvelja reitinn **Bankareikn.afstemming með sjálfvirkri jöfnun** á síðunni **Fjárhagsgrunnur**. Frekari upplýsingar er hægt að finna í hlutanum [Afstemma bankareikninga](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) sem heyrir undir staðbundnar aðgerðir Bandaríkjanna.
 
-Áður en hægt er að stjórna bankareikningum innan [!INCLUDE[d365fin](includes/d365fin_md.md)] verður að setja upp sérhvern bankareikning sem bankareikningsspjald. Þar að auki þarf að setja upp rafrænar þjónustu sem má nota fyrir innflutning bankayfirlits og útflutning greiðsluskrár. Nánari upplýsingar er að finna í [Uppsetning bankaþjónustu](bank-setup-banking.md).
+Áður en hægt er að stjórna bankareikningum innan [!INCLUDE[prod_short](includes/prod_short.md)] verður að setja upp sérhvern bankareikning sem bankareikningsspjald. Þar að auki þarf að setja upp rafrænar þjónustu sem má nota fyrir innflutning bankayfirlits og útflutning greiðsluskrár. Nánari upplýsingar er að finna í [Uppsetning bankaþjónustu](bank-setup-banking.md).
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
 | Til að | Sjá |
 | --- | --- |
-| Afstemmið bankareikninga sem sérstakt verk á síðunni **Afstemming bankareiknings** . |[Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md) |
-| Afstemma bankareikninga í tengslum við greiðsluvinnslu á síðunni **Greiðsluafstemmingarbók** . |[Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
+| Afstemmið bankareikninga sem sérstakt verk á síðunni **Afstemming bankareiknings**. |[Afstemma bankareikninga](bank-how-reconcile-bank-accounts-separately.md) |
+| Afstemma bankareikninga í tengslum við greiðsluvinnslu á síðunni **Greiðsluafstemmingarbók**. |[Jafna greiðslur sjálfkrafa og afstemma bankareikninga](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 
 > [!TIP]
 > Nota skal bankaafstemmingu til að staðfesta að bækurnar séu uppfærðar og ekki bóka afstemmingu fyrr en tryggt er að afstemmingin sé í lagi.
@@ -48,5 +48,5 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Flytja bankainnstæður](bank-how-transfer-bank-funds.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 19b692183d377bbe2bcf420608cb02c1ec52dd9b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed874c647dd5c3526df38a3c4d6ee43293737786
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910942"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751081"
 ---
 # <a name="design-details-supply-planning"></a>Hönnunarupplýsingar: framboðsáætlun
-Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar fyrir hugtökin og reglurnar sem eru notaðar í Framboðsáætlun í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Þessi fylgiskjöl veita nákvæmar tæknilegar upplýsingar fyrir hugtökin og reglurnar sem eru notaðar í Framboðsáætlun í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Það útskýrir hvernig áætlanakerfið virkar og hvernig á að stilla algrím til að mæta kröfum áætlanagerð í mismunandi umhverfi. Það kynnir fyrst grunnhugtök og þá lýsir rökfræði á bak við fyrirkomulag, framboðsjafnvægi, áður en farið er að útskýra hvernig birgðaáætlanagerð er gerð með því að nota endurpöntunarstefnur.  
 

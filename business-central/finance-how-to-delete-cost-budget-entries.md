@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ff0ede7bd5d90607a04b1037f5b6c6d092c1c33
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f7ea29f059c3d2ab54e35b731bfe72d42fffd1f1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916144"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750706"
 ---
 # <a name="delete-cost-budget-entries"></a>Eyða kostnaðaráætlunarfærslum
 **Eyða kostnaðaráætlunarfærslum** Keyrslan er notuð til að afturkalla kostnaðaráætlunarfærslur í kostnaðaráætlunardagbókinni.  
@@ -32,9 +32,9 @@ Til að koma í veg fyrir gloppur í kostnaðaráætlunarfærslum og kostnaðars
 2.  Velja hnappinn **Í lagi** til að eyða völdum færslum kostnaðaráætlana.  
 
 > [!NOTE]  
->  Til að forðast að eyða kostnaðaráætlunarfærslum fyrir slysni er hægt að loka skráningarfærslum með því að merkja línurnar sem **Lokað** í reitnum **Lokað** á síðunni **Fjárhagsáætlunarskrár** .  
+>  Til að forðast að eyða kostnaðaráætlunarfærslum fyrir slysni er hægt að loka skráningarfærslum með því að merkja línurnar sem **Lokað** í reitnum **Lokað** á síðunni **Fjárhagsáætlunarskrár**.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Kostnaðarbókhald](finance-manage-cost-accounting.md)
 [Stofna kostnaðaráætlun](finance-create-cost-budgets.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

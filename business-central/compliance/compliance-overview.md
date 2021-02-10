@@ -12,16 +12,16 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 7fb48d888153e9ad77666abf4ca09f6cb429772d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8e0ffc9680d421a0b39f00eae577c80206de639b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920998"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751956"
 ---
 # <a name="compliance"></a>Reglufylgni
 
-Þetta efni inniheldur upplýsingar um reglufylgni í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+Þetta efni inniheldur upplýsingar um reglufylgni í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
 Reglufylgni er efnisatriði sem vekur sífellt meiri áhuga og í gegnum þróun Business Central höfum við tryggt að varan styrkir viðskiptavini og samstarfsaðila á víðtækan hátt og felur ekki í sér hindranir varðandi reglufylgni. Þvert á móti inniheldur Business Central virkni og er byggt á verkvangi sem gerir það auðvelt fyrir viðskiptavini að fara eftir reglufylgni og regluverki.
 
@@ -34,4 +34,4 @@ Reglufylgni er efnisatriði sem vekur sífellt meiri áhuga og í gegnum þróun
 |Sjá upplýsingar um mismunandi vottanir sem tengjast Business Central. Hér finnur þú upplýsingar um almennar vottanir og landsbundnar vottanir.|[Vottanir](compliance-certifications.md)|  
 |Kynntu þér skilmála þjónustustigssamnings og aðra þjónustuskilmála|[Þjónustuskilmálar](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 42a8fd05fe74276c5b570253b67be20189201071
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6b86bf4be6a925913e3e2a0a70cf2066e8956681
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922143"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751556"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Hönnunarupplýsingar: vöruhúsaflæði inn
 Flæðiá innleið í vöruhús byrjar þegar vörurnar koma í vöruhús á staðsetningu fyrirtækis, annað hvort frá utanaðkomandi aðila eða frá annarri staðsetningu fyrirtækis. Starfsmaður skráir vörurnar, yfirleitt með því að skanna strikamerki. Úr móttökusvæðinu eru vöruhúsaaðgerðir framkvæmdar á mismunandi flækjustigi til að koma vörunum inn á geymslusvæðið.  
@@ -35,7 +35,7 @@ Síðustu tvö standa fyrir flæði á innleið úr vöruhúsi til innri rekstra
 
 Ferli og notendaviðmótsskjöl í vöruhúsi á innleið eru ólík á milli grunnvöruhúss og ítarlegs vöruhúss. Aðalmunurinn er sá aðgerðir eru framkvæmdar pöntun fyrir pöntun í grunnvörugeymslu þegar þeim er steypt saman fyrir margfaldar pantanir í ítarlegu vöruhúsi. Nánari upplýsingar um mismunandi vöruhúsaflækjustig eru í [Hönnunarupplýsingar: Vöruhúsayfirlit](design-details-warehouse-setup.md).  
 
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að framkvæma innleiðarferlið til að taka við og ganga frá á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins.  
+Í [!INCLUDE[prod_short](includes/prod_short.md)], er hægt að framkvæma innleiðarferlið til að taka við og ganga frá á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins.  
 
 |Aðferð|Ferli á innleið|Hólf|Móttökur|Frágangur|Flækjustig (Sjá [Hönnunarupplýsingar: uppsetning vöruhúss](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -87,7 +87,7 @@ Notandinn fyllir út **Magn til afgreiðslu** reitinn og velur móttökusvæði�
 Notandinn bókar vöruhúsamóttökuna. Jákvæðar birgðafærslur eru stofnaðar. Til dæmis reiturinn **Móttekið magn** á upprunaskjallínu á innleið er uppfærður.  
 
 ### <a name="5-create-warehouse-internal-put-away"></a>5: Innanhússfrágangar vöruhúss - framleiðsla  
-Notandinn sem er ábyrgur fyrir frágangi úr innri virkni stofnar innri frágang vöruhússins fyrir vörur sem ganga þarf frá í vöruhúsinu, s.s. vöru eða samsetningarúttak. Notandinn tilgreinir magn, svæði og hólf þar sem frágangur fer fram, hugsanlega með aðgerðinni **Sækja innihald hólfs** . Notandinn losar innri frágang vöruhússins, sem stofnar innbundna vöruhúsabeiðni þannig að hægt er að sækja verkið í frágangsskjölum vöruhússins eða í frágangsvinnublaðinu.  
+Notandinn sem er ábyrgur fyrir frágangi úr innri virkni stofnar innri frágang vöruhússins fyrir vörur sem ganga þarf frá í vöruhúsinu, s.s. vöru eða samsetningarúttak. Notandinn tilgreinir magn, svæði og hólf þar sem frágangur fer fram, hugsanlega með aðgerðinni **Sækja innihald hólfs**. Notandinn losar innri frágang vöruhússins, sem stofnar innbundna vöruhúsabeiðni þannig að hægt er að sækja verkið í frágangsskjölum vöruhússins eða í frágangsvinnublaðinu.  
 
 ### <a name="6-create-put-away-request"></a>6: Stofna frágangsbeiðni  
 Þegar upprunaskjal á innleið er bókað er stofnuð sjálfkrafa beiðni um frágang í vöruhúsi. Það inniheldur tilvísanir til upprunaskjalstegund og númeri og er ekki sýnilegt notandanum. Eftir uppsetningu, framleiðsla úr framleiðslupöntun skapar einnig frágangsbeiðni til að setja fullunnar vörur burtu í birgðum.  
@@ -95,7 +95,7 @@ Notandinn sem er ábyrgur fyrir frágangi úr innri virkni stofnar innri frágan
 ### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Mynda frágangsvinnublaðslínur (valkvæmt)  
 Notandinn sem er ábyrgur fyrir samræmingu frágangs sækir frágangslínur vöruhúss í **Birgðafrágangur vinnublað** byggt á bókuðum innhreyfingum vöruhúss eða innri virkni með úttaki. Notandinn velur línurnar sem á að ganga frá og undirbýr fráganginn með því að tilgreina úr hvaða hólfum á að taka, í hvaða hólf á að setja og hversu margar einingar á að meðhöndla. Hólf er hægt að forskilgreina í uppsetningu vöruhússstaðsetningar eða vinnslutilfanga.  
 
-Þegar allur frágangur er bókaður og úthluta á vöruhúsastarfsmenn notandinn býr til frágangsskjöl vöruhús. Fullúthlutaðar frágangslínum er eytt úr **Birgðafrágangur vinnublað** .  
+Þegar allur frágangur er bókaður og úthluta á vöruhúsastarfsmenn notandinn býr til frágangsskjöl vöruhús. Fullúthlutaðar frágangslínum er eytt úr **Birgðafrágangur vinnublað**.  
 
 > [!NOTE]  
 >  Ef reiturinn **Nota Birgðafrágangur vinnublað** er ekki valinn á staðsetningarkortinu eru frágangsskjöl vöruhúss búin til beint á grunni bókaðra vöruhúsamóttakna. Í því tilfelli, er skref 7 sleppt.  

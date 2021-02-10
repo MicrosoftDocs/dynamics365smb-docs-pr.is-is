@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a2100a1f945153d9c89d3cd86fb5d16860c4930
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913397"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747092"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum
 
-Sum fyrirtæki nota [!INCLUDE [prodshort](includes/prodshort.md)] í mörgum fyrirtækiseiningum eða lögaðilum. Önnur nota [!INCLUDE [prodshort](includes/prodshort.md)] í dótturfélögum sem þarf að tilkynna um í móðurfyrirtækjum. Í báðum tilvikum nota endurskoðendurnir innbyggð verkfæri til að sameina fjárhagsgögn.  
+Sum fyrirtæki nota [!INCLUDE [prod_short](includes/prod_short.md)] í mörgum fyrirtækiseiningum eða lögaðilum. Önnur nota [!INCLUDE [prod_short](includes/prod_short.md)] í dótturfélögum sem þarf að tilkynna um í móðurfyrirtækjum. Í báðum tilvikum nota endurskoðendurnir innbyggð verkfæri til að sameina fjárhagsgögn.  
 
 Hægt er að sameina fjárhagsfærslur tveggja eða fleiri fyrirtækja dótturfyrirtæki í samstæðufyrirtæki. Hvert fyrirtæki í samstæðufyrirtæki nefnist fyrirtækiseining. Sameinaða fyrirtækið nefnist samstæðufyrirtæki.  
 
-Hægt er að flytja inn gögn í samstæðufyrirtækið úr öðrum fyrirtækjum í sama [!INCLUDE [prodshort](includes/prodshort.md)]-leigjandanum, úr leigjendum, eða úr skrám.  
+Hægt er að flytja inn gögn í samstæðufyrirtækið úr öðrum fyrirtækjum í sama [!INCLUDE [prod_short](includes/prod_short.md)]-leigjandanum, úr leigjendum, eða úr skrám.  
 
 Ef fjárhagsskýrslur fyrirtækiseiningarinnar eru í öðrum gjaldmiðli en reikningar samsteypufyrirtækisins þarf að setja upp gengi fyrir samstæðuna.  
 
@@ -42,24 +42,24 @@ Samsteypufyrirtækið er sett upp á sama hátt og önnur fyrirtæki eru sett up
 
 ## <a name="trial-balance"></a>Prófjöfnuður
 
-Ef þú ert með fleiri en eitt fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)], getur skýrslan **Sameinaður prófjöfnuður** gefið þér yfirsýn yfir fjárhagslega stöðu fyrirtækja þinna í heild.  
+Ef þú ert með fleiri en eitt fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)], getur skýrslan **Sameinaður prófjöfnuður** gefið þér yfirsýn yfir fjárhagslega stöðu fyrirtækja þinna í heild.  
 
 Skýrslan sameinar fjárhagsfærslur frá öllum fyrirtækjum þínum í nýtt fyrirtæki sem þú stofnar til að hýsa sameinuðu gögnin. Venjulega er vísað til þessa fyrirtækis sem „samstæðufyrirtækisins“. Samstæðufyrirtækið er aðeins geymsla fyrir sameinuðu gögnin og inniber engin lifandi viðskiptagögn. Fyrirtækin sem þú setur inn í samstæðufyrirtækið verða að **Viðskiptaeiningum** í skýrslunni. Frekari upplýsingar er að finna í [Setja upp fyrirtækjasamstæðu](finance-consolidated-company-reporting-setup.md).  
 
 ## <a name="consolidate-data"></a>Gögnum steypt saman
 
-Ferlið við að flytja tölur úr fyrirtækiseiningum til samsteypufyrirtækisins er hin raunverulega *sameining* . Áður en það er gert er ágætt að athuga hvort munur sé á grunnupplýsingum í fyrirtækiseiningunni og samstæðufyrirtækinu. Nota má tvær skýrslur til að prófa gagnagrunn og skrá.
+Ferlið við að flytja tölur úr fyrirtækiseiningum til samsteypufyrirtækisins er hin raunverulega *sameining*. Áður en það er gert er ágætt að athuga hvort munur sé á grunnupplýsingum í fyrirtækiseiningunni og samstæðufyrirtækinu. Nota má tvær skýrslur til að prófa gagnagrunn og skrá.
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Gagnaprófun fyrir samsteypu
 
-Þú getur framkvæmt gagnaprófun áður en þú sendir gögnin í samstæðufyrirtækið. [!INCLUDE[d365fin](includes/d365fin_md.md)] athugar muninn á upplýsingunum í fyrirtækiseiningunum og samstæðufyrirtækinu. Til dæmis hvort munur er á reikningsnúmerum og víddarkóðum. Áður en hægt er að keyra skýrsluna verður að leiðrétta villur. Þú getur framkvæmt prófanir á gagnagrunninum, eða skránni, ef þú ert að flytja inn gögn frá XML skrá.  
+Þú getur framkvæmt gagnaprófun áður en þú sendir gögnin í samstæðufyrirtækið. [!INCLUDE[prod_short](includes/prod_short.md)] athugar muninn á upplýsingunum í fyrirtækiseiningunum og samstæðufyrirtækinu. Til dæmis hvort munur er á reikningsnúmerum og víddarkóðum. Áður en hægt er að keyra skýrsluna verður að leiðrétta villur. Þú getur framkvæmt prófanir á gagnagrunninum, eða skránni, ef þú ert að flytja inn gögn frá XML skrá.  
 
 1. Samsteypufyrirtækið er opnað.  
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fyrirtækiseiningar** og veldu síðan tengda tengilinn.  
 3. Gert er eitt af eftirfarandi:  
 
-    * Til að framkvæma prófun á skrá, skal velja **Prófa skrá** aðgerðina, slá inn nafn skrárinnar sem á að prófa og velja síðan **Prenta** .  
-    * Til að framkvæma prófun á gagnagrunni, skal velja **Prófa gagngrunn** .  
+    * Til að framkvæma prófun á skrá, skal velja **Prófa skrá** aðgerðina, slá inn nafn skrárinnar sem á að prófa og velja síðan **Prenta**.  
+    * Til að framkvæma prófun á gagnagrunni, skal velja **Prófa gagngrunn**.  
 
 ### <a name="run-the-consolidation"></a>Keyra samstæðu
 
@@ -85,7 +85,7 @@ Að taka út endurteknar færslur:
 
 Skýrslan **Samstæðuútilokanir fjárhags** birtir bráðabirgða prófjöfnuð þar sem hægt er að herma eftir afleiðingum þess að útiloka færslur með því að bera saman færslur í samsteypufyrirtækinu við útilokanir sem hafa verið færðar inn í færslubókina.
 
-Áður en unnt er að taka fyrirtækiseiningu með í skýrslu, verður að setja hana upp á síðunni **Fyrirtækiseiningar** og velja þarf reitinn **Steypa saman** .
+Áður en unnt er að taka fyrirtækiseiningu með í skýrslu, verður að setja hana upp á síðunni **Fyrirtækiseiningar** og velja þarf reitinn **Steypa saman**.
 
 Sérhver reikningur birtist einn sér í línu, (í framhaldi af uppbyggingu bókhaldslykils). Reikningur birtist ekki ef allar upphæðir standa á núlli. Eftirfarandi upplýsingar koma fram um hvern reikning:
 
@@ -100,14 +100,14 @@ Sérhver reikningur birtist einn sér í línu, (í framhaldi af uppbyggingu bó
 
 ## <a name="export-and-import-consolidated-data-between-databases"></a>Að flytja út og flytja inn sameinuð gögn milli gagnagrunna
 
-Ef gögn fyrirtækiseiningar eru í öðrum gagnagrunni þarf að flytja gögnin út í skrá áður en hægt er að hafa þau með í samstæðunni. Flytja þarf hvert fyrirtæki fyrir sig. Í þessum tilgangi skal nota runuvinnsluna **Útflutningur samstæðu** .  
+Ef gögn fyrirtækiseiningar eru í öðrum gagnagrunni þarf að flytja gögnin út í skrá áður en hægt er að hafa þau með í samstæðunni. Flytja þarf hvert fyrirtæki fyrir sig. Í þessum tilgangi skal nota runuvinnsluna **Útflutningur samstæðu**.  
 
 > [!TIP]
 > Notið sama ferlið til að flytja út sameinuð gögn sem þarf að senda til Dynamics 365 Finance, svo sem ef núverandi fyrirtækiseining er dótturfyrirtæki og móðurfyrirtækið notar Dynamics 365 Finance.
 
 Þegar búið er að keyra runuvinnsluna, eru allar færslur í fjárhagsreikninga unnar. Samtala er fengin og flutt út úr efni færslna í reitunum **Upphæð** í sérhverri samsetningu valinnar víddar og dagsetningar. Þá er unnið úr næstu samsetningu valinnar víddar og dagsetningar með sama reikningsnúmeri og síðan úr samsetningu næsta reikningsnúmers og svo framvegis.  
 
-Útfluttar færslur innihalda eftirfarandi reiti: **Reikningur nr.** , **Bókunardags.** og **Upphæð** . Ef upplýsingar um víddir voru líka fluttar út, eru víddarkóðar og víddargildi þar á meðal.  
+Útfluttar færslur innihalda eftirfarandi reiti: **Reikningur nr.**, **Bókunardags.** og **Upphæð**. Ef upplýsingar um víddir voru líka fluttar út, eru víddarkóðar og víddargildi þar á meðal.  
 
 1. Ef samtala reitanna **Upphæð** er debet er reikningsnúmerið sem sett er upp í reitnum **Samstæðu-debetreikn.** í fyrirtækiseiningunni flutt út í línuna fyrir hverja útflutta línu. Ef samtalan er kredit er samsvarandi númer í reitnum **Samstæðu-kreditreikn.** flutt út í línuna.  
 2. Sú dagsetning sem er notuð fyrir útfluttar línu er annaðhvort lokadagsetning tímabils eða sú dagsetning þegar útreikningur fer fram.  
@@ -118,5 +118,5 @@ Ef gögn fyrirtækiseiningar eru í öðrum gagnagrunni þarf að flytja gögnin
 
 [Setja upp sameiningu fyrirtækis](finance-consolidated-company-reporting-setup.md)  
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Flutningur viðskiptagagna í Excel](about-export-data.md)

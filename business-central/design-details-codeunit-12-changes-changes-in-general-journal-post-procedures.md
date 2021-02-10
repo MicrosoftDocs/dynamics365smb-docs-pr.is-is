@@ -1,6 +1,6 @@
 ---
-title: 'Hönnunarupplýsingar - Kóðaeining 12 Breytingar: Breytingar á bókunaraðferðum í færslubók | Microsoft Docs'
-description: Eftirfarandi breytingar hafa verið settar í þessa útgáfu af Business Central.
+title: Breytingar á bókunaraðferðum í færslubók í Codeunit 12
+description: Í fyrri útgáfum var codeunit 12 breytt til að bæta afköst í bókun úr almennri færslubók. Frekari upplýsingar um breytingar á bókunarferlum má finna í þessari grein.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: 99df25e15422755b66ec5b8be7388c9677f7b374
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c1ec373b6c7226d6b2548f2b29f326dcd9c6a459
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917477"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367910"
 ---
-# <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Kóðaeining 12 Breytingar: Breytingar á bókunaraðferðum í færslubók
-Eftirfarandi breytingar hafa verið settar í þessa útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# <a name="historical-changes-to-codeunit-12-changes-in-general-journal-post-procedures"></a>Breytingar á Codeunit 12: Breytingar á bókunaraðferðum í færslubók
+
+Eftirfarandi breytingar hafa verið gerðar í útgáfu af [!INCLUDE [navnow_md](includes/navnow_md.md)].  
 
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Athugasemd**|  
 |----------------------------------------|----------------------------------------|-----------------|  

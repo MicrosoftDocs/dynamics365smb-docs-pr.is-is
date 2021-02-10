@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aed172663290ce3ac467e405266d513a8978a128
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22b8ae947ceb82753aa0e881ba8b0ebf603cca9f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912997"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747894"
 ---
 # <a name="setting-up-service-management"></a>Þjónustustýring sett upp
-Áður en þú getur byrjað að nota eiginleika Þjónustustýringarinnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] þarf hins vegar að setja upp nokkur atriði. Til dæmis er hægt að stofna kótun fyrir staðlaða þjónustu, einkenni, og bilunarkóta, og setja upp þjónustuvörur og þjónustuvörugerðir sem þjónustudeild fyrirtækisins þarfnast.  
+Áður en þú getur byrjað að nota eiginleika Þjónustustýringarinnar í [!INCLUDE[prod_short](includes/prod_short.md)] þarf hins vegar að setja upp nokkur atriði. Til dæmis er hægt að stofna kótun fyrir staðlaða þjónustu, einkenni, og bilunarkóta, og setja upp þjónustuvörur og þjónustuvörugerðir sem þjónustudeild fyrirtækisins þarfnast.  
 
 Þegar þjónustukerfi er sett upp þarf að ákveða hvaða þjónustu skal bjóða viðskiptamönnum og tímasetja þessa þjónustu. Þjónusta er gerð vinnu sem framkvæmd er af einum eða fleiri starfsmönnum og veitt viðskiptamanni. Þjónusta gæti til dæmis verið viðgerð á tölvu. Þjónustuvara er útbúnaðurinn eða varan sem þarfnast þjónustu, til dæmis tölvan sem þarf að gera við, uppsett hjá tilteknum viðskiptamanni. Þjónusta getur verið hluti af tengdum viðgerðar- eða viðhaldshlutum.  
   

@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 00ffaf4cefa87ad530a94495386998d65be4fdc5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6c1539b19274c4e31fa66b31af17be5429c719f5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923521"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745967"
 ---
 # <a name="managing-relationships"></a>Stjórnun tengsla
-Tengslastjórnunareiginleikar [!INCLUDE[d365fin](includes/d365fin_md.md)] auðvelda stjórnun og stuðning við markaðssetningu og sölu. Þessir eiginleikar veita aðgang að fullkomnum og nákvæmum upplýsingum svo hægt sé að einbeita sér að þeim viðskiptamönnum/tengiliðum sem ná á til.
+Tengslastjórnunareiginleikar [!INCLUDE[prod_short](includes/prod_short.md)] auðvelda stjórnun og stuðning við markaðssetningu og sölu. Þessir eiginleikar veita aðgang að fullkomnum og nákvæmum upplýsingum svo hægt sé að einbeita sér að þeim viðskiptamönnum/tengiliðum sem ná á til.
 
-Góðar sölu- og markaðssetningaraðferðir snúast um að taka réttar ákvarðanir á réttum tíma. [!INCLUDE[d365fin](includes/d365fin_md.md)] veitir nákvæmt og tímanlegt yfirlit yfir tengiliðaupplýsingar svo hægt sé að þjónusta væntanlega viðskiptamenn og auka ánægju viðskiptamanna.
+Góðar sölu- og markaðssetningaraðferðir snúast um að taka réttar ákvarðanir á réttum tíma. [!INCLUDE[prod_short](includes/prod_short.md)] veitir nákvæmt og tímanlegt yfirlit yfir tengiliðaupplýsingar svo hægt sé að þjónusta væntanlega viðskiptamenn og auka ánægju viðskiptamanna.
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.  
 

@@ -11,17 +11,17 @@ ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: 25cf2c75ac6beca4f187b329c610914452d7dfcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 311af347fede15b3d246e66d66b47a5fd09c90db
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910806"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750481"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Vinna með endurteknar tekjur í [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Vinna með endurteknar tekjur í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Mörg fyrirtæki eru að færa sig úr tekjulíkönum þar sem tekjur eru úr einskiptiskaupum viðskiptavinar í viðskiptalíkan þar sem tekjur eru gerðar á endurteknum grunni í skiptum fyrir stöðugt aðgengi að afhendingu góðrar vöru eða þjónustu.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er með eftirfarandi valmöguleika til að gera sendingerferli reikninga í gegnum viðskiptavini og skráningu endurtekinna tekna sjálfvirkt. 
+[!INCLUDE[prod_short](includes/prod_short.md)] er með eftirfarandi valmöguleika til að gera sendingerferli reikninga í gegnum viðskiptavini og skráningu endurtekinna tekna sjálfvirkt. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Skrá tekjur með ítrekunarfærslubók
 
@@ -31,7 +31,7 @@ Mörg fyrirtæki eru að færa sig úr tekjulíkönum þar sem tekjur eru úr ei
 
 Með þessum valkosti eru sveigjanleg reikningsfærslutímabil skilgreind með [Dagsetningarformúlum](ui-enter-date-ranges.md#using-date-formulas).
 
-Með þessum valkosti er hins vegar ekki hægt að prenta og senda reikninga í sjálfgefinni útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Með þessum valkosti er hins vegar ekki hægt að prenta og senda reikninga í sjálfgefinni útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Frekari upplýsingar er að finna í [Vinna með Ítrekunarbækur](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -39,7 +39,7 @@ Frekari upplýsingar er að finna í [Vinna með Ítrekunarbækur](ui-work-gener
 
 Ítrekunarbók vinnslunnar er ítarlegri valkostur en almenn færslubók. Hægt er að skilgreina vörur, tilföng og fjárhagsreikninga sem þarf að endurtaka fyrir hvert verk, og tilgreina tíðni endurtekninga.  
 
-Þegar búið er að bóka endurtekna verkbók er hægt að búa til marga reikninga með **Stofna verksölureikning** . Hægt er að yfirfara og bóka stofnaða reikninga á síðunni **Sölureikningar** .
+Þegar búið er að bóka endurtekna verkbók er hægt að búa til marga reikninga með **Stofna verksölureikning**. Hægt er að yfirfara og bóka stofnaða reikninga á síðunni **Sölureikningar** .
 
 ### <a name="why-use-this-option"></a>Af hverju að nota þennan möguleika
 
@@ -57,7 +57,7 @@ Ef þú þarft oft að stofna innkaupa- og sölulínur með svipuðum upplýsing
 
 Með þessum valkosti er hægt að úthluta sömu ítrekunarlínum á marga viðskiptamenn. Hægt er að skilgreina gildistímabil fyrir endurteknar sölulínur tiltekins viðskiptavinar. Hægt er að úthluta mörgum ítrekunarlínum á sama viðskiptavin og allir þeirra verða teknir með í reikningunum.
 
-Hins vegar er engin leið til að setja fast verð fyrir vörur vegna þess að [!INCLUDE[d365fin](includes/d365fin_md.md)] notar raunverulegt verð og afslátt á dagsetningu skjals, og reynir að finna bestu samsetningu sem gefur lægsta verðið.  
+Hins vegar er engin leið til að setja fast verð fyrir vörur vegna þess að [!INCLUDE[prod_short](includes/prod_short.md)] notar raunverulegt verð og afslátt á dagsetningu skjals, og reynir að finna bestu samsetningu sem gefur lægsta verðið.  
 
 Nánari upplýsingar er að finna í [Stofna ítrekaðar sölu og innkaupalínur](sales-how-work-standard-lines.md).
 
@@ -77,7 +77,7 @@ Með þessum valkosti er notaður hluti af virkni ítarlegrar þjónustustýring
 Frekari upplýsingar, sjá [Vinna með þjónustusamninga og þjónustusamningstilboð](service-how-to-create-service-contracts-and-service-contract-quotes.md) og [Rukka nokkra þjónustusamninga](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Tengdir eiginleikar
-Nokkrir tengdir eiginleikar eru í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Nokkrir tengdir eiginleikar eru í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="blanket-sales-orders"></a>Standandi sölupantanir
 
@@ -103,7 +103,7 @@ Með þessum valkosti er hægt að velja á milli fastra verða og „bestu“ v
 
 Þetta er hins vegar aðeins í boði í Noregi. Hægt er að skilgreina gildistímabil á ítrekunarflokksstigi.
 
-Nánari upplýsingar eru í [Endurteknar pantanir (Noregur)](/localfunctionality/norway/recurring-orders.md).
+Nánari upplýsingar eru í [Endurteknar pantanir](LocalFunctionality/Norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Endurteknar tekjur og áskriftarreikningar frá öðrum veitum
 
@@ -120,4 +120,4 @@ Nánari upplýsingar eru í [Endurteknar pantanir (Noregur)](/localfunctionality
 [Reikningsfæra nokkra þjónustusamninga](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Eftirspurnarspá og standandi pantanir](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Vinna með standandi sölupantanir](sales-how-to-create-blanket-sales-orders.md)  
-[Endurteknar pantanir (Noregur)](/localfunctionality/norway/recurring-orders.md)  
+[Endurteknar pantanir (Noregur)](LocalFunctionality/Norway/recurring-orders.md)  

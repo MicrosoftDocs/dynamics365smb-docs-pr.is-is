@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 170f98f5bf876f6b090a1980e345b40809cea545
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fb2487f2c8300fa73c2251b978e8deebc50ed404
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927048"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747342"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Selja birgðavörur í flæðum samsetningar í pöntun
 Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvöru inniheldur **Samsetning til pöntunar** gerir sjálfgefna sölupöntunarvinnslan ráð fyrir því að varan sé ekki til í birgðum og að setja þurfi hana saman fyrir þessa tilteknu sölupöntun. Því er tengd samsetningarpöntun sjálfkrafa búin til þegar vöru er bætt við sölupöntunarlínu. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md). Ef hluti magns sölupöntunarinnar er þegar tiltækur í birgðum er hægt að minnka magn samsetningarpöntunarinnar með því að breyta reitnum **Magn til samsetningar til pöntunar** í sölupöntunarlínunni.  
@@ -23,7 +23,7 @@ Ef reiturinn **Samsetningarstefna** á birgðaspjaldi samsetningarvöru inniheld
 Þetta dæmi er sjaldgæft þar sem búist er við að vörur sem settar eru saman í pöntun séu alltaf sérsniðnar, og líkurnar á því að þær séu í birgðum í þeirri stillingu sem annar viðskiptavinur bað um eru litlar. Ef fyrirtækið á samsetningarpantanir í birgðum vegna skila eða afturkallaðra pantana þarf að tína þetta magn og selja það áður en nýjar pantanir eru settar saman.  
 
 > [!NOTE]  
->  Engin aðgerð er til staðar í sölupöntunum, sem sjálfkrafa aðvarar eða hjálpar til við að draga frá magn samsetningarpöntunar sem eru þegar til staðar. Í staðinn verður að fylgjast með upplýsingum um það hvað er til, svo sem í upplýsingakassanum **Sundurliðun sölulínu** .  
+>  Engin aðgerð er til staðar í sölupöntunum, sem sjálfkrafa aðvarar eða hjálpar til við að draga frá magn samsetningarpöntunar sem eru þegar til staðar. Í staðinn verður að fylgjast með upplýsingum um það hvað er til, svo sem í upplýsingakassanum **Sundurliðun sölulínu**.  
 
 Svipuð virkni er tiltæk þegar verið er að selja samsetningarvörur úr birgðum og hluti af magni eða allt magnið er ekki tiltækt og hægt er að veita með samsetningarpöntun. Frekari upplýsingar eru í [Selja vörur sem eru settar saman í pöntun og birgðavörur saman](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
@@ -38,7 +38,7 @@ Svipuð virkni er tiltæk þegar verið er að selja samsetningarvörur úr birg
 3.  Í sölupöntunarlínu fyrir birgðir sem settar eru saman í pöntun í reitnum **Magn** er fært inn áskilið magn.  
 4.  Í upplýsingakassanum **Sundurliðun sölulínu** ákvarðaðu hvort allt eða eitthvað af áskildu magni er tiltækt.  
 5.  Í reitnum **Magn til samsetningar til pöntunar** er tiltækt magn dregið frá þannig að einungis ótiltækt magn er sett saman í pöntunina. Reiturinn **Frátekið magn** er minnkaður í samræmi við það til að gefa til kynna að tengillinn á pöntun fyrir pöntun, eða frátektin, á einungis við magn sem á að setja saman.  
-6.  Á flýtiflipanum **Línur** skal velja **Aðgerðir** og síðan aðgerðina **Taka frá** .  
+6.  Á flýtiflipanum **Línur** skal velja **Aðgerðir** og síðan aðgerðina **Taka frá**.  
 7.  Á síðunni **Frátekning** skal velja birgðafærsluna eða línurnar sem hafa að geyma tiltækt magn á flipanum **Taka frá í gildandi línu** og velja svo **Í lagi** hnappinn.  
 
     Á síðunni **Sölupöntun** í reitnum **Frátekið magn** sem sýnir nú að magn pöntunarlínununnar er tekið frá. Reiturinn **Magn Til að setja saman í pöntun** speglar enn það undirmagn sem þarf að setja saman.  
@@ -54,4 +54,4 @@ Svipuð virkni er tiltæk þegar verið er að selja samsetningarvörur úr birg
 [Vinna með uppskriftir](inventory-how-work-BOMs.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

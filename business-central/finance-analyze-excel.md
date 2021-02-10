@@ -7,22 +7,22 @@ ms.topic: article
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 53221cbacb35e7e82077295a6f7098f07c2b02e6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 58c1d9bba8942dbd400a3ed0837ef7a39fd2bb13
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913472"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747142"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Greina fjárhagsskýrslur í Excel Microsoft Excel.
 
-Í [!INCLUDE [prodshort](includes/prodshort.md)] geturðu séð afkastavísa (KPIs) og fengið yfirlit yfir fjárhagsstöðu fyrirtækisins. Þú getur einnig opnað lista í Excel og greint gögnin þar. En þú getur einnig flutt út stórar fjárhagsskýrslur eins og t.d. efnahagsreikning eða rekstrarreikning til Excel, greint gögnin og prentað út skýrslurnar.  
+Í [!INCLUDE [prod_short](includes/prod_short.md)] geturðu séð afkastavísa (KPIs) og fengið yfirlit yfir fjárhagsstöðu fyrirtækisins. Þú getur einnig opnað lista í Excel og greint gögnin þar. En þú getur einnig flutt út stórar fjárhagsskýrslur eins og t.d. efnahagsreikning eða rekstrarreikning til Excel, greint gögnin og prentað út skýrslurnar.  
 
-Í Hlutverkamiðstöð Viðskiptastjórnanda og Endurskoðanda geturðu valið hvaða fjárhagsskýrslur skal skoða í Excel frá fellilistavalmynd í Skýrslu hlutanum á borðanum. Þegar þú velur skýrslu, mun hún opnast í Excel eða Excel Online. Innbót tengir gögnin við [!INCLUDE [prodshort](includes/prodshort.md)]. Þú þarft samt sem áður að skrá þig inn með sama aðgangi og þú notar með [!INCLUDE [prodshort](includes/prodshort.md)]  
+Í Hlutverkamiðstöð Viðskiptastjórnanda og Endurskoðanda geturðu valið hvaða fjárhagsskýrslur skal skoða í Excel frá fellilistavalmynd í Skýrslu hlutanum á borðanum. Þegar þú velur skýrslu, mun hún opnast í Excel eða Excel Online. Innbót tengir gögnin við [!INCLUDE [prod_short](includes/prod_short.md)]. Þú þarft samt sem áður að skrá þig inn með sama aðgangi og þú notar með [!INCLUDE [prod_short](includes/prod_short.md)]  
 
 ## <a name="getting-the-overview-and-the-details-in-excel"></a>Fá yfirlit og upplýsingar í Excel
 
-Á borðanum er valin viðeigandi Excel skýrsla og hún látin opnast svo þú getir fengið yfirlitið sem leitað var að. Í þessari útgáfu af [!INCLUDE [prodshort](includes/prodshort.md)] bjóðum við upp á eftirfarandi Excel skýrslur:
+Á borðanum er valin viðeigandi Excel skýrsla og hún látin opnast svo þú getir fengið yfirlitið sem leitað var að. Í þessari útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] bjóðum við upp á eftirfarandi Excel skýrslur:
 
 - Efnahagsreikningur  
 - Rekstrarreikningur  
@@ -33,19 +33,19 @@ ms.locfileid: "3913472"
 
 Segjum sem svo að þú viljir grafa dýpra í sjóðstreymi þitt. Frá Mitt hlutverk viðskiptastjórnanda eða endurskoðanda, er hægt að opna **Yfirlitsskýrslu sjóðsstreymis** í Excel, en það sem raunverulega gerist er að viðeigandi gögn eru flutt út til þín og búin er til Excel vinnubók sem byggir á fyrirfram skilgreindu sniðmáti. Þú gætir verið minnt(ur) á að opna eða vista vinnubókina, það fer eftir tegund vafrans.  
 
-Í Excel má sjá glugga þar sem gögnin eru sett upp fyrir þig á fyrstu vinnubókinni. Öll gögnin sem voru flutt út eru líka aðgengileg á öðrum vinnublöðum ef þú þarft á þeim að halda. Þú getur prentað út skýrsluna undir eins, eða breytt henni þar til þú hefur yfirlitið og upplýsingarnar sem þú sækist eftir. Notaðu [!INCLUDE [prodshort](includes/prodshort.md)] Excel-innbótina til að afmarka og greina frekar gögn.  
+Í Excel má sjá glugga þar sem gögnin eru sett upp fyrir þig á fyrstu vinnubókinni. Öll gögnin sem voru flutt út eru líka aðgengileg á öðrum vinnublöðum ef þú þarft á þeim að halda. Þú getur prentað út skýrsluna undir eins, eða breytt henni þar til þú hefur yfirlitið og upplýsingarnar sem þú sækist eftir. Notaðu [!INCLUDE [prod_short](includes/prod_short.md)] Excel-innbótina til að afmarka og greina frekar gögn.  
 
 ### <a name="understanding-the-excel-templates"></a>Að skilja Excel-sniðmátin
 
-Fyrirframskilgreindar Excel-skýrslur eru byggðar á gögnum í núverandi fyrirtæki. Til dæmis hefur sýnifyrirtækið sett upp bókhaldslykilinn til að skrá þrjá sjóðsreikninga undir *Núverandi eignir* : 10100 **Ávísanareikningur** , 10200 **Sparireikningur** , og 10300 **Kassasjóður** . Lyklarnir eru með reitinn **Undirflokkur reiknings** stilltan á *Reiðufé* og samtals upphæð þeirra er sýnd sem *Reiðufé* í Excel-skýrslunni **Efnahagsreikningur** .  
+Fyrirframskilgreindar Excel-skýrslur eru byggðar á gögnum í núverandi fyrirtæki. Til dæmis hefur sýnifyrirtækið sett upp bókhaldslykilinn til að skrá þrjá sjóðsreikninga undir *Núverandi eignir*: 10100 **Ávísanareikningur**, 10200 **Sparireikningur**, og 10300 **Kassasjóður**. Lyklarnir eru með reitinn **Undirflokkur reiknings** stilltan á *Reiðufé* og samtals upphæð þeirra er sýnd sem *Reiðufé* í Excel-skýrslunni **Efnahagsreikningur**.  
 
-Fleiri vinnublöð í Excel-vinnubókinni sýna gögnin á bak við skýrsluna. En til að komast að því hvað leynist á bak við flokkunum í Excel-skýrslunum gætirðu þurft að fara til baka í [!INCLUDE [prodshort](includes/prodshort.md)] og nota síur á listana, sem dæmi.  
+Fleiri vinnublöð í Excel-vinnubókinni sýna gögnin á bak við skýrsluna. En til að komast að því hvað leynist á bak við flokkunum í Excel-skýrslunum gætirðu þurft að fara til baka í [!INCLUDE [prod_short](includes/prod_short.md)] og nota síur á listana, sem dæmi.  
 
-## <a name="the-prodshort-excel-add-in"></a>[!INCLUDE [prodshort](includes/prodshort.md)] Excel-innbótin
+## <a name="the-prod_short-excel-add-in"></a>[!INCLUDE [prod_short](includes/prod_short.md)] Excel-innbótin
 
-[!INCLUDE [prodshort](includes/prodshort.md)] Upplifun þín inniheldur innbót fyrir Excel. Það fer eftir áskriftinni, hvort þú ert skráður inn sjálfkrafa eða þarft að tiltaka sömu aðgangsupplýsingar og þú notar fyrir [!INCLUDE [prodshort](includes/prodshort.md)] Frekari upplýsingar er að finna í [Skoða og breyta í Excel úr Business Central](across-work-with-excel.md).  
+[!INCLUDE [prod_short](includes/prod_short.md)] Upplifun þín inniheldur innbót fyrir Excel. Það fer eftir áskriftinni, hvort þú ert skráður inn sjálfkrafa eða þarft að tiltaka sömu aðgangsupplýsingar og þú notar fyrir [!INCLUDE [prod_short](includes/prod_short.md)] Frekari upplýsingar er að finna í [Skoða og breyta í Excel úr Business Central](across-work-with-excel.md).  
 
-Með innbótinni geturðu fengið fersk gögn frá [!INCLUDE [prodshort](includes/prodshort.md)], og þú getur ýtt breytingum aftur inn í [!INCLUDE [prodshort](includes/prodshort.md)]. Eiginleikin sem felur í sér að ýta gögnum aftur inn í gagnagrunninn er hins vegar óvirkur fyrir Excel fjárhagsskýrslur á listanum hér að ofan.  
+Með innbótinni geturðu fengið fersk gögn frá [!INCLUDE [prod_short](includes/prod_short.md)], og þú getur ýtt breytingum aftur inn í [!INCLUDE [prod_short](includes/prod_short.md)]. Eiginleikin sem felur í sér að ýta gögnum aftur inn í gagnagrunninn er hins vegar óvirkur fyrir Excel fjárhagsskýrslur á listanum hér að ofan.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03ad2bea6ed87b5f27bea9210a03c8760c87ffcf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 043d745b0676a6fe939a6d236fefe4dad01ca742
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910156"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748019"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Setja upp vinnustundir og þjónustustundir
-Þjónustukerfi rekur yfirleitt forðastundir og stöðu þjónustupantana til að spá fyrir um vinnuálag og þjónustuþarfir. [!INCLUDE[d365fin](includes/d365fin_md.md)] er með innbyggð verkfæri sem hægt er að sérstilla til að skrá þessa gerð upplýsinga.  
+Þjónustukerfi rekur yfirleitt forðastundir og stöðu þjónustupantana til að spá fyrir um vinnuálag og þjónustuþarfir. [!INCLUDE[prod_short](includes/prod_short.md)] er með innbyggð verkfæri sem hægt er að sérstilla til að skrá þessa gerð upplýsinga.  
   
 Eftir að sjálfgefinn þjónustutími fyrirtækisins hefur verið stilltur er hægt að reikna út svartíma þjónustupantana eða senda út viðvaranir þegar þjónustusímtöl berast. Viðvörunareiginleikinn er notaður samhliða verktímasetningu.   
   
@@ -48,11 +48,11 @@ Hægt er að nota síðuna **Þjónustutími** til að setja upp tiltekna þjón
 Ef ekki eru tilgreindar sérstakar þjónustustundir vegna þjónustusamningsins er notaður sjálfgefinn þjónustutími vegna þjónustusamninga.  
   
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningar** og veldu síðan tengda tengilinn.  
-2. Opna skal þjónustusamning sem setja á upp sérststakar þjónustustundir fyrir og veldu **Þjónustustundir** .  
+2. Opna skal þjónustusamning sem setja á upp sérststakar þjónustustundir fyrir og veldu **Þjónustustundir**.  
 4. Ef setja á upp þjónustustundir sem byggjast á sjálfgefnum þjónustutíma er smellt á **Afrita sjálfgefinn þjónustutíma** aðgerðina.  
-5. Breyta reitunum í þjónustutímafærslunum. Bæta við eða eyða færslum til að setja upp þjónustustundafjölda fyrir samninginn. Athugið að reitirnir **Dagur** , **Upphafstími** og **Lokatími** eru nauðsynlegir fyrir hverja línu.  
-6. Ef þjónustutíminn á að gilda frá tiltekinni dagsetningu þarf að fylla út reitinn **Upphafsdagsetning** .  
-7. Ef þjónustutíminn á að gilda á frídögum er merkt í gátreitinn í reitnum **Gildir á frídögum** .  
+5. Breyta reitunum í þjónustutímafærslunum. Bæta við eða eyða færslum til að setja upp þjónustustundafjölda fyrir samninginn. Athugið að reitirnir **Dagur**, **Upphafstími** og **Lokatími** eru nauðsynlegir fyrir hverja línu.  
+6. Ef þjónustutíminn á að gilda frá tiltekinni dagsetningu þarf að fylla út reitinn **Upphafsdagsetning**.  
+7. Ef þjónustutíminn á að gilda á frídögum er merkt í gátreitinn í reitnum **Gildir á frídögum**.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Skilja úthlutunarstaða og viðgerðarstaða](service-allocation-status-and-repair-status.md)  

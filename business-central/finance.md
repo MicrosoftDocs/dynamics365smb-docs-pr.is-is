@@ -1,8 +1,6 @@
 ---
-title: Fjármálastjórnun | Microsoft Docs
-description: Kynntu þér verkhlutana í því að setja upp fjármál í fyrirtækinu sem hentar öllum þínum þörfum tengdum bókhaldi, endurskoðun eða bókunum.
-services: project-madeira
-documentationcenter: ''
+title: Fjármálastjórnun
+description: Kynntu þér hvernig Business Central styður við þarfir þínar fyrir fjárhagsstjórnun, reikningshald, endurskoðun eða bókhald.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +10,16 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
-ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970465"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750281"
 ---
 # <a name="finance"></a>Fjármál
-[!INCLUDE[d365fin](includes/d365fin_md.md)] felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] felur í sér staðlaða grunnstillingu á flestum fjárhagsferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins. Nánari upplýsingar er að finna í [Uppsetning Fjármála](finance-setup-finance.md).
 
 Sjálfgefin forstilling inniheldur bókhaldslykill og staðlaða bókunarflokka sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.  
 
@@ -57,18 +56,20 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Kynnið ykkur hvernig á að nota Hlutverkamiðstöð endurskoðanda, bjóða ytri endurskoðanda og nota fyrirtækjamiðstöðina til að stjórna reikningum fyrir marga viðskiptamenn.|[Upplifun endurskoðanda í Business Central](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Horfa á kynningarmyndband
+
 Eftirfarandi myndband kynnir nokkra af helstu möguleikum í stjórnun fjármála. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Lokun fjárhagstímabila](year-close-years-periods.md)  
-[Stjórna verkum](projects-manage-projects.md)    
+[Stjórna verkum](projects-manage-projects.md)  
 [Flytja inn gögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

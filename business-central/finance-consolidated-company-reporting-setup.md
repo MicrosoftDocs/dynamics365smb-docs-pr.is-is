@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927680"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750981"
 ---
 # <a name="set-up-company-consolidation"></a>Setja upp sameiningu fyrirtækis
 
@@ -33,7 +33,7 @@ ms.locfileid: "3927680"
 Ef samstæðan er einföld, til dæmis vegna þess að þú ert eigandi allra fyrirtækjaeininganna sem á að steypa saman, munu **Fyrirtækjasamstæða** leiðbeiningar um uppsetningu með aðstoð leiða þig í gegnum eftirfarandi skref:
 
 * Veldur hvort á að stofna nýtt samstæðufyrirtæki, eða steypa gögnunum saman í fyrirtæki sem þú hefur þegar stofnað fyrir samstæðuna. Fyrirtækið ætti ekki að innihalda færslur. 
-* Forskoða niðurstöður. [!INCLUDE[d365fin](includes/d365fin_md.md)] staðfestir að hægt sé að flytja aðalgögnin og færslur yfir í samstæðufyrirtækið án vandkvæða.
+* Forskoða niðurstöður. [!INCLUDE[prod_short](includes/prod_short.md)] staðfestir að hægt sé að flytja aðalgögnin og færslur yfir í samstæðufyrirtækið án vandkvæða.
 
 Fylgið eftirfarandi skrefum til að nota leiðbeiningar um uppsetningu með hjálp:
 
@@ -63,14 +63,14 @@ Eftirfarandi listi sýnir lykilþætti í samstæðufyrirtækinu.
     Frekari upplýsingar er að finna í hlutanum [Bæta við fyrirtækiseiningum](#busunit).
 3. Hægt er að tilgreina gengi við samsteypu fjárhagsskýrslna fyrirtækiseininga ef skýrslurnar eru í erlendum gjaldmiðli.
 
-    Gengin þrjú sem notast er við eru: **Meðalgengi (handvirkt)** , **Lokagengi** og **Síðasta lokagengi** . Frekari upplýsingar er að finna í hlutanum [Tilgreina gengi gjaldmiðla fyrir sameiningar](#exchrates).
+    Gengin þrjú sem notast er við eru: **Meðalgengi (handvirkt)**, **Lokagengi** og **Síðasta lokagengi**. Frekari upplýsingar er að finna í hlutanum [Tilgreina gengi gjaldmiðla fyrir sameiningar](#exchrates).
 4. Hægt er að sameina víddarupplýsingar sem og fjárhagsreikninga.
 
     Frekari upplýsingar er að finna í hlutanum [Taka með eða sleppa víddum](#dim).
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Bæta við fyrirtækiseiningum
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] gerir þér kleift að setja upp lista yfir fyrirtækiseiningar sem á að sameina, staðfesta bókhaldsgögn áður en þau eru sameinuð, flytja inn skrár og búa til samstæðuskýrslur.  
+[!INCLUDE[prod_short](includes/prod_short.md)] gerir þér kleift að setja upp lista yfir fyrirtækiseiningar sem á að sameina, staðfesta bókhaldsgögn áður en þau eru sameinuð, flytja inn skrár og búa til samstæðuskýrslur.  
 
 1. Skráðu þig inn samstæðufyrirtækið.
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fyrirtækiseiningar** og veldu síðan tengda tengilinn.  
@@ -88,12 +88,12 @@ Bókhaldslykill fyrirtækis sem á að sameina þarf að  tilgreina reikninga fy
 
 Ef bókhaldslyklar í fyrirtækjaeiningunni eru ekki þeir sömu og í samstæðufyrirtækinu er nauðsynlegt að búa til fjárhagslykla fyrir samlegðina. Þú getur tilgreint reikninga sem bóka á debet og kredit á, sem og þá aðferð sem nota skal við að umreikna gjaldmiðil í samstæðufyrirtækinu. Þetta er til dæmis gagnlegt ef þú keyrir skýrsluna oft.
 
-1. Í [!INCLUDE [prodshort](includes/prodshort.md)] hverrar fyrirtækiseiningar skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn **Bókhaldslykill** og velja síðan tengda tengilinn.  
+1. Í [!INCLUDE [prod_short](includes/prod_short.md)] hverrar fyrirtækiseiningar skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn **Bókhaldslykill** og velja síðan tengda tengilinn.  
 2. Opnaðu kortið fyrir reikninginn og fylltu svo út í reitina á **Samstæða** flýtiflipanum. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Tilgreina gengi gjaldmiðla fyrir samstæður
 
-Ef fyrirtækjaeining notar annan gjaldmiðil en samstæðufyrirtækið, er nauðsynlegt að tiltaka hvaða aðferðir eru notaðar við útreikning gjaldmiðla á hverjum reikningi áður en þú steypir saman. Fyrir hvern fjárhagsreikning ákvarðar innihald reitsins **Umreikniaðferð samstæðunnar** hvaða gengi gjaldmiðla er notað. Í samstæðufyrirtækinu, á hverju spjaldi fyrirtækiseiningarinnar í **Töflunni Gengi gjaldmiðla** er tilgreint hvort samstæðan noti gengi gjaldmiðla frá fyrirtækiseiningunni eða samstæðufyrirtækinu. Ef notað er gengi gjaldmiðla frá samstæðufyrirtækinu er hægt að breyta gengi gjaldmiðla hjá fyrirtækiseiningunni. Fyrir fyrirtækiseiningu, ef **Gengistafla á spjaldi** fyrirtækjaeiningarinnar inniheldur **Staðbundið** , er hægt að breyta genginu af spjaldi fyrirtækjaeiningarinnar. Gengi er afritað af töflunni **Gengi** en það er hægt að breyta þeim áður en samruni á sér stað.
+Ef fyrirtækjaeining notar annan gjaldmiðil en samstæðufyrirtækið, er nauðsynlegt að tiltaka hvaða aðferðir eru notaðar við útreikning gjaldmiðla á hverjum reikningi áður en þú steypir saman. Fyrir hvern fjárhagsreikning ákvarðar innihald reitsins **Umreikniaðferð samstæðunnar** hvaða gengi gjaldmiðla er notað. Í samstæðufyrirtækinu, á hverju spjaldi fyrirtækiseiningarinnar í **Töflunni Gengi gjaldmiðla** er tilgreint hvort samstæðan noti gengi gjaldmiðla frá fyrirtækiseiningunni eða samstæðufyrirtækinu. Ef notað er gengi gjaldmiðla frá samstæðufyrirtækinu er hægt að breyta gengi gjaldmiðla hjá fyrirtækiseiningunni. Fyrir fyrirtækiseiningu, ef **Gengistafla á spjaldi** fyrirtækjaeiningarinnar inniheldur **Staðbundið**, er hægt að breyta genginu af spjaldi fyrirtækjaeiningarinnar. Gengi er afritað af töflunni **Gengi** en það er hægt að breyta þeim áður en samruni á sér stað.
 
 Í eftirfarandi töflu er gengisaðferðum sem hægt er að nota fyrir lykla lýst.
 
@@ -104,14 +104,14 @@ Ef fyrirtækjaeining notar annan gjaldmiðil en samstæðufyrirtækið, er nauð
 |Síðasta lokagengi | Gengið sem gilti á gengismarkaði á dagsetningunni sem verið er að undirbúa efnahagsreikning og rekstrarreikning fyrir. Gengið er fært inn fyrir hverja fyrirtækiseiningu. Notað fyrir efnahagslykla.|
 |Ferill gengis | Gengið sem var í gildi þegar viðskiptin áttu sér stað.|
 |Samsett gengi | Upphæðir gildandi tímabils eru umreiknaðar á meðalgengi og bætt við áður skráða stöðu í samstæðufyrirtækinu. Þessi aðferð er iðulega notuð fyrir reikninga óráðstafaðs eigin fjár vegna þess að þeir innihalda upphæðir frá öðrum tímabilum sem eru þar af leiðandi samsettar upphæðir, umreiknaðar út frá ólíku gengi.|
-|Gengi eiginfjár | Þetta er svipað og **Samsett** . Mismunur er bókaður á aðra fjárhagsreikninga.|
+|Gengi eiginfjár | Þetta er svipað og **Samsett**. Mismunur er bókaður á aðra fjárhagsreikninga.|
 
 Til að tilgreina gengi gjaldmiðla fyrir fyrirtækiseiningar, skal fylgja eftirfarandi skrefum:
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fyrirtækiseiningar** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Listi yfir fyrirtækiseiningar** skal velja fyrirtækiseininguna, og síðan **Meðalgengi (handvirkt)** aðgerðina.  
 3. Á síðunni **Breyta gengi gjaldmiðils** hefur efni í reitnum **Viðmiðunargengi** verið afritað úr töflunni **Gengi gjaldmiðils** en hægt er að breyta því. Lokaðu síðunni.  
-4. Veldu aðgerðina **Lokagengi** .  
+4. Veldu aðgerðina **Lokagengi**.  
 5. Í reitnum **Upphæð viðmiðunargengis** skal færa inn gengið.
 
 ### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Taka með eða útiloka víddir
@@ -130,11 +130,11 @@ Ef þú vilt ekki að fyrirtæki sé hluti af samstæðunni, geturðu útilokað
 
 ### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Hafa fyrirtæki í hlutaeign með í samstæðu
 
-Ef þú átt aðeins hlut í fyrirtæki geturðu tengt prósentutölu, sem samsvarar hlutaeigninni í fyrirtækinu, við hverja færslu. Ef þú átt til dæmis 70% hlut í fyrirtækinu, mun samlegðin ná til $70 af reikningi upp á $100. Til að tilgreina prósentutölu eignar þinnar í fyrirtækinu, skal fara í kort fyrirtækiseiningarinnar og slá inn prósentuna í reitnum **Samstæða %** .  
+Ef þú átt aðeins hlut í fyrirtæki geturðu tengt prósentutölu, sem samsvarar hlutaeigninni í fyrirtækinu, við hverja færslu. Ef þú átt til dæmis 70% hlut í fyrirtækinu, mun samlegðin ná til $70 af reikningi upp á $100. Til að tilgreina prósentutölu eignar þinnar í fyrirtækinu, skal fara í kort fyrirtækiseiningarinnar og slá inn prósentuna í reitnum **Samstæða %**.  
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md)  
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Flutningur viðskiptagagna í Excel](about-export-data.md)

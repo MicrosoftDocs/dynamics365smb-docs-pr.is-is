@@ -10,25 +10,25 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a9cdea97b9753adbbe8128b674dc4161178bc6f8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87c85de9f501e093679512b709841d0027fe17bf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917427"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751331"
 ---
 # <a name="design-details-item-tracking-design"></a>Hönnunarupplýsingarn: vörurakning hönnun
-Í fyrstu útgáfu af vörurakningu í [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60 eru raðnúmer eða lotunúmer voru skráð beint á birgðabókarfærslur. Þessi hönnun veitir heildarupplýsingar um það hvað er til ráðstöfunar og einfalda rakningu fyrri færslna en vantar sveigjanleika og virkni.  
+Í fyrstu útgáfu af vörurakningu í [!INCLUDE[prod_short](includes/prod_short.md)] 2.60 eru raðnúmer eða lotunúmer voru skráð beint á birgðabókarfærslur. Þessi hönnun veitir heildarupplýsingar um það hvað er til ráðstöfunar og einfalda rakningu fyrri færslna en vantar sveigjanleika og virkni.  
 
-Frá [!INCLUDE[d365fin](includes/d365fin_md.md)] 3,00 var vörurakningareiginleikinn í aðskilinni hlutaskipan með flóknum tenglum í bókuð skjöl og birgðabókarfærslur. Þessi hönnun bauð upp á sveigjanleika og virkni en rakning færslna fyrir vörur var ekki að fullu til staðar fyrir útreikning til ráðstöfunar.  
+Frá [!INCLUDE[prod_short](includes/prod_short.md)] 3,00 var vörurakningareiginleikinn í aðskilinni hlutaskipan með flóknum tenglum í bókuð skjöl og birgðabókarfærslur. Þessi hönnun bauð upp á sveigjanleika og virkni en rakning færslna fyrir vörur var ekki að fullu til staðar fyrir útreikning til ráðstöfunar.  
 
-Frá [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60 er vörurakningareiginleikinn innbyggður í frátekningarkerfið, sem annast frátekningar, pöntunarrakningu og aðgerðarboð. Nánari upplýsingar eru í „Upplýsingar um hönnun: Frátekning, Vörurakning og aðgerðaboð“ í „Upplýsingar um hönnun, framboðsáætlun“.  
+Frá [!INCLUDE[prod_short](includes/prod_short.md)] 3.60 er vörurakningareiginleikinn innbyggður í frátekningarkerfið, sem annast frátekningar, pöntunarrakningu og aðgerðarboð. Nánari upplýsingar eru í „Upplýsingar um hönnun: Frátekning, Vörurakning og aðgerðaboð“ í „Upplýsingar um hönnun, framboðsáætlun“.  
 
-Í nýjustu útgáfunni eru vörurakningarfærslur í útreikninga framboðs alls í gegnum kerfið, þ.m.t. áætlun, framleiðsla og vöruhús. Gamla hugmyndin um að taka rað- og lotunúmer með yfir í birgðahöfuðbókarfærslur er kynnt aftur til sögunnar til að tryggja auðvelt aðgengi að sögulegum gögnum til að nota við vörurakningu. Í tengslum við vörurakningarúrbætur í [!INCLUDE[d365fin](includes/d365fin_md.md)] 3,60, var frátekningarkerfi stækkað yfir í atriði önnur en pantanir, svo sem færslubækur, reikninga og kreditreikninga.  
+Í nýjustu útgáfunni eru vörurakningarfærslur í útreikninga framboðs alls í gegnum kerfið, þ.m.t. áætlun, framleiðsla og vöruhús. Gamla hugmyndin um að taka rað- og lotunúmer með yfir í birgðahöfuðbókarfærslur er kynnt aftur til sögunnar til að tryggja auðvelt aðgengi að sögulegum gögnum til að nota við vörurakningu. Í tengslum við vörurakningarúrbætur í [!INCLUDE[prod_short](includes/prod_short.md)] 3,60, var frátekningarkerfi stækkað yfir í atriði önnur en pantanir, svo sem færslubækur, reikninga og kreditreikninga.  
 
 Með því að bæta við rað- eða lotunúmerum vinnur frátekningarkerfið úr varanlegum eigindum vöru en vinnur einnig úr slitróttum tenglum á milli eftirspurnar og framboðs í formi pantanarakningafærslna og frátekningarfærslna. Aðrir öðruvísi eiginleikar rað- og lotunúmera samanborið við hefðbundin frátekningargögn er sú staðreynd að hægt að bóka þau, bæði að hluta og að fullu. Því mun taflan **Frátekningarfærsla** (T337) nú vinna með tengdri töflu, töflunni **Rakningarlýsing** (T336), sem stjórnar og birtir samantekt yfir virkt og bókað vörurakningarmagn. Frekari upplýsingar, sjá: [Hönnunarupplýsingar: Virk móti sögulegum vörurakningarfærslum](design-details-active-versus-historic-item-tracking-entries.md).  
 
-Eftirfarandi skýringarmynd lýsir hönnun vörurakningar í [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+Eftirfarandi skýringarmynd lýsir hönnun vörurakningar í [!INCLUDE[prod_short](includes/prod_short.md)]  
 
 ![Dæmi um vörurakningarflæði](media/design_details_item_tracking_design.png "Dæmi um vörurakningarflæði")  
 

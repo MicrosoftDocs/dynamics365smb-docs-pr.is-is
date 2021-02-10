@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 11/03/2020
 ms.author: edupont
-ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: cb9586e207f3eda516d11dd4f184351ff66ca4b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968334"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749956"
 ---
 # <a name="work-with-responsibility-centers"></a>Vinna með ábyrgðarstöðvar
 
@@ -53,7 +53,7 @@ Til að setja þetta upp þarf að úthluta notendum ábyrgðarstöðvum á þre
 5. Í reitinn **Þjónustuafmörkun ábyrgðarstöðvar** skal færa inn ábyrgðarstöðina þar sem notandi vinnur að þjónustustjórnun.  
 
 > [!NOTE]  
-> Notendur geta enn skoðað öll bókuð skjöl og bókfærslur, ekki aðeins þau sem tengjast ábyrgðarstöð þeirra.
+> Notendur geta aðeins skoðað þessi bókuðu skjöl sem tengjast ábyrgðarstöð þeirra. Hins vegar er hægt að skoða allar fjárhagsfærslur og fletta að öðrum bókuðum skjölum úr fjárhagsfærslunum.
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -62,4 +62,4 @@ Til að setja þetta upp þarf að úthluta notendum ábyrgðarstöðvum á þre
 [Birgðir](inventory-manage-inventory.md)[Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

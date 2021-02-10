@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b9e77925a46f57b3c45a21f86ae583024146ff4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21eff2a2c52dfabb3788bb06d1d2f684c34441ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916094"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750006"
 ---
 # <a name="trace-item-tracked-items"></a>Rekja vöruraktar vörur
 Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hvenær hún var fengin eða framleidd, millifærð, seld, notuð eða henni skilað. Einnig er hægt að finna öll núverandi tilvik af tilteknu rað- eða lotunúmeri í gagnagrunninum. Þetta er gert með því að nota vörurakningu og eiginleikann [Finna færslur](ui-find-entries.md).  
@@ -55,12 +55,12 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 > [!NOTE]  
 >  Ef lína fyrir ofan vörurakningarlínu hefur þegar rekið færsluferil er gátreiturinn **Þegar verið rakið** valinn. Til að veita einfaldara yfirlit eru slíkar undirliggjandi línur ekki sýndar.  
 >   
->  Til að finna vörurakningarlínur þar sem færsluferill hefur þegar verið rakinn skal velja hnappinn **Fara í það sem hefur verið rakið** . Viðkomandi vörurakningarlína er valin og allar undirliggjandi línur eru stækkaðar.  
+>  Til að finna vörurakningarlínur þar sem færsluferill hefur þegar verið rakinn skal velja hnappinn **Fara í það sem hefur verið rakið**. Viðkomandi vörurakningarlína er valin og allar undirliggjandi línur eru stækkaðar.  
 
 ## <a name="to-find-item-tracked-items-with-find-entries"></a>Til að finna vöruraktar vörur með Finna færslur  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Finna færslur** og veldu síðan tengda tengilinn.  
-2. Veljið **Aðgerðir** > **Leita eftir** > **Leita eftir vörutilvísun** .
+2. Veljið **Aðgerðir** > **Leita eftir** > **Leita eftir vörutilvísun**.
 3. Í reitina **Raðnúmer** og **Lotunúmer** skal færa inn vörurakningarnúmer sem ætlunin er að rekja.  
 4. Velja skal aðgerðina **Finna** til að finna öll tilvik um rað- eða lotunúmerið í gagnagrunninum.  
 
@@ -69,6 +69,6 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 [Hönnunarupplýsingar: vörurakning](design-details-item-tracking.md)
 [Hönnunarupplýsingar - vörurakning og frátekning](design-details-item-tracking-and-reservations.md)  
 [Taka frá vörur](inventory-how-to-reserve-items.md)  
-[Vinna með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Kynning: Rekja rað- og lotunúmer](walkthrough-tracing-serial-lot-numbers.md).  
 [Finna færslur](ui-find-entries.md)  

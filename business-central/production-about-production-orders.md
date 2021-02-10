@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc62673e83fa0a748164af57bf0a075ca325dde4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: feeb8913f54b003d003caf1363194cbcf1a7a2b8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925006"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749044"
 ---
 # <a name="about-production-orders"></a>Um framleiðslupantanir
 Framleiðslupantanir eru notaðar til að sjá um umbreytingu keypts efnis yfir í framleiddar vörur. Framleiðslupantanir leiða verk í gegnum ýmsar vinnu- eða vélastöðvar í vinnusalnum.  
@@ -38,7 +38,7 @@ Framleiðslupantanir eru upphafspunktar fyrir:
 -   Rakningu tilbúinnar framleiðslu  
 
 ## <a name="production-order-creation"></a>Stofnun framleiðslupantana  
-Hægt er að stofna framleiðslupantanir á grundvellinum pöntun-fyrir-pöntun handvirkt á síðunni **Framleiðslupöntun** eða mynda þær í gluggunum **Sölupöntun Áætlun** eða **Pöntunaráætlun** . Síðan **Áætlunarblað** er notuð til að gera margar pantanir.  
+Hægt er að stofna framleiðslupantanir á grundvellinum pöntun-fyrir-pöntun handvirkt á síðunni **Framleiðslupöntun** eða mynda þær í gluggunum **Sölupöntun Áætlun** eða **Pöntunaráætlun**. Síðan **Áætlunarblað** er notuð til að gera margar pantanir.  
 
 Framleiðslupantanir eru stofnaðar eftir upplýsingum frá:  
 
@@ -61,7 +61,7 @@ Frekari upplýsingar eru í [Rekja tengsl á milli framboðs og eftirspurnar](pr
 Framleiðslupantanir sem eru stofnaðar eftir öðrum leiðum eru ekki sjálfkrafa teknar frá og raktar.   
 
 ## <a name="production-order-status"></a>Staða framleiðslupöntunar  
-Staða framleiðslupöntunar stýrir því hvernig framleiðslupöntunin hagar sér innan forritsins. Form og innihald framleiðslunnar ráðast af stöðu pöntunarinnar. Framleiðslupantanirnar eru birtar á ólíkum síðum eftir því hver staða þeirra er. Ekki er hægt að breyta stöðu framleiðslupöntunar handvirkt; nota þarf aðgerðina **Breyta stöðu** .  
+Staða framleiðslupöntunar stýrir því hvernig framleiðslupöntunin hagar sér innan forritsins. Form og innihald framleiðslunnar ráðast af stöðu pöntunarinnar. Framleiðslupantanirnar eru birtar á ólíkum síðum eftir því hver staða þeirra er. Ekki er hægt að breyta stöðu framleiðslupöntunar handvirkt; nota þarf aðgerðina **Breyta stöðu**.  
 
 ### <a name="simulated-production-order"></a>Hermd framleiðslupöntun  
 Hermda framleiðslupöntunin er einstök hvað varðar eftirfarandi eiginleika:  
@@ -178,7 +178,7 @@ Magnið í birgðaskráningunni stendur fyrir magnið fyrir hverja samsetningu s
 #### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Sjálfvirk skýrslugerð - Bakskráning heillar pöntunar  
 Þessi skýrslugerðaraðferð tekur ekki tillit til leiðartengilskóta.  
 
-Engir íhlutir eru valdir þar til stöðu útgefnu framleiðslupöntunarinnar er breytt í *Lokið* . Magnið í birgðaskráningunni er það magn fyrir hverja samsetningu sem kemur fram á framleiðsluuppskriftinni margfaldað með þeim fjölda yfirvara sem voru fullunnar og settar í birgðir.  
+Engir íhlutir eru valdir þar til stöðu útgefnu framleiðslupöntunarinnar er breytt í *Lokið*. Magnið í birgðaskráningunni er það magn fyrir hverja samsetningu sem kemur fram á framleiðsluuppskriftinni margfaldað með þeim fjölda yfirvara sem voru fullunnar og settar í birgðir.  
 
 Afturvirk birgðaskráning á allri framleiðslupöntuninni krefst sömu uppsetningar og fyrir framvirka söfnun: Skýrslugerðaraðferðin þarf að vera stillt á afturvirkt á hverju birgðaspjaldi til þess að allar vörur innan yfiruppskriftarinnar verði skráðar. Þar að auki þarf að fjarlægja alla leiðartengilskóta úr framleiðsluuppskriftinni.  
 
@@ -200,7 +200,7 @@ Afturvirkt aðferð skráir áætlaða frálagið (og tímann) sem er skráð sj
 ### <a name="posting-consumption-and-output"></a>Notkun og Frálag bókuð  
 Hægt er að nota hvaða samblöndu sem er af sjálfvirkri birgðaskráningu og handvirkt skráðum upplýsingum fyrir bæði notkun og frálag. Til dæmis gæti verið óskað þess að birgðaskrá íhluti framvirkt sjálfkrafa en nota samt Notkunarbókina til að skrá úrkast. Á svipaðan hátt gæti þess verið óskað að skrá frálag sjálfvirkt en nota Frálagsbókina til að skrá úrkast yfirvörunnar eða aukatíma sem eytt er í pöntunina.  
 
-Að lokum þarf að ákvarða þá röð sem skrá á upplýsingarnar í ef notkun og frálag er fært inn handvirkt. Hægt er að skrá notkun fyrst og nota svo flýtiaðferð til að færa inn upplýsingarnar, sem eru byggðar á áætluðu frálagsmagni. Eða þá að frálag er fært inn fyrst með aðgerðinni **opna leið** . Notkun yrði þá skráð á grundvelli raunverulegs frálagsmagns.  
+Að lokum þarf að ákvarða þá röð sem skrá á upplýsingarnar í ef notkun og frálag er fært inn handvirkt. Hægt er að skrá notkun fyrst og nota svo flýtiaðferð til að færa inn upplýsingarnar, sem eru byggðar á áætluðu frálagsmagni. Eða þá að frálag er fært inn fyrst með aðgerðinni **opna leið**. Notkun yrði þá skráð á grundvelli raunverulegs frálagsmagns.  
 
 ### <a name="production-journal"></a>Framleiðslubók  
 Framleiðslubókin sameinar aðgerðir Notkunarbókarinnar og Frálagsbókarinnar inn í eina bók sem farið er í beint úr útgefnu framleiðslupöntuninni.  
@@ -234,4 +234,4 @@ Hins vegar er Framleiðslubókin frábrugðin Notkunar- og Frálagsbókunum að 
 [Áætlun](production-planning.md)      
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,8 +1,7 @@
 ---
-title: Reglufylgni þjónustu | Microsoft Docs
-description: Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við Business Central.
+title: Reglufylgni þjónustu og þjónustustigssamningur
+description: Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við Business Central Online.
 author: sorenfriisalexandersen
-documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -12,15 +11,16 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 03987cf45cae8d8115ed2a782a60a5a19fc1032f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 56c4413e333a2bf8d08ae25f1e4df1d03e87e0be
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920973"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751931"
 ---
 # <a name="service-compliance"></a>Reglufylgni þjónustu
-Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+
+Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)] á netinu  
 
 Business Central er skýjaþjónusta á heimsvísu og keyrir á einu stærsta tölvukerfi heims, Microsoft Azure, með gagnamiðstöðvar á svæðum um allan heim. Að keyra skýjaþjónustu felur einnig í sér að þurfa að samræmast ákveðnum stöðlum hvað varðar öryggi og reglufylgni, þannig að þjónustulega séð uppfyllir Business Central strangar kröfur nokkurra ISO-vottana og vottana ákveðinni atvinnugreina.
 
@@ -30,9 +30,7 @@ Ef þú hefur áhuga á heildarlistanum yfir framboð á reglufylgni frá Micros
 
 ## <a name="service-terms"></a>þjónustuskilmála
 
-[!INCLUDE[prodshort](../includes/prodshort.md)] á netinu fellur undir [„Modern“-reglur um stuðningstíma](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Skilmálum um þjónustustigssamning er lýst í skjali sem þú getur sótt úr hlutanum **Þjónustustigssamningar fyrir Microsoft Online Services** á síðunni [Leyfisskilmálar](https://www.microsoft.com/licensing/product-licensing/products).  
-
-Ennfremur geturðu fylgst með ástandi leigjanda þíns og tilgreint uppfærsluglugga í [Stjórnandamiðstöðu leigjanda](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+[!INCLUDE [service-terms](../includes/service-terms.md)]
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -40,4 +38,4 @@ Ennfremur geturðu fylgst með ástandi leigjanda þíns og tilgreint uppfærslu
 [Reglufylgni forrits](compliance-application-compliance.md)  
 [Vottanir](compliance-certifications.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  

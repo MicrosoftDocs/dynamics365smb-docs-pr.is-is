@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e5e51251f19391eb96a1979a2bb24f7bf894d4b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 04034406154dddfabe44a9fd62e0a793981e7f69
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926173"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748359"
 ---
 # <a name="merge-duplicate-records"></a>Sameina tvíteknar færslur
 Með tímanum stofna ýmsir notendur nýjan viðskiptamann, lánardrottin eða tengiliðaspjöld, eða nýju færslurnar eru stofnaðar sjálfkrafa við flutning, og því getur gerst að viðskiptamaður, lánardrottinn eða tengiliður komi fram í kerfinu í fleiri en einni færslu. Í slíkum tilfellum er hægt að nota síðuna **Sameina tvítekið atriði** úr spjaldinu með færslunni sem á að halda í. Síðan veitir yfirlit yfir tvítekin reitargildi og býður upp á virkni til að velja hvaða gildum skuli halda eða fleygja þegar tvær færslur eru sameinaðar sem ein.
@@ -67,4 +67,4 @@ Eftirfarandi ferli byggist á viðskiptamannaspjaldi. Skrefin eru svipuð fyrir 
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Uppsetning tengiliða](marketing-setup-contacts.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

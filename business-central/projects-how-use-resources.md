@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fef4421cafa8d0f7fd18d24ab7a78a814702513e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c753e38566971c044da3337f0f35f1609bd489c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918989"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748869"
 ---
 # <a name="use-resources-for-jobs"></a>Nota tilföng fyrir verk
 Notkun forða er skráð í verkbókina til að fylgjast með kostnaði, verði og þeim verktegundum sem tengdar eru við verk. Frekari upplýsingar eru í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).
@@ -33,13 +33,13 @@ Forða er úthlutað á verk með því að búa til verkáætlunarlínur fyrir 
 ## <a name="to-record-resource-usage-for-a-job"></a>Til að skrá notkun forða fyrir verk
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkbækur** og veldu síðan tengda tengilinn.
 2. Opnið viðeigandi verkbókarfærslu og fyllið út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Þegar færslubókin er tilbúin skal velja aðgerðina **Bóka** .
+3. Þegar færslubókin er tilbúin skal velja aðgerðina **Bóka**.
 
 ## <a name="to-adjust-resource-prices"></a>Til að leiðrétta forðaverð
 Ef breyta á kostnaði eða verði á mörgum tegundum forða er hægt að nota keyrslu.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leiðrétta forðakostnað/verð** og veldu síðan tengda tengilinn.
-2. Fyllið út reitina í línu eins og þörf krefur og veljið svo hnappinn **Í lagi** .
+2. Fyllið út reitina í línu eins og þörf krefur og veljið svo hnappinn **Í lagi**.
 
 > [!NOTE]  
 >   Þessi keyrsla stofnar hvorki né leiðréttir annan kostnað eða verð forða. Hún breytir aðeins innihaldi reitsins á forðaspjaldinu fyrir reitinn **Leiðr. reit** sem var valinn í keyrslunni. Leiðréttingarnar taka strax gildi í forðanum svo að rétt er að ganga úr skugga um að leiðréttingarstuðullinn sé réttur áður en keyrslan er notuð.
@@ -49,7 +49,7 @@ Ef þegar er búið að setja upp annað verð fyrir hluta af forðanum er hægt
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verðbreytingar forða** og veldu síðan tengda tengilinn.
 2. Veljið aðgerðina **Tillaga forðaverðbr. (verð)** og fyllið svo út reitina eins og þörf krefur.
-3. Velja hnappinn **Í lagi** .  
+3. Velja hnappinn **Í lagi**.  
 4. Þegar runuvinnslunni lýkur sýnir síðan **Verðbreytingar forða** niðurstöður runuvinnslunnar.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Búa til verðbreytingatillögur forða út frá stöðluðu verði:
@@ -57,7 +57,7 @@ Ef setja á upp fleiri en eitt annað verð á forða út frá stöðluðu verð
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verðbreytingar forða** og veldu síðan tengda tengilinn.
 2. Veljið aðgerðina **Tillaga forðaverðbr. (forði)** og fyllið svo út reitina eins og þörf krefur.  
-3. Velja hnappinn **Í lagi** .  
+3. Velja hnappinn **Í lagi**.  
 4. Þegar runuvinnslunni lýkur er síðan **Verðbreytingar forða** opnuð til að sjá niðurstöður runuvinnslunnar.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Til að fá verðbreytingatillögur forða út frá öðru verði
@@ -65,7 +65,7 @@ Ef þegar er búið að setja upp annað verð fyrir hluta af forðanum er hægt
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tillögur um verðbreytingar forða** og veldu síðan tengda tengilinn.  
 2. Fyllið inn í svæðin eftir þörfum.
-3. Velja hnappinn **Í lagi** .  
+3. Velja hnappinn **Í lagi**.  
 4. Þegar runuvinnslunni lýkur er síðan **Verðbreytingar forða** opnuð til að sjá niðurstöður runuvinnslunnar.
 
 ## <a name="see-also"></a>Sjá einnig
@@ -73,4 +73,4 @@ Ef þegar er búið að setja upp annað verð fyrir hluta af forðanum er hægt
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)         
 [Sala](sales-manage-sales.md)     
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

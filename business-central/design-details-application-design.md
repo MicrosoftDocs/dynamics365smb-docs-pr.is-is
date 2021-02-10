@@ -11,15 +11,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b473da21e35ee09b2ffad16a1acd01c03ac92a7f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a2280fbeccd51d1c959aa2aa09121d728a18326f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924304"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751856"
 ---
 # <a name="design-details"></a>Hönnunarupplýsingar
-Þetta innihald inniheldur nákvæmar tæknilegar upplýsingar um flókin eiginleikasvæði í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Þetta innihald inniheldur nákvæmar tæknilegar upplýsingar um flókin eiginleikasvæði í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Hönnunarupplýsingar er ætlað innleiðurum, hönnuðum og yfirnotendum sem þurfa dýpri innsýn til að innleiða, sérsníða, eða setja upp lögun svæði sem um ræðir.  
 
@@ -37,6 +37,6 @@ ms.locfileid: "3924304"
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)   
  [Vöruhúsastjórnun](warehouse-manage-warehouse.md)   
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
- [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
- ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

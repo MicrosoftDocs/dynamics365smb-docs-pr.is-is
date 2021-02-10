@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a5698746fe52ff7ff6ca38e1207f09ded0742c96
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3959392048f4c130e6564160f9b2c6f5956ece8c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914105"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746242"
 ---
 # <a name="categorize-items"></a>Flokka vörur
 
@@ -28,12 +28,12 @@ Til að finna vörur eftir eiginleika er hægt að úthluta vörueigindum á vö
 
 ## <a name="to-create-an-item-category"></a>Að búa til vöruflokka
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruflokkar** og veldu síðan tengda tengilinn.
-2. Á síðunni **vöruflokkar** skal velja aðgerðina **Nýtt** .
-3. Á síðunni **vöruflokkaspjald** , á flipanum **Almennt** , eru eftirfarandi reitir fylltir út. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Á síðunni **vöruflokkar** skal velja aðgerðina **Nýtt**.
+3. Á síðunni **vöruflokkaspjald**, á flipanum **Almennt**, eru eftirfarandi reitir fylltir út. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Í **eigindir** Flýtiflipanum skal tilgreina hvers kyns vörueigindum fyrir vöruflokk. Frekari upplýsingar er að finna í [Að úthluta vörueigindum á vöruflokka](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
 
 > [!NOTE]  
-> Hafi vöruflokkur yfirvöruflokk eins og gefið er til kynna með reitnum **yfirtegund** þá eru allar vörueigindir sem eru úthlutaðar á þann yfirflokk vöru forútfylltar á flýtiflipanum **eigindir** .
+> Hafi vöruflokkur yfirvöruflokk eins og gefið er til kynna með reitnum **yfirtegund** þá eru allar vörueigindir sem eru úthlutaðar á þann yfirflokk vöru forútfylltar á flýtiflipanum **eigindir**.
 
 > [!NOTE]  
 > Vörueigindir sem á að úthluta á vöruflokk mun sjálfkrafa gilda um vöruna sem vöruflokknum er úthlutað á.
@@ -55,4 +55,4 @@ Ef þú skiptir um skoðun varðandi vöruflokk, getur þú eytt honum. Ef honum
 [Vinna með vörueigindir](inventory-how-work-item-attributes.md)  
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

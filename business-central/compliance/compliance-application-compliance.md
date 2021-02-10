@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: e0ef9e91d303191cc98afb7dc56f4585d443e5c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc95787d17affb1291ad963b5e69b303a579f1e7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917602"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752006"
 ---
 # <a name="application-compliance"></a>Reglufylgni forrits
 
-Þetta efni inniheldur upplýsingar um reglufylgni forrits í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)], á borð við alþjóðlegan fjárhagsskilastaðal, staðbundnar aðgerðir, almennu persónuverndarreglugerðina og fleira. Traust á lausn í fyrirtækjarekstri er lykillinn að því að reka hagkvæmt fyrirtæki. Business Central gerir fyrirtækjum kleift að einfalda viðskiptaferla og einnig að fylgja auknum reglugerðum og skýrslukröfum á áreiðanlegan og hagkvæman hátt.
+Þetta efni inniheldur upplýsingar um reglufylgni forrits í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)], á borð við alþjóðlegan fjárhagsskilastaðal, staðbundnar aðgerðir, almennu persónuverndarreglugerðina og fleira. Traust á lausn í fyrirtækjarekstri er lykillinn að því að reka hagkvæmt fyrirtæki. Business Central gerir fyrirtækjum kleift að einfalda viðskiptaferla og einnig að fylgja auknum reglugerðum og skýrslukröfum á áreiðanlegan og hagkvæman hátt.
 
 ## <a name="data-privacy"></a>Gagnavernd
 
@@ -108,5 +108,5 @@ Microsoft býr til staðbundnar útgáfur af Business Central fyrir takmarkaðan
 [Reglufylgni þjónustu](compliance-service-compliance.md)  
 [Vottanir](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  

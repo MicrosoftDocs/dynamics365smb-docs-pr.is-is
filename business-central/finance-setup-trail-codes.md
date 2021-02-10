@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fc491b060d6a4b1039376b0051ef58da104ff1d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914215"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750356"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Uppsetning upprunakóða og ástæðukóða fyrir endurskoðunarslóðir
 
@@ -27,9 +27,9 @@ Nota skal kóða sem auðvelt er að muna og eru lýsandi. Hægt er að setja up
 
 Stundum þarf að skoða hvernig ákveðin færsla varð til, t.d. hvort hún varð til við bókun færslubókar eða innkaupareiknings. Upprunakóði gefur til kynna hvar færsla var stofnuð. Færslur eru stofnaðar þegar færslubækur og reikningar eru bókuð og við tilteknar keyrslur. Hver bókunargerð er með tiltekinn upprunakóða sem er úthlutað þegar einstakar færslur eru stofnaðar.  
 
-Við bókun færslubóka, pantana, reikninga og kreditreikninga og notkun ýmissa keyrslna eru stofnaðar færslur á ársreikningum. Nokkrir flýtiflipar eru í glugganum **Uppsetn. upprunakóða** , einn fyrir hvern kerfishluta. Hver flýtiflipi hefur upprunakóðana sem eiga við þann kerfishluta.
+Við bókun færslubóka, pantana, reikninga og kreditreikninga og notkun ýmissa keyrslna eru stofnaðar færslur á ársreikningum. Nokkrir flýtiflipar eru í glugganum **Uppsetn. upprunakóða**, einn fyrir hvern kerfishluta. Hver flýtiflipi hefur upprunakóðana sem eiga við þann kerfishluta.
 
-Við bókun eða keyrslu er réttur upprunakóði sjálfkrafa hengdur við færsluna. Til dæmis, við bókun úr færslubók er færslan kóðuð sem *FÆRSLUBK* . Síðan er hægt að sía síðuna **fjárhagsfærslur** til að sýna hvaða færslur voru bókaðar úr almennu færslubókinni eða úr söluskjölum, til dæmis
+Við bókun eða keyrslu er réttur upprunakóði sjálfkrafa hengdur við færsluna. Til dæmis, við bókun úr færslubók er færslan kóðuð sem *FÆRSLUBK*. Síðan er hægt að sía síðuna **fjárhagsfærslur** til að sýna hvaða færslur voru bókaðar úr almennu færslubókinni eða úr söluskjölum, til dæmis
 
 ### <a name="to-define-source-codes"></a>Upprunakóðar skilgreindir:
 
@@ -41,7 +41,7 @@ Hægt er að breyta innihaldi reits síðar og breytingin mun hafa áhrif á væ
 
 ## <a name="change-source-codes"></a>Breyta upprunakóðum
 
-Hugsanlega þarf að breyta upprunakóða. Til dæmis ef notandi vill breyta upprunakóða *FHFBOK* í *FBK* .
+Hugsanlega þarf að breyta upprunakóða. Til dæmis ef notandi vill breyta upprunakóða *FHFBOK* í *FBK*.
 
 ### <a name="to-change-source-codes"></a>Upprunakóðum breytt:
 
@@ -49,7 +49,7 @@ Hugsanlega þarf að breyta upprunakóða. Til dæmis ef notandi vill breyta upp
 
 2. Kóðinn í reitnum **Kóði** er valinn í línunni með kóðanum sem á að breyta.
 
-3. Færa inn nýja kóðann velja síðann hnappinn **Já** . Einnig er hægt að breyta efni reitsins **Lýsing** .
+3. Færa inn nýja kóðann velja síðann hnappinn **Já**. Einnig er hægt að breyta efni reitsins **Lýsing**.
 
 Allar færslur sem á eftir koma og bókaðar eru í færslubók verða með nýja upprunakóðann.
 
@@ -61,7 +61,7 @@ Allar færslur sem á eftir koma og bókaðar eru í færslubók verða með ný
 
 1. Veldu ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") tákn, sláðu inn **Ástæðukóðar** og veldu svo tengdan tengil.
 
-2. Í glugganum **Ástæðukóðar** er skal færa fyrsta kóðann inn í reitinn **Kóði** . Texti til útskýringar er færður í reitinn **Lýsing** .
+2. Í glugganum **Ástæðukóðar** er skal færa fyrsta kóðann inn í reitinn **Kóði**. Texti til útskýringar er færður í reitinn **Lýsing**.
 
 Þetta er endurtekið fyrir alla kóða sem á að nota. Hægt er að setja upp kóða að vild.
 
@@ -71,7 +71,7 @@ Eftirfarandi ferli sýnir hvernig á að bæta ástæðukóða við færslubóka
 
 1. Veldu ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") tákn, sláðu inn **Sniðmát færslubóka** og veldu svo tengdan tengil.
 
-2. Í línunni með valda færslubókarsniðmátinu, í reitnum **Ástæðukóði** , skal tilgreina viðeigandi kóða.
+2. Í línunni með valda færslubókarsniðmátinu, í reitnum **Ástæðukóði**, skal tilgreina viðeigandi kóða.
 
 3. Færslubókarsniðmátinu er lokað.
 
@@ -94,6 +94,6 @@ Eftirfarandi ferli sýnir hvernig á að bæta ástæðukóða við færslubóka
 [Unnið með víddir](finance-dimensions.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)  
-[Unnið með [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

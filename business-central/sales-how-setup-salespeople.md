@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1b0c74145034d71445bde5ae9374029eb9895107
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 37b684c1f8bda394f777e43904b77b5f7747ce36
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925973"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748344"
 ---
 # <a name="set-up-salespeople"></a>Setja upp sölumenn
-Í mörgum fyrirtækjum þarf jafnan að fylgjast með starfi einstaklinga (t.d. sölumanna) svo hægt sé að nota upplýsingar sem þeim tengjast við að reikna sölulaun eða bónus, svo að dæmi sé tekið. Skoða, til dæmis skýrsluna um **sölulaun sölumanns** . Fyrirtæki gæti einnig viljað úthluta tengiliðum á viðeigandi sölumann.
+Í mörgum fyrirtækjum þarf jafnan að fylgjast með starfi einstaklinga (t.d. sölumanna) svo hægt sé að nota upplýsingar sem þeim tengjast við að reikna sölulaun eða bónus, svo að dæmi sé tekið. Skoða, til dæmis skýrsluna um **sölulaun sölumanns**. Fyrirtæki gæti einnig viljað úthluta tengiliðum á viðeigandi sölumann.
 
 Þegar þú hefur sett upp sölumann á síðunni **Sölumenn** er hægt að velja hann í reitnum **Sölumannskóði** í öllum viðeigandi færslum, svo sem fjárhagsreikningum, viðskiptamanns-, lánardrottins-, tengiliða-, og söluherferðarspjöldum. Síðan þegar þú bókar eða setur upp reikninga, kreditreikninga, bókarlínum, vaxtaaðgerða o.s.frv. er sölumannskóðinn færður í fjárhagsfærslur sem úr þessu öllu koma.
 <br><br>  
@@ -26,11 +26,11 @@ ms.locfileid: "3925973"
 
 ## <a name="to-set-up-a-salesperson-code"></a>Uppsetning sölumannskóða
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **sölumenn** og veldu síðan tengda tengilinn.
-2. Á síðunni **Sölumenn** skal velja aðgerðina **Nýtt** .
+2. Á síðunni **Sölumenn** skal velja aðgerðina **Nýtt**.
 
 Hægt er að nota sölumenn í mismunandi tengslastjórnun og markaðsvinnu. Þú getur til dæmis úthlutað verki til sölufólks, þannig að verkið sé hluti af sölutækifæri sem sölumanninum hefur verið úthlutað. Nánari upplýsingar, sjá [Setja upp tækifæri söluferla og söluþrepa](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

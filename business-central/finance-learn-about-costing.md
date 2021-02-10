@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18fcc084b1ac15747fde64a2aa93e37591d7f95f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e15f8419c4b7fa10bcec0b672beb05d076d1bb3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916902"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750568"
 ---
 # <a name="about-inventory-costing"></a>Um birgðakostnað
 Birgðakostnaði stjórnað snýst um skráningu og skýrslugerð rekstrarkostnaðar fyrirtækis. Það felur í sér skráningu framleiðslukostnaðar og vörukostnaðar, það er, virði vara.  
@@ -33,11 +33,11 @@ Birgðakostnaði stjórnað snýst um skráningu og skýrslugerð rekstrarkostna
 |Aðgreina áætlaðan kostnað (sem er ekki enn reikningsfærður) frá raunkostnaði og hvernig slíku er stýrt í færslubókinni.|[Hönnunarupplýsingar: Væntanleg kostnaðarfærsla](design-details-expected-cost-posting.md)|  
 |Kynntu þér hvernig kostnaðarleiðréttingar virka, en þær tryggja að kostnaður birtist jafnvel þó færslur eigi sér stað á handahófskenndan hátt.|[Hönnunarupplýsingar: kostnaðarleiðrétting](design-details-cost-adjustment.md)|  
 |Nánar um ástæðu þess að kostnaðarverð vöru er oft notað hjá framleiðslufyrirtækjum sem verðmætamat fyrir íhluti og endanlegar vörur.|[Um umreikning staðalkostnaðar](finance-about-calculating-standard-cost.md)|  
-|Nánar um hvernig birgðavirði birtist í færslubókinni.|[Tilkynna kostnað og afstemma við fjárhag](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
+|Nánar um hvernig birgðavirði birtist í færslubókinni.|[Afstemma birgðakostnað í fjárhag](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Nánar um hvernig kostnaðaraukar eins og frakt og tryggingar geta lagt aukakostnaðarliði við kostnaðarverð vöru.|[Nota kostnaðarauka til að gera grein fyrir viðbótar viðskiptakostnaði](payables-how-assign-item-charges.md)|  
 |Nánar um hvernig birgðatímabil aðstoða fyrirtæki við að stýra birgðavirði á tilteknum tíma, með því að skilgreina styttri tímabil sem má loka fyrir bókun eftir því sem líður á almanaksárið.|[Vinna við birgðatímabil](finance-how-to-work-with-inventory-periods.md)|  
 |Skilja gagnverkið á bak við kostnaðarforritið, þar með talið hvað gerist þegar þegar bókuð er samsetning og framleiðslufærslur.|[Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Sjá einnig
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)    
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

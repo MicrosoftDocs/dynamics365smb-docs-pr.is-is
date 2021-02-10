@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 54b0abc6b4c4834fd57cdc71d3d3ece024e3395c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9439cdbc2fbe6f2125ebc2be3e6965ad6ed7265f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913839"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752181"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum
-Á síðunni **Uppsetning Fjárhagsskema KPI netþjónustu** getur þú ákveðið hvernig skal sýna KPI gögn fjárhagsskema og á hvaða einstaka fjárhagsskemum skuli byggja afkastavísa. Þegar þú velur **Birta netþjónustu** hnappinn bætast KPI gögn fjárhagsskema á lista yfir vefþjónustu sem birt hefur verið á síðunni **Vefþjónusta** .  
+Á síðunni **Uppsetning Fjárhagsskema KPI netþjónustu** getur þú ákveðið hvernig skal sýna KPI gögn fjárhagsskema og á hvaða einstaka fjárhagsskemum skuli byggja afkastavísa. Þegar þú velur **Birta netþjónustu** hnappinn bætast KPI gögn fjárhagsskema á lista yfir vefþjónustu sem birt hefur verið á síðunni **Vefþjónusta**.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Til að setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning vefþjónustu fyrir KPI fyrir fjárhagsskema** og veldu síðan tengda tengilinn.  
@@ -26,11 +26,11 @@ ms.locfileid: "3913839"
 
     |Svæði|Lýsing|  
     |---------------------------------|---------------------------------------|  
-    |**Forspárgildi hefjast**|Tilgreinið á hvaða tímapunkti áætluðu gildin eru sýnd á mynd KPI fyrir fjárhagsskema.<br /><br /> Spárgildin eru sótt í fjárhagsáætlun sem þú velur reitnum **Heiti fjárhagsáætlunar** . **Athugið:**  Til að fá afkastavísana sem sýna spárgildin eftir tiltekna dagsetningu og raungildin fyrir dagsetninguna, geturðu breytt reitnum **Leyfa bókun frá** á síðunni **Uppsetning Fjárhags** . Frekari upplýsingar, sjá Leyfa bókun frá|  
+    |**Forspárgildi hefjast**|Tilgreinið á hvaða tímapunkti áætluðu gildin eru sýnd á mynd KPI fyrir fjárhagsskema.<br /><br /> Spárgildin eru sótt í fjárhagsáætlun sem þú velur reitnum **Heiti fjárhagsáætlunar**. **Athugið:**  Til að fá afkastavísana sem sýna spárgildin eftir tiltekna dagsetningu og raungildin fyrir dagsetninguna, geturðu breytt reitnum **Leyfa bókun frá** á síðunni **Uppsetning Fjárhags**. Frekari upplýsingar, sjá Leyfa bókun frá|  
     |**Heiti fjárhagsáætl.**|Tilgreinið heiti fjárhagsáætlunarinnar sem veitir áætluð gildi fyrir KPI-vefþjónustu fjárhagsskemans.|  
     |**Tímabil**|Tilgreinið tímabilið sem KPI-vefþjónusta fjárhagsskemans er byggð á.|  
     |**Skoða eftir**|Tilgreinið hvaða tímabil á að nota til að sýna KPI fyrir fjárhagsskema.|  
-    |**Heiti vefþjónustu**|Tilgreinið heiti KPI-vefþjónustu fyrir fjárhagsskema.<br /><br /> Þetta heiti mun birtast í **Heiti þjónustu** reitnum á síðunni **Netþjónusta** .|  
+    |**Heiti vefþjónustu**|Tilgreinið heiti KPI-vefþjónustu fyrir fjárhagsskema.<br /><br /> Þetta heiti mun birtast í **Heiti þjónustu** reitnum á síðunni **Netþjónusta**.|  
 
     Tilgreinið eitt eða fleiri fjárhagsskemu sem á að birta sem KPI-vefþjónustu samkvæmt uppsetningunni sem var búin til í fyrri töflu.  
 
@@ -42,16 +42,16 @@ ms.locfileid: "3913839"
     |**Lýsing á fjárhagsskema**|Tilgreinið lýsingu fjárhagsskemans sem KPI-vefþjónustan byggir á.|  
 
 4.  Liður 3 er endurtekinn fyrir öll fjárhagsskemu sem þú vilt nota í KPI-fjárhagsskemavefþjónustunni.  
-5.  Til að skoða eða breyta völdu fjárhagsskema er **Fjárhagsskema** valið á flýtiflipanum **Breyta fjárhagsskema** .  
+5.  Til að skoða eða breyta völdu fjárhagsskema er **Fjárhagsskema** valið á flýtiflipanum **Breyta fjárhagsskema**.  
 6.  Til að skoða KPI gögn fyrir afkastavísisvefþjónustu fyrir fjárhagsskema sem þú hefur sett upp, skal velja **Vefþjónusta KPI fyrir fjárhagsskema** aðgerðinni.  
-7.  Til að birta afkastavísisvefþjónustu fyrir fjárhagsskema skal velja **Birta vefþjónustu** aðgerðina. Netþjónustunni er bætt á lista yfir vefþjónustu sem birt hefur verið á síðunni **Vefþjónusta** .  
+7.  Til að birta afkastavísisvefþjónustu fyrir fjárhagsskema skal velja **Birta vefþjónustu** aðgerðina. Netþjónustunni er bætt á lista yfir vefþjónustu sem birt hefur verið á síðunni **Vefþjónusta**.  
 
 > [!NOTE]  
->  Þú getur líka birt KPI netþjónustuna með því að benda á síðuhlutinn **Uppsetning fjárhagsskema KPI netþjónustu** af síðunni **Netþjónusta** . Frekari upplýsingar er að finna í [Birta vefþjónustu](across-how-publish-web-service.md).  
+>  Þú getur líka birt KPI netþjónustuna með því að benda á síðuhlutinn **Uppsetning fjárhagsskema KPI netþjónustu** af síðunni **Netþjónusta**. Frekari upplýsingar er að finna í [Birta vefþjónustu](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Viðskiptaupplýsingar](bi.md)  
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

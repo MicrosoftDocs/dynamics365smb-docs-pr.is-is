@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9c4574f913355961d5bee6baa51bc88f0bdc64d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 383025059d14bf10abcb812f4a5f17f8f3379d06
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913714"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751456"
 ---
 # <a name="design-details-inventory-posting"></a>Hönnunarupplýsingar: birgðabókun
 
@@ -109,7 +109,7 @@ Að lokum bókhaldstímabils, skaltu keyra runuvinnslurnar **Bóka birgðakostna
 > 
 > Reiturinn **Bókaður kostnaður í fjárhag** í töflunni **Virðisfærsla** er útfylltur.  
 
- Tengslin milli virðisfærslna og fjárhagsfærslna eru geymd í töflunni **Fjárhagur - Birgðahöfuðbók tengls** .  
+ Tengslin milli virðisfærslna og fjárhagsfærslna eru geymd í töflunni **Fjárhagur - Birgðahöfuðbók tengls**.  
 
 ### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Tengslafærslur í fjárhag - tengslatafla fjárhagsbirgðabókar (3)
 
@@ -134,4 +134,4 @@ Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar]
  [Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)  
  [Hönnunarupplýsingar: kostnaðaríhlutir](design-details-cost-components.md) [Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
- [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

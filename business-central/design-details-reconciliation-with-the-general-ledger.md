@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f3a90142081ad0bc3096bdde1830924c2998d68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917277"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751231"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Hönnunarupplýsingar: afstemming í fjárhagur
 Þegar birgðafærslur eins og söluafhendingar, framleiðslufrálag eða neikvæðar leiðréttingar eru bókaðar eru magnið og gildisbreytingarnar í birgðunum skráð í birgðafærslunum og virðisfærslurnar, hvort í sínu lagi. Næsta skrefið í ferlinu er að bóka birgðagildin í birgðareikningana í fjárhagnum.  
@@ -30,10 +30,10 @@ Tvær aðferðir eru til að afstemma birgðabók við fjárhag.
 
 Bókunardagsetningar fjárhagsfærslnanna eru stilltar á bókunardagsetningu samsvarandi virðisfærslu, nema þegar virðisfærslan fellur undir lokað bókhaldstímabil. Í þessu tilviki, virðisfærsla er sleppt, og þú verður að breyta annaðhvort uppsetningu almennrar höfuðbókar eða notandauppsetningu til að virkja bókun á tímabilinu.  
 
-Þegar runuvinnslan **Bóka birgðakostnað í fjárhag** er keyrð gæti kerfið rekist á villur sem hafa með uppsetningu sem vantar að gera eða ósamhæfa víddaruppsetningu. Ef keyrslan rekst á villur í víddaruppsetningunni hefur hún þessar villur að engu og notar víddir virðisfærslunnar. Í tilfelli annarra villna hoppar keyrslan yfir bókun virðisfærslnanna og telur þær upp við lok skýrslunnar í hluta sem heitir **Færslur sem hoppað var yfir** . Til að bóka þessar færslur þarf að leiðrétta villurnar. Hægt er að sjá lista af villum áður en keyrslan er keyrð með því að keyra skýrsluna **Bóka birgðakostnað í fjárhag - Prófun** . Þessi skýrsla inniheldur allar villur sem koma upp í prufubókun. Þá er hægt að laga villurnar og keyra bókunarkeyrslu birgðakostnaðar án þess að sleppa neinum færslum.  
+Þegar runuvinnslan **Bóka birgðakostnað í fjárhag** er keyrð gæti kerfið rekist á villur sem hafa með uppsetningu sem vantar að gera eða ósamhæfa víddaruppsetningu. Ef keyrslan rekst á villur í víddaruppsetningunni hefur hún þessar villur að engu og notar víddir virðisfærslunnar. Í tilfelli annarra villna hoppar keyrslan yfir bókun virðisfærslnanna og telur þær upp við lok skýrslunnar í hluta sem heitir **Færslur sem hoppað var yfir**. Til að bóka þessar færslur þarf að leiðrétta villurnar. Hægt er að sjá lista af villum áður en keyrslan er keyrð með því að keyra skýrsluna **Bóka birgðakostnað í fjárhag - Prófun**. Þessi skýrsla inniheldur allar villur sem koma upp í prufubókun. Þá er hægt að laga villurnar og keyra bókunarkeyrslu birgðakostnaðar án þess að sleppa neinum færslum.  
 
 ## <a name="automatic-cost-posting"></a>Sjálfvirk kostnaðarbókun  
-Til að setja upp kostnaðarbókun í fjárhag til að keyra sjálfkrafa þegar þú bókar birgðafærslu, veldu **Sjálfvirk kostnaðarbókun** gátreitinn á síðunni **Uppsetning birgða** . Bókunardagsetning fjárhagsfærslnanna er sú sama og fyrir bókunardagsetning birgðafærslunnar.  
+Til að setja upp kostnaðarbókun í fjárhag til að keyra sjálfkrafa þegar þú bókar birgðafærslu, veldu **Sjálfvirk kostnaðarbókun** gátreitinn á síðunni **Uppsetning birgða**. Bókunardagsetning fjárhagsfærslnanna er sú sama og fyrir bókunardagsetning birgðafærslunnar.  
 
 ## <a name="account-types"></a>Gerðir reikninga  
 Við afstemmingu, eru birgðarvirði skráð í birgðarreikning í efnahagsreikning. Sama upphæð, með andstætt tákn, er bókuð á viðeigandi mótreikning. Venjulega er jöfnunarreikningur rekstrarreikningur. Hins vegar, þegar þú birtir beinan kostnað vegna neyslu eða framleiðslu, er mótreikningurinn efnahagslykill. Tegund birgðafærslunnar og virðisfærslunnar ákvarðar í hvaða fjárhagsreikning er bókað.  
@@ -123,4 +123,4 @@ Frekari upplýsingar um vensl milli reikningsgerða og mismunandi gerðir virði
 [Hönnunarupplýsingar: kostnaðarleiðrétting](design-details-cost-adjustment.md)
 [Stjórna birgðakostnaði](finance-manage-inventory-costs.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

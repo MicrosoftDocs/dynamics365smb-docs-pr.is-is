@@ -8,17 +8,17 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0e3f5f489822cef693242c46a47d84f429af0706
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4fe5f22774ca670353b0079140f35137f427c5b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926948"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748844"
 ---
 # <a name="project-management"></a>Verkefnastjórnun
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að framkvæma sameiginlega verkefnastjórnun verkefni, svo sem að stilla vinnu og tímasetningu auðlinda, auk þess að veita þær upplýsingar sem þarf til að stjórna kostnaðarhámarki og fylgjast með framförum. Hægt er að rekja véla- og starfsmannatíma í verkefninu með því að nota vinnuskýrslur. Sem verkefnastjóri fær maður góða yfirsýn, ekki aðeins yfir einstök verk heldur einnig yfir úthlutun starfsfólks, véla og annars forða sem notaður er í öllum verkefnum.
+Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að framkvæma sameiginlega verkefnastjórnun verkefni, svo sem að stilla vinnu og tímasetningu auðlinda, auk þess að veita þær upplýsingar sem þarf til að stjórna kostnaðarhámarki og fylgjast með framförum. Hægt er að rekja véla- og starfsmannatíma í verkefninu með því að nota vinnuskýrslur. Sem verkefnastjóri fær maður góða yfirsýn, ekki aðeins yfir einstök verk heldur einnig yfir úthlutun starfsfólks, véla og annars forða sem notaður er í öllum verkefnum.
 
-Áður en þú getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)] til að stjórna verkefnum verður þú að setja upp tilföng, vinnuskýrslur og verk. Nánari upplýsingar er að finna í [Uppsetning verkefnisstjórnar](projects-setup-projects.md).  
+Áður en þú getur notað [!INCLUDE[prod_short](includes/prod_short.md)] til að stjórna verkefnum verður þú að setja upp tilföng, vinnuskýrslur og verk. Nánari upplýsingar er að finna í [Uppsetning verkefnisstjórnar](projects-setup-projects.md).  
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
@@ -36,7 +36,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 
 ## <a name="get-started-with-projects"></a>Hafist handa með verkefni
 
-Verkefnastjórnun er nógu flókin út af fyrir sig, en að fræðast um hvernig á að stofna verk og hafa umsjón með verki í vinnslu í nýju verkfæri getur verið enn ein flækjan. Til að hjálpa þér að hefjast handa með verkefnastjórnun í [!INCLUDE[prodshort](includes/prodshort.md)] geturðu horft á [myndband um stofnun á verkum](https://www.youtube.com/watch?v=VqaPWr7BWmw) á [!INCLUDE[prodshort](includes/prodshort.md)] YouTube rásinni.  
+Verkefnastjórnun er nógu flókin út af fyrir sig, en að fræðast um hvernig á að stofna verk og hafa umsjón með verki í vinnslu í nýju verkfæri getur verið enn ein flækjan. Til að hjálpa þér að hefjast handa með verkefnastjórnun í [!INCLUDE[prod_short](includes/prod_short.md)] geturðu horft á [myndband um stofnun á verkum](https://www.youtube.com/watch?v=VqaPWr7BWmw) á [!INCLUDE[prod_short](includes/prod_short.md)] YouTube rásinni.  
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -46,6 +46,6 @@ Verkefnastjórnun er nógu flókin út af fyrir sig, en að fræðast um hvernig
 [Innkaup](purchasing-manage-purchasing.md)  
 [Sala](sales-manage-sales.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

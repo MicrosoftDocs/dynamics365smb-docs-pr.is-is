@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d1d1b1ce6611e81b814a252e7478386f710b23c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: aa989ef4966c5406272e28f3e2c93795aca53ccb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920034"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747501"
 ---
 # <a name="print-vat-summary-information-on-documents"></a>Prenta VSK-yfirlit á skjölum
-Ef virðisaukaskattur er reiknaður eru upplýsingar um samantekt VSK-upplýsinga yfirleitt prentaðar á sölu- og innkaupaskjöl. Á Íslandi prentar [!INCLUDE[d365fin](../../includes/d365fin_md.md)] hins vegar ekki samantekt VSK-upplýsinga ef aðeins er notaður einn VSK-sölukóði í skjalinu. Hægt er að breyta þessari hegðun með því að nota valkostinn **Sýna alltaf VSK-yfirlit**.  
+Ef virðisaukaskattur er reiknaður eru upplýsingar um samantekt VSK-upplýsinga yfirleitt prentaðar á sölu- og innkaupaskjöl. Á Íslandi prentar [!INCLUDE[prod_short](../../includes/prod_short.md)] hins vegar ekki samantekt VSK-upplýsinga ef aðeins er notaður einn VSK-sölukóði í skjalinu. Hægt er að breyta þessari hegðun með því að nota valkostinn **Sýna alltaf VSK-yfirlit**.  
 
 Eftirfarandi ferli lýsir því hvernig á að birta samantekt VSK-upplýsinga á söluskjali, en sömu skref eiga einnig við um staðfestingar á sölupöntunum, sölutilboðum, sölukreditreikningum, standandi sölupöntunum, innkaupapöntunum, innkaupareikningum og innkaupakreditreikningum.  
 

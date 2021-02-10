@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18c8eb8f379be15bf425a6a2bcd8db6b0c48bcb3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5129a8b8116eab9996a47ad82b2579658a45b8b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922168"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751881"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Hönnunarupplýsingar: reikningar í fjárhagur
 Til að afstemma birgðir og afkastahöfuðbókarfærslur við fjárhag eru tengdar virðisfærslur bókaðar á mismunandi reikninga í fjárhag. Frekari upplýsingar, sjá [Hönnunarupplýsingar: afstemming við fjárhaginn](design-details-reconciliation-with-the-general-ledger.md)  
@@ -99,4 +99,4 @@ Eftirfarandi tafla sýnir hvernig upphæðirnar sem á að bóka í fjárhag eru
  [Hönnunarupplýsingar: Væntanleg kostnaðarfærsla](design-details-expected-cost-posting.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
  [Fjármál](finance.md)  
- [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

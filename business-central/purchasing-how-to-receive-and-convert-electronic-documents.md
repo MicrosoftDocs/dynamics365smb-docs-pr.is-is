@@ -10,34 +10,34 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fcc8e97a61c777a7857e95db04fe16973c4c7b07
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 959afdf56b192f959c3ceb9067d7790f788d309d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918814"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748669"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Taka við og umbreyta rafræn skjölum
-Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Til að taka á móti reikningur frá lánardrottinn sem rafrænu PEPPOL-skjali er skjalið unnið á síðunni Fylgiskjal á innleið til að breyta því í innkaupareikning eða almenna færslubókarlínu í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Almenn útgáfa [!INCLUDE[prod_short](includes/prod_short.md)] styður sendingu rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustukerfunum. Til að taka á móti reikningur frá lánardrottinn sem rafrænu PEPPOL-skjali er skjalið unnið á síðunni Fylgiskjal á innleið til að breyta því í innkaupareikning eða almenna færslubókarlínu í [!INCLUDE[prod_short](includes/prod_short.md)].
 
  Auk þess að fá rafræn skjöl beint úr viðskiptafélögum geturðu fengið rafræn skjöl frá OCR þjónustu sem hefur breytt PDF eða myndskrá í rafræn skjöl.  
 
- Áður en hægt er að taka við rafrænum skjölum gegnum skjalaskiptaþjónustu þarf fyrst að setja upp mismunandi aðalgögn, t.d. upplýsingar um fyrirtækið, lánardrottna, atriði, og mælieiningar. Þau eru notuð til að bera kennsl á viðskiptafélaga og atriði þegar gögnum er umbreytt í reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)] í einingar í skjalaskrá á innleið. Frekari upplýsingar, sjá [Setja upp skjalaskiptaþjónustu](across-how-to-set-up-a-document-exchange-service.md).  
+ Áður en hægt er að taka við rafrænum skjölum gegnum skjalaskiptaþjónustu þarf fyrst að setja upp mismunandi aðalgögn, t.d. upplýsingar um fyrirtækið, lánardrottna, atriði, og mælieiningar. Þau eru notuð til að bera kennsl á viðskiptafélaga og atriði þegar gögnum er umbreytt í reiti í [!INCLUDE[prod_short](includes/prod_short.md)] í einingar í skjalaskrá á innleið. Frekari upplýsingar, sjá [Setja upp skjalaskiptaþjónustu](across-how-to-set-up-a-document-exchange-service.md).  
 
  Áður en hægt er að taka við rafrænum skjölum gegnum OCR-þjónustu verður þú að setja upp og virkja almenna þjónustu tengingu. Frekari upplýsingar eru í [Setja upp skjöl á innleið](across-how-setup-income-documents.md).  
 
- Umferð rafrænna skjala í og ​​úr [!INCLUDE[d365fin](includes/d365fin_md.md)] er stjórnað af verkraðareiginleikanum. Áður en þú getur fengið rafræn skjöl þarf viðkomandi verkröð að hefjast.  
+ Umferð rafrænna skjala í og ​​úr [!INCLUDE[prod_short](includes/prod_short.md)] er stjórnað af verkraðareiginleikanum. Áður en þú getur fengið rafræn skjöl þarf viðkomandi verkröð að hefjast.  
 
- Þú getur annað hvort byrjað umbreytingu á rafrænum skjölum handvirkt, eins og lýst er í þessari aðferð, eða virkjað verkflæði til að umbreyta rafrænum skjöl sjálfkrafa þegar þau berast. Almenn útgáfa af [!INCLUDE[d365fin](includes/d365fin_md.md)] verkflæðissniðmátið *Úr rafrænu skjali á innleið gegnum OCR í verkflæði opins innkaupareiknings*, sem afrita má í verkflæði og virkja. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
+ Þú getur annað hvort byrjað umbreytingu á rafrænum skjölum handvirkt, eins og lýst er í þessari aðferð, eða virkjað verkflæði til að umbreyta rafrænum skjöl sjálfkrafa þegar þau berast. Almenn útgáfa af [!INCLUDE[prod_short](includes/prod_short.md)] verkflæðissniðmátið *Úr rafrænu skjali á innleið gegnum OCR í verkflæði opins innkaupareiknings*, sem afrita má í verkflæði og virkja. Frekari upplýsingar eru í [Verkflæði](across-workflow.md).  
 
 > [!NOTE]  
->  Þegar rafrænum skjölum sem koma úr OCR-þjónustu er breytt í skjöl eða færslubókarlínur í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður mörgum línum í upprunaskjalinu safnað saman í eina línu. Staka línan verður af gerðinni fjárhagsreikningur og **Lýsing** og **Nr.** (fjárhagsreiknings) reitir verða auðir. Gildið í reitnum **Upphæð** verður heildarupphæð allra lína í upprunaskjalinu, fyrir utan°virðisaukaskatt.  
+>  Þegar rafrænum skjölum sem koma úr OCR-þjónustu er breytt í skjöl eða færslubókarlínur í [!INCLUDE[prod_short](includes/prod_short.md)] verður mörgum línum í upprunaskjalinu safnað saman í eina línu. Staka línan verður af gerðinni fjárhagsreikningur og **Lýsing** og **Nr.** (fjárhagsreiknings) reitir verða auðir. Gildið í reitnum **Upphæð** verður heildarupphæð, fyrir utan VSK, allra lína í upprunaskjalinu.  
 >   
->  Til að vera viss um að reitirnir **Lýsing** og **nr.** hafi verið fylltir út geturðu valið hnappinn **Varpa texta á reikning** á síðunni **Fylgiskjöl á innleið** til að ákvarða að tilteknum reikningstexta sé alltaf varpað á tiltekinn debit- eða kreditreikning í fjárhagnum. Í framhaldinu verður reiturinn **Lýsing** í skjali eða færslubókarlínum sem stofnaður er úr rafrænu skjali fyrir þann lánardrottinn eða viðskiptamann fylltur út með viðkomandi texta og fjárhagsreikningurinn **Nr.** reiturinn með lyklinum.  
+>  Til að vera viss um að reitirnir **Lýsing** og **nr.**  hafi verið fylltir út geturðu valið hnappinn **Varpa texta á reikning** á síðunni **Fylgiskjöl á innleið** til að ákvarða að tilteknum reikningstexta sé alltaf varpað á tiltekinn debit- eða kreditreikning í fjárhagnum. Í framhaldinu verður reiturinn **Lýsing** í skjali eða færslubókarlínum sem stofnaður er úr rafrænu skjali fyrir þann lánardrottinn eða viðskiptamann fylltur út með viðkomandi texta og fjárhagsreikningurinn **Nr.** reiturinn með lyklinum.  
 >   
 >  Í stað þess að varpa á fjárhagsreikning er líka hægt að varpa á bankareikning. Þetta er hagkvæmt, til dæmis, fyrir rafræn skjöl tengd útgjöldum sem eru nú þegar greitt þegar þú vilt stofna færslubókarlíni sem er tilbúin til að bóka á bankareikning.  
 
- Eftirfarandi ferli lýsir því hvernig á að taka við lánardrottinsreikningi og breyta honum í staðlaðan innkaupareikning í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Aðferðin er sú sama og þegar reikningi lánardrottins er breytt í færslubókarlínu.  
+ Eftirfarandi ferli lýsir því hvernig á að taka við lánardrottinsreikningi og breyta honum í staðlaðan innkaupareikning í [!INCLUDE[prod_short](includes/prod_short.md)]. Aðferðin er sú sama og þegar reikningi lánardrottins er breytt í færslubókarlínu.  
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Til að taka við og umbreyta rafrænum reikningi í innkaupareikning.  
 
@@ -53,9 +53,9 @@ Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu raf
 
 5.  Veldu aðgerðina **Stofna skjal**.  
 
-     Innkaupareikningur verður stofnaður í [!INCLUDE[d365fin](includes/d365fin_md.md)] og byggist á upplýsingar í rafrænt skjal.  
+     Innkaupareikningur verður stofnaður í [!INCLUDE[prod_short](includes/prod_short.md)] og byggist á upplýsingar í rafrænt skjal.  
 
-     Allar villur við villuleit, sem tengjast gjarnan gölluðum eða skemmdum gögnum í [!INCLUDE[d365fin](includes/d365fin_md.md)], verða sýndar á flýtiflipanum **Villuboð**.  
+     Allar villur við villuleit, sem tengjast gjarnan gölluðum eða skemmdum gögnum í [!INCLUDE[prod_short](includes/prod_short.md)], verða sýndar á flýtiflipanum **Villuboð**.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 

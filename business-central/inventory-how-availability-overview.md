@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d34b34d5629779d7b87016fb9e83bf1d3f25fd82
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40c5b81ec3cb4022e45358020b816cb9d368bb82
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914140"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746343"
 ---
 # <a name="view-the-availability-of-items"></a>Skoða tiltækileika vöru
 Þegar um er að ræða viðskiptatengd verkefni er hægt að fá ítarlegar upplýsingar um hvenær og hvar vara er fáanleg, til dæmis þegar verið er að ræða við viðskiptavin um afhendingardag.
@@ -28,10 +28,10 @@ Hægt er að skoða tiltækileika alla vara eftir staðsetningu, og hægt er að
 
 Ef þú notar vöruhúsaaðgerðir, eru framboð mismunandi eftir úthlutun á þeim hólfastigum þegar vöruhúsaaðgerðir, t.d. tiltektir og hreyfingar eiga sér stað og þegar frátekningarkerfið setur takmarkanir. Frekar flókið reiknirit staðfestir að öllu skilyrði eru uppfyllt áður en magni er úthlutað í tínslu fyrir útleiðarflæði. Nánari upplýsingar eru í [Upplýsingar um hönnun: Til ráðstöfunar í vöruhúsi](design-details-availability-in-the-warehouse.md).
 
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)], eru tölur um framboð yfirleitt sýndar í tveimur mismunandi reitum, hvor um sig með mismunandi skilgreiningu:
+Í [!INCLUDE[prod_short](includes/prod_short.md)], eru tölur um framboð yfirleitt sýndar í tveimur mismunandi reitum, hvor um sig með mismunandi skilgreiningu:
 
 * Svæðið **Magn á lager** á sumum stöðum kallað **Birgðir** sýnir raunverulegt magn dagsins í dag samkvæmt bókuðum birgðafærslum.
-* Svæðið **Áætluð staða til ráðstöfunar** er reiknað út og sýnir magn á lager ásamt tímasettum móttökum að frádreginni brúttóþörf. (Í [!INCLUDE[d365fin](includes/d365fin_md.md)], fela tímasettar móttökur í sér magn á innkaupapöntun og flutningspantanir á innleið. Brúttóþörf felur í sér magn á sölupöntunum og flutningspantanir á útleið.)
+* Svæðið **Áætluð staða til ráðstöfunar** er reiknað út og sýnir magn á lager ásamt tímasettum móttökum að frádreginni brúttóþörf. (Í [!INCLUDE[prod_short](includes/prod_short.md)], fela tímasettar móttökur í sér magn á innkaupapöntun og flutningspantanir á innleið. Brúttóþörf felur í sér magn á sölupöntunum og flutningspantanir á útleið.)
 
 > [!TIP]  
 >   Sérstaklega mikilvægt er að skoða Áætlaða stöðu til ráðstöfunar á síðunum **Tiltækileiki vöru eftir tímabili** og **Tiltækileiki vöru eftir atviki** þar sem þeir innihalda dagsetningarvíddirnar.  
@@ -40,47 +40,47 @@ Ef þú notar vöruhúsaaðgerðir, eru framboð mismunandi eftir úthlutun á �
 >   Eftirfarandi ferli lýsa því hvernig á að skoða ítarlegar upplýsingar um tiltækileika á birgðalista og birgðaspjaldi. Einnig er hægt að nálgast upplýsingarnar úr söluskjalslínum, fyrir vöruna sem tilheyrir þeirri línu. Frekari upplýsingar eru í [Selja vörur](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Að skoða tiltækileika vöru samkvæmt því hvenær hún berst eða verður afgreidd
-Hægt er að skoða tiltækileika vöru samkvæmt áætluðum vörufærslum á síðunni **Til ráðstöfunar eftir atviki** .
+Hægt er að skoða tiltækileika vöru samkvæmt áætluðum vörufærslum á síðunni **Til ráðstöfunar eftir atviki**.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Opnið spjald þeirrar vöru sem á að skoða ráðstöfun fyrir.
-3. Veljið aðgerðina **Vara til ráðstöfunar eftir** og veljið svo aðgerðina **Atvik** .
+3. Veljið aðgerðina **Vara til ráðstöfunar eftir** og veljið svo aðgerðina **Atvik**.
 
     Síðan **Vara til ráðstöfunar eftir atviki** sýnir hvernig birgðamagn vöru þróast yfir tíma samkvæmt áætluðum sendingum og innhreyfingarskjölum. Síðan býður upp á samantekið yfirlit sem birtir eina línu af uppsöfnuðum upplýsingum fyrir hvert tímabil þar sem birgðamagn breytist. Tímabil þar sem ekkert tilvik varð eru ekki sýndar. Hægt er að stækka hverja línu svo hún sýni upplýsingar um tilvik sem valdið hafa uppsöfnuðu magni í línunni.
 4. Veljið gildið á svæðinu **Áætluð staða til ráðstöfunar** til að skoða birgðafærslur eða opna skjöl sem mynda gildið.
 
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Að skoða tiltækileika vöru á mismunandi tímabilum
-Hægt er að skoða tiltækileika vöru samkvæmt tilgreindum tímabilum á síðunni **Til ráðstöfunar eftir tímabilum** .
+Hægt er að skoða tiltækileika vöru samkvæmt tilgreindum tímabilum á síðunni **Til ráðstöfunar eftir tímabilum**.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Opnið spjald þeirrar vöru sem á að skoða ráðstöfun fyrir.
-3. Veljið aðgerðina **Vara til ráðstöfunar eftir** og veljið svo aðgerðina **Tímabil** .
+3. Veljið aðgerðina **Vara til ráðstöfunar eftir** og veljið svo aðgerðina **Tímabil**.
 
     Síðan **Vara til ráðstöfunar eftir tímabilum** sýnir hvernig birgðamagn vöru þróast yfir tíma, sett upp eftir því tímabili sem valið er, svo sem dagur, vika eða ársfjórðungur.
 4. Veljið gildið á svæðinu **Áætluð staða til ráðstöfunar** til að skoða birgðafærslur eða opna skjöl sem mynda gildið.
 
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Að skoða tiltækileika vöru eftir staðsetningunni sem hún er geymd á
-Tiltækileika vöru eftir staðsetningunni sem hún er geymd á má sjá á síðunni **Vara til ráðstöfunar eftir staðsetningu** .
+Tiltækileika vöru eftir staðsetningunni sem hún er geymd á má sjá á síðunni **Vara til ráðstöfunar eftir staðsetningu**.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Opnið spjald þeirrar vöru sem á að skoða ráðstöfun fyrir.
-3. Veljið aðgerðina **Vara til ráðstöfunar eftir** og veljið svo aðgerðina **Staðsetning** .
+3. Veljið aðgerðina **Vara til ráðstöfunar eftir** og veljið svo aðgerðina **Staðsetning**.
 
     Síðan **Vara til ráðstöfunar eftir staðsetningu** sýnir hvernig birgðamagn vöru þróast yfir tíma á hverjum stað sem hún er geymd.
 4. Veljið gildið á svæðinu **Magn á lager** til að skoða birgðafærslur sem mynda gildið.
 5. Veljið gildið á svæðinu **Áætluð staða til ráðstöfunar** til að skoða birgðafærslur eða opna skjöl sem mynda gildið.
 
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Að skoða tiltækileika allra vara eftir staðsetningunni sem þær eru geymdar á
-Hægt er að sjá tiltækileika allra vara á öllum stöðum á síðunni **Vörur eftir staðsetningu** .
+Hægt er að sjá tiltækileika allra vara á öllum stöðum á síðunni **Vörur eftir staðsetningu**.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
-2. Veljið aðgerðina **Vörur eftir staðsetningu** .
+2. Veljið aðgerðina **Vörur eftir staðsetningu**.
 
     Síðan **Vörur eftir staðsetningu** sýnir hve margar vörur af hverri tegund fyrir sig eru tiltækar á öllum staðsetningum.
 3. Veljið gildið á svæðinu **Magn á lager** til að skoða birgðafærslur sem mynda gildið.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Að skoða framboð vöru eftir notkun hennar í samsetningu eða uppskrifta
-Ef atriði er hluti af samsetningum eða framleiðsluuppskriftum sem annaðhvort yfirvara eða íhlutur er hægt að sjá hversu margar einingar eru nauðsynlegar á síðunni **Vara til ráðstöfunar eftir uppskriftarstigi** . Síðan sýnir hve margar einingar af yfirvöru er hægt að gera á grundvelli framboðs undirvara á undirliggjandi línum. Allar vörur sem hafa samsetningu eða framleiðsluuppskrift birtast á síðunni sem samanbrjótanleg línu. Hægt er að stækka línuna til að birta undirliggjandi íhluti og undirsamsetningar á lægri stigum ásamt eigin uppskriftum.
+Ef atriði er hluti af samsetningum eða framleiðsluuppskriftum sem annaðhvort yfirvara eða íhlutur er hægt að sjá hversu margar einingar eru nauðsynlegar á síðunni **Vara til ráðstöfunar eftir uppskriftarstigi**. Síðan sýnir hve margar einingar af yfirvöru er hægt að gera á grundvelli framboðs undirvara á undirliggjandi línum. Allar vörur sem hafa samsetningu eða framleiðsluuppskrift birtast á síðunni sem samanbrjótanleg línu. Hægt er að stækka línuna til að birta undirliggjandi íhluti og undirsamsetningar á lægri stigum ásamt eigin uppskriftum.
 
 Hægt er að nota þennan glugga til að athuga hvort hægt sé að anna sölupöntun fyrir vöru á tiltekinni dagsetningu með því að skoða núverandi framboð ásamt magni sem íhlutir hennar geta annað. Einnig er hægt að nota síðuna til að auðkenna flöskuhálsa í tengdum uppskriftum.
 
@@ -97,7 +97,7 @@ Síðan **Framboð vöru eftir uppskriftarstigi** sýnir upplýsingar um vöruna
 > [!NOTE]  
 >   Sjálfgefið sýna ráðstöfunartölur á línunum heildarráðstöfun allra vara undir söluhæstu vörunni Þessar tölur eru birtar í **Framboðsmagn** reitnum, og áherslan er á aðalvöruna. Hins vegar geta upplýsingar um hversu margar millivörur er hægt að búa til verið misvísandi. Til að fá raunverulega mynd af því hversu margar af birtum undirsamsetningum er hægt að búa til, þarf að hreinsa **Sýna heildarframboð** gátreitinn og skoða svo töluna í **Get gert yfirmerki** reitnum .
 
-Reiturinn **Flöskuháls** tilgreinir hvaða vara í skipulagi uppskriftarinnar kemur í veg fyrir að gert sé meira magn en það sem sýnt er í reitnum **Get gert aðalvöru** . Til dæmis getur flöskuhálsvaran verið innkeyptur íhlutur með áætlaðri móttökudagsetningu sem er kemur of seint til að gera viðbótareiningar af aðalvörunni fyrir dagsetninguna í reitnum **Verður að vera tilbúið fyrir þessa dagsetningu** .
+Reiturinn **Flöskuháls** tilgreinir hvaða vara í skipulagi uppskriftarinnar kemur í veg fyrir að gert sé meira magn en það sem sýnt er í reitnum **Get gert aðalvöru**. Til dæmis getur flöskuhálsvaran verið innkeyptur íhlutur með áætlaðri móttökudagsetningu sem er kemur of seint til að gera viðbótareiningar af aðalvörunni fyrir dagsetninguna í reitnum **Verður að vera tilbúið fyrir þessa dagsetningu**.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Til að skoða framboð vöru eftir mælieiningum hennar
 Síðan **Framboð á vöru eftir mælieiningu** sýnir vöruframboð eftir mælieiningum sem varan er geymd í.
@@ -118,7 +118,7 @@ Gildið í reitnum **Hægt að setja saman** er með rauðu letri ef magnið er 
 
 Flýtiflipinn **Línur** birtir sundurliðaðar ráðstöfunarupplýsingarnar fyrir samsetningaríhluti.
 
-Ef einn eða fleiri samsetningaríhlutir eru ekki tiltækir endurspeglast það í reitnum **Hægt að setja saman** í viðkomandi línu sem magn sem er minna en magnið í **Eftirstöðvar (magn)** á flýtiflipanum **Upplýsingar** .
+Ef einn eða fleiri samsetningaríhlutir eru ekki tiltækir endurspeglast það í reitnum **Hægt að setja saman** í viðkomandi línu sem magn sem er minna en magnið í **Eftirstöðvar (magn)** á flýtiflipanum **Upplýsingar**.
 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórna birgðum](inventory-manage-inventory.md)  

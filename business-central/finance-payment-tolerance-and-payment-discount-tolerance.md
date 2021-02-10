@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 823403fc34ad57cb170fc39bd9533b53c4008950
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50e37e54d840c82cbcbfc92ab8f5fc009642a6b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910881"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750531"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk
 Hægt er að setja upp afsláttarvikmörkin til að loka reikningi þegar greiðsla nær ekki upp í fulla upphæð á reikningnum. Til dæmis eru greiðsluvikmörk yfirleitt fyrir litlar upphæðir sem myndi kosta meira að leiðrétta en að samþykkja. Hægt er að nota vikmörk greiðsluafsláttar til að veita greiðsluafslátt eftir að afsláttarmörk eru liðin.  
@@ -44,7 +44,7 @@ Nánari upplýsingar er að finna í [Að gera viðvaranir greiðsluvikmarka vir
 ## <a name="to-set-up-tolerances"></a>Vikmörk sett upp  
 Með vikmörkum á dögum og upphæðum er hægt að loka reikningi þó að greiðsla nái ekki alveg upphæðinni á reikningnum, hvort sem um er að ræða að gjalddagi sé liðinn, vörum hafi verið skilað eða smávillu. Þetta á einnig við um endurgreiðslur og kreditreikninga.  
 
-Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilgreina bókunaraðferðir fyrir vikmörk greiðsluafsláttar og greiðsluvikmörk og keyra síðan keyrsluna **Breyta greiðsluvikmörkum** .  
+Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilgreina bókunaraðferðir fyrir vikmörk greiðsluafsláttar og greiðsluvikmörk og keyra síðan keyrsluna **Breyta greiðsluvikmörkum**.  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Almennur bókunargrunnur** og veldu síðan tengda tengilinn.  
 2. Á síðunni **almennur bókunargrunnur** eru settir upp debet- og kreditreikningar greiðsluvikmarka sölu og debet- og kreditreikningar greiðsluvikmarka innkaupa.  
 3. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarflokkar viðskiptamanns** og veldu síðan tengda tengilinn.    
@@ -52,20 +52,20 @@ Svo hægt sé að setja upp vikmörk þarf að setja upp vikmarkareikninga, tilg
 5. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarflokkur lánardrottins** og veldu síðan tengda tengilinn.  
 6. Á síðunni **Bókunarflokk lánardrottna** eru debet og kredit greiðsluvikmarkareikningar settir upp.  
 7. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fjárhagsgrunnur** og veldu síðan tengda tengilinn.  
-8. Opna síðuna **Uppsetning fjárhags** .  
-9. Á flýtiflipanum **Jöfnun** fyllið út **Greiðsluafslátt greiðsluvikmarka** , **Greiðsluafslátt biðtíma** og svæðið **Bókun greiðsluvikmarka** .   
-10. Veljið aðgerðina **Breyta greiðsluvikmörkum** .
-11. Á síðunni **Breyta greiðsluvikmörkum** þarf að fylla út reitina **Vikmarkaprósenta greiðslu** og **Hám.upph. greiðsluvikmarka** og smella síðan á **Í lagi** .
+8. Opna síðuna **Uppsetning fjárhags**.  
+9. Á flýtiflipanum **Jöfnun** fyllið út **Greiðsluafslátt greiðsluvikmarka**, **Greiðsluafslátt biðtíma** og svæðið **Bókun greiðsluvikmarka**.   
+10. Veljið aðgerðina **Breyta greiðsluvikmörkum**.
+11. Á síðunni **Breyta greiðsluvikmörkum** þarf að fylla út reitina **Vikmarkaprósenta greiðslu** og **Hám.upph. greiðsluvikmarka** og smella síðan á **Í lagi**.
 
 > [!IMPORTANT]  
->  Nú hafa verið sett upp vikmörk fyrir heimagjaldmiðilinn eingöngu. Ef [!INCLUDE[d365fin](includes/d365fin_md.md)] á að vinna með frávik á greiðslum, kreditreikningum og endurgreiðslum í erlendum gjaldeyri þarf að keyra keyrsluna **Breyta greiðsluvikmörkum** með gildi í reitnum **Gjaldmiðilskóði** .  
+>  Nú hafa verið sett upp vikmörk fyrir heimagjaldmiðilinn eingöngu. Ef [!INCLUDE[prod_short](includes/prod_short.md)] á að vinna með frávik á greiðslum, kreditreikningum og endurgreiðslum í erlendum gjaldeyri þarf að keyra keyrsluna **Breyta greiðsluvikmörkum** með gildi í reitnum **Gjaldmiðilskóði**.  
 
 > [!NOTE]  
 >  Ef fá á viðvörunarboð um greiðsluvikmörk í hvert skipti sem jöfnun er bókuð í vikmörkunum þarf að virkja viðvörun um greiðsluvikmörk. Nánari upplýsingar er að finna í hlutanum [Að gera viðvaranir greiðsluvikmarka virkar eða óvirkar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
 >  Ef gera á vikmörk viðskiptamanns eða lánardrottins óvirk þarf að loka á vikmörk á spjaldi viðkomandi viðskiptamanns eða lánardrottins. Frekari upplýsingar er að finna í [Lokað á greiðsluvikmörk fyrir viðskiptavini](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Þegar vikmörk eru sett upp athugar [!INCLUDE[d365fin](includes/d365fin_md.md)] hvort einhverjar færslur séu opnar og reiknar vikmörk fyrir þær færslur að auki.
+>  Þegar vikmörk eru sett upp athugar [!INCLUDE[prod_short](includes/prod_short.md)] hvort einhverjar færslur séu opnar og reiknar vikmörk fyrir þær færslur að auki.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Til að virkja eða slökkva á greiðsluvikmarkaviðvörun
 Viðvörun um vikmörk greiðslu birtist þegar jöfnun er bókuð með stöðu sem er innan heimilla vikmarka. Hægt er að velja um hvernig staðan skuli bókuð og skráð.    
@@ -73,13 +73,13 @@ Viðvörun um vikmörk greiðslu birtist þegar jöfnun er bókuð með stöðu 
 2. Á síðunni **Fjárhagsgrunnur** á flipanum **Jöfnun** skaltu kveikja á **Viðvörun um greiðsluvikmörk** til að virkja viðvörunina. Til að gera viðvörunina óvirka skaltu slökkva á þessu.  
 
 > [!NOTE]  
->  Sjálfgefinn valkostur fyrir **Viðvörun um greiðsluvikmörk** síðuna er **Láta stöðu standa sem eftirstöðvar** . Sjálfgefinn valkostur fyrir **Viðvörun um vikmörk greiðsluafsláttar** síðuna er **Hafna síðbúnum greiðsluafslætti** .
+>  Sjálfgefinn valkostur fyrir **Viðvörun um greiðsluvikmörk** síðuna er **Láta stöðu standa sem eftirstöðvar**. Sjálfgefinn valkostur fyrir **Viðvörun um vikmörk greiðsluafsláttar** síðuna er **Hafna síðbúnum greiðsluafslætti**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Lokað á greiðsluvikmörk viðskiptavina  
 Sjálfgildið fyrir greiðsluvikmörk er heimilað. Ef greiðsluvikmörk eiga ekki að vera heimil fyrir tiltekin viðskiptamann eða lánardrottinn skal loka á vikmörk á viðkomandi viðskiptamanns- eða lánardrottinsspjaldi. Eftirfarandi sýnir hvernig farið er að þessu fyrir viðskiptamann. Skrefin eru svipuð fyrir lánardrottinn.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamaður** eða **Lánardrottinn** og veldu síðan tengda tengilinn.  
-2. Á flýtiflipanum **Greiðslur** skal velja gátreitinn **Loka fyrir vikmörk greiðslu** .  
+2. Á flýtiflipanum **Greiðslur** skal velja gátreitinn **Loka fyrir vikmörk greiðslu**.  
 
 > [!NOTE]  
 >  Ef viðskiptamaður eða lánardrottinn hafa opnar færslur verður að loka á greiðsluvikmörk í opnum færslum.
@@ -208,7 +208,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-![Reglur um greiðsluþol margra greiðslna 1](media/multiplePmtTolRules(Pre1503).gif "Reglur um greiðsluþol margra greiðslna 1")  
+:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Reglur um greiðsluþol margra greiðslna 1a":::
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -219,7 +219,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-![Reglur um greiðsluþol margra greiðslna 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Reglur um greiðsluþol margra greiðslna 2")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Reglur um greiðsluþol margra greiðslna 2":::
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -230,7 +230,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-![Reglur um greiðsluþol margra greiðslna 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Reglur um greiðsluþol margra greiðslna 3")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Reglur um greiðsluþol margra greiðslna 3":::
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -241,7 +241,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-![Reglur um greiðsluþol margra greiðslna 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Reglur um greiðsluþol margra greiðslna 4")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Reglur um greiðsluþol margra greiðslna 4":::
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -252,7 +252,7 @@ Eftirstöðvar á hverja
 
 Venjulegar jöfnunarreglur  
 
-![Reglur um greiðsluþol margra greiðslna 5](media/multiplePmtTolRules(Post0122).gif "Reglur um greiðsluþol margra greiðslna 5")  
+:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Reglur um greiðsluþol margra greiðslna 5":::
 
 (1) Ef greiðslan lendir á þessu bili er hægt að loka öllum jöfnunarfærslum með eða án vikmarka.  
 
@@ -262,4 +262,4 @@ Venjulegar jöfnunarreglur
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

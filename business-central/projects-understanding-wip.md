@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b2cebfbee991bcb9aa9c9bebe9e9112a024c429
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8d23cd7ca8badf10bc8c734d84b5142d34ad4362
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918939"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748819"
 ---
 # <a name="understanding-wip-methods"></a>Að skila VÍV aðferðir
 Þegar verk er unnið er efni, forði og annar kostnaður notuð og þetta þarf að bóka á verkið. Verk í vinnslu (VÍV) er eiginleiki þar sem hægt er að meta fjárhagslegt virði verka í fjárhag eftir því sem verkinu miðar áfram. Oft er kostnaður bókaður áður en verk er reikningsfært. Þegar aðeins kostnaður hefur verið bókaður verður fjárhagsyfirlitið ónákvæmt.
 
 Til að rekja gildi í fjárhagnum er hægt að reikna út VÍV og bóka gildið í fjárhag. Frekari upplýsingar eru í [Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] styður eftirfarandi aðferðir við útreikning og skráningu um virði verka í vinnslu.
+[!INCLUDE[prod_short](includes/prod_short.md)] styður eftirfarandi aðferðir við útreikning og skráningu um virði verka í vinnslu.
 
 | VÍV-aðferð | Tegund útreiknings | Lýsing útreiknings |
 | --- | --- | --- |
@@ -39,4 +39,4 @@ Til að rekja gildi í fjárhagnum er hægt að reikna út VÍV og bóka gildið
 [Fjármál](finance.md)  
 [Innkaup](purchasing-manage-purchasing.md)         
 [Sala](sales-manage-sales.md)      
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c4a12f7a79840790a98c2a3a19a845fdd1bb91c2
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926648"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367960"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Vörulisti samstarfsaðila vegna sölu og markaðssetningar
 
@@ -40,10 +40,9 @@ Eftirfarandi námsskrá nær frá undirstöðuþekkingu til tiltekinna léna og 
 | Efni   | Description        | Snið                                | Lengd                |
 |-----------|--------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Samtöl við hugsanlega kaupendur (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Aðeins fyrir samstarfsaðila) Fylgstu með Errol Schoenfish, forstöðumanni vörumarkaðssetningar, þar sem hann talar um hvernig hægt er að eiga í samskiptum við hugsanlega kaupendur á Microsoft Dynamics 365 Business Central.   | Myndband    | 11 mínútur og 15 sekúndur |
-| [Leita að sögum viðskiptavina](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Finndu tilvísunarsögur viðskiptamanna fyrir Dynamics 365 Business Central á [https://customer.microsoft.com](https://customer.microsoft.com).  | Vefsvæði |                       |
 | [Áætlun skýjalausnarþjónustu](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Aðeins fyrir samstarfsaðila) Um áætlun skýjalausnarþjónustu     | Vefsvæði |                       |
 | [Markaðssetning í Skýjaheimi](https://mbspartner.microsoft.com/OSS/Topic/19) | (Aðeins fyrir samstarfsaðila) Umfjöllun um hvernig skuli hámarka venjur við markaðssetningu og endurhugsa grundvallarhugmyndir um markaðssetningu fyrir skýjamiðað umhverfi verður meginatriðið í því hvort fyrirtækið þitt haldi áfram á beinu brautinni eða ekki. Þessi röð myndbanda og tilfanga býður upp á bestu venjur í markaðssetningu, leiðsögn um efni, hagnýtar ábendingar og gagnleg verkfæri til að nota grunnhugmyndir um markaðssetningu í skýi til að auka eftirspurn eftir þínum lausnum. | Efnisatriði | 35 mínútur |
 | [Áætlun skýjalausnarþjónustu - sala á skýjalausnum í eftirspurn](https://docs.microsoft.com/partner-center/csp-overview)  | Áætlun skýjalausnarþjónustu (CSP) auðveldar þér að fara úr því að endurselja leyfi og yfir í taka meiri þátt í rekstri viðskiptamanna þinna.   | Vefsvæði      |                       |
 | [Áætlun skýjalausnarþjónustu - samanburður á stuðningsáætlunum samstarfsaðila](https://partner.microsoft.com/support/partnersupport) | Horfðu á þetta myndband til að sjá hvernig þú getur valið rétta stuðningsáætlun fyrir fyrirtækið þitt. Sjáðu síðan samanburð hlið við hlið hér að neðan.    | Vefsvæði                               |                       |
 | [Hraðari sala með SureStep í skýi](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Aðeins fyrir samstarfsaðila) Söluferlið fyrir hraðari sölu með SureStep í skýi er byggt á þörfum nútímakaupanda og kappkostar við að höfða til tilfinninga og reynslu snemma í söluferlinu. Þessi röð myndbanda og tilfanga útskýrir hefðbundið söluferli sem er sérstaklega hannað til að koma í stað dæmigerðra lausna í sölutækni með tímafrekum skýringum sem yfirleitt leiða til mjög sérhæfðrar vörukynningar, flókinna söluferla og löngum innleiðingarverkum. Safn tilfanga inniheldur fjölda sérstilltra sniðmáta svo þú getur búið til þitt eigið safn af sölum til að styðja við hraðari sölu. | Vefsvæði     |                       |
-| [Viðbót við Transition Partner Playbook (júlí 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Þessi viðbót við Transition Partner Playbook býður upp á nokkrar uppfærslur og nýjar leiðbeiningar til samstarfsaðila um að tryggja núverandi viðskiptamannahóp frá samkeppni og nýjum SaaS.  | PowerPoint-skyggnusýning | 15 glærur |
+| [Viðbót við Transition Partner Playbook (júlí 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Þessi viðbót við Transition Partner Playbook býður upp á nokkrar uppfærslur og nýjar leiðbeiningar til samstarfsaðila um að tryggja núverandi viðskiptamannahóp frá samkeppni og nýjum SaaS.  | PowerPoint-skyggnusýning | 15 glærur |

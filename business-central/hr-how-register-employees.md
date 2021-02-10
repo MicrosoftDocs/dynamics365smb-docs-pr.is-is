@@ -12,26 +12,26 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75c3c6a59e951052f59f4100688ace92af16b50f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca86db44d578fab16af1d9a07e3d62db8dfe581c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922970"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750231"
 ---
 # <a name="register-employees"></a>Skrá starfsmenn
 Til að nota eiginleikann Mannauður þarf fyrst að skrá hvern starfsmann með því að búa til spjald með öllum grunnupplýsingum og öðrum tengdum upplýsingum.
 
 Hægt er að virkja upplýsingar hvenær sem er. Með því að halda skráningum um starfsmenn uppfærðum verða starfsmannaverkefni einfaldari. Til dæmis, ef aðsetur starfsmanna breytast er hægt að skrá það á starfsmannaspjaldið.
 
-Eftirfarandi aðferðir lýsa því hvernig á að búa til fyrsta starfsmannaspjaldið og hvernig á að úthluta tveimur gerðum af upplýsingum um starfsmanninn á viðkomandi starfsmann. Einnig er hægt að úthluta ýmsum öðrum tengdum upplýsingum, svo sem hæfi og orsökum aðgerðaleysis. Upplýsingum um starfsmann er úthlutað annað hvort með því að velja reit eða aðgerð á síðunni **Starfsmannaspjald** .
+Eftirfarandi aðferðir lýsa því hvernig á að búa til fyrsta starfsmannaspjaldið og hvernig á að úthluta tveimur gerðum af upplýsingum um starfsmanninn á viðkomandi starfsmann. Einnig er hægt að úthluta ýmsum öðrum tengdum upplýsingum, svo sem hæfi og orsökum aðgerðaleysis. Upplýsingum um starfsmann er úthlutað annað hvort með því að velja reit eða aðgerð á síðunni **Starfsmannaspjald**.
 
 > [!NOTE]  
-> Hægt er að endurgreiða starfsmönnum fyrir útgjöld þeirra í viðskiptaerindum. Til þess þarf að fylla inn í reitina á flýtiflipanum **Greiðslur** á síðunni **starfsmannaspjald** . Nánari upplýsingar eru í [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).
+> Hægt er að endurgreiða starfsmönnum fyrir útgjöld þeirra í viðskiptaerindum. Til þess þarf að fylla inn í reitina á flýtiflipanum **Greiðslur** á síðunni **starfsmannaspjald**. Nánari upplýsingar eru í [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Uppsetning starfsmanns
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsmenn** og veldu síðan tengda tengilinn.
-2. Valið er aðgerðin **Nýtt** .
+2. Valið er aðgerðin **Nýtt**.
 3. Á síðunni **Starfsmannaspjald** skal fylla út reitina eins og þörf krefur. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Setja inn mynd af starfsmanni.
@@ -39,11 +39,11 @@ Ef þú ert með mynd af starfsmanni í .bmp sniði, getur þú sett það á st
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsmenn** og veldu síðan tengda tengilinn.
 2. Opnaðu kortið fyrir viðkomandi starfsmann.
-3. Í **Mynd starfsmanns** velurðu fellilistann og svo **Flytja inn** .
-4. Á síðunni **Velja mynd til að hlaða upp** velurðu hnappinn **Velja** .
-5. Veljið skrána og veljið síðan **Opna** .
+3. Í **Mynd starfsmanns** velurðu fellilistann og svo **Flytja inn**.
+4. Á síðunni **Velja mynd til að hlaða upp** velurðu hnappinn **Velja**.
+5. Veljið skrána og veljið síðan **Opna**.
 
-Myndin er sett inn í **Starfsmannamynd** .
+Myndin er sett inn í **Starfsmannamynd**.
 
 ## <a name="to-register-various-information-about-an-employee"></a>Skrá ýmsar upplýsingar um starfsmann
 Á starfsmannaspjaldinu getur sett upp upplýsingar eins og aðild að stéttarfélagi, skyldmenni, og samningar starfsmanns. Eftirfarandi lýsir hvernig skal setja upp vara aðsetur. Skrefin eru svipuð fyrir allar aðrar upplýsingar sem þú setur upp frá starfsmannaspjaldi.
@@ -59,5 +59,5 @@ Hægt er að nota önnur aðsetur til að halda utan um aðsetur starfsmanns, ti
 ## <a name="see-also"></a>Sjá einnig
 [Skrá og endurgreiða starfsmannaútgjöld](finance-how-record-reimburse-employee-expenses.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)
