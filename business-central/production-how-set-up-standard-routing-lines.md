@@ -10,39 +10,39 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a434de3479f4b100317230b93b06b922fa04692b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 68844bd869e2e0437ae53ad507e8d2c752c5496f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916602"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759418"
 ---
-# <a name="set-up-standard-routing-lines"></a><span data-ttu-id="467e2-103">Setja upp staðlaðar leiðarlínur</span><span class="sxs-lookup"><span data-stu-id="467e2-103">Set Up Standard Routing Lines</span></span>
+# <a name="set-up-standard-routing-lines"></a><span data-ttu-id="60a0b-103">Setja upp staðlaðar leiðarlínur</span><span class="sxs-lookup"><span data-stu-id="60a0b-103">Set Up Standard Routing Lines</span></span>
 
-<span data-ttu-id="467e2-104">Notkun staðalverka einfaldar gerð og viðhald leiða.</span><span class="sxs-lookup"><span data-stu-id="467e2-104">The use of standard tasks simplifies the creation and maintenance of routings.</span></span> <span data-ttu-id="467e2-105">Gera þér kleift að bæta aukaupplýsingum fljótt við ítrekuð ferli.</span><span class="sxs-lookup"><span data-stu-id="467e2-105">They allow you to quickly attach extra information to recurring operations.</span></span>
+<span data-ttu-id="60a0b-104">Notkun staðalverka einfaldar gerð og viðhald leiða.</span><span class="sxs-lookup"><span data-stu-id="60a0b-104">The use of standard tasks simplifies the creation and maintenance of routings.</span></span> <span data-ttu-id="60a0b-105">Gera þér kleift að bæta aukaupplýsingum fljótt við ítrekuð ferli.</span><span class="sxs-lookup"><span data-stu-id="60a0b-105">They allow you to quickly attach extra information to recurring operations.</span></span>
 
-## <a name="to-set-up-a-standard-task"></a><span data-ttu-id="467e2-106">Setja upp staðlaðan verkhluta</span><span class="sxs-lookup"><span data-stu-id="467e2-106">To set up a standard task</span></span>
+## <a name="to-set-up-a-standard-task"></a><span data-ttu-id="60a0b-106">Setja upp staðlaðan verkhluta</span><span class="sxs-lookup"><span data-stu-id="60a0b-106">To set up a standard task</span></span>
 
-1. <span data-ttu-id="467e2-107">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðalverkhlutar** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="467e2-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Tasks** , and then choose the related link.</span></span>
-2. <span data-ttu-id="467e2-108">Valið er **Nýtt** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="467e2-108">Choose the **New** action.</span></span>
-3. <span data-ttu-id="467e2-109">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="467e2-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. <span data-ttu-id="467e2-110">Velja **Verkfæri** , **Starfsmaður** , **Lýsing** eða **Verkfæri** aðgerðina og svo viðeigandi færslu á síðunni sem opnast.</span><span class="sxs-lookup"><span data-stu-id="467e2-110">Choose the **Tools** , **Personnel** , **Description** , or **Tools** action, and then, on the page that opens, add the relevant entry.</span></span>
+1. <span data-ttu-id="60a0b-107">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðalverkhlutar** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="60a0b-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Standard Tasks**, and then choose the related link.</span></span>
+2. <span data-ttu-id="60a0b-108">Valið er **Nýtt** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="60a0b-108">Choose the **New** action.</span></span>
+3. <span data-ttu-id="60a0b-109">Fyllið inn í reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="60a0b-109">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="60a0b-110">Velja **Verkfæri**, **Starfsmaður**, **Lýsing** eða **Verkfæri** aðgerðina og svo viðeigandi færslu á síðunni sem opnast.</span><span class="sxs-lookup"><span data-stu-id="60a0b-110">Choose the **Tools**, **Personnel**, **Description**, or **Tools** action, and then, on the page that opens, add the relevant entry.</span></span>
 
-## <a name="to-add-a-standard-task-to-an-operation"></a><span data-ttu-id="467e2-111">Bæta stöðluðum verkhluta við aðgerð</span><span class="sxs-lookup"><span data-stu-id="467e2-111">To add a standard task to an operation</span></span>
+## <a name="to-add-a-standard-task-to-an-operation"></a><span data-ttu-id="60a0b-111">Bæta stöðluðum verkhluta við aðgerð</span><span class="sxs-lookup"><span data-stu-id="60a0b-111">To add a standard task to an operation</span></span>
 
-1. <span data-ttu-id="467e2-112">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leið** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="467e2-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings** , and then choose the related link.</span></span>
-2. <span data-ttu-id="467e2-113">Viðeigandi leið er opnuð.</span><span class="sxs-lookup"><span data-stu-id="467e2-113">Open the relevant routing.</span></span>
-3. <span data-ttu-id="467e2-114">Velja viðeigandi leiðarlínu, velja aðgerðina **Aðgerðir** og veljið síðan **Verkfæri** , **Starfsmaður** , **Lýsing** eða **Verkfæri** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="467e2-114">Select a relevant routing line, choose the **Operations** action, and then choose the **Tools** , **Personnel** , **Description** , or **Tools** action.</span></span>
+1. <span data-ttu-id="60a0b-112">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leið** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="60a0b-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Routings**, and then choose the related link.</span></span>
+2. <span data-ttu-id="60a0b-113">Viðeigandi leið er opnuð.</span><span class="sxs-lookup"><span data-stu-id="60a0b-113">Open the relevant routing.</span></span>
+3. <span data-ttu-id="60a0b-114">Velja viðeigandi leiðarlínu, velja aðgerðina **Aðgerðir** og veljið síðan **Verkfæri**, **Starfsmaður**, **Lýsing** eða **Verkfæri** aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="60a0b-114">Select a relevant routing line, choose the **Operations** action, and then choose the **Tools**, **Personnel**, **Description**, or **Tools** action.</span></span>
 
-<span data-ttu-id="467e2-115">Þegar leiðarblað er prentað er hægt að velja að taka með einingarnar úr staðlaða verkinu sem bætt var við leiðarlínurnar.</span><span class="sxs-lookup"><span data-stu-id="467e2-115">When you print the routing sheeting, you can choose to include the elements from the standard task that you added to the routing lines.</span></span>
+<span data-ttu-id="60a0b-115">Þegar leiðarblað er prentað er hægt að velja að taka með einingarnar úr staðlaða verkinu sem bætt var við leiðarlínurnar.</span><span class="sxs-lookup"><span data-stu-id="60a0b-115">When you print the routing sheeting, you can choose to include the elements from the standard task that you added to the routing lines.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="467e2-116">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="467e2-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="60a0b-116">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="60a0b-116">See Also</span></span>
 
-[<span data-ttu-id="467e2-117">Stofna leiðir</span><span class="sxs-lookup"><span data-stu-id="467e2-117">Create Routings</span></span>](production-how-to-create-routings.md)  
-[<span data-ttu-id="467e2-118">Búa til framleiðsluuppskriftir</span><span class="sxs-lookup"><span data-stu-id="467e2-118">Create Production BOMs</span></span>](production-how-to-create-production-boms.md)  
-[<span data-ttu-id="467e2-119">Uppsetning framleiðslu</span><span class="sxs-lookup"><span data-stu-id="467e2-119">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-[<span data-ttu-id="467e2-120">Framleiðsla</span><span class="sxs-lookup"><span data-stu-id="467e2-120">Manufacturing</span></span>](production-manage-manufacturing.md)  
-[<span data-ttu-id="467e2-121">Áætlun</span><span class="sxs-lookup"><span data-stu-id="467e2-121">Planning</span></span>](production-planning.md)  
-[<span data-ttu-id="467e2-122">Birgðir</span><span class="sxs-lookup"><span data-stu-id="467e2-122">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="467e2-123">Innkaup</span><span class="sxs-lookup"><span data-stu-id="467e2-123">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="467e2-124">[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="467e2-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="60a0b-117">Stofna leiðir</span><span class="sxs-lookup"><span data-stu-id="60a0b-117">Create Routings</span></span>](production-how-to-create-routings.md)  
+[<span data-ttu-id="60a0b-118">Búa til framleiðsluuppskriftir</span><span class="sxs-lookup"><span data-stu-id="60a0b-118">Create Production BOMs</span></span>](production-how-to-create-production-boms.md)  
+[<span data-ttu-id="60a0b-119">Uppsetning framleiðslu</span><span class="sxs-lookup"><span data-stu-id="60a0b-119">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+[<span data-ttu-id="60a0b-120">Framleiðsla</span><span class="sxs-lookup"><span data-stu-id="60a0b-120">Manufacturing</span></span>](production-manage-manufacturing.md)  
+[<span data-ttu-id="60a0b-121">Áætlun</span><span class="sxs-lookup"><span data-stu-id="60a0b-121">Planning</span></span>](production-planning.md)  
+[<span data-ttu-id="60a0b-122">Birgðir</span><span class="sxs-lookup"><span data-stu-id="60a0b-122">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="60a0b-123">Innkaup</span><span class="sxs-lookup"><span data-stu-id="60a0b-123">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="60a0b-124">[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="60a0b-124">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
