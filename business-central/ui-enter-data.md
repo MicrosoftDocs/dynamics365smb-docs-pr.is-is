@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912497"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840254"
 ---
 # <a name="entering-data"></a>Gagnainnfærsla
 
@@ -24,7 +24,7 @@ Margir almennir eiginleikar auðvelda þér að færa inn gögn með fljótlegri
 Í dæmunum í þessu efnisatriði er notast við sýnigögn.
 
 ## <a name="working-with-editable-fields"></a>Unnið með breytanlegum reitum
-Reitirnir í [!INCLUDE[d365fin](includes/d365fin_md.md)] gætu innihaldið mismunandi breytanleg gögn, eins og texta eða gjaldmiðilsupphæðir. Breytanlegir reitir sýna yfirleitt innsláttarreit þar sem hægt er að slá inn gildi eða velja það. Óbreytanlegir reitir birtast yfirleitt með gráum bakgrunni.   
+Reitirnir í [!INCLUDE[prod_short](includes/prod_short.md)] gætu innihaldið mismunandi breytanleg gögn, eins og texta eða gjaldmiðilsupphæðir. Breytanlegir reitir sýna yfirleitt innsláttarreit þar sem hægt er að slá inn gildi eða velja það. Óbreytanlegir reitir birtast yfirleitt með gráum bakgrunni.   
 
 Sumir breytanlegir reitir bjóða upp á val til að auðvelda þér að tilgreina gildi.  
 
@@ -33,7 +33,7 @@ Sumir breytanlegir reitir bjóða upp á val til að auðvelda þér að tilgrei
 |------------------|------------------------------------|
 |Dagsetningarval       |Þetta val birtir dagatal sem byggir á virkum svæðisstillingum. Það hjálpar þér að velja staka dagsetningu.|
 |Fellilisti          |Fellilistar gefa þér kost á föstum gildum eða tilvísunarfærslum úr annarri töflu|
-|Rofi eða gátreitur|Sumir reitir bjóða upp á einfalt val, *Já* eða *Nei* . Rofinn er notaður til að tilgreina þetta gildi og birtist alltaf sem gátreitur í listum|
+|Rofi eða gátreitur|Sumir reitir bjóða upp á einfalt val, *Já* eða *Nei*. Rofinn er notaður til að tilgreina þetta gildi og birtist alltaf sem gátreitur í listum|
 |Breytingahjálp       |Sumir reitir bjóða upp á sérsniðna glugga sem henta til að fletta upp og velja besta gildið fyrir viðkomandi reit, eins og sprettigluggi|
 
 
@@ -41,20 +41,20 @@ Sumir breytanlegir reitir bjóða upp á val til að auðvelda þér að tilgrei
 
 Til að breyta gildi reits verður fyrst að velja þann reit. Þú stillir fókus með því að framkvæma eftirfarandi aðgerðir:
 
-- Notaðu **dálkalykilinn** . Aðgerðin velur allt gildið.
+- Notaðu **dálkalykilinn**. Aðgerðin velur allt gildið.
 - Vinstrismelltu á músinni eða svipuðu inntakstæki. Þessi aðgerð mun aðeins velja gildi reitsins í heild sinni ef reiturinn er í listanum.  
 
-Þegar þú átt í samskiptum við reiti í notandaviðmótinu velur [!INCLUDE[d365fin](includes/d365fin_md.md)] yfirleitt allt reitargildið til að auðvelda þér að skipta út því gildi.
+Þegar þú átt í samskiptum við reiti í notandaviðmótinu velur [!INCLUDE[prod_short](includes/prod_short.md)] yfirleitt allt reitargildið til að auðvelda þér að skipta út því gildi.
 
 Þegar gildi svæðisins í heild sinni er valið:
-- Skiptu um gildi með því að slá inn nýtt gildi. Ef reiturinn býður upp á val geturðu virkjað það með því að nota flýtilykilinn **Alt+ör niður** .
+- Skiptu um gildi með því að slá inn nýtt gildi. Ef reiturinn býður upp á val geturðu virkjað það með því að nota flýtilykilinn **Alt+ör niður**.
 - Notaðu lykilinn **Delete** eða **bakklykilinn** til að hreinsa gildið.
 
 Ýttu á **F2** til að skipta á milli þess að velja gildi reitsins í heild sinni eða setja bendilinn á eftir gildi reitsins. Ef bendillinn er settur í lok gildisins er auðveldara að bæta við gildið sem fyrir er.
 
 Þegar bendillinn er sýndur við lok reitargildis:
 - Bæta við gildið með því að slá einfaldlega inn.
-- Notaðu lyklana **Home** , **End** , **vinstriör** og **hægriör** til að færa bendilinn innan gildis. Ef þú ert að breyta reit í lista skaltu ýta á **vinstriör** aftur þegar bendillinn er við upphaf gildis til að stilla áherslu á fyrri reit. Á sama hátt er fókusinn færður á næsta reit þegar ýtt er á **hægriör** aftur þegar bendillinn er við endann á gildinu.
+- Notaðu lyklana **Home**, **End**, **vinstriör** og **hægriör** til að færa bendilinn innan gildis. Ef þú ert að breyta reit í lista skaltu ýta á **vinstriör** aftur þegar bendillinn er við upphaf gildis til að stilla áherslu á fyrri reit. Á sama hátt er fókusinn færður á næsta reit þegar ýtt er á **hægriör** aftur þegar bendillinn er við endann á gildinu.
 
 > [!NOTE]
 > Eftir að þú hefur tilgreint gildi mun Business Central aðeins athuga að það sé gilt eftir að þú smellir utan reitsins eða stillir áhersluna á aðra einingu, eins og á næsta reit.  
@@ -74,7 +74,7 @@ Hægt er að nota dálkalykilinn til að fletta úr einum reit á síðu yfir í
 
 ### <a name="how-quick-entry-works"></a>Hvernig flýtifærsla virkar
 
-Hægt er að merkja sérhvern reit sem annaðhvort *hafa með í flýtifærslu* eða *ekki hafa með í flýtifærslu* . Reitir sem eru með flýtifærslu verða hafðir í slóðinni þegar ýtt er á færslulykilinn. Reitir sem eru undanskildir flýtifærslu verða það ekki.
+Hægt er að merkja sérhvern reit sem annaðhvort *hafa með í flýtifærslu* eða *ekki hafa með í flýtifærslu*. Reitir sem eru með flýtifærslu verða hafðir í slóðinni þegar ýtt er á færslulykilinn. Reitir sem eru undanskildir flýtifærslu verða það ekki.
 
 Þegar þú hefur lokið við að færa gögn inn í reit ýtirðu einfaldlega á Enter til að staðfesta breytingarnar og ferð í næsta reit. Ef þú vilt snúa áttinni við og fara í fyrri reit skaltu ýta á Shift+Enter. Frekari upplýsingar um flýtileiðir er að finna í [Flýtileiðir flýtifærslu fyrir reiti](keyboard-shortcuts.md#QuickEntry).
 
@@ -85,7 +85,7 @@ Eftirfarandi listi veitir gagnlegar upplýsingar um notkun á flýtifærslu.
 - Hann er í boði fyrir alla breytanlega reiti.
 - Hún virkar einnig fyrir bæði dálka og línur.
 - Hann kemur ekki í veg fyrir aðgang annarra að öðrum einingum á síðu, svo sem aðgerðum. Þessar einingar eru enn aðgengilegar með því að nota dálkalykil og Shift+dálkalykil.  
-- Ekki þarf að víkka flýtiflipa til að Snögg færsla virki. Ef næsti reitur flýtifærslu er staðsettur í samandregnum flýtiflipa mun sá flýtiflipi sjálfkrafa stækka og setja fókus á tiltekinn reit. [!INCLUDE[d365fin](includes/d365fin_md.md)] man að flýtiflipinn ætti að víkka næst þegar þú opnar síðuna.  
+- Ekki þarf að víkka flýtiflipa til að Snögg færsla virki. Ef næsti reitur flýtifærslu er staðsettur í samandregnum flýtiflipa mun sá flýtiflipi sjálfkrafa stækka og setja fókus á tiltekinn reit. [!INCLUDE[prod_short](includes/prod_short.md)] man að flýtiflipinn ætti að víkka næst þegar þú opnar síðuna.  
 - Flýtifærsla virkar hvort sem reitir eru áskildir eða ekki. Því er góð hugmynd að tryggja að áskilin svæði séu höfð með í flýtiskráningu.
 - Sjálfgefið er að flestir reitir eru sjálfkrafa með í flýtifærslu. Í upphafi verður það líklega þitt verk að útiloka reiti úr flýtifærslu.
 
@@ -93,8 +93,8 @@ Eftirfarandi listi veitir gagnlegar upplýsingar um notkun á flýtifærslu.
 
 Til að setja upp flýtifærslu á reitum skaltu nota sérstillingu.
 
-1. Byrjaðu sérstillingu með því að velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og síðan aðgerðina **Sérstilla** .
-2. Veldu reit sem þú vilt breyta. Í listum skaltu velja samsvarandi dálkahaus. Veldu síðan annaðhvort **Hafa með í flýtifærslu** eða **Útiloka frá flýtifærslu** .
+1. Byrjaðu sérstillingu með því að velja táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og síðan aðgerðina **Sérstilla**.
+2. Veldu reit sem þú vilt breyta. Í listum skaltu velja samsvarandi dálkahaus. Veldu síðan annaðhvort **Hafa með í flýtifærslu** eða **Útiloka frá flýtifærslu**.
 
 Frekari upplýsingar um sérstillingu er að finna í [Sérstilling verksvæðis](ui-personalization-user.md).
 
@@ -120,7 +120,7 @@ Hægt er að afrita eina eða fleiri línur af listanum eða staka reiti á sí�
 
 Í lista, til að afrita reitinn í sama dálki og í röðinni fyrir ofan, og líma hann í núverandi röð, skal ýta á F8.
 
-Frekari upplýsingar er að finna í [Afrita og líma algengar spurningar](ui-copy-paste.md).
+Frekari upplýsingar er að finna í [Afrita og líma algengar spurningar](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Síun á línuatriðum
 
@@ -162,7 +162,7 @@ Til að opna núverandi spjald eða skjal í nýjum glugga skal velja táknið !
 > Ef unnið er í Safari-vafranum gæti sprettigluggavörn valdið því að nýi glugginn opnist ekki. Ef þetta er tilfellið skal tilgreina vefslóð afurðarinnar sem heimilaða vefsvæði. Frekari upplýsingar er að finna í [Breyta sérstillingum í Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Sama kann að gerast í öðrum vöfrum, svo sem Firefox. Frekari upplýsingar er að finna í [Stillingar sprettigluggavarnar í Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Önnur leið til að gera margt í einu er að opna [!INCLUDE[d365fin](includes/d365fin_md.md)] í tveimur eða fleiri vafragluggum. Þegar þetta er gert ætti að búa til nýjan flipa og síðan afrita/líma vefslóð upprunalega flipans í nýja flipann. Þetta býr til nýja lotu.   
+Önnur leið til að gera margt í einu er að opna [!INCLUDE[prod_short](includes/prod_short.md)] í tveimur eða fleiri vafragluggum. Þegar þetta er gert ætti að búa til nýjan flipa og síðan afrita/líma vefslóð upprunalega flipans í nýja flipann. Þetta býr til nýja lotu.   
 
 > [!NOTE]
 > Ekki skal nota aðgerðina **Tvítekning** í vafranum til að búa til nýjan flipa því að það getur leitt til þess að aðgerðir í einum flipa útiloki aðgerðir í öðrum flipa vegna þess að þeir tilheyra sömu lotunni.
@@ -192,7 +192,7 @@ Hægt er að færa inn neikvæðar tölur eftir tveimur leiðum. Númerið -20.5
 
  Í báðum tilfellum verður upphæðin skráð í sem -20.5.  
 
- Ef síðasti stafur segðarinnar er **+** eða **-** , mun öll segðin verða skráð með því formerki. Dæmi: **10-20+** mun gefa niðurstöðuna 10 en ekki -10.  
+ Ef síðasti stafur segðarinnar er **+** eða **-**, mun öll segðin verða skráð með því formerki. Dæmi: **10-20+** mun gefa niðurstöðuna 10 en ekki -10.  
 
 ## <a name="entering-dates-and-times"></a>Dagsetning og tími færð inn
 
@@ -294,4 +294,4 @@ Hér eru nokkur dæmi.
 
 ## <a name="see-also"></a>Sjá einnig  
  [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
- [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

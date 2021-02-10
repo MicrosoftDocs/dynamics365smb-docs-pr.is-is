@@ -1,6 +1,6 @@
 ---
-title: 'Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss | Microsoft Docs'
-description: Í Business Central er hægt að framkvæma innleiðarferlið til að taka við og ganga frá á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins.
+title: Kynning – Móttaka og frágangur í grunnstillingum vöruhúss
+description: Í Business Central er hægt að framkvæma innleiðarferlið til að taka við og ganga frá á fjóra vegu, , allt eftir flækjustigi vöruhússins.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b119883babf1f44ff78482c4849faff72c1ec257
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 674b095c515c6c8be5dde41861ab2cfdc943855f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918439"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035557"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að framkvæma innleiðarferlið til að taka við og ganga frá á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins.  
+Í [!INCLUDE[prod_short](includes/prod_short.md)], er hægt að framkvæma innleiðarferlið til að taka við og ganga frá á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins.  
 
 |Aðferð|Ferli á innleið|Hólf|Móttökur|Frágangur|Flækjustig (Sjá [Hönnunarupplýsingar: uppsetning vöruhúss](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -38,7 +38,7 @@ Eftirfarandi kynning sýnir aðferð B í fyrri töflu.
 Í grunnstillungum vöruhúss þar sem staðsetning er sett upp þannig að krafist sé frágangs en ekki móttökuvinnslu skal nota síðuna **Birgðafrágangur** til að skrá og bóka frágang og afhendingarupplýsingar fyrir upprunaskjöl á innleið. Upprunaskjalið á innleið getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslupöntun þar sem úttakið er tilbúið til frágangs.
 
 > [!NOTE]
-> Jafnvel þótt stillingarnar séu kallaðar **Krefjast tínslu** og **Krefjast frágangs** , geturðu samt sem áður bókað móttöku og afhendingu beint frá uppruna viðskiptaskjala í birgðageymslum þar sem þú velur þessa gátreiti.  
+> Jafnvel þótt stillingarnar séu kallaðar **Krefjast tínslu** og **Krefjast frágangs**, geturðu samt sem áður bókað móttöku og afhendingu beint frá uppruna viðskiptaskjala í birgðageymslum þar sem þú velur þessa gátreiti.  
 
 Þessi kynning fjallar um eftirfarandi verk.  
 
@@ -51,6 +51,9 @@ Eftirfarandi kynning sýnir aðferð B í fyrri töflu.
 -   Stofna birgðafrágang byggðan á útgefnu upprunaskjali.  
 -   Staðfesti að frágangshólfin erfast úr innkaupapöntuninni.  
 -   Skráir vöruhúsahreyfinguna í vöruhúsið og bókar á sama tíma innkaupamóttökuna fyrir upprunaskjal innkaupapöntunarinnar.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="roles"></a>Hlutverk  
 Þessi kynning sýnir þau verk sem framkvæmd eru með eftirfarandi hlutverkum notenda:  
@@ -66,9 +69,9 @@ Til að ljúka þessari kynningu þarf:
 -   Til að gera notanda að starfsmanni vöruhúss í SILVER staðsetningu á eftirfarandi hátt:  
 
     1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsmenn vöruhúss** og veldu síðan tengda tengilinn.  
-    2.  Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur** .  
+    2.  Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur**.  
     3.  Í reitnum **Staðsetningarkóði** er fært inn SILVER.  
-    4.  Veljið reitinn **Sjálfgefið** .  
+    4.  Veljið reitinn **Sjálfgefið**.  
 
 ## <a name="story"></a>Ferill  
 Ellen, stjórnandi vöruhúss hjá CRONUS International Ltd. stofnar innkaupapöntun fyrir 10 einingar af vöru LS-75 og 30 einingar af vöru LS-81 frá lánardrottni 10000 sem afhenda á til SILVER vöruhúss. Þegar sending berst í vöruhúsið, gengur starfsmaður vöruhússins frá vörunum í sjálfgefin hólf sem eru skilgreind fyrir vörurnar. Frágangurinn er bókaður, vörurnar eru bókaðar sem mótteknar í birgðir og tiltækar til sölu eða aðra eftirspurn.  
@@ -80,17 +83,17 @@ Ellen, stjórnandi vöruhúss hjá CRONUS International Ltd. stofnar innkaupapö
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
 2.  SILVER-staðsetningarspjaldið er opnað.  
-3.  Veljið gátreitinn **Þarf að ganga frá** .  
+3.  Veljið gátreitinn **Þarf að ganga frá**.  
 
     Setjið svo upp sjálfgefið hólf fyrir vörunúmerin tvö til að stjórna hvar gengið sé frá þeim.  
 
-4.  Veldu aðgerðina **Hólf** .  
-5.  Veljið fyrstu röð fyrir hólf S-01-0001 og svo aðgerðina **Innihald** .  
+4.  Veldu aðgerðina **Hólf**.  
+5.  Veljið fyrstu röð fyrir hólf S-01-0001 og svo aðgerðina **Innihald**.  
 
     Takið eftir að á síðunni **Innihald hólfs** er vara LS-75 þegar sett upp sem efni í hólfi S-01-0001.  
 
 6.  Valið er **Nýtt** aðgerð.  
-7.  Veljið **Fast** og svo **Sjálfgefið** .  
+7.  Veljið **Fast** og svo **Sjálfgefið**.  
 8.  Á **Vörunúmer** reitnum skaltu slá inn LS-81.  
 
 ## <a name="creating-the-purchase-order"></a>Stofna innkaupapöntunina  
@@ -123,16 +126,16 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðafrágangur** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
-3.  Veljið reitinn **Upprunaskjal** og svo **Innkaupapöntun** .  
-4.  Veldu reitinn **Upprunanr.** , velja línuna fyrir innkaup frá viðskiptamanni 10000 og skal velja svo hnappinn **Í lagi** .  
+3.  Veljið reitinn **Upprunaskjal** og svo **Innkaupapöntun**.  
+4.  Veldu reitinn **Upprunanr.**, velja línuna fyrir innkaup frá viðskiptamanni 10000 og skal velja svo hnappinn **Í lagi**.  
 
     Að öðrum kosti, valið er **Sækja upprunaskjal** aðgerð og síðan innkaupapöntunina.  
 
-5.  Velja aðgerðina **Færa sjálfkr. magn til afgr.** .  
+5.  Velja aðgerðina **Færa sjálfkr. magn til afgr.**.  
 
     Að öðrum kosti, í reitnum **Magn til afgreiðslu** er fært inn 10 og 30 í birgðafrágangslínurnar tvær, í þeirri röð.  
 
-6.  Veldu aðgerðina **Bóka** , veldu **Móttaka** aðgerðina og veldu síðan **Í lagi** hnappinn.  
+6.  Veldu aðgerðina **Bóka**, veldu **Móttaka** aðgerðina og veldu síðan **Í lagi** hnappinn.  
 
     Frágangur hátalaranna 40 í hólf S-01-0001 er nú skráður og jákvæð birgðafærsla er stofnuð sem endurspeglar hina bókuðu innkaupamóttöku.  
 
@@ -144,4 +147,4 @@ Innkaupapantanir eru algengustu tegundir af upprunaskjölum á innleið.
  [Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Hönnunarupplýsingar: vöruhúsaflæði inn](design-details-inbound-warehouse-flow.md)   
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
- [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

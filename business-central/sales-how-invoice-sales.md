@@ -1,5 +1,5 @@
 ---
-title: Stofna sölureikning eða sölupöntun | Microsoft Docs
+title: Stofna sölureikning eða sölupöntun
 description: Lýsir því hvernig skal búa til söluvíxil, eða sölureikning eða sölupöntun, til að skrá samkomulag við viðskiptamann um að selja tilteknar vörur með tilteknum skilmálum.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2020
+ms.date: 01/21/2021
 ms.author: edupont
-ms.openlocfilehash: 2613a328ad1274a690d3d394fef054527e5a75de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b417ed7a4ef520ab652a66ac6f961c7c2f1a970e
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926223"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035407"
 ---
 # <a name="invoice-sales"></a>Reikningsfæra sölur
 
@@ -94,6 +94,10 @@ Hægt er að fylla út viðskiptamannsreitina á sölureikningnum með tveimur l
 
 Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og á sölureikningnum er frálag sem PDF fylgiskjal. Sölureikningurinn er fjarlægður af lista sölureikninga og skipt út fyrir nýtt fylgiskjal á lista bókaðra sölureikninga.  
 
+### <a name="calculating-invoice-discounts-on-sales"></a>Reikna reikningsafsl. á sölu
+
+[!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
+
 ## <a name="registering-payments"></a>Skráning greiðsla
 
 Það fer eftir þörfum fyrirtækis þíns, þú getur fengið greitt og skráð þessi greiðslu á mismunandi vegu: handvirkt, sjálfkrafa og með greiðsluþjónustu.  
@@ -106,13 +110,18 @@ Hægt er að vinna greiðslur beint frá viðskiptamannaspjaldinu. Nota aðgerð
 
 Þú getur jafnvel búið til beingreidda reikninga fyrir óskráða viðskiptavini með því að fyrst setja upp „viðskiptamannaspjald fyrir reiðufé“ sem þú bendir á í sölureikningnum. Frekari upplýsingar eru í [Setja upp viðskiptamenn með reiðufé](finance-how-to-set-up-cash-customers.md).  
 
+> [!TIP]
+> Ef senda á viðskiptavini áminningar um gjaldfallnar greiðslur þarf að setja upp stig og skilmála innheimtubréfs. Frekari upplýsingar eru í [Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md).  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Prenta tiltektarlistann](sales-how-print-picking-list.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
+[Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  
 [Magnreikningsfærsla frá Microsoft Bookings í Business Central ](finance-bookings.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

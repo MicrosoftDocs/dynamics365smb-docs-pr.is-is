@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920698"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760097"
 ---
 # <a name="working-with-general-journals"></a>Vinna í færslubókum
 
-Flestar fjárhagsfærslur eru bókaðar í fjárhag gegnum sérstök viðskiptaskjöl, eins og innkaupareikninga og sölupantanir. Einnig er hægt að vinna úr viðskiptaaðgerðum, svo sem kaupum, greiðslum, notkun ítrekunarbóka til að bóka ítrekanir eða endurgreiðslum vegna útgjalda starfsmanna með því að bóka færslubókarlínur í ýmsum færslubókum í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Flestar fjárhagsfærslur eru bókaðar í fjárhag gegnum sérstök viðskiptaskjöl, eins og innkaupareikninga og sölupantanir. Einnig er hægt að vinna úr viðskiptaaðgerðum, svo sem kaupum, greiðslum, notkun ítrekunarbóka til að bóka ítrekanir eða endurgreiðslum vegna útgjalda starfsmanna með því að bóka færslubókarlínur í ýmsum færslubókum í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Flestar færslubækur eru byggðar á *Almennri færslubók* og þú getur unnið úr öllum færslum á síðunni **Almenn færslubók**. Frekari upplýsingar, sjá [Bóka færslu beint yfir í Fjárhag](finance-how-post-transactions-directly.md).  
 
@@ -41,15 +41,15 @@ Til eru nokkur færslubókarsniðmát. Hvert sniðmát færslubókar er með sé
 Fyrir hvert sniðmát færslubókar, geturðu sett upp þína eigin færslbók sem bókarkeyrsla. Til dæmis er hægt að skilgreina eigin færslubókarkeyrslu fyrir greiðslubók sem er með þitt persónulega útlit og stillingar. Eftirfarandi ábending er dæmi um hvernig skal sérsníða færslubók.
 
 > [!TIP]  
-> Ef valinn er gátreiturinn **Leggja til afstemmingarupphæð** á línunni fyrir keyrsla á síðunni **Færslubókakeyrslur**, þá er **Upphæð** reiturinn í, t.d. færslubókarlínum fyrir sama skjalanúmer sjálfkrafa forfyllt með sama gildi sem þarf til að stemma fylgiskjalið. Nánari upplýsingar er að finna í [Leyfa [!INCLUDE[d365fin](includes/d365fin_md.md)] að stinga upp á gildum](ui-let-system-suggest-values.md).
+> Ef valinn er gátreiturinn **Leggja til afstemmingarupphæð** á línunni fyrir keyrsla á síðunni **Færslubókakeyrslur**, þá er **Upphæð** reiturinn í, t.d. færslubókarlínum fyrir sama skjalanúmer sjálfkrafa forfyllt með sama gildi sem þarf til að stemma fylgiskjalið. Nánari upplýsingar er að finna í [Leyfa [!INCLUDE[prod_short](includes/prod_short.md)] að stinga upp á gildum](ui-let-system-suggest-values.md).
 
 > [!TIP]
 > Til að bæta við eða fjarlægja reiti í færslubókum skal nota borðann **Sérsníða**. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Staðfesta almennar færslubókarkeyrslur
-Til að hjálpa til við að koma í veg fyrir tafir við bókun er hægt að kveikja á bakgrunnsathugun sem lætur vita þegar mistök eru gerð í fjárhagsbókinni sem verið er að vinna í sem kemur í veg fyrir að hægt sé að bóka færslubókina. Á síðunni **Færslubókarkeyrsla** er hægt að velja að láta **Athugun á villu í bakgrunni** [!INCLUDE[d365fin](includes/d365fin_md.md)] villuleita fjárhagsbækur, svo sem almennar bækur eða greiðslubækur, meðan verið er að vinna í þeim. 
+Til að hjálpa til við að koma í veg fyrir tafir við bókun er hægt að kveikja á bakgrunnsathugun sem lætur vita þegar mistök eru gerð í fjárhagsbókinni sem verið er að vinna í sem kemur í veg fyrir að hægt sé að bóka færslubókina. Á síðunni **Færslubókarkeyrsla** er hægt að velja að láta **Athugun á villu í bakgrunni** [!INCLUDE[prod_short](includes/prod_short.md)] villuleita fjárhagsbækur, svo sem almennar bækur eða greiðslubækur, meðan verið er að vinna í þeim. 
 
-Þegar staðfesting er valin birtist **Athugun á færslubók** upplýsingareiturinn við hliðina á færslubókarlínunum og sýnir vandamál í núverandi línu og allri rununni. Staðfesting kemur upp þegar verið er að hlaða fjárhagsbókarkeyrslu, og þegar önnur færslubókarlína er valin. **Heildarfjöldi vandamála** reiturinn í upplýsingareitnum sýnir heildarfjölda vandamála sem [!INCLUDE[d365fin](includes/d365fin_md.md)] fann og hægt er að velja hann til að opna yfirlit yfir vandamálin. 
+Þegar staðfesting er valin birtist **Athugun á færslubók** upplýsingareiturinn við hliðina á færslubókarlínunum og sýnir vandamál í núverandi línu og allri rununni. Staðfesting kemur upp þegar verið er að hlaða fjárhagsbókarkeyrslu, og þegar önnur færslubókarlína er valin. **Heildarfjöldi vandamála** reiturinn í upplýsingareitnum sýnir heildarfjölda vandamála sem [!INCLUDE[prod_short](includes/prod_short.md)] fann og hægt er að velja hann til að opna yfirlit yfir vandamálin. 
 
 Hægt er að nota **Sýna línur með vandamál** og **Sýna allar línur** aðgerðirnar til að skipta á milli færslubókarlína sem eru með vandamál og þeirra sem eru það ekki. Nýi **Upplýsingar færslubókarlínu** gátreiturinn veitir flýtiyfirlit og aðgang að gögnum úr færslubókarlínum, svo sem fjárhagsreikningi, viðskiptamanni eða lánardrottni, sem og bókunaruppsetningu fyrir tiltekna lykla.     
 
@@ -203,7 +203,7 @@ Gildi í **Skjal nr.** reitnum breytast þar sem þörf er á, þannig að núme
 [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)  
 [Úthluta kostnaði og tekjum](year-allocate-costs-income.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Loka opnum færslum birgðahöfuðbókar vegna fastrar jöfnunar í birgðabók](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Endurmat birgða í endurmatsbókinni](inventory-how-revalue-inventory.md)  
 [Talning, breytingar og endurflokkun birgða með færslubókum](inventory-how-count-adjust-reclassify.md)  

@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89ee34bac855e40bc44f1e32764968cfd36324a9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923321"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760124"
 ---
 # <a name="business-process-walkthroughs"></a>Kynningar á viðskiptaferli
 
 Þessi kynning fjallar skref-fyrir-skref viðskiptaferla sem framkvæma má með því að nota CRONUS International Ltd. sýnifyrirtæki. Leiðbeiningarnar samanstanda af mörgum ferlum sem sum hver eru venjulega framkvæmd af einum notanda, meðan önnur fela í sér mörg ólík notandahlutverk. Til að líkja eftir vinnuumhverfinu innihalda sumar kynningarnar uppsetningarskref sem þarf að ljúka til að ljúka æfingunum eins og lýst er. Þessi skref leggja til innsýn inní hvers konar upplýsingum notendur þurfa að deila með sérfræðingum fyrirtækis síns.  
 
- Kynningarnar eru fullgerð dæmi og ætti að framkvæma þær frá upphafi til enda til að fá sem mest út úr þeim. Mörg þeirra byggja á [!INCLUDE[d365fin](includes/d365fin_md.md)] sýningum og gera notandanum kleift að reyna þessi ferli á eigin spýtur, á eigin hraða.  
+ Kynningarnar eru fullgerð dæmi og ætti að framkvæma þær frá upphafi til enda til að fá sem mest út úr þeim. Mörg þeirra byggja á [!INCLUDE[prod_short](includes/prod_short.md)] sýningum og gera notandanum kleift að reyna þessi ferli á eigin spýtur, á eigin hraða.  
 
 > [!NOTE]
-> Við sumar kynningarnar þarf sýnigögn sem eru ekki fyrir hendi í hefðbundna sýnifyrirtækinu í [!INCLUDE[prodshort](includes/prodshort.md)]. Frekari upplýsingar er að finna á [Til að stofna fyrirtæki með fullkláruð sýnigögn í sandkassa](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
+> Við sumar kynningarnar þarf sýnigögn sem eru ekki fyrir hendi í hefðbundna sýnifyrirtækinu í [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar er að finna á [Til að stofna fyrirtæki með fullkláruð sýnigögn í sandkassa](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |Til að|Sjá|  
 |--------|---------|  
@@ -44,6 +44,6 @@ ms.locfileid: "3923321"
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

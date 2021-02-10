@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12cb799668430fe8eaaa47ebb2d93549539bb4eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3ee126fae6e658700a6f83a37b4c4b77daa98a6e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916702"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759568"
 ---
 # <a name="make-check-payments"></a>Framkvæma ávísanagreiðslur
 
-Þú getur gefið út rafrænar og handvirkar ávísanir [!INCLUDE[d365fin](includes/d365fin_md.md)]. Í báðum aðferðum er útgreiðslubók notuð til að gefa út tékka til lánardrottna. Einnig er hægt að ógilda tékka og skoða fjárhagsfærslur.
+Þú getur gefið út rafrænar og handvirkar ávísanir [!INCLUDE[prod_short](includes/prod_short.md)]. Í báðum aðferðum er útgreiðslubók notuð til að gefa út tékka til lánardrottna. Einnig er hægt að ógilda tékka og skoða fjárhagsfærslur.
 
 Eftirfarandi ferli sýnir hvernig á að greiða lánardrottni með tölvuávísunum með því að jafna greiðsluna við viðeigandi reikning lánardrottins, prenta út ávísunina og síðan bóka greiðsluna sem greidda. Þetta leiðir til jákvæðra lánardrottnafærslna, jafnaðar við neikvæðar bankafjárhagsfærslur og raunverulegar ávísanir fyrir úrvinnslu í bankanum.
 
-Hægt er að greiða með tveimur gerðum af ávísunum. Fyrir báðar gerðir verður reiturinn **Mótreikningur nr.** eða **Tegund reiknings** að innihalda **Bankareikning** .
+Hægt er að greiða með tveimur gerðum af ávísunum. Fyrir báðar gerðir verður reiturinn **Mótreikningur nr.** eða **Tegund reiknings** að innihalda **Bankareikning**.
 
-- **Vélfærður tékki** : veldu þennan valkost ef  á að prenta tékka með upphæðinni í færslubókarlínunni. Þú þarft að prenta tékkana áður en þú bókar færslubókarlínurnar.
+- **Vélfærður tékki**: veldu þennan valkost ef  á að prenta tékka með upphæðinni í færslubókarlínunni. Þú þarft að prenta tékkana áður en þú bókar færslubókarlínurnar.
 - **Handfærður tékki**  Þessi kostur er valinn ef handfærður tékki hefur verið búinn til og  á að búa til tékkafærslu sem samsvarar upphæðinni. Með því að nota þennan valkost er ekki hægt að prenta út ávísun.
 
 > [!NOTE]  
@@ -41,11 +41,11 @@ Eftirfarandi dæmi sýnir hvernig á að greiða lánardrottni með ávísun. Sk
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubækur** og veldu síðan tengda tengilinn.
 2. Fyllið út greiðslubókarlínurnar. Nánari upplýsingar eru í [Skrá greiðslur og endurgreiðslur](payables-how-post-payments-refunds.md).
-3. Í reitnum **Kóði greiðslumáta** skal velja **Ávísun** .
-4. Í reitnum **Tegund bankagreiðslu** skal velja **Vélfærður tékki** .
-5. Veldu aðgerðina **Prenta ávísun** .
+3. Í reitnum **Kóði greiðslumáta** skal velja **Ávísun**.
+4. Í reitnum **Tegund bankagreiðslu** skal velja **Vélfærður tékki**.
+5. Veldu aðgerðina **Prenta ávísun**.
 6. Á síðunni **Athuga** skal fyllt í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Ef prentarinn er settur upp til að prenta ávísanir skal velja hnappinn **Prenta** . Veldu hnappinn **Senda til** , veldu valkostinn **PDF-skjal** og veldu síðan hnappinn **Í lagi** og prentaðu út PDF-skjalið.
+7. Ef prentarinn er settur upp til að prenta ávísanir skal velja hnappinn **Prenta**. Veldu hnappinn **Senda til**, veldu valkostinn **PDF-skjal** og veldu síðan hnappinn **Í lagi** og prentaðu út PDF-skjalið.
 
     Þá er hægt að senda efnislegar ávísanir á lánardrottna til úrvinnslu. Haltu áfram að bóka greiðsluna eins og hún er jöfnuð við lánardrottin og þar af leiðandi greidd í kerfinum.
 8. Valið er **Bóka** aðgerðin.
@@ -56,7 +56,7 @@ Lánardrottnafærslur og fjárhagsfærslur sem eru jafnaðar að fullu eru stofn
 > Ef þarf að prenta og greiða tékka í fleiri en einum gjaldmiðli frá mismunandi bankareikningum verður að keyra keyrsluna **Prenta tékka** sérstaklega fyrir hvern gjaldmiðil og tilgreina réttan bankareikning.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Til að ógilda prentaðan tékka sem ekki eru bókaðar
-Hægt er að ógilda tékka sem eftir á að bóka þegar þær hafa verið prentuð með því að nota **Ógildur tékki** aðgerðina á síðunni **Greiðslubók** .
+Hægt er að ógilda tékka sem eftir á að bóka þegar þær hafa verið prentuð með því að nota **Ógildur tékki** aðgerðina á síðunni **Greiðslubók**.
 
 1. Á síðunni **Greiðslubók** er valið **Ógildur tékki** og síðan valið hvaða tékka á að ógilda.
 
@@ -69,18 +69,18 @@ Hægt er að ógilda tékka sem eftir á að bóka þegar þær hafa verið pren
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningar** og veldu síðan tengda tengilinn.
 2. Veldu viðeigandi bankareikning, veldu **breyta** aðgerðina og veldu síðan **tékkafærslur** aðgerðina.
-3. Á síðunni **Tékkafærslur** skal velja aðgerðina **Ógildur tékki** .
-4. Veldu gátreitinn **eingöngu ógilda tékka** .
-5. Velja hnappinn **Í lagi** .
+3. Á síðunni **Tékkafærslur** skal velja aðgerðina **Ógildur tékki**.
+4. Veldu gátreitinn **eingöngu ógilda tékka**.
+5. Velja hnappinn **Í lagi**.
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Til að skoða samantekt bókaðra tékka
-Ef þú vilt endurskoða bókaða tékka, til dæmis til að staðfesta marga greidda tékka til eins lánardrottins, getur þú notað skýrsluna **Bankareikningur - Upplýsingar um tékka** .
+Ef þú vilt endurskoða bókaða tékka, til dæmis til að staðfesta marga greidda tékka til eins lánardrottins, getur þú notað skýrsluna **Bankareikningur - Upplýsingar um tékka**.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bankareikningur - Upplýsingar um tékka** og veldu síðan tengda tengilinn.
-2. Stilla afmarkanir sem viðeigandi og velja svo hnappinn **Forskoða** .
+2. Stilla afmarkanir sem viðeigandi og velja svo hnappinn **Forskoða**.
 
 ## <a name="see-also"></a>Sjá einnig
 [Framkvæma greiðslur](payables-make-payments.md)  
 [Stjórna skuldum](payables-manage-payables.md)  
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

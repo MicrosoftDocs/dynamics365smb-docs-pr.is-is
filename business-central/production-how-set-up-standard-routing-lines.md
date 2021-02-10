@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a434de3479f4b100317230b93b06b922fa04692b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 68844bd869e2e0437ae53ad507e8d2c752c5496f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916602"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759418"
 ---
 # <a name="set-up-standard-routing-lines"></a>Setja upp staðlaðar leiðarlínur
 
@@ -26,13 +26,13 @@ Notkun staðalverka einfaldar gerð og viðhald leiða. Gera þér kleift að b�
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðalverkhlutar** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Velja **Verkfæri** , **Starfsmaður** , **Lýsing** eða **Verkfæri** aðgerðina og svo viðeigandi færslu á síðunni sem opnast.
+4. Velja **Verkfæri**, **Starfsmaður**, **Lýsing** eða **Verkfæri** aðgerðina og svo viðeigandi færslu á síðunni sem opnast.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Bæta stöðluðum verkhluta við aðgerð
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Leið** og veldu síðan tengda tengilinn.
 2. Viðeigandi leið er opnuð.
-3. Velja viðeigandi leiðarlínu, velja aðgerðina **Aðgerðir** og veljið síðan **Verkfæri** , **Starfsmaður** , **Lýsing** eða **Verkfæri** aðgerðina.
+3. Velja viðeigandi leiðarlínu, velja aðgerðina **Aðgerðir** og veljið síðan **Verkfæri**, **Starfsmaður**, **Lýsing** eða **Verkfæri** aðgerðina.
 
 Þegar leiðarblað er prentað er hægt að velja að taka með einingarnar úr staðlaða verkinu sem bætt var við leiðarlínurnar.
 
@@ -45,4 +45,4 @@ Notkun staðalverka einfaldar gerð og viðhald leiða. Gera þér kleift að b�
 [Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 14aae820463718357d3bac69524751833f5dd79d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df1baacad6a1bca50c3d1891ab69e920fd375b12
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913664"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035483"
 ---
 # <a name="design-details-item-application"></a>Hönnunarupplýsingar: umsókn vöru
 
@@ -23,7 +23,7 @@ ms.locfileid: "3913664"
 
 Að auki vörujöfnun er gert til að tengja kostnað viðtakanda kostnaðar við kostnaðaruppruna il að gefa upp kostnaðarframsendingu samkvæmt kostnaðaraðferð. Nánari upplýsingar eru í [Upplýsingar um hönnun: Kostnaðarútreikningar](design-details-costing-methods.md).  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] gerir tvær tegundir af vörujöfnun.  
+[!INCLUDE[prod_short](includes/prod_short.md)] gerir tvær tegundir af vörujöfnun.  
 
 |Jöfnunargerð|Description|  
 |----------------------|---------------------------------------|  
@@ -35,7 +35,7 @@ Hægt er að færa vörunotkun í reitinn á eftirfarandi hátt:
 |Aðferð|Description|Jöfnunargerð|  
 |------------|---------------------------------------|----------------------|  
 |Sjálfvirkt|Á sér stað sem framsending almenns kostnaðar samkvæmt aðferð kostnaðarútreiknings.|Magnjöfnun|  
-|Fast|Gerðar af notanda þegar:<br /><br /> -   Vinnsla skilar<br />-   Bókun leiðréttinga<br />-   Ógildir magnbókun<br />-   Búa til beina sendingar **Athugið:** Hægt er að nota fasta jöfnun annað hvort handvirkt með því að slá inn færslunúmer í reitinn **Jafna frá birgðafærslu** eða með því að nota aðgerð, svo sem **Sækja bókaðar fylgiskjalalínur til að bakfæra** .|Magnjöfnun<br /><br /> Kostnaðarjöfnun **Athugið:**  Kostnaðarjöfnun gerist aðeins í færslum á innleið þar sem reiturinn **Jafna frá birgðafærslu** er fylltur út til að stofna fasta jöfnun. Sjá næstu töflu.|  
+|Fast|Gerðar af notanda þegar:<br /><br /> -   Vinnsla skilar<br />-   Bókun leiðréttinga<br />-   Ógildir magnbókun<br />-   Búa til beina sendingar **Athugið:** Hægt er að nota fasta jöfnun annað hvort handvirkt með því að slá inn færslunúmer í reitinn **Jafna frá birgðafærslu** eða með því að nota aðgerð, svo sem **Sækja bókaðar fylgiskjalalínur til að bakfæra**.|Magnjöfnun<br /><br /> Kostnaðarjöfnun **Athugið:**  Kostnaðarjöfnun gerist aðeins í færslum á innleið þar sem reiturinn **Jafna frá birgðafærslu** er fylltur út til að stofna fasta jöfnun. Sjá næstu töflu.|  
 
 Hvort magnjöfnun eða kostnaðarjöfnun er gerð fer eftir stefnu birgðafærslunnar og hvort vörujöfnunin er gerð sjálfvirkt eða fast, í tengslum við sértæk ferli.  
 
@@ -89,7 +89,7 @@ Eftirfarandi tafla sýnir tvær vörujöfnunarfærslur sem koma til bæði vegna
 ## <a name="fixed-application"></a>Fastar jafnanir  
 Föst jöfnun er gerð þegar tekið er fram að kostnaður birgðaaukningar ætti að eiga við um tiltekna birgðaminnkun eða öfugt. Fast jöfnunin hefur áhrif á eftirstöðvamagn færslnanna en fasta jöfnunin hefur líka þau áhrif að snúa nákvæmlega við kostnaði upprunalegu færslunnar sem verið er að jafna við (eða frá).  
 
-Til að gera fasta jöfnun notarðu **Jöfnun til birgðafærslu** reit eða **Jöfnun frá birgðafærslu** reit í skjalalínum að tilgreina birgðafærslu sem þú vilt að færslulínu til að eiga við, eða frá. Til dæmis er hægt að gera fasta jöfnun ef búa á til kostnaðarjöfnun sem tilgreinir að söluskil skuli gilda um tiltekna sölusendingu til að bakfæra kostnað af sölusendingunni. Í þessu tilfelli, [!INCLUDE[d365fin](includes/d365fin_md.md)] hundsar aðferð kostnaðarútreiknings og beitir birgðaminnkun eða hækkun fyrir vöruskil á birgðahöfuðbókarfærslu sem þú tilgreinir. Kosturinn við að gera fasta jöfnun er að kostnaður af upprunalegu færslunnar er sendur í nýja færslu.  
+Til að gera fasta jöfnun notarðu **Jöfnun til birgðafærslu** reit eða **Jöfnun frá birgðafærslu** reit í skjalalínum að tilgreina birgðafærslu sem þú vilt að færslulínu til að eiga við, eða frá. Til dæmis er hægt að gera fasta jöfnun ef búa á til kostnaðarjöfnun sem tilgreinir að söluskil skuli gilda um tiltekna sölusendingu til að bakfæra kostnað af sölusendingunni. Í þessu tilfelli, [!INCLUDE[prod_short](includes/prod_short.md)] hundsar aðferð kostnaðarútreiknings og beitir birgðaminnkun eða hækkun fyrir vöruskil á birgðahöfuðbókarfærslu sem þú tilgreinir. Kosturinn við að gera fasta jöfnun er að kostnaður af upprunalegu færslunnar er sendur í nýja færslu.  
 
 ### <a name="example--fixed-application-in-purchase-return"></a>Dæmi – Föst Jöfnun við innkaupaskil  
 Eftirfarandi dæmi, sem sýnir áhrif fastrar jöfnunar innkaupaskila vöru sem notar FIFO-kostnaðarmatsaðferð, er byggt á eftirfarandi atburðarás:  
@@ -126,6 +126,8 @@ Eftirfarandi dæmi, sem sýnir áhrif fastrar jöfnunar, er byggt á eftirfarand
 5. Birgðamagn er 0 og birgðavirði er einnig 0,00.  
 
 Eftirfarandi tafla sýnir áhrif atburðarásarinnar í virðisfærslum vörunnar.  
+
+Eftirfarandi tafla sýnir áhrif atburðarásarinnar í virðisfærslum vörunnar eftir bókun og þegar kostnaðarleiðrétting hefur veirð keyrð.
 
 |Bókunardagsetning|Birgðafærslutegund|Virt magn|Kostnaðarupphæð (raunverul.)|Jafna birgðafærslu|Virt skv. meðalinnkaupsverði|Birgðafærslunr.|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -190,7 +192,7 @@ Eftirfarandi tafla sýnir hvaða áhrif nákvæm bakfærsla kostnaðar hefur á 
 Þegar runuvinnslan **Kostnaðarleiðrétting - Birgðafærslur** er keyrð er aukinn kostnaður við innkaupafærsluna vegna kostnaðarauka áframsendur á sölufærsluna færslu nr. 2. Sölufærslan framsendir svo þennan aukna kostnað á sölukreditfærslu (færsla númer 3). Endanleg niðurstaða er sú að kostnaður er rétt bakfærður.  
 
 > [!NOTE]  
->  Ef verið er að vinna með skil eða kreditreikninga og settur hefur verið upp reiturinn **Nákvæm og lögbundin bakfærsla kostnaðar** annaðhvort á síðunni **Uppsetning fyrir Innkaup & Viðskiptaskuldir** eða glugganum **Sala & Útistandandi kröfur** , eins og við á í viðkomandi aðstæðum, fyllir [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa út í mismunandi jöfnunarfærslureiti þegar aðgerðin **Afrita úr fylgiskjali** er notuð. Til að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eru allir reitir fylltir út sjálfkrafa.  
+>  Ef verið er að vinna með skil eða kreditreikninga og settur hefur verið upp reiturinn **Nákvæm og lögbundin bakfærsla kostnaðar** annaðhvort á síðunni **Uppsetning fyrir Innkaup & Viðskiptaskuldir** eða glugganum **Sala & Útistandandi kröfur**, eins og við á í viðkomandi aðstæðum, fyllir [!INCLUDE[prod_short](includes/prod_short.md)] sjálfkrafa út í mismunandi jöfnunarfærslureiti þegar aðgerðin **Afrita úr fylgiskjali** er notuð. Til að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** eru allir reitir fylltir út sjálfkrafa.  
 
 > [!NOTE]  
 >  Ef Þú bókar færslu með fastri jöfnun og birgðahöfuðbók sem bókuð er er lokað, sem merkir að eftirstandandi magn er núll, verður eldri jöfnunin afgerð sjálfkrafa og notar birgðafærsluna með föstu jöfnuninni sem þú hefur valið.  
@@ -203,30 +205,30 @@ Eftirfarandi dæmi, sem sýnir hvernig millifærslufærslur eru jafnaðar, byggi
 
 1. Notandinn kaupir vöruna með kostnaði upp á SGM 10.00.  
 2. Notandinn kaupir vöru aftur með kostnaði upp á SGM 20.00.  
-3. Notandinn flytur vöruna úr staðsetningunni BLÁTT í RAUTT.  
+3. Notandinn flytur vöruna úr staðsetningunni EAST í WEST.  
 
 Eftirfarandi tafla sýnir hvaða áhrif flutningurinn hefur á virðisfærslur vörunnar.  
 
 |Bókunardagsetning|Birgðafærslutegund|Kóti birgðageymslu |Virt magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Innkaup|BLÁTT|1|10.00|1|  
-|01-01-20|Innkaup|BLÁTT|1|20.00|2|  
-|02-01-20|Millifærsla|BLÁTT|-1|15,00|3|  
-|02-01-20|Millifærsla|RAUTT|1|15,00|4|  
+|01-01-20|Innkaup|Austurdeildin|1|10,00|1|  
+|01-01-20|Innkaup|Austurdeildin|1|20,00|2|  
+|02-01-20|Millifærsla|Austurdeildin|-1|15,00|3|  
+|02-01-20|Millifærsla|Vesturdeildin|1|15,00|4|  
 
 ### <a name="example--standard-costing-method"></a>Dæmi staðalaðferð kostnaðarútreiknings  
 Eftirfarandi dæmi, sem sýnir hvernig millifærslufærslur eru jafnaðar, byggist á eftirfarandi atburðarás fyrir vöru sem notar Staðalkostnaðarmatsaðferð og meðalkostnaðartímabil dags.  
 
 1. Notandinn kaupir vöruna með staðalkostnaði upp á SGM 10.00.  
-2. Notandinn flytur vöruna úr staðsetningunni BLÁTT í RAUTT með staðalkostnaði upp á SGM 12.00.  
+2. Notandinn flytur vöruna úr staðsetningunni EAST í WEST með staðalkostnaði upp á SGM 12.00.  
 
 Eftirfarandi tafla sýnir hvaða áhrif flutningurinn hefur á virðisfærslur vörunnar.  
 
 |Bókunardagsetning|Birgðafærslutegund|Kóti birgðageymslu |Virt magn|Kostnaðarupphæð (raunverul.)|Færslunr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Innkaup|BLÁTT|1|10.00|1|  
-|02-01-20|Millifærsla|BLÁTT|-1|10,00|2|  
-|02-01-20|Millifærsla|RAUTT|1|10,00|3|  
+|01-01-20|Innkaup|Austurdeildin|1|10,00|1|  
+|02-01-20|Millifærsla|Austurdeildin|-1|10,00|2|  
+|02-01-20|Millifærsla|Vesturdeildin|1|10,00|3|  
 
 Þar sem gildi upprunalegu birgðaaukningar er mælt í staðbundinni mynt 10,00, er millifærsla metin á þeim kostnaði, ekki staðbundinni mynt 12.00.  
 
@@ -238,7 +240,7 @@ Vegna þess hvernig kostnaðarverð vöru er reiknað út gæti skökk vörujöf
 * Æskilegt er að hnekkja jöfnuninni sem var stofnuð sjálfkrafa við bókun samkvæmt aðferð kostnaðarútreiknings fyrir vöruna.  
 * Skila þarf vöru sem búið er að jafna sölu við handvirkt án þess að nota aðgerðina **Sækja bókaðar fylgiskjalalínur til að bakfæra** og því verður að afturkalla þessa jöfnun.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] býður upp á eiginleika til að greina og leiðrétta jöfnun vöru. Þetta er framkvæmt á síðunni **Vinnublað fyrir jöfnun** .  
+[!INCLUDE[prod_short](includes/prod_short.md)] býður upp á eiginleika til að greina og leiðrétta jöfnun vöru. Þetta er framkvæmt á síðunni **Vinnublað fyrir jöfnun**.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Þekkt vandamál birgðajöfnunar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -248,4 +250,4 @@ Vegna þess hvernig kostnaðarverð vöru er reiknað út gæti skökk vörujöf
 [Hönnunarupplýsingar: kostnaðarleiðrétting](design-details-cost-adjustment.md)  
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

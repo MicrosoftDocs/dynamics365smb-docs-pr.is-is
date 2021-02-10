@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 45f32a9f5bbdc13148483b689b5793038c675649
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b18d4406f77594486104e2348487a3380cca0af4
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923007"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024463"
 ---
 # <a name="setting-up-finance"></a>Uppsetning Fjármála
 Áður en þú getur byrjað að reka fyrirtækið þitt verður þú að tilgreina reglur og sjálfgefin gildi fyrir það hvernig stjórna á fjárhagsferlum fyrir fyrirtækið. Fyrsta skrefið er að setja upp kjarna bókhaldsskráningar fyrirtækisins - bókhaldslyklana. Síðan eru settir upp bókunarflokkar, sem gera ferli úthlutunar sjálfgefinna almennra bókunarreikninga til viðskiptamanna, lánardrottna og vara skilvirkara.
@@ -28,13 +28,15 @@ Ljúka þarf mörgum af uppsetningarverkhlutunum áður en hægt er að hefja sk
 
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
-| Til | Sjá |
+| Til að | Sjá |
 | --- | --- |
-| Veldu hvernig þú borgar lánardrottnum þínum. |[Skilgreina Greiðsluhætti](finance-payment-methods.md) |
+| Tilgreinið hvernig viðskiptavinir eiga að greiða og hvernig á að greiða lánardrottnum. |[Setja upp greiðsluhætti](finance-payment-methods.md) |
+| Tilgreindu greiðsluskilmála til að sjá um gjalddaga og reikna hugsanlega út greiðsluafslætti.|[Setja upp greiðsluskilmála](finance-payment-terms.md) |
 | Tilgreinið bókunarhópa sem kortleggja aðila eins og viðskiptavini, seljendur, atriði, auðlindir og sölu- og kaupskjöl til almennra reikninga. |[Uppsetning bókunarflokka](finance-posting-groups.md)|
 |Búðu til fjárhagsskema og skilgreindu lyklategundir til að skilgreina efni fjárhagsgrafa og skýrslna á borð við efnahagsreikning og skýrslur tekjuyfirlits.|[Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)|
 |Hægt er að setja upp vikmörk þannig að kerfið loki reikningi jafnvel þótt greiðsla, að meðteknum afslætti, nái ekki upp í fulla upphæð á reikningnum.|[Unnið með greiðsluvikmörk og greiðsluafsláttarvikmörk](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Uppsetning fjárhagstímabila. |[Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md) |
+|Setja upp áminningarskilmála til að aðstoða við innheimtu á gjaldföllnum greiðslum.|[Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md)|
 | Skilgreinið hvernig VSK upphæðir, sem fengnar eru fyrir sölu, eru sendar inn til skattayfirvalda. |[Setja upp virðisaukaskatt (VSK)](finance-setup-vat.md)|
 |Undirbúa að nota óinnleystan VSK í tengslum við greiðslumátann reiðufé.|[Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé](finance-setup-unrealized-vat.md)|
 | Settu eiginleika sölu og innkaupa upp þannig að hægt sé að vinna með erlenda gjaldmiðla.|[Leyfa jöfnun fjárhagsfærslna í mismunandi gjaldmiðlum](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -48,6 +50,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Uppsetning á Intrastat skýrslugerð, og senda inn skýrsluna til yfirvalda. | [Setja upp og skrá Intrastat](finance-how-setup-report-intrastat.md)|
 |Gakktu úr skugga um að færsla úr færslubók sé úthlutað á nokkra mismunandi reikninga þegar færslubókin er bókuð, annaðhvort magn, prósenta eða upphæð.|[Nota úthlutunarlykla í færslubókum](ui-how-use-allocation-keys-general-journals.md)|
 |Settu upp upprunakóða og ástæðukóða sem hægt er að nota til að fylgjast með endurskoðunarslóðum|[Uppsetning upprunakóða og ástæðukóða fyrir endurskoðunarslóðir](finance-setup-trail-codes.md)|
+|Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
 > [!TIP]
 > Það fer eftir landfræðilegri staðsetningu þinni hvaða reiti sumar síður innihalda sem ekki er lýst í greinunum sem eru gefnar upp hér vegna þess að þær gilda um staðbundna virkni eða sérstillingar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -61,6 +64,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Unnið með víddir](finance-dimensions.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

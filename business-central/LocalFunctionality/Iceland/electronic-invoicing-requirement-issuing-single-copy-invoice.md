@@ -1,8 +1,6 @@
 ---
-title: Kröfur fyrir rafræna reikningsfærslu við útgáfu reikninga í einriti
-description: Á Íslandi þarf að senda skýrslu til hins opinbera ef reikningur er prentaður oftar en einu sinni.
-services: project-madeira
-documentationcenter: ''
+title: Skilyrði fyrir rafrænar reikningsfærslur fyrir útgáfu reiknings í einriti
+description: Á Íslandi þarf að senda skýrslu til hins opinbera ef reikningur er prentaður oftar en einu sinni með rafrænni reikningsfærslu.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6f8f24e096a91cefad81e6b9b1bab094bf956570
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f38cb30b99587697a4d185399a23f624a9a7e8d7
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920038"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013658"
 ---
-# <a name="electronic-invoicing-requirement-issuing-single-copy-invoice"></a>Kröfur fyrir rafræna reikningsfærslu: Útgáfa reikninga í einriti
+# <a name="electronic-invoicing-requirement-issuing-single-copy-invoice"></a>Kröfur fyrir rafrænar reikningsfærslur: Útgáfa reikninga í einriti
+
 Á Íslandi þarf að senda skýrslu til hins opinbera ef reikningur er prentaður oftar en einu sinni. Skýrslan inniheldur lagalegan texta þar sem staðfest er að reikningurinn sé búinn til í bókhalds- og áætlunarkerfi sem samræmist lögum.  
 
 Með þessari aðgerð er hægt að senda skilmála um notkun reikninga í einriti til skattyfirvalda. Flýtiflipinn **Prentun** á síðunni **Sölugrunnur** inniheldur lagaskilmála (skilmála og takmarkanir fyrir notkun reikninga í einriti) og þar er einnig gátreiturinn **Rafræn reikningsfærsla** sem þú getur valið til að minna þig á að prenta þarf yfirlit fyrir skattyfirvöld. Svo geturðu prentað út skýrsluna **Tilkynning skattyfirvalda** á síðunni **Sölugrunnur**. Á flipanum **Heim**, í flokknum **Skýrsla**, skal velja **Prenta yfirlit**.  
@@ -27,4 +26,5 @@ Með þessari aðgerð er hægt að senda skilmála um notkun reikninga í einri
 Lagalegur texti er settur inn á staðlaða bókaða reikninga (reikningur og kreditreikningur) þar sem fram kemur að reikningarnir séu búnir til í bókhalds- og áætlunarkerfi sem samræmist reglugerð nr. 598/1999.  
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Uppsetning sölu](../../sales-setup-sales.md)  

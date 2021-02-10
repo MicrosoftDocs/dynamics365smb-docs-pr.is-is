@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 097a1853b671afe582e40446c43cd628d807dfc0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918414"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035507"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Kynning: Selja, setja saman og afhenda sett
 
@@ -37,7 +37,7 @@ Einkennandi fyrir samsetningarvörur er áfyllingarkerfi þeirra og samsetningar
 -   Stofnun samsetningaruppskriftar sem skráir samsetningaríhlutina og forðann sem fara í samsetningarvöruna.  
 
 ### <a name="selling-customized-assembly-items"></a>Sala sérsniðinna samsetningaríhluta  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] veitir þann sveigjanleika að geta fært inn bæði magn birgða og magn samsetningarpöntunar í eina sölupöntunarlínu. Í þessum hluta er fjallað um eftirfarandi verkhluta:  
+[!INCLUDE[prod_short](includes/prod_short.md)] veitir þann sveigjanleika að geta fært inn bæði magn birgða og magn samsetningarpöntunar í eina sölupöntunarlínu. Í þessum hluta er fjallað um eftirfarandi verkhluta:  
 
 -   Stofnun á hreinni ATO sölupöntunarlínu þar sem ekki er allt magn tiltækt og verður að setja saman fyrir afhendingu.  
 -   Sérstilling á ATO vörum.  
@@ -79,13 +79,16 @@ Sérstakar virkni er til staðar til að stýra sendingu af sameiningarpantanama
 ## <a name="prerequisites"></a>Frumskilyrði  
 Áður en hægt er að framkvæma verk hér í kynningunni þarf að gera eftirfarandi:  
 
--   Setja upp [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+-   Setja upp [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   Gera notanda að starfsmanni vöruhúss í hvítri birgðageymslu á eftirfarandi hátt:  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vöruhúsastarfsmenn** og veldu síðan tengda tengilinn.  
 2.  Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur**.  
 3.  Í reitnum **Birgðageymslu kóði** færið inn HVÍTT.  
 4.  Veljið reitinn **Sjálfgefið**.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Birgðageymslan HVÍTT er undirbúin fyrir samsetningu í eftirfarandi skrefum:  
 

@@ -1,5 +1,5 @@
 ---
-title: Senda rafræn skjöl | Microsoft Docs
+title: Senda rafræn skjöl
 description: lærðu hvernig á að senda reikninga rafrænt
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,52 +10,55 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8875cdcc7ad13f72c9cf131061b301dac1dcff2b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 43f61682a1068a8e1652fd28421f83d5291c8fe8
+ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910581"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4827069"
 ---
 # <a name="send-electronic-documents"></a>Senda rafræn skjöl
-Almenn útgáfa [!INCLUDE[d365fin](includes/d365fin_md.md)] styður sendingu rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er stutt af stærstu skjalaskiptaþjónustuaðilunum. Þjónustuaðili í skjalaskiptaþjónustu sendir rafræn skjöl á milli viðskiptaaðila. Til að veita stuðning á öðrum rafrænu formi er notaður gagnaskiptarammi.  
 
- Í almennri útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)] er skjalaskiptaþjónusta forstillt og tilbúinn til uppsetningar fyrir fyrirtækið. Frekari upplýsingar, sjá [Setja upp skjalaskiptaþjónustu](across-how-to-set-up-a-document-exchange-service.md).  
+Almenn útgáfa [!INCLUDE[prod_short](includes/prod_short.md)] styður sendingu rafrænna reikninga og kreditreikninga á PEPPOL-sniði, sem er snið sem er stutt af stærstu skjalaskiptaþjónustuaðilunum. Þjónustuaðili í skjalaskiptaþjónustu sendir rafræn skjöl á milli viðskiptaaðila. Til að veita stuðning á öðrum rafrænu formi er notaður gagnaskiptarammi.  
 
- Til að senda sölureikningi sem rafrænt PEPPOL-skjal er valinn valkosturinn **Rafrænt skjal** í **Bóka og senda** svarglugganum þar sem einnig er hægt að setja það upp sem sjálfgefið sendisnið skjals viðskiptamannsins. Fyrst þarf að setja upp mismunandi aðalgögn, t.d. upplýsingar um fyrirtækið, viðskiptavini, atriði, og mælieiningar. Þau eru notuð til að bera kennsl á viðskiptafélaga og vörur þegar gögnum er umbreytt í reiti í [Setja upp rafræn skjöl sending og móttaka](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
+ Í almennri útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] er skjalaskiptaþjónusta forstillt og tilbúinn til uppsetningar fyrir fyrirtækið. Frekari upplýsingar, sjá [Setja upp skjalaskiptaþjónustu](across-how-to-set-up-a-document-exchange-service.md). Hins vegar verður í sumum tilvikum að setja upp forrit. Frekari upplýsingar eru í [Algengar spurningar um rafrænar reikningsfærslur](faq-electronic-invoicing.yml).  
 
-### <a name="to-send-an-electronic-sales-invoice"></a>Til að senda rafrænan sölureikning  
+ Til að senda sölureikning sem rafrænt PEPPOL-skjal skal velja sem **Rafrænt skjal** valkostinn í á **Bóka og senda** svargluggi. Einnig er hægt setja upp sjálfgefna forstillingu skjalasendingar viðskiptamanns úr þeim svarglugga. Fyrst þarf að setja upp mismunandi aðalgögn, t.d. upplýsingar um fyrirtækið, viðskiptavini, atriði, og mælieiningar. Þau eru notuð til að bera kennsl á viðskiptafélaga og vörur þegar gögnum er umbreytt í reiti í [Setja upp rafræn skjöl sending og móttaka](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölureikningar** og veldu síðan tengda tengilinn.  
+### <a name="to-send-an-electronic-sales-invoice"></a>Til að senda rafrænan sölureikning
 
-2.  Nýr sölureikningur er búinn til.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölureikningar** og veldu síðan tengda tengilinn.  
 
-3.  Þegar sölureikningurinn er tilbúinn til innheimtu skaltu velja aðgerðina **Bóka og senda** .  
+2. Nýr sölureikningur er búinn til.  
 
-     Ef sjálfgefið sendisnið viðskiptamannsins er **Rafrænt skjal** , mun það sjást í **Bóka og senda staðfestingu** svarglugganum og aðeins þarf að velja **Já** hnappinn til að bóka og senda reikninginn rafrænt á völdu sniði.  
+3. Þegar sölureikningurinn er tilbúinn til innheimtu skaltu velja aðgerðina **Bóka og senda**.  
 
-4.  Í **Bóka og senda staðfestingu** svarglugganum er hnappurinn AssistEdit til hægri við **Senda skjal til** reitinn valinn.  
+     Ef sjálfgefið sendisnið viðskiptamannsins er **Rafrænt skjal**, mun það sjást í **Bóka og senda staðfestingu** svarglugganum. Þannig þarf aðeins að velja **Já** hnappinn til að bóka og senda reikninginn rafrænt á völdu sniði.  
 
-5.  Í **Senda skjal til** svarglugganum í á **Rafrænt skjal** reitnum er valið **Gegnum skjalaskiptaþjónustu** .  
+4. Í **Bóka og senda staðfestingu** svarglugganum er hnappurinn AssistEdit til hægri við **Senda skjal til** reitinn valinn.  
 
-6.  Í **Snið** reitnum er valið **PEPPOL** .  
+5. Í **Senda skjal til** svarglugganum í á **Rafrænt skjal** reitnum er valið **Gegnum skjalaskiptaþjónustu**.  
 
-7.  Velja hnappinn **Í lagi** . Svarglugginn **Bóka og senda staðfestingu** birtist. **Rafrænt skjal (PEPPOL)** er bætt við **Senda skjal til** reitinn.  
+6. Í **Snið** reitnum er valið **PEPPOL**.  
 
-8.  Velja hnappinn **Já** .  
+7. Velja hnappinn **Í lagi**. Svarglugginn **Bóka og senda staðfestingu** birtist. **Rafrænt skjal (PEPPOL)** er bætt við **Senda skjal til** reitinn.  
 
-     Sölureikningur er bókaður og sendur til viðskiptamannsins sem rafrænt skjal á PEPPOL-sniði.  
+8. Velja hnappinn **Já**.  
+
+     Sölureikningur er bókaður og sendur til viðskiptamannsins á PEPPOL-sniði.  
 
     > [!NOTE]  
-    >  Einnig er hægt að senda bókaða sölureikninga sem rafrænt skjal. Ferlið er það sama og lýst er í þessu efnisatriði fyrir óbókuð söluskjöl. Á síðunni **Bókaður sölureikningur** skal velja aðgerðina **Aðgerðakladdi** til að skoða stöðu rafræna skjalsins. Frekari upplýsingar, sjá **Aðgerðakladdi** .  
+    >  Einnig er hægt að senda bókaða sölureikninga sem rafrænt skjal. Ferlið er það sama og lýst er í þessu efnisatriði fyrir óbókuð söluskjöl. Á síðunni **Bókaður sölureikningur** skal velja aðgerðina **Aðgerðakladdi** til að skoða stöðu rafræna skjalsins.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Setja upp sendisnið skjala](sales-how-setup-document-send-profiles.md)  
 [Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Setja upp skjalaskiptaþjónustu](across-how-to-set-up-a-document-exchange-service.md)  
 [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)  
+[Algengar spurningar um rafrænar reikningsfærslur](faq-electronic-invoicing.yml)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  

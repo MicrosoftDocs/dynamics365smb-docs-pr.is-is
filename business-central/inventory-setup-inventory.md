@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6a8298caadec82b191d345e6b7c75b95187b2fe5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f5b4e07f128551e978dffb2dedeb3e0257eea1ea
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921743"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024563"
 ---
 # <a name="setting-up-inventory"></a>Uppsetning birgða
 Áður en hægt er að hefjast handa við að stýra vöruhúsaaðgerðum og birgðakostnaði þarf að grunnstilla reglur og gildi sem ráða birgðareglum fyrirtækisins.
@@ -38,12 +38,14 @@ Hægt er að veita betri þjónustu við viðskiptavini og fínstilla aðfangake
 |Sem viðbót við birgðaspjöld, skrá upplýsingar um vörur fyrir tiltekna birgðageymslu eða tiltekinn afbrigði.|[Setja upp birgðahaldseiningar](inventory-how-to-set-up-stockkeeping-units.md)|
 | Úthlutaðu vörur í flokka og gefðu þeim eiginleika til að hjálpa þér og viðskiptavinum að finna vörur. |[Flokka vörur](inventory-how-categorize-items.md) |
 |Flytja inn margar myndir úr einni zip-skrá þar sem skrár hafa heiti í samræmi við vörunúmer.|[Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)|
+|Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Stjórnun birgða](inventory-manage-inventory.md)  
 [Stjórnun innkaupa](purchasing-manage-purchasing.md)  
 [Stjórna sölu](sales-manage-sales.md)    
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)

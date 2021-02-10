@@ -1,5 +1,5 @@
 ---
-title: Tilgreina litaða vísa til að sérstilla sjónræn merki um virkni bendingar fyrir fyrirtækið eða einstaka notendur | Microsoft Docs
+title: Setja upp sérstillta litavísa fyrir verkþátt bendingar
 description: Sem stjórnandi geturðu sett upp bendingar sem birtast í Mitt hlutverk notenda þannig að það innihaldi vísi sem breytir um lit eftir gagnagildi í bendingum.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 1d296f51aa307d3a3336f7a999eb02c51acc18e1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c2ffd8e39f09e501964c659efa1d711da5370c0e
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911456"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013972"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Setja upp litaðan vísi á bunka fyrir fyrirtækið eða einstaka notendur
 Sem stjórnandi geturðu sett upp bendingar sem birtast í Mitt hlutverk notenda þannig að það innihaldi vísi sem breytir um lit eftir gagnagildi í bendingum.  
 
 Vísirinn birtist sem stika efst í ramma bendingarinnar. Veitir sjónrænt merki um virknistöðu bendingarinnar sem getur táknað hagstæð eða óhagstæð skilyrði sem kalla á viðbrögð frá notanda. Ef bunki birtir til dæmis viðvarandi sölureikninga er hægt að stilla vísinn á að vera grænn (jákvætt) þegar heildarfjöldi viðvarandi sölureikninga er undir 10 og rauður (óæskilegt) þegar samtalan er yfir 20.  
 
-Á síðunni **uppsetning bunka** seturðu setja upp vísa fyrir allar bendingar sem eru tiltækar í gagnagrunni fyrirtækisins. Hægt er að setja upp vísa sem eru notaðir fyrir alla notendur í fyrirtækinu eða einstakan starfsmann. Vísisstillingarnar á síðunni **Uppsetning bunka** virka sem sjálfgefnar vísisstillingar. Ef síðan **Uppsetning bendingar notandi** er gerð tiltæk fyrir notendur geta þeir sérsniðið vísastillingarnar sem eru skilgreindar á síðunni **Uppsetning bendingar** .  
+Á síðunni **uppsetning bunka** seturðu setja upp vísa fyrir allar bendingar sem eru tiltækar í gagnagrunni fyrirtækisins. Hægt er að setja upp vísa sem eru notaðir fyrir alla notendur í fyrirtækinu eða einstakan starfsmann. Vísisstillingarnar á síðunni **Uppsetning bunka** virka sem sjálfgefnar vísisstillingar. Ef síðan **Uppsetning bendingar notandi** er gerð tiltæk fyrir notendur geta þeir sérsniðið vísastillingarnar sem eru skilgreindar á síðunni **Uppsetning bendingar**.  
 
 Til að setja upp vísi tilgreinirðu allt að tvö þröskuldsgildi sem tilgreina þrjú svið gagnagilda (lágt, miðlungs og hátt) sem hægt er að nota annan lit (eða stíl) við.  
 
@@ -34,7 +34,7 @@ Til að setja upp vísi tilgreinirðu allt að tvö þröskuldsgildi sem tilgrei
     > [!NOTE]  
     >  Ef þú setur upp vísi fyrir allt fyrirtækið og notandi breytir vísinum síðar þá er önnur færsla fyrir vísinn birtist fyrir þann notanda.  
 
-2. Veldu aðgerðina **Breyta lista** .  
+2. Veldu aðgerðina **Breyta lista**.  
 3. Til að setja upp vísir fyrir bendingar sem er ekki listaður á síðunni velurðu **Nýtt** og fyllir svo inn reitina líkt og lýst er í eftirfarandi. Ef þú vilt breyta vísi sem þegar er til skaltu fara á næsta skref.  
 
     |  Svæði  |  Description  |    
@@ -47,13 +47,13 @@ Til að setja upp vísi tilgreinirðu allt að tvö þröskuldsgildi sem tilgrei
 
     |  Svæði  |  Description  |    
     |---------|---------------|  
-    |**LágtSnið**|Tilgreinir lit vísisins þegar gildi bunka er minna en gildið í reitnum **Þröskuldur 1** .|  
-    |**LágurÞröskuldur**|Tilgreinir gildið þar sem vísirinn breytir um lit sé hann fyrir ofan það, líkt og tilgreint er í reitnum **Stíll miðsviðs** .|  
-    |**MiðlungsSnið**|Tilgreinir lit vísisins þegar gildi bunka er meira eða jafnt og gildið í reitnum **Þröskuldur 1** en minna en eða jafnt og gildið í reitnum **Þröskuldur 2** .|  
-    |**HárÞröskuldur**|Tilgreinir gildið þar sem vísirinn breytir um lit sé hann fyrir ofan það, líkt og tilgreint er í reitnum **Stíll hás sviðs** .|  
-    |**HáttSnið**|Tilgreinir lit vísisins sem nota á þegar gildi bunka er meira en gildið í reitnum **Þröskuldur 2** .|  
+    |**LágtSnið**|Tilgreinir lit vísisins þegar gildi bunka er minna en gildið í reitnum **Þröskuldur 1**.|  
+    |**LágurÞröskuldur**|Tilgreinir gildið þar sem vísirinn breytir um lit sé hann fyrir ofan það, líkt og tilgreint er í reitnum **Stíll miðsviðs**.|  
+    |**MiðlungsSnið**|Tilgreinir lit vísisins þegar gildi bunka er meira eða jafnt og gildið í reitnum **Þröskuldur 1** en minna en eða jafnt og gildið í reitnum **Þröskuldur 2**.|  
+    |**HárÞröskuldur**|Tilgreinir gildið þar sem vísirinn breytir um lit sé hann fyrir ofan það, líkt og tilgreint er í reitnum **Stíll hás sviðs**.|  
+    |**HáttSnið**|Tilgreinir lit vísisins sem nota á þegar gildi bunka er meira en gildið í reitnum **Þröskuldur 2**.|  
 
-     Eftirfarandi tafla sýnir litin sem samsvara valkostum **LágtSnið** , **MiðlungsSnið** og **HáttSnið** reitanna.  
+     Eftirfarandi tafla sýnir litin sem samsvara valkostum **LágtSnið**, **MiðlungsSnið** og **HáttSnið** reitanna.  
 
     |  Valkostur  |  Litur  |  
     |----------|---------|  

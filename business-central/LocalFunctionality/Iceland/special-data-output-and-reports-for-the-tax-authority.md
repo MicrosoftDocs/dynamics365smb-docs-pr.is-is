@@ -1,8 +1,6 @@
 ---
-title: Sérstök gögn og skýrslur fyrir skattyfirvöld
-description: Þess er krafist í lögum að skattyfirvöldum sé send gagnaskrá á tilteknu sniði.
-services: project-madeira
-documentationcenter: ''
+title: Sérstök gögn og skýrslur fyrir skattyfirvöld á Íslandi
+description: Á Íslandi er lagaleg krafa um að senda gagnaskrá á tilteknu sniði til skattyfirvalda.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf2e360795b8879d8930a18930c3a978776d7b86
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50d61b261ae97aa47fac6716b99aae1da2912f83
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920032"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013575"
 ---
-# <a name="special-data-output-and-reports-for-the-tax-authority"></a>Sérstök gögn og skýrslur fyrir skattyfirvöld
+# <a name="special-data-output-and-reports-for-the-icelandic-tax-authority"></a>Sérstök gögn og skýrslur fyrir íslensk skattyfirvöld
+
 Þess er krafist í lögum að skattyfirvöldum sé send gagnaskrá á tilteknu sniði.  
 
 Til að búa til að gagnaskrá fyrir skattyfirvöld þurfa allir reikningar í bókhaldslyklinum að vera uppsettir með réttu skattanúmeri skattstofu, tilgreint af viðkomandi skattyfirvöldum.  

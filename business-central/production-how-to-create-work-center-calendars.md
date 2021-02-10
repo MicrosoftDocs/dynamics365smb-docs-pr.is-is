@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 343f608e9f8a451b67422a3c198ba4306256c0ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 127ae5af7533c4a6b8b77f2ed88fe90e4453966e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921662"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759318"
 ---
 # <a name="set-up-shop-calendars"></a>Setja upp dagatal verkstæðis
 Dagatal vinnustöðva eða véla tilgreinir vinnudaga og -stundir, vaktir, frídaga og fjarvistir sem hafa áhrif á mögulega heildarafkastagetu, mælda í tíma, með tilliti til tilgreindra gilda skilvirkni og getu.
@@ -26,7 +26,7 @@ Eftirfarandi lýsir því hvernig á að setja upp dagatöl vinnustöðva. Skref
 
 ## <a name="to-create-work-shifts"></a>Vaktir stofnaðar  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vaktir** og veldu síðan tengda tengilinn.  
-2.  Númer er fært inn í reitinn **Kóti** á auðri línu til að auðkenna vaktina t.d. **1** .  
+2.  Númer er fært inn í reitinn **Kóti** á auðri línu til að auðkenna vaktina t.d. **1**.  
 3.  Vaktinni er lýst í reitnum **Lýsing** t.d. **1. vakt**  
 4.  Einnig er hægt að fylla inn í línur fyrir aðra og þriðju vakt.  
 
@@ -35,9 +35,9 @@ Jafnvel þótt vinnustöðvarnar noti ekki vaktaskipulag þarf að færa inn a.m
 ## <a name="to-set-up-a-shop-calendar"></a>Dagatal verkstæðis sett upp  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Dagatal verkstæðis** eða Lánardrottinn og veldu síðan tengda tengilinn.  
 2.  Númer er fært inn í reitinn **Kóti** á auðri línu til að auðkenna dagatal verkstæðis.  
-3.  Dagatali verkstæðisins er lýst í reitnum **Lýsing** .  
-4.  Velja aðgerðina **vinnudagar** .
-5.  Á síðunni **Dagatal verkstæðis vinnudagar** , skal skilgreina heila vinnuviku, með upphafs- og lokatíma fyrir hvern dag.  
+3.  Dagatali verkstæðisins er lýst í reitnum **Lýsing**.  
+4.  Velja aðgerðina **vinnudagar**.
+5.  Á síðunni **Dagatal verkstæðis vinnudagar**, skal skilgreina heila vinnuviku, með upphafs- og lokatíma fyrir hvern dag.  
 
     Í reitnum **Vaktakóti** er hægt að velja einn af vöktunum sem áður voru skilgreind. Bæta við línu fyrir hvern vinnudag og hverja vakt. Dæmi:  
 
@@ -70,18 +70,18 @@ Nú er hægt að úthluta dagatali verkstæðis á vinnustöð til útreiknings 
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnustöðvar** og veldu síðan tengda tengilinn.
 2. Opna vinnustöðina sem á að uppfæra.  
-3. Í reitnum **Dagatalskóti verkstæðis** , er valið hvaða dagatal verkstæði notar sem grunn fyrir dagatal vinnustöðvar.  
-4. Veljið aðgerðina **Dagatal** .  
-5. Á síðunni **Dagatal vinnustöðvar** , skal velja **Sýna fylki** aðgerðina.  
+3. Í reitnum **Dagatalskóti verkstæðis**, er valið hvaða dagatal verkstæði notar sem grunn fyrir dagatal vinnustöðvar.  
+4. Veljið aðgerðina **Dagatal**.  
+5. Á síðunni **Dagatal vinnustöðvar**, skal velja **Sýna fylki** aðgerðina.  
 
     Vinstra megin á fylkjasíðunni má sjá uppsettar vinnustöðvar. Hægra megin er dagatal sem birtir tiltæk getugildi fyrir hvern vinnudag í skilgreindri mælieiningu, til dæmis **480** mínútur. Hver lína táknar dagatal einnar vinnustöðvar.  
 
     > [!NOTE]  
-    >  Einnig er hægt að skoða gildi afkastagetu fyrir hverja viku eða mánuð með því að breyta valinu í reitnum **Skoða eftir** á síðunni **Dagatal vinnustöðvar** .  
+    >  Einnig er hægt að skoða gildi afkastagetu fyrir hverja viku eða mánuð með því að breyta valinu í reitnum **Skoða eftir** á síðunni **Dagatal vinnustöðvar**.  
 
     Til að sýna nýtt dagatal verkstæðis sem línu á valdri vinnustöð verður það fyrst að vera reiknað.  
 
-6.  Velja aðgerðina **Reikna** .  
+6.  Velja aðgerðina **Reikna**.  
 7.  Á flýtiflipanum **Vinnustöð** er hægt að setja afmörkun til að reikna einungis fyrir eina vinnustöð. Ef engar afmarkanir eru settar verða öll stofnuð dagatöl vinnustöðva reiknuð.  
 8.  Skilgreina upphafs- og lokadagsetningar dagatalstímabilsins sem á að reikna, t.d. eitt ár ; frá 01/01/14 til 31/12/14.
 9. Velja hnappinn **Í lagi** til að reikna út afkastaveitu.  
@@ -95,8 +95,8 @@ Dagatalsfærslur eru nú búnar til (eða þær uppfærðar) og sýna þær mög
 Reiknað dagatal vinnustöðvar skilgreinir nú hvenær og hversu mikil afkastageta er til staðar í þessari vinnustöð. Þetta stýrir ítarlegri röðun aðgerða sem framkvæmdar eru í vinnustöðinni.  
 
 ## <a name="to-record-work-center-absence"></a>Fjarvistir í vinnustöð skráðar  
-1.  Á síðunni **Dagatal vinnustöðvar** , skal velja **Sýna fylki** aðgerðina.
-2. Á síðunni **Dagatal vinnustöðvar fylki** er valin vinnustöð sem og sá dagur dagatalsins sem skrá á fjarvistina á og svo er smellt á aðgerðina **Fjarvist** .  
+1.  Á síðunni **Dagatal vinnustöðvar**, skal velja **Sýna fylki** aðgerðina.
+2. Á síðunni **Dagatal vinnustöðvar fylki** er valin vinnustöð sem og sá dagur dagatalsins sem skrá á fjarvistina á og svo er smellt á aðgerðina **Fjarvist**.  
 3.  Á síðunni **Fjarvist** er tilgreindur upphafs- og lokatími fjarvistar þessa dags sem og lýsing á henni. Dæmi:  
 
     25/01/01 08:00 10:00 viðhald  
@@ -110,4 +110,4 @@ Afkastageta þessa dags hefur nú minnkað í samræmi við skráðan fjarvistar
 [Setja upp vinnu- og vélastöðvar](production-how-to-set-up-work-and-machine-centers.md)  
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Framleiðsla](production-manage-manufacturing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a230560b897f92cb871e72edb3ccfa2f74884bd3
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910706"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817282"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Setja upp vinnu- og vélastöðvar
 
@@ -34,14 +34,14 @@ Hægt er að úthluta ýmsum vélastöðvum á hverja vinnustöð. Aðeins ein v
 
 ## <a name="to-set-up-a-work-center"></a>Vinnustöð sett upp
 
-Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skrefin í uppsetningu dagatals vélastöðva eru svipuð, fyrir utan flýtiflipann **Uppsetning leiða** .  
+Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skrefin í uppsetningu dagatals vélastöðva eru svipuð, fyrir utan flýtiflipann **Uppsetning leiða**.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnustöðvar** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Í reitnum **Vinnustöðvarhópur** skal velja efra-stigs forðaflokkun sem vinnustöðin er flokkuð undir, ef það á við. Valið er **Nýtt** aðgerðin í felllilistanum.  
 5. Veljið reitinn **Lokaður** til að koma í veg fyrir að vinnustöðin verði notuð í vinnslu. Þetta þýðir að frálag er ekki hægt að bóka fyrir vörur sem er framleidd í vinnustöðinni. Frekari upplýsingar eru í [Bóka framleiðslufrálag](production-how-to-post-output-quantity.md).
-6. Í reitinn **Innk.verð** er færður inn kostnaður við að framleiða eina mælieiningu í þessari vinnustöð, án annarra kostnaðarliða. Þessi kostnaður er oft kallaður *beinn vinnutaxti* .  
+6. Í reitinn **Innk.verð** er færður inn kostnaður við að framleiða eina mælieiningu í þessari vinnustöð, án annarra kostnaðarliða. Þessi kostnaður er oft kallaður *beinn vinnutaxti*.  
 7. Í reitinn **Óbein kostnaðar %** er færður inn almennur aðgerðakostnaður við notkun vinnustöðvarinnar sem hlutfall af Innkaupsverði. Þessari hlutfallslegu upphæð er bætt við beinan kostnað í útreikningum á kostnaðarverði.  
 8. Í reitinn **Hlutf. sameiginl. kostn.** er færður inn kostnaður vegna vinnustöðvar sem ekki kemur aðgerðum beint við, s.s. viðhaldskostnað, sem algilda tölu.  
 
@@ -49,7 +49,7 @@ Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skref
 
     Kostnaðarverð = Innkaupsverð + (Innkaupsverð x Óbein kostnaðar %) + Hlutfall sameiginlegs kostnaðar.  
 
-9. Í reitnum **Útreikningur kostn.verðs** er tilgreint hvort útreikningurinn hér að ofan sé byggður á tímafjölda:  **Tími** ; eða fjölda framleiddra eininga:  **Einingar** .  
+9. Í reitnum **Útreikningur kostn.verðs** er tilgreint hvort útreikningurinn hér að ofan sé byggður á tímafjölda:  **Tími**; eða fjölda framleiddra eininga:  **Einingar**.  
 10. Veljið reitinn **Tiltekinn einingarkostnaður** ef á að skilgreina einingarkostnað vinnustöðvar í leiðarlínunni þar sem hann er notaður. Slíkt kann að eiga við aðgerðir með verulegan mismun í kostnaði afkastagetu miðað við það sem er venjulega unnið í vinnustöðinni.  
 11. Í reitnum **Birgðaskráningaraðferð** er valið hvort reikna á og bóka frálagsbókun á þessari vinnustöð handvirkt eða sjálfvirkt með annarri hvorri eftirfarandi aðferð.
 
@@ -68,11 +68,14 @@ Eftirfarandi lýsir fyrst og fremst því hvernig vinnustöð er sett upp. Skref
     > [!NOTE]  
     > Ef valið er að nota Dagar Skal hafa það í huga að 1 dagur = 24 klukkustundir - en ekki 8 (vinnustundir).
 
-13. Í reitnum **Geta** er tilgreint hvort vinnustöð er með fleiri en einn einstakling við vinnu og eina vél í vinnslu á sama tíma. Ef uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur ekki Vélastöðvaraðgerð verður gildið í þessum reit að vera **1** .  
+13. Í reitnum **Geta** er tilgreint hvort vinnustöð er með fleiri en einn einstakling við vinnu og eina vél í vinnslu á sama tíma. Ef uppsetning [!INCLUDE[prod_short](includes/prod_short.md)] inniheldur ekki Vélastöðvaraðgerð verður gildið í þessum reit að vera **1**.  
 14. Í reitinn **Skilvirkni** er fært inn hlutfall áætlaðra staðlaðra afkasta sem þessi vinnustöð afkastar í raun. Ef fært er inn **100** þýðir það að raunveruleg afköst vinnustöðvarinnar eru þau sömu og staðlaða afkastagetan.  
 15. Velja skal **Sameinað dagatal** gátreitinn ef þú ert líka að nota vélstöðvar. Þetta tryggir að dagatalsfærslur verði settar saman frá vélastöðva dagatölum.  
 16. Í reitnum **Dagatalskóti verkstæðis** veljið dagatal verkstæðis. Nánari upplýsingar eru í [Búa til dagatal verkstæðis](production-how-to-create-work-center-calendars.md).  
-17. Í reitnum **Biðraðartími** er tilgreindur fastur tími sem þarf að líða áður en úthlutað verk er hafið á þessari vinnustöð. Hafa ber í huga að Biðraðartíma er bætt við önnur framleiðnilaus tímabil s.s. Biðtíma og Flutningstíma sem kunna að vera skilgreind á leiðarlínum sem nota þessa vinnustöð.  
+17. Í reitnum **Biðraðartími** er tilgreindur fastur tími sem þarf að líða áður en úthlutað verk er hafið á þessari vinnustöð. 
+
+> [!NOTE]
+> Nota skal biðtíma til að veita smá tíma á milli þess þegar íhluturinn kemur á vél eða vinnustöð og þegar aðgerðin hefst í raun. Ef til dæmis hlutur er afhentur vélastöð klukkan 10:00 en það tekur klukkustund að festa hann við vél hefst aðgerðin ekki fyrr en 11:00. Biðtíminn yrði þá ein klukkustund. Gildið úr reitnum **Biðraðartími** á véla- eða Vinnustöðvarspjaldi plús samtala gildanna í reitunum **Uppsetningartími**, **Keyrslutími**, **Biðtími** og **Flutningstími** í vöruleiðarlínunni gefa afgreiðslutímann í framleiðslu vörunnar. Þetta hjálpar til við að gefa upp nákvæman framleiðslutíma alls.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Dæmi - Mismunandi vélastöðvum úthlutað á vinnustöð
 
@@ -88,14 +91,14 @@ Ef ekki á að taka með afkastagetu vinnustöðva í heildarafkastagetunni má 
 
 Setja þarf upp framleiðsluforða sem talinn er mikilvægur og merkja hann þannig að hann samþykki takmarkað álag í staðinn fyrir sjálfgefið, ótakmarkað álag sem annar framleiðsluforði samþykkir. Tilfang með takmarkaða afkastagetu getur verið vinnu- eða vélastöð sem þú hefur greint sem flöskuháls og vilt setja takmarkað álag á.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] styður ekki sundurliðaða vinnusalsstýringu. Hún áætlar gerlega nýtingu tilfanga með því að leggja fram grófa áætlun en stofnar ekki og viðheldur sjálfkrafa ítarlegum áætlunum, byggðum á reglum um forgangsröðun eða bestun.
+[!INCLUDE[prod_short](includes/prod_short.md)] styður ekki sundurliðaða vinnusalsstýringu. Hún áætlar gerlega nýtingu tilfanga með því að leggja fram grófa áætlun en stofnar ekki og viðheldur sjálfkrafa ítarlegum áætlunum, byggðum á reglum um forgangsröðun eða bestun.
 
-Á síðunni **Tilföng með takmarkaða afkastagetu** , geturðu búið til uppsetning sem forðast yfirálag á tilgreind tilföng og tryggir að engin afkastageta sé án úthlutunar ef úthlutun á henni gæti aukið viðdvalartíma framleiðslupöntunar. Í reitnum **Hömlur (% af heildar afkastagetu)** má bæta við hömlutíma á tilföng til að draga úr skiptingu aðgerðar. Þetta gerir kerfinu kleift að áætla hleðslu á síðasta mögulega dag með því auka álagsprósentuna lítillega ef það er hægt að minnka fjölda virkni sem er skipt.
+Á síðunni **Tilföng með takmarkaða afkastagetu**, geturðu búið til uppsetning sem forðast yfirálag á tilgreind tilföng og tryggir að engin afkastageta sé án úthlutunar ef úthlutun á henni gæti aukið viðdvalartíma framleiðslupöntunar. Í reitnum **Hömlur (% af heildar afkastagetu)** má bæta við hömlutíma á tilföng til að draga úr skiptingu aðgerðar. Þetta gerir kerfinu kleift að áætla hleðslu á síðasta mögulega dag með því auka álagsprósentuna lítillega ef það er hægt að minnka fjölda virkni sem er skipt.
 
 Við áætlum á tilföngum með takmarkaða getu tryggir kerfið að engin tilföng séu hlaðin yfir skilgreina getu (hættumörk) Þetta er gert með því að úthluta hverri virkni á næsta tiltekna tímabil. Ef tímabilið er ekki nógu langt til að hægt sé að ljúka allri aðgerðinni verður aðgerðinni skipt í tvo eða fleiri hluta á næstu tiltæku tímabilum.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tilföng með takmarkaða afkastagetu** og veldu síðan tengda tengilinn.
-2. Valið er aðgerðin **Nýtt** .
+2. Valið er aðgerðin **Nýtt**.
 3. Fyllið inn í reitina eftir þörfum.
 
 > [!NOTE]
@@ -111,4 +114,4 @@ Við áætlum á tilföngum með takmarkaða getu tryggir kerfið að engin tilf
 [Áætlun](production-planning.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

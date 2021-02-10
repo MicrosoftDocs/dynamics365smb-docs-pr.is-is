@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 447012a66e75e1acf03f2aff1ba6b6922164312f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0d13ffa03e4a123158e2f350ff9eab5e274741b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918564"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760568"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Stjórna viðhengjum, tenglum og athugasemdum á spjöldum og fylgiskjölum
 
@@ -29,26 +29,26 @@ Viðhengi, tenglar og athugasemdirnar eru hengd við sem spjaldið eða skjalið
 > Þegar verið er að senda og reikningsfæra sölupöntun eða innkaupapöntun verður viðhengið aðeins hengt við endanlegan reikning þeirrar pöntunar. Sömuleiðis, þegar verið er að reikningsfæra með frestunaraðgerðinni, tengist viðhengið aðeins fjárhagsfærslum skjalsins en ekki fyrir frestunarfærslur.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Til að hengja skrá við innkaupareikning
-Hægt er að tengja allar gerðir skráa, sem innihalda texta, mynd eða myndskeið við spjald eða skjal. Þetta er til dæmis gagnlegt þegar óskað er eftir að vista reikning lánardrottins sem PDF-skrá á tengdum innkaupareikningi í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Hægt er að tengja allar gerðir skráa, sem innihalda texta, mynd eða myndskeið við spjald eða skjal. Þetta er til dæmis gagnlegt þegar óskað er eftir að vista reikning lánardrottins sem PDF-skrá á tengdum innkaupareikningi í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
-> Skrár sem eru hengdar við eiginleikann skjöl á innleið eru ekki teknar með á flipanum **Viðhengi** . Frekari upplýsingar er að finna í [Skjöl á innleið](across-income-documents.md).
+> Skrár sem eru hengdar við eiginleikann skjöl á innleið eru ekki teknar með á flipanum **Viðhengi**. Frekari upplýsingar er að finna í [Skjöl á innleið](across-income-documents.md).
 
 Eftirfarandi ferli byggist á innkaupareikningur. Skrefin eru svipuð fyrir öll önnur studd skjöl og kort.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.
 2. Opnaðu sölupöntunina sem á að hengja skrá við.
-3. Í upplýsingareitnum skal opna flipann **Viðhengi** .
-4. Veljið gildið fyrir aftan reitinn **Skjöl** , eins og „0“.
-5. Á síðunni **Skjöl í viðhengi** í reitnum **Viðhengi** skal velja hnappinn **Velja skrá** .
-5. Veldu skrá frá hvaða staðsetningu sem er og veldu svo hnappinn **Opna** .
+3. Í upplýsingareitnum skal opna flipann **Viðhengi**.
+4. Veljið gildið fyrir aftan reitinn **Skjöl**, eins og „0“.
+5. Á síðunni **Skjöl í viðhengi** í reitnum **Viðhengi** skal velja hnappinn **Velja skrá**.
+5. Veldu skrá frá hvaða staðsetningu sem er og veldu svo hnappinn **Opna**.
 
 Skráin er nú hengd við innkaupareikninginn.
 
 ## <a name="to-view-an-attached-file"></a>Til að skoða viðhengda skrá
-1. Í upplýsingareitnum skal opna flipann **Viðhengi** .
-2. Veljið gildið fyrir aftan reitinn **Skjöl** , eins og „1“.
-3. Á síðunni **Viðhengd fylgiskjöl** skaltu velja aðgerðina **Forskoðun** .
+1. Í upplýsingareitnum skal opna flipann **Viðhengi**.
+2. Veljið gildið fyrir aftan reitinn **Skjöl**, eins og „1“.
+3. Á síðunni **Viðhengd fylgiskjöl** skaltu velja aðgerðina **Forskoðun**.
 4. Opnaðu skrána sem var hlaðið niður.
 
 ## <a name="to-save-a-document-as-a-pdf-attachment"></a>Vista skjal sem PDF-viðhengi
@@ -57,7 +57,7 @@ Skráin er nú hengd við innkaupareikninginn.
 Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll studd skjöl.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.
-2. Veldu sölupöntun og veldu síðan aðgerðina **Hengja við sem PDF** .
+2. Veldu sölupöntun og veldu síðan aðgerðina **Hengja við sem PDF**.
 
 PDF-skrá með núverandi innihaldi sölupöntunarinnar er bætt við flipann **Viðhengi** í FactBox.
 
@@ -74,7 +74,7 @@ Eftirfarandi aðferð er byggð á birgðaspjaldi. Skrefin eru svipuð fyrir öl
     Tengillinn verður að vera gild vefslóð eða slóð innra nets.
 
 5. Í reitinn **Lýsing** skal færa inn upplýsingar um tengilinn.  
-6. Velja hnappinn **Í lagi** .
+6. Velja hnappinn **Í lagi**.
 
 Tengillinn er nú tengdur við birgðaspjaldið.  
 
@@ -90,11 +90,11 @@ Eftirfarandi ferli byggist á sölupöntun. Skrefin eru svipuð fyrir öll önnu
 2. Veljið sölupöntunina sem á að afskrifa athugasemd við og veljið svo flipann **Viðhengi** í upplýsingareitnum.
 3. Í hlutanum **Athugasemdir** skal velja **+** táknið.
 4. Í reitinn **Athugasemd** skal færa inn hvaða texta sem er, t.d. „Þetta er áríðandi pöntun“.
-5. Velja hnappinn **Í lagi** .
+5. Velja hnappinn **Í lagi**.
 
 Athugasemdin er nú hengd við sölupöntunina.
 
 ## <a name="see-also"></a>Sjá einnig  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)  

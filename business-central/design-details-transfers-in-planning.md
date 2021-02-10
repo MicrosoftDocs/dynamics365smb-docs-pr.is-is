@@ -10,17 +10,20 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43237bcec983870cb7a9655126b5c912e0286657
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 829594fa196758502c67f52c4a7277d3b63aa41f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920898"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035582"
 ---
 # <a name="design-details-transfers-in-planning"></a>Hönnunarupplýsingar: Flutningur í áætlun
 Millifærslupantanir eru einnig uppspretta framboðs þegar unnið er á birgðahaldseiningarstigi. Þegar margar staðsetningar (vöruhús) eru notaðar er hægt að stilla áfyllingarkerfi birgðahaldseininga á Flutning og gefa þannig í skyn að staðsetningin verði áfyllt með því að flytja þangað varning af annarri staðsetningu. Í aðstæðum með fleiri vöruhús, fyrirtæki gætu haft keðju flutnings þar sem framboð til grænar staðsetningar er flutt frá gulum og framboð til gulra er flutt úr rauðum og svo framvegis. Í upphafi af keðjunni er áfyllingarkerfi Framl.pöntun eða innkaup.  
 
 ![Dæmi um flutningsflæði](media/nav_app_supply_planning_7_transfers1.png "Dæmi um flutningsflæði")  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Við samanburð á ástandinu þar sem birgðapöntun er beint á móti eftirspurnarpöntun við aðstæður þar sem sölupöntun er veitt í gegnum keðju af birgðahaldseiningum, er augljóst að áætlanagerð getur verið mjög flókin í sennna tilvikinu. Ef eftirspurn breytist gæti það valdið keðjuverkun gegnum keðjuna, vegna þess að vinna verður með allar millifærslupantanir auk innkaupa-/framleiðslupöntunarinnar á hinum enda keðjunnar til að koma aftur á jafnvægi milli eftirspurnar og framboðs.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: faad42bcd32080d43495020105bc8654af3f95bc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9d74bdc6d2c712742374993141cdd4d557caf80d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918339"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759663"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Setja upp einfaldar vöruhúsaaðgerðir með aðgerðasvæði
 Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslur nota uppsetningarreitinn **Hólf áskilið** og mögulega uppsetningarreitina **Krefjast tínslu** og **Þarf að ganga frá** er hægt að nota eftirfarandi vöruhúsaskjöl til að skrá vöruhúsaaðgerðir fyrir innri starfsemi:  
@@ -25,7 +25,7 @@ Ef innri starfsemi, svo sem framleiðsla eða samsetning, er notuð í einfaldri
 - **Birgðafrágangur** síðan.
 
 > [!NOTE]
-> Jafnvel þótt stillingarnar séu kallaðar **Krefjast tínslu** og **Krefjast frágangs** , geturðu samt sem áður bókað móttöku og afhendingu beint frá uppruna viðskiptaskjala í birgðageymslum þar sem þú velur þessa gátreiti.  
+> Jafnvel þótt stillingarnar séu kallaðar **Krefjast tínslu** og **Krefjast frágangs**, geturðu samt sem áður bókað móttöku og afhendingu beint frá uppruna viðskiptaskjala í birgðageymslum þar sem þú velur þessa gátreiti.  
 
 Til að nota þessar síður með innri aðgerðum, til dæmis til að tína og færa íhluti í framleiðslu, þarf að framkvæma sum eða öll af eftirfarandi uppsetningarþrepum eftir því hversu mikla stjórn þarf að hafa:  
 
@@ -49,7 +49,7 @@ Eftirfarandi ferli eru byggð á uppsetningu einfaldra vöruhúsaðgerða í kri
 ## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Til að skilgreina sjálfgefna hólfaskipan í framleiðslusvæðinu  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.
 2. Opna birgðageymsluna sem setja á upp.  
-3.  Á flýtiflipanum **Hólf** í reitnum **Hólfkóti opins vinnslusalar** er færður inn kóti hólfsins á framleiðslusvæðinu með fjölda íhluta sem starfsmaður á vél getur notað án þess að biðja þurfi um vöruhúsaaðgerð til að færa þá í hólfið. Vörur sem eru settar í þetta hólf eru venjulega settar upp fyrir sjálfvirka bókun eða söfnun. Þetta þýðir að reiturinn **Birgðaskráningaraðferð** inniheldir **Áfram** eða **Afturábak** .  
+3.  Á flýtiflipanum **Hólf** í reitnum **Hólfkóti opins vinnslusalar** er færður inn kóti hólfsins á framleiðslusvæðinu með fjölda íhluta sem starfsmaður á vél getur notað án þess að biðja þurfi um vöruhúsaaðgerð til að færa þá í hólfið. Vörur sem eru settar í þetta hólf eru venjulega settar upp fyrir sjálfvirka bókun eða söfnun. Þetta þýðir að reiturinn **Birgðaskráningaraðferð** inniheldir **Áfram** eða **Afturábak**.  
 4. Í **Hólfkóti framleiðslu á innleið** færið inn kóta hólfsins á framleiðslusvæðinu sem íhlutir sem tíndir eru fyrir framleiðslu í þessari birgðageymslu eru sjálfgefið settir á áður en þeir eru notaðir. Vörur sem eru settar í þetta hólf eru venjulega settar upp fyrir handvirka notkunarbókun. Þetta þýðir að reiturinn **Birgðaskráningaraðferð** inniheldur **Handvirkt** eða **Tína + Áfram** eða **Tína + afturábak** fyrir vöruhúsatínslur og birgðahreyfingar.  
 
     > [!NOTE]  
@@ -72,7 +72,7 @@ Nánari upplýsingar, sjá [Samsetningarstjórnun](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Til að setja það upp að birgðahreyfing sé sjálfkrafa búin til þegar birgðatínsla fyrir samsetningarvöru er stofnuð.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning samsetningar** og veldu síðan tengda tengilinn.
-2. Veljið gátreitinn **Stofna hreyfingar sjálfkrafa** .
+2. Veljið gátreitinn **Stofna hreyfingar sjálfkrafa**.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Til að setja upp hólfið á samsetningarsvæðinu sem íhlutir eru sjálfgefið settir á áður en nota má þá við samsetningu.
 Gildið í þessum reit er sjálfkrafa sett inn í reitinn **Hólfkóði** á samsetningarpantanalínum þegar þessi staðsetning er sett í **Staðsetningarkóði** reitinn á samsetningarpöntunarlínunni.
@@ -104,7 +104,7 @@ Hólfakótinn er afritaður úr sölupöntunarlínu í haus samsetningarpöntuna
 > [!NOTE]
 > Afhendingarhólf fyrir Setja-saman-í-pöntun er alltaf tómt. Þegar sölulína samsetningar í pöntun er bókuð er innihald hólfsins fyrst leiðrétt jákvætt með samsetningarfrálaginu. Það er lækkað strax á eftir í samræmi við afhent magn.
 
-Gildið í þessum reit er sjálfkrafa sett inn í reitinn  í sölupantanalínum sem innihalda magn í reitnum **Magn til samsetningar til pöntunar** reitinn eða ef varan er seld sem **Sameina í pöntun** í reitnum **Áfyllingarkerfi** .
+Gildið í þessum reit er sjálfkrafa sett inn í reitinn  í sölupantanalínum sem innihalda magn í reitnum **Magn til samsetningar til pöntunar** reitinn eða ef varan er seld sem **Sameina í pöntun** í reitnum **Áfyllingarkerfi**.
 
 Ef **Setja saman í pöntun hólfakóði** er auður þá er **Frá-samsetning hólfkóða** reiturinn notaður. Ef báðir uppsetningarreitirnir eru auðir verður síðasta notaða hólfið sem hefur innihald notað í reitnum **Hólfkóði** í sölupöntunarlínum.
 
@@ -117,9 +117,9 @@ Sami hólfakóði er svo afritaður í reitinn **Hólfkóði** í birgðatínslu
 ## <a name="to-create-dedicated-component-bins"></a>Til að stofna sérnýtt íhlutahólf
 Hægt er að tilgreina að magn í hólfi sé varið fyrir tínslu fyrir aðra eftirspurn vegna núverandi tilgangs.
 
-Enn er hægt að taka frá magn í sérstökum hólfum. Í samræmi við það er magnið í sérnýttum hólfum tekið með í reitnum **Heildarmagn tiltækt** á síðunni **Frátekning** .
+Enn er hægt að taka frá magn í sérstökum hólfum. Í samræmi við það er magnið í sérnýttum hólfum tekið með í reitnum **Heildarmagn tiltækt** á síðunni **Frátekning**.
 
-Sem dæmi er vinnustöð sett upp með hólfakóðanum í reitnum **Hólfakóði framleiðslu á innleið** . Íhlutalínur framleiðslupöntunar með þann hólfakóta krefjast þess að framvirkir íhlutir séu settir þar. Þar til íhlutir úr því hólfi hafa verið notaðir getur önnur íhlutaeftirspurn ollið tínslu eða notkun úr hólfinu vegna þess að íhlutirnir teljast enn vera tiltækt innihald hólfsins. Til að tryggja að hólfainnihald sé aðeins tiltækt fyrir íhlutseftirspurnina sem notar þann hólfkóða framleiðslu á innleið, þarf að velja reitinn **Sérstakt** í línunni fyrir þann hólfakóða á síðunni **Hólf** sem opnaður er í birgðageymsluspjaldinu.
+Sem dæmi er vinnustöð sett upp með hólfakóðanum í reitnum **Hólfakóði framleiðslu á innleið**. Íhlutalínur framleiðslupöntunar með þann hólfakóta krefjast þess að framvirkir íhlutir séu settir þar. Þar til íhlutir úr því hólfi hafa verið notaðir getur önnur íhlutaeftirspurn ollið tínslu eða notkun úr hólfinu vegna þess að íhlutirnir teljast enn vera tiltækt innihald hólfsins. Til að tryggja að hólfainnihald sé aðeins tiltækt fyrir íhlutseftirspurnina sem notar þann hólfkóða framleiðslu á innleið, þarf að velja reitinn **Sérstakt** í línunni fyrir þann hólfakóða á síðunni **Hólf** sem opnaður er í birgðageymsluspjaldinu.
 
 Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir, sem er eingöngu hægt í ítarlegum vöruhúsaaðgerðum. Frekari upplýsingar eru í [Setja upp hólfategundir](warehouse-how-to-set-up-bin-types.md).
 
@@ -127,11 +127,11 @@ Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir
 > Vörur í sérstökum hólfum eru ekki varðar þegar þær eru tíndar eða notaðar sem framleiðsluíhlutir með síðunni Birgðatínsla.
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn. Velja birgðageymsluna sem á að uppfæra.  
-2.  Veldu aðgerðina **Hólf** .  
+2.  Veldu aðgerðina **Hólf**.  
 3.  Veljið reitinn **Sérstakt** fyrir hvert hólf sem á aðeins að nota fyrir tiltekna innri starfsemi og þegar taka á magn frá fyrir þá starfsemi eftir að það hefur verið sett þangað.  
 
 > [!NOTE]  
->  Hólfið verður að vera tómt áður en hægt er að velja eða hreinsa svæðið **Sérnýtt** .
+>  Hólfið verður að vera tómt áður en hægt er að velja eða hreinsa svæðið **Sérnýtt**.
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
@@ -139,4 +139,4 @@ Að hólf sé gert sérstakt veitir svipaða aðgerð og að nota hólfategundir
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

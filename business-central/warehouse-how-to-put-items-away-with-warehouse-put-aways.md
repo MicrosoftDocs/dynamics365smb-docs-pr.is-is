@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f158499f0c93e1a991b1f092676f653cf067a46e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a8233ec0ce59e5ce784a00f983b0666b9989255
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910031"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759643"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Ganga frá vörum með vöruhúsafrágangi
 Þegar birgðageymslan er sett þannig upp að hún krefst vöruhúsafrágangs- og vöruhúsamóttökuvinnslu eru vöruhúsafrágangsskjöl aðgerðin notuð til að stjórna frágangi á vörum.  
@@ -46,11 +46,11 @@ Auk staðlaðra aðferða til að stofna vöruhúsafrágang eins og lýst er í 
     -   Fyrsta línan sem hefur **Taka** í reitnum **Aðgerð** sýnir hvar vörurnar eru staðsettar á móttökusvæðinu. Ekki er hægt að breyta reitunum svæði og hólf á þessari línu.  
     -   Næstu línur þar sem **Setja** er í reitnum **Aðgerð** sýna hvar setja skal vörurnar í geymslu vöruhússins. Ef mikið af vörum hefur borist vöruhúsinu í einni móttökulínu gæti þurft að ganga frá þeim í mörg hólf og þá er ein Setja lína fyrir hvert hólf.  
 
-        Ef Taka- og Setja-línurnar fyrir hverja móttöku koma ekki hver á eftir annarri eins og óskað er eftir er hægt að raða línunum með því að velja **Vara** í reitnum **Röðunaraðferð** á flýtiflipanum **Almennt** .  
+        Ef Taka- og Setja-línurnar fyrir hverja móttöku koma ekki hver á eftir annarri eins og óskað er eftir er hægt að raða línunum með því að velja **Vara** í reitnum **Röðunaraðferð** á flýtiflipanum **Almennt**.  
 
         Ef skipulag sjálfs vöruhússins endurspeglar hólfaflokkunina er hægt að nota röðunaraðferðina **Hólfaflokkun** til að útbúa frágangsleið sem dregur úr snúningum í vöruhúsinu.  
 
-5.  Þegar allar vörurnar hafa verið settar í hólf samkvæmt skal velja aðgerðina **Skrá frágang** .  
+5.  Þegar allar vörurnar hafa verið settar í hólf samkvæmt skal velja aðgerðina **Skrá frágang**.  
 
 Í birgðageymslum sem eru settar upp þannig að þær noti beinan frágang og tínslu, eru eftirfarandi stillingar forkröfur fyrir ferlinu hér að framan:  
 
@@ -65,11 +65,11 @@ Tekið er mið af hólfaflokkuninni þegar fleiri en eitt hólf uppfylla skilyr�
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar vöruhúsamótt.** og veldu síðan tengda tengilinn.  
 2.  Velja skal bókaða móttöku sem hugsanlega þarf að ganga frá.  
-3.  Velja aðgerðina **Spjald** .  
+3.  Velja aðgerðina **Spjald**.  
 
     Ef reiturinn **Staða fylgiskjals** er auður hefur alls ekki verið gengið frá móttökunni. Annars sýnir reiturinn að móttaka hafi verið frágengin að hluta eða öllu leyti.  
 
-4.  Ef gengið hefur verið frá móttökunni að hluta eða alls ekki er smellt á aðgerðina **stofna frágang** .  
+4.  Ef gengið hefur verið frá móttökunni að hluta eða alls ekki er smellt á aðgerðina **stofna frágang**.  
 5.  Beiðnisíða keyrslunnar er fyllt út til að stofna fráganginn eins og best þykir og síðan er **Í lagi** hnappurinn valinn.   
 
 ## <a name="see-also"></a>Sjá einnig  
@@ -78,4 +78,4 @@ Tekið er mið af hólfaflokkuninni þegar fleiri en eitt hólf uppfylla skilyr�
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

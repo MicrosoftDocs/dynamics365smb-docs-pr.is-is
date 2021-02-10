@@ -9,17 +9,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8e1c3c1eeb90f57aeed70a142f3429c593a0c1a2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e2cb1569fb375566b323958437a710264de20538
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910106"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760443"
 ---
-# <a name="letting-d365fin-suggest-values"></a>Að láta [!INCLUDE[d365fin](includes/d365fin_md.md)] leggja til gildi
-[!INCLUDE[d365fin](includes/d365fin_md.md)] getur hjálpað við að ljúka verkefni hraðar og réttara með því að forfylla í reiti eða klára línur með gögnum sem þú myndir annars þurfa að reikna og færa inn sjálfur. Þótt slíka sjálfvirka færslan er ekki alltaf rétt má breyta eftirá.
+# <a name="letting-prod_short-suggest-values"></a>Að láta [!INCLUDE[prod_short](includes/prod_short.md)] leggja til gildi
+[!INCLUDE[prod_short](includes/prod_short.md)] getur hjálpað við að ljúka verkefni hraðar og réttara með því að forfylla í reiti eða klára línur með gögnum sem þú myndir annars þurfa að reikna og færa inn sjálfur. Þótt slíka sjálfvirka færslan er ekki alltaf rétt má breyta eftirá.
 
-Virkni sem færir reitiargildi fyrir þig eru yfirleitt boðnir fyrir verk þar sem þú færir inn mikið magn af færslugögnum og vilt komast hjá villum og spara tíma. Í þessu efnisatriði er hluti af slíkri virkni. Fleiri hlutar bætist við í framtíðinni fyrir uppfært [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Virkni sem færir reitiargildi fyrir þig eru yfirleitt boðnir fyrir verk þar sem þú færir inn mikið magn af færslugögnum og vilt komast hjá villum og spara tíma. Í þessu efnisatriði er hluti af slíkri virkni. Fleiri hlutar bætist við í framtíðinni fyrir uppfært [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="the-suggest-balancing-amount-check-box-on-the-general-journal-batches-page"></a>Gátreiturinn **Leggja til Upphæð Mótreiknings** á síðunni **færslubókarkeyrsla**
 Þegar til dæmis þu ert að færa inn færslubókarlína fyrir margir útgjöld sem þurfa allir að vera bókaðir á sama bankareikninginn, þá hvert skipti sem þú færir inn nýja færslubókarlínu fyrir útgjöld, geturðu haft **upphæðar** reitinn á bankareikningslínunni sjálfkrafa uppfærða í þá upphæð sem kemur jafnvægi á útgjöld. Nánari upplýsingar um að vinna með færslubækur sjá [Vinna með færslubækur](ui-work-general-journals.md).
@@ -34,7 +34,7 @@ Fyrir upplýsingar um hvernig skuli setja upp persónulega færslubókarkeyrslu,
 ## <a name="the-automatically-fill-date-received-field-on-the-payment-registration-page"></a>Reiturinn **Dagsetning móttöku fyllt út sjálfkrafa** á síðunni **Skráning greiðslna** glugga
 Síðan **skráning greiðslna** Sýnir útistandandi væntanlega innkomu á línum sem tákna söluskjöl þar sem upphæð er fallinn á gjalddaga. Fyrir frekari upplýsingar um jöfnun greiðsla viðskiptavinar skal sjá [Stemma af greiðslur viðskiptamanns úr lista yfir ógreidd söluskjöl](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
-Aðal aðgerðir þínar á síðunni eru að fylla í gátreitinn **greiðslur framkvæmdar** og reitinn **Dagsetning Móttöku** . Verkefni er hægt að setja [!INCLUDE[d365fin](includes/d365fin_md.md)] upp til að sjálfvirkt færa inn vinnudagsetninguna í á **Dagsetning Móttöku** reit þegar valið er **greiðsla framkvæmd** gátreitinn.
+Aðal aðgerðir þínar á síðunni eru að fylla í gátreitinn **greiðslur framkvæmdar** og reitinn **Dagsetning Móttöku**. Verkefni er hægt að setja [!INCLUDE[prod_short](includes/prod_short.md)] upp til að sjálfvirkt færa inn vinnudagsetninguna í á **Dagsetning Móttöku** reit þegar valið er **greiðsla framkvæmd** gátreitinn.
 
 ### <a name="to-have-the-date-received-field-on-the-payment-registration-page-filled-automatically"></a>Til að láta fylla sjálfkrafa inn í reitinn **Gögn móttekin** á síðunni **Skráning greiðslu**
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning skráningar greiðslna** og veldu síðan tengda tengilinn.
@@ -42,5 +42,5 @@ Aðal aðgerðir þínar á síðunni eru að fylla í gátreitinn **greiðslur 
 3. Opnaðu síðuna **Greiðslu Skráning** og byrja að vinna innsend greiðslur viðskiptamanns með þeim aðgerðum sem var lýst fyrir sjálfvirka innfærslu fyrir reitargildi.
 
 ## <a name="see-also"></a>Sjá einnig
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Fjármál](finance.md)

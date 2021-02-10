@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b6999be84e2fdaca2eefef41c339c366c330a3dc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 12ab5bbc374e40d029acaec27c7eb3596fe19d1a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925031"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759468"
 ---
 # <a name="about-planning-functionality"></a>Um áætlunaraðgerðir
 
@@ -148,7 +148,7 @@ Síðan **Innkaupatillögublað** sýnir vörur sem þú vilt panta. Hægt er a�
 
 - Færa vörurnar handvirkt inn í vinnublaðið og fylla út viðkomandi reiti.
 
-- Nota runuvinnsluna **Reikna áætlun** . Þá er reiknuð áfyllingaráætlun fyrir vörur og birgðahaldseiningar sem hafa verið settar upp með innkaupatillögukerfi fyrir **innkaup** eða **millifærslu** . Þegar keyrslan er keyrð færir forritið sjálfkrafa í reitinn **Aðgerðaboð** tillögu um aðgerð sem nota má til að fylla á birgðirnar. Þetta gæti verið að auka magn vörunnar í fyrirliggjandi pöntun eða að stofna nýja pöntun, t.d.
+- Nota runuvinnsluna **Reikna áætlun**. Þá er reiknuð áfyllingaráætlun fyrir vörur og birgðahaldseiningar sem hafa verið settar upp með innkaupatillögukerfi fyrir **innkaup** eða **millifærslu**. Þegar keyrslan er keyrð færir forritið sjálfkrafa í reitinn **Aðgerðaboð** tillögu um aðgerð sem nota má til að fylla á birgðirnar. Þetta gæti verið að auka magn vörunnar í fyrirliggjandi pöntun eða að stofna nýja pöntun, t.d.
 
 - Ef notuð var keyrslan **Reikna áætlun** á síðunni **Áætlunarvinnublað** til að reikna út áfyllingaráætlun er hægt að nota runuvinnsluna **Framkvæma aðgerðaboð** til að afrita innkaupa- og millifærslupöntunartillögur úr áætlunarvinnublaðinu í innkaupatillögublaðið. Þetta kemur sér vel ef notendur sem sjá um framleiðslupantanir og innkaupa-/millifærslupantanir eru ekki þeir sömu.
 
@@ -156,7 +156,7 @@ Síðan **Innkaupatillögublað** sýnir vörur sem þú vilt panta. Hægt er a�
 
 - Hægt er að nota aðgerðina **Sérpöntun** til að færa inn í línur innkaupatillögublaðsins. Þessi aðgerð notar runuvinnsluna **Sækja sölupantanir** til að ákveða hvaða sölupöntunarlínur eigi að úthluta fyrir sérpöntun.
 
-Innkaupatillögulínur eru með nákvæmum upplýsingum um vörurnar sem þarf að endurpanta. Hægt er að breyta og eyða línunum til að leiðrétta áfyllingaráætlunina og vinna frekar úr línunum með því að nota keyrsluna **Framkvæma aðgerðarboð** .
+Innkaupatillögulínur eru með nákvæmum upplýsingum um vörurnar sem þarf að endurpanta. Hægt er að breyta og eyða línunum til að leiðrétta áfyllingaráætlunina og vinna frekar úr línunum með því að nota keyrsluna **Framkvæma aðgerðarboð**.
 
 Upplýsingar um áætlanagerð með birgðageymslum og flutningum er að finna í [Áætlanagerð með eða án birgðageymslna](production-planning-with-without-locations.md).
 
@@ -169,4 +169,4 @@ Upplýsingar um áætlanagerð með birgðageymslum og flutningum er að finna �
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

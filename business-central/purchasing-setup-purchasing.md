@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 72c947263ccf736d9432c52b6256868ad346ad09
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 219c1fcf1d4929a548f9a8d5849dde77f1c0b24a
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918731"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024588"
 ---
 # <a name="setting-up-purchasing"></a>Uppsetning innkaupa
 Áður en hægt er að hefjast handa við að stýra kaupferlum þarf að grunnstilla reglur og gildi sem ráða kaupreglum fyrirtækisins.
@@ -32,6 +32,7 @@ Farið er nánar yfir uppsetningu kaupa sem tengjast fjármunum, svo sem greiðs
 | Skráið inn mismunandi afslætti og sérverð sem lánardrottinn veitir, sem fer eftir vörum, magni og/eða dagsetningum. |[Skráning innkaupaverðs, afsláttar og greiðslusamkomulags](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Lánardrottnum forgangsraðað |[Forgangsraða lánardrottnum](purchasing-how-prioritize-vendors.md) |
 | Kaupendur settir upp |[Setja upp kaupendur](purchasing-how-setup-purchasers.md) |
+|Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
 > [!TIP]
 > Það fer eftir landfræðilegri staðsetningu þinni hvaða reiti sumar síður innihalda sem ekki er lýst í greinunum sem eru gefnar upp hér vegna þess að þær gilda um staðbundna virkni eða sérstillingar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -41,4 +42,4 @@ Farið er nánar yfir uppsetningu kaupa sem tengjast fjármunum, svo sem greiðs
 ## <a name="see-also"></a>Sjá einnig
 
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

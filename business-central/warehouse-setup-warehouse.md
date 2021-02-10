@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 94c793441d413820f3dd752179c0268147fc2f8f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c96691ada97f0ee91b53d9cde303c2413e99025e
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920221"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024388"
 ---
 # <a name="setting-up-warehouse-management"></a>Vöruhúsastjórnun sett upp
 Dreifingaráætlun fyrirtækis endurspeglast í grunnstillingu á vinnslum vöruhúss. Í henni felst skilgreining á því hvernig mismunandi vörur eru meðhöndlaðar í mismunandi vöruhúsum, til dæmis stig hólfastýringar og umfang nauðsynlegs verkflæðis á milli vöruhúsaaðgerða.  
@@ -40,10 +40,11 @@ Dreifingaráætlun fyrirtækis endurspeglast í grunnstillingu á vinnslum vöru
 |Setja upp vöruhús þannig að það stingi sjálfkrafa upp á vörum til tínslu sem munu renna út fyrstar.|[Virkja tínslu eftir FEFO](warehouse-picking-by-fefo.md)|
 |Fá ábendingar um hvernig á að endurskipuleggja birgðageymslur, hólf eða svæði til þess að auka skilvirkni vöruhúsaaðgerða.|[Endurskipulagning vöruhúsa](warehouse-how-to-restructure-warehouses.md)|
 |Samlaga strikamerkjalesara að vöruhúsakerfislausninni. Eingöngu fyrir uppsetningu á staðnum.|[Nota sjálfvirkt gagnatökukerfi (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)|
+|Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

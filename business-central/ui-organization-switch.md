@@ -7,23 +7,23 @@ ms.topic: article
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 24ea6b353a22ae00ca98901c080c031870f66168
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fea55295867e42f450dc7e3826224d7e1698666a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925598"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760418"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Skipta yfir í annað fyrirtæki eða umhverfi
 
-[!INCLUDE [company_environment](includes/company_environment.md)] Nánari upplýsingar eru í [Stofna ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).  
+[!INCLUDE [company_environment](includes/company_environment.md)] Nánari upplýsingar eru í [Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Ef skipt er oft á milli fyrirtækja getur verið auðvelt að missa sjónar á því hvar þú ert. Til að auðvelda þér að fylgjast með er hægt að bæta við merki sem birtir heiti fyrirtækisins þannig að þú getir staðfest á skjótan hátt að þú sért á réttum stað. Frekari upplýsingar er að finna á [Til að birta fyrirtækjamerkis fyrir flýtiaðgang að fyrirtækisupplýsingum](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
 
 ## <a name="switch-to-another-environment"></a>Skipta yfir í annað umhverfi
 
-Þegar þú ert skráð(ur) inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] eru umhverfin sem hægt er að opna aðgengilegt á heimasíðu Dynamics 365. Hægt er að opna síðuna með því að velja **forritavalmyndina** táknið ![forritavalmynd](media/app-launcher-icon.png "Forritavalmynd býður upp á aðgang að fleiri eiginleikum") og velja **Dynamics 365** . Til að fara í sjálfgefið fyrirtæki í því umhverfi skal velja reitinn. Einn reitur verður að vera til staðar fyrir hverja gerð af umhverfi. Ef þú ert með fleiri en eitt umhverfi af tiltekinni gerð þegar þú velur reitinn getur þú valið umhverfið sem á að opna.
+Þegar þú ert skráð(ur) inn á [!INCLUDE[prod_short](includes/prod_short.md)] eru umhverfin sem hægt er að opna aðgengilegt á heimasíðu Dynamics 365. Hægt er að opna síðuna með því að velja **forritavalmyndina** táknið ![forritavalmynd](media/app-launcher-icon.png "Forritavalmynd býður upp á aðgang að fleiri eiginleikum") og velja **Dynamics 365**. Til að fara í sjálfgefið fyrirtæki í því umhverfi skal velja reitinn. Einn reitur verður að vera til staðar fyrir hverja gerð af umhverfi. Ef þú ert með fleiri en eitt umhverfi af tiltekinni gerð þegar þú velur reitinn getur þú valið umhverfið sem á að opna.
 
 Eftirfarandi mynd sýnir reiti til að fá aðgang að framleiðslu-og sandkassaumhverfi á heimasíðu Dynamics 365.
 
@@ -31,15 +31,15 @@ Eftirfarandi mynd sýnir reiti til að fá aðgang að framleiðslu-og sandkassa
 
 ## <a name="switch-to-another-company"></a>Skipta í annað fyrirtæki
 
-Þegar þú ert skráð(ur) inn á [!INCLUDE[d365fin](includes/d365fin_md.md)] er fljótlegt að skipta yfir í annað fyrirtæki. Þegar búið er að skipta yfir verður fyrirtækið sem þú velur sjálfgefið fyrirtæki og birtist næst þegar þú skráir þig inn.
+Þegar þú ert skráð(ur) inn á [!INCLUDE[prod_short](includes/prod_short.md)] er fljótlegt að skipta yfir í annað fyrirtæki. Þegar búið er að skipta yfir verður fyrirtækið sem þú velur sjálfgefið fyrirtæki og birtist næst þegar þú skráir þig inn.
 
-1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan aðgerðina **Stillingar mínar** .
+1. Í efra hægra horninu skaltu velja **Stillingar** táknið ![Stillingar](media/ui-experience/settings_icon_small.png "Stillingatákn fyrir hlutverkamiðstöð") og velja síðan aðgerðina **Stillingar mínar**.
 
     > [!TIP]
     > Einnig er hægt að nota flýtilykilinn Alt+T til að opna síðuna Mínar stillingar á skjótan hátt.
 
 2. Á síðunni **Mínar stillingar** á svæðinu **Fyrirtæki** er valið fyrirtæki.  
-3. Velja hnappinn **Í lagi** .
+3. Velja hnappinn **Í lagi**.
 
 > [!TIP]
 > Góð aðferð við að fara beint í sjálfgefna fyrirtækið þegar þú skráir þig inn og ekki þurfa að tilgreina umhverfið er að bæta vefslóðinni á eftirlætislistann þinn eftir að þú skráir þig inn.

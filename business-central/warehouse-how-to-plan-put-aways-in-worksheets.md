@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c957005251b65e1b6c37bb42946146c6a013cfd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b6837c9acec83654c7d85e98e93c00e30e50eb1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925423"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759743"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Áætla frágang á vinnublöðum
 Ef birgðageymslan krefst bæði frágangs- og móttökuvinnslu og áætla á frágangsleiðbeiningar fyrir margar móttökur, í stað þess að fara eftir leiðbeiningum sem forritið stofnar fyrir einstakar bókaðar móttökur, er hægt að nota frágangsvinnublaðið.  
@@ -46,17 +46,17 @@ Ef gátmerki er ekki sett í þennan reit eru stofnar forritið frágangsleiðbe
     > [!NOTE]  
     >  Röðun lína á vinnublaðinu flyst ekki sjálfkrafa í frágangsleiðbeiningar en sömu röðunaraðferðir eru fyrir hendi ásamt hólfaflokkun. Þannig er auðvelt að endurgera línuröðunina á vinnublaðinu þegar frágangsleiðbeiningarnar eru stofnaðar eða með því að raða í frágangsleiðbeiningunum.  
 
-5.  Fylla inn í reitinn **Magn til afgreiðslu** . Velja aðgerðina **Færa sjálfkr. magn til afgr.** eða fyllið út reitina handvirkt.  
+5.  Fylla inn í reitinn **Magn til afgreiðslu**. Velja aðgerðina **Færa sjálfkr. magn til afgr.** eða fyllið út reitina handvirkt.  
 6.  Ef þess þarf er línunum breytt handvirkt. Hægt er að eyða línum, til dæmis ef setja þarf sumar vörur í hólf sem er langt frá hólfunum fyrir hinar vörurnar.  
 
     > [!NOTE]  
     >  Línum er aðeins eytt af þessu vinnublaði, ekki frágangsvallistanum.  
 
-7.  Veldu aðgerðina **Stofna frágang** . Síðan **Stofna fylgiskjal** opnast, þar sem hægt er að bæta við upplýsingum í fráganginn sem verið er að stofna, á eftirfarandi hátt:  
+7.  Veldu aðgerðina **Stofna frágang**. Síðan **Stofna fylgiskjal** opnast, þar sem hægt er að bæta við upplýsingum í fráganginn sem verið er að stofna, á eftirfarandi hátt:  
 
     -   Hægt er að úthluta fráganginum á tiltekinn starfsmann.  
     -   Hægt er að raða frágangsleiðbeiningalínum eins og gert var á vinnublaðinu eða eftir flokkun hólfa. Þegar raðað er eftir flokkun hólfa birtast Taka-línurnar fyrst þar sem flestar móttökulínurnar hafa hólfaflokkunina 0 og Setja línurnar birtast síðast í hækkandi röð eftir hólfaflokkun. Hafi vöruhúsið verið skipulagt þannig að hólf með svipaða flokkun séu næst hvert öðru, sparar röðun með þessum hætti starfsmönnunum sporin.  
-    -   Hægt er að fela millilínurnar sem stofnaðar eru þegar forritið skiptir stórri mælieiningu í smærri mælieiningar með því að velja reitinn **Setja einingaskiptaafmörkun** . Frekari upplýsingar eru í [Virkja sjálfvirk einingaskipti með beinum frágangi og tínslu](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Hægt er að fela millilínurnar sem stofnaðar eru þegar forritið skiptir stórri mælieiningu í smærri mælieiningar með því að velja reitinn **Setja einingaskiptaafmörkun**. Frekari upplýsingar eru í [Virkja sjálfvirk einingaskipti með beinum frágangi og tínslu](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Hægt er að velja að ekki sé sjálfkrafa fyllt út í reitinn **Magn til afgreiðslu** í frágangsleiðbeiningunum.  
     -   Hægt er að prenta skjalið strax.  
 
@@ -68,4 +68,4 @@ Ef gátmerki er ekki sett í þennan reit eru stofnar forritið frágangsleiðbe
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

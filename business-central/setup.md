@@ -1,5 +1,5 @@
 ---
-title: Yfirlit yfir verkhluta uppsetningu Business Central | Microsoft Docs
+title: Yfirlit yfir verkefni til að setja upp Business Central
 description: Útskýrir hvernig skal setja upp, forsníða og frumstilla Business Central eftir þínum þörfum.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2020
+ms.date: 01/18/2021
 ms.author: edupont
-ms.openlocfilehash: 0f33f59975973d8b585c97b53a3801e8706346fc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 32003217f6ffdeb5c5aad0fdc0fd3648a3ef5863
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912822"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024420"
 ---
-# <a name="setting-up-prodshort"></a>Setur upp [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="setting-up-prod_short"></a>Setur upp [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prodshort](includes/prodshort.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.
+[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.
 
 Til dæmis er yfirlit yfir reikninga áfyllt með fjölda pósthólf sem eru tilbúnar til notkunar. Að sjálfsögðu geturðu breytt bókhaldslyklinum til að uppfylla þarfir þínar. Frekari upplýsingar eru í [Fjármál](finance.md).
 
-Frá ![Sprocket tákninu til að opna Stillingavalmynd](media/ui-experience/settings_icon_small.png), er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[prodshort](includes/prodshort.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningarsíðum með hjálp og handvirkum uppsetningarsíðum eru í [Undirbúningur fyrir viðskipti](ui-get-ready-business.md).
+Frá ![Sprocket tákninu til að opna Stillingavalmynd](media/ui-experience/settings_icon_small.png), er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[prod_short](includes/prod_short.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningarsíðum með hjálp og handvirkum uppsetningarsíðum eru í [Undirbúningur fyrir viðskipti](ui-get-ready-business.md).
 
 Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilteknar viðskiptaferðir, handvirkt í viðbót við leiðbeiningar um uppsetningu með hjálp. Eftirfarandi sýnir nokkrar aðgerðir sem hægt er að setja upp handvirkt.
 
@@ -34,6 +34,7 @@ Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilte
 | Stilla reglur og gildi sem skilgreina sölu stefnu fyrirtækisins, skrá nýja viðskiptavini og setja upp hvernig þú átt samskipti við viðskiptavini. |[Uppsetning sölu](sales-setup-sales.md) |
 | Stilla reglur og gildi sem skilgreina innkaupastefnu fyrirtækisins, skrá nýja lánardrottna og forgangsraða lánardrottnum þínum til greiðsluvinnslu. |[Uppsetning innkaupa](purchasing-setup-purchasing.md) |
 | Stilla reglur og gildi sem skilgreina birgðastjórnun fyrirtækisins, setja upp staði ef þú geymir birgðir í mörgum vörugeymslum og flokka hlutina þína til að bæta leit og flokka. |[Uppsetning birgða](inventory-setup-inventory.md) |
+|Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 | Setja upp auðlindir, tímasetningar og störf til að stjórna verkefnum. |[Setja upp verkefnastjórnun](projects-setup-projects.md) |
 | Stilla hvernig á að tryggja, viðhalda og afskrifa eignir og hvernig þú skráir kostnað eigna í bókum fyrirtækisins. |[Uppsetning eigna](fa-setup.md) |
 |Tilgreina almennar reglur og gildi fyrir vöruhúsaferla og tiltekna meðhöndlun í hverri birgðageymslu.|[Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)|
@@ -41,7 +42,7 @@ Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilte
 |Komdu á staðlaðri þjónustu, einkennum og villukóðum og settu upp þjónustuvörurnar, tilföngin og skjöl sem þarf til að veita viðskiptavinum þjónustu.|[Þjónustustýring sett upp](service-setup-service.md)|
 |Lesið bestu starfsvenjur fyrir uppsetningar á vörum fyrir birgðakostnað og framboðsáætlanagerð.|[Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)|
 |Bættu gæði innleiðingar og styttu uppsetningartíma með verkfærasetti til að setja upp nýtt fyrirtæki með því að nota leiðsagnarforrit, sniðmát, vinnublöð og spurningalisti fyrir viðskiptavini.|[Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
-|Færðu upplýsingar viðskiptavina, lánardrottna, birgða og bankareikninga úr öðru kerfi yfir í [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md).|
+|Færðu upplýsingar viðskiptavina, lánardrottna, birgða og bankareikninga úr öðru kerfi yfir í [!INCLUDE[prod_short](includes/prod_short.md)]|[Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md).|
 |Notaðu Business Central Outlook innbótina til að skoða fjárhagsgögn sem tengjast viðskiptamönnum og lánardrottnum, eða búðu til og sendu fjárhagsskjöl á borð við tilboð og reikninga.|[Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)|
 |Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Business Central gögnum með Power BI og Business Central efnispökkunum.|[Gera viðskiptagögn þín virk fyrir Power BI](admin-powerbi.md)|
 |Notandi getur notað Business Central-gögnin sín sem hluta af verkflæði í Power Automate.|[Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)|
@@ -49,14 +50,14 @@ Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilte
 |Notaðu þar til gerðar Quickbooks færsluleiðbeiningar.|[Skipta úr QuickBooks App í Business Central](across-quickbooks-to-business-edition.md)|
 |Fá aðgang að Business Central gögnunum þínum úr fartækinu.|[Nota Business Central á fartækinu þínu](install-mobile-app.md)|
 |Gerðu magnreikningsfærslu á fundum sem eru stofnaðir í Bookings.|[Magnreikningsfærsla fyrir Microsoft Bookings](finance-bookings.md)|
-|Uppsetning SMTP-netþjóns til að virkja tölvupóstssamskipti inn og út af [!INCLUDE[d365fin](includes/d365fin_md.md)]| [Setja upp tölvupóst handvirkt eða með því að nota Uppsetningu með aðstoð](admin-how-setup-email.md)|
+|Uppsetning SMTP-netþjóns til að virkja tölvupóstssamskipti inn og út af [!INCLUDE[prod_short](includes/prod_short.md)]| [Setja upp tölvupóst handvirkt eða með því að nota Uppsetningu með aðstoð](admin-how-setup-email.md)|
 | Setjið upp einstaka kennitölu fyrir skrár, svo sem kort, skjöl og dagbókarlínur, til að fylgjast með þeim í kerfinu. |[Stofnun númeraraða](ui-create-number-series.md) |
-|Setja upp grunndagatal og úthluta því á fyrirtækið þitt og viðskiptafélaga, t.d viðskiptavini, lánardrottna eða birgðageymslur. Afhendingar –og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu.|[Setja upp grunndagatöl](across-how-to-assign-base-calendars.md)|  
+|Setja upp grunndagatal og úthluta því á fyrirtækið þitt og viðskiptafélaga, t.d viðskiptavini, lánardrottna eða birgðageymslur. Afhendingar og móttökudagsetningar á væntanlegum sölupöntunum, innkaupapöntunum, millifærslupöntunum og framleiðslupöntunarlínum eru reiknaðar eftir virkum dögum á dagatalinu.|[Setja upp grunndagatöl](across-how-to-assign-base-calendars.md)|
 
-Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](includes/d365fin_md.md)] áskrift þinni. Frekari upplýsingar eru í [Stjórnun](admin-setup-and-administration.md).  
+Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[prod_short](includes/prod_short.md)] áskrift þinni. Frekari upplýsingar eru í [Stjórnun](admin-setup-and-administration.md).  
 
 > [!NOTE]
-> Sem stjórnandi geturðu sett upp nýja fyrir tækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] með RapidStart Services, sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Nánari upplýsingar er að finna í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Sem stjórnandi geturðu sett upp nýja fyrir tækið í [!INCLUDE[prod_short](includes/prod_short.md)] með RapidStart Services, sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld. Nánari upplýsingar er að finna í [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 ## <a name="see-also"></a>Sjá einnig
 
@@ -70,8 +71,8 @@ Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[d365fin](incl
 [Samsetningardeild](assembly-assemble-items.md)  
 [Framleiðsla](production-manage-manufacturing.md)  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Stofna ný fyrirtæki í [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Hafist handa](product-get-started.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

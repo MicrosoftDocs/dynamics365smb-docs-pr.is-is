@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: a2c8071abc075caf359d942da5a3638ef811d126
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 28b796a001d1bd1d981ab84bc13607158733c502
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925620"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760468"
 ---
 # <a name="view-test-reports-before-posting"></a>Skoða prufuskýrslur fyrir bókun
 Þegar á að bóka skjal, t.d. pöntun, reikning eða kreditreikning, er hægt að prófa skjalið til að tryggja að engin vandamál sem geta stöðvað bókunina séu til staðar.
@@ -27,10 +27,10 @@ ms.locfileid: "3925620"
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Prófunarskýrslur prentaðar áður en innkaupareikningar eru bókaðir
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupareikningar** og veldu síðan tengda tengilinn.
 2. Opna skal innkaupareikninginn sem á að prófa.
-3. Veljið aðgerðina **Prófunarskýrsla** .  
+3. Veljið aðgerðina **Prófunarskýrsla**.  
 
 Allir hlutar innkaupareikningsins eru prófaðir og niðurstöðurnar birtar í skýrslu. Ef í skýrslunni koma fram villur eða upplýsingar vantar þá verður að laga það áður en innkaupareikningurinn er bókaður.
 
 ## <a name="see-also"></a>Sjá einnig
 [Bókun skjala og færslubóka](ui-post-documents-journals.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,16 +10,16 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a29b2ea19d812d60d2824c131e311c34d74612af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912022"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760215"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Úrræðaleit: aðgangur að myndavél og staðsetningu
 
-Þú gætir rekist á nokkur vandamál þegar þú reynir að fá aðgang að myndavél og staðsetningargögn tækis frá [!INCLUDE[prodshort](includes/prodshort.md)]. Hægt er að finna mögulegar orsakir á bak við þessi vandamál og hvernig á að vinna í kringum þau hér að neðan.
+Þú gætir rekist á nokkur vandamál þegar þú reynir að fá aðgang að myndavél og staðsetningargögn tækis frá [!INCLUDE[prod_short](includes/prod_short.md)]. Hægt er að finna mögulegar orsakir á bak við þessi vandamál og hvernig á að vinna í kringum þau hér að neðan.
 
 ## <a name="device-must-have-camera-and-location-capabilities"></a>Tækið verður að vera með myndavél og staðsetningareiginleika
 
@@ -29,11 +29,11 @@ Ef tækið þitt er með myndavél og staðsetningareiginleika en þú lendir en
 
 ## <a name="access-permissions-not-enabled"></a>Aðgangsheimild ekki virk
 
-Þú þarft að kveikja á almennum aðgangi að myndavél og staðsetningu úr persónuverndarstillingum tækisins og gefa sérstaklega heimild til [!INCLUDE[prodshort](includes/prodshort.md)] fyrir aðgang að þeim. Til að sjá eða breyta heimildum fyrir tæki sem keyrir í Windows skaltu fara í **Stillingar** , velja **Persónuvernd** og svo **Heimildir forrita** . 
+Þú þarft að kveikja á almennum aðgangi að myndavél og staðsetningu úr persónuverndarstillingum tækisins og gefa sérstaklega heimild til [!INCLUDE[prod_short](includes/prod_short.md)] fyrir aðgang að þeim. Til að sjá eða breyta heimildum fyrir tæki sem keyrir í Windows skaltu fara í **Stillingar**, velja **Persónuvernd** og svo **Heimildir forrita**. 
 
-Fyrir fartæki þarftu að gefa aðgang að myndavélinni og staðsetningareiginleika í [!INCLUDE[prodshort](includes/prodshort.md)] farsímaforritinu. Til að gera það fyrir iOS-tæki skaltu opna **Stillingar** , velja **Persónuvernd** og svo **Myndavél** eða **Staðsetning** . Fyrir Android-tæki skal opna **Stillingar** , velja **Forrit og tilkynningar** , **Ítarlegt** , **Heimildastjórnun** og svo **Myndavél** eða **Staðsetning** .
+Fyrir fartæki þarftu að gefa aðgang að myndavélinni og staðsetningareiginleika í [!INCLUDE[prod_short](includes/prod_short.md)] farsímaforritinu. Til að gera það fyrir iOS-tæki skaltu opna **Stillingar**, velja **Persónuvernd** og svo **Myndavél** eða **Staðsetning**. Fyrir Android-tæki skal opna **Stillingar**, velja **Forrit og tilkynningar**, **Ítarlegt**, **Heimildastjórnun** og svo **Myndavél** eða **Staðsetning**.
 
-Ef þú ert að nota [!INCLUDE[prodshort](includes/prodshort.md)] í vafra þarftu einnig að gefa [!INCLUDE[prodshort](includes/prodshort.md)] vefsvæðinu aðgang að myndavél eða staðsetningarupplýsingum. Til að skoða eða breyta heimildum vefsvæðis í Microsoft Edge-vafranum skaltu opna **Stillingar** , velja **Heimildir fyrir svæði** og svo **Myndavél** eða **Staðsetning** . Athugaðu að þetta gæti verið mismunandi fyrir aðra vafra.
+Ef þú ert að nota [!INCLUDE[prod_short](includes/prod_short.md)] í vafra þarftu einnig að gefa [!INCLUDE[prod_short](includes/prod_short.md)] vefsvæðinu aðgang að myndavél eða staðsetningarupplýsingum. Til að skoða eða breyta heimildum vefsvæðis í Microsoft Edge-vafranum skaltu opna **Stillingar**, velja **Heimildir fyrir svæði** og svo **Myndavél** eða **Staðsetning**. Athugaðu að þetta gæti verið mismunandi fyrir aðra vafra.
 
 Sjálfgefið er að tækið eða vafrinn birti beiðni um aðgang að þessum eiginleikum þegar notandinn virkjar þá í fyrsta sinn.
 
@@ -49,7 +49,7 @@ Eina undantekningin er tenging við `http://localhost`, sem notuð er í þróun
 
 ## <a name="working-with-virtualization-technologies"></a>Unnið með sýndartækni
 
-Þegar þú tengist [!INCLUDE[prodshort](includes/prodshort.md)] í gegnum fjartengt skjáborð eða annan sýndarbúnað er hugsanlegt að aðgangur að myndavél eða staðsetningu sé ekki í boði. Ef svo er skaltu nota efnislegt stjórnkerfi í staðinn.
+Þegar þú tengist [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum fjartengt skjáborð eða annan sýndarbúnað er hugsanlegt að aðgangur að myndavél eða staðsetningu sé ekki í boði. Ef svo er skaltu nota efnislegt stjórnkerfi í staðinn.
 
 ## <a name="antivirus-software"></a>Vírusvarnarhugbúnaður
 Einhverjar gerðir vírusvarnarhugbúnaðar loka á aðgang að myndavél og staðsetningu. Mundu að athuga stillingar vírusvarnarhugbúnaðarins.

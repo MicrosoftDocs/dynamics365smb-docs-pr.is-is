@@ -1,6 +1,6 @@
 ---
 title: Hvernig á að birgðaskrá íhluti samkvæmt frálagi aðgerða | Microsoft Docs
-description: Fyrir vörur sem hafa verið settar upp með afturvirkri birgðaskráningu er sjálfgefin virkni að reikna út og bóka notkun íhluta þegar stöðu útgefinnar framleiðslupöntunar er breytt í **Lokið** . Frekari upplýsingar eru í Birgðaskráningaraðferð.
+description: Fyrir vörur sem hafa verið settar upp með afturvirkri birgðaskráningu er sjálfgefin virkni að reikna út og bóka notkun íhluta þegar stöðu útgefinnar framleiðslupöntunar er breytt í **Lokið**. Frekari upplýsingar eru í Birgðaskráningaraðferð.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 366c450924367ba70eece30809035895c42a0838
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f7f6c0c4be56c5f7e25f44063923cfe02e03e4c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921618"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759293"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Birgðaskráning íhluta samkvæmt frálagi aðgerðar
-Fyrir vörur sem hafa verið settar upp með afturvirkri birgðaskráningu er sjálfgefin virkni að reikna út og bóka notkun íhluta þegar stöðu útgefinnar framleiðslupöntunar er breytt í **Lokið** .  
+Fyrir vörur sem hafa verið settar upp með afturvirkri birgðaskráningu er sjálfgefin virkni að reikna út og bóka notkun íhluta þegar stöðu útgefinnar framleiðslupöntunar er breytt í **Lokið**.  
 
 Ef leiðartengilskótar eru einnig skilgreindir verður reiknað og bókað eftir hverja aðgerð og magnið sem var raunverulega notað í aðgerðinni bókað. Nánari upplýsingar eru í [Stofna leiðir](production-how-to-create-routings.md).  
 
@@ -34,8 +34,8 @@ Eftirfarandi ferli sýnir hvernig eigi að sameina afturvirka birgðaskráningu 
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Til að birgðaskrá íhluti samkvæmt frálagi aðgerðar  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
-2.  Veldu aðgerðina **Breyta** .  
-3.  Á flýtiflipanum **Áfylling** , í reitnum **Birgðaskráningaraðferð** , skal velja **Framsenda** .  
+2.  Veldu aðgerðina **Breyta**.  
+3.  Á flýtiflipanum **Áfylling**, í reitnum **Birgðaskráningaraðferð**, skal velja **Framsenda**.  
 
     > [!NOTE]  
     >  Veljið **Tínsla + Áfram** ef íhluturinn er notaður í birgðageymslu sem er sett upp fyrir beinan frágang og tínslu.  
@@ -55,4 +55,4 @@ Eftirfarandi ferli sýnir hvernig eigi að sameina afturvirka birgðaskráningu 
 [Áætlun](production-planning.md)   
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

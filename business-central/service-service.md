@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3bf97a81c41823b9b4d839af4d53045f0bdaa74e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cb82642f5526db849ad5344d1f7347513d80c57a
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913047"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817005"
 ---
 # <a name="service-management"></a>Þjónustukerfi
 > [!NOTE]
 > Virkni sem lýst er í þessu efni og undirviðfangsefni er aðeins sýnilegt í notendaviðmótinu ef þú hefur **Úrvals** upplifun. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
 
-Að veita viðskiptamönnum þjónustu er mikilvægur hluti fyrirtækjareksturs, og getur hún verið uppspretta ánægju og tryggðar þeirra, auk þess að skapa fyrirtækinu tekjur. Hins vegar er stjórnun og rakning þjónustu ekki alltaf auðveld, og í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru verkfæri til að auðveldar slíkt. Þessi verkfæri eru hönnuð til að styðja aðgerðir á vettvangi og verkstæðum, og nýtast í viðskiptaaðstæðum á borð við flókin þjónustudreifingarkerfi viðskiptamanna, iðnaðarþjónustuumhverfi með uppskriftir, og afgreiðslu þjónustutæknimanna með varahlutastjórnunarþarfir í stórum stíl.  
+Að veita viðskiptamönnum þjónustu er mikilvægur hluti fyrirtækjareksturs, og getur hún verið uppspretta ánægju og tryggðar þeirra, auk þess að skapa fyrirtækinu tekjur. Hins vegar er stjórnun og rakning þjónustu ekki alltaf auðveld, og í [!INCLUDE[prod_short](includes/prod_short.md)] eru verkfæri til að auðveldar slíkt. Þessi verkfæri eru hönnuð til að styðja aðgerðir á vettvangi og verkstæðum, og nýtast í viðskiptaaðstæðum á borð við flókin þjónustudreifingarkerfi viðskiptamanna, iðnaðarþjónustuumhverfi með uppskriftir, og afgreiðslu þjónustutæknimanna með varahlutastjórnunarþarfir í stórum stíl.  
 
  Með þessum verkfærum er hægt að ná fram eftirfarandi:  
 
@@ -46,6 +46,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## <a name="see-also"></a>Sjá einnig  
 [Stjórnun útistandandi reikninga](receivables-manage-receivables.md)   
 [Verk](projects-how-create-jobs.md)   
-[Velkomin(n) í [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+[Velkomin(n) í [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

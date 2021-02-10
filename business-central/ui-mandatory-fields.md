@@ -11,15 +11,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: cf2a64ef102dec16ad0df83e8c911e2b6c3bd88e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f525077069107e1365728aaaaf1e4791a250c6ee
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912122"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760368"
 ---
 # <a name="detecting-mandatory-fields"></a>Greina áskilda reiti
-Þegar þú slærð inn gögn á síðum í [!INCLUDE[d365fin](includes/d365fin_md.md)] eru tilteknir reitir merktir með rauðri stjörnu. Rauða stjarnan merkir að fylla verður reitinn út til að ljúka tilteknu ferli sem notar reitinn, eins og að bóka færslu sem notar gildið í reitnum.
+Þegar þú slærð inn gögn á síðum í [!INCLUDE[prod_short](includes/prod_short.md)] eru tilteknir reitir merktir með rauðri stjörnu. Rauða stjarnan merkir að fylla verður reitinn út til að ljúka tilteknu ferli sem notar reitinn, eins og að bóka færslu sem notar gildið í reitnum.
 
 Jafnvel þótt reiturinn innihaldi rauða stjörnu er ekki nauðsynlegt að fylla út í reitinn áður en haldið er áfram í aðra reiti eða síðunni lokað. Rauða stjarnan er eingöngu áminning um að þú verðir útilokaður frá tilteknu ferli.
 
@@ -29,4 +29,4 @@ Jafnvel þótt reiturinn innihaldi rauða stjörnu er ekki nauðsynlegt að fyll
 Á síðunni **Vöruspjald** birtist rauða stjarnan í reitnum **Lýsing** og til að gefa til kynna að ekki er hægt að færa vöruna inn a skjalalínu, eins og sölupöntun, nema reitirnir séu fylltir út.
 
 ## <a name="see-also"></a>Sjá einnig
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

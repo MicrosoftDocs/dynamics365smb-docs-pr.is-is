@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b7eb82e5fc3dc20449f3fc8352fbda4e80372a20
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 83b27cbc0b1ddfe3114995218bc29c282d3508ca
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910431"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024363"
 ---
 # <a name="setting-up-sales"></a>Uppsetning sölu
 Áður en hægt er að hefjast handa við að stýra söluferlum þarf að grunnstilla reglur og gildi sem ráða sölureglum fyrirtækisins.
@@ -37,9 +37,10 @@ Uppsetning fjármálatendrar sölu, eins og greiðslumáti og gjaldmiðill, er f
 |Notaðu EB vefþjónustu til að staðfesta að VSK-númerin viðskiptamanna.|[Staðfesta VSK-skráningarnúmer](finance-setup-vat.md)|
 |Skilgreindu mismunandi inco-skilmála sem þú býður viðskiptamönnum upp á eða þá sem lánardrottnar þínir bjóða þér.|[Afhendingarmátar settir upp](sales-how-set-up-shipment-methods.md)|
 |Færa inn upplýsingar um mismunandi flutningsseljendur sem skipt er við, ásamt tengli á sendingarleitarþjónustu þeirra.|[Uppsetning flutningsaðila](sales-how-to-set-up-shipping-agents.md)|
+|Tilgreina sjálfgefnar skýrslur sem á að nota fyrir mismunandi skjalagerðir.|[Skýrsluval í Business Central](across-report-selections.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

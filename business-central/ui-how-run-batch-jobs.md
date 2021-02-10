@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7c9d67168308491daef838e91c5a1b84645b222a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 04ae13561f44d544d38b04e3a881a0e707b441b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920423"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760518"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Keyra runuvinnslur og XMLports
-Keyrsla er forritabútur sem vinnur úr gögnum í einni keyrslu líkt og keyrslan **Leiðrétta gengi** . Til eru runuvinnslur sem framkvæma reikningstímabilsaðgerðir eins og lokun rekstrarreiknings í lok reikningsárs. Margar keyrslur vinna útreikningsvinnu, svo sem útreikning á vöxtum, leiðréttingu á gengi og útreikning á einingaverði.
+Keyrsla er forritabútur sem vinnur úr gögnum í einni keyrslu líkt og keyrslan **Leiðrétta gengi**. Til eru runuvinnslur sem framkvæma reikningstímabilsaðgerðir eins og lokun rekstrarreiknings í lok reikningsárs. Margar keyrslur vinna útreikningsvinnu, svo sem útreikning á vöxtum, leiðréttingu á gengi og útreikning á einingaverði.
 
 Keyrslu svipar til skýrslu fyrir utan það að keyrslan nýtir útkomuna til að uppfæra upplýsingar beint, án þess að prenta niðurstöðurnar.
 
@@ -35,4 +35,4 @@ Hægt er að tímasetja hvenær runuvinnsla er keyrð. Frekari upplýsingar, sj�
 ## <a name="see-also"></a>Sjá einnig
 [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
 [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

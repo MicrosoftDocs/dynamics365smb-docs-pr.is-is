@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: cdb01a2d74dff2fef15c2207f98ba8893f081aca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e4b1615ebf177db94e3dfb372809fa71ed2f1459
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920373"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760168"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Unnið með skýrslur, runuvinnslur og XMLports
 
@@ -34,11 +34,11 @@ Runuvinnslur og XMLports gera meira eða minna það sama og skýrslur, en í þ
 
 ## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Sjálfgefin gildi notuð - fyrirframskilgreindar stillingar 
 
-Flestar beiðnisíður innihalda reitinn **Nota sjálfgildi úr** . Þessi reitur gerir þér kleift að velja fyrirframskilgreindar stillingar fyrir skýrsluna sem sjálfkrafa stilla valkosti og síur fyrir skýrsluna. Veljið færslu úr fellilistanum og þar koma þá í ljós breytingarnar á valkostum og síum beiðnisíðunnar.
+Flestar beiðnisíður innihalda reitinn **Nota sjálfgildi úr**. Þessi reitur gerir þér kleift að velja fyrirframskilgreindar stillingar fyrir skýrsluna sem sjálfkrafa stilla valkosti og síur fyrir skýrsluna. Veljið færslu úr fellilistanum og þar koma þá í ljós breytingarnar á valkostum og síum beiðnisíðunnar.
 
 Færslan sem kallast **Valkostir og síur síðast notað** er alltaf í boði. Þessi færsla stillir skýrsluna á að nota valkosti og síur sem voru síðast notuð þegar skýrslan var keyrð.
 
-Reiturinn **Nota sjálfgildi úr** veitir fljótlega og áreiðanlega leið til að búa til skýrslur sem innihalda réttar upplýsingar. Þegar færsla er valin, er hægt að breyta öllum valkostum og síum áður skýrslan er forskoðuð eða prentuð. Breytingarnar sem þú gerir verða ekki forskilgreindar í færslu fyrir vistaðar stillingar sem þú velur en þær verða vistaðar í færslunni **Síðast notaðir valkostir og afmarkanir** .
+Reiturinn **Nota sjálfgildi úr** veitir fljótlega og áreiðanlega leið til að búa til skýrslur sem innihalda réttar upplýsingar. Þegar færsla er valin, er hægt að breyta öllum valkostum og síum áður skýrslan er forskoðuð eða prentuð. Breytingarnar sem þú gerir verða ekki forskilgreindar í færslu fyrir vistaðar stillingar sem þú velur en þær verða vistaðar í færslunni **Síðast notaðir valkostir og afmarkanir**.
 
 >[!NOTE]
 > Fyrirframskilgreindar stillingar eru yfirleitt settar upp og stjórnað af stjórnanda. Til að fá nánari upplýsingar er hægt að skoða [Stjórna vistuðum stillingum fyrir skýrslur og runuvinnslur](reports-saving-reusing-settings.md).
@@ -59,16 +59,16 @@ Notið reitina undir **Valkostir** og **Síur** til að breyta takmörkunum á u
 >
 > Einhverjar skýrslur hunsa slíkar síur, sem þýðir að sama hvaða sía er stillt í hlutanum **Sía lista eftir** verður útkoma skýrslunnar sú sama. Ekki er hægt að gefa upp lista yfir hvaða reitir eru hunsaðir í hvaða skýrslum, þannig að þú verður að gera tilraunir með síurnar þegar þú notar þær.
 >
-> **Dæmi** : Þegar þú notar runuvinnsluna **Sent innheimtubréf** verður sía fyrir reitinn **Færslur í viðskiptamannabók** í **Stig síðasta útgefins innheimtubréfs** hunsuð vegna þess að síurnar eru fastar fyrir þessa runuvinnslu.
+> **Dæmi**: Þegar þú notar runuvinnsluna **Sent innheimtubréf** verður sía fyrir reitinn **Færslur í viðskiptamannabók** í **Stig síðasta útgefins innheimtubréfs** hunsuð vegna þess að síurnar eru fastar fyrir þessa runuvinnslu.
 
 ## <a name="previewing-a-report"></a>Forskoðun skýrslu
 
 Að forskoða skýrsluna gerir notanda kleift að sjá hvernig skýrslan komi til með að líta út áður en hún er prentuð. Forskoðunin sýnir skýrsluna samkvæmt [prentaranum](#Printer) sem sést í reitnum **Prentari** á beiðnisíðunni. Að forskoðun lokinni er hægt að fara aftur á beiðnisíðuna og gera breytingar á valkostum og síum eftir þörfum.
 
-Til að forskoða skýrslu skal velja hnappinn **Forskoða** eða **Forskoða og loka** á beiðnisíðu skýrslunnar. Hnappurinn sem birtist fer eftir skýrslunni, þannig að sumar skýrslur eru með hnappinn **Forskoða** á meðan aðrar eru með hnappinn **Forskoða og loka** . Báðir hnapparnir opna forskoðun á skýrslunni. Munurinn liggur í því að **Forskoðun** heldur beiðnisíðunni opinni, þannig að hægt er að fara aftur í hana, gera breytingar, forskoða aftur eða prenta. Með **Forskoða og loka** lokast beiðnisíðan, þannig að opna þarf skýrsluna aftur til að gera breytingar eða prenta.
+Til að forskoða skýrslu skal velja hnappinn **Forskoða** eða **Forskoða og loka** á beiðnisíðu skýrslunnar. Hnappurinn sem birtist fer eftir skýrslunni, þannig að sumar skýrslur eru með hnappinn **Forskoða** á meðan aðrar eru með hnappinn **Forskoða og loka**. Báðir hnapparnir opna forskoðun á skýrslunni. Munurinn liggur í því að **Forskoðun** heldur beiðnisíðunni opinni, þannig að hægt er að fara aftur í hana, gera breytingar, forskoða aftur eða prenta. Með **Forskoða og loka** lokast beiðnisíðan, þannig að opna þarf skýrsluna aftur til að gera breytingar eða prenta.
 
 > [!NOTE]
-> Ef verið er að nota Business Central 2020 útgáfutímabil 1 eða eldra, er aðeins hnappurinn **Forskoða** , sem lokar beiðnisíðunni við forskoðun eins og lýst er fyrir **Forskoðun og loka** .
+> Ef verið er að nota Business Central 2020 útgáfutímabil 1 eða eldra, er aðeins hnappurinn **Forskoða**, sem lokar beiðnisíðunni við forskoðun eins og lýst er fyrir **Forskoðun og loka**.
 
 ### <a name="working-with-the-preview"></a>Vinna með forskoðun
 
@@ -79,7 +79,7 @@ Til að forskoða skýrslu skal velja hnappinn **Forskoða** eða **Forskoða og
 - Breyta stærð svo passi á síðu
 - Velja texta
 
-    Þú getur afritað texta úr skýrslu og svo límt hann eitthvert annað, eins og á síðu í [!INCLUDE[d365fin](includes/d365fin_md.md)] eða Microsoft Word.  Ef þú notar mús, til dæmis, þá þrýstirðu niður og heldur þar sem þú vilt byrja, og færir svo músina til að velja eitt eða fleiri orð, setningar eða málsgreinar. Smellið á hægri músarhnappinn og veljið **Afrita** . Límið síðan valinn texta þar sem hann á að vera.
+    Þú getur afritað texta úr skýrslu og svo límt hann eitthvert annað, eins og á síðu í [!INCLUDE[prod_short](includes/prod_short.md)] eða Microsoft Word.  Ef þú notar mús, til dæmis, þá þrýstirðu niður og heldur þar sem þú vilt byrja, og færir svo músina til að velja eitt eða fleiri orð, setningar eða málsgreinar. Smellið á hægri músarhnappinn og veljið **Afrita**. Límið síðan valinn texta þar sem hann á að vera.
 - Fletta skjali
 
     Hægt er að færa sjáanlega svæðið af skýrslunni í allar átti svo þú getir skoðað önnur svæði skýrslunnar. Fletting er gagnleg þegar eitthvað hefur verið stækkað til að sjá smáatriði.  Ef þú notar músina, til dæmis, þrýstirðu niður og heldur inni hnappinum hvar sem er á forskoðun skýrslunnar og svo hreyfirðu músina.
@@ -95,13 +95,13 @@ Til að forskoða skýrslu skal velja hnappinn **Forskoða** eða **Forskoða og
 
 Hægt er að tímasetja eða runuvinna skýrslu þannig að hún keyri á tilteknum degi og tíma. Tímasettar skýrslur og runuvinnslur eru færðar inn í verkröð og unnar á áætluðum tíma, eins og önnur verk. Veldu valkostinn **Áætlun** eftir að hafa valið **Senda til** og færðu svo inn upplýsingar á borð við prentara, og tíma og dagsetningu. Skýrslunni er síðan bætt við verkröðina og hún verður keyrð á tilgreindum tíma. Þegar skýrslan hefur verið meðhöndluð er varan fjarlægð úr verkröðinni. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md).  
 
-Þegar keyrsla skýrslu er áætluð er hægt að tilgreina að keyra þurfi alla fimmtudaga með því að stilla reitinn **Reikniregla næstu keyrsludagsetningar** á t.d. *D4* . Frekari upplýsingar er að finna í [Að nota dagsetningarreiknireglur](ui-enter-date-ranges.md#using-date-formulas).  
+Þegar keyrsla skýrslu er áætluð er hægt að tilgreina að keyra þurfi alla fimmtudaga með því að stilla reitinn **Reikniregla næstu keyrsludagsetningar** á t.d. *D4*. Frekari upplýsingar er að finna í [Að nota dagsetningarreiknireglur](ui-enter-date-ranges.md#using-date-formulas).  
 
 Hægt er að velja að vista skýrsluna í skrá, t.d. Excel, Word, eða PDF, prenta hana á völdum prentara, eða aðeins búa til skýrsluna. Ef þú velur að vista skýrsluna í skrá þá er meðhöndlaða skýrslan send á svæðið **Skýrsluinnhólf** á Mitt hlutverk þar sem þú getur skoðað hana.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Prenta skýrslu
 
-Til að prenta skýrslu skal velja hnappinn **Prenta** á beiðnisíðunni eða valmyndastikunni á síðunni **Forskoða** .
+Til að prenta skýrslu skal velja hnappinn **Prenta** á beiðnisíðunni eða valmyndastikunni á síðunni **Forskoða**.
 
 <!--
 ### Printer selection
@@ -116,17 +116,17 @@ If no printer is specified on the **Printer Selections** page or set as default 
 
 Reiturinn **Prentari** á beiðnisíðunni sýnir heiti prentarans sem skýrslan verður send til. **(Meðhöndlað af vafra)** gefur til kynna að enginn prentari er valinn fyrir skýrsluna. Í slíku tilfelli sér vafrinn um útprentun og sýnir hefðbundið viðmót þar sem hægt er velja staðbundinn prentara sem tengdur er við tækið þitt.
 
-Ekki er hægt að breyta prentaranum með reitnum **Prentari** . Til að breyta prentaranum þarf að fara á síðurnar **Prentaraval** eða **Prentarastjórnun** . Að stilla prentarann er yfirleitt verk sem stjórnandi sér um. Frekari upplýsingar má finna í [Setja upp prentara](ui-specify-printer-selection-reports.md).
+Ekki er hægt að breyta prentaranum með reitnum **Prentari**. Til að breyta prentaranum þarf að fara á síðurnar **Prentaraval** eða **Prentarastjórnun**. Að stilla prentarann er yfirleitt verk sem stjórnandi sér um. Frekari upplýsingar má finna í [Setja upp prentara](ui-specify-printer-selection-reports.md).
 
 <!--
 ### Browser printing
 
-Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
+Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
 
 If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
 
 > [!NOTE]
-> The browser printing options work independently of [!INCLUDE[prodshort](includes/prodshort.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md)] aren't carried over to the browser print options.
+> The browser printing options work independently of [!INCLUDE[prod_short](includes/prod_short.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prod_short](includes/prod_short.md)] aren't carried over to the browser print options.
 
 <!-- 
 On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
@@ -136,7 +136,7 @@ On the **Printer Management** page, you can see the printers that are set up. Fo
 -->
 ### <a name="printing-reports-in-thai"></a>Prenta skýrslur á taílensku
 
-Sérstaklega fyrir taílensku útgáfuna af [!INCLUDE[prodshort](includes/prodshort.md)], getur hnappurinn **Prenta** ekki prentað skýrslur rétt vegna takmarkana á þjónustunni sem býr til prentanlegt PDF-skjal. Í staðinn getur þú opnað skýrsluna í Word og síðan vistað hana sem prentvæna PDF-skrá.  
+Sérstaklega fyrir taílensku útgáfuna af [!INCLUDE[prod_short](includes/prod_short.md)], getur hnappurinn **Prenta** ekki prentað skýrslur rétt vegna takmarkana á þjónustunni sem býr til prentanlegt PDF-skjal. Í staðinn getur þú opnað skýrsluna í Word og síðan vistað hana sem prentvæna PDF-skrá.  
 
 Að öðrum kosti geturðu beðið stjórnanda þinn um að búa til Word-skýrsluútlit fyrir mest notuðu skýrslurnar. Frekari upplýsingar, sjá [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md).  
 
@@ -155,11 +155,11 @@ Reitirnir undir **Ítarlegt** setja takmarkanir á myndaða skýrslu til að stj
 |Hámarksfjöldi skjala|500|
 
 > [!NOTE]
-> Hámarksgildin kunna að vera mismunandi fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] á staðnum og stjórnandi getur breytt þeim. Frekari upplýsingar er að finna í [Skilgreining Business Central Server - Skýrslur](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Fyrir yfirlit yfir takmarkanir á skýrslum í [!INCLUDE[d365fin](includes/d365fin_md.md)] á netinu, skal skoða [Rekstrarlegar takmarkanir](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+> Hámarksgildin kunna að vera mismunandi fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum og stjórnandi getur breytt þeim. Frekari upplýsingar er að finna í [Skilgreining Business Central Server - Skýrslur](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Fyrir yfirlit yfir takmarkanir á skýrslum í [!INCLUDE[prod_short](includes/prod_short.md)] á netinu, skal skoða [Rekstrarlegar takmarkanir](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Setja upp prentara](ui-specify-printer-selection-reports.md)  
 [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md)  
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

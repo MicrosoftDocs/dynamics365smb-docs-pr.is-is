@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 353b2074edf80ddba705004e62a86e47943a4366
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b45b4c109d33773ead4e920d5692a615faa7a366
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916777"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759593"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Skrá greiðslur og endurgreiðslur í greiðslubókina
 
 Á síðunni **Greiðslubók** skráir þú greiðslur sem þú greiðir lánardrottnum og endurgreiðslur sem þú greiðir viðskiptavinum. Þegar þú bókar greiðslubókarlínu er greidda upphæðin skráð í tilgreindan bankareikning kerfisins. Þú verður þá að gera ráðstafanir til að framkvæma raunverulegu peningamillifærslu af tengdum bankareikningi.  
 
-Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. Þú getur bætt við línum með skjótum hætti handvirkt, þú getur látið [!INCLUDE[d365fin](includes/d365fin_md.md)] stinga upp á lánardrottnagreiðslur, og þú getur jafnað greiðsluna á bókuð skjöl. Jafnvel þótt þú greiðir greiðslur, þá færirðu inn jákvæð upphæð í **Skjalaupphæð** reitinn. Það fer eftir gerð skjala fyrir færslubókarlínuna, þá er þetta upphæð breytt í neikvæð upphæð í undirliggjandi færslum. Þannig ertu fljótari að bæta við færslubókarlínum handvirkt. Ef þú vilt heldur færa inn neikvæðum upphæðum, getur þú sérsniðið greiðslubókina til að sýna **Upphæð** reitinn í staðinn.  
+Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. Þú getur bætt við línum með skjótum hætti handvirkt, þú getur látið [!INCLUDE[prod_short](includes/prod_short.md)] stinga upp á lánardrottnagreiðslur, og þú getur jafnað greiðsluna á bókuð skjöl. Jafnvel þótt þú greiðir greiðslur, þá færirðu inn jákvæð upphæð í **Skjalaupphæð** reitinn. Það fer eftir gerð skjala fyrir færslubókarlínuna, þá er þetta upphæð breytt í neikvæð upphæð í undirliggjandi færslum. Þannig ertu fljótari að bæta við færslubókarlínum handvirkt. Ef þú vilt heldur færa inn neikvæðum upphæðum, getur þú sérsniðið greiðslubókina til að sýna **Upphæð** reitinn í staðinn.  
 
 - Jafna greiðslur á reikninga eða kreditreikninga
 
@@ -40,13 +40,13 @@ Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubækur** og veldu síðan tengda tengilinn.
 2. Opnaðu bókarkeyrsluna sem er notuð fyrir greiðslur.
 3. Ef þú veist hverjum á að borga eða endurgreiða skaltu fylla inn reitina handvirkt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Til að einnig jafna greiðsluna við tengdan reikning eða kreditreikning skaltu velja **Jöfnunarskjalsnúmer** . reitinn á síðunni **Jafna lánardr.færslur** , velja viðeigandi reikning eða kreditreikning og síðan velja hnappinn **Í lagi** .
+4. Til að einnig jafna greiðsluna við tengdan reikning eða kreditreikning skaltu velja **Jöfnunarskjalsnúmer**. reitinn á síðunni **Jafna lánardr.færslur**, velja viðeigandi reikning eða kreditreikning og síðan velja hnappinn **Í lagi**.
 
     Mörg reiti, svo sem **Skjalaupphæð** og **Gjalddagi** reitir, eru nú fylltir inn með upplýsingum úr völdu skjalinu.
-5. Annar valkostur er að nota aðgerðina **Greiðslutillögur til lánardrottna** . Allar jöfnunarupplýsingar og upphæðir eru síðan einnig færðar inn í færslubókarlínur. Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).
+5. Annar valkostur er að nota aðgerðina **Greiðslutillögur til lánardrottna**. Allar jöfnunarupplýsingar og upphæðir eru síðan einnig færðar inn í færslubókarlínur. Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).
 
     Skilaboð munu leiðbeina þér í að fylla út nauðsynlega reiti á réttan hátt.
-6.  Þegar öllum greiðslubókarlínum er lokið skal velja aðgerðina **Bóka** .
+6.  Þegar öllum greiðslubókarlínum er lokið skal velja aðgerðina **Bóka**.
 
 ## <a name="see-also"></a>Sjá einnig
 [Framkvæma ávísanagreiðslur](payables-how-work-checks.md)  
@@ -56,4 +56,4 @@ Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. 
 [Flytja út jákvæða greiðsluskrá](finance-how-positive-pay.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Sérstilling verksvæðis](ui-personalization-user.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

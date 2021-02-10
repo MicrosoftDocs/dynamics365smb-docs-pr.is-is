@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að stofna framleiðsluuppskriftir | Microsoft Docs
-description: Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem notuð er í framleiðslu yfirvörunnar. Þegar framleiðslupöntun er búin til fyrir yfirvörunni stjórnar framleiðsluuppskriftin útreikningum á efniþörf, eins og sýnt er á síðunni **Íhlutir framl.pöntunar** .
+title: Hvernig á að stofna nýjar framl.uppskriftir
+description: Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem notuð er í framleiðslu yfirvörunnar. Þegar framleiðslupöntun er búin til fyrir yfirvörunni stjórnar framleiðsluuppskriftin útreikningum á efniþörf, eins og sýnt er á síðunni **Íhlutir framl.pöntunar**.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/05/2020
 ms.author: edupont
-ms.openlocfilehash: 1d053c65b94efdb3b033c617f1b6b2db316c1ec2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5c9f2fa03f5f20e533237e60762dc60fc679d0d0
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919289"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838483"
 ---
 # <a name="create-production-boms"></a>Búa til framleiðsluuppskriftir
-Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem notuð er í framleiðslu yfirvörunnar. Þegar framleiðslupöntun er búin til fyrir yfirvörunni stjórnar framleiðsluuppskriftin útreikningum á efniþörf, eins og sýnt er á síðunni **Íhlutir framl.pöntunar** .
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] styður einnig samsetningaruppskriftir. Samsetningarpantanir eru notaðar til að gera lokaafurð úr íhlutum með einföldu ferli sem hægt er að vinna með einu eða fleiri tilföngum, sem ekki eru vélar eða vinnustöðvar, eða án nokkurra tilfanga. Til dæmis gæti samsetningarferli falið í sér að velja tvær vínflöskur og einn kaffipoka og pakka þeim sem gjafavöru. Frekari upplýsingar er að finna í [Samsetningaruppskriftir eða framleiðsluuppskriftir](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem notuð er í framleiðslu yfirvörunnar. Þegar framleiðslupöntun er búin til fyrir yfirvörunni stjórnar framleiðsluuppskriftin útreikningum á efniþörf, eins og sýnt er á síðunni **Íhlutir framl.pöntunar**.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] styður einnig samsetningaruppskriftir. Samsetningarpantanir eru notaðar til að gera lokaafurð úr íhlutum með einföldu ferli sem hægt er að vinna með einu eða fleiri tilföngum, sem ekki eru vélar eða vinnustöðvar, eða án nokkurra tilfanga. Til dæmis gæti samsetningarferli falið í sér að velja tvær vínflöskur og einn kaffipoka og pakka þeim sem gjafavöru. Frekari upplýsingar er að finna í [Samsetningaruppskriftir eða framleiðsluuppskriftir](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Áður en þú getur sett upp leið verður eftirfarandi að vera á réttum stað:  
 
@@ -31,13 +32,13 @@ Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem no
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Framleiðsluuppskrift** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.  
 3. Fyllið inn í reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Til að hægt sé að breyta uppskriftinni verður reiturinn **Staða** að vera stilltur á **Ný** eða **Í þróun** . Til að ræsa hana þarf að stilla **Staða** á **Vottað** .  
+4. Til að hægt sé að breyta uppskriftinni verður reiturinn **Staða** að vera stilltur á **Ný** eða **Í þróun**. Til að ræsa hana þarf að stilla **Staða** á **Vottað**.  
 
     Haldið áfram til að fylla út í framleiðsluuppskriftarlínurnar
 5. Í reitnum **Tegund** er valið hvort vara á þessari uppskriftarlínu er venjuleg vara eða framleiðsluuppskrift. Ef varan á línunni er framleiðsluuppskrift þá verður hún þegar að vera til staðar sem vottuð framleiðsluuppskrift.  
 6.  Í reitnum **númer** er umræddri vöru eða framleiðsluuppskrift flett upp og hún valin eða hún slegin handvirkt í reitinn.  
 7.  Í reitnum **Magn á** er fært inn hversu margar einingar vörunnar fara í yfirvöruna, t.d. 4 dekk á 1 bifreið.  
-8.  Í reitnum **Úrkast %** er hægt að slá inn fast hlutfall íhluta sem er fleygt meðan á framleiðslu stendur. Þegar íhlutirnir eru tilbúnir til notkunar í útgefinni framleiðslupöntun er hlutfallinu bætt við áætlað magn (í reitnum  **Notkunarmagn** ) í framleiðslubók. Frekari upplýsingar eru í [Skrá Notkun og frálag](production-how-to-register-consumption-and-output.md).  
+8.  Í reitnum **Úrkast %** er hægt að slá inn fast hlutfall íhluta sem er fleygt meðan á framleiðslu stendur. Þegar íhlutirnir eru tilbúnir til notkunar í útgefinni framleiðslupöntun er hlutfallinu bætt við áætlað magn (í reitnum  **Notkunarmagn**) í framleiðslubók. Frekari upplýsingar eru í [Skrá Notkun og frálag](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  Þetta úrkastshlutfall stendur fyrir íhluti sem er fleygt á meðan á framleiðslu stendur (þegar tekið er úr birgðum) á meðan úrkastshlutfall á leiðarlínum stendur fyrir frálagi sem er fleygt (áður en það verður birgðir).  
@@ -48,7 +49,7 @@ Framleiðsluuppskrift geymir aðalgögn sem lýsa íhlutum og millivörum sem no
 12.  Nú er hægt að hengja nýju framleiðsluuppskriftina við spjald viðkomandi yfirvöru. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
->  Til að endurreikna staðlað kostnaðarverð vörunnar úr birgðaspjaldinu skal velja **Framleiðsla** og síðan smellt á **Reikna staðlað kostn.verð** aðgerðina.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Til að endurreikna staðlað kostnaðarverð vörunnar úr birgðaspjaldinu skal velja **Framleiðsla** og síðan smellt á **Reikna staðlað kostn.verð** aðgerðina.  
 
 ## <a name="to-create-a-new-versions-of-a-production-bom"></a>Gerð nýrra útgáfa af framleiðsluuppskriftum
 Nýjar útgáfur af framl.uppskriftum eru t.d. notaðar þegar vöru er skipt út með annarri vöru, eða þegar viðskiptamaður krefst sérstakrar útgáfu af vörunni. Útgáfureglan gerir kleift að stjórna ólíkum útgáfum af framleiðsluuppskrift. Uppbygging framleiðsluuppskriftarútgáfunnar samsvarar uppbyggingu framleiðsluuppskriftanna. Grundvallarmunurinn er gildistími á útgáfunum. Gildistíminn er skilgreindur af upphafsdagsetningu.  
@@ -59,12 +60,12 @@ Upphafsdagsetningin sýnir upphaf tímabilsins sem útgáfan er í gildi. Upphaf
 2.  Framleiðsluuppskriftin sem á að afrita er valin og svo er aðgerðin **Útgáfur** valin.  
 3.  Valið er **Nýtt** aðgerð.  
 4. Fyllið inn reitina eftir þörfum.
-5. Einstakt auðkenni útgáfunnar er fært inn í reitinn **Útgáfukóti** . Hvaða samsetning af tölum og bókstöfum er leyfileg.  
+5. Einstakt auðkenni útgáfunnar er fært inn í reitinn **Útgáfukóti**. Hvaða samsetning af tölum og bókstöfum er leyfileg.  
 
     Nýja útgáfan sem búin var til fær sjálfkrafa stöðuna **Ný.**
-6. Þegar uppskriftarútgáfunni er lokið, setja **Staða** reitinn á **Vottað** .  
+6. Þegar uppskriftarútgáfunni er lokið, setja **Staða** reitinn á **Vottað**.  
 
-Gildistími útgáfunnar er tilgreindur í reitnum **Upphafsdagsetning** .  
+Gildistími útgáfunnar er tilgreindur í reitnum **Upphafsdagsetning**.  
 
 > [!NOTE]  
 >  Veljið valkostinn **Vara** í reitnum **Tegund** til að nota vöru úr aðalvörugögnum í framleiðsluuppskriftinni. Ef vörunni fylgir einnig framleiðsluuppskrift þar sem reiturinn **Nr. framleiðsluuppskriftar** er fylltur út á birgðaspjaldinu er einnig tekið tillit til hennar.  
@@ -96,4 +97,4 @@ Framleiðsluuppskrift hljóðar upp á sjötíu málmhluti með víddina lengd =
 [Áætlun](production-planning.md)   
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
