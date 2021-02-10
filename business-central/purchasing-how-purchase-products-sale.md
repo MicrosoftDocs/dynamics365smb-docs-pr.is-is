@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f9fb4a2574c93c60f0bfbcaeeff86676393555d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 44a11933488ef6f7c6a8b007bdd9ae9049a5b3bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926848"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758518"
 ---
 # <a name="purchase-items-for-a-sale"></a>Kaupa vörur fyrir sölu
 Frá sölupöntunum og sölureikningum geturðu notað aðgerð til stofna á skjótan hátt innkaupaskjöl fyrir vörumagn sem vantar en er krafist við söluna. Hægt er að nota tvær mismunandi aðgerðir, eftir gerð skjalsins.
@@ -42,9 +42,9 @@ Til að stofna innkaupapöntun fyrir hvert ótiltækt vörumagn í sölupöntuni
 
     > [!NOTE]  
     >   Þú getur líka breytt **Magn til innkaupa** reitnum á grámuðum línum jafnvel þótt þær sýni fullkomlega tiltækt sölumagn.
-5. Velja hnappinn **Í lagi** .
+5. Velja hnappinn **Í lagi**.
 
-    Innkaupapöntun er stofnuð fyrir hvern lánardrottinn vöru á sölupöntuninni, og í henni eru allar magnbreytingar sem þú kannt að hafa gert á síðunni **Stofna innkaupapöntun** .
+    Innkaupapöntun er stofnuð fyrir hvern lánardrottinn vöru á sölupöntuninni, og í henni eru allar magnbreytingar sem þú kannt að hafa gert á síðunni **Stofna innkaupapöntun**.
 7. Halda áfram að vinna innkaupapöntun eða pantanir, til dæmis með því að breyta eða bæta við innkaupareikningslínum. Nánari upplýsingar eru í reitnum [Skrá innkaup](purchasing-how-record-purchases.md).
 
 
@@ -69,4 +69,4 @@ Til að stofna stakan innkaupareikning fyrir eina eða fleiri línur í söluskj
 [Skrá innkaup](purchasing-how-record-purchases.md)  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

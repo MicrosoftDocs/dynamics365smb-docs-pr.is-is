@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50b2a25ca18773340e10b52529ba484843cad7f1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f978047720f6e67c58c7c845a15f957258aaca3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910306"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757918"
 ---
 # <a name="set-up-service-contracts"></a>Setja upp þjónustusamninga
 Áður en þú vinnur með samninga verður þú að setja upp eftirfarandi: 
@@ -23,7 +23,7 @@ ms.locfileid: "3910306"
 * **Þjónustusamningsflokka** sem sem safna saman þjónustusamningum sem tengjast með einhverjum hætti.
 * **Reikningsflokkar þjónustusamninga** eru notaðir til að flokka þjónustusamningsreikningana saman fyrir þjónustureikninga búna til fyrir þjónustusamninga. Þú úthlutar þessa flokka til þjónustusamningum.  
 * **Samningssniðmát** sem skilgreinir samningsútlit samninga sem innihalda algengustu atriði í þjónustusamningum. Þegar þjónustusamningstilboð er stofnað er hægt að gera það með sniðmáti. Þegar þú býrð til samningstilboð, innihalda reitirnir sjálfkrafa innihald reitasniðmáts.
-* **Sniðmát viðskiptamanna** sem leyfir þér að búa til tilboð fyrir tengiliði eða hugsanlega viðskiptamenn sem er ekki skráðir sem viðskiptamenn í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+* **Sniðmát viðskiptamanna** sem leyfir þér að búa til tilboð fyrir tengiliði eða hugsanlega viðskiptamenn sem er ekki skráðir sem viðskiptamenn í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Uppsetning þjónustusamningsflokka  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustusamningsflokkar** og veldu síðan tengda tengilinn.  
@@ -33,7 +33,7 @@ ms.locfileid: "3910306"
 ## <a name="to-set-up-a-service-contract-account-group"></a>Uppsetning reikningsflokkaþjónustusamninga  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókunarflokkur þjónustusamninga** og veldu síðan tengda tengilinn.  
 2. Nýr reikningsflokkur þjónustusamninga er stofnaður.   
-3. Fyllt er í reitina **Kóti** og **Lýsing** . Í þessum reitum er lýsing á þjónustureikningsflokknum.  
+3. Fyllt er í reitina **Kóti** og **Lýsing**. Í þessum reitum er lýsing á þjónustureikningsflokknum.  
 4. Reiturinn **Reikn. Eftirágreiddra samninga** er fylltur út, velja skal númer fjárhagsreikningsins fyrir reikninginn sem er ekki fyrirframgreiddur.  
 5. Í reiturinn **Reikn. Fyrirframgreiddra samninga** skal velja númer fjárhagsreikningsins fyrir reikninginn sem er fyrirframgreiddur.  
 
@@ -44,15 +44,15 @@ ms.locfileid: "3910306"
   
      Hafi númeraröð fyrir þjónustupantanir verið sett upp á síðunni **Þjónustukerfisgrunnur** er einnig hægt að styðja á færslulykilinn þannig að kerfið færi inn næsta lausa samningssniðmátsnúmer. Hinir reitirnir eru fylltir út, ef það á við.  
   
-4. Á flýtiflipanum **Reikningur** er fyllt út reitinn **Kóði fyrir reikningaflokk þjónustusamninga** , **Reikningstímabil** o. s. frv. Hinir reitirnir eru fylltir út, ef það á við.  
+4. Á flýtiflipanum **Reikningur** er fyllt út reitinn **Kóði fyrir reikningaflokk þjónustusamninga**, **Reikningstímabil** o. s. frv. Hinir reitirnir eru fylltir út, ef það á við.  
 5. Velja aðgerðina **Þjónustuafsláttur** til að bæta við samningsafslætti.  
 
 ## <a name="to-set-up-a-customer-template"></a>Uppsetning sniðmáts viðskiptamanns  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamannasniðmát** og veldu síðan tengda tengilinn.  
 2. Nýtt  sniðmátsspjald viðskiptamannser stofnað.  
-3. Á flýtiflipanum **Almennt** er ritaður kóti og lýsing fyrir sniðmát viðskiptamanns í reitina **Kóti** og **Lýsing** . 
-4. Aðrir reitir, til dæmis **Landssvæðis kóði** , **Umsjónarsvæðiskóði** og **Kóði tungumáls** , eru notaðir sem leitarskilyrði og þá má fylla út.  
-5. Fylla þarf út reitina **Alm. viðsk.bókunarflokkur** og **Bókunarflokkur viðskm.** .  
+3. Á flýtiflipanum **Almennt** er ritaður kóti og lýsing fyrir sniðmát viðskiptamanns í reitina **Kóti** og **Lýsing**. 
+4. Aðrir reitir, til dæmis **Landssvæðis kóði**, **Umsjónarsvæðiskóði** og **Kóði tungumáls**, eru notaðir sem leitarskilyrði og þá má fylla út.  
+5. Fylla þarf út reitina **Alm. viðsk.bókunarflokkur** og **Bókunarflokkur viðskm.**.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Þjónustustýring sett upp](service-setup-service.md)

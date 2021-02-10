@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912322"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757493"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Greiðslur og afstemmingar (DK) viðbótin
 
@@ -51,17 +51,17 @@ Nokkur skref eru nauðsynleg í upphafi.
 * Tilgreina greiðslumáta fyrir hvern lánardrottininn. Greiðslumátar skilgreina hvernig þú borgar reikninga frá lánardrottninum. Til dæmis Banki, Staðgreiðsla, Ávísun eða Reikningur.  
 * Tilgreina gerð sniðsins sem á að nota fyrir hvern bankareikning. Til dæmis NORDEA, DANSKEBANK, SDC og svo framvegis.  
 
-Að auki þarftu að úthluta lánardrottnum á staðbundinn **Alm. viðsk.bókunarflokkur** og **Bókunarflokk lánardrottins** . Stilling fyrir land/svæði fyrir lánardrottinn verður að vera Danmörk (DK). Nánari upplýsingar er að finna í [Uppsetning Bókunarflokka](finance-posting-groups.md).  
+Að auki þarftu að úthluta lánardrottnum á staðbundinn **Alm. viðsk.bókunarflokkur** og **Bókunarflokk lánardrottins**. Stilling fyrir land/svæði fyrir lánardrottinn verður að vera Danmörk (DK). Nánari upplýsingar er að finna í [Uppsetning Bókunarflokka](finance-posting-groups.md).  
 
-### <a name="to-allow-d365fin-to-export-payment-data"></a>Til að leyfa [!INCLUDE[d365fin](includes/d365fin_md.md)] að flytja út greiðslugögn
+### <a name="to-allow-prod_short-to-export-payment-data"></a>Til að leyfa [!INCLUDE[prod_short](includes/prod_short.md)] að flytja út greiðslugögn
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðslubók** og veldu síðan tengda tengilinn.  
-2. Á síðunni **Breyta greiðslubók** er valið **Banki** .  
-3. Veljið gátreitinn **Leyfa greiðsluútflutning** .  
+2. Á síðunni **Breyta greiðslubók** er valið **Banki**.  
+3. Veljið gátreitinn **Leyfa greiðsluútflutning**.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Til að tilgreina greiðslumáta lánardrottins
 
-Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[d365fin](includes/d365fin_md.md)] styður.
+Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[prod_short](includes/prod_short.md)] styður.
 
 |Samsetning|Gerð 01 | Gerð 04 | Gerð 71 | Gerð 73 |
 |----|--------|---------|---------|---------|
@@ -87,7 +87,7 @@ Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[d365
 4. Í **Greiðslutilvísun** skal slá inn 15 stafa númerið á reikningi lánardrottins.  
 
     > [!Tip]
-    > Þú verður aðeins að bæta við síðustu 11 tölustöfum í númerinu. [!INCLUDE[d365fin](includes/d365fin_md.md)] mun bæta fjórum núllum við upphaf númersins.  
+    > Þú verður aðeins að bæta við síðustu 11 tölustöfum í númerinu. [!INCLUDE[prod_short](includes/prod_short.md)] mun bæta fjórum núllum við upphaf númersins.  
 
 5. Bóka skal reikninginn.
 
@@ -100,11 +100,11 @@ Eftirfarandi tafla sýnir sambland FIK og GIRO greiðslumáta sem [!INCLUDE[d365
     > Ef þú vilt aðeins flytja út tilteknar greiðslur skaltu nota afmörkunarvalkosti gagna.  
 
 3. Ef það er nauðsynlegt er hægt að bæta við afmörkunum til að flytja aðeins tilteknar greiðslur.  
-4. Í reitnum **Tegund bankagreiðslu** skal velja **Rafræn greiðsla** .  
+4. Í reitnum **Tegund bankagreiðslu** skal velja **Rafræn greiðsla**.  
 5. Veldu **Export** aðgerðina.  
 
 ## <a name="see-also"></a>Sjá einnig .
 
-[Sérstilla Business Central fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
+[Sérstilla Business Central fyrir [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  

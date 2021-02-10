@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bbc7314c9f178385fbb882a4615950277b0c0d88
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 931ec0f9a329daa30ef3208d0fa4d695f173e9d5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915435"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759018"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Keyra fulla áætlunargerð, MPS eða MRP
 Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikning aðalframleiðsluáætlunar og efnisþarfa samkvæmt raunverulegri eftirspurn og eftirspurn samkvæmt spá. Áætlunarkerfið getur reiknað MPS og MRP samkvæmt beiðni eða reiknað bæði á sama tíma.  
@@ -23,7 +23,7 @@ Skilmálarnir "sem keyra áætlunarvinnublaðið" eða "MRP" eiga við útreikni
 -   MPS er útreikningur á aðalframleiðsluáætlun byggt á raunverulegri eftirspurn og eftirspurnarspá. MPS-útreikningur er notaður fyrir lokavörur sem eru með spá eða sölupöntunarlínu. Þessar vörur eru kallaðar "MPS-vörur" og eru auðkenndar þegar útreikningur hefst.  
 -   MRP er útreikningur á efnisþörfum sem byggjast á raunverulegri eftirspurn eftir hlutum og eftirspurnarspá á hlutastigi. MRP er eingöngu reiknað fyrir vörur sem eru ekki MPS-vörur. Tilgangur MRP er bjóða upp á tímasettar áætlanir þannig að viðeigandi vara er til á viðeigandi tíma, á viðeigandi stað og í viðeigandi magni.  
 
-Áætlunaralgóritmarnir fyrir MPS og MRP eru eins. Þeir ná yfir samantekt nettóstöðu, endurnotkun fyrirliggjandi áfyllingarpantana og aðgerðarboð. Áætlunarkerfisvinnslan tekur mið af þörfum eða væntanlegum þörfum (eftirspurn) og hvað er til staðar (framboð). Þegar þessar tegundir magns eru nettófærðar stofnar [!INCLUDE[d365fin](includes/d365fin_md.md)] aðgerðarboð. Aðgerðarboð eru tillögur um að stofna nýja pöntun, breyta pöntun (magni eða dagsetningu) eða hætta við pöntun í pöntun. Hugtakið „pöntun“ inniber innkaupapantanir, samsetningarpöntun, framleiðslupantanir og millifærslupantanir.
+Áætlunaralgóritmarnir fyrir MPS og MRP eru eins. Þeir ná yfir samantekt nettóstöðu, endurnotkun fyrirliggjandi áfyllingarpantana og aðgerðarboð. Áætlunarkerfisvinnslan tekur mið af þörfum eða væntanlegum þörfum (eftirspurn) og hvað er til staðar (framboð). Þegar þessar tegundir magns eru nettófærðar stofnar [!INCLUDE[prod_short](includes/prod_short.md)] aðgerðarboð. Aðgerðarboð eru tillögur um að stofna nýja pöntun, breyta pöntun (magni eða dagsetningu) eða hætta við pöntun í pöntun. Hugtakið „pöntun“ inniber innkaupapantanir, samsetningarpöntun, framleiðslupantanir og millifærslupantanir.
 
 Tengla sem eru stofnaðir af áætlunarkerfinu milli eftirspurnar og tengds framboðs er hægt að rekja á síðunni **Pöntunarrakning**. Frekari upplýsingar eru í [Rekja tengsl á milli framboðs og eftirspurnar](production-how-track-demand-supply.md).   
 
@@ -37,7 +37,7 @@ Viðundandi niðurstöður áætlunar byggjast á uppsetningu í birgðaspjöldu
     - **Breytingar á áætlunarfæribreytum**: Þar með talið eru breytingar á öryggisbirgðum, endurpöntunarmarki, leið, uppskrift og breytingar útreikningi tímaramma eða afhendingartíma.  
 -   **Sækja aðgerðarboð:** Þessi aðgerð er skammtímaáætlunarverkfæri sem gefur út aðgerðarboð sem tilkynna notanda breytingar síðan síðasta endurgerðar- eða hreyfingaáætlun var reiknuð.  
 
-Með hverri áætlunaraðferð, myndar [!INCLUDE[d365fin](includes/d365fin_md.md)] vinnublaðafærslur þar sem gert er ráð fyrir óendanlegum afköstum. Afköst vinnustöðvar og vélastöðvar eru ekki tekin með þegar skemu eru unnin.  
+Með hverri áætlunaraðferð, myndar [!INCLUDE[prod_short](includes/prod_short.md)] vinnublaðafærslur þar sem gert er ráð fyrir óendanlegum afköstum. Afköst vinnustöðvar og vélastöðvar eru ekki tekin með þegar skemu eru unnin.  
 
 > [!IMPORTANT]  
 >  Aðgerðin Reikna áætlun endurgerðar er algengasta vinnslan. Aðgerðirnar útreikningsvinnublaða áætlunar og aðgerðarboð eru hins vegar notaðar til keyra vinnsluna Reikna áætlun hreyfingar.  
@@ -97,11 +97,11 @@ Til að koma í veg fyrir óþörf aðgerðaboð getur notandi stofnað hömlur 
 
 |Aðgerðarboð|Lýsing|  
 |--------------------|---------------------------------------|  
-|**Nýtt**|Ef ekki er hægt að uppfylla eftirspurn með aðgerðarboðum um **Breyta magni**, **Enduráætla**eða **Enduráætla og breyta** í fyrirliggjandi pöntunum birtast aðgerðarboðin **Nýtt** sem er tillaga um nýja pöntun. Auk þess eru aðgerðarboðin **Nýtt** gefin út ef engar framboðspantanir eru í endurpöntunarferli fyrir viðkomandi vöru eru til staðar. Þessi færibreyta ákvarðar fjölda tímabila fram og til baka í ráðstöfunarforstillingunni þegar leitað er að pöntun fyrir til að enduráætla.|  
-|**Breyta magni**|Þegar eftirspurn sem rakin er til framboðspöntunar verður fyrir magnbreytingu birtast aðgerðaboðin **Breyta magni** , sem þýðir að tengdu framboði ætti að breyta miðað við breytinguna í eftirspurn. Ef ný eftirspurn myndast leitar [!INCLUDE[d365fin](includes/d365fin_md.md)] að næstu ófráteknu framboðspöntun innan endurpöntunarferlisins og gefur út aðgerðarboð um að breyta þeirri pöntun.|  
+|**Nýtt**|Ef ekki er hægt að uppfylla eftirspurn með aðgerðarboðum um **Breyta magni**, **Enduráætla** eða **Enduráætla og breyta** í fyrirliggjandi pöntunum birtast aðgerðarboðin **Nýtt** sem er tillaga um nýja pöntun. Auk þess eru aðgerðarboðin **Nýtt** gefin út ef engar framboðspantanir eru í endurpöntunarferli fyrir viðkomandi vöru eru til staðar. Þessi færibreyta ákvarðar fjölda tímabila fram og til baka í ráðstöfunarforstillingunni þegar leitað er að pöntun fyrir til að enduráætla.|  
+|**Breyta magni**|Þegar eftirspurn sem rakin er til framboðspöntunar verður fyrir magnbreytingu birtast aðgerðaboðin **Breyta magni** , sem þýðir að tengdu framboði ætti að breyta miðað við breytinguna í eftirspurn. Ef ný eftirspurn myndast leitar [!INCLUDE[prod_short](includes/prod_short.md)] að næstu ófráteknu framboðspöntun innan endurpöntunarferlisins og gefur út aðgerðarboð um að breyta þeirri pöntun.|  
 |**Endurtímasetja**|Þegar dagsetning framboðs- eða eftirspurnarpöntunar breytist og ójafnvægi skapast út frá því gefur kerfið út aðgerðarboðin **Enduráætla**. Ef bein tengsl eru á milli framboðs og eftirspurnar er gefið út aðgerðarboð þar sem stungið er upp á að framboð verði fært um það sama. Ef framboðspöntunin annar eftirspurn úr meira en einni sölupöntun er framboðspöntunin enduráætluð til jafns við dagsetningu fyrstu eftirspurnarinnar.|  
 |**Endurtímas. og br. magni.**|Ef bæði dagsetning og magn í pöntun breytast verður að breyta áætlunum með tilliti til beggja þátta. Aðgerðaboð taka báðar aðgerðir í ein skilaboð, **Enduráætla og Breyta magni**, til að tryggja jafnvægi komist á pöntunarnetið.|  
-|**Hætta við**|Ef eftirspurn, sem uppfyllt er samkvæmt hverri beiðni, er eytt birtast aðgerðarboð um að hætta við tengda framboðspöntun. Ef tengslin eru ekki byggð á hverri pöntun fyrir sig eru stofnuð aðgerðarboð um að breyta pöntuninni til að draga úr framboði. Ef aðrir þættir, t.d. birgðaleiðréttingar, valda því að framboðspöntun er óþörf þegar notandi gefur út aðgerðarboð birtir [!INCLUDE[d365fin](includes/d365fin_md.md)] aðgerðarboðin **Hætta við** á vinnublaðinu.|  
+|**Hætta við**|Ef eftirspurn, sem uppfyllt er samkvæmt hverri beiðni, er eytt birtast aðgerðarboð um að hætta við tengda framboðspöntun. Ef tengslin eru ekki byggð á hverri pöntun fyrir sig eru stofnuð aðgerðarboð um að breyta pöntuninni til að draga úr framboði. Ef aðrir þættir, t.d. birgðaleiðréttingar, valda því að framboðspöntun er óþörf þegar notandi gefur út aðgerðarboð birtir [!INCLUDE[prod_short](includes/prod_short.md)] aðgerðarboðin **Hætta við** á vinnublaðinu.|  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Áætlun](production-planning.md)  
@@ -111,4 +111,4 @@ Til að koma í veg fyrir óþörf aðgerðaboð getur notandi stofnað hömlur 
 [Innkaup](purchasing-manage-purchasing.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

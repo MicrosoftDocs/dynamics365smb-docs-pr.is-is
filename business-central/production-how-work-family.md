@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b405d883d42af98a95066fc9e918a69d9ce99e6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f33ac3e581325eb714af67ee7040157a61e59fc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921493"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758868"
 ---
 # <a name="work-with-production-families"></a>Vinna með framleiðslusamsafn
 Framleiðslusamsafn er hópur einstakra vara sem byggðar eru á líku framleiðsluferli. Með því að mynda framleiðslusamsöfn er hægt að framleiða sumar vörur tvisvar eða oftar í einni vinnslu, en þetta fínstillir efnisnotkun.
@@ -34,7 +34,7 @@ Stofnun framleiðslusamsafna dregur úr úrkastsmagninu vegna þess að það se
 ## <a name="to-produce-based-on-a-production-family"></a>Framleiðsla byggt á framleiðslusamsafni
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pantanir** og veldu síðan tengda tengilinn.
 2. Stofna nýja framleiðslupöntun Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).
-3. Í reitnum **Gerð uppruna** , veljið **Samsafn** .  
+3. Í reitnum **Gerð uppruna**, veljið **Samsafn**.  
 4. Í reitnum **Forðanr.** er viðeigandi framleiðslusamsafn valið.
 
 ## <a name="see-also"></a>Sjá einnig
@@ -44,4 +44,4 @@ Stofnun framleiðslusamsafna dregur úr úrkastsmagninu vegna þess að það se
 [Áætlun](production-planning.md)   
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

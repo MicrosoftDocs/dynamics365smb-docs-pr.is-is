@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 47c7add8c281a28c1b9beaecc18d28f5e1041a3c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 23bfdd962bb2877d980c1dc6f0b4406ad3497c6c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912872"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757743"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Uppsetning bestu venja: Endurpöntunarstefnur
 Svæðið **Endurpöntunarstefna** á birgðaspjöldum býður upp á fjórar mismunandi áætlunaraðferðir sem ákvarða hvernig einstaka áætlunarfæribreytur orka hver á aðra.  
@@ -28,7 +28,7 @@ Einn grundvöllur undir bestu venjur til að velja endurpöntunarstefnu er ABC-f
 |B|20|20|
 |C|60-70|10-30|
 
-ABC-flokkunin segir að spara megi vinnu og peninga með því að hafa lausari taum á vörum af lágu virði-magni en á vörum af háu virði-magni. Eftirfarandi mynd sýnir hvaða endurpöntunarstefna í [!INCLUDE[d365fin](includes/d365fin_md.md)] er best við fyrir A, B og C - vörur, í þessari röð.
+ABC-flokkunin segir að spara megi vinnu og peninga með því að hafa lausari taum á vörum af lágu virði-magni en á vörum af háu virði-magni. Eftirfarandi mynd sýnir hvaða endurpöntunarstefna í [!INCLUDE[prod_short](includes/prod_short.md)] er best við fyrir A, B og C - vörur, í þessari röð.
 
 ![ABC-flokkun](media/abc_classification.png "abc_classification")
 
@@ -45,4 +45,4 @@ Eftirfarandi tafla gefur upp bestu venjur til að velja milli fjögurra stefna.
  [Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)   
  [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
- [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

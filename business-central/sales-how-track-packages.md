@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: rfq
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6b0cf72609a180d271604dd276f840efbc6b1aa6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5136c675d50e4d9ac91f43755dfb44810701096d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910656"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758018"
 ---
 # <a name="track-packages"></a>Finna sendingar
 
@@ -24,9 +24,9 @@ Eftirfarandi ferli sýnir hvernig á að rekja pakka frá bókaðri sölusending
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókuð söluafhending** og veldu síðan tengda tengilinn.
 2. Viðeigandi afhending er opnuð.
-3. Veldu aðgerðina **Uppfæra fylgiskjal** .
+3. Veldu aðgerðina **Uppfæra fylgiskjal**.
 4. Í **Rakningarnúmer pakka** reitinn er ritað pakkanúmerið sem flutningsaðilinn lagði í té. Uppfærðu **Flutningsaðili** ef þörf er á og lokaðu síðunni.
-5. Velja aðgerðina **Rekja pakka** .
+5. Velja aðgerðina **Rekja pakka**.
 
 Sjálfgefinn vafri opnar rakningarsíðu flutningsaðila.
 
@@ -36,4 +36,4 @@ Sjálfgefinn vafri opnar rakningarsíðu flutningsaðila.
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

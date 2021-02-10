@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ba066e9d40959b48901792d7ceff8589525c6d7a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a206386039e277eddd13801da23bb32c2845227
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910406"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757943"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Úthlutunarstaða og viðgerðarstaða
 Viðgerðarstaða þjónustuvöru og úthlutarstaða úthlutunarfærslna vegna þjónustuvöru tengjast á vissan hátt í Þjónustukerfi. Úthlutunarstaðan breytist þegar viðgerðarstöðu þjónustuvöru er breytt úr  **Lokið** eða  **Hluta þjónustu lokið** og þegar þjónustutilboði er breytt í þjónustupöntun. Viðgerðarstaða þjónustuvöru breytist þegar hætt er við úthlutun þjónustuvöru eða henni er endurúthlutað til annars forða. Hægt er að skoða viðgerðastöðu þjónustuvöru á síðunni **Þjónustuverk** og hægt er að uppfæra viðgerðarstöðu í **Kóti viðgerðastöðu** á síðunni **Þjónustuvörublað**. Hægt er að skoða úthlutunarstöðuna í reitnum **Staða** á síðunni **Úthlutun forða**.  
@@ -38,7 +38,7 @@ Viðgerðarstaða þjónustuvöru og úthlutarstaða úthlutunarfærslna vegna �
 * Leitað er að úthlutunarfærslum vegna allrar þjónustuvörunnar í þjónustupöntuninni sem er með stöðuna **Virk**. Ef slíkar úthlutunarfærsla finnast er stöðu úthlutunar breytt úr **Virk** í **Þarf að endurúthluta**.  
   
 ## <a name="canceling-allocations"></a>Hætt við úthlutanir  
-Þegar úthlutun vegna þjónustuvöru er afturkölluð uppfærir [!INCLUDE[d365fin](includes/d365fin_md.md)] úthlutunarstöðu samsvarandi úthlutunarfærslu frá **Virk** yfir í **Þörf á endurúthlutun**.
+Þegar úthlutun vegna þjónustuvöru er afturkölluð uppfærir [!INCLUDE[prod_short](includes/prod_short.md)] úthlutunarstöðu samsvarandi úthlutunarfærslu frá **Virk** yfir í **Þörf á endurúthlutun**.
 
 Viðgerðarstaða þjónustuvörunnar í úthlutunarfærslunni er uppfærð sem hér segir:  
   

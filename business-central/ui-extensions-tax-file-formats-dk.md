@@ -12,15 +12,15 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: dced6a3ae539e795c9207acd7eb7873798e570ab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 07c6e22e6bd9729fbf5ba436644834fbeba0d085
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923446"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757418"
 ---
 # <a name="the-tax-file-formats-dk-extension"></a>Viðbót fyrir Tax File Formats (DK)
-Ef þú stundar viðskipti við fyrirtæki, eða innri útibú eða dótturfélög, í öðrum Evrópulöndum þarftu að tilkynna upplýsingar um starfsemina til SKAT og Statistics Denmark. Ef þú notar virðisaukaskatt og Intrastat-skýrslugerð í [!INCLUDE[d365fin](includes/d365fin_md.md)], getur þessi viðbót tryggt að skráin sem þú flytur út sé samhæf við kröfur þessara stofnunana. Viðbótin bætir kóðaeiningu MS-ECSL skýrsluútflutningsskrá og Intrastat-útflutningslínur í VSK skýrsluskilgreininguna, svo þú getur flutt gögn í nýju sniði strax.
+Ef þú stundar viðskipti við fyrirtæki, eða innri útibú eða dótturfélög, í öðrum Evrópulöndum þarftu að tilkynna upplýsingar um starfsemina til SKAT og Statistics Denmark. Ef þú notar virðisaukaskatt og Intrastat-skýrslugerð í [!INCLUDE[prod_short](includes/prod_short.md)], getur þessi viðbót tryggt að skráin sem þú flytur út sé samhæf við kröfur þessara stofnunana. Viðbótin bætir kóðaeiningu MS-ECSL skýrsluútflutningsskrá og Intrastat-útflutningslínur í VSK skýrsluskilgreininguna, svo þú getur flutt gögn í nýju sniði strax.
 
 Viðbótin er ókeypis, þú þarft bara að setja hana upp.
 

@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 046c829955b38f6f5ea416e0a80c1fe058476942
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22153df1e56d274256b53d426e2dff30cad3e4bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918892"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758593"
 ---
 # <a name="date-calculation-for-purchases"></a>Dagsetning útreiknings fyrir kaup.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar sjálfkrafa daginn sem verður að panta vöru svo hún sé til í birgðum á tilteknum degi. Þetta er dagsetningin sem vænta má þess að vara sem pöntuð er á tilteknum degi verði tiltæk til tínslu.  
+[!INCLUDE[prod_short](includes/prod_short.md)] reiknar sjálfkrafa daginn sem verður að panta vöru svo hún sé til í birgðum á tilteknum degi. Þetta er dagsetningin sem vænta má þess að vara sem pöntuð er á tilteknum degi verði tiltæk til tínslu.  
 
-Ef umbeðin móttökudagsetning er tilgreind í innkaupapöntunarhaus verður reiknuð pöntunardagsetning dagsetningin þegar leggja þarf fram pöntun til að vörurnar berist á þeim degi sem beðið var um. Svo er dagsetningin þegar vörurnar verða tilbúnar reiknuð og færð inn í reitinn **Væntanleg móttökudagsetning** .  
+Ef umbeðin móttökudagsetning er tilgreind í innkaupapöntunarhaus verður reiknuð pöntunardagsetning dagsetningin þegar leggja þarf fram pöntun til að vörurnar berist á þeim degi sem beðið var um. Svo er dagsetningin þegar vörurnar verða tilbúnar reiknuð og færð inn í reitinn **Væntanleg móttökudagsetning**.  
 
 Ef ekki er tilgreind ósk um móttökudag notar forritið pöntunardaginn í línunni sem upphafspunkt þegar það reiknar út hvenær búast má við því að fá vörur sendar og þá dagsetningu þegar varan verður tiltæk til afgreiðslu.  
 
@@ -50,7 +50,7 @@ Ef pöntunardagsetningunni er breytt í hausnum er dagsetningin afrituð inn í 
 
 ## <a name="default-values-for-lead-time-calculation"></a>Sjálfgefin gildi fyrir útreikning afhendingartíma
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] notar gildið úr reitnum **Útreikningur afhendingartíma** í innkaupapöntunarlínunni til að reikna út pöntunina og væntanlegar móttökudagsetningar.  
+[!INCLUDE[prod_short](includes/prod_short.md)] notar gildið úr reitnum **Útreikningur afhendingartíma** í innkaupapöntunarlínunni til að reikna út pöntunina og væntanlegar móttökudagsetningar.  
 
 Hægt er að tilgreina gildið handvirkt í línunni eða leyfa forritinu að nota gildin sem skilgreind eru í lánardrottnaspjaldi, birgðaspjaldi, birgðahaldseiningu eða vörulista lánardrottins.
 Gildið fyrir afhendingartíma á lánardrottnaspjaldi er hinsvegar aðeins notað ef afhendingartími er ekki tilgreindur í birgðaspjaldinu, birgðahaldseiningunni eða vörulista lánardrottins fyrir vöruna. Þetta er einnig hækkandi forgangsröð fyrir þessi gildi. Ef þau eru öll gefin upp hefur afhendingartíminn úr lánardrottnaspjaldinu lægsta forgang og afhendingartíminn úr vörulista lánardrottins hæsta forgang.  
@@ -59,4 +59,4 @@ Gildið fyrir afhendingartíma á lánardrottnaspjaldi er hinsvegar aðeins nota
 
 [Dagsetning útreiknings fyrir sölu](sales-date-calculation-for-sales.md)   
 [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

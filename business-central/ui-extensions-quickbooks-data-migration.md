@@ -10,16 +10,16 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34acbbf383048c6ef411797dfb1afcb51f7f6b40
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36b6eb6970daef6ea2e3aafc28ed232942707728
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912272"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757118"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Viðbótina QuickBooks gagnaflutningur
 
-Þessi viðbót auðveldar flutning viðskiptamanna, lánardrottna og vara úr QuickBooks í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef fyrirtækið notar QuickBooks er hægt að flytja út viðeigandi upplýsingar og opna síðan leiðarvísi fyrir uppsetningu með hjálp til að hlaða gögnunum upp í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Þessi viðbót auðveldar flutning viðskiptamanna, lánardrottna og vara úr QuickBooks í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef fyrirtækið notar QuickBooks er hægt að flytja út viðeigandi upplýsingar og opna síðan leiðarvísi fyrir uppsetningu með hjálp til að hlaða gögnunum upp í [!INCLUDE[prod_short](includes/prod_short.md)].  
 Nánari upplýsingar eru í [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md).
 
 ## <a name="data-from-quickbooks-desktop"></a>Gögn frá QuickBooks Desktop
@@ -50,7 +50,7 @@ Mikilvægur hluti flutningsferlisins er að tilgreina reikningana sem flytja á 
 Business Central krefst þess að fjárhagsreikningum hafi verið úthlutað reikningsnúmerum. Vertu viss um að reikningsnúmerum hafi verið úthlutað til reikninganna í QuickBooks.
 Ef færslur í QuickBooks hafa skattaupphæðir, þarf að setja upp skattareikning fyrir þína skattalögsögu í Business Central áður en þú getur bókað færslur.
 
-Til þess að fá gögnin þín úr QuickBooks Desktop þarftu að hlaða niður Microsoft Data Exporter tólinu.  Leiðbeiningar fyrir tólið eru í leiðsagnarforriti fyrir gagnaflutning í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tólið mun tengjast QuickBooks-forritinu og flytja út viðeigandi gögn í .zip-skrá.  
+Til þess að fá gögnin þín úr QuickBooks Desktop þarftu að hlaða niður Microsoft Data Exporter tólinu.  Leiðbeiningar fyrir tólið eru í leiðsagnarforriti fyrir gagnaflutning í [!INCLUDE[prod_short](includes/prod_short.md)]. Tólið mun tengjast QuickBooks-forritinu og flytja út viðeigandi gögn í .zip-skrá.  
 
 > [!NOTE]
 > Að svo stöddu er gagnaútflutningstólið aðeins með QuickBooks 2017 og 2018.
@@ -69,4 +69,4 @@ Staðfesta upphafsstöðu reikninga í fjárhagnum. QuickBooks geymir ekki núgi
 ## <a name="see-also"></a>Sjá einnig
 
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
-[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum ](ui-extensions.md)  
+[Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum ](ui-extensions.md)  

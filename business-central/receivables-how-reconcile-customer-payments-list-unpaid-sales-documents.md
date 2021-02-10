@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44d2031c41a8077e072255be60dd71ff98cd9e78
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 17468db82be1ad816bd77d12693e8720860d6df6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926506"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758415"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Afstemma greiðslur viðskiptamanna úr lista yfir ógreidd söluskjöl
 Þegar viðskiptamenn hafa greitt inn á rafrænan bankareikning, verður að jafna hverja greidda upphæð við tengt söluskjal og bóka svo greiðsluna til að uppfæra viðskiptamann, fjárhag og bankafærslur. Það fer eftir þörfum fyrirtækis þíns, þú getur fengið greitt og skráð þessi greiðslu á mismunandi vegu: handvirkt, sjálfkrafa og með greiðsluþjónustu.  
@@ -77,7 +77,7 @@ Greiðslufærslur eru bókaðar í fjárhags-, banka- og viðskiptavinalykil. Hv
 
 Ef greiðsla í bankanum er ekki tilgreind með línu á síðunni **Skráning greiðslna**, getur það verið vegna þess að tengt fylgiskjal hefur enn ekki verið bókað. Í því tilviki, er hægt að nota leitareiginleika til að finna skjalið hratt og bóka það til að meðhöndla greiðsluna. Frekari upplýsingar er að finna í [Til að finna tiltekið söluskjal sem er ekki reikningsfært að fullu](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að opna fyrirfram útfyllta færslubók á síðunni **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur. Frekari upplýsingar eru í [Að skráð eða bóka greiðslu án tengdra fylgiskjala](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
+Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[prod_short](includes/prod_short.md)], er hægt að opna fyrirfram útfyllta færslubók á síðunni **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur. Frekari upplýsingar eru í [Að skráð eða bóka greiðslu án tengdra fylgiskjala](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Meðhöndla greiðslur með afslætti handvirkt
 Ef samið hefur verið um greiðsluafslátt við viðskiptamanninn, getur greiðsluupphæðin verið lægri en reikningsupphæðin ef greiðslan á sér stað fyrir umsamda afsláttardagsetningu.  
@@ -166,10 +166,10 @@ Leitareiginleikinn leitar í skjölum sem ekki eru enn reikningsfærð að fullu
 
 Ef fleiri en eitt fylgiskjal svarar leitarskilyrðunum, opnast síðan **Niðurstöður skjalaleitar** sem sýnir línur sem tilgreina viðkomandi fylgiskjöl. Hver lína inniheldur númer fylgiskjals, lýsingu og upphæð svo auðveldlega sé hægt að finna tilgreint fylgiskjal, t.d. byggt á upplýsingum á bankayfirliti.  
 
-Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[d365fin](includes/d365fin_md.md)], er hægt að opna fyrirfram útfyllta færslubók á síðunni **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur.  
+Ef greiðsla í bankanum er ekki tilgreind með fylgiskjali í [!INCLUDE[prod_short](includes/prod_short.md)], er hægt að opna fyrirfram útfyllta færslubók á síðunni **Skráning greiðslna** til að bóka greiðsluna beint á mótreikninginn án þess að bóka greiðsluna í fylgiskjal. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið leystur.  
 
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Greiðslur skráðar eða bókaðar án tengdra fylgiskjala
-Ef greiðsla í bankanum er ekki til í formi neins skjals í [!INCLUDE[d365fin](includes/d365fin_md.md)] getur þú opnað færslubókarlínu sem þegar er útfyllt af **Skráning greiðslna** síðunni til að bóka greiðsluna beint á mótreikninginn án þess að jafna greiðsluna á skjali. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið skýrður.  
+Ef greiðsla í bankanum er ekki til í formi neins skjals í [!INCLUDE[prod_short](includes/prod_short.md)] getur þú opnað færslubókarlínu sem þegar er útfyllt af **Skráning greiðslna** síðunni til að bóka greiðsluna beint á mótreikninginn án þess að jafna greiðsluna á skjali. Að öðrum kosti er hægt að skrá greiðsluna í færslubókina þar til uppruni greiðslunnar hefur verið skýrður.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Skráning greiðslna** og veldu síðan tengda tengilinn.  
 
@@ -186,4 +186,4 @@ Ef færslubókarlínan er óbókuð, bætir hún við gildinu úr reitnum **ób�
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,28 +10,28 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 69c7ea885cd9c89619dd87b209de2e139d6ef50e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f70e720cd8639038f7c06de7f6b2f338652e8e4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912897"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757768"
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Uppsetning bestu venjur: Uppsetning altækra áætlanna
 Flýtiflipinn **Áætlun** á síðunni **Framleiðslugrunnur** inniheldur nokkra reiti sem skilgreina altækar reglur fyrir framboðsáætlun.  
 
- Eftirfarandi tafla gefur upp bestu venjur um uppsetningu valinna altækra áætlunarfæribreytareita. Nánari upplýsingar um reit fást með því að velja tengilinn í dálkinum **Uppsetningarreitur** .  
+ Eftirfarandi tafla gefur upp bestu venjur um uppsetningu valinna altækra áætlunarfæribreytareita. Nánari upplýsingar um reit fást með því að velja tengilinn í dálkinum **Uppsetningarreitur**.  
 
 |Uppsetning reits|Bestu starfsvenjur|Athugasemd|  
 |-----------------|-------------------|-------------|  
 |Nota spá á staðsetningum|Valið ef spár eru gerðar fyrir tilteknar birgðageymslur.||  
 |Íhlutir í birgðageymslu|Ef vörur eru ekki eru skilgreindar sem birgðahaldseiningar skal velja birgðageymslukóta aðalvöruhúss.|Þetta á einnig við ef aðeins er notuð innkaupatillögubók.|  
 |Autt yfirflæðisstig|Velja skal **Leyfa sjálfgefinn útreikning** ef þú kemur frá Microsoft Dynamics NAV 5.0 eða eldri.|Notist eingöngu ef leyfa á öllum eða nokkrum af vörunum að flæða yfir endurpöntunarmarkið.|  
-|Sjálfgefið hömlutímabil|Stilla á milli 1D og 5D.<br /><br /> Ef þú hefur ekki gert áætlanir áður í [!INCLUDE[d365fin](includes/d365fin_md.md)] skaltu stilla lengra tímabil.|Þegar notendur þekkja ólíkar ástæður aðgerðaboða betur skal stytta hömlutímabilið til að leyfa fleiri tillögur um breytingar.|  
+|Sjálfgefið hömlutímabil|Stilla á milli 1D og 5D.<br /><br /> Ef þú hefur ekki gert áætlanir áður í [!INCLUDE[prod_short](includes/prod_short.md)] skaltu stilla lengra tímabil.|Þegar notendur þekkja ólíkar ástæður aðgerðaboða betur skal stytta hömlutímabilið til að leyfa fleiri tillögur um breytingar.|  
 |Sjálfgefið hömlu magn %|Stilla á milli 5 og 20 prósent af lotustærð vörunnar.||  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)   
  [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
- [Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

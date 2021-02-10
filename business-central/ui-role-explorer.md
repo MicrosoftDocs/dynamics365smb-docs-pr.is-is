@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dff5ad97f8fa4b8fecf2906806d74283b46fd95d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914911"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756694"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Að finna síður með hlutverkaleit
-Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir þitt hlutverk, og fyrir önnur hlutverk ef farið er skrefi lengra. Í eftirfarandi fylgigögnum er þetta yfirlit yfir eiginleika kallað *Hlutverkaleit* .
+Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir þitt hlutverk, og fyrir önnur hlutverk ef farið er skrefi lengra. Í eftirfarandi fylgigögnum er þetta yfirlit yfir eiginleika kallað *Hlutverkaleit*.
 
-Hver eining á hlutverkaleit er aðgerð sem opnar síðu. Í samræmi við það er einnig hægt að nota hlutverkaleitina sem leið til að fletta í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Hver eining á hlutverkaleit er aðgerð sem opnar síðu. Í samræmi við það er einnig hægt að nota hlutverkaleitina sem leið til að fletta í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Hægt er að opna hlutverkaleit úr Mitt hlutverk og öllum listasíðum og úr **Viðmótsleit** .
 
@@ -32,7 +32,7 @@ Veldu aðgerðina **Finna** efst í hlutverkaleitinni til að staðsetja á flj�
 Veldu aðgerðina **Skoða öll** efst í hlutverkaleitinni til að fá yfirlit yfir viðskiptaeiginleika sem eru í boði fyrir öll hlutverk, þ.m.t. þitt eigið.
 
 > [!NOTE]
-> Aðeins aðgerðir hlutverkamiðstöðvar fyrir forstillingar þar sem gátreiturinn **Sýna í hlutverkaleit** er valinn munu birtast í stækkaðri útgáfu af hlutverkaleitinni (sýnt með aðgerðinni **Skoða öll** ). Frekari upplýsingar eru í [Unnið með forstillingar](admin-users-profiles-roles.md).
+> Aðeins aðgerðir hlutverkamiðstöðvar fyrir forstillingar þar sem gátreiturinn **Sýna í hlutverkaleit** er valinn munu birtast í stækkaðri útgáfu af hlutverkaleitinni (sýnt með aðgerðinni **Skoða öll**). Frekari upplýsingar eru í [Unnið með forstillingar](admin-users-profiles-roles.md).
 
 ## <a name="to-expandcollapse-nodes-on-the-role-explorer"></a>Til að víkka út/draga saman hnúta í hlutverkaleitinni
 Aðgerðunum sem opna síður er raðað undir hnútum sem nefndir eru eftir eiginleikum eða kerfishlutum. Hægt er að draga saman eða víkka út hvern hnút fyrir sig og alla í einu.
@@ -44,4 +44,4 @@ Aðgerðunum sem opna síður er raðað undir hnútum sem nefndir eru eftir eig
 ## <a name="see-also"></a>Sjá einnig
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
 [Vinna með forstillingar](admin-users-profiles-roles.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

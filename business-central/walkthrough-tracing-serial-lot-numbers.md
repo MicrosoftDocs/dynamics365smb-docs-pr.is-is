@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 90327ababa08d28baadcec26353f67c8736c62ee
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925448"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756368"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Kynning: Rað-/lotunúmerarakning
 
@@ -23,7 +23,7 @@ ms.locfileid: "3925448"
 
 Þegar vörugallar koma upp þarf að greina villurnar og koma í veg fyrir að fyrirtækið sendi frá sér gölluðu vörurnar. Ef gölluð vara hefur þegar verið send út verður að rekja hana til þeirra sem fengu hana senda og innkalla vörurnar, ef þörf krefur.  
 
-Fyrsti verkhluti gallastjórnunar er að rannsaka hvaðan gölluðu vörurnar komu og hvar þær voru notaðar. Rannsóknin byggir á fyrri gögnum og er einfölduð með því að leita í vörurakningarfærslum á síðunni **Vörurakning** .  
+Fyrsti verkhluti gallastjórnunar er að rannsaka hvaðan gölluðu vörurnar komu og hvar þær voru notaðar. Rannsóknin byggir á fyrri gögnum og er einfölduð með því að leita í vörurakningarfærslum á síðunni **Vörurakning**.  
 
 Næsta verk gallastjórnunar er að ákvarða hvort röktu vörunum hefur verið ráðstafað í opnum skjölum, svo sem sölupöntunum sem eftir á að bóka eða notkunarbókum. Þessi vinna er framkvæmd á **** síðunni. Hægt er að nota eiginleikann Leita að færslum til að leita að alls kyns færslum í gagnagrunni.  
 
@@ -50,7 +50,7 @@ Næsta verk gallastjórnunar er að ákvarða hvort röktu vörunum hefur verið
 
 Til að ljúka þessari kynningu þarf:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] Fyrirtækið.  
+- [!INCLUDE[prod_short](includes/prod_short.md)] Fyrirtækið.  
 - Að stofna nýjar vörur og nokkrar viðskiptafærslur með því að fylgja [Undirbúa sýnigögn](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
 ## <a name="story"></a>Ferill
@@ -64,7 +64,7 @@ Gæðastjórinn hefur þær upplýsingar frá söludeildinni að kappaksturshjó
 
 Niðurstöður þessarar fyrstu vörurakningar sýna hvaða grindur voru gallaðar, og frá hvaða lánadrottni þær komu. Því næst, en innan sama heildarrakningarferlisins, þarf gæðastjórinn að finna öll seldu kappaksturshjólin sem innihéldu grindur úr gölluðu lotunni svo hægt sé að stöðva eða innkalla þær pantanir. Að lokum þarf gæðastjórinn að finna öll opin skjöl þar sem gallaða lotan er notuð svo engar fleiri færslur séu framkvæmdar.  
 
-Tvö fyrstu gallastjórnunarverkin eru framkvæmd á síðunni **Vörurakning** . Síðasta verkið er framkvæmt á síðunni **Leita að færslum** í samþættingu við gluggann **Vörurakning** .  
+Tvö fyrstu gallastjórnunarverkin eru framkvæmd á síðunni **Vörurakning**. Síðasta verkið er framkvæmt á síðunni **Leita að færslum** í samþættingu við gluggann **Vörurakning**.  
 
 ## <a name="prepare-sample-data"></a>Undirbúa sýnigögn
 
@@ -86,11 +86,11 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
     |Grind|STYKKI|HRÁEFNI|VSK25|HRÁEFNI|LOTALL|  
 
     > [!NOTE]  
-    >  Til að færa inn grunnmælieininguna skal velja hnappinn **Nýtt** og velja **Þjónustumiðstöð samstarfsaðila** á síðunni **Mælieiningar vöru** .  
+    >  Til að færa inn grunnmælieininguna skal velja hnappinn **Nýtt** og velja **Þjónustumiðstöð samstarfsaðila** á síðunni **Mælieiningar vöru**.  
 
 4. Allir aðrir reitir innihalda viðeigandi sjálfgefin gögn eða þurfa ekki að vera fylltir út.  
 5. Velja hnappinn **Í lagi** til að stofna fyrsta nýja birgðaspjaldið, 2000.  
-6. Velja **Nýtt** .  
+6. Velja **Nýtt**.  
 7. Í reitnum **númer** Í reitinn  er talan **1002** færð inn og síðan eru eftirfarandi reitir fylltir út.  
 
     |Lýsing|Grunnmælieining|Almenn Vörubókunarflokkur|VSK vörubókunarflokkur|Birgðabókunarflokkur|Áfyllingarkerfi|Vörurakningarkóti|  
@@ -98,17 +98,17 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
     |Kappaksturshjól|STYKKI|SMÁSALA|VSK25|LOKIÐ|Framl.pöntun|SNALLT|  
 
     > [!NOTE]  
-    >  Til að færa inn grunnmælieininguna skal velja hnappinn **Nýtt** og velja **Þjónustumiðstöð samstarfsaðila** á síðunni **Mælieiningar vöru** .  
+    >  Til að færa inn grunnmælieininguna skal velja hnappinn **Nýtt** og velja **Þjónustumiðstöð samstarfsaðila** á síðunni **Mælieiningar vöru**.  
 
     Síðan skal skilgreina framleiðslugrunn vörunnar.
 
-8. Á flýtiflipanum **Áfylling** , í reitinn **Leið nr.** , skal færa inn **1000** .  
-9. Velja reitinn **Framleiðsluuppskrift nr.** og svo **Ítarlegt** .  
-10. Á síðunni **Framleiðsluuppskriftarlisti** veljið fyrstu línuna **1000** og veljið svo aðgerðina **Breyta** .  
-11. Á síðunni **Framleiðsluuppskrift** er gildinu í reitnum **Staða** breytt **Í þróun** .  
+8. Á flýtiflipanum **Áfylling**, í reitinn **Leið nr.**, skal færa inn **1000**.  
+9. Velja reitinn **Framleiðsluuppskrift nr.** og svo **Ítarlegt**.  
+10. Á síðunni **Framleiðsluuppskriftarlisti** veljið fyrstu línuna **1000** og veljið svo aðgerðina **Breyta**.  
+11. Á síðunni **Framleiðsluuppskrift** er gildinu í reitnum **Staða** breytt **Í þróun**.  
 12. Farið er í auða línu er færð inn **2000** í reitnum **nr.** Og svo **1** í reitnum **Magn á** reit.  
-13. Gildinu í reitnum **Staða** er breytt aftur í **Vottuð** .  
-14. Velja **Í lagi** til að setja inn framleiðsluuppskriftina á birgðaspjaldið og loka síðunni **Framleiðsluuppskrift** .  
+13. Gildinu í reitnum **Staða** er breytt aftur í **Vottuð**.  
+14. Velja **Í lagi** til að setja inn framleiðsluuppskriftina á birgðaspjaldið og loka síðunni **Framleiðsluuppskrift**.  
 
     Næst skal kaupa grindur frá Custom Metals incorporated.  
 
@@ -125,7 +125,7 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 4. Til að færa inn lotunúmerið skal velja aðgerðina **Vörurakningarlínur**  
 5. Á síðunni **Vörurakningarlínur** skal fylla inn í reitina **lotunúmer** og **Magn (grunnur)** og loka svo síðunni.  
 6. Fyllt er í reitinn **Lánardrottnareikningsnr.** hvaða gildi sem er.  
-7. Veldu aðgerðina **Bóka** , veldu **Móttaka og reikningur** valkostinn og veldu síðan **Í lagi** hnappinn.  
+7. Veldu aðgerðina **Bóka**, veldu **Móttaka og reikningur** valkostinn og veldu síðan **Í lagi** hnappinn.  
 
     Næst skal kaupa grindur frá Coolwood Technologies.  
 8. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.  
@@ -136,10 +136,10 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
     |----------|--------------|-------------|  
     |2000|11|LOTA2|  
 
-11. Til að færa inn lotunúmerið skal á flýtiflipanum **Línur** , í flokknum **Lína** velja **Vörurakningarlínur** aðgerðina.  
+11. Til að færa inn lotunúmerið skal á flýtiflipanum **Línur**, í flokknum **Lína** velja **Vörurakningarlínur** aðgerðina.  
 12. Á síðunni **Vörurakningarlínur** skal fylla inn í reitina **lotunúmer** og **Magn (grunnur)** og loka svo síðunni.  
 13. Fyllt er í reitinn **Lánardrottnareikningsnr.** hvaða gildi sem er.  
-14. Veldu aðgerðina **Bóka** , veldu **Móttaka og reikningsfæra** valkostinn og veldu síðan **Í lagi** hnappinn.  
+14. Veldu aðgerðina **Bóka**, veldu **Móttaka og reikningsfæra** valkostinn og veldu síðan **Í lagi** hnappinn.  
 
     Næst skal framleiða tvö kappaksturshjól, RAÐ1 og RAÐ2.  
 
@@ -154,15 +154,15 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
     |1002|2|SN1|  
     |1002|2|SN2|  
 
-4. Velja aðgerðina **Endurnýja framleiðslupöntun** , og veljið síðan hnappinn **Í lagi** til að fylla inn í línuna.  
+4. Velja aðgerðina **Endurnýja framleiðslupöntun**, og veljið síðan hnappinn **Í lagi** til að fylla inn í línuna.  
 5. Til að færa inn raðnúmerið skal velja aðgerðina **Vörurakningarlínur**  
 6. Á síðunni **Vörurakningarlínur** skal fylla inn í reitina **raðnúmer** og **Magn (grunnur)** og loka svo síunni.  
 
     Næst skal bóka notkun grinda úr LOTA1.  
-7. Á síðunni **Útgefin framleiðslupöntun** skal velja aðgerðina **Framleiðslubók** .  
+7. Á síðunni **Útgefin framleiðslupöntun** skal velja aðgerðina **Framleiðslubók**.  
 8. Á síðunni **Framleiðslubók** skal velja notkunarlínuna fyrir vöru 2000, smella á **Vörurakningarlínur.** aðgerðina.
-9. Á síðunni **Vörurakningarlínur** veljið **Lotunr.** veljið **LOTA1** og veljið svo hnappinn **Í lagi** .  
-10. Láta skal öll önnur sjálfgefin gildi á síðunni **Framleiðslubókinni** óhreyfð og veljið svo aðgerðina **Bóka** .  
+9. Á síðunni **Vörurakningarlínur** veljið **Lotunr.** veljið **LOTA1** og veljið svo hnappinn **Í lagi**.  
+10. Láta skal öll önnur sjálfgefin gildi á síðunni **Framleiðslubókinni** óhreyfð og veljið svo aðgerðina **Bóka**.  
 
     Næst skal framleiða tvö kappaksturshjól í viðbót, RAÐ3 og RAÐ4.  
 
@@ -176,13 +176,13 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
     |1002|2|RAÐ4|  
 
 14. Velja aðgerðina **Endurnýja framleiðslupöntun** til að fylla inn í línuna.  
-15. Til að færa inn raðnúmerin skal velja aðgerðina **Vörurakningarlínur** , og síðan númerin á tveimur línum í reitnum **Raðnr.** á síðunni **Vörurakningarlínur** .  
+15. Til að færa inn raðnúmerin skal velja aðgerðina **Vörurakningarlínur**, og síðan númerin á tveimur línum í reitnum **Raðnr.** á síðunni **Vörurakningarlínur**.  
 
     Næst skal bóka meiri notkun grinda úr LOTA1.  
-16. Á síðunni **Útgefin framleiðslupöntun** skal velja aðgerðina **Framleiðslubók** .  
+16. Á síðunni **Útgefin framleiðslupöntun** skal velja aðgerðina **Framleiðslubók**.  
 17. Á síðunni **Framleiðslubók** skal velja notkunarlínuna fyrir vöru 2000, smella á **Vörurakningarlínur.** aðgerðina.
-18. Á síðunni **Vörurakningarlínur** veljið **Lotunr.** veljið **LOTA1** og veljið svo hnappinn **Í lagi** .  
-19. Láta skal öll önnur sjálfgefin gildi á síðunni **Framleiðslubókinni** óhreyfð og veljið svo aðgerðina **Bóka** .  
+18. Á síðunni **Vörurakningarlínur** veljið **Lotunr.** veljið **LOTA1** og veljið svo hnappinn **Í lagi**.  
+19. Láta skal öll önnur sjálfgefin gildi á síðunni **Framleiðslubókinni** óhreyfð og veljið svo aðgerðina **Bóka**.  
 
     Fjögur kappaksturshjól, SN1 og SN4 hafa verið framleidd, fjórar af tíu keppnisgrindum notaðar úr LOT1, tvær grindur í hvorri framleiðslupöntun.  
 
@@ -192,37 +192,37 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
 ### <a name="to-sell-the-end-items"></a>Til að selja lokavörurnar  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
-2.  Velja aðgerðina **Nýtt** , og síðan stofna sölupöntun með því að fylla í eftirfarandi reiti.  
+2.  Velja aðgerðina **Nýtt**, og síðan stofna sölupöntun með því að fylla í eftirfarandi reiti.  
 
     |Viðskiptamaður|Vara|Magn|Raðnr.|  
     |--------------|----------|----------|----------------|  
     |Silfurbúðin ehf.|1002|1|SN1|  
 
-3.  Til að færa inn raðnúmerin skal velja aðgerðina **Vörurakningarlínur** , og síðan númerin í reitnum **Raðnr.** á síðunni **Vörurakningarlínur** .  
-4.  Veldu aðgerðina **Bóka** , veldu **Móttaka og reikningur** valkostinn og veldu síðan **Í lagi** hnappinn.  
+3.  Til að færa inn raðnúmerin skal velja aðgerðina **Vörurakningarlínur**, og síðan númerin í reitnum **Raðnr.** á síðunni **Vörurakningarlínur**.  
+4.  Veldu aðgerðina **Bóka**, veldu **Móttaka og reikningur** valkostinn og veldu síðan **Í lagi** hnappinn.  
 
     Næst skal selja The Cannon Group PLC kappaksturshjólið með RAÐ2.  
 
 5.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
-6.  Velja aðgerðina **Nýtt** , og síðan stofna sölupöntun með því að fylla í eftirfarandi reiti.  
+6.  Velja aðgerðina **Nýtt**, og síðan stofna sölupöntun með því að fylla í eftirfarandi reiti.  
 
     |Viðskiptamaður|Vara|Magn|Raðnr.|  
     |--------------|----------|----------|----------------|  
     |Navision Ísland hf.|1002|1|SN2|  
 
-7.  Til að færa inn raðnúmerin skal velja aðgerðina **Vörurakningarlínur** , og síðan númerin í reitnum **Raðnr.** á síðunni **Vörurakningarlínur** .  
-8.  Veldu aðgerðina **Bóka** , veldu **Afhenda og reikningsfæra** valkostinn og veldu síðan **Í lagi** hnappinn.  
+7.  Til að færa inn raðnúmerin skal velja aðgerðina **Vörurakningarlínur**, og síðan númerin í reitnum **Raðnr.** á síðunni **Vörurakningarlínur**.  
+8.  Veldu aðgerðina **Bóka**, veldu **Afhenda og reikningsfæra** valkostinn og veldu síðan **Í lagi** hnappinn.  
 
     Að lokum skal selja nokkrar grindur sérstaklega. Navision Ísland hf. einnig fjórar stakar grindur fyrir sína eigin framleiðslulínu.  
 
 9. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
-10. Velja aðgerðina **Nýtt** , og síðan stofna sölupöntun með því að fylla í eftirfarandi reiti.  
+10. Velja aðgerðina **Nýtt**, og síðan stofna sölupöntun með því að fylla í eftirfarandi reiti.  
 
     |Viðskiptamaður|Vara|Magn|Raðnr.|  
     |--------------|----------|----------|----------------|  
     |Navision Ísland hf.|2000|5|LOTA1|  
 
-11. Til að færa inn raðnúmerin, á flýtiflipanum **Línur** , í flokknum **Lína** , skal velja aðgerðina **Vörurakningarlínur** , og síðan númerin í reitnum **Raðnr.** á síðunni **Vörurakningarlínur** .  
+11. Til að færa inn raðnúmerin, á flýtiflipanum **Línur**, í flokknum **Lína**, skal velja aðgerðina **Vörurakningarlínur**, og síðan númerin í reitnum **Raðnr.** á síðunni **Vörurakningarlínur**.  
 
     > [!NOTE]  
     >  Ekki bóka síðustu sölupöntunina á fimm grindum.  
@@ -234,8 +234,8 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Til að komast að því hvaða lota innihélt gölluðu grindina og hvaðan hún kom  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörurakning** og veldu síðan tengda tengilinn.  
-2.  Á síðunni **Vörurakning** er **RAÐ1** fært inn í reitinn **Raðnr.** og **1002** inn í reitinn **Birgðaafmörkun** .  
-3.  Halda skal sjálfgefnu stillingunni **Vara-eingöngu rakin** í reitnum **Sýna íhluti** , og halda sjálfgefnu rakningaraðferðinni **Notkun - uppruni** í **Rakningaraðferð** .  
+2.  Á síðunni **Vörurakning** er **RAÐ1** fært inn í reitinn **Raðnr.** og **1002** inn í reitinn **Birgðaafmörkun**.  
+3.  Halda skal sjálfgefnu stillingunni **Vara-eingöngu rakin** í reitnum **Sýna íhluti**, og halda sjálfgefnu rakningaraðferðinni **Notkun - uppruni** í **Rakningaraðferð**.  
 4.  Velja skal **Rekja** aðgerðina.  
 
     Bent er á að einn söluafhendingarhaus uppfyllir leitarskilyrðin. Áður en rakningunni er haldið áfram skal gengið úr skugga um að afhendingin sé sú sem sendi gallaða kappaksturshjólið til Selangorian hf.  
@@ -256,18 +256,18 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
     > [!NOTE]  
     >  Ekki gera neinar frekari breytingar á niðurstöðum rakningarinnar, þar sem þær verða notaðar í næsta hluta.  
 
-     Svona lýkur fyrsta gallastjórnunarverkinu á síðunni **Vörurakning** . Gæðastjórinn þarf nú að ákvarða hvort önnur bókuð skjöl hafa unnið með grindur úr LOTA1.  
+     Svona lýkur fyrsta gallastjórnunarverkinu á síðunni **Vörurakning**. Gæðastjórinn þarf nú að ákvarða hvort önnur bókuð skjöl hafa unnið með grindur úr LOTA1.  
 
 ## <a name="tracing-from-origin-to-usage"></a>Rekja frá uppruna til notkunar  
  Gæðastjórinn hefur komist að því að gölluðu grindurnar komu úr LOTA1. Nú þarf hann að finna öll önnur kappaksturshjól sem innihalda grindur úr gölluðu lotunni svo hægt sé að stöðva eða innkalla þau.  
 
- Ein leið til að undirbúa þetta rakningarfærsluverk á síðunni **Vörurakning** er að færa inn handvirkt LOTA1 í reitinn **Lotunr. - Afmörkun** og 2000 í reitinn **Vöruafmörkun** . Hins vegar verður aðgerðin **Rekja gagnstætt - frá línu** notuð í þessari kynningu.  
+ Ein leið til að undirbúa þetta rakningarfærsluverk á síðunni **Vörurakning** er að færa inn handvirkt LOTA1 í reitinn **Lotunr. - Afmörkun** og 2000 í reitinn **Vöruafmörkun**. Hins vegar verður aðgerðin **Rekja gagnstætt - frá línu** notuð í þessari kynningu.  
 
 ### <a name="to-find-all-usage-of-the-faulty-lot"></a>Til að finna alla notkun á gölluðu lotunni  
 
-1.  Á síðunni **Vörurakning** skal velja línu innkaupakvittunarinnar, síðustu rakningarlínuna, og velja svo **Rekja andstætt - frá línu** .  
+1.  Á síðunni **Vörurakning** skal velja línu innkaupakvittunarinnar, síðustu rakningarlínuna, og velja svo **Rekja andstætt - frá línu**.  
 
-    Rakningarniðurstöðurnar byggjast nú á afmörkunum rakningarlínunnar fyrir innkaupakvittunina, LOTA1 og vöru 2000, og útkoman byggist á rakningaraðferðinni **Uppruni - notkun** .  
+    Rakningarniðurstöðurnar byggjast nú á afmörkunum rakningarlínunnar fyrir innkaupakvittunina, LOTA1 og vöru 2000, og útkoman byggist á rakningaraðferðinni **Uppruni - notkun**.  
 
     Til að fá yfirlit yfir alla notkun vöru 2000 með LOTA1 skal haldið áfram að stækka allar rakningarlínur.  
 
@@ -287,17 +287,17 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Til að finna öll tilfelli LOTA1 í skrám sem eftir á að bóka, svo sem opnum pöntunum  
 
 1.  Á síðunni **Vörurakning** skal velja bendilinn í fyrstu rakningarlínunni, innkaupakvittun LOTA1.  
-2.  Veljið aðgerðina **Leita að færslum** .  
+2.  Veljið aðgerðina **Leita að færslum**.  
 
     Síðan **Leita að færslum** er forstillt með leitarsíum sem byggðar eru á rakningarniðurstöðunum fyrir LOTA1. Gæðastjórinn sér að flestar skrárnar snúa að skjölum sem þegar hafa verið auðkenndar á síðunni **Vörurakning** . Til dæmis vísar síðasta lína færsluleitarinnar af gerðinni Framleiðslupöntun til útgefnu framleiðslupantananna tveggja sem notuðu grindur úr LOTA1.  
 
     Önnur lína færsluleitarinnar af gerðinni **Sölulína** er skjalalína sem ekki hefur verið bókuð, svo gæðastjórinn kannar málið.  
 
-3.  Til að opna sölulínuskrána skal velja aðra línu færsluleitarinnar, og velja síðan aðgerðina **Sýna** . Einnig er hægt að velja gildið í reitnum **Fjöldi færslna** .  
+3.  Til að opna sölulínuskrána skal velja aðra línu færsluleitarinnar, og velja síðan aðgerðina **Sýna**. Einnig er hægt að velja gildið í reitnum **Fjöldi færslna**.  
 
     Hér sér gæðastjórinn eina opna sölulínu fyrir gölluðu grindurnar. Hann stingur samstundis upp á því við söludeildina að hætt verði við þessa pöntun og að stofnuð verði ný framleiðslupöntun sem byggir á gallalausum grindum.  
 
- Hér með lýkur kynningunni á hvernig síðan **Leita að færslum** er notuð við gallastjórnun í samþættingu við síðuna **Vörurakning** .  
+ Hér með lýkur kynningunni á hvernig síðan **Leita að færslum** er notuð við gallastjórnun í samþættingu við síðuna **Vörurakning**.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  

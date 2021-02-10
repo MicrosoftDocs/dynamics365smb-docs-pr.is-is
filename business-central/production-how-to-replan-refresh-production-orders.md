@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: edfcb7904f540edad7f471511de9047c511a2cb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6f66d96f03146d60422413c3031405da2338a01f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921593"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759068"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Enduráætla eða uppfæra framleiðslupantanir beint
 Aðgerðin **Enduráætla** er venjulega notuð eftir íhlutum, sem standa fyrir undirliggjandi framleiðslupantanir, hefur verið bætt við eða þeim breytt. Þessi áætlunaraðgerð reiknar breytingar sem gerðar eru á íhlutum og leiðarlínum. Hún tekur með vörur í neðri framleiðsluuppskriftum og kann að stofna nýjar framleiðslupantanir fyrir þær.  
@@ -37,7 +37,7 @@ Hægt er að setja framleiðslulínur inn handvirkt eða nota aðgerðina sem re
 ## <a name="to-replan-a-production-order"></a>Enduráætla Framleiðslupöntun  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pantanir** og veldu síðan tengda tengilinn.  
 2.  Opna framleiðslupöntunina sem á að enduráætla.  
-3.  Á flýtiflipanum **Línur** skal velja aðgerðina **Línur** , og velja svo aðgerðina **Íhlutir** .  
+3.  Á flýtiflipanum **Línur** skal velja aðgerðina **Línur**, og velja svo aðgerðina **Íhlutir**.  
 4.  Íhlut, sem er framleidd vara epa millivara, er bætt við.  
 5.  Frá framleiðslupöntuninni, veldu **Enduráætla** aðgerðina.  
 
@@ -67,7 +67,7 @@ Ef framleiðslupöntunarlínunum, íhlutum eða leiðarlínum hefur verið breyt
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Fastáætluð framl.pöntun** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð. Frekari upplýsingar eru í [Stofna framleiðslupantanir](production-how-to-create-production-orders.md).  
-3.  Velja aðgerðina **Uppfæra** .
+3.  Velja aðgerðina **Uppfæra**.
 4. Á síðunni **Uppfæra framleiðslupöntun** velurðu einn af eftirfarandi kostum:
 
     |Valkostur|Description|  
@@ -92,4 +92,4 @@ Ef framleiðslupöntunarlínunum, íhlutum eða leiðarlínum hefur verið breyt
 [Innkaup](purchasing-manage-purchasing.md)  
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)   
 [Uppsetning bestu venja: Framboðsáætlun](setup-best-practices-supply-planning.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

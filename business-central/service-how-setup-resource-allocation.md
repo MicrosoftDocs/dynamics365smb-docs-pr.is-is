@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cac2d270fec47d35749d3ccf1ce1e3a3f130d097
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 48d0f9f9e51a0da3f82abdb43e8c4bb6044a5f29
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910331"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757993"
 ---
 # <a name="set-up-resource-allocation"></a>Setja upp forðaúthlutun
-Til að tryggja að þjónustuverkhluti sé framkvæmdur svo vel sé, er mikilvægt að finna tilfang sem er hæft til starfans. Þú getur sett upp [!INCLUDE[d365fin](includes/d365fin_md.md)] svo það sé auðvelt að úthluta verkinu til einhvers sem er hæfur til þess. Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er þetta nefnt _Forðaúthlutun_ . Hægt er að úthluta til tilfanga út frá hæfni þeirra, tiltækileika, eða hvort þau eru á sama þjónustusvæði og viðskiptamaðurinn. 
+Til að tryggja að þjónustuverkhluti sé framkvæmdur svo vel sé, er mikilvægt að finna tilfang sem er hæft til starfans. Þú getur sett upp [!INCLUDE[prod_short](includes/prod_short.md)] svo það sé auðvelt að úthluta verkinu til einhvers sem er hæfur til þess. Í [!INCLUDE[prod_short](includes/prod_short.md)] er þetta nefnt _Forðaúthlutun_. Hægt er að úthluta til tilfanga út frá hæfni þeirra, tiltækileika, eða hvort þau eru á sama þjónustusvæði og viðskiptamaðurinn. 
 
 Til að  nota forðaúthlutun skal setja upp:  
   
@@ -34,8 +34,8 @@ Til að  nota forðaúthlutun skal setja upp:
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvörur** eða **Tilföng** og veldu síðan tengda tengilinn.  
 2. Opna spjaldið fyrir þjónustuvöru eða tilfang og síðan velja eitt af eftirfarandi:  
   
-    * Fyrir þjónustuvöru, velja **Tilföng hæfni** .  
-    * Fyrir tilföng, velja **Hæfni** .  
+    * Fyrir þjónustuvöru, velja **Tilföng hæfni**.  
+    * Fyrir tilföng, velja **Hæfni**.  
 
 ## <a name="to-set-up-zones"></a>Setja upp svæði
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Svæði** og veldu síðan tengda tengilinn.  
@@ -49,7 +49,7 @@ Til að  nota forðaúthlutun skal setja upp:
     * Fyrir tilföng, velja **Þjónustusvæði** aðgerðina.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Tilgreina hvað á að sýna þegar tilfang er valið
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning þjónustu** og veldu síðan tengda tengilinn. 
+1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Þjónustukerfisgrunnur** og veldu síðan tengda tengilinn. 
 2. Í reitnum **Valkostir Tilföng hæfni** skal velja einn af valkostunum sem lýst er í eftirfarandi töflu.  
   
     |**Valkostur**|**Lýsing**|  
@@ -62,14 +62,14 @@ Til að  nota forðaúthlutun skal setja upp:
 Ef til vill þarf að breyta forðagetu.  
   
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Forðageta** og veldu síðan tengda tengilinn.  
-2. Veljið tilfang og velja svo aðgerðina **Stilla afkastageta** .  
-3. Gera breytingar og velja svo **Uppfæra afkastagetu** .  
+2. Veljið tilfang og velja svo aðgerðina **Stilla afkastageta**.  
+3. Gera breytingar og velja svo **Uppfæra afkastagetu**.  
 
 ## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>Uppfæra hæfni fyrir vörur, þjónustuvörur, eða þjónustuvöruflokka
-Ef þú vilt breyta hæfniskóðum sem vörum hefur verið úthlutað, til dæmis úr **PC** í **PCS** , geturðu gert það annað hvort fyrir vörur eða fyrir allar vörur í þjónustuvöruflokknum.  
+Ef þú vilt breyta hæfniskóðum sem vörum hefur verið úthlutað, til dæmis úr **PC** í **PCS**, geturðu gert það annað hvort fyrir vörur eða fyrir allar vörur í þjónustuvöruflokknum.  
   
 1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vörur** eða **Þjónustuvörur** eða **Þjónustuvöruflokkar** og veldu síðan tengda hlekkinn.  
-2. Veljið tilfang og velja svo aðgerðina **Forðahæfni** .  
+2. Veljið tilfang og velja svo aðgerðina **Forðahæfni**.  
 3. Í línunni með kótanum sem á að breyta, í reitnum **Hæfniskóti** skal velja viðeigandi hæfniskóta.  
 4.  Ef þjónustuvörur tengjast vörunni opnast gluggi með eftirfarandi tveimur valkostum:  
   

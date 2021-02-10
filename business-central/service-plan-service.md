@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0e6218a313c2cb9031da8ee1c66a90cfe9dd0207
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bf19cc5b0ae606ce7f235e707057516dba4ca5e0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915261"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757843"
 ---
 # <a name="planning-services"></a>Áætla þjónustu
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að setja upp staðlaða verkhluta sem þarf til að uppfylla þjónustuþarfir fyrirtækisins. Til að gera þetta, verður að ákveða hvaða þjónustuvöru og tilboð þjónustufyrirtæki þitt styður og fyrir hvaða verð.   
+Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að setja upp staðlaða verkhluta sem þarf til að uppfylla þjónustuþarfir fyrirtækisins. Til að gera þetta, verður að ákveða hvaða þjónustuvöru og tilboð þjónustufyrirtæki þitt styður og fyrir hvaða verð.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] býður einnig upp á tölfræðiverkfæri sem þú getur notað til ákveða hversu vel hlutirnir eru að ganga og koma auga á svið þar sem má bæta.
+[!INCLUDE[prod_short](includes/prod_short.md)] býður einnig upp á tölfræðiverkfæri sem þú getur notað til ákveða hversu vel hlutirnir eru að ganga og koma auga á svið þar sem má bæta.
   
 Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.   
   

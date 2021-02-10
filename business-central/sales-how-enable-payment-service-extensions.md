@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: online payment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d905c6155b305a5788ca48a1364dbd619c084ef
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3bcfac75d1d161a4163fda466e320b0efd408655
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926248"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758268"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Virkja greiðslur viðskiptamanna um greiðsluþjónustur
 Í stað þess að innheimta með millifærslu eða kreditkorti geta viðskiptamenn þínir greitt þér af reikningnum sínum með greiðsluþjónustu, svo sem Microsoft Pay, PayPal eða WorldPay.  
 
-Eftir að þú hefur virkjað greiðsluþjónustu í [!INCLUDE[d365fin](includes/d365fin_md.md)] er tengill í þjónustuna í boði á söluskjölum sem þú sendir með tölvupósti til viðskiptavina þinna. Viðskiptamenn geta notað tengilinn til að fara í greiðsluþjónustu og greiða reikninginn beint úr söluskjalinu. Ef þú vilt ekki hafa tengilinn með, til dæmis ef viðskiptamaður greiðir með peningum, getur þú fjarlægt greiðsluþjónustu af reikningnum áður en þú sendir hann.  
+Eftir að þú hefur virkjað greiðsluþjónustu í [!INCLUDE[prod_short](includes/prod_short.md)] er tengill í þjónustuna í boði á söluskjölum sem þú sendir með tölvupósti til viðskiptavina þinna. Viðskiptamenn geta notað tengilinn til að fara í greiðsluþjónustu og greiða reikninginn beint úr söluskjalinu. Ef þú vilt ekki hafa tengilinn með, til dæmis ef viðskiptamaður greiðir með peningum, getur þú fjarlægt greiðsluþjónustu af reikningnum áður en þú sendir hann.  
 
-Microsoft Pay, PayPal Payments Standard og WorldPay Payments Standard-viðbætur eru settar upp í [!INCLUDE[d365fin](includes/d365fin_md.md)], og eru tilbúnar fyrir þig til að virkja.  
+Microsoft Pay, PayPal Payments Standard og WorldPay Payments Standard-viðbætur eru settar upp í [!INCLUDE[prod_short](includes/prod_short.md)], og eru tilbúnar fyrir þig til að virkja.  
 
-## <a name="to-enable-a-payment-service-in-d365fin"></a>Til að virkja greiðsluþjónustu í [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-enable-a-payment-service-in-prod_short"></a>Til að virkja greiðsluþjónustu í [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Greiðsluþjónustur** og veldu síðan tengda tengilinn.  
 2. Á síðunni **Greiðsluþjónustur** skal velja aðgerðina **Nýtt**.  
 3. Veljið greiðsluþjónustu og lokið svo síðunni.  
@@ -43,5 +43,5 @@ Microsoft Pay, PayPal Payments Standard og WorldPay Payments Standard-viðbætur
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  
-[Sérstilling [!INCLUDE[d365fin](includes/d365fin_md.md)] með viðbótum](ui-extensions.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

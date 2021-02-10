@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8da226a21e795228efa253f994d817f60ac5616b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dedd89dfceeb17994ccc18b359d2b02eb086cc60
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910056"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756174"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Tína vörur fyrir vöruhúsaafhendingu
 Þegar staðsetningin er sett þannig upp að það krefjist vöruhúsatínsluvinnslu og vöruhúsaafhendingarvinnslu eru vöruhúsatínsluskjöl notuð til að stofna og sjá um tínsluupplýsingar fyrir bókun vöruhúsaafhendingar.  
@@ -26,7 +26,7 @@ Hægt er að útbúa vöruhússtínsluskjöl eins og drátt með því að opna 
 
 Einnig er hægt að nota síðuna **Vinnublað tínslu** til að draga og stofna tínslulínur í runustillingu. Frekari upplýsingar, sjá [Áætla tínslu á vinnublöðum](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-Einnig er hægt að stofna vöruhúsatínsluskjöl í eins og ýtingu á síðunni **Vöruhúsaafhending** með því að velja **Stofna tínslu** .  
+Einnig er hægt að stofna vöruhúsatínsluskjöl í eins og ýtingu á síðunni **Vöruhúsaafhending** með því að velja **Stofna tínslu**.  
 
 > [!NOTE]  
 >  Tínsla fyrir vöruhúsaafhendingu vara sem settar eru saman úr sölupöntuninni sem verið er að afenda fylgir sömu aðferð og hefðbundin vöruhúsatínsla fyrir afhendingu eins og lýst er í þessu efnisatriði. Hins vegar gæti fjöldi tínslulína miðað við afhendingarmagn verið af gerðinni n:1 þar sem íhlutar eru tíndir en ekki samsetningarvaran.  
@@ -50,7 +50,7 @@ Einnig er hægt að stofna vöruhúsatínsluskjöl í eins og ýtingu á síðun
 
 4.  Þegar tínslan hefur verið framkvæmd og vörurnar settar á afhendingarsvæði eða í afhendingarhólf er smellt á **Skrá tínslu** aðgerðina.  
 
-Sá sem ábyrgur er fyrir afhendingu getur nú komið vörunum að afhendingarhöfn og bókað afhendinguna, þar á meðal tengt upprunaskjal, á síðunni **Vöruhúsaafhending** . Frekari upplýsingar eru í [Senda vörur](warehouse-how-ship-items.md).   
+Sá sem ábyrgur er fyrir afhendingu getur nú komið vörunum að afhendingarhöfn og bókað afhendinguna, þar á meðal tengt upprunaskjal, á síðunni **Vöruhúsaafhending**. Frekari upplýsingar eru í [Senda vörur](warehouse-how-ship-items.md).   
 
 Til viðbótar við tínslu upprunaskjala eins og lýst er í þessu efnisatriði er hægt að taka og færa vörur á milli hólfa án þess að vísa í upprunaskjöl. Frekari upplýsingar, sjá: [Tína og ganga frá án upprunaskjals](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -61,7 +61,7 @@ Fyrir aðrar vöruhúsaafhendingarlínur er gildið í reitnum **Magn til afhend
 
 Þegar starfsmenn sem bera ábyrgð á samsetningu ljúka við að setja saman magnið sem setja á saman í pöntun að hluta til eða í heild skrá þeir það í reitinn **Magn til afhendingar** í vöruhúsasendingarlínunn og velja svo **Bóka afhend.** aðgerðina. Niðurstaðan er að samsvarandi samsetningarfrálag er bókað, að meðtalinni notkun íhluta. Söluafhending fyrir magnið er bókuð fyrir sölupöntunina.
 
-Í samsetningarpöntun má velja **Setja saman í p. vöruh. send. lína** til sjá vöruhúsaafhendingarlínuna. Þetta er hentugt fyrir starfsmenn sem nota ekki yfirleitt síðuna **Vöruhúsaafhending** .
+Í samsetningarpöntun má velja **Setja saman í p. vöruh. send. lína** til sjá vöruhúsaafhendingarlínuna. Þetta er hentugt fyrir starfsmenn sem nota ekki yfirleitt síðuna **Vöruhúsaafhending**.
 
 Eftir að vöruhúsasendingin er bókuð, eru ýmis svæði í sölupöntunarlínunni uppfærð til að sýna vinnslu í vöruhúsinu. Eftirfarandi svæði eru einnig uppfærð til að sýna hversu mikið magn samsetningarpantana á eftir að setja saman og afhenda:
 
@@ -79,4 +79,4 @@ Eftir að vöruhúsasendingin er bókuð, eru ýmis svæði í sölupöntunarlí
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

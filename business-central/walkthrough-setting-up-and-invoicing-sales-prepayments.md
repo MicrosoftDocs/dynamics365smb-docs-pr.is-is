@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e94bef3f127d52ca7ee5c7e31f0f126e57b44210
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914811"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756418"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Kynning: Uppsetning og reikningsfærsla fyrirframgreiðslna fyrir sölu
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyrirframgreiðslupöntun sölu- eða innkaupa áður en lokareikningsfærsla fer fram. Hugsanlega er beðið um innborgun áður en vörur eru framleiddar upp í pöntun eða áður en vörur eru afhentar viðskiptamanni. Fyrirframgreiðslur í [!INCLUDE[d365fin](includes/d365fin_md.md)] er hægt að nota til að reikningsfæra og innheimta innborganir frá viðskiptamönnum eða senda lánardrottnum innborganir. Þannig má tryggja að allar greiðslur séu bókaðar á móti reikningi.  
+Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyrirframgreiðslupöntun sölu- eða innkaupa áður en lokareikningsfærsla fer fram. Hugsanlega er beðið um innborgun áður en vörur eru framleiddar upp í pöntun eða áður en vörur eru afhentar viðskiptamanni. Fyrirframgreiðslur í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að nota til að reikningsfæra og innheimta innborganir frá viðskiptamönnum eða senda lánardrottnum innborganir. Þannig má tryggja að allar greiðslur séu bókaðar á móti reikningi.  
 
  Hægt er að skilgreina skilyrði fyrirframgreiðslu fyrir viðskiptamann eða lánardrottin fyrir allar vörur eða valdar vörur. Þegar uppsetningu er lokið er hægt að búa til fyrirframgreiðslureikninga úr sölu- og innkaupapöntunum fyrir útreiknuðu greiðsluupphæðina. Hægt er að breyta sjálfgefnu upphæðunum á reikningnum eins og þarf. T.d er hægt að senda viðbótarfyrirframgreiðslureikninga ef t.d. vörum er bætt við pöntunina.  
 
@@ -43,7 +43,7 @@ Fyrirframgreiðslur eru greiðslur sem eru reikningsfærðar og bókaðar á fyr
 -   Innheimtustjóri (Árni)  
 
 ## <a name="story"></a>Ferill  
- Pála er aðalbókari. Hún tekur ákvarðanir um hvaða viðskiptamenn þurfa að leggja fram innborgun áður en vörur eru framleiddar eða afhentar. Pála stillir [!INCLUDE[d365fin](includes/d365fin_md.md)] á að reikna fyrirframgreiðslur sjálfvirkt.  
+ Pála er aðalbókari. Hún tekur ákvarðanir um hvaða viðskiptamenn þurfa að leggja fram innborgun áður en vörur eru framleiddar eða afhentar. Pála stillir [!INCLUDE[prod_short](includes/prod_short.md)] á að reikna fyrirframgreiðslur sjálfvirkt.  
 
  Súsanna vinnur í sölupöntunarvinnslu. Þegar viðskiptavinur hringir og pantar færir hann pöntunina inn í kerfið meðan viðskiptavinurinn er í símanum. Þannig getur hún staðfest verð og greiðsluskilmála við þann viðskiptamann strax og getur gert leiðréttingar á pöntun meðan hún semur við viðskiptamanninn.  
 
@@ -68,11 +68,11 @@ Eftirfarandi aðgerðir lýsa hvernig Pála framkvæmir þessi verk.
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Uppsetning númeraraða fyrir fyrirframgreiðslur  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölugrunnur** og veldu síðan tengda tengilinn.  
-2.  Á síðunni **Sölugrunnur** þarf að stækka flýtiflipann **Númeraröð** .  
-3.  Ganga þarf úr skugga um að númeraraðirnar fyrir bókaða fyrirframgreiðslureikninga (í reitnum **Bókuð fyrirframgr.reikn.nr.** ) séu þær sömu og fyrir bókaða sölureikninga ( **Nr.röð bókaðra reikninga** ) og númeraraðirnar fyrir bókaða kreditreikninga fyrirframgreiðslu ( **Bókuð kr.reikn.nr. fyrirframgr.** ) séu þær sömu og fyrir bókaða kreditreikninga ( **Nr.röð bókaðra kreditreikninga** ).  
+2.  Á síðunni **Sölugrunnur** þarf að stækka flýtiflipann **Númeraröð**.  
+3.  Ganga þarf úr skugga um að númeraraðirnar fyrir bókaða fyrirframgreiðslureikninga (í reitnum **Bókuð fyrirframgr.reikn.nr.**) séu þær sömu og fyrir bókaða sölureikninga (**Nr.röð bókaðra reikninga**) og númeraraðirnar fyrir bókaða kreditreikninga fyrirframgreiðslu (**Bókuð kr.reikn.nr. fyrirframgr.**) séu þær sömu og fyrir bókaða kreditreikninga (**Nr.röð bókaðra kreditreikninga**).  
 
 #### <a name="to-block-shipments-for-unpaid-prepayment"></a>Frysting afhendinga vegna ógreiddra fyrirframgreiðslna  
-1.  Á síðunni **Sala & Útistandandi uppsetning** , á flýtiflipanum **Almennt** , er gátreiturinn **Kanna fyrirframgreiðslu við bókun** valinn.
+1.  Á síðunni **Sala & Útistandandi uppsetning**, á flýtiflipanum **Almennt**, er gátreiturinn **Kanna fyrirframgreiðslu við bókun** valinn.
 
     Ekki er hægt að afhenda eða reikningsfæra pöntun sem er með ógreidda fyrirframgreiðslu.  
 
@@ -83,11 +83,11 @@ Pála vill að allir viðskiptamenn þurfi að borga 20% fyrirfram fyrir vöru 1
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Úthlutun sjálfgefins hlutfalls fyrirframgreiðslu á viðskiptamenn og vörur  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.  
 2.  Opna spjaldið fyrir viðskiptamann 20000 (Selangorian).
-3.  **30** er slegið inn í reitinn **Fyrirframgreiðsla %** .  
+3.  **30** er slegið inn í reitinn **Fyrirframgreiðsla %**.  
 4.  Velja hnappinn **Í lagi** til að loka viðskiptamannaspjaldinu.  
 5.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
 6.  Opna spjaldið fyrir viðskiptamann 1100.
-7.  Veljið aðgerðina **Fyrirframgreiðsluprósenta** .  
+7.  Veljið aðgerðina **Fyrirframgreiðsluprósenta**.  
 8.  Tvær línur á síðunni **Prósentur fyrirframgreiðslu sölu** eru fylltar út á eftirfarandi hátt.  
 
     |**Tegund sölu**|**Kóti sölu**|**Vörunr.**|**Fyrirframgreiðsla %**|  
@@ -102,9 +102,9 @@ Pála vill að allir viðskiptamenn þurfi að borga 20% fyrirfram fyrir vöru 1
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Til að tilgreina lykil fyrir sölufyrirframgreiðslur í alm. bókunargrunni  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Almennur bókunargrunnur** og veldu síðan tengda tengilinn.  
-2.  Veljið línuna þar sem reiturinn **Alm. viðsk.bókunarflokkur** er stilltur á **ÚTFL** og reiturinn **Alm. vörubókunarflokkur** er stilltur á **SMÁSALA** og veljið síðan aðgerðina **Breyta** .  
+2.  Veljið línuna þar sem reiturinn **Alm. viðsk.bókunarflokkur** er stilltur á **ÚTFL** og reiturinn **Alm. vörubókunarflokkur** er stilltur á **SMÁSALA** og veljið síðan aðgerðina **Breyta**.  
 3.  Á síðunni **Alm. bókunargrunnsspjald** í reitnum **Fyrirframgreiðslureikn. sölu** skal tilgreina viðeigandi reikning.  
-4.  Velja hnappinn **Í lagi** .  
+4.  Velja hnappinn **Í lagi**.  
 
 ## <a name="creating-an-order-that-requires-a-prepayment"></a>Stofnun pöntunar sem þarf fyrirframgreiðslu  
  Í eftirfarandi dæmi stofnar Súsanna, pantanavinnslan, pöntun útfrá samtali við viðskiptamann. Þær vörur sem viðskiptavinurinn pantar krefjast fyrirframgreiðslu og viðskiptavinurinn hefur áður greitt eftir gjalddaga. Súsanna hefur því fengið fyrirmæli um að krefjast föstu fyrirframgreiðsluupphæðarinnar 2000 fyrir pöntunina.  
@@ -116,7 +116,7 @@ Hún stofnar fyrirframgreiðslureikning og sendir hann til viðskiptamannsins.
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Stofnun sölupöntunar með fyrirframgreiðslu  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Valið er **Nýtt** aðgerð.  
-3.  Í reitnum **Selt til Viðskm.nr.** . skal velja **20000** .  
+3.  Í reitnum **Selt til Viðskm.nr.**. skal velja **20000**.  
 5.  Samþykkja skal viðvörun um vanskil sem birtist.  
 6.  Tvær sölulínur eru fylltar út með eftirfarandi upplýsingum.  
 
@@ -127,26 +127,26 @@ Hún stofnar fyrirframgreiðslureikning og sendir hann til viðskiptamannsins.
 
     Fyrirframgreiðslureitirnir á sölulínunni eru sjálfgefið faldir. Þá þarf að kalla fram.  
 
-7. Ganga þarf úr skugga um að í reitnum **Fyrirframgreiðsla %** á línunni með vöru **1000** standi **30** . Sjálfgefið gildi er tekið úr söluhausnum sem var fylltur út með viðskiptamannsspjaldinu.  
+7. Ganga þarf úr skugga um að í reitnum **Fyrirframgreiðsla %** á línunni með vöru **1000** standi **30**. Sjálfgefið gildi er tekið úr söluhausnum sem var fylltur út með viðskiptamannsspjaldinu.  
 
-    Í reitnum **Fyrirframgreiðsla %** á línunni með vörunni **1100** stendur **40** . Þetta er prósentan sem var færð inn á síðunni **Prósentur fyrirframgreiðslu sölu** fyrir vöru **1100** og viðskiptamann **20000** .  
+    Í reitnum **Fyrirframgreiðsla %** á línunni með vörunni **1100** stendur **40**. Þetta er prósentan sem var færð inn á síðunni **Prósentur fyrirframgreiðslu sölu** fyrir vöru **1100** og viðskiptamann **20000**.  
 
     Nánari upplýsingar um það eru í [Setja upp fyrirframgreiðslur](finance-set-up-prepayments.md).  
 8. Veldu **Upplýsingar** aðgerðina.  
-9. Á flýtiflipanum **Fyrirframgreiðsla** , inniheldur reiturinn **Línuupphæð fyrirframgr. án VSK** **1,560** . Ef fyrirframgreiðslureikningur er stofnaður fyrir pöntunina núna er þetta upphæðin sem er birt á reikningnum.  
+9. Á flýtiflipanum **Fyrirframgreiðsla**, inniheldur reiturinn **Línuupphæð fyrirframgr. án VSK** **1,560**. Ef fyrirframgreiðslureikningur er stofnaður fyrir pöntunina núna er þetta upphæðin sem er birt á reikningnum.  
 
     Í þessu dæmi hefur Súsanna fyrirmæli um að nota fyrirframgreiðslu upp á 2000 á pöntunina.  
 
     > [!IMPORTANT]  
     >  Eftirfarandi skref gætu ekki átt við, allt eftir landi/svæði.  
 10. Upphæðinni í reitnum **Línuupphæð fyrirframgr. án VSK** er breytt í **2000** og síðunni því næst lokað.  
-11. Þegar reiturinn **Fyrirframgreiðsla %** á sölulínunni er skoðaður sést að hann hefur verið endurreiknaður í **40.81625** .  
+11. Þegar reiturinn **Fyrirframgreiðsla %** á sölulínunni er skoðaður sést að hann hefur verið endurreiknaður í **40.81625**.  
 
     Endurreikningurinn nær yfir allar línur sem eru með fyrirframgreiðsluprósentu sem er hærri en 0.  
 
     Nú spyr viðskiptamaðurinn hvort hægt sé að hafa fyrirframgreiðsluna 35%. Yfirmaður Súsönnu samþykkir breytinguna.  
 
-12. Á síðunni **Sölupöntun** á reitnum **Fyrirframgreiðsla %** er fært inn **35** .  
+12. Á síðunni **Sölupöntun** á reitnum **Fyrirframgreiðsla %** er fært inn **35**.  
 13. Í viðvörunarglugganum sem birtist velurðu **Já** hnappinn. 35% gjald verður notaður sem fyrirframgreiðsluprósenta fyrir alla pöntunina.  
 14. Staðfesta að línurnar hafi verið uppfærðar í samræmi við þetta.  
 
@@ -155,7 +155,7 @@ Hún stofnar fyrirframgreiðslureikning og sendir hann til viðskiptamannsins.
 
 #### <a name="to-create-a-prepayment-invoice"></a>Stofnun fyrirframgreiðslureiknings  
 
-1.  Á síðunni **sölupöntun** skal velja aðgerðina **bóka fyrirframgreiðslureikningur** .  
+1.  Á síðunni **sölupöntun** skal velja aðgerðina **bóka fyrirframgreiðslureikningur**.  
 
 > [!NOTE]  
 >  Súsanna myndi velja **Bóka og prenta fyrirframgr.reikning** og senda reikninginn til viðskiptamannsins.  
@@ -165,11 +165,11 @@ Næsta dag hringir viðskiptamaðurinn í Súsönnu og gerir breytingar á pönt
 
 #### <a name="to-create-an-additional-prepayment-invoice"></a>Stofnun annars fyrirframgreiðslureiknings  
 
-1.  Á síðunni **sölupöntun** skal velja aðgerðina **enduropna** .  
-2.  Á línunni fyrir vöruna **1100** er **2** fært inn í reitinn **Magn** .  
+1.  Á síðunni **sölupöntun** skal velja aðgerðina **enduropna**.  
+2.  Á línunni fyrir vöruna **1100** er **2** fært inn í reitinn **Magn**.  
 
-    Flett er til að skoða fyrirframgreiðslureiti. Reiturinn **Línuupphæð fyrirframgreiðslu án VSK** inniheldur nú **630** og reiturinn **Reikn. fyrirfr.gr.upphæð. án VSK** inniheldur **315** . Þetta sýnir að til er önnur fyrirframgreiðsluupphæð sem hefur ekki verið reikningsfærð ennþá.  
-3.  Til að bóka reikning fyrir viðbótarupphæð fyrirframgreiðslu skal velja aðgerðina **Bóka fyrirframgreiðslureikning** .  
+    Flett er til að skoða fyrirframgreiðslureiti. Reiturinn **Línuupphæð fyrirframgreiðslu án VSK** inniheldur nú **630** og reiturinn **Reikn. fyrirfr.gr.upphæð. án VSK** inniheldur **315**. Þetta sýnir að til er önnur fyrirframgreiðsluupphæð sem hefur ekki verið reikningsfærð ennþá.  
+3.  Til að bóka reikning fyrir viðbótarupphæð fyrirframgreiðslu skal velja aðgerðina **Bóka fyrirframgreiðslureikning**.  
 
 ## <a name="applying-the-prepayments"></a>Jöfnun fyrirframgreiðslu  
 Viðskiptamaðurinn borgar fyrirframgreiðsluna og Árni, í innheimtudeildinni, skráir greiðsluna og jafnar hana við fyrirframgreiðslureikningana.  
@@ -187,7 +187,7 @@ Viðskiptamaðurinn borgar fyrirframgreiðsluna og Árni, í innheimtudeildinni,
 3. Valið er **Jafna Færslur** aðgerð.  
 4.  Á síðunni **Jafna viðskm.færslur** er fyrsti fyrirframgreiðslureikningurinn valinn og svo er aðgerðin **Setja kenni jöfnunar** valin.  
 5.  Endurtaka skal fyrri skref fyrir seinni fyrirframgreiðsluna.  
-6.  Velja hnappinn **Í lagi** .  
+6.  Velja hnappinn **Í lagi**.  
 
     Upphæðarreiturinn inniheldur núna samtölu fyrirframgreiðslureikninganna tveggja.  
 
@@ -208,14 +208,14 @@ Viðskiptamaðurinn borgar fyrirframgreiðsluna og Árni, í innheimtudeildinni,
 1. Veldu táknið ![Ljósapera sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **Bókaðir sölureikningar** og veldu síðan tengda tengilinn.  
 
 ## <a name="next-steps"></a>Næstu þrep  
-Í þessari kynningu var farið í gegnum uppsetningu á vinnslu fyrirframgreiðslna í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sett var upp sjálfgefin fyrirframgreiðsluprósentu á viðskiptamenn og vörur, auk þess sem notaðar voru mismunandi aðferðir til að reikna fyrirframgreiðslur á pöntun. Einni heildarupphæð fyrirframgreiðslu var úthlutað á pöntun og upphæð fyrirframgreiðslu var reiknuð sem hlutfall af pöntuninni í heild sinni.  
+Í þessari kynningu var farið í gegnum uppsetningu á vinnslu fyrirframgreiðslna í [!INCLUDE[prod_short](includes/prod_short.md)]. Sett var upp sjálfgefin fyrirframgreiðsluprósentu á viðskiptamenn og vörur, auk þess sem notaðar voru mismunandi aðferðir til að reikna fyrirframgreiðslur á pöntun. Einni heildarupphæð fyrirframgreiðslu var úthlutað á pöntun og upphæð fyrirframgreiðslu var reiknuð sem hlutfall af pöntuninni í heild sinni.  
 
 Einnig var fyrirframgreiðslureikningur bókaður, annar reikningur stofnaður þegar pöntunin breyttist og lokareikningur fyrir eftirstandandi upphæð var bókaður.  
 
-Fyrirframgreiðslueiginleikinn í [!INCLUDE[d365fin](includes/d365fin_md.md)] einfaldar uppsetningu og innleiðingu fyrirframgreiðslureglna fyrir viðskiptamenn og vörur, auk þess sem hann býður upp á bókun allra greiðslna gegn reikningi.  
+Fyrirframgreiðslueiginleikinn í [!INCLUDE[prod_short](includes/prod_short.md)] einfaldar uppsetningu og innleiðingu fyrirframgreiðslureglna fyrir viðskiptamenn og vörur, auk þess sem hann býður upp á bókun allra greiðslna gegn reikningi.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Reikningsfærsla fyrirframgreiðslna](finance-invoice-prepayments.md)  
 [Fjármál](finance.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)

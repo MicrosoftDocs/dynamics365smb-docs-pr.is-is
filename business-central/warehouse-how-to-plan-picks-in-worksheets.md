@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8030a00dbf488f697a53af1697ed193de0febb9d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 250d85308e60f93ccba28e2354e47be185918d52
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918289"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756143"
 ---
 # <a name="plan-picks-in-worksheets"></a>Skipuleggja tínslur á vinnublaðinu
 
@@ -26,7 +26,7 @@ Ef vöruhúsið er sett upp með bæði tínslu- og afhendingarvinnslu er hægt 
 
 Á tínsluvinnublaðinu er hægt að setja upp tínslulista fyrir starfsmenn sem minnkar tímann sem starfsmaðurinn notar til að fara um vöruhúsið og tína vörur. Það eru reitir með upplýsingum varðandi tiltækt magn af vörum í hjáskipunarhólfunum. Þetta er gagnlegt við hjáskipun þegar skipuleggja á verkúthlutanir þar sem forritið leggur alltaf til að tínt sé úr hjáskipunarhólfi á undan öðrum hólfum, óháð mælieiningum. Línurnar á vinnublaðinu geta komið úr ýmsum upprunaskjölum og þeim má raða eftir vöru, hillunúmeri., upprunaskjali, gjalddaga eða sendist-til aðsetri.  
 
-Ef raðað er eftir gjalddaga er hægt að eyða öllum línum öðrum en þeim sem sinna þarf strax af vinnublaðinu. Minna áríðandi línum er ekki eytt þannig séð, heldur fara þær aftur á vinnublaðið **Tínsluval** . Þegar tínslan er stofnuð hefur línunum þegar verið raðað eftir gjalddaga og hægt er að úthluta tínslunni á tiltekinn starfsmann.  
+Ef raðað er eftir gjalddaga er hægt að eyða öllum línum öðrum en þeim sem sinna þarf strax af vinnublaðinu. Minna áríðandi línum er ekki eytt þannig séð, heldur fara þær aftur á vinnublaðið **Tínsluval**. Þegar tínslan er stofnuð hefur línunum þegar verið raðað eftir gjalddaga og hægt er að úthluta tínslunni á tiltekinn starfsmann.  
 
 > [!NOTE]  
 > Tínsla fyrir vöruhúsaafhendingu vara sem settar eru saman úr sölupöntuninni sem verið er að afenda fylgir sömu aðferð og hefðbundin vöruhúsatínsla fyrir afhendingu eins og lýst er í þessu efnisatriði. Hins vegar gæti fjöldi tínslulína miðað við afhendingarmagn verið af gerðinni n:1 þar sem íhlutar eru tíndir en ekki samsetningarvaran.  
@@ -47,7 +47,7 @@ Ef raðað er eftir gjalddaga er hægt að eyða öllum línum öðrum en þeim 
 6. Nú er hægt að finna tínsluúthlutunina sem stofnuð var með því að velja tínsluna með hæsta númerinu.  
 7. Í tínslunni er hægt að breyta notandakenninu og röðun línanna ef þess þarf.  
 8. Veldu hnappinn **Prenta** til þess að prenta tínsluleiðbeiningarnar.  
-9. Þegar tínslunni er lokið skal velja aðgerðina **Skrá** .  
+9. Þegar tínslunni er lokið skal velja aðgerðina **Skrá**.  
 
 Hafi hólfin verið númeruð í samræmi við eiginlegt skipulag vöruhússins flýtir röðun lína eftir hólfakóta tínslu á nokkrum afhendingum í einni ferð um vöruhúsið. Starfsmaðurinn tekur tilskilinn fjölda af vörum fyrir hverja afhendingu úr hverju hólfi og setur þær með hinum vörunum í afhendingunni. Tínslumaður getur sparað mikinn tíma með því að tína í nokkrar afhendingar í einni ferð í hólfið.  
 
@@ -62,4 +62,4 @@ Hafi hólfin verið númeruð í samræmi við eiginlegt skipulag vöruhússins 
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)  
 [Samsetningardeild](assembly-assemble-items.md)  
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
