@@ -1,8 +1,7 @@
 ---
-title: Reglufylgni þjónustu | Microsoft Docs
-description: Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við Business Central.
+title: Reglufylgni þjónustu og þjónustustigssamningur
+description: Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við Business Central Online.
 author: sorenfriisalexandersen
-documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -12,32 +11,31 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 03987cf45cae8d8115ed2a782a60a5a19fc1032f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 56c4413e333a2bf8d08ae25f1e4df1d03e87e0be
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920973"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751931"
 ---
-# <a name="service-compliance"></a><span data-ttu-id="1f886-103">Reglufylgni þjónustu</span><span class="sxs-lookup"><span data-stu-id="1f886-103">Service Compliance</span></span>
-<span data-ttu-id="1f886-104">Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við [!INCLUDE[d365fin](../includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="1f886-104">This content contains information about service compliance in relation to [!INCLUDE[d365fin](../includes/d365fin_md.md)].</span></span>  
+# <a name="service-compliance"></a><span data-ttu-id="2ca61-103">Reglufylgni þjónustu</span><span class="sxs-lookup"><span data-stu-id="2ca61-103">Service Compliance</span></span>
 
-<span data-ttu-id="1f886-105">Business Central er skýjaþjónusta á heimsvísu og keyrir á einu stærsta tölvukerfi heims, Microsoft Azure, með gagnamiðstöðvar á svæðum um allan heim.</span><span class="sxs-lookup"><span data-stu-id="1f886-105">Business Central is a cloud service with a global reach and scale running on one of the World's largest hyperscale infrastructures, Microsoft Azure, with datacenters in regions all over the World.</span></span> <span data-ttu-id="1f886-106">Að keyra skýjaþjónustu felur einnig í sér að þurfa að samræmast ákveðnum stöðlum hvað varðar öryggi og reglufylgni, þannig að þjónustulega séð uppfyllir Business Central strangar kröfur nokkurra ISO-vottana og vottana ákveðinni atvinnugreina.</span><span class="sxs-lookup"><span data-stu-id="1f886-106">Running a cloud service also imposes the need to conform to certain standards in security and compliance, so from a service perspective Business Central lives up to the strict requirements in several ISO and industry specific certifications.</span></span>
+<span data-ttu-id="2ca61-104">Þetta efni inniheldur upplýsingar um reglufylgni þjónustu í tengslum við [!INCLUDE[prod_short](../includes/prod_short.md)] á netinu</span><span class="sxs-lookup"><span data-stu-id="2ca61-104">This content contains information about service compliance in relation to [!INCLUDE[prod_short](../includes/prod_short.md)] online</span></span>  
 
-<span data-ttu-id="1f886-107">Finndu ítarlegan lista yfir [Framboð á reglufylgni í skýi fyrir Business Central hér](https://aka.ms/d365-compliance-list).</span><span class="sxs-lookup"><span data-stu-id="1f886-107">Please find the detailed list of [Cloud compliance offerings for Business Central here](https://aka.ms/d365-compliance-list).</span></span>
+<span data-ttu-id="2ca61-105">Business Central er skýjaþjónusta á heimsvísu og keyrir á einu stærsta tölvukerfi heims, Microsoft Azure, með gagnamiðstöðvar á svæðum um allan heim.</span><span class="sxs-lookup"><span data-stu-id="2ca61-105">Business Central is a cloud service with a global reach and scale running on one of the world's largest hyper-scale infrastructures, Microsoft Azure, with data centers in regions all over the world.</span></span> <span data-ttu-id="2ca61-106">Að keyra skýjaþjónustu felur einnig í sér að þurfa að samræmast ákveðnum stöðlum hvað varðar öryggi og reglufylgni, þannig að þjónustulega séð uppfyllir Business Central strangar kröfur nokkurra ISO-vottana og vottana ákveðinni atvinnugreina.</span><span class="sxs-lookup"><span data-stu-id="2ca61-106">Running a cloud service also imposes the need to conform to certain standards in security and compliance, so from a service perspective Business Central lives up to the strict requirements in several ISO and industry specific certifications.</span></span>
 
-<span data-ttu-id="1f886-108">Ef þú hefur áhuga á heildarlistanum yfir framboð á reglufylgni frá Microsoft skaltu skoða [Öryggismiðstöð Microsoft](https://www.microsoft.com/trustcenter/compliance/complianceofferings).</span><span class="sxs-lookup"><span data-stu-id="1f886-108">If you are interested in the complete list of compliance offerings from Microsoft, see [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings).</span></span>
+<span data-ttu-id="2ca61-107">Finndu ítarlegan lista yfir [Framboð á reglufylgni í skýi fyrir Business Central hér](https://aka.ms/d365-compliance-list).</span><span class="sxs-lookup"><span data-stu-id="2ca61-107">Please find the detailed list of [Cloud compliance offerings for Business Central here](https://aka.ms/d365-compliance-list).</span></span>
 
-## <a name="service-terms"></a><span data-ttu-id="1f886-109">þjónustuskilmála</span><span class="sxs-lookup"><span data-stu-id="1f886-109">Service Terms</span></span>
+<span data-ttu-id="2ca61-108">Ef þú hefur áhuga á heildarlistanum yfir framboð á reglufylgni frá Microsoft skaltu skoða [Öryggismiðstöð Microsoft](https://www.microsoft.com/trustcenter/compliance/complianceofferings).</span><span class="sxs-lookup"><span data-stu-id="2ca61-108">If you are interested in the complete list of compliance offerings from Microsoft, see [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings).</span></span>
 
-[!INCLUDE[prodshort](../includes/prodshort.md)] <span data-ttu-id="1f886-110">á netinu fellur undir [„Modern“-reglur um stuðningstíma](https://support.microsoft.com/help/30881/modern-lifecycle-policy).</span><span class="sxs-lookup"><span data-stu-id="1f886-110">online is governed under the [Modern Lifecycle Policy](https://support.microsoft.com/help/30881/modern-lifecycle-policy).</span></span> <span data-ttu-id="1f886-111">Skilmálum um þjónustustigssamning er lýst í skjali sem þú getur sótt úr hlutanum **Þjónustustigssamningar fyrir Microsoft Online Services** á síðunni [Leyfisskilmálar](https://www.microsoft.com/licensing/product-licensing/products).</span><span class="sxs-lookup"><span data-stu-id="1f886-111">The service level agreement terms are described in the document that you can download from the **Service Level Agreements for Microsoft Online Services** section on the [Licensing terms](https://www.microsoft.com/licensing/product-licensing/products) page.</span></span>  
+## <a name="service-terms"></a><span data-ttu-id="2ca61-109">þjónustuskilmála</span><span class="sxs-lookup"><span data-stu-id="2ca61-109">Service Terms</span></span>
 
-<span data-ttu-id="1f886-112">Ennfremur geturðu fylgst með ástandi leigjanda þíns og tilgreint uppfærsluglugga í [Stjórnandamiðstöðu leigjanda](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).</span><span class="sxs-lookup"><span data-stu-id="1f886-112">Furthermore, you can monitor your tenant's health and specify upgrade windows in the [Tenant Administration Center](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).</span></span>  
+[!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a><span data-ttu-id="1f886-113">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="1f886-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2ca61-110">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="2ca61-110">See Also</span></span>
 
-[<span data-ttu-id="1f886-114">Reglufylgni</span><span class="sxs-lookup"><span data-stu-id="1f886-114">Compliance</span></span>](compliance-overview.md)  
-[<span data-ttu-id="1f886-115">Reglufylgni forrits</span><span class="sxs-lookup"><span data-stu-id="1f886-115">Application Compliance</span></span>](compliance-application-compliance.md)  
-[<span data-ttu-id="1f886-116">Vottanir</span><span class="sxs-lookup"><span data-stu-id="1f886-116">Certifications</span></span>](compliance-certifications.md)  
+[<span data-ttu-id="2ca61-111">Reglufylgni</span><span class="sxs-lookup"><span data-stu-id="2ca61-111">Compliance</span></span>](compliance-overview.md)  
+[<span data-ttu-id="2ca61-112">Reglufylgni forrits</span><span class="sxs-lookup"><span data-stu-id="2ca61-112">Application Compliance</span></span>](compliance-application-compliance.md)  
+[<span data-ttu-id="2ca61-113">Vottanir</span><span class="sxs-lookup"><span data-stu-id="2ca61-113">Certifications</span></span>](compliance-certifications.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
