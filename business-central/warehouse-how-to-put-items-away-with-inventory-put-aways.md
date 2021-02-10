@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3e79957c7e9106b4f67c3d4c7b6ac58703e8eb2f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2831471be76e776966a533c428a5698307826b1c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918264"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756093"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Ganga frá vörum með birgðafrágangi
 Þegar birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki móttökuvinnslu skal nota fylgiskjalið **Birgðafrágangur** til að skrá og bóka frágang og afhendingarupplýsingar fyrir upprunaskjölin. Upprunaskjalið á innleið getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslu eða samsetningapöntun þar sem úttakið er tilbúið til frágangs.  
@@ -30,11 +30,11 @@ ms.locfileid: "3918264"
 Ef um er að ræða innkaupapantanir, söluvöruskilapantanir og millifærslupantanir á innleið og samsetningapantanir er vöruhússbeiðnin stofnuð með því að gefa út pöntunina. Eftirfarandi lýsir því hvernig skal gera þetta frá innkaupapöntun.  
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.
-2. Valin er innkaupapöntun sem á að gefa út og velja síðan aðgerðina **Gefa út** .  
+2. Valin er innkaupapöntun sem á að gefa út og velja síðan aðgerðina **Gefa út**.  
 
     Ef um er að ræða framleiðslupantanir, er hægt að stofna vöruhúsabeiðni með því að stofna innleiðarbeiðni í útgefnu framleiðslupöntuninni.  
 3.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Útgefnar framleiðslupantanir** og veldu síðan tengda tengilinn.  
-4. Velja skal aðgerðina **Stofna vöruh.beiðni á innleið** .  
+4. Velja skal aðgerðina **Stofna vöruh.beiðni á innleið**.  
 
 > [!NOTE]  
 >  Einnig er hægt að stofna á vöruhúsabeiðni á innleið með því að gátreitinn **Stofna beiðni á innleið** þegar framleiðslupöntun er endurnýjuð. Frekari upplýsingar, sjá [Uppfæra eða enduráætla framleiðslupantanir](production-how-to-replan-refresh-production-orders.md).  
@@ -51,23 +51,23 @@ Nú þegar beiðnin hefur verið stofnuð getur starfsmaður vöruhússins stofn
 6. Velja hnappinn **Í lagi** til að fylla út frágangslínur í samræmi við valið upprunaskjal.  
 
 ## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Birgðafrágangur stofnaður úr upprunaskjali:  
-1.  Í upprunaskjalinu, sem getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslupöntun, skal velja aðgerðina **Stofna frágang/tínslu í birgðum** .  
-2. Veljið gátreitinn **Stofna birgðafrágang** .
-3. Velja hnappinn **Í lagi** . Nýr birgðafrágangur er stofnaður.
+1.  Í upprunaskjalinu, sem getur verið innkaupapöntun, söluvöruskilapöntun, millifærslupöntun á innleið eða framleiðslupöntun, skal velja aðgerðina **Stofna frágang/tínslu í birgðum**.  
+2. Veljið gátreitinn **Stofna birgðafrágang**.
+3. Velja hnappinn **Í lagi**. Nýr birgðafrágangur er stofnaður.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Fleiri en ein birgðafrágangur stofnuð með keyrslu  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Stofna frág./tínslu í birgðum** og veldu síðan tengda tengilinn.  
 2.  Á flýtiflipanum **Vöruhúsabeiðni** á beiðnisíðunni eru reitirnir **Upprunaskjal** og **Upprunanúmer** notaðir til að afmarka eftir tilteknum gerðum fylgiskjala eða sviðum fylgiskjalanúmera.  
-3.  Á flýtiflipanum **Valkostir** skal velja gátreitinn **Stofna birgðafrágang** .
-4.  Velja hnappinn **Í lagi** . Tiltekinn birgðafrágangar eru stofnaðar.
+3.  Á flýtiflipanum **Valkostir** skal velja gátreitinn **Stofna birgðafrágang**.
+4.  Velja hnappinn **Í lagi**. Tiltekinn birgðafrágangar eru stofnaðar.
 
 ## <a name="to-record-the-inventory-put-away"></a>Skrá Birgðafráganginn  
-1. Opna frágangsskjal sem þegar hefur verið stofnað með því að velja það af síðunni **Birgðafrágangur** .  
+1. Opna frágangsskjal sem þegar hefur verið stofnað með því að velja það af síðunni **Birgðafrágangur**.  
 2. Í reitnum **Hólfakóði** í tfrágangslínunum, hólfið sem vörurnar þurfa að vera tíndar úr er tillaga á sjálfgefið hólf vörunnar. Hægt er að skipta um hólf á þessari síðu ef með þarf.  
-3. Gengið er frá vörunum og upplýsingar um magnið sem gengið var frá færðar inn í reitinn **Magn til afgreiðslu** .
+3. Gengið er frá vörunum og upplýsingar um magnið sem gengið var frá færðar inn í reitinn **Magn til afgreiðslu**.
 
-    Ef setja þarf vörur í einni línu í fleiri en eitt hólf, t.d. af því úthlutaða hólfið er fullt, skal nota aðgerðina **Skipta línu** á flýtiflipanum **Línur** . Sjá [Skipta aðgerðalínum í vöruhúsi](warehouse-how-to-split-warehouse-activity-lines.md) fyrir nánari upplýsingar um að skipta línum.  
-4. Þegar fráganginum er lokið skal velja aðgerðina **Bóka** .  
+    Ef setja þarf vörur í einni línu í fleiri en eitt hólf, t.d. af því úthlutaða hólfið er fullt, skal nota aðgerðina **Skipta línu** á flýtiflipanum **Línur**. Sjá [Skipta aðgerðalínum í vöruhúsi](warehouse-how-to-split-warehouse-activity-lines.md) fyrir nánari upplýsingar um að skipta línum.  
+4. Þegar fráganginum er lokið skal velja aðgerðina **Bóka**.  
 
 Í bókunarferlinu bókast móttakan (eða úttakið í framleiðslupöntunum) á upprunaskjalslínum sem gengið hefur verið frá og ef hólf eru notuð í birgðageymslunni stofnar bókunin einnig vöruhúsafærslur til að bóka magnbreytingar í hólfum.
 
@@ -77,4 +77,4 @@ Nú þegar beiðnin hefur verið stofnuð getur starfsmaður vöruhússins stofn
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

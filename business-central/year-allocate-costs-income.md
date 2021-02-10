@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 303d84e317814e4baeb686d190037194794bfb50
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 61d6aab8435297d2e41c777df38d9656dc426fbf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3909981"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755692"
 ---
 # <a name="allocate-costs-and-income"></a>Úthluta kostnaði og tekjum
 Hægt er að úthluta færslu úr færslubók til nokkurra reikninga þegar færslubókin er bókuð. Framkvæma má úthlutunina miðað við þrjú atriði:
@@ -33,7 +33,7 @@ Eftirfarandi ferli lýsa því hvernig skal búa sig undir það að úthluta ko
 ## <a name="to-set-up-allocation-keys"></a>setja upp úthlutunarlykla
 Hægt er að úthluta færslu úr ítrekunarfærslubók til nokkurra reikninga þegar færslubókin er bókuð. Úthlutunin getur verið í magni, prósentu eða upphæð.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Ítrekunarfærslubók** og veldu síðan tengda tengilinn.
-2. Veldu reitinn **Runuheiti** til að opna síðuna **Færslubókarkeyrslur** .
+2. Veldu reitinn **Runuheiti** til að opna síðuna **Færslubókarkeyrslur**.
 3. Þú getur annað hvort breytt úthlutunum á fyrirliggjandi runu í listanum eða stofnað nýja runu með úthlutunum.
    * Til að stofna nýja runu, velja **Nýtt** aðgerð og farið á næsta skref.
    * Til að breyta úthlutunum fyrir núverandi færslubók, veldu færslubók og farðu í skref 7.    
@@ -41,19 +41,19 @@ Hægt er að úthluta færslu úr ítrekunarfærslubók til nokkurra reikninga �
 5. Að því loknu er síðunni lokað. Ný, auð ítrekunarbók opnast.
 6. Reitirnir í línunni eru fylltir út.
 7. Valið er **úthluta** aðgerð.
-8. Lína er bætt við fyrir hverja úthlutun. Annaðhvort þarf að fylla út reitinn **Úthlutun %** , **Úthlutunarmagn** eða **Upphæð** . Einnig þarf að fylla út reitinn **Reikningsnr.** og í reitina í altækum víddum ef færslan á að fara í altækar víddir.
+8. Lína er bætt við fyrir hverja úthlutun. Annaðhvort þarf að fylla út reitinn **Úthlutun %**, **Úthlutunarmagn** eða **Upphæð**. Einnig þarf að fylla út reitinn **Reikningsnr.** og í reitina í altækum víddum ef færslan á að fara í altækar víddir.
 9. Þegar prósenta er færð í línu reiknast upphæðin í reitnum **Upphæð** sjálfkrafa. Þessar upphæðir verða að hafa andstætt merki við það sem heildarupphæðin í reitnum **Upphæð** er með í ítrekunarbókinni.
-10. Eftir að hafa fært inn úthlutunarlínurnar skal velja **Í lagi** til að fara aftur á síðuna **endurteknar færslubækur** . Svæðið **Úthlutuð upphæð (USD)** er fyllt út og er eins og svæðið **Upphæð** .
+10. Eftir að hafa fært inn úthlutunarlínurnar skal velja **Í lagi** til að fara aftur á síðuna **endurteknar færslubækur**. Svæðið **Úthlutuð upphæð (USD)** er fyllt út og er eins og svæðið **Upphæð**.
 11. Bóka skal færslubókina.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Til að breyta uppsettum úthlutunarlykli
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Ítrekunarfærslubók** og veldu síðan tengda tengilinn.
 2. Á síðunni **Ítrekunarfærslubók** er færslubók með úthlutun valin.
-3. Velja línu með úthlutuninni og velja síðan **úthlutanir** .
-4. Breyta viðeigandi reitum, og velja svo hnappinn **Í lagi** .
+3. Velja línu með úthlutuninni og velja síðan **úthlutanir**.
+4. Breyta viðeigandi reitum, og velja svo hnappinn **Í lagi**.
 
 ## <a name="see-also"></a>Sjá einnig
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)    
 [Að bóka skjöl og færslubækur](ui-post-documents-journals.md)    
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

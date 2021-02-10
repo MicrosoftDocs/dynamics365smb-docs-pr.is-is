@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a34af93c4aae2d87d17fcad4f0526783a01e8b64
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1c7896988545d6f1b8269ead90dff7350bc6f320
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915944"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755828"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Virkja Vörutínsla eftir FEFO
 Fyrst-fyrnt-fyrst-út (FEFO) er röðunaraðferð sem tryggir að elstu vörurnar, sem hafa elstu lokadagsetningarnar, eru tíndar fyrst.  
@@ -23,11 +23,11 @@ Fyrst-fyrnt-fyrst-út (FEFO) er röðunaraðferð sem tryggir að elstu vörurna
  Þessi aðgerð virkar aðeins ef eftirfarandi skilyrði eru uppfyllt:  
 
 -   Varan verður að hafa rað-/lotunúmer.  
--   Í vörurakningarkóðauppsetningu vörunnar verður að velja reitinn **Vöruhúsarakning bundin við raðnúmer** eða reitinn **Vöruhúsarakning bundin við lotnúmer** .  
+-   Í vörurakningarkóðauppsetningu vörunnar verður að velja reitinn **Vöruhúsarakning bundin við raðnúmer** eða reitinn **Vöruhúsarakning bundin við lotnúmer**.  
 -   Vöruna þarf að bóka á birgðir með lokadegi.  
 -   Á birgðageymsluspjaldinu verður reiturinn **Krefjast tínslu** að vera valinn.  
 -   Á birgðageymsluspjaldinu verður gátreiturinn **Tína eftir FEFO** að vera valinn.  
--   Á birgðageymsluspjaldinu þarf að velja gátreitinn **Hólf áskilið** .  
+-   Á birgðageymsluspjaldinu þarf að velja gátreitinn **Hólf áskilið**.  
 
  Þegar öll skilyrðin eru uppfyllt er rað-/lotunúmerum til tínslu raðað með þá elstu fyrst í öllum tínslum og hreyfingum, fyrir utan vörur sem nota raðnúmers- eða lotubundna rakningu.  
 
@@ -48,4 +48,4 @@ Ef reiturinn **Ströng lokasöludagsetning** er valinn. munu aðeins vörur sem 
 [Vörur tíndar með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Birgðir](inventory-manage-inventory.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 279a76751b6652221d83ee453cc171bf357c0328
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4393053f9f158b04323453b7508cc19c10b04102
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927677"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754043"
 ---
 # <a name="define-retention-policies"></a>Skilgreina varðveislureglur
-Stjórnendur geta skilgreint varðveislureglur til að tilgreina hversu oft þeir vilja að [!INCLUDE[prodshort](includes/prodshort.md)] eyði úreltum gögnum í töflum sem innihalda kladdafærslur og safnvistaðar færslur. Til dæmis getur hreinsun á kladdafærslum gert auðveldara um vik að vinna með gögnin sem eiga við. Reglur geta innihaldið öll gögn í töflunum sem eru komin fram yfir lokadagsetninguna eða hægt er að bæta við síuskilyrðum sem innihalda aðeins tiltekin útrunnin gögn í reglunni. 
+Stjórnendur geta skilgreint varðveislureglur til að tilgreina hversu oft þeir vilja að [!INCLUDE[prod_short](includes/prod_short.md)] eyði úreltum gögnum í töflum sem innihalda kladdafærslur og safnvistaðar færslur. Til dæmis getur hreinsun á kladdafærslum gert auðveldara um vik að vinna með gögnin sem eiga við. Reglur geta innihaldið öll gögn í töflunum sem eru komin fram yfir lokadagsetninguna eða hægt er að bæta við síuskilyrðum sem innihalda aðeins tiltekin útrunnin gögn í reglunni. 
 
 ## <a name="required-setups-and-permissions"></a>Áskildar uppsetningar og heimildir
 Áður en hægt er að búa til varðveislureglur þarf að setja upp eftirfarandi.
@@ -31,10 +31,10 @@ Stjórnendur geta skilgreint varðveislureglur til að tilgreina hversu oft þei
 Þar að auki þarf að vera með heimildir yfirnotanda eða heimildasamstæðu fyrir uppsetningu varðveislureglu. Notendur sem fá heimildasamstæðuna fyrir uppsetningu varðveislureglu geta skilgreint varðveislureglur fyrir töflur, jafnvel þótt þeir hafi ekki heimildir til að lesa og eyða heimildum fyrir þessar töflur. Verkraðarfærslan verður að vera keyrð sem notandi með heimildir til að lesa og eyða gögnunum. Ráðlagt er að veita ekki heimildasamstæðu fyrir uppsetningu varðveislureglu til notenda sem ættu ekki að fá leyfi til að eyða gögnum.
 
 > [!NOTE]
-> Ef verið er að nota [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum og ætlunin er að prófa varðveislureglur í Cronus-sýnigagnagrunninum, eru nokkrir hlutir sem þarf að gera. Sýnifyrirtækið inniheldur ekki töflur sem hægt er að nota með varðveislureglum og því þarf að bæta þeim við. Til að gera það skal stofna nýtt, autt fyrirtæki í sýnigagnagrunninum. Í nýja fyrirtækinu skal flytja inn grunnstillingapakkann RapidStart fyrir landið þitt sem samræmist staðlaða pakkanum NAV17.0.W1.ENU.STANDARD.rapidstart. Uppsetningargögnin fyrir varðveislureglur verða tiltækar í nýja fyrirtækinu.
+> Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum og ætlunin er að prófa varðveislureglur í Cronus-sýnigagnagrunninum, eru nokkrir hlutir sem þarf að gera. Sýnifyrirtækið inniheldur ekki töflur sem hægt er að nota með varðveislureglum og því þarf að bæta þeim við. Til að gera það skal stofna nýtt, autt fyrirtæki í sýnigagnagrunninum. Í nýja fyrirtækinu skal flytja inn grunnstillingapakkann RapidStart fyrir landið þitt sem samræmist staðlaða pakkanum NAV17.0.W1.ENU.STANDARD.rapidstart. Uppsetningargögnin fyrir varðveislureglur verða tiltækar í nýja fyrirtækinu.
 
 ### <a name="to-create-retention-periods"></a>Varðveislutímar búnir til
-Varðveislutímar geta verið eins langir eða stuttir og þú vilt. Til að búa til varðveislutíma skal á síðunni **Varðveislureglur** nota aðgerðina **Varðveislutími** . Tímabilin sem eru skilgreind verða tiltæk fyrir allar reglur.
+Varðveislutímar geta verið eins langir eða stuttir og þú vilt. Til að búa til varðveislutíma skal á síðunni **Varðveislureglur** nota aðgerðina **Varðveislutími**. Tímabilin sem eru skilgreind verða tiltæk fyrir allar reglur.
 
 > [!NOTE]
 > Af samræmisástæðum höfum við skilgreint lágmarks varðveislutíma fyrir sumar töflur. Ef varðveislutími er stilltur sem er styttri en lágmark sem krafist er, birtast skilaboð um áskilda tímabilið.
@@ -53,15 +53,15 @@ Hægt er að nota verkraðarfærslu til að setja á varðveislureglur til að e
 
 Til að nota varðveislureglu sjálfkrafa skal bara stofna og virkja reglu. Þegar regla er gerð virk búum við til verkraðarfærslu sem setur á varðveislureglur samkvæmt varðveislutímanum sem er tilgreindur. Allar varðveislureglur munu nota sömu verkraðarfærsluna. Sjálfgefið er að verkraðarfærslan beiti reglunni á hverjum degi kl. 02:00. Hægt er að breyta sjálfgildinu en ef það er gert mælum við með því að það keyri utan vinnutíma. Frekari upplýsingar, sjá [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md). 
 
-Hægt er að setj á reglu handvirkt með því að nota aðgerðina **Nota handvirkt** á síðunni **Varðveislureglur** . Ef ætlunin er að nota alltaf reglu handvirkt skal kveikja á **Handvirkt** . Verkraðarfærslan hunsar þá regluna þegar hún er keyrð.
+Hægt er að setj á reglu handvirkt með því að nota aðgerðina **Nota handvirkt** á síðunni **Varðveislureglur**. Ef ætlunin er að nota alltaf reglu handvirkt skal kveikja á **Handvirkt**. Verkraðarfærslan hunsar þá regluna þegar hún er keyrð.
 
 ## <a name="viewing-retention-policy-log-entries"></a>Kladdafærslur varðveislureglu skoðaðar
-Hægt er að skoða verkþætti sem tengjast varðveislureglum á síðunni **Varðveislureglukladdi** . Til dæmis eru færslur búnar til þegar regla er notuð, eða ef villur komu upp þegar það var gert. 
+Hægt er að skoða verkþætti sem tengjast varðveislureglum á síðunni **Varðveislureglukladdi**. Til dæmis eru færslur búnar til þegar regla er notuð, eða ef villur komu upp þegar það var gert. 
 
 ## <a name="including-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Hafa með viðbótina í varðveislureglu (krefst aðstoðar frá þróunaraðila)
-Að sjálfgefnu ná varðveislureglur aðeins yfir töflur sem eru teknar með í listanum yfir [!INCLUDE[prodshort](includes/prodshort.md)]-töflur sem við bjóðum upp á. Hægt er að fjarlægja sjálfgefnar töflur úr listanum og hægt er að bæta við eigin töflum. Það er sem sagt ekki hægt að bæta við töflu sem þú bjóst ekki til. Til dæmis er ekki hægt að bæta við öðrum töflum úr [!INCLUDE[prodshort](includes/prodshort.md)] eða úr viðbót sem hefur verið keypt.
+Að sjálfgefnu ná varðveislureglur aðeins yfir töflur sem eru teknar með í listanum yfir [!INCLUDE[prod_short](includes/prod_short.md)]-töflur sem við bjóðum upp á. Hægt er að fjarlægja sjálfgefnar töflur úr listanum og hægt er að bæta við eigin töflum. Það er sem sagt ekki hægt að bæta við töflu sem þú bjóst ekki til. Til dæmis er ekki hægt að bæta við öðrum töflum úr [!INCLUDE[prod_short](includes/prod_short.md)] eða úr viðbót sem hefur verið keypt.
 
-Til að bæta töflum við listann yfir leyfðar töflur þarf þróunaraðili að bæta við kóða, til dæmis til að codeunit-uppsetningarforritið fyrir viðbótina (kóðaeining með undirgerðina *uppsetning* ). 
+Til að bæta töflum við listann yfir leyfðar töflur þarf þróunaraðili að bæta við kóða, til dæmis til að codeunit-uppsetningarforritið fyrir viðbótina (kóðaeining með undirgerðina *uppsetning*). 
 
 Þegar þróunaraðili bætir við töflu getur hann tilgreint áskildar og sjálfgefnar síur. Ekki er hægt að fjarlægja áskildar síur eða breyta þeim síðar þegar töflum er bætt við til að skilgreina varðveislureglu. Sjálfgefnar síur eru bara vinalegar tillögur.
 
@@ -104,4 +104,4 @@ Eftirfarandi dæmi inniheldur áskilda síu.
 [Endurskoðunarbreytingar í Business Central](across-log-changes.md)  
 [Afmörkun](ui-enter-criteria-filters.md#filtering)  
 [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

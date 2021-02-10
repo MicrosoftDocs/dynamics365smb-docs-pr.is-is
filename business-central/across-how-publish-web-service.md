@@ -7,18 +7,18 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/08/2020
 ms.author: edupont
-ms.openlocfilehash: 658816cfb65580404bc8ef10472a5b62c6815c9e
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 2220b5227cfe0e99a53071829096a67b6aeb0521
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989489"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754918"
 ---
 # <a name="publish-a-web-service"></a>Birta vefþjónustu
 
-Vefþjónustur eru létt leið til að gera virkni forrita aðgengilega ýmsum utanaðkomandi kerfum og notendum. Sjálfgefið er að [!INCLUDE[d365fin](includes/d365fin_md.md)] gefi upp nokkra hluti sem vefþjónustur fyrir betri samþættingu við aðra Microsoft-þjónustu. Þú getur bætt öðrum vefþjónustum við eftir því hvað reksturinn þarfnast.  
+Vefþjónustur eru létt leið til að gera virkni forrita aðgengilega ýmsum utanaðkomandi kerfum og notendum. Sjálfgefið er að [!INCLUDE[prod_short](includes/prod_short.md)] gefi upp nokkra hluti sem vefþjónustur fyrir betri samþættingu við aðra Microsoft-þjónustu. Þú getur bætt öðrum vefþjónustum við eftir því hvað reksturinn þarfnast.  
 
-Settu upp vefþjónustu í [!INCLUDE[d365fin](includes/d365fin_md.md)] og birtu síðan vefþjónustuna þannig að hún sé aðgengileg sannvottuðu notendum. Allir heimilaðir notendur geta opnað lýsigögn fyrir vefþjónustu, en aðeins notendur með nægilegar heimildir geta opnað raungögn.  
+Settu upp vefþjónustu í [!INCLUDE[prod_short](includes/prod_short.md)] og birtu síðan vefþjónustuna þannig að hún sé aðgengileg sannvottuðu notendum. Allir heimilaðir notendur geta opnað lýsigögn fyrir vefþjónustu, en aðeins notendur með nægilegar heimildir geta opnað raungögn.  
 
 ## <a name="creating-and-publishing-a-web-service"></a>Vefþjónusta stofnuð og gefin út
 
@@ -27,22 +27,22 @@ Eftirfarandi skref skýra hvernig vefþjónusta er búin til og gefin út.
 ### <a name="to-create-and-publish-a-web-service"></a>Til að stofna og gefa út vefþjónustu  
 
 1. Veldu táknið ![ljósapera sem opnar eiginleikan „Viðmótsleit“](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera"), sláðu inn **vefþjónusta** og veldu síðan tengda tengilinn.  
-2. Á síðunni **Vefþjónusta** veljið **Nýtt** . [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Á síðunni **Vefþjónusta** veljið **Nýtt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     > **Kótaeining** og **Síða** eru gildar tegundir fyrir SOAP-vefþjónustu. **Síða** og **Fyrirspurn** eru gildar gerðir fyrir OData-vefþjónustu. Frá og með útgáfu 16.3, er **Codeunit** einnig gild gerð fyrir OData v4 vefþjónustur, en þá er engin vefslóð sýnd í notandaviðmótinu. Ef gagnagrunnurinn inniheldur mörg fyrirtæki er hægt að velja Kenni hlutar sem á aðeins við eitt af fyrirtækjunum.  
     > Ef heiti þjónustunnar sýnilegt notendum vefþjónustunnar og það gegnir mikilvægu hlutverki í að auðkenna og þekkja vefþjónustuna. Því skaltu gefa henni merkingarbært heiti.
 
-3. Veldu gátreitinn í dálkinum **Útgefið** .  
+3. Veldu gátreitinn í dálkinum **Útgefið**.  
 
 Þegar vefþjónusta er gefin út sýna reitirnir **OData-vefslóð** og **SOAP-vefslóð** nýju vefslóðirnar. Hins vegar, fyrir codeunit sem gefið er upp sem OData v4 óbundnar aðgerðir, eru reitir vefslóða ekki sýndir.  
 
-Hægt er að prófa vefþjónustuna strax með því að velja tengla í reitunum **OData-vefslóð** og **SOAP-vefslóð** . Einnig er hægt að afrita gildið í reitnum og vista það til síðari nota. Til að prófa codeunit sem gefið er upp sem OData v4 óbundnar aðgerðir, skal fylgja leiðbeiningunum í hlutanum [Sannprófa aðgengileika vefþjónustu](/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action#verifying-web-service-availability) í efni þróunaraðila.
+Hægt er að prófa vefþjónustuna strax með því að velja tengla í reitunum **OData-vefslóð** og **SOAP-vefslóð**. Einnig er hægt að afrita gildið í reitnum og vista það til síðari nota. Til að prófa codeunit sem gefið er upp sem OData v4 óbundnar aðgerðir, skal fylgja leiðbeiningunum í hlutanum [Sannprófa aðgengileika vefþjónustu](/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action#verifying-web-service-availability) í efni þróunaraðila.
 
 > [!NOTE]
-> Ef hlutirnir sem þú hefur birt sem vefþjónustur eiga ekki að vera aðgengilegir frá [!INCLUDE[prodshort](includes/prodshort.md)] online verður þú að merkja aðferðirnar í kóðanum sem `[Scope('OnPrem')]`. Frekari upplýsingar má sjá í [Umfangseigind](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
+> Ef hlutirnir sem þú hefur birt sem vefþjónustur eiga ekki að vera aðgengilegir frá [!INCLUDE[prod_short](includes/prod_short.md)] online verður þú að merkja aðferðirnar í kóðanum sem `[Scope('OnPrem')]`. Frekari upplýsingar má sjá í [Umfangseigind](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
-Eftir að þú birtir vefþjónustu, hafa ytri aðilar aðgang að henni. Hægt er að staðfesta að vefþjónustan sé tiltæk með því að nota vafra eða með því að velja tengilinn í reitunum **OData-vefslóð** og **SOAP-vefslóð** á síðunni **Vefþjónusta** . Eftirfarandi ferli sýnir hvernig hægt er að staðfesta aðgengi að vefþjónustunni fyrir notkun síðar.  
+Eftir að þú birtir vefþjónustu, hafa ytri aðilar aðgang að henni. Hægt er að staðfesta að vefþjónustan sé tiltæk með því að nota vafra eða með því að velja tengilinn í reitunum **OData-vefslóð** og **SOAP-vefslóð** á síðunni **Vefþjónusta**. Eftirfarandi ferli sýnir hvernig hægt er að staðfesta aðgengi að vefþjónustunni fyrir notkun síðar.  
 
 ### <a name="to-verify-the-availability-of-a-web-service"></a>Til að staðfesta aðgengi að vefþjónustu  
 
@@ -56,7 +56,7 @@ Eftir að þú birtir vefþjónustu, hafa ytri aðilar aðgang að henni. Hægt 
 
 2. Fara skal yfir upplýsingarnar sem birtast í vafranum. Staðfesta skal að heiti vefþjónustunnar sem var búin til sjáist.  
 
-Þegar þú ferð inn á vefþjónustu og vilt skrifa gögn aftur til [!INCLUDE[d365fin](includes/d365fin_md.md)], verður þú að taka fram heiti fyrirtækis. Hægt er að tilgreina fyrirtækið í URI-slóð eins og sýnt er í dæmunum; annars er hægt að tilgreina fyrirtækið sem hluti af færibreytum fyrirspurnarinnar. Eftirfarandi vefslóðir vísa t.d. á sama OData vefþjónustuna og eru báðar gildar vefslóðir.  
+Þegar þú ferð inn á vefþjónustu og vilt skrifa gögn aftur til [!INCLUDE[prod_short](includes/prod_short.md)], verður þú að taka fram heiti fyrirtækis. Hægt er að tilgreina fyrirtækið í URI-slóð eins og sýnt er í dæmunum; annars er hægt að tilgreina fyrirtækið sem hluti af færibreytum fyrirspurnarinnar. Eftirfarandi vefslóðir vísa t.d. á sama OData vefþjónustuna og eru báðar gildar vefslóðir.  
 
 ```
 https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS International Ltd.')/Customer  

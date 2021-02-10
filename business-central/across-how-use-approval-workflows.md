@@ -11,17 +11,17 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 09dfddfe26ee0e9b1cc6ca01661657a3b7fff411
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 044b09cb2dced1100665a6d5705f6e43672b5f12
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924904"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754593"
 ---
 # <a name="use-approval-workflows"></a>Nota Samþykktarverkflæði
 Þegar færsla, svo sem innkaupaskjal eða viðskiptamannaspjald sem stofnað hefur verið þarfnast samþykktar aðila innan fyrirtækisins er send samþykktarbeiðni sem hluti af verkflæði. Beiðnin um samþykki færslu verður send til viðeigandi samþykkjanda á grundvelli þess hvernig verkflæðið hefur verið sett upp.
 
-Setja upp samþykktarverkflæði á síðunni **Verkflæði** . Nánari upplýsingar er að finna í [Uppsetning Verkflæði](across-set-up-workflows.md).
+Setja upp samþykktarverkflæði á síðunni **Verkflæði**. Nánari upplýsingar er að finna í [Uppsetning Verkflæði](across-set-up-workflows.md).
 
 Í viðbót við samþykktarverkflæði sem lýst er í þessu efnisatriði, geturðu framkvæmt ýmis önnur verkflæðisverk. Frekari upplýsingar, [Nota verkflæði](across-use-workflows.md).
 
@@ -33,7 +33,7 @@ Eftirfarandi verkið er framkvæmt af samþykktarnotanda.
 1. á síðunni sem táknar færsluna er valið **Senda samþykktarbeiðni** aðgerðin.
 2. Til að sjá allar samþykktarbeiðnir þínar skal velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Færslur fyrir samþykktarbeiðni** og veldu síðan tengda hlekkinn.  
 
-Staða samþykktarfærslunnar er uppfærð úr **Stofnað** í **Opið** . Staða færslunnar, til dæmis innkaupareikningur, er uppfærð úr **Opin** í **Bíður samþykkis** og er áfram lokuð fyrir breytngar þar til allir samþykkjendur hafa samþykkt færsluna.
+Staða samþykktarfærslunnar er uppfærð úr **Stofnað** í **Opið**. Staða færslunnar, til dæmis innkaupareikningur, er uppfærð úr **Opin** í **Bíður samþykkis** og er áfram lokuð fyrir breytngar þar til allir samþykkjendur hafa samþykkt færsluna.
 
 Þegar samþykkjandi hefur samþykkt færslu breytist staðan í **Losuð** Þá er hægt að halda áfram verkefni með færsluna.
 
@@ -44,7 +44,7 @@ Vera kann að viðskiptavinur vilji breyta pöntun eftir að hún hefur verið l
 
 - á síðunni sem sýnir færsluna er valið **Hætta við samþykktarbeiðni** aðgerðin.
 
-Þegar hætt hefur verið við samþykktarbeiðnina uppfærist staðan á samþykktarfærslunni í **Hætt við** . Staða færslunnar er uppfærð úr **Bíður samþykktar** í **Opið** . Samþykktarferlið getur þá hafist á ný.
+Þegar hætt hefur verið við samþykktarbeiðnina uppfærist staðan á samþykktarfærslunni í **Hætt við**. Staða færslunnar er uppfærð úr **Bíður samþykktar** í **Opið**. Samþykktarferlið getur þá hafist á ný.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Samþykkja eða hafna samþykktum
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
@@ -53,13 +53,13 @@ Hægt er að vinna samþykktarbeiðnum á síðunni **Beiðnir til að samþykkj
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Beiðnir til að samþykkja** og veldu síðan tengda tengilinn.
 2. Velja eina eða fleiri línur fyrir færslu eða færslur sem á að samþykkja eða hafna.
-3. Valið er **Samþykkja** , **Hafna** , eða **Framselja** aðgerðir.
+3. Valið er **Samþykkja**, **Hafna**, eða **Framselja** aðgerðir.
 
-Þegar færsla hefur verið samþykkt eða henni hafnað breytist samþykktarstaða í reitnum **Staða** í **Samþykkt** eða **Hafnað** .
+Þegar færsla hefur verið samþykkt eða henni hafnað breytist samþykktarstaða í reitnum **Staða** í **Samþykkt** eða **Hafnað**.
 
-Ef samþykkjendastigveldi er til staðar mun færslustaða vera **Bíður samþykktar** þar til allir samþykkjendur hafa samþykkt færsluna. Þá mun staða færslunnar breytast í **Losað** .
+Ef samþykkjendastigveldi er til staðar mun færslustaða vera **Bíður samþykktar** þar til allir samþykkjendur hafa samþykkt færsluna. Þá mun staða færslunnar breytast í **Losað**.
 
-Á sama tíma breytist samþykktarstaða úr **Stofnað** í **opið** um leið og samþykktarbeiðni fyrir færsla er stofnuð. Ef beiðni er hafnað berytist samþykktarstaða í **Hafnað** . Staðan er áfram **opið** eða **Hafnað** þar til allir samþykkjendur hafa samþykki beiðnina.
+Á sama tíma breytist samþykktarstaða úr **Stofnað** í **opið** um leið og samþykktarbeiðni fyrir færsla er stofnuð. Ef beiðni er hafnað berytist samþykktarstaða í **Hafnað**. Staðan er áfram **opið** eða **Hafnað** þar til allir samþykkjendur hafa samþykki beiðnina.
 
 ## <a name="to-delegate-requests-for-approval"></a>Úthluta beiðnum um samþykki
 Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimildir.
@@ -67,7 +67,7 @@ Eftirfarandi verkið er framkvæmt af samþykktarnotanda með samþykktarheimild
 Til að koma í veg fyrir að skjöl safnist upp með öðru móti stífla verkflæði getur sá sem bað um samþykktina eða samþykkjandinn úthlutað samþykktarbeiðni til staðgengilssamþykkjanda. Staðgengil getur annað hvort verið tilgreindur staðgengill, beinn samþykkjandi eða stjórnandi samþykkis, í þeirri forgangsröð. Þessi aðgerð er yfirleitt notuð ef samþykkjandi er ekki við og getur ekki samþykkt beiðnir fyrir lokadaginn.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Beiðnir til að samþykkja** og veldu síðan tengda tengilinn.
-2. Velja eina eða fleiri línur fyrir samþykktarbeiðni sem á að úthluta á staðgengil til samþykktar, og veldu síðan aðgerðina **framselja** .
+2. Velja eina eða fleiri línur fyrir samþykktarbeiðni sem á að úthluta á staðgengil til samþykktar, og veldu síðan aðgerðina **framselja**.
 
 Tilkynning um að samþykkja beiðnina er send til staðgengilssamþykkjanda.
 
@@ -85,4 +85,4 @@ Aðgerðin **Senda samþykkistilkynningar sem komnar eru fram yfir á tíma** ka
 [Sala](sales-manage-sales.md)    
 [Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

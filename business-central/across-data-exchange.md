@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c11553dc3a48a2fdf0df65258914d36f9c2efbd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6ca289f723af83758c96537e3d4b5a1c0117cc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914366"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753493"
 ---
 # <a name="exchanging-data-electronically"></a>Rafræn gagnaskipti
 Hægt er að nota Data Exchange Framework til að stjórna skiptum á viðskiptaskjölum, bankaskrám, gengi gjaldmiðla og öllum öðrum gögnum á milli viðskiptafélaga.
 
-Í staðlaðri útgáfu af [!INCLUDE[d365fin](includes/d365fin_md.md)] er Data Exchange Framework notað í eiginleika, svo sem rafræn skjöl, bankaskrá innflutnings/útflutnings og uppfærslu á gengi gjaldmiðla. Nánari upplýsingar er að finna í [Um Data Exchange Framework](across-about-the-data-exchange-framework.md).
+Í staðlaðri útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] er Data Exchange Framework notað í eiginleika, svo sem rafræn skjöl, bankaskrá innflutnings/útflutnings og uppfærslu á gengi gjaldmiðla. Nánari upplýsingar er að finna í [Um Data Exchange Framework](across-about-the-data-exchange-framework.md).
 
 Sem kerfisstjóri eða Microsoft-samstarfsaðili er hægt að nota rammann í nýjum samþættingaraðgerðum með því að setja upp hvaða gögn á að skiptast á og hvernig. Frekari upplýsingar er að finna í [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md).
 

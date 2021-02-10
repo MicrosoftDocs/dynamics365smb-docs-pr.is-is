@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d9b84ff608d6778bb20dfe009978fbe624f47c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f84b6d7d03bd8766bfd485870cef8401a3e3382
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924879"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754568"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Bæta við athugasemdum við kort og skjöl
 Þú getur bætt við aukaupplýsingum í fjárhagsreikninga, viðskiptamannakort eða sölupantanir til að senda undanþágur eða sérstakar samningar til annarra notenda.
-Nánast öll kort og skjöl hafa aðgerðina **Athugasemdir** , sem opnar síðuna **Athugasemdablað** þar sem þú getur skrifað eða lesið athugasemdir. Á skjölum er einnig hægt að bæta við athugasemdum við einstakar línur.
+Nánast öll kort og skjöl hafa aðgerðina **Athugasemdir**, sem opnar síðuna **Athugasemdablað** þar sem þú getur skrifað eða lesið athugasemdir. Á skjölum er einnig hægt að bæta við athugasemdum við einstakar línur.
 
 Athugasemdir um áframhaldandi skjöl eru fluttar til tengda skjalsins. Til dæmis eru ummæli um sölupöntun flutt í bókaða söluafhendingu sem leiðir af henni.
 
@@ -34,8 +34,8 @@ Eftirfarandi lýsir því hvernig á að bæta athugasemd við birgðaspjald. Sk
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.
 2. Viðeigandi birgðaspjald er opnað.
 3. Skal velja **Athugasemd** aðgerð.
-4. Á síðunni **Athugasemdablað** skaltu slá inn hvaða texta sem er og þá velja hnappinn **Í lagi** .
+4. Á síðunni **Athugasemdablað** skaltu slá inn hvaða texta sem er og þá velja hnappinn **Í lagi**.
 
 ## <a name="see-also"></a>Sjá einnig
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)

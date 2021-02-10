@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4b5293ace8fe0fc59b0e1f499574355397fb2d84
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1ae0386c4fc2e3ac216d4228c94e7447a808cf50
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923221"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756118"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Áætla vöruhúsahreyfingar á vinnublöðum
 Hreyfingar eru áætlaðar á vinnublaðinu með hólfaáfyllingu eða með handvirkri áætlun á línum sem á að stofna sem hreyfingaleiðbeiningar.  
@@ -24,9 +24,9 @@ Hreyfingar eru áætlaðar á vinnublaðinu með hólfaáfyllingu eða með hand
 Jafnframt því sem vörur eru sendar viðskiptamönnum úr vöruhúsi, fækkar vörunum í hólfunum með hæstu hólfaflokkunina. Til að fylla á þessi hólf með vörum úr öðrum hólfum er keyrð aðgerðin **Reikna út áfyllingu hólfs** á **Hreyfing Vinnublað** síðunni
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hreyfingavinnublað** og veldu síðan tengda tengilinn.  
-2.  Velja skal aðgerðina **Reikna áfyllingu hólfs** .  
+2.  Velja skal aðgerðina **Reikna áfyllingu hólfs**.  
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] stofnar línur sem gefa nákvæmlega til kynna hvernig færa á vörur úr lægra flokkuðum hólfum í hærra flokkuð.  
+    [!INCLUDE[prod_short](includes/prod_short.md)] stofnar línur sem gefa nákvæmlega til kynna hvernig færa á vörur úr lægra flokkuðum hólfum í hærra flokkuð.  
 
     > [!NOTE]  
     >  Stungið er upp á hreyfingu í samræmi við FEFO aðgerðin **Stofna hreyfingu** er virkjuð ef eftirfarandi skilyrðum fyrir vöru er fullnægt:  
@@ -51,7 +51,7 @@ Einnig er hægt að nota vinnublað hreyfinga til að áætla aðrar hreyfingar 
     > [!NOTE]  
     >  Ekki er hægt að færa vörur handvirkt inn og út úr hólfi af gerðinni RECEIVE því vörur sem eru í hólfi af þeirri gerð verður að skrá sem frágengnar áður en þær verða hluti af tiltækum birgðum.  
 
-4.  Ef sækja á margar línur skal velja **Raða** til að velja röðunaraðferð til að ákveða í hvaða röð línurnar birtast á vinnublaðinu og síðan skal velja hnappinn **Í lagi** .  
+4.  Ef sækja á margar línur skal velja **Raða** til að velja röðunaraðferð til að ákveða í hvaða röð línurnar birtast á vinnublaðinu og síðan skal velja hnappinn **Í lagi**.  
 
     > [!NOTE]  
     >  Hreyfingalínur eru sóttar í samræmi við FEFO aðgerðin **Sækja hólfaefni** er virkjuð ef eftirfarandi skilyrðum fyrir vöru er fullnægt:  
@@ -61,7 +61,7 @@ Einnig er hægt að nota vinnublað hreyfinga til að áætla aðrar hreyfingar 
     > -   Gátreiturinn **Hólf áskilið** á birgðageymsluspjaldinu er valið.  
     > -   Reitirnir **Frá svæði** og **Frá hólf** eru auðir.  
 
-5.  Reitir í einhverjum línunum sem voru sóttar eru fylltir út til að breyta eins og þarf. Fyrir hverja vöru sem á að færa þarf að fylla út reitina **Vörunr.** , **Kóti frá-hólfs** , **Kóti til-hólfs** og **Magn** .  
+5.  Reitir í einhverjum línunum sem voru sóttar eru fylltir út til að breyta eins og þarf. Fyrir hverja vöru sem á að færa þarf að fylla út reitina **Vörunr.**, **Kóti frá-hólfs**, **Kóti til-hólfs** og **Magn**.  
 6.  Línum sem ekkert er fært í skal eytt.  
 7.  Þegar línur hreyfingavinnublaðsins eru orðnar eins og þær eiga að vera skal velja aðgerðina **Stofna hreyfingu** til að útbúa leiðbeiningarnar fyrir starfsmanninn.  
 
@@ -71,4 +71,4 @@ Einnig er hægt að nota vinnublað hreyfinga til að áætla aðrar hreyfingar 
 [Vöruhúsastjórnun sett upp](warehouse-setup-warehouse.md)     
 [Samsetningardeild](assembly-assemble-items.md)    
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

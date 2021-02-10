@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b270a7b1f9ffda71d68fa981885aacbe31f55eab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7f9421ec564c9117da41674bb22fb3fc58c6a2a4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923121"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755518"
 ---
 # <a name="using-pre-closing-reports"></a>Nota skýrslur fyrir lokun
 Margar staðlaðar skýrslur eru í boði til að sannreyna nákvæmni reikninganna áður en bókum er lokað í lok ársins eða í lok tímabils. Til dæmis má nota skýrsluna **Viðskiptamaður - Prófjöfnuður** til að votta að upphæð bókunarflokks viðskiptamanna sé jöfn upphæð á samsvarandi reikningi færslubókar á tilteknu tímabili.
@@ -39,5 +39,5 @@ Til að sjá skýrslu skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmóts
 
 ## <a name="see-also"></a>Sjá einnig
 [Lokaár og Tímabil](year-close-years-periods.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

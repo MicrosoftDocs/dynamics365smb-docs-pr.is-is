@@ -8,15 +8,17 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2020
-ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 65911039894d1f0eb81aeb1160a6b2aafc2fae0c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911668"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752876"
 ---
 # <a name="handling-missing-option-values"></a>Meðhöndlun gilda sem vantar fyrir valkosti
-[!INCLUDE[d365fin](includes/cds_long_md.md)] inniheldur aðeins þrjá valkostarreiti sem innihalda valgildi sem hægt er að varpa í [!INCLUDE[d365fin](includes/d365fin_md.md)] reiti af gerð valkostar<!-- Option type, not enum? @Onat can you vertify this? --> fyrir sjálfvirka samstillingu. Við samstillingu eru óvarpaðir valkostir hunsaðir og valkostina sem vantar er komið fyrir í tengdri [!INCLUDE[d365fin](includes/d365fin_md.md)] töflu og bætt við kerfistöfluna **Vörpun CDS-valkosta** til að meðhöndla handvirkt seinna. Til dæmis með því að bæta við valkostunum sem vantar í aðrahvora vöruna og síðan uppfæra vörpunina. Í þessum hluta er því lýst hvernig það virkar.
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
+[!INCLUDE[prod_short](includes/cds_long_md.md)] inniheldur aðeins þrjá valkostarreiti sem innihalda valgildi sem hægt er að varpa í [!INCLUDE[prod_short](includes/prod_short.md)] reiti af gerð valkostar<!-- Option type, not enum? @Onat can you vertify this? --> fyrir sjálfvirka samstillingu. Við samstillingu eru óvarpaðir valkostir hunsaðir og valkostina sem vantar er komið fyrir í tengdri [!INCLUDE[prod_short](includes/prod_short.md)] töflu og bætt við kerfistöfluna **Vörpun CDS-valkosta** til að meðhöndla handvirkt seinna. Til dæmis með því að bæta við valkostunum sem vantar í aðrahvora vöruna og síðan uppfæra vörpunina. Í þessum hluta er því lýst hvernig það virkar.
 
 Síðan **Vörpun samþættingartöflu** inniheldur þrjár varpanir fyrir reiti sem innihalda eitt eða fleiri varpað valgildi. Eftir fulla samstillingu inniheldur síðan **Vörpun CDS-valkosta** óvarpaða valkostina í þremur reitum.
 
@@ -36,7 +38,7 @@ Síðan **Vörpun samþættingartöflu** inniheldur þrjár varpanir fyrir reiti
 | Flutningsaðili: FULLLOAD   | 6            | Fullt álag            |
 | Flutningsaðili: WILLCALL   | 7            | Mun hringja            |
 
-Efni síðunnar **Vörpun CDS-valkosta** byggist á fasttextagildum í töflunni **CDS-reikningur** . Í [!INCLUDE[d365fin](includes/cds_long_md.md)], er eftirfarandi reitum í reikningseiningunni varpað í reiti viðskiptavina- og lánardrottnafærslna:
+Efni síðunnar **Vörpun CDS-valkosta** byggist á fasttextagildum í töflunni **CDS-reikningur**. Í [!INCLUDE[prod_short](includes/cds_long_md.md)], er eftirfarandi reitum í reikningstöflunni varpað í reiti viðskiptamanna- og lánardrottnafærslna:
 
 - **Aðsetur 1: Flutningsskilmálar** af gagnagerðinni fasttexti, þar sem gildi eru skilgreind á eftirfarandi hátt:
 
@@ -82,9 +84,9 @@ enum 5334 "CDS Payment Terms Code"
 }
 ```
 
-Öllum [!INCLUDE[d365fin](includes/d365fin_md.md)] fasttextunum að ofan er varpað í safn valkosta í [!INCLUDE[d365fin](includes/cds_long_md.md)].
+Öllum [!INCLUDE[prod_short](includes/prod_short.md)] fasttextunum að ofan er varpað í safn valkosta í [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-d365fin"></a>Viðbót við safn valkosta í [!INCLUDE[d365fin](includes/d365fin_md.md)]
+### <a name="extending-option-sets-in-prod_short"></a>Viðbót við safn valkosta í [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Búa til nýja AL-viðbót.
 
 2. Bæta við viðbót fasttexta fyrir valkostina sem auka á við. Gætið þess að sama gildi sé notað. 
@@ -98,18 +100,18 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ```
 
 > [!IMPORTANT]  
-> Nota verður sömu auðkennisgildi valkostar úr [!INCLUDE[d365fin](includes/cds_long_md.md)] þegar bætt er við [!INCLUDE[d365fin](includes/d365fin_md.md)] fasttextann. Annars mistekst samstillingin.
+> Nota verður sömu auðkennisgildi valkostar úr [!INCLUDE[prod_short](includes/cds_long_md.md)] þegar bætt er við [!INCLUDE[prod_short](includes/prod_short.md)] fasttextann. Annars mistekst samstillingin.
 
 > [!IMPORTANT]  
-> Ekki skal nota stafinn "," í fasttextagildi og skjátexta. Þetta er sem stendur ekki stutt af [!INCLUDE[d365fin](includes/d365fin_md.md)] keyrslunni.
+> Ekki skal nota stafinn "," í fasttextagildi og skjátexta. Þetta er sem stendur ekki stutt af [!INCLUDE[prod_short](includes/prod_short.md)] keyrslunni.
 
 > [!NOTE]
 > Fyrstu tíu stafirnir á nýjum heitum og myndatextum valgilda verða að vera einkvæmir. Til dæmis kemur upp villa ef tveir valkostir heita „Transfer 20 working days“ og „Transfer 20 calendar days“ vegna þess að báðir eru með fyrstu 10 stafina „Transfer 2“. Nefndu þá til dæmis „TRF20 WD“ og „TRF20 CD.“
 
-### <a name="update-d365fin-option-mapping"></a>Uppfæra vörpun [!INCLUDE[d365fin](includes/cds_long_md.md)] valkostar
-Nú er hægt að endurgera vörpunina milli [!INCLUDE[d365fin](includes/cds_long_md.md)] valkosta og [!INCLUDE[d365fin](includes/d365fin_md.md)] færslna.
+### <a name="update-prod_short-option-mapping"></a>Uppfæra vörpun [!INCLUDE[prod_short](includes/cds_long_md.md)] valkostar
+Nú er hægt að endurgera vörpunina milli [!INCLUDE[prod_short](includes/cds_long_md.md)] valkosta og [!INCLUDE[prod_short](includes/prod_short.md)] færslna.
 
-Á síðunni **Vörpun samþættingartöflu** skal velja línuna fyrir vörpun **Greiðsluskilmálar** og síðan velja aðgerðina **Samstilla breyttar færslur** . Síðan **Vörpun CDS-valkosta** er uppfærð með viðbótarfærslunum hér að neðan.
+Á síðunni **Vörpun samþættingartöflu** skal velja línuna fyrir vörpun **Greiðsluskilmálar** og síðan velja aðgerðina **Samstilla breyttar færslur**. Síðan **Vörpun CDS-valkosta** er uppfærð með viðbótarfærslunum hér að neðan.
 
 |         Færsla                 | Gildi valkosts   | Yfirskrift valkostsgildis |
 |--------------------------------|----------------|----------------------|
@@ -120,7 +122,7 @@ Nú er hægt að endurgera vörpunina milli [!INCLUDE[d365fin](includes/cds_long
 | **Greiðsluskilmálar: STAÐGREIÐSLA**  | **779800001**  | **Staðgreiðsla**     |
 | **Greiðsluskilmálar: MILLIFÆRSLA**    | **779800002**  | **Millifærsla**         |
 
-Taflan **Greiðsluskilmálar** í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður þá með nýjum færslum fyrir [!INCLUDE[d365fin](includes/cds_long_md.md)] valkostina. Í eftirfarandi töflu eru nýir valkostir feitletraðir. Skáletraðar línur tákna alla valkostina sem nú er hægt að samstilla. Eftirstandandi línur tákna valkosti sem eru ekki í notkun og verða hunsaðir við samstillingu. Hægt er að fjarlægja þær eða víkka út CDS-valkostina með sömu heitum.)
+Taflan **Greiðsluskilmálar** í [!INCLUDE[prod_short](includes/prod_short.md)] verður þá með nýjum færslum fyrir [!INCLUDE[prod_short](includes/cds_long_md.md)] valkostina. Í eftirfarandi töflu eru nýir valkostir feitletraðir. Skáletraðar línur tákna alla valkostina sem nú er hægt að samstilla. Eftirstandandi línur tákna valkosti sem eru ekki í notkun og verða hunsaðir við samstillingu. Hægt er að fjarlægja þær eða víkka út CDS-valkostina með sömu heitum.)
 
 | Kóti       | Gjalddagaútreikningur | Tímabil afsláttar | Afsláttur % | Reikna greiðsluafsl. af kreditreikn. | Description       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -134,12 +136,13 @@ Taflan **Greiðsluskilmálar** í [!INCLUDE[d365fin](includes/d365fin_md.md)] ve
 | 30 DAGAR    | 30 d.                  |                           | 0.         | RANGT                         | Nettó 30 dagar       |
 | 60 DAGAR    | 60 d.                  |                           | 0.         | RANGT                         | Nettó 60 dagar       |
 | 7 DAGAR     | 7D                   |                           | 0.         | RANGT                         | Nettó 7 dagar        |
-| ***STAÐGREIÐSLA*** |                      |                           | 0.         | RANGT                         |                   |
+| ***STAÐGREIÐSLA** _ |                      |                           | 0.         | RANGT                         |                   |
 | LM         | LM                   |                           | 0.         | RANGT                         | Gildandi mánuður     |
 | Greiðslukrafa        | 0D                   |                           | 0.         | RANGT                         | Greiðslukrafa  |
-| *NET30*      |                      |                           | 0.         | RANGT                         |                   |
+| _NET30*      |                      |                           | 0.         | RANGT                         |                   |
 | *NET45*      |                      |                           | 0.         | RANGT                         |                   |
 | *NET60*      |                      |                           | 0.         | RANGT                         |                   |
 | ***MILLIFÆRSLA*** |                      |                           | 0.         | RANGT                         |                   |
 
 ## <a name="see-also"></a>Sjá einnig
+[Vörpun á töflum og reitum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)

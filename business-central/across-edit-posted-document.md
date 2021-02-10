@@ -10,18 +10,18 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eedfa2a0c0f519f5ea22eb51a779f6f2a090d9bf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 870b629ea5f4cae25d81f5348b5d616508cb91c4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914340"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753443"
 ---
 # <a name="edit-posted-documents"></a>Breyta bókuðum fylgiskjölum
 
 Stundum þarf að uppfæra bókað skjal vegna þess að upplýsingar sem skipta máli fyrir skjalið hafa breyst. Á bókuðu söluskjali getur þetta til dæmis verið rakningarnúmer pakka frá flutningsaðilanum. Á bókuðu innkaupaskjali getur þetta verið texti greiðslutilvísunar.
 
-Þú framkvæmir breytinguna í breytanlegri útgáfu af upprunalega skjalinu, sem er merkt með „ **- Uppfæra** “ í titli síðunnar. Síðan inniheldur undirsafn reitanna úr upprunalega skjalinu, þar sem sumir reitir eru óbreytanlegir og aðeins sýndir til upplýsingar.
+Þú framkvæmir breytinguna í breytanlegri útgáfu af upprunalega skjalinu, sem er merkt með „**- Uppfæra**“ í titli síðunnar. Síðan inniheldur undirsafn reitanna úr upprunalega skjalinu, þar sem sumir reitir eru óbreytanlegir og aðeins sýndir til upplýsingar.
 
 Virknin er í boði fyrir eftirfarandi skjöl á öllum studdum mörkuðum:
 
@@ -42,9 +42,9 @@ Eftirfarandi viðbótarskjölum er hægt að breyta í tilteknum löndum eða sv
 Eftirfarandi útskýrir hvernig á að breyta bókaðri söluafhendingu. Skrefin eru svipuð í hinum studdu skjölunum.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Bókaðar söluafhendingar** og veldu síðan tengda tengilinn.
-2. Veldu skjalið sem á að breyta og síðan aðgerðina **Uppfæra skjal** . Að öðrum kosti skaltu opna skjalið og velja síðan aðgerðina.
+2. Veldu skjalið sem á að breyta og síðan aðgerðina **Uppfæra skjal**. Að öðrum kosti skaltu opna skjalið og velja síðan aðgerðina.
 3. Á síðunni **Bókuð söluafhending - uppfæra** skaltu breyta **Rakningarnr. pakka** reitnum, sem dæmi.
-4. Velja hnappinn **Í lagi** .
+4. Velja hnappinn **Í lagi**.
 
 Bókuð söluafhending er uppfærð.
 
@@ -53,4 +53,4 @@ Bókuð söluafhending er uppfærð.
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Bókun skjala og færslubóka](ui-post-documents-journals.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8ffb5b8b90d0fdd4f3e1bd90271db8568c05d41e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915762"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753968"
 ---
 # <a name="create-journal-opening-balances"></a>Stofna opnunarstöður færslubókar
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inniheldur margar keyrslur sem fylgja til aðstoðar við flutningi á gömlum reikningstöðum til nýlega grunnstillts fyrirtækis. Auðvelt er að flytja þessi gögn með færslubók viðskiptavinar, færslubók lánardrottins, birgðabókinni og fjárhagsbók.
+[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur margar keyrslur sem fylgja til aðstoðar við flutningi á gömlum reikningstöðum til nýlega grunnstillts fyrirtækis. Auðvelt er að flytja þessi gögn með færslubók viðskiptavinar, færslubók lánardrottins, birgðabókinni og fjárhagsbók.
 
 Fyrsta skrefið er að stofna grunnstillingarpakka sem inniheldur uppsetningartöflurnar fyrir þessar færslubækur. Eftirfarandi aðferð gerir ráð fyrir því að þessu skrefi sé lokið. Frekari upplýsingar eru í [Setja upp grunnstillingu fyrirtækis](admin-set-up-company-configuration.md). Ferlið lýsir næstu skrefum, en í þeim felst að nota pakkann sem samstarfsaðili veitir.  
 
@@ -34,17 +34,17 @@ Fyrsta skrefið er að stofna grunnstillingarpakka sem inniheldur uppsetningart�
 2. Opna grunnstillingarvinnublaðið og flytja inn fyrirliggjandi gögn um viðskiptavini, vörur, lánardrottna og fjárhag. Frekari upplýsingar eru í [Yfirfæra gögn viðskiptamanns](admin-migrate-customer-data.md).  
 
     Nú ertu með aðalgögn á sínum stað. Næst skal bæta við opnunarstöðum. Eftirfarandi skref lýsa því hvernig á að stofna færslubókarlínur fyrir fjárhagsreikninga, en það sama gildir um stofnun færslubókarlína fyrir viðskiptamenn, lánardrottna og vörur.  
-3. Velja skal aðgerðina **Stofna fjárhagsbókarlínur fjárhagsreiknings** .  
+3. Velja skal aðgerðina **Stofna fjárhagsbókarlínur fjárhagsreiknings**.  
 4. Fylla inn í flýtiflipann **Valkostir** þar sem við á, og setja afmarkanir eftir þörfum. Til dæmis í reitinn **Bókarsniðmát** er fært inn heiti.  
-5. Velja hnappinn **Í lagi** . Færslurnar eru nú í færslubók, en upphæðirnar eru auður.  
+5. Velja hnappinn **Í lagi**. Færslurnar eru nú í færslubók, en upphæðirnar eru auður.  
 6. Flytja út færslubókartöflua í Excel og færa handvirkt inn upplýsingar um bókunina og mótreikninginn úr gömlum gögnum.
 7. Flytja inn og nota töfluupplýsingar í nýja fyrirtækinu. Færslubókarlínurnar eru tilbúnar til bókunar.  
-8. Á grunnstillingarvinnublaðinu skal velja töflu færslubókarlínu og síðan velja aðgerðina **Gagnagrunnsgögn** .  
-9. Yfirfara skal upplýsingarnar og síðan velja aðgerðina **Bóka** .  
+8. Á grunnstillingarvinnublaðinu skal velja töflu færslubókarlínu og síðan velja aðgerðina **Gagnagrunnsgögn**.  
+9. Yfirfara skal upplýsingarnar og síðan velja aðgerðina **Bóka**.  
 10. Endurtaka skal skrefin til að flytja inn og bóka aðrar opnunarstöður.  
 
 > [!TIP]
-> Hægt er að nota sömu runuvinnslur til að bæta við opnunarstöðum í hvert sinn sem nýr viðskiptamaður eða lánardrottinn sem þú hefur stundað viðskipti með áður en er ekki skráður í [!INCLUDE [prodshort](includes/prodshort.md)]. Leitið einfaldlega að viðkomandi verki og veljið síðan viðkomandi tengil.
+> Hægt er að nota sömu runuvinnslur til að bæta við opnunarstöðum í hvert sinn sem nýr viðskiptamaður eða lánardrottinn sem þú hefur stundað viðskipti með áður en er ekki skráður í [!INCLUDE [prod_short](includes/prod_short.md)]. Leitið einfaldlega að viðkomandi verki og veljið síðan viðkomandi tengil.
 
 ## <a name="see-also"></a>Sjá einnig
 

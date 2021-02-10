@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a19d2bbff275ea4401943b588a68cdd2e6740e12
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ce1ce3039758d5991eb3a770713d2f1e273bbe0c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924804"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754518"
 ---
-# <a name="building-power-bi-reports-to-display-prodlong-data"></a>Búa til Power BI skýrslur til að birta [!INCLUDE [prodlong](includes/prodlong.md)] -gögn
+# <a name="building-power-bi-reports-to-display-prod_long-data"></a>Búa til Power BI skýrslur til að birta [!INCLUDE [prod_long](includes/prod_long.md)] -gögn
 
-Notandi getur gert [!INCLUDE[prodlong](includes/prodlong.md)]-gögnin sín aðgengileg sem gagnaveitu í Power BI Desktop og byggt upp öflugar skýrslur um stöðu síns reksturs.
+Notandi getur gert [!INCLUDE[prod_long](includes/prod_long.md)]-gögnin sín aðgengileg sem gagnaveitu í Power BI Desktop og byggt upp öflugar skýrslur um stöðu síns reksturs.
 
-Þessi grein lýsir því hvernig hafist er handa við að nota Power BI Desktop til að búa til skýrslur sem birta [!INCLUDE[prodlong](includes/prodlong.md)] gögn.  Þegar búið er að stofna skýrslur er hægt að birta þær í Power BI þjónustunni eða deila þeim með öllum notendum í fyrirtækinu. Þegar þessar skýrslur eru í Power BI þjónustunni geta notendur sem eru settir upp í henni skoðað skýrslurnar í [!INCLUDE[prodlong](includes/prodlong.md)].
+Þessi grein lýsir því hvernig hafist er handa við að nota Power BI Desktop til að búa til skýrslur sem birta [!INCLUDE[prod_long](includes/prod_long.md)] gögn.  Þegar búið er að stofna skýrslur er hægt að birta þær í Power BI þjónustunni eða deila þeim með öllum notendum í fyrirtækinu. Þegar þessar skýrslur eru í Power BI þjónustunni geta notendur sem eru settir upp í henni skoðað skýrslurnar í [!INCLUDE[prod_long](includes/prod_long.md)].
 
 ## <a name="get-ready"></a>Vertu með allt á tæru
 
@@ -35,24 +35,24 @@ Notandi getur gert [!INCLUDE[prodlong](includes/prodlong.md)]-gögnin sín aðge
 
 - Ganga skal úr skugga um að gögnin sem óskað er eftir í þessari skýrslu séu birt sem vefþjónusta.
     
-    Margar vefþjónustur birtast sjálfkrafa. Auðveld leið til að finna vefþjónustu er að leita að *vefþjónustu* í [!INCLUDE[prodshort](includes/prodshort.md)]. Á síðunni **Vefþjónusta** skal ganga úr skugga um að reiturinn **Birta** sé valinn. Þetta verk er oftast stjórnunarverk.
+    Margar vefþjónustur birtast sjálfkrafa. Auðveld leið til að finna vefþjónustu er að leita að *vefþjónustu* í [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **Vefþjónusta** skal ganga úr skugga um að reiturinn **Birta** sé valinn. Þetta verk er oftast stjórnunarverk.
     
     Frekari upplýsingar um birtingu vefþjónustu er að finna á [Birta vefþjónustu](across-how-publish-web-service.md).
 
-- Fyrir [!INCLUDE[prodshort](includes/prodshort.md)] á staðnum skal fá eftirfarandi upplýsingar:
+- Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum skal fá eftirfarandi upplýsingar:
 
-    - OData-vefslóð fyrir [!INCLUDE[prodshort](includes/prodshort.md)]. Yfirleitt er þessi vefslóð með sniðinu `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, til dæmis, `https://localhost:7048/BC160/ODataV4`. Ef um er að ræða virkjun með margleigjanda skal hafa leigjanda á vefslóðinni, til dæmis, `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
-    - Notandanafn og aðgangslykill vefþjónustu af [!INCLUDE[prodshort](includes/prodshort.md)] -reikningi.
+    - OData-vefslóð fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Yfirleitt er þessi vefslóð með sniðinu `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, til dæmis, `https://localhost:7048/BC160/ODataV4`. Ef um er að ræða virkjun með margleigjanda skal hafa leigjanda á vefslóðinni, til dæmis, `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+    - Notandanafn og aðgangslykill vefþjónustu af [!INCLUDE[prod_short](includes/prod_short.md)] -reikningi.
 
-      Til að sækja gögn úr [!INCLUDE[prodshort](includes/prodshort.md)] notar Power BI grunnsannvottun. Svo þarftu að fá notandanafn og aðgangslykil vefþjónustu til að tengjast. Reikningurinn gæti verið þinn eigin notandareikningur eða fyrirtækið kann að hafa sérstakan reikning í þeim tilgangi.
+      Til að sækja gögn úr [!INCLUDE[prod_short](includes/prod_short.md)] notar Power BI grunnsannvottun. Svo þarftu að fá notandanafn og aðgangslykil vefþjónustu til að tengjast. Reikningurinn gæti verið þinn eigin notandareikningur eða fyrirtækið kann að hafa sérstakan reikning í þeim tilgangi.
 
-- Hlaða niður [!INCLUDE [prodshort](includes/prodshort.md)] skýrsluþema (valfrjálst).
+- Hlaða niður [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema (valfrjálst).
 
-    Frekari upplýsingar er að finna á [Notkun [!INCLUDE [prodshort](includes/prodshort.md)] skýrsluþema](#theme) í þessari grein.
+    Frekari upplýsingar er að finna á [Notkun [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema](#theme) í þessari grein.
 
-## <a name="add-prodshort-as-a-data-source-in-power-bi-desktop"></a>Bæta [!INCLUDE[prodshort](includes/prodshort.md)] við sem gagnaveitu í Power BI Desktop
+## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a>Bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnaveitu í Power BI Desktop
 
-Fyrsta verk í stofnun skýrslna er að bæta [!INCLUDE[prodshort](includes/prodshort.md)] við sem gagnagjafa á Power BI Desktop. Þegar það er tengt er hægt að byrja að búa til skýrslu.
+Fyrsta verk í stofnun skýrslna er að bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnagjafa á Power BI Desktop. Þegar það er tengt er hægt að byrja að búa til skýrslu.
 
 1. Ræsið Power BI Desktop.
 2. Velja **Fá-gögn**.
@@ -61,36 +61,36 @@ Fyrsta verk í stofnun skýrslna er að bæta [!INCLUDE[prodshort](includes/prod
 2. Á síðunni **Sækja gögn** skaltu velja **Netþjónusta**.
 3. Gerið eitt af eftirfarandi skrefum í svæðinu **Netþjónusta**:
 
-    1. Ef þú ert að tengjast [!INCLUDE [prodshort](includes/prodshort.md)] á netinu skaltu velja **Dynamics 365 Business Central**, og svo **Tengjast**.
-    2. Ef þú ert að tengjast [!INCLUDE [prodshort](includes/prodshort.md)] innanhúss skaltu velja **Dynamics 365 Business Central (á staðnum)**, og svo **Tengjast**.
+    1. Ef þú ert að tengjast [!INCLUDE [prod_short](includes/prod_short.md)] á netinu skaltu velja **Dynamics 365 Business Central**, og svo **Tengjast**.
+    2. Ef þú ert að tengjast [!INCLUDE [prod_short](includes/prod_short.md)] innanhúss skaltu velja **Dynamics 365 Business Central (á staðnum)**, og svo **Tengjast**.
 
-4. Power BI birtir leiðsagnarforrit sem leiðbeinir þér gegnum tengingarferlið, þ.á.m. innskráningu í [!INCLUDE [prodshort](includes/prodshort.md)].
+4. Power BI birtir leiðsagnarforrit sem leiðbeinir þér gegnum tengingarferlið, þ.á.m. innskráningu í [!INCLUDE [prod_short](includes/prod_short.md)].
 
-    Fyrir netinnskráningu skal velja **Innskráning** og síðan viðeigandi reikning. Notaðu sama reikning og þú skráir þig inn í [!INCLUDE [prodshort](includes/prodshort.md)] með.
+    Fyrir netinnskráningu skal velja **Innskráning** og síðan viðeigandi reikning. Notaðu sama reikning og þú skráir þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] með.
     
-    Til að setja upp innanhúss skal færa inn OData-vefslóð fyrir [!INCLUDE[prodshort](includes/prodshort.md)], og helst heiti fyrirtækisins. Síðan skal færa inn notandanafn og aðgangsorð reikningsins sem á að nota til að tengjast við [!INCLUDE[prodshort](includes/prodshort.md)] þegar beðið er um það. Færa skal inn aðgangslykil vefþjónustunnar í reitinn **Aðgangsorð**.
+    Til að setja upp innanhúss skal færa inn OData-vefslóð fyrir [!INCLUDE[prod_short](includes/prod_short.md)], og helst heiti fyrirtækisins. Síðan skal færa inn notandanafn og aðgangsorð reikningsins sem á að nota til að tengjast við [!INCLUDE[prod_short](includes/prod_short.md)] þegar beðið er um það. Færa skal inn aðgangslykil vefþjónustunnar í reitinn **Aðgangsorð**.
 
     > [!NOTE]  
-    > Þegar þú hefur tengst við [!INCLUDE[prodshort](includes/prodshort.md)] verð þú ekki beðinn aftur um að skrá þig inn.
+    > Þegar þú hefur tengst við [!INCLUDE[prod_short](includes/prod_short.md)] verð þú ekki beðinn aftur um að skrá þig inn.
     
 5. Veldu **Tenging** til að halda áfram.
 
-    Power BI leiðsagnarforritið sýnir lista yfir Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)] umhverfi, fyrirtæki og gagnaveitur. Þessar gagnaveitur tákna allar vefþjónustur sem þú hefur birt úr [!INCLUDE [prodshort](includes/prodshort.md)].
+    Power BI leiðsagnarforritið sýnir lista yfir Microsoft [!INCLUDE[prod_short](includes/prod_short.md)] umhverfi, fyrirtæki og gagnaveitur. Þessar gagnaveitur tákna allar vefþjónustur sem þú hefur birt úr [!INCLUDE [prod_short](includes/prod_short.md)].
 6. Tilgreinið gögnin sem notandi vill bæta við gagnalíkanið þitt og veljið svo hnappinn **Hlaða**.
-7. Endurtaktu fyrri skref til að bæta við viðbótar [!INCLUDE [prodshort](includes/prodshort.md)] eða öðrum gögnum í Power BI gagnalíkanið þitt.
+7. Endurtaktu fyrri skref til að bæta við viðbótar [!INCLUDE [prod_short](includes/prod_short.md)] eða öðrum gögnum í Power BI gagnalíkanið þitt.
 
-Þegar gögnum hefur verið hlaðið er hægt að sjá þau á hægra yfirlitssvæði síðunnar. Þér tókst að tengjast gögnum þínum í [!INCLUDE[prodshort](includes/prodshort.md)] og getur byrjað að byggja upp Power BI-skýrsluna þína.  
+Þegar gögnum hefur verið hlaðið er hægt að sjá þau á hægra yfirlitssvæði síðunnar. Þér tókst að tengjast gögnum þínum í [!INCLUDE[prod_short](includes/prod_short.md)] og getur byrjað að byggja upp Power BI-skýrsluna þína.  
 
 > [!TIP]
 > Frekari upplýsingar um notkun Power BI Desktop eru í [Hafist handa með Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
 ## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Stofnun skýrslna til að birta gögn sem tengjast lista
 
-Hægt er að búa til skýrslur sem birtast í upplýsingareit á [!INCLUDE [prodshort](includes/prodshort.md)]-listasíðu. Í skýrslunum má finna gögn um færslurnar sem eru valdar á listanum. Að búa til þessar skýrslur er svipað og í öðrum skýrslum, fyrir utan að það eru nokkrir hlutir sem þarf að gera til að ganga úr skugga um að skýrslurnar birtist eins og þær eiga að gera. Frekari upplýsingar er að finna í [´Búa Power BI skýrslur til að birta listagögn í [!INCLUDE[prodshort](includes/prodshort.md)]](across-how-use-powerbi-reports-factbox.md).
+Hægt er að búa til skýrslur sem birtast í upplýsingareit á [!INCLUDE [prod_short](includes/prod_short.md)]-listasíðu. Í skýrslunum má finna gögn um færslurnar sem eru valdar á listanum. Að búa til þessar skýrslur er svipað og í öðrum skýrslum, fyrir utan að það eru nokkrir hlutir sem þarf að gera til að ganga úr skugga um að skýrslurnar birtist eins og þær eiga að gera. Frekari upplýsingar er að finna í [´Búa Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="using-the-prodshort-report-theme-optional"></a><a name="theme"></a>Notkun [!INCLUDE [prodshort](includes/prodshort.md)] skýrsluþema (valfrjálst)
+## <a name="using-the-prod_short-report-theme-optional"></a><a name="theme"></a>Notkun [!INCLUDE [prod_short](includes/prod_short.md)] skýrsluþema (valfrjálst)
 
-Áður en þú býrð til skýrsluna mælum við með að þú sækir og flytjir inn [!INCLUDE [prodshort](includes/prodshort.md)] þemaskrána. Þemaskráin býr til litaspjald þannig að þú getir búið til skýrslur í sama litastíl og [!INCLUDE [prodshort](includes/prodshort.md)] forrit án þess að þurfa að skilgreina sérsniðna liti fyrir hvert myndefni.
+Áður en þú býrð til skýrsluna mælum við með að þú sækir og flytjir inn [!INCLUDE [prod_short](includes/prod_short.md)] þemaskrána. Þemaskráin býr til litaspjald þannig að þú getir búið til skýrslur í sama litastíl og [!INCLUDE [prod_short](includes/prod_short.md)] forrit án þess að þurfa að skilgreina sérsniðna liti fyrir hvert myndefni.
 
 > [!NOTE]
 > Þetta verk er valfrjálst. Alltaf er hægt að stofna skýrslurnar og sækja síðan og nota stílsniðmátið síðar.
@@ -104,11 +104,11 @@ Hægt er að búa til skýrslur sem birtast í upplýsingareit á [!INCLUDE [pro
 
 ### <a name="import-the-theme-on-a-report"></a>Flytja inn þemað í skýrslu
 
-Þegar búið er að hlaða niður [!INCLUDE [prodshort](includes/prodshort.md)]-skýrsluþema er hægt að flytja það inn í skýrslur. Til að flytja inn þemað skal velja **Skoða** > **Þemu** > **Skoða fyrir þemað**. Frekari upplýsingar er að finna í [Power BI Desktop - Flytja inn sérstillt skýrsluþema](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+Þegar búið er að hlaða niður [!INCLUDE [prod_short](includes/prod_short.md)]-skýrsluþema er hægt að flytja það inn í skýrslur. Til að flytja inn þemað skal velja **Skoða** > **Þemu** > **Skoða fyrir þemað**. Frekari upplýsingar er að finna í [Power BI Desktop - Flytja inn sérstillt skýrsluþema](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
 ## <a name="publish-reports"></a>Birta skýrslur
 
-Þegar búið er að stofna eða breyta skýrslu er hægt að birta skýrsluna í Power BI þjónustunni og einnig deila henni með öðrum í fyrirtækinu. Þegar þetta er birt muntu sjá skýrsluna í Power BI. Þessi skýrsla verður einnig tiltæk fyrir val í [!INCLUDE[prodshort](includes/prodshort.md)].
+Þegar búið er að stofna eða breyta skýrslu er hægt að birta skýrsluna í Power BI þjónustunni og einnig deila henni með öðrum í fyrirtækinu. Þegar þetta er birt muntu sjá skýrsluna í Power BI. Þessi skýrsla verður einnig tiltæk fyrir val í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Til að birta skýrslu skal velja **Birta** á flipanum **Heim** á borðanum eða úr valmyndinni **Skrá** . Ef þú ert skráð (ur) inn á Power BI þjónustuna er skýrslan gefin út á þessari þjónustu. Annars ertu beðin(n) um að skrá þig inn. 
 
@@ -121,7 +121,7 @@ Til að birta skýrslu skal velja **Birta** á flipanum **Heim** á borðanum e�
     Skýrslur eru geymdar í tölvunni sem .pbix-skrár. Hægt er að dreifa þessari skýrslu sem .pbix-skrá til notenda, eins og hverri annarri skrá. Þá geta notendur hlaðið upp skránni á Power BI þjónustuna. Sjá [Hlaða upp skýrslum úr skrám](across-working-with-business-central-in-powerbi.md#upload).
 
     > [!NOTE]
-    > Með því að dreifa skýrslum á þennan hátt eru gögn skýrslna uppfærð af hverjum notanda. Þessi staða gæti haft áhrif á [!INCLUDE[prodshort](includes/prodshort.md)] frammistöðu.
+    > Með því að dreifa skýrslum á þennan hátt eru gögn skýrslna uppfærð af hverjum notanda. Þessi staða gæti haft áhrif á [!INCLUDE[prod_short](includes/prod_short.md)] frammistöðu.
 
 - Deila skýrslum úr Power BI þjónustu
 
@@ -135,6 +135,6 @@ Til að birta skýrslu skal velja **Birta** á flipanum **Heim** á borðanum e�
 [Viðskiptaupplýsingar](bi.md)  
 [Hafist handa](product-get-started.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
-[Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Fjármál](finance.md)  
 [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  

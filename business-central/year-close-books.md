@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0b2536d39bf0121f68172429513bce2ad3180110
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84947d0c88834fe674942e5edb5cf8ac73a9741c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925273"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755643"
 ---
 # <a name="closing-the-books"></a>Bókum lokað
 Þegar búið er að ganga úr skugga um að allir reikningar séu uppfærðir og búið er að úthluta kostnaði og tekjum, má loka bókunum fyrir reikningsárið eða tímabilið.
@@ -27,7 +27,7 @@ Ferli þess að loka bókum felur í sér þessi aðalverk:
 
 1. Lokun reikningstímabilsins.
 
-    Reikningsár er skilgreint sem eitt eða fleiri opin tímabil á síðunni **Reikningstímabil** . Venjulegt reikningsár inniheldur 12 tímabil sem er einn mánuður hvert, en einnig er hægt að velja aðra aðferð við að skilgreina árið.
+    Reikningsár er skilgreint sem eitt eða fleiri opin tímabil á síðunni **Reikningstímabil**. Venjulegt reikningsár inniheldur 12 tímabil sem er einn mánuður hvert, en einnig er hægt að velja aðra aðferð við að skilgreina árið.
 
     Nánari upplýsingar sjá [Loka fjárhagstímabilum](year-close-account-periods.md).
 2. Skráning á færslum fyrra árs.
@@ -54,4 +54,4 @@ Hægt er að bóka á fyrra reikningsár jafnvel eftir lokun rekstrarreiknings e
 ## <a name="see-also"></a>Sjá einnig
 
 [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

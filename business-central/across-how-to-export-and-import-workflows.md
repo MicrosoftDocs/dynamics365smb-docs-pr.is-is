@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 803af5e396df2a3eade763bfce1172a7a2627da2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d11bc57066c0124bcb004894ed6b2c9dc4b812e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916219"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754768"
 ---
 # <a name="export-and-import-workflows"></a>Flytja verkflæði inn og út
-Til að flytja verkflæði í annan [!INCLUDE[d365fin](includes/d365fin_md.md)] gagnagrunnur, t.d. til að spara tíma þegar stofnað ný verkflæði, er hægt að flytja út og inn verkflæði.  
+Til að flytja verkflæði í annan [!INCLUDE[prod_short](includes/prod_short.md)] gagnagrunnur, t.d. til að spara tíma þegar stofnað ný verkflæði, er hægt að flytja út og inn verkflæði.  
 
  Önnur leið til að búa til verkflæði er að búa til verkflæði úr verkflæðissniðmátum. Nánari upplýsingar eru í [Stofna verkflæði út frá verkflæðissniðmátum](across-how-to-create-workflows-from-workflow-templates.md).  
 
@@ -26,14 +26,14 @@ Til að flytja verkflæði í annan [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 
 ## <a name="to-export-a-workflow"></a>Til að flytja út verkflæði  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkflæði** og veldu síðan tengda tengilinn.  
-2.  Veljið Verkflæði og smellið á hnappinn **Flytja út í skrá** .  
-3.  Á síðunni **Flytja út skrá** skal velja hnappinn **Vista** .  
-4.  Á síðunni **Flytja út** skal velja staðsetningu skrána og svo hnappinn **Vista** .  
+2.  Veljið Verkflæði og smellið á hnappinn **Flytja út í skrá**.  
+3.  Á síðunni **Flytja út skrá** skal velja hnappinn **Vista**.  
+4.  Á síðunni **Flytja út** skal velja staðsetningu skrána og svo hnappinn **Vista**.  
 
 ## <a name="to-import-a-workflow"></a>Til að flytja inn verkflæði  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkflæði** og veldu síðan tengda tengilinn.  
 2.  Aðgerðin **Flytja inn úr skrá** er valin.  
-3.  Á síðunni **Flytja inn** skal velja XML-skrá sem inniheldur verkflæðið og velja svo hnappinn **opna** .  
+3.  Á síðunni **Flytja inn** skal velja XML-skrá sem inniheldur verkflæðið og velja svo hnappinn **opna**.  
 
 > [!CAUTION]  
 >  Ef verkflæðiskóðinn er þegar til í gagnagrunnur verður skrifað yfir verkflæðisskref með skrefum í innfluttu verkflæði.  

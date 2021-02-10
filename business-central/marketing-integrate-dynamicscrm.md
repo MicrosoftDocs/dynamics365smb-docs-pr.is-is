@@ -11,38 +11,38 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 37e94bcc276ee8526a336e13eabe81c694130196
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7234536ff432140b1606ffe685bb0225f4963612
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923696"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755318"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Nota Dynamics 365 Sales úr Business Central
-Ef þú notar Dynamics 365 Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.
+Ef þú notar Dynamics 365 Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota [!INCLUDE[prod_short](includes/prod_short.md)] fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.
 
 Áður en hægt er að nota möguleika samþættingar þarf kerfisstjórinn fyrst að setja upp tenginguna og skilgreina notendur í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
 
 > [!NOTE]
-> Þessi skref lýsa ferlinu við samþættingu á vefútgáfum af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)]. Frekari upplýsingar um grunnstillingu á staðnum er að finna í [Undirbúningur Dynamics 365 Sales fyrir samþættingu á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> Þessi skref lýsa ferlinu við samþættingu á vefútgáfum af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar um grunnstillingu á staðnum er að finna í [Undirbúningur Dynamics 365 Sales fyrir samþættingu á staðnum](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-Samþætting forritanna gerir þér kleift að fá aðgang að gögnum í Sals úr [!INCLUDE[d365fin](includes/d365fin_md.md)], og í sumum tilfellum í hina áttina líka. Hægt er að vinna með og samstilla gögn sem báðar þjónustur eru með sameiginleg, t.d. viðskiptamenn, tengiliðir og söluupplýsingar og halda gögnum uppfærðum í báðum forritum.  
+Samþætting forritanna gerir þér kleift að fá aðgang að gögnum í Sals úr [!INCLUDE[prod_short](includes/prod_short.md)], og í sumum tilfellum í hina áttina líka. Hægt er að vinna með og samstilla gögn sem báðar þjónustur eru með sameiginleg, t.d. viðskiptamenn, tengiliðir og söluupplýsingar og halda gögnum uppfærðum í báðum forritum.  
 
-Til dæmis getur sölumaður í [!INCLUDE[crm_md](includes/crm_md.md)] notað verðlista frá [!INCLUDE[d365fin](includes/d365fin_md.md)] þegar sölupöntun er búin til. Þegar vörunni er bætt við sölupöntunarlínu í [!INCLUDE[crm_md](includes/crm_md.md)] er hægt að sjá birgðastöðuna (framboð) fyrir vöruna úr [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Til dæmis getur sölumaður í [!INCLUDE[crm_md](includes/crm_md.md)] notað verðlista frá [!INCLUDE[prod_short](includes/prod_short.md)] þegar sölupöntun er búin til. Þegar vörunni er bætt við sölupöntunarlínu í [!INCLUDE[crm_md](includes/crm_md.md)] er hægt að sjá birgðastöðuna (framboð) fyrir vöruna úr [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Á móti geta pantanavinnslur í [!INCLUDE[d365fin](includes/d365fin_md.md)] meðhöndlað sölupantanir sem eru fluttar sjálfkrafa eða handvirkt úr [!INCLUDE[crm_md](includes/crm_md.md)]. Til dæmis geta þær stofnað og bókað sölupöntunarlínur fyrir vörur eða tilföng sem voru færð inn í [!INCLUDE[crm_md](includes/crm_md.md)] sem innskriftarafurðir. Nánari upplýsingar er að finna í [Meðhöndlun á gögnum sölupöntunar](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
+Á móti geta pantanavinnslur í [!INCLUDE[prod_short](includes/prod_short.md)] meðhöndlað sölupantanir sem eru fluttar sjálfkrafa eða handvirkt úr [!INCLUDE[crm_md](includes/crm_md.md)]. Til dæmis geta þær stofnað og bókað sölupöntunarlínur fyrir vörur eða tilföng sem voru færð inn í [!INCLUDE[crm_md](includes/crm_md.md)] sem innskriftarafurðir. Nánari upplýsingar er að finna í [Meðhöndlun á gögnum sölupöntunar](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] samlagast aðeins við [!INCLUDE[crm_md](includes/crm_md.md)]. Önnur Dynamics 365 forrit sem breyta stöðluðu verkflæði eða gagnalíkani í [!INCLUDE[crm_md](includes/crm_md.md)], til dæmis Project Service Automation, geta að rofið samþættinguna milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
+> [!INCLUDE[prod_short](includes/prod_short.md)] samlagast aðeins við [!INCLUDE[crm_md](includes/crm_md.md)]. Önnur Dynamics 365 forrit sem breyta stöðluðu verkflæði eða gagnalíkani í [!INCLUDE[crm_md](includes/crm_md.md)], til dæmis Project Service Automation, geta að rofið samþættinguna milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="coupling-records"></a>Tengja skrár
-Uppsetningarleiðbeiningar með hjálp leyfir þér að velja gögnin til að samstilla. Seinna er einnig hægt að setja upp samstillingu fyrir tilteknar færslur. Þetta er kallað *tenging* . Til dæmis getur þú tengt tiltekinn reikning í [!INCLUDE[crm_md](includes/crm_md.md)] við tiltekinn viðskiptamann í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Þessi kafli lýsir því sem á að taka tillit til þegar þú tengir færslur.
+Uppsetningarleiðbeiningar með hjálp leyfir þér að velja gögnin til að samstilla. Seinna er einnig hægt að setja upp samstillingu fyrir tilteknar færslur. Þetta er kallað *tenging*. Til dæmis getur þú tengt tiltekinn reikning í [!INCLUDE[crm_md](includes/crm_md.md)] við tiltekinn viðskiptamann í [!INCLUDE[prod_short](includes/prod_short.md)]. Þessi kafli lýsir því sem á að taka tillit til þegar þú tengir færslur.
 
-Til dæmis, ef þú vilt sjá [!INCLUDE[crm_md](includes/crm_md.md)] reikninga sem viðskiptamenn í [!INCLUDE[d365fin](includes/d365fin_md.md)], verður þú að tengja tvær gerðir af færslum. Til að gera það skal á listasíðunni **Viðskiptamenn** í [!INCLUDE[d365fin](includes/d365fin_md.md)] nota aðgerðina **Setja upp tengingu** . Svo tilgreinir þú hvaða [!INCLUDE[d365fin](includes/d365fin_md.md)] viðskiptamenn passa við hvaða reikninga í [!INCLUDE[crm_md](includes/crm_md.md)].
+Til dæmis, ef þú vilt sjá [!INCLUDE[crm_md](includes/crm_md.md)] reikninga sem viðskiptamenn í [!INCLUDE[prod_short](includes/prod_short.md)], verður þú að tengja tvær gerðir af færslum. Til að gera það skal á listasíðunni **Viðskiptamenn** í [!INCLUDE[prod_short](includes/prod_short.md)] nota aðgerðina **Setja upp tengingu**. Svo tilgreinir þú hvaða [!INCLUDE[prod_short](includes/prod_short.md)] viðskiptamenn passa við hvaða reikninga í [!INCLUDE[crm_md](includes/crm_md.md)].
 
-Þú getur einnig búið til (og tengt) reikning í [!INCLUDE[crm_md](includes/crm_md.md)] á grundvelli til dæmis viðskiptamannafærslu í [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að nota **Stofna reikning í Dynamics 365 Sales** eða öfugt, notað **Stofna viðskiptamann í [!INCLUDE[d365fin](includes/d365fin_md.md)]** .
+Þú getur einnig búið til (og tengt) reikning í [!INCLUDE[crm_md](includes/crm_md.md)] á grundvelli til dæmis viðskiptamannafærslu í [!INCLUDE[prod_short](includes/prod_short.md)] með því að nota **Stofna reikning í Dynamics 365 Sales** eða öfugt, notað **Stofna viðskiptamann í [!INCLUDE[prod_short](includes/prod_short.md)]**.
 
-Þegar þú setur upp tengingu milli tveggja færslna getur þú einnig óskað handvirkt eftir að skrifað verði strax yfir núverandi færslu, t.d. viðskiptamann, af gögnum reiknings úr Sales (eða úr [!INCLUDE[d365fin](includes/d365fin_md.md)]) með því að nota aðgerðina **Samstilla núna** . Aðgerðin **Samstilla núna** sem spyr hvort skrifa eigi yfir gagnafærslur Sales eða [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Þegar þú setur upp tengingu milli tveggja færslna getur þú einnig óskað handvirkt eftir að skrifað verði strax yfir núverandi færslu, t.d. viðskiptamann, af gögnum reiknings úr Sales (eða úr [!INCLUDE[prod_short](includes/prod_short.md)]) með því að nota aðgerðina **Samstilla núna**. Aðgerðin **Samstilla núna** sem spyr hvort skrifa eigi yfir gagnafærslur Sales eða [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Í sumum tilfellum verður þú að tengja ákveðin gagnasöfn á undan öðrum gagnasöfnum, eins og sýnt er í eftirfarandi töflu.
 
@@ -58,23 +58,23 @@ Til dæmis, ef þú vilt sjá [!INCLUDE[crm_md](includes/crm_md.md)] reikninga s
 Í [!INCLUDE[crm_md](includes/crm_md.md)] velta sölupantanir á upplýsingum eins og viðskiptamönnum, mælieiningum, gjaldmiðlum, verðflokkum viðskiptamanna, vörum og/eða tilföngum. Til að samþættingin með sölupöntunum gangi eftir verður þú að tengja viðskiptamenn, mælieiningar, gjaldmiðla, verðflokka viðskiptamanna, vörur og/eða tilföng.
 
 ## <a name="fully-synchronizing-records"></a>Færslur fyrir fulla samstillingu
-Í lok aðstoðaruppsetningarleiðbeiningarinnar geturðu valið aðgerðina **Keyra fulla samstillingu** til að byrja að samstilla allar [!INCLUDE[d365fin](includes/d365fin_md.md)] færslur við allar tengdar færslur í [!INCLUDE[crm_md](includes/crm_md.md)]. Á síðunni **Yfirferð á fullri samstillingu Dynamics 365 Sales** skaltu velja **Ræsa** aðgerðina. Full samstilling getur tekið einhvern tíma að ljúka, en þú getur haldið áfram að vinna í [!INCLUDE[d365fin](includes/d365fin_md.md)] á meðan hún keyrir í bakgrunninum.
+Í lok aðstoðaruppsetningarleiðbeiningarinnar geturðu valið aðgerðina **Keyra fulla samstillingu** til að byrja að samstilla allar [!INCLUDE[prod_short](includes/prod_short.md)] færslur við allar tengdar færslur í [!INCLUDE[crm_md](includes/crm_md.md)]. Á síðunni **Yfirferð á fullri samstillingu Dynamics 365 Sales** skaltu velja **Ræsa** aðgerðina. Full samstilling getur tekið einhvern tíma að ljúka, en þú getur haldið áfram að vinna í [!INCLUDE[prod_short](includes/prod_short.md)] á meðan hún keyrir í bakgrunninum.
 
 Til að athuga framvindu á einstökum verkum í fullri samstillingu skal á síðunni **Yfirfara fulla samstillingu Dynamics 365 Sales** velja færslu til að skoða upplýsingar um. Til að uppfæra stöðuna við samstillingu, endurnýjaðu síðuna.
 
-Frá síðunni **Uppsetning tengingar Microsoft Dynamics 365** er hægt að fá upplýsingar um fulla samstillingu hvenær sem er. Héðan er einnig hægt að opna síðuna **Vörpun samþættingartöflu** til að sjá upplýsingar um töflurnar í [!INCLUDE[d365fin](includes/d365fin_md.md)] og Sales sem þarf að samstilla.
+Frá síðunni **Uppsetning tengingar Microsoft Dynamics 365** er hægt að fá upplýsingar um fulla samstillingu hvenær sem er. Héðan er einnig hægt að opna síðuna **Vörpun samþættingartöflu** til að sjá upplýsingar um töflurnar í [!INCLUDE[prod_short](includes/prod_short.md)] og Sales sem þarf að samstilla.
 
 ## <a name="handling-sales-order-data"></a>Meðhöndlun gagna sölupöntunar
-Sölupantanir sem einstaklingar senda inn í [!INCLUDE[crm_md](includes/crm_md.md)] verða sjálfkrafa færðar til [!INCLUDE[d365fin](includes/d365fin_md.md)] ef valinn er gátreiturinn **Stofna sölupantanir sjálfvirkt** á síðunni **Microsoft Dynamics 365 Uppsetning tengingar** .
-Einnig er hægt að umbreyta handvirkt innsendum sölupöntunum úr [!INCLUDE[crm_md](includes/crm_md.md)] með því að nota aðgerðina **Stofna í [!INCLUDE[d365fin](includes/d365fin_md.md)]** sem er tiltæk á síðunni **Sölupantanir - Dynamics 365 for Sales** .
-Á slíkum sölupöntunum er reiturinn **Heiti** í upprunalegu pöntuninni fluttur og honum varpað í reitinn **Utanaðkomandi fylgiskjalsnúmer** á sölupöntuninni í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Sölupantanir sem einstaklingar senda inn í [!INCLUDE[crm_md](includes/crm_md.md)] verða sjálfkrafa færðar til [!INCLUDE[prod_short](includes/prod_short.md)] ef valinn er gátreiturinn **Stofna sölupantanir sjálfvirkt** á síðunni **Microsoft Dynamics 365 Uppsetning tengingar**.
+Einnig er hægt að umbreyta handvirkt innsendum sölupöntunum úr [!INCLUDE[crm_md](includes/crm_md.md)] með því að nota aðgerðina **Stofna í [!INCLUDE[prod_short](includes/prod_short.md)]** sem er tiltæk á síðunni **Sölupantanir - Dynamics 365 for Sales**.
+Á slíkum sölupöntunum er reiturinn **Heiti** í upprunalegu pöntuninni fluttur og honum varpað í reitinn **Utanaðkomandi fylgiskjalsnúmer** á sölupöntuninni í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Þetta getur líka virkað ef upprunalega sölupöntunin inniheldur innskriftarvörur, þ.e.a.s. vörur eða forða sem er skráður í hvorugu forritinu. Í því tilviki verður þú að fylla út reitina **Gerð innskriftarvöru** og **Nr. innskriftarvöru** reitirnir á síðunni **Sölugrunnur** , til þess að sölur á óskráðum afurðum séu varpað á tiltekið vöru- og tilfanganúmer.
+Þetta getur líka virkað ef upprunalega sölupöntunin inniheldur innskriftarvörur, þ.e.a.s. vörur eða forða sem er skráður í hvorugu forritinu. Í því tilviki verður þú að fylla út reitina **Gerð innskriftarvöru** og **Nr. innskriftarvöru** reitirnir á síðunni **Sölugrunnur**, til þess að sölur á óskráðum afurðum séu varpað á tiltekið vöru- og tilfanganúmer.
 
 > [!NOTE]
-> Ekki er hægt að varpa innskrift til vöru eða tilfangs í [!INCLUDE[d365fin](includes/d365fin_md.md)] sem er tengd við afurð í [!INCLUDE[crm_md](includes/crm_md.md)]. Til að leyfa innskriftir, mælum við með því að þú stofnir vöru eða tilfang sérstaklega í þeim tilgangi og tengir þær ekki við afurð í [!INCLUDE[crm_md](includes/crm_md.md)]. 
+> Ekki er hægt að varpa innskrift til vöru eða tilfangs í [!INCLUDE[prod_short](includes/prod_short.md)] sem er tengd við afurð í [!INCLUDE[crm_md](includes/crm_md.md)]. Til að leyfa innskriftir, mælum við með því að þú stofnir vöru eða tilfang sérstaklega í þeim tilgangi og tengir þær ekki við afurð í [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
-Ef lýsingin á vörunni í upprunalegu sölupöntuninni er löng er stofnuð ný sölupöntunarlína af gerðinni **Athugasemd** til þess að rúma allan texta sölupöntunarinnar í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Ef lýsingin á vörunni í upprunalegu sölupöntuninni er löng er stofnuð ný sölupöntunarlína af gerðinni **Athugasemd** til þess að rúma allan texta sölupöntunarinnar í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Uppfærslur á reitum sölupöntunarhausa, t.d. reitiri fyrir síðustu sendingardagsetningu eða umbeðinn afhendingardag, sem er varpað í **SÖLUPÖNTUN-PÖNTUN** vörpun samþættingartöflu eru samstilltar reglubundið í [!INCLUDE[crm_md](includes/crm_md.md)]. Ferli eins og losun á sölupöntun og afhendingu eða reikningsfærslu á sölupöntun eru bókuð á tímalínu sölupöntunar í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna í [Kynning á aðgerðastraumum](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
@@ -84,25 +84,25 @@ Uppfærslur á reitum sölupöntunarhausa, t.d. reitiri fyrir síðustu sendinga
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
 ## <a name="handling-sales-quotes-data"></a>Meðhöndlun á gögnum sölutilboða
-Sölutilboð sem eru virkjuð í [!INCLUDE[crm_md](includes/crm_md.md)] verða flutt til [!INCLUDE[d365fin](includes/d365fin_md.md)] ef gátreiturinn **Vinna sjálfvirkt úr sölutilboðum** er valinn á síðunni **Microsoft Dynamics 365 Uppsetning tengingar** .
-Einnig er hægt að umbreyta handvirkt virkjuðum sölutilboðum úr [!INCLUDE[crm_md](includes/crm_md.md)] með því að nota aðgerðina **Vinna úr í [!INCLUDE[d365fin](includes/d365fin_md.md)]** á síðunni **Sölutilboð - Dynamics 365 Sales** .
-Á slíkum sölutilboðum er reiturinn **Heiti** í upprunalega tilboðinu fluttur og honum varpað í reitinn **Utanaðkomandi fylgiskjalsnúmer** á sölupöntuninni í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Einnig er reiturinn **Virkt til** í tilboði fluttur og varpað í reitinn **Tilboð gildir til** í sölutilboði í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Sölutilboð sem eru virkjuð í [!INCLUDE[crm_md](includes/crm_md.md)] verða flutt til [!INCLUDE[prod_short](includes/prod_short.md)] ef gátreiturinn **Vinna sjálfvirkt úr sölutilboðum** er valinn á síðunni **Microsoft Dynamics 365 Uppsetning tengingar**.
+Einnig er hægt að umbreyta handvirkt virkjuðum sölutilboðum úr [!INCLUDE[crm_md](includes/crm_md.md)] með því að nota aðgerðina **Vinna úr í [!INCLUDE[prod_short](includes/prod_short.md)]** á síðunni **Sölutilboð - Dynamics 365 Sales**.
+Á slíkum sölutilboðum er reiturinn **Heiti** í upprunalega tilboðinu fluttur og honum varpað í reitinn **Utanaðkomandi fylgiskjalsnúmer** á sölupöntuninni í [!INCLUDE[prod_short](includes/prod_short.md)]. Einnig er reiturinn **Virkt til** í tilboði fluttur og varpað í reitinn **Tilboð gildir til** í sölutilboði í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Sölutilboð fara í gegnum margar útgáfur áður en þau eru fullkláruð. Bæði handvirk og sjálfvirk úrvinnsla á sölutilboðum í [!INCLUDE[d365fin](includes/d365fin_md.md)] tryggir að fyrri útgáfur af sölutilboðum eru safnvistaðar áður en unnið er úr nýjum útgáfum sölutilboða úr [!INCLUDE[crm_md](includes/crm_md.md)].
+Sölutilboð fara í gegnum margar útgáfur áður en þau eru fullkláruð. Bæði handvirk og sjálfvirk úrvinnsla á sölutilboðum í [!INCLUDE[prod_short](includes/prod_short.md)] tryggir að fyrri útgáfur af sölutilboðum eru safnvistaðar áður en unnið er úr nýjum útgáfum sölutilboða úr [!INCLUDE[crm_md](includes/crm_md.md)].
 
-Þegar valið er **Ferli** í [!INCLUDE[d365fin](includes/d365fin_md.md)] fyrir tilboð sem er í stöðu **Unnið** er sölupöntun stofnuð í [!INCLUDE[d365fin](includes/d365fin_md.md)] aðeins ef samsvarandi sölupöntun er send í [!INCLUDE[crm_md](includes/crm_md.md)]. Annars er tilboðið aðeins gefið út í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ef samsvarandi sölupöntun er send í [!INCLUDE[crm_md](includes/crm_md.md)] síðar og sölupöntun er stofnuð úr henni verður **Tilboðsnr.** uppfært í sölupöntuninni og tilboðið er safnvistað.
+Þegar valið er **Ferli** í [!INCLUDE[prod_short](includes/prod_short.md)] fyrir tilboð sem er í stöðu **Unnið** er sölupöntun stofnuð í [!INCLUDE[prod_short](includes/prod_short.md)] aðeins ef samsvarandi sölupöntun er send í [!INCLUDE[crm_md](includes/crm_md.md)]. Annars er tilboðið aðeins gefið út í [!INCLUDE[prod_short](includes/prod_short.md)]. Ef samsvarandi sölupöntun er send í [!INCLUDE[crm_md](includes/crm_md.md)] síðar og sölupöntun er stofnuð úr henni verður **Tilboðsnr.** uppfært í sölupöntuninni og tilboðið er safnvistað.
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Meðhöndlun bókaðra sölureikninga, greiðslna viðskiptamanna og talnaupplýsinga
-Þegar sölupöntun hefur verið uppfyllt verða reikningar fyrir hana búnir til. Þegar sölupöntun er reikningsfærð er hægt að flytja bókaðan sölureikning til [!INCLUDE[crm_md](includes/crm_md.md)] ef gátreiturinn **Búa til reikning í [!INCLUDE[crm_md](includes/crm_md.md)]** er valinn á síðunni **Bókaður sölureikningur** . Bókaðir reikningar eru fluttir til [!INCLUDE[crm_md](includes/crm_md.md)] með stöðuna **Greiddir** .
+Þegar sölupöntun hefur verið uppfyllt verða reikningar fyrir hana búnir til. Þegar sölupöntun er reikningsfærð er hægt að flytja bókaðan sölureikning til [!INCLUDE[crm_md](includes/crm_md.md)] ef gátreiturinn **Búa til reikning í [!INCLUDE[crm_md](includes/crm_md.md)]** er valinn á síðunni **Bókaður sölureikningur**. Bókaðir reikningar eru fluttir til [!INCLUDE[crm_md](includes/crm_md.md)] með stöðuna **Greiddir**.
 
-Þegar greiðsla viðskiptamanns er móttekin fyrir sölureikninginn í [!INCLUDE[d365fin](includes/d365fin_md.md)] verður stöðu sölureiknings breytt í **Greiddur** með reitinn **Ástæða stöðu** stilltan á **Að hluta til** ef greiddur að hluta til eða **Að fullu** ef greiddur að fullu þegar aðgerðin **Uppfæra talnagögn reiknings** er valinn á síðu viðskiptamanns í [!INCLUDE[d365fin](includes/d365fin_md.md)]. Virknin **Uppfæra talnagögn reiknings** uppfærir einnig gildi í reitum á borð við **Jafnvægi** og **Heildarsala** í upplýsingareitnum **[!INCLUDE[d365fin](includes/d365fin_md.md)] Talnagögn reiknings** í [!INCLUDE[crm_md](includes/crm_md.md)]. Að öðrum kosti er hægt láta áætluðu verkin Talnagögn um viðskiptavin og POSTEDSALESINV-INV keyra sjálfkrafa bæði þessi ferli í bakgrunninum.
+Þegar greiðsla viðskiptamanns er móttekin fyrir sölureikninginn í [!INCLUDE[prod_short](includes/prod_short.md)] verður stöðu sölureiknings breytt í **Greiddur** með reitinn **Ástæða stöðu** stilltan á **Að hluta til** ef greiddur að hluta til eða **Að fullu** ef greiddur að fullu þegar aðgerðin **Uppfæra talnagögn reiknings** er valinn á síðu viðskiptamanns í [!INCLUDE[prod_short](includes/prod_short.md)]. Virknin **Uppfæra talnagögn reiknings** uppfærir einnig gildi í reitum á borð við **Jafnvægi** og **Heildarsala** í upplýsingareitnum **[!INCLUDE[prod_short](includes/prod_short.md)] Talnagögn reiknings** í [!INCLUDE[crm_md](includes/crm_md.md)]. Að öðrum kosti er hægt láta áætluðu verkin Talnagögn um viðskiptavin og POSTEDSALESINV-INV keyra sjálfkrafa bæði þessi ferli í bakgrunninum.
 
 ## <a name="see-also"></a>Sjá einnig
 [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Umsjón með venslum](marketing-relationship-management.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
 [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md)    
 [Yfirlit yfir Sales og sölumiðstöð](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -1,6 +1,6 @@
 ---
-title: Notkun verkflæðis | Microsoft Docs
-description: Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.
+title: Nota verkflæði
+description: Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Frekari upplýsingar um mismunandi skref sem þú þarft að taka til að nota verkflæði.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d608841bf5d5586bd0ef84ef554055517def0eb8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 375d53975bca97d16b3857056d44b9eada5cca97
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917952"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753001"
 ---
 # <a name="using-workflows"></a>Nota verkflæði
 Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem framkvæmd erf af ólíkum notandi. Kerfisverk, s.s. sjálfvirk bókun, er hægt að hafa sem skerf í verkflæði, á undan eða eftir notandaverkum. Að óska eftir samþykki eða samþykkja nýjar færslur eru dæmigerð skref í verkflæði.  
@@ -38,4 +38,4 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning verkflæðis](across-set-up-workflows.md)   
 [Verkflæði](across-workflow.md)   
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

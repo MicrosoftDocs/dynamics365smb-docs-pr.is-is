@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 643c47864971dc350e3c82345064cdb8f6e42121
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: aeb436516d2f6d389b6d8b6489e63ac1ad925aae
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917752"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755168"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Uppsetning fyrirtækis með RapidStart Services
-Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[d365fin](includes/d365fin_md.md)] með RapidStart Services, sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld.  
+Hægt er að setja upp nýja fyrir tækið í [!INCLUDE[prod_short](includes/prod_short.md)] með RapidStart Services, sem er tæki sem hannað er til að flýta fyrir virkjunartíma, bæta gæði innleiðingar, koma á innleiðingaraðferð sem hægt er að endurtaka, og gera bæta framleiðni með því að gera síendurtekin verk sjálfvirk og einföld.  
 
 RapidStart Services veitir yfirlit yfir uppsetningarferli nýja fyrirtækisins með vinnublaði þar sem setja má upp töflur sem oft eru notaðar við grunnstillingu nýrra fyrirtækja. Þegar þetta er gert er hægt að búa til spurningalista til að stjórna viðskiptavinum í gegnum safn upplýsinga um uppsetningu. Viðskiptavinir eiga möguleika á að nota spurningalistann til að setja upp kerfishluta eða þeir geta opnað uppsetningarsíðuna og gert uppsetninguna beint þar. Mikilvægast er að RapidStart Services hjálpar notanda, sem viðskiptamanni, að undirbúa fyrirtæki með sjálfgefnum uppsetningargögnum sem hægt er að fínstilla og sérsníða. Að lokum, þegar notað er RapidStart Services, er hægt að skilgreina og flytja núverandi gögn um viðskiptamenn, til dæmis lista yfir viðskiptavini eða vöru, í nýja fyrirtækið.
 
@@ -31,7 +31,7 @@ Hægt er að nota eftirfarandi íhluti til að flýta uppsetningu á nýju fyrir
 -   Spurningalisti grunnstillingar  
 
 > [!Note]  
->  Það eru svæði af [!INCLUDE[d365fin](includes/d365fin_md.md)] sem setja þarf upp handvirkt. Hann felur meðal annars í sér að bæta notendum við, setja upp reikningstímabil og setja upp víddir fyrir viðskiptagreind. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+>  Það eru svæði af [!INCLUDE[prod_short](includes/prod_short.md)] sem setja þarf upp handvirkt. Hann felur meðal annars í sér að bæta notendum við, setja upp reikningstímabil og setja upp víddir fyrir viðskiptagreind. Nánari upplýsingar er að finna í [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
  Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
 
@@ -41,11 +41,11 @@ Hægt er að nota eftirfarandi íhluti til að flýta uppsetningu á nýju fyrir
 |Virkja grunnstillingarpakkann til viðskiptamanns fyrir innleiðingu.|[Nota skilgreiningu á ný fyrirtæki](admin-apply-configuration-to-new-companies.md)|
 |Skilgreina og sannprófa uppsetningargildi fyrir öll grunnsvæði, svo sem upplýsingar fyrirtækis, fjárhag, birgða​sölu eða framleiðslu.|[Safna uppsetningargildum viðskiptamanns](admin-gather-customer-setup-values.md)|  
 |Grunnstilla grunnaðalgagnafærslur sem nota sniðmát til að undirbúa flutning á fyrirliggjandi viðskiptamannagögnum.|[Undirbúa flutning á viðskiptamannagögnum](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
-|Skilgreina töflur og reiti, villuleita fyrirliggjandi gögn um viðskiptavini og flytja gögn inn í gagnagrunninn [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Flytja gögn viðskiptamanna](admin-migrate-customer-data.md)|
+|Skilgreina töflur og reiti, villuleita fyrirliggjandi gögn um viðskiptavini og flytja gögn inn í gagnagrunninn [!INCLUDE[prod_short](includes/prod_short.md)].|[Flytja gögn viðskiptamanna](admin-migrate-customer-data.md)|
 |Búðu þig undir að endurnýta grunnstillingar fyrirtækis í öðrum fyrirtækjum.|[Búa til sérstillta grunnstillingarpakka fyrirtækja](admin-how-to-create-custom-company-configuration-packages.md)|
 |Finna lausnir á þekktum vandamálum í verkfærasettinu RapidStart Services.|[Ábendingar og góð ráð: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Stjórnun](admin-setup-and-administration.md)  
-[Uppsetning [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)   

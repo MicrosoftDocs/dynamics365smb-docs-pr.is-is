@@ -1,5 +1,5 @@
 ---
-title: Uppsetning á notendareikningum fyrir samþættingu við Common Data Service | Microsoft Docs
+title: Uppsetning á notendareikningum fyrir samþættingu við Microsoft Dataverse | Microsoft Docs
 description: Kynntu þér hvernig á að setja upp notendareikninga sem forritin nota til að skiptast á gögnum og sem fólk notar til að fá aðgang að og samstilla gögn í forritunum.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,24 +10,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d396e5fc9073d753bb9782394a922c26242b472a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b341b476c33e39dfda7fbb69bf643264f6c50672
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917777"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755143"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Uppsetning á notendareikningum fyrir samþættingu við Common Data Service
-Þetta efnisatriði veitir yfirlit um hvernig á að setja upp notendareikninga sem er krafist til að samþætta [!INCLUDE[d365fin](includes/cds_long_md.md)] við [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Uppsetning á notendareikningum fyrir samþættingu við Microsoft Dataverse
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
+Þetta efnisatriði veitir yfirlit um hvernig á að setja upp notendareikninga sem er krafist til að samþætta [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="setting-up-the-administrator-user-account"></a>Uppsetning á notandareikningi stjórnanda
-Þú verður að bæta við notandareikningi stjórnanda fyrir [!INCLUDE[d365fin](includes/d365fin_md.md)] sem notandi í [!INCLUDE[d365fin](includes/cds_long_md.md)]. Þegar tengingin er sett upp á milli [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] notum við þennan reikning í eitt skipti til að setja upp og grunnstilla nokkra nauðsynlega íhluti. 
+Þú verður að bæta við notandareikningi stjórnanda fyrir [!INCLUDE[prod_short](includes/prod_short.md)] sem notandi í [!INCLUDE[prod_short](includes/cds_long_md.md)]. Þegar tengingin er sett upp á milli [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] notum við þennan reikning í eitt skipti til að setja upp og grunnstilla nokkra nauðsynlega íhluti. 
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>Heimildir og öryggishlutverk fyrir notandareikninga í [!INCLUDE[d365fin](includes/cds_long_md.md)]
-Þegar CDS-grunnsamþættingarlausn er sett upp eru heimildir fyrir notandareikning samþættingar grunnstilltar. Ef þeim heimildum er breytt handvirkt er hægt að endurstilla þær. Hægt er að gera það með því að setja CDS-grunnsamþættingarlausnina upp aftur með því að velja **Endurvirkja samþættingarlausn** á síðunni **Common Data Service Uppsetning tengingar** . Öryggishlutverk fyrir CDS-samþættingu Business Central er virkjað.
+## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Heimildir og öryggishlutverk fyrir notandareikninga í [!INCLUDE[prod_short](includes/cds_long_md.md)]
+Þegar CDS-grunnsamþættingarlausn er sett upp eru heimildir fyrir notandareikning samþættingar grunnstilltar. Ef þeim heimildum er breytt handvirkt er hægt að endurstilla þær. Hægt er að gera það með því að setja CDS-grunnsamþættingarlausnina upp aftur með því að velja **Endurvirkja samþættingarlausn** á síðunni **Common Data Service Uppsetning tengingar**. Öryggishlutverk fyrir CDS-samþættingu Business Central er virkjað.
 
 <!--
-The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
+The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 ### Minimum Permissions for the Administrator
 The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
@@ -51,8 +53,8 @@ The following table displays the minimum permissions on each tab for each securi
 |Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
 |Post Configuration|Global|||Write|
 
-### Minimum Permissions for automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user
-The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user.
+### Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
+The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user.
 
 ##### Core Records
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
@@ -120,5 +122,5 @@ You can allow sales people to view inventory levels for the items they sell by g
 -->
 
 ## <a name="see-also"></a>Sjá einnig  
-[Samþætting við Common Data Service](admin-common-data-service.md)  
+[Samþætting við Microsoft Dataverse](admin-common-data-service.md)  
 [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

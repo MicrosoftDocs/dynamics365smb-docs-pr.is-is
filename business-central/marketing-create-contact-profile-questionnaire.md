@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2020
-ms.openlocfilehash: ef8b2c90ef01841e2c641b9fc96348d899d4997e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 65c27bee86d273c467709f1e238b996829d73f37
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919339"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755443"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Nota spurningalista forstillingar til að flokka viðskiptatengiliði
 Hægt er að setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn. Innan hvers spurningalista er hægt að setja upp þær mismunandi spurningar sem spyrja á tengiliðina.  
@@ -24,13 +24,13 @@ Einnig er hægt að keyra spurningalistann til að svara sjálfkrafa nokkrum spu
 
 ## <a name="to-add-a-profile-questionnaire"></a>Til að bæta við spurningalista forstillingar
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning spurningalista** og veldu síðan tengda tengilinn.  
-2.  Veldu aðgerðina **Nýtt** .  
+2.  Veldu aðgerðina **Nýtt**.  
 3.  Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Til að bæta spurningum við spurningalista forstillingar
-1.  Veldu viðeigandi spurningalista og veldu síðan aðgerðina **Breyta Breyta uppsetningu spurningalista** .  
-2.  Í fyrstu auðu línunni reitnum **Tegund** , veljið **Spurning** ritið spurninguna í reitinn **Lýsing** . Aðrir reitir í línunni eru fylltir út.  
-3.  Í næstu auðu línu er smellt á reitinn **Tegund** , valið **Svar** og svarið ritað í reitinn **Lýsing** .  
+1.  Veldu viðeigandi spurningalista og veldu síðan aðgerðina **Breyta Breyta uppsetningu spurningalista**.  
+2.  Í fyrstu auðu línunni reitnum **Tegund**, veljið **Spurning** ritið spurninguna í reitinn **Lýsing**. Aðrir reitir í línunni eru fylltir út.  
+3.  Í næstu auðu línu er smellt á reitinn **Tegund**, valið **Svar** og svarið ritað í reitinn **Lýsing**.  
 4.  Í reitnum **Forgangur** veljið forganginn. Í reitunum **Frá virði** og **Til virðis** skilgreinið bil. Tengiliðir sem fá stig innan skilgreinda bilsins fá svarið.  
 
 Skrefin eru endurtekin til að færa inn allar spurningar og svör í spurningalistanum.
@@ -41,12 +41,12 @@ Skrefin eru endurtekin til að færa inn allar spurningar og svör í spurningal
 > Ef færð er inn spurning sem er svarað sjálfkrafa skal velja <STRONG>Lína</STRONG> og svo <STRONG>Upplýs. um spurningar</STRONG> til að færa inn skilyrðin sem notuð eru til að svara spurningunni sjálfkrafa.
 
 ## <a name="the-automatic-classification-of-contacts"></a>Sjálfvirk flokkun tengiliða
-Hægt er að flokka tengiliði sjálfvirkt eftir viðskiptamanna-, lánardrottna-, og tengiliðaupplýsingum með því að setja upp sjálfvirkt svöruðum forstillingarspurningum á síðunni **Uppsetning spurningalisti forstillingar** .  
+Hægt er að flokka tengiliði sjálfvirkt eftir viðskiptamanna-, lánardrottna-, og tengiliðaupplýsingum með því að setja upp sjálfvirkt svöruðum forstillingarspurningum á síðunni **Uppsetning spurningalisti forstillingar**.  
 
 > [!NOTE]
 > Aðeins er hægt að flokka tengiliði sem skráðir eru sem viðskiptamenn á grunni viðskiptamannaupplýsinga og aðeins er flokka tengilið sem skráðir eru sem lánardrottnar á grundvelli lánardrottnaupplýsinga. Sjálfvirk flokkun uppfærist ekki sjálfkrafa. Þar af leiðandi er ráðlegt að uppfæra spurningalista forstillingar þegar viðskiptamanna-, lánardrottna- eða tengiliðaupplýsingum sem þeir byggja á er breytt.  
 
-Þegar sjálfvirkt svaraðar forstillingarspurningar hafa verið settar upp, ef þú úthlutar tengiliði forstillingarspurningar sem innihalda þessar spurningar, mun [!INCLUDE[d365fin](includes/d365fin_md.md)] sjálfkrafa úthluta réttu svörunum fyrir tengiliðinn.  
+Þegar sjálfvirkt svaraðar forstillingarspurningar hafa verið settar upp, ef þú úthlutar tengiliði forstillingarspurningar sem innihalda þessar spurningar, mun [!INCLUDE[prod_short](includes/prod_short.md)] sjálfkrafa úthluta réttu svörunum fyrir tengiliðinn.  
 
 ## <a name="example"></a>Dæmi
 Hægt er að flokka tengiliði eftir því hversu mikið þeir hafa keypt:
@@ -103,28 +103,28 @@ Hægt er að flokka tengiliði eftir því hversu mikið þeir hafa keypt:
 <td><p>Spurning</p></td>
 <td><p>ABC-flokkun</p></td>
 <td><p>Smellt er til að færa inn gátmerki</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Svar</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>500,000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Svar</p></td>
 <td><p>Á</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>100,000</p></td>
 <td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Svar</p></td>
 <td><p>U</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 <td><p>99,999</p></td>
 </tr>
 </tbody>

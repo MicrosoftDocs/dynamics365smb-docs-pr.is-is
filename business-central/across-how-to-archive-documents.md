@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0479efcd967c7188e38fff2fb1da76e461a1bda6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c7f7da76bdea02f640bdb0ffaf5f1b8da16494cf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919589"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754868"
 ---
 # <a name="archive-documents"></a>Safnvista skjöl
 Þú getur safnvistað sölu- og innkaupapöntunum, tilboðum, skilapöntunum og standandi pöntunum, t.d. vegna þess að þú vilt vista afrit af skjali til að nota aftur seinna. Þú getur safnvistað sölu- eða innkaupaskjali nokkrum sinnum og vistað aðra safnvistaða útgáfu í hvert skipti.
 
 Fyrir safnvistuð skjöl þar sem upprunalega skjalið er ennþá til og er ekki bókað, getur þú notað virknina **Endurheimta** til að skrifa yfir upprunalega skjalið með safnvistuðu útgáfu skjalsins. Þetta er hagnýtt ef þú þarft að endurheimta eldri stöðu á innihaldi skjals.
 
-Fyrir safnvistuð skjöl þar sem upprunalega skjalinu er eytt geturðu aðeins notað efnið aftur með því að afrita gögnin, til dæmis með virkninni **Afrita úr skjali** .   
+Fyrir safnvistuð skjöl þar sem upprunalega skjalinu er eytt geturðu aðeins notað efnið aftur með því að afrita gögnin, til dæmis með virkninni **Afrita úr skjali**.   
 
 ## <a name="to-set-up-automatic-document-archiving"></a>Setja upp sjálfvirka safnvistun  
 Hægt er að setja upp sjálfvirka safnvistun á sölu- og innkaupapöntnum, tilboðum, standandi pöntunum og vöruskilapöntunum áður en skjölum er eytt.
@@ -42,15 +42,15 @@ Eftirfarandi ferli sýnir hvernig skal safnvista sölupöntun. Skrefin eru svipu
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2.  Opnuð er sölupöntun sem þú vilt kaupa safnvista.  
-3.  Valin er aðgerðin **Safnvista skjal** .
+3.  Valin er aðgerðin **Safnvista skjal**.
 
-Sölupöntunin er safnvistuð. Hægt er að skoða hana á síðunni **Safnvistaðar sölupantanir** .
+Sölupöntunin er safnvistuð. Hægt er að skoða hana á síðunni **Safnvistaðar sölupantanir**.
 
 ## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Að endurheimta óbókaða sölupöntun úr skjalasafninu
 Eftirfarandi ferli sýnir hvernig skal ná innihaldi safnvistaðrar sölupöntunar aftur í upprunalega sölupöntun. Þetta er aðeins mögulegt þegar upprunalega skjalið hefur ekki verið bókað. Skrefin eru svipuð fyrir allar pantanir, standandi pantanir, vöruskilapantanir og tilboð.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Safnvistaðar sölupantanir** og veldu síðan tengda tengilinn.
-2. Valin er safnvistuð sölupöntun, eða útgáfa af henni, sem á að endurheimta og velja síðan aðgerðina **Endurheimta** .  
+2. Valin er safnvistuð sölupöntun, eða útgáfa af henni, sem á að endurheimta og velja síðan aðgerðina **Endurheimta**.  
 
 Innihald upphaflegu sölupöntunar er skipt út fyrir innihald völdu safnvistuðu útgáfunnar.
 
@@ -59,10 +59,10 @@ Eftirfarandi ferli sýnir hvernig skal eyða safnvistuðum sölupöntunum. Skref
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eyða útgáfum sölupantana í skjalasafni** og veldu síðan tengda tengilinn.  
 2.  Á síðunni **Eyða útgáfum sölupantana í skjalasafni** skal velja viðeigandi síur.  
-3.  Velja hnappinn **Í lagi** .
+3.  Velja hnappinn **Í lagi**.
 
 ## <a name="see-also"></a>Sjá einnig
 [Rekja skjalalínur](across-how-to-track-document-lines.md)  
 [Sala](sales-manage-sales.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

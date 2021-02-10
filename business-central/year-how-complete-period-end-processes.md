@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6526760c78cb11d8454b7f5390c6fefe713647d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 104f63e07e4bfd8945f73581a4fb7810f946304f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918239"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755568"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Yfirlit yfir verkhluta sem felur í sér lokun fjárhagstímabila
-[!INCLUDE[d365fin](includes/d365fin_md.md)] þvingar þig ekki til að loka tímabilum, en það eru margar aðgerðir í lokunartíma (lok mánaðar) sem þú getur gert. Þetta efni gefur yfirlit yfir valfrjáls ferli og starfsemi fyrir lokunartímabil.  
+[!INCLUDE[prod_short](includes/prod_short.md)] þvingar þig ekki til að loka tímabilum, en það eru margar aðgerðir í lokunartíma (lok mánaðar) sem þú getur gert. Þetta efni gefur yfirlit yfir valfrjáls ferli og starfsemi fyrir lokunartímabil.  
 
 ## <a name="general-ledger"></a>Fjárhagur
 * Tilgreindu kerfisbundið og notendasértækt bókunartímabil.  
@@ -30,7 +30,7 @@ ms.locfileid: "3918239"
 * Ítrekunarbækur eru uppfærðar og bókaðar.  
   <!--* Process Consolidations-->
 * Fjárhagsskema keyrt sem hér segir:  
-  * Síðan **Fjárhagsskema** er opnaður og smellt á aðgerðina **Prenta** .  
+  * Síðan **Fjárhagsskema** er opnaður og smellt á aðgerðina **Prenta**.  
 
 ## <a name="sales-and-receivables"></a>Sala and útistandandi
 * Allar sölupantanir, reikningar, kreditreikningar og vöruskilapantanir eru bókaðar.  
@@ -62,4 +62,4 @@ Milli fyrirtækja
 ## <a name="see-also"></a>Sjá einnig
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Bókum lokað](year-close-books.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

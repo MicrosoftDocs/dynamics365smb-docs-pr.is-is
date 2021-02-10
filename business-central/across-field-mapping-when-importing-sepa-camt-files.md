@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bed47fc3109d622f4078e36e29aa04678bd22f9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 57488adb784736eaf404cf57f1563f08c517ed6c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918052"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753343"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Reitarvörpum við innflutning SEPA CAMT skráa
-[!INCLUDE[d365fin](includes/d365fin_md.md)] styður svæðisbundinn SEPA-staðall (sameiginlegt evrópskt greiðslusvæði) fyrir innflutning SEPA-bankayfirlita (CAMT-snið). Frekari upplýsingar eru í [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] styður svæðisbundinn SEPA-staðall (sameiginlegt evrópskt greiðslusvæði) fyrir innflutning SEPA-bankayfirlita (CAMT-snið). Frekari upplýsingar eru í [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md).  
 
- SEPA CAMT-staðallinn er með staðbundin afbrigði. Því kann að vera nauðsynlegt að breyta almennri skilgreiningu gagnaskipta táknað með **SEPA CAMT** kóðanum í **Skilgreiningar fyrir bókunarskipti** síðunni til að laga hana að staðbundnum útgáfum staðalsins. Eftirfarandi töflur sýna vörpun frá einingu í reit fyrir töflur 81, 273 og 274 í SEPA CAMT-framkvæmd í [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ SEPA CAMT-staðallinn er með staðbundin afbrigði. Því kann að vera nauðsynlegt að breyta almennri skilgreiningu gagnaskipta táknað með **SEPA CAMT** kóðanum í **Skilgreiningar fyrir bókunarskipti** síðunni til að laga hana að staðbundnum útgáfum staðalsins. Eftirfarandi töflur sýna vörpun frá einingu í reit fyrir töflur 81, 273 og 274 í SEPA CAMT-framkvæmd í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Frekari upplýsingar um að búa til eða stilla gagnaskiptaskilgreiningu eru í [Setja upp gagnaskiptaskilgreiningar](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -57,10 +57,10 @@ ms.locfileid: "3918052"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Óskipulagt|Texti|Upplýsingarnar til að gera samsvörun / afstemmingu á færslu með þeim vörum sem greiðsla er ætlað að stemma af, svo sem viðskiptareikningar í reikningskröfukerfi í ómótaðan formi||6|Lýsing|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Texti|Viðbótarupplýsingar um færslu||16|Færsluupplýsingar|  
 
- Stök í hnútnum **Færsla** sem eru flutt inn í [!INCLUDE[d365fin](includes/d365fin_md.md)] en ekki tengd við neina reiti eru vistuð í töflunni **Bókunarskipti Dálkur Skilgreining** . Notendur geta skoðað þessar einingar á síðunum **Greiðsluafstemmingarbók** , **Greiðslujafnanir** og **Afstemming bankareiknings** með því að velja **Upplýsingar um bankayfirlitslínu** aðgerðina. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
+ Stök í hnútnum **Færsla** sem eru flutt inn í [!INCLUDE[prod_short](includes/prod_short.md)] en ekki tengd við neina reiti eru vistuð í töflunni **Bókunarskipti Dálkur Skilgreining**. Notendur geta skoðað þessar einingar á síðunum **Greiðsluafstemmingarbók**, **Greiðslujafnanir** og **Afstemming bankareiknings** með því að velja **Upplýsingar um bankayfirlitslínu** aðgerðina. Frekari upplýsingar eru í [afstemma greiðslur með því að nota sjálfvirk jöfnun](receivables-how-reconcile-payments-auto-application.md)
 
 > [!IMPORTANT]
-> Í innflutningi á CAMT-bankayfirlitum, býst [!INCLUDE[d365fin](includes/d365fin_md.md)] við að hver færsla sé einkvæm, sem þýðir að reiturinn **Færslukenni** sem kemur úr merkinu *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* í CAMT-skránni, verður að vera einkvæmt innan opnu afstemmingar bankareikningsins. Ef upplýsingarnar eru ekki til staðar, hunsar [!INCLUDE[d365fin](includes/d365fin_md.md)] greiðsluna. Ef fyrri bankaafstemming á sama bankareikningi var bókuð með sama færslukenninu eins og í núverandi innflutningi, afstemmist núverandi færsla ekki sjálfkrafa en er enn hægt að flytja inn.
+> Í innflutningi á CAMT-bankayfirlitum, býst [!INCLUDE[prod_short](includes/prod_short.md)] við að hver færsla sé einkvæm, sem þýðir að reiturinn **Færslukenni** sem kemur úr merkinu *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId* í CAMT-skránni, verður að vera einkvæmt innan opnu afstemmingar bankareikningsins. Ef upplýsingarnar eru ekki til staðar, hunsar [!INCLUDE[prod_short](includes/prod_short.md)] greiðsluna. Ef fyrri bankaafstemming á sama bankareikningi var bókuð með sama færslukenninu eins og í núverandi innflutningi, afstemmist núverandi færsla ekki sjálfkrafa en er enn hægt að flytja inn.
 
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a761d1127e2a0568e59a329fd3e187beffb6b7e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84be9f847d466588e25dad81754bcf64f367b4c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918077"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753368"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Reitarvörpun við útflutning greiðsluskrá með AMC Banking 365 Fundamentals viðbótinni
 Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir umskráningarþjónusta fyrir bankagögn geta séð eitthvað af gögnunum. Þjónustuveita er ábyrg fyrir persónuvernd gagnanna. Frekari upplýsingar um AMC Banking 365 Fundamentals-viðbótina er að finna í [með því að nota AMC Banking 365 Fundamentals viðbótina](ui-extensions-amc-banking.md).  
@@ -23,7 +23,7 @@ ms.locfileid: "3918077"
 > [!CAUTION]  
 >  Þegar þú flytur út greiðsluskrár með AMC Banking 365 Fundamentals viðbótinni, mun sá sem veitir þjónustuna geta séð eitthvað af gögnunum. Þjónustuveita, AMC Consult A/S, er ábyrg fyrir persónuvernd gagnanna. Frekari upplýsingar eru í [AMC-persónuverndarstefnu](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-Eftirfarandi tafla inniheldur lista yfir reiti í [!INCLUDE[d365fin](includes/d365fin_md.md)] þaðan sem hægt er að flytja út gögn.  
+Eftirfarandi tafla inniheldur lista yfir reiti í [!INCLUDE[prod_short](includes/prod_short.md)] þaðan sem hægt er að flytja út gögn.  
 
 |Varpaður reitur|Reitur í töflu|Tafla|Description|  
 |------------------|--------------------|-----------|---------------------------------------|  

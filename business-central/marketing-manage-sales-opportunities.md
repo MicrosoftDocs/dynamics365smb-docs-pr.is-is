@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: c53722ad94cf4a2469d314ab30445e4ac5ccc80c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f6ba8df61a2c375c9a938cbe5b0c1a30032c5d9d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923597"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755343"
 ---
 # <a name="managing-sales-opportunities"></a>Umsjón sölutækifæra
 Líta má á allar ábendingar á innleið sem sölutækifæri. Hægt er að stofna tækifæri og úthluta þeim til sölumanna svo hægt sé að fylgjast með mögulegri sölu.
@@ -35,4 +35,4 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 ## <a name="see-also"></a>Sjá einnig
 [Sala](sales-manage-sales.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,30 +10,30 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1b2ea6b02613f120cf96f330379bf9928aad4b17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f6250dd8921f50c4bb8ac2beba52a3aaf54df1c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924729"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754418"
 ---
 # <a name="incoming-documents"></a>Skjöl á innleið
 
-Sumar viðskiptafærslur eru ekki skráðar í [!INCLUDE[d365fin](includes/d365fin_md.md)] upphaflega. Þess í stað ytri viðskipti skjal kemur í þitt fyrirtæki sem viðhengi eða pappír eintak sem þú grannskoða til skrá. Þetta er dæmigert við innkaup, þar sem slíkar skrár standa fyrir reikninga frá lánardrottnum eða greiðslukvittanir fyrir kostnað eða smáinnkaup.
+Sumar viðskiptafærslur eru ekki skráðar í [!INCLUDE[prod_short](includes/prod_short.md)] upphaflega. Þess í stað ytri viðskipti skjal kemur í þitt fyrirtæki sem viðhengi eða pappír eintak sem þú grannskoða til skrá. Þetta er dæmigert við innkaup, þar sem slíkar skrár standa fyrir reikninga frá lánardrottnum eða greiðslukvittanir fyrir kostnað eða smáinnkaup.
 
-Úr PDF-skjölum eða myndaskrám sem standa fyrir skjöl á innleið er hægt að láta ytri OCR-þjónustu (sjónræn stafakennsl) stofna rafræn skjöl sem hægt er að umbreyta í skráarfærslur innan [!INCLUDE[d365fin](includes/d365fin_md.md)]. Veljið uppfærslupakka sem er viðeigandi fyrir fyrirtækið og/eða landið/svæðið. Að öðrum kosti er hægt að stofna færslur handvirkt til að tákna ytri skjölin.  
+Úr PDF-skjölum eða myndaskrám sem standa fyrir skjöl á innleið er hægt að láta ytri OCR-þjónustu (sjónræn stafakennsl) stofna rafræn skjöl sem hægt er að umbreyta í skráarfærslur innan [!INCLUDE[prod_short](includes/prod_short.md)]. Veljið uppfærslupakka sem er viðeigandi fyrir fyrirtækið og/eða landið/svæðið. Að öðrum kosti er hægt að stofna færslur handvirkt til að tákna ytri skjölin.  
 
 Á síðunni **Skjöl á innleið** er hægt að nota ólíkar aðgerðir til að yfirfara kostnaðarkvittanir, sýsla með OCR-verk og breyta skjölum á innleið, handvirkt eða sjálfvirkt, yfir í viðkomandi skjöl eða færslubókarlínur í. Ytri skrárnar er hægt að hengja við tengd skjöl á öllum stigum úrvinnslunnar, þ.m.t. við bókuð skjöl og við færslur lánardrottins, viðskiptamanns eða fjárhags sem verða til.
 
 Ferlið vegna skjal á innleið getur samanstaðið af eftirfarandi aðgerðir:
 
-* Skrá ytri skjöl innan [!INCLUDE[d365fin](includes/d365fin_md.md)] með því að stofna línur á síðunni **skjöl á innleið** með öðrum hvorum eftirfarandi hætti:
+* Skrá ytri skjöl innan [!INCLUDE[prod_short](includes/prod_short.md)] með því að stofna línur á síðunni **skjöl á innleið** með öðrum hvorum eftirfarandi hætti:
   * Handvirkt, með því að nota einfaldar aðgerðir, annaðhvort frá tölvu eða farsíma, í einn af eftirfarandi leiðum:
     * Notaðu hnappinn **Stofna úr skrá** og fylla svo út í viðeigandi reiti á síðunni **skjal á innleið**. Skráin er hengd við sjálfkrafa.  
     * Notaðu hnappinn **Nýtt** og fylltu svo út í viðeigandi reiti á síðunni **Skjal á innleið** og hengdu handvirkt tengda skrá við.
     * Úr spjaldtölvu eða síma, nota hnappinn **Stofna úr myndavél** til að stofna nýja færslu fyrir skjal á innleið og senda svo myndina í OCR-þjónustu, t.d.
   * Sjálfkrafa, með því að taka á móti skjal frá OCR þjónustu sem rafrænu skjali eftir að hafa sent tengda PDF eða myndaskrá til OCR þjónustuna með tölvupósti. Flýtiflipinn **Fjárhagsupplýsingar** er fylltur út sjálfkrafa á síðunni **skjal á innleið**.
-* Nota OCR-þjónustu til að breyta PDF eða myndaskrár í rafræn skjöl sem hægt er að breyta í færslur fyrir skjöl í [!INCLUDE[d365fin](includes/d365fin_md.md)].
+* Nota OCR-þjónustu til að breyta PDF eða myndaskrár í rafræn skjöl sem hægt er að breyta í færslur fyrir skjöl í [!INCLUDE[prod_short](includes/prod_short.md)].
 * Stofnið ný skjöl eða almenn færslubókarlínur fyrir færslur fyrir skjöl á innleið með því að slá inn upplýsingar um leið og þú lest þær úr skrám fyrir skjöl á innleið.
 * Festið skjöl á innleið við innkaupa og söluskjöl með hvaða stöðu sem er, þar með talinn færslur fyrir lánardrottins, viðskiptamaður eða fjárhagsfærslur sem koma úr bókun.
 * Skoða skjal á innleið og viðhengi þeirra úr hvaða innkaupa eða söluskjali eða færslu eða finna allar fjárhagsfærslur án færslna fyrir skjöl á innleið af síðunni **bókhaldslykill**.
@@ -48,4 +48,4 @@ Ferlið vegna skjal á innleið getur samanstaðið af eftirfarandi aðgerðir:
 ## <a name="see-also"></a>Sjá einnig
 
 [Innkaup](purchasing-manage-purchasing.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
