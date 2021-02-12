@@ -10,22 +10,24 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 10/08/2020
 ms.author: jswymer
-ms.openlocfilehash: 38c95baa74d94246c38f1ff985b1457506a03f22
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 723437b0e5acb5b5c4dca8374667ea1279243a80
+ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989463"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5046429"
 ---
-# <a name="install-the-prodshort-app-for-microsoft-teams"></a>Setja upp [!INCLUDE [prodshort](includes/prodshort.md)]-forritið fyrir Microsoft Teams
+# <a name="install-the-prod_short-app-for-microsoft-teams"></a>Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
+[!INCLUDE [online_only](includes/online_only.md)]
 
-Í þessari grein verður útskýrt hvernig á að setja upp [!INCLUDE [prodshort](includes/prodshort.md)] fyrir [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Forritið er í boði á markaðstorgi Teams og hægt er að nota það með Teams-vefnum, á skjáborði eða í farsímaforriti.
+Í þessari grein verður útskýrt hvernig á að setja upp [!INCLUDE [prod_short](includes/prod_short.md)] fyrir [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Forritið er í boði á markaðstorgi Teams og hægt er að nota það með Teams-vefnum, á skjáborði eða í farsímaforriti.
 
 ## <a name="prerequisites"></a>Frumskilyrði
 
-- Reglur fyrirtækisins verða að leyfa þér að setja upp forrit í Microsoft Teams.
+- Aðgangur að Teams-skjáborðsforriti eða Teams í vafranum. Ekki er hægt að setja upp [!INCLUDE [prod_short](includes/prod_short.md)] með því að nota farsímaforrit Teams.
+
+- Reglur fyrirtækisins leyfa þér að setja upp forrit í Microsoft Teams.
 
 ## <a name="add-the-business-central-app-to-teams"></a>Bæta Business Central við Teams
 
@@ -41,15 +43,15 @@ Hægt er að setja upp Business Central á tvennan hátt:
 
     ![Setja upp Business Central í Teams](media/teams-install-app.png)
 
-3. Veljið **Bæta við fyrir mig** .
+3. Veljið **Bæta við fyrir mig**.
 
 **Valkostur 2**
 
 1. .
-2. Vinstra megin skal velja **Forrit** .
-3. Leitið að **Business Central** .
+2. Vinstra megin skal velja **Forrit**.
+3. Leitið að **Business Central**.
 4. Veljið forritið þegar þið finnið það.
-5. Veljið **Bæta við fyrir mig** .
+5. Veljið **Bæta við fyrir mig**.
 
 ## <a name="next-step"></a>Næsta skref
 
@@ -58,7 +60,8 @@ Nú er allt til reiðu til að nota forritið í Teams til að deila gögnum Bus
 ## <a name="see-also"></a>Sjá einnig
 
 [Business Central og Microsoft Teams samþættingaryfirlit](across-teams-overview.md)  
+[Teams - Algengar spurningar](teams-faq.md)  
+[Úrræðaleit Teams](admin-teams-troubleshooting.md)  
 [Þróun fyrir samþættingu Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-[Hafist handa](product-get-started.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

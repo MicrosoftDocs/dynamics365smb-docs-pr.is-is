@@ -1,7 +1,6 @@
 ---
-title: Notkun Business Central án Outlook | Microsoft Docs
-description: Þú getur notað Business Central sem viðstkiptainnhólf þitt í Outlook því það er samþætt við Microsoft 365. Þú getur líka unnið án Outlook í vafra eða á fartækinu þínu.
-documentationcenter: ''
+title: Nota Business Central án Outlook
+description: Ef þú ert ekki með Outlook geturðu ekki notað Business Central sem viðskiptainnhólf í Outlook, en þú getur unnið í vafra eða í fartæki.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,15 +10,15 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 40e2130c1142c29b01ba3ba8b04598fabe9feb3e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 273db30e18628d5114d7bad3f498e574e74a407e
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927098"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068332"
 ---
 # <a name="using-business-central-without-outlook"></a>Nota Business Central án Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] hefur mikla samþættingu við Microsoft 365 og þú getur notað [!INCLUDE[d365fin](includes/d365fin_md.md)] sem fyrirtækisinnhólf í Outlook. En ef þú ert ekki með Outlook, geturðu unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)] í vafra eða á fartækinu þínu.  
+[!INCLUDE[prod_short](includes/prod_short.md)] hefur mikla samþættingu við Microsoft 365 og þú getur notað [!INCLUDE[prod_short](includes/prod_short.md)] sem fyrirtækisinnhólf í Outlook. En ef þú ert ekki með Outlook, geturðu unnið með [!INCLUDE[prod_short](includes/prod_short.md)] í vafra eða á fartækinu þínu.  
 
 ## <a name="sending-email"></a>Senda Tölvupóst
 Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfangi fyrirtækis. Frá Mitt hlutverk er hægt að fá aðgang að uppsetningarleiðbeiningum með hjálp sem auðvelda þér að setja upp tölvupóst. Ef þú notar ekki Microsoft 365 tölvupóstreikning, verður þú að tilgreina tæknilegar upplýsingar um tölvupóstþjóninn þinn. Ef þú ert ekki með þessar upplýsingar tiltækar, hafðu samband við starfsfólk þitt sem veitir tækniþjónustu.  

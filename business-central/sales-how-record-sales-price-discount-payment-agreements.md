@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5e12f68f56c5ffe06bf37c51b2e85ea1074a4c92
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0873c45262dd9606ac187f5aab07b09677f6c1c8
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926099"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035607"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Skrá sérstök söluverð og afslætti
 
 Skilgreina þarf ólíka verð- og greiðsluskilmála sem gilda þegar ólíkum viðskiptamönnum er selt þannig að umsamin gildi og reglur séu notuð í söluskjölum sem stofnuð eru fyrir viðskiptamennina.
 
-Þegar notandi hefur skráð sérstakt verð og línuafslætti vegna sölu eða innkaupa tryggir [!INCLUDE[d365fin](includes/d365fin_md.md)] að hagnaður notanda af viðskiptum með vöru sé alltaf hámarkaður með því að reikna sjálfkrafa besta verð á sölu- og innkaupaskjölum og á færslubókarlínum fyrir verk og vörur. Frekari upplýsingar er að finna í [Útreikningur besta verðs](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Þegar notandi hefur skráð sérstakt verð og línuafslætti vegna sölu eða innkaupa tryggir [!INCLUDE[prod_short](includes/prod_short.md)] að hagnaður notanda af viðskiptum með vöru sé alltaf hámarkaður með því að reikna sjálfkrafa besta verð á sölu- og innkaupaskjölum og á færslubókarlínum fyrir verk og vörur. Frekari upplýsingar er að finna í [Útreikningur besta verðs](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-Hvað varðar verð er hægt að hafa sérstakt söluverð sett í sölulínur ef tiltekin samsetning á viðskiptamanni, vöru, lágmarksmagni, mælieiningu, eða tupphafs-/ lokadagsetningu er til staðar.
+Hvað varðar verð er hægt að hafa sérstakt söluverð sett í sölulínur ef tiltekin samsetning á viðskiptamanni, vöru, lágmarksmagni, mælieiningu, eða tupphafs-/ lokadagsetningu er til staðar. Frekari upplýsingar er að finna í hlutunum [Að setja upp söluverð fyrir viðskiptamann](#to-set-up-a-sales-price-for-a-customer) og [Útreikningur besta verðs](#best-price-calculation).  
 
 Hvað varðar afslætti er hægt að setja upp og nota tvær tegundir söluafsláttar:
 
@@ -37,18 +37,38 @@ Af því að söluverð og afsláttur á sölulínur byggist á samsetningu vör
 > [!NOTE]  
 > Ef þú vilt ekki að vara sé nokkurn tímann seld á afsláttarverði, þá skaltu einfaldlega skilja afsláttarreitinn á birgðaspjaldinu eftir tómann og ekki hafa þessa vöru með í uppsetningum línuafslátta.
 
-## <a name="to-set-up-a-sales-price-for-a-customer"></a>Að setja upp söluverð fyrir viðskiptamann
+## <a name="sales-invoice-discounts-and-service-charges"></a>Afslættir Sölureiknings og Þjónustugjöld
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
-2. Opna skal viðeigandi viðskiptamannaspjald og veljið síðan aðgerðina **Verð** .
+Þegar reikningsafslættir eru notaðir fer afslátturinn sem er veittur eftir því hve reikningsupphæðin er há.  
 
-    Á síðunni **Söluverð** er reiturinn **Tegund sölu** útfylltur með **Viðskiptamaður** og reiturinn **Sölukóði** með númeri viðskiptamannsins.
-3. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyllt er út lína fyrir hverja samsetningu sem veitir sérstakt söluverð fyrir viðskiptamanninn.
+Á síðunni **Reikningsafsláttur viðskm** er einnig hægt að leggja þjónustugjald á reikninga sem eru yfir tiltekinni upphæð.  
+
+Áður en hægt er að veita reikningsafslátt af sölu þarf að tilgreina tilteknar upplýsingar. Ákveða verður eftirfarandi:  
+
+- Hvaða viðskiptamönnum eigi að veita þessa tegund afsláttar  
+- Hvaða afsláttarprósentu eigi að nota  
+
+Ef reikningsfæra á afslætti til að verða reiknaðir sjálfvirkt, geturðu tilgreint þetta á síðunni **Uppsetning Sala & Útistandandi**.  
+
+Við hvern viðskiptamann er hægt að tilgreina hvort veita eigi reikningsafslátt ef skilyrðum er fullnægt (það er, ef reikningurinn nær ákveðinni upphæð). Skilmála um reikningsafslátt innlendra viðskiptamanna má tilgreina í staðbundinn gjaldmiðill og í erlendum gjaldmiðli hjá erlendum viðskiptamönnum.  
+
+Afsláttarprósentur eru tengdar við ákveðnar reikningsupphæðir á síðunni **Reikningsafsláttur viðskiptamanns** fyrir hvern viðskiptavin. Hægt er að færa inn hvaða prósentutölu sem er. Hver viðskiptamaður getur haft sína eigin síðu, eða þá að hægt er að tengja nokkra viðskiptamenn saman á síðu.  
+
+Til viðbótar við (eða í staðinn fyrir) afsláttarprósentu er hægt að tengja ákveðið þjónustugjald við ákveðna reikningsupphæð.  
+
+> [!TIP]  
+> Áður en hafist er handa við að setja upplýsingarnar inn í forritið er gott að útbúa uppkast af því afsláttarformi sem á að nota. Þannig er auðveldara að átta sig á því hvaða viðskiptamenn er hægt að tengja við sama reikningsafsláttarsíðu. Eftir því sem setja þarf upp færri síður, þeim mun fljótlegra er að færa inn grunnupplýsingarnar.
+
+Frekari þjálfun fyrir afslætti á sölum er að finna í [Setja upp afslætti fyrir viðskiptamenn þína](/learn/modules/customer-discounts-dynamics-365-business-central/index) í Microsoft Learn.  
+
+### <a name="calculating-invoice-discounts-on-sales"></a>Reikna reikningsafsl. á sölu
+
+[!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Sölulínuafsláttur stofnaður fyrir viðskiptamann
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
-2. Opna skal viðeigandi viðskiptamannaspjald og veljið svo aðgerðina **Línuafslættir** .
+2. Opna skal viðeigandi viðskiptamannaspjald og veljið svo aðgerðina **Línuafslættir**.
 
     Á síðunni **Sölulínuafslættir** er reiturinn **Tegund sölu** útfylltur með **Viðskiptamaður** og reiturinn **Sölukóði** með númeri viðskiptamannsins.
 3. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyllt er út lína fyrir hverja samsetningu sem veitir sérstakan sölulínuafslátt fyrir viðskiptamanninn.
@@ -66,69 +86,28 @@ Eftir að ákveðið hefur verið hvaða viðskiptamenn geti fengið reikningsaf
 2. Opna skal spjald viðskiptamanns sem getur fengið reikningsafslátt.
 3. Í reitinn **Reikningsafsláttarkóði** er færður inn kóði fyrir viðeigandi reikningsafsláttarskilmála sem forritið notar til að reikna reikningsafslátt fyrir viðskiptamanninn.
 
-> [!NOTE]  
-> Fyrirliggjandi viðskiptamannaspjöld standa fyrir reikningsafsláttarkóða. Þetta gerir kleift að úthluta reikningsafsláttarskilmálum hratt og örugglega til viðskiptamanna með því að velja nafn annars viðskiptamanns sem hefur sömu skilmála.
+    > [!NOTE]  
+    > Fyrirliggjandi viðskiptamannaspjöld standa fyrir reikningsafsláttarkóða. Þetta gerir kleift að úthluta reikningsafsláttarskilmálum hratt og örugglega til viðskiptamanna með því að velja nafn annars viðskiptamanns sem hefur sömu skilmála. Til að setja upp sérstaka skilmála reikningsafsláttar fyrir viðskiptamann skal stilla reitinn **Kóði reikningsafsláttar** á viðskiptamannakóða viðskiptamanns og síðan halda áfram yfir í næsta skref.
 
-Næsta skref er að setja upp nýja skilmála fyrir sölureikningsafslætti.
-
-1. Á síðunni **Viðskiptamannaspjald** skal velja aðgerðina **Reikningsafslættir** . Síðan **Reikningsafsl. viðskm.** opnast.
-2. Í reitnum **Gjaldmiðilskóði** er færður inn kóðinn fyrir gjaldmiðilinn sem reikningsafsláttarskilyrði í línunni eiga við um. Reiturinn er skilinn eftir auður ef setja á upp reikningsafsláttarskilyrði í ISK.
-3. Í reitinn **Lágmarksupphæð** er færð inn lágmarksupphæð sem reikningur þarf að hafa til að hægt sé að fá afslátt.
-4. Í reitnum **Afsláttar %** skal slá inn reikningsafslátt sem prósentu af reikningsupphæð.
-5. Endurtakið skref 5 til 7 fyrir alla gjaldmiðla sem viðskiptamaðurinn mun fá mismunandi reikningsafslátt í.
+4. Á síðunni **Viðskiptamannaspjald** skal velja aðgerðina **Reikningsafslættir**. Síðan **Reikningsafsl. viðskm.** opnast.
+5. Í reitnum **Gjaldmiðilskóði** er færður inn kóðinn fyrir gjaldmiðilinn sem reikningsafsláttarskilyrði í línunni eiga við um. Reiturinn er skilinn eftir auður ef setja á upp reikningsafsláttarskilyrði í ISK.
+6. Í reitinn **Lágmarksupphæð** er einnig hægt að færa inn lágmarksupphæð sem reikningur þarf að hafa til að hægt sé að fá afslátt.
+7. Í reitnum **Afsláttar %** skal slá inn reikningsafslátt sem prósentu af reikningsupphæð.
+8. Endurtakið skref 5 til 7 fyrir alla gjaldmiðla sem viðskiptamaðurinn mun fá mismunandi reikningsafslátt í.
 
 Reikningsafsláttur er nú settur upp og úthlutað á umræddan viðskiptamann. Þegar valinn er kóði viðskiptamannsins í reitnum **Reikningsafsl.kóði** á öðrum viðskiptamannaspjöldum er sama reikningsafslætti úthlutað þeim viðskiptamönnum.
 
-## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Að vinna með sölureikningsafsláttum og þjónustugjöld
+## <a name="to-set-up-a-sales-price-for-a-customer"></a>Að setja upp söluverð fyrir viðskiptamann
 
-Þegar reikningsafslættir eru notaðir fer afslátturinn sem er veittur eftir því hve reikningsupphæðin er há.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
+2. Opna skal viðeigandi viðskiptamannaspjald og veljið síðan aðgerðina **Verð**.
 
-Á síðunni **Reikningsafsláttur viðskm** er einnig hægt að leggja þjónustugjald á reikninga sem eru yfir tiltekinni upphæð.  
-
-Áður en hægt er að veita reikningsafslátt af sölu þarf að færa tilteknar upplýsingar í forritið. Ákveða þarf:  
-
-- hvaða viðskiptamönnum eigi að veita þessa tegund afsláttar.  
-- hvaða afsláttarprósentu eigi að nota.  
-
-Ef þú reikningsfærir afslætti til að verða reiknaðir sjálfvirkt, geturðu tilgreint þetta á síðunni **Uppsetning Sala & Útistandandi** .  
-
-Við hvern viðskiptamann er hægt að tilgreina hvort veita eigi reikningsafslátt ef skilyrðum er fullnægt (það er, ef reikningurinn nær ákveðinni upphæð). Skilmála um reikningsafslátt innlendra viðskiptamanna má tilgreina í staðbundinn gjaldmiðill og í erlendum gjaldmiðli hjá erlendum viðskiptamönnum.  
-
-Afsláttarprósentur eru tengdar við ákveðnar reikningsupphæðir á síðunni **Reikningsafsláttur viðskiptamanns** . Hægt er að færa inn hvaða prósentutölu sem er inn á hverja síðu. Hver viðskiptamaður getur haft sína eigin síðu, eða þá að hægt er að tengja nokkra viðskiptamenn saman á síðu.  
-
-Til viðbótar við (eða í staðinn fyrir) afsláttarprósentu er hægt að tengja ákveðið þjónustugjald við ákveðna reikningsupphæð.  
-
-> [!TIP]  
-> Áður en hafist er handa við að setja upplýsingarnar inn í forritið er gott að útbúa uppkast af því afsláttarformi sem á að nota. Þannig er auðveldara að átta sig á því hvaða viðskiptamenn er hægt að tengja við sama reikningsafsláttarsíðu. Eftir því sem setja þarf upp færri síður, þeim mun fljótlegra er að færa inn grunnupplýsingarnar.
-
-Frekari upplýsingar um afslætti á sölum er að finna í [Setja upp afslætti fyrir viðskiptamenn þína](/learn/modules/customer-discounts-dynamics-365-business-central/index) í Microsoft Learn.  
-
-## <a name="best-price-calculation"></a>Útreikningur besta verðs
-
-Þegar notandi hefur skráð sérstakt verð og línuafslætti vegna sölu eða innkaupa tryggir [!INCLUDE[d365fin](includes/d365fin_md.md)] að hagnaður notanda af viðskiptum með vöru sé alltaf hámarkaður með því að reikna sjálfkrafa besta verð á sölu- og innkaupaskjölum og á færslubókarlínum fyrir verk og vörur.
-
-Besta verð er lægsta leyfilega verð með hæsta leyfilega línuafslættinum þennan tiltekna dag. [!INCLUDE[d365fin](includes/d365fin_md.md)] reiknar þetta sjálfkrafa þegar það setur einingarverð og línuafsláttarprósentuna fyrir vörur í nýja skjalinu og í færslubókarlínum.
-
-> [!NOTE]  
-> Eftirfarandi lýsir því hvernig besta verð er reiknað fyrir sölu. Útreikningurinn er sá sami fyrir innkaup.
-
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)]kannar samsetningu reikningsfærslu á viðskiptamann og vöru og velur svo rétt viðeigandi verð og afslátt samkvæmt eftirfarandi skilyrðum:
-
-    - Er þessi viðskiptamaður með sérstakan samning um verð eða línuafslætti, eða tilheyrir viðskiptamaðurinn hóp með slíkan samning?
-    - Fellur varan eða vöruafsláttarflokkurinn á línunni undir þessa samninga?
-    - Er pöntunardagsetningin (eða bókunardagsetning reikningsins og kreditreikningsins) á milli upphafs- og lokadagsetningar verðs/línuafsláttar?
-    - Er mælieiningarkóti tilgreindur? Ef svo er leitar [!INCLUDE[d365fin](includes/d365fin_md.md)] að verði/línuafslætti með sama mælieiningarkóða og verði/afslætti án mælieiningarkóða.
-
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] kannar hvort einhverjir samningar um verð/afslátt í eiga við um skjalið eða færslubókarlínuna og bætir svo við viðeigandi einingaverði og prósentu línuafsláttar samkvæmt eftirfarandi skilyrðum:
-
-    - Er krafa um lágmarksmagn til staðar í samningi um verð/afslátt sem er uppfyllt?
-    - Er krafa um gjaldmiðil til staðar í samningi um verð/afslátt sem er uppfyllt? Ef svo er, er lægsta verðið og hæsti línuafsláttur fyrir þann gjaldmiðil bætt við, jafnvel þótt staðbundinn gjaldmiðill myndi veita betra verð. Ef ekkert verð/línuafsláttur er til í tilgreindum gjaldmiðilskóða, setur [!INCLUDE[d365fin](includes/d365fin_md.md)] inn lægsta verðið og hæsta línuafsláttinn í staðbundnum gjaldmiðli.
-
-Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð eða einingaverð sótt af birgðaspjaldinu eða birgðahaldseiningarspjaldinu.
+    Á síðunni **Söluverð** er reiturinn **Tegund sölu** útfylltur með **Viðskiptamaður** og reiturinn **Sölukóði** með númeri viðskiptamannsins.
+3. Fyllið út reitina í línunni eins og þörf er á. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyllt er út lína fyrir hverja samsetningu sem veitir sérstakt söluverð fyrir viðskiptamanninn.
 
 ## <a name="to-copy-sales-prices"></a>Söluverð afritað:
 
-Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota í verðflokki viðskiptamanna þarf að keyra **Leggja til söluverð á vinnublaði.** keyrslan sem er opnuð á síðunni **Vinnublað söluverðs** .  
+Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota í verðflokki viðskiptamanna þarf að keyra **Leggja til söluverð á vinnublaði.** keyrslan sem er opnuð á síðunni **Vinnublað söluverðs**.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað söluverðs** og veldu síðan tengda tengilinn.  
 2. Velja skal **Leggja til söluverð á vinnublaði** Aðgerð  
@@ -138,22 +117,45 @@ Ef afrita á söluverð, svo sem söluverð tiltekins viðskiptamanns, og nota �
 6. Veldu hnappinn **Í lagi** til að setja nýtt verð í línurnar á síðunni **Vinnublað söluverðs** með nýju verðtillögunum og gefður til kynna að það gildi fyrir þá tegund sölu sem var valin.  
 
 > [!NOTE]  
-> Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja þær á síðuna **Söluverð** skal velja aðgerðina **Innleiða verðbreytingar** á síðunni **Vinnublað söluverðs** .
+> Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja þær á síðuna **Söluverð** skal velja aðgerðina **Innleiða verðbreytingar** á síðunni **Vinnublað söluverðs**.
 
 ## <a name="to-bulk-update-item-prices"></a>Til að magnuppfæra vöruverð
 
-Ef magnuppfæra á vöruverð, t.d. hækka öll vöruverð um einhverja prósentu, er nauðsynlegt að keyra **Leggja til vöruverð á vinnublaði** keyrsla. Þú getur fundið tengil á keyrsluna á síðunni **Vinnublað söluverðs** .  
+Ef magnuppfæra á vöruverð, t.d. hækka öll vöruverð um einhverja prósentu, er nauðsynlegt að keyra **Leggja til vöruverð á vinnublaði** keyrsla. Þú getur fundið tengil á keyrsluna á síðunni **Vinnublað söluverðs**.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vinnublað söluverðs** og veldu síðan tengda tengilinn.  
 2. Veldu **Leggja til vöruverð á vinnublaði** Aðgerð  
 3. Á flýtiflipanum **Vara** er reiturinn **Nr.** fylltur út eða **Birgðabókunarflokkur** eða aðrir reitir með upprunalegu vöruverði sem á að uppfæra.  
 4. Efst á beiðnisíðunni er fyllt út í **Tegund sölu** og **Kóta sölu** með gerðinni og heitinu sem afrita á söluverðið í.
-5. Ef þú vilt að keyrslan leiðrétti sjálfkrafa tillögur að vöruverðum skal slá inn leiðréttingu í reitinn **Leiðréttingarstuðull** . Til dæmis myndir þú slá inn 1,15 í **Leiðréttingarstuðull** fyrir 15% hækkun á vöruverði.  
+5. Ef þú vilt að keyrslan leiðrétti sjálfkrafa tillögur að vöruverðum skal slá inn leiðréttingu í reitinn **Leiðréttingarstuðull**. Til dæmis myndir þú slá inn 1,15 í **Leiðréttingarstuðull** fyrir 15% hækkun á vöruverði.  
 6. Ef stofna á nýtt verð í keyrslunni er reiturinn **Stofna nýtt verð** valinn.  
 7. Veldu hnappinn **Í lagi** til að setja nýtt verð í línurnar á síðunni **Vinnublað söluverðs** með nýju verðtillögunum og gefður til kynna að það gildi fyrir þá tegund **Hlutar** sem var valinn.  
 
 > [!NOTE]
-> Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja á þær í töfluna **Söluverð** , má nota keyrsluna **Innleiða verðbreytingar** í flipanum **Aðgerðir** , flokknum **Aðgerðir** á síðunni **Vinnublað söluverðs** .
+> Keyrslan gerir aðeins tillögur, hún framkvæmir ekki breytingarnar. Ef tillögurnar eru viðunandi og eiga að taka gildi, þ.e. setja á þær í töfluna **Söluverð** , má nota keyrsluna **Innleiða verðbreytingar** í flipanum **Aðgerðir**, flokknum **Aðgerðir** á síðunni **Vinnublað söluverðs**.
+
+## <a name="best-price-calculation"></a>Útreikningur besta verðs
+
+Þegar notandi hefur skráð sérstakt verð og línuafslætti vegna sölu eða innkaupa tryggir [!INCLUDE[prod_short](includes/prod_short.md)] að hagnaður notanda af viðskiptum með vöru sé alltaf hámarkaður með því að reikna sjálfkrafa besta verð á sölu- og innkaupaskjölum og á færslubókarlínum fyrir verk og vörur.
+
+Besta verð er lægsta leyfilega verð með hæsta leyfilega línuafslættinum þennan tiltekna dag. [!INCLUDE[prod_short](includes/prod_short.md)] reiknar þetta sjálfkrafa þegar það setur einingarverð og línuafsláttarprósentuna fyrir vörur í nýja skjalinu og í færslubókarlínum.
+
+> [!NOTE]  
+> Eftirfarandi lýsir því hvernig besta verð er reiknað fyrir sölu. Útreikningurinn er sá sami fyrir innkaup.
+
+1. [!INCLUDE[prod_short](includes/prod_short.md)]kannar samsetningu reikningsfærslu á viðskiptamann og vöru og velur svo rétt viðeigandi verð og afslátt samkvæmt eftirfarandi skilyrðum:
+
+    - Er þessi viðskiptamaður með sérstakan samning um verð eða línuafslætti, eða tilheyrir viðskiptamaðurinn hóp með slíkan samning?
+    - Fellur varan eða vöruafsláttarflokkurinn á línunni undir þessa samninga?
+    - Er pöntunardagsetningin (eða bókunardagsetning reikningsins og kreditreikningsins) á milli upphafs- og lokadagsetningar verðs/línuafsláttar?
+    - Er mælieiningarkóti tilgreindur? Ef svo er leitar [!INCLUDE[prod_short](includes/prod_short.md)] að verði/línuafslætti með sama mælieiningarkóða og verði/afslætti án mælieiningarkóða.
+
+2. [!INCLUDE[prod_short](includes/prod_short.md)] kannar hvort einhverjir samningar um verð/afslátt í eiga við um skjalið eða færslubókarlínuna og bætir svo við viðeigandi einingaverði og prósentu línuafsláttar samkvæmt eftirfarandi skilyrðum:
+
+    - Er krafa um lágmarksmagn til staðar í samningi um verð/afslátt sem er uppfyllt?
+    - Er krafa um gjaldmiðil til staðar í samningi um verð/afslátt sem er uppfyllt? Ef svo er, er lægsta verðið og hæsti línuafsláttur fyrir þann gjaldmiðil bætt við, jafnvel þótt staðbundinn gjaldmiðill myndi veita betra verð. Ef ekkert verð/línuafsláttur er til í tilgreindum gjaldmiðilskóða, setur [!INCLUDE[prod_short](includes/prod_short.md)] inn lægsta verðið og hæsta línuafsláttinn í staðbundnum gjaldmiðli.
+
+Ef ekkert verð finnst fyrir vörurnar á línunni er síðasta innkaupsverð eða einingaverð sótt af birgðaspjaldinu eða birgðahaldseiningarspjaldinu.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 
@@ -161,4 +163,4 @@ Ef magnuppfæra á vöruverð, t.d. hækka öll vöruverð um einhverja prósent
 
 [Uppsetning sölu](sales-setup-sales.md)  
 [Sala](sales-manage-sales.md)  
-[Unnið með [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

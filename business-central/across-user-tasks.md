@@ -1,6 +1,6 @@
 ---
-title: Úthlutun og stjórnun verkefna | Microsoft Docs
-description: Lærðu hvernig verkefnum er úthlutað á notendur, þar á meðal endurskoðandann þinn, í Business Central
+title: Úthlutun og stjórnun verkefna
+description: Lærðu hvernig verkefnum er úthlutað á notendur, þar á meðal endurskoðandann þinn, í Business Central, og hvernig verk samþykkt og þeim lokið.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dd8b774f8dea2762df177ae141730cce8285480e
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922618"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068383"
 ---
 # <a name="define-user-tasks"></a>Skilgreina notandaverk
 
-Í [!INCLUDE[d365fin](includes/d365fin_md.md)], geturðu búið til verkefni til að minna þig á hvað þarf að gera. Þú getur búið til verkefni fyrir þig, en þú getur einnig úthlutað verkefnum til annarra eða fengið verkefni frá öðrum í fyrirtækinu þínu.  
+Í [!INCLUDE[prod_short](includes/prod_short.md)], geturðu búið til verkefni til að minna þig á hvað þarf að gera. Þú getur búið til verkefni fyrir þig, en þú getur einnig úthlutað verkefnum til annarra eða fengið verkefni frá öðrum í fyrirtækinu þínu.  
 
 ## <a name="managing-user-tasks"></a>Stjórnun notendaverkefna
 
-Síðan **Notandaverkefni** sýnir öll verkefni og auðvelt er að búa til og úthluta nýjum verkefnum. Þegar þú býrð til verkefni getur þú tilgreint upphafsdag og lokadag og þú getur bætt við tengli á síðuna eða skýrsluna í [!INCLUDE[d365fin](includes/d365fin_md.md)] þar sem notandinn verður að framkvæma verkið.  
+Síðan **Notandaverkefni** sýnir öll verkefni og auðvelt er að búa til og úthluta nýjum verkefnum. Þegar þú býrð til verkefni getur þú tilgreint upphafsdag og lokadag og þú getur bætt við tengli á síðuna eða skýrsluna í [!INCLUDE[prod_short](includes/prod_short.md)] þar sem notandinn verður að framkvæma verkið.  
 
-Þú getur til dæmis búið til verkefni fyrir sjálfa(n) þig eða samstarfsfélaga til að skoða alla bókaða sölureikninga. Í því tilviki tengir þú verkefnið við síðu 143, **Bókaðir sölureikningar** . Í eftirfarandi skjáskotum er einhver að búa til verk fyrir MeganB til að yfirfara bókaða sölureikninga.  
+Þú getur til dæmis búið til verkefni fyrir sjálfa(n) þig eða samstarfsfélaga til að skoða alla bókaða sölureikninga. Í því tilviki tengir þú verkefnið við síðu 143, **Bókaðir sölureikningar**. Í eftirfarandi skjáskotum er einhver að búa til verk fyrir MeganB til að yfirfara bókaða sölureikninga.  
 
 :::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Dæmi um notandaverkefni":::
 
@@ -47,4 +47,4 @@ Ef þú vilt eyða öllum eða einhverjum verkefnum í einu geturðu notað **Ey
 ## <a name="see-also"></a>Sjá einnig
 
 [Leit að síðu eða skýrslu](ui-search.md)  
-[Endurskoðandi upplifun í [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
+[Endurskoðandi upplifun í [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  

@@ -1,6 +1,6 @@
 ---
-title: Staðbundin virkni í Business Central | Microsoft Docs
-description: Fáðu frekari upplýsingar um framboð á staðnum og eftirfylgni við Dynamics 365 Business Central.
+title: Staðbundin virkni í Business Central
+description: Fáðu frekari upplýsingar um framboð á staðnum og eftirfylgni Business Central við lönd þar sem Microsoft býður upp á þjónustu á staðnum.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: availability, localization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b7e6aeb4db5e189bf8f985b55cf226c94a9aa1de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cce4a885fd4b183149e2d072daf556bdbe0e5fca
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914517"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068409"
 ---
-# <a name="local-functionality-in-prodlong"></a>Staðbundin virkni í [!INCLUDE[prodlong](includes/prodlong.md)]
+# <a name="local-functionality-in-prod_long"></a>Staðbundin virkni í [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] hefur sameinaða staðfæringarstefnu sem inniheldur líkön sem eru bæði stýrð af Microsoft og samstarfsaðilum. Í þessum hluta geturðu séð lýsingar á virkni sem á við um löndin þar sem Microsoft veitir eftirfylgni við lög og reglugerðir og aðra staðbundna virkni.  
+[!INCLUDE[prod_short](includes/prod_short.md)] hefur sameinaða staðfæringarstefnu sem inniheldur líkön sem eru bæði stýrð af Microsoft og samstarfsaðilum. Í þessum hluta geturðu séð lýsingar á virkni sem á við um löndin þar sem Microsoft veitir eftirfylgni við lög og reglugerðir og aðra staðbundna virkni.  
 
 Upplýsingar um studda markaði má finna á [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
@@ -55,7 +55,7 @@ Til að fræðast um staðbundna virkni fyrir hvert land/svæði skal velja við
 
 ### <a name="other-countries"></a>Önnur lönd
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er einnig í boði á öðrum mörkuðum með staðfæringarforritum. Ef samstarfsaðili Microsoft hefur þróað staðfært forrit fyrir land/svæði notanda, er hægt að finna það í [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
+[!INCLUDE[prod_short](includes/prod_short.md)] er einnig í boði á öðrum mörkuðum með staðfæringarforritum. Ef samstarfsaðili Microsoft hefur þróað staðfært forrit fyrir land/svæði notanda, er hægt að finna það í [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## <a name="see-also"></a>Sjá einnig
 
