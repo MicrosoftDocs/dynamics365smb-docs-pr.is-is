@@ -58,3 +58,6 @@ Frekari upplýsingar eru í [Hvernig á að nota OCR til að breyta PDF og mynda
 [Skjöl á innleið](across-income-documents.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

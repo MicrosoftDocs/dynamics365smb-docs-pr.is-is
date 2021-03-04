@@ -41,3 +41,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Setja upp þjónustuvörur og íhluti þjónustuvara](service-how-setup-service-items.md)  
 [Setja upp stöður fyrir þjónustupantanir og viðgerðir](service-order-repair-status.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

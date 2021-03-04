@@ -93,3 +93,6 @@ Eftirfarandi tafla sýnir reitina í flýtiflipanum **Valkostir** sem eru í bo�
 ## <a name="see-also"></a>Sjá einnig
 
 [Stjórnun](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -71,3 +71,6 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS Int
 [Stjórnun](admin-setup-and-administration.md)  
 [Vefþjónustur Business Central fyrir þróunaraðila](/dynamics365/business-central/dev-itpro/webservices/web-services)  
 [OData beiðnitakmörk](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#ODataServices)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

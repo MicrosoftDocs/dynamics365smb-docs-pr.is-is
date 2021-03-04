@@ -291,3 +291,6 @@ Til að lágmarka gagnagrunnsaðgang við meðhöndlun framleiðslu pantanir, á
  [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)   
  [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
  [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

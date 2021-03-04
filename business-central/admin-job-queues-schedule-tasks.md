@@ -93,3 +93,6 @@ Frekari upplýsingar eru í [Að setja upp bókun í bakgrunni með verkraðir](
 [Uppsetning Business Central](setup.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Greining á líftíma fjarmælingarrakningar verkraðar](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

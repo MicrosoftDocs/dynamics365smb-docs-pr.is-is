@@ -115,3 +115,6 @@ Til að gefa upp VSK fyrir hönd hópsins skal á síðunni **VSK-skýrslur** st
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
 [Setja upp virðisaukaskatt](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

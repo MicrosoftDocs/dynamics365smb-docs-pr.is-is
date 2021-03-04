@@ -56,3 +56,6 @@ Ef framlengda prufutímabilið þitt er útrunnið geturðu fengið [áskrift](h
 [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner)  
 [Framlenging prufuútgáfu (sem stjórnandi)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Hefjast handa sem endursöluaðili Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

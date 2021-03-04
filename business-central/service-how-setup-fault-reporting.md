@@ -47,3 +47,6 @@ Til að ljúka uppsetningu bilanatilkynninga er einnig hægt að tilgreina hvað
 ## <a name="see-also"></a>Sjá einnig
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Þjónustukerfi](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Frekari upplýsingar er að finna í [Power Automate skráning](/power-automate/
 [Notandauppsetning samþykktar](across-how-to-set-up-approval-users.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Fjármál](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -163,3 +163,6 @@ Reitirnir undir **Ítarlegt** setja takmarkanir á myndaða skýrslu til að stj
 [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md)  
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

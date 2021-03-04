@@ -82,3 +82,6 @@ Frekari upplýsingar er að finna í [Að fá yfirlit yfir leyfi notanda](ui-def
 [Fjármál](finance.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

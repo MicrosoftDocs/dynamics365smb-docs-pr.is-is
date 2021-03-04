@@ -51,3 +51,6 @@ ms.locfileid: "4746500"
  [Um kostnaðarbókhald](finance-about-cost-accounting.md)   
  [Kostnaðarreikningur](finance-manage-cost-accounting.md)  
  [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

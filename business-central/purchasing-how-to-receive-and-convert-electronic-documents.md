@@ -65,3 +65,6 @@ Almenn útgáfa [!INCLUDE[prod_short](includes/prod_short.md)] styður sendingu 
 [Setja upp sendingu og móttöku rafrænna skjala](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)   
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

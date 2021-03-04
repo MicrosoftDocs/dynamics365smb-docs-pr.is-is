@@ -39,3 +39,6 @@ Ekki er hægt að gera reikning án viðskiptamannsnúmers. Þetta á við þó 
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)    
 [Fjármál](finance.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

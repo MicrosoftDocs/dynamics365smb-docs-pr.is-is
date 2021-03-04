@@ -68,3 +68,6 @@ Eftirfarandi ferli lýsir því hvernig eigi að stofna nýjan kreditreikning me
 [Fjármál](finance.md)  
 [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

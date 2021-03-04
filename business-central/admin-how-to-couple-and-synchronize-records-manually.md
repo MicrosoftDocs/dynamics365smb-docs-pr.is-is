@@ -59,3 +59,6 @@ Hægt er að aftengja eina eða fleiri færslur af listasíðum eða síðunni *
 
 ## <a name="see-also"></a>Sjá einnig  
 [Nota Dynamics 365 Sales úr Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

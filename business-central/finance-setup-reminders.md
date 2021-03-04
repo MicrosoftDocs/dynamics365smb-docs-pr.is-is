@@ -103,3 +103,6 @@ Ef stofnaðar eru fleiri áminningar en skilgreind hafa verið stig fyrir verða
 [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  
 [Setja upp vaxtaskilmála](finance-setup-finance-charges.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

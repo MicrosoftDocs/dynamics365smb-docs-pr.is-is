@@ -30,3 +30,6 @@ Eftirfarandi ferli lýsir því hvernig á að birta samantekt VSK-upplýsinga �
 
 ## <a name="see-also"></a>Sjá einnig  
 [Senda VSK skýrslu inn til skattayfirvalda](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

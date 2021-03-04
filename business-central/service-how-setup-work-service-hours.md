@@ -58,3 +58,6 @@ Ef ekki eru tilgreindar sérstakar þjónustustundir vegna þjónustusamningsins
 [Skilja úthlutunarstaða og viðgerðarstaða](service-allocation-status-and-repair-status.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Skilja þjónustupöntun og viðgerðarstöðu](service-order-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Nota skal eftirfarandi síður til að stofna og greina kostnaðaráætlanir. Ve
 [Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)   
 [Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

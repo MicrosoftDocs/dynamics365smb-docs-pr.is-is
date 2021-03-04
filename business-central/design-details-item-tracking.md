@@ -31,3 +31,6 @@ Vörurakningarkerfi á að auðvelda fyrirtæki afgreiðslu á rað- og lotunúm
 [Hönnunarupplýsingar: vörurakning og áætlun](design-details-item-tracking-and-planning.md)  
 [Hönnunarupplýsingar: vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
 [Hönnunarupplýsingar: vörurakning í vöruhúsi](design-details-item-tracking-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

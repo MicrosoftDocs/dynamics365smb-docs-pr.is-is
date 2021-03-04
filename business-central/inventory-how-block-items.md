@@ -48,3 +48,6 @@ Eftirfarandi tafla sýnir hvað gerist þegar vörum er lokað.
 ## <a name="see-also"></a>Sjá einnig  
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Birgðir](inventory-manage-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

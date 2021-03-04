@@ -70,3 +70,6 @@ Enda þótt fjárhagsár sé lokað er enn hægt að bóka fjárhagsfærslur á 
 [Bókum lokað](year-close-books.md)  
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Hvernig skal: Vinna með fjárhagsskemu](bi-how-work-account-schedule.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

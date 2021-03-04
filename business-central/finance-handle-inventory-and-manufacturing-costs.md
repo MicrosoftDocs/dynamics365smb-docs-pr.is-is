@@ -38,3 +38,6 @@ ms.locfileid: "3917126"
 ## <a name="see-also"></a>Sjá einnig  
 [Stjórna Birgðakostnaður](finance-manage-inventory-costs.md)
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Birgðakostnaður, einnig kostnaðarstýring, snýst um að skrá og tilkynna ko
 [Hönnunarupplýsingar: reikningar í fjárhagur](design-details-accounts-in-the-general-ledger.md)  
 [Hönnunarupplýsingar: Birgðavirði](design-details-inventory-valuation.md)  
 [Hönnunarupplýsingar: Endurmat](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

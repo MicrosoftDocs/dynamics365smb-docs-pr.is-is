@@ -49,3 +49,6 @@ Hægt er að nota eftirfarandi íhluti til að flýta uppsetningu á nýju fyrir
 [Stjórnun](admin-setup-and-administration.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

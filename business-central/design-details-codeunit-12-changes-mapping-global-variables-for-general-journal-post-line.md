@@ -110,3 +110,6 @@ Eftirfarandi breytingar hafa verið gerðar í útgáfu af [!INCLUDE [navnow_md]
 
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar - Kóðaeining 12 Breytingar: Breytingar á bókunaraðferðum í færslubók](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

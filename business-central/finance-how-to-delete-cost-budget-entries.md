@@ -38,3 +38,6 @@ Til að koma í veg fyrir gloppur í kostnaðaráætlunarfærslum og kostnaðars
 [Kostnaðarbókhald](finance-manage-cost-accounting.md)
 [Stofna kostnaðaráætlun](finance-create-cost-budgets.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

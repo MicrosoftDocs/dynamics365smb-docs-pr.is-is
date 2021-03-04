@@ -79,3 +79,6 @@ Til að jafna við fjárhagshugtökin innkaup og sölu notast [!INCLUDE[prod_sho
 
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

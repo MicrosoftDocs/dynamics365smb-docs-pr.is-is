@@ -67,3 +67,6 @@ Við uppsetningu tengingar eru varpanir samþættingartöflu, sem þarf til að 
 
 
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

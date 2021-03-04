@@ -40,3 +40,5 @@ Hægt er að nota þjónustutilboð sem drög að þjónustupöntun og svo má b
 [Vinna við þjónustuverk](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

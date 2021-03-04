@@ -49,3 +49,5 @@ Skilgreindu sniðmáti er beitt á nýja færslu sem er stofnuð í gegnum API, 
 [Endastöðvar fyrir API](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

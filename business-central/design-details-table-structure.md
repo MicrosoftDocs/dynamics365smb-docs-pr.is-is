@@ -186,3 +186,6 @@ Reitur 480 er til í eftirfarandi biðminnistöflum.
  [Yfirlit yfir víddasamstæðufærslur](design-details-dimension-set-entries-overview.md)   
  [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

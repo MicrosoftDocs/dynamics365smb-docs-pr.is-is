@@ -87,3 +87,6 @@ Sjálfgefni grunnstillingarpakkinn styður eftirfarandi töflur:
 [Flytja inn margar vörumyndir](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

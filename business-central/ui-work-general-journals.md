@@ -210,3 +210,6 @@ Gildi í **Skjal nr.** reitnum breytast þar sem þörf er á, þannig að núme
 [Afstemma greiðslur viðskiptavinar með inngreiðslubók eða úr færslum í viðskiptamannabók](receivables-how-apply-sales-transactions-manually.md)  
 [Afstemma greiðslur lánardrottins með greiðslubók eða úr færslum í lánardrottnabók](payables-how-apply-purchase-transactions-manually.md)  
 [Unnið með samstæðuskjöl og færslubækur](intercompany-how-work-documents-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

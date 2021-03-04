@@ -40,3 +40,6 @@ Eftirfarandi efnisatriði lýsa staðbundinni virkni sem er einstök í íslensk
 [Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Ef afgreiðslutími á vörum út úr vöruhúsi á að vera tekinn með þegar 
 [Sala](sales-manage-sales.md)  
 [Dagsetning útreiknings fyrir kaup](purchasing-date-calculation-for-purchases.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

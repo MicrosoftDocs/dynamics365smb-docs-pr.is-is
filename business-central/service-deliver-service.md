@@ -46,3 +46,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Áætla þjónustu](service-plan-service.md)  
 [Uppfylla þjónustusamninga](service-fulfill-service-contracts.md)  
 [Stjórna verkum](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

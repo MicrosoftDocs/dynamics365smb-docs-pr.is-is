@@ -170,3 +170,6 @@ Upplýsingar um áætlanagerð með birgðageymslum og flutningum er að finna �
 [Innkaup](purchasing-manage-purchasing.md)  
 [Uppsetning bestu venjur: Framboðsáætlun](setup-best-practices-supply-planning.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

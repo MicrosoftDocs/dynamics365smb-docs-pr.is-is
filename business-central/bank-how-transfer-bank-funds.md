@@ -58,3 +58,6 @@ Til að færa fjármuni milli bankareikninga sem nota mismunandi gjaldmiðla, ve
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

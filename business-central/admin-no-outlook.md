@@ -29,3 +29,6 @@ Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfa
 [Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)  
 [Sækja Business Central í fartækið mitt](install-mobile-app.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

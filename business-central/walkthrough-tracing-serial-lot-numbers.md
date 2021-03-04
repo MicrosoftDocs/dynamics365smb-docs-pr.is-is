@@ -305,3 +305,6 @@ Síðan þarf að búa til ýmsar innkaupa-, framleiðslu- og sölupantanir með
 [Finna færslur](ui-find-entries.md)  
 [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

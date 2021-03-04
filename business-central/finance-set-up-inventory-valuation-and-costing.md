@@ -47,3 +47,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Hönnunarupplýsingar: Breyta kostnaðarútreikningi fyrir vörur](design-details-changing-costing-methods.md)  
 [Unnið með Business Central](ui-work-product.md)  
 [Fjármál](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

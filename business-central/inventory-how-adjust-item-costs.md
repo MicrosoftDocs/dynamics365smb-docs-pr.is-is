@@ -86,3 +86,6 @@ Sem regla er gildið í reitnum **kostnaðarverð** á birgðaspjaldinu byggt á
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

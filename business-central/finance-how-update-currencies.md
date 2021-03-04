@@ -78,3 +78,6 @@ Gildið í **Gengi** reitnum á síðunni **Gjaldmiðlar** er uppfært með nýj
 [Setja upp annan skýrslugjaldmiðil](finance-how-setup-additional-currencies.md)  
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

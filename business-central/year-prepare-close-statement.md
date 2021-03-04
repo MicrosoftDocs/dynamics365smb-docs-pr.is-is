@@ -38,3 +38,6 @@ Til að sjá skýrslu skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmóts
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Viðskiptaupplýsingar](bi.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

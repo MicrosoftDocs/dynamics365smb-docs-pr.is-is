@@ -210,3 +210,6 @@ Gestir hafa ekki aðgang að markaðstorgi forritsins til að setja sjálfir upp
 [Þróun fyrir samþættingu Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Notaður er ytri þjónustuveitandi til að skiptast á rafrænum skjölum við 
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Rafræn gagnaskipti](across-data-exchange.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

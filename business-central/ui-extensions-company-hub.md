@@ -34,3 +34,6 @@ ms.locfileid: "5014126"
 [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md)  
 [Upplifun endurskoðanda í Business Central ](finance-accounting.md)  
 [Fjármál](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

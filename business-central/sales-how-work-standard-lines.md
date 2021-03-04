@@ -80,3 +80,6 @@ Sölureikningar eru stofnaðir fyrir viðskiptamenn með stöðluðum sölukóð
 
 [Sala](sales-manage-sales.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

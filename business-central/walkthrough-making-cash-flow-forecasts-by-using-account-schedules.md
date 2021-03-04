@@ -90,3 +90,6 @@ Ken er nú tilbúinn að úthluta dálkaútlitinu á reikningsáætlunarheitið.
  [Vinna með fjárhagsskemu](bi-how-work-account-schedule.md)   
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
  [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

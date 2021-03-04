@@ -77,3 +77,6 @@ Leitaðu að réttri þjálfun á netinu, vinnufundi og viðburði fyrir hlutver
     :::column-end:::
 
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Eldri arkitektúr var með eftirfarandi eiginleika:
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Uppbygging bókunarviðmóts](design-details-posting-interface-structure.md)   
 [Hönnunarupplýsingar: Uppbygging bókunarvélar](design-details-posting-engine-structure.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

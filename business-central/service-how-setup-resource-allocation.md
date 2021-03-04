@@ -83,3 +83,6 @@ Ef þú vilt breyta hæfniskóðum sem vörum hefur verið úthlutað, til dæmi
 [Setja upp Kóta fyrir Staðlaða þjónustu](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

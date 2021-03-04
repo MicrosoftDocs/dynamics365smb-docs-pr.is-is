@@ -111,3 +111,6 @@ Ef svo virðist sem ferli notanda stemmi ekki við staðlaða líkanið er samt 
 [Fylgiskjöl fyrir Azure-vélnámsstúdíó](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Sérstilling Business Central með viðbótum](ui-extensions.md)  
 [Velkomin(n) í [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

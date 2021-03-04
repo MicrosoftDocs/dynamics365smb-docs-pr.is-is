@@ -63,3 +63,6 @@ Hægt er að skoða vörpunina milli tafla í [!INCLUDE[prod_short](includes/cds
 [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Áætla samstillingu](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

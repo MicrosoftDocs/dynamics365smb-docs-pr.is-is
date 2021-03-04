@@ -39,3 +39,5 @@ ms.locfileid: "3925829"
 ## <a name="see-also"></a>Sjá einnig
 
 [Þjónustukerfi](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

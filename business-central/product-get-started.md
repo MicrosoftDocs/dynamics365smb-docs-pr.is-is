@@ -93,3 +93,6 @@ Fara á innihald um önnur Dynamics 365 forrit með því að velja [Dynamics 36
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

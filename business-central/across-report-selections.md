@@ -68,3 +68,6 @@ Til dæmis á síðunum **Skýrsluval - Sala** og **Skýrsluval - innkaup** hjá
 [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
 [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md)  
 [Setja upp prentara](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

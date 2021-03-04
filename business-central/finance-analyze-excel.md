@@ -56,3 +56,6 @@ Með innbótinni geturðu fengið fersk gögn frá [!INCLUDE [prod_short](includ
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
 [Vinna með Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

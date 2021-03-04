@@ -68,3 +68,6 @@ Við höfum sýnt Viðmótsleit frá ýmsum hagsmunaaðilum, bent á spurningarn
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með Business Central](ui-work-product.md)  
 [Bæta Síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Síðan **Listi yfir ástæður fyrir aðgangi að gagnagrunni** gerir þér kle
 [Hafist handa](product-get-started.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

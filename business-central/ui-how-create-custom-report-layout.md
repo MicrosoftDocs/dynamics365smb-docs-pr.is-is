@@ -119,3 +119,6 @@ Að bæta við gagnareitum úr gagnamengi skýrslu er betri leið og kallar á �
 [Undirbúa Financial Reporting með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

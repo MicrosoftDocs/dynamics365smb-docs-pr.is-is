@@ -151,3 +151,6 @@ Eftirfarandi skýringarmynd sýnir hvernig kostnaðarjöfnun er gerð.
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: umsókn vöru](design-details-item-application.md)   
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

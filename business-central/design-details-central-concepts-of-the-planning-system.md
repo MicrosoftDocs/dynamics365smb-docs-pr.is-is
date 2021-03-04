@@ -295,3 +295,6 @@ Hömlutíma má bæta við tilföng til að draga úr skiptingu reksturs Þetta 
 [Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)   
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
 [Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

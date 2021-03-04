@@ -45,3 +45,6 @@ Microsoft Pay, PayPal Payments Standard og WorldPay Payments Standard-viðbætur
 [Sala](sales-manage-sales.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

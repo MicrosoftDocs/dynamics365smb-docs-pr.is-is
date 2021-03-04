@@ -31,3 +31,6 @@ ms.locfileid: "4751081"
 [Hönnunarupplýsingar: áætlunartafla](design-details-planning-assignment-table.md)  
 [Hönnunarupplýsingar: Eftirspurn í birgðageymslunni  TÓMT](design-details-demand-at-blank-location.md)  
 [Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

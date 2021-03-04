@@ -158,3 +158,6 @@ Hægt er að endurútflytja greiðsluskrár af síðunni **Skráningar kreditmil
 [Stjórna skuldum](payables-manage-payables.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Innheimta greiðslur með SEPA-beingreiðslum](finance-collect-payments-with-sepa-direct-debit.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

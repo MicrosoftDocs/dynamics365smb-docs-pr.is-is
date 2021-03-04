@@ -78,3 +78,6 @@ EXIT(DimSet.ID);
  [Yfirlit yfir víddasamstæðufærslur](design-details-dimension-set-entries-overview.md)   
  [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

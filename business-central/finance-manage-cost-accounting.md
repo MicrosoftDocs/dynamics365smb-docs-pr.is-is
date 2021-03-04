@@ -36,3 +36,6 @@ Kostnaðarbókhald er notað til að hjálpa til við að kunna skil á kostnað
 [Fjármál](finance.md)  
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

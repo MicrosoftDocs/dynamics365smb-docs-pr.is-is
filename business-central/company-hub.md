@@ -94,3 +94,6 @@ Stjórnendur geta notað sömu uppsetningarleiðbeiningar með aðstoð til að 
 [Upplifun endurskoðanda í Business Central](finance-accounting.md)  
 [Fyrirtækjamiðstöðin fyrir viðbót Business Central](ui-extensions-company-hub.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

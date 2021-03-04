@@ -35,3 +35,6 @@ Eftirfarandi ferli sýnir hvernig skal rekja með sölupöntunarlínu. Skrefin e
 [Sala](sales-manage-sales.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

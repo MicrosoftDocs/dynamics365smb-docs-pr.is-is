@@ -51,3 +51,6 @@ Eigi að jafna færslur í mismunandi gjaldmiðlum þarf að setja upp fjárhags
 [Stjórna skuldum](payables-manage-payables.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

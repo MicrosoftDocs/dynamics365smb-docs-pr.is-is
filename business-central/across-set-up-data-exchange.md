@@ -42,3 +42,6 @@ ms.locfileid: "4753051"
 [Rafræn gagnaskipti](across-data-exchange.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

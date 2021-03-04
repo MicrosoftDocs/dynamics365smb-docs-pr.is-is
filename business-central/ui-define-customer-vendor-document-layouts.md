@@ -62,3 +62,6 @@ Netfang tengiliðarins er nú sett inn í línu skjalauppsetningar þannig að s
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
 [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

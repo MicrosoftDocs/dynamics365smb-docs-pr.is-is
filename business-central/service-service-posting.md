@@ -58,3 +58,6 @@ Eftirfarandi aðgerð notast við bókaðan þjónustureikning sem dæmi, en sam
 ## <a name="see-also"></a>Sjá einnig  
 [Bóka þjónustupantanir](service-how-to-post-service-orders.md)   
 [Stofna þjónustupantanir](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

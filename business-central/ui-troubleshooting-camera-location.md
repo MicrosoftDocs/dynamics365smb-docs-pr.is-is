@@ -57,3 +57,6 @@ Einhverjar gerðir vírusvarnarhugbúnaðar loka á aðgang að myndavél og sta
 ## <a name="see-also"></a>Sjá einnig
 [Innleiðing myndavélarinnar í AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Innleiðing staðsetninga í AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

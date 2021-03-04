@@ -62,3 +62,6 @@ ms.locfileid: "3911231"
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar: vörurakning](design-details-item-tracking.md)   
  [Hönnunarupplýsingar: síða vörurakningarlína](design-details-item-tracking-lines-window.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

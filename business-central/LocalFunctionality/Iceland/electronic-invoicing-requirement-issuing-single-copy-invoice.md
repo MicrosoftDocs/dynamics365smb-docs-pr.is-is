@@ -28,3 +28,6 @@ Lagalegur texti er settur inn á staðlaða bókaða reikninga (reikningur og kr
 ## <a name="see-also"></a>Sjá einnig
 
 [Uppsetning sölu](../../sales-setup-sales.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Hlutir viðskiptamanna sem þú framkvæmir þjónustu á, svo sem prentarar, ka
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

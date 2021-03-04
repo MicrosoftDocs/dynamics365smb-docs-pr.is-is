@@ -61,3 +61,6 @@ Hægt er að nota önnur aðsetur til að halda utan um aðsetur starfsmanns, ti
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

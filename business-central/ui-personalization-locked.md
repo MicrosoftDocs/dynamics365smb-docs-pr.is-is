@@ -59,3 +59,6 @@ Ef táknið ![Sérstilling útilokuð](media/personalization-blocked-icon.png "S
 [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

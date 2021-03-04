@@ -31,3 +31,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Setja upp kerfi til að skrá samskipti. |[Uppsetning tengiliða](marketing-setup-contacts.md) |
 |Stofnaðu samskipti til að skrá öll samskipti við tengiliði og hluti á borð við tölvupóstssamskipti.|[Búa til samskipti á tengiliði og hluta](marketing-how-create-interactions.md)|
 |Settu upp kerfið til að skrá sjálfkrafa samskipti vegna sölu, innkaupa- og þjónustuskjöl, t.d. upplýsingar um það hvenær skjal er búið til, það birt eða prentað.|[Skrá samskipti við tengiliði sjálfkrafa](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

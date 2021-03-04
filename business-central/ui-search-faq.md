@@ -50,3 +50,6 @@ Bókamerkjatákn er ekki birt í glugganum „Viðmótsleit“ þegar sérstilli
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
 [Að finna síður með hlutverkaleit](ui-role-explorer.md)  
 [Síða eða skýrsla bókamerkt í Mitt hlutverk](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

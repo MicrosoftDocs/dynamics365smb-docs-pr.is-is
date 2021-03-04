@@ -37,3 +37,6 @@ Hér eru nokkur dæmi um stillingar sem hægt er að nota í þjónustustýringa
 [Setja upp aukakostnað fyrir þjónustu](service-how-setup-service-costs-pricing.md)  
 [Setja upp úrræðaleit](service-how-setup-troubleshooting.md)  
 [Þjónustukerfi](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

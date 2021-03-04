@@ -52,3 +52,6 @@ Skrefin eru endurtekin fyrir hvern valkost viðgerðarstöðu sem á að stofna.
 
 [Þjónustupöntunarstaða og viðgerðarstaða](service-service-order-status-and-repair-status.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

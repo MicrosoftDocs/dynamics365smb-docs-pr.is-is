@@ -66,3 +66,6 @@ Fyrir öll gagnaskipti í XML-skrám er hægt að undirbúa gagnaskiptauppsetnin
 [Setja upp gagnaskipti](across-set-up-data-exchange.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

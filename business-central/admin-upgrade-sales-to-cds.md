@@ -39,3 +39,6 @@ Ef þegar er búið að samþætta [!INCLUDE[crm_md](includes/crm_md.md)] við [
 ## <a name="see-also"></a>Sjá einnig
 [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Samþætting við Microsoft Dataverse](admin-common-data-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

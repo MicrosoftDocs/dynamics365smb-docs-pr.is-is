@@ -46,3 +46,6 @@ Business Central sem skýjaþjónusta hefur fengið vottanir á borð við ISO 2
 [Reglufylgni þjónustu](compliance-service-compliance.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

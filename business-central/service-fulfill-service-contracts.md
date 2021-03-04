@@ -37,3 +37,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Þjónustuafhending](service-deliver-service.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Búa til þjónustusamninga og þjónustusamningstilboð](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

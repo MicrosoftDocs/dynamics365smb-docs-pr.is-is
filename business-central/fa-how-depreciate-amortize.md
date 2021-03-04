@@ -112,3 +112,6 @@ Afrituðu línurnar eru annaðhvort búnar til í fjárhagsbók eigna eða eigna
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

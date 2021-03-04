@@ -35,3 +35,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Meðhöndlaðu ábendingar með því að búa til tækifæri og tengdu þær við sölumenn svo hægt sé að fylgjast með mögulegri sölu.|[Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)|
 |Búðu til markaðsáætlun til að finna, vinna og halda viðskiptamönnum.|[Stjórnun markaðsherferða](marketing-campaigns.md)|
 |Notaðu Dynamics 365 Sales fyrir tengsl við viðskiptavini og nota óaðfinnanlega samþættingu í heildarferlinu með því að nota Business Central fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.|[Samþætting við Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

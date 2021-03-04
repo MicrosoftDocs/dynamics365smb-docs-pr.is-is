@@ -38,3 +38,6 @@ Fyrirtæki á Íslandi þurfa að senda gagnaskrá á fyrirfram tilgreindu formi
 
 ## <a name="see-also"></a>Sjá einnig  
  [Sérstök gögn og skýrslur fyrir skattyfirvöld](special-data-output-and-reports-for-the-tax-authority.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

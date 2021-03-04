@@ -43,3 +43,6 @@ Notendaþjónustan varðandi reikningsfærða fundi í Bookings er einfaldari en
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

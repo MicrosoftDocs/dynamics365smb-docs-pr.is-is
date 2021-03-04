@@ -133,3 +133,6 @@ Power BI-Reikningur hefur ekki verið settur upp. Til að fá gildan Power BI re
 [Nota [!INCLUDE[prod_short](includes/prod_short.md)] í Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

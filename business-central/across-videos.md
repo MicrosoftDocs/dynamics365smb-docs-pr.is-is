@@ -32,3 +32,6 @@ Einnig er hægt að skoða fræðslumyndböndin okkar, ásamt fullt af öðru ef
 
 [Hafist handa](product-get-started.md)  
 [Dynamics 365-rás á YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -51,3 +51,5 @@ Takið gögnin úr Dynamics C5 með. Þegar samstarfsaðili Microsoft hefur sett
 
 ## <a name="see-also"></a>Sjá einnig
 [C5-gagnaflutningsviðbótin](ui-extensions-c5-data-migration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

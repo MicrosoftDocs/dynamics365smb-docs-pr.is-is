@@ -77,3 +77,6 @@ Frekari upplýsingar eru í [Skipta yfir í annað fyrirtæki eða umhverfi](ui-
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Hafist handa](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

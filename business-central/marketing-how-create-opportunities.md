@@ -46,3 +46,6 @@ Hægt er að stofna tækifæri af síðunni **Tækifæralisti** . En yfirleitt e
 [Sala](sales-manage-sales.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
 [Unnið með Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

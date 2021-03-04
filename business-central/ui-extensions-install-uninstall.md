@@ -92,3 +92,6 @@ Sumar viðbætur eru nauðsynlegar. Þú ert að koma í veg fyrir að þetta s�
 [Hafist handa](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

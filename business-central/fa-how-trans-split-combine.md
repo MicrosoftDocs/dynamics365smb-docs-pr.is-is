@@ -79,3 +79,6 @@ Hægt er að sameina margar eignir í eina eign, til dæmis þegar þú færir s
 [Fjármál](finance.md)  
 [Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

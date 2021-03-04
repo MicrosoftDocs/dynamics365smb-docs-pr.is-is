@@ -99,3 +99,6 @@ Ef til vill þarf að stofna þjónustureikning fyrir þjónustu sem þegar hefu
 [Bóka þjónustureikninga](service-how-to-post-service-orders.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Bókun þjónustu](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

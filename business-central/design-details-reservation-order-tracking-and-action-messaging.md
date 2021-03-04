@@ -233,3 +233,6 @@ Frátekningarkerfið er ítarlegt og nær yfir samtengda og samliggjandi eiginle
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Miðlægar hugmyndir áætlanakerfisins](design-details-central-concepts-of-the-planning-system.md)   
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -33,3 +33,6 @@ Nánari upplýsingar er að finna í [Fylgst með gagnagrunnslásum](/dynamics36
 ## <a name="see-also"></a>Sjá einnig
 
 [Fylgjast með gagnagrunnslásum](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

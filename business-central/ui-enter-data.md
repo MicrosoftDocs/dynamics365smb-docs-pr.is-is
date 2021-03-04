@@ -295,3 +295,6 @@ Hér eru nokkur dæmi.
 ## <a name="see-also"></a>Sjá einnig  
  [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
  [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Hjálparefni fyrir grunnvirkni í [!INCLUDE[prod_short](includes/prod_short.md)]
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Hafist handa](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

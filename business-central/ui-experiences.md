@@ -69,3 +69,6 @@ Allar lýsingar á eiginleikum í notendaskjölum fyrir [!INCLUDE[prod_short](in
 [[!INCLUDE[prod_short](includes/prod_short.md)] Leyfishandbók](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

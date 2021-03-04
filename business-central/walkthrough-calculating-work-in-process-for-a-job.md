@@ -164,3 +164,6 @@ Með verkum er hægt að áætla notkun á forða fyrirtækisins og rakningu á 
  [Að skila VÍV aðferðir](projects-understanding-wip.md)   
  [Fylgst með framvindu og afköstum](projects-how-monitor-progress-performance.md)  
  [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

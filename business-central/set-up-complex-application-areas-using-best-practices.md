@@ -35,3 +35,6 @@ Mikilvægt er að færa inn rétt uppsetningargildi frá upphafi til að ný vi�
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Eftirfarandi lýsir því hvernig á að afturkalla bókaða skilasendingu á v�
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -369,3 +369,6 @@ Ef mælieiningin er til dæmis klukkustund, er númerinu 5 breytt í 5 klukkustu
 [Unnið með [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Dagsetning útreiknings fyrir kaup](purchasing-date-calculation-for-purchases.md)  
 [Skilgreining skilyrða í síum](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

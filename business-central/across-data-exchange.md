@@ -39,3 +39,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Gagnaskipti](across-exchange-data.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -121,3 +121,6 @@ Eftirfarandi tafla lýsir kóðaeiningunum sem þú þarft að stofna fyrir ský
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

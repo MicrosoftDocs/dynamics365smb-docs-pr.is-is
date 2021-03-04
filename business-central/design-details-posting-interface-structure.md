@@ -28,3 +28,5 @@ ms.locfileid: "4751256"
   
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Uppbygging bókunarvélar](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Margir vextir eru notaðir fyrir mismunandi tímabil vegna seinkunar á greiðsl
 ## <a name="see-also"></a>Sjá einnig  
 [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

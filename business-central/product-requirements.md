@@ -79,3 +79,6 @@ Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfisk
 
 [Hafist handa](product-get-started.md)  
 [Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

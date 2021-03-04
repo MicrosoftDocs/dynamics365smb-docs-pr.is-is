@@ -27,3 +27,6 @@ Nánari upplýsingar eru í [Gögn dulrituð í Dynamics 365 Business Central](/
 
 ## <a name="see-also"></a>Sjá einnig  
 [Stjórnun](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

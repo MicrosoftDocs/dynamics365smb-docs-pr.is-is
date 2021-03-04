@@ -71,3 +71,6 @@ Stjórnendur hafa möguleika á því að stilla eða breyta þessum stillingum 
 [Hafist handa](product-get-started.md)  
 [Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [Breyta tungumáli og landsstaðli](about-locale-language.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Ef þú ert tilbúinn til að byrja núna skaltu velja ![Ljósaperuna sem opnar 
 ## <a name="see-also"></a>Sjá einnig
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Sérstilling Business Central með viðbótum](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

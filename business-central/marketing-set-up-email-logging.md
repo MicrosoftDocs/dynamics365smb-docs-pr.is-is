@@ -111,3 +111,6 @@ Ef þú ert ekki að nota Azure Active Directory til að stjórna auðkennum og 
 ## <a name="see-also"></a>Sjá einnig
 [Stjórnun tengsla](marketing-relationship-management.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

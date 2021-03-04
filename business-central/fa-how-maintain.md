@@ -90,3 +90,6 @@ Hægt er einnig að sjá viðhaldskostnaðinn með því að skoða viðhaldsbó
 [Fjármál](finance.md)  
 [Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

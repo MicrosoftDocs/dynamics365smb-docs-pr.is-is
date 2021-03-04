@@ -131,3 +131,6 @@ Hægt er að senda Intrastat-skýrsluna sem skrá. Áður en skráin er búin ti
 
 ## <a name="see-also"></a>Sjá einnig
 [Fjármálastjórnun](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

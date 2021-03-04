@@ -150,3 +150,6 @@ Að lokum verða þessi gögn í samningslínunum.
 ## <a name="see-also"></a>Sjá einnig  
 [Búa til þjónustusamninga og þjónustusamningstilboð](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

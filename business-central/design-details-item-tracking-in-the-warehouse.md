@@ -31,3 +31,6 @@ Hins vegar tekur frátekningarkerfið tillit til vöruhúsaaðgerða þegar þa�
 [Hönnunarupplýsingar: Sameining með birgðum](design-details-integration-with-inventory.md)  
 [Hönnunarupplýsingar: staða vöruhúss](design-details-availability-in-the-warehouse.md)  
 [Hönnunarupplýsingarn: vörurakning hönnun](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

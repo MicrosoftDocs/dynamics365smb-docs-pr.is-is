@@ -126,3 +126,6 @@ Sölupantanir sem eru innan tilgreindra síu verða nú bókaðar í hverri viku
 [Leiðrétta eða afturkalla ógreidda innkaupareikninga](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

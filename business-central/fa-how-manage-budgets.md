@@ -63,3 +63,6 @@ Keyra má skýrsluna **Eignir - Áætlað virði** til að skoða áætlað afsk
 [Fjármál](finance.md)  
 [Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

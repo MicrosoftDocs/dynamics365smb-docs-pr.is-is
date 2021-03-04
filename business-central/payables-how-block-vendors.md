@@ -37,3 +37,6 @@ Eftirfarandi tafla lýsir valkostunum fyrir lokun á lánardrottna.
 [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  
 [Framkvæma greiðslur](payables-make-payments.md)  
 [Stjórna skuldum](payables-manage-payables.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

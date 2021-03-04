@@ -56,3 +56,6 @@ Hægt er að eyða samskiptaskráningarfærslum sem hafa verið afturkallaðar. 
 [Vinna með tengiliði](marketing-contacts.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Unnið með Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

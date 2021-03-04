@@ -50,3 +50,6 @@ Ef þú hefur bætt við fyrirtæki en það birtist ekki á listanum er einnig 
 [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md)  
 [Bæta fyrirtækjum við fyrirtækjamiðstöðina](company-hub-add-company.md)  
 [Upplifun endurskoðanda í Business Central](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

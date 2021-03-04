@@ -67,3 +67,6 @@ Eftirfarandi tafla lýsir útreikningunum.
 ## <a name="see-also"></a>Sjá einnig  
 [Setja upp verðlagningu og aukakostnað fyrir þjónustu](service-how-setup-service-costs-pricing.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

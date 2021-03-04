@@ -199,3 +199,6 @@ Almennar leiðbeiningar um skráningu forrits má finna í [Stuttar leiðbeining
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem viðskiptainnhólf þitt í Outlook](admin-outlook.md)  
 [Fáðu [!INCLUDE[prod_short](includes/prod_short.md)] í fartækið þinn](install-mobile-app.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

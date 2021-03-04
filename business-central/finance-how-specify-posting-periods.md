@@ -34,3 +34,6 @@ Notaðu staðartímabil til að tilgreina hvenær notendur geta sent í aðalbó
 [Fjármál](finance.md)  
 [Að klára Ferli í lok tímabila](year-how-complete-period-end-processes.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

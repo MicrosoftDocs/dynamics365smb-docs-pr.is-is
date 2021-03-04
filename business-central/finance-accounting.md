@@ -109,3 +109,6 @@ Ef á að veita aðgang að mörgum fyrirtækjum þarf að skrá sig inn í hver
 [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

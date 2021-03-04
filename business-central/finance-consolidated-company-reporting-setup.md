@@ -138,3 +138,6 @@ Ef þú átt aðeins hlut í fyrirtæki geturðu tengt prósentutölu, sem samsv
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Flutningur viðskiptagagna í Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

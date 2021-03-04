@@ -115,3 +115,6 @@ Segðir sem nota aðeins tákn, t.d. `|` eða `..` eru taldar öruggar fyrir not
 [Vista og sérsníða listayfirlit](ui-views.md)  
 [Að finna eiginleika og upplýsingar](ui-search.md)  
 [Röðun, leit, og síun](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

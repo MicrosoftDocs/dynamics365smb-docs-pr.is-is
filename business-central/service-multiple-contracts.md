@@ -46,3 +46,6 @@ Hægt er að stofna þjónustupöntun handvirkt fyrir þjónustuvöru sem skrá�
 ## <a name="see-also"></a>Sjá einnig  
 [Uppfylla þjónustusamninga](service-fulfill-service-contracts.md)  
 [Stofna þjónustupantanir](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

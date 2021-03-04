@@ -64,3 +64,6 @@ Til að fræðast um staðbundna virkni fyrir hvert land/svæði skal velja við
 [Framboð eftir löndum/svæðum og studdar þýðingar](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Alþjóðlegt framboð á Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Þróun á staðfærslulausn](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

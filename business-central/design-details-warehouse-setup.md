@@ -141,3 +141,6 @@ Frágangssniðmátinu má úthluta á vöru og á staðsetningu. Frágangssniðm
 
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)   
 [Hönnunarupplýsingar: Framboð í vöruhúsi](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

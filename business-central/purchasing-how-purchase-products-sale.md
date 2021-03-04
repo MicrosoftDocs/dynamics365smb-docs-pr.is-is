@@ -70,3 +70,6 @@ Til að stofna stakan innkaupareikning fyrir eina eða fleiri línur í söluskj
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

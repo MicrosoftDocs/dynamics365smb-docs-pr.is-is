@@ -80,3 +80,6 @@ Vörur á síðunni **Vörur** eru afmarkaðar eftir tilgreindum eigindagildum v
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

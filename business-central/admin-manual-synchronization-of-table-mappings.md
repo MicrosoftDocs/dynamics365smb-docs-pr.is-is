@@ -85,3 +85,6 @@ Hægt er að nota síðuna **Vörpun samþættingartöflu** til að keyra samsti
 ## <a name="see-also"></a>Sjá einnig  
 [Samstilling Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Uppsetning á notendareikningum fyrir samþættingu við Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

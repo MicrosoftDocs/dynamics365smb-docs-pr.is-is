@@ -182,3 +182,6 @@ Til að skoða vottorðahóp byrjarðu á síðunni **Afhendingarvottorð** og u
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts](finance-setup-vat.md)   
 [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -30,3 +30,6 @@ Til að greina á milli mismunandi flækjustiga vörugeymsla, þetta Gögnunum e
 [Hönnunarupplýsingar: Framboð í vöruhúsi](design-details-availability-in-the-warehouse.md)  
 [Hönnunarupplýsingar: vöruhúsaflæði á innleið](design-details-outbound-warehouse-flow.md)  
 [Hönnunarupplýsingar: Sameining með birgðum](design-details-integration-with-inventory.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

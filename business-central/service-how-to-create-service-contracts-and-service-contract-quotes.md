@@ -200,3 +200,6 @@ Hægt er að skrá þjónustusamninga og samningstilboð hvenær sem er til að 
 [Setja upp þjónustusamninga](service-how-setup-service-contracts.md)  
 [Þjónustukerfi](service-service.md)  
 [Umbreyta þjónustusamningum sem innihalda VSK upphæðir](service-how-to-convert-service-contracts.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

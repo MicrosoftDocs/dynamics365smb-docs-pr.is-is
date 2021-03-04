@@ -63,3 +63,6 @@ Ef forritið á örugglega að slétta sölu- og innkaupareikninga sjálfkrafa �
 ## <a name="see-also"></a>Sjá einnig  
 [Reikningsfæra sölur](sales-how-invoice-sales.md)  
 [Skrá innkaup](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Til að rekja breytingar og fá myndrænt yfirlit yfir þjónustufyrirtækið m�
 [Setja upp bilanatilkynningar](service-how-setup-fault-reporting.md)
 [Úthlutunarstaða og viðgerðastaða](service-allocation-status-and-repair-status.md)  
 [Bókun þjónustu](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

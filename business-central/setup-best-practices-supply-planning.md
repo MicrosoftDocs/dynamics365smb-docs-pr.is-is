@@ -35,3 +35,6 @@ Framboðsáætlun er mikilvægt rekstrarsvið. Þegar birgðaáætlun er sett up
  [Hönnunarupplýsingar: Áætlunarfæribreytur](design-details-planning-parameters.md)   
  [Setja upp flókin notkunarsviðum með því að nota bestu venjur](set-up-complex-application-areas-using-best-practices.md)  
  [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

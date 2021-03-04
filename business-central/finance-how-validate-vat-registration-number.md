@@ -49,3 +49,6 @@ Okkar þjónustu getur einnig sparað þér tíma þegar verið er að stofna vi
 [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
 [Staðbundin virkni í Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

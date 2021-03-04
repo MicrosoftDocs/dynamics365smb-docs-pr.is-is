@@ -187,3 +187,6 @@ Ef færslubókarlínan er óbókuð, bætir hún við gildinu úr reitnum **ób�
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Sala](sales-manage-sales.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

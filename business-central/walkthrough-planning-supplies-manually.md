@@ -232,3 +232,6 @@ Síðuna **Pantanaáætlun** er hægt að opna úr mörgum ólíkum staðsetning
 ## <a name="see-also"></a>Sjá einnig  
  [Kynningar á viðskiptaferlum](walkthrough-business-process-walkthroughs.md)   
  [Kynning: Sjálfvirk áætlun birgða](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

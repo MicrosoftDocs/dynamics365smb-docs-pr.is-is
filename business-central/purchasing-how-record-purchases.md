@@ -100,3 +100,6 @@ Innkaupin eru nú skráð í birgðum, forðabókum og fjármálafærslum og gre
 [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  
 [Undirbúa beina sendingu](sales-how-drop-shipment.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Einnig er hægt að skoða svæðið [Dynamics 365 Business Central Möguleikar]
 [Dynamics 365 Business Central Samfélag](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

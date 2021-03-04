@@ -143,3 +143,6 @@ Föst úthlutunaraðferð er byggð á tilteknu gildi, s.s. fermetrum í notkun 
  [Kostnaðarreikningur](finance-manage-cost-accounting.md)   
  [Orðalisti í kostnaðarbókhaldi](finance-terminology-in-cost-accounting.md)   
  [Um kostnaðarbókhald](finance-about-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

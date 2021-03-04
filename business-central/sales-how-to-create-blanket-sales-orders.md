@@ -100,3 +100,6 @@ Tengingin milli standandi sölupöntunar og upphaflegrar sölupöntunar, og allr
 [Búa til standandi samsetningarpantanir](assembly-how-to-create-blanket-assembly-orders.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

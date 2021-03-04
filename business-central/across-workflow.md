@@ -42,3 +42,6 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 [Innkaup](purchasing-manage-purchasing.md)  
 [Stjórna verkum](projects-manage-projects.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

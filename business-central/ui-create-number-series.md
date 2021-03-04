@@ -87,3 +87,6 @@ Ef settir hafa verið upp fleiri númeraraðakótar en einn fyrir sömu tegund g
 ## <a name="see-also"></a>Sjá einnig
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

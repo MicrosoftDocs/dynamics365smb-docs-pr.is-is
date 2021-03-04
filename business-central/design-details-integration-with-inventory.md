@@ -48,3 +48,5 @@ Hlutarnir Vöruhúsakerfi og Birgðir vinna saman í efnislegum birgðum og lei�
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)   
  [Hönnunarupplýsingar: Framboð í vöruhúsi](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

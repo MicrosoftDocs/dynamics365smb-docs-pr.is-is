@@ -50,3 +50,6 @@ Mælt er með því að opnunarstöður séu fluttar í skrefum í eftirfarandi 
 
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

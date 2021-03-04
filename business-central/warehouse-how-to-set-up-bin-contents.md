@@ -66,3 +66,6 @@ Ef gátmerki er sett inn í reitinn **Fast** er varan fest við hólfið sem þ�
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Hönnunarupplýsingar uppsetningvöruhúss](design-details-warehouse-setup.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -32,3 +32,5 @@ Reglur innslátt gagna á síðunni **Vörurakningarlínur** styður einnig teng
   
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: vörurakning](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

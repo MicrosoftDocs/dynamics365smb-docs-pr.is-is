@@ -104,3 +104,6 @@ Hægt er að bóka hrakvirði með stofnkostnaði af færslubók eigna.
 [Fjármál](finance.md)  
 [Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

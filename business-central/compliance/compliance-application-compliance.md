@@ -110,3 +110,6 @@ Microsoft býr til staðbundnar útgáfur af Business Central fyrir takmarkaðan
 
  ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

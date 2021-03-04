@@ -77,3 +77,5 @@ Sjálfgefna fyrirtækiseiningin er notuð þegar einstaklingseignarhaldslíkan e
 
 ## <a name="see-also"></a>Sjá einnig
 [Um [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

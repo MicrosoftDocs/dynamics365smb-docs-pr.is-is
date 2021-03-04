@@ -46,3 +46,6 @@ Eftirfarandi ferli sýnir hvernig eigi að loka slíkum færslum með því að 
 [Uppsetning birgðaverðmats og kostnaðar](finance-set-up-inventory-valuation-and-costing.md)  
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)  
 [Hönnunarupplýsingar: Aðferð kostnaðarútreiknings](design-details-costing-methods.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

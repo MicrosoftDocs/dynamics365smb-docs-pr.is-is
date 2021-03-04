@@ -76,3 +76,6 @@ Hægt er að leita að færslum út frá upplýsingum um annaðhvort skjalið, v
 [Unnið með Business Central](ui-work-product.md)  
 [Bæta Síðuaðgerð við hlutverkamiðstöð](ui-bookmarks.md)  
 [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

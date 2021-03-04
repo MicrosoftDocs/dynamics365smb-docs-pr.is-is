@@ -41,3 +41,6 @@ Eftirfarandi ferli sýnir hvernig á að takmarka að innkaupapantanir séu bók
 ## <a name="see-also"></a>Sjá einnig  
 [Búa til verkflæði](across-how-to-create-workflows.md)   
 [Verkflæði](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

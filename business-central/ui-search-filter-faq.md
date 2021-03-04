@@ -60,3 +60,6 @@ Við hjá Microsoft erum stöðugt að hlusta á viðbrögð frá fjölbreyttu s
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
 [Að finna síður með hlutverkaleit](ui-role-explorer.md)  
 [Hafist handa](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

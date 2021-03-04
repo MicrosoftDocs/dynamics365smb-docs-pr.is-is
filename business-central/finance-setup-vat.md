@@ -197,3 +197,6 @@ Upphæðir í fylgiskjölum sem ekki hafa verið bókaðar eru sléttaðar og bi
 [Staðbundin virkni í Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

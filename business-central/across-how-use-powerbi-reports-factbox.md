@@ -89,3 +89,6 @@ Staðfestið að stærð skýrslu sé stillt á 325 x 310 pixla. Vista skal ský
 [Hafist handa](product-get-started.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Fjármál](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

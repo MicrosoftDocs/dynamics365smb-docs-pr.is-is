@@ -62,3 +62,6 @@ Eftirfarandi aðferð sýnir hvernig stofna má þjónustuvöru þegar sölupön
 [Setja upp þjónustuvörur og íhluti þjónustuvara](service-how-setup-service-items.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Þjónustukerfi](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

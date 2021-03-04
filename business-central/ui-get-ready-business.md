@@ -74,3 +74,6 @@ Ef þörf er á að bæta við fleiri notendum er það gert úr Office 365 stj�
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

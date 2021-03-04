@@ -105,3 +105,6 @@ Ferlið til að uppfæra eða reikna út staðlaðan kostnað samanstendur yfirl
  [Vinna með uppskriftir](inventory-how-work-BOMs.md)   
  [Uppfæra staðlaðan kostnað](finance-how-to-update-standard-costs.md)   
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

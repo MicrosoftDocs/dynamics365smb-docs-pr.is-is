@@ -39,3 +39,6 @@ ms.locfileid: "3920473"
 
 [Skrá nýjar vörur](inventory-how-register-new-items.md)  
 [Uppsetning birgða](inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

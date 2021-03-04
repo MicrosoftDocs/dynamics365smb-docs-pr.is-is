@@ -60,3 +60,6 @@ Gildið fyrir afhendingartíma á lánardrottnaspjaldi er hinsvegar aðeins nota
 [Dagsetning útreiknings fyrir sölu](sales-date-calculation-for-sales.md)   
 [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

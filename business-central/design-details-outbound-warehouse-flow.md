@@ -134,3 +134,6 @@ Að auki eru eftirfarandi innri uppspretta gögn sem virka eins uppruni á útle
 ## <a name="see-also"></a>Sjá einnig
 
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

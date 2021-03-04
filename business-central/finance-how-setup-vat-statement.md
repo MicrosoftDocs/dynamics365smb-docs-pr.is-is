@@ -51,3 +51,6 @@ Eftir að þú hefur skilgreint VSK-yfirlit geturðu forskoðað það til að g
 [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
 [Staðbundin virkni í Business Central](about-localization.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

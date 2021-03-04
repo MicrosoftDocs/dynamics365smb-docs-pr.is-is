@@ -44,3 +44,6 @@ Hægt er að skipta á gögnum á milli [!INCLUDE[prod_short](includes/prod_shor
 [Skrá innkaup](purchasing-how-record-purchases.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

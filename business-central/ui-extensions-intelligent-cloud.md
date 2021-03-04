@@ -29,3 +29,6 @@ ms.locfileid: "4757193"
 [Snjöll innsýn](about-intelligent-cloud.md)  
 [Keyra verkfæri skýjaflutnings](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Snjallskýsviðbætur fyrir flutningi í skýi](ui-extensions-data-replication.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

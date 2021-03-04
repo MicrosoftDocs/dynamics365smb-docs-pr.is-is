@@ -50,3 +50,6 @@ Með því að vista víddasamstæður einu sinni í gagnagrunni, er gagnagrunns
 [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)   
 [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)   
 [Hönnunarupplýsingar: Færslur víddarsamstæða](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

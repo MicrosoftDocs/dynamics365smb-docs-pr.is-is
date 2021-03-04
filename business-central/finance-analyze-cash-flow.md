@@ -55,3 +55,6 @@ Ef þú vilt skoða spáina, auk þess að spá færslum, geturðu einnig skoða
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Setja upp sjóðstreymisgreiningu](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

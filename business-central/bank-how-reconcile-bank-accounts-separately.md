@@ -159,3 +159,6 @@ Ef næst er gerð bankaafstemming fyrir ágúst skal íhuga að breyta gildunum 
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum](receivables-how-set-up-payment-application-rules.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

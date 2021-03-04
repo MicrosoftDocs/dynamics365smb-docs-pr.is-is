@@ -101,3 +101,6 @@ Fyrir stakar kostnaðarfærslur flytur [!INCLUDE[prod_short](includes/prod_short
  [Uppsetning kostnaðarbókhalds](finance-set-up-cost-accounting.md)   
  [Skilgreina og úthluta kostnaði](finance-define-and-allocate-costs.md)   
  [Kostnaðarreikningur](finance-manage-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

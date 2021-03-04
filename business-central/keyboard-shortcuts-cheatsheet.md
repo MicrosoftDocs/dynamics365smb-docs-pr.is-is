@@ -59,3 +59,6 @@ ms.locfileid: "3921718"
 > Fyrir myndræna, prentvæna útgáfu velurðu eftirfarandi mynd og sækir PDF-skjalið.
 >
 > [![Tákn sem opnar PDF](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -40,3 +40,6 @@ ms.locfileid: "3915836"
  [Uppsetning verkflæðis](across-set-up-workflows.md)   
  [Nota verkflæði](across-use-workflows.md)   
  [Verkflæði](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

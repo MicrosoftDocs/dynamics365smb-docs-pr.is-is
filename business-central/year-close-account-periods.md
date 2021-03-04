@@ -42,3 +42,6 @@ Enda þótt reikningsári hafi verið lokað er enn hægt að bóka fjárhagsfæ
 [Bóka lokafærslu ársloka](year-how-post-year-end-close-entry.md)  
 [Unnið með fjárhagstímabil og fjárhagsár](finance-accounting-periods-and-fiscal-years.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

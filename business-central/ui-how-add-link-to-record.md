@@ -98,3 +98,6 @@ Athugasemdin er nú hengd við sölupöntunina.
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skjöl á innleið](across-income-documents.md)  
 [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

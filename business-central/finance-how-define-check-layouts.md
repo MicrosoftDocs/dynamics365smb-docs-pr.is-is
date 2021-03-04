@@ -93,3 +93,6 @@ Leturgerðir í öðrum tilgangi má einnig finna í [!INCLUDE[prod_short](inclu
 [Að klára Ferli í lok tímabila](year-how-complete-period-end-processes.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

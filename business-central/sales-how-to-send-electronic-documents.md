@@ -62,3 +62,6 @@ Almenn útgáfa [!INCLUDE[prod_short](includes/prod_short.md)] styður sendingu 
 [Rafræn gagnaskipti](across-data-exchange.md)  
 [Algengar spurningar um rafrænar reikningsfærslur](faq-electronic-invoicing.yml)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

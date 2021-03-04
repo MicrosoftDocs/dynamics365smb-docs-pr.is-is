@@ -49,3 +49,6 @@ Síðan **Stofngögn** inniheldur upplýsingar sem hafa verið tilgreindar.
 [Nota skilgreiningu á ný fyrirtæki](admin-apply-configuration-to-new-companies.md)  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Eftirfarandi mynd sýnir reiti til að fá aðgang að framleiðslu-og sandkassa
 
 [Stjórnunarmiðstöð Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

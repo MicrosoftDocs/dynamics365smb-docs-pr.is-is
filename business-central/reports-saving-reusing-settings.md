@@ -56,3 +56,6 @@ Síðan birtir allar fyrirliggjandi vistaðar stillingafærslur fyrir alla noten
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

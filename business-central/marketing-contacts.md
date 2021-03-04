@@ -37,3 +37,6 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Röðun, leit, og síun](ui-enter-criteria-filters.md)  
 [Unnið með Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

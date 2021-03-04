@@ -39,3 +39,6 @@ Einnig er hægt að vista tiltektarlistann sem skjal, til dæmis til að senda t
 [Birgðir](inventory-manage-inventory.md)  
 [Tína til vörur](warehouse-pick-items.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Við útreikning á MPS eða MRP, gilda eftirfarandi takmarkanir:
 [Hönnunarupplýsingar: Meðhöndlun endurpöntunarstefna](design-details-handling-reordering-policies.md)   
 [Hönnunarupplýsingar: Flutningur í áætlun](design-details-transfers-in-planning.md)   
 [Hönnunarupplýsingar: áætlunarfæribreyta](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

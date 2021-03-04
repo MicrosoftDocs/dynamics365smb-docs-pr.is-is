@@ -52,3 +52,6 @@ Upplýsingar um samskiptin sem varða hlutann geta birst á **hlutahausnum** . T
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Stofnun og stjórnun tengiliða](marketing-contacts.md)  
 [Unnið með Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

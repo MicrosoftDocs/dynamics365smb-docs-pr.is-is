@@ -34,3 +34,6 @@ Til að opna síðuna **Uppsetning samskiptasniðmáts** Veldu ![Ljósaperuna se
 ## <a name="see-also"></a>Sjá einnig
 [Skrá samskipti við tengiliði](marketing-interactions.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

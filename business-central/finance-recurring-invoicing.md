@@ -121,3 +121,6 @@ Nánari upplýsingar eru í [Endurteknar pantanir](LocalFunctionality/Norway/rec
 [Eftirspurnarspá og standandi pantanir](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Vinna með standandi sölupantanir](sales-how-to-create-blanket-sales-orders.md)  
 [Endurteknar pantanir (Noregur)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

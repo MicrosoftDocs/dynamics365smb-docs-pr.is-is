@@ -106,3 +106,6 @@ Sölutilboð fara í gegnum margar útgáfur áður en þau eru fullkláruð. B�
 [Yfirlit yfir Sales og sölumiðstöð](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

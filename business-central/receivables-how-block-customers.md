@@ -40,3 +40,6 @@ Eftirfarandi tafla lýsir valkostunum fyrir lokun á viðskiptavini.
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  
 [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  
 [Stjórnun skulda](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

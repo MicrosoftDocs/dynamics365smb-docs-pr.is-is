@@ -101,3 +101,6 @@ Stjórnandi [!INCLUDE[prod_short](includes/prod_short.md)] og endursöluaðili g
 [Undirbúningur sýniumhverfa (sem samstarfsaðili)](/dynamics365/business-central/dev-itpro/administration/demo-environment)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

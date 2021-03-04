@@ -40,3 +40,6 @@ Eftirfarandi tafla lýsir upplýsingunum sem eru veittar fyrir hverja töflu:
 
 [Eftirlit með síðum](across-inspect-page.md)  
 [Afkastagreinar fyrir þróunaraðila](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

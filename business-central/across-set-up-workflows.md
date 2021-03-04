@@ -53,3 +53,6 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
  [Verkflæði](across-workflow.md)   
  [Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Vinna með Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

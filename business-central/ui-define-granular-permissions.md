@@ -263,3 +263,6 @@ Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að se
 [Stjórnun](admin-setup-and-administration.md)  
 [Bæta notendum við Microsoft 365 for Business](https://aka.ms/CreateOffice365Users)  
 [Öryggi og vernd í Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) í Developer og ITPro hjálp
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

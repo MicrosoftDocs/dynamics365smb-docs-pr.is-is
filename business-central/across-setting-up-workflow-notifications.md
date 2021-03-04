@@ -59,3 +59,6 @@ Sett eru upp mismunandi verkflæðistilkynningar á viðkomandi stöðum:
 [Setja upp tölvupóst](admin-how-setup-email.md)  
 [Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Verkflæði](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Ef einn eða fleiri samsetningaríhlutir eru ekki tiltækir endurspeglast það 
 [Selja vörur](sales-how-sell-products.md)      
 [Unnið með Business Central](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

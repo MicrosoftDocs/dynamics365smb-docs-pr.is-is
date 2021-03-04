@@ -24,3 +24,6 @@ ms.locfileid: "4747503"
 
 ## <a name="see-also"></a>Sjá einnig  
 [Reikningsfæra sölur](../../sales-how-invoice-sales.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

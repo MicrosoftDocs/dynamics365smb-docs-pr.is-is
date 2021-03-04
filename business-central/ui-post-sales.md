@@ -64,3 +64,6 @@ Hægt er að breyta tilteknum reitum í bókuðum innkaupaskjölum, svo sem **Ra
 [Ógreiddir sölureikningar leiðréttir eða afturkallaðir](sales-how-correct-cancel-sales-invoice.md)  
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

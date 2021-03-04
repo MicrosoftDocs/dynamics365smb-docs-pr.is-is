@@ -45,3 +45,6 @@ Nánari upplýsingar eru í [Upplýsingar um hönnun: Vörurakning bókunarskipu
 
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Vörurakning](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

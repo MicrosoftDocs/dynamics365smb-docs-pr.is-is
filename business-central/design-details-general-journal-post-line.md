@@ -29,3 +29,6 @@ ms.locfileid: "4751580"
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vinna í færslubókum](ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

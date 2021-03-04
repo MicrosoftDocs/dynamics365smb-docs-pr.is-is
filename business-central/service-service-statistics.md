@@ -112,3 +112,6 @@ Hægt er að nota síðuna **Kreditreikningsupplýsingar þjónustu** til þess 
 [Stofna Þjónustupantanir](service-how-to-create-service-orders.md)   
 [Stofna þjónustuatriði](service-how-to-create-service-items.md)   
 [Áætla þjónustu](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

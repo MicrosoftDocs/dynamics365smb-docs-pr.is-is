@@ -70,3 +70,6 @@ Ný úthlutunarfærsla sem inniheldur nýja forðann er stofnuð og fær stöðu
 [Setja upp forðaúthlutanir](service-how-setup-resource-allocation.md)  
 [Úthluta forða](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

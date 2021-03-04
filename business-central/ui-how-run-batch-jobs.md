@@ -36,3 +36,6 @@ Hægt er að tímasetja hvenær runuvinnsla er keyrð. Frekari upplýsingar, sj�
 [Röðun, leit og síun í listum](ui-enter-criteria-filters.md)  
 [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

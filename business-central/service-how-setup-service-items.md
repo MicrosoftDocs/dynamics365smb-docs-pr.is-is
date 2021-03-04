@@ -63,3 +63,6 @@ ms.locfileid: "3910256"
 ## <a name="see-also"></a>Sjá einnig
 [Setja upp Kóta fyrir Staðlaða þjónustu](service-how-setup-service-coding.md)   
 [Setja upp úrræðaleit](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

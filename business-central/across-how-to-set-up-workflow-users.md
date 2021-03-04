@@ -52,3 +52,6 @@ Verkflæðisnotendur sem virka sem samþykktarnotendur, bæði samþykkjendur be
 [Nota verkflæði](across-use-workflows.md)  
 [Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Verkflæði](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

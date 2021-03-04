@@ -59,3 +59,6 @@ Síðan **Fjárhagsfærslur** opnast og sýnir færslurnar sem afskráningarfær
 [Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Finna færslur](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

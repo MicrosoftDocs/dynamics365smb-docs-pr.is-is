@@ -133,3 +133,6 @@ Tengdar vöru- og viðskiptamannafærslur eru nú búnar til í kerfinu og sölu
 [Birgðir](inventory-manage-inventory.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Ef Afturköllunin tengist takmarkaðri bókun á reiknings er upprunaleg innkaup
 [Innkaup](purchasing-manage-purchasing.md)  
 [Skrá innkaup](purchasing-how-record-purchases.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

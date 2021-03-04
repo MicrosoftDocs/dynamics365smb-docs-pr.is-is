@@ -104,3 +104,6 @@ Ef greiningin leggur til eigind sem þú vilt ekki sjá, geturðu lokað á þá
 [Vinna með vörueigindir](inventory-how-work-item-attributes.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Hafist handa](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

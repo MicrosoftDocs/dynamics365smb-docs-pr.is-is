@@ -144,3 +144,6 @@ Ef þú ert ekki að nota Azure Active Directory til að stjórna auðkennum og 
 ## <a name="see-also"></a>Sjá einnig
 
 [Skoða stöðu á samstillingu](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

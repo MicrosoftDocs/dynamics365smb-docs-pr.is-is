@@ -63,3 +63,6 @@ Milli fyrirtækja
 [Lokaár og Tímabil](year-close-years-periods.md)  
 [Bókum lokað](year-close-books.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

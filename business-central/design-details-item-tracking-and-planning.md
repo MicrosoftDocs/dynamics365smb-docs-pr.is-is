@@ -56,3 +56,6 @@ Nánari upplýsingar er að finna í [Hönnunarupplýsingar: Jöfnun eftirspurna
 [Hönnunarupplýsingar: Jöfnun eftirspurn og framboð](design-details-balancing-demand-and-supply.md)  
 [Hönnunarupplýsingar: Pöntun, pöntunarrakning og stöðuboð](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

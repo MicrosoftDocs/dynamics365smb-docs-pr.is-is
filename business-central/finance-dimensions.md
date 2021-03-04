@@ -234,3 +234,6 @@ Altækar\-víddir eru alltaf skilgreindar og nefndar af fyrirtækjum. Til að sj
 [Fjármál](finance.md)  
 [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

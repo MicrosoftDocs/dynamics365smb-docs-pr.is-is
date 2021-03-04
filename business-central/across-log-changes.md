@@ -88,3 +88,5 @@ Hægt er að búa til varðveislureglur til að eyða ónauðsynlegum gögnum í
 [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md)    
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skilgreina varðveislureglur](admin-data-retention-policies.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Ef eignirnar eru ekki samþættar fjárhag er sleppt lið 6 og 8.
 [Fjármál](finance.md)  
 [Hafist handa](product-get-started.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

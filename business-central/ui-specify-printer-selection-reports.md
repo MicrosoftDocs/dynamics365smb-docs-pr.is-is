@@ -91,3 +91,6 @@ Tilgreind skýrsla er nú uppsett til prentunar í völdum sjálfgefnum prentara
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Keyra runuvinnslur](ui-how-run-batch-jobs.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

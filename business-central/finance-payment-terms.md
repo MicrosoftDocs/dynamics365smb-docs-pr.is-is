@@ -47,3 +47,6 @@ Ef senda á viðskiptavini áminningar um gjaldfallnar greiðslur þarf að setj
 [Skráning nýrra lánardrottna](purchasing-how-register-new-vendors.md)  
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

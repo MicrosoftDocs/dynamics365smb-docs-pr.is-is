@@ -162,3 +162,6 @@ Innheimtu beingreiðslu er bætt við síðuna **Innheimta beingreiðslu** og ei
 ## <a name="see-also"></a>Sjá einnig  
 [Stjórnun skulda](receivables-manage-receivables.md)  
 [Þjónustukerfi](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

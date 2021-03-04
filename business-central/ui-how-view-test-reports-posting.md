@@ -34,3 +34,6 @@ Allir hlutar innkaupareikningsins eru prófaðir og niðurstöðurnar birtar í 
 ## <a name="see-also"></a>Sjá einnig
 [Bókun skjala og færslubóka](ui-post-documents-journals.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

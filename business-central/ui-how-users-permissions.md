@@ -157,3 +157,6 @@ Fyrir uppsetningar innanhúss býr stjórnandinn til, breytir og eyðir notendum
 [Stjórnun](admin-setup-and-administration.md)  
 [Bæta notendum við Microsoft 365 for Business](https://aka.ms/CreateOffice365Users)  
 [Öryggi og vernd í Business Central (efni stjórnenda)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

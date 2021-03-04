@@ -132,3 +132,6 @@ Reitirnir **Dagsetning skjals**, **Upphæð** á síðunni **Fjárhagsfærslur V
 [Greining á sjóðstreymi í fyrirtækinu þínu](finance-analyze-cash-flow.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

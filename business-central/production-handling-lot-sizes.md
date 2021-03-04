@@ -52,3 +52,6 @@ Fyrir framboðsáætlun virkar stilling lotustærðar með **Sjálfgefnar hömlu
 [Vinna með mælieiningu framleiðslukeyrslu](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Stofna leiðir](production-how-to-create-routings.md)  
 [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

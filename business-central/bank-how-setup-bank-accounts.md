@@ -56,3 +56,6 @@ Reitir á **Flutningur** flýtiflipanum á síðunni **Bankareikningsspjald lán
 [Uppsetning bókunarflokka](finance-posting-groups.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

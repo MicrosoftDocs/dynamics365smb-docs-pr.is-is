@@ -275,3 +275,6 @@ Endurflokkun vörurakningar fyrir vöru þýðir að breyta lotu- eða raðnúme
 [Hönnunarupplýsingar - vörurakning og frátekning](design-details-item-tracking-and-reservations.md)  
 [Taka frá vörur](inventory-how-to-reserve-items.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Ef ekki er tilgreind umbeðin afgreiðsludagsetning á sölupöntunarlínunni, e
  [Dagsetning útreiknings fyrir kaup.](purchasing-date-calculation-for-purchases.md)   
  [Reikna dagsetningar pöntunarloforða](sales-how-to-calculate-order-promising-dates.md)  
  [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

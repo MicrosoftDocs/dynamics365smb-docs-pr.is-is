@@ -118,3 +118,6 @@ Flæði vara á milli hólfa innan fyrirtækis snýst um að tína íhluti og ta
 
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

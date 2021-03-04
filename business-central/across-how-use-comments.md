@@ -39,3 +39,6 @@ Eftirfarandi lýsir því hvernig á að bæta athugasemd við birgðaspjald. Sk
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

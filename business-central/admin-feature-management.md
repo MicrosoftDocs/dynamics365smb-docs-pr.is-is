@@ -25,3 +25,6 @@ Nánari upplýsingar um [eiginleikastjórnun](/dynamics365/business-central/dev-
 ## <a name="see-also"></a>Sjá einnig .
 
 [Nýir og fyrirhugaðir eiginleikar](https://aka.ms/Dynamics365ReleasePlan)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

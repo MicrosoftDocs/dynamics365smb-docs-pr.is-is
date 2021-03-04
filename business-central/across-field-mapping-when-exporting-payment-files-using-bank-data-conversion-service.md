@@ -72,3 +72,6 @@ Eftirfarandi tafla inniheldur lista yfir reiti í [!INCLUDE[prod_short](includes
 [Rafræn gagnaskipti](across-data-exchange.md)
 [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md)   
 [Greiða með AMC Banking 365 Fundamentals viðbótinni eða SEPA-kreditfærslu](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

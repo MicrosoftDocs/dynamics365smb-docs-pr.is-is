@@ -54,3 +54,6 @@ Ef þú ert vanur því að vinna með tengiliði í [!INCLUDE[prod_short](inclu
 [Sala](sales-manage-sales.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Nota tengiliði (einstaklinga) í Outlook á vefnum](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

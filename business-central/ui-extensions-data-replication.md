@@ -45,3 +45,6 @@ Ef þú ert að nota Dynamics SL skaltu ná í viðbæturnar **Snjallskýsgrunnu
 
 [Snjöll innsýn](about-intelligent-cloud.md)  
 [Snjallskýjaviðbót](ui-extensions-intelligent-cloud.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

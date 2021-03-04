@@ -39,3 +39,5 @@ Bókunarviðmót og sumar aðrar aðgerðir í kóðaeiningu 12 nota aðgerðir 
   
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar: Uppbygging bókunarviðmóts](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

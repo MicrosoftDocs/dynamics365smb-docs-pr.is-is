@@ -73,3 +73,6 @@ Að auki er sérhver skilgreining í töflunni Vaxtaskilmálar tengdur undirtöf
 [Innheimta útistandandi skuldir](receivables-collect-outstanding-balances.md)  
 [Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

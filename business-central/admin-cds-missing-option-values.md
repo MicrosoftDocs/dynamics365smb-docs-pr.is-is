@@ -146,3 +146,5 @@ Taflan **Greiðsluskilmálar** í [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## <a name="see-also"></a>Sjá einnig
 [Vörpun á töflum og reitum fyrir samstillingu](admin-how-to-modify-table-mappings-for-synchronization.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

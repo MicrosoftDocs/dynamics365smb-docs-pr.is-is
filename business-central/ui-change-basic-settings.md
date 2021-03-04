@@ -93,3 +93,6 @@ Velja þennan hlekk til að skoða eða breyta tilkynningum um tiltekin tilvik e
 [Stofna ný fyrirtæki](about-new-company.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

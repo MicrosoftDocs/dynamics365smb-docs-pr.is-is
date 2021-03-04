@@ -126,3 +126,6 @@ Eftir að notandi hefur bætt öllum nauðsynlegum töflum við grunnstillingarp
 [Uppsetning grunnstillingu fyrirtækis](admin-set-up-company-configuration.md)  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

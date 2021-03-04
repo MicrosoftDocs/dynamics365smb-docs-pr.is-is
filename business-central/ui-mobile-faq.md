@@ -67,3 +67,6 @@ Já, þú getur það! Það er örlítið mismunandi leið til að skrá sig in
 
 [Nota Business Central á fartækinu þínu](install-mobile-app.md)  
 [Setja upp Business Central-forritið fyrir Microsoft Teams](across-install-app-for-teams.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

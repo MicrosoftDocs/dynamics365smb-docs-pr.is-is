@@ -64,3 +64,6 @@ Til að setja upp vísi tilgreinirðu allt að tvö þröskuldsgildi sem tilgrei
     |**Undirstig**|Grár|  
 
 ## <a name="see-also"></a>Sjá einnig
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

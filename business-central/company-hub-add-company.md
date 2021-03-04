@@ -47,3 +47,6 @@ Tengillinn er notaður þegar fyrirtækið er valið í fyrirtækjamiðstöðinn
 
 [Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni](company-hub.md)  
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

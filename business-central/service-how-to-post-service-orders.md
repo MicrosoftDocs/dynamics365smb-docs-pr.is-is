@@ -132,3 +132,6 @@ Eftirfarandi ferli lýsir bókun afhendingar beint úr þjónustupöntun í birg
 ## <a name="see-also"></a>Sjá einnig  
 [Bókun í þjónustukerfi](service-service-posting.md)  
 [Stofnun þjónustupöntunar](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

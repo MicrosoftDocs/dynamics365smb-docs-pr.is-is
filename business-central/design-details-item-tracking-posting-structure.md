@@ -48,3 +48,5 @@ Kóðaeining 22 lykkjast gegnum vörurakningarnúmer og skiptir bókuninni í þ
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: vörurakning](design-details-item-tracking.md)   
 [Hönnunarupplýsingarn: vörurakning hönnun](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Herferðir eru framkvæmdar ef sölufólki, og þú þarft að skapa aðgerðir 
 [Umsjón hluta](marketing-segments.md)  
 [Umsjón sölutækifæra](marketing-manage-sales-opportunities.md)  
 [Vinna með Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

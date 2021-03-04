@@ -24,3 +24,6 @@ ms.locfileid: "4751656"
 [Yfirlit yfir víddasamstæðufærslur](design-details-dimension-set-entries-overview.md)  
 [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)  
 [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

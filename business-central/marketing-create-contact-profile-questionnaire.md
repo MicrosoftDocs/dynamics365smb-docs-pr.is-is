@@ -158,3 +158,6 @@ Svo er síðan **Upplýs. forstillingarspurningar** fylltur út sem hér segir:
 
 ## <a name="see-also"></a>Sjá einnig
 [Stofna tengiliði](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

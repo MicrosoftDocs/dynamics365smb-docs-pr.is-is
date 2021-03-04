@@ -51,3 +51,6 @@ Síðan tengist einnig Power BI fyrir enn meiri innsýn.
 [Velkomin(n) í Business Central](index.md)  
 [Snjallskýsviðbætur fyrir flutningi í skýi](ui-extensions-data-replication.md)  
 [Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -27,3 +27,6 @@ Fjárhagsreikningar eru tengdir fyrirfram skilgreindum reikningskótum hins opin
 
 ## <a name="see-also"></a>Sjá einnig
 [Senda VSK skýrslu inn til skattayfirvalda](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Greiðslubókin er færslubók sem er fínstillt til að framkvæma greiðlsur. 
 [Vinna í færslubókum](ui-work-general-journals.md)  
 [Sérstilling verksvæðis](ui-personalization-user.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Hægt er að nota síðuna **Athugasemdablað almennrar þjónustu** til að skr
   
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning lánsbúnaðarkerfis](service-how-setup-loaner-program.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

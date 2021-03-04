@@ -130,3 +130,6 @@ Ef viðskiptasviðsmynd kallar á verkflæðistilvik eða -viðbrögð sem ekki 
 [Nota Samþykktarverkflæði](across-how-use-approval-workflows.md)  
 [Verkflæði](across-workflow.md)  
 [Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Auðvelt er að hefjast handa Það eina sem þú þarft að gera er að keyra *
 
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

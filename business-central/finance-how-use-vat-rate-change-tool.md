@@ -112,3 +112,6 @@ Breytingarverkfæri VSK-hlutfalls er notað til að stjórna breytinum á stöð
 [Senda VSK skýrslu inn til skattayfirvalda](finance-how-report-vat.md)  
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  
 [Staðbundin virkni í Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

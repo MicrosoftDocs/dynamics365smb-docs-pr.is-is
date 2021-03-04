@@ -147,3 +147,6 @@ Nú hefur uppsetning með fyrirtækjaupplýsingum og reglum viðskiptavinar veri
 ## <a name="see-also"></a>Sjá einnig  
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

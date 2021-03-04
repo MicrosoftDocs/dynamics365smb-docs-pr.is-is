@@ -38,3 +38,6 @@ Fyrir launagreiðslur og tengdar færslur verður að flytja inn og birta fjárh
 [Fjármál](finance.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

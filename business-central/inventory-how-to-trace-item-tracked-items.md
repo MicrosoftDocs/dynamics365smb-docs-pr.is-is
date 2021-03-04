@@ -72,3 +72,6 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 [Vinna með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Kynning: Rekja rað- og lotunúmer](walkthrough-tracing-serial-lot-numbers.md).  
 [Finna færslur](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

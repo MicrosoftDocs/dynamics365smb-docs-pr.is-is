@@ -45,3 +45,6 @@ Hægt er að búa til verkflæði með verkflæðissniðmátum til að spara tí
  [Uppsetning verkflæðis](across-set-up-workflows.md)   
  [Nota verkflæði](across-use-workflows.md)   
  [Verkflæði](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

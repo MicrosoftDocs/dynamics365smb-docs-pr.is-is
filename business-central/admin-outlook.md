@@ -82,3 +82,6 @@ Viðbæturnar eru ætlaðar til notkunar með Microsoft 365 . Ef þú notar [!IN
 [Innkaup](purchasing-manage-purchasing.md)  
 [Lágmarkskröfur fyrir Outlook](product-requirements.md#outlook)  
 [Notkun innbóta í Outlook á vefnum](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -100,3 +100,6 @@ Til dæmis er sjálfgefið að GJALDMIÐILL verkraðarfærsla, sem samstillir gj
 [Samstilla töfluvarpanir handvirkt](admin-manual-synchronization-of-table-mappings.md)  
 [Áætla samstillingu milli Business Central og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Um samstillingu Dynamics 365 Business Central við [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

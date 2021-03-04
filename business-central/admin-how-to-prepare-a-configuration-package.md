@@ -175,3 +175,6 @@ Eftir að hafa skilgreint töflurnar sem á að fara með sem hluta af grunnstil
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)  
 [Greining á fjarmælingu á rakningu grunnstillingapakka](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

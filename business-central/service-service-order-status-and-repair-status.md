@@ -94,3 +94,6 @@ Ef ein þjónustuvara er til dæmis með viðgerðarstöðuna **Byrjun** tengda 
 
 [Setja upp stöður fyrir þjónustupantanir og viðgerðir](service-order-repair-status.md)  
 [Þjónustustýring sett upp](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

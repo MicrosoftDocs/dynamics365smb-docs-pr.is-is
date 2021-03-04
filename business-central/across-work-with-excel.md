@@ -62,3 +62,6 @@ Ef verið er að gera breytingar á innbótinni verður að endurhlaða hana til
 [Greina fjárhagsskýrslur í Microsoft Excel](finance-analyze-excel.md)  
 [Unnið með Business Central](ui-work-product.md)  
 [Endurbætur á Excel-samþættingu í 2019 útgáfu 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

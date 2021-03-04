@@ -149,3 +149,6 @@ Forstillt þjónusta fyrir skjalaskipti og OCR verður að vera virkt fyrir send
 [Rafræn gagnaskipti](across-data-exchange.md)   
 [Reikningsfæra sölur](sales-how-invoice-sales.md)   
 [Skrá innkaup](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

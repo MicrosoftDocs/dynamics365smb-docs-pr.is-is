@@ -146,3 +146,6 @@ Til að hjálpa þér að skilja sérstillingar eru hér nokkrar ábendingar.
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

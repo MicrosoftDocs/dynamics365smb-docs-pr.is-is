@@ -57,3 +57,6 @@ Hægt er að úthluta færslu úr ítrekunarfærslubók til nokkurra reikninga �
 [Vinna í færslubókum](ui-work-general-journals.md)    
 [Að bóka skjöl og færslubækur](ui-post-documents-journals.md)    
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Frekari upplýsingar er að finna í [Velja útlit ávísunar](finance-how-defin
 [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
 [Velja útlit ávísunar](finance-how-define-check-layouts.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

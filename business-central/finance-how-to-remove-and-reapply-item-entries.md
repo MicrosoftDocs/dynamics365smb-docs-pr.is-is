@@ -78,3 +78,6 @@ Ef ekki er hægt að nota skjal til að endurjafna, s.s. þegar leiðrétta á f
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md)   
  [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
  [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

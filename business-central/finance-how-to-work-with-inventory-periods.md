@@ -69,3 +69,6 @@ Hægt er að loka hvaða birgðatímabili sem er, að því gefnu að eftirfaran
 [Fjármál](finance.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Unnið með Financials](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

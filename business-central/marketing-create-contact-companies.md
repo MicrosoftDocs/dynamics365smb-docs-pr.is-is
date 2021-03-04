@@ -116,3 +116,6 @@ Ef einhverjir tengiliðir eru einnig viðskiptamenn, lánardrottnar eða bankare
 [Vinna með tengiliði](marketing-contacts.md)  
 [Uppsetning tengiliða](marketing-setup-contacts.md)  
 [Unnið með Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

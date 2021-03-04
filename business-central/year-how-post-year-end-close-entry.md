@@ -36,3 +36,6 @@ Eftir að runuvinnslan **Loka rekstrarreikningi** hefur verið notuð til að my
 [Bókum lokað](year-close-books.md)  
 [Loka rekstrarreikningi](year-close-income-statement.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

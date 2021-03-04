@@ -39,3 +39,6 @@ Hægt er að setja upp og nota verkflæði sem tengja viðskiptaferlisverk sem f
 [Uppsetning verkflæðis](across-set-up-workflows.md)   
 [Verkflæði](across-workflow.md)   
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

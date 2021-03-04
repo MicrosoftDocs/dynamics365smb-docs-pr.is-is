@@ -42,3 +42,6 @@ Ef þú ert kerfisstjóri eða yfirnotandi getur þú hjálpað öðrum með þv
 [Algengar spurningar um að afrita og líma](faq-copy-paste.yml)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Hafist handa](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -26,3 +26,6 @@ Viðbótin er ókeypis, þú þarft bara að setja hana upp.
 
 ## <a name="see-also"></a>Sjá einnig
 [Sérstilling Business Central með viðbótum](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

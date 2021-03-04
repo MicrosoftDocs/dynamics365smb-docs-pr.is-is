@@ -40,3 +40,6 @@ Síðan **Safn verkflæðisskrefstilvika** opnast og sýnir verkflæðisskrefsti
  [Uppsetning verkflæðis](across-set-up-workflows.md)   
  [Nota verkflæði](across-use-workflows.md)   
  [Verkflæði](across-workflow.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Til að flytja verkflæði í annan [!INCLUDE[prod_short](includes/prod_short.md
  [Uppsetning verkflæðis](across-set-up-workflows.md)   
  [Nota verkflæði](across-use-workflows.md)   
  [Verkflæði](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -143,3 +143,6 @@ Eftirfarandi aðferð sýnir hvernig forðalínum er skipt upp á síðunni **Þ
 ## <a name="see-also"></a>Sjá einnig
 [Setja upp forðaúthlutun](service-how-setup-resource-allocation.md)  
 [Úthlutunarstaða og viðgerðarstaða](service-allocation-status-and-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

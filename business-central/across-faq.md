@@ -147,3 +147,6 @@ Fyrstu útgáfur af [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum f
 [Algengar spurningar um þróunaraðila og ITPro upplifun](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

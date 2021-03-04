@@ -64,3 +64,6 @@ Listinn yfir bankagagnasnið sem eru studd af AMC Banking 365 Fundamentals-viðb
 [Uppsetning bankaþjónustu](bank-setup-banking.md)  
 [Afstemming bankareikninga](bank-manage-bank-accounts.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Eftirfarandi tafla sýnir einfaldað yfirlit yfir XML af sérsniðnum XML-hluta.
   
 ## <a name="see-also"></a>Sjá einnig  
  [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

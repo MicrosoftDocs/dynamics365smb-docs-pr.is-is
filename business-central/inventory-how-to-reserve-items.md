@@ -99,3 +99,6 @@ Eftirfarandi ferli byggist á sölupöntun.
 [Hönnunarupplýsingar - vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
 [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

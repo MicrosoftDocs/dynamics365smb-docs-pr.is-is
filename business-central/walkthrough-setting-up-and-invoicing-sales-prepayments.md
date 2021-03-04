@@ -219,3 +219,6 @@ Fyrirframgreiðslueiginleikinn í [!INCLUDE[prod_short](includes/prod_short.md)]
 [Fjármál](finance.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

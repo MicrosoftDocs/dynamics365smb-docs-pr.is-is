@@ -199,3 +199,6 @@ Herferð er hver sú aðgerð sem hefur með marga tengiliði að gera. Mikilvæ
 [Umsjón með venslum](marketing-relationship-management.md)  
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)  
  [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

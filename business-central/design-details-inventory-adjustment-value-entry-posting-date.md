@@ -365,3 +365,6 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 ## <a name="see-also"></a>Sjá einnig  
 [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)  
 [Hönnunarupplýsingar: Umsókn vöru](design-details-item-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

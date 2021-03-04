@@ -74,3 +74,6 @@ Ef þegar er búið að setja upp annað verð fyrir hluta af forðanum er hægt
 [Innkaup](purchasing-manage-purchasing.md)         
 [Sala](sales-manage-sales.md)     
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

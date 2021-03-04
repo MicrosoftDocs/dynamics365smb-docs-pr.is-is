@@ -62,3 +62,6 @@ Hægt er að afmarka færslur sem eiga að vera samstilltar með því að bera 
 [Uppsetning á tengingu við Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Tengja og samstilla færslur handvirkt](admin-how-to-couple-and-synchronize-records-manually.md)  
 [Skoða stöðu á samstillingu](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Færslubókin mun innihalda gildi sem enn á eftir að bóka, ef einhver eru, n�
 [Birgðir](inventory-manage-inventory.md)  
 [Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

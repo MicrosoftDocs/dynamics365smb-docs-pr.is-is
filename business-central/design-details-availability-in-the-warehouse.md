@@ -77,3 +77,6 @@ Ef eitt eða fleiri skilyrði eru ekki uppfyllt geta mismunandi villuboð verið
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
  [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -35,3 +35,6 @@ ms.locfileid: "3916319"
  [Nota verkflæði](across-use-workflows.md)   
  [Kynning: Uppsetning og notkun verkflæði innkaupasamþykktar](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Verkflæði](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -267,3 +267,6 @@ Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga 
  [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)   
  [Kynning: Handvirk áætlun birgða](walkthrough-planning-supplies-manually.md)   
  [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

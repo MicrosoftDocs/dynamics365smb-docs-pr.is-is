@@ -110,3 +110,6 @@ Raunkostnaður er bókaður á framleiðslupöntunina og borinn saman við stað
  [Hönnunarupplýsingar: Bókun samsetningarpöntunar](design-details-assembly-order-posting.md)  
  [Birgðakostnaði stjórnað](finance-manage-inventory-costs.md) [Fjármál](finance.md)  
  [Unnið með Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er t.d. hægt a
 [Úthluta leyfi til notenda og hópa](ui-define-granular-permissions.md)  
 [Sérsníða síður fyrir forstillingar](ui-personalization-manage.md)  
 [Sérstilling verksvæðis](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Uppsetningin þín ákvarðar hvenær bókun á sér stað. Til dæmis er tímas
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

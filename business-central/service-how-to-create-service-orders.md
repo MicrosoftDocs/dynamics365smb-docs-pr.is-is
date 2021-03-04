@@ -110,3 +110,6 @@ Forritið eyðir þjónustupöntun ekki sjálfkrafa ef heildarmagn pöntunarinna
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Vinna við þjónustuverk](service-how-to-work-on-service-tasks.md)  
 [Úthluta forða](service-how-to-allocate-resources.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

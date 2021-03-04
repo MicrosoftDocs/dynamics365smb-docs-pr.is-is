@@ -73,3 +73,6 @@ Hægt er síðan að fylla inn í eða breyta reitum á nýja birgðaspjaldinu e
 [Sérstakar pantanir stofnaðar](sales-how-to-create-special-orders.md)|  
 [Birgðir](inventory-manage-inventory.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

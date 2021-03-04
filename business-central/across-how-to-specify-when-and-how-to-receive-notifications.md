@@ -66,3 +66,6 @@ ms.locfileid: "3916294"
  [Setja upp tilkynningar verkflæðis](across-setting-up-workflow-notifications.md)   
  [Uppsetning verkflæðis](across-set-up-workflows.md)   
  [Nota verkflæði](across-use-workflows.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

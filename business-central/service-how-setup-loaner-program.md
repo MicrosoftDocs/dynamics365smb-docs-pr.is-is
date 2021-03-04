@@ -35,3 +35,6 @@ Stundum þarf að sjá viðskiptamönnum fyrir lánsbúnaði til notkunar meðan
 [Þjónustustýring sett upp](service-setup-service.md)  
 [Þjónustuafhending](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

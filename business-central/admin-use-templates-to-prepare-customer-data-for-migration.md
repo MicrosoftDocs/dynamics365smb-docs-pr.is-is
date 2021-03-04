@@ -158,3 +158,6 @@ Sjálfgefin gildi í völdu viðskiptamannasniðmáti eru sett inn á viðskipta
 [Uppsetning fyrirtækis með RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Stjórnun](admin-setup-and-administration.md)  
 [Skrá nýja viðskiptamenn](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Eftirfarandi aðgerð er til að uppfæra greiningaryfirlit af síðunni **Grein
 [Fjárhagur og bókhaldslyklar](finance-general-ledger.md)  
 [Unnið með víddir](finance-dimensions.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

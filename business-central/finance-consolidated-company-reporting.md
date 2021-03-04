@@ -120,3 +120,6 @@ Ef gögn fyrirtækiseiningar eru í öðrum gagnagrunni þarf að flytja gögnin
 [Vinna með millifyrirtækjafærslur](intercompany-manage.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Flutningur viðskiptagagna í Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Upplýsingar um hvernig á að breyta því hvaða útlit er notað eru í [Brey
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

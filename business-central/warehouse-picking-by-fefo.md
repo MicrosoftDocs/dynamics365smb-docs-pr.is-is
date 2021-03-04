@@ -49,3 +49,6 @@ Ef reiturinn **Ströng lokasöludagsetning** er valinn. munu aðeins vörur sem 
 [Hönnunarupplýsingar vöruhúsakerfi](design-details-warehouse-management.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

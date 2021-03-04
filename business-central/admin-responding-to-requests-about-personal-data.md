@@ -62,3 +62,6 @@ Ef tengiliðar er undir lögaldri samkvæmt lögum á þínu svæði getur þú 
 [Flutningur viðskiptagagna í Excel](about-export-data.md)  
 [Skráning breytinga](across-log-changes.md)  
 [Beiðni skráðs einstaklings fyrir almennu persónuverndarreglugerðinni](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

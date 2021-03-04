@@ -67,3 +67,6 @@ Eftir að útlitinu er breytt skaltu reyna að uppfæra það afur.
 ## <a name="see-also"></a>Sjá einnig  
  [Stjórnun skýrsluútlita](ui-manage-report-layouts.md)  
  [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

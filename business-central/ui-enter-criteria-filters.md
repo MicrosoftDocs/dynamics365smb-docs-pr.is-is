@@ -307,3 +307,6 @@ Notaðu `%myvendors` í lánardrottinn **Nr** reitnum, til að birta allar skrá
 [Algengar spurningar um leit og síun](ui-search-filter-faq.md)  
 [Vista og sérsníða listayfirlit](ui-views.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Viljirðu fela [!INCLUDE[prod_short](includes/prod_short.md)] fyrir forritavalmy
 [Flutningur viðskiptagagna í Excel](about-export-data.md)  
 [Microsoft 365 stjórnendamiðstöð](https://admin.microsoft.com/)  
 [Hve lengi er prufutímabilið og hvernig hætti ég við?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

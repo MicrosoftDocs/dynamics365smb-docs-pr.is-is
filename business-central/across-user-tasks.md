@@ -48,3 +48,6 @@ Ef þú vilt eyða öllum eða einhverjum verkefnum í einu geturðu notað **Ey
 
 [Leit að síðu eða skýrslu](ui-search.md)  
 [Endurskoðandi upplifun í [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

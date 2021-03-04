@@ -98,3 +98,6 @@ Eftirfarandi hlutar benda á helstu greinar þar sem hægt er að fá upplýsing
 [Kynning á docs.microsoft.com (upprunaleg bloggfærsla)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

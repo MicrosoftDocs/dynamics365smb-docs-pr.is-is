@@ -64,3 +64,6 @@ Til að spá fyrir um sölu í framtíðinni þarf vefþjónustan magnbundin gö
 [Sala](sales-manage-sales.md)  
 [Birgðir](inventory-manage-inventory.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

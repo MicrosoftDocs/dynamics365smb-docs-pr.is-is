@@ -141,3 +141,6 @@ Docs.microsoft.com hýsir efni fyrir aðrar vörur sem og aðrar gerðir efnis. 
 [Þróunaraðili Business Central og skjalastjórnun](/dynamics365/business-central/dev-itpro/)  
 [Úrlausnir fyrir hjálp og notendaþjónustu fyrir samstarfsaðila](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Tæknilegur stuðningur](/dynamics365/business-central/dev-itpro/technical-support)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

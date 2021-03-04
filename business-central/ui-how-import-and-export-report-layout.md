@@ -55,3 +55,6 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
  [Búa til og breyta sérsniðnu skýrsluútliti](ui-how-create-custom-report-layout.md)   
  [Stjórna útliti skýrslna og skjala](ui-manage-report-layouts.md)  
  [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

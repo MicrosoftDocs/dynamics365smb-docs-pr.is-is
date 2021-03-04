@@ -71,3 +71,6 @@ Til dæmis hin sjálfgefna stöðuyfirlit hefur undirflokk fyrir reiðufé í ei
 [Fjármál](finance.md)  
 [Uppsetning eða breyting á bókhaldslykli](finance-setup-chart-accounts.md)  
 [Viðskiptaupplýsingar](bi.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

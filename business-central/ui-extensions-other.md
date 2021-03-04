@@ -27,3 +27,6 @@ Listi yfir viðbætur frá öðrum fyrirtækjum lengist í hverjum mánuði. Fyl
 
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Hafist handa](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
