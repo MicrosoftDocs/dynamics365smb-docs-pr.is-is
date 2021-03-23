@@ -110,6 +110,7 @@
 #### [Setja upp skilmála og stig innheimtubréfa](finance-setup-reminders.md)
 #### [Setja upp vaxtaskilmála](finance-setup-finance-charges.md)
 #### [Setja upp virðisaukaskatt (VSK)](finance-setup-vat.md)
+#### [Uppsetning fyrir útreikning og bókunaraðferðir virðisaukaskatts (VSK)](finance-setup-vat.md)
 #### [Uppsetning óinnleyst virðisaukaskatts fyrir reiðufé](finance-setup-unrealized-vat.md)
 #### [Staðfesta VSK-skráningarnúmer](finance-how-validate-vat-registration-number.md)
 #### [Uppsetning upprunakóða og ástæðukóða fyrir endurskoðunarslóðir](finance-setup-trail-codes.md)
@@ -437,6 +438,7 @@
 ##### [Reitarvörpun fyrir AMC Banking 365 Fundamentals viðbótina](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Fjármál
 ### [Yfirlit yfir Fjármál](finance.md)
+### [Fjárhagsskýrslur](finance-reports.md)
 ### Stjórnun útistandandi reikninga
 #### [Yfirlit útistandandi](receivables-manage-receivables.md)
 #### Jafna greiðslur sjálfkrafa og afstemma bankareikninga
@@ -560,10 +562,11 @@
 ### [Flytja bankainnstæður](bank-how-transfer-bank-funds.md)
 ### [Upplifun endurskoðanda í Business Central](finance-accounting.md)
 
-## Viðskiptaupplýsingar
-### [Yfirlit BI](bi.md)
+## Viðskiptagreind og Financial Reporting
+### [Yfirlit yfir viðskiptagreind og Financial Reporting](bi.md)
+### [Fjárhagsskýrslur](finance-reports.md)
 ### [Greina raunverulegar og áætlaðar upphæðir](bi-how-analyze-actual-versus-budget.md)
-### [Undirbúa fjárhagsskýrslugerð með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)
+### [Undirbúa Financial Reporting með fjárhagsskemu og lyklategundum](bi-how-work-account-schedule.md)
 ### [Setja upp og gefa út KPI-vefþjónustu sem byggir á fjárhagsskemum](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Greina gögn eftir víddum](bi-how-analyze-data-dimension.md)
 ### [Stofna greiningarskýrslur](bi-how-create-analysis-views-reports.md)
@@ -1533,7 +1536,7 @@
 
 # Öryggi, persónuvernd, reglufylgni
 ## Öryggi og vörn
-### [Yfirlit yfir öryggi og varnir](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Yfirlit yfir öryggi og varnir (aðeins enska)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Leynd
 ### [Persónuvernd (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
 ## Reglufylgni
@@ -1541,6 +1544,7 @@
 ### [Reglufylgni forrits](compliance/compliance-application-compliance.md)
 ### [Reglufylgni þjónustu](compliance/compliance-service-compliance.md)
 ### [Vottanir](compliance/compliance-certifications.md)
+## [Yfirlit yfir þjónustu (aðeins enska)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 
 # Þróun og stjórnun
 ## [Hefjast handa með fylgiskjöl þróunar og stjórnunar](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)

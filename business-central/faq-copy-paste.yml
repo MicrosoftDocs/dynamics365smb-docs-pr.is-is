@@ -2,18 +2,12 @@
 metadata:
   title: Algengar spurningar um að afrita og líma gögn
   description: Fáðu svör við algengum spurningum um að afrita og líma gögn úr reitum og línum af síðum Business Central.
-  author: SorenGP
-  ms.topic: article
-  ms.service: dynamics365-business-central
-  ms.search.keywords: accessibility, shortcuts, keyboarding
-  ms.date: 01/08/2021
-  ms.author: edupont
-  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
-  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.openlocfilehash: 7d3d0e29bb6751913297974f611aa9695677ed66
+  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
   ms.translationtype: HT
   ms.contentlocale: is-IS
-  ms.lasthandoff: 01/15/2021
-  ms.locfileid: "5013922"
+  ms.lasthandoff: 02/15/2021
+  ms.locfileid: "5181830"
 title: Algengar spurningar um að afrita og líma
 summary: "Þú getur afritað eina eða fleiri raðir (færslur) úr lista eða einum reit á síðu og síðan líma það sem þú afritaðir á sömu síðu, aðra síðu eða ytri skjal (eins og Microsoft Excel og Outlook tölvupóst).  \n\nÍ stuttu máli, til að afrita, ýtirðu á CTRL+C (cmd+C í macOS) á lyklaborðinu þínu. Til að líma er stutt á CTRL+V (cmd+V í macOS). Það eru nokkrir aðrir flýtilyklar til að afrita og líma sem hjálpa þér að spara tíma þegar þú slærð inn gögn. Nánari upplýsingar um þetta er að finna í [Flýtilykla](keyboard-shortcuts.md#CopyRows). Þessi grein svarar algengum spurningum sem þú gætir haft um að afrita og líma.  \n"
 sections:

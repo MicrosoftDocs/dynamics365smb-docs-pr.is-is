@@ -3,23 +3,23 @@ title: 'Hvernig á að: Breyta áætlunartillögum í myndrænu yfirliti | Micro
 description: Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður þær eru færðar inn með því að keyra aðgerðina Framkvæma aðgerðarboð. Í stað þess að gera þetta í áætlunarvinnublaðinu er notað myndrænt yfirlit.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d00650a3490cd4995e4c531aca5346c8c0256179
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a17ce72c88ecb9df07169814a50701635239d725
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759268"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381316"
 ---
-# <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="9ff86-104">Breyta áætlunartillögum í myndrænu yfirliti</span><span class="sxs-lookup"><span data-stu-id="9ff86-104">Modify Planning Suggestions in a Graphical View</span></span>
+# <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="d494c-104">Breyta áætlunartillögum í myndrænu yfirliti</span><span class="sxs-lookup"><span data-stu-id="d494c-104">Modify Planning Suggestions in a Graphical View</span></span>
 
-<span data-ttu-id="9ff86-105">Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður þær eru færðar inn með því að keyra aðgerðina **Framkvæma aðgerðarboð**.</span><span class="sxs-lookup"><span data-stu-id="9ff86-105">A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function.</span></span> <span data-ttu-id="9ff86-106">Í stað þess að gera þetta í áætlunarvinnublaðinu er notað myndrænt yfirlit.</span><span class="sxs-lookup"><span data-stu-id="9ff86-106">An alternative to doing this in the planning worksheet is to use a graphical view.</span></span> <span data-ttu-id="9ff86-107">Þetta er hins vegar ekki stutt eins og er í [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="9ff86-107">However, this is currently not supported in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
+<span data-ttu-id="d494c-105">Dæmigerð verkþáttaáætlun er til að breyta eða bæta við línum áætlunarvinnublaðs til að breyta þeim birgðapöntunum sem lagðar eru til áður þær eru færðar inn með því að keyra aðgerðina **Framkvæma aðgerðarboð**.</span><span class="sxs-lookup"><span data-stu-id="d494c-105">A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function.</span></span> <span data-ttu-id="d494c-106">Í stað þess að gera þetta í áætlunarvinnublaðinu er notað myndrænt yfirlit.</span><span class="sxs-lookup"><span data-stu-id="d494c-106">An alternative to doing this in the planning worksheet is to use a graphical view.</span></span> <span data-ttu-id="d494c-107">Þetta er hins vegar ekki stutt eins og er í [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="d494c-107">However, this is currently not supported in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
@@ -93,13 +93,16 @@ To implement the supply plan changes, you must follow the resulting action messa
  |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="9ff86-108">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="9ff86-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d494c-108">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="d494c-108">See Also</span></span>
 
-[<span data-ttu-id="9ff86-109">Áætlun</span><span class="sxs-lookup"><span data-stu-id="9ff86-109">Planning</span></span>](production-planning.md)  
-[<span data-ttu-id="9ff86-110">Uppsetning framleiðslu</span><span class="sxs-lookup"><span data-stu-id="9ff86-110">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-[<span data-ttu-id="9ff86-111">Framleiðsla</span><span class="sxs-lookup"><span data-stu-id="9ff86-111">Manufacturing</span></span>](production-manage-manufacturing.md)  
-[<span data-ttu-id="9ff86-112">Birgðir</span><span class="sxs-lookup"><span data-stu-id="9ff86-112">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="9ff86-113">Innkaup</span><span class="sxs-lookup"><span data-stu-id="9ff86-113">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="9ff86-114">Hönnunarupplýsingar: framboðsáætlun</span><span class="sxs-lookup"><span data-stu-id="9ff86-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)  
-[<span data-ttu-id="9ff86-115">Uppsetning bestu venja: Framboðsáætlun</span><span class="sxs-lookup"><span data-stu-id="9ff86-115">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
-<span data-ttu-id="9ff86-116">[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9ff86-116">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+[<span data-ttu-id="d494c-109">Áætlun</span><span class="sxs-lookup"><span data-stu-id="d494c-109">Planning</span></span>](production-planning.md)  
+[<span data-ttu-id="d494c-110">Uppsetning framleiðslu</span><span class="sxs-lookup"><span data-stu-id="d494c-110">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+[<span data-ttu-id="d494c-111">Framleiðsla</span><span class="sxs-lookup"><span data-stu-id="d494c-111">Manufacturing</span></span>](production-manage-manufacturing.md)  
+[<span data-ttu-id="d494c-112">Birgðir</span><span class="sxs-lookup"><span data-stu-id="d494c-112">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="d494c-113">Innkaup</span><span class="sxs-lookup"><span data-stu-id="d494c-113">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="d494c-114">Hönnunarupplýsingar: framboðsáætlun</span><span class="sxs-lookup"><span data-stu-id="d494c-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)  
+[<span data-ttu-id="d494c-115">Uppsetning bestu venja: Framboðsáætlun</span><span class="sxs-lookup"><span data-stu-id="d494c-115">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+<span data-ttu-id="d494c-116">[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d494c-116">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
