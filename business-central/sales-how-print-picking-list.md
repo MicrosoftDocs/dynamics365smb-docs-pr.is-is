@@ -3,19 +3,19 @@ title: Hvernig á að prenta birgðatínslulista úr sölupöntun
 description: Hægt er að nota tiltektarlista birgða beint úr sölupöntun, sölu, reikningi og öðrum söluskjölum á útleið.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 47ae132d862d2c05bef4ea0d0af26688bdd16588
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 48c1a45e1abc510ce98f405dcdecc5d91d1a9ac5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758218"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393725"
 ---
 # <a name="print-the-picking-list"></a>Prenta tiltektarlistann.
 Hægt er að hlaða tiltektarlista beint úr sölupöntun, sölureikningi eða öðru skjali sem ræsir vörur.

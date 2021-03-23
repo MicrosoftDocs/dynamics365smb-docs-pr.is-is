@@ -4,12 +4,12 @@ ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: 1b9f60eab5b0bcf812343e82389087ac5535301a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d58d8d628577f163d36199b8fc5785982aac830a
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749781"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493001"
 ---
 Áður en hægt er að setja upp tölvupóstsskráningu þarf að undirbúa Exchange Online með [opnum möppum](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). Hægt er að gera þetta í [Exchange stjórnendamiðstöðinni](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ) eða nota [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
@@ -72,4 +72,4 @@ Eftirfarandi listi lýsir helstu skrefum til að fá frekari upplýsingar um ten
   Frekari upplýsingar er að finna á [Reglum um póstflæði í Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) og [Aðgerðum reglu um póstflæði í Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
-> Ef gerðar eru breytingar á Exchange Management Shell verða breytingarnar sýnilegar í stjórnunarmiðstöð Exchange eftir nokkra töf. Einnig verða breytingar sem gerðar hafa verið í Exchange í boði í [!INCLUDE[prod_short](prod_short.md)] eftir seinkun.
+> Ef gerðar eru breytingar á Exchange Management Shell verða breytingarnar sýnilegar í stjórnunarmiðstöð Exchange eftir nokkra töf. Einnig verða breytingar sem gerðar hafa verið í Exchange í boði í [!INCLUDE[prod_short](prod_short.md)] eftir seinkun. Seinkunin gæti verið margar klukkustundir.

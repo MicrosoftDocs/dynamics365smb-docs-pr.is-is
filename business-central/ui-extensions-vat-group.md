@@ -4,19 +4,19 @@ description: Hægt er að tengjast við önnur fyrirtæki til að mynda VSK-hóp
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: ebe3c8748da04a2552f8f3d10967303459ba23c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757043"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498588"
 ---
 # <a name="the-vat-group-management-extension"></a>Viðbót fyrir stjórnun VSK-hóps
 
@@ -111,6 +111,9 @@ Til að gefa upp VSK fyrir hönd hópsins skal á síðunni **VSK-skýrslur** st
 
 > [!NOTE]
 > Meðlimir VSK-hóps geta leiðrétt innsendar VSK-skýrslur svo lengi sem fulltrúi hópsins hafi ekki sent frá sér VSK-skýrsluna fyrir hópinn. Til að gera leiðréttingu verður meðlimur VSK-hópsins að búa til VSK-skýrslu fyrir tímabil VSK-skýrslunnar og senda hana til fulltrúa VSK-hópsins. Hjá fulltrúa VSK-hópsins verður nýjasta VSK-skýrslan höfð með á síðunni **VSK-skýrslur**. 
+
+> [!IMPORTANT]
+> VSK-flokksvirkni er aðeins studd á þeim mörkuðum þar sem [!INCLUDE[prod_short](includes/prod_short.md)] notar VSK-rammi sem inniheldur VSK-skil og VSK-skilatímabil. Ekki er hægt að nota VSK-flokka á öðrum mörkuðum sem eru með aðrar útfærslur af staðbundnum VSK-skýrslum, t.d. Austurríki, Þýskaland, Ítalía, Spánn og Sviss. 
 
 ## <a name="see-also"></a>Sjá einnig
 [Unnið með VSK í sölu og innkaupum](finance-work-with-vat.md)  

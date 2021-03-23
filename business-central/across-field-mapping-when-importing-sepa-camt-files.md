@@ -3,19 +3,19 @@ title: Reitarvörpum við innflutning SEPA CAMT skráa | Microsoft Docs
 description: Á Evrópumörkuðum er hægt að flytja inn bankayfirlitsskrár með svæðisbundnum SEPA stöðlum (sameiginlegt evrópskt greiðslusvæði).
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 57488adb784736eaf404cf57f1563f08c517ed6c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9afa2f29124a62a51da6a1de96765d6bb67c4bd6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384775"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Reitarvörpum við innflutning SEPA CAMT skráa
 [!INCLUDE[prod_short](includes/prod_short.md)] styður svæðisbundinn SEPA-staðall (sameiginlegt evrópskt greiðslusvæði) fyrir innflutning SEPA-bankayfirlita (CAMT-snið). Frekari upplýsingar eru í [Notkun AMC Banking 365 Fundamentals viðbótarinnar](ui-extensions-amc-banking.md).  

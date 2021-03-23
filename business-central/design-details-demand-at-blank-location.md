@@ -3,19 +3,19 @@ title: Hönnunarupplýsingar - Eftirspurn og framboð | Microsoft Docs
 description: Í þessu efnisatriði er fjallað um hugtakið Eftirspurn, sem er algengasta orðið notað yfir hvers konar vergri eftirspurn, svo sem sölupöntun og íhluti þarft frá framleiðslu röð.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4661104e32e648cc134b3ba0c3d44b5a8c6daca6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cbafba8d012244b10c142912b357188a1f7eece4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911206"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386950"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Hönnunarupplýsingar: Eftirspurn í birgðageymslunni Tómt
 Þegar notandi býr til eftirspurnartilvik, svo sem sölupöntunarlínu gerir kerfið notandanum kleift að stundum tilgreina staðsetningarkóða og stundum ekki, það er, að nota auða staðsetningu.
@@ -30,7 +30,7 @@ Ef hins vegar eftirspurnaratvik eru stundum með birgðageymslukóða og stundum
 ## <a name="demand-at-location"></a>Eftirspurn í birgðageymslu
 Þegar áætlunarkerfið greinir eftirspurn á staðsetningu vinnur það á mismunandi hátt í samræmi við þrjú mikilvæg uppsetningargildi. Í áætlunarkeyrslu leitar kerfið að 3 uppsetningargildum í röð og áætlar samkvæmt þeim:
 
-1. Er gátmerki í reitnum **Birgðageymsla áskilin** ?
+1. Er gátmerki í reitnum **Birgðageymsla áskilin**?
 
     Ef já:
 

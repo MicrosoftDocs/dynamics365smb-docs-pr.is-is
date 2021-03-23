@@ -3,23 +3,23 @@ title: Skipta yfir í annað fyrirtæki eða umhverfi | Microsoft Docs
 description: Ef unnið er fyrir mörg fyrirtæki er fljótlegt að skipta á milli umhverfis og fyrirtækja.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 10/01/2020
+ms.date: 03/04/2020
 ms.author: bholtorf
-ms.openlocfilehash: fea55295867e42f450dc7e3826224d7e1698666a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2847d3240ed12acf356f6c68f4c0fcb67c362f61
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760418"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573452"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Skipta yfir í annað fyrirtæki eða umhverfi
 
 [!INCLUDE [company_environment](includes/company_environment.md)] Nánari upplýsingar eru í [Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
-> Ef skipt er oft á milli fyrirtækja getur verið auðvelt að missa sjónar á því hvar þú ert. Til að auðvelda þér að fylgjast með er hægt að bæta við merki sem birtir heiti fyrirtækisins þannig að þú getir staðfest á skjótan hátt að þú sért á réttum stað. Frekari upplýsingar er að finna á [Til að birta fyrirtækjamerkis fyrir flýtiaðgang að fyrirtækisupplýsingum](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
+> Ef skipt er oft á milli fyrirtækj, eða unnið er með [!INCLUDE[prod_short](includes/prod_short.md)] úr öðru forriti á borð við Microsoft Teams, getur verið auðvelt að missa sjónar á því hvar þú ert. Til að auðvelda þér að fylgjast með er hægt að bæta við merki sem birtir heiti fyrirtækisins þannig að þú getir staðfest á skjótan hátt að þú sért á réttum stað. Frekari upplýsingar er að finna á [Til að birta fyrirtækjamerkis fyrir flýtiaðgang að fyrirtækisupplýsingum](ui-change-basic-settings.md#badge).
 
 ## <a name="switch-to-another-environment"></a>Skipta yfir í annað umhverfi
 

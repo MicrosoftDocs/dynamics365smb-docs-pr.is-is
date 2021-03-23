@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 10612a3e5e257969b2daf0839ea0826316a956ee
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046533"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385200"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Úrræðaleit Microsoft Teams-samþættingar við [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -103,7 +103,7 @@ Til að fá aðstoð við að breyta þessum stillingum skal sjá [Myndavélin m
 
 Sumir vafrar, eins og nýi Microsoft Edge, gera þér kleift að velja hvaða myndavél tækis á að nota þegar tækið styður margar myndavélar. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams sýnir ýmis tungumál fyrir mín spjöld og upplýsingar spjalds 
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams sýnir ýmis tungumál fyrir mín spjöld og upplýsingar spjalds
 
 Til þess að spjöld og upplýsingar spjalds birti alltaf á sama tungumálinu í Teams verður tungumál Teams-biðlarans og tungumálið sem er notað í [!INCLUDE [prod_short](includes/prod_short.md)]-vefbiðlaranum að passa.
 
@@ -116,6 +116,21 @@ Frekari upplýsingar um hvernig tungumál virka á milli Teams og [!INCLUDE [pro
 ## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Ég breytti reit í upplýsingaglugganum, en breytingin vistaðist ekki
 
 Breytingar sem gerðar eru á reit í upplýsingagluggum eru sjálfkrafa vistaðar þegar farið er úr reitnum. Áður en glugganum er lokað eftir að reit er breytt skal ganga úr skugga um að ýta á færslulykilinn eða smella/pikka utan reitsins.
+
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Nýr reitur birtist í forritavalmyndinni. Hvernig fjarlægi ég þetta?
+
+Þegar þú skoðar forritin þín á heimasíðu Office 365 (https://home.office.com) eða í forritavalmyndinni mun nýr reitur sem heitir „Business Central Teams Integration Service Connector“ birtast eftir að [!INCLUDE [prod_short](includes/prod_short.md)]-forritið hefur verið uppsett fyrir Teams. Þessi reitur gefur ekkert gildi og er hægt að fela hann á öruggan hátt.
+
+Sem kerfisstjóri, eru með Azure Active Directory stjórnandaheimildir, og getur falið reitinn með eftirfarandi skrefum:
+
+1. Skráðu þig inn í [Azure Active Directory stjórnendamiðstöð](https://aad.portal.azure.com/).
+2. Veljið **Fyrirtækjaforrit** og veljið síðan **Business Central Teams Integration Service Connector**.
+3. Veljið **Eiginleikar** og stillið síðan rofann **Sýnilegt notendum** á **Nei**.
+4. Veljið **Vista**.
+
+> [!NOTE]
+> Það mun líða töluverður tími áður en þessi breyting tekur gildi.
+
 
 ## <a name="see-also"></a>Sjá einnig
 

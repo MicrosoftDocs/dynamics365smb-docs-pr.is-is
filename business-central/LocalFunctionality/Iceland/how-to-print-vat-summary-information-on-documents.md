@@ -3,19 +3,19 @@ title: Hvernig á að prenta VSK-yfirlit á skjölum
 description: Ef virðisaukaskattur er reiknaður eru upplýsingar um samantekt VSK-upplýsinga yfirleitt prentaðar á sölu- og innkaupaskjöl.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa989ef4966c5406272e28f3e2c93795aca53ccb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 32f0e822042ce5f4f61ce647b9e32799100e3732
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747501"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381804"
 ---
 # <a name="print-vat-summary-information-on-documents"></a>Prenta VSK-yfirlit á skjölum
 Ef virðisaukaskattur er reiknaður eru upplýsingar um samantekt VSK-upplýsinga yfirleitt prentaðar á sölu- og innkaupaskjöl. Á Íslandi prentar [!INCLUDE[prod_short](../../includes/prod_short.md)] hins vegar ekki samantekt VSK-upplýsinga ef aðeins er notaður einn VSK-sölukóði í skjalinu. Hægt er að breyta þessari hegðun með því að nota valkostinn **Sýna alltaf VSK-yfirlit**.  

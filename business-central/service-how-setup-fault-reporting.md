@@ -3,19 +3,19 @@ title: Uppsetning bilanatilkynninga í þjónustukerfi | Microsoft Docs
 description: Hvernig á að setja upp bilanatilkynningaferli.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 465160091928dce5bb71bb2c809243fb67b10174
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc0222b14d5c67149797b1f3ceb3813699a171d2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910506"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392125"
 ---
 # <a name="set-up-fault-reporting"></a>Setja upp bilanatilkynningar
 Bilanatilkynningar gera þér kleift að setja fram staðla tengda tilkynningum bilanaupplýsinga fyrir þjónustuvörur. Þú getur t.d. tilgreint hvert vandamálið er, einkennin sem þú sérð, ástæðu vandamálsins og hvernig skal leysa það.  
@@ -29,20 +29,20 @@ Bilanakóðar lýsa dæmigerðum bilunum í þjónustuvöru eða aðgerðir á �
     |**Bilanastig**|**Lýsing**|  
     |------------|-------------|  
     |Engin | Engir tilkynningakótar eru notaðir.|  
-    |Bilun | Kótar eru gefnir upp á töflunni **Bilunarkótar** . Þessir kótar auðkenna bilanir í þjónustuvörum eða aðgerðir sem framkvæma á fyrir þjónustuvörur. Hægt er að klasa tengda kóða saman í flokkanir **bilanasvæðiskóða** .|  
-    |Bilun + Einkenni | Samsetning kóta er gefin upp í töflunum **Bilunarkótar** og **Einkennakótar** . Dæmigerðir einkennakótar eru vísar sem viðskiptamaður gæti notað til að lýsa vandamáli, eins og hávaða eða gæðum.|  
+    |Bilun | Kótar eru gefnir upp á töflunni **Bilunarkótar**. Þessir kótar auðkenna bilanir í þjónustuvörum eða aðgerðir sem framkvæma á fyrir þjónustuvörur. Hægt er að klasa tengda kóða saman í flokkanir **bilanasvæðiskóða**.|  
+    |Bilun + Einkenni | Samsetning kóta er gefin upp í töflunum **Bilunarkótar** og **Einkennakótar**. Dæmigerðir einkennakótar eru vísar sem viðskiptamaður gæti notað til að lýsa vandamáli, eins og hávaða eða gæðum.|  
     |Bilun + Einkenni + Svæði | Kóðarnir Bilun, Einkenni og Bilanasvæði eru notaðir til að innleiða alþjóðlega viðgerðarkóðunarkerfið (IRIS).|  
 
-Til að ljúka uppsetningu bilanatilkynninga er einnig hægt að tilgreina hvaða viðgerðir eða úrlausnir tengjast bilun eða galla. Þú setur það upp á síðunni **Bilana/úrlausn kóði vensl** , þar sem þú setur upp samsetningar kóðanna fyrir þjónustuvöruflokk þeirrar þjónustuvöru sem glugginn var opnaður í og fjöldi tilvika hvers og eins.
+Til að ljúka uppsetningu bilanatilkynninga er einnig hægt að tilgreina hvaða viðgerðir eða úrlausnir tengjast bilun eða galla. Þú setur það upp á síðunni **Bilana/úrlausn kóði vensl**, þar sem þú setur upp samsetningar kóðanna fyrir þjónustuvöruflokk þeirrar þjónustuvöru sem glugginn var opnaður í og fjöldi tilvika hvers og eins.
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Hvernig á að stofna Venslum bilana- og úrlausnarkóta
 <!--this needs to go in a working with topic-->
- Hægt er að skoða algengustu viðgerðir á tilteknum vörubilunum þegar unnið er við þjónustu á vörunni ef búið er að skipuleggja upplýsingar um vensl bilana- og úrlausnarkóða. Nota skal keyrsluna **Setja inn tengsl bilana/úrlausnakóða** til að finna allar samsetningar bilana- og úrlausnarkóða í bókuðum þjónustupöntunum og skrá þær á síðuna **Tengsl bilunar/úrlausnarkóða** .
+ Hægt er að skoða algengustu viðgerðir á tilteknum vörubilunum þegar unnið er við þjónustu á vörunni ef búið er að skipuleggja upplýsingar um vensl bilana- og úrlausnarkóða. Nota skal keyrsluna **Setja inn tengsl bilana/úrlausnakóða** til að finna allar samsetningar bilana- og úrlausnarkóða í bókuðum þjónustupöntunum og skrá þær á síðuna **Tengsl bilunar/úrlausnarkóða**.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Setja inn tengsl bilana/úrlausnakóða** og veldu síðan tengda tengilinn.  
 2. Færðu inn dagsetningar til að skilgreina tímabilið sem keyrslan á að ná til.  
 3. Veljið gátreitinn **Tengsl byggð á þjónustuvöruflokki** til að flokka tengslin eftir þjónustuvöruflokkum.  
-4. Ef óskað er eftir því að varðveittar séu færslur sem þegar er búið að handfæra á síðunni **Tengsl bilana/úrlausnarkóða** skal velja gátreitinn **Varðveita handfærðar færslur** .  
+4. Ef óskað er eftir því að varðveittar séu færslur sem þegar er búið að handfæra á síðunni **Tengsl bilana/úrlausnarkóða** skal velja gátreitinn **Varðveita handfærðar færslur**.  
 
 ## <a name="see-also"></a>Sjá einnig
 [Þjónustustýring sett upp](service-setup-service.md)  

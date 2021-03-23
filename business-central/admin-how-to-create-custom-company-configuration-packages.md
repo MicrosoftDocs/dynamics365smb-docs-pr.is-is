@@ -3,19 +3,19 @@ title: Hvernig á að búa til sérstillta grunnstillingarpakka fyrirtækja | Mi
 description: Eftir því sem fyrirtækið vex, er líklegt að treyst verði á safn fyrirtækjategunda sem verður notað með flestum af viðskiptamönnum fyrirtækisins. Hægt er að auðvelda innleiðingarferlið með því að breyta þessum tegundum í grunnstillingarpakka fyrir fyrirtæki sem hægt er að nota aftur.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9e1cf9d530c8af95373cfbdef8a3f6822cbba938
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a1b1bfd5dd685eb57e291842d7b6d2e3691482fc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915776"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378299"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Búa til sérstillta grunnstillingarpakka fyrirtækja
 Eftir því sem fyrirtækið vex, er líklegt að treyst verði á safn fyrirtækjategunda sem verður notað með flestum af viðskiptamönnum fyrirtækisins. Hægt er að auðvelda innleiðingarferlið með því að breyta þessum tegundum í grunnstillingarpakka fyrir fyrirtæki sem hægt er að nota aftur.  
@@ -48,7 +48,7 @@ Til að sjá heildarlista yfir uppsetningartöflur skaltu velja ![Ljósaperuna s
 1.  Búa til nýtt fyrirtæki. Frekari upplýsingar eru í [Stofna ný fyrirtæki í Business Central](about-new-company.md).  
 3.  Setjið upp nýja fyrirtækið á þann hátt sem þörf krefur. Fylla út allar nauðsynlegar töflur.  
 4.  Opna skal nýja fyrirtækið.
-5. Opna skal síðun **Skilgreiningarvinnublað** .  
+5. Opna skal síðun **Skilgreiningarvinnublað**.  
 6.  Bæta töflunum sem óskað er eftir að færa á annað fyrirtæki við vinnublaðið. Úthluta vinnublaðslínunum til pakkans.  
 7.  Stofna spurningalista fyrir mest notuðu uppsetningartöflurnar.  
 8.  Stofna skilgreiningarsniðmát til að auðvelda stofnun aðalgagna, svo sem viðskiptavini eða vöru.  

@@ -3,19 +3,19 @@ title: Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum
 description: Á síðunni fyrir greiðslujöfnunarreglur eru settar upp reglur til að stjórna því hvernig greiðslur/bankafærslur eiga að vera sjálfkrafa jafnaðar við tengdar opnar fjárhagsfærslur þegar þú notar aðgerðina Notað sjálfkrafa á síðunni Greiðsluafstemmingarbók.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a0aad6bce483dba6edf7c6d5ab37033475413d4b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392600"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Reglur settar upp fyrir sjálfvirka jöfnun á greiðslum
 
@@ -50,8 +50,9 @@ Auk jöfnunarskilyrðanna í töflunni gildir eftirfarandi um merki greiðsluupp
 |**Samsvörun fannst fyrir tengdan aðila**|Tilgreinir hversu miklar upplýsingar um viðskiptamann eða lánardrottin, t.d heimilisfang, borgarheiti og bankareikningsnúmer, á færslubókarlínu greiðsluafstemmingar þurfa að passa við upplýsingar um opnu færsluna áður en jöfnunarreglan verður notuð til að jafna sjálfvirkt greiðslu sjálfkrafa við opnu færsluna.|
 |**Samsvörun fannst fyrir skjalsnr./nr. ytra skjals**|Tilgreinir hvort texti á færslubókarlínu greiðsluafstemmingar þarf að samsvara gildinu í reitnum **Nr. fylgiskjals** eða reitnum **Númer ytra skjals** á opnu færslunni áður en jöfnunarreglan verður notuð til að jafna sjálfvirkt greiðslu við opnu færsluna.|
 |**Samsvörun fannst fyrir upphæð með vikmörkum**|Tilgreinir hversu margar færslur fyrir viðskiptamann eða lánardrottin þurfa að samsvara upphæðinni með greiðsluvikmörkum áður en jöfnunarreglan verður notuð til að jafna sjálfvirkt greiðslu við opnu færsluna.|
+|**Umsögn vantar**|Tilgreinir hvort sjálfvirk greiðslujöfnun sé ráðlögð fyrir handvirka yfirferð af notanda á undan bókun. Ef reiturinn **Línur til yfirferðar** er valinn á síðunni **Greiðslujöfnunarbók**, þá fer í gang leiðsögn þar sem auðveldlega er hægt að yfirfara margar jafnanir í röð á síðunni **Yfirferð greiðslujöfnunar**.|
 
-Eftirfarandi tafla sýnir hvaða greiðslujafnanarreglur eru settar upp í almennri útgáfu [!INCLUDE[prod_short](includes/prod_short.md)].
+Eftirfarandi tafla lýsir hefðbundnum greiðslujöfnunarreglur í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
 > Greiðslujöfnunarreglur kunna að vera mismunandi í innleiðingu þinni á [!INCLUDE[prod_short](includes/prod_short.md)].

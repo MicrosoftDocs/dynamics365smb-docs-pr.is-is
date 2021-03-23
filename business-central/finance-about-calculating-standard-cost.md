@@ -3,19 +3,19 @@ title: Um útreikning staðlaðs kostnaðarverðs | Microsoft Docs
 description: Í stöðluðu kostnaðarverðskerfi er kostnaðarverð birgða ákvarðað á grundvelli einhvers ásættanlegs eða viðbúins kostnaðar. Rannsóknir á fyrri kostnaði og áætluðum framtíðarkostnaði  geta skapað grundvöllinn fyrir stöðluðu kostnaðarverði.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 167f99d7a7a0df7727e8c50df376b847e5dfefcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e7298cd5408f8c8a1277ce2e1f455e3c923fbe52
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917204"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376637"
 ---
 # <a name="about-calculating-standard-cost"></a>Um umreikning staðalkostnaðar
 Mörg framleiðslufyrirtæki velja matsgrundvöll staðlaðs kostnaðarverðs. Þetta á einnig við fyrir fyrirtæki sem framkvæma létta framleiðslu, til dæmis samsetningu og röðun í sett. Í stöðluðu kostnaðarverðskerfi er kostnaðarverð birgða ákvarðað á grundvelli einhvers ásættanlegs eða viðbúins kostnaðar. Rannsóknir á fyrri kostnaði og áætluðum framtíðarkostnaði  geta skapað grundvöllinn fyrir stöðluðu kostnaðarverði. Þessi kostnaður er frystur þar til ákvörðun er tekin um að breyta honum. Raunverulegur kostnaður við framleiðslu vöru er frábrugðinn því staðlaða kostnaðarverði sem metið er. Raunverulegi kostnaðurinn er borinn saman við staðlað kostnaðarverð tiltekinnar vöru og munur á þeim eða *frávik* eru fundin og greind til að auðvelda stjórnun.  
@@ -48,7 +48,7 @@ Eftirfarandi lykilkostnaðarliðir mynda samtölu beins kostnaðar vöru sem er 
  Efniskostnaður er kostnaður sem tengist undirsamsetningum og aðkeyptum hráefnum. Efniskostnaðarverð getur samanstaðið af beinum og óbeinum kostnaðarliðum.  
 
 -   Beinn efniskostnaður er reikningsfærð upphæð fyrir aðkeypt hráefni eða framleiðslukostnaður undirsamsetningar.  
--   Óbeinn efniskostnaður, eða *sameiginlegur kostnaður* , getur til dæmis verið birgðageymslukostnaður fyrir fullunnu vöruna þegar búið er að framleiða hana.  
+-   Óbeinn efniskostnaður, eða *sameiginlegur kostnaður*, getur til dæmis verið birgðageymslukostnaður fyrir fullunnu vöruna þegar búið er að framleiða hana.  
 
 Uppsetning efniskostnaðar keyptra vara sem hafa áhrif á beinan og óbeinan kostnað veltur á því hvaða kostnaðaraðferð er valin fyrir vöruna sem er tilgreind. Kostnaðarupplýsingar fyrir aðra hvora aðferð kostnaðarútreiknings eru settar upp. Nánari upplýsingar eru í [Skrá nýjar vörur](inventory-how-register-new-items.md).
 
@@ -81,7 +81,7 @@ Hraði hverrar tímagerðar fyrir hverja vél eða vinnustöð er settur upp á 
 > [!NOTE]  
 >  Keyrslutímahraði gildir fyrir hverja vörueiningu sem framleidd er, en uppsetningartímahraði gildir fyrir hverja lotu. Þess vegna þarf að deila leiðaruppsetningartíma hverrar aðgerðar yfir lotustærðina. Lotustærðin er tilgreind í samsvarandi reit á flýtiflipanum **Pantanir** á birgðaspjaldinu.  
 
-Til að tilgreina uppsetningartíma á leiðinni fyrir áætlun en ekki taka þessi útgjöld með í stöðluðum kostnaðarútreikningi skal hreinsa reitinn **Kostnaður með uppsetningu** á flýtiflipanum **Almennt á síðunni Framleiðsluuppsetning** .  
+Til að tilgreina uppsetningartíma á leiðinni fyrir áætlun en ekki taka þessi útgjöld með í stöðluðum kostnaðarútreikningi skal hreinsa reitinn **Kostnaður með uppsetningu** á flýtiflipanum **Almennt á síðunni Framleiðsluuppsetning**.  
 
 Á eins stigs grundvelli er þetta sá vinnukostnaður sem þarf til að framleiða fullunnu framleiðsluvöruna og er tilgreint á leið framleiðsluvörunnar. Á margra stiga grundvelli er þetta afkastakostnaðurinn sem er tilgreindur fyrir hverja framleidda vöru á uppskrift yfirvörunnar.  
 

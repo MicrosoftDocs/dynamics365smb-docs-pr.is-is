@@ -3,18 +3,18 @@ title: Vinna með almenna virkni í Business Central | Microsoft Docs
 description: Lýsir þeirri almennu virkni sem þú notar til að vinna með gögn í Business Central, eins og t.d. að færa inn gildi, raða gögnum og breyta yfirliti.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e035ba04795cf2afb71ae196c9409bb00a955370
-ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
+ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4840179"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393575"
 ---
 # <a name="working-with-prod_short"></a>Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]
 Þegar viðskiptaverk eru unnin er vinna með gögn margvísleg: stofna færslur, slá inn gögn, raða og afmarka gögn, skrifa athugasemdir, auk úttöku gagna í önnur forrit.

@@ -3,19 +3,19 @@ title: Hönnunarupplýsingar - Sameining með birgðum | Microsoft Docs
 description: Hlutarnir Vöruhúsakerfi og Birgðir vinna saman í efnislegum birgðum og leiðréttingu birgða eða vöruhúss.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7e1b7a922109155471c212d688ce3ab468977deb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 72be8f95a77052c00e127913de67d6b1f3397852
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922118"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390000"
 ---
 # <a name="design-details-integration-with-inventory"></a>Hönnunarupplýsingar: Sameining með birgðum
 Hlutarnir Vöruhúsakerfi og Birgðir vinna saman í efnislegum birgðum og leiðréttingu birgða eða vöruhúss.  

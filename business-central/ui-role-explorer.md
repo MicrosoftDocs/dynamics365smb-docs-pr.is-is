@@ -3,19 +3,19 @@ title: Skoða síður eftir hlutverkum| Microsoft Docs
 description: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ef447ca9d0341983b43c0c90c96698ccc0eab77a
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756694"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470313"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Að finna síður með hlutverkaleit
 Hægt er að fá yfirlit yfir alla viðskiptaeiginleikana sem eru tiltækir fyrir þitt hlutverk, og fyrir önnur hlutverk ef farið er skrefi lengra. Í eftirfarandi fylgigögnum er þetta yfirlit yfir eiginleika kallað *Hlutverkaleit*.
@@ -39,7 +39,9 @@ Aðgerðunum sem opna síður er raðað undir hnútum sem nefndir eru eftir eig
 
 - Til að víkka út/draga saman hnút skal velja hnútinn. Þetta á við um hnúta á efsta stigi og undirhnúta.
 - Til að víkka/draga saman alla helstu hnúta á síðunni skaltu velja **Víkka** eða **Draga saman** aðgerðina efst í hægra horninu.
-- Til að víkka út/draga saman hnút á efsta stigi og alla undirhnúta hans skal ýta á Ctrl+Shift lyklana á meðan aðgerðin **Víkka út** eða **Draga saman** er valin efst í hægra horninu.
+- Til að víkka/draga saman allan efsta hnút og alla undirhnúta undir honum skal gera eitt af eftirfarandi:
+    - Ýtið á Ctrl+Shift lyklana á meðan aðgerðin **Víkka út** eða **Draga saman** er valin efst í hægra horninu.
+    - Veldu **...** efst í hægra horninu, Veldu svo aðgerðina **Útvíkka allt** eða **Fella allt saman**.
 
 ## <a name="see-also"></a>Sjá einnig
 [Finndu síður og upplýsingar með Viðmótsleit](ui-search.md)  

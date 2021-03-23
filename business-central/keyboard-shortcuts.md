@@ -3,19 +3,19 @@ title: Flýtivísanir
 description: Heill listi yfir flýtivísanir til að vinna skilvirkt með gögnin þín.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746117"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470488"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtivísanir
 
@@ -56,7 +56,6 @@ Eftirfarandi tafla lýsir flýtivísunum til að fletta og komast í mismunandi 
 |Alt+Shift+N |Velja nýlega stofnaða síðu og opna nýja til að búa til nýja færslu. Á sama hátt bókar ALT+F9 skjal og býr til nýtt.|
 |Alt+T|Opna síðuna **Mínar stillingar**.|
 |Alt+hægri ör|Fletta upp viðbótarupplýsingum eða undirliggjandi gildum fyrir reit sem inniheldur hnappinn ![Valhnappur](media/assist-edit-icon.png "AssistEdit hnappur"). Þetta er notað þegar venjulegi fellilistahnappur (Alt+Niðurör) í sama reitnum er notaður í öðrum tilgangi.|
-|Shift+F12|Opnaðu hlutverkaleit sem er yfirlit yfir eiginleika. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md)|
 |Ctrl+Alt+Shift+C|Birta upplýsingar í merki fyrirtækis.|
 |Ctrl+Alt+F1|Opna og loka glugganum fyrir síðueftirlit. Glugginn fyrir síðueftirlit sýnir upplýsingar um síðuna, t.d. upprunatöflu, reiti, síur, viðbætur og fleira.<br /><br />Frekari upplýsingar er að finna í [Eftirlit með síðum](across-inspect-page.md).|
 |Ctrl+C |Afrita gildið á reit. Ef reiturinn er í fókus og þú hefur ekki valið neinn texta í reitnum mun þetta afrita allt gildið. Ef þú hefur valið einhvern texta í reitnum er eingöngu valilnn texti afritaður.|
@@ -213,6 +212,18 @@ Eftirfarandi flýtileiðir eiga við um eiginleika flýtifærslu í spjöldum, s
 |Ctrl++|Auka aðdrátt að núverandi síðu.|  
 |Ctrl+-|Minnka aðdrátt að núverandi síðu.|  
 |Ctrl+0|Auka eða minnka aðdrátt í 100% á núverandi síðu.|  
+
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Flýtilyklar fyrir Hlutverkaleit
+
+Hlutverkaleit veitir yfirlit og flýtiaðgang að öllum viðskiptaeiginleikum sem eru í boði fyrir hlutverkið. Nánari upplýsingar er að finna í [Að finna síður með hlutverkaleit](ui-role-explorer.md)
+
+|Ýttu á þessa takka<br />(í macOS)|Til að gera þetta|
+|--------------------------------|----------|
+|Shift+F12|Opnið hlutverkaleitina.|
+|F3|Opnið reitinn **Leita** í hlutverkaleit til að finna eiginleika samkvæmt uppgefnu leitarorði eða hugtaki.|
+|F3 eða Ctrl+niðurör|Færir áherslu á næsta fundna eiginleika hlutverkaleitar. F3 flytur áhersluna í reitinn **Leita** á eftir síðasta fundna eiginleikanum.|
+|SHIFT F3 eða CTRL+Uppör|Flytjið áherslu á fyrri eiginleikann sem fannst í hlutverkaleit.|
+|Ctrl+Shift|Stækkið eða minnkið alla undirhnúta ásamt hnútum á efsta stigi þegar aðgerðin **Stækka** eða **Minnka** er valin.|
 
 ## <a name="see-also"></a>Sjá einnig .
 

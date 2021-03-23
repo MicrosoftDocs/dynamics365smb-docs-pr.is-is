@@ -3,16 +3,16 @@ title: Algengar spurningar um notkun Business Central
 description: Svarar algengum spurningum um hvernig notendur skrá sig fyrir eða kaupa Business Central, lengja prufuáskrift, hætta við áskrift og finna þjálfun og aðra aðstoð.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e674aed9dd6f2e3fade52675f77113ac4ee42a0b
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014026"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498563"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Algengar spurningar um notkun Business Central
 
@@ -40,7 +40,9 @@ Að lokum geturðu haft samband við [!INCLUDE[prod_short](includes/prod_short.m
 ## <a name="why-cant-i-find-that-capability-in-my-prod_short"></a>Af hverju finn ég ekki eiginleikann í mínu [!INCLUDE[prod_short](includes/prod_short.md)]?
 Ertu búin(n) að lesa um nýjan eiginleika í útgáfuáætlun eða á blogginu okkar nýlega? Ef svo er, getur verið að [!INCLUDE[prod_short](includes/prod_short.md)] þitt hafi ekki verið uppfært að nýjustu útgáfu enn. Hægt er að athuga hvaða útgáfu [!INCLUDE[prod_short](includes/prod_short.md)] byggir á síðunni [Hjálp og notendaþjónusta](product-help-and-support.md).  
 
-Ef eiginleikinn er settur fram sem viðbót í AppSource, er töf á milli þess að eiginleikinn sé kynntur og að hann sé tiltækur í AppSource.  
+Þetta á við um á [!INCLUDE [prod_short](includes/prod_short.md)] Online og innanhúss.  
+
+Ef eiginleikinn er settur fram sem viðbót í AppSource, er töf á milli þess að eiginleikinn sé kynntur og að hann sé tiltækur í AppSource. Þetta á aðeins við á [!INCLUDE [prod_short](includes/prod_short.md)] Online.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Er einhver munur á uppsetningu á staðnum og skýjaútgáfu Business Central?
 Já. Sumir skýjatengdir eiginleikar geta hugsanlega keyrt á staðnum í einhverjum tilfellum og aðrir eru alls ekki studdir. Frekari upplýsingar er að finna í [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
@@ -65,8 +67,9 @@ Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt 
 
 Enginn *vista* hnappur á síðunum eins og í öðrum forritum sem þú hugsanlega kannast við. Í [!INCLUDE[prod_short](includes/prod_short.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar gerðar eru breytingar á reit og farið er í annan reit sést **Vistar** efst í hægra horni síðunnar, sem breytist fljótt í **Vistað** ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað**.
 
-## <a name="what-email-address-can-i-use-with-prod_short"></a><a name="email"></a>Hvaða netfang get ég notað með [!INCLUDE[prod_short](includes/prod_short.md)]?
-[!INCLUDE[prod_short](includes/prod_short.md)] krefst að notandi noti vinnu eða skóla netfang til að nýskrá. [!INCLUDE[prod_short](includes/prod_short.md)] styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.  
+## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Hvaða netfang get ég notað með [!INCLUDE[prod_short](includes/prod_short.md)] Online?
+
+[!INCLUDE[prod_short](includes/prod_short.md)] Online krefst að þú notir vinnu- eða skólanetfang fyrir nýskráningu. [!INCLUDE[prod_short](includes/prod_short.md)] Online styður ekki netföng frá tölvupóstfangsveitendum sem þjónusta neytendur eða frá fjarskiptafyrirtækjum. Þetta felur í sér outlook.com, hotmail.com, gmail.com og aðra.  
 
 Ef þú reynir að nýskrá með einka tölvupóstfang færðu skilaboð sem gefa til kynna að þú eigir að nota vinnu eða skóla netfang. Nánari upplýsingar sjá [Úrræðaleit sjálfsafgreiðslu nýskráning](ui-troubleshoot-self-signup.md).  
 
@@ -147,6 +150,5 @@ Fyrstu útgáfur af [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum f
 [Algengar spurningar um þróunaraðila og ITPro upplifun](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

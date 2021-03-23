@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 01/26/2021
+ms.date: 03/04/2021
 ms.author: jswymer
-ms.openlocfilehash: 79b6069ffb4c73d783b2c05d3a44a55763805a52
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: d95e97a232cfb7fda8f40f68875b747723abbd4b
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068435"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573377"
 ---
 # <a name="teams-faq"></a>Teams - Algengar spurningar
 
@@ -50,7 +50,6 @@ Já. Þegar [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið stækka
 Já. Forritinu er ætlað að vinna með hvaða staðfærslu af [!INCLUDE [prod_short.md](includes/prod_short.md)] sem er, hvort sem sú staðfærsla er í boði Microsoft eða annars samstarfsaðila. Frekari upplýsingar eru í [Lönd/svæði í boði og studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 ### <a name="which-languages-does-the-prod_shortmd-app-support"></a><a name="language"></a>Hvaða tungumál styður [!INCLUDE [prod_short.md](includes/prod_short.md)] forritið?
-<!--TODO Run by Mike -->
 
 Tveir hlutir ákvarða tungumálið sem er notað fyrir kort og kortaupplýsingar í Teams:
 
@@ -66,15 +65,19 @@ Eftirfarandi tafla útskýrir hvernig upplifunin er frábrugðin skeytum höfund
 
 Fyrir lista yfir studd tungumál fyrir [!INCLUDE [prod_short.md](includes/prod_short.md)] skal skoða [Studd tungumál](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
+### <a name="does-the-business-central-app-work-with-industry-solutions"></a>Virkar Business Central-forritið með lausnum fyrir viðskiptalífið?
+
+Já. Forritið virkar með tenglum sem byggja á mynstrinu **\*.bc.dynamics.com** sem er yfirleitt notað með [Innfella forrit](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
+
 ### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Hvar finn ég Teams-samþættingu í [!INCLUDE [prod_short.md](includes/prod_short.md)]-vefbiðlaranum? 
 
-Sem stendur er ekki búið að fella inn Teams-stjórnun eða Teams-eiginleika í [!INCLUDE [prod_short.md](includes/prod_short.md)]-vefbiðlaranum eða öðrum biðlurum.  
+Sem stendur er ekki búið að fella inn Teams-stjórnun eða Teams-eiginleika í [!INCLUDE [prod_short.md](includes/prod_short.md)]-vefbiðlaranum eða öðrum biðlurum.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Virkar [!INCLUDE [prod_short.md](includes/prod_short.md)] með farsímaforriti Teams?
 
 Já. Hægt er að setja upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið úr Teams-skjáborðsforriti eða vafra eða af stjórnanda fyrir alla notendur. Þegar uppsett er [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið sjálfkrafa í boði í Teams fyrir iOS og Android. Í fartækjum er hægt að skoða spjöld sem aðrir senda, nálgast upplýsingar eða opnað spjaldið í sérglugga til að nýta það til fulls í [!INCLUDE [prod_short.md](includes/prod_short.md)]-farsímaforritinu. Hins vegar er ekki hægt að líma tengla sem víkka í spjöld þegar skilaboð eru samin. Fyrir lágmarkskröfur farsíma skal skoða [Lágmarkskröfur fyrir notkun Business Central](product-requirements.md).
 
-### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Er [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams það sama og [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir iOS og Android? 
+### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Er [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams það sama og [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir iOS og Android?
 
 Fj. Forritið fyrir Teams er innbót við Microsoft Teams og sérstaklega hannað fyrir sameiginlega upplifun sem kviknar á í Teams. [!INCLUDE [prod_short.md](includes/prod_short.md)]-farsímaforritið veitir hinsvegar fjölbreytta upplifun fyrir þig til að vinna með [!INCLUDE [prod_short.md](includes/prod_short.md)]-gögn á farsímaforritinu.
 
@@ -108,13 +111,26 @@ Ef þú ert endursöluaðili gætir þú viljað hafa umhverfi sem þú getur s�
 
 Reitirnir sem birtast á spjaldi í Teams geta einnig orðið fyrir áhrifum af sérstillingum [!INCLUDE [prod_short.md](includes/prod_short.md)] sem settar eru upp fyrir fyrirtækið þitt. Spjöld taka ekki neinar hlutverkamiðaðar sérstillingar eða sérstillingar notanda með í reikninginn. Hins vegar sýnir upplýsingagluggi spjalds færsluupplýsingar eins og þú sæir þær í [!INCLUDE [prod_short.md](includes/prod_short.md)], þ.m.t. allar viðbætur, sérstillingar hlutverks og sérstillingar notanda.
 
+### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>Hvernig hafa heimildirnar sem forritið krefst áhrif á persónuvernd mína?
+
+Áður en [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið er sett upp fyrir Teams, er hægt að fara yfir lágmarksheimildirnar sem þarf til að forritið virki. Með því að setja upp forritið samþykkir þú að forritið hafi heimild til að taka á móti skilaboðum og gögnum sem þú gefur upp og að Teams hafi heimild til að vista og vinna úr þeim skilaboðum.
+
+Einnig þurfa sumir eiginleikar [!INCLUDE [prod_short.md](includes/prod_short.md)] að opna ytri tengla eða fá aðgang að myndavélinni þinni eða staðsetningu. Segjum til að mynda að þú viljir taka mynd af innkaupareikningi til að vinna úr. [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið notar ekki þessa möguleika án þíns samþykkis og þeir eru aðeins notaðir af ákveðnum eiginleikum í glugganum **Upplýsingar**. Þegar einn af þessum eiginleikum er notaður í fyrsta skipti mun Teams sýna svarglugga þar sem beðið er um að þú veitir aðgang að nauðsynlegum möguleikum tækisins.
+
+- Í skjáborðsforriti Teams ferðu yfir og lagar heimildir forritsins í glugganum **Stillingar**. Veldu prófílmynd efst í forritinu, veldu **Stillingar** > **Heimildir** og veldu síðan [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið.
+
+- Fyrir Teams í vafranum og Teams fyrir iOS eða Android er hægt að yfirfara eða stilla heimildir úr stillingum vafrans eða tækis.
+
+> [!NOTE]
+> Nákvæmlega hvaða eiginleikar [!INCLUDE [prod_short.md](includes/prod_short.md)] biðja þig um heimildir fer eftir viðbótarforritum og sérstillingum sem settar eru á [!INCLUDE [prod_short.md](includes/prod_short.md)]-umhverfið sem þú tengist við.
+
 ### <a name="where-can-i-learn-about-my-privacy"></a>Hvar finn ég upplýsingar um persónuvernd? 
 
 Hægt er að fá upplýsingar um hvernig Microsoft sér um gögnin í [persónuverndaryfirlýsingu Microsoft](https://go.microsoft.com/fwlink/?linkid=2030602). 
 
-Leitið til kerfisstjóra til að fá upplýsingar um hvernig fyrirtækið meðhöndlar persónuvernd gagnanna þinna. 
+Leitið til kerfisstjóra til að fá upplýsingar um hvernig fyrirtækið meðhöndlar persónuvernd gagnanna þinna.
 
-### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>Hvernig fjarlægi ég [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams? 
+### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>Hvernig fjarlægi ég [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams?
 
 Til að fjarlægja forritið sem þú settir upp fyrir þig skaltu fara í skrifglugga í hvaða spjalli sem er og leita að tákninu [!INCLUDE [prod_short.md](includes/prod_short.md)] fyrir neðan, hægrismella á táknið og velja Fjarlægja.  
 
@@ -153,29 +169,33 @@ Fj. Reitargildi á spjaldi í Teams, þ.m.t. allar myndir, byggja á tiltækum g
 
 Þegar þú býrð til og sendir skilaboð á spjallinu sem inniheldur spjald munu allir notendur sjá spjaldið, jafnvel þótt þeir hafi ekki sett upp [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams.
 
+### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>Hvernig kemst ég að því hvaða fyrirtæki spjald í Teams tilheyrir?
+
+Ef unnið er á milli [!INCLUDE [prod_short.md](includes/prod_short.md)]-fyrirtækja skal tala við stjórnandann um að virkja merki fyrirtækis fyrir hvert fyrirtæki fyrir sig. Þegar þetta er virkt birtist þessi vísbending í öllum upplýsingagluggum innan Teams og sýnir fyrirtækið og umhverfið sem færslan tilheyrir. Til að komast að því hvernig á að setja upp upplýsingatákn fyrirtækis skal skoða [Að birta upplýsingatákn fyrirtækis fyrir flýtiaðgang að upplýsingum um fyrirtæki](ui-change-basic-settings.md#badge).
+
 ## <a name="working-with-card-details"></a>[Unnið með kortaupplýsingar](#tab/carddetails)
 
-### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Hvar er vistunarhnappurinn í upplýsingaglugganum í Teams? 
+### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Hvar er vistunarhnappurinn í upplýsingaglugganum í Teams?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)] vistar sjálfkrafa breytingar sem gerðar eru á reit um leið og farið er úr reitnum. Til að fara úr reitnum skaltu smella/pikka hvar sem er utan reitsins eða nota dálkalykilinn til að fara yfir í næsta reit. Þegar gögn birtast í glugga innan upplýsingagluggans gætirðu þurft að velja hnappinn **Í lagi** til að [!INCLUDE [prod_short.md](includes/prod_short.md)] visti breytingarnar þínar.
 
-### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Ef ég kýs að skoða upplýsingar fyrir spjald, munu þá aðrir notendur sjá upplýsingagluggann minn? 
+### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Ef ég kýs að skoða upplýsingar fyrir spjald, munu þá aðrir notendur sjá upplýsingagluggann minn?
 
 Fj. Þótt allir í spjallinu geti skoðað sjálft spjaldið, þá birtist upplýsingaglugginn aðeins þér í tækinu þínu þegar þú velur **Upplýsingar**. Aðrir notendur verða að velja **Upplýsingar** ef þeir vilja skoða upplýsingaglugga í tækinu.
 
-### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Get ég byrjað Teams-símtal í upplýsingaglugganum í Teams? 
+### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Get ég byrjað Teams-símtal í upplýsingaglugganum í Teams?
 
 Já. Hægt er að hefja símtal með því að velja tengt númeraval í símanúmerareit, eins og reitnum **Farsímanr.** á spjaldinu **Tengiliður**. Teams verður að vera valið hringiforrit.
 
 Til að hringja í staðbundna eða alþjóðlega landlínu og farsíma úr Teams þarftu að vera með Teams-leyfi fyrir fyrirtækissímtöl. Einnig þarf að setja upp Teams sem símhringileiðina þína. Frekari upplýsingar er að finna í [Ákveða tallausn þína í Teams](/microsoftteams/cloud-voice-landing-page) í Teams-fylgigögnum.
 
-### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Get ég prentað skjöl úr upplýsingaglugganum í Teams? 
+### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Get ég prentað skjöl úr upplýsingaglugganum í Teams?
 
 Já. Þú prentar skýrslur og önnur fylgiskjöl með því að nota staðlaðan prentunareiginleika [!INCLUDE [prod_short.md](includes/prod_short.md)] og prentara í skýinu sem stilltur er á síðunni **Prentarastjórnun** í [!INCLUDE [prod_short.md](includes/prod_short.md)]. Ekki er hægt að prenta úr Teams yfir í staðbundinn prentara sem biðlaratækið þitt þekkir, eins og prentarar sem þú myndir yfirleitt nota til að prenta úr vafranum þínum. Af þessum ástæðum er ekki hægt að prenta úr forskoðunarglugga skýrslunnar heldur aðeins úr aðalsíðu skýrslubeiðni og beint yfir í prentara þína í gegnum skýið.
 
 Frekari upplýsingar um uppsetningu prentara í skýinu er að finna í [Setja upp prentara](ui-specify-printer-selection-reports.md).
 
-### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Get ég komist inn í myndavélina úr upplýsingaglugganum í Teams? 
+### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Get ég komist inn í myndavélina úr upplýsingaglugganum í Teams?
 
 Já. Allir [!INCLUDE [prod_short.md](includes/prod_short.md)] eiginleikar í upplýsingaglugganum sem nota myndavélina eru tiltækir í öllum biðlurum Teams.
 
@@ -185,7 +205,7 @@ Ef þú notar virkni í [!INCLUDE [prod_short.md](includes/prod_short.md)] sem h
 
 ## <a name="collaborating-with-guests"></a>[Samvinna með gestum ](#tab/collaborating)
 
-### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Get ég deilt kortum með notendum fyrir utan fyrirtækið mitt? 
+### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Get ég deilt kortum með notendum fyrir utan fyrirtækið mitt?
 
 Já. Þegar þú býrð til og sendir skilaboð sem innhalda spjald munu allir viðtakendur í spjallinu sjá spjaldið&mdash;jafnvel þótt þeir séu gestir eða tilheyra ekki fyrirtækinu þínu. Gestir geta einnig opnað upplýsingagluggann ef þeir hafa fengið heimildir til að nálgast þessi gögn í [!INCLUDE [prod_short.md](includes/prod_short.md)].
 

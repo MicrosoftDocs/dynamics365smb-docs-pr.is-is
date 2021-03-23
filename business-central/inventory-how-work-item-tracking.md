@@ -3,19 +3,19 @@ title: Úthluta rað- eða lotunúmera til vara fyrir rakningu | Microsoft Docs
 description: Hægt er að úthluta rað- og lotunúmer við hvaða útleiðarskjal eða innleiðarskjal sem er og bókaðar vörurakningarfærslur þess er síðan hægt að skoða í viðkomandi birgðabókarfærslum.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1ffb80f4571e96dcaa8acfbcb106f7fb582b4783
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746092"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377574"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Vinna með rað- og lotunúmer
 Hægt er að úthluta rað- og lotunúmer við hvaða útleiðarskjal eða innleiðarskjal sem er og bókaðar færslur þess er síðan hægt að skoða í viðkomandi birgðafærslum. Þú framkvæmir vinnuna á síðunni **Vörurakningarlínur** sem hægt er að opna úr skjali á innleið eða útleið.
@@ -226,9 +226,9 @@ Ef tengja þarf einhverjar upplýsingar við tiltekið vörurakningarnúmer, t.d
 5. Velja aðgerðina **Athugasemd** til að stofna aðra athugasemdaskrá.  
 6. Veljið gátreitinn **Lokaður** til að sleppa rað- eða lotunúmerinu úr færslum.  
 
-Ef búið er að stofna raðnúmer í magni með því að nota **Stofna sérsniðið RN** eða **Úthluta raðnúmeri** er hægt að virkja **Stofna raðnúmersupplýsingar** og upplýsingakort verður stofnað fyrir hverja rakningarlínu.
+<!--If you create serial numbers in bulk by using the **Create Customized SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
 
-Einnig er hægt að búa til upplýsingakort þegar færslubækur eða skjöl eru bókuð á síðunni **Vörurakningarkóði** með því að kveikja á víxlun **Stofna raðnúmersuppl. við bókun** eða **Stofna raðnúmersuppl. við bókun**. 
+Alternatively, you can create an information card when you post journals or documents. On the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. -->
 
 Hægt er að breyta stofnuðum rað- eða lotuupplýsingaspjöldum síðar.
 

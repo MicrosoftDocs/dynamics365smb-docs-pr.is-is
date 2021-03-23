@@ -3,19 +3,19 @@ title: Tiltækar leturgerðir
 description: Netútgáfa Business Central inniheldur foruppsettar leturgerðir á netþjónum sem hægt er að nota þegar skýrslur eru búnar til.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/20/2020
 ms.author: edupont
-ms.openlocfilehash: 534e0d7c86dd49b9790cd7f8d5d644b56e8b28d4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 79ce3aba4acf5d5d889bce5ff37bf6d91d83e47c
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756968"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493255"
 ---
 # <a name="available-fonts"></a>Tiltækar leturgerðir
 
@@ -46,6 +46,17 @@ Magnetic Ink Character Recognition (MICR) leturgerðir eru uppsettar og tilbúna
 Auk MICR-leturgerða eru sérstakar öryggisleturgerðir í boði til að búa til texta, heiti, upphæðir og gjaldmiðilstáknin dollara, evrur, pund, og Yen, sem erfitt er að breyta þegar búið er að prenta ávísunina.  
 
 Frekari upplýsingar er að finna í [Velja útlit ávísunar](finance-how-define-check-layouts.md).  
+
+## <a name="fonts-for-barcodes"></a>Leturgerðir fyrir strikamerki
+Leturgerðir til að mynda einvíð strikamerki eru settar upp og hægt að nota í Word og RDLC skýrslum.
+
+Eftirfarandi tákn strikamerkis eru studd:
+* Kóði 3 af 9 (Kóði 39)
+* Kóði 128
+* Kóði 93
+* Codabar
+* MSI
+* 2 af 5 fléttuð
 
 ## <a name="see-also"></a>Sjá einnig
 

@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ba177ba40a11048a19cd401b18b8e4a5a7198d87
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 98dd55a41ccd987d810e4fb747b5cb7355a380dc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752281"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382630"
 ---
 # <a name="create-reports-with-xbrl"></a>Stofna skýrslur með XBRL
 XBRL (eXtensible Business Reporting Language) er XML-miðað tölvumál fyrir viðskiptaskýrslugerð og gerir fyrirtækjum kleift að vinna úr og deila gögnum sínum á árangursríkan og nákvæman hátt. XBRL-áætlunin býður fjölda hugbúnaðarfyrirtækja sem framleiða bókhalds- og áætlunarkerfi og alþjóðlegum endurskoðendafyrirtækum altæka viðskiptaskýrslugerð. Markmið áætlunarinnar er að búa til staðal fyrir samræmda skýrslugerð viðskiptaupplýsinga fyrir banka, fjárfesta og ríkisstofnanir. Slíkar viðskiptaskýrslur geta falið í sér eftirfarandi atriði:  
@@ -27,7 +27,12 @@ XBRL (eXtensible Business Reporting Language) er XML-miðað tölvumál fyrir vi
  • Upplýsingar sem eru ekki viðskiptatengdar  
  • Reglubundna skráningu, eins og ársreikninga og ársfjórðungsreikninga  
 
- [!INCLUDE[prod_short](includes/prod_short.md)] gerir fyrirtækjum kleift að breyta gögnum í XBRL og njóta þess hagræðis sem fylgir sveigjanleika og sjálfvirkni við að safna gögnum og deila þeim.  
+> [!NOTE]
+> Hægt er að flytja inn fjárhagstengd skema og búa til XBRL-tilviksskjöl með því að varpa fjárhagsgögnum úr bókhaldslyklinum yfir í einingar í flokkunum sem voru hannaðar fyrir fjárhagsskýrslur á borð við efnahagsreikninga, rekstrarreikninga og svo framvegis.
+> 
+> XBRL-möguleikarnir í Business Central styðja flokkanir fyrir lýsingu 2.1, þó gætu flokkanir innihaldið óstuddar einingar á borð við tenglagrunna formúlu, iXBRL eða verið með annars konar mismunandi byggingu. Mælt er með því að villuleita XBRL-möguleikann áður en þú notar í skýrslugerð.
+> 
+> Fullur stuðningur við flokkanir gæti þurft XBRL-merkingu og verkfæri þriðja aðila. Alþjóðleg stofnun XBRL er með lista yfir verkfæri og þjónustu sem hægt er að nota fyrir XBRL-skýrslugerð. Það fer eftir XBRL-skýrslukröfunum fyrir tiltekna flokkun hvort þú viljir skoða þessi úrræði eitthvað frekar. Frekari upplýsingar er að finna [Hefjast handa fyrir Business](https://go.microsoft.com/fwlink/?linkid=2153466) og [Verkfæri og þjónusta](https://go.microsoft.com/fwlink/?linkid=2153356).
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language (XML-miðað tölvumál fyrir viðskiptaskýrslugerð)
 XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) er XML-miðað tölvumál fyrir viðskiptaskýrslugerð. Með XBRL fæst staðall til samræmdrar skýrslugerðar fyrir alla notendur fjárhagslegra upplýsinga, svo sem opinber fyrirtæki og fyrirtæki í einkaeign, endurskoðendur, eftirlitsaðila, þá sem starfa við greiningu, fjárfesta, fjármagnsmarkaði og lánastofnanir, ennfremur aðra aðila, til dæmis forritara og þá sem starfa við gagnasöfn.  

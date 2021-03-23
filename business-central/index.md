@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 965171f23fb774ecfd865c1004cb9a224015ea21
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 836c3957f43d4b2d6ccb5e10bf8ef5efa3ba1177
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817207"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493203"
 ---
 # <a name="welcome-to-prod_long"></a>Velkomin(n) í[!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -32,7 +32,7 @@ Ef þú ert þegar með [!INCLUDE[prod_short](includes/prod_short.md)], skráir 
 Einnig er hægt að [fara í myndbandasafn okkar](across-videos.md), eða byrja á [Hefjast handa á Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) námsleið [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Nema annað sé tilgreint, endurspeglar efnið á Docs.microsoft.com-vefsvæðinu nýjustu útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] á netinu. Ef fyrirtækið notar aðra útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] á netinu gæti einhverjir eiginleikar ekki enn verið tiltækir. Ef fyrirtækið notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum gætirðu verið að nota eldri útgáfu. Frekari upplýsingar er að finna á [Algengar spurningar](across-faq.md).
+> Nema annað sé tilgreint, endurspeglar efnið á [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central/)-vefsvæðinu nýjustu útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] á netinu. Ef fyrirtækið notar aðra útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] á netinu gæti einhverjir eiginleikar ekki enn verið tiltækir. Ef fyrirtækið notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum gætirðu verið að nota eldri útgáfu. Frekari upplýsingar er að finna á [Algengar spurningar](across-faq.md).
 
 Eftirfarandi hlutar benda á helstu greinar þar sem hægt er að fá upplýsingar um [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -69,6 +69,10 @@ Eftirfarandi hlutar benda á helstu greinar þar sem hægt er að fá upplýsing
 - [Þróun í AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Reglur og leiðbeiningar fyrir AL-kóða](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
+
+## <a name="learn"></a>Læra
+
+Finna ókeypis námsefni á [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 ## <a name="community-resources"></a>Samfélagstilföng
 

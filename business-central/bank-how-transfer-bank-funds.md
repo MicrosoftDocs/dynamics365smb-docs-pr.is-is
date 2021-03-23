@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 934124d419e19c1dc8180f11fcae748cd2afd15d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1a0ab7c2a96c278740c07ff243ad785be1d72dd4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752356"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388100"
 ---
 # <a name="transfer-bank-funds"></a>Flytja bankainnstæður
 Stundum þarf að millifæra upphæð af einum bankareikningi í [!INCLUDE[prod_short](includes/prod_short.md)] yfir á annan. Til að gera þetta verður að bóka færsluna á síðunni **Færslubók**. Verkið er misjafnt eftir því hvort bankareikningarnir nota sama gjaldmiðil eða mismunandi gjaldmiðla.

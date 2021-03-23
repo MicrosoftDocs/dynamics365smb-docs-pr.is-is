@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a747a0bdb67187597cc33185b418844247b2e2b2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8cf8946d8b9792c7fb557969257380d0b48d0d83
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752976"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492944"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Unnið með Power BI Skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -40,11 +40,11 @@ Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum
 
 Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skráð þig skaltu fara á [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Þegar þú skráir þig skaltu nota vinnunetfang og aðgangsorð.
 
-## <a name="connect-to-power-bi---one-time-only"></a>Tengjast við Power BI - aðeins einu sinni
+## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Tengjast við Power BI - aðeins einu sinni
 
 Þegar þú skráir þig fyrst inn á [!INCLUDE [prod_short](includes/prod_short.md)] gæti birst tómur Power BI hluti á einhverri síðu, eins og sést á fyrri myndinni. Það fyrsta sem þú skalt gera er að tengjast Power BI -reikningnum þínum. Eftir tengingu er hægt að skoða skýrslur. Þú þarft aðeins að gera þetta einu sinni.
 
-Til að tengjast við Power BI skaltu velja **Hefjast handa með Power BI** tengilinn á hlutanum **Power BI Skýrslur**.
+Til að tengjast við Power BI skaltu velja **Hefjast handa með Power BI** tengilinn á hlutanum **Power BI Skýrslur**. 
 
 Við genginguna hefur [!INCLUDE [prod_short](includes/prod_short.md)] samskipti við Power BI-þjónustuna til að komast að því hvort þú sért með gildan Power BI-reikning og leyfi. Þegar leyfið þitt hefur verið staðfest birtast sjálfgefna Power BI-skýrslan á heimasíðunni þinni. Ef engin skýrsla birtist er hægt að velja skýrslu úr hlutanum.
 
@@ -53,7 +53,7 @@ Við genginguna hefur [!INCLUDE [prod_short](includes/prod_short.md)] samskipti 
 
 ##### <a name="from-prod_short-on-premises"></a>Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum
 
-Tenging við Power BI frá [!INCLUDE [prod_short](includes/prod_short.md)] er svipað og á netinu. Hins vegar er beðið um að heimildir á **ÞJÓNUSTUHEIMILDIR AZURE ACTIVE DIRECTORY** síðunni til að veita aðgang að Power BI þjónustum. Til að veita aðgang skal velja **Heimila Azure Services** og síðan **samþykkja**.
+Tenging við Power BI frá [!INCLUDE [prod_short](includes/prod_short.md)] er svipað og á netinu. Hins vegar kann að vera beðið um heimildir á **ÞJÓNUSTUHEIMILDIR AZURE ACTIVE DIRECTORY** síðunni til að veita aðgang að Power BI þjónustum. Til að veita aðgang skal velja **Heimila Azure Services** og síðan **samþykkja**.
 
 Eftir tengingu er hægt að velja skýrslu úr Power BI-hlutanum á síðum.
 

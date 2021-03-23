@@ -1,30 +1,29 @@
 ---
-title: Uppsetning eignaafskrifta| Microsoft Docs
+title: Uppsetning eignaafskrifta
 description: Tiltekið er í afskriftabók hvernig þú vilt að eignir verði afskrifaðar.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 10/01/2020
+ms.date: 02/22/2021
 ms.author: edupont
-ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749270"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493229"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Setja upp eignaafskriftir
- Hægt er að nota ýmsar afskriftaaðferðir vegna reikningsskila og skattframtals. Mörg stórfyrirtæki nota beinlínuafskriftir í reikningsskilum vegna þess að með þeim er yfirleitt hægt að tilgreina hærri tekjur. Vegna tekjuskatts nota þó mörg fyrirtæki hraðari afskriftaaðferð á borð við hlutfallslega afskrift. Afskriftaraðferð eignar er tilgreind með svæðinu **Afskriftaraðferð** á síðunni **Eignaspjald**. Frekari upplýsingar um hvað mismunandi aðferðir gera eru í [Afskriftaaðferðir](fa-depreciation-methods.md).
 
- Í afskriftabækur eru skilgreindar mismunandi leiðir til að reikna út afskriftir fyrir mismunandi eignir. Fyrir hverja bók er hægt að skilgreina sérstakar afskriftareglur. Til dæmis má tilgreina að eign skuli vera afskrifuð á þriggja ára tímabili í einni bók og á fimm ára tímabili í annarri bók.
+Hægt er að nota ýmsar afskriftaaðferðir vegna reikningsskila og skattframtals. Mörg stórfyrirtæki nota beinlínuafskriftir í reikningsskilum vegna þess að með þeim er yfirleitt hægt að tilgreina hærri tekjur. Vegna tekjuskatts nota þó mörg fyrirtæki hraðari afskriftaaðferð á borð við hlutfallslega afskrift. Afskriftaraðferð eignar er tilgreind með svæðinu **Afskriftaraðferð** á síðunni **Eignaspjald**. Frekari upplýsingar um hvað mismunandi aðferðir gera eru í [Afskriftaaðferðir](fa-depreciation-methods.md).
 
- Þegar stofnaðar hafa verið viðeigandi afskriftabækur verður að tengja eina eða fleiri afskriftabækur við hverja eign. Afskriftabók sem úthlutað er á eign er vísað til sem afskriftabók eigna. Setja má upp ótakmarkaðan fjölda afskriftabóka fyrir eign. 
+Afskriftabækur eru settar upp þar sem eru skilgreindar mismunandi leiðir til að reikna út afskriftir fyrir mismunandi gerðir af eignum. Hver afskriftabók tilgreinir sína eigin afskriftaskilmála. Til dæmis má tilgreina að eign skuli vera afskrifuð á þriggja ára tímabili í einni bók og á fimm ára tímabili í annarri bók.
+
+Þegar stofnaðar hafa verið viðeigandi afskriftabækur verður að tengja eina eða fleiri afskriftabækur við hverja eign. Afskriftabók sem úthlutað er á eign er vísað til sem afskriftabók eigna. Setja má upp ótakmarkaðan fjölda afskriftabóka fyrir eign.  
 
 ## <a name="to-create-a-depreciation-book"></a>Stofna afskriftabók
+
 Í eignaafskriftabók er tilgreint hvernig eignir eru afskrifaðar. Ef gera á ráð fyrir margvíslegum afskriftaaðferðum má setja upp margar afskriftabækur.  
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afskriftabækur** og veldu síðan tengda tengilinn.
@@ -32,9 +31,14 @@ ms.locfileid: "4749270"
 3. Fyllt er út í reiti eftir því sem á við á síðunni **Afskriftabókarspjald**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Hægt er að skrá eignafærslur á síðunni **Fjárhagsbók eigna** eða á síðunni **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Fylgja á næsta skref til að skilgreina hvaða tegund færslubókar er notuð sjálfgefið fyrir hinum ýmsu aðgerðum eigna.
+    > Hægt er að skrá eignafærslur á síðunni **Fjárhagsbók eigna** eða á síðunni **Færslubók eigna**, allt eftir því hvort færslurnar eru fyrir fjárhagsskýrslugerð eða fyrir innri stjórnun. Fylgja á næsta skref til að skilgreina hvaða tegund færslubókar er notuð sjálfgefið fyrir hinum ýmsu aðgerðum eigna.
 4. Í **Samþætting** Flýtiflipanum skal velja gátreit fyrir hverja aðgerð eignar sem bóka á færslur fyrir með því að nota **Fjárhagsbók eigna** síðuna.
 5. Endurtaka skal skref 2 til 4 fyrir hverja afskriftaaðferð eða bókunaraðferð sem úthluta á á eignir sem afskriftabók.
+
+> [!IMPORTANT]
+> Velja skal reitinn **Nota sléttun v. tímab.afskr** til að slétta reiknaðar reglubundnar upphæðir í heilar tölur. Ef til dæmis fyrirtækið notar einnig sléttun reikninga í heilar tölur á síðunni **Uppsetning fjárhags**, þá getur sléttun afskriftarupphæða í heilar tölur einnig aukið gagnsæi.
+
+Ef þú til dæmis losar þig við eign þar sem afskriftabókin tilgreinir ekki sléttun en fjárhagsuppsetning fyrirtækisins krefst sléttunar, þá þegar þú losar þig við eignina muntu sjá villuboð um að upphæð verði að vera sléttuð í fjárhagsfærslu.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Úthluta afskriftabók á eign.
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Eignir** og veldu síðan tengda tengilinn.

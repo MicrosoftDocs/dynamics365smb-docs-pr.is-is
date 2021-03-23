@@ -3,19 +3,19 @@ title: Stofna viðskiptatengiliði
 description: Lýsir verkum til að stofna tengiliði og skilgreina viðskiptatengslin.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: 42645a038c3937644fe90ce895ee454e1d1b5d5c
-ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
+ms.openlocfilehash: f07bc493a88f7ce46d3845a97774d0971c0fe5ba
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4827044"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388900"
 ---
 # <a name="create-contacts"></a>Stofna tengiliði
 Þegar komið er á viðskiptatengslum við einhvern í öðru fyrirtæki skal bæta viðkomandi við sem tengiliði í [!INCLUDE[prod_short](includes/prod_short.md)]. Því næst skal bæta við upplýsingum um viðkomandi, eða fyrirtæki hans, sem geta reynst gagnlegar fyrir komandi samskipti. Á síðunni **Tengiliðaspjald** er hægt að stofna eftirfarandi gerðir tengiliða:

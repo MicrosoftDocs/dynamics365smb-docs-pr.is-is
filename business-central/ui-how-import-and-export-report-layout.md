@@ -3,19 +3,19 @@ title: Flytja inn og út skýrslu- og skjalaútlit | Microsoft Docs
 description: Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skrá í og úr staðsetningu á tölvu og neti.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: eed31b7eebaace7ada63470bf15a2e4efe741325
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d718553661c7fcfa44c010b7b9dbc4d0d2716d14
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918513"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385799"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Flytja sérsniðið skýrsluútlit inn og út
 Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skrá í og úr staðsetningu á tölvu og neti. Til dæmis er hægt að flytja út skýrsluútlit og senda síðan skrána til einhvers annars til breytinga. Sá einstaklingur getur gert breytingarnar á útlitinu og skilað skránni til þín til að flytja aftur inn.  
@@ -27,9 +27,9 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
 
-2.  Veldu röðina fyrir skýrsluna sem er með sérsniðna skýrsluútlitið sem þú vilt flytja út og svo aðgerðina **Sérstillt útlit** .  
+2.  Veldu röðina fyrir skýrsluna sem er með sérsniðna skýrsluútlitið sem þú vilt flytja út og svo aðgerðina **Sérstillt útlit**.  
 
-3.  Á síðunni **Skýrsluútlit** skal velja skýrsluútlit sem flytja á út í skrá og svo aðgerðina **Flytja út útlit** .  
+3.  Á síðunni **Skýrsluútlit** skal velja skýrsluútlit sem flytja á út í skrá og svo aðgerðina **Flytja út útlit**.  
 
 4.  Í svarglugganum **Flytja út skrá** skal velja hnappinn **Vista** og vista svo skrána í tölvu eða á neti.  
 
@@ -41,9 +41,9 @@ Hægt er að flytja inn og út fyrirliggjandi sérsniðin skýrsluútlit sem skr
 
 2.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Val á útliti skýrslu** og veldu síðan tengda tengilinn.  
 
-3.  Veldu röðina fyrir skýrsluna sem þú vilt flytja inn skýrsluútlitið og svo aðgerðina **Sérstillt útlit** .  
+3.  Veldu röðina fyrir skýrsluna sem þú vilt flytja inn skýrsluútlitið og svo aðgerðina **Sérstillt útlit**.  
 
-4.  Á síðunni **Skýrsluútlit** skal velja útlit sem flytja á inn í skrána og svo aðgerðina **Flytja inn útlit** .  
+4.  Á síðunni **Skýrsluútlit** skal velja útlit sem flytja á inn í skrána og svo aðgerðina **Flytja inn útlit**.  
 
 5.  Í svarglugganum **Flytja inn** skal velja skjalið sem skilgreinir skýrsluútlitið og svo velja **Opna** hnappinn.  
 

@@ -3,15 +3,15 @@ title: Stjórna geymslu með því að eyða skjölum eða þjappa gögnum
 description: Fáið upplýsingar um hvernig hægt er að geyma söguleg gögn með því að þjappa fjárhagsfærslum, eða eyða þeim.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753868"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493048"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Stjórna geymslu með því að eyða skjölum eða þjappa gögnum
 
@@ -47,7 +47,13 @@ Hægt er að þjappa eftirfarandi gagnagerðum í [!INCLUDE [prod_short](include
   Eftir þjöppunina, með aðgerðinni **Varðveita reitaefni** má varðveita efni reitanna **Númer fylgiskjalsTengiliður okkar**, **Deildarkóði 1** og **Verkefniskóði 2**.
 * Lánardr.færslur
 
-  Eftir þjöppunina er efni eftirfarandi reita alltaf varðveitt: **Bókunardagsetning**, **Númer lánardrottins**, **Tegund fylgiskjals**, **Gjaldmiðilskóði**, **Bókunarflokkur**, **Upphæð**, **Eftirstöðvar**, **Upphafleg upph. (SGM)**, **Eftirstöðvar (SGM)**, **Upphæð (SGM)**, **Innkaup (SGM)**, **Reikningsafsl. (SGM)**, **Veittur greiðsluafsláttur (SGM)** og **Mögul. að jafna greiðsluafsl.**.
+> [!NOTE]
+> Þjappaðar færslur fyrir viðskiptamenn, lánardrottna, banka og eignaundirbækur eru bókaðar á örlítið öðruvísi hátt en venjulegar bókanir. Þetta er til að draga úr fjölda nýrra fjárhagsfærslna sem búnar eru til með dagsetningarþjöppun og eru sérstaklega mikilvægar þegar haldið er eftir upplýsingum á borð við víddir og skjalanúmer. Dagsetningarþjöppun stofnar nýjar færslur á eftirfarandi hátt:
+>* Á síðunni **Fjárhagsfærslur** eru nýjar færslur stofnaðar með nýjum færslunúmerum fyrir þjöppuðu færslurnar. Reiturinn **Lýsing** inniheldur **Dagsetningarþjöppun** þannig að auðvelt sé að bera kennsl á þjöppuðu færslurnar. 
+>* Á síðum fjárhags, eins og á síðunni **Fjárhagsfærslur**, eru ein eða fleiri færslur stofnaðar með nýjum færslunúmerum. 
+> Bókunarferlið stofnar eyður í númeraröðinni fyrir færslur síðunni **Fjárhagsfærslur**. Þessum númerum er aðeins úthlutað á færslurnar á fjárhagssíðum. Númerabilið sem var úthlutað á færslurnar er í boði á **Fjárhagsdagbókarsíðunni** í reitunum **Frá færslu nr.** og **Til færslu nr.**. 
+
+Eftir þjöppunina er efni eftirfarandi reita alltaf varðveitt: **Bókunardagsetning**, **Númer lánardrottins**, **Tegund fylgiskjals**, **Gjaldmiðilskóði**, **Bókunarflokkur**, **Upphæð**, **Eftirstöðvar**, **Upphafleg upph. (SGM)**, **Eftirstöðvar (SGM)**, **Upphæð (SGM)**, **Innkaup (SGM)**, **Reikningsafsl. (SGM)**, **Veittur greiðsluafsláttur (SGM)** og **Mögul. að jafna greiðsluafsl.**.
 
   Með aðgerðinni **Varðveita innihald reita** er líka hægt að varðveita efni þessara viðbótarreita: **Númer fylgiskjals**, **Númer afh.aðila**, **Kóði innkaupaaðila**, **Alvíddarkóði 1** og **Alvíddarkóði 2**.
 

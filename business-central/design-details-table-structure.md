@@ -3,19 +3,19 @@ title: Hönnunarupplýsingar - töfluuppbygging | Microsoft Docs
 description: Til að skilja hvernig víddafærsla vistun og bókun er endurhannað, það er mikilvægt að skilja töflu uppbyggingu.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1dccea4f700f8cf141e05058b54fd20d62665b7b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0423314fa123c931e98db37bcc6939b6fbbddf25
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910981"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381518"
 ---
 # <a name="design-details-table-structure"></a>Hönnunarupplýsingar töfluuppbygging
 Til að skilja hvernig víddafærslur eru vistaðar og bókaðar er mikilvægt að skilja töfluuppbyggingu.  
@@ -43,7 +43,7 @@ Ekki er hægt að breyta þessari töflu. Taflan er notuð til að leita að ví
 |4|**Í notkun**|Boole|Ósatt ef ekki í notkun|  
 
 ## <a name="table-482-reclas-dimension-set-buffer"></a>Endurflokkunarbiðsvæði víddasamstæðu í töflu 482  
-Þessi tafla er notuð þegar þú breytir víddargildiskóða, til dæmis á færslu fjárhagsfærslu með því að nota síðuna **Endurflokkunarbók vöru** .  
+Þessi tafla er notuð þegar þú breytir víddargildiskóða, til dæmis á færslu fjárhagsfærslu með því að nota síðuna **Endurflokkunarbók vöru**.  
 
 |Nr. reits|Heiti reits|Gerð gagna|Athugasemd|  
 |---------------|----------------|---------------|-------------|  

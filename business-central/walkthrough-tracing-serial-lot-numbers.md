@@ -3,19 +3,19 @@ title: Kynning - Rekja rað- og lotunúmer | Microsoft Docs
 description: Þetta efnisatriði lýsir aðgerðunum sem grípa skal til ef hætta á að selja gallaða vöru.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 51486dac343ed6047988acedc97122136ab61b3b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756368"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385725"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Kynning: Rað-/lotunúmerarakning
 
@@ -25,7 +25,7 @@ ms.locfileid: "4756368"
 
 Fyrsti verkhluti gallastjórnunar er að rannsaka hvaðan gölluðu vörurnar komu og hvar þær voru notaðar. Rannsóknin byggir á fyrri gögnum og er einfölduð með því að leita í vörurakningarfærslum á síðunni **Vörurakning**.  
 
-Næsta verk gallastjórnunar er að ákvarða hvort röktu vörunum hefur verið ráðstafað í opnum skjölum, svo sem sölupöntunum sem eftir á að bóka eða notkunarbókum. Þessi vinna er framkvæmd á **** síðunni. Hægt er að nota eiginleikann Leita að færslum til að leita að alls kyns færslum í gagnagrunni.  
+Næsta verk gallastjórnunar er að ákvarða hvort röktu vörunum hefur verið ráðstafað í opnum skjölum, svo sem sölupöntunum sem eftir á að bóka eða notkunarbókum. Þessi vinna er framkvæmd á síðunni **Finna færslur**. Hægt er að nota eiginleikann Leita að færslum til að leita að alls kyns færslum í gagnagrunni.  
 
 ## <a name="about-this-walkthrough"></a>Um kynninguna
 

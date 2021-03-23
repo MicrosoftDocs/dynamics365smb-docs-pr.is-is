@@ -3,18 +3,18 @@ title: Úrræðaleita vandamál með innskráningu í sjálfsafgreiðslu | Micro
 description: Kynntu þér algengustu ástæðurnar fyrir því af hverju þú getur hugsanlega ekki klárað innskráningu í Business Central, og hvernig hægt er að vinna í kringum þær.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bbfd647bd2a121d3851ff07bf11e5c3d7f689588
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 52cdc0f2c2f25f35944b3437369c0e5b7eaf0e96
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756668"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388750"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Úrræðaleit innskráning í sjálfsafgreiðslu
 Innskráning fyrir [!INCLUDE[prod_short](includes/prod_short.md)] er auðvelt og er hægt að gera mjög skjótan hátt. Hægt er að stofna reikning án endurgjalds jafnvel þó að þú sért fyrirtæki sem þegar er til. Þessi grein fjallar um vandamál sem gætu komið upp við innskráningu.

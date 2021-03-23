@@ -3,19 +3,19 @@ title: Gefa út, prenta, hætta við og ógilda ávísanir| Microsoft Docs
 description: Lýsir því hvernig skal gefa út ávísanir með því að nota greiðslubók, prenta ávísanir og ógilda eða skoða ávísanafjárhagsfærslur í Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3ee126fae6e658700a6f83a37b4c4b77daa98a6e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 137e22e8eb4e426a84d7a84b772ec2ad5d55cbcc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759568"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387825"
 ---
 # <a name="make-check-payments"></a>Framkvæma ávísanagreiðslur
 

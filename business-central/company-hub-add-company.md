@@ -3,16 +3,16 @@ title: Bæta fyrirtækjum við fyrirtækjamiðstöðina
 description: Kynnið ykkur hvernig bæta má fyrirtækjum úr öðru umhverfi Business Central við fyrirtækjamiðstöðina svo hægt sé að stjórna vinnu í mörgum umhverfum.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
 ms.date: 10/29/2020
 ms.author: edupont
-ms.openlocfilehash: a1832ae903af633756dd7fc2301e8a7ac21924de
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 252b2bc892a22349a9d5c84b704c922f7586fddf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752106"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389175"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Bæta fyrirtækjum við fyrirtækjamiðstöðina
 

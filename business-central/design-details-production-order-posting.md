@@ -3,19 +3,19 @@ title: Hönnunarupplýsingar - Bókun framleiðslupöntunar | Microsoft Docs
 description: Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7e2c8aeda1d71c7f01e7999dd540ce9194806dc5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b64fc6117ce1b241152a94e0c0006c1dbe66c542
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917302"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390726"
 ---
 # <a name="design-details-production-order-posting"></a>Hönnunarupplýsingar: staða framleiðslupöntunar
 Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið. Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md). Hins vegar er kostnaðarrennsli fyrir samsetningarpantanir síður flókið, sérstaklega vegna þess að bókun samsetningarkostnaðar á sér aðeins stað einu sinni og myndar því ekki birgðir með verkum í vinnslu.
@@ -103,7 +103,7 @@ Raunkostnaður er bókaður á framleiðslupöntunina og borinn saman við stað
 
     > [!NOTE]  
     >  Þetta er frábrugðið færslum samsetningarpöntunar, þar sem raunkostnaður er alltaf bókaður. Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md).  
-2.  Þegar framleiðslupöntun er stillt á **fullunninn** er hún reikningsfærð með því að keyra runuvinnsluna **Leiðr. kostnað-Birgðafærslur** . Niðurstaðan er sú að heildarkostnaður pöntunar er reiknaður samkvæmt stöðluðum kostnaði notaðra efna og afkasta. Frávik frá reiknuðum staðalkostnaði og raunverulegum framleiðslukostnaði eru reiknuð og bókuð.  
+2.  Þegar framleiðslupöntun er stillt á **fullunninn** er hún reikningsfærð með því að keyra runuvinnsluna **Leiðr. kostnað-Birgðafærslur**. Niðurstaðan er sú að heildarkostnaður pöntunar er reiknaður samkvæmt stöðluðum kostnaði notaðra efna og afkasta. Frávik frá reiknuðum staðalkostnaði og raunverulegum framleiðslukostnaði eru reiknuð og bókuð.  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Hönnunarupplýsingar: Birgðakostnaður](design-details-inventory-costing.md)   

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 06/15/2020
 ms.author: bholtorf
-ms.openlocfilehash: 44fb1f467b0b44c41456a64c8de3f5ae9dc85786
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752751"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470438"
 ---
 # <a name="set-up-email"></a>Setja upp tölvupóst
 Fólk í viðskiptum sendir upplýsingar og skjöl á borð við sölu- og innkaupapantanir og reikninga með tölvupósti á hverjum degi. Stjórnendur geta auðveldað verkið með því að tengja einn eða fleiri tölvupóstsreikninga við [!INCLUDE[prod_short](includes/prod_short.md)] þannig að hægt sé að senda skjöl án þess að þurfa að opna annað tölvupóstforrit. Hægt er að semja hver skilaboð fyrir sig með einföldum sniðsverkfærum eins og leturgerð, útliti, litum og svo framvegis og bæta við viðhengjum allt að 100 MB að stærð. Stjórnendur geta einnig sett upp skýrsluútlit sem inniheldur aðeins helstu upplýsingar úr fylgiskjölum. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
@@ -37,7 +37,7 @@ Eftirfarandi tafla lýsir þeim tölvupóstsviðbótum sem eru sjálfgefið í b
 
 |Innanhússsími  |Description  |Dæmi um notkun  |
 |---------|---------|---------|
-|**Microsoft 365**|Allir senda tölvupóst úr samnýttu pósthólfi í Exchange Online.|Þegar öll skilaboð koma frá sömu deildinni sem dæmi, þá sendir sölufyrirtækið skilaboð frá reikningnum sales@cronus.com. Þetta krefst þess að sett verði upp samnýtt pósthólf í Office 365 stjórnendamiðstöðinni. Frekari upplýsingar eru í [Samnýtt pósthólf](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Allir senda tölvupóst úr samnýttu pósthólfi í Exchange Online.|Þegar öll skilaboð koma frá sömu deildinni sem dæmi, þá sendir sölufyrirtækið skilaboð frá reikningnum sales@cronus.com. Þetta krefst þess að sett verði upp samnýtt pósthólf í Office 365 stjórnendamiðstöðinni. Frekari upplýsingar eru í [Samnýtt pósthólf](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Núverandi notandi**|Allir senda tölvupóst frá reikningnum sem var notaður til að skrá sig inn á [!INCLUDE[prod_short](includes/prod_short.md)].|Leyfa samskipti frá reikningum einstaklinga.|
 |**Annað (SMTP)**|Nota skal SMTP-samskiptareglu til að senda tölvupósta.|Leyfa skal samskipti í gegnum SMTP-póstþjóninn. |
 
@@ -47,7 +47,7 @@ Eftirfarandi tafla lýsir þeim tölvupóstsviðbótum sem eru sjálfgefið í b
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="legacy-smtp-settings-and-the-email---smtp-connector-extension"></a>Eldri SMTP-stillingar og tölvupóstur - Viðbót SMTP-tengils
-Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] og búið er að grunnstilla tölvupóst í gegnum eldri uppsetningu SMTP, er hægt að halda áfram að nota uppsetninguna samhliða tölvupóstinum - viðbót SMTP-tengils. Þegar við uppfærum [!INCLUDE[prod_short](includes/prod_short.md)] í næstu útgáfu munum við afrita eldri SMTP-stillingar í tölvupóstinn - viðbót SMTP-tengils. Við tækifæri getur stjórnandinn kveikt á viðbótareiginleika tölvupóstsins og hægt verður að nota tölvupóstinn - viðbót SMTP-tengils. Frekari upplýsingar eru í [Um eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). Hinsvegar er engin samstilling milli viðbótar SMTP-tengils og eldri stillinga. Ef SMTP-stillingum er breytt í viðbótinni ætti að gera sömu breytingar á eldri SMTP-uppsetningu eða öfugt.
+Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] og búið er að grunnstilla tölvupóst í gegnum eldri uppsetningu SMTP, er hægt að halda áfram að nota uppsetninguna samhliða tölvupóstinum - viðbót SMTP-tengils. Þegar við uppfærum [!INCLUDE[prod_short](includes/prod_short.md)] í næstu útgáfu munum við afrita eldri SMTP-stillingar í tölvupóstinn - viðbót SMTP-tengils. Við tækifæri getur stjórnandinn kveikt á viðbótareiginleika tölvupóstsins og hægt verður að nota tölvupóstinn - viðbót SMTP-tengils. Frekari upplýsingar eru í [Um eiginleikastjórnun](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). Hinsvegar er engin samstilling milli viðbótar SMTP-tengils og eldri stillinga. Ef SMTP-stillingum er breytt í viðbótinni ætti að gera sömu breytingar á eldri SMTP-uppsetningu eða öfugt.
 
 > [!NOTE]
 > Ef til staðar eru sérstillingar sem tengjast eldri uppsetningu SMTP-tölvupósts, eru líkur á að eitthvað fari úrskeiðis í sérstillingunum ef viðbætur tölvupóstsins eru notaðar. Mælt er með því að setja upp og prófa viðbæturnar áður en kveikt er á eiginleikanum fyrir viðbótareiginleika tölvupósts.
@@ -157,7 +157,7 @@ Skrefunum til að skrá [!INCLUDE[prod_short](includes/prod_short.md)] inn í Az
 > * Framsenda URI (valfrjálst)
 > * Leyniorð biðlara
 
-Almennar leiðbeiningar um skráningu forrits má finna í [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app.md). 
+Almennar leiðbeiningar um skráningu forrits má finna í [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Tengja [!INCLUDE[prod_short](includes/prod_short.md)] við forritsskráninguna
 Þegar forritið hefur verið skráð í Azure-gáttina, í [!INCLUDE[prod_short](includes/prod_short.md)], skal nota uppsetningarleiðbeininguna **AAD-skráning tölvupóstforrits** með hjálp til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við það.

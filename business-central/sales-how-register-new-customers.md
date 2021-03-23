@@ -1,21 +1,21 @@
 ---
-title: Stofna viðskiptamannaspjald til að skrá nýja viðskiptamenn | Microsoft Docs
+title: Skrá nýja viðskiptamenn með því að stofna viðskiptamannaspjald
 description: Lýsir því hvernig skal stofna viðskiptamannaspjald til að skrá upplýsingar um alla nýja viðskiptamenn eða biðlara sem selt er til.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client
-ms.date: 10/01/2020
+ms.search.keywords: client, customer, credit
+ms.date: 03/09/2021
 ms.author: edupont
-ms.openlocfilehash: 86527387653d198bc8cf6f7817058b5ff551e1d0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748320"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573427"
 ---
 # <a name="register-new-customers"></a>Skrá nýja viðskiptamenn
 
@@ -64,6 +64,29 @@ Viðskiptamannasniðmátinu verður bætt við lista viðskiptamannasniðmáta �
 
 Ef þú hefur bókað færslu fyrir viðskiptavin er ekki hægt að eyða spjaldinu þar sem hugsanlega þarf að nota fjárhagsfærslurnar í endurskoðun. Til að eyða viðskiptamannaspjöldum með fjárhagsfærslum skal hafa samband við samstarfsaðila Microsoft til að gera það með kóða.  
 
+## <a name="managing-credit-limits"></a>Stjórna lánamörkum
+
+Lánamörk, stöður og greiðsluskilmálar gera [!INCLUDE [prod_short](includes/prod_short.md)] kleift að gefa út viðvörun um lánamark og gjaldfallna stöðu þegar sölupöntun er slegin inn.  Ennfremur gera aðgerðir vegna greiðsluskilmála og vaxtaskilmála það kleift að innheimta vexti og/eða viðbótargjöld.  
+
+Reiturinn **Lánamark** á viðskiptamannaspjaldinu tilgreinir hámarksupphæð sem viðskiptamaðurinn má fara umfram greiðslustöðuna áður en viðvörun er gefin út. Síðan þegar færðar eru inn upplýsingar í færslubækur, tilboð, pantanir og reikninga mun [!INCLUDE [prod_short](includes/prod_short.md)] prófa söluhausana og stakar sölulínur til að sjá hvort farið hafi verið yfir lánamarkið.
+
+Hægt er að bóka þótt farið hafi verið yfir skuldamörk. Ef reiturinn er hafður auður eru engin mörk á hámarksskuld viðkomandi viðskiptamanns.  
+
+Hægt er að velja um það að ekki séu birtar aðvaranir um að lánsfjárupphæð viðskiptamanns hafi náð hámarki, og hægt er að tilgreina aðgerðir aðvarana sem birtast.
+
+### <a name="to-specify-credit-limit-warnings"></a>Viðvaranir lánamarks tilgreindar
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölugrunnur** og veldu síðan tengda tengilinn.
+
+2. Í flýtiflipanum **Almennt**, í reitnum **Viðvaranir lánamarks**, skal velja viðeigandi valkost eins og lýst er í eftirfarandi töflu:
+
+    |Valkostur| Description|
+    |------|------------|
+    |**Báðar aðvaranir**| Kerfið athugar bæði reitina **Hámarksskuld** og **Gjaldfallið** á spjaldi viðskiptamannsins og sendir aðvörun er viðskiptamaður hefur farið fram yfir hámarksskuld sína eða hefur gjaldfallna stöðu.|
+    |**Hámarksskuld**|Gildið í reitnum **Lánamark** á spjaldi viðskiptavinar er borið saman við innistæðu hans, og viðvörun birtist ef innistæðan er yfir þessari upphæð.|
+    |**Upphæð vanskila**|Svæðið **Gjaldfallin staða** í spjaldi viðskiptamanns er athugað og viðvörun birtist ef staða viðskiptamanns er gjaldfallin.|
+    |**Engin aðvörun**|Engar viðvaranir eru sýndar um stöðu viðskiptavinar.|
+
 ## <a name="see-also"></a>Sjá einnig
 
 [Skilgreina Greiðsluhætti](finance-payment-methods.md)  
@@ -72,6 +95,5 @@ Ef þú hefur bókað færslu fyrir viðskiptavin er ekki hægt að eyða spjald
 [Sala](sales-manage-sales.md)  
 [Uppsetning sölu](sales-setup-sales.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

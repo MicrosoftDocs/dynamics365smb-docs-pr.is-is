@@ -3,19 +3,19 @@ title: Hvernig á að loka fyrir sölu til viðskiptamanna
 description: Ef þörf er á er hægt að útiloka að viðskiptavinur sé hafður með í söluskjölum og öðrum sölufærslum.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc8014cf0896db1ebbc5f0c5ea22e0f160c1b06d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8401b02677be48d06de2c3dbd67efd1ea8dd18cd
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926548"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392700"
 ---
 # <a name="block-customers"></a>Loka á viðskiptamenn
 Hægt er að loka á viðskiptamann, til dæmis vegna gjaldþrota, svo að ekki sé hægt að bæta viðskiptamanninum við söluskjöl eða svo að ekki sé hægt að bóka færslur fyrir viðskiptamanninn.
@@ -33,7 +33,7 @@ Eftirfarandi tafla lýsir valkostunum fyrir lokun á viðskiptavini.
 
 ## <a name="to-block-a-customer"></a>Til að loka á viðskiptamann  
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Viðskiptamenn** og veldu síðan tengda tengilinn.
-2. Veldu viðskiptamann og síðan aðgerðina **Breyta** .
+2. Veldu viðskiptamann og síðan aðgerðina **Breyta**.
 3. Í reitnum **Lokað** skal velja hverju á að loka, eins og lýst er í töflunni hér að ofan.
 
 ## <a name="see-also"></a>Sjá einnig  

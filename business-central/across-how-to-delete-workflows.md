@@ -1,24 +1,24 @@
 ---
 title: Hvernig skal eyða verkflæði | Microsoft Docs
-description: Óhætt er að eyða verkflæði ef ljóst er að það sé ekki lengur í notkun. Öll verkflæðistilvik sem eru skilgreind í verkflæði verða að hafa stöðuna **Lokið** .
+description: Óhætt er að eyða verkflæði ef ljóst er að það sé ekki lengur í notkun. Öll verkflæðistilvik sem eru skilgreind í verkflæði verða að hafa stöðuna **Lokið**.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9b1990e1379b958aaa3723b4e5a984d066d0b2e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e665eaa03f52083b8e68424ec64468194a10f2cf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915836"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384475"
 ---
 # <a name="delete-workflows"></a>Eyða verkflæðum
-Óhætt er að eyða verkflæði ef ljóst er að það sé ekki lengur í notkun. Öll verkflæðistilvik sem eru skilgreind í verkflæði verða að hafa stöðuna **Lokið** .  
+Óhætt er að eyða verkflæði ef ljóst er að það sé ekki lengur í notkun. Öll verkflæðistilvik sem eru skilgreind í verkflæði verða að hafa stöðuna **Lokið**.  
 
 > [!CAUTION]  
 >  Þegar verkflæði er eytt munu allar upplýsingar verkflæðisins glatast.  
@@ -28,9 +28,9 @@ ms.locfileid: "3915836"
 ## <a name="to-delete-a-workflow"></a>Að eyða verkflæði  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkflæði** og veldu síðan tengda tengilinn.  
 2.  Veljið verkflæði sem á að eyða.  
-3.  Velja skal aðgerðina **Eyða** .  
+3.  Velja skal aðgerðina **Eyða**.  
 4.  Að öðrum kosti er hægt að opna það verkflæði sem á að eyða.  
-5.  Á síðunni **Verkflæði** skal velja aðgerðina **Eyða** .  
+5.  Á síðunni **Verkflæði** skal velja aðgerðina **Eyða**.  
 
 ## <a name="see-also"></a>Sjá einnig  
  [Búa til verkflæði](across-how-to-create-workflows.md)   

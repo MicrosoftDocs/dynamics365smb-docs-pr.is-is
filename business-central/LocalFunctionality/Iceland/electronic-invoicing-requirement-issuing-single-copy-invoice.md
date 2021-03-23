@@ -3,19 +3,19 @@ title: Skilyrði fyrir rafrænar reikningsfærslur fyrir útgáfu reiknings í e
 description: Á Íslandi þarf að senda skýrslu til hins opinbera ef reikningur er prentaður oftar en einu sinni með rafrænni reikningsfærslu.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f38cb30b99587697a4d185399a23f624a9a7e8d7
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 053b02841ddc74b22e1efe268bbce157d0ea174b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013658"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381808"
 ---
 # <a name="electronic-invoicing-requirement-issuing-single-copy-invoice"></a>Kröfur fyrir rafrænar reikningsfærslur: Útgáfa reikninga í einriti
 

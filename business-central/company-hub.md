@@ -3,16 +3,16 @@ title: Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni
 description: Kynnið ykkur fyrirtækjamiðstöðina í Dynamics 365 Business Central sem hægt er að nota til að stjórna vinnunni í mörgum fyrirtækjum.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/29/2020
 ms.author: edupont
-ms.openlocfilehash: e8a1e6de5cc8889f144e08db8ed77e4543cb9b4c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d85358c9fa1e4f6fb6d581daed45c4333511b990
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752056"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387475"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Stjórna vinnu yfir mörg fyrirtæki í fyrirtækjamiðstöðinni
 

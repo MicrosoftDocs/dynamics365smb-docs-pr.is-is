@@ -3,19 +3,19 @@ title: Setja upp tölvupóstskráningu | Microsoft Docs
 description: Kynntu þér hvernig tölvupóstsamskipti milli sölufólks og viðskiptavina geta skapað alvöru sölutækifærum.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f099072561e5a35f893a42edbbe6f27a5b4722ed
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a431eba8881eb6bb32e01d67f25ea53981da445e
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749806"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470338"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Fylgstu með tölvupóstsamskiptum milli sölufólks og tengiliða
 
@@ -65,7 +65,7 @@ Eftirfarandi skref gera ráð fyrir að nota Azure Active Directory til að stj�
     > Ef framsendingarslóðin er ekki tilgreind er hægt að gera það seinna með því að velja **Bæta við verkvangi** og síðan velja **Vef** til að bæta við vefforritinu og framsendingarvefslóðinni. 
 
 3. Undir **Stjórna** skal velja **Skrá**.
-4. Finnið eiginleikann **requiredResourceAccess** í skránni og bætið við eftirfarandi kóða innan hornklofanna ([]) til að bæta við áskildum heimildum. Frekari upplýsingar er að finna í [Skrá forritið](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application).
+4. Finnið eiginleikann **requiredResourceAccess** í skránni og bætið við eftirfarandi kóða innan hornklofanna ([]) til að bæta við áskildum heimildum. Frekari upplýsingar er að finna í [Skrá forritið](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth#register-your-application).
 
 ```
 {

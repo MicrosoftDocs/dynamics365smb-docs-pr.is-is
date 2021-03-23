@@ -3,19 +3,19 @@ title: Búa til notendur samkvæmt leyfum | Microsoft Docs
 description: Lýsir því hvernig skal bæta notendum við Business Central á netinu eða á staðnum samkvæmt leyfum.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 217b658e6a4c54996d3f0e9cfa7470f02908b380
-ms.sourcegitcommit: 5d5451ee618f122c926e3189290f3765052f7077
+ms.openlocfilehash: cc6a32653d443d45a8cb037be275ff84e449ca02
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "4846341"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573352"
 ---
 # <a name="create-users-according-to-licenses"></a>Búa til notendur samkvæmt leyfum
 
@@ -106,7 +106,7 @@ Notendur með tækjaleyfið geta ekki framkvæmt eftirfarandi verk í [!INCLUDE[
 
 1. Í stjórnendamiðstöð Microsoft 365 skal fara á síðuna **Hópar**.
 2. Velja skal aðgerðina **Bæta við hópi**.
-3. Á síðunni **Velja gerð hóps** skal velja aðgerðina **Öryggi** og síðan velja aðgerðina **Bæta við**.
+3. Á síðunni **Velja gerð hóps** skal velja valkostinn **Öryggi** og síðan velja aðgerðina **Bæta við**.
 4. Á síðunni **Grunnur** skal slá inn **Dynamics 365 Business Central tækjanotendur** sem heiti hópsins.
   
    >[!NOTE]

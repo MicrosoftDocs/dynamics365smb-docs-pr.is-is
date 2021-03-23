@@ -1,39 +1,45 @@
 ---
-title: Hvernig á að ganga frá framleiðslufrálagi | Microsoft Docs
+title: Ganga frá frálagi framleiðslu
 description: Hvernig gengið er frá frálagi úr framleiðslu fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30f29078c4ca32f934427d8b07715077a8175e6b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e97f0e13f7b07ff59fd05908b6a3239d6cf70ebd
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759693"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498638"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Ganga frá framleiðslu eða samsetningarfrálagi
+
 Hvernig gengið er frá frálagi úr framleiðslu fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).  
 
-Í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu en ekki móttökuvinnslu er skjalið **Birgðafrágangur** notað til að skipuleggja og skrá frágang á frálagi.  
+Í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslan er sett upp þannig að krafist sé frágangsvinnslu er skjalið **Birgðafrágangur** notað til að bóka framleiðsluúttak og skrá frágang úttaks.  
+
+> [!NOTE]  
+> Frágangur birgða er ekki studdur fyrir samsetningarferli. Samsetningarpöntun er bókuð til að skrá úttak. Ef hólf eru notuð er hægt að færa vörur milli hólfa síðar meir. Frekari upplýsingar eru í [Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).  
 
 Í ítarlegri vöruhúsagrunnstillingu þarf birgðageymslan bæði frágangsvinnslu og móttökuvinnslu er hægt að stofna annaðhvort innanhúss frágangsskjal eða hreyfingarskjal til að ganga frá frálaginu.  
 
+## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Að ganga frá framleiðsluúttaki með birgðafrágangi
+
 Fyrsti áfanginn í stofnun birgðafrágangs er að stofna innleiðarbeiðni í vöruhúsi. Þessi beiðni lætur vöruhúsið vita að frálag framleiðslu eða samsetningarpöntunar sé tilbúið til frágangs.
 
-## <a name="to-create-the-inbound-warehouse-request"></a>Stofna innleiðarbeiðni í vöruhúsi:  
+### <a name="to-create-the-inbound-warehouse-request"></a>Stofna innleiðarbeiðni í vöruhúsi:  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Losaðar framl.pöntun** og veldu síðan tengda tengilinn.  
 2.  Í framleiðslupöntuninni sem er tilbúin til frágangs, skal velja aðgerðina **Stofna vöruh.beiðni á innleið**.  
 
 > [!NOTE]  
->  Einnig er hægt að stofna á vöruhúsabeiðni á innleið með því að gátreitinn **Stofna beiðni á innleið** þegar framleiðslupöntun er endurnýjuð. Frekari upplýsingar, sjá [Uppfæra eða enduráætla framleiðslupantanir](production-how-to-replan-refresh-production-orders.md).  
+> Einnig er hægt að stofna vöruhúsabeiðni á innleið með því að velja reitinn **Stofna beiðni á innleið** þegar framleiðslupöntun er endurnýjuð. Frekari upplýsingar, sjá [Uppfæra eða enduráætla framleiðslupantanir](production-how-to-replan-refresh-production-orders.md).  
 
-## <a name="to-put-output-away-with-an-inventory-put-away"></a>Gengið frá frálagi með Birgðafrágangi  
+### <a name="to-put-output-away-with-an-inventory-put-away"></a>Gengið frá frálagi með Birgðafrágangi  
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðafrágangur** og veldu síðan tengda tengilinn.  
 2.  Nýr birgðafrágangur er stofnaður. Nánari upplýsingar eru í [Ganga frá vörum með birgðafrágangi](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Til að komast í íhluti framleiðslupöntunarinnar, veldu aðgerðina **Sækja upprunaskjöl** og síðan er útgefna framleiðslupöntunin valin.  
@@ -46,30 +52,18 @@ Einnig er hægt að stofna **Birgðafrágang** beint úr útgefnu framleiðslup�
 
 Ef aðeins þarf að bóka uppsetningar- eða keyrslutíma við síðustu aðgerð skal stilla frálagsmagn síðustu aðgerðar á 0. Einnig er hægt að velja að bóka ekki síðustu línuna með því einfaldlega að eyða henni.  
 
-## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Gengið frá frálagi með innanhússfrágangi vöruhúss
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innanhússfrágangur vöruhúss** og veldu síðan tengda tengilinn.  
-2. Valið er **Nýtt** aðgerð.
-3. Í haus nýja innanhússfrágangsins þarf að tilgreina að minnsta kosti **kóta birgðageymslu**.  
-4. Fylla skal út eina línu fyrir hverja vöru sem flytja á í vöruhúsið. Aðeins þarf að fylla út í reitina **Vörunr.** og **Magn**.  
+## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Að ganga frá samsetningu og framleiðsluúttaki í ítarlegum vöruhúsagrunnstillingum
+Þegar framleiðsla eða samsetningarpöntun er bókuð í vöruhúsi sem er sett upp til að nota stýrðan frágang og tínslu er framleiðslan sett í hólfið sem skilgreint er í framleiðslu- eða samsetningarpöntuninni. 
 
-    > [!NOTE]  
-    >  Þegar valinn er **Vörunr.** reitinn, birtist **Innihaldslisti hólfs** í staðinn fyrir **vörulistann**. Það er vegna þess að það á að ganga frá vöru sem er í tilteknu hólfi – Innihaldi hólfs – ekki bara vöru, og þegar er vitað úr hvaða hólfi á að taka vöruna.  
+Eftirfarandi tafla sýnir mismunandi leiðir til að færa vörur innan vöruhúss með ítarlegum grunnstillingum þar sem framkvæma þarf allar vöruhúsaaðgerðir í stýrðu verkflæði. 
 
-4.  Til að fylla vinnublaðslínurnar með öllu innihaldi hólfsins eða afmörkuðu innihald hólfa í birgðageymslunni, skal velja aðgerðina **Sækja hólfainnihald**.  
-5.  Velja aðgerðina **Stofna frágang** og þá fara vörurnar sem taka á úr framleiðslunni í frágangsleiðbeiningar og bíða þess að vera geymdar í vöruhúsinu.  
+|**Til að**|**Sjá**|  
+|------------|-------------|  
+|Færa vörur með vöruhúsahreyfingarvinnublaðinu.|[Færa vörur með ítarlegum vöruhúsaaðgerðum](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet)|  
+|Stofnaðu frágang innanhúss til að ganga frá framleiddum eða samsettum vörum í ítarlegum vöruhúsaaðgerðum.|[Stofna innanhússfrágang](warehouse-how-to-create-put-aways-from-internal-put-aways.md#to-create-an-internal-put-away)|
 
 > [!NOTE]  
->  Þegar vöruhúsið er sett upp þannig að það noti beinan frágang og tínslu er vöruhúsið tengt framleiðslunni með sjálfgefnum framleiðsluhólfunum: Inn- og úthólf framleiðslu og opið búðarhólf sem öll eru skilgreind á flýtiflipanum **Hólf** á birgðageymsluspjaldinu. Þegar frálag framleiðslupöntunar er bókað er frálagið sjálfkrafa sett í **hólf framleiðslu á útleið**. Sama aðferð og lýst var að framan er notuð til að ganga frá framleiðslufrálaginu nema að í stað þess að nota sjálfgefið hólf vörunnar eru vörurnar færðar eða gengið frá þeim úr **hólfi framleiðslu á útleið** yfir í sjálfgefið hólf vörunnar.  
-
-## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Til að tilgreina handvirkt hólf til að geyma vörur úr framleiðslufrálagi  
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Hreyfingavinnublað** og veldu síðan tengda tengilinn.  
-2.  Hausinn er fylltur út og lína stofnuð fyrir hverja vöru sem flytja á í vöruhúsið.  
-3.  Reitirnir **Kóti frá-hólfs** og **Kóti til-hólfs** eru fylltir út og magnið fært inn í reitinn **Magn**.  
-4.  Til að fylla vinnublaðslínurnar með öllu innihaldi hólfsins eða afmörkuðu innihald hólfa í birgðageymslunni, skal velja aðgerðina **Sækja hólfainnihald**.  
-5. Veldu aðgerðina **Stofna hreyfingu**. Vöruhúsahreyfingaleiðbeiningar með Taka- og Setja-línum eru stofnaðar fyrir starfsmenn vöruhúss.  
-
-> [!NOTE]  
->  Ekki er hægt að færa inn upprunaskjalsnúmerið, s.s. Framleiðslupöntun nr., í skjölin innanhússfrágangur, frágangur eða hreyfing í þessum ferlum.  
+> Ekki er hægt að færa inn upprunaskjalsnúmerið, s.s. Framleiðslupöntun nr., í skjölin innanhússfrágangur, frágangur eða hreyfing í þessum ferlum.  
 
 ## <a name="see-also"></a>Sjá einnig  
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  

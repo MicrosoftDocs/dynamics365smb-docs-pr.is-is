@@ -3,17 +3,17 @@ title: Setja upp verð fyrir verk og verkbókunarflokka| Microsoft Docs
 description: Lýsir því hvernig setja á upp almennar upplýsingar um verk, og setja upp verð fyrir vörur verks, tilföng, og fjárhagsreikninga og verkbókunarflokka.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 04f5538b7c904b64c921cc50f64924bcaef93401
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758643"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476771"
 ---
 # <a name="set-up-jobs"></a>Setja upp verk
 
@@ -47,44 +47,31 @@ Ef þú velur reitinn **Beita notkunartengli að sjálfgefnu** getur þú skoða
 1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, slá inn **Uppsetning verka** og velja svo viðeigandi tengil.
 2. Veldu **Beita notkunartengli að sjálfgefnu** gátreitinn.
 
-## <a name="to-set-up-prices-for-job-resources"></a>Til að setja upp verð fyrir verkforða
-Sérstök verð má setja upp fyrir forða verks. Síðan **Forðaverð verks** er notuð til þess.
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Til að setja upp verð fyrir tilföng, vörur og fjárhagsreikninga fyrir verk
+> [!NOTE]
+> Á útgáfutímabili 2 árið 2020 gáfum við út nýja ferla til að setja upp og hafa umsjón með verðum og afsláttum. Ef þú ert nýr viðskiptamaður þá ertu að nota nýju upplifunina. Ef þú ert núverandi viðskiptamaður, hvort þú ert að nota nýju upplifunina fer eftir því hvort stjórnandinn þinn hafi virkjað eiginleikauppfærsluna **Upplifun nýrrar verðlagningar** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
+Hægt er að setja upp verð fyrir vörur, tilföng og fjárhagsreikninga sem tengjast starfi. 
+
+#### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
-2. Veljið viðeigandi verk og veljið svo aðgerðina **Forði**.
-3. Á síðunni **Forðaverð verks** þarf að fylla reitina út eftir þörfum.
+2. Veldu verkið og veldu síðan aðgerðina **Tilfang**, **Vara** eða **Fjárhagsreikningur**.
+3. Á síðunum **Forðaverð verks**, **Vöruverð verks** eða **Verð fjárhagsreiknings verks** skal fylla í reitina eftir þörfum.
 
-Viðbótarupplýsingar í reitunum **Verkhlutanr.**, **Tegund vinnu**, **Gjaldmiðilskóti**, **Línuafsl. %** og **Stuðull einingarverðs** verða notaðar í verkáætlunarlínum og notkunarbókum þegar þessi forði er sleginn inn og honum bætt við verkið.  
+Eftirfarandi tafla sýnir hvernig upplýsingarnar í valfrjálsum svæðunum verða notaðar í verkáætlunarlínum og færslubókum þegar tilfang, vara eða fjárhagsreikningur er valið fyrir verkið.
 
-Virðið í reitnum **Einingarverð** fyrir forðann verður notað í verkáætlunarlínum og verkbókum þegar þessi forði, forði sem úthlutað er á forðahóp, eða einhver annar forði er færður inn.  
+|Column1  |Column2  |
+|---------|---------|
+|**Hjálpargögn**|Reitirnir **Verkhlutanr. verks**, **Tegund verks**, **Gjaldmiðilskóði**, **Línuafsl. %** og **Stuðull einingaverðs**. Virðið í reitnum **Einingarverð** fyrir forðann verður notað í verkáætlunarlínum og verkbókum þegar þessi forði, forði sem úthlutað er á forðahóp, eða einhver annar forði er færður inn. Athugið að þetta verð mun ávalt hnekkja öllum verðum sem eru sett upp á **Forðaverð/forðaflokkaverð** síðunni sem fyrir er.|
+|**Verkatriði**|Reitirnir **Nr. verkhluta**, **Gjaldmiðilskóði** og **Línuafsl. %**. Gildið í reitnum **Einingarverð** fyrir vöruna verður notað í verkáætlunarlínum og verkbókum þegar þessi vara er slegin inn. Athugið að þetta verð hnekkir alltaf hefðbundnu viðskiptamannaverði („besta verð”) vöru. Ef nota skal hefðbundnar verðuppsetningar ætti ekki að stofna verð fyrir verkvöruna.|
+|**Fjárhagsreikningar**|Upplýsingar í reitunum **Verkhlutanr.**, **Gjaldmiðilskóti**, **Línuafsl. %**, **Stuðull einingarverðs** og **Kostn.verð** verða notaðar í verkáætlunarlínum og verkbókum þegar þessi fjárhagsreikningur er sleginn inn og honum bætt við verk. Gildið í reitnum **Einingarverð** fyrir verkkostnað fjárhags verður notað í verkáætlunarlínum og verkbókum þegar þessi fjárhagsreikningur er sleginn inn.|
 
-> [!NOTE]  
->   Þetta verð mun ávalt hnekkja öllum verðum sem eru sett upp á **Forðaverð/forðaflokkaverð** síðunni sem fyrir er.
-
-## <a name="to-set-up-prices-for-job-items"></a>Til að setja upp verð fyrir vörur verks
-Sérstök verð má setja upp fyrir vörur verka. Síðan **Verð vöru** er notup til þess.
-
+---
+#### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience)
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
-2. Veljið viðeigandi verk og veljið svo aðgerðina **Vara**.
-3. Á síðunni **Vöruverð verks** þarf að fylla reitina út eftir þörfum.
+2. Veljið viðeigandi verk og veljið svo aðgerðina **Söluverðlistar**.
 
-Viðbótarupplýsingarnar í reitunum **Verkhlutanr.**, **Gjaldmiðilskóti** og **Línuafsl.** verða notaðar í verkáætlunarlínum og verkbókum þegar þessi vara er slegin inn eða henni bætt við verk.  
-
-Gildið í reitnum **Einingarverð** fyrir vöruna verður notað í verkáætlunarlínum og verkbókum þegar þessi vara er slegin inn.  
-
-> [!NOTE]  
->   Þetta verð hnekkir alltaf hefðbundnu viðskiptamannaverði („besta verð”) vöru. Ef nota skal hefðbundnar verðuppsetningar ætti ekki að stofna verð fyrir verkvöruna.
-
-## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>að setja upp verð í fjárhagsreikningi fyrir verk
-Hægt er að setja upp ákveðið verð fyrir fjárhagsleg útgjöld í verki. Síðan **Verð fjárhagsreiknings verks** er notuð til þess.
-
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verk** og veldu síðan tengda tengilinn.  
-2. Veljið viðeigandi verk og veljið svo aðgerðina **Fjárhagsreikningur**.  
-3. Á síðunni **Fjárhagsreikningsverð verks** þarf að fylla reitina út eftir þörfum.
-
-Viðbótarupplýsingar í reitunum **Verkhlutanr.**, **Gjaldmiðilskóti**, **Línuafsl. %**, **Stuðull einingarverðs** og **Kostn.verð** verða notaðar í verkáætlunarlínum og verkbókum þegar þessi fjárhagsreikningur er sleginn inn og honum bætt við verk.  
-
-Gildið í reitnum **Einingarverð** fyrir verkkostnað fjárhags verður notað í verkáætlunarlínum og verkbókum þegar þessi fjárhagsreikningur er sleginn inn.
+---
 
 ## <a name="to-set-up-job-posting-groups"></a>Verkbókunarflokkur settur upp
 Einn þáttur við að áætla verk er að ákveða hvaða bókunarlykla á að nota í kostnaðarútreikningum vegna verka. Til að hægt sé að bóka verk skal setja upp reikninga fyrir hvern verkbókunarflokk. Bókunarflokkur stendur fyrir tengingar milli verksins og hvernig eigi að meðhöndla það í fjárhag. Þegar verk er stofnað er bókunarflokkur tilgreindur, og allir verkhlutar sem búnir eru til fyrir verkið eru tengdir við þann bókunarflokk að sjálfgefnu. Hins vegar er hægt að hnekkja sjálfgildum þegar verk eru stofnuð og velja þann bókunarflokk sem hentar best.  

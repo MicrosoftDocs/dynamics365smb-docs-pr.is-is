@@ -3,19 +3,19 @@ title: Röðun, leit og síun í listum | Microsoft Docs
 description: Vinna á skilvirkan hátt í listum með því að leita yfir gögnin þín, flokka dálka og hreinsa niðurstöður með síutáknum og flýtivísum.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 11/16/2020
 ms.author: jswymer
-ms.openlocfilehash: eda7ab79b326f860816504014d6eefa9fb13a600
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d682f9e66075348785329cd13a12c3e02d0993c4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757593"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385850"
 ---
 # <a name="sorting-searching-and-filtering"></a>Röðun, leit og síun
 

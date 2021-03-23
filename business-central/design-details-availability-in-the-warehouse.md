@@ -3,26 +3,26 @@ title: Hönnunarupplýsingar - Framboð í vöruhúsi | Microsoft Docs
 description: Kerfið þarf að halda sífelldri stjórn á vörum til ráðstöfunar í vöruhúsinu þannig að vörur á útleið gangi vel og sé skilað á sem besta hátt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8381f2f41fedb4f41fd0515124b74254fc74517e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7fecbb14cda87289e0c3ce9d89df2ed346569e45
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915661"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390200"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Hönnunarupplýsingar: Framboð á lager
 Kerfið þarf að halda sífelldri stjórn á vörum til ráðstöfunar í vöruhúsinu þannig að vörur á útleið gangi vel og sé skilað á sem besta hátt.  
 
 Framboð er mismunandi eftir úthlutun á þeim hólfastigum þegar vöruhúsaaðgerðir, t.d. tiltektir og hreyfingar eiga sér stað og þegar frátekningarkerfið setur takmarkanir. Frekar flókið reiknirit staðfestir að öllu skilyrði eru uppfyllt áður en magni er úthlutað í tínslu fyrir útleiðarflæði.
 
-Ef eitt eða fleiri skilyrði eru ekki uppfyllt geta mismunandi villuboð verið sýndar, þar með talið almennu boðin „Ekkert að afgreiða.“ skilaboð. „Ekkert að afgreiða.“ skilaboð geta komið upp af mörgum ólíkum ástæðum, bæði í flæði á útleið og innleið, þar sem skjalalína, sem tengist með beinum eða óbeinum hætti, inniheldur reitinn **Magn til afgreiðslu** .
+Ef eitt eða fleiri skilyrði eru ekki uppfyllt geta mismunandi villuboð verið sýndar, þar með talið almennu boðin „Ekkert að afgreiða.“ skilaboð. „Ekkert að afgreiða.“ skilaboð geta komið upp af mörgum ólíkum ástæðum, bæði í flæði á útleið og innleið, þar sem skjalalína, sem tengist með beinum eða óbeinum hætti, inniheldur reitinn **Magn til afgreiðslu**.
 
 > [!NOTE]
 > Upplýsingarnar birtast fljótlega hér um hugsanlegar ástæður og lausnir fyrir „Ekkert að afgreiða“. skilaboð.
@@ -35,7 +35,7 @@ Ef eitt eða fleiri skilyrði eru ekki uppfyllt geta mismunandi villuboð verið
 ## <a name="quantity-available-to-pick"></a>Magn tiltækt í tínslu  
  Ef, til dæmis, tínslureiknirit tekur ekki tillit til vörumagns sem eru frátekin fyrir yfirvofandi sölupöntunarsendingu, þá þessir vörur gætu verið tíndar fyrir aðra sölupöntun sem er send fyrr, sem kemur í veg fyrir fyrstu sölu frá því að vera uppfyllt. Til að forðast þetta ástand, dregur tínslureikniritið frá magn sem eru frátekin fyrir aðra útleið skjöl, magni á núverandi tínsluskjalum og magn sem er valinn en ekki enn flutt eða neytt.  
 
- Niðurstöðurnar eru birtar í reitnum **Tiltækt magn** að tína á síðunni **Vinnublað** fyrir tínslu þar sem reiturinn er stöðugt reiknaður. Gildið er einnig reiknað út þegar notendur stofna tiltektir í vöruhúsi beint fyrir skjöl á útleið. Slík útleiðarskjöl gætu verið sölupantanir, framleiðslunotkun eða útleiðarflutningur, þar sem niðurstaðan endurspeglast í tengdum magnreitum, svo sem **Magn til afgreiðslu** .  
+ Niðurstöðurnar eru birtar í reitnum **Tiltækt magn** að tína á síðunni **Vinnublað** fyrir tínslu þar sem reiturinn er stöðugt reiknaður. Gildið er einnig reiknað út þegar notendur stofna tiltektir í vöruhúsi beint fyrir skjöl á útleið. Slík útleiðarskjöl gætu verið sölupantanir, framleiðslunotkun eða útleiðarflutningur, þar sem niðurstaðan endurspeglast í tengdum magnreitum, svo sem **Magn til afgreiðslu**.  
 
 > [!NOTE]  
 >  Varðandi forgang frátekninga er magn frátekningar dregið frá magni sem er laust til tiltektar. Til dæmis ef magnið sem tiltækt er í tínsluhólfum er 5 einingar en 100 einingar eru í frágangshólfum þá birtast villuboð ef reynt er að taka frá fleiri en 5 einingar fyrir aðra pöntun, vegna þess að viðbótarmagnið verður að vera tiltækt í tínsluhólfum.  
@@ -61,9 +61,9 @@ Ef eitt eða fleiri skilyrði eru ekki uppfyllt geta mismunandi villuboð verið
 -   Magn í hólfum til samsetningar  
 -   Magn í leiðréttingarhólfum  
 
- Niðurstöðurnar eru birtar í reitnum **Tiltækt heildarmagn** á síðunni **Frátekning** .  
+ Niðurstöðurnar eru birtar í reitnum **Tiltækt heildarmagn** á síðunni **Frátekning**.  
 
- Á frátekningarlínu er magnið sem ekki er hægt að taka frá, vegna þess að því hefur verið úthlutað í vöruhús, birta í reitnum **Magni úthlutað í vöruhúsi** á síðunni **Frátekning** .  
+ Á frátekningarlínu er magnið sem ekki er hægt að taka frá, vegna þess að því hefur verið úthlutað í vöruhús, birta í reitnum **Magni úthlutað í vöruhúsi** á síðunni **Frátekning**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Reikna magnið laust til frátekningar  
  Magnið sem tiltækt er til frátektar er reiknað svona:  

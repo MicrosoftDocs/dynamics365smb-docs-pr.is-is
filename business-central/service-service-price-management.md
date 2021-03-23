@@ -3,19 +3,19 @@ title: Þjónustuverðstjórnun | Microsoft Docs
 description: Þetta efnisatriði lýsir því hvernig skal nota besta verðið á þjónustupantanir, setja upp sérsniðna þjónustuverðsamninga fyrir viðskiptavini, bæta skilvirkni þjónustustarfsmanna og hraða reikningaferlinu.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 269c184928417d3e7dbd25e9f4fc94d66ae2547a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6877f50094874ce6e54b3a524254dfcba0c43468
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913097"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476721"
 ---
 # <a name="service-price-management"></a>Þjónustuverðstjórnun
 Þjónustuverðsstjórnaraðgerðin gerir kleift að setja besta verðið á þjónustupantanir, setja upp sérsniðna þjónustuverðsamninga fyrir viðskiptavini, bæta skilvirkni þjónustustarfsmanna og hraða reikningaferlinu.  
@@ -29,11 +29,13 @@ ms.locfileid: "3913097"
 Loks gera upplýsingar um þjónustuverð og staðlaðar skýrslur gera kleift að fylgjast með arðsemi hvers þjónustuverðflokks.  
   
 ## <a name="service-price-adjustment-groups"></a>Þjónustuverðleiðréttingarflokkar  
-Þjónustuverðleiðréttingarflokkar eru notaðir til að setja upp mismunandi gerðir verðleiðréttinga. Til dæmis er hægt að setja upp einn þjónustuverðleiðréttingarflokk sem leiðréttir verð á varahlutum, annan sem leiðréttir verð á vinnu, annan sem leiðréttir verð fyrir kostnað og svo framvegis. Einnig er hægt að tilgreina hvort aðeins eigi að gera þjónustuverðleiðréttingu á einni tiltekinni vöru eða forða eða á öllum vörum og öllum forða.  
+Þjónustuverðleiðréttingarflokkar eru notaðir til að setja upp mismunandi gerðir verðleiðréttinga fyrir þjónustulínur. Til dæmis er hægt að setja upp einn þjónustuverðleiðréttingarflokk sem leiðréttir verð á varahlutum, annan sem leiðréttir verð á vinnu, annan sem leiðréttir verð fyrir kostnað og svo framvegis. Einnig er hægt að tilgreina hvort aðeins eigi að gera þjónustuverðleiðréttingu á einni tiltekinni vöru eða forða eða á öllum vörum og öllum forða.  
   
-Hver þjónustuverðleiðréttingarflokkur geymir upplýsingar um leiðréttingarnar sem á að gera í þjónustulínunum.  
-  
-Verðleiðréttingunni er ekki hægt að beita á þjónustuvöru sem tilheyrir þjónustusamningum. Aðeins er hægt að leiðrétta þjónustuverð á vörum sem tilheyra þjónustupöntun. Ekki er hægt að leiðrétta verð á þjónustuvöru ef hún er í ábyrgð. Ekki er hægt að leiðrétta verð þjónustuvöru í þjónustupöntun ef tengd þjónustulína hafa verið bókaðar sem reikningur, annað hvort að hluta eða að fullu.  
+Aðgerð verðleiðréttingar á þjónustu er ekki hægt að nota fyrir þjónustuvörur undir eftirfarandi skilyrðum:
+
+* Varan tilheyrir þjónustusamningum. Aðeins er hægt að leiðrétta þjónustuverð á vörum sem tilheyra þjónustupöntun. 
+* Ef þjónustuvaran er með ábyrgð. 
+* Ef þjónustulínan hefur verið bókuð sem reikningur, annaðhvort að fullu eða að hluta til.  
   
 Þegar þjónustuverðleiðréttingaraðgerðin er keyrð er öllum afsláttum í pöntuninni skipt út fyrir gildin í þjónustuverðleiðréttingunni.  
   
@@ -48,6 +50,12 @@ Hægt er að setja upp þjónustuverðflokka til að stofna flokka með þjónus
 Sett er upp tegund þjónustuverðlagningar (verðleiðréttingartegund og verð) fyrir samsetningu á þjónustuverðflokkum og viðskiptavinaverðflokkum. Fyrir hverja tegund þjónustuverðlagningar er valinn þjónustuverðleiðréttingarflokkur. Einnig er verðleiðréttingartegund, föst, hámark eða lágmark, tilgreind og raunverulegt verð.  
   
 Til dæmis er hægt að setja upp tegundir þjónustuverðlagningar fyrir útvarpsþjónustuverðflokk. Hægt er að ákveða þjónustuverðlagningu með hámarksverði á vinnu verðleiðréttingarflokkur vegna vinnu, fyrir þá viðskiptamenn sem ekki heyra til verðlagningarflokks. Hægt er að ákveða þjónustuverðlagningu með föstu verði á vinnu sami verðleiðréttingarflokkur vegna vinnu, fyrir þá viðskiptamenn sem heyra til tiltekins verðlagningarflokks.  
+
+#### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience)
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustuvörur** og veldu síðan tengda tengilinn.  
+2. Veljið þjónustuvöruna, stækkið flýtiflipann **Verð og sala**, veljið aðgerðina **Tilfang**, **Vara** eða **Fjárhagsreikningur**.
+3. Á síðunum **Forðaverð verks**, **Vöruverð verks** eða **Verð fjárhagsreiknings verks** skal fylla í reitina eftir þörfum.
+
   
 ## <a name="service-price-adjustment"></a>leiðréttingarþjónustuverð  
 Þjónustuverðleiðrétting gerir kleift að leiðrétta verð á vöru, forða, fjárhagsreikningi eða kostnaði í þjónustupöntun.  
