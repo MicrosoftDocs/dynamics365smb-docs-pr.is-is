@@ -9,47 +9,47 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 10/01/2020
-ms.openlocfilehash: d2bb26b3320375f72310278946a69a011111fbd4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.date: 04/01/2021
+ms.openlocfilehash: 31321ce4cafd17efc8a7732c81e874df1a1d763a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388850"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785499"
 ---
-# <a name="use-profile-questionnaires-to-classify-business-contacts"></a><span data-ttu-id="18d8b-103">Nota spurningalista forstillingar til að flokka viðskiptatengiliði</span><span class="sxs-lookup"><span data-stu-id="18d8b-103">Use Profile Questionnaires to Classify Business Contacts</span></span>
-<span data-ttu-id="18d8b-104">Hægt er að setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn.</span><span class="sxs-lookup"><span data-stu-id="18d8b-104">You can set up profile questionnaires that you want to use when entering information about your contacts' profiles.</span></span> <span data-ttu-id="18d8b-105">Innan hvers spurningalista er hægt að setja upp þær mismunandi spurningar sem spyrja á tengiliðina.</span><span class="sxs-lookup"><span data-stu-id="18d8b-105">Within each questionnaire, you can set up the different questions you intend to ask your contacts.</span></span>  
+# <a name="use-profile-questionnaires-to-classify-business-contacts"></a><span data-ttu-id="2c3d2-103">Nota spurningalista forstillingar til að flokka viðskiptatengiliði</span><span class="sxs-lookup"><span data-stu-id="2c3d2-103">Use Profile Questionnaires to Classify Business Contacts</span></span>
+<span data-ttu-id="2c3d2-104">Hægt er að setja upp spurningalista sem á að nota þegar upplýsingar um forstillingu tengiliða eru færðar inn.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-104">You can set up profile questionnaires that you want to use when entering information about your contacts' profiles.</span></span> <span data-ttu-id="2c3d2-105">Innan hvers spurningalista er hægt að setja upp þær mismunandi spurningar sem spyrja á tengiliðina.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-105">Within each questionnaire, you can set up the different questions you intend to ask your contacts.</span></span>  
 
-<span data-ttu-id="18d8b-106">Einnig er hægt að keyra spurningalistann til að svara sjálfkrafa nokkrum spurningum samkvæmt gögnum um tengiliði, viðskiptamenn eða lánardrottna.</span><span class="sxs-lookup"><span data-stu-id="18d8b-106">You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.</span></span>  
+<span data-ttu-id="2c3d2-106">Einnig er hægt að keyra spurningalistann til að svara sjálfkrafa nokkrum spurningum samkvæmt gögnum um tengiliði, viðskiptamenn eða lánardrottna.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-106">You can also run the questionnaire to answer some of the questions based on contact, customer, or vendor data automatically.</span></span>  
 
-## <a name="to-add-a-profile-questionnaire"></a><span data-ttu-id="18d8b-107">Til að bæta við spurningalista forstillingar</span><span class="sxs-lookup"><span data-stu-id="18d8b-107">To add a profile questionnaire</span></span>
-1.  <span data-ttu-id="18d8b-108">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning spurningalista** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="18d8b-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="18d8b-109">Veldu aðgerðina **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="18d8b-109">Choose the **New** Action.</span></span>  
-3.  <span data-ttu-id="18d8b-110">Fyllið inn reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="18d8b-110">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+## <a name="to-add-a-profile-questionnaire"></a><span data-ttu-id="2c3d2-107">Til að bæta við spurningalista forstillingar</span><span class="sxs-lookup"><span data-stu-id="2c3d2-107">To add a profile questionnaire</span></span>
+1.  <span data-ttu-id="2c3d2-108">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Uppsetning spurningalista** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Questionnaire Setup**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="2c3d2-109">Veldu aðgerðina **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-109">Choose the **New** Action.</span></span>  
+3.  <span data-ttu-id="2c3d2-110">Fyllið inn reitina eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-110">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-add-questions-to-a-profile-questionnaire"></a><span data-ttu-id="18d8b-111">Til að bæta spurningum við spurningalista forstillingar</span><span class="sxs-lookup"><span data-stu-id="18d8b-111">To add questions to a profile questionnaire</span></span>
-1.  <span data-ttu-id="18d8b-112">Veldu viðeigandi spurningalista og veldu síðan aðgerðina **Breyta Breyta uppsetningu spurningalista**.</span><span class="sxs-lookup"><span data-stu-id="18d8b-112">Choose the relevant profile questionnaire, and then choose the **Edit Questionnaire Setup** action.</span></span>  
-2.  <span data-ttu-id="18d8b-113">Í fyrstu auðu línunni reitnum **Tegund**, veljið **Spurning** ritið spurninguna í reitinn **Lýsing**.</span><span class="sxs-lookup"><span data-stu-id="18d8b-113">On the first empty line, in the **Type** field, choose **Question** and type your question in the **Description** field.</span></span> <span data-ttu-id="18d8b-114">Aðrir reitir í línunni eru fylltir út.</span><span class="sxs-lookup"><span data-stu-id="18d8b-114">Fill in the other fields on this line.</span></span>  
-3.  <span data-ttu-id="18d8b-115">Í næstu auðu línu er smellt á reitinn **Tegund**, valið **Svar** og svarið ritað í reitinn **Lýsing**.</span><span class="sxs-lookup"><span data-stu-id="18d8b-115">On the next empty line, in the **Type** field, choose **Answer** and type your answer in the **Description** field.</span></span>  
-4.  <span data-ttu-id="18d8b-116">Í reitnum **Forgangur** veljið forganginn.</span><span class="sxs-lookup"><span data-stu-id="18d8b-116">In the **Priority** field, select the priority.</span></span> <span data-ttu-id="18d8b-117">Í reitunum **Frá virði** og **Til virðis** skilgreinið bil.</span><span class="sxs-lookup"><span data-stu-id="18d8b-117">In the **From Value** and **To Value** fields, define a point range.</span></span> <span data-ttu-id="18d8b-118">Tengiliðir sem fá stig innan skilgreinda bilsins fá svarið.</span><span class="sxs-lookup"><span data-stu-id="18d8b-118">Contacts that receive points within the defined range will get the answer.</span></span>  
+## <a name="to-add-questions-to-a-profile-questionnaire"></a><span data-ttu-id="2c3d2-111">Til að bæta spurningum við spurningalista forstillingar</span><span class="sxs-lookup"><span data-stu-id="2c3d2-111">To add questions to a profile questionnaire</span></span>
+1.  <span data-ttu-id="2c3d2-112">Veldu viðeigandi spurningalista og veldu síðan aðgerðina **Breyta Breyta uppsetningu spurningalista**.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-112">Choose the relevant profile questionnaire, and then choose the **Edit Questionnaire Setup** action.</span></span>  
+2.  <span data-ttu-id="2c3d2-113">Í fyrstu auðu línunni reitnum **Tegund**, veljið **Spurning** ritið spurninguna í reitinn **Lýsing**.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-113">On the first empty line, in the **Type** field, choose **Question** and type your question in the **Description** field.</span></span> <span data-ttu-id="2c3d2-114">Aðrir reitir í línunni eru fylltir út.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-114">Fill in the other fields on this line.</span></span>  
+3.  <span data-ttu-id="2c3d2-115">Í næstu auðu línu er smellt á reitinn **Tegund**, valið **Svar** og svarið ritað í reitinn **Lýsing**.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-115">On the next empty line, in the **Type** field, choose **Answer** and type your answer in the **Description** field.</span></span>  
+4.  <span data-ttu-id="2c3d2-116">Í reitnum **Forgangur** veljið forganginn.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-116">In the **Priority** field, select the priority.</span></span> <span data-ttu-id="2c3d2-117">Í reitunum **Frá virði** og **Til virðis** skilgreinið bil.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-117">In the **From Value** and **To Value** fields, define a point range.</span></span> <span data-ttu-id="2c3d2-118">Tengiliðir sem fá stig innan skilgreinda bilsins fá svarið.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-118">Contacts that receive points within the defined range will get the answer.</span></span>  
 
-<span data-ttu-id="18d8b-119">Skrefin eru endurtekin til að færa inn allar spurningar og svör í spurningalistanum.</span><span class="sxs-lookup"><span data-stu-id="18d8b-119">Repeat these steps to enter all the questions and answers within the profile questionnaire.</span></span>
+<span data-ttu-id="2c3d2-119">Skrefin eru endurtekin til að færa inn allar spurningar og svör í spurningalistanum.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-119">Repeat these steps to enter all the questions and answers within the profile questionnaire.</span></span>
 
-<span data-ttu-id="18d8b-120">Þegar búið er að stofna spurningalista þarf að stofna tengiliðaflokkanir til að flokka tengiliðina.</span><span class="sxs-lookup"><span data-stu-id="18d8b-120">After you have created a questionnaire, you must create contact ratings to classify your contacts.</span></span> <span data-ttu-id="18d8b-121">Einnig er hægt að setja fram spurningar sem eru metnar sjálfkrafa í samræmi við upplýsingar tengiliðarspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="18d8b-121">You can also set up questions that are rated automatically based on information in the contact card.</span></span>  
-
-> [!NOTE]
-> <span data-ttu-id="18d8b-122">Ef færð er inn spurning sem er svarað sjálfkrafa skal velja <STRONG>Lína</STRONG> og svo <STRONG>Upplýs. um spurningar</STRONG> til að færa inn skilyrðin sem notuð eru til að svara spurningunni sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="18d8b-122">If you enter a question that is automatically answered, choose <STRONG>Line</STRONG>, and then choose <STRONG>Question Details</STRONG>, to enter the criteria to automatically answer the question.</span></span>
-
-## <a name="the-automatic-classification-of-contacts"></a><span data-ttu-id="18d8b-123">Sjálfvirk flokkun tengiliða</span><span class="sxs-lookup"><span data-stu-id="18d8b-123">The Automatic Classification of Contacts</span></span>
-<span data-ttu-id="18d8b-124">Hægt er að flokka tengiliði sjálfvirkt eftir viðskiptamanna-, lánardrottna-, og tengiliðaupplýsingum með því að setja upp sjálfvirkt svöruðum forstillingarspurningum á síðunni **Uppsetning spurningalisti forstillingar**.</span><span class="sxs-lookup"><span data-stu-id="18d8b-124">You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions on the **Profile Questionnaire Setup** page.</span></span>  
+<span data-ttu-id="2c3d2-120">Þegar búið er að stofna spurningalista þarf að stofna tengiliðaflokkanir til að flokka tengiliðina.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-120">After you have created a questionnaire, you must create contact ratings to classify your contacts.</span></span> <span data-ttu-id="2c3d2-121">Einnig er hægt að setja fram spurningar sem eru metnar sjálfkrafa í samræmi við upplýsingar tengiliðarspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-121">You can also set up questions that are rated automatically based on information in the contact card.</span></span>  
 
 > [!NOTE]
-> <span data-ttu-id="18d8b-125">Aðeins er hægt að flokka tengiliði sem skráðir eru sem viðskiptamenn á grunni viðskiptamannaupplýsinga og aðeins er flokka tengilið sem skráðir eru sem lánardrottnar á grundvelli lánardrottnaupplýsinga.</span><span class="sxs-lookup"><span data-stu-id="18d8b-125">Only contacts that are recorded as customers can be assigned a classification based on customer data and only contacts that are recorded as vendors can be assigned a classification based on vendor data.</span></span> <span data-ttu-id="18d8b-126">Sjálfvirk flokkun uppfærist ekki sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="18d8b-126">The automatic classification is not updated automatically.</span></span> <span data-ttu-id="18d8b-127">Þar af leiðandi er ráðlegt að uppfæra spurningalista forstillingar þegar viðskiptamanna-, lánardrottna- eða tengiliðaupplýsingum sem þeir byggja á er breytt.</span><span class="sxs-lookup"><span data-stu-id="18d8b-127">Consequently, you may want to update the profile questionnaires, after you have updated the customer, vendor or contact data they are based on.</span></span>  
+> <span data-ttu-id="2c3d2-122">Ef færð er inn spurning sem er svarað sjálfkrafa skal velja <STRONG>Lína</STRONG> og svo <STRONG>Upplýs. um spurningar</STRONG> til að færa inn skilyrðin sem notuð eru til að svara spurningunni sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-122">If you enter a question that is automatically answered, choose <STRONG>Line</STRONG>, and then choose <STRONG>Question Details</STRONG>, to enter the criteria to automatically answer the question.</span></span>
 
-<span data-ttu-id="18d8b-128">Þegar sjálfvirkt svaraðar forstillingarspurningar hafa verið settar upp, ef þú úthlutar tengiliði forstillingarspurningar sem innihalda þessar spurningar, mun [!INCLUDE[prod_short](includes/prod_short.md)] sjálfkrafa úthluta réttu svörunum fyrir tengiliðinn.</span><span class="sxs-lookup"><span data-stu-id="18d8b-128">After you have set up automatically answered profile questions, if you assign the profile questionnaire containing these questions to a contact, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically assign the right answers for the contact.</span></span>  
+## <a name="the-automatic-classification-of-contacts"></a><span data-ttu-id="2c3d2-123">Sjálfvirk flokkun tengiliða</span><span class="sxs-lookup"><span data-stu-id="2c3d2-123">The Automatic Classification of Contacts</span></span>
+<span data-ttu-id="2c3d2-124">Hægt er að flokka tengiliði sjálfvirkt eftir viðskiptamanna-, lánardrottna-, og tengiliðaupplýsingum með því að setja upp sjálfvirkt svöruðum forstillingarspurningum á síðunni **Uppsetning spurningalisti forstillingar**.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-124">You can automatically classify your contacts according to customer, vendor, and contact information, by setting up automatically answered profile questions on the **Profile Questionnaire Setup** page.</span></span>  
 
-## <a name="example"></a><span data-ttu-id="18d8b-129">Dæmi</span><span class="sxs-lookup"><span data-stu-id="18d8b-129">Example</span></span>
-<span data-ttu-id="18d8b-130">Hægt er að flokka tengiliði eftir því hversu mikið þeir hafa keypt:</span><span class="sxs-lookup"><span data-stu-id="18d8b-130">You can classify your contacts according to how much they bought from you:</span></span>
+> [!NOTE]
+> <span data-ttu-id="2c3d2-125">Aðeins er hægt að flokka tengiliði sem skráðir eru sem viðskiptamenn á grunni viðskiptamannaupplýsinga og aðeins er flokka tengilið sem skráðir eru sem lánardrottnar á grundvelli lánardrottnaupplýsinga.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-125">Only contacts that are recorded as customers can be assigned a classification based on customer data and only contacts that are recorded as vendors can be assigned a classification based on vendor data.</span></span> <span data-ttu-id="2c3d2-126">Sjálfvirk flokkun uppfærist ekki sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-126">The automatic classification is not updated automatically.</span></span> <span data-ttu-id="2c3d2-127">Þar af leiðandi er ráðlegt að uppfæra spurningalista forstillingar þegar viðskiptamanna-, lánardrottna- eða tengiliðaupplýsingum sem þeir byggja á er breytt.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-127">Consequently, you may want to update the profile questionnaires, after you have updated the customer, vendor or contact data they are based on.</span></span>  
+
+<span data-ttu-id="2c3d2-128">Þegar sjálfvirkt svaraðar forstillingarspurningar hafa verið settar upp, ef þú úthlutar tengiliði forstillingarspurningar sem innihalda þessar spurningar, mun [!INCLUDE[prod_short](includes/prod_short.md)] sjálfkrafa úthluta réttu svörunum fyrir tengiliðinn.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-128">After you have set up automatically answered profile questions, if you assign the profile questionnaire containing these questions to a contact, [!INCLUDE[prod_short](includes/prod_short.md)] will automatically assign the right answers for the contact.</span></span>  
+
+## <a name="example"></a><span data-ttu-id="2c3d2-129">Dæmi</span><span class="sxs-lookup"><span data-stu-id="2c3d2-129">Example</span></span>
+<span data-ttu-id="2c3d2-130">Hægt er að flokka tengiliði eftir því hversu mikið þeir hafa keypt:</span><span class="sxs-lookup"><span data-stu-id="2c3d2-130">You can classify your contacts according to how much they bought from you:</span></span>
 
 <table>
 <colgroup>
@@ -58,27 +58,27 @@ ms.locfileid: "5388850"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="18d8b-131"><strong>Svar</strong></span><span class="sxs-lookup"><span data-stu-id="18d8b-131"><strong>Answer</strong></span></span></th>
-<th><span data-ttu-id="18d8b-132"><strong>Gildir um</strong></span><span class="sxs-lookup"><span data-stu-id="18d8b-132"><strong>Applies to</strong></span></span></th>
+<th><span data-ttu-id="2c3d2-131"><strong>Svar</strong></span><span class="sxs-lookup"><span data-stu-id="2c3d2-131"><strong>Answer</strong></span></span></th>
+<th><span data-ttu-id="2c3d2-132"><strong>Gildir um</strong></span><span class="sxs-lookup"><span data-stu-id="2c3d2-132"><strong>Applies to</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="18d8b-133">A</span><span class="sxs-lookup"><span data-stu-id="18d8b-133">A</span></span></p></td>
-<td><p><span data-ttu-id="18d8b-134">tengiliði sem keyptu fyrir 500.000 SGM eða meira</span><span class="sxs-lookup"><span data-stu-id="18d8b-134">contacts who bought for 500,000 LCY or more</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-133">A</span><span class="sxs-lookup"><span data-stu-id="2c3d2-133">A</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-134">tengiliði sem keyptu fyrir 500.000 SGM eða meira</span><span class="sxs-lookup"><span data-stu-id="2c3d2-134">contacts who bought for 500,000 LCY or more</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="18d8b-135">B</span><span class="sxs-lookup"><span data-stu-id="18d8b-135">B</span></span></p></td>
-<td><p><span data-ttu-id="18d8b-136">tengiliði sem keyptu fyrir 100.000 til 499.999 SGM</span><span class="sxs-lookup"><span data-stu-id="18d8b-136">contacts who bought for 100,000 up to 499,999 LCY</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-135">B</span><span class="sxs-lookup"><span data-stu-id="2c3d2-135">B</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-136">tengiliði sem keyptu fyrir 100.000 til 499.999 SGM</span><span class="sxs-lookup"><span data-stu-id="2c3d2-136">contacts who bought for 100,000 up to 499,999 LCY</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="18d8b-137">U</span><span class="sxs-lookup"><span data-stu-id="18d8b-137">C</span></span></p></td>
-<td><p><span data-ttu-id="18d8b-138">tengiliði sem keyptu fyrir 99.999 SGM eða minna</span><span class="sxs-lookup"><span data-stu-id="18d8b-138">contacts who bought for 99,999 LCY or less</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-137">U</span><span class="sxs-lookup"><span data-stu-id="2c3d2-137">C</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-138">tengiliði sem keyptu fyrir 99.999 SGM eða minna</span><span class="sxs-lookup"><span data-stu-id="2c3d2-138">contacts who bought for 99,999 LCY or less</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="18d8b-139">Það er gert með því að fylla út síðuna **Uppsetning á spurningalista forstillingar** sem hér segir:</span><span class="sxs-lookup"><span data-stu-id="18d8b-139">To do this, fill on the **Profile Questionnaire Setup** page as follows:</span></span>
+<span data-ttu-id="2c3d2-139">Það er gert með því að fylla út síðuna **Uppsetning á spurningalista forstillingar** sem hér segir:</span><span class="sxs-lookup"><span data-stu-id="2c3d2-139">To do this, fill on the **Profile Questionnaire Setup** page as follows:</span></span>
 
 
 <table>
@@ -91,46 +91,46 @@ ms.locfileid: "5388850"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="18d8b-140"><strong>Tegund</strong></span><span class="sxs-lookup"><span data-stu-id="18d8b-140"><strong>Type</strong></span></span></th>
-<th><span data-ttu-id="18d8b-141"><strong>Lýsing</strong></span><span class="sxs-lookup"><span data-stu-id="18d8b-141"><strong>Description</strong></span></span></th>
-<th><span data-ttu-id="18d8b-142"><strong>Sjálfvirk flokkun</strong></span><span class="sxs-lookup"><span data-stu-id="18d8b-142"><strong>Automatic Classification</strong></span></span></th>
-<th><span data-ttu-id="18d8b-143"><strong>Frá virði</strong></span><span class="sxs-lookup"><span data-stu-id="18d8b-143"><strong>From Value</strong></span></span></th>
-<th><span data-ttu-id="18d8b-144"><strong>Til virðis</strong></span><span class="sxs-lookup"><span data-stu-id="18d8b-144"><strong>To Value</strong></span></span></th>
+<th><span data-ttu-id="2c3d2-140"><strong>Tegund</strong></span><span class="sxs-lookup"><span data-stu-id="2c3d2-140"><strong>Type</strong></span></span></th>
+<th><span data-ttu-id="2c3d2-141"><strong>Lýsing</strong></span><span class="sxs-lookup"><span data-stu-id="2c3d2-141"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="2c3d2-142"><strong>Sjálfvirk flokkun</strong></span><span class="sxs-lookup"><span data-stu-id="2c3d2-142"><strong>Automatic Classification</strong></span></span></th>
+<th><span data-ttu-id="2c3d2-143"><strong>Frá virði</strong></span><span class="sxs-lookup"><span data-stu-id="2c3d2-143"><strong>From Value</strong></span></span></th>
+<th><span data-ttu-id="2c3d2-144"><strong>Til virðis</strong></span><span class="sxs-lookup"><span data-stu-id="2c3d2-144"><strong>To Value</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="18d8b-145">Spurning</span><span class="sxs-lookup"><span data-stu-id="18d8b-145">Question</span></span></p></td>
-<td><p><span data-ttu-id="18d8b-146">ABC-flokkun</span><span class="sxs-lookup"><span data-stu-id="18d8b-146">ABC Classification</span></span></p></td>
-<td><p><span data-ttu-id="18d8b-147">Smellt er til að færa inn gátmerki</span><span class="sxs-lookup"><span data-stu-id="18d8b-147">Click to insert a check mark</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-145">Spurning</span><span class="sxs-lookup"><span data-stu-id="2c3d2-145">Question</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-146">ABC-flokkun</span><span class="sxs-lookup"><span data-stu-id="2c3d2-146">ABC Classification</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-147">Smellt er til að færa inn gátmerki</span><span class="sxs-lookup"><span data-stu-id="2c3d2-147">Click to insert a check mark</span></span></p></td>
 <td><p> </p></td>
 <td><p> </p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="18d8b-148">Svar</span><span class="sxs-lookup"><span data-stu-id="18d8b-148">Answer</span></span></p></td>
-<td><p><span data-ttu-id="18d8b-149">A</span><span class="sxs-lookup"><span data-stu-id="18d8b-149">A</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-148">Svar</span><span class="sxs-lookup"><span data-stu-id="2c3d2-148">Answer</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-149">A</span><span class="sxs-lookup"><span data-stu-id="2c3d2-149">A</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="18d8b-150">500,000</span><span class="sxs-lookup"><span data-stu-id="18d8b-150">500,000</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-150">500,000</span><span class="sxs-lookup"><span data-stu-id="2c3d2-150">500,000</span></span></p></td>
 <td><p> </p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="18d8b-151">Svar</span><span class="sxs-lookup"><span data-stu-id="18d8b-151">Answer</span></span></p></td>
-<td><p><span data-ttu-id="18d8b-152">Á</span><span class="sxs-lookup"><span data-stu-id="18d8b-152">B</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-151">Svar</span><span class="sxs-lookup"><span data-stu-id="2c3d2-151">Answer</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-152">Á</span><span class="sxs-lookup"><span data-stu-id="2c3d2-152">B</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="18d8b-153">100,000</span><span class="sxs-lookup"><span data-stu-id="18d8b-153">100,000</span></span></p></td>
-<td><p><span data-ttu-id="18d8b-154">499,999</span><span class="sxs-lookup"><span data-stu-id="18d8b-154">499,999</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-153">100,000</span><span class="sxs-lookup"><span data-stu-id="2c3d2-153">100,000</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-154">499,999</span><span class="sxs-lookup"><span data-stu-id="2c3d2-154">499,999</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="18d8b-155">Svar</span><span class="sxs-lookup"><span data-stu-id="18d8b-155">Answer</span></span></p></td>
-<td><p><span data-ttu-id="18d8b-156">U</span><span class="sxs-lookup"><span data-stu-id="18d8b-156">C</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-155">Svar</span><span class="sxs-lookup"><span data-stu-id="2c3d2-155">Answer</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-156">U</span><span class="sxs-lookup"><span data-stu-id="2c3d2-156">C</span></span></p></td>
 <td><p> </p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="18d8b-157">99,999</span><span class="sxs-lookup"><span data-stu-id="18d8b-157">99,999</span></span></p></td>
+<td><p><span data-ttu-id="2c3d2-157">99,999</span><span class="sxs-lookup"><span data-stu-id="2c3d2-157">99,999</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="18d8b-158">Svo er síðan **Upplýs. forstillingarspurningar** fylltur út sem hér segir:</span><span class="sxs-lookup"><span data-stu-id="18d8b-158">Then fill on the **Profile Question Details** page as follows:</span></span>
+<span data-ttu-id="2c3d2-158">Svo er síðan **Upplýs. forstillingarspurningar** fylltur út sem hér segir:</span><span class="sxs-lookup"><span data-stu-id="2c3d2-158">Then fill on the **Profile Question Details** page as follows:</span></span>
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -138,26 +138,26 @@ ms.locfileid: "5388850"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="18d8b-159"><strong>Reitur</strong></span><span class="sxs-lookup"><span data-stu-id="18d8b-159"><strong>Field</strong></span></span></th>
-<th><span data-ttu-id="18d8b-160"><strong>Gildi</strong></span><span class="sxs-lookup"><span data-stu-id="18d8b-160"><strong>Value</strong></span></span></th>
+<th><span data-ttu-id="2c3d2-159"><strong>Reitur</strong></span><span class="sxs-lookup"><span data-stu-id="2c3d2-159"><strong>Field</strong></span></span></th>
+<th><span data-ttu-id="2c3d2-160"><strong>Gildi</strong></span><span class="sxs-lookup"><span data-stu-id="2c3d2-160"><strong>Value</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="18d8b-161"><strong>Flokkunarreitur viðskiptavinar</strong></span><span class="sxs-lookup"><span data-stu-id="18d8b-161"><strong>Customer Classification Field</strong></span></span></td>
-<td><span data-ttu-id="18d8b-162"><emphasis>Sala (SGM)</emphasis></span><span class="sxs-lookup"><span data-stu-id="18d8b-162"><emphasis>Sales (LCY)</emphasis></span></span></td>
+<td><span data-ttu-id="2c3d2-161"><strong>Flokkunarreitur viðskiptavinar</strong></span><span class="sxs-lookup"><span data-stu-id="2c3d2-161"><strong>Customer Classification Field</strong></span></span></td>
+<td><span data-ttu-id="2c3d2-162"><emphasis>Sala (SGM)</emphasis></span><span class="sxs-lookup"><span data-stu-id="2c3d2-162"><emphasis>Sales (LCY)</emphasis></span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="18d8b-163"><strong>Flokkunaraðferð</strong></span><span class="sxs-lookup"><span data-stu-id="18d8b-163"><strong>Classification Method</strong></span></span></td>
-<td><span data-ttu-id="18d8b-164"><emphasis>Skilgreint virði</emphasis></span><span class="sxs-lookup"><span data-stu-id="18d8b-164"><emphasis>Defined Value</emphasis></span></span></td>
+<td><span data-ttu-id="2c3d2-163"><strong>Flokkunaraðferð</strong></span><span class="sxs-lookup"><span data-stu-id="2c3d2-163"><strong>Classification Method</strong></span></span></td>
+<td><span data-ttu-id="2c3d2-164"><emphasis>Skilgreint virði</emphasis></span><span class="sxs-lookup"><span data-stu-id="2c3d2-164"><emphasis>Defined Value</emphasis></span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="18d8b-165">Þegar spurningalista forstillingar sem inniheldur þessa spurningu er úthlutað á tengilið færir forritið sjálfkrafa viðeigandi svar fyrir tengiliðinn í forstillingarlínurnar á tengiliðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="18d8b-165">When you assign the profile questionnaire containing this question to a contact, application automatically enters the relevant answer for this contact on the profile lines of the contact card.</span></span>
+<span data-ttu-id="2c3d2-165">Þegar spurningalista forstillingar sem inniheldur þessa spurningu er úthlutað á tengilið færir forritið sjálfkrafa viðeigandi svar fyrir tengiliðinn í forstillingarlínurnar á tengiliðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="2c3d2-165">When you assign the profile questionnaire containing this question to a contact, application automatically enters the relevant answer for this contact on the profile lines of the contact card.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="18d8b-166">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="18d8b-166">See Also</span></span>
-[<span data-ttu-id="18d8b-167">Stofna tengiliði</span><span class="sxs-lookup"><span data-stu-id="18d8b-167">Creating Contacts</span></span>](marketing-create-contact-companies.md)  
+## <a name="see-also"></a><span data-ttu-id="2c3d2-166">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="2c3d2-166">See Also</span></span>
+[<span data-ttu-id="2c3d2-167">Stofna tengiliði</span><span class="sxs-lookup"><span data-stu-id="2c3d2-167">Creating Contacts</span></span>](marketing-create-contact-companies.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

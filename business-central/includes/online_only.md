@@ -1,1 +1,1 @@
-> <span data-ttu-id="eab28-101">**GILDIR UM:** Business Central Online</span><span class="sxs-lookup"><span data-stu-id="eab28-101">**APPLIES TO:** Business Central online</span></span>
+<span data-ttu-id="aefb7-101">**GILDIR UM:** Business Central Online</span><span class="sxs-lookup"><span data-stu-id="aefb7-101">**APPLIES TO:** Business Central online</span></span>

@@ -1,0 +1,1 @@
+<span data-ttu-id="d1952-101"><Token>**Á VIÐ UM:** Business Central 2021 útgáfutímabil 1 og nýrri</Token></span><span class="sxs-lookup"><span data-stu-id="d1952-101"><Token> **APPLIES TO:** Business Central 2021 release wave 1 and later</Token></span></span>

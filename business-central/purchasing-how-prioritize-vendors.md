@@ -10,35 +10,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c8cafd66724c8244abe311c8d7395a98ebe966ab
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1604113b255a585532677ccb47d7e68d1cc64059
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386025"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772780"
 ---
-# <a name="prioritize-vendors"></a><span data-ttu-id="41d73-103">Forgangsraða lánardrottnum</span><span class="sxs-lookup"><span data-stu-id="41d73-103">Prioritize Vendors</span></span>
-[!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="41d73-104">getur lagt til ýmsar greiðslur til lánardrottna t.d. greiðslur sem eru bráðum á gjalddaga eða greiðslur sem hægt er að fá afslátt af.</span><span class="sxs-lookup"><span data-stu-id="41d73-104">can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available.</span></span> <span data-ttu-id="41d73-105">Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).</span><span class="sxs-lookup"><span data-stu-id="41d73-105">For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).</span></span>
+# <a name="prioritize-vendors"></a><span data-ttu-id="0334c-103">Forgangsraða lánardrottnum</span><span class="sxs-lookup"><span data-stu-id="0334c-103">Prioritize Vendors</span></span>
+[!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="0334c-104">getur lagt til ýmsar greiðslur til lánardrottna t.d. greiðslur sem eru bráðum á gjalddaga eða greiðslur sem hægt er að fá afslátt af.</span><span class="sxs-lookup"><span data-stu-id="0334c-104">can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available.</span></span> <span data-ttu-id="0334c-105">Frekari upplýsingar er að finna í [Greiðslutillögur til lánardrottna](payables-how-suggest-vendor-payments.md).</span><span class="sxs-lookup"><span data-stu-id="0334c-105">For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).</span></span>
 
-<span data-ttu-id="41d73-106">Fyrst verður að forgangsraða lánardrottnum með því að úthluta númerum á þá.</span><span class="sxs-lookup"><span data-stu-id="41d73-106">First, you must prioritize your vendors by assigning numbers to them.</span></span>
+<span data-ttu-id="0334c-106">Fyrst verður að forgangsraða lánardrottnum með því að úthluta númerum á þá.</span><span class="sxs-lookup"><span data-stu-id="0334c-106">First, you must prioritize your vendors by assigning numbers to them.</span></span>
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
-## <a name="to-prioritize-vendors"></a><span data-ttu-id="41d73-107">Lánardrottnum forgangsraðað</span><span class="sxs-lookup"><span data-stu-id="41d73-107">To prioritize vendors</span></span>
-1. <span data-ttu-id="41d73-108">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="41d73-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
-2. <span data-ttu-id="41d73-109">Veljið viðeigandi lánardrottin og veljið því næst **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="41d73-109">Select the relevant vendor, and then choose **Edit**.</span></span>
-3. <span data-ttu-id="41d73-110">Í reitinn **Forgangur** skal færa inn númer.</span><span class="sxs-lookup"><span data-stu-id="41d73-110">In the **Priority** field, enter a number.</span></span>
+## <a name="to-prioritize-vendors"></a><span data-ttu-id="0334c-107">Lánardrottnum forgangsraðað</span><span class="sxs-lookup"><span data-stu-id="0334c-107">To prioritize vendors</span></span>
+1. <span data-ttu-id="0334c-108">Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Lánardrottnar** og veldu síðan tengda tengilinn.</span><span class="sxs-lookup"><span data-stu-id="0334c-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
+2. <span data-ttu-id="0334c-109">Veljið viðeigandi lánardrottin og veljið því næst **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="0334c-109">Select the relevant vendor, and then choose **Edit**.</span></span>
+3. <span data-ttu-id="0334c-110">Í reitinn **Forgangur** skal færa inn númer.</span><span class="sxs-lookup"><span data-stu-id="0334c-110">In the **Priority** field, enter a number.</span></span>
 
-[!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="41d73-111">setur lægsta númerið, fyrir utan 0, efst í forgangsröðina.</span><span class="sxs-lookup"><span data-stu-id="41d73-111">considers the lowest number, except 0, to have the highest priority.</span></span> <span data-ttu-id="41d73-112">Þannig að t.d. ef notaðar eru tölurnar 1, 2 og 3 þá er 1 fyrst í forgangsröðinni.</span><span class="sxs-lookup"><span data-stu-id="41d73-112">So, for example, if you use 1, 2, and 3, then 1 will have the highest priority.</span></span>
+[!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="0334c-111">setur lægsta númerið, fyrir utan 0, efst í forgangsröðina.</span><span class="sxs-lookup"><span data-stu-id="0334c-111">considers the lowest number, except 0, to have the highest priority.</span></span> <span data-ttu-id="0334c-112">Þannig að t.d. ef notaðar eru tölurnar 1, 2 og 3 þá er 1 fyrst í forgangsröðinni.</span><span class="sxs-lookup"><span data-stu-id="0334c-112">So, for example, if you use 1, 2, and 3, then 1 will have the highest priority.</span></span>
 
-<span data-ttu-id="41d73-113">Ef ekki á að forgangsraða lánardrottni er reiturinn **Forgangur** skilinn eftir auður.</span><span class="sxs-lookup"><span data-stu-id="41d73-113">If you do not want to prioritize a vendor, leave the **Priority** field blank.</span></span> <span data-ttu-id="41d73-114">Síðan ef notuð er aðgerðin greiðslutillaga er lánardrottininn settur á lista á eftir öllum lánardrottnunum sem hafa forgangsnúmer.</span><span class="sxs-lookup"><span data-stu-id="41d73-114">Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number.</span></span> <span data-ttu-id="41d73-115">Hægt er að færa inn eins mörg forgangsstig og nauðsynlegt er.</span><span class="sxs-lookup"><span data-stu-id="41d73-115">You can enter as many priority levels as necessary.</span></span>
+<span data-ttu-id="0334c-113">Ef ekki á að forgangsraða lánardrottni er reiturinn **Forgangur** skilinn eftir auður.</span><span class="sxs-lookup"><span data-stu-id="0334c-113">If you do not want to prioritize a vendor, leave the **Priority** field blank.</span></span> <span data-ttu-id="0334c-114">Síðan ef notuð er aðgerðin greiðslutillaga er lánardrottininn settur á lista á eftir öllum lánardrottnunum sem hafa forgangsnúmer.</span><span class="sxs-lookup"><span data-stu-id="0334c-114">Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number.</span></span> <span data-ttu-id="0334c-115">Hægt er að færa inn eins mörg forgangsstig og nauðsynlegt er.</span><span class="sxs-lookup"><span data-stu-id="0334c-115">You can enter as many priority levels as necessary.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="41d73-116">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="41d73-116">See Also</span></span>
-[<span data-ttu-id="41d73-117">Uppsetning innkaupa</span><span class="sxs-lookup"><span data-stu-id="41d73-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="41d73-118">Stjórna skuldum</span><span class="sxs-lookup"><span data-stu-id="41d73-118">Managing Payables</span></span>](payables-manage-payables.md)  
-<span data-ttu-id="41d73-119">[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="41d73-119">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="0334c-116">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="0334c-116">See Also</span></span>
+[<span data-ttu-id="0334c-117">Uppsetning innkaupa</span><span class="sxs-lookup"><span data-stu-id="0334c-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="0334c-118">Stjórna skuldum</span><span class="sxs-lookup"><span data-stu-id="0334c-118">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="0334c-119">[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0334c-119">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -82,14 +82,13 @@
 ##### [Hönnunarupplýsingar: Kóðaeining 12 Breytingar: Vörpun altækra breyta fyrir bókunarlínu færslubókar](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
 ##### [Hönnunarupplýsingar - Kóðaeining 12 Breytingar: Breytingar á bókunaraðferðum í færslubók](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Hönnunarupplýsingarn: Færslur víddarsamstæða
-##### [Yfirlit yfir víddasamstæðufærslur](design-details-dimension-set-entries.md)
 ##### [Hönnunarupplýsingar - Færslur víddarsamstæða yfirlit](design-details-dimension-set-entries-overview.md)  
 ##### [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)  
 ##### [Hönnunarupplýsingar töfluuppbygging](design-details-table-structure.md)  
 
 ## Prófa
 ### [Prufuútgáfa og áskrift](across-preview.md)
-### [Hafist handa með Business Central](product-get-started.md)
+### [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)
 ### [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md)
 ### [Framlenging á prufuútgáfunni](admin-extend-trial.md)
 ### [Segja upp áskrift að eða fjarlægja Business Central](admin-cancel.md)
@@ -98,7 +97,7 @@
 
 <!--setup-->
 ## Uppsetning Business Central
-### [Uppsetning Business Central](setup.md)
+### [Yfirlit yfir verk](setup.md)
 ### Uppsetning Fjármála
 #### [Uppsetning Fjármála](finance-setup-finance.md)
 #### [Setja upp greiðsluhætti](finance-payment-methods.md)
@@ -240,42 +239,51 @@
 #### [Flytja gögn viðskiptamanna](admin-migrate-customer-data.md)
 #### [Búa til sérstillta grunnstillingarpakka fyrirtækja](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Ábendingar og góð ráð: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
-### Notkun Outlook með Business Central
-#### [Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)
-#### [Samstilla við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-#### [Nota Business Central án Outlook](admin-no-outlook.md)
-### Notkun Microsoft Teams með Business Central
-#### [Yfirlit](across-teams-overview.md)
-#### [Umsjón með samþættingu Teams](admin-teams-integration.md)
-#### [Uppsetning Business Central fyrir Teams](across-install-app-for-teams.md)
-#### [Unnið með Business Central Data í Teams](across-working-with-teams.md)
-#### [Teams - Algengar spurningar](teams-faq.md)
-#### [Úrræðaleit](admin-teams-troubleshooting.md)
-### Notkun Power BI með Business Central
-#### [Kynning](admin-powerbi.md)
-#### Stjórnandi
-##### [Yfirlit yfir samþættingu](admin-powerbi-overview.md)
-##### [Virkjun Power BI Samþættingar](admin-powerbi-setup.md)
-#### Hönnuður
-##### [Að hefjast handa við að búa til skýrslur](across-how-use-financials-data-source-powerbi.md)
-##### [Stofna skýrslur til að birta listagögn](across-how-use-powerbi-reports-factbox.md)
-#### Neytendur
-##### [Unnið með Power BI Skýrslur í Business Central](across-working-with-powerbi.md)
-##### [Unnið með Business Central Data í Power BI](across-working-with-business-central-in-powerbi.md)
-##### [Notkun Business Central-forrita í Power BI](across-powerbi-business-central-apps.md)
-### Notkun Power Automate með Business Central
-#### [Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)
-### Notkun Power Apps með Business Central
-#### [Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps](across-how-use-financials-data-source-powerapps.md)
-### [Skipta úr QuickBooks App í Business Central](across-quickbooks-to-business-edition.md)
-### [Nota Business Central á fartækinu þínu](install-mobile-app.md)
-### [Magnreikningsfærsla fyrir Microsoft Bookings](finance-bookings.md)
-### [Nota sama Microsoft 365 -reikninginn í Business Central og í Microsoft Invoicing](about-reuse-company-invoicing.md)
-### [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)
-### [Setja upp tölvupóst](admin-how-setup-email.md)
+### Uppsetning tölvupósts
+#### [Setja upp tölvupóst](admin-how-setup-email.md)
+#### Setja upp eigið fyrirtækjainnhólf í Outlook 
+##### [Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)
+##### [Samstilla við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Nota Business Central án Outlook](admin-no-outlook.md)
+### Uppsetning fyrir skýrslur
+#### [Skýrsluval](across-report-selections.md)
+### Uppsetning tenginga
+#### Notkun Business Central sem fyrirtækjainnhólf í Outlook 
+##### [Yfirlit](admin-outlook.md)
+##### [Samstilla við tengiliði í Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Nota Business Central án Outlook](admin-no-outlook.md)
+#### Notkun Microsoft Teams með Business Central
+##### [Yfirlit](across-teams-overview.md)
+##### [Umsjón með samþættingu Teams](admin-teams-integration.md)
+##### [Uppsetning Business Central fyrir Teams](across-install-app-for-teams.md)
+##### [Leita að viðskiptavinum, lánardrottnum og tengiliðum](across-search-contacts-teams.md)
+##### [Unnið með Business Central Data í Teams](across-working-with-teams.md)
+##### [Breyta fyrirtæki og aðrar stillingar](across-teams-settings.md)
+##### [Teams - Algengar spurningar](teams-faq.md)
+##### [Úrræðaleit](admin-teams-troubleshooting.md)
+#### Notkun Power BI með Business Central
+##### [Kynning](admin-powerbi.md)
+##### Stjórnandi
+###### [Yfirlit yfir samþættingu](admin-powerbi-overview.md)
+###### [Virkjun Power BI Samþættingar](admin-powerbi-setup.md)
+##### Hönnuður
+###### [Að hefjast handa við að búa til skýrslur](across-how-use-financials-data-source-powerbi.md)
+###### [Stofna skýrslur til að birta listagögn](across-how-use-powerbi-reports-factbox.md)
+##### Neytendur
+###### [Unnið með Power BI Skýrslur í Business Central](across-working-with-powerbi.md)
+###### [Unnið með Business Central Data í Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Notkun Business Central-forrita í Power BI](across-powerbi-business-central-apps.md)
+#### Notkun Power Automate með Business Central
+##### [Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)
+#### Notkun Power Apps með Business Central
+##### [Tengjast við Business Central gögnin til að búa til viðskiptaforrit með því að nota Power Apps](across-how-use-financials-data-source-powerapps.md)
+#### [Skipta úr QuickBooks App í Business Central](across-quickbooks-to-business-edition.md)
+#### [Magnreikningsfærsla fyrir Microsoft Bookings](finance-bookings.md)
+#### [Flytja inn viðskiptagögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)
 ### [Stofnun númeraraða](ui-create-number-series.md)
-### [Skýrsluval](across-report-selections.md)
 ### [Setja upp grunndagatöl](across-how-to-assign-base-calendars.md)
+### [Setja upp prentara](ui-specify-printer-selection-reports.md)
+### [Nota Business Central á fartækinu þínu](install-mobile-app.md)
 
 ## Algengar spurningar
 ### [Algengar spurningar](across-faq.md)
@@ -290,7 +298,6 @@
 
 ## Hjálp og stuðningur
 ### [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)
-### [Hjálparkerfi](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
 ### [Skoðaðu myndbandasafnið okkar](across-videos.md)
 ### [Tæknilegur stuðningur](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 <!--## Learn
@@ -299,10 +306,10 @@
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Documentation](product-get-started.md)
+#### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Business User
 #### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Documentation](product-get-started.md)
+#### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
 #### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
@@ -354,8 +361,7 @@
 ### [Flýtivísanir](keyboard-shortcuts.md)
 ### [Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur](keyboard-shortcuts-cheatsheet.md)
 ## [Úrræðaleit: aðgangur að myndavél og staðsetningu](ui-troubleshooting-camera-location.md)
-## [Aðgangur þinn að snjallskýi með Business Central](about-intelligent-cloud.md)
-## [Kynning: Rað-/lotunúmerarakning](walkthrough-tracing-serial-lot-numbers.md)
+## [Snjöll innsýn (aðeins á netinu)](about-intelligent-cloud.md)
 # Viðskiptavirkni
 ## [Yfirlit yfir Viðskiptavirkni](across-business-functionality.md)
 <!--general-->
@@ -618,12 +624,12 @@
 ### [Flokka vörur](inventory-how-categorize-items.md)
 ### [Vinna með vörueigindir](inventory-how-work-item-attributes.md)
 ### [Vinna með vörulista](inventory-how-work-nonstock-items.md)
-### [Birgðatalning með skjölum](inventory-how-count-inventory-with-documents.md)
+### [Telja og leiðrétta birgðir með skjölum](inventory-how-count-inventory-with-documents.md)
 ### [Talning, breytingar og endurflokkun birgða með færslubókum](inventory-how-count-adjust-reclassify.md)
 ### [Skoða tiltækileika vöru](inventory-how-availability-overview.md)
 ### [Flytja birgðir milli birgðageymslna](inventory-how-transfer-between-locations.md)
 ### [Taka frá vörur](inventory-how-to-reserve-items.md)
-### [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)
+### [Rekja vörur með rað-, lotu- og pakkanúmerum](inventory-how-work-item-tracking.md)
 ### [Nota millivísanir vöru](inventory-how-use-item-cross-refs.md)
 ### [Rekja vöruraktar vörur](inventory-how-to-trace-item-tracked-items.md)
 ### [Loka vörum](inventory-how-block-items.md)
@@ -865,34 +871,27 @@
 ##### [Setja upp skýrslugerðir](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Flytja út yfirlýsingar þriðju aðila Intrastat](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Bankaþjónusta og greiðslur
-##### [Setja upp bankareikninga fyrir CODA](LocalFunctionality/Belgium/how-to-set-up-bank-accounts-for-coda.md)
-##### [Jafna CODA-yfirlit](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
-##### [Flytja og bóka CODA-yfirlit sjálfvirkt](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
-##### [CODA-bankayfirlit](LocalFunctionality/Belgium/coda-bank-statements.md)
-##### [Belgísk rafræn bankaviðskipti](LocalFunctionality/Belgium/belgian-electronic-banking.md)
-##### [Setja upp rafræn bankaviðskipti](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
+##### [Rafræn bankaviðskipti (BE)](LocalFunctionality/Belgium/belgian-electronic-banking.md)
+##### [Rafrænar greiðslur (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
 ##### [Setja upp samskiptareglur um útflutning](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
-##### [Belgískar rafrænar greiðslur](LocalFunctionality/Belgium/belgian-electronic-payments.md)
-##### [Setja upp IBLC-BLWI-færslukóða](LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)
+##### [Samantekt á greiðslulínum og færslubókarlínum](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
 ##### [Setja upp lánadrottna fyrir tillögur um sjálfvirka greiðslu](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Búa til sniðmát og runur færslubókar](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Prófa rafrænar greiðslur](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Búa til greiðslutillögur](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-##### [Flytja inn CODA-yfirlit](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
-##### [Stjórna rafrænum greiðslulínum](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
-##### [Flytja og bóka CODA-yfirlit handvirkt](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
 ##### [Prenta greiðsluskrár](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [SEPA-greiðslur](LocalFunctionality/Belgium/sepa-payments.md)
 ##### [Virkja SEPA-greiðslur](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
 ##### [Skrá SEPA-greiðslur sem eru ekki í evrum](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
-##### [Skrá SEPA-greiðslur](LocalFunctionality/Belgium/how-to-file-sepa-payments.md)
 ##### [Beingreiðsla með lögheimili](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
 ##### [Setja upp lögheimili](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
 ##### [Breyta og eyða lögheimilislínum](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
 ##### [Prófa lögheimili](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
 ##### [Flytja út og bóka lögheimili](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 ##### [Búa til tillögur um lögheimili](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
-##### [Samantekt á greiðslulínum og færslubókarlínum](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
+##### [CODA-bankayfirlit](LocalFunctionality/Belgium/coda-bank-statements.md)
+##### [Jafna CODA-yfirlit](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
+##### [Flytja og bóka CODA-yfirlit sjálfvirkt](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
+##### [Flytja og bóka CODA-yfirlit handvirkt](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
+##### [Flytja inn CODA-yfirlit](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### Core-fjármál
 ##### [Jafna og ógilda fjárhagsfærslur](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Stofna fjárhagsbækur](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -918,6 +917,8 @@
 
 ### Tékkland
 #### [Staðbundin virkni í tékkneskri útgáfu](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Kjarnastaðfæringarpakki fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+#### [Ítarlegur staðfæringarpakki fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Core-fjármál  
 ##### [Fjármál](LocalFunctionality/Czech/finance.md)
 ##### [Aðgerðir árslokunar](LocalFunctionality/Czech/year-close-operations.md)
@@ -928,6 +929,7 @@
 ##### [VSK-eftirlitsskýrsla](LocalFunctionality/Czech/vat-control-report.md)
 #### Eignir
 ##### [Eignir](LocalFunctionality/Czech/fixed-assets.md)
+##### [Staðfæring eignar fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Bankaþjónusta og greiðslur
 ##### [Bankaeiginleiki](LocalFunctionality/Czech/bank-feature.md)
 ##### [Stjórnun afgreiðslukassa](LocalFunctionality/Czech/cash-desk-management.md)
@@ -943,7 +945,6 @@
 #### Almennt
 ##### [Aukin notandastýring](LocalFunctionality/Czech/general.md)
 ##### [Bestu venjur](LocalFunctionality/Czech/best-practices.md)
-##### [Kjarnastaðfæringarpakki fyrir Tékkland (viðbót)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 
 ### Danmörk
 #### [Staðbundin virkni í danskri útgáfu](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1126,6 +1127,16 @@
 ###### [GST rafrænt farmbréf](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [GST innsláttur kreditleiðréttingar](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [GST-uppgjör](LocalFunctionality/India/GST-Settelement.md)
+###### [GST rafrænn reikningur](LocalFunctionality/India/GST-E-Invoice.md)
+##### GST Cess
+###### [Grunnuppsetning GST Cess](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
+###### [Útreikningur GST Cess](LocalFunctionality/India/GST-Cess-Calculations.md)
+##### GST í þjónustustjórnun
+###### [GST í þjónustustjórnun](LocalFunctionality/India/GST-Service-Management.md)
+##### GST fyrir innslátt þjónustudreifingar
+###### [Yfirlit yfir GST fyrir innslátt þjónustudreifingar](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
+###### [GST fyrir innslátt þjónustudreifingarferlis](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
+###### [GST fyrir innslátt þjónustudreifingarfærslu](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
 #### SNERTIMÖRK:
 ##### [TDS-yfirlit](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS-færslur](LocalFunctionality/India/TDS-Transactions.md)
@@ -1143,9 +1154,23 @@
 ##### [TCS-þröskuldur](LocalFunctionality/India/TCS-Threshold.md)
 ##### [TCS leiðréttingarfærsla](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [TCS greiðsla til yfirvalda](LocalFunctionality/India/TCS-Payment-to-Authority.md)
+##### [206C-1H-Yfirlit](LocalFunctionality/India/TCS-206C-1H-Overview.md)
+##### [206C-1H-færsla](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Viðmót fylgiskjals
 ##### [Yfirliti yfir viðmót fylgiskjals](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Færsla í viðmóti fylgiskjals](LocalFunctionality/India/Voucher-Interface-Transactions.md)
+#### Eign
+##### [Yfirlit yfir Eignir](LocalFunctionality/India/FA_Overview.md)
+##### [Afskriftir eigna](LocalFunctionality/India/FA_Depreciation.md)
+#### Færsla um gátt
+##### [Yfirlit yfir færslu um gátt](LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md)
+##### [Innhreyfingarfærsla um gátt](LocalFunctionality/India/Gate-Entry-Inward_Transactions.md)
+##### [Úthreyfingarfærsla um gátt](LocalFunctionality/India/Gate-Entry-Outward_Transactions.md)
+#### Úthýsing
+##### [Yfirlit undirverktöku](LocalFunctionality/India/Subcontracting-001-Basic-Setup.md)
+##### [Úthýsingarfærslur](LocalFunctionality/India/Subcontracting-Transactions.md)
+##### [Stofna GST-skuld](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
+##### [Undirverktakaskýrslur](LocalFunctionality/India/Subcontracting-Reports.md)
 
 ### Ítalía
 #### [Staðbundin virkni í ítalskri útgáfu](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1585,8 +1610,8 @@
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Essential viðskiptainnsýn](ui-extensions-essential-business-insights.md)
 #### [Myndgreinandi](ui-extensions-image-analyzer.md)
-#### [Snjallský](ui-extensions-data-replication.md)
-#### [Grunnur snjallskýs](ui-extensions-intelligent-cloud.md)
+#### [Viðbætur skýjaflutnings](ui-extensions-data-replication.md)
+#### [Grunnur skýjaflutnings](ui-extensions-intelligent-cloud.md)
 #### [Greiðsludráttarspár](ui-extensions-late-payment-prediction.md)
 #### [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
@@ -1622,7 +1647,7 @@
 ### [Flutningur úr Business Central á staðnum](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Flutningur úr Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
 ### [Flutningur úr Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Algengar spurningar um tengingu við snjallskýið](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+### [Algengar spurningar um flutning í skýið](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
 ## [Stjórnun á Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Þróun](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Öryggi og vörn](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

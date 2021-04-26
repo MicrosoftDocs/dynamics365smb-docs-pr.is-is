@@ -8,142 +8,142 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dd86568c87a9cbb66214ae88b75fcdae8e85b59d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b182a66984ea0345e7f33e1292839d1ecfad4bfd
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383176"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787553"
 ---
-# <a name="planning-with-or-without-locations"></a><span data-ttu-id="c609e-103">Áætlanagerð með eða án birgðageymslna</span><span class="sxs-lookup"><span data-stu-id="c609e-103">Planning With or Without Locations</span></span>
-<span data-ttu-id="c609e-104">Varðandi áætlanir með eða án birgðageymslukóta í eftirspurnarlínum vinnur áætlanakerfið á einfaldan hátt þegar:</span><span class="sxs-lookup"><span data-stu-id="c609e-104">Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:</span></span>  
+# <a name="planning-with-or-without-locations"></a><span data-ttu-id="1feb2-103">Áætlanagerð með eða án birgðageymslna</span><span class="sxs-lookup"><span data-stu-id="1feb2-103">Planning With or Without Locations</span></span>
+<span data-ttu-id="1feb2-104">Varðandi áætlanir með eða án birgðageymslukóta í eftirspurnarlínum vinnur áætlanakerfið á einfaldan hátt þegar:</span><span class="sxs-lookup"><span data-stu-id="1feb2-104">Concerning planning with or without location codes on demand lines, the planning system operates in a straight forward way when:</span></span>  
 
--   <span data-ttu-id="c609e-105">eftirspurnarlínur eru alltaf með birgðageymslukóta og kerfið notar birgðahaldseiningar til fulls með viðeigandi birgðageymsluuppsetningu.</span><span class="sxs-lookup"><span data-stu-id="c609e-105">demand lines always carry location codes and the system fully uses stockkeeping units, including the relevant location setup.</span></span>  
--   <span data-ttu-id="c609e-106">eftirspurnarlínur eru aldrei með birgðageymslukóta og kerfið notar ekki birgðahaldseiningar eða neina birgðageymsluuppsetningu (sjá síðasta dæmið hér fyrir neðan).</span><span class="sxs-lookup"><span data-stu-id="c609e-106">demand lines never carry location codes and the system does not use SKUs or any location setup (see last scenario below).</span></span>  
+-   <span data-ttu-id="1feb2-105">eftirspurnarlínur eru alltaf með birgðageymslukóta og kerfið notar birgðahaldseiningar til fulls með viðeigandi birgðageymsluuppsetningu.</span><span class="sxs-lookup"><span data-stu-id="1feb2-105">demand lines always carry location codes and the system fully uses stockkeeping units, including the relevant location setup.</span></span>  
+-   <span data-ttu-id="1feb2-106">eftirspurnarlínur eru aldrei með birgðageymslukóta og kerfið notar ekki birgðahaldseiningar eða neina birgðageymsluuppsetningu (sjá síðasta dæmið hér fyrir neðan).</span><span class="sxs-lookup"><span data-stu-id="1feb2-106">demand lines never carry location codes and the system does not use SKUs or any location setup (see last scenario below).</span></span>  
 
-<span data-ttu-id="c609e-107">Ef hins vegar eftirspurnarlínur eru stundum með birgðageymslukóta og stundum ekki fer áætlanakerfið eftir tilteknum reglum í samræmi við uppsetningu.</span><span class="sxs-lookup"><span data-stu-id="c609e-107">However, if demand lines sometimes have location codes and other times do not, the planning system will follow certain rules depending on setup.</span></span>  
+<span data-ttu-id="1feb2-107">Ef hins vegar eftirspurnarlínur eru stundum með birgðageymslukóta og stundum ekki fer áætlanakerfið eftir tilteknum reglum í samræmi við uppsetningu.</span><span class="sxs-lookup"><span data-stu-id="1feb2-107">However, if demand lines sometimes have location codes and other times do not, the planning system will follow certain rules depending on setup.</span></span>  
 
-## <a name="demand-at-location"></a><span data-ttu-id="c609e-108">Eftirspurn í birgðageymslu</span><span class="sxs-lookup"><span data-stu-id="c609e-108">Demand at Location</span></span>  
-<span data-ttu-id="c609e-109">Þegar áætlunarkerfið greinir eftirspurn í birgðageymslu (línu með birgðageymslukóta) vinnar það á mismunandi hátt í samræmi við 3 mikilvæg uppsetningargildi.</span><span class="sxs-lookup"><span data-stu-id="c609e-109">When the planning system detects demand at a location (a line with a location code), it will behave in different ways depending on 3 critical setup values.</span></span>  
+## <a name="demand-at-location"></a><span data-ttu-id="1feb2-108">Eftirspurn í birgðageymslu</span><span class="sxs-lookup"><span data-stu-id="1feb2-108">Demand at Location</span></span>  
+<span data-ttu-id="1feb2-109">Þegar áætlunarkerfið greinir eftirspurn í birgðageymslu (línu með birgðageymslukóta) vinnar það á mismunandi hátt í samræmi við 3 mikilvæg uppsetningargildi.</span><span class="sxs-lookup"><span data-stu-id="1feb2-109">When the planning system detects demand at a location (a line with a location code), it will behave in different ways depending on 3 critical setup values.</span></span>  
 
-<span data-ttu-id="c609e-110">Í áætlunarkeyrslu leitar kerfið að 3 uppsetningargildum í röð og áætlar samkvæmt þeim:</span><span class="sxs-lookup"><span data-stu-id="c609e-110">During a planning run, the system checks for the 3 setup values in sequence and plans accordingly:</span></span>  
+<span data-ttu-id="1feb2-110">Í áætlunarkeyrslu leitar kerfið að 3 uppsetningargildum í röð og áætlar samkvæmt þeim:</span><span class="sxs-lookup"><span data-stu-id="1feb2-110">During a planning run, the system checks for the 3 setup values in sequence and plans accordingly:</span></span>  
 
-1.  <span data-ttu-id="c609e-111">Er gátmerki í reitnum **Birgðageymsla áskilin**?</span><span class="sxs-lookup"><span data-stu-id="c609e-111">Is there a check mark in the **Location Mandatory** field?</span></span>  
+1.  <span data-ttu-id="1feb2-111">Er gátmerki í reitnum **Birgðageymsla áskilin**?</span><span class="sxs-lookup"><span data-stu-id="1feb2-111">Is there a check mark in the **Location Mandatory** field?</span></span>  
 
-    <span data-ttu-id="c609e-112">Ef já:</span><span class="sxs-lookup"><span data-stu-id="c609e-112">If yes, then:</span></span>  
+    <span data-ttu-id="1feb2-112">Ef já:</span><span class="sxs-lookup"><span data-stu-id="1feb2-112">If yes, then:</span></span>  
 
-2.  <span data-ttu-id="c609e-113">Er birgðahaldseining til fyrir vöruna?</span><span class="sxs-lookup"><span data-stu-id="c609e-113">Does SKU exist for the item?</span></span>  
+2.  <span data-ttu-id="1feb2-113">Er birgðahaldseining til fyrir vöruna?</span><span class="sxs-lookup"><span data-stu-id="1feb2-113">Does SKU exist for the item?</span></span>  
 
-    <span data-ttu-id="c609e-114">Ef já:</span><span class="sxs-lookup"><span data-stu-id="c609e-114">If yes, then:</span></span>  
+    <span data-ttu-id="1feb2-114">Ef já:</span><span class="sxs-lookup"><span data-stu-id="1feb2-114">If yes, then:</span></span>  
 
-    <span data-ttu-id="c609e-115">Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðahaldseiningaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="c609e-115">The item is planned according to planning parameters on the SKU card.</span></span>  
+    <span data-ttu-id="1feb2-115">Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðahaldseiningaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="1feb2-115">The item is planned according to planning parameters on the SKU card.</span></span>  
 
-    <span data-ttu-id="c609e-116">Ef nei:</span><span class="sxs-lookup"><span data-stu-id="c609e-116">If no, then:</span></span>  
+    <span data-ttu-id="1feb2-116">Ef nei:</span><span class="sxs-lookup"><span data-stu-id="1feb2-116">If no, then:</span></span>  
 
-3.  <span data-ttu-id="c609e-117">Er reiturinn **Íhlutir á staðnum** með áskildum birgðageymslukóta?</span><span class="sxs-lookup"><span data-stu-id="c609e-117">Does the **Components at Location** field contain the demanded location code?</span></span>  
+3.  <span data-ttu-id="1feb2-117">Er reiturinn **Íhlutir á staðnum** með áskildum birgðageymslukóta?</span><span class="sxs-lookup"><span data-stu-id="1feb2-117">Does the **Components at Location** field contain the demanded location code?</span></span>  
 
-    <span data-ttu-id="c609e-118">Ef já:</span><span class="sxs-lookup"><span data-stu-id="c609e-118">If yes, then:</span></span>  
+    <span data-ttu-id="1feb2-118">Ef já:</span><span class="sxs-lookup"><span data-stu-id="1feb2-118">If yes, then:</span></span>  
 
-    <span data-ttu-id="c609e-119">Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="c609e-119">The item is planned according to planning parameters on the item card.</span></span>  
+    <span data-ttu-id="1feb2-119">Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="1feb2-119">The item is planned according to planning parameters on the item card.</span></span>  
 
-    <span data-ttu-id="c609e-120">Ef nei:</span><span class="sxs-lookup"><span data-stu-id="c609e-120">If no, then:</span></span>  
+    <span data-ttu-id="1feb2-120">Ef nei:</span><span class="sxs-lookup"><span data-stu-id="1feb2-120">If no, then:</span></span>  
 
-    <span data-ttu-id="c609e-121">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* , Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.</span><span class="sxs-lookup"><span data-stu-id="c609e-121">The item is planned according to: Reordering Policy =  *Lot-for-Lot*, Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span> <span data-ttu-id="c609e-122">(Vörur sem nota endurpöntunarstefnuna  *Pöntun* nota  *Pöntun* ásamt öðrum stillingum).</span><span class="sxs-lookup"><span data-stu-id="c609e-122">(Items using reordering policy  *Order* remain using  *Order* as well as the other settings.)</span></span>  
+    <span data-ttu-id="1feb2-121">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* , Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.</span><span class="sxs-lookup"><span data-stu-id="1feb2-121">The item is planned according to: Reordering Policy =  *Lot-for-Lot*, Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span> <span data-ttu-id="1feb2-122">(Vörur sem nota endurpöntunarstefnuna  *Pöntun* nota  *Pöntun* ásamt öðrum stillingum).</span><span class="sxs-lookup"><span data-stu-id="1feb2-122">(Items using reordering policy  *Order* remain using  *Order* as well as the other settings.)</span></span>  
 
 > [!NOTE]  
->  <span data-ttu-id="c609e-123">Þessi lágmarksvalkostur nær aðeins yfir nákvæma eftirspurn.</span><span class="sxs-lookup"><span data-stu-id="c609e-123">This minimal alternative only covers the exact demand.</span></span> <span data-ttu-id="c609e-124">Allar skilgreindar áætlunarfæribreytur eru hunsaðar.</span><span class="sxs-lookup"><span data-stu-id="c609e-124">Any planning parameters defined are ignored.</span></span>  
+>  <span data-ttu-id="1feb2-123">Þessi lágmarksvalkostur nær aðeins yfir nákvæma eftirspurn.</span><span class="sxs-lookup"><span data-stu-id="1feb2-123">This minimal alternative only covers the exact demand.</span></span> <span data-ttu-id="1feb2-124">Allar skilgreindar áætlunarfæribreytur eru hunsaðar.</span><span class="sxs-lookup"><span data-stu-id="1feb2-124">Any planning parameters defined are ignored.</span></span>  
 
-<span data-ttu-id="c609e-125">Sjá frávik í dæmunum hér fyrir neðan.</span><span class="sxs-lookup"><span data-stu-id="c609e-125">See variations in the scenarios below.</span></span>  
+<span data-ttu-id="1feb2-125">Sjá frávik í dæmunum hér fyrir neðan.</span><span class="sxs-lookup"><span data-stu-id="1feb2-125">See variations in the scenarios below.</span></span>  
 
-## <a name="demand-at-blank-location"></a><span data-ttu-id="c609e-126">Eftirspurn í "Tómri birgðageymslu"</span><span class="sxs-lookup"><span data-stu-id="c609e-126">Demand at "Blank Location"</span></span>  
-<span data-ttu-id="c609e-127">Jafnvel þó merkt sé við reitinn **Birgðageymsla áskilin** er heimilt að stofna línur í kerfinu án birgðageymslukóta – einnig kallað *TÓM* birgðageymsla.</span><span class="sxs-lookup"><span data-stu-id="c609e-127">Even if the **Location Mandatory** check box is selected, the system will allow demand lines to be created without a location code – also referred to as *BLANK* location.</span></span> <span data-ttu-id="c609e-128">Þetta er frávik í kerfinu því það er með mismunandi uppsetningargildi sem stillt eru á að vinna með birgðageymslur (sjá ofangreint) og niðurstaðan verður sú að áætlunarkerfið stofnar ekki áætlunarlínu fyrir svona eftirspurnarlínu.</span><span class="sxs-lookup"><span data-stu-id="c609e-128">This is a deviation for the system because it has various setup values tuned to dealing with locations (see above) and as a result, the planning engine will not create a planning line for such a demand line.</span></span> <span data-ttu-id="c609e-129">Ef ekki er merkt við reitinn **Birgðageymsla áskilin** en einhver af uppsetningargildum birgðageymsla eru til er það einnig talið vera frávik og eftirspurnarkerfið bregst við með því að leggja til „lágmarksvalkostinn“:</span><span class="sxs-lookup"><span data-stu-id="c609e-129">If the **Location Mandatory** field is not selected but any of the location setup values exist, then that is also considered a deviation and the planning system will react by outputting the "minimal alternative":</span></span>   
-<span data-ttu-id="c609e-130">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram *Pöntun)*, Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = Auðar.</span><span class="sxs-lookup"><span data-stu-id="c609e-130">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains *Order)*, Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
+## <a name="demand-at-blank-location"></a><span data-ttu-id="1feb2-126">Eftirspurn í "Tómri birgðageymslu"</span><span class="sxs-lookup"><span data-stu-id="1feb2-126">Demand at "Blank Location"</span></span>  
+<span data-ttu-id="1feb2-127">Jafnvel þó merkt sé við reitinn **Birgðageymsla áskilin** er heimilt að stofna línur í kerfinu án birgðageymslukóta – einnig kallað *TÓM* birgðageymsla.</span><span class="sxs-lookup"><span data-stu-id="1feb2-127">Even if the **Location Mandatory** check box is selected, the system will allow demand lines to be created without a location code – also referred to as *BLANK* location.</span></span> <span data-ttu-id="1feb2-128">Þetta er frávik í kerfinu því það er með mismunandi uppsetningargildi sem stillt eru á að vinna með birgðageymslur (sjá ofangreint) og niðurstaðan verður sú að áætlunarkerfið stofnar ekki áætlunarlínu fyrir svona eftirspurnarlínu.</span><span class="sxs-lookup"><span data-stu-id="1feb2-128">This is a deviation for the system because it has various setup values tuned to dealing with locations (see above) and as a result, the planning engine will not create a planning line for such a demand line.</span></span> <span data-ttu-id="1feb2-129">Ef ekki er merkt við reitinn **Birgðageymsla áskilin** en einhver af uppsetningargildum birgðageymsla eru til er það einnig talið vera frávik og eftirspurnarkerfið bregst við með því að leggja til „lágmarksvalkostinn“:</span><span class="sxs-lookup"><span data-stu-id="1feb2-129">If the **Location Mandatory** field is not selected but any of the location setup values exist, then that is also considered a deviation and the planning system will react by outputting the "minimal alternative":</span></span>   
+<span data-ttu-id="1feb2-130">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram *Pöntun)*, Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = Auðar.</span><span class="sxs-lookup"><span data-stu-id="1feb2-130">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains *Order)*, Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
 
-<span data-ttu-id="c609e-131">Sjá frávik í uppsetningardæmunum hér fyrir neðan.</span><span class="sxs-lookup"><span data-stu-id="c609e-131">See variations in the setup scenarios below.</span></span>  
+<span data-ttu-id="1feb2-131">Sjá frávik í uppsetningardæmunum hér fyrir neðan.</span><span class="sxs-lookup"><span data-stu-id="1feb2-131">See variations in the setup scenarios below.</span></span>  
 
-### <a name="setup-1"></a><span data-ttu-id="c609e-132">Uppsetning 1:</span><span class="sxs-lookup"><span data-stu-id="c609e-132">Setup 1:</span></span>  
+### <a name="setup-1"></a><span data-ttu-id="1feb2-132">Uppsetning 1:</span><span class="sxs-lookup"><span data-stu-id="1feb2-132">Setup 1:</span></span>  
 
--   <span data-ttu-id="c609e-133">Birgðageymsla áskilin = *Já*</span><span class="sxs-lookup"><span data-stu-id="c609e-133">Location Mandatory = *Yes*</span></span>  
--   <span data-ttu-id="c609e-134">Birgðahaldseining er sett upp fyrir  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="c609e-134">SKU is set up for  *RED*</span></span>  
--   <span data-ttu-id="c609e-135">Íhlutir á staðnum =  *BLÁTT*</span><span class="sxs-lookup"><span data-stu-id="c609e-135">Component at Location =  *BLUE*</span></span>  
+-   <span data-ttu-id="1feb2-133">Birgðageymsla áskilin = *Já*</span><span class="sxs-lookup"><span data-stu-id="1feb2-133">Location Mandatory = *Yes*</span></span>  
+-   <span data-ttu-id="1feb2-134">Birgðahaldseining er sett upp fyrir  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-134">SKU is set up for  *RED*</span></span>  
+-   <span data-ttu-id="1feb2-135">Íhlutir á staðnum =  *BLÁTT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-135">Component at Location =  *BLUE*</span></span>  
 
-#### <a name="case-11-demand-is-at--red-location"></a><span data-ttu-id="c609e-136">Dæmi 1.1: Eftirspurn er í birgðageymslunni  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="c609e-136">Case 1.1: Demand is at  *RED* location</span></span>  
+#### <a name="case-11-demand-is-at--red-location"></a><span data-ttu-id="1feb2-136">Dæmi 1.1: Eftirspurn er í birgðageymslunni  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-136">Case 1.1: Demand is at  *RED* location</span></span>  
 
-<span data-ttu-id="c609e-137">Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðahaldseiningaspjaldinu (að hugsanlegri millifærslu meðtalinni).</span><span class="sxs-lookup"><span data-stu-id="c609e-137">The item is planned according to planning parameters on the SKU card (including possible transfer).</span></span>  
+<span data-ttu-id="1feb2-137">Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðahaldseiningaspjaldinu (að hugsanlegri millifærslu meðtalinni).</span><span class="sxs-lookup"><span data-stu-id="1feb2-137">The item is planned according to planning parameters on the SKU card (including possible transfer).</span></span>  
 
-#### <a name="case-12-demand-is-at--blue-location"></a><span data-ttu-id="c609e-138">Dæmi 1.2: Eftirspurn er í birgðageymslunni  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="c609e-138">Case 1.2: Demand is at  *BLUE* location</span></span>  
+#### <a name="case-12-demand-is-at--blue-location"></a><span data-ttu-id="1feb2-138">Dæmi 1.2: Eftirspurn er í birgðageymslunni  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-138">Case 1.2: Demand is at  *BLUE* location</span></span>  
 
-<span data-ttu-id="c609e-139">Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="c609e-139">The item is planned according to planning parameters on the item card.</span></span>  
+<span data-ttu-id="1feb2-139">Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="1feb2-139">The item is planned according to planning parameters on the item card.</span></span>  
 
-#### <a name="case-13-demand-is-at--green-location"></a><span data-ttu-id="c609e-140">Dæmi 1.3: Eftirspurn er í birgðageymslunni  *GRÆNT*</span><span class="sxs-lookup"><span data-stu-id="c609e-140">Case 1.3: Demand is at  *GREEN* location</span></span>  
+#### <a name="case-13-demand-is-at--green-location"></a><span data-ttu-id="1feb2-140">Dæmi 1.3: Eftirspurn er í birgðageymslunni  *GRÆNT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-140">Case 1.3: Demand is at  *GREEN* location</span></span>  
 
-<span data-ttu-id="c609e-141">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.</span><span class="sxs-lookup"><span data-stu-id="c609e-141">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
+<span data-ttu-id="1feb2-141">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.</span><span class="sxs-lookup"><span data-stu-id="1feb2-141">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
 
-#### <a name="case-14-demand-is-at--blank-location"></a><span data-ttu-id="c609e-142">Dæmi 1.4: Eftirspurn er í birgðageymslunni  *TÓMT*</span><span class="sxs-lookup"><span data-stu-id="c609e-142">Case 1.4: Demand is at  *BLANK* location</span></span>  
+#### <a name="case-14-demand-is-at--blank-location"></a><span data-ttu-id="1feb2-142">Dæmi 1.4: Eftirspurn er í birgðageymslunni  *TÓMT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-142">Case 1.4: Demand is at  *BLANK* location</span></span>  
 
-<span data-ttu-id="c609e-143">Vörunni er ekki áætlað þar sem engin birgðageymsla er skilgreind í eftirspurnarlínunni.</span><span class="sxs-lookup"><span data-stu-id="c609e-143">The item is not planned because no location is defined on the demand line.</span></span>  
+<span data-ttu-id="1feb2-143">Vörunni er ekki áætlað þar sem engin birgðageymsla er skilgreind í eftirspurnarlínunni.</span><span class="sxs-lookup"><span data-stu-id="1feb2-143">The item is not planned because no location is defined on the demand line.</span></span>  
 
-### <a name="setup-2"></a><span data-ttu-id="c609e-144">Uppsetning 2:</span><span class="sxs-lookup"><span data-stu-id="c609e-144">Setup 2:</span></span>  
+### <a name="setup-2"></a><span data-ttu-id="1feb2-144">Uppsetning 2:</span><span class="sxs-lookup"><span data-stu-id="1feb2-144">Setup 2:</span></span>  
 
--   <span data-ttu-id="c609e-145">Birgðageymsla áskilin = *Já*</span><span class="sxs-lookup"><span data-stu-id="c609e-145">Location Mandatory = *Yes*</span></span>  
--   <span data-ttu-id="c609e-146">Engin birgðahaldseining er til</span><span class="sxs-lookup"><span data-stu-id="c609e-146">No SKU exists</span></span>  
--   <span data-ttu-id="c609e-147">Íhlutir á staðnum =  *BLÁTT*</span><span class="sxs-lookup"><span data-stu-id="c609e-147">Component at Location =  *BLUE*</span></span>  
+-   <span data-ttu-id="1feb2-145">Birgðageymsla áskilin = *Já*</span><span class="sxs-lookup"><span data-stu-id="1feb2-145">Location Mandatory = *Yes*</span></span>  
+-   <span data-ttu-id="1feb2-146">Engin birgðahaldseining er til</span><span class="sxs-lookup"><span data-stu-id="1feb2-146">No SKU exists</span></span>  
+-   <span data-ttu-id="1feb2-147">Íhlutir á staðnum =  *BLÁTT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-147">Component at Location =  *BLUE*</span></span>  
 
-#### <a name="case-21-demand-is-at--red-location"></a><span data-ttu-id="c609e-148">Dæmi 2.1: Eftirspurn er í birgðageymslunni  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="c609e-148">Case 2.1: Demand is at  *RED* location</span></span>  
+#### <a name="case-21-demand-is-at--red-location"></a><span data-ttu-id="1feb2-148">Dæmi 2.1: Eftirspurn er í birgðageymslunni  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-148">Case 2.1: Demand is at  *RED* location</span></span>  
 
-<span data-ttu-id="c609e-149">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.</span><span class="sxs-lookup"><span data-stu-id="c609e-149">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
+<span data-ttu-id="1feb2-149">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.</span><span class="sxs-lookup"><span data-stu-id="1feb2-149">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
 
-#### <a name="case-22-demand-is-at--blue-location"></a><span data-ttu-id="c609e-150">Dæmi 2.2: Eftirspurn er í birgðageymslunni  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="c609e-150">Case 2.2: Demand is at  *BLUE* location</span></span>  
+#### <a name="case-22-demand-is-at--blue-location"></a><span data-ttu-id="1feb2-150">Dæmi 2.2: Eftirspurn er í birgðageymslunni  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-150">Case 2.2: Demand is at  *BLUE* location</span></span>  
 
-<span data-ttu-id="c609e-151">Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="c609e-151">The item is planned according to planning parameters on the item card.</span></span>  
+<span data-ttu-id="1feb2-151">Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="1feb2-151">The item is planned according to planning parameters on the item card.</span></span>  
 
-### <a name="setup-3"></a><span data-ttu-id="c609e-152">Uppsetning 3:</span><span class="sxs-lookup"><span data-stu-id="c609e-152">Setup 3:</span></span>  
+### <a name="setup-3"></a><span data-ttu-id="1feb2-152">Uppsetning 3:</span><span class="sxs-lookup"><span data-stu-id="1feb2-152">Setup 3:</span></span>  
 
--   <span data-ttu-id="c609e-153">Birgðageymsla áskilin = *Nei*</span><span class="sxs-lookup"><span data-stu-id="c609e-153">Location Mandatory = *No*</span></span>  
--   <span data-ttu-id="c609e-154">Engin birgðahaldseining er til</span><span class="sxs-lookup"><span data-stu-id="c609e-154">No SKU exists</span></span>  
--   <span data-ttu-id="c609e-155">Íhlutir á staðnum =  *BLÁTT*</span><span class="sxs-lookup"><span data-stu-id="c609e-155">Component at Location =  *BLUE*</span></span>  
+-   <span data-ttu-id="1feb2-153">Birgðageymsla áskilin = *Nei*</span><span class="sxs-lookup"><span data-stu-id="1feb2-153">Location Mandatory = *No*</span></span>  
+-   <span data-ttu-id="1feb2-154">Engin birgðahaldseining er til</span><span class="sxs-lookup"><span data-stu-id="1feb2-154">No SKU exists</span></span>  
+-   <span data-ttu-id="1feb2-155">Íhlutir á staðnum =  *BLÁTT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-155">Component at Location =  *BLUE*</span></span>  
 
-#### <a name="case-31-demand-is-at--red-location"></a><span data-ttu-id="c609e-156">Dæmi 3.1: Eftirspurn er í birgðageymslunni  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="c609e-156">Case 3.1: Demand is at  *RED* location</span></span>  
+#### <a name="case-31-demand-is-at--red-location"></a><span data-ttu-id="1feb2-156">Dæmi 3.1: Eftirspurn er í birgðageymslunni  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-156">Case 3.1: Demand is at  *RED* location</span></span>  
 
-<span data-ttu-id="c609e-157">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.</span><span class="sxs-lookup"><span data-stu-id="c609e-157">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
+<span data-ttu-id="1feb2-157">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.</span><span class="sxs-lookup"><span data-stu-id="1feb2-157">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
 
-#### <a name="case-32-demand-is-at--blue-location"></a><span data-ttu-id="c609e-158">Dæmi 3.2: Eftirspurn er í birgðageymslunni  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="c609e-158">Case 3.2: Demand is at  *BLUE* location</span></span>  
+#### <a name="case-32-demand-is-at--blue-location"></a><span data-ttu-id="1feb2-158">Dæmi 3.2: Eftirspurn er í birgðageymslunni  *RAUTT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-158">Case 3.2: Demand is at  *BLUE* location</span></span>  
 
-<span data-ttu-id="c609e-159">Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="c609e-159">The item is planned according to planning parameters on the item card.</span></span>  
+<span data-ttu-id="1feb2-159">Vörunni er áætlað samkvæmt áætlunarfæribreytum á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="1feb2-159">The item is planned according to planning parameters on the item card.</span></span>  
 
-#### <a name="case-33-demand-is-at--blank-location"></a><span data-ttu-id="c609e-160">Dæmi 3.3: Eftirspurn er í birgðageymslunni  *TÓMT*</span><span class="sxs-lookup"><span data-stu-id="c609e-160">Case 3.3: Demand is at  *BLANK* location</span></span>  
+#### <a name="case-33-demand-is-at--blank-location"></a><span data-ttu-id="1feb2-160">Dæmi 3.3: Eftirspurn er í birgðageymslunni  *TÓMT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-160">Case 3.3: Demand is at  *BLANK* location</span></span>  
 
-<span data-ttu-id="c609e-161">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.</span><span class="sxs-lookup"><span data-stu-id="c609e-161">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
+<span data-ttu-id="1feb2-161">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.</span><span class="sxs-lookup"><span data-stu-id="1feb2-161">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
 
-### <a name="setup-4"></a><span data-ttu-id="c609e-162">Uppsetning 4:</span><span class="sxs-lookup"><span data-stu-id="c609e-162">Setup 4:</span></span>  
+### <a name="setup-4"></a><span data-ttu-id="1feb2-162">Uppsetning 4:</span><span class="sxs-lookup"><span data-stu-id="1feb2-162">Setup 4:</span></span>  
 
--   <span data-ttu-id="c609e-163">Birgðageymsla áskilin = *Nei*</span><span class="sxs-lookup"><span data-stu-id="c609e-163">Location Mandatory = *No*</span></span>  
--   <span data-ttu-id="c609e-164">Engin birgðahaldseining er til</span><span class="sxs-lookup"><span data-stu-id="c609e-164">No SKU exists</span></span>  
--   <span data-ttu-id="c609e-165">Íhlutir á staðnum =  *TÓMT*</span><span class="sxs-lookup"><span data-stu-id="c609e-165">Component at Location =  *BLANK*</span></span>  
+-   <span data-ttu-id="1feb2-163">Birgðageymsla áskilin = *Nei*</span><span class="sxs-lookup"><span data-stu-id="1feb2-163">Location Mandatory = *No*</span></span>  
+-   <span data-ttu-id="1feb2-164">Engin birgðahaldseining er til</span><span class="sxs-lookup"><span data-stu-id="1feb2-164">No SKU exists</span></span>  
+-   <span data-ttu-id="1feb2-165">Íhlutir á staðnum =  *TÓMT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-165">Component at Location =  *BLANK*</span></span>  
 
-#### <a name="case-41-demand-is-at--blue-location"></a><span data-ttu-id="c609e-166">Dæmi 4.1: Eftirspurn er í birgðageymslunni  *BLÁTT*</span><span class="sxs-lookup"><span data-stu-id="c609e-166">Case 4.1: Demand is at  *BLUE* location</span></span>  
+#### <a name="case-41-demand-is-at--blue-location"></a><span data-ttu-id="1feb2-166">Dæmi 4.1: Eftirspurn er í birgðageymslunni  *BLÁTT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-166">Case 4.1: Demand is at  *BLUE* location</span></span>  
 
-<span data-ttu-id="c609e-167">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.</span><span class="sxs-lookup"><span data-stu-id="c609e-167">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
+<span data-ttu-id="1feb2-167">Vörunni er áætlað samkvæmt: Endurpöntunarstefna =  *Lota-fyrir-lotu* ( *Pöntun* er áfram  *Pöntun*), Taka með birgðir =  *Já*, allar aðrar áætlunarfæribreytur = tómar.</span><span class="sxs-lookup"><span data-stu-id="1feb2-167">The item is planned according to: Reordering Policy =  *Lot-for-Lot* ( *Order* remains  *Order*), Include Inventory =  *Yes*, all other planning parameters = Empty.</span></span>  
 
-#### <a name="case-42-demand-is-at--blank-location"></a><span data-ttu-id="c609e-168">Dæmi 4.2: Eftirspurn er í birgðageymslunni  *TÓMT*</span><span class="sxs-lookup"><span data-stu-id="c609e-168">Case 4.2: Demand is at  *BLANK* location</span></span>  
+#### <a name="case-42-demand-is-at--blank-location"></a><span data-ttu-id="1feb2-168">Dæmi 4.2: Eftirspurn er í birgðageymslunni  *TÓMT*</span><span class="sxs-lookup"><span data-stu-id="1feb2-168">Case 4.2: Demand is at  *BLANK* location</span></span>  
 
-<span data-ttu-id="c609e-169">Varan er áætluð í samræmi við áætlunarfæribreytur á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="c609e-169">The item is planned according to planning parameters on the item card.</span></span>  
+<span data-ttu-id="1feb2-169">Varan er áætluð í samræmi við áætlunarfæribreytur á birgðaspjaldinu.</span><span class="sxs-lookup"><span data-stu-id="1feb2-169">The item is planned according to planning parameters on the item card.</span></span>  
 
-<span data-ttu-id="c609e-170">Eins og sjá má á síðasta dæmi er eina leiðin til að fá réttar niðurstöður fyrir eftirspurnarlínu án birgðageymslukóta sú að gera öll uppsetningargildi sem tengjast birgðageymslum óvirk.</span><span class="sxs-lookup"><span data-stu-id="c609e-170">As you can see from the last scenario, the only way to get a correct result for a demand line without a location code is to disable all setup values relating to locations.</span></span> <span data-ttu-id="c609e-171">Sömuleiðis er eina leiðin til að fá stöðugar áætlunarniðurstöður fyrir eftirspurn í birgðageymslum sú að nota birgðahaldseiningar.</span><span class="sxs-lookup"><span data-stu-id="c609e-171">Similarly, the only way to get stable planning results for demand at locations is to use stockkeeping units.</span></span>  
+<span data-ttu-id="1feb2-170">Eins og sjá má á síðasta dæmi er eina leiðin til að fá réttar niðurstöður fyrir eftirspurnarlínu án birgðageymslukóta sú að gera öll uppsetningargildi sem tengjast birgðageymslum óvirk.</span><span class="sxs-lookup"><span data-stu-id="1feb2-170">As you can see from the last scenario, the only way to get a correct result for a demand line without a location code is to disable all setup values relating to locations.</span></span> <span data-ttu-id="1feb2-171">Sömuleiðis er eina leiðin til að fá stöðugar áætlunarniðurstöður fyrir eftirspurn í birgðageymslum sú að nota birgðahaldseiningar.</span><span class="sxs-lookup"><span data-stu-id="1feb2-171">Similarly, the only way to get stable planning results for demand at locations is to use stockkeeping units.</span></span>  
 
-<span data-ttu-id="c609e-172">Ef þörf í birgðageymslum er áætluð oft er eindregið mælt með að nota birgðahaldseiningaaðgerðina.</span><span class="sxs-lookup"><span data-stu-id="c609e-172">Therefore, if you often plan for demand at locations, it is strongly advised to use the Stockkeeping Units feature.</span></span>  
+<span data-ttu-id="1feb2-172">Ef þörf í birgðageymslum er áætluð oft er eindregið mælt með að nota birgðahaldseiningaaðgerðina.</span><span class="sxs-lookup"><span data-stu-id="1feb2-172">Therefore, if you often plan for demand at locations, it is strongly advised to use the Stockkeeping Units feature.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="c609e-173">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="c609e-173">See Also</span></span>
-<span data-ttu-id="c609e-174">[Áætlun](production-planning.md)  </span><span class="sxs-lookup"><span data-stu-id="c609e-174">[Planning](production-planning.md)  </span></span>  
-[<span data-ttu-id="c609e-175">Uppsetning framleiðslu</span><span class="sxs-lookup"><span data-stu-id="c609e-175">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="c609e-176">[Framleiðsla](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="c609e-176">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="c609e-177">Birgðir</span><span class="sxs-lookup"><span data-stu-id="c609e-177">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="c609e-178">Innkaup</span><span class="sxs-lookup"><span data-stu-id="c609e-178">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="c609e-179">[Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="c609e-179">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
-[<span data-ttu-id="c609e-180">Uppsetning bestu venja: Framboðsáætlun</span><span class="sxs-lookup"><span data-stu-id="c609e-180">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
-<span data-ttu-id="c609e-181">[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c609e-181">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="1feb2-173">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="1feb2-173">See Also</span></span>
+<span data-ttu-id="1feb2-174">[Áætlun](production-planning.md)  </span><span class="sxs-lookup"><span data-stu-id="1feb2-174">[Planning](production-planning.md)  </span></span>  
+[<span data-ttu-id="1feb2-175">Uppsetning framleiðslu</span><span class="sxs-lookup"><span data-stu-id="1feb2-175">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="1feb2-176">[Framleiðsla](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="1feb2-176">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="1feb2-177">Birgðir</span><span class="sxs-lookup"><span data-stu-id="1feb2-177">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="1feb2-178">Innkaup</span><span class="sxs-lookup"><span data-stu-id="1feb2-178">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="1feb2-179">[Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md) </span><span class="sxs-lookup"><span data-stu-id="1feb2-179">[Design Details: Supply Planning](design-details-supply-planning.md) </span></span>  
+[<span data-ttu-id="1feb2-180">Uppsetning bestu venja: Framboðsáætlun</span><span class="sxs-lookup"><span data-stu-id="1feb2-180">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+<span data-ttu-id="1feb2-181">[Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1feb2-181">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

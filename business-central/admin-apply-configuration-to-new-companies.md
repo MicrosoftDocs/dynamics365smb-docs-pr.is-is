@@ -8,31 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dc93e248b0691a23b9937579cd16213d1d6c2ae5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 22b4c770f182aa9e5df72ff3d625dc32c5a6f827
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378774"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773362"
 ---
-# <a name="apply-configurations-to-new-companies"></a><span data-ttu-id="0868a-104">Nota skilgreiningu á ný fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="0868a-104">Apply Configurations to New Companies</span></span>
-<span data-ttu-id="0868a-105">Þegar búið er að stofna grunnstillingarpakka er næsta skrefið að virkja pakka til viðskiptamanns fyrir innleiðingu.</span><span class="sxs-lookup"><span data-stu-id="0868a-105">After you have created a configuration package, the next step is to deploy the package to your customer for implementation.</span></span> <span data-ttu-id="0868a-106">Þú vinnur með grunnstillingarpakkann innan fyrirtækis sem er nýtt og autt.</span><span class="sxs-lookup"><span data-stu-id="0868a-106">You work with the configuration package within a new empty company.</span></span>  
+# <a name="apply-configurations-to-new-companies"></a><span data-ttu-id="4ef54-104">Nota skilgreiningu á ný fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="4ef54-104">Apply Configurations to New Companies</span></span>
+<span data-ttu-id="4ef54-105">Þegar búið er að stofna grunnstillingarpakka er næsta skrefið að virkja pakka til viðskiptamanns fyrir innleiðingu.</span><span class="sxs-lookup"><span data-stu-id="4ef54-105">After you have created a configuration package, the next step is to deploy the package to your customer for implementation.</span></span> <span data-ttu-id="4ef54-106">Þú vinnur með grunnstillingarpakkann innan fyrirtækis sem er nýtt og autt.</span><span class="sxs-lookup"><span data-stu-id="4ef54-106">You work with the configuration package within a new empty company.</span></span>  
 
- <span data-ttu-id="0868a-107">Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.</span><span class="sxs-lookup"><span data-stu-id="0868a-107">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
+ <span data-ttu-id="4ef54-107">Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.</span><span class="sxs-lookup"><span data-stu-id="4ef54-107">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
 
-|<span data-ttu-id="0868a-108">**Til að**</span><span class="sxs-lookup"><span data-stu-id="0868a-108">**To**</span></span>|<span data-ttu-id="0868a-109">**Sjá**</span><span class="sxs-lookup"><span data-stu-id="0868a-109">**See**</span></span>|  
+|<span data-ttu-id="4ef54-108">**Til að**</span><span class="sxs-lookup"><span data-stu-id="4ef54-108">**To**</span></span>|<span data-ttu-id="4ef54-109">**Sjá**</span><span class="sxs-lookup"><span data-stu-id="4ef54-109">**See**</span></span>|  
 |------------|-------------|  
-|<span data-ttu-id="0868a-110">Stofna nýtt fyrirtæki þar sem á að framkvæma innleiðingar viðskiptavina.</span><span class="sxs-lookup"><span data-stu-id="0868a-110">Create a new company in which to perform a customer implementation.</span></span>|[<span data-ttu-id="0868a-111">Stofna nýtt fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="0868a-111">Create a New Company</span></span>](admin-how-to-create-a-new-company.md)|  
-|<span data-ttu-id="0868a-112">Flytja inn og nota grunnstillingarpakka í nýju fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="0868a-112">Import and apply a configuration package to a new company.</span></span>|[<span data-ttu-id="0868a-113">Grunnstilla ný fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="0868a-113">Configure New Companies</span></span>](admin-how-to-configure-new-companies.md)|  
-|<span data-ttu-id="0868a-114">Hægt er að nota uppsetningarleiðbeiningar með hjálp til að ljúka grunnstillingu á fyrirtæki með auðveldum hætti.</span><span class="sxs-lookup"><span data-stu-id="0868a-114">Use an assisted setup guide to easily complete a company configuration.</span></span>|[<span data-ttu-id="0868a-115">Grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti</span><span class="sxs-lookup"><span data-stu-id="0868a-115">Configure a Company with the RapidStart Wizard</span></span>](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
-|<span data-ttu-id="0868a-116">Afrita títt notuð gildi úr fyrirliggjandi fyrirtæki í nýtt, innan sama gagnagrunns.</span><span class="sxs-lookup"><span data-stu-id="0868a-116">Copy commonly used values from an existing company to a new one, within the same database.</span></span>|[<span data-ttu-id="0868a-117">Afrita gögn yfir í ný fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="0868a-117">Copy Data to New Companies</span></span>](admin-how-to-copy-data-to-new-companies.md)|  
-|<span data-ttu-id="0868a-118">Notaðu runuvinnslu til að flytja eldri reikningsstöður til fyrirtækis sem var nýlega grunnstillt og úthlutaðu síðan bókarfærslunum sem fylgja.</span><span class="sxs-lookup"><span data-stu-id="0868a-118">Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.</span></span>|[<span data-ttu-id="0868a-119">Stofna opnunarstöður færslubókar</span><span class="sxs-lookup"><span data-stu-id="0868a-119">Create Journal Opening Balances</span></span>](admin-how-to-create-journal-opening-balances.md)|  
+|<span data-ttu-id="4ef54-110">Stofna nýtt fyrirtæki þar sem á að framkvæma innleiðingar viðskiptavina.</span><span class="sxs-lookup"><span data-stu-id="4ef54-110">Create a new company in which to perform a customer implementation.</span></span>|[<span data-ttu-id="4ef54-111">Stofna nýtt fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="4ef54-111">Create a New Company</span></span>](admin-how-to-create-a-new-company.md)|  
+|<span data-ttu-id="4ef54-112">Flytja inn og nota grunnstillingarpakka í nýju fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="4ef54-112">Import and apply a configuration package to a new company.</span></span>|[<span data-ttu-id="4ef54-113">Grunnstilla ný fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="4ef54-113">Configure New Companies</span></span>](admin-how-to-configure-new-companies.md)|  
+|<span data-ttu-id="4ef54-114">Hægt er að nota uppsetningarleiðbeiningar með hjálp til að ljúka grunnstillingu á fyrirtæki með auðveldum hætti.</span><span class="sxs-lookup"><span data-stu-id="4ef54-114">Use an assisted setup guide to easily complete a company configuration.</span></span>|[<span data-ttu-id="4ef54-115">Grunnstilla fyrirtæki með RapidStart-leiðsagnarforriti</span><span class="sxs-lookup"><span data-stu-id="4ef54-115">Configure a Company with the RapidStart Wizard</span></span>](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
+|<span data-ttu-id="4ef54-116">Afrita títt notuð gildi úr fyrirliggjandi fyrirtæki í nýtt, innan sama gagnagrunns.</span><span class="sxs-lookup"><span data-stu-id="4ef54-116">Copy commonly used values from an existing company to a new one, within the same database.</span></span>|[<span data-ttu-id="4ef54-117">Afrita gögn yfir í ný fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="4ef54-117">Copy Data to New Companies</span></span>](admin-how-to-copy-data-to-new-companies.md)|  
+|<span data-ttu-id="4ef54-118">Notaðu runuvinnslu til að flytja eldri reikningsstöður til fyrirtækis sem var nýlega grunnstillt og úthlutaðu síðan bókarfærslunum sem fylgja.</span><span class="sxs-lookup"><span data-stu-id="4ef54-118">Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.</span></span>|[<span data-ttu-id="4ef54-119">Stofna opnunarstöður færslubókar</span><span class="sxs-lookup"><span data-stu-id="4ef54-119">Create Journal Opening Balances</span></span>](admin-how-to-create-journal-opening-balances.md)|  
 
-## <a name="see-also"></a><span data-ttu-id="0868a-120">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="0868a-120">See Also</span></span>  
-[<span data-ttu-id="0868a-121">Uppsetning fyrirtækis með RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="0868a-121">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
-[<span data-ttu-id="0868a-122">Stjórnun</span><span class="sxs-lookup"><span data-stu-id="0868a-122">Administration</span></span>](admin-setup-and-administration.md)
+## <a name="see-also"></a><span data-ttu-id="4ef54-120">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="4ef54-120">See Also</span></span>  
+[<span data-ttu-id="4ef54-121">Uppsetning fyrirtækis með RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="4ef54-121">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
+[<span data-ttu-id="4ef54-122">Stjórnun</span><span class="sxs-lookup"><span data-stu-id="4ef54-122">Administration</span></span>](admin-setup-and-administration.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
