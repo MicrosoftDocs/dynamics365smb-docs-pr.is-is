@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
-ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
+ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5498563"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776148"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Algengar spurningar um notkun Business Central
 
@@ -44,8 +44,9 @@ Ertu búin(n) að lesa um nýjan eiginleika í útgáfuáætlun eða á blogginu
 
 Ef eiginleikinn er settur fram sem viðbót í AppSource, er töf á milli þess að eiginleikinn sé kynntur og að hann sé tiltækur í AppSource. Þetta á aðeins við á [!INCLUDE [prod_short](includes/prod_short.md)] Online.  
 
-## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Er einhver munur á uppsetningu á staðnum og skýjaútgáfu Business Central?
-Já. Sumir skýjatengdir eiginleikar geta hugsanlega keyrt á staðnum í einhverjum tilfellum og aðrir eru alls ekki studdir. Frekari upplýsingar er að finna í [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-business-central-online"></a>Er einhver munur á uppsetningu á staðnum og Business Central Online?
+
+Já. [!INCLUDE [prod_short](includes/prod_short.md)] er fínstillt fyrir netinnleiðingu og suma eiginleika er hugsanlega hægt aðeins að keyra á staðnum undir vissum kringumstæðum, á meðan aðrir eru ekki studdir. Frekari upplýsingar er að finna í [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum á Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (aðeins í boði á ensku).
 
 ## <a name="can-i-get-training-in-prod_short"></a>Get ég fengið þjálfun í [!INCLUDE[prod_short](includes/prod_short.md)]?
 Já, þú getur það! Hægt er að finna ókeypis netnámskeið á [Microsoft Learn vefsvæðinu](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Einnig er hægt að biðja endursöluaðilann um frekari þjálfun. Ef þú veist ekki hver það er skaltu skoða hlutann [Hvernig finn ég endursöluaðila?](#findpartner).  
@@ -60,12 +61,23 @@ Viðbótarefni er veitt af [!INCLUDE[prod_short](includes/prod_short.md)]-samfé
 
 Nánari upplýsingar er að finna í hlutanum [Hjálp og notendaþjónusta](product-help-and-support.md) og [Hvernig finn ég endursöluaðila?](#findpartner).  
 
-## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Af hverju lýsir Hjálp virkni sem ég hef ekki aðgang að?
-Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt á **Nauðsynleg**, þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).
-
 ## <a name="where-is-the-save-button"></a>Hvar er hnappurinn til að vista?
 
-Enginn *vista* hnappur á síðunum eins og í öðrum forritum sem þú hugsanlega kannast við. Í [!INCLUDE[prod_short](includes/prod_short.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar gerðar eru breytingar á reit og farið er í annan reit sést **Vistar** efst í hægra horni síðunnar, sem breytist fljótt í **Vistað** ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað**.
+Enginn *vista* hnappur á síðunum eins og í öðrum forritum sem þú hugsanlega kannast við. Í [!INCLUDE[prod_short](includes/prod_short.md)] eru breytingar sem þú gerir á reit vistaðar sjálfkrafa um leið og þú ferð í næsta reit eða lokar síðunni, svo lengi sem engar villur eru til staðar. Þegar gerðar eru breytingar á reit og farið er í annan reit sést **Vistar** efst í hægra horni síðunnar, sem breytist fljótt í **Vistað** ef engar villur koma upp. Ef villa kemur upp breytist textinn í **Ekki vistað**.  
+
+## <a name="where-do-i-find-that-line-number"></a>Hvar finn ég þetta línunúmer?
+
+Skjöl á borð við sölupöntun eða innkaupareikninga samanstanda af hausum og línum. Hver lína er með tölu sem [!INCLUDE [prod_short](includes/prod_short.md)] notar til að auðkenna þessa tilteknu línu. Þar af leiðandi gæti þú séð viðvörun eða villuboð um að eitthvað sé athugavert við línunúmer 1000 sem dæmi. Í sjálfgefinni útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] eru línunúmer falin. Ef ætlunin er að nota línunúmerin, þarf að sérstilla núverandi síðu og bæta við **Línunr.** . Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+
+
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Af hverju lýsir Hjálp virkni sem ég hef ekki aðgang að?
+Ef Upplifun stillingin þín í **Fyrirtækjaupplýsingar** síðunni er stillt á **Nauðsynleg**, þá er UI einingar fyrir eiginleika framleiðslu og þjónustukerfi ekki sýnileg þig vegna þess að þær krefjast **Premium** upplifunar. Textaskilaboð er settur inn í mikilvæg hjálparefni fyrir þessar eiginleikasvæði. Frekari upplýsingar er að finna í [Breyta því hvaða eiginleikar eru sýndir](ui-experiences.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Hvers vegna eru nýjar upplýsingar ekki í boði á mínu tungumáli?
+
+Á docs.microsoft.com svæðinu er efni um viðskiptaaðgerðir er gefið út á mörgum tungumálum. Efnið er heimilað á ensku og birt á vefslóðum með *en-us* sem tungumálakóðann. Þegar nýjar upplýsingar eru birtar á ensku eru þær sendar til þýðinga á studd tungumál. Þetta þýðir að þú getur ekki lesið þetta nýja efni á þínu eigin tungumáli í allt að 4 vikur.  
+
+Við skiljum vandamálin sem þetta getur valdið og við hvetjum notendur til að leita á ensku ef þeir geta ekki fundið það á sínu eigin tungumáli.  
 
 ## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Hvaða netfang get ég notað með [!INCLUDE[prod_short](includes/prod_short.md)] Online?
 
@@ -80,7 +92,7 @@ Fj. Ef notandi vill upplifa [!INCLUDE[prod_short](includes/prod_short.md)] sem a
 
 Ef reikningurinn sem þú skráir þig með er ekki Microsoft 365-vinnureikningur (t.d. joe@mysolution.com) og þú ert með Microsoft 365-áskrift, þá geturðu tengt lénið þitt (*mysolution.com*) við Microsoft 365-áskriftina. Frekari upplýsingar er að finna [Hvar er lén?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) í Microsoft 365-efninu.  
 
-Ef þú ert ekki með Microsoft 365 áskrift og þú vilt ekki kaupa hana, þá þegar þú skráir þig, úthlutum við nýju Azure Active Directory leigjanda fyrir þig þannig að þú hafir aðgang að Azure-gáttinni þar sem þú hefur aðgang að ítarlegum stjórnunarverkfærum.  
+Ef þú ert ekki með Microsoft 365 áskrift og þú vilt ekki kaupa hana, þá þegar þú skráir þig, úthlutum við nýju Azure Active Directory leigjanda fyrir þig þannig að þú hafir aðgang að ítarlegum stjórnunarverkfærum í Azure-gáttinni.  
 
 ## <a name="what-is-the-integration-with-microsoft-365-about"></a>Hvað er Samþættingin við Microsoft 365 um?
 [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er fullsamþætt við Microsoft 365 svo þú getur flett frjálslega á milli Microsoft 365 forrita og [!INCLUDE[prod_short](includes/prod_short.md)] með forritaræsingu. Í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að opna gögn í Excel, prenta skýrslur með Word, og notandi getur unnið með [!INCLUDE[prod_short](includes/prod_short.md)]-gögn í Outlook, til dæmis. Nánari upplýsingar, sjá [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem viðskiptainnboxið þitt í Outlook](admin-outlook.md).  
@@ -104,7 +116,7 @@ Frekari upplýsingar um hvernig má finna endursöluaðila eru í [Hvernig finn 
 Já, en gögnum getur verið eytt eða þau varðveitt, allt eftir því hvernig notandi skráði sig fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar, sjá [Hætta við [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Er hægt að nota fjölþætta sannvottun?
-Auðvitað. Ef þú gerir það gætirðu þurft lykilorð forrits til að geta sent tölvupóst. Lykilorð forrits gefa forriti eða tæki aðgang að netfanginu þínu. Skrefin til að fá aðgangsorð fyrir forrit eru breytileg eftir tölvupóstsveitunni þinni. Frekari upplýsingar er að finna í hjálp þjónustuaðila þíns. Ef þú t.d. notar Outlook, sjá [Fjölþætt sannvottun fyrir Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Auðvitað. Ef þú gerir það gætirðu þurft lykilorð forrits til að geta sent tölvupóst. Lykilorð forrits gefa forriti eða tæki aðgang að netfanginu þínu. Skrefin til að fá aðgangsorð fyrir forrit eru breytileg eftir tölvupóstsveitunni þinni. Frekari upplýsingar er að finna í hjálp þjónustuaðila þíns. Ef þú t.d. notar Outlook, sjá [Fjölþætt sannvottun fyrir Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Hvernig finn ég endursöluaðila?
 
@@ -116,23 +128,13 @@ Ef þú vilt fá leiðsögn frá Microsoft skaltu hafa samband við [Teymi Micro
 
 Endursöluaðilinn þinn mun einnig sjá um tæknilega aðstoð fyrir þig. Frekari upplýsingar er að finna á [Tilföng fyrir hjálp og stuðning](product-help-and-support.md).  
 
-## <a name="where-do-i-find-that-line-number"></a>Hvar finn ég þetta línunúmer?
-
-Skjöl á borð við sölupöntun eða innkaupareikninga samanstanda af hausum og línum. Hver lína er með tölu sem [!INCLUDE [prod_short](includes/prod_short.md)] notar til að auðkenna þessa tilteknu línu. Þar af leiðandi gæti þú séð viðvörun eða villuboð um að eitthvað sé athugavert við línunúmer 1000 sem dæmi. Í sjálfgefinni útgáfu af [!INCLUDE [prod_short](includes/prod_short.md)] eru línunúmer falin. Ef ætlunin er að nota línunúmerin, þarf að sérstilla núverandi síðu og bæta við **Línunr.** . Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
-
-## <a name="why-is-new-information-not-available-in-my-language"></a>Hvers vegna eru nýjar upplýsingar ekki í boði á mínu tungumáli?
-
-Á docs.microsoft.com svæðinu er efni um viðskiptaaðgerðir er gefið út á mörgum tungumálum. Efnið er heimilað á ensku og birt á vefslóðum með *en-us* sem tungumálakóðann. Þegar nýjar upplýsingar eru birtar á ensku eru þær sendar til þýðinga á studd tungumál. Þetta þýðir að þú getur ekki lesið þetta nýja efni á þínu eigin tungumáli í allt að 4 vikur.  
-
-Við skiljum vandamálin sem þetta getur valdið og við hvetjum notendur til að leita á ensku ef þeir geta ekki fundið það á sínu eigin tungumáli.  
-
 ## <a name="is-the-windows-client-supported"></a>Er Windows-biðlarinn studdur?
 
 Fyrstu útgáfur af [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum fylgir uppsettur biðlari frá Microsoft Dynamics NAV. Frá og með 2019 útgáfutímabili 2, er þessi eldri hluti, sem vísað er í sem „Windows-biðlarinn“ ekki lengur í boði fyrir [!INCLUDE[prod_short](includes/prod_short.md)]. Frekari upplýsingar eru í [Algengar spurningar um Windows-biðlarann og Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Algengar spurningar um Viðmótsleit](ui-search-faq.md)  
 [Algengar spurningar um leit og síun](ui-search-filter-faq.md)  
 [Algengar spurningar um listayfirlit](ui-views-faq.md)  

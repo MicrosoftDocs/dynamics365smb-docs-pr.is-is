@@ -1,30 +1,30 @@
 ---
-title: Nýjungar í Business Central | Microsoft Docs
-description: Hvernig á að fá nýjustu fréttir og uppfærslur fyrir Business Central.
+title: Nýtt og áætlað í sjálfgefinni útgáfu
+description: Kynntu þér hvar hægt er að finna nýjustu fréttir og uppfærslur fyrir sjálfgefnu útgáfuna af Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 51fc33167fdd4cc86859048041896fc27ebeff8d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 563c7bba28fec8d8bf7c212410227c1fb32c8b59
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388431"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788053"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Nýtt og áætlað fyrir Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
-Þú getur alltaf skoðað útgáfuáætlunina til að fá yfirlit yfir nýja væntanlega virkni. Hér í skjölunum geturðu síðan fundið efnisatriðin sem geta hjálpað þér að fræðast um nýja og núverandi eiginleika í [!INCLUDE[prod_long](includes/prod_long.md)]. 
+Þú getur alltaf skoðað útgáfuáætlunina til að fá yfirlit yfir nýja væntanlega virkni. Hér í skjölunum geturðu síðan fundið efnisatriðin sem geta hjálpað þér að fræðast um nýja og núverandi eiginleika í sjálfgefinni útgáfu af [!INCLUDE[prod_long](includes/prod_long.md)].  
 
 Eftirfarandi listi veitir upplýsingar um nýjustu útgáfuna af [!INCLUDE [prod_short](includes/prod_short.md)].  
 
+* [2021 útgáfutímabil 1](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
 * [2020 útgáfutímabil 2](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
 * [2020 útgáfutímabil 1](/dynamics365-release-plan/2020wave1/dynamics365-business-central/planned-features)  
-* [2019 útgáfutímabil 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/planned-features)  
 
 Einnig er hægt að skoða svæðið [Dynamics 365 Business Central Möguleikar](https://dynamics.microsoft.com/business-central/capabilities/) og [Dynamics 365 Business Central Vegvísir](https://dynamics.microsoft.com/roadmap/business-central/).  
 
@@ -40,6 +40,5 @@ Einnig er hægt að skoða svæðið [Dynamics 365 Business Central Möguleikar]
 [Dynamics 365 Business Central Samfélag](https://community.dynamics.com/business/)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

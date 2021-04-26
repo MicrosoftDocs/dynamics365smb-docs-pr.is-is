@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6c53fa5aeb615db809887ae96d51101789c312e3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ed744d6aba6394f567c9b297943c0061cb0c0751
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384150"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786908"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Unnið með [!INCLUDE [prod_short](includes/prod_short.md)] gögn í Power BI
 
-Í þessari grein lærir þú undirstöðuatriði varðandi vinnu við skýrslur og mælaborð í Power BI sem nota [!INCLUDE [prod_short](includes/prod_short.md)] sem gagnaveitu. Greinin fjallar um suma þætti sem munu hjálpa til við að hefjast handa sem [!INCLUDE[prod_short](includes/prod_short.md)] notandi. Almennar leiðbeiningar og leiðbeiningar um notkun á Power BI er að finna í [Power BI fylgigögnum fyrir neytendur](https://review.docs.microsoft.com/en-us/power-bi/consumer).
+Í þessari grein lærir þú undirstöðuatriði varðandi vinnu við skýrslur og mælaborð í Power BI sem nota [!INCLUDE [prod_short](includes/prod_short.md)] sem gagnaveitu. Greinin fjallar um suma þætti sem munu hjálpa til við að hefjast handa sem [!INCLUDE[prod_short](includes/prod_short.md)] notandi. Almennar leiðbeiningar og leiðbeiningar um notkun á Power BI er að finna í [Power BI fylgigögnum fyrir neytendur](/power-bi/consumer).
 
 ## <a name="get-ready"></a>Vertu með allt á tæru
 
@@ -89,7 +89,7 @@ Til að deila skýrslu, í listaskýrslum, eða í opinni skýrslu skal velja **
 [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI fylgiskjöl](/power-bi/)  
 [Viðskiptaupplýsingar](bi.md)  
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  

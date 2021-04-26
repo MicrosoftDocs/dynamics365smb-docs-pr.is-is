@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dcfc54d36b212b296747d28945324ac46c38cada
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fa7e5a51696c149e66da0d76cf1042c5e8f7e7e3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753618"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776397"
 ---
 Stundum styðja notendur við fleiri en eitt fyrirtæki og þurfa að skiptast á að vinna fyrir mismunandi fyrirtæki á auðveldan hátt [!INCLUDE [prod_short](prod_short.md)]. Til dæmis gæti fyrirtæki verið með söluskrifstofur í borgum og mörgum löndum og því er búið að stofna aðskildar fyrirtækjaeiningar fyrir hverja skrifstofu. Skrifstofurnar sem eru í sama landi eru settar upp sem aðskilin fyrirtæki í sameiginlegu umhverfi. Aðrar skrifstofur eru stofnaðar sem fyrirtæki í aðgreindu umhverfi þar sem þær eru landfræðilega staðsettar í öðrum löndum.<br><br>  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f51e65930303cf3600edf54c2056b2bd938e718
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381039"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786249"
 ---
 # <a name="set-up-company-consolidation"></a>Setja upp sameiningu fyrirtækis
 
@@ -30,6 +30,7 @@ ms.locfileid: "5381039"
 
 ## <a name="simple-consolidation-setup"></a>Einföld uppsetning sameiningar
 
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Ef samstæðan er einföld, til dæmis vegna þess að þú ert eigandi allra fyrirtækjaeininganna sem á að steypa saman, munu **Fyrirtækjasamstæða** leiðbeiningar um uppsetningu með aðstoð leiða þig í gegnum eftirfarandi skref:
 
 * Veldur hvort á að stofna nýtt samstæðufyrirtæki, eða steypa gögnunum saman í fyrirtæki sem þú hefur þegar stofnað fyrir samstæðuna. Fyrirtækið ætti ekki að innihalda færslur. 

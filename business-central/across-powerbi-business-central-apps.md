@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7defa26581c963241aef7aabd5f01e035ab3f564
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 855f071f624c2a99bd9b637111b67d3a59e61350
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379124"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781312"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Með [!INCLUDE [prod_short](includes/prod_short.md)]-forritunum í Power BI
 
@@ -164,7 +164,7 @@ Power BI-forritið sýnir aðeins gögn úr [!INCLUDE[prod_short](includes/prod_
 [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI fylgiskjöl](/power-bi/)  
 [Viðskiptaupplýsingar](bi.md)  
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  

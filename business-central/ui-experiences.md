@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e53ef4e33d489de7ff92e537b01b8563e62ba77
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6991b640319abf43718c1832b8bbea17bce0a0f1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379634"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784293"
 ---
 # <a name="change-which-features-are-displayed"></a>Breyta því hvaða eiginleikar eru sýndir
 [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að hjálpa stjórnendum að reka fyrirtæki, óháð stærð og margbreytileika þeirra. Varan inniheldur ómissandi eiginleika á borð við fjárhagsskýrslugerð, sölu, kaup og birgðastjórnun. Þegar umsvif fyrirtækis aukast er hægt að kveikja á annarri virkni, t.d. fyrir framleiðslu og þjónustustjórnun.
@@ -30,7 +30,7 @@ Eftirfarandi tafla lýsir þeim reynslu sem nú er að finna.
 | **Essential** |Sýnir allar aðgerðir og svið fyrir allar algengustu viðskiptavirknir.|
 | **Úrvals** |Sýnir allar aðgerðir og svið fyrir alla viðskiptavirkni, þ.á.m. framleiðslu- og þjónustukerfi.|
 
-Upplifanir sem hægt er að velja í [!INCLUDE[prod_short](includes/prod_short.md)] endurspegla leyfi og áskriftarleiðir sem eru skilgreindar fyrir vöruna. Upplýsingar um Essential og Premium áskriftarleiðir má finna í [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) á síðu Microsoft Dynamics 365 Marketing. Sjá einnig [[!INCLUDE[prod_short](includes/prod_short.md)] Leyfisleiðbeiningar](https://go.microsoft.com/fwlink/?linkid=2068931) (krefst aðgangs að CustomerSource eða PartnerSource).
+Upplifanir sem hægt er að velja í [!INCLUDE[prod_short](includes/prod_short.md)] endurspegla leyfi og áskriftarleiðir sem eru skilgreindar fyrir vöruna. Upplýsingar um Essential og Premium áskriftarleiðir má finna í [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) á síðu Microsoft Dynamics 365 Marketing. Sjá einnig [[!INCLUDE[prod_short](includes/prod_short.md)] Leyfisleiðbeiningar](https://go.microsoft.com/fwlink/?linkid=2068931).
 
 > [!IMPORTANT]  
 > Allir reglulegir notendur í lausn verða að sömu áætluninni úthlutað, grunn- eða úrvalsáskrift, áður en hægt er að velja þá upplifun fyrir fyrirtækið. Samkvæmt því getur einn notandi ekki fengið aðgang að eiginleikum úrvalsáskriftar ef einn eða fleiri aðrir notendur geta aðeins fengið aðgang að eiginleikum grunnáskriftar. Þetta á ekki við fyrir óreglulega notendur af gerðinni Team Member, innri stjórnandi, ytri endurskoðandi og úthlutaður stjórnandi, sem hver getur fengið annarri áætlun úthlutað en hinir notendurnir í lausninni.<br /><br /> Aðeins notendur af gerðinni Evaluation eða Premium geta breytt gildinu í reitnum **Upplifun** úr Essential í Premium.

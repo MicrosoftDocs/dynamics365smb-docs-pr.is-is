@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 60c264bec6719acac574f60980a7a3fdb903b775
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3b73c2cde88292a38c43e9fcc3bd63b031cd6591
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377474"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787828"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu
 Þessi aðgerð er framkvæmd á síðunni **Framleiðslubók**. Bókin sameinar aðgerðir notkunarbókar og afkastabókar í eina bók sem hægt er komast í beint úr framleiðslupöntun. Hún er notuð í handvirka bókun íhlutanotkunar, lokamagns framleiddra vara og tíma sem fer í aðgerðir. Megintilgangur hennar er að bóka handvirkt notkun íhluta, magn framleiddra endanlegra vara og stundir sem búið er að eyða í aðgerðir. Gildin eru bókuð í fjárhagsfærslur undir útgefnu framleiðslupöntuninni. Notkunarmagn bókað sem neikvæðar Færslur í birgðafærslum, Frálagsmagn er bókað sem jákvæðar birgðafærslur og tími sem varið er er bókaður sem afkastagetufærslur. Þessi bókuðu gildi er einnig hægt að skoða neðst í bókinni sem raunverulegt magn.  
@@ -37,15 +37,15 @@ ms.locfileid: "5377474"
     > [!NOTE]  
     >  Bókunardagsetningar í einstökum línum hafa forgang yfir þessum reit.  
 
-4.  Í afmörkunarreitnum **Birgðaskráningaraðferð** efst í bókinni er hægt að velja að skoða notkun og afköst sem eru bókuð sjálfvirkt (skráð) samkvæmt birgðaskráningaraðferðum sem tilgreindar eru fyrir vöruna og forðann.  
+4.  Í afmörkunarreitnum **Birgðaskráningaraðferð** efst í bókinni er hægt að velja að skoða notkun og afköst sem eru bókuð sjálfvirkt (skráð) samkvæmt birgðaskráningaraðferðum sem tilgreindar eru fyrir vöruna og forðann. Nánari upplýsingar eru í [Leyfa flæði íhluta samkvæmt frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md).   
 
+5.  Því næst eru viðeigandi notkun og frálagsmagn færð inn í skrifanlega reiti.  
+  
     Í öllum tegundum lína í færslubókinni, eru einungis viðkomandi reitir sýndir. Aðrir eru auðir og ritvarðir.  
 
     Þegar bókin er opnuð er magn sem á að bóka forskráð. Ef ekkert hefur verið bókað fyrir eru allir magnreitir sjálfgefið útfylltir með áætluðu magni sem tekið er úr framleiðslupöntuninni. Ef bókað hefur verið að hluta sýna magnreitirnir það magn sem eftir er. Það magn og sá tími sem þegar er búið að bóka er birt neðst í bókinni sem raunverulegar færslur.  
 
     Þegar kemur að magni í reitnum **Afkastað magn** er hægt að velja hvaða gildi eru forstillt þegar bókin er fyrst opnuð. Þetta er gert á síðunni **Uppsetning framleiðslu** í flipanum **Almennt**, nánar tiltekið reitnum **Forstillt frálagsmagn**.
-
-5.  Því næst eru viðeigandi notkun og frálagsmagn færð inn í skrifanlega reiti.  
 
     > [!NOTE]  
     >  Aðeins frálagsmagn í síðustu bókarlínunni með færslutegundina **Frálag** leiðréttir birgðastigið þegar bókin er bókuð. Því ætti ekki að bóka bókina með áætlað afkastamagn forstillt á síðustu afkastalínunni fyrr en allar lokavörur hafa verið framleiddar.  

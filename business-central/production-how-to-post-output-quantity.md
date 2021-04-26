@@ -1,6 +1,6 @@
 ---
-title: Hvernig á að fjöldabóka framleiðslufrálag og keyrslutíma | Microsoft Docs
-description: Afkastsmagnið sýnir vinnuframvinduna í formi afgreidds magns.
+title: Fjöldabóka framleiðslufrálag og keyrslutíma
+description: Frálagsmagnið sýnir framvindu vinnunnar sem lokið magn og notuð afköst vinnu eða vélastöðvar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,44 +8,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 83354217bac3b27457303083163cf5eae4494e79
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 923f68b13619013dd54062438c66192a682868bc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380457"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787878"
 ---
 # <a name="batch-post-output-and-run-times"></a>Fjöldabóka frálag og keyrslutíma
-Afkastsmagnið sýnir vinnuframvinduna í formi afgreidds magns.  
+Frálagsmagnið sýnir framvindu vinnunnar sem lokið magn og notuð afköst vinnu eða vélastöðvar.
+
+Hægt er að nota frálagsbókina til að:
+*  Leiðréttir birgðir í tengslum við frálag tilbúinnar vörur frá framleiðslu.
+*  Skrá magn og rýrnun hverrar aðgerðar í framleiðsluleið.
+*  Skrá uppsetningu og keyrslutíma fyrir vinnu og vélastöðvar.
 
 > [!NOTE]
-> Aðeins þegar afkastsmagn er bókað í síðustu aðgerðinni eru birgðir sjálfkrafa uppfærðar.  
+> Ef framleiðsluleiðir eru notaðar eru birgðir aðeins uppfærðar þegar frálagsmagn er bókað í síðustu aðgerðinni.
 
-## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Bóka frálagsmagn fyrir eina eða fleiri framleiðslupantanalínur
+Með glugganum **Framleiðslubók** er hægt að vinna sömu verk og í glugganum **Frálagsbók** og um leið framkvæma tengdar notkunarbókanir. Frekari upplýsingar eru í [Skrá notkun og frálag fyrir eina útgefna framleiðslupöntunarlínu](production-how-to-register-consumption-and-output.md).
+
+## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Að bóka frálagsmagn og/eða skrá keyrslutíma fyrir eina eða fleiri framleiðslupantanalínur
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Frálagsbók** og veldu síðan tengda tengilinn.  
-2. Reitirnir eru fylltir út með framleiðslupöntunargögnunum og frálagsgögnunum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Ef aðgerðinni er lokið skal velja reitinn **Lokið**.  
-
-    Ef vöruhúsið þar sem ganga á frá vörunum notar hólf en krefst ekki frágangsvinnslu skal  tengja kóta hólfs við bókarlínuna til að tilgreina hvar skuli setja vörurnar í vöruhúsinu. Frekari upplýsingar eru í [Ganga frá framleiðslu eða samsetningarúttaki](warehouse-how-to-put-away-production-output.md).  
-
-4. Veljið **Bókun** til að bóka aðgerðirnar. Afkastsmagnið verður bókað. Varan er nú tilbúin til afhendingar.  
-
-## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Bóka keyrslutími fyrir eina eða fleiri framleiðslupantanalínur
-Keyrslutíminn sýnir vinnuframvinduna í formi nauðsynlegs vinnutíma.    
-
-1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Frálagsbók** og veldu síðan tengda tengilinn.  
-2. Reitirnir eru fylltir út með framleiðslupöntunargögnunum og frálagsgögnunum.  
-3.  Ef aðgerðinni er lokið skal velja reitinn **Lokið**.  
-4. Velja **bóka** aðgerðina til að bóka tíma eytt á aðgerð. Afkastagetufærslur eru uppfærðar fyrir notaðar vinnu- eða vélastöðvar.
+2. Reitirnir eru fylltir út með framleiðslupöntunargögnunum og frálagsgögnunum og/eða keyrslutímanum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+  
+    Hægt er að nota aðgerðina **Opna leið** til að mynda færslubókarlínur úr framleiðslupöntunum.
+  
+4. Ef aðgerðinni er lokið skal velja reitinn **Lokið**.  
+5. Veldu aðgerðina **Bóka** til að bóka aðgerðina. 
+ 
+Fjárhagsfærslur afkasta eru uppfærðar fyrir notaða vinnu eða vélastöðvar með upplýsingum um tíma og magn frálags og rýrnunar. Ef síðasta aðgerðin var bókuð verður vörunni bætt við birgðir. 
 
 ## <a name="see-also"></a>Sjá einnig  
+[Bóka rýrnun handvirk](production-how-to-post-scrap.md)
+[Bakfæra frálagsbókun](production-how-to-reverse-output-posting.md)
 [Framleiðsla](production-manage-manufacturing.md)    
 [Uppsetning framleiðslu](production-configure-production-processes.md)  
 [Áætlun](production-planning.md)      
 [Birgðir](inventory-manage-inventory.md)  
-[Innkaup](purchasing-manage-purchasing.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

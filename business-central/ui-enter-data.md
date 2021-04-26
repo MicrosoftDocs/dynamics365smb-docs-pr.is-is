@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393300"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784816"
 ---
 # <a name="entering-data"></a>Gagnainnfærsla
 
@@ -242,34 +242,9 @@ Hægt er að færa inn einn af þessum kóðum í stað sérstakrar dagsetningar
 
  Rita þarf tvær tölur fyrir hverja tímaeiningu ef skiltákn er ekki notað.  
 
-## <a name="entering-datetimes"></a>Dagsetning og tímasetning færð inn
+## <a name="entering-combined-datetimes"></a>Sláðu inn sameinaða dagsetningar og tíma
 
-Þegar dagsetning og tími eru færð inn verður að vera bil milli dags og tímasetningar.  
-
-Í eftirfarandi töflu birtast mismunandi leiðir til að færa inn dagsetningar og tímasetningar og hvernig þær eru túlkaðar:  
-
-|Færsla|Túlkun|  
-|---------------|------------------------|  
-|`131202` 132455|13-12-02 13:24:55|  
-|1-12-02 10|01/12/02 10:00:00|  
-|1.12.02 5|01/12/02 05:00:00|  
-|1.12.02|01/12/02 00:00:00|  
-|11 12|11/gildandi mánuður/gildandi ár 12:00:00|  
-|1112 12|11/12/gildandi ár 12:00:00|  
-|d eða dagurinn í dag|dagurinn í dag 00:00:00|  
-|t tími|gildandi tími dagsins í dag|  
-|d 10:30|dagurinn í dag 10:30:00|  
-|d 03:03:03|dagurinn í dag 03:03:03|  
-|v eða vinnudagsetningin|vinnudagsetningin 00:00:00|  
-|m eða mánudagur|Mánudagur yfirstandandi viku 00:00:00|  
-|þr eða þriðjudagur|Þriðjudagur yfirstandandi viku 00:00:00|  
-|mi eða miðvikudagur|Miðvikudagur yfirstandandi viku 00:00:00|  
-|fi eða fimmtudagur|Fimmtudagur yfirstandandi viku 00:00:00|  
-|f eða föstudagur|Föstudagur yfirstandandi viku 00:00:00|  
-|l eða laugardagur|Laugardagur yfirstandandi viku 00:00:00|  
-|s eða sunnudagur|Sunnudagur yfirstandandi viku 00:00:00|  
-|þr 10:30:00|Þriðjudagur yfirstandandi viku 10:30:00|  
-|þr 03:03:03|Þriðjudagur yfirstandandi viku 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Færið inn tímalengd
 

@@ -1,6 +1,6 @@
 ---
 title: Unnið með Power BI Skýrslur í Business Central| Microsoft Docs
-description: Það er auðvelt að fá innsýn, viðskiptaupplýsingar og afkastavísi (KPI) í Business Central gögnum með Business Central forritunum fyrir Power BI.
+description: Fáðu innsýn, viðskiptaupplýsingar og afkastavísi (KPI) úr Business Central gögnum með Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 8cf8946d8b9792c7fb557969257380d0b48d0d83
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 99b2b25409993dabd4f4cd4ef758ea242165b2a3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5492944"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773387"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Unnið með Power BI Skýrslur í [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -29,45 +29,58 @@ Power BI skýrslur veita innsýn inn í [!INCLUDE[prod_short](includes/prod_shor
 
 ![Power BI hluti í Business Central](./media/power-bi-part.png)
 
-## <a name="prerequisites"></a>Frumskilyrði
+## <a name="get-started"></a>Hefjast handa
+
+### <a name="prerequisites"></a>Frumskilyrði
 
 Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum verður að gera það virkt fyrir samþættingu Power BI. Þetta verk er vanalega framkvæmt af stjórnanda. Frekari upplýsingar eru í [Setja upp [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum fyrir Power BI samþættingu](admin-powerbi-setup.md#setup).
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] á netinu hefur þegar verið sett upp til að samþætta við Power BI.
 
-## <a name="get-ready"></a>Vertu með allt á tæru
+### <a name="sign-up-power-bi"></a>Skráning Power BI
 
-Skráðu þig fyrir nýju Power BI þjónustuna. Ef þú hefur ekki þegar skráð þig skaltu fara á [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Þegar þú skráir þig skaltu nota vinnunetfang og aðgangsorð.
+Áður en hægt er að nota Power BI með [!INCLUDE[prod_short](includes/prod_short.md)] þarf að skrá sig fyrir Power BI-þjónustunni. Ef þú hefur ekki þegar skráð þig skaltu fara á [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Þegar þú skráir þig skaltu nota vinnunetfang og aðgangsorð.
 
 ## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Tengjast við Power BI - aðeins einu sinni
 
-Þegar þú skráir þig fyrst inn á [!INCLUDE [prod_short](includes/prod_short.md)] gæti birst tómur Power BI hluti á einhverri síðu, eins og sést á fyrri myndinni. Það fyrsta sem þú skalt gera er að tengjast Power BI -reikningnum þínum. Eftir tengingu er hægt að skoða skýrslur. Þú þarft aðeins að gera þetta einu sinni.
+Þegar þú skráir þig inn í [!INCLUDE [prod_short](includes/prod_short.md)] í fyrsta skipti sérðu líklega auðan Power BI hluta (eins og sýnt er á fyrri mynd) á ýmsum síðum. Það fyrsta sem þú skalt gera er að tengjast Power BI -reikningnum þínum. Eftir tengingu er hægt að skoða skýrslur. Þú þarft aðeins að gera þetta einu sinni.
 
-Til að tengjast við Power BI skaltu velja **Hefjast handa með Power BI** tengilinn á hlutanum **Power BI Skýrslur**. 
+1. Veljið tengilinn **Hefjast handa með Power BI** í hlutanum **Power BI Skýrslur**.
+2. Uppsetningarleiðbeiningin **Setja upp Power BI skýrslur í Business Central** hefst. Veldu **Næst** til að halda áfram.
+3. Á síðunni **Athugaðu Power BI-leyfið þitt**. Framkvæmdu eitt af eftirfarandi skrefum:
 
-Við genginguna hefur [!INCLUDE [prod_short](includes/prod_short.md)] samskipti við Power BI-þjónustuna til að komast að því hvort þú sért með gildan Power BI-reikning og leyfi. Þegar leyfið þitt hefur verið staðfest birtast sjálfgefna Power BI-skýrslan á heimasíðunni þinni. Ef engin skýrsla birtist er hægt að velja skýrslu úr hlutanum.
+    - Ef þú hefur ekki enn skráð þig fyrir Power BI skaltu velja [Fara á Power BI heimasíðu](https://powerbi.microsoft.com). Skráðu þig fyrir reikningi, farðu síðan aftur á [!INCLUDE[prod_short](includes/prod_short.md)] og kláraðu uppsetninguna.
+
+    - Ef þú ert þegar með leyfi skaltu velja **Næst**.
+4. Á næstu síðu mun [!INCLUDE[prod_short](includes/prod_short.md)] nú hlaða upp sýniútgáfu af skýrslu í Power BI. Þetta tekur nokkrar mínútur, svo það er gert í bakgrunni. Til að ljúka uppsetningunni skal velja **Næst** og síðan **Ljúka**.
+
+Tengingarferlið hefst. Við ferlið hefur [!INCLUDE [prod_short](includes/prod_short.md)] samskipti við Power BI-þjónustuna til að komast að því hvort þú sért með gildan Power BI-reikning og leyfi. Þegar leyfið þitt hefur verið staðfest birtast sjálfgefna Power BI-skýrslan á heimasíðunni þinni. Ef engin skýrsla birtist er hægt að velja skýrslu úr hlutanum.
 
 > [!TIP]
 > Með [!INCLUDE [prod_short](includes/prod_short.md)] á netinu mun þetta skref hlaða sjálfkrafa upp sjálfgefnum Power BI skýrslum sem notaðar eru í [!INCLUDE [prod_short](includes/prod_short.md)] á Power BI vinnusvæði þitt.
 
-##### <a name="from-prod_short-on-premises"></a>Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum
+#### <a name="from-prod_short-on-premises"></a>Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum
 
 Tenging við Power BI frá [!INCLUDE [prod_short](includes/prod_short.md)] er svipað og á netinu. Hins vegar kann að vera beðið um heimildir á **ÞJÓNUSTUHEIMILDIR AZURE ACTIVE DIRECTORY** síðunni til að veita aðgang að Power BI þjónustum. Til að veita aðgang skal velja **Heimila Azure Services** og síðan **samþykkja**.
 
 Eftir tengingu er hægt að velja skýrslu úr Power BI-hlutanum á síðum.
 
-## <a name="show-power-bi-reports-on-list-pages"></a>Sýna Power BI skýrslur á listasíðum
+## <a name="working-with-power-bi-reports"></a>Unnið með Power BI skýrslur
 
-[!INCLUDE[prod_long](includes/prod_long.md)] inniheldur Power BI upplýsingareit á nokkrum lyklalistasíðum. Þessi upplýsingareitinn veitir frekari innsýn í gögnin á listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Ef þú sérð ekki þennan hluta skaltu fara í aðgerðarstikuna og velja **Aðgerðir** > **Birta** > **Sýna/fela Power BI Skýrslur**. Frekari upplýsingar er að finna í [´Búa Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+### <a name="show-reports-on-list-pages"></a>Sýna skýrslur á listasíðum
 
-## <a name="select-power-bi-reports"></a>Velja Power BI skýrslur
+[!INCLUDE[prod_long](includes/prod_long.md)] inniheldur Power BI upplýsingareit á nokkrum lyklalistasíðum. Þessi upplýsingareitinn veitir frekari innsýn í gögnin á listanum. Þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu. Ef þú sérð ekki þennan hluta skaltu fara í aðgerðarstikuna og velja **Aðgerðir** > **Birta** > **Sýna/fela Power BI Skýrslur**.
+
+Frekari upplýsingar um hvernig á að búa til skýrslur fyrir listasíður er að finna í [Stofna Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+
+### <a name="switch-reports"></a>Skipta í aðra skýrslu
 
 Power BI hluti á síðu getur birt allar Power BI skýrslur sem þú hefur aðgang að. Til að skipta yfir í aðra skýrslu skal velja **Velja skýrslu** aðgerðina úr fellilista sem er efst í hlutanum.  
 
 **Power BI Síða skýrsluvals** sýnir lista yfir allar Power BI-skýrslur sem þú hefur aðgang að. Þessi listi er sóttur úr Power BI-vinnusvæðinu þínu. Veldu **Virkja** fyrir allar þær skýrslur sem þú vilt birta á heimasíðunni og veldu síðan **Í lagi**. Þú munt fara aftur á síðuna og síðasta skýrsla sem þú virkjaðir birtist. Í fellilistanum með skipunum skaltu nota skipanirnar **Fyrri** og **Næsta** til að fletta á milli skýrsla.  
 
-## <a name="get-reports"></a>Fá skýrslur
+### <a name="get-more-reports"></a>Fá fleiri skýrslur
 
 Ef þú sérð engar skýrslur á síðunni **Power BI Skýrsluval** eða sérð ekki skýrsluna sem þú vilt skaltu velja **Fá skýrslur**. Þessi aðgerð gerir þér kleift að leita að skýrslum frá tveimur staðsetningum: *Fyrirtækið mitt* eða *Þjónusta*.
 
@@ -77,7 +90,7 @@ Ef þú sérð engar skýrslur á síðunni **Power BI Skýrsluval** eða sérð
 > [!TIP]
 > Ef þú ert með Power BI Desktop geturðu einnig búið til nýjar Power BI skýrslur. Þegar þessar skýrslur eru gefna út á Power BI-vinnusvæðið þitt, birtast þær á síðunni **Power BI Skýrsluval**.  
 
-## <a name="manage-and-modify-reports"></a>Stjórna og breyta skýrslum
+### <a name="manage-and-modify-reports"></a>Stjórna og breyta skýrslum
 
 Hægt er að gera breytingar á skýrslu í Power BI hlutanum. Breytingarnar sem þú gerir verða síðan birtar í Power BI-þjónustunni. Ef verið er að deila skýrslum með öðrum notendum sjá þeir einnig breytingarnar, nema breytingar séu vistaðar í nýja skýrslu.
 
@@ -88,7 +101,7 @@ Til að breyta skýrslu skal velja aðgerðina **Stjórna skýrslu** úr fellili
 > [!NOTE]
 > Þessi eiginleiki er ekki í boði með [!INCLUDE [prod_short](includes/prod_short.md)] á staðnum.
 
-## <a name="upload-reports"></a><a name="upload"></a>Hlaða upp skýrslum
+### <a name="upload-reports"></a><a name="upload"></a>Hlaða upp skýrslum
 
 Hægt er að dreifa Power BI skýrslum á meðal notenda sem. pbix-skrám. Ef þú ert með .pbix-skrár er hægt að hlaða þeim upp og deila þeim með öllum notendum [!INCLUDE [prod_short](includes/prod_short.md)]. Skýrslunum er deilt innan hvers fyrirtækis í [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -105,12 +118,15 @@ Hins vegar, ef eitthvað fer úrskeiðis, þessi kafli gefur lausn fyrir dæmige
 
 ### <a name="you-dont-have-a-power-bi-account"></a>Þú ert ekki með Power BI reikning
 
-Power BI-Reikningur hefur ekki verið settur upp. Til að fá gildan Power BI reikning verður þú að vera með leyfi og þú þarf að hafa skráð þig inn í Power BI til að stofna Power BI vinnusvæði.   
+Power BI-Reikningur hefur ekki verið settur upp. Til að fá gildan Power BI reikning verður þú að vera með leyfi og þú þarf að hafa skráð þig inn í Power BI til að stofna Power BI vinnusvæði.
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Skilaboð: Engar skýrslur eru virkar. Veljið Velja skýrslu til að sjá hvaða skýrslur er hægt að birta.
 
 Þessi skilaboð birtast ef ekki tókst að virkja sjálfgefna skýrslu á Power BI vinnusvæði. Eða það var virkjað en uppfærðist ekki. Farðu í skýrsluna á Power BI vinnusvæðinu, velja **Gagnasafn**, **Stillingar** og uppfæra svo skilríkin handvirkt. Þegar gagnasafnið hefur verið endurnýjað er farið aftur í [!INCLUDE[prod_short](includes/prod_short.md)] og valið skýrslu handvirkt af **Velja skýrslur** síðunni.
 
+#### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>Ekki er hægt að sjá skýrslur á síðu skýrsluvals á listasíðunni
+
+Það er líklega vegna þess að heiti skýrslunnar inniheldur ekki heiti listasíðunnar. Hreinsaðu síuna til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -125,7 +141,7 @@ Power BI-Reikningur hefur ekki verið settur upp. Til að fá gildan Power BI re
 [Stutt leiðbeining: Tengjast við gögn í Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI fylgiskjöl](/power-bi/)  
 [Viðskiptaupplýsingar](bi.md)  
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Innflutningur viðskiptagagna úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Uppsetning [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem Power BI gagnaveitu](across-how-use-financials-data-source-powerbi.md)  

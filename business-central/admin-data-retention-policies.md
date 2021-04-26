@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 52f99b262dbfa5568650b72356ec43442fc75284
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378524"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780058"
 ---
 # <a name="define-retention-policies"></a>Skilgreina varðveislureglur
 Stjórnendur geta skilgreint varðveislureglur til að tilgreina hversu oft þeir vilja að [!INCLUDE[prod_short](includes/prod_short.md)] eyði úreltum gögnum í töflum sem innihalda kladdafærslur og safnvistaðar færslur. Til dæmis getur hreinsun á kladdafærslum gert auðveldara um vik að vinna með gögnin sem eiga við. Reglur geta innihaldið öll gögn í töflunum sem eru komin fram yfir lokadagsetninguna eða hægt er að bæta við síuskilyrðum sem innihalda aðeins tiltekin útrunnin gögn í reglunni. 

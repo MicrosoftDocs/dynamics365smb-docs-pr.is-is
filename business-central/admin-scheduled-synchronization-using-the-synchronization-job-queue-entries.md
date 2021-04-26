@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2d1d04b5273329186c362866493303f5f4ad7450
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4948dac105a62501ee3006cce0683be819db7ce8
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385325"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889206"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Áætla samstillingu milli Business Central og Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -72,7 +72,7 @@ Til að samstilla gögn verða [!INCLUDE[cds_long_md](includes/cds_long_md.md)] 
 
 Þegar gildið í þessum reit er ekki núll og verkröðin fann engar breytingar í síðustu keyrslu, setur [!INCLUDE[prod_short](includes/prod_short.md)] verkraðarfærsluna í bið. Þegar það gerist mun reiturinn **Staða verkraðarfærslu** sýna **Í bið vegna aðgerðaleysis** og [!INCLUDE[prod_short](includes/prod_short.md)] mun bíða í þann tíma sem hefur verið skilgreindur í **Tímabil lokunar** reitnum áður en hann keyrir verkraðarfærslu aftur.  
 
-Til dæmis er sjálfgefið að GJALDMIÐILL verkraðarfærsla, sem samstillir gjaldmiðla í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] með gengi í [!INCLUDE[prod_short](includes/prod_short.md)], leita að breytingum á gengi á 30 mínútna fresti. Ef engar breytingar finnast setur [!INCLUDE[prod_short](includes/prod_short.md)] GJALDMIÐILL verkraðarfærslu í bið í 720 mínútur (sex klukkustundir). Ef gengi er breytt í [!INCLUDE[prod_short](includes/prod_short.md)] á meðan verkraðarfærslan er í bið mun [!INCLUDE[prod_short](includes/prod_short.md)] sjálfkrafa endurvirkja verkraðarfærslu og endurræsa verkröðina. 
+Til dæmis er sjálfgefið að GJALDMIÐILL verkraðarfærsla, sem samstillir gjaldmiðla í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] með gengi í [!INCLUDE[prod_short](includes/prod_short.md)], leita að breytingum á gengi á 30 mínútna fresti. Ef engar breytingar finnast setur [!INCLUDE[prod_short](includes/prod_short.md)] GJALDMIÐILL verkraðarfærslu í bið í 720 mínútur (tólf klukkustundir). Ef gengi er breytt í [!INCLUDE[prod_short](includes/prod_short.md)] á meðan verkraðarfærslan er í bið mun [!INCLUDE[prod_short](includes/prod_short.md)] sjálfkrafa endurvirkja verkraðarfærslu og endurræsa verkröðina. 
 
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] mun sjálfkrafa virkja verkraðarfærslur sem eru í bið þegar breytingar verða í [!INCLUDE[prod_short](includes/prod_short.md)]. Breytingar í [!INCLUDE[cds_long_md](includes/cds_long_md.md)] munu ekki virkja verkraðarfærslur.

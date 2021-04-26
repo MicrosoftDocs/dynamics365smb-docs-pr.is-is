@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d24f9857e7d2f77e137eb46bc0205864f6e2b404
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 78dfa3731e9c13a0b4e23b2f791c1fcb2e454ccb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381799"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782205"
 ---
 # <a name="special-data-output-and-reports-for-the-icelandic-tax-authority"></a>Sérstök gögn og skýrslur fyrir íslensk skattyfirvöld
 

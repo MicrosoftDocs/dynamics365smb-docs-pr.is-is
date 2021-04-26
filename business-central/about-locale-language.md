@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7dad6212361eaebc4e08cc2c638a84c41850e9d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385075"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776448"
 ---
 # <a name="changing-language-and-region"></a>Breyta tungumáli og svæði
 
@@ -36,10 +36,10 @@ Breytingar á textum sem geymdir eru sem forritsgögn falla ekki undir fjöltyng
 ## <a name="changing-the-region"></a>Breyta svæði
 Svæði er frábrugðinn bæði tungumáli og lagalegum skilyrðum á staðbundnum mörkuðum. Svæði segir til um hvernig gögn þín birtast hvað varðar skiltákn kommu, samstillingu til vinstri eða hægri, og nokkra aðra tiltekna hluti. Svæði kveður einnig á um kerfiseiningar í vafranum, eins og til dæmis aðgerðina að búa til nýtt atriði á lista.  
 
-Þú getur breytt svæðinu í vafraglugganum sem þú ert að vinna með í [!INCLUDE[prod_short](includes/prod_short.md)]. stillingin á við þig en ekki aðra notendur í fyrirtækinu.  Athugið að val á svæði verður endurstillt á stillinguna í Microsoft 365 sniðinu ef stjórnandi þinni stillir notendur úr Microsoft 365 í [!INCLUDE[prod_short](includes/prod_short.md)].
+Þú getur breytt svæðinu í vafraglugganum sem þú ert að vinna með í [!INCLUDE[prod_short](includes/prod_short.md)]. Berytingin á við þig en ekki aðra notendur í fyrirtækinu.  Val á svæði verður endurstillt á stillinguna í Microsoft 365 sniðinu ef stjórnandi þinni stillir notendur úr Microsoft 365 í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]  
->  Þegar þú breytir svæði birtist langur listi yfir tungumál og svæði. Val á svæði hefur hins vegar ekki áhrif á tungumál.  
+> Þegar þú breytir svæði birtist langur listi yfir tungumál og svæði. Val á svæði hefur hins vegar ekki áhrif á tungumál.  
 
 Til að breyta svæðinu skal fara á síðuna **Mínar stillingar**. Frekari upplýsingar eru í [Breyta grundvallarstillingum](ui-change-basic-settings.md).  
 
@@ -48,19 +48,21 @@ Til að breyta svæðinu skal fara á síðuna **Mínar stillingar**. Frekari up
 Á síðunni **Hjálp og notendaþjónusta** er að finna þá útgáfu [!INCLUDE[prod_short](includes/prod_short.md)] sem fyrirtækið byggir á. Ef þú vilt byggja fyrirtæki á annarri útgáfu getur stjórnandinn þinn stofnað nýtt framleiðsluumhverfi. Frekari upplýsingar eru í [Stofna nýtt framleiðsluumhverfi](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) í Developer og IT Pro Help.  
 
 ## <a name="languages-of-the-prod_short-help"></a>Tungumál [!INCLUDE[prod_short](includes/prod_short.md)] hjálparinnar
+
 Hjálparefni fyrir grunnvirkni í [!INCLUDE[prod_short](includes/prod_short.md)] er birt á Microsoft Docs vefsíðunni og er tiltækt á mörgum ólíkum tungumálum. Ef þú nálgast skjölin innanfrá [!INCLUDE[prod_short](includes/prod_short.md)], mun efnið birtast á þínu tungumáli. Ef tiltekin síða er ekki tiltæk á þínu tungumáli, verður hún birt á ensku.
 
-### <a name="how-do-i-change-the-language"></a>Hvernig breyti ég tungumálinu?
+### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Hvernig breyti ég tungumálinu Microsoft Docs svæðis?
+
 Það er einfalt - skrunaðu neðst á síðu vafrans og veldu hnattmerkið neðst í vinstra horninu.
 
 > [!NOTE]  
-> Á listanum má sjá öll tungumál sem eru studd af Microsoft Docs vefsvæðinu. [!INCLUDE[prod_short](includes/prod_short.md)] er tiltækt í takmörkuðum fjölda landa/svæða, en Hjálparefnið er gert tiltækt á fleiri tungumálum. Hjálparefnið er aftur á móti ekki tiltækt á öllum tungumálum sem Microsoft Docs vefsvæðið styður.
+> Á listanum má sjá öll tungumál sem eru studd af Microsoft Docs vefsvæðinu. [!INCLUDE[prod_short](includes/prod_short.md)] er í boði í tilteknum löndum/svæðum og [!INCLUDE [prod_short](includes/prod_short.md)] Hjálparefnið er ekki tiltækt á öllum tungumálum sem Microsoft Docs vefsvæðið styður.
 
 ## <a name="see-also"></a>Sjá einnig
 
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

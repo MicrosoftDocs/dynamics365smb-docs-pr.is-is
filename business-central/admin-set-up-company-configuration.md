@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 402595c34d69db0a14fce6eac8f3bb9e0896d06b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3eefa0fcb40b4e925ca653f223f2d97ed10f370e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385275"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777242"
 ---
 # <a name="set-up-company-configuration"></a>Uppsetning grunnstillingu fyrirtækis
 Innleiðingarferlið hefst með samstarfsaðili Microsoft. Samstarfsaðilinn er ábyrgur fyrir því að fara gegnum upplýsingar um skilgreiningar og stofna pakka sem viðskiptavinur getur auðveldlega notað. Áður en nýtt fyrirtæki er stofnað, er ráðlagt að áætla hvernig það muni vera grunnstillt. Hafa þarf í huga grunnuppsetningargögn og tegundir gagna sem [!INCLUDE[prod_short](includes/prod_short.md)] lausnin krefst. Allar þessar upplýsingar eru sameinaðar í grunnstillingarpakka.

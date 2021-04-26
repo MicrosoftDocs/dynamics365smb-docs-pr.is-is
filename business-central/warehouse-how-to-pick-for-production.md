@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að tína fyrir framleiðslu með einföldum vöruhúsaaðgerðum | Microsoft Docs
+title: Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss
 description: Þegar vöruhúsið krefst tínsluvinnslu en ekki afhendingarvinnslu er síðan **Birgðatínsla** notuð til að skipuleggja og skrá tínslu íhluta.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,46 +8,58 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c49a434958222bd29730de8f3736f2a182df3c5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 005532799378248f67ff21b8e50955342ff1c24a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387050"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782610"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss
 Hátturinn við frágang tínsluíhluta fyrir framleiðslu fer eftir því hvernig vöruhúsið er sett upp sem birgðageymsla. Nánari upplýsingar er að finna í [Uppsetning vöruhúsastjórnunar](warehouse-setup-warehouse.md).
 
-Í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslan krefst tínsluvinnslu en ekki afhendingarvinnslu er síðan **Birgðatínsla** notuð til að skipuleggja og skrá tínslu íhluta.  
 
-Í einfaldri vöruhúsagrunnstillingu er nauðsynlegt að taka til fyrir samsetningarpantanir með síðunni **Birgðahreyfing**. Nánari upplýsingar eru í [Meðhöndlun á vörum samsetningarpöntunar með birgðatínslum](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
+## <a name="pick-for-production-in-basic-warehouse-configurations"></a>Tína fyrir framleiðslu með einföldum vörhúsagrunnstillingum
+Losunaraðferð hefur einnig áhrif á flæði íhluta í framleiðslu. Nánari upplýsingar eru í [Birgðaskrá íhluti samkvæmt frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md).
 
-Í ítarlegri vöruhúsagrunnstillingu þar sem staðsetningar þarfnast bæði tínslu og afhendingar er síðan **Vöruhúsatínsla** notuð til að færa íhluti til framleiðslu eða samsetningarpantana. Frekari upplýsingar eru í [Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
+Í ítarlegri vöruhúsagrunnstillingu þar sem staðsetningar þarfnast bæði tínslu og afhendingar þarf að nota síðuna **Vöruhúsatínsla** til að færa íhluti með losunaraðferð stillta á *Handvirkt*, *Tína + framvirkt*, *Tína + afturvirkt* yfir í framleiðslupantanir. Frekari upplýsingar eru í [Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
+
+Í einfaldri vöruhúsagrunnstillingu þar sem staðsetningin krefst tínsluvinnslu en ekki afhendingarvinnslu er einnig hægt að nota síðuna **Birgðatínsla** til að skipuleggja og skrá tínslu íhluta með losunaraðferð stillta á *Handvirkt*. Þegar birgðatínsla er skráð fyrir innri aðgerð, s.s. framleiðslu, er notkun fyrir tínda hluti bókuð samhliða. Einnig er hægt að nota **Birgðahreyfingar** með tilvísun í upprunaskjal til að færa íhluti með losunaraðferð stillta á *Handvirkt*, *Tína + framvirkt*, *Tína + afturvirkt* yfir í framleiðslupantanir.
+
+Þegar framleiðsluaðgerðir eru samþættar við vöruhúsaferli, annaðhvort af hólfum eða með stýrðum frágangi og tínslu, er hólfið sem íhlutirnir eru notaðir úr hólfið sem skilgreint er á hverri íhlutalínu framleiðslupöntunar. Allar íhlutir sem þörf er á verða að vera tiltækir í því hólfi. Annars er handvirk eða sjálfvirk notkunarbókun stöðvuð fyrir íhlutinn.
+
+**Birgðahreyfing** með tilvísanir í upprunaskjalið og **Vöruhúsatínslu** er ekki hægt að nota til að tína íhluti með losunaraðferðunum *Framvirkt* og *Afturvirkt*. Ekki er hægt að nota **Birgðatínsla** til að tína íhluti með neinni losunaraðferð nema *Handvirkt*. Til að sjá um eftirstandandi íhluti skal nota **Birgðahreyfingu** án tilvísana í upprunaskjal. Frekari upplýsingar eru í [Færa íhluti á aðgerðasvæði í einfaldri grunngerð vöruhúsa](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 > [!NOTE]  
->  Hér á eftir er mikilvægur mismunur sem er á milli birgðatínslu og birgðahreyfinga.  
+>  Eftirfarandi mikilvægur munur er til milli birgðatínslna, birgðahreyfinga og vöruhúsatínsla:  
 >   
->  -   Þegar birgðatínsla er skráð fyrir innri aðgerð, s.s. framleiðslu, er notkun fyrir tínda hluti bókuð samhliða. Þegar birgðahreyfing er skráð fyrir innri aðgerð þarf aðeins að skrá raunverulegan flutning nauðsynlegs íhlutar að hólfi í rekstrarsvæðinu án þess að bóka notkun.  
-> -   Þegar birgðatínsla er notuð skilgreinir reiturinn **Hólfkóti** á íhlutalínu framleiðslupöntunar hólfið *taka* hvaðan íhlutir eru minnkaðir þegar notkun er bókuð. Þegar birgðahreyfingar eru notaðar, skilgreinir reiturinn **Hólfkóti** í framleiðslupöntunaríhlutalínum hólfið *setja* í aðgerðasvæðinu þar sem starfsmaður í vöruhúsi verður setja íhlutina.  
+>  -   Þegar birgðatínsla er skráð fyrir innri aðgerð, s.s. framleiðslu, er notkun fyrir tínda hluti bókuð samhliða. Þegar birgðahreyfing er skráð fyrir innri aðgerð eða vöruhúsatínslu þarf aðeins að skrá raunverulegan flutning nauðsynlegs íhlutar að hólfi í rekstrarsvæðinu án þess að bóka notkun.  
+> -   Þegar birgðatínsla er notuð skilgreinir reiturinn **Hólfkóti** á íhlutalínu framleiðslupöntunar hólfið *taka* hvaðan íhlutir eru minnkaðir þegar notkun er bókuð. Þegar birgðahreyfingar eru notaðar í vöruhúsatínslu skilgreinir reiturinn **Hólfkóti** í framleiðslupöntunaríhlutalínum hólfið *setja* í aðgerðasvæðinu þar sem starfsmaður í vöruhúsi verður setja íhlutina.  
 
 Áður en hægt er að tína eða færa íhluti fyrir upprunaskjöl, gildir sú kerfisforsenda að vöruhúsabeiðni á útleið sé til staðar til að tilkynna vöruhúsasvæðinu um íhlutsþörfina. Vöruhúsabeiðnin út er stofnuð hvenær sem framleiðslupöntunarstaðan breytist í Útgefin eða þegar útgefna framleiðslupöntunin er stofnuð.  
 
-## <a name="to-pick-components-in-basic-warehouse-configurations"></a>Tína íhluti í einfaldri vöruhúsagrunnstillingu
+## <a name="to-pick-production-components-in-basic-warehouse-configurations-using-inventory-pick"></a>Að tína framleiðsluíhluti í grunnstillingum vöruhúss með birgðatínslu
 Í einfaldri vöruhúsagrunnstillingu þar sem birgðageymslan notar eingöngu tínslu, eru íhlutir tíndir fyrir framleiðsluaðgerðir með síðunni **Birgðatínsla**. Frekari upplýsingar, sjá [Tína vörur með birgðatínslu](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 1.  Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínslur** og veldu síðan tengda tengilinn.  
 2.  Til að komast í íhluti framleiðslupöntunarinnar, veldu aðgerðina **Sækja upprunaskjöl** og síðan er útgefna framleiðslupöntunin valin.  
-3.  Tínslan er framkvæmd og síðan eru rauntínsluupplýsingarnar skráðar í reitnum **Tínt magn**.  
+3.  Tínslan er framkvæmd og síðan eru rauntínsluupplýsingarnar skráðar í reitnum **Magn til afgreiðslu**.  
 4.  Þegar línurnar eru tilbúnar til bókunar er smellt á aðgerðina **Bóka**. Bókunin stofnar nauðsynlegar vöruhúsafærslur og bókar notkun varanna.  
 
-Einnig er hægt að stofna **Birgðatínslu** beint úr útgefnu framleiðslupöntuninni. Veljið aðgerðina **Stofna birgðafrágang/tínslu**, veljið gátreitinn **Stofna birgðatínslu** og smellið síðan á hnappinn **Í lagi**.
+Einnig er hægt að stofna **Birgðatínslu** beint úr útgefnu framleiðslupöntuninni. Veljið aðgerðina **Stofna birgðafrágang/-tínslu/-hreyfingu**, veljið gátreitinn **Stofna birgðatínslu** og smellið síðan á hnappinn **Í lagi**.
 
-Einnig er hægt að nota síðuna **Birgðahreyfingar** til að færa vörur milli hólfa á tilfallandi hátt, þ.e. án tilvísunar í upprunaskjal.
-Frekari upplýsingar eru í [Færa íhluti á aðgerðasvæði í einfaldri grunngerð vöruhúsa](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Annars er hægt að nota **Birgðahreyfinguna** með tilvísun í upprunaskjalið til að færa vörur á milli hólfa. Notkun þarf að skrá sérstaklega. Frekari upplýsingar er að finna í [Fjöldabóka framleiðslunotkun](production-how-to-post-consumption.md)
 
-### <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Meðhöndlun setja saman í pöntun íhluta við birgðatínslu
+## <a name="pick-for-assembly-in-basic-warehouse-configurations"></a>Tiltekt fyrir samsetningu í grunnstillingum vöruhúss
+Í ítarlegri vöruhúsagrunnstillingu þar sem staðsetningar þarfnast bæði tínslu og afhendingar þarf að nota síðuna **Vöruhúsatínsla** til að færa íhluti til samsetningarpantana. Frekari upplýsingar eru í [Taka til fyrir framleiðslu eða samsetningu í Grunngerðir vöruhúss](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
+
+Í einfaldri vöruhúsagrunnstillingu er einnig hægt að taka til fyrir samsetningarpantanir með síðunni **Birgðahreyfing**. 
+
+Í grunnstillingum vöruhúss þar sem staðsetningin krefst tínsluvinnslu en ekki afhendingarvinnslu er síðan **Birgðatínsla** einnig notuð til að tína, safna saman og senda fyrir sölupöntun þar sem sameina þarf vörur áður en þær eru sendar. Nánari upplýsingar eru í [Meðhöndlun á vörum samsetningarpöntunar með birgðatínslum](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
+
+## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Meðhöndlun setja saman í pöntun íhluta við birgðatínslu
 Síðan **Birgðatínsla** er einnig notaður til að tína og senda vegna sölu þar sem vörur verða að vera samsettar áður en hægt er að senda þær. Frekari upplýsingar eru í [Selja hluti sem eru settir saman í pöntun](assembly-how-to-sell-items-assembled-to-order.md).
 
 Vörur sem á að afhenda eru ekki efnislega til staðar í hólfi fyrr en þær eru settar saman og bókaðar sem frálag í hólf í samsetningarsvæði. Þetta þýðir að tínsla vara sem sameina á í pöntun fyrir afhending fylgir ákveðnu flæði. Starfsmenn í vöruhúsi færa samsetningaríhluti úr hólfi á afhendingarsvæði og bóka síðan birgðatínsluna. Bókaða birgðatínslan bókar svo samsetningarfrálagið, íhlutanotkunina og söluafhendinguna.

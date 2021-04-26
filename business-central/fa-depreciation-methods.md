@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59bf311e24f11e062a243026ec35ca4c7b779952
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493329"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774156"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Afskriftaaðferðir fyrir eignir
 
@@ -154,16 +154,16 @@ Reikningsaðferð:
 
 Reiknireglan fyrir útreikning á afskriftaupphæðum er:  
 
-*DA* = *BV* x (1 – (1 –P)<sup>D<sup> 
+*DA* = *BV* x (1 – (1 –P)<sup>D</sup>)
 
 Afskriftargildi eru:  
 
 | Dagsetning | Útreikningur |
 | --- | --- |
-| 06/30/20 |AU = 100.000,00 x (1-(1-0,25)<sup>0,5<sup>) = 13.397,46 |
-| 12/31/20 |AU = 86.602,54 x (1-(1-0,25)<sup>0,5<sup>) = 11.602,54 |
-| 06/30/21 |AU = 75.000,00 x (1-(1-0,25)<sup>0,5<sup>) = 10.048,09 |
-| 12/31/21 |AU = 64.951,91 x (1-(1-0,25)<sup>0,5<sup>) = 8.701,91 |
+| 06/30/20 |AU = 100.000,00 x (1-(1 - 0,25)<sup>0,5</sup>) = 13.397,46 |
+| 12/31/20 |AU = 86.602,54 x (1 - (1 - 0,25)<sup>0,5</sup>) = 11.602,54 |
+| 06/30/21 |AU = 75.000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
+| 12/31/21 |AU = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
 
 ## <a name="db1sl-depreciation"></a>DB1/SL Afskrift
 
@@ -205,7 +205,7 @@ Færslurnar í eignabókinni líta þannig:
 
 Reikningsaðferð:  
 
-* 1. ár:  
+* Ár 1 (2020):  
 
     *Hlutfallsleg upphæð: 25% af 100.000 =  25.000 = 12.500 + 12.500*  
 
@@ -373,7 +373,7 @@ Ef um er að ræða þrjár afskriftabækur B1, B2 og B3 og afrita á færslur �
 [Eignir](fa-manage.md)  
 [Uppsetning eigna](fa-setup.md)  
 [Fjármál](finance.md)  
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

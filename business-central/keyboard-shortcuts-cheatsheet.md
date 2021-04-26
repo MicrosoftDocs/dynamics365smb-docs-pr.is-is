@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 33365f7cd9abe8844b1ba9387c908d7189c28bde
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 34494802f001e78c56cb2eeab997f60cda320472
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392975"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784518"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur
 
@@ -23,32 +23,63 @@ ms.locfileid: "5392975"
 
 |Ýttu á þessa takka|Til að gera þetta|  
 |-|-|
-|Alt+F2<br />Alt+N<br />Alt+Shift+N<br />Alt+O<br />Alt+Q<br />Alt+Upp<br />Alt+Niðurör<br />Alt+T<br />Alt+Shift+N<br />Ctrl+Insert<br />Ctrl-Delete<br />Ctrl+Shift+F12<br />Ctrl+F1<br />Ctrl+Smella<br />Shift+F12<br />F5/Ctrl+F5<br />Tab/Shift+Tab<br />F6/Shift+F6<br />|Sýna og fela FactBox-yfirlitið<br />Stofna nýja færslu<br />Lokið nýstofnaðri færslu og Stofnið nýja<br />Bæta við nýrri athugasemd fyrir völdu færsluna<br />Opna **Segðu mér**<br />Opna ábendingu eða staðfestingarvillu<br />Opna fellilista eða flettu upp<br />Opna síðuna **Mínar stillingar**<br />Opna núverandi spjald eða skjal í nýjum glugga<br />Setja inn nýja línu í skjali<br />Eyða línunni í fylgiskjali, færslubók eða vinnublaði<br />Línuatriðahluti hámarkaður á skjalssíðu<br />Opna hjálp fyrir síðuna<br />Fletta upp þegar sérstilla á og sérsníða<br />Opnaðu hlutverkaleit sem er yfirlit yfir eiginleika.<br />Endurnýja/endurhlaða síðan<br />Færa áherslu á næstu/fyrri einingu<br />Fara yfir í næsta flýtiflipa/hluta|
+|Alt+F2|Sýna og fela FactBox-yfirlitið|
+|Alt+N|Stofna nýja færslu|
+|Alt+Shift+N|Lokið nýstofnaðri færslu og Stofnið nýja|
+|Alt+O|Bæta við nýrri athugasemd fyrir völdu færsluna|
+|Alt+Q|Opna **Segðu mér**|
+|Alt+Upp|Opna ábendingu eða staðfestingarvillu|
+|Alt+Niðurör|Opna fellilista eða flettu upp|
+|Alt+T|Opna síðuna **Mínar stillingar**|
+|Alt+Shift+N|Opna núverandi spjald eða skjal í nýjum glugga|
+|Ctrl+Insert|Setja inn nýja línu í skjali|
+|Ctrl-Delete|Eyða línunni í fylgiskjali, færslubók eða vinnublaði|
+|Ctrl+Shift+F12|Línuatriðahluti hámarkaður á skjalssíðu|
+|Ctrl+F1|Opna hjálp fyrir síðuna<br />Fletta upp þegar sérstilla á og sérsníða|
+|Ctrl+Smella|Fletta upp þegar sérstilla á og sérsníða|
+|Shift+F12|Opnaðu hlutverkaleit sem er yfirlit yfir eiginleika.|
+|F5/Ctrl+F5|Endurnýja/endurhlaða síðan|
+|Tab/Shift+Tab|Færa áherslu á næstu/fyrri einingu|
+|F6/Shift+F6|Fara yfir í næsta flýtiflipa/hluta|
 
 #### <a name="navigate--select-rows"></a>Skoða og velja línur
 
 |Ýttu á þessa takka|Til að gera þetta|
 |-|-|
-|Heim/Loka<br />Ctrl+Heim/Loka <br />Ctrl+Upp/Niður<br />Ctrl+A <br />Ctrl+bil<br />Ctrl/Shift+Smelltu<br />Shift+Upp/Niður<br />Shift+síða upp/niður<br />Ctrl+Enter|Fara í fyrsta/síðasta reitinn<br />Fara í fyrstu/síðustu röð<br />Skoða án þess að tapa vali<br />Velja allt<br />Víxla raðavali<br /> Bæta röðinni/röðunum við valið<br />Bæta við röðum fyrir ofan/neðan við val<br />Velja sýnilegar raðir fyrir ofan/neðan <br />Setja áherslu utan listans|
+|Heim/Loka|Fara í fyrsta/síðasta reitinn|
+|Ctrl+Heim/Loka |Fara í fyrstu/síðustu röð|
+|Ctrl+Upp/Niður|Skoða án þess að tapa vali|
+|Ctrl+A |Velja allt|
+|Ctrl+bil|Víxla raðavali|
+|Ctrl/Shift+Smelltu|Bæta röðinni/röðunum við valið|
+|Shift+Upp/Niður|Bæta við röðum fyrir ofan/neðan við val|
+|Shift+síða upp/niður|Velja sýnilegar raðir fyrir ofan/neðan|
+|Ctrl+Enter|Setja áherslu utan listans|
 
 #### <a name="copy--paste"></a>Afrita og líma
 
 |Ýttu á þessa takka|Til að gera þetta|
 |-|-|
-|Ctrl+C/V<br />F8|Afrita/líma raðir<br />Afrita reit hér að ofan í núverandi röð|
+|Ctrl+C/V|Afrita/líma raðir|
+|F8|Afrita reit hér að ofan í núverandi röð|
 
 #### <a name="search-filter--sort"></a>Leita, afmarka og raða
 
 |Ýttu á þessa takka|Til að gera þetta|
 |-|-|
-|Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Raða dálkum í hækkandi/lækkandi röð<br />Víxla leit<br />Víxla síusvæði; setja áherslu á svæðasíur<br />Víxla síusvæði; setja áherslu á samtölusíur<br />Síur á völdum hólfgildum<br />Bættu við síu á völdum reit<br />Endurstilla afmarkanir|
+|Alt+F7|Raða dálkum í hækkandi/lækkandi röð|
+|F3|Víxla leit|
+|Shift+F3|Víxla síusvæði; setja áherslu á svæðasíur|
+|Alt+F3|Síur á völdum hólfgildum|
+|Shift+Alt+F3|Bættu við síu á völdum reit|
+|Ctrl+Alt+Shift+F3|Endurstilla afmarkanir|
 
 #### <a name="quick-entry"></a>Snögg færsla
 
 |Ýttu á þessa takka|Til að gera þetta|
 |-|-|
-|Ctrl+Shift+Enter<br />Enter/Shift+Enter|Fara í næsta reit flýtifærslu utan lista<br />Fara í næsta/fyrri reit flýtifærslu|
-
+|Ctrl+Shift+Enter|Fara í næsta reit flýtifærslu utan lista|
+|Enter/Shift+Enter|Fara í næsta/fyrri reit flýtifærslu|
 ##### <a name="report-preview"></a>Forskoðun skýrslu
 
 |Ýttu á þessa takka|Til að gera þetta|

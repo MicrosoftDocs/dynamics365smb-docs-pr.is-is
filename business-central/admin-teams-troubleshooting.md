@@ -8,20 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385200"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882171"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Úrræðaleit Microsoft Teams-samþættingar við [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Í þessari grein er að finna upplýsingar um hvernig á að finna og lagfæra vandamál sem geta komið upp þegar Microsoft Teams er notað með [!INCLUDE [prod_short](includes/prod_short.md)], sem dæmigerður notandi eða stjórnandi.
+
+## <a name="the-sign-in-link-doesnt-work"></a>Innskráningartengillinn virkar ekki
+
+Ef reynt er að skrá sig inn í [!INCLUDE [prod_short.md](includes/prod_short.md)]-forritið fyrir Teams strax eftir uppsetningu forritsins og innskráningartengillinn bregst ekki við, getur það verið vegna þess að forritið hefur ekki lokið uppsetningunni að fullu. Til að reyna að laga vandamálið skal skrá sig út úr Teams-biðlaranum og skrá sig inn aftur.
+
+## <a name="the-settings-page-is-empty"></a>Stillingasíðan er tóm
+
+Þú verður fyrst að skrá þig inn til að komast í stillingarnar þínar. Til að skrá sig inn í forritið skal annaðhvort líma tengil í [!INCLUDE [prod_short.md](includes/prod_short.md)]-færslu eða reyna að leita að tengiliðum. Báðar þessar aðgerðir munu leiða þig í gegnum skráningarviðmótið og þar á eftir geturðu notað síðuna **Stillingar**.
+
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>Ég skipti um fyrirtæki en það virtist ekki virka
+
+Þegar skipt er um fyrirtæki á síðunni **Stillingar** gæti fellilisti skipanareitsins sýnt að þú sért enn að leita í fyrra fyrirtækinu. Þetta vandamál kemur upp þegar síðan **Stillingar** er opnuð beint úr skipanareitnum. Í þessu tilfelli tókst að skipta um fyrirtæki og leitað verður í fyrirtækinu sem þú skiptir yfir í. Vandamálið er að fellilisti skipanareitsins hefur ekki enn verið uppfærður. Til að fellilistinn endurspegli fyrirtækið sem þú ætlar að leita í skaltu loka eða losa [!INCLUDE [prod_short.md](includes/prod_short.md)] úr skipanareitnum og síðan opna forritið aftur.
+
+
+<!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
+
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>Villan „Eitthvað fór úrskeiðis“ þegar leitað var að tengiliðum
+
+Þessi villa gæti komið upp þegar leitað er í fyrirtæki sem hefur ekki verið frumstillt eða svarar ekki. Til dæmis er ekki hægt að leita í nýju prufufyrirtæki sem hefur ekki enn samþykkt notkunarskilmálana. Til að leysa þetta vandamál skal reyna að skrá sig inn í vefbiðlara [!INCLUDE [prod_short.md](includes/prod_short.md)] og bregðast við eða hafna öllum svargluggum sem birtast í upphafi.
+
+## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Villan „API tengiliðar fannst ekki“ þegar leitað er að tengiliðum
+
+Vandamálið kann að vera vegna sérstillinga eða viðskiptalausna sem hafa áhrif á, breyta eða bjóða ekki upp á API tengiliðar í [!INCLUDE [prod_short.md](includes/prod_short.md)]. Ef vandamálið lagast ekki skal hafa samband við kerfisstjóra eða stuðningsaðila.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Enginn af tenglunum mínum stækkar í spjald 
 
@@ -36,7 +59,7 @@ Ef þetta vandamál kemur upp, þá eru nokkrir hlutir hér sem þú getur próf
 
 2. Næst skaltu athuga hvort þú hafir skráð þig inn með réttum innskráningarupplýsingum.
 
-    Í Teams skal fara í hvaða spjall sem er og undir skrifglugga skilaboða skal velja táknið [!INCLUDE [prod_short](includes/prod_short.md)]. Þegar glugginn birtist skaltu athuga hvort notandinn sem stendur að sé tengdur sé sá sami og þú notar til að tengjast við [!INCLUDE [prod_short](includes/prod_short.md)].
+    Í Teams skal fara í hvaða spjall sem er og undir skrifglugga skilaboða skal velja táknið [!INCLUDE [prod_short](includes/prod_short.md)] og síðan velja **Stillingar**. Þegar glugginn birtist skaltu athuga hvort notandinn sem stendur að sé tengdur sé sá sami og þú notar til að tengjast við [!INCLUDE [prod_short](includes/prod_short.md)].
 
 3. Gangið úr skugga um að codeunit: **2718 Þjónustuaðili síðusamantektar** sé gefin út sem vefþjónusta.
 
@@ -48,9 +71,8 @@ Ef þetta vandamál kemur upp, þá eru nokkrir hlutir hér sem þú getur próf
 
 Tengill verður ekki víkkaður í spjald við eftirfarandi aðstæður:
 
-- Tengillinn vísar í síðu af gerð sem stendur ekki fyrir færslu. Til dæmis gæti það verið tengill á hlutverkamiðstöð [!INCLUDE [prod_short](includes/prod_short.md)]. Hægt er að skoða gerð síðunnar með því að nota síðueftirlitssvæðið í vefbiðlaranum í [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar um síðueftirlit er að finna í [Síður skoðaðar](across-inspect-page.md).
-- Tengillinn vísar í síðu sem (á tæknilegu stigi) tengist ekki upprunatöflu í [!INCLUDE [prod_short](includes/prod_short.md)]. Hægt er að skoða hvort síða sé með upprunatöflu með því að nota síðueftirlitssvæðið í vefbiðlaranum í [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar um síðueftirlit er að finna í [Síður skoðaðar](across-inspect-page.md). 
-- Teams styður ekki forskoðun tengla í sumum eiginleikum. Til dæmis þegar spjall er opnað í sérglugga, þegar þú ert á fundi eða þú ert gestur í öðru fyrirtæki.
+- Tengillinn vísar í síðu sem (á tæknilegu stigi) tengist ekki upprunatöflu í [!INCLUDE [prod_short](includes/prod_short.md)]. Hægt er að skoða hvort síða sé með upprunatöflu með því að nota síðueftirlitssvæðið í vefbiðlaranum í [!INCLUDE [prod_short](includes/prod_short.md)]. Frekari upplýsingar um síðueftirlit er að finna í [Síður skoðaðar](across-inspect-page.md).
+- Teams styður ekki forskoðun tengla í sumum eiginleikum. Til dæmis þegar spjall er opnað í sérglugga, eða þú ert gestur í öðru fyrirtæki.
 - Teams hættir að reyna að sýna spjaldið eftir 15 sekúndur, t.d. vegna netvandamála.
 - Teams víkkar hugsanlega ekki tengilinn ef búið að líma tengil í sama skrifglugga skilaboða og eyða spjaldinu.
 
@@ -66,10 +88,6 @@ Dæmi:
 `https://businesscentral.dynamics.com/?environmentname=Production&company=CRONUS%20USA%2C%20Inc.&page=21&dc=0&bookmark=21%3bEgAAAAJ7BTEAMAAwADAAMA%3d%3d`
 
 Tæknilegar upplýsingar um [!INCLUDE [prod_short](includes/prod_short.md)]-vefslóðir er að finna í [Vefslóð vefbiðlara](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) í [!INCLUDE [prod_short](includes/prod_short.md)]-þróunaraðila og IT Pro hjálp.
-
-## <a name="the-card-is-displayed-in-the-message-compose-box-but-selecting-the-details-button-does-nothing"></a>Spjaldið er birt í skrifglugga skilaboða, en að velja upplýsingahnappinn gerir ekkert 
-
-Þegar tengill víkkar í spjald í skrifglugga skilaboða þarf að senda skilaboðin í spjallinu áður en hægt er að nota hnappinn **Upplýsingar**.
 
 ## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Upplýsingaglugginn opnast en sýnir villu áður en upplýsingar eru sýndar
 
@@ -89,7 +107,7 @@ Tvær ástæður geta verið fyrir þessu vandamáli: ekki nægar heimildir í [
 
     Frekari upplýsingar um lágmarkskröfur vafrans er að finna í [Lágmarkskröfur fyrir notkun [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Vandamál kom upp með myndavélina eða staðsetningar í Teams 
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Vandamál kom upp með myndavélina eða staðsetningar í Teams
 
 Þegar eiginleikar [!INCLUDE [prod_short](includes/prod_short.md)] eru notaðir í upplýsingaglugganum sem þarf aðgang að staðsetningu þinni eða myndavél tækis, þarf fyrst að veita Teams samþykki fyrir því að fá aðgang að þessum möguleikum tækisins.  
 

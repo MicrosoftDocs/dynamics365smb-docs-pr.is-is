@@ -1,17 +1,17 @@
 ---
-title: Viðvaranir og villuboð | Microsoft Docs
+title: Viðvaranir og villuboð
 description: Kynntu þér hvernig hægt er að leita úrræða og finna lausnir á villuboðum þegar unnið er í Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d57ffe82cefb3e15d9b175c3ac17631e75a3edb3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387174"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779483"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Viðvaranir og villuboð í Dynamics 365 Business Central
 
@@ -19,7 +19,7 @@ ms.locfileid: "5387174"
 
 ## <a name="in-product-user-assistance"></a>Notendaaðstoð í vörunni
 
-Sjálfgefna útgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur lýsingar fyrir flesta reiti, dálka og aðgerðir sem hægt er að opna þegar heitið er valið. Ásamt lýsandi myndatextum og leiðbeinandi texta, eru þessar ábendingar, eða skýringartextar, sem stendur okkar innleiðing af *innfelldri notendaaðstoð*, sem er mikilvægur þáttur í hugbúnaði í dag.  
+Sjálfgefna útgáfan af [!INCLUDE [prod_short](includes/prod_short.md)] inniheldur lýsingar fyrir flesta reiti, dálka og aðgerðir sem hægt er að opna þegar heitið er valið. Ásamt kennsluábendingum fyrir mikilvægar síðar, myndatexta og leiðbeinandi texta, eru þessar ábendingar, eða skýringartextar, sem stendur okkar innleiðing af *innfelldri notendaaðstoð*, sem er mikilvægur þáttur í hugbúnaði í dag.  
 
 Ef spurningar vakna um reit eða annan þátt notandaviðmótsins, skal velja heitið og stutt lýsing birtist. Veldu tengilinn *Frekari upplýsingar* ef þetta nægir ekki.  
 
@@ -41,7 +41,7 @@ Ef þú ert kerfisstjóri eða yfirnotandi getur þú hjálpað öðrum með þv
 [Algengar spurningar um leit og síun](ui-search-filter-faq.md)  
 [Algengar spurningar um að afrita og líma](faq-copy-paste.yml)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

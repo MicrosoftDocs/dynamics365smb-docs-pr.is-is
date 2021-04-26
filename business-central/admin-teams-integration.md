@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fc5957695145ad3bbc4225c7c7e18dd7ca0c728
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386300"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882206"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Að stjórna Microsoft Teams samþættingu við [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -35,6 +35,7 @@ ms.locfileid: "5386300"
 
     |Hvað|Teams-leyfi|[!INCLUDE [prod_short](includes/prod_short.md)] leyfi|
     |----|---|---|
+    |Leita að [!INCLUDE [prod_short](includes/prod_short.md)] tengiliðum.|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
     |Límið tengil við [!INCLUDE [prod_short](includes/prod_short.md)]-færslu í samtal og sendið hann sem spjald.|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
     |Skoðið spjald [!INCLUDE [prod_short](includes/prod_short.md)]-færslu í samtali.|![gátmerki](media/check.png "ávísun")||
     |Skoðið frekari upplýsingar um spjald fyrir [!INCLUDE [prod_short](includes/prod_short.md)]-færslu í samtali.|![gátmerki](media/check.png "ávísun")|![gátmerki](media/check.png "ávísun")|
@@ -49,8 +50,8 @@ Sem stjórnandi í Teams er hægt að stjórna öllum forritum fyrir fyrirtæki�
 
 Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Microsoft Teams:
 
-- [Stjórna forritunum í Microsoft Teams stjórnendamiðstöðinni](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
-- [Stjórna uppsetningarreglum forrits í Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
+- [Stjórna forritunum í Microsoft Teams stjórnendamiðstöðinni](/MicrosoftTeams/manage-apps)
+- [Stjórna uppsetningarreglum forrits í Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
 ## <a name="in-prod_short"></a>Eftir [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -58,7 +59,7 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
 
 - útgáfa [!INCLUDE [prod_short](includes/prod_short.md)]:
 
-    [!INCLUDE [prod_short](includes/prod_short.md)] 2020 útgáfutímabil 2, uppfærsla 17.3 eða nýrri. Samþætting Teams er aðeins studd fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á netinu; ekki á staðnum.
+    [!INCLUDE [prod_short](includes/prod_short.md)] 2021 útgáfutímabil 1 eða nýrra. Samþætting Teams er aðeins studd fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á netinu; ekki á staðnum.
 
 - Codeunit: **2718 Þjónustuaðili síðusamantektar** er gefin út sem vefþjónusta:
 
@@ -66,8 +67,9 @@ Frekari upplýsingar er að finna í eftirfarandi greinum í fylgiskjölum Micro
 
 - <a name="permissions"></a>Aðgangsheimildir notanda:
 
-    Að mestu leyti eru síður og gögn sem notendur geta skoðað og breytt í samtali í Teams stjórnað af heimildum þeirra í [!INCLUDE [prod_short](includes/prod_short.md)].
+    Að mestu leyti eru leitarsíður tengiliða og gögn sem notendur geta skoðað og breytt í samtali í Teams stjórnað af heimildum þeirra í [!INCLUDE [prod_short](includes/prod_short.md)].
     
+    - Til að leita að tengiliðum verða notendur að hafa að minnsta kosti lesheimild fyrir **Tengiliðir** töfluna. 
     - Til að líma [!INCLUDE [prod_short](includes/prod_short.md)]-tengil í samtal í Teams og fá hann til að stækka í spjald, verða notendur að minnsta kosti að hafa lesheimild á síðunni og gögnum hennar.
     - Þegar spjald er sent inn í samtal, getur hvaða notandi sem er í því samtali skoðað spjaldið án leyfis frá [!INCLUDE [prod_short](includes/prod_short.md)].
     - Til að skoða frekari upplýsingar um spjald eða opna færsluna í [!INCLUDE [prod_short](includes/prod_short.md)], verða notendur að hafa lesheimild á síðunni og gögnum hennar.
@@ -92,13 +94,13 @@ Eftir að kort hefur verið sent á spjall er kortið og reitirnir á kortinu af
 
 Einnig er hægt að nota upplýsingatálma til að koma í veg fyrir að einstaklingar eða hópar séu í samskiptum. Frekari upplýsingar er að finna í [Upplýsingatálmar í Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Eiginleika gagnatapsvarnar í öryggis- og reglufylgnimiðstöð Microsoft 365 er ekki hægt að nota sérstaklega fyrir spjöld. En hægt er að nota þau í spjallskilaboðunum sem innihalda kortin. Til að rekja væntanlega ítarlega eiginleika sem fela í sér að virkja gagnatapsvörn fyrir spjöld er að finna í [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).
+Eiginleika gagnatapsvarnar í öryggis- og reglufylgnimiðstöð Microsoft 365 er ekki hægt að nota sérstaklega fyrir spjöld. En hægt er að nota þau í spjallskilaboðunum sem innihalda kortin. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Bregðast við gagnabeiðnum
 
 Hægt er að leyfa teymismeðlimum og eigendum hópa að eyða skilaboðum sem innihalda viðkvæm spjöld með því að setja upp skilaboðareglur eins og: **Eigendur geta eytt sendum skilaboðum** og **Notendur geta eytt sendum skilaboð**. Frekari upplýsingar er að finna í [Stjórna skilaboðareglum í Teams](/microsoftteams/messaging-policies-in-teams).
 
-Eftirlitseiginleika efnisleitar og eDiscovery í öryggis- og reglufylgnimiðstöð Microsoft 365 er ekki hægt að nota sérstaklega á spjöld. En hægt er að nota þau í spjallskilaboðunum sem innihalda kort. Til að rekja væntanlega eftirlitseiginleika fyrir spjöld skal skoða [https://www.microsoft.com/microsoft-365/roadmap?featureid=68875](https://www.microsoft.com/microsoft-365/roadmap?featureid=68875).
+Eftirlitseiginleika efnisleitar og eDiscovery í öryggis- og reglufylgnimiðstöð Microsoft 365 er einnig hægt að nota á spjöld.
 
 Þar sem gögn spjalds í Teams er afrit af gögnum í [!INCLUDE [prod_short](includes/prod_short.md)] er einnig hægt að nota [!INCLUDE [prod_short](includes/prod_short.md)]-eiginleika til að flytja út gögn viðskiptamanna ef þess er óskað. Frekari upplýsingar um persónuvernd í [!INCLUDE [prod_short](includes/prod_short.md)] er að finna í [Algengar spurningar um persónuvernd fyrir viðskiptamenn Business Central](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

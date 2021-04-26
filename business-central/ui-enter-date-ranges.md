@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3a48863231c06742e5cc1b2f13d554e65cb8ae91
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381216"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773531"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Vinna með dagsetningar og tíma í dagatali
 
@@ -76,7 +76,7 @@ Sláðu inn orðið fyrir daginn í dag, á tungumáli sem er stillt í **Tungum
 
 ### <a name="period"></a>Tímabil
 
-Til að sía á tilteknu fjárhagstímabili, sláðu inn í dagsetningarreit stafinn t, eða orðið tímabil, og síðan númer sem tilgreinir fjárhagstímabilið, t.d. t2 eða timabil4. Bókhaldstímabilið er miðað við fjárhagsár núverandi vinnudags sem er stillt í hlutverki þínu. Ef vinnudagur er til dæmis **21/03/20**, þá t1 eða aðeins t, síar á fyrsta fjárhagstímabili fjárhagsársins 2020 (eins og 01/01/20..31/01/20). t15 síar á fimmtánda fjárhagstímabilinu frá upphafi fjárhagsársins 2020 (eins og 01/03/21..31/03/21).
+Til að sía á tilteknu fjárhagstímabili, sláðu inn í dagsetningarreit stafinn t, eða orðið tímabil, og síðan númer sem tilgreinir fjárhagstímabilið, t.d. t2 eða timabil4. Bókhaldstímabilið er miðað við fjárhagsár núverandi vinnudags sem er stillt í hlutverki þínu. Ef vinnudagur er til dæmis **21/03/22**, þá t1 eða aðeins t, síar á fyrsta fjárhagstímabili fjárhagsársins 2022 (eins og 01/01/22..31/01/22). t15 síar á fimmtánda fjárhagstímabilinu frá upphafi fjárhagsársins 2022 (eins og 01/03/23..31/03/23).
 
 Fjárhagstímabilin eru skilgreind á síðunni **Fjárhagstímabil**. Til að skoða eða breyta fjárhagstímabilum skaltu opna síðuna [hér](https://businesscentral.dynamics.com/?page=100).
 
@@ -102,12 +102,12 @@ Eftirfarandi tafla inniheldur dæmi um dagsetningar þar sem öll snið eru notu
 
 |**Færsla**      |**Túlkun**      |
 |---------------|------------------------|
-|2018.12.31.|31/12/2018.|
-|311218|31/12/2018|
-|18.12.31.|31/12/2018|
-|18.12.31.|31/12/2018|
-|31122018|31/12/2018|
-|18/12,31|31/12/2018|
+|2022.12.31.|2022.12.31.|
+|221231|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|20221231|2022.12.31.|
+|22/12,31|2022.12.31.|
 |11|vinnudagsetning ár/vinnudagsetning mánuður/11.|
 |1112|vinnudagsetningarár/11/12.|
 |d eða dagurinn í dag|dagurinn í dag|
@@ -194,7 +194,7 @@ Eftirfarandi dæmi sýnir hvernig hægt er að nota mínustákn til að sýna ga
 |-1Á|1 ári fyrir daginn í dag|
 
 > [!IMPORTANT]
->  Ef staðsetningin notar grunndagatal, er dagsetningarreiknireglan sem er til dæmis færð inn í reitinn **Afhendingartími** túlkuð samkvæmt vinnudögum. Til dæmis merkir 1B sjö vinnudaga.
+> Ef staðsetningin notar grunndagatal, er dagsetningarreiknireglan sem er til dæmis færð inn í reitinn **Afhendingartími** túlkuð samkvæmt vinnudögum. Til dæmis merkir 1B sjö vinnudaga.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -314,36 +314,9 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 Orðið fyrir „tími“ á tungumálinu sem notað er af [!INCLUDE[prod_short](includes/prod_long.md)] verður metið við núverandi tíma á tölvunni þinni eða fartækinu. Þú getur slegið inn hvaða hluta orðsins sem er, með því að byrja á byrjuninni, eins og til dæmis T eða TÍM.
 
-## <a name="entering-combined-dates-and-times"></a>Sláðu inn sameinaða dagsetningar og tíma
-Þegar þú slærð inn dagsetningartíma, sem er dagsetning og tími sameinuð í eitt reit, verður þú að slá inn bil milli dagsetningar og tíma. Dagsetningarhlutinn getur aðeins innihaldið bil í formi opinbers dagsetningarskiltákns þinna svæðisstillinga. Tíminn getur innihaldið bil í kringum f.h./e.h. vísirinn.
+## <a name="entering-combined-dates-and-times"></a>Slá inn sameinaða dagsetningar og tíma
 
-Einnig er hægt að slá inn aðeins dagsetningu í reit fyrir dagsetningartíma, en ekki er hægt að slá inn aðeins tíma.
-
-Eftirfarandi tafla sýnir nokkur dæmi um samsetningar dagsetninga og tíma. Svæðisstillingarnar í dæmunum birta dagsetningar í sniðinu dagur\-mánuður\-ár, með f.h./e.h. kennimerkjum, ensku og sunnudegi sem byrjun vikunnar.
-
-|**Færsla**      |**Túlkun**      |
-|---------------|------------------------|
-|08-01-2016 05:48:12 PM|08\-01\-2016 05:48:12 e.h.|
-|131202 132455|13\-12\-2002 13:24:55|
-|1-12-02 10|01\-12\-2002 10:00:00|
-|1.12.02 5|01\-12\-2002 05:00:00|
-|1.12.02|01\-12\-2002 00:00:00|
-|11 12|11\-vinnudagsetningarmánuður\-vinnudagsetningarár 12:00:00|
-|1112 12|11\-12\-vinnudagsetningarárið 12:00:00|
-|d eða dagurinn í dag|dagurinn í dag 00:00:00|
-|d 10:30|dagurinn í dag 10:30:00|
-|d 03:03:03|dagurinn í dag 03:03:03|
-|v eða vinnudagsetningin|vinnudagsetningin 00:00:00|
-|m eða mánudagur|Mánudagur vinnudagsetningarvikunnar 00:00:00|
-|þr eða þriðjudagur|Þriðjudagur vinnudagsetningarvikunnar 00:00:00|
-|la eða laugardagur|Laugardagur vinnudagsetningarvikunnar 00:00:00|
-|s eða sunnudagur|Sunnudagur vinnudagsetningarvikunnar 00:00:00|
-|þr 10:30:00|Þriðjudagur vinnudagsetningarvikunnar 10:30:00|
-|þr 03:03:03|Þriðjudagur vinnudagsetningarvikunnar 03:03:03|
-|Þ23 Þ|Þriðjudagur 23. viku vinnudagsetningarársins, núgildandi tími dagsins|
-|þ23|Þriðjudagur 23. viku vinnudagsetningarársins|
-|þ 23|Í dag 23:00:00|
-|þ-1|Þriðjudagur 1. viku vinnudagsetningarársins|
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Færið inn tímalengd
 Sumir reitir í forritinu tákna tímalengd eða magn liðins tíma, í stað tiltekins dagsetningar eða tíma. Hægt er að færa inn tímalengd sem tölu og mælieiningu.

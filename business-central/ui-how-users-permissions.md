@@ -1,5 +1,5 @@
 ---
-title: Búa til notendur samkvæmt leyfum | Microsoft Docs
+title: Búa til notendur samkvæmt leyfum
 description: Lýsir því hvernig skal bæta notendum við Business Central á netinu eða á staðnum samkvæmt leyfum.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cc6a32653d443d45a8cb037be275ff84e449ca02
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 852eb61a479f03b61c648904e2179168a5c18001
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573352"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774487"
 ---
 # <a name="create-users-according-to-licenses"></a>Búa til notendur samkvæmt leyfum
 
 Í þessari grein er því lýst hvernig stjórnendur búa til notendur og skilgreina hverjir geta skráð sig inn í [!INCLUDE[prod_short](includes/prod_short.md)] og hvaða heimildir eru gefnar mismunandi gerðum notenda samkvæmt leyfunum.
 
-Þegar notendur eru búnir til í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að úthluta þeim ákveðnum heimildum í gegnum heimildasamstæður og raða notendum í notendaflokka. Notendaflokkar auðvelda stjórnun heimilda fyrir marga notendur á sama tíma. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md). 
+Þegar notendur eru búnir til í [!INCLUDE[prod_short](includes/prod_short.md)] er hægt að úthluta þeim ákveðnum heimildum í gegnum heimildasamstæður og raða notendum í notendaflokka. Notendaflokkar auðvelda stjórnun heimilda fyrir marga notendur á sama tíma. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).  
 
-Frekari upplýsingar um mismunandi gerðir leyfa og hvernig leyfi virka í [!INCLUDE[prod_short](includes/prod_short.md)] er að finna í leyfishandbók Dynamics 365 sem hægt er að sækja á [https://go.microsoft.com/fwlink/?LinkId=866544](https://go.microsoft.com/fwlink/?LinkId=866544).
+Frekari upplýsingar um mismunandi gerðir leyfa og hvernig leyfi virka í [!INCLUDE[prod_short](includes/prod_short.md)] fást með því að sækja [leyfishandbók Dynamics 365-](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 > [!NOTE]
 > Ferlið við að stjórna notendum og leyfum er mismunandi eftir því hvort [!INCLUDE[prod_short](includes/prod_short.md)] er sett upp á netinu eða innanhúss. Fyrir [!INCLUDE [prod_short](includes/prod_short.md)] á netinu þarf að bæta við notendum úr Microsoft 365 . Í uppsetningum á staðnum er hægt að búa til, breyta og eyða notendum beint.  
@@ -34,7 +34,7 @@ Frekari upplýsingar um mismunandi gerðir leyfa og hvernig leyfi virka í [!INC
 
 Til að skilgreina hverjir geta skráð sig inn á [!INCLUDE[prod_short](includes/prod_short.md)] þarf að úthluta vöruleyfum til notenda í samræmi við þau hlutverk sem þeir munu framkvæma í [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta er hægt að gera á eftirfarandi hátt:
 
-- Microsoft 365 stjórnandi fyrirtækisins þíns getur gert það í [Microsoft 365 Admin Center](https://admin.microsoft.com). Frekari upplýsingar er að finna í [Bæta stökum notendum eða mörgum í einu við Microsoft 365](https://aka.ms/CreateOffice365Users).  
+- Microsoft 365 stjórnandi fyrirtækisins þíns getur gert það í [Microsoft 365 Admin Center](https://admin.microsoft.com). Frekari upplýsingar er að finna í [Bæta stökum notendum eða mörgum í einu við Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - Samstarfsaðili Microsoft getur úthlutað leyfum í stjórnendamiðstöð Microsoft 365 eða í Microsoft Partner Center. Frekari upplýsingar er að finna í [Stjórnunarverk notanda fyrir viðskiptamannalykla](/partner-center/assign-licenses-to-users) í hjálp Microsoft Partner Center.
 
 Frekari upplýsingar er að finna í [Stjórnun Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) í hjálp stjórnenda.
@@ -44,7 +44,7 @@ Frekari upplýsingar er að finna í [Stjórnun Business Central Online](/dynami
 
 1. Skráðu þig inn í [!INCLUDE[prod_short](includes/prod_short.md)] með stjórnandareikningi.
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.  
-3. Veldu **Uppfæra notendur úr Office 365**.
+3. Veldu **Uppfæra notendur úr Microsoft 365**.
 
 Ef verið er að bæta við nýjum notendum er næsta skref að úthluta notendaflokkum og heimildum. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md). Ef notandaupplýsingar eru uppfærðar og uppfærslan felur í sér breytingu á leyfi, verður notendum úthlutað til viðeigandi notandaflokks og heimildasamstæður þeirra verða uppfærðar. Frekari upplýsingar er að finna á[Til að stjórna heimildum í gegnum notendaflokka](ui-define-granular-permissions.md).  
 
@@ -61,16 +61,16 @@ Frekari upplýsingar um samstillingu notandaupplýsinga við Microsoft 365  er a
 Í uppsetningu á netinu er hægt að fjarlægja aðgang notanda að [!INCLUDE[prod_short](includes/prod_short.md)]. Allar tilvísanir til notandans verða varðveittar, en notandinn getur ekki lengur skráð sig inn í virkar lotur fyrir notandann verða stöðvaðar.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Notendur** og veldu síðan tengda tengilinn.
-2. Opnaðu síðuna **Notandaspjald** fyrir viðkomandi notanda og síðan, í reitnum **Staða**, skal velja **Óvirkt**.
-3. Til að veita notandanum aðgang aftur skal stilla **Ástand** reitinn á **Virkt**.
+2. Opnaðu síðuna **Notandaspjald** fyrir viðkomandi notanda og síðan, í reitnum **Staða** skal velja **Óvirkt**.
+3. Til að veita notandanum aðgang aftur skal stilla reitinn **Staða** á **Virkt**.
 
-Auk þess er hægt að taka leyfið af notanda í Microsoft 365 stjórnendamiðstöðinni. Þá getur notandinn ekki skráð sig inn. Nánari upplýsingar er að finna í [Leyfi tekin af notendum](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
+Auk þess er hægt að taka leyfið af notanda í Microsoft 365 stjórnendamiðstöðinni. Þá getur notandinn ekki skráð sig inn. Nánari upplýsingar er að finna í [Leyfi tekin af notendum](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 ### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Samstilla við Microsoft 365
 
 Þegar notanda er úthlutað leyfi fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í Microsoft 365 eru tvær leiðir til að búa notandann til í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-- Stjórnandi getur bætt notandanum við með því að velja **Uppfæra notendur úr Office 365** aðgerðina á síðunni **Notendur** eins og lýst er í hlutanum [Að bæta við notanda eða uppfæra notandaupplýsingar í Business Central](#adduser).
+- Stjórnandi getur bætt notandanum við með því að velja **Uppfæra notendur úr Microsoft 365** aðgerðina á síðunni **Notendur** eins og lýst er í hlutanum [Að bæta við notanda eða uppfæra notandaupplýsingar í Business Central](#adduser).
 - Leyfisupplýsingar uppfærast sjálfkrafa þegar notandinn skráir sig inn í fyrsta skipti.
 
 Í báðum tilvikum er fjöldi stillinga valinn sjálfkrafa. Þessi atriði eru talin upp í öðrum og þriðja dálkinum í töflunni hér að neðan.
@@ -78,7 +78,7 @@ Auk þess er hægt að taka leyfið af notanda í Microsoft 365 stjórnendamiðs
 Ef notandaupplýsingum er breytt í Microsoft 365  er hægt að uppfæra [!INCLUDE[prod_short](includes/prod_short.md)] til að endurspegla breytinguna. Eftir því hvað á að uppfæra er hægt að velja eina af aðgerðunum á síðunni **Notendur**. Aðgerðunum er lýst í síðustu þremur dálkunum í töflunni hér að neðan.
 
 > [!NOTE]
-> Aðgerðunum sem lýst er í eftirfarandi töflu eru nákvæmar, en sú eina sem þú þarft er **Uppfæra notendur úr Office 365** sem var bætt við til að einfalda ferlið. Hinar aðgerðirnar verða fjarlægðar í næstu útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)].
+> Aðgerðunum sem lýst er í eftirfarandi töflu eru nákvæmar, en sú eina sem þú þarft er **Uppfæra notendur úr Microsoft 365** sem var bætt við til að einfalda ferlið. Hinar aðgerðirnar verða fjarlægðar í næstu útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Hvað gerist ef:|Fyrsti notandi, fyrsta innskráning|Sækja notendur úr Microsoft 365 |Uppfæra notendur úr Microsoft 365|Endurheimta sjálfgefna notendahópa notanda|Uppfæra notendahópa|Uppfæra notandaupplýsingar frá Microsoft 365|
 |-|-|-|-|-|-|-|
@@ -110,11 +110,11 @@ Notendur með tækjaleyfið geta ekki framkvæmt eftirfarandi verk í [!INCLUDE[
 4. Á síðunni **Grunnur** skal slá inn **Dynamics 365 Business Central tækjanotendur** sem heiti hópsins.
   
    >[!NOTE]
-   >Heiti flokksins verður að vera stafað á ensku, nákvæmlega eins og er sýnt í skrefi 4, jafnvel þótt annað tungumál sé notað.
+   >Heiti flokksins verður að vera stafað á ensku, nákvæmlega eins og er sýnt í skrefi 4, jafnvel þótt annað tungumál sé notað. Ef heiti flokksins hefur verið afritað úr skjali, t.d. PDF, skal ganga úr skugga um að heitið innihaldi ekki aukabil.
 5. Velja hnappinn **Loka**.
 
 > [!NOTE]
-> Einnig er hægt að stofna hóp af gerðinni Microsoft 365. Frekari upplýsingar er að finna í [Bera saman hópa](https://docs.microsoft.com/office365/admin/create-groups/compare-groups)
+> Einnig er hægt að stofna hóp af gerðinni Microsoft 365. Frekari upplýsingar er að finna í [Bera saman hópa](/microsoft-365/admin/create-groups/compare-groups)
 
 ### <a name="to-add-members-to-the-group"></a>Bæta meðlimum við hópinn
 
@@ -155,7 +155,7 @@ Fyrir uppsetningar innanhúss býr stjórnandinn til, breytir og eyðir notendum
 [Sérstillir [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Stjórnun](admin-setup-and-administration.md)  
-[Bæta notendum við Microsoft 365 for Business](https://aka.ms/CreateOffice365Users)  
+[Bæta notendum við Microsoft 365 for Business](/microsoft-365/admin/add-users/add-users)  
 [Öryggi og vernd í Business Central (efni stjórnenda)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 
 

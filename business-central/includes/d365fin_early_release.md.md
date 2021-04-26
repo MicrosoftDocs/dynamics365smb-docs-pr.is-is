@@ -1,1 +1,1 @@
-Þetta er frumútgáfa sem við erum enn að vinna að. Virkni og efni á þessari síðu geta breyst. Til að sjá hvað er að koma skal sjá [Microsoft Dynamics 365 Business Central útgáfuáætlun](https://go.microsoft.com/fwlink/?linkid=2047422).
+Þetta er frumútgáfa sem við erum enn að vinna að. Virkni og efni á þessari síðu geta breyst. Til að sjá hvað er að koma skal sjá [Microsoft Dynamics 365 Business Central útgáfuáætlun](/dynamics365/release-plans/).

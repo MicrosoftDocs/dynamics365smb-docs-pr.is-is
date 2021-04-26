@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/26/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e5d0a2f51eb223c7fef98cbc6076eb73f45fdd3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c303c39850e22d3df375838d42703133428b4c7d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390600"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772355"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Aðgengi og Flýtivísanir
 
@@ -78,7 +78,7 @@ Flestir vafrar nota staðlaðar flýtilykla til að auka og minnka aðdrátt á 
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algengar spurningar](across-faq.md)  
 

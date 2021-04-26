@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0423314fa123c931e98db37bcc6939b6fbbddf25
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e118b27d1bafc4de1ffc8d2db4597317942b6f65
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381518"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777699"
 ---
 # <a name="design-details-table-structure"></a>Hönnunarupplýsingar töfluuppbygging
 Til að skilja hvernig víddafærslur eru vistaðar og bókaðar er mikilvægt að skilja töfluuppbyggingu.  
@@ -181,11 +181,7 @@ Reitur 480 er til í eftirfarandi biðminnistöflum.
 |5637|**Fjárhagsbókunarbiðminni eigna**|  
 |7136|**Biðminni birgðaáætlunar**|  
 
-## <a name="see-also"></a>Sjá einnig  
- [Hönnunarupplýsingarn: Færslur víddarsamstæða](design-details-dimension-set-entries.md)   
- [Yfirlit yfir víddasamstæðufærslur](design-details-dimension-set-entries-overview.md)   
- [Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>Sjá einnig
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Yfirlit yfir víddasamstæðufærslur](design-details-dimension-set-entries-overview.md)  
+[Hönnunarupplýsingar Leitað að víddarsamsetningum](design-details-searching-for-dimension-combinations.md)   

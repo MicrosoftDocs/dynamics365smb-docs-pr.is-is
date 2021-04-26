@@ -1,1 +1,1 @@
-> **GILDIR UM:** Business Central Online
+**GILDIR UM:** Business Central Online

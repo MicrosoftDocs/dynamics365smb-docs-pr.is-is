@@ -8,24 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f218b50e40f6bb0e8e9ab3be8fcd00d23b1adbe2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378724"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773337"
 ---
 # <a name="data-ownership-models"></a>Eignarhaldslíkön gagna
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] krefst þess að tilgreindur sé eigandi fyrir gögnin sem eru geymd. Frekari upplýsingar er að finna í [Eignarhald einingar](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership) í Power Apps fylgiskjalinu. Þegar samþætting er sett upp á milli [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] þarf að velja eitt af tveimur eignarhaldslíkönum fyrir færslur sem eru samstilltar:
-
-* Teymi 
-* Einstaklingur (notandi)
-
-Aðgerðir sem hægt er að framkvæma á þessum færslum er hægt að stjórna á notandastigi. Frekari upplýsingar er að finna í [Notanda- og teymistöflur](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-tables). Við mælum með eignarhaldslíkani teymis vegna þess að það auðveldar stjórnun eignarhalds fyrir marga einstaklinga.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] krefst þess að tilgreindur sé eigandi fyrir gögnin sem eru geymd. Frekari upplýsingar eru í [Gerðir af töflum](/powerapps/maker/data-platform/types-of-entities) í Power Apps fylgiskjölum. Þegar samþætting er sett upp á milli [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] þarf að velja **Notandi eða teymi** fyrir færslur sem eru samstilltar. Aðgerðir sem hægt er að framkvæma á þessum færslum er hægt að stjórna á notandastigi. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
 ## <a name="team-ownership"></a>Eignarhald teymis
 Í [!INCLUDE[prod_short](includes/prod_short.md)] er fyrirtæki lagaleg og viðskiptaleg tafla sem býður upp á leiðir til að tryggja í sessi og gefa yfirsýn yfir viðskiptagögn. Notendur vinna alltaf í tengslum við fyrirtæki. Það næsta sem [!INCLUDE[prod_short](includes/cds_long_md.md)] kemst að þessu hugtaki er viðskiptaeiningartaflan, sem hefur ekki lagaleg eða viðskiptaleg áhrif.

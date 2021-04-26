@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: eb7e0d0d082d8a86ce61b6dffab46ce6248a29d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493229"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782280"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Setja upp eignaafskriftir
 
@@ -87,7 +87,7 @@ Skilgreina þarf sjálfgefna uppsetningu fyrir sniðmát og keyrslur fyrir hverj
 [Uppsetning eigna](fa-setup.md)  
 [Eignir](fa-manage.md)  
 [Fjármál](finance.md)  
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

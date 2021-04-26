@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386850"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787353"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Viðbót greiðsludráttarspár  
 Árangursrík stjórnun viðskiptakrafna er mikilvæg fyrir heildar fjárhagslega heilsu fyrirtækis. Viðbót greiðsludráttarspár getur hjálpað þér að draga úr útistandandi kröfum og fínstilla stefnu sjóðsins með því að spá fyrir um hvort sölureikningar verði greiddar á réttum tíma. Til dæmis, ef spá telur greiðsla vera sein, gætir þú ákveðið að lagfæra skilmála greiðslu eða greiðslumáta fyrir viðskiptamanninn.
@@ -108,7 +108,7 @@ Ef svo virðist sem ferli notanda stemmi ekki við staðlaða líkanið er samt 
 8. Í **Innskráningarupplýsingar fyrir líkanið mitt** flýtiflipanum, sláðu inn API slóðina og API lykil fyrir líkanið.  .  
 
 ## <a name="see-also"></a>Sjá einnig  
-[Fylgiskjöl fyrir Azure-vélnámsstúdíó](https://go.microsoft.com/fwlink/?linkid=861765)  
+[Fylgiskjöl fyrir Azure-vélnámsstúdíó](/azure/machine-learning/classic/)  
 [Sérstilling Business Central með viðbótum](ui-extensions.md)  
 [Velkomin(n) í [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
 

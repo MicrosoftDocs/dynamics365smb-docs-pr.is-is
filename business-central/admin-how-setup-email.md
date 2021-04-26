@@ -1,5 +1,5 @@
 ---
-title: Setja upp tölvupóst í Business Central | Microsoft Docs
+title: Setja upp tölvupóst í Business Central
 description: Lýsir því hvernig á að tengja tölvupóstsreikninga við Business Central til að hægt sé að senda skilaboð á útleið án þess að opna annað forrit.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.date: 06/15/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470438"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889153"
 ---
 # <a name="set-up-email"></a>Setja upp tölvupóst
 Fólk í viðskiptum sendir upplýsingar og skjöl á borð við sölu- og innkaupapantanir og reikninga með tölvupósti á hverjum degi. Stjórnendur geta auðveldað verkið með því að tengja einn eða fleiri tölvupóstsreikninga við [!INCLUDE[prod_short](includes/prod_short.md)] þannig að hægt sé að senda skjöl án þess að þurfa að opna annað tölvupóstforrit. Hægt er að semja hver skilaboð fyrir sig með einföldum sniðsverkfærum eins og leturgerð, útliti, litum og svo framvegis og bæta við viðhengjum allt að 100 MB að stærð. Stjórnendur geta einnig sett upp skýrsluútlit sem inniheldur aðeins helstu upplýsingar úr fylgiskjölum. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
@@ -37,12 +37,12 @@ Eftirfarandi tafla lýsir þeim tölvupóstsviðbótum sem eru sjálfgefið í b
 
 |Innanhússsími  |Description  |Dæmi um notkun  |
 |---------|---------|---------|
-|**Microsoft 365**|Allir senda tölvupóst úr samnýttu pósthólfi í Exchange Online.|Þegar öll skilaboð koma frá sömu deildinni sem dæmi, þá sendir sölufyrirtækið skilaboð frá reikningnum sales@cronus.com. Þetta krefst þess að sett verði upp samnýtt pósthólf í Office 365 stjórnendamiðstöðinni. Frekari upplýsingar eru í [Samnýtt pósthólf](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Microsoft 365**|Allir senda tölvupóst úr samnýttu pósthólfi í Exchange Online.|Þegar öll skilaboð koma frá sömu deildinni sem dæmi, þá sendir sölufyrirtækið skilaboð frá reikningnum sales@cronus.com. Þetta krefst þess að sett verði upp samnýtt pósthólf í Microsoft 365 stjórnendamiðstöðinni. Frekari upplýsingar eru í [Samnýtt pósthólf](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
 |**Núverandi notandi**|Allir senda tölvupóst frá reikningnum sem var notaður til að skrá sig inn á [!INCLUDE[prod_short](includes/prod_short.md)].|Leyfa samskipti frá reikningum einstaklinga.|
 |**Annað (SMTP)**|Nota skal SMTP-samskiptareglu til að senda tölvupósta.|Leyfa skal samskipti í gegnum SMTP-póstþjóninn. |
 
 > [!NOTE]
-> Viðbætur **Microsoft 365** og **Núverandi notanda** nota reikningana til að setja upp fyrir notendur í stjórnendamiðstöð Microsoft 365 fyrir Office 365-áskriftina þína. Til að senda tölvupóst með viðbótunum verða notendur að vera með gilt leyfi fyrir Exchange Online. 
+> Viðbætur **Microsoft 365** og **Núverandi notanda** nota reikningana til að setja upp fyrir notendur í stjórnendamiðstöð Microsoft 365 fyrir Microsoft 365 áskriftina þína. Til að senda tölvupóst með viðbótunum verða notendur að vera með gilt leyfi fyrir Exchange Online. 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
@@ -51,6 +51,9 @@ Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] og búið e
 
 > [!NOTE]
 > Ef til staðar eru sérstillingar sem tengjast eldri uppsetningu SMTP-tölvupósts, eru líkur á að eitthvað fari úrskeiðis í sérstillingunum ef viðbætur tölvupóstsins eru notaðar. Mælt er með því að setja upp og prófa viðbæturnar áður en kveikt er á eiginleikanum fyrir viðbótareiginleika tölvupósts.
+
+> [!IMPORTANT]
+> Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er ekki hægt að nota OAuth 2,0 sannvottunaraðferð.<br> Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er hægt að nota OAuth 2.0 fyrir sannvottun, en búa þarf til forritsskráningu í Azure-gáttinni og síðan keyra uppsetningarleiðbeininguna **Setja upp Azure Active Directory** í [!INCLUDE[prod_short](includes/prod_short.md)] til að tengjast við Azure AD. Frekari upplýsingar er að finna í [Búa til forritsskráningu fyrir Business Central í Azure-gátt](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Bæta tölvupóstreikningum við
 Uppsetningarleiðbeiningarnar **Setja upp tölvupóst** með hjálp geta komið þér af stað með tölvupósta.
@@ -61,9 +64,10 @@ Uppsetningarleiðbeiningarnar **Setja upp tölvupóst** með hjálp geta komið 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Setja upp tölvupóstreikninga** og veldu síðan tengda tengilinn.
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
+
 <!--
 > [!NOTE]
-> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Úthluta aðstæðum tölvupósts á tölvupóstsreikninga
@@ -89,10 +93,10 @@ Hægt er að nota skýrslur til að taka með helstu upplýsingar úr sölu-og i
 2. Á síðunni **Skýrsluval - Sala** í reitnum **Notkun** skal velja **Reikningur**.
 3. Í nýrri línu í reitnum **Skýrslukenni** skal velja t.d. staðlaða skýrslu 1306.
 4. Veljið gátreitinn **Nota fyrir meginmál tölvupósts**.
-5. Veljið reitinn **Útlitsauðkenni meginmáls tölvupósts** og veljið síðan útlit úr fellilistanum.
+5. Veljið reitinn **Lýsing á útliti meginmáls tölvupósts** og veljið síðan útlit í listanum.
 
-    Skýrsluútlit skilgreina bæði útlit og efni textans í tölvupóstinum, þ.m.t. texta á borð við kveðju eða leiðbeiningar sem koma neðst á eftir upplýsingum skjalsins. Þú sérð öll tiltæk skýrsluútlit ef þú velur **Velja af öllum listanum**.
-6. Til að skoða eða breyta útlitinu sem texti tölvupósts byggist á, veldu útlit á síðunni **Sérsniðið skýrsluútlit** og veldu síðan **Breyta útliti** aðgerðina.
+    Skýrsluútlit skilgreina bæði útlit og efni textans í tölvupóstinum, þ.m.t. texta á borð við kveðju eða leiðbeiningar sem koma neðst á eftir upplýsingum skjalsins. Ef fyrirtækið er með mörg skýrsluútlit má sjá öll tiltæk skýrsluútlit ef þú velur **Velja af öllum listanum**.
+6. Til að skoða eða breyta útlitinu sem texti tölvupósts byggist á, veldu útlit á síðunni **Sérsniðið skýrsluútlit** og veldu síðan **Uppfæra útlit** aðgerðina.
 7. Til að hægt sé að bjóða viðskiptamönnum að greiða rafrænt fyrir sölur er hægt að setja upp tengda rafræna greiðsluþjónustu, til dæmis PayPal, og láta PayPal upplýsingar og tengla í meginmál tölvupóstsins. Nánari upplýsingar eru í [Virkja greiðslur viðskiptamanns gegnum PayPal](sales-how-enable-payment-service-extensions.md).
 8. Velja hnappinn **Í lagi**.
 
@@ -140,7 +144,7 @@ Næst tengir þú [!INCLUDE[prod_short](includes/prod_short.md)] við Exchange O
 ## <a name="setting-up-email-for-business-central-on-premises"></a>Uppsetning tölvupósts fyrir Business Central á staðnum 
 [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er hægt að samþætta við þjónustur sem byggja á Microsoft Azure. Til dæmis er hægt að nota Cortana Intelligence fyrir snjallari sjóðsstreymisspá, Power BI til að sjá fyrir sér reksturinn og Exchange Online til að senda tölvupóst. Samþætting við þessar þjónustur byggist á forritsskráningu í Azure Active Directory. Forritsskráningin býður upp á sannvottun og heimildaþjónusta fyrir samskipti. Til að nota möguleika tölvupóstsins í [!INCLUDE[prod_short](includes/prod_short.md)] þarf að skrá [!INCLUDE[prod_short](includes/prod_short.md)] sem forrit í Azure-gáttinni og síðan tengja [!INCLUDE[prod_short](includes/prod_short.md)] við forritsskráninguna. Eftirfarandi hlutar útskýra hvernig.
 
-### <a name="create-an-app-registration-for-prod_short-in-azure-portal"></a>Stofna forritsskráningu fyrir [!INCLUDE[prod_short](includes/prod_short.md)] í Azure-gáttinni
+### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Búa til forritsskráningu fyrir Business Central í Azure-gátt
 Skrefunum til að skrá [!INCLUDE[prod_short](includes/prod_short.md)] inn í Azure-gáttina er lýst í [Skrá forrit í Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Stillingarnar sem miðast við möguleika tölvupóstsins eru úthlutuðu heimildirnar sem veittar eru forritsskráningunni. Í eftirfarandi töflu er listi yfir lágmarksheimildir.
 
 |Heiti API / heimildar  |Tegund  |Description  |
@@ -148,16 +152,28 @@ Skrefunum til að skrá [!INCLUDE[prod_short](includes/prod_short.md)] inn í Az
 |Microsoft Graph / User.Read |Úthlutað|Skráðu þig inn og lestu prófíl notanda.         |
 |Microsoft Graph / Mail.ReadWrite |Úthlutað|Skrifa tölvupóstskeyti.         |
 |Microsoft Graph / Mail.Send|Úthlutað|Senda tölvupóst.         |
-|Microsoft Graph / offline_access|Úthlutað|Vinna með samþykki gagnaaðgangs. <!--need to verify this-->|
+|Microsoft Graph / offline_access|Úthlutað|Vinna með samþykki gagnaaðgangs.|
 
-> [!TIP]
-> Þegar skráning forritsins er búin til skal hafa eftirfarandi upplýsingar í huga. Þær eru nauðsynlegar til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við forritsskráninguna.
-> 
-> * Kenni forrits (biðlari) 
-> * Framsenda URI (valfrjálst)
-> * Leyniorð biðlara
+Ef verið er að nota eldri SMTP-uppsetningu eða SMTP-tengilinn og ætlunin er að nota OAuth fyrir sannvottun, þá eru heimildirnar örlítið frábrugðnar. Eftirfarandi tafla sýnir heimildirnar.
+
+|Heiti API / heimildar  |Tegund  |Description  |
+|---------|---------|---------|
+|Microsoft Graph / offline_access|Úthlutað|Vinna með samþykki gagnaaðgangs.|
+|Microsoft Graph / openid|Úthlutað|Skrá notendur inn.|
+|Microsoft Graph / User.Read |Úthlutað|Skráðu þig inn og lestu prófíl notanda.         |
+|Microsoft Graph / SMTP.Send|Úthlutað|Senda tölvupóst úr pósthólfum með SMTP AUTH.         |
+|Office 365 Exchange Online / User.Read |Úthlutað|Skráðu þig inn og lestu prófíl notanda.         |
+
+Þegar skráning forritsins er búin til skal hafa eftirfarandi upplýsingar í huga. Þær eru nauðsynlegar til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við forritsskráninguna.
+ 
+* Kenni forrits (biðlari) 
+* Framsenda URI (valfrjálst)
+* Leyniorð biðlara
 
 Almennar leiðbeiningar um skráningu forrits má finna í [Stuttar leiðbeiningar: Skráið forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app). 
+
+> [!NOTE]
+Ef þú átt í vandræðum með að nota eldri SMTP-uppsetningu til að senda tölvupóst eftir að þú tengir [!INCLUDE[prod_short](includes/prod_short.md)] við forritsskráninguna, gæti það verið vegna þess að SMTP AUTH er ekki virkt fyrir leigjanda þinn. Mælt er með því að Microsoft 365 og tölvupóststengla núverandi notanda í staðinn vegna þess að hann notar Microsoft Graph Mail API. Ef þú þarft hins vegar að nota SMTP-uppsetninguna er hægt að virkja SMTP AUTH. Frekari upplýsingar er að finna í [Kveikja eða slökkva á SMTP-innsendingu (SMTP AUTH) sannvottaðs biðlara í Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Tengja [!INCLUDE[prod_short](includes/prod_short.md)] við forritsskráninguna
 Þegar forritið hefur verið skráð í Azure-gáttina, í [!INCLUDE[prod_short](includes/prod_short.md)], skal nota uppsetningarleiðbeininguna **AAD-skráning tölvupóstforrits** með hjálp til að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við það.
@@ -198,7 +214,8 @@ Almennar leiðbeiningar um skráningu forrits má finna í [Stuttar leiðbeining
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem viðskiptainnhólf þitt í Outlook](admin-outlook.md)  
-[Fáðu [!INCLUDE[prod_short](includes/prod_short.md)] í fartækið þinn](install-mobile-app.md)
-
+[Sækja [!INCLUDE[prod_short](includes/prod_short.md)] í fartækinu mínu](install-mobile-app.md)
+[Sækja [!INCLUDE[prod_short](includes/prod_short.md)] í fartækinu mínu](install-mobile-app.md)
+[Greina fjarmælingu tölvupósts (efni stjórnanda)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

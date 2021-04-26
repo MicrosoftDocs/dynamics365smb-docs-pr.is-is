@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 083692ce38e9403705c6d683afb58a17dbecec90
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6069e3d1bcfde5c7aead1daeb33b35201c9f05a4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393800"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783312"
 ---
 # <a name="personalize-your-workspace"></a>Sérstilling verksvæðis
 Þú getur sérstillt vinnusvæðið þitt til að henta vinnu þinni og óskum með því að breyta síðum þannig að þær birti einungis upplýsingarnar sem þú þarfnast þegar þú þarfnast þeirra. Breytingar á sérstillingum sem þú gerir mun aðeins hafa áhrif á það sem þú sérð, ekki hvað aðrir notendur sjá.
@@ -65,7 +65,7 @@ Eins og fyrir aðrar sérstillingar eru breytingarnar sem gerðar eru á breidd 
 |Feldu eitthvað eins og reit, dálk í lista, reit aðgerð eða hluta.|Veldu örvaoddinn og <b>Fela</b>.|Einingin er skyggð þegar þú ert í sérstilltri stillingu. Ef reiturinn sem þú felur er einnig sýndur í haus flýtiflipa þegar flýtiflipinn er dreginn saman, mun reiturinn ekki birtast þar lengur.|
 |Sýna faldar aðgerðir og hluta.|Til að skoða skyggða (falda) einingu skal velja örvaroddinn velja síðan <b>Sýna</b>.|Falinn hluti er aftur sýnilegur.|
 |Bæta við reit eða dálki.|Á borðanum <b>Sérstilling</b> er aðgerðin <b>+ Reitur</b> valin.<br /></br><b>Bæta reit á síðu</b> svæðið opnast til hægri. Það birtir reitina sem hægt er að bæta við síðuna.<br /><br />Til að bæta við reit skaltu draga hann af svæðinu þangað sem þú vilt. Staðsetningin er auðkennd annaðhvort með þykkri láréttri eða lóðréttri línu.|Hver síða inniheldur fyrirfram skilgreint safn reita sem hægt er að birta. Notaðu þetta ferli til að bæta við reitum eða dálkum sem hafa ekki verið sýndir áður eða til að sýna reiti sem þú hefur falið.|
-|Sýndu reit í haus flýtiflipa þegar flýtiflipinn er minnkaður.|Veldu örvaoddinn og veldu svo <b>Sýna þegar dregið saman</b>. <br /> <br />Ef þú sérð ekki þennan valkost þá er hann þegar settur. Í þessu tilfelli, til að hætta að sýna reitinn í haus flýtiflipans, skal velja <b>Sýna alltaf</b>.|*Flýtiflipi* er hugtakið sem er notað um flokk af reitum sem birtast undir sameiginlegri fyrirsögn. Notaðu valkostinn <b>Sýna þegar dregið saman</b> til að birta mikilvægustu reitina. Ef þú velur reit í hausnum, mun flýtiflipinn opnast og setja áhersluna á valinn reit.<br /><br />Þessi valkostur gildir aðeins ef síða er með fleiri en einn flýtiflipa. Ef aðeins er einn flýtiflipi er ekki hægt að minnka hann, þannig að valkosturinn <b>Sýna þegar dregið saman</b> er ekki fyrir hendi.|
+|Sýna reit í haus flýtiflipa þegar hann er minnkaður.|Veldu örvaoddinn og veldu svo <b>Sýna þegar dregið saman</b>. <br /> <br />Ef þú sérð ekki þennan valkost þá er hann þegar settur. Í þessu tilfelli, til að hætta að sýna reitinn í haus flýtiflipans, skal velja <b>Sýna alltaf</b>.|*Flýtiflipi* er hugtakið sem er notað um flokk af reitum sem birtast undir sameiginlegri fyrirsögn. Notaðu valkostinn <b>Sýna þegar dregið saman</b> til að birta mikilvægustu reitina. Ef þú velur reit í hausnum, mun flýtiflipinn opnast og setja áhersluna á valinn reit.<br /><br />Þessi valkostur gildir aðeins ef síða er með fleiri en einn flýtiflipa. Ef aðeins er einn flýtiflipi er ekki hægt að minnka hann, þannig að valkosturinn <b>Sýna þegar dregið saman</b> er ekki fyrir hendi.|
 |Aðeins birta reit þegar þú velur **Sýna meira**.|Veldu örvaroddinn og <b>Sýna undir „Sýna meira“</b>. <br /> <br />Ef þú sérð ekki valkostinn <b>Sýna undir „Sýna meira“</b> er hann þegar settur. Í þessu tilviki, til að láta reit alltaf sjást, ekki bara þegar þú velur **Sýna meira** skaltu velja <b>Sýna alltaf</b>.||
 |Breyta föstum svæði í lista í annan dálk. |Veldu örina í dálknum sem þú vilt nota sem síðasta dálk í festu svæði og veldu síðan <b>Stilla Fast svæði</b>.<br /><br/>Ef þú vilt stilla fasta svæðinu aftur á upphaflega staðsetningu skaltu velja örina fyrir fasta dálkinn og velja <b>Hreinsa Fast svæði</b>. Athugaðu: Ekki er hægt að fjarlægja þetta fasta svæði.|Fast svæði tilgreinir dálkana sem birtast alltaf til vinstri, jafnvel þótt þú skrunir lárétt.|  
 |Hoppa yfir reit þegar ýtt er á Enter.|Veldu örvaroddinn við hliðina á reitnum, eða dálkahaus í lista, og veldu **Útiloka frá flýtifærslu**. <br /><br /> Ef þú sérð ekki þennan valkost þá er reiturinn þegar stilltur þannig að honum verði sleppt. Í þessu tilfelli, til að hætta að sleppa reitnum, skal velja **Hafa með í flýtifærslu**. |Sjá [Hraða gagnaskráningu með flýtifærslu](ui-enter-data.md#QuickEntry)|

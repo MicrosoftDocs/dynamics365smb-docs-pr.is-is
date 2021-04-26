@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/02/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493279"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771340"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Business Central Online sérstillt með viðbótum
 
@@ -79,6 +79,27 @@ Microsoft veitir eftirfarandi viðbætur:
 > [!NOTE]  
 > Hægt er að fylgjast með nýjum viðbótum frá Microsoft og öðrum birgjum á [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
+
+## <a name="extensions-and-data-transfer"></a>Viðbætur og gagnaflutningur
+
+Þar sem eftirfarandi viðbætur eru í samskiptum við aðra þjónustu kunna þær að flytja gögn út úr svæði [!INCLUDE[prod_short](includes/prod_short.md)] umhverfisins:
+
+* AMC Banking 365 Fundamentals Viðbót
+* Myndgreinandi
+* Greiðsludráttarspá
+* PayPal Payments Standard
+* Sölu- og birgðaspár
+* WorldPay Payments Standard
+
+Þetta á einnig við um suma virkni í grunnforritinu, svo sem eftirfarandi eiginleika:
+
+* Sjóðstreymisspá
+* Skjalaskiptaþjónusta
+* Dataverse tengingar
+* OCR-þjónusta
+* Tengd vörpun
+* VSK-skráningarnúmer innan ESB. Þjónusta
+
 ## <a name="see-also"></a>Sjá einnig
 
 [Sérstilla Business Central](ui-customizing-overview.md)  
@@ -88,7 +109,7 @@ Microsoft veitir eftirfarandi viðbætur:
 [Yfirfæra viðskiptagögn úr öðrum fjárhagskerfum](across-import-data-configuration-packages.md)  
 [Setja upp GetAddress.io UK Postal Code viðbótina](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Viðbætur frá öðrum veitum](ui-extensions-other.md)  
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

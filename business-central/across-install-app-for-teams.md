@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 10/08/2020
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 34d8ae185ba705e42c700a0c2089dea77351cee6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 868915ebe6a41153d59550f74a955a3ce00b4b15
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379174"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882131"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams
 
@@ -24,6 +24,10 @@ ms.locfileid: "5379174"
 Í þessari grein verður útskýrt hvernig á að setja upp [!INCLUDE [prod_short](includes/prod_short.md)] fyrir [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Forritið er í boði á markaðstorgi Teams og hægt er að nota það með Teams-vefnum, á skjáborði eða í farsímaforriti.
 
 ## <a name="prerequisites"></a>Frumskilyrði
+
+- [!INCLUDE [prod_short](includes/prod_short.md)]-notandareikningur á netinu er nauðsynlegur fyrir [!INCLUDE [prod_short](includes/prod_short.md)]-forrit fyrir Teams.
+
+    Ef ekki er öruggt hvort reikningur er til staðar eða ef innskráningarupplýsingar vantar skal hafa samband við stjórnanda innan fyrirtækisins til að fá aðstoð við að hefjast handa.
 
 - Aðgangur að Teams-skjáborðsforriti eða Teams í vafranum. Ekki er hægt að setja upp [!INCLUDE [prod_short](includes/prod_short.md)] með því að nota farsímaforrit Teams.
 
@@ -43,7 +47,7 @@ Hægt er að setja upp Business Central á tvennan hátt:
 
     ![Setja upp Business Central í Teams](media/teams-install-app.png)
 
-3. Veljið **Bæta við fyrir mig**.
+3. Veljið **Bæta við**.
 
 **Valkostur 2**
 
@@ -51,7 +55,10 @@ Hægt er að setja upp Business Central á tvennan hátt:
 2. Vinstra megin skal velja **Forrit**.
 3. Leitið að **Business Central**.
 4. Veljið forritið þegar þið finnið það.
-5. Veljið **Bæta við fyrir mig**.
+5. Veljið **Bæta við**.
+
+> [!NOTE]
+> Sama hvor valkosturinn er valinn kann notandinn að vera beðinn um að skrá sig inn í [!INCLUDE [prod_short](includes/prod_short.md)]. Veljið **innskráningartengil** og fylgið leiðbeiningunum til að færa inn innskráningarnafn og aðgangsorð fyrir [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="next-step"></a>Næsta skref
 

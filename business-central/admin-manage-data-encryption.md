@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4452d59814cdd558bd4fdff9e8589f92d0fc4d8e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2be2d73c21ec0c2701bf9e9d63b1213ae9370975
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378099"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786833"
 ---
 # <a name="managing-data-encryption"></a>Stjórnun gagnadulritunar
 Hægt er að dulrita gögn á [!INCLUDE[prod_short](includes/prod_short.md)] netþjóninum með því að stofna nýjan dulritunarlykil eða flytja inn fyrirliggjandi lykla sem eru virkjaðir er á [!INCLUDE[prod_short](includes/prod_short.md)] netþjónstilviki sem tengist við gagnagrunninn.

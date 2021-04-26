@@ -7,18 +7,18 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
-ms.openlocfilehash: 1cc9f712994c1b612b7e390a0281b823889a8bf9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.date: 04/01/2021
+ms.openlocfilehash: 8ddf4413b6ecb35bcca9873ef4bb99db75642563
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378649"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773130"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Tengir við Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-Viðskiptaforrit nota oft gögn frá fleiri en einum uppruna. [!INCLUDE[prod_short](includes/cds_long_md.md)] sameinar gögn í einn grunn sem auðveldar að tengja önnur Dynamics 365 forrit, t.d. [!INCLUDE[crm_md](includes/crm_md.md)] eða þitt eigið forrit smíðað ofan á [!INCLUDE[prod_short](includes/cds_long_md.md)], við [!INCLUDE[prod_short_md](includes/prod_short.md)]. Frekari upplýsingar um [!INCLUDE[prod_short](includes/cds_long_md.md)] er að finna í [Hvað er Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+Viðskiptaforrit nota oft gögn frá fleiri en einum uppruna. [!INCLUDE[prod_short](includes/cds_long_md.md)] sameinar gögn í einn grunn sem auðveldar að tengja önnur Dynamics 365 forrit, t.d. [!INCLUDE[crm_md](includes/crm_md.md)] eða þitt eigið forrit smíðað ofan á [!INCLUDE[prod_short](includes/cds_long_md.md)], við [!INCLUDE[prod_short_md](includes/prod_short.md)]. Frekari upplýsingar um [!INCLUDE[prod_short](includes/cds_long_md.md)] er að finna í [Hvað er Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
 Eftirfarandi skref veita yfirlit yfir skrefin til að samþætta [!INCLUDE[prod_short](includes/cds_long_md.md)] við [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -32,7 +32,7 @@ Eftirfarandi skref veita yfirlit yfir skrefin til að samþætta [!INCLUDE[prod_
 3. Samstilltu gögn milli forrita. Frekari upplýsingar er að finna í [Samstilling Business Central og Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
 ## <a name="getting-started-with-prod_short"></a>Hafist handa með [!INCLUDE[prod_short](includes/cds_long_md.md)]
-Til að hefjast handa með [!INCLUDE[prod_short](includes/cds_long_md.md)] þarf Microsoft Power Apps reikning. Ef þú ert ekki þegar með Power Apps-reikning er hægt að fá einn ókeypis með því að fara á [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og velja tengilinn **Hefjumst handa ókeypis**. Frekari upplýsingar um hvernig hafist er handa með [!INCLUDE[prod_short](includes/cds_long_md.md)] er að finna í einingunni [Hafist handa með Dataverse](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) úr Microsoft Learn.
+Til að hefjast handa með [!INCLUDE[prod_short](includes/cds_long_md.md)] þarf Microsoft Power Apps reikning. Ef þú ert ekki þegar með Power Apps-reikning er hægt að fá einn ókeypis með því að fara á [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og velja tengilinn **Hefjumst handa ókeypis**. Frekari upplýsingar um hvernig hafist er handa með [!INCLUDE[prod_short](includes/cds_long_md.md)] er að finna í einingunni [Hafist handa með Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) úr Microsoft Learn.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Gagnasamstilling í báðar áttir eða aðra áttina
 Háð viðskiptaþörfum, er hægt að setja upp samþættinguna til að samstilla gögn annaðhvort til eða frá einu Dynamics 365 viðskiptaforriti til annars, eða í báðar áttir í næstum rauntíma í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)]. Ef þú til dæmis samþættar [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[crm_md](includes/crm_md.md)] í gegnum [!INCLUDE[prod_short](includes/cds_long_md.md)] getur sölumaður búið til sölupöntun í [!INCLUDE[crm_md](includes/crm_md.md)] og pöntunin verður samstillt við [!INCLUDE[prod_short](includes/prod_short.md)]. Á móti, úr [!INCLUDE[crm_md](includes/crm_md.md)], getur sölumaður skoðað upplýsingar úr [!INCLUDE[prod_short](includes/prod_short.md)] um framboð vörunnar í pöntuninni. 

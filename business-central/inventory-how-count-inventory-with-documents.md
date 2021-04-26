@@ -1,31 +1,32 @@
 ---
-title: Birgðatalning með virkni sem byggir á skjali
-description: Útskýra hvernig á að framkvæma efnislega birgðatalningu með því að nota síður fyrir efnislega birgðapöntun og skráningu efnislegra birgða.
+title: Telja og leiðrétta birgðir
+description: Útskýrir hvernig á að framkvæma efnislega birgðatalningu með því að  nota síður fyrir Efnislegar birgðapantanir  og Skráning raunbirgða og gera leiðréttingar með birgjaskjölum.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/20/2020
+ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: be22209240f3bff70619a31f60cb0acac7e51228
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393174"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785949"
 ---
-# <a name="count-inventory-using-documents"></a>Birgðatalning með skjölum
+# <a name="count-and-adjust-inventory-using-documents"></a>Telja og leiðrétta birgðir með skjölum
 
 Hægt er að gera efnislega birgðatalningu á vörunum þínum með því að nota skjöl fyrir efnislega birgðapöntun og skráningu efnislegra birgða. Síðan **Pöntun efnislegra birgða** er notuð til að skipuleggja verk ítarlegrar birgðatalningar, t.d. ein á hverja staðsetningu. Síðan **Skráning efnislegra birgða** er notuð til að koma á framfæri og sækja rauntalningu á vörum. Hægt er að búa til margar skráningar fyrir eina pöntun, t.d. til að dreifa flokkum af vörum á mismunandi starfsmenn.
 
 Skýrslan **Skráning efnislegra birgða** er hægt að prenta úr hverri skráningu og inniheldur tóma magnreiti sem taldar birgðir eru færðar inn í. Þegar notandi hefur lokið talningu og magnið hefur verið fært inn á síðuna **Skráning efnislegra birgða**, velur þú aðgerðina **Klára**. Þetta flytur magnið til tengdra lína á síðunni **Pöntun efnislegra birgða**. Virknin tryggir að ekki er hægt að skrá neina vörutalningu tvisvar.  
 
 > [!NOTE]
-> Þessi grein útskýrir hvernig á að framkvæma talningu á efnislegum birgðum með því að nota skjöl, aðferð sem veitir meiri stjórn og styður dreifingu á talningu til margra starfsmanna. Einnig er hægt að framkvæma verkið með því að nota færslubækur, t.d. síðurnar **Raunbirgðabækur** og **Raunbirgðabækur vöruhúss**. Nánari upplýsingar er að finna í [Telja, leiðrétta og endurflokka birgðir með færslubókum](inventory-how-count-adjust-reclassify.md).<br /><br />
-> Athugaðu að ef þú notar virkni fyrir svæði geturðu ekki notað pantanir efnislegra birgða. Í staðinn skal nota síðuna **Raunbirgðabók vöruhúss** til að telja vöruhúsafærslurnar þínar áður en þær eru samstilltar við birgðabókafærslur.
+> Notkun skjala til að framkvæma talningu á efnislegum birgðum veitir meiri stjórn og styður dreifingu á talningu til margra starfsmanna. Einnig er hægt að framkvæma verkið með því að nota færslubækur, t.d. síðurnar **Raunbirgðabækur** og **Raunbirgðabækur vöruhúss**. Nánari upplýsingar er að finna í [Telja, leiðrétta og endurflokka birgðir með færslubókum](inventory-how-count-adjust-reclassify.md). Hvernig á að framkvæma raunbirgðatalningu með skjölum.
+>
+> Ef verið er að nota svæði, þá er ekki hægt að nota efnislegar birgðapantanir. Í staðinn skal nota síðuna **Raunbirgðabók vöruhúss** til að telja vöruhúsafærslurnar þínar áður en þær eru samstilltar við birgðabókafærslur.
 
 Birgðatalning með því að nota skjöl samanstendur af eftirfarandi skrefum:
 
@@ -77,7 +78,6 @@ Sjálfgefið er að skráning sé stofnuð fyrir allar línurnar í tengdri pön
 9. Veldu aðgerðina **Prenta** til að undirbúa efnislegt skjal sem starfsmenn munu nota til að skrifa niður talið magn.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>Að ljúka skráningu á efnislegum birgðum
-
 Þegar starfsmenn hafa talið birgðamagnið verður þú að búa þig undir að skrá það í kerfið.
 
 1. Úr síðunni **Listi yfir efnislegar birgðaskráningar** skal velja skráningu efnislegra birgða sem á að klára og síðan velja aðgerðina **Breyta**.
@@ -185,8 +185,52 @@ Vara rakin eftir lotu er geymd í birgðum með númeraröðunum „LOTA“.
 
 Á síðunni **Pöntun efnislegra birgða** mun reiturinn **Neikvætt magn (grunnur)** innihalda *8*. Fyrir pöntunarlínunina sem um ræðir mun síðan **Listi yfir vörurakningu efnislegra birgða** innihalda jákvætt og neikvætt magn fyrir hvert lotunúmer.
 
-## <a name="see-also"></a>Sjá einnig
+## <a name="inventory-documents"></a>Birgðaskjöl
+Eftirfarandi gerðir skjala eru gagnlegar til að stjórna vöruhúsinu:
 
+- Notið **Innhreyfingar birgða** til að skrá jákvæðar leiðréttingar á vörum út frá gæðum, magni og kostnaði.
+- Notið **Birgðaafhendingar** til að afskrifa týndar eða skemmdar vörur.
+
+Hægt er að prenta þessi skjöl á hvaða stigi sem er, losa þau og opna þau aftur og úthluta almennum gildum, þ.m.t. víddum, í hausnum. Ef ætlunin er að endurprenta skjölin eftir að þau hafa verið bókuð er hægt að gera það á síðunum **Bókuð birgðainnhreyfing** og **Bókuð birgðaafhending**.
+
+> [!NOTE]
+> Áður en hægt er að nota þessi skjöl þarf að tilgreina númeraröð til að búa til auðkennin. Nánari upplýsingar er að finna í næsta hluta.
+
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Að setja upp númeraröð fyrir birgðaskjöl
+Þessi verklýsing sýnir hvernig á að búa til númeraröð fyrir birgðaskjöl.
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðauppsetning** og veldu síðan tengda tengilinn.
+2. Í flýtiflipanum **Tölusetning** skal tilgreina í eftirfarandi reitum númeraraðir fyrir skjöl:
+   - **Birgðainnhreyfingarnr.**  
+   - **Bókuð birgðamóttökunr.**  
+   - **Birgðaafhendingarnr.**  
+   - **Bókuð birgðaafhendingarnr.**  
+
+### <a name="to-create-and-post-an-inventory-document"></a>Að stofna og bóka birgðaskjal
+Eftirfarandi ferli sýnir hvernig á að stofna, prenta og bóka birgðamóttöku. Skrefin eru svipuð fyrir birgðaafhendingar.
+
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðamóttaka** og veldu síðan tengda tengilinn.  
+2. Í haus síðunnar **Birgðamóttaka** skal velja staðsetninguna í reitnum **Staðsetningarkóði** og síðan fylla út eftirstandandi reiti eftir þörfum.
+3. Á flýtiflipanum **Línur** í reitnum **Vara** skal velja birgðavöruna. Í reitinn **Magn** er fært magn vara sem á að bæta við. 
+4. Til að prenta skýrslu **Birgðamóttöku** á síðunni **Birgðamóttaka** skal velja aðgerðina **Prenta**.
+
+Eftirfarandi aðgerðir eru í boði á síðunni **Birgðamóttaka**:
+
+- Veljið aðgerðina **Losa** eða **Enduropna** til að stilla stöðuna fyrir næsta úrvinnslustig  
+- Veljið aðgerðina **Bóka** til að bóka birgðamóttökuna eða veljið **Bóka og prenta** til að bóka móttökuna og prenta prufuskýrsluna  
+
+## <a name="printing-inventory-documents"></a>Prentun birgðaskjala
+Hægt er að tilgreina skýrslurnar sem þarf að prenta á mismunandi stigum með því að velja einn af eftirfarandi valkostum í reitnum **Notkun** á síðunni **Skýrsluval - Birgðir**:
+
+- Birgðamóttaka
+- Birgðaafhending
+- Bókuð birgðamóttaka
+- Bókuð birgðaafhending
+
+> [!NOTE]
+> Tiltækar skýrslur kunna að vera mismunandi eftir staðfæringu landsins. Grunnforritið inniheldur ekkert útlit.
+
+## <a name="see-also"></a>Sjá einnig
 [Talning, breytingar og endurflokkun birgða með færslubókum](inventory-how-count-adjust-reclassify.md)  
 [Vinna með rað- og lotunúmer](inventory-how-work-item-tracking.md)  
 [Birgðir](inventory-manage-inventory.md)  

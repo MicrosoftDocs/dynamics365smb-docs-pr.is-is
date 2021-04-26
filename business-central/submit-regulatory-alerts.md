@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380357"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784841"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sendu inn viðvaranir um eftirlitseiginleika sem miðast við tiltekið land/svæði
 
@@ -52,7 +52,7 @@ Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að
         |Description  | Færðu inn stutta samantekt á lögunum. Lýsingin ætti að vera um vandamál sem tengjast skipulagsáætlun fyrirtækisins (ERP) svo notandinn geti almennilega skilið kröfurnar án þess að þurfa að lesa reglugerðina fyrst.|
         |Land  | Tilgreindu landið eða svæðið sem reglugerðin nær yfir.|
         |Iðnaður| Tilgreindu atvinnugreinina ef krafan á aðeins við um tilteknar atvinnugreinar. Veldu til dæmis **Opinberi geirinn**, **Smásala** eða **Framleiðsla**.|
-        |Tilvísun eiginleika  | Þetta skiptir ekki máli fyrir Dynamics 365 Business Central, en þú getur slegið inn tilvísun eiginleika ef þú þekkir hana. Lista yfir eiginleika fyrir tiltekna landið er að finna í [Staðfærslugáttinni](https://docs.microsoft.com/dynamics/s-e/) á CustomerSource vefsvæðinu. |
+        |Tilvísun eiginleika  | Þetta skiptir ekki máli fyrir Dynamics 365 Business Central, en þú getur slegið inn tilvísun eiginleika ef þú þekkir hana. Lista yfir eiginleika fyrir tiltekna landið er að finna í [Staðfærslugáttinni](/dynamics/s-e/) á CustomerSource vefsvæðinu. |
         |Dagsetning þegar lög taka gildi  | Tilgreindu dagsetninguna þegar viðskiptavinir verða að fylgja lögunum.|
         |Dagsetning tilkynningar frá yfirvöldum  | Tilgreindu dagsetningu þegar yfirvöld tilkynntu breytinguna.|
         |Síðasta innlagningardagsetning  | Veldu tímamörk fyrir fyrstu innsendingu á nýju eða breyttu skýrslunni.|
@@ -76,7 +76,7 @@ Við bjóðum þér að nota Microsoft Dynamics Lifecycle Services (LCS) til að
 
 [Staðbundin virkni í [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Breyta tungumáli og landsstaðli](about-locale-language.md)  
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Velkomin(n) í Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

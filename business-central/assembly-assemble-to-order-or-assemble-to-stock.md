@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c9341e68ef47bbb2614db2b5c9db40bf6cac2403
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 80164400380a600674061349b873e5d1159d2cb3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380682"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773030"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Skilja hvernig skal setja saman í pöntun eða setja saman í birgðir
 Samsetningarvörur geta verið veittar í eftirfarandi tvo ferla:  
@@ -72,8 +72,8 @@ Yfirleitt er *setja saman í pöntun* notað fyrir vörur sem ekki á að setja 
 
  Eftirfarandi tafla útskýrir reglurnar sem skilgreina lágmarks- og hámarksgildi sem hægt er að færa inn í reitinn **Magn til samsetningar** til að víkja frá sjálfgildinu í samsetningardæmi. Taflan sýnir samsetningardæmi þar sem reiturinn **Magn afhent** í tengdu sölupöntunarlínunni er breytt úr 7 í 4 og **Magn sett saman** verður þess vegna að sjálfgefnu 4.  
 
-|-|Sölupantanalína|Samsetningarpöntunarhaus|  
-|-|----------------------|---------------------------|  
+|-|Sölupantanalína|Samsetningarpöntunarhaus|||||||  
+|-|----------------------|---------------------------|-|-|-|-|-|-|  
 ||**Magn**|**Magn til afhendingar**|**Magn til samsetningar til pöntunar**|**Afhent magn**|**Magn**|**Magn til samsetningar**|**Samsett magn**|**Eftirstöðvar (magn)**|  
 |Byrjun|10|7|7|0|7|7|0|7|  
 |Breyting||4||||4 (sett inn sjálfgefið)|||  

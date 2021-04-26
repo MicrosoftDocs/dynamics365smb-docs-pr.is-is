@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08b7f6c092267b965af491cd80144950db138c3d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388700"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786808"
 ---
 # <a name="reconcile-bank-accounts"></a>Afstemma bankareikninga
 
@@ -40,11 +40,11 @@ Afstemming bankafærsla við innri bankafærslur er kölluð *samsvörun*. Hægt
 
 Allar línur sem ekki er hægt að jafna, gefið til kynna með gildi í reitnum **Mismunur**, verða áfram á síðunni **Afstemming bankareiknings** eftir bókun. Þær tákna einhverskonar misræmi sem nauðsynlegt er að leysa úr áður en hægt er að ljúka afstemmingu bankareiknings. Dæmigerðar aðstæður fyrirtækis sem gætu valdið mismun:
 
-|Mismunur|Ástæða|Upplausn|
-|-|-|
-|Færsla á innri bankareikningi er ekki á bankayfirlitinu.|Bankafærslan kom ekki upp þrátt fyrir að bókun væri gerð í [!INCLUDE[prod_short](includes/prod_short.md)].|Klárið peningafærsluna sem vantar (eða biðjið skuldunaut um að klára færsluna) og flytjið síðan aftur inn bankayfirlitsskrána eða færið færsluna inn handvirkt.|
-|Færsla á bankayfirliti er ekki til sem fylgiskjal eða færslubókarlína í [!INCLUDE[prod_short](includes/prod_short.md)].|Bankafærsla var gerð án samsvarandi bókunar í [!INCLUDE[prod_short](includes/prod_short.md)], til dæmis bókun færslubókarlínu fyrir kostnað.|Búið til og bókið færsluna sem vantar. Upplýsingar um fljótlega leið til að koma þessu í verk er að finna í [Að stofna fjárhagsfærslur sem vantar til að jafna bankafærslur við](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
-|Færsla á innri bankareikningi samsvarar bankafærslu en einhverjar upplýsingar eru of ólíkar til að gefa samsvörun.|Upplýsingar, t.d. upphæð eða nafn viðskiptavinar, voru færðar inn á annan hátt í tengslum við bankafærsluna eða innri bókun.|Yfirfara skal upplýsingarnar og síðan jafna færslurnar tvær. Einnig er rétt að leiðrétta misræmi í upplýsingum.||
+| Mismunur | Ástæða | Upplausn |
+|------------|--------|------------|
+| Færsla á innri bankareikningi er ekki á bankayfirlitinu. | Bankafærslan kom ekki upp þrátt fyrir að bókun væri gerð í [!INCLUDE[prod_short](includes/prod_short.md)]. | Klárið peningafærsluna sem vantar (eða biðjið skuldunaut um að klára færsluna) og flytjið síðan aftur inn bankayfirlitsskrána eða færið færsluna inn handvirkt. |
+| Færsla á bankayfirliti er ekki til sem fylgiskjal eða færslubókarlína í [!INCLUDE[prod_short](includes/prod_short.md)]. | Bankafærsla var gerð án samsvarandi bókunar í [!INCLUDE[prod_short](includes/prod_short.md)], til dæmis bókun færslubókarlínu fyrir kostnað. | Búið til og bókið færsluna sem vantar. Upplýsingar um fljótlega leið til að koma þessu í verk er að finna í [Að stofna fjárhagsfærslur sem vantar til að jafna bankafærslur við](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with). |
+| Færsla á innri bankareikningi samsvarar bankafærslu en einhverjar upplýsingar eru of ólíkar til að gefa samsvörun. | Upplýsingar, t.d. upphæð eða nafn viðskiptavinar, voru færðar inn á annan hátt í tengslum við bankafærsluna eða innri bókun. | Yfirfara skal upplýsingarnar og síðan jafna færslurnar tvær. Einnig er rétt að leiðrétta misræmi í upplýsingum. |
 
 Nauðsynlegt er að leysa úr muninum, til dæmis með því að stofna færslur sem vantar og leiðrétta upplýsingar sem samsvarast ekki, eða með því að klára peningafærslur sem vantar, þar til afstemmingu bankareiknings er lokið og hún bókuð.
 
@@ -57,7 +57,10 @@ Hægt er að fylla á **Bankayfirlitslínur** svæðið á síðunni **afstemmin
 
 Svæðið **Bankayfirlitslínur** verður fylllt út með bankafærslum í samræmi við innflutta skrá eða streymi sem bankinn lætur í té.
 
-Til að virkja innflutning bankayfirlits, verður þú að setja upp og virkja Envestnet Yodlee Bank Feed þjónustu og tengja síðan bankareikningana við viðkomandi netbankareikninga. Frekari upplýsingar eru í [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md).
+Til að virkja innflutning bankayfirlits, verður þú að setja upp og virkja Envestnet Yodlee Bank Feed þjónustu og tengja síðan bankareikningana við viðkomandi netbankareikninga. Frekari upplýsingar eru í [Setja upp Envestnet Yodlee Bank Feeds þjónustuna](bank-how-setup-bank-statement-service.md).  
+
+> [!TIP]
+> Einnig er hægt að flytja inn bankayfirlitsskrár á sniði kommu eða semíkommu (.CSV). Notið **Setja upp snið bankayfirlitsskráar** uppsetninguna með hjálp til að skilgreina innflutningssnið bankayfirlits og festa sniðið við bankareikning. Síðan er hægt að nota þessi snið þegar bankayfirlit er flutt inn á síðuna **Afstemming bankareiknings**.
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Afstemming bankareiknings** og veldu síðan tengda tengilinn.
 2. Valið er **Nýtt** aðgerð.

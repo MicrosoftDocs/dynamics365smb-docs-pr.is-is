@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c46aa4f920924c4b1d11f3d6ef636ce96feb22f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385550"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781457"
 ---
-# <a name="setting-up-prod_short"></a>Setur upp [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-prod_short"></a>Yfirlit yfir verkefni til að setja upp [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.
+[!INCLUDE[prod_short](includes/prod_short.md)] inniheldur staðlaðar grunnstillingar á flestum viðskiptaferlum en hægt er að breyta stillingum í samræmi við þarfir fyrirtækisins.  
 
 Til dæmis er yfirlit yfir reikninga áfyllt með fjölda pósthólf sem eru tilbúnar til notkunar. Að sjálfsögðu geturðu breytt bókhaldslyklinum til að uppfylla þarfir þínar. Frekari upplýsingar eru í [Fjármál](finance.md).
 
-Frá ![Sprocket tákninu til að opna Stillingavalmynd](media/ui-experience/settings_icon_small.png), er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[prod_short](includes/prod_short.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningarsíðum með hjálp og handvirkum uppsetningarsíðum eru í [Undirbúningur fyrir viðskipti](ui-get-ready-business.md).
+Frá ![Sprocket tákninu til að opna Stillingavalmynd](media/ui-experience/settings_icon_small.png), er hægt að fá aðgang að uppsetningarleiðbeiningum sem hjálpa þér að stilla ákveðnar aðstæður og bæta eiginleikum við [!INCLUDE[prod_short](includes/prod_short.md)]. Upplýsingar um það hvernig aðgangur fæst að öllum uppsetningarsíðum með hjálp og handvirkum uppsetningarsíðum eru í [Undirbúningur fyrir viðskipti](ui-get-ready-business.md).  
+
+> [!NOTE]
+> [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
 Hægt er að setja upp nokkrar aðgerðir, annaðhvort almennar eða fyrir tilteknar viðskiptaferðir, handvirkt í viðbót við leiðbeiningar um uppsetningu með hjálp. Eftirfarandi sýnir nokkrar aðgerðir sem hægt er að setja upp handvirkt.
 
@@ -73,7 +76,7 @@ Sum svæði krefjast þess að þú sért stjórnandi í [!INCLUDE[prod_short](i
 [Vöruhúsastjórnun](warehouse-manage-warehouse.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Stofna ný fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

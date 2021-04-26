@@ -2,16 +2,16 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 01/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 539ee2eb2c9e4a71eacfb78d95320870128fb1d9
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 95121642b62f33ea1fc160c103ee845816706530
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470288"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778648"
 ---
-Þegar allar vörur hafa verið færðar í sölulínurnar er hægt að reikna reikningsafslátt af öllu skjalinu með því að velja aðgerðina **Reikna reikningsafsl**.
+Þegar allar vörur hafa verið færðar sem línur er hægt að reikna reikningsafslátt af öllu söluskjalinu með því að velja aðgerðina **Reikna reikningsafsl**.
 
 Afslátturinn er reiknaður byggt á öllum línum í söluskjalinu fyrir vörur þar sem **Já** er í reitnum **Reikna reikningsafslátt**. Þetta er sjálfgefin stilling fyrir vörur. Línur með kostnaðarauka eru til dæmis ekki teknar með í útreikningi reikningsafsláttar. Ef nota á afslátt á slíkar línur verður að stilla reitinn **Línuafsláttur %** í línunni sem á við.  
 

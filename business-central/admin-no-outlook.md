@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e3bc85af3aacf1865ea4d426178795de5b6eb8b2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4597b59c846ef7016bff26b1c14901ac17a2fb5d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377974"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777467"
 ---
 # <a name="using-business-central-without-outlook"></a>Nota Business Central án Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] hefur mikla samþættingu við Microsoft 365 og þú getur notað [!INCLUDE[prod_short](includes/prod_short.md)] sem fyrirtækisinnhólf í Outlook. En ef þú ert ekki með Outlook, geturðu unnið með [!INCLUDE[prod_short](includes/prod_short.md)] í vafra eða á fartækinu þínu.  
@@ -25,7 +25,7 @@ Hægt er að senda skjöl, svo sem reikningum sem tölvupóst með tölvupóstfa
 
 
 ## <a name="see-also"></a>Sjá einnig
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Notkun Business Central sem fyrirtækjainnhólf í Outlook](admin-outlook.md)  
 [Sækja Business Central í fartækið mitt](install-mobile-app.md)  
 [Senda skjöl í tölvupósti](ui-how-send-documents-email.md)

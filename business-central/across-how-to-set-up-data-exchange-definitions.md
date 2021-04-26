@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c89f605849d60f25a1ee46f9382d4275ff9ab088
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384325"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774687"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Setja upp skilgreiningar gagnaskipta
 Hægt er að setja upp [!INCLUDE[prod_short](includes/prod_short.md)] til að skiptast á gögnum í tilgreindum töflum með gögnum á ytri skjölum, til dæmis senda og taka á móti rafrænum skjölum, flytja inn og flytja út bankagögn eða önnur gögn, t.d. launaskrá, gengi gjaldmiðils og vörulista. Frekari upplýsingar eru í [Rafræn gagnaskipti](across-data-exchange.md).  
@@ -95,8 +95,8 @@ Að stofna skilgreiningu gagnaskipta felur í sér tvö verkefni:
     |**Dálknr.**|Tilgreinið númerið sem endurspeglar stöðu dálksins á línu í skránni.<br /><br /> Fyrir XML-skrár skal tilgreina töluna sem endurspeglar gerð staks í skránni sem inniheldur gögnin.|  
     |**Heiti**|Tilgreinið heiti dálksins.<br /><br /> Fyrir XML-skrár skal tilgreina kóðann sem merkir gögnin sem á að skipta um.|  
     |**Tegund gagna**|Tilgreinið hvort gögn til að skipta eru af taginu **Texti**, **Dagsetning** eða **Tugakerfi**|  
-    |**Gagnasnið**|Tilgreinið snið gagnanna ef einhver er. Til dæmis **MM-dd-áááá** ef gagnagerðin er  **Dagsetning**. **Athugið:**  Til að flytja út, tilgreinið gagnasnið í samræmi við [!INCLUDE[prod_short](includes/prod_short.md)]. Til að flytja inn skal tilgreina gagnasnið í samræmi við .NET rammann. Frekari upplýsingar eru í [strengjum með sniðum fyrir staðlaðar dagsetningar og tíma](https://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Menning gagnasniðs**|Tilgreinið menningu gagnasniðs, ef einhver er. Til dæmis **en-US** ef gagnagerðin er **Tugastafur** til að tryggja að komma sé notuð sem skiltákn milli þúsunda, .000, samkvæmt bandaríska kerfinu. Frekari upplýsingar eru í [strengjum með sniðum fyrir staðlaðar dagsetningar og tíma](https://go.microsoft.com/fwlink/?LinkID=323466). **Athugið:**  Þessi reitur er aðeins gildur fyrir innflutning.|  
+    |**Gagnasnið**|Tilgreinið snið gagnanna ef einhver er. Til dæmis **MM-dd-áááá** ef gagnagerðin er  **Dagsetning**. **Athugið:**  Til að flytja út, tilgreinið gagnasnið í samræmi við [!INCLUDE[prod_short](includes/prod_short.md)]. Til að flytja inn skal tilgreina gagnasnið í samræmi við .NET rammann. Frekari upplýsingar eru í [strengjum með sniðum fyrir staðlaðar dagsetningar og tíma](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
+    |**Menning gagnasniðs**|Tilgreinið menningu gagnasniðs, ef einhver er. Til dæmis **en-US** ef gagnagerðin er **Tugastafur** til að tryggja að komma sé notuð sem skiltákn milli þúsunda, .000, samkvæmt bandaríska kerfinu. Frekari upplýsingar eru í [strengjum með sniðum fyrir staðlaðar dagsetningar og tíma](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Athugið:**  Þessi reitur er aðeins gildur fyrir innflutning.|  
     |**Lengd**|Tilgreinið lengd línu af fastri vídd sem inniheldur dálkinn ef gagnaskráin er af gerðinni **Fastur texti**|  
     |**Lýsing**|Færið inn lýsingu á dálknum til upplýsingar.|  
     |**Slóð**|Tilgreinið stöðu einingar í tengdum XML skema.|  

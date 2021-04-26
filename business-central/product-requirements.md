@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 01/08/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ea421a1e4c1961bd5df2fac9a8112c9969f206ac
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5273539fa1dfa3916443bc3e0bf21efb19a4571b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393675"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779458"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Lágmarkskröfur fyrir notkun Business Central
 
@@ -23,32 +23,34 @@ ms.locfileid: "5393675"
 
 ## <a name="browsers"></a>Vafrar
 
-### <a name="recommended-browsers"></a>Ráðlagðir vafrar
-
-**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfu af Microsoft Edge.  
-**Chrome fyrir Windows og Firefox fyrir Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfum þessara skjáborðsvafra.  
+**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfu af Microsoft Edge.
+  
+**Chrome fyrir Windows og Firefox fyrir Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfum þessara skjáborðsvafra. 
+ 
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með núverandi útgáfu af Safari á OSX.  
-
-### <a name="other-supported-browsers"></a>Aðrir studdir vafrar
-
-**Microsoft Edge Eldra:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með eldri útgáfu af Microsoft Edge, en við ráðleggjum þér að skipta yfir í nýja Edge.  
-**Internet Explorer:** [!INCLUDE[prod_short](includes/prod_short.md)] er hannað til að vinna með Internet Explorer 11 (smíði 11.0.9600.17239) fyrir Windows 10 (32-bita og 64-bita útgáfur). Við mælum með að uppfæra í nýjustu útgáfu Internet Explorer sem er studd fyrir þína útgáfu af Windows. Einnig er hægt að keyra nýja Edge og hafa enn aðgang að vefsvæðum sem krefjast Internet Explorer. Frekari upplýsingar er að finna í [Microsoft Edge fylgiskjöl](/deployedge/edge-ie-mode).
-
-> [!IMPORTANT]
-> Frá apríl 2021, verða Internet Explorer 11 og Edge Legacy ekki lengur studd. Við mælum með því að skipta yfir í einn af ráðlögðum vöfrum eins fljótt og auðið er.
 
 ## <a name="mobile-devices"></a>Fartæki
 
-**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] fyrir Windows er hægt að setja upp á tæki með að minnsta kosti 1GB RAM og Windows 10 S, Home, Pro, Enterprise eða Education (32-bita og 64-bita útgáfur).  
-**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] fyrir iPad og iPhone krefst iOS 10.0 eða nýrri.  
-**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] fyrir Android spjaldtölvu og Android síma geta verið uppsett á tækjum með að minnsta kosti 1 GB RAM og Android 6.0 eða hærra.  
-**Tækjastærð:** [!INCLUDE[prod_short](includes/prod_short.md)] er studd á snjallsímum með lágmarks skjárstærð 4" og spjaldtöflum með lágmarks skjárstærð 7".  
+**Windows:** Windows 10 S, Home, Pro, Enterprise eða Education (32-bita og 64-bita útgáfur).
 
+**Android (spjaldtölva og sími):** Ein af síðustu þremur stóru útgáfunum og uppfærslur þeirra.
+
+**iOS (iPad og iPhone):** Ein af síðustu þremur stóru útgáfunum og uppfærslur þeirra.
+
+<!--
+
+**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
+**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] for iPad and iPhone requires iOS 10.0 or later.  
+**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] for Android tablet and Android phone can be installed on devices with at least 1 GB of RAM and Android 6.0 or higher.  
+**Device size:** [!INCLUDE[prod_short](includes/prod_short.md)] is supported on smart phones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
+-->
 ## <a name="outlook"></a>Outlook
 
-**Outlook-forrit:** Til að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2019 eða nýrra, Outlook á netinu, Outlook fyrir iPhone, Outlook fyrir iPad eða Outlook fyrir Android. Fyrirtækið þitt verður einnig að nota Microsoft 365 . Ekki er hægt að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum.  
-**Vafrar:** Þegar [!INCLUDE[prod_short](includes/prod_short.md)] er notað sem fyrirtækisinnhólf í Outlook í vafra krefst innbótin að tölvan þín keyri einn af skráðum studdum vöfrum sem eru tilteknir fyrr í þessari grein.  
-**Verkvangar:** Þegar þú notar [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-innbótina í Outlook fyrir iPhone, Outlook fyrir iPad eða Outlook fyrir Android þarf farsíminn þinn að keyra kerfi sem eru studd fyrir fartæki fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
+**Outlook-forrit:** Til að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem pósthólf fyrirtækis þíns í Outlook þarftu Outlook 2019 eða nýrra, Outlook á netinu, Outlook fyrir iOS, Outlook fyrir eða Outlook fyrir Android. Fyrirtækið þitt verður einnig að nota Microsoft 365 . Ekki er hægt að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu sem viðskiptainnhólf þitt í Outlook ef fyrirtækið þitt notar Exchange Server á staðnum. 
+ 
+**Vafrar:** Þegar [!INCLUDE[prod_short](includes/prod_short.md)] er notað sem fyrirtækisinnhólf í Outlook í vafra krefst innbótin að tölvan þín keyri einn af skráðum studdum vöfrum sem eru tilteknir fyrr í þessari grein. 
+ 
+**Verkvangar:** Þegar þú notar [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-innbótina í Outlook fyrir iOS eða Outlook fyrir  Android þarf farsíminn þinn að keyra kerfi sem eru studd fyrir fartæki fyrir [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="teams"></a>Teymi
 
@@ -73,12 +75,11 @@ Stjórnunarmiðstöðin er hönnuð til að vinna með núverandi útgáfu af ef
 
 ## <a name="using-business-central-on-premises"></a>Notkun Business Central á staðnum
 
-Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfiskröfurnar. Frekari upplýsingar er að finna í [Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17) og [Yfirlit uppsetningar](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Ef þú vilt setja upp Business Central á staðnum ættirðu að athuga kerfiskröfurnar. Frekari upplýsingar er að finna í [Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) og [Yfirlit uppsetningar](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Hafist handa](product-get-started.md)  
-[Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
-
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
+[Kerfiskröfur fyrir Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

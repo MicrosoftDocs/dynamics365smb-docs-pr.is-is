@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393575"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772130"
 ---
 # <a name="working-with-prod_short"></a>Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]
 Þegar viðskiptaverk eru unnin er vinna með gögn margvísleg: stofna færslur, slá inn gögn, raða og afmarka gögn, skrifa athugasemdir, auk úttöku gagna í önnur forrit.
@@ -61,18 +61,18 @@ Hér er stutt myndband um hvernig á að komast um í [!INCLUDE[prod_short](incl
 
 ## <a name="choosing-a-desktop-browser"></a>Tölvuvafri valinn
 
-[!INCLUDE[prod_short](includes/prod_short.md)] styður marga vafra sem hver um sig býður upp á fjölbreytta eiginleika og getu. Vafrinn gegnir mikilvægu hlutverki í svörun og flæði notandaviðmótsins. Sjá lista yfir studda, ráðlagða vafra fyrir [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) og vafra fyrir [Business Central á staðnum](https://go.microsoft.com/fwlink/?linkid=2110719).
+[!INCLUDE[prod_short](includes/prod_short.md)] styður marga vafra sem hver um sig býður upp á fjölbreytta eiginleika og getu. Vafrinn gegnir mikilvægu hlutverki í svörun og flæði notandaviðmótsins. Sjá lista yfir studda, ráðlagða vafra fyrir [Business Central Online](./product-requirements.md) og vafra fyrir [Business Central á staðnum](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
 - Ef það er hægt, skal forðast eldri vafra á borð við Internet Explorer og skipta yfir í einn af nýju vöfrunum sem við ráðleggjum, t.d. [nýja Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer er enn studdur, en fyrst að nýi Edge-vafrinn er nú í boði fyrir Windows Server sjáum við minnkandi notkun á Internet Explorer. Einnig er hægt að fá [tilraunaútgáfu af Edge í IE-stillingu](https://www.microsoft.com/edge/business). Frekari upplýsingar er að finna í [Microsoft Edge fylgiskjöl](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer er ekki lengur stutt. Frekari upplýsingar er að finna í [Microsoft Edge fylgiskjöl](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Uppfærðu vafrann þinn alltaf í nýjustu útgáfu.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Uppsetning Business Central](setup.md)  
 [Almenn viðskiptavirkni](ui-across-business-areas.md)  
 [Ábendingar um frammistöðu fyrir fyrirtækisnotendur](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)

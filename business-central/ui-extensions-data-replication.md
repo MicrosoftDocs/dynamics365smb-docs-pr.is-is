@@ -1,5 +1,5 @@
 ---
-title: Business Central-snjallskýsviðbætur fyrir flutning í ský | Microsoft Docs
+title: Viðbætur skýjaflutnings
 description: Nota skal flutningsviðbætur í ský til að flytja gögn innanhúss í Business Central á netinu. Þessar viðbætur færa innanhússgögn í skýið svo hægt sé að nota Business Central á netinu með fyrirliggjandi gögnum.
 author: jenolson
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d6110744f14cb959494e2fd5c9b970bd339a77f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f02face497affd1fd1467c118e10e69f2be39b85
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377349"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889125"
 ---
-# <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Snjallskýsviðbætur fyrir flutningi í skýi
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Skýjaflutningsviðbætur fyrir flutning á Business Central Online
 
 Það fer eftir staðbundinni lausn, en nota þarf aðrar viðbætur til að tengja gögnin við [!INCLUDE[prod_short](includes/prod_short.md)] á netinu í þeim tilgangi að flytja lausnina yfir í skýið.  
 
@@ -43,8 +43,7 @@ Ef þú ert að nota Dynamics SL skaltu ná í viðbæturnar **Snjallskýsgrunnu
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Snjöll innsýn](about-intelligent-cloud.md)  
-[Snjallskýjaviðbót](ui-extensions-intelligent-cloud.md)  
-
+[Grunnviðbót skýjaflutnings](ui-extensions-intelligent-cloud.md)  
+[Flytja inn innanhússgögn í Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

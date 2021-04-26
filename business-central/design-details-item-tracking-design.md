@@ -1,6 +1,6 @@
 ---
-title: Hönnunarupplýsingar - Vörurakning Hönnun | Microsoft Docs
-description: Þetta efnisatriði lýsir hönnuninni á bak við vörurakningu í Business Central.
+title: Hönnunarupplýsingar - vörurakningarhönnun
+description: Þetta efnisatriði lýsir hönnuninni á bak við vörurakningu í Business Central eftir því sem hún þróast í gegnum vöruútgáfur.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a0c60381634543f367e85a465c4ee74c3396d5ad
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c41b131c538337db81b30956a7871040d11f9ce3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390997"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780958"
 ---
 # <a name="design-details-item-tracking-design"></a>Hönnunarupplýsingarn: vörurakning hönnun
-Í fyrstu útgáfu af vörurakningu í [!INCLUDE[prod_short](includes/prod_short.md)] 2.60 eru raðnúmer eða lotunúmer voru skráð beint á birgðabókarfærslur. Þessi hönnun veitir heildarupplýsingar um það hvað er til ráðstöfunar og einfalda rakningu fyrri færslna en vantar sveigjanleika og virkni.  
 
-Frá [!INCLUDE[prod_short](includes/prod_short.md)] 3,00 var vörurakningareiginleikinn í aðskilinni hlutaskipan með flóknum tenglum í bókuð skjöl og birgðabókarfærslur. Þessi hönnun bauð upp á sveigjanleika og virkni en rakning færslna fyrir vörur var ekki að fullu til staðar fyrir útreikning til ráðstöfunar.  
+Vörurakning í [!INCLUDE[prod_short](includes/prod_short.md)] hófst á [!INCLUDE [navnow_md](includes/navnow_md.md)]. Vörurakningarvirknin er í aðskildri hlutaskipan með flóknum tenglum á bókuð skjöl og birgðafærslur og hún er samþætt við frátekningarkerfið sem sér um frátekningu, pöntunarrakningu og aðgerðarboð. Frekari upplýsingar er að finna í [Hönnunarupplýsingar: Pöntun, pöntunarrakning og aðgerðarboð](design-details-reservation-order-tracking-and-action-messaging.md) í hönnunarlýsingu framboðsáætlunar.  
 
-Frá [!INCLUDE[prod_short](includes/prod_short.md)] 3.60 er vörurakningareiginleikinn innbyggður í frátekningarkerfið, sem annast frátekningar, pöntunarrakningu og aðgerðarboð. Nánari upplýsingar eru í „Upplýsingar um hönnun: Frátekning, Vörurakning og aðgerðaboð“ í „Upplýsingar um hönnun, framboðsáætlun“.  
+Í þessari útgáfu eru vörurakningarfærslur í útreikninga framboðs alls í gegnum kerfið, þ.m.t. áætlun, framleiðsla og vöruhús. Rað- og lotunúmer eru notuð í birgðafærslum til að tryggja einfaldan aðgang að sögulegum gögnum fyrir vörurakninguna. Með útgáfutímabili 1 fyrir árið 2021 mun vörurakning í [!INCLUDE [prod_short](includes/prod_short.md)] innihalda pakkanúmer.  
 
-Í nýjustu útgáfunni eru vörurakningarfærslur í útreikninga framboðs alls í gegnum kerfið, þ.m.t. áætlun, framleiðsla og vöruhús. Gamla hugmyndin um að taka rað- og lotunúmer með yfir í birgðahöfuðbókarfærslur er kynnt aftur til sögunnar til að tryggja auðvelt aðgengi að sögulegum gögnum til að nota við vörurakningu. Í tengslum við vörurakningarúrbætur í [!INCLUDE[prod_short](includes/prod_short.md)] 3,60, var frátekningarkerfi stækkað yfir í atriði önnur en pantanir, svo sem færslubækur, reikninga og kreditreikninga.  
-
-Með því að bæta við rað- eða lotunúmerum vinnur frátekningarkerfið úr varanlegum eigindum vöru en vinnur einnig úr slitróttum tenglum á milli eftirspurnar og framboðs í formi pantanarakningafærslna og frátekningarfærslna. Aðrir öðruvísi eiginleikar rað- og lotunúmera samanborið við hefðbundin frátekningargögn er sú staðreynd að hægt að bóka þau, bæði að hluta og að fullu. Því mun taflan **Frátekningarfærsla** (T337) nú vinna með tengdri töflu, töflunni **Rakningarlýsing** (T336), sem stjórnar og birtir samantekt yfir virkt og bókað vörurakningarmagn. Frekari upplýsingar, sjá: [Hönnunarupplýsingar: Virk móti sögulegum vörurakningarfærslum](design-details-active-versus-historic-item-tracking-entries.md).  
+Með því að bæta við rað-, lotu- og pakkanúmerum vinnur frátekningarkerfið úr varanlegum eigindum vöru en vinnur einnig úr slitróttum tenglum á milli eftirspurnar og framboðs í formi pantanarakningafærslna og frátekningarfærslna. Aðrir öðruvísi eiginleikar rað- og lotunúmera samanborið við hefðbundin frátekningargögn er sú staðreynd að hægt að bóka þau, bæði að hluta og að fullu. Því mun taflan **Frátekningarfærsla** (T337) nú vinna með tengdri töflu, töflunni **Rakningarlýsing** (T336), sem stjórnar og birtir samantekt yfir virkt og bókað vörurakningarmagn. Frekari upplýsingar, sjá: [Hönnunarupplýsingar: Virk móti sögulegum vörurakningarfærslum](design-details-active-versus-historic-item-tracking-entries.md).  
 
 Eftirfarandi skýringarmynd lýsir hönnun vörurakningar í [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -43,8 +40,8 @@ Kóðaeining 22, **Birgðabók - Bókunarlína**, skiptir nú bókuninni samkvæ
 
 Nánari upplýsingar eru í [Upplýsingar um hönnun: Vörurakning bókunarskipulag](design-details-item-tracking-posting-structure.md)  
 
-## <a name="see-also"></a>Sjá einnig  
+## <a name="see-also"></a>Sjá einnig
+
 [Hönnunarupplýsingar: Vörurakning](design-details-item-tracking.md)
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

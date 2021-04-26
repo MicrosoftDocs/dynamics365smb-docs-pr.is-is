@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f8d8b2744fb5179183e223c8741669f7af9754b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c3f807a7e02a9791fb8ea465bc399e3e3345a0f3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379099"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777492"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prufuútgáfa og áskrift
 
@@ -27,7 +27,7 @@ Hægt er að skrá sig fyrir prufuáskrift [hér](https://go.microsoft.com/fwlin
 
 Prufuáskriftinni inniheldur það tungumál og virkni sem land þitt eða svæði þurfa. Frekari upplýsingar má finna í [Breyta tungumáli og landsstaðli](about-locale-language.md).  
 
-Í [!INCLUDE[prod_short](includes/prod_short.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Þegar þú skráir þig fyrst inn á sýnifyrirtækið færðu aðgang að síðunni Hafist handa með tenglum á myndbönd sem geta aðstoðað þig við að hefjast handa. Nánari upplýsingar er að finna í [Hafist handa með [!INCLUDE[prod_long](includes/prod_long.md)]](product-get-started.md).  
+Í [!INCLUDE[prod_short](includes/prod_short.md)] verður þú kunnug(ur) sumum atriðum, og hugsanlega ókunnug(ur) öðrum atriðum. Þegar þú skráir þig fyrst inn á sýnifyrirtækið færðu aðgang að síðunni Hafist handa með tenglum í leiðbeiningar um uppsetningu með hjálp sem geta aðstoðað þig við að hefjast handa. Nánari upplýsingar er að finna á [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md).  
 
 Ef þú lendir í erfiðleikum getur síðan [Algengar spurningar](across-faq.md) hjálpað þér að svara spurningum þínum. Ef þér tekst ekki að skrá þig fyrir prufuáskrift getur [Úrræðaleit innskráning í sjálfsafgreiðslu](ui-troubleshoot-self-signup.md) aðstoðað þig. Þú getur einnig haft samband við [samstarfsaðila](across-faq.md#findpartner) og beðið hann um að búa til ókeypis prufu eða öðruvísi forútgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] fyrir þig.  
 
@@ -89,7 +89,7 @@ Stjórnandi [!INCLUDE[prod_short](includes/prod_short.md)] og endursöluaðili g
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Hafist handa](product-get-started.md)  
+[Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Framlenging á prufuútgáfunni](admin-extend-trial.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algengar spurningar](across-faq.md)  

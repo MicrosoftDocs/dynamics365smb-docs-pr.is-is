@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e85c6200f9fafa800e2e44978a5efb10ececefb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376688"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787478"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Síða eða skýrsla bókamerkt í Mitt hlutverk
 Með bókamerkjatákni er hægt að bæta aðgerð sem opnar síðu úr yfirlitsvalmyndinni í Mitt hlutverk. Þetta gerir þér kleift að ná fljótt í eftirlætisefnið eða viðskiptaverkefnin þín. Hægt er að bæta við bókamerkinu frá marksíðunni eða skýrslu, sem merkir að skjárinn sem tengja á í Mitt hlutverk opnast.
@@ -60,7 +60,7 @@ Möguleikinn á að bókamerkja síðu eða skýrslu er ein af mörgum sérstill
 - **Hvers vegna er ekki hægt að bókamerkja ákveðnar síður eða skýrslur?**  
 Ekki er hægt að bókamerkja allar síður og skýrslur. Þegar síða eða skýrslur eru keyrðar innan sérstaks samhengis sem viðskiptaforritið stjórnar er bókamerkjatákn ekki birt. Til dæmis munu síður sem finnast ekki í glugganum **Viðmótsleit** en eru ræstar annars staðar ekki birta bókamerkjatákn. Á sama hátt birta síður skýrslubeiðna sem eru aðeins notaðar til að safna síum án þess að keyra skýrsluna ekki bókamerkjatákn.
 
-Sjá tæknilegar upplýsingar um [RunRequestPage](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) og [FilterPageBuilder](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+Sjá tæknilegar upplýsingar um [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) og [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Þegar sérstillingar eru hreinsaðar, verða bókamerkin mín einnig hreinsuð?**  
 Já. Bókamerki eru í yfirlitsvalmynd. Ef breytingar á yfirlitsvalmyndinni eru hreinsaðar á einhverri síðu, eða allar sérstillingar í Mitt hlutverk, eru allar nýju aðgerðirnar þínar fjarlægðar varanlega.

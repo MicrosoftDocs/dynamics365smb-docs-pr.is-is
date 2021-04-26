@@ -1,0 +1,1 @@
+<Token>**Á VIÐ UM:** Business Central 2021 útgáfutímabil 1 og nýrri</Token>
