@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2021
+ms.date: 04/26/2021
 ms.author: jswymer
-ms.openlocfilehash: a600b24e16172134d4f8e78cf47efa4e262cac09
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c74593a429c520730efbd503a1884065ca6cd7e4
+ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777517"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941614"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Býr til Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_long](includes/prod_long.md)] inniheldur stjórneiningu Power BI upplýsingareits á mörgum mikilvægum listasíðum. Tilgangurinn með þessum upplýsingareit er að sýna Power BI-skýrslur sem tengjast færslum í listunum sem veita betri innsýn í gögnin. Hugmyndin er að þegar farið er milli lína í listanum er skýrslan uppfærð og síuð fyrir valda færslu.
+[!INCLUDE[prod_long](includes/prod_long.md)] inniheldur stjórneiningu Power BI upplýsingareits á mörgum mikilvægum listasíðum. Tilgangurinn með þessum upplýsingareit er að sýna Power BI-skýrslur sem tengjast færslum í listunum sem veita betri innsýn í gögnin. Hugmyndin er að þegar farið er milli lína í listanum uppfærist skýrslan uppfærð fyrir valda færslu.
 
 [!INCLUDE[prod_long](includes/prod_long.md)] kemur tilbúið með sumum þessara skýrslna. Einnig er hægt að búa til eigin sérsniðnar skýrslur sem birtast í þessum upplýsingareit. Þessar skýrslur eru búnar til að svipaðan hátt og aðrar skýrslur. En fylgja þarf nokkrum hönnunarreglum til að tryggja að skýrslurnar birtist eins og búist er við. Þessar reglur eru útskýrðar í þessari grein.
 
@@ -39,7 +39,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 1. Ræsið Power BI Desktop.
 2. Veljið **Sækja gögn** og veljið gagnagjafann fyrir skýrsluna.
 
-    Í þessu skrefi skal tilgreina listasíður Business Central sem innihalda gögnin sem eiga að koma fram í skýrslunni. Ef þú vilt t.d. stofna skýrslu fyrir sölulista skal tryggja að gagnamengið innihaldi upplýsingar sem tengjast sölu.
+    Tilgreinið listasíður Business Central sem innihalda gögnin sem eiga að koma fram í skýrslunni. Til að stofna til dæmis skýrslu fyrir listann **Sölureikningar** skal taka með síður sem tengjast sölu.
 
     Til að fá frekari upplýsingar skal fylgja leiðbeiningunum [Bæta [!INCLUDE[prod_short](includes/prod_short.md)] við sem gagnagjafa í Power BI Desktop](across-how-use-financials-data-source-powerbi.md#getdata).
 
@@ -62,9 +62,9 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 6. Vistið og gefið skýrslunni heiti.
 
-    Mikilvægt er að gefa skýrslunni heiti sem inniheldur heiti listasíðunnar sem tengist skýrslunni. Ef skýrsla er t.d. fyrir listasíðuna **Vörur** skal hafa með orðið *vörur* einhvers staðar í heitinu.  
+    Gefa skal skýrslunni heiti sem inniheldur heiti listasíðunnar sem tengist skýrslunni, eins og í biðlaranum. Ekki skiptir hins vegar máli hvort nafnið er skráð með há- eða lágstöfum. Segjum að skýrslan sé fyrir listasíðuna **Sölureikningar**. Í þessu tilviki skal setja orðin **sölureikningar** einhversstaðar í nafnið, eins og **sölureikningarnirminir.pbix** eða **_sölureikningarnir_minir.pbix**.
 
-    Þessi nafnavenja er ekki skilyrði. Hins vegar gerir það val á skýrslum í [!INCLUDE[prod_short](includes/prod_short.md)] fljótlegri. Þegar skýrsluvalssíða opnast af listasíðu er hún síuð sjálfkrafa út frá síðuheitinu. Þessi sía er búin til að takmarka skýrslurnar sem eru birtar. Einnig er hægt að fjarlægja afmörkunina til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.
+    Þessi nafnavenja er ekki skilyrði. Hins vegar gerir það val á skýrslum í [!INCLUDE[prod_short](includes/prod_short.md)] fljótlegri. Þegar skýrsluvalssíða opnast af listasíðu er hún síuð sjálfkrafa út frá síðuheitinu. Sían er með málskipanina: `@*<caption>*`, eins og `@*Sales Invoices*`. Þessi sía er búin til að takmarka skýrslurnar sem eru birtar. Einnig er hægt að fjarlægja afmörkunina til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.
 
 7. Þegar þessu er lokið skal birta skýrsluna eins og venjulega.
 
@@ -101,7 +101,7 @@ Með Power BI er hægt að stofna eina skýrslu með mörgum síðum. Fyrir ský
 
 ## <a name="fixing-problems"></a>Vandamál lagfærð
 
-Þessi hluti veitir upplýsingar um hvernig á að laga vandamál sem gætu komið upp þegar reynt er að skoða Power BI-skýrslu fyrir listasíðu í [!INCLUDE[prod_short](includes/prod_short.md)].  
+Í þessum hluta er útskýrt hvernig á að laga vandamál sem gætu komið upp þegar reynt er að skoða Power BI skýrslu fyrir listasíðu í [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Ekki er hægt að sjá Power BI-upplýsingareitinn á listasíðu
 
@@ -109,11 +109,11 @@ Sjálfgefið er að Power BI-upplýsingareiturinn sé falinn. Til að sýna uppl
 
 ### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Ekki er hægt að sjá skýrsluna á svæðinu Velja skýrslu
 
-Það er líklega vegna þess að heiti skýrslunnar inniheldur ekki heiti listasíðunnar sem er sýnd. Hreinsaðu síuna til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.  
+Heiti skýrslunnar inniheldur ekki heiti listasíðunnar sem er sýnd. Hreinsaðu síuna til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.  
 
 ### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Verið er að hlaða skrá en hún er tóm, ekki síuð eða síuð á rangan hátt
 
-Sannprófa verður að skýrsluafmörkunin innihaldi réttan aðallykil. Yfirleitt er þessi reitur **Nr.** reitur, en í töflunni **Fjárhagsfærsla**, til dæmis, verður að nota **Færslunr.** reitinn.
+Staðfestu að skýrslusían innihaldi réttan aðallykil. Yfirleitt er þessi reitur **Nr.** reitur, en í töflunni **Fjárhagsfærsla**, til dæmis, verður að nota **Færslunr.** reitinn.
 
 ### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Skýrslu er hlaðið inn, en hún sýnir síðu sem þú bjóst ekki við
 

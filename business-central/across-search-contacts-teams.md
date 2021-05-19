@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 77108cab69a05165616ad5e1a44f1a3ddc9d4cd9
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 6d094e365ad0c7da73467e5a3160d926902c45d9
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882493"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935162"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams
 
@@ -25,7 +25,7 @@ ms.locfileid: "5882493"
 
 - Fletta upp á [!INCLUDE [prod_short](includes/prod_short.md)]-tengiliðum í skipanareit Teams eða skrifgluggasvæðinu. Tengiliðir geta verið hugsanlegir kaupendur, lánardrottnar, viðskiptavinir eða annars konar viðskiptatengsl.
 - Deila tengilið sem spjaldi í spjalli á Teams.
-- Skoða tengiliðaupplýsingar nánar, samskiptasögu og annars konar innsýn eins og útistandandi greiðslur eða opin skjöl.
+- Skoða tengiliðaupplýsingar nánar, samskiptasögu og annars konar innsýn á borð við útistandandi greiðslur eða opin skjöl.
 
 ## <a name="prerequisites"></a>Frumskilyrði
 

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: af13192ed4b5ca94d4a01ec913d3c94fd85e5fbc
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776148"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017150"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Algengar spurningar um notkun Business Central
 
@@ -136,8 +136,8 @@ Fyrstu útgáfur af [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum f
 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Algengar spurningar um Viðmótsleit](ui-search-faq.md)  
-[Algengar spurningar um leit og síun](ui-search-filter-faq.md)  
-[Algengar spurningar um listayfirlit](ui-views-faq.md)  
+[Algengar spurningar um leit og síun](ui-search-filter-faq.yml)  
+[Algengar spurningar um listayfirlit](ui-views-faq.yml)  
 [Breyta tungumáli og landsstaðli](about-locale-language.md)  
 [Nota [!INCLUDE[prod_short](includes/prod_short.md)] sem viðskiptainnhólf þitt í Outlook](admin-outlook.md)  
 [Nota [!INCLUDE[prod_short](includes/prod_short.md)] án Outlook](admin-no-outlook.md)  

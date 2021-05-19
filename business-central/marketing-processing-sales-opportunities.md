@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: bde08ec0b6f970dc65023cfcc7ab3e4021d4d29f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784443"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017250"
 ---
 # <a name="process-sales-opportunities"></a>Meðhöndla sölutækifæri
 Þegar tækifæri er stofnað eru margar aðgerðir til að stjórna tækifæri og vinna það til enda.
@@ -44,7 +44,8 @@ Hægt er að loka tækifærum þegar samningaviðræðum er lokið. Þegar tæki
    Í reitnum **Kóði vegna lokunar tækifæris** í hægt er að velja úr einn af fyrirliggjandi kóðum vegna lokunar tækifæris eða bæta við nýjan kóða. Til að bæta inn nýja kóða úr fellilistanum er valið **Valið úr tæmandi listi**, og síðan valið **nýtt**. Á nýju auðri línu, fyllt út í á **kóða**, **Tegund**, og **Lýsing** reitina, og síðan valið **í lagi** hnappinn.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Tilboð stofnuð fyrir tækifæri
-Hægt er að stofna sölutilboð fyrir tengiliði sem ekki eru skráðir sem viðskiptamenn.
+> [!NOTE]
+> Aðeins er hægt að stofna sölutilboð úr tækifærum þar sem tengiliðagerð er Fyrirtæki.
 
 1. Á síðunni **Tækifæralisti** skal velja tækifæri og velja síðan **úthluta sölutilboðum** aðgerð. Síðan **Sölutilboð** opnast.
 2. Viðeigandi reitir eru fylltir út.

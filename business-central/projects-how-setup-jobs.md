@@ -1,5 +1,5 @@
 ---
-title: Setja upp verð fyrir verk og verkbókunarflokka| Microsoft Docs
+title: Setja upp verð fyrir verk og verkbókunarflokka
 description: Lýsir því hvernig setja á upp almennar upplýsingar um verk, og setja upp verð fyrir vörur verks, tilföng, og fjárhagsreikninga og verkbókunarflokka.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 597d0ceb94e72305675b446af0031d97e0bc6478
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780458"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938072"
 ---
-# <a name="set-up-jobs"></a>Setja upp verk
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Setja upp verð fyrir verk og verkbókunarflokka
 
 Sem verkefnisstjóri getur þú sett upp verk sem skilgreina verkefnin sem þú stjórnar í [!INCLUDE[prod_short](includes/prod_short.md)]. Á síðunni **Uppsetning verka** verður að tilgreina hvernig á að nota tiltekna verkeiginleika.
 
@@ -26,26 +26,27 @@ Fyrir hvert verk tilgreinir þú þá einstök verkspjöld með upplýsingum um 
 2. Fyllið inn reitina eftir þörfum. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Áhrif reitsins **Beita notkunartengli að sjálfgefnu** er frekar flókinn og er því útskýrður í eftirfarandi kafla.
+> Reiturinn **Beita notkunartengli að sjálfgefnu** tilgreinir hvort verkfærslur eru tengdar sjálfgefið á verkáætlunarlínur. Veljið reitinn ef nota á þessa stillingu fyrir öll ný verk sem eru stofnuð. Hægt er að gera rakningu verknotkunar virka eða óvirka fyrir tiltekið verk með því að breyta gildinu í **Nota notkunartengil** reitnum á einstaka verkspjaldi. Afleiðingarnar eru útskýrðar í næsta hluta.
 
 ### <a name="to-set-up-job-usage-tracking"></a>Til að setja upp notkunarrakningu verka
 
-Þegar verið er að framkvæma verk gæti verið gagnlegt að vita hvernig notkunin er rakin á móti áætluninni. Til að gera þetta á auðveldan hátt, er hægt að búa til tengil milli verkáætlunarlínunnar og hinnar eiginlegu notkunar. Þetta leyfir þér að rekja kostnað þinn og sjá auðveldlega hversu mikið af vinnu á eftir að vinna. Sjálfgefið er að áætlunarlína verktegundar sé **Áætlun**, en ef línutegundin **Bæði fjárhagsáætlun og reikningshæft** er notuð hefur það svipuð áhrif.
+Þegar unnið er að verki gæti verið gagnlegt að vita hvernig notkunin er rakin á móti áætluninni. Til að gera þetta á auðveldan hátt, er hægt að búa til tengil milli verkáætlunarlínunnar og hinnar eiginlegu notkunar. Þetta leyfir þér að rekja kostnað þinn og sjá auðveldlega hversu mikið af vinnu á eftir að vinna. Sjálfgefið er að áætlunarlína verktegundar sé *Áætlun*, en ef línutegundin **Bæði fjárhagsáætlun og reikningshæft** er notuð hefur það svipuð áhrif.
 
-Ef þú velur reitinn **Beita notkunartengli að sjálfgefnu** getur þú skoðað upplýsingar á verkáætlunarlínu. Hægt er að stilla magn forða, vöru eða fjárhagsreiknings og gefa svo upp hvaða magn á að færa í verkbókina. Í reitnum **Eftirstöðvar (magn)** í verkáætlunarlínunni sést hvað á eftir að flytja og bóka í verkbókina.
+Þegar búið er að setja upp notkun rakningar með því að velja **Nota notkunartengil**, er hægt að fara yfir upplýsingar um verkáætlunarlínuna. Hægt er að stilla magn forða, vöru eða fjárhagsreiknings og gefa svo upp hvaða magn á að færa í verkbókina. Í reitnum **Eftirstöðvar (magn)** í verkáætlunarlínunni sést hvað á eftir að flytja og bóka í verkbókina.
 
-> [!TIP]  
-> Hægt er að gera rakningu verknotkunar virka eða óvirka fyrir tiltekið verk. Gildi reitsins **Nota notkunartengil** á stöku verkspjaldinu hunsar stillinguna á síðunni **Uppsetning verka**.  
-
-Þegar **Beita notkunartengli að sjálfgefnu** gátreiturinn er valinn og gerð verkáætlunarlínu er **Reikningshæf**, er búin til verkáætlunarlína af gerðinni **Fjárhagsáætlun** eftir að þú hefur bókað færslubókarlínu verks.
+>[!NOTE]
+> Ef reiturinn **Nota notkunartengil** er valinn í einstöku verki og reiturinn **Línutegund** í verkbókarlínunni eða innkaupalínunni er *Reikningshæft* þá eru nýjar verkáætlunarlínur af línugerðinni *Áætlun* búnar til þegar færslubók eða innkaupaskjal er bókað.  
+> Frekari upplýsingar eru í [Skrá notkun vegna verka](projects-how-record-job-usage.md) og [Stjórna verkbirgðum](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
-> Ef rakning verknotkunar er virk, annaðhvort á síðunni **Uppsetning verka** eða í tilteknu verki og reiturinn **Línugerð** í færslubókarlínu verks er auður mun nýjar verkáætlunarlínur af línugerðinni **Fjárhagsáætlun** vera stofnaðar þegar bókaðar eru færslubókarlínur verks.  
->  
-> Ef rakning verknotkunar er *ekki* virk, annaðhvort á síðunni **Uppsetning verka** eða í tilteknu verki og reiturinn **Línugerð** í færslubókarlínu verks er auður munu engar verkáætlunarlínur vera stofnaðar þegar bókaðar eru færslubókarlínur verks. Frekari upplýsingar eru í [Skrá notkun fyrir verk](projects-how-record-job-usage.md).
+> Ef **Línugerð** reiturinn á færslubókarlínu verka er tómur, þá eru engar verkáætlunarlínur búnar til þegar þú bókar færslubók eða innkaupaskjal.
 
-1. Velja skal ![Leit að síðu eða skýrslu](media/ui-search/search_small.png "Leit að síðu eða skýrslu tákn") táknið, slá inn **Uppsetning verka** og velja svo viðeigandi tengil.
-2. Veldu **Beita notkunartengli að sjálfgefnu** gátreitinn.
+<!--
+>[!Important]
+If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
+If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
+-->
+
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Til að setja upp verð fyrir tilföng, vörur og fjárhagsreikninga fyrir verk
 > [!NOTE]

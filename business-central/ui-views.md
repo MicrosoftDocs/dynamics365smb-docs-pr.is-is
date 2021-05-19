@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b66b9f0e158e7947ebaa3f8835d5ca0ca4531113
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772173"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017075"
 ---
 # <a name="save-and-personalize-list-views"></a>Vista og sérsníða listayfirlit
 Þegar búið er að setja afmörkun á lista og ætlunin er að geyma síuna síðar er hægt að vista hana sem yfirlit. Frekari upplýsingar um síulista er að finna í [Síur stilltar á lista](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -35,7 +35,7 @@ Ef Yfirlit er til staðar, birtist flokkurinn **Yfirlit** efst í síuglugganum.
 Ef ekki er gefið upp nafn verður það nefnt **Allt (afrit)**.
 
 > [!TIP]
-> Sérðu ekki táknið ![Vista yfirlit](media/save_view_icon.png "Vista yfirlit")? Frekari upplýsingar eru í [Hvers vegna sé ég ekki tákn til að vista](ui-views-faq.md#save).
+> Sérðu ekki táknið ![Vista yfirlit](media/save_view_icon.png "Vista yfirlit")? Frekari upplýsingar eru í [Hvers vegna sé ég ekki tákn til að vista](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Til að endurnefna eða fjarlægja yfirlit
 1. Til að skoða núverandi yfirlit sem birtir listann skal velja táknið ![Sýna fleiri valkosti](media/show-more-options-icon.png "Sýna fleiri valkosti") til að sjá hvaða valkostir eru í boði.
@@ -45,7 +45,7 @@ Ef ekki er gefið upp nafn verður það nefnt **Allt (afrit)**.
 Þar sem fjöldi skoðana á síðu eykst getur þurft meiri stjórnun á því hvernig yfirlit eru sett fram á afmörkunarsvæðinu. Þú getur notað borðann **Sérstilling** til að fela óæskileg yfirlit eða endurraðað yfirlitum þínum til að fá fullkomna röðina. Frekari upplýsingar eru í [Sérstilling verksvæðis](ui-personalization-user.md).
 
 ## <a name="see-also"></a>Sjá einnig
-[Algengar spurningar um listayfirlit](ui-views-faq.md)  
+[Algengar spurningar um listayfirlit](ui-views-faq.yml)  
 [Sérstilling verksvæðis](ui-personalization-user.md)    
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Grunnstillingum breytt](ui-change-basic-settings.md)  

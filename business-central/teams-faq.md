@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 86e540a34efba3fccbc0615cac692fd6c405bee0
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 6980e56f8bda750f9afae9bed6577bb1ab1fec49
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882231"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935212"
 ---
 # <a name="teams-faq"></a>Teams - Algengar spurningar
 
@@ -230,7 +230,7 @@ Já. Leit að tengiliðum úr Teams byggir á [!INCLUDE [prod_short.md](includes
 
 Eftir innskráningu í [!INCLUDE [prod_short.md](includes/prod_short.md)] forritið fyrir Teams í fyrsta skipti mun forritið reyna að finna út úr æskilegt forrit þitt í [!INCLUDE [prod_short.md](includes/prod_short.md)]. Ef forritið getur ekki ákvarðað fyrirtækið gætir þú þurft að fara í **Stillingar** og velja fyrirtækið sem þú vilt leita í. Þessi staða kemur upp til dæmis ef þú hefur aðgang að mörgum fyrirtækjum yfir mörg umhverfi í stofnuninni. Í þessu tilvikum þarf að velja fyrirtæki áður en hægt er að leita.  
 
-Forritið gæti einnig beðið þig að fara í **Stillingar** ef þú virðist ekki hafa [!INCLUDE [prod_short.md](includes/prod_short.md)] áskrfit, ekkert [!INCLUDE [prod_short.md](includes/prod_short.md)] umhverfi eða reikningurinn þinn er ekki með [!INCLUDE [prod_short.md](includes/prod_short.md)] leyfi.
+Forritið gæti einnig beðið þig að fara í **Stillingar** ef þú ert ekki með [!INCLUDE [prod_short.md](includes/prod_short.md)] áskrift, ekkert [!INCLUDE [prod_short.md](includes/prod_short.md)] umhverfi eða reikningurinn þinn er ekki með [!INCLUDE [prod_short.md](includes/prod_short.md)] leyfi.
 
 ### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Ég vil leita að vörum eða færslum úr öðrum töflum. Get ég gert það úr Teams?
 

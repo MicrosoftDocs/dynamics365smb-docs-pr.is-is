@@ -273,6 +273,7 @@
 ###### [Unnið með Power BI Skýrslur í Business Central](across-working-with-powerbi.md)
 ###### [Unnið með Business Central Data í Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Notkun Business Central-forrita í Power BI](across-powerbi-business-central-apps.md)
+##### [Algengar spurningar](power-bi-faq.md)
 #### Notkun Power Automate með Business Central
 ##### [Notkun Business Central í sjálfvirku verkflæði](across-how-use-financials-data-source-flow.md)
 #### Notkun Power Apps með Business Central
@@ -288,8 +289,8 @@
 ## Algengar spurningar
 ### [Algengar spurningar](across-faq.md)
 ### [Algengar spurningar um Viðmótsleit](ui-search-faq.md)
-### [Algengar spurningar um leit og síun](ui-search-filter-faq.md)
-### [Algengar spurningar um listayfirlit](ui-views-faq.md)
+### [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)
+### [Algengar spurningar um listayfirlit](ui-views-faq.yml)
 ### [Algengar spurningar um að afrita og líma](faq-copy-paste.yml)
 ### [Algengar spurningar um farsímaforrit](ui-mobile-faq.md)
 ### [Teams - Algengar spurningar](teams-faq.md)
@@ -321,7 +322,7 @@
 ## [Að finna síður með hlutverkaleit](ui-role-explorer.md)
 ## [Algengar spurningar um Viðmótsleit](ui-search-faq.md)
 ## [Röðun, leit, og síun](ui-enter-criteria-filters.md)
-## [Algengar spurningar um leit og síun](ui-search-filter-faq.md)
+## [Algengar spurningar um leit og síun](ui-search-filter-faq.yml)
 ## [Gagnainnfærsla](ui-enter-data.md)
 ## [Algengar spurningar um að afrita og líma](faq-copy-paste.yml)
 ## [Vinna með dagsetningar og tíma í dagatali](ui-enter-date-ranges.md)
@@ -356,10 +357,11 @@
 ### [Skilgreina útlit skjala fyrir viðskiptamenn og lánardrottna](ui-define-customer-vendor-document-layouts.md)
 ### [Bæta reitum við Word-skýrsluútlit](ui-how-add-fields-word-report-layout.md)
 ### [Tiltækar leturgerðir](ui-fonts.md)
-## Notkun flýtilykla
-### [Aðgengi og Flýtivísanir](ui-accessibility.md)
+## Aðgengi, flýtilyklar og snertibendingar
+### [Aðgengi](ui-accessibility.md)
 ### [Flýtivísanir](keyboard-shortcuts.md)
 ### [Flýtivísanir lyklaborðs - Aðeins fyrir PC-tölvur](keyboard-shortcuts-cheatsheet.md)
+### [Snerti- og pennabendingar](touch-gestures.md)
 ## [Úrræðaleit: aðgangur að myndavél og staðsetningu](ui-troubleshooting-camera-location.md)
 ## [Snjöll innsýn (aðeins á netinu)](about-intelligent-cloud.md)
 # Viðskiptavirkni
@@ -429,9 +431,10 @@
 ##### [Setja upp bankayfirlitsþjónustu](bank-how-setup-bank-statement-service.md)
 ##### [Bankareikningar settir upp](bank-how-setup-bank-accounts.md)
 ##### [Nota XML-skema til að undirbúa skilgreiningar gagnaskipta](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-##### [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)
+
 #### Gagnaskipti
 ##### [Gagnaskipti](across-exchange-data.md)
+##### [Setja upp skilgreiningar gagnaskipta](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Senda rafræn skjöl](sales-how-to-send-electronic-documents.md)
 ##### [Nota OCR til að breyta PDF og myndaskrám í rafræn skjöl](across-how-use-ocr-pdf-images-files.md)
 ##### [Taka við og umbreyta rafræn skjölum](purchasing-how-to-receive-and-convert-electronic-documents.md)
@@ -550,6 +553,7 @@
 #### [Setja upp sameiningu fyrirtækis](finance-consolidated-company-reporting-setup.md)
 ### [Skilja fjárhag og bókhaldslykil](finance-general-ledger.md)
 ### [Unnið með víddir](finance-dimensions.md)
+### [Úrræðaleit og víddarleiðrétting](finance-troubleshooting-correcting-dimensions.md)
 ### [Stofna fjárhagsáætlunum](finance-how-create-budgets.md)
 ### [Bóka færslu beint í Fjárhag](finance-how-post-transactions-directly.md)
 ### [Bakfæra bókanir í færslubók og afturkalla kvittanir/sendingar](finance-how-reverse-journal-posting.md)
@@ -567,6 +571,7 @@
 ### [Greina fjárhagsskýrslur í Excel](finance-analyze-excel.md)
 ### [Flytja bankainnstæður](bank-how-transfer-bank-funds.md)
 ### [Upplifun endurskoðanda í Business Central](finance-accounting.md)
+### [Fyrirtæki á mörgum stöðum og alþjóðlegar stofnanir](finance-multi-site-organizations.md)
 
 ## Viðskiptagreind og Financial Reporting
 ### [Yfirlit yfir viðskiptagreind og Financial Reporting](bi.md)
@@ -705,6 +710,8 @@
 ### [Keyra fulla áætlunargerð, MPS eða MRP](production-how-to-run-mps-and-mrp.md)
 ### [Enduráætla eða uppfæra framleiðslupantanir beint](production-how-to-replan-refresh-production-orders.md)
 ### [Rekja tengsl milli eftirspurnar og framboðs](production-how-track-demand-supply.md)
+### [Kynning: Handvirk áætlun birgða](walkthrough-planning-supplies-manually.md)
+### [Kynning: Sjálfvirk áætlun birgða](walkthrough-planning-supplies-automatically.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Samsetningardeild
@@ -745,8 +752,6 @@
 #### [Ganga frá framleiðslu eða samsetningarfrálagi](warehouse-how-to-put-away-production-output.md)
 #### [Áætla frágang á vinnublöðum](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Tína og ganga frá án upprunaskjals](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Kynning: Móttaka og Frágangur í ítarlegri grunngerð vöruhúss](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Færa vörur
 #### [Færa vörur](warehouse-move-items.md)
 #### [Færa vörur eftir þörfum í einfaldri grunngerð vöruhúsa](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -770,8 +775,6 @@
 ### [Nota sjálfvirkt gagnatökukerfi (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Kynning: Móttaka og Frágangur í Einfaldar grunngerð vöruhúss](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ### [Kynning: Móttaka og Frágangur í ítarlegri grunngerð vöruhúss](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-### [Kynning: Handvirk áætlun birgða](walkthrough-planning-supplies-manually.md)
-### [Kynning: Sjálfvirk áætlun birgða](walkthrough-planning-supplies-automatically.md)
 
 ## Þjónustukerfi
 ### [Þjónustukerfi](service-service.md)

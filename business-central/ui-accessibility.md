@@ -1,68 +1,50 @@
 ---
 title: Aðstoðareiginleikar
 description: Flýtivísanir og aðrir aðstoðareiginleikar.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c303c39850e22d3df375838d42703133428b4c7d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
+ms.date: 04/29/2021
+ms.author: jswymer
+ms.openlocfilehash: 5de8096338cef264b599701abf2e21a906417bac
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772355"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961553"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Aðgengi og Flýtivísanir
 
-Þetta efnisatriði veitir upplýsingar um eiginleikana sem auðvelda aðgengi fatlaðra að [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] styður eftirfarandi aðgengiseiginleika:  
+Þetta grein veitir upplýsingar um eiginleikana sem auðvelda aðgengi fatlaðra að [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] styður eftirfarandi aðgengiseiginleika:  
 
-- Flýtivísanir
-
-    Frekari upplýsingar, sjá [Flýtilyklar](keyboard-shortcuts.md)
-
+- Flýtilyklar. Sýna [flýtilykla](keyboard-shortcuts.md).
+- Snerti- og pennahreyfingar á spjaldtölvum og símum. Sjá [Snerti- og pennabendingar](touch-gestures.md).
 - Yfirlit  
-
 - Yfirskrift  
-
 - Annar texti fyrir myndir og tengla  
+- Stuðningur við algeng aðstoðartækni 
+- Breyta aðdrætti á hvaða síðu sem er
+- Ábendingar um einingar í notandaviðmóti
 
-- Stuðningur við algeng aðstoðartækni  
+## <a name="navigation"></a><a name="Navigation"></a> Leiðsögn
+  
+Hægt er að nota mismunandi samsetningar af dálklykli, Shift og örvalyklum á lyklaborðinu á til að fara á milli eininga á síðu. Einingarnar innihalda aðgerðir, reiti og dálka, hluta og aðrir stýringar. Yfirleitt er ýtt á dálkalykil eða Shift+dálkalykil til að fara í næstu eða fyrri einingu.
 
-- Notið flýtilykla til að auka eða minnka aðdrátt á hvaða síðu sem er
+Þegar þú einbeitir þér að svæði sem inniheldur aðgerðir, eins og yfirlitsstikunni efst í hlutverkamiðstöðinni eða aðgerðarlínu á öðrum síðum, skaltu nota örvalyklana til að fara í gegnum mismunandi aðgerðir og hópa. Ýttu á Enter á hópi til að opna undirliggjandi aðgerðir hans og haltu svo áfram með örvalyklunum. Ýtt er á dálkalykil eða SHIFT+dálkalykill til að færa sig úr aðgerðarsvæðinu.
 
-<!-- moved to separate article
-##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
- [!INCLUDE[prod_short](includes/prod_short.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
-
-|To do this|Press|  
-|----------------|-----------|  
-|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
-|To enable or access the element or control that is in focus.|Enter|  
-|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
-|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
-|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
-|To move focus to the next element outside the list.|Ctrl + Enter|  
-|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
-
--->
-
-## <a name="navigation"></a><a name="Navigation"></a> Leiðsögn  
- Þú getur flett á milli flipa og aðgerða í borðanum, þættir í yfirlitsstiku og aðrar stýringar á [!INCLUDE[prod_short](includes/prod_short.md)] síðum og skýrslum með lyklaborðinu. Til að færa áherslu frá einum flipa, aðgerð eða stýringu annað styðjið á TAB-lykil til að fara áfram. Ýttu á Shift + Tab til að færa til baka.  
-
- Með því að nota fliparöðun geturðu einnig skipt á milli aðal vafrasíðu og svarglugga sem óska eftir staðfestingu, til dæmis, eða innskráningarsíðu.  
+Með því að nota fliparöðun er einnig hægt að skipta á milli aðal vafrasíðu og svarglugga sem óska eftir staðfestingu, til dæmis, eða innskráningarsíðu.  
 
 ## <a name="headings-in-content"></a><a name="Headings"></a> Hausar í efni
- 
- HTML-uppruni fyrir efni [!INCLUDE[prod_short](includes/prod_short.md)] notar merki til að hjálpa notendum aðstoðartækni að skilja uppbyggingu og innihald síðunnar. Til dæmis, á listasíðum, eru dálkarnir skilgreindir í TH-merkjum og dálkur fyrirsagnir eru settar með TITLE eigind inni í merkinu. Skýringarmyndir fyrir þætti, svo sem FastTabs, FactBoxes og reitir eru í fyrirsagnamerkjum (H1, H2, H3 og H4).  
+
+HTML-uppruni fyrir efni [!INCLUDE[prod_short](includes/prod_short.md)] notar merki til að hjálpa notendum aðstoðartækni að skilja uppbyggingu og innihald síðunnar. Til dæmis, á listasíðum, eru dálkarnir skilgreindir í TH-merkjum og dálkur fyrirsagnir eru settar með TITLE eigind inni í merkinu. Skýringarmyndir fyrir þætti, svo sem FastTabs, FactBoxes og reitir eru í fyrirsagnamerkjum (H1, H2, H3 og H4).  
 
 ## <a name="image-and-links"></a><a name="Images"></a> Mynd og tenglar
 
- Lýsandi texti fyrir myndir er stillt með ALT-eigind inni í IMG-merkinu. Lýsandi texti fyrir tengla er stillt með ALT-eigind inni í A-merkinu.  
+Lýsandi texti fyrir myndir er stillt með ALT-eigind inni í IMG-merkinu. Lýsandi texti fyrir tengla er stillt með ALT-eigind inni í A-merkinu.  
 
 ## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Aðstoðartækni
 
@@ -70,7 +52,30 @@ ms.locfileid: "5772355"
 
 ## <a name="zoom"></a><a name="zoom"></a> Súma
 
-Flestir vafrar nota staðlaðar flýtilykla til að auka og minnka aðdrátt á opinni síðu. Þessir flýtilyklar eru ekki aðeins fyrir [!INCLUDE [prod_short](includes/prod_short.md)] en þeir virka þegar [!INCLUDE [prod_short](includes/prod_short.md)] er notað í vafra. Listi yfir studda flýtilykla má finna á [Flýtilyklar fyrir aukinn eða minnkaðan aðdrátt](keyboard-shortcuts.md#zoomshortcuts).  
+Flestir vafrar nota staðlaðar flýtilykla til að auka og minnka aðdrátt á opinni síðu. Þessir flýtilyklar eru EKKI aðeins fyrir [!INCLUDE [prod_short](includes/prod_short.md)] en þeir virka þegar [!INCLUDE [prod_short](includes/prod_short.md)] er notað í vafra. Listi yfir studda flýtilykla má finna á [Flýtilyklar fyrir aukinn eða minnkaðan aðdrátt](keyboard-shortcuts.md#zoomshortcuts).
+
+## <a name="tooltips"></a>Ábending
+
+Ábendingar eru tiltækar á flestum þáttum notandaviðmótsins, eins og síðureitum og dálkum, aðgerðum, vísbendingAREITUM og myndritum. Ábending er aukatexti sem útskýrir einingu til að hjálpa þér að skilja tilgang hennar betur. 
+
+Ábendingar eru aðgengilegar á mismunandi hátt eftir því hvaða biðlara (vef eða farsíma) og tæki er unnið með. Notið töfluna hér á eftir til viðmiðunar. Sumir skjálesarar geta lesið tilteknar ábendingar. Í því tilviki er hægt að opna ábendingarnar eins og lýst er í töflunni og nota síðan skjálesarann til að fletta í ábendinguna eins og í öllum öðrum einingum.
+
+#### <a name="accessing-tooltips"></a>Aðgangur ábendinga
+
+|Eining|Músaaðgerð fyrir vefbiðlara|Flýtilykill fyrir vefbiðlara|Sneritskipan í spjaldtölvu/síma fyrir farsímaforrit|Stuðningur við skjálesara|
+|-------|-----------------|------------|--------------------------|---------------------|
+|Síðureitir og dálkahausar|Haltu bendli yfir reit eða smelltu á dálkahaus|Færa áherslu í reit eða dálkahaus og ýta á ALT+örvalykil upp|Smelltu á fyrirsögn reitsins |já|
+|Grafþættir eins og stika, lína, sneið|Haltu bendlinum yfir einingunni|Færa áherslu á einingu, t.d. með örvalyklum|Haltu fingri á einingu|já|
+|Aðgerðir|Haltu bendlinum yfir aðgerðinni|ekkert|ekkert |nei|
+|Vísbendingareitir|Haltu bendlinum yfir reitnum |ekkert|ekkert|nei|
+
+
+<!--
+- With a mouse, hover over the element.
+- With keyboard, press the Alt+Up Arrow keys.
+- On a tablet or phone, tap and hold on the element. To learn about more gestures, see [Touch and Pen Gestures](touch-gestures.md)
+
+-->
 
 ## <a name="for-more-accessibility-information"></a>Fyrir frekari upplýsingar um aðgengi
 
@@ -81,6 +86,5 @@ Flestir vafrar nota staðlaðar flýtilykla til að auka og minnka aðdrátt á 
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Algengar spurningar](across-faq.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

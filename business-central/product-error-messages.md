@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 30ae76f4347a8297a84092573a59835be5569ec4
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779483"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017200"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Viðvaranir og villuboð í Dynamics 365 Business Central
 
@@ -38,7 +38,7 @@ Ef þú ert kerfisstjóri eða yfirnotandi getur þú hjálpað öðrum með þv
 [Tilföng fyrir Hjálp og notendaþjónustu](product-help-and-support.md)  
 [Algengar spurningar](across-faq.md)  
 [Algengar spurningar um Viðmótsleit](ui-search-faq.md)  
-[Algengar spurningar um leit og síun](ui-search-filter-faq.md)  
+[Algengar spurningar um leit og síun](ui-search-filter-faq.yml)  
 [Algengar spurningar um að afrita og líma](faq-copy-paste.yml)  
 [Grunnstillingum breytt](ui-change-basic-settings.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  

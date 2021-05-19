@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a3d42fccebafdfa80346f04b43a0e3dd29f467d8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770639"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017175"
 ---
 # <a name="sorting-searching-and-filtering"></a>Röðun, leit og síun
 
@@ -259,7 +259,7 @@ Dálkar sem þegar eru með síur eru auðkenndar með tákninu ![Síutákn](med
 - =
 - &#124;
 
-Ef ætlunin er að sía eitt af þessum táknum skal hafa síusegðina innan gæsalappa. Ef þú vilt til dæmis sía skrár sem hefjast á textanum *J & V*, þá yrði síusegðin `'J & V*'`.
+Ef sía á eitthvert þessara tákna skal setja það sem leita á að í einfaldar gæsalappir (`'<expression with symbol>'`). Ef þú vilt til dæmis sía skrár sem hefjast á textanum *J & V*, þá yrði síusegðin `'J & V*'`.
 
 Þetta skilyrði er ekki nauðsynlegt fyrir önnur tákn.
 
@@ -304,7 +304,7 @@ Notaðu `%myvendors` í lánardrottinn **Nr** reitnum, til að birta allar skrá
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Algengar spurningar um leit og síun](ui-search-filter-faq.md)  
+[Algengar spurningar um leit og síun](ui-search-filter-faq.yml)  
 [Vista og sérsníða listayfirlit](ui-views.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

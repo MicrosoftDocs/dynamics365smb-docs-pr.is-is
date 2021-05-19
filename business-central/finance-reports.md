@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a36e40796978ddd20df818c3bccb1e148d50a4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783773"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935287"
 ---
 # <a name="financial-reports-in-business-central"></a>Fjárhagsskýrslur í Business Central
 
@@ -24,7 +24,6 @@ Eftirfarandi tafla lýsir sumum helstu skýrslunum í fjárhagsskýrslugerð.
 
 |Skýrsla |Description  |
 |---------|---------|
-|**Leiðr. kostnað - Birgðafærslur** | Leiðréttir birgðavirði í virðisfærslum til að hægt sé að nota réttan kostnað við uppfærslu fjárhags og til að talnagögn um sölu og hagnað séu rétt. Leiðrétting kostnaðar flytur allar kostnaðarbreytingar úr færslum á innleið, til dæmis færslur fyrir innkaup eða framleiðslufrálag, í viðeigandi færslur á útleið, til dæmis sölu og millifærslur.  |
 |**Prófjöfnuður**| Sýnir bókhaldslykla samkvæmt stöðum og hreyfingum. Hægt er að velja að skoða prófjöfnuð fyrir tilteknar víddir. Hægt er að nota skýrsluna í lok fjárhagstímabils eða reikningsárs. |
 |**Prófjöfnuður eftir tímabili**  | Sýnir upphafsstöðu fjárhagsreikningsins, hreyfingar á völdu tímabili (mánuði, fjórðungi eða ári) og lokastöðuna.         |
 |**Prófjöfnuður - Áætlun** | Hér kemur fram samanburður á prófjöfnuði og áætlun. Hægt er að velja að skoða prófjöfnuð fyrir tilteknar víddir. Hægt er að nota skýrsluna í lok fjárhagstímabils eða reikningsárs.        |

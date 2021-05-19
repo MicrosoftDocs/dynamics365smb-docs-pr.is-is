@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bb3c0684d476fbba2a23a73dd821384d32afbbab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 91c64ecbd32ec8fe6a528c87d2e102e1a1322816
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777042"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017225"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Úrræðaleit vegna samstillingarvillna
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -27,7 +27,7 @@ Margir hreyfanlegir hlutir taka þátt í samþættingu [!INCLUDE[prod_short](in
 Villur koma oft upp annaðhvort vegna þess að notandi hefur gert eitthvað við tengdar færslur eða eitthvað er að uppsetningu samþættingar. Notendur geta leyst úr villum sem tengjast tengdum færslum. Þessar villur stafa af aðgerðum eins og að eyðing á gögnum í öðru, en ekki báðum, viðskiptaforritunum og síðan samstilla. Frekari upplýsingar er að finna í [Skoða stöðu á samstillingu](admin-how-to-view-synchronization-status.md).
 
 ## <a name="example"></a>Dæmi
-Þetta myndband sýnir dæmi um hvernig leita á úrræða út af villum sem komu upp við samstillingu við Sales. Ferlið verður það sama fyrir allar samþættingar. 
+Þetta myndband sýnir dæmi um hvernig leita á úrræða út af villum sem komu upp við samstillingu við [!INCLUDE[prod_short](includes/cds_long_md.md)]. Ferlið verður það sama fyrir allar samþættingar. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
@@ -47,7 +47,7 @@ Stundum geta tímastimplarnir í færslum valdið árekstrum. Taflan „CDS-sam�
 
 Hægt er að afmarka færslur sem eiga að vera samstilltar með því að bera saman línustimpla í töflunni „Vörpun samþættingartöflu“, svæðunum „Samst. breytt á afmörkun“ og „Samst. innr. töfl. breyt. Á afmörkun“.
 
-Árekstrarvilluboðin „Ekki er hægt að uppfæra viðskiptamannafærslu vegna þess að hún er með eldri breytingardagsetningu en reikningsfærslan“ eða „Ekki er hægt að uppfæra Lykilfærsluna vegna þess að hún er með eldri breytingardagsetningu en viðskiptamannafærslan“ geta birst ef línan er með tímastimpil sem er stærri en IntegrationTableMapping. „Samst. breytt á afmörkun“ en hún er ekki nýlegri en tímastimpill á Sölusamþættingarfærslu. Þetta þýðir að upprunalínan var samstillt handvirkt, ekki með verkraðarfærslu. 
+Árekstrarvilluboðin „Ekki er hægt að uppfæra viðskiptamannafærslu vegna þess að hún er með eldri breytingardagsetningu en reikningsfærslan“ eða „Ekki er hægt að uppfæra Lykilfærsluna vegna þess að hún er með eldri breytingardagsetningu en viðskiptamannafærslan“ geta birst ef línan er með tímastimpil sem er stærri en IntegrationTableMapping. „Samst. breytt á afmörkun“ en hún er ekki nýlegri en tímastimpill á Sölusamþættingarfærslu. Það þýðir að upprunaröðin var samstillt handvirkt og ekki með verkraðarfærslunni. 
 
 Áreksturinn gerist vegna þess að viðtökulínunni var einnig breytt – Tímastimpill línunnar er nýlegri en tímastimpill Sölusamþættingarfærslu. Viðtökustaðarathugunin er aðeins framkvæmd fyrir tvístefnutöflur. 
 
@@ -55,6 +55,8 @@ Hægt er að afmarka færslur sem eiga að vera samstilltar með því að bera 
 
 ## <a name="remove-couplings-between-records"></a>Fjarlægja tengingu milli færslna
 Þegar eitthvað fer úrskeiðis í samþættingunni og nauðsynlegt er að aftengja færslur til að stöðva samstillingu þeirra á milli, þá er hægt að gera slíkt fyrir eina eða fleiri færslur í einu. Hægt er að aftengja eina eða fleiri færslur af listasíðum eða síðunni **Samstillingarvillur í tengdum gögnum** með því að velja eina eða fleiri línu og velja **Eyða tengingu**. Einnig er hægt að fjarlægja allar tengingar fyrir eina eða fleiri töfluvörpun á síðunni **Vörpun samþættingartöflu**. 
+
+Ef einingu með einstefnutengingu er eytt í [!INCLUDE[prod_short](includes/prod_short.md)] verður að eyða biluðu tengingunni handvirkt. Til að gera það, á síðunni **Samstillingarvillur í tengdum gögnum**, skal velja aðgerðina **Finna fyrir eyddar** og eyða svo tengingunum.
 
 ## <a name="see-also"></a>Sjá einnig
 [Samþætting við Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

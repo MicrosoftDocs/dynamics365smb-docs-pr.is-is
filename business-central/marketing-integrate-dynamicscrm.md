@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9bbc7b27426befcea6d5e9c0f8b797c4652e03f6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780658"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985363"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Nota Dynamics 365 Sales úr Business Central
 Ef þú notar Dynamics 365 Sales til að taka þátt í viðskiptum, getur þú notað óaðfinnanlega samþættingu í heildarferlinu með því að nota [!INCLUDE[prod_short](includes/prod_short.md)] fyrir bakvinnsluaðgerðir á borð við úrvinnslu pantana, birgðastjórnun og fjármálagerð.
@@ -95,7 +95,46 @@ Sölutilboð fara í gegnum margar útgáfur áður en þau eru fullkláruð. B�
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Meðhöndlun bókaðra sölureikninga, greiðslna viðskiptamanna og talnaupplýsinga
 Þegar sölupöntun hefur verið uppfyllt verða reikningar fyrir hana búnir til. Þegar sölupöntun er reikningsfærð er hægt að flytja bókaðan sölureikning til [!INCLUDE[crm_md](includes/crm_md.md)] ef gátreiturinn **Búa til reikning í [!INCLUDE[crm_md](includes/crm_md.md)]** er valinn á síðunni **Bókaður sölureikningur**. Bókaðir reikningar eru fluttir til [!INCLUDE[crm_md](includes/crm_md.md)] með stöðuna **Greiddir**.
 
-Þegar greiðsla viðskiptamanns er móttekin fyrir sölureikninginn í [!INCLUDE[prod_short](includes/prod_short.md)] verður stöðu sölureiknings breytt í **Greiddur** með reitinn **Ástæða stöðu** stilltan á **Að hluta til** ef greiddur að hluta til eða **Að fullu** ef greiddur að fullu þegar aðgerðin **Uppfæra talnagögn reiknings** er valinn á síðu viðskiptamanns í [!INCLUDE[prod_short](includes/prod_short.md)]. Virknin **Uppfæra talnagögn reiknings** uppfærir einnig gildi í reitum á borð við **Jafnvægi** og **Heildarsala** í upplýsingareitnum **[!INCLUDE[prod_short](includes/prod_short.md)] Talnagögn reiknings** í [!INCLUDE[crm_md](includes/crm_md.md)]. Að öðrum kosti er hægt láta áætluðu verkin Talnagögn um viðskiptavin og POSTEDSALESINV-INV keyra sjálfkrafa bæði þessi ferli í bakgrunninum.
+Þegar greiðsla viðskiptamanns er móttekin fyrir sölureikninginn í [!INCLUDE[prod_short](includes/prod_short.md)] verður stöðu sölureiknings breytt í **Greiddur** með reitinn **Ástæða stöðu** stilltan á **Að hluta til** ef greiddur að hluta til eða **Að fullu** ef greiddur að fullu þegar aðgerðin **Uppfæra talnagögn reiknings** er valinn á síðu viðskiptamanns í [!INCLUDE[prod_short](includes/prod_short.md)]. Virknin **Uppfæra talnagögn reiknings** uppfærir einnig gildi í reitum á borð við **Jafnvægi** og **Heildarsala** í upplýsingareitnum **[!INCLUDE[prod_short](includes/prod_short.md)] Talnagögn reiknings** í [!INCLUDE[crm_md](includes/crm_md.md)]. Að öðrum kosti er hægt láta áætluðu verkin Talnagögn um viðskiptavin og POSTEDSALESINV-INV keyra sjálfkrafa bæði þessi ferli í bakgrunninum. 
+
+## <a name="handling-sales-prices"></a>Umsjón með söluverðum
+> [!NOTE]
+> Á útgáfutímabili 2 árið 2020 gáfum við út einfaldaðri ferla til að setja upp og hafa umsjón með verðum og afsláttum. Ef þú ert nýr viðskiptamaður sem ert að nota þessa útgáfu þá ertu að nota nýju upplifunina. Ef þú ert núverandi viðskiptamaður, hvort þú ert að nota nýju upplifunina fer eftir því hvort stjórnandinn þinn hafi virkjað eiginleikauppfærsluna **Upplifun nýrrar verðlagningar** í **Eiginleikastjórnun**. Frekari upplýsingar er að finna [Virkjun væntanlegra eiginleika fyrir tíma](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+Skrefin til að ljúka þessu ferli eru mismunandi eftir því hvort stjórnandinn hefur virkjað nýju verðupplifunina eða ekki. 
+
+> [!NOTE]
+> Ef stöðluð verðsamræming virkar ekki fyrir þig mælum við með því að þú notir sérsniðna samþættingu. Frekari upplýsingar eru í [Sérstilling samþættingar með Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
+
+#### <a name="current-experience"></a>[Núverandi reynsla](#tab/current-experience/)
+Í núverandi verðupplifun samstillir [!INCLUDE[prod_short](includes/prod_short.md)] söluverð sem: 
+
+* Gildir fyrir alla viðskiptavini. Sjálfgefnir söluverðslistar eru búnir til út frá verðinu í reitnum **Einingarverð** á síðunni **Birgðaspjald** fyrir hlutina.
+* Nota fyrir tiltekinn verðflokk viðskiptamanns. Til dæmis söluverð fyrir smásölu- eða heildsöluviðskiptavini þína. Gerið eftirfarandi til að samræma verð miðað við verðhóp viðskiptavinar:
+
+    1. Tengdu atriði sem ákvarða verð í verðflokki viðskiptavinarins.
+    2. Á síðunni **Verðflokkar viðskiptamanna** er tengt verðflokknum með því að velja **Tengt**, **Dynamics 365 Sales**, **Tenging** og **Setja svo upp tengingu**. Tengingin mun búa til virkan verðlista í [!INCLUDE[prod_short](includes/prod_short.md)] við sama heiti og verðflokkur viðskiptavinar í [!INCLUDE[crm_md](includes/crm_md.md)] og samstilla sjálfkrafa alla hluti sem verðflokkur viðskiptamanns notar til að skilgreina verðið.
+
+:::image type="content" source="media/customer-price-group.png" alt-text="Verðflokkssíða viðskiptavinar":::
+
+#### <a name="new-experience"></a>[Ný reynsla](#tab/new-experience/)  
+
+Nýja verðupplifunin samstillir verðlista sem uppfylla eftirfarandi skilyrði:
+
+* Slökkt er á **Leyfa uppfærslu sjálfgilda**.
+* Verðgerðin er Sala.
+* Gerð upphæðar er Verð.
+* Vörutegundin í línunum verður að vera Vara eða Forði. 
+* Lágmarksmagn er ekki tilgreint.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] samstillir söluverð sem eiga við um alla viðskiptavini. Sjálfgefnir söluverðslistar eru búnir til út frá verðinu í reitnum **Einingarverð** á síðunni **Birgðaspjald** fyrir hlutina.
+
+Til að samræma verðlista velurðu síðuna **Söluverðslisti**, **Tengt**, **Dynamics 365 Sales**, **Tenging** og síðan **Setja upp tengingu**. 
+
+:::image type="content" source="media/sales-price-list.png" alt-text="Söluverðslistasíða":::
+
+---
+
 
 ## <a name="see-also"></a>Sjá einnig
 [Samþætting við Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

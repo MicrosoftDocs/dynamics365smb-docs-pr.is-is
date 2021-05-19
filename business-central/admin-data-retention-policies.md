@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780058"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935337"
 ---
 # <a name="define-retention-policies"></a>Skilgreina varðveislureglur
 Stjórnendur geta skilgreint varðveislureglur til að tilgreina hversu oft þeir vilja að [!INCLUDE[prod_short](includes/prod_short.md)] eyði úreltum gögnum í töflum sem innihalda kladdafærslur og safnvistaðar færslur. Til dæmis getur hreinsun á kladdafærslum gert auðveldara um vik að vinna með gögnin sem eiga við. Reglur geta innihaldið öll gögn í töflunum sem eru komin fram yfir lokadagsetninguna eða hægt er að bæta við síuskilyrðum sem innihalda aðeins tiltekin útrunnin gögn í reglunni. 
@@ -67,7 +67,7 @@ Til að bæta töflum við listann yfir leyfðar töflur þarf þróunaraðili a
 
 Eftirfarandi eru dæmi um hvernig á að bæta töflu við lista yfir leyfðar töflur með og án áskildra og sjálfgefinna sía. Fyrir flóknara dæmi skal skoða codeunit 3999 „Reten. Pol. Setja upp - BaseApp“. 
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Eftirfarandi eru dæmi um hvernig á að bæta töflu við lista yfir leyfðar t
 
 Eftirfarandi dæmi inniheldur áskilda síu.
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,9 +98,12 @@ Eftirfarandi dæmi inniheldur áskilda síu.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
+
 Þegar þróunaraðili hefur bætt töflum við listann, getur stjórnandi haft þær með í varðveislureglu. 
 
 ## <a name="see-also"></a>Sjá einnig
+
+[Greining á fjarmælingu á rakningu varðveislustefnu](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Endurskoðunarbreytingar í Business Central](across-log-changes.md)  
 [Afmörkun](ui-enter-criteria-filters.md#filtering)  
 [Nota verkraðir til að tímaraða verkhlutum](admin-job-queues-schedule-tasks.md)  
