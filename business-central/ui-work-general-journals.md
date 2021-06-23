@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: journals, recurring, accrual
+ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba7ed8bba5510e4e17cc645c5dd8f935f50a7fac
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783035"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087720"
 ---
 # <a name="working-with-general-journals"></a>Vinna í færslubókum
 
@@ -71,7 +71,7 @@ Til að leyfa að færslubækur séu afritaðar í bókaðar færslubækur, á s
 Ef stofnaðir voru sjálfgefnir mótreikningar fyrir bókakeyrslur á síðunni **Færslubækur**, eru mótreikningarnir fylltir út sjálfkrafa þegar fyllt er í reitinn **Reikningur nr** Að öðrum kosti er fyllt í reitinn **Reikningur nr.** og reitinn **Mótreikningur nr.** handvirkt. Jákvæð upphæð í reitnum **Upphæð** er tekin út af aðalreikningnum og lögð inn á mótreikninginn. Neikvæð upphæð er lögð inn á aðalreikninginn og tekin út af mótreikningnum.
 
 > [!NOTE]  
->   VSK er reiknaður út á aðskilin hátt fyrir aðalreikninginn og mótreikninginn, þannig að þar er hægt að nota mismunandi VSK prósentuhlutfall.
+> VSK er reiknaður út á aðskilin hátt fyrir aðalreikninginn og mótreikninginn, þannig að þar er hægt að nota mismunandi VSK prósentuhlutfall.
 
 ## <a name="working-with-recurring-journals"></a>Vinna með Ítrekunarbækur
 Ítrekunarbók er færslubók með sérstökum reitum til að stjórna færslum sem eru bókaðar reglulega með litlum eða engum breytingum, t.d. leigu, áskriftum, rafmagni og hita. Með því að nota þessa reiti fyrir endurteknar færslur er hægt að bóka bæði fastar og breytilegar upphæðir. Einnig er hægt að tilgreina sjálfvirkar bakfærslur daginn eftir bókunardagsetningu. Einnig er hægt að nota úthlutunarlykla til að skipta ítrekunarfærslum niður á ýmsa reikninga. Nánari upplýsingar eru í [Úthluta upphæðum ítrekunarbókar á nokkra reikninga](#allocating-recurring-journal-amounts-to-several-accounts).
@@ -167,6 +167,7 @@ Uppsafnanir eru yfirleitt bókaðar með föstum, breytilegum eða bakfærslum �
 Þegar lokið hefur verið við að vista staðlaða birgðabókina opnast síðan Birgðabók þannig að hægt er að halda áfram og bóka hana, vitandi það að auðvelt er að stofna hana aftur næst þegar bóka þarf sömu eða svipaðar línur.
 
 ### <a name="to-reuse-a-standard-journal"></a>Að endurnýta staðlaða færslubók
+
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðabækur** og veldu síðan tengda tengilinn.
 2. Valin er **Ná í staðlaðar færslubækur** aðgerðin.
 
@@ -181,23 +182,26 @@ Uppsafnanir eru yfirleitt bókaðar með föstum, breytilegum eða bakfærslum �
     Ef ekki var merkt við reitinn **Vista ein.upphæð** í keyrslunni **Vista sem staðlaða birgðabók** er reiturinn **Ein.upphæð** í línum sem settar eru inn úr stöðluðu birgðabókinni sjálfkrafa fylltur út með gildandi virði vörunnar, afrituðu úr reitnum **Ein.kostnaður** á birgðaspjaldinu.
 
     > [!NOTE]  
-    >   Ef merkt var við reitina **Vista ein.upphæð** eða **Vista magn** skal nú ganga úr skugga um að gildin sem færð voru inn séu rétt fyrir þessa tilteknu birgðaleiðréttingu áður en birgðabókin er bókuð.
+    > Ef merkt var við reitina **Vista ein.upphæð** eða **Vista magn** skal nú ganga úr skugga um að gildin sem færð voru inn séu rétt fyrir þessa tilteknu birgðaleiðréttingu áður en birgðabókin er bókuð.
 
     Ef birgðabókarlínurnar sem settar eru inn innihalda vistaðar einingaupphæðir sem ekki á að bóka er fljótlegt að breyta þeim í gildandi virði vörunnar eins og hér er lýst.
 
-6. Velja skal birgðabókarlínur sem á að leiðrétta, og svo velja **Endurreikna einingaupphæð** aðgerðina. Það uppfærir reitinn Ein.upphæð með gildandi kostnaðarverði vörunnar.
-7. Valið er **Bóka** aðgerðin.
+5. Velja skal birgðabókarlínur sem á að leiðrétta, og svo velja **Endurreikna einingaupphæð** aðgerðina. Það uppfærir reitinn Ein.upphæð með gildandi kostnaðarverði vörunnar.
+6. Valið er **Bóka** aðgerðin.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>Endurraða númerum fylgiskjals í færslubókum
+
 Til að ganga úr skugga um að þú fáir ekki bókunarvillur vegna fylgiskjalsnúmers pöntunar, geturðu notað aðgerðina **Endurraða númerum fylgiskjals** áður en þú bókar færslubókina.
 
 Í öllum færslubókum sem byggja á almennri færslubók er hægt að breyta reitnum **Skjal nr** þannig að hægt sé að tilgreina mismunandi númer fylgiskjala fyrir mismunandi færslubókarlínur eða sama númer fylgiskjals fyrir tengdar færslubókarlínur.
 
-Ef **Númeraraðir** reiturinn á bókarkeyrslunni er fylltur út krefst bókunargerðin í færslubókunum þess að númer fylgiskjala á stakri eða nokkrum færslubókarlínum séu í réttri röð. Til að ganga úr skugga um að þú fáir ekki bókunarvillur vegna fylgiskjalsnúmers pöntunar, geturðu notað aðgerðina **Endurraða númerum fylgiskjals** áður en þú bókar færslubókina. Ef tengdar færslubókarlínur voru teknar saman eftir númerum fylgiskjala áður en aðgerðin var notuð eru þær áfram teknar saman en gæti verið úthlutað á annað skjalanúmer.
+Ef **Númeraraðir** reiturinn á bókarkeyrslunni er fylltur út krefst bókunargerðin í færslubókunum þess að númer fylgiskjala á stakri eða nokkrum færslubókarlínum séu í réttri röð. Veldu aðgerðina **Endurraða númerum fylgiskjals** og viðeigandi **Fylgiskjal nr.** reitir eru síðan uppfærðir. Ef tengdar færslubókarlínur voru teknar saman eftir númerum fylgiskjala áður en aðgerðin var notuð eru þær áfram teknar saman en gæti verið úthlutað á annað skjalanúmer.  
 
 Þessi aðgerð virkar einnig á afmörkuðum yfirlitum.
 
 Sér hver endurnúmerun skjalanúmera mun taka tillit til tengdra jafnana, s.s. greiðslujafnana sem hafa verið framkvæmdar úr skjalinu á færslubókarlínunni á lánardrottnalykli. Að sama skapi geta reitirnir **Kenni jöfnunar** og **Nr. jöfnunarskjals** í færslubókunum sem um ræðir verið uppfærðir.
+
+### <a name="to-renumber-documents-in-journals"></a>Til að endurraða fylgiskjölum í færslubókum
 
 Eftirfarandi ferli byggist á glugganum **Færslubók**, en á við um allar aðrar bækur sem eru byggðar á færslubókum, eins og síðunni **Greiðslubók**.
 

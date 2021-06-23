@@ -1,5 +1,5 @@
 ---
-title: Birta sérstillta Power BI-skýrslur fyrir Business Central Data| Microsoft docs
+title: Birta sérstilltar Power BI-skýrslur fyrir Business Central Data
 description: Hægt er að nota Power BI skýrslur til að öðlast frekari innsýn í gögn í listum.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/26/2021
 ms.author: jswymer
-ms.openlocfilehash: c74593a429c520730efbd503a1884065ca6cd7e4
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941614"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087695"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Býr til Power BI skýrslur til að birta listagögn í [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -62,7 +62,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 6. Vistið og gefið skýrslunni heiti.
 
-    Gefa skal skýrslunni heiti sem inniheldur heiti listasíðunnar sem tengist skýrslunni, eins og í biðlaranum. Ekki skiptir hins vegar máli hvort nafnið er skráð með há- eða lágstöfum. Segjum að skýrslan sé fyrir listasíðuna **Sölureikningar**. Í þessu tilviki skal setja orðin **sölureikningar** einhversstaðar í nafnið, eins og **sölureikningarnirminir.pbix** eða **_sölureikningarnir_minir.pbix**.
+    Gefa skal skýrslunni heiti sem inniheldur heiti listasíðunnar sem tengist skýrslunni, eins og í biðlaranum. Ekki skiptir hins vegar máli hvort nafnið er skráð með há- eða lágstöfum. Segjum að skýrslan sé fyrir listasíðuna **Sölureikningar**. Í þessu tilviki skal setja orðin **sölureikningar** einhversstaðar í nafnið, eins og **solureikningarnir_minir.pbix** eða **minir_solureikningar.pbix**.
 
     Þessi nafnavenja er ekki skilyrði. Hins vegar gerir það val á skýrslum í [!INCLUDE[prod_short](includes/prod_short.md)] fljótlegri. Þegar skýrsluvalssíða opnast af listasíðu er hún síuð sjálfkrafa út frá síðuheitinu. Sían er með málskipanina: `@*<caption>*`, eins og `@*Sales Invoices*`. Þessi sía er búin til að takmarka skýrslurnar sem eru birtar. Einnig er hægt að fjarlægja afmörkunina til að birta heildarlista yfir skýrslur sem eru tiltækar í Power BI.
 

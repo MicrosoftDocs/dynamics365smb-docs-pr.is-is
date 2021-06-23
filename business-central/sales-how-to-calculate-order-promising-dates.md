@@ -1,5 +1,5 @@
 ---
-title: Hvernig á að reikna dagsetningu pöntunarloforðs | Microsoft Docs
+title: Reikna dagsetningar pöntunarloforða
 description: Pöntunarloforðsaðgerðin nýtist til að reikna fyrstu hugsanlegu dagsetningu fyrir sendingu eða afhendingu á vöru. Einnig eru búnar til innkaupatillögulínur fyrir dagsetningarnar sem eru samþykktar.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0fda3e2cdbbb04d025d0142b94add8c75eb98c5a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778473"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115591"
 ---
 # <a name="calculate-order-promising-dates"></a>Reikna dagsetningar pöntunarloforða
-Fyrirtæki verður að geta upplýst viðskiptamenn sína um afhendingardagsetningar pöntunar. Síðan **Línur pöntunarloforðs** gerir kleift að framkvæma þetta í sölupöntunarlínu.  
+Fyrirtæki verður að geta upplýst viðskiptamenn sína um afhendingardagsetningar pöntunar. Síðan **Línur pöntunarloforðs** gerir kleift að framkvæma þetta í sölupöntun.  
 
 Grundvallaður á þekktum og áætluðum ráðstöfunardagsetningum vöru, [!INCLUDE[prod_short](includes/prod_short.md)] reiknar strax sendingar- og afhendingardagsetningar, sem er svo hægt að lofa viðskiptamanninum.  
 
@@ -35,7 +35,7 @@ Ef ekki er tilgreind umbeðin afgreiðsludagsetning á sölupöntunarlínunni, e
 - áætluð afhendingardagsetning + flutningstími = áætluð afgreiðsludagsetning  
 
 ## <a name="about-order-promising"></a>Um pöntun lofað
-Aðgerðin Pöntunarloforð gerir kleift að lofa því að pöntun verði send eða afhent á tilteknum degi. Kerfið reiknar út hvenær vara er tiltæk eða hægt að lofa henni og það býr til pöntunarlínur fyrir þær dagsetningar sem samþykktar eru. Pöntunarloforðsaðgerðin reiknar fyrstu hugsanlegu dagsetningu fyrir sendingu eða afhendingu á vöru. Einnig eru búnar til innkaupabeiðnilínur, ef fyrst skyldi þurfa að kaupa inn vörurnar, fyrir dagsetningarnar sem eru samþykktar.
+Aðgerðin Pöntunarloforð gerir kleift að lofa því að pöntun verði send eða afhent á tilteknum degi. Kerfið reiknar út hvenær vara er tiltæk eða hægt að lofa henni og það býr til pöntunarlínur fyrir þær dagsetningar sem samþykktar eru. Pöntunarloforðsaðgerðin reiknar fyrstu hugsanlegu dagsetningu fyrir sendingu eða afhendingu á vöru. Einnig eru búnar til innkaupabeiðnilínur, ef fyrst skyldi þurfa að kaupa inn eða framleiða vörurnar, fyrir dagsetningarnar sem eru samþykktar.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] notar tvö grundvallarhugtök:  
 

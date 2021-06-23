@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: e142e45cc8692875d609090ea8615708342683fb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2231fcd34d45ae487bf3344a1efe2e317c75c89a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777799"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215079"
 ---
 # <a name="design-details-inventory-periods"></a>Hönnunarupplýsingar: birgðahaldstími
 Bakfærð færsla eða kostnaðarleiðréttingar hafa oft áhrif á stöðu og birgðaverðmat fyrri reikningstímabil sem teljast lokjuð. Þetta getur haft öfug áhrif á nákvæma skýrslugerð, sérstaklega hjá alþjóðlegum fyrirtækjum. Búnaður birgðahaldstíma má nota til að forðast slíka vandamál, með því að opna eða loka birgðahaldstímum til að takmarka bókanir á tilteknu tímabili.  

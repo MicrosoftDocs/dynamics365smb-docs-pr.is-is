@@ -1,8 +1,6 @@
 ---
-title: Yfirlit yfir umsjónarverkhluta innkaupa | Microsoft Docs
+title: Yfirlit yfir umsjónarverkhluta innkaupa
 description: Útskýrir verkhluta sem felur í sér umsjón innkaupa þinna og innkaupaferla, þar með talið hvernig innkaupareikningar og innkaupapantanir virka.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0cc508d75aaf64a631de47af5c241cab2be3f334
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 929e1d62a091c4a01aa6f5e03dd5fcbdaa5bf7c0
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772530"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115791"
 ---
 # <a name="purchasing"></a>Innkaup
 Innkaupareikningur eða innkaupapöntun er stofnaður til að skrá kostnaðarverð keyptra vara og til að rekja viðskiptaskuldir. Ef stjórna þarf birgðum eru innkaupareikningar líka notaðir til að uppfæra birgðastig gagnvirkt svo að hægt sé að lágmarka birgðakostnað og veita betri þjónustu við viðskiptavini. Innkaupakostnaður, að þjónustukostnaði meðtöldum, og birgðavirði sem leiðir af bókun innkaupareikninga verða hluti af framlegðartölum og öðrum fjárhagslegum afkastavísum í Mitt hlutverk.
@@ -45,6 +43,10 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 | Læra hvernig [!INCLUDE[prod_short](includes/prod_short.md)] reiknar hvenær verður að panta vöru til að geta fengið hana á tilteknum degi.|[Dagsetning útreiknings fyrir kaup.](purchasing-date-calculation-for-purchases.md)|
 |Leysa úr misskilningi þegar tvær eða fleiri færslur eru til fyrir sama lánardrottinn.|[Sameina tvítekin atriði](sales-how-merge-duplicate-records.md)|
 |Stjórnaðu skuldbindingum þínum til lánardrottins til að kaupa inn mikið magn sem er afhent í nokkrum sendingum yfir tímabil.|[Vinna með standandi innkaupapantanir](sales-how-to-create-blanket-sales-orders.md)|
+
+## <a name="external-document-numbers"></a>Númer ytri skjala
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Sjá tengda þjálfun á [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 

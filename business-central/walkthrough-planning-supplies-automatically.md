@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e7d15b47124248e27698136fab362e867e81ba47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782885"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214704"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Kynning: Sjálfvirk áætlun birgða
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga á aðalframleiðsluáætluninni (MPS) og efnisþarfaáætluninni (MRP) útfrá raunverulegri eftirspurn og eftirspurn samkvæmt spá.  
 
@@ -264,8 +264,8 @@ Hugtök eins og „keyra áætlun“ eða „keyra MRP“ vísa í útreikninga 
  Svona lýkur kynningunni á því hvernig áætlunarkerfið er notað til að nema sjálfkrafa eftirspurn, reikna út viðeigandi birgðapantanir út frá eftirspurn og áætlunarfæribreytum, og stofna síðan sjálfkrafa mismunandi gerðir birgðapantana með viðeigandi dagsetningar og magn.  
 
 ## <a name="see-also"></a>Sjá einnig  
- [Kynningar á viðskiptaferli](walkthrough-business-process-walkthroughs.md)   
- [Kynning: Handvirk áætlun birgða](walkthrough-planning-supplies-manually.md)   
+ [Kynningar á viðskiptaferlum](walkthrough-business-process-walkthroughs.md)   
+<!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)
 
 

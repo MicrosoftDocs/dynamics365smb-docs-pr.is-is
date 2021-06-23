@@ -1,5 +1,5 @@
 ---
-title: Um framleiðslupantanir | Microsoft Docs
+title: Um framleiðslupantanir
 description: Framleiðslupantanir eru notaðar til að sjá um umbreytingu keypts efnis yfir í framleiddar vörur. Framleiðslupantanir (vinnu- eða verkpantanir) leiða verk í gegnum ýmsar aðgerðir (vinnu- eða vélastöðvar) í vinnusalnum.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ecf65fef85d7f7f184ec8cddd8551eeaa990d92d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb0d2a369e81636fab8af9ffb58c09ffc7614625
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779433"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115337"
 ---
 # <a name="about-production-orders"></a>Um framleiðslupantanir
 Framleiðslupantanir eru notaðar til að sjá um umbreytingu keypts efnis yfir í framleiddar vörur. Framleiðslupantanir leiða verk í gegnum ýmsar vinnu- eða vélastöðvar í vinnusalnum.  
@@ -51,17 +51,17 @@ Framleiðslupantanir eru stofnaðar eftir upplýsingum frá:
 ## <a name="limitations-on-production-order-creation"></a>Takmarkanir á stofnun Framleiðslupantana  
 Framleiðslupantanir eru sjálfkrafa teknar frá og raktar aftur til uppruna síns þegar:  
 
--   Þær eru stofnaðar á **Áætlunarvinnublaðinu**  
--   Þær eru stofnaðar með aðgerðinni Pöntun á síðunni **Áætlun sölupöntunar**  
--   Stofnaðar á síðunni **Pantanaáætlun**  
--   Nota aðgerðina **Enduráætla** á framleiðslupantanir  
+-   Þær eru stofnaðar á **[Áætlunarvinnublaðinu](production-how-to-run-mps-and-mrp.md)**.  
+-   Stofnaðar á síðunni **[Áætlun sölupöntunar](production-how-to-create-production-orders-from-sales-orders.md)**  
+-   Stofnaðar á síðunni **[Pantanaáætlun](production-how-to-plan-for-new-demand.md)**  
+-   Nota aðgerðina **[Enduráætla](production-how-to-replan-refresh-production-orders.md)** á framleiðslupantanir  
 
 Frekari upplýsingar eru í [Rekja tengsl á milli framboðs og eftirspurnar](production-how-track-demand-supply.md).
 
 Framleiðslupantanir sem eru stofnaðar eftir öðrum leiðum eru ekki sjálfkrafa teknar frá og raktar.   
 
 ## <a name="production-order-status"></a>Staða framleiðslupöntunar  
-Staða framleiðslupöntunar stýrir því hvernig framleiðslupöntunin hagar sér innan forritsins. Form og innihald framleiðslunnar ráðast af stöðu pöntunarinnar. Framleiðslupantanirnar eru birtar á ólíkum síðum eftir því hver staða þeirra er. Ekki er hægt að breyta stöðu framleiðslupöntunar handvirkt; nota þarf aðgerðina **Breyta stöðu**.  
+Staða framleiðslupöntunar stýrir því hvernig framleiðslupöntunin hagar sér innan forritsins. Form og innihald framleiðslunnar ráðast af stöðu pöntunarinnar. Framleiðslupantanirnar eru birtar á ólíkum síðum eftir því hver staða þeirra er. Ekki er hægt að breyta stöðu framleiðslupöntunar handvirkt; nota þarf aðgerðina **Breyta stöðu** í einstaka framleiðslupöntunum eða í glugganum **Breyta stöðu framleiðslupöntunar**.  
 
 ### <a name="simulated-production-order"></a>Hermd framleiðslupöntun  
 Hermda framleiðslupöntunin er einstök hvað varðar eftirfarandi eiginleika:  
@@ -110,14 +110,14 @@ Fullunna framleiðslupöntunin er einstök hvað varðar eftirfarandi eiginleika
 - Hversu miklum tíma var varið í vinnslu pöntunarinnar  
 - Magn yfirvörunnar sem var framleidd  
 
-Hægt er að færa þessar upplýsingar handvirkt inn eða í gegnum sjálfvirka skýrslugerð, samkvæmt vörunum sem uppsettar eru í reitnum Birgðaskráningaaðferð.  
+Hægt er að færa þessar upplýsingar handvirkt inn eða í gegnum sjálfvirka skýrslugerð, samkvæmt vörunum sem uppsettar eru í reitnum Birgðaskráningaaðferð í vöru og vinnustöð.  
 
 ### <a name="material-consumption"></a>Efnisnotkun  
 Forritið býður framleiðslufyrirtæki upp á marga valkosti til að færa inn efnisnotkun. Til dæmis er hægt að skrá efnisnotkun handvirkt, sem gæti hentað ef stöðugt er verið að skipta um íhluti eða ef meira er af úrtaki en búist var við.  
 
-Hægt er að vinna efnisnotkun í gegnum Notkunarbókina en einnig er hægt að skrá hana sjálfvirkt í forritinu, það heitir sjálfvirk skýrslugerð. Skýrslugerðaraðferðirnar eru:  
+Hægt er að vinna efnisnotkun í gegnum [notkunarbókina](production-how-to-post-consumption.md) en einnig er hægt að skrá hana sjálfvirkt í forritinu, það heitir sjálfvirk skýrslugerð (losun). Skýrslugerðaraðferðirnar eru:  
 
--   Handvirkt  
+-   Handvirk  
 -   Framvirk  
 -   Afturvirkt  
 
@@ -130,62 +130,14 @@ Framvirk notkunarskýrsla gerir ráð fyrir því að búið sé að nota sjálf
 
 Afturvirk notkunarskýrsla skráir raunverulegt magn alls efnis sem er valið eða notað þegar stöðu framleiðslupöntunar er breytt í *Lokið* nema leiðartengilskótar séu notaðir. Þegar leiðartengilskótar eru notaðir er efnið notað eftir að magn yfirvörunnar er skráð fyrir aðgerðarskrefið í Frálagsbókinni.  
 
-Þegar Framleiðslupöntunin er endurnýjuð er birgðaskráningaraðferðin afrituð af birgðaspjaldinu. Þar sem birgðaskráningaraðferðin fyrir hvern íhlut framleiðslupöntunar stýrir því hvernig og hvenær notkunin er færð inn er mikilvægt að athuga að hægt er að breyta birgðaskráningaraðferð fyrir tilteknar vörur beint á Framleiðslupöntuninni.  
+Þegar Framleiðslupöntunin er endurnýjuð er birgðaskráningaraðferðin afrituð af birgðaspjaldinu. Þar sem birgðaskráningaraðferðin fyrir hvern íhlut framleiðslupöntunar stýrir því hvernig og hvenær notkunin er færð inn er mikilvægt að athuga að hægt er að breyta birgðaskráningaraðferð fyrir tilteknar vörur beint á Framleiðslupöntuninni. 
 
-#### <a name="automatic-consumption-posting-flushing"></a>Sjálfvirk bókun notkunar (birgðaskráning)  
-Kosturinn við sjálfvirka birgðaskráningu er að hún dregur mjög úr gagnafærslum. Þegar hægt er að birgðaskrá aðgerð sjálfvirkt er hægt að gera allt ferli innfærslu notkunar og frálags sjálfvirkt. Ókosturinn við að nota sjálfvirka birgðaskráningu er að kannski er ekki verið að skrá úrkastið rétt og kannski er ekki einu sinni vitað um það. Sjálfvirku skýrslugerðaraðferðirnar eru:  
-
-- Framvirk birgðaskráning allrar pöntunarinnar  
-- Framvirk birgðaskráning eftir aðgerð  
-- Bakskráning eftir aðgerð  
-- Bakskráning allrar pöntunarinnar  
-
-#### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Sjálfvirk skýrslugerð - Framvirk birgðaskráning allrar pöntunarinnar  
-Ef framleiðslupöntunin er birgðaskráð framvirkt í upphafi verksins er hegðun forritið mjög svipuð handvirkri notkun. Meginmunurinn er sá að notkunin gerist sjálfvirkt.  
-
-- Allt innihald framleiðsluuppskriftarinnar er notað og dregið af birgðaskrá á þeirri stundu sem útgefna framleiðslupöntunin er endurnýjuð.  
-- Notkunarmagnið er magnið við hverja samsetningu sem tekið er fram á framleiðsluuppskriftinni, margfaldað með fjölda þeirra yfirvara sem verið er að byggja.  
-- Það er ekki nauðsynlegt að skrá neinar upplýsingar í notkunarbókina ef birgðaskrá á allar vörurnar.  
-- Við notkun vara úr birgðum skiptir ekki máli hvenær færslur eru settar inn í frálagsbókina af því að frálagsbókin hefur engin áhrif á þennan máta notkunarbókunar.  
-- Ekki er hægt að stilla neina leiðartengilskóta.  
-
-Framvirk birgðaskráning heillar pöntunar hentar fyrir framleiðsluumhverfi með:  
-
--   Lítinn fjölda af göllum  
--   Lítinn fjölda af aðgerðum  
--   Mikla notkun íhluta í fyrstu aðgerðum  
-
-#### <a name="automatic-reporting---forward-flushing-by-operation"></a>Sjálfvirk skýrslugerð - Framvirk birgðaskráning eftir aðgerð  
-Birgðaskráning eftir aðgerð gerir það mögulegt að draga frá birgðum á meðan á tiltekinni aðgerð í leið yfirvörunnar stendur. Efni er tengt leiðinni með leiðartengilskótum sem samsvara þeim leiðartengilskótum sem eru notaðir fyrir íhluti í framleiðsluuppskriftinni.  
-
-Birgðaskráningin á sér stað þegar aðgerðin sem hefur sama leiðartengilskóta er hafin. Hafin þýðir að einhver virkni er skráð í frálagsbókina fyrir þá aðgerð. Og sú virkni gæti verið einfaldlega það að uppsetningartími er færður inn.  
-
-Magnið í birgðaskráningunni stendur fyrir magnið fyrir hverja samsetningu sem kemur fram á framleiðsluuppskriftinni margfaldað með fjölda þeirra yfirvara sem verið er að byggja (magn sem búist er við).  
-
-Best er að beita þessari tækni þegar margar aðgerðir eru fyrir hendi og ekki er þörf á vissum íhlutum fyrr en seint í samsetningarrununni. Raunar gæti verið að Tímanleg (JIT) uppsetning sé ekki einu sinni með vörurnar tiltækar þegar ferlið er hafið.  
-
-Hægt er að nota efni á meðan á aðgerðum stendur með því að nota leiðartengilskóta. Suma íhluti er kannski ekki hægt að nota fyrr en í síðustu samsetningaraðgerðunum og ekki ætti að taka þá úr lagernum fyrr en á þeirri stundu.  
-
-#### <a name="automatic-reporting---back-flushing-by-operation"></a>Sjálfvirk skýrslugerð - Bakskráning eftir aðgerð  
-Bakskráning eftir aðgerð skráir notkun eftir að aðgerðin er bókuð í frálagsbókina.  
-
-Kosturinn við þessa aðferð er að fjöldi þeirra aðalhluta sem búið er að nota í aðgerðinni er þekktur.  
-
-Efni í framleiðsluuppskriftinni er tengt við leiðarfærslurnar með leiðartengilskótum. Bakskráningin á sér stað þegar aðgerð með tiltekinn leiðartengilskóti er bókaður með afgreiddu magni.  
-
-Magnið í birgðaskráningunni stendur fyrir magnið fyrir hverja samsetningu sem kemur fram á framleiðsluuppskriftinni margfaldað með fjölda þeirra yfirvara sem voru bókaðar sem frálagsmagn í þeirri aðgerð. Þetta gæti verið frábrugðið því magni sem búist var við.  
-
-#### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Sjálfvirk skýrslugerð - Bakskráning heillar pöntunar  
-Þessi skýrslugerðaraðferð tekur ekki tillit til leiðartengilskóta.  
-
-Engir íhlutir eru valdir þar til stöðu útgefnu framleiðslupöntunarinnar er breytt í *Lokið*. Magnið í birgðaskráningunni er það magn fyrir hverja samsetningu sem kemur fram á framleiðsluuppskriftinni margfaldað með þeim fjölda yfirvara sem voru fullunnar og settar í birgðir.  
-
-Afturvirk birgðaskráning á allri framleiðslupöntuninni krefst sömu uppsetningar og fyrir framvirka söfnun: Skýrslugerðaraðferðin þarf að vera stillt á afturvirkt á hverju birgðaspjaldi til þess að allar vörur innan yfiruppskriftarinnar verði skráðar. Þar að auki þarf að fjarlægja alla leiðartengilskóta úr framleiðsluuppskriftinni.  
+Nánari upplýsingar eru í [Birgðaskrá íhluti samkvæmt frálagi aðgerða](production-how-to-flush-components-according-to-operation-output.md)
 
 ### <a name="production-output"></a>Framleiðslufrálag  
 Forritið veitir þann möguleika að rekja það hversu miklum tíma er eytt í að vinna með framleiðslupöntun, og að skrá magn þess sem er framleitt. Þessar upplýsingar geta hjálpað þér við að meta á nákvæmari hátt kostnað framleiðslunnar. Framleiðendur sem nota staðlað kerfi við útreikning kostnaðar gætu líka viljað skrá raunverulegar upplýsingar til að gera sér kleift að þróa betri staðla.  
 
-Hægt er að vinna frálag í gegnum Frálagsbókina en forritið getur líka skráð það sjálfvirkt. Forritið afritar birgðaskráningaraðferðina frá spjaldi Vélastöðvarinnar eða Vinnustöðvarinnar yfir á Framleiðslupöntunarleiðina þegar það endurnýjar. Eins og með efnisnotkun eru þrjár skýrslugerðaraðferðir fyrir frálag:  
+Hægt er að vinna frálag í gegnum [frálagsbókina](production-how-to-post-output-quantity.md) en forritið getur líka skráð það sjálfvirkt. Forritið afritar birgðaskráningaraðferðina frá spjaldi Vélastöðvarinnar eða Vinnustöðvarinnar yfir á Framleiðslupöntunarleiðina þegar það endurnýjar. Eins og með efnisnotkun eru þrjár skýrslugerðaraðferðir fyrir frálag:  
 
 - Handvirk  
 - Framvirk  
@@ -203,7 +155,7 @@ Hægt er að nota hvaða samblöndu sem er af sjálfvirkri birgðaskráningu og 
 Að lokum þarf að ákvarða þá röð sem skrá á upplýsingarnar í ef notkun og frálag er fært inn handvirkt. Hægt er að skrá notkun fyrst og nota svo flýtiaðferð til að færa inn upplýsingarnar, sem eru byggðar á áætluðu frálagsmagni. Eða þá að frálag er fært inn fyrst með aðgerðinni **opna leið**. Notkun yrði þá skráð á grundvelli raunverulegs frálagsmagns.  
 
 ### <a name="production-journal"></a>Framleiðslubók  
-Framleiðslubókin sameinar aðgerðir Notkunarbókarinnar og Frálagsbókarinnar inn í eina bók sem farið er í beint úr útgefnu framleiðslupöntuninni.  
+[Framleiðslubókin](production-how-to-register-consumption-and-output.md) sameinar aðgerðir Notkunarbókarinnar og Frálagsbókarinnar inn í eina bók sem farið er í beint úr útgefnu framleiðslupöntuninni.  
 
 Tilgangurinn með Framleiðslubókinni er að útvega eitt viðmót til að skrá notkun og frálag frá Framleiðslupöntun.  
 

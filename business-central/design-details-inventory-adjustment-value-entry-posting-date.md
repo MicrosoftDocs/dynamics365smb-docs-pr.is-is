@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 3685a2145186d3e26da7ba0ad6ace0af0b8c0dd7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786783"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215104"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Hönnunarupplýsingar: Bókunardagsetning á leiðréttingarvirðisfærslu
 Þessi grein veitir leiðbeiningar fyrir notendur birgðakostnaðarvirkni í [!INCLUDE[prod_short](includes/prod_short.md)]. Tilgreind grein veitir leiðbeiningar um hvernig runuvinnslan **Leiðréttur kostnaður - Birgðafærslur** ber kennsl á og úthlutar bókunardagsetningu fyrir virðisfærslurnar sem runuvinnslan er að búa til.  
 
-Fyrst er hugmynd ferlisins yfirfarin, hvernig runuvinnslan ber kennsl á og úthlutar bókunardagsetningu fyrir virðisfærsluna sem verður búin til. Eftir það eru nokkrar aðstæður sem við í stuðningshópnum rekumst á af og til og að lokum er samantekt yfir hugtökin sem eru notuð í útgáfu 3.0.  
+Fyrst er hugmynd ferlisins yfirfarin, hvernig runuvinnslan ber kennsl á og úthlutar bókunardagsetningu fyrir virðisfærsluna sem verður búin til. Eftir það eru nokkrar aðstæður sem við í stuðningshópnum rekumst á af og til og að lokum er samantekt yfir hugtökin sem eru notuð.  
 
 ## <a name="the-concept"></a>Hugtakið  
-Frá útgáfu 5.0, runuvinnslan **Leiðrétta kostnað - Birgðafærslur** úthlutar bókunardagsetningu fyrir virðisfærsluna sem hún kemur til með að búa til í eftirfarandi skrefum:  
+Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** úthlutar bókunardagsetningu fyrir virðisfærsluna sem hún kemur til með að búa til í eftirfarandi skrefum:  
 
 1.  Upphaflega er bókunardagsetning færslunnar sem á að búa til sú sama og dagsetning færslunnar sem hún leiðréttir.  
 
@@ -67,7 +67,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
  Skref 3: Úthlutun á leyfilegri bókunardagsetningu;  
 
- Upphaflega úthlutaða bókunardagsetningin var 6. september eins og sýnt er í skrefi 1. Í 2. skrefi ber runuvinnslan Leiðrétta kostnað - Birgðafærslur kennsl 10. september sem fyrstu leyfilegu bókunardagsetninguna og úthlutar þess vegna 10. september á leiðréttingarvirðisfærsluna fyrir neðan.  
+ Upphaflega úthlutaða bókunardagsetningin var 6. september eins og sýnt er í skrefi 1. Í öðru skrefi ber runuvinnslan Leiðrétta kostnað - Birgðafærslur kennsl 10. september sem fyrstu leyfilegu bókunardagsetninguna og úthlutar þess vegna 10. september á leiðréttingarvirðisfærsluna fyrir neðan.  
 
  ![Staða virðisfærslna í atburðarásinni 2](media/helene/TechArticleAdjustcost5.png "Staða virðisfærslna í atburðarásinni 2")
 
@@ -111,13 +111,13 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
  Uppsetning fjárhags:  
 
--   Bókun leyfð frá = 1. janúar 2014  
+-   Leyfa bókanir frá = 1. janúar 2014  
 
 -   Bókun leyfð til = tómt  
 
  Notandauppsetning:  
 
--   Bókun leyfð frá = 1. desember 2013.  
+-   Leyfa bókanir frá = 1. desember 2013.  
 
 -   Bókun leyfð til = tómt  
 
@@ -133,7 +133,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
 2.  Opna birgðabók, stofna og bóka línu á eftirfarandi hátt:  
 
-     Bókunardagsetning = 15. desember, 2013  
+     Bókunardagur = 15. desember 2013  
 
      Vara = TEST  
 
@@ -159,7 +159,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
      Vara = TEST  
 
-     Tegund færslu = Neikvæð leiðrétting  
+     Færslugerð = Neikvæð leiðrétting  
 
      Magn = 3  
 
@@ -191,7 +191,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
  **Niðurstaða:**  
 
- Með reynslu af þessari atburðarás, miðað við hentugastu uppsetningu leyfilegs dagsetningabils bókunar fyrir fyrirtæki, gæti eftirfarandi verið gagnlegt: Svo lengi sem er heimilt að bóka breytingar á birgðaverðmæti á tímabili, desember í þessu tilviki, ætti uppsetningin sem fyrirtækið notar fyrir dagsetningabil sem er leyfilegt að bóka að vera í takt við þessa ákvörðun. Bókun leyfð frá í fjárhagsgrunni, þar sem fram kemur 1. desember, myndi leyfa að áframsenda endurmatið sem gert var í desember á færslur á útleið, sem verða fyrir áhrifum, á sama tímabilinu.  
+ Með reynslu af þessari atburðarás, miðað við hentugastu uppsetningu leyfilegs dagsetningabils bókunar fyrir fyrirtæki, gætirðu viljað íhuga eftirfarandi upplýsingar: Svo lengi sem þú heimilar bókun breytinga á birgðaverðmæti á tímabili, desember í þessu tilviki, ætti uppsetningin sem fyrirtækið notar fyrir dagsetningabil sem er leyfilegt að bóka að vera í takt við þessa ákvörðun. Bókun leyfð frá í fjárhagsgrunni, þar sem fram kemur 1. desember, myndi leyfa að áframsenda endurmatið sem gert var í desember á færslur á útleið, sem verða fyrir áhrifum, á sama tímabilinu.  
 
  Notendahópar sem ekki mega bóka í desember en í janúar, sem fjárhagsgrunnur átti líklega að takmarka í þessum aðstæðum, ætti frekar að staðsetja í notandauppsetningu.  
 
@@ -210,13 +210,13 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
  Uppsetning fjárhags:  
 
--   Bókun leyfð frá = 1. desember 2013.  
+-   Leyfa bókanir frá = 1. desember 2013.  
 
 -   Bókun leyfð til = tómt  
 
  Notandauppsetning:  
 
--   Bókun leyfð frá = 1. desember 2013.  
+-   Leyfa bókanir frá = 1. desember 2013.  
 
 -   Bókun leyfð til = tómt  
 
@@ -234,7 +234,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
      Kaupa af lánardrottni nr.: 10000  
 
-     Bókunardagsetning = 15. desember, 2013  
+     Bókunardagur = 15. desember 2013  
 
      Reikningsnr. lánardrottins: 1234  
 
@@ -266,7 +266,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
 4.  Uppsetning fjárhags:  
 
-     Bókun leyfð frá = 1. janúar 2014  
+     Leyfa bókanir frá = 1. janúar 2014  
 
      Bókun leyfð til = autt  
 
@@ -274,7 +274,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
      Kaupa af lánardrottni nr.: 10000  
 
-     Bókunardagsetning = 2. janúar 2014  
+     Bókunardagur = 2. janúar, 2014  
 
      Reikningsnr. lánardrottins: 2345  
 
@@ -298,7 +298,7 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
 
      Kaupa af lánardrottni nr.: 10000  
 
-     Bókunardagsetning = 30. desember 2013  
+     Bókunardagur = 30. desember 2013  
 
      Reikningsnr. lánardrottins: 3456  
 
@@ -333,32 +333,18 @@ Runuvinnslan **Leiðrétta kostnað - Birgðafærslur** ákvarðar hvort upphafl
  Í þessari atburðarás getur einn möguleiki verið að hafa fjárhagsgrunninn, reitinn Bókun leyfð frá, gefa upp dagsetningu í desember fyrir nokkra daga í viðbót og fresta bókun á fyrsta kostnaðaraukanum svo allir kostnaðir fyrir fyrra tímabil/fjárhagsár verði viðurkenndir fyrir tímabilið sem þeir tilheyra í fyrstu, keyra síðan runuvinnslu Leiðrétts kostnaðar - Birgðafærslna og í kjölfarið færa leyfða bókunardagsetningu yfir á nýtt tímabil\/fjárhagsársins. Fyrsti kostnaðaraukinn með bókunardagsetninguna 2. janúar getur þá verið bókaður.  
 
 ## <a name="history-of-adjust-cost--item-entries-batch-job"></a>Ferill runuvinnslu Leiðrétts kostnaðar – birgðafærslna  
- Hér fyrir neðan er samantekt á hugmyndinni um að úthluta bókunardagsetningum á leiðrétttingarvirðisfærslum með runuvinnslu leiðrétts kostnaðar - birgðafærslna síðan í útgáfu 3.0.  
+ Hér fyrir neðan er samantekt á hugmyndinni um að úthluta bókunardagsetningum á leiðrétttingarvirðisfærslum með Leiðr. kostnað – Birgðafærslur runuvinnslunni.  
 
-### <a name="from-version-30370a"></a>Frá útgáfu 3.0..3.70.A  
- Í beiðniglugga fyrir runuvinnslu leiðrétts kostnaðar - birgðafærslna þarf notandi að færa inn bókunardagsetningu. Runuvinnslan fer í gegnum allar nauðsynlegar breytingar og stofnar virðisfærslur með bókunardagsetningunni sem hefur verið færð inn í beiðnigluggann. Ráðlögð bókunardagsetning er dagurinn í dag.  
-
-### <a name="version-370b40"></a>Útgáfa 3.70.B..4.0  
- Í beiðniglugga fyrir runuvinnslu leiðrétts kostnaðar - birgðafærslna þarf notandi að færa inn bókunardagsetningu lokaðrar tímabilsfærslu. Runuvinnslan fer í gegnum nauðsynlegar breytingar og stofnar virðisfærslur með bókunardagsetningu á yfirbirgðafærslunni (afhendingardagur sölunnar sem leiðréttingin gefur upp). Ef bókunardagsetning yfirbirgðafærslunnar er ekki innan leyfilegs dagsetningabils bókunar verður bókunardagsetningu lokaðrar tímabilsfærslu úthlutað leiðréttingarvirðisfærslu. Dagsetning telst vera á lokuðu tímabili þegar hún er eldri en dagsetningin í reitnum Bókun leyfð frá í fjárhagsgrunni.  
-
-### <a name="from-version-50"></a>Frá útgáfu 5,0:  
+### <a name="about-the-request-form-posting-date"></a>Um bókunardagsetningu beiðnineyðublaðsins:  
  Ekki þarf lengur að gefa upp bókunardagsetningu í beiðniglugga fyrir runuvinnslu leiðrétts kostnaðar - birgðafærslna. Runuvinnslan fer í gegnum allar nauðsynlegar breytingar og stofnar virðisfærslur með bókunardagsetningu virðisfærslunnar sem hún leiðréttir. Ef bókunardagsetningin er ekki innan leyfilegs dagsetningabils bókunar verður bókunardagsetningin í reitnum Bókun leyfð frá í fjárhagsgrunni notuð, EÐA ef birgðatímabil eru notuð, verður eldri dagsetningin af þessum tveimur notuð. Sjá útskýrt hugtak hér að ofan.  
 
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Ferill runuvinnslunnar Bóka birgðabreytingar  
  Runuvinnslan Bóka birgðabreytingar er nátengd runuvinnslunni Leiðrétta kostnað - Birgðafærslur og því er ferill runuvinnslunnar að auki tekin saman og deilt hér.  
-
-### <a name="from-version-30370a"></a>Frá útgáfu 3.0..3.70.A  
- Í beiðniglugga fyrir birgðabreytingar þarf notandi að færa inn bókunardagsetningu. Runuvinnslan keyrir í gegnum allar virðisfærslur innan síunnar, ef það er einhver, og stofnar fjárhagsfærslur þar sem bókunardagsetning er færð inn í beiðnigluggann.  
-
-### <a name="version-370b40"></a>Útgáfa 3.70.B..4.0  
- Í beiðniglugga birgðabreytinga er reiturinn bókunardagsetning lokaðrar tímabilsfærslu tiltækur. Forritið notar dagsetninguna sem þú slærð inn í þennan reit sem bókunardagsetningu fyrir fjárhagsfærslurnar sem það stofnar fyrir virðisfærslur, en bókunardagsetningar þeirra eru á lokuðu reikningstímabili. Að öðrum kosti munu fjárhagsfærslurnar hafa sömu bókunardagsetningu og upprunalegu virðisfærslurnar. Dagsetning telst vera á lokuðu tímabili þegar hún er eldri en dagsetningin í reitnum Bókun leyfð frá í fjárhagsgrunni. Ef fjár\/hagur er bókaður fyrir hvern bókunarflokk munu fjárhagsfærslurnar fá bókunardagsetninguna sem er tilgreind í reit bókunardagsetningar í beiðniglugganum.  
-
- Í útgáfum 3 og 4 skannar runuvinnslan allar virðisfærslur til að greina hvort einhverjar virðisfærslur séu til þar sem kostnaðarupphæð (raunveruleg) er frábrugðin kostnaði bókuðum í fjárhag. Ef finnst mismunur verður frábrugðna upphæðin bókuð í fjárhagsfærslu. Ef bókun áætlaðs kostnaðar er notaður er unnið úr samsvarandi reitum á sama hátt.  
-
+ 
 ![Raunverulegur kostnaður á móti áætluðum kostnaði](media/helene/TechArticleAdjustcost14.png "Raunverulegur kostnaður á móti áætluðum kostnaði")
 
-### <a name="from-version-50"></a>Frá útgáfu 5,0:  
- Ekki þarf lengur að tilgreina bókunardagsetningu í beiðniglugganum fyrir runuvinnslu birgðabreytinga. Fjárhagsfærslan er búin til með sömu bókunardagsetningu og tengd virðisfærsla. Til þess að ljúka runuvinnslunni verður leyfilegt dagsetningabil bókunar að leyfa bókunardagsetningu stofnuðu fjárhagsfærslunnar. Ef ekki, verður að enduropna tímabundið leyfilegt dagsetningabil bókunar með því að breyta eða fjarlægja dagsetningarnar í reitunum Bókun leyfð frá og til í fjárhagsgrunni. Til að koma í veg fyrir afstemmingarvandamál er nauðsynlegt að bókunardagsetning fjárhagsfærslu samsvari bókunardagsetningu virðisfærslu.  
+### <a name="about-the-posting-date"></a>Um bókunardagsetninguna
+ Ekki þarf lengur að tilgreina bókunardagsetningu í beiðniglugganum fyrir runuvinnslu birgðabreytinga. Fjárhagsfærslan er búin til með sömu bókunardagsetningu og tengd virðisfærsla. Til þess að ljúka runuvinnslunni verður leyfilegt dagsetningabil bókunar að leyfa bókunardagsetningu stofnuðu fjárhagsfærslunnar. Ef ekki, verður að opna tímabundið leyfilegt dagsetningabil bókunar með því að breyta eða fjarlægja dagsetningarnar í reitunum Bókun leyfð frá og til í fjárhagsgrunni. Til að koma í veg fyrir afstemmingarvandamál er nauðsynlegt að bókunardagsetning fjárhagsfærslu samsvari bókunardagsetningu virðisfærslu.  
 
  Runuvinnslan skannar tafla 5811 - Bóka virðisfærslu í fjárhag, til að bera kennsl á virðisfærslur sem heyra undir bókun í fjárhag. Taflan var tæmd eftir heppnaða keyrslu.
 

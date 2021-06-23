@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: project management, task
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12fdf2f9080112b65a2723d17cecd12653be0c3c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 285ec74f758a77283dfe5de10594c7f9555ffa43
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780508"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184475"
 ---
 # <a name="create-jobs"></a>Stofna verk
 Þegar nýtt verk er stofnað verður að stofna verkspjald með samþættum verkhlutum og áætlunarlínum, sem skipt er upp í tvö lög.  
@@ -35,7 +35,7 @@ Stofnað er verkspjald og svo eru stofnaðar verkhlutalínur og áætlunarlínur
 3. Til að tilgreina verkið með upplýsingum um önnur verk skal velja aðgerðina **Afrita verk** og fylla svo út reitina eins og þörf krefur og velja hnappinn **Í lagi**.
 
 > [!NOTE]  
->   Ef vinnuskýrslur eru notaðar í verkinu þarf einnig að tilnefna ábyrgan aðila. Einstaklingurinn getur samþykkt vinnuskýrslur fyrir starfsmannaverkefni sem tengjast verkinu. Frekari upplýsingar eru í [Setja upp vinnukort](projects-how-setup-time-sheets.md).
+>   Ef vinnuskýrslur eru notaðar í verkinu þarf einnig að tilnefna ábyrgan aðila. Einstaklingurinn getur samþykkt vinnuskýrslur fyrir starfsmannaverkefni sem tengjast verkinu. Frekari upplýsingar eru í [Setja upp vinnuskýrslur](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Til að búa til verkhluta fyrir verk
 Lykilatriði í stofnun verka er að tilgreina þá verkhluta sem verkið felur í sér. Þetta er gert með því að bæta við nýjum línum á flýtiflipanum **Verkhlutar** á síðunni **Verkspjald**, eitt verk í hverri línu. Hvert verk verður að hafa að minnsta kosti einn verkhluta.

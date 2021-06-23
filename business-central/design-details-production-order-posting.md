@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 654c95586dfc36f4228a93f664da6124e6eac42e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 966760ae57f9908ec7245f8e97f6d35591142332
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781118"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214879"
 ---
 # <a name="design-details-production-order-posting"></a>Hönnunarupplýsingar: staða framleiðslupöntunar
 Svipað bókun samsetningarpöntununar er notuðum íhlutum og notuðum vélartíma umreiknað og skilað sem framleiddri vöru þegar framleiðslupöntuninni er lokið. Frekari upplýsingar, sjá [Hönnunarupplýsingar: bókun samsetningarpöntunar](design-details-assembly-order-posting.md). Hins vegar er kostnaðarrennsli fyrir samsetningarpantanir síður flókið, sérstaklega vegna þess að bókun samsetningarkostnaðar á sér aðeins stað einu sinni og myndar því ekki birgðir með verkum í vinnslu.

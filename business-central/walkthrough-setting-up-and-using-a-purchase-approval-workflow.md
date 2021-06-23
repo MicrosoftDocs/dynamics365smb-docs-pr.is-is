@@ -1,5 +1,5 @@
 ---
-title: Uppsetning og notkun verkflæðis innkaupasamþykktar | Microsoft Docs
+title: Uppsetning og notkun á samþykktarverkflæði innkaupa
 description: Hægt er að gera sjálfvirkt ferli samþykktar á nýjar eða breyttar færslur, t.d. skjöl, færslubókarlínur og spjöld viðskiptamanna með því að stofna verkflæði með skrefum fyrir viðkomandi samþykkjendur. Áður en samþykkisverkflæði eru stofnaðar verður að setja upp samþykkjandi og staðgengill samþykkjanda fyrir hvern notanda samþykktar. Einnig er hægt að stilla upphæðartakmörk samþykkjenda til að skilgreina hvaða sölu- og innkaupafærslur þeir mega samþykkja. Samþykktarbeiðnir og aðrar tilkynningar er hægt að senda sem tölvupóst eða innri athugasemd. Fyrir hverja uppsetningu samþykktarnotanda má einnig setja upp hvenær þeim berast tilkynningar.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/26/2021
 ms.author: edupont
-ms.openlocfilehash: 11a4bd84395d50a1b39417c5c3abab0dd757e7ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782810"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110980"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Kynning: Uppsetning og notkun á samþykktarverkflæði innkaupa
 
@@ -30,11 +30,11 @@ Hægt er að gera sjálfvirkt ferli samþykktar á nýjar eða breyttar færslur
 
 Þessi kynning fjallar um eftirfarandi verk:  
 
-- Setja upp notendur samþykktar.  
-- Setja upp tilkynningar fyrir samþykki notendur.  
-- Breyta og virkjun verkflæði samþykkta.  
-- Óska eftir samþykki á innkaupapöntun, sem Alicia.  
-- Taka á móti tilkynning og síðan samþykkja beiðni, sem Sean.  
+- Setja upp notendur samþykktar  
+- Setja upp tilkynningar fyrir samþykktarnotendur  
+- Breyta og virkja samþykktarverkflæði  
+- Óska eftir samþykki innkaupapöntunar, sem Alicia  
+- Að fá tilkynningu og samþykkja síðan beiðnina, sem Sean  
 
 ## <a name="story"></a>Ferill
 
@@ -87,8 +87,8 @@ Stofna skal samþykktarverkflæði innkaupapöntunar með því að afrita skref
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Til að stofnaog virkja samþykktarverkflæði innkaupapöntunar
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Verkflæði** og veldu síðan tengda tengilinn.  
-2. Á síðunni **Verkflæði** skal velja aðgerðina **Nýtt verkflæði úr sniðmáti**.  
-3. Á síðunni **Verkflæðissniðmát** skal velja verkflæðissniðmát með heitinu **Samþykktarverkflæði innkaupapöntunar** og velja síðan hnappinn **Í lagi**.  
+2. Á síðunni **Verkflæði** skal velja **Aðgerðir** og svo **Nýtt** og svo **Nýtt vinnuflæði úr Sniðmáti** aðgerðina.  
+3. Á síðunni **Verkflæðissniðmát** skal velja verkflæðissniðmát með heitinu **Samþykktarverkflæði innkaupapöntunar**.  
 
     Síðan **Verkflæði** opnast fyrir nýtt verkflæði sem inniheldur allar upplýsingarnar úr völdu sniðmáti. Við gildið í reitnum **Kóði** er bætt við *-01* til að gefa til kynna að þetta sé fyrsta verkflæðið sem er stofnað úr verkflæðissniðmátinu **Samþykktarverkflæði innkaupapöntunar**.  
 4. Á haus síðunnar **Verkflæði** skal velja gátreitinn **Virkjað**.  
@@ -101,8 +101,8 @@ Nota nýja verkflæðið, verkflæði samþykktar fyrir Innkaupapöntun, með þ
 
 1. Skrá inn sem Alicia.
 2. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Innkaupapantanir** og veldu síðan tengda tengilinn.  
-3. Velja skal línu fyrir opna innkaupapöntun 106001 og svo aðgerðina **Breyta**.  
-4. Á síðunni **Innkaupapöntun** skal velja **Senda samþykktarbeiðni** aðgerðina.  
+3. Veldu línuna sem á að opna innkaupapöntun 106001.  
+4. Á síðunni **Innkaupapöntun** skal velja **Aðgerðir**, svo **Biðja um samþykki** og svo **Senda samþykktarbeiðni** aðgerðina.  
 
 Takið eftir að gildið í reitnum **Staða** hefur breyst í **Bíður samþykktar**.  
 

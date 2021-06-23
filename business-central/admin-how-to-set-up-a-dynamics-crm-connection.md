@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/26/2021
 ms.author: bholtorf
-ms.openlocfilehash: 00034e8f1be2f88074fb33b53a1c048f81f69ede
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941664"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063478"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Tengjast við Microsoft Dataverse
 
@@ -126,7 +126,7 @@ Dataverse verður að nota eina af eftirfarandi gerðum sannvottunar:
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Til að skrá forrit í Azure AD fyrir tengingu úr Business Central í Dataverse
 
-Eftirfarandi skref gera ráð fyrir að nota Azure AD til að stjórna auðkennum og aðgangsheimild. Frekari upplýsingar um skráningu forrits í Azure AD er að finna í [Stuttar leiðbeiningar: Skrá forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app). Ef ekki er notað Azure AD skal skoða [Að nota aðra stýringarþjónustu auðkennis og aðgangsheimildar](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service).  
+Eftirfarandi skref gera ráð fyrir að nota Azure AD til að stjórna auðkennum og aðgangsheimild. Frekari upplýsingar um skráningu forrits í Azure AD er að finna í [Stuttar leiðbeiningar: Skrá forrit með auðkenningarverkvangi Microsoft](/azure/active-directory/develop/quickstart-register-app). 
 
 1. Í Azure-gáttinni, undir **Stjórna** á yfirlitssvæðinu, skal velja **Sannvottun**.  
 2. Undir **Framsenda vefslóðir** skal bæta við framsendingarvefslóð sem mælt er með á síðunni **Dataverse Uppsetning tengingar** í [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -146,10 +146,6 @@ Eftirfarandi skref gera ráð fyrir að nota Azure AD til að stjórna auðkennu
 
    > [!NOTE]
    > Ef þú ert ekki beðinn um að skrá þig inn með stjórnandareikningnum þínum, er það líklega vegna þess að lokað er fyrir sprettiglugga. Til að skrá þig inn skaltu leyfa sprettiglugga úr `https://login.microsoftonline.com`.
-
-#### <a name="using-another-identity-and-access-management-service"></a>Að nota annað auðkenni og fá aðgang að stýringarþjónustu
-
-Ef þú ert ekki að nota Azure Active Directory til að stjórna auðkennum og aðgangsheimild Þarftu aðstoð frá þróunaraðila. Ef þú kýst frekar að geyma forritskennið og leynilykilinn á annarri staðsetningu, geturðu skilið reiti biðlarakennis og leynilykils biðlara eftir auða og skrifað viðbót til að sækja auðkennið og leynilykilinn frá staðsetningunni. Hægt er að gefa upp leynilykilinn við keyrslu með því að gerast áskrifandi að `OnGetCDSConnectionClientId` og `OnGetCDSConnectionClientSecret` tilvikum í kóðaeiningu 7201 `CDS Integration Impl.`.
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Að aftengjast [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 

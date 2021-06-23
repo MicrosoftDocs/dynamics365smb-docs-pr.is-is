@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 64e3a85a4a57a229d23070d7453729b46979d97e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: da7b9e3623f953fca19609702216e8b895d438fb
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785161"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214804"
 ---
 # <a name="design-details-transfers-in-planning"></a>Hönnunarupplýsingar: Flutningur í áætlun
 Millifærslupantanir eru einnig uppspretta framboðs þegar unnið er á birgðahaldseiningarstigi. Þegar margar staðsetningar (vöruhús) eru notaðar er hægt að stilla áfyllingarkerfi birgðahaldseininga á Flutning og gefa þannig í skyn að staðsetningin verði áfyllt með því að flytja þangað varning af annarri staðsetningu. Í aðstæðum með fleiri vöruhús, fyrirtæki gætu haft keðju flutnings þar sem framboð til grænar staðsetningar er flutt frá gulum og framboð til gulra er flutt úr rauðum og svo framvegis. Í upphafi af keðjunni er áfyllingarkerfi Framl.pöntun eða innkaup.  

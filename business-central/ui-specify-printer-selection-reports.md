@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 04/01/2021
+ms.date: 05/17/2021
 ms.author: jswymer
-ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985413"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063453"
 ---
 # <a name="set-up-printers"></a>Setja upp prentara
 
@@ -38,7 +38,7 @@ Skýjaprentun er áskriftarþjónusta Microsoft 365 sem keyrir eingöngu á Micr
 
 ![Uppsetning skýjaprentunar](media/Universal-Print-arch.png)
 
-Heildaruppsetningin krefst þess að unnið sé bæði í Microsoft Azure, með [Azure-gáttinni](https://posrtal.azure.com), og í [!INCLUDE[prod_short](includes/prod_short.md)].
+Heildaruppsetningin krefst þess að unnið sé bæði í Microsoft Azure, með [Azure-gáttinni](https://portal.azure.com), og í [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Studdir prentarar
 
@@ -78,7 +78,7 @@ Heildaruppsetningin krefst þess að unnið sé bæði í Microsoft Azure, með 
 
 Áður en hægt er að stjórna prenturum skýjaprentunar í Business Central þarf að fara í gegnum nokkur verk til að koma skýjaprentun í gagnið í Azure með prenturnum sem ætlunin er að nota.
 
-Ítarlegar leiðbeiningar um hvernig uppsetningin fer fram er að finna í [Hafist handa: Setja upp skýjaprentun](https://docs.microsoft.com/universal-print/fundamentals/universal-print-getting-started) í fylgigögnum skýjaprentunar. Hér er yfirlit yfir skrefin sem þú þarft að ljúka. Flest þessara skrefa eru unnin í Azure-gáttinni.
+Ítarlegar leiðbeiningar um hvernig uppsetningin fer fram er að finna í [Hafist handa: Setja upp skýjaprentun](/universal-print/fundamentals/universal-print-getting-started) í fylgigögnum skýjaprentunar. Hér er yfirlit yfir skrefin sem þú þarft að ljúka. Flest þessara skrefa eru unnin í Azure-gáttinni.
 
 1. Úthlutaðu leyfum skýjaprentunar á þig og aðra notendur.
 
@@ -104,29 +104,34 @@ Heildaruppsetningin krefst þess að unnið sé bæði í Microsoft Azure, með 
 
     - Fyrir aðra prentara skal skrá prentarana með því að nota tengil skýjaprentunar. 
 
-      Nánari upplýsingar eru í [Skráning prentara](/universal-print-connector-printer-registration).
+      Nánari upplýsingar eru í [Skráning prentara](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Breyta eiginleikum prentara (valfrjálst)
 
     Þegar prentari hefur verið skráður er hægt að skoða og breyta prentaraeiginleikum á borð við sjálfgefnar kjörstillingar.
 
-    Frekari upplýsingar er að finna í [Stjórna stillingum á lýsigögnum prentara](/universal-print/fundamentals/universal-print-printer-property-settings).
+    Nánari upplýsingar eru í [Stjórna prentarastillingum með gátt skýjaprentunar](/universal-print/portal/configure-printer-settings).
 
-5. Veita notendum heimild fyrir prentara.
-
-    Frekari upplýsingar er að finna í [Prentaraheimildir](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).
-
-6. Deilið prenturunum.
+5. Deilið prenturunum.
 
     Alla prentara sem á að nota í [!INCLUDE[prod_short](includes/prod_short.md)] verður að deila í skýjaprentun.
 
-    Frekari upplýsingar er að finna í [Deila prentara](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer).
+    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+
+    Frekari upplýsingar er að finna í [Deila prentara](/universal-print/portal/share-printers).
+
+6. Veita notendum heimild fyrir samnýtta prentara.
+
+    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+
+    Frekari upplýsingar er að finna í [Prentaraheimildir](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+
 
 7. Virkja umbreytingu skjals.
 
     Skýjaprentun breytir efni fyrir prentun yfir á XPS-snið. Sumir eldri prentarar á markaðnum styðja ekki breytingu yfir í XPS-efni&mdash;í mörgum tilfellum, aðeins PDF-snið. Prentun á þessum prenturum mistekst nema skýjaprentun sé sett upp til að umbreyta skjölum í snið sem prentari styður.
 
-    Frekari upplýsingar er að finna í [Yfirlit skjalaumbreytinga](/universal-print/fundamentals/universal-print-document-conversion).
+    Frekari upplýsingar er að finna í [Yfirlit skjalaumbreytinga](/universal-print/portal/document-conversion).
 
     > [!TIP]
     > Ef engir prentaranna þurfa á sniðsbreytingu PDF-efnis að halda er mælt með því að virkja ekki skjalaumbreytingu vegna þess að það getur haft áhrif á gæði prentunar.

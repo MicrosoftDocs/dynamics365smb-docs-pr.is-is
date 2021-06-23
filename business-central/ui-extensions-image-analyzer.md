@@ -1,25 +1,25 @@
 ---
-title: Notkun viðbótar fyrir Myndgreinanda | Microsoft Docs
+title: Myndgreiningarviðbót
 description: Viðbótin gerir þér kleift að greina myndir af tengiliðum og vörum til að finna eigindir, svo þú getir úthlutað þeim í Business Central á fljótlegan máta.
-author: bholtorf
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 04/01/2021
+ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 841ad4ff4963d8cfc6a284859affb60336e805a5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bbeffd4175751e08043d79f596027a79c88503bc
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771313"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074613"
 ---
 # <a name="the-image-analyzer-extension"></a>Myndgreiningarviðbót
 
-Viðbótin fyrir Myndgreinandann notar öflugar myndgreiningaraðferðir frá Tölvusjón API for Microsoft Cognitive Services til að greina eigindir á myndunum sem þú flytur inn fyrir vörur og tengiliði, svo þú getir auðveldlega endurskoðað þær og úthlutað þeim. Fyrir vörur, þá geta eigindir sagt til um hvort varan er borð eða bíll, og hvort hún er rauð eða blá. Fyrir tengiliði, þá geta eigindir verið kyn eða aldur.
+Viðbótin fyrir Myndgreinandann notar öflugar myndgreiningaraðferðir frá Computer Vision API for Azure Cognitive Services til að greina eigindir á myndunum sem þú flytur inn fyrir vörur og tengiliði, svo þú getir auðveldlega endurskoðað þær og úthlutað þeim. Fyrir vörur, þá geta eigindir sagt til um hvort varan er borð eða bíll, og hvort hún er rauð eða blá. Fyrir tengiliði, þá geta eigindir verið kyn eða aldur.
 
 Myndgreinandinn leggur til eigindir sem byggjast á merkjum sem Tölvusjón API finnur, og áreiðanleikastig. Greinandinn leggur að sjálfgefnu aðeins til eigindir ef 80% vissa, hið minnsta, er fyrir hendi um að eigindin sé rétt. Þú getur still inn annað áreiðanleikastig, ef þörf krefur. Til að læra meira um hvernig merki og áreiðanleikastig eru ákvörðuð, sjá [Tölvusjón API](https://go.microsoft.com/fwlink/?linkid=851476)  
 
@@ -29,7 +29,7 @@ Eftir að þú virkjar viðbótina, keyrist Myndgreinandinn í hvert skipti sem 
 
 ## <a name="privacy-notice"></a>Persónuverndaryfirlýsing
 
-Þessi viðbót notar Tölvusjón API frá Microsoft Cognitive Services, sem kann að hafa mismunandi stig skuldbindingar um reglufylgni en [!INCLUDE[prod_short](includes/prod_short.md)]. Þegar þú kveikir á Image Analyzer viðbótinni verða viðskiptamannagögn á borð við tengiliðamynd eða vörumynd send til Tölvusjónar API. Með því að setja upp þessa viðbót samþykkir þú að þetta takmarkaða gagnasafn verði sent til Tölvusjónar API. Athugaðu að þú getur slökkt á, sem og fjarlægt, Image Analyzer viðbótina hvenær sem er til að hætta að nota þessa virkni. Nánari upplýsingar, sjá [Microsoft Öryggismiðstöð](https://go.microsoft.com/fwlink/?linkid=851463).
+Þessi viðbót notar Computer Vision API frá Azure Cognitive Services, sem kann að hafa mismunandi stig skuldbindingar um reglufylgni en [!INCLUDE[prod_short](includes/prod_short.md)]. Þegar þú kveikir á Image Analyzer viðbótinni verða viðskiptamannagögn á borð við tengiliðamynd eða vörumynd send til Tölvusjónar API. Með því að setja upp þessa viðbót samþykkir þú að þetta takmarkaða gagnasafn verði sent til Computer Vision API. Athugaðu að þú getur slökkt á, sem og fjarlægt, Image Analyzer viðbótina hvenær sem er til að hætta að nota þessa virkni. Nánari upplýsingar, sjá [Microsoft Öryggismiðstöð](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Kröfur
 
@@ -41,12 +41,12 @@ Myndirnar þurfa að lúta nokkrum skilyrðum:
 
 ## <a name="to-enable-image-analyzer"></a>Að virkja Myndgreinandann
 
-Viðbótin fyrir Myndgreinandann er innbyggð í [!INCLUDE[prod_short](includes/prod_short.md)]. Þú þarft bara að kveikja á því.
+Viðbót myndgreiningar er innbyggð í [!INCLUDE[prod_short](includes/prod_short.md)]. Þú þarft bara að kveikja á því.
 
 > [!NOTE]  
-> Aðeins kerfisstjóri getur virkjað viðbótina fyrir Myndgreinandann. Gakktu úr skugga um að þér sé úthlutað **Yfirnotandi** heimildarsamstæðu fyrir notanda.
+> Aðeins kerfisstjóri getur virkjað viðbótina fyrir Myndgreinandann. Gakktu úr skugga um að þér sé úthlutað **Yfirnotandi** heimildarsamstæðu fyrir notanda. Frekari upplýsingar eru í [Úthluta leyfum til notenda og hópa](ui-define-granular-permissions.md).
 
-1. Gert er eitt af eftirfarandi til að virkja viðbótina fyrir myndgreinandann:
+Gert er eitt af eftirfarandi til að virkja viðbótina fyrir myndgreiningu:
 
 * Vöru- eða tengiliðaspjald er opnað. Á tilkynningastikunni skal velja **Greina myndir**, og svo er skrefunum í Uppsetningu með aðstoð fylgt.  
 * Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustutengingar** og veldu síðan **Uppsetning myndgreiningar**. Á gátreitnum skal velja **Virkja myndgreinanda**, og svo er skrefunum í Uppsetningu með aðstoð fylgt.  
@@ -60,10 +60,25 @@ Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Vara** og veldu síðan tengda tengilinn.  
 2. Veljið vöruna og veljið svo aðgerðina **Greina mynd**.  
-3. Síðan **Eigindir myndgreinanda** birtir þær eigindir sem finnast, áreiðanleikastigið og aðrar upplýsingar um eigindina. Nota **Aðgerð til að framkvæma** valkostina til að tilgreina hvað skal gera við eigindina.  
+3. Síðan **Eigindir myndgreinanda** birtir þær eigindir sem finnast, áreiðanleikastigið og aðrar upplýsingar um eigindina. Notaðu **Aðgerð til að framkvæma** valkostinn til að tilgreina hvað skal gera við eigindina eða veljdu **Bæta við vörulýsingu** til að bæta heiti eiginleikans við vörulýsinguna. Þetta getur t.d. reynst gagnlegt þegar bæta þarf við upplýsingum snögglega. 
 
-    > [!TIP]  
-    > Þú getur bætt nafni eigindarinnar við lýsinguna á vörunni með því að velja **Bæta við vörulýsingu**. Þetta getur t.d. reynst gagnlegt þegar bæta þarf við upplýsingum snögglega.  
+**Aðgerð til að framkvæma** hefur eftirfarandi valkosti:
+
+  * *Hunsa*
+
+    Engin aðgerð verður framkvæmd
+  * *Nota sem eigind*
+
+    Gildinu er bætt við eiginleika vörunnar. Frekari upplýsingar eru í [Vinna með vörueigindir](inventory-how-work-item-attributes.md)
+  * *Nota sem tegund*
+
+    Völdu gildi er bætt við sem flokki. Frekari upplýsingar eru í [Flokka vörur](inventory-how-categorize-items.md)
+  * *Bæta við svartan lista*
+
+    Ef greiningin leggur til eigind sem þú vilt ekki sjá, geturðu lokað á þá eigind. Sýndu samt aðgát. Útilokaðar eigindir koma ekki fram í tillögum um aðrar vörur heldur. Ef þú sérð eftir því að hafa lokað á eigind velurðu **Skoða eigindir á svörtum lista** og svo eytt eigindinni úr listanum.
+  
+    > [!NOTE]  
+    > Sjálfgefið er að **Vörueigindir** sýni eiginleika þar sem **Áreiðanleikaeinkunn** er yfir **Mörk áreiðanleikaeinkunnar í %** skilgreindum í **Uppsetning Image Analyzer**. Til að sjá alla greinda eiginleika skal velja aðgerðina **Skoða alla eiginleika**.
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Greina mynd af tengilið
 
@@ -71,12 +86,20 @@ Eftirfarandi skref lýsa því hvernig skal greina mynd sem var flutt inn áður
 
 1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Tengiliðir** og veldu síðan tengda tengilinn.  
 2. Veljið tengiliðinn og veljið svo **Greina mynd** aðgerðina.  
-3. Á flýtiflipanum **spurningarlisti fyrir notandasíðu**, skal endurskoða tillögur og leiðrétta ef þarf.  
+3. Á flýtiflipanum **spurningarlisti fyrir notandasíðu**, skal endurskoða tillögur og leiðrétta ef þarf. Frekari upplýsingar eru í [Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md).  
 
-## <a name="block-suggested-attributes"></a>Loka á eigindir sem mælt er með
-
-Ef greiningin leggur til eigind sem þú vilt ekki sjá, geturðu lokað á þá eigind. Sýndu samt aðgát. Útilokaðar eigindir koma ekki fram í tillögum um aðrar vörur eða tengiliði heldur. Ef þú sérð eftir því að hafa lokað á eigind, geturðu valið **Skoða eigindir á svörtum lista** og svo eytt eigindinni úr listanum.
-
+    > [!NOTE]  
+    > 
+    > Computer Vision API skilar eftirfarandi eiginleikum:
+    > * *aldur*
+    >
+    >     Áætlaður „sýnilegur aldru“ í árum. Það er hversu gamall einstaklingur virðist vera borið saman við raunverulegan líffræðilegan aldur.
+    > * *kyn*
+    >
+    >    Karl eða kona.
+    > 
+    > Computer Vision API skilar ekki öryggisstigi vegna eiginleika aldurs og kyns.
+  
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Nota þinn eigin aðgang fyrir Tölvusjón API
 
 Þú getur líka notað þinn eigin aðgang fyrir Tölvusjón API, til dæmis ef þú vilt greina fleiri myndir en við leyfum.  
@@ -99,9 +122,13 @@ Ef greiningin leggur til eigind sem þú vilt ekki sjá, geturðu lokað á þá
 1. Veldu ![Ljósaperu sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Þjónustutengingar** og veldu síðan **Uppsetning myndgreiningar**.  
 2. Hreinsa **Virkja Myndgreinanda** gátreitinn.  
 
+Einnig er hægt að fjarlægja viðbótina alveg. Það er alltaf hægt að sækja þetta aftur af AppSource. Frekari upplýsingar er að finna í [Uppsetning og fjarlæging viðbóta í Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension).  
+
 ## <a name="see-also"></a>Sjá einnig
 
 [Vinna með vörueigindir](inventory-how-work-item-attributes.md)  
+[Flokka vörur](inventory-how-categorize-items.md)  
+[Nota spurningalista forstillingar til að flokka viðskiptatengiliði](marketing-create-contact-profile-questionnaire.md)  
 [Sérstilling [!INCLUDE[prod_short](includes/prod_short.md)] með viðbótum](ui-extensions.md)  
 [Undirbúðu þig fyrir að gera viðskipti](ui-get-ready-business.md)  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 38d4a9be0c801d595ea390780296c7cb920fd003
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 763b4ae19bc83a1fd4a3abc9d6dfd5ee0c386eb1
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776348"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115691"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Nota sama Microsoft 365-reikninginn í [!INCLUDE[prod_short](includes/prod_long.md)] og Microsoft Invoicing
 Þegar þú skráir þig í prufuáskrift fyrir [!INCLUDE[prod_short](includes/prod_short.md)] geturðu farið í 30 daga matsáfanga, þú getur byrjað áskrift eða hættir að nota [!INCLUDE[prod_short](includes/prod_short.md)]. Í öllum tilvikum getur þú á einhverjum tímapunkti hafa séð eitthvað sem kallast **Microsoft Invoicing** og smellt á það. Þetta forrit var hluti af því sem er núna Microsoft 365 Business Standard og var áður þekkt sem Microsoft 365 Business Premium-áskrift, þannig hafa ekki allir séð þennan valkost við notkun Microsoft 365.  
@@ -49,7 +49,7 @@ Invoicing og [!INCLUDE[prod_short](includes/prod_short.md)] deila verkvangi. Þa
 Ef þú notar bæði Invoicing og [!INCLUDE[prod_short](includes/prod_short.md)] eru gögnin geymd í tveimur mismunandi hólfum (tvö fyrirtæki). Ekkert er deilt, þannig að þú verður að stjórna viðskiptamönnum og vörum í báðum fyrirtækjum.  
 
 ## <a name="see-also"></a>Sjá einnig
-[Algengar spurningar](across-faq.md)  
+[Algengar spurningar](across-faq.yml)  
 [Stjórnun](admin-setup-and-administration.md)  
 
 

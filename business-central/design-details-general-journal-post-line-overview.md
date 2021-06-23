@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6866e852899df3de3de2c4560c26ad981e46fda5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777849"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215254"
 ---
 # <a name="general-journal-post-line-overview"></a>Yfirlit bókunarlínu færslubókar
+
 Kóðaeining 12, **Bókunarlína fjárhags**, er helsti forritahluti bókana í fjárhag og er eini staðurinn þar sem færslur í fjárhag, VSK, viðskiptamenn og lánardrottna eru settar inn. Kóðaeiningin er einnig notuð fyrir allar aðgerðir Jafna, Ógilda og Reverse.  
   
-Þrátt fyrir að kóðaeiningin hafi verið endurbætt í hverri útgáfu síðustu tíu ár var arkitektúr hennar nákvæmlega sá sami. Kóðaeiningin varð mjög stór, með u.þ.b. 7.600 kóðalínum. Í þessari útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] er arkitektúrnum breytt og kóðaeiningin hefur verið gerð einfaldari og auðveldara er að viðhalda henni. Í þessu eru breytingar tilteknar og upplýsingar fyrir skilyrði uppfærslu gefnar.  
+Í Microsoft Dynamics NAV 2013 R2 var kóðaeiningin endurhönnuð þar sem hún var orðin mjög stór, með u.þ.b. 7.600 kóðalínum. Í þessari útgáfu hefur arkitektúrnum verið breytt og kóðaeiningin hefur verið gerð einfaldari og auðveldara er að viðhalda henni. Í þessu eru breytingum lýst og upplýsingar fyrir skilyrði uppfærslu gefnar.  
   
 ## <a name="old-architecture"></a>Eldri arkitektúr  
 Eldri arkitektúr var með eftirfarandi eiginleika:  
@@ -43,9 +44,11 @@ Eldri arkitektúr var með eftirfarandi eiginleika:
 * Margir hjálparvalkostir hafa verið fluttir í viðkomandi töflur viðskiptamanna- og lánardrottnafærsla.  
 * Notkun alþjóðlegra breyta hefur verið lágmörkuð þannig að hvert ferli noti breytur og eigin rökbreytum.  
   
-## <a name="see-also"></a>Sjá einnig  
-[Hönnunarupplýsingar: Uppbygging bókunarviðmóts](design-details-posting-interface-structure.md)   
-[Hönnunarupplýsingar: Uppbygging bókunarvélar](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Sjá einnig
+
+[Hönnunarupplýsingar: Uppbygging bókunarviðmóts](design-details-posting-interface-structure.md)  
+[Hönnunarupplýsingar: Uppbygging bókunarvélar](design-details-posting-engine-structure.md)  
+[Hönnunarupplýsingar: Bókunarlína færslubókar (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

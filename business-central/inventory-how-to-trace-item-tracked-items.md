@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a425b974bf37b440de27f2b469694f9e8eac07de
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bbfe0237beb58f22d3be7bc388d7b2726f05d4ba
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785700"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214754"
 ---
 # <a name="trace-item-tracked-items"></a>Rekja vöruraktar vörur
 Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hvenær hún var fengin eða framleidd, millifærð, seld, notuð eða henni skilað. Einnig er hægt að finna öll núverandi tilvik af tilteknu rað- eða lotunúmeri í gagnagrunninum. Þetta er gert með því að nota vörurakningu og eiginleikann [Finna færslur](ui-find-entries.md).  
@@ -26,7 +26,7 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 
  Á síðunni **Færsluleit** er ekki hægt að skoða röð færslna en þar sjást allar færslur rað- eða lotunúmers, bæði bókaðar og opnar færslur.  
 
- Aðgerðirnar tvær má nota saman með því að flytja inn rakið rað- eða lotunúmer yfir á síðuna **Finna færslur** til að ljúka ítarlegri rakningaraðgerð. Frekari upplýsingar eru í [Kynning: Rekja rað- og lotunúmer](walkthrough-tracing-serial-lot-numbers.md).  
+ Aðgerðirnar tvær má nota saman með því að flytja inn rakið rað- eða lotunúmer yfir á síðuna **Finna færslur** til að ljúka ítarlegri rakningaraðgerð. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
 ## <a name="to-trace-item-tracked-items"></a>að rekja vöruraktar vörur  
 
@@ -72,7 +72,7 @@ Hægt er að sjá hvar vörurakin vara var notuð, þar á meðal hvernig og hve
 [Hönnunarupplýsingar - vörurakning og frátekningar](design-details-item-tracking-and-reservations.md)  
 [Taka frá vörur](inventory-how-to-reserve-items.md)  
 [Unnið með [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Kynning: Rað-/lotunúmerarakning](walkthrough-tracing-serial-lot-numbers.md)  
+<!-- [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)   -->
 [Finna færslur](ui-find-entries.md)  
 
 

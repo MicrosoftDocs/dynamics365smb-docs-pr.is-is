@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 136a96c880c7abf9b082d7f8859e484be54da4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777328"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184500"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Samþætting við Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -44,7 +44,6 @@ Samþætting við [!INCLUDE[prod_short](includes/prod_short.md)] gerist í gegnu
 * Dynamics 365 Business Central Notandi afurðaframboðs
 
 ### <a name="connection-settings-in-the-setup-guide"></a>Tengingarstillingar í uppsetningarleiðbeiningum
-
 Hægt er að nota uppsetningarleiðbeiningar með hjálp til að setja upp tenginguna á fljótvirkan hátt og tilgreina ítarlega eiginleika, t.d. tengingu milli færslna.
 
 1. Veldu **Uppsetning og viðbætur** og veldu síðan **Uppsetning með hjálp**.
@@ -56,11 +55,10 @@ Hægt er að nota uppsetningarleiðbeiningar með hjálp til að setja upp tengi
 |--|--|
 | **Flytja inn Dynamics 365 Sales Solution** | Virkja þetta til að setja upp og grunnstilla samþættingarlausnina í [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
 | **Birta vefþjónustuna „Vara til ráðstöfunar“** | Gera fólki sem er að nota [!INCLUDE[crm_md](includes/crm_md.md)] kleift að skoða framboð á vörum (afurðum) í birgðum í [!INCLUDE[prod_short](includes/prod_short.md)]. Þetta krefst [!INCLUDE[prod_short](includes/prod_short.md)]-notandareiknings með aðgangslykli vefþjónustu. Úthlutun lykilsins er ferli í tveimur skrefum. Í notandareikningnum í [!INCLUDE[prod_short](includes/prod_short.md)] verður þú að velja aðgerðina **Breyta vefþjónustulykli**. Í uppsetningarleiðbeiningum með hjálp fyrir uppsetningu Dynamics 365 Sales tengingar verður að tilgreina vefslóðina fyrir OData-vefþjónustu Dynamics 365 Business Central og veita [!INCLUDE[prod_short](includes/prod_short.md)] aðgangsupplýsingar notanda fyrir aðgang að þjónustunni. Nánari upplýsingar er að finna í [Vefþjónustur OData](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
-| **Vefslóð vefþjónustu Business Central OData** | Ef vefþjónustan er virkjuð til að skoða vörur til ráðstöfunar færðu útvegaða vefslóð fyrir vefþjónustu OData. |
-| **Notandanafn vefþjónustu Business Central OData** | Heiti [!INCLUDE[prod_short](includes/prod_short.md)]-notandareiknings sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar í [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum vefþjónustu OData. |
+|**Notandanafn vefþjónustu Business Central OData** | Heiti [!INCLUDE[prod_short](includes/prod_short.md)]-notandareiknings sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar í [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum vefþjónustu OData. |
 | **Aðgangslykill vefþjónustu Business Central OData** | Aðgangslykill fyrir notandareikning sem [!INCLUDE[crm_md](includes/crm_md.md)] notar til að sækja upplýsingar um vöru til ráðstöfunar frá [!INCLUDE[prod_short](includes/prod_short.md)] í gegnum vefþjónustu OData. Lyklinum er úthlutað til notanda sem er valinn í reitnum **Notandanafn fyrir vefþjónustu Business Central OData**. Til að fá lykilinn skal velja hnappinn **Fletta upp gildi** við hliðina á notandanafninu, velja notandann, velja **Stjórna** og síðan **Breyta**. Á notandaspjaldinu skal velja **Aðgerðir**, **Sannvottun** og síðan velja **Breyta vefþjónustulykli**. |
 | **Virkja samþættingu sölupöntunar** | Þegar fólk býr til sölupantanir í [!INCLUDE[crm_md](includes/crm_md.md)] og uppfyllir pantanir í [!INCLUDE[prod_short](includes/prod_short.md)] samþættar þetta ferlið í [!INCLUDE[crm_md](includes/crm_md.md)]. Frekari upplýsingar er að finna á [Virkja sölupöntunarferli samþættingar](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Þetta krefst þess að þú veitir aðgangsupplýsingar fyrir notandareikning stjórnanda í [!INCLUDE[crm_md](includes/crm_md.md)]. Nánari upplýsingar er að finna í [Meðhöndlun á gögnum sölupöntunar](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
-| **Virkja CDS-tengingu** | Virkja tenginguna við [!INCLUDE[prod_short](includes/cds_long_md.md)]. |
+|**Virkja Dynamics 365 Sales Connection** | Virkja tenginguna við [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Dynamics 365 SDK útgáfa** | Þetta á aðeins við ef verið er að samþætta við útgáfu á staðnum af [!INCLUDE[crm_md](includes/crm_md.md)]. Þetta er hugbúnaðarþróunarpakki Dynamics 365 (einnig vísað í sem Xrm) sem er notaður tili að tengja [!INCLUDE[prod_short](includes/prod_short.md)] við [!INCLUDE[crm_md](includes/crm_md.md)]. Útgáfan verður að vera samhæf SDK-útgáfunni sem notuð er af [!INCLUDE[crm_md](includes/crm_md.md)] og sú sama eða nýrri og útgáfan sem er notuð af [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
 ### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Stillingar tengingar á Uppsetning tengingar  Microsoft Dynamics 365

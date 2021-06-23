@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfdcdd68baa8fdd73ebc75d46650eeee65a28802
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935419"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087670"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central fyrir fyrirtæki á mörgum stöðum og alþjóðlegar stofnanir
 Stofnanir á mörgum svæðum nota oft „hub-and-spoke“ viðskiptalíkan þegar móðurfyrirtæki, eða höfuðstöðvar, stjórna heildarrekstri fyrirtækisins en þar sem hvert svæði starfar sem ein, sjálfstæð eining. Svæði eru oft dreifð landfræðilega og hafa mismunandi þörf fyrir deilingu upplýsinga með höfuðstöðvum fyrirtækisins. Auk þess hafa svæði yfirleitt ekki sömu þarfir og oft skortir úrræði til að viðhalda stóru kerfi.
@@ -38,8 +38,8 @@ Viðskiptaþörf á svæðum er oft mismunandi eftir iðnaði, viðskiptaaðfer�
 
 Fyrir fjölþjóðlegar stofnanir styður [!INCLUDE[prod_short](includes/prod_short.md)] lagalegar kröfur og viðskiptahætti á staðnum.
 
-* Fyrir netútgáfur eru yfir [40 staðfærðar landsútgáfur](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) sem hægt er að setja upp sem viðbætur frá Microsoft AppSource.  
-* Fyrir útgáfur á staðnum eru [landsútgáfur](https://docs.microsoft.com/azure/architecture/solution-ideas/articles/business-central) tiltækar sem Microsoft-staðfærðar útgáfur eða staðfærðar viðbætur undir stjórn samstarfsaðila.
+* Fyrir netútgáfur eru yfir [40 staðfærðar landsútgáfur](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) sem hægt er að setja upp sem viðbætur frá Microsoft AppSource.  
+* Fyrir útgáfur á staðnum eru [landsútgáfur](/azure/architecture/solution-ideas/articles/business-central) tiltækar sem Microsoft-staðfærðar útgáfur eða staðfærðar viðbætur undir stjórn samstarfsaðila.
 
 Yfir 4.000 samstarfsaðilar Microsoft um allan heim veita staðbundna sérþekkingu.
 
@@ -80,12 +80,12 @@ API og XMLports einfalda ferlið við að tengja tilvik [!INCLUDE[prod_short](in
 | **Fyrirtækjakröfur** | **Hvernig Business Central styður það** | **Frekari upplýsingar** |
 |-------------------------|-------------------------|-------------------------|
 | Tengja sérsniðnar útgáfur meðal svæða og höfuðstöðva fyrirtækisins. | API síður geta afhjúpað hvaða birtingu sem er á einingu, þ.m.t. sérsniði hennar. | [Virkja API fyrir Business Central](/dynamics-nav/enabling-apis-for-dynamics-nav) |
-| Útgáfustjórnun og öryggi. | API notar ODataV4, með útgáfum, veftengingu og breytingarakningu. | [Öryggi og vörn](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/security/security-and-protection) |
-| Birta og flytja inn XML-skjöl. | Nota má kóðaeiningur sem óbundnar aðgerðir til að styðja við birtingu og inntöku á XML-skjölum. Til að vinna úr XML-skjölum er hægt að nota XMLports. Óbundnar aðgerðir geta einnig búið til XML eða JSON skjal. | [XMLport Hlutir](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
+| Útgáfustjórnun og öryggi. | API notar ODataV4, með útgáfum, veftengingu og breytingarakningu. | [Öryggi og vörn](/dynamics365/business-central/dev-itpro/security/security-and-protection) |
+| Birta og flytja inn XML-skjöl. | Nota má kóðaeiningur sem óbundnar aðgerðir til að styðja við birtingu og inntöku á XML-skjölum. Til að vinna úr XML-skjölum er hægt að nota XMLports. Óbundnar aðgerðir geta einnig búið til XML eða JSON skjal. | [XMLport Hlutir](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Auðvelda viðhald með rafrænum gagnaskiptum. | Hægt er að bæta við rafrænni gagnaskiptilausn til að nota sem samþættingarlag milli höfuðstöðvarfyrirtækisins og svæða. | [Gagnaskiptarammi](across-about-the-data-exchange-framework.md) |
-| Skipting gagna á milli mismunandi kerfa. | Notaðu XMLports til að búa til XML-skjöl sem síðan er hægt að skipta á milli höfuðstöðvarfyrirtækis sem notar eitt kerfi og svæða sem nota Business Central. | [XMLport Yfirlit](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
+| Skipting gagna á milli mismunandi kerfa. | Notaðu XMLports til að búa til XML-skjöl sem síðan er hægt að skipta á milli höfuðstöðvarfyrirtækis sem notar eitt kerfi og svæða sem nota Business Central. | [XMLport Yfirlit](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
 | Skipuleggja flókin gagnaskipti. | Notaðu samsetningu XMLports með Business Central og Microsoft BizTalk Server til að fullnægja einstökum þörfum á svæðunum þínum.</br>Notaðu rafræna gagnaskiptilausn sem byggir á BizTalk Server and Commerce Gateway í Business Central ásamt XMLports fyrir flóknari kröfur. | [Unnið með skýrslur, runuvinnslur og XMLports](ui-work-report.md) |
-| Tengjast lausnum og þjónustu þriðja aðila<sup></sup>. | API setur punktatengingu milli Business Central og lausna og þjónustu<sup></sup> þriðju aðila. | [API v2.0](https://docs.microsoft.com/dynamics-nav/api-reference/v2.0/) |
+| Tengjast lausnum og þjónustu þriðja aðila<sup></sup>. | API setur punktatengingu milli Business Central og lausna og þjónustu<sup></sup> þriðju aðila. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
 ## <a name="promote-an-efficient-intercompany-supply-chain"></a>Kynna skilvirka framboðskeðju samstæðu

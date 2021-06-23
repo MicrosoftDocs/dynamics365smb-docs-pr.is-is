@@ -1,25 +1,25 @@
 ---
-title: Tínsla og Afhending í Einfaldar grunngerð vöruhúss | Microsoft Docs
+title: Tínsla og Afhending í einfaldar grunngerðir vöruhúss
 description: Í Business Central, er hægt að framkvæma útleiðarferlið til að tína og afhenda á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins.
-author: SorenGP
+author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 68b35b6c007dd22c964bd616b1d59df2841db411
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772080"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214654"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Kynning: Tínsla og Afhending í Einfaldar grunngerð vöruhúss
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)] -->
 
 Í [!INCLUDE[prod_short](includes/prod_short.md)], er hægt að framkvæma útleiðarferlið til að tína og afhenda á fjóra vegu, með því að nota mismunandi eiginleika, allt eftir flækjustigi vöruhússins.  
 
@@ -34,23 +34,17 @@ Nánari upplýsingar má nálgast á [Hönnunarupplýsingar: vöruhúsaflæði �
 
 Eftirfarandi kynning sýnir aðferð B í fyrri töflu.  
 
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
-
 ## <a name="about-this-walkthrough"></a>Um kynninguna
 
 Í grunnvöruhúsi þar sem staðsetning er sett upp þannig að krafist sé tínsluvinnslu en ekki afhendingarvinnslu skal nota síðuna **Birgðatínsla** til að skrá og bóka tínslu og afhendingarupplýsingar fyrir upprunaskjöl á útleið. Upprunaskjalið á útleið getur verið sölupöntun, innkaupaskilapöntun, millifærslupöntun á útleið eða framleiðslupöntun með nauðsynlegum íhlutum.  
 
 Þessi kynning fjallar um eftirfarandi verk:  
 
-- Stilli SILVER staðsetningu fyrir birgðatínslu.  
-- Stofna sölupöntun fyrir viðskiptamann 10000 fyrir 30 hátalara.  
+- Stilli staðsetningu SUÐUR fyrir birgðatínslu.  
+- Stofna sölupöntun fyrir viðskiptamann 10000 fyrir 30 Amsterdam Lamps.  
 - Gefur út sölupöntunina fyrir afgreiðslu vöruhúss.  
 - Stofna birgðatínslu byggða á útgefnu upprunaskjali.  
 - Skráir vöruhúsahreyfinguna frá vöruhúsinu og bókar á sama tíma söluafhendinguna fyrir upprunaskjal sölupöntunarinnar.  
-
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="roles"></a>Hlutverk
 
@@ -60,43 +54,54 @@ Eftirfarandi kynning sýnir aðferð B í fyrri töflu.
 - Pantanavinnsla  
 - Starfsmaður í vöruhúsi  
 
-## <a name="prerequisites"></a>Frumskilyrði
+<!-- ## Prerequisites
 
-Til að ljúka þessari kynningu þarf:  
+To complete this walkthrough, you will need:  
 
-- Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] á netinu byggir fyrirtæki á **Ítarlegt mat - Heildarsýnigögn** valkostinn í sandkassaumhverfi. Fyrir [!INCLUDE[prod_short](includes/prod_short.md)] innanhúss premises, CRONUS International Ltd. uppsett.  
-- Til að gera þig að starfsmanni vöruhúss í SILVER staðsetningu skal fylgja eftirfarandi skrefum:  
+- For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
+ -->
 
-  1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsmenn vöruhúss** og veldu síðan tengda tengilinn.  
-  2. Velja reitinn **Notandakenni** og velja síðan eigin notandareikning notanda á síðunni **Notendur**.  
-  3. Í reitnum **Staðsetningarkóði** er fært inn SILVER.  
-  4. Veljið reitinn **Sjálfgefið**.  
+## <a name="story"></a>Ferill
 
-- Gerið vöru LS-81 tiltæka í SILFUR staðsetningu á eftirfarandi hátt:  
+Stjórnandi vöruhússins hjá CRONUS setur upp SUÐUR-vöruhús fyrir grunntínslur þar sem starfsmenn vöruhússins meðhöndla pantanir á útleið hverja fyrir sig. Sá sem vinnur pantanir, býr til sölupöntun með 30 einingum af vöru 1928-S sem afgreiða á til viðskiptamanns 10000 úr SUÐUR vöruhúsinu. Starfsmaður vöruhússins verður að vera fullviss um að afhendingin sé tilbúin og send til viðskiptamannsins. Öllum tengdum verkum er stjórnað af John á síðunni **Birgðatínsla** sem sjálfkrafa vísar í hólfin þar sem 1928-S er geymt.
 
-  1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðabækur** og veldu síðan tengda tengilinn.  
+[!INCLUDE[set_up_location.md](includes/set_up_location.md)]
+
+### <a name="setting-up-the-bin-codes"></a>Uppsetning hólfakóða
+Þegar staðsetningin hefur verið sett upp verður að bæta tveimur hólfum við.
+
+#### <a name="to-setup-the-bin-codes"></a>Til að setja upp hólfakóðana
+
+1. Veldu aðgerðina **Hólf**.
+2. Búðu til tvö hólf, með kóðunum *S-01-0001* og *S-01-0002*.
+
+### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Að gera sig að vöruhúsastarfsmanni á staðsetningunni SUÐUR
+
+Til að nota þessa aðgerð verður þú að bæta við þig staðsetningu sem starfskraftur í vöruhúsi. 
+
+#### <a name="to-make-yourself-a-warehouse-employee"></a>Til að gera þig að starfsmanni vöruhúss
+
+  1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar fyrsta](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Starfsmenn vöruhúss** og veldu síðan tengda tengilinn.  
+  2. Veldu reitinn **Notandakenni** og síðan eigin notandareikning á síðunni **Starfsmaður vöruhúss**.
+  3. Í reitnum **Staðsetningarkóði** velur þú SUÐUR.  
+  4. Veldu reitinn **Sjálfgefið** og síðan hnappinn **Já**.  
+
+### <a name="making-item-1928-s-available"></a>Gera hlut 1928-S tiltækan
+
+Til að gera hlut 1928-S aðgengilegan á SUÐUR staðsetningunni skal fylgja þessum skrefum:  
+
+  1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar annað](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðabækur** og veldu síðan tengda tengilinn.  
   2. Opnið sjálfgefnu færslubókina og stofnið tvær birgðabókarlínur með eftirfarandi upplýsingum um vinnudagsetninguna (Janúar 23).  
 
         |Tegund færslu|Vörunúmer|Kóti birgðageymslu |Hólfkóti|Magn|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Auking|LS-81|SILVER|S-01-0001|20|  
-        |Auking|LS-81|SILVER|S-01-0002|20|  
+        |Auking|1928-S|SUÐUR|S-01-0001|20|  
+        |Auking|1928-S|SUÐUR|S-01-0002|20|  
 
-  3. Valið er **bóka** aðgerð og síðan hnappinn **Já**.  
+        Sjálfgefið er að **Hólfakóði** á sölulínunni sé falinn og því þarf að kalla hann fram. Til að gera þetta þarftu að sérstilla síðuna. Frekari upplýsingar eru í [Hefja sérstillingu á síðu með borðanum Sérstilla](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-## <a name="story"></a>Ferill
-
-Stjórnandi vöruhússins hjá CRONUS setur upp SILVER-vöruhúss fyrir grunntínslur þar sem starfsmenn vöruhússins meðhöndla pantanir á útleið hverja fyrir sig. Sá sem vinnur pantanir, býr til sölupöntun með 30 einingum af vöru LS-81 sem afgreiða á til viðskiptamanns 10000 úr SILVER vöruhúsinu. Starfsmaður vöruhússins verður að vera fullviss um að afhendingin sé tilbúin og send til viðskiptamannsins. Öllum tengdum verkum er stjórnað af John á síðunni **Birgðatínsla** sem sjálfkrafa vísar í hólfin þar sem LS-81 er geymt.  
-
-## <a name="setting-up-the-location"></a>Uppsetning staðsetningarinnar
-
-Uppsetning síðunnar **Birgðageymsluspjald** skilgreinir vöruhúsaflæði fyrirtækisins.  
-
-### <a name="to-set-up-the-location"></a>Uppsetning staðsetningar
-
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Staðsetningar** og veldu síðan tengda tengilinn.  
-2. SILVER-staðsetningarspjaldið er opnað.  
-3. Á flipanum **Vöruhús** skal velja gátreitinn **Krefjast tínslu**.  
+  3. Veldu **Aðgerðir**, smelltu síðan á **Bókun** og smella síðan á **Bóka**.  
+  4. Velja hnappinn **Já**.  
 
 ## <a name="creating-the-sales-order"></a>Stofna sölupöntunina
 
@@ -104,13 +109,13 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
 
 ### <a name="to-create-the-sales-order"></a>Stofna sölupöntun
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar þriðja](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Sölupantanir** og veldu síðan tengda tengilinn.  
 2. Valið er **Nýtt** aðgerð.  
 3. Stofna sölupöntun fyrir viðskiptamann 10000 á vinnudeginum (23. Janúar) með eftirfarandi sölupöntunarlínu.  
 
     |Vara|Kóti birgðageymslu |Magn|  
     |----|-------------|--------|  
-    |LS_81|SILVER|30|  
+    |1928-S|SUÐUR|30|  
 
      Tilkynnið svo vöruhúsinu að sölupöntunin er tilbúin til afgreiðslu í vöruhúsi þegar sendingin berst.  
 
@@ -124,7 +129,7 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
 
 ### <a name="to-pick-and-ship-items"></a>Til að tína og senda vörur
 
-1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínslur** og veldu síðan tengda tengilinn.  
+1. Veldu ![Ljósaperuna sem opnar eiginleika Viðmótsleitar fjórða](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, sláðu inn **Birgðatínslur** og veldu síðan tengda tengilinn.  
 2. Valið er aðgerðin **Nýtt**.  
 
     Gakktu úr skugga um að **Nr.** reiturinn á flýtiflipanum **Almennt** er fylltur út.
@@ -137,7 +142,7 @@ Sölupantanir eru algengasta tegundin af upprunaskjali á útleið.
     Að öðrum kosti, í reitnum **Magn til afgreiðslu** er fært inn 10 og 20 í birgðatínslulínurnar tvær, í þeirri röð.  
 6. Veldu aðgerðina **Bóka**, veldu **Afhenda** og veldu síðan **Í lagi** hnappinn.  
 
-    Tínsla hátalaranna 30 úr hólfum S-01-0001 og S-01-0002 er nú skráð og neikvæð birgðafærsla er stofnuð sem endurspeglar hina bókuðu söluafhendingu.  
+    30 Amsterdam Lamps eru nú skráðir sem teknir til úr hólfum S-01-0001 og S-01-0002 er nú skráð og neikvæð birgðafærsla er stofnuð sem endurspeglar hina bókuðu söluafhendingu.  
 
 ## <a name="see-also"></a>Sjá einnig
 

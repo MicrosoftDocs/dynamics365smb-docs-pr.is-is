@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 978989e12fc8c5ac236bb1dda1a8a5d1c2687de2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a4304b80e453296a3012d9e68ecc416371ee0ad3
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772280"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063403"
 ---
 # <a name="send-documents-and-emails"></a>Senda skjöl og tölvupósta
 Auðvelt er að miðla upplýsingum og skjölum, svo sem sölu- og innkaupapöntunum og reikningum, með tölvupósti beint frá [!INCLUDE[prod_short](includes/prod_short.md)]], án þess að þurfa að opna tölvupóstforrit. 
@@ -56,7 +56,7 @@ Til að virkja tölvupósta innan [!INCLUDE[prod_short](includes/prod_short.md)]
 Sum skjöl í [!INCLUDE[prod_short](includes/prod_short.md)] eru með reit sem tilgreinir hversu oft skjalið hefur verið prentað. Talan í þeim reit <!--"that field?" need a name...--> er einnig uppfærð ef skjalið er sent með tölvupósti vegna þess að PDF-skjal er búið til fyrir hann. Talan er uppfærð þótt ekki sé sendur tölvupóstur. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
 ## <a name="sent-emails-and-your-email-outbox"></a>Sendir tölvupóstar og úthólf tölvupóstsins
-[!INCLUDE[prod_short](includes/prod_short.md)]] geymir tölvupóstana sem þú sendir á **Sendur póstur**. Það er til að leyfa þér að endursenda tölvupóst eða áframsenda þá til einhvers annars. Ef ekki er hægt að finna tölvupóst í sendum pósti skal leita að honum á síðunni **Úthólf tölvupósts**. 
+[!INCLUDE[prod_short](includes/prod_short.md)] geymir tölvupóstana sem þú sendir á **Sendur póstur**. Það er til að leyfa þér að endursenda tölvupóst eða áframsenda þá til einhvers annars. Ef ekki er hægt að finna tölvupóst í sendum pósti skal leita að honum á síðunni **Úthólf tölvupósts**. 
 
 > [!NOTE]
 > Það fer eftir því hvaða viðbót fyrirtækið þitt notar fyrir tölvupóst hvernig stjórnendur geta séð lista yfir skilaboð sem allir hafa sent, en ekki innihald skilaboðanna

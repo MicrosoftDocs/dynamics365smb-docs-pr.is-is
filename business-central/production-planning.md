@@ -1,5 +1,5 @@
 ---
-title: Framboðsáætlun | Microsoft Docs
+title: Aðfangakeðja
 description: Undirbúa ítarlega og framkvæmanlega áætlun og loka-samsetningar framleiðslutímasetningu fyrir sölu og framleiðslueftirspurn.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 81befcda5dc4ae9e46ff02e98701fcb9c7a074dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 63e20afbfeda9450c4b636a660549c822cc0e5da
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785399"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115491"
 ---
 # <a name="planning"></a>Áætlun
 
@@ -36,8 +36,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Lesið um hvernig áætlanakerfið virkar og hvernig á að leiðrétta reiknireglurnar til að uppfylla áætlunarþarfir í mismunandi umhverfi.|[Hönnunarupplýsingar: framboðsáætlun](design-details-supply-planning.md)|
 |Fræðast um hvernig áætlanagrunnurinn greinir milli eftirspurnar í birgðageymslum samkvæmt uppsetningu birgðahaldseiningaspjalds og eftirspurnar án birgðageymslukóta.|[Áætlanagerð með eða án birgðageymslna](production-planning-with-without-locations.md)|
 |Spá fyrir um eftirspurn sem kemur fram í væntanlegri sölu og framleiðsluhlutum.|[Búa til eftirspurnarspá](production-how-to-create-a-forecast.md)|  
-|Stofna sérstakar framleiðslupantanir sjálfkrafa úr sölupöntun til að anna nákvæmlega eftirspurn þeirrar sölupöntunarlínu.|[Búa til framleiðslupantanir úr sölupöntunum](production-how-to-create-production-orders-from-sales-orders.md)|
-|Stofna framleiðslupöntun verkefnis beint úr sölupöntun með mörgum línum, sem gefur til kynna framleiðsluverkefni.|[Áætla verkefnispantanir](production-how-to-plan-project-orders.md)|
+|Stofna sérstakar eða verktengdar framleiðslupantanir sjálfkrafa úr sölupöntun til að anna nákvæmlega eftirspurn þeirrar sölupöntun.|[Búa til framleiðslupantanir úr sölupöntunum](production-how-to-create-production-orders-from-sales-orders.md)|
 |Nota síðuna **Pantanaáætlun** fyrir handvirka áætlun sölu eða framleiðslueftirspurnar eina framleiðsluuppskrift í einu.|[Gera áætlanir um nýja eftirspurn pöntun fyrir pöntun](production-how-to-plan-for-new-demand.md)|
 |Nota síðuna **Áætlunarvinnublað** til að keyra bæði MPS og MRP valmöguleika til að sjálfvirkt stofna framboðsáætlun, á háu stigi eða ítarlega, á öllum vörustigum.|[Keyra fulla áætlunargerð, MPS eða MRP](production-how-to-run-mps-and-mrp.md)|
 |Notið síðuna **Innkaupatillögublað** til að búa sjálfkrafa til nákvæma framboðsáætlun til að anna eftirspurn eftir vörum sem aðeins er hægt að útvega með innkaupum eða millifærslu.|[Innkaupatillögublað](production-about-planning-functionality.md#requisition-worksheet)|  

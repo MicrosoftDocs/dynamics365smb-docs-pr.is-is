@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8129028749f0f0bb6a809d66dbba8d623034769f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0d65485275ce4e7516a0b19aafa609429b8d7616
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782908"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214729"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Kynning: Stýring verkefna með verkum
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Þessi kynning kynnir verkstýringareiginleikana í verkum. Verk eru leiðir fyrir áætlunargerð um notkun á forða fyrirtækisins og rakningu á ýmsum kostnaði sem fylgir notkun forða í tilteknu verkefni. Verk ná yfir notkun á vinnutíma starfsmanna, vélastundir, birgðahluti og aðrar gerðir notkunar sem notandinn kann að vilja fylgjast með í verkferlum.  
 
@@ -64,11 +64,11 @@ ms.locfileid: "5782908"
 ## <a name="prerequisites"></a>Frumskilyrði  
  Áður en hægt er að framkvæma verk hér í kynningunni þarf að gera eftirfarandi:  
 
-- Setja upp sýnigagnagrunninn CRONUS International Ltd.
+- Setja upp CRONUS sýnigagnagrunn.
 - Stofna nokkur sett sýnigagna með því að nota skrefin sem koma hér á eftir.  
 
 ## <a name="story"></a>Ferill  
-Þessi kynning einblínir á fyrirtækið CRONUS International Ltd., hönnunar- og ráðgjafafyrirtæki sem hannar og setur upp nýja innviði á borð við ráðstefnusali og skrifstofur, með húsgögn, aukahluti og geymslueiningar. Mest af vinnunni er verkefnatengd. Petra er verkefnastjóri hjá CRONUS. Hann notar verk til að fá yfirsýn yfir hvert verk sem er í gangi hjá CRONUS og lokin verk. Hann sér yfirleitt um að semja við viðskiptavini og skrá helstu atriði, þ.e. verk- og áætlunarlínur auk verðs, inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Hann sér að það er einfalt að búa til, uppfæra og fara yfir upplýsingar. Petra kann einnig vel hvernig verk eru afrituð og inngreiðslur í [!INCLUDE[prod_short](includes/prod_short.md)].
+Þessi kynning einblínir á fyrirtækið CRONUS, hönnunar- og ráðgjafafyrirtæki sem hannar og setur upp húsgögn, aukahluti og geymslueiningar (t.d. í fundarsölum og skrifstofum). Mest af vinnunni er verkefnatengd. Petra er verkefnastjóri hjá CRONUS. Hann notar verk til að fá yfirsýn yfir hvert verk sem er í gangi hjá CRONUS og lokin verk. Hann sér yfirleitt um að semja við viðskiptavini og skrá helstu atriði, þ.e. verk- og áætlunarlínur auk verðs, inn í [!INCLUDE[prod_short](includes/prod_short.md)]. Hann sér að það er einfalt að búa til, uppfæra og fara yfir upplýsingar. Petra kann einnig vel hvernig verk eru afrituð og inngreiðslur í [!INCLUDE[prod_short](includes/prod_short.md)].
 
  Trausti, meðlimur í verkefnateymi sem heyrir undir Petru, ber ábyrgð á verkinu og fylgjast með. Hún fyllir inn eigin vinnu, auk vinnu sem framkvæmd er af tæknifólki í hverju verki. Hún skráir vörurnar sem þeir hafa notað og kostnaðinn sem það hefur haft í för með sér.  
 

@@ -10,15 +10,18 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 118d8db1266bb7150965ec4d1ce44ece77638764
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788556"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110955"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Word-sniðmát notuð fyrir mörg samskipti í einu
 Microsoft Word-sniðmát geta auðveldað mörg samskipti í einu með einingum á borð við viðskiptavini og lánardrottna. Til dæmis er hægt að búa til bæklinga til að tilkynna viðskiptavinum um söluherferð, bréf til að tilkynna lánardrottnum um nýja innkaupastefnu eða boð til að fá tengiliði til að mæta á væntanlegan viðburð.
+
+> [!NOTE]
+> Þú getur eingöngu notað Word-sniðmát á tækjum með Microsoft Word 2019 og Windows-stýrikerfinu uppsettu.
 
 Hægt er að nota einingar í [!INCLUDE[prod_short](includes/prod_short.md)] sem gagnagjafa sniðmátsins og bæta við innfellingarsvæðum til að sérsníða skjöl fyrir hverja einingu. Innfellingarsvæðin koma úr einingunni í [!INCLUDE[prod_short](includes/prod_short.md)]. Þegar Word-sniðmát er notað í einingu verða gögn úr innfellingarsvæðunum sett inn í skjalið.
 

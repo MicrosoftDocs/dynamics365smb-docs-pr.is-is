@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3811841784144d1c9dc786f8ae6435bedb5fb1d5
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 9042f49795f5ee6bb9e0bced2b8ba48ba1e093b4
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017100"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115262"
 ---
 # <a name="welcome-to-prod_long"></a>Velkomin(n) í[!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -36,7 +36,7 @@ Ef þú ert þegar með [!INCLUDE[prod_short](includes/prod_short.md)], skráir 
 Einnig er hægt að [fara í myndbandasafn okkar](across-videos.md), eða byrja á [Hefjast handa á Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) námsleið [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Nema annað sé tilgreint, endurspeglar efnið á Docs.microsoft.com-vefsvæðinu nýjustu útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] á netinu. Ef fyrirtækið notar aðra útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] á netinu gæti einhverjir eiginleikar ekki enn verið tiltækir. Ef fyrirtækið notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum gætirðu verið að nota eldri útgáfu. Frekari upplýsingar er að finna á [Algengar spurningar](across-faq.md).
+> Nema annað sé tilgreint, endurspeglar efnið á Docs.microsoft.com-vefsvæðinu nýjustu útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] á netinu. Ef fyrirtækið notar aðra útgáfu af [!INCLUDE[prod_short](includes/prod_short.md)] á netinu gæti einhverjir eiginleikar ekki enn verið tiltækir. Ef fyrirtækið notar [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum gætirðu verið að nota eldri útgáfu. Frekari upplýsingar er að finna á [Algengar spurningar](across-faq.yml).
 
 Eftirfarandi hlutar benda á helstu greinar þar sem hægt er að fá upplýsingar um [!INCLUDE [prod_short](includes/prod_short.md)].  
 

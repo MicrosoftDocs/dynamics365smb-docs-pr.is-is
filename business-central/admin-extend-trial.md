@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a061eb42342859cb6b2d138bee2ba0b6b881d517
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0843dee0e0ac392f138bfa7632635dff8d6411ce
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780033"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184275"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Þarftu meiri tíma til að ákveða hvort þú viljir gerast áskrifandi?
 
 Það er mikilvægt að taka réttar ákvarðanir þegar þú velur viðskiptaforrit og við vitum að það getur tekið tíma að kanna alla kima [!INCLUDE[prod_short](includes/prod_short.md)]. Ef þú þarft meiri tíma til að gera upp hug þinn getur þú framlengt prufutímanum í aðra 30 daga. Þegar lokadagur prufutímans nálgast birtum við tilkynningu til að láta þig vita þegar þú skráir þig inn. Tilkynningin inniheldur tengil á leiðarvísinn **Framlengja pruftíma** sem þú getur notað til að framlengja prufutímanum. Aukadagarnir 30 byrja um leið og þú velur **Framlengja prufu** í leiðarvísinum.
 
-Að framlengja prufutímanum sjálf/ur er aðeins hægt að gera í eitt skipti. Þú getur ekki framlengt hann tvisvar sinnum, að minnsta kosti ekki þú sjálf/ur. Ef þú hefur þegar framlengt tímabilið getur Microsoft samstarfsaðilinn þinn lengt það aftur. Það er einnig aðeins hægt að gera í eitt skipti. Ef þú vinnur ekki með samstarfsaðila skaltu skoða [Hvernig finn ég endursöluaðila?](across-faq.md#findpartner).  
+Að framlengja prufutímanum sjálf/ur er aðeins hægt að gera í eitt skipti. Þú getur ekki framlengt hann tvisvar sinnum, að minnsta kosti ekki þú sjálf/ur. Ef þú hefur þegar framlengt tímabilið getur Microsoft samstarfsaðilinn þinn lengt það aftur. Það er einnig aðeins hægt að gera í eitt skipti. Ef þú vinnur ekki með samstarfsaðila skaltu skoða [Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner).  
 
 ## <a name="to-extend-your-trial-period"></a>Til að framlengja prufutímabilið
 
@@ -49,11 +49,13 @@ Eftir þessa seinni viðbót þar sem fyrirtækið er með allt að 90 daga pruf
 
 Ef framlengda prufutímabilið þitt er útrunnið geturðu fengið [áskrift](https://go.microsoft.com/fwlink/?linkid=828659) að [!INCLUDE[prod_short](includes/prod_short.md)] innan 90 daga og haldið áfram að vinna í fyrirtækinu sem þú stofnaðir. 90 dögum eftir að framlengda prufuáskriftin rennur út eyðum við fyrirtækinu þínu og gögnum nema þú gerist áskrifandi.  
 
+[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
+
 ## <a name="see-also"></a>Sjá einnig
 
 [Stofna ný fyrirtæki](about-new-company.md)  
 [Prufuútgáfa og áskrift](across-preview.md)  
-[Hvernig finn ég endursöluaðila?](across-faq.md#findpartner)  
+[Hvernig finn ég endursöluaðila?](/dynamics365/business-central/across-faq#findpartner)  
 [Framlenging prufuútgáfu (sem stjórnandi)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Hefjast handa sem endursöluaðili Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 

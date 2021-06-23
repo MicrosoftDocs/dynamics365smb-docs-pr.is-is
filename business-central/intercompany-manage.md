@@ -1,8 +1,6 @@
 ---
-title: Færslur á milli dótturfyrirtækja innan sama fyrirtækis | Microsoft Docs
+title: Vinna með millifyrirtækjafærslur
 description: Með milli-fyrirtækjavirkninni getur einfaldað fyrirtækjaferli og færslur á milli dótturfyrirtækja innan sama fyrirtækis.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2021
+ms.date: 06/02/2021
 ms.author: edupont
-ms.openlocfilehash: fbe84deebc00b07536cda6cb36a3a0784450d62f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0a69507b32f8782fe876458adb590529bfd64b20
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786149"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184425"
 ---
 # <a name="managing-intercompany-transactions"></a>Vinna með millifyrirtækjafærslur
+
 Fyrirtækið gæti verið samansett úr mörgum dótturfyrirtækum án þess að hafa sama fjölda bókahalds- og stjórnunarteyma. Milli-fyrirtækjavirknin gerir þér kleift að stunda viðskipti við dóttur- og félagafyrirtæki á sama hátt og þú átt við ytri lánardrottna og viðskiptamenn. Færslur milli fyrirtækja eru aðeins færðar einu sinni í viðeigandi skjal. Notandinn getur notað þær aðgerðir sem hann er vanur, til dæmis stjórnun á útgjöldum og gjaldfærðum skuldum. Vörpunaraðgerðir fyrir bókhaldslykla og víddir tryggja að upplýsingarnar birtist á réttum stað.  
 
 Fjórir helstu kostir milli fyrirtækjavirkninnar eru:  
@@ -33,13 +32,16 @@ Færsluskjölum má stjórna algjörlega. Til dæmis er hægt að hafna fylgiskj
 
 Þegar færsla er færð inn þarf ekki að tilgreina reikningana fyrir stök söfn bóka, heldur þarf aðeins að gefa upp kenni samstarfsfyrirtækisins. Milli-fyrirtækjavirknin býr til færslubókarlínur sem leiða til réttrar stöðu reikninga beggja fyrirtækjanna sem eiga hlut að færslu. Í Útistandandi og viðskiptaskuldir er MF-félagakóta úthlutað á hvaða viðskiptamann eða lánardrottin sem er. Pantanir og reikningar sem eiga við færslur til eða frá þessum félögum stofna þaðan í frá samsvarandi skjöl hjá fyrirtækjafélögum svo að staða reikninganna verði rétt.  
 
- Eftir að samstarfsaðilar hafa verið settir upp sem viðskiptamenn og lánardrottnar í kerfinu og þeim úthlutað MF-félagakóta er hægt að deila innkaupa- og söluskjölum milli fyrirtækja, þar á meðal vörum og vörugjöldum. Milli fyrirtækjavirknin leyfir færslur milli fyrirtækja úr mörgum gagnagrunnum, til dæmis í ólíkum löndum/svæðum, í ólíkum gjaldmiðlum, bókhaldslyklum, víddum og vörunúmerum.  
+Eftir að samstarfsaðilar hafa verið settir upp sem viðskiptamenn og lánardrottnar í kerfinu og þeim úthlutað MF-félagakóta er hægt að deila innkaupa- og söluskjölum milli fyrirtækja, þar á meðal vörum og vörugjöldum. [!INCLUDE [prod_short](includes/prod_short.md)] styður færslur milli fyrirtækja úr mörgum gagnagrunnum, til dæmis í ólíkum löndum/svæðum, í ólíkum gjaldmiðlum, bókhaldslyklum, víddum og vörunúmerum.  
 
-Að steypa saman fjárhagsgögnum getur einkum haft þýðingu í tengslum við ferla innan samstæða. Frekari upplýsingar er að finna í [Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md).
+> [!NOTE]
+> Ekki er hægt að skipta öllum tegundum gagna á milli fyrirtækja á þennan hátt. Innkaupreikningar eru ekki sendir til viðskiptafélaga í gegnum ferli milli fyrirtækja. En sölureikningar sem sendir eru inn í gegnum ferli milli fyrirtækja verða stofnaðir sem innkaupareikningar í móttökufyrirtækinu.
 
-Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem þeim er lýst.
+Að steypa saman fjárhagsgögnum getur einkum gagnast fyrir ferla innan samstæða. Frekari upplýsingar er að finna í [Steypa saman fjárhagsgögnum frá mörgum fyrirtækjum](finance-consolidated-company-reporting.md).
 
-|Til |Sjá|
+Eftirfarandi tafla lýsir röð verkefna með tenglum í greinar þar sem þeim er lýst.
+
+|Til að |Sjá|
 |---|---|
 |Stofna lánardrottna og viðskiptamenn millifyrirtækis sem svokallaða millifyrirtækjafélaga, og setja upp bókhaldslykil millifyrirtækis.|[Uppsetning milli fyrirtækja](intercompany-how-setup.md)|
 |Milli-fyrirtækjaskjöl eða færslubækur eru notuð til að bóka viðskipti við milli-fyrirtækjafélaga.|[Unnið með samstæðuskjöl og færslubækur](intercompany-how-work-documents-journals.md)|
@@ -47,6 +49,7 @@ Eftirfarandi tafla lýsir röð verkefna með tenglum í efnisatriði þar sem �
 |Nota samstæðubókanir til að dreifa kostnaði á milli samstarfsfyrirtækja.|[Úthluta kostnaði til millifyrirtækjafélaga](intercompany-allocate-costs.md)|
 
 ## <a name="see-also"></a>Sjá einnig
+
 [Fjármál](finance.md)  
 [Uppsetning Fjármála](finance-setup-finance.md)  
 [Vinna í færslubókum](ui-work-general-journals.md)  

@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b8f21ea01cd3676320dee3cf6949fdde01b09877
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771211"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074663"
 ---
 # <a name="getting-ready-for-doing-business"></a>Undirbúðu þig fyrir að gera viðskipti
 
 Til hamingju, þú ert búinn að setja upp þitt fyrsta fyrirtæki í [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Til þess að hjálpa þér við að verða tilbúinn til að gera viðskipti getur þú heimsótt **Uppsetning með hjálp** síðuna þar sem hægt að opna uppsetningarleiðbeiningar með hjálp, myndskeið eða efnisatriði í hjálp fyrir valda uppsetningu verkhluta. Til að komast á síðuna skal einfaldlega velja táknið ![Sprocket til að opna valmyndina stillingar](media/ui-experience/settings_icon_small.png) og síðan aðgerðina **Uppsetning með hjálp**.
+Til þess að hjálpa þér við að verða tilbúinn til að gera viðskipti getur þú heimsótt **Uppsetning með hjálp** síðuna þar sem hægt að opna uppsetningarleiðbeiningar með hjálp, myndskeið eða efnisatriði í hjálp fyrir valda uppsetningu verkhluta. Veldu einfaldlega [þennan tengil](https://businesscentral.dynamics.com/?page=1801) til að opna síðuna.  
 
-Að öðrum kosti, til að opna listann yfir uppsetningarleiðbeiningar með hjálp fyrir hvaða hlutverk sem er, skaltu velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn **Uppsetning með hjálp** og velja síðan tengda tengilinn.  
+Einnig er hægt að velja táknið ![Sprocket til að opna táknið stillingavalmynd](media/ui-experience/settings_icon_small.png) og síðan aðgerðina **Uppsetning með hjálp**.
+
+Einnig er hægt að opna listann yfir uppsetningarleiðbeiningar með hjálp með því að velja ![Ljósaperuna sem opnar eiginleika Viðmótsleitar](media/ui-search/search_small.png "Segðu mér hvað þú vilt gera") táknið, slá inn **Uppsetning með hjálp** og velja síðan tengda tengilinn.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]

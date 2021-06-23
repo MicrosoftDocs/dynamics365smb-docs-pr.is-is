@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 868915ebe6a41153d59550f74a955a3ce00b4b15
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 2ccecd22db33e3ce734dd5a5d280f45d22bb2751
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882131"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074563"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Setja upp [!INCLUDE [prod_short](includes/prod_short.md)]-forritið fyrir Microsoft Teams
 
@@ -62,7 +62,7 @@ Hægt er að setja upp Business Central á tvennan hátt:
 
 ## <a name="next-step"></a>Næsta skref
 
-Nú er allt til reiðu til að nota forritið í Teams til að deila gögnum Business Central. Frekari upplýsingar er að finna í [Unnið með gögn Business Central í Microsoft Teams](across-working-with-teams.md).
+Nú er allt til reiðu til að nota forritið í Teams til að leita að tengiliðum eða deila færslum úr Business Central. Frekari upplýsingar eru í [Leitar að viðskiptavinum, lánardrottnum og öðrum tengiliðum úr Microsoft Teams](across-search-contacts-teams.md) eða [Deila færslum í Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>Sjá einnig
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889153"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063428"
 ---
 # <a name="set-up-email"></a>Setja upp tölvupóst
 Fólk í viðskiptum sendir upplýsingar og skjöl á borð við sölu- og innkaupapantanir og reikninga með tölvupósti á hverjum degi. Stjórnendur geta auðveldað verkið með því að tengja einn eða fleiri tölvupóstsreikninga við [!INCLUDE[prod_short](includes/prod_short.md)] þannig að hægt sé að senda skjöl án þess að þurfa að opna annað tölvupóstforrit. Hægt er að semja hver skilaboð fyrir sig með einföldum sniðsverkfærum eins og leturgerð, útliti, litum og svo framvegis og bæta við viðhengjum allt að 100 MB að stærð. Stjórnendur geta einnig sett upp skýrsluútlit sem inniheldur aðeins helstu upplýsingar úr fylgiskjölum. Frekari upplýsingar eru í [Senda skjöl í tölvupósti](ui-how-send-documents-email.md).
@@ -53,7 +53,7 @@ Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] og búið e
 > Ef til staðar eru sérstillingar sem tengjast eldri uppsetningu SMTP-tölvupósts, eru líkur á að eitthvað fari úrskeiðis í sérstillingunum ef viðbætur tölvupóstsins eru notaðar. Mælt er með því að setja upp og prófa viðbæturnar áður en kveikt er á eiginleikanum fyrir viðbótareiginleika tölvupósts.
 
 > [!IMPORTANT]
-> Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á netinu er ekki hægt að nota OAuth 2,0 sannvottunaraðferð.<br> Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er hægt að nota OAuth 2.0 fyrir sannvottun, en búa þarf til forritsskráningu í Azure-gáttinni og síðan keyra uppsetningarleiðbeininguna **Setja upp Azure Active Directory** í [!INCLUDE[prod_short](includes/prod_short.md)] til að tengjast við Azure AD. Frekari upplýsingar er að finna í [Búa til forritsskráningu fyrir Business Central í Azure-gátt](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Ef verið er að nota [!INCLUDE[prod_short](includes/prod_short.md)] á staðnum er hægt að nota OAuth 2.0 fyrir sannvottun, en búa þarf til forritsskráningu í Azure-gáttinni og síðan keyra uppsetningarleiðbeininguna **Setja upp Azure Active Directory** í [!INCLUDE[prod_short](includes/prod_short.md)] til að tengjast við Azure AD. Frekari upplýsingar er að finna í [Búa til forritsskráningu fyrir Business Central í Azure-gátt](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Bæta tölvupóstreikningum við
 Uppsetningarleiðbeiningarnar **Setja upp tölvupóst** með hjálp geta komið þér af stað með tölvupósta.
